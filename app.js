@@ -197,12 +197,13 @@ function App() {
       
       if (isTyping) {
         // Typing phase
-        if (currentCharIndex <= currentToken.length) {
-          setPlaceholderText(baseText + currentToken.substring(0, currentCharIndex) + '|');
+        setPlaceholderText(baseText + currentToken.substring(0, currentCharIndex) + '|');
+        
+        if (currentCharIndex < currentToken.length) {
           currentCharIndex++;
           timeoutId = setTimeout(typeText, 150 + Math.random() * 100); // Human-like typing speed with variation
         } else {
-          // Pause at end
+          // Pause at end with full token visible
           timeoutId = setTimeout(() => {
             isTyping = false;
             typeText();
@@ -218,6 +219,7 @@ function App() {
           // Move to next token
           currentTokenIndex = (currentTokenIndex + 1) % POPULAR_TOKENS.length;
           isTyping = true;
+          currentCharIndex = 0; // Reset to start of new token
           timeoutId = setTimeout(typeText, 800); // Longer pause before starting next token
         }
       }
