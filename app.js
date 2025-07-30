@@ -85,9 +85,84 @@ function App() {
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const [showFilters, setShowFilters] = useState(false);
+  const [isInitialLoad, setIsInitialLoad] = useState(true);
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
+
+  // URL parameter utilities
+  const getUrlParams = () => {
+    const params = new URLSearchParams(window.location.search);
+    return {
+      token: params.get('token') || '',
+      chain: params.get('chain') || '',
+      minTvl: parseInt(params.get('minTvl') || '0', 10),
+      minApy: parseInt(params.get('minApy') || '0', 10)
+    };
+  };
+
+  const updateUrl = (token, chain, minTvl, minApy) => {
+    const params = new URLSearchParams();
+    if (token) params.set('token', token);
+    if (chain) params.set('chain', chain);
+    if (minTvl > 0) params.set('minTvl', minTvl.toString());
+    if (minApy > 0) params.set('minApy', minApy.toString());
+    
+    const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
+    window.history.pushState({}, '', newUrl);
+    
+    // Update page title
+    if (token) {
+      document.title = `DeFi Garden - ${token.toUpperCase()} Yields`;
+    } else {
+      document.title = 'DeFi Garden - Find the best yields for your tokens';
+    }
+  };
+
+  // Initialize state from URL parameters on mount
+  useEffect(() => {
+    const urlParams = getUrlParams();
+    if (urlParams.token) {
+      setSelectedToken(urlParams.token);
+      setSearchInput(urlParams.token);
+      setShowFilters(true);
+      setShowAutocomplete(false); // Explicitly hide autocomplete for URL loads
+      document.title = `DeFi Garden - ${urlParams.token.toUpperCase()} Yields`;
+    }
+    if (urlParams.chain) setSelectedChain(urlParams.chain);
+    if (urlParams.minTvl) setMinTvl(urlParams.minTvl);
+    if (urlParams.minApy) setMinApy(urlParams.minApy);
+    
+    // Mark initial load as complete after a brief delay
+    setTimeout(() => setIsInitialLoad(false), 100);
+  }, []);
+
+  // Handle browser back/forward navigation
+  useEffect(() => {
+    const handlePopState = () => {
+      const urlParams = getUrlParams();
+      
+      // Update state to match URL
+      setSelectedToken(urlParams.token);
+      setSearchInput(urlParams.token);
+      setSelectedChain(urlParams.chain);
+      setMinTvl(urlParams.minTvl);
+      setMinApy(urlParams.minApy);
+      setShowFilters(!!urlParams.token);
+      setShowAutocomplete(false); // Always hide autocomplete on navigation
+      setHighlightedIndex(-1);
+      
+      // Update page title
+      if (urlParams.token) {
+        document.title = `DeFi Garden - ${urlParams.token.toUpperCase()} Yields`;
+      } else {
+        document.title = 'DeFi Garden - Find the best yields for your tokens';
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   // Fetch pools data on mount
   useEffect(() => {
@@ -212,6 +287,13 @@ function App() {
     setCurrentPage(1); // Reset to first page when filters change
   }, [selectedToken, selectedChain, minTvl, minApy, pools]);
 
+  // Update URL when filters change (but not during initial load or popstate events)
+  useEffect(() => {
+    if (!isInitialLoad && selectedToken) {
+      updateUrl(selectedToken, selectedChain, minTvl, minApy);
+    }
+  }, [selectedToken, selectedChain, minTvl, minApy, isInitialLoad]);
+
   // Handle token selection
   const handleTokenSelect = (token) => {
     setSelectedToken(token);
@@ -219,6 +301,7 @@ function App() {
     setShowAutocomplete(false);
     setShowFilters(true); // Show filters after token selection
     setHighlightedIndex(-1);
+    // URL will be updated by the useEffect
   };
 
   // Handle search input changes
@@ -241,7 +324,8 @@ function App() {
 
   // Handle input focus
   const handleInputFocus = () => {
-    if (searchInput.length > 0) {
+    // Only show autocomplete if there's input AND no token is selected (user is searching)
+    if (searchInput.length > 0 && !selectedToken) {
       setShowAutocomplete(true);
     }
   };
@@ -298,6 +382,10 @@ function App() {
     setShowFilters(false);
     setHighlightedIndex(-1);
     setError('');
+    
+    // Clear URL parameters and reset title
+    window.history.pushState({}, '', window.location.pathname);
+    document.title = 'DeFi Garden - Find the best yields for your tokens';
   };
 
   // Format currency
