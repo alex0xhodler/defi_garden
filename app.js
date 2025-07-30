@@ -362,7 +362,9 @@ function App() {
     );
   }
 
-  return React.createElement('div', { className: 'app' },
+  return React.createElement('div', { 
+    className: `app ${selectedToken && filteredPools.length > 0 ? 'has-results' : ''}` 
+  },
     React.createElement('div', { className: 'container' },
       // Header
       React.createElement('div', { className: 'header' },
