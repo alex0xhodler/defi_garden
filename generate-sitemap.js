@@ -126,7 +126,7 @@ function generateSitemap() {
   priorityTokens.forEach(token => {
     priorityNetworks.forEach(network => {
       urls.push({
-        loc: `${SITE_URL}/?token=${token}&chain=${network}`,
+        loc: `${SITE_URL}/?token=${token}&amp;chain=${network}`,
         lastmod: now,
         changefreq: 'daily',
         priority: '0.8'
@@ -139,7 +139,7 @@ function generateSitemap() {
   POPULAR_TOKENS.slice(0, 30).forEach(token => {
     poolTypes.forEach(type => {
       urls.push({
-        loc: `${SITE_URL}/?token=${token}&poolType=${type}`,
+        loc: `${SITE_URL}/?token=${token}&amp;poolType=${type}`,
         lastmod: now,
         changefreq: 'daily',
         priority: '0.7'
