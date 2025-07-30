@@ -1354,7 +1354,7 @@ body {
   /* Mobile Search Input - Fix Keyboard Focus Issues */
   .search-input {
     font-size: var(--font-size-base);
-    padding: var(--space-12) var(--space-16);
+    padding: var(--space-12) var(--space-16) var(--space-12) var(--space-32);
     border-radius: 20px;
     width: 100%;
     box-sizing: border-box;
@@ -1473,7 +1473,7 @@ body {
   }
   
   .search-input {
-    padding: var(--space-10) var(--space-14);
+    padding: var(--space-10) var(--space-14) var(--space-10) var(--space-24);
     font-size: var(--font-size-sm);
     border-radius: 18px;
   }
