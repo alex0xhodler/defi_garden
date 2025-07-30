@@ -1,0 +1,38 @@
+{
+  "name": "defi-garden",
+  "version": "1.0.0",
+  "description": "DeFi Garden - Find the best yields for your tokens across all chains",
+  "main": "app.js",
+  "scripts": {
+    "sitemap": "node generate-sitemap.js",
+    "sitemap:validate": "node generate-sitemap.js && echo 'Validating sitemap...' && curl -s -o /dev/null -w '%{http_code}' https://www.xml-sitemaps.com/validate-xml-sitemap.html",
+    "serve": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "defi",
+    "yield-farming",
+    "cryptocurrency",
+    "apy",
+    "tvl",
+    "lending",
+    "staking",
+    "liquidity-pools",
+    "defillama",
+    "ethereum",
+    "polygon",
+    "avalanche",
+    "arbitrum",
+    "optimism"
+  ],
+  "author": "DeFi Garden",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alex0xhodler/defi_garden.git"
+  },
+  "homepage": "https://defigarden.app",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

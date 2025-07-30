@@ -1,0 +1,108 @@
+name: 'Update Sitemap'
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC to update sitemap with fresh content
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual triggering
+  push:
+    branches: [ main ]
+    paths:
+      - 'generate-sitemap.js'
+      - 'package.json'
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: package.json
+    
+    - name: Generate sitemap
+      run: |
+        echo "🚀 Generating fresh sitemap..."
+        node generate-sitemap.js
+        
+        echo "📊 Sitemap stats:"
+        echo "File size: $(du -h sitemap.xml | cut -f1)"
+        echo "URL count: $(grep -c '<url>' sitemap.xml)"
+        
+        echo "✅ Sitemap generation completed"
+    
+    - name: Validate sitemap XML
+      run: |
+        echo "🔍 Validating sitemap XML structure..."
+        xmllint --noout sitemap.xml && echo "✅ Sitemap XML is valid" || echo "❌ Sitemap XML is invalid"
+    
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "📝 Changes detected in sitemap files"
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "✅ No changes in sitemap files"
+        fi
+    
+    - name: Commit updated sitemap
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        git add sitemap.xml robots.txt
+        git commit -m "chore: update sitemap with latest tokens and yields
+        
+        - Regenerated sitemap.xml with $(grep -c '<url>' sitemap.xml) URLs
+        - Updated robots.txt with current timestamp
+        - Includes latest DeFi tokens and yield opportunities
+        
+        🤖 Automated update via GitHub Actions"
+        
+        echo "✅ Changes committed"
+    
+    - name: Push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
+    
+    - name: Ping Google about sitemap update
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        echo "🔔 Notifying search engines about sitemap update..."
+        
+        # Ping Google
+        curl -s "https://www.google.com/ping?sitemap=https://defigarden.app/sitemap.xml" || echo "Google ping failed"
+        
+        # Ping Bing
+        curl -s "https://www.bing.com/ping?sitemap=https://defigarden.app/sitemap.xml" || echo "Bing ping failed"
+        
+        echo "✅ Search engines notified"
+    
+    - name: Summary
+      run: |
+        echo "## Sitemap Update Summary" >> $GITHUB_STEP_SUMMARY
+        echo "- **Total URLs**: $(grep -c '<url>' sitemap.xml)" >> $GITHUB_STEP_SUMMARY
+        echo "- **File Size**: $(du -h sitemap.xml | cut -f1)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Last Updated**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Status**: ✅ Completed successfully" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### SEO Benefits" >> $GITHUB_STEP_SUMMARY
+        echo "- Individual token yield pages for organic search" >> $GITHUB_STEP_SUMMARY
+        echo "- Network-specific landing pages" >> $GITHUB_STEP_SUMMARY
+        echo "- Pool type categorization pages" >> $GITHUB_STEP_SUMMARY
+        echo "- High-value TVL and APY filter pages" >> $GITHUB_STEP_SUMMARY
+        echo "- Daily update frequency for fresh content" >> $GITHUB_STEP_SUMMARY
