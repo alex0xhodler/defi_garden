@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeFi Garden - Find the best yields for your tokens</title>
+    <meta name="description" content="Discover the highest yielding opportunities in DeFi with smart filtering and real-time data across all chains">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Define process global before React loads to prevent ReferenceError
+        window.process = {
+            env: {}
+        };
+    </script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Persistent Footer -->
+    <footer class="app-footer">
+        <p>
+            Powered by <a href="https://api-docs.defillama.com/" target="_blank" rel="noopener noreferrer">Defillama API</a>. 
+            Made with AI & Degen Love.
+        </p>
+    </footer>
+    
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
