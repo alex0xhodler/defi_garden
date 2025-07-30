@@ -1070,6 +1070,9 @@ body {
   box-shadow: var(--neuro-shadow-raised);
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 240px;
 }
 
 .pool-card.clickable {
@@ -1079,6 +1082,22 @@ body {
 .pool-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(16, 185, 129, 0.15);
+}
+
+.pool-card:hover .pool-apy-hero {
+  box-shadow: var(--neuro-shadow-raised);
+  transform: scale(1.02);
+}
+
+.pool-card:hover .pool-apy-preview {
+  opacity: 1;
+  color: var(--color-primary);
+  transform: translateY(0);
+}
+
+.pool-card:hover .pool-symbol {
+  color: var(--color-primary);
+  transform: translateX(2px);
 }
 
 .pool-card:active {
@@ -1590,5 +1609,557 @@ html {
 
 .autocomplete-dropdown::-webkit-scrollbar-thumb:hover {
   background: var(--color-primary);
+}
+
+/* Pool Footer for Calculate Button */
+.pool-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-16);
+  padding-top: var(--space-16);
+  border-top: 1px solid rgba(16, 185, 129, 0.1);
+}
+
+/* New Optimized Pool Card Layout */
+
+/* Header Section - Symbol + Protocol + APY */
+.pool-header-new {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-16);
+}
+
+.pool-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.pool-symbol {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  font-family: monospace;
+  transition: all 0.2s ease;
+}
+
+.pool-context-inline {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.pool-apy-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-2);
+  text-align: right;
+}
+
+.pool-apy-hero {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-black);
+  color: var(--color-primary);
+  background: var(--color-background);
+  padding: var(--space-8) var(--space-16);
+  border-radius: 12px;
+  box-shadow: var(--neuro-shadow-pressed);
+  transition: all 0.3s ease;
+  line-height: 1;
+}
+
+.pool-apy-preview {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  line-height: 1;
+  padding-right: var(--space-16);
+  text-align: right;
+}
+
+/* Context Bar - Protocol + Chain */
+.pool-context {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  margin-bottom: var(--space-20);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.pool-protocol {
+  font-weight: var(--font-weight-medium);
+}
+
+.context-separator {
+  color: var(--color-text-secondary);
+  opacity: 0.5;
+}
+
+.pool-chain-new {
+  font-weight: var(--font-weight-medium);
+  text-transform: capitalize;
+}
+
+.external-link-new {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  margin-left: var(--space-4);
+}
+
+/* TVL Section */
+.pool-tvl-section {
+  background: var(--color-background);
+  padding: var(--space-12);
+  border-radius: 12px;
+  box-shadow: var(--neuro-shadow-subtle);
+  margin-bottom: var(--space-16);
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tvl-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--space-4);
+}
+
+.tvl-value {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+/* Progressive Disclosure - APY Breakdown */
+.pool-details-expanded {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  margin-bottom: var(--space-16);
+  padding: 0 var(--space-16);
+  background: var(--color-background);
+  border-radius: 8px;
+  box-shadow: var(--neuro-shadow-subtle);
+}
+
+.pool-card:hover .pool-details-expanded {
+  opacity: 1;
+  max-height: 80px;
+  padding: var(--space-12) var(--space-16);
+}
+
+.apy-breakdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-6);
+  font-size: var(--font-size-xs);
+}
+
+.breakdown-label {
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+}
+
+.breakdown-value {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+  background: var(--color-background);
+  padding: var(--space-2) var(--space-6);
+  border-radius: 6px;
+  box-shadow: var(--neuro-shadow-subtle);
+}
+
+
+/* Primary CTA Section */
+.pool-cta-section {
+  margin-top: auto;
+}
+
+.calculate-yield-btn-new {
+  width: 100%;
+  padding: var(--space-16) var(--space-24);
+  border: none;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  box-shadow: var(--neuro-shadow-raised);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.calculate-yield-btn-new:hover {
+  background: var(--color-forest);
+  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(16, 185, 129, 0.25);
+  transform: translateY(-2px);
+}
+
+.calculate-yield-btn-new:active {
+  box-shadow: var(--neuro-shadow-flat);
+  transform: translateY(0);
+}
+
+/* Legacy button styles for backwards compatibility */
+.calculate-yield-btn {
+  padding: var(--space-8) var(--space-16);
+  border: none;
+  background: var(--color-background);
+  color: var(--color-primary);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  box-shadow: var(--neuro-shadow-raised);
+}
+
+.calculate-yield-btn:hover {
+  box-shadow: var(--neuro-shadow-flat);
+  transform: translateY(-1px);
+  color: var(--color-forest);
+}
+
+.calculate-yield-btn:active {
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(0);
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  backdrop-filter: blur(8px);
+}
+
+/* Yield Calculator Modal */
+.yield-calculator-modal {
+  background: var(--color-background);
+  border-radius: 24px;
+  padding: var(--space-32);
+  max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: var(--neuro-shadow-raised), 0 20px 40px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+/* Modal Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-24);
+  padding-bottom: var(--space-16);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.1);
+}
+
+.modal-title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  margin: 0;
+}
+
+.modal-close {
+  background: var(--color-background);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+  transition: all 0.2s ease;
+  box-shadow: var(--neuro-shadow-raised);
+}
+
+.modal-close:hover {
+  box-shadow: var(--neuro-shadow-flat);
+  color: var(--color-red-500);
+  transform: scale(1.05);
+}
+
+.modal-close:active {
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: scale(0.95);
+}
+
+/* Modal Content */
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+
+/* Pool Info Section */
+.pool-info {
+  background: var(--color-background);
+  border-radius: 16px;
+  padding: var(--space-20);
+  box-shadow: var(--neuro-shadow-pressed);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.pool-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pool-info-item .label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+}
+
+.pool-info-item .value {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  font-weight: var(--font-weight-semibold);
+}
+
+.pool-info-item .value.apy {
+  color: var(--color-primary);
+  background: var(--color-background);
+  padding: var(--space-4) var(--space-8);
+  border-radius: 8px;
+  box-shadow: var(--neuro-shadow-subtle);
+}
+
+.pool-info-item .value.token-pair {
+  color: var(--color-text);
+  background: var(--color-background);
+  padding: var(--space-4) var(--space-8);
+  border-radius: 8px;
+  box-shadow: var(--neuro-shadow-subtle);
+  font-family: monospace;
+  font-weight: var(--font-weight-bold);
+}
+
+/* Investment Input */
+.investment-input {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.input-label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+}
+
+.amount-input {
+  padding: var(--space-16);
+  border: none;
+  border-radius: 12px;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  box-shadow: var(--neuro-shadow-pressed);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.amount-input:focus {
+  box-shadow: var(--neuro-shadow-pressed), 0 0 0 3px rgba(16, 185, 129, 0.2);
+}
+
+/* Yield Results */
+.yield-results {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.yield-result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-16) var(--space-20);
+  background: var(--color-background);
+  border-radius: 12px;
+  box-shadow: var(--neuro-shadow-raised);
+}
+
+.yield-period {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+}
+
+.yield-amount {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  background: var(--color-background);
+  padding: var(--space-6) var(--space-12);
+  border-radius: 8px;
+  box-shadow: var(--neuro-shadow-pressed);
+}
+
+.yield-disclaimer {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  text-align: center;
+  font-style: italic;
+  margin-top: var(--space-8);
+  padding: var(--space-12);
+  background: var(--color-background);
+  border-radius: 8px;
+  box-shadow: var(--neuro-shadow-subtle);
+}
+
+/* Start Earning Section */
+.start-earning-section {
+  margin-top: var(--space-8);
+  text-align: center;
+}
+
+.start-earning-btn {
+  padding: var(--space-16) var(--space-32);
+  border: none;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  box-shadow: var(--neuro-shadow-raised);
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.start-earning-btn:hover {
+  background: var(--color-forest);
+  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(16, 185, 129, 0.3);
+  transform: translateY(-2px);
+}
+
+.start-earning-btn:active {
+  box-shadow: var(--neuro-shadow-flat);
+  transform: translateY(0);
+}
+
+.start-earning-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.start-earning-btn:hover::before {
+  left: 100%;
+}
+
+/* Mobile Responsive for Modal */
+@media (max-width: 640px) {
+  .yield-calculator-modal {
+    margin: var(--space-16);
+    padding: var(--space-24);
+    max-height: calc(100vh - 32px);
+  }
+  
+  .modal-header {
+    margin-bottom: var(--space-20);
+  }
+  
+  .modal-title {
+    font-size: var(--font-size-lg);
+  }
+  
+  .pool-info {
+    padding: var(--space-16);
+  }
+  
+  .yield-result-item {
+    padding: var(--space-12) var(--space-16);
+  }
+  
+  .calculate-yield-btn {
+    font-size: var(--font-size-xs);
+    padding: var(--space-6) var(--space-12);
+  }
+  
+  .start-earning-btn {
+    padding: var(--space-12) var(--space-24);
+    font-size: var(--font-size-sm);
+  }
+  
+  /* New Layout Mobile Styles */
+  .pool-symbol {
+    font-size: var(--font-size-lg);
+  }
+  
+  .pool-context-inline {
+    font-size: var(--font-size-xs);
+  }
+  
+  .pool-apy-hero {
+    font-size: var(--font-size-xl);
+    padding: var(--space-6) var(--space-12);
+  }
+  
+  .pool-apy-preview {
+    font-size: var(--font-size-xs);
+  }
+  
+  .pool-tvl-section {
+    padding: var(--space-12);
+    margin-bottom: var(--space-16);
+  }
+  
+  .tvl-value {
+    font-size: var(--font-size-base);
+  }
+  
+  .calculate-yield-btn-new {
+    padding: var(--space-12) var(--space-20);
+    font-size: var(--font-size-sm);
+  }
 }
 

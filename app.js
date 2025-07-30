@@ -139,6 +139,9 @@ function App() {
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const [showFilters, setShowFilters] = useState(false);
   const [isInitialLoad, setIsInitialLoad] = useState(true);
+  const [showYieldCalculator, setShowYieldCalculator] = useState(false);
+  const [selectedPool, setSelectedPool] = useState(null);
+  const [investmentAmount, setInvestmentAmount] = useState(1000);
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
@@ -521,6 +524,38 @@ function App() {
     }
   };
 
+  // Handle yield calculator
+  const handleCalculateYield = (pool, e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setSelectedPool(pool);
+    setShowYieldCalculator(true);
+  };
+
+  // Calculate yields without compounding (simple interest)
+  const calculateYields = (amount, apyPercent) => {
+    const dailyRate = apyPercent / 365 / 100;
+    const weeklyRate = apyPercent / 52.14 / 100; // More accurate weekly calculation
+    
+    return {
+      oneDayGain: amount * dailyRate,
+      oneWeekGain: amount * weeklyRate,
+      dailyRate: dailyRate * 100,
+      weeklyRate: weeklyRate * 100
+    };
+  };
+
+  // Quick preview calculation for card display
+  const getQuickPreview = (pool) => {
+    const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
+    const dailyRate = totalApy / 365 / 100;
+    const dailyEarnings1k = 1000 * dailyRate; // Default $1000 preview
+    return {
+      dailyEarnings: dailyEarnings1k,
+      previewAmount: 1000
+    };
+  };
+
   // Render loading state
   if (loading && pools.length === 0) {
     return React.createElement('div', { className: 'app' },
@@ -673,35 +708,59 @@ function App() {
           React.createElement('div', { className: 'pools-grid', key: 'pools' },
             paginatedPools.map((pool, index) => {
               const protocolUrl = getProtocolUrl(pool);
+              const quickPreview = getQuickPreview(pool);
               return React.createElement('div', {
                 key: `${pool.pool}-${index}`,
                 className: `pool-card ${protocolUrl ? 'clickable' : ''}`,
                 onClick: protocolUrl ? (e) => handlePoolClick(pool, e) : undefined
               },
-                React.createElement('div', { className: 'pool-header' },
-                  React.createElement('div', { className: 'pool-project' },
-                    pool.project,
-                    protocolUrl && React.createElement('span', { className: 'external-link' }, '↗')
-                  ),
-                  React.createElement('div', { className: 'pool-apy' },
-                    formatAPY(pool.apyBase, pool.apyReward)
-                  )
-                ),
-                
-                React.createElement('div', { className: 'pool-details' },
-                  React.createElement('div', { className: 'pool-detail' },
-                    React.createElement('div', { className: 'pool-detail-label' }, 'TVL'),
-                    React.createElement('div', { className: 'pool-detail-value' },
-                      formatCurrency(pool.tvlUsd)
+                // Header: Symbol + Protocol info + APY
+                React.createElement('div', { className: 'pool-header-new' },
+                  React.createElement('div', { className: 'pool-left-section' },
+                    React.createElement('div', { className: 'pool-symbol' },
+                      pool.symbol
+                    ),
+                    React.createElement('div', { className: 'pool-context-inline' },
+                      `on ${pool.project} • ${pool.chain}${protocolUrl ? ' ↗' : ''}`
                     )
                   ),
-                  React.createElement('div', { className: 'pool-detail' },
-                    React.createElement('div', { className: 'pool-detail-label' }, 'Symbol'),
-                    React.createElement('div', { className: 'pool-detail-value' }, pool.symbol)
+                  React.createElement('div', { className: 'pool-apy-section' },
+                    React.createElement('div', { className: 'pool-apy-hero' },
+                      formatAPY(pool.apyBase, pool.apyReward)
+                    ),
+                    React.createElement('div', { className: 'pool-apy-preview' },
+                      `$${quickPreview.dailyEarnings.toFixed(2)}/day`
+                    )
                   )
                 ),
                 
-                React.createElement('div', { className: 'pool-chain' }, pool.chain)
+                // TVL prominent display 
+                React.createElement('div', { className: 'pool-tvl-section' },
+                  React.createElement('div', { className: 'tvl-label' }, 'TVL'),
+                  React.createElement('div', { className: 'tvl-value' },
+                    formatCurrency(pool.tvlUsd)
+                  )
+                ),
+                
+                // Progressive disclosure for APY breakdown (better positioned)
+                React.createElement('div', { className: 'pool-details-expanded' },
+                  pool.apyBase > 0 && React.createElement('div', { className: 'apy-breakdown' },
+                    React.createElement('span', { className: 'breakdown-label' }, 'Base APY:'),
+                    React.createElement('span', { className: 'breakdown-value' }, `${pool.apyBase.toFixed(2)}%`)
+                  ),
+                  pool.apyReward > 0 && React.createElement('div', { className: 'apy-breakdown' },
+                    React.createElement('span', { className: 'breakdown-label' }, 'Reward APY:'),
+                    React.createElement('span', { className: 'breakdown-value' }, `${pool.apyReward.toFixed(2)}%`)
+                  )
+                ),
+                
+                // Primary CTA - Calculate Yield (full width, prominent)
+                React.createElement('div', { className: 'pool-cta-section' },
+                  React.createElement('button', {
+                    className: 'calculate-yield-btn-new',
+                    onClick: (e) => handleCalculateYield(pool, e)
+                  }, 'Calculate Yield')
+                )
               );
             })
           ),
@@ -732,6 +791,91 @@ function App() {
         )
       ),
 
+      // Yield Calculator Modal
+      showYieldCalculator && selectedPool && React.createElement('div', { className: 'modal-overlay' },
+        React.createElement('div', { className: 'yield-calculator-modal' },
+          React.createElement('div', { className: 'modal-header' },
+            React.createElement('h3', { className: 'modal-title' }, 'Yield Calculator'),
+            React.createElement('button', {
+              className: 'modal-close',
+              onClick: () => setShowYieldCalculator(false)
+            }, '×')
+          ),
+
+          React.createElement('div', { className: 'modal-content' },
+            React.createElement('div', { className: 'pool-info' },
+              React.createElement('div', { className: 'pool-info-item' },
+                React.createElement('span', { className: 'label' }, 'Protocol:'),
+                React.createElement('span', { className: 'value' }, selectedPool.project)
+              ),
+              React.createElement('div', { className: 'pool-info-item' },
+                React.createElement('span', { className: 'label' }, 'Token/Pair:'),
+                React.createElement('span', { className: 'value token-pair' }, selectedPool.symbol)
+              ),
+              React.createElement('div', { className: 'pool-info-item' },
+                React.createElement('span', { className: 'label' }, 'APY:'),
+                React.createElement('span', { className: 'value apy' }, 
+                  formatAPY(selectedPool.apyBase, selectedPool.apyReward)
+                )
+              ),
+              React.createElement('div', { className: 'pool-info-item' },
+                React.createElement('span', { className: 'label' }, 'Chain:'),
+                React.createElement('span', { className: 'value' }, selectedPool.chain)
+              )
+            ),
+
+            React.createElement('div', { className: 'investment-input' },
+              React.createElement('label', { className: 'input-label' }, 'Investment Amount ($)'),
+              React.createElement('input', {
+                type: 'number',
+                className: 'amount-input',
+                value: investmentAmount,
+                onChange: (e) => setInvestmentAmount(Number(e.target.value) || 0),
+                min: '0',
+                step: '100'
+              })
+            ),
+
+            (() => {
+              const totalApy = (selectedPool.apyBase || 0) + (selectedPool.apyReward || 0);
+              const yields = calculateYields(investmentAmount, totalApy);
+              
+              return React.createElement('div', { className: 'yield-results' },
+                React.createElement('div', { className: 'yield-result-item' },
+                  React.createElement('div', { className: 'yield-period' }, '1 Day Yield'),
+                  React.createElement('div', { className: 'yield-amount' }, 
+                    `$${yields.oneDayGain.toFixed(2)}`
+                  )
+                ),
+                React.createElement('div', { className: 'yield-result-item' },
+                  React.createElement('div', { className: 'yield-period' }, '1 Week Yield'),
+                  React.createElement('div', { className: 'yield-amount' }, 
+                    `$${yields.oneWeekGain.toFixed(2)}`
+                  )
+                ),
+                React.createElement('div', { className: 'yield-disclaimer' },
+                  'Calculations based on simple interest, not compounded. Actual yields may vary.'
+                )
+              );
+            })(),
+
+            // Start Earning Button (only show if protocol URL is available)
+            (() => {
+              const protocolUrl = getProtocolUrl(selectedPool);
+              if (!protocolUrl) return null;
+              
+              return React.createElement('div', { className: 'start-earning-section' },
+                React.createElement('button', {
+                  className: 'start-earning-btn',
+                  onClick: () => {
+                    window.open(protocolUrl, '_blank', 'noopener,noreferrer');
+                  }
+                }, 'Start Earning →')
+              );
+            })()
+          )
+        )
+      )
     )
   );
 }
