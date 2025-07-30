@@ -200,25 +200,25 @@ function App() {
         if (currentCharIndex <= currentToken.length) {
           setPlaceholderText(baseText + currentToken.substring(0, currentCharIndex) + '|');
           currentCharIndex++;
-          timeoutId = setTimeout(typeText, 100); // Typing speed
+          timeoutId = setTimeout(typeText, 150 + Math.random() * 100); // Human-like typing speed with variation
         } else {
           // Pause at end
           timeoutId = setTimeout(() => {
             isTyping = false;
             typeText();
-          }, 1500); // Pause duration
+          }, 2000); // Longer pause to read the token
         }
       } else {
         // Erasing phase
         if (currentCharIndex > 0) {
           currentCharIndex--;
           setPlaceholderText(baseText + currentToken.substring(0, currentCharIndex) + '|');
-          timeoutId = setTimeout(typeText, 80); // Erasing speed (faster)
+          timeoutId = setTimeout(typeText, 60 + Math.random() * 40); // Natural erasing speed with variation
         } else {
           // Move to next token
           currentTokenIndex = (currentTokenIndex + 1) % POPULAR_TOKENS.length;
           isTyping = true;
-          timeoutId = setTimeout(typeText, 500); // Delay before next token
+          timeoutId = setTimeout(typeText, 800); // Longer pause before starting next token
         }
       }
     };
