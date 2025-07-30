@@ -1,5 +1,29 @@
 const { useState, useEffect, useMemo } = React;
 
+// Pool type categorization
+const LENDING_PROTOCOLS = [
+  'aave', 'aave-v2', 'aave-v3', 'compound', 'compound-v2', 'compound-v3',
+  'morpho', 'morpho-blue', 'spark', 'sparklend', 'maple', 'euler', 'radiant',
+  'iron-bank', 'cream', 'benqi-lending', 'venus', 'tectonic', 'moonwell',
+  'strike', 'granary', 'pac-finance', 'dforce', 'annex'
+];
+
+const DEX_LP_PROTOCOLS = [
+  'uniswap', 'uniswap-v2', 'uniswap-v3', 'curve', 'curve-dex', 'balancer',
+  'balancer-v2', 'pancakeswap', 'pancakeswap-v2', 'pancakeswap-v3', 'sushiswap',
+  'quickswap', 'traderjoe', 'spookyswap', 'spiritswap', 'honeyswap', 'dfyn',
+  'viperswap', 'pangolin', 'lydia', 'defiswap', 'varen', 'levinswap',
+  'aerodrome', 'aerodrome-slipstream', 'velodrome', 'solidly', 'bancor',
+  'kyberswap', 'dodoex', '1inch', 'osmosis', 'raydium', 'orca'
+];
+
+const STAKING_PROTOCOLS = [
+  'lido', 'rocket-pool', 'rocketpool', 'ether.fi', 'ether.fi-stake', 'stakewise',
+  'jito', 'jito-liquid-staking', 'marinade', 'binance-staked-eth', 'coinbase-wrapped-staked-eth',
+  'frax', 'frax-ether', 'benqi', 'benqi-staked-avax', 'staked-frax-ether',
+  'ankr', 'pstake', 'stader', 'chorus-one', 'figment'
+];
+
 // Enhanced Protocol URL mapping with more protocols
 const PROTOCOL_URLS = {
   "lido": "https://lido.fi",
@@ -53,6 +77,34 @@ const PROTOCOL_URLS = {
   "stakewise": "https://stakewise.io"
 };
 
+// Pool type classification function
+const getPoolType = (pool) => {
+  if (!pool.project) return 'Yield Farming';
+  
+  const projectName = pool.project.toLowerCase().replace(/\s+/g, '-');
+  
+  // Check for lending pool indicators
+  if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
+    return 'Lending';
+  }
+  
+  // Check against protocol categories
+  if (LENDING_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'Lending';
+  }
+  
+  if (DEX_LP_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'LP/DEX';
+  }
+  
+  if (STAKING_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'Staking';
+  }
+  
+  // Default to yield farming for unmatched pools
+  return 'Yield Farming';
+};
+
 // Custom hook for debouncing
 function useDebounce(value, delay) {
   const [debouncedValue, setDebouncedValue] = useState(value);
@@ -77,6 +129,7 @@ function App() {
   const [selectedToken, setSelectedToken] = useState('');
   const [searchInput, setSearchInput] = useState('');
   const [selectedChain, setSelectedChain] = useState('');
+  const [selectedPoolType, setSelectedPoolType] = useState('All');
   const [minTvl, setMinTvl] = useState(0);
   const [minApy, setMinApy] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
@@ -89,6 +142,87 @@ function App() {
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
 
+<<<<<<< Updated upstream
+=======
+  // URL parameter utilities
+  const getUrlParams = () => {
+    const params = new URLSearchParams(window.location.search);
+    return {
+      token: params.get('token') || '',
+      chain: params.get('chain') || '',
+      poolType: params.get('poolType') || 'All',
+      minTvl: parseInt(params.get('minTvl') || '0', 10),
+      minApy: parseInt(params.get('minApy') || '0', 10)
+    };
+  };
+
+  const updateUrl = (token, chain, poolType, minTvl, minApy) => {
+    const params = new URLSearchParams();
+    if (token) params.set('token', token);
+    if (chain) params.set('chain', chain);
+    if (poolType && poolType !== 'All') params.set('poolType', poolType);
+    if (minTvl > 0) params.set('minTvl', minTvl.toString());
+    if (minApy > 0) params.set('minApy', minApy.toString());
+    
+    const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
+    window.history.pushState({}, '', newUrl);
+    
+    // Update page title
+    if (token) {
+      document.title = `DeFi Garden - ${token.toUpperCase()} Yields`;
+    } else {
+      document.title = 'DeFi Garden - Find the best yields for your tokens';
+    }
+  };
+
+  // Initialize state from URL parameters on mount
+  useEffect(() => {
+    const urlParams = getUrlParams();
+    if (urlParams.token) {
+      setSelectedToken(urlParams.token);
+      setSearchInput(urlParams.token);
+      setShowFilters(true);
+      setShowAutocomplete(false); // Explicitly hide autocomplete for URL loads
+      document.title = `DeFi Garden - ${urlParams.token.toUpperCase()} Yields`;
+    }
+    if (urlParams.chain) setSelectedChain(urlParams.chain);
+    if (urlParams.poolType) setSelectedPoolType(urlParams.poolType);
+    if (urlParams.minTvl) setMinTvl(urlParams.minTvl);
+    if (urlParams.minApy) setMinApy(urlParams.minApy);
+    
+    // Mark initial load as complete after a brief delay
+    setTimeout(() => setIsInitialLoad(false), 100);
+  }, []);
+
+  // Handle browser back/forward navigation
+  useEffect(() => {
+    const handlePopState = () => {
+      const urlParams = getUrlParams();
+      
+      // Update state to match URL
+      setSelectedToken(urlParams.token);
+      setSearchInput(urlParams.token);
+      setSelectedChain(urlParams.chain);
+      setSelectedPoolType(urlParams.poolType);
+      setMinTvl(urlParams.minTvl);
+      setMinApy(urlParams.minApy);
+      setShowFilters(!!urlParams.token);
+      setShowAutocomplete(false); // Always hide autocomplete on navigation
+      setHighlightedIndex(-1);
+      
+      // Update page title
+      if (urlParams.token) {
+        document.title = `DeFi Garden - ${urlParams.token.toUpperCase()} Yields`;
+      } else {
+        document.title = 'DeFi Garden - Find the best yields for your tokens';
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+>>>>>>> Stashed changes
   // Fetch pools data on mount
   useEffect(() => {
     const fetchPools = async () => {
@@ -174,6 +308,29 @@ function App() {
     return Array.from(chainSet).sort();
   }, [selectedToken, filteredPools]);
 
+  // Get pool type counts for selected token (before other filters)
+  const poolTypeCounts = useMemo(() => {
+    if (!selectedToken || !pools.length) return {};
+    
+    const counts = { 'All': 0, 'Lending': 0, 'LP/DEX': 0, 'Staking': 0, 'Yield Farming': 0 };
+    
+    pools.forEach(pool => {
+      if (!pool.symbol) return;
+      
+      // Check if any symbol in the pool matches the selected token
+      const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
+      const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
+      
+      if (hasToken && pool.tvlUsd > 0) {
+        const poolType = getPoolType(pool);
+        counts[poolType]++;
+        counts['All']++;
+      }
+    });
+    
+    return counts;
+  }, [selectedToken, pools]);
+
   // Filter and sort pools when token, chain, TVL, or APY selection changes
   useEffect(() => {
     if (!selectedToken) {
@@ -191,6 +348,9 @@ function App() {
       // Filter by chain if selected
       const chainMatch = !selectedChain || pool.chain === selectedChain;
       
+      // Filter by pool type if selected
+      const poolTypeMatch = selectedPoolType === 'All' || getPoolType(pool) === selectedPoolType;
+      
       // Filter by minimum TVL
       const tvlMatch = pool.tvlUsd >= minTvl;
       
@@ -198,7 +358,7 @@ function App() {
       const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
       const apyMatch = totalApy >= minApy;
       
-      return hasToken && chainMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+      return hasToken && chainMatch && poolTypeMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
     });
 
     // Sort by total APY (base + reward) descending
@@ -210,8 +370,18 @@ function App() {
 
     setFilteredPools(filtered);
     setCurrentPage(1); // Reset to first page when filters change
-  }, [selectedToken, selectedChain, minTvl, minApy, pools]);
+  }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, pools]);
 
+<<<<<<< Updated upstream
+=======
+  // Update URL when filters change (but not during initial load or popstate events)
+  useEffect(() => {
+    if (!isInitialLoad && selectedToken) {
+      updateUrl(selectedToken, selectedChain, selectedPoolType, minTvl, minApy);
+    }
+  }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, isInitialLoad]);
+
+>>>>>>> Stashed changes
   // Handle token selection
   const handleTokenSelect = (token) => {
     setSelectedToken(token);
@@ -231,6 +401,7 @@ function App() {
       setSelectedToken('');
       setFilteredPools([]);
       setSelectedChain('');
+      setSelectedPoolType('All');
       setShowFilters(false);
     }
     
@@ -290,6 +461,7 @@ function App() {
     setSelectedToken('');
     setSearchInput('');
     setSelectedChain('');
+    setSelectedPoolType('All');
     setMinTvl(0);
     setMinApy(0);
     setFilteredPools([]);
@@ -429,6 +601,27 @@ function App() {
               availableChains.map(chain => 
                 React.createElement('option', { key: chain, value: chain }, chain)
               )
+            )
+          ),
+
+          // Pool Type Filter
+          React.createElement('div', { className: 'filter-group' },
+            React.createElement('label', { className: 'filter-label' }, 'Pool Type'),
+            React.createElement('select', {
+              className: 'filter-select',
+              value: selectedPoolType,
+              onChange: (e) => setSelectedPoolType(e.target.value)
+            },
+              React.createElement('option', { value: 'All' }, 
+                `All Pool Types${poolTypeCounts['All'] ? ' (' + poolTypeCounts['All'] + ')' : ''}`),
+              React.createElement('option', { value: 'Lending' }, 
+                `Lending${poolTypeCounts['Lending'] ? ' (' + poolTypeCounts['Lending'] + ')' : ''}`),
+              React.createElement('option', { value: 'LP/DEX' }, 
+                `LP/DEX${poolTypeCounts['LP/DEX'] ? ' (' + poolTypeCounts['LP/DEX'] + ')' : ''}`),
+              React.createElement('option', { value: 'Staking' }, 
+                `Staking${poolTypeCounts['Staking'] ? ' (' + poolTypeCounts['Staking'] + ')' : ''}`),
+              React.createElement('option', { value: 'Yield Farming' }, 
+                `Yield Farming${poolTypeCounts['Yield Farming'] ? ' (' + poolTypeCounts['Yield Farming'] + ')' : ''}`)
             )
           ),
 
