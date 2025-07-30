@@ -138,12 +138,11 @@ function App() {
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const [showFilters, setShowFilters] = useState(false);
+  const [isInitialLoad, setIsInitialLoad] = useState(true);
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
 
-<<<<<<< Updated upstream
-=======
   // URL parameter utilities
   const getUrlParams = () => {
     const params = new URLSearchParams(window.location.search);
@@ -221,8 +220,6 @@ function App() {
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
-
->>>>>>> Stashed changes
   // Fetch pools data on mount
   useEffect(() => {
     const fetchPools = async () => {
@@ -372,16 +369,12 @@ function App() {
     setCurrentPage(1); // Reset to first page when filters change
   }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, pools]);
 
-<<<<<<< Updated upstream
-=======
   // Update URL when filters change (but not during initial load or popstate events)
   useEffect(() => {
     if (!isInitialLoad && selectedToken) {
       updateUrl(selectedToken, selectedChain, selectedPoolType, minTvl, minApy);
     }
   }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, isInitialLoad]);
-
->>>>>>> Stashed changes
   // Handle token selection
   const handleTokenSelect = (token) => {
     setSelectedToken(token);
