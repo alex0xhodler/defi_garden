@@ -802,8 +802,8 @@ function App() {
                   )
                 ),
                 
-                // Progressive disclosure for APY breakdown (better positioned)
-                React.createElement('div', { className: 'pool-details-expanded' },
+                // Progressive disclosure for APY breakdown (only show if there's meaningful data)
+                (pool.apyBase > 0 || pool.apyReward > 0) && React.createElement('div', { className: 'pool-details-expanded' },
                   pool.apyBase > 0 && React.createElement('div', { className: 'apy-breakdown' },
                     React.createElement('span', { className: 'breakdown-label' }, 'Base APY:'),
                     React.createElement('span', { className: 'breakdown-value' }, `${pool.apyBase.toFixed(2)}%`)
