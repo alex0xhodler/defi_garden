@@ -134,6 +134,14 @@ function App() {
   const [minApy, setMinApy] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    // Check localStorage first, then fall back to system preference
+    const saved = localStorage.getItem('theme');
+    if (saved) {
+      return saved === 'dark';
+    }
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  });
   const [error, setError] = useState('');
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
@@ -245,6 +253,41 @@ function App() {
 
     fetchPools();
   }, []);
+
+  // Theme management effect
+  useEffect(() => {
+    // Apply theme to document root
+    document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+    
+    // Save theme preference to localStorage
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    
+    // Update meta theme-color for mobile browsers
+    const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+    if (themeColorMeta) {
+      themeColorMeta.setAttribute('content', isDarkMode ? '#1F2121' : '#2D5A3D');
+    }
+  }, [isDarkMode]);
+
+  // Listen for system theme changes
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    
+    const handleChange = (e) => {
+      // Only update if user hasn't set a preference
+      if (!localStorage.getItem('theme')) {
+        setIsDarkMode(e.matches);
+      }
+    };
+    
+    mediaQuery.addEventListener('change', handleChange);
+    return () => mediaQuery.removeEventListener('change', handleChange);
+  }, []);
+
+  // Toggle theme function
+  const toggleTheme = () => {
+    setIsDarkMode(prev => !prev);
+  };
 
   // Get unique tokens for autocomplete with smart sorting
   const availableTokens = useMemo(() => {
@@ -571,6 +614,23 @@ function App() {
   return React.createElement('div', { 
     className: `app ${selectedToken && filteredPools.length > 0 ? 'has-results' : ''}` 
   },
+    // Theme Toggle
+    React.createElement('button', {
+      className: 'theme-toggle',
+      'data-theme': isDarkMode ? 'dark' : 'light',
+      onClick: toggleTheme,
+      'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
+    },
+      React.createElement('div', { className: 'theme-toggle-icon' },
+        isDarkMode ? '☀️' : '🌙'
+      ),
+      React.createElement('div', { className: 'theme-toggle-switch' },
+        React.createElement('div', { className: 'theme-toggle-handle' })
+      ),
+      React.createElement('div', { className: 'theme-toggle-text' },
+        isDarkMode ? 'Light' : 'Dark'
+      )
+    ),
     React.createElement('div', { className: 'container' },
       // Header
       React.createElement('div', { className: 'header' },

@@ -149,7 +149,8 @@
   :root {
     /* RGB versions for opacity control (Dark Mode) */
     --color-gray-400-rgb: 119, 124, 124;
-    --color-teal-300-rgb: 50, 184, 198;
+    --color-green-300-rgb: 74, 222, 128;
+    --color-green-400-rgb: 34, 197, 94;
     --color-gray-300-rgb: 167, 169, 169;
     --color-gray-200-rgb: 245, 245, 245;
 
@@ -168,18 +169,18 @@
     --color-surface: var(--color-charcoal-800);
     --color-text: var(--color-gray-200);
     --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
-    --color-primary: var(--color-teal-300);
-    --color-primary-hover: var(--color-teal-400);
-    --color-primary-active: var(--color-teal-800);
+    --color-primary: #4ADE80;
+    --color-primary-hover: #22C55E;
+    --color-primary-active: #16A34A;
     --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
     --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
     --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
     --color-border: rgba(var(--color-gray-400-rgb), 0.3);
     --color-error: var(--color-red-400);
-    --color-success: var(--color-teal-300);
+    --color-success: #4ADE80;
     --color-warning: var(--color-orange-400);
     --color-info: var(--color-gray-300);
-    --color-focus-ring: rgba(var(--color-teal-300-rgb), 0.4);
+    --color-focus-ring: rgba(var(--color-green-300-rgb), 0.4);
     --color-btn-primary-text: var(--color-slate-900);
     --color-card-border: rgba(var(--color-gray-400-rgb), 0.2);
     --color-card-border-inner: rgba(var(--color-gray-400-rgb), 0.15);
@@ -196,6 +197,14 @@
     --status-border-opacity: 0.25;
     --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
     --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+
+    /* Dark Mode Neumorphic Shadows */
+    --neuro-shadow-dark: #1A1D1D;
+    --neuro-shadow-light: #404545;
+    --neuro-shadow-raised: 18px 18px 30px var(--neuro-shadow-dark), -18px -18px 30px var(--neuro-shadow-light);
+    --neuro-shadow-pressed: inset 8px 8px 16px var(--neuro-shadow-dark), inset -8px -8px 16px var(--neuro-shadow-light);
+    --neuro-shadow-flat: 8px 8px 16px var(--neuro-shadow-dark), -8px -8px 16px var(--neuro-shadow-light);
+    --neuro-shadow-subtle: 4px 4px 8px var(--neuro-shadow-dark), -4px -4px 8px var(--neuro-shadow-light);
 
     /* RGB versions for dark mode */
     --color-success-rgb: var(--color-teal-300-rgb);
@@ -759,7 +768,7 @@ select.form-control {
   --color-sage: #6EE7B7;
   --color-forest: #065F46;
   
-  /* Neumorphism Shadows */
+  /* Neumorphism Shadows (Light Mode) */
   --neuro-shadow-raised: 18px 18px 30px var(--neuro-shadow-dark), -18px -18px 30px var(--neuro-shadow-light);
   --neuro-shadow-pressed: inset 8px 8px 16px var(--neuro-shadow-dark), inset -8px -8px 16px var(--neuro-shadow-light);
   --neuro-shadow-flat: 8px 8px 16px var(--neuro-shadow-dark), -8px -8px 16px var(--neuro-shadow-light);
@@ -2160,6 +2169,176 @@ html {
   .calculate-yield-btn-new {
     padding: var(--space-12) var(--space-20);
     font-size: var(--font-size-sm);
+  }
+}
+
+/* Dark Mode Toggle Styles */
+.theme-toggle {
+  position: fixed;
+  top: var(--space-20);
+  right: var(--space-20);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  background: var(--color-background);
+  border-radius: var(--radius-full);
+  padding: var(--space-8);
+  box-shadow: var(--neuro-shadow-raised);
+  transition: all var(--duration-normal) var(--ease-standard);
+  border: none;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  box-shadow: var(--neuro-shadow-flat);
+  transform: translateY(-1px);
+}
+
+.theme-toggle:active {
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(0);
+}
+
+.theme-toggle-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: transform var(--duration-normal) var(--ease-standard);
+}
+
+.theme-toggle-switch {
+  position: relative;
+  width: 48px;
+  height: 24px;
+  background: var(--color-surface);
+  border-radius: var(--radius-full);
+  box-shadow: var(--neuro-shadow-pressed);
+  transition: all var(--duration-normal) var(--ease-standard);
+}
+
+.theme-toggle-handle {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background: var(--color-background);
+  border-radius: 50%;
+  box-shadow: var(--neuro-shadow-raised);
+  transition: all var(--duration-normal) var(--ease-standard);
+}
+
+.theme-toggle[data-theme="dark"] .theme-toggle-handle {
+  left: 26px;
+  background: var(--color-primary);
+}
+
+.theme-toggle[data-theme="dark"] .theme-toggle-switch {
+  background: var(--color-secondary);
+}
+
+.theme-toggle-text {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  user-select: none;
+}
+
+/* Data attribute based theme switching */
+[data-theme="dark"] {
+  /* RGB versions for opacity control (Dark Mode) */
+  --color-gray-400-rgb: 119, 124, 124;
+  --color-green-300-rgb: 74, 222, 128;
+  --color-green-400-rgb: 34, 197, 94;
+  --color-gray-300-rgb: 167, 169, 169;
+  --color-gray-200-rgb: 245, 245, 245;
+
+  /* Background color tokens (Dark Mode) */
+  --color-bg-1: rgba(29, 78, 216, 0.15); /* Dark blue */
+  --color-bg-2: rgba(180, 83, 9, 0.15); /* Dark yellow */
+  --color-bg-3: rgba(21, 128, 61, 0.15); /* Dark green */
+  --color-bg-4: rgba(185, 28, 28, 0.15); /* Dark red */
+  --color-bg-5: rgba(107, 33, 168, 0.15); /* Dark purple */
+  --color-bg-6: rgba(194, 65, 12, 0.15); /* Dark orange */
+  --color-bg-7: rgba(190, 24, 93, 0.15); /* Dark pink */
+  --color-bg-8: rgba(8, 145, 178, 0.15); /* Dark cyan */
+  
+  /* Semantic Color Tokens (Dark Mode) */
+  --color-background: var(--color-charcoal-700);
+  --color-surface: var(--color-charcoal-800);
+  --color-text: var(--color-gray-200);
+  --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
+  --color-primary: #4ADE80;
+  --color-primary-hover: #22C55E;
+  --color-primary-active: #16A34A;
+  --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
+  --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
+  --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
+  --color-border: rgba(var(--color-gray-400-rgb), 0.3);
+  --color-error: var(--color-red-400);
+  --color-success: #4ADE80;
+  --color-warning: var(--color-orange-400);
+  --color-info: var(--color-gray-300);
+  --color-focus-ring: rgba(var(--color-green-300-rgb), 0.4);
+  --color-btn-primary-text: var(--color-slate-900);
+  --color-card-border: rgba(var(--color-gray-400-rgb), 0.2);
+  --color-card-border-inner: rgba(var(--color-gray-400-rgb), 0.15);
+  --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  --button-border-secondary: rgba(var(--color-gray-400-rgb), 0.2);
+  --color-border-secondary: rgba(var(--color-gray-400-rgb), 0.2);
+  --color-select-caret: rgba(var(--color-gray-200-rgb), 0.8);
+
+  /* Common style patterns - updated for dark mode */
+  --focus-ring: 0 0 0 3px var(--color-focus-ring);
+  --focus-outline: 2px solid var(--color-primary);
+  --status-bg-opacity: 0.15;
+  --status-border-opacity: 0.25;
+
+  /* Dark Mode Neumorphic Shadows */
+  --neuro-shadow-dark: #1A1D1D;
+  --neuro-shadow-light: #404545;
+  --neuro-shadow-raised: 18px 18px 30px var(--neuro-shadow-dark), -18px -18px 30px var(--neuro-shadow-light);
+  --neuro-shadow-pressed: inset 8px 8px 16px var(--neuro-shadow-dark), inset -8px -8px 16px var(--neuro-shadow-light);
+  --neuro-shadow-flat: 8px 8px 16px var(--neuro-shadow-dark), -8px -8px 16px var(--neuro-shadow-light);
+  --neuro-shadow-subtle: 4px 4px 8px var(--neuro-shadow-dark), -4px -4px 8px var(--neuro-shadow-light);
+}
+
+/* Mobile Responsive for Theme Toggle */
+@media (max-width: 640px) {
+  .theme-toggle {
+    top: var(--space-16);
+    right: var(--space-16);
+    padding: var(--space-6);
+    gap: var(--space-6);
+  }
+
+  .theme-toggle-icon {
+    width: 18px;
+    height: 18px;
+    font-size: 14px;
+  }
+
+  .theme-toggle-switch {
+    width: 40px;
+    height: 20px;
+  }
+
+  .theme-toggle-handle {
+    width: 16px;
+    height: 16px;
+  }
+
+  .theme-toggle[data-theme="dark"] .theme-toggle-handle {
+    left: 22px;
+  }
+
+  .theme-toggle-text {
+    font-size: var(--font-size-xs);
   }
 }
 
