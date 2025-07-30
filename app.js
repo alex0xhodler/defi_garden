@@ -139,14 +139,9 @@ function App() {
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const [showFilters, setShowFilters] = useState(false);
   const [isInitialLoad, setIsInitialLoad] = useState(true);
-  const [placeholderText, setPlaceholderText] = useState('');
-  const [isInputFocused, setIsInputFocused] = useState(false);
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
-
-  // Popular tokens for typing animation
-  const POPULAR_TOKENS = ['ETH', 'BTC', 'SOL', 'XRP', 'HYPE', 'USDE', 'USDC', 'AVAX', 'MATIC', 'DOT', 'LINK', 'UNI', 'AAVE', 'CRV'];
 
   // URL parameter utilities
   const getUrlParams = () => {
@@ -178,63 +173,6 @@ function App() {
       document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
     }
   };
-
-  // Typing animation for placeholder
-  useEffect(() => {
-    if (isInputFocused || selectedToken || searchInput) {
-      setPlaceholderText('Search for token symbol (e.g., USDC, ETH, BTC)...');
-      return;
-    }
-
-    let currentTokenIndex = 0;
-    let currentCharIndex = 0;
-    let isTyping = true;
-    let timeoutId;
-
-    const typeText = () => {
-      const currentToken = POPULAR_TOKENS[currentTokenIndex];
-      const baseText = 'Searching for ';
-      
-      if (isTyping) {
-        // Typing phase
-        setPlaceholderText(baseText + currentToken.substring(0, currentCharIndex) + '|');
-        
-        if (currentCharIndex < currentToken.length) {
-          currentCharIndex++;
-          timeoutId = setTimeout(typeText, 150 + Math.random() * 100); // Human-like typing speed with variation
-        } else {
-          // Pause at end with full token visible
-          timeoutId = setTimeout(() => {
-            isTyping = false;
-            typeText();
-          }, 2000); // Longer pause to read the token
-        }
-      } else {
-        // Erasing phase
-        if (currentCharIndex > 0) {
-          currentCharIndex--;
-          setPlaceholderText(baseText + currentToken.substring(0, currentCharIndex) + '|');
-          timeoutId = setTimeout(typeText, 60 + Math.random() * 40); // Natural erasing speed with variation
-        } else {
-          // Move to next token
-          currentTokenIndex = (currentTokenIndex + 1) % POPULAR_TOKENS.length;
-          isTyping = true;
-          currentCharIndex = 0; // Reset to start of new token
-          timeoutId = setTimeout(typeText, 800); // Longer pause before starting next token
-        }
-      }
-    };
-
-    // Start the animation
-    typeText();
-
-    // Cleanup on unmount or dependencies change
-    return () => {
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-      }
-    };
-  }, [isInputFocused, selectedToken, searchInput, POPULAR_TOKENS]);
 
   // Initialize state from URL parameters on mount
   useEffect(() => {
@@ -468,7 +406,6 @@ function App() {
 
   // Handle input focus
   const handleInputFocus = () => {
-    setIsInputFocused(true);
     // Only show autocomplete if there's input AND no token is selected (user is searching)
     if (searchInput.length > 0 && !selectedToken) {
       setShowAutocomplete(true);
@@ -477,7 +414,6 @@ function App() {
 
   // Handle input blur to close autocomplete
   const handleInputBlur = () => {
-    setIsInputFocused(false);
     // Delay hiding to allow for clicks on autocomplete items
     setTimeout(() => {
       setShowAutocomplete(false);
@@ -618,7 +554,7 @@ function App() {
           React.createElement('input', {
             type: 'text',
             className: 'search-input',
-            placeholder: placeholderText || 'Search for token symbol (e.g., USDC, ETH, BTC)...',
+            placeholder: 'Search for a token...',
             value: searchInput,
             onChange: handleSearchInputChange,
             onKeyDown: handleKeyDown,

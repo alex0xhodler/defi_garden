@@ -1592,18 +1592,3 @@ html {
   background: var(--color-primary);
 }
 
-/* Typing animation cursor effect */
-.search-input::placeholder {
-  animation: none;
-}
-
-/* Add blinking animation for placeholder text with cursor */
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
-}
-
-/* When placeholder contains cursor (|), make it blink */
-.search-input[placeholder*="|"]::placeholder {
-  animation: none; /* Let JavaScript handle the cursor */
-}
