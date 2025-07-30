@@ -187,65 +187,47 @@
         // Load React dependencies sequentially to avoid blocking
         document.addEventListener('DOMContentLoaded', async () => {
             try {
-                // Show that we're loading scripts
-                const initialLoader = document.getElementById('initial-loader');
-                if (initialLoader) {
-                    const message = initialLoader.querySelector('.empty-message');
-                    if (message) message.textContent = 'Loading React components...';
-                }
-                
                 await loadScript('https://unpkg.com/react@18/umd/react.production.min.js');
                 await loadScript('https://unpkg.com/react-dom@18/umd/react-dom.production.min.js');
                 await loadScript('https://unpkg.com/@babel/standalone/babel.min.js');
                 
-                // Clear the initial loader before mounting React
-                if (initialLoader && initialLoader.querySelector('.empty-message')) {
-                    initialLoader.querySelector('.empty-message').textContent = 'Initializing app...';
-                }
-                
-                // Load main app after all dependencies
+                // Load main app after all dependencies - React will replace root content
                 const appScript = document.createElement('script');
                 appScript.type = 'text/babel';
                 appScript.src = 'app.js';
-                appScript.onload = () => {
-                    // Remove initial loader once React has mounted
-                    setTimeout(() => {
-                        const loader = document.getElementById('initial-loader');
-                        if (loader) loader.remove();
-                    }, 100);
-                };
                 document.head.appendChild(appScript);
             } catch (error) {
                 console.error('Failed to load dependencies:', error);
-                // Show error state
-                const initialLoader = document.getElementById('initial-loader');
-                if (initialLoader) {
-                    const message = initialLoader.querySelector('.empty-message');
-                    if (message) message.textContent = 'Failed to load app. Please refresh.';
-                    const spinner = initialLoader.querySelector('.loading-spinner');
-                    if (spinner) spinner.style.display = 'none';
-                }
+                // Show error in the root div
+                document.getElementById('root').innerHTML = `
+                    <div class="app">
+                        <div class="container">
+                            <div class="header">
+                                <h1 class="logo">DeFi Garden</h1>
+                                <p class="subtitle">Find the best yields for your tokens across all chains</p>
+                            </div>
+                            <div class="loading-state">
+                                <div class="empty-message">Failed to load app. Please refresh the page.</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
             }
         });
     </script>
 </head>
 <body>
     <div id="root">
-        <!-- Temporary loading state - will be replaced by React -->
-        <div class="app" id="initial-loader">
+        <!-- Simple initial loading state -->
+        <div class="app">
             <div class="container">
                 <div class="header">
                     <h1 class="logo">DeFi Garden</h1>
                     <p class="subtitle">Find the best yields for your tokens across all chains</p>
                 </div>
-                <div class="search-section">
-                    <div class="search-container">
-                        <input type="text" class="search-input" placeholder="Loading..." disabled>
-                    </div>
-                </div>
                 <div class="loading-state">
                     <div class="loading-spinner"></div>
-                    <div class="empty-message">Loading yield opportunities...</div>
+                    <div class="empty-message">Loading application...</div>
                 </div>
             </div>
         </div>
