@@ -168,9 +168,9 @@ function App() {
     
     // Update page title
     if (token) {
-      document.title = `DeFi Garden - ${token.toUpperCase()} Yields`;
+      document.title = `${token.toUpperCase()} Yields | DeFi Garden 🌱`;
     } else {
-      document.title = 'DeFi Garden - Find the best yields for your tokens';
+      document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
     }
   };
 
@@ -182,7 +182,7 @@ function App() {
       setSearchInput(urlParams.token);
       setShowFilters(true);
       setShowAutocomplete(false); // Explicitly hide autocomplete for URL loads
-      document.title = `DeFi Garden - ${urlParams.token.toUpperCase()} Yields`;
+      document.title = `${urlParams.token.toUpperCase()} Yields | DeFi Garden 🌱`;
     }
     if (urlParams.chain) setSelectedChain(urlParams.chain);
     if (urlParams.poolType) setSelectedPoolType(urlParams.poolType);
@@ -211,9 +211,9 @@ function App() {
       
       // Update page title
       if (urlParams.token) {
-        document.title = `DeFi Garden - ${urlParams.token.toUpperCase()} Yields`;
+        document.title = `${urlParams.token.toUpperCase()} Yields | DeFi Garden 🌱`;
       } else {
-        document.title = 'DeFi Garden - Find the best yields for your tokens';
+        document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
       }
     };
 
@@ -468,7 +468,7 @@ function App() {
     
     // Clear URL parameters and reset title
     window.history.pushState({}, '', window.location.pathname);
-    document.title = 'DeFi Garden - Find the best yields for your tokens';
+    document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
   };
 
   // Format currency
