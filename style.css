@@ -1329,7 +1329,7 @@ body {
   background: rgba(16, 185, 129, 0.1);
 }
 
-/* Responsive Design */
+/* Responsive Design - Mobile Only (Desktop Unchanged) */
 @media (max-width: 768px) {
   .app.has-results {
     padding-top: var(--space-20);
@@ -1337,18 +1337,66 @@ body {
   
   .app:not(.has-results) .container {
     padding: var(--space-16) var(--space-16);
+    max-width: 100%;
   }
   
   .app.has-results .container {
     padding: var(--space-16) var(--space-16);
+    max-width: 100%;
   }
   
+  /* Mobile Search Container - Fix Width Overflow */
+  .search-container {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  /* Mobile Search Input - Fix Keyboard Focus Issues */
+  .search-input {
+    font-size: var(--font-size-base);
+    padding: var(--space-12) var(--space-20);
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 44px; /* Minimum touch target */
+  }
+  
+  /* Mobile Autocomplete Dropdown - Better Positioning */
+  .autocomplete-dropdown {
+    max-height: 60vh; /* Limit height on mobile */
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .autocomplete-item {
+    padding: var(--space-16) var(--space-20);
+    min-height: 44px; /* Minimum touch target */
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-base);
+  }
+  
+  /* Mobile Filters - Stack Vertically */
   .filters-grid {
     grid-template-columns: 1fr;
+    gap: var(--space-16);
   }
   
+  .filter-select {
+    min-height: 44px; /* Minimum touch target */
+    font-size: var(--font-size-base);
+    padding: var(--space-12) var(--space-32) var(--space-12) var(--space-16);
+  }
+  
+  /* Mobile Pool Cards - Better Spacing */
   .pool-details {
     grid-template-columns: 1fr;
+    gap: var(--space-12);
   }
   
   .pool-header {
@@ -1357,12 +1405,16 @@ body {
     gap: var(--space-12);
   }
   
-  .search-input {
-    font-size: var(--font-size-base);
-    padding: var(--space-12) var(--space-16);
-    border-radius: 20px;
+  .pool-card {
+    padding: var(--space-20);
+    min-height: auto;
   }
   
+  .pool-card.clickable {
+    min-height: 44px; /* Minimum touch target */
+  }
+  
+  /* Mobile Typography */
   .logo {
     font-size: var(--font-size-2xl);
     padding: var(--space-8) var(--space-12);
@@ -1372,19 +1424,33 @@ body {
   .subtitle {
     font-size: var(--font-size-sm);
     margin-bottom: var(--space-24);
+    text-align: center;
   }
   
   .results-header {
     flex-direction: column;
     align-items: flex-start;
     gap: var(--space-12);
+    padding: var(--space-16);
   }
   
+  .results-title {
+    font-size: var(--font-size-xl);
+  }
+  
+  /* Mobile Pagination */
   .pagination {
     flex-wrap: wrap;
     gap: var(--space-8);
+    justify-content: center;
   }
   
+  .pagination-button {
+    min-height: 44px; /* Minimum touch target */
+    padding: var(--space-12) var(--space-16);
+  }
+  
+  /* Mobile Footer */
   .app-footer {
     padding: var(--space-12) var(--space-16);
   }
@@ -1394,30 +1460,103 @@ body {
   }
 }
 
+/* Small Mobile Devices - Additional Optimizations */
 @media (max-width: 480px) {
   .pool-card {
     padding: var(--space-16);
+    margin-bottom: var(--space-16);
   }
   
   .search-container {
     max-width: 100%;
+    padding: 0 var(--space-4);
+  }
+  
+  .search-input {
+    padding: var(--space-10) var(--space-16);
+    font-size: var(--font-size-sm);
+    border-radius: 18px;
   }
   
   .logo {
     max-width: 100%;
     font-size: var(--font-size-xl);
     margin-bottom: var(--space-6);
+    padding: var(--space-6) var(--space-10);
   }
   
   .subtitle {
     font-size: var(--font-size-xs);
     margin-bottom: var(--space-20);
+    padding: 0 var(--space-8);
+  }
+  
+  .filters-section {
+    padding: var(--space-16);
+    margin-bottom: var(--space-20);
+  }
+  
+  .filter-group {
+    margin-bottom: var(--space-12);
+  }
+  
+  .pool-apy {
+    font-size: var(--font-size-xl);
+    padding: var(--space-6) var(--space-10);
+  }
+  
+  .pool-project {
+    font-size: var(--font-size-base);
+  }
+  
+  .results-header {
+    padding: var(--space-12);
+  }
+  
+  .pagination-info {
+    font-size: var(--font-size-xs);
+    padding: var(--space-6) var(--space-12);
   }
 }
 
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
+}
+
+/* Mobile Virtual Keyboard and Viewport Management */
+@media (max-width: 768px) {
+  /* Prevent horizontal scrolling */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+  
+  /* Fix iOS Safari viewport issues */
+  body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  
+  /* Prevent zoom on input focus (iOS Safari) */
+  input[type="text"], 
+  select {
+    font-size: 16px !important;
+    transform: translateZ(0); /* Force hardware acceleration */
+  }
+  
+  /* Handle virtual keyboard appearance */
+  .search-input:focus {
+    position: relative;
+    z-index: 9999;
+  }
+  
+  /* Improve touch scrolling */
+  .autocomplete-dropdown,
+  .pools-grid {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
 }
 
 /* Add slight upward shift for Google-style positioning */

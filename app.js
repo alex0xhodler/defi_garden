@@ -382,6 +382,7 @@ function App() {
     setShowAutocomplete(false);
     setShowFilters(true); // Show filters after token selection
     setHighlightedIndex(-1);
+    // URL will be updated by the useEffect
   };
 
   // Handle search input changes
@@ -405,7 +406,8 @@ function App() {
 
   // Handle input focus
   const handleInputFocus = () => {
-    if (searchInput.length > 0) {
+    // Only show autocomplete if there's input AND no token is selected (user is searching)
+    if (searchInput.length > 0 && !selectedToken) {
       setShowAutocomplete(true);
     }
   };
@@ -463,6 +465,10 @@ function App() {
     setShowFilters(false);
     setHighlightedIndex(-1);
     setError('');
+    
+    // Clear URL parameters and reset title
+    window.history.pushState({}, '', window.location.pathname);
+    document.title = 'DeFi Garden - Find the best yields for your tokens';
   };
 
   // Format currency
