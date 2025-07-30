@@ -1360,6 +1360,7 @@ body {
     box-sizing: border-box;
     max-width: 100%;
     min-height: 44px; /* Minimum touch target */
+    text-indent: var(--space-8); /* Push text away from left edge */
   }
   
   /* Mobile Autocomplete Dropdown - Better Positioning */
@@ -1476,6 +1477,7 @@ body {
     padding: var(--space-10) var(--space-14);
     font-size: var(--font-size-sm);
     border-radius: 18px;
+    text-indent: var(--space-6); /* Push text away from left edge on small mobile */
   }
   
   .logo {
