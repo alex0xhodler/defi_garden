@@ -488,17 +488,20 @@ function App() {
       searchInput.blur();
     }
     
-    // Scroll to results section after a brief delay to allow UI update
-    setTimeout(() => {
-      const resultsSection = document.querySelector('.results-section');
-      if (resultsSection) {
-        resultsSection.scrollIntoView({ 
-          behavior: 'smooth', 
-          block: 'start',
-          inline: 'nearest'
-        });
-      }
-    }, 100);
+    // Scroll to results section only on mobile viewports (not desktop)
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    if (isMobile) {
+      setTimeout(() => {
+        const resultsSection = document.querySelector('.results-section');
+        if (resultsSection) {
+          resultsSection.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'start',
+            inline: 'nearest'
+          });
+        }
+      }, 100);
+    }
     
     // URL will be updated by the useEffect
   };

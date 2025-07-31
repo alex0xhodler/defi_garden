@@ -1398,29 +1398,17 @@ body {
     min-height: 44px; /* Minimum touch target */
   }
   
-  /* Mobile Autocomplete Dropdown - Better Positioning */
+  /* Mobile Autocomplete Dropdown - Optimized Height */
   .autocomplete-dropdown {
-    max-height: 40vh; /* Reduce height to account for mobile keyboard */
+    max-height: 30vh; /* Reduce height to account for mobile keyboard */
     left: 0;
     right: 0;
     width: 100%;
     box-sizing: border-box;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    /* Position dropdown above input on mobile when keyboard is likely visible */
-    transform: translateY(-105%);
-    top: auto;
-    bottom: calc(100% + 8px);
-  }
-  
-  /* Show dropdown below input when no keyboard (landscape or larger screens) */
-  @media (min-height: 500px) and (orientation: landscape) {
-    .autocomplete-dropdown {
-      transform: none;
-      top: calc(100% + 8px);
-      bottom: auto;
-      max-height: 60vh;
-    }
+    /* Keep normal positioning below input */
+    top: calc(100% + 8px);
   }
   
   .autocomplete-item {
