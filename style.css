@@ -136,6 +136,14 @@
   --duration-fast: 150ms;
   --duration-normal: 250ms;
   --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+  
+  /* Entry Animations */
+  --entry-duration-fast: 400ms;
+  --entry-duration-normal: 600ms;
+  --entry-delay-base: 100ms;
+  --entry-delay-stagger: 50ms;
+  --entry-easing: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --entry-easing-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
   /* Layout */
   --container-sm: 640px;
@@ -2386,6 +2394,214 @@ html {
 
   .theme-toggle-text {
     font-size: 10px;
+  }
+}
+
+/* =========================================
+   ENTRY ANIMATIONS
+   ======================================== */
+
+/* Animation timing variables - extend the existing :root */
+
+/* Keyframe definitions */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: var(--shadow-raised);
+  }
+  50% {
+    box-shadow: var(--shadow-raised), 0 0 20px rgba(var(--color-teal-500-rgb), 0.3);
+  }
+}
+
+/* Initial hidden state for animated elements */
+.animate-on-mount {
+  opacity: 0;
+}
+
+/* Header animations */
+.header.animate-on-mount {
+  animation: fadeInDown var(--entry-duration-normal) var(--entry-easing) var(--entry-delay-base) both;
+}
+
+.logo {
+  transition: transform 300ms var(--entry-easing);
+}
+
+.logo:hover {
+  transform: scale(1.02);
+}
+
+/* Search section animations */
+.search-section.animate-on-mount {
+  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 2) both;
+}
+
+.search-input {
+  transition: all 300ms var(--entry-easing);
+}
+
+.search-input:focus {
+  animation: pulseGlow 2s var(--entry-easing) infinite;
+}
+
+/* Filters section animations */
+.filters-section.animate-on-mount {
+  animation: slideInLeft var(--entry-duration-fast) var(--entry-easing) calc(var(--entry-delay-base) * 3) both;
+}
+
+/* Results animations */
+.results-section.animate-on-mount {
+  animation: fadeInUp var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 3) both;
+}
+
+/* Staggered card animations */
+.pool-card.animate-on-mount {
+  animation: fadeInUp var(--entry-duration-fast) var(--entry-easing) both;
+}
+
+.pool-card.animate-on-mount:nth-child(1) { animation-delay: calc(var(--entry-delay-base) * 4); }
+.pool-card.animate-on-mount:nth-child(2) { animation-delay: calc(var(--entry-delay-base) * 4 + var(--entry-delay-stagger) * 1); }
+.pool-card.animate-on-mount:nth-child(3) { animation-delay: calc(var(--entry-delay-base) * 4 + var(--entry-delay-stagger) * 2); }
+.pool-card.animate-on-mount:nth-child(4) { animation-delay: calc(var(--entry-delay-base) * 4 + var(--entry-delay-stagger) * 3); }
+.pool-card.animate-on-mount:nth-child(5) { animation-delay: calc(var(--entry-delay-base) * 4 + var(--entry-delay-stagger) * 4); }
+.pool-card.animate-on-mount:nth-child(6) { animation-delay: calc(var(--entry-delay-base) * 4 + var(--entry-delay-stagger) * 5); }
+.pool-card.animate-on-mount:nth-child(7) { animation-delay: calc(var(--entry-delay-base) * 4 + var(--entry-delay-stagger) * 6); }
+.pool-card.animate-on-mount:nth-child(8) { animation-delay: calc(var(--entry-delay-base) * 4 + var(--entry-delay-stagger) * 7); }
+.pool-card.animate-on-mount:nth-child(9) { animation-delay: calc(var(--entry-delay-base) * 4 + var(--entry-delay-stagger) * 8); }
+.pool-card.animate-on-mount:nth-child(10) { animation-delay: calc(var(--entry-delay-base) * 4 + var(--entry-delay-stagger) * 9); }
+
+/* Pagination animations */  
+.pagination.animate-on-mount {
+  animation: fadeInUp var(--entry-duration-fast) var(--entry-easing) calc(var(--entry-delay-base) * 5) both;
+}
+
+/* Loading skeleton states */
+.skeleton {
+  background: linear-gradient(90deg, 
+    var(--color-secondary) 25%, 
+    var(--color-secondary-hover) 50%, 
+    var(--color-secondary) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--border-radius-lg);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes loading-progress {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  50% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  51% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  100% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+}
+
+.skeleton-card {
+  height: 160px;
+  margin-bottom: var(--spacing-md);
+}
+
+.skeleton-text {
+  height: 16px;
+  margin-bottom: 8px;
+}
+
+.skeleton-text.small {
+  height: 12px;
+  width: 60%;
+}
+
+/* Theme toggle animations */
+.theme-toggle {
+  transition: all 300ms var(--entry-easing);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+}
+
+.theme-toggle-handle {
+  transition: transform 300ms var(--entry-easing-bounce);
+}
+
+/* Accessibility: Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-mount,
+  .pool-card.animate-on-mount,
+  .logo,
+  .search-input,
+  .theme-toggle,
+  .theme-toggle-handle {
+    animation: none !important;
+    transition: none !important;
+  }
+  
+  .animate-on-mount {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
 

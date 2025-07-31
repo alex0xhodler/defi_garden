@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeFi Garden Search Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-result { margin: 10px 0; padding: 10px; border-radius: 5px; }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>DeFi Garden Search Functionality Test</h1>
+    <div id="test-results"></div>
+    
+    <script>
+        async function testSearchFunctionality() {
+            const resultsDiv = document.getElementById('test-results');
+            
+            function logResult(message, isPass = true) {
+                const div = document.createElement('div');
+                div.className = `test-result ${isPass ? 'pass' : 'fail'}`;
+                div.textContent = message;
+                resultsDiv.appendChild(div);
+            }
+            
+            function logInfo(message) {
+                const div = document.createElement('div');
+                div.className = 'test-result info';
+                div.textContent = message;
+                resultsDiv.appendChild(div);
+            }
+            
+            try {
+                logInfo('Testing DeFi Garden Search Functionality...');
+                
+                // Test 1: API Endpoint Accessibility
+                logInfo('Test 1: Checking API endpoint accessibility...');
+                const response = await fetch('https://yields.llama.fi/pools');
+                if (!response.ok) {
+                    logResult(`❌ API endpoint failed: ${response.status}`, false);
+                    return;
+                }
+                logResult('✅ API endpoint is accessible');
+                
+                // Test 2: Data Structure
+                logInfo('Test 2: Checking data structure...');
+                const data = await response.json();
+                if (!data.data || !Array.isArray(data.data)) {
+                    logResult('❌ Invalid data structure', false);
+                    return;
+                }
+                logResult(`✅ Data structure valid - ${data.data.length} pools loaded`);
+                
+                // Test 3: USDC Token Availability
+                logInfo('Test 3: Checking USDC token availability...');
+                const pools = data.data;
+                const usdcPools = pools.filter(pool => {
+                    if (!pool.symbol) return false;
+                    const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
+                    return symbols.includes('USDC');
+                });
+                
+                if (usdcPools.length === 0) {
+                    logResult('❌ No USDC pools found', false);
+                    return;
+                }
+                logResult(`✅ Found ${usdcPools.length} USDC pools`);
+                
+                // Test 4: Token Symbol Extraction
+                logInfo('Test 4: Testing token symbol extraction logic...');
+                const tokenSet = new Set();
+                pools.forEach(pool => {
+                    if (pool.symbol) {
+                        const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
+                        symbols.forEach(symbol => {
+                            if (symbol && symbol.length > 0 && symbol.length < 20) {
+                                tokenSet.add(symbol);
+                            }
+                        });
+                    }
+                });
+                
+                const availableTokens = Array.from(tokenSet).sort();
+                const hasUSDC = availableTokens.includes('USDC');
+                
+                if (!hasUSDC) {
+                    logResult('❌ USDC not found in extracted tokens', false);
+                    return;
+                }
+                logResult(`✅ USDC found in extracted tokens (${availableTokens.length} total tokens)`);
+                
+                // Test 5: Search Filtering Logic
+                logInfo('Test 5: Testing search filtering logic...');
+                const searchTerm = 'USDC';
+                const exactMatches = availableTokens.filter(token => token === searchTerm);
+                const startsWith = availableTokens.filter(token => token !== searchTerm && token.startsWith(searchTerm));
+                const contains = availableTokens.filter(token => !token.startsWith(searchTerm) && token.includes(searchTerm));
+                
+                const results = [...exactMatches, ...startsWith, ...contains];
+                
+                if (results.length === 0) {
+                    logResult('❌ No search results for USDC', false);
+                    return;
+                }
+                logResult(`✅ Search filtering works - ${results.length} matches for USDC: ${results.slice(0, 5).join(', ')}`);
+                
+                // Test 6: Sample USDC Pools
+                logInfo('Test 6: Sample USDC pools found...');
+                usdcPools.slice(0, 3).forEach((pool, index) => {
+                    logInfo(`Pool ${index + 1}: ${pool.symbol} on ${pool.project} (${pool.chain}) - ${((pool.apyBase || 0) + (pool.apyReward || 0)).toFixed(2)}% APY`);
+                });
+                
+                logResult('🎉 All tests passed! Search functionality should work correctly.', true);
+                
+            } catch (error) {
+                logResult(`❌ Test failed with error: ${error.message}`, false);
+            }
+        }
+        
+        // Run the test
+        testSearchFunctionality();
+    </script>
+</body>
+</html>

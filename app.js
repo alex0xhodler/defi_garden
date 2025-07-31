@@ -151,6 +151,7 @@ function App() {
   const [selectedPool, setSelectedPool] = useState(null);
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [dynamicProtocolUrls, setDynamicProtocolUrls] = useState({});
+  const [animationsTriggered, setAnimationsTriggered] = useState(false);
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
@@ -203,6 +204,9 @@ function App() {
     
     // Mark initial load as complete after a brief delay
     setTimeout(() => setIsInitialLoad(false), 100);
+    
+    // Trigger entry animations immediately
+    setTimeout(() => setAnimationsTriggered(true), 50);
   }, []);
 
   // Handle browser back/forward navigation
@@ -232,11 +236,10 @@ function App() {
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
-  // Fetch pools data on mount
+  // Background fetch pools data after UI loads
   useEffect(() => {
-    const fetchPools = async () => {
+    const fetchPoolsInBackground = async () => {
       try {
-        setLoading(true);
         setError('');
         const response = await fetch('https://yields.llama.fi/pools');
         if (!response.ok) {
@@ -252,7 +255,9 @@ function App() {
       }
     };
 
-    fetchPools();
+    // Start loading data immediately in background
+    setLoading(true);
+    fetchPoolsInBackground();
   }, []);
 
   // Background fetch protocols data after UI loads
@@ -652,17 +657,7 @@ function App() {
     };
   };
 
-  // Render loading state
-  if (loading && pools.length === 0) {
-    return React.createElement('div', { className: 'app' },
-      React.createElement('div', { className: 'container' },
-        React.createElement('div', { className: 'loading-state' },
-          React.createElement('div', { className: 'loading-spinner' }),
-          React.createElement('div', { className: 'empty-message' }, 'Loading yield opportunities...')
-        )
-      )
-    );
-  }
+  // Always render UI immediately - no blocking loading state
 
   return React.createElement('div', { 
     className: `app ${selectedToken && filteredPools.length > 0 ? 'has-results' : ''}` 
@@ -686,7 +681,9 @@ function App() {
     ),
     React.createElement('div', { className: 'container' },
       // Header
-      React.createElement('div', { className: 'header' },
+      React.createElement('div', { 
+        className: `header animate-on-mount`
+      },
         React.createElement('h1', { 
           className: 'logo', 
           onClick: resetApp
@@ -697,7 +694,7 @@ function App() {
       ),
 
       // Search Section
-      React.createElement('div', { className: 'search-section' },
+      React.createElement('div', { className: 'search-section animate-on-mount' },
         React.createElement('div', { className: 'search-container' },
           React.createElement('input', {
             type: 'text',
@@ -734,7 +731,7 @@ function App() {
       ),
 
       // Filters Section
-      showFilters && selectedToken && React.createElement('div', { className: 'filters-section' },
+      showFilters && selectedToken && React.createElement('div', { className: 'filters-section animate-on-mount' },
         React.createElement('div', { className: 'filters-grid' },
           // Chain Filter
           availableChains.length > 1 && React.createElement('div', { className: 'filter-group' },
@@ -807,7 +804,7 @@ function App() {
       ),
 
       // Results Section
-      selectedToken && React.createElement('div', { className: 'results-section' },
+      selectedToken && React.createElement('div', { className: 'results-section animate-on-mount' },
         filteredPools.length > 0 ? [
           React.createElement('div', { className: 'results-header', key: 'header' },
             React.createElement('h2', { className: 'results-title' },
@@ -824,7 +821,7 @@ function App() {
               const quickPreview = getQuickPreview(pool);
               return React.createElement('div', {
                 key: `${pool.pool}-${index}`,
-                className: `pool-card ${protocolUrl ? 'clickable' : ''}`,
+                className: `pool-card animate-on-mount ${protocolUrl ? 'clickable' : ''}`,
                 onClick: protocolUrl ? (e) => handlePoolClick(pool, e) : undefined
               },
                 // Header: Symbol + Protocol info + APY
@@ -879,7 +876,7 @@ function App() {
           ),
 
           // Pagination
-          totalPages > 1 && React.createElement('div', { className: 'pagination', key: 'pagination' },
+          totalPages > 1 && React.createElement('div', { className: 'pagination animate-on-mount', key: 'pagination' },
             React.createElement('button', {
               className: 'pagination-button',
               onClick: () => setCurrentPage(prev => Math.max(1, prev - 1)),
