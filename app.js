@@ -150,6 +150,7 @@ function App() {
   const [showYieldCalculator, setShowYieldCalculator] = useState(false);
   const [selectedPool, setSelectedPool] = useState(null);
   const [investmentAmount, setInvestmentAmount] = useState(1000);
+  const [dynamicProtocolUrls, setDynamicProtocolUrls] = useState({});
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
@@ -252,6 +253,53 @@ function App() {
     };
 
     fetchPools();
+  }, []);
+
+  // Background fetch protocols data after UI loads
+  useEffect(() => {
+    const fetchProtocolsInBackground = async () => {
+      try {
+        // Check localStorage first (permanent caching)
+        const cached = localStorage.getItem('defi-protocols');
+        if (cached) {
+          const protocolsData = JSON.parse(cached);
+          setDynamicProtocolUrls(protocolsData);
+          return;
+        }
+
+        // Fetch from API if not cached
+        const response = await fetch('https://api.llama.fi/protocols');
+        if (!response.ok) return; // Fail silently, use static fallback
+
+        const protocols = await response.json();
+        
+        // Build URL mapping from protocols data
+        const urlMapping = {};
+        protocols.forEach(protocol => {
+          if (protocol.name && protocol.url) {
+            // Map by name (for matching with pool.project)
+            const key = protocol.name.toLowerCase().replace(/\s+/g, '-');
+            urlMapping[key] = protocol.url;
+            
+            // Also map by slug if available
+            if (protocol.slug && protocol.slug !== key) {
+              urlMapping[protocol.slug] = protocol.url;
+            }
+          }
+        });
+
+        // Cache permanently and update state
+        localStorage.setItem('defi-protocols', JSON.stringify(urlMapping));
+        setDynamicProtocolUrls(urlMapping);
+      } catch (error) {
+        // Fail silently - static PROTOCOL_URLS will be used as fallback
+        console.log('Background protocol fetch failed, using static fallback');
+      }
+    };
+
+    // Let UI render first, then fetch in background
+    const timer = setTimeout(fetchProtocolsInBackground, 100);
+    return () => clearTimeout(timer);
   }, []);
 
   // Theme management effect
@@ -543,10 +591,15 @@ function App() {
       return pool.url;
     }
     
-    // Fallback to protocol mapping
+    // Enhanced URL resolution with dynamic data
     if (!pool.project) return null;
     const key = pool.project.toLowerCase().replace(/\s+/g, '-');
-    return PROTOCOL_URLS[key] || null;
+    
+    // Try dynamic protocol URLs first, then fallback to static
+    return dynamicProtocolUrls[key] || 
+           dynamicProtocolUrls[pool.project] || 
+           PROTOCOL_URLS[key] || 
+           null;
   };
 
   // Get paginated results
