@@ -2311,10 +2311,11 @@ html {
 /* Mobile Responsive for Theme Toggle */
 @media (max-width: 640px) {
   .theme-toggle {
-    top: var(--space-16);
-    right: var(--space-16);
+    top: max(var(--space-12), env(safe-area-inset-top, 12px));
+    right: max(var(--space-12), env(safe-area-inset-right, 12px));
     padding: var(--space-6);
     gap: var(--space-6);
+    z-index: 9999;
   }
 
   .theme-toggle-icon {
@@ -2339,6 +2340,42 @@ html {
 
   .theme-toggle-text {
     font-size: var(--font-size-xs);
+  }
+}
+
+/* Extra small screens - ensure toggle is always visible */
+@media (max-width: 480px) {
+  .theme-toggle {
+    top: var(--space-8);
+    right: var(--space-8);
+    padding: var(--space-4);
+    gap: var(--space-4);
+  }
+
+  .theme-toggle-icon {
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+  }
+
+  .theme-toggle-switch {
+    width: 36px;
+    height: 18px;
+  }
+
+  .theme-toggle-handle {
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    left: 2px;
+  }
+
+  .theme-toggle[data-theme="dark"] .theme-toggle-handle {
+    left: 20px;
+  }
+
+  .theme-toggle-text {
+    font-size: 10px;
   }
 }
 
