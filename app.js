@@ -481,6 +481,28 @@ function App() {
     setShowAutocomplete(false);
     setShowFilters(true); // Show filters after token selection
     setHighlightedIndex(-1);
+    
+    // Close mobile keyboard by blurring the input
+    const searchInput = document.querySelector('.search-input');
+    if (searchInput) {
+      searchInput.blur();
+    }
+    
+    // Scroll to results section only on mobile viewports (not desktop)
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    if (isMobile) {
+      setTimeout(() => {
+        const resultsSection = document.querySelector('.results-section');
+        if (resultsSection) {
+          resultsSection.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'start',
+            inline: 'nearest'
+          });
+        }
+      }, 100);
+    }
+    
     // URL will be updated by the useEffect
   };
 
