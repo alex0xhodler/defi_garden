@@ -2330,7 +2330,7 @@ html {
 @media (max-width: 640px) {
   .theme-toggle {
     position: static;
-    margin: var(--space-16) var(--space-16) var(--space-8) auto;
+    margin: var(--space-32) var(--space-16) var(--space-8) auto;
     padding: var(--space-6);
     gap: var(--space-6);
     width: fit-content;
@@ -2365,7 +2365,7 @@ html {
 /* Extra small screens - compact mobile toggle */
 @media (max-width: 480px) {
   .theme-toggle {
-    margin: var(--space-12) var(--space-12) var(--space-6) auto;
+    margin: var(--space-24) var(--space-12) var(--space-6) auto;
     padding: var(--space-4);
     gap: var(--space-4);
   }
