@@ -922,8 +922,6 @@ body {
   position: relative;
   width: 100%;
   max-width: 580px;
-  overflow: hidden;
-  border-radius: var(--border-radius-lg);
 }
 
 .search-input {
