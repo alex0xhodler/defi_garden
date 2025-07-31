@@ -539,7 +539,8 @@ function App() {
         e.preventDefault();
         if (highlightedIndex >= 0) {
           handleTokenSelect(autocompleteTokens[highlightedIndex]);
-        } else if (autocompleteTokens.length === 1) {
+        } else if (autocompleteTokens.length > 0) {
+          // Select the first token if none is highlighted but results are available
           handleTokenSelect(autocompleteTokens[0]);
         }
         break;
