@@ -2190,6 +2190,16 @@ html {
   cursor: pointer;
 }
 
+/* Desktop - Keep sticky positioning */
+@media (min-width: 641px) {
+  .theme-toggle {
+    position: fixed;
+    top: var(--space-20);
+    right: var(--space-20);
+    z-index: 1000;
+  }
+}
+
 .theme-toggle:hover {
   box-shadow: var(--neuro-shadow-flat);
   transform: translateY(-1px);
@@ -2308,14 +2318,15 @@ html {
   --neuro-shadow-subtle: 4px 4px 8px var(--neuro-shadow-dark), -4px -4px 8px var(--neuro-shadow-light);
 }
 
-/* Mobile Responsive for Theme Toggle */
+/* Mobile Responsive for Theme Toggle - Remove sticky positioning */
 @media (max-width: 640px) {
   .theme-toggle {
-    top: max(var(--space-12), env(safe-area-inset-top, 12px));
-    right: max(var(--space-12), env(safe-area-inset-right, 12px));
+    position: static;
+    margin: var(--space-16) var(--space-16) var(--space-8) auto;
     padding: var(--space-6);
     gap: var(--space-6);
-    z-index: 9999;
+    width: fit-content;
+    z-index: auto;
   }
 
   .theme-toggle-icon {
@@ -2343,11 +2354,10 @@ html {
   }
 }
 
-/* Extra small screens - ensure toggle is always visible */
+/* Extra small screens - compact mobile toggle */
 @media (max-width: 480px) {
   .theme-toggle {
-    top: var(--space-8);
-    right: var(--space-8);
+    margin: var(--space-12) var(--space-12) var(--space-6) auto;
     padding: var(--space-4);
     gap: var(--space-4);
   }
