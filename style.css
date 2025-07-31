@@ -1400,13 +1400,27 @@ body {
   
   /* Mobile Autocomplete Dropdown - Better Positioning */
   .autocomplete-dropdown {
-    max-height: 60vh; /* Limit height on mobile */
+    max-height: 40vh; /* Reduce height to account for mobile keyboard */
     left: 0;
     right: 0;
     width: 100%;
     box-sizing: border-box;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    /* Position dropdown above input on mobile when keyboard is likely visible */
+    transform: translateY(-105%);
+    top: auto;
+    bottom: calc(100% + 8px);
+  }
+  
+  /* Show dropdown below input when no keyboard (landscape or larger screens) */
+  @media (min-height: 500px) and (orientation: landscape) {
+    .autocomplete-dropdown {
+      transform: none;
+      top: calc(100% + 8px);
+      bottom: auto;
+      max-height: 60vh;
+    }
   }
   
   .autocomplete-item {
@@ -1592,6 +1606,23 @@ html {
   .pools-grid {
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
+  }
+  
+  /* Mobile viewport adjustments for keyboard handling */
+  .search-container {
+    position: relative;
+    z-index: 1001; /* Ensure search stays above other content */
+  }
+  
+  /* Ensure body adjusts properly when mobile keyboard appears */
+  body {
+    /* Prevent zoom on input focus */
+    touch-action: manipulation;
+  }
+  
+  /* Prevent viewport zoom on input focus for iOS */
+  .search-input {
+    font-size: 16px; /* Prevents zoom on iOS */
   }
 }
 
