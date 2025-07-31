@@ -2337,6 +2337,15 @@ html {
     z-index: auto;
   }
 
+  /* Fix toggle position on mobile initial homepage state only */
+  .app:not(.has-results) .theme-toggle {
+    position: fixed;
+    top: var(--space-20);
+    right: var(--space-20);
+    z-index: 1000;
+    margin: 0;
+  }
+
   .theme-toggle-icon {
     width: 18px;
     height: 18px;
@@ -2368,6 +2377,16 @@ html {
     margin: var(--space-12) var(--space-12) var(--space-6) auto;
     padding: var(--space-4);
     gap: var(--space-4);
+  }
+
+  /* Fix toggle position on extra small mobile initial homepage state only */
+  .app:not(.has-results) .theme-toggle {
+    position: fixed;
+    top: var(--space-16);
+    right: var(--space-16);
+    z-index: 1000;
+    margin: 0;
+    padding: var(--space-4);
   }
 
   .theme-toggle-icon {
