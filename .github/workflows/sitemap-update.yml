@@ -14,6 +14,9 @@ on:
 jobs:
   update-sitemap:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
     
     steps:
     - name: Checkout repository
@@ -74,10 +77,9 @@ jobs:
     
     - name: Push changes
       if: steps.verify-changed-files.outputs.changed == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+      run: |
+        git push origin main
+        echo "✅ Changes pushed to repository"
     
     - name: Ping Google about sitemap update
       if: steps.verify-changed-files.outputs.changed == 'true'
@@ -85,10 +87,10 @@ jobs:
         echo "🔔 Notifying search engines about sitemap update..."
         
         # Ping Google
-        curl -s "https://www.google.com/ping?sitemap=https://defigarden.app/sitemap.xml" || echo "Google ping failed"
+        curl -s "https://www.google.com/ping?sitemap=https://www.defigarden.app/sitemap.xml" || echo "Google ping failed"
         
         # Ping Bing
-        curl -s "https://www.bing.com/ping?sitemap=https://defigarden.app/sitemap.xml" || echo "Bing ping failed"
+        curl -s "https://www.bing.com/ping?sitemap=https://www.defigarden.app/sitemap.xml" || echo "Bing ping failed"
         
         echo "✅ Search engines notified"
     
