@@ -87,10 +87,10 @@ jobs:
         echo "🔔 Notifying search engines about sitemap update..."
         
         # Ping Google
-        curl -s "https://www.google.com/ping?sitemap=https://www.defigarden.app/sitemap.xml" || echo "Google ping failed"
+        curl -s "https://www.google.com/ping?sitemap=https://www.defi.garden/sitemap.xml" || echo "Google ping failed"
         
         # Ping Bing
-        curl -s "https://www.bing.com/ping?sitemap=https://www.defigarden.app/sitemap.xml" || echo "Bing ping failed"
+        curl -s "https://www.bing.com/ping?sitemap=https://www.defi.garden/sitemap.xml" || echo "Bing ping failed"
         
         echo "✅ Search engines notified"
     

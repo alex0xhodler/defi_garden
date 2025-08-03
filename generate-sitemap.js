@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Base URL for the site - configurable via environment variable
-const SITE_URL = process.env.SITE_URL || 'https://www.defigarden.app';
+const SITE_URL = process.env.SITE_URL || 'https://www.defi.garden';
 
 // Comprehensive list of popular DeFi tokens for SEO
 const POPULAR_TOKENS = [
