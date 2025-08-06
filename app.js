@@ -1198,6 +1198,18 @@ function App() {
           )
         )
       )
+    ),
+    // Footer
+    React.createElement('footer', { className: 'app-footer' },
+      React.createElement('p', null,
+        'Powered by ',
+        React.createElement('a', {
+          href: 'https://api-docs.defillama.com/',
+          target: '_blank',
+          rel: 'noopener noreferrer'
+        }, 'Defillama API'),
+        '. Made with AI & Degen Love.'
+      )
     )
   );
 }
