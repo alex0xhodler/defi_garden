@@ -750,8 +750,9 @@ select.form-control {
 
 @font-face {
   font-family: 'FKGroteskNeue';
-  src: url('https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2')
+  src: url('./fonts/FKGroteskNeue.woff2')
     format('woff2');
+  font-display: swap; /* Improves loading performance */
 }
 
 /* END PERPLEXITY DESIGN SYSTEM */
