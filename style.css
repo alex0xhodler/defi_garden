@@ -1135,12 +1135,17 @@ body {
 }
 
 .filter-label {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-text);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-secondary);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: var(--space-4);
+  letter-spacing: 1px;
+  padding: var(--space-6) var(--space-12);
+  background: var(--color-background);
+  border-radius: 8px;
+  box-shadow: var(--neuro-shadow-inset);
+  display: inline-block;
+  margin-bottom: var(--space-8);
 }
 
 .filter-select {
@@ -2872,6 +2877,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: var(--space-8);
 }
 
 /* Horizontal scrolling rows for all filter types */
@@ -2919,30 +2925,35 @@ html {
   cursor: pointer;
   white-space: nowrap;
   position: relative;
-}
-
-.chain-pill {
-  border: 2px solid transparent;
   min-height: 36px;
   display: flex;
   align-items: center;
 }
 
-.chain-pill:not(.active):hover {
-  background: linear-gradient(145deg, var(--color-background), var(--color-surface));
-  box-shadow: var(--neuro-shadow-subtle);
-  border-color: rgba(var(--chain-color-rgb, 107, 114, 128), 0.3);
+.chain-pill {
+  border: 1px solid rgba(var(--color-text-rgb), 0.1);
 }
 
+/* Inactive chain pills - clearly raised */
+.chain-pill:not(.active) {
+  background: var(--color-background);
+  box-shadow: var(--neuro-shadow-raised);
+  color: var(--color-text);
+}
+
+.chain-pill:not(.active):hover {
+  box-shadow: var(--neuro-shadow-subtle);
+  transform: translateY(-1px);
+}
+
+/* Active chain pills - clearly pressed with brand color */
 .chain-pill.active {
   background: var(--chain-color, var(--color-primary));
   color: white;
   box-shadow: var(--neuro-shadow-pressed);
   font-weight: var(--font-weight-semibold);
-}
-
-.chain-pill:not(.active) {
-  background: linear-gradient(145deg, var(--color-background), var(--color-surface));
+  border-color: var(--chain-color, var(--color-primary));
+  transform: translateY(1px);
 }
 
 /* Pool Type Buttons - Single Row */
@@ -2955,7 +2966,7 @@ html {
 .filter-button {
   flex-shrink: 0;
   padding: var(--space-12) var(--space-16);
-  border: none;
+  border: 1px solid rgba(var(--color-text-rgb), 0.1);
   border-radius: 12px;
   background: var(--color-background);
   color: var(--color-text);
@@ -2973,16 +2984,20 @@ html {
   min-height: 40px;
 }
 
-.filter-button:hover:not(.active) {
-  background: linear-gradient(145deg, var(--color-background), var(--color-surface));
+/* Inactive filter buttons - clearly raised */
+.filter-button:not(.active):hover {
   box-shadow: var(--neuro-shadow-subtle);
+  transform: translateY(-1px);
 }
 
+/* Active filter buttons - clearly pressed */
 .filter-button.active {
   background: var(--color-primary);
   color: white;
   box-shadow: var(--neuro-shadow-pressed);
   font-weight: var(--font-weight-semibold);
+  border-color: var(--color-primary);
+  transform: translateY(1px);
 }
 
 .filter-button .count {
@@ -3020,12 +3035,19 @@ html {
 
 .value-filter-label {
   font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-bold);
   color: var(--color-text-secondary);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-right: var(--space-4);
+  letter-spacing: 1px;
+  margin-right: var(--space-8);
   flex-shrink: 0;
+  padding: var(--space-4) var(--space-8);
+  background: var(--color-background);
+  border-radius: 6px;
+  box-shadow: var(--neuro-shadow-inset);
+  min-height: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .filter-chips-container {
@@ -3037,7 +3059,7 @@ html {
 .filter-chip {
   flex-shrink: 0;
   padding: var(--space-6) var(--space-12);
-  border: none;
+  border: 1px solid rgba(var(--color-text-rgb), 0.1);
   border-radius: 16px;
   background: var(--color-background);
   color: var(--color-text);
@@ -3052,16 +3074,20 @@ html {
   align-items: center;
 }
 
+/* Inactive filter chips - clearly raised */
 .filter-chip:hover:not(.active) {
-  background: linear-gradient(145deg, var(--color-background), var(--color-surface));
   box-shadow: var(--neuro-shadow-subtle);
+  transform: translateY(-1px);
 }
 
+/* Active filter chips - clearly pressed */
 .filter-chip.active {
   background: var(--color-secondary);
   color: white;
   box-shadow: var(--neuro-shadow-pressed);
   font-weight: var(--font-weight-semibold);
+  border-color: var(--color-secondary);
+  transform: translateY(1px);
 }
 
 /* Mobile responsive for horizontal scrolling filters */
@@ -3075,10 +3101,16 @@ html {
     gap: var(--space-6);
   }
   
+  .filter-label {
+    font-size: 10px;
+    padding: var(--space-4) var(--space-8);
+    margin-bottom: var(--space-6);
+  }
+  
   .filter-pill,
   .filter-button,
   .filter-chip {
-    min-height: 40px;
+    min-height: 44px; /* Ensure touch target size */
     font-size: var(--font-size-xs);
   }
   
@@ -3092,7 +3124,7 @@ html {
   
   .filter-chip {
     padding: var(--space-6) var(--space-10);
-    min-height: 36px;
+    min-height: 40px;
   }
   
   .value-filters-row {
@@ -3101,6 +3133,9 @@ html {
   
   .value-filter-label {
     font-size: 10px;
+    padding: var(--space-3) var(--space-6);
+    margin-right: var(--space-6);
+    min-height: 36px;
   }
 }
 
