@@ -122,6 +122,90 @@ function useDebounce(value, delay) {
   return debouncedValue;
 }
 
+// Natural Language Parsing Function
+const parseNaturalLanguageQuery = (query, allTokens, allChains) => {
+  const lowerQuery = query.toLowerCase();
+  let token = '';
+  let chain = '';
+  let poolTypes = [];
+
+  // --- Parse Token ---
+  // Prioritize exact token matches first
+  const exactTokenMatch = allTokens.find(t => t.toLowerCase() === lowerQuery);
+  if (exactTokenMatch) {
+      token = exactTokenMatch;
+  } else {
+      // Look for tokens within the query
+      for (const t of allTokens) {
+          if (lowerQuery.includes(t.toLowerCase())) {
+              token = t;
+              break;
+          }
+      }
+  }
+
+  // --- Parse Chain ---
+  // Mapping for common chain aliases
+  const chainAliases = {
+      'eth': 'Ethereum',
+      'ethereum': 'Ethereum',
+      'polygon': 'Polygon',
+      'matic': 'Polygon',
+      'arb': 'Arbitrum',
+      'arbitrum': 'Arbitrum',
+      'op': 'Optimism',
+      'optimism': 'Optimism',
+      'bnb': 'BNB Chain',
+      'bsc': 'BNB Chain',
+      'binance': 'BNB Chain',
+      'avax': 'Avalanche',
+      'avalanche': 'Avalanche',
+      'sol': 'Solana',
+      'solana': 'Solana',
+      'ftm': 'Fantom',
+      'fantom': 'Fantom',
+      'zksync': 'zkSync Era',
+      'base': 'Base',
+      'linea': 'Linea',
+      'celo': 'Celo',
+      'gnosis': 'Gnosis',
+      'moonbeam': 'Moonbeam',
+      'cronos': 'Cronos'
+  };
+
+  for (const alias in chainAliases) {
+      if (lowerQuery.includes(alias)) {
+          const matchedChain = chainAliases[alias];
+          if (allChains.includes(matchedChain)) { // Ensure it's a valid, available chain
+              chain = matchedChain;
+              break;
+          }
+      }
+  }
+
+  // --- Parse Pool Types ---
+  if (lowerQuery.includes('lending')) {
+      poolTypes.push('Lending');
+  }
+  if (lowerQuery.includes('lp') || lowerQuery.includes('dex')) {
+      poolTypes.push('LP/DEX');
+  }
+  if (lowerQuery.includes('staking') || lowerQuery.includes('stake')) {
+      poolTypes.push('Staking');
+  }
+  if (lowerQuery.includes('farm') || lowerQuery.includes('farming') || lowerQuery.includes('yield')) {
+      // 'Yield Farming' should be considered if no other specific type is found, or if it's explicitly mentioned
+      // For now, if "farm" or "yield" is in there, add it.
+      // If a more specific type is also found (e.g., "lending yields"), both are included.
+      poolTypes.push('Yield Farming');
+  }
+
+  // Deduplicate pool types
+  poolTypes = [...new Set(poolTypes)];
+
+  return { token, chain, poolTypes };
+};
+
 // Helper function to get chain brand colors
 const getChainColor = (chainName) => {
   const chainColors = {
@@ -416,7 +500,7 @@ function App() {
     return tokens;
   }, [pools]);
 
-  // Filter tokens for autocomplete with smart ordering
+  // Filter tokens for autocomplete with smart ordering, and handle natural language detection
   const autocompleteTokens = useMemo(() => {
     if (!debouncedSearchInput || debouncedSearchInput.length < 1) {
       return [];
@@ -424,6 +508,31 @@ function App() {
     
     const searchTerm = debouncedSearchInput.toUpperCase();
     
+    // Check if this looks like a natural language query
+    const isNaturalLanguage = debouncedSearchInput.split(' ').length > 1 || 
+                               /\b(best|highest|yield|lending|staking|on|for|eth|btc|usdc|base|arbitrum|polygon)\b/i.test(debouncedSearchInput);
+    
+    if (isNaturalLanguage) {
+      // For natural language, try to parse and provide relevant suggestions
+      const { token, chain, poolTypes } = parseNaturalLanguageQuery(debouncedSearchInput, availableTokens, allAvailableChains);
+      
+      // Return suggestions based on parsed results
+      const suggestions = [];
+      if (token) suggestions.push(token);
+      
+      // Add related tokens if a token is partially matched
+      if (!token) {
+        availableTokens.forEach(t => {
+          if (debouncedSearchInput.toLowerCase().includes(t.toLowerCase()) && t.length >= 2) {
+            suggestions.push(t);
+          }
+        });
+      }
+      
+      return suggestions.slice(0, 5); // Limit natural language suggestions
+    }
+    
+    // Standard token autocomplete logic
     const exactMatches = [];
     const startsWith = [];
     const contains = [];
@@ -441,7 +550,21 @@ function App() {
     // Return prioritized results: exact matches first, then starts with, then contains
     const results = [...exactMatches, ...startsWith, ...contains];
     return results;
-  }, [availableTokens, debouncedSearchInput]);
+  }, [availableTokens, debouncedSearchInput, allAvailableChains]);
+
+  // Get all available chains from all pools (for natural language parsing)
+  const allAvailableChains = useMemo(() => {
+    if (!pools || pools.length === 0) return [];
+    
+    const chainSet = new Set();
+    pools.forEach(pool => {
+      if (pool.chain && pool.tvlUsd > 0) {
+        chainSet.add(pool.chain);
+      }
+    });
+    
+    return Array.from(chainSet).sort();
+  }, [pools]);
 
   // Get available chains sorted by TVL
   const availableChains = useMemo(() => {
@@ -721,34 +844,60 @@ function App() {
     }, 200);
   };
 
-  // Handle keyboard navigation in autocomplete
+  // Handle keyboard navigation in autocomplete and natural language parsing on Enter
   const handleKeyDown = (e) => {
-    if (!showAutocomplete || autocompleteTokens.length === 0) return;
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (highlightedIndex >= 0 && showAutocomplete && autocompleteTokens.length > 0) {
+        // If an autocomplete suggestion is highlighted, select it
+        handleTokenSelect(autocompleteTokens[highlightedIndex]);
+      } else {
+        // Otherwise, attempt to parse natural language
+        const query = searchInput.trim();
+        if (query) {
+          const { token, chain, poolTypes } = parseNaturalLanguageQuery(query, availableTokens, allAvailableChains);
 
-    switch (e.key) {
-      case 'ArrowDown':
-        e.preventDefault();
-        setHighlightedIndex(prev => 
-          prev < autocompleteTokens.length - 1 ? prev + 1 : prev
-        );
-        break;
-      case 'ArrowUp':
-        e.preventDefault();
-        setHighlightedIndex(prev => prev > 0 ? prev - 1 : -1);
-        break;
-      case 'Enter':
-        e.preventDefault();
-        if (highlightedIndex >= 0) {
-          handleTokenSelect(autocompleteTokens[highlightedIndex]);
-        } else if (autocompleteTokens.length > 0) {
-          // Select the first token if none is highlighted but results are available
-          handleTokenSelect(autocompleteTokens[0]);
+          // Apply filters based on natural language parsing
+          // Prioritize natural language over current state if found
+          if (token) setSelectedToken(token);
+          if (chain) setSelectedChain(chain);
+          if (poolTypes.length > 0) setSelectedPoolTypes(poolTypes);
+
+          // Set chain mode if chain is detected and no token is specified, or if chain is dominant
+          // If token is found, it's token-first mode.
+          // If chain is found and no token, it's chain-first mode.
+          if (chain && !token) {
+            setChainMode(true);
+            setMinTvl(100000); // Default TVL for chain-first mode
+          } else {
+            setChainMode(false);
+          }
+          
+          setShowFilters(true); // Always show filters after a search
+          setShowAutocomplete(false);
+          setHighlightedIndex(-1);
+          
+          // Update URL immediately after parsing and setting state
+          // The useEffect that listens to state changes will then push the URL
         }
-        break;
-      case 'Escape':
-        setShowAutocomplete(false);
-        setHighlightedIndex(-1);
-        break;
+      }
+    } else if (showAutocomplete && autocompleteTokens.length > 0) {
+      switch (e.key) {
+        case 'ArrowDown':
+          e.preventDefault();
+          setHighlightedIndex(prev => 
+            prev < autocompleteTokens.length - 1 ? prev + 1 : prev
+          );
+          break;
+        case 'ArrowUp':
+          e.preventDefault();
+          setHighlightedIndex(prev => prev > 0 ? prev - 1 : -1);
+          break;
+        case 'Escape':
+          setShowAutocomplete(false);
+          setHighlightedIndex(-1);
+          break;
+      }
     }
   };
 
