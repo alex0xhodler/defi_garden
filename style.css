@@ -998,7 +998,7 @@ body {
 }
 
 .chain-card:hover {
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   transform: translateY(-2px);
 }
 
@@ -1084,7 +1084,7 @@ body {
   right: 0;
   background: var(--color-background);
   border-radius: 16px;
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   z-index: 1000;
   max-height: 400px;
   overflow-y: auto;
@@ -1111,10 +1111,10 @@ body {
 /* Neumorphic Filters Section */
 .filters-section {
   background: var(--color-background);
-  border-radius: 20px;
-  padding: var(--space-24);
-  margin-bottom: var(--space-32);
-  box-shadow: var(--neuro-shadow-raised);
+  border-radius: 16px;
+  padding: var(--space-16);
+  margin-bottom: var(--space-24);
+  box-shadow: var(--neuro-shadow-subtle);
   transition: all 0.3s ease;
 }
 
@@ -1135,12 +1135,41 @@ body {
 }
 
 .filter-label {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-text);
+  font-size: 11px;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-secondary);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: var(--space-4);
+  letter-spacing: 1.8px;
+  padding: var(--space-6) var(--space-12);
+  margin: 0;
+  background: var(--color-background);
+  border-radius: 8px;
+  box-shadow: var(--neuro-shadow-inset);
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Add subtle indicator dot for active sections */
+.filter-label::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  opacity: 0;
+  transition: opacity var(--duration-fast);
+}
+
+.filter-section.has-active-filter .filter-label::before {
+  opacity: 1;
+  box-shadow: none;
+  display: inline-block;
+  margin: 0;
 }
 
 .filter-select {
@@ -1215,7 +1244,7 @@ body {
   border-radius: 20px;
   padding: var(--space-24);
   transition: all 0.3s ease;
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -1233,7 +1262,7 @@ body {
 }
 
 .pool-card:hover .pool-apy-hero {
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   transform: scale(1.02);
 }
 
@@ -1318,7 +1347,7 @@ body {
   display: flex;
   flex-direction: column;
   background: var(--color-background);
-  padding: var(--space-12);
+  padding: var(--space-8);
   border-radius: 12px;
   box-shadow: var(--neuro-shadow-subtle);
 }
@@ -1371,7 +1400,7 @@ body {
   transition: all 0.2s ease;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .pagination-button:hover:not(:disabled) {
@@ -1425,7 +1454,7 @@ body {
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 0 auto var(--space-16);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
 }
 
 @keyframes spin {
@@ -1679,7 +1708,7 @@ body {
   }
   
   .results-header {
-    padding: var(--space-12);
+    padding: var(--space-8);
   }
   
   .pagination-info {
@@ -1887,7 +1916,7 @@ html {
 /* TVL Section */
 .pool-tvl-section {
   background: var(--color-background);
-  padding: var(--space-12);
+  padding: var(--space-8);
   border-radius: 12px;
   box-shadow: var(--neuro-shadow-subtle);
   margin-bottom: var(--space-16);
@@ -1972,7 +2001,7 @@ html {
   transition: all 0.3s ease;
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -1999,7 +2028,7 @@ html {
   transition: all 0.2s ease;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .calculate-yield-btn:hover {
@@ -2071,7 +2100,7 @@ html {
   font-size: var(--font-size-xl);
   color: var(--color-text-secondary);
   transition: all 0.2s ease;
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .modal-close:hover {
@@ -2183,7 +2212,7 @@ html {
   padding: var(--space-16) var(--space-20);
   background: var(--color-background);
   border-radius: 12px;
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .yield-period {
@@ -2208,7 +2237,7 @@ html {
   text-align: center;
   font-style: italic;
   margin-top: var(--space-8);
-  padding: var(--space-12);
+  padding: var(--space-8);
   background: var(--color-background);
   border-radius: 8px;
   box-shadow: var(--neuro-shadow-subtle);
@@ -2230,7 +2259,7 @@ html {
   transition: all 0.3s ease;
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
@@ -2316,7 +2345,7 @@ html {
   }
   
   .pool-tvl-section {
-    padding: var(--space-12);
+    padding: var(--space-8);
     margin-bottom: var(--space-16);
   }
   
@@ -2342,7 +2371,7 @@ html {
   background: var(--color-background);
   border-radius: var(--radius-full);
   padding: var(--space-8);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   transition: all var(--duration-normal) var(--ease-standard);
   border: none;
   cursor: pointer;
@@ -2396,7 +2425,7 @@ html {
   height: 20px;
   background: var(--color-background);
   border-radius: 50%;
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   transition: all var(--duration-normal) var(--ease-standard);
 }
 
@@ -2498,7 +2527,7 @@ html {
   transition: all 0.3s ease;
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   min-width: 160px;
   justify-content: center;
   text-transform: none;
@@ -2559,7 +2588,7 @@ html {
     flex-direction: column;
     gap: var(--space-12);
     margin-top: var(--space-16);
-    padding: var(--space-12);
+    padding: var(--space-8);
   }
   
   .search-button {
@@ -2852,6 +2881,373 @@ html {
 
 .theme-toggle-handle {
   transition: transform 300ms var(--entry-easing-bounce);
+}
+
+/* Enhanced Horizontal Scrolling Filter Styles with Improved UX */
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+  padding: var(--space-8);
+  background: transparent;
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  background: transparent;
+  padding: var(--space-2) 0;
+  position: relative;
+}
+
+/* Enhanced section separator with subtle line */
+.filter-section:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent,
+    rgba(var(--color-text-rgb), 0.1) 20%,
+    rgba(var(--color-text-rgb), 0.1) 80%,
+    transparent);
+  opacity: 0.3;
+}
+
+.filter-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+  position: relative;
+}
+
+/* Enhanced horizontal scrolling with fade edges */
+.filter-row {
+  display: flex;
+  gap: var(--space-8);
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--space-8);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  position: relative;
+  scroll-behavior: smooth;
+  background: transparent;
+}
+
+.filter-row::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-row::-webkit-scrollbar {
+  height: 6px;
+}
+
+.filter-row::-webkit-scrollbar-thumb {
+  background: rgba(var(--color-text-rgb), 0.2);
+  border-radius: 3px;
+}
+
+.filter-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Enhanced Chain Pills Container */
+.filter-pills-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--space-12);
+  padding: var(--space-8);
+  align-items: center;
+  scroll-snap-type: x proximity;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background: transparent;
+}
+
+.filter-pills-container::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-pills-container > * {
+  scroll-snap-align: start;
+}
+
+/* Filter Pills - Clean Neumorphic Style */
+.filter-pill {
+  flex-shrink: 0;
+  padding: var(--space-8) var(--space-16);
+  border: none;
+  border-radius: 12px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  box-shadow: var(--neuro-shadow-subtle);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover state - Subtle lift */
+.filter-pill:hover:not(.active) {
+  box-shadow: var(--neuro-shadow-subtle);
+  transform: translateY(-1px);
+}
+
+/* Focus state for accessibility */
+.filter-pill:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+/* General filter pill active state - raised when selected */
+.filter-pill.active {
+  background: var(--color-primary);
+  color: white;
+  box-shadow: var(--neuro-shadow-subtle);
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(0);
+}
+
+.chain-pill {
+  position: relative;
+}
+
+/* Chain pills use brand colors when active - raised when selected */
+.chain-pill.active {
+  background: var(--chain-color, var(--color-primary));
+  color: white;
+  box-shadow: var(--neuro-shadow-subtle);
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(0);
+}
+
+/* Enhanced Pool Type Buttons Container */
+.filter-buttons-group {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--space-12);
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--space-8);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
+  background: transparent;
+}
+
+.filter-buttons-group::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-buttons-group > * {
+  scroll-snap-align: start;
+}
+
+.filter-button {
+  flex-shrink: 0;
+  padding: var(--space-8) var(--space-16);
+  border: none;
+  border-radius: 12px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  box-shadow: var(--neuro-shadow-subtle);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  white-space: nowrap;
+  min-height: 36px;
+}
+
+/* Inactive filter buttons hover */
+.filter-button:not(.active):hover {
+  box-shadow: var(--neuro-shadow-subtle);
+  transform: translateY(-1px);
+}
+
+/* Active filter buttons - raised when selected */
+.filter-button.active {
+  background: var(--color-primary);
+  color: white;
+  box-shadow: var(--neuro-shadow-subtle);
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(0);
+}
+
+.filter-button .count {
+  opacity: 0.8;
+  font-size: var(--font-size-xs);
+  margin-left: var(--space-4);
+}
+
+/* TVL and APY Filter Chips - Combined Row */
+.value-filters-row {
+  display: flex;
+  gap: var(--space-12);
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--space-8);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.value-filters-row::-webkit-scrollbar {
+  display: none;
+}
+
+.value-filter-group {
+  display: flex;
+  gap: var(--space-8);
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.value-filter-label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: var(--space-8);
+  flex-shrink: 0;
+  padding: var(--space-4) var(--space-8);
+  background: transparent;
+  border-radius: 6px;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-chips-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--space-10);
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--space-8);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background: transparent;
+}
+
+.filter-chips-container::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-chip {
+  flex-shrink: 0;
+  padding: var(--space-8) var(--space-16);
+  border: none;
+  border-radius: 12px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  box-shadow: var(--neuro-shadow-subtle);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  white-space: nowrap;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+/* Inactive filter chips hover */
+.filter-chip:hover:not(.active) {
+  box-shadow: var(--neuro-shadow-subtle);
+  transform: translateY(-1px);
+}
+
+/* Active filter chips - clearly pressed */
+.filter-chip.active {
+  background: var(--color-primary);
+  color: white;
+  box-shadow: var(--neuro-shadow-subtle);
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(0);
+}
+
+/* Mobile responsive for horizontal scrolling filters */
+@media (max-width: 768px) {
+  .filters-container {
+    gap: var(--space-20);
+    padding: var(--space-12) 0;
+  }
+  
+  .filter-section {
+    gap: var(--space-4);
+    padding: var(--space-4) 0;
+  }
+  
+  .filter-section-header {
+    margin-bottom: var(--space-2);
+  }
+  
+  .filter-label {
+    font-size: var(--font-size-xs);
+    padding: 0;
+    margin: 0;
+  }
+  
+  .filter-row {
+    padding: var(--space-4) 0;
+  }
+  
+  .filter-pill,
+  .filter-button {
+    padding: var(--space-4) var(--space-10);
+    min-height: 36px; /* Touch target size */
+    font-size: 11px;
+  }
+  
+  .filter-chip {
+    padding: var(--space-3) var(--space-8);
+    min-height: 32px;
+    font-size: 10px;
+  }
+  
+  .filter-pills-container,
+  .filter-buttons-group,
+  .filter-chips-container,
+  .value-filters-row {
+    gap: var(--space-6);
+  }
+  
+  .filters-section {
+    padding: var(--space-8);
+    margin-bottom: var(--space-16);
+    border-radius: 12px;
+  }
+  
+  .value-filters-row {
+    gap: var(--space-12);
+  }
+  
+  .value-filter-label {
+    font-size: 10px;
+    padding: var(--space-3) var(--space-6);
+    margin-right: var(--space-6);
+    min-height: 36px;
+  }
 }
 
 /* Accessibility: Respect reduced motion preference */
