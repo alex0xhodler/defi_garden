@@ -130,34 +130,80 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
   let poolTypes = [];
 
   // --- Parse Token ---
-  // Prioritize exact token matches first
+  // Context-aware token extraction with position scoring
   if (allTokens && allTokens.length > 0) {
     const exactTokenMatch = allTokens.find(t => t.toLowerCase() === lowerQuery);
     if (exactTokenMatch) {
         token = exactTokenMatch;
     } else {
-        // Look for tokens within the query using word boundaries
-        // Sort tokens by length (longest first) to prioritize better matches
-        const sortedTokens = allTokens.slice().sort((a, b) => b.length - a.length);
+        // Split query into words for context analysis
+        const words = lowerQuery.split(/\s+/);
         
-        for (const t of sortedTokens) {
-            const tokenLower = t.toLowerCase();
-            // Escape special regex characters in token
-            const escapedToken = tokenLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            // Use word boundary regex to match complete token words
-            const wordBoundaryRegex = new RegExp(`\\b${escapedToken}\\b`, 'i');
-            if (wordBoundaryRegex.test(lowerQuery)) {
-                token = t;
+        // Find chain context indicators to exclude words after them
+        const chainIndicators = ['on', 'chain', 'network', 'blockchain'];
+        let tokenCandidateWords = [];
+        
+        for (let i = 0; i < words.length; i++) {
+            if (chainIndicators.includes(words[i])) {
+                // Stop including words after chain indicators
+                tokenCandidateWords = words.slice(0, i);
                 break;
             }
         }
         
-        // Fallback: if no word boundary match, try partial matching for longer tokens (3+ chars)
+        // If no chain indicators found, use first few words (typically tokens come first)
+        if (tokenCandidateWords.length === 0) {
+            tokenCandidateWords = words.slice(0, Math.min(3, words.length));
+        }
+        
+        const tokenCandidateText = tokenCandidateWords.join(' ');
+        
+        // Common trading tokens (prioritize these)
+        const commonTokens = ['USDC', 'USDT', 'DAI', 'ETH', 'WETH', 'BTC', 'WBTC', 'UNI', 'LINK', 'AAVE', 'COMP', 'MKR'];
+        
+        // Score tokens based on context and priority
+        const tokenScores = [];
+        
+        for (const t of allTokens) {
+            const tokenLower = t.toLowerCase();
+            const escapedToken = tokenLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const wordBoundaryRegex = new RegExp(`\\b${escapedToken}\\b`, 'i');
+            
+            if (wordBoundaryRegex.test(tokenCandidateText)) {
+                let score = 0;
+                
+                // Position scoring: earlier words get higher scores
+                const tokenPosition = tokenCandidateText.toLowerCase().indexOf(tokenLower);
+                score += Math.max(0, 100 - tokenPosition * 10);
+                
+                // Common token bonus
+                if (commonTokens.includes(t)) {
+                    score += 50;
+                }
+                
+                // Length bonus (prefer longer, more specific tokens)
+                score += t.length * 2;
+                
+                tokenScores.push({ token: t, score });
+            }
+        }
+        
+        // Sort by score and pick the highest
+        if (tokenScores.length > 0) {
+            tokenScores.sort((a, b) => b.score - a.score);
+            token = tokenScores[0].token;
+        }
+        
+        // Fallback: if no matches in candidate text, try full query with length filter
         if (!token) {
-            for (const t of sortedTokens) {
+            for (const t of allTokens) {
                 if (t.length >= 3 && lowerQuery.includes(t.toLowerCase())) {
-                    token = t;
-                    break;
+                    // Double-check this isn't likely a chain name
+                    const chainNames = ['base', 'ethereum', 'polygon', 'arbitrum', 'optimism', 'avalanche', 'fantom', 'solana'];
+                    if (!chainNames.includes(t.toLowerCase())) {
+                        token = t;
+                        break;
+                    }
                 }
             }
         }
