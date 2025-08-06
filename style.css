@@ -3261,11 +3261,44 @@ html {
     font-size: 10px;
   }
   
-  .filter-pills-container,
-  .filter-buttons-group,
-  .filter-chips-container,
+  .filter-pills-container {
+    gap: var(--space-8);
+    padding: var(--space-8) var(--space-12);
+  }
+  
+  .filter-buttons-group {
+    gap: var(--space-8);
+    padding: var(--space-8) var(--space-12);
+  }
+  
+  .filter-chips-container {
+    gap: var(--space-12);
+    padding: var(--space-8) var(--space-12);
+  }
+  
+  .filter-chip {
+    padding: var(--space-12) var(--space-16);
+    font-size: var(--font-size-sm);
+    min-height: 44px;
+    border-radius: 12px;
+  }
+  
+  .filter-pill {
+    padding: var(--space-10) var(--space-16);
+    font-size: var(--font-size-sm);
+    min-height: 44px;
+    border-radius: 12px;
+  }
+  
+  .filter-button {
+    padding: var(--space-10) var(--space-16);
+    font-size: var(--font-size-sm);
+    min-height: 44px;
+    border-radius: 12px;
+  }
+  
   .value-filters-row {
-    gap: var(--space-6);
+    gap: var(--space-12);
   }
   
   .filters-section {
