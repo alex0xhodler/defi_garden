@@ -894,7 +894,7 @@ function App() {
   // Always render UI immediately - no blocking loading state
 
   return React.createElement('div', { 
-    className: `app ${(selectedToken || (chainMode && selectedChain)) && filteredPools.length > 0 ? 'has-results' : ''}` 
+    className: `app ${(selectedToken || (chainMode && selectedChain)) ? 'has-results' : ''}` 
   },
     // Theme Toggle
     React.createElement('button', {
@@ -930,8 +930,8 @@ function App() {
 
 
 
-      // Search Section - hide when showing results (both token and chain mode)
-      !(selectedToken || (chainMode && selectedChain && filteredPools.length > 0)) && React.createElement('div', { className: 'search-section animate-on-mount' },
+      // Search Section - hide when in filtered state (both token and chain mode)
+      !(selectedToken || (chainMode && selectedChain)) && React.createElement('div', { className: 'search-section animate-on-mount' },
         React.createElement('div', { className: 'search-container' },
           React.createElement('input', {
             type: 'text',
@@ -1194,7 +1194,11 @@ function App() {
             chainMode && selectedChain && !selectedToken
               ? 'Try adjusting your TVL or APY filters, or select a different chain'
               : 'Try adjusting your filters or searching for a different token'
-          )
+          ),
+          React.createElement('button', {
+            className: 'reset-filters-btn',
+            onClick: resetApp
+          }, 'Reset Filters')
         )
       ),
 

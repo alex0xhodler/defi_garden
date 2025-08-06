@@ -1444,6 +1444,9 @@ body {
   border-radius: 20px;
   box-shadow: var(--neuro-shadow-flat);
   margin: var(--space-24) 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .loading-spinner {
@@ -1523,6 +1526,36 @@ body {
 .app-footer a:hover {
   color: var(--color-primary-hover);
   background: rgba(16, 185, 129, 0.1);
+}
+
+/* Reset Filters Button - styled like "I'm Feeling Degen" */
+.reset-filters-btn {
+  margin-top: var(--space-20);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  padding: var(--space-16) var(--space-24);
+  border: none;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-teal-600));
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  box-shadow: var(--neuro-shadow-raised), 0 4px 15px rgba(33, 128, 141, 0.3);
+  min-width: auto;
+}
+
+.reset-filters-btn:hover {
+  background: linear-gradient(135deg, var(--color-teal-600), var(--color-teal-700));
+  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(33, 128, 141, 0.4);
+  transform: translateY(-3px);
+}
+
+.reset-filters-btn:active {
+  box-shadow: var(--neuro-shadow-flat);
+  transform: translateY(0);
 }
 
 /* Responsive Design - Mobile Only (Desktop Unchanged) */
@@ -2890,6 +2923,9 @@ html {
   gap: var(--space-24);
   padding: var(--space-8);
   background: transparent;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .filter-section {
