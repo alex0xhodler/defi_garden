@@ -122,6 +122,24 @@ function useDebounce(value, delay) {
   return debouncedValue;
 }
 
+// Helper function to get chain emojis
+const getChainEmoji = (chainName) => {
+  const chainEmojis = {
+    'Ethereum': '🔷',
+    'Polygon': '🟣',
+    'Arbitrum': '🔵',
+    'Optimism': '🔴',
+    'BNB Chain': '🟡',
+    'Avalanche': '⚪',
+    'Solana': '🟢',
+    'Fantom': '🔷',
+    'zkSync Era': '⚫',
+    'Base': '🔵',
+    'Linea': '⚫'
+  };
+  return chainEmojis[chainName] || '⚪';
+};
+
 // Main App Component
 function App() {
   const [pools, setPools] = useState([]);
@@ -152,6 +170,7 @@ function App() {
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [dynamicProtocolUrls, setDynamicProtocolUrls] = useState({});
   const [animationsTriggered, setAnimationsTriggered] = useState(false);
+  const [chainMode, setChainMode] = useState(false); // Track if we're in chain-first mode
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
@@ -179,8 +198,10 @@ function App() {
     const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
     window.history.pushState({}, '', newUrl);
     
-    // Update page title
-    if (token) {
+    // Update page title - prioritize chain-first mode
+    if (chain && chainMode && !token) {
+      document.title = `${chain} DeFi Yields | DeFi Garden 🌱`;
+    } else if (token) {
       document.title = `${token.toUpperCase()} Yields | DeFi Garden 🌱`;
     } else {
       document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
@@ -190,13 +211,23 @@ function App() {
   // Initialize state from URL parameters on mount
   useEffect(() => {
     const urlParams = getUrlParams();
-    if (urlParams.token) {
+    
+    // Check for chain-first mode (chain parameter without token)
+    if (urlParams.chain && !urlParams.token) {
+      setChainMode(true);
+      setSelectedChain(urlParams.chain);
+      setShowFilters(true);
+      setMinTvl(100000); // Default to $100k TVL for chain mode as per PRD
+      setShowAutocomplete(false);
+      document.title = `${urlParams.chain} DeFi Yields | DeFi Garden 🌱`;
+    } else if (urlParams.token) {
       setSelectedToken(urlParams.token);
       setSearchInput(urlParams.token);
       setShowFilters(true);
-      setShowAutocomplete(false); // Explicitly hide autocomplete for URL loads
+      setShowAutocomplete(false);
       document.title = `${urlParams.token.toUpperCase()} Yields | DeFi Garden 🌱`;
     }
+    
     if (urlParams.chain) setSelectedChain(urlParams.chain);
     if (urlParams.poolType) setSelectedPoolType(urlParams.poolType);
     if (urlParams.minTvl) setMinTvl(urlParams.minTvl);
@@ -214,23 +245,38 @@ function App() {
     const handlePopState = () => {
       const urlParams = getUrlParams();
       
-      // Update state to match URL
-      setSelectedToken(urlParams.token);
-      setSearchInput(urlParams.token);
-      setSelectedChain(urlParams.chain);
-      setSelectedPoolType(urlParams.poolType);
-      setMinTvl(urlParams.minTvl);
-      setMinApy(urlParams.minApy);
-      setShowFilters(!!urlParams.token);
-      setShowAutocomplete(false); // Always hide autocomplete on navigation
-      setHighlightedIndex(-1);
-      
-      // Update page title
-      if (urlParams.token) {
+      // Determine mode based on URL parameters
+      if (urlParams.chain && !urlParams.token) {
+        // Chain-first mode
+        setChainMode(true);
+        setSelectedToken('');
+        setSearchInput('');
+        setSelectedChain(urlParams.chain);
+        setShowFilters(true);
+        setMinTvl(urlParams.minTvl || 100000);
+        document.title = `${urlParams.chain} DeFi Yields | DeFi Garden 🌱`;
+      } else if (urlParams.token) {
+        // Token-first mode
+        setChainMode(false);
+        setSelectedToken(urlParams.token);
+        setSearchInput(urlParams.token);
+        setSelectedChain(urlParams.chain);
+        setShowFilters(true);
         document.title = `${urlParams.token.toUpperCase()} Yields | DeFi Garden 🌱`;
       } else {
+        // Homepage
+        setChainMode(false);
+        setSelectedToken('');
+        setSearchInput('');
+        setSelectedChain('');
+        setShowFilters(false);
         document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
       }
+      
+      setSelectedPoolType(urlParams.poolType);
+      setMinApy(urlParams.minApy);
+      setShowAutocomplete(false);
+      setHighlightedIndex(-1);
     };
 
     window.addEventListener('popstate', handlePopState);
@@ -392,17 +438,30 @@ function App() {
     return results;
   }, [availableTokens, debouncedSearchInput]);
 
-  // Get available chains for selected token
+  // Get available chains for selected token or all chains in chain mode
   const availableChains = useMemo(() => {
-    if (!selectedToken || !filteredPools.length) return [];
-    const chainSet = new Set();
-    filteredPools.forEach(pool => {
-      if (pool.chain) {
-        chainSet.add(pool.chain);
-      }
-    });
-    return Array.from(chainSet).sort();
-  }, [selectedToken, filteredPools]);
+    if (chainMode && pools.length > 0) {
+      // In chain mode, show all available chains from the full pool dataset
+      const chainSet = new Set();
+      pools.forEach(pool => {
+        if (pool.chain) {
+          chainSet.add(pool.chain);
+        }
+      });
+      return Array.from(chainSet).sort();
+    } else if (selectedToken && filteredPools.length > 0) {
+      // In token mode, show chains available for the selected token
+      const chainSet = new Set();
+      filteredPools.forEach(pool => {
+        if (pool.chain) {
+          chainSet.add(pool.chain);
+        }
+      });
+      return Array.from(chainSet).sort();
+    }
+    return [];
+  }, [selectedToken, filteredPools, chainMode, pools]);
+
 
   // Get pool type counts for selected token (before other filters)
   const poolTypeCounts = useMemo(() => {
@@ -429,6 +488,38 @@ function App() {
 
   // Filter and sort pools when token, chain, TVL, or APY selection changes
   useEffect(() => {
+    // Chain-first mode: filter by chain only
+    if (chainMode && selectedChain && !selectedToken) {
+      let filtered = pools.filter(pool => {
+        // Filter by selected chain
+        const chainMatch = pool.chain === selectedChain;
+        
+        // Filter by pool type if selected
+        const poolTypeMatch = selectedPoolType === 'All' || getPoolType(pool) === selectedPoolType;
+        
+        // Filter by minimum TVL
+        const tvlMatch = pool.tvlUsd >= minTvl;
+        
+        // Filter by minimum APY
+        const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
+        const apyMatch = totalApy >= minApy;
+        
+        return chainMatch && poolTypeMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+      });
+
+      // Sort by total APY (base + reward) descending
+      filtered.sort((a, b) => {
+        const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+        const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+        return apyB - apyA;
+      });
+
+      setFilteredPools(filtered);
+      setCurrentPage(1);
+      return;
+    }
+
+    // Token-first mode: existing logic
     if (!selectedToken) {
       setFilteredPools([]);
       return;
@@ -466,21 +557,72 @@ function App() {
 
     setFilteredPools(filtered);
     setCurrentPage(1); // Reset to first page when filters change
-  }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, pools]);
+  }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, pools, chainMode]);
 
   // Update URL when filters change (but not during initial load or popstate events)
   useEffect(() => {
-    if (!isInitialLoad && selectedToken) {
-      updateUrl(selectedToken, selectedChain, selectedPoolType, minTvl, minApy);
+    if (!isInitialLoad) {
+      if (chainMode && selectedChain && !selectedToken) {
+        // Chain-first mode URL updates
+        updateUrl('', selectedChain, selectedPoolType, minTvl, minApy);
+      } else if (selectedToken) {
+        // Token-first mode URL updates
+        updateUrl(selectedToken, selectedChain, selectedPoolType, minTvl, minApy);
+      }
     }
-  }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, isInitialLoad]);
+  }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, isInitialLoad, chainMode]);
+  // Handle chain selection for chain-first mode
+  const handleChainSelect = (chainName) => {
+    setChainMode(true);
+    setSelectedChain(chainName);
+    setSelectedToken(''); // Clear token selection
+    setSearchInput(''); // Clear search input
+    setShowFilters(true);
+    setMinTvl(100000); // Default to $100k TVL for chain mode
+    setShowAutocomplete(false);
+    
+    // Analytics tracking for chain selection
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'chain_selected', {
+        'event_category': 'engagement',
+        'event_label': chainName,
+        'custom_parameter': 'chain_discovery_mode'
+      });
+    }
+    
+    // Update URL for chain-first mode
+    updateUrl('', chainName, selectedPoolType, 100000, minApy);
+    
+    // Scroll to results on mobile
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    if (isMobile) {
+      setTimeout(() => {
+        const resultsSection = document.querySelector('.results-section');
+        if (resultsSection) {
+          resultsSection.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'start',
+            inline: 'nearest'
+          });
+        }
+      }, 100);
+    }
+  };
+
+
   // Handle token selection
   const handleTokenSelect = (token) => {
+    setChainMode(false); // Switch to token-first mode
     setSelectedToken(token);
     setSearchInput(token);
     setShowAutocomplete(false);
     setShowFilters(true); // Show filters after token selection
     setHighlightedIndex(-1);
+    
+    // Reset TVL to default for token mode
+    if (minTvl === 100000) {
+      setMinTvl(0);
+    }
     
     // Close mobile keyboard by blurring the input
     const searchInput = document.querySelector('.search-input');
@@ -587,6 +729,7 @@ function App() {
     setShowFilters(false);
     setHighlightedIndex(-1);
     setError('');
+    setChainMode(false);
     
     // Clear URL parameters and reset title
     window.history.pushState({}, '', window.location.pathname);
@@ -644,6 +787,16 @@ function App() {
     e.stopPropagation();
     const protocolUrl = getProtocolUrl(pool);
     if (protocolUrl) {
+      // Analytics tracking for protocol click-through
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'protocol_click', {
+          'event_category': 'conversion',
+          'event_label': pool.project,
+          'custom_parameter_1': pool.chain,
+          'custom_parameter_2': chainMode ? 'chain_mode' : 'token_mode',
+          'value': Math.round((pool.apyBase || 0) + (pool.apyReward || 0))
+        });
+      }
       window.open(protocolUrl, '_blank', 'noopener,noreferrer');
     }
   };
@@ -683,7 +836,7 @@ function App() {
   // Always render UI immediately - no blocking loading state
 
   return React.createElement('div', { 
-    className: `app ${selectedToken && filteredPools.length > 0 ? 'has-results' : ''}` 
+    className: `app ${(selectedToken || (chainMode && selectedChain)) && filteredPools.length > 0 ? 'has-results' : ''}` 
   },
     // Theme Toggle
     React.createElement('button', {
@@ -707,6 +860,7 @@ function App() {
       React.createElement('div', { 
         className: `header animate-on-mount`
       },
+        
         React.createElement('h1', { 
           className: 'logo', 
           onClick: resetApp
@@ -716,8 +870,10 @@ function App() {
         )
       ),
 
-      // Search Section
-      React.createElement('div', { className: 'search-section animate-on-mount' },
+
+
+      // Search Section - hide when showing results (both token and chain mode)
+      !(selectedToken || (chainMode && selectedChain && filteredPools.length > 0)) && React.createElement('div', { className: 'search-section animate-on-mount' },
         React.createElement('div', { className: 'search-container' },
           React.createElement('input', {
             type: 'text',
@@ -744,7 +900,32 @@ function App() {
                   }
                 }, token)
               )
+            ),
+
+          // Two-Button Interface - show when no token is selected and not in chain mode
+          !selectedToken && !chainMode && React.createElement('div', { className: 'search-buttons' },
+            React.createElement('button', {
+              className: `search-button token-search ${searchInput.length === 0 ? 'disabled' : ''}`,
+              onClick: () => {
+                if (searchInput.length > 0 && autocompleteTokens.length > 0) {
+                  handleTokenSelect(autocompleteTokens[0]);
+                }
+              },
+              disabled: searchInput.length === 0
+            }, 
+              React.createElement('span', { className: 'button-icon' }, '🔍'),
+              React.createElement('span', { className: 'button-text' }, 'Token Search')
+            ),
+            React.createElement('button', {
+              className: 'search-button feeling-degen',
+              onClick: () => {
+                handleChainSelect('Ethereum');
+              }
+            },
+              React.createElement('span', { className: 'button-icon' }, '🚀'),
+              React.createElement('span', { className: 'button-text' }, 'I\'m Feeling Degen')
             )
+          )
         )
       ),
 
@@ -754,7 +935,7 @@ function App() {
       ),
 
       // Filters Section
-      showFilters && selectedToken && React.createElement('div', { className: 'filters-section animate-on-mount' },
+      showFilters && (selectedToken || chainMode) && React.createElement('div', { className: 'filters-section animate-on-mount' },
         React.createElement('div', { className: 'filters-grid' },
           // Chain Filter
           availableChains.length > 1 && React.createElement('div', { className: 'filter-group' },
@@ -826,12 +1007,14 @@ function App() {
         )
       ),
 
-      // Results Section
-      selectedToken && React.createElement('div', { className: 'results-section animate-on-mount' },
+      // Results Section - show for both token mode and chain mode
+      (selectedToken || (chainMode && selectedChain)) && React.createElement('div', { className: 'results-section animate-on-mount' },
         filteredPools.length > 0 ? [
           React.createElement('div', { className: 'results-header', key: 'header' },
             React.createElement('h2', { className: 'results-title' },
-              `Yields for ${selectedToken}${selectedChain ? ` on ${selectedChain}` : ''}`
+              chainMode && selectedChain && !selectedToken
+                ? `${selectedChain} DeFi Yields`
+                : `Yields for ${selectedToken}${selectedChain ? ` on ${selectedChain}` : ''}`
             ),
             React.createElement('div', { className: 'results-count' },
               `${filteredPools.length} pool${filteredPools.length !== 1 ? 's' : ''} found`
@@ -917,9 +1100,15 @@ function App() {
             }, 'Next')
           )
         ] : React.createElement('div', { className: 'empty-state' },
-          React.createElement('div', { className: 'empty-message' }, `No yields found for ${selectedToken}`),
+          React.createElement('div', { className: 'empty-message' }, 
+            chainMode && selectedChain && !selectedToken
+              ? `No yields found on ${selectedChain} with current filters`
+              : `No yields found for ${selectedToken}`
+          ),
           React.createElement('div', { className: 'empty-submessage' },
-            'Try adjusting your filters or searching for a different token'
+            chainMode && selectedChain && !selectedToken
+              ? 'Try adjusting your TVL or APY filters, or select a different chain'
+              : 'Try adjusting your filters or searching for a different token'
           )
         )
       ),
