@@ -2916,13 +2916,13 @@ html {
 .filter-pill {
   flex-shrink: 0;
   padding: var(--space-8) var(--space-16);
-  border: none;
+  border: 1px solid rgba(var(--color-text-rgb), 0.2);
   border-radius: 20px;
-  background: var(--color-background);
+  background: transparent;
   color: var(--color-text);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: none;
   transition: all var(--duration-fast);
   cursor: pointer;
   white-space: nowrap;
@@ -2936,16 +2936,17 @@ html {
   border: 1px solid rgba(var(--color-text-rgb), 0.1);
 }
 
-/* Inactive chain pills - clearly raised */
+/* Inactive chain pills - transparent */
 .chain-pill:not(.active) {
-  background: var(--color-background);
-  box-shadow: var(--neuro-shadow-raised);
+  background: transparent;
+  box-shadow: none;
   color: var(--color-text);
+  border: 1px solid rgba(var(--color-text-rgb), 0.2);
 }
 
 .chain-pill:not(.active):hover {
-  box-shadow: var(--neuro-shadow-subtle);
-  transform: translateY(-1px);
+  background: rgba(var(--color-text-rgb), 0.05);
+  border-color: rgba(var(--color-text-rgb), 0.3);
 }
 
 /* Active chain pills - clearly pressed with brand color */
@@ -2968,13 +2969,13 @@ html {
 .filter-button {
   flex-shrink: 0;
   padding: var(--space-12) var(--space-16);
-  border: 1px solid rgba(var(--color-text-rgb), 0.1);
+  border: 1px solid rgba(var(--color-text-rgb), 0.2);
   border-radius: 12px;
-  background: var(--color-background);
+  background: transparent;
   color: var(--color-text);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: none;
   transition: all var(--duration-fast);
   cursor: pointer;
   position: relative;
@@ -2986,10 +2987,10 @@ html {
   min-height: 40px;
 }
 
-/* Inactive filter buttons - clearly raised */
+/* Inactive filter buttons - transparent with hover */
 .filter-button:not(.active):hover {
-  box-shadow: var(--neuro-shadow-subtle);
-  transform: translateY(-1px);
+  background: rgba(var(--color-text-rgb), 0.05);
+  border-color: rgba(var(--color-text-rgb), 0.3);
 }
 
 /* Active filter buttons - clearly pressed */
@@ -3061,13 +3062,13 @@ html {
 .filter-chip {
   flex-shrink: 0;
   padding: var(--space-6) var(--space-12);
-  border: 1px solid rgba(var(--color-text-rgb), 0.1);
+  border: 1px solid rgba(var(--color-text-rgb), 0.2);
   border-radius: 16px;
-  background: var(--color-background);
+  background: transparent;
   color: var(--color-text);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: none;
   transition: all var(--duration-fast);
   cursor: pointer;
   white-space: nowrap;
@@ -3076,10 +3077,10 @@ html {
   align-items: center;
 }
 
-/* Inactive filter chips - clearly raised */
+/* Inactive filter chips - transparent with hover */
 .filter-chip:hover:not(.active) {
-  box-shadow: var(--neuro-shadow-subtle);
-  transform: translateY(-1px);
+  background: rgba(var(--color-text-rgb), 0.05);
+  border-color: rgba(var(--color-text-rgb), 0.3);
 }
 
 /* Active filter chips - clearly pressed */
