@@ -142,7 +142,27 @@ const getChainEmoji = (chainName) => {
 
 // Main App Component
 function App() {
-  const [pools, setPools] = useState([]);
+  // Initialize pools with cached data synchronously
+  const [pools, setPools] = useState(() => {
+    try {
+      const cacheKey = 'defi-pools-data';
+      const cacheTimestampKey = 'defi-pools-timestamp';
+      const cached = localStorage.getItem(cacheKey);
+      const cacheTimestamp = localStorage.getItem(cacheTimestampKey);
+      
+      if (cached && cacheTimestamp) {
+        const fourHoursAgo = Date.now() - (4 * 60 * 60 * 1000);
+        if (parseInt(cacheTimestamp) > fourHoursAgo) {
+          // Return cached data immediately for instant search functionality
+          return JSON.parse(cached);
+        }
+      }
+    } catch (err) {
+      console.error('Error loading cached pools:', err);
+    }
+    // Fallback to empty array if no valid cache
+    return [];
+  });
   const [filteredPools, setFilteredPools] = useState([]);
   const [selectedToken, setSelectedToken] = useState('');
   const [searchInput, setSearchInput] = useState('');
@@ -282,29 +302,26 @@ function App() {
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
-  // Silent background fetch pools data after UI renders
+  // Background fetch fresh pools data after UI has fully rendered
   useEffect(() => {
-    const fetchPoolsWithCache = async () => {
+    const fetchFreshPoolsData = async () => {
       try {
-        // Clear any previous errors
         setError('');
         
-        // Check cache first (4 hour expiry)
+        // Only fetch if cache is expired or doesn't exist
         const cacheKey = 'defi-pools-data';
         const cacheTimestampKey = 'defi-pools-timestamp';
-        const cached = localStorage.getItem(cacheKey);
         const cacheTimestamp = localStorage.getItem(cacheTimestampKey);
         
-        if (cached && cacheTimestamp) {
+        if (cacheTimestamp) {
           const fourHoursAgo = Date.now() - (4 * 60 * 60 * 1000);
           if (parseInt(cacheTimestamp) > fourHoursAgo) {
-            // Use cached data
-            setPools(JSON.parse(cached));
+            // Cache is still fresh, no need to fetch
             return;
           }
         }
         
-        // Fetch fresh data
+        // Fetch fresh data from API
         const response = await fetch('https://yields.llama.fi/pools');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -316,25 +333,29 @@ function App() {
           throw new Error('Invalid response format');
         }
         
-        const poolsData = data.data;
+        const freshPoolsData = data.data;
         
-        // Cache the data with timestamp
-        localStorage.setItem(cacheKey, JSON.stringify(poolsData));
+        // Update cache with fresh data
+        localStorage.setItem(cacheKey, JSON.stringify(freshPoolsData));
         localStorage.setItem(cacheTimestampKey, Date.now().toString());
         
-        setPools(poolsData);
+        // Update state with fresh data (this enhances search with latest pools)
+        setPools(freshPoolsData);
       } catch (err) {
-        // Only set error state, don't show to user during silent loading
-        console.error('Error fetching pools:', err);
-        // Fallback to empty pools array to prevent UI blocking
-        setPools([]);
+        // Silent background failure - don't disrupt UI
+        console.error('Background fetch failed:', err);
       }
     };
 
-    // Defer API call to allow UI to render first
-    setTimeout(() => {
-      fetchPoolsWithCache();
-    }, 250);
+    // Use requestIdleCallback for truly non-blocking background fetch
+    if (typeof requestIdleCallback !== 'undefined') {
+      requestIdleCallback(() => {
+        setTimeout(fetchFreshPoolsData, 100); // Small delay after idle
+      });
+    } else {
+      // Fallback for browsers without requestIdleCallback
+      setTimeout(fetchFreshPoolsData, 300);
+    }
   }, []);
 
   // Background fetch protocols data after UI loads
