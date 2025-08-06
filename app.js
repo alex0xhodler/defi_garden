@@ -1042,49 +1042,49 @@ function App() {
             )
           ),
 
-          // TVL and APY Combined Row
+          // TVL Filter Row
           React.createElement('div', { className: 'filter-section' },
             React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, 'Value Filters')
+              React.createElement('label', { className: 'filter-label' }, 'Minimum TVL')
             ),
-            React.createElement('div', { className: 'value-filters-row' },
-              // TVL Filter Group
-              React.createElement('div', { className: 'value-filter-group' },
-                React.createElement('span', { className: 'value-filter-label' }, 'TVL'),
-                React.createElement('div', { className: 'filter-chips-container' },
-                  [
-                    { value: 0, label: 'No Min' },
-                    { value: 10000, label: '$10K+' },
-                    { value: 100000, label: '$100K+' },
-                    { value: 1000000, label: '$1M+' },
-                    { value: 10000000, label: '$10M+' }
-                  ].map(tvl =>
-                    React.createElement('button', {
-                      key: tvl.value,
-                      className: `filter-chip tvl-chip ${minTvl === tvl.value ? 'active' : ''}`,
-                      onClick: () => handleTvlSelect(tvl.value)
-                    }, tvl.label)
-                  )
+            React.createElement('div', { className: 'filter-row' },
+              React.createElement('div', { className: 'filter-chips-container' },
+                [
+                  { value: 0, label: 'No Min' },
+                  { value: 10000, label: '$10K+' },
+                  { value: 100000, label: '$100K+' },
+                  { value: 1000000, label: '$1M+' },
+                  { value: 10000000, label: '$10M+' }
+                ].map(tvl =>
+                  React.createElement('button', {
+                    key: tvl.value,
+                    className: `filter-chip tvl-chip ${minTvl === tvl.value ? 'active' : ''}`,
+                    onClick: () => handleTvlSelect(tvl.value)
+                  }, tvl.label)
                 )
-              ),
-              
-              // APY Filter Group
-              React.createElement('div', { className: 'value-filter-group' },
-                React.createElement('span', { className: 'value-filter-label' }, 'APY'),
-                React.createElement('div', { className: 'filter-chips-container' },
-                  [
-                    { value: 0, label: 'No Min' },
-                    { value: 1, label: '1%+' },
-                    { value: 5, label: '5%+' },
-                    { value: 10, label: '10%+' },
-                    { value: 20, label: '20%+' }
-                  ].map(apy =>
-                    React.createElement('button', {
-                      key: apy.value,
-                      className: `filter-chip apy-chip ${minApy === apy.value ? 'active' : ''}`,
-                      onClick: () => handleApySelect(apy.value)
-                    }, apy.label)
-                  )
+              )
+            )
+          ),
+
+          // APY Filter Row
+          React.createElement('div', { className: 'filter-section' },
+            React.createElement('div', { className: 'filter-section-header' },
+              React.createElement('label', { className: 'filter-label' }, 'Minimum APY')
+            ),
+            React.createElement('div', { className: 'filter-row' },
+              React.createElement('div', { className: 'filter-chips-container' },
+                [
+                  { value: 0, label: 'No Min' },
+                  { value: 1, label: '1%+' },
+                  { value: 5, label: '5%+' },
+                  { value: 10, label: '10%+' },
+                  { value: 20, label: '20%+' }
+                ].map(apy =>
+                  React.createElement('button', {
+                    key: apy.value,
+                    className: `filter-chip apy-chip ${minApy === apy.value ? 'active' : ''}`,
+                    onClick: () => handleApySelect(apy.value)
+                  }, apy.label)
                 )
               )
             )
