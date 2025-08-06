@@ -282,28 +282,59 @@ function App() {
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
-  // Background fetch pools data after UI loads
+  // Silent background fetch pools data after UI renders
   useEffect(() => {
-    const fetchPoolsInBackground = async () => {
+    const fetchPoolsWithCache = async () => {
       try {
+        // Clear any previous errors
         setError('');
+        
+        // Check cache first (4 hour expiry)
+        const cacheKey = 'defi-pools-data';
+        const cacheTimestampKey = 'defi-pools-timestamp';
+        const cached = localStorage.getItem(cacheKey);
+        const cacheTimestamp = localStorage.getItem(cacheTimestampKey);
+        
+        if (cached && cacheTimestamp) {
+          const fourHoursAgo = Date.now() - (4 * 60 * 60 * 1000);
+          if (parseInt(cacheTimestamp) > fourHoursAgo) {
+            // Use cached data
+            setPools(JSON.parse(cached));
+            return;
+          }
+        }
+        
+        // Fetch fresh data
         const response = await fetch('https://yields.llama.fi/pools');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
-        setPools(data.data || []);
+        
+        // Validate response structure
+        if (!data || !Array.isArray(data.data)) {
+          throw new Error('Invalid response format');
+        }
+        
+        const poolsData = data.data;
+        
+        // Cache the data with timestamp
+        localStorage.setItem(cacheKey, JSON.stringify(poolsData));
+        localStorage.setItem(cacheTimestampKey, Date.now().toString());
+        
+        setPools(poolsData);
       } catch (err) {
-        setError('Failed to load yield data. Please try again later.');
+        // Only set error state, don't show to user during silent loading
         console.error('Error fetching pools:', err);
-      } finally {
-        setLoading(false);
+        // Fallback to empty pools array to prevent UI blocking
+        setPools([]);
       }
     };
 
-    // Start loading data immediately in background
-    setLoading(true);
-    fetchPoolsInBackground();
+    // Defer API call to allow UI to render first
+    setTimeout(() => {
+      fetchPoolsWithCache();
+    }, 250);
   }, []);
 
   // Background fetch protocols data after UI loads
