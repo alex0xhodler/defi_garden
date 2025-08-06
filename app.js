@@ -136,11 +136,29 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
     if (exactTokenMatch) {
         token = exactTokenMatch;
     } else {
-        // Look for tokens within the query
-        for (const t of allTokens) {
-            if (lowerQuery.includes(t.toLowerCase())) {
+        // Look for tokens within the query using word boundaries
+        // Sort tokens by length (longest first) to prioritize better matches
+        const sortedTokens = allTokens.slice().sort((a, b) => b.length - a.length);
+        
+        for (const t of sortedTokens) {
+            const tokenLower = t.toLowerCase();
+            // Escape special regex characters in token
+            const escapedToken = tokenLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            // Use word boundary regex to match complete token words
+            const wordBoundaryRegex = new RegExp(`\\b${escapedToken}\\b`, 'i');
+            if (wordBoundaryRegex.test(lowerQuery)) {
                 token = t;
                 break;
+            }
+        }
+        
+        // Fallback: if no word boundary match, try partial matching for longer tokens (3+ chars)
+        if (!token) {
+            for (const t of sortedTokens) {
+                if (t.length >= 3 && lowerQuery.includes(t.toLowerCase())) {
+                    token = t;
+                    break;
+                }
             }
         }
     }
@@ -493,7 +511,7 @@ function App() {
         // Handle multiple symbols separated by dash or other separators
         const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
         symbols.forEach(symbol => {
-          if (symbol && symbol.length > 0 && symbol.length < 20) { // Reasonable length check
+          if (symbol && symbol.length >= 2 && symbol.length < 20) { // Filter out single-character tokens
             tokenSet.add(symbol);
           }
         });
