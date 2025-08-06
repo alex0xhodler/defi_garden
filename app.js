@@ -123,7 +123,7 @@ function useDebounce(value, delay) {
 }
 
 // Natural Language Parsing Function
-const parseNaturalLanguageQuery = (query, allTokens, allChains) => {
+const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
   const lowerQuery = query.toLowerCase();
   let token = '';
   let chain = '';
@@ -131,17 +131,19 @@ const parseNaturalLanguageQuery = (query, allTokens, allChains) => {
 
   // --- Parse Token ---
   // Prioritize exact token matches first
-  const exactTokenMatch = allTokens.find(t => t.toLowerCase() === lowerQuery);
-  if (exactTokenMatch) {
-      token = exactTokenMatch;
-  } else {
-      // Look for tokens within the query
-      for (const t of allTokens) {
-          if (lowerQuery.includes(t.toLowerCase())) {
-              token = t;
-              break;
-          }
-      }
+  if (allTokens && allTokens.length > 0) {
+    const exactTokenMatch = allTokens.find(t => t.toLowerCase() === lowerQuery);
+    if (exactTokenMatch) {
+        token = exactTokenMatch;
+    } else {
+        // Look for tokens within the query
+        for (const t of allTokens) {
+            if (lowerQuery.includes(t.toLowerCase())) {
+                token = t;
+                break;
+            }
+        }
+    }
   }
 
   // --- Parse Chain ---
@@ -173,14 +175,16 @@ const parseNaturalLanguageQuery = (query, allTokens, allChains) => {
       'cronos': 'Cronos'
   };
 
-  for (const alias in chainAliases) {
-      if (lowerQuery.includes(alias)) {
-          const matchedChain = chainAliases[alias];
-          if (allChains.includes(matchedChain)) { // Ensure it's a valid, available chain
-              chain = matchedChain;
-              break;
-          }
-      }
+  if (allChains && allChains.length > 0) {
+    for (const alias in chainAliases) {
+        if (lowerQuery.includes(alias)) {
+            const matchedChain = chainAliases[alias];
+            if (allChains.includes(matchedChain)) { // Ensure it's a valid, available chain
+                chain = matchedChain;
+                break;
+            }
+        }
+    }
   }
 
   // --- Parse Pool Types ---
@@ -521,7 +525,7 @@ function App() {
       if (token) suggestions.push(token);
       
       // Add related tokens if a token is partially matched
-      if (!token) {
+      if (!token && availableTokens && availableTokens.length > 0) {
         availableTokens.forEach(t => {
           if (debouncedSearchInput.toLowerCase().includes(t.toLowerCase()) && t.length >= 2) {
             suggestions.push(t);
