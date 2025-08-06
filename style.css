@@ -2854,6 +2854,256 @@ html {
   transition: transform 300ms var(--entry-easing-bounce);
 }
 
+/* Improved Horizontal Scrolling Filter Styles */
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  padding: var(--space-16) 0;
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.filter-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Horizontal scrolling rows for all filter types */
+.filter-row {
+  display: flex;
+  gap: var(--space-8);
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--space-4) 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(var(--color-text-rgb), 0.2) transparent;
+}
+
+.filter-row::-webkit-scrollbar {
+  height: 6px;
+}
+
+.filter-row::-webkit-scrollbar-thumb {
+  background: rgba(var(--color-text-rgb), 0.2);
+  border-radius: 3px;
+}
+
+.filter-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Chain Pills - Single Row */
+.filter-pills-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--space-8);
+}
+
+.filter-pill {
+  flex-shrink: 0;
+  padding: var(--space-8) var(--space-16);
+  border: none;
+  border-radius: 20px;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  box-shadow: var(--neuro-shadow-raised);
+  transition: all var(--duration-fast);
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+}
+
+.chain-pill {
+  border: 2px solid transparent;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.chain-pill:not(.active):hover {
+  background: linear-gradient(145deg, var(--color-background), var(--color-surface));
+  box-shadow: var(--neuro-shadow-subtle);
+  border-color: rgba(var(--chain-color-rgb, 107, 114, 128), 0.3);
+}
+
+.chain-pill.active {
+  background: var(--chain-color, var(--color-primary));
+  color: white;
+  box-shadow: var(--neuro-shadow-pressed);
+  font-weight: var(--font-weight-semibold);
+}
+
+.chain-pill:not(.active) {
+  background: linear-gradient(145deg, var(--color-background), var(--color-surface));
+}
+
+/* Pool Type Buttons - Single Row */
+.filter-buttons-group {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--space-8);
+}
+
+.filter-button {
+  flex-shrink: 0;
+  padding: var(--space-12) var(--space-16);
+  border: none;
+  border-radius: 12px;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  box-shadow: var(--neuro-shadow-raised);
+  transition: all var(--duration-fast);
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  white-space: nowrap;
+  min-height: 40px;
+}
+
+.filter-button:hover:not(.active) {
+  background: linear-gradient(145deg, var(--color-background), var(--color-surface));
+  box-shadow: var(--neuro-shadow-subtle);
+}
+
+.filter-button.active {
+  background: var(--color-primary);
+  color: white;
+  box-shadow: var(--neuro-shadow-pressed);
+  font-weight: var(--font-weight-semibold);
+}
+
+.filter-button .count {
+  opacity: 0.8;
+  font-size: var(--font-size-xs);
+  margin-left: var(--space-4);
+}
+
+/* TVL and APY Filter Chips - Combined Row */
+.value-filters-row {
+  display: flex;
+  gap: var(--space-16);
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--space-4) 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(var(--color-text-rgb), 0.2) transparent;
+}
+
+.value-filters-row::-webkit-scrollbar {
+  height: 6px;
+}
+
+.value-filters-row::-webkit-scrollbar-thumb {
+  background: rgba(var(--color-text-rgb), 0.2);
+  border-radius: 3px;
+}
+
+.value-filter-group {
+  display: flex;
+  gap: var(--space-8);
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.value-filter-label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-right: var(--space-4);
+  flex-shrink: 0;
+}
+
+.filter-chips-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--space-6);
+}
+
+.filter-chip {
+  flex-shrink: 0;
+  padding: var(--space-6) var(--space-12);
+  border: none;
+  border-radius: 16px;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  box-shadow: var(--neuro-shadow-raised);
+  transition: all var(--duration-fast);
+  cursor: pointer;
+  white-space: nowrap;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-chip:hover:not(.active) {
+  background: linear-gradient(145deg, var(--color-background), var(--color-surface));
+  box-shadow: var(--neuro-shadow-subtle);
+}
+
+.filter-chip.active {
+  background: var(--color-secondary);
+  color: white;
+  box-shadow: var(--neuro-shadow-pressed);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Mobile responsive for horizontal scrolling filters */
+@media (max-width: 768px) {
+  .filters-container {
+    gap: var(--space-12);
+    padding: var(--space-12) 0;
+  }
+  
+  .filter-section {
+    gap: var(--space-6);
+  }
+  
+  .filter-pill,
+  .filter-button,
+  .filter-chip {
+    min-height: 40px;
+    font-size: var(--font-size-xs);
+  }
+  
+  .filter-pill {
+    padding: var(--space-6) var(--space-12);
+  }
+  
+  .filter-button {
+    padding: var(--space-8) var(--space-12);
+  }
+  
+  .filter-chip {
+    padding: var(--space-6) var(--space-10);
+    min-height: 36px;
+  }
+  
+  .value-filters-row {
+    gap: var(--space-12);
+  }
+  
+  .value-filter-label {
+    font-size: 10px;
+  }
+}
+
 /* Accessibility: Respect reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   .animate-on-mount,

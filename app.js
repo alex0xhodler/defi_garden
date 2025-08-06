@@ -122,22 +122,26 @@ function useDebounce(value, delay) {
   return debouncedValue;
 }
 
-// Helper function to get chain emojis
-const getChainEmoji = (chainName) => {
-  const chainEmojis = {
-    'Ethereum': '🔷',
-    'Polygon': '🟣',
-    'Arbitrum': '🔵',
-    'Optimism': '🔴',
-    'BNB Chain': '🟡',
-    'Avalanche': '⚪',
-    'Solana': '🟢',
-    'Fantom': '🔷',
-    'zkSync Era': '⚫',
-    'Base': '🔵',
-    'Linea': '⚫'
+// Helper function to get chain brand colors
+const getChainColor = (chainName) => {
+  const chainColors = {
+    'Ethereum': '#627EEA',
+    'Polygon': '#8247E5',
+    'Arbitrum': '#2D374B',
+    'Optimism': '#FF0420',
+    'BNB Chain': '#F3BA2F',
+    'Avalanche': '#E84142',
+    'Solana': '#14F195',
+    'Fantom': '#1969FF',
+    'zkSync Era': '#8C8DFC',
+    'Base': '#0052FF',
+    'Linea': '#121212',
+    'Celo': '#FCFF52',
+    'Gnosis': '#3E6957',
+    'Moonbeam': '#53CBC9',
+    'Cronos': '#002D74'
   };
-  return chainEmojis[chainName] || '⚪';
+  return chainColors[chainName] || '#6B7280'; // Default gray color
 };
 
 // Main App Component
@@ -147,7 +151,7 @@ function App() {
   const [selectedToken, setSelectedToken] = useState('');
   const [searchInput, setSearchInput] = useState('');
   const [selectedChain, setSelectedChain] = useState('');
-  const [selectedPoolType, setSelectedPoolType] = useState('All');
+  const [selectedPoolTypes, setSelectedPoolTypes] = useState([]); // Changed to array for multi-select
   const [minTvl, setMinTvl] = useState(0);
   const [minApy, setMinApy] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
@@ -178,20 +182,21 @@ function App() {
   // URL parameter utilities
   const getUrlParams = () => {
     const params = new URLSearchParams(window.location.search);
+    const poolTypesParam = params.get('poolTypes');
     return {
       token: params.get('token') || '',
       chain: params.get('chain') || '',
-      poolType: params.get('poolType') || 'All',
+      poolTypes: poolTypesParam ? poolTypesParam.split(',') : [],
       minTvl: parseInt(params.get('minTvl') || '0', 10),
       minApy: parseInt(params.get('minApy') || '0', 10)
     };
   };
 
-  const updateUrl = (token, chain, poolType, minTvl, minApy) => {
+  const updateUrl = (token, chain, poolTypes, minTvl, minApy) => {
     const params = new URLSearchParams();
     if (token) params.set('token', token);
     if (chain) params.set('chain', chain);
-    if (poolType && poolType !== 'All') params.set('poolType', poolType);
+    if (poolTypes && poolTypes.length > 0) params.set('poolTypes', poolTypes.join(','));
     if (minTvl > 0) params.set('minTvl', minTvl.toString());
     if (minApy > 0) params.set('minApy', minApy.toString());
     
@@ -229,7 +234,7 @@ function App() {
     }
     
     if (urlParams.chain) setSelectedChain(urlParams.chain);
-    if (urlParams.poolType) setSelectedPoolType(urlParams.poolType);
+    if (urlParams.poolTypes) setSelectedPoolTypes(urlParams.poolTypes);
     if (urlParams.minTvl) setMinTvl(urlParams.minTvl);
     if (urlParams.minApy) setMinApy(urlParams.minApy);
     
@@ -273,7 +278,7 @@ function App() {
         document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
       }
       
-      setSelectedPoolType(urlParams.poolType);
+      setSelectedPoolTypes(urlParams.poolTypes);
       setMinApy(urlParams.minApy);
       setShowAutocomplete(false);
       setHighlightedIndex(-1);
@@ -438,53 +443,85 @@ function App() {
     return results;
   }, [availableTokens, debouncedSearchInput]);
 
-  // Get available chains for selected token or all chains in chain mode
+  // Get available chains sorted by TVL
   const availableChains = useMemo(() => {
     if (chainMode && pools.length > 0) {
       // In chain mode, show all available chains from the full pool dataset
-      const chainSet = new Set();
+      const chainTVL = {};
       pools.forEach(pool => {
-        if (pool.chain) {
-          chainSet.add(pool.chain);
+        if (pool.chain && pool.tvlUsd > 0) {
+          if (!chainTVL[pool.chain]) {
+            chainTVL[pool.chain] = 0;
+          }
+          chainTVL[pool.chain] += pool.tvlUsd;
         }
       });
-      return Array.from(chainSet).sort();
-    } else if (selectedToken && filteredPools.length > 0) {
-      // In token mode, show chains available for the selected token
-      const chainSet = new Set();
-      filteredPools.forEach(pool => {
-        if (pool.chain) {
-          chainSet.add(pool.chain);
+      
+      // Sort chains by TVL descending
+      return Object.entries(chainTVL)
+        .sort(([,a], [,b]) => b - a)
+        .map(([chain]) => chain);
+        
+    } else if (selectedToken && pools.length > 0) {
+      // In token mode, show chains available for the selected token, sorted by TVL
+      const chainTVL = {};
+      
+      pools.forEach(pool => {
+        if (!pool.symbol || !pool.chain) return;
+        
+        // Check if any symbol in the pool matches the selected token
+        const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
+        const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
+        
+        if (hasToken && pool.tvlUsd > 0) {
+          if (!chainTVL[pool.chain]) {
+            chainTVL[pool.chain] = 0;
+          }
+          chainTVL[pool.chain] += pool.tvlUsd;
         }
       });
-      return Array.from(chainSet).sort();
+      
+      // Sort chains by TVL descending
+      return Object.entries(chainTVL)
+        .sort(([,a], [,b]) => b - a)
+        .map(([chain]) => chain);
     }
     return [];
-  }, [selectedToken, filteredPools, chainMode, pools]);
+  }, [selectedToken, pools, chainMode]);
 
 
-  // Get pool type counts for selected token (before other filters)
+  // Get pool type counts for selected token or chain (before other filters)
   const poolTypeCounts = useMemo(() => {
-    if (!selectedToken || !pools.length) return {};
+    if (!pools.length) return {};
     
     const counts = { 'All': 0, 'Lending': 0, 'LP/DEX': 0, 'Staking': 0, 'Yield Farming': 0 };
     
     pools.forEach(pool => {
-      if (!pool.symbol) return;
+      // Chain mode: count all pools on selected chain
+      if (chainMode && selectedChain && !selectedToken) {
+        if (pool.chain === selectedChain && pool.tvlUsd > 0) {
+          const poolType = getPoolType(pool);
+          counts[poolType]++;
+          counts['All']++;
+        }
+        return;
+      }
       
-      // Check if any symbol in the pool matches the selected token
-      const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
-      const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
-      
-      if (hasToken && pool.tvlUsd > 0) {
-        const poolType = getPoolType(pool);
-        counts[poolType]++;
-        counts['All']++;
+      // Token mode: count pools with selected token
+      if (selectedToken && pool.symbol) {
+        const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
+        const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
+        
+        if (hasToken && pool.tvlUsd > 0) {
+          const poolType = getPoolType(pool);
+          counts[poolType]++;
+          counts['All']++;
+        }
       }
     });
     
     return counts;
-  }, [selectedToken, pools]);
+  }, [selectedToken, selectedChain, chainMode, pools]);
 
   // Filter and sort pools when token, chain, TVL, or APY selection changes
   useEffect(() => {
@@ -495,7 +532,7 @@ function App() {
         const chainMatch = pool.chain === selectedChain;
         
         // Filter by pool type if selected
-        const poolTypeMatch = selectedPoolType === 'All' || getPoolType(pool) === selectedPoolType;
+        const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
         
         // Filter by minimum TVL
         const tvlMatch = pool.tvlUsd >= minTvl;
@@ -536,7 +573,7 @@ function App() {
       const chainMatch = !selectedChain || pool.chain === selectedChain;
       
       // Filter by pool type if selected
-      const poolTypeMatch = selectedPoolType === 'All' || getPoolType(pool) === selectedPoolType;
+      const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
       
       // Filter by minimum TVL
       const tvlMatch = pool.tvlUsd >= minTvl;
@@ -557,20 +594,20 @@ function App() {
 
     setFilteredPools(filtered);
     setCurrentPage(1); // Reset to first page when filters change
-  }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, pools, chainMode]);
+  }, [selectedToken, selectedChain, selectedPoolTypes, minTvl, minApy, pools, chainMode]);
 
   // Update URL when filters change (but not during initial load or popstate events)
   useEffect(() => {
     if (!isInitialLoad) {
       if (chainMode && selectedChain && !selectedToken) {
         // Chain-first mode URL updates
-        updateUrl('', selectedChain, selectedPoolType, minTvl, minApy);
+        updateUrl('', selectedChain, selectedPoolTypes, minTvl, minApy);
       } else if (selectedToken) {
         // Token-first mode URL updates
-        updateUrl(selectedToken, selectedChain, selectedPoolType, minTvl, minApy);
+        updateUrl(selectedToken, selectedChain, selectedPoolTypes, minTvl, minApy);
       }
     }
-  }, [selectedToken, selectedChain, selectedPoolType, minTvl, minApy, isInitialLoad, chainMode]);
+  }, [selectedToken, selectedChain, selectedPoolTypes, minTvl, minApy, isInitialLoad, chainMode]);
   // Handle chain selection for chain-first mode
   const handleChainSelect = (chainName) => {
     setChainMode(true);
@@ -591,7 +628,7 @@ function App() {
     }
     
     // Update URL for chain-first mode
-    updateUrl('', chainName, selectedPoolType, 100000, minApy);
+    updateUrl('', chainName, selectedPoolTypes, 100000, minApy);
     
     // Scroll to results on mobile
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
@@ -658,7 +695,7 @@ function App() {
       setSelectedToken('');
       setFilteredPools([]);
       setSelectedChain('');
-      setSelectedPoolType('All');
+      setSelectedPoolTypes([]);
       setShowFilters(false);
     }
     
@@ -720,7 +757,7 @@ function App() {
     setSelectedToken('');
     setSearchInput('');
     setSelectedChain('');
-    setSelectedPoolType('All');
+    setSelectedPoolTypes([]);
     setMinTvl(0);
     setMinApy(0);
     setFilteredPools([]);
@@ -807,6 +844,27 @@ function App() {
     e.stopPropagation();
     setSelectedPool(pool);
     setShowYieldCalculator(true);
+  };
+
+  // Handle pool type selection (multi-select)
+  const handlePoolTypeToggle = (poolType) => {
+    setSelectedPoolTypes(prev => {
+      if (prev.includes(poolType)) {
+        return prev.filter(type => type !== poolType);
+      } else {
+        return [...prev, poolType];
+      }
+    });
+  };
+
+  // Handle TVL selection
+  const handleTvlSelect = (tvlValue) => {
+    setMinTvl(tvlValue);
+  };
+
+  // Handle APY selection
+  const handleApySelect = (apyValue) => {
+    setMinApy(apyValue);
   };
 
   // Calculate yields without compounding (simple interest)
@@ -934,74 +992,101 @@ function App() {
         React.createElement('div', { className: 'error-message' }, error)
       ),
 
-      // Filters Section
+      // Improved Horizontal Scrolling Filters Section
       showFilters && (selectedToken || chainMode) && React.createElement('div', { className: 'filters-section animate-on-mount' },
-        React.createElement('div', { className: 'filters-grid' },
-          // Chain Filter
-          availableChains.length > 1 && React.createElement('div', { className: 'filter-group' },
-            React.createElement('label', { className: 'filter-label' }, 'Chain'),
-            React.createElement('select', {
-              className: 'filter-select',
-              value: selectedChain,
-              onChange: (e) => setSelectedChain(e.target.value)
-            },
-              React.createElement('option', { value: '' }, 'All Chains'),
-              availableChains.map(chain => 
-                React.createElement('option', { key: chain, value: chain }, chain)
+        React.createElement('div', { className: 'filters-container' },
+          
+          // Chain Pills Filter - Single Horizontal Row
+          availableChains.length > 1 && React.createElement('div', { className: 'filter-section' },
+            React.createElement('div', { className: 'filter-section-header' },
+              React.createElement('label', { className: 'filter-label' }, 'Chains')
+            ),
+            React.createElement('div', { className: 'filter-row' },
+              React.createElement('div', { className: 'filter-pills-container' },
+                React.createElement('button', {
+                  className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
+                  onClick: () => setSelectedChain('')
+                }, 'All Chains'),
+                availableChains.map(chain => 
+                  React.createElement('button', {
+                    key: chain,
+                    className: `filter-pill chain-pill ${selectedChain === chain ? 'active' : ''}`,
+                    onClick: () => setSelectedChain(chain),
+                    style: {
+                      '--chain-color': getChainColor(chain)
+                    }
+                  }, chain)
+                )
               )
             )
           ),
 
-          // Pool Type Filter
-          React.createElement('div', { className: 'filter-group' },
-            React.createElement('label', { className: 'filter-label' }, 'Pool Type'),
-            React.createElement('select', {
-              className: 'filter-select',
-              value: selectedPoolType,
-              onChange: (e) => setSelectedPoolType(e.target.value)
-            },
-              React.createElement('option', { value: 'All' }, 
-                `All Pool Types${poolTypeCounts['All'] ? ' (' + poolTypeCounts['All'] + ')' : ''}`),
-              React.createElement('option', { value: 'Lending' }, 
-                `Lending${poolTypeCounts['Lending'] ? ' (' + poolTypeCounts['Lending'] + ')' : ''}`),
-              React.createElement('option', { value: 'LP/DEX' }, 
-                `LP/DEX${poolTypeCounts['LP/DEX'] ? ' (' + poolTypeCounts['LP/DEX'] + ')' : ''}`),
-              React.createElement('option', { value: 'Staking' }, 
-                `Staking${poolTypeCounts['Staking'] ? ' (' + poolTypeCounts['Staking'] + ')' : ''}`),
-              React.createElement('option', { value: 'Yield Farming' }, 
-                `Yield Farming${poolTypeCounts['Yield Farming'] ? ' (' + poolTypeCounts['Yield Farming'] + ')' : ''}`)
+          // Pool Type Buttons - Single Horizontal Row
+          React.createElement('div', { className: 'filter-section' },
+            React.createElement('div', { className: 'filter-section-header' },
+              React.createElement('label', { className: 'filter-label' }, 'Pool Types')
+            ),
+            React.createElement('div', { className: 'filter-row' },
+              React.createElement('div', { className: 'filter-buttons-group' },
+                ['Lending', 'LP/DEX', 'Staking', 'Yield Farming'].map(poolType =>
+                  React.createElement('button', {
+                    key: poolType,
+                    className: `filter-button pool-type-button ${selectedPoolTypes.includes(poolType) ? 'active' : ''}`,
+                    onClick: () => handlePoolTypeToggle(poolType)
+                  },
+                    poolType,
+                    poolTypeCounts[poolType] ? React.createElement('span', { className: 'count' }, `(${poolTypeCounts[poolType]})`) : null
+                  )
+                )
+              )
             )
           ),
 
-          // Min TVL Filter
-          React.createElement('div', { className: 'filter-group' },
-            React.createElement('label', { className: 'filter-label' }, 'Minimum TVL'),
-            React.createElement('select', {
-              className: 'filter-select',
-              value: minTvl,
-              onChange: (e) => setMinTvl(Number(e.target.value))
-            },
-              React.createElement('option', { value: 0 }, 'No minimum'),
-              React.createElement('option', { value: 10000 }, '$10K+'),
-              React.createElement('option', { value: 100000 }, '$100K+'),
-              React.createElement('option', { value: 1000000 }, '$1M+'),
-              React.createElement('option', { value: 10000000 }, '$10M+')
-            )
-          ),
-
-          // Min APY Filter
-          React.createElement('div', { className: 'filter-group' },
-            React.createElement('label', { className: 'filter-label' }, 'Minimum APY'),
-            React.createElement('select', {
-              className: 'filter-select',
-              value: minApy,
-              onChange: (e) => setMinApy(Number(e.target.value))
-            },
-              React.createElement('option', { value: 0 }, 'No minimum'),
-              React.createElement('option', { value: 1 }, '1%+'),
-              React.createElement('option', { value: 5 }, '5%+'),
-              React.createElement('option', { value: 10 }, '10%+'),
-              React.createElement('option', { value: 20 }, '20%+')
+          // TVL and APY Combined Row
+          React.createElement('div', { className: 'filter-section' },
+            React.createElement('div', { className: 'filter-section-header' },
+              React.createElement('label', { className: 'filter-label' }, 'Value Filters')
+            ),
+            React.createElement('div', { className: 'value-filters-row' },
+              // TVL Filter Group
+              React.createElement('div', { className: 'value-filter-group' },
+                React.createElement('span', { className: 'value-filter-label' }, 'TVL'),
+                React.createElement('div', { className: 'filter-chips-container' },
+                  [
+                    { value: 0, label: 'No Min' },
+                    { value: 10000, label: '$10K+' },
+                    { value: 100000, label: '$100K+' },
+                    { value: 1000000, label: '$1M+' },
+                    { value: 10000000, label: '$10M+' }
+                  ].map(tvl =>
+                    React.createElement('button', {
+                      key: tvl.value,
+                      className: `filter-chip tvl-chip ${minTvl === tvl.value ? 'active' : ''}`,
+                      onClick: () => handleTvlSelect(tvl.value)
+                    }, tvl.label)
+                  )
+                )
+              ),
+              
+              // APY Filter Group
+              React.createElement('div', { className: 'value-filter-group' },
+                React.createElement('span', { className: 'value-filter-label' }, 'APY'),
+                React.createElement('div', { className: 'filter-chips-container' },
+                  [
+                    { value: 0, label: 'No Min' },
+                    { value: 1, label: '1%+' },
+                    { value: 5, label: '5%+' },
+                    { value: 10, label: '10%+' },
+                    { value: 20, label: '20%+' }
+                  ].map(apy =>
+                    React.createElement('button', {
+                      key: apy.value,
+                      className: `filter-chip apy-chip ${minApy === apy.value ? 'active' : ''}`,
+                      onClick: () => handleApySelect(apy.value)
+                    }, apy.label)
+                  )
+                )
+              )
             )
           )
         )
