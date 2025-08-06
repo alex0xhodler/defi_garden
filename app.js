@@ -810,6 +810,21 @@ function App() {
            null;
   };
 
+  // Add referral parameter to protocol URL
+  const getProtocolUrlWithRef = (pool) => {
+    const baseUrl = getProtocolUrl(pool);
+    if (!baseUrl) return null;
+    
+    try {
+      const url = new URL(baseUrl);
+      url.searchParams.set('ref', 'defi.garden');
+      return url.toString();
+    } catch (error) {
+      // If URL parsing fails, return original URL
+      return baseUrl;
+    }
+  };
+
   // Get paginated results
   const paginatedPools = useMemo(() => {
     const startIndex = (currentPage - 1) * itemsPerPage;
@@ -818,24 +833,12 @@ function App() {
 
   const totalPages = Math.ceil(filteredPools.length / itemsPerPage);
 
-  // Handle pool click with protocol URL
+  // Handle pool click to open yield calculator
   const handlePoolClick = (pool, e) => {
     e.preventDefault();
     e.stopPropagation();
-    const protocolUrl = getProtocolUrl(pool);
-    if (protocolUrl) {
-      // Analytics tracking for protocol click-through
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'protocol_click', {
-          'event_category': 'conversion',
-          'event_label': pool.project,
-          'custom_parameter_1': pool.chain,
-          'custom_parameter_2': chainMode ? 'chain_mode' : 'token_mode',
-          'value': Math.round((pool.apyBase || 0) + (pool.apyReward || 0))
-        });
-      }
-      window.open(protocolUrl, '_blank', 'noopener,noreferrer');
-    }
+    setSelectedPool(pool);
+    setShowYieldCalculator(true);
   };
 
   // Handle yield calculator
@@ -1112,8 +1115,8 @@ function App() {
               const quickPreview = getQuickPreview(pool);
               return React.createElement('div', {
                 key: `${pool.pool}-${index}`,
-                className: `pool-card animate-on-mount ${protocolUrl ? 'clickable' : ''}`,
-                onClick: protocolUrl ? (e) => handlePoolClick(pool, e) : undefined
+                className: `pool-card animate-on-mount clickable`,
+                onClick: (e) => handlePoolClick(pool, e)
               },
                 // Header: Symbol + Protocol info + APY
                 React.createElement('div', { className: 'pool-header-new' },
@@ -1203,7 +1206,14 @@ function App() {
       ),
 
       // Yield Calculator Modal
-      showYieldCalculator && selectedPool && React.createElement('div', { className: 'modal-overlay' },
+      showYieldCalculator && selectedPool && React.createElement('div', { 
+        className: 'modal-overlay',
+        onClick: (e) => {
+          if (e.target === e.currentTarget) {
+            setShowYieldCalculator(false);
+          }
+        }
+      },
         React.createElement('div', { className: 'yield-calculator-modal' },
           React.createElement('div', { className: 'modal-header' },
             React.createElement('h3', { className: 'modal-title' }, 'Yield Calculator'),
@@ -1272,7 +1282,7 @@ function App() {
 
             // Start Earning Button (only show if protocol URL is available)
             (() => {
-              const protocolUrl = getProtocolUrl(selectedPool);
+              const protocolUrl = getProtocolUrlWithRef(selectedPool);
               if (!protocolUrl) return null;
               
               return React.createElement('div', { className: 'start-earning-section' },
