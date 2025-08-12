@@ -61,6 +61,12 @@ function extractValidCombinations(pools) {
       return; // Skip invalid pools
     }
     
+    // Only include pools with APY > 0%
+    const totalApy = (pool.apy || 0) + (pool.apyReward || 0);
+    if (totalApy <= 0) {
+      return; // Skip pools with no yield
+    }
+    
     // Extract token symbols (handle multi-token symbols like "ETH-USDC")
     const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
     
