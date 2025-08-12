@@ -61,6 +61,12 @@ function extractValidCombinations(pools) {
       return; // Skip invalid pools
     }
     
+    // Only include pools with APY > 0%
+    const totalApy = (pool.apy || 0) + (pool.apyReward || 0);
+    if (totalApy <= 0) {
+      return; // Skip pools with no yield
+    }
+    
     // Extract token symbols (handle multi-token symbols like "ETH-USDC")
     const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
     
@@ -116,6 +122,18 @@ function getPoolType(pool) {
 }
 
 /**
+ * Escape XML special characters
+ */
+function escapeXml(str) {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+/**
  * Generate API-validated sitemap XML content
  */
 async function generateSitemap() {
@@ -142,8 +160,14 @@ async function generateSitemap() {
     // Individual token pages - only tokens that have actual pools
     console.log('📝 Adding validated token pages...');
     tokens.forEach(token => {
+      // Skip tokens with XML special characters to avoid parsing errors
+      if (token.includes('&') || token.includes('<') || token.includes('>')) {
+        console.log(`⚠️  Skipping token with XML special characters: ${token}`);
+        return;
+      }
+      
       urls.push({
-        loc: `${SITE_URL}/?token=${token}`,
+        loc: `${SITE_URL}/?token=${encodeURIComponent(token)}`,
         lastmod: now,
         changefreq: 'daily',
         priority: '0.9'
@@ -153,9 +177,15 @@ async function generateSitemap() {
     // Token + Chain combinations - only combinations that exist in data
     console.log('📝 Adding validated token-chain combinations...');
     for (const [token, chainSet] of tokenChainCombos.entries()) {
+      // Skip tokens with XML special characters
+      if (token.includes('&') || token.includes('<') || token.includes('>')) {
+        console.log(`⚠️  Skipping token with XML special characters: ${token}`);
+        continue;
+      }
+      
       chainSet.forEach(chain => {
         urls.push({
-          loc: `${SITE_URL}/?token=${token}&chain=${encodeURIComponent(chain)}`,
+          loc: `${SITE_URL}/?token=${encodeURIComponent(token)}&chain=${encodeURIComponent(chain)}`,
           lastmod: now,
           changefreq: 'daily',
           priority: '0.8'
@@ -173,10 +203,16 @@ async function generateSitemap() {
     };
     
     for (const [token, poolTypeSet] of tokenPoolTypes.entries()) {
+      // Skip tokens with XML special characters
+      if (token.includes('&') || token.includes('<') || token.includes('>')) {
+        console.log(`⚠️  Skipping token with XML special characters: ${token}`);
+        continue;
+      }
+      
       poolTypeSet.forEach(poolType => {
         if (poolTypeUrlMap[poolType]) {
           urls.push({
-            loc: `${SITE_URL}/?token=${token}&poolTypes=${poolTypeUrlMap[poolType]}`,
+            loc: `${SITE_URL}/?token=${encodeURIComponent(token)}&poolTypes=${poolTypeUrlMap[poolType]}`,
             lastmod: now,
             changefreq: 'daily',
             priority: '0.7'
@@ -220,13 +256,13 @@ async function generateSitemap() {
 
     console.log(`✅ Generated ${urls.length} validated URLs for sitemap`);
     
-    // Generate XML
+    // Generate XML with proper escaping
     let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
     xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
     
     urls.forEach(url => {
       xml += '  <url>\n';
-      xml += `    <loc>${url.loc}</loc>\n`;
+      xml += `    <loc>${escapeXml(url.loc)}</loc>\n`;
       xml += `    <lastmod>${url.lastmod}</lastmod>\n`;
       xml += `    <changefreq>${url.changefreq}</changefreq>\n`;
       xml += `    <priority>${url.priority}</priority>\n`;
