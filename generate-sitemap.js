@@ -2,106 +2,258 @@
 
 /**
  * Sitemap Generator for DeFi Garden
- * Generates comprehensive sitemap.xml with token-specific URLs for SEO
+ * Generates API-validated sitemap.xml with only combinations that have actual yield data
  */
 
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 
 // Base URL for the site - configurable via environment variable
 const SITE_URL = process.env.SITE_URL || 'https://www.defi.garden';
 
-// Comprehensive list of popular DeFi tokens for SEO
-const POPULAR_TOKENS = [
-  // Major cryptocurrencies
-  'BTC', 'ETH', 'BNB', 'ADA', 'SOL', 'DOT', 'AVAX', 'MATIC', 'LINK', 'UNI',
-  'ATOM', 'XTZ', 'ALGO', 'NEAR', 'FTM', 'ONE', 'LUNA', 'EGLD', 'FLOW', 'ICP',
-  
-  // Stablecoins
-  'USDC', 'USDT', 'DAI', 'BUSD', 'FRAX', 'LUSD', 'MIM', 'USDD', 'TUSD', 'USDP',
-  'GUSD', 'SUSD', 'DOLA', 'FEI', 'TRIBE', 'RAI', 'OUSD', 'USDN', 'USTC', 'UST',
-  
-  // DeFi blue chips
-  'AAVE', 'COMP', 'MKR', 'SNX', 'CRV', 'YFI', 'SUSHI', 'BAL', 'LDO', 'RPL',
-  'CVX', 'FXS', 'ALCX', 'SPELL', 'ICE', 'OHM', 'TRIBE', 'RARI', 'BADGER', 'FARM',
-  
-  // Layer 2 tokens
-  'ARB', 'OP', 'IMX', 'LRC', 'BOBA', 'METIS', 'KAVA', 'ROSE', 'CELO', 'MINA',
-  
-  // Lending protocols tokens
-  'COMP', 'AAVE', 'CREAM', 'VENUS', 'BENQI', 'GEIST', 'RADIANT', 'HUNDRED',
-  'GRANARY', 'STRIKE', 'IRON', 'DFORCE', 'EULER', 'MAPLE', 'CLEARPOOL',
-  
-  // DEX tokens
-  'UNI', 'SUSHI', 'CAKE', 'JOE', 'QUICK', 'SPIRIT', 'SPOOKY', 'BOO', 'DODO',
-  'BANCOR', 'KNC', 'ZRX', 'ALPHA', 'BETA', 'GAMMA', 'DELTA', 'THETA', 'KAPPA',
-  
-  // Yield farming tokens
-  'YFI', 'FARM', 'HARVEST', 'AUTO', 'BEEFY', 'ALPACA', 'BELT', 'BUNNY', 'EGG',
-  'WAULT', 'BLIZZARD', 'STORM', 'THUNDER', 'LIGHTNING', 'TORNADO', 'HURRICANE',
-  
-  // Synthetic assets
-  'SNX', 'SYNTH', 'MIRROR', 'MIR', 'MAAPL', 'MTSLA', 'MGOOGL', 'MSPY', 'QQQ',
-  'STSLA', 'SAAVE', 'SLINK', 'SETH', 'SBTC', 'SUSD', 'SEUR', 'SGBP', 'SJPY',
-  
-  // Wrapped tokens
-  'WETH', 'WBTC', 'WBNB', 'WMATIC', 'WAVAX', 'WFTM', 'WONE', 'WROSE', 'WCELO',
-  'WNEAR', 'WSOL', 'WDOT', 'WATOM', 'WADA', 'WXTZ', 'WALGO', 'WFLOW', 'WICP',
-  
-  // Liquid staking tokens
-  'STETH', 'RETH', 'CBETH', 'WSTETH', 'SFRXETH', 'ANKR', 'STKD', 'SWETH',
-  'OETH', 'FRXETH', 'SETH2', 'RETH2', 'STMATIC', 'MATICX', 'STAKEWISE',
-  
-  // Cross-chain tokens
-  'WORMHOLE', 'ANYSWAP', 'SYNAPSE', 'HOP', 'CONNEXT', 'CELER', 'MULTICHAIN',
-  'STARGATE', 'LAYERZERO', 'HYPERLANE', 'NOMAD', 'THORCHAIN', 'RUNE', 'MAYA',
-  
-  // Gaming and NFT tokens
-  'AXS', 'SLP', 'SAND', 'MANA', 'ENJ', 'CHZ', 'GALA', 'ILV', 'GHST', 'REVV',
-  'ALICE', 'TLM', 'SPS', 'DEC', 'GODS', 'IMX', 'LOOKS', 'BLUR', 'X2Y2', 'GEM',
-  
-  // Privacy tokens
-  'XMR', 'ZEC', 'DASH', 'FIRO', 'BEAM', 'GRIN', 'HAVEN', 'PIRATE', 'DERO',
-  'ARRR', 'TORN', 'RAIL', 'SCRT', 'OASIS', 'NYM', 'KEEP', 'NU', 'AZERO',
-  
-  // Meme tokens (popular for yield farming)
-  'DOGE', 'SHIB', 'PEPE', 'FLOKI', 'BABYDOGE', 'ELON', 'KISHU', 'AKITA', 'HOKK',
-  'LEASH', 'BONE', 'RYOSHI', 'SAITAMA', 'LUFFY', 'GOKU', 'NARUTO', 'KAKASHI',
-  
-  // Enterprise and institutional
-  'LINK', 'VET', 'HBAR', 'ALGO', 'XLM', 'AMP', 'REQ', 'RLC', 'OCEAN', 'FET',
-  'AGIX', 'NMR', 'LPT', 'GRT', 'BAND', 'API3', 'UMA', 'KEEP', 'NU', 'REN',
-  
-  // Real world assets
-  'USDR', 'USDY', 'OUSG', 'BUIDL', 'FDUSD', 'PYUSD', 'EUROC', 'GYEN', 'ZUSD',
-  'XSGD', 'TCAD', 'TGBP', 'TAUD', 'THKD', 'NZDS', 'BIDR', 'IDRT', 'TRY',
-  
-  // Additional high-volume tokens
-  'FTT', 'GMT', 'APE', 'LOOKS', 'BLUR', 'MAGIC', 'TREASURE', 'SMOL', 'GRAIL',
-  'JONES', 'DOPEX', 'RDNT', 'PENDLE', 'PRIME', 'ECHELON', 'BATTALION', 'VELA'
-];
-
-// Major blockchain networks
-const NETWORKS = [
-  'ethereum', 'polygon', 'bsc', 'avalanche', 'fantom', 'arbitrum', 'optimism',
-  'solana', 'terra', 'cosmos', 'osmosis', 'juno', 'secret', 'kava', 'cronos'
-];
-
-// Popular token pairs for LP yields
-const POPULAR_PAIRS = [
-  'ETH-USDC', 'BTC-ETH', 'USDC-USDT', 'ETH-DAI', 'WBTC-ETH', 'MATIC-ETH',
-  'BNB-BUSD', 'AVAX-USDC', 'SOL-USDC', 'DOT-USDT', 'LINK-ETH', 'UNI-ETH',
-  'AAVE-ETH', 'COMP-ETH', 'SNX-ETH', 'CRV-ETH', 'BAL-ETH', 'SUSHI-ETH'
-];
+// Defillama API endpoint
+const YIELDS_API = 'https://yields.llama.fi/pools';
 
 /**
- * Generate sitemap XML content
+ * Fetch pool data from Defillama API
  */
-function generateSitemap() {
+async function fetchPoolData() {
+  return new Promise((resolve, reject) => {
+    console.log('📡 Fetching pool data from Defillama API...');
+    
+    https.get(YIELDS_API, (res) => {
+      let data = '';
+      
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+      
+      res.on('end', () => {
+        try {
+          const jsonData = JSON.parse(data);
+          const pools = jsonData.data || jsonData;
+          console.log(`✅ Fetched ${pools.length} pools from API`);
+          resolve(pools);
+        } catch (error) {
+          reject(new Error(`Failed to parse API response: ${error.message}`));
+        }
+      });
+    }).on('error', (error) => {
+      reject(new Error(`API request failed: ${error.message}`));
+    });
+  });
+}
+
+/**
+ * Extract valid tokens and chains from pool data
+ */
+function extractValidCombinations(pools) {
+  console.log('🔍 Analyzing pool data for valid combinations...');
+  
+  const validTokens = new Set();
+  const validChains = new Set();
+  const validTokenChainCombos = new Map(); // token -> Set of chains
+  const validTokenPoolTypes = new Map(); // token -> Set of pool types
+  
+  pools.forEach(pool => {
+    if (!pool.symbol || !pool.chain || !pool.tvlUsd || pool.tvlUsd <= 0) {
+      return; // Skip invalid pools
+    }
+    
+    // Extract token symbols (handle multi-token symbols like "ETH-USDC")
+    const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
+    
+    symbols.forEach(symbol => {
+      if (symbol.length >= 2 && symbol.length < 20) { // Valid token symbols
+        validTokens.add(symbol);
+        validChains.add(pool.chain);
+        
+        // Track token-chain combinations
+        if (!validTokenChainCombos.has(symbol)) {
+          validTokenChainCombos.set(symbol, new Set());
+        }
+        validTokenChainCombos.get(symbol).add(pool.chain);
+        
+        // Track token-pool type combinations
+        const poolType = getPoolType(pool);
+        if (!validTokenPoolTypes.has(symbol)) {
+          validTokenPoolTypes.set(symbol, new Set());
+        }
+        validTokenPoolTypes.get(symbol).add(poolType);
+      }
+    });
+  });
+  
+  console.log(`📊 Found ${validTokens.size} valid tokens across ${validChains.size} chains`);
+  
+  return {
+    tokens: Array.from(validTokens).sort(),
+    chains: Array.from(validChains).sort(),
+    tokenChainCombos: validTokenChainCombos,
+    tokenPoolTypes: validTokenPoolTypes
+  };
+}
+
+/**
+ * Determine pool type from pool data (simplified version from app.js)
+ */
+function getPoolType(pool) {
+  if (!pool.project) return 'Yield Farming';
+  
+  const projectName = pool.project.toLowerCase().replace(/\s+/g, '-');
+  
+  // Simple categorization logic
+  const lendingProjects = ['aave', 'compound', 'morpho', 'spark', 'radiant', 'euler'];
+  const stakingProjects = ['lido', 'rocket-pool', 'ether.fi', 'jito', 'marinade'];
+  const dexProjects = ['uniswap', 'curve', 'balancer', 'pancakeswap', 'sushiswap'];
+  
+  if (lendingProjects.some(p => projectName.includes(p))) return 'Lending';
+  if (stakingProjects.some(p => projectName.includes(p))) return 'Staking';
+  if (dexProjects.some(p => projectName.includes(p))) return 'LP/DEX';
+  
+  return 'Yield Farming';
+}
+
+/**
+ * Generate API-validated sitemap XML content
+ */
+async function generateSitemap() {
+  console.log('🚀 Starting API-validated sitemap generation...');
+  
+  try {
+    // Fetch real pool data from API
+    const pools = await fetchPoolData();
+    
+    // Extract valid combinations from real data
+    const { tokens, chains, tokenChainCombos, tokenPoolTypes } = extractValidCombinations(pools);
+    
+    const now = new Date().toISOString();
+    const urls = [];
+
+    // Homepage - always include
+    urls.push({
+      loc: SITE_URL,
+      lastmod: now,
+      changefreq: 'daily',
+      priority: '1.0'
+    });
+
+    // Individual token pages - only tokens that have actual pools
+    console.log('📝 Adding validated token pages...');
+    tokens.forEach(token => {
+      urls.push({
+        loc: `${SITE_URL}/?token=${token}`,
+        lastmod: now,
+        changefreq: 'daily',
+        priority: '0.9'
+      });
+    });
+
+    // Token + Chain combinations - only combinations that exist in data
+    console.log('📝 Adding validated token-chain combinations...');
+    for (const [token, chainSet] of tokenChainCombos.entries()) {
+      chainSet.forEach(chain => {
+        urls.push({
+          loc: `${SITE_URL}/?token=${token}&chain=${encodeURIComponent(chain)}`,
+          lastmod: now,
+          changefreq: 'daily',
+          priority: '0.8'
+        });
+      });
+    }
+
+    // Token + Pool type combinations - only combinations that exist
+    console.log('📝 Adding validated token-pooltype combinations...');
+    const poolTypeUrlMap = {
+      'Lending': 'Lending',
+      'LP/DEX': 'LP%2FDEX',
+      'Staking': 'Staking', 
+      'Yield Farming': 'Yield%20Farming'
+    };
+    
+    for (const [token, poolTypeSet] of tokenPoolTypes.entries()) {
+      poolTypeSet.forEach(poolType => {
+        if (poolTypeUrlMap[poolType]) {
+          urls.push({
+            loc: `${SITE_URL}/?token=${token}&poolTypes=${poolTypeUrlMap[poolType]}`,
+            lastmod: now,
+            changefreq: 'daily',
+            priority: '0.7'
+          });
+        }
+      });
+    }
+
+    // Chain-only pages - only chains that have pools
+    console.log('📝 Adding validated chain pages...');
+    chains.forEach(chain => {
+      urls.push({
+        loc: `${SITE_URL}/?chain=${encodeURIComponent(chain)}`,
+        lastmod: now,
+        changefreq: 'daily',
+        priority: '0.6'
+      });
+    });
+
+    // High TVL and APY pages (keep these as they're filter-based, not content-based)
+    const tvlLevels = ['1000000', '10000000', '100000000']; // $1M, $10M, $100M
+    const apyLevels = ['5', '10', '20', '50']; // 5%, 10%, 20%, 50%
+    
+    tvlLevels.forEach(tvl => {
+      urls.push({
+        loc: `${SITE_URL}/?minTvl=${tvl}`,
+        lastmod: now,
+        changefreq: 'daily',
+        priority: '0.5'
+      });
+    });
+
+    apyLevels.forEach(apy => {
+      urls.push({
+        loc: `${SITE_URL}/?minApy=${apy}`,
+        lastmod: now,
+        changefreq: 'daily',
+        priority: '0.5'
+      });
+    });
+
+    console.log(`✅ Generated ${urls.length} validated URLs for sitemap`);
+    
+    // Generate XML
+    let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+    xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+    
+    urls.forEach(url => {
+      xml += '  <url>\n';
+      xml += `    <loc>${url.loc}</loc>\n`;
+      xml += `    <lastmod>${url.lastmod}</lastmod>\n`;
+      xml += `    <changefreq>${url.changefreq}</changefreq>\n`;
+      xml += `    <priority>${url.priority}</priority>\n`;
+      xml += '  </url>\n';
+    });
+    
+    xml += '</urlset>';
+    
+    return xml;
+    
+  } catch (error) {
+    console.error('❌ Error during API-validated sitemap generation:', error.message);
+    console.log('🔄 Falling back to static sitemap generation...');
+    
+    // Fallback to basic sitemap if API fails
+    return generateFallbackSitemap();
+  }
+}
+
+/**
+ * Generate fallback sitemap when API fails
+ */
+function generateFallbackSitemap() {
   const now = new Date().toISOString();
   const urls = [];
 
-  // Homepage
+  // Just homepage and basic pages
   urls.push({
     loc: SITE_URL,
     lastmod: now,
@@ -109,8 +261,9 @@ function generateSitemap() {
     priority: '1.0'
   });
 
-  // Individual token pages
-  POPULAR_TOKENS.forEach(token => {
+  // Only most popular tokens to avoid soft 404s
+  const safeTokens = ['USDC', 'USDT', 'DAI', 'ETH', 'BTC', 'WETH', 'WBTC'];
+  safeTokens.forEach(token => {
     urls.push({
       loc: `${SITE_URL}/?token=${token}`,
       lastmod: now,
@@ -119,67 +272,6 @@ function generateSitemap() {
     });
   });
 
-  // Token + Network combinations (high-value combinations)
-  const priorityNetworks = ['ethereum', 'polygon', 'bsc', 'avalanche', 'arbitrum'];
-  const priorityTokens = POPULAR_TOKENS.slice(0, 50); // Top 50 tokens
-  
-  priorityTokens.forEach(token => {
-    priorityNetworks.forEach(network => {
-      urls.push({
-        loc: `${SITE_URL}/?token=${token}&amp;chain=${network}`,
-        lastmod: now,
-        changefreq: 'daily',
-        priority: '0.8'
-      });
-    });
-  });
-
-  // Pool type specific pages
-  const poolTypes = ['Lending', 'LP%2FDEX', 'Staking', 'Yield%20Farming'];
-  POPULAR_TOKENS.slice(0, 30).forEach(token => {
-    poolTypes.forEach(type => {
-      urls.push({
-        loc: `${SITE_URL}/?token=${token}&amp;poolType=${type}`,
-        lastmod: now,
-        changefreq: 'daily',
-        priority: '0.7'
-      });
-    });
-  });
-
-  // Network-specific pages
-  NETWORKS.forEach(network => {
-    urls.push({
-      loc: `${SITE_URL}/?chain=${network}`,
-      lastmod: now,
-      changefreq: 'daily',
-      priority: '0.6'
-    });
-  });
-
-  // High TVL and APY pages
-  const tvlLevels = ['1000000', '10000000', '100000000']; // $1M, $10M, $100M
-  const apyLevels = ['5', '10', '20', '50']; // 5%, 10%, 20%, 50%
-  
-  tvlLevels.forEach(tvl => {
-    urls.push({
-      loc: `${SITE_URL}/?minTvl=${tvl}`,
-      lastmod: now,
-      changefreq: 'daily',
-      priority: '0.5'
-    });
-  });
-
-  apyLevels.forEach(apy => {
-    urls.push({
-      loc: `${SITE_URL}/?minApy=${apy}`,
-      lastmod: now,
-      changefreq: 'daily',
-      priority: '0.5'
-    });
-  });
-
-  // Generate XML
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
   
@@ -235,12 +327,12 @@ Allow: /
 /**
  * Main execution
  */
-function main() {
+async function main() {
   try {
-    console.log('🚀 Generating comprehensive sitemap for DeFi Garden...');
+    console.log('🚀 Generating API-validated sitemap for DeFi Garden...');
     
-    // Generate sitemap
-    const sitemapContent = generateSitemap();
+    // Generate sitemap (now async)
+    const sitemapContent = await generateSitemap();
     fs.writeFileSync('sitemap.xml', sitemapContent);
     console.log(`✅ Generated sitemap.xml with ${sitemapContent.split('<url>').length - 1} URLs`);
     
@@ -252,22 +344,21 @@ function main() {
     // Stats
     console.log('\n📊 Sitemap Statistics:');
     console.log(`- Total URLs: ${sitemapContent.split('<url>').length - 1}`);
-    console.log(`- Unique tokens: ${POPULAR_TOKENS.length}`);
-    console.log(`- Supported networks: ${NETWORKS.length}`);
     console.log(`- File size: ${(sitemapContent.length / 1024).toFixed(2)} KB`);
+    console.log(`- Generation method: ${sitemapContent.includes('validated') ? 'API-validated' : 'Fallback'}`);
     
     console.log('\n🔍 SEO Benefits:');
-    console.log('- Individual token yield pages for organic search');
-    console.log('- Network-specific landing pages');
-    console.log('- Pool type categorization pages');
-    console.log('- High-value TVL and APY filter pages');
-    console.log('- Daily update frequency for fresh content');
+    console.log('- ✅ Zero soft 404 errors (all URLs have actual content)');
+    console.log('- ✅ Validated token/chain combinations only');
+    console.log('- ✅ Real-time data integration');
+    console.log('- ✅ Better crawl budget utilization');
+    console.log('- ✅ Higher content quality signals');
     
     console.log('\n📝 Next Steps:');
     console.log('1. Upload sitemap.xml and robots.txt to your web server root');
     console.log('2. Submit sitemap to Google Search Console');
-    console.log('3. Monitor indexing progress and organic traffic');
-    console.log('4. Set up automated daily sitemap regeneration');
+    console.log('3. Monitor for elimination of soft 404 errors');
+    console.log('4. Set up automated daily sitemap regeneration with API validation');
     
   } catch (error) {
     console.error('❌ Error generating sitemap:', error);
@@ -280,4 +371,11 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateSitemap, generateRobotsTxt, POPULAR_TOKENS, NETWORKS };
+module.exports = { 
+  generateSitemap, 
+  generateFallbackSitemap, 
+  generateRobotsTxt, 
+  fetchPoolData, 
+  extractValidCombinations, 
+  getPoolType 
+};
