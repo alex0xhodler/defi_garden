@@ -123,7 +123,7 @@ function useDebounce(value, delay) {
 }
 
 // Natural Language Parsing Function
-const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
+const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allProtocols = []) => {
   const lowerQuery = query.toLowerCase();
   let token = '';
   let chain = '';
@@ -271,7 +271,106 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
   // Deduplicate pool types
   poolTypes = [...new Set(poolTypes)];
 
-  return { token, chain, poolTypes };
+  // --- Parse Protocols ---
+  let protocols = [];
+  
+  // Create protocol alias mapping for better matching
+  const protocolAliases = {
+    // Aave variants
+    'aave': ['aave', 'aave-v2', 'aave-v3'],
+    // Compound variants  
+    'compound': ['compound', 'compound-v2', 'compound-v3', 'comp'],
+    // Uniswap variants
+    'uniswap': ['uniswap', 'uniswap-v2', 'uniswap-v3', 'uni'],
+    // Curve variants
+    'curve': ['curve', 'curve-dex', 'crv'],
+    // Morpho variants
+    'morpho': ['morpho', 'morpho-blue'],
+    // Euler
+    'euler': ['euler'],
+    // Venus
+    'venus': ['venus'],
+    // Aerodrome variants
+    'aerodrome': ['aerodrome', 'aerodrome-slipstream'],
+    // PancakeSwap variants
+    'pancakeswap': ['pancakeswap', 'pancakeswap-v2', 'pancakeswap-v3', 'pcs'],
+    // Lido
+    'lido': ['lido'],
+    // Rocket Pool
+    'rocket pool': ['rocket-pool', 'rocketpool', 'rpl'],
+    // Ether.fi
+    'ether.fi': ['ether.fi', 'ether.fi-stake', 'etherfi'],
+    // Jito
+    'jito': ['jito', 'jito-liquid-staking'],
+    // Marinade
+    'marinade': ['marinade'],
+    // Raydium
+    'raydium': ['raydium'],
+    // Orca
+    'orca': ['orca'],
+    // Balancer
+    'balancer': ['balancer', 'balancer-v2', 'bal']
+  };
+
+  // Protocol context keywords that typically precede protocol names
+  const protocolKeywords = ['on', 'via', 'using', 'through', 'from', 'with', 'in'];
+  
+  // Method 1: Look for protocols after context keywords
+  const words = lowerQuery.split(/\s+/);
+  for (let i = 0; i < words.length - 1; i++) {
+    if (protocolKeywords.includes(words[i])) {
+      const protocolCandidate = words[i + 1];
+      
+      // Find matching protocol
+      for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
+        if (aliases.some(alias => alias === protocolCandidate || protocolCandidate.includes(alias))) {
+          protocols.push(friendlyName);
+          break;
+        }
+      }
+    }
+  }
+  
+  // Method 2: Direct protocol name detection (fallback) 
+  if (protocols.length === 0) {
+    for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
+      if (aliases.some(alias => lowerQuery.includes(alias))) {
+        // Additional check: avoid matching common words that might be part of other contexts
+        // For example, avoid matching "compound" in "compound interest"
+        const aliasMatch = aliases.find(alias => lowerQuery.includes(alias));
+        const wordBoundaryRegex = new RegExp(`\\b${aliasMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+        
+        if (wordBoundaryRegex.test(lowerQuery)) {
+          protocols.push(friendlyName);
+        }
+      }
+    }
+  }
+  
+  // Method 3: Protocol-first detection (e.g., "aave on arbitrum")
+  if (protocols.length === 0) {
+    const firstWord = words[0];
+    if (firstWord) {
+      for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
+        if (aliases.includes(firstWord)) {
+          protocols.push(friendlyName);
+          break;
+        }
+      }
+    }
+  }
+  
+  // Deduplicate protocols
+  protocols = [...new Set(protocols)];
+
+  return { token, chain, poolTypes, protocols };
+};
+
+// Helper function to normalize protocol names for consistent matching
+const normalizeProtocolName = (protocolName) => {
+  if (!protocolName) return protocolName;
+  // Convert to title case - first letter uppercase, rest lowercase
+  return protocolName.charAt(0).toUpperCase() + protocolName.slice(1).toLowerCase();
 };
 
 // Helper function to get chain brand colors
@@ -490,7 +589,7 @@ function App() {
     
     if (urlParams.chain) setSelectedChain(urlParams.chain);
     if (urlParams.poolTypes) setSelectedPoolTypes(urlParams.poolTypes);
-    if (urlParams.protocols) setSelectedProtocols(urlParams.protocols);
+    if (urlParams.protocols) setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
     if (urlParams.minTvl) setMinTvl(urlParams.minTvl);
     if (urlParams.minApy) setMinApy(urlParams.minApy);
     
@@ -544,15 +643,16 @@ function App() {
       }
       
       setSelectedPoolTypes(urlParams.poolTypes);
-      setSelectedProtocols(urlParams.protocols);
+      setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
       setMinApy(urlParams.minApy);
       setShowAutocomplete(false);
       setHighlightedIndex(-1);
     };
 
+    // Only add popstate listener, don't call handler on mount since initial URL parsing handles that
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
-  }, [currentView]);
+  }, []);
   // Background fetch pools data after UI loads
   useEffect(() => {
     const fetchPoolsInBackground = async () => {
@@ -712,17 +812,32 @@ function App() {
     
     // Check if this looks like a natural language query
     const isNaturalLanguage = debouncedSearchInput.split(' ').length > 1 || 
-                               /\b(best|highest|yield|lending|staking|on|for|eth|btc|usdc|base|arbitrum|polygon)\b/i.test(debouncedSearchInput);
+                               /\b(best|highest|yield|lending|staking|on|for|eth|btc|usdc|base|arbitrum|polygon|aave|compound|uniswap|curve|morpho|euler|venus)\b/i.test(debouncedSearchInput);
     
     if (isNaturalLanguage) {
       // For natural language, try to parse and provide relevant suggestions
-      const { token, chain, poolTypes } = parseNaturalLanguageQuery(debouncedSearchInput, availableTokens, allAvailableChains);
+      const { token, chain, poolTypes, protocols } = parseNaturalLanguageQuery(debouncedSearchInput, availableTokens, allAvailableChains, availableProtocols?.all || []);
       
       // Return suggestions based on parsed results
       const suggestions = [];
-      if (token) suggestions.push(token);
       
-      // Add related tokens if a token is partially matched
+      // Build descriptive suggestion showing what was parsed
+      let parsedComponents = [];
+      if (token) parsedComponents.push(token);
+      if (protocols.length > 0) parsedComponents.push(`on ${protocols.join(', ')}`);
+      if (chain) parsedComponents.push(`(${chain})`);
+      if (poolTypes.length > 0) parsedComponents.push(`[${poolTypes.join(', ')}]`);
+      
+      if (parsedComponents.length > 0) {
+        suggestions.push(parsedComponents.join(' '));
+      }
+      
+      // Add the primary token if detected
+      if (token && !suggestions.includes(token)) {
+        suggestions.push(token);
+      }
+      
+      // Add related tokens if a token is partially matched but not exactly found
       if (!token && availableTokens && availableTokens.length > 0) {
         availableTokens.forEach(t => {
           if (debouncedSearchInput.toLowerCase().includes(t.toLowerCase()) && t.length >= 2) {
@@ -752,7 +867,7 @@ function App() {
     // Return prioritized results: exact matches first, then starts with, then contains
     const results = [...exactMatches, ...startsWith, ...contains];
     return results;
-  }, [availableTokens, debouncedSearchInput, allAvailableChains]);
+  }, [availableTokens, debouncedSearchInput, allAvailableChains, availableProtocols]);
 
   // Get all available chains from all pools (for natural language parsing)
   const allAvailableChains = useMemo(() => {
@@ -933,9 +1048,18 @@ function App() {
         // Filter by protocol if selected (check against friendly names)
         const protocolMatch = selectedProtocols.length === 0 || 
           selectedProtocols.some(selectedProtocol => {
-            // Find the protocol object with matching friendly name
-            const protocolObj = availableProtocols.all.find(p => p.friendlyName === selectedProtocol);
-            return protocolObj && protocolObj.originalNames.includes(pool.project);
+            // Method 1: Find the protocol object with matching friendly name (case insensitive)
+            const protocolObj = availableProtocols?.all?.find(p => 
+              p?.friendlyName?.toLowerCase() === selectedProtocol?.toLowerCase()
+            );
+            if (protocolObj && protocolObj.originalNames.includes(pool.project)) {
+              return true;
+            }
+            
+            // Method 2: Direct fallback - check if pool project name contains the selected protocol
+            const projectLower = pool.project?.toLowerCase() || '';
+            const protocolLower = selectedProtocol?.toLowerCase() || '';
+            return projectLower.includes(protocolLower) || projectLower.includes(protocolLower.replace(/\s+/g, '-'));
           });
         
         // Filter by minimum TVL
@@ -982,9 +1106,18 @@ function App() {
       // Filter by protocol if selected (check against friendly names)
       const protocolMatch = selectedProtocols.length === 0 || 
         selectedProtocols.some(selectedProtocol => {
-          // Find the protocol object with matching friendly name
-          const protocolObj = availableProtocols.all.find(p => p.friendlyName === selectedProtocol);
-          return protocolObj && protocolObj.originalNames.includes(pool.project);
+          // Method 1: Find the protocol object with matching friendly name (case insensitive)
+          const protocolObj = availableProtocols?.all?.find(p => 
+            p?.friendlyName?.toLowerCase() === selectedProtocol?.toLowerCase()
+          );
+          if (protocolObj && protocolObj.originalNames.includes(pool.project)) {
+            return true;
+          }
+          
+          // Method 2: Direct fallback - check if pool project name contains the selected protocol
+          const projectLower = pool.project?.toLowerCase() || '';
+          const protocolLower = selectedProtocol?.toLowerCase() || '';
+          return projectLower.includes(protocolLower) || projectLower.includes(protocolLower.replace(/\s+/g, '-'));
         });
       
       // Filter by minimum TVL
@@ -1145,13 +1278,14 @@ function App() {
         // Otherwise, attempt to parse natural language
         const query = searchInput.trim();
         if (query) {
-          const { token, chain, poolTypes } = parseNaturalLanguageQuery(query, availableTokens, allAvailableChains);
+          const { token, chain, poolTypes, protocols } = parseNaturalLanguageQuery(query, availableTokens, allAvailableChains, availableProtocols?.all || []);
 
           // Apply filters based on natural language parsing
           // Prioritize natural language over current state if found
           if (token) setSelectedToken(token);
           if (chain) setSelectedChain(chain);
           if (poolTypes.length > 0) setSelectedPoolTypes(poolTypes);
+          if (protocols.length > 0) setSelectedProtocols(protocols.map(normalizeProtocolName));
 
           // Set chain mode if chain is detected and no token is specified, or if chain is dominant
           // If token is found, it's token-first mode.
