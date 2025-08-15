@@ -43,7 +43,9 @@
     
     <!-- Load CSS non-blocking -->
     <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="pool-detail-styles.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <noscript><link rel="stylesheet" href="pool-detail-styles.css"></noscript>
     
     <script>
         // Define process global before React loads to prevent ReferenceError
@@ -58,6 +60,7 @@
 <body>
     <div id="root"></div>
     
+    <script type="text/babel" src="PoolDetail.js"></script>
     <script type="text/babel" src="app.js"></script>
 </body>
 </html>
