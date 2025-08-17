@@ -123,7 +123,7 @@ function useDebounce(value, delay) {
 }
 
 // Natural Language Parsing Function
-const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
+const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allProtocols = []) => {
   const lowerQuery = query.toLowerCase();
   let token = '';
   let chain = '';
@@ -139,21 +139,27 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
         // Split query into words for context analysis
         const words = lowerQuery.split(/\s+/);
         
+        // Filter out qualifier words that aren't tokens
+        const qualifierWords = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
+        const filteredWords = words.filter(word => !qualifierWords.includes(word));
+        
         // Find chain context indicators to exclude words after them
         const chainIndicators = ['on', 'chain', 'network', 'blockchain'];
         let tokenCandidateWords = [];
+        let wordsAfterChainIndicators = [];
         
-        for (let i = 0; i < words.length; i++) {
-            if (chainIndicators.includes(words[i])) {
+        for (let i = 0; i < filteredWords.length; i++) {
+            if (chainIndicators.includes(filteredWords[i])) {
                 // Stop including words after chain indicators
-                tokenCandidateWords = words.slice(0, i);
+                tokenCandidateWords = filteredWords.slice(0, i);
+                wordsAfterChainIndicators = filteredWords.slice(i + 1);
                 break;
             }
         }
         
-        // If no chain indicators found, use first few words (typically tokens come first)
+        // If no chain indicators found, use first few filtered words (typically tokens come first)
         if (tokenCandidateWords.length === 0) {
-            tokenCandidateWords = words.slice(0, Math.min(3, words.length));
+            tokenCandidateWords = filteredWords.slice(0, Math.min(3, filteredWords.length));
         }
         
         const tokenCandidateText = tokenCandidateWords.join(' ');
@@ -168,6 +174,11 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
             const tokenLower = t.toLowerCase();
             const escapedToken = tokenLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             const wordBoundaryRegex = new RegExp(`\\b${escapedToken}\\b`, 'i');
+            
+            // Skip if this token appears after chain indicators (likely it's being used as a chain name)
+            if (wordsAfterChainIndicators.some(word => word.toLowerCase() === tokenLower)) {
+                continue;
+            }
             
             if (wordBoundaryRegex.test(tokenCandidateText)) {
                 let score = 0;
@@ -194,13 +205,21 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
             token = tokenScores[0].token;
         }
         
-        // Fallback: if no matches in candidate text, try full query with length filter
-        if (!token) {
+        // Fallback: if no matches in candidate text, try token candidate text only (not full query)
+        if (!token && tokenCandidateText) {
             for (const t of allTokens) {
-                if (t.length >= 3 && lowerQuery.includes(t.toLowerCase())) {
-                    // Double-check this isn't likely a chain name
+                const tokenLower = t.toLowerCase();
+                
+                // Skip if this token appears after chain indicators (likely it's being used as a chain name)
+                if (wordsAfterChainIndicators.some(word => word.toLowerCase() === tokenLower)) {
+                    continue;
+                }
+                
+                if (t.length >= 3 && tokenCandidateText.toLowerCase().includes(tokenLower)) {
+                    // Double-check this isn't likely a chain name or qualifier word
                     const chainNames = ['base', 'ethereum', 'polygon', 'arbitrum', 'optimism', 'avalanche', 'fantom', 'solana'];
-                    if (!chainNames.includes(t.toLowerCase())) {
+                    const qualifierWordsCheck = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
+                    if (!chainNames.includes(tokenLower) && !qualifierWordsCheck.includes(tokenLower)) {
                         token = t;
                         break;
                     }
@@ -261,17 +280,150 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = []) => {
   if (lowerQuery.includes('staking') || lowerQuery.includes('stake')) {
       poolTypes.push('Staking');
   }
-  if (lowerQuery.includes('farm') || lowerQuery.includes('farming') || lowerQuery.includes('yield')) {
-      // 'Yield Farming' should be considered if no other specific type is found, or if it's explicitly mentioned
-      // For now, if "farm" or "yield" is in there, add it.
-      // If a more specific type is also found (e.g., "lending yields"), both are included.
+  // Only add Yield Farming if it's explicitly mentioned as the main activity, not just descriptive
+  if (lowerQuery.includes('farm') || lowerQuery.includes('farming')) {
       poolTypes.push('Yield Farming');
   }
+  // Don't automatically add "Yield Farming" for generic "yield" mentions in queries like "best usdc yields"
 
   // Deduplicate pool types
   poolTypes = [...new Set(poolTypes)];
 
-  return { token, chain, poolTypes };
+  // --- Parse Protocols ---
+  let protocols = [];
+  
+  // Create protocol alias mapping for better matching
+  const protocolAliases = {
+    // Aave variants
+    'aave': ['aave', 'aave-v2', 'aave-v3'],
+    // Compound variants  
+    'compound': ['compound', 'compound-v2', 'compound-v3', 'comp'],
+    // Uniswap variants
+    'uniswap': ['uniswap', 'uniswap-v2', 'uniswap-v3', 'uni'],
+    // Curve variants
+    'curve': ['curve', 'curve-dex', 'crv'],
+    // Morpho variants
+    'morpho': ['morpho', 'morpho-blue'],
+    // Euler
+    'euler': ['euler'],
+    // Venus
+    'venus': ['venus'],
+    // Aerodrome variants
+    'aerodrome': ['aerodrome', 'aerodrome-slipstream'],
+    // PancakeSwap variants
+    'pancakeswap': ['pancakeswap', 'pancakeswap-v2', 'pancakeswap-v3', 'pcs'],
+    // Lido
+    'lido': ['lido'],
+    // Rocket Pool
+    'rocket pool': ['rocket-pool', 'rocketpool', 'rpl'],
+    // Ether.fi
+    'ether.fi': ['ether.fi', 'ether.fi-stake', 'etherfi'],
+    // Jito
+    'jito': ['jito', 'jito-liquid-staking'],
+    // Marinade
+    'marinade': ['marinade'],
+    // Raydium
+    'raydium': ['raydium'],
+    // Orca
+    'orca': ['orca'],
+    // Balancer
+    'balancer': ['balancer', 'balancer-v2', 'bal']
+    // Note: 'base' removed from protocol aliases to avoid conflict with Base chain
+  };
+
+  // Protocol context keywords that typically precede protocol names
+  const protocolKeywords = ['on', 'via', 'using', 'through', 'from', 'with', 'in'];
+  
+  // Method 1: Look for protocols after context keywords
+  const words = lowerQuery.split(/\s+/);
+  const qualifierWords = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
+  const filteredWords = words.filter(word => !qualifierWords.includes(word));
+  
+  // Chain names to avoid protocol conflicts
+  const chainNames = ['base', 'ethereum', 'polygon', 'arbitrum', 'optimism', 'avalanche', 'fantom', 'solana', 'binance', 'bnb'];
+  
+  for (let i = 0; i < filteredWords.length - 1; i++) {
+    if (protocolKeywords.includes(filteredWords[i])) {
+      const protocolCandidate = filteredWords[i + 1];
+      
+      // Skip if the candidate is likely a chain name
+      if (chainNames.includes(protocolCandidate)) {
+        continue;
+      }
+      
+      // Find matching protocol
+      for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
+        if (aliases.some(alias => alias === protocolCandidate || protocolCandidate.includes(alias))) {
+          protocols.push(friendlyName);
+          break;
+        }
+      }
+    }
+  }
+  
+  // Method 2: Direct protocol name detection (fallback) 
+  if (protocols.length === 0) {
+    for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
+      if (aliases.some(alias => lowerQuery.includes(alias))) {
+        // Additional check: avoid matching common words that might be part of other contexts
+        const aliasMatch = aliases.find(alias => lowerQuery.includes(alias));
+        
+        // Skip if the alias is likely a chain name
+        if (chainNames.includes(aliasMatch)) {
+          continue;
+        }
+        
+        const wordBoundaryRegex = new RegExp(`\\b${aliasMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+        
+        if (wordBoundaryRegex.test(lowerQuery)) {
+          protocols.push(friendlyName);
+        }
+      }
+    }
+  }
+  
+  // Method 3: Protocol-first detection (e.g., "aave on arbitrum")
+  if (protocols.length === 0) {
+    const firstFilteredWord = filteredWords[0];
+    if (firstFilteredWord) {
+      for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
+        if (aliases.includes(firstFilteredWord)) {
+          protocols.push(friendlyName);
+          break;
+        }
+      }
+    }
+  }
+  
+  // Deduplicate protocols
+  protocols = [...new Set(protocols)];
+
+  // --- Auto-set Chain for Protocol-Specific Contexts ---
+  // If a protocol is detected but no chain is specified, auto-set the primary chain for that protocol
+  if (protocols.length > 0 && !chain) {
+    const protocolChainMapping = {
+      'aerodrome': 'Base',
+      'uniswap': 'Ethereum', // Default to mainnet for Uniswap
+      'curve': 'Ethereum',   // Default to mainnet for Curve
+      // Add more as needed
+    };
+    
+    for (const protocol of protocols) {
+      if (protocolChainMapping[protocol.toLowerCase()]) {
+        chain = protocolChainMapping[protocol.toLowerCase()];
+        break; // Use the first matching protocol's chain
+      }
+    }
+  }
+
+  return { token, chain, poolTypes, protocols };
+};
+
+// Helper function to normalize protocol names for consistent matching
+const normalizeProtocolName = (protocolName) => {
+  if (!protocolName) return protocolName;
+  // Convert to title case - first letter uppercase, rest lowercase
+  return protocolName.charAt(0).toUpperCase() + protocolName.slice(1).toLowerCase();
 };
 
 // Helper function to get chain brand colors
@@ -296,6 +448,102 @@ const getChainColor = (chainName) => {
   return chainColors[chainName] || '#6B7280'; // Default gray color
 };
 
+// Helper function to get friendly protocol names
+const getFriendlyProtocolName = (protocolName) => {
+  if (!protocolName) return protocolName;
+  
+  const protocolNameMap = {
+    // Aave variants
+    'aave-v2': 'Aave',
+    'aave-v3': 'Aave',
+    'aave': 'Aave',
+    
+    // Compound variants
+    'compound-v2': 'Compound',
+    'compound-v3': 'Compound',
+    'compound': 'Compound',
+    
+    // Uniswap variants
+    'uniswap-v2': 'Uniswap',
+    'uniswap-v3': 'Uniswap',
+    'uniswap': 'Uniswap',
+    
+    // Curve variants
+    'curve-dex': 'Curve',
+    'curve': 'Curve',
+    
+    // Balancer variants
+    'balancer-v2': 'Balancer',
+    'balancer': 'Balancer',
+    
+    // PancakeSwap variants
+    'pancakeswap-v2': 'PancakeSwap',
+    'pancakeswap-v3': 'PancakeSwap',
+    'pancakeswap-amm': 'PancakeSwap',
+    'pancakeswap': 'PancakeSwap',
+    
+    // Aerodrome variants
+    'aerodrome-slipstream': 'Aerodrome',
+    'aerodrome': 'Aerodrome',
+    
+    // Morpho variants
+    'morpho-blue': 'Morpho',
+    'morpho': 'Morpho',
+    
+    // Lido variants
+    'lido': 'Lido',
+    
+    // Rocket Pool variants
+    'rocket-pool': 'Rocket Pool',
+    'rocketpool': 'Rocket Pool',
+    
+    // Ether.fi variants
+    'ether.fi-stake': 'Ether.fi',
+    'ether.fi': 'Ether.fi',
+    
+    // Jito variants
+    'jito-liquid-staking': 'Jito',
+    'jito': 'Jito',
+    
+    // Yearn variants
+    'yearn-finance': 'Yearn',
+    'yearn': 'Yearn',
+    
+    // Convex variants
+    'convex-finance': 'Convex',
+    'convex': 'Convex',
+    
+    // GMX variants
+    'gmx-v2-perps': 'GMX',
+    'gmx': 'GMX',
+    
+    // Camelot variants
+    'camelot-v2': 'Camelot',
+    'camelot-v3': 'Camelot',
+    'camelot': 'Camelot',
+    
+    // Venus variants
+    'venus-core-pool': 'Venus',
+    'venus': 'Venus',
+    
+    // Pendle variants
+    'pendle': 'Pendle',
+    
+    // Raydium variants
+    'raydium': 'Raydium',
+    
+    // Orca variants
+    'orca': 'Orca',
+    
+    // Marinade variants
+    'marinade': 'Marinade'
+  };
+  
+  // Return mapped name or capitalize first letter of original
+  return protocolNameMap[protocolName.toLowerCase()] || 
+         protocolName.charAt(0).toUpperCase() + protocolName.slice(1).replace(/-/g, ' ');
+};
+
 // Main App Component
 function App() {
   const [pools, setPools] = useState([]);
@@ -304,6 +552,7 @@ function App() {
   const [searchInput, setSearchInput] = useState('');
   const [selectedChain, setSelectedChain] = useState('');
   const [selectedPoolTypes, setSelectedPoolTypes] = useState([]); // Changed to array for multi-select
+  const [selectedProtocols, setSelectedProtocols] = useState([]); // New state for protocol filtering
   const [minTvl, setMinTvl] = useState(0);
   const [minApy, setMinApy] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
@@ -327,6 +576,8 @@ function App() {
   const [dynamicProtocolUrls, setDynamicProtocolUrls] = useState({});
   const [animationsTriggered, setAnimationsTriggered] = useState(false);
   const [chainMode, setChainMode] = useState(false); // Track if we're in chain-first mode
+  const [currentView, setCurrentView] = useState('search'); // 'search' or 'pool-detail'
+  const [detailPool, setDetailPool] = useState(null); // Pool being viewed in detail
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
@@ -335,20 +586,24 @@ function App() {
   const getUrlParams = () => {
     const params = new URLSearchParams(window.location.search);
     const poolTypesParam = params.get('poolTypes');
+    const protocolsParam = params.get('protocols');
     return {
       token: params.get('token') || '',
       chain: params.get('chain') || '',
       poolTypes: poolTypesParam ? poolTypesParam.split(',') : [],
+      protocols: protocolsParam ? protocolsParam.split(',') : [],
       minTvl: parseInt(params.get('minTvl') || '0', 10),
-      minApy: parseInt(params.get('minApy') || '0', 10)
+      minApy: parseInt(params.get('minApy') || '0', 10),
+      pool: params.get('pool') || ''
     };
   };
 
-  const updateUrl = (token, chain, poolTypes, minTvl, minApy) => {
+  const updateUrl = (token, chain, poolTypes, protocols, minTvl, minApy) => {
     const params = new URLSearchParams();
     if (token) params.set('token', token);
     if (chain) params.set('chain', chain);
     if (poolTypes && poolTypes.length > 0) params.set('poolTypes', poolTypes.join(','));
+    if (protocols && protocols.length > 0) params.set('protocols', protocols.join(','));
     if (minTvl > 0) params.set('minTvl', minTvl.toString());
     if (minApy > 0) params.set('minApy', minApy.toString());
     
@@ -387,6 +642,7 @@ function App() {
     
     if (urlParams.chain) setSelectedChain(urlParams.chain);
     if (urlParams.poolTypes) setSelectedPoolTypes(urlParams.poolTypes);
+    if (urlParams.protocols) setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
     if (urlParams.minTvl) setMinTvl(urlParams.minTvl);
     if (urlParams.minApy) setMinApy(urlParams.minApy);
     
@@ -400,6 +656,15 @@ function App() {
   // Handle browser back/forward navigation
   useEffect(() => {
     const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      const poolParam = params.get('pool');
+      
+      // Check if we're navigating away from pool detail view
+      if (!poolParam && currentView === 'pool-detail') {
+        setCurrentView('search');
+        setDetailPool(null);
+      }
+      
       const urlParams = getUrlParams();
       
       // Determine mode based on URL parameters
@@ -431,11 +696,13 @@ function App() {
       }
       
       setSelectedPoolTypes(urlParams.poolTypes);
+      setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
       setMinApy(urlParams.minApy);
       setShowAutocomplete(false);
       setHighlightedIndex(-1);
     };
 
+    // Only add popstate listener, don't call handler on mount since initial URL parsing handles that
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
@@ -462,6 +729,26 @@ function App() {
     setLoading(true);
     fetchPoolsInBackground();
   }, []);
+
+  // Handle pool detail URL parameter after pools are loaded
+  useEffect(() => {
+    if (pools.length > 0 && !detailPool) {
+      const urlParams = getUrlParams();
+      if (urlParams.pool) {
+        // Find the pool by ID
+        const foundPool = pools.find(pool => 
+          pool.pool === urlParams.pool || 
+          `${pool.project}-${pool.symbol}-${pool.chain}` === decodeURIComponent(urlParams.pool)
+        );
+        
+        if (foundPool) {
+          setDetailPool(foundPool);
+          setCurrentView('pool-detail');
+          document.title = `${foundPool.symbol} on ${foundPool.project} | DeFi Garden 🌱`;
+        }
+      }
+    }
+  }, [pools, detailPool]);
 
   // Background fetch protocols data after UI loads
   useEffect(() => {
@@ -578,17 +865,32 @@ function App() {
     
     // Check if this looks like a natural language query
     const isNaturalLanguage = debouncedSearchInput.split(' ').length > 1 || 
-                               /\b(best|highest|yield|lending|staking|on|for|eth|btc|usdc|base|arbitrum|polygon)\b/i.test(debouncedSearchInput);
+                               /\b(best|highest|top|yield|yields|lending|staking|farming|opportunities|on|for|eth|btc|usdc|base|arbitrum|polygon|aave|compound|uniswap|curve|morpho|euler|venus)\b/i.test(debouncedSearchInput);
     
     if (isNaturalLanguage) {
       // For natural language, try to parse and provide relevant suggestions
-      const { token, chain, poolTypes } = parseNaturalLanguageQuery(debouncedSearchInput, availableTokens, allAvailableChains);
+      const { token, chain, poolTypes, protocols } = parseNaturalLanguageQuery(debouncedSearchInput, availableTokens, allAvailableChains, availableProtocols?.all || []);
       
       // Return suggestions based on parsed results
       const suggestions = [];
-      if (token) suggestions.push(token);
       
-      // Add related tokens if a token is partially matched
+      // Build descriptive suggestion showing what was parsed
+      let parsedComponents = [];
+      if (token) parsedComponents.push(token);
+      if (protocols.length > 0) parsedComponents.push(`on ${protocols.join(', ')}`);
+      if (chain) parsedComponents.push(`(${chain})`);
+      if (poolTypes.length > 0) parsedComponents.push(`[${poolTypes.join(', ')}]`);
+      
+      if (parsedComponents.length > 0) {
+        suggestions.push(parsedComponents.join(' '));
+      }
+      
+      // Add the primary token if detected
+      if (token && !suggestions.includes(token)) {
+        suggestions.push(token);
+      }
+      
+      // Add related tokens if a token is partially matched but not exactly found
       if (!token && availableTokens && availableTokens.length > 0) {
         availableTokens.forEach(t => {
           if (debouncedSearchInput.toLowerCase().includes(t.toLowerCase()) && t.length >= 2) {
@@ -618,7 +920,7 @@ function App() {
     // Return prioritized results: exact matches first, then starts with, then contains
     const results = [...exactMatches, ...startsWith, ...contains];
     return results;
-  }, [availableTokens, debouncedSearchInput, allAvailableChains]);
+  }, [availableTokens, debouncedSearchInput, allAvailableChains, availableProtocols]);
 
   // Get all available chains from all pools (for natural language parsing)
   const allAvailableChains = useMemo(() => {
@@ -681,6 +983,69 @@ function App() {
   }, [selectedToken, pools, chainMode]);
 
 
+  // Get available protocols for selected token or chain (dynamically from current pools)
+  const availableProtocols = useMemo(() => {
+    if (!pools.length) return { popular: [], all: [] };
+    
+    const protocolStats = {};
+    
+    pools.forEach(pool => {
+      if (!pool.project || !pool.tvlUsd || pool.tvlUsd <= 0) return;
+      
+      let includePool = false;
+      
+      // Chain mode: include pools on selected chain
+      if (chainMode && selectedChain && !selectedToken) {
+        includePool = pool.chain === selectedChain;
+      }
+      // Token mode: include pools with selected token
+      else if (selectedToken && pool.symbol) {
+        const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
+        includePool = symbols.some(symbol => symbol === selectedToken.toUpperCase());
+        
+        // Also check chain filter if both token and chain are selected
+        if (includePool && selectedChain) {
+          includePool = pool.chain === selectedChain;
+        }
+      }
+      
+      if (includePool) {
+        // Get friendly name and group protocols with same friendly name
+        const friendlyName = getFriendlyProtocolName(pool.project);
+        
+        if (!protocolStats[friendlyName]) {
+          protocolStats[friendlyName] = {
+            friendlyName: friendlyName,
+            originalNames: new Set([pool.project]), // Keep track of original names for filtering
+            poolCount: 0,
+            totalTvl: 0
+          };
+        } else {
+          protocolStats[friendlyName].originalNames.add(pool.project);
+        }
+        
+        protocolStats[friendlyName].poolCount++;
+        protocolStats[friendlyName].totalTvl += pool.tvlUsd;
+      }
+    });
+    
+    // Convert originalNames Set to Array and sort protocols by TVL descending
+    const allProtocols = Object.values(protocolStats)
+      .map(protocol => ({
+        ...protocol,
+        originalNames: Array.from(protocol.originalNames)
+      }))
+      .sort((a, b) => b.totalTvl - a.totalTvl);
+    
+    // Get top 5 as "popular"
+    const popular = allProtocols.slice(0, 5);
+    
+    return {
+      popular,
+      all: allProtocols
+    };
+  }, [selectedToken, selectedChain, chainMode, pools]);
+
   // Get pool type counts for selected token or chain (before other filters)
   const poolTypeCounts = useMemo(() => {
     if (!pools.length) return {};
@@ -716,6 +1081,14 @@ function App() {
 
   // Filter and sort pools when token, chain, TVL, or APY selection changes
   useEffect(() => {
+    console.log('Filter effect running - currentView:', currentView, 'selectedToken:', selectedToken, 'chainMode:', chainMode, 'selectedChain:', selectedChain);
+    
+    // Don't run filtering logic when in pool detail view
+    if (currentView === 'pool-detail') {
+      console.log('Skipping filter effect - in pool detail view');
+      return;
+    }
+    
     // Chain-first mode: filter by chain only
     if (chainMode && selectedChain && !selectedToken) {
       let filtered = pools.filter(pool => {
@@ -725,6 +1098,23 @@ function App() {
         // Filter by pool type if selected
         const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
         
+        // Filter by protocol if selected (check against friendly names)
+        const protocolMatch = selectedProtocols.length === 0 || 
+          selectedProtocols.some(selectedProtocol => {
+            // Method 1: Find the protocol object with matching friendly name (case insensitive)
+            const protocolObj = availableProtocols?.all?.find(p => 
+              p?.friendlyName?.toLowerCase() === selectedProtocol?.toLowerCase()
+            );
+            if (protocolObj && protocolObj.originalNames.includes(pool.project)) {
+              return true;
+            }
+            
+            // Method 2: Direct fallback - check if pool project name contains the selected protocol
+            const projectLower = pool.project?.toLowerCase() || '';
+            const protocolLower = selectedProtocol?.toLowerCase() || '';
+            return projectLower.includes(protocolLower) || projectLower.includes(protocolLower.replace(/\s+/g, '-'));
+          });
+        
         // Filter by minimum TVL
         const tvlMatch = pool.tvlUsd >= minTvl;
         
@@ -732,7 +1122,7 @@ function App() {
         const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
         const apyMatch = totalApy >= minApy;
         
-        return chainMatch && poolTypeMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+        return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
       });
 
       // Sort by total APY (base + reward) descending
@@ -766,6 +1156,23 @@ function App() {
       // Filter by pool type if selected
       const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
       
+      // Filter by protocol if selected (check against friendly names)
+      const protocolMatch = selectedProtocols.length === 0 || 
+        selectedProtocols.some(selectedProtocol => {
+          // Method 1: Find the protocol object with matching friendly name (case insensitive)
+          const protocolObj = availableProtocols?.all?.find(p => 
+            p?.friendlyName?.toLowerCase() === selectedProtocol?.toLowerCase()
+          );
+          if (protocolObj && protocolObj.originalNames.includes(pool.project)) {
+            return true;
+          }
+          
+          // Method 2: Direct fallback - check if pool project name contains the selected protocol
+          const projectLower = pool.project?.toLowerCase() || '';
+          const protocolLower = selectedProtocol?.toLowerCase() || '';
+          return projectLower.includes(protocolLower) || projectLower.includes(protocolLower.replace(/\s+/g, '-'));
+        });
+      
       // Filter by minimum TVL
       const tvlMatch = pool.tvlUsd >= minTvl;
       
@@ -773,7 +1180,7 @@ function App() {
       const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
       const apyMatch = totalApy >= minApy;
       
-      return hasToken && chainMatch && poolTypeMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+      return hasToken && chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
     });
 
     // Sort by total APY (base + reward) descending
@@ -785,20 +1192,20 @@ function App() {
 
     setFilteredPools(filtered);
     setCurrentPage(1); // Reset to first page when filters change
-  }, [selectedToken, selectedChain, selectedPoolTypes, minTvl, minApy, pools, chainMode]);
+  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode]);
 
-  // Update URL when filters change (but not during initial load or popstate events)
+  // Update URL when filters change (but not during initial load, popstate events, or pool detail view)
   useEffect(() => {
-    if (!isInitialLoad) {
+    if (!isInitialLoad && currentView !== 'pool-detail') {
       if (chainMode && selectedChain && !selectedToken) {
         // Chain-first mode URL updates
-        updateUrl('', selectedChain, selectedPoolTypes, minTvl, minApy);
+        updateUrl('', selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy);
       } else if (selectedToken) {
         // Token-first mode URL updates
-        updateUrl(selectedToken, selectedChain, selectedPoolTypes, minTvl, minApy);
+        updateUrl(selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy);
       }
     }
-  }, [selectedToken, selectedChain, selectedPoolTypes, minTvl, minApy, isInitialLoad, chainMode]);
+  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, isInitialLoad, chainMode, currentView]);
   // Handle chain selection for chain-first mode
   const handleChainSelect = (chainName) => {
     setChainMode(true);
@@ -819,7 +1226,7 @@ function App() {
     }
     
     // Update URL for chain-first mode
-    updateUrl('', chainName, selectedPoolTypes, 100000, minApy);
+    updateUrl('', chainName, selectedPoolTypes, selectedProtocols, 100000, minApy);
     
     // Scroll to results on mobile
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
@@ -887,6 +1294,7 @@ function App() {
       setFilteredPools([]);
       setSelectedChain('');
       setSelectedPoolTypes([]);
+      setSelectedProtocols([]);
       setShowFilters(false);
     }
     
@@ -923,13 +1331,14 @@ function App() {
         // Otherwise, attempt to parse natural language
         const query = searchInput.trim();
         if (query) {
-          const { token, chain, poolTypes } = parseNaturalLanguageQuery(query, availableTokens, allAvailableChains);
+          const { token, chain, poolTypes, protocols } = parseNaturalLanguageQuery(query, availableTokens, allAvailableChains, availableProtocols?.all || []);
 
           // Apply filters based on natural language parsing
           // Prioritize natural language over current state if found
           if (token) setSelectedToken(token);
           if (chain) setSelectedChain(chain);
           if (poolTypes.length > 0) setSelectedPoolTypes(poolTypes);
+          if (protocols.length > 0) setSelectedProtocols(protocols.map(normalizeProtocolName));
 
           // Set chain mode if chain is detected and no token is specified, or if chain is dominant
           // If token is found, it's token-first mode.
@@ -975,6 +1384,7 @@ function App() {
     setSearchInput('');
     setSelectedChain('');
     setSelectedPoolTypes([]);
+    setSelectedProtocols([]);
     setMinTvl(0);
     setMinApy(0);
     setFilteredPools([]);
@@ -984,6 +1394,8 @@ function App() {
     setHighlightedIndex(-1);
     setError('');
     setChainMode(false);
+    setCurrentView('search');
+    setDetailPool(null);
     
     // Clear URL parameters and reset title
     window.history.pushState({}, '', window.location.pathname);
@@ -1050,12 +1462,50 @@ function App() {
 
   const totalPages = Math.ceil(filteredPools.length / itemsPerPage);
 
-  // Handle pool click to open yield calculator
+  // Handle pool click to navigate to pool detail page
   const handlePoolClick = (pool, e) => {
     e.preventDefault();
     e.stopPropagation();
-    setSelectedPool(pool);
-    setShowYieldCalculator(true);
+    
+    console.log('handlePoolClick called for:', pool.symbol);
+    // Set the pool for detail view
+    setDetailPool(pool);
+    setCurrentView('pool-detail');
+    console.log('Set currentView to pool-detail, detailPool to:', pool.symbol);
+    
+    // Update URL to include pool identifier
+    const poolId = encodeURIComponent(pool.pool || `${pool.project}-${pool.symbol}-${pool.chain}`);
+    const params = new URLSearchParams(window.location.search);
+    params.set('pool', poolId);
+    const newUrl = `${window.location.pathname}?${params.toString()}`;
+    window.history.pushState({}, '', newUrl);
+    
+    // Update page title
+    document.title = `${pool.symbol} on ${pool.project} | DeFi Garden 🌱`;
+    
+    // Scroll to top
+    window.scrollTo(0, 0);
+  };
+
+  // Handle navigation back from pool detail view
+  const handleBackFromDetail = () => {
+    setCurrentView('search');
+    setDetailPool(null);
+    
+    // Remove pool parameter from URL
+    const params = new URLSearchParams(window.location.search);
+    params.delete('pool');
+    const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
+    window.history.pushState({}, '', newUrl);
+    
+    // Restore previous title
+    if (chainMode && selectedChain && !selectedToken) {
+      document.title = `${selectedChain} DeFi Yields | DeFi Garden 🌱`;
+    } else if (selectedToken) {
+      document.title = `${selectedToken.toUpperCase()} Yields | DeFi Garden 🌱`;
+    } else {
+      document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
+    }
   };
 
   // Handle yield calculator
@@ -1075,6 +1525,23 @@ function App() {
         return [...prev, poolType];
       }
     });
+  };
+
+  // Handle protocol selection (multi-select)
+  const handleProtocolToggle = (protocolFriendlyName) => {
+    setSelectedProtocols(prev => {
+      if (prev.includes(protocolFriendlyName)) {
+        return prev.filter(p => p !== protocolFriendlyName);
+      } else {
+        return [...prev, protocolFriendlyName];
+      }
+    });
+  };
+
+  // Handle popular protocols selection (replaces current selection)
+  const handlePopularProtocols = () => {
+    const popularProtocolNames = availableProtocols.popular.map(p => p.friendlyName);
+    setSelectedProtocols(popularProtocolNames);
   };
 
   // Handle TVL selection
@@ -1112,6 +1579,66 @@ function App() {
   };
 
   // Always render UI immediately - no blocking loading state
+
+  // Add debug logging for pool detail view state
+  console.log('App render - currentView:', currentView, 'detailPool:', detailPool ? detailPool.symbol : 'null');
+  
+  // Add a timer to check state after component should disappear
+  if (currentView === 'pool-detail' && detailPool) {
+    setTimeout(() => {
+      console.log('After 2 seconds - currentView:', currentView, 'detailPool:', detailPool ? detailPool.symbol : 'null');
+    }, 2000);
+  }
+
+  // Render Pool Detail View if active
+  if (currentView === 'pool-detail' && detailPool) {
+    console.log('Rendering pool detail view for:', detailPool.symbol);
+    return React.createElement('div', { className: 'app pool-detail-view' },
+      // Theme Toggle
+      React.createElement('button', {
+        className: 'theme-toggle',
+        'data-theme': isDarkMode ? 'dark' : 'light',
+        onClick: toggleTheme,
+        'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
+      },
+        React.createElement('div', { className: 'theme-toggle-icon' },
+          isDarkMode ? '☀️' : '🌙'
+        ),
+        React.createElement('div', { className: 'theme-toggle-switch' },
+          React.createElement('div', { className: 'theme-toggle-handle' })
+        ),
+        React.createElement('div', { className: 'theme-toggle-text' },
+          isDarkMode ? 'Light' : 'Dark'
+        )
+      ),
+      
+      React.createElement('div', { className: 'container' },
+        React.createElement(PoolDetail, {
+          pool: detailPool,
+          onBack: handleBackFromDetail,
+          calculateYields: calculateYields,
+          formatCurrency: formatCurrency,
+          formatAPY: formatAPY,
+          getProtocolUrl: getProtocolUrl,
+          getProtocolUrlWithRef: getProtocolUrlWithRef,
+          isDarkMode: isDarkMode
+        })
+      ),
+      
+      // Footer
+      React.createElement('footer', { className: 'app-footer' },
+        React.createElement('p', null,
+          'Powered by ',
+          React.createElement('a', {
+            href: 'https://api-docs.defillama.com/',
+            target: '_blank',
+            rel: 'noopener noreferrer'
+          }, 'Defillama API'),
+          '. Made with AI & Degen Love.'
+        )
+      )
+    );
+  }
 
   return React.createElement('div', { 
     className: `app ${(selectedToken || (chainMode && selectedChain)) ? 'has-results' : ''}` 
@@ -1236,6 +1763,43 @@ function App() {
                       '--chain-color': getChainColor(chain)
                     }
                   }, chain)
+                )
+              )
+            )
+          ),
+
+          // Protocols Filter Row - only show when protocols are available
+          availableProtocols.all.length > 0 && React.createElement('div', { className: 'filter-section' },
+            React.createElement('div', { className: 'filter-section-header' },
+              React.createElement('label', { className: 'filter-label' }, 'Protocols')
+            ),
+            React.createElement('div', { className: 'filter-row' },
+              React.createElement('div', { className: 'filter-pills-container' },
+                // Popular button
+                availableProtocols.popular.length > 0 && React.createElement('button', {
+                  className: `filter-pill protocol-pill popular ${
+                    availableProtocols.popular.every(p => selectedProtocols.includes(p.friendlyName)) &&
+                    selectedProtocols.length === availableProtocols.popular.length ? 'active' : ''
+                  }`,
+                  onClick: handlePopularProtocols
+                }, 'Popular'),
+                
+                // All protocols button
+                React.createElement('button', {
+                  className: `filter-pill protocol-pill ${selectedProtocols.length === 0 ? 'active' : ''}`,
+                  onClick: () => setSelectedProtocols([])
+                }, 'All Protocols'),
+                
+                // Individual protocol pills (show top 10 to avoid overcrowding)
+                availableProtocols.all.slice(0, 10).map(protocol => 
+                  React.createElement('button', {
+                    key: protocol.friendlyName,
+                    className: `filter-pill protocol-pill ${selectedProtocols.includes(protocol.friendlyName) ? 'active' : ''}`,
+                    onClick: () => handleProtocolToggle(protocol.friendlyName)
+                  }, 
+                    protocol.friendlyName,
+                    React.createElement('span', { className: 'pill-count' }, `(${protocol.poolCount})`)
+                  )
                 )
               )
             )
