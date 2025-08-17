@@ -139,21 +139,27 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
         // Split query into words for context analysis
         const words = lowerQuery.split(/\s+/);
         
+        // Filter out qualifier words that aren't tokens
+        const qualifierWords = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
+        const filteredWords = words.filter(word => !qualifierWords.includes(word));
+        
         // Find chain context indicators to exclude words after them
         const chainIndicators = ['on', 'chain', 'network', 'blockchain'];
         let tokenCandidateWords = [];
+        let wordsAfterChainIndicators = [];
         
-        for (let i = 0; i < words.length; i++) {
-            if (chainIndicators.includes(words[i])) {
+        for (let i = 0; i < filteredWords.length; i++) {
+            if (chainIndicators.includes(filteredWords[i])) {
                 // Stop including words after chain indicators
-                tokenCandidateWords = words.slice(0, i);
+                tokenCandidateWords = filteredWords.slice(0, i);
+                wordsAfterChainIndicators = filteredWords.slice(i + 1);
                 break;
             }
         }
         
-        // If no chain indicators found, use first few words (typically tokens come first)
+        // If no chain indicators found, use first few filtered words (typically tokens come first)
         if (tokenCandidateWords.length === 0) {
-            tokenCandidateWords = words.slice(0, Math.min(3, words.length));
+            tokenCandidateWords = filteredWords.slice(0, Math.min(3, filteredWords.length));
         }
         
         const tokenCandidateText = tokenCandidateWords.join(' ');
@@ -168,6 +174,11 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
             const tokenLower = t.toLowerCase();
             const escapedToken = tokenLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             const wordBoundaryRegex = new RegExp(`\\b${escapedToken}\\b`, 'i');
+            
+            // Skip if this token appears after chain indicators (likely it's being used as a chain name)
+            if (wordsAfterChainIndicators.some(word => word.toLowerCase() === tokenLower)) {
+                continue;
+            }
             
             if (wordBoundaryRegex.test(tokenCandidateText)) {
                 let score = 0;
@@ -194,13 +205,21 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
             token = tokenScores[0].token;
         }
         
-        // Fallback: if no matches in candidate text, try full query with length filter
-        if (!token) {
+        // Fallback: if no matches in candidate text, try token candidate text only (not full query)
+        if (!token && tokenCandidateText) {
             for (const t of allTokens) {
-                if (t.length >= 3 && lowerQuery.includes(t.toLowerCase())) {
-                    // Double-check this isn't likely a chain name
+                const tokenLower = t.toLowerCase();
+                
+                // Skip if this token appears after chain indicators (likely it's being used as a chain name)
+                if (wordsAfterChainIndicators.some(word => word.toLowerCase() === tokenLower)) {
+                    continue;
+                }
+                
+                if (t.length >= 3 && tokenCandidateText.toLowerCase().includes(tokenLower)) {
+                    // Double-check this isn't likely a chain name or qualifier word
                     const chainNames = ['base', 'ethereum', 'polygon', 'arbitrum', 'optimism', 'avalanche', 'fantom', 'solana'];
-                    if (!chainNames.includes(t.toLowerCase())) {
+                    const qualifierWordsCheck = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
+                    if (!chainNames.includes(tokenLower) && !qualifierWordsCheck.includes(tokenLower)) {
                         token = t;
                         break;
                     }
@@ -261,12 +280,11 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
   if (lowerQuery.includes('staking') || lowerQuery.includes('stake')) {
       poolTypes.push('Staking');
   }
-  if (lowerQuery.includes('farm') || lowerQuery.includes('farming') || lowerQuery.includes('yield')) {
-      // 'Yield Farming' should be considered if no other specific type is found, or if it's explicitly mentioned
-      // For now, if "farm" or "yield" is in there, add it.
-      // If a more specific type is also found (e.g., "lending yields"), both are included.
+  // Only add Yield Farming if it's explicitly mentioned as the main activity, not just descriptive
+  if (lowerQuery.includes('farm') || lowerQuery.includes('farming')) {
       poolTypes.push('Yield Farming');
   }
+  // Don't automatically add "Yield Farming" for generic "yield" mentions in queries like "best usdc yields"
 
   // Deduplicate pool types
   poolTypes = [...new Set(poolTypes)];
@@ -310,6 +328,7 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
     'orca': ['orca'],
     // Balancer
     'balancer': ['balancer', 'balancer-v2', 'bal']
+    // Note: 'base' removed from protocol aliases to avoid conflict with Base chain
   };
 
   // Protocol context keywords that typically precede protocol names
@@ -317,9 +336,20 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
   
   // Method 1: Look for protocols after context keywords
   const words = lowerQuery.split(/\s+/);
-  for (let i = 0; i < words.length - 1; i++) {
-    if (protocolKeywords.includes(words[i])) {
-      const protocolCandidate = words[i + 1];
+  const qualifierWords = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
+  const filteredWords = words.filter(word => !qualifierWords.includes(word));
+  
+  // Chain names to avoid protocol conflicts
+  const chainNames = ['base', 'ethereum', 'polygon', 'arbitrum', 'optimism', 'avalanche', 'fantom', 'solana', 'binance', 'bnb'];
+  
+  for (let i = 0; i < filteredWords.length - 1; i++) {
+    if (protocolKeywords.includes(filteredWords[i])) {
+      const protocolCandidate = filteredWords[i + 1];
+      
+      // Skip if the candidate is likely a chain name
+      if (chainNames.includes(protocolCandidate)) {
+        continue;
+      }
       
       // Find matching protocol
       for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
@@ -336,8 +366,13 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
     for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
       if (aliases.some(alias => lowerQuery.includes(alias))) {
         // Additional check: avoid matching common words that might be part of other contexts
-        // For example, avoid matching "compound" in "compound interest"
         const aliasMatch = aliases.find(alias => lowerQuery.includes(alias));
+        
+        // Skip if the alias is likely a chain name
+        if (chainNames.includes(aliasMatch)) {
+          continue;
+        }
+        
         const wordBoundaryRegex = new RegExp(`\\b${aliasMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
         
         if (wordBoundaryRegex.test(lowerQuery)) {
@@ -349,10 +384,10 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
   
   // Method 3: Protocol-first detection (e.g., "aave on arbitrum")
   if (protocols.length === 0) {
-    const firstWord = words[0];
-    if (firstWord) {
+    const firstFilteredWord = filteredWords[0];
+    if (firstFilteredWord) {
       for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
-        if (aliases.includes(firstWord)) {
+        if (aliases.includes(firstFilteredWord)) {
           protocols.push(friendlyName);
           break;
         }
@@ -362,6 +397,24 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
   
   // Deduplicate protocols
   protocols = [...new Set(protocols)];
+
+  // --- Auto-set Chain for Protocol-Specific Contexts ---
+  // If a protocol is detected but no chain is specified, auto-set the primary chain for that protocol
+  if (protocols.length > 0 && !chain) {
+    const protocolChainMapping = {
+      'aerodrome': 'Base',
+      'uniswap': 'Ethereum', // Default to mainnet for Uniswap
+      'curve': 'Ethereum',   // Default to mainnet for Curve
+      // Add more as needed
+    };
+    
+    for (const protocol of protocols) {
+      if (protocolChainMapping[protocol.toLowerCase()]) {
+        chain = protocolChainMapping[protocol.toLowerCase()];
+        break; // Use the first matching protocol's chain
+      }
+    }
+  }
 
   return { token, chain, poolTypes, protocols };
 };
@@ -812,7 +865,7 @@ function App() {
     
     // Check if this looks like a natural language query
     const isNaturalLanguage = debouncedSearchInput.split(' ').length > 1 || 
-                               /\b(best|highest|yield|lending|staking|on|for|eth|btc|usdc|base|arbitrum|polygon|aave|compound|uniswap|curve|morpho|euler|venus)\b/i.test(debouncedSearchInput);
+                               /\b(best|highest|top|yield|yields|lending|staking|farming|opportunities|on|for|eth|btc|usdc|base|arbitrum|polygon|aave|compound|uniswap|curve|morpho|euler|venus)\b/i.test(debouncedSearchInput);
     
     if (isNaturalLanguage) {
       // For natural language, try to parse and provide relevant suggestions
