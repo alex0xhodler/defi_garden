@@ -135,95 +135,74 @@ function PoolDetail({
       margin: '0 auto'
     }
   },
-    // Header with Back Button and Logo
+    // Clean Header: Logo | Breadcrumb | Toggle
     React.createElement('div', { 
       className: 'header animate-on-mount',
       style: {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        padding: '0 0 32px 0',
-        marginBottom: '32px',
-        borderBottom: '1px solid rgba(16, 185, 129, 0.1)'
+        padding: '0 0 24px 0',
+        marginBottom: '24px'
       }
     },
-      React.createElement('div', {
+      // Left: DeFi Garden Logo
+      React.createElement('h1', { 
+        className: 'logo',
         style: {
-          display: 'flex',
-          alignItems: 'center',
-          gap: '16px'
-        }
-      },
-        // Back Button
-        React.createElement('button', { 
-          className: 'back-to-results-btn',
-          onClick: onBack,
-          style: {
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px',
-            padding: '10px 16px',
-            background: 'var(--color-background)',
-            border: 'none',
-            borderRadius: '12px',
-            color: 'var(--color-text)',
-            fontSize: 'var(--font-size-sm)',
-            fontWeight: 'var(--font-weight-medium)',
-            cursor: 'pointer',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            transition: 'all 0.2s ease'
-          }
-        }, 
-          React.createElement('span', { className: 'back-arrow' }, '←'),
-          React.createElement('span', null, 'Back to results')
-        ),
-        
-        // DeFi Garden Logo
-        React.createElement('h1', { 
-          className: 'logo',
-          style: {
-            fontSize: 'var(--font-size-2xl)',
-            fontWeight: 'var(--font-weight-black)',
-            color: 'var(--color-text)',
-            margin: 0,
-            cursor: 'pointer'
-          },
-          onClick: () => window.location.reload() // Go to home/refresh app
-        }, 'DeFi Garden')
-      ),
+          fontSize: 'var(--font-size-xl)',
+          fontWeight: 'var(--font-weight-black)',
+          color: 'var(--color-text)',
+          margin: 0,
+          cursor: 'pointer',
+          transition: 'color 0.2s ease'
+        },
+        onClick: () => window.location.reload(),
+        onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
+        onMouseLeave: (e) => e.target.style.color = 'var(--color-text)'
+      }, 'DeFi Garden'),
       
-      // Functional Breadcrumb
+      // Center: Breadcrumb Navigation
       React.createElement('div', {
         className: 'pool-breadcrumb',
         style: {
           display: 'flex',
           alignItems: 'center',
-          gap: '8px',
-          padding: '8px 16px',
+          gap: '10px',
+          padding: '8px 20px',
           background: 'var(--color-background)',
           borderRadius: '20px',
           boxShadow: 'var(--neuro-shadow-pressed)',
           fontSize: 'var(--font-size-sm)',
-          color: 'var(--color-text-secondary)'
+          fontWeight: 'var(--font-weight-medium)',
+          color: 'var(--color-text)'
         }
       },
         React.createElement('span', { 
           style: { 
-            cursor: 'pointer', 
-            transition: 'color 0.2s ease' 
+            color: 'var(--color-text-secondary)',
+            cursor: 'pointer',
+            transition: 'color 0.2s ease'
           },
           onClick: onBack,
           onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
           onMouseLeave: (e) => e.target.style.color = 'var(--color-text-secondary)'
         }, 'Search Results'),
-        React.createElement('span', { style: { color: 'var(--color-primary)' } }, '→'),
+        React.createElement('span', { 
+          style: { 
+            color: 'var(--color-primary)'
+          } 
+        }, '→'),
         React.createElement('span', { 
           style: { 
             color: 'var(--color-text)',
             fontWeight: 'var(--font-weight-semibold)'
           } 
-        }, `${pool.symbol} Pool Details`)
-      )
+        }, `${pool.symbol} Pool`)
+      ),
+      
+      // Right: Empty space for real toggle
+      React.createElement('div', { style: { width: '100px' } })
     ),
     
     // Hero Section - Simplified and Focused
