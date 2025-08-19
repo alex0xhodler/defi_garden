@@ -1471,6 +1471,8 @@ function App() {
     // Set the pool for detail view
     setDetailPool(pool);
     setCurrentView('pool-detail');
+    // Scroll to top when navigating to pool details
+    window.scrollTo(0, 0);
     console.log('Set currentView to pool-detail, detailPool to:', pool.symbol);
     
     // Update URL to include pool identifier
@@ -1516,6 +1518,8 @@ function App() {
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
     setCurrentView('pool-detail');
+    // Scroll to top when navigating to pool details
+    window.scrollTo(0, 0);
     console.log('Set currentView to pool-detail, detailPool to:', pool.symbol);
   };
 
