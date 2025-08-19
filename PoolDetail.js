@@ -32,6 +32,29 @@ function PoolDetail({
   const protocolUrl = getProtocolUrl(pool);
   const protocolUrlWithRef = getProtocolUrlWithRef(pool);
   
+  // Determine pool type (must be defined before getRiskAssessment)
+  const getPoolType = () => {
+    if (!pool.project) return 'Yield Farming';
+    
+    const projectName = pool.project.toLowerCase();
+    
+    if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
+      return 'Lending';
+    }
+    
+    const lendingProtocols = ['aave', 'compound', 'morpho', 'spark', 'maple', 'euler', 'radiant'];
+    const dexProtocols = ['uniswap', 'curve', 'balancer', 'pancakeswap', 'sushiswap'];
+    const stakingProtocols = ['lido', 'rocket-pool', 'ether.fi', 'jito', 'marinade'];
+    
+    if (lendingProtocols.some(p => projectName.includes(p))) return 'Lending';
+    if (dexProtocols.some(p => projectName.includes(p))) return 'LP/DEX';
+    if (stakingProtocols.some(p => projectName.includes(p))) return 'Staking';
+    
+    return 'Yield Farming';
+  };
+  
+  const poolType = getPoolType();
+  
   // Comprehensive Risk Assessment
   const getRiskAssessment = () => {
     let riskScore = 0;
@@ -70,7 +93,6 @@ function PoolDetail({
     }
     
     // Pool Type Factor (10% weight)
-    const poolType = getPoolType();
     if (poolType === 'LP/DEX') {
       riskScore += 10;
       factors.push('Impermanent loss risk');
@@ -99,29 +121,6 @@ function PoolDetail({
   };
   
   const riskAssessment = getRiskAssessment();
-  
-  // Determine pool type
-  const getPoolType = () => {
-    if (!pool.project) return 'Yield Farming';
-    
-    const projectName = pool.project.toLowerCase();
-    
-    if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
-      return 'Lending';
-    }
-    
-    const lendingProtocols = ['aave', 'compound', 'morpho', 'spark', 'maple', 'euler', 'radiant'];
-    const dexProtocols = ['uniswap', 'curve', 'balancer', 'pancakeswap', 'sushiswap'];
-    const stakingProtocols = ['lido', 'rocket-pool', 'ether.fi', 'jito', 'marinade'];
-    
-    if (lendingProtocols.some(p => projectName.includes(p))) return 'Lending';
-    if (dexProtocols.some(p => projectName.includes(p))) return 'LP/DEX';
-    if (stakingProtocols.some(p => projectName.includes(p))) return 'Staking';
-    
-    return 'Yield Farming';
-  };
-  
-  const poolType = getPoolType();
   
   return React.createElement('div', { 
     className: 'pool-detail-container',
