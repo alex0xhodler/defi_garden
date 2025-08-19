@@ -1616,6 +1616,7 @@ function App() {
         React.createElement(PoolDetail, {
           pool: detailPool,
           onBack: handleBackFromDetail,
+          resetApp: resetApp,
           calculateYields: calculateYields,
           formatCurrency: formatCurrency,
           formatAPY: formatAPY,

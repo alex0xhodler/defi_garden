@@ -4,6 +4,7 @@ const { useState } = React;
 function PoolDetail({ 
   pool, 
   onBack, 
+  resetApp,
   calculateYields, 
   formatCurrency, 
   formatAPY,
@@ -14,7 +15,8 @@ function PoolDetail({
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
   const [calculatorExpanded, setCalculatorExpanded] = useState(true);
-  const [poolInfoExpanded, setPoolInfoExpanded] = useState(false);
+  const [poolInfoExpanded, setPoolInfoExpanded] = useState(true);
+  const [activeCalculatorTab, setActiveCalculatorTab] = useState('30days');
   
   if (!pool) {
     return React.createElement('div', { className: 'pool-detail-empty' },
@@ -31,7 +33,7 @@ function PoolDetail({
   const protocolUrl = getProtocolUrl(pool);
   const protocolUrlWithRef = getProtocolUrlWithRef(pool);
   
-  // Determine pool type
+  // Determine pool type (must be defined before getRiskAssessment)
   const getPoolType = () => {
     if (!pool.project) return 'Yield Farming';
     
@@ -54,6 +56,73 @@ function PoolDetail({
   
   const poolType = getPoolType();
   
+  // Comprehensive Risk Assessment
+  const getRiskAssessment = () => {
+    let riskScore = 0;
+    const factors = [];
+    
+    // TVL Factor (40% weight)
+    if (pool.tvlUsd < 1000000) {
+      riskScore += 40;
+      factors.push('Low liquidity');
+    } else if (pool.tvlUsd < 10000000) {
+      riskScore += 20;
+      factors.push('Medium liquidity');
+    } else {
+      factors.push('High liquidity');
+    }
+    
+    // APY Factor (30% weight) - Higher APY = Higher risk
+    if (totalApy > 50) {
+      riskScore += 30;
+      factors.push('Very high yield');
+    } else if (totalApy > 20) {
+      riskScore += 20;
+      factors.push('High yield');
+    } else if (totalApy > 10) {
+      riskScore += 10;
+      factors.push('Elevated yield');
+    }
+    
+    // Pool Age/Maturity Factor (20% weight)
+    const isNewProtocol = ['jito', 'ether.fi', 'pendle', 'eigenlayer'].some(p => 
+      pool.project?.toLowerCase().includes(p)
+    );
+    if (isNewProtocol) {
+      riskScore += 15;
+      factors.push('Newer protocol');
+    }
+    
+    // Pool Type Factor (10% weight)
+    if (poolType === 'LP/DEX') {
+      riskScore += 10;
+      factors.push('Impermanent loss risk');
+    } else if (poolType === 'Lending') {
+      riskScore += 5;
+      factors.push('Credit risk');
+    }
+    
+    // Determine overall risk level
+    let level, color, description;
+    if (riskScore <= 25) {
+      level = 'Low';
+      color = 'var(--color-success)';
+      description = 'Conservative DeFi strategy';
+    } else if (riskScore <= 50) {
+      level = 'Medium';
+      color = 'var(--color-warning)';
+      description = 'Moderate risk profile';
+    } else {
+      level = 'High';
+      color = 'var(--color-error)';
+      description = 'Advanced DeFi strategy';
+    }
+    
+    return { level, color, description, factors, score: riskScore };
+  };
+  
+  const riskAssessment = getRiskAssessment();
+  
   return React.createElement('div', { 
     className: 'pool-detail-container',
     style: { 
@@ -67,87 +136,92 @@ function PoolDetail({
       margin: '0 auto'
     }
   },
-    // Header with Back Button and Logo
+    // Clean Header: Logo | Breadcrumb | Toggle
     React.createElement('div', { 
       className: 'header animate-on-mount',
       style: {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        padding: '0 0 32px 0',
-        marginBottom: '32px',
-        borderBottom: '1px solid rgba(16, 185, 129, 0.1)'
+        padding: '28px 0 24px 0',
+        marginBottom: '24px'
       }
     },
+      // Left: DeFi Garden Logo
       React.createElement('div', {
         style: {
           display: 'flex',
           alignItems: 'center',
-          gap: '16px'
+          height: '40px' // Match toggle height
         }
       },
-        // Back Button
-        React.createElement('button', { 
-          className: 'back-to-results-btn',
-          onClick: onBack,
-          style: {
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px',
-            padding: '10px 16px',
-            background: 'var(--color-background)',
-            border: 'none',
-            borderRadius: '12px',
-            color: 'var(--color-text)',
-            fontSize: 'var(--font-size-sm)',
-            fontWeight: 'var(--font-weight-medium)',
-            cursor: 'pointer',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            transition: 'all 0.2s ease'
-          }
-        }, 
-          React.createElement('span', { className: 'back-arrow' }, '←'),
-          React.createElement('span', null, 'Back to results')
-        ),
-        
-        // DeFi Garden Logo
         React.createElement('h1', { 
           className: 'logo',
           style: {
-            fontSize: 'var(--font-size-2xl)',
+            fontSize: 'var(--font-size-lg)',
             fontWeight: 'var(--font-weight-black)',
             color: 'var(--color-text)',
             margin: 0,
-            cursor: 'pointer'
+            cursor: 'pointer',
+            transition: 'color 0.2s ease',
+            lineHeight: '1'
           },
-          onClick: onBack
+          onClick: resetApp,
+          onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
+          onMouseLeave: (e) => e.target.style.color = 'var(--color-text)'
         }, 'DeFi Garden')
       ),
       
-      // Pool Badge
+      // Center: Breadcrumb Navigation
       React.createElement('div', {
         className: 'pool-breadcrumb',
         style: {
           display: 'flex',
           alignItems: 'center',
-          gap: '8px',
-          padding: '8px 16px',
+          gap: '10px',
+          padding: '0 20px',
+          height: '40px', // Match toggle height
           background: 'var(--color-background)',
           borderRadius: '20px',
           boxShadow: 'var(--neuro-shadow-pressed)',
           fontSize: 'var(--font-size-sm)',
-          color: 'var(--color-text-secondary)'
+          fontWeight: 'var(--font-weight-medium)',
+          color: 'var(--color-text)'
         }
       },
-        React.createElement('span', null, 'Pool Details'),
-        React.createElement('span', { style: { color: 'var(--color-primary)' } }, '•'),
+        React.createElement('span', { 
+          style: { 
+            color: 'var(--color-text-secondary)',
+            cursor: 'pointer',
+            transition: 'color 0.2s ease'
+          },
+          onClick: onBack,
+          onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
+          onMouseLeave: (e) => e.target.style.color = 'var(--color-text-secondary)'
+        }, 'Search Results'),
+        React.createElement('span', { 
+          style: { 
+            color: 'var(--color-primary)'
+          } 
+        }, '→'),
         React.createElement('span', { 
           style: { 
             color: 'var(--color-text)',
             fontWeight: 'var(--font-weight-semibold)'
           } 
-        }, pool.symbol)
-      )
+        }, `${pool.symbol} Pool`)
+      ),
+      
+      // Right: Empty space for real toggle (matching height)
+      React.createElement('div', { 
+        style: { 
+          width: '100px',
+          height: '40px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'flex-end'
+        } 
+      })
     ),
     
     // Hero Section - Simplified and Focused
@@ -303,7 +377,7 @@ function PoolDetail({
               background: 'var(--color-background)',
               borderRadius: '16px',
               boxShadow: 'var(--neuro-shadow-pressed)',
-              minWidth: '180px'
+              minWidth: '200px'
             }
           },
             React.createElement('div', {
@@ -325,50 +399,81 @@ function PoolDetail({
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',
-                lineHeight: '1.1'
+                lineHeight: '1.1',
+                marginBottom: (pool.apyBase > 0 && pool.apyReward > 0) ? '6px' : '0'
               }
-            }, formatAPY(pool.apyBase, pool.apyReward))
+            }, formatAPY(pool.apyBase, pool.apyReward)),
+            
+            // APY Breakdown when both base and reward exist
+            (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                textAlign: 'right',
+                lineHeight: '1.3'
+              }
+            },
+              React.createElement('div', null, `${pool.apyBase.toFixed(1)}% Base`),
+              React.createElement('div', null, `+ ${pool.apyReward.toFixed(1)}% Rewards`)
+            )
           ),
           
-          protocolUrlWithRef && React.createElement('button', {
-            className: 'cta-button-primary',
-            onClick: () => window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer'),
+          protocolUrlWithRef && React.createElement('div', {
             style: {
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '8px',
-              padding: '14px 28px',
-              background: 'var(--color-primary)',
-              color: 'white',
-              border: 'none',
-              borderRadius: '12px',
-              fontSize: 'var(--font-size-base)',
-              fontWeight: 'var(--font-weight-bold)',
-              cursor: 'pointer',
-              transition: 'all 0.3s ease',
-              boxShadow: 'var(--neuro-shadow-raised)',
-              position: 'relative',
-              overflow: 'hidden'
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-end',
+              gap: '8px'
             }
           },
-            React.createElement('span', null, 'Start Earning'),
-            React.createElement('span', {
-              className: 'arrow',
+            React.createElement('button', {
+              className: 'cta-button-primary',
+              onClick: () => window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer'),
               style: {
-                transition: 'transform 0.2s ease'
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '14px 28px',
+                background: 'var(--color-primary)',
+                color: 'white',
+                border: 'none',
+                borderRadius: '12px',
+                fontSize: 'var(--font-size-base)',
+                fontWeight: 'var(--font-weight-bold)',
+                cursor: 'pointer',
+                transition: 'all 0.3s ease',
+                boxShadow: 'var(--neuro-shadow-raised)',
+                position: 'relative',
+                overflow: 'hidden'
               }
-            }, '→')
+            },
+              React.createElement('span', null, `Start Earning on ${pool.project}`),
+              React.createElement('span', {
+                className: 'arrow',
+                style: {
+                  transition: 'transform 0.2s ease'
+                }
+              }, '↗')
+            ),
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                textAlign: 'right',
+                lineHeight: '1.3'
+              }
+            }, 'Opens protocol • Wallet required')
           )
         )
       )
     ),
     
-    // Quick Metrics - Simplified 3-card layout
+    // Quick Metrics - Force 3-column layout
     React.createElement('div', { 
       className: 'quick-metrics',
       style: {
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+        gridTemplateColumns: '1fr 1fr 1fr',
         gap: '16px',
         marginBottom: '40px'
       }
@@ -391,14 +496,14 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, 'Daily ($1000)'),
+        }, `Daily ($${investmentAmount.toLocaleString()})`),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
             fontWeight: 'var(--font-weight-bold)',
             color: 'var(--color-primary)'
           }
-        }, `$${(1000 * totalApy / 365 / 100).toFixed(2)}`)
+        }, `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}`)
       ),
       
       React.createElement('div', { 
@@ -419,14 +524,14 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, 'Monthly ($1000)'),
+        }, `Monthly ($${investmentAmount.toLocaleString()})`),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
             fontWeight: 'var(--font-weight-bold)',
             color: 'var(--color-text)'
           }
-        }, `$${(1000 * totalApy / 12 / 100).toFixed(2)}`)
+        }, `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`)
       ),
       
       React.createElement('div', { 
@@ -434,10 +539,13 @@ function PoolDetail({
         style: {
           background: 'var(--color-background)',
           borderRadius: '16px',
-          padding: '20px',
-          boxShadow: 'var(--neuro-shadow-subtle)',
+          padding: '24px',
+          boxShadow: 'var(--neuro-shadow-raised)',
           textAlign: 'center',
-          transition: 'all 0.3s ease'
+          transition: 'all 0.3s ease',
+          border: `2px solid ${riskAssessment.color.replace('var(--color-', '').replace(')', '') === 'error' ? 'rgba(239, 68, 68, 0.2)' : 
+                                   riskAssessment.color.replace('var(--color-', '').replace(')', '') === 'warning' ? 'rgba(245, 158, 11, 0.2)' : 
+                                   'rgba(34, 197, 94, 0.2)'}`
         }
       },
         React.createElement('div', {
@@ -445,16 +553,34 @@ function PoolDetail({
             fontSize: 'var(--font-size-sm)',
             color: 'var(--color-text-secondary)',
             marginBottom: '8px',
-            fontWeight: 'var(--font-weight-medium)'
+            fontWeight: 'var(--font-weight-medium)',
+            textTransform: 'uppercase',
+            letterSpacing: '0.5px'
           }
-        }, 'Risk Level'),
+        }, 'Risk Assessment'),
         React.createElement('div', {
           style: {
-            fontSize: 'var(--font-size-lg)',
-            fontWeight: 'var(--font-weight-bold)',
-            color: pool.tvlUsd > 10000000 ? 'var(--color-success)' : pool.tvlUsd > 1000000 ? 'var(--color-warning)' : 'var(--color-error)'
+            fontSize: 'var(--font-size-xl)',
+            fontWeight: '900',
+            color: riskAssessment.color,
+            marginBottom: '6px'
           }
-        }, pool.tvlUsd > 10000000 ? 'Low' : pool.tvlUsd > 1000000 ? 'Medium' : 'High')
+        }, riskAssessment.level),
+        React.createElement('div', {
+          style: {
+            fontSize: 'var(--font-size-xs)',
+            color: 'var(--color-text-secondary)',
+            lineHeight: '1.3',
+            marginBottom: '8px'
+          }
+        }, riskAssessment.description),
+        riskAssessment.factors.length > 0 && React.createElement('div', {
+          style: {
+            fontSize: 'var(--font-size-xs)',
+            color: 'var(--color-text-secondary)',
+            opacity: 0.8
+          }
+        }, `Key factors: ${riskAssessment.factors.slice(0, 2).join(', ')}`)
       )
     ),
     
@@ -489,11 +615,6 @@ function PoolDetail({
             gap: '12px'
           }
         },
-          React.createElement('span', {
-            style: {
-              fontSize: 'var(--font-size-2xl)'
-            }
-          }, '💰'),
           React.createElement('div', null,
             React.createElement('div', {
               style: {
@@ -589,152 +710,176 @@ function PoolDetail({
               display: 'flex',
               gap: '8px',
               justifyContent: 'center',
-              flexWrap: 'wrap'
+              flexWrap: 'wrap',
+              marginBottom: '16px'
             }
           },
-            [100, 1000, 5000, 10000].map(amount => 
+            [100, 500, 1000, 2000, 5000, 10000, 100000].map(amount => 
               React.createElement('button', {
                 key: amount,
                 onClick: () => setInvestmentAmount(amount),
+                onMouseEnter: (e) => {
+                  if (investmentAmount !== amount) {
+                    e.target.style.boxShadow = 'var(--neuro-shadow-flat)';
+                    e.target.style.transform = 'translateY(-1px)';
+                  }
+                },
+                onMouseLeave: (e) => {
+                  if (investmentAmount !== amount) {
+                    e.target.style.boxShadow = 'var(--neuro-shadow-subtle)';
+                    e.target.style.transform = 'translateY(0)';
+                  }
+                },
                 style: {
-                  padding: '6px 12px',
+                  padding: '8px 16px',
                   border: 'none',
-                  background: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-background)',
-                  color: investmentAmount === amount ? 'white' : 'var(--color-text-secondary)',
-                  borderRadius: '8px',
-                  cursor: 'pointer',
+                  borderRadius: '12px',
+                  background: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-surface)',
+                  color: investmentAmount === amount ? 'white' : 'var(--color-text)',
                   fontSize: 'var(--font-size-sm)',
-                  fontWeight: 'var(--font-weight-medium)',
-                  boxShadow: investmentAmount === amount ? 'var(--neuro-shadow-pressed)' : 'var(--neuro-shadow-subtle)',
-                  transition: 'all 0.2s ease'
+                  fontWeight: investmentAmount === amount ? 'var(--font-weight-semibold)' : 'var(--font-weight-medium)',
+                  boxShadow: 'var(--neuro-shadow-subtle)',
+                  transition: 'all 0.2s ease',
+                  cursor: 'pointer',
+                  whiteSpace: 'nowrap',
+                  minHeight: '36px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
                 }
               }, `$${amount >= 1000 ? `${amount/1000}k` : amount}`)
             )
           )
         ),
         
-        // Compact Yield Results
+        // Tab Navigation for Time Periods
         React.createElement('div', { 
           style: {
-            display: 'grid',
-            gridTemplateColumns: 'repeat(2, 1fr)',
-            gap: '12px',
+            display: 'flex',
+            gap: '4px',
+            marginBottom: '24px',
+            background: 'var(--color-background)',
+            borderRadius: '12px',
+            padding: '4px',
+            boxShadow: 'var(--neuro-shadow-pressed)'
+          }
+        },
+          ['1day', '7days', '30days'].map(tab => {
+            const tabLabels = {
+              '1day': '1 Day',
+              '7days': '7 Days',
+              '30days': '30 Days'
+            };
+            
+            return React.createElement('button', {
+              key: tab,
+              onClick: () => setActiveCalculatorTab(tab),
+              onMouseEnter: (e) => {
+                if (activeCalculatorTab !== tab) {
+                  e.target.style.boxShadow = 'var(--neuro-shadow-flat)';
+                  e.target.style.transform = 'translateY(-1px)';
+                }
+              },
+              onMouseLeave: (e) => {
+                if (activeCalculatorTab !== tab) {
+                  e.target.style.boxShadow = 'var(--neuro-shadow-raised)';
+                  e.target.style.transform = 'translateY(0)';
+                }
+              },
+              style: {
+                flex: 1,
+                padding: '8px 12px',
+                border: 'none',
+                borderRadius: '12px',
+                background: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-surface)',
+                color: activeCalculatorTab === tab ? 'white' : 'var(--color-text)',
+                fontSize: 'var(--font-size-sm)',
+                fontWeight: activeCalculatorTab === tab ? 'var(--font-weight-semibold)' : 'var(--font-weight-medium)',
+                boxShadow: 'var(--neuro-shadow-subtle)',
+                transition: 'all 0.2s ease',
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+                minHeight: '36px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }
+            }, tabLabels[tab]);
+          })
+        ),
+        
+        // Primary Yield Result (based on selected tab)
+        React.createElement('div', { 
+          style: {
+            background: 'var(--color-background)',
+            borderRadius: '16px',
+            padding: '24px',
+            textAlign: 'center',
+            boxShadow: 'var(--neuro-shadow-raised)',
             marginBottom: '16px'
           }
         },
-          React.createElement('div', { 
+          React.createElement('div', {
             style: {
-              background: 'var(--color-background)',
-              borderRadius: '12px',
-              padding: '16px',
-              textAlign: 'center',
-              boxShadow: 'var(--neuro-shadow-subtle)'
+              fontSize: 'var(--font-size-base)',
+              color: 'var(--color-text-secondary)',
+              marginBottom: '8px',
+              fontWeight: 'var(--font-weight-medium)',
+              cursor: 'help',
+              position: 'relative',
+              display: 'inline-block'
+            },
+            onMouseEnter: (e) => {
+              const tooltip = document.createElement('div');
+              tooltip.textContent = 'Calculations are estimates. Actual yields may vary based on market conditions.';
+              tooltip.style.cssText = `
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                background: var(--color-text);
+                color: var(--color-background);
+                padding: 8px 12px;
+                border-radius: 6px;
+                font-size: 12px;
+                white-space: nowrap;
+                z-index: 1000;
+                margin-bottom: 5px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+              `;
+              tooltip.id = 'earnings-tooltip';
+              e.target.appendChild(tooltip);
+            },
+            onMouseLeave: (e) => {
+              const tooltip = document.getElementById('earnings-tooltip');
+              if (tooltip) tooltip.remove();
             }
-          },
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-sm)',
-                color: 'var(--color-text-secondary)',
-                marginBottom: '4px'
-              }
-            }, '24 Hours'),
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-lg)',
-                fontWeight: 'var(--font-weight-bold)',
-                color: 'var(--color-primary)'
-              }
-            }, `$${yields.oneDayGain.toFixed(2)}`)
-          ),
-          
-          React.createElement('div', { 
+          }, activeCalculatorTab === '1day' ? 'Estimated Daily Earnings' :
+             activeCalculatorTab === '7days' ? 'Estimated Weekly Earnings' :
+             'Estimated Monthly Earnings'),
+          React.createElement('div', {
             style: {
-              background: 'var(--color-background)',
-              borderRadius: '12px',
-              padding: '16px',
-              textAlign: 'center',
-              boxShadow: 'var(--neuro-shadow-subtle)'
+              fontSize: 'var(--font-size-3xl)',
+              fontWeight: '900',
+              background: 'linear-gradient(135deg, var(--color-primary) 0%, var(--color-forest) 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              lineHeight: '1.1',
+              marginBottom: '8px'
             }
-          },
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-sm)',
-                color: 'var(--color-text-secondary)',
-                marginBottom: '4px'
-              }
-            }, '30 Days'),
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-lg)',
-                fontWeight: 'var(--font-weight-bold)',
-                color: 'var(--color-text)'
-              }
-            }, `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`)
-          ),
-          
-          React.createElement('div', { 
+          }, activeCalculatorTab === '1day' ? `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}` :
+             activeCalculatorTab === '7days' ? `$${(investmentAmount * totalApy / 52 / 100).toFixed(2)}` :
+             `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`),
+          React.createElement('div', {
             style: {
-              background: 'var(--color-background)',
-              borderRadius: '12px',
-              padding: '16px',
-              textAlign: 'center',
-              boxShadow: 'var(--neuro-shadow-subtle)'
+              fontSize: 'var(--font-size-sm)',
+              color: 'var(--color-text-secondary)',
+              fontWeight: 'var(--font-weight-medium)'
             }
-          },
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-sm)',
-                color: 'var(--color-text-secondary)',
-                marginBottom: '4px'
-              }
-            }, '1 Year'),
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-lg)',
-                fontWeight: 'var(--font-weight-bold)',
-                color: 'var(--color-success)'
-              }
-            }, `$${(investmentAmount * totalApy / 100).toFixed(2)}`)
-          ),
-          
-          React.createElement('div', { 
-            style: {
-              background: 'var(--color-background)',
-              borderRadius: '12px',
-              padding: '16px',
-              textAlign: 'center',
-              boxShadow: 'var(--neuro-shadow-subtle)'
-            }
-          },
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-sm)',
-                color: 'var(--color-text-secondary)',
-                marginBottom: '4px'
-              }
-            }, 'Compounding'),
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-lg)',
-                fontWeight: 'var(--font-weight-bold)',
-                color: 'var(--color-success)'
-              }
-            }, `$${(investmentAmount * Math.pow(1 + totalApy/100/365, 365) - investmentAmount).toFixed(2)}`)
-          )
+          }, `Based on $${investmentAmount.toLocaleString()} investment`)
         ),
         
-        React.createElement('div', { 
-          style: {
-            fontSize: 'var(--font-size-xs)',
-            color: 'var(--color-text-secondary)',
-            textAlign: 'center',
-            fontStyle: 'italic',
-            padding: '12px',
-            background: 'rgba(16, 185, 129, 0.05)',
-            borderRadius: '8px',
-            borderLeft: '3px solid var(--color-primary)'
-          }
-        }, 'Calculations are estimates. Actual yields may vary based on market conditions.')
       )
     ),
     
@@ -769,11 +914,6 @@ function PoolDetail({
             gap: '12px'
           }
         },
-          React.createElement('span', {
-            style: {
-              fontSize: 'var(--font-size-lg)'
-            }
-          }, '📊'),
           React.createElement('h3', {
             style: {
               fontSize: 'var(--font-size-lg)',
@@ -984,51 +1124,6 @@ function PoolDetail({
         )
       )
     ),
-    
-    // Compact Risk & Legal Section
-    React.createElement('div', { 
-      className: 'risk-disclaimer-compact',
-      style: {
-        background: 'var(--color-background)',
-        border: '1px solid rgba(255, 193, 7, 0.2)',
-        borderRadius: '12px',
-        padding: '16px',
-        boxShadow: 'var(--neuro-shadow-pressed)'
-      }
-    },
-      React.createElement('div', {
-        style: {
-          display: 'flex',
-          alignItems: 'flex-start',
-          gap: '12px'
-        }
-      },
-        React.createElement('span', {
-          style: {
-            fontSize: 'var(--font-size-lg)',
-            marginTop: '2px'
-          }
-        }, '⚠️'),
-        React.createElement('div', null,
-          React.createElement('div', {
-            style: {
-              fontSize: 'var(--font-size-base)',
-              fontWeight: 'var(--font-weight-bold)',
-              color: '#ff6b35',
-              marginBottom: '6px'
-            }
-          }, 'Important Risk Information'),
-          React.createElement('p', {
-            style: {
-              fontSize: 'var(--font-size-sm)',
-              color: 'var(--color-text-secondary)',
-              lineHeight: '1.4',
-              margin: '0'
-            }
-          }, 'DeFi investments carry risks including smart contract vulnerabilities and market volatility. Only invest what you can afford to lose.')
-        )
-      )
-    ) // End of risk disclaimer
   );
 }
 
