@@ -1089,51 +1089,6 @@ function PoolDetail({
         )
       )
     ),
-    
-    // Compact Risk & Legal Section
-    React.createElement('div', { 
-      className: 'risk-disclaimer-compact',
-      style: {
-        background: 'var(--color-background)',
-        border: '1px solid rgba(255, 193, 7, 0.2)',
-        borderRadius: '12px',
-        padding: '16px',
-        boxShadow: 'var(--neuro-shadow-pressed)'
-      }
-    },
-      React.createElement('div', {
-        style: {
-          display: 'flex',
-          alignItems: 'flex-start',
-          gap: '12px'
-        }
-      },
-        React.createElement('span', {
-          style: {
-            fontSize: 'var(--font-size-lg)',
-            marginTop: '2px'
-          }
-        }, '⚠️'),
-        React.createElement('div', null,
-          React.createElement('div', {
-            style: {
-              fontSize: 'var(--font-size-base)',
-              fontWeight: 'var(--font-weight-bold)',
-              color: '#ff6b35',
-              marginBottom: '6px'
-            }
-          }, 'Important Risk Information'),
-          React.createElement('p', {
-            style: {
-              fontSize: 'var(--font-size-sm)',
-              color: 'var(--color-text-secondary)',
-              lineHeight: '1.4',
-              margin: '0'
-            }
-          }, 'DeFi investments carry risks including smart contract vulnerabilities and market volatility. Only invest what you can afford to lose.')
-        )
-      )
-    ) // End of risk disclaimer
   );
 }
 
