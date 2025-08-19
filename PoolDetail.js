@@ -714,7 +714,7 @@ function PoolDetail({
               marginBottom: '16px'
             }
           },
-            [100, 1000, 5000, 10000].map(amount => 
+            [100, 500, 1000, 2000, 5000, 10000, 100000].map(amount => 
               React.createElement('button', {
                 key: amount,
                 onClick: () => setInvestmentAmount(amount),
@@ -764,12 +764,11 @@ function PoolDetail({
             boxShadow: 'var(--neuro-shadow-pressed)'
           }
         },
-          ['24hours', '30days', '1year', 'compounding'].map(tab => {
+          ['1day', '7days', '30days'].map(tab => {
             const tabLabels = {
-              '24hours': '24 Hours',
-              '30days': '30 Days', 
-              '1year': '1 Year',
-              'compounding': 'Compounding'
+              '1day': '1 Day',
+              '7days': '7 Days',
+              '30days': '30 Days'
             };
             
             return React.createElement('button', {
@@ -855,10 +854,9 @@ function PoolDetail({
               const tooltip = document.getElementById('earnings-tooltip');
               if (tooltip) tooltip.remove();
             }
-          }, activeCalculatorTab === '24hours' ? 'Estimated Daily Earnings' :
-             activeCalculatorTab === '30days' ? 'Estimated Monthly Earnings' :
-             activeCalculatorTab === '1year' ? 'Estimated Annual Earnings' :
-             'Estimated Annual Earnings (Compounded)'),
+          }, activeCalculatorTab === '1day' ? 'Estimated Daily Earnings' :
+             activeCalculatorTab === '7days' ? 'Estimated Weekly Earnings' :
+             'Estimated Monthly Earnings'),
           React.createElement('div', {
             style: {
               fontSize: 'var(--font-size-3xl)',
@@ -870,10 +868,9 @@ function PoolDetail({
               lineHeight: '1.1',
               marginBottom: '8px'
             }
-          }, activeCalculatorTab === '24hours' ? `$${yields.oneDayGain.toFixed(2)}` :
-             activeCalculatorTab === '30days' ? `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}` :
-             activeCalculatorTab === '1year' ? `$${(investmentAmount * totalApy / 100).toFixed(2)}` :
-             `$${(investmentAmount * Math.pow(1 + totalApy/100/365, 365) - investmentAmount).toFixed(2)}`),
+          }, activeCalculatorTab === '1day' ? `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}` :
+             activeCalculatorTab === '7days' ? `$${(investmentAmount * totalApy / 52 / 100).toFixed(2)}` :
+             `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`),
           React.createElement('div', {
             style: {
               fontSize: 'var(--font-size-sm)',
