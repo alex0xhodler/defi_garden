@@ -4,6 +4,7 @@ const { useState } = React;
 function PoolDetail({ 
   pool, 
   onBack, 
+  resetApp,
   calculateYields, 
   formatCurrency, 
   formatAPY,
@@ -14,7 +15,7 @@ function PoolDetail({
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
   const [calculatorExpanded, setCalculatorExpanded] = useState(true);
-  const [poolInfoExpanded, setPoolInfoExpanded] = useState(false);
+  const [poolInfoExpanded, setPoolInfoExpanded] = useState(true);
   const [activeCalculatorTab, setActiveCalculatorTab] = useState('30days');
   
   if (!pool) {
@@ -142,7 +143,7 @@ function PoolDetail({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        padding: '0 0 24px 0',
+        padding: '28px 0 24px 0',
         marginBottom: '24px'
       }
     },
@@ -165,7 +166,7 @@ function PoolDetail({
             transition: 'color 0.2s ease',
             lineHeight: '1'
           },
-          onClick: () => window.location.reload(),
+          onClick: resetApp,
           onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
           onMouseLeave: (e) => e.target.style.color = 'var(--color-text)'
         }, 'DeFi Garden')
@@ -467,12 +468,12 @@ function PoolDetail({
       )
     ),
     
-    // Quick Metrics - Simplified 3-card layout
+    // Quick Metrics - Force 3-column layout
     React.createElement('div', { 
       className: 'quick-metrics',
       style: {
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+        gridTemplateColumns: '1fr 1fr 1fr',
         gap: '16px',
         marginBottom: '40px'
       }
@@ -614,11 +615,6 @@ function PoolDetail({
             gap: '12px'
           }
         },
-          React.createElement('span', {
-            style: {
-              fontSize: 'var(--font-size-2xl)'
-            }
-          }, '💰'),
           React.createElement('div', null,
             React.createElement('div', {
               style: {
@@ -714,26 +710,42 @@ function PoolDetail({
               display: 'flex',
               gap: '8px',
               justifyContent: 'center',
-              flexWrap: 'wrap'
+              flexWrap: 'wrap',
+              marginBottom: '16px'
             }
           },
             [100, 1000, 5000, 10000].map(amount => 
               React.createElement('button', {
                 key: amount,
                 onClick: () => setInvestmentAmount(amount),
+                onMouseEnter: (e) => {
+                  if (investmentAmount !== amount) {
+                    e.target.style.boxShadow = 'var(--neuro-shadow-flat)';
+                    e.target.style.transform = 'translateY(-1px)';
+                  }
+                },
+                onMouseLeave: (e) => {
+                  if (investmentAmount !== amount) {
+                    e.target.style.boxShadow = 'var(--neuro-shadow-subtle)';
+                    e.target.style.transform = 'translateY(0)';
+                  }
+                },
                 style: {
-                  padding: '6px 12px',
+                  padding: '8px 16px',
                   border: 'none',
-                  background: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-background)',
-                  backgroundColor: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-background)', // Explicit override
-                  color: investmentAmount === amount ? 'white' : 'var(--color-text-secondary)',
-                  borderRadius: '8px',
-                  cursor: 'pointer',
+                  borderRadius: '12px',
+                  background: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-surface)',
+                  color: investmentAmount === amount ? 'white' : 'var(--color-text)',
                   fontSize: 'var(--font-size-sm)',
-                  fontWeight: 'var(--font-weight-medium)',
-                  boxShadow: investmentAmount === amount ? 'var(--neuro-shadow-pressed)' : 'var(--neuro-shadow-subtle)',
+                  fontWeight: investmentAmount === amount ? 'var(--font-weight-semibold)' : 'var(--font-weight-medium)',
+                  boxShadow: 'var(--neuro-shadow-subtle)',
                   transition: 'all 0.2s ease',
-                  opacity: 1 // Ensure no transparency
+                  cursor: 'pointer',
+                  whiteSpace: 'nowrap',
+                  minHeight: '36px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
                 }
               }, `$${amount >= 1000 ? `${amount/1000}k` : amount}`)
             )
@@ -745,7 +757,7 @@ function PoolDetail({
           style: {
             display: 'flex',
             gap: '4px',
-            marginBottom: '16px',
+            marginBottom: '24px',
             background: 'var(--color-background)',
             borderRadius: '12px',
             padding: '4px',
@@ -763,20 +775,35 @@ function PoolDetail({
             return React.createElement('button', {
               key: tab,
               onClick: () => setActiveCalculatorTab(tab),
+              onMouseEnter: (e) => {
+                if (activeCalculatorTab !== tab) {
+                  e.target.style.boxShadow = 'var(--neuro-shadow-flat)';
+                  e.target.style.transform = 'translateY(-1px)';
+                }
+              },
+              onMouseLeave: (e) => {
+                if (activeCalculatorTab !== tab) {
+                  e.target.style.boxShadow = 'var(--neuro-shadow-raised)';
+                  e.target.style.transform = 'translateY(0)';
+                }
+              },
               style: {
                 flex: 1,
                 padding: '8px 12px',
                 border: 'none',
-                borderRadius: '8px',
-                background: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-background)',
-                backgroundColor: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-background)', // Explicit override
-                color: activeCalculatorTab === tab ? 'white' : 'var(--color-text-secondary)',
+                borderRadius: '12px',
+                background: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-surface)',
+                color: activeCalculatorTab === tab ? 'white' : 'var(--color-text)',
                 fontSize: 'var(--font-size-sm)',
-                fontWeight: 'var(--font-weight-medium)',
-                cursor: 'pointer',
+                fontWeight: activeCalculatorTab === tab ? 'var(--font-weight-semibold)' : 'var(--font-weight-medium)',
+                boxShadow: 'var(--neuro-shadow-subtle)',
                 transition: 'all 0.2s ease',
-                boxShadow: activeCalculatorTab === tab ? 'var(--neuro-shadow-pressed)' : 'var(--neuro-shadow-raised)',
-                opacity: 1 // Ensure no transparency
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+                minHeight: '36px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
               }
             }, tabLabels[tab]);
           })
@@ -798,7 +825,35 @@ function PoolDetail({
               fontSize: 'var(--font-size-base)',
               color: 'var(--color-text-secondary)',
               marginBottom: '8px',
-              fontWeight: 'var(--font-weight-medium)'
+              fontWeight: 'var(--font-weight-medium)',
+              cursor: 'help',
+              position: 'relative',
+              display: 'inline-block'
+            },
+            onMouseEnter: (e) => {
+              const tooltip = document.createElement('div');
+              tooltip.textContent = 'Calculations are estimates. Actual yields may vary based on market conditions.';
+              tooltip.style.cssText = `
+                position: absolute;
+                bottom: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                background: var(--color-text);
+                color: var(--color-background);
+                padding: 8px 12px;
+                border-radius: 6px;
+                font-size: 12px;
+                white-space: nowrap;
+                z-index: 1000;
+                margin-bottom: 5px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+              `;
+              tooltip.id = 'earnings-tooltip';
+              e.target.appendChild(tooltip);
+            },
+            onMouseLeave: (e) => {
+              const tooltip = document.getElementById('earnings-tooltip');
+              if (tooltip) tooltip.remove();
             }
           }, activeCalculatorTab === '24hours' ? 'Estimated Daily Earnings' :
              activeCalculatorTab === '30days' ? 'Estimated Monthly Earnings' :
@@ -828,18 +883,6 @@ function PoolDetail({
           }, `Based on $${investmentAmount.toLocaleString()} investment`)
         ),
         
-        React.createElement('div', { 
-          style: {
-            fontSize: 'var(--font-size-xs)',
-            color: 'var(--color-text-secondary)',
-            textAlign: 'center',
-            fontStyle: 'italic',
-            padding: '12px',
-            background: 'rgba(16, 185, 129, 0.05)',
-            borderRadius: '8px',
-            borderLeft: '3px solid var(--color-primary)'
-          }
-        }, 'Calculations are estimates. Actual yields may vary based on market conditions.')
       )
     ),
     
@@ -874,11 +917,6 @@ function PoolDetail({
             gap: '12px'
           }
         },
-          React.createElement('span', {
-            style: {
-              fontSize: 'var(--font-size-lg)'
-            }
-          }, '📊'),
           React.createElement('h3', {
             style: {
               fontSize: 'var(--font-size-lg)',
