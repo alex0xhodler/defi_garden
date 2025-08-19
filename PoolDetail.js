@@ -770,13 +770,13 @@ function PoolDetail({
                 padding: '8px 12px',
                 border: 'none',
                 borderRadius: '8px',
-                background: activeCalculatorTab === tab ? 'var(--color-primary)' : 'transparent',
+                background: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-background)',
                 color: activeCalculatorTab === tab ? 'white' : 'var(--color-text-secondary)',
                 fontSize: 'var(--font-size-sm)',
                 fontWeight: 'var(--font-weight-medium)',
                 cursor: 'pointer',
                 transition: 'all 0.2s ease',
-                boxShadow: activeCalculatorTab === tab ? 'var(--neuro-shadow-pressed)' : 'none'
+                boxShadow: activeCalculatorTab === tab ? 'var(--neuro-shadow-pressed)' : 'var(--neuro-shadow-raised)'
               }
             }, tabLabels[tab]);
           })
