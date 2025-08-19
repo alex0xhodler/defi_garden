@@ -147,20 +147,29 @@ function PoolDetail({
       }
     },
       // Left: DeFi Garden Logo
-      React.createElement('h1', { 
-        className: 'logo',
+      React.createElement('div', {
         style: {
-          fontSize: 'var(--font-size-xl)',
-          fontWeight: 'var(--font-weight-black)',
-          color: 'var(--color-text)',
-          margin: 0,
-          cursor: 'pointer',
-          transition: 'color 0.2s ease'
-        },
-        onClick: () => window.location.reload(),
-        onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
-        onMouseLeave: (e) => e.target.style.color = 'var(--color-text)'
-      }, 'DeFi Garden'),
+          display: 'flex',
+          alignItems: 'center',
+          height: '40px' // Match toggle height
+        }
+      },
+        React.createElement('h1', { 
+          className: 'logo',
+          style: {
+            fontSize: 'var(--font-size-lg)',
+            fontWeight: 'var(--font-weight-black)',
+            color: 'var(--color-text)',
+            margin: 0,
+            cursor: 'pointer',
+            transition: 'color 0.2s ease',
+            lineHeight: '1'
+          },
+          onClick: () => window.location.reload(),
+          onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
+          onMouseLeave: (e) => e.target.style.color = 'var(--color-text)'
+        }, 'DeFi Garden')
+      ),
       
       // Center: Breadcrumb Navigation
       React.createElement('div', {
@@ -169,7 +178,8 @@ function PoolDetail({
           display: 'flex',
           alignItems: 'center',
           gap: '10px',
-          padding: '8px 20px',
+          padding: '0 20px',
+          height: '40px', // Match toggle height
           background: 'var(--color-background)',
           borderRadius: '20px',
           boxShadow: 'var(--neuro-shadow-pressed)',
@@ -201,8 +211,16 @@ function PoolDetail({
         }, `${pool.symbol} Pool`)
       ),
       
-      // Right: Empty space for real toggle
-      React.createElement('div', { style: { width: '100px' } })
+      // Right: Empty space for real toggle (matching height)
+      React.createElement('div', { 
+        style: { 
+          width: '100px',
+          height: '40px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'flex-end'
+        } 
+      })
     ),
     
     // Hero Section - Simplified and Focused
