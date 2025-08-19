@@ -1508,12 +1508,15 @@ function App() {
     }
   };
 
-  // Handle yield calculator
+  // Handle yield calculator - navigate to pool details page
   const handleCalculateYield = (pool, e) => {
     e.preventDefault();
     e.stopPropagation();
-    setSelectedPool(pool);
-    setShowYieldCalculator(true);
+    console.log('handleCalculateYield called for:', pool.symbol);
+    // Set the pool for detail view (same logic as handlePoolClick)
+    setDetailPool(pool);
+    setCurrentView('pool-detail');
+    console.log('Set currentView to pool-detail, detailPool to:', pool.symbol);
   };
 
   // Handle pool type selection (multi-select)
