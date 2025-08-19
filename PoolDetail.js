@@ -728,13 +728,15 @@ function PoolDetail({
                   padding: '6px 12px',
                   border: 'none',
                   background: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-background)',
+                  backgroundColor: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-background)', // Explicit override
                   color: investmentAmount === amount ? 'white' : 'var(--color-text-secondary)',
                   borderRadius: '8px',
                   cursor: 'pointer',
                   fontSize: 'var(--font-size-sm)',
                   fontWeight: 'var(--font-weight-medium)',
                   boxShadow: investmentAmount === amount ? 'var(--neuro-shadow-pressed)' : 'var(--neuro-shadow-subtle)',
-                  transition: 'all 0.2s ease'
+                  transition: 'all 0.2s ease',
+                  opacity: 1 // Ensure no transparency
                 }
               }, `$${amount >= 1000 ? `${amount/1000}k` : amount}`)
             )
@@ -770,12 +772,14 @@ function PoolDetail({
                 border: 'none',
                 borderRadius: '8px',
                 background: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-background)',
+                backgroundColor: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-background)', // Explicit override
                 color: activeCalculatorTab === tab ? 'white' : 'var(--color-text-secondary)',
                 fontSize: 'var(--font-size-sm)',
                 fontWeight: 'var(--font-weight-medium)',
                 cursor: 'pointer',
                 transition: 'all 0.2s ease',
-                boxShadow: activeCalculatorTab === tab ? 'var(--neuro-shadow-pressed)' : 'var(--neuro-shadow-raised)'
+                boxShadow: activeCalculatorTab === tab ? 'var(--neuro-shadow-pressed)' : 'var(--neuro-shadow-raised)',
+                opacity: 1 // Ensure no transparency
               }
             }, tabLabels[tab]);
           })
