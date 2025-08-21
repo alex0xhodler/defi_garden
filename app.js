@@ -781,7 +781,7 @@ function App() {
 
   // Handle pool detail URL parameter after pools are loaded
   useEffect(() => {
-    if (pools.length > 0 && !detailPool) {
+    if (pools.length > 0 && !detailPool && currentView !== 'pool-detail') {
       const urlParams = getUrlParams();
       if (urlParams.pool) {
         // Find the pool by ID
@@ -797,7 +797,7 @@ function App() {
         }
       }
     }
-  }, [pools, detailPool]);
+  }, [pools, detailPool, currentView]);
 
   // Background fetch protocols data after UI loads
   useEffect(() => {
@@ -1565,23 +1565,35 @@ function App() {
 
   // Handle navigation back from pool detail view
   const handleBackFromDetail = () => {
-    setCurrentView('search');
-    setDetailPool(null);
+    console.log('handleBackFromDetail called - before state changes');
+    console.log('currentView before:', currentView, 'detailPool before:', detailPool ? detailPool.symbol : 'null');
     
-    // Remove pool parameter from URL
+    // Remove pool parameter from URL first
     const params = new URLSearchParams(window.location.search);
     params.delete('pool');
     const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
     window.history.pushState({}, '', newUrl);
     
-    // Restore previous title
-    if (chainMode && selectedChain && !selectedToken) {
-      document.title = `${selectedChain} DeFi Yields | DeFi Garden 🌱`;
-    } else if (selectedToken) {
-      document.title = `${selectedToken.toUpperCase()} Yields | DeFi Garden 🌱`;
-    } else {
-      document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
-    }
+    // Then update the state - React will batch these
+    setCurrentView('search');
+    setDetailPool(null);
+    
+    // Force a re-render by using a timeout to ensure state updates take effect
+    setTimeout(() => {
+      console.log('After state update - currentView:', currentView, 'detailPool:', detailPool ? detailPool.symbol : 'null');
+      
+      // Restore previous title
+      if (chainMode && selectedChain && !selectedToken) {
+        document.title = `${selectedChain} DeFi Yields | DeFi Garden 🌱`;
+      } else if (selectedToken) {
+        document.title = `${selectedToken.toUpperCase()} Yields | DeFi Garden 🌱`;
+      } else {
+        document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
+      }
+      
+      // Ensure we scroll back to the top of search results
+      window.scrollTo(0, 0);
+    }, 0);
   };
 
   // Handle yield calculator - navigate to pool details page
