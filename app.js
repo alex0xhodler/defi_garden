@@ -705,11 +705,17 @@ function App() {
   // Handle browser back/forward navigation
   useEffect(() => {
     const handlePopState = () => {
+      console.log('🚨 Browser back/forward detected!');
+      console.log('🚨 Current URL:', window.location.href);
+      console.log('🚨 Current view:', currentView, 'detailPool:', detailPool ? detailPool.symbol : 'null');
+      
       const params = new URLSearchParams(window.location.search);
       const poolParam = params.get('pool');
+      console.log('🚨 Pool param in URL:', poolParam);
       
       // Check if we're navigating away from pool detail view
       if (!poolParam && currentView === 'pool-detail') {
+        console.log('🚨 Navigating back to search from pool detail');
         setCurrentView('search');
         setDetailPool(null);
       }
@@ -754,7 +760,7 @@ function App() {
     // Only add popstate listener, don't call handler on mount since initial URL parsing handles that
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
-  }, []);
+  }, [currentView, detailPool]);
   // Background fetch pools data after UI loads
   useEffect(() => {
     const fetchPoolsInBackground = async () => {
