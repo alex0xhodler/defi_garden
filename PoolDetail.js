@@ -448,23 +448,6 @@ function PoolDetail({
                 }
                 window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
               },
-              style: {
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '8px',
-                padding: '14px 28px',
-                background: 'var(--color-primary)',
-                color: 'white',
-                border: 'none',
-                borderRadius: '12px',
-                fontSize: 'var(--font-size-base)',
-                fontWeight: 'var(--font-weight-bold)',
-                cursor: 'pointer',
-                transition: 'all 0.3s ease',
-                boxShadow: 'var(--neuro-shadow-raised)',
-                position: 'relative',
-                overflow: 'hidden'
-              }
             },
               React.createElement('span', null, t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`),
               React.createElement('span', {
