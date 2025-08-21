@@ -1239,6 +1239,16 @@ body {
   grid-template-columns: 1fr;
 }
 
+/* Desktop: 3 cards per row (1024px and up) */
+@media (min-width: 1024px) {
+  .pools-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-16);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 .pool-card {
   background: var(--color-background);
   border-radius: 20px;
@@ -1252,6 +1262,16 @@ body {
   min-height: 240px;
 }
 
+/* Compact desktop cards */
+@media (min-width: 1024px) {
+  .pool-card {
+    padding: var(--space-16);
+    border-radius: 16px;
+    min-height: 200px;
+    max-height: 280px;
+  }
+}
+
 .pool-card.clickable {
   cursor: pointer;
 }
@@ -1259,6 +1279,14 @@ body {
 .pool-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(16, 185, 129, 0.15);
+}
+
+/* Reduced hover effect for desktop compact cards */
+@media (min-width: 1024px) {
+  .pool-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--neuro-shadow-raised), 0 4px 15px rgba(16, 185, 129, 0.12);
+  }
 }
 
 .pool-card:hover .pool-apy-hero {
@@ -1300,6 +1328,13 @@ body {
   margin-bottom: var(--space-16);
 }
 
+/* Compact header for desktop */
+@media (min-width: 1024px) {
+  .pool-header {
+    margin-bottom: var(--space-12);
+  }
+}
+
 .pool-project {
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-semibold);
@@ -1308,6 +1343,14 @@ body {
   display: flex;
   align-items: center;
   gap: var(--space-8);
+}
+
+/* Smaller project text for desktop compact cards */
+@media (min-width: 1024px) {
+  .pool-project {
+    font-size: var(--font-size-base);
+    gap: var(--space-4);
+  }
 }
 
 .external-link {
@@ -1820,6 +1863,44 @@ html {
   outline-offset: 2px;
 }
 
+/* APY-based color coding for compact cards */
+@media (min-width: 1024px) {
+  /* High yield pools (15%+) */
+  .pool-apy-hero.high-yield {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-forest));
+    color: white;
+  }
+  
+  /* Medium yield pools (5-15%) */
+  .pool-apy-hero.medium-yield {
+    background: var(--color-primary);
+    color: white;
+  }
+  
+  /* Low yield pools (<5%) */
+  .pool-apy-hero.low-yield {
+    background: var(--color-background);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+  }
+  
+  /* Enhanced TVL section for compact display */
+  .pool-tvl-section {
+    background: var(--color-background);
+    padding: var(--space-6) var(--space-8);
+    border-radius: 8px;
+    box-shadow: var(--neuro-shadow-subtle);
+    margin-bottom: var(--space-8);
+    text-align: center;
+  }
+  
+  .tvl-value {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text);
+  }
+}
+
 /* Custom scrollbar for autocomplete */
 .autocomplete-dropdown::-webkit-scrollbar {
   width: 8px;
@@ -1850,6 +1931,14 @@ html {
   border-top: 1px solid rgba(16, 185, 129, 0.1);
 }
 
+/* Compact footer for desktop cards */
+@media (min-width: 1024px) {
+  .pool-footer {
+    margin-top: var(--space-12);
+    padding-top: var(--space-12);
+  }
+}
+
 /* New Optimized Pool Card Layout */
 
 /* Header Section - Symbol + Protocol + APY */
@@ -1857,7 +1946,15 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: var(--space-16);
+  margin-bottom: var(--space-20);
+  position: relative;
+}
+
+/* Compact new header for desktop */
+@media (min-width: 1024px) {
+  .pool-header-new {
+    margin-bottom: var(--space-12);
+  }
 }
 
 .pool-left-section {
@@ -1867,20 +1964,46 @@ html {
 }
 
 .pool-symbol {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-black);
   color: var(--color-text);
-  font-family: monospace;
+  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: var(--space-2);
   transition: all 0.2s ease;
 }
 
+/* Adjust symbol size for compact desktop cards */
+@media (min-width: 1024px) {
+  .pool-symbol {
+    font-size: var(--font-size-lg);
+  }
+}
+
 .pool-context-inline {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0;
+  gap: var(--space-4);
+  opacity: 0.8;
+}
+
+/* Smaller context text for desktop compact cards */
+@media (min-width: 1024px) {
+  .pool-context-inline {
+    font-size: var(--font-size-xs);
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }
 
 .pool-apy-section {
@@ -1891,27 +2014,309 @@ html {
   text-align: right;
 }
 
+/* Compact APY section for desktop */
+@media (min-width: 1024px) {
+  .pool-apy-section {
+    gap: var(--space-1);
+  }
+}
+
+/* Enhanced APY hero styling with shimmer effect */
+.pool-apy-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  transition: left 0.6s ease;
+}
+
+.pool-card:hover .pool-apy-hero::before {
+  left: 100%;
+}
+
+/* Protocol chain badge styling */
+.pool-context-inline::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-secondary-green);
+  margin-right: var(--space-2);
+}
+
+/* Enhanced trustworthiness indicators */
+.pool-left-section::after {
+  content: attr(data-pool-type);
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: var(--color-primary);
+  color: white;
+  font-size: 10px;
+  font-weight: var(--font-weight-bold);
+  padding: var(--space-1) var(--space-4);
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+.pool-card:hover .pool-left-section::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Risk assessment visual indicators */
+.pool-card[data-risk-level="low"]::before {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary-green));
+}
+
+.pool-card[data-risk-level="medium"]::before {
+  background: linear-gradient(90deg, #f59e0b, #eab308);
+}
+
+.pool-card[data-risk-level="high"]::before {
+  background: linear-gradient(90deg, #ef4444, #dc2626);
+}
+
+/* TVL confidence indicators */
+.pool-tvl-section[data-tvl-tier="large"] {
+  border-left-color: var(--color-primary);
+  border-left-width: 4px;
+}
+
+.pool-tvl-section[data-tvl-tier="medium"] {
+  border-left-color: #f59e0b;
+  border-left-width: 3px;
+}
+
+.pool-tvl-section[data-tvl-tier="small"] {
+  border-left-color: #6b7280;
+  border-left-width: 2px;
+}
+
+/* Enhanced typography hierarchy for financial data */
 .pool-apy-hero {
-  font-size: var(--font-size-2xl);
+  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  font-feature-settings: 'tnum' 1, 'kern' 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.tvl-value,
+.pool-apy-preview {
+  font-feature-settings: 'tnum' 1, 'kern' 1;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .pool-apy-hero::before,
+  .calculate-yield-btn-new::before {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* Focus states for accessibility */
+.pool-card:focus-within {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.calculate-yield-btn-new:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/* Enhanced TVL section styling with horizontal layout */
+.pool-tvl-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(16, 185, 129, 0.02);
+  border: 1px solid rgba(16, 185, 129, 0.08);
+  border-left: 3px solid var(--color-primary);
+  padding: var(--space-8) var(--space-12);
+  border-radius: 10px;
+  margin: var(--space-12) 0;
+  transition: all 0.3s ease;
+}
+
+.pool-tvl-section:hover {
+  background: rgba(16, 185, 129, 0.04);
+  border-left-color: var(--color-forest);
+}
+
+.tvl-label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.tvl-value {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-black);
+  color: var(--color-text);
+  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* TVL tier-based border styling */
+.pool-tvl-section[data-tvl-tier="large"] {
+  border-left-color: #10b981;
+  border-left-width: 4px;
+}
+
+.pool-tvl-section[data-tvl-tier="medium"] {
+  border-left-color: #f59e0b;
+  border-left-width: 3px;
+}
+
+.pool-tvl-section[data-tvl-tier="small"] {
+  border-left-color: #6b7280;
+  border-left-width: 2px;
+}
+
+/* Daily earnings preview enhancement */
+.pool-apy-preview {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-secondary);
+  background: rgba(16, 185, 129, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0.1);
+  padding: var(--space-4) var(--space-8);
+  border-radius: 8px;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+  margin-top: var(--space-2);
+}
+
+.pool-card:hover .pool-apy-preview {
+  background: rgba(16, 185, 129, 0.08);
+  opacity: 1;
+  color: var(--color-primary);
+}
+
+/* Risk-based top border indicators */
+.pool-card[data-risk="low"]::before {
+  background: linear-gradient(90deg, #10b981, #34d399);
+}
+
+.pool-card[data-risk="medium"]::before {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+}
+
+.pool-card[data-risk="high"]::before {
+  background: linear-gradient(90deg, #ef4444, #f87171);
+}
+
+/* Enhanced button styling for Calculate Yield */
+.calculate-yield-btn-new {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-forest) 100%);
+  color: white;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  font-size: var(--font-size-sm);
+  padding: var(--space-10) var(--space-20);
+  border-radius: 12px;
+  border: none;
+  box-shadow: 
+    0 4px 12px rgba(16, 185, 129, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  margin-top: var(--space-8);
+}
+
+.calculate-yield-btn-new::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+  transition: left 0.5s ease;
+}
+
+.calculate-yield-btn-new:hover::before {
+  left: 100%;
+}
+
+.calculate-yield-btn-new:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 
+    0 8px 25px rgba(16, 185, 129, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.calculate-yield-btn-new:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.pool-apy-hero {
+  font-size: var(--font-size-3xl);
   font-weight: var(--font-weight-black);
   color: var(--color-primary);
-  background: var(--color-background);
-  padding: var(--space-8) var(--space-16);
-  border-radius: 12px;
-  box-shadow: var(--neuro-shadow-pressed);
+  background: linear-gradient(135deg, var(--color-background) 0%, rgba(16, 185, 129, 0.03) 100%);
+  padding: var(--space-12) var(--space-20);
+  border-radius: 16px;
+  box-shadow: var(--neuro-shadow-pressed), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
-  line-height: 1;
+  line-height: 0.9;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Smaller APY display for desktop compact cards */
+@media (min-width: 1024px) {
+  .pool-apy-hero {
+    font-size: var(--font-size-xl);
+    padding: var(--space-6) var(--space-12);
+    border-radius: 10px;
+  }
 }
 
 .pool-apy-preview {
   font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  font-weight: var(--font-weight-medium);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
   opacity: 0.8;
   transition: all 0.3s ease;
   line-height: 1;
-  padding-right: var(--space-16);
+  padding: var(--space-2) var(--space-8);
   text-align: right;
+  background: rgba(16, 185, 129, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  margin-right: var(--space-8);
+}
+
+/* Adjust preview text for desktop compact cards */
+@media (min-width: 1024px) {
+  .pool-apy-preview {
+    font-size: var(--font-size-xs);
+    padding-right: var(--space-12);
+  }
 }
 
 /* Context Bar - Protocol + Chain */
@@ -1922,6 +2327,15 @@ html {
   margin-bottom: var(--space-20);
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
+}
+
+/* Compact context section for desktop */
+@media (min-width: 1024px) {
+  .pool-context {
+    margin-bottom: var(--space-12);
+    gap: var(--space-6);
+    font-size: var(--font-size-xs);
+  }
 }
 
 .pool-protocol {
@@ -1949,31 +2363,33 @@ html {
 /* TVL Section */
 .pool-tvl-section {
   background: var(--color-background);
-  padding: var(--space-8);
+  padding: var(--space-10) var(--space-12);
   border-radius: 12px;
   box-shadow: var(--neuro-shadow-subtle);
   margin-bottom: var(--space-16);
-  text-align: center;
   transition: all 0.3s ease;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  border-left: 3px solid var(--color-secondary-green);
 }
 
 .tvl-label {
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-bold);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: var(--space-4);
+  letter-spacing: 0.08em;
+  margin: 0;
 }
 
 .tvl-value {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-black);
   color: var(--color-text);
+  margin: 0;
+  line-height: 1;
+  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
 }
 
 /* Progressive Disclosure - APY Breakdown */
@@ -2027,27 +2443,50 @@ html {
   width: 100%;
   padding: var(--space-16) var(--space-24);
   border: none;
-  background: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-forest) 100%);
   color: white;
   border-radius: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: var(--neuro-shadow-subtle), 0 4px 15px rgba(16, 185, 129, 0.25);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.05em;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Button shimmer effect */
+.calculate-yield-btn-new::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 100%
+  );
+  transition: left 0.6s ease;
 }
 
 .calculate-yield-btn-new:hover {
-  background: var(--color-forest);
-  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(16, 185, 129, 0.25);
-  transform: translateY(-2px);
+  background: linear-gradient(135deg, var(--color-forest) 0%, var(--color-primary) 100%);
+  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(16, 185, 129, 0.4);
+  transform: translateY(-3px);
+}
+
+.calculate-yield-btn-new:hover::before {
+  left: 100%;
 }
 
 .calculate-yield-btn-new:active {
   box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(0);
+  transform: translateY(-1px);
 }
 
 /* Legacy button styles for backwards compatibility */
@@ -2285,29 +2724,34 @@ html {
 .start-earning-btn {
   padding: var(--space-16) var(--space-32);
   border: none;
-  background: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-forest) 100%);
   color: white;
   border-radius: 16px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: 
+    0 4px 12px rgba(16, 185, 129, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.025em;
 }
 
 .start-earning-btn:hover {
-  background: var(--color-forest);
-  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(16, 185, 129, 0.3);
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 
+    0 8px 25px rgba(16, 185, 129, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .start-earning-btn:active {
-  box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(0);
+  transform: translateY(0) scale(0.98);
+  box-shadow: 
+    0 4px 8px rgba(16, 185, 129, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .start-earning-btn::before {
@@ -2317,8 +2761,8 @@ html {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.5s;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+  transition: left 0.5s ease;
 }
 
 .start-earning-btn:hover::before {
@@ -2672,20 +3116,46 @@ html {
 }
 
 .search-button.feeling-degen {
-  background: linear-gradient(135deg, var(--color-primary), var(--color-teal-600));
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-forest) 100%);
   color: white;
-  box-shadow: var(--neuro-shadow-raised), 0 4px 15px rgba(33, 128, 141, 0.3);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  box-shadow: 
+    0 4px 12px rgba(16, 185, 129, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.search-button.feeling-degen::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+  transition: left 0.5s ease;
+}
+
+.search-button.feeling-degen:hover::before {
+  left: 100%;
 }
 
 .search-button.feeling-degen:hover {
-  background: linear-gradient(135deg, var(--color-teal-600), var(--color-teal-700));
-  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(33, 128, 141, 0.4);
-  transform: translateY(-3px);
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 
+    0 8px 25px rgba(16, 185, 129, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .search-button.feeling-degen:active {
-  box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(0);
+  transform: translateY(0) scale(0.98);
+  box-shadow: 
+    0 4px 8px rgba(16, 185, 129, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .button-icon {

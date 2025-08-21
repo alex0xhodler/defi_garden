@@ -609,7 +609,7 @@ function App() {
   const t = createTranslationFunction(language);
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
-  const itemsPerPage = 10;
+  const itemsPerPage = 9;
 
   // URL parameter utilities
   const getUrlParams = () => {
