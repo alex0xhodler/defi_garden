@@ -754,7 +754,7 @@ function App() {
     // Only add popstate listener, don't call handler on mount since initial URL parsing handles that
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
-  }, []);
+  }, [currentView, detailPool]);
   // Background fetch pools data after UI loads
   useEffect(() => {
     const fetchPoolsInBackground = async () => {
@@ -781,7 +781,7 @@ function App() {
 
   // Handle pool detail URL parameter after pools are loaded
   useEffect(() => {
-    if (pools.length > 0 && !detailPool) {
+    if (pools.length > 0 && !detailPool && currentView !== 'pool-detail') {
       const urlParams = getUrlParams();
       if (urlParams.pool) {
         // Find the pool by ID
@@ -797,7 +797,7 @@ function App() {
         }
       }
     }
-  }, [pools, detailPool]);
+  }, [pools, detailPool, currentView]);
 
   // Background fetch protocols data after UI loads
   useEffect(() => {
@@ -1155,11 +1155,8 @@ function App() {
 
   // Filter and sort pools when token, chain, TVL, or APY selection changes
   useEffect(() => {
-    console.log('Filter effect running - currentView:', currentView, 'selectedToken:', selectedToken, 'chainMode:', chainMode, 'selectedChain:', selectedChain);
-    
     // Don't run filtering logic when in pool detail view
     if (currentView === 'pool-detail') {
-      console.log('Skipping filter effect - in pool detail view');
       return;
     }
     
@@ -1565,23 +1562,29 @@ function App() {
 
   // Handle navigation back from pool detail view
   const handleBackFromDetail = () => {
-    setCurrentView('search');
-    setDetailPool(null);
-    
-    // Remove pool parameter from URL
+    // Remove pool parameter from URL first
     const params = new URLSearchParams(window.location.search);
     params.delete('pool');
     const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
     window.history.pushState({}, '', newUrl);
     
-    // Restore previous title
-    if (chainMode && selectedChain && !selectedToken) {
-      document.title = `${selectedChain} DeFi Yields | DeFi Garden 🌱`;
-    } else if (selectedToken) {
-      document.title = `${selectedToken.toUpperCase()} Yields | DeFi Garden 🌱`;
-    } else {
-      document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
-    }
+    // Then update the state - React will batch these
+    setCurrentView('search');
+    setDetailPool(null);
+    
+    // Restore previous title and scroll position
+    setTimeout(() => {
+      if (chainMode && selectedChain && !selectedToken) {
+        document.title = `${selectedChain} DeFi Yields | DeFi Garden 🌱`;
+      } else if (selectedToken) {
+        document.title = `${selectedToken.toUpperCase()} Yields | DeFi Garden 🌱`;
+      } else {
+        document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
+      }
+      
+      // Ensure we scroll back to the top of search results
+      window.scrollTo(0, 0);
+    }, 0);
   };
 
   // Handle yield calculator - navigate to pool details page
@@ -1662,18 +1665,9 @@ function App() {
   // Always render UI immediately - no blocking loading state
 
   // Add debug logging for pool detail view state
-  console.log('App render - currentView:', currentView, 'detailPool:', detailPool ? detailPool.symbol : 'null');
-  
-  // Add a timer to check state after component should disappear
-  if (currentView === 'pool-detail' && detailPool) {
-    setTimeout(() => {
-      console.log('After 2 seconds - currentView:', currentView, 'detailPool:', detailPool ? detailPool.symbol : 'null');
-    }, 2000);
-  }
 
   // Render Pool Detail View if active
   if (currentView === 'pool-detail' && detailPool) {
-    console.log('Rendering pool detail view for:', detailPool.symbol);
     return React.createElement('div', { className: 'app pool-detail-view' },
       // Theme Toggle
       React.createElement('button', {
