@@ -1654,7 +1654,7 @@ function App() {
     // Simple pool view tracking
     Analytics.trackPoolView(pool, {
       position: position,
-      search_query: selectedToken || selectedChain || null,
+      search_query: selectedToken || selectedChain || 'browse',
       selected_chain: selectedChain,
       selected_token: selectedToken
     });
