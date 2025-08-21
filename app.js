@@ -1565,8 +1565,8 @@ function App() {
 
   // Handle navigation back from pool detail view
   const handleBackFromDetail = () => {
-    console.log('handleBackFromDetail called - before state changes');
-    console.log('currentView before:', currentView, 'detailPool before:', detailPool ? detailPool.symbol : 'null');
+    console.log('🔥 handleBackFromDetail called - before state changes');
+    console.log('🔥 currentView before:', currentView, 'detailPool before:', detailPool ? detailPool.symbol : 'null');
     
     // Remove pool parameter from URL first
     const params = new URLSearchParams(window.location.search);
