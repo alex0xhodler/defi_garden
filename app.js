@@ -881,7 +881,7 @@ function App() {
       if (currentView === 'pool-detail') return;
       
       // Get search results count
-      const resultsCount = autocompleteTokens.length;
+      const resultsCount = autocompleteTokens ? autocompleteTokens.length : 0;
       
       // Track the actual search input
       Analytics.trackSearchInput(debouncedSearchInput, resultsCount, {
@@ -1083,6 +1083,11 @@ function App() {
     const exactMatches = [];
     const startsWith = [];
     const contains = [];
+    
+    // Safety check for availableTokens
+    if (!availableTokens || availableTokens.length === 0) {
+      return [];
+    }
     
     availableTokens.forEach(token => {
       if (token === searchTerm) {
@@ -1426,15 +1431,15 @@ function App() {
     setChainMode(false); // Switch to token-first mode
     
     // Analytics tracking for successful search
-    Analytics.trackSearchSuccess(searchInput, token, autocompleteTokens.length, {
+    Analytics.trackSearchSuccess(searchInput, token, autocompleteTokens ? autocompleteTokens.length : 0, {
       chainMode: false,
       language,
       searchStartTime: Analytics.lastEventTime,
-      position: autocompleteTokens.indexOf(token)
+      position: autocompleteTokens ? autocompleteTokens.indexOf(token) : -1
     });
     
     // Track autocomplete selection if it came from autocomplete
-    if (showAutocomplete && autocompleteTokens.includes(token)) {
+    if (showAutocomplete && autocompleteTokens && autocompleteTokens.includes(token)) {
       Analytics.trackAutocomplete('select', searchInput, token, autocompleteTokens.indexOf(token));
     }
     
@@ -1482,7 +1487,7 @@ function App() {
     if (previousValue && previousValue.length > 2 && 
         (value.length === 0 || (previousValue.length > value.length + 2))) {
       Analytics.trackSearchAbandonment(previousValue, Date.now() - Analytics.lastEventTime, {
-        resultsCount: autocompleteTokens.length,
+        resultsCount: autocompleteTokens ? autocompleteTokens.length : 0,
         language
       });
     }
