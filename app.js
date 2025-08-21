@@ -1,5 +1,8 @@
 const { useState, useEffect, useMemo } = React;
 
+// Import translation system (script tag will load translations.js before app.js)
+// translations, formatKoreanCurrency, detectUserLanguage, createTranslationFunction are available globally
+
 // Pool type categorization
 const LENDING_PROTOCOLS = [
   'aave', 'aave-v2', 'aave-v3', 'compound', 'compound-v2', 'compound-v3',
@@ -579,6 +582,32 @@ function App() {
   const [currentView, setCurrentView] = useState('search'); // 'search' or 'pool-detail'
   const [detailPool, setDetailPool] = useState(null); // Pool being viewed in detail
 
+  // Language state management
+  const [language, setLanguage] = useState(() => {
+    // Check for saved language preference first
+    const savedLang = localStorage.getItem('defi-garden-lang');
+    if (savedLang && ['en', 'ko'].includes(savedLang)) {
+      return savedLang;
+    }
+    
+    // Check URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get('lang');
+    if (langParam && ['en', 'ko'].includes(langParam)) {
+      return langParam;
+    }
+    
+    // Auto-detect browser language
+    const browserLang = navigator.language.toLowerCase();
+    if (browserLang.startsWith('ko')) {
+      return 'ko';
+    }
+    return 'en';
+  });
+
+  // Create translation function for current language
+  const t = createTranslationFunction(language);
+
   const debouncedSearchInput = useDebounce(searchInput, 300);
   const itemsPerPage = 10;
 
@@ -607,17 +636,37 @@ function App() {
     if (minTvl > 0) params.set('minTvl', minTvl.toString());
     if (minApy > 0) params.set('minApy', minApy.toString());
     
+    // Add language parameter if not English (default)
+    if (language !== 'en') {
+      params.set('lang', language);
+    }
+    
     const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
     window.history.pushState({}, '', newUrl);
     
-    // Update page title - prioritize chain-first mode
+    // Update page title with localized text
     if (chain && chainMode && !token) {
-      document.title = `${chain} DeFi Yields | DeFi Garden 🌱`;
+      document.title = t('chainPageTitle', chain);
     } else if (token) {
-      document.title = `${token.toUpperCase()} Yields | DeFi Garden 🌱`;
+      document.title = t('tokenPageTitle', token);
     } else {
-      document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
+      document.title = t('pageTitle');
     }
+  };
+
+  // Language management functions
+  const changeLanguage = (newLang) => {
+    setLanguage(newLang);
+    localStorage.setItem('defi-garden-lang', newLang);
+    
+    // Update URL with new language
+    const url = new URL(window.location);
+    if (newLang === 'en') {
+      url.searchParams.delete('lang');
+    } else {
+      url.searchParams.set('lang', newLang);
+    }
+    window.history.replaceState({}, '', url);
   };
 
   // Initialize state from URL parameters on mount
@@ -826,6 +875,31 @@ function App() {
     mediaQuery.addEventListener('change', handleChange);
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);
+
+  // Language management effect
+  useEffect(() => {
+    // Apply language to document root
+    document.documentElement.lang = language;
+    
+    // Update page title with localized text
+    if (chainMode && selectedChain && !selectedToken) {
+      document.title = t('chainPageTitle', selectedChain);
+    } else if (selectedToken) {
+      document.title = t('tokenPageTitle', selectedToken);
+    } else {
+      document.title = t('pageTitle');
+    }
+    
+    // Update meta description
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      metaDesc.content = t('metaDescription');
+    }
+    
+    // Add body class for language-specific styling
+    document.body.className = document.body.className.replace(/lang-\w+/g, '');
+    document.body.classList.add(`lang-${language}`);
+  }, [language, selectedToken, selectedChain, chainMode, t]);
 
   // Toggle theme function
   const toggleTheme = () => {
@@ -1618,6 +1692,13 @@ function App() {
           isDarkMode ? 'Light' : 'Dark'
         )
       ),
+
+      // Language Toggle  
+      React.createElement('button', {
+        className: 'language-toggle',
+        onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
+        'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
+      }, language === 'en' ? 'KO' : 'EN'),
       
       React.createElement('div', { className: 'container' },
         React.createElement(PoolDetail, {
@@ -1629,7 +1710,8 @@ function App() {
           formatAPY: formatAPY,
           getProtocolUrl: getProtocolUrl,
           getProtocolUrlWithRef: getProtocolUrlWithRef,
-          isDarkMode: isDarkMode
+          isDarkMode: isDarkMode,
+          t: t
         })
       ),
       
@@ -1668,6 +1750,14 @@ function App() {
         isDarkMode ? 'Light' : 'Dark'
       )
     ),
+
+    // Language Toggle
+    React.createElement('button', {
+      className: 'language-toggle', 
+      onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
+      'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
+    }, language === 'en' ? 'KO' : 'EN'),
+
     React.createElement('div', { className: 'container' },
       // Header
       React.createElement('div', { 
@@ -1691,7 +1781,7 @@ function App() {
           React.createElement('input', {
             type: 'text',
             className: 'search-input',
-            placeholder: 'Search for a token...',
+            placeholder: t('searchPlaceholder'),
             value: searchInput,
             onChange: handleSearchInputChange,
             onKeyDown: handleKeyDown,
@@ -1727,7 +1817,7 @@ function App() {
               disabled: searchInput.length === 0
             }, 
               React.createElement('span', { className: 'button-icon' }, '🔍'),
-              React.createElement('span', { className: 'button-text' }, 'Token Search')
+              React.createElement('span', { className: 'button-text' }, t('tokenSearch'))
             ),
             React.createElement('button', {
               className: 'search-button feeling-degen',
@@ -1736,7 +1826,7 @@ function App() {
               }
             },
               React.createElement('span', { className: 'button-icon' }, '🚀'),
-              React.createElement('span', { className: 'button-text' }, 'I\'m Feeling Degen')
+              React.createElement('span', { className: 'button-text' }, t('feelingDegen'))
             )
           )
         )
@@ -1754,14 +1844,14 @@ function App() {
           // Chain Pills Filter - Single Horizontal Row
           availableChains.length > 1 && React.createElement('div', { className: 'filter-section' },
             React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, 'Chains')
+              React.createElement('label', { className: 'filter-label' }, t('chains'))
             ),
             React.createElement('div', { className: 'filter-row' },
               React.createElement('div', { className: 'filter-pills-container' },
                 React.createElement('button', {
                   className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
                   onClick: () => setSelectedChain('')
-                }, 'All Chains'),
+                }, t('allChains')),
                 availableChains.map(chain => 
                   React.createElement('button', {
                     key: chain,
@@ -1779,7 +1869,7 @@ function App() {
           // Protocols Filter Row - only show when protocols are available
           availableProtocols.all.length > 0 && React.createElement('div', { className: 'filter-section' },
             React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, 'Protocols')
+              React.createElement('label', { className: 'filter-label' }, t('protocols'))
             ),
             React.createElement('div', { className: 'filter-row' },
               React.createElement('div', { className: 'filter-pills-container' },
@@ -1790,13 +1880,13 @@ function App() {
                     selectedProtocols.length === availableProtocols.popular.length ? 'active' : ''
                   }`,
                   onClick: handlePopularProtocols
-                }, 'Popular'),
+                }, t('popular')),
                 
                 // All protocols button
                 React.createElement('button', {
                   className: `filter-pill protocol-pill ${selectedProtocols.length === 0 ? 'active' : ''}`,
                   onClick: () => setSelectedProtocols([])
-                }, 'All Protocols'),
+                }, t('allProtocols')),
                 
                 // Individual protocol pills (show top 10 to avoid overcrowding)
                 availableProtocols.all.slice(0, 10).map(protocol => 
@@ -1816,7 +1906,7 @@ function App() {
           // Pool Type Buttons - Single Horizontal Row
           React.createElement('div', { className: 'filter-section' },
             React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, 'Pool Types')
+              React.createElement('label', { className: 'filter-label' }, t('poolTypes'))
             ),
             React.createElement('div', { className: 'filter-row' },
               React.createElement('div', { className: 'filter-buttons-group' },
@@ -1837,12 +1927,12 @@ function App() {
           // TVL Filter Row
           React.createElement('div', { className: 'filter-section' },
             React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, 'Minimum TVL')
+              React.createElement('label', { className: 'filter-label' }, t('minTvl'))
             ),
             React.createElement('div', { className: 'filter-row' },
               React.createElement('div', { className: 'filter-chips-container' },
                 [
-                  { value: 0, label: 'No Min' },
+                  { value: 0, label: t('noMin') },
                   { value: 10000, label: '$10K+' },
                   { value: 100000, label: '$100K+' },
                   { value: 1000000, label: '$1M+' },
@@ -1861,12 +1951,12 @@ function App() {
           // APY Filter Row
           React.createElement('div', { className: 'filter-section' },
             React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, 'Minimum APY')
+              React.createElement('label', { className: 'filter-label' }, t('minApy'))
             ),
             React.createElement('div', { className: 'filter-row' },
               React.createElement('div', { className: 'filter-chips-container' },
                 [
-                  { value: 0, label: 'No Min' },
+                  { value: 0, label: t('noMin') },
                   { value: 1, label: '1%+' },
                   { value: 5, label: '5%+' },
                   { value: 10, label: '10%+' },
@@ -1890,11 +1980,11 @@ function App() {
           React.createElement('div', { className: 'results-header', key: 'header' },
             React.createElement('h2', { className: 'results-title' },
               chainMode && selectedChain && !selectedToken
-                ? `${selectedChain} DeFi Yields`
-                : `Yields for ${selectedToken}${selectedChain ? ` on ${selectedChain}` : ''}`
+                ? t('chainYields', selectedChain)
+                : t('tokenYields', selectedToken, selectedChain)
             ),
             React.createElement('div', { className: 'results-count' },
-              `${filteredPools.length} pool${filteredPools.length !== 1 ? 's' : ''} found`
+              t('showingResults', filteredPools.length)
             )
           ),
 
@@ -1914,7 +2004,7 @@ function App() {
                       pool.symbol
                     ),
                     React.createElement('div', { className: 'pool-context-inline' },
-                      `on ${pool.project} • ${pool.chain}${protocolUrl ? ' ↗' : ''}`
+                      t('onProtocolChain', pool.project, pool.chain, protocolUrl)
                     )
                   ),
                   React.createElement('div', { className: 'pool-apy-section' },
@@ -1929,7 +2019,7 @@ function App() {
                 
                 // TVL prominent display 
                 React.createElement('div', { className: 'pool-tvl-section' },
-                  React.createElement('div', { className: 'tvl-label' }, 'TVL'),
+                  React.createElement('div', { className: 'tvl-label' }, t('tvl')),
                   React.createElement('div', { className: 'tvl-value' },
                     formatCurrency(pool.tvlUsd)
                   )
@@ -1938,11 +2028,11 @@ function App() {
                 // Progressive disclosure for APY breakdown (only show when BOTH Base and Reward APY exist)
                 (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', { className: 'pool-details-expanded' },
                   pool.apyBase > 0 && React.createElement('div', { className: 'apy-breakdown' },
-                    React.createElement('span', { className: 'breakdown-label' }, 'Base APY:'),
+                    React.createElement('span', { className: 'breakdown-label' }, t('baseApy')),
                     React.createElement('span', { className: 'breakdown-value' }, `${pool.apyBase.toFixed(2)}%`)
                   ),
                   pool.apyReward > 0 && React.createElement('div', { className: 'apy-breakdown' },
-                    React.createElement('span', { className: 'breakdown-label' }, 'Reward APY:'),
+                    React.createElement('span', { className: 'breakdown-label' }, t('rewardApy')),
                     React.createElement('span', { className: 'breakdown-value' }, `${pool.apyReward.toFixed(2)}%`)
                   )
                 ),
@@ -1952,7 +2042,7 @@ function App() {
                   React.createElement('button', {
                     className: 'calculate-yield-btn-new',
                     onClick: (e) => handleCalculateYield(pool, e)
-                  }, 'Calculate Yield')
+                  }, t('calculateYield'))
                 )
               );
             })
@@ -1979,18 +2069,18 @@ function App() {
         ] : React.createElement('div', { className: 'empty-state' },
           React.createElement('div', { className: 'empty-message' }, 
             chainMode && selectedChain && !selectedToken
-              ? `No yields found on ${selectedChain} with current filters`
-              : `No yields found for ${selectedToken}`
+              ? t('noYieldsFoundChain', selectedChain)
+              : t('noYieldsFound', selectedToken)
           ),
           React.createElement('div', { className: 'empty-submessage' },
             chainMode && selectedChain && !selectedToken
-              ? 'Try adjusting your TVL or APY filters, or select a different chain'
-              : 'Try adjusting your filters or searching for a different token'
+              ? t('adjustFiltersChain')
+              : t('adjustFilters')
           ),
           React.createElement('button', {
             className: 'reset-filters-btn',
             onClick: resetApp
-          }, 'Reset Filters')
+          }, t('resetFilters'))
         )
       ),
 
