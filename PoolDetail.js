@@ -24,14 +24,7 @@ function PoolDetail({
       React.createElement('p', null, 'No pool selected'),
       React.createElement('button', { 
         className: 'back-button',
-        onClick: (e) => {
-          console.log('Back button clicked!', e);
-          if (onBack) {
-            onBack();
-          } else {
-            console.error('onBack is not defined!');
-          }
-        }
+        onClick: onBack 
       }, t ? t('backToSearch') : '← Back to Search')
     );
   }
@@ -203,14 +196,7 @@ function PoolDetail({
             cursor: 'pointer',
             transition: 'color 0.2s ease'
           },
-          onClick: (e) => {
-            console.log('Breadcrumb Search Results clicked!', e);
-            if (onBack) {
-              onBack();
-            } else {
-              console.error('onBack is not defined in breadcrumb!');
-            }
-          },
+          onClick: onBack,
           onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
           onMouseLeave: (e) => e.target.style.color = 'var(--color-text-secondary)'
         }, 'Search Results'),
