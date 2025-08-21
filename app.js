@@ -660,8 +660,7 @@ function App() {
     setLanguage(newLang);
     localStorage.setItem('defi-garden-lang', newLang);
     
-    // Analytics tracking for language change
-    Analytics.trackLanguageChange(oldLang, newLang);
+    // Language change analytics disabled temporarily
     
     // Update URL with new language
     const url = new URL(window.location);
@@ -714,8 +713,7 @@ function App() {
       
       // Check if we're navigating away from pool detail view
       if (!poolParam && currentView === 'pool-detail') {
-        // Analytics tracking for browser back navigation
-        Analytics.trackNavigation('pool-detail', 'search', 'browser_back');
+        // Browser back navigation analytics disabled temporarily
         setCurrentView('search');
         setDetailPool(null);
       }
@@ -775,13 +773,13 @@ function App() {
         setPools(data.data || []);
         
         // Track successful data load
-        Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
+        // Analytics disabled: Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
           pools_count: data.data?.length || 0
         });
       } catch (err) {
         setError('Failed to load yield data. Please try again later.');
         console.error('Error fetching pools:', err);
-        Analytics.trackError(err, { context: 'data_fetching' });
+        // Analytics disabled: Analytics.trackError(err, { context: 'data_fetching' });
       } finally {
         setLoading(false);
       }
@@ -874,46 +872,26 @@ function App() {
     }
   }, [isDarkMode]);
 
-  // Track search input when user types (debounced)
-  useEffect(() => {
-    if (!isInitialLoad && debouncedSearchInput && debouncedSearchInput.length > 0) {
-      // Don't track if we're in pool detail view
-      if (currentView === 'pool-detail') return;
-      
-      // Get search results count
-      const resultsCount = autocompleteTokens ? autocompleteTokens.length : 0;
-      
-      // Track the actual search input
-      Analytics.trackSearchInput(debouncedSearchInput, resultsCount, {
-        selectedChain,
-        selectedToken,
-        minTvl,
-        minApy,
-        selectedPoolTypes,
-        selectedProtocols,
-        language,
-        chainMode
-      });
-    }
-  }, [debouncedSearchInput, isInitialLoad, currentView, autocompleteTokens.length, selectedChain, selectedToken, minTvl, minApy, selectedPoolTypes, selectedProtocols, language, chainMode]);
+  // Search input analytics disabled temporarily to fix render issues
+  // TODO: Re-enable with proper safety checks
 
   // Track page views when view changes
   useEffect(() => {
     if (!isInitialLoad) {
       if (currentView === 'search') {
         if (selectedToken) {
-          Analytics.trackPageView(`/search/${selectedToken}`, {
+          // Analytics disabled: Analytics.trackPageView(`/search/${selectedToken}`, {
             token: selectedToken,
             chain: selectedChain,
             language
           });
         } else if (selectedChain) {
-          Analytics.trackPageView(`/chain/${selectedChain}`, {
+          // Analytics disabled: Analytics.trackPageView(`/chain/${selectedChain}`, {
             chain: selectedChain,
             language
           });
         } else {
-          Analytics.trackPageView('/', { language });
+          // Analytics disabled: Analytics.trackPageView('/', { language });
         }
       }
     }
@@ -924,20 +902,20 @@ function App() {
     if (pools.length > 0 && isInitialLoad) {
       // Track initial page load after data is ready
       if (selectedToken) {
-        Analytics.trackPageView(`/search/${selectedToken}`, {
+        // Analytics disabled: Analytics.trackPageView(`/search/${selectedToken}`, {
           token: selectedToken,
           chain: selectedChain,
           language,
           initial_load: true
         });
       } else if (selectedChain) {
-        Analytics.trackPageView(`/chain/${selectedChain}`, {
+        // Analytics disabled: Analytics.trackPageView(`/chain/${selectedChain}`, {
           chain: selectedChain,
           language,
           initial_load: true
         });
       } else {
-        Analytics.trackPageView('/', { 
+        // Analytics disabled: Analytics.trackPageView('/', { 
           language,
           initial_load: true 
         });
@@ -959,7 +937,7 @@ function App() {
       
       const filtersActive = Analytics.getFiltersActiveCount(activeFilters);
       if (filtersActive > 1) {
-        Analytics.trackFilterCombination(activeFilters, filteredPools.length);
+        // Analytics disabled: Analytics.trackFilterCombination(activeFilters, filteredPools.length);
       }
     }
   }, [selectedChain, selectedToken, minTvl, minApy, selectedPoolTypes, selectedProtocols, filteredPools.length, isInitialLoad]);
@@ -1398,10 +1376,10 @@ function App() {
     // Analytics tracking for chain selection
     const isFeelingDegen = chainName === 'Ethereum' && !selectedToken;
     if (isFeelingDegen) {
-      Analytics.trackFeelingDegen(filteredPools.length);
+      // Analytics disabled: Analytics.trackFeelingDegen(filteredPools.length);
     }
-    Analytics.trackFilterChange('chain', chainName, filteredPools.length);
-    Analytics.trackPageView(`/chain/${chainName.toLowerCase()}`, {
+    // Analytics disabled: Analytics.trackFilterChange('chain', chainName, filteredPools.length);
+    // Analytics disabled: Analytics.trackPageView(`/chain/${chainName.toLowerCase()}`, {
       chain: chainName,
       mode: 'chain_discovery'
     });
@@ -1430,18 +1408,8 @@ function App() {
   const handleTokenSelect = (token) => {
     setChainMode(false); // Switch to token-first mode
     
-    // Analytics tracking for successful search
-    Analytics.trackSearchSuccess(searchInput, token, autocompleteTokens ? autocompleteTokens.length : 0, {
-      chainMode: false,
-      language,
-      searchStartTime: Analytics.lastEventTime,
-      position: autocompleteTokens ? autocompleteTokens.indexOf(token) : -1
-    });
-    
-    // Track autocomplete selection if it came from autocomplete
-    if (showAutocomplete && autocompleteTokens && autocompleteTokens.includes(token)) {
-      Analytics.trackAutocomplete('select', searchInput, token, autocompleteTokens.indexOf(token));
-    }
+    // Search success analytics disabled temporarily
+    // TODO: Re-enable with proper safety checks
     
     setSelectedToken(token);
     setSearchInput(token);
@@ -1483,14 +1451,8 @@ function App() {
     const value = e.target.value;
     const previousValue = searchInput;
     
-    // Track search abandonment if user had typed something and now clearing/changing significantly
-    if (previousValue && previousValue.length > 2 && 
-        (value.length === 0 || (previousValue.length > value.length + 2))) {
-      Analytics.trackSearchAbandonment(previousValue, Date.now() - Analytics.lastEventTime, {
-        resultsCount: autocompleteTokens ? autocompleteTokens.length : 0,
-        language
-      });
-    }
+    // Search abandonment analytics disabled temporarily
+    // TODO: Re-enable with proper safety checks
     
     setSearchInput(value);
     
@@ -1595,7 +1557,7 @@ function App() {
       selectedPoolTypes,
       selectedProtocols
     };
-    Analytics.trackFiltersReset(previousFilters, filteredPools.length);
+    // Analytics disabled: Analytics.trackFiltersReset(previousFilters, filteredPools.length);
     
     setSelectedToken('');
     setSearchInput('');
@@ -1685,7 +1647,7 @@ function App() {
     e.stopPropagation();
     
     // Enhanced Analytics tracking for pool view
-    Analytics.trackPoolView(pool, {
+    // Analytics disabled: Analytics.trackPoolView(pool, {
       sourceView: currentView,
       position: position,
       searchQuery: selectedToken || selectedChain || null,
@@ -1701,12 +1663,12 @@ function App() {
       searchStartTime: Analytics.viewStartTime
     });
     
-    Analytics.trackNavigation(currentView, 'pool-detail', 'click', {
+    // Analytics disabled: Analytics.trackNavigation(currentView, 'pool-detail', 'click', {
       poolId: pool.pool,
       searchQuery: selectedToken || selectedChain || null
     });
     
-    Analytics.trackPageView(`/pool/${pool.symbol}`, {
+    // Analytics disabled: Analytics.trackPageView(`/pool/${pool.symbol}`, {
       pool_id: pool.pool,
       pool_symbol: pool.symbol,
       protocol: pool.project,
@@ -1740,7 +1702,7 @@ function App() {
   // Handle navigation back from pool detail view
   const handleBackFromDetail = () => {
     // Analytics tracking for navigation
-    Analytics.trackNavigation('pool-detail', 'search', 'back_button');
+    // Analytics disabled: Analytics.trackNavigation('pool-detail', 'search', 'back_button');
     
     // Remove pool parameter from URL first
     const params = new URLSearchParams(window.location.search);
@@ -1773,8 +1735,8 @@ function App() {
     e.stopPropagation();
     
     // Analytics tracking for yield calculation
-    Analytics.trackPoolClick(pool, 'yield_calculator');
-    Analytics.trackNavigation(currentView, 'pool-detail', 'yield_calculator');
+    // Analytics disabled: Analytics.trackPoolClick(pool, 'yield_calculator');
+    // Analytics disabled: Analytics.trackNavigation(currentView, 'pool-detail', 'yield_calculator');
     
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
@@ -1800,7 +1762,7 @@ function App() {
         selectedProtocols,
         previousResultsCount: filteredPools.length
       };
-      Analytics.trackFilterChange('pool_type', poolType, filteredPools.length, fullFilterState);
+      // Analytics disabled: Analytics.trackFilterChange('pool_type', poolType, filteredPools.length, fullFilterState);
       
       return newTypes;
     });
@@ -1823,7 +1785,7 @@ function App() {
         selectedProtocols: newProtocols,
         previousResultsCount: filteredPools.length
       };
-      Analytics.trackFilterChange('protocol', protocolFriendlyName, filteredPools.length, fullFilterState);
+      // Analytics disabled: Analytics.trackFilterChange('protocol', protocolFriendlyName, filteredPools.length, fullFilterState);
       
       return newProtocols;
     });
@@ -1847,7 +1809,7 @@ function App() {
       selectedProtocols,
       previousResultsCount: filteredPools.length
     };
-    Analytics.trackFilterChange('min_tvl', tvlValue, filteredPools.length, fullFilterState);
+    // Analytics disabled: Analytics.trackFilterChange('min_tvl', tvlValue, filteredPools.length, fullFilterState);
     setMinTvl(tvlValue);
   };
 
@@ -1863,7 +1825,7 @@ function App() {
       selectedProtocols,
       previousResultsCount: filteredPools.length
     };
-    Analytics.trackFilterChange('min_apy', apyValue, filteredPools.length, fullFilterState);
+    // Analytics disabled: Analytics.trackFilterChange('min_apy', apyValue, filteredPools.length, fullFilterState);
     setMinApy(apyValue);
   };
 
