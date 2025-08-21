@@ -2478,6 +2478,89 @@ html {
   user-select: none;
 }
 
+/* Language Toggle Styles */
+.language-toggle {
+  position: fixed;
+  top: var(--space-20);
+  right: calc(var(--space-20) + 200px); /* Position next to theme toggle */
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: var(--color-background);
+  border-radius: var(--radius-full);
+  box-shadow: var(--neuro-shadow-subtle);
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  transition: all var(--duration-normal) var(--ease-standard);
+  user-select: none;
+}
+
+.language-toggle:hover {
+  box-shadow: var(--neuro-shadow-flat);
+  transform: translateY(-1px);
+  background: var(--color-surface);
+}
+
+.language-toggle:active {
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(0);
+}
+
+/* Desktop - Keep fixed positioning */
+@media (min-width: 641px) {
+  .language-toggle {
+    position: fixed;
+    top: var(--space-20);
+    right: calc(var(--space-20) + 200px);
+  }
+}
+
+/* Mobile Responsive for Language Toggle */
+@media (max-width: 640px) {
+  .language-toggle {
+    position: static;
+    margin: var(--space-16) var(--space-16) var(--space-8) 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Fix toggle position on mobile initial homepage state only */
+  .app:not(.has-results) .language-toggle {
+    position: fixed;
+    top: var(--space-20);
+    right: calc(var(--space-20) + 140px);
+    width: 40px;
+    height: 40px;
+    margin: 0;
+  }
+}
+
+/* Extra small screens - compact mobile toggle */
+@media (max-width: 480px) {
+  .language-toggle {
+    margin: var(--space-12) var(--space-12) var(--space-6) 0;
+    width: 36px;
+    height: 36px;
+    font-size: var(--font-size-xs);
+  }
+
+  /* Fix toggle position on extra small mobile initial homepage state only */
+  .app:not(.has-results) .language-toggle {
+    position: fixed;
+    top: var(--space-16);
+    right: calc(var(--space-16) + 120px);
+    width: 36px;
+    height: 36px;
+    margin: 0;
+  }
+}
+
 /* Data attribute based theme switching */
 [data-theme="dark"] {
   /* RGB versions for opacity control (Dark Mode) */
@@ -3326,7 +3409,8 @@ html {
   .logo,
   .search-input,
   .theme-toggle,
-  .theme-toggle-handle {
+  .theme-toggle-handle,
+  .language-toggle {
     animation: none !important;
     transition: none !important;
   }

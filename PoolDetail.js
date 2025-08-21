@@ -10,7 +10,8 @@ function PoolDetail({
   formatAPY,
   getProtocolUrl,
   getProtocolUrlWithRef,
-  isDarkMode 
+  isDarkMode,
+  t
 }) {
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
@@ -24,7 +25,7 @@ function PoolDetail({
       React.createElement('button', { 
         className: 'back-button',
         onClick: onBack 
-      }, '← Back to results')
+      }, t ? t('backToSearch') : '← Back to Search')
     );
   }
   
@@ -105,15 +106,15 @@ function PoolDetail({
     // Determine overall risk level
     let level, color, description;
     if (riskScore <= 25) {
-      level = 'Low';
+      level = t ? t('lowRisk') : 'Low';
       color = 'var(--color-success)';
       description = 'Conservative DeFi strategy';
     } else if (riskScore <= 50) {
-      level = 'Medium';
+      level = t ? t('mediumRisk') : 'Medium';
       color = 'var(--color-warning)';
       description = 'Moderate risk profile';
     } else {
-      level = 'High';
+      level = t ? t('highRisk') : 'High';
       color = 'var(--color-error)';
       description = 'Advanced DeFi strategy';
     }
@@ -339,7 +340,7 @@ function PoolDetail({
                 color: 'var(--color-success)',
                 boxShadow: 'var(--neuro-shadow-pressed)'
               }
-            }, '✓ Verified'),
+            }, t ? t('verified') : '✓ Verified'),
             React.createElement('div', {
               className: 'tvl-badge',
               style: {
@@ -389,7 +390,7 @@ function PoolDetail({
                 letterSpacing: '0.5px',
                 fontWeight: 'var(--font-weight-medium)'
               }
-            }, 'Total APY'),
+            }, t ? t('totalApy') : 'Total APY'),
             React.createElement('div', {
               className: 'apy-value-hero',
               style: {
@@ -413,8 +414,8 @@ function PoolDetail({
                 lineHeight: '1.3'
               }
             },
-              React.createElement('div', null, `${pool.apyBase.toFixed(1)}% Base`),
-              React.createElement('div', null, `+ ${pool.apyReward.toFixed(1)}% Rewards`)
+              React.createElement('div', null, t ? t('baseApyBreakdown', pool.apyBase.toFixed(1)) : `${pool.apyBase.toFixed(1)}% Base`),
+              React.createElement('div', null, t ? t('rewardApyBreakdown', pool.apyReward.toFixed(1)) : `+ ${pool.apyReward.toFixed(1)}% Rewards`)
             )
           ),
           
@@ -447,7 +448,7 @@ function PoolDetail({
                 overflow: 'hidden'
               }
             },
-              React.createElement('span', null, `Start Earning on ${pool.project}`),
+              React.createElement('span', null, t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`),
               React.createElement('span', {
                 className: 'arrow',
                 style: {
@@ -462,7 +463,7 @@ function PoolDetail({
                 textAlign: 'right',
                 lineHeight: '1.3'
               }
-            }, 'Opens protocol • Wallet required')
+            }, t ? t('opensProtocol') : 'Opens protocol • Wallet required')
           )
         )
       )
@@ -496,7 +497,7 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, `Daily ($${investmentAmount.toLocaleString()})`),
+        }, t ? t('dailyEarnings', investmentAmount) : `Daily ($${investmentAmount.toLocaleString()})`),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
@@ -524,7 +525,7 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, `Monthly ($${investmentAmount.toLocaleString()})`),
+        }, t ? t('monthlyEarnings', investmentAmount) : `Monthly ($${investmentAmount.toLocaleString()})`),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
@@ -557,7 +558,7 @@ function PoolDetail({
             textTransform: 'uppercase',
             letterSpacing: '0.5px'
           }
-        }, 'Risk Assessment'),
+        }, t ? t('riskAssessment') : 'Risk Assessment'),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
@@ -622,14 +623,14 @@ function PoolDetail({
                 fontWeight: 'var(--font-weight-bold)',
                 color: 'var(--color-text)'
               }
-            }, 'Calculate Your Earnings'),
+            }, t ? t('calculateYourEarnings') : 'Calculate Your Earnings'),
             React.createElement('div', {
               style: {
                 fontSize: 'var(--font-size-sm)',
                 color: 'var(--color-text-secondary)',
                 marginTop: '2px'
               }
-            }, `Quick estimate for $${investmentAmount}: $${(investmentAmount * totalApy / 365 / 100).toFixed(2)}/day`)
+            }, t ? t('quickEstimate', investmentAmount, `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}`) : `Quick estimate for $${investmentAmount}: $${(investmentAmount * totalApy / 365 / 100).toFixed(2)}/day`)
           )
         ),
         React.createElement('div', {
@@ -854,9 +855,9 @@ function PoolDetail({
               const tooltip = document.getElementById('earnings-tooltip');
               if (tooltip) tooltip.remove();
             }
-          }, activeCalculatorTab === '1day' ? 'Estimated Daily Earnings' :
-             activeCalculatorTab === '7days' ? 'Estimated Weekly Earnings' :
-             'Estimated Monthly Earnings'),
+          }, activeCalculatorTab === '1day' ? (t ? t('estimatedDailyEarnings') : 'Estimated Daily Earnings') :
+             activeCalculatorTab === '7days' ? (t ? t('estimatedEarnings') : 'Estimated Weekly Earnings') :
+             (t ? t('estimatedMonthlyEarnings') : 'Estimated Monthly Earnings')),
           React.createElement('div', {
             style: {
               fontSize: 'var(--font-size-3xl)',
@@ -877,7 +878,7 @@ function PoolDetail({
               color: 'var(--color-text-secondary)',
               fontWeight: 'var(--font-weight-medium)'
             }
-          }, `Based on $${investmentAmount.toLocaleString()} investment`)
+          }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString()} investment`)
         ),
         
       )
@@ -921,7 +922,7 @@ function PoolDetail({
               color: 'var(--color-text)',
               margin: 0
             }
-          }, 'Pool Information'),
+          }, t ? t('poolInformation') : 'Pool Information'),
           protocolUrl && React.createElement('a', {
             href: protocolUrl,
             target: '_blank',
@@ -941,7 +942,7 @@ function PoolDetail({
               boxShadow: 'var(--neuro-shadow-subtle)',
               transition: 'all 0.2s ease'
             }
-          }, 'Protocol', '↗')
+          }, t ? t('protocol') : 'Protocol↗')
         ),
         React.createElement('div', {
           className: 'pool-info-toggle',
@@ -1046,7 +1047,7 @@ function PoolDetail({
               marginBottom: '4px',
               textTransform: 'uppercase'
             }
-          }, 'Pool Type'),
+          }, t ? t('poolType') : 'Pool Type'),
           React.createElement('div', {
             style: {
               fontSize: 'var(--font-size-sm)',
@@ -1073,7 +1074,7 @@ function PoolDetail({
               marginBottom: '8px',
               fontWeight: 'var(--font-weight-medium)'
             }
-          }, 'Underlying Assets'),
+          }, t ? t('underlyingAssets') : 'Underlying Assets'),
           React.createElement('div', {
             style: {
               display: 'flex',
