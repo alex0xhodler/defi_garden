@@ -660,7 +660,8 @@ function App() {
     setLanguage(newLang);
     localStorage.setItem('defi-garden-lang', newLang);
     
-    // Language change analytics disabled temporarily
+    // Analytics tracking for language change
+    Analytics.trackLanguageChange(oldLang, newLang);
     
     // Update URL with new language
     const url = new URL(window.location);
@@ -773,13 +774,13 @@ function App() {
         setPools(data.data || []);
         
         // Track successful data load
-        // Analytics disabled: Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
+        Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
           pools_count: data.data?.length || 0
         });
       } catch (err) {
         setError('Failed to load yield data. Please try again later.');
         console.error('Error fetching pools:', err);
-        // Analytics disabled: Analytics.trackError(err, { context: 'data_fetching' });
+        Analytics.trackError(err, { context: 'data_fetching' });
       } finally {
         setLoading(false);
       }
@@ -1376,12 +1377,12 @@ function App() {
     // Analytics tracking for chain selection
     const isFeelingDegen = chainName === 'Ethereum' && !selectedToken;
     if (isFeelingDegen) {
-      // Analytics disabled: Analytics.trackFeelingDegen(filteredPools.length);
+      Analytics.trackFeelingDegen();
     }
-    // Analytics disabled: Analytics.trackFilterChange('chain', chainName, filteredPools.length);
-    // Analytics disabled: Analytics.trackPageView(`/chain/${chainName.toLowerCase()}`, {
-      chain: chainName,
-      mode: 'chain_discovery'
+    Analytics.trackSearch('', {
+      selected_chain: chainName,
+      input_method: isFeelingDegen ? 'feeling_degen_button' : 'chain_selection',
+      language
     });
     
     // Update URL for chain-first mode
@@ -1408,8 +1409,12 @@ function App() {
   const handleTokenSelect = (token) => {
     setChainMode(false); // Switch to token-first mode
     
-    // Search success analytics disabled temporarily
-    // TODO: Re-enable with proper safety checks
+    // Simple search tracking - capture the full search input at search completion
+    Analytics.trackSearch(searchInput || token, {
+      selected_token: token,
+      input_method: showAutocomplete ? 'autocomplete' : 'direct_input',
+      language
+    });
     
     setSelectedToken(token);
     setSearchInput(token);
@@ -1646,37 +1651,12 @@ function App() {
     e.preventDefault();
     e.stopPropagation();
     
-    // Enhanced Analytics tracking for pool view
-    // Analytics disabled: Analytics.trackPoolView(pool, {
-      sourceView: currentView,
+    // Simple pool view tracking
+    Analytics.trackPoolView(pool, {
       position: position,
-      searchQuery: selectedToken || selectedChain || null,
-      filters: {
-        selectedChain,
-        selectedToken,
-        minTvl,
-        minApy,
-        selectedPoolTypes,
-        selectedProtocols,
-        previousResultsCount: filteredPools.length
-      },
-      searchStartTime: Analytics.viewStartTime
-    });
-    
-    // Analytics disabled: Analytics.trackNavigation(currentView, 'pool-detail', 'click', {
-      poolId: pool.pool,
-      searchQuery: selectedToken || selectedChain || null
-    });
-    
-    // Analytics disabled: Analytics.trackPageView(`/pool/${pool.symbol}`, {
-      pool_id: pool.pool,
-      pool_symbol: pool.symbol,
-      protocol: pool.project,
-      chain: pool.chain,
-      total_apy: ((pool.apyBase || 0) + (pool.apyReward || 0)),
-      tvl_usd: pool.tvlUsd,
-      source_position: position,
-      source_search: selectedToken || selectedChain || null
+      search_query: selectedToken || selectedChain || null,
+      selected_chain: selectedChain,
+      selected_token: selectedToken
     });
     
     // Set the pool for detail view
@@ -1735,8 +1715,7 @@ function App() {
     e.stopPropagation();
     
     // Analytics tracking for yield calculation
-    // Analytics disabled: Analytics.trackPoolClick(pool, 'yield_calculator');
-    // Analytics disabled: Analytics.trackNavigation(currentView, 'pool-detail', 'yield_calculator');
+    Analytics.trackPoolClick(pool, 'yield_calculator');
     
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
