@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Test - DeFi Garden</title>
+    <script defer src="analytics.js"></script>
+    <script defer src="https://defigarden.sugem.io/script.js" data-website-id="9e56d1e1-f7c1-48fd-bb9d-e6b3e0ce2a3c"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        button { margin: 10px; padding: 10px 20px; cursor: pointer; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        #results { background: #f0f0f0; padding: 15px; margin: 20px 0; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>DeFi Garden Analytics Test</h1>
+    <div id="results">Analytics events will be logged here...</div>
+
+    <div class="test-section">
+        <h3>Page View Tests</h3>
+        <button onclick="testPageView()">Test Page View</button>
+        <button onclick="testTokenPageView()">Test Token Page View</button>
+        <button onclick="testChainPageView()">Test Chain Page View</button>
+    </div>
+
+    <div class="test-section">
+        <h3>Enhanced Search Tests</h3>
+        <button onclick="testSearchInput()">Test Search Input</button>
+        <button onclick="testSearchSuccess()">Test Search Success</button>
+        <button onclick="testSearchAbandonment()">Test Search Abandonment</button>
+        <button onclick="testAutocomplete()">Test Autocomplete</button>
+        <button onclick="testFeelingDegen()">Test Feeling Degen</button>
+    </div>
+
+    <div class="test-section">
+        <h3>Enhanced Filter Tests</h3>
+        <button onclick="testFilterChange()">Test Filter Change</button>
+        <button onclick="testFilterCombination()">Test Filter Combination</button>
+        <button onclick="testFiltersReset()">Test Filters Reset</button>
+    </div>
+
+    <div class="test-section">
+        <h3>Enhanced Pool Tests</h3>
+        <button onclick="testPoolView()">Test Pool View</button>
+        <button onclick="testPoolClick()">Test Pool Click</button>
+        <button onclick="testYieldCalculation()">Test Yield Calculation</button>
+        <button onclick="testPoolRiskAnalysis()">Test Pool Risk Analysis</button>
+    </div>
+
+    <div class="test-section">
+        <h3>Enhanced Navigation Tests</h3>
+        <button onclick="testNavigation()">Test Navigation</button>
+        <button onclick="testLanguageChange()">Test Language Change</button>
+        <button onclick="testEngagement()">Test Engagement</button>
+        <button onclick="testPerformance()">Test Performance</button>
+        <button onclick="testError()">Test Error</button>
+    </div>
+
+    <script>
+        const log = (message) => {
+            const results = document.getElementById('results');
+            results.innerHTML += `<div>${new Date().toLocaleTimeString()}: ${message}</div>`;
+            console.log(message);
+        };
+
+        // Test functions
+        function testPageView() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackPageView('/test', { test: true });
+                log('✅ Page view tracked: /test');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testTokenPageView() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackPageView('/search/eth', { token: 'ETH', language: 'en' });
+                log('✅ Token page view tracked: /search/eth');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testChainPageView() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackPageView('/chain/ethereum', { chain: 'Ethereum', language: 'en' });
+                log('✅ Chain page view tracked: /chain/ethereum');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testSearchInput() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackSearchInput('ETH best yield', 15, {
+                    selectedChain: 'Ethereum',
+                    language: 'en',
+                    minTvl: 100000
+                });
+                log('✅ Search Input tracked: "ETH best yield" with enhanced context');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testSearchSuccess() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackSearchSuccess('ETH yield', 'ETH', 15, {
+                    chainMode: false,
+                    language: 'en',
+                    position: 2
+                });
+                log('✅ Search Success tracked: selected ETH from position 2');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testSearchAbandonment() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackSearchAbandonment('incomplete query', 5000, {
+                    resultsCount: 8,
+                    language: 'en'
+                });
+                log('✅ Search Abandonment tracked: 5s spent on incomplete query');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testAutocomplete() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackAutocomplete('select', 'ET', 'ETH', 0);
+                log('✅ Autocomplete tracked: selected ETH from position 0');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testFeelingDegen() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackFeelingDegen(100);
+                log('✅ Feeling Degen tracked with 100 results');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testSearchClear() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackSearchClear();
+                log('✅ Search clear tracked');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testFilterChange() {
+            if (typeof Analytics !== 'undefined') {
+                const fullFilterState = {
+                    selectedChain: 'Ethereum',
+                    selectedToken: 'USDC',
+                    minTvl: 1000000,
+                    minApy: 5,
+                    selectedPoolTypes: ['lending'],
+                    selectedProtocols: ['aave'],
+                    previousResultsCount: 100
+                };
+                Analytics.trackFilterChange('chain', 'Ethereum', 50, fullFilterState);
+                log('✅ Enhanced Filter change tracked: chain = Ethereum with full context');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testFilterCombination() {
+            if (typeof Analytics !== 'undefined') {
+                const activeFilters = {
+                    selectedChain: 'Ethereum',
+                    selectedToken: 'USDC',
+                    minTvl: 1000000,
+                    minApy: 5,
+                    selectedPoolTypes: ['lending', 'staking'],
+                    selectedProtocols: ['aave', 'compound']
+                };
+                Analytics.trackFilterCombination(activeFilters, 25);
+                log('✅ Filter combination tracked: 6 active filters, 25 results');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testFiltersReset() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackFiltersReset();
+                log('✅ Filters reset tracked');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testPoolView() {
+            if (typeof Analytics !== 'undefined') {
+                const mockPool = {
+                    pool: 'aave-v3-ethereum-usdc-supply-123',
+                    project: 'Aave V3',
+                    chain: 'Ethereum',
+                    symbol: 'USDC',
+                    apyBase: 3.25,
+                    apyReward: 2.00,
+                    tvlUsd: 50000000,
+                    poolMeta: 'lending'
+                };
+                const context = {
+                    sourceView: 'search',
+                    position: 3,
+                    searchQuery: 'USDC lending',
+                    filters: {
+                        selectedChain: 'Ethereum',
+                        selectedToken: 'USDC',
+                        minTvl: 1000000,
+                        selectedPoolTypes: ['lending']
+                    },
+                    searchStartTime: Date.now() - 5000
+                };
+                Analytics.trackPoolView(mockPool, context);
+                log('✅ Enhanced Pool view tracked: USDC on Aave V3 with full context');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testPoolRiskAnalysis() {
+            if (typeof Analytics !== 'undefined') {
+                const riskPool = {
+                    pool: 'high-risk-pool-456',
+                    project: 'NewProtocol',
+                    chain: 'Arbitrum',
+                    symbol: 'WBTC-ETH',
+                    apyBase: 2.5,
+                    apyReward: 25.0, // High reward = high risk
+                    tvlUsd: 500000, // Low TVL = higher risk
+                    poolMeta: 'dex_lp'
+                };
+                Analytics.trackPoolView(riskPool);
+                log('✅ High-risk pool tracked with automatic risk scoring');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testPoolClick() {
+            if (typeof Analytics !== 'undefined') {
+                const mockPool = {
+                    pool: 'test-pool-123',
+                    project: 'Aave',
+                    chain: 'Ethereum',
+                    symbol: 'USDC',
+                    apy: 5.25
+                };
+                Analytics.trackPoolClick(mockPool, 'protocol_link');
+                log('✅ Pool click tracked: USDC on Aave');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testYieldCalculation() {
+            if (typeof Analytics !== 'undefined') {
+                const mockPool = {
+                    pool: 'aave-v3-ethereum-usdc-supply-123',
+                    project: 'Aave V3',
+                    chain: 'Ethereum',
+                    symbol: 'USDC',
+                    apyBase: 3.25,
+                    apyReward: 2.00
+                };
+                const totalApy = 5.25;
+                const amount = 10000;
+                const calculatedYields = {
+                    dailyGain: (amount * totalApy) / 365 / 100,
+                    monthlyGain: (amount * totalApy) / 12 / 100
+                };
+                Analytics.trackYieldCalculation(amount, mockPool, {
+                    calculatedYields,
+                    trigger: 'preset_button'
+                });
+                log('✅ Enhanced Yield calculation tracked: $10k with detailed yields');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testNavigation() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackNavigation('search', 'pool-detail', 'click');
+                log('✅ Navigation tracked: search → pool-detail');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testLanguageChange() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackLanguageChange('en', 'ko', {
+                    method: 'manual',
+                    userRegion: 'America/New_York'
+                });
+                log('✅ Enhanced Language change tracked: en → ko with context');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testEngagement() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackEngagement('deep_exploration', {
+                    duration: 45000,
+                    depth: 3,
+                    feature: 'yield_calculator',
+                    success: true
+                });
+                log('✅ User engagement tracked: 45s deep exploration');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testPerformance() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackPerformance('data_load_time', 1250, {
+                    page: 'search_results',
+                    pools_count: 500
+                });
+                log('✅ Performance tracked: 1.25s data load');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        function testError() {
+            if (typeof Analytics !== 'undefined') {
+                const testError = new Error('Test connection timeout');
+                testError.name = 'NetworkError';
+                Analytics.trackError(testError, {
+                    context: 'api_fetch',
+                    userAction: 'search_pools',
+                    recoverable: true,
+                    retryCount: 2
+                });
+                log('✅ Error tracked: Network timeout with context');
+            } else {
+                log('❌ Analytics not available');
+            }
+        }
+
+        // Test analytics availability on load
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                if (typeof Analytics !== 'undefined') {
+                    log('✅ Analytics loaded successfully');
+                    Analytics.trackPageView('/analytics-test', { test_page: true });
+                } else {
+                    log('❌ Analytics failed to load');
+                }
+
+                if (typeof umami !== 'undefined') {
+                    log('✅ Umami script loaded successfully');
+                } else {
+                    log('⚠️ Umami script not yet loaded (this may be normal)');
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

@@ -24,7 +24,13 @@ function PoolDetail({
       React.createElement('p', null, 'No pool selected'),
       React.createElement('button', { 
         className: 'back-button',
-        onClick: onBack 
+        onClick: () => {
+          // Analytics tracking for back navigation from pool detail
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackNavigation('pool-detail', 'search', 'back_button');
+          }
+          onBack();
+        }
       }, t ? t('backToSearch') : '← Back to Search')
     );
   }
@@ -196,7 +202,13 @@ function PoolDetail({
             cursor: 'pointer',
             transition: 'color 0.2s ease'
           },
-          onClick: onBack,
+          onClick: () => {
+            // Analytics tracking for back navigation from pool detail
+            if (typeof Analytics !== 'undefined') {
+              Analytics.trackNavigation('pool-detail', 'search', 'back_link');
+            }
+            onBack();
+          },
           onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
           onMouseLeave: (e) => e.target.style.color = 'var(--color-text-secondary)'
         }, 'Search Results'),
@@ -429,7 +441,13 @@ function PoolDetail({
           },
             React.createElement('button', {
               className: 'cta-button-primary',
-              onClick: () => window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer'),
+              onClick: () => {
+                // Analytics tracking for protocol link click
+                if (typeof Analytics !== 'undefined') {
+                  Analytics.trackPoolClick(pool, 'protocol_link');
+                }
+                window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
+              },
               style: {
                 display: 'inline-flex',
                 alignItems: 'center',
@@ -686,7 +704,18 @@ function PoolDetail({
               type: 'number',
               className: 'amount-input',
               value: investmentAmount,
-              onChange: (e) => setInvestmentAmount(Number(e.target.value) || 0),
+              onChange: (e) => {
+                const newAmount = Number(e.target.value) || 0;
+                setInvestmentAmount(newAmount);
+                // Analytics tracking for yield calculation
+                if (typeof Analytics !== 'undefined' && newAmount > 0) {
+                  const calculatedYields = calculateYields(newAmount, (pool.apyBase || 0) + (pool.apyReward || 0));
+                  Analytics.trackYieldCalculation(newAmount, pool, {
+                    calculatedYields,
+                    trigger: 'manual_input'
+                  });
+                }
+              },
               min: '0',
               step: '100',
               style: {
@@ -718,7 +747,17 @@ function PoolDetail({
             [100, 500, 1000, 2000, 5000, 10000, 100000].map(amount => 
               React.createElement('button', {
                 key: amount,
-                onClick: () => setInvestmentAmount(amount),
+                onClick: () => {
+                  setInvestmentAmount(amount);
+                  // Analytics tracking for preset amount selection
+                  if (typeof Analytics !== 'undefined') {
+                    const calculatedYields = calculateYields(amount, (pool.apyBase || 0) + (pool.apyReward || 0));
+                    Analytics.trackYieldCalculation(amount, pool, {
+                      calculatedYields,
+                      trigger: 'preset_button'
+                    });
+                  }
+                },
                 onMouseEnter: (e) => {
                   if (investmentAmount !== amount) {
                     e.target.style.boxShadow = 'var(--neuro-shadow-flat)';

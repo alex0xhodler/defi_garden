@@ -656,8 +656,12 @@ function App() {
 
   // Language management functions
   const changeLanguage = (newLang) => {
+    const oldLang = language;
     setLanguage(newLang);
     localStorage.setItem('defi-garden-lang', newLang);
+    
+    // Analytics tracking for language change
+    Analytics.trackLanguageChange(oldLang, newLang);
     
     // Update URL with new language
     const url = new URL(window.location);
@@ -710,6 +714,8 @@ function App() {
       
       // Check if we're navigating away from pool detail view
       if (!poolParam && currentView === 'pool-detail') {
+        // Analytics tracking for browser back navigation
+        Analytics.trackNavigation('pool-detail', 'search', 'browser_back');
         setCurrentView('search');
         setDetailPool(null);
       }
@@ -758,6 +764,7 @@ function App() {
   // Background fetch pools data after UI loads
   useEffect(() => {
     const fetchPoolsInBackground = async () => {
+      const startTime = Date.now();
       try {
         setError('');
         const response = await fetch('https://yields.llama.fi/pools');
@@ -766,9 +773,15 @@ function App() {
         }
         const data = await response.json();
         setPools(data.data || []);
+        
+        // Track successful data load
+        Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
+          pools_count: data.data?.length || 0
+        });
       } catch (err) {
         setError('Failed to load yield data. Please try again later.');
         console.error('Error fetching pools:', err);
+        Analytics.trackError(err, { context: 'data_fetching' });
       } finally {
         setLoading(false);
       }
@@ -860,6 +873,96 @@ function App() {
       themeColorMeta.setAttribute('content', isDarkMode ? '#1F2121' : '#2D5A3D');
     }
   }, [isDarkMode]);
+
+  // Track search input when user types (debounced)
+  useEffect(() => {
+    if (!isInitialLoad && debouncedSearchInput && debouncedSearchInput.length > 0) {
+      // Don't track if we're in pool detail view
+      if (currentView === 'pool-detail') return;
+      
+      // Get search results count
+      const resultsCount = autocompleteTokens.length;
+      
+      // Track the actual search input
+      Analytics.trackSearchInput(debouncedSearchInput, resultsCount, {
+        selectedChain,
+        selectedToken,
+        minTvl,
+        minApy,
+        selectedPoolTypes,
+        selectedProtocols,
+        language,
+        chainMode
+      });
+    }
+  }, [debouncedSearchInput, isInitialLoad, currentView, autocompleteTokens.length, selectedChain, selectedToken, minTvl, minApy, selectedPoolTypes, selectedProtocols, language, chainMode]);
+
+  // Track page views when view changes
+  useEffect(() => {
+    if (!isInitialLoad) {
+      if (currentView === 'search') {
+        if (selectedToken) {
+          Analytics.trackPageView(`/search/${selectedToken}`, {
+            token: selectedToken,
+            chain: selectedChain,
+            language
+          });
+        } else if (selectedChain) {
+          Analytics.trackPageView(`/chain/${selectedChain}`, {
+            chain: selectedChain,
+            language
+          });
+        } else {
+          Analytics.trackPageView('/', { language });
+        }
+      }
+    }
+  }, [currentView, selectedToken, selectedChain, isInitialLoad, language]);
+
+  // Track initial page load
+  useEffect(() => {
+    if (pools.length > 0 && isInitialLoad) {
+      // Track initial page load after data is ready
+      if (selectedToken) {
+        Analytics.trackPageView(`/search/${selectedToken}`, {
+          token: selectedToken,
+          chain: selectedChain,
+          language,
+          initial_load: true
+        });
+      } else if (selectedChain) {
+        Analytics.trackPageView(`/chain/${selectedChain}`, {
+          chain: selectedChain,
+          language,
+          initial_load: true
+        });
+      } else {
+        Analytics.trackPageView('/', { 
+          language,
+          initial_load: true 
+        });
+      }
+    }
+  }, [pools.length, selectedToken, selectedChain, isInitialLoad, language]);
+
+  // Track filter combinations when filters change
+  useEffect(() => {
+    if (!isInitialLoad && filteredPools.length >= 0) {
+      const activeFilters = {
+        selectedChain,
+        selectedToken,
+        minTvl,
+        minApy,
+        selectedPoolTypes,
+        selectedProtocols
+      };
+      
+      const filtersActive = Analytics.getFiltersActiveCount(activeFilters);
+      if (filtersActive > 1) {
+        Analytics.trackFilterCombination(activeFilters, filteredPools.length);
+      }
+    }
+  }, [selectedChain, selectedToken, minTvl, minApy, selectedPoolTypes, selectedProtocols, filteredPools.length, isInitialLoad]);
 
   // Listen for system theme changes
   useEffect(() => {
@@ -1288,13 +1391,15 @@ function App() {
     setShowAutocomplete(false);
     
     // Analytics tracking for chain selection
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'chain_selected', {
-        'event_category': 'engagement',
-        'event_label': chainName,
-        'custom_parameter': 'chain_discovery_mode'
-      });
+    const isFeelingDegen = chainName === 'Ethereum' && !selectedToken;
+    if (isFeelingDegen) {
+      Analytics.trackFeelingDegen(filteredPools.length);
     }
+    Analytics.trackFilterChange('chain', chainName, filteredPools.length);
+    Analytics.trackPageView(`/chain/${chainName.toLowerCase()}`, {
+      chain: chainName,
+      mode: 'chain_discovery'
+    });
     
     // Update URL for chain-first mode
     updateUrl('', chainName, selectedPoolTypes, selectedProtocols, 100000, minApy);
@@ -1319,6 +1424,20 @@ function App() {
   // Handle token selection
   const handleTokenSelect = (token) => {
     setChainMode(false); // Switch to token-first mode
+    
+    // Analytics tracking for successful search
+    Analytics.trackSearchSuccess(searchInput, token, autocompleteTokens.length, {
+      chainMode: false,
+      language,
+      searchStartTime: Analytics.lastEventTime,
+      position: autocompleteTokens.indexOf(token)
+    });
+    
+    // Track autocomplete selection if it came from autocomplete
+    if (showAutocomplete && autocompleteTokens.includes(token)) {
+      Analytics.trackAutocomplete('select', searchInput, token, autocompleteTokens.indexOf(token));
+    }
+    
     setSelectedToken(token);
     setSearchInput(token);
     setShowAutocomplete(false);
@@ -1357,6 +1476,17 @@ function App() {
   // Handle search input changes
   const handleSearchInputChange = (e) => {
     const value = e.target.value;
+    const previousValue = searchInput;
+    
+    // Track search abandonment if user had typed something and now clearing/changing significantly
+    if (previousValue && previousValue.length > 2 && 
+        (value.length === 0 || (previousValue.length > value.length + 2))) {
+      Analytics.trackSearchAbandonment(previousValue, Date.now() - Analytics.lastEventTime, {
+        resultsCount: autocompleteTokens.length,
+        language
+      });
+    }
+    
     setSearchInput(value);
     
     // Clear selected token if input doesn't match
@@ -1451,6 +1581,17 @@ function App() {
 
   // Reset application state
   const resetApp = () => {
+    // Analytics tracking for filter reset
+    const previousFilters = {
+      selectedChain,
+      selectedToken,
+      minTvl,
+      minApy,
+      selectedPoolTypes,
+      selectedProtocols
+    };
+    Analytics.trackFiltersReset(previousFilters, filteredPools.length);
+    
     setSelectedToken('');
     setSearchInput('');
     setSelectedChain('');
@@ -1534,17 +1675,48 @@ function App() {
   const totalPages = Math.ceil(filteredPools.length / itemsPerPage);
 
   // Handle pool click to navigate to pool detail page
-  const handlePoolClick = (pool, e) => {
+  const handlePoolClick = (pool, e, position = -1) => {
     e.preventDefault();
     e.stopPropagation();
     
-    console.log('handlePoolClick called for:', pool.symbol);
+    // Enhanced Analytics tracking for pool view
+    Analytics.trackPoolView(pool, {
+      sourceView: currentView,
+      position: position,
+      searchQuery: selectedToken || selectedChain || null,
+      filters: {
+        selectedChain,
+        selectedToken,
+        minTvl,
+        minApy,
+        selectedPoolTypes,
+        selectedProtocols,
+        previousResultsCount: filteredPools.length
+      },
+      searchStartTime: Analytics.viewStartTime
+    });
+    
+    Analytics.trackNavigation(currentView, 'pool-detail', 'click', {
+      poolId: pool.pool,
+      searchQuery: selectedToken || selectedChain || null
+    });
+    
+    Analytics.trackPageView(`/pool/${pool.symbol}`, {
+      pool_id: pool.pool,
+      pool_symbol: pool.symbol,
+      protocol: pool.project,
+      chain: pool.chain,
+      total_apy: ((pool.apyBase || 0) + (pool.apyReward || 0)),
+      tvl_usd: pool.tvlUsd,
+      source_position: position,
+      source_search: selectedToken || selectedChain || null
+    });
+    
     // Set the pool for detail view
     setDetailPool(pool);
     setCurrentView('pool-detail');
     // Scroll to top when navigating to pool details
     window.scrollTo(0, 0);
-    console.log('Set currentView to pool-detail, detailPool to:', pool.symbol);
     
     // Update URL to include pool identifier
     const poolId = encodeURIComponent(pool.pool || `${pool.project}-${pool.symbol}-${pool.chain}`);
@@ -1562,6 +1734,9 @@ function App() {
 
   // Handle navigation back from pool detail view
   const handleBackFromDetail = () => {
+    // Analytics tracking for navigation
+    Analytics.trackNavigation('pool-detail', 'search', 'back_button');
+    
     // Remove pool parameter from URL first
     const params = new URLSearchParams(window.location.search);
     params.delete('pool');
@@ -1591,34 +1766,61 @@ function App() {
   const handleCalculateYield = (pool, e) => {
     e.preventDefault();
     e.stopPropagation();
-    console.log('handleCalculateYield called for:', pool.symbol);
+    
+    // Analytics tracking for yield calculation
+    Analytics.trackPoolClick(pool, 'yield_calculator');
+    Analytics.trackNavigation(currentView, 'pool-detail', 'yield_calculator');
+    
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
     setCurrentView('pool-detail');
     // Scroll to top when navigating to pool details
     window.scrollTo(0, 0);
-    console.log('Set currentView to pool-detail, detailPool to:', pool.symbol);
   };
 
   // Handle pool type selection (multi-select)
   const handlePoolTypeToggle = (poolType) => {
     setSelectedPoolTypes(prev => {
-      if (prev.includes(poolType)) {
-        return prev.filter(type => type !== poolType);
-      } else {
-        return [...prev, poolType];
-      }
+      const newTypes = prev.includes(poolType) 
+        ? prev.filter(type => type !== poolType)
+        : [...prev, poolType];
+      
+      // Analytics tracking for pool type filter
+      const fullFilterState = {
+        selectedChain,
+        selectedToken,
+        minTvl,
+        minApy,
+        selectedPoolTypes: newTypes,
+        selectedProtocols,
+        previousResultsCount: filteredPools.length
+      };
+      Analytics.trackFilterChange('pool_type', poolType, filteredPools.length, fullFilterState);
+      
+      return newTypes;
     });
   };
 
   // Handle protocol selection (multi-select)
   const handleProtocolToggle = (protocolFriendlyName) => {
     setSelectedProtocols(prev => {
-      if (prev.includes(protocolFriendlyName)) {
-        return prev.filter(p => p !== protocolFriendlyName);
-      } else {
-        return [...prev, protocolFriendlyName];
-      }
+      const newProtocols = prev.includes(protocolFriendlyName)
+        ? prev.filter(p => p !== protocolFriendlyName)
+        : [...prev, protocolFriendlyName];
+      
+      // Analytics tracking for protocol filter
+      const fullFilterState = {
+        selectedChain,
+        selectedToken,
+        minTvl,
+        minApy,
+        selectedPoolTypes,
+        selectedProtocols: newProtocols,
+        previousResultsCount: filteredPools.length
+      };
+      Analytics.trackFilterChange('protocol', protocolFriendlyName, filteredPools.length, fullFilterState);
+      
+      return newProtocols;
     });
   };
 
@@ -1630,11 +1832,33 @@ function App() {
 
   // Handle TVL selection
   const handleTvlSelect = (tvlValue) => {
+    // Analytics tracking for TVL filter
+    const fullFilterState = {
+      selectedChain,
+      selectedToken,
+      minTvl: tvlValue,
+      minApy,
+      selectedPoolTypes,
+      selectedProtocols,
+      previousResultsCount: filteredPools.length
+    };
+    Analytics.trackFilterChange('min_tvl', tvlValue, filteredPools.length, fullFilterState);
     setMinTvl(tvlValue);
   };
 
   // Handle APY selection
   const handleApySelect = (apyValue) => {
+    // Analytics tracking for APY filter
+    const fullFilterState = {
+      selectedChain,
+      selectedToken,
+      minTvl,
+      minApy: apyValue,
+      selectedPoolTypes,
+      selectedProtocols,
+      previousResultsCount: filteredPools.length
+    };
+    Analytics.trackFilterChange('min_apy', apyValue, filteredPools.length, fullFilterState);
     setMinApy(apyValue);
   };
 
@@ -1989,7 +2213,7 @@ function App() {
               return React.createElement('div', {
                 key: `${pool.pool}-${index}`,
                 className: `pool-card animate-on-mount clickable`,
-                onClick: (e) => handlePoolClick(pool, e)
+                onClick: (e) => handlePoolClick(pool, e, (currentPage - 1) * itemsPerPage + index)
               },
                 // Header: Symbol + Protocol info + APY
                 React.createElement('div', { className: 'pool-header-new' },
