@@ -881,18 +881,18 @@ function App() {
     if (!isInitialLoad) {
       if (currentView === 'search') {
         if (selectedToken) {
-          // Analytics disabled: Analytics.trackPageView(`/search/${selectedToken}`, {
+          Analytics.trackPageView(`/search/${selectedToken}`, {
             token: selectedToken,
             chain: selectedChain,
             language
           });
         } else if (selectedChain) {
-          // Analytics disabled: Analytics.trackPageView(`/chain/${selectedChain}`, {
+          Analytics.trackPageView(`/chain/${selectedChain}`, {
             chain: selectedChain,
             language
           });
         } else {
-          // Analytics disabled: Analytics.trackPageView('/', { language });
+          Analytics.trackPageView('/', { language });
         }
       }
     }
@@ -903,20 +903,20 @@ function App() {
     if (pools.length > 0 && isInitialLoad) {
       // Track initial page load after data is ready
       if (selectedToken) {
-        // Analytics disabled: Analytics.trackPageView(`/search/${selectedToken}`, {
+        Analytics.trackPageView(`/search/${selectedToken}`, {
           token: selectedToken,
           chain: selectedChain,
           language,
           initial_load: true
         });
       } else if (selectedChain) {
-        // Analytics disabled: Analytics.trackPageView(`/chain/${selectedChain}`, {
+        Analytics.trackPageView(`/chain/${selectedChain}`, {
           chain: selectedChain,
           language,
           initial_load: true
         });
       } else {
-        // Analytics disabled: Analytics.trackPageView('/', { 
+        Analytics.trackPageView('/', { 
           language,
           initial_load: true 
         });
