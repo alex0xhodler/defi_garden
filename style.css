@@ -1130,6 +1130,29 @@ body {
   gap: var(--space-8);
 }
 
+/* Global dropdowns that render at document level */
+.global-filter-dropdown {
+  min-width: 200px;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--neuro-shadow-raised);
+  border: 1px solid var(--color-border);
+  padding: var(--space-12);
+  animation: dropdownSlide var(--duration-fast) var(--ease-standard);
+}
+
+.global-filter-dropdown .filter-pills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.global-filter-dropdown .filter-chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
 .google-tools-section {
   display: flex;
   align-items: center;

@@ -1982,97 +1982,24 @@ function App() {
             onClick: () => setSelectedPoolTypes(['LP/DEX'])
           }, 'LP/DEX'),
           
-          // Quick filter buttons with contextual dropdowns
-          React.createElement('div', { className: 'filter-dropdown-container' },
-            React.createElement('button', {
-              className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
-              onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains')
-            }, selectedChain || 'Chains'),
-            
-            // Chains dropdown
-            activeDropdown === 'chains' && availableChains.length > 1 && React.createElement('div', { className: 'filter-dropdown chains-dropdown' },
-              React.createElement('div', { className: 'filter-pills-container' },
-                React.createElement('button', {
-                  className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
-                  onClick: () => {
-                    setSelectedChain('');
-                    setActiveDropdown(null);
-                  }
-                }, 'All Chains'),
-                availableChains.map(chain => 
-                  React.createElement('button', {
-                    key: chain,
-                    className: `filter-pill chain-pill ${selectedChain === chain ? 'active' : ''}`,
-                    onClick: () => {
-                      setSelectedChain(chain);
-                      setActiveDropdown(null);
-                    },
-                    style: {
-                      '--chain-color': getChainColor(chain)
-                    }
-                  }, chain)
-                )
-              )
-            )
-          ),
+          // Quick filter buttons 
+          React.createElement('button', {
+            className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
+            onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),
+            id: 'chains-btn'
+          }, selectedChain || 'Chains'),
           
-          React.createElement('div', { className: 'filter-dropdown-container' },
-            React.createElement('button', {
-              className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
-              onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl')
-            }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl/1000000) + 'M+' : (minTvl/1000) + 'K+'}` : 'TVL'),
-            
-            // TVL dropdown
-            activeDropdown === 'tvl' && React.createElement('div', { className: 'filter-dropdown tvl-dropdown' },
-              React.createElement('div', { className: 'filter-chips-container' },
-                [
-                  { value: 0, label: 'No Min' },
-                  { value: 10000, label: '$10K+' },
-                  { value: 100000, label: '$100K+' },
-                  { value: 1000000, label: '$1M+' },
-                  { value: 10000000, label: '$10M+' }
-                ].map(tvl =>
-                  React.createElement('button', {
-                    key: tvl.value,
-                    className: `filter-chip tvl-chip ${minTvl === tvl.value ? 'active' : ''}`,
-                    onClick: () => {
-                      handleTvlSelect(tvl.value);
-                      setActiveDropdown(null);
-                    }
-                  }, tvl.label)
-                )
-              )
-            )
-          ),
+          React.createElement('button', {
+            className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
+            onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
+            id: 'tvl-btn'
+          }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl/1000000) + 'M+' : (minTvl/1000) + 'K+'}` : 'TVL'),
           
-          React.createElement('div', { className: 'filter-dropdown-container' },
-            React.createElement('button', {
-              className: `google-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
-              onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy')
-            }, minApy > 0 ? `${minApy}%+` : 'APY'),
-            
-            // APY dropdown
-            activeDropdown === 'apy' && React.createElement('div', { className: 'filter-dropdown apy-dropdown' },
-              React.createElement('div', { className: 'filter-chips-container' },
-                [
-                  { value: 0, label: 'No Min' },
-                  { value: 1, label: '1%+' },
-                  { value: 5, label: '5%+' },
-                  { value: 10, label: '10%+' },
-                  { value: 20, label: '20%+' }
-                ].map(apy =>
-                  React.createElement('button', {
-                    key: apy.value,
-                    className: `filter-chip apy-chip ${minApy === apy.value ? 'active' : ''}`,
-                    onClick: () => {
-                      handleApySelect(apy.value);
-                      setActiveDropdown(null);
-                    }
-                  }, apy.label)
-                )
-              )
-            )
-          )
+          React.createElement('button', {
+            className: `google-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
+            onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy'),
+            id: 'apy-btn'
+          }, minApy > 0 ? `${minApy}%+` : 'APY')
         ),
         
         // Results count only
@@ -2402,6 +2329,100 @@ function App() {
           rel: 'noopener noreferrer'
         }, 'Defillama API'),
         '. Made with AI & Degen Love.'
+      ),
+
+      // Global dropdowns - rendered at top level to avoid any container overflow issues
+      activeDropdown === 'chains' && availableChains.length > 1 && React.createElement('div', { 
+        className: 'global-filter-dropdown chains-dropdown',
+        style: {
+          position: 'fixed',
+          top: '128px',
+          left: document.getElementById('chains-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          zIndex: 99999
+        }
+      },
+        React.createElement('div', { className: 'filter-pills-container' },
+          React.createElement('button', {
+            className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
+            onClick: () => {
+              setSelectedChain('');
+              setActiveDropdown(null);
+            }
+          }, 'All Chains'),
+          availableChains.map(chain => 
+            React.createElement('button', {
+              key: chain,
+              className: `filter-pill chain-pill ${selectedChain === chain ? 'active' : ''}`,
+              onClick: () => {
+                setSelectedChain(chain);
+                setActiveDropdown(null);
+              },
+              style: {
+                '--chain-color': getChainColor(chain)
+              }
+            }, chain)
+          )
+        )
+      ),
+
+      // TVL dropdown
+      activeDropdown === 'tvl' && React.createElement('div', { 
+        className: 'global-filter-dropdown tvl-dropdown',
+        style: {
+          position: 'fixed',
+          top: '128px',
+          left: document.getElementById('tvl-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          zIndex: 99999
+        }
+      },
+        React.createElement('div', { className: 'filter-chips-container' },
+          [
+            { value: 0, label: 'No Min' },
+            { value: 10000, label: '$10K+' },
+            { value: 100000, label: '$100K+' },
+            { value: 1000000, label: '$1M+' },
+            { value: 10000000, label: '$10M+' }
+          ].map(tvl =>
+            React.createElement('button', {
+              key: tvl.value,
+              className: `filter-chip tvl-chip ${minTvl === tvl.value ? 'active' : ''}`,
+              onClick: () => {
+                handleTvlSelect(tvl.value);
+                setActiveDropdown(null);
+              }
+            }, tvl.label)
+          )
+        )
+      ),
+
+      // APY dropdown
+      activeDropdown === 'apy' && React.createElement('div', { 
+        className: 'global-filter-dropdown apy-dropdown',
+        style: {
+          position: 'fixed',
+          top: '128px',
+          left: document.getElementById('apy-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          zIndex: 99999
+        }
+      },
+        React.createElement('div', { className: 'filter-chips-container' },
+          [
+            { value: 0, label: 'No Min' },
+            { value: 1, label: '1%+' },
+            { value: 5, label: '5%+' },
+            { value: 10, label: '10%+' },
+            { value: 20, label: '20%+' }
+          ].map(apy =>
+            React.createElement('button', {
+              key: apy.value,
+              className: `filter-chip apy-chip ${minApy === apy.value ? 'active' : ''}`,
+              onClick: () => {
+                handleApySelect(apy.value);
+                setActiveDropdown(null);
+              }
+            }, apy.label)
+          )
+        )
       )
     )
   );
