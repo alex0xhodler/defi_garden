@@ -871,6 +871,7 @@ body {
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
   box-shadow: var(--neuro-shadow-flat);
+  overflow: visible;
 }
 
 /* Navigation row - part of the header */
@@ -882,6 +883,8 @@ body {
   margin: 0 auto;
   padding: var(--space-8) var(--space-16) var(--space-12);
   gap: var(--space-16);
+  position: relative;
+  overflow: visible;
 }
 
 .google-header-content {
@@ -1018,6 +1021,7 @@ body {
   -ms-overflow-style: none;
   flex: 1;
   align-items: center;
+  overflow-y: visible;
 }
 
 .google-nav-tabs::-webkit-scrollbar {
@@ -1099,7 +1103,7 @@ body {
   box-shadow: var(--neuro-shadow-raised);
   border: 1px solid var(--color-border);
   padding: var(--space-12);
-  z-index: 1001; /* Above the header */
+  z-index: 9999; /* Much higher z-index */
   animation: dropdownSlide var(--duration-fast) var(--ease-standard);
 }
 
