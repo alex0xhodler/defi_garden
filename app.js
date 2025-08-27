@@ -873,6 +873,62 @@ function App() {
     }
   }, [activeDropdown]);
 
+  // Enhanced scroll detection for horizontal dropdown containers
+  useEffect(() => {
+    const handleScroll = (container) => {
+      const scrollLeft = container.scrollLeft;
+      const scrollWidth = container.scrollWidth;
+      const clientWidth = container.clientWidth;
+      
+      // Add scrolled class if scrolled past start (show left fade)
+      if (scrollLeft > 10) {
+        container.classList.add('scrolled');
+      } else {
+        container.classList.remove('scrolled');
+      }
+      
+      // Add scrolled-end class if scrolled near end (hide right fade)
+      if (scrollLeft >= scrollWidth - clientWidth - 10) {
+        container.classList.add('scrolled-end');
+      } else {
+        container.classList.remove('scrolled-end');
+      }
+    };
+
+    const attachScrollListeners = () => {
+      const containers = document.querySelectorAll('.global-filter-dropdown .filter-pills-grid, .global-filter-dropdown .filter-chips-container');
+      containers.forEach(container => {
+        // Initial scroll position check
+        handleScroll(container);
+        
+        // Add scroll listener for real-time updates
+        const scrollHandler = () => handleScroll(container);
+        container.addEventListener('scroll', scrollHandler, { passive: true });
+        
+        // Store handler reference for cleanup
+        container._scrollHandler = scrollHandler;
+      });
+    };
+
+    // Attach listeners when any dropdown opens
+    if (activeDropdown) {
+      // Small delay to ensure DOM elements are fully rendered
+      const timeoutId = setTimeout(attachScrollListeners, 100);
+      return () => {
+        clearTimeout(timeoutId);
+        // Clean up all scroll listeners
+        const containers = document.querySelectorAll('.global-filter-dropdown .filter-pills-grid, .global-filter-dropdown .filter-chips-container');
+        containers.forEach(container => {
+          if (container._scrollHandler) {
+            container.removeEventListener('scroll', container._scrollHandler);
+            container._scrollHandler = null;
+            container.classList.remove('scrolled', 'scrolled-end');
+          }
+        });
+      };
+    }
+  }, [activeDropdown]);
+
   // Theme management effect
   useEffect(() => {
     // Apply theme to document root
@@ -1996,6 +2052,12 @@ function App() {
           }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl/1000000) + 'M+' : (minTvl/1000) + 'K+'}` : 'TVL'),
           
           React.createElement('button', {
+            className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
+            onClick: () => setActiveDropdown(activeDropdown === 'protocols' ? null : 'protocols'),
+            id: 'protocols-btn'
+          }, selectedProtocols.length > 0 ? `${selectedProtocols.length} Protocol${selectedProtocols.length > 1 ? 's' : ''}` : 'Protocols'),
+
+          React.createElement('button', {
             className: `google-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
             onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy'),
             id: 'apy-btn'
@@ -2341,7 +2403,7 @@ function App() {
           zIndex: 99999
         }
       },
-        React.createElement('div', { className: 'filter-pills-container' },
+        React.createElement('div', { className: 'filter-pills-grid' },
           React.createElement('button', {
             className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
             onClick: () => {
@@ -2361,6 +2423,47 @@ function App() {
                 '--chain-color': getChainColor(chain)
               }
             }, chain)
+          )
+        )
+      ),
+
+      // Protocols dropdown
+      activeDropdown === 'protocols' && availableProtocols.all.length > 0 && React.createElement('div', { 
+        className: 'global-filter-dropdown protocols-dropdown',
+        style: {
+          position: 'fixed',
+          top: '128px',
+          left: document.getElementById('protocols-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          zIndex: 99999
+        }
+      },
+        React.createElement('div', { className: 'filter-pills-grid' },
+          React.createElement('button', {
+            className: `filter-pill protocol-pill ${selectedProtocols.length === 0 ? 'active' : ''}`,
+            onClick: () => {
+              setSelectedProtocols([]);
+              setActiveDropdown(null);
+            }
+          }, 'All Protocols'),
+          availableProtocols.popular.length > 0 && React.createElement('button', {
+            className: `filter-pill protocol-pill popular ${
+              availableProtocols.popular.every(p => selectedProtocols.includes(p.friendlyName)) &&
+              selectedProtocols.length === availableProtocols.popular.length ? 'active' : ''
+            }`,
+            onClick: () => {
+              handlePopularProtocols();
+              setActiveDropdown(null);
+            }
+          }, 'Popular'),
+          availableProtocols.all.slice(0, 10).map(protocol => 
+            React.createElement('button', {
+              key: protocol.friendlyName,
+              className: `filter-pill protocol-pill ${selectedProtocols.includes(protocol.friendlyName) ? 'active' : ''}`,
+              onClick: () => {
+                handleProtocolToggle(protocol.friendlyName);
+                setActiveDropdown(null);
+              }
+            }, protocol.friendlyName)
           )
         )
       ),

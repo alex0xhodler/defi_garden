@@ -922,16 +922,15 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  background: var(--color-background);
+  background: var(--color-surface);
   border-radius: var(--radius-full);
-  box-shadow: var(--neuro-shadow-flat);
-  border: 1px solid var(--color-border);
-  transition: all var(--duration-normal) var(--ease-standard);
+  box-shadow: var(--neuro-shadow-subtle);
+  border: none;
+  transition: all 0.2s ease;
 }
 
 .google-search-bar:focus-within {
   box-shadow: var(--neuro-shadow-pressed);
-  border-color: var(--color-primary);
 }
 
 .google-search-input {
@@ -983,15 +982,15 @@ body {
 
 .google-control-btn {
   padding: var(--space-8) var(--space-12);
-  background: var(--color-background);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: none;
+  border-radius: 12px;
   color: var(--color-text);
   cursor: pointer;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-flat);
-  transition: all var(--duration-normal) var(--ease-standard);
+  box-shadow: var(--neuro-shadow-subtle);
+  transition: all 0.2s ease;
   min-width: 44px;
   display: flex;
   align-items: center;
@@ -999,8 +998,8 @@ body {
 }
 
 .google-control-btn:hover {
-  background: var(--color-secondary-hover);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
+  transform: translateY(-1px);
 }
 
 .google-control-btn:active {
@@ -1056,36 +1055,37 @@ body {
 
 .google-filter-btn {
   flex-shrink: 0;
-  padding: var(--space-6) var(--space-12);
-  background: var(--color-background);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-full);
-  color: var(--color-text-secondary);
+  padding: var(--space-8) var(--space-16);
+  background: var(--color-surface);
+  border: none;
+  border-radius: 12px;
+  color: var(--color-text);
   cursor: pointer;
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   white-space: nowrap;
-  box-shadow: var(--neuro-shadow-flat);
-  transition: all var(--duration-fast) var(--ease-standard);
+  box-shadow: var(--neuro-shadow-subtle);
+  transition: all 0.2s ease;
   margin-left: var(--space-8);
 }
 
-.google-filter-btn:hover {
-  color: var(--color-text);
-  background: var(--color-secondary-hover);
-  box-shadow: var(--neuro-shadow-raised);
+.google-filter-btn:hover:not(.active):not(.has-selection) {
+  box-shadow: var(--neuro-shadow-subtle);
+  transform: translateY(-1px);
 }
 
 .google-filter-btn.has-selection {
   background: var(--color-primary);
-  color: var(--color-btn-primary-text);
-  border-color: var(--color-primary);
-  box-shadow: var(--neuro-shadow-pressed);
+  color: white;
+  box-shadow: var(--neuro-shadow-subtle);
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(0);
 }
 
-.google-filter-btn.active {
-  background: var(--color-secondary-hover);
+.google-filter-btn.active:not(.has-selection) {
+  background: var(--color-surface);
   box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(1px);
 }
 
 .filter-dropdown-container {
@@ -1147,10 +1147,201 @@ body {
   gap: var(--space-8);
 }
 
+.global-filter-dropdown .filter-pills-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: var(--space-12);
+  min-width: 300px;
+  max-width: 500px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--space-8) calc(var(--space-4) + 40px) var(--space-8) var(--space-12);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+}
+
+.global-filter-dropdown .filter-pills-grid::-webkit-scrollbar {
+  display: none;
+}
+
 .global-filter-dropdown .filter-chips-container {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-8);
+  flex-wrap: nowrap;
+  gap: var(--space-12);
+  min-width: 200px;
+  max-width: 400px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--space-8) calc(var(--space-4) + 40px) var(--space-8) var(--space-12);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+}
+
+/* Scrollability ensured by extended right padding above */
+
+.global-filter-dropdown .filter-chips-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Enhanced pills for horizontal scrolling */
+.global-filter-dropdown .filter-pill,
+.global-filter-dropdown .filter-chip {
+  flex-shrink: 0;
+  white-space: nowrap;
+  scroll-snap-align: start;
+  transition: all 0.2s ease;
+}
+
+.global-filter-dropdown .filter-pill:hover:not(.active),
+.global-filter-dropdown .filter-chip:hover:not(.active) {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: var(--neuro-shadow-raised);
+}
+
+/* Scroll indicators for visual feedback */
+.global-filter-dropdown .filter-pills-grid::before,
+.global-filter-dropdown .filter-pills-grid::after,
+.global-filter-dropdown .filter-chips-container::before,
+.global-filter-dropdown .filter-chips-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  pointer-events: none;
+  z-index: 2;
+  transition: opacity 0.3s ease;
+}
+
+.global-filter-dropdown .filter-pills-grid::before,
+.global-filter-dropdown .filter-chips-container::before {
+  left: 0;
+  background: linear-gradient(to right, var(--color-surface), transparent);
+  opacity: 0;
+}
+
+.global-filter-dropdown .filter-pills-grid::after,
+.global-filter-dropdown .filter-chips-container::after {
+  right: 0;
+  background: linear-gradient(to left, var(--color-surface), transparent);
+}
+
+/* Show left fade when scrolled */
+.global-filter-dropdown .filter-pills-grid.scrolled::before,
+.global-filter-dropdown .filter-chips-container.scrolled::before {
+  opacity: 1;
+}
+
+/* Hide right fade when scrolled to end */
+.global-filter-dropdown .filter-pills-grid.scrolled-end::after,
+.global-filter-dropdown .filter-chips-container.scrolled-end::after {
+  opacity: 0;
+}
+
+/* Smooth scroll snap */
+.global-filter-dropdown .filter-pills-grid,
+.global-filter-dropdown .filter-chips-container {
+  scroll-snap-type: x proximity;
+}
+
+/* Enhanced hover animations for scrollable pills */
+.global-filter-dropdown .filter-pill.active,
+.global-filter-dropdown .filter-chip.active {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: var(--neuro-shadow-raised);
+  animation: pillPulse 0.3s ease-out;
+}
+
+/* Delightful pulse animation when selecting */
+@keyframes pillPulse {
+  0% { transform: translateY(-1px) scale(1.02); }
+  50% { transform: translateY(-2px) scale(1.08); }
+  100% { transform: translateY(-1px) scale(1.02); }
+}
+
+/* Add subtle momentum scrolling feedback */
+.global-filter-dropdown .filter-pills-grid,
+.global-filter-dropdown .filter-chips-container {
+  scroll-padding-left: var(--space-12);
+  scroll-padding-right: var(--space-12);
+}
+
+/* Enhance mobile touch scrolling */
+@media (max-width: 768px) {
+  .global-filter-dropdown .filter-pills-grid,
+  .global-filter-dropdown .filter-chips-container {
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding: var(--space-12) var(--space-8);
+    gap: var(--space-16);
+  }
+
+  .global-filter-dropdown .filter-pill,
+  .global-filter-dropdown .filter-chip {
+    scroll-snap-align: center;
+    min-width: 80px;
+    text-align: center;
+  }
+  
+  /* Mobile-optimized fade indicators */
+  .global-filter-dropdown .filter-pills-grid::before,
+  .global-filter-dropdown .filter-pills-grid::after,
+  .global-filter-dropdown .filter-chips-container::before,
+  .global-filter-dropdown .filter-chips-container::after {
+    width: 15px;
+  }
+}
+
+/* Scroll hint animation - shows briefly when dropdown opens */
+.global-filter-dropdown .filter-pills-grid,
+.global-filter-dropdown .filter-chips-container {
+  animation: scrollHint 2s ease-in-out 0.5s;
+}
+
+@keyframes scrollHint {
+  0%, 90%, 100% { transform: translateX(0); }
+  15%, 30% { transform: translateX(-8px); }
+  45%, 60% { transform: translateX(4px); }
+  75% { transform: translateX(-2px); }
+}
+
+/* Add scroll cursor hint */
+.global-filter-dropdown .filter-pills-grid:not(.scrolled):not(.scrolled-end),
+.global-filter-dropdown .filter-chips-container:not(.scrolled):not(.scrolled-end) {
+  cursor: grab;
+}
+
+.global-filter-dropdown .filter-pills-grid:active,
+.global-filter-dropdown .filter-chips-container:active {
+  cursor: grabbing;
+}
+
+/* Add visual scroll affordance with subtle shadows */
+.global-filter-dropdown .filter-pills-grid,
+.global-filter-dropdown .filter-chips-container {
+  box-shadow: 
+    inset 10px 0 15px -10px rgba(0, 0, 0, 0.1),
+    inset -10px 0 15px -10px rgba(0, 0, 0, 0.1);
+}
+
+.global-filter-dropdown .filter-pills-grid.scrolled,
+.global-filter-dropdown .filter-chips-container.scrolled {
+  box-shadow: 
+    inset 15px 0 20px -15px rgba(0, 0, 0, 0.15),
+    inset -10px 0 15px -10px rgba(0, 0, 0, 0.1);
+}
+
+.global-filter-dropdown .filter-pills-grid.scrolled-end,
+.global-filter-dropdown .filter-chips-container.scrolled-end {
+  box-shadow: 
+    inset 15px 0 20px -15px rgba(0, 0, 0, 0.15),
+    inset -15px 0 20px -15px rgba(0, 0, 0, 0.15);
 }
 
 .google-tools-section {
@@ -1169,23 +1360,22 @@ body {
 
 .google-tools-btn {
   padding: var(--space-10) var(--space-16);
-  background: var(--color-background);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  border: none;
+  border-radius: 12px;
   color: var(--color-text);
   cursor: pointer;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-flat);
-  transition: all var(--duration-normal) var(--ease-standard);
+  box-shadow: var(--neuro-shadow-subtle);
+  transition: all 0.2s ease;
   display: flex;
   align-items: center;
   gap: var(--space-4);
 }
 
 .google-tools-btn:hover {
-  background: var(--color-secondary-hover);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--neuro-shadow-subtle);
   transform: translateY(-1px);
 }
 
