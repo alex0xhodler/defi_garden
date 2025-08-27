@@ -1506,7 +1506,7 @@ function App() {
     setShowAutocomplete(false);
     
     // Analytics tracking for chain selection
-    const isFeelingDegen = chainName === 'Ethereum' && !selectedToken;
+    const isFeelingDegen = chainName === 'Popular' && !selectedToken && minTvl >= 1000000;
     if (isFeelingDegen) {
       Analytics.trackFeelingDegen();
     }
@@ -2222,7 +2222,38 @@ function App() {
             React.createElement('button', {
               className: 'search-button feeling-degen',
               onClick: () => {
-                handleChainSelect('Ethereum');
+                // Set Popular category with 1M TVL for degen-level opportunities
+                setSelectedChain('Popular');
+                setChainMode(true);
+                setShowFilters(true);
+                setMinTvl(1000000); // $1M TVL for degen mode
+                setShowAutocomplete(false);
+                
+                // Analytics tracking for feeling degen
+                Analytics.trackFeelingDegen();
+                Analytics.trackSearch('', {
+                  selected_chain: 'Popular',
+                  input_method: 'feeling_degen_button',
+                  language
+                });
+                
+                // Update URL for degen mode
+                updateUrl('', 'Popular', selectedPoolTypes, selectedProtocols, 1000000, minApy);
+                
+                // Scroll to results on mobile
+                const isMobile = window.matchMedia('(max-width: 768px)').matches;
+                if (isMobile) {
+                  setTimeout(() => {
+                    const resultsSection = document.querySelector('.results-section');
+                    if (resultsSection) {
+                      resultsSection.scrollIntoView({ 
+                        behavior: 'smooth', 
+                        block: 'start',
+                        inline: 'nearest'
+                      });
+                    }
+                  }, 100);
+                }
               }
             },
               React.createElement('span', { className: 'button-icon' }, '🚀'),
