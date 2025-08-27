@@ -572,6 +572,7 @@ function App() {
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
   const [showFilters, setShowFilters] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(null); // 'chains', 'tvl', 'apy', or null
   const [isInitialLoad, setIsInitialLoad] = useState(true);
   const [showYieldCalculator, setShowYieldCalculator] = useState(false);
   const [selectedPool, setSelectedPool] = useState(null);
@@ -857,6 +858,76 @@ function App() {
     const timer = setTimeout(fetchProtocolsInBackground, 100);
     return () => clearTimeout(timer);
   }, []);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (activeDropdown && !event.target.closest('.filter-dropdown-container')) {
+        setActiveDropdown(null);
+      }
+    };
+    
+    if (activeDropdown) {
+      document.addEventListener('click', handleClickOutside);
+      return () => document.removeEventListener('click', handleClickOutside);
+    }
+  }, [activeDropdown]);
+
+  // Enhanced scroll detection for horizontal dropdown containers
+  useEffect(() => {
+    const handleScroll = (container) => {
+      const scrollLeft = container.scrollLeft;
+      const scrollWidth = container.scrollWidth;
+      const clientWidth = container.clientWidth;
+      
+      // Add scrolled class if scrolled past start (show left fade)
+      if (scrollLeft > 10) {
+        container.classList.add('scrolled');
+      } else {
+        container.classList.remove('scrolled');
+      }
+      
+      // Add scrolled-end class if scrolled near end (hide right fade)
+      if (scrollLeft >= scrollWidth - clientWidth - 10) {
+        container.classList.add('scrolled-end');
+      } else {
+        container.classList.remove('scrolled-end');
+      }
+    };
+
+    const attachScrollListeners = () => {
+      const containers = document.querySelectorAll('.global-filter-dropdown .filter-pills-grid, .global-filter-dropdown .filter-chips-container');
+      containers.forEach(container => {
+        // Initial scroll position check
+        handleScroll(container);
+        
+        // Add scroll listener for real-time updates
+        const scrollHandler = () => handleScroll(container);
+        container.addEventListener('scroll', scrollHandler, { passive: true });
+        
+        // Store handler reference for cleanup
+        container._scrollHandler = scrollHandler;
+      });
+    };
+
+    // Attach listeners when any dropdown opens
+    if (activeDropdown) {
+      // Small delay to ensure DOM elements are fully rendered
+      const timeoutId = setTimeout(attachScrollListeners, 100);
+      return () => {
+        clearTimeout(timeoutId);
+        // Clean up all scroll listeners
+        const containers = document.querySelectorAll('.global-filter-dropdown .filter-pills-grid, .global-filter-dropdown .filter-chips-container');
+        containers.forEach(container => {
+          if (container._scrollHandler) {
+            container.removeEventListener('scroll', container._scrollHandler);
+            container._scrollHandler = null;
+            container.classList.remove('scrolled', 'scrolled-end');
+          }
+        });
+      };
+    }
+  }, [activeDropdown]);
 
   // Theme management effect
   useEffect(() => {
@@ -1897,7 +1968,112 @@ function App() {
   return React.createElement('div', { 
     className: `app ${(selectedToken || (chainMode && selectedChain)) ? 'has-results' : ''}` 
   },
-    // Theme Toggle
+    // Google-style sticky header - ONLY show when we have results
+    (selectedToken || (chainMode && selectedChain)) && React.createElement('div', { 
+      className: 'google-header-sticky'
+    },
+      React.createElement('div', { className: 'google-header-content' },
+        // Logo (compact, clickable)
+        React.createElement('div', { 
+          className: 'google-logo',
+          onClick: resetApp
+        }, '🌱 DeFi Garden'),
+        
+        // Persistent search bar
+        React.createElement('div', { className: 'google-search-container' },
+          React.createElement('div', { className: 'google-search-bar' },
+            React.createElement('input', {
+              type: 'text',
+              className: 'google-search-input',
+              placeholder: selectedToken ? selectedToken : (selectedChain ? selectedChain : t('searchPlaceholder')),
+              value: searchInput,
+              onChange: handleSearchInputChange,
+              onKeyDown: handleKeyDown,
+              onFocus: handleInputFocus,
+              onBlur: handleInputBlur
+            }),
+            React.createElement('button', {
+              className: 'google-search-button',
+              onClick: () => {
+                if (searchInput.length > 0 && autocompleteTokens.length > 0) {
+                  handleTokenSelect(autocompleteTokens[0]);
+                }
+              }
+            }, '🔍')
+          )
+        ),
+        
+        // Controls (theme, language) 
+        React.createElement('div', { className: 'google-header-controls' },
+          React.createElement('button', {
+            className: 'google-control-btn language-toggle',
+            onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
+            'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
+          }, language === 'en' ? 'KO' : 'EN'),
+          React.createElement('button', {
+            className: 'google-control-btn theme-toggle',
+            onClick: toggleTheme,
+            'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
+          }, isDarkMode ? '☀️' : '🌙')
+        )
+      ),
+      
+      // Google-style navigation tabs - part of the header
+      React.createElement('div', { className: 'google-nav-row' },
+        React.createElement('div', { className: 'google-nav-tabs' },
+          React.createElement('button', {
+            className: `google-nav-tab ${!selectedPoolTypes.length ? 'active' : ''}`,
+            onClick: () => setSelectedPoolTypes([])
+          }, 'All'),
+          React.createElement('button', {
+            className: `google-nav-tab ${selectedPoolTypes.includes('Lending') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
+            onClick: () => setSelectedPoolTypes(['Lending'])
+          }, 'Lending'),
+          React.createElement('button', {
+            className: `google-nav-tab ${selectedPoolTypes.includes('Staking') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
+            onClick: () => setSelectedPoolTypes(['Staking'])
+          }, 'Staking'),
+          React.createElement('button', {
+            className: `google-nav-tab ${selectedPoolTypes.includes('LP/DEX') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
+            onClick: () => setSelectedPoolTypes(['LP/DEX'])
+          }, 'LP/DEX'),
+          
+          // Quick filter buttons 
+          React.createElement('button', {
+            className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
+            onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),
+            id: 'chains-btn'
+          }, selectedChain || 'Chains'),
+          
+          React.createElement('button', {
+            className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
+            onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
+            id: 'tvl-btn'
+          }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl/1000000) + 'M+' : (minTvl/1000) + 'K+'}` : 'TVL'),
+          
+          React.createElement('button', {
+            className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
+            onClick: () => setActiveDropdown(activeDropdown === 'protocols' ? null : 'protocols'),
+            id: 'protocols-btn'
+          }, selectedProtocols.length > 0 ? `${selectedProtocols.length} Protocol${selectedProtocols.length > 1 ? 's' : ''}` : 'Protocols'),
+
+          React.createElement('button', {
+            className: `google-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
+            onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy'),
+            id: 'apy-btn'
+          }, minApy > 0 ? `${minApy}%+` : 'APY')
+        ),
+        
+        // Results count only
+        React.createElement('div', { className: 'google-tools-section' },
+          React.createElement('span', { className: 'google-results-count' },
+            `${filteredPools.length.toLocaleString()} results`
+          )
+        )
+      )
+    ),
+
+    // Theme Toggle (original - keep for homepage)
     React.createElement('button', {
       className: 'theme-toggle',
       'data-theme': isDarkMode ? 'dark' : 'light',
@@ -1923,8 +2099,8 @@ function App() {
     }, language === 'en' ? 'KO' : 'EN'),
 
     React.createElement('div', { className: 'container' },
-      // Header
-      React.createElement('div', { 
+      // Header - only show when no results
+      !(selectedToken || (chainMode && selectedChain)) && React.createElement('div', { 
         className: `header animate-on-mount`
       },
         
@@ -2001,142 +2177,6 @@ function App() {
         React.createElement('div', { className: 'error-message' }, error)
       ),
 
-      // Improved Horizontal Scrolling Filters Section
-      showFilters && (selectedToken || chainMode) && React.createElement('div', { className: 'filters-section animate-on-mount' },
-        React.createElement('div', { className: 'filters-container' },
-          
-          // Chain Pills Filter - Single Horizontal Row
-          availableChains.length > 1 && React.createElement('div', { className: 'filter-section' },
-            React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, t('chains'))
-            ),
-            React.createElement('div', { className: 'filter-row' },
-              React.createElement('div', { className: 'filter-pills-container' },
-                React.createElement('button', {
-                  className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
-                  onClick: () => setSelectedChain('')
-                }, t('allChains')),
-                availableChains.map(chain => 
-                  React.createElement('button', {
-                    key: chain,
-                    className: `filter-pill chain-pill ${selectedChain === chain ? 'active' : ''}`,
-                    onClick: () => setSelectedChain(chain),
-                    style: {
-                      '--chain-color': getChainColor(chain)
-                    }
-                  }, chain)
-                )
-              )
-            )
-          ),
-
-          // Protocols Filter Row - only show when protocols are available
-          availableProtocols.all.length > 0 && React.createElement('div', { className: 'filter-section' },
-            React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, t('protocols'))
-            ),
-            React.createElement('div', { className: 'filter-row' },
-              React.createElement('div', { className: 'filter-pills-container' },
-                // Popular button
-                availableProtocols.popular.length > 0 && React.createElement('button', {
-                  className: `filter-pill protocol-pill popular ${
-                    availableProtocols.popular.every(p => selectedProtocols.includes(p.friendlyName)) &&
-                    selectedProtocols.length === availableProtocols.popular.length ? 'active' : ''
-                  }`,
-                  onClick: handlePopularProtocols
-                }, t('popular')),
-                
-                // All protocols button
-                React.createElement('button', {
-                  className: `filter-pill protocol-pill ${selectedProtocols.length === 0 ? 'active' : ''}`,
-                  onClick: () => setSelectedProtocols([])
-                }, t('allProtocols')),
-                
-                // Individual protocol pills (show top 10 to avoid overcrowding)
-                availableProtocols.all.slice(0, 10).map(protocol => 
-                  React.createElement('button', {
-                    key: protocol.friendlyName,
-                    className: `filter-pill protocol-pill ${selectedProtocols.includes(protocol.friendlyName) ? 'active' : ''}`,
-                    onClick: () => handleProtocolToggle(protocol.friendlyName)
-                  }, 
-                    protocol.friendlyName,
-                    React.createElement('span', { className: 'pill-count' }, `(${protocol.poolCount})`)
-                  )
-                )
-              )
-            )
-          ),
-
-          // Pool Type Buttons - Single Horizontal Row
-          React.createElement('div', { className: 'filter-section' },
-            React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, t('poolTypes'))
-            ),
-            React.createElement('div', { className: 'filter-row' },
-              React.createElement('div', { className: 'filter-buttons-group' },
-                ['Lending', 'LP/DEX', 'Staking', 'Yield Farming'].map(poolType =>
-                  React.createElement('button', {
-                    key: poolType,
-                    className: `filter-button pool-type-button ${selectedPoolTypes.includes(poolType) ? 'active' : ''}`,
-                    onClick: () => handlePoolTypeToggle(poolType)
-                  },
-                    poolType,
-                    poolTypeCounts[poolType] ? React.createElement('span', { className: 'count' }, `(${poolTypeCounts[poolType]})`) : null
-                  )
-                )
-              )
-            )
-          ),
-
-          // TVL Filter Row
-          React.createElement('div', { className: 'filter-section' },
-            React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, t('minTvl'))
-            ),
-            React.createElement('div', { className: 'filter-row' },
-              React.createElement('div', { className: 'filter-chips-container' },
-                [
-                  { value: 0, label: t('noMin') },
-                  { value: 10000, label: '$10K+' },
-                  { value: 100000, label: '$100K+' },
-                  { value: 1000000, label: '$1M+' },
-                  { value: 10000000, label: '$10M+' }
-                ].map(tvl =>
-                  React.createElement('button', {
-                    key: tvl.value,
-                    className: `filter-chip tvl-chip ${minTvl === tvl.value ? 'active' : ''}`,
-                    onClick: () => handleTvlSelect(tvl.value)
-                  }, tvl.label)
-                )
-              )
-            )
-          ),
-
-          // APY Filter Row
-          React.createElement('div', { className: 'filter-section' },
-            React.createElement('div', { className: 'filter-section-header' },
-              React.createElement('label', { className: 'filter-label' }, t('minApy'))
-            ),
-            React.createElement('div', { className: 'filter-row' },
-              React.createElement('div', { className: 'filter-chips-container' },
-                [
-                  { value: 0, label: t('noMin') },
-                  { value: 1, label: '1%+' },
-                  { value: 5, label: '5%+' },
-                  { value: 10, label: '10%+' },
-                  { value: 20, label: '20%+' }
-                ].map(apy =>
-                  React.createElement('button', {
-                    key: apy.value,
-                    className: `filter-chip apy-chip ${minApy === apy.value ? 'active' : ''}`,
-                    onClick: () => handleApySelect(apy.value)
-                  }, apy.label)
-                )
-              )
-            )
-          )
-        )
-      ),
 
       // Results Section - show for both token mode and chain mode
       (selectedToken || (chainMode && selectedChain)) && React.createElement('div', { className: 'results-section animate-on-mount' },
@@ -2351,6 +2391,141 @@ function App() {
           rel: 'noopener noreferrer'
         }, 'Defillama API'),
         '. Made with AI & Degen Love.'
+      ),
+
+      // Global dropdowns - rendered at top level to avoid any container overflow issues
+      activeDropdown === 'chains' && availableChains.length > 1 && React.createElement('div', { 
+        className: 'global-filter-dropdown chains-dropdown',
+        style: {
+          position: 'fixed',
+          top: '128px',
+          left: document.getElementById('chains-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          zIndex: 99999
+        }
+      },
+        React.createElement('div', { className: 'filter-pills-grid' },
+          React.createElement('button', {
+            className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
+            onClick: () => {
+              setSelectedChain('');
+              setActiveDropdown(null);
+            }
+          }, 'All Chains'),
+          availableChains.map(chain => 
+            React.createElement('button', {
+              key: chain,
+              className: `filter-pill chain-pill ${selectedChain === chain ? 'active' : ''}`,
+              onClick: () => {
+                setSelectedChain(chain);
+                setActiveDropdown(null);
+              },
+              style: {
+                '--chain-color': getChainColor(chain)
+              }
+            }, chain)
+          )
+        )
+      ),
+
+      // Protocols dropdown
+      activeDropdown === 'protocols' && availableProtocols.all.length > 0 && React.createElement('div', { 
+        className: 'global-filter-dropdown protocols-dropdown',
+        style: {
+          position: 'fixed',
+          top: '128px',
+          left: document.getElementById('protocols-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          zIndex: 99999
+        }
+      },
+        React.createElement('div', { className: 'filter-pills-grid' },
+          React.createElement('button', {
+            className: `filter-pill protocol-pill ${selectedProtocols.length === 0 ? 'active' : ''}`,
+            onClick: () => {
+              setSelectedProtocols([]);
+              setActiveDropdown(null);
+            }
+          }, 'All Protocols'),
+          availableProtocols.popular.length > 0 && React.createElement('button', {
+            className: `filter-pill protocol-pill popular ${
+              availableProtocols.popular.every(p => selectedProtocols.includes(p.friendlyName)) &&
+              selectedProtocols.length === availableProtocols.popular.length ? 'active' : ''
+            }`,
+            onClick: () => {
+              handlePopularProtocols();
+              setActiveDropdown(null);
+            }
+          }, 'Popular'),
+          availableProtocols.all.slice(0, 10).map(protocol => 
+            React.createElement('button', {
+              key: protocol.friendlyName,
+              className: `filter-pill protocol-pill ${selectedProtocols.includes(protocol.friendlyName) ? 'active' : ''}`,
+              onClick: () => {
+                handleProtocolToggle(protocol.friendlyName);
+                setActiveDropdown(null);
+              }
+            }, protocol.friendlyName)
+          )
+        )
+      ),
+
+      // TVL dropdown
+      activeDropdown === 'tvl' && React.createElement('div', { 
+        className: 'global-filter-dropdown tvl-dropdown',
+        style: {
+          position: 'fixed',
+          top: '128px',
+          left: document.getElementById('tvl-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          zIndex: 99999
+        }
+      },
+        React.createElement('div', { className: 'filter-chips-container' },
+          [
+            { value: 0, label: 'No Min' },
+            { value: 10000, label: '$10K+' },
+            { value: 100000, label: '$100K+' },
+            { value: 1000000, label: '$1M+' },
+            { value: 10000000, label: '$10M+' }
+          ].map(tvl =>
+            React.createElement('button', {
+              key: tvl.value,
+              className: `filter-chip tvl-chip ${minTvl === tvl.value ? 'active' : ''}`,
+              onClick: () => {
+                handleTvlSelect(tvl.value);
+                setActiveDropdown(null);
+              }
+            }, tvl.label)
+          )
+        )
+      ),
+
+      // APY dropdown
+      activeDropdown === 'apy' && React.createElement('div', { 
+        className: 'global-filter-dropdown apy-dropdown',
+        style: {
+          position: 'fixed',
+          top: '128px',
+          left: document.getElementById('apy-btn')?.getBoundingClientRect().left + 'px' || '0px',
+          zIndex: 99999
+        }
+      },
+        React.createElement('div', { className: 'filter-chips-container' },
+          [
+            { value: 0, label: 'No Min' },
+            { value: 1, label: '1%+' },
+            { value: 5, label: '5%+' },
+            { value: 10, label: '10%+' },
+            { value: 20, label: '20%+' }
+          ].map(apy =>
+            React.createElement('button', {
+              key: apy.value,
+              className: `filter-chip apy-chip ${minApy === apy.value ? 'active' : ''}`,
+              onClick: () => {
+                handleApySelect(apy.value);
+                setActiveDropdown(null);
+              }
+            }, apy.label)
+          )
+        )
       )
     )
   );
