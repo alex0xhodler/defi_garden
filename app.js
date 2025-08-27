@@ -1318,11 +1318,71 @@ function App() {
       return;
     }
     
-    // Chain-first mode: filter by chain only
-    if (chainMode && selectedChain && !selectedToken) {
+    // Special chain categories: handle "All" and "Popular" as predefined filters
+    if (!selectedToken && (selectedChain === 'All' || selectedChain === 'Popular')) {
+      // Define popular chains (top 15 by TVL/activity)
+      const popularChains = ['Ethereum', 'Arbitrum', 'Polygon', 'Optimism', 'Base', 'BNB Chain', 'Avalanche', 'Solana', 'Fantom', 'Linea', 'Gnosis', 'Celo', 'Moonbeam', 'Cronos', 'zkSync Era'];
+      
       let filtered = pools.filter(pool => {
-        // Filter by selected chain
-        const chainMatch = pool.chain === selectedChain;
+        // Chain filter: either all chains or popular chains only
+        const chainMatch = selectedChain === 'All' || 
+          (selectedChain === 'Popular' && popularChains.includes(pool.chain));
+        
+        // Filter by pool type if selected
+        const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
+        
+        // Filter by protocol if selected (check against friendly names)
+        const protocolMatch = selectedProtocols.length === 0 || 
+          selectedProtocols.some(selectedProtocol => {
+            // Method 1: Find the protocol object with matching friendly name (case insensitive)
+            const protocolObj = availableProtocols?.all?.find(p => 
+              p?.friendlyName?.toLowerCase() === selectedProtocol?.toLowerCase()
+            );
+            if (protocolObj && protocolObj.originalNames.includes(pool.project)) {
+              return true;
+            }
+            
+            // Method 2: Direct fallback - check if pool project name contains the selected protocol
+            const projectLower = pool.project?.toLowerCase() || '';
+            const protocolLower = selectedProtocol?.toLowerCase() || '';
+            return projectLower.includes(protocolLower) || projectLower.includes(protocolLower.replace(/\s+/g, '-'));
+          });
+        
+        // Filter by minimum TVL
+        const tvlMatch = pool.tvlUsd >= minTvl;
+        
+        // Filter by minimum APY
+        const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
+        const apyMatch = totalApy >= minApy;
+        
+        return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+      });
+      // Sort by total APY (base + reward) descending
+      filtered.sort((a, b) => {
+        const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+        const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+        return apyB - apyA;
+      });
+      setFilteredPools(filtered);
+      setCurrentPage(1);
+      return;
+    }
+    
+    // Chain-first mode: filter by chain only (including special categories)
+    if (chainMode && selectedChain && !selectedToken) {
+      // Define popular chains (same as above for consistency)
+      const popularChains = ['Ethereum', 'Arbitrum', 'Polygon', 'Optimism', 'Base', 'BNB Chain', 'Avalanche', 'Solana', 'Fantom', 'Linea', 'Gnosis', 'Celo', 'Moonbeam', 'Cronos', 'zkSync Era'];
+      
+      let filtered = pools.filter(pool => {
+        // Filter by selected chain (handle special categories)
+        let chainMatch;
+        if (selectedChain === 'All') {
+          chainMatch = true; // Include all chains
+        } else if (selectedChain === 'Popular') {
+          chainMatch = popularChains.includes(pool.chain);
+        } else {
+          chainMatch = pool.chain === selectedChain; // Regular chain match
+        }
         
         // Filter by pool type if selected
         const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
@@ -1446,7 +1506,7 @@ function App() {
     setShowAutocomplete(false);
     
     // Analytics tracking for chain selection
-    const isFeelingDegen = chainName === 'Ethereum' && !selectedToken;
+    const isFeelingDegen = chainName === 'Popular' && !selectedToken && minTvl >= 1000000;
     if (isFeelingDegen) {
       Analytics.trackFeelingDegen();
     }
@@ -2162,7 +2222,38 @@ function App() {
             React.createElement('button', {
               className: 'search-button feeling-degen',
               onClick: () => {
-                handleChainSelect('Ethereum');
+                // Set Popular category with 1M TVL for degen-level opportunities
+                setSelectedChain('Popular');
+                setChainMode(true);
+                setShowFilters(true);
+                setMinTvl(1000000); // $1M TVL for degen mode
+                setShowAutocomplete(false);
+                
+                // Analytics tracking for feeling degen
+                Analytics.trackFeelingDegen();
+                Analytics.trackSearch('', {
+                  selected_chain: 'Popular',
+                  input_method: 'feeling_degen_button',
+                  language
+                });
+                
+                // Update URL for degen mode
+                updateUrl('', 'Popular', selectedPoolTypes, selectedProtocols, 1000000, minApy);
+                
+                // Scroll to results on mobile
+                const isMobile = window.matchMedia('(max-width: 768px)').matches;
+                if (isMobile) {
+                  setTimeout(() => {
+                    const resultsSection = document.querySelector('.results-section');
+                    if (resultsSection) {
+                      resultsSection.scrollIntoView({ 
+                        behavior: 'smooth', 
+                        block: 'start',
+                        inline: 'nearest'
+                      });
+                    }
+                  }, 100);
+                }
               }
             },
               React.createElement('span', { className: 'button-icon' }, '🚀'),
@@ -2405,12 +2496,35 @@ function App() {
       },
         React.createElement('div', { className: 'filter-pills-grid' },
           React.createElement('button', {
-            className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
+            className: `filter-pill chain-pill ${selectedChain === 'All' ? 'active' : ''}`,
             onClick: () => {
-              setSelectedChain('');
+              setSelectedChain('All');
+              setChainMode(true); // Enable chain mode for All category
               setActiveDropdown(null);
+              setShowFilters(true);
+              
+              // Set reasonable default filters for All chains
+              if (minTvl === 0) setMinTvl(10000); // $10k default TVL for all chains
+              
+              // Update URL
+              updateUrl('', 'All', selectedPoolTypes, selectedProtocols, minTvl || 10000, minApy);
             }
-          }, 'All Chains'),
+          }, 'All'),
+          React.createElement('button', {
+            className: `filter-pill chain-pill ${selectedChain === 'Popular' ? 'active' : ''}`,
+            onClick: () => {
+              setSelectedChain('Popular');
+              setChainMode(true); // Enable chain mode for Popular category  
+              setActiveDropdown(null);
+              setShowFilters(true);
+              
+              // Set reasonable default filters for Popular chains
+              if (minTvl === 0) setMinTvl(50000); // $50k default TVL for popular chains
+              
+              // Update URL
+              updateUrl('', 'Popular', selectedPoolTypes, selectedProtocols, minTvl || 50000, minApy);
+            }
+          }, 'Popular'),
           availableChains.map(chain => 
             React.createElement('button', {
               key: chain,
