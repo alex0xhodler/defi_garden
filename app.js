@@ -1318,10 +1318,16 @@ function App() {
       return;
     }
     
-    // All Chains mode: filter across all chains when no specific token or chain is selected
-    // Show results if any filters are active OR if we're coming from a filtered state
-    if (!selectedToken && !selectedChain && (minTvl > 0 || minApy > 0 || selectedPoolTypes.length > 0 || selectedProtocols.length > 0 || showFilters)) {
+    // Special chain categories: handle "All" and "Popular" as predefined filters
+    if (!selectedToken && (selectedChain === 'All' || selectedChain === 'Popular')) {
+      // Define popular chains (top 15 by TVL/activity)
+      const popularChains = ['Ethereum', 'Arbitrum', 'Polygon', 'Optimism', 'Base', 'BNB Chain', 'Avalanche', 'Solana', 'Fantom', 'Linea', 'Gnosis', 'Celo', 'Moonbeam', 'Cronos', 'zkSync Era'];
+      
       let filtered = pools.filter(pool => {
+        // Chain filter: either all chains or popular chains only
+        const chainMatch = selectedChain === 'All' || 
+          (selectedChain === 'Popular' && popularChains.includes(pool.chain));
+        
         // Filter by pool type if selected
         const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
         
@@ -1349,7 +1355,7 @@ function App() {
         const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
         const apyMatch = totalApy >= minApy;
         
-        return poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+        return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
       });
       // Sort by total APY (base + reward) descending
       filtered.sort((a, b) => {
@@ -1362,11 +1368,21 @@ function App() {
       return;
     }
     
-    // Chain-first mode: filter by chain only
+    // Chain-first mode: filter by chain only (including special categories)
     if (chainMode && selectedChain && !selectedToken) {
+      // Define popular chains (same as above for consistency)
+      const popularChains = ['Ethereum', 'Arbitrum', 'Polygon', 'Optimism', 'Base', 'BNB Chain', 'Avalanche', 'Solana', 'Fantom', 'Linea', 'Gnosis', 'Celo', 'Moonbeam', 'Cronos', 'zkSync Era'];
+      
       let filtered = pools.filter(pool => {
-        // Filter by selected chain
-        const chainMatch = pool.chain === selectedChain;
+        // Filter by selected chain (handle special categories)
+        let chainMatch;
+        if (selectedChain === 'All') {
+          chainMatch = true; // Include all chains
+        } else if (selectedChain === 'Popular') {
+          chainMatch = popularChains.includes(pool.chain);
+        } else {
+          chainMatch = pool.chain === selectedChain; // Regular chain match
+        }
         
         // Filter by pool type if selected
         const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
@@ -2449,22 +2465,35 @@ function App() {
       },
         React.createElement('div', { className: 'filter-pills-grid' },
           React.createElement('button', {
-            className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
+            className: `filter-pill chain-pill ${selectedChain === 'All' ? 'active' : ''}`,
             onClick: () => {
-              setSelectedChain('');
-              setChainMode(false); // Exit chain mode when selecting All Chains
+              setSelectedChain('All');
+              setChainMode(true); // Enable chain mode for All category
               setActiveDropdown(null);
+              setShowFilters(true);
               
-              // Keep filters visible if other filters are active
-              const hasOtherFilters = minTvl > 0 || minApy > 0 || selectedPoolTypes.length > 0 || selectedProtocols.length > 0;
-              if (hasOtherFilters) {
-                setShowFilters(true);
-              }
+              // Set reasonable default filters for All chains
+              if (minTvl === 0) setMinTvl(10000); // $10k default TVL for all chains
               
-              // Update URL to remove chain parameter
-              updateUrl('', '', selectedPoolTypes, selectedProtocols, minTvl, minApy);
+              // Update URL
+              updateUrl('', 'All', selectedPoolTypes, selectedProtocols, minTvl || 10000, minApy);
             }
-          }, 'All Chains'),
+          }, 'All'),
+          React.createElement('button', {
+            className: `filter-pill chain-pill ${selectedChain === 'Popular' ? 'active' : ''}`,
+            onClick: () => {
+              setSelectedChain('Popular');
+              setChainMode(true); // Enable chain mode for Popular category  
+              setActiveDropdown(null);
+              setShowFilters(true);
+              
+              // Set reasonable default filters for Popular chains
+              if (minTvl === 0) setMinTvl(50000); // $50k default TVL for popular chains
+              
+              // Update URL
+              updateUrl('', 'Popular', selectedPoolTypes, selectedProtocols, minTvl || 50000, minApy);
+            }
+          }, 'Popular'),
           availableChains.map(chain => 
             React.createElement('button', {
               key: chain,
