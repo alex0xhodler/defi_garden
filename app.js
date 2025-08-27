@@ -1284,8 +1284,17 @@ function App() {
       }))
       .sort((a, b) => b.totalTvl - a.totalTvl);
     
-    // Get top 5 as "popular"
-    const popular = allProtocols.slice(0, 5);
+    // Get popular protocols with enhanced selection criteria
+    // Include top protocols by TVL, ensuring high-TVL single-chain protocols are represented
+    const popular = allProtocols.filter((protocol, index) => {
+      // Always include top 5 by TVL
+      if (index < 5) return true;
+      
+      // Include additional protocols with >$100M TVL (captures significant single-chain protocols)
+      if (protocol.totalTvl > 100000000) return true;
+      
+      return false;
+    }).slice(0, 10); // Cap at 10 popular protocols
     
     return {
       popular,
