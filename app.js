@@ -1226,9 +1226,17 @@ function App() {
       
       let includePool = false;
       
-      // Chain mode: include pools on selected chain
+      // Chain mode: include pools based on selected chain (including special categories)
       if (chainMode && selectedChain && !selectedToken) {
-        includePool = pool.chain === selectedChain;
+        if (selectedChain === 'All') {
+          includePool = true; // Include all chains
+        } else if (selectedChain === 'Popular') {
+          // Define popular chains (same as in filtering logic)
+          const popularChains = ['Ethereum', 'Arbitrum', 'Polygon', 'Optimism', 'Base', 'BNB Chain', 'Avalanche', 'Solana', 'Fantom', 'Linea', 'Gnosis', 'Celo', 'Moonbeam', 'Cronos', 'zkSync Era'];
+          includePool = popularChains.includes(pool.chain);
+        } else {
+          includePool = pool.chain === selectedChain; // Regular chain match
+        }
       }
       // Token mode: include pools with selected token
       else if (selectedToken && pool.symbol) {
@@ -1237,7 +1245,14 @@ function App() {
         
         // Also check chain filter if both token and chain are selected
         if (includePool && selectedChain) {
-          includePool = pool.chain === selectedChain;
+          if (selectedChain === 'All') {
+            includePool = true; // Keep all chains for token
+          } else if (selectedChain === 'Popular') {
+            const popularChains = ['Ethereum', 'Arbitrum', 'Polygon', 'Optimism', 'Base', 'BNB Chain', 'Avalanche', 'Solana', 'Fantom', 'Linea', 'Gnosis', 'Celo', 'Moonbeam', 'Cronos', 'zkSync Era'];
+            includePool = popularChains.includes(pool.chain);
+          } else {
+            includePool = pool.chain === selectedChain; // Regular chain match
+          }
         }
       }
       
