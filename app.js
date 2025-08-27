@@ -343,9 +343,16 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
       'Raydium': ['raydium'],
       'Orca': ['orca'],
       'Balancer': ['balancer', 'balancer-v2', 'bal'],
-      'Yearn': ['yearn', 'yearn-finance'],
-      'Pendle': ['pendle'],
-      'Sonic': ['sonic']
+      'Yearn': ['yearn', 'yearn-finance', 'yearn-v2'],
+      'Pendle': ['pendle', 'pendle-finance'],
+      'Sonic': ['sonic', 'sonic-protocol'],
+      'Trader Joe': ['trader-joe', 'traderjoe', 'joe'],
+      'SpookySwap': ['spookyswap', 'spooky', 'boo'],
+      'SushiSwap': ['sushiswap', 'sushi'],
+      'Convex': ['convex', 'cvx'],
+      'Frax': ['frax', 'frax-finance'],
+      'GMX': ['gmx'],
+      'Stargate': ['stargate', 'stg']
     });
   }
 
