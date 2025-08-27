@@ -2584,7 +2584,7 @@ function App() {
               setActiveDropdown(null);
             }
           }, 'Popular'),
-          availableProtocols.all.slice(0, 10).map(protocol => 
+          availableProtocols.all.slice(0, 50).map(protocol => 
             React.createElement('button', {
               key: protocol.friendlyName,
               className: `filter-pill protocol-pill ${selectedProtocols.includes(protocol.friendlyName) ? 'active' : ''}`,
