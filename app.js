@@ -1318,8 +1318,9 @@ function App() {
       return;
     }
     
-    // All Chains mode: filter across all chains with TVL/APY/Protocol filters
-    if (!selectedToken && !selectedChain && (minTvl > 0 || minApy > 0 || selectedPoolTypes.length > 0 || selectedProtocols.length > 0)) {
+    // All Chains mode: filter across all chains when no specific token or chain is selected
+    // Show results if any filters are active OR if we're coming from a filtered state
+    if (!selectedToken && !selectedChain && (minTvl > 0 || minApy > 0 || selectedPoolTypes.length > 0 || selectedProtocols.length > 0 || showFilters)) {
       let filtered = pools.filter(pool => {
         // Filter by pool type if selected
         const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
@@ -2459,6 +2460,9 @@ function App() {
               if (hasOtherFilters) {
                 setShowFilters(true);
               }
+              
+              // Update URL to remove chain parameter
+              updateUrl('', '', selectedPoolTypes, selectedProtocols, minTvl, minApy);
             }
           }, 'All Chains'),
           availableChains.map(chain => 
