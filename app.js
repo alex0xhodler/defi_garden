@@ -295,44 +295,66 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
   // --- Parse Protocols ---
   let protocols = [];
   
-  // Create protocol alias mapping for better matching
-  const protocolAliases = {
-    // Aave variants
-    'aave': ['aave', 'aave-v2', 'aave-v3'],
-    // Compound variants  
-    'compound': ['compound', 'compound-v2', 'compound-v3', 'comp'],
-    // Uniswap variants
-    'uniswap': ['uniswap', 'uniswap-v2', 'uniswap-v3', 'uni'],
-    // Curve variants
-    'curve': ['curve', 'curve-dex', 'crv'],
-    // Morpho variants
-    'morpho': ['morpho', 'morpho-blue'],
-    // Euler
-    'euler': ['euler'],
-    // Venus
-    'venus': ['venus'],
-    // Aerodrome variants
-    'aerodrome': ['aerodrome', 'aerodrome-slipstream'],
-    // PancakeSwap variants
-    'pancakeswap': ['pancakeswap', 'pancakeswap-v2', 'pancakeswap-v3', 'pcs'],
-    // Lido
-    'lido': ['lido'],
-    // Rocket Pool
-    'rocket pool': ['rocket-pool', 'rocketpool', 'rpl'],
-    // Ether.fi
-    'ether.fi': ['ether.fi', 'ether.fi-stake', 'etherfi'],
-    // Jito
-    'jito': ['jito', 'jito-liquid-staking'],
-    // Marinade
-    'marinade': ['marinade'],
-    // Raydium
-    'raydium': ['raydium'],
-    // Orca
-    'orca': ['orca'],
-    // Balancer
-    'balancer': ['balancer', 'balancer-v2', 'bal']
-    // Note: 'base' removed from protocol aliases to avoid conflict with Base chain
-  };
+  // Create dynamic protocol aliases from available protocols list
+  const protocolAliases = {};
+  
+  // If we have available protocols, use them; otherwise fall back to static list
+  if (allProtocols && allProtocols.length > 0) {
+    // Generate aliases dynamically from available protocols
+    allProtocols.forEach(protocol => {
+      const friendlyName = protocol.friendlyName || protocol;
+      const lowerFriendly = friendlyName.toLowerCase();
+      
+      // Create variations for each protocol
+      const aliases = [lowerFriendly];
+      
+      // Add common variations
+      if (lowerFriendly.includes('v2')) aliases.push(lowerFriendly.replace('v2', 'v-2'));
+      if (lowerFriendly.includes('v3')) aliases.push(lowerFriendly.replace('v3', 'v-3'));
+      if (lowerFriendly.includes('-')) aliases.push(lowerFriendly.replace(/-/g, ' '));
+      if (lowerFriendly.includes(' ')) aliases.push(lowerFriendly.replace(/\s+/g, '-'));
+      
+      // Add original names if available
+      if (protocol.originalNames && Array.isArray(protocol.originalNames)) {
+        protocol.originalNames.forEach(name => {
+          aliases.push(name.toLowerCase());
+        });
+      }
+      
+      protocolAliases[friendlyName] = [...new Set(aliases)]; // Deduplicate
+    });
+  } else {
+    // Fallback to static aliases for core protocols
+    Object.assign(protocolAliases, {
+      'Aave': ['aave', 'aave-v2', 'aave-v3'],
+      'Compound': ['compound', 'compound-v2', 'compound-v3', 'comp'],
+      'Uniswap': ['uniswap', 'uniswap-v2', 'uniswap-v3', 'uni'],
+      'Curve': ['curve', 'curve-dex', 'crv'],
+      'Morpho': ['morpho', 'morpho-blue'],
+      'Euler': ['euler'],
+      'Venus': ['venus'],
+      'Aerodrome': ['aerodrome', 'aerodrome-slipstream'],
+      'PancakeSwap': ['pancakeswap', 'pancakeswap-v2', 'pancakeswap-v3', 'pcs'],
+      'Lido': ['lido'],
+      'Rocket Pool': ['rocket-pool', 'rocketpool', 'rpl'],
+      'Ether.fi': ['ether.fi', 'ether.fi-stake', 'etherfi'],
+      'Jito': ['jito', 'jito-liquid-staking'],
+      'Marinade': ['marinade'],
+      'Raydium': ['raydium'],
+      'Orca': ['orca'],
+      'Balancer': ['balancer', 'balancer-v2', 'bal'],
+      'Yearn': ['yearn', 'yearn-finance', 'yearn-v2'],
+      'Pendle': ['pendle', 'pendle-finance'],
+      'Sonic': ['sonic', 'sonic-protocol'],
+      'Trader Joe': ['trader-joe', 'traderjoe', 'joe'],
+      'SpookySwap': ['spookyswap', 'spooky', 'boo'],
+      'SushiSwap': ['sushiswap', 'sushi'],
+      'Convex': ['convex', 'cvx'],
+      'Frax': ['frax', 'frax-finance'],
+      'GMX': ['gmx'],
+      'Stargate': ['stargate', 'stg']
+    });
+  }
 
   // Protocol context keywords that typically precede protocol names
   const protocolKeywords = ['on', 'via', 'using', 'through', 'from', 'with', 'in'];
