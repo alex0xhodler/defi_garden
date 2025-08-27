@@ -1318,6 +1318,49 @@ function App() {
       return;
     }
     
+    // All Chains mode: filter across all chains with TVL/APY/Protocol filters
+    if (!selectedToken && !selectedChain && (minTvl > 0 || minApy > 0 || selectedPoolTypes.length > 0 || selectedProtocols.length > 0)) {
+      let filtered = pools.filter(pool => {
+        // Filter by pool type if selected
+        const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
+        
+        // Filter by protocol if selected (check against friendly names)
+        const protocolMatch = selectedProtocols.length === 0 || 
+          selectedProtocols.some(selectedProtocol => {
+            // Method 1: Find the protocol object with matching friendly name (case insensitive)
+            const protocolObj = availableProtocols?.all?.find(p => 
+              p?.friendlyName?.toLowerCase() === selectedProtocol?.toLowerCase()
+            );
+            if (protocolObj && protocolObj.originalNames.includes(pool.project)) {
+              return true;
+            }
+            
+            // Method 2: Direct fallback - check if pool project name contains the selected protocol
+            const projectLower = pool.project?.toLowerCase() || '';
+            const protocolLower = selectedProtocol?.toLowerCase() || '';
+            return projectLower.includes(protocolLower) || projectLower.includes(protocolLower.replace(/\s+/g, '-'));
+          });
+        
+        // Filter by minimum TVL
+        const tvlMatch = pool.tvlUsd >= minTvl;
+        
+        // Filter by minimum APY
+        const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
+        const apyMatch = totalApy >= minApy;
+        
+        return poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+      });
+      // Sort by total APY (base + reward) descending
+      filtered.sort((a, b) => {
+        const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+        const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+        return apyB - apyA;
+      });
+      setFilteredPools(filtered);
+      setCurrentPage(1);
+      return;
+    }
+    
     // Chain-first mode: filter by chain only
     if (chainMode && selectedChain && !selectedToken) {
       let filtered = pools.filter(pool => {
@@ -2408,7 +2451,14 @@ function App() {
             className: `filter-pill chain-pill ${!selectedChain ? 'active' : ''}`,
             onClick: () => {
               setSelectedChain('');
+              setChainMode(false); // Exit chain mode when selecting All Chains
               setActiveDropdown(null);
+              
+              // Keep filters visible if other filters are active
+              const hasOtherFilters = minTvl > 0 || minApy > 0 || selectedPoolTypes.length > 0 || selectedProtocols.length > 0;
+              if (hasOtherFilters) {
+                setShowFilters(true);
+              }
             }
           }, 'All Chains'),
           availableChains.map(chain => 
