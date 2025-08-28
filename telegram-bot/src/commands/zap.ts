@@ -491,9 +491,9 @@ export async function handleZapConfirmation(
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
             .text("🔄 Retry Same Zap", "retry_zap")
-            .text("📊 Check Balance", "check_balance")
-            .row()
             .text("🚀 Start New Zap", "zap_funds")
+            .row()
+            .text("📊 Check Balance", "check_balance")
         }
       );
 
@@ -628,9 +628,9 @@ export async function handleZapRetry(ctx: BotContext): Promise<void> {
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
             .text("🔄 Retry Again", "retry_zap")
-            .text("📊 Check Balance", "check_balance")
-            .row()
             .text("🚀 Start New Zap", "zap_funds")
+            .row()
+            .text("📊 Check Balance", "check_balance")
         }
       );
     }
