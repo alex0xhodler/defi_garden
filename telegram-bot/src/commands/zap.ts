@@ -121,18 +121,15 @@ const zapHandler: CommandHandler = {
 
       // Check if user wants automation or manual selection
       const keyboard = new InlineKeyboard()
-        .text("🤖 Auto-Deploy (Recommended)", "zap_auto_deploy")
+        .text("🤖 Auto Earn", "zap_auto_deploy")
         .row()
-        .text("🎯 Choose Protocol Manually", "zap_choose_protocol")
-        .row()
-        .text("📊 Compare All Options", "zap_compare_all");
+        .text("🎯 Choose Protocol", "zap_choose_protocol");
 
       await ctx.reply(
         `🚀 *Ready to Zap USDC into Yield Farming*\n\n` +
         `I'll find the best opportunities based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
-        `**Auto-Deploy**: I pick the highest APY pool with good safety scores\n` +
-        `**Manual**: You choose from available protocols\n` +
-        `**Compare**: See all options with detailed info\n\n` +
+        `**Auto Earn**: I pick the highest APY pool with good safety scores\n` +
+        `**Choose Protocol**: You choose from available protocols\n\n` +
         `How would you like to proceed?`,
         {
           parse_mode: "Markdown",
