@@ -91,6 +91,13 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       try {
         const receipt = await withdrawFromAave(wallet, "max");
 
+        const successKeyboard = new InlineKeyboard()
+          .text("📊 View Portfolio", "view_portfolio")
+          .text("🚀 Reinvest", "zap_funds")
+          .row()
+          .text("💰 Check Balance", "check_balance")
+          .text("📥 Deposit More", "deposit");
+
         await ctx.api.editMessageText(
           processingMsg.chat.id,
           processingMsg.message_id,
@@ -103,13 +110,21 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
             `💰 USDC has been withdrawn to your wallet!\n` +
             `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`,
           {
-            parse_mode: "Markdown"
+            parse_mode: "Markdown",
+            reply_markup: successKeyboard
           }
         );
 
       } catch (error: any) {
         console.error("Withdrawal failed:", error);
         
+        const errorKeyboard = new InlineKeyboard()
+          .text("🔄 Try Again", "withdraw_aave_max")
+          .text("💸 Custom Amount", "withdraw_custom")
+          .row()
+          .text("📊 View Portfolio", "view_portfolio")
+          .text("💰 Check Balance", "check_balance");
+
         await ctx.api.editMessageText(
           processingMsg.chat.id,
           processingMsg.message_id,
@@ -121,7 +136,8 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
             `• Network issues\n\n` +
             `Try checking your balance with /portfolio`,
           {
-            parse_mode: "Markdown"
+            parse_mode: "Markdown",
+            reply_markup: errorKeyboard
           }
         );
       }
@@ -229,6 +245,13 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
         rewardStatus = "Left in pool (default)";
       }
 
+      const successKeyboard = new InlineKeyboard()
+        .text("📊 View Portfolio", "view_portfolio")
+        .text("🚀 Reinvest", "zap_funds")
+        .row()
+        .text("💰 Check Balance", "check_balance")
+        .text("📥 Deposit More", "deposit");
+
       await ctx.api.editMessageText(
         processingMsg.chat.id,
         processingMsg.message_id,
@@ -242,7 +265,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
           `💰 USDC has been withdrawn to your wallet!\n` +
           `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`,
         {
-          parse_mode: "Markdown"
+          parse_mode: "Markdown",
+          reply_markup: successKeyboard
         }
       );
 
@@ -253,6 +277,13 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
     } catch (error: any) {
       console.error("Withdrawal failed:", error);
       
+      const errorKeyboard = new InlineKeyboard()
+        .text("🔄 Try Again", "withdraw_custom")
+        .text("💸 Withdraw All", "withdraw_aave_max")
+        .row()
+        .text("📊 View Portfolio", "view_portfolio")
+        .text("💰 Check Balance", "check_balance");
+
       await ctx.api.editMessageText(
         processingMsg.chat.id,
         processingMsg.message_id,
@@ -265,7 +296,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
           `• Network issues\n\n` +
           `Try checking your balance with /portfolio`,
         {
-          parse_mode: "Markdown"
+          parse_mode: "Markdown",
+          reply_markup: errorKeyboard
         }
       );
       

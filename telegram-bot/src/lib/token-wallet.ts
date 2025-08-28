@@ -167,9 +167,25 @@ export async function executeContractMethod({
         account,
       });
 
-      // Write transaction
-      const hash = await walletClient.writeContract(request);
-      console.log(`Transaction submitted: ${hash}`);
+      // Use "fast" gas settings for reliable transaction execution
+      const feeData = await publicClient.estimateFeesPerGas();
+      
+      // Use 2x multiplier for "fast" transaction speed
+      const maxFeePerGas = feeData.maxFeePerGas * 2n;
+      const maxPriorityFeePerGas = feeData.maxPriorityFeePerGas * 2n;
+
+      // Write transaction with fast gas settings
+      const hash = await walletClient.writeContract({
+        address: contractAddress,
+        abi,
+        functionName,
+        args,
+        account,
+        chain: base,
+        maxFeePerGas,
+        maxPriorityFeePerGas,
+      });
+      console.log(`Transaction submitted with fast gas: ${hash}`);
 
       // Wait for receipt
       const receipt = await publicClient.waitForTransactionReceipt({ hash });
