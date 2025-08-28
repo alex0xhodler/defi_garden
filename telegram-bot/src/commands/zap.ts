@@ -383,7 +383,7 @@ export async function handleZapConfirmation(
     }
 
     const userId = ctx.session.userId;
-    const { amount, selectedPool, poolInfo, walletAddress } = ctx.session.tempData!;
+    const { amount, selectedPool, poolInfo } = ctx.session.tempData!;
 
     if (!userId || !amount || !selectedPool) {
       await ctx.reply("❌ Session expired. Please start again with /zap");
@@ -398,6 +398,8 @@ export async function handleZapConfirmation(
       if (!wallet) {
         throw new Error("Wallet not found");
       }
+
+      const walletAddress = wallet.address;
 
       // Execute real DeFi transaction
       console.log(`Executing real zap: ${amount} USDC to ${poolInfo.protocol}`);
@@ -488,8 +490,7 @@ export async function handleZapConfirmation(
       ctx.session.retryZap = {
         amount,
         selectedPool,
-        poolInfo,
-        walletAddress
+        poolInfo
       };
 
       await ctx.reply(
@@ -609,7 +610,7 @@ export async function handleZapRetry(ctx: BotContext): Promise<void> {
     await ctx.answerCallbackQuery();
     await ctx.reply("⏳ Retrying zap transaction with same parameters...\n\n🔄 This may take 30-60 seconds.");
 
-    const { amount, selectedPool, poolInfo, walletAddress } = retryData;
+    const { amount, selectedPool, poolInfo } = retryData;
 
     try {
       // Get user's wallet for transaction execution
@@ -617,6 +618,8 @@ export async function handleZapRetry(ctx: BotContext): Promise<void> {
       if (!wallet) {
         throw new Error("Wallet not found");
       }
+
+      const walletAddress = wallet.address;
 
       // Execute real DeFi transaction with same parameters
       console.log(`Retrying zap: ${amount} USDC to ${poolInfo.protocol}`);

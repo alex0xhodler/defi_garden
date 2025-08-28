@@ -14,7 +14,6 @@ export interface SessionData {
     amount: string;
     selectedPool: string;
     poolInfo: any;
-    walletAddress: string;
   };
 }
 
