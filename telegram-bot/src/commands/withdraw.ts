@@ -92,8 +92,8 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         const receipt = await withdrawFromAave(wallet, "max");
 
         const successKeyboard = new InlineKeyboard()
-          .text("📊 View Portfolio", "view_portfolio")
           .text("🚀 Reinvest", "zap_funds")
+          .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
           .text("📥 Deposit More", "deposit");
@@ -246,8 +246,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       }
 
       const successKeyboard = new InlineKeyboard()
-        .text("📊 View Portfolio", "view_portfolio")
         .text("🚀 Reinvest", "zap_funds")
+        .text("📊 View Portfolio", "view_portfolio")
         .row()
         .text("💰 Check Balance", "check_balance")
         .text("📥 Deposit More", "deposit");
