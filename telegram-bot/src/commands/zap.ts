@@ -525,6 +525,76 @@ export async function handleZapConfirmation(
   }
 }
 
+// Handle auto-earn deployment
+export async function handleAutoEarn(ctx: BotContext): Promise<void> {
+  try {
+    const userId = ctx.session.userId;
+
+    if (!userId) {
+      await ctx.reply("❌ Please start the bot first with /start command.");
+      return;
+    }
+
+    await ctx.answerCallbackQuery();
+
+    // Set session to auto mode
+    ctx.session.zapMode = "auto";
+
+    // Get the best pool automatically
+    const userRiskLevel = ctx.session.settings?.riskLevel || 3;
+    const userMinApy = ctx.session.settings?.minApy || 5;
+    
+    const opportunities = await getYieldOpportunities("USDC", userRiskLevel, userMinApy);
+    const bestPool = opportunities
+      .filter(pool => {
+        const riskScore = calculateRiskScore(pool);
+        return riskScore <= userRiskLevel * 2;
+      })
+      .filter(pool => pool.apy >= userMinApy)
+      .sort((a, b) => b.apy - a.apy)[0]; // Get highest APY
+
+    if (!bestPool) {
+      await ctx.reply(
+        "😔 No suitable pools found for auto-deployment.\n\n" +
+        "Try adjusting your settings with /settings or choose manually."
+      );
+      return;
+    }
+
+    // Store the selected pool
+    ctx.session.tempData = {
+      selectedPool: bestPool.poolId,
+      poolInfo: {
+        protocol: bestPool.project,
+        apy: bestPool.apy,
+        tvlUsd: bestPool.tvlUsd,
+        riskScore: calculateRiskScore(bestPool)
+      }
+    };
+    ctx.session.currentAction = "zap_amount";
+
+    // Show the selected pool and ask for amount
+    const riskScore = calculateRiskScore(bestPool);
+    const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
+
+    await ctx.reply(
+      `🤖 **Auto-Earn Selected Best Pool**\n\n` +
+      `${safetyIcon} **${bestPool.project}** - Highest APY Available\n` +
+      `• **APY**: **${bestPool.apy}%** (${bestPool.apyBase}% base + ${bestPool.apyReward}% rewards)\n` +
+      `• **TVL**: $${(bestPool.tvlUsd / 1_000_000).toFixed(1)}M\n` +
+      `• **Risk Score**: ${riskScore}/10\n` +
+      `• **Safety**: ${riskScore <= 3 ? "Very Safe" : riskScore <= 6 ? "Moderate" : "Higher Risk"}\n\n` +
+      `💰 **How much USDC would you like to invest?**\n\n` +
+      `Enter the amount in USDC (e.g., "10", "25.5"):`,
+      { parse_mode: "Markdown" }
+    );
+
+  } catch (error) {
+    console.error("Error in auto-earn deployment:", error);
+    await ctx.reply("❌ Error setting up auto-deployment. Please try again.");
+  }
+}
+
 // Handle zap retry with same parameters
 export async function handleZapRetry(ctx: BotContext): Promise<void> {
   try {

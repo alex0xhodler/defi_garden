@@ -14,6 +14,7 @@ import zapHandler, {
   handleZapAmountInput,
   handleZapConfirmation,
   handleZapRetry,
+  handleAutoEarn,
 } from "./src/commands/zap";
 import portfolioHandler, { handlePortfolioDetails } from "./src/commands/portfolio";
 import harvestHandler from "./src/commands/harvest";
@@ -154,8 +155,7 @@ bot.on("callback_query:data", async (ctx) => {
 
   // Auto-deployment vs manual selection
   else if (callbackData === "zap_auto_deploy") {
-    ctx.session.zapMode = "auto";
-    await zapHandler.handler(ctx);
+    await handleAutoEarn(ctx);
   } else if (callbackData === "zap_choose_protocol") {
     ctx.session.zapMode = "manual";
     // Show protocol selection
