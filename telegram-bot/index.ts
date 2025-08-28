@@ -98,7 +98,7 @@ bot.on("callback_query:data", async (ctx) => {
   const callbackData = ctx.callbackQuery.data;
 
   // Handle withdraw-specific callbacks first
-  if (callbackData === "withdraw_aave_max" || callbackData === "withdraw_custom" || 
+  if (callbackData === "withdraw_aave_max" || callbackData === "withdraw_fluid_max" || callbackData === "withdraw_custom" || 
       callbackData === "withdraw_custom_with_rewards" || callbackData === "withdraw_custom_no_rewards") {
     await handleWithdrawCallbacks(ctx);
     return;

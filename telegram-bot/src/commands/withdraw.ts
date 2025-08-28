@@ -1,6 +1,6 @@
 import { BotContext } from "../context";
 import { getWallet } from "../lib/token-wallet";
-import { withdrawFromAave } from "../lib/defi-protocols";
+import { withdrawFromAave, withdrawFromFluid } from "../lib/defi-protocols";
 import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
 
@@ -34,15 +34,17 @@ const withdrawHandler: CommandHandler = {
 
       // Show exit pool options
       const keyboard = new InlineKeyboard()
-        .text("🚪 Exit All from Aave", "withdraw_aave_max").row()
+        .text("🌊 Exit All from Fluid", "withdraw_fluid_max")
+        .text("🏛️ Exit All from Aave", "withdraw_aave_max").row()
         .text("🚪 Exit Custom Amount", "withdraw_custom").row()
         .text("❌ Cancel", "cancel_operation");
 
       await ctx.reply(
-        `🚪 **Exit DeFi Pool**\n\n` +
+        `🚪 **Exit DeFi Pools**\n\n` +
           `**Options:**\n` +
-          `• **Exit All** - Get all your USDC back from Aave to wallet\n` +
-          `• **Exit Custom** - Specify exact amount to exit\n\n` +
+          `• **Exit Fluid** - Get all your USDC back from Fluid to wallet\n` +
+          `• **Exit Aave** - Get all your USDC back from Aave to wallet\n` +
+          `• **Exit Custom** - Specify exact amount and protocol to exit\n\n` +
           `**Note:** Small gas fee (~$0.002) required for pool exit`,
         {
           parse_mode: "Markdown",
@@ -73,6 +75,74 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
     if (!wallet) {
       await ctx.answerCallbackQuery("No wallet found. Create one first.");
       return;
+    }
+
+    if (callbackData === "withdraw_fluid_max") {
+      await ctx.answerCallbackQuery();
+      
+      const processingMsg = await ctx.reply(
+        `🔄 **Processing Pool Exit...**\n\n` +
+          `**Protocol:** Fluid Finance\n` +
+          `**Amount:** All available USDC\n` +
+          `**Status:** Executing transaction...`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+
+      try {
+        const receipt = await withdrawFromFluid(wallet, "max");
+
+        const successKeyboard = new InlineKeyboard()
+          .text("🚀 Reinvest", "zap_funds")
+          .text("📊 View Portfolio", "view_portfolio")
+          .row()
+          .text("💰 Check Balance", "check_balance")
+          .text("📥 Deposit More", "deposit");
+
+        await ctx.api.editMessageText(
+          processingMsg.chat.id,
+          processingMsg.message_id,
+          `✅ **Pool Exit Successful!**\n\n` +
+            `**Protocol:** Fluid Finance\n` +
+            `**Amount:** All available USDC\n` +
+            `**Transaction:** \`${receipt.transactionHash}\`\n` +
+            `**Block:** ${receipt.blockNumber}\n` +
+            `**Gas Used:** ${receipt.gasUsed}\n\n` +
+            `💰 USDC has been moved back to your wallet!\n` +
+            `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: successKeyboard
+          }
+        );
+
+      } catch (error: any) {
+        console.error("Fluid withdrawal failed:", error);
+        
+        const errorKeyboard = new InlineKeyboard()
+          .text("🔄 Try Again", "withdraw_fluid_max")
+          .text("🏛️ Exit Aave Instead", "withdraw_aave_max")
+          .row()
+          .text("📊 View Portfolio", "view_portfolio")
+          .text("💰 Check Balance", "check_balance");
+
+        await ctx.api.editMessageText(
+          processingMsg.chat.id,
+          processingMsg.message_id,
+          `❌ **Pool Exit Failed**\n\n` +
+            `**Error:** ${error.message}\n\n` +
+            `This might be due to:\n` +
+            `• Insufficient ETH for gas fees\n` +
+            `• No USDC deposited in Fluid\n` +
+            `• Network issues\n\n` +
+            `Try checking your balance with /portfolio`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: errorKeyboard
+          }
+        );
+      }
     }
 
     if (callbackData === "withdraw_aave_max") {

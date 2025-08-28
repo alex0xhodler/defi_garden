@@ -501,6 +501,39 @@ export async function getAaveBalance(walletAddress: Address): Promise<{
 }
 
 /**
+ * Get Fluid fUSDC balance for a wallet (real deposited amount)
+ * @param walletAddress The wallet address to check
+ * @returns fUSDC balance representing actual Fluid deposits
+ */
+export async function getFluidBalance(walletAddress: Address): Promise<{
+  fUsdcBalance: string;
+  fUsdcBalanceFormatted: string;
+}> {
+  try {
+    const publicClient = createPublicClientForBase();
+    
+    // Get fUSDC balance (represents USDC deposited in Fluid)
+    const fUsdcBalance = await publicClient.readContract({
+      address: BASE_TOKENS.fUSDC,
+      abi: erc20Abi,
+      functionName: "balanceOf",
+      args: [walletAddress],
+    });
+
+    return {
+      fUsdcBalance: fUsdcBalance.toString(),
+      fUsdcBalanceFormatted: formatTokenAmount(fUsdcBalance.toString(), 6, 2) // USDC has 6 decimals
+    };
+  } catch (error) {
+    console.error("Error fetching Fluid balance:", error);
+    return {
+      fUsdcBalance: "0",
+      fUsdcBalanceFormatted: "0.00"
+    };
+  }
+}
+
+/**
  * Get token address from symbol
  * @param symbol Token symbol (e.g., "ETH", "USDC")
  * @returns Token address or null if not found

@@ -15,13 +15,29 @@ import { isValidAmount } from "../utils/validators";
 import { Address } from "viem";
 
 // Mock function - will be replaced with actual API integration
+// TODO: Replace with actual DeFiLlama API calls: https://yields.llama.fi/pools
 async function getYieldOpportunities(
   token: string = "USDC", 
   riskLevel: number = 3,
   minApy: number = 5
 ): Promise<YieldOpportunity[]> {
-  // Mock data for v1 - replace with actual DeFiLlama API call
+  // Mock data for v1 - These APY values should come from real APIs in production
+  // For now using realistic estimates based on current market conditions
   return [
+    {
+      poolId: "fluid-usdc-base",
+      project: "Fluid",
+      chain: "Base",
+      symbol: "USDC",
+      tvlUsd: 120_000_000,
+      apy: 7.8,
+      apyBase: 6.5,
+      apyReward: 1.3,
+      ilRisk: "no",
+      exposure: "single",
+      underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+      rewardTokens: ["0x...FLUID"]
+    },
     {
       poolId: "aave-usdc-base",
       project: "Aave",

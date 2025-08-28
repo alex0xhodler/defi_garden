@@ -6,7 +6,7 @@ import {
   getPositionsByUserId, 
   getPortfolioStats 
 } from "../lib/database";
-import { getWallet, getAaveBalance, getTokenBalance } from "../lib/token-wallet";
+import { getWallet, getAaveBalance, getFluidBalance, getTokenBalance } from "../lib/token-wallet";
 import { Address } from "viem";
 import { BASE_TOKENS } from "../utils/constants";
 
@@ -32,16 +32,18 @@ const portfolioHandler: CommandHandler = {
       const walletAddress = wallet.address as Address;
 
       // Fetch real on-chain balances
-      const [aaveBalance, usdcBalance] = await Promise.all([
+      const [aaveBalance, fluidBalance, usdcBalance] = await Promise.all([
         getAaveBalance(walletAddress),
+        getFluidBalance(walletAddress),
         getTokenBalance(BASE_TOKENS.USDC, walletAddress)
       ]);
 
       const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
+      const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
       const usdcBalanceNum = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
 
-      // If no Aave deposits, show empty portfolio
-      if (aaveBalanceNum === 0) {
+      // If no DeFi deposits, show empty portfolio
+      if (aaveBalanceNum === 0 && fluidBalanceNum === 0) {
         const keyboard = new InlineKeyboard()
           .text("🚀 Start Earning", "zap_funds")
           .text("📥 Deposit", "deposit")
@@ -53,7 +55,8 @@ const portfolioHandler: CommandHandler = {
           `🌱 You haven't started yield farming yet!\n\n` +
           `**Current Balances**:\n` +
           `• Wallet USDC: $${usdcBalanceNum.toFixed(2)}\n` +
-          `• Aave Deposits: $0.00\n\n` +
+          `• Aave Deposits: $0.00\n` +
+          `• Fluid Deposits: $0.00\n\n` +
           `**Get Started**:\n` +
           `• Use 🚀 Start Earning to auto-deploy to best yields\n` +
           `• Earn 5%+ APY on your USDC\n` +
@@ -67,24 +70,36 @@ const portfolioHandler: CommandHandler = {
         return;
       }
 
-      // Show actual Aave position with real balance
-      const currentApy = 5.2; // Could fetch real APY from Aave API
-      const totalValue = aaveBalanceNum;
+      // Show DeFi positions with real balances
+      const aaveApy = 5.2; // Could fetch real APY from Aave API
+      const fluidApy = 7.8; // Could fetch real APY from Fluid API
+      const totalValue = aaveBalanceNum + fluidBalanceNum;
       
       let message = `📊 **Your DeFi Portfolio**\n\n`;
       
       // Real-time balances
       message += `💰 **Total Portfolio Value**: $${totalValue.toFixed(2)}\n`;
       message += `💳 **Wallet USDC**: $${usdcBalanceNum.toFixed(2)}\n`;
-      message += `🏦 **Total Deposited**: $${aaveBalanceNum.toFixed(2)}\n\n`;
+      message += `🏦 **Total Deposited**: $${totalValue.toFixed(2)}\n\n`;
 
-      // Current active position
-      message += `**🏛️ Aave V3 Position**\n\n`;
-      message += `🟢 **Aave USDC**\n`;
-      message += `• **Current Deposit**: $${aaveBalanceNum.toFixed(2)}\n`;
-      message += `• **Current APY**: ${currentApy}%\n`;
-      message += `• **Protocol**: Aave V3 on Base\n`;
-      message += `• **Status**: ✅ Active & Earning\n\n`;
+      // Active positions
+      if (fluidBalanceNum > 0) {
+        message += `**🌊 Fluid Finance Position**\n\n`;
+        message += `🟢 **Fluid USDC**\n`;
+        message += `• **Current Deposit**: $${fluidBalanceNum.toFixed(2)}\n`;
+        message += `• **Current APY**: ${fluidApy}%\n`;
+        message += `• **Protocol**: Fluid on Base\n`;
+        message += `• **Status**: ✅ Active & Earning\n\n`;
+      }
+
+      if (aaveBalanceNum > 0) {
+        message += `**🏛️ Aave V3 Position**\n\n`;
+        message += `🟢 **Aave USDC**\n`;
+        message += `• **Current Deposit**: $${aaveBalanceNum.toFixed(2)}\n`;
+        message += `• **Current APY**: ${aaveApy}%\n`;
+        message += `• **Protocol**: Aave V3 on Base\n`;
+        message += `• **Status**: ✅ Active & Earning\n\n`;
+      }
 
       // Performance note
       message += `📈 **Real-Time Data**\n`;
@@ -127,28 +142,49 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     }
 
     const walletAddress = wallet.address as Address;
-    const aaveBalance = await getAaveBalance(walletAddress);
-    const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
+    const [aaveBalance, fluidBalance] = await Promise.all([
+      getAaveBalance(walletAddress),
+      getFluidBalance(walletAddress)
+    ]);
     
-    if (aaveBalanceNum === 0) {
+    const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
+    const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
+    
+    if (aaveBalanceNum === 0 && fluidBalanceNum === 0) {
       await ctx.answerCallbackQuery("No active positions found");
       return;
     }
 
     await ctx.answerCallbackQuery();
 
-    const currentApy = 5.2; // Could fetch from Aave API
+    const aaveApy = 5.2; // Could fetch from Aave API
+    const fluidApy = 7.8; // Could fetch from Fluid API
     
     let message = `📈 **Portfolio Details**\n\n`;
-    message += `**🏛️ Aave V3 Position Details**\n\n`;
-    message += `🟢 **USDC Lending Position**\n`;
-    message += `• **Current Deposit**: $${aaveBalanceNum.toFixed(2)}\n`;
-    message += `• **Token**: aUSDC (Aave interest-bearing USDC)\n`;
-    message += `• **Protocol**: Aave V3\n`;
-    message += `• **Chain**: Base Network\n`;
-    message += `• **Current APY**: ${currentApy}%\n`;
-    message += `• **Status**: ✅ Active & Auto-Compounding\n`;
-    message += `• **Risk Level**: 🟢 Low (Aave is battle-tested)\n\n`;
+    
+    if (fluidBalanceNum > 0) {
+      message += `**🌊 Fluid Finance Position Details**\n\n`;
+      message += `🟢 **USDC Lending Position**\n`;
+      message += `• **Current Deposit**: $${fluidBalanceNum.toFixed(2)}\n`;
+      message += `• **Token**: fUSDC (Fluid interest-bearing USDC)\n`;
+      message += `• **Protocol**: Fluid Finance\n`;
+      message += `• **Chain**: Base Network\n`;
+      message += `• **Current APY**: ${fluidApy}%\n`;
+      message += `• **Status**: ✅ Active & Auto-Compounding\n`;
+      message += `• **Risk Level**: 🟢 Low (InstaDApp backed)\n\n`;
+    }
+
+    if (aaveBalanceNum > 0) {
+      message += `**🏛️ Aave V3 Position Details**\n\n`;
+      message += `🟢 **USDC Lending Position**\n`;
+      message += `• **Current Deposit**: $${aaveBalanceNum.toFixed(2)}\n`;
+      message += `• **Token**: aUSDC (Aave interest-bearing USDC)\n`;
+      message += `• **Protocol**: Aave V3\n`;
+      message += `• **Chain**: Base Network\n`;
+      message += `• **Current APY**: ${aaveApy}%\n`;
+      message += `• **Status**: ✅ Active & Auto-Compounding\n`;
+      message += `• **Risk Level**: 🟢 Low (Aave is battle-tested)\n\n`;
+    }
     
     message += `**📊 Position Analysis**\n`;
     message += `• **Real-Time Balance**: Fetched from blockchain\n`;
