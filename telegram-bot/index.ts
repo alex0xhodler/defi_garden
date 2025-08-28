@@ -14,7 +14,7 @@ import zapHandler, {
   handleZapAmountInput,
   handleZapConfirmation,
 } from "./src/commands/zap";
-import portfolioHandler from "./src/commands/portfolio";
+import portfolioHandler, { handlePortfolioDetails } from "./src/commands/portfolio";
 import harvestHandler from "./src/commands/harvest";
 import settingsHandler, {
   handleSettingsOption,
@@ -23,10 +23,10 @@ import settingsHandler, {
 } from "./src/commands/settings";
 import depositHandler from "./src/commands/deposit";
 import withdrawHandler, {
-  handleWithdrawAddress,
-  handleWithdrawAmount,
-  handleWithdrawConfirmation,
+  handleWithdrawCallbacks,
+  handleWithdrawAmountInput,
 } from "./src/commands/withdraw";
+import cleanupHandler from "./src/commands/cleanup";
 
 // Load environment variables
 dotenv.config();
@@ -65,6 +65,7 @@ bot.command(harvestHandler.command, harvestHandler.handler);
 bot.command(settingsHandler.command, settingsHandler.handler);
 bot.command(depositHandler.command, depositHandler.handler);
 bot.command(withdrawHandler.command, withdrawHandler.handler);
+bot.command(cleanupHandler.command, cleanupHandler.handler);
 bot.command(helpHandler.command, helpHandler.handler);
 
 // Set bot commands menu
@@ -78,14 +79,16 @@ bot.api.setMyCommands([
   { command: settingsHandler.command, description: settingsHandler.description },
   { command: depositHandler.command, description: depositHandler.description },
   { command: withdrawHandler.command, description: withdrawHandler.description },
+  { command: cleanupHandler.command, description: cleanupHandler.description },
   { command: helpHandler.command, description: helpHandler.description },
 ]);
 
 // Add cancel command
 bot.command("cancel", async (ctx) => {
-  if (ctx.session.currentAction) {
+  if (ctx.session.currentAction || ctx.session.awaitingWithdrawAmount) {
     ctx.session.currentAction = undefined;
     ctx.session.tempData = {};
+    ctx.session.awaitingWithdrawAmount = false;
     await ctx.reply("✅ Operation cancelled.");
   } else {
     await ctx.reply("There is no active operation to cancel.");
@@ -96,6 +99,13 @@ bot.command("cancel", async (ctx) => {
 bot.on("callback_query:data", async (ctx) => {
   const callbackData = ctx.callbackQuery.data;
 
+  // Handle withdraw-specific callbacks first
+  if (callbackData === "withdraw_aave_max" || callbackData === "withdraw_custom" || 
+      callbackData === "withdraw_custom_with_rewards" || callbackData === "withdraw_custom_no_rewards") {
+    await handleWithdrawCallbacks(ctx);
+    return;
+  }
+
   // Confirmation callbacks
   if (callbackData === "confirm_yes") {
     switch (ctx.session.currentAction) {
@@ -104,9 +114,6 @@ bot.on("callback_query:data", async (ctx) => {
         break;
       case "zap_confirm":
         await handleZapConfirmation(ctx, true);
-        break;
-      case "withdraw_confirm":
-        await handleWithdrawConfirmation(ctx, true);
         break;
       default:
         await ctx.answerCallbackQuery("Unknown action");
@@ -118,9 +125,6 @@ bot.on("callback_query:data", async (ctx) => {
         break;
       case "zap_confirm":
         await handleZapConfirmation(ctx, false);
-        break;
-      case "withdraw_confirm":
-        await handleWithdrawConfirmation(ctx, false);
         break;
       default:
         await ctx.answerCallbackQuery("Unknown action");
@@ -144,6 +148,10 @@ bot.on("callback_query:data", async (ctx) => {
     await withdrawHandler.handler(ctx);
   } else if (callbackData === "help") {
     await helpHandler.handler(ctx);
+  } else if (callbackData === "portfolio_cleanup") {
+    await cleanupHandler.handler(ctx);
+  } else if (callbackData === "portfolio_details") {
+    await handlePortfolioDetails(ctx);
   }
 
   // Auto-deployment vs manual selection
@@ -182,9 +190,10 @@ bot.on("callback_query:data", async (ctx) => {
         .text("📊 Portfolio", "view_portfolio")
         .row()
         .text("🚀 Zap", "zap_funds")
-        .text("🌾 Harvest", "harvest_yields")
+        .text("💸 Withdraw", "withdraw")
         .row()
-        .text("⚙️ Settings", "open_settings");
+        .text("⚙️ Settings", "open_settings")
+        .text("📋 Help", "help");
 
       await ctx.editMessageText(
         `🌱 *DeFi Garden Bot*\n\n` +
@@ -245,18 +254,18 @@ bot.on("message:text", async (ctx) => {
   // Skip commands
   if (ctx.message.text.startsWith("/")) return;
 
+  // Handle custom withdraw amount input
+  if (ctx.session.awaitingWithdrawAmount) {
+    await handleWithdrawAmountInput(ctx, ctx.message.text);
+    return;
+  }
+
   switch (ctx.session.currentAction) {
     case "import_wallet":
       await handlePrivateKeyInput(ctx);
       break;
     case "zap_amount":
       await handleZapAmountInput(ctx);
-      break;
-    case "withdraw_address":
-      await handleWithdrawAddress(ctx);
-      break;
-    case "withdraw_amount":
-      await handleWithdrawAmount(ctx);
       break;
     default:
       // If no current action, show help
@@ -266,17 +275,19 @@ bot.on("message:text", async (ctx) => {
           .text("📊 Portfolio", "view_portfolio")
           .row()
           .text("🚀 Zap", "zap_funds")
-          .text("🌾 Harvest", "harvest_yields");
+          .text("💸 Withdraw", "withdraw")
+          .row()
+          .text("⚙️ Settings", "open_settings")
+          .text("📋 Help", "help");
 
         await ctx.reply(
           "🌱 Hello! Here are some things you can do:\n\n" +
             "/wallet - View your wallet\n" +
             "/balance - Check your token balances\n" +
-            "/portfolio - View your DeFi positions\n" +
+            "/portfolio - View your DeFi positions and yields\n" +
             "/zap - Invest in yield farming pools\n" +
-            "/harvest - Claim your yield rewards\n" +
+            "/withdraw - Withdraw funds from DeFi positions\n" +
             "/deposit - Get your deposit address\n" +
-            "/withdraw - Withdraw funds to another address\n" +
             "/settings - Adjust risk and slippage settings\n" +
             "/help - Show help message",
           { reply_markup: keyboard }

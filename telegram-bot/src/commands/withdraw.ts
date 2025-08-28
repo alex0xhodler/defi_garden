@@ -1,26 +1,12 @@
 import { BotContext } from "../context";
-import {
-  getWallet,
-  getEthBalance,
-  withdrawEth,
-} from "../lib/token-wallet";
+import { getWallet } from "../lib/token-wallet";
+import { withdrawFromAave } from "../lib/defi-protocols";
 import { CommandHandler } from "../types/commands";
-import {
-  formatEthBalance,
-  formatWithdrawalConfirmation,
-} from "../utils/formatters";
-import {
-  isValidAddress,
-  isValidAmount,
-} from "../utils/validators";
-import { createConfirmationKeyboard } from "../utils/keyboardHelper";
-import { parseEther} from "viem";
-import { saveTransaction } from "../lib/database";
-import { NATIVE_TOKEN_ADDRESS } from "../utils/constants";
+import { InlineKeyboard } from "grammy";
 
 const withdrawHandler: CommandHandler = {
   command: "withdraw",
-  description: "Withdraw ETH to another address",
+  description: "Withdraw USDC from DeFi protocols",
   handler: async (ctx: BotContext) => {
     try {
       const userId = ctx.session.userId;
@@ -34,42 +20,34 @@ const withdrawHandler: CommandHandler = {
       const wallet = await getWallet(userId);
 
       if (!wallet) {
+        const keyboard = new InlineKeyboard()
+          .text("Create Wallet", "create_wallet")
+          .text("Import Wallet", "import_wallet");
+
         await ctx.reply(
           "❌ You don't have a wallet yet.\n\n" +
-            "Use /create to create a new wallet or /import to import an existing one."
+            "You need to create or import a wallet first:",
+          { reply_markup: keyboard }
         );
         return;
       }
 
-      // Check wallet balance
-      const balance = await getEthBalance(wallet.address);
-
-      if (BigInt(balance) <= BigInt(0)) {
-        await ctx.reply(
-          "❌ Your wallet has no ETH balance to withdraw.\n\n" +
-            "Use /deposit to get your deposit address and add funds first."
-        );
-        return;
-      }
-
-      // Format balance for display
-      const formattedBalance = formatEthBalance(balance);
-
-      // Set current action
-      ctx.session.currentAction = "withdraw_address";
-
-      // Initialize withdrawal data
-      ctx.session.tempData = {
-        from: wallet.address,
-        balance,
-      };
+      // Show withdrawal options
+      const keyboard = new InlineKeyboard()
+        .text("Withdraw All from Aave", "withdraw_aave_max").row()
+        .text("Withdraw Custom Amount", "withdraw_custom").row()
+        .text("❌ Cancel", "cancel_operation");
 
       await ctx.reply(
-        `💰 *Withdraw ETH*\n\n` +
-          `Your current balance: ${formattedBalance} ETH\n\n` +
-          `Please send the destination Ethereum address you want to withdraw to.\n\n` +
-          `You can cancel this operation by typing /cancel`,
-        { parse_mode: "Markdown" }
+        `💸 **Withdraw from DeFi Protocols**\n\n` +
+          `**Options:**\n` +
+          `• **Withdraw All** - Get all your USDC back from Aave\n` +
+          `• **Custom Amount** - Specify exact amount to withdraw\n\n` +
+          `**Note:** Small gas fee (~$0.002) required for withdrawal`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard,
+        }
       );
     } catch (error) {
       console.error("Error in withdraw command:", error);
@@ -78,211 +56,230 @@ const withdrawHandler: CommandHandler = {
   },
 };
 
-// Handler for recipient address input
-export async function handleWithdrawAddress(ctx: BotContext): Promise<void> {
+// Handle withdrawal callbacks
+export const handleWithdrawCallbacks = async (ctx: BotContext) => {
+  const callbackData = ctx.callbackQuery?.data;
+
+  if (!callbackData) return;
+
   try {
     const userId = ctx.session.userId;
-    const toAddress = ctx.message?.text;
-
-    if (!userId || !toAddress) {
-      await ctx.reply("❌ Invalid request. Please try again.");
-      return;
-    }
-
-    // Validate address format
-    if (!isValidAddress(toAddress)) {
-      await ctx.reply(
-        "❌ Invalid Ethereum address format. Please provide a valid address.\n\n" +
-          "Try again or type /cancel to abort."
-      );
-      return;
-    }
-
-    // Store address and update action
-    ctx.session.tempData!.to = toAddress;
-    ctx.session.currentAction = "withdraw_amount";
-
-    // Get balance for reference
-    const balance = ctx.session.tempData!.balance;
-    const formattedBalance = formatEthBalance(balance);
-
-    await ctx.reply(
-      `📤 *Withdraw ETH*\n\n` +
-        `Destination address: \`${toAddress}\`\n\n` +
-        `Your current balance: ${formattedBalance} ETH\n\n` +
-        `Please enter the amount of ETH you wish to withdraw\n\n` +
-        `Please leave a small amount of ETH in your wallet for gas fees.\n\n` +
-        `You can cancel this operation by typing /cancel`,
-      { parse_mode: "Markdown" }
-    );
-  } catch (error) {
-    console.error("Error handling withdrawal address:", error);
-    await ctx.reply("❌ An error occurred. Please try again later.");
-  }
-}
-
-// Handler for withdrawal amount input
-export async function handleWithdrawAmount(ctx: BotContext): Promise<void> {
-  try {
-    const userId = ctx.session.userId;
-    let amountInput = ctx.message?.text;
-
-    if (!userId || !amountInput) {
-      await ctx.reply("❌ Invalid request. Please try again.");
-      return;
-    }
-
-    const balance = ctx.session.tempData!.balance;
-    const toAddress = ctx.session.tempData!.to;
-
-    // Validate amount format
-    if (!isValidAmount(amountInput)) {
-      await ctx.reply(
-        "❌ Invalid amount format. Please enter a valid positive number.\n\n" +
-          "Try again or type /cancel to abort."
-      );
-      return;
-    }
-
-    // Check for decimal inputs that start with a period and modify the original variable
-    if (amountInput.startsWith(".")) {
-      amountInput = "0" + amountInput;
-      await ctx.reply("ℹ️ I've interpreted your input as " + amountInput);
-    }
-
-    // Convert amount to wei
-    const amountWei = parseEther(amountInput).toString();
-
-    if (BigInt(balance) < BigInt(amountWei)) {
-      await ctx.reply(
-        `❌ Insufficient balance for this withdrawal.\n\n` +
-          `Amount requested: ${amountInput} ETH\n` +
-          `Your balance: ${formatEthBalance(balance)} ETH\n\n` +
-          `Please enter a smaller amount`
-      );
-      return;
-    }
-
-    // Store amount and continue to confirmation
-    ctx.session.tempData!.amount = amountWei;
-    await showWithdrawalConfirmation(ctx, amountWei, toAddress);
-  } catch (error) {
-    console.error("Error handling withdrawal amount:", error);
-    await ctx.reply("❌ An error occurred. Please try again later.");
-  }
-}
-
-// Show withdrawal confirmation
-async function showWithdrawalConfirmation(
-  ctx: BotContext,
-  amount: string,
-  toAddress: string
-): Promise<void> {
-  try {
-    // Update current action
-    ctx.session.currentAction = "withdraw_confirm";
-
-    // Show confirmation with details
-    await ctx.reply(formatWithdrawalConfirmation(amount, toAddress), {
-      parse_mode: "Markdown",
-      reply_markup: createConfirmationKeyboard(),
-    });
-  } catch (error) {
-    console.error("Error showing withdrawal confirmation:", error);
-    await ctx.reply("❌ An error occurred. Please try again later.");
-  }
-}
-
-// Handle withdrawal confirmation
-export async function handleWithdrawConfirmation(
-  ctx: BotContext,
-  confirmed: boolean
-): Promise<void> {
-  try {
-    // Remove the confirmation keyboard
-    await ctx.editMessageReplyMarkup({ reply_markup: undefined });
-
-    if (!confirmed) {
-      await ctx.reply("Withdrawal cancelled.");
-      ctx.session.currentAction = undefined;
-      ctx.session.tempData = {};
-      return;
-    }
-
-    const userId = ctx.session.userId;
-
     if (!userId) {
-      await ctx.reply("❌ Session expired. Please use /start to begin again.");
+      await ctx.answerCallbackQuery("Please start the bot first with /start");
       return;
     }
 
-    // Get withdrawal data
-    const { from, to, amount, gasPrice, gasLimit } = ctx.session.tempData!;
-
-    // Get user's wallet
     const wallet = await getWallet(userId);
-
     if (!wallet) {
-      await ctx.reply(
-        "❌ Wallet not found. Please create or import a wallet first."
-      );
+      await ctx.answerCallbackQuery("No wallet found. Create one first.");
       return;
     }
 
-    await ctx.reply("⏳ Processing your withdrawal...");
-
-    // Execute withdrawal
-    const receipt = await withdrawEth(wallet, {
-      from,
-      to,
-      amount,
-      gasPrice,
-    });
-
-    // Save transaction to database
-    saveTransaction(
-      receipt.transactionHash,
-      userId,
-      wallet.address,
-      NATIVE_TOKEN_ADDRESS,
-      to,
-      amount,
-      receipt.status,
-      "0",
-      receipt.gasUsed
-    );
-
-    // Format receipt for display
-    if (receipt.status === "success") {
-      await ctx.reply(
-        `✅ *Withdrawal Successful*\n\n` +
-          `Amount: ${formatEthBalance(amount)} ETH\n` +
-          `To: \`${to}\`\n` +
-          `Transaction Hash: \`${receipt.transactionHash}\`\n` +
-          `Gas Used: ${formatEthBalance(receipt.gasUsed)} ETH\n\n` +
-          `You can view this transaction on the block explorer:\n` +
-          `https://basescan.org/tx/${receipt.transactionHash}`,
-        { parse_mode: "Markdown" }
+    if (callbackData === "withdraw_aave_max") {
+      await ctx.answerCallbackQuery();
+      
+      const processingMsg = await ctx.reply(
+        `🔄 **Processing Withdrawal...**\n\n` +
+          `**Protocol:** Aave V3\n` +
+          `**Amount:** All available USDC\n` +
+          `**Status:** Executing transaction...`,
+        {
+          parse_mode: "Markdown"
+        }
       );
-    } else {
+
+      try {
+        const receipt = await withdrawFromAave(wallet, "max");
+
+        await ctx.api.editMessageText(
+          processingMsg.chat.id,
+          processingMsg.message_id,
+          `✅ **Withdrawal Successful!**\n\n` +
+            `**Protocol:** Aave V3\n` +
+            `**Amount:** All available USDC\n` +
+            `**Transaction:** \`${receipt.transactionHash}\`\n` +
+            `**Block:** ${receipt.blockNumber}\n` +
+            `**Gas Used:** ${receipt.gasUsed}\n\n` +
+            `💰 USDC has been withdrawn to your wallet!\n` +
+            `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`,
+          {
+            parse_mode: "Markdown"
+          }
+        );
+
+      } catch (error: any) {
+        console.error("Withdrawal failed:", error);
+        
+        await ctx.api.editMessageText(
+          processingMsg.chat.id,
+          processingMsg.message_id,
+          `❌ **Withdrawal Failed**\n\n` +
+            `**Error:** ${error.message}\n\n` +
+            `This might be due to:\n` +
+            `• Insufficient ETH for gas fees\n` +
+            `• No USDC deposited in Aave\n` +
+            `• Network issues\n\n` +
+            `Try checking your balance with /portfolio`,
+          {
+            parse_mode: "Markdown"
+          }
+        );
+      }
+    }
+
+    if (callbackData === "withdraw_custom") {
+      await ctx.answerCallbackQuery();
+      
+      // Show reward options for custom withdrawal
+      const rewardKeyboard = new InlineKeyboard()
+        .text("Withdraw + Claim Rewards", "withdraw_custom_with_rewards").row()
+        .text("Withdraw Only", "withdraw_custom_no_rewards").row()
+        .text("❌ Cancel", "cancel_operation");
+      
       await ctx.reply(
-        `❌ *Withdrawal Failed*\n\n` +
-          `[View on Block Explorer](https://basescan.org/tx/${receipt.transactionHash})`,
-        { parse_mode: "Markdown" }
+        `💸 **Custom Withdrawal Options**\n\n` +
+          `**Choose your withdrawal preference:**\n` +
+          `• **With Rewards** - Claim any earned rewards before withdrawal\n` +
+          `• **Without Rewards** - Just withdraw principal, leave rewards in pool\n\n` +
+          `**Note:** Rewards are automatically claimed for full withdrawals`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: rewardKeyboard,
+        }
       );
     }
 
-    // Reset state
-    ctx.session.currentAction = undefined;
-    ctx.session.tempData = {};
+    if (callbackData === "withdraw_custom_with_rewards" || callbackData === "withdraw_custom_no_rewards") {
+      await ctx.answerCallbackQuery();
+      
+      // Store reward preference and set state for amount input
+      ctx.session.tempData = ctx.session.tempData || {};
+      ctx.session.tempData.claimRewards = callbackData === "withdraw_custom_with_rewards";
+      ctx.session.awaitingWithdrawAmount = true;
+      
+      await ctx.reply(
+        `💸 **Custom Withdrawal Amount**\n\n` +
+          `Please enter the amount of USDC you want to withdraw from Aave:\n\n` +
+          `**Examples:**\n` +
+          `• \`1\` - Withdraw 1 USDC\n` +
+          `• \`50.5\` - Withdraw 50.5 USDC\n` +
+          `• \`max\` - Withdraw all available\n\n` +
+          `**Rewards:** ${ctx.session.tempData.claimRewards ? "Will be claimed" : "Will be left in pool"}\n\n` +
+          `**Cancel:** Send /cancel`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+    }
+
   } catch (error) {
-    console.error("Error processing withdrawal:", error);
-    await ctx.reply(
-      "❌ An error occurred while processing your withdrawal. Please try again later."
+    console.error("Error handling withdrawal callback:", error);
+    await ctx.answerCallbackQuery("❌ An error occurred. Please try again.");
+  }
+};
+
+// Handle custom withdrawal amount input
+export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string) => {
+  try {
+    const userId = ctx.session.userId;
+    if (!userId) {
+      await ctx.reply("❌ Please start the bot first with /start command.");
+      return;
+    }
+
+    const wallet = await getWallet(userId);
+    if (!wallet) {
+      await ctx.reply("❌ No wallet found. Create one first.");
+      return;
+    }
+
+    // Validate amount
+    if (amount.toLowerCase() !== "max" && (isNaN(parseFloat(amount)) || parseFloat(amount) <= 0)) {
+      await ctx.reply("❌ Please enter a valid amount (positive number) or `max`", {
+        parse_mode: "Markdown"
+      });
+      return;
+    }
+
+    const processingMsg = await ctx.reply(
+      `🔄 **Processing Withdrawal...**\n\n` +
+        `**Protocol:** Aave V3\n` +
+        `**Amount:** ${amount === "max" ? "All available" : amount} USDC\n` +
+        `**Status:** Executing transaction...`,
+      {
+        parse_mode: "Markdown"
+      }
     );
-    ctx.session.currentAction = undefined;
+
+    try {
+      const claimRewards = ctx.session.tempData?.claimRewards;
+      const isMaxWithdrawal = amount.toLowerCase() === "max";
+      const receipt = await withdrawFromAave(wallet, amount, claimRewards);
+
+      // Determine reward status based on actual behavior
+      let rewardStatus: string;
+      if (isMaxWithdrawal) {
+        rewardStatus = "Claimed (automatic for full withdrawal)";
+      } else if (claimRewards === true) {
+        rewardStatus = "Claimed";
+      } else if (claimRewards === false) {
+        rewardStatus = "Left in pool";
+      } else {
+        // Default for partial withdrawals when not explicitly set
+        rewardStatus = "Left in pool (default)";
+      }
+
+      await ctx.api.editMessageText(
+        processingMsg.chat.id,
+        processingMsg.message_id,
+        `✅ **Withdrawal Successful!**\n\n` +
+          `**Protocol:** Aave V3\n` +
+          `**Amount:** ${isMaxWithdrawal ? "All available" : amount} USDC\n` +
+          `**Rewards:** ${rewardStatus}\n` +
+          `**Transaction:** \`${receipt.transactionHash}\`\n` +
+          `**Block:** ${receipt.blockNumber}\n` +
+          `**Gas Used:** ${receipt.gasUsed}\n\n` +
+          `💰 USDC has been withdrawn to your wallet!\n` +
+          `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+
+      // Clear the awaiting state and temp data
+      ctx.session.awaitingWithdrawAmount = false;
+      ctx.session.tempData = {};
+
+    } catch (error: any) {
+      console.error("Withdrawal failed:", error);
+      
+      await ctx.api.editMessageText(
+        processingMsg.chat.id,
+        processingMsg.message_id,
+        `❌ **Withdrawal Failed**\n\n` +
+          `**Error:** ${error.message}\n\n` +
+          `This might be due to:\n` +
+          `• Insufficient ETH for gas fees\n` +
+          `• No USDC deposited in Aave\n` +
+          `• Withdrawal amount exceeds deposited balance\n` +
+          `• Network issues\n\n` +
+          `Try checking your balance with /portfolio`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+      
+      // Clear the awaiting state and temp data
+      ctx.session.awaitingWithdrawAmount = false;
+      ctx.session.tempData = {};
+    }
+
+  } catch (error) {
+    console.error("Error processing withdrawal amount:", error);
+    await ctx.reply("❌ An error occurred. Please try again later.");
+    ctx.session.awaitingWithdrawAmount = false;
     ctx.session.tempData = {};
   }
-}
+};
 
 export default withdrawHandler;

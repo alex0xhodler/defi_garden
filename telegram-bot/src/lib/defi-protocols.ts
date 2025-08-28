@@ -22,6 +22,17 @@ const AAVE_POOL_ABI = [
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "address", "name": "asset", "type": "address"},
+      {"internalType": "uint256", "name": "amount", "type": "uint256"},
+      {"internalType": "address", "name": "to", "type": "address"}
+    ],
+    "name": "withdraw",
+    "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+    "stateMutability": "nonpayable",
+    "type": "function"
   }
 ] as const;
 
@@ -201,6 +212,55 @@ export async function supplyToCompound(
     args: [
       BASE_TOKENS.USDC, // asset
       usdcAmount.toString() // amount
+    ]
+  });
+
+  return receipt;
+}
+
+/**
+ * Withdraw USDC from Aave V3
+ * @param walletData User's wallet data
+ * @param amountUsdc Amount in USDC (human readable, e.g., "100.5") or "max" for full withdrawal
+ * @param claimRewards Whether to claim rewards before withdrawal (default true for max, false for partial)
+ * @returns Transaction receipt
+ */
+export async function withdrawFromAave(
+  walletData: WalletData,
+  amountUsdc: string,
+  claimRewards?: boolean
+): Promise<TransactionReceipt> {
+  const userAddress = walletData.address as Address;
+  const isMaxWithdrawal = amountUsdc.toLowerCase() === "max";
+  
+  // Check ETH balance for gas fees first
+  await checkEthBalance(walletData, "0.0001");
+
+  // Default behavior: claim rewards for max withdrawal, don't claim for partial
+  const shouldClaimRewards = claimRewards !== undefined ? claimRewards : isMaxWithdrawal;
+
+  // If claiming rewards, do that first (this is a simplified version - Aave rewards need specific setup)
+  if (shouldClaimRewards) {
+    console.log("Note: Reward claiming would happen here - currently simplified for v1");
+    // TODO: Implement actual reward claiming when Aave rewards are configured
+  }
+
+  // For max withdrawal, use MAX_UINT256 which tells Aave to withdraw all aTokens
+  const usdcAmount = isMaxWithdrawal 
+    ? BigInt(MAX_UINT256)
+    : parseUnits(amountUsdc, 6);
+
+  console.log(`Withdrawing ${isMaxWithdrawal ? "all" : amountUsdc} USDC from Aave V3${shouldClaimRewards ? " (with rewards)" : ""}...`);
+  
+  const receipt = await executeContractMethod({
+    walletData,
+    contractAddress: AAVE_V3_POOL,
+    abi: AAVE_POOL_ABI,
+    functionName: "withdraw",
+    args: [
+      BASE_TOKENS.USDC, // asset
+      usdcAmount.toString(), // amount (MAX_UINT256 for full withdrawal)
+      userAddress // to (where to send withdrawn USDC)
     ]
   });
 

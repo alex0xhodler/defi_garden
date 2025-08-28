@@ -383,6 +383,56 @@ export function getPortfolioStats(userId: string): {
   };
 }
 
+// Clean up unverified transactions and positions
+export function cleanupUnverifiedTransactions(userId: string): {
+  deletedTransactions: number;
+  deletedPositions: number;
+} {
+  // Keep only the latest successful transaction for the user
+  const latestSuccessfulTx = db.prepare(`
+    SELECT txHash FROM ${DB_TABLES.TRANSACTIONS} 
+    WHERE userId = ? AND status = 'success' 
+    ORDER BY timestamp DESC 
+    LIMIT 1
+  `).get(userId) as { txHash: string } | undefined;
+
+  let deletedTransactions = 0;
+  let deletedPositions = 0;
+
+  if (latestSuccessfulTx) {
+    // Delete all transactions except the latest successful one
+    const deleteTransactionsStmt = db.prepare(`
+      DELETE FROM ${DB_TABLES.TRANSACTIONS} 
+      WHERE userId = ? AND txHash != ?
+    `);
+    const txResult = deleteTransactionsStmt.run(userId, latestSuccessfulTx.txHash);
+    deletedTransactions = txResult.changes;
+
+    // Delete all positions except those related to the latest successful transaction
+    const deletePositionsStmt = db.prepare(`
+      DELETE FROM ${DB_TABLES.POSITIONS} 
+      WHERE userId = ? AND txHash != ?
+    `);
+    const posResult = deletePositionsStmt.run(userId, latestSuccessfulTx.txHash);
+    deletedPositions = posResult.changes;
+  } else {
+    // No successful transactions, delete all transactions and positions for this user
+    const deleteAllTransactionsStmt = db.prepare(`
+      DELETE FROM ${DB_TABLES.TRANSACTIONS} WHERE userId = ?
+    `);
+    const txResult = deleteAllTransactionsStmt.run(userId);
+    deletedTransactions = txResult.changes;
+
+    const deleteAllPositionsStmt = db.prepare(`
+      DELETE FROM ${DB_TABLES.POSITIONS} WHERE userId = ?
+    `);
+    const posResult = deleteAllPositionsStmt.run(userId);
+    deletedPositions = posResult.changes;
+  }
+
+  return { deletedTransactions, deletedPositions };
+}
+
 // Close database connection
 export function closeDatabase(): void {
   db.close();

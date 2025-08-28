@@ -82,7 +82,7 @@ export const startHandler: CommandHandler = {
           .text("📊 Portfolio", "view_portfolio")
           .row()
           .text("🚀 Zap", "zap_funds")
-          .text("🌾 Harvest", "harvest_yields")
+          .text("💸 Withdraw", "withdraw")
           .row()
           .text("⚙️ Settings", "open_settings")
           .text("📋 Help", "help");

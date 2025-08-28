@@ -9,6 +9,7 @@ export interface SessionData {
   settings?: UserSettings;
   zapMode?: "auto" | "manual"; // Auto-deploy vs manual protocol selection
   positions?: Position[]; // User's active DeFi positions
+  awaitingWithdrawAmount?: boolean; // For custom withdrawal amount input
 }
 
 export interface BotContext extends Context {
