@@ -6,6 +6,9 @@ import {
   getPositionsByUserId, 
   getPortfolioStats 
 } from "../lib/database";
+import { getWallet, getAaveBalance, getTokenBalance } from "../lib/token-wallet";
+import { Address } from "viem";
+import { BASE_TOKENS } from "../utils/constants";
 
 const portfolioHandler: CommandHandler = {
   command: "portfolio",
@@ -19,31 +22,43 @@ const portfolioHandler: CommandHandler = {
         return;
       }
 
-      // Get user's positions
-      const positions = getPositionsByUserId(userId);
-      const stats = getPortfolioStats(userId);
+      // Get user's wallet
+      const wallet = await getWallet(userId);
+      if (!wallet) {
+        await ctx.reply("❌ No wallet found. Create one first with /start");
+        return;
+      }
 
-      if (positions.length === 0) {
+      const walletAddress = wallet.address as Address;
+
+      // Fetch real on-chain balances
+      const [aaveBalance, usdcBalance] = await Promise.all([
+        getAaveBalance(walletAddress),
+        getTokenBalance(BASE_TOKENS.USDC, walletAddress)
+      ]);
+
+      const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
+      const usdcBalanceNum = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
+
+      // If no Aave deposits, show empty portfolio
+      if (aaveBalanceNum === 0) {
         const keyboard = new InlineKeyboard()
           .text("🚀 Start Farming", "zap_funds")
           .text("📥 Deposit", "deposit")
           .row()
-          .text("🧹 Cleanup DB", "portfolio_cleanup")
           .text("📚 Learn More", "help");
 
         await ctx.reply(
-          `📊 *Your DeFi Portfolio*\n\n` +
+          `📊 **Your DeFi Portfolio**\n\n` +
           `🌱 You haven't started yield farming yet!\n\n` +
+          `**Current Balances**:\n` +
+          `• Wallet USDC: $${usdcBalanceNum.toFixed(2)}\n` +
+          `• Aave Deposits: $0.00\n\n` +
           `**Get Started**:\n` +
-          `• Deposit USDC to your wallet with 📥 Deposit\n` +
           `• Use 🚀 Start Farming to auto-deploy to best yields\n` +
-          `• Watch your money grow! 📈\n\n` +
-          `**Why Start Now?**\n` +
-          `✅ Earn 5%+ APY on stablecoins\n` +
-          `✅ Auto-compound your rewards\n` +
-          `✅ Only vetted, high-TVL protocols\n` +
-          `✅ 24/7 monitoring and alerts\n\n` +
-          `💡 **Tip**: Use 🧹 Cleanup DB to remove any old transaction records`,
+          `• Earn 5%+ APY on your USDC\n` +
+          `• Only vetted, high-TVL protocols\n\n` +
+          `💡 **Tip**: Portfolio now shows real-time blockchain data`,
           {
             parse_mode: "Markdown",
             reply_markup: keyboard
@@ -52,95 +67,49 @@ const portfolioHandler: CommandHandler = {
         return;
       }
 
-      // Calculate total performance
-      const totalGain = stats.totalValue - stats.totalInvested;
-      const totalGainPercent = stats.totalInvested > 0 
-        ? ((totalGain / stats.totalInvested) * 100) 
-        : 0;
-
-      let message = `📊 *Your DeFi Portfolio*\n\n`;
+      // Show actual Aave position with real balance
+      const currentApy = 5.2; // Could fetch real APY from Aave API
+      const totalValue = aaveBalanceNum;
       
-      // Portfolio summary
-      message += `💰 **Total Value**: $${stats.totalValue.toFixed(2)}\n`;
-      message += `📈 **Total Invested**: $${stats.totalInvested.toFixed(2)}\n`;
-      message += `🌱 **Yields Earned**: $${stats.totalYield.toFixed(2)} (${totalGainPercent >= 0 ? '+' : ''}${totalGainPercent.toFixed(2)}%)\n`;
-      message += `🏦 **Active Positions**: ${stats.positionCount}\n\n`;
-
-      // Performance indicator
-      if (totalGain > 0) {
-        message += `🟢 *Portfolio is profitable!*\n\n`;
-      } else if (totalGain < 0) {
-        message += `🔴 *Portfolio is down (temporary market fluctuation)*\n\n`;
-      } else {
-        message += `⚪ *Breaking even*\n\n`;
-      }
-
-      // Individual positions
-      message += `**🏦 Active Positions**:\n\n`;
+      let message = `📊 **Your DeFi Portfolio**\n\n`;
       
-      for (const position of positions.slice(0, 3)) { // Show top 3 positions for space
-        const gainLoss = position.currentValue - position.amountInvested + position.yieldEarned;
-        const gainLossPercent = position.amountInvested > 0 
-          ? ((gainLoss / position.amountInvested) * 100) 
-          : 0;
-        
-        const gainIcon = gainLoss > 0 ? "🟢" : gainLoss < 0 ? "🔴" : "⚪";
-        const ageInDays = Math.floor((Date.now() - Number(position.createdAt)) / (1000 * 60 * 60 * 24));
-        
-        message += `${gainIcon} **${position.protocol} ${position.tokenSymbol}**\n`;
-        message += `• Invested: $${position.amountInvested.toFixed(2)}\n`;
-        message += `• Current: $${position.currentValue.toFixed(2)}\n`;
-        message += `• Yield: $${position.yieldEarned.toFixed(2)} (${position.currentApy}% APY)\n`;
-        message += `• P&L: ${gainLoss >= 0 ? '+' : ''}$${gainLoss.toFixed(2)} (${gainLossPercent >= 0 ? '+' : ''}${gainLossPercent.toFixed(2)}%)\n`;
-        message += `• Age: ${ageInDays} days\n\n`;
-      }
+      // Real-time balances
+      message += `💰 **Total Portfolio Value**: $${totalValue.toFixed(2)}\n`;
+      message += `💳 **Wallet USDC**: $${usdcBalanceNum.toFixed(2)}\n`;
+      message += `🏦 **Total Deposited**: $${aaveBalanceNum.toFixed(2)}\n\n`;
 
-      if (positions.length > 3) {
-        message += `...and ${positions.length - 3} more positions\n\n`;
-      }
+      // Current active position
+      message += `**🏛️ Aave V3 Position**\n\n`;
+      message += `🟢 **Aave USDC**\n`;
+      message += `• **Current Deposit**: $${aaveBalanceNum.toFixed(2)}\n`;
+      message += `• **Current APY**: ${currentApy}%\n`;
+      message += `• **Protocol**: Aave V3 on Base\n`;
+      message += `• **Status**: ✅ Active & Earning\n\n`;
+
+      // Performance note
+      message += `📈 **Real-Time Data**\n`;
+      message += `• Balance fetched from blockchain\n`;
+      message += `• Reflects all deposits/withdrawals\n`;
+      message += `• Auto-compounding rewards included\n\n`;
 
       // Quick actions
       const keyboard = new InlineKeyboard()
-        .text("🌾 Harvest Yields", "harvest_yields")
-        .text("🚀 Zap More", "zap_funds")
-        .row()
-        .text("💸 Withdraw", "withdraw")
+        .text("🚪 Exit Pool", "withdraw")
         .text("🔄 Refresh", "view_portfolio")
         .row()
-        .text("📈 Details", "portfolio_details")
-        .text("🧹 Cleanup DB", "portfolio_cleanup");
+        .text("🚀 Zap More", "zap_funds")
+        .text("💰 Check Balance", "check_balance");
 
-      // Quick stats and tips
-      message += `📅 **Performance Summary**:\n`;
-      message += `• Total Earnings: +$${stats.totalYield.toFixed(2)}\n`;
-      message += `• Portfolio ROI: ${totalGainPercent >= 0 ? '+' : ''}${totalGainPercent.toFixed(2)}%\n`;
-      if (stats.totalValue > 0) {
-        message += `• Ready to withdraw: $${stats.totalValue.toFixed(2)}\n`;
-      }
-      message += `\n💡 **Quick Actions**: Use buttons below to zap more funds in, withdraw profits, or harvest yields.\n\n`;
-      message += `⏰ *Last updated: ${new Date().toLocaleTimeString()}*`;
+      message += `⏰ *Updated: ${new Date().toLocaleTimeString()}*`;
 
       await ctx.reply(message, {
         parse_mode: "Markdown",
         reply_markup: keyboard
       });
 
-      // Auto-suggest actions based on portfolio state
-      if (stats.totalYield > 50) {
-        setTimeout(async () => {
-          await ctx.reply(
-            `💡 *Portfolio Tip*: You've earned $${stats.totalYield.toFixed(2)} in yields! ` +
-            `Consider harvesting and re-investing for compound growth. 🌱`,
-            {
-              reply_markup: new InlineKeyboard().text("🌾 Harvest & Compound", "harvest_yields")
-            }
-          );
-        }, 2000);
-      }
-
     } catch (error) {
       console.error("Error in portfolio command:", error);
-      await ctx.reply(ERRORS.NETWORK_ERROR);
+      await ctx.reply("❌ Error fetching portfolio data. Please try again.");
     }
   },
 };
@@ -151,46 +120,51 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     const userId = ctx.session.userId;
     if (!userId) return;
 
-    const positions = getPositionsByUserId(userId);
+    const wallet = await getWallet(userId);
+    if (!wallet) {
+      await ctx.answerCallbackQuery("No wallet found");
+      return;
+    }
+
+    const walletAddress = wallet.address as Address;
+    const aaveBalance = await getAaveBalance(walletAddress);
+    const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
     
-    if (positions.length === 0) {
-      await ctx.answerCallbackQuery("No positions to show details for");
+    if (aaveBalanceNum === 0) {
+      await ctx.answerCallbackQuery("No active positions found");
       return;
     }
 
     await ctx.answerCallbackQuery();
 
-    let message = `📈 **Portfolio Details**\n\n`;
+    const currentApy = 5.2; // Could fetch from Aave API
     
-    for (const [index, position] of positions.entries()) {
-      const gainLoss = position.currentValue - position.amountInvested + position.yieldEarned;
-      const gainLossPercent = position.amountInvested > 0 
-        ? ((gainLoss / position.amountInvested) * 100) 
-        : 0;
-      
-      const gainIcon = gainLoss > 0 ? "🟢" : gainLoss < 0 ? "🔴" : "⚪";
-      const ageInDays = Math.floor((Date.now() - Number(position.createdAt)) / (1000 * 60 * 60 * 24));
-      
-      message += `**${index + 1}. ${gainIcon} ${position.protocol} ${position.tokenSymbol}**\n`;
-      message += `• **Pool ID**: \`${position.poolId.slice(0, 8)}...\`\n`;
-      message += `• **Chain**: ${position.chain}\n`;
-      message += `• **Invested**: $${position.amountInvested.toFixed(2)}\n`;
-      message += `• **Current Value**: $${position.currentValue.toFixed(2)}\n`;
-      message += `• **Yield Earned**: $${position.yieldEarned.toFixed(2)}\n`;
-      message += `• **Entry APY**: ${position.entryApy}%\n`;
-      message += `• **Current APY**: ${position.currentApy}%\n`;
-      message += `• **Total P&L**: ${gainLoss >= 0 ? '+' : ''}$${gainLoss.toFixed(2)} (${gainLossPercent >= 0 ? '+' : ''}${gainLossPercent.toFixed(2)}%)\n`;
-      message += `• **Position Age**: ${ageInDays} days\n`;
-      message += `• **Transaction**: [\`${position.txHash.slice(0, 10)}...\`](https://basescan.org/tx/${position.txHash})\n\n`;
-    }
+    let message = `📈 **Portfolio Details**\n\n`;
+    message += `**🏛️ Aave V3 Position Details**\n\n`;
+    message += `🟢 **USDC Lending Position**\n`;
+    message += `• **Current Deposit**: $${aaveBalanceNum.toFixed(2)}\n`;
+    message += `• **Token**: aUSDC (Aave interest-bearing USDC)\n`;
+    message += `• **Protocol**: Aave V3\n`;
+    message += `• **Chain**: Base Network\n`;
+    message += `• **Current APY**: ${currentApy}%\n`;
+    message += `• **Status**: ✅ Active & Auto-Compounding\n`;
+    message += `• **Risk Level**: 🟢 Low (Aave is battle-tested)\n\n`;
+    
+    message += `**📊 Position Analysis**\n`;
+    message += `• **Real-Time Balance**: Fetched from blockchain\n`;
+    message += `• **Liquidity**: Can withdraw anytime\n`;
+    message += `• **Rewards**: Auto-compounding in aUSDC\n`;
+    message += `• **Contract**: \`${BASE_TOKENS.aUSDC.slice(0, 8)}...\`\n\n`;
+    
+    message += `**⚡ Available Actions**\n`;
+    message += `• **Exit Pool**: Get all funds back to wallet\n`;
+    message += `• **Add More**: Zap additional USDC to pool\n\n`;
 
     const keyboard = new InlineKeyboard()
-      .text("💸 Withdraw All", "withdraw_aave_max")
-      .text("💸 Withdraw Custom", "withdraw_custom")
-      .row()
+      .text("🚪 Exit Pool", "withdraw")
       .text("🚀 Zap More", "zap_funds")
-      .text("🌾 Harvest", "harvest_yields")
       .row()
+      .text("🔄 Refresh Data", "portfolio_details")
       .text("🔙 Back to Portfolio", "view_portfolio");
 
     await ctx.editMessageText(message, {

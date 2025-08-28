@@ -6,7 +6,7 @@ import { InlineKeyboard } from "grammy";
 
 const withdrawHandler: CommandHandler = {
   command: "withdraw",
-  description: "Withdraw USDC from DeFi protocols",
+  description: "Exit DeFi pools and get USDC back to wallet",
   handler: async (ctx: BotContext) => {
     try {
       const userId = ctx.session.userId;
@@ -32,18 +32,18 @@ const withdrawHandler: CommandHandler = {
         return;
       }
 
-      // Show withdrawal options
+      // Show exit pool options
       const keyboard = new InlineKeyboard()
-        .text("Withdraw All from Aave", "withdraw_aave_max").row()
-        .text("Withdraw Custom Amount", "withdraw_custom").row()
+        .text("🚪 Exit All from Aave", "withdraw_aave_max").row()
+        .text("🚪 Exit Custom Amount", "withdraw_custom").row()
         .text("❌ Cancel", "cancel_operation");
 
       await ctx.reply(
-        `💸 **Withdraw from DeFi Protocols**\n\n` +
+        `🚪 **Exit DeFi Pool**\n\n` +
           `**Options:**\n` +
-          `• **Withdraw All** - Get all your USDC back from Aave\n` +
-          `• **Custom Amount** - Specify exact amount to withdraw\n\n` +
-          `**Note:** Small gas fee (~$0.002) required for withdrawal`,
+          `• **Exit All** - Get all your USDC back from Aave to wallet\n` +
+          `• **Exit Custom** - Specify exact amount to exit\n\n` +
+          `**Note:** Small gas fee (~$0.002) required for pool exit`,
         {
           parse_mode: "Markdown",
           reply_markup: keyboard,
@@ -79,7 +79,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       await ctx.answerCallbackQuery();
       
       const processingMsg = await ctx.reply(
-        `🔄 **Processing Withdrawal...**\n\n` +
+        `🔄 **Processing Pool Exit...**\n\n` +
           `**Protocol:** Aave V3\n` +
           `**Amount:** All available USDC\n` +
           `**Status:** Executing transaction...`,
@@ -101,13 +101,13 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         await ctx.api.editMessageText(
           processingMsg.chat.id,
           processingMsg.message_id,
-          `✅ **Withdrawal Successful!**\n\n` +
+          `✅ **Pool Exit Successful!**\n\n` +
             `**Protocol:** Aave V3\n` +
             `**Amount:** All available USDC\n` +
             `**Transaction:** \`${receipt.transactionHash}\`\n` +
             `**Block:** ${receipt.blockNumber}\n` +
             `**Gas Used:** ${receipt.gasUsed}\n\n` +
-            `💰 USDC has been withdrawn to your wallet!\n` +
+            `💰 USDC has been moved back to your wallet!\n` +
             `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`,
           {
             parse_mode: "Markdown",
@@ -128,7 +128,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         await ctx.api.editMessageText(
           processingMsg.chat.id,
           processingMsg.message_id,
-          `❌ **Withdrawal Failed**\n\n` +
+          `❌ **Pool Exit Failed**\n\n` +
             `**Error:** ${error.message}\n\n` +
             `This might be due to:\n` +
             `• Insufficient ETH for gas fees\n` +
@@ -148,16 +148,16 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       
       // Show reward options for custom withdrawal
       const rewardKeyboard = new InlineKeyboard()
-        .text("Withdraw + Claim Rewards", "withdraw_custom_with_rewards").row()
-        .text("Withdraw Only", "withdraw_custom_no_rewards").row()
+        .text("🚪 Exit + Claim Rewards", "withdraw_custom_with_rewards").row()
+        .text("🚪 Exit Only", "withdraw_custom_no_rewards").row()
         .text("❌ Cancel", "cancel_operation");
       
       await ctx.reply(
-        `💸 **Custom Withdrawal Options**\n\n` +
-          `**Choose your withdrawal preference:**\n` +
-          `• **With Rewards** - Claim any earned rewards before withdrawal\n` +
-          `• **Without Rewards** - Just withdraw principal, leave rewards in pool\n\n` +
-          `**Note:** Rewards are automatically claimed for full withdrawals`,
+        `🚪 **Custom Pool Exit Options**\n\n` +
+          `**Choose your exit preference:**\n` +
+          `• **With Rewards** - Claim any earned rewards before exit\n` +
+          `• **Without Rewards** - Just exit principal, leave rewards in pool\n\n` +
+          `**Note:** Rewards are automatically claimed for full exits`,
         {
           parse_mode: "Markdown",
           reply_markup: rewardKeyboard,

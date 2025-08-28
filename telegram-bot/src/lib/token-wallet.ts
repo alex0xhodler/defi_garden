@@ -468,6 +468,39 @@ export async function getMultipleTokenBalances(
 }
 
 /**
+ * Get Aave aUSDC balance for a wallet (real deposited amount)
+ * @param walletAddress The wallet address to check
+ * @returns aUSDC balance representing actual Aave deposits
+ */
+export async function getAaveBalance(walletAddress: Address): Promise<{
+  aUsdcBalance: string;
+  aUsdcBalanceFormatted: string;
+}> {
+  try {
+    const publicClient = createPublicClientForBase();
+    
+    // Get aUSDC balance (represents USDC deposited in Aave)
+    const aUsdcBalance = await publicClient.readContract({
+      address: BASE_TOKENS.aUSDC,
+      abi: erc20Abi,
+      functionName: "balanceOf",
+      args: [walletAddress],
+    });
+
+    return {
+      aUsdcBalance: aUsdcBalance.toString(),
+      aUsdcBalanceFormatted: formatTokenAmount(aUsdcBalance.toString(), 6, 2) // USDC has 6 decimals
+    };
+  } catch (error) {
+    console.error("Error fetching Aave balance:", error);
+    return {
+      aUsdcBalance: "0",
+      aUsdcBalanceFormatted: "0.00"
+    };
+  }
+}
+
+/**
  * Get token address from symbol
  * @param symbol Token symbol (e.g., "ETH", "USDC")
  * @returns Token address or null if not found

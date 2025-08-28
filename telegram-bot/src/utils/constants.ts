@@ -37,6 +37,8 @@ export const BASE_TOKENS: Record<string, Address> = {
   DAI: "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
   WETH: "0x4200000000000000000000000000000000000006",
   CBETH: "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+  // Aave V3 aTokens on Base
+  aUSDC: "0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB",
 };
 
 // For compatibility with copied files
@@ -126,7 +128,7 @@ export const COMMANDS = {
   HARVEST: "Claim yields and compound rewards",
   SETTINGS: "Adjust risk tolerance and preferences",
   DEPOSIT: "Show deposit address",
-  WITHDRAW: "Withdraw funds to another address",
+  WITHDRAW: "Exit DeFi pools and get funds back to wallet",
   HELP: "Show help and commands"
 };
 

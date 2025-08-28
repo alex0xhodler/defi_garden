@@ -26,7 +26,6 @@ import withdrawHandler, {
   handleWithdrawCallbacks,
   handleWithdrawAmountInput,
 } from "./src/commands/withdraw";
-import cleanupHandler from "./src/commands/cleanup";
 
 // Load environment variables
 dotenv.config();
@@ -65,7 +64,6 @@ bot.command(harvestHandler.command, harvestHandler.handler);
 bot.command(settingsHandler.command, settingsHandler.handler);
 bot.command(depositHandler.command, depositHandler.handler);
 bot.command(withdrawHandler.command, withdrawHandler.handler);
-bot.command(cleanupHandler.command, cleanupHandler.handler);
 bot.command(helpHandler.command, helpHandler.handler);
 
 // Set bot commands menu
@@ -79,7 +77,6 @@ bot.api.setMyCommands([
   { command: settingsHandler.command, description: settingsHandler.description },
   { command: depositHandler.command, description: depositHandler.description },
   { command: withdrawHandler.command, description: withdrawHandler.description },
-  { command: cleanupHandler.command, description: cleanupHandler.description },
   { command: helpHandler.command, description: helpHandler.description },
 ]);
 
@@ -148,8 +145,6 @@ bot.on("callback_query:data", async (ctx) => {
     await withdrawHandler.handler(ctx);
   } else if (callbackData === "help") {
     await helpHandler.handler(ctx);
-  } else if (callbackData === "portfolio_cleanup") {
-    await cleanupHandler.handler(ctx);
   } else if (callbackData === "portfolio_details") {
     await handlePortfolioDetails(ctx);
   }
@@ -190,7 +185,7 @@ bot.on("callback_query:data", async (ctx) => {
         .text("📊 Portfolio", "view_portfolio")
         .row()
         .text("🚀 Zap", "zap_funds")
-        .text("💸 Withdraw", "withdraw")
+        .text("🚪 Exit Pool", "withdraw")
         .row()
         .text("⚙️ Settings", "open_settings")
         .text("📋 Help", "help");
@@ -275,7 +270,7 @@ bot.on("message:text", async (ctx) => {
           .text("📊 Portfolio", "view_portfolio")
           .row()
           .text("🚀 Zap", "zap_funds")
-          .text("💸 Withdraw", "withdraw")
+          .text("🚪 Exit Pool", "withdraw")
           .row()
           .text("⚙️ Settings", "open_settings")
           .text("📋 Help", "help");
@@ -286,7 +281,7 @@ bot.on("message:text", async (ctx) => {
             "/balance - Check your token balances\n" +
             "/portfolio - View your DeFi positions and yields\n" +
             "/zap - Invest in yield farming pools\n" +
-            "/withdraw - Withdraw funds from DeFi positions\n" +
+            "/withdraw - Exit DeFi pools and get funds back to wallet\n" +
             "/deposit - Get your deposit address\n" +
             "/settings - Adjust risk and slippage settings\n" +
             "/help - Show help message",
