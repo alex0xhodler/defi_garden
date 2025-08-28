@@ -471,23 +471,33 @@ export async function handleZapConfirmation(
         userFriendlyMessage = 'Network or contract error occurred.';
       }
 
+      // Store retry parameters before showing error
+      ctx.session.retryZap = {
+        amount,
+        selectedPool,
+        poolInfo,
+        walletAddress
+      };
+
       await ctx.reply(
         `❌ *Transaction Failed*\n\n` +
         `**Amount**: $${amount} USDC\n` +
         `**Protocol**: ${poolInfo.protocol}\n\n` +
         `**Issue**: ${userFriendlyMessage}\n\n` +
         `**Technical**: ${errorMessage.substring(0, 200)}${errorMessage.length > 200 ? '...' : ''}\n\n` +
-        `💡 **Try Again**: Your funds are safe. You can retry with /zap\n` +
+        `💡 **Try Again**: Your funds are safe. Retry with same parameters\n` +
         `🔍 **Check**: Use /balance to verify your USDC and ETH balances`,
         {
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
-            .text("🔄 Try Again", "zap_funds")
+            .text("🔄 Retry Same Zap", "retry_zap")
             .text("📊 Check Balance", "check_balance")
+            .row()
+            .text("🚀 Start New Zap", "zap_funds")
         }
       );
 
-      // Reset state
+      // Reset main state but keep retry data
       ctx.session.currentAction = undefined;
       ctx.session.tempData = {};
     }
@@ -499,6 +509,136 @@ export async function handleZapConfirmation(
     );
     ctx.session.currentAction = undefined;
     ctx.session.tempData = {};
+  }
+}
+
+// Handle zap retry with same parameters
+export async function handleZapRetry(ctx: BotContext): Promise<void> {
+  try {
+    const userId = ctx.session.userId;
+    const retryData = ctx.session.retryZap;
+
+    if (!userId || !retryData) {
+      await ctx.answerCallbackQuery("❌ No retry data found. Please start a new zap.");
+      return;
+    }
+
+    await ctx.answerCallbackQuery();
+    await ctx.reply("⏳ Retrying zap transaction with same parameters...\n\n🔄 This may take 30-60 seconds.");
+
+    const { amount, selectedPool, poolInfo, walletAddress } = retryData;
+
+    try {
+      // Get user's wallet for transaction execution
+      const wallet = await getWallet(userId);
+      if (!wallet) {
+        throw new Error("Wallet not found");
+      }
+
+      // Execute real DeFi transaction with same parameters
+      console.log(`Retrying zap: ${amount} USDC to ${poolInfo.protocol}`);
+      
+      const txReceipt = await executeZap(
+        poolInfo.protocol, // "Aave" or "Compound"
+        wallet,
+        amount
+      );
+
+      const positionId = `pos_${Date.now()}_${userId}`;
+
+      // Save position and transaction if successful
+      await savePosition({
+        id: positionId,
+        userId,
+        poolId: selectedPool,
+        protocol: poolInfo.protocol,
+        chain: "Base",
+        tokenSymbol: "USDC",
+        amountInvested: parseFloat(amount),
+        currentValue: parseFloat(amount),
+        entryApy: poolInfo.apy,
+        currentApy: poolInfo.apy,
+        yieldEarned: 0,
+        txHash: txReceipt.transactionHash,
+        createdAt: new Date()
+      });
+
+      // Save transaction record
+      await saveTransaction(
+        txReceipt.transactionHash,
+        userId,
+        walletAddress,
+        "zap",
+        "USDC", 
+        amount,
+        txReceipt.status,
+        selectedPool,
+        poolInfo.protocol,
+        undefined,
+        txReceipt.gasUsed
+      );
+
+      await ctx.reply(
+        `✅ *Zap Successful!*\n\n` +
+        `💰 **Investment**: $${amount} USDC\n` +
+        `🏦 **Protocol**: ${poolInfo.protocol}\n` +
+        `📈 **Entry APY**: ${poolInfo.apy}%\n` +
+        `🔗 **Transaction**: \`${txReceipt.transactionHash}\`\n\n` +
+        `🌱 Your position is now earning yield! Use /portfolio to track your performance.\n\n` +
+        `⏰ Yields update every few minutes. I'll notify you of any significant changes.`,
+        { 
+          parse_mode: "Markdown",
+          reply_markup: new InlineKeyboard()
+            .text("🚀 Zap More", "zap_funds")
+            .text("📊 View Portfolio", "view_portfolio")
+        }
+      );
+
+      // Clear retry data on success
+      ctx.session.retryZap = undefined;
+
+    } catch (transactionError) {
+      console.error("Retry transaction failed:", transactionError);
+      
+      let errorMessage = (transactionError as Error).message || 'Network error';
+      let userFriendlyMessage = '';
+
+      // Handle specific error types
+      if (errorMessage.includes('transfer amount exceeds allowance')) {
+        userFriendlyMessage = 'Token approval failed. This usually means the approval transaction didn\'t complete properly.';
+      } else if (errorMessage.includes('insufficient funds')) {
+        userFriendlyMessage = 'Insufficient USDC balance for this transaction.';
+      } else if (errorMessage.includes('gas required exceeds allowance')) {
+        userFriendlyMessage = 'Insufficient ETH balance for gas fees.';
+      } else if (errorMessage.includes('Approval transaction failed')) {
+        userFriendlyMessage = 'The approval transaction failed. Please try again.';
+      } else {
+        userFriendlyMessage = 'Network or contract error occurred.';
+      }
+
+      await ctx.reply(
+        `❌ *Retry Failed*\n\n` +
+        `**Amount**: $${amount} USDC\n` +
+        `**Protocol**: ${poolInfo.protocol}\n\n` +
+        `**Issue**: ${userFriendlyMessage}\n\n` +
+        `**Technical**: ${errorMessage.substring(0, 200)}${errorMessage.length > 200 ? '...' : ''}\n\n` +
+        `💡 **Options**: Check your balances or try a smaller amount\n` +
+        `🔍 **Check**: Use /balance to verify your USDC and ETH balances`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: new InlineKeyboard()
+            .text("🔄 Retry Again", "retry_zap")
+            .text("📊 Check Balance", "check_balance")
+            .row()
+            .text("🚀 Start New Zap", "zap_funds")
+        }
+      );
+    }
+
+  } catch (error) {
+    console.error("Error handling zap retry:", error);
+    await ctx.reply("❌ An error occurred during retry. Please try a new zap with /zap");
+    ctx.session.retryZap = undefined;
   }
 }
 

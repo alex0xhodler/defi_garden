@@ -10,6 +10,12 @@ export interface SessionData {
   zapMode?: "auto" | "manual"; // Auto-deploy vs manual protocol selection
   positions?: Position[]; // User's active DeFi positions
   awaitingWithdrawAmount?: boolean; // For custom withdrawal amount input
+  retryZap?: { // For retrying failed zap with same parameters
+    amount: string;
+    selectedPool: string;
+    poolInfo: any;
+    walletAddress: string;
+  };
 }
 
 export interface BotContext extends Context {

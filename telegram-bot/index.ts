@@ -13,6 +13,7 @@ import zapHandler, {
   handlePoolSelection,
   handleZapAmountInput,
   handleZapConfirmation,
+  handleZapRetry,
 } from "./src/commands/zap";
 import portfolioHandler, { handlePortfolioDetails } from "./src/commands/portfolio";
 import harvestHandler from "./src/commands/harvest";
@@ -147,6 +148,8 @@ bot.on("callback_query:data", async (ctx) => {
     await helpHandler.handler(ctx);
   } else if (callbackData === "portfolio_details") {
     await handlePortfolioDetails(ctx);
+  } else if (callbackData === "retry_zap") {
+    await handleZapRetry(ctx);
   }
 
   // Auto-deployment vs manual selection
