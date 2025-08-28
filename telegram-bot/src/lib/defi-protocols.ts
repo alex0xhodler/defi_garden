@@ -312,14 +312,20 @@ export async function supplyToFluid(
   await checkEthBalance(walletData, "0.0001");
 
   // Step 1: Check and approve USDC allowance for Fluid fUSDC
+  console.log(`Fluid contract address: ${FLUID_FUSDC}`);
+  console.log(`USDC contract address: ${BASE_TOKENS.USDC}`);
+  console.log(`User address: ${userAddress}`);
+  
   const currentAllowance = await getTokenAllowance(
     BASE_TOKENS.USDC,
     userAddress,
     FLUID_FUSDC
   );
 
+  console.log(`Current USDC allowance for Fluid: ${currentAllowance}`);
+
   if (BigInt(currentAllowance) < usdcAmount) {
-    console.log("Approving USDC for Fluid Finance...");
+    console.log(`Approving USDC for Fluid Finance... Required: ${usdcAmount.toString()}`);
     
     const approvalReceipt = await executeContractMethod({
       walletData,
@@ -335,6 +341,10 @@ export async function supplyToFluid(
     if (approvalReceipt.status !== "success") {
       throw new Error(`Approval transaction failed: ${approvalReceipt.transactionHash}`);
     }
+
+    // Wait a moment for the approval to be indexed
+    console.log("Waiting 2 seconds for approval to be indexed...");
+    await new Promise(resolve => setTimeout(resolve, 2000));
 
     // Double-check the allowance was actually set
     const newAllowance = await getTokenAllowance(
