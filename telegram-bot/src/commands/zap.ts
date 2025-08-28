@@ -440,8 +440,8 @@ export async function handleZapConfirmation(
         { 
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
-            .text("📊 View Portfolio", "view_portfolio")
             .text("🚀 Zap More", "zap_funds")
+            .text("📊 View Portfolio", "view_portfolio")
         }
       );
 
