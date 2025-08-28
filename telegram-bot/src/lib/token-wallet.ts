@@ -6,6 +6,7 @@ import {
   WalletClient,
   Address,
   formatUnits,
+  parseUnits,
 } from "viem";
 import { generatePrivateKey, privateKeyToAccount } from "viem/accounts";
 import { base } from "viem/chains";
@@ -604,5 +605,36 @@ export async function getTokenAllowance(
   } catch (error) {
     console.error("Error getting token allowance:", error);
     return "0";
+  }
+}
+
+/**
+ * Transfer USDC tokens to another address
+ * @param walletData User's wallet data
+ * @param toAddress Destination address
+ * @param amount Amount in USDC (human readable, e.g., "100.5")
+ * @returns Transaction receipt
+ */
+export async function transferUsdc(
+  walletData: WalletData,
+  toAddress: Address,
+  amount: string
+): Promise<TransactionReceipt> {
+  try {
+    const usdcAmount = parseUnits(amount, 6); // USDC has 6 decimals
+    
+    // Use the existing executeContractMethod to transfer USDC
+    const receipt = await executeContractMethod({
+      walletData,
+      contractAddress: BASE_TOKENS.USDC,
+      abi: erc20Abi,
+      functionName: "transfer",
+      args: [toAddress, usdcAmount.toString()]
+    });
+
+    return receipt;
+  } catch (error) {
+    console.error("USDC transfer failed:", error);
+    throw error;
   }
 }

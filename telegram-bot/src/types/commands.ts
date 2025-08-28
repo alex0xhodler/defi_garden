@@ -67,4 +67,8 @@ export type ActionType =
   | "harvest_confirm"
   | "withdraw_address"
   | "withdraw_amount" 
-  | "withdraw_confirm";
+  | "withdraw_confirm"
+  | "withdraw_eth_address"
+  | "withdraw_usdc_address"
+  | "withdraw_eth_amount"
+  | "withdraw_usdc_amount";

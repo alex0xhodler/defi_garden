@@ -48,6 +48,7 @@ const portfolioHandler: CommandHandler = {
           .text("🚀 Start Earning", "zap_funds")
           .text("📥 Deposit", "deposit")
           .row()
+          .text("💰 Check Balance", "check_balance")
           .text("📚 Learn More", "help");
 
         await ctx.reply(
@@ -110,9 +111,11 @@ const portfolioHandler: CommandHandler = {
       // Quick actions
       const keyboard = new InlineKeyboard()
         .text("🚀 Zap More", "zap_funds")
-        .text("🚪 Exit Pool", "withdraw")
+        .text("🌾 Harvest", "harvest_yields")
         .row()
+        .text("🚪 Exit Pool", "withdraw")
         .text("🔄 Refresh", "view_portfolio")
+        .row()
         .text("💰 Check Balance", "check_balance");
 
       message += `⏰ *Updated: ${new Date().toLocaleTimeString()}*`;

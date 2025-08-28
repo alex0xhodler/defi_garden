@@ -8,7 +8,7 @@ import { verifyEncryptionKey } from "./src/lib/encryption";
 import { startHandler, helpHandler } from "./src/commands/start-help";
 import { walletHandler, createHandler } from "./src/commands/wallet";
 import { importHandler, exportHandler, handlePrivateKeyInput, handleExportConfirmation } from "./src/commands/import-export";
-import { balanceHandler } from "./src/commands/balance";
+import { balanceHandler, handleWithdrawEth, handleWithdrawUsdc, handleWithdrawTextInput } from "./src/commands/balance";
 import zapHandler, {
   handlePoolSelection,
   handleZapAmountInput,
@@ -17,7 +17,7 @@ import zapHandler, {
   handleAutoEarn,
 } from "./src/commands/zap";
 import portfolioHandler, { handlePortfolioDetails } from "./src/commands/portfolio";
-import harvestHandler from "./src/commands/harvest";
+import harvestHandler, { handleHarvestConfirmation } from "./src/commands/harvest";
 import settingsHandler, {
   handleSettingsOption,
   updateSlippage,
@@ -156,6 +156,34 @@ bot.on("callback_query:data", async (ctx) => {
     await handleZapRetry(ctx);
   }
 
+  // Harvest callbacks
+  else if (callbackData === "harvest_compound") {
+    await handleHarvestConfirmation(ctx, "compound");
+  } else if (callbackData === "harvest_withdraw") {
+    await handleHarvestConfirmation(ctx, "withdraw");
+  } else if (callbackData === "harvest_split") {
+    await handleHarvestConfirmation(ctx, "split");
+  } else if (callbackData === "harvest_cancel") {
+    ctx.session.tempData = {};
+    await ctx.editMessageText(
+      "🌾 Harvest cancelled. Your yields remain in the protocols earning interest.",
+      {
+        reply_markup: new InlineKeyboard()
+          .text("📊 View Portfolio", "view_portfolio")
+          .text("🔄 Try Again", "harvest_yields")
+      }
+    );
+  } else if (callbackData === "harvest_yields") {
+    await harvestHandler.handler(ctx);
+  }
+
+  // Balance menu withdraw callbacks
+  else if (callbackData === "withdraw_eth") {
+    await handleWithdrawEth(ctx);
+  } else if (callbackData === "withdraw_usdc") {
+    await handleWithdrawUsdc(ctx);
+  }
+
   // Auto-deployment vs manual selection
   else if (callbackData === "zap_auto_deploy") {
     await handleAutoEarn(ctx);
@@ -191,7 +219,7 @@ bot.on("callback_query:data", async (ctx) => {
         .text("📊 Portfolio", "view_portfolio")
         .row()
         .text("🚀 Zap", "zap_funds")
-        .text("🚪 Exit Pool", "withdraw")
+        .text("🌾 Harvest", "harvest_yields")
         .row()
         .text("⚙️ Settings", "open_settings")
         .text("📋 Help", "help");
@@ -268,6 +296,12 @@ bot.on("message:text", async (ctx) => {
     case "zap_amount":
       await handleZapAmountInput(ctx);
       break;
+    case "withdraw_eth_address":
+    case "withdraw_usdc_address":
+    case "withdraw_eth_amount":
+    case "withdraw_usdc_amount":
+      await handleWithdrawTextInput(ctx, ctx.message.text);
+      break;
     default:
       // If no current action, show help
       if (!ctx.session.currentAction) {
@@ -276,7 +310,7 @@ bot.on("message:text", async (ctx) => {
           .text("📊 Portfolio", "view_portfolio")
           .row()
           .text("🚀 Zap", "zap_funds")
-          .text("🚪 Exit Pool", "withdraw")
+          .text("🌾 Harvest", "harvest_yields")
           .row()
           .text("⚙️ Settings", "open_settings")
           .text("📋 Help", "help");
@@ -287,7 +321,7 @@ bot.on("message:text", async (ctx) => {
             "/balance - Check your token balances\n" +
             "/portfolio - View your DeFi positions and yields\n" +
             "/zap - Invest in yield farming pools\n" +
-            "/withdraw - Exit DeFi pools and get funds back to wallet\n" +
+            "/harvest - Claim yields and compound rewards\n" +
             "/deposit - Get your deposit address\n" +
             "/settings - Adjust risk and slippage settings\n" +
             "/help - Show help message",

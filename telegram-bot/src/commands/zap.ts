@@ -282,10 +282,18 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
       const readableBalance = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
       if (readableBalance < amount) {
         await ctx.reply(
-          `❌ Insufficient USDC balance.\n\n` +
+          `❌ **Insufficient USDC Balance**\n\n` +
           `**Your balance**: ${readableBalance} USDC\n` +
           `**Requested**: ${amount} USDC\n\n` +
-          `Use /deposit to add more funds or try a smaller amount.`
+          `You need more USDC to complete this investment.`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: new InlineKeyboard()
+              .text("📥 Deposit USDC", "deposit")
+              .text("💰 Check Balance", "check_balance")
+              .row()
+              .text("🔄 Try Different Amount", "zap_funds")
+          }
         );
         return;
       }
