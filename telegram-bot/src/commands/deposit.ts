@@ -33,14 +33,22 @@ const depositHandler: CommandHandler = {
 
       // Send deposit information
       await ctx.reply(
-        `📥 *Deposit ETH or Tokens*\n\n` +
-          `Send ETH or any ERC-20 token to your wallet address on Base Network:\n\n` +
+        `📥 *Deposit Funds to Your Wallet*\n\n` +
+          `**Your Base Network Address:**\n` +
           `\`${wallet.address}\`\n\n` +
-          `*Important*:\n` +
-          `- Only send assets on the Base Network\n` +
-          `- ETH deposits usually confirm within minutes\n` +
-          `- Use /balance to check when funds arrive\n` +
-          `- Never share your private key with anyone`,
+          `**What to Deposit:**\n` +
+          `• **ETH** - Required for gas fees (minimum 0.0001 ETH)\n` +
+          `• **USDC** - For DeFi yield farming\n\n` +
+          `**Network:** Base (Chain ID: 8453)\n\n` +
+          `**Important Notes:**\n` +
+          `⚠️ Only send assets on Base network\n` +
+          `⛽ ETH is required for all DeFi transactions\n` +
+          `📊 Use /balance to check when funds arrive\n` +
+          `🔐 Never share your private key\n\n` +
+          `**Recommended:**\n` +
+          `• 0.001-0.002 ETH for gas fees (~$2-4)\n` +
+          `• Any amount of USDC for yield farming\n` +
+          `• Base gas is very cheap! (~$0.002 per tx)`,
         {
           parse_mode: "Markdown",
         }

@@ -2,14 +2,17 @@ import { InlineKeyboard } from "grammy";
 import { BotContext } from "../context";
 import { CommandHandler } from "../types/commands";
 import { YieldOpportunity } from "../types/config";
-import { ERRORS, RISK_THRESHOLDS } from "../utils/constants";
-import { getWallet } from "../lib/token-wallet";
+import { ERRORS, RISK_THRESHOLDS, BASE_TOKENS, isRpcConfigured } from "../utils/constants";
+import { getWallet, getMultipleTokenBalances, formatTokenAmount, getEthBalance } from "../lib/token-wallet";
+import { formatEther } from "viem";
+import { executeZap } from "../lib/defi-protocols";
 import { 
   savePosition, 
   saveTransaction,
   getPositionsByUserId 
 } from "../lib/database";
 import { isValidAmount } from "../utils/validators";
+import { Address } from "viem";
 
 // Mock function - will be replaced with actual API integration
 async function getYieldOpportunities(
@@ -84,6 +87,19 @@ const zapHandler: CommandHandler = {
 
       if (!userId) {
         await ctx.reply(ERRORS.NO_WALLET);
+        return;
+      }
+
+      // Check RPC configuration first
+      if (!isRpcConfigured()) {
+        await ctx.reply(
+          "❌ **RPC Configuration Error**\n\n" +
+          "Your RPC endpoint is not properly configured for DeFi operations.\n\n" +
+          "Please update your `.env` file:\n" +
+          "`QUICKNODE_RPC=https://your-endpoint.quiknode.pro/your-key`\n\n" +
+          "**Reason**: Zapping requires reliable balance checks and transaction execution.",
+          { parse_mode: "Markdown" }
+        );
         return;
       }
 
@@ -205,9 +221,77 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
 
     const amount = parseFloat(amountInput);
     
-    // Basic validation - minimum $10 investment
-    if (amount < 10) {
-      await ctx.reply("❌ Minimum investment is $10 USDC.\n\nTry again or type /cancel to abort.");
+    // Basic validation - minimum $1 investment for testing
+    if (amount < 1) {
+      await ctx.reply("❌ Minimum investment is $1 USDC.\n\nTry again or type /cancel to abort.");
+      return;
+    }
+
+    // Check if user has sufficient USDC balance
+    const wallet = await getWallet(userId);
+    if (!wallet) {
+      await ctx.reply(ERRORS.NO_WALLET);
+      return;
+    }
+
+    try {
+      // Check ETH balance for gas fees first
+      const ethBalance = await getEthBalance(wallet.address);
+      const ethInEther = formatEther(BigInt(ethBalance));
+      console.log(`ETH balance check: ${ethInEther} ETH`);
+
+      if (parseFloat(ethInEther) < 0.0001) {
+        await ctx.reply(
+          `⛽ **Insufficient ETH for Gas**\n\n` +
+          `**Your ETH balance**: ${parseFloat(ethInEther).toFixed(6)} ETH\n` +
+          `**Required**: At least 0.0001 ETH (~$0.40)\n\n` +
+          `**Solution**: Deposit ETH to your wallet address:\n` +
+          `\`${wallet.address}\`\n\n` +
+          `**Why**: DeFi transactions require ETH to pay gas fees on Base network.\n` +
+          `**Base gas costs**: ~$0.002 per transaction (very cheap!)`,
+          { parse_mode: "Markdown" }
+        );
+        return;
+      }
+
+      const tokenBalances = await getMultipleTokenBalances(
+        [BASE_TOKENS.USDC],
+        wallet.address as Address
+      );
+
+      const usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
+      if (!usdcBalance) {
+        await ctx.reply("❌ No USDC balance found. Please deposit USDC first using /deposit");
+        return;
+      }
+
+      // Convert balance to readable format and check if sufficient
+      const readableBalance = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
+      if (readableBalance < amount) {
+        await ctx.reply(
+          `❌ Insufficient USDC balance.\n\n` +
+          `**Your balance**: ${readableBalance} USDC\n` +
+          `**Requested**: ${amount} USDC\n\n` +
+          `Use /deposit to add more funds or try a smaller amount.`
+        );
+        return;
+      }
+    } catch (balanceError: any) {
+      console.error("Error checking USDC balance:", balanceError);
+      
+      if (balanceError?.cause?.status === 429 || balanceError?.details?.includes('rate limit')) {
+        await ctx.reply(
+          "⏳ **Rate Limit Error**\n\n" +
+          "Cannot check your USDC balance due to RPC rate limits.\n\n" +
+          "Please wait a few minutes and try again, or upgrade your RPC plan for higher limits."
+        );
+      } else {
+        await ctx.reply(
+          "❌ **Balance Check Failed**\n\n" +
+          "Unable to verify your USDC balance.\n\n" +
+          "This might be due to RPC issues. Please try again later."
+        );
+      }
       return;
     }
 
@@ -295,66 +379,123 @@ export async function handleZapConfirmation(
 
     await ctx.reply("⏳ Executing your zap transaction...\n\n🔄 This may take 30-60 seconds.");
 
-    // TODO: Implement actual zap transaction
-    // For v1, we'll simulate the transaction
-    const simulatedTxHash = "0x" + Math.random().toString(16).substring(2, 66);
-    const positionId = `pos_${Date.now()}_${userId}`;
-
-    // Save the position to database
-    await savePosition({
-      id: positionId,
-      userId,
-      poolId: selectedPool,
-      protocol: poolInfo.protocol,
-      chain: "Base",
-      tokenSymbol: "USDC",
-      amountInvested: parseFloat(amount),
-      currentValue: parseFloat(amount), // Initially same as invested
-      entryApy: poolInfo.apy,
-      currentApy: poolInfo.apy,
-      yieldEarned: 0,
-      txHash: simulatedTxHash,
-      createdAt: new Date()
-    });
-
-    // Save transaction record
-    await saveTransaction(
-      simulatedTxHash,
-      userId,
-      walletAddress,
-      "zap",
-      "USDC", 
-      amount,
-      "success",
-      selectedPool,
-      poolInfo.protocol,
-      undefined, // No yield earned yet
-      "21000" // Simulated gas used
-    );
-
-    await ctx.reply(
-      `✅ *Zap Successful!*\n\n` +
-      `💰 **Investment**: $${amount} USDC\n` +
-      `🏦 **Protocol**: ${poolInfo.protocol}\n` +
-      `📈 **Entry APY**: ${poolInfo.apy}%\n` +
-      `🔗 **Transaction**: \`${simulatedTxHash}\`\n\n` +
-      `🌱 Your position is now earning yield! Use /portfolio to track your performance.\n\n` +
-      `⏰ Yields update every few minutes. I'll notify you of any significant changes.`,
-      { 
-        parse_mode: "Markdown",
-        reply_markup: new InlineKeyboard()
-          .text("📊 View Portfolio", "view_portfolio")
-          .text("🚀 Zap More", "zap_funds")
+    try {
+      // Get user's wallet for transaction execution
+      const wallet = await getWallet(userId);
+      if (!wallet) {
+        throw new Error("Wallet not found");
       }
-    );
 
-    // Reset state
-    ctx.session.currentAction = undefined;
-    ctx.session.tempData = {};
+      // Execute real DeFi transaction
+      console.log(`Executing real zap: ${amount} USDC to ${poolInfo.protocol}`);
+      
+      const txReceipt = await executeZap(
+        poolInfo.protocol, // "Aave" or "Compound"
+        wallet,
+        amount
+      );
+
+      const positionId = `pos_${Date.now()}_${userId}`;
+
+      // Only save position and transaction if the transaction was successful
+      await savePosition({
+        id: positionId,
+        userId,
+        poolId: selectedPool,
+        protocol: poolInfo.protocol,
+        chain: "Base",
+        tokenSymbol: "USDC",
+        amountInvested: parseFloat(amount),
+        currentValue: parseFloat(amount), // Initially same as invested
+        entryApy: poolInfo.apy,
+        currentApy: poolInfo.apy,
+        yieldEarned: 0,
+        txHash: txReceipt.transactionHash,
+        createdAt: new Date()
+      });
+
+      // Save transaction record
+      await saveTransaction(
+        txReceipt.transactionHash,
+        userId,
+        walletAddress,
+        "zap",
+        "USDC", 
+        amount,
+        txReceipt.status, // "success" or "failure" from actual transaction
+        selectedPool,
+        poolInfo.protocol,
+        undefined, // No yield earned yet
+        txReceipt.gasUsed
+      );
+
+      await ctx.reply(
+        `✅ *Zap Successful!*\n\n` +
+        `💰 **Investment**: $${amount} USDC\n` +
+        `🏦 **Protocol**: ${poolInfo.protocol}\n` +
+        `📈 **Entry APY**: ${poolInfo.apy}%\n` +
+        `🔗 **Transaction**: \`${txReceipt.transactionHash}\`\n\n` +
+        `🌱 Your position is now earning yield! Use /portfolio to track your performance.\n\n` +
+        `⏰ Yields update every few minutes. I'll notify you of any significant changes.`,
+        { 
+          parse_mode: "Markdown",
+          reply_markup: new InlineKeyboard()
+            .text("📊 View Portfolio", "view_portfolio")
+            .text("🚀 Zap More", "zap_funds")
+        }
+      );
+
+      // Reset state
+      ctx.session.currentAction = undefined;
+      ctx.session.tempData = {};
+
+    } catch (transactionError) {
+      console.error("Transaction failed:", transactionError);
+      
+      // For real transaction failures, we don't create fake transaction records
+      // The actual transaction hash and gas info isn't available if it failed
+
+      let errorMessage = (transactionError as Error).message || 'Network error';
+      let userFriendlyMessage = '';
+
+      // Handle specific error types
+      if (errorMessage.includes('transfer amount exceeds allowance')) {
+        userFriendlyMessage = 'Token approval failed. This usually means the approval transaction didn\'t complete properly.';
+      } else if (errorMessage.includes('insufficient funds')) {
+        userFriendlyMessage = 'Insufficient USDC balance for this transaction.';
+      } else if (errorMessage.includes('gas required exceeds allowance')) {
+        userFriendlyMessage = 'Insufficient ETH balance for gas fees.';
+      } else if (errorMessage.includes('Approval transaction failed')) {
+        userFriendlyMessage = 'The approval transaction failed. Please try again.';
+      } else {
+        userFriendlyMessage = 'Network or contract error occurred.';
+      }
+
+      await ctx.reply(
+        `❌ *Transaction Failed*\n\n` +
+        `**Amount**: $${amount} USDC\n` +
+        `**Protocol**: ${poolInfo.protocol}\n\n` +
+        `**Issue**: ${userFriendlyMessage}\n\n` +
+        `**Technical**: ${errorMessage.substring(0, 200)}${errorMessage.length > 200 ? '...' : ''}\n\n` +
+        `💡 **Try Again**: Your funds are safe. You can retry with /zap\n` +
+        `🔍 **Check**: Use /balance to verify your USDC and ETH balances`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: new InlineKeyboard()
+            .text("🔄 Try Again", "zap_funds")
+            .text("📊 Check Balance", "check_balance")
+        }
+      );
+
+      // Reset state
+      ctx.session.currentAction = undefined;
+      ctx.session.tempData = {};
+    }
+
   } catch (error) {
     console.error("Error processing zap confirmation:", error);
     await ctx.reply(
-      "❌ An error occurred while processing your zap. Please check /portfolio to see if the transaction completed."
+      "❌ An unexpected error occurred. Please try again with /zap"
     );
     ctx.session.currentAction = undefined;
     ctx.session.tempData = {};

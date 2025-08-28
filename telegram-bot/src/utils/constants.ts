@@ -5,6 +5,12 @@ dotenv.config();
 
 // Endpoints
 export const QUICKNODE_RPC_URL = process.env.QUICKNODE_RPC || "";
+
+// Validate RPC configuration - use only the provided Alchemy endpoint
+export const isRpcConfigured = (): boolean => {
+  return QUICKNODE_RPC_URL === "https://base-mainnet.g.alchemy.com/v2/lk_ng-qu5hCuS7Hw12s5s";
+};
+
 export const DEFI_GARDEN_API_URL = process.env.DEFI_GARDEN_API_URL || "https://yields.llama.fi/pools";
 export const ONEINCH_API_URL = "https://api.1inch.dev/swap/v5.2";
 export const ENCRYPTION_KEY = process.env.WALLET_ENCRYPTION_KEY || "";

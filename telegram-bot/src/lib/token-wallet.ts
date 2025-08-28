@@ -24,6 +24,8 @@ import {
   COMMON_TOKENS,
   NATIVE_TOKEN_ADDRESS,
   MAX_UINT256,
+  BASE_TOKENS,
+  isRpcConfigured,
 } from "../utils/constants";
 
 // *** WALLET FUNCTIONS *** //
@@ -123,9 +125,14 @@ export function getPrivateKey(walletData: WalletData): string {
  * Get ETH balance for an address
  */
 export async function getEthBalance(address: Address): Promise<string> {
-  const publicClient = createPublicClientForBase();
-  const balance = await publicClient.getBalance({ address });
-  return balance.toString();
+  try {
+    const publicClient = createPublicClientForBase();
+    const balance = await publicClient.getBalance({ address });
+    return balance.toString();
+  } catch (error) {
+    console.error("Error fetching ETH balance:", error);
+    throw error;
+  }
 }
 
 /**
@@ -150,27 +157,49 @@ export async function executeContractMethod({
     const publicClient = createPublicClientForBase(); // Read client
     const walletClient = createClient(account); // Write client
 
-    // Simulate to get the transaction request
-    const { request } = await publicClient.simulateContract({
-      address: contractAddress,
-      abi,
-      functionName,
-      args,
-      account,
-    });
+    try {
+      // Simulate to get the transaction request
+      const { request } = await publicClient.simulateContract({
+        address: contractAddress,
+        abi,
+        functionName,
+        args,
+        account,
+      });
 
-    // Write transaction
-    const hash = await walletClient.writeContract(request);
+      // Write transaction
+      const hash = await walletClient.writeContract(request);
+      console.log(`Transaction submitted: ${hash}`);
 
-    // Wait for receipt
-    const receipt = await publicClient.waitForTransactionReceipt({ hash });
+      // Wait for receipt
+      const receipt = await publicClient.waitForTransactionReceipt({ hash });
+      console.log(`Transaction receipt - Status: ${receipt.status}, Block: ${receipt.blockNumber}`);
 
-    return {
-      transactionHash: receipt.transactionHash,
-      blockNumber: receipt.blockNumber,
-      status: receipt.status === "success" ? "success" : "failure",
-      gasUsed: receipt.gasUsed.toString(),
-    };
+      // Check if transaction actually succeeded on-chain
+      if (receipt.status !== "success") {
+        throw new Error(`Transaction failed on-chain. Hash: ${hash}`);
+      }
+
+      return {
+        transactionHash: receipt.transactionHash,
+        blockNumber: receipt.blockNumber,
+        status: receipt.status === "success" ? "success" : "failure",
+        gasUsed: receipt.gasUsed.toString(),
+      };
+    } catch (simulationError: any) {
+      console.error("Contract simulation failed:", simulationError);
+      
+      // Re-throw simulation errors with better context
+      if (simulationError.message?.includes('execution reverted')) {
+        throw new Error(`Contract execution would fail: ${simulationError.message}`);
+      } else if (simulationError.message?.includes('insufficient funds')) {
+        throw new Error(`Insufficient balance for this transaction`);
+      } else if (simulationError.message?.includes('allowance')) {
+        throw new Error(`Token approval required or insufficient`);
+      }
+      
+      throw simulationError;
+    }
   } catch (error) {
     console.error("Contract method execution failed:", error);
     throw error;
@@ -381,21 +410,43 @@ export async function getMultipleTokenBalances(
   walletAddress: Address
 ): Promise<TokenInfo[]> {
   try {
-    const tokenPromises = tokenAddresses.map(async (address) => {
-      const tokenInfo = await getTokenInfo(address);
-      if (!tokenInfo) return null;
+    // Check if RPC is properly configured
+    if (!isRpcConfigured()) {
+      console.error("RPC not properly configured, using fallback data");
+      throw new Error("RPC_NOT_CONFIGURED");
+    }
 
-      const balance = await getTokenBalance(address, walletAddress);
-      return {
-        ...tokenInfo,
-        balance,
-      };
+    const tokenPromises = tokenAddresses.map(async (address) => {
+      try {
+        const tokenInfo = await getTokenInfo(address);
+        if (!tokenInfo) return null;
+
+        const balance = await getTokenBalance(address, walletAddress);
+        return {
+          ...tokenInfo,
+          balance,
+        };
+      } catch (tokenError: any) {
+        // Handle rate limit errors specifically
+        if (tokenError?.cause?.status === 429 || tokenError?.details?.includes('rate limit')) {
+          console.error(`Rate limit hit for token ${address}, skipping`);
+          return null;
+        }
+        
+        console.error(`Error fetching balance for token ${address}:`, tokenError);
+        return null;
+      }
     });
 
     const tokens = await Promise.all(tokenPromises);
     return tokens.filter((token): token is TokenInfo => token !== null);
-  } catch (error) {
+  } catch (error: any) {
     console.error("Error fetching multiple token balances:", error);
+    
+    if (error.message === "RPC_NOT_CONFIGURED") {
+      throw error; // Re-throw to be handled by caller
+    }
+    
     return [];
   }
 }
