@@ -32,20 +32,22 @@ const withdrawHandler: CommandHandler = {
         return;
       }
 
-      // Show exit pool options
+      // Show protocol selection for exit
       const keyboard = new InlineKeyboard()
-        .text("🌊 Exit All from Fluid", "withdraw_fluid_max")
-        .text("🏛️ Exit All from Aave", "withdraw_aave_max").row()
-        .text("🚪 Exit Custom Amount", "withdraw_custom").row()
+        .text("🌊 Exit from Fluid", "withdraw_fluid_menu")
+        .text("🏛️ Exit from Aave", "withdraw_aave_menu").row()
         .text("❌ Cancel", "cancel_operation");
 
       await ctx.reply(
         `🚪 **Exit DeFi Pools**\n\n` +
-          `**Options:**\n` +
-          `• **Exit Fluid** - Get all your USDC back from Fluid to wallet\n` +
-          `• **Exit Aave** - Get all your USDC back from Aave to wallet\n` +
-          `• **Exit Custom** - Specify exact amount and protocol to exit\n\n` +
-          `**Note:** Small gas fee (~$0.002) required for pool exit`,
+          `Choose which protocol to exit from:\n\n` +
+          `**🌊 Fluid Finance**\n` +
+          `• Higher APY protocol (7.8%)\n` +
+          `• Full or partial withdrawal options\n\n` +
+          `**🏛️ Aave V3**\n` +
+          `• Stable lending protocol (5.2%)\n` +
+          `• Full or partial withdrawal options\n\n` +
+          `**Note:** Small gas fee (~$0.002) required for each exit`,
         {
           parse_mode: "Markdown",
           reply_markup: keyboard,
@@ -74,6 +76,59 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
     const wallet = await getWallet(userId);
     if (!wallet) {
       await ctx.answerCallbackQuery("No wallet found. Create one first.");
+      return;
+    }
+
+    // Handle protocol menu selection
+    if (callbackData === "withdraw_fluid_menu") {
+      await ctx.answerCallbackQuery();
+      
+      const keyboard = new InlineKeyboard()
+        .text("💸 Exit All Fluid", "withdraw_fluid_max").row()
+        .text("⚖️ Exit Custom Amount", "withdraw_fluid_custom").row()
+        .text("🔙 Back", "withdraw");
+
+      await ctx.reply(
+        `🌊 **Exit from Fluid Finance**\n\n` +
+          `**Your Fluid Position:**\n` +
+          `• Current APY: 7.8%\n` +
+          `• Token: fUSDC (interest-bearing)\n` +
+          `• Rewards: Auto-compounding\n\n` +
+          `**Exit Options:**\n` +
+          `• **Exit All** - Withdraw complete Fluid position to wallet\n` +
+          `• **Custom Amount** - Specify exact USDC amount to exit\n\n` +
+          `**Note:** Rewards are automatically claimed on withdrawal`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_aave_menu") {
+      await ctx.answerCallbackQuery();
+      
+      const keyboard = new InlineKeyboard()
+        .text("💸 Exit All Aave", "withdraw_aave_max").row()
+        .text("⚖️ Exit Custom Amount", "withdraw_aave_custom").row()
+        .text("🔙 Back", "withdraw");
+
+      await ctx.reply(
+        `🏛️ **Exit from Aave V3**\n\n` +
+          `**Your Aave Position:**\n` +
+          `• Current APY: 5.2%\n` +
+          `• Token: aUSDC (interest-bearing)\n` +
+          `• Rewards: Auto-compounding\n\n` +
+          `**Exit Options:**\n` +
+          `• **Exit All** - Withdraw complete Aave position to wallet\n` +
+          `• **Custom Amount** - Specify exact USDC amount to exit\n\n` +
+          `**Note:** Rewards are automatically claimed on full withdrawal`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
       return;
     }
 
@@ -213,6 +268,83 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       }
     }
 
+    // Handle protocol-specific custom withdrawals
+    if (callbackData === "withdraw_fluid_custom") {
+      await ctx.answerCallbackQuery();
+      
+      // Store protocol preference and set state for amount input
+      ctx.session.tempData = ctx.session.tempData || {};
+      ctx.session.tempData.protocol = "fluid";
+      ctx.session.tempData.claimRewards = true; // Fluid always claims rewards
+      ctx.session.awaitingWithdrawAmount = true;
+      
+      await ctx.reply(
+        `💸 **Custom Fluid Withdrawal**\n\n` +
+          `Please enter the amount of USDC you want to withdraw from Fluid:\n\n` +
+          `**Examples:**\n` +
+          `• \`1\` - Withdraw 1 USDC\n` +
+          `• \`50.5\` - Withdraw 50.5 USDC\n` +
+          `• \`max\` - Withdraw all available\n\n` +
+          `**Protocol:** Fluid Finance (7.8% APY)\n` +
+          `**Rewards:** Will be automatically claimed\n\n` +
+          `**Cancel:** Send /cancel`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_aave_custom") {
+      await ctx.answerCallbackQuery();
+      
+      // Show reward options for Aave custom withdrawal
+      const rewardKeyboard = new InlineKeyboard()
+        .text("🚪 Exit + Claim Rewards", "withdraw_aave_custom_with_rewards").row()
+        .text("🚪 Exit Only", "withdraw_aave_custom_no_rewards").row()
+        .text("🔙 Back", "withdraw_aave_menu");
+      
+      await ctx.reply(
+        `🏛️ **Aave Custom Exit Options**\n\n` +
+          `**Choose your exit preference:**\n` +
+          `• **With Rewards** - Claim any earned rewards before exit\n` +
+          `• **Without Rewards** - Just exit principal, leave rewards in pool\n\n` +
+          `**Note:** Rewards are automatically claimed for full exits`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: rewardKeyboard,
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_aave_custom_with_rewards" || callbackData === "withdraw_aave_custom_no_rewards") {
+      await ctx.answerCallbackQuery();
+      
+      // Store protocol and reward preference, set state for amount input
+      ctx.session.tempData = ctx.session.tempData || {};
+      ctx.session.tempData.protocol = "aave";
+      ctx.session.tempData.claimRewards = callbackData === "withdraw_aave_custom_with_rewards";
+      ctx.session.awaitingWithdrawAmount = true;
+      
+      await ctx.reply(
+        `💸 **Custom Aave Withdrawal**\n\n` +
+          `Please enter the amount of USDC you want to withdraw from Aave:\n\n` +
+          `**Examples:**\n` +
+          `• \`1\` - Withdraw 1 USDC\n` +
+          `• \`50.5\` - Withdraw 50.5 USDC\n` +
+          `• \`max\` - Withdraw all available\n\n` +
+          `**Protocol:** Aave V3 (5.2% APY)\n` +
+          `**Rewards:** ${ctx.session.tempData.claimRewards ? "Will be claimed" : "Will be left in pool"}\n\n` +
+          `**Cancel:** Send /cancel`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+      return;
+    }
+
+    // Legacy support - redirect old custom to Aave
     if (callbackData === "withdraw_custom") {
       await ctx.answerCallbackQuery();
       
@@ -287,9 +419,14 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       return;
     }
 
+    // Determine which protocol to withdraw from
+    const protocol = ctx.session.tempData?.protocol || "aave"; // Default to Aave for legacy support
+    const protocolName = protocol === "fluid" ? "Fluid Finance" : "Aave V3";
+    const protocolEmoji = protocol === "fluid" ? "🌊" : "🏛️";
+
     const processingMsg = await ctx.reply(
       `🔄 **Processing Withdrawal...**\n\n` +
-        `**Protocol:** Aave V3\n` +
+        `**Protocol:** ${protocolEmoji} ${protocolName}\n` +
         `**Amount:** ${amount === "max" ? "All available" : amount} USDC\n` +
         `**Status:** Executing transaction...`,
       {
@@ -300,7 +437,11 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
     try {
       const claimRewards = ctx.session.tempData?.claimRewards;
       const isMaxWithdrawal = amount.toLowerCase() === "max";
-      const receipt = await withdrawFromAave(wallet, amount, claimRewards);
+      
+      // Execute withdrawal based on protocol
+      const receipt = protocol === "fluid" 
+        ? await withdrawFromFluid(wallet, amount, claimRewards)
+        : await withdrawFromAave(wallet, amount, claimRewards);
 
       // Determine reward status based on actual behavior
       let rewardStatus: string;
@@ -326,7 +467,7 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
         processingMsg.chat.id,
         processingMsg.message_id,
         `✅ **Withdrawal Successful!**\n\n` +
-          `**Protocol:** Aave V3\n` +
+          `**Protocol:** ${protocolEmoji} ${protocolName}\n` +
           `**Amount:** ${isMaxWithdrawal ? "All available" : amount} USDC\n` +
           `**Rewards:** ${rewardStatus}\n` +
           `**Transaction:** \`${receipt.transactionHash}\`\n` +
@@ -347,9 +488,13 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
     } catch (error: any) {
       console.error("Withdrawal failed:", error);
       
+      const retryCustomAction = protocol === "fluid" ? "withdraw_fluid_custom" : "withdraw_aave_custom";
+      const withdrawAllAction = protocol === "fluid" ? "withdraw_fluid_max" : "withdraw_aave_max";
+      const protocolDisplayName = protocol === "fluid" ? "Fluid Finance" : "Aave";
+
       const errorKeyboard = new InlineKeyboard()
-        .text("🔄 Try Again", "withdraw_custom")
-        .text("💸 Withdraw All", "withdraw_aave_max")
+        .text("🔄 Try Again", retryCustomAction)
+        .text(`💸 Exit All ${protocolDisplayName}`, withdrawAllAction)
         .row()
         .text("📊 View Portfolio", "view_portfolio")
         .text("💰 Check Balance", "check_balance");
@@ -358,10 +503,11 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
         processingMsg.chat.id,
         processingMsg.message_id,
         `❌ **Withdrawal Failed**\n\n` +
+          `**Protocol:** ${protocolEmoji} ${protocolName}\n` +
           `**Error:** ${error.message}\n\n` +
           `This might be due to:\n` +
           `• Insufficient ETH for gas fees\n` +
-          `• No USDC deposited in Aave\n` +
+          `• No USDC deposited in ${protocolDisplayName}\n` +
           `• Withdrawal amount exceeds deposited balance\n` +
           `• Network issues\n\n` +
           `Try checking your balance with /portfolio`,
