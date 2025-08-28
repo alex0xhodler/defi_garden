@@ -43,7 +43,7 @@ const portfolioHandler: CommandHandler = {
       // If no Aave deposits, show empty portfolio
       if (aaveBalanceNum === 0) {
         const keyboard = new InlineKeyboard()
-          .text("🚀 Start Farming", "zap_funds")
+          .text("🚀 Start Earning", "zap_funds")
           .text("📥 Deposit", "deposit")
           .row()
           .text("📚 Learn More", "help");
@@ -55,7 +55,7 @@ const portfolioHandler: CommandHandler = {
           `• Wallet USDC: $${usdcBalanceNum.toFixed(2)}\n` +
           `• Aave Deposits: $0.00\n\n` +
           `**Get Started**:\n` +
-          `• Use 🚀 Start Farming to auto-deploy to best yields\n` +
+          `• Use 🚀 Start Earning to auto-deploy to best yields\n` +
           `• Earn 5%+ APY on your USDC\n` +
           `• Only vetted, high-TVL protocols\n\n` +
           `💡 **Tip**: Portfolio now shows real-time blockchain data`,
@@ -94,10 +94,10 @@ const portfolioHandler: CommandHandler = {
 
       // Quick actions
       const keyboard = new InlineKeyboard()
-        .text("🚪 Exit Pool", "withdraw")
-        .text("🔄 Refresh", "view_portfolio")
-        .row()
         .text("🚀 Zap More", "zap_funds")
+        .text("🚪 Exit Pool", "withdraw")
+        .row()
+        .text("🔄 Refresh", "view_portfolio")
         .text("💰 Check Balance", "check_balance");
 
       message += `⏰ *Updated: ${new Date().toLocaleTimeString()}*`;
