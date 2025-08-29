@@ -535,6 +535,39 @@ export async function getFluidBalance(walletAddress: Address): Promise<{
 }
 
 /**
+ * Get Compound V3 cUSDCv3 balance for a wallet (real deposited amount)
+ * @param walletAddress The wallet address to check
+ * @returns cUSDCv3 balance representing actual Compound deposits
+ */
+export async function getCompoundBalance(walletAddress: Address): Promise<{
+  cUsdcBalance: string;
+  cUsdcBalanceFormatted: string;
+}> {
+  try {
+    const publicClient = createPublicClientForBase();
+    
+    // Get cUSDCv3 balance (represents USDC deposited in Compound V3)
+    const cUsdcBalance = await publicClient.readContract({
+      address: BASE_TOKENS.cUSDCv3,
+      abi: erc20Abi,
+      functionName: "balanceOf",
+      args: [walletAddress],
+    });
+
+    return {
+      cUsdcBalance: cUsdcBalance.toString(),
+      cUsdcBalanceFormatted: formatTokenAmount(cUsdcBalance.toString(), 6, 2) // USDC has 6 decimals
+    };
+  } catch (error) {
+    console.error("Error fetching Compound balance:", error);
+    return {
+      cUsdcBalance: "0",
+      cUsdcBalanceFormatted: "0.00"
+    };
+  }
+}
+
+/**
  * Get token address from symbol
  * @param symbol Token symbol (e.g., "ETH", "USDC")
  * @returns Token address or null if not found

@@ -41,6 +41,8 @@ export const BASE_TOKENS: Record<string, Address> = {
   aUSDC: "0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB",
   // Fluid Finance fTokens on Base
   fUSDC: "0xf42f5795d9ac7e9d757db633d693cd548cfd9169",
+  // Compound V3 cTokens on Base
+  cUSDCv3: "0xb125e6687d4313864e53df431d5425969c15eb2f",
 };
 
 // For compatibility with copied files
