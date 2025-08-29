@@ -36,7 +36,9 @@ async function getYieldOpportunities(
       ilRisk: "no",
       exposure: "single",
       underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
-      rewardTokens: ["0x...FLUID"]
+      rewardTokens: ["0x...FLUID"],
+      riskScore: 1,
+      protocol: "fluid"
     },
     {
       poolId: "aave-usdc-base",
@@ -50,20 +52,24 @@ async function getYieldOpportunities(
       ilRisk: "no",
       exposure: "single",
       underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
-      rewardTokens: ["0x...COMP"]
+      rewardTokens: ["0x...COMP"],
+      riskScore: 1,
+      protocol: "aave"
     },
     {
-      poolId: "compound-usdc-base", 
+      poolId: "compound-v3-usdc-base", 
       project: "Compound",
       chain: "Base",
       symbol: "USDC",
       tvlUsd: 89_000_000,
-      apy: 4.8,
-      apyBase: 4.8,
+      apy: 8.33,
+      apyBase: 8.33,
       apyReward: 0,
       ilRisk: "no",
       exposure: "single",
-      underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"]
+      underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+      riskScore: 1,
+      protocol: "compound"
     }
   ];
 }
