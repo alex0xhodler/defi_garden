@@ -1,4 +1,5 @@
 import { YieldOpportunity } from "../types/config";
+import axios from "axios";
 
 // DeFiLlama API endpoints
 const POOLS_ENDPOINT = "https://yields.llama.fi/pools";
@@ -48,13 +49,8 @@ async function fetchSpecificPools(poolIds: string[]): Promise<DeFiLlamaPool[]> {
     console.log(`Fetching specific pools from DeFiLlama: ${poolIds.join(', ')}`);
     
     // Fetch all pools but only process the ones we need
-    const response = await fetch(POOLS_ENDPOINT);
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    
-    const data = await response.json();
+    const response = await axios.get(POOLS_ENDPOINT);
+    const data = response.data;
     const allPools = data.data || [];
     
     // Filter to only our 3 pools
