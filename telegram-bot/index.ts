@@ -6,6 +6,7 @@ import { verifyEncryptionKey } from "./src/lib/encryption";
 
 // Import commands
 import { startHandler, helpHandler } from "./src/commands/start-help";
+import testApiHandler from "./src/commands/test-api";
 import { walletHandler, createHandler } from "./src/commands/wallet";
 import { importHandler, exportHandler, handlePrivateKeyInput, handleExportConfirmation } from "./src/commands/import-export";
 import { balanceHandler, handleWithdrawEth, handleWithdrawUsdc, handleWithdrawTextInput } from "./src/commands/balance";
@@ -67,6 +68,7 @@ bot.command(settingsHandler.command, settingsHandler.handler);
 bot.command(depositHandler.command, depositHandler.handler);
 bot.command(withdrawHandler.command, withdrawHandler.handler);
 bot.command(helpHandler.command, helpHandler.handler);
+bot.command(testApiHandler.command, testApiHandler.handler);
 
 // Set bot commands menu
 bot.api.setMyCommands([
