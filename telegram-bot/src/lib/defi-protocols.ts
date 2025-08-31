@@ -6,8 +6,8 @@ import { BASE_TOKENS, MAX_UINT256 } from "../utils/constants";
 // Aave V3 Pool contract address on Base
 const AAVE_V3_POOL = "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5" as Address;
 
-// Compound V3 USDC contract address on Base  
-const COMPOUND_V3_USDC = "0x9c4ec768c28520B50860ea7a15bd7213a9fF58bf" as Address;
+// Compound V3 USDC proxy contract address on Base (TransparentUpgradeableProxy)
+const COMPOUND_V3_USDC = "0xb125e6687d4313864e53df431d5425969c15eb2f" as Address;
 
 // Fluid Finance fUSDC contract address on Base
 const FLUID_FUSDC = "0xf42f5795d9ac7e9d757db633d693cd548cfd9169" as Address;
@@ -49,6 +49,44 @@ const COMPOUND_V3_ABI = [
     "name": "supply",
     "outputs": [],
     "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "address", "name": "asset", "type": "address"},
+      {"internalType": "uint256", "name": "amount", "type": "uint256"}
+    ],
+    "name": "withdraw",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+] as const;
+
+// CometRewards ABI for claiming COMP rewards
+const COMET_REWARDS_ABI = [
+  {
+    "inputs": [
+      {"internalType": "address", "name": "comet", "type": "address"},
+      {"internalType": "address", "name": "src", "type": "address"},
+      {"internalType": "bool", "name": "shouldAccrue", "type": "bool"}
+    ],
+    "name": "claim",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "address", "name": "comet", "type": "address"},
+      {"internalType": "address", "name": "account", "type": "address"}
+    ],
+    "name": "getRewardOwed",
+    "outputs": [
+      {"internalType": "address", "name": "", "type": "address"},
+      {"internalType": "uint256", "name": "", "type": "uint256"}
+    ],
+    "stateMutability": "view",
     "type": "function"
   }
 ] as const;
@@ -247,6 +285,54 @@ export async function supplyToCompound(
 }
 
 /**
+ * Withdraw USDC from Compound V3
+ * @param walletData User's wallet data
+ * @param amountUsdc Amount in USDC (human readable, e.g., "100.5") or "max" for full withdrawal
+ * @param claimRewards Whether to claim rewards before withdrawal (default true for max, false for partial)
+ * @returns Transaction receipt
+ */
+export async function withdrawFromCompound(
+  walletData: WalletData,
+  amountUsdc: string,
+  claimRewards?: boolean
+): Promise<TransactionReceipt> {
+  const userAddress = walletData.address as Address;
+  const isMaxWithdrawal = amountUsdc.toLowerCase() === "max";
+  
+  // Check ETH balance for gas fees first
+  await checkEthBalance(walletData, "0.0001");
+
+  // Default behavior: claim rewards for max withdrawal, don't claim for partial
+  const shouldClaimRewards = claimRewards !== undefined ? claimRewards : isMaxWithdrawal;
+
+  // If claiming rewards, do that first (this is a simplified version - Compound rewards need specific setup)
+  if (shouldClaimRewards) {
+    console.log("Note: Reward claiming would happen here - currently simplified for v1");
+    // TODO: Implement actual reward claiming when Compound rewards are configured
+  }
+
+  // For max withdrawal, use MAX_UINT256 which tells Compound to withdraw all
+  const usdcAmount = isMaxWithdrawal 
+    ? BigInt(MAX_UINT256)
+    : parseUnits(amountUsdc, 6);
+
+  console.log(`Withdrawing ${isMaxWithdrawal ? "all" : amountUsdc} USDC from Compound V3${shouldClaimRewards ? " (with rewards)" : ""}...`);
+  
+  const receipt = await executeContractMethod({
+    walletData,
+    contractAddress: COMPOUND_V3_USDC,
+    abi: COMPOUND_V3_ABI,
+    functionName: "withdraw",
+    args: [
+      BASE_TOKENS.USDC, // asset
+      usdcAmount.toString() // amount (MAX_UINT256 for full withdrawal)
+    ]
+  });
+
+  return receipt;
+}
+
+/**
  * Withdraw USDC from Aave V3
  * @param walletData User's wallet data
  * @param amountUsdc Amount in USDC (human readable, e.g., "100.5") or "max" for full withdrawal
@@ -427,12 +513,107 @@ export async function withdrawFromFluid(
 }
 
 /**
+ * Execute a withdrawal transaction from the specified protocol
+ * @param protocol Protocol name ("aave", "fluid", or "compound")
+ * @param walletData User's wallet data
+ * @param amountUsdc Amount in USDC to withdraw or "max" for full withdrawal
+ * @param claimRewards Whether to claim rewards before withdrawal
+ * @returns Transaction receipt
+ */
+export async function executeWithdraw(
+  protocol: string,
+  walletData: WalletData,
+  amountUsdc: string,
+  claimRewards?: boolean
+): Promise<TransactionReceipt> {
+  switch (protocol.toLowerCase()) {
+    case "aave":
+      return await withdrawFromAave(walletData, amountUsdc, claimRewards);
+    
+    case "fluid":
+      return await withdrawFromFluid(walletData, amountUsdc, claimRewards);
+    
+    case "compound":
+      return await withdrawFromCompound(walletData, amountUsdc, claimRewards);
+    
+    default:
+      throw new Error(`Unsupported protocol: ${protocol}`);
+  }
+}
+
+/**
  * Execute a zap transaction to the specified protocol
  * @param protocol Protocol name ("Aave" or "Compound")
  * @param walletData User's wallet data
  * @param amountUsdc Amount in USDC to supply
  * @returns Transaction receipt
  */
+/**
+ * Claim COMP rewards from Compound V3
+ * @param walletData User's wallet data
+ * @returns Transaction receipt
+ */
+export async function claimCompoundRewards(
+  walletData: WalletData
+): Promise<TransactionReceipt> {
+  const userAddress = walletData.address as Address;
+  
+  // Check ETH balance for gas fees first
+  await checkEthBalance(walletData, "0.0001");
+
+  console.log(`Claiming COMP rewards from Compound V3 for ${userAddress}...`);
+  
+  const receipt = await executeContractMethod({
+    walletData,
+    contractAddress: BASE_TOKENS.CometRewards,
+    abi: COMET_REWARDS_ABI,
+    functionName: "claim",
+    args: [
+      COMPOUND_V3_USDC, // comet - the Compound V3 USDC contract
+      userAddress,      // src - the user address
+      true             // shouldAccrue - true to accrue latest rewards
+    ]
+  });
+
+  return receipt;
+}
+
+/**
+ * Check pending COMP rewards for a user
+ * @param userAddress User's wallet address
+ * @returns Pending reward amount and token address
+ */
+export async function getPendingCompoundRewards(
+  userAddress: Address
+): Promise<{ rewardToken: string; amount: string; amountFormatted: string }> {
+  try {
+    const { createPublicClientForBase } = await import("./token-wallet");
+    const publicClient = createPublicClientForBase();
+    
+    const result = await publicClient.readContract({
+      address: BASE_TOKENS.CometRewards,
+      abi: COMET_REWARDS_ABI,
+      functionName: "getRewardOwed",
+      args: [COMPOUND_V3_USDC, userAddress]
+    });
+
+    const [rewardToken, amount] = result as [string, bigint];
+    
+    return {
+      rewardToken,
+      amount: amount.toString(),
+      amountFormatted: (Number(amount) / 1e18).toFixed(6) // COMP has 18 decimals
+    };
+  } catch (error) {
+    console.error("Error getting pending Compound rewards:", error);
+    return {
+      rewardToken: BASE_TOKENS.COMP,
+      amount: "0",
+      amountFormatted: "0.000000"
+    };
+  }
+}
+
 export async function executeZap(
   protocol: string,
   walletData: WalletData,

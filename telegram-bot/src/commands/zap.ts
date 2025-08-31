@@ -14,61 +14,88 @@ import {
 import { isValidAmount } from "../utils/validators";
 import { Address } from "viem";
 
-// Mock function - will be replaced with actual API integration
-// TODO: Replace with actual DeFiLlama API calls: https://yields.llama.fi/pools
-async function getYieldOpportunities(
+/**
+ * Get real-time yield opportunities for USDC lending on Base
+ * Uses DeFiLlama API with fallback to cached data
+ */
+export async function getYieldOpportunities(
   token: string = "USDC", 
   riskLevel: number = 3,
   minApy: number = 5
 ): Promise<YieldOpportunity[]> {
-  // Mock data for v1 - These APY values should come from real APIs in production
-  // For now using realistic estimates based on current market conditions
-  return [
-    {
-      poolId: "fluid-usdc-base",
-      project: "Fluid",
-      chain: "Base",
-      symbol: "USDC",
-      tvlUsd: 120_000_000,
-      apy: 7.8,
-      apyBase: 6.5,
-      apyReward: 1.3,
-      ilRisk: "no",
-      exposure: "single",
-      underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
-      rewardTokens: ["0x...FLUID"]
-    },
-    {
-      poolId: "aave-usdc-base",
-      project: "Aave",
-      chain: "Base",
-      symbol: "USDC",
-      tvlUsd: 150_000_000,
-      apy: 5.2,
-      apyBase: 3.2,
-      apyReward: 2.0,
-      ilRisk: "no",
-      exposure: "single",
-      underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
-      rewardTokens: ["0x...COMP"]
-    },
-    {
-      poolId: "compound-usdc-base", 
-      project: "Compound",
-      chain: "Base",
-      symbol: "USDC",
-      tvlUsd: 89_000_000,
-      apy: 4.8,
-      apyBase: 4.8,
-      apyReward: 0,
-      ilRisk: "no",
-      exposure: "single",
-      underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"]
-    }
-  ];
+  try {
+    // Import the DeFiLlama API client
+    const { fetchRealTimeYields } = await import("../lib/defillama-api");
+    
+    // Fetch real-time yield data
+    const realTimeOpportunities = await fetchRealTimeYields();
+    
+    // Apply risk scores to the real-time data
+    const opportunitiesWithRisk = realTimeOpportunities.map(pool => ({
+      ...pool,
+      riskScore: calculateRiskScore(pool)
+    }));
+    
+    console.log("✅ Using real-time yield data from DeFiLlama");
+    return opportunitiesWithRisk;
+    
+  } catch (error) {
+    console.error("❌ Failed to fetch real-time yields, using fallback data:", error);
+    
+    // Fallback to static data if API fails
+    return [
+      {
+        poolId: "fluid-usdc-base",
+        project: "Fluid",
+        chain: "Base",
+        symbol: "USDC",
+        tvlUsd: 120_000_000,
+        apy: 7.72,
+        apyBase: 4.0,
+        apyReward: 3.72,
+        ilRisk: "no",
+        exposure: "single",
+        underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+        rewardTokens: [],
+        riskScore: 1,
+        protocol: "fluid"
+      },
+      {
+        poolId: "aave-usdc-base",
+        project: "Aave",
+        chain: "Base",
+        symbol: "USDC",
+        tvlUsd: 150_000_000,
+        apy: 5.69,
+        apyBase: 3.2,
+        apyReward: 2.0,
+        ilRisk: "no",
+        exposure: "single",
+        underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+        rewardTokens: [],
+        riskScore: 1,
+        protocol: "aave"
+      },
+      {
+        poolId: "compound-v3-usdc-base", 
+        project: "Compound",
+        chain: "Base",
+        symbol: "USDC",
+        tvlUsd: 89_000_000,
+        apy: 7.65,
+        apyBase: 6.75,
+        apyReward: 0.91,
+        ilRisk: "no",
+        exposure: "single",
+        underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+        riskScore: 1,
+        protocol: "compound"
+      }
+    ];
+  }
 }
 
-function calculateRiskScore(pool: YieldOpportunity): number {
+export function calculateRiskScore(pool: YieldOpportunity): number {
   let risk = 0;
   
   // TVL risk (higher TVL = lower risk)
@@ -79,7 +106,7 @@ function calculateRiskScore(pool: YieldOpportunity): number {
   
   // Protocol reputation risk
   const protocolRisk: Record<string, number> = {
-    'Aave': 1, 'Compound': 1, 'Yearn': 2, 
+    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Yearn': 2, 
     'Pendle': 3, 'Convex': 2, 'Unknown': 5
   };
   risk += protocolRisk[pool.project] || 4;
@@ -169,12 +196,20 @@ export async function handlePoolSelection(ctx: BotContext): Promise<void> {
     const opportunities = await getYieldOpportunities("USDC", userRiskLevel, userMinApy);
     
     // Filter and score pools
+    console.log(`🔍 Pool selection filters: Risk Level ${userRiskLevel} (max ${userRiskLevel * 2}), Min APY ${userMinApy}%`);
+    
     const suitablePools = opportunities
       .filter(pool => {
         const riskScore = calculateRiskScore(pool);
-        return riskScore <= userRiskLevel * 2; // Allow some flexibility
+        const passes = riskScore <= userRiskLevel * 2;
+        console.log(`🔍 ${pool.project}: Risk ${riskScore}/10, APY ${pool.apy}% - ${passes ? 'PASS' : 'FILTERED OUT'}`);
+        return passes;
       })
-      .filter(pool => pool.apy >= userMinApy)
+      .filter(pool => {
+        const passes = pool.apy >= userMinApy;
+        if (!passes) console.log(`🔍 ${pool.project}: APY ${pool.apy}% < ${userMinApy}% - FILTERED OUT BY APY`);
+        return passes;
+      })
       .sort((a, b) => b.apy - a.apy);
     
     if (suitablePools.length === 0) {
@@ -320,19 +355,41 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
     ctx.session.tempData!.amount = amountInput;
     ctx.session.currentAction = "zap_confirm";
 
-    // Get the best pool for auto-deployment
-    const opportunities = await getYieldOpportunities("USDC");
-    const bestPool = opportunities
-      .filter(pool => pool.tvlUsd >= RISK_THRESHOLDS.TVL_SAFE)
-      .sort((a, b) => b.apy - a.apy)[0];
+    // Use the already selected pool from session data
+    let selectedPool;
+    let poolInfo;
 
-    if (!bestPool) {
-      await ctx.reply("❌ No suitable pools found. Please try again later.");
-      return;
+    if (ctx.session.tempData?.selectedPool && ctx.session.tempData?.poolInfo) {
+      // Pool was already selected (either via auto or manual selection)
+      selectedPool = ctx.session.tempData.selectedPool;
+      poolInfo = ctx.session.tempData.poolInfo;
+    } else {
+      // Fallback: Get the best pool for auto-deployment (shouldn't happen normally)
+      const opportunities = await getYieldOpportunities("USDC");
+      const bestPool = opportunities
+        .filter(pool => pool.tvlUsd >= RISK_THRESHOLDS.TVL_SAFE)
+        .sort((a, b) => b.apy - a.apy)[0];
+
+      if (!bestPool) {
+        await ctx.reply("❌ No suitable pools found. Please try again later.");
+        return;
+      }
+
+      selectedPool = bestPool.poolId;
+      poolInfo = {
+        protocol: bestPool.project,
+        apy: bestPool.apy,
+        tvlUsd: bestPool.tvlUsd,
+        riskScore: calculateRiskScore(bestPool)
+      };
+      
+      // Store it for later use
+      ctx.session.tempData!.selectedPool = selectedPool;
+      ctx.session.tempData!.poolInfo = poolInfo;
     }
 
-    // Calculate estimated yearly yield
-    const yearlyYield = (amount * bestPool.apy) / 100;
+    // Calculate estimated yearly yield using the selected pool
+    const yearlyYield = (amount * poolInfo.apy) / 100;
     const monthlyYield = yearlyYield / 12;
 
     const confirmKeyboard = new InlineKeyboard()
@@ -342,14 +399,14 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
     await ctx.reply(
       `🎯 *Zap Confirmation*\n\n` +
       `**Investment**: $${amount} USDC\n` +
-      `**Selected Pool**: ${bestPool.project} USDC\n` +
-      `**Current APY**: ${bestPool.apy}%\n` +
-      `**TVL**: $${(bestPool.tvlUsd / 1_000_000).toFixed(1)}M\n\n` +
+      `**Selected Pool**: ${poolInfo.protocol} USDC\n` +
+      `**Current APY**: ${poolInfo.apy}%\n` +
+      `**TVL**: $${(poolInfo.tvlUsd / 1_000_000).toFixed(1)}M\n\n` +
       `**Estimated Returns**:\n` +
       `• Monthly: ~$${monthlyYield.toFixed(2)}\n` +
       `• Yearly: ~$${yearlyYield.toFixed(2)}\n\n` +
       `**Safety Features**:\n` +
-      `✅ High TVL (${(bestPool.tvlUsd / 1_000_000).toFixed(0)}M+)\n` +
+      `✅ High TVL (${(poolInfo.tvlUsd / 1_000_000).toFixed(0)}M+)\n` +
       `✅ Audited protocol\n` +
       `✅ No impermanent loss risk\n\n` +
       `⚠️ *Note: APY rates can change. Past performance doesn't guarantee future results.*\n\n` +
@@ -360,14 +417,7 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
       }
     );
 
-    // Store pool info for confirmation
-    ctx.session.tempData!.selectedPool = bestPool.poolId;
-    ctx.session.tempData!.poolInfo = {
-      protocol: bestPool.project,
-      apy: bestPool.apy,
-      tvlUsd: bestPool.tvlUsd,
-      riskScore: calculateRiskScore(bestPool)
-    };
+    // Pool info is already stored above in the logic, no need to store again
   } catch (error) {
     console.error("Error handling zap amount input:", error);
     await ctx.reply(ERRORS.NETWORK_ERROR);
@@ -561,6 +611,8 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
       })
       .filter(pool => pool.apy >= userMinApy)
       .sort((a, b) => b.apy - a.apy)[0]; // Get highest APY
+    
+    console.log(`Auto earn selected: ${bestPool?.project} with ${bestPool?.apy}% APY`);
 
     if (!bestPool) {
       await ctx.reply(

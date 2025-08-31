@@ -72,6 +72,8 @@ export interface YieldOpportunity {
   };
   underlyingTokens?: string[];
   rewardTokens?: string[];
+  riskScore?: number;
+  protocol?: string;
 }
 
 // Gas price information
