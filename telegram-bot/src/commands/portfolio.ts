@@ -6,7 +6,7 @@ import {
   getPositionsByUserId, 
   getPortfolioStats 
 } from "../lib/database";
-import { getWallet, getAaveBalance, getFluidBalance, getTokenBalance } from "../lib/token-wallet";
+import { getWallet, getAaveBalance, getFluidBalance, getCompoundBalance, getTokenBalance } from "../lib/token-wallet";
 import { Address } from "viem";
 import { BASE_TOKENS } from "../utils/constants";
 
@@ -32,18 +32,20 @@ const portfolioHandler: CommandHandler = {
       const walletAddress = wallet.address as Address;
 
       // Fetch real on-chain balances
-      const [aaveBalance, fluidBalance, usdcBalance] = await Promise.all([
+      const [aaveBalance, fluidBalance, compoundBalance, usdcBalance] = await Promise.all([
         getAaveBalance(walletAddress),
         getFluidBalance(walletAddress),
+        getCompoundBalance(walletAddress),
         getTokenBalance(BASE_TOKENS.USDC, walletAddress)
       ]);
 
       const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
       const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
+      const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
       const usdcBalanceNum = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
 
       // If no DeFi deposits, show empty portfolio
-      if (aaveBalanceNum === 0 && fluidBalanceNum === 0) {
+      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0) {
         const keyboard = new InlineKeyboard()
           .text("🚀 Start Earning", "zap_funds")
           .text("📥 Deposit", "deposit")
@@ -57,7 +59,8 @@ const portfolioHandler: CommandHandler = {
           `**Current Balances**:\n` +
           `• Wallet USDC: $${usdcBalanceNum.toFixed(2)}\n` +
           `• Aave Deposits: $0.00\n` +
-          `• Fluid Deposits: $0.00\n\n` +
+          `• Fluid Deposits: $0.00\n` +
+          `• Compound Deposits: $0.00\n\n` +
           `**Get Started**:\n` +
           `• Use 🚀 Start Earning to auto-deploy to best yields\n` +
           `• Earn 5%+ APY on your USDC\n` +
@@ -71,10 +74,28 @@ const portfolioHandler: CommandHandler = {
         return;
       }
 
-      // Show DeFi positions with real balances
-      const aaveApy = 5.2; // Could fetch real APY from Aave API
-      const fluidApy = 7.8; // Could fetch real APY from Fluid API
-      const totalValue = aaveBalanceNum + fluidBalanceNum;
+      // Fetch real-time APY data (with current fallbacks)
+      let aaveApy = 5.69;
+      let fluidApy = 7.72;
+      let compoundApy = 7.65;
+      
+      try {
+        const { fetchProtocolApy } = await import("../lib/defillama-api");
+        const [realAaveApy, realFluidApy, realCompoundApy] = await Promise.allSettled([
+          fetchProtocolApy("AAVE"),
+          fetchProtocolApy("FLUID"), 
+          fetchProtocolApy("COMPOUND")
+        ]);
+        
+        if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
+        if (realFluidApy.status === 'fulfilled') fluidApy = realFluidApy.value;
+        if (realCompoundApy.status === 'fulfilled') compoundApy = realCompoundApy.value;
+        
+        console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%`);
+      } catch (error) {
+        console.warn("Failed to fetch real-time APY, using fallback rates:", error);
+      }
+      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum;
       
       let message = `📊 **Your DeFi Portfolio**\n\n`;
       
@@ -83,7 +104,16 @@ const portfolioHandler: CommandHandler = {
       message += `💳 **Wallet USDC**: $${usdcBalanceNum.toFixed(2)}\n`;
       message += `🏦 **Total Deposited**: $${totalValue.toFixed(2)}\n\n`;
 
-      // Active positions
+      // Active positions (sorted by APY - highest first)
+      if (compoundBalanceNum > 0) {
+        message += `**🏦 Compound V3 Position**\n\n`;
+        message += `🟢 **Compound USDC**\n`;
+        message += `• **Current Deposit**: $${compoundBalanceNum.toFixed(2)}\n`;
+        message += `• **Current APY**: ${compoundApy}%\n`;
+        message += `• **Protocol**: Compound V3 on Base\n`;
+        message += `• **Status**: ✅ Active & Earning\n\n`;
+      }
+
       if (fluidBalanceNum > 0) {
         message += `**🌊 Fluid Finance Position**\n\n`;
         message += `🟢 **Fluid USDC**\n`;
@@ -145,25 +175,57 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     }
 
     const walletAddress = wallet.address as Address;
-    const [aaveBalance, fluidBalance] = await Promise.all([
+    const [aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
       getAaveBalance(walletAddress),
-      getFluidBalance(walletAddress)
+      getFluidBalance(walletAddress),
+      getCompoundBalance(walletAddress)
     ]);
     
     const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
     const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
+    const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
     
-    if (aaveBalanceNum === 0 && fluidBalanceNum === 0) {
+    if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0) {
       await ctx.answerCallbackQuery("No active positions found");
       return;
     }
 
     await ctx.answerCallbackQuery();
 
-    const aaveApy = 5.2; // Could fetch from Aave API
-    const fluidApy = 7.8; // Could fetch from Fluid API
+    // Fetch real-time APY data
+    let aaveApy = 5.69;
+    let fluidApy = 7.72;
+    let compoundApy = 7.65;
+    
+    try {
+      const { fetchProtocolApy } = await import("../lib/defillama-api");
+      const [realAaveApy, realFluidApy, realCompoundApy] = await Promise.allSettled([
+        fetchProtocolApy("AAVE"),
+        fetchProtocolApy("FLUID"), 
+        fetchProtocolApy("COMPOUND")
+      ]);
+      
+      if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
+      if (realFluidApy.status === 'fulfilled') fluidApy = realFluidApy.value;
+      if (realCompoundApy.status === 'fulfilled') compoundApy = realCompoundApy.value;
+    } catch (error) {
+      console.warn("Failed to fetch real-time APY for portfolio details:", error);
+    }
     
     let message = `📈 **Portfolio Details**\n\n`;
+    
+    // Show positions in order of APY (highest first)
+    if (compoundBalanceNum > 0) {
+      message += `**🏦 Compound V3 Position Details**\n\n`;
+      message += `🟢 **USDC Lending Position**\n`;
+      message += `• **Current Deposit**: $${compoundBalanceNum.toFixed(2)}\n`;
+      message += `• **Token**: cUSDCv3 (Compound interest-bearing USDC)\n`;
+      message += `• **Protocol**: Compound V3\n`;
+      message += `• **Chain**: Base Network\n`;
+      message += `• **Current APY**: ${compoundApy}%\n`;
+      message += `• **Status**: ✅ Active & Auto-Compounding\n`;
+      message += `• **Risk Level**: 🟢 Low (Compound is battle-tested)\n\n`;
+    }
     
     if (fluidBalanceNum > 0) {
       message += `**🌊 Fluid Finance Position Details**\n\n`;

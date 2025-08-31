@@ -63,6 +63,34 @@ const COMPOUND_V3_ABI = [
   }
 ] as const;
 
+// CometRewards ABI for claiming COMP rewards
+const COMET_REWARDS_ABI = [
+  {
+    "inputs": [
+      {"internalType": "address", "name": "comet", "type": "address"},
+      {"internalType": "address", "name": "src", "type": "address"},
+      {"internalType": "bool", "name": "shouldAccrue", "type": "bool"}
+    ],
+    "name": "claim",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {"internalType": "address", "name": "comet", "type": "address"},
+      {"internalType": "address", "name": "account", "type": "address"}
+    ],
+    "name": "getRewardOwed",
+    "outputs": [
+      {"internalType": "address", "name": "", "type": "address"},
+      {"internalType": "uint256", "name": "", "type": "uint256"}
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+] as const;
+
 // ERC20 ABI for approve function
 const ERC20_APPROVE_ABI = [
   {
@@ -520,6 +548,72 @@ export async function executeWithdraw(
  * @param amountUsdc Amount in USDC to supply
  * @returns Transaction receipt
  */
+/**
+ * Claim COMP rewards from Compound V3
+ * @param walletData User's wallet data
+ * @returns Transaction receipt
+ */
+export async function claimCompoundRewards(
+  walletData: WalletData
+): Promise<TransactionReceipt> {
+  const userAddress = walletData.address as Address;
+  
+  // Check ETH balance for gas fees first
+  await checkEthBalance(walletData, "0.0001");
+
+  console.log(`Claiming COMP rewards from Compound V3 for ${userAddress}...`);
+  
+  const receipt = await executeContractMethod({
+    walletData,
+    contractAddress: BASE_TOKENS.CometRewards,
+    abi: COMET_REWARDS_ABI,
+    functionName: "claim",
+    args: [
+      COMPOUND_V3_USDC, // comet - the Compound V3 USDC contract
+      userAddress,      // src - the user address
+      true             // shouldAccrue - true to accrue latest rewards
+    ]
+  });
+
+  return receipt;
+}
+
+/**
+ * Check pending COMP rewards for a user
+ * @param userAddress User's wallet address
+ * @returns Pending reward amount and token address
+ */
+export async function getPendingCompoundRewards(
+  userAddress: Address
+): Promise<{ rewardToken: string; amount: string; amountFormatted: string }> {
+  try {
+    const { createPublicClientForBase } = await import("./token-wallet");
+    const publicClient = createPublicClientForBase();
+    
+    const result = await publicClient.readContract({
+      address: BASE_TOKENS.CometRewards,
+      abi: COMET_REWARDS_ABI,
+      functionName: "getRewardOwed",
+      args: [COMPOUND_V3_USDC, userAddress]
+    });
+
+    const [rewardToken, amount] = result as [string, bigint];
+    
+    return {
+      rewardToken,
+      amount: amount.toString(),
+      amountFormatted: (Number(amount) / 1e18).toFixed(6) // COMP has 18 decimals
+    };
+  } catch (error) {
+    console.error("Error getting pending Compound rewards:", error);
+    return {
+      rewardToken: BASE_TOKENS.COMP,
+      amount: "0",
+      amountFormatted: "0.000000"
+    };
+  }
+}
+
 export async function executeZap(
   protocol: string,
   walletData: WalletData,

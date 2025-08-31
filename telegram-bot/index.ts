@@ -6,6 +6,7 @@ import { verifyEncryptionKey } from "./src/lib/encryption";
 
 // Import commands
 import { startHandler, helpHandler } from "./src/commands/start-help";
+import testApiHandler from "./src/commands/test-api";
 import { walletHandler, createHandler } from "./src/commands/wallet";
 import { importHandler, exportHandler, handlePrivateKeyInput, handleExportConfirmation } from "./src/commands/import-export";
 import { balanceHandler, handleWithdrawEth, handleWithdrawUsdc, handleWithdrawTextInput } from "./src/commands/balance";
@@ -67,6 +68,7 @@ bot.command(settingsHandler.command, settingsHandler.handler);
 bot.command(depositHandler.command, depositHandler.handler);
 bot.command(withdrawHandler.command, withdrawHandler.handler);
 bot.command(helpHandler.command, helpHandler.handler);
+bot.command(testApiHandler.command, testApiHandler.handler);
 
 // Set bot commands menu
 bot.api.setMyCommands([
@@ -99,10 +101,11 @@ bot.on("callback_query:data", async (ctx) => {
   const callbackData = ctx.callbackQuery.data;
 
   // Handle withdraw-specific callbacks first
-  if (callbackData === "withdraw_aave_max" || callbackData === "withdraw_fluid_max" || 
-      callbackData === "withdraw_fluid_menu" || callbackData === "withdraw_aave_menu" ||
-      callbackData === "withdraw_fluid_custom" || callbackData === "withdraw_aave_custom" ||
+  if (callbackData === "withdraw_aave_max" || callbackData === "withdraw_fluid_max" || callbackData === "withdraw_compound_max" ||
+      callbackData === "withdraw_fluid_menu" || callbackData === "withdraw_aave_menu" || callbackData === "withdraw_compound_menu" ||
+      callbackData === "withdraw_fluid_custom" || callbackData === "withdraw_aave_custom" || callbackData === "withdraw_compound_custom" ||
       callbackData === "withdraw_aave_custom_with_rewards" || callbackData === "withdraw_aave_custom_no_rewards" ||
+      callbackData === "withdraw_compound_custom_with_rewards" || callbackData === "withdraw_compound_custom_no_rewards" ||
       callbackData === "withdraw_custom" || callbackData === "withdraw_custom_with_rewards" || callbackData === "withdraw_custom_no_rewards") {
     await handleWithdrawCallbacks(ctx);
     return;
@@ -197,6 +200,22 @@ bot.on("callback_query:data", async (ctx) => {
   else if (callbackData.startsWith("pool_")) {
     const poolId = callbackData.replace("pool_", "");
     ctx.session.tempData!.selectedPool = poolId;
+    
+    // We need to get the pool info and store it as well
+    const { getYieldOpportunities } = await import("./src/commands/zap");
+    const opportunities = await getYieldOpportunities("USDC");
+    const selectedPoolData = opportunities.find(pool => pool.poolId === poolId);
+    
+    if (selectedPoolData) {
+      const { calculateRiskScore } = await import("./src/commands/zap");
+      ctx.session.tempData!.poolInfo = {
+        protocol: selectedPoolData.project,
+        apy: selectedPoolData.apy,
+        tvlUsd: selectedPoolData.tvlUsd,
+        riskScore: calculateRiskScore(selectedPoolData)
+      };
+    }
+    
     ctx.session.currentAction = "zap_amount";
     // Ask for amount
     await ctx.editMessageText(
