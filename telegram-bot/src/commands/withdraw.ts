@@ -1,6 +1,6 @@
 import { BotContext } from "../context";
 import { getWallet } from "../lib/token-wallet";
-import { withdrawFromAave, withdrawFromFluid } from "../lib/defi-protocols";
+import { withdrawFromAave, withdrawFromFluid, withdrawFromCompound } from "../lib/defi-protocols";
 import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
 
@@ -34,8 +34,9 @@ const withdrawHandler: CommandHandler = {
 
       // Show protocol selection for exit
       const keyboard = new InlineKeyboard()
-        .text("🌊 Exit from Fluid", "withdraw_fluid_menu")
+        .text("🌊 Exit from Fluid", "withdraw_fluid_menu").row()
         .text("🏛️ Exit from Aave", "withdraw_aave_menu").row()
+        .text("🏦 Exit from Compound", "withdraw_compound_menu").row()
         .text("❌ Cancel", "cancel_operation");
 
       await ctx.reply(
@@ -46,6 +47,9 @@ const withdrawHandler: CommandHandler = {
           `• Full or partial withdrawal options\n\n` +
           `**🏛️ Aave V3**\n` +
           `• Stable lending protocol (5.2%)\n` +
+          `• Full or partial withdrawal options\n\n` +
+          `**🏦 Compound V3**\n` +
+          `• USDC lending with COMP rewards\n` +
           `• Full or partial withdrawal options\n\n` +
           `**Note:** Small gas fee (~$0.002) required for each exit`,
         {
@@ -124,6 +128,32 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
           `• **Exit All** - Withdraw complete Aave position to wallet\n` +
           `• **Custom Amount** - Specify exact USDC amount to exit\n\n` +
           `**Note:** Rewards are automatically claimed on full withdrawal`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_compound_menu") {
+      await ctx.answerCallbackQuery();
+      
+      const keyboard = new InlineKeyboard()
+        .text("💸 Exit All Compound", "withdraw_compound_max").row()
+        .text("⚖️ Exit Custom Amount", "withdraw_compound_custom").row()
+        .text("🔙 Back", "withdraw");
+
+      await ctx.reply(
+        `🏦 **Exit from Compound V3**\n\n` +
+          `**Your Compound Position:**\n` +
+          `• Current APY: 6.2%\n` +
+          `• Token: cUSDCv3 (interest-bearing)\n` +
+          `• Rewards: COMP tokens\n\n` +
+          `**Exit Options:**\n` +
+          `• **Exit All** - Withdraw complete Compound position to wallet\n` +
+          `• **Custom Amount** - Specify exact USDC amount to exit\n\n` +
+          `**Note:** COMP rewards are claimed automatically on withdrawal`,
         {
           parse_mode: "Markdown",
           reply_markup: keyboard
@@ -266,6 +296,100 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
           }
         );
       }
+    }
+
+    if (callbackData === "withdraw_compound_max") {
+      await ctx.answerCallbackQuery();
+      
+      const processingMsg = await ctx.reply(
+        `🔄 **Processing Pool Exit...**\n\n` +
+          `**Protocol:** Compound V3\n` +
+          `**Amount:** All available USDC\n` +
+          `**Status:** Executing transaction...`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+
+      try {
+        const receipt = await withdrawFromCompound(wallet, "max", true); // Claim COMP rewards
+
+        const successKeyboard = new InlineKeyboard()
+          .text("🚀 Reinvest", "zap_funds")
+          .text("📊 View Portfolio", "view_portfolio")
+          .row()
+          .text("💰 Check Balance", "check_balance")
+          .text("📥 Deposit More", "deposit");
+
+        await ctx.api.editMessageText(
+          processingMsg.chat.id,
+          processingMsg.message_id,
+          `✅ **Pool Exit Successful!**\n\n` +
+            `**Protocol:** Compound V3\n` +
+            `**Amount:** All available USDC\n` +
+            `**COMP Rewards:** Claimed automatically\n` +
+            `**Transaction:** \`${receipt.transactionHash}\`\n` +
+            `**Block:** ${receipt.blockNumber}\n` +
+            `**Gas Used:** ${receipt.gasUsed}\n\n` +
+            `💰 USDC has been moved back to your wallet!\n` +
+            `🎁 COMP rewards have been claimed\n` +
+            `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: successKeyboard
+          }
+        );
+
+      } catch (error: any) {
+        console.error("Compound withdrawal failed:", error);
+        
+        const errorKeyboard = new InlineKeyboard()
+          .text("🔄 Try Again", "withdraw_compound_max")
+          .text("💸 Custom Amount", "withdraw_compound_custom")
+          .row()
+          .text("📊 View Portfolio", "view_portfolio")
+          .text("💰 Check Balance", "check_balance");
+
+        await ctx.api.editMessageText(
+          processingMsg.chat.id,
+          processingMsg.message_id,
+          `❌ **Pool Exit Failed**\n\n` +
+            `**Error:** ${error.message}\n\n` +
+            `This might be due to:\n` +
+            `• Insufficient ETH for gas fees\n` +
+            `• No USDC deposited in Compound\n` +
+            `• Network issues\n\n` +
+            `Try checking your balance with /portfolio`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: errorKeyboard
+          }
+        );
+      }
+    }
+
+    if (callbackData === "withdraw_compound_custom") {
+      await ctx.answerCallbackQuery();
+      
+      // Store protocol preference and set state for amount input
+      ctx.session.tempData = ctx.session.tempData || {};
+      ctx.session.tempData.protocol = "compound";
+      ctx.session.awaitingWithdrawAmount = true;
+      
+      await ctx.reply(
+        `💸 **Custom Compound Withdrawal**\n\n` +
+          `Please enter the amount of USDC you want to withdraw:\n\n` +
+          `**Examples:**\n` +
+          `• \`1\` - Withdraw 1 USDC\n` +
+          `• \`50.5\` - Withdraw 50.5 USDC\n` +
+          `• \`max\` - Withdraw all available\n\n` +
+          `**Note:** COMP rewards are automatically claimed\n\n` +
+          `**Cancel:** Send /cancel`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+      return;
     }
 
     // Handle protocol-specific custom withdrawals
@@ -421,8 +545,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
 
     // Determine which protocol to withdraw from
     const protocol = ctx.session.tempData?.protocol || "aave"; // Default to Aave for legacy support
-    const protocolName = protocol === "fluid" ? "Fluid Finance" : "Aave V3";
-    const protocolEmoji = protocol === "fluid" ? "🌊" : "🏛️";
+    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : "Aave V3";
+    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : "🏛️";
 
     const processingMsg = await ctx.reply(
       `🔄 **Processing Withdrawal...**\n\n` +
@@ -441,6 +565,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       // Execute withdrawal based on protocol
       const receipt = protocol === "fluid" 
         ? await withdrawFromFluid(wallet, amount, claimRewards)
+        : protocol === "compound"
+        ? await withdrawFromCompound(wallet, amount, claimRewards)
         : await withdrawFromAave(wallet, amount, claimRewards);
 
       // Determine reward status based on actual behavior
@@ -488,9 +614,9 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
     } catch (error: any) {
       console.error("Withdrawal failed:", error);
       
-      const retryCustomAction = protocol === "fluid" ? "withdraw_fluid_custom" : "withdraw_aave_custom";
-      const withdrawAllAction = protocol === "fluid" ? "withdraw_fluid_max" : "withdraw_aave_max";
-      const protocolDisplayName = protocol === "fluid" ? "Fluid Finance" : "Aave";
+      const retryCustomAction = protocol === "fluid" ? "withdraw_fluid_custom" : protocol === "compound" ? "withdraw_compound_custom" : "withdraw_aave_custom";
+      const withdrawAllAction = protocol === "fluid" ? "withdraw_fluid_max" : protocol === "compound" ? "withdraw_compound_max" : "withdraw_aave_max";
+      const protocolDisplayName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound" : "Aave";
 
       const errorKeyboard = new InlineKeyboard()
         .text("🔄 Try Again", retryCustomAction)

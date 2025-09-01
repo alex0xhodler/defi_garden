@@ -10,7 +10,7 @@ import {
 } from "../lib/database";
 import { getWallet } from "../lib/token-wallet";
 import { getAaveBalance, getFluidBalance, getCompoundBalance, formatTokenAmount } from "../lib/token-wallet";
-import { getPendingCompoundRewards, claimCompoundRewards } from "../lib/defi-protocols";
+import { getPendingCompoundRewards, claimCompoundRewards, getPendingFluidRewards } from "../lib/defi-protocols";
 import { fetchRealTimeYields } from "../lib/defillama-api";
 import { Address, parseUnits } from "viem";
 
@@ -29,26 +29,26 @@ async function calculateAaveYields(walletAddress: Address, positions: any[], rea
     const { aUsdcBalanceFormatted } = await getAaveBalance(walletAddress);
     const currentBalance = parseFloat(aUsdcBalanceFormatted);
     
+    // Get real-time APY from DeFiLlama first
+    const aavePool = realTimeYields.find(pool => pool.project === 'Aave');
+    const realTimeApy = aavePool ? aavePool.apy : 5.69; // Current real-time fallback
+    
     // Get Aave positions from database to calculate original deposits
     const aavePositions = positions.filter(pos => pos.protocol.toLowerCase() === 'aave');
     
-    if (aavePositions.length === 0) {
+    if (aavePositions.length === 0 || currentBalance < 0.01) {
       return {
         protocol: 'Aave',
         currentValue: 0,
         originalDeposit: 0, 
         yieldEarned: 0,
-        apy: 0,
+        apy: realTimeApy,
         hasPosition: false
       };
     }
     
     const totalOriginalDeposit = aavePositions.reduce((sum, pos) => sum + pos.amountInvested, 0);
     const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
-    
-    // Get real-time APY from DeFiLlama
-    const aavePool = realTimeYields.find(pool => pool.project === 'Aave');
-    const realTimeApy = aavePool ? aavePool.apy : 5.69; // Current real-time fallback
     console.log(`🔍 Aave APY: pool found=${!!aavePool}, APY=${realTimeApy}`);
     
     return {
@@ -73,49 +73,79 @@ async function calculateAaveYields(walletAddress: Address, positions: any[], rea
 }
 
 /**
- * Calculate real-time Fluid yields based on fUSDC balance vs original deposit
+ * Calculate claimable FLUID token rewards (not balance growth)
  */
-async function calculateFluidYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
+async function calculateFluidRewards(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
   protocol: string;
   currentValue: number;
   originalDeposit: number;
   yieldEarned: number;
   apy: number;
   hasPosition: boolean;
+  fluidRewards?: {
+    amount: string;
+    amountFormatted: string;
+    canClaim: boolean;
+    positionId?: string;
+    cycle?: number;
+  };
 }> {
   try {
     const { fUsdcBalanceFormatted } = await getFluidBalance(walletAddress);
     const currentBalance = parseFloat(fUsdcBalanceFormatted);
     
+    // Get pending FLUID token rewards
+    const fluidRewards = await getPendingFluidRewards(walletAddress);
+    const fluidAmount = parseFloat(fluidRewards.amountFormatted);
+    
+    // Get real-time APY from DeFiLlama first  
+    const fluidPool = realTimeYields.find(pool => pool.project === 'Fluid');
+    const realTimeApy = fluidPool ? fluidPool.apy : 7.72; // Current real-time fallback
+    
     // Get Fluid positions from database to calculate original deposits
     const fluidPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'fluid');
     
-    if (fluidPositions.length === 0) {
+    if (fluidPositions.length === 0 || currentBalance < 0.01) {
       return {
         protocol: 'Fluid',
         currentValue: 0,
         originalDeposit: 0,
         yieldEarned: 0,
-        apy: 0,
-        hasPosition: false
+        apy: realTimeApy,
+        hasPosition: false,
+        fluidRewards: {
+          amount: fluidRewards.amount,
+          amountFormatted: fluidRewards.amountFormatted,
+          canClaim: fluidRewards.hasClaimableRewards,
+          positionId: fluidRewards.positionId,
+          cycle: fluidRewards.cycle
+        }
       };
     }
     
     const totalOriginalDeposit = fluidPositions.reduce((sum, pos) => sum + pos.amountInvested, 0);
-    const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
     
-    // Get real-time APY from DeFiLlama
-    const fluidPool = realTimeYields.find(pool => pool.project === 'Fluid');
-    const realTimeApy = fluidPool ? fluidPool.apy : 7.72; // Current real-time fallback
+    // For harvest, we want FLUID token rewards, not USDC balance growth
+    // USDC growth stays in the protocol earning compound interest
+    const claimableRewards = fluidAmount; // FLUID tokens, not USDC
+    
     console.log(`🔍 Fluid APY: pool found=${!!fluidPool}, APY=${realTimeApy}`);
+    console.log(`🎁 FLUID rewards: ${fluidRewards.amountFormatted} FLUID tokens`);
     
     return {
       protocol: 'Fluid',
       currentValue: currentBalance,
       originalDeposit: totalOriginalDeposit,
-      yieldEarned,
+      yieldEarned: claimableRewards, // This is now FLUID tokens, not USDC
       apy: realTimeApy,
-      hasPosition: true
+      hasPosition: true,
+      fluidRewards: {
+        amount: fluidRewards.amount,
+        amountFormatted: fluidRewards.amountFormatted,
+        canClaim: fluidRewards.hasClaimableRewards,
+        positionId: fluidRewards.positionId,
+        cycle: fluidRewards.cycle
+      }
     };
   } catch (error) {
     console.error('Error calculating Fluid yields:', error);
@@ -155,39 +185,41 @@ async function calculateCompoundYields(walletAddress: Address, positions: any[],
     const compRewards = await getPendingCompoundRewards(walletAddress);
     const compAmount = parseFloat(compRewards.amountFormatted);
     
-    // Get Compound positions from database to calculate original deposits
-    const compoundPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'compound');
+    // Get real-time APY from DeFiLlama first
+    console.log(`🔍 Looking for Compound in:`, realTimeYields.map(y => `${y.project}:${y.apy}%`));
+    const compoundPool = realTimeYields.find(pool => pool.project === 'Compound');
+    const realTimeApy = compoundPool ? compoundPool.apy : 7.65; // Current real-time fallback
     
-    if (compoundPositions.length === 0) {
+    // Check if user has position (on-chain balance OR claimable COMP rewards)
+    const hasOnChainPosition = currentBalance >= 0.01;
+    const hasClaimableRewards = compAmount > 0.000001;
+    
+    if (!hasOnChainPosition && !hasClaimableRewards) {
       return {
         protocol: 'Compound',
         currentValue: 0,
         originalDeposit: 0,
         yieldEarned: 0,
-        apy: 0,
+        apy: realTimeApy,
         hasPosition: false,
         compRewards: {
           amount: compRewards.amount,
           amountFormatted: compRewards.amountFormatted,
-          canClaim: compAmount > 0.000001 // Minimum claimable COMP
+          canClaim: false
         }
       };
     }
     
-    const totalOriginalDeposit = compoundPositions.reduce((sum, pos) => sum + pos.amountInvested, 0);
-    const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
-    
-    // Get real-time APY from DeFiLlama
-    console.log(`🔍 Looking for Compound in:`, realTimeYields.map(y => `${y.project}:${y.apy}%`));
-    const compoundPool = realTimeYields.find(pool => pool.project === 'Compound');
-    const realTimeApy = compoundPool ? compoundPool.apy : 7.65; // Current real-time fallback
+    // For harvest, we only care about COMP token rewards, not USDC balance growth
+    // The USDC balance growth stays in Compound earning interest
+    const harvestableRewards = compAmount; // COMP tokens only
     console.log(`🔍 Compound APY: pool found=${!!compoundPool}, APY=${realTimeApy}`);
     
     return {
       protocol: 'Compound',
       currentValue: currentBalance,
-      originalDeposit: totalOriginalDeposit,
-      yieldEarned,
+      originalDeposit: currentBalance * 0.95, // Estimate since we don't track database
+      yieldEarned: harvestableRewards, // COMP tokens, not USDC
       apy: realTimeApy,
       hasPosition: true,
       compRewards: {
@@ -278,10 +310,10 @@ const harvestHandler: CommandHandler = {
         console.log('📊 Using fallback yields:', realTimeYields.map(y => `${y.project}: ${y.apy.toFixed(2)}%`));
       }
 
-      // Calculate real-time yields for all three protocols
+      // Calculate real-time rewards for all three protocols
       const [aaveYields, fluidYields, compoundYields] = await Promise.all([
         calculateAaveYields(walletAddress, positions, realTimeYields),
-        calculateFluidYields(walletAddress, positions, realTimeYields),
+        calculateFluidRewards(walletAddress, positions, realTimeYields),
         calculateCompoundYields(walletAddress, positions, realTimeYields)
       ]);
       
@@ -301,18 +333,19 @@ const harvestHandler: CommandHandler = {
         return;
       }
       
-      // Calculate total harvestable yields (minimum $0.01 as requested)
-      const totalYieldEarned = protocolYields.reduce((sum, p) => sum + p.yieldEarned, 0);
-      
-      // Check for COMP rewards that can be claimed
+      // Check for claimable token rewards
       const compoundData = protocolYields.find(p => p.protocol === 'Compound') as any;
+      const fluidData = protocolYields.find(p => p.protocol === 'Fluid') as any;
+      
       const hasClaimableCompRewards = compoundData?.compRewards?.canClaim || false;
+      const hasClaimableFluidRewards = fluidData?.fluidRewards?.canClaim || false;
       const compRewardAmount = compoundData?.compRewards?.amountFormatted || "0.000000";
+      const fluidRewardAmount = fluidData?.fluidRewards?.amountFormatted || "0.000000";
       
-      const MIN_HARVEST_AMOUNT = 0.0001; // $0.0001 minimum for testing COMP rewards
+      // Show harvest if ANY protocol has claimable rewards (no minimum threshold for tokens)
+      const hasAnyClaimableRewards = hasClaimableCompRewards || hasClaimableFluidRewards;
       
-      // Check if there are significant yields to harvest OR COMP rewards to claim
-      if (totalYieldEarned < MIN_HARVEST_AMOUNT && !hasClaimableCompRewards) {
+      if (!hasAnyClaimableRewards) {
         // Calculate simple monthly projections
         let totalMonthlyProjection = 0;
         let positionsText = '';
@@ -326,12 +359,13 @@ const harvestHandler: CommandHandler = {
         
         await ctx.reply(
           `🌾 *Harvest Status*\n\n` +
-          `💰 **Current Yields**: $${totalYieldEarned.toFixed(4)}\n\n` +
-          `⏰ Still growing! Come back when you've earned at least $${MIN_HARVEST_AMOUNT.toFixed(4)}.\n\n` +
+          `🎁 **Token Rewards**: None available yet\n\n` +
+          `⏰ Your positions are earning, but no claimable token rewards yet.\n\n` +
           `**Your Positions**:\n${positionsText}\n` +
           `📈 **Total Monthly Projection**: $${totalMonthlyProjection.toFixed(3)}\n` +
           (hasClaimableCompRewards ? `🎁 **COMP Rewards**: ${compRewardAmount} COMP ready to claim\n` : '') +
-          `\n💡 **Tip**: Small positions? Add more funds to see meaningful daily returns!`,
+          (hasClaimableFluidRewards ? `🌊 **FLUID Rewards**: ${fluidRewardAmount} FLUID ready to claim\n` : '') +
+          `\n💡 **Tip**: Token rewards accumulate over time. Check back later!`,
           {
             parse_mode: "Markdown",
             reply_markup: new InlineKeyboard()
@@ -342,46 +376,42 @@ const harvestHandler: CommandHandler = {
         return;
       }
 
-      // Show harvestable positions with real-time data
-      let message = `🌾 *Ready to Harvest*\n\n`;
-      message += `💰 **Total Yields Available**: $${totalYieldEarned.toFixed(3)}\n`;
+      // Show harvestable token rewards
+      let message = `🌾 *Ready to Harvest Token Rewards*\n\n`;
       
       if (hasClaimableCompRewards) {
-        message += `🎁 **COMP Rewards Ready**: ${compRewardAmount} COMP tokens\n`;
+        message += `🏦 **Compound COMP Rewards**: ${compRewardAmount} COMP\n`;
+      }
+      if (hasClaimableFluidRewards) {
+        message += `🌊 **Fluid FLUID Rewards**: ${fluidRewardAmount} FLUID\n`;
       }
       message += `\n`;
       
-      message += `**🏦 Your Positions**:\n`;
+      message += `**🏦 Your Protocol Balances**:\n`;
       
       for (const protocolData of protocolYields) {
-        const shouldShowProtocol = protocolData.yieldEarned >= MIN_HARVEST_AMOUNT || 
-          (protocolData.protocol === 'Compound' && hasClaimableCompRewards);
+        if (protocolData.hasPosition) {
+          message += `• **${protocolData.protocol}**: $${protocolData.currentValue.toFixed(2)} earning ${protocolData.apy.toFixed(1)}% APY\n`;
           
-        if (shouldShowProtocol) {
-          const position = positions.find(p => p.protocol.toLowerCase() === protocolData.protocol.toLowerCase());
-          const daysSinceCreated = position ? Math.floor((Date.now() - position.createdAt.getTime()) / (1000 * 60 * 60 * 24)) : 0;
-          message += `• **${protocolData.protocol}**: +$${protocolData.yieldEarned.toFixed(3)} (${daysSinceCreated} days) - ${protocolData.apy.toFixed(1)}% APY\n`;
-          message += `  💳 Balance: $${protocolData.currentValue.toFixed(2)} (from $${protocolData.originalDeposit.toFixed(2)})\n`;
-          
-          // Show COMP rewards for Compound
-          if (protocolData.protocol === 'Compound' && (protocolData as any).compRewards?.canClaim) {
-            message += `  🎁 COMP Rewards: ${(protocolData as any).compRewards.amountFormatted} tokens\n`;
+          // Show specific token rewards
+          if (protocolData.protocol === 'Compound' && hasClaimableCompRewards) {
+            message += `  🎁 Claimable: ${compRewardAmount} COMP tokens\n`;
+          }
+          if (protocolData.protocol === 'Fluid' && hasClaimableFluidRewards) {
+            message += `  🎁 Claimable: ${fluidRewardAmount} FLUID tokens\n`;
           }
         }
       }
 
-      message += `\n**Choose harvest strategy**:\n\n`;
-      message += `🔄 **Auto-Compound**: Re-invest yields to earn more\n`;
-      message += `💸 **Withdraw**: Send yields to your wallet\n`;
-      message += `⚖️ **Smart Split**: Compound 80%, withdraw 20%`;
+      message += `\n**Choose what to do with your token rewards**:\n\n`;
+      message += `🎁 **Claim Tokens**: Get COMP/FLUID tokens to your wallet\n`;
+      message += `💎 **Hold**: Keep rewards in protocols for now\n`;
+      message += `⚡ **Quick Claim**: Claim all available token rewards`;
 
       const keyboard = new InlineKeyboard()
-        .text("🔄 Auto-Compound All", "harvest_compound")
+        .text("🎁 Claim All Tokens", "harvest_compound")
         .row()
-        .text("💸 Withdraw All", "harvest_withdraw") 
-        .text("⚖️ Smart Split", "harvest_split")
-        .row()
-        .text("🎯 Choose Per Position", "harvest_custom")
+        .text("💎 Hold for Later", "harvest_cancel")
         .text("❌ Cancel", "harvest_cancel");
 
       await ctx.reply(message, {
@@ -389,16 +419,18 @@ const harvestHandler: CommandHandler = {
         reply_markup: keyboard
       });
 
-      // Store harvest data in session with real-time yield data
-      // Include protocols that have yields OR claimable COMP rewards
+      // Store harvest data in session - only protocols with claimable token rewards
       const harvestableProtocols = protocolYields.filter(p => 
-        p.yieldEarned >= MIN_HARVEST_AMOUNT || 
-        (p.protocol === 'Compound' && (p as any).compRewards?.canClaim)
+        (p.protocol === 'Compound' && hasClaimableCompRewards) ||
+        (p.protocol === 'Fluid' && hasClaimableFluidRewards)
       );
       
       ctx.session.tempData = {
         protocolYields: harvestableProtocols,
-        totalYield: totalYieldEarned,
+        hasClaimableCompRewards,
+        hasClaimableFluidRewards,
+        compRewardAmount,
+        fluidRewardAmount,
         walletAddress: walletAddress
       };
       ctx.session.userId = user.userId; // Ensure userId is set
