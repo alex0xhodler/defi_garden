@@ -579,6 +579,94 @@ export async function claimCompoundRewards(
 }
 
 /**
+ * Get pending FLUID token rewards from FluidMerkleDistributor
+ * Based on transaction structure from FluidMerkleDistributor.claim()
+ */
+export async function getPendingFluidRewards(
+  userAddress: Address
+): Promise<{ 
+  rewardToken: string; 
+  amount: string; 
+  amountFormatted: string;
+  positionId?: string;
+  cycle?: number;
+  hasClaimableRewards: boolean;
+}> {
+  try {
+    const FLUID_TOKEN = "0x61e030a56d33e8260fdd81f03b162a79fe3449cd" as Address;
+    
+    console.log(`🔍 Checking FLUID rewards for ${userAddress}...`);
+    
+    // Step 1: Get user's positions from Fluid API
+    const positionsUrl = `https://api.fluid.instadapp.io/v2/lending/8453/users/${userAddress}/positions`;
+    console.log(`Fetching positions from: ${positionsUrl}`);
+    
+    const positionsResponse = await fetch(positionsUrl);
+    if (!positionsResponse.ok) {
+      console.error(`Failed to fetch positions: ${positionsResponse.status}`);
+      throw new Error(`Failed to fetch positions: ${positionsResponse.status}`);
+    }
+    
+    const positionsData = await positionsResponse.json();
+    console.log(`📊 Found ${positionsData.length || 0} positions`);
+    
+    // Step 2: Get earnings for each position
+    let totalEarnings = 0;
+    let hasAnyEarnings = false;
+    const positionIds: string[] = [];
+    
+    if (positionsData && positionsData.length > 0) {
+      for (const position of positionsData) {
+        try {
+          const positionId = position.positionId || position.position || position.id;
+          if (!positionId) continue;
+          
+          positionIds.push(positionId);
+          const earningsUrl = `https://api.fluid.instadapp.io/8453/users/${userAddress}/positions/${positionId}/earnings`;
+          console.log(`Fetching earnings for position ${positionId}...`);
+          
+          const earningsResponse = await fetch(earningsUrl);
+          if (earningsResponse.ok) {
+            const earningsData = await earningsResponse.json();
+            
+            // Parse earnings data (structure TBD - need to see actual response)
+            if (earningsData && earningsData.claimableAmount) {
+              const claimableAmount = parseFloat(earningsData.claimableAmount);
+              if (claimableAmount > 0) {
+                totalEarnings += claimableAmount;
+                hasAnyEarnings = true;
+              }
+            }
+          }
+        } catch (positionError) {
+          console.warn(`Error fetching earnings for position:`, positionError);
+        }
+      }
+    }
+    
+    console.log(`🎁 Total FLUID earnings: ${totalEarnings} FLUID`);
+    
+    return {
+      rewardToken: FLUID_TOKEN,
+      amount: (totalEarnings * 1e18).toString(), // Convert to wei
+      amountFormatted: totalEarnings.toFixed(6),
+      hasClaimableRewards: hasAnyEarnings,
+      positionId: positionIds.length > 0 ? positionIds[0] : undefined, // Return first position
+      cycle: undefined // Would need to get from merkle distributor
+    };
+    
+  } catch (error) {
+    console.error("Error fetching FLUID rewards:", error);
+    return {
+      rewardToken: "0x61e030a56d33e8260fdd81f03b162a79fe3449cd",
+      amount: "0",
+      amountFormatted: "0.000000", 
+      hasClaimableRewards: false
+    };
+  }
+}
+
+/**
  * Check pending COMP rewards for a user
  * @param userAddress User's wallet address
  * @returns Pending reward amount and token address
