@@ -19,20 +19,80 @@ const ALCHEMY_WSS = "wss://base-mainnet.g.alchemy.com/v2/lk_ng-qu5hCuS7Hw12s5s";
 const monitoredWallets = new Set();
 
 /**
- * Send deposit notification
+ * Auto-deploy funds and complete onboarding using Coinbase CDP
  */
-async function notifyDepositReceived(userId, firstName, amount, tokenSymbol, txHash) {
+async function autoDeployFundsAndCompleteOnboarding(userId, firstName, amount, tokenSymbol, txHash) {
   try {
-    const message = `✨ Deposit confirmed ${firstName}!\n\n` +
-      `${amount} ${tokenSymbol} received and ready to start earning!\n\n` +
-      `Transaction: \`${txHash}\`\n\n` +
-      `🦑 Your inkvest account is growing! 🚀`;
+    // Step 1: Send initial notification
+    await monitorBot.api.sendMessage(
+      userId,
+      `🎉 *Deposit confirmed ${firstName}!*\n\n` +
+      `${amount} ${tokenSymbol} received!\n\n` +
+      `Auto-deploying to Compound V3 with sponsored gas... 🚀`,
+      { parse_mode: "Markdown" }
+    );
 
-    await monitorBot.api.sendMessage(userId, message);
-    console.log(`📬 Sent deposit notification to ${firstName}: ${amount} ${tokenSymbol} (${txHash.slice(0,10)}...)`);
+    // Step 2: Auto-deploy using Coinbase CDP sponsored transactions
+    console.log(`🚀 Auto-deploying ${amount} ${tokenSymbol} for user ${userId} using CDP...`);
+    
+    // Import Coinbase DeFi service
+    const { autoDeployToCompoundV3 } = require("../services/coinbase-defi.ts");
+    
+    // Execute sponsored deployment
+    const deployResult = await autoDeployToCompoundV3(userId, amount);
+    
+    if (deployResult.success) {
+      console.log(`✅ Successfully deployed ${amount} ${tokenSymbol} to Compound V3`);
+      
+      // Step 3: Send success message with main menu
+      const { createMainMenuKeyboard, getMainMenuMessage } = await import("../utils/mainMenu.ts");
+      
+      await monitorBot.api.sendMessage(
+        userId,
+        `🎉 *Welcome to your inkvest control center!*\n\n` +
+        `✅ ${amount} ${tokenSymbol} deployed to Compound V3 (8.33% APY)\n` +
+        `✅ Gas sponsored by inkvest (gasless for you!)\n` +
+        `✅ Auto-compounding activated\n` +
+        `✅ Earning rewards 24/7\n\n` +
+        `Deposit TX: \`${txHash}\`\n` +
+        `Deploy TX: \`${deployResult.txHash}\`\n\n` +
+        `${getMainMenuMessage(firstName)}`,
+        { 
+          parse_mode: "Markdown",
+          reply_markup: createMainMenuKeyboard()
+        }
+      );
+
+      console.log(`🦑 ${firstName} successfully onboarded with ${amount} ${tokenSymbol} deployed!`);
+
+    } else {
+      console.error(`❌ Failed to deploy ${amount} ${tokenSymbol}: ${deployResult.error}`);
+      
+      // Send error message but still complete onboarding
+      await monitorBot.api.sendMessage(
+        userId,
+        `⚠️ *Deposit confirmed but deployment failed*\n\n` +
+        `${amount} ${tokenSymbol} received but couldn't auto-deploy.\n\n` +
+        `Error: ${deployResult.error}\n\n` +
+        `Please try manual deployment via the bot menu.`,
+        { parse_mode: "Markdown" }
+      );
+    }
 
   } catch (error) {
-    console.error(`Failed to send deposit notification to user ${userId}:`, error);
+    console.error(`Failed to auto-deploy and complete onboarding for user ${userId}:`, error);
+    
+    // Fallback: send basic notification
+    try {
+      await monitorBot.api.sendMessage(
+        userId,
+        `✨ Deposit confirmed ${firstName}!\n\n` +
+        `${amount} ${tokenSymbol} received but auto-deployment failed.\n\n` +
+        `Please use the bot menu to deploy manually.`
+      );
+    } catch (fallbackError) {
+      console.error(`Failed to send fallback notification:`, fallbackError);
+    }
   }
 }
 
@@ -101,8 +161,8 @@ function handleTransferEvent(log) {
       
       console.log(`💰 USDC deposit detected: ${amount} USDC to ${recipient.slice(0,8)}... (${txHash.slice(0,10)}...)`);
       
-      // Send notification
-      notifyDepositReceived(
+      // Auto-deploy funds and complete onboarding
+      autoDeployFundsAndCompleteOnboarding(
         walletInfo.userId,
         walletInfo.firstName,
         amount,

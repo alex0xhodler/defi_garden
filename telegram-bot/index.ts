@@ -153,6 +153,100 @@ bot.on("callback_query:data", async (ctx) => {
     await withdrawHandler.handler(ctx);
   } else if (callbackData === "help") {
     await helpHandler.handler(ctx);
+  } else if (callbackData === "manual_balance_check") {
+    // Manual balance check for onboarding users
+    const userId = ctx.session.userId;
+    if (!userId) {
+      await ctx.reply("❌ Please start the bot first with /start command.");
+      return;
+    }
+
+    const { getCoinbaseSmartWallet, getCoinbaseWalletUSDCBalance } = await import("./src/lib/coinbase-wallet");
+    const wallet = await getCoinbaseSmartWallet(userId);
+    
+    if (!wallet) {
+      await ctx.reply("❌ No Coinbase Smart Wallet found. Please use /start to create one.");
+      return;
+    }
+
+    await ctx.answerCallbackQuery("Checking for deposits...");
+    
+    try {
+      // Check USDC balance
+      const usdcBalance = await getCoinbaseWalletUSDCBalance(wallet.address);
+      
+      if (parseFloat(usdcBalance.toString()) > 0) {
+        // Funds detected! Auto-deploy using Coinbase CDP
+        await ctx.editMessageText(
+          `🎉 *Deposit detected!*\n\n` +
+          `${usdcBalance.toString()} USDC found in your wallet!\n\n` +
+          `Auto-deploying to Compound V3 with sponsored gas...`,
+          { parse_mode: "Markdown" }
+        );
+        
+        const firstName = ctx.from?.first_name || "there";
+        
+        // Execute sponsored deployment
+        setTimeout(async () => {
+          try {
+            const { autoDeployToCompoundV3 } = await import("./src/services/coinbase-defi");
+            const deployResult = await autoDeployToCompoundV3(userId, usdcBalance.toString());
+            
+            if (deployResult.success) {
+              // Send success message with main menu
+              const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
+              
+              await ctx.editMessageText(
+                `🎉 *Welcome to your inkvest control center!*\n\n` +
+                `✅ ${usdcBalance.toString()} USDC deployed to Compound V3 (8.33% APY)\n` +
+                `✅ Gas sponsored by inkvest (gasless for you!)\n` +
+                `✅ Auto-compounding activated\n` +
+                `✅ Earning rewards 24/7\n\n` +
+                `Deploy TX: \`${deployResult.txHash}\`\n\n` +
+                `${getMainMenuMessage(firstName)}`,
+                { 
+                  parse_mode: "Markdown",
+                  reply_markup: createMainMenuKeyboard()
+                }
+              );
+            } else {
+              await ctx.editMessageText(
+                `⚠️ *Deployment failed*\n\n` +
+                `${usdcBalance.toString()} USDC found but couldn't auto-deploy.\n\n` +
+                `Error: ${deployResult.error}\n\n` +
+                `Please try manual deployment via the bot menu.`,
+                { parse_mode: "Markdown" }
+              );
+            }
+          } catch (error) {
+            console.error("Error completing manual onboarding:", error);
+            await ctx.editMessageText(
+              `❌ Error during deployment. Please try again later.`,
+              { parse_mode: "Markdown" }
+            );
+          }
+        }, 2000);
+        
+      } else {
+        // No funds yet
+        const keyboard = new InlineKeyboard()
+          .text("🔍 Check Again", "manual_balance_check");
+          
+        await ctx.editMessageText(
+          `💰 *No USDC deposits detected yet*\n\n` +
+          `Send USDC to your address:\n\`${wallet.address}\`\n\n` +
+          `I'm monitoring automatically, or check again manually.`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: keyboard,
+          }
+        );
+      }
+      
+    } catch (error) {
+      console.error("Error checking manual balance:", error);
+      await ctx.editMessageText("❌ Error checking balance. Please try again.");
+    }
   } else if (callbackData === "main_menu") {
     // Standardized main menu for all contexts
     const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");

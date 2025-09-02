@@ -7,7 +7,7 @@ import {
   saveUserSettings,
   updateUserBalanceCheckTime,
 } from "../lib/database";
-import { generateWallet } from "../lib/token-wallet";
+import { generateCoinbaseSmartWallet, getCoinbaseSmartWallet, hasCoinbaseSmartWallet } from "../lib/coinbase-wallet";
 import { CommandHandler } from "../types/commands";
 import { DEFAULT_SETTINGS } from "../utils/constants";
 
@@ -52,8 +52,8 @@ export const startHandler: CommandHandler = {
           minApy: DEFAULT_SETTINGS.MIN_APY,
         });
 
-        // Auto-create wallet (now includes autoCreated flag)
-        const wallet = await generateWallet(userId);
+        // Auto-create Coinbase Smart Wallet
+        const wallet = await generateCoinbaseSmartWallet(userId);
         
         // Set wallet in session
         ctx.session.walletAddress = wallet.address;
@@ -61,27 +61,22 @@ export const startHandler: CommandHandler = {
         // Start balance monitoring
         updateUserBalanceCheckTime(userId);
 
-        // Create compelling keyboard with export emphasis
+        // Only export key button - monitoring starts automatically
         const keyboard = new InlineKeyboard()
-          .text("🔑 Export Private Key Now", "export_key")
-          .row()
-          .text("💰 Check Balance", "check_balance")
-          .text("🚀 Start Earning", "zap_auto_deploy")
-          .row()
-          .text("📋 How it Works", "help");
+          .text("🔑 Export Private Key", "export_key");
 
         await ctx.reply(
-          `✨ *You're all set to earn 7% APY on USDC!*\n\n` +
-          `Your deposit address:\n` +
+          `✨ *You're all set to earn 8.33% APY on USDC!*\n\n` +
+          `🦑 *Your inkvest Smart Wallet:*\n` +
           `\`${wallet.address}\`\n\n` +
+          `✅ Gasless transactions (we sponsor gas)\n` +
+          `✅ Auto-deployed to Compound V3 (8.33% APY)\n` +
           `✅ No impermanent loss risk\n` +
-          `✅ Only audited protocols ($10M+ TVL)\n` +
-          `✅ AI-managed yield optimization\n` +
-          `✅ Auto-compounding rewards\n\n` +
+          `✅ Instant deployment upon deposit\n\n` +
           `⚠️ *Save your private key (one-time setup):*\n\n` +
           `Ready to start earning? Send USDC to your address above.\n` +
-          `*Network:* Base (ultra-low fees ~$0.01)\n\n` +
-          `I'll notify you when funds arrive and start earning automatically!`,
+          `*Network:* Base (ultra-low fees)\n\n` +
+          `I'll auto-deploy to highest yield as soon as funds arrive! 🚀`,
           {
             parse_mode: "Markdown",
             reply_markup: keyboard,
@@ -89,9 +84,13 @@ export const startHandler: CommandHandler = {
         );
 
       } else {
-        // Existing user - check if they have wallet
-        const { getWallet } = await import("../lib/token-wallet");
-        const wallet = await getWallet(userId);
+        // Existing user - check if they have Coinbase Smart Wallet
+        const wallet = await (async () => {
+          if (hasCoinbaseSmartWallet(userId)) {
+            return await getCoinbaseSmartWallet(userId);
+          }
+          return null;
+        })();
         
         // Get user settings
         const settings = getUserSettings(userId);
@@ -100,11 +99,11 @@ export const startHandler: CommandHandler = {
         }
 
         if (!wallet) {
-          // User exists but no wallet - auto-create like new users
-          await ctx.reply(`👋 Welcome back ${firstName}!\n\nSetting up your inkvest account... 🦑`);
+          // User exists but no wallet - auto-create Coinbase Smart Wallet
+          await ctx.reply(`👋 Welcome back ${firstName}!\n\nSetting up your inkvest Smart Wallet... 🦑`);
 
-          // Auto-create wallet (now includes autoCreated flag)
-          const newWallet = await generateWallet(userId);
+          // Auto-create Coinbase Smart Wallet
+          const newWallet = await generateCoinbaseSmartWallet(userId);
           
           // Set wallet in session
           ctx.session.walletAddress = newWallet.address;
@@ -112,27 +111,22 @@ export const startHandler: CommandHandler = {
           // Start balance monitoring
           updateUserBalanceCheckTime(userId);
 
-          // Create compelling keyboard with export emphasis
+          // Only export key button - monitoring starts automatically
           const keyboard = new InlineKeyboard()
-            .text("🔑 Export Private Key Now", "export_key")
-            .row()
-            .text("💰 Check Balance", "check_balance")
-            .text("🚀 Start Earning", "zap_auto_deploy")
-            .row()
-            .text("📋 How it Works", "help");
+            .text("🔑 Export Private Key", "export_key");
 
           await ctx.reply(
-            `✨ *You're all set to earn 7% APY on USDC!*\n\n` +
-            `Your deposit address:\n` +
+            `✨ *You're all set to earn 8.33% APY on USDC!*\n\n` +
+            `🦑 *Your inkvest Smart Wallet:*\n` +
             `\`${newWallet.address}\`\n\n` +
+            `✅ Gasless transactions (we sponsor gas)\n` +
+            `✅ Auto-deployed to Compound V3 (8.33% APY)\n` +
             `✅ No impermanent loss risk\n` +
-            `✅ Only audited protocols ($10M+ TVL)\n` +
-            `✅ AI-managed yield optimization\n` +
-            `✅ Auto-compounding rewards\n\n` +
+            `✅ Instant deployment upon deposit\n\n` +
             `⚠️ *Save your private key (one-time setup):*\n\n` +
             `Ready to start earning? Send USDC to your address above.\n` +
-            `*Network:* Base (ultra-low fees ~$0.01)\n\n` +
-            `I'll notify you when funds arrive and start earning automatically!`,
+            `*Network:* Base (ultra-low fees)\n\n` +
+            `I'll auto-deploy to highest yield as soon as funds arrive! 🚀`,
             {
               parse_mode: "Markdown",
               reply_markup: keyboard,

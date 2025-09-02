@@ -167,20 +167,40 @@ export async function handleExportConfirmation(
     await ctx.editMessageReplyMarkup({ reply_markup: undefined });
 
     if (!confirmed) {
-      const keyboard = new InlineKeyboard()
-        .text("💰 Send USDC to Address", "deposit")
-        .row()
-        .text("🚀 Start Earning", "zap_auto_deploy")
-        .text("💰 Check Balance", "check_balance");
+      // Check if user is in onboarding state (onboardingCompleted is null)
+      const { getUserByTelegramId } = await import("../lib/database");
+      const user = getUserByTelegramId(ctx.session.userId || "");
+      
+      if (user && user.onboardingCompleted === null) {
+        // User is still in onboarding - only export key option
+        const keyboard = new InlineKeyboard()
+          .text("🔑 Export Private Key", "export_key");
 
-      await ctx.reply(
-        "Operation cancelled. Your private key was not exported.\n\n" +
-        "🚀 *Ready to start earning 7% APY anyway?*\n" +
-        "You can always export your key later from settings.",
-        {
-          reply_markup: keyboard,
-        }
-      );
+        await ctx.reply(
+          "Operation cancelled. Your private key was not exported.\n\n" +
+          "🚀 *Ready to start earning 7% APY anyway?*\n" +
+          "You can always export your key later from settings.",
+          {
+            reply_markup: keyboard,
+          }
+        );
+      } else {
+        // User has completed onboarding - show full menu
+        const keyboard = new InlineKeyboard()
+          .text("💰 Send USDC to Address", "deposit")
+          .row()
+          .text("🚀 Start Earning", "zap_auto_deploy")
+          .text("💰 Check Balance", "check_balance");
+
+        await ctx.reply(
+          "Operation cancelled. Your private key was not exported.\n\n" +
+          "🚀 *Ready to start earning 7% APY anyway?*\n" +
+          "You can always export your key later from settings.",
+          {
+            reply_markup: keyboard,
+          }
+        );
+      }
       return;
     }
 
@@ -210,24 +230,46 @@ export async function handleExportConfirmation(
     });
 
     // Send follow-up reminder about security with action buttons
-    const keyboard = new InlineKeyboard()
-      .text("💰 Send USDC to Address", "deposit")
-      .row()
-      .text("🚀 Start Earning", "zap_auto_deploy")
-      .text("💰 Check Balance", "check_balance");
+    // Check if user is in onboarding state
+    const { getUserByTelegramId } = await import("../lib/database");
+    const user = getUserByTelegramId(userId || "");
+    
+    if (user && user.onboardingCompleted === null) {
+      // User is still in onboarding - show clean deposit message with manual check
+      const keyboard = new InlineKeyboard()
+        .text("🔍 Check for Deposit", "manual_balance_check");
 
-    await ctx.reply(
-      "⚠️ *REMINDER*\n\n" +
-        "Your private key has been displayed. For security:\n\n" +
-        "1. Save it in a secure password manager\n" +
-        "2. Never share it with anyone\n" +
-        "3. Delete any chat history containing this key\n\n" +
-        "🚀 *Ready to start earning 7% APY?*",
-      {
-        parse_mode: "Markdown",
-        reply_markup: keyboard,
-      }
-    );
+      await ctx.reply(
+        "✅ *Private key exported successfully!*\n\n" +
+          "🔐 Save your keys securely - you can restore your wallet anytime.\n\n" +
+          "💰 *Now deposit USDC to start earning up to 8.33% APY*\n\n" +
+          "I'm monitoring your address and will auto-deploy your funds to the best yield opportunity as soon as they arrive!",
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard,
+        }
+      );
+    } else {
+      // User has completed onboarding - show full menu
+      const keyboard = new InlineKeyboard()
+        .text("💰 Send USDC to Address", "deposit")
+        .row()
+        .text("🚀 Start Earning", "zap_auto_deploy")
+        .text("💰 Check Balance", "check_balance");
+
+      await ctx.reply(
+        "⚠️ *REMINDER*\n\n" +
+          "Your private key has been displayed. For security:\n\n" +
+          "1. Save it in a secure password manager\n" +
+          "2. Never share it with anyone\n" +
+          "3. Delete any chat history containing this key\n\n" +
+          "🚀 *Ready to start earning 7% APY?*",
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard,
+        }
+      );
+    }
 
     // Reset current action
     ctx.session.currentAction = undefined;
