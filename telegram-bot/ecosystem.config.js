@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'defi-garden-bot',
+      name: 'inkvest-bot',
       script: './index.ts',
       interpreter: 'ts-node',
       node_args: '--max-old-space-size=1024',
