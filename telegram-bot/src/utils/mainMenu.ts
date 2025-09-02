@@ -20,7 +20,7 @@ export function createMainMenuKeyboard(): InlineKeyboard {
  * Main menu message text with optional wallet address
  */
 export function getMainMenuMessage(firstName: string = "there", walletAddress?: string): string {
-  let message = `🌱 *Welcome back ${firstName}! Ready to earn 7% APY effortlessly?*\n\n` +
+  let message = `🦑 *Welcome back ${firstName}! Ready to earn 7% APY effortlessly?*\n\n` +
     `✅ AI picks best yields daily\n` +
     `✅ No lock-ups, withdraw anytime\n` +
     `✅ Vetted protocols only\n` +

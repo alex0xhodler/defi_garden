@@ -390,7 +390,7 @@ bot.on("message:text", async (ctx) => {
 // Help command
 bot.command("help", async (ctx) => {
   await ctx.reply(
-    "🌱 *DeFi Garden Bot Help*\n\n" +
+    "🦑 *inkvest Bot Help*\n\n" +
       "*Wallet Commands:*\n" +
       "/start - Start the bot and create/import wallet\n" +
       "/wallet - Show wallet address\n" +
@@ -420,7 +420,7 @@ bot.catch((err) => {
 
 // Start the bot
 const startBot = async () => {
-  console.log("🌱 Starting DeFi Garden Telegram Bot...");
+  console.log("🦑 Starting inkvest Telegram Bot...");
 
   try {
     // Start bot
@@ -429,7 +429,7 @@ const startBot = async () => {
 
     // Log info
     console.log("ℹ️  Press Ctrl+C to stop the bot");
-    console.log("🌱 DeFi Garden Bot is ready to help users earn yield!");
+    console.log("🦑 inkvest Bot is ready to help users earn yield!");
   } catch (error) {
     console.error("❌ Failed to start bot:", error);
     process.exit(1);

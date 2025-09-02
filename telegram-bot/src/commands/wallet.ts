@@ -54,7 +54,7 @@ export const walletHandler: CommandHandler = {
 
         message = `💼 *Your Wallet, ${firstName}*\n\n` +
           `*Address*: \`${wallet.address}\`\n` +
-          `*Type*: DeFi Garden Wallet (Auto-created)\n\n` +
+          `*Type*: inkvest Wallet (Auto-created)\n\n` +
           `🚀 Ready to start earning with your funds?\n` +
           `🔑 Want more control? Upgrade to your own wallet anytime.`;
 

@@ -8,7 +8,7 @@ export interface Config {
   chainId: number;
   defaultSlippage: number;
   defaultRiskLevel: number;
-  defiGardenApiUrl?: string;
+  inkvestApiUrl?: string;
 }
 
 export interface UserSettings {
@@ -53,7 +53,7 @@ export interface Position {
   lastUpdated: Date;
 }
 
-// Yield Opportunity from DeFi Garden API
+// Yield Opportunity from inkvest API
 export interface YieldOpportunity {
   poolId: string;
   project: string;

@@ -33,7 +33,7 @@ export const startHandler: CommandHandler = {
 
       if (!existingUser) {
         // New user - auto-create everything
-        await ctx.reply(`👋 Hi ${firstName}! I'm DeFi Garden, your personal yield farming companion.\n\nSetting up your DeFi Garden... 🌱`);
+        await ctx.reply(`👋 Hi ${firstName}! I'm inkvest, your personal yield farming companion.\n\nSetting up your inkvest account... 🦑`);
 
         // Register new user
         createUser(
@@ -101,7 +101,7 @@ export const startHandler: CommandHandler = {
 
         if (!wallet) {
           // User exists but no wallet - auto-create like new users
-          await ctx.reply(`👋 Welcome back ${firstName}!\n\nSetting up your DeFi Garden... 🌱`);
+          await ctx.reply(`👋 Welcome back ${firstName}!\n\nSetting up your inkvest account... 🦑`);
 
           // Auto-create wallet (now includes autoCreated flag)
           const newWallet = await generateWallet(userId);
@@ -163,7 +163,7 @@ export const startHandler: CommandHandler = {
 // Help handler with simplified messaging
 export const helpHandler: CommandHandler = {
   command: "help",
-  description: "How DeFi Garden works",
+  description: "How inkvest works",
   handler: async (ctx: BotContext) => {
     try {
       const firstName = ctx.from?.first_name || "there";
@@ -176,7 +176,7 @@ export const helpHandler: CommandHandler = {
         .text("🔄 Main Menu", "main_menu");
 
       await ctx.reply(
-        `🌱 *How DeFi Garden Works*\n\n` +
+        `🦑 *How inkvest Works*\n\n` +
           `Hi ${firstName}! I'm your personal yield farming assistant.\n\n` +
           `🤖 *What I Do*\n` +
           `• Find the best DeFi yields (~7% APY)\n` +
