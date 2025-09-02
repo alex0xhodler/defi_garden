@@ -5,11 +5,13 @@ const {
   updateUserBalanceCheckTime 
 } = require("../lib/database.ts");
 const { getTokenBalance } = require("../lib/token-wallet.ts");
-const { COMMON_TOKENS } = require("../utils/constants.ts");
 require("dotenv").config();
 
 // Simple bot instance for notifications
 const monitorBot = new Bot(process.env.TELEGRAM_BOT_TOKEN || "");
+
+// Base USDC token address (to avoid import issues)
+const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 
 // Store previous balances to detect changes
 const previousBalances = new Map();
@@ -74,7 +76,7 @@ async function checkSingleUserBalance(user) {
     // Get current USDC balance
     const usdcBalance = await getTokenBalance(
       walletAddress,
-      COMMON_TOKENS.USDC.address
+      BASE_USDC_ADDRESS
     );
 
     const currentBalance = usdcBalance.toString();
