@@ -187,7 +187,7 @@ export async function updateRiskLevel(ctx: BotContext, riskLevel: number): Promi
       {
         parse_mode: "Markdown",
         reply_markup: new InlineKeyboard()
-          .text("🚀 Test New Settings", "zap_funds")
+          .text("🚀 Start Earning", "zap_funds")
           .text("⚙️ More Settings", "open_settings")
       }
     );
