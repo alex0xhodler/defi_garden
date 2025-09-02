@@ -16,6 +16,7 @@ import zapHandler, {
   handleZapRetry,
   handleAutoEarn,
 } from "./src/commands/zap";
+import earnHandler from "./src/commands/earn";
 import portfolioHandler, { handlePortfolioDetails } from "./src/commands/portfolio";
 import harvestHandler, { handleHarvestConfirmation } from "./src/commands/harvest";
 import settingsHandler, {
@@ -62,6 +63,7 @@ bot.command(exportHandler.command, exportHandler.handler);
 bot.command(balanceHandler.command, balanceHandler.handler);
 bot.command(portfolioHandler.command, portfolioHandler.handler);
 bot.command(zapHandler.command, zapHandler.handler);
+bot.command(earnHandler.command, earnHandler.handler);
 bot.command(harvestHandler.command, harvestHandler.handler);
 bot.command(settingsHandler.command, settingsHandler.handler);
 bot.command(depositHandler.command, depositHandler.handler);
@@ -74,7 +76,7 @@ bot.api.setMyCommands([
   { command: walletHandler.command, description: walletHandler.description },
   { command: balanceHandler.command, description: balanceHandler.description },
   { command: portfolioHandler.command, description: portfolioHandler.description },
-  { command: zapHandler.command, description: zapHandler.description },
+  { command: earnHandler.command, description: earnHandler.description },
   { command: harvestHandler.command, description: harvestHandler.description },
   { command: settingsHandler.command, description: settingsHandler.description },
   { command: depositHandler.command, description: depositHandler.description },
