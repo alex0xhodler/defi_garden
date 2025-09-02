@@ -153,6 +153,30 @@ bot.on("callback_query:data", async (ctx) => {
     await withdrawHandler.handler(ctx);
   } else if (callbackData === "help") {
     await helpHandler.handler(ctx);
+  } else if (callbackData === "main_menu") {
+    // Standardized main menu for all contexts
+    const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
+    const firstName = ctx.from?.first_name || "there";
+    
+    // Try to edit message first, fallback to reply
+    try {
+      await ctx.editMessageText(
+        getMainMenuMessage(firstName),
+        {
+          parse_mode: "Markdown",
+          reply_markup: createMainMenuKeyboard(),
+        }
+      );
+    } catch (error) {
+      // If editing fails, send new message
+      await ctx.reply(
+        getMainMenuMessage(firstName),
+        {
+          parse_mode: "Markdown",
+          reply_markup: createMainMenuKeyboard(),
+        }
+      );
+    }
   } else if (callbackData === "portfolio_details") {
     await handlePortfolioDetails(ctx);
   } else if (callbackData === "retry_zap") {
@@ -232,24 +256,15 @@ bot.on("callback_query:data", async (ctx) => {
       | "back";
 
     if (option === "back") {
-      // Go back to main menu
-      const keyboard = new InlineKeyboard()
-        .text("💰 Balance", "check_balance")
-        .text("📊 Portfolio", "view_portfolio")
-        .row()
-        .text("🚀 Zap", "zap_funds")
-        .text("🌾 Harvest", "harvest_yields")
-        .row()
-        .text("⚙️ Settings", "open_settings")
-        .text("📋 Help", "help");
-
+      // Go back to standardized main menu
+      const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
+      const firstName = ctx.from?.first_name || "there";
+      
       await ctx.editMessageText(
-        `🌱 *DeFi Garden Bot*\n\n` +
-          `Your automated yield farming assistant.\n\n` +
-          `What would you like to do?`,
+        getMainMenuMessage(firstName),
         {
           parse_mode: "Markdown",
-          reply_markup: keyboard,
+          reply_markup: createMainMenuKeyboard(),
         }
       );
     } else {

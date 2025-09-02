@@ -142,28 +142,16 @@ export const startHandler: CommandHandler = {
           // Full returning user experience  
           ctx.session.walletAddress = wallet.address;
           
-          const keyboard = new InlineKeyboard()
-            .text("💰 Check Balance", "check_balance")
-            .text("🚀 Start Earning", "zap_funds")
-            .row()
-            .text("📊 Portfolio", "view_portfolio")
-            .text("🌾 Harvest", "harvest_yields")
-            .row()
-            .text("⚙️ Settings", "open_settings")
-            .text("📋 Help", "help");
+          const { createMainMenuKeyboard, getMainMenuMessage } = await import("../../utils/mainMenu");
 
           await ctx.reply(
-            `🌱 *Welcome back ${firstName}! Ready to earn 7% APY effortlessly?*\n\n` +
+            `${getMainMenuMessage(firstName)}\n\n` +
             `Your earning address:\n` +
             `\`${wallet.address}\`\n\n` +
-            `✅ AI picks best yields daily\n` +
-            `✅ No lock-ups, withdraw anytime\n` +
-            `✅ Vetted protocols only\n` +
-            `✅ Auto-compound while you sleep\n\n` +
             `Send USDC to start earning on Base network.`,
             {
               parse_mode: "Markdown", 
-              reply_markup: keyboard,
+              reply_markup: createMainMenuKeyboard(),
             }
           );
         }
@@ -188,7 +176,7 @@ export const helpHandler: CommandHandler = {
         .text("📊 View Portfolio", "view_portfolio")
         .row()
         .text("⚙️ Settings", "open_settings")
-        .text("🔄 Main Menu", "start");
+        .text("🔄 Main Menu", "main_menu");
 
       await ctx.reply(
         `🌱 *How DeFi Garden Works*\n\n` +
