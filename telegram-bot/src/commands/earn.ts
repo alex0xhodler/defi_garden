@@ -168,13 +168,13 @@ const earnHandler: CommandHandler = {
       const keyboard = new InlineKeyboard()
         .text("🤖 Auto Earn", "zap_auto_deploy")
         .row()
-        .text("🎯 Pick Protocol", "zap_choose_protocol");
+        .text("🎯 Manual Management", "zap_choose_protocol");
 
       await ctx.reply(
         `🚀 *Ready to start earning, ${firstName}?*\n\n` +
         `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
         `🤖 **Auto Earn**: I pick the best opportunity\n` +
-        `🎯 **Pick Protocol**: You choose the protocol\n\n` +
+        `🎯 **Manual Management**: You choose the protocol\n\n` +
         `What sounds good?`,
         {
           parse_mode: "Markdown",

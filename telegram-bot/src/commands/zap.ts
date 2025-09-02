@@ -166,14 +166,16 @@ const zapHandler: CommandHandler = {
       const keyboard = new InlineKeyboard()
         .text("🤖 Auto Earn", "zap_auto_deploy")
         .row()
-        .text("🎯 Choose Protocol", "zap_choose_protocol");
+        .text("🎯 Manual Management", "zap_choose_protocol");
+
+      const firstName = ctx.from?.first_name || "there";
 
       await ctx.reply(
-        `🚀 *Ready to Zap USDC into Yield Farming*\n\n` +
-        `I'll find the best opportunities based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
-        `**Auto Earn**: I pick the highest APY pool with good safety scores\n` +
-        `**Choose Protocol**: You choose from available protocols\n\n` +
-        `How would you like to proceed?`,
+        `🚀 *Ready to start earning, ${firstName}?*\n\n` +
+        `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
+        `🤖 **Auto Earn**: I pick the best opportunity\n` +
+        `🎯 **Manual Management**: You choose the protocol\n\n` +
+        `What sounds good?`,
         {
           parse_mode: "Markdown",
           reply_markup: keyboard
