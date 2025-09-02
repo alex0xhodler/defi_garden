@@ -66,7 +66,9 @@ export const startHandler: CommandHandler = {
           .text("🔑 Export Private Key Now", "export_key")
           .row()
           .text("💰 Check Balance", "check_balance")
-          .text("🚀 Start Earning", "zap_auto_deploy");
+          .text("🚀 Start Earning", "zap_auto_deploy")
+          .row()
+          .text("📋 How it Works", "help");
 
         await ctx.reply(
           `✨ *You're all set to earn 7% APY on USDC!*\n\n` +
@@ -115,7 +117,9 @@ export const startHandler: CommandHandler = {
             .text("🔑 Export Private Key Now", "export_key")
             .row()
             .text("💰 Check Balance", "check_balance")
-            .text("🚀 Start Earning", "zap_auto_deploy");
+            .text("🚀 Start Earning", "zap_auto_deploy")
+            .row()
+            .text("📋 How it Works", "help");
 
           await ctx.reply(
             `✨ *You're all set to earn 7% APY on USDC!*\n\n` +
@@ -143,7 +147,10 @@ export const startHandler: CommandHandler = {
             .text("🚀 Start Earning", "zap_funds")
             .row()
             .text("📊 Portfolio", "view_portfolio")
-            .text("🌾 Harvest", "harvest_yields");
+            .text("🌾 Harvest", "harvest_yields")
+            .row()
+            .text("⚙️ Settings", "open_settings")
+            .text("📋 Help", "help");
 
           await ctx.reply(
             `🌱 *Welcome back ${firstName}! Ready to earn 7% APY effortlessly?*\n\n` +
