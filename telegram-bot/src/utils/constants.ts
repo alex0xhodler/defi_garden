@@ -8,13 +8,13 @@ export const QUICKNODE_RPC_URL = process.env.QUICKNODE_RPC || "";
 
 // Validate RPC configuration - check if proper RPC endpoint is configured
 export const isRpcConfigured = (): boolean => {
-  return QUICKNODE_RPC_URL && 
-         QUICKNODE_RPC_URL.length > 0 && 
-         (QUICKNODE_RPC_URL.includes('quiknode.pro') || 
-          QUICKNODE_RPC_URL.includes('alchemy.com') || 
-          QUICKNODE_RPC_URL.includes('infura.io') ||
-          QUICKNODE_RPC_URL.includes('drpc.org') ||
-          QUICKNODE_RPC_URL.includes('api.developer.coinbase.com'));
+  return !!(QUICKNODE_RPC_URL && 
+           QUICKNODE_RPC_URL.length > 0 && 
+           (QUICKNODE_RPC_URL.includes('quiknode.pro') || 
+            QUICKNODE_RPC_URL.includes('alchemy.com') || 
+            QUICKNODE_RPC_URL.includes('infura.io') ||
+            QUICKNODE_RPC_URL.includes('drpc.org') ||
+            QUICKNODE_RPC_URL.includes('api.developer.coinbase.com')));
 };
 
 export const DEFI_GARDEN_API_URL = process.env.DEFI_GARDEN_API_URL || "https://yields.llama.fi/pools";
