@@ -33,7 +33,7 @@ export const startHandler: CommandHandler = {
 
       if (!existingUser) {
         // New user - auto-create everything
-        await ctx.reply(`👋 Hi ${firstName}! I'm DeFi Garden, your personal yield farming companion.\n\nI'm setting up your account to start earning... 🌱`);
+        await ctx.reply(`👋 Hi ${firstName}! I'm DeFi Garden, your personal yield farming companion.\n\nSetting up your DeFi Garden... 🌱`);
 
         // Register new user
         createUser(
@@ -52,13 +52,8 @@ export const startHandler: CommandHandler = {
           minApy: DEFAULT_SETTINGS.MIN_APY,
         });
 
-        // Auto-create wallet with autoCreated flag
+        // Auto-create wallet (now includes autoCreated flag)
         const wallet = await generateWallet(userId);
-        
-        // Update the wallet to mark it as auto-created
-        const walletWithFlag = { ...wallet, autoCreated: true };
-        const { saveWallet } = await import("../lib/database");
-        saveWallet(walletWithFlag, userId);
         
         // Set wallet in session
         ctx.session.walletAddress = wallet.address;
@@ -66,17 +61,25 @@ export const startHandler: CommandHandler = {
         // Start balance monitoring
         updateUserBalanceCheckTime(userId);
 
-        // Create simple keyboard for getting started
+        // Create compelling keyboard with export emphasis
         const keyboard = new InlineKeyboard()
-          .text("💰 Deposit Funds", "deposit")
+          .text("🔑 Export Private Key Now", "export_key")
           .row()
-          .text("📋 How it Works", "help");
+          .text("💰 Check Balance", "check_balance")
+          .text("🚀 Start Earning", "zap_auto_deploy");
 
         await ctx.reply(
-          `✨ All set ${firstName}! Your DeFi Garden account is now live on Base.\n\n` +
-          `💰 To start earning ~7% APY, simply send USDC to:\n` +
+          `✨ *You're all set to earn 7% APY on USDC!*\n\n` +
+          `Your deposit address:\n` +
           `\`${wallet.address}\`\n\n` +
-          `I'll notify you when funds arrive and start earning automatically.`,
+          `✅ No impermanent loss risk\n` +
+          `✅ Only audited protocols ($10M+ TVL)\n` +
+          `✅ AI-managed yield optimization\n` +
+          `✅ Auto-compounding rewards\n\n` +
+          `⚠️ *Save your private key (one-time setup):*\n\n` +
+          `Ready to start earning? Send USDC to your address above.\n` +
+          `*Network:* Base (ultra-low fees ~$0.01)\n\n` +
+          `I'll notify you when funds arrive and start earning automatically!`,
           {
             parse_mode: "Markdown",
             reply_markup: keyboard,
@@ -106,21 +109,25 @@ export const startHandler: CommandHandler = {
             { reply_markup: keyboard }
           );
         } else {
-          // Full returning user experience
+          // Full returning user experience  
           ctx.session.walletAddress = wallet.address;
           
           const keyboard = new InlineKeyboard()
-            .text("💰 Balance", "check_balance")
+            .text("💰 Check Balance", "check_balance")
+            .text("🚀 Start Earning", "zap_funds")
+            .row()
             .text("📊 Portfolio", "view_portfolio")
-            .row()
-            .text("🚀 Earn More", "zap_funds")
-            .text("🌾 Harvest", "harvest_yields")
-            .row()
-            .text("⚙️ Settings", "open_settings")
-            .text("📋 Help", "help");
+            .text("🌾 Harvest", "harvest_yields");
 
           await ctx.reply(
-            `🌱 Welcome back ${firstName}!\n\nYour DeFi Garden is ready. What would you like to do?`,
+            `🌱 *Welcome back ${firstName}! Ready to earn 7% APY effortlessly?*\n\n` +
+            `Your earning address:\n` +
+            `\`${wallet.address}\`\n\n` +
+            `✅ AI picks best yields daily\n` +
+            `✅ No lock-ups, withdraw anytime\n` +
+            `✅ Vetted protocols only\n` +
+            `✅ Auto-compound while you sleep\n\n` +
+            `Send USDC to start earning on Base network.`,
             {
               parse_mode: "Markdown", 
               reply_markup: keyboard,
