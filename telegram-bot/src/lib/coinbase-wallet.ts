@@ -10,10 +10,8 @@ import { WalletData } from '../types/wallet';
 const CDP_PROJECT_ID = '8c26f2ba-ed37-49ab-868b-ebad7692c0a0';
 const CDP_API_KEY = '9578d547-b0f5-46ee-840a-7872b4234c46';
 
-// Use Pimlico bundler service (reliable ERC-4337 support)
-const PIMLICO_BUNDLER_URL = "https://api.pimlico.io/v2/8453/rpc?apikey=pim_free";
-
-// CDP Paymaster endpoint for USDC gas payments  
+// CDP Bundler and Paymaster endpoints for USDC gas payments
+const CDP_BUNDLER_URL = "https://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz";
 const PAYMASTER_URL = "https://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz";
 
 // Public Base RPC for read operations
@@ -122,6 +120,24 @@ export function hasCoinbaseSmartWallet(userId: string): boolean {
 }
 
 /**
+ * Get wallet addresses (both smart wallet and EOA) for a user
+ */
+export async function getWalletAddresses(userId: string): Promise<{ smartWalletAddress: Address; eoaAddress: Address } | null> {
+  try {
+    const wallet = await getCoinbaseSmartWallet(userId);
+    if (!wallet) return null;
+    
+    return {
+      smartWalletAddress: wallet.smartAccount.address,
+      eoaAddress: wallet.owner.address
+    };
+  } catch (error) {
+    console.error('Error getting wallet addresses:', error);
+    return null;
+  }
+}
+
+/**
  * Get USDC balance for a Coinbase Smart Wallet
  */
 export async function getCoinbaseWalletUSDCBalance(walletAddress: Address): Promise<string> {
@@ -154,17 +170,16 @@ export async function getCoinbaseWalletUSDCBalance(walletAddress: Address): Prom
 }
 
 /**
- * Create bundler client for USDC gas payment transactions
+ * Create CDP bundler client for USDC gas payment transactions
  */
 export async function createSponsoredBundlerClient(smartAccount: any) {
   const { createBundlerClient } = await import('viem/account-abstraction');
   
-  // Use Pimlico bundler (reliable ERC-4337 support) + CDP paymaster (USDC gas payments)
-  // This combination gives us reliable bundler operations with USDC gas sponsorship
+  // Use CDP bundler and paymaster for complete USDC gas payment solution
   return createBundlerClient({
     account: smartAccount,
     client: publicClient,
-    transport: http(PIMLICO_BUNDLER_URL), // Reliable ERC-4337 bundler service
+    transport: http(CDP_BUNDLER_URL),
     chain: base,
     paymaster: cdpPaymasterClient, // CDP paymaster for USDC gas payments
   });
@@ -197,6 +212,38 @@ export async function checkPaymasterUSDCSupport(): Promise<boolean> {
   } catch (error) {
     console.error('Error checking paymaster USDC support:', error);
     return false;
+  }
+}
+
+/**
+ * Check USDC balance in both Smart Wallet and EOA
+ */
+export async function checkAllUSDCBalances(userId: string): Promise<{ 
+  smartWalletBalance: string; 
+  eoaBalance: string;
+  smartWalletAddress: Address;
+  eoaAddress: Address;
+  totalBalance: string;
+} | null> {
+  try {
+    const wallet = await getCoinbaseSmartWallet(userId);
+    if (!wallet) return null;
+    
+    const smartWalletBalance = await getCoinbaseWalletUSDCBalance(wallet.smartAccount.address);
+    const eoaBalance = await getCoinbaseWalletUSDCBalance(wallet.owner.address);
+    
+    const totalBalance = (parseFloat(smartWalletBalance) + parseFloat(eoaBalance)).toFixed(2);
+    
+    return {
+      smartWalletBalance,
+      eoaBalance,
+      smartWalletAddress: wallet.smartAccount.address,
+      eoaAddress: wallet.owner.address,
+      totalBalance
+    };
+  } catch (error) {
+    console.error('Error checking all USDC balances:', error);
+    return null;
   }
 }
 

@@ -46,17 +46,23 @@ async function autoDeployFundsAndCompleteOnboarding(userId, firstName, amount, t
       
       // Step 3: Send success message with main menu
       const { createMainMenuKeyboard, getMainMenuMessage } = await import("../utils/mainMenu.ts");
+      const { getCompoundV3APY } = await import("../lib/defillama-api.ts");
+      
+      const apy = await getCompoundV3APY();
+      
+      // Import earnings utilities
+      const { calculateRealTimeEarnings, formatTxLink } = await import("../utils/earnings.ts");
+      const earnings = calculateRealTimeEarnings(parseFloat(amount), apy);
       
       await monitorBot.api.sendMessage(
         userId,
-        `🎉 *Welcome to your inkvest control center!*\n\n` +
-        `✅ ${amount} ${tokenSymbol} deployed to Compound V3 (8.33% APY)\n` +
+        `🐙 *Welcome to your **inkvest** control center!*\n\n` +
+        `✅ ${amount} ${tokenSymbol} deployed to Compound V3 (${apy}% APY)\n` +
         `✅ Gas sponsored by inkvest (gasless for you!)\n` +
         `✅ Auto-compounding activated\n` +
-        `✅ Earning rewards 24/7\n\n` +
-        `Deposit TX: \`${txHash}\`\n` +
-        `Deploy TX: \`${deployResult.txHash}\`\n\n` +
-        `${getMainMenuMessage(firstName)}`,
+        `✅ Earning ${earnings} automatically\n\n` +
+        `Deposit TX: ${formatTxLink(txHash)}\n` +
+        `Deploy TX: ${formatTxLink(deployResult.txHash)}`,
         { 
           parse_mode: "Markdown",
           reply_markup: createMainMenuKeyboard()
@@ -122,6 +128,15 @@ function loadWalletAddresses() {
     console.error("Error loading wallet addresses:", error);
     return [];
   }
+}
+
+/**
+ * Force immediate refresh of monitored wallets
+ * Call this when new users are created for instant monitoring
+ */
+function forceRefreshWallets() {
+  console.log("🔄 Force refreshing monitored wallets for new user...");
+  loadWalletAddresses();
 }
 
 /**
@@ -268,10 +283,10 @@ async function startEventMonitoringService() {
     // Setup WebSocket connection
     setupWebSocketConnection();
     
-    // Refresh monitored wallets every 5 minutes
+    // Refresh monitored wallets every 5 seconds for immediate detection
     setInterval(() => {
       loadWalletAddresses();
-    }, 5 * 60 * 1000);
+    }, 5 * 1000);
     
     console.log("✅ Event-based monitoring service started");
     console.log("📡 Listening for real-time USDC Transfer events");
@@ -300,4 +315,4 @@ if (require.main === module) {
   startEventMonitoringService();
 }
 
-module.exports = { startEventMonitoringService };
+module.exports = { startEventMonitoringService, forceRefreshWallets };

@@ -172,19 +172,27 @@ export async function handleExportConfirmation(
       const user = getUserByTelegramId(ctx.session.userId || "");
       
       if (user && user.onboardingCompleted === null) {
+        // Get current highest APY
+        const { getHighestAPY } = await import("../lib/defillama-api");
+        const apy = await getHighestAPY();
+        
         // User is still in onboarding - only export key option
         const keyboard = new InlineKeyboard()
           .text("🔑 Export Private Key", "export_key");
 
         await ctx.reply(
           "Operation cancelled. Your private key was not exported.\n\n" +
-          "🚀 *Ready to start earning 7% APY anyway?*\n" +
+          `🚀 *Ready to start earning ${apy}% APY anyway?*\n` +
           "You can always export your key later from settings.",
           {
             reply_markup: keyboard,
           }
         );
       } else {
+        // Get current highest APY
+        const { getHighestAPY } = await import("../lib/defillama-api");
+        const apy = await getHighestAPY();
+        
         // User has completed onboarding - show full menu
         const keyboard = new InlineKeyboard()
           .text("💰 Send USDC to Address", "deposit")
@@ -194,7 +202,7 @@ export async function handleExportConfirmation(
 
         await ctx.reply(
           "Operation cancelled. Your private key was not exported.\n\n" +
-          "🚀 *Ready to start earning 7% APY anyway?*\n" +
+          `🚀 *Ready to start earning ${apy}% APY anyway?*\n` +
           "You can always export your key later from settings.",
           {
             reply_markup: keyboard,
@@ -235,6 +243,10 @@ export async function handleExportConfirmation(
     const user = getUserByTelegramId(userId || "");
     
     if (user && user.onboardingCompleted === null) {
+      // Get current Compound V3 APY
+      const { getCompoundV3APY } = await import("../lib/defillama-api");
+      const apy = await getCompoundV3APY();
+      
       // User is still in onboarding - show clean deposit message with manual check
       const keyboard = new InlineKeyboard()
         .text("🔍 Check for Deposit", "manual_balance_check");
@@ -242,7 +254,7 @@ export async function handleExportConfirmation(
       await ctx.reply(
         "✅ *Private key exported successfully!*\n\n" +
           "🔐 Save your keys securely - you can restore your wallet anytime.\n\n" +
-          "💰 *Now deposit USDC to start earning up to 8.33% APY*\n\n" +
+          `💰 *Now deposit USDC to start earning up to ${apy}% APY*\n\n` +
           "I'm monitoring your address and will auto-deploy your funds to the best yield opportunity as soon as they arrive!",
         {
           parse_mode: "Markdown",
@@ -250,6 +262,10 @@ export async function handleExportConfirmation(
         }
       );
     } else {
+      // Get current highest APY
+      const { getHighestAPY } = await import("../lib/defillama-api");
+      const apy = await getHighestAPY();
+      
       // User has completed onboarding - show full menu
       const keyboard = new InlineKeyboard()
         .text("💰 Send USDC to Address", "deposit")
@@ -263,7 +279,7 @@ export async function handleExportConfirmation(
           "1. Save it in a secure password manager\n" +
           "2. Never share it with anyone\n" +
           "3. Delete any chat history containing this key\n\n" +
-          "🚀 *Ready to start earning 7% APY?*",
+          `🚀 *Ready to start earning ${apy}% APY?*`,
         {
           parse_mode: "Markdown",
           reply_markup: keyboard,

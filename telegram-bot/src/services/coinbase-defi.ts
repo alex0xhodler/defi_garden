@@ -1,9 +1,9 @@
 import { Address, parseUnits, encodeFunctionData } from 'viem';
-import { getCoinbaseSmartWallet, createSponsoredBundlerClient, publicClient, cdpPaymasterClient } from '../lib/coinbase-wallet';
+import { getCoinbaseSmartWallet, createSponsoredBundlerClient, publicClient, cdpPaymasterClient, getCoinbaseWalletUSDCBalance } from '../lib/coinbase-wallet';
 import { updateUserOnboardingStatus } from '../lib/database';
 
-// Contract addresses
-const COMPOUND_V3_USDC_ADDRESS = "0x9c4ec768c28520B50860ea7a15bd7213a9fF58bf" as Address;
+// Contract addresses - Using correct Base Compound V3 USDC proxy address
+const COMPOUND_V3_USDC_ADDRESS = "0xb125e6687d4313864e53df431d5425969c15eb2f" as Address;
 const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913" as Address;
 
 // Constants for USDC gas payments via paymaster
@@ -78,35 +78,62 @@ export async function autoDeployToCompoundV3(
     // Convert USDC amount to proper units (6 decimals)
     const amountWei = parseUnits(usdcAmount, 6);
 
+    // Check current USDC balance
+    const currentBalance = await getCoinbaseWalletUSDCBalance(smartAccount.address);
+    const currentBalanceWei = parseUnits(currentBalance, 6);
+    
+    // Reserve small amount for gas (Base gas is ~1¢)
+    const gasReserveWei = parseUnits('0.05', 6); // $0.05 USDC reserve for gas (5 cents)
+    
+    // Auto-fit deployment amount to available balance minus gas reserve
+    let deployAmountWei: bigint;
+    let actualDeployAmount: string;
+    
+    if (currentBalanceWei <= gasReserveWei) {
+      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.05 USDC for gas`);
+    }
+    
+    const maxDeployableWei = currentBalanceWei - gasReserveWei;
+    
+    if (amountWei > maxDeployableWei) {
+      // Auto-fit to available balance
+      deployAmountWei = maxDeployableWei;
+      actualDeployAmount = (Number(deployAmountWei) / Math.pow(10, 6)).toFixed(2);
+      console.log(`💰 Auto-fitting deployment: ${usdcAmount} USDC requested, deploying ${actualDeployAmount} USDC (reserved $0.05 for gas)`);
+    } else {
+      // Use requested amount
+      deployAmountWei = amountWei;
+      actualDeployAmount = usdcAmount;
+      console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.05 reserved for gas)`);
+    }
+
     // Create bundler client with CDP paymaster for USDC gas payments
     const bundlerClient = await createSponsoredBundlerClient(smartAccount);
 
-    console.log(`🚀 Preparing USDC gas payment transaction for ${usdcAmount} USDC...`);
+    console.log(`🚀 Preparing USDC gas payment transaction for ${actualDeployAmount} USDC...`);
     
-    // Check if paymaster approval is needed for USDC gas payments
-    let paymasterApprovalNeeded = false;
-    let paymasterAddress: Address | null = null;
+    // CDP Paymaster contract address (extracted from error logs)
+    const PAYMASTER_CONTRACT_ADDRESS = "0x2faeb0760d4230ef2ac21496bb4f0b47d634fd4c" as Address;
+    const GAS_APPROVAL_AMOUNT = parseUnits('5', 6); // $5 USDC approval for gas payments
 
-    // Build calls array - start with main transaction calls
+    // Build calls array with paymaster approval
     const calls = [];
-
-    // Note: We'll first try without paymaster approval, and add it if needed based on error response
     
-    // Main transaction calls
+    // Simple calls - just approve and supply (paymaster approval is handled automatically)
     calls.push(
       // 1. Approve Compound V3 to spend USDC
       {
         abi: ERC20_ABI,
         functionName: 'approve',
         to: BASE_USDC_ADDRESS,
-        args: [COMPOUND_V3_USDC_ADDRESS, amountWei],
+        args: [COMPOUND_V3_USDC_ADDRESS, deployAmountWei],
       },
       // 2. Supply USDC to Compound V3
       {
         abi: COMPOUND_V3_ABI,
         functionName: 'supply',
         to: COMPOUND_V3_USDC_ADDRESS,
-        args: [BASE_USDC_ADDRESS, amountWei],
+        args: [BASE_USDC_ADDRESS, deployAmountWei],
       }
     );
 
@@ -127,7 +154,7 @@ export async function autoDeployToCompoundV3(
     const userOpHash = await bundlerClient.sendUserOperation({
       account: smartAccount,
       calls,
-      paymaster: cdpPaymasterClient, // Use CDP paymaster client
+      paymaster: cdpPaymasterClient,
       paymasterContext: {
         erc20: BASE_USDC_ADDRESS // Tell paymaster to use USDC for gas payment
       }
@@ -153,15 +180,31 @@ export async function autoDeployToCompoundV3(
   } catch (error: any) {
     console.error('Error auto-deploying to Compound V3:', error);
     
+    // Check for Compound V3 specific errors
+    if (error.message?.includes('0x36405305')) {
+      console.error('Compound V3 contract error - likely SupplyCapExceeded or NotCollateralized');
+      return {
+        success: false,
+        error: 'Compound V3 market may have reached supply cap or requires different configuration. Please try again later or contact support.'
+      };
+    }
+    
     // Check if it's a paymaster rejection with token info
     if (error.code === -32002 && error.data?.acceptedTokens) {
       console.error('Paymaster rejection - accepted tokens:', error.data.acceptedTokens);
       console.error('Paymaster address:', error.data.paymasterAddress);
       
-      // TODO: Could implement retry logic with paymaster approval here
       return {
         success: false,
         error: `Paymaster requires USDC approval. Address: ${error.data.paymasterAddress}`
+      };
+    }
+    
+    // Check for gas-related errors
+    if (error.message?.includes('transfer amount exceeds balance')) {
+      return {
+        success: false,
+        error: `Insufficient USDC balance for deployment and gas fees.`
       };
     }
     
@@ -183,10 +226,11 @@ export async function autoDeployToCompoundV3(
 }
 
 /**
- * Get current Compound V3 APY (hardcoded for now)
+ * Get current Compound V3 APY from DefiLlama
  */
-export function getCompoundV3APY(): number {
-  return 8.33; // Current APY for USDC on Compound V3
+export async function getCompoundV3APY(): Promise<number> {
+  const { getCompoundV3APY } = await import('../lib/defillama-api');
+  return await getCompoundV3APY();
 }
 
 /**

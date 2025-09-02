@@ -195,27 +195,38 @@ bot.on("callback_query:data", async (ctx) => {
             if (deployResult.success) {
               // Send success message with main menu
               const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
+              const { getCompoundV3APY } = await import("./src/lib/defillama-api");
+              
+              const apy = await getCompoundV3APY();
+              
+              // Import earnings utilities
+              const { calculateRealTimeEarnings, formatTxLink } = await import("./src/utils/earnings");
+              const earnings = calculateRealTimeEarnings(parseFloat(usdcBalance.toString()), apy);
               
               await ctx.editMessageText(
-                `🎉 *Welcome to your inkvest control center!*\n\n` +
-                `✅ ${usdcBalance.toString()} USDC deployed to Compound V3 (8.33% APY)\n` +
+                `🐙 *Welcome to your **inkvest** control center!*\n\n` +
+                `✅ ${usdcBalance.toString()} USDC deployed to Compound V3 (${apy}% APY)\n` +
                 `✅ Gas sponsored by inkvest (gasless for you!)\n` +
                 `✅ Auto-compounding activated\n` +
-                `✅ Earning rewards 24/7\n\n` +
-                `Deploy TX: \`${deployResult.txHash}\`\n\n` +
-                `${getMainMenuMessage(firstName)}`,
+                `✅ Earning ${earnings} automatically\n\n` +
+                (deployResult.txHash ? `Deploy TX: ${formatTxLink(deployResult.txHash)}` : `Deployment completed successfully`),
                 { 
                   parse_mode: "Markdown",
                   reply_markup: createMainMenuKeyboard()
                 }
               );
             } else {
+              const { createMainMenuKeyboard } = await import("./src/utils/mainMenu");
+              
               await ctx.editMessageText(
                 `⚠️ *Deployment failed*\n\n` +
                 `${usdcBalance.toString()} USDC found but couldn't auto-deploy.\n\n` +
                 `Error: ${deployResult.error}\n\n` +
                 `Please try manual deployment via the bot menu.`,
-                { parse_mode: "Markdown" }
+                { 
+                  parse_mode: "Markdown",
+                  reply_markup: createMainMenuKeyboard()
+                }
               );
             }
           } catch (error) {
@@ -228,14 +239,20 @@ bot.on("callback_query:data", async (ctx) => {
         }, 2000);
         
       } else {
-        // No funds yet
+        // No funds yet - improved messaging
+        const { getHighestAPY } = await import("./src/lib/defillama-api");
+        const apy = await getHighestAPY();
+        
         const keyboard = new InlineKeyboard()
-          .text("🔍 Check Again", "manual_balance_check");
+          .text("🔍 Check Again", "manual_balance_check")
+          .row()
+          .text("📋 How to Send USDC", "deposit_help");
           
         await ctx.editMessageText(
-          `💰 *No USDC deposits detected yet*\n\n` +
-          `Send USDC to your address:\n\`${wallet.address}\`\n\n` +
-          `I'm monitoring automatically, or check again manually.`,
+          `🔍 *Monitoring your inkvest address...*\n\n` +
+          `💰 *Your earning address:*\n\`${wallet.address}\`\n\n` +
+          `No deposits detected yet. Send USDC on Base network to start earning ${apy}% APY!\n\n` +
+          `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
           {
             parse_mode: "Markdown",
             reply_markup: keyboard,
@@ -245,8 +262,62 @@ bot.on("callback_query:data", async (ctx) => {
       
     } catch (error) {
       console.error("Error checking manual balance:", error);
-      await ctx.editMessageText("❌ Error checking balance. Please try again.");
+      
+      const keyboard = new InlineKeyboard()
+        .text("🔍 Try Again", "manual_balance_check")
+        .row()
+        .text("📋 How to Send USDC", "deposit_help");
+        
+      await ctx.editMessageText(
+        "❌ *Connection issue*\n\nCouldn't check your balance. Please try again in a moment.",
+        { 
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
     }
+  } else if (callbackData === "deposit_help") {
+    // Help with depositing USDC
+    const userId = ctx.session.userId;
+    if (!userId) {
+      await ctx.reply("❌ Please start the bot first with /start command.");
+      return;
+    }
+    
+    const { getCoinbaseSmartWallet } = await import("./src/lib/coinbase-wallet");
+    const wallet = await getCoinbaseSmartWallet(userId);
+    
+    if (!wallet) {
+      await ctx.reply("❌ No wallet found. Please use /start to create one.");
+      return;
+    }
+    
+    const keyboard = new InlineKeyboard()
+      .text("🔍 Check for Deposit", "manual_balance_check")
+      .row()
+      .text("🔄 Back to Main", "main_menu");
+    
+    await ctx.editMessageText(
+      `📋 *How to Send USDC to inkvest*\n\n` +
+      `💰 *Your address:*\n\`${wallet.address}\`\n\n` +
+      `📱 *From Mobile Wallet (Coinbase, MetaMask, etc.):*\n` +
+      `1. Open your wallet app\n` +
+      `2. Find "Send" or "Transfer"\n` +
+      `3. Select USDC token\n` +
+      `4. Paste your address above ↑\n` +
+      `5. Choose **Base network** (important!)\n` +
+      `6. Send any amount (min $1)\n\n` +
+      `💻 *From Exchange (Coinbase, Binance, etc.):*\n` +
+      `1. Go to "Withdraw" or "Send"\n` +
+      `2. Select USDC\n` +
+      `3. Choose **Base network**\n` +
+      `4. Paste your address above ↑\n\n` +
+      `⚡ *Once sent, I'll auto-deploy within seconds!*`,
+      {
+        parse_mode: "Markdown",
+        reply_markup: keyboard,
+      }
+    );
   } else if (callbackData === "main_menu") {
     // Standardized main menu for all contexts
     const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
@@ -266,7 +337,7 @@ bot.on("callback_query:data", async (ctx) => {
     // Try to edit message first, fallback to reply
     try {
       await ctx.editMessageText(
-        getMainMenuMessage(firstName, walletAddress),
+        await getMainMenuMessage(firstName, walletAddress, ctx.session.userId),
         {
           parse_mode: "Markdown",
           reply_markup: createMainMenuKeyboard(),
@@ -275,7 +346,7 @@ bot.on("callback_query:data", async (ctx) => {
     } catch (error) {
       // If editing fails, send new message
       await ctx.reply(
-        getMainMenuMessage(firstName, walletAddress),
+        await getMainMenuMessage(firstName, walletAddress, ctx.session.userId),
         {
           parse_mode: "Markdown",
           reply_markup: createMainMenuKeyboard(),
@@ -358,7 +429,8 @@ bot.on("callback_query:data", async (ctx) => {
     const option = callbackData.replace("settings_", "") as
       | "risk"
       | "slippage"
-      | "back";
+      | "back"
+      | "export_key";
 
     if (option === "back") {
       // Go back to standardized main menu
@@ -377,12 +449,16 @@ bot.on("callback_query:data", async (ctx) => {
       }
       
       await ctx.editMessageText(
-        getMainMenuMessage(firstName, walletAddress),
+        await getMainMenuMessage(firstName, walletAddress, ctx.session.userId),
         {
           parse_mode: "Markdown",
           reply_markup: createMainMenuKeyboard(),
         }
       );
+    } else if (option === "export_key") {
+      // Handle export private key from settings
+      const { exportHandler } = await import("./src/commands/import-export");
+      await exportHandler.handler(ctx);
     } else {
       await handleSettingsOption(ctx, option);
     }
@@ -470,7 +546,7 @@ bot.on("message:text", async (ctx) => {
         }
 
         await ctx.reply(
-          getMainMenuMessage(firstName, walletAddress),
+          await getMainMenuMessage(firstName, walletAddress, ctx.session.userId),
           { 
             parse_mode: "Markdown",
             reply_markup: createMainMenuKeyboard() 
