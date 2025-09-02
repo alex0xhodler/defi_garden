@@ -5,6 +5,7 @@ export interface WalletData {
   encryptedPrivateKey: string;
   type: "imported" | "generated";
   createdAt: number;
+  autoCreated?: boolean;
 }
 
 export interface TransactionParams {

@@ -13,6 +13,9 @@ type UserRow = {
   firstName: string | null;
   lastName: string | null;
   createdAt: number;
+  onboardingCompleted: number | null;
+  lastBalanceCheck: number | null;
+  notificationSettings: string | null;
 };
 
 type WalletRow = {
@@ -21,6 +24,7 @@ type WalletRow = {
   encryptedPrivateKey: string;
   type: string;
   createdAt: number;
+  autoCreated: number; // SQLite doesn't have boolean, use 0/1
 };
 
 type SettingsRow = {
@@ -72,7 +76,10 @@ export function initDatabase(): void {
       username TEXT,
       firstName TEXT,
       lastName TEXT,
-      createdAt INTEGER NOT NULL
+      createdAt INTEGER NOT NULL,
+      onboardingCompleted INTEGER,
+      lastBalanceCheck INTEGER,
+      notificationSettings TEXT
     );
     
     CREATE TABLE IF NOT EXISTS ${DB_TABLES.WALLETS} (
@@ -81,6 +88,7 @@ export function initDatabase(): void {
       encryptedPrivateKey TEXT NOT NULL,
       type TEXT NOT NULL,
       createdAt INTEGER NOT NULL,
+      autoCreated INTEGER NOT NULL DEFAULT 0,
       FOREIGN KEY (userId) REFERENCES ${DB_TABLES.USERS}(userId)
     );
     
@@ -158,11 +166,41 @@ export function getUserByTelegramId(telegramId: string): UserRow | undefined {
   return stmt.get(telegramId) as UserRow | undefined;
 }
 
+export function updateUserOnboardingStatus(userId: string, completed: boolean): void {
+  const stmt = db.prepare(`
+    UPDATE ${DB_TABLES.USERS} 
+    SET onboardingCompleted = ?
+    WHERE userId = ?
+  `);
+
+  stmt.run(completed ? Date.now() : null, userId);
+}
+
+export function updateUserBalanceCheckTime(userId: string): void {
+  const stmt = db.prepare(`
+    UPDATE ${DB_TABLES.USERS} 
+    SET lastBalanceCheck = ?
+    WHERE userId = ?
+  `);
+
+  stmt.run(Date.now(), userId);
+}
+
+export function getUsersForBalanceMonitoring(): UserRow[] {
+  const stmt = db.prepare(`
+    SELECT * FROM ${DB_TABLES.USERS} 
+    WHERE onboardingCompleted IS NULL 
+    AND lastBalanceCheck IS NOT NULL
+  `);
+
+  return stmt.all() as UserRow[];
+}
+
 // Wallet operations
 export function saveWallet(walletData: WalletData, userId: string): void {
   const stmt = db.prepare(`
-    INSERT OR REPLACE INTO ${DB_TABLES.WALLETS} (address, userId, encryptedPrivateKey, type, createdAt)
-    VALUES (?, ?, ?, ?, ?)
+    INSERT OR REPLACE INTO ${DB_TABLES.WALLETS} (address, userId, encryptedPrivateKey, type, createdAt, autoCreated)
+    VALUES (?, ?, ?, ?, ?, ?)
   `);
 
   stmt.run(
@@ -170,7 +208,8 @@ export function saveWallet(walletData: WalletData, userId: string): void {
     userId,
     walletData.encryptedPrivateKey,
     walletData.type,
-    walletData.createdAt
+    walletData.createdAt,
+    walletData.autoCreated ? 1 : 0
   );
 }
 
@@ -180,7 +219,15 @@ export function getWalletByUserId(userId: string): WalletData | null {
   `);
 
   const result = stmt.get(userId) as WalletRow | undefined;
-  return result ? (result as unknown as WalletData) : null;
+  if (!result) return null;
+
+  return {
+    address: result.address,
+    encryptedPrivateKey: result.encryptedPrivateKey,
+    type: result.type,
+    createdAt: result.createdAt,
+    autoCreated: result.autoCreated === 1
+  } as WalletData;
 }
 
 export function getWalletByAddress(address: string): WalletData | null {
@@ -189,7 +236,15 @@ export function getWalletByAddress(address: string): WalletData | null {
   `);
 
   const result = stmt.get(address) as WalletRow | undefined;
-  return result ? (result as unknown as WalletData) : null;
+  if (!result) return null;
+
+  return {
+    address: result.address,
+    encryptedPrivateKey: result.encryptedPrivateKey,
+    type: result.type,
+    createdAt: result.createdAt,
+    autoCreated: result.autoCreated === 1
+  } as WalletData;
 }
 
 export function deleteWallet(address: string): void {
