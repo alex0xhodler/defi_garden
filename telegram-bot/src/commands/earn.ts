@@ -641,7 +641,7 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
     const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
 
     await ctx.reply(
-      `🤖 **Auto-Earn Selected Best Pool**\n\n` +
+      `🤖 **AI Auto-Managed Selected Best Pool**\n\n` +
       `${safetyIcon} **${bestPool.project}** - Highest APY Available\n` +
       `• **APY**: **${bestPool.apy}%** (${bestPool.apyBase}% base + ${bestPool.apyReward}% rewards)\n` +
       `• **TVL**: $${(bestPool.tvlUsd / 1_000_000).toFixed(1)}M\n` +
