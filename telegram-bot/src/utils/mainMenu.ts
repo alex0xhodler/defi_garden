@@ -27,16 +27,21 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
   // Check user's fund status if userId and wallet provided
   if (userId && walletAddress) {
     try {
-      const { getCoinbaseWalletUSDCBalance } = await import('../lib/coinbase-wallet');
+      const { getCoinbaseWalletUSDCBalance, getCoinbaseSmartWallet } = await import('../lib/coinbase-wallet');
       const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import('../lib/token-wallet');
       const { calculateRealTimeEarnings } = await import('./earnings');
+      
+      // Get Smart Wallet address for Compound deposits (since deposits are made via CDP)
+      const smartWallet = await getCoinbaseSmartWallet(userId);
+      const smartWalletAddress = smartWallet?.smartAccount.address;
       
       // Fetch wallet USDC and DeFi positions
       const [walletUsdc, aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
         getCoinbaseWalletUSDCBalance(walletAddress as Address),
         getAaveBalance(walletAddress as Address),
         getFluidBalance(walletAddress as Address),
-        getCompoundBalance(walletAddress as Address)
+        // Check Compound balance on Smart Wallet address since deposits are made there
+        smartWalletAddress ? getCompoundBalance(smartWalletAddress) : Promise.resolve({ cUsdcBalance: "0", cUsdcBalanceFormatted: "0.00" })
       ]);
 
       const walletUsdcNum = parseFloat(walletUsdc);
