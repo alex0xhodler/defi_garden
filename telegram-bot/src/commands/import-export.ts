@@ -167,8 +167,19 @@ export async function handleExportConfirmation(
     await ctx.editMessageReplyMarkup({ reply_markup: undefined });
 
     if (!confirmed) {
+      const keyboard = new InlineKeyboard()
+        .text("💰 Send USDC to Address", "deposit")
+        .row()
+        .text("🚀 Start Earning", "zap_auto_deploy")
+        .text("💰 Check Balance", "check_balance");
+
       await ctx.reply(
-        "Operation cancelled. Your private key was not exported."
+        "Operation cancelled. Your private key was not exported.\n\n" +
+        "🚀 *Ready to start earning 7% APY anyway?*\n" +
+        "You can always export your key later from settings.",
+        {
+          reply_markup: keyboard,
+        }
       );
       return;
     }
@@ -198,15 +209,23 @@ export async function handleExportConfirmation(
       parse_mode: "Markdown",
     });
 
-    // Send follow-up reminder about security
+    // Send follow-up reminder about security with action buttons
+    const keyboard = new InlineKeyboard()
+      .text("💰 Send USDC to Address", "deposit")
+      .row()
+      .text("🚀 Start Earning", "zap_auto_deploy")
+      .text("💰 Check Balance", "check_balance");
+
     await ctx.reply(
       "⚠️ *REMINDER*\n\n" +
         "Your private key has been displayed. For security:\n\n" +
         "1. Save it in a secure password manager\n" +
         "2. Never share it with anyone\n" +
-        "3. Delete any chat history containing this key",
+        "3. Delete any chat history containing this key\n\n" +
+        "🚀 *Ready to start earning 7% APY?*",
       {
         parse_mode: "Markdown",
+        reply_markup: keyboard,
       }
     );
 
