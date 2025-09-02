@@ -17,13 +17,19 @@ export function createMainMenuKeyboard(): InlineKeyboard {
 }
 
 /**
- * Main menu message text
+ * Main menu message text with optional wallet address
  */
-export function getMainMenuMessage(firstName: string = "there"): string {
-  return `🌱 *Welcome back ${firstName}! Ready to earn 7% APY effortlessly?*\n\n` +
+export function getMainMenuMessage(firstName: string = "there", walletAddress?: string): string {
+  let message = `🌱 *Welcome back ${firstName}! Ready to earn 7% APY effortlessly?*\n\n` +
     `✅ AI picks best yields daily\n` +
     `✅ No lock-ups, withdraw anytime\n` +
     `✅ Vetted protocols only\n` +
     `✅ Auto-compound while you sleep\n\n` +
     `What would you like to do?`;
+  
+  if (walletAddress) {
+    message += `\n\nYour earning address:\n\`${walletAddress}\`\n\nSend USDC to start earning on Base network.`;
+  }
+  
+  return message;
 }

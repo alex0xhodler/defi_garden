@@ -145,10 +145,7 @@ export const startHandler: CommandHandler = {
           const { createMainMenuKeyboard, getMainMenuMessage } = await import("../utils/mainMenu");
 
           await ctx.reply(
-            `${getMainMenuMessage(firstName)}\n\n` +
-            `Your earning address:\n` +
-            `\`${wallet.address}\`\n\n` +
-            `Send USDC to start earning on Base network.`,
+            getMainMenuMessage(firstName, wallet.address),
             {
               parse_mode: "Markdown", 
               reply_markup: createMainMenuKeyboard(),

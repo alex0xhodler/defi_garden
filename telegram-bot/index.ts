@@ -158,10 +158,21 @@ bot.on("callback_query:data", async (ctx) => {
     const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
     const firstName = ctx.from?.first_name || "there";
     
+    // Get wallet address from session or database
+    let walletAddress = ctx.session.walletAddress;
+    if (!walletAddress && ctx.session.userId) {
+      const { getWallet } = await import("./src/lib/token-wallet");
+      const wallet = await getWallet(ctx.session.userId);
+      if (wallet) {
+        walletAddress = wallet.address;
+        ctx.session.walletAddress = wallet.address; // Update session
+      }
+    }
+    
     // Try to edit message first, fallback to reply
     try {
       await ctx.editMessageText(
-        getMainMenuMessage(firstName),
+        getMainMenuMessage(firstName, walletAddress),
         {
           parse_mode: "Markdown",
           reply_markup: createMainMenuKeyboard(),
@@ -170,7 +181,7 @@ bot.on("callback_query:data", async (ctx) => {
     } catch (error) {
       // If editing fails, send new message
       await ctx.reply(
-        getMainMenuMessage(firstName),
+        getMainMenuMessage(firstName, walletAddress),
         {
           parse_mode: "Markdown",
           reply_markup: createMainMenuKeyboard(),
@@ -260,8 +271,19 @@ bot.on("callback_query:data", async (ctx) => {
       const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
       const firstName = ctx.from?.first_name || "there";
       
+      // Get wallet address from session or database
+      let walletAddress = ctx.session.walletAddress;
+      if (!walletAddress && ctx.session.userId) {
+        const { getWallet } = await import("./src/lib/token-wallet");
+        const wallet = await getWallet(ctx.session.userId);
+        if (wallet) {
+          walletAddress = wallet.address;
+          ctx.session.walletAddress = wallet.address; // Update session
+        }
+      }
+      
       await ctx.editMessageText(
-        getMainMenuMessage(firstName),
+        getMainMenuMessage(firstName, walletAddress),
         {
           parse_mode: "Markdown",
           reply_markup: createMainMenuKeyboard(),
