@@ -24,6 +24,8 @@ module.exports = {
     {
       name: 'deposit-monitor',
       script: './src/services/deposit-monitor.js',
+      interpreter: 'npx',
+      interpreter_args: 'ts-node',
       instances: 1,
       exec_mode: 'fork',
       env: {

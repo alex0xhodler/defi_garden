@@ -3,9 +3,9 @@ const {
   getUsersForBalanceMonitoring, 
   getWalletByUserId,
   updateUserBalanceCheckTime 
-} = require("../lib/database");
-const { getTokenBalance } = require("../lib/token-wallet");
-const { COMMON_TOKENS } = require("../utils/constants");
+} = require("../lib/database.ts");
+const { getTokenBalance } = require("../lib/token-wallet.ts");
+const { COMMON_TOKENS } = require("../utils/constants.ts");
 require("dotenv").config();
 
 // Simple bot instance for notifications
