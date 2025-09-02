@@ -140,7 +140,7 @@ const portfolioHandler: CommandHandler = {
 
       // Quick actions
       const keyboard = new InlineKeyboard()
-        .text("🚀 Zap More", "zap_funds")
+        .text("🚀 Earn More", "zap_funds")
         .text("🌾 Harvest", "harvest_yields")
         .row()
         .text("🚪 Exit Pool", "withdraw")
@@ -263,7 +263,7 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
 
     const keyboard = new InlineKeyboard()
       .text("🚪 Exit Pool", "withdraw")
-      .text("🚀 Zap More", "zap_funds")
+      .text("🚀 Earn More", "zap_funds")
       .row()
       .text("🔄 Refresh Data", "portfolio_details")
       .text("🔙 Back to Portfolio", "view_portfolio");

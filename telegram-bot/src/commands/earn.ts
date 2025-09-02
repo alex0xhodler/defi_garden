@@ -121,9 +121,9 @@ export function calculateRiskScore(pool: YieldOpportunity): number {
   return Math.min(risk, 10);
 }
 
-const zapHandler: CommandHandler = {
-  command: "zap",
-  description: "Auto-deploy funds to best yield opportunities",
+const earnHandler: CommandHandler = {
+  command: "earn", 
+  description: "Start earning with your funds",
   handler: async (ctx: BotContext) => {
     try {
       const userId = ctx.session.userId;
@@ -133,27 +133,29 @@ const zapHandler: CommandHandler = {
         return;
       }
 
-      // Check RPC configuration first
+      const firstName = ctx.from?.first_name || "there";
+
+      // Check RPC configuration first  
       if (!isRpcConfigured()) {
-        await ctx.reply(
-          "❌ **RPC Configuration Error**\n\n" +
-          "Your RPC endpoint is not properly configured for DeFi operations.\n\n" +
-          "Please update your `.env` file:\n" +
-          "`QUICKNODE_RPC=https://your-endpoint.quiknode.pro/your-key`\n\n" +
-          "**Reason**: Zapping requires reliable balance checks and transaction execution.",
-          { parse_mode: "Markdown" }
-        );
+        await ctx.reply(`❌ Something's not right with our connection, ${firstName}. Please try again in a moment.`);
         return;
       }
 
       // Get user's wallet
       const wallet = await getWallet(userId);
       if (!wallet) {
-        await ctx.reply(ERRORS.NO_WALLET);
+        const keyboard = new InlineKeyboard()
+          .text("✨ Set Up Wallet", "create_wallet")
+          .text("🔑 Import Wallet", "import_wallet");
+
+        await ctx.reply(
+          `👋 Hey ${firstName}! You need a wallet to start earning.\n\nLet me help you set that up:`,
+          { reply_markup: keyboard }
+        );
         return;
       }
 
-      // Set current action
+      // Set current action (keeping internal naming for now)
       ctx.session.currentAction = "zap_amount";
       
       // For v1, we'll start with USDC only
@@ -162,13 +164,11 @@ const zapHandler: CommandHandler = {
         walletAddress: wallet.address
       };
 
-      // Check if user wants automation or manual selection
+      // Simplified earn options
       const keyboard = new InlineKeyboard()
         .text("🤖 AI Auto-Managed", "zap_auto_deploy")
         .row()
         .text("🎯 Manual Management", "zap_choose_protocol");
-
-      const firstName = ctx.from?.first_name || "there";
 
       await ctx.reply(
         `🚀 *Ready to start earning, ${firstName}?*\n\n` +
@@ -182,8 +182,8 @@ const zapHandler: CommandHandler = {
         }
       );
     } catch (error) {
-      console.error("Error in zap command:", error);
-      await ctx.reply(ERRORS.NETWORK_ERROR);
+      console.error("Error in earn command:", error);
+      await ctx.reply("❌ Something went wrong. Please try again in a moment.");
     }
   },
 };
@@ -790,4 +790,4 @@ export async function handleZapRetry(ctx: BotContext): Promise<void> {
   }
 }
 
-export default zapHandler;
+export default earnHandler;

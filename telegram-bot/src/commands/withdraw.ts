@@ -179,7 +179,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         const receipt = await withdrawFromFluid(wallet, "max");
 
         const successKeyboard = new InlineKeyboard()
-          .text("🚀 Reinvest", "zap_funds")
+          .text("🚀 Earn More", "zap_funds")
           .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -247,7 +247,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         const receipt = await withdrawFromAave(wallet, "max");
 
         const successKeyboard = new InlineKeyboard()
-          .text("🚀 Reinvest", "zap_funds")
+          .text("🚀 Earn More", "zap_funds")
           .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -315,7 +315,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         const receipt = await withdrawFromCompound(wallet, "max", true); // Claim COMP rewards
 
         const successKeyboard = new InlineKeyboard()
-          .text("🚀 Reinvest", "zap_funds")
+          .text("🚀 Earn More", "zap_funds")
           .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -583,7 +583,7 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       }
 
       const successKeyboard = new InlineKeyboard()
-        .text("🚀 Reinvest", "zap_funds")
+        .text("🚀 Earn More", "zap_funds")
         .text("📊 View Portfolio", "view_portfolio")
         .row()
         .text("💰 Check Balance", "check_balance")

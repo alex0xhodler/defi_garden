@@ -63,7 +63,7 @@ export const balanceHandler: CommandHandler = {
         // Create actions keyboard
         const keyboard = new InlineKeyboard()
           .text("📥 Deposit", "deposit")
-          .text("🚀 Zap In", "zap_funds")
+          .text("🚀 Start Earning", "zap_funds")
           .row()
           .text("📤 Withdraw ETH", "withdraw_eth")
           .text("📤 Withdraw USDC", "withdraw_usdc")

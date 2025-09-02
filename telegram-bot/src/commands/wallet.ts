@@ -35,33 +35,50 @@ export const walletHandler: CommandHandler = {
       // Set wallet address in session
       ctx.session.walletAddress = wallet.address;
 
-      // Create keyboard with wallet actions
-      const keyboard = new InlineKeyboard()
-        .text("🔑 Export Key", "export_key")
-        .row()
-        .text("💰 Check Balance", "check_balance")
-        .text("📥 Deposit", "deposit")
-        .row()
-        .text("📤 Withdraw", "withdraw");
+      const firstName = ctx.from?.first_name || "there";
 
-      await ctx.reply(
-        `💼 *Your Wallet*\n\n` +
+      // Create different keyboards based on wallet type
+      let keyboard: InlineKeyboard;
+      let message: string;
+
+      if (wallet.autoCreated) {
+        // Auto-created wallet - offer upgrade option
+        keyboard = new InlineKeyboard()
+          .text("🚀 Start Earning", "zap_auto_deploy")
+          .text("💰 Balance", "check_balance")
+          .row()
+          .text("🔑 Upgrade Wallet", "upgrade_wallet")
+          .text("📥 Deposit", "deposit")
+          .row()
+          .text("📤 Withdraw", "withdraw");
+
+        message = `💼 *Your Wallet, ${firstName}*\n\n` +
           `*Address*: \`${wallet.address}\`\n` +
-          `*Type*: ${
-            wallet.type === "generated" ? "Generated" : "Imported"
-          }\n` +
+          `*Type*: inkvest Wallet (Auto-created)\n\n` +
+          `🚀 Ready to start earning with your funds?\n` +
+          `🔑 Want more control? Upgrade to your own wallet anytime.`;
+
+      } else {
+        // User's own wallet
+        keyboard = new InlineKeyboard()
+          .text("🔑 Export Key", "export_key")
+          .row()
+          .text("💰 Balance", "check_balance")
+          .text("📥 Deposit", "deposit")
+          .row()
+          .text("📤 Withdraw", "withdraw");
+
+        message = `💼 *Your Wallet, ${firstName}*\n\n` +
+          `*Address*: \`${wallet.address}\`\n` +
+          `*Type*: ${wallet.type === "generated" ? "Your Generated Wallet" : "Your Imported Wallet"}\n` +
           `*Created*: ${new Date(wallet.createdAt).toLocaleDateString()}\n\n` +
-          `Choose an action below or use one of these commands:\n` +
-          `- /balance - Check your token balances\n` +
-          `- /deposit - Show your deposit address\n` +
-          `- /withdraw - Withdraw ETH to another address\n` +
-          `- /buy - Buy tokens with ETH\n` +
-          `- /sell - Sell tokens for ETH`,
-        {
-          parse_mode: "Markdown",
-          reply_markup: keyboard,
-        }
-      );
+          `You have full control of this wallet. What would you like to do?`;
+      }
+
+      await ctx.reply(message, {
+        parse_mode: "Markdown",
+        reply_markup: keyboard,
+      });
     } catch (error) {
       console.error("Error in wallet command:", error);
       await ctx.reply("❌ An error occurred. Please try again later.");

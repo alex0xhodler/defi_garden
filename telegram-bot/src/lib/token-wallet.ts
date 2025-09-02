@@ -66,6 +66,7 @@ export async function generateWallet(userId: string): Promise<WalletData> {
     encryptedPrivateKey: encrypt(privateKey),
     type: "generated",
     createdAt: Date.now(),
+    autoCreated: true, // Mark as auto-created
   };
 
   // Save wallet to database

@@ -16,6 +16,7 @@ import zapHandler, {
   handleZapRetry,
   handleAutoEarn,
 } from "./src/commands/zap";
+import earnHandler from "./src/commands/earn";
 import portfolioHandler, { handlePortfolioDetails } from "./src/commands/portfolio";
 import harvestHandler, { handleHarvestConfirmation } from "./src/commands/harvest";
 import settingsHandler, {
@@ -62,6 +63,7 @@ bot.command(exportHandler.command, exportHandler.handler);
 bot.command(balanceHandler.command, balanceHandler.handler);
 bot.command(portfolioHandler.command, portfolioHandler.handler);
 bot.command(zapHandler.command, zapHandler.handler);
+bot.command(earnHandler.command, earnHandler.handler);
 bot.command(harvestHandler.command, harvestHandler.handler);
 bot.command(settingsHandler.command, settingsHandler.handler);
 bot.command(depositHandler.command, depositHandler.handler);
@@ -74,7 +76,7 @@ bot.api.setMyCommands([
   { command: walletHandler.command, description: walletHandler.description },
   { command: balanceHandler.command, description: balanceHandler.description },
   { command: portfolioHandler.command, description: portfolioHandler.description },
-  { command: zapHandler.command, description: zapHandler.description },
+  { command: earnHandler.command, description: earnHandler.description },
   { command: harvestHandler.command, description: harvestHandler.description },
   { command: settingsHandler.command, description: settingsHandler.description },
   { command: depositHandler.command, description: depositHandler.description },
@@ -151,6 +153,41 @@ bot.on("callback_query:data", async (ctx) => {
     await withdrawHandler.handler(ctx);
   } else if (callbackData === "help") {
     await helpHandler.handler(ctx);
+  } else if (callbackData === "main_menu") {
+    // Standardized main menu for all contexts
+    const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
+    const firstName = ctx.from?.first_name || "there";
+    
+    // Get wallet address from session or database
+    let walletAddress = ctx.session.walletAddress;
+    if (!walletAddress && ctx.session.userId) {
+      const { getWallet } = await import("./src/lib/token-wallet");
+      const wallet = await getWallet(ctx.session.userId);
+      if (wallet) {
+        walletAddress = wallet.address;
+        ctx.session.walletAddress = wallet.address; // Update session
+      }
+    }
+    
+    // Try to edit message first, fallback to reply
+    try {
+      await ctx.editMessageText(
+        getMainMenuMessage(firstName, walletAddress),
+        {
+          parse_mode: "Markdown",
+          reply_markup: createMainMenuKeyboard(),
+        }
+      );
+    } catch (error) {
+      // If editing fails, send new message
+      await ctx.reply(
+        getMainMenuMessage(firstName, walletAddress),
+        {
+          parse_mode: "Markdown",
+          reply_markup: createMainMenuKeyboard(),
+        }
+      );
+    }
   } else if (callbackData === "portfolio_details") {
     await handlePortfolioDetails(ctx);
   } else if (callbackData === "retry_zap") {
@@ -230,24 +267,26 @@ bot.on("callback_query:data", async (ctx) => {
       | "back";
 
     if (option === "back") {
-      // Go back to main menu
-      const keyboard = new InlineKeyboard()
-        .text("💰 Balance", "check_balance")
-        .text("📊 Portfolio", "view_portfolio")
-        .row()
-        .text("🚀 Zap", "zap_funds")
-        .text("🌾 Harvest", "harvest_yields")
-        .row()
-        .text("⚙️ Settings", "open_settings")
-        .text("📋 Help", "help");
-
+      // Go back to standardized main menu
+      const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
+      const firstName = ctx.from?.first_name || "there";
+      
+      // Get wallet address from session or database
+      let walletAddress = ctx.session.walletAddress;
+      if (!walletAddress && ctx.session.userId) {
+        const { getWallet } = await import("./src/lib/token-wallet");
+        const wallet = await getWallet(ctx.session.userId);
+        if (wallet) {
+          walletAddress = wallet.address;
+          ctx.session.walletAddress = wallet.address; // Update session
+        }
+      }
+      
       await ctx.editMessageText(
-        `🌱 *DeFi Garden Bot*\n\n` +
-          `Your automated yield farming assistant.\n\n` +
-          `What would you like to do?`,
+        getMainMenuMessage(firstName, walletAddress),
         {
           parse_mode: "Markdown",
-          reply_markup: keyboard,
+          reply_markup: createMainMenuKeyboard(),
         }
       );
     } else {
@@ -320,29 +359,28 @@ bot.on("message:text", async (ctx) => {
       await handleWithdrawTextInput(ctx, ctx.message.text);
       break;
     default:
-      // If no current action, show help
+      // If no current action, show standardized main menu
       if (!ctx.session.currentAction) {
-        const keyboard = new InlineKeyboard()
-          .text("💰 Balance", "check_balance")
-          .text("📊 Portfolio", "view_portfolio")
-          .row()
-          .text("🚀 Zap", "zap_funds")
-          .text("🌾 Harvest", "harvest_yields")
-          .row()
-          .text("⚙️ Settings", "open_settings")
-          .text("📋 Help", "help");
+        const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
+        const firstName = ctx.from?.first_name || "there";
+        
+        // Get wallet address from session or database
+        let walletAddress = ctx.session.walletAddress;
+        if (!walletAddress && ctx.session.userId) {
+          const { getWallet } = await import("./src/lib/token-wallet");
+          const wallet = await getWallet(ctx.session.userId);
+          if (wallet) {
+            walletAddress = wallet.address;
+            ctx.session.walletAddress = wallet.address; // Update session
+          }
+        }
 
         await ctx.reply(
-          "🌱 Hello! Here are some things you can do:\n\n" +
-            "/wallet - View your wallet\n" +
-            "/balance - Check your token balances\n" +
-            "/portfolio - View your DeFi positions and yields\n" +
-            "/zap - Invest in yield farming pools\n" +
-            "/harvest - Claim yields and compound rewards\n" +
-            "/deposit - Get your deposit address\n" +
-            "/settings - Adjust risk and slippage settings\n" +
-            "/help - Show help message",
-          { reply_markup: keyboard }
+          getMainMenuMessage(firstName, walletAddress),
+          { 
+            parse_mode: "Markdown",
+            reply_markup: createMainMenuKeyboard() 
+          }
         );
       }
       break;
@@ -352,7 +390,7 @@ bot.on("message:text", async (ctx) => {
 // Help command
 bot.command("help", async (ctx) => {
   await ctx.reply(
-    "🌱 *DeFi Garden Bot Help*\n\n" +
+    "🦑 *inkvest Bot Help*\n\n" +
       "*Wallet Commands:*\n" +
       "/start - Start the bot and create/import wallet\n" +
       "/wallet - Show wallet address\n" +
@@ -382,7 +420,7 @@ bot.catch((err) => {
 
 // Start the bot
 const startBot = async () => {
-  console.log("🌱 Starting DeFi Garden Telegram Bot...");
+  console.log("🦑 Starting inkvest Telegram Bot...");
 
   try {
     // Start bot
@@ -391,7 +429,7 @@ const startBot = async () => {
 
     // Log info
     console.log("ℹ️  Press Ctrl+C to stop the bot");
-    console.log("🌱 DeFi Garden Bot is ready to help users earn yield!");
+    console.log("🦑 inkvest Bot is ready to help users earn yield!");
   } catch (error) {
     console.error("❌ Failed to start bot:", error);
     process.exit(1);

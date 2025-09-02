@@ -1,7 +1,7 @@
 {
-  "name": "defi-garden-telegram-bot",
+  "name": "inkvest-telegram-bot",
   "version": "1.0.0",
-  "description": "DeFi Garden Telegram Bot - Auto-deploy to best yield opportunities",
+  "description": "inkvest Telegram Bot - Auto-deploy to best yield opportunities",
   "main": "index.ts",
   "scripts": {
     "dev": "nodemon",
@@ -9,7 +9,7 @@
     "build": "tsc"
   },
   "keywords": ["defi", "telegram", "bot", "yield", "farming"],
-  "author": "DeFi Garden",
+  "author": "inkvest",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.8.4",
