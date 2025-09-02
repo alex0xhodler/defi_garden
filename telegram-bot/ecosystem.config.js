@@ -23,9 +23,7 @@ module.exports = {
     },
     {
       name: 'deposit-monitor',
-      script: './src/services/deposit-monitor.ts',
-      interpreter: 'ts-node', 
-      node_args: '--max-old-space-size=512',
+      script: './src/services/deposit-monitor.js',
       instances: 1,
       exec_mode: 'fork',
       env: {
