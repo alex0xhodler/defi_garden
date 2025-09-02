@@ -5,10 +5,11 @@ import { InlineKeyboard } from "grammy";
 
 const depositHandler: CommandHandler = {
   command: "deposit",
-  description: "Display your wallet address for deposits",
+  description: "Get your deposit address",
   handler: async (ctx: BotContext) => {
     try {
       const userId = ctx.session.userId;
+      const firstName = ctx.from?.first_name || "there";
 
       if (!userId) {
         await ctx.reply("❌ Please start the bot first with /start command.");
@@ -20,43 +21,41 @@ const depositHandler: CommandHandler = {
 
       if (!wallet) {
         const keyboard = new InlineKeyboard()
-          .text("Create Wallet", "create_wallet")
-          .text("Import Wallet", "import_wallet");
+          .text("✨ Set Up Wallet", "create_wallet")
+          .text("🔑 Import Wallet", "import_wallet");
 
         await ctx.reply(
-          "❌ You don't have a wallet yet.\n\n" +
-            "You need to create or import a wallet first:",
+          `👋 Hey ${firstName}! You need a wallet first.\n\nLet me set that up for you:`,
           { reply_markup: keyboard }
         );
         return;
       }
 
-      // Send deposit information
+      // Create action buttons
+      const keyboard = new InlineKeyboard()
+        .text("🚀 Start Earning", "zap_auto_deploy")
+        .row()
+        .text("💰 Check Balance", "check_balance")
+        .text("📊 Portfolio", "view_portfolio");
+
+      // Simplified deposit information
       await ctx.reply(
-        `📥 *Deposit Funds to Your Wallet*\n\n` +
-          `**Your Base Network Address:**\n` +
+        `💰 *Ready to start earning, ${firstName}?*\n\n` +
+          `Send USDC to your address:\n` +
           `\`${wallet.address}\`\n\n` +
-          `**What to Deposit:**\n` +
-          `• **ETH** - Required for gas fees (minimum 0.0001 ETH)\n` +
-          `• **USDC** - For DeFi yield farming\n\n` +
-          `**Network:** Base (Chain ID: 8453)\n\n` +
-          `**Important Notes:**\n` +
-          `⚠️ Only send assets on Base network\n` +
-          `⛽ ETH is required for all DeFi transactions\n` +
-          `📊 Use /balance to check when funds arrive\n` +
-          `🔐 Never share your private key\n\n` +
-          `**Recommended:**\n` +
-          `• 0.001-0.002 ETH for gas fees (~$2-4)\n` +
-          `• Any amount of USDC for yield farming\n` +
-          `• Base gas is very cheap! (~$0.002 per tx)`,
+          `*Network:* Base (super cheap fees!)\n` +
+          `*Minimum:* Any amount\n` +
+          `*Gas fees:* Add ~$2 worth of ETH\n\n` +
+          `I'll notify you when funds arrive! 🌱`,
         {
           parse_mode: "Markdown",
+          reply_markup: keyboard,
         }
       );
 
     } catch (error) {
       console.error("Error in deposit command:", error);
-      await ctx.reply("❌ An error occurred. Please try again later.");
+      await ctx.reply("❌ Something went wrong. Please try again in a moment.");
     }
   },
 };
