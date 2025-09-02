@@ -41,7 +41,7 @@ const ERC20_ABI = [
   }
 ] as const;
 
-// Compound V3 ABI for supply
+// Compound V3 ABI for supply and withdraw
 const COMPOUND_V3_ABI = [
   {
     constant: false,
@@ -50,6 +50,18 @@ const COMPOUND_V3_ABI = [
       { name: 'amount', type: 'uint256' }
     ],
     name: 'supply',
+    outputs: [],
+    payable: false,
+    stateMutability: 'nonpayable',
+    type: 'function'
+  },
+  {
+    constant: false,
+    inputs: [
+      { name: 'asset', type: 'address' },
+      { name: 'amount', type: 'uint256' }
+    ],
+    name: 'withdraw',
     outputs: [],
     payable: false,
     stateMutability: 'nonpayable',
@@ -262,5 +274,136 @@ export async function getCompoundV3Balance(walletAddress: Address): Promise<stri
   } catch (error) {
     console.error('Error checking Compound V3 balance:', error);
     return '0.00';
+  }
+}
+
+/**
+ * Withdraw USDC from Compound V3 with CDP sponsored gas
+ */
+export async function withdrawFromCompoundV3(
+  userId: string, 
+  usdcAmount: string
+): Promise<{ success: boolean; txHash?: string; error?: string }> {
+  try {
+    console.log(`💸 Withdrawing ${usdcAmount} USDC from Compound V3 for user ${userId}`);
+
+    // Get user's Coinbase Smart Wallet
+    const wallet = await getCoinbaseSmartWallet(userId);
+    if (!wallet) {
+      throw new Error('No Coinbase Smart Wallet found for user');
+    }
+
+    const { smartAccount } = wallet;
+
+    // Convert USDC amount to proper units (6 decimals)
+    const withdrawAmountWei = parseUnits(usdcAmount, 6);
+
+    // Check current Compound V3 balance
+    const compoundBalance = await getCompoundV3Balance(smartAccount.address);
+    const compoundBalanceWei = parseUnits(compoundBalance, 6);
+    
+    if (compoundBalanceWei === 0n) {
+      throw new Error('No USDC deposited in Compound V3 to withdraw');
+    }
+    
+    if (withdrawAmountWei > compoundBalanceWei) {
+      throw new Error(`Insufficient Compound V3 balance. Requested: ${usdcAmount} USDC, Available: ${compoundBalance} USDC`);
+    }
+
+    // Create bundler client with CDP paymaster for USDC gas payments
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+
+    console.log(`🚀 Preparing USDC gas payment transaction for ${usdcAmount} USDC withdrawal...`);
+
+    // Build calls array - just withdraw (no approval needed for withdrawals)
+    const calls = [
+      {
+        abi: COMPOUND_V3_ABI,
+        functionName: 'withdraw',
+        to: COMPOUND_V3_USDC_ADDRESS,
+        args: [BASE_USDC_ADDRESS, withdrawAmountWei],
+      }
+    ];
+
+    console.log(`📡 Sending UserOperation with USDC gas payment...`);
+
+    // Configure gas estimation (pad for safety)
+    smartAccount.userOperation = {
+      estimateGas: async (userOperation: any) => {
+        const estimate = await bundlerClient.estimateUserOperationGas(userOperation);
+        // Increase gas limits for safety
+        estimate.preVerificationGas = estimate.preVerificationGas * 2n;
+        estimate.callGasLimit = estimate.callGasLimit * 120n / 100n; // +20%
+        return estimate;
+      },
+    };
+
+    // Send UserOperation with USDC gas payment via CDP paymaster
+    const userOpHash = await bundlerClient.sendUserOperation({
+      account: smartAccount,
+      calls,
+      paymaster: cdpPaymasterClient,
+      paymasterContext: {
+        erc20: BASE_USDC_ADDRESS // Tell paymaster to use USDC for gas payment
+      }
+    });
+
+    console.log(`⏳ Waiting for withdrawal confirmation: ${userOpHash}`);
+
+    // Wait for transaction receipt
+    const receipt = await bundlerClient.waitForUserOperationReceipt({
+      hash: userOpHash,
+    });
+
+    console.log(`✅ Withdrawal confirmed! Hash: ${receipt.receipt.transactionHash}`);
+
+    return {
+      success: true,
+      txHash: receipt.receipt.transactionHash
+    };
+
+  } catch (error: any) {
+    console.error('Error withdrawing from Compound V3:', error);
+    
+    // Check for Compound V3 specific errors
+    if (error.message?.includes('0x36405305')) {
+      console.error('Compound V3 contract error during withdrawal');
+      return {
+        success: false,
+        error: 'Compound V3 withdrawal failed due to contract error. Please try again later or contact support.'
+      };
+    }
+    
+    // Check if it's a paymaster rejection
+    if (error.code === -32002 && error.data?.acceptedTokens) {
+      console.error('Paymaster rejection during withdrawal:', error.data);
+      return {
+        success: false,
+        error: `Gas payment failed. Please ensure you have some USDC for gas fees.`
+      };
+    }
+    
+    // Check for insufficient balance errors
+    if (error.message?.includes('Insufficient') || error.message?.includes('No USDC deposited')) {
+      return {
+        success: false,
+        error: error.message
+      };
+    }
+    
+    // Log full error details for debugging
+    console.error('Full withdrawal error details:', {
+      message: error.message,
+      cause: error.cause?.message,
+      details: error.details,
+      code: error.code,
+      data: error.data,
+      stack: error.stack?.split('\n').slice(0, 5)
+    });
+    
+    return {
+      success: false,
+      error: error.message || error.details || 'Unknown withdrawal error occurred'
+    };
   }
 }

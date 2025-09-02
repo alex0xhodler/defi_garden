@@ -1,6 +1,8 @@
 import { BotContext } from "../context";
 import { getWallet } from "../lib/token-wallet";
 import { withdrawFromAave, withdrawFromFluid, withdrawFromCompound } from "../lib/defi-protocols";
+import { withdrawFromCompoundV3 } from "../services/coinbase-defi";
+import { getCoinbaseSmartWallet } from "../lib/coinbase-wallet";
 import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
 
@@ -305,6 +307,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         `🔄 **Processing Pool Exit...**\n\n` +
           `**Protocol:** Compound V3\n` +
           `**Amount:** All available USDC\n` +
+          `**Gas:** Sponsored by inkvest (gasless for you!)\n` +
           `**Status:** Executing transaction...`,
         {
           parse_mode: "Markdown"
@@ -312,7 +315,19 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       );
 
       try {
-        const receipt = await withdrawFromCompound(wallet, "max", true); // Claim COMP rewards
+        // Get user's Compound V3 balance to withdraw max amount
+        const { getCompoundV3Balance } = await import("../services/coinbase-defi");
+        const smartWallet = await getCoinbaseSmartWallet(userId);
+        if (!smartWallet) {
+          throw new Error("Smart wallet not found");
+        }
+        
+        const compoundBalance = await getCompoundV3Balance(smartWallet.smartAccount.address);
+        const result = await withdrawFromCompoundV3(userId, compoundBalance);
+
+        if (!result.success) {
+          throw new Error(result.error);
+        }
 
         const successKeyboard = new InlineKeyboard()
           .text("🚀 Earn More", "zap_funds")
@@ -327,13 +342,10 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
           `✅ **Pool Exit Successful!**\n\n` +
             `**Protocol:** Compound V3\n` +
             `**Amount:** All available USDC\n` +
-            `**COMP Rewards:** Claimed automatically\n` +
-            `**Transaction:** \`${receipt.transactionHash}\`\n` +
-            `**Block:** ${receipt.blockNumber}\n` +
-            `**Gas Used:** ${receipt.gasUsed}\n\n` +
-            `💰 USDC has been moved back to your wallet!\n` +
-            `🎁 COMP rewards have been claimed\n` +
-            `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`,
+            `**Gas:** Sponsored by inkvest (gasless!)\n` +
+            `**Transaction:** \`${result.txHash}\`\n\n` +
+            `💰 USDC has been moved back to your Smart Wallet!\n` +
+            `🔍 [View on Basescan](https://basescan.org/tx/${result.txHash})`,
           {
             parse_mode: "Markdown",
             reply_markup: successKeyboard
@@ -563,11 +575,24 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       const isMaxWithdrawal = amount.toLowerCase() === "max";
       
       // Execute withdrawal based on protocol
-      const receipt = protocol === "fluid" 
-        ? await withdrawFromFluid(wallet, amount, claimRewards)
-        : protocol === "compound"
-        ? await withdrawFromCompound(wallet, amount, claimRewards)
-        : await withdrawFromAave(wallet, amount, claimRewards);
+      let receipt: any;
+      if (protocol === "fluid") {
+        receipt = await withdrawFromFluid(wallet, amount, claimRewards);
+      } else if (protocol === "compound") {
+        // Use CDP gasless withdrawal for Compound V3
+        const result = await withdrawFromCompoundV3(userId, amount);
+        if (!result.success) {
+          throw new Error(result.error);
+        }
+        // Simulate receipt format for consistency with other protocols
+        receipt = {
+          transactionHash: result.txHash,
+          blockNumber: "N/A (CDP UserOp)",
+          gasUsed: "Sponsored by inkvest"
+        };
+      } else {
+        receipt = await withdrawFromAave(wallet, amount, claimRewards);
+      }
 
       // Determine reward status based on actual behavior
       let rewardStatus: string;
@@ -589,18 +614,31 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
         .text("💰 Check Balance", "check_balance")
         .text("📥 Deposit More", "deposit");
 
-      await ctx.api.editMessageText(
-        processingMsg.chat.id,
-        processingMsg.message_id,
-        `✅ **Withdrawal Successful!**\n\n` +
-          `**Protocol:** ${protocolEmoji} ${protocolName}\n` +
-          `**Amount:** ${isMaxWithdrawal ? "All available" : amount} USDC\n` +
-          `**Rewards:** ${rewardStatus}\n` +
+      // Build success message based on protocol
+      let successMessage = `✅ **Withdrawal Successful!**\n\n` +
+        `**Protocol:** ${protocolEmoji} ${protocolName}\n` +
+        `**Amount:** ${isMaxWithdrawal ? "All available" : amount} USDC\n`;
+
+      if (protocol === "compound") {
+        // CDP gasless withdrawal message
+        successMessage += `**Gas:** Sponsored by inkvest (gasless!)\n` +
+          `**Transaction:** \`${receipt.transactionHash}\`\n\n` +
+          `💰 USDC has been withdrawn to your Smart Wallet!\n`;
+      } else {
+        // Regular withdrawal message
+        successMessage += `**Rewards:** ${rewardStatus}\n` +
           `**Transaction:** \`${receipt.transactionHash}\`\n` +
           `**Block:** ${receipt.blockNumber}\n` +
           `**Gas Used:** ${receipt.gasUsed}\n\n` +
-          `💰 USDC has been withdrawn to your wallet!\n` +
-          `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`,
+          `💰 USDC has been withdrawn to your wallet!\n`;
+      }
+
+      successMessage += `🔍 [View on Basescan](https://basescan.org/tx/${receipt.transactionHash})`;
+
+      await ctx.api.editMessageText(
+        processingMsg.chat.id,
+        processingMsg.message_id,
+        successMessage,
         {
           parse_mode: "Markdown",
           reply_markup: successKeyboard
