@@ -359,29 +359,28 @@ bot.on("message:text", async (ctx) => {
       await handleWithdrawTextInput(ctx, ctx.message.text);
       break;
     default:
-      // If no current action, show help
+      // If no current action, show standardized main menu
       if (!ctx.session.currentAction) {
-        const keyboard = new InlineKeyboard()
-          .text("💰 Balance", "check_balance")
-          .text("📊 Portfolio", "view_portfolio")
-          .row()
-          .text("🚀 Zap", "zap_funds")
-          .text("🌾 Harvest", "harvest_yields")
-          .row()
-          .text("⚙️ Settings", "open_settings")
-          .text("📋 Help", "help");
+        const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
+        const firstName = ctx.from?.first_name || "there";
+        
+        // Get wallet address from session or database
+        let walletAddress = ctx.session.walletAddress;
+        if (!walletAddress && ctx.session.userId) {
+          const { getWallet } = await import("./src/lib/token-wallet");
+          const wallet = await getWallet(ctx.session.userId);
+          if (wallet) {
+            walletAddress = wallet.address;
+            ctx.session.walletAddress = wallet.address; // Update session
+          }
+        }
 
         await ctx.reply(
-          "🌱 Hello! Here are some things you can do:\n\n" +
-            "/wallet - View your wallet\n" +
-            "/balance - Check your token balances\n" +
-            "/portfolio - View your DeFi positions and yields\n" +
-            "/zap - Invest in yield farming pools\n" +
-            "/harvest - Claim yields and compound rewards\n" +
-            "/deposit - Get your deposit address\n" +
-            "/settings - Adjust risk and slippage settings\n" +
-            "/help - Show help message",
-          { reply_markup: keyboard }
+          getMainMenuMessage(firstName, walletAddress),
+          { 
+            parse_mode: "Markdown",
+            reply_markup: createMainMenuKeyboard() 
+          }
         );
       }
       break;
