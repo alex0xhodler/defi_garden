@@ -98,15 +98,41 @@ export const startHandler: CommandHandler = {
         }
 
         if (!wallet) {
-          // User exists but no wallet - offer to auto-create
+          // User exists but no wallet - auto-create like new users
+          await ctx.reply(`👋 Welcome back ${firstName}!\n\nSetting up your DeFi Garden... 🌱`);
+
+          // Auto-create wallet (now includes autoCreated flag)
+          const newWallet = await generateWallet(userId);
+          
+          // Set wallet in session
+          ctx.session.walletAddress = newWallet.address;
+
+          // Start balance monitoring
+          updateUserBalanceCheckTime(userId);
+
+          // Create compelling keyboard with export emphasis
           const keyboard = new InlineKeyboard()
-            .text("✨ Set Up Wallet", "create_wallet")
-            .text("🔑 Import Wallet", "import_wallet");
+            .text("🔑 Export Private Key Now", "export_key")
+            .row()
+            .text("💰 Check Balance", "check_balance")
+            .text("🚀 Start Earning", "zap_auto_deploy");
 
           await ctx.reply(
-            `👋 Welcome back ${firstName}!\n\n` +
-            `Let's get your wallet set up to start earning:`,
-            { reply_markup: keyboard }
+            `✨ *You're all set to earn 7% APY on USDC!*\n\n` +
+            `Your deposit address:\n` +
+            `\`${newWallet.address}\`\n\n` +
+            `✅ No impermanent loss risk\n` +
+            `✅ Only audited protocols ($10M+ TVL)\n` +
+            `✅ AI-managed yield optimization\n` +
+            `✅ Auto-compounding rewards\n\n` +
+            `⚠️ *Save your private key (one-time setup):*\n\n` +
+            `Ready to start earning? Send USDC to your address above.\n` +
+            `*Network:* Base (ultra-low fees ~$0.01)\n\n` +
+            `I'll notify you when funds arrive and start earning automatically!`,
+            {
+              parse_mode: "Markdown",
+              reply_markup: keyboard,
+            }
           );
         } else {
           // Full returning user experience  
