@@ -3,13 +3,12 @@ module.exports = {
     {
       name: 'inkvest-bot',
       script: './index.ts',
-      interpreter: 'ts-node',
-      node_args: '--max-old-space-size=1024',
+      interpreter: 'npx',
+      interpreter_args: 'ts-node',
       instances: 1,
       exec_mode: 'fork',
       env: {
-        NODE_ENV: 'production',
-        UV_THREADPOOL_SIZE: 4
+        NODE_ENV: 'production'
       },
       max_memory_restart: '900M',
       min_uptime: '10s',
