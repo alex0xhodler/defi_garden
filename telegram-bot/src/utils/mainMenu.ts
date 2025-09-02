@@ -35,18 +35,13 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
       const smartWallet = await getCoinbaseSmartWallet(userId);
       const smartWalletAddress = smartWallet?.smartAccount.address;
       
-      // Fetch wallet USDC and DeFi positions with error resilience
-      const [walletUsdc, aaveBalance, fluidBalance, compoundBalance] = await Promise.allSettled([
-        getCoinbaseWalletUSDCBalance(walletAddress as Address),
-        getAaveBalance(walletAddress as Address),
-        getFluidBalance(walletAddress as Address),
+      // Fetch wallet USDC and DeFi positions
+      const [walletUsdc, aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
+        getCoinbaseWalletUSDCBalance(walletAddress as Address).catch(() => '0.00'),
+        getAaveBalance(walletAddress as Address).catch(() => ({ aUsdcBalanceFormatted: '0.00' })),
+        getFluidBalance(walletAddress as Address).catch(() => ({ fUsdcBalanceFormatted: '0.00' })),
         // Check Compound balance on Smart Wallet address since deposits are made there
-        smartWalletAddress ? getCompoundBalance(smartWalletAddress) : Promise.resolve({ cUsdcBalance: "0", cUsdcBalanceFormatted: "0.00" })
-      ]).then(results => [
-        results[0].status === 'fulfilled' ? results[0].value : '0.00',
-        results[1].status === 'fulfilled' ? results[1].value : { aUsdcBalanceFormatted: '0.00' },
-        results[2].status === 'fulfilled' ? results[2].value : { fUsdcBalanceFormatted: '0.00' },
-        results[3].status === 'fulfilled' ? results[3].value : { cUsdcBalanceFormatted: '0.00' }
+        smartWalletAddress ? getCompoundBalance(smartWalletAddress).catch(() => ({ cUsdcBalanceFormatted: '0.00' })) : Promise.resolve({ cUsdcBalanceFormatted: '0.00' })
       ]);
 
       const walletUsdcNum = parseFloat(walletUsdc);
@@ -101,11 +96,11 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         return message;
       }
       
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error fetching user funds for main menu:', error);
       
       // If API is rate limited, show a user-friendly message instead of falling through
-      if (error.status === 429 || error.message?.includes('limit exceeded')) {
+      if (error?.status === 429 || error?.message?.includes('limit exceeded')) {
         return `🐙 *Welcome back ${firstName}!*\n\n` +
           `⚠️ **Experiencing high load** - Balance checking temporarily limited\n\n` +
           `🚀 **Start earning ${highestAPY}% APY** with Compound V3!\n\n` +
