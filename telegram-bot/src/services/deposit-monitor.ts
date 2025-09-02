@@ -1,16 +1,9 @@
 import { Bot } from "grammy";
-import { BotContext, createInitialSessionData } from "../context";
 import { 
   getUsersForBalanceMonitoring, 
   getWalletByUserId,
   updateUserBalanceCheckTime 
 } from "../lib/database";
-import { 
-  notifyDepositReceived, 
-  notifyLowGasBalance,
-  initializeNotificationBot,
-  getUserFirstName 
-} from "../lib/notifications";
 import { getTokenBalance } from "../lib/token-wallet";
 import { COMMON_TOKENS } from "../utils/constants";
 import dotenv from "dotenv";
@@ -18,18 +11,33 @@ import dotenv from "dotenv";
 // Load environment variables
 dotenv.config();
 
-// Bot instance
-const monitorBot = new Bot<BotContext>(process.env.TELEGRAM_BOT_TOKEN || "");
-
-// Initialize session middleware
-import { session } from "grammy";
-monitorBot.use(session({ initial: createInitialSessionData }));
-
-// Initialize notification system
-initializeNotificationBot(monitorBot);
+// Simple bot instance without complex typing
+const monitorBot = new Bot(process.env.TELEGRAM_BOT_TOKEN || "");
 
 // Store previous balances to detect changes
 const previousBalances = new Map<string, { usdc: string; eth: string }>();
+
+/**
+ * Send deposit notification
+ */
+async function notifyDepositReceived(
+  userId: string, 
+  firstName: string, 
+  amount: string, 
+  tokenSymbol: string
+): Promise<void> {
+  try {
+    const message = `✨ Deposit confirmed ${firstName}!\n\n` +
+      `${amount} ${tokenSymbol} received and ready to start earning!\n\n` +
+      `🦑 Your inkvest account is growing! 🚀`;
+
+    await monitorBot.api.sendMessage(userId, message);
+    console.log(`📬 Sent deposit notification to ${firstName}: ${amount} ${tokenSymbol}`);
+
+  } catch (error) {
+    console.error(`Failed to send deposit notification to user ${userId}:`, error);
+  }
+}
 
 /**
  * Check balances for users who need monitoring
@@ -48,10 +56,7 @@ async function checkUserBalances(): Promise<void> {
     for (const user of users) {
       try {
         await checkSingleUserBalance(user);
-        
-        // Update last balance check time
         updateUserBalanceCheckTime(user.userId);
-        
       } catch (error) {
         console.error(`Failed to check balance for user ${user.userId}:`, error);
       }
@@ -79,15 +84,10 @@ async function checkSingleUserBalance(user: any): Promise<void> {
       walletAddress,
       COMMON_TOKENS.USDC.address
     );
-    
-    const ethBalance = await getTokenBalance(
-      walletAddress,
-      "0x0000000000000000000000000000000000000000" // Native ETH
-    );
 
     const currentBalances = {
       usdc: usdcBalance.toString(),
-      eth: ethBalance.toString()
+      eth: "0"
     };
 
     // Get previous balances
@@ -109,16 +109,6 @@ async function checkSingleUserBalance(user: any): Promise<void> {
           "USDC"
         );
       }
-
-      // Check for low ETH balance (less than 0.0005 ETH)
-      const ethBalanceFloat = parseFloat(currentBalances.eth);
-      if (ethBalanceFloat < 0.0005 && ethBalanceFloat > 0) {
-        await notifyLowGasBalance(
-          userId,
-          firstName,
-          ethBalanceFloat.toFixed(6)
-        );
-      }
     }
 
     // Update stored balances
@@ -133,7 +123,7 @@ async function checkSingleUserBalance(user: any): Promise<void> {
  * Start the deposit monitoring service
  */
 async function startMonitoringService(): Promise<void> {
-  console.log("🚀 Starting deposit monitoring service...");
+  console.log("🦑 Starting inkvest deposit monitoring service...");
 
   try {
     // Initial balance check
@@ -153,9 +143,7 @@ async function startMonitoringService(): Promise<void> {
   }
 }
 
-/**
- * Graceful shutdown
- */
+// Graceful shutdown handlers
 process.on("SIGINT", async () => {
   console.log("🛑 Stopping deposit monitoring service...");
   await monitorBot.stop();
@@ -166,17 +154,6 @@ process.on("SIGTERM", async () => {
   console.log("🛑 Stopping deposit monitoring service...");
   await monitorBot.stop();
   process.exit(0);
-});
-
-// Handle uncaught errors
-process.on("uncaughtException", (error) => {
-  console.error("💥 Uncaught exception in deposit monitor:", error);
-  process.exit(1);
-});
-
-process.on("unhandledRejection", (reason, promise) => {
-  console.error("💥 Unhandled rejection in deposit monitor:", reason);
-  process.exit(1);
 });
 
 // Start the service
