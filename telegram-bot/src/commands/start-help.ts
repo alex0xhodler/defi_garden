@@ -142,7 +142,7 @@ export const startHandler: CommandHandler = {
           // Full returning user experience  
           ctx.session.walletAddress = wallet.address;
           
-          const { createMainMenuKeyboard, getMainMenuMessage } = await import("../../utils/mainMenu");
+          const { createMainMenuKeyboard, getMainMenuMessage } = await import("../utils/mainMenu");
 
           await ctx.reply(
             `${getMainMenuMessage(firstName)}\n\n` +
