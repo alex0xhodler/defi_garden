@@ -166,14 +166,14 @@ const earnHandler: CommandHandler = {
 
       // Simplified earn options
       const keyboard = new InlineKeyboard()
-        .text("🤖 Auto Earn", "zap_auto_deploy")
+        .text("🤖 AI Auto-Managed", "zap_auto_deploy")
         .row()
         .text("🎯 Manual Management", "zap_choose_protocol");
 
       await ctx.reply(
         `🚀 *Ready to start earning, ${firstName}?*\n\n` +
         `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
-        `🤖 **Auto Earn**: I pick the best opportunity\n` +
+        `🤖 **AI Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
         `🎯 **Manual Management**: You choose the protocol\n\n` +
         `What sounds good?`,
         {
