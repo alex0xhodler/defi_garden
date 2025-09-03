@@ -2,6 +2,7 @@ import { BotContext } from "../context";
 import { getWallet } from "../lib/token-wallet";
 import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
+import { startDepositMonitoring } from "../lib/database";
 
 const depositHandler: CommandHandler = {
   command: "deposit",
@@ -31,6 +32,18 @@ const depositHandler: CommandHandler = {
         return;
       }
 
+      // Start 5-minute monitoring window for deposits
+      startDepositMonitoring(userId, 5);
+      
+      // Force refresh event monitor to immediately watch this wallet
+      try {
+        const eventMonitor = require("../services/event-monitor.js");
+        eventMonitor.forceRefreshWallets();
+        console.log(`🔄 Started 5-minute deposit monitoring for user ${userId}`);
+      } catch (error) {
+        console.error("Could not force refresh wallets:", error);
+      }
+
       // Create action buttons
       const keyboard = new InlineKeyboard()
         .text("🚀 Start Earning", "zap_auto_deploy")
@@ -46,6 +59,7 @@ const depositHandler: CommandHandler = {
           `*Network:* Base (super cheap fees!)\n` +
           `*Minimum:* Any amount\n` +
           `*Gas fees:* Add ~$2 worth of ETH\n\n` +
+          `✅ **Now monitoring for deposits** (5 minutes)\n` +
           `I'll notify you when funds arrive! 🌱`,
         {
           parse_mode: "Markdown",

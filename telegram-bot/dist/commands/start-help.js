@@ -70,12 +70,15 @@ exports.startHandler = {
                 const wallet = await (0, coinbase_wallet_1.generateCoinbaseSmartWallet)(userId);
                 // Set wallet in session
                 ctx.session.walletAddress = wallet.address;
-                // Start balance monitoring
+                // Start balance monitoring (legacy system for onboarding)
                 (0, database_1.updateUserBalanceCheckTime)(userId);
+                // Start 5-minute deposit monitoring window
+                (0, database_1.startDepositMonitoring)(userId, 5);
                 // Force refresh event monitor to immediately watch this new wallet
                 try {
                     const eventMonitor = require("../services/event-monitor.js");
                     eventMonitor.forceRefreshWallets();
+                    console.log(`🔄 Started 5-minute deposit monitoring for new user ${userId}`);
                 }
                 catch (error) {
                     console.error("Could not force refresh wallets:", error);

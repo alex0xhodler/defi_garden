@@ -2,7 +2,8 @@ const { Bot } = require("grammy");
 const WebSocket = require("ws");
 const { 
   getUsersForBalanceMonitoring, 
-  getWalletByUserId 
+  getWalletByUserId,
+  stopDepositMonitoring 
 } = require("../lib/database.ts");
 require("dotenv").config();
 
@@ -15,8 +16,11 @@ const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 // DRPC WebSocket endpoint for Base mainnet (no rate limiting)
 const BASE_WSS = "wss://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhnKxixj";
 
-// Store monitored wallet addresses
+// Store monitored wallet addresses and connection state
 const monitoredWallets = new Set();
+let wsConnection = null;
+let pollInterval = null;
+let connectionCheckInterval = null;
 
 /**
  * Auto-deploy funds and complete onboarding using Coinbase CDP
@@ -108,6 +112,7 @@ async function autoDeployFundsAndCompleteOnboarding(userId, firstName, amount, t
 function loadWalletAddresses() {
   try {
     const users = getUsersForBalanceMonitoring();
+    const previousCount = monitoredWallets.size;
     monitoredWallets.clear();
     
     for (const user of users) {
@@ -121,7 +126,11 @@ function loadWalletAddresses() {
       }
     }
     
-    console.log(`📊 Loaded ${monitoredWallets.size} wallet addresses to monitor`);
+    const currentCount = monitoredWallets.size;
+    if (currentCount !== previousCount) {
+      console.log(`📊 Wallet count changed: ${previousCount} → ${currentCount} wallets to monitor`);
+    }
+    
     return Array.from(monitoredWallets);
     
   } catch (error) {
@@ -135,8 +144,44 @@ function loadWalletAddresses() {
  * Call this when new users are created for instant monitoring
  */
 function forceRefreshWallets() {
-  console.log("🔄 Force refreshing monitored wallets for new user...");
-  loadWalletAddresses();
+  console.log("🔄 Force refreshing monitored wallets...");
+  checkAndManageConnection();
+}
+
+/**
+ * Check wallet count and manage WebSocket connection accordingly
+ */
+function checkAndManageConnection() {
+  const wallets = loadWalletAddresses();
+  const walletCount = wallets.length;
+
+  if (walletCount === 0 && wsConnection) {
+    // No wallets to monitor - disconnect everything
+    console.log("📴 No wallets to monitor - disconnecting WebSocket and stopping polling");
+    
+    wsConnection.close();
+    wsConnection = null;
+    
+    if (pollInterval) {
+      clearInterval(pollInterval);
+      pollInterval = null;
+    }
+    
+  } else if (walletCount > 0 && !wsConnection) {
+    // New wallets found - start connection and polling
+    console.log(`🔌 Starting WebSocket monitoring for ${walletCount} wallet(s)`);
+    
+    setupWebSocketConnection();
+    
+    // Start polling every 5 seconds when monitoring active wallets
+    if (!pollInterval) {
+      pollInterval = setInterval(() => {
+        checkAndManageConnection();
+      }, 5 * 1000);
+    }
+  }
+
+  return walletCount;
 }
 
 /**
@@ -176,6 +221,9 @@ function handleTransferEvent(log) {
       
       console.log(`💰 USDC deposit detected: ${amount} USDC to ${recipient.slice(0,8)}... (${txHash.slice(0,10)}...)`);
       
+      // Stop deposit monitoring for this wallet (deposit received!)
+      stopDepositMonitoring(walletInfo.userId);
+      
       // Auto-deploy funds and complete onboarding
       autoDeployFundsAndCompleteOnboarding(
         walletInfo.userId,
@@ -184,6 +232,11 @@ function handleTransferEvent(log) {
         "USDC",
         txHash
       );
+      
+      // Force refresh to remove this wallet from monitoring
+      setTimeout(() => {
+        checkAndManageConnection();
+      }, 1000);
     }
     
   } catch (error) {
@@ -197,6 +250,9 @@ function handleTransferEvent(log) {
 function setupWebSocketConnection() {
   const ws = new WebSocket(BASE_WSS);
   let pingInterval;
+  
+  // Store connection reference for management
+  wsConnection = ws;
   
   ws.on('open', function() {
     console.log('🔌 Connected to DRPC WebSocket (Base mainnet)');
@@ -258,15 +314,19 @@ function setupWebSocketConnection() {
   });
 
   ws.on('close', function(code, reason) {
-    console.log(`🔌 WebSocket connection closed (${code}): ${reason}. Reconnecting in 10 seconds...`);
+    console.log(`🔌 WebSocket connection closed (${code}): ${reason || 'No reason'}`);
+    
+    // Clear connection reference
+    wsConnection = null;
     
     if (pingInterval) {
       clearInterval(pingInterval);
+      pingInterval = null;
     }
     
-    // Reconnect with exponential backoff
+    // Only reconnect if we still have wallets to monitor
     setTimeout(() => {
-      setupWebSocketConnection();
+      checkAndManageConnection();
     }, 10000);
   });
 
@@ -282,23 +342,26 @@ async function startEventMonitoringService() {
   console.log("🦑 Starting inkvest event-based deposit monitoring...");
 
   try {
-    // Load wallet addresses to monitor
-    const wallets = loadWalletAddresses();
+    // Check initial wallet count and start connections if needed
+    const walletCount = checkAndManageConnection();
     
-    if (wallets.length === 0) {
-      console.log("⚠️  No wallets to monitor. Service will continue to listen for new users.");
+    if (walletCount === 0) {
+      console.log("⚠️  No wallets to monitor currently - service will activate when wallets are added");
+    } else {
+      console.log(`✅ Monitoring ${walletCount} wallet(s) with 5-second polling`);
     }
     
-    // Setup WebSocket connection
-    setupWebSocketConnection();
-    
-    // Refresh monitored wallets every 5 seconds for immediate detection
-    setInterval(() => {
-      loadWalletAddresses();
-    }, 5 * 1000);
+    // Check for wallet changes every 30 seconds (when idle) 
+    // Active polling (5 seconds) only happens when wallets are being monitored
+    connectionCheckInterval = setInterval(() => {
+      // Only run the check if we're not already actively polling
+      if (!pollInterval) {
+        checkAndManageConnection();
+      }
+    }, 30 * 1000);
     
     console.log("✅ Event-based monitoring service started");
-    console.log("📡 Listening for real-time USDC Transfer events");
+    console.log("📡 Efficient monitoring - zero resources when no wallets");
     
   } catch (error) {
     console.error("❌ Failed to start event monitoring service:", error);
@@ -309,12 +372,48 @@ async function startEventMonitoringService() {
 // Graceful shutdown handlers
 process.on("SIGINT", async () => {
   console.log("🛑 Stopping event monitoring service...");
+  
+  // Close WebSocket connection
+  if (wsConnection) {
+    wsConnection.close();
+    wsConnection = null;
+  }
+  
+  // Clear all intervals
+  if (pollInterval) {
+    clearInterval(pollInterval);
+    pollInterval = null;
+  }
+  
+  if (connectionCheckInterval) {
+    clearInterval(connectionCheckInterval);
+    connectionCheckInterval = null;
+  }
+  
   await monitorBot.stop();
   process.exit(0);
 });
 
 process.on("SIGTERM", async () => {
   console.log("🛑 Stopping event monitoring service...");
+  
+  // Close WebSocket connection
+  if (wsConnection) {
+    wsConnection.close();
+    wsConnection = null;
+  }
+  
+  // Clear all intervals
+  if (pollInterval) {
+    clearInterval(pollInterval);
+    pollInterval = null;
+  }
+  
+  if (connectionCheckInterval) {
+    clearInterval(connectionCheckInterval);
+    connectionCheckInterval = null;
+  }
+  
   await monitorBot.stop();
   process.exit(0);
 });

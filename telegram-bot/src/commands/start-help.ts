@@ -7,6 +7,7 @@ import {
   getUserSettings,
   saveUserSettings,
   updateUserBalanceCheckTime,
+  startDepositMonitoring,
 } from "../lib/database";
 import { generateCoinbaseSmartWallet, getCoinbaseSmartWallet, hasCoinbaseSmartWallet } from "../lib/coinbase-wallet";
 import { CommandHandler } from "../types/commands";
@@ -59,13 +60,17 @@ export const startHandler: CommandHandler = {
         // Set wallet in session
         ctx.session.walletAddress = wallet.address;
 
-        // Start balance monitoring
+        // Start balance monitoring (legacy system for onboarding)
         updateUserBalanceCheckTime(userId);
+        
+        // Start 5-minute deposit monitoring window
+        startDepositMonitoring(userId, 5);
         
         // Force refresh event monitor to immediately watch this new wallet
         try {
           const eventMonitor = require("../services/event-monitor.js");
           eventMonitor.forceRefreshWallets();
+          console.log(`🔄 Started 5-minute deposit monitoring for new user ${userId}`);
         } catch (error) {
           console.error("Could not force refresh wallets:", error);
         }

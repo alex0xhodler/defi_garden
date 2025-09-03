@@ -8,6 +8,9 @@ exports.createUser = createUser;
 exports.getUserByTelegramId = getUserByTelegramId;
 exports.updateUserOnboardingStatus = updateUserOnboardingStatus;
 exports.updateUserBalanceCheckTime = updateUserBalanceCheckTime;
+exports.setExpectingDepositUntil = setExpectingDepositUntil;
+exports.startDepositMonitoring = startDepositMonitoring;
+exports.stopDepositMonitoring = stopDepositMonitoring;
 exports.getUsersForBalanceMonitoring = getUsersForBalanceMonitoring;
 exports.saveWallet = saveWallet;
 exports.getWalletByUserId = getWalletByUserId;
@@ -39,6 +42,7 @@ function initDatabase() {
       createdAt INTEGER NOT NULL,
       onboardingCompleted INTEGER,
       lastBalanceCheck INTEGER,
+      expectingDepositUntil INTEGER,
       notificationSettings TEXT
     );
     
@@ -131,13 +135,34 @@ function updateUserBalanceCheckTime(userId) {
   `);
     stmt.run(Date.now(), userId);
 }
+function setExpectingDepositUntil(userId, untilTimestamp) {
+    const stmt = db.prepare(`
+    UPDATE ${constants_1.DB_TABLES.USERS} 
+    SET expectingDepositUntil = ?
+    WHERE userId = ?
+  `);
+    stmt.run(untilTimestamp, userId);
+}
+function startDepositMonitoring(userId, durationMinutes = 5) {
+    const untilTimestamp = Date.now() + (durationMinutes * 60 * 1000);
+    setExpectingDepositUntil(userId, untilTimestamp);
+}
+function stopDepositMonitoring(userId) {
+    setExpectingDepositUntil(userId, null);
+}
 function getUsersForBalanceMonitoring() {
+    const currentTime = Date.now();
     const stmt = db.prepare(`
     SELECT * FROM ${constants_1.DB_TABLES.USERS} 
-    WHERE onboardingCompleted IS NULL 
-    AND lastBalanceCheck IS NOT NULL
+    WHERE (
+      -- New users waiting for first deposit
+      (onboardingCompleted IS NULL AND lastBalanceCheck IS NOT NULL)
+      OR 
+      -- Users actively expecting deposit (within time window)
+      (expectingDepositUntil IS NOT NULL AND expectingDepositUntil > ?)
+    )
   `);
-    return stmt.all();
+    return stmt.all(currentTime);
 }
 // Wallet operations
 function saveWallet(walletData, userId) {

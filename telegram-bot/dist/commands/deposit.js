@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const token_wallet_1 = require("../lib/token-wallet");
 const grammy_1 = require("grammy");
+const database_1 = require("../lib/database");
 const depositHandler = {
     command: "deposit",
     description: "Get your deposit address",
@@ -22,6 +23,17 @@ const depositHandler = {
                 await ctx.reply(`👋 Hey ${firstName}! You need a wallet first.\n\nLet me set that up for you:`, { reply_markup: keyboard });
                 return;
             }
+            // Start 5-minute monitoring window for deposits
+            (0, database_1.startDepositMonitoring)(userId, 5);
+            // Force refresh event monitor to immediately watch this wallet
+            try {
+                const eventMonitor = require("../services/event-monitor.js");
+                eventMonitor.forceRefreshWallets();
+                console.log(`🔄 Started 5-minute deposit monitoring for user ${userId}`);
+            }
+            catch (error) {
+                console.error("Could not force refresh wallets:", error);
+            }
             // Create action buttons
             const keyboard = new grammy_1.InlineKeyboard()
                 .text("🚀 Start Earning", "zap_auto_deploy")
@@ -35,6 +47,7 @@ const depositHandler = {
                 `*Network:* Base (super cheap fees!)\n` +
                 `*Minimum:* Any amount\n` +
                 `*Gas fees:* Add ~$2 worth of ETH\n\n` +
+                `✅ **Now monitoring for deposits** (5 minutes)\n` +
                 `I'll notify you when funds arrive! 🌱`, {
                 parse_mode: "Markdown",
                 reply_markup: keyboard,
