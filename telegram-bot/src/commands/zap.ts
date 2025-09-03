@@ -467,7 +467,8 @@ export async function handleZapConfirmation(
       const txReceipt = await executeZap(
         poolInfo.protocol, // "Aave" or "Compound"
         wallet,
-        amount
+        amount,
+        userId // Pass userId for gasless transaction detection
       );
 
       const positionId = `pos_${Date.now()}_${userId}`;
@@ -689,7 +690,8 @@ export async function handleZapRetry(ctx: BotContext): Promise<void> {
       const txReceipt = await executeZap(
         poolInfo.protocol, // "Aave" or "Compound"
         wallet,
-        amount
+        amount,
+        userId // Pass userId for gasless transaction detection
       );
 
       const positionId = `pos_${Date.now()}_${userId}`;
