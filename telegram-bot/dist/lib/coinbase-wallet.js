@@ -76,10 +76,11 @@ async function generateCoinbaseSmartWallet(userId) {
         // Generate new private key for the EOA owner
         const privateKey = (0, accounts_1.generatePrivateKey)();
         const owner = (0, accounts_1.privateKeyToAccount)(privateKey);
-        // Create Coinbase Smart Account
+        // Create Coinbase Smart Account with deterministic nonce
         const smartAccount = await (0, account_abstraction_1.toCoinbaseSmartAccount)({
             client: exports.publicClient,
             owners: [owner],
+            nonce: 0n, // Use fixed nonce for deterministic address generation
             version: '1.1'
         });
         console.log(`✅ Smart Wallet created: ${smartAccount.address}`);
@@ -118,10 +119,11 @@ async function getCoinbaseSmartWallet(userId) {
         // Decrypt private key
         const privateKey = (0, encryption_1.decrypt)(walletData.encryptedPrivateKey);
         const owner = (0, accounts_1.privateKeyToAccount)(privateKey);
-        // Recreate smart account
+        // Recreate smart account with the same nonce for consistent address
         const smartAccount = await (0, account_abstraction_1.toCoinbaseSmartAccount)({
             client: exports.publicClient,
             owners: [owner],
+            nonce: 0n, // Use same nonce as creation for deterministic address
             version: '1.1'
         });
         return {

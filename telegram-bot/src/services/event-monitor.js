@@ -107,9 +107,9 @@ async function autoDeployFundsAndCompleteOnboarding(userId, firstName, amount, t
 }
 
 /**
- * Load wallet addresses to monitor
+ * Load wallet addresses to monitor (gets correct smart wallet addresses)
  */
-function loadWalletAddresses() {
+async function loadWalletAddresses() {
   try {
     const users = getUsersForBalanceMonitoring();
     const previousCount = monitoredWallets.size;
@@ -118,8 +118,27 @@ function loadWalletAddresses() {
     for (const user of users) {
       const wallet = getWalletByUserId(user.userId);
       if (wallet) {
+        let addressToMonitor = wallet.address;
+        
+        // For Coinbase Smart Wallets, get the correct smart wallet address
+        if (wallet.type === 'coinbase-smart-wallet') {
+          try {
+            // Import getCoinbaseSmartWallet to get the real address
+            const { getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet.ts");
+            const smartWallet = await getCoinbaseSmartWallet(user.userId);
+            if (smartWallet && smartWallet.smartAccount) {
+              addressToMonitor = smartWallet.smartAccount.address;
+              console.log(`📍 Using Smart Wallet address for monitoring: ${addressToMonitor} (database had: ${wallet.address})`);
+            } else {
+              console.log(`⚠️ Could not get Smart Wallet for user ${user.userId}, using database address: ${wallet.address}`);
+            }
+          } catch (error) {
+            console.error(`Error getting smart wallet address for user ${user.userId}:`, error);
+          }
+        }
+        
         monitoredWallets.add({
-          address: wallet.address.toLowerCase(),
+          address: addressToMonitor.toLowerCase(),
           userId: user.userId,
           firstName: user.firstName || "there"
         });
@@ -143,16 +162,16 @@ function loadWalletAddresses() {
  * Force immediate refresh of monitored wallets
  * Call this when new users are created for instant monitoring
  */
-function forceRefreshWallets() {
+async function forceRefreshWallets() {
   console.log("🔄 Force refreshing monitored wallets...");
-  checkAndManageConnection();
+  await checkAndManageConnection();
 }
 
 /**
  * Check wallet count and manage WebSocket connection accordingly
  */
-function checkAndManageConnection() {
-  const wallets = loadWalletAddresses();
+async function checkAndManageConnection() {
+  const wallets = await loadWalletAddresses();
   const walletCount = wallets.length;
 
   if (walletCount === 0 && wsConnection) {
@@ -175,8 +194,8 @@ function checkAndManageConnection() {
     
     // Start polling every 5 seconds when monitoring active wallets
     if (!pollInterval) {
-      pollInterval = setInterval(() => {
-        checkAndManageConnection();
+      pollInterval = setInterval(async () => {
+        await checkAndManageConnection();
       }, 5 * 1000);
     }
   }
@@ -325,8 +344,8 @@ function setupWebSocketConnection() {
     }
     
     // Only reconnect if we still have wallets to monitor
-    setTimeout(() => {
-      checkAndManageConnection();
+    setTimeout(async () => {
+      await checkAndManageConnection();
     }, 10000);
   });
 
@@ -343,7 +362,7 @@ async function startEventMonitoringService() {
 
   try {
     // Check initial wallet count and start connections if needed
-    const walletCount = checkAndManageConnection();
+    const walletCount = await checkAndManageConnection();
     
     if (walletCount === 0) {
       console.log("⚠️  No wallets to monitor currently - service will activate when wallets are added");
@@ -353,10 +372,10 @@ async function startEventMonitoringService() {
     
     // Check for wallet changes every 30 seconds (when idle) 
     // Active polling (5 seconds) only happens when wallets are being monitored
-    connectionCheckInterval = setInterval(() => {
+    connectionCheckInterval = setInterval(async () => {
       // Only run the check if we're not already actively polling
       if (!pollInterval) {
-        checkAndManageConnection();
+        await checkAndManageConnection();
       }
     }, 30 * 1000);
     

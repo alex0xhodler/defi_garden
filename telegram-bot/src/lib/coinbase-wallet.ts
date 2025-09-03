@@ -39,10 +39,11 @@ export async function generateCoinbaseSmartWallet(userId: string) {
     const privateKey = generatePrivateKey();
     const owner = privateKeyToAccount(privateKey);
 
-    // Create Coinbase Smart Account
+    // Create Coinbase Smart Account with deterministic nonce
     const smartAccount = await toCoinbaseSmartAccount({
       client: publicClient,
       owners: [owner],
+      nonce: 0n, // Use fixed nonce for deterministic address generation
       version: '1.1'
     });
 
@@ -91,10 +92,11 @@ export async function getCoinbaseSmartWallet(userId: string) {
     const privateKey = decrypt(walletData.encryptedPrivateKey);
     const owner = privateKeyToAccount(privateKey as `0x${string}`);
 
-    // Recreate smart account
+    // Recreate smart account with the same nonce for consistent address
     const smartAccount = await toCoinbaseSmartAccount({
       client: publicClient,
       owners: [owner],
+      nonce: 0n, // Use same nonce as creation for deterministic address
       version: '1.1'
     });
 

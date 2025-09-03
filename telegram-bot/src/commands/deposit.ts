@@ -32,13 +32,21 @@ const depositHandler: CommandHandler = {
         return;
       }
 
+      // Get the deposit address (now deterministic from database)
+      const depositAddress = wallet.address;
+      
+      // Log for verification
+      if (wallet.type === 'coinbase-smart-wallet') {
+        console.log(`📍 Using Smart Wallet deposit address: ${depositAddress}`);
+      }
+
       // Start 5-minute monitoring window for deposits
       startDepositMonitoring(userId, 5);
       
       // Force refresh event monitor to immediately watch this wallet
       try {
         const eventMonitor = require("../services/event-monitor.js");
-        eventMonitor.forceRefreshWallets();
+        await eventMonitor.forceRefreshWallets();
         console.log(`🔄 Started 5-minute deposit monitoring for user ${userId}`);
       } catch (error) {
         console.error("Could not force refresh wallets:", error);
@@ -54,11 +62,11 @@ const depositHandler: CommandHandler = {
       // Simplified deposit information
       await ctx.reply(
         `💰 *Ready to start earning, ${firstName}?*\n\n` +
-          `Send USDC to your address:\n` +
-          `\`${wallet.address}\`\n\n` +
+          `Send USDC to your Smart Wallet:\n` +
+          `\`${depositAddress}\`\n\n` +
           `*Network:* Base (super cheap fees!)\n` +
           `*Minimum:* Any amount\n` +
-          `*Gas fees:* Add ~$2 worth of ETH\n\n` +
+          `*Gas fees:* Sponsored by inkvest! 🦑\n\n` +
           `✅ **Now monitoring for deposits** (5 minutes)\n` +
           `I'll notify you when funds arrive! 🌱`,
         {

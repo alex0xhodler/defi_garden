@@ -69,7 +69,7 @@ export const startHandler: CommandHandler = {
         // Force refresh event monitor to immediately watch this new wallet
         try {
           const eventMonitor = require("../services/event-monitor.js");
-          eventMonitor.forceRefreshWallets();
+          await eventMonitor.forceRefreshWallets();
           console.log(`🔄 Started 5-minute deposit monitoring for new user ${userId}`);
         } catch (error) {
           console.error("Could not force refresh wallets:", error);
@@ -129,7 +129,7 @@ export const startHandler: CommandHandler = {
           // Force refresh event monitor to immediately watch this new wallet
           try {
             const eventMonitor = require("../services/event-monitor.js");
-            eventMonitor.forceRefreshWallets();
+            await eventMonitor.forceRefreshWallets();
           } catch (error) {
             console.error("Could not force refresh wallets:", error);
           }
