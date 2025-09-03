@@ -1,8 +1,8 @@
 import { BotContext } from "../context";
 import { getWallet } from "../lib/token-wallet";
 import { withdrawFromAave, withdrawFromFluid, withdrawFromCompound } from "../lib/defi-protocols";
-import { withdrawFromCompoundV3 } from "../services/coinbase-defi";
-import { getCoinbaseSmartWallet } from "../lib/coinbase-wallet";
+import { withdrawFromCompoundV3, gaslessWithdrawFromAave, gaslessWithdrawFromFluid } from "../services/coinbase-defi";
+import { getCoinbaseSmartWallet, hasCoinbaseSmartWallet } from "../lib/coinbase-wallet";
 import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
 
@@ -178,7 +178,26 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       );
 
       try {
-        const receipt = await withdrawFromFluid(wallet, "max");
+        const userId = ctx.from?.id?.toString();
+        const hasSmartWallet = userId ? hasCoinbaseSmartWallet(userId) : false;
+        
+        let receipt;
+        if (hasSmartWallet) {
+          console.log(`🦑 Using gasless Fluid withdrawal for Smart Wallet user`);
+          const result = await gaslessWithdrawFromFluid(userId!, "max");
+          if (!result.success) {
+            throw new Error(result.error);
+          }
+          // Simulate receipt format for consistency
+          receipt = {
+            transactionHash: result.txHash,
+            blockNumber: "N/A (CDP UserOp)",
+            gasUsed: "Sponsored by inkvest"
+          };
+        } else {
+          console.log(`📤 Using regular Fluid withdrawal (no Smart Wallet)`);
+          receipt = await withdrawFromFluid(wallet, "max");
+        }
 
         const successKeyboard = new InlineKeyboard()
           .text("🚀 Earn More", "zap_funds")
@@ -246,7 +265,26 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       );
 
       try {
-        const receipt = await withdrawFromAave(wallet, "max");
+        const userId = ctx.from?.id?.toString();
+        const hasSmartWallet = userId ? hasCoinbaseSmartWallet(userId) : false;
+        
+        let receipt;
+        if (hasSmartWallet) {
+          console.log(`🦑 Using gasless Aave withdrawal for Smart Wallet user`);
+          const result = await gaslessWithdrawFromAave(userId!, "max");
+          if (!result.success) {
+            throw new Error(result.error);
+          }
+          // Simulate receipt format for consistency
+          receipt = {
+            transactionHash: result.txHash,
+            blockNumber: "N/A (CDP UserOp)",
+            gasUsed: "Sponsored by inkvest"
+          };
+        } else {
+          console.log(`📤 Using regular Aave withdrawal (no Smart Wallet)`);
+          receipt = await withdrawFromAave(wallet, "max");
+        }
 
         const successKeyboard = new InlineKeyboard()
           .text("🚀 Earn More", "zap_funds")
@@ -575,9 +613,25 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       const isMaxWithdrawal = amount.toLowerCase() === "max";
       
       // Execute withdrawal based on protocol
+      const hasSmartWallet = hasCoinbaseSmartWallet(userId);
       let receipt: any;
+      
       if (protocol === "fluid") {
-        receipt = await withdrawFromFluid(wallet, amount, claimRewards);
+        if (hasSmartWallet) {
+          console.log(`🦑 Using gasless Fluid withdrawal for Smart Wallet user`);
+          const result = await gaslessWithdrawFromFluid(userId, amount);
+          if (!result.success) {
+            throw new Error(result.error);
+          }
+          receipt = {
+            transactionHash: result.txHash,
+            blockNumber: "N/A (CDP UserOp)",
+            gasUsed: "Sponsored by inkvest"
+          };
+        } else {
+          console.log(`📤 Using regular Fluid withdrawal (no Smart Wallet)`);
+          receipt = await withdrawFromFluid(wallet, amount, claimRewards);
+        }
       } else if (protocol === "compound") {
         // Use CDP gasless withdrawal for Compound V3
         const result = await withdrawFromCompoundV3(userId, amount);
@@ -591,7 +645,21 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
           gasUsed: "Sponsored by inkvest"
         };
       } else {
-        receipt = await withdrawFromAave(wallet, amount, claimRewards);
+        if (hasSmartWallet) {
+          console.log(`🦑 Using gasless Aave withdrawal for Smart Wallet user`);
+          const result = await gaslessWithdrawFromAave(userId, amount);
+          if (!result.success) {
+            throw new Error(result.error);
+          }
+          receipt = {
+            transactionHash: result.txHash,
+            blockNumber: "N/A (CDP UserOp)",
+            gasUsed: "Sponsored by inkvest"
+          };
+        } else {
+          console.log(`📤 Using regular Aave withdrawal (no Smart Wallet)`);
+          receipt = await withdrawFromAave(wallet, amount, claimRewards);
+        }
       }
 
       // Determine reward status based on actual behavior
