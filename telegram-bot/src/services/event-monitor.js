@@ -18,14 +18,81 @@ const BASE_WSS = "wss://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhn
 
 // Store monitored wallet addresses and connection state
 const monitoredWallets = new Set();
+// Store pre-deposit balances to detect first-time vs existing users
+const preDepositBalances = new Map();
 let wsConnection = null;
 let pollInterval = null;
 let connectionCheckInterval = null;
 
 /**
- * Auto-deploy funds and complete onboarding using Coinbase CDP
+ * Check if user has existing funds in their smart wallet
  */
-async function autoDeployFundsAndCompleteOnboarding(userId, firstName, amount, tokenSymbol, txHash) {
+async function checkPreDepositBalance(userId) {
+  try {
+    const { getCoinbaseWalletUSDCBalance } = require("../lib/coinbase-wallet");
+    const { getCoinbaseSmartWallet } = require("../lib/coinbase-wallet");
+    
+    const wallet = await getCoinbaseSmartWallet(userId);
+    if (!wallet || !wallet.smartAccount) {
+      console.log(`⚠️ Could not get smart wallet for balance check: ${userId}`);
+      return 0;
+    }
+    
+    const balance = await getCoinbaseWalletUSDCBalance(wallet.smartAccount.address);
+    const balanceNum = parseFloat(balance) || 0;
+    
+    console.log(`💰 Pre-deposit balance check for user ${userId}: $${balanceNum} USDC`);
+    return balanceNum;
+    
+  } catch (error) {
+    console.error(`Error checking pre-deposit balance for user ${userId}:`, error);
+    return 0;
+  }
+}
+
+/**
+ * Handle new deposit - auto-deploy for first-time users, notify existing users
+ */
+async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) {
+  try {
+    // Get the pre-deposit balance we stored when monitoring started
+    const preDepositBalance = preDepositBalances.get(userId) || 0;
+    const isFirstDeposit = preDepositBalance < 0.01; // Less than 1 cent = new user
+    
+    console.log(`💡 Deposit handling: User ${userId}, pre-deposit: $${preDepositBalance}, first deposit: ${isFirstDeposit}`);
+    
+    if (isFirstDeposit) {
+      // New user - auto-deploy for quick onboarding
+      await handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash);
+    } else {
+      // Existing user - keep funds in wallet and notify
+      await handleExistingUserDeposit(userId, firstName, amount, tokenSymbol, txHash);
+    }
+    
+    // Clean up the stored balance
+    preDepositBalances.delete(userId);
+    
+  } catch (error) {
+    console.error(`Failed to handle deposit for user ${userId}:`, error);
+    
+    // Fallback: send basic notification
+    try {
+      await monitorBot.api.sendMessage(
+        userId,
+        `✨ Deposit confirmed ${firstName}!\n\n` +
+        `${amount} ${tokenSymbol} received but processing failed.\n\n` +
+        `Please use the bot menu to manage your funds.`
+      );
+    } catch (fallbackError) {
+      console.error(`Failed to send fallback notification:`, fallbackError);
+    }
+  }
+}
+
+/**
+ * Handle first-time deposit - auto-deploy for quick onboarding
+ */
+async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
     // Step 1: Send initial notification
     await monitorBot.api.sendMessage(
@@ -92,17 +159,76 @@ async function autoDeployFundsAndCompleteOnboarding(userId, firstName, amount, t
   } catch (error) {
     console.error(`Failed to auto-deploy and complete onboarding for user ${userId}:`, error);
     
-    // Fallback: send basic notification
-    try {
-      await monitorBot.api.sendMessage(
-        userId,
-        `✨ Deposit confirmed ${firstName}!\n\n` +
-        `${amount} ${tokenSymbol} received but auto-deployment failed.\n\n` +
-        `Please use the bot menu to deploy manually.`
-      );
-    } catch (fallbackError) {
-      console.error(`Failed to send fallback notification:`, fallbackError);
+    // Send error message but still complete onboarding
+    await monitorBot.api.sendMessage(
+      userId,
+      `⚠️ *Deposit confirmed but deployment failed*\n\n` +
+      `${amount} ${tokenSymbol} received but couldn't auto-deploy.\n\n` +
+      `Please try manual deployment via the bot menu.`,
+      { parse_mode: "Markdown" }
+    );
+  }
+}
+
+/**
+ * Handle deposit for existing user - keep funds in wallet and present options
+ */
+async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol, txHash) {
+  try {
+    console.log(`💰 Existing user deposit: ${amount} ${tokenSymbol} for user ${userId}`);
+    
+    // Get current total balance after deposit
+    const { getCoinbaseWalletUSDCBalance } = require("../lib/coinbase-wallet");
+    const { getCoinbaseSmartWallet } = require("../lib/coinbase-wallet");
+    
+    const wallet = await getCoinbaseSmartWallet(userId);
+    let totalBalance = amount; // fallback if we can't get current balance
+    
+    if (wallet && wallet.smartAccount) {
+      const currentBalance = await getCoinbaseWalletUSDCBalance(wallet.smartAccount.address);
+      totalBalance = currentBalance;
     }
+    
+    // Import menu utilities
+    const { InlineKeyboard } = require("grammy");
+    const { formatTxLink } = require("../utils/earnings");
+    
+    // Create action keyboard for existing users
+    const keyboard = new InlineKeyboard()
+      .text("🚀 Deploy to Protocols", "zap_auto_deploy")
+      .row()
+      .text("📊 View Portfolio", "view_portfolio")
+      .text("💰 Check Balance", "check_balance")
+      .row()
+      .text("🔄 Main Menu", "main_menu");
+    
+    // Send deposit confirmation with options
+    await monitorBot.api.sendMessage(
+      userId,
+      `💰 *Deposit confirmed ${firstName}!*\n\n` +
+      `+$${amount} ${tokenSymbol} received\n` +
+      `💳 **Total wallet balance: $${totalBalance} USDC**\n\n` +
+      `Your funds are ready! Choose where to deploy them for maximum yield:\n\n` +
+      `Deposit TX: ${formatTxLink(txHash)}`,
+      { 
+        parse_mode: "Markdown",
+        reply_markup: keyboard
+      }
+    );
+    
+    console.log(`✅ Existing user ${firstName} notified of $${amount} deposit - funds kept in wallet`);
+    
+  } catch (error) {
+    console.error(`Failed to handle existing user deposit for user ${userId}:`, error);
+    
+    // Fallback notification
+    await monitorBot.api.sendMessage(
+      userId,
+      `💰 *Deposit confirmed ${firstName}!*\n\n` +
+      `${amount} ${tokenSymbol} received and ready in your wallet.\n\n` +
+      `Use the bot menu to deploy your funds.`,
+      { parse_mode: "Markdown" }
+    );
   }
 }
 
@@ -136,6 +262,10 @@ async function loadWalletAddresses() {
             console.error(`Error getting smart wallet address for user ${user.userId}:`, error);
           }
         }
+        
+        // Store pre-deposit balance for this user
+        const preBalance = await checkPreDepositBalance(user.userId);
+        preDepositBalances.set(user.userId, preBalance);
         
         monitoredWallets.add({
           address: addressToMonitor.toLowerCase(),
@@ -243,8 +373,8 @@ function handleTransferEvent(log) {
       // Stop deposit monitoring for this wallet (deposit received!)
       stopDepositMonitoring(walletInfo.userId);
       
-      // Auto-deploy funds and complete onboarding
-      autoDeployFundsAndCompleteOnboarding(
+      // Handle new deposit (auto-deploy for new users, notify existing users)
+      handleNewDeposit(
         walletInfo.userId,
         walletInfo.firstName,
         amount,
