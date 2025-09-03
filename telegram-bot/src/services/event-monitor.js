@@ -12,8 +12,8 @@ const monitorBot = new Bot(process.env.TELEGRAM_BOT_TOKEN || "");
 // Base USDC token address
 const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 
-// Alchemy WebSocket endpoint
-const ALCHEMY_WSS = "wss://base-mainnet.g.alchemy.com/v2/lk_ng-qu5hCuS7Hw12s5s";
+// DRPC WebSocket endpoint for Base mainnet (no rate limiting)
+const BASE_WSS = "wss://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhnKxixj";
 
 // Store monitored wallet addresses
 const monitoredWallets = new Set();
@@ -195,11 +195,11 @@ function handleTransferEvent(log) {
  * Setup WebSocket connection with event subscriptions
  */
 function setupWebSocketConnection() {
-  const ws = new WebSocket(ALCHEMY_WSS);
+  const ws = new WebSocket(BASE_WSS);
   let pingInterval;
   
   ws.on('open', function() {
-    console.log('🔌 Connected to Alchemy WebSocket');
+    console.log('🔌 Connected to DRPC WebSocket (Base mainnet)');
     
     // Subscribe to USDC Transfer events
     const subscription = {
