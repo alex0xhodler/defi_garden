@@ -472,33 +472,9 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
     if (callbackData === "withdraw_aave_custom") {
       await ctx.answerCallbackQuery();
       
-      // Show reward options for Aave custom withdrawal
-      const rewardKeyboard = new InlineKeyboard()
-        .text("🚪 Exit + Claim Rewards", "withdraw_aave_custom_with_rewards").row()
-        .text("🚪 Exit Only", "withdraw_aave_custom_no_rewards").row()
-        .text("🔙 Back", "withdraw_aave_menu");
-      
-      await ctx.reply(
-        `🏛️ **Aave Custom Exit Options**\n\n` +
-          `**Choose your exit preference:**\n` +
-          `• **With Rewards** - Claim any earned rewards before exit\n` +
-          `• **Without Rewards** - Just exit principal, leave rewards in pool\n\n` +
-          `**Note:** Rewards are automatically claimed for full exits`,
-        {
-          parse_mode: "Markdown",
-          reply_markup: rewardKeyboard,
-        }
-      );
-      return;
-    }
-
-    if (callbackData === "withdraw_aave_custom_with_rewards" || callbackData === "withdraw_aave_custom_no_rewards") {
-      await ctx.answerCallbackQuery();
-      
-      // Store protocol and reward preference, set state for amount input
+      // Store protocol preference and set state for amount input
       ctx.session.tempData = ctx.session.tempData || {};
       ctx.session.tempData.protocol = "aave";
-      ctx.session.tempData.claimRewards = callbackData === "withdraw_aave_custom_with_rewards";
       ctx.session.awaitingWithdrawAmount = true;
       
       await ctx.reply(
@@ -508,15 +484,14 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
           `• \`1\` - Withdraw 1 USDC\n` +
           `• \`50.5\` - Withdraw 50.5 USDC\n` +
           `• \`max\` - Withdraw all available\n\n` +
-          `**Protocol:** Aave V3 (5.2% APY)\n` +
-          `**Rewards:** ${ctx.session.tempData.claimRewards ? "Will be claimed" : "Will be left in pool"}\n\n` +
-          `**Cancel:** Send /cancel`,
+          `**Protocol:** Aave V3 (5.2% APY)`,
         {
           parse_mode: "Markdown"
         }
       );
       return;
     }
+
 
     // Legacy support - redirect old custom to Aave
     if (callbackData === "withdraw_custom") {
