@@ -49,13 +49,13 @@ async function autoDeployFundsAndCompleteOnboarding(userId, firstName, amount, t
       console.log(`✅ Successfully deployed ${amount} ${tokenSymbol} to Compound V3`);
       
       // Step 3: Send success message with main menu
-      const { createMainMenuKeyboard, getMainMenuMessage } = await import("../utils/mainMenu.ts");
-      const { getCompoundV3APY } = await import("../lib/defillama-api.ts");
+      const { createMainMenuKeyboard, getMainMenuMessage } = require("../utils/mainMenu");
+      const { getCompoundV3APY } = require("../lib/defillama-api");
       
       const apy = await getCompoundV3APY();
       
       // Import earnings utilities
-      const { calculateRealTimeEarnings, formatTxLink } = await import("../utils/earnings.ts");
+      const { calculateRealTimeEarnings, formatTxLink } = require("../utils/earnings");
       const earnings = calculateRealTimeEarnings(parseFloat(amount), apy);
       
       await monitorBot.api.sendMessage(
@@ -124,7 +124,7 @@ async function loadWalletAddresses() {
         if (wallet.type === 'coinbase-smart-wallet') {
           try {
             // Import getCoinbaseSmartWallet to get the real address
-            const { getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet.ts");
+            const { getCoinbaseSmartWallet } = require("../lib/coinbase-wallet");
             const smartWallet = await getCoinbaseSmartWallet(user.userId);
             if (smartWallet && smartWallet.smartAccount) {
               addressToMonitor = smartWallet.smartAccount.address;
