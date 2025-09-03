@@ -285,23 +285,31 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
     }
 
     try {
-      // Check ETH balance for gas fees first
-      const ethBalance = await getEthBalance(wallet.address);
-      const ethInEther = formatEther(BigInt(ethBalance));
-      console.log(`ETH balance check: ${ethInEther} ETH`);
+      // Check if user has Smart Wallet for gasless transactions
+      const { hasCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
+      const hasSmartWallet = hasCoinbaseSmartWallet(userId);
 
-      if (parseFloat(ethInEther) < 0.0001) {
-        await ctx.reply(
-          `⛽ **Insufficient ETH for Gas**\n\n` +
-          `**Your ETH balance**: ${parseFloat(ethInEther).toFixed(6)} ETH\n` +
-          `**Required**: At least 0.0001 ETH (~$0.40)\n\n` +
-          `**Solution**: Deposit ETH to your wallet address:\n` +
-          `\`${wallet.address}\`\n\n` +
-          `**Why**: DeFi transactions require ETH to pay gas fees on Base network.\n` +
-          `**Base gas costs**: ~$0.002 per transaction (very cheap!)`,
-          { parse_mode: "Markdown" }
-        );
-        return;
+      // Only check ETH balance if NOT using Smart Wallet (gasless)
+      if (!hasSmartWallet) {
+        const ethBalance = await getEthBalance(wallet.address);
+        const ethInEther = formatEther(BigInt(ethBalance));
+        console.log(`ETH balance check: ${ethInEther} ETH`);
+
+        if (parseFloat(ethInEther) < 0.0001) {
+          await ctx.reply(
+            `⛽ **Insufficient ETH for Gas**\n\n` +
+            `**Your ETH balance**: ${parseFloat(ethInEther).toFixed(6)} ETH\n` +
+            `**Required**: At least 0.0001 ETH (~$0.40)\n\n` +
+            `**Solution**: Deposit ETH to your wallet address:\n` +
+            `\`${wallet.address}\`\n\n` +
+            `**Why**: DeFi transactions require ETH to pay gas fees on Base network.\n` +
+            `**Base gas costs**: ~$0.002 per transaction (very cheap!)`,
+            { parse_mode: "Markdown" }
+          );
+          return;
+        }
+      } else {
+        console.log(`🦑 Skipping ETH check - using gasless Smart Wallet`);
       }
 
       const tokenBalances = await getMultipleTokenBalances(
