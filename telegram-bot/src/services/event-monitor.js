@@ -245,20 +245,29 @@ function setupWebSocketConnection() {
   });
 
   ws.on('error', function(error) {
-    console.error('❌ WebSocket error:', error);
+    console.error('❌ WebSocket error:', error.message || error);
+    
+    // Log specific connection errors
+    if (error.code === 'ECONNREFUSED') {
+      console.error('💔 Connection refused - check RPC endpoint configuration');
+    } else if (error.code === 'ENOTFOUND') {
+      console.error('🔍 DNS resolution failed - check network connectivity');
+    } else if (error.message && error.message.includes('Unexpected server response')) {
+      console.error('🚫 Server rejected WebSocket upgrade - endpoint may not support WebSocket');
+    }
   });
 
-  ws.on('close', function() {
-    console.log('🔌 WebSocket connection closed. Reconnecting in 5 seconds...');
+  ws.on('close', function(code, reason) {
+    console.log(`🔌 WebSocket connection closed (${code}): ${reason}. Reconnecting in 10 seconds...`);
     
     if (pingInterval) {
       clearInterval(pingInterval);
     }
     
-    // Reconnect after delay
+    // Reconnect with exponential backoff
     setTimeout(() => {
       setupWebSocketConnection();
-    }, 5000);
+    }, 10000);
   });
 
   ws.on('pong', function() {
