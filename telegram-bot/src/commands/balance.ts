@@ -1,5 +1,6 @@
 import { BotContext } from "../context";
-import { getWallet, getEthBalance, getMultipleTokenBalances, withdrawEth, executeContractMethod, formatTokenAmount, transferUsdc } from "../lib/token-wallet";
+import { getWallet, getEthBalance, getMultipleTokenBalances, getTokenBalance, withdrawEth, executeContractMethod, formatTokenAmount, transferUsdc } from "../lib/token-wallet";
+import { getCoinbaseSmartWallet, transferUsdcGasless, getCoinbaseWalletUSDCBalance } from "../lib/coinbase-wallet";
 import { formatBalanceMessage } from "../utils/formatters";
 import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
@@ -176,34 +177,80 @@ export async function handleWithdrawUsdc(ctx: BotContext): Promise<void> {
       return;
     }
 
-    // Get current USDC balance
+    // Get current USDC balance from regular wallet
     const tokenBalances = await getMultipleTokenBalances(
       [BASE_TOKENS.USDC],
       wallet.address as Address
     );
     
-    const usdcBalance = tokenBalances[0];
-    if (!usdcBalance || parseFloat(usdcBalance.balance) === 0) {
+    let usdcBalance = tokenBalances[0];
+    let usdcBalanceFormatted = "0.00";
+    let regularWalletBalance = "0.00";
+    
+    if (usdcBalance && parseFloat(usdcBalance.balance) > 0) {
+      regularWalletBalance = formatTokenAmount(usdcBalance.balance, 6, 2);
+      usdcBalanceFormatted = regularWalletBalance;
+    }
+
+    // Also check Smart Wallet balance if user has one
+    let smartWalletBalance = "0.00";
+    const coinbaseWallet = await getCoinbaseSmartWallet(userId);
+    if (coinbaseWallet) {
+      smartWalletBalance = await getCoinbaseWalletUSDCBalance(coinbaseWallet.smartAccount.address);
+      
+      // If regular wallet has no balance, use Smart Wallet balance for display
+      if (parseFloat(regularWalletBalance) === 0 && parseFloat(smartWalletBalance) > 0) {
+        usdcBalanceFormatted = smartWalletBalance;
+        // Create a mock balance object for Smart Wallet
+        usdcBalance = {
+          address: BASE_TOKENS.USDC,
+          symbol: "USDC",
+          decimals: 6,
+          balance: (parseFloat(smartWalletBalance) * 1000000).toString() // Convert back to raw units
+        };
+      }
+    }
+    
+    // Check if user has any USDC in either wallet
+    if (parseFloat(usdcBalanceFormatted) === 0) {
       await ctx.reply(
         `⚠️ **No USDC Balance**\n\n` +
-        `You don't have any USDC in your wallet to withdraw.\n\n` +
+        `You don't have any USDC in your wallets to withdraw.\n\n` +
+        `Regular Wallet: ${regularWalletBalance} USDC\n` +
+        `Smart Wallet: ${smartWalletBalance} USDC\n\n` +
         `Use 📥 Deposit to add USDC to your wallet first.`,
         { parse_mode: "Markdown" }
       );
       return;
     }
-
-    const usdcBalanceFormatted = formatTokenAmount(usdcBalance.balance, 6, 2);
+    
+    // Determine gasless availability
+    let gaslessAvailable = coinbaseWallet && parseFloat(smartWalletBalance) > 0.05; // Need at least $0.05 for gas
     
     ctx.session.currentAction = "withdraw_usdc_address";
     ctx.session.tempData = {
       usdcBalance: usdcBalance.balance,
-      usdcBalanceFormatted
+      usdcBalanceFormatted,
+      hasSmartWallet: !!coinbaseWallet,
+      smartWalletBalance,
+      regularWalletBalance,
+      // Track which wallet has the balance for withdrawal
+      usingSmartWallet: parseFloat(regularWalletBalance) === 0 && parseFloat(smartWalletBalance) > 0
     };
+    
+    let balanceInfo = `\n**Wallet Balances:**\n`;
+    balanceInfo += `• Regular Wallet: ${regularWalletBalance} USDC\n`;
+    balanceInfo += `• Smart Wallet: ${smartWalletBalance} USDC\n`;
+    
+    const gaslessInfo = gaslessAvailable 
+      ? `\n🦑 **Gasless Withdrawal Available!**\nYou can withdraw with USDC gas payment (no ETH needed)\n` 
+      : coinbaseWallet 
+        ? `\n⚠️ **Low Smart Wallet Balance**\nNeed at least $0.05 USDC in Smart Wallet for gasless withdrawal\n`
+        : `\n⛽ **Gas Fee**: Will be paid with ETH from your wallet\n`;
     
     await ctx.reply(
       `📤 **Withdraw USDC**\n\n` +
-      `Current Balance: ${usdcBalanceFormatted} USDC\n\n` +
+      `Total Available: ${usdcBalanceFormatted} USDC${balanceInfo}${gaslessInfo}\n` +
       `Please enter the destination address where you want to send your USDC:\n\n` +
       `**Note**: Make sure the address is correct. USDC transactions cannot be reversed!`,
       { parse_mode: "Markdown" }
@@ -485,29 +532,166 @@ async function handleWithdrawUsdcAmountInput(ctx: BotContext, amount: string): P
     );
     
     try {
-      // For max withdrawal, use raw balance to avoid rounding issues
-      // For custom amount, use the specified amount
-      let transferAmountString: string;
+      // Check if user has Coinbase Smart Wallet for gasless withdrawal
+      const coinbaseWallet = await getCoinbaseSmartWallet(userId);
+      const { usingSmartWallet } = ctx.session.tempData!;
+      let receipt;
+      let isGasless = false;
       
-      if (useExactBalance) {
-        // Use raw balance directly (already in 6 decimals)
-        transferAmountString = formatTokenAmount(usdcBalance.balance, 6, 6);
-      } else {
-        transferAmountString = withdrawAmount.toString();
+      // If balance is only in Smart Wallet, force Smart Wallet usage
+      if (usingSmartWallet && !coinbaseWallet) {
+        await ctx.reply(
+          `❌ **Smart Wallet Required**\n\n` +
+          `Your USDC balance is in your Smart Wallet, but Smart Wallet is not available.\n\n` +
+          `Please contact support.`,
+          { parse_mode: "Markdown" }
+        );
+        return;
       }
       
-      // Execute the actual USDC transfer using new function
-      const receipt = await transferUsdc(
-        wallet,
-        destinationAddress as Address,
-        transferAmountString
-      );
+      // Check actual balances in real-time before withdrawal
+      let regularWalletUsdcBalance = "0";
+      let smartWalletUsdcBalance = "0";
+      
+      // Get real-time balance from regular wallet
+      try {
+        const regularBalance = await getTokenBalance(BASE_TOKENS.USDC, wallet.address as Address);
+        regularWalletUsdcBalance = formatTokenAmount(regularBalance, 6, 2);
+        console.log(`💰 Regular wallet ${wallet.address}: ${regularWalletUsdcBalance} USDC`);
+      } catch (error) {
+        console.error("Error checking regular wallet balance:", error);
+      }
+      
+      // Get real-time balance from Smart Wallet if available
+      if (coinbaseWallet) {
+        try {
+          smartWalletUsdcBalance = await getCoinbaseWalletUSDCBalance(coinbaseWallet.smartAccount.address);
+          console.log(`💰 Smart wallet ${coinbaseWallet.smartAccount.address}: ${smartWalletUsdcBalance} USDC`);
+        } catch (error) {
+          console.error("Error checking Smart wallet balance:", error);
+        }
+      }
+      
+      const regularHasBalance = parseFloat(regularWalletUsdcBalance) >= withdrawAmount;
+      const smartHasBalance = parseFloat(smartWalletUsdcBalance) >= withdrawAmount;
+      
+      console.log(`🔍 Withdrawal decision: Need ${withdrawAmount} USDC`);
+      console.log(`  - Regular wallet has sufficient: ${regularHasBalance}`);
+      console.log(`  - Smart wallet has sufficient: ${smartHasBalance}`);
+      
+      if (!regularHasBalance && !smartHasBalance) {
+        await ctx.reply(
+          `❌ **Insufficient Balance**\n\n` +
+          `Need: ${withdrawAmount.toFixed(2)} USDC\n` +
+          `Regular Wallet: ${regularWalletUsdcBalance} USDC\n` +
+          `Smart Wallet: ${smartWalletUsdcBalance} USDC\n\n` +
+          `None of your wallets have sufficient balance.`,
+          { parse_mode: "Markdown" }
+        );
+        return;
+      }
+      
+      // Prioritize Smart Wallet if it has sufficient balance
+      if (smartHasBalance && coinbaseWallet) {
+        console.log(`🦑 Using Smart Wallet for gasless withdrawal`);
+        
+        let transferAmountString = withdrawAmount.toFixed(6);
+        let actualWithdrawAmount = withdrawAmount;
+        
+        if (useExactBalance) {
+          // For max withdrawal, account for gas reserve in Smart Wallet
+          const gasReserve = 0.05; // Reserve 0.05 USDC for gas (matches coinbase-wallet.ts)
+          const availableForWithdrawal = parseFloat(smartWalletUsdcBalance) - gasReserve;
+          
+          if (availableForWithdrawal > 0) {
+            actualWithdrawAmount = availableForWithdrawal;
+            transferAmountString = actualWithdrawAmount.toFixed(6);
+            console.log(`💡 Smart max withdrawal: ${smartWalletUsdcBalance} USDC - ${gasReserve} gas reserve = ${actualWithdrawAmount.toFixed(6)} USDC`);
+          } else {
+            await ctx.reply(
+              `❌ **Insufficient Balance for Max Withdrawal**\n\n` +
+              `Smart Wallet: ${smartWalletUsdcBalance} USDC\n` +
+              `Gas Reserve: ${gasReserve.toFixed(2)} USDC\n` +
+              `Available: ${availableForWithdrawal.toFixed(2)} USDC\n\n` +
+              `Not enough USDC after gas reserve.`,
+              { parse_mode: "Markdown" }
+            );
+            return;
+          }
+        }
+        
+        const gaslessResult = await transferUsdcGasless(
+          userId,
+          destinationAddress as Address,
+          transferAmountString
+        );
+        
+        if (gaslessResult.success) {
+          receipt = { transactionHash: gaslessResult.txHash };
+          isGasless = true;
+          console.log(`✅ Gasless withdrawal successful: ${gaslessResult.txHash}`);
+        } else {
+          console.log(`⚠️ Gasless withdrawal failed: ${gaslessResult.error}`);
+          
+          // Only fall back to regular if regular wallet has balance
+          if (regularHasBalance) {
+            console.log(`🔄 Falling back to regular wallet withdrawal`);
+            let fallbackAmountString = withdrawAmount.toFixed(6);
+            if (useExactBalance) {
+              const regularBalance = await getTokenBalance(BASE_TOKENS.USDC, wallet.address as Address);
+              fallbackAmountString = formatTokenAmount(regularBalance, 6, 6);
+            }
+            
+            receipt = await transferUsdc(
+              wallet,
+              destinationAddress as Address,
+              fallbackAmountString
+            );
+          } else {
+            await ctx.reply(
+              `❌ **Withdrawal Failed**\n\n` +
+              `Gasless withdrawal failed and regular wallet has insufficient balance.\n\n` +
+              `Error: ${gaslessResult.error}`,
+              { parse_mode: "Markdown" }
+            );
+            return;
+          }
+        }
+      } else if (regularHasBalance) {
+        console.log(`💳 Using regular wallet for withdrawal`);
+        
+        let transferAmountString = withdrawAmount.toFixed(6);
+        if (useExactBalance) {
+          const regularBalance = await getTokenBalance(BASE_TOKENS.USDC, wallet.address as Address);
+          transferAmountString = formatTokenAmount(regularBalance, 6, 6);
+        }
+        
+        receipt = await transferUsdc(
+          wallet,
+          destinationAddress as Address,
+          transferAmountString
+        );
+      } else {
+        await ctx.reply(
+          `❌ **No Suitable Wallet**\n\n` +
+          `Cannot withdraw ${withdrawAmount.toFixed(2)} USDC:\n` +
+          `• Regular Wallet: ${regularWalletUsdcBalance} USDC\n` +
+          `• Smart Wallet: ${smartWalletUsdcBalance || "Not available"} USDC`,
+          { parse_mode: "Markdown" }
+        );
+        return;
+      }
+      
+      // Success message with gas payment info
+      const gasFeeInfo = isGasless 
+        ? "\n**Gas Fee**: Paid with USDC 💰 (gasless!)" 
+        : "\n**Gas Fee**: Paid with ETH ⛽";
       
       await ctx.reply(
         `✅ **USDC Withdrawal Successful!**\n\n` +
         `Amount: ${withdrawAmount.toFixed(2)} USDC\n` +
         `Destination: \`${destinationAddress}\`\n` +
-        `Transaction: \`${receipt.transactionHash}\`\n\n` +
+        `Transaction: \`${receipt.transactionHash}\`${gasFeeInfo}\n\n` +
         `Your USDC has been sent successfully! 🎉`,
         { 
           parse_mode: "Markdown",

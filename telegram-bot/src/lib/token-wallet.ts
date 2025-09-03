@@ -655,7 +655,21 @@ export async function transferUsdc(
   amount: string
 ): Promise<TransactionReceipt> {
   try {
+    console.log(`🔍 USDC Transfer: ${amount} USDC from ${walletData.address} to ${toAddress}`);
+    
+    // CRITICAL: Check actual on-chain balance before attempting transfer
+    const actualBalance = await getTokenBalance(BASE_TOKENS.USDC, walletData.address as Address);
+    const actualBalanceFormatted = formatTokenAmount(actualBalance, 6, 2);
+    
+    console.log(`💰 Actual USDC balance in ${walletData.address}: ${actualBalanceFormatted} USDC (${actualBalance} raw)`);
+    
     const usdcAmount = parseUnits(amount, 6); // USDC has 6 decimals
+    console.log(`🔄 Attempting to transfer: ${amount} USDC = ${usdcAmount.toString()} raw units`);
+    
+    // Verify we have sufficient balance
+    if (BigInt(actualBalance) < usdcAmount) {
+      throw new Error(`Insufficient USDC balance in wallet ${walletData.address}. Need: ${amount} USDC, Have: ${actualBalanceFormatted} USDC`);
+    }
     
     // Use the existing executeContractMethod to transfer USDC
     const receipt = await executeContractMethod({

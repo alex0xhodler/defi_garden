@@ -1,4 +1,4 @@
-import { createPublicClient, http, Address } from 'viem';
+import { createPublicClient, http, Address, parseUnits } from 'viem';
 import { toCoinbaseSmartAccount, createPaymasterClient } from 'viem/account-abstraction';
 import { base } from 'viem/chains';
 import { privateKeyToAccount, generatePrivateKey } from 'viem/accounts';
@@ -244,6 +244,161 @@ export async function checkAllUSDCBalances(userId: string): Promise<{
   } catch (error) {
     console.error('Error checking all USDC balances:', error);
     return null;
+  }
+}
+
+/**
+ * Transfer USDC gaslessly using CDP paymaster (gas paid with USDC)
+ */
+export async function transferUsdcGasless(
+  userId: string,
+  toAddress: Address,
+  usdcAmount: string
+): Promise<{ success: boolean; txHash?: string; error?: string }> {
+  try {
+    console.log(`💸 Gasless USDC transfer: ${usdcAmount} USDC to ${toAddress} for user ${userId}`);
+
+    // Get user's Coinbase Smart Wallet
+    const wallet = await getCoinbaseSmartWallet(userId);
+    if (!wallet) {
+      throw new Error('No Coinbase Smart Wallet found for user');
+    }
+
+    const { smartAccount } = wallet;
+
+    // Convert USDC amount to proper units (6 decimals)
+    const amountWei = parseUnits(usdcAmount, 6);
+
+    // Check current USDC balance
+    const currentBalance = await getCoinbaseWalletUSDCBalance(smartAccount.address);
+    const currentBalanceWei = parseUnits(currentBalance, 6);
+    
+    // Reserve small amount for gas (Base gas is ~1¢)
+    const gasReserveWei = parseUnits('0.05', 6); // $0.05 USDC reserve for gas
+    
+    // Check if sufficient balance including gas
+    if (currentBalanceWei <= gasReserveWei) {
+      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.05 USDC for gas`);
+    }
+    
+    const maxTransferableWei = currentBalanceWei - gasReserveWei;
+    
+    if (amountWei > maxTransferableWei) {
+      throw new Error(`Insufficient USDC balance. Requested: ${usdcAmount} USDC, Available: ${(Number(maxTransferableWei) / Math.pow(10, 6)).toFixed(2)} USDC (after gas reserve)`);
+    }
+
+    // Create bundler client with CDP paymaster for USDC gas payments
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+
+    console.log(`🚀 Preparing gasless USDC transfer with USDC gas payment...`);
+    
+    const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913" as Address;
+
+    // ERC-20 ABI for transfer
+    const ERC20_ABI = [
+      {
+        constant: false,
+        inputs: [
+          { name: '_to', type: 'address' },
+          { name: '_value', type: 'uint256' }
+        ],
+        name: 'transfer',
+        outputs: [{ name: '', type: 'bool' }],
+        payable: false,
+        stateMutability: 'nonpayable',
+        type: 'function'
+      }
+    ] as const;
+
+    // Build calls array - just transfer USDC
+    const calls = [
+      {
+        abi: ERC20_ABI,
+        functionName: 'transfer',
+        to: BASE_USDC_ADDRESS,
+        args: [toAddress, amountWei],
+      }
+    ];
+
+    console.log(`📡 Sending UserOperation with USDC gas payment...`);
+
+    // Configure gas estimation (pad for safety)
+    smartAccount.userOperation = {
+      estimateGas: async (userOperation: any) => {
+        const estimate = await bundlerClient.estimateUserOperationGas(userOperation);
+        // Increase gas limits for safety
+        estimate.preVerificationGas = estimate.preVerificationGas * 2n;
+        estimate.callGasLimit = estimate.callGasLimit * 120n / 100n; // +20%
+        return estimate;
+      },
+    };
+
+    // Send UserOperation with USDC gas payment via CDP paymaster
+    const userOpHash = await bundlerClient.sendUserOperation({
+      account: smartAccount,
+      calls,
+      paymaster: cdpPaymasterClient,
+      paymasterContext: {
+        erc20: BASE_USDC_ADDRESS // Tell paymaster to use USDC for gas payment
+      }
+    });
+
+    console.log(`⏳ Waiting for gasless transfer confirmation: ${userOpHash}`);
+
+    // Wait for transaction receipt
+    const receipt = await bundlerClient.waitForUserOperationReceipt({
+      hash: userOpHash,
+    });
+
+    console.log(`✅ Gasless transfer confirmed! Hash: ${receipt.receipt.transactionHash}`);
+
+    return {
+      success: true,
+      txHash: receipt.receipt.transactionHash
+    };
+
+  } catch (error: any) {
+    console.error('Error in gasless USDC transfer:', error);
+    
+    // Check if it's a paymaster rejection
+    if (error.code === -32002) {
+      if (error.message?.includes('max address transaction sponsorship count reached')) {
+        console.error('Paymaster sponsorship limit reached:', error.details);
+        return {
+          success: false,
+          error: `Coinbase paymaster limit reached. Will use regular withdrawal instead.`
+        };
+      } else if (error.data?.acceptedTokens) {
+        console.error('Paymaster rejection during transfer:', error.data);
+        return {
+          success: false,
+          error: `Gas payment failed. Please ensure you have sufficient USDC for gas fees.`
+        };
+      }
+    }
+    
+    // Check for balance-related errors
+    if (error.message?.includes('Insufficient') || error.message?.includes('transfer amount exceeds balance')) {
+      return {
+        success: false,
+        error: error.message
+      };
+    }
+    
+    // Log full error details for debugging
+    console.error('Full gasless transfer error details:', {
+      message: error.message,
+      cause: error.cause?.message,
+      details: error.details,
+      code: error.code,
+      data: error.data,
+      stack: error.stack?.split('\n').slice(0, 5)
+    });
+    
+    return {
+      success: false,
+      error: error.message || error.details || 'Unknown gasless transfer error occurred'
+    };
   }
 }
 
