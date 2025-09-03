@@ -41,6 +41,8 @@ const settingsHandler: CommandHandler = {
         .text("💱 Slippage", "settings_slippage") 
         .text("🔄 Auto-Compound", "settings_autoCompound")
         .row()
+        .text("🔑 Export Private Key", "settings_export_key")
+        .row()
         .text("🔄 Reset to Defaults", "settings_reset")
         .text("✅ Done", "settings_back");
 

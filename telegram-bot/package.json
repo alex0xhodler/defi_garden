@@ -8,7 +8,13 @@
     "start": "ts-node index.ts",
     "build": "tsc"
   },
-  "keywords": ["defi", "telegram", "bot", "yield", "farming"],
+  "keywords": [
+    "defi",
+    "telegram",
+    "bot",
+    "yield",
+    "farming"
+  ],
   "author": "inkvest",
   "license": "MIT",
   "dependencies": {
@@ -17,7 +23,8 @@
     "crypto-js": "^4.2.0",
     "dotenv": "^16.5.0",
     "grammy": "^1.36.0",
-    "viem": "^2.27.0"
+    "viem": "^2.37.1",
+    "ws": "^8.18.3"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",

@@ -82,7 +82,7 @@ async function checkSingleUserBalance(user: any): Promise<void> {
     // Get current balances
     const usdcBalance = await getTokenBalance(
       walletAddress,
-      COMMON_TOKENS.USDC.address
+      COMMON_TOKENS.USDC
     );
 
     const currentBalances = {

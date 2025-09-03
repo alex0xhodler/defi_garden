@@ -15,6 +15,7 @@ type UserRow = {
   createdAt: number;
   onboardingCompleted: number | null;
   lastBalanceCheck: number | null;
+  expectingDepositUntil: number | null;
   notificationSettings: string | null;
 };
 
@@ -79,6 +80,7 @@ export function initDatabase(): void {
       createdAt INTEGER NOT NULL,
       onboardingCompleted INTEGER,
       lastBalanceCheck INTEGER,
+      expectingDepositUntil INTEGER,
       notificationSettings TEXT
     );
     
@@ -186,14 +188,39 @@ export function updateUserBalanceCheckTime(userId: string): void {
   stmt.run(Date.now(), userId);
 }
 
-export function getUsersForBalanceMonitoring(): UserRow[] {
+export function setExpectingDepositUntil(userId: string, untilTimestamp: number | null): void {
   const stmt = db.prepare(`
-    SELECT * FROM ${DB_TABLES.USERS} 
-    WHERE onboardingCompleted IS NULL 
-    AND lastBalanceCheck IS NOT NULL
+    UPDATE ${DB_TABLES.USERS} 
+    SET expectingDepositUntil = ?
+    WHERE userId = ?
   `);
 
-  return stmt.all() as UserRow[];
+  stmt.run(untilTimestamp, userId);
+}
+
+export function startDepositMonitoring(userId: string, durationMinutes: number = 5): void {
+  const untilTimestamp = Date.now() + (durationMinutes * 60 * 1000);
+  setExpectingDepositUntil(userId, untilTimestamp);
+}
+
+export function stopDepositMonitoring(userId: string): void {
+  setExpectingDepositUntil(userId, null);
+}
+
+export function getUsersForBalanceMonitoring(): UserRow[] {
+  const currentTime = Date.now();
+  const stmt = db.prepare(`
+    SELECT * FROM ${DB_TABLES.USERS} 
+    WHERE (
+      -- New users waiting for first deposit
+      (onboardingCompleted IS NULL AND lastBalanceCheck IS NOT NULL)
+      OR 
+      -- Users actively expecting deposit (within time window)
+      (expectingDepositUntil IS NOT NULL AND expectingDepositUntil > ?)
+    )
+  `);
+
+  return stmt.all(currentTime) as UserRow[];
 }
 
 // Wallet operations

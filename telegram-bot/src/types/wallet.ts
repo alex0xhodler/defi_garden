@@ -3,7 +3,7 @@ import { Address } from "viem";
 export interface WalletData {
   address: Address;
   encryptedPrivateKey: string;
-  type: "imported" | "generated";
+  type: "imported" | "generated" | "coinbase-smart-wallet";
   createdAt: number;
   autoCreated?: boolean;
 }

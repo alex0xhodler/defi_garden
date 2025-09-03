@@ -1,4 +1,5 @@
 import { InlineKeyboard } from "grammy";
+import { Address } from "viem";
 import { BotContext } from "../context";
 import {
   createUser,
@@ -6,8 +7,9 @@ import {
   getUserSettings,
   saveUserSettings,
   updateUserBalanceCheckTime,
+  startDepositMonitoring,
 } from "../lib/database";
-import { generateWallet } from "../lib/token-wallet";
+import { generateCoinbaseSmartWallet, getCoinbaseSmartWallet, hasCoinbaseSmartWallet } from "../lib/coinbase-wallet";
 import { CommandHandler } from "../types/commands";
 import { DEFAULT_SETTINGS } from "../utils/constants";
 
@@ -52,36 +54,44 @@ export const startHandler: CommandHandler = {
           minApy: DEFAULT_SETTINGS.MIN_APY,
         });
 
-        // Auto-create wallet (now includes autoCreated flag)
-        const wallet = await generateWallet(userId);
+        // Auto-create Coinbase Smart Wallet
+        const wallet = await generateCoinbaseSmartWallet(userId);
         
         // Set wallet in session
         ctx.session.walletAddress = wallet.address;
 
-        // Start balance monitoring
+        // Start balance monitoring (legacy system for onboarding)
         updateUserBalanceCheckTime(userId);
+        
+        // Start 5-minute deposit monitoring window
+        startDepositMonitoring(userId, 5);
+        
+        // Force refresh event monitor to immediately watch this new wallet
+        try {
+          const eventMonitor = require("../services/event-monitor.js");
+          await eventMonitor.forceRefreshWallets();
+          console.log(`🔄 Started 5-minute deposit monitoring for new user ${userId}`);
+        } catch (error) {
+          console.error("Could not force refresh wallets:", error);
+        }
+        
+        // Get current APY
+        const { getCompoundV3APY } = await import("../lib/defillama-api");
+        const apy = await getCompoundV3APY();
 
-        // Create compelling keyboard with export emphasis
+        // Check for deposit button - monitoring starts automatically
         const keyboard = new InlineKeyboard()
-          .text("🔑 Export Private Key Now", "export_key")
-          .row()
-          .text("💰 Check Balance", "check_balance")
-          .text("🚀 Start Earning", "zap_auto_deploy")
-          .row()
-          .text("📋 How it Works", "help");
+          .text("🔍 Check for Deposit", "manual_balance_check");
 
         await ctx.reply(
-          `✨ *You're all set to earn 7% APY on USDC!*\n\n` +
-          `Your deposit address:\n` +
+          `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
+          `💰 *Your inkvest address:*\n` +
           `\`${wallet.address}\`\n\n` +
-          `✅ No impermanent loss risk\n` +
-          `✅ Only audited protocols ($10M+ TVL)\n` +
-          `✅ AI-managed yield optimization\n` +
-          `✅ Auto-compounding rewards\n\n` +
-          `⚠️ *Save your private key (one-time setup):*\n\n` +
-          `Ready to start earning? Send USDC to your address above.\n` +
-          `*Network:* Base (ultra-low fees ~$0.01)\n\n` +
-          `I'll notify you when funds arrive and start earning automatically!`,
+          `Send USDC on Base ↑ to start earning.\n\n` +
+          `✅ Gasless transactions (we sponsor gas)\n` +
+          `✅ Auto-deployed to highest yields\n` +
+          `✅ Withdraw anytime, zero lock-ups\n\n` +
+          `I'll auto-deploy as soon as funds arrive! 🚀`,
           {
             parse_mode: "Markdown",
             reply_markup: keyboard,
@@ -89,9 +99,13 @@ export const startHandler: CommandHandler = {
         );
 
       } else {
-        // Existing user - check if they have wallet
-        const { getWallet } = await import("../lib/token-wallet");
-        const wallet = await getWallet(userId);
+        // Existing user - check if they have Coinbase Smart Wallet
+        const wallet = await (async () => {
+          if (hasCoinbaseSmartWallet(userId)) {
+            return await getCoinbaseSmartWallet(userId);
+          }
+          return null;
+        })();
         
         // Get user settings
         const settings = getUserSettings(userId);
@@ -100,57 +114,119 @@ export const startHandler: CommandHandler = {
         }
 
         if (!wallet) {
-          // User exists but no wallet - auto-create like new users
-          await ctx.reply(`👋 Welcome back ${firstName}!\n\nSetting up your inkvest account... 🦑`);
+          // User exists but no wallet - auto-create Coinbase Smart Wallet
+          await ctx.reply(`👋 Welcome back ${firstName}!\n\nSetting up your inkvest Smart Wallet... 🦑`);
 
-          // Auto-create wallet (now includes autoCreated flag)
-          const newWallet = await generateWallet(userId);
+          // Auto-create Coinbase Smart Wallet
+          const newWallet = await generateCoinbaseSmartWallet(userId);
           
           // Set wallet in session
           ctx.session.walletAddress = newWallet.address;
 
           // Start balance monitoring
           updateUserBalanceCheckTime(userId);
+          
+          // Force refresh event monitor to immediately watch this new wallet
+          try {
+            const eventMonitor = require("../services/event-monitor.js");
+            await eventMonitor.forceRefreshWallets();
+          } catch (error) {
+            console.error("Could not force refresh wallets:", error);
+          }
+          
+          // Get current APY
+          const { getCompoundV3APY } = await import("../lib/defillama-api");
+          const apy = await getCompoundV3APY();
 
-          // Create compelling keyboard with export emphasis
+          // Check for deposit button - monitoring starts automatically
           const keyboard = new InlineKeyboard()
-            .text("🔑 Export Private Key Now", "export_key")
-            .row()
-            .text("💰 Check Balance", "check_balance")
-            .text("🚀 Start Earning", "zap_auto_deploy")
-            .row()
-            .text("📋 How it Works", "help");
+            .text("🔍 Check for Deposit", "manual_balance_check");
 
           await ctx.reply(
-            `✨ *You're all set to earn 7% APY on USDC!*\n\n` +
-            `Your deposit address:\n` +
+            `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
+            `💰 *Your inkvest address:*\n` +
             `\`${newWallet.address}\`\n\n` +
-            `✅ No impermanent loss risk\n` +
-            `✅ Only audited protocols ($10M+ TVL)\n` +
-            `✅ AI-managed yield optimization\n` +
-            `✅ Auto-compounding rewards\n\n` +
-            `⚠️ *Save your private key (one-time setup):*\n\n` +
-            `Ready to start earning? Send USDC to your address above.\n` +
-            `*Network:* Base (ultra-low fees ~$0.01)\n\n` +
-            `I'll notify you when funds arrive and start earning automatically!`,
+            `Send USDC on Base ↑ to start earning.\n\n` +
+            `✅ Gasless transactions (we sponsor gas)\n` +
+            `✅ Auto-deployed to highest yields\n` +
+            `✅ Withdraw anytime, zero lock-ups\n\n` +
+            `I'll auto-deploy as soon as funds arrive! 🚀`,
             {
               parse_mode: "Markdown",
               reply_markup: keyboard,
             }
           );
         } else {
-          // Full returning user experience  
+          // Existing user with wallet - check if they have any funds
           ctx.session.walletAddress = wallet.address;
           
-          const { createMainMenuKeyboard, getMainMenuMessage } = await import("../utils/mainMenu");
+          // Check both wallet USDC balance and DeFi positions
+          const { getCoinbaseWalletUSDCBalance } = await import("../lib/coinbase-wallet");
+          const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import("../lib/token-wallet");
+          
+          try {
+            const [walletUsdc, aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
+              getCoinbaseWalletUSDCBalance(wallet.address as Address),
+              getAaveBalance(wallet.address as Address),
+              getFluidBalance(wallet.address as Address),
+              getCompoundBalance(wallet.address as Address)
+            ]);
 
-          await ctx.reply(
-            getMainMenuMessage(firstName, wallet.address),
-            {
-              parse_mode: "Markdown", 
-              reply_markup: createMainMenuKeyboard(),
+            const walletUsdcNum = parseFloat(walletUsdc);
+            const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
+            const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
+            const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
+            
+            const totalFunds = walletUsdcNum + aaveBalanceNum + fluidBalanceNum + compoundBalanceNum;
+            
+            console.log(`🔍 User ${firstName} funds check: Wallet: $${walletUsdcNum}, Aave: $${aaveBalanceNum}, Fluid: $${fluidBalanceNum}, Compound: $${compoundBalanceNum}, Total: $${totalFunds}`);
+            
+            if (totalFunds > 0.01) {
+              // User has funds - show full main menu
+              const { createMainMenuKeyboard, getMainMenuMessage } = await import("../utils/mainMenu");
+
+              await ctx.reply(
+                await getMainMenuMessage(firstName, wallet.address, userId),
+                {
+                  parse_mode: "Markdown", 
+                  reply_markup: createMainMenuKeyboard(),
+                }
+              );
+            } else {
+              // User has no funds - show deposit screen
+              const keyboard = new InlineKeyboard()
+                .text("🔍 Check for Deposit", "manual_balance_check");
+
+              await ctx.reply(
+                `👋 *Welcome back ${firstName}!*\n\n` +
+                `💰 *Your inkvest address:*\n` +
+                `\`${wallet.address}\`\n\n` +
+                `Send USDC on Base ↑ to start earning.\n\n` +
+                `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
+                {
+                  parse_mode: "Markdown",
+                  reply_markup: keyboard,
+                }
+              );
             }
-          );
+          } catch (error) {
+            console.error("Error checking user funds for", firstName, ":", error);
+            // Fallback to basic deposit screen
+            const keyboard = new InlineKeyboard()
+              .text("🔍 Check for Deposit", "manual_balance_check");
+
+            await ctx.reply(
+              `👋 *Welcome back ${firstName}!*\n\n` +
+              `💰 *Your inkvest address:*\n` +
+              `\`${wallet.address}\`\n\n` +
+              `Send USDC on Base ↑ to start earning.\n\n` +
+              `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
+              {
+                parse_mode: "Markdown",
+                reply_markup: keyboard,
+              }
+            );
+          }
         }
       }
     } catch (error) {
@@ -167,6 +243,10 @@ export const helpHandler: CommandHandler = {
   handler: async (ctx: BotContext) => {
     try {
       const firstName = ctx.from?.first_name || "there";
+      
+      // Get highest APY for marketing message
+      const { getHighestAPY } = await import("../lib/defillama-api");
+      const highestAPY = await getHighestAPY();
 
       const keyboard = new InlineKeyboard()
         .text("💰 Start Earning", "deposit")
@@ -179,7 +259,7 @@ export const helpHandler: CommandHandler = {
         `🦑 *How inkvest Works*\n\n` +
           `Hi ${firstName}! I'm your personal yield farming assistant.\n\n` +
           `🤖 *What I Do*\n` +
-          `• Find the best DeFi yields (~7% APY)\n` +
+          `• Find the best DeFi yields (~${highestAPY}% APY)\n` +
           `• Auto-deploy your funds safely\n` +
           `• Monitor and compound earnings\n\n` +
           `🛡️ *Safety First*\n` +

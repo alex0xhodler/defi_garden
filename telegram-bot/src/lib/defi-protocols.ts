@@ -2,6 +2,15 @@ import { Address, parseUnits, formatEther } from "viem";
 import { WalletData, TransactionReceipt } from "../types/wallet";
 import { executeContractMethod, getTokenAllowance, getEthBalance } from "./token-wallet";
 import { BASE_TOKENS, MAX_UINT256 } from "../utils/constants";
+import { hasCoinbaseSmartWallet } from "./coinbase-wallet";
+import { 
+  gaslessDeployToAave, 
+  gaslessWithdrawFromAave,
+  gaslessDeployToFluid,
+  gaslessWithdrawFromFluid,
+  autoDeployToCompoundV3,
+  withdrawFromCompoundV3
+} from "../services/coinbase-defi";
 
 // Aave V3 Pool contract address on Base
 const AAVE_V3_POOL = "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5" as Address;
@@ -524,20 +533,57 @@ export async function executeWithdraw(
   protocol: string,
   walletData: WalletData,
   amountUsdc: string,
-  claimRewards?: boolean
+  claimRewards?: boolean,
+  userId?: string
 ): Promise<TransactionReceipt> {
-  switch (protocol.toLowerCase()) {
-    case "aave":
-      return await withdrawFromAave(walletData, amountUsdc, claimRewards);
+  // Check if user has Smart Wallet for gasless transactions (require userId for gasless)
+  const hasSmartWallet = userId ? hasCoinbaseSmartWallet(userId) : false;
+  
+  if (hasSmartWallet) {
+    console.log(`🦑 Using gasless transactions for ${protocol} withdrawal`);
     
-    case "fluid":
-      return await withdrawFromFluid(walletData, amountUsdc, claimRewards);
+    // Route to gasless functions (note: claimRewards is handled internally)
+    let result;
+    switch (protocol.toLowerCase()) {
+      case "aave":
+        result = await gaslessWithdrawFromAave(userId!, amountUsdc);
+        break;
+      case "fluid":
+        result = await gaslessWithdrawFromFluid(userId!, amountUsdc);
+        break;
+      case "compound":
+        result = await withdrawFromCompoundV3(userId!, amountUsdc);
+        break;
+      default:
+        throw new Error(`Unsupported protocol for gasless: ${protocol}`);
+    }
     
-    case "compound":
-      return await withdrawFromCompound(walletData, amountUsdc, claimRewards);
+    if (!result.success) {
+      throw new Error(result.error || `Gasless ${protocol} withdrawal failed`);
+    }
     
-    default:
-      throw new Error(`Unsupported protocol: ${protocol}`);
+    // Return a compatible TransactionReceipt format
+    return {
+      transactionHash: result.txHash!,
+      status: "success"
+    } as TransactionReceipt;
+  } else {
+    console.log(`📤 Using regular transactions for ${protocol} withdrawal (no Smart Wallet)`);
+    
+    // Fall back to regular functions for users without Smart Wallet
+    switch (protocol.toLowerCase()) {
+      case "aave":
+        return await withdrawFromAave(walletData, amountUsdc, claimRewards);
+      
+      case "fluid":
+        return await withdrawFromFluid(walletData, amountUsdc, claimRewards);
+      
+      case "compound":
+        return await withdrawFromCompound(walletData, amountUsdc, claimRewards);
+      
+      default:
+        throw new Error(`Unsupported protocol: ${protocol}`);
+    }
   }
 }
 
@@ -705,19 +751,56 @@ export async function getPendingCompoundRewards(
 export async function executeZap(
   protocol: string,
   walletData: WalletData,
-  amountUsdc: string
+  amountUsdc: string,
+  userId?: string
 ): Promise<TransactionReceipt> {
-  switch (protocol.toLowerCase()) {
-    case "aave":
-      return await supplyToAave(walletData, amountUsdc);
+  // Check if user has Smart Wallet for gasless transactions (require userId for gasless)
+  const hasSmartWallet = userId ? hasCoinbaseSmartWallet(userId) : false;
+  
+  if (hasSmartWallet) {
+    console.log(`🦑 Using gasless transactions for ${protocol} deployment`);
     
-    case "fluid":
-      return await supplyToFluid(walletData, amountUsdc);
+    // Route to gasless functions
+    let result;
+    switch (protocol.toLowerCase()) {
+      case "aave":
+        result = await gaslessDeployToAave(userId!, amountUsdc);
+        break;
+      case "fluid":
+        result = await gaslessDeployToFluid(userId!, amountUsdc);
+        break;
+      case "compound":
+        result = await autoDeployToCompoundV3(userId!, amountUsdc);
+        break;
+      default:
+        throw new Error(`Unsupported protocol for gasless: ${protocol}`);
+    }
     
-    case "compound":
-      return await supplyToCompound(walletData, amountUsdc);
+    if (!result.success) {
+      throw new Error(result.error || `Gasless ${protocol} deployment failed`);
+    }
     
-    default:
-      throw new Error(`Unsupported protocol: ${protocol}`);
+    // Return a compatible TransactionReceipt format
+    return {
+      transactionHash: result.txHash!,
+      status: "success"
+    } as TransactionReceipt;
+  } else {
+    console.log(`📤 Using regular transactions for ${protocol} deployment (no Smart Wallet)`);
+    
+    // Fall back to regular functions for users without Smart Wallet
+    switch (protocol.toLowerCase()) {
+      case "aave":
+        return await supplyToAave(walletData, amountUsdc);
+      
+      case "fluid":
+        return await supplyToFluid(walletData, amountUsdc);
+      
+      case "compound":
+        return await supplyToCompound(walletData, amountUsdc);
+      
+      default:
+        throw new Error(`Unsupported protocol: ${protocol}`);
+    }
   }
 }

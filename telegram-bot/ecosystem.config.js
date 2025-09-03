@@ -21,8 +21,8 @@ module.exports = {
       restart_delay: 1000
     },
     {
-      name: 'deposit-monitor',
-      script: './src/services/deposit-monitor.js',
+      name: 'event-monitor',
+      script: './src/services/event-monitor.js',
       interpreter: 'npx',
       interpreter_args: 'ts-node',
       instances: 1,
@@ -34,13 +34,13 @@ module.exports = {
       max_memory_restart: '400M',
       min_uptime: '10s',
       max_restarts: 10,
-      log_file: './logs/monitor-combined.log',
-      out_file: './logs/monitor-out.log',
-      error_file: './logs/monitor-error.log',
+      log_file: './logs/event-monitor-combined.log',
+      out_file: './logs/event-monitor-out.log',
+      error_file: './logs/event-monitor-error.log',
       log_date_format: 'YYYY-MM-DD HH:mm Z',
       watch: false,
       restart_delay: 5000,
-      cron_restart: '0 0 * * *' // Restart daily at midnight for health
+      cron_restart: '0 2 * * *' // Restart daily at 2 AM for health
     }
   ]
 };
