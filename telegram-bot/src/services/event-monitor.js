@@ -25,6 +25,68 @@ let pollInterval = null;
 let connectionCheckInterval = null;
 
 /**
+ * Determine the highest APY protocol and its deployment function
+ */
+async function getHighestAPYProtocol() {
+  try {
+    const { fetchRealTimeYields } = require("../lib/defillama-api");
+    
+    // Fetch current APYs from DeFiLlama
+    const yields = await fetchRealTimeYields();
+    
+    // Sort by APY descending to get the highest
+    const sortedYields = yields.sort((a, b) => b.apy - a.apy);
+    const highestYieldProtocol = sortedYields[0];
+    
+    console.log(`🎯 Highest APY Protocol: ${highestYieldProtocol.project} with ${highestYieldProtocol.apy}% APY`);
+    
+    // Map protocol names to deployment functions
+    const protocolMap = {
+      'Aave': {
+        deployFn: 'gaslessDeployToAave',
+        displayName: 'Aave V3'
+      },
+      'Fluid': {
+        deployFn: 'gaslessDeployToFluid', 
+        displayName: 'Fluid'
+      },
+      'Compound': {
+        deployFn: 'autoDeployToCompoundV3',
+        displayName: 'Compound V3'
+      }
+    };
+    
+    const protocolConfig = protocolMap[highestYieldProtocol.project];
+    if (!protocolConfig) {
+      console.warn(`⚠️ Unknown protocol ${highestYieldProtocol.project}, defaulting to Compound V3`);
+      return {
+        protocol: 'Compound V3',
+        deployFn: 'autoDeployToCompoundV3',
+        apy: highestYieldProtocol.apy,
+        project: 'Compound'
+      };
+    }
+    
+    return {
+      protocol: protocolConfig.displayName,
+      deployFn: protocolConfig.deployFn,
+      apy: highestYieldProtocol.apy,
+      project: highestYieldProtocol.project
+    };
+    
+  } catch (error) {
+    console.error("Error determining highest APY protocol:", error);
+    // Fallback to Compound V3 if API fails
+    return {
+      protocol: 'Compound V3',
+      deployFn: 'autoDeployToCompoundV3', 
+      apy: 7.65,
+      project: 'Compound'
+    };
+  }
+}
+
+/**
  * Check if user has existing funds in their smart wallet
  */
 async function checkPreDepositBalance(userId) {
@@ -94,41 +156,46 @@ async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) 
  */
 async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
-    // Step 1: Send initial notification
+    // Step 1: Determine the highest APY protocol
+    const bestProtocol = await getHighestAPYProtocol();
+    
+    // Step 2: Send initial notification
     await monitorBot.api.sendMessage(
       userId,
       `🎉 *Deposit confirmed ${firstName}!*\n\n` +
       `${amount} ${tokenSymbol} received!\n\n` +
-      `Auto-deploying to Compound V3 with sponsored gas... 🚀`,
+      `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas... 🚀`,
       { parse_mode: "Markdown" }
     );
 
-    // Step 2: Auto-deploy using Coinbase CDP sponsored transactions
-    console.log(`🚀 Auto-deploying ${amount} ${tokenSymbol} for user ${userId} using CDP...`);
+    // Step 3: Auto-deploy using Coinbase CDP sponsored transactions
+    console.log(`🚀 Auto-deploying ${amount} ${tokenSymbol} for user ${userId} to ${bestProtocol.protocol}...`);
     
-    // Import Coinbase DeFi service
-    const { autoDeployToCompoundV3 } = require("../services/coinbase-defi.ts");
+    // Import Coinbase DeFi service and get the appropriate deployment function
+    const coinbaseDefi = require("../services/coinbase-defi.ts");
+    const deploymentFunction = coinbaseDefi[bestProtocol.deployFn];
+    
+    if (!deploymentFunction) {
+      throw new Error(`Deployment function ${bestProtocol.deployFn} not found`);
+    }
     
     // Execute sponsored deployment
-    const deployResult = await autoDeployToCompoundV3(userId, amount);
+    const deployResult = await deploymentFunction(userId, amount);
     
     if (deployResult.success) {
-      console.log(`✅ Successfully deployed ${amount} ${tokenSymbol} to Compound V3`);
+      console.log(`✅ Successfully deployed ${amount} ${tokenSymbol} to ${bestProtocol.protocol}`);
       
-      // Step 3: Send success message with main menu
+      // Step 4: Send success message with main menu
       const { createMainMenuKeyboard, getMainMenuMessage } = require("../utils/mainMenu");
-      const { getCompoundV3APY } = require("../lib/defillama-api");
-      
-      const apy = await getCompoundV3APY();
       
       // Import earnings utilities
       const { calculateRealTimeEarnings, formatTxLink } = require("../utils/earnings");
-      const earnings = calculateRealTimeEarnings(parseFloat(amount), apy);
+      const earnings = calculateRealTimeEarnings(parseFloat(amount), bestProtocol.apy);
       
       await monitorBot.api.sendMessage(
         userId,
         `🐙 *Welcome to your **inkvest** control center!*\n\n` +
-        `✅ ${amount} ${tokenSymbol} deployed to Compound V3 (${apy}% APY)\n` +
+        `✅ ${amount} ${tokenSymbol} deployed to ${bestProtocol.protocol} (${bestProtocol.apy}% APY)\n` +
         `✅ Gas sponsored by inkvest (gasless for you!)\n` +
         `✅ Auto-compounding activated\n` +
         `✅ Earning ${earnings} automatically\n\n` +
@@ -143,13 +210,13 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
       console.log(`🦑 ${firstName} successfully onboarded with ${amount} ${tokenSymbol} deployed!`);
 
     } else {
-      console.error(`❌ Failed to deploy ${amount} ${tokenSymbol}: ${deployResult.error}`);
+      console.error(`❌ Failed to deploy ${amount} ${tokenSymbol} to ${bestProtocol.protocol}: ${deployResult.error}`);
       
       // Send error message but still complete onboarding
       await monitorBot.api.sendMessage(
         userId,
         `⚠️ *Deposit confirmed but deployment failed*\n\n` +
-        `${amount} ${tokenSymbol} received but couldn't auto-deploy.\n\n` +
+        `${amount} ${tokenSymbol} received but couldn't auto-deploy to ${bestProtocol.protocol}.\n\n` +
         `Error: ${deployResult.error}\n\n` +
         `Please try manual deployment via the bot menu.`,
         { parse_mode: "Markdown" }
