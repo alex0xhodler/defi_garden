@@ -177,10 +177,37 @@ bot.on("callback_query:data", async (ctx) => {
       
       if (parseFloat(usdcBalance.toString()) > 0) {
         // Funds detected! Auto-deploy using Coinbase CDP
+        
+        // Determine the highest APY protocol
+        const { fetchRealTimeYields } = await import("./src/lib/defillama-api");
+        const yields = await fetchRealTimeYields();
+        const sortedYields = yields.sort((a, b) => b.apy - a.apy);
+        const highestYieldProtocol = sortedYields[0];
+        
+        // Map protocol names to deployment functions
+        const protocolMap = {
+          'Aave': { deployFn: 'gaslessDeployToAave', displayName: 'Aave V3' },
+          'Fluid': { deployFn: 'gaslessDeployToFluid', displayName: 'Fluid' },
+          'Compound': { deployFn: 'autoDeployToCompoundV3', displayName: 'Compound V3' }
+        };
+        
+        const protocolConfig = protocolMap[highestYieldProtocol.project as keyof typeof protocolMap];
+        const bestProtocol = protocolConfig ? {
+          protocol: protocolConfig.displayName,
+          deployFn: protocolConfig.deployFn,
+          apy: highestYieldProtocol.apy,
+          project: highestYieldProtocol.project
+        } : {
+          protocol: 'Compound V3',
+          deployFn: 'autoDeployToCompoundV3', 
+          apy: 7.65,
+          project: 'Compound'
+        };
+        
         await ctx.editMessageText(
           `🎉 *Deposit detected!*\n\n` +
           `${usdcBalance.toString()} USDC found in your wallet!\n\n` +
-          `Auto-deploying to Compound V3 with sponsored gas...`,
+          `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas...`,
           { parse_mode: "Markdown" }
         );
         
@@ -189,23 +216,26 @@ bot.on("callback_query:data", async (ctx) => {
         // Execute sponsored deployment
         setTimeout(async () => {
           try {
-            const { autoDeployToCompoundV3 } = await import("./src/services/coinbase-defi");
-            const deployResult = await autoDeployToCompoundV3(userId, usdcBalance.toString());
+            const coinbaseDefi = await import("./src/services/coinbase-defi");
+            const deploymentFunction = coinbaseDefi[bestProtocol.deployFn as keyof typeof coinbaseDefi];
+            
+            if (!deploymentFunction) {
+              throw new Error(`Deployment function ${bestProtocol.deployFn} not found`);
+            }
+            
+            const deployResult = await deploymentFunction(userId, usdcBalance.toString());
             
             if (deployResult.success) {
               // Send success message with main menu
               const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
-              const { getCompoundV3APY } = await import("./src/lib/defillama-api");
-              
-              const apy = await getCompoundV3APY();
               
               // Import earnings utilities
               const { calculateRealTimeEarnings, formatTxLink } = await import("./src/utils/earnings");
-              const earnings = calculateRealTimeEarnings(parseFloat(usdcBalance.toString()), apy);
+              const earnings = calculateRealTimeEarnings(parseFloat(usdcBalance.toString()), bestProtocol.apy);
               
               await ctx.editMessageText(
                 `🐙 *Welcome to your **inkvest** control center!*\n\n` +
-                `✅ ${usdcBalance.toString()} USDC deployed to Compound V3 (${apy}% APY)\n` +
+                `✅ ${usdcBalance.toString()} USDC deployed to ${bestProtocol.protocol} (${bestProtocol.apy}% APY)\n` +
                 `✅ Gas sponsored by inkvest (gasless for you!)\n` +
                 `✅ Auto-compounding activated\n` +
                 `✅ Earning ${earnings} automatically\n\n` +
@@ -220,7 +250,7 @@ bot.on("callback_query:data", async (ctx) => {
               
               await ctx.editMessageText(
                 `⚠️ *Deployment failed*\n\n` +
-                `${usdcBalance.toString()} USDC found but couldn't auto-deploy.\n\n` +
+                `${usdcBalance.toString()} USDC found but couldn't auto-deploy to ${bestProtocol.protocol}.\n\n` +
                 `Error: ${deployResult.error}\n\n` +
                 `Please try manual deployment via the bot menu.`,
                 { 
