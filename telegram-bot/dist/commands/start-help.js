@@ -231,7 +231,7 @@ exports.helpHandler = {
                 .text("🔄 Main Menu", "main_menu");
             await ctx.reply(`🦑 *How inkvest Works*\n\n` +
                 `Hi ${firstName}! I'm your personal yield farming assistant.\n\n` +
-                `🤖 *What I Do*\n` +
+                `🐙 *What I Do*\n` +
                 `• Find the best DeFi yields (~${highestAPY}% APY)\n` +
                 `• Auto-deploy your funds safely\n` +
                 `• Monitor and compound earnings\n\n` +

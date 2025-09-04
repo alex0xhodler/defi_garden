@@ -946,7 +946,7 @@ bot.command("help", async (ctx) => {
       "*Other Commands:*\n" +
       "/cancel - Cancel current operation\n" +
       "/help - Show this help message\n\n" +
-      "🤖 *Auto-Deployment*: I automatically find the best yield opportunities based on your risk settings.\n" +
+      "🐙 *Auto-Deployment*: I automatically find the best yield opportunities based on your risk settings.\n" +
       "🛡️ *Safety First*: Only vetted protocols with high TVL are used.\n" +
       "📈 *Track Performance*: View real-time portfolio value and yields earned.",
     { parse_mode: "Markdown" }

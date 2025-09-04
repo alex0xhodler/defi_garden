@@ -166,14 +166,14 @@ const earnHandler: CommandHandler = {
 
       // Simplified earn options
       const keyboard = new InlineKeyboard()
-        .text("🤖 AI Auto-Managed", "zap_auto_deploy")
+        .text("🐙 inkvest Auto-Managed", "zap_auto_deploy")
         .row()
         .text("🎯 Manual Management", "zap_choose_protocol");
 
       await ctx.reply(
         `🚀 *Ready to start earning, ${firstName}?*\n\n` +
         `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
-        `🤖 **AI Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
+        `🐙 **inkvest Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
         `🎯 **Manual Management**: You choose the protocol\n\n` +
         `What sounds good?`,
         {
@@ -240,7 +240,7 @@ export async function handlePoolSelection(ctx: BotContext): Promise<void> {
       keyboard.text(`${pool.project} - ${pool.apy}%`, `pool_${pool.poolId}`).row();
     }
     
-    keyboard.text("🤖 Just Pick Best APY", "zap_auto_deploy");
+    keyboard.text("🐙 Just Pick Best APY", "zap_auto_deploy");
     
     await ctx.editMessageText(message, {
       parse_mode: "Markdown",
@@ -678,7 +678,7 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
     const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
 
     await ctx.reply(
-      `🤖 **AI Auto-Managed Selected Best Pool**\n\n` +
+      `🐙 **inkvest Auto-Managed Selected Best Pool**\n\n` +
       `${safetyIcon} **${bestPool.project}** - Highest APY Available\n` +
       `• **APY**: **${bestPool.apy}%** (${bestPool.apyBase}% base + ${bestPool.apyReward}% rewards)\n` +
       `• **TVL**: $${(bestPool.tvlUsd / 1_000_000).toFixed(1)}M\n` +
