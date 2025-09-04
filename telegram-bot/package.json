@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "inkvest Telegram Bot - Auto-deploy to best yield opportunities",
   "main": "index.ts",
-  "type": "module",
   "scripts": {
     "dev": "nodemon",
     "start": "ts-node index.ts",
