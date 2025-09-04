@@ -55,8 +55,8 @@ const CDP_API_KEY = '9578d547-b0f5-46ee-840a-7872b4234c46';
 // CDP Bundler and Paymaster endpoints for USDC gas payments
 const CDP_BUNDLER_URL = "https://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz";
 const PAYMASTER_URL = "https://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz";
-// Public Base RPC for read operations
-const PUBLIC_RPC_URL = "https://mainnet.base.org";
+// DRPC Base RPC for read operations (no rate limiting)
+const PUBLIC_RPC_URL = "https://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhnKxixj";
 // Create public client for Base mainnet (read operations)
 exports.publicClient = (0, viem_1.createPublicClient)({
     chain: chains_1.base,
@@ -274,10 +274,10 @@ async function transferUsdcGasless(userId, toAddress, usdcAmount) {
         const currentBalance = await getCoinbaseWalletUSDCBalance(smartAccount.address);
         const currentBalanceWei = (0, viem_1.parseUnits)(currentBalance, 6);
         // Reserve small amount for gas (Base gas is ~1¢)
-        const gasReserveWei = (0, viem_1.parseUnits)('0.05', 6); // $0.05 USDC reserve for gas
+        const gasReserveWei = (0, viem_1.parseUnits)('0.01', 6); // $0.01 USDC reserve for gas
         // Check if sufficient balance including gas
         if (currentBalanceWei <= gasReserveWei) {
-            throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.05 USDC for gas`);
+            throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
         }
         const maxTransferableWei = currentBalanceWei - gasReserveWei;
         if (amountWei > maxTransferableWei) {

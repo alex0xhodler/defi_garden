@@ -149,14 +149,14 @@ export async function autoDeployToCompoundV3(
     const currentBalanceWei = parseUnits(currentBalance, 6);
     
     // Reserve small amount for gas (Base gas is ~1¢)
-    const gasReserveWei = parseUnits('0.05', 6); // $0.05 USDC reserve for gas (5 cents)
+    const gasReserveWei = parseUnits('0.01', 6); // $0.01 USDC reserve for gas (1 cent)
     
     // Auto-fit deployment amount to available balance minus gas reserve
     let deployAmountWei: bigint;
     let actualDeployAmount: string;
     
     if (currentBalanceWei <= gasReserveWei) {
-      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.05 USDC for gas`);
+      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
     }
     
     const maxDeployableWei = currentBalanceWei - gasReserveWei;
@@ -165,12 +165,12 @@ export async function autoDeployToCompoundV3(
       // Auto-fit to available balance
       deployAmountWei = maxDeployableWei;
       actualDeployAmount = (Number(deployAmountWei) / Math.pow(10, 6)).toFixed(2);
-      console.log(`💰 Auto-fitting deployment: ${usdcAmount} USDC requested, deploying ${actualDeployAmount} USDC (reserved $0.05 for gas)`);
+      console.log(`💰 Auto-fitting deployment: ${usdcAmount} USDC requested, deploying ${actualDeployAmount} USDC (reserved $0.01 for gas)`);
     } else {
       // Use requested amount
       deployAmountWei = amountWei;
       actualDeployAmount = usdcAmount;
-      console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.05 reserved for gas)`);
+      console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.01 reserved for gas)`);
     }
 
     // Create bundler client with CDP paymaster for USDC gas payments
@@ -488,14 +488,14 @@ export async function gaslessDeployToAave(
     const currentBalanceWei = parseUnits(currentBalance, 6);
     
     // Reserve small amount for gas (Base gas is ~1¢)
-    const gasReserveWei = parseUnits('0.05', 6); // $0.05 USDC reserve for gas (5 cents)
+    const gasReserveWei = parseUnits('0.01', 6); // $0.01 USDC reserve for gas (1 cent)
     
     // Auto-fit deployment amount to available balance minus gas reserve
     let deployAmountWei: bigint;
     let actualDeployAmount: string;
     
     if (currentBalanceWei <= gasReserveWei) {
-      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.05 USDC for gas`);
+      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
     }
     
     const maxDeployableWei = currentBalanceWei - gasReserveWei;
@@ -504,12 +504,12 @@ export async function gaslessDeployToAave(
       // Auto-fit to available balance
       deployAmountWei = maxDeployableWei;
       actualDeployAmount = (Number(deployAmountWei) / Math.pow(10, 6)).toFixed(2);
-      console.log(`💰 Auto-fitting deployment: ${usdcAmount} USDC requested, deploying ${actualDeployAmount} USDC (reserved $0.05 for gas)`);
+      console.log(`💰 Auto-fitting deployment: ${usdcAmount} USDC requested, deploying ${actualDeployAmount} USDC (reserved $0.01 for gas)`);
     } else {
       // Use requested amount
       deployAmountWei = amountWei;
       actualDeployAmount = usdcAmount;
-      console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.05 reserved for gas)`);
+      console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.01 reserved for gas)`);
     }
 
     // Create bundler client with CDP paymaster for USDC gas payments
@@ -751,14 +751,14 @@ export async function gaslessDeployToFluid(
     const currentBalanceWei = parseUnits(currentBalance, 6);
     
     // Reserve small amount for gas (Base gas is ~1¢)
-    const gasReserveWei = parseUnits('0.05', 6); // $0.05 USDC reserve for gas (5 cents)
+    const gasReserveWei = parseUnits('0.01', 6); // $0.01 USDC reserve for gas (1 cent)
     
     // Auto-fit deployment amount to available balance minus gas reserve
     let deployAmountWei: bigint;
     let actualDeployAmount: string;
     
     if (currentBalanceWei <= gasReserveWei) {
-      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.05 USDC for gas`);
+      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
     }
     
     const maxDeployableWei = currentBalanceWei - gasReserveWei;
@@ -767,12 +767,12 @@ export async function gaslessDeployToFluid(
       // Auto-fit to available balance
       deployAmountWei = maxDeployableWei;
       actualDeployAmount = (Number(deployAmountWei) / Math.pow(10, 6)).toFixed(2);
-      console.log(`💰 Auto-fitting deployment: ${usdcAmount} USDC requested, deploying ${actualDeployAmount} USDC (reserved $0.05 for gas)`);
+      console.log(`💰 Auto-fitting deployment: ${usdcAmount} USDC requested, deploying ${actualDeployAmount} USDC (reserved $0.01 for gas)`);
     } else {
       // Use requested amount
       deployAmountWei = amountWei;
       actualDeployAmount = usdcAmount;
-      console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.05 reserved for gas)`);
+      console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.01 reserved for gas)`);
     }
 
     // Create bundler client with CDP paymaster for USDC gas payments

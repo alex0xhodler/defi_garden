@@ -176,7 +176,7 @@ async function handleWithdrawUsdc(ctx) {
             return;
         }
         // Determine gasless availability
-        let gaslessAvailable = coinbaseWallet && parseFloat(smartWalletBalance) > 0.05; // Need at least $0.05 for gas
+        let gaslessAvailable = coinbaseWallet && parseFloat(smartWalletBalance) > 0.01; // Need at least $0.01 for gas
         ctx.session.currentAction = "withdraw_usdc_address";
         ctx.session.tempData = {
             usdcBalance: usdcBalance.balance,
@@ -193,7 +193,7 @@ async function handleWithdrawUsdc(ctx) {
         const gaslessInfo = gaslessAvailable
             ? `\n🦑 **Gasless Withdrawal Available!**\nYou can withdraw with USDC gas payment (no ETH needed)\n`
             : coinbaseWallet
-                ? `\n⚠️ **Low Smart Wallet Balance**\nNeed at least $0.05 USDC in Smart Wallet for gasless withdrawal\n`
+                ? `\n⚠️ **Low Smart Wallet Balance**\nNeed at least $0.01 USDC in Smart Wallet for gasless withdrawal\n`
                 : `\n⛽ **Gas Fee**: Will be paid with ETH from your wallet\n`;
         await ctx.reply(`📤 **Withdraw USDC**\n\n` +
             `Total Available: ${usdcBalanceFormatted} USDC${balanceInfo}${gaslessInfo}\n` +
@@ -463,7 +463,7 @@ async function handleWithdrawUsdcAmountInput(ctx, amount) {
                 let actualWithdrawAmount = withdrawAmount;
                 if (useExactBalance) {
                     // For max withdrawal, account for gas reserve in Smart Wallet
-                    const gasReserve = 0.05; // Reserve 0.05 USDC for gas (matches coinbase-wallet.ts)
+                    const gasReserve = 0.01; // Reserve 0.01 USDC for gas (matches coinbase-wallet.ts)
                     const availableForWithdrawal = parseFloat(smartWalletUsdcBalance) - gasReserve;
                     if (availableForWithdrawal > 0) {
                         actualWithdrawAmount = availableForWithdrawal;

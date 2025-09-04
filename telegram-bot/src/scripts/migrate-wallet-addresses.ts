@@ -18,10 +18,10 @@ import { base } from 'viem/chains';
 import { decrypt } from '../lib/encryption';
 import { DB_PATH } from "../utils/constants";
 
-// Create public client for Base mainnet
+// Create public client for Base mainnet using DRPC (no rate limiting)
 const publicClient = createPublicClient({
   chain: base,
-  transport: http("https://mainnet.base.org"),
+  transport: http("https://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhnKxixj"),
 });
 
 const db = new Database(DB_PATH);
