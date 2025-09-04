@@ -546,7 +546,7 @@ bot.on("callback_query:data", async (ctx) => {
               const earnings = calculateRealTimeEarnings(parseFloat(usdcBalance.toString()), bestProtocol.apy);
               
               await ctx.editMessageText(
-                `🐙 *Welcome to your **inkvest** control center!*\n\n` +
+                `🐙 *Welcome to your **inkvest** savings account!*\n\n` +
                 `✅ ${usdcBalance.toString()} USDC deployed to ${bestProtocol.protocol} (${bestProtocol.apy}% APY)\n` +
                 `✅ Gas sponsored by inkvest (gasless for you!)\n` +
                 `✅ Auto-compounding activated\n` +
