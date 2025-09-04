@@ -301,7 +301,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
           .text(`✅ Complete ${pendingTx.protocol} Investment (${pendingTx.apy}% APY)`, "retry_pending_transaction")
           .row()
           .text("💼 Keep in Wallet", "cancel_pending_transaction")
-          .text("🎯 View Options", "view_protocols");
+          .text("🎯 View Options", "main_menu");
         
         await monitorBot.api.sendMessage(
           userId,
@@ -343,6 +343,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
           .text(`📥 Deposit $${stillNeeded.toFixed(2)} More`, "deposit")
           .row()
           .text("💰 Invest Available Funds", "invest_available")
+          .row()
           .text("❌ Cancel", "cancel_pending_transaction");
         
         await monitorBot.api.sendMessage(

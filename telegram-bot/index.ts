@@ -321,7 +321,7 @@ async function handleManualDepositCheck(ctx: BotContext) {
         .text(`✅ Complete ${pending.protocol} Investment (${pending.apy}% APY)`, "retry_pending_transaction")
         .row()
         .text("💼 Keep in Wallet", "cancel_pending_transaction")
-        .text("🎯 View Options", "view_protocols");
+        .text("🎯 View Options", "main_menu");
       
       await ctx.reply(
         `🎉 **Deposit Confirmed!**\n\n` +

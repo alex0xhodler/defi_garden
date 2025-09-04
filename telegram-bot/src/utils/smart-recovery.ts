@@ -262,7 +262,7 @@ export function createCompletionKeyboard(): InlineKeyboard {
     .text("✅ Complete Investment", "retry_pending_transaction")
     .row()
     .text("💼 Keep in Wallet", "cancel_pending_transaction")
-    .text("🎯 View Options", "view_protocols");
+    .text("🎯 View Options", "main_menu");
 }
 
 /**
@@ -273,6 +273,7 @@ export function createPartialDepositKeyboard(stillNeeded: number): InlineKeyboar
     .text(`📥 Deposit $${stillNeeded.toFixed(2)} More`, "deposit")
     .row()
     .text("💰 Invest Available Funds", "invest_available")
+    .row()
     .text("❌ Cancel", "cancel_pending_transaction");
 }
 
