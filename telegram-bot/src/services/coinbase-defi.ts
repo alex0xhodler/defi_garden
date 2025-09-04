@@ -234,6 +234,10 @@ export async function autoDeployToCompoundV3(
     });
 
     console.log(`✅ Transaction confirmed! Hash: ${receipt.receipt.transactionHash}`);
+    
+    // Add delay to allow blockchain state to propagate across all nodes
+    console.log(`⏳ Waiting for blockchain state propagation...`);
+    await new Promise(resolve => setTimeout(resolve, 3000));
 
     // Complete user onboarding
     updateUserOnboardingStatus(userId, true);
