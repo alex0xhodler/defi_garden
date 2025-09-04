@@ -66,14 +66,8 @@ export const startHandler: CommandHandler = {
         // Start 5-minute deposit monitoring window
         startDepositMonitoring(userId, 5);
         
-        // Force refresh event monitor to immediately watch this new wallet
-        try {
-          const eventMonitor = require("../services/event-monitor.js");
-          await eventMonitor.forceRefreshWallets();
-          console.log(`🔄 Started 5-minute deposit monitoring for new user ${userId}`);
-        } catch (error) {
-          console.error("Could not force refresh wallets:", error);
-        }
+        // Manual balance checking system will handle deposit detection
+        console.log(`🔄 User ${userId} ready for manual balance checks`);
         
         // Get current APY
         const { getCompoundV3APY } = await import("../lib/defillama-api");
@@ -126,13 +120,8 @@ export const startHandler: CommandHandler = {
           // Start balance monitoring
           updateUserBalanceCheckTime(userId);
           
-          // Force refresh event monitor to immediately watch this new wallet
-          try {
-            const eventMonitor = require("../services/event-monitor.js");
-            await eventMonitor.forceRefreshWallets();
-          } catch (error) {
-            console.error("Could not force refresh wallets:", error);
-          }
+          // Manual balance checking system will handle deposit detection
+          console.log(`🔄 User ${userId} ready for manual balance checks`);
           
           // Get current APY
           const { getCompoundV3APY } = await import("../lib/defillama-api");
