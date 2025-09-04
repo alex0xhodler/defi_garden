@@ -218,7 +218,7 @@ const harvestHandler = {
                     `You don't have any active yield farming positions yet.\n\n` +
                     `Use /zap to start earning yields!`, {
                     parse_mode: "Markdown",
-                    reply_markup: new grammy_1.InlineKeyboard().text("🚀 Start Earning", "zap_funds")
+                    reply_markup: new grammy_1.InlineKeyboard().text("🦑 Start Earning", "zap_funds")
                 });
                 return;
             }
@@ -255,7 +255,7 @@ const harvestHandler = {
                     `You don't have any active DeFi positions to harvest from.\n\n` +
                     `Use /zap to start earning yields!`, {
                     parse_mode: "Markdown",
-                    reply_markup: new grammy_1.InlineKeyboard().text("🚀 Start Earning", "zap_funds")
+                    reply_markup: new grammy_1.InlineKeyboard().text("🦑 Start Earning", "zap_funds")
                 });
                 return;
             }
@@ -288,7 +288,7 @@ const harvestHandler = {
                     parse_mode: "Markdown",
                     reply_markup: new grammy_1.InlineKeyboard()
                         .text("📊 Portfolio", "view_portfolio")
-                        .text("🚀 Earn More", "zap_funds")
+                        .text("🦑 Earn More", "zap_funds")
                 });
                 return;
             }
@@ -476,7 +476,7 @@ async function handleHarvestConfirmation(ctx, strategy) {
                 parse_mode: "Markdown",
                 reply_markup: new grammy_1.InlineKeyboard()
                     .text("📊 View Portfolio", "view_portfolio")
-                    .text("🚀 Earn More", "zap_funds")
+                    .text("🦑 Earn More", "zap_funds")
                     .row()
                     .text("🚪 Withdraw", "withdraw")
             });
@@ -488,7 +488,7 @@ async function handleHarvestConfirmation(ctx, strategy) {
                     await ctx.reply(`💡 **Excellent harvest!** You earned $${totalYield.toFixed(3)} in yields. ` +
                         `Your DeFi farming is working well! Consider adding more capital to maximize the compound effect. 📈`, {
                         reply_markup: new grammy_1.InlineKeyboard()
-                            .text("🚀 Earn More", "zap_funds")
+                            .text("🦑 Earn More", "zap_funds")
                             .text("🔄 Check Harvest Again", "harvest_yields")
                     });
                 }, 2000);

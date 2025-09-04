@@ -108,6 +108,19 @@ async function generateCoinbaseSmartWallet(userId) {
     }
 }
 /**
+ * Check if Smart Account is deployed on-chain (fallback for edge cases)
+ */
+async function isSmartAccountDeployedOnChain(address) {
+    try {
+        const code = await exports.publicClient.getCode({ address });
+        return code !== undefined && code !== '0x';
+    }
+    catch (error) {
+        console.error('Error checking Smart Account deployment on-chain:', error);
+        return false;
+    }
+}
+/**
  * Get existing Coinbase Smart Wallet for user
  */
 async function getCoinbaseSmartWallet(userId) {
@@ -119,18 +132,29 @@ async function getCoinbaseSmartWallet(userId) {
         // Decrypt private key
         const privateKey = (0, encryption_1.decrypt)(walletData.encryptedPrivateKey);
         const owner = (0, accounts_1.privateKeyToAccount)(privateKey);
+        // Use deployment status from database (much faster than blockchain call)
+        const isDeployed = walletData.isDeployed || false;
         // Recreate smart account with the same nonce for consistent address
-        const smartAccount = await (0, account_abstraction_1.toCoinbaseSmartAccount)({
+        const smartAccountConfig = {
             client: exports.publicClient,
             owners: [owner],
             nonce: 0n, // Use same nonce as creation for deterministic address
             version: '1.1'
-        });
+        };
+        // Log deployment status for debugging
+        if (isDeployed) {
+            console.log(`🔗 Smart Account ${walletData.address} already deployed (from database)`);
+        }
+        else {
+            console.log(`🚀 Smart Account ${walletData.address} not deployed yet (from database)`);
+        }
+        const smartAccount = await (0, account_abstraction_1.toCoinbaseSmartAccount)(smartAccountConfig);
         return {
             address: smartAccount.address,
             smartAccount,
             owner,
-            walletData
+            walletData,
+            isDeployed
         };
     }
     catch (error) {
@@ -195,8 +219,15 @@ async function getCoinbaseWalletUSDCBalance(walletAddress) {
 /**
  * Create CDP bundler client for USDC gas payment transactions
  */
-async function createSponsoredBundlerClient(smartAccount) {
+async function createSponsoredBundlerClient(smartAccount, isDeployed = false) {
     const { createBundlerClient } = await Promise.resolve().then(() => __importStar(require('viem/account-abstraction')));
+    // If the account is already deployed, remove initCode to avoid AA10 error
+    if (isDeployed && smartAccount.getInitCode) {
+        console.log(`🔧 Removing initCode for deployed Smart Account`);
+        // Override getInitCode to return undefined for deployed accounts
+        const originalGetInitCode = smartAccount.getInitCode;
+        smartAccount.getInitCode = () => undefined;
+    }
     // Use CDP bundler and paymaster for complete USDC gas payment solution
     return createBundlerClient({
         account: smartAccount,
@@ -283,8 +314,10 @@ async function transferUsdcGasless(userId, toAddress, usdcAmount) {
         if (amountWei > maxTransferableWei) {
             throw new Error(`Insufficient USDC balance. Requested: ${usdcAmount} USDC, Available: ${(Number(maxTransferableWei) / Math.pow(10, 6)).toFixed(2)} USDC (after gas reserve)`);
         }
+        // Get wallet with deployment status
+        const walletInfo = await getCoinbaseSmartWallet(userId);
         // Create bundler client with CDP paymaster for USDC gas payments
-        const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+        const bundlerClient = await createSponsoredBundlerClient(smartAccount, walletInfo?.isDeployed || false);
         console.log(`🚀 Preparing gasless USDC transfer with USDC gas payment...`);
         const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
         // ERC-20 ABI for transfer

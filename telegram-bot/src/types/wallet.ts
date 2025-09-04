@@ -6,6 +6,7 @@ export interface WalletData {
   type: "imported" | "generated" | "coinbase-smart-wallet";
   createdAt: number;
   autoCreated?: boolean;
+  isDeployed?: boolean;
 }
 
 export interface TransactionParams {

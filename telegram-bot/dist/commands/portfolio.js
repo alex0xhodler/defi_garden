@@ -54,7 +54,20 @@ const portfolioHandler = {
                 await ctx.reply("❌ No wallet found. Create one first with /start");
                 return;
             }
-            const walletAddress = wallet.address;
+            // Check if user has Smart Wallet and use appropriate address for balance checks
+            const { hasCoinbaseSmartWallet, getCoinbaseSmartWallet } = await Promise.resolve().then(() => __importStar(require("../lib/coinbase-wallet")));
+            let walletAddress = wallet.address;
+            let usingSmartWallet = false;
+            if (hasCoinbaseSmartWallet(userId)) {
+                const smartWallet = await getCoinbaseSmartWallet(userId);
+                if (smartWallet) {
+                    walletAddress = smartWallet.smartAccount.address;
+                    usingSmartWallet = true;
+                    console.log(`📍 Using Smart Wallet address for portfolio: ${walletAddress}`);
+                }
+            }
+            // Add small delay to ensure blockchain state consistency after recent transactions
+            await new Promise(resolve => setTimeout(resolve, 1000));
             // Fetch real on-chain balances
             const [aaveBalance, fluidBalance, compoundBalance, usdcBalance] = await Promise.all([
                 (0, token_wallet_1.getAaveBalance)(walletAddress),
@@ -181,7 +194,16 @@ const handlePortfolioDetails = async (ctx) => {
             await ctx.answerCallbackQuery("No wallet found");
             return;
         }
-        const walletAddress = wallet.address;
+        // Check if user has Smart Wallet and use appropriate address
+        const { hasCoinbaseSmartWallet, getCoinbaseSmartWallet } = await Promise.resolve().then(() => __importStar(require("../lib/coinbase-wallet")));
+        let walletAddress = wallet.address;
+        if (hasCoinbaseSmartWallet(userId)) {
+            const smartWallet = await getCoinbaseSmartWallet(userId);
+            if (smartWallet) {
+                walletAddress = smartWallet.smartAccount.address;
+                console.log(`📍 Using Smart Wallet address for portfolio callback: ${walletAddress}`);
+            }
+        }
         const [aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
             (0, token_wallet_1.getAaveBalance)(walletAddress),
             (0, token_wallet_1.getFluidBalance)(walletAddress),

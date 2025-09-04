@@ -20,6 +20,8 @@ const BASE_WSS = "wss://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhn
 const monitoredWallets = new Set();
 // Store pre-deposit balances to detect first-time vs existing users
 const preDepositBalances = new Map();
+// Cache deployment status to avoid repeated blockchain calls
+const deploymentStatusCache = new Map();
 let wsConnection = null;
 let pollInterval = null;
 let connectionCheckInterval = null;
@@ -84,6 +86,14 @@ async function getHighestAPYProtocol() {
       project: 'Compound'
     };
   }
+}
+
+/**
+ * Manually set pre-deposit balance for a user (for new wallet edge case)
+ */
+function setPreDepositBalance(userId, balance) {
+  console.log(`🎯 Manually setting pre-deposit balance for user ${userId}: $${balance}`);
+  preDepositBalances.set(userId, balance);
 }
 
 /**
@@ -443,9 +453,12 @@ async function loadWalletAddresses() {
           }
         }
         
-        // Store pre-deposit balance for this user
-        const preBalance = await checkPreDepositBalance(user.userId);
-        preDepositBalances.set(user.userId, preBalance);
+        // Store pre-deposit balance for this user (only if not already set)
+        if (!preDepositBalances.has(user.userId)) {
+          const preBalance = await checkPreDepositBalance(user.userId);
+          preDepositBalances.set(user.userId, preBalance);
+          console.log(`🏁 Initial pre-deposit balance set for user ${user.userId}: $${preBalance} USDC`);
+        }
         
         monitoredWallets.add({
           address: addressToMonitor.toLowerCase(),
@@ -502,11 +515,11 @@ async function checkAndManageConnection() {
     
     setupWebSocketConnection();
     
-    // Start polling every 5 seconds when monitoring active wallets
+    // Start polling every 30 seconds when monitoring active wallets (reduced frequency)
     if (!pollInterval) {
       pollInterval = setInterval(async () => {
         await checkAndManageConnection();
-      }, 5 * 1000);
+      }, 30 * 1000);
     }
   }
 
@@ -677,17 +690,17 @@ async function startEventMonitoringService() {
     if (walletCount === 0) {
       console.log("⚠️  No wallets to monitor currently - service will activate when wallets are added");
     } else {
-      console.log(`✅ Monitoring ${walletCount} wallet(s) with 5-second polling`);
+      console.log(`✅ Monitoring ${walletCount} wallet(s) with 30-second polling`);
     }
     
-    // Check for wallet changes every 30 seconds (when idle) 
-    // Active polling (5 seconds) only happens when wallets are being monitored
+    // Check for wallet changes every 60 seconds (when idle) 
+    // Active polling (30 seconds) only happens when wallets are being monitored
     connectionCheckInterval = setInterval(async () => {
       // Only run the check if we're not already actively polling
       if (!pollInterval) {
         await checkAndManageConnection();
       }
-    }, 30 * 1000);
+    }, 60 * 1000);
     
     console.log("✅ Event-based monitoring service started");
     console.log("📡 Efficient monitoring - zero resources when no wallets");
@@ -752,4 +765,4 @@ if (require.main === module) {
   startEventMonitoringService();
 }
 
-module.exports = { startEventMonitoringService, forceRefreshWallets };
+module.exports = { startEventMonitoringService, forceRefreshWallets, setPreDepositBalance };

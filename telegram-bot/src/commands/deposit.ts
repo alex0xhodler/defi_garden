@@ -46,6 +46,13 @@ const depositHandler: CommandHandler = {
       // Force refresh event monitor to immediately watch this wallet
       try {
         const eventMonitor = require("../services/event-monitor.js");
+        
+        // For new Smart Wallets, set pre-deposit balance to 0 to ensure first-time flow
+        if (wallet.type === 'coinbase-smart-wallet' && wallet.autoCreated) {
+          console.log(`🆕 New Smart Wallet detected, marking as first-time user for auto-deployment`);
+          await eventMonitor.setPreDepositBalance(userId, 0);
+        }
+        
         await eventMonitor.forceRefreshWallets();
         console.log(`🔄 Started 5-minute deposit monitoring for user ${userId}`);
       } catch (error) {

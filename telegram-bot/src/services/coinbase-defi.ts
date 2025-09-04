@@ -1,6 +1,6 @@
 import { Address, parseUnits, encodeFunctionData } from 'viem';
 import { getCoinbaseSmartWallet, createSponsoredBundlerClient, publicClient, cdpPaymasterClient, getCoinbaseWalletUSDCBalance } from '../lib/coinbase-wallet';
-import { updateUserOnboardingStatus } from '../lib/database';
+import { updateUserOnboardingStatus, updateWalletDeploymentStatus } from '../lib/database';
 
 // Contract addresses - Using correct Base addresses
 const COMPOUND_V3_USDC_ADDRESS = "0xb125e6687d4313864e53df431d5425969c15eb2f" as Address;
@@ -174,7 +174,7 @@ export async function autoDeployToCompoundV3(
     }
 
     // Create bundler client with CDP paymaster for USDC gas payments
-    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount, wallet.isDeployed);
 
     console.log(`🚀 Preparing USDC gas payment transaction for ${actualDeployAmount} USDC...`);
     
@@ -234,6 +234,10 @@ export async function autoDeployToCompoundV3(
     });
 
     console.log(`✅ Transaction confirmed! Hash: ${receipt.receipt.transactionHash}`);
+    
+    // Update database to mark Smart Account as deployed
+    updateWalletDeploymentStatus(userId, true);
+    console.log(`📝 Updated database: Smart Account ${smartAccount.address} marked as deployed`);
     
     // Add delay to allow blockchain state to propagate across all nodes
     console.log(`⏳ Waiting for blockchain state propagation...`);
@@ -413,7 +417,7 @@ export async function withdrawFromCompoundV3(
     }
 
     // Create bundler client with CDP paymaster for USDC gas payments
-    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount, wallet.isDeployed);
 
     console.log(`🚀 Preparing USDC gas payment transaction for ${usdcAmount} USDC withdrawal...`);
 
@@ -561,7 +565,7 @@ export async function gaslessDeployToAave(
     }
 
     // Create bundler client with CDP paymaster for USDC gas payments
-    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount, wallet.isDeployed);
 
     console.log(`🚀 Preparing USDC gas payment transaction for ${actualDeployAmount} USDC to Aave V3...`);
 
@@ -614,6 +618,10 @@ export async function gaslessDeployToAave(
     });
 
     console.log(`✅ Aave V3 deposit confirmed! Hash: ${receipt.receipt.transactionHash}`);
+
+    // Update database to mark Smart Account as deployed
+    updateWalletDeploymentStatus(userId, true);
+    console.log(`📝 Updated database: Smart Account ${smartAccount.address} marked as deployed`);
 
     // Complete user onboarding
     updateUserOnboardingStatus(userId, true);
@@ -685,7 +693,7 @@ export async function gaslessWithdrawFromAave(
       : parseUnits(usdcAmount, 6);
 
     // Create bundler client with CDP paymaster for USDC gas payments
-    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount, wallet.isDeployed);
 
     console.log(`🚀 Preparing USDC gas payment transaction for ${isMaxWithdrawal ? "max" : usdcAmount} USDC withdrawal from Aave V3...`);
 
@@ -835,7 +843,7 @@ export async function gaslessDeployToFluid(
     }
 
     // Create bundler client with CDP paymaster for USDC gas payments
-    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount, wallet.isDeployed);
 
     console.log(`🚀 Preparing USDC gas payment transaction for ${actualDeployAmount} USDC to Fluid Finance...`);
 
@@ -888,6 +896,10 @@ export async function gaslessDeployToFluid(
     });
 
     console.log(`✅ Fluid Finance deposit confirmed! Hash: ${receipt.receipt.transactionHash}`);
+
+    // Update database to mark Smart Account as deployed
+    updateWalletDeploymentStatus(userId, true);
+    console.log(`📝 Updated database: Smart Account ${smartAccount.address} marked as deployed`);
 
     // Complete user onboarding
     updateUserOnboardingStatus(userId, true);
@@ -959,7 +971,7 @@ export async function gaslessWithdrawFromFluid(
       : parseUnits(usdcAmount, 6);
 
     // Create bundler client with CDP paymaster for USDC gas payments
-    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount, wallet.isDeployed);
 
     console.log(`🚀 Preparing USDC gas payment transaction for ${isMaxWithdrawal ? "max" : usdcAmount} USDC withdrawal from Fluid Finance...`);
 

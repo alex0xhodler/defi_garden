@@ -15,6 +15,7 @@ exports.getUsersForBalanceMonitoring = getUsersForBalanceMonitoring;
 exports.saveWallet = saveWallet;
 exports.getWalletByUserId = getWalletByUserId;
 exports.getWalletByAddress = getWalletByAddress;
+exports.updateWalletDeploymentStatus = updateWalletDeploymentStatus;
 exports.deleteWallet = deleteWallet;
 exports.saveUserSettings = saveUserSettings;
 exports.getUserSettings = getUserSettings;
@@ -192,10 +193,10 @@ function getUsersForBalanceMonitoring() {
 // Wallet operations
 function saveWallet(walletData, userId) {
     const stmt = db.prepare(`
-    INSERT OR REPLACE INTO ${constants_1.DB_TABLES.WALLETS} (address, userId, encryptedPrivateKey, type, createdAt, autoCreated)
-    VALUES (?, ?, ?, ?, ?, ?)
+    INSERT OR REPLACE INTO ${constants_1.DB_TABLES.WALLETS} (address, userId, encryptedPrivateKey, type, createdAt, autoCreated, isDeployed)
+    VALUES (?, ?, ?, ?, ?, ?, ?)
   `);
-    stmt.run(walletData.address, userId, walletData.encryptedPrivateKey, walletData.type, walletData.createdAt, walletData.autoCreated ? 1 : 0);
+    stmt.run(walletData.address, userId, walletData.encryptedPrivateKey, walletData.type, walletData.createdAt, walletData.autoCreated ? 1 : 0, walletData.isDeployed ? 1 : 0);
 }
 function getWalletByUserId(userId) {
     const stmt = db.prepare(`
@@ -209,7 +210,8 @@ function getWalletByUserId(userId) {
         encryptedPrivateKey: result.encryptedPrivateKey,
         type: result.type,
         createdAt: result.createdAt,
-        autoCreated: result.autoCreated === 1
+        autoCreated: result.autoCreated === 1,
+        isDeployed: result.isDeployed === 1
     };
 }
 function getWalletByAddress(address) {
@@ -224,8 +226,15 @@ function getWalletByAddress(address) {
         encryptedPrivateKey: result.encryptedPrivateKey,
         type: result.type,
         createdAt: result.createdAt,
-        autoCreated: result.autoCreated === 1
+        autoCreated: result.autoCreated === 1,
+        isDeployed: result.isDeployed === 1
     };
+}
+function updateWalletDeploymentStatus(userId, isDeployed) {
+    const stmt = db.prepare(`
+    UPDATE ${constants_1.DB_TABLES.WALLETS} SET isDeployed = ? WHERE userId = ?
+  `);
+    stmt.run(isDeployed ? 1 : 0, userId);
 }
 function deleteWallet(address) {
     const stmt = db.prepare(`

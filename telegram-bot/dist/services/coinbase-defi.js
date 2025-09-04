@@ -36,6 +36,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.autoDeployToCompoundV3 = autoDeployToCompoundV3;
 exports.getCompoundV3APY = getCompoundV3APY;
 exports.getCompoundV3Balance = getCompoundV3Balance;
+exports.getCompoundV3BalanceExact = getCompoundV3BalanceExact;
 exports.withdrawFromCompoundV3 = withdrawFromCompoundV3;
 exports.gaslessDeployToAave = gaslessDeployToAave;
 exports.gaslessWithdrawFromAave = gaslessWithdrawFromAave;
@@ -197,7 +198,7 @@ async function autoDeployToCompoundV3(userId, usdcAmount) {
             console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.01 reserved for gas)`);
         }
         // Create bundler client with CDP paymaster for USDC gas payments
-        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount);
+        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount, wallet.isDeployed);
         console.log(`🚀 Preparing USDC gas payment transaction for ${actualDeployAmount} USDC...`);
         // CDP Paymaster contract address (extracted from error logs)
         const PAYMASTER_CONTRACT_ADDRESS = "0x2faeb0760d4230ef2ac21496bb4f0b47d634fd4c";
@@ -246,6 +247,12 @@ async function autoDeployToCompoundV3(userId, usdcAmount) {
             hash: userOpHash,
         });
         console.log(`✅ Transaction confirmed! Hash: ${receipt.receipt.transactionHash}`);
+        // Update database to mark Smart Account as deployed
+        (0, database_1.updateWalletDeploymentStatus)(userId, true);
+        console.log(`📝 Updated database: Smart Account ${smartAccount.address} marked as deployed`);
+        // Add delay to allow blockchain state to propagate across all nodes
+        console.log(`⏳ Waiting for blockchain state propagation...`);
+        await new Promise(resolve => setTimeout(resolve, 3000));
         // Complete user onboarding
         (0, database_1.updateUserOnboardingStatus)(userId, true);
         return {
@@ -331,30 +338,70 @@ async function getCompoundV3Balance(walletAddress) {
     }
 }
 /**
+ * Get exact Compound V3 balance in wei for precise withdrawals
+ */
+async function getCompoundV3BalanceExact(walletAddress) {
+    try {
+        const { coinbasePublicClient } = await Promise.resolve().then(() => __importStar(require('../lib/coinbase-wallet')));
+        const balance = await coinbasePublicClient.readContract({
+            address: COMPOUND_V3_USDC_ADDRESS,
+            abi: [
+                {
+                    constant: true,
+                    inputs: [{ name: 'account', type: 'address' }],
+                    name: 'balanceOf',
+                    outputs: [{ name: '', type: 'uint256' }],
+                    type: 'function',
+                },
+            ],
+            functionName: 'balanceOf',
+            args: [walletAddress],
+        });
+        return balance;
+    }
+    catch (error) {
+        console.error('Error checking exact Compound V3 balance:', error);
+        return 0n;
+    }
+}
+/**
  * Withdraw USDC from Compound V3 with CDP sponsored gas
  */
-async function withdrawFromCompoundV3(userId, usdcAmount) {
+async function withdrawFromCompoundV3(userId, usdcAmount, isMaxWithdrawal = false) {
     try {
-        console.log(`💸 Withdrawing ${usdcAmount} USDC from Compound V3 for user ${userId}`);
+        const displayAmount = typeof usdcAmount === 'string' ? usdcAmount :
+            (Number(usdcAmount) / Math.pow(10, 6)).toFixed(6);
+        console.log(`💸 Withdrawing ${displayAmount} USDC from Compound V3 for user ${userId}`);
         // Get user's Coinbase Smart Wallet
         const wallet = await (0, coinbase_wallet_1.getCoinbaseSmartWallet)(userId);
         if (!wallet) {
             throw new Error('No Coinbase Smart Wallet found for user');
         }
         const { smartAccount } = wallet;
-        // Convert USDC amount to proper units (6 decimals)
-        const withdrawAmountWei = (0, viem_1.parseUnits)(usdcAmount, 6);
-        // Check current Compound V3 balance
-        const compoundBalance = await getCompoundV3Balance(smartAccount.address);
-        const compoundBalanceWei = (0, viem_1.parseUnits)(compoundBalance, 6);
-        if (compoundBalanceWei === 0n) {
+        let withdrawAmountWei;
+        if (isMaxWithdrawal && typeof usdcAmount === 'bigint') {
+            // For max withdrawals, use the exact balance provided
+            withdrawAmountWei = usdcAmount;
+        }
+        else if (typeof usdcAmount === 'string') {
+            // Convert USDC amount to proper units (6 decimals)
+            withdrawAmountWei = (0, viem_1.parseUnits)(usdcAmount, 6);
+        }
+        else {
+            // bigint provided but not max withdrawal
+            withdrawAmountWei = usdcAmount;
+        }
+        // Check current Compound V3 balance (only for validation, not for exact amount)
+        const compoundBalanceExact = await getCompoundV3BalanceExact(smartAccount.address);
+        if (compoundBalanceExact === 0n) {
             throw new Error('No USDC deposited in Compound V3 to withdraw');
         }
-        if (withdrawAmountWei > compoundBalanceWei) {
-            throw new Error(`Insufficient Compound V3 balance. Requested: ${usdcAmount} USDC, Available: ${compoundBalance} USDC`);
+        if (!isMaxWithdrawal && withdrawAmountWei > compoundBalanceExact) {
+            const availableFormatted = (Number(compoundBalanceExact) / Math.pow(10, 6)).toFixed(6);
+            throw new Error(`Insufficient Compound V3 balance. Requested: ${displayAmount} USDC, Available: ${availableFormatted} USDC`);
         }
         // Create bundler client with CDP paymaster for USDC gas payments
-        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount);
+        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount, wallet.isDeployed);
         console.log(`🚀 Preparing USDC gas payment transaction for ${usdcAmount} USDC withdrawal...`);
         // Build calls array - just withdraw (no approval needed for withdrawals)
         const calls = [
@@ -475,7 +522,7 @@ async function gaslessDeployToAave(userId, usdcAmount) {
             console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.01 reserved for gas)`);
         }
         // Create bundler client with CDP paymaster for USDC gas payments
-        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount);
+        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount, wallet.isDeployed);
         console.log(`🚀 Preparing USDC gas payment transaction for ${actualDeployAmount} USDC to Aave V3...`);
         // Build calls array - approve and supply to Aave
         const calls = [
@@ -520,6 +567,9 @@ async function gaslessDeployToAave(userId, usdcAmount) {
             hash: userOpHash,
         });
         console.log(`✅ Aave V3 deposit confirmed! Hash: ${receipt.receipt.transactionHash}`);
+        // Update database to mark Smart Account as deployed
+        (0, database_1.updateWalletDeploymentStatus)(userId, true);
+        console.log(`📝 Updated database: Smart Account ${smartAccount.address} marked as deployed`);
         // Complete user onboarding
         (0, database_1.updateUserOnboardingStatus)(userId, true);
         return {
@@ -577,7 +627,7 @@ async function gaslessWithdrawFromAave(userId, usdcAmount) {
             ? (0, viem_1.parseUnits)("115792089237316195423570985008687907853269984665640564039457584007913129639935", 0) // MAX_UINT256
             : (0, viem_1.parseUnits)(usdcAmount, 6);
         // Create bundler client with CDP paymaster for USDC gas payments
-        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount);
+        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount, wallet.isDeployed);
         console.log(`🚀 Preparing USDC gas payment transaction for ${isMaxWithdrawal ? "max" : usdcAmount} USDC withdrawal from Aave V3...`);
         // Build calls array - just withdraw (no approval needed for withdrawals)
         const calls = [
@@ -682,6 +732,7 @@ async function gaslessDeployToFluid(userId, usdcAmount) {
             deployAmountWei = maxDeployableWei;
             actualDeployAmount = (Number(deployAmountWei) / Math.pow(10, 6)).toFixed(2);
             console.log(`💰 Auto-fitting deployment: ${usdcAmount} USDC requested, deploying ${actualDeployAmount} USDC (reserved $0.01 for gas)`);
+            console.log(`🔍 Debug Fluid - maxDeployableWei: ${maxDeployableWei}, currentBalanceWei: ${currentBalanceWei}, gasReserveWei: ${gasReserveWei}`);
         }
         else {
             // Use requested amount
@@ -689,8 +740,16 @@ async function gaslessDeployToFluid(userId, usdcAmount) {
             actualDeployAmount = usdcAmount;
             console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.01 reserved for gas)`);
         }
+        // Validate minimum deposit amount to prevent zero deposits
+        if (deployAmountWei <= 0n) {
+            throw new Error(`Deployment amount too small: ${actualDeployAmount} USDC. Need at least $0.02 USDC (minimum $0.01 + $0.01 gas reserve)`);
+        }
+        // Additional validation for very small amounts
+        if (Number(actualDeployAmount) < 0.01) {
+            throw new Error(`Deployment amount too small: ${actualDeployAmount} USDC. Minimum deployment is $0.01 USDC`);
+        }
         // Create bundler client with CDP paymaster for USDC gas payments
-        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount);
+        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount, wallet.isDeployed);
         console.log(`🚀 Preparing USDC gas payment transaction for ${actualDeployAmount} USDC to Fluid Finance...`);
         // Build calls array - approve and deposit to Fluid
         const calls = [
@@ -735,6 +794,9 @@ async function gaslessDeployToFluid(userId, usdcAmount) {
             hash: userOpHash,
         });
         console.log(`✅ Fluid Finance deposit confirmed! Hash: ${receipt.receipt.transactionHash}`);
+        // Update database to mark Smart Account as deployed
+        (0, database_1.updateWalletDeploymentStatus)(userId, true);
+        console.log(`📝 Updated database: Smart Account ${smartAccount.address} marked as deployed`);
         // Complete user onboarding
         (0, database_1.updateUserOnboardingStatus)(userId, true);
         return {
@@ -792,7 +854,7 @@ async function gaslessWithdrawFromFluid(userId, usdcAmount) {
             ? (0, viem_1.parseUnits)("115792089237316195423570985008687907853269984665640564039457584007913129639935", 0) // MAX_UINT256
             : (0, viem_1.parseUnits)(usdcAmount, 6);
         // Create bundler client with CDP paymaster for USDC gas payments
-        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount);
+        const bundlerClient = await (0, coinbase_wallet_1.createSponsoredBundlerClient)(smartAccount, wallet.isDeployed);
         console.log(`🚀 Preparing USDC gas payment transaction for ${isMaxWithdrawal ? "max" : usdcAmount} USDC withdrawal from Fluid Finance...`);
         // Build calls array - just withdraw (no approval needed for withdrawals)
         const calls = [
