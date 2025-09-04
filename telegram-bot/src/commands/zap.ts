@@ -555,7 +555,7 @@ export async function handleZapConfirmation(
         { 
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
-            .text("🚀 Earn More", "zap_funds")
+            .text("🦑 Earn More", "zap_funds")
             .text("📊 View Portfolio", "view_portfolio")
         }
       );
@@ -778,7 +778,7 @@ export async function handleZapRetry(ctx: BotContext): Promise<void> {
         { 
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
-            .text("🚀 Earn More", "zap_funds")
+            .text("🦑 Earn More", "zap_funds")
             .text("📊 View Portfolio", "view_portfolio")
         }
       );
