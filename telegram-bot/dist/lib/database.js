@@ -27,6 +27,9 @@ exports.getTransactionsByUserId = getTransactionsByUserId;
 exports.getPortfolioStats = getPortfolioStats;
 exports.cleanupUnverifiedTransactions = cleanupUnverifiedTransactions;
 exports.getDatabase = getDatabase;
+exports.saveProtocolRate = saveProtocolRate;
+exports.getProtocolRate = getProtocolRate;
+exports.getAllProtocolRates = getAllProtocolRates;
 exports.closeDatabase = closeDatabase;
 const better_sqlite3_1 = __importDefault(require("better-sqlite3"));
 const constants_1 = require("../utils/constants");
@@ -100,6 +103,15 @@ function initDatabase() {
       timestamp INTEGER NOT NULL,
       FOREIGN KEY (userId) REFERENCES ${constants_1.DB_TABLES.USERS}(userId),
       FOREIGN KEY (walletAddress) REFERENCES ${constants_1.DB_TABLES.WALLETS}(address)
+    );
+    
+    CREATE TABLE IF NOT EXISTS protocol_rates (
+      protocol TEXT PRIMARY KEY,
+      apy REAL NOT NULL,
+      apyBase REAL NOT NULL,
+      apyReward REAL NOT NULL,
+      tvlUsd REAL NOT NULL,
+      lastUpdated INTEGER NOT NULL
     );
     
     CREATE INDEX IF NOT EXISTS idx_positions_user ON ${constants_1.DB_TABLES.POSITIONS}(userId);
@@ -367,6 +379,26 @@ function cleanupUnverifiedTransactions(userId) {
 // Get database instance for direct access
 function getDatabase() {
     return db;
+}
+// Protocol rates operations
+function saveProtocolRate(protocol, apy, apyBase, apyReward, tvlUsd) {
+    const stmt = db.prepare(`
+    INSERT OR REPLACE INTO protocol_rates (protocol, apy, apyBase, apyReward, tvlUsd, lastUpdated)
+    VALUES (?, ?, ?, ?, ?, ?)
+  `);
+    stmt.run(protocol.toLowerCase(), apy, apyBase, apyReward, tvlUsd, Date.now());
+}
+function getProtocolRate(protocol) {
+    const stmt = db.prepare(`
+    SELECT * FROM protocol_rates WHERE protocol = ?
+  `);
+    return stmt.get(protocol.toLowerCase());
+}
+function getAllProtocolRates() {
+    const stmt = db.prepare(`
+    SELECT * FROM protocol_rates ORDER BY apy DESC
+  `);
+    return stmt.all();
 }
 // Close database connection
 function closeDatabase() {

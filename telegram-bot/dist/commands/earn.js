@@ -205,6 +205,7 @@ async function handlePoolSelection(ctx) {
         const userMinApy = ctx.session.settings?.minApy || 5;
         // Get available yield opportunities
         const opportunities = await getYieldOpportunities("USDC", userRiskLevel, userMinApy);
+        console.log(`🔍 Raw opportunities from API: ${opportunities.map(p => `${p.project}(${p.apy}%)`).join(', ')}`);
         // Filter and score pools
         console.log(`🔍 Pool selection filters: Risk Level ${userRiskLevel} (max ${userRiskLevel * 2}), Min APY ${userMinApy}%`);
         const suitablePools = opportunities
@@ -222,10 +223,18 @@ async function handlePoolSelection(ctx) {
         })
             .sort((a, b) => b.apy - a.apy);
         if (suitablePools.length === 0) {
+            console.log(`❌ No suitable pools found! Available pools were:`, opportunities.map(p => ({
+                project: p.project,
+                apy: p.apy,
+                riskScore: calculateRiskScore(p),
+                tvl: p.tvlUsd
+            })));
             await ctx.reply(`😔 No pools match your criteria:\n` +
-                `• Risk level: ${userRiskLevel}/5\n` +
+                `• Risk level: ${userRiskLevel}/5 (max risk score: ${userRiskLevel * 2})\n` +
                 `• Min APY: ${userMinApy}%\n\n` +
-                `Try adjusting your settings with /settings`);
+                `Available pools:\n` +
+                opportunities.map(p => `• ${p.project}: ${p.apy}% APY, Risk: ${calculateRiskScore(p)}/10`).join('\n') +
+                `\n\nTry adjusting your settings with /settings`);
             return;
         }
         // Show pool selection

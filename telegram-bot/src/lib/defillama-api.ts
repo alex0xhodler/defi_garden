@@ -124,6 +124,9 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
   try {
     console.log("=== FETCHING REAL-TIME YIELDS ===");
     
+    // Import database functions
+    const { saveProtocolRate, getProtocolRate } = await import("./database");
+    
     // Fetch all three pools in one efficient call
     const pools = await fetchSpecificPools([
       POOL_IDS.AAVE,
@@ -141,30 +144,75 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
     if (aavePool) {
       const aaveOpportunity = convertToYieldOpportunity(aavePool, "Aave");
       opportunities.push(aaveOpportunity);
-      console.log(`✅ Aave: ${aaveOpportunity.apy}% APY (${aaveOpportunity.apyBase}% base + ${aaveOpportunity.apyReward}% rewards)`);
+      
+      // Save to database for future fallback
+      saveProtocolRate("aave", aaveOpportunity.apy, aaveOpportunity.apyBase, aaveOpportunity.apyReward, aavePool.tvlUsd);
+      console.log(`✅ Aave: ${aaveOpportunity.apy}% APY (${aaveOpportunity.apyBase}% base + ${aaveOpportunity.apyReward}% rewards) - saved to DB`);
     } else {
-      console.warn("❌ Failed to fetch Aave data, using fallback");
-      opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Aave", 5.69));
+      console.warn("❌ Failed to fetch Aave data, using database fallback");
+      const cachedAave = getProtocolRate("aave");
+      if (cachedAave) {
+        opportunities.push(convertToYieldOpportunity({
+          tvlUsd: cachedAave.tvlUsd,
+          apy: cachedAave.apy,
+          apyBase: cachedAave.apyBase,
+          apyReward: cachedAave.apyReward
+        } as DeFiLlamaPool, "Aave"));
+        console.log(`📦 Using cached Aave data: ${cachedAave.apy}% APY (last updated: ${new Date(cachedAave.lastUpdated).toISOString()})`);
+      } else {
+        console.log(`🔧 Using hardcoded Aave fallback: 5.69% APY`);
+        opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Aave", 5.69));
+      }
     }
     
     // Process Fluid
     if (fluidPool) {
       const fluidOpportunity = convertToYieldOpportunity(fluidPool, "Fluid");
       opportunities.push(fluidOpportunity);
-      console.log(`✅ Fluid: ${fluidOpportunity.apy}% APY (${fluidOpportunity.apyBase}% base + ${fluidOpportunity.apyReward}% rewards)`);
+      
+      // Save to database for future fallback
+      saveProtocolRate("fluid", fluidOpportunity.apy, fluidOpportunity.apyBase, fluidOpportunity.apyReward, fluidPool.tvlUsd);
+      console.log(`✅ Fluid: ${fluidOpportunity.apy}% APY (${fluidOpportunity.apyBase}% base + ${fluidOpportunity.apyReward}% rewards) - saved to DB`);
     } else {
-      console.warn("❌ Failed to fetch Fluid data, using fallback");
-      opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Fluid", 7.72));
+      console.warn("❌ Failed to fetch Fluid data, using database fallback");
+      const cachedFluid = getProtocolRate("fluid");
+      if (cachedFluid) {
+        opportunities.push(convertToYieldOpportunity({
+          tvlUsd: cachedFluid.tvlUsd,
+          apy: cachedFluid.apy,
+          apyBase: cachedFluid.apyBase,
+          apyReward: cachedFluid.apyReward
+        } as DeFiLlamaPool, "Fluid"));
+        console.log(`📦 Using cached Fluid data: ${cachedFluid.apy}% APY (last updated: ${new Date(cachedFluid.lastUpdated).toISOString()})`);
+      } else {
+        console.log(`🔧 Using hardcoded Fluid fallback: 7.72% APY`);
+        opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Fluid", 7.72));
+      }
     }
     
     // Process Compound
     if (compoundPool) {
       const compoundOpportunity = convertToYieldOpportunity(compoundPool, "Compound");
       opportunities.push(compoundOpportunity);
-      console.log(`✅ Compound: ${compoundOpportunity.apy}% APY (${compoundOpportunity.apyBase}% base + ${compoundOpportunity.apyReward}% rewards)`);
+      
+      // Save to database for future fallback
+      saveProtocolRate("compound", compoundOpportunity.apy, compoundOpportunity.apyBase, compoundOpportunity.apyReward, compoundPool.tvlUsd);
+      console.log(`✅ Compound: ${compoundOpportunity.apy}% APY (${compoundOpportunity.apyBase}% base + ${compoundOpportunity.apyReward}% rewards) - saved to DB`);
     } else {
-      console.warn("❌ Failed to fetch Compound data, using fallback");
-      opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Compound", 7.65));
+      console.warn("❌ Failed to fetch Compound data, using database fallback");
+      const cachedCompound = getProtocolRate("compound");
+      if (cachedCompound) {
+        opportunities.push(convertToYieldOpportunity({
+          tvlUsd: cachedCompound.tvlUsd,
+          apy: cachedCompound.apy,
+          apyBase: cachedCompound.apyBase,
+          apyReward: cachedCompound.apyReward
+        } as DeFiLlamaPool, "Compound"));
+        console.log(`📦 Using cached Compound data: ${cachedCompound.apy}% APY (last updated: ${new Date(cachedCompound.lastUpdated).toISOString()})`);
+      } else {
+        console.log(`🔧 Using hardcoded Compound fallback: 7.65% APY`);
+        opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Compound", 7.65));
+      }
     }
     
     console.log(`=== FETCHED ${opportunities.length} REAL-TIME YIELDS ===`);
@@ -173,13 +221,45 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
   } catch (error) {
     console.error("Error fetching real-time yields:", error);
     
-    // Return fallback data if API fails
-    console.log("Using fallback yield data due to API error");
-    return [
-      convertToYieldOpportunity({} as DeFiLlamaPool, "Aave", 5.69),
-      convertToYieldOpportunity({} as DeFiLlamaPool, "Fluid", 7.72),
-      convertToYieldOpportunity({} as DeFiLlamaPool, "Compound", 7.65)
-    ];
+    // Try to use database cache as fallback
+    console.log("API failed, attempting to use database cache");
+    try {
+      const { getProtocolRate } = await import("./database");
+      const opportunities: YieldOpportunity[] = [];
+      
+      // Try cached data for each protocol
+      const protocols = [
+        { name: "Aave", fallback: 5.69 },
+        { name: "Fluid", fallback: 7.72 },
+        { name: "Compound", fallback: 7.65 }
+      ];
+      
+      for (const { name, fallback } of protocols) {
+        const cached = getProtocolRate(name.toLowerCase());
+        if (cached) {
+          opportunities.push(convertToYieldOpportunity({
+            tvlUsd: cached.tvlUsd,
+            apy: cached.apy,
+            apyBase: cached.apyBase,
+            apyReward: cached.apyReward
+          } as DeFiLlamaPool, name));
+          console.log(`📦 Using cached ${name} data: ${cached.apy}% APY (${Math.round((Date.now() - cached.lastUpdated) / (60 * 1000))} minutes old)`);
+        } else {
+          opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, name, fallback));
+          console.log(`🔧 Using hardcoded ${name} fallback: ${fallback}% APY`);
+        }
+      }
+      
+      return opportunities;
+    } catch (dbError) {
+      console.error("Database fallback also failed:", dbError);
+      console.log("Using hardcoded fallback yield data");
+      return [
+        convertToYieldOpportunity({} as DeFiLlamaPool, "Aave", 5.69),
+        convertToYieldOpportunity({} as DeFiLlamaPool, "Fluid", 7.72),
+        convertToYieldOpportunity({} as DeFiLlamaPool, "Compound", 7.65)
+      ];
+    }
   }
 }
 
