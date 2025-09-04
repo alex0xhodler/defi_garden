@@ -25,11 +25,11 @@ export interface InsufficientBalanceDetails {
 }
 
 /**
- * Store pending transaction in user session
+ * Store pending transaction in user session and database
  */
 export function storePendingTransaction(ctx: BotContext, details: InsufficientBalanceDetails): void {
-  ctx.session.pendingTransaction = {
-    type: 'invest',
+  const pendingTx: PendingTransaction = {
+    type: 'invest' as const,
     protocol: details.protocol,
     poolId: details.poolId,
     amount: details.requestedAmount,
@@ -38,6 +38,37 @@ export function storePendingTransaction(ctx: BotContext, details: InsufficientBa
     timestamp: Date.now(),
     reminderSent: false
   };
+
+  // Store in in-memory session
+  ctx.session.pendingTransaction = pendingTx;
+
+  // Also store in database for event monitor access
+  try {
+    const { getDatabase } = require("../lib/database");
+    const db = getDatabase();
+    const userId = ctx.session.userId;
+    
+    if (userId) {
+      // Get current session data
+      const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+      let sessionData: any = {};
+      
+      if (userSession && userSession.session_data) {
+        sessionData = JSON.parse(userSession.session_data);
+      }
+      
+      // Add pending transaction
+      sessionData.pendingTransaction = pendingTx;
+      
+      // Save back to database
+      db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+        .run(JSON.stringify(sessionData), userId);
+        
+      console.log(`💾 Stored pending transaction in DB for user ${userId}: ${details.protocol} $${details.requestedAmount}`);
+    }
+  } catch (error) {
+    console.error("Error storing pending transaction to database:", error);
+  }
 }
 
 /**
@@ -56,11 +87,40 @@ export function getPendingTransaction(ctx: BotContext): PendingTransaction | und
 }
 
 /**
- * Clear pending transaction from session
+ * Clear pending transaction from session and database
  */
 export function clearPendingTransaction(ctx: BotContext): void {
+  // Clear from in-memory session
   if (ctx.session.pendingTransaction) {
     delete ctx.session.pendingTransaction;
+  }
+
+  // Also clear from database
+  try {
+    const { getDatabase } = require("../lib/database");
+    const db = getDatabase();
+    const userId = ctx.session.userId;
+    
+    if (userId) {
+      // Get current session data
+      const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+      
+      if (userSession && userSession.session_data) {
+        const sessionData = JSON.parse(userSession.session_data);
+        
+        if (sessionData.pendingTransaction) {
+          delete sessionData.pendingTransaction;
+          
+          // Save back to database
+          db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+            .run(JSON.stringify(sessionData), userId);
+            
+          console.log(`🗑️ Cleared pending transaction from DB for user ${userId}`);
+        }
+      }
+    }
+  } catch (error) {
+    console.error("Error clearing pending transaction from database:", error);
   }
 }
 

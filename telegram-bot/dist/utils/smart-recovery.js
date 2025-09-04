@@ -16,10 +16,10 @@ const grammy_1 = require("grammy");
 const token_wallet_1 = require("../lib/token-wallet");
 const database_1 = require("../lib/database");
 /**
- * Store pending transaction in user session
+ * Store pending transaction in user session and database
  */
 function storePendingTransaction(ctx, details) {
-    ctx.session.pendingTransaction = {
+    const pendingTx = {
         type: 'invest',
         protocol: details.protocol,
         poolId: details.poolId,
@@ -29,6 +29,31 @@ function storePendingTransaction(ctx, details) {
         timestamp: Date.now(),
         reminderSent: false
     };
+    // Store in in-memory session
+    ctx.session.pendingTransaction = pendingTx;
+    // Also store in database for event monitor access
+    try {
+        const { getDatabase } = require("../lib/database");
+        const db = getDatabase();
+        const userId = ctx.session.userId;
+        if (userId) {
+            // Get current session data
+            const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+            let sessionData = {};
+            if (userSession && userSession.session_data) {
+                sessionData = JSON.parse(userSession.session_data);
+            }
+            // Add pending transaction
+            sessionData.pendingTransaction = pendingTx;
+            // Save back to database
+            db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+                .run(JSON.stringify(sessionData), userId);
+            console.log(`💾 Stored pending transaction in DB for user ${userId}: ${details.protocol} $${details.requestedAmount}`);
+        }
+    }
+    catch (error) {
+        console.error("Error storing pending transaction to database:", error);
+    }
 }
 /**
  * Get pending transaction from session
@@ -43,11 +68,35 @@ function getPendingTransaction(ctx) {
     return pending;
 }
 /**
- * Clear pending transaction from session
+ * Clear pending transaction from session and database
  */
 function clearPendingTransaction(ctx) {
+    // Clear from in-memory session
     if (ctx.session.pendingTransaction) {
         delete ctx.session.pendingTransaction;
+    }
+    // Also clear from database
+    try {
+        const { getDatabase } = require("../lib/database");
+        const db = getDatabase();
+        const userId = ctx.session.userId;
+        if (userId) {
+            // Get current session data
+            const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+            if (userSession && userSession.session_data) {
+                const sessionData = JSON.parse(userSession.session_data);
+                if (sessionData.pendingTransaction) {
+                    delete sessionData.pendingTransaction;
+                    // Save back to database
+                    db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+                        .run(JSON.stringify(sessionData), userId);
+                    console.log(`🗑️ Cleared pending transaction from DB for user ${userId}`);
+                }
+            }
+        }
+    }
+    catch (error) {
+        console.error("Error clearing pending transaction from database:", error);
     }
 }
 /**
