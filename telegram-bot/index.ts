@@ -217,13 +217,18 @@ bot.on("callback_query:data", async (ctx) => {
         setTimeout(async () => {
           try {
             const coinbaseDefi = await import("./src/services/coinbase-defi");
-            const deploymentFunction = coinbaseDefi[bestProtocol.deployFn as keyof typeof coinbaseDefi];
             
-            if (!deploymentFunction) {
-              throw new Error(`Deployment function ${bestProtocol.deployFn} not found`);
+            let deployResult: { success: boolean; txHash?: string; error?: string };
+            
+            if (bestProtocol.deployFn === 'autoDeployToCompoundV3') {
+              deployResult = await coinbaseDefi.autoDeployToCompoundV3(userId, usdcBalance.toString());
+            } else if (bestProtocol.deployFn === 'gaslessDeployToAave') {
+              deployResult = await coinbaseDefi.gaslessDeployToAave(userId, usdcBalance.toString());
+            } else if (bestProtocol.deployFn === 'gaslessDeployToFluid') {
+              deployResult = await coinbaseDefi.gaslessDeployToFluid(userId, usdcBalance.toString());
+            } else {
+              throw new Error(`Unknown deployment function: ${bestProtocol.deployFn}`);
             }
-            
-            const deployResult = await deploymentFunction(userId, usdcBalance.toString());
             
             if (deployResult.success) {
               // Send success message with main menu

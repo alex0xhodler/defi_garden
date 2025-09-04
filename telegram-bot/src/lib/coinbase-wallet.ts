@@ -276,11 +276,11 @@ export async function transferUsdcGasless(
     const currentBalanceWei = parseUnits(currentBalance, 6);
     
     // Reserve small amount for gas (Base gas is ~1¢)
-    const gasReserveWei = parseUnits('0.05', 6); // $0.05 USDC reserve for gas
+    const gasReserveWei = parseUnits('0.01', 6); // $0.01 USDC reserve for gas
     
     // Check if sufficient balance including gas
     if (currentBalanceWei <= gasReserveWei) {
-      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.05 USDC for gas`);
+      throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
     }
     
     const maxTransferableWei = currentBalanceWei - gasReserveWei;
