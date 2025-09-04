@@ -366,7 +366,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
     } else {
       // No pending transaction - standard deposit flow
       const keyboard = new InlineKeyboard()
-        .text("🦑 Deploy to Protocols", "zap_auto_deploy")
+        .text("🦑 inkvest Automanaged", "zap_auto_deploy")
         .row()
         .text("📊 View Portfolio", "view_portfolio")
         .text("💰 Check Balance", "check_balance")
@@ -378,7 +378,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
         `💰 **Deposit confirmed ${firstName}!**\n\n` +
         `+$${amount} ${tokenSymbol} received\n` +
         `💳 **Total wallet balance: $${totalBalance} USDC**\n\n` +
-        `Your funds are ready! Choose where to deploy them for maximum yield:\n\n` +
+        `Your funds are ready! Choose your investment approach:\n\n` +
         `Deposit TX: ${formatTxLink(txHash)}`,
         { 
           parse_mode: "Markdown",

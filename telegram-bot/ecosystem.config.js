@@ -5,6 +5,7 @@ module.exports = {
       script: './index.ts',
       interpreter: 'npx',
       interpreter_args: 'ts-node',
+      node_args: ['--max-old-space-size=512'],
       instances: 1,
       exec_mode: 'fork',
       env: {
@@ -25,6 +26,7 @@ module.exports = {
       script: './src/services/event-monitor.js',
       interpreter: 'npx',
       interpreter_args: 'ts-node',
+      node_args: ['--max-old-space-size=256'],
       instances: 1,
       exec_mode: 'fork',
       env: {
