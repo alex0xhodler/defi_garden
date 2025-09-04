@@ -52,27 +52,92 @@ export const balanceHandler: CommandHandler = {
       await ctx.reply("⏳ Fetching your balances...");
 
       try {
-        // Get ETH balance
+        // Get wallet balances
         const ethBalance = await getEthBalance(wallet.address);
-
-        // Get token balances - only check USDC to reduce RPC calls
         const tokenBalances = await getMultipleTokenBalances(
-          [BASE_TOKENS.USDC], // Only check USDC to minimize RPC calls
+          [BASE_TOKENS.USDC],
           wallet.address as Address
         );
 
-        // Create actions keyboard
+        // Get DeFi positions
+        const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import("../lib/token-wallet");
+        const [aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
+          getAaveBalance(wallet.address as Address),
+          getFluidBalance(wallet.address as Address),
+          getCompoundBalance(wallet.address as Address)
+        ]);
+
+        // Build smart balance message showing only positive balances
+        let message = `💰 **Your inkvest Balance**\n\n`;
+        let hasAnyBalance = false;
+
+        // ETH Balance (show if > 0.001)
+        const ethNum = parseFloat(formatEther(BigInt(ethBalance)));
+        if (ethNum > 0.001) {
+          message += `⚡ **ETH**: ${ethNum.toFixed(4)} ETH\n`;
+          hasAnyBalance = true;
+        }
+
+        // USDC Balance (show if > 0.01)
+        const usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
+        if (usdcBalance) {
+          const usdcNum = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
+          if (usdcNum > 0.01) {
+            message += `💵 **USDC**: $${usdcNum.toFixed(2)}\n`;
+            hasAnyBalance = true;
+          }
+        }
+
+        // DeFi Positions (show if > 0.01)
+        let totalDefiValue = 0;
+        let defiPositions = "";
+
+        const aaveNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
+        if (aaveNum > 0.01) {
+          defiPositions += `🏛️ **Aave V3**: $${aaveNum.toFixed(2)} USDC\n`;
+          totalDefiValue += aaveNum;
+          hasAnyBalance = true;
+        }
+
+        const fluidNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
+        if (fluidNum > 0.01) {
+          defiPositions += `🌊 **Fluid**: $${fluidNum.toFixed(2)} USDC\n`;
+          totalDefiValue += fluidNum;
+          hasAnyBalance = true;
+        }
+
+        const compoundNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
+        if (compoundNum > 0.01) {
+          defiPositions += `🏦 **Compound V3**: $${compoundNum.toFixed(2)} USDC\n`;
+          totalDefiValue += compoundNum;
+          hasAnyBalance = true;
+        }
+
+        if (defiPositions) {
+          message += `\n🚀 **Earning Positions**:\n${defiPositions}`;
+        }
+
+        // Show total if user has DeFi positions
+        if (totalDefiValue > 0) {
+          const usdcNum = usdcBalance ? parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2)) : 0;
+          const totalValue = usdcNum + totalDefiValue;
+          message += `\n💎 **Total Value**: $${totalValue.toFixed(2)}`;
+        }
+
+        if (!hasAnyBalance) {
+          message += `📭 **No significant balances found**\n\n`;
+          message += `💡 *Tip: Deposit USDC to start earning!*`;
+        }
+
+        // Enhanced keyboard with better navigation
         const keyboard = new InlineKeyboard()
-          .text("📥 Deposit", "deposit")
-          .text("🚀 Start Earning", "zap_funds")
-          .row()
-          .text("📤 Withdraw ETH", "withdraw_eth")
+          .text("📥 Deposit USDC", "deposit")
           .text("📤 Withdraw USDC", "withdraw_usdc")
           .row()
+          .text("📊 Portfolio", "view_portfolio")
+          .text("🐙 Earn More", "zap_funds")
+          .row()
           .text("🔄 Refresh", "check_balance");
-
-        // Format and send balance message
-        const message = formatBalanceMessage(ethBalance, tokenBalances);
 
         await ctx.reply(message, {
           parse_mode: "Markdown",
