@@ -155,7 +155,7 @@ export async function autoDeployToCompoundV3(
     let deployAmountWei: bigint;
     let actualDeployAmount: string;
     
-    if (currentBalanceWei <= gasReserveWei) {
+    if (currentBalanceWei < gasReserveWei) {
       throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
     }
     
@@ -494,7 +494,7 @@ export async function gaslessDeployToAave(
     let deployAmountWei: bigint;
     let actualDeployAmount: string;
     
-    if (currentBalanceWei <= gasReserveWei) {
+    if (currentBalanceWei < gasReserveWei) {
       throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
     }
     
@@ -757,7 +757,7 @@ export async function gaslessDeployToFluid(
     let deployAmountWei: bigint;
     let actualDeployAmount: string;
     
-    if (currentBalanceWei <= gasReserveWei) {
+    if (currentBalanceWei < gasReserveWei) {
       throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
     }
     

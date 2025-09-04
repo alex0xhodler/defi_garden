@@ -180,7 +180,7 @@ async function autoDeployToCompoundV3(userId, usdcAmount) {
         // Auto-fit deployment amount to available balance minus gas reserve
         let deployAmountWei;
         let actualDeployAmount;
-        if (currentBalanceWei <= gasReserveWei) {
+        if (currentBalanceWei < gasReserveWei) {
             throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
         }
         const maxDeployableWei = currentBalanceWei - gasReserveWei;
@@ -458,7 +458,7 @@ async function gaslessDeployToAave(userId, usdcAmount) {
         // Auto-fit deployment amount to available balance minus gas reserve
         let deployAmountWei;
         let actualDeployAmount;
-        if (currentBalanceWei <= gasReserveWei) {
+        if (currentBalanceWei < gasReserveWei) {
             throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
         }
         const maxDeployableWei = currentBalanceWei - gasReserveWei;
@@ -673,7 +673,7 @@ async function gaslessDeployToFluid(userId, usdcAmount) {
         // Auto-fit deployment amount to available balance minus gas reserve
         let deployAmountWei;
         let actualDeployAmount;
-        if (currentBalanceWei <= gasReserveWei) {
+        if (currentBalanceWei < gasReserveWei) {
             throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
         }
         const maxDeployableWei = currentBalanceWei - gasReserveWei;

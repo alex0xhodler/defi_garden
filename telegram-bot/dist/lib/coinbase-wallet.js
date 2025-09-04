@@ -276,7 +276,7 @@ async function transferUsdcGasless(userId, toAddress, usdcAmount) {
         // Reserve small amount for gas (Base gas is ~1¢)
         const gasReserveWei = (0, viem_1.parseUnits)('0.01', 6); // $0.01 USDC reserve for gas
         // Check if sufficient balance including gas
-        if (currentBalanceWei <= gasReserveWei) {
+        if (currentBalanceWei < gasReserveWei) {
             throw new Error(`Insufficient USDC balance for gas fees. Have: ${currentBalance} USDC, Need at least: $0.01 USDC for gas`);
         }
         const maxTransferableWei = currentBalanceWei - gasReserveWei;
