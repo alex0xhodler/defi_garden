@@ -4,7 +4,6 @@ module.exports = {
       name: 'inkvest-bot',
       script: './index.ts',
       interpreter: './node_modules/.bin/ts-node',
-      node_args: ['--max-old-space-size=512'],
       instances: 1,
       exec_mode: 'fork',
       env: {
