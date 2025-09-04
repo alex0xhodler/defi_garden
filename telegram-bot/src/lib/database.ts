@@ -81,7 +81,8 @@ export function initDatabase(): void {
       onboardingCompleted INTEGER,
       lastBalanceCheck INTEGER,
       expectingDepositUntil INTEGER,
-      notificationSettings TEXT
+      notificationSettings TEXT,
+      session_data TEXT
     );
     
     CREATE TABLE IF NOT EXISTS ${DB_TABLES.WALLETS} (
@@ -142,6 +143,17 @@ export function initDatabase(): void {
     CREATE INDEX IF NOT EXISTS idx_transactions_user ON ${DB_TABLES.TRANSACTIONS}(userId);
     CREATE INDEX IF NOT EXISTS idx_transactions_type ON ${DB_TABLES.TRANSACTIONS}(operationType);
   `);
+  
+  // Add session_data column if it doesn't exist (migration)
+  try {
+    db.exec(`ALTER TABLE ${DB_TABLES.USERS} ADD COLUMN session_data TEXT`);
+    console.log("✅ Added session_data column to users table");
+  } catch (error: any) {
+    // Column already exists - this is normal
+    if (!error.message.includes('duplicate column name')) {
+      console.error("Error adding session_data column:", error);
+    }
+  }
 }
 
 // User operations
@@ -513,6 +525,11 @@ export function cleanupUnverifiedTransactions(userId: string): {
   }
 
   return { deletedTransactions, deletedPositions };
+}
+
+// Get database instance for direct access
+export function getDatabase() {
+  return db;
 }
 
 // Close database connection

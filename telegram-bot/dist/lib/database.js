@@ -26,6 +26,7 @@ exports.saveTransaction = saveTransaction;
 exports.getTransactionsByUserId = getTransactionsByUserId;
 exports.getPortfolioStats = getPortfolioStats;
 exports.cleanupUnverifiedTransactions = cleanupUnverifiedTransactions;
+exports.getDatabase = getDatabase;
 exports.closeDatabase = closeDatabase;
 const better_sqlite3_1 = __importDefault(require("better-sqlite3"));
 const constants_1 = require("../utils/constants");
@@ -43,7 +44,8 @@ function initDatabase() {
       onboardingCompleted INTEGER,
       lastBalanceCheck INTEGER,
       expectingDepositUntil INTEGER,
-      notificationSettings TEXT
+      notificationSettings TEXT,
+      session_data TEXT
     );
     
     CREATE TABLE IF NOT EXISTS ${constants_1.DB_TABLES.WALLETS} (
@@ -104,6 +106,17 @@ function initDatabase() {
     CREATE INDEX IF NOT EXISTS idx_transactions_user ON ${constants_1.DB_TABLES.TRANSACTIONS}(userId);
     CREATE INDEX IF NOT EXISTS idx_transactions_type ON ${constants_1.DB_TABLES.TRANSACTIONS}(operationType);
   `);
+    // Add session_data column if it doesn't exist (migration)
+    try {
+        db.exec(`ALTER TABLE ${constants_1.DB_TABLES.USERS} ADD COLUMN session_data TEXT`);
+        console.log("✅ Added session_data column to users table");
+    }
+    catch (error) {
+        // Column already exists - this is normal
+        if (!error.message.includes('duplicate column name')) {
+            console.error("Error adding session_data column:", error);
+        }
+    }
 }
 // User operations
 function createUser(userId, telegramId, username, firstName, lastName) {
@@ -350,6 +363,10 @@ function cleanupUnverifiedTransactions(userId) {
         deletedPositions = posResult.changes;
     }
     return { deletedTransactions, deletedPositions };
+}
+// Get database instance for direct access
+function getDatabase() {
+    return db;
 }
 // Close database connection
 function closeDatabase() {

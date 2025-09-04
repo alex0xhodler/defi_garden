@@ -1,5 +1,5 @@
 import { BotContext } from "../context";
-import { getWallet } from "../lib/token-wallet";
+import { getWallet, getAaveBalance, getFluidBalance, getCompoundBalance } from "../lib/token-wallet";
 import { withdrawFromAave, withdrawFromFluid, withdrawFromCompound } from "../lib/defi-protocols";
 import { withdrawFromCompoundV3, gaslessWithdrawFromAave, gaslessWithdrawFromFluid } from "../services/coinbase-defi";
 import { getCoinbaseSmartWallet, hasCoinbaseSmartWallet } from "../lib/coinbase-wallet";
@@ -808,24 +808,54 @@ async function showWithdrawalConfirmation(ctx: BotContext, protocol: string, amo
     
     const info = protocolInfo[protocol] || { name: 'Protocol', emoji: '💰', apy: 5.0 };
     
-    // Calculate estimated daily earnings (simplified calculation)
-    // For a real implementation, you'd fetch the user's actual balance
-    const estimatedBalance = 100; // Placeholder - would fetch actual balance
+    // Get user's actual balance from their DeFi positions
+    const userId = ctx.from?.id?.toString();
+    let estimatedBalance = 0;
+    
+    if (userId) {
+      try {
+        // Get user's actual balance based on protocol
+        const wallet = await getWallet(userId);
+        if (wallet) {
+          if (protocol === 'aave') {
+            const balanceResult = await getAaveBalance(wallet.address);
+            estimatedBalance = parseFloat(balanceResult.aUsdcBalanceFormatted);
+          } else if (protocol === 'compound') {
+            // Use the coinbase-defi function for Compound V3 which returns simple string
+            const { getCompoundV3Balance } = await import("../services/coinbase-defi");
+            estimatedBalance = parseFloat(await getCompoundV3Balance(wallet.address));
+          } else if (protocol === 'fluid') {
+            const balanceResult = await getFluidBalance(wallet.address);
+            estimatedBalance = parseFloat(balanceResult.fUsdcBalanceFormatted);
+          }
+        }
+      } catch (error) {
+        console.error(`Error fetching ${protocol} balance:`, error);
+        estimatedBalance = 1; // Fallback to $1 if we can't fetch balance
+      }
+    }
+    
+    // Fallback to $1 if no balance found
+    if (estimatedBalance <= 0) {
+      estimatedBalance = 1;
+    }
+    
     const dailyEarnings = (estimatedBalance * info.apy) / 100 / 365;
     
     const confirmKeyboard = new InlineKeyboard()
-      .text(`💸 Withdraw Now (-$${dailyEarnings.toFixed(2)})`, `confirm_withdraw_${protocol}_${amount}`)
+      .text(`💸 Withdraw Now (-$${dailyEarnings.toFixed(4)})`, `confirm_withdraw_${protocol}_${amount}`)
       .row()
       .text(`📈 Keep Earning`, `cancel_withdraw_${protocol}`)
       .text(`📊 View Details`, `view_portfolio`);
     
     const message = `⚠️ **Withdrawal Impact Confirmation**\n\n` +
       `${info.emoji} **${info.name}**\n` +
+      `• Your balance: **$${estimatedBalance.toFixed(2)} USDC**\n` +
       `• Current APY: **${info.apy}%**\n` +
-      `• Your funds are earning: **$${dailyEarnings.toFixed(2)}/day**\n` +
-      `• Weekly earnings: **$${(dailyEarnings * 7).toFixed(2)}**\n\n` +
+      `• Daily earnings: **$${dailyEarnings.toFixed(4)}/day**\n` +
+      `• Weekly earnings: **$${(dailyEarnings * 7).toFixed(3)}**\n\n` +
       `**If you withdraw now:**\n` +
-      `❌ You'll forfeit today's earnings (~$${dailyEarnings.toFixed(2)})\n` +
+      `❌ You'll forfeit today's earnings (~$${dailyEarnings.toFixed(4)})\n` +
       `❌ Your funds will stop earning interest\n` +
       `✅ USDC will be available in your wallet instantly\n\n` +
       `**Alternative:**\n` +

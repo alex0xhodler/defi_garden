@@ -262,7 +262,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
     
     try {
       const db = getDatabase();
-      const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+      const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
       
       if (userSession && userSession.session_data) {
         const sessionData = JSON.parse(userSession.session_data);
@@ -274,7 +274,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
           
           // Clear expired pending transaction
           sessionData.pendingTransaction = undefined;
-          db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+          db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
             .run(JSON.stringify(sessionData), userId);
           
           pendingTx = null;
@@ -327,12 +327,12 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
         // Update the shortage in session
         try {
           const db = getDatabase();
-          const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+          const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
           
           if (userSession && userSession.session_data) {
             const sessionData = JSON.parse(userSession.session_data);
             sessionData.pendingTransaction.shortage = stillNeeded;
-            db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+            db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
               .run(JSON.stringify(sessionData), userId);
           }
         } catch (updateError) {

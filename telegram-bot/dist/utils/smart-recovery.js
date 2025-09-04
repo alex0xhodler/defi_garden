@@ -38,7 +38,7 @@ function storePendingTransaction(ctx, details) {
         const userId = ctx.session.userId;
         if (userId) {
             // Get current session data
-            const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+            const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
             let sessionData = {};
             if (userSession && userSession.session_data) {
                 sessionData = JSON.parse(userSession.session_data);
@@ -46,7 +46,7 @@ function storePendingTransaction(ctx, details) {
             // Add pending transaction
             sessionData.pendingTransaction = pendingTx;
             // Save back to database
-            db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+            db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
                 .run(JSON.stringify(sessionData), userId);
             console.log(`💾 Stored pending transaction in DB for user ${userId}: ${details.protocol} $${details.requestedAmount}`);
         }
@@ -82,13 +82,13 @@ function clearPendingTransaction(ctx) {
         const userId = ctx.session.userId;
         if (userId) {
             // Get current session data
-            const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+            const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
             if (userSession && userSession.session_data) {
                 const sessionData = JSON.parse(userSession.session_data);
                 if (sessionData.pendingTransaction) {
                     delete sessionData.pendingTransaction;
                     // Save back to database
-                    db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+                    db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
                         .run(JSON.stringify(sessionData), userId);
                     console.log(`🗑️ Cleared pending transaction from DB for user ${userId}`);
                 }

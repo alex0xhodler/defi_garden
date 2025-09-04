@@ -50,7 +50,7 @@ export function storePendingTransaction(ctx: BotContext, details: InsufficientBa
     
     if (userId) {
       // Get current session data
-      const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+      const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
       let sessionData: any = {};
       
       if (userSession && userSession.session_data) {
@@ -61,7 +61,7 @@ export function storePendingTransaction(ctx: BotContext, details: InsufficientBa
       sessionData.pendingTransaction = pendingTx;
       
       // Save back to database
-      db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+      db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
         .run(JSON.stringify(sessionData), userId);
         
       console.log(`💾 Stored pending transaction in DB for user ${userId}: ${details.protocol} $${details.requestedAmount}`);
@@ -103,7 +103,7 @@ export function clearPendingTransaction(ctx: BotContext): void {
     
     if (userId) {
       // Get current session data
-      const userSession = db.prepare('SELECT session_data FROM users WHERE user_id = ?').get(userId);
+      const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
       
       if (userSession && userSession.session_data) {
         const sessionData = JSON.parse(userSession.session_data);
@@ -112,7 +112,7 @@ export function clearPendingTransaction(ctx: BotContext): void {
           delete sessionData.pendingTransaction;
           
           // Save back to database
-          db.prepare('UPDATE users SET session_data = ? WHERE user_id = ?')
+          db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
             .run(JSON.stringify(sessionData), userId);
             
           console.log(`🗑️ Cleared pending transaction from DB for user ${userId}`);
