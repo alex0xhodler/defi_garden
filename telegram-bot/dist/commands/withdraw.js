@@ -103,6 +103,31 @@ const handleWithdrawCallbacks = async (ctx) => {
             await ctx.answerCallbackQuery("No wallet found. Create one first.");
             return;
         }
+        // Handle cancel withdrawal callbacks
+        if (callbackData.startsWith("cancel_withdraw_")) {
+            await ctx.answerCallbackQuery("Withdrawal cancelled");
+            const protocol = callbackData.split("_")[2]; // Extract protocol from cancel_withdraw_protocol
+            const protocolInfo = {
+                'fluid': { name: 'Fluid Finance', emoji: '🌊' },
+                'aave': { name: 'Aave V3', emoji: '🏛️' },
+                'compound': { name: 'Compound V3', emoji: '🏦' }
+            };
+            const info = protocolInfo[protocol] || { name: 'Protocol', emoji: '💰' };
+            const continueKeyboard = new grammy_1.InlineKeyboard()
+                .text("📊 View Portfolio", "view_portfolio")
+                .text("💰 Check Balance", "check_balance")
+                .row()
+                .text("🚀 Invest More", "zap_auto_deploy")
+                .text("🔄 Main Menu", "main_menu");
+            await ctx.reply(`✅ **Withdrawal Cancelled**\n\n` +
+                `${info.emoji} Your ${info.name} position remains active and earning interest.\n\n` +
+                `💰 **Smart choice!** Your funds continue compounding automatically.\n\n` +
+                `What would you like to do next?`, {
+                parse_mode: "Markdown",
+                reply_markup: continueKeyboard
+            });
+            return;
+        }
         // Handle protocol menu selection
         if (callbackData === "withdraw_fluid_menu") {
             await ctx.answerCallbackQuery();
@@ -165,6 +190,12 @@ const handleWithdrawCallbacks = async (ctx) => {
             return;
         }
         if (callbackData === "withdraw_fluid_max") {
+            await ctx.answerCallbackQuery();
+            // Show locked funds confirmation first
+            await showWithdrawalConfirmation(ctx, "fluid", "max");
+            return;
+        }
+        if (callbackData === "confirm_withdraw_fluid_max") {
             await ctx.answerCallbackQuery();
             const processingMsg = await ctx.reply(`🔄 **Processing Pool Exit...**\n\n` +
                 `**Protocol:** Fluid Finance\n` +
@@ -233,6 +264,12 @@ const handleWithdrawCallbacks = async (ctx) => {
         }
         if (callbackData === "withdraw_aave_max") {
             await ctx.answerCallbackQuery();
+            // Show locked funds confirmation first
+            await showWithdrawalConfirmation(ctx, "aave", "max");
+            return;
+        }
+        if (callbackData === "confirm_withdraw_aave_max") {
+            await ctx.answerCallbackQuery();
             const processingMsg = await ctx.reply(`🔄 **Processing Pool Exit...**\n\n` +
                 `**Protocol:** Aave V3\n` +
                 `**Amount:** All available USDC\n` +
@@ -299,6 +336,12 @@ const handleWithdrawCallbacks = async (ctx) => {
             }
         }
         if (callbackData === "withdraw_compound_max") {
+            await ctx.answerCallbackQuery();
+            // Show locked funds confirmation first
+            await showWithdrawalConfirmation(ctx, "compound", "max");
+            return;
+        }
+        if (callbackData === "confirm_withdraw_compound_max") {
             await ctx.answerCallbackQuery();
             const processingMsg = await ctx.reply(`🔄 **Processing Pool Exit...**\n\n` +
                 `**Protocol:** Compound V3\n` +
@@ -622,4 +665,48 @@ const handleWithdrawAmountInput = async (ctx, amount) => {
     }
 };
 exports.handleWithdrawAmountInput = handleWithdrawAmountInput;
+/**
+ * Show withdrawal confirmation with daily earnings impact
+ */
+async function showWithdrawalConfirmation(ctx, protocol, amount) {
+    try {
+        // Get protocol info and current APY
+        const protocolInfo = {
+            'fluid': { name: 'Fluid Finance', emoji: '🌊', apy: 7.8 },
+            'aave': { name: 'Aave V3', emoji: '🏛️', apy: 5.2 },
+            'compound': { name: 'Compound V3', emoji: '🏦', apy: 6.2 }
+        };
+        const info = protocolInfo[protocol] || { name: 'Protocol', emoji: '💰', apy: 5.0 };
+        // Calculate estimated daily earnings (simplified calculation)
+        // For a real implementation, you'd fetch the user's actual balance
+        const estimatedBalance = 100; // Placeholder - would fetch actual balance
+        const dailyEarnings = (estimatedBalance * info.apy) / 100 / 365;
+        const confirmKeyboard = new grammy_1.InlineKeyboard()
+            .text(`💸 Withdraw Now (-$${dailyEarnings.toFixed(2)})`, `confirm_withdraw_${protocol}_${amount}`)
+            .row()
+            .text(`📈 Keep Earning`, `cancel_withdraw_${protocol}`)
+            .text(`📊 View Details`, `view_portfolio`);
+        const message = `⚠️ **Withdrawal Impact Confirmation**\n\n` +
+            `${info.emoji} **${info.name}**\n` +
+            `• Current APY: **${info.apy}%**\n` +
+            `• Your funds are earning: **$${dailyEarnings.toFixed(2)}/day**\n` +
+            `• Weekly earnings: **$${(dailyEarnings * 7).toFixed(2)}**\n\n` +
+            `**If you withdraw now:**\n` +
+            `❌ You'll forfeit today's earnings (~$${dailyEarnings.toFixed(2)})\n` +
+            `❌ Your funds will stop earning interest\n` +
+            `✅ USDC will be available in your wallet instantly\n\n` +
+            `**Alternative:**\n` +
+            `📈 Keep earning and withdraw tomorrow\n` +
+            `📈 Compound your returns automatically\n\n` +
+            `**What would you like to do?**`;
+        await ctx.reply(message, {
+            parse_mode: "Markdown",
+            reply_markup: confirmKeyboard
+        });
+    }
+    catch (error) {
+        console.error("Error showing withdrawal confirmation:", error);
+        await ctx.reply("❌ An error occurred. Please try again later.");
+    }
+}
 exports.default = withdrawHandler;

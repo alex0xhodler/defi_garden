@@ -309,16 +309,42 @@ async function handleZapAmountInput(ctx) {
             // Convert balance to readable format and check if sufficient
             const readableBalance = parseFloat((0, token_wallet_1.formatTokenAmount)(usdcBalance.balance, 6, 2));
             if (readableBalance < amount) {
-                await ctx.reply(`❌ **Insufficient USDC Balance**\n\n` +
-                    `**Your balance**: ${readableBalance} USDC\n` +
-                    `**Requested**: ${amount} USDC\n\n` +
-                    `You need more USDC to complete this investment.`, {
-                    parse_mode: "Markdown",
-                    reply_markup: new grammy_1.InlineKeyboard()
-                        .text("📥 Deposit USDC", "deposit")
-                        .text("💰 Check Balance", "check_balance")
-                        .row()
-                        .text("🔄 Try Different Amount", "zap_funds")
+                // Import smart recovery utilities
+                const { sendInsufficientBalanceFlow } = await Promise.resolve().then(() => __importStar(require("../utils/smart-recovery")));
+                // Get pool info for the smart recovery
+                let selectedPool;
+                let poolInfo;
+                if (ctx.session.tempData?.selectedPool && ctx.session.tempData?.poolInfo) {
+                    selectedPool = ctx.session.tempData.selectedPool;
+                    poolInfo = ctx.session.tempData.poolInfo;
+                }
+                else {
+                    // Fallback: Get the best pool for auto-deployment
+                    const opportunities = await getYieldOpportunities("USDC");
+                    const bestPool = opportunities
+                        .filter(pool => pool.tvlUsd >= constants_1.RISK_THRESHOLDS.TVL_SAFE)
+                        .sort((a, b) => b.apy - a.apy)[0];
+                    if (!bestPool) {
+                        await ctx.reply("❌ No suitable pools found. Please try again later.");
+                        return;
+                    }
+                    selectedPool = bestPool.poolId;
+                    poolInfo = {
+                        protocol: bestPool.project,
+                        apy: bestPool.apy,
+                        tvlUsd: bestPool.tvlUsd,
+                        riskScore: calculateRiskScore(bestPool)
+                    };
+                }
+                // Show intelligent insufficient balance flow
+                await sendInsufficientBalanceFlow(ctx, {
+                    currentBalance: readableBalance,
+                    requestedAmount: amount,
+                    shortage: amount - readableBalance,
+                    protocol: poolInfo.protocol,
+                    poolId: selectedPool,
+                    apy: poolInfo.apy,
+                    poolInfo: poolInfo
                 });
                 return;
             }

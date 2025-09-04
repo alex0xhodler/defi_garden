@@ -15,6 +15,16 @@ export interface SessionData {
     selectedPool: string;
     poolInfo: any;
   };
+  pendingTransaction?: { // For smart recovery after insufficient balance
+    type: 'invest' | 'withdraw';
+    protocol: string;
+    poolId: string;
+    amount: number;
+    apy: number;
+    shortage: number;
+    timestamp: number;
+    reminderSent?: boolean;
+  };
 }
 
 export interface BotContext extends Context {
