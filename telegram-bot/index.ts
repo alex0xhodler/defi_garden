@@ -275,6 +275,133 @@ async function handleInvestAvailable(ctx: BotContext) {
   }
 }
 
+async function handleManualDepositCheck(ctx: BotContext) {
+  try {
+    const { getPendingTransaction, clearPendingTransaction } = await import("./src/utils/smart-recovery");
+    const pending = getPendingTransaction(ctx);
+    
+    if (!pending) {
+      await ctx.reply("❌ No pending transaction found or it has expired.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    await ctx.reply("🔍 **Checking for deposits...**\n\nPlease wait while I scan the blockchain...");
+    
+    // Get current balance to check if deposit was received
+    const { getWallet, getMultipleTokenBalances, formatTokenAmount } = await import("./src/lib/token-wallet");
+    const { BASE_TOKENS } = await import("./src/utils/constants");
+    
+    const wallet = await getWallet(ctx.session.userId!);
+    if (!wallet) {
+      await ctx.reply("❌ Wallet not found. Please set up your wallet first.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    const tokenBalances = await getMultipleTokenBalances([BASE_TOKENS.USDC], wallet.address);
+    const usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
+    
+    if (!usdcBalance) {
+      await ctx.reply("❌ No USDC balance found. Please make sure you deposited to the correct address on Base network.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    const currentBalance = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
+    const stillNeeded = pending.amount - currentBalance;
+    
+    console.log(`🔍 Manual deposit check: User ${ctx.session.userId} has $${currentBalance}, needs $${pending.amount} (shortage: $${stillNeeded})`);
+    
+    if (stillNeeded <= 0) {
+      // Sufficient balance now - offer completion
+      const { InlineKeyboard } = await import("grammy");
+      
+      const keyboard = new InlineKeyboard()
+        .text(`✅ Complete ${pending.protocol} Investment (${pending.apy}% APY)`, "retry_pending_transaction")
+        .row()
+        .text("💼 Keep in Wallet", "cancel_pending_transaction")
+        .text("🎯 View Options", "view_protocols");
+      
+      await ctx.reply(
+        `🎉 **Deposit Confirmed!**\n\n` +
+        `✅ You now have **$${currentBalance.toFixed(2)} USDC**\n` +
+        `✅ Sufficient for your **$${pending.amount} investment**\n\n` +
+        `**Ready to complete:**\n` +
+        `• Protocol: ${pending.protocol}\n` +
+        `• Amount: $${pending.amount}\n` +
+        `• APY: ${pending.apy}%\n\n` +
+        `Shall I complete your investment now?`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      
+    } else if (currentBalance > (pending.amount - pending.shortage)) {
+      // Partial deposit received
+      const { InlineKeyboard } = await import("grammy");
+      
+      // Update shortage in pending transaction
+      pending.shortage = stillNeeded;
+      
+      const keyboard = new InlineKeyboard()
+        .text(`📥 Deposit $${stillNeeded.toFixed(2)} More`, "deposit")
+        .text("🔍 Check Again", "manual_deposit_check")
+        .row()
+        .text("💰 Invest Available Funds", "invest_available")
+        .text("❌ Cancel", "cancel_pending_transaction");
+      
+      await ctx.reply(
+        `💰 **Partial Deposit Detected**\n\n` +
+        `**Your balance**: $${currentBalance.toFixed(2)} USDC\n` +
+        `**Still needed**: $${stillNeeded.toFixed(2)} USDC\n\n` +
+        `**Your pending investment:**\n` +
+        `• ${pending.protocol} at ${pending.apy}% APY\n` +
+        `• Total needed: $${pending.amount}\n\n` +
+        `What would you like to do?`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      
+    } else {
+      // No deposit detected yet
+      const { InlineKeyboard } = await import("grammy");
+      
+      const keyboard = new InlineKeyboard()
+        .text("🔍 Check Again", "manual_deposit_check")
+        .text(`📥 Deposit $${pending.shortage.toFixed(2)}`, "deposit")
+        .row()
+        .text("💰 Invest Available", "invest_available")
+        .text("❌ Cancel", "cancel_pending_transaction");
+      
+      await ctx.reply(
+        `🔍 **No New Deposits Found**\n\n` +
+        `**Your balance**: $${currentBalance.toFixed(2)} USDC\n` +
+        `**Still needed**: $${stillNeeded.toFixed(2)} USDC\n\n` +
+        `**Tips:**\n` +
+        `• Make sure you sent USDC to: \`${wallet.address}\`\n` +
+        `• Verify you're using **Base network** (not Ethereum mainnet)\n` +
+        `• Transactions can take 1-2 minutes to confirm\n\n` +
+        `**Your target investment:** ${pending.protocol} at ${pending.apy}% APY`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+    }
+    
+    await ctx.answerCallbackQuery("Balance checked!");
+    
+  } catch (error) {
+    console.error("Error in manual deposit check:", error);
+    await ctx.reply("❌ An error occurred while checking your balance. Please try again.");
+    await ctx.answerCallbackQuery();
+  }
+}
+
 // Handle callback queries
 bot.on("callback_query:data", async (ctx) => {
   const callbackData = ctx.callbackQuery.data;
@@ -738,6 +865,8 @@ bot.on("callback_query:data", async (ctx) => {
     
     await ctx.reply("❌ Investment cancelled. Your funds remain safe in your wallet.");
     await ctx.answerCallbackQuery();
+  } else if (callbackData === "manual_deposit_check") {
+    await handleManualDepositCheck(ctx);
   } 
   
   else {

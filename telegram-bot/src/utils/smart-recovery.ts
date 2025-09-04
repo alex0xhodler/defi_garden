@@ -87,6 +87,7 @@ export function createSmartRecoveryKeyboard(details: InsufficientBalanceDetails)
   
   return new InlineKeyboard()
     .text(`📥 Deposit $${shortage.toFixed(2)}`, "deposit")
+    .text("🔍 Check Deposit", "manual_deposit_check")
     .row()
     .text(`💰 Invest $${currentBalance.toFixed(2)} Now`, "invest_available")
     .text("🔄 Change Amount", "modify_amount")

@@ -70,6 +70,7 @@ function createSmartRecoveryKeyboard(details) {
     const { shortage, currentBalance } = details;
     return new grammy_1.InlineKeyboard()
         .text(`📥 Deposit $${shortage.toFixed(2)}`, "deposit")
+        .text("🔍 Check Deposit", "manual_deposit_check")
         .row()
         .text(`💰 Invest $${currentBalance.toFixed(2)} Now`, "invest_available")
         .text("🔄 Change Amount", "modify_amount")
