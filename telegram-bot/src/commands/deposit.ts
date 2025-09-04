@@ -54,7 +54,7 @@ const depositHandler: CommandHandler = {
 
       // Create action buttons
       const keyboard = new InlineKeyboard()
-        .text("🚀 Start Earning", "zap_auto_deploy")
+        .text("🦑 Start Earning", "zap_auto_deploy")
         .row()
         .text("💰 Check Balance", "check_balance")
         .text("📊 Portfolio", "view_portfolio");

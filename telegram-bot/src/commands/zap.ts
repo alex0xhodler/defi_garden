@@ -164,7 +164,7 @@ const zapHandler: CommandHandler = {
 
       // Check if user wants automation or manual selection
       const keyboard = new InlineKeyboard()
-        .text("🤖 AI Auto-Managed", "zap_auto_deploy")
+        .text("🐙 inkvest Auto-Managed", "zap_auto_deploy")
         .row()
         .text("🎯 Manual Management", "zap_choose_protocol");
 
@@ -173,7 +173,7 @@ const zapHandler: CommandHandler = {
       await ctx.reply(
         `🚀 *Ready to start earning, ${firstName}?*\n\n` +
         `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
-        `🤖 **AI Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
+        `🐙 **inkvest Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
         `🎯 **Manual Management**: You choose the protocol\n\n` +
         `What sounds good?`,
         {
@@ -240,7 +240,7 @@ export async function handlePoolSelection(ctx: BotContext): Promise<void> {
       keyboard.text(`${pool.project} - ${pool.apy}%`, `pool_${pool.poolId}`).row();
     }
     
-    keyboard.text("🤖 Just Pick Best APY", "zap_auto_deploy");
+    keyboard.text("🐙 Just Pick Best APY", "zap_auto_deploy");
     
     await ctx.editMessageText(message, {
       parse_mode: "Markdown",
@@ -326,20 +326,51 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
       // Convert balance to readable format and check if sufficient
       const readableBalance = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
       if (readableBalance < amount) {
-        await ctx.reply(
-          `❌ **Insufficient USDC Balance**\n\n` +
-          `**Your balance**: ${readableBalance} USDC\n` +
-          `**Requested**: ${amount} USDC\n\n` +
-          `You need more USDC to complete this investment.`,
-          {
-            parse_mode: "Markdown",
-            reply_markup: new InlineKeyboard()
-              .text("📥 Deposit USDC", "deposit")
-              .text("💰 Check Balance", "check_balance")
-              .row()
-              .text("🔄 Try Different Amount", "zap_funds")
+        // Import smart recovery utilities
+        const { sendInsufficientBalanceFlow } = await import("../utils/smart-recovery");
+        
+        // Get pool info for the smart recovery
+        let selectedPool;
+        let poolInfo;
+
+        if (ctx.session.tempData?.selectedPool && ctx.session.tempData?.poolInfo) {
+          selectedPool = ctx.session.tempData.selectedPool;
+          poolInfo = ctx.session.tempData.poolInfo;
+        } else {
+          // Fallback: Get the best pool for auto-deployment
+          const opportunities = await getYieldOpportunities("USDC");
+          const bestPool = opportunities
+            .filter(pool => {
+              const riskScore = calculateRiskScore(pool);
+              return riskScore <= 6; // Safe pools only
+            })
+            .sort((a, b) => b.apy - a.apy)[0];
+
+          if (!bestPool) {
+            await ctx.reply("❌ No suitable pools found. Please try again later.");
+            return;
           }
-        );
+
+          selectedPool = bestPool.poolId;
+          poolInfo = {
+            protocol: bestPool.project,
+            apy: bestPool.apy,
+            tvlUsd: bestPool.tvlUsd,
+            riskScore: calculateRiskScore(bestPool)
+          };
+        }
+
+        // Show intelligent insufficient balance flow
+        await sendInsufficientBalanceFlow(ctx, {
+          currentBalance: readableBalance,
+          requestedAmount: amount,
+          shortage: amount - readableBalance,
+          protocol: poolInfo.protocol,
+          poolId: selectedPool,
+          apy: poolInfo.apy,
+          poolInfo: poolInfo
+        });
+        
         return;
       }
     } catch (balanceError: any) {
@@ -650,7 +681,7 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
     const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
 
     await ctx.reply(
-      `🤖 **AI Auto-Managed Selected Best Pool**\n\n` +
+      `🐙 **inkvest Auto-Managed Selected Best Pool**\n\n` +
       `${safetyIcon} **${bestPool.project}** - Highest APY Available\n` +
       `• **APY**: **${bestPool.apy}%** (${bestPool.apyBase}% base + ${bestPool.apyReward}% rewards)\n` +
       `• **TVL**: $${(bestPool.tvlUsd / 1_000_000).toFixed(1)}M\n` +

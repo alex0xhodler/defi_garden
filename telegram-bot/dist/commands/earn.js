@@ -180,12 +180,12 @@ const earnHandler = {
             };
             // Simplified earn options
             const keyboard = new grammy_1.InlineKeyboard()
-                .text("🤖 AI Auto-Managed", "zap_auto_deploy")
+                .text("🐙 inkvest Auto-Managed", "zap_auto_deploy")
                 .row()
                 .text("🎯 Manual Management", "zap_choose_protocol");
-            await ctx.reply(`🚀 *Ready to start earning, ${firstName}?*\n\n` +
+            await ctx.reply(`🦑 *Ready to start earning, ${firstName}?*\n\n` +
                 `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
-                `🤖 **AI Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
+                `🐙 **inkvest Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
                 `🎯 **Manual Management**: You choose the protocol\n\n` +
                 `What sounds good?`, {
                 parse_mode: "Markdown",
@@ -205,6 +205,7 @@ async function handlePoolSelection(ctx) {
         const userMinApy = ctx.session.settings?.minApy || 5;
         // Get available yield opportunities
         const opportunities = await getYieldOpportunities("USDC", userRiskLevel, userMinApy);
+        console.log(`🔍 Raw opportunities from API: ${opportunities.map(p => `${p.project}(${p.apy}%)`).join(', ')}`);
         // Filter and score pools
         console.log(`🔍 Pool selection filters: Risk Level ${userRiskLevel} (max ${userRiskLevel * 2}), Min APY ${userMinApy}%`);
         const suitablePools = opportunities
@@ -222,10 +223,18 @@ async function handlePoolSelection(ctx) {
         })
             .sort((a, b) => b.apy - a.apy);
         if (suitablePools.length === 0) {
+            console.log(`❌ No suitable pools found! Available pools were:`, opportunities.map(p => ({
+                project: p.project,
+                apy: p.apy,
+                riskScore: calculateRiskScore(p),
+                tvl: p.tvlUsd
+            })));
             await ctx.reply(`😔 No pools match your criteria:\n` +
-                `• Risk level: ${userRiskLevel}/5\n` +
+                `• Risk level: ${userRiskLevel}/5 (max risk score: ${userRiskLevel * 2})\n` +
                 `• Min APY: ${userMinApy}%\n\n` +
-                `Try adjusting your settings with /settings`);
+                `Available pools:\n` +
+                opportunities.map(p => `• ${p.project}: ${p.apy}% APY, Risk: ${calculateRiskScore(p)}/10`).join('\n') +
+                `\n\nTry adjusting your settings with /settings`);
             return;
         }
         // Show pool selection
@@ -240,7 +249,7 @@ async function handlePoolSelection(ctx) {
             message += `• Risk Score: ${riskScore}/10\n\n`;
             keyboard.text(`${pool.project} - ${pool.apy}%`, `pool_${pool.poolId}`).row();
         }
-        keyboard.text("🤖 Just Pick Best APY", "zap_auto_deploy");
+        keyboard.text("🐙 Just Pick Best APY", "zap_auto_deploy");
         await ctx.editMessageText(message, {
             parse_mode: "Markdown",
             reply_markup: keyboard
@@ -309,16 +318,42 @@ async function handleZapAmountInput(ctx) {
             // Convert balance to readable format and check if sufficient
             const readableBalance = parseFloat((0, token_wallet_1.formatTokenAmount)(usdcBalance.balance, 6, 2));
             if (readableBalance < amount) {
-                await ctx.reply(`❌ **Insufficient USDC Balance**\n\n` +
-                    `**Your balance**: ${readableBalance} USDC\n` +
-                    `**Requested**: ${amount} USDC\n\n` +
-                    `You need more USDC to complete this investment.`, {
-                    parse_mode: "Markdown",
-                    reply_markup: new grammy_1.InlineKeyboard()
-                        .text("📥 Deposit USDC", "deposit")
-                        .text("💰 Check Balance", "check_balance")
-                        .row()
-                        .text("🔄 Try Different Amount", "zap_funds")
+                // Import smart recovery utilities
+                const { sendInsufficientBalanceFlow } = await Promise.resolve().then(() => __importStar(require("../utils/smart-recovery")));
+                // Get pool info for the smart recovery
+                let selectedPool;
+                let poolInfo;
+                if (ctx.session.tempData?.selectedPool && ctx.session.tempData?.poolInfo) {
+                    selectedPool = ctx.session.tempData.selectedPool;
+                    poolInfo = ctx.session.tempData.poolInfo;
+                }
+                else {
+                    // Fallback: Get the best pool for auto-deployment
+                    const opportunities = await getYieldOpportunities("USDC");
+                    const bestPool = opportunities
+                        .filter(pool => pool.tvlUsd >= constants_1.RISK_THRESHOLDS.TVL_SAFE)
+                        .sort((a, b) => b.apy - a.apy)[0];
+                    if (!bestPool) {
+                        await ctx.reply("❌ No suitable pools found. Please try again later.");
+                        return;
+                    }
+                    selectedPool = bestPool.poolId;
+                    poolInfo = {
+                        protocol: bestPool.project,
+                        apy: bestPool.apy,
+                        tvlUsd: bestPool.tvlUsd,
+                        riskScore: calculateRiskScore(bestPool)
+                    };
+                }
+                // Show intelligent insufficient balance flow
+                await sendInsufficientBalanceFlow(ctx, {
+                    currentBalance: readableBalance,
+                    requestedAmount: amount,
+                    shortage: amount - readableBalance,
+                    protocol: poolInfo.protocol,
+                    poolId: selectedPool,
+                    apy: poolInfo.apy,
+                    poolInfo: poolInfo
                 });
                 return;
             }
@@ -459,7 +494,7 @@ async function handleZapConfirmation(ctx, confirmed) {
                 `⏰ Yields update every few minutes. I'll notify you of any significant changes.`, {
                 parse_mode: "Markdown",
                 reply_markup: new grammy_1.InlineKeyboard()
-                    .text("🚀 Earn More", "zap_funds")
+                    .text("🦑 Earn More", "zap_funds")
                     .text("📊 View Portfolio", "view_portfolio")
             });
             // Reset state
@@ -504,7 +539,7 @@ async function handleZapConfirmation(ctx, confirmed) {
                 parse_mode: "Markdown",
                 reply_markup: new grammy_1.InlineKeyboard()
                     .text("🔄 Retry Same Zap", "retry_zap")
-                    .text("🚀 Start Earning", "zap_funds")
+                    .text("🦑 Start Earning", "zap_funds")
                     .row()
                     .text("📊 Check Balance", "check_balance")
             });
@@ -562,7 +597,7 @@ async function handleAutoEarn(ctx) {
         // Show the selected pool and ask for amount
         const riskScore = calculateRiskScore(bestPool);
         const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
-        await ctx.reply(`🤖 **AI Auto-Managed Selected Best Pool**\n\n` +
+        await ctx.reply(`🐙 **inkvest Auto-Managed Selected Best Pool**\n\n` +
             `${safetyIcon} **${bestPool.project}** - Highest APY Available\n` +
             `• **APY**: **${bestPool.apy}%** (${bestPool.apyBase}% base + ${bestPool.apyReward}% rewards)\n` +
             `• **TVL**: $${(bestPool.tvlUsd / 1000000).toFixed(1)}M\n` +
@@ -628,7 +663,7 @@ async function handleZapRetry(ctx) {
                 `⏰ Yields update every few minutes. I'll notify you of any significant changes.`, {
                 parse_mode: "Markdown",
                 reply_markup: new grammy_1.InlineKeyboard()
-                    .text("🚀 Earn More", "zap_funds")
+                    .text("🦑 Earn More", "zap_funds")
                     .text("📊 View Portfolio", "view_portfolio")
             });
             // Clear retry data on success
@@ -664,7 +699,7 @@ async function handleZapRetry(ctx) {
                 parse_mode: "Markdown",
                 reply_markup: new grammy_1.InlineKeyboard()
                     .text("🔄 Retry Again", "retry_zap")
-                    .text("🚀 Start Earning", "zap_funds")
+                    .text("🦑 Start Earning", "zap_funds")
                     .row()
                     .text("📊 Check Balance", "check_balance")
             });

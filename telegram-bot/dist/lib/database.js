@@ -26,6 +26,10 @@ exports.saveTransaction = saveTransaction;
 exports.getTransactionsByUserId = getTransactionsByUserId;
 exports.getPortfolioStats = getPortfolioStats;
 exports.cleanupUnverifiedTransactions = cleanupUnverifiedTransactions;
+exports.getDatabase = getDatabase;
+exports.saveProtocolRate = saveProtocolRate;
+exports.getProtocolRate = getProtocolRate;
+exports.getAllProtocolRates = getAllProtocolRates;
 exports.closeDatabase = closeDatabase;
 const better_sqlite3_1 = __importDefault(require("better-sqlite3"));
 const constants_1 = require("../utils/constants");
@@ -43,7 +47,8 @@ function initDatabase() {
       onboardingCompleted INTEGER,
       lastBalanceCheck INTEGER,
       expectingDepositUntil INTEGER,
-      notificationSettings TEXT
+      notificationSettings TEXT,
+      session_data TEXT
     );
     
     CREATE TABLE IF NOT EXISTS ${constants_1.DB_TABLES.WALLETS} (
@@ -100,10 +105,30 @@ function initDatabase() {
       FOREIGN KEY (walletAddress) REFERENCES ${constants_1.DB_TABLES.WALLETS}(address)
     );
     
+    CREATE TABLE IF NOT EXISTS protocol_rates (
+      protocol TEXT PRIMARY KEY,
+      apy REAL NOT NULL,
+      apyBase REAL NOT NULL,
+      apyReward REAL NOT NULL,
+      tvlUsd REAL NOT NULL,
+      lastUpdated INTEGER NOT NULL
+    );
+    
     CREATE INDEX IF NOT EXISTS idx_positions_user ON ${constants_1.DB_TABLES.POSITIONS}(userId);
     CREATE INDEX IF NOT EXISTS idx_transactions_user ON ${constants_1.DB_TABLES.TRANSACTIONS}(userId);
     CREATE INDEX IF NOT EXISTS idx_transactions_type ON ${constants_1.DB_TABLES.TRANSACTIONS}(operationType);
   `);
+    // Add session_data column if it doesn't exist (migration)
+    try {
+        db.exec(`ALTER TABLE ${constants_1.DB_TABLES.USERS} ADD COLUMN session_data TEXT`);
+        console.log("✅ Added session_data column to users table");
+    }
+    catch (error) {
+        // Column already exists - this is normal
+        if (!error.message.includes('duplicate column name')) {
+            console.error("Error adding session_data column:", error);
+        }
+    }
 }
 // User operations
 function createUser(userId, telegramId, username, firstName, lastName) {
@@ -350,6 +375,30 @@ function cleanupUnverifiedTransactions(userId) {
         deletedPositions = posResult.changes;
     }
     return { deletedTransactions, deletedPositions };
+}
+// Get database instance for direct access
+function getDatabase() {
+    return db;
+}
+// Protocol rates operations
+function saveProtocolRate(protocol, apy, apyBase, apyReward, tvlUsd) {
+    const stmt = db.prepare(`
+    INSERT OR REPLACE INTO protocol_rates (protocol, apy, apyBase, apyReward, tvlUsd, lastUpdated)
+    VALUES (?, ?, ?, ?, ?, ?)
+  `);
+    stmt.run(protocol.toLowerCase(), apy, apyBase, apyReward, tvlUsd, Date.now());
+}
+function getProtocolRate(protocol) {
+    const stmt = db.prepare(`
+    SELECT * FROM protocol_rates WHERE protocol = ?
+  `);
+    return stmt.get(protocol.toLowerCase());
+}
+function getAllProtocolRates() {
+    const stmt = db.prepare(`
+    SELECT * FROM protocol_rates ORDER BY apy DESC
+  `);
+    return stmt.all();
 }
 // Close database connection
 function closeDatabase() {

@@ -47,7 +47,7 @@ const portfolioHandler: CommandHandler = {
       // If no DeFi deposits, show empty portfolio
       if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0) {
         const keyboard = new InlineKeyboard()
-          .text("🚀 Start Earning", "zap_funds")
+          .text("🦑 Start Earning", "zap_funds")
           .text("📥 Deposit", "deposit")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -62,7 +62,7 @@ const portfolioHandler: CommandHandler = {
           `• Fluid Deposits: $0.00\n` +
           `• Compound Deposits: $0.00\n\n` +
           `**Get Started**:\n` +
-          `• Use 🚀 Start Earning to auto-deploy to best yields\n` +
+          `• Use 🦑 Start Earning to auto-deploy to best yields\n` +
           `• Earn 5%+ APY on your USDC\n` +
           `• Only vetted, high-TVL protocols\n\n` +
           `💡 **Tip**: Portfolio now shows real-time blockchain data`,
@@ -140,7 +140,7 @@ const portfolioHandler: CommandHandler = {
 
       // Quick actions
       const keyboard = new InlineKeyboard()
-        .text("🚀 Earn More", "zap_funds")
+        .text("🦑 Earn More", "zap_funds")
         .text("🌾 Harvest", "harvest_yields")
         .row()
         .text("🚪 Exit Pool", "withdraw")
@@ -263,7 +263,7 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
 
     const keyboard = new InlineKeyboard()
       .text("🚪 Exit Pool", "withdraw")
-      .text("🚀 Earn More", "zap_funds")
+      .text("🦑 Earn More", "zap_funds")
       .row()
       .text("🔄 Refresh Data", "portfolio_details")
       .text("🔙 Back to Portfolio", "view_portfolio");

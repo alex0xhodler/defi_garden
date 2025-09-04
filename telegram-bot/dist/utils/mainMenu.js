@@ -43,7 +43,7 @@ const grammy_1 = require("grammy");
 function createMainMenuKeyboard() {
     return new grammy_1.InlineKeyboard()
         .text("💰 Check Balance", "check_balance")
-        .text("🚀 Start Earning", "zap_funds")
+        .text("🦑 Start Earning", "zap_funds")
         .row()
         .text("📊 Portfolio", "view_portfolio")
         .text("🌾 Harvest", "harvest_yields")
@@ -96,7 +96,7 @@ async function getMainMenuMessage(firstName = "there", walletAddress, userId) {
                     message += `• $${fluidBalanceNum.toFixed(2)} in Fluid Protocol\n`;
                 }
                 message += `\n💸 **Total Value:** $${totalDeployed.toFixed(2)}\n`;
-                message += `🚀 **Earning:** ${earnings} automatically\n\n`;
+                message += `🦑 **Earning:** ${earnings} automatically\n\n`;
                 message += `✅ Auto-compounding activated\n`;
                 message += `✅ Withdraw anytime, zero lock-ups\n`;
                 message += `✅ Gas-sponsored transactions\n\n`;
@@ -105,11 +105,31 @@ async function getMainMenuMessage(firstName = "there", walletAddress, userId) {
             }
             // STATE 2: User has wallet USDC but not deployed
             if (walletUsdcNum > 0.01) {
-                const { getCompoundV3APY } = await Promise.resolve().then(() => __importStar(require('../lib/defillama-api')));
-                const apy = await getCompoundV3APY();
+                const { fetchRealTimeYields, getHighestAPY } = await Promise.resolve().then(() => __importStar(require('../lib/defillama-api')));
+                // Get the best protocol and APY dynamically
+                let bestProtocol = "Compound V3";
+                let apy = 7.65; // fallback
+                try {
+                    const opportunities = await fetchRealTimeYields();
+                    if (opportunities.length > 0) {
+                        const best = opportunities.sort((a, b) => b.apy - a.apy)[0];
+                        bestProtocol = best.project;
+                        apy = best.apy;
+                    }
+                }
+                catch (error) {
+                    console.warn("Failed to fetch real-time yields for main menu, using fallback");
+                    // Try to get cached high APY
+                    try {
+                        apy = await getHighestAPY();
+                    }
+                    catch {
+                        // Use fallback
+                    }
+                }
                 let message = `🐙 *Welcome back ${firstName}!*\n\n`;
                 message += `💰 **Ready to deploy:** $${walletUsdcNum.toFixed(2)} USDC\n\n`;
-                message += `🚀 **Start earning ${apy}% APY** by deploying to Compound V3!\n\n`;
+                message += `🦑 **Start earning ${apy}% APY** with the best available protocol!\n\n`;
                 message += `✅ Gasless transactions (we sponsor gas)\n`;
                 message += `✅ Auto-compounding activated\n`;
                 message += `✅ Withdraw anytime, zero lock-ups\n\n`;
@@ -121,9 +141,18 @@ async function getMainMenuMessage(firstName = "there", walletAddress, userId) {
             console.error('Error fetching user funds for main menu:', error);
             // If API is rate limited, show a user-friendly message instead of falling through
             if (error?.status === 429 || error?.message?.includes('limit exceeded')) {
+                // Get dynamic APY for rate-limited fallback
+                let fallbackAPY = highestAPY;
+                try {
+                    const { getHighestAPY } = await Promise.resolve().then(() => __importStar(require('../lib/defillama-api')));
+                    fallbackAPY = await getHighestAPY();
+                }
+                catch {
+                    // Use parameter fallback
+                }
                 return `🐙 *Welcome back ${firstName}!*\n\n` +
                     `⚠️ **Experiencing high load** - Balance checking temporarily limited\n\n` +
-                    `🚀 **Start earning ${highestAPY}% APY** with Compound V3!\n\n` +
+                    `🦑 **Start earning ${fallbackAPY}% APY** with the best available protocol!\n\n` +
                     `✅ Gasless transactions (we sponsor gas)\n` +
                     `✅ Auto-compounding activated\n` +
                     `✅ Withdraw anytime, zero lock-ups\n\n` +

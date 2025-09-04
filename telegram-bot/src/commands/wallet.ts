@@ -44,7 +44,7 @@ export const walletHandler: CommandHandler = {
       if (wallet.autoCreated) {
         // Auto-created wallet - offer upgrade option
         keyboard = new InlineKeyboard()
-          .text("🚀 Start Earning", "zap_auto_deploy")
+          .text("🦑 Start Earning", "zap_auto_deploy")
           .text("💰 Balance", "check_balance")
           .row()
           .text("🔑 Upgrade Wallet", "upgrade_wallet")
@@ -55,7 +55,7 @@ export const walletHandler: CommandHandler = {
         message = `💼 *Your Wallet, ${firstName}*\n\n` +
           `*Address*: \`${wallet.address}\`\n` +
           `*Type*: inkvest Wallet (Auto-created)\n\n` +
-          `🚀 Ready to start earning with your funds?\n` +
+          `🦑 Ready to start earning with your funds?\n` +
           `🔑 Want more control? Upgrade to your own wallet anytime.`;
 
       } else {

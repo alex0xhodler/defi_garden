@@ -96,6 +96,312 @@ bot.command("cancel", async (ctx) => {
   }
 });
 
+// Smart Recovery Handler Functions
+async function handleRetryPendingTransaction(ctx: BotContext) {
+  try {
+    const { getPendingTransaction, clearPendingTransaction } = await import("./src/utils/smart-recovery");
+    const pending = getPendingTransaction(ctx);
+    
+    if (!pending) {
+      await ctx.reply("❌ No pending transaction found or it has expired.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    // Verify user has sufficient balance now
+    const { getWallet, getMultipleTokenBalances, formatTokenAmount } = await import("./src/lib/token-wallet");
+    const { BASE_TOKENS } = await import("./src/utils/constants");
+    
+    const wallet = await getWallet(ctx.session.userId!);
+    if (!wallet) {
+      await ctx.reply("❌ Wallet not found. Please set up your wallet first.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    const tokenBalances = await getMultipleTokenBalances([BASE_TOKENS.USDC], wallet.address);
+    const usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
+    
+    if (!usdcBalance) {
+      await ctx.reply("❌ No USDC balance found. Please deposit USDC first.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    const readableBalance = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
+    
+    if (readableBalance < pending.amount) {
+      const stillNeeded = pending.amount - readableBalance;
+      await ctx.reply(
+        `❌ **Still insufficient balance**\n\n` +
+        `**Your balance**: $${readableBalance.toFixed(2)} USDC\n` +
+        `**Needed**: $${pending.amount.toFixed(2)} USDC\n` +
+        `**Short by**: $${stillNeeded.toFixed(2)} USDC\n\n` +
+        `Please deposit more USDC to complete this investment.`
+      );
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    // Set up session for transaction execution
+    ctx.session.tempData = {
+      amount: pending.amount.toString(),
+      selectedPool: pending.poolId,
+      poolInfo: {
+        protocol: pending.protocol,
+        apy: pending.apy
+      }
+    };
+    
+    ctx.session.currentAction = "zap_confirm";
+    
+    // Clear pending transaction
+    clearPendingTransaction(ctx);
+    
+    // Execute the investment
+    await ctx.reply("⏳ **Processing your investment...**\n\nThis may take 30-60 seconds.");
+    await handleZapConfirmation(ctx, true);
+    
+    await ctx.answerCallbackQuery("Investment started!");
+    
+  } catch (error) {
+    console.error("Error handling retry pending transaction:", error);
+    await ctx.reply("❌ An error occurred while processing your investment. Please try again.");
+    await ctx.answerCallbackQuery();
+  }
+}
+
+async function handleCancelPendingTransaction(ctx: BotContext) {
+  try {
+    const { clearPendingTransaction } = await import("./src/utils/smart-recovery");
+    clearPendingTransaction(ctx);
+    
+    ctx.session.tempData = {};
+    ctx.session.currentAction = undefined;
+    
+    await ctx.reply("✅ **Pending investment cancelled**\n\nYour funds remain safe in your wallet. You can invest them anytime using /earn or /zap.");
+    await ctx.answerCallbackQuery("Investment cancelled");
+    
+  } catch (error) {
+    console.error("Error cancelling pending transaction:", error);
+    await ctx.reply("❌ An error occurred while cancelling. Please try again.");
+    await ctx.answerCallbackQuery();
+  }
+}
+
+async function handleInvestAvailable(ctx: BotContext) {
+  try {
+    const { getPendingTransaction, clearPendingTransaction } = await import("./src/utils/smart-recovery");
+    const pending = getPendingTransaction(ctx);
+    
+    if (!pending) {
+      await ctx.reply("❌ No pending transaction found or it has expired.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    // Get current balance
+    const { getWallet, getMultipleTokenBalances, formatTokenAmount } = await import("./src/lib/token-wallet");
+    const { BASE_TOKENS } = await import("./src/utils/constants");
+    
+    const wallet = await getWallet(ctx.session.userId!);
+    if (!wallet) {
+      await ctx.reply("❌ Wallet not found. Please set up your wallet first.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    const tokenBalances = await getMultipleTokenBalances([BASE_TOKENS.USDC], wallet.address);
+    const usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
+    
+    if (!usdcBalance) {
+      await ctx.reply("❌ No USDC balance found. Please deposit USDC first.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    const availableAmount = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
+    
+    if (availableAmount < 1) {
+      await ctx.reply("❌ Insufficient balance. Minimum investment is $1 USDC.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    // Set up session for transaction execution with available amount
+    ctx.session.tempData = {
+      amount: availableAmount.toString(),
+      selectedPool: pending.poolId,
+      poolInfo: {
+        protocol: pending.protocol,
+        apy: pending.apy
+      }
+    };
+    
+    ctx.session.currentAction = "zap_confirm";
+    
+    // Clear pending transaction
+    clearPendingTransaction(ctx);
+    
+    // Show confirmation
+    const yearlyYield = (availableAmount * pending.apy) / 100;
+    const monthlyYield = yearlyYield / 12;
+    
+    const confirmKeyboard = new InlineKeyboard()
+      .text("✅ Confirm", "confirm_yes")
+      .text("❌ Cancel", "confirm_no");
+    
+    await ctx.reply(
+      `🎯 **Investment Confirmation**\n\n` +
+      `**Available Amount**: $${availableAmount.toFixed(2)} USDC\n` +
+      `**Selected Pool**: ${pending.protocol}\n` +
+      `**Current APY**: ${pending.apy}%\n\n` +
+      `**Estimated Returns**:\n` +
+      `• Monthly: ~$${monthlyYield.toFixed(2)}\n` +
+      `• Yearly: ~$${yearlyYield.toFixed(2)}\n\n` +
+      `Proceed with this investment?`,
+      {
+        parse_mode: "Markdown",
+        reply_markup: confirmKeyboard
+      }
+    );
+    
+    await ctx.answerCallbackQuery("Using available balance");
+    
+  } catch (error) {
+    console.error("Error handling invest available:", error);
+    await ctx.reply("❌ An error occurred while processing your request. Please try again.");
+    await ctx.answerCallbackQuery();
+  }
+}
+
+async function handleManualDepositCheck(ctx: BotContext) {
+  try {
+    const { getPendingTransaction, clearPendingTransaction } = await import("./src/utils/smart-recovery");
+    const pending = getPendingTransaction(ctx);
+    
+    if (!pending) {
+      await ctx.reply("❌ No pending transaction found or it has expired.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    await ctx.reply("🔍 **Checking for deposits...**\n\nPlease wait while I scan the blockchain...");
+    
+    // Get current balance to check if deposit was received
+    const { getWallet, getMultipleTokenBalances, formatTokenAmount } = await import("./src/lib/token-wallet");
+    const { BASE_TOKENS } = await import("./src/utils/constants");
+    
+    const wallet = await getWallet(ctx.session.userId!);
+    if (!wallet) {
+      await ctx.reply("❌ Wallet not found. Please set up your wallet first.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    const tokenBalances = await getMultipleTokenBalances([BASE_TOKENS.USDC], wallet.address);
+    const usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
+    
+    if (!usdcBalance) {
+      await ctx.reply("❌ No USDC balance found. Please make sure you deposited to the correct address on Base network.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    const currentBalance = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
+    const stillNeeded = pending.amount - currentBalance;
+    
+    console.log(`🔍 Manual deposit check: User ${ctx.session.userId} has $${currentBalance}, needs $${pending.amount} (shortage: $${stillNeeded})`);
+    
+    if (stillNeeded <= 0) {
+      // Sufficient balance now - offer completion
+      const { InlineKeyboard } = await import("grammy");
+      
+      const keyboard = new InlineKeyboard()
+        .text(`✅ Complete ${pending.protocol} Investment (${pending.apy}% APY)`, "retry_pending_transaction")
+        .row()
+        .text("💼 Keep in Wallet", "cancel_pending_transaction")
+        .text("🎯 View Options", "main_menu");
+      
+      await ctx.reply(
+        `🎉 **Deposit Confirmed!**\n\n` +
+        `✅ You now have **$${currentBalance.toFixed(2)} USDC**\n` +
+        `✅ Sufficient for your **$${pending.amount} investment**\n\n` +
+        `**Ready to complete:**\n` +
+        `• Protocol: ${pending.protocol}\n` +
+        `• Amount: $${pending.amount}\n` +
+        `• APY: ${pending.apy}%\n\n` +
+        `Shall I complete your investment now?`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      
+    } else if (currentBalance > (pending.amount - pending.shortage)) {
+      // Partial deposit received
+      const { InlineKeyboard } = await import("grammy");
+      
+      // Update shortage in pending transaction
+      pending.shortage = stillNeeded;
+      
+      const keyboard = new InlineKeyboard()
+        .text(`📥 Deposit $${stillNeeded.toFixed(2)} More`, "deposit")
+        .text("🔍 Check Again", "manual_deposit_check")
+        .row()
+        .text("💰 Invest Available Funds", "invest_available")
+        .text("❌ Cancel", "cancel_pending_transaction");
+      
+      await ctx.reply(
+        `💰 **Partial Deposit Detected**\n\n` +
+        `**Your balance**: $${currentBalance.toFixed(2)} USDC\n` +
+        `**Still needed**: $${stillNeeded.toFixed(2)} USDC\n\n` +
+        `**Your pending investment:**\n` +
+        `• ${pending.protocol} at ${pending.apy}% APY\n` +
+        `• Total needed: $${pending.amount}\n\n` +
+        `What would you like to do?`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      
+    } else {
+      // No deposit detected yet
+      const { InlineKeyboard } = await import("grammy");
+      
+      const keyboard = new InlineKeyboard()
+        .text("🔍 Check Again", "manual_deposit_check")
+        .text(`📥 Deposit $${pending.shortage.toFixed(2)}`, "deposit")
+        .row()
+        .text("💰 Invest Available", "invest_available")
+        .text("❌ Cancel", "cancel_pending_transaction");
+      
+      await ctx.reply(
+        `🔍 **No New Deposits Found**\n\n` +
+        `**Your balance**: $${currentBalance.toFixed(2)} USDC\n` +
+        `**Still needed**: $${stillNeeded.toFixed(2)} USDC\n\n` +
+        `**Tips:**\n` +
+        `• Make sure you sent USDC to: \`${wallet.address}\`\n` +
+        `• Verify you're using **Base network** (not Ethereum mainnet)\n` +
+        `• Transactions can take 1-2 minutes to confirm\n\n` +
+        `**Your target investment:** ${pending.protocol} at ${pending.apy}% APY`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+    }
+    
+    await ctx.answerCallbackQuery("Balance checked!");
+    
+  } catch (error) {
+    console.error("Error in manual deposit check:", error);
+    await ctx.reply("❌ An error occurred while checking your balance. Please try again.");
+    await ctx.answerCallbackQuery();
+  }
+}
+
 // Handle callback queries
 bot.on("callback_query:data", async (ctx) => {
   const callbackData = ctx.callbackQuery.data;
@@ -106,7 +412,8 @@ bot.on("callback_query:data", async (ctx) => {
       callbackData === "withdraw_fluid_custom" || callbackData === "withdraw_aave_custom" || callbackData === "withdraw_compound_custom" ||
       callbackData === "withdraw_aave_custom_with_rewards" || callbackData === "withdraw_aave_custom_no_rewards" ||
       callbackData === "withdraw_compound_custom_with_rewards" || callbackData === "withdraw_compound_custom_no_rewards" ||
-      callbackData === "withdraw_custom" || callbackData === "withdraw_custom_with_rewards" || callbackData === "withdraw_custom_no_rewards") {
+      callbackData === "withdraw_custom" || callbackData === "withdraw_custom_with_rewards" || callbackData === "withdraw_custom_no_rewards" ||
+      callbackData.startsWith("confirm_withdraw_") || callbackData.startsWith("cancel_withdraw_")) {
     await handleWithdrawCallbacks(ctx);
     return;
   }
@@ -534,7 +841,35 @@ bot.on("callback_query:data", async (ctx) => {
     await ctx.editMessageText(
       "Operation cancelled. Your existing wallet remains unchanged."
     );
-  } else {
+  }
+
+  // Smart Recovery Flow Callbacks
+  else if (callbackData === "retry_pending_transaction") {
+    await handleRetryPendingTransaction(ctx);
+  } else if (callbackData === "cancel_pending_transaction") {
+    await handleCancelPendingTransaction(ctx);
+  } else if (callbackData === "invest_available") {
+    await handleInvestAvailable(ctx);
+  } else if (callbackData === "modify_amount") {
+    // Restart the zap flow to modify amount
+    ctx.session.currentAction = "zap_amount";
+    ctx.session.tempData = {}; // Clear existing data
+    await ctx.reply("💰 Enter the new amount you'd like to invest in USDC:");
+    await ctx.answerCallbackQuery();
+  } else if (callbackData === "cancel_investment") {
+    // Clear any pending transaction and session data
+    const { clearPendingTransaction } = await import("./src/utils/smart-recovery");
+    clearPendingTransaction(ctx);
+    ctx.session.tempData = {};
+    ctx.session.currentAction = undefined;
+    
+    await ctx.reply("❌ Investment cancelled. Your funds remain safe in your wallet.");
+    await ctx.answerCallbackQuery();
+  } else if (callbackData === "manual_deposit_check") {
+    await handleManualDepositCheck(ctx);
+  } 
+  
+  else {
     await ctx.answerCallbackQuery("Unknown command");
   }
 });
@@ -611,7 +946,7 @@ bot.command("help", async (ctx) => {
       "*Other Commands:*\n" +
       "/cancel - Cancel current operation\n" +
       "/help - Show this help message\n\n" +
-      "🤖 *Auto-Deployment*: I automatically find the best yield opportunities based on your risk settings.\n" +
+      "🐙 *Auto-Deployment*: I automatically find the best yield opportunities based on your risk settings.\n" +
       "🛡️ *Safety First*: Only vetted protocols with high TVL are used.\n" +
       "📈 *Track Performance*: View real-time portfolio value and yields earned.",
     { parse_mode: "Markdown" }

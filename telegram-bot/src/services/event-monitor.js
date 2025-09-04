@@ -164,12 +164,12 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
       userId,
       `🎉 *Deposit confirmed ${firstName}!*\n\n` +
       `${amount} ${tokenSymbol} received!\n\n` +
-      `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas... 🚀`,
+      `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas... 🦑`,
       { parse_mode: "Markdown" }
     );
 
     // Step 3: Auto-deploy using Coinbase CDP sponsored transactions
-    console.log(`🚀 Auto-deploying ${amount} ${tokenSymbol} for user ${userId} to ${bestProtocol.protocol}...`);
+    console.log(`🦑 Auto-deploying ${amount} ${tokenSymbol} for user ${userId} to ${bestProtocol.protocol}...`);
     
     // Import Coinbase DeFi service and get the appropriate deployment function
     const coinbaseDefi = require("../services/coinbase-defi.ts");
@@ -194,7 +194,7 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
       
       await monitorBot.api.sendMessage(
         userId,
-        `🐙 *Welcome to your **inkvest** control center!*\n\n` +
+        `🐙 *Welcome to your **inkvest** savings account!*\n\n` +
         `✅ ${amount} ${tokenSymbol} deployed to ${bestProtocol.protocol} (${bestProtocol.apy}% APY)\n` +
         `✅ Gas sponsored by inkvest (gasless for you!)\n` +
         `✅ Auto-compounding activated\n` +
@@ -238,7 +238,7 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
 }
 
 /**
- * Handle deposit for existing user - keep funds in wallet and present options
+ * Handle deposit for existing user - check for pending transactions and offer smart completion
  */
 async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
@@ -256,34 +256,138 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
       totalBalance = currentBalance;
     }
     
+    // Check for pending transaction in database session
+    const { getDatabase } = require("../lib/database");
+    let pendingTx = null;
+    
+    try {
+      const db = getDatabase();
+      const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
+      
+      if (userSession && userSession.session_data) {
+        const sessionData = JSON.parse(userSession.session_data);
+        pendingTx = sessionData.pendingTransaction;
+        
+        // Check if pending transaction is still valid (not expired - 5 minutes)
+        if (pendingTx && Date.now() - pendingTx.timestamp > 5 * 60 * 1000) {
+          console.log(`⏰ Pending transaction expired for user ${userId}, clearing it`);
+          
+          // Clear expired pending transaction
+          sessionData.pendingTransaction = undefined;
+          db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
+            .run(JSON.stringify(sessionData), userId);
+          
+          pendingTx = null;
+        }
+      }
+    } catch (dbError) {
+      console.error(`Error checking pending transaction for user ${userId}:`, dbError);
+    }
+    
     // Import menu utilities
     const { InlineKeyboard } = require("grammy");
     const { formatTxLink } = require("../utils/earnings");
     
-    // Create action keyboard for existing users
-    const keyboard = new InlineKeyboard()
-      .text("🚀 Deploy to Protocols", "zap_auto_deploy")
-      .row()
-      .text("📊 View Portfolio", "view_portfolio")
-      .text("💰 Check Balance", "check_balance")
-      .row()
-      .text("🔄 Main Menu", "main_menu");
-    
-    // Send deposit confirmation with options
-    await monitorBot.api.sendMessage(
-      userId,
-      `💰 *Deposit confirmed ${firstName}!*\n\n` +
-      `+$${amount} ${tokenSymbol} received\n` +
-      `💳 **Total wallet balance: $${totalBalance} USDC**\n\n` +
-      `Your funds are ready! Choose where to deploy them for maximum yield:\n\n` +
-      `Deposit TX: ${formatTxLink(txHash)}`,
-      { 
-        parse_mode: "Markdown",
-        reply_markup: keyboard
+    if (pendingTx) {
+      // User has pending transaction - check if deposit is sufficient
+      const depositAmount = parseFloat(amount);
+      const stillNeeded = pendingTx.shortage - depositAmount;
+      
+      console.log(`🎯 User ${userId} has pending ${pendingTx.protocol} investment: needed $${pendingTx.shortage}, deposited $${depositAmount}`);
+      
+      if (stillNeeded <= 0) {
+        // Sufficient deposit - offer completion
+        const keyboard = new InlineKeyboard()
+          .text(`✅ Complete ${pendingTx.protocol} Investment (${pendingTx.apy}% APY)`, "retry_pending_transaction")
+          .row()
+          .text("💼 Keep in Wallet", "cancel_pending_transaction")
+          .text("🎯 View Options", "main_menu");
+        
+        await monitorBot.api.sendMessage(
+          userId,
+          `🎉 **Perfect ${firstName}!**\n\n` +
+          `You deposited **$${depositAmount} ${tokenSymbol}**\n` +
+          `✅ You now have enough for your investment!\n\n` +
+          `**Ready to complete:**\n` +
+          `• Protocol: ${pendingTx.protocol}\n` +
+          `• Amount: $${pendingTx.amount}\n` +
+          `• APY: ${pendingTx.apy}%\n\n` +
+          `Deposit TX: ${formatTxLink(txHash)}\n\n` +
+          `Shall I complete your investment now?`,
+          { 
+            parse_mode: "Markdown",
+            reply_markup: keyboard
+          }
+        );
+        
+      } else {
+        // Partial deposit - show remaining needed
+        console.log(`📊 Partial deposit: user ${userId} still needs $${stillNeeded.toFixed(2)} more`);
+        
+        // Update the shortage in session
+        try {
+          const db = getDatabase();
+          const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
+          
+          if (userSession && userSession.session_data) {
+            const sessionData = JSON.parse(userSession.session_data);
+            sessionData.pendingTransaction.shortage = stillNeeded;
+            db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
+              .run(JSON.stringify(sessionData), userId);
+          }
+        } catch (updateError) {
+          console.error(`Error updating pending transaction shortage:`, updateError);
+        }
+        
+        const keyboard = new InlineKeyboard()
+          .text(`📥 Deposit $${stillNeeded.toFixed(2)} More`, "deposit")
+          .row()
+          .text("💰 Invest Available Funds", "invest_available")
+          .row()
+          .text("❌ Cancel", "cancel_pending_transaction");
+        
+        await monitorBot.api.sendMessage(
+          userId,
+          `💰 **Partial Deposit Received ${firstName}**\n\n` +
+          `+$${depositAmount} ${tokenSymbol} received\n` +
+          `You still need **$${stillNeeded.toFixed(2)}** more\n\n` +
+          `**Your pending investment:**\n` +
+          `• ${pendingTx.protocol} at ${pendingTx.apy}% APY\n` +
+          `• Total needed: $${pendingTx.amount}\n\n` +
+          `Deposit TX: ${formatTxLink(txHash)}\n\n` +
+          `What would you like to do?`,
+          { 
+            parse_mode: "Markdown",
+            reply_markup: keyboard
+          }
+        );
       }
-    );
+      
+    } else {
+      // No pending transaction - standard deposit flow
+      const keyboard = new InlineKeyboard()
+        .text("🦑 Deploy to Protocols", "zap_auto_deploy")
+        .row()
+        .text("📊 View Portfolio", "view_portfolio")
+        .text("💰 Check Balance", "check_balance")
+        .row()
+        .text("🔄 Main Menu", "main_menu");
+      
+      await monitorBot.api.sendMessage(
+        userId,
+        `💰 **Deposit confirmed ${firstName}!**\n\n` +
+        `+$${amount} ${tokenSymbol} received\n` +
+        `💳 **Total wallet balance: $${totalBalance} USDC**\n\n` +
+        `Your funds are ready! Choose where to deploy them for maximum yield:\n\n` +
+        `Deposit TX: ${formatTxLink(txHash)}`,
+        { 
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+    }
     
-    console.log(`✅ Existing user ${firstName} notified of $${amount} deposit - funds kept in wallet`);
+    console.log(`✅ Existing user ${firstName} deposit handled - ${pendingTx ? 'with pending transaction' : 'standard flow'}`);
     
   } catch (error) {
     console.error(`Failed to handle existing user deposit for user ${userId}:`, error);
@@ -291,7 +395,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
     // Fallback notification
     await monitorBot.api.sendMessage(
       userId,
-      `💰 *Deposit confirmed ${firstName}!*\n\n` +
+      `💰 **Deposit confirmed ${firstName}!**\n\n` +
       `${amount} ${tokenSymbol} received and ready in your wallet.\n\n` +
       `Use the bot menu to deploy your funds.`,
       { parse_mode: "Markdown" }

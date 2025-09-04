@@ -42,7 +42,7 @@ const depositHandler = {
             }
             // Create action buttons
             const keyboard = new grammy_1.InlineKeyboard()
-                .text("🚀 Start Earning", "zap_auto_deploy")
+                .text("🦑 Start Earning", "zap_auto_deploy")
                 .row()
                 .text("💰 Check Balance", "check_balance")
                 .text("📊 Portfolio", "view_portfolio");

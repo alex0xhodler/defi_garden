@@ -283,7 +283,7 @@ const harvestHandler: CommandHandler = {
           `Use /zap to start earning yields!`,
           {
             parse_mode: "Markdown",
-            reply_markup: new InlineKeyboard().text("🚀 Start Earning", "zap_funds")
+            reply_markup: new InlineKeyboard().text("🦑 Start Earning", "zap_funds")
           }
         );
         return;
@@ -327,7 +327,7 @@ const harvestHandler: CommandHandler = {
           `Use /zap to start earning yields!`,
           {
             parse_mode: "Markdown",
-            reply_markup: new InlineKeyboard().text("🚀 Start Earning", "zap_funds")
+            reply_markup: new InlineKeyboard().text("🦑 Start Earning", "zap_funds")
           }
         );
         return;
@@ -370,7 +370,7 @@ const harvestHandler: CommandHandler = {
             parse_mode: "Markdown",
             reply_markup: new InlineKeyboard()
               .text("📊 Portfolio", "view_portfolio")
-              .text("🚀 Earn More", "zap_funds")
+              .text("🦑 Earn More", "zap_funds")
           }
         );
         return;
@@ -615,7 +615,7 @@ export async function handleHarvestConfirmation(
         parse_mode: "Markdown",
         reply_markup: new InlineKeyboard()
           .text("📊 View Portfolio", "view_portfolio")
-          .text("🚀 Earn More", "zap_funds")
+          .text("🦑 Earn More", "zap_funds")
           .row()
           .text("🚪 Withdraw", "withdraw")
       });
@@ -631,7 +631,7 @@ export async function handleHarvestConfirmation(
             `Your DeFi farming is working well! Consider adding more capital to maximize the compound effect. 📈`,
             {
               reply_markup: new InlineKeyboard()
-                .text("🚀 Earn More", "zap_funds")
+                .text("🦑 Earn More", "zap_funds")
                 .text("🔄 Check Harvest Again", "harvest_yields")
             }
           );

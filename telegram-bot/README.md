@@ -6,7 +6,7 @@ Auto-deploy funds to the highest-yielding, safest DeFi protocols with just a few
 
 ## ✨ Features
 
-### 🤖 **Intelligent Auto-Deployment**
+### 🐙 **Intelligent Auto-Deployment**
 - Scans 50+ protocols for best opportunities
 - Filters by risk level, TVL, and audit status  
 - Auto-selects highest APY pools within your risk tolerance

@@ -1,5 +1,5 @@
 import { BotContext } from "../context";
-import { getWallet } from "../lib/token-wallet";
+import { getWallet, getAaveBalance, getFluidBalance, getCompoundBalance } from "../lib/token-wallet";
 import { withdrawFromAave, withdrawFromFluid, withdrawFromCompound } from "../lib/defi-protocols";
 import { withdrawFromCompoundV3, gaslessWithdrawFromAave, gaslessWithdrawFromFluid } from "../services/coinbase-defi";
 import { getCoinbaseSmartWallet, hasCoinbaseSmartWallet } from "../lib/coinbase-wallet";
@@ -85,6 +85,39 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       return;
     }
 
+    // Handle cancel withdrawal callbacks
+    if (callbackData.startsWith("cancel_withdraw_")) {
+      await ctx.answerCallbackQuery("Withdrawal cancelled");
+      
+      const protocol = callbackData.split("_")[2]; // Extract protocol from cancel_withdraw_protocol
+      const protocolInfo: { [key: string]: { name: string; emoji: string } } = {
+        'fluid': { name: 'Fluid Finance', emoji: '🌊' },
+        'aave': { name: 'Aave V3', emoji: '🏛️' },
+        'compound': { name: 'Compound V3', emoji: '🏦' }
+      };
+      
+      const info = protocolInfo[protocol] || { name: 'Protocol', emoji: '💰' };
+      
+      const continueKeyboard = new InlineKeyboard()
+        .text("📊 View Portfolio", "view_portfolio")
+        .text("💰 Check Balance", "check_balance")
+        .row()
+        .text("🦑 Invest More", "zap_auto_deploy")
+        .text("🔄 Main Menu", "main_menu");
+      
+      await ctx.reply(
+        `✅ **Withdrawal Cancelled**\n\n` +
+        `${info.emoji} Your ${info.name} position remains active and earning interest.\n\n` +
+        `💰 **Smart choice!** Your funds continue compounding automatically.\n\n` +
+        `What would you like to do next?`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: continueKeyboard
+        }
+      );
+      return;
+    }
+
     // Handle protocol menu selection
     if (callbackData === "withdraw_fluid_menu") {
       await ctx.answerCallbackQuery();
@@ -167,6 +200,14 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
     if (callbackData === "withdraw_fluid_max") {
       await ctx.answerCallbackQuery();
       
+      // Show locked funds confirmation first
+      await showWithdrawalConfirmation(ctx, "fluid", "max");
+      return;
+    }
+    
+    if (callbackData === "confirm_withdraw_fluid_max") {
+      await ctx.answerCallbackQuery();
+      
       const processingMsg = await ctx.reply(
         `🔄 **Processing Pool Exit...**\n\n` +
           `**Protocol:** Fluid Finance\n` +
@@ -200,7 +241,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         }
 
         const successKeyboard = new InlineKeyboard()
-          .text("🚀 Earn More", "zap_funds")
+          .text("🦑 Earn More", "zap_funds")
           .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -254,6 +295,14 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
     if (callbackData === "withdraw_aave_max") {
       await ctx.answerCallbackQuery();
       
+      // Show locked funds confirmation first
+      await showWithdrawalConfirmation(ctx, "aave", "max");
+      return;
+    }
+    
+    if (callbackData === "confirm_withdraw_aave_max") {
+      await ctx.answerCallbackQuery();
+      
       const processingMsg = await ctx.reply(
         `🔄 **Processing Pool Exit...**\n\n` +
           `**Protocol:** Aave V3\n` +
@@ -287,7 +336,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         }
 
         const successKeyboard = new InlineKeyboard()
-          .text("🚀 Earn More", "zap_funds")
+          .text("🦑 Earn More", "zap_funds")
           .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -341,6 +390,14 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
     if (callbackData === "withdraw_compound_max") {
       await ctx.answerCallbackQuery();
       
+      // Show locked funds confirmation first
+      await showWithdrawalConfirmation(ctx, "compound", "max");
+      return;
+    }
+    
+    if (callbackData === "confirm_withdraw_compound_max") {
+      await ctx.answerCallbackQuery();
+      
       const processingMsg = await ctx.reply(
         `🔄 **Processing Pool Exit...**\n\n` +
           `**Protocol:** Compound V3\n` +
@@ -368,7 +425,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         }
 
         const successKeyboard = new InlineKeyboard()
-          .text("🚀 Earn More", "zap_funds")
+          .text("🦑 Earn More", "zap_funds")
           .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -651,7 +708,7 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       }
 
       const successKeyboard = new InlineKeyboard()
-        .text("🚀 Earn More", "zap_funds")
+        .text("🦑 Earn More", "zap_funds")
         .text("📊 View Portfolio", "view_portfolio")
         .row()
         .text("💰 Check Balance", "check_balance")
@@ -736,5 +793,85 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
     ctx.session.tempData = {};
   }
 };
+
+/**
+ * Show withdrawal confirmation with daily earnings impact
+ */
+async function showWithdrawalConfirmation(ctx: BotContext, protocol: string, amount: string): Promise<void> {
+  try {
+    // Get protocol info and current APY
+    const protocolInfo: { [key: string]: { name: string; emoji: string; apy: number } } = {
+      'fluid': { name: 'Fluid Finance', emoji: '🌊', apy: 7.8 },
+      'aave': { name: 'Aave V3', emoji: '🏛️', apy: 5.2 },
+      'compound': { name: 'Compound V3', emoji: '🏦', apy: 6.2 }
+    };
+    
+    const info = protocolInfo[protocol] || { name: 'Protocol', emoji: '💰', apy: 5.0 };
+    
+    // Get user's actual balance from their DeFi positions
+    const userId = ctx.from?.id?.toString();
+    let estimatedBalance = 0;
+    
+    if (userId) {
+      try {
+        // Get user's actual balance based on protocol
+        const wallet = await getWallet(userId);
+        if (wallet) {
+          if (protocol === 'aave') {
+            const balanceResult = await getAaveBalance(wallet.address);
+            estimatedBalance = parseFloat(balanceResult.aUsdcBalanceFormatted);
+          } else if (protocol === 'compound') {
+            // Use the coinbase-defi function for Compound V3 which returns simple string
+            const { getCompoundV3Balance } = await import("../services/coinbase-defi");
+            estimatedBalance = parseFloat(await getCompoundV3Balance(wallet.address));
+          } else if (protocol === 'fluid') {
+            const balanceResult = await getFluidBalance(wallet.address);
+            estimatedBalance = parseFloat(balanceResult.fUsdcBalanceFormatted);
+          }
+        }
+      } catch (error) {
+        console.error(`Error fetching ${protocol} balance:`, error);
+        estimatedBalance = 1; // Fallback to $1 if we can't fetch balance
+      }
+    }
+    
+    // Fallback to $1 if no balance found
+    if (estimatedBalance <= 0) {
+      estimatedBalance = 1;
+    }
+    
+    const dailyEarnings = (estimatedBalance * info.apy) / 100 / 365;
+    
+    const confirmKeyboard = new InlineKeyboard()
+      .text(`💸 Withdraw Now (-$${dailyEarnings.toFixed(4)})`, `confirm_withdraw_${protocol}_${amount}`)
+      .row()
+      .text(`📈 Keep Earning`, `cancel_withdraw_${protocol}`)
+      .text(`📊 View Details`, `view_portfolio`);
+    
+    const message = `⚠️ **Withdrawal Impact Confirmation**\n\n` +
+      `${info.emoji} **${info.name}**\n` +
+      `• Your balance: **$${estimatedBalance.toFixed(2)} USDC**\n` +
+      `• Current APY: **${info.apy}%**\n` +
+      `• Daily earnings: **$${dailyEarnings.toFixed(4)}/day**\n` +
+      `• Weekly earnings: **$${(dailyEarnings * 7).toFixed(3)}**\n\n` +
+      `**If you withdraw now:**\n` +
+      `❌ You'll forfeit today's earnings (~$${dailyEarnings.toFixed(4)})\n` +
+      `❌ Your funds will stop earning interest\n` +
+      `✅ USDC will be available in your wallet instantly\n\n` +
+      `**Alternative:**\n` +
+      `📈 Keep earning and withdraw tomorrow\n` +
+      `📈 Compound your returns automatically\n\n` +
+      `**What would you like to do?**`;
+    
+    await ctx.reply(message, {
+      parse_mode: "Markdown",
+      reply_markup: confirmKeyboard
+    });
+    
+  } catch (error) {
+    console.error("Error showing withdrawal confirmation:", error);
+    await ctx.reply("❌ An error occurred. Please try again later.");
+  }
+}
 
 export default withdrawHandler;

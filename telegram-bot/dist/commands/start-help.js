@@ -96,7 +96,7 @@ exports.startHandler = {
                     `✅ Gasless transactions (we sponsor gas)\n` +
                     `✅ Auto-deployed to highest yields\n` +
                     `✅ Withdraw anytime, zero lock-ups\n\n` +
-                    `I'll auto-deploy as soon as funds arrive! 🚀`, {
+                    `I'll auto-deploy as soon as funds arrive! 🦑`, {
                     parse_mode: "Markdown",
                     reply_markup: keyboard,
                 });
@@ -144,7 +144,7 @@ exports.startHandler = {
                         `✅ Gasless transactions (we sponsor gas)\n` +
                         `✅ Auto-deployed to highest yields\n` +
                         `✅ Withdraw anytime, zero lock-ups\n\n` +
-                        `I'll auto-deploy as soon as funds arrive! 🚀`, {
+                        `I'll auto-deploy as soon as funds arrive! 🦑`, {
                         parse_mode: "Markdown",
                         reply_markup: keyboard,
                     });
@@ -231,7 +231,7 @@ exports.helpHandler = {
                 .text("🔄 Main Menu", "main_menu");
             await ctx.reply(`🦑 *How inkvest Works*\n\n` +
                 `Hi ${firstName}! I'm your personal yield farming assistant.\n\n` +
-                `🤖 *What I Do*\n` +
+                `🐙 *What I Do*\n` +
                 `• Find the best DeFi yields (~${highestAPY}% APY)\n` +
                 `• Auto-deploy your funds safely\n` +
                 `• Monitor and compound earnings\n\n` +
