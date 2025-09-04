@@ -436,22 +436,8 @@ async function loadWalletAddresses() {
       if (wallet) {
         let addressToMonitor = wallet.address;
         
-        // For Coinbase Smart Wallets, get the correct smart wallet address
-        if (wallet.type === 'coinbase-smart-wallet') {
-          try {
-            // Import getCoinbaseSmartWallet to get the real address
-            const { getCoinbaseSmartWallet } = require("../lib/coinbase-wallet");
-            const smartWallet = await getCoinbaseSmartWallet(user.userId);
-            if (smartWallet && smartWallet.smartAccount) {
-              addressToMonitor = smartWallet.smartAccount.address;
-              console.log(`📍 Using Smart Wallet address for monitoring: ${addressToMonitor} (database had: ${wallet.address})`);
-            } else {
-              console.log(`⚠️ Could not get Smart Wallet for user ${user.userId}, using database address: ${wallet.address}`);
-            }
-          } catch (error) {
-            console.error(`Error getting smart wallet address for user ${user.userId}:`, error);
-          }
-        }
+        // Monitor the EOA wallet address where users send deposits
+        console.log(`📍 Using EOA wallet address for monitoring deposits: ${addressToMonitor}`);
         
         // Store pre-deposit balance for this user (only if not already set)
         if (!preDepositBalances.has(user.userId)) {
