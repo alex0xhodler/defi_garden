@@ -3,8 +3,7 @@ module.exports = {
     {
       name: 'inkvest-bot',
       script: './index.ts',
-      interpreter: 'npx',
-      interpreter_args: 'ts-node',
+      interpreter: './node_modules/.bin/ts-node',
       node_args: ['--max-old-space-size=512'],
       instances: 1,
       exec_mode: 'fork',
@@ -23,9 +22,8 @@ module.exports = {
     },
     {
       name: 'event-monitor',
-      script: './src/services/event-monitor.js',
-      interpreter: 'npx',
-      interpreter_args: 'ts-node',
+      script: './src/services/event-monitor.ts',
+      interpreter: './node_modules/.bin/ts-node',
       node_args: ['--max-old-space-size=256'],
       instances: 1,
       exec_mode: 'fork',
