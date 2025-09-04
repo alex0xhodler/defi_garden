@@ -114,7 +114,7 @@ export const balanceHandler: CommandHandler = {
         }
 
         if (defiPositions) {
-          message += `\n🚀 **Earning Positions**:\n${defiPositions}`;
+          message += `\n🦑 **Earning Positions**:\n${defiPositions}`;
         }
 
         // Show total if user has DeFi positions

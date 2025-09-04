@@ -23,7 +23,7 @@ async function notifyDepositReceived(userId, firstName, amount, tokenSymbol) {
     try {
         const message = `✨ Deposit confirmed ${firstName}!\n\n` +
             `${amount} ${tokenSymbol} received and ready to start earning!\n\n` +
-            `🦑 Your inkvest account is growing! 🚀`;
+            `🦑 Your inkvest account is growing! 🦑`;
         await monitorBot.api.sendMessage(userId, message);
         console.log(`📬 Sent deposit notification to ${firstName}: ${amount} ${tokenSymbol}`);
     }

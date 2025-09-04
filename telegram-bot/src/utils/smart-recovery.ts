@@ -198,7 +198,7 @@ export async function sendInsufficientBalanceFlow(
       `\`${depositAddress}\`\n\n` +
       `*Network:* Base (super cheap fees!)\n` +
       `*Monitoring:* 5 minutes active\n\n` +
-      `✅ **I'll auto-complete your investment when funds arrive!** 🚀`;
+      `✅ **I'll auto-complete your investment when funds arrive!** 🦑`;
 
     // Create contextual keyboard
     const keyboard = createSmartRecoveryKeyboard(details);

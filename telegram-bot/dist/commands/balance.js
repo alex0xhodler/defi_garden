@@ -124,7 +124,7 @@ exports.balanceHandler = {
                     hasAnyBalance = true;
                 }
                 if (defiPositions) {
-                    message += `\n🚀 **Earning Positions**:\n${defiPositions}`;
+                    message += `\n🦑 **Earning Positions**:\n${defiPositions}`;
                 }
                 // Show total if user has DeFi positions
                 if (totalDefiValue > 0) {

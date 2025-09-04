@@ -183,7 +183,7 @@ const earnHandler = {
                 .text("🐙 inkvest Auto-Managed", "zap_auto_deploy")
                 .row()
                 .text("🎯 Manual Management", "zap_choose_protocol");
-            await ctx.reply(`🚀 *Ready to start earning, ${firstName}?*\n\n` +
+            await ctx.reply(`🦑 *Ready to start earning, ${firstName}?*\n\n` +
                 `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
                 `🐙 **inkvest Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
                 `🎯 **Manual Management**: You choose the protocol\n\n` +
@@ -494,7 +494,7 @@ async function handleZapConfirmation(ctx, confirmed) {
                 `⏰ Yields update every few minutes. I'll notify you of any significant changes.`, {
                 parse_mode: "Markdown",
                 reply_markup: new grammy_1.InlineKeyboard()
-                    .text("🚀 Earn More", "zap_funds")
+                    .text("🦑 Earn More", "zap_funds")
                     .text("📊 View Portfolio", "view_portfolio")
             });
             // Reset state
@@ -539,7 +539,7 @@ async function handleZapConfirmation(ctx, confirmed) {
                 parse_mode: "Markdown",
                 reply_markup: new grammy_1.InlineKeyboard()
                     .text("🔄 Retry Same Zap", "retry_zap")
-                    .text("🚀 Start Earning", "zap_funds")
+                    .text("🦑 Start Earning", "zap_funds")
                     .row()
                     .text("📊 Check Balance", "check_balance")
             });
@@ -663,7 +663,7 @@ async function handleZapRetry(ctx) {
                 `⏰ Yields update every few minutes. I'll notify you of any significant changes.`, {
                 parse_mode: "Markdown",
                 reply_markup: new grammy_1.InlineKeyboard()
-                    .text("🚀 Earn More", "zap_funds")
+                    .text("🦑 Earn More", "zap_funds")
                     .text("📊 View Portfolio", "view_portfolio")
             });
             // Clear retry data on success
@@ -699,7 +699,7 @@ async function handleZapRetry(ctx) {
                 parse_mode: "Markdown",
                 reply_markup: new grammy_1.InlineKeyboard()
                     .text("🔄 Retry Again", "retry_zap")
-                    .text("🚀 Start Earning", "zap_funds")
+                    .text("🦑 Start Earning", "zap_funds")
                     .row()
                     .text("📊 Check Balance", "check_balance")
             });

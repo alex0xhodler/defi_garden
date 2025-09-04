@@ -69,7 +69,7 @@ const portfolioHandler = {
             // If no DeFi deposits, show empty portfolio
             if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0) {
                 const keyboard = new grammy_1.InlineKeyboard()
-                    .text("🚀 Start Earning", "zap_funds")
+                    .text("🦑 Start Earning", "zap_funds")
                     .text("📥 Deposit", "deposit")
                     .row()
                     .text("💰 Check Balance", "check_balance")
@@ -82,7 +82,7 @@ const portfolioHandler = {
                     `• Fluid Deposits: $0.00\n` +
                     `• Compound Deposits: $0.00\n\n` +
                     `**Get Started**:\n` +
-                    `• Use 🚀 Start Earning to auto-deploy to best yields\n` +
+                    `• Use 🦑 Start Earning to auto-deploy to best yields\n` +
                     `• Earn 5%+ APY on your USDC\n` +
                     `• Only vetted, high-TVL protocols\n\n` +
                     `💡 **Tip**: Portfolio now shows real-time blockchain data`, {
@@ -151,7 +151,7 @@ const portfolioHandler = {
             message += `• Auto-compounding rewards included\n\n`;
             // Quick actions
             const keyboard = new grammy_1.InlineKeyboard()
-                .text("🚀 Earn More", "zap_funds")
+                .text("🦑 Earn More", "zap_funds")
                 .text("🌾 Harvest", "harvest_yields")
                 .row()
                 .text("🚪 Exit Pool", "withdraw")
@@ -261,7 +261,7 @@ const handlePortfolioDetails = async (ctx) => {
         message += `• **Add More**: Zap additional USDC to pool\n\n`;
         const keyboard = new grammy_1.InlineKeyboard()
             .text("🚪 Exit Pool", "withdraw")
-            .text("🚀 Earn More", "zap_funds")
+            .text("🦑 Earn More", "zap_funds")
             .row()
             .text("🔄 Refresh Data", "portfolio_details")
             .text("🔙 Back to Portfolio", "view_portfolio");

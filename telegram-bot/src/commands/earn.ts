@@ -171,7 +171,7 @@ const earnHandler: CommandHandler = {
         .text("🎯 Manual Management", "zap_choose_protocol");
 
       await ctx.reply(
-        `🚀 *Ready to start earning, ${firstName}?*\n\n` +
+        `🦑 *Ready to start earning, ${firstName}?*\n\n` +
         `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
         `🐙 **inkvest Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
         `🎯 **Manual Management**: You choose the protocol\n\n` +
@@ -562,7 +562,7 @@ export async function handleZapConfirmation(
         { 
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
-            .text("🚀 Earn More", "zap_funds")
+            .text("🦑 Earn More", "zap_funds")
             .text("📊 View Portfolio", "view_portfolio")
         }
       );
@@ -612,7 +612,7 @@ export async function handleZapConfirmation(
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
             .text("🔄 Retry Same Zap", "retry_zap")
-            .text("🚀 Start Earning", "zap_funds")
+            .text("🦑 Start Earning", "zap_funds")
             .row()
             .text("📊 Check Balance", "check_balance")
         }
@@ -785,7 +785,7 @@ export async function handleZapRetry(ctx: BotContext): Promise<void> {
         { 
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
-            .text("🚀 Earn More", "zap_funds")
+            .text("🦑 Earn More", "zap_funds")
             .text("📊 View Portfolio", "view_portfolio")
         }
       );
@@ -824,7 +824,7 @@ export async function handleZapRetry(ctx: BotContext): Promise<void> {
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
             .text("🔄 Retry Again", "retry_zap")
-            .text("🚀 Start Earning", "zap_funds")
+            .text("🦑 Start Earning", "zap_funds")
             .row()
             .text("📊 Check Balance", "check_balance")
         }

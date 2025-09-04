@@ -102,7 +102,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         .text("📊 View Portfolio", "view_portfolio")
         .text("💰 Check Balance", "check_balance")
         .row()
-        .text("🚀 Invest More", "zap_auto_deploy")
+        .text("🦑 Invest More", "zap_auto_deploy")
         .text("🔄 Main Menu", "main_menu");
       
       await ctx.reply(
@@ -241,7 +241,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         }
 
         const successKeyboard = new InlineKeyboard()
-          .text("🚀 Earn More", "zap_funds")
+          .text("🦑 Earn More", "zap_funds")
           .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -336,7 +336,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         }
 
         const successKeyboard = new InlineKeyboard()
-          .text("🚀 Earn More", "zap_funds")
+          .text("🦑 Earn More", "zap_funds")
           .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -425,7 +425,7 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         }
 
         const successKeyboard = new InlineKeyboard()
-          .text("🚀 Earn More", "zap_funds")
+          .text("🦑 Earn More", "zap_funds")
           .text("📊 View Portfolio", "view_portfolio")
           .row()
           .text("💰 Check Balance", "check_balance")
@@ -708,7 +708,7 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       }
 
       const successKeyboard = new InlineKeyboard()
-        .text("🚀 Earn More", "zap_funds")
+        .text("🦑 Earn More", "zap_funds")
         .text("📊 View Portfolio", "view_portfolio")
         .row()
         .text("💰 Check Balance", "check_balance")

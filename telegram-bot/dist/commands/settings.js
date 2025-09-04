@@ -158,7 +158,7 @@ async function updateRiskLevel(ctx, riskLevel) {
             `• I'll still prioritize safety within your chosen level`, {
             parse_mode: "Markdown",
             reply_markup: new grammy_1.InlineKeyboard()
-                .text("🚀 Start Earning", "zap_funds")
+                .text("🦑 Start Earning", "zap_funds")
                 .text("⚙️ More Settings", "open_settings")
         });
     }

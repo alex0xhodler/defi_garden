@@ -164,12 +164,12 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
       userId,
       `🎉 *Deposit confirmed ${firstName}!*\n\n` +
       `${amount} ${tokenSymbol} received!\n\n` +
-      `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas... 🚀`,
+      `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas... 🦑`,
       { parse_mode: "Markdown" }
     );
 
     // Step 3: Auto-deploy using Coinbase CDP sponsored transactions
-    console.log(`🚀 Auto-deploying ${amount} ${tokenSymbol} for user ${userId} to ${bestProtocol.protocol}...`);
+    console.log(`🦑 Auto-deploying ${amount} ${tokenSymbol} for user ${userId} to ${bestProtocol.protocol}...`);
     
     // Import Coinbase DeFi service and get the appropriate deployment function
     const coinbaseDefi = require("../services/coinbase-defi.ts");
@@ -365,7 +365,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
     } else {
       // No pending transaction - standard deposit flow
       const keyboard = new InlineKeyboard()
-        .text("🚀 Deploy to Protocols", "zap_auto_deploy")
+        .text("🦑 Deploy to Protocols", "zap_auto_deploy")
         .row()
         .text("📊 View Portfolio", "view_portfolio")
         .text("💰 Check Balance", "check_balance")

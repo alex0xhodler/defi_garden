@@ -91,7 +91,7 @@ export const startHandler: CommandHandler = {
           `✅ Gasless transactions (we sponsor gas)\n` +
           `✅ Auto-deployed to highest yields\n` +
           `✅ Withdraw anytime, zero lock-ups\n\n` +
-          `I'll auto-deploy as soon as funds arrive! 🚀`,
+          `I'll auto-deploy as soon as funds arrive! 🦑`,
           {
             parse_mode: "Markdown",
             reply_markup: keyboard,
@@ -150,7 +150,7 @@ export const startHandler: CommandHandler = {
             `✅ Gasless transactions (we sponsor gas)\n` +
             `✅ Auto-deployed to highest yields\n` +
             `✅ Withdraw anytime, zero lock-ups\n\n` +
-            `I'll auto-deploy as soon as funds arrive! 🚀`,
+            `I'll auto-deploy as soon as funds arrive! 🦑`,
             {
               parse_mode: "Markdown",
               reply_markup: keyboard,

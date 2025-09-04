@@ -117,7 +117,7 @@ const handleWithdrawCallbacks = async (ctx) => {
                 .text("📊 View Portfolio", "view_portfolio")
                 .text("💰 Check Balance", "check_balance")
                 .row()
-                .text("🚀 Invest More", "zap_auto_deploy")
+                .text("🦑 Invest More", "zap_auto_deploy")
                 .text("🔄 Main Menu", "main_menu");
             await ctx.reply(`✅ **Withdrawal Cancelled**\n\n` +
                 `${info.emoji} Your ${info.name} position remains active and earning interest.\n\n` +
@@ -225,7 +225,7 @@ const handleWithdrawCallbacks = async (ctx) => {
                     receipt = await (0, defi_protocols_1.withdrawFromFluid)(wallet, "max");
                 }
                 const successKeyboard = new grammy_1.InlineKeyboard()
-                    .text("🚀 Earn More", "zap_funds")
+                    .text("🦑 Earn More", "zap_funds")
                     .text("📊 View Portfolio", "view_portfolio")
                     .row()
                     .text("💰 Check Balance", "check_balance")
@@ -298,7 +298,7 @@ const handleWithdrawCallbacks = async (ctx) => {
                     receipt = await (0, defi_protocols_1.withdrawFromAave)(wallet, "max");
                 }
                 const successKeyboard = new grammy_1.InlineKeyboard()
-                    .text("🚀 Earn More", "zap_funds")
+                    .text("🦑 Earn More", "zap_funds")
                     .text("📊 View Portfolio", "view_portfolio")
                     .row()
                     .text("💰 Check Balance", "check_balance")
@@ -363,7 +363,7 @@ const handleWithdrawCallbacks = async (ctx) => {
                     throw new Error(result.error);
                 }
                 const successKeyboard = new grammy_1.InlineKeyboard()
-                    .text("🚀 Earn More", "zap_funds")
+                    .text("🦑 Earn More", "zap_funds")
                     .text("📊 View Portfolio", "view_portfolio")
                     .row()
                     .text("💰 Check Balance", "check_balance")
@@ -597,7 +597,7 @@ const handleWithdrawAmountInput = async (ctx, amount) => {
                 rewardStatus = "Left in pool (default)";
             }
             const successKeyboard = new grammy_1.InlineKeyboard()
-                .text("🚀 Earn More", "zap_funds")
+                .text("🦑 Earn More", "zap_funds")
                 .text("📊 View Portfolio", "view_portfolio")
                 .row()
                 .text("💰 Check Balance", "check_balance")
