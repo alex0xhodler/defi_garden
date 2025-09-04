@@ -332,14 +332,47 @@ export async function getCompoundV3Balance(walletAddress: Address): Promise<stri
 }
 
 /**
+ * Get exact Compound V3 balance in wei for precise withdrawals
+ */
+export async function getCompoundV3BalanceExact(walletAddress: Address): Promise<bigint> {
+  try {
+    const { coinbasePublicClient } = await import('../lib/coinbase-wallet');
+    
+    const balance = await coinbasePublicClient.readContract({
+      address: COMPOUND_V3_USDC_ADDRESS,
+      abi: [
+        {
+          constant: true,
+          inputs: [{ name: 'account', type: 'address' }],
+          name: 'balanceOf',
+          outputs: [{ name: '', type: 'uint256' }],
+          type: 'function',
+        },
+      ],
+      functionName: 'balanceOf',
+      args: [walletAddress],
+    });
+
+    return balance as bigint;
+
+  } catch (error) {
+    console.error('Error checking exact Compound V3 balance:', error);
+    return 0n;
+  }
+}
+
+/**
  * Withdraw USDC from Compound V3 with CDP sponsored gas
  */
 export async function withdrawFromCompoundV3(
   userId: string, 
-  usdcAmount: string
+  usdcAmount: string | bigint,
+  isMaxWithdrawal: boolean = false
 ): Promise<{ success: boolean; txHash?: string; error?: string }> {
   try {
-    console.log(`💸 Withdrawing ${usdcAmount} USDC from Compound V3 for user ${userId}`);
+    const displayAmount = typeof usdcAmount === 'string' ? usdcAmount : 
+      (Number(usdcAmount) / Math.pow(10, 6)).toFixed(6);
+    console.log(`💸 Withdrawing ${displayAmount} USDC from Compound V3 for user ${userId}`);
 
     // Get user's Coinbase Smart Wallet
     const wallet = await getCoinbaseSmartWallet(userId);
@@ -349,19 +382,29 @@ export async function withdrawFromCompoundV3(
 
     const { smartAccount } = wallet;
 
-    // Convert USDC amount to proper units (6 decimals)
-    const withdrawAmountWei = parseUnits(usdcAmount, 6);
-
-    // Check current Compound V3 balance
-    const compoundBalance = await getCompoundV3Balance(smartAccount.address);
-    const compoundBalanceWei = parseUnits(compoundBalance, 6);
+    let withdrawAmountWei: bigint;
     
-    if (compoundBalanceWei === 0n) {
+    if (isMaxWithdrawal && typeof usdcAmount === 'bigint') {
+      // For max withdrawals, use the exact balance provided
+      withdrawAmountWei = usdcAmount;
+    } else if (typeof usdcAmount === 'string') {
+      // Convert USDC amount to proper units (6 decimals)
+      withdrawAmountWei = parseUnits(usdcAmount, 6);
+    } else {
+      // bigint provided but not max withdrawal
+      withdrawAmountWei = usdcAmount;
+    }
+
+    // Check current Compound V3 balance (only for validation, not for exact amount)
+    const compoundBalanceExact = await getCompoundV3BalanceExact(smartAccount.address);
+    
+    if (compoundBalanceExact === 0n) {
       throw new Error('No USDC deposited in Compound V3 to withdraw');
     }
     
-    if (withdrawAmountWei > compoundBalanceWei) {
-      throw new Error(`Insufficient Compound V3 balance. Requested: ${usdcAmount} USDC, Available: ${compoundBalance} USDC`);
+    if (!isMaxWithdrawal && withdrawAmountWei > compoundBalanceExact) {
+      const availableFormatted = (Number(compoundBalanceExact) / Math.pow(10, 6)).toFixed(6);
+      throw new Error(`Insufficient Compound V3 balance. Requested: ${displayAmount} USDC, Available: ${availableFormatted} USDC`);
     }
 
     // Create bundler client with CDP paymaster for USDC gas payments
