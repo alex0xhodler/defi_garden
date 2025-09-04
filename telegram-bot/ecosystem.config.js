@@ -2,8 +2,8 @@ module.exports = {
   apps: [
     {
       name: 'inkvest-bot',
-      script: 'index.js',
-      interpreter: 'node',
+      script: 'npx',
+      args: 'ts-node index.ts',
       instances: 1,
       exec_mode: 'fork',
       env: {
@@ -21,8 +21,8 @@ module.exports = {
     },
     {
       name: 'event-monitor',
-      script: './src/services/event-monitor.js',
-      interpreter: 'node',
+      script: 'npx',
+      args: 'ts-node src/services/event-monitor.js',
       instances: 1,
       exec_mode: 'fork',
       env: {
