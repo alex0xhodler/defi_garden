@@ -194,7 +194,7 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
       
       await monitorBot.api.sendMessage(
         userId,
-        `🐙 *Welcome to your **inkvest** control center!*\n\n` +
+        `🐙 *Welcome to your **inkvest** savings account!*\n\n` +
         `✅ ${amount} ${tokenSymbol} deployed to ${bestProtocol.protocol} (${bestProtocol.apy}% APY)\n` +
         `✅ Gas sponsored by inkvest (gasless for you!)\n` +
         `✅ Auto-compounding activated\n` +
