@@ -225,7 +225,20 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         let receipt;
         if (hasSmartWallet) {
           console.log(`🦑 Using gasless Fluid withdrawal for Smart Wallet user`);
-          const result = await gaslessWithdrawFromFluid(userId!, "max");
+          
+          // Get user's exact Fluid balance to withdraw max amount
+          const { getFluidBalanceExact } = await import("../services/coinbase-defi");
+          const smartWallet = await getCoinbaseSmartWallet(userId!);
+          if (!smartWallet) {
+            throw new Error("Smart wallet not found");
+          }
+          
+          const fluidBalanceExact = await getFluidBalanceExact(smartWallet.smartAccount.address);
+          if (fluidBalanceExact === 0n) {
+            throw new Error("No USDC deposited in Fluid Finance to withdraw");
+          }
+          
+          const result = await gaslessWithdrawFromFluid(userId!, fluidBalanceExact, true);
           if (!result.success) {
             throw new Error(result.error);
           }
@@ -320,7 +333,20 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         let receipt;
         if (hasSmartWallet) {
           console.log(`🦑 Using gasless Aave withdrawal for Smart Wallet user`);
-          const result = await gaslessWithdrawFromAave(userId!, "max");
+          
+          // Get user's exact Aave balance to withdraw max amount
+          const { getAaveBalanceExact } = await import("../services/coinbase-defi");
+          const smartWallet = await getCoinbaseSmartWallet(userId!);
+          if (!smartWallet) {
+            throw new Error("Smart wallet not found");
+          }
+          
+          const aaveBalanceExact = await getAaveBalanceExact(smartWallet.smartAccount.address);
+          if (aaveBalanceExact === 0n) {
+            throw new Error("No USDC deposited in Aave V3 to withdraw");
+          }
+          
+          const result = await gaslessWithdrawFromAave(userId!, aaveBalanceExact, true);
           if (!result.success) {
             throw new Error(result.error);
           }
@@ -655,7 +681,26 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       if (protocol === "fluid") {
         if (hasSmartWallet) {
           console.log(`🦑 Using gasless Fluid withdrawal for Smart Wallet user`);
-          const result = await gaslessWithdrawFromFluid(userId, amount);
+          
+          let result;
+          if (isMaxWithdrawal) {
+            // Get exact balance for max withdrawal
+            const { getFluidBalanceExact } = await import("../services/coinbase-defi");
+            const smartWallet = await getCoinbaseSmartWallet(userId);
+            if (!smartWallet) {
+              throw new Error("Smart wallet not found");
+            }
+            
+            const fluidBalanceExact = await getFluidBalanceExact(smartWallet.smartAccount.address);
+            if (fluidBalanceExact === 0n) {
+              throw new Error("No USDC deposited in Fluid Finance to withdraw");
+            }
+            
+            result = await gaslessWithdrawFromFluid(userId, fluidBalanceExact, true);
+          } else {
+            result = await gaslessWithdrawFromFluid(userId, amount);
+          }
+          
           if (!result.success) {
             throw new Error(result.error);
           }
@@ -683,7 +728,26 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
       } else {
         if (hasSmartWallet) {
           console.log(`🦑 Using gasless Aave withdrawal for Smart Wallet user`);
-          const result = await gaslessWithdrawFromAave(userId, amount);
+          
+          let result;
+          if (isMaxWithdrawal) {
+            // Get exact balance for max withdrawal
+            const { getAaveBalanceExact } = await import("../services/coinbase-defi");
+            const smartWallet = await getCoinbaseSmartWallet(userId);
+            if (!smartWallet) {
+              throw new Error("Smart wallet not found");
+            }
+            
+            const aaveBalanceExact = await getAaveBalanceExact(smartWallet.smartAccount.address);
+            if (aaveBalanceExact === 0n) {
+              throw new Error("No USDC deposited in Aave V3 to withdraw");
+            }
+            
+            result = await gaslessWithdrawFromAave(userId, aaveBalanceExact, true);
+          } else {
+            result = await gaslessWithdrawFromAave(userId, amount);
+          }
+          
           if (!result.success) {
             throw new Error(result.error);
           }

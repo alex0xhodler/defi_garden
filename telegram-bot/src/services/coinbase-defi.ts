@@ -5,6 +5,7 @@ import { updateUserOnboardingStatus } from '../lib/database';
 // Contract addresses - Using correct Base addresses
 const COMPOUND_V3_USDC_ADDRESS = "0xb125e6687d4313864e53df431d5425969c15eb2f" as Address;
 const AAVE_V3_POOL_ADDRESS = "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5" as Address;
+const AAVE_V3_AUSDC_ADDRESS = "0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB" as Address; // aUSDC token
 const FLUID_FUSDC_ADDRESS = "0xf42f5795d9ac7e9d757db633d693cd548cfd9169" as Address;
 const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913" as Address;
 
@@ -362,6 +363,66 @@ export async function getCompoundV3BalanceExact(walletAddress: Address): Promise
 }
 
 /**
+ * Get exact Aave aUSDC balance in wei for precise max withdrawals
+ */
+export async function getAaveBalanceExact(walletAddress: Address): Promise<bigint> {
+  try {
+    const { coinbasePublicClient } = await import('../lib/coinbase-wallet');
+    
+    const balance = await coinbasePublicClient.readContract({
+      address: AAVE_V3_AUSDC_ADDRESS,
+      abi: [
+        {
+          constant: true,
+          inputs: [{ name: 'account', type: 'address' }],
+          name: 'balanceOf',
+          outputs: [{ name: '', type: 'uint256' }],
+          type: 'function',
+        },
+      ],
+      functionName: 'balanceOf',
+      args: [walletAddress],
+    });
+
+    return balance as bigint;
+
+  } catch (error) {
+    console.error('Error checking exact Aave balance:', error);
+    return 0n;
+  }
+}
+
+/**
+ * Get exact Fluid fUSDC balance in wei for precise max withdrawals
+ */
+export async function getFluidBalanceExact(walletAddress: Address): Promise<bigint> {
+  try {
+    const { coinbasePublicClient } = await import('../lib/coinbase-wallet');
+    
+    const balance = await coinbasePublicClient.readContract({
+      address: FLUID_FUSDC_ADDRESS,
+      abi: [
+        {
+          constant: true,
+          inputs: [{ name: 'account', type: 'address' }],
+          name: 'balanceOf',
+          outputs: [{ name: '', type: 'uint256' }],
+          type: 'function',
+        },
+      ],
+      functionName: 'balanceOf',
+      args: [walletAddress],
+    });
+
+    return balance as bigint;
+
+  } catch (error) {
+    console.error('Error checking exact Fluid balance:', error);
+    return 0n;
+  }
+}
+
+/**
  * Withdraw USDC from Compound V3 with CDP sponsored gas
  */
 export async function withdrawFromCompoundV3(
@@ -660,10 +721,13 @@ export async function gaslessDeployToAave(
  */
 export async function gaslessWithdrawFromAave(
   userId: string, 
-  usdcAmount: string
+  usdcAmount: string | bigint,
+  isMaxWithdrawal: boolean = false
 ): Promise<{ success: boolean; txHash?: string; error?: string }> {
   try {
-    console.log(`💸 Withdrawing ${usdcAmount} USDC from Aave V3 for user ${userId}`);
+    const displayAmount = typeof usdcAmount === 'string' ? usdcAmount : 
+      (Number(usdcAmount) / Math.pow(10, 6)).toFixed(6);
+    console.log(`💸 Withdrawing ${displayAmount} USDC from Aave V3 for user ${userId}`);
 
     // Get user's Coinbase Smart Wallet
     const wallet = await getCoinbaseSmartWallet(userId);
@@ -673,11 +737,19 @@ export async function gaslessWithdrawFromAave(
 
     const { smartAccount } = wallet;
 
-    // Convert USDC amount to proper units (6 decimals) or use max
-    const isMaxWithdrawal = usdcAmount.toLowerCase() === "max";
-    const withdrawAmountWei = isMaxWithdrawal 
-      ? parseUnits("115792089237316195423570985008687907853269984665640564039457584007913129639935", 0) // MAX_UINT256
-      : parseUnits(usdcAmount, 6);
+    // Handle different amount types
+    let withdrawAmountWei: bigint;
+    
+    if (typeof usdcAmount === 'bigint') {
+      // Use exact amount provided (for precise max withdrawals)
+      withdrawAmountWei = usdcAmount;
+    } else if (usdcAmount.toLowerCase() === "max" || isMaxWithdrawal) {
+      // Use MAX_UINT256 for regular max withdrawals
+      withdrawAmountWei = parseUnits("115792089237316195423570985008687907853269984665640564039457584007913129639935", 0) as bigint;
+    } else {
+      // Convert string amount to wei
+      withdrawAmountWei = parseUnits(usdcAmount, 6);
+    }
 
     // Create bundler client with CDP paymaster for USDC gas payments
     const bundlerClient = await createSponsoredBundlerClient(smartAccount);
@@ -923,10 +995,13 @@ export async function gaslessDeployToFluid(
  */
 export async function gaslessWithdrawFromFluid(
   userId: string, 
-  usdcAmount: string
+  usdcAmount: string | bigint,
+  isMaxWithdrawal: boolean = false
 ): Promise<{ success: boolean; txHash?: string; error?: string }> {
   try {
-    console.log(`💸 Withdrawing ${usdcAmount} USDC from Fluid Finance for user ${userId}`);
+    const displayAmount = typeof usdcAmount === 'string' ? usdcAmount : 
+      (Number(usdcAmount) / Math.pow(10, 6)).toFixed(6);
+    console.log(`💸 Withdrawing ${displayAmount} USDC from Fluid Finance for user ${userId}`);
 
     // Get user's Coinbase Smart Wallet
     const wallet = await getCoinbaseSmartWallet(userId);
@@ -936,11 +1011,19 @@ export async function gaslessWithdrawFromFluid(
 
     const { smartAccount } = wallet;
 
-    // Convert USDC amount to proper units (6 decimals) or use max
-    const isMaxWithdrawal = usdcAmount.toLowerCase() === "max";
-    const withdrawAmountWei = isMaxWithdrawal 
-      ? parseUnits("115792089237316195423570985008687907853269984665640564039457584007913129639935", 0) // MAX_UINT256
-      : parseUnits(usdcAmount, 6);
+    // Handle different amount types
+    let withdrawAmountWei: bigint;
+    
+    if (typeof usdcAmount === 'bigint') {
+      // Use exact amount provided (for precise max withdrawals)
+      withdrawAmountWei = usdcAmount;
+    } else if (usdcAmount.toLowerCase() === "max" || isMaxWithdrawal) {
+      // Use MAX_UINT256 for regular max withdrawals
+      withdrawAmountWei = parseUnits("115792089237316195423570985008687907853269984665640564039457584007913129639935", 0) as bigint;
+    } else {
+      // Convert string amount to wei
+      withdrawAmountWei = parseUnits(usdcAmount, 6);
+    }
 
     // Create bundler client with CDP paymaster for USDC gas payments
     const bundlerClient = await createSponsoredBundlerClient(smartAccount);
