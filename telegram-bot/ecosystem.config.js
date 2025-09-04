@@ -23,8 +23,7 @@ module.exports = {
     {
       name: 'event-monitor',
       script: './src/services/event-monitor.js',
-      interpreter: 'node',
-      interpreter_args: ['./node_modules/.bin/ts-node', '--max-old-space-size=256'],
+      interpreter: './node_modules/.bin/ts-node',
       instances: 1,
       exec_mode: 'fork',
       env: {
