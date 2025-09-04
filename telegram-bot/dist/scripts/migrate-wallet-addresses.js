@@ -21,10 +21,10 @@ const accounts_1 = require("viem/accounts");
 const chains_1 = require("viem/chains");
 const encryption_1 = require("../lib/encryption");
 const constants_1 = require("../utils/constants");
-// Create public client for Base mainnet
+// Create public client for Base mainnet using DRPC (no rate limiting)
 const publicClient = (0, viem_1.createPublicClient)({
     chain: chains_1.base,
-    transport: (0, viem_1.http)("https://mainnet.base.org"),
+    transport: (0, viem_1.http)("https://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhnKxixj"),
 });
 const db = new better_sqlite3_1.default(constants_1.DB_PATH);
 /**
