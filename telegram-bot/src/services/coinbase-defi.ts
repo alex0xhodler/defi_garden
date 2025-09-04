@@ -816,11 +816,22 @@ export async function gaslessDeployToFluid(
       deployAmountWei = maxDeployableWei;
       actualDeployAmount = (Number(deployAmountWei) / Math.pow(10, 6)).toFixed(2);
       console.log(`💰 Auto-fitting deployment: ${usdcAmount} USDC requested, deploying ${actualDeployAmount} USDC (reserved $0.01 for gas)`);
+      console.log(`🔍 Debug Fluid - maxDeployableWei: ${maxDeployableWei}, currentBalanceWei: ${currentBalanceWei}, gasReserveWei: ${gasReserveWei}`);
     } else {
       // Use requested amount
       deployAmountWei = amountWei;
       actualDeployAmount = usdcAmount;
       console.log(`💰 Deploying full amount: ${actualDeployAmount} USDC (${currentBalance} USDC available, $0.01 reserved for gas)`);
+    }
+
+    // Validate minimum deposit amount to prevent zero deposits
+    if (deployAmountWei <= 0n) {
+      throw new Error(`Deployment amount too small: ${actualDeployAmount} USDC. Need at least $0.02 USDC (minimum $0.01 + $0.01 gas reserve)`);
+    }
+    
+    // Additional validation for very small amounts
+    if (Number(actualDeployAmount) < 0.01) {
+      throw new Error(`Deployment amount too small: ${actualDeployAmount} USDC. Minimum deployment is $0.01 USDC`);
     }
 
     // Create bundler client with CDP paymaster for USDC gas payments
