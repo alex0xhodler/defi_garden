@@ -542,16 +542,28 @@ bot.on("callback_query:data", async (ctx) => {
               const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
               
               // Import earnings utilities
-              const { calculateRealTimeEarnings, formatTxLink } = await import("./src/utils/earnings");
-              const earnings = calculateRealTimeEarnings(parseFloat(usdcBalance.toString()), bestProtocol.apy);
+              const { calculateDetailedEarnings, formatTxLink } = await import("./src/utils/earnings");
+              const earnings = calculateDetailedEarnings(parseFloat(usdcBalance.toString()), bestProtocol.apy);
               
               await ctx.editMessageText(
                 `🐙 *Welcome to your **inkvest** savings account!*\n\n` +
-                `✅ ${usdcBalance.toString()} USDC deployed to ${bestProtocol.protocol} (${bestProtocol.apy}% APY)\n` +
-                `✅ Gas sponsored by inkvest (gasless for you!)\n` +
-                `✅ Auto-compounding activated\n` +
-                `✅ Earning ${earnings} automatically\n\n` +
-                (deployResult.txHash ? `Deploy TX: ${formatTxLink(deployResult.txHash)}` : `Deployment completed successfully`),
+                `💰 **Position Summary:**\n` +
+                `• Invested: $${usdcBalance.toString()} USDC into ${bestProtocol.protocol}\n` +
+                `• APY: ${bestProtocol.apy}% (auto-compounding)\n` +
+                `• Strategy: Gasless & automated\n\n` +
+                `📈 **Your Earnings Breakdown:**\n` +
+                `• Daily: ${earnings.dailyWithContext}\n` +
+                `• Weekly: ${earnings.weekly}\n` +
+                `• Monthly: ${earnings.monthly}\n` +
+                `• Yearly: ${earnings.yearly}\n` +
+                `• Time to 2x: ~${earnings.timeToDouble}\n\n` +
+                `✅ **Benefits:**\n` +
+                `• ${earnings.comparisonMultiple} better than US savings (${earnings.savingsApy})\n` +
+                `• Gas sponsored by inkvest\n` +
+                `• Withdraw anytime, no penalties\n\n` +
+                (deployResult.txHash ? 
+                  `📝 [View Investment](https://basescan.org/tx/${deployResult.txHash})` : 
+                  `📝 Investment completed successfully`),
                 { 
                   parse_mode: "Markdown",
                   reply_markup: createMainMenuKeyboard()

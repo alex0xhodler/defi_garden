@@ -189,18 +189,27 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
       const { createMainMenuKeyboard, getMainMenuMessage } = require("../utils/mainMenu");
       
       // Import earnings utilities
-      const { calculateRealTimeEarnings, formatTxLink } = require("../utils/earnings");
-      const earnings = calculateRealTimeEarnings(parseFloat(amount), bestProtocol.apy);
+      const { calculateDetailedEarnings, formatTxLink } = require("../utils/earnings");
+      const earnings = calculateDetailedEarnings(parseFloat(amount), bestProtocol.apy);
       
       await monitorBot.api.sendMessage(
         userId,
         `🐙 *Welcome to your **inkvest** savings account!*\n\n` +
-        `✅ ${amount} ${tokenSymbol} deployed to ${bestProtocol.protocol} (${bestProtocol.apy}% APY)\n` +
-        `✅ Gas sponsored by inkvest (gasless for you!)\n` +
-        `✅ Auto-compounding activated\n` +
-        `✅ Earning ${earnings} automatically\n\n` +
-        `Deposit TX: ${formatTxLink(txHash)}\n` +
-        `Deploy TX: ${formatTxLink(deployResult.txHash)}`,
+        `💰 **Position Summary:**\n` +
+        `• Invested: $${amount} ${tokenSymbol} into ${bestProtocol.protocol}\n` +
+        `• APY: ${bestProtocol.apy}% (auto-compounding)\n` +
+        `• Strategy: Gasless & automated\n\n` +
+        `📈 **Your Earnings Breakdown:**\n` +
+        `• Daily: ${earnings.dailyWithContext}\n` +
+        `• Weekly: ${earnings.weekly}\n` +
+        `• Monthly: ${earnings.monthly}\n` +
+        `• Yearly: ${earnings.yearly}\n` +
+        `• Time to 2x: ~${earnings.timeToDouble}\n\n` +
+        `✅ **Benefits:**\n` +
+        `• ${earnings.comparisonMultiple} better than US savings (${earnings.savingsApy})\n` +
+        `• Gas sponsored by inkvest\n` +
+        `• Withdraw anytime, no penalties\n\n` +
+        `📝 [View Deposit](https://basescan.org/tx/${txHash}) | [View Investment](https://basescan.org/tx/${deployResult.txHash})`,
         { 
           parse_mode: "Markdown",
           reply_markup: createMainMenuKeyboard()
