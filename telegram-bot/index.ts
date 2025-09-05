@@ -7,7 +7,7 @@ import { verifyEncryptionKey } from "./src/lib/encryption";
 // Import commands
 import { startHandler, helpHandler } from "./src/commands/start-help";
 import { walletHandler, createHandler } from "./src/commands/wallet";
-import { importHandler, exportHandler, handlePrivateKeyInput, handleExportConfirmation } from "./src/commands/import-export";
+import { importHandler, exportHandler, handlePrivateKeyInput, handleExportConfirmation, handleFundMigration } from "./src/commands/import-export";
 import { balanceHandler, handleWithdrawEth, handleWithdrawUsdc, handleWithdrawTextInput } from "./src/commands/balance";
 import zapHandler, {
   handlePoolSelection,
@@ -418,8 +418,19 @@ bot.on("callback_query:data", async (ctx) => {
     return;
   }
 
+  // Fund migration callbacks
+  if (callbackData === "confirm_fund_migration") {
+    await handleFundMigration(ctx, true);
+    await ctx.answerCallbackQuery();
+    return;
+  } else if (callbackData === "skip_fund_migration") {
+    await handleFundMigration(ctx, false);
+    await ctx.answerCallbackQuery();
+    return;
+  }
+
   // Confirmation callbacks
-  if (callbackData === "confirm_yes") {
+  else if (callbackData === "confirm_yes") {
     switch (ctx.session.currentAction) {
       case "export_wallet":
         await handleExportConfirmation(ctx, true);
