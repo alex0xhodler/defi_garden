@@ -29,8 +29,23 @@ const portfolioHandler: CommandHandler = {
         return;
       }
 
-      const walletAddress = wallet.address as Address;
+      // Check if user has Smart Wallet and use appropriate address for balance checks
+      const { hasCoinbaseSmartWallet, getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
+      let walletAddress = wallet.address as Address;
+      let usingSmartWallet = false;
+      
+      if (hasCoinbaseSmartWallet(userId)) {
+        const smartWallet = await getCoinbaseSmartWallet(userId);
+        if (smartWallet) {
+          walletAddress = smartWallet.smartAccount.address;
+          usingSmartWallet = true;
+          console.log(`📍 Using Smart Wallet address for portfolio: ${walletAddress}`);
+        }
+      }
 
+      // Add small delay to ensure blockchain state consistency after recent transactions
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
       // Fetch real on-chain balances
       const [aaveBalance, fluidBalance, compoundBalance, usdcBalance] = await Promise.all([
         getAaveBalance(walletAddress),
@@ -174,7 +189,17 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
       return;
     }
 
-    const walletAddress = wallet.address as Address;
+    // Check if user has Smart Wallet and use appropriate address
+    const { hasCoinbaseSmartWallet, getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
+    let walletAddress = wallet.address as Address;
+    
+    if (hasCoinbaseSmartWallet(userId)) {
+      const smartWallet = await getCoinbaseSmartWallet(userId);
+      if (smartWallet) {
+        walletAddress = smartWallet.smartAccount.address;
+        console.log(`📍 Using Smart Wallet address for portfolio callback: ${walletAddress}`);
+      }
+    }
     const [aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
       getAaveBalance(walletAddress),
       getFluidBalance(walletAddress),

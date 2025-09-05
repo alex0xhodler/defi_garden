@@ -312,19 +312,44 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
         console.log(`🦑 Skipping ETH check - using gasless Smart Wallet`);
       }
 
-      const tokenBalances = await getMultipleTokenBalances(
-        [BASE_TOKENS.USDC],
-        wallet.address as Address
-      );
+      // Try to get balance with retry mechanism for better accuracy after withdrawals
+      let usdcBalance;
+      let readableBalance = 0;
+      
+      for (let retryCount = 0; retryCount < 2; retryCount++) {
+        const tokenBalances = await getMultipleTokenBalances(
+          [BASE_TOKENS.USDC],
+          wallet.address as Address
+        );
 
-      const usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
-      if (!usdcBalance) {
-        await ctx.reply("❌ No USDC balance found. Please deposit USDC first using /deposit");
-        return;
+        usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
+        if (!usdcBalance) {
+          if (retryCount === 0) {
+            console.log("⏳ No USDC balance found, retrying with fresh fetch...");
+            await new Promise(resolve => setTimeout(resolve, 2000)); // 2 second delay
+            continue;
+          }
+          await ctx.reply(
+            "❌ No USDC balance found. Please deposit USDC first using /deposit\n\n" +
+            "**Tip:** If you just withdrew from a protocol, try using /balance to refresh your balance."
+          );
+          return;
+        }
+
+        readableBalance = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
+        
+        // If balance is sufficient, break out of retry loop
+        if (readableBalance >= amount) {
+          break;
+        }
+        
+        // If first attempt shows insufficient balance, try once more with delay
+        if (retryCount === 0) {
+          console.log(`⏳ Balance ${readableBalance} < ${amount}, retrying with fresh fetch...`);
+          await new Promise(resolve => setTimeout(resolve, 2000)); // 2 second delay
+        }
       }
-
-      // Convert balance to readable format and check if sufficient
-      const readableBalance = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
+      
       if (readableBalance < amount) {
         // Import smart recovery utilities
         const { sendInsufficientBalanceFlow } = await import("../utils/smart-recovery");
@@ -555,7 +580,7 @@ export async function handleZapConfirmation(
         { 
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
-            .text("🚀 Earn More", "zap_funds")
+            .text("🦑 Earn More", "zap_funds")
             .text("📊 View Portfolio", "view_portfolio")
         }
       );
@@ -778,7 +803,7 @@ export async function handleZapRetry(ctx: BotContext): Promise<void> {
         { 
           parse_mode: "Markdown",
           reply_markup: new InlineKeyboard()
-            .text("🚀 Earn More", "zap_funds")
+            .text("🦑 Earn More", "zap_funds")
             .text("📊 View Portfolio", "view_portfolio")
         }
       );

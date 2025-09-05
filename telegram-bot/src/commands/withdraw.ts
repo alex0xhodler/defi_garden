@@ -410,15 +410,19 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       );
 
       try {
-        // Get user's Compound V3 balance to withdraw max amount
-        const { getCompoundV3Balance } = await import("../services/coinbase-defi");
+        // Get user's exact Compound V3 balance to withdraw max amount
+        const { getCompoundV3BalanceExact } = await import("../services/coinbase-defi");
         const smartWallet = await getCoinbaseSmartWallet(userId);
         if (!smartWallet) {
           throw new Error("Smart wallet not found");
         }
         
-        const compoundBalance = await getCompoundV3Balance(smartWallet.smartAccount.address);
-        const result = await withdrawFromCompoundV3(userId, compoundBalance);
+        const compoundBalanceExact = await getCompoundV3BalanceExact(smartWallet.smartAccount.address);
+        if (compoundBalanceExact === 0n) {
+          throw new Error("No USDC deposited in Compound V3 to withdraw");
+        }
+        
+        const result = await withdrawFromCompoundV3(userId, compoundBalanceExact, true);
 
         if (!result.success) {
           throw new Error(result.error);

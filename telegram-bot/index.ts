@@ -481,15 +481,23 @@ bot.on("callback_query:data", async (ctx) => {
     try {
       // Check USDC balance
       const usdcBalance = await getCoinbaseWalletUSDCBalance(wallet.address);
+      const balanceNum = parseFloat(usdcBalance.toString());
       
-      if (parseFloat(usdcBalance.toString()) > 0) {
-        // Funds detected! Auto-deploy using Coinbase CDP
+      if (balanceNum > 0.01) {
+        // Funds detected! Check if first-time user or existing user
+        const { getUserByTelegramId } = await import("./src/lib/database");
+        const user = getUserByTelegramId(userId);
+        const isFirstTimeUser = !user || user.onboardingCompleted === null;
         
-        // Determine the highest APY protocol
-        const { fetchRealTimeYields } = await import("./src/lib/defillama-api");
-        const yields = await fetchRealTimeYields();
-        const sortedYields = yields.sort((a, b) => b.apy - a.apy);
-        const highestYieldProtocol = sortedYields[0];
+        if (isFirstTimeUser) {
+          // First-time user - auto-deploy for quick onboarding
+          console.log(`🆕 First-time deposit detected: $${balanceNum} USDC for user ${userId}`);
+          
+          // Determine the highest APY protocol
+          const { fetchRealTimeYields } = await import("./src/lib/defillama-api");
+          const yields = await fetchRealTimeYields();
+          const sortedYields = yields.sort((a, b) => b.apy - a.apy);
+          const highestYieldProtocol = sortedYields[0];
         
         // Map protocol names to deployment functions
         const protocolMap = {
@@ -511,14 +519,14 @@ bot.on("callback_query:data", async (ctx) => {
           project: 'Compound'
         };
         
-        await ctx.editMessageText(
-          `🎉 *Deposit detected!*\n\n` +
-          `${usdcBalance.toString()} USDC found in your wallet!\n\n` +
-          `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas...`,
-          { parse_mode: "Markdown" }
-        );
-        
-        const firstName = ctx.from?.first_name || "there";
+          await ctx.editMessageText(
+            `🎉 *First deposit detected!*\n\n` +
+            `${usdcBalance.toString()} USDC found in your wallet!\n\n` +
+            `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas...`,
+            { parse_mode: "Markdown" }
+          );
+          
+          const firstName = ctx.from?.first_name || "there";
         
         // Execute sponsored deployment
         setTimeout(async () => {
@@ -542,16 +550,28 @@ bot.on("callback_query:data", async (ctx) => {
               const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
               
               // Import earnings utilities
-              const { calculateRealTimeEarnings, formatTxLink } = await import("./src/utils/earnings");
-              const earnings = calculateRealTimeEarnings(parseFloat(usdcBalance.toString()), bestProtocol.apy);
+              const { calculateDetailedEarnings, formatTxLink } = await import("./src/utils/earnings");
+              const earnings = calculateDetailedEarnings(parseFloat(usdcBalance.toString()), bestProtocol.apy);
               
               await ctx.editMessageText(
-                `🐙 *Welcome to your **inkvest** control center!*\n\n` +
-                `✅ ${usdcBalance.toString()} USDC deployed to ${bestProtocol.protocol} (${bestProtocol.apy}% APY)\n` +
-                `✅ Gas sponsored by inkvest (gasless for you!)\n` +
-                `✅ Auto-compounding activated\n` +
-                `✅ Earning ${earnings} automatically\n\n` +
-                (deployResult.txHash ? `Deploy TX: ${formatTxLink(deployResult.txHash)}` : `Deployment completed successfully`),
+                `🐙 *Welcome to your **inkvest** savings account!*\n\n` +
+                `💰 **Position Summary:**\n` +
+                `• Invested: $${usdcBalance.toString()} USDC into ${bestProtocol.protocol}\n` +
+                `• APY: ${bestProtocol.apy}% (auto-compounding)\n` +
+                `• Strategy: Gasless & automated\n\n` +
+                `📈 **Your Earnings Breakdown:**\n` +
+                `• Daily: ${earnings.dailyWithContext}\n` +
+                `• Weekly: ${earnings.weekly}\n` +
+                `• Monthly: ${earnings.monthly}\n` +
+                `• Yearly: ${earnings.yearly}\n` +
+                `• Time to 2x: ~${earnings.timeToDouble}\n\n` +
+                `✅ **Benefits:**\n` +
+                `• ${earnings.comparisonMultiple} better than US savings (${earnings.savingsApy})\n` +
+                `• Gas sponsored by inkvest\n` +
+                `• Withdraw anytime, no penalties\n\n` +
+                (deployResult.txHash ? 
+                  `📝 [View Investment](https://basescan.org/tx/${deployResult.txHash})` : 
+                  `📝 Investment completed successfully`),
                 { 
                   parse_mode: "Markdown",
                   reply_markup: createMainMenuKeyboard()
@@ -579,6 +599,30 @@ bot.on("callback_query:data", async (ctx) => {
             );
           }
         }, 2000);
+        
+        } else {
+          // Existing user - show balance with investment options
+          console.log(`💰 Existing user deposit detected: $${balanceNum} USDC for user ${userId}`);
+          
+          const { InlineKeyboard } = await import("grammy");
+          const keyboard = new InlineKeyboard()
+            .text("🦑 inkvest Automanaged", "zap_auto_deploy")
+            .row()
+            .text("📊 View Portfolio", "view_portfolio")
+            .text("💰 Check Balance", "check_balance")
+            .row()
+            .text("🔄 Main Menu", "main_menu");
+          
+          await ctx.editMessageText(
+            `💰 **Deposit confirmed!**\n\n` +
+            `$${balanceNum.toFixed(2)} USDC found in your wallet\n\n` +
+            `Your funds are ready! Choose your investment approach:`,
+            { 
+              parse_mode: "Markdown",
+              reply_markup: keyboard
+            }
+          );
+        }
         
       } else {
         // No funds yet - improved messaging

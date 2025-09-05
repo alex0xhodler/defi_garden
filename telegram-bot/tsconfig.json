@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2020", // allows top-level await in async functions
-    "module": "CommonJS", // required for better-sqlite3
+    "target": "ES2020",
+    "module": "CommonJS",
     "moduleResolution": "node",
-    "esModuleInterop": true, // allows default imports for CJS libs
+    "esModuleInterop": true,
     "strict": true,
     "outDir": "./dist",
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "*.ts"],
   "exclude": ["node_modules"]
 }

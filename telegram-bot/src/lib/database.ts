@@ -26,6 +26,7 @@ type WalletRow = {
   type: string;
   createdAt: number;
   autoCreated: number; // SQLite doesn't have boolean, use 0/1
+  isDeployed: number; // SQLite doesn't have boolean, use 0/1
 };
 
 type SettingsRow = {
@@ -247,8 +248,8 @@ export function getUsersForBalanceMonitoring(): UserRow[] {
 // Wallet operations
 export function saveWallet(walletData: WalletData, userId: string): void {
   const stmt = db.prepare(`
-    INSERT OR REPLACE INTO ${DB_TABLES.WALLETS} (address, userId, encryptedPrivateKey, type, createdAt, autoCreated)
-    VALUES (?, ?, ?, ?, ?, ?)
+    INSERT OR REPLACE INTO ${DB_TABLES.WALLETS} (address, userId, encryptedPrivateKey, type, createdAt, autoCreated, isDeployed)
+    VALUES (?, ?, ?, ?, ?, ?, ?)
   `);
 
   stmt.run(
@@ -257,7 +258,8 @@ export function saveWallet(walletData: WalletData, userId: string): void {
     walletData.encryptedPrivateKey,
     walletData.type,
     walletData.createdAt,
-    walletData.autoCreated ? 1 : 0
+    walletData.autoCreated ? 1 : 0,
+    walletData.isDeployed ? 1 : 0
   );
 }
 
@@ -274,7 +276,8 @@ export function getWalletByUserId(userId: string): WalletData | null {
     encryptedPrivateKey: result.encryptedPrivateKey,
     type: result.type,
     createdAt: result.createdAt,
-    autoCreated: result.autoCreated === 1
+    autoCreated: result.autoCreated === 1,
+    isDeployed: result.isDeployed === 1
   } as WalletData;
 }
 
@@ -291,8 +294,17 @@ export function getWalletByAddress(address: string): WalletData | null {
     encryptedPrivateKey: result.encryptedPrivateKey,
     type: result.type,
     createdAt: result.createdAt,
-    autoCreated: result.autoCreated === 1
+    autoCreated: result.autoCreated === 1,
+    isDeployed: result.isDeployed === 1
   } as WalletData;
+}
+
+export function updateWalletDeploymentStatus(userId: string, isDeployed: boolean): void {
+  const stmt = db.prepare(`
+    UPDATE ${DB_TABLES.WALLETS} SET isDeployed = ? WHERE userId = ?
+  `);
+  
+  stmt.run(isDeployed ? 1 : 0, userId);
 }
 
 export function deleteWallet(address: string): void {

@@ -31,6 +31,48 @@ export function calculateRealTimeEarnings(usdcAmount: number, apy: number) {
 }
 
 /**
+ * Calculate detailed earnings breakdown for enhanced display
+ */
+export function calculateDetailedEarnings(usdcAmount: number, apy: number) {
+  const yearlyEarnings = usdcAmount * (apy / 100);
+  const monthlyEarnings = yearlyEarnings / 12;
+  const weeklyEarnings = yearlyEarnings / 52;
+  const dailyEarnings = yearlyEarnings / 365;
+  
+  // Format earnings to appropriate precision
+  const formatEarnings = (amount: number): string => {
+    if (amount >= 1) {
+      return `$${amount.toFixed(2)}`;
+    } else if (amount >= 0.01) {
+      return `$${amount.toFixed(3)}`;
+    } else {
+      return `$${amount.toFixed(4)}`;
+    }
+  };
+
+  // Rule of 72 for doubling time
+  const yearsToDouble = (72 / apy).toFixed(1);
+  
+  // Comparison to average US savings account (0.2% APY)
+  const savingsMultiple = Math.round(apy / 0.2);
+  
+  // Add context for very small daily amounts
+  const dailyContext = dailyEarnings < 0.01 ? 
+    ` (~1 cent every ${Math.ceil(0.01 / dailyEarnings)} days)` : '';
+  
+  return {
+    daily: formatEarnings(dailyEarnings),
+    dailyWithContext: `${formatEarnings(dailyEarnings)}${dailyContext}`,
+    weekly: formatEarnings(weeklyEarnings),
+    monthly: formatEarnings(monthlyEarnings),
+    yearly: formatEarnings(yearlyEarnings),
+    timeToDouble: `${yearsToDouble} years`,
+    comparisonMultiple: `${savingsMultiple}x`,
+    savingsApy: "0.2%" // US average for context
+  };
+}
+
+/**
  * Format transaction hash with Basescan link (no preview)
  */
 export function formatTxLink(txHash: string): string {

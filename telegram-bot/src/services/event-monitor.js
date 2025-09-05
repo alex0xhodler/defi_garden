@@ -20,6 +20,8 @@ const BASE_WSS = "wss://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhn
 const monitoredWallets = new Set();
 // Store pre-deposit balances to detect first-time vs existing users
 const preDepositBalances = new Map();
+// Cache deployment status to avoid repeated blockchain calls
+const deploymentStatusCache = new Map();
 let wsConnection = null;
 let pollInterval = null;
 let connectionCheckInterval = null;
@@ -84,6 +86,14 @@ async function getHighestAPYProtocol() {
       project: 'Compound'
     };
   }
+}
+
+/**
+ * Manually set pre-deposit balance for a user (for new wallet edge case)
+ */
+function setPreDepositBalance(userId, balance) {
+  console.log(`🎯 Manually setting pre-deposit balance for user ${userId}: $${balance}`);
+  preDepositBalances.set(userId, balance);
 }
 
 /**
@@ -189,18 +199,27 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
       const { createMainMenuKeyboard, getMainMenuMessage } = require("../utils/mainMenu");
       
       // Import earnings utilities
-      const { calculateRealTimeEarnings, formatTxLink } = require("../utils/earnings");
-      const earnings = calculateRealTimeEarnings(parseFloat(amount), bestProtocol.apy);
+      const { calculateDetailedEarnings, formatTxLink } = require("../utils/earnings");
+      const earnings = calculateDetailedEarnings(parseFloat(amount), bestProtocol.apy);
       
       await monitorBot.api.sendMessage(
         userId,
         `🐙 *Welcome to your **inkvest** savings account!*\n\n` +
-        `✅ ${amount} ${tokenSymbol} deployed to ${bestProtocol.protocol} (${bestProtocol.apy}% APY)\n` +
-        `✅ Gas sponsored by inkvest (gasless for you!)\n` +
-        `✅ Auto-compounding activated\n` +
-        `✅ Earning ${earnings} automatically\n\n` +
-        `Deposit TX: ${formatTxLink(txHash)}\n` +
-        `Deploy TX: ${formatTxLink(deployResult.txHash)}`,
+        `💰 **Position Summary:**\n` +
+        `• Invested: $${amount} ${tokenSymbol} into ${bestProtocol.protocol}\n` +
+        `• APY: ${bestProtocol.apy}% (auto-compounding)\n` +
+        `• Strategy: Gasless & automated\n\n` +
+        `📈 **Your Earnings Breakdown:**\n` +
+        `• Daily: ${earnings.dailyWithContext}\n` +
+        `• Weekly: ${earnings.weekly}\n` +
+        `• Monthly: ${earnings.monthly}\n` +
+        `• Yearly: ${earnings.yearly}\n` +
+        `• Time to 2x: ~${earnings.timeToDouble}\n\n` +
+        `✅ **Benefits:**\n` +
+        `• ${earnings.comparisonMultiple} better than US savings (${earnings.savingsApy})\n` +
+        `• Gas sponsored by inkvest\n` +
+        `• Withdraw anytime, no penalties\n\n` +
+        `📝 [View Deposit](https://basescan.org/tx/${txHash}) | [View Investment](https://basescan.org/tx/${deployResult.txHash})`,
         { 
           parse_mode: "Markdown",
           reply_markup: createMainMenuKeyboard()
@@ -366,7 +385,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
     } else {
       // No pending transaction - standard deposit flow
       const keyboard = new InlineKeyboard()
-        .text("🦑 Deploy to Protocols", "zap_auto_deploy")
+        .text("🦑 inkvest Automanaged", "zap_auto_deploy")
         .row()
         .text("📊 View Portfolio", "view_portfolio")
         .text("💰 Check Balance", "check_balance")
@@ -378,7 +397,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
         `💰 **Deposit confirmed ${firstName}!**\n\n` +
         `+$${amount} ${tokenSymbol} received\n` +
         `💳 **Total wallet balance: $${totalBalance} USDC**\n\n` +
-        `Your funds are ready! Choose where to deploy them for maximum yield:\n\n` +
+        `Your funds are ready! Choose your investment approach:\n\n` +
         `Deposit TX: ${formatTxLink(txHash)}`,
         { 
           parse_mode: "Markdown",
@@ -417,26 +436,15 @@ async function loadWalletAddresses() {
       if (wallet) {
         let addressToMonitor = wallet.address;
         
-        // For Coinbase Smart Wallets, get the correct smart wallet address
-        if (wallet.type === 'coinbase-smart-wallet') {
-          try {
-            // Import getCoinbaseSmartWallet to get the real address
-            const { getCoinbaseSmartWallet } = require("../lib/coinbase-wallet");
-            const smartWallet = await getCoinbaseSmartWallet(user.userId);
-            if (smartWallet && smartWallet.smartAccount) {
-              addressToMonitor = smartWallet.smartAccount.address;
-              console.log(`📍 Using Smart Wallet address for monitoring: ${addressToMonitor} (database had: ${wallet.address})`);
-            } else {
-              console.log(`⚠️ Could not get Smart Wallet for user ${user.userId}, using database address: ${wallet.address}`);
-            }
-          } catch (error) {
-            console.error(`Error getting smart wallet address for user ${user.userId}:`, error);
-          }
-        }
+        // Use the same address that the bot displays to users for deposits
+        console.log(`📍 Using wallet address for monitoring deposits: ${addressToMonitor}`);
         
-        // Store pre-deposit balance for this user
-        const preBalance = await checkPreDepositBalance(user.userId);
-        preDepositBalances.set(user.userId, preBalance);
+        // Store pre-deposit balance for this user (only if not already set)
+        if (!preDepositBalances.has(user.userId)) {
+          const preBalance = await checkPreDepositBalance(user.userId);
+          preDepositBalances.set(user.userId, preBalance);
+          console.log(`🏁 Initial pre-deposit balance set for user ${user.userId}: $${preBalance} USDC`);
+        }
         
         monitoredWallets.add({
           address: addressToMonitor.toLowerCase(),
@@ -493,11 +501,11 @@ async function checkAndManageConnection() {
     
     setupWebSocketConnection();
     
-    // Start polling every 5 seconds when monitoring active wallets
+    // Start polling every 30 seconds when monitoring active wallets (reduced frequency)
     if (!pollInterval) {
       pollInterval = setInterval(async () => {
         await checkAndManageConnection();
-      }, 5 * 1000);
+      }, 30 * 1000);
     }
   }
 
@@ -668,17 +676,17 @@ async function startEventMonitoringService() {
     if (walletCount === 0) {
       console.log("⚠️  No wallets to monitor currently - service will activate when wallets are added");
     } else {
-      console.log(`✅ Monitoring ${walletCount} wallet(s) with 5-second polling`);
+      console.log(`✅ Monitoring ${walletCount} wallet(s) with 30-second polling`);
     }
     
-    // Check for wallet changes every 30 seconds (when idle) 
-    // Active polling (5 seconds) only happens when wallets are being monitored
+    // Check for wallet changes every 60 seconds (when idle) 
+    // Active polling (30 seconds) only happens when wallets are being monitored
     connectionCheckInterval = setInterval(async () => {
       // Only run the check if we're not already actively polling
       if (!pollInterval) {
         await checkAndManageConnection();
       }
-    }, 30 * 1000);
+    }, 60 * 1000);
     
     console.log("✅ Event-based monitoring service started");
     console.log("📡 Efficient monitoring - zero resources when no wallets");
@@ -743,4 +751,4 @@ if (require.main === module) {
   startEventMonitoringService();
 }
 
-module.exports = { startEventMonitoringService, forceRefreshWallets };
+module.exports = { startEventMonitoringService, forceRefreshWallets, setPreDepositBalance };
