@@ -13,8 +13,8 @@
 const Database = require('better-sqlite3');
 const path = require('path');
 
-// Production database path - adjust if needed
-const DB_PATH = path.join(__dirname, '..', 'data', 'bot.db');
+// Production database path - use same logic as the app
+const DB_PATH = process.env.DB_PATH || path.join(__dirname, '..', 'defi-garden.sqlite');
 
 console.log(`🔧 Starting production database migration...`);
 console.log(`📍 Database path: ${DB_PATH}`);
