@@ -152,9 +152,35 @@ export async function verifyTransaction(txHash: string): Promise<{
 
     console.log(`🔍 Verifying transaction: ${txHash}`);
     
-    const receipt = await publicClient.getTransactionReceipt({
-      hash: txHash as `0x${string}`
-    });
+    // Retry logic - wait for transaction to be confirmed
+    let receipt: any = null;
+    const maxRetries = 10;
+    const retryDelay = 2000; // 2 seconds
+    
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        console.log(`🔍 Verification attempt ${attempt}/${maxRetries}...`);
+        
+        receipt = await publicClient.getTransactionReceipt({
+          hash: txHash as `0x${string}`
+        });
+        
+        // If we got a receipt, break out of retry loop
+        break;
+        
+      } catch (error: any) {
+        if (attempt === maxRetries) {
+          throw new Error(`Transaction not found after ${maxRetries} attempts: ${error.message}`);
+        }
+        
+        console.log(`🔍 Transaction not confirmed yet, waiting ${retryDelay/1000}s... (attempt ${attempt}/${maxRetries})`);
+        await new Promise(resolve => setTimeout(resolve, retryDelay));
+      }
+    }
+
+    if (!receipt) {
+      throw new Error('Transaction receipt not found after all retries');
+    }
 
     const success = receipt.status === 'success';
     

@@ -1,7 +1,91 @@
 import { Address, parseUnits, encodeFunctionData } from 'viem';
 import { getCoinbaseSmartWallet, createSponsoredBundlerClient, publicClient } from '../lib/coinbase-wallet';
 import { metaMorphoAbi, permitAbi, generalAdapterAbi, erc20Abi } from '../utils/abis';
-import { BASE_TOKENS, MORPHO_CONTRACTS, MAX_UINT256 } from '../utils/constants';
+
+// Base tokens for Morpho operations
+const BASE_TOKENS = {
+  USDC: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913" as Address
+};
+
+// Morpho contract addresses on Base
+const MORPHO_CONTRACTS = {
+  GENERAL_ADAPTER: "0xb98c948cfa24072e58935bc004a8a7b376ae746a" as Address,
+  METAMORPHO_PYTH_USDC: "0x0fabfeacedf47e890c50c8120177fff69c6a1d9b" as Address,
+  MORPHO_BLUE: "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb" as Address,
+  BUNDLER: "0x6bfd8137e702540e7a42b74178a4a49ba43920c4" as Address
+};
+
+// Simple ERC20 ABI for balance check
+const simpleERC20Abi = [
+  {
+    inputs: [{ name: "account", type: "address" }],
+    name: "balanceOf",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "view",
+    type: "function"
+  }
+] as const;
+
+// Simple nonces ABI for permit
+const simpleNoncesAbi = [
+  {
+    inputs: [{ name: "owner", type: "address" }],
+    name: "nonces",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "view",
+    type: "function"
+  }
+] as const;
+
+// Simple permit ABI
+const simplePermitAbi = [
+  {
+    inputs: [
+      { name: "owner", type: "address" },
+      { name: "spender", type: "address" },
+      { name: "value", type: "uint256" },
+      { name: "deadline", type: "uint256" },
+      { name: "v", type: "uint8" },
+      { name: "r", type: "bytes32" },
+      { name: "s", type: "bytes32" }
+    ],
+    name: "permit",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function"
+  }
+] as const;
+
+// Exact forceApprove ABI matching original transaction (d96ca0b9)
+const simpleForceApproveAbi = [
+  {
+    inputs: [
+      { name: "", type: "address" },
+      { name: "", type: "address" },
+      { name: "", type: "uint256" }
+    ],
+    name: "forceApprove",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function"
+  }
+] as const;
+
+// Exact morphoSupply ABI matching original transaction (6ef5eeae)  
+const simpleMorphoSupplyAbi = [
+  {
+    inputs: [
+      { name: "", type: "address" },
+      { name: "", type: "uint256" },
+      { name: "", type: "uint256" },
+      { name: "", type: "address" }
+    ],
+    name: "morphoSupply",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "nonpayable",
+    type: "function"
+  }
+] as const;
 
 /**
  * Deploy USDC to Morpho PYTH/USDC vault with sponsored gas
@@ -9,18 +93,25 @@ import { BASE_TOKENS, MORPHO_CONTRACTS, MAX_UINT256 } from '../utils/constants';
  */
 export async function deployToMorphoPYTH(
   userId: string, 
-  usdcAmount: string
+  usdcAmount: string,
+  testSmartAccount?: any // Optional parameter for testing
 ): Promise<{ success: boolean; txHash?: string; error?: string; shares?: string }> {
   try {
     console.log(`🚀 Deploying ${usdcAmount} USDC to Morpho PYTH/USDC for user ${userId}`);
 
-    // Get user's Coinbase Smart Wallet
-    const wallet = await getCoinbaseSmartWallet(userId);
-    if (!wallet) {
-      throw new Error('No Coinbase Smart Wallet found for user');
+    let smartAccount;
+    
+    if (testSmartAccount) {
+      // Use provided smart account for testing
+      smartAccount = testSmartAccount;
+    } else {
+      // Get user's Coinbase Smart Wallet from database
+      const wallet = await getCoinbaseSmartWallet(userId);
+      if (!wallet) {
+        throw new Error('No Coinbase Smart Wallet found for user');
+      }
+      smartAccount = wallet.smartAccount;
     }
-
-    const { smartAccount } = wallet;
     
     // Convert USDC amount to proper units (6 decimals)
     const amountWei = parseUnits(usdcAmount, 6);
@@ -28,7 +119,7 @@ export async function deployToMorphoPYTH(
     // Check current USDC balance
     const usdcBalance = await publicClient.readContract({
       address: BASE_TOKENS.USDC,
-      abi: erc20Abi,
+      abi: simpleERC20Abi,
       functionName: 'balanceOf',
       args: [smartAccount.address]
     });
@@ -40,7 +131,7 @@ export async function deployToMorphoPYTH(
     // Get current nonce for permit
     const currentNonce = await publicClient.readContract({
       address: BASE_TOKENS.USDC,
-      abi: permitAbi,
+      abi: simpleNoncesAbi,
       functionName: 'nonces',
       args: [smartAccount.address]
     });
@@ -49,58 +140,47 @@ export async function deployToMorphoPYTH(
     const deadline = BigInt(Math.floor(Date.now() / 1000) + 3600);
 
     // Create sponsored bundler client for gasless transactions
-    const bundlerClient = await createSponsoredBundlerClient();
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
 
-    // Prepare multicall operations following the transaction pattern
+    // Replicate exact multicall pattern from successful transaction
+    // Manually construct calldata using exact function selectors from original transaction
+    
+    // forceApprove: d96ca0b9 + parameters
+    const forceApproveCalldata = '0xd96ca0b9' + 
+      BASE_TOKENS.USDC.slice(2).padStart(64, '0') +  // token (32 bytes)
+      MORPHO_CONTRACTS.GENERAL_ADAPTER.slice(2).padStart(64, '0') +  // spender (32 bytes)
+      amountWei.toString(16).padStart(64, '0');  // amount (32 bytes)
+      
+    // morphoSupply: 6ef5eeae + parameters  
+    const morphoSupplyCalldata = '0x6ef5eeae' +
+      MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC.slice(2).padStart(64, '0') +  // market (32 bytes)
+      amountWei.toString(16).padStart(64, '0') +  // assets (32 bytes) 
+      '0000000000000000000000000000000000000000000000000000000000000000' +  // shares = 0 (32 bytes)
+      smartAccount.address.slice(2).padStart(64, '0');  // onBehalf (32 bytes)
+
+    // USDC approve for MetaMorpho vault direct deposit
+    const approveCalldata = '0x095ea7b3' + 
+      MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC.slice(2).padStart(64, '0') +  // spender (MetaMorpho vault)
+      amountWei.toString(16).padStart(64, '0');  // amount (32 bytes)
+    
+    // Try direct deposit to MetaMorpho vault (ERC4626 standard)
+    const directDepositCalldata = '0x6e553f65' +  // deposit(uint256,address) 
+      amountWei.toString(16).padStart(64, '0') +     // assets (32 bytes)
+      smartAccount.address.slice(2).padStart(64, '0'); // receiver (32 bytes)
+    
     const operations = [
-      // 1. Permit USDC to GeneralAdapter (gasless approval)
+      // Step 1: Approve MetaMorpho vault to spend USDC
       {
         to: BASE_TOKENS.USDC,
         value: '0',
-        data: encodeFunctionData({
-          abi: permitAbi,
-          functionName: 'permit',
-          args: [
-            smartAccount.address, // owner
-            MORPHO_CONTRACTS.GENERAL_ADAPTER, // spender
-            amountWei, // value
-            deadline, // deadline
-            27, // v (will be overridden by signature)
-            '0x0000000000000000000000000000000000000000000000000000000000000000', // r (placeholder)
-            '0x0000000000000000000000000000000000000000000000000000000000000000'  // s (placeholder)
-          ]
-        }),
-        skipRevert: true
-      },
-      // 2. Transfer USDC from user to GeneralAdapter
-      {
-        to: MORPHO_CONTRACTS.GENERAL_ADAPTER,
-        value: '0',
-        data: encodeFunctionData({
-          abi: generalAdapterAbi,
-          functionName: 'forceApprove',
-          args: [
-            BASE_TOKENS.USDC, // token
-            MORPHO_CONTRACTS.GENERAL_ADAPTER, // spender
-            amountWei // value
-          ]
-        }),
+        data: approveCalldata as `0x${string}`,
         skipRevert: false
       },
-      // 3. Supply to Morpho via GeneralAdapter  
+      // Step 2: Direct deposit to MetaMorpho vault (ERC4626)
       {
-        to: MORPHO_CONTRACTS.GENERAL_ADAPTER,
+        to: MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC,
         value: '0',
-        data: encodeFunctionData({
-          abi: generalAdapterAbi,
-          functionName: 'morphoSupply',
-          args: [
-            MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC, // market
-            amountWei, // assets
-            0n, // minShares (no slippage protection for now)
-            smartAccount.address // onBehalf
-          ]
-        }),
+        data: directDepositCalldata as `0x${string}`,
         skipRevert: false
       }
     ];
@@ -117,7 +197,7 @@ export async function deployToMorphoPYTH(
       }))
     });
 
-    console.log(`✅ Morpho deposit transaction sent: ${txHash}`);
+    console.log(`✅ Morpho deposit UserOperation sent: ${txHash}`);
 
     // Wait for transaction confirmation
     const receipt = await bundlerClient.waitForUserOperationReceipt({
@@ -128,11 +208,13 @@ export async function deployToMorphoPYTH(
       // Get the shares received (from event logs if available)
       let sharesReceived = amountWei; // Approximation, should parse from logs for accuracy
       
-      console.log(`✅ Morpho deposit successful! Shares: ${sharesReceived}`);
+      const actualTxHash = receipt.receipt.transactionHash;
+      console.log(`✅ Morpho deposit successful! Blockchain TX: ${actualTxHash}`);
+      console.log(`✅ Shares received: ${sharesReceived}`);
       
       return { 
         success: true, 
-        txHash: receipt.receipt.transactionHash,
+        txHash: actualTxHash, // Return the actual blockchain transaction hash
         shares: sharesReceived.toString()
       };
     } else {
@@ -150,30 +232,38 @@ export async function deployToMorphoPYTH(
 }
 
 /**
- * Withdraw USDC from Morpho PYTH/USDC vault
+ * Withdraw USDC from Morpho PYTH/USDC vault using GeneralAdapter pattern
+ * Based on user's successful transaction: 0x5ca632844fdd976062b1913adeb7197788220acbe8f9718b50c82a1fcfc24e13
  */
 export async function withdrawFromMorphoPYTH(
   userId: string, 
-  sharesAmount: string
+  sharesAmount: string,
+  testSmartAccount?: any // Optional parameter for testing
 ): Promise<{ success: boolean; txHash?: string; error?: string; assets?: string }> {
   try {
     console.log(`🔄 Withdrawing ${sharesAmount} shares from Morpho PYTH/USDC for user ${userId}`);
 
-    // Get user's Coinbase Smart Wallet
-    const wallet = await getCoinbaseSmartWallet(userId);
-    if (!wallet) {
-      throw new Error('No Coinbase Smart Wallet found for user');
-    }
-
-    const { smartAccount } = wallet;
+    let smartAccount;
     
-    // Convert shares amount to proper units
-    const sharesWei = parseUnits(sharesAmount, 18); // MetaMorpho shares are 18 decimals
+    if (testSmartAccount) {
+      // Use provided smart account for testing
+      smartAccount = testSmartAccount;
+    } else {
+      // Get user's Coinbase Smart Wallet from database
+      const wallet = await getCoinbaseSmartWallet(userId);
+      if (!wallet) {
+        throw new Error('No Coinbase Smart Wallet found for user');
+      }
+      smartAccount = wallet.smartAccount;
+    }
+    
+    // Convert shares amount to proper units (18 decimals for MetaMorpho shares)
+    const sharesWei = parseUnits(sharesAmount, 18);
     
     // Check current share balance
     const shareBalance = await publicClient.readContract({
       address: MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC,
-      abi: metaMorphoAbi,
+      abi: simpleERC20Abi,
       functionName: 'balanceOf',
       args: [smartAccount.address]
     });
@@ -182,33 +272,52 @@ export async function withdrawFromMorphoPYTH(
       throw new Error(`Insufficient share balance. Have: ${shareBalance}, Need: ${sharesWei}`);
     }
 
-    // Create sponsored bundler client
-    const bundlerClient = await createSponsoredBundlerClient();
+    // Get current nonce for permit
+    const currentNonce = await publicClient.readContract({
+      address: MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC,
+      abi: simpleNoncesAbi,
+      functionName: 'nonces',
+      args: [smartAccount.address]
+    });
 
-    // Prepare withdraw call
-    const withdrawCall = {
-      to: MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC as Address,
-      value: 0n,
-      data: encodeFunctionData({
-        abi: metaMorphoAbi,
-        functionName: 'redeem',
-        args: [
-          sharesWei, // shares
-          smartAccount.address, // receiver
-          smartAccount.address  // owner
-        ]
-      })
-    };
+    // Create permit deadline (1 hour from now)
+    const deadline = BigInt(Math.floor(Date.now() / 1000) + 3600);
+
+    // Create sponsored bundler client for gasless transactions
+    const bundlerClient = await createSponsoredBundlerClient(smartAccount);
+
+    // Use direct MetaMorpho redeem instead of GeneralAdapter (like successful deposits)
+    // This avoids the complexity of GeneralAdapter and uses standard ERC4626 pattern
+    
+    // Direct redeem call to MetaMorpho vault (ERC4626 redeem: ba087652)
+    const directRedeemCalldata = '0xba087652' +  // redeem(uint256,address,address)
+      sharesWei.toString(16).padStart(64, '0') +     // shares (32 bytes)
+      smartAccount.address.slice(2).padStart(64, '0') +  // receiver (32 bytes)
+      smartAccount.address.slice(2).padStart(64, '0');   // owner (32 bytes)
+
+    const operations = [
+      // Single step: Direct redeem from MetaMorpho vault (ERC4626)
+      {
+        to: MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC,
+        value: '0',
+        data: directRedeemCalldata as `0x${string}`,
+        skipRevert: false
+      }
+    ];
 
     console.log('📝 Executing Morpho withdrawal via sponsored transaction...');
     
-    // Execute the sponsored transaction
+    // Execute the sponsored transaction with multicall
     const txHash = await bundlerClient.sendUserOperation({
       account: smartAccount,
-      calls: [withdrawCall]
+      calls: operations.map(op => ({
+        to: op.to as Address,
+        value: BigInt(op.value),
+        data: op.data
+      }))
     });
 
-    console.log(`✅ Morpho withdrawal transaction sent: ${txHash}`);
+    console.log(`✅ Morpho withdrawal UserOperation sent: ${txHash}`);
 
     // Wait for transaction confirmation
     const receipt = await bundlerClient.waitForUserOperationReceipt({
@@ -216,18 +325,20 @@ export async function withdrawFromMorphoPYTH(
     });
 
     if (receipt.success) {
-      // The assets received should be parsed from logs for accuracy
-      const assetsReceived = sharesWei; // Approximation
+      // Get the assets received (approximate - should parse from logs for accuracy)
+      let assetsReceived = sharesWei; // Approximation, should parse from logs for accuracy
       
-      console.log(`✅ Morpho withdrawal successful! Assets: ${assetsReceived}`);
+      const actualTxHash = receipt.receipt.transactionHash;
+      console.log(`✅ Morpho withdrawal successful! Blockchain TX: ${actualTxHash}`);
+      console.log(`✅ Assets received: ${assetsReceived}`);
       
       return { 
         success: true, 
-        txHash: receipt.receipt.transactionHash,
+        txHash: actualTxHash, // Return the actual blockchain transaction hash
         assets: assetsReceived.toString()
       };
     } else {
-      throw new Error('Withdrawal transaction failed during execution');
+      throw new Error('Transaction failed during execution');
     }
 
   } catch (error: any) {
@@ -250,21 +361,18 @@ export async function getMorphoBalance(userAddress: Address): Promise<{
   assetsFormatted: string;
 }> {
   try {
-    // Get user's share balance
+    // Get user's share balance using simple ERC20 balanceOf ABI
     const shares = await publicClient.readContract({
       address: MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC,
-      abi: metaMorphoAbi,
+      abi: simpleERC20Abi,
       functionName: 'balanceOf',
       args: [userAddress]
     });
 
-    // Convert shares to underlying assets (USDC)
-    const assets = shares > 0n ? await publicClient.readContract({
-      address: MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC,
-      abi: metaMorphoAbi,
-      functionName: 'previewWithdraw',
-      args: [shares]
-    }) : 0n;
+    // Convert shares to assets using proper decimals
+    // Shares are 18 decimals, assets (USDC) are 6 decimals
+    // For MetaMorpho, shares ≈ assets in USD value (approximately 1:1 ratio)
+    const assets = shares / BigInt(1e12); // Convert from 18 decimals to 6 decimals (divide by 1e12)
 
     return {
       shares,

@@ -1,23 +1,26 @@
 #!/usr/bin/env ts-node
 
 /**
- * Morpho PYTH/USDC Deposit Testing Script
+ * [POOL_NAME] Deposit Testing Script Template
  * 
- * Tests gasless USDC deposits to Morpho PYTH/USDC vault using Smart Wallet
+ * Tests gasless USDC deposits to [POOL_NAME] vault using Smart Wallet
  * 
  * Usage:
- *   npm run test:morpho -- --key 0xYOUR_PRIVATE_KEY
- *   ts-node src/scripts/test-morpho-deposit.ts --key 0xYOUR_PRIVATE_KEY
+ *   npm run test:[pool-name] -- --key 0xYOUR_PRIVATE_KEY
+ *   ts-node src/scripts/test-[pool-name]-deposit.ts --key 0xYOUR_PRIVATE_KEY
  * 
  * Options:
  *   --key       Private key of test wallet (required)
- *   --amount    USDC amount to deposit (default: 1)
+ *   --amount    USDC amount to deposit (default: 0.1) 
  *   --verbose   Enable verbose logging (default: false)
  *   --help      Show help message
+ * 
+ * TODO: Update all [POOL_NAME] and [pool-name] placeholders
  */
 
 import { parseArgs } from 'node:util';
-import { deployToMorphoPYTH, getMorphoBalance } from '../services/morpho-defi';
+// TODO: Update import to match your service file
+import { deployTo[POOL_NAME], get[POOL_NAME]Balance } from '../services/[pool-name]-defi';
 import { 
   createTestSmartWallet, 
   checkUSDCBalance, 
@@ -50,25 +53,26 @@ function parseArguments(): TestConfig {
   // Show help if requested
   if (values.help) {
     console.log(`
-🧪 MORPHO DEPOSIT TEST SCRIPT
-============================
 
-Tests gasless USDC deposits to Morpho PYTH/USDC vault using Smart Wallet.
+🧪 [POOL_NAME] DEPOSIT TEST SCRIPT
+==================================
+
+Tests gasless USDC deposits to [POOL_NAME] vault using Smart Wallet.
 
 Usage:
-  npm run test:morpho -- --key 0xYOUR_PRIVATE_KEY [options]
+  npm run test:[pool-name] -- --key 0xYOUR_PRIVATE_KEY [options]
 
 Required:
   --key, -k     Private key of test wallet (0x + 64 hex chars)
 
 Options:
-  --amount, -a  USDC amount to deposit (default: 1)
+  --amount, -a  USDC amount to deposit (default: 0.1)
   --verbose, -v Enable verbose logging
   --help, -h    Show this help message
 
 Examples:
-  npm run test:morpho -- --key 0x1234567890abcdef...
-  npm run test:morpho -- --key 0x1234... --amount 5 --verbose
+  npm run test:[pool-name] -- --key 0x1234567890abcdef...
+  npm run test:[pool-name] -- --key 0x1234... --amount 1 --verbose
 
 ⚠️  WARNING: Only use dedicated test wallets, never production wallets!
     `);
@@ -89,7 +93,7 @@ Examples:
     process.exit(1);
   }
 
-  const amount = values.amount ? parseFloat(values.amount) : 1;
+  const amount = values.amount ? parseFloat(values.amount) : 0.1; // Default to small test amount
   if (isNaN(amount) || amount <= 0 || amount > 100) {
     console.error('❌ Error: Invalid amount. Must be a positive number ≤ 100 USDC');
     process.exit(1);
@@ -105,12 +109,13 @@ Examples:
 // Display test banner
 function showTestBanner(config: TestConfig, smartWalletAddress: string, usdcBalance: string) {
   console.log(`
-🧪 MORPHO DEPOSIT TEST
-=====================
+
+🧪 [POOL_NAME] DEPOSIT TEST
+===========================
 🦑 Smart Wallet: ${smartWalletAddress}
 💰 USDC Balance: ${usdcBalance} USDC
 📊 Test Amount: ${config.amount} USDC
-🎯 Target: Morpho PYTH/USDC Vault (~10% APY)
+🎯 Target: [POOL_NAME] Vault
 ⛽ Transaction: Gasless (Sponsored)
 
 Starting test...
@@ -118,14 +123,14 @@ Starting test...
 }
 
 // Main test function
-async function testMorphoDeposit(config: TestConfig): Promise<TestResult> {
+async function test[POOL_NAME]Deposit(config: TestConfig): Promise<TestResult> {
   const result: TestResult = {
     success: false,
     startTime: Date.now()
   };
 
   try {
-    console.log('🧪 MORPHO DEPOSIT TEST STARTING...\n');
+    console.log('🧪 [POOL_NAME] DEPOSIT TEST STARTING...\\n');
 
     // Step 1: Create Smart Wallet from private key
     console.log('[1/5] Creating Smart Wallet from private key...');
@@ -147,13 +152,14 @@ async function testMorphoDeposit(config: TestConfig): Promise<TestResult> {
     // Display test banner
     showTestBanner(config, wallet.address, balance.formatted);
 
-    // Step 3: Execute gasless deposit to Morpho
-    console.log('[3/5] Executing gasless deposit to Morpho PYTH/USDC...');
+    // Step 3: Execute gasless deposit to [POOL_NAME]
+    console.log('[3/5] Executing gasless deposit to [POOL_NAME]...');
     
     // Create mock user session for the service
     const mockSession = createMockUserSession('test-user');
     
-    const depositResult = await deployToMorphoPYTH('test-user', config.amount.toString(), wallet.smartAccount);
+    // TODO: Update function call to match your service
+    const depositResult = await deployTo[POOL_NAME]('test-user', config.amount.toString(), wallet.smartAccount);
     
     if (!depositResult.success) {
       throw new Error(depositResult.error || 'Deposit failed with unknown error');
@@ -178,17 +184,18 @@ async function testMorphoDeposit(config: TestConfig): Promise<TestResult> {
       result.gasUsed = txVerification.gasUsed;
     }
 
-    // Step 5: Check Morpho balance to confirm shares received
-    console.log('[5/5] Checking Morpho vault balance...');
+    // Step 5: Check pool balance to confirm shares received
+    console.log('[5/5] Checking [POOL_NAME] vault balance...');
     
-    const morphoBalance = await getMorphoBalance(wallet.address);
+    // TODO: Update function call to match your service
+    const poolBalance = await get[POOL_NAME]Balance(wallet.address);
     
-    if (Number(morphoBalance.assetsFormatted) === 0) {
-      throw new Error('No assets found in Morpho vault after deposit');
+    if (Number(poolBalance.assetsFormatted) === 0) {
+      throw new Error('No assets found in [POOL_NAME] vault after deposit');
     }
 
-    console.log(`✅ Vault shares: ${morphoBalance.sharesFormatted}`);
-    console.log(`✅ Asset value: ${morphoBalance.assetsFormatted} USDC`);
+    console.log(`✅ Vault shares: ${poolBalance.sharesFormatted}`);
+    console.log(`✅ Asset value: ${poolBalance.assetsFormatted} USDC`);
 
     // Test completed successfully
     result.success = true;
@@ -197,7 +204,7 @@ async function testMorphoDeposit(config: TestConfig): Promise<TestResult> {
     return result;
 
   } catch (error: any) {
-    result.error = safeErrorLog(error, 'Morpho deposit test');
+    result.error = safeErrorLog(error, '[POOL_NAME] deposit test');
     result.endTime = Date.now();
     return result;
   }
@@ -209,40 +216,40 @@ async function main() {
     const config = parseArguments();
     
     console.log('⚠️  WARNING: This script uses real blockchain transactions!');
-    console.log('   Only use dedicated test wallets, never production wallets!\n');
+    console.log('   Only use dedicated test wallets, never production wallets!\\n');
 
-    const result = await testMorphoDeposit(config);
+    const result = await test[POOL_NAME]Deposit(config);
     
     // Display test results
-    console.log('\n' + '='.repeat(50));
+    console.log('\\n' + '='.repeat(50));
     console.log('📊 TEST RESULTS');
     console.log('='.repeat(50));
     console.log(formatTestResult(result));
 
     if (result.success) {
-      console.log('🎉 Morpho integration test PASSED!');
-      console.log('   Ready for production deployment.\n');
+      console.log('🎉 [POOL_NAME] integration test PASSED!');
+      console.log('   Ready for production deployment.\\n');
       process.exit(0);
     } else {
-      console.log('💥 Morpho integration test FAILED!');
-      console.log('   Fix errors before production deployment.\n');
+      console.log('💥 [POOL_NAME] integration test FAILED!');
+      console.log('   Fix errors before production deployment.\\n');
       process.exit(1);
     }
 
   } catch (error: any) {
-    console.error('\n❌ TEST SCRIPT ERROR:', error.message);
+    console.error('\\n❌ TEST SCRIPT ERROR:', error.message);
     process.exit(1);
   }
 }
 
 // Handle script termination gracefully
 process.on('SIGINT', () => {
-  console.log('\n\n🛑 Test interrupted by user');
+  console.log('\\n\\n🛑 Test interrupted by user');
   process.exit(1);
 });
 
 process.on('SIGTERM', () => {
-  console.log('\n\n🛑 Test terminated');
+  console.log('\\n\\n🛑 Test terminated');
   process.exit(1);
 });
 
