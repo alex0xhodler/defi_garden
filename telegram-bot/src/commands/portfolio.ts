@@ -12,8 +12,9 @@ import { BASE_TOKENS } from "../utils/constants";
 
 const portfolioHandler: CommandHandler = {
   command: "portfolio",
-  description: "View DeFi positions and yields",
+  description: "View DeFi positions and yields", 
   handler: async (ctx: BotContext) => {
+    console.log("🔍 Portfolio command executed - DEBUG VERSION LOADED");
     try {
       const userId = ctx.session.userId;
 
@@ -47,20 +48,28 @@ const portfolioHandler: CommandHandler = {
       await new Promise(resolve => setTimeout(resolve, 1000));
       
       // Fetch real on-chain balances
-      const [aaveBalance, fluidBalance, compoundBalance, usdcBalance] = await Promise.all([
+      const { getMorphoBalance } = await import("../services/morpho-defi");
+      const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, usdcBalance] = await Promise.all([
         getAaveBalance(walletAddress),
         getFluidBalance(walletAddress),
         getCompoundBalance(walletAddress),
+        getMorphoBalance(wallet.address as Address).catch(error => {
+          console.error(`❌ Portfolio command - Morpho balance fetch failed for ${wallet.address}:`, error);
+          return { assetsFormatted: '0.00' };
+        }), // Use regular wallet address like start-help.ts
         getTokenBalance(BASE_TOKENS.USDC, walletAddress)
       ]);
 
       const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
       const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
       const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
+      const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
       const usdcBalanceNum = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
+      
+      console.log(`🔍 Portfolio command - Morpho balance: ${morphoBalance.assetsFormatted} → ${morphoBalanceNum}`);
 
       // If no DeFi deposits, show empty portfolio
-      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0) {
+      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0) {
         const keyboard = new InlineKeyboard()
           .text("🦑 Start Earning", "zap_funds")
           .text("📥 Deposit", "deposit")
@@ -93,24 +102,27 @@ const portfolioHandler: CommandHandler = {
       let aaveApy = 5.69;
       let fluidApy = 7.72;
       let compoundApy = 7.65;
+      let morphoApy = 10.0;
       
       try {
         const { fetchProtocolApy } = await import("../lib/defillama-api");
-        const [realAaveApy, realFluidApy, realCompoundApy] = await Promise.allSettled([
+        const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy] = await Promise.allSettled([
           fetchProtocolApy("AAVE"),
           fetchProtocolApy("FLUID"), 
-          fetchProtocolApy("COMPOUND")
+          fetchProtocolApy("COMPOUND"),
+          fetchProtocolApy("MORPHO")
         ]);
         
         if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
         if (realFluidApy.status === 'fulfilled') fluidApy = realFluidApy.value;
         if (realCompoundApy.status === 'fulfilled') compoundApy = realCompoundApy.value;
+        if (realMorphoApy.status === 'fulfilled') morphoApy = realMorphoApy.value;
         
-        console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%`);
+        console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%`);
       } catch (error) {
         console.warn("Failed to fetch real-time APY, using fallback rates:", error);
       }
-      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum;
+      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum;
       
       let message = `📊 **Your DeFi Portfolio**\n\n`;
       
@@ -120,6 +132,15 @@ const portfolioHandler: CommandHandler = {
       message += `🏦 **Total Deposited**: $${totalValue.toFixed(2)}\n\n`;
 
       // Active positions (sorted by APY - highest first)
+      if (morphoBalanceNum > 0) {
+        message += `**🔬 Morpho PYTH/USDC Position**\n\n`;
+        message += `🟢 **Morpho PYTH/USDC**\n`;
+        message += `• **Current Deposit**: $${morphoBalanceNum.toFixed(2)}\n`;
+        message += `• **Current APY**: ${morphoApy}%\n`;
+        message += `• **Protocol**: Morpho on Base\n`;
+        message += `• **Status**: ✅ Active & Earning\n\n`;
+      }
+      
       if (compoundBalanceNum > 0) {
         message += `**🏦 Compound V3 Position**\n\n`;
         message += `🟢 **Compound USDC**\n`;
@@ -200,17 +221,20 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
         console.log(`📍 Using Smart Wallet address for portfolio callback: ${walletAddress}`);
       }
     }
-    const [aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
+    const { getMorphoBalance } = await import("../services/morpho-defi");
+    const [aaveBalance, fluidBalance, compoundBalance, morphoBalance] = await Promise.all([
       getAaveBalance(walletAddress),
       getFluidBalance(walletAddress),
-      getCompoundBalance(walletAddress)
+      getCompoundBalance(walletAddress),
+      getMorphoBalance(wallet.address as Address) // Use regular wallet address like start-help.ts
     ]);
     
     const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
     const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
     const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
+    const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
     
-    if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0) {
+    if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0) {
       await ctx.answerCallbackQuery("No active positions found");
       return;
     }
@@ -221,18 +245,21 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     let aaveApy = 5.69;
     let fluidApy = 7.72;
     let compoundApy = 7.65;
+    let morphoApy = 10.0;
     
     try {
       const { fetchProtocolApy } = await import("../lib/defillama-api");
-      const [realAaveApy, realFluidApy, realCompoundApy] = await Promise.allSettled([
+      const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy] = await Promise.allSettled([
         fetchProtocolApy("AAVE"),
         fetchProtocolApy("FLUID"), 
-        fetchProtocolApy("COMPOUND")
+        fetchProtocolApy("COMPOUND"),
+        fetchProtocolApy("MORPHO")
       ]);
       
       if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
       if (realFluidApy.status === 'fulfilled') fluidApy = realFluidApy.value;
       if (realCompoundApy.status === 'fulfilled') compoundApy = realCompoundApy.value;
+      if (realMorphoApy.status === 'fulfilled') morphoApy = realMorphoApy.value;
     } catch (error) {
       console.warn("Failed to fetch real-time APY for portfolio details:", error);
     }
@@ -240,6 +267,18 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     let message = `📈 **Portfolio Details**\n\n`;
     
     // Show positions in order of APY (highest first)
+    if (morphoBalanceNum > 0) {
+      message += `**🔬 Morpho PYTH/USDC Position Details**\n\n`;
+      message += `🟢 **USDC Lending Position**\n`;
+      message += `• **Current Deposit**: $${morphoBalanceNum.toFixed(2)}\n`;
+      message += `• **Token**: Morpho PYTH/USDC Vault Shares\n`;
+      message += `• **Protocol**: Morpho Blue via MetaMorpho\n`;
+      message += `• **Chain**: Base Network\n`;
+      message += `• **Current APY**: ${morphoApy}%\n`;
+      message += `• **Status**: ✅ Active & Auto-Compounding\n`;
+      message += `• **Risk Level**: 🟡 Medium (5/10) - Higher yield strategy\n\n`;
+    }
+    
     if (compoundBalanceNum > 0) {
       message += `**🏦 Compound V3 Position Details**\n\n`;
       message += `🟢 **USDC Lending Position**\n`;

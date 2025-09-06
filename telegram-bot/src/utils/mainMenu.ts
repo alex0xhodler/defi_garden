@@ -29,6 +29,7 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
     try {
       const { getCoinbaseWalletUSDCBalance, getCoinbaseSmartWallet } = await import('../lib/coinbase-wallet');
       const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import('../lib/token-wallet');
+      const { getMorphoBalance } = await import('../services/morpho-defi');
       const { calculateRealTimeEarnings } = await import('./earnings');
       
       // Get Smart Wallet address for Compound deposits (since deposits are made via CDP)
@@ -36,20 +37,23 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
       const smartWalletAddress = smartWallet?.smartAccount.address;
       
       // Fetch wallet USDC and DeFi positions
-      const [walletUsdc, aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
+      const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance] = await Promise.all([
         getCoinbaseWalletUSDCBalance(walletAddress as Address).catch(() => '0.00'),
         getAaveBalance(walletAddress as Address).catch(() => ({ aUsdcBalanceFormatted: '0.00' })),
         getFluidBalance(walletAddress as Address).catch(() => ({ fUsdcBalanceFormatted: '0.00' })),
         // Check Compound balance on Smart Wallet address since deposits are made there
-        smartWalletAddress ? getCompoundBalance(smartWalletAddress).catch(() => ({ cUsdcBalanceFormatted: '0.00' })) : Promise.resolve({ cUsdcBalanceFormatted: '0.00' })
+        smartWalletAddress ? getCompoundBalance(smartWalletAddress).catch(() => ({ cUsdcBalanceFormatted: '0.00' })) : Promise.resolve({ cUsdcBalanceFormatted: '0.00' }),
+        // Check Morpho balance on Smart Wallet address since deposits are made there
+        smartWalletAddress ? getMorphoBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
       ]);
 
       const walletUsdcNum = parseFloat(walletUsdc);
       const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
       const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
       const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
+      const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
       
-      const totalDeployed = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum;
+      const totalDeployed = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum;
       
       // STATE 1: User has active DeFi positions
       if (totalDeployed > 0.01) {
@@ -60,6 +64,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         let message = `🐙 *Welcome back ${firstName}!*\n\n`;
         message += `💰 **Portfolio Summary:**\n`;
         
+        if (morphoBalanceNum > 0.01) {
+          message += `• $${morphoBalanceNum.toFixed(2)} in Morpho PYTH/USDC (10% APY)\n`;
+        }
         if (compoundBalanceNum > 0.01) {
           message += `• $${compoundBalanceNum.toFixed(2)} in Compound V3 (${apy}% APY)\n`;
         }

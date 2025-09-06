@@ -53,11 +53,25 @@ export const BASE_TOKENS: Record<string, Address> = {
   CometRewards: "0x123964802e6ababbe1bc9547d72ef1b69b00a6b1",
   // COMP Token on Base
   COMP: "0x9e1028f5f1d5ede59748ffcee5532509976840e0",
+  // Morpho PYTH/USDC vault on Base  
+  MORPHO_PYTH_USDC: "0x0fabfeacedf47e890c50c8120177fff69c6a1d9b",
 };
 
 // For compatibility with copied files
 export const COMMON_TOKENS = BASE_TOKENS;
 export const BASE_CHAIN_ID = DEFAULT_CHAIN_ID;
+
+// Additional contract addresses for Morpho integration
+export const MORPHO_CONTRACTS: Record<string, Address> = {
+  // Main Morpho Blue contract
+  MORPHO_BLUE: "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+  // GeneralAdapter contract for multicall operations
+  GENERAL_ADAPTER: "0xb98c948cfa24072e58935bc004a8a7b376ae746a",
+  // Morpho PYTH/USDC MetaMorpho vault
+  METAMORPHO_PYTH_USDC: "0x0fabfeacedf47e890c50c8120177fff69c6a1d9b",
+  // Bundler contract (from transaction analysis)
+  BUNDLER: "0x6bfd8137e702540e7a42b74178a4a49ba43920c4"
+};
 
 // DeFi Protocol addresses and info on Base
 export const BASE_PROTOCOLS = {
@@ -90,6 +104,12 @@ export const BASE_PROTOCOLS = {
     riskScore: 3,
     auditor: "Peckshield",
     website: "https://pendle.finance"
+  },
+  MORPHO: {
+    name: "Morpho",
+    riskScore: 2,
+    auditor: "Spearbit",
+    website: "https://morpho.org"
   }
 };
 

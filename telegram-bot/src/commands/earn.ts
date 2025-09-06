@@ -45,6 +45,22 @@ export async function getYieldOpportunities(
     // Fallback to static data if API fails
     return [
       {
+        poolId: "morpho-pyth-usdc",
+        project: "Morpho",
+        chain: "Base", 
+        symbol: "USDC",
+        tvlUsd: 50_000_000,
+        apy: 10.0,
+        apyBase: 10.0,
+        apyReward: 0.0,
+        ilRisk: "no",
+        exposure: "single",
+        underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+        rewardTokens: [],
+        riskScore: 5,
+        protocol: "morpho"
+      },
+      {
         poolId: "fluid-usdc-base",
         project: "Fluid",
         chain: "Base",
@@ -106,7 +122,7 @@ export function calculateRiskScore(pool: YieldOpportunity): number {
   
   // Protocol reputation risk
   const protocolRisk: Record<string, number> = {
-    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Yearn': 2, 
+    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Morpho': 2, 'Yearn': 2, 
     'Pendle': 3, 'Convex': 2, 'Unknown': 5
   };
   risk += protocolRisk[pool.project] || 4;

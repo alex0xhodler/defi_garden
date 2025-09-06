@@ -6,7 +6,14 @@
   "scripts": {
     "dev": "nodemon",
     "start": "ts-node index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test:morpho": "ts-node src/scripts/test-morpho-deposit.ts",
+    "test:morpho-withdraw": "ts-node src/scripts/test-morpho-withdrawal.ts",
+    "test:bot-integration": "ts-node src/scripts/test-bot-integration.ts",
+    "template:list": "ls -la src/templates/defi-pool-template/",
+    "template:help": "cat POOL_INTEGRATION_TEMPLATE.md",
+    "pools:list": "cat src/config/supported-pools.json",
+    "integration:guide": "echo 'See POOL_INTEGRATION_TEMPLATE.md and src/templates/defi-pool-template/ for complete integration guide'"
   },
   "keywords": [
     "defi",

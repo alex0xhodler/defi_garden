@@ -9,7 +9,8 @@ const CHART_ENDPOINT = "https://yields.llama.fi/chart";
 export const POOL_IDS = {
   AAVE: "7e0661bf-8cf3-45e6-9424-31916d4c7b84",
   FLUID: "7372edda-f07f-4598-83e5-4edec48c4039", 
-  COMPOUND: "0c8567f8-ba5b-41ad-80de-00a71895eb19"
+  COMPOUND: "0c8567f8-ba5b-41ad-80de-00a71895eb19",
+  MORPHO: "301667a4-dc42-492d-a978-ea4f69811a72"
 } as const;
 
 // DeFiLlama API pool structure
@@ -127,16 +128,18 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
     // Import database functions
     const { saveProtocolRate, getProtocolRate } = await import("./database");
     
-    // Fetch all three pools in one efficient call
+    // Fetch all four pools in one efficient call
     const pools = await fetchSpecificPools([
       POOL_IDS.AAVE,
       POOL_IDS.FLUID,
-      POOL_IDS.COMPOUND
+      POOL_IDS.COMPOUND,
+      POOL_IDS.MORPHO
     ]);
     
     const aavePool = pools.find(p => p.pool === POOL_IDS.AAVE);
     const fluidPool = pools.find(p => p.pool === POOL_IDS.FLUID);
     const compoundPool = pools.find(p => p.pool === POOL_IDS.COMPOUND);
+    const morphoPool = pools.find(p => p.pool === POOL_IDS.MORPHO);
     
     const opportunities: YieldOpportunity[] = [];
     
@@ -215,6 +218,31 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
       }
     }
     
+    // Process Morpho
+    if (morphoPool) {
+      const morphoOpportunity = convertToYieldOpportunity(morphoPool, "Morpho");
+      opportunities.push(morphoOpportunity);
+      
+      // Save to database for future fallback
+      saveProtocolRate("morpho", morphoOpportunity.apy, morphoOpportunity.apyBase, morphoOpportunity.apyReward, morphoPool.tvlUsd);
+      console.log(`✅ Morpho: ${morphoOpportunity.apy}% APY (${morphoOpportunity.apyBase}% base + ${morphoOpportunity.apyReward}% rewards) - saved to DB`);
+    } else {
+      console.warn("❌ Failed to fetch Morpho data, using database fallback");
+      const cachedMorpho = getProtocolRate("morpho");
+      if (cachedMorpho) {
+        opportunities.push(convertToYieldOpportunity({
+          tvlUsd: cachedMorpho.tvlUsd,
+          apy: cachedMorpho.apy,
+          apyBase: cachedMorpho.apyBase,
+          apyReward: cachedMorpho.apyReward
+        } as DeFiLlamaPool, "Morpho"));
+        console.log(`📦 Using cached Morpho data: ${cachedMorpho.apy}% APY (last updated: ${new Date(cachedMorpho.lastUpdated).toISOString()})`);
+      } else {
+        console.log(`🔧 Using hardcoded Morpho fallback: 10.0% APY`);
+        opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Morpho", 10.0));
+      }
+    }
+    
     console.log(`=== FETCHED ${opportunities.length} REAL-TIME YIELDS ===`);
     return opportunities;
     
@@ -231,7 +259,8 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
       const protocols = [
         { name: "Aave", fallback: 5.69 },
         { name: "Fluid", fallback: 7.72 },
-        { name: "Compound", fallback: 7.65 }
+        { name: "Compound", fallback: 7.65 },
+        { name: "Morpho", fallback: 10.0 }
       ];
       
       for (const { name, fallback } of protocols) {
@@ -288,14 +317,14 @@ export async function getCompoundV3APY(): Promise<number> {
 /**
  * Fetch individual protocol APY by pool ID
  */
-export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND"): Promise<number> {
+export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO"): Promise<number> {
   try {
     const poolId = POOL_IDS[protocol];
     const pool = await fetchPoolById(poolId);
     
     if (!pool) {
       console.warn(`No data found for ${protocol}, using fallback`);
-      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65 };
+      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0 };
       return fallbacks[protocol];
     }
     
@@ -305,7 +334,7 @@ export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND"):
     return parseFloat(apy.toFixed(2));
   } catch (error) {
     console.error(`Error fetching ${protocol} APY:`, error);
-    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65 };
+    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0 };
     return fallbacks[protocol];
   }
 }
