@@ -30,7 +30,7 @@ import {
 // Test configuration
 interface TestConfig {
   privateKey: string;
-  shares: number;
+  shares: number | 'max';
   verbose: boolean;
 }
 
@@ -61,7 +61,7 @@ USAGE:
 
 OPTIONS:
   --key, -k       Private key of test wallet (required)
-  --shares, -s    SPARKUSDC shares to withdraw (default: 0.05)
+  --shares, -s    SPARKUSDC shares to withdraw (default: 0.05, use "max" for full exit)
   --verbose, -v   Enable verbose logging
   --help, -h      Show this help message
 
@@ -71,6 +71,9 @@ EXAMPLES:
 
   # Test withdraw 0.1 shares with verbose logging  
   npm run test:spark-withdraw -- --key 0x1234... --shares 0.1 --verbose
+
+  # Test full exit (withdraw all shares)
+  npm run test:spark-withdraw -- --key 0x1234... --shares max
 
 ⚠️  REQUIREMENTS:
   - Private key must have SPARKUSDC shares in Spark vault
@@ -90,9 +93,11 @@ EXAMPLES:
     process.exit(1);
   }
 
+  const sharesInput = values.shares || '0.05';
+  
   return {
     privateKey: values.key,
-    shares: parseFloat(values.shares || '0.05'),
+    shares: sharesInput === 'max' ? 'max' : parseFloat(sharesInput),
     verbose: values.verbose || false
   };
 }
@@ -135,13 +140,27 @@ async function testSparkWithdrawal(): Promise<void> {
     console.log(`💎 Initial SPARKUSDC Shares: ${initialSparkPosition.sharesFormatted}`);
     console.log(`📈 Estimated USDC Value: ${initialSparkPosition.assetsFormatted} USDC`);
     
-    // Validate sufficient shares
+    // Handle max exit or validate sufficient shares
     const sharesAvailable = parseFloat(initialSparkPosition.sharesFormatted);
-    if (sharesAvailable < config.shares) {
-      throw new Error(
-        `Insufficient SPARKUSDC shares. Have: ${sharesAvailable}, Need: ${config.shares}.\n` +
-        `Run deposit test first: npm run test:spark -- --key ${config.privateKey.substring(0, 6)}...`
-      );
+    let sharesToWithdraw: number;
+    const isMaxExit = config.shares === 'max';
+    
+    if (isMaxExit) {
+      // For max exit, use the exact raw balance to avoid precision issues
+      sharesToWithdraw = parseFloat((Number(initialSparkPosition.shares) / 1e18).toFixed(18));
+      console.log(`📤 MAX EXIT: Withdrawing all ${sharesToWithdraw} SPARKUSDC shares (exact balance)`);
+    } else {
+      sharesToWithdraw = config.shares as number;
+      if (sharesAvailable < sharesToWithdraw) {
+        throw new Error(
+          `Insufficient SPARKUSDC shares. Have: ${sharesAvailable}, Need: ${sharesToWithdraw}.\n` +
+          `Run deposit test first: npm run test:spark -- --key ${config.privateKey.substring(0, 6)}...`
+        );
+      }
+    }
+    
+    if (sharesToWithdraw === 0) {
+      throw new Error('No SPARKUSDC shares to withdraw. Run deposit test first.');
     }
     
     testResults.push({
@@ -152,14 +171,14 @@ async function testSparkWithdrawal(): Promise<void> {
     });
 
     // Step 3: Execute Withdrawal
-    console.log(`🔄 Step 3: Withdrawing ${config.shares} SPARKUSDC shares...`);
+    console.log(`🔄 Step 3: ${isMaxExit ? 'MAX EXIT - Withdrawing ALL' : `Withdrawing ${sharesToWithdraw}`} SPARKUSDC shares...`);
     
     const mockSession = createMockUserSession();
     const mockUserId = mockSession.userId;
     
     const withdrawalResult = await withdrawFromSpark(
       mockUserId,
-      config.shares.toString(),
+      isMaxExit ? 'max' : sharesToWithdraw.toString(),
       smartAccount  // Pass smartAccount for testing
     );
 
@@ -175,7 +194,7 @@ async function testSparkWithdrawal(): Promise<void> {
       startTime: Date.now(),
       endTime: Date.now(),
       txHash,
-      shares: config.shares.toString()
+      shares: sharesToWithdraw.toString()
     });
 
     // Step 4: Verify Transaction On-Chain
@@ -187,8 +206,8 @@ async function testSparkWithdrawal(): Promise<void> {
       console.log(`✅ Transaction hash verified: ${txHash}`);
     }
 
-    // Step 5: Check Final Positions & Yield Verification
-    console.log('💰 Step 5: Checking final positions and yield verification...');
+    // Step 5: Check Final Positions
+    console.log('💰 Step 5: Checking final positions...');
     
     // Wait briefly for state updates
     await new Promise(resolve => setTimeout(resolve, 3000));
@@ -201,18 +220,22 @@ async function testSparkWithdrawal(): Promise<void> {
     const sharesRedeemed = parseFloat(initialSparkPosition.sharesFormatted) - parseFloat(finalSparkPosition.sharesFormatted);
     
     console.log(`📊 Final Positions:`);
-    console.log(`   💰 USDC Balance: ${finalUsdcBalance} USDC (+${usdcReceived.toFixed(6)})`);
+    console.log(`   💰 USDC Balance: ${finalUsdcBalance.formatted} USDC (+${usdcReceived.toFixed(6)})`);
     console.log(`   💎 SPARKUSDC Shares: ${finalSparkPosition.sharesFormatted} (-${sharesRedeemed.toFixed(6)})`);
     
-    // Yield calculation
+    // Show current exchange rate (not misleading "yield")
     if (usdcReceived > 0 && sharesRedeemed > 0) {
-      const actualRedemptionRatio = usdcReceived / sharesRedeemed;
-      const yieldBonus = ((actualRedemptionRatio - 1.0) * 100);
-      
-      console.log(`   📈 Redemption Ratio: 1 share → ${actualRedemptionRatio.toFixed(6)} USDC`);
-      
-      if (yieldBonus > 0) {
-        console.log(`   🎉 Yield Bonus: +${yieldBonus.toFixed(3)}% (${(usdcReceived - sharesRedeemed).toFixed(6)} USDC)`);
+      const exchangeRate = usdcReceived / sharesRedeemed;
+      console.log(`   📊 Current Exchange Rate: 1 SPARKUSDC = ${exchangeRate.toFixed(6)} USDC`);
+    }
+    
+    // Check if full exit was successful
+    if (isMaxExit) {
+      const remainingShares = parseFloat(finalSparkPosition.sharesFormatted);
+      if (remainingShares < 0.000001) { // Account for rounding
+        console.log(`   ✅ FULL EXIT SUCCESSFUL: All shares redeemed`);
+      } else {
+        console.log(`   ⚠️ Remaining dust: ${remainingShares} SPARKUSDC shares`);
       }
     }
     
@@ -227,13 +250,14 @@ async function testSparkWithdrawal(): Promise<void> {
     console.log('\n🎉 SPARK WITHDRAWAL TEST COMPLETED SUCCESSFULLY!');
     console.log('==============================================\n');
     
-    console.log(`✅ Redeemed: ${sharesRedeemed.toFixed(6)} SPARKUSDC shares`);
+    console.log(`✅ ${isMaxExit ? 'FULL EXIT' : 'PARTIAL EXIT'}: ${sharesRedeemed.toFixed(6)} SPARKUSDC shares`);
     console.log(`✅ Received: ${usdcReceived.toFixed(6)} USDC`);
     console.log(`✅ Transaction: ${txHash}`);
     console.log(`✅ Gasless: Transaction paid by CDP Paymaster`);
     
-    if (usdcReceived > config.shares) {
-      console.log(`✅ Yield Detected: +${((usdcReceived - config.shares) * 100 / config.shares).toFixed(3)}%`);
+    if (isMaxExit) {
+      const remainingShares = parseFloat(finalSparkPosition.sharesFormatted);
+      console.log(`✅ Position Status: ${remainingShares < 0.000001 ? 'FULLY EXITED' : 'DUST REMAINING'}`);
     }
     
     if (config.verbose) {

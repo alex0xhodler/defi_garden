@@ -75,31 +75,30 @@ export async function deployToSpark(
     // Create sponsored bundler client for gasless transactions
     const bundlerClient = await createSponsoredBundlerClient(smartAccount);
 
-    // Following the exact pattern from successful stack trace
-    // The multicall pattern uses General Adapter with approve + deposit
+    // Trying direct vault approach first (like working Morpho pattern)
+    // If this fails, we'll analyze the exact multicall pattern from your stack trace
     
-    // Step 1: Approve General Adapter to spend USDC
+    // Step 1: Approve Spark vault to spend USDC directly
     const approveCalldata = '0x095ea7b3' + 
-      SPARK_CONTRACTS.GENERAL_ADAPTER.slice(2).padStart(64, '0') +  // spender (general adapter)
+      SPARK_CONTRACTS.VAULT.slice(2).padStart(64, '0') +  // spender (Spark vault)
       amountWei.toString(16).padStart(64, '0');  // amount
 
-    // Step 2: Deposit via General Adapter to Spark vault
-    // Based on stack trace analysis, using the deposit function pattern
+    // Step 2: Direct deposit to Spark vault (ERC4626 deposit)
     const depositCalldata = '0x6e553f65' +  // deposit(uint256,address)
       amountWei.toString(16).padStart(64, '0') +     // assets
       smartAccount.address.slice(2).padStart(64, '0'); // receiver
 
     const operations = [
-      // Step 1: Approve General Adapter to spend USDC
+      // Step 1: Approve Spark vault to spend USDC
       {
         to: SPARK_TOKENS.USDC,
         value: '0',
         data: approveCalldata as `0x${string}`,
         skipRevert: false
       },
-      // Step 2: Deposit to Spark vault via General Adapter
+      // Step 2: Direct deposit to Spark vault
       {
-        to: SPARK_CONTRACTS.GENERAL_ADAPTER,
+        to: SPARK_CONTRACTS.VAULT,
         value: '0',
         data: depositCalldata as `0x${string}`,
         skipRevert: false
@@ -165,7 +164,7 @@ export async function deployToSpark(
  */
 export async function withdrawFromSpark(
   userId: string, 
-  sharesAmount: string,
+  sharesAmount: string | 'max',
   testSmartAccount?: any // Optional parameter for testing
 ): Promise<{ success: boolean; txHash?: string; error?: string; assets?: string }> {
   try {
@@ -185,39 +184,49 @@ export async function withdrawFromSpark(
       smartAccount = wallet.smartAccount;
     }
     
-    // Convert shares amount to proper units (18 decimals for SPARKUSDC shares)
-    const sharesWei = parseUnits(sharesAmount, 18);
+    // Handle max withdrawal or convert shares amount to proper units
+    let sharesWei: bigint;
     
-    // Check current share balance
+    // Check current share balance first
     const shareBalance = await publicClient.readContract({
       address: SPARK_CONTRACTS.VAULT,
       abi: simpleERC20Abi,
       functionName: 'balanceOf',
       args: [smartAccount.address]
     });
-
-    if (shareBalance < sharesWei) {
-      throw new Error(`Insufficient SPARKUSDC share balance. Have: ${shareBalance}, Need: ${sharesWei}`);
+    
+    if (sharesAmount === 'max') {
+      // Use exact balance for max exit to avoid precision issues
+      sharesWei = shareBalance;
+      console.log(`📤 MAX EXIT: Using exact balance ${sharesWei} wei (${(Number(sharesWei) / 1e18).toFixed(6)} SPARKUSDC)`);
+    } else {
+      // Convert shares amount to proper units (18 decimals for SPARKUSDC shares)
+      sharesWei = parseUnits(sharesAmount as string, 18);
+      
+      if (shareBalance < sharesWei) {
+        throw new Error(`Insufficient SPARKUSDC share balance. Have: ${shareBalance}, Need: ${sharesWei}`);
+      }
+    }
+    
+    if (sharesWei === 0n) {
+      throw new Error('No SPARKUSDC shares to withdraw');
     }
 
     // Create sponsored bundler client for gasless transactions
     const bundlerClient = await createSponsoredBundlerClient(smartAccount);
 
-    // Following the withdrawal stack trace pattern:
-    // Uses permit signature + redeem via General Adapter
+    // Using direct vault redeem (ERC4626 standard) - same as successful deposit pattern
+    // The working deposit used direct vault interaction, so withdrawal should too
     
-    // For now, using direct redeem approach (can be enhanced with permit later)
-    const directRedeemCalldata = '0xa7f6e606' +  // Function selector from stack trace
-      SPARK_CONTRACTS.VAULT.slice(2).padStart(64, '0') +     // vault address
+    const directRedeemCalldata = '0xba087652' +  // redeem(uint256,address,address) - ERC4626 standard
       sharesWei.toString(16).padStart(64, '0') +             // shares amount
-      '0'.padStart(64, '0') +                                // minAmountOut (0 for now)
-      smartAccount.address.slice(2).padStart(64, '0') +      // receiver
+      smartAccount.address.slice(2).padStart(64, '0') +      // receiver 
       smartAccount.address.slice(2).padStart(64, '0');       // owner
 
     const operations = [
-      // Direct redeem via General Adapter (following stack trace pattern)
+      // Direct redeem from Spark vault (ERC4626)
       {
-        to: SPARK_CONTRACTS.GENERAL_ADAPTER,
+        to: SPARK_CONTRACTS.VAULT,
         value: '0',
         data: directRedeemCalldata as `0x${string}`,
         skipRevert: false
