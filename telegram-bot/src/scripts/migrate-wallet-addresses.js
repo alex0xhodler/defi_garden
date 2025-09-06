@@ -21,10 +21,10 @@ const accounts_1 = require("viem/accounts");
 const chains_1 = require("viem/chains");
 const encryption_1 = require("../lib/encryption");
 const constants_1 = require("../utils/constants");
-// Create public client for Base mainnet using DRPC (no rate limiting)
+// Create public client for Base mainnet using Coinbase developer API
 const publicClient = (0, viem_1.createPublicClient)({
     chain: chains_1.base,
-    transport: (0, viem_1.http)("https://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhnKxixj"),
+    transport: (0, viem_1.http)("https://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz"),
 });
 const db = new better_sqlite3_1.default(constants_1.DB_PATH);
 /**

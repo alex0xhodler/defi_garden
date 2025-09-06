@@ -18,10 +18,10 @@ import { base } from 'viem/chains';
 import { decrypt } from '../lib/encryption';
 import { DB_PATH } from "../utils/constants";
 
-// Create public client for Base mainnet using DRPC (no rate limiting)
+// Create public client for Base mainnet using Coinbase developer API
 const publicClient = createPublicClient({
   chain: base,
-  transport: http("https://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhnKxixj"),
+  transport: http("https://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz"),
 });
 
 const db = new Database(DB_PATH);
