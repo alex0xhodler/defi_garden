@@ -127,6 +127,42 @@ All templates are located in `src/templates/defi-pool-template/`:
 - **Gas**: Completely gasless via CDP Paymaster
 - **Reliability**: 100% success rate across all tests
 
+## ⚠️ Critical Bot Integration Requirements
+
+**After successful testing, you MUST complete bot integration using `BOT_INTEGRATION_TEMPLATE.md`**
+
+### 🎯 Lessons from Morpho Integration
+
+**What Went Wrong Initially:**
+- ✅ Service functions worked perfectly in tests
+- ✅ DeFiLlama API integration worked  
+- ✅ Real-time APY fetching worked
+- ❌ **Protocol didn't show in balance/portfolio commands**
+- ❌ **Withdrawal buttons showed "unknown command"**
+- ❌ **Users couldn't see their positions**
+
+**Root Causes:**
+1. **JS/TS File Conflicts**: Old `.js` files prevented updated `.ts` files from loading
+2. **Missing Callback Handlers**: Withdrawal callbacks not registered in `index.ts`
+3. **Inconsistent Wallet Addresses**: Different address patterns across commands
+
+**Solution:**
+```bash
+# 1. Remove conflicting files
+find . -name "*.js" | grep -E "(balance|portfolio|withdraw)" | grep -v node_modules | xargs rm
+
+# 2. Follow complete bot integration template
+cat BOT_INTEGRATION_TEMPLATE.md
+
+# 3. Verify all 8 integration points
+grep "User.*funds check" logs.txt    # Should show protocol
+grep "Portfolio APY rates" logs.txt  # Should include protocol
+```
+
+**🚨 REMEMBER**: Service testing success ≠ Bot integration success. Always complete BOTH phases!
+
+---
+
 ## 🚨 Emergency Troubleshooting
 
 **Common Issues & Solutions:**

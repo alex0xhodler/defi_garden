@@ -761,15 +761,20 @@ export async function executeZap(
   amountUsdc: string,
   userId?: string
 ): Promise<TransactionReceipt> {
+  console.log(`🔍 executeZap called with protocol: "${protocol}", userId: ${userId}`);
+  
   // Check if user has Smart Wallet for gasless transactions (require userId for gasless)
   const hasSmartWallet = userId ? hasCoinbaseSmartWallet(userId) : false;
+  console.log(`🔍 User ${userId} hasSmartWallet: ${hasSmartWallet}`);
   
   if (hasSmartWallet) {
     console.log(`🦑 Using gasless transactions for ${protocol} deployment`);
     
     // Route to gasless functions
     let result;
-    switch (protocol.toLowerCase()) {
+    const protocolLower = protocol.toLowerCase();
+    console.log(`🔍 Routing gasless transaction for protocol: "${protocolLower}"`);
+    switch (protocolLower) {
       case "aave":
         result = await gaslessDeployToAave(userId!, amountUsdc);
         break;

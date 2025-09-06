@@ -601,4 +601,145 @@ cat POOL_INTEGRATION_TEMPLATE.md
 
 ---
 
+## 🚨 Critical Troubleshooting Guide
+
+### Issue #1: Protocol Not Showing Despite Complete Backend ⚠️
+
+**Symptoms:**
+- Service functions work in tests
+- Start message shows protocol balance correctly  
+- Balance/Portfolio commands don't show protocol
+- No debug logs from commands
+
+**Root Cause:** Old JavaScript files being loaded instead of updated TypeScript files
+
+**Solution:**
+```bash
+# Find conflicting JS files
+find . -name "balance.js" -o -name "portfolio.js" | grep -v node_modules
+
+# Remove them
+rm ./commands/balance.js ./commands/portfolio.js
+rm ./dist/commands/balance.js ./dist/commands/portfolio.js  
+rm ./src/commands/balance.js ./src/commands/portfolio.js
+
+# Restart bot
+pkill -f "ts-node index.ts"
+npm run dev
+```
+
+**🔍 How to Identify:** `ts-node` prefers `.js` files over `.ts` files when both exist.
+
+### Issue #2: "Unknown Command" on Withdrawal Buttons ❌
+
+**Symptoms:**
+- Withdrawal interface shows protocol option
+- Clicking "Exit from [Protocol]" shows "Unknown command"
+- No errors in service functions
+
+**Root Cause:** Missing callback handlers in `index.ts`
+
+**Solution:**
+```typescript
+// Add to index.ts callback handler condition (~line 416-418)
+if (callbackData === "withdraw_aave_max" || ... ||
+    callbackData === "withdraw_[protocol]_max" ||        // 👈 ADD
+    callbackData === "withdraw_aave_menu" || ... ||
+    callbackData === "withdraw_[protocol]_menu" ||       // 👈 ADD  
+    callbackData === "withdraw_aave_custom" || ... ||
+    callbackData === "withdraw_[protocol]_custom" ||     // 👈 ADD
+    ...) {
+```
+
+**🔍 Prevention:** Always add new protocol callbacks to main handler list.
+
+### Issue #3: Wrong Wallet Address for Balance Checks 🏦
+
+**Symptoms:**
+- Protocol shows $0 balance but should show positive amount
+- Different balance in start message vs commands
+- APY fetching works but balance doesn't
+
+**Root Cause:** Using Smart Wallet address when protocol deposits are on regular wallet address
+
+**Solution:** Check where other protocols get their balance and match the pattern:
+```typescript
+// GOOD: Match start-help.ts pattern
+getMorphoBalance(wallet.address as Address)           // Regular wallet
+
+// BAD: Different wallet address 
+getMorphoBalance(smartWallet.address as Address)     // Smart wallet
+```
+
+### Issue #4: Missing from APY Fetching Calls 📊
+
+**Symptoms:**
+- Portfolio logs show 3 APY rates instead of 4+
+- Protocol APY not fetched in real-time
+- Manual deposits work but auto-earn doesn't include protocol
+
+**Root Cause:** Protocol missing from `fetchProtocolApy` calls
+
+**Solution:**
+```typescript
+// Update ALL fetchProtocolApy calls in:
+// 1. portfolio.ts (~line 99-104 & ~line 227-241)
+const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy, real[Protocol]Apy] = await Promise.allSettled([
+  fetchProtocolApy("AAVE"),
+  fetchProtocolApy("FLUID"), 
+  fetchProtocolApy("COMPOUND"),
+  fetchProtocolApy("MORPHO"),
+  fetchProtocolApy("[PROTOCOL]")  // 👈 ADD THIS
+]);
+
+// 2. defillama-api.ts (ensure new protocol in POOL_IDS and fetchSpecificPools)
+// 3. Any other files calling fetchProtocolApy
+```
+
+### Issue #5: Incomplete Integration Causes Confusing UX 🔄
+
+**Symptoms:**
+- Protocol works in some places but not others
+- Users see inconsistent behavior
+- Support requests increase
+
+**Root Cause:** Partial integration - missing one or more of the 8 integration points
+
+**Solution:** Use this verification checklist:
+```bash
+# Check logs for complete integration:
+grep "User.*funds check" logs.txt    # Should show protocol
+grep "Portfolio APY rates" logs.txt  # Should include protocol  
+grep "pool selection filters" logs.txt # Should show protocol
+```
+
+**🔍 Prevention:** Complete ALL 8 integration points before releasing to users.
+
+---
+
+## 📋 Debugging Commands
+
+```bash
+# View current callback handlers
+grep -n "callbackData ===" index.ts
+
+# Check for JS/TS conflicts
+find . -name "*.js" | grep -E "(balance|portfolio|withdraw)" | grep -v node_modules
+
+# Test specific service functions
+npm run test:morpho -- --key 0xTEST_KEY --amount 0.1
+
+# Check database integration  
+grep -A 5 -B 5 "funds check" logs.txt
+
+# Verify APY fetching
+grep "APY rates:" logs.txt
+```
+
+---
+
+**🎯 Remember:** The Morpho integration worked perfectly once we fixed the JS/TS file conflict and added missing callback handlers. Always verify TypeScript files are being used and all 8 integration points are complete!
+
+---
+
 **🏆 Success Metrics**: Complete integration means users can deposit, view balances, earn yield, view portfolio, and withdraw from the protocol through the bot interface seamlessly!
