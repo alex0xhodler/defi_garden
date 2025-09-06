@@ -138,12 +138,15 @@ if (sharesAmount === 'max') {
 - [x] Real on-chain testing completed
 - [x] Documentation created
 
-### **Phase 2: Bot Integration** 🔄 **PENDING**
-- [ ] Balance checking integration (8 integration points)
-- [ ] Pool selection & manual earn menus
-- [ ] Withdrawal interface & callbacks  
-- [ ] Portfolio display integration
-- [ ] APY fetching & error handling
+### **Phase 2: Bot Integration** ✅ **COMPLETE (with critical fixes)**
+- [x] Balance checking integration - Added to all balance commands
+- [x] Pool selection & manual earn menus - Added to earn/zap commands
+- [x] Withdrawal interface & callbacks - Complete exit system implemented
+- [x] Portfolio display integration - Shows in portfolio summary and details
+- [x] APY fetching & error handling - Real-time DeFiLlama integration
+- [x] **🔥 CRITICAL FIX: DeFiLlama Pool Fetching** - Added to real-time yield fetching
+- [x] **🔥 CRITICAL FIX: Risk Score** - Changed from 3 to 1 (same as Aave)
+- [x] **🔥 CRITICAL FIX: Type Support** - Added SPARK to all TypeScript types
 - [ ] Complete bot workflow testing
 
 ## 🎯 **Recommendations for Production**
@@ -189,6 +192,9 @@ npm run build
 4. **✅ Remove misleading yield calculations** that show exchange rates as "yield"
 5. **✅ Test full cycles, not just individual operations** to catch edge cases
 6. **⚠️ Be aware of dust amount limitations** in vault operations
+7. **🔥 MOST CRITICAL: Add to DeFiLlama real-time fetching** or protocol will be invisible in bot
+8. **🔥 Set correct risk score** (1 for high TVL like Aave) or auto-deployment won't select it
+9. **🔥 Update ALL risk calculation functions** (both earn.ts AND zap.ts)
 
 ---
 

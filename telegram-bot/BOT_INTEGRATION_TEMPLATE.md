@@ -15,6 +15,8 @@ When integrating a new DeFi protocol, you need to add it to **8 critical integra
 - ✅ **Withdrawal Interface** - Complete withdrawal menu system
 - ✅ **Portfolio Display** - Show in portfolio details
 - ✅ **APY Fetching** - Include in real-time APY calls
+- ✅ **DeFiLlama Pool Fetching** - Add to real-time yield fetching system
+- ✅ **Risk Scoring** - Add to protocol risk calculations
 - ✅ **Error Handling** - Protocol-specific error messages
 
 ---

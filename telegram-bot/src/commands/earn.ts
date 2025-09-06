@@ -65,7 +65,7 @@ export async function getYieldOpportunities(
         project: "Spark",
         chain: "Base", 
         symbol: "USDC",
-        tvlUsd: 25_000_000,
+        tvlUsd: 50_000_000,
         apy: 8.0,
         apyBase: 8.0,
         apyReward: 0.0,
@@ -73,7 +73,7 @@ export async function getYieldOpportunities(
         exposure: "single",
         underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
         rewardTokens: [],
-        riskScore: 3,
+        riskScore: 1,
         protocol: "spark"
       },
       {

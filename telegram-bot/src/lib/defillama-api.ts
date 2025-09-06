@@ -129,18 +129,20 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
     // Import database functions
     const { saveProtocolRate, getProtocolRate } = await import("./database");
     
-    // Fetch all four pools in one efficient call
+    // Fetch all five pools in one efficient call
     const pools = await fetchSpecificPools([
       POOL_IDS.AAVE,
       POOL_IDS.FLUID,
       POOL_IDS.COMPOUND,
-      POOL_IDS.MORPHO
+      POOL_IDS.MORPHO,
+      POOL_IDS.SPARK
     ]);
     
     const aavePool = pools.find(p => p.pool === POOL_IDS.AAVE);
     const fluidPool = pools.find(p => p.pool === POOL_IDS.FLUID);
     const compoundPool = pools.find(p => p.pool === POOL_IDS.COMPOUND);
     const morphoPool = pools.find(p => p.pool === POOL_IDS.MORPHO);
+    const sparkPool = pools.find(p => p.pool === POOL_IDS.SPARK);
     
     const opportunities: YieldOpportunity[] = [];
     
@@ -241,6 +243,31 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
       } else {
         console.log(`🔧 Using hardcoded Morpho fallback: 10.0% APY`);
         opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Morpho", 10.0));
+      }
+    }
+    
+    // Process Spark
+    if (sparkPool) {
+      const sparkOpportunity = convertToYieldOpportunity(sparkPool, "Spark");
+      opportunities.push(sparkOpportunity);
+      
+      // Save to database for future fallback
+      saveProtocolRate("spark", sparkOpportunity.apy, sparkOpportunity.apyBase, sparkOpportunity.apyReward, sparkPool.tvlUsd);
+      console.log(`✅ Spark: ${sparkOpportunity.apy}% APY (${sparkOpportunity.apyBase}% base + ${sparkOpportunity.apyReward}% rewards) - saved to DB`);
+    } else {
+      console.warn("❌ Failed to fetch Spark data, using database fallback");
+      const cachedSpark = getProtocolRate("spark");
+      if (cachedSpark) {
+        opportunities.push(convertToYieldOpportunity({
+          tvlUsd: cachedSpark.tvlUsd,
+          apy: cachedSpark.apy,
+          apyBase: cachedSpark.apyBase,
+          apyReward: cachedSpark.apyReward
+        } as DeFiLlamaPool, "Spark"));
+        console.log(`📦 Using cached Spark data: ${cachedSpark.apy}% APY (last updated: ${new Date(cachedSpark.lastUpdated).toISOString()})`);
+      } else {
+        console.log(`🔧 Using hardcoded Spark fallback: 8.0% APY`);
+        opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Spark", 8.0));
       }
     }
     
