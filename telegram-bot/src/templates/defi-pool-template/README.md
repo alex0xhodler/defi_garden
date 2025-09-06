@@ -4,11 +4,12 @@
 
 ## 🎯 Template Overview
 
-This template provides a proven pattern for integrating DeFi yield pools, based on the successful **Morpho PYTH/USDC** integration that achieved:
-- ✅ ~10% APY working correctly
-- ✅ Gasless transactions via CDP Paymaster
-- ✅ +5.25% yield bonus verified in testing
-- ✅ 100% success rate across all tests
+**🔥 For Morpho-based pools**: Use `MORPHO_POOL_INTEGRATION_MASTER_GUIDE.md` (100% success rate)
+
+This template provides a proven pattern for integrating DeFi yield pools, based on successful integrations:
+- ✅ **Morpho PYTH/USDC**: ~10% APY, 100% success rate
+- ✅ **Spark USDC Vault**: ~8% APY, gasless transactions working
+- ✅ **Proven Pattern**: Same Morpho infrastructure, only vault address changes
 
 ## 📁 Template Files
 
