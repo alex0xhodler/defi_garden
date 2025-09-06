@@ -10,7 +10,8 @@ export const POOL_IDS = {
   AAVE: "7e0661bf-8cf3-45e6-9424-31916d4c7b84",
   FLUID: "7372edda-f07f-4598-83e5-4edec48c4039", 
   COMPOUND: "0c8567f8-ba5b-41ad-80de-00a71895eb19",
-  MORPHO: "301667a4-dc42-492d-a978-ea4f69811a72"
+  MORPHO: "301667a4-dc42-492d-a978-ea4f69811a72",
+  SPARK: "9f146531-9c31-46ba-8e26-6b59bdaca9ff"
 } as const;
 
 // DeFiLlama API pool structure
@@ -128,18 +129,20 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
     // Import database functions
     const { saveProtocolRate, getProtocolRate } = await import("./database");
     
-    // Fetch all four pools in one efficient call
+    // Fetch all five pools in one efficient call
     const pools = await fetchSpecificPools([
       POOL_IDS.AAVE,
       POOL_IDS.FLUID,
       POOL_IDS.COMPOUND,
-      POOL_IDS.MORPHO
+      POOL_IDS.MORPHO,
+      POOL_IDS.SPARK
     ]);
     
     const aavePool = pools.find(p => p.pool === POOL_IDS.AAVE);
     const fluidPool = pools.find(p => p.pool === POOL_IDS.FLUID);
     const compoundPool = pools.find(p => p.pool === POOL_IDS.COMPOUND);
     const morphoPool = pools.find(p => p.pool === POOL_IDS.MORPHO);
+    const sparkPool = pools.find(p => p.pool === POOL_IDS.SPARK);
     
     const opportunities: YieldOpportunity[] = [];
     
@@ -243,6 +246,31 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
       }
     }
     
+    // Process Spark
+    if (sparkPool) {
+      const sparkOpportunity = convertToYieldOpportunity(sparkPool, "Spark");
+      opportunities.push(sparkOpportunity);
+      
+      // Save to database for future fallback
+      saveProtocolRate("spark", sparkOpportunity.apy, sparkOpportunity.apyBase, sparkOpportunity.apyReward, sparkPool.tvlUsd);
+      console.log(`✅ Spark: ${sparkOpportunity.apy}% APY (${sparkOpportunity.apyBase}% base + ${sparkOpportunity.apyReward}% rewards) - saved to DB`);
+    } else {
+      console.warn("❌ Failed to fetch Spark data, using database fallback");
+      const cachedSpark = getProtocolRate("spark");
+      if (cachedSpark) {
+        opportunities.push(convertToYieldOpportunity({
+          tvlUsd: cachedSpark.tvlUsd,
+          apy: cachedSpark.apy,
+          apyBase: cachedSpark.apyBase,
+          apyReward: cachedSpark.apyReward
+        } as DeFiLlamaPool, "Spark"));
+        console.log(`📦 Using cached Spark data: ${cachedSpark.apy}% APY (last updated: ${new Date(cachedSpark.lastUpdated).toISOString()})`);
+      } else {
+        console.log(`🔧 Using hardcoded Spark fallback: 8.0% APY`);
+        opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Spark", 8.0));
+      }
+    }
+    
     console.log(`=== FETCHED ${opportunities.length} REAL-TIME YIELDS ===`);
     return opportunities;
     
@@ -317,14 +345,14 @@ export async function getCompoundV3APY(): Promise<number> {
 /**
  * Fetch individual protocol APY by pool ID
  */
-export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO"): Promise<number> {
+export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO" | "SPARK"): Promise<number> {
   try {
     const poolId = POOL_IDS[protocol];
     const pool = await fetchPoolById(poolId);
     
     if (!pool) {
       console.warn(`No data found for ${protocol}, using fallback`);
-      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0 };
+      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0 };
       return fallbacks[protocol];
     }
     
@@ -334,7 +362,7 @@ export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" |
     return parseFloat(apy.toFixed(2));
   } catch (error) {
     console.error(`Error fetching ${protocol} APY:`, error);
-    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0 };
+    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0 };
     return fallbacks[protocol];
   }
 }

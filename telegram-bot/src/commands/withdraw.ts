@@ -40,6 +40,7 @@ const withdrawHandler: CommandHandler = {
         .text("🏛️ Exit from Aave", "withdraw_aave_menu").row()
         .text("🏦 Exit from Compound", "withdraw_compound_menu").row()
         .text("🔬 Exit from Morpho", "withdraw_morpho_menu").row()
+        .text("⚡ Exit from Spark", "withdraw_spark_menu").row()
         .text("❌ Cancel", "cancel_operation");
 
       await ctx.reply(
@@ -56,6 +57,9 @@ const withdrawHandler: CommandHandler = {
           `• Full or partial withdrawal options\n\n` +
           `**🔬 Morpho PYTH/USDC**\n` +
           `• Premium yield protocol (10% APY)\n` +
+          `• Gasless withdrawals via Smart Wallet\n\n` +
+          `**⚡ Spark USDC Vault**\n` +
+          `• Low-risk Morpho vault (8% APY)\n` +
           `• Gasless withdrawals via Smart Wallet\n\n` +
           `**Note:** Small gas fee (~$0.002) required for each exit`,
         {
@@ -321,6 +325,135 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
           `**Examples:**\n` +
           `• \`1\` - Redeem 1 share\n` +
           `• \`50.5\` - Redeem 50.5 shares\n` +
+          `• \`max\` - Redeem all available\n\n` +
+          `**Note:** Gasless via Smart Wallet technology\n\n` +
+          `**Cancel:** Send /cancel`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_spark_menu") {
+      await ctx.answerCallbackQuery();
+      
+      const keyboard = new InlineKeyboard()
+        .text("💸 Exit All Spark", "withdraw_spark_max").row()
+        .text("⚖️ Exit Custom Amount", "withdraw_spark_custom").row()
+        .text("🔙 Back", "withdraw");
+
+      await ctx.reply(
+        `⚡ **Exit from Spark USDC Vault**\n\n` +
+          `**Your Spark Position:**\n` +
+          `• Current APY: 8.0%\n` +
+          `• Token: SPARKUSDC shares (vault shares)\n` +
+          `• Rewards: Auto-compounding yield\n\n` +
+          `**Exit Options:**\n` +
+          `• **Exit All** - Withdraw complete Spark position to Smart Wallet\n` +
+          `• **Custom Amount** - Specify exact share amount to redeem\n\n` +
+          `**Note:** Gasless transactions via Smart Wallet technology`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_spark_max") {
+      await ctx.answerCallbackQuery();
+      
+      const processingMsg = await ctx.reply(
+        `🔄 **Processing Pool Exit...**\n\n` +
+          `**Protocol:** Spark USDC Vault\n` +
+          `**Amount:** All available shares\n` +
+          `**Gas:** Sponsored by inkvest (gasless for you!)\n` +
+          `**Status:** Executing transaction...`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+
+      try {
+        // Import the withdrawFromSpark function
+        const { withdrawFromSpark } = await import("../services/spark-defi");
+        
+        const userId = ctx.from?.id?.toString();
+        if (!userId) {
+          throw new Error("User ID not found");
+        }
+
+        const result = await withdrawFromSpark(userId, "max");
+        if (!result.success) {
+          throw new Error(result.error || "Unknown withdrawal error");
+        }
+
+        await ctx.api.editMessageText(
+          ctx.chat!.id,
+          processingMsg.message_id,
+          `✅ **Spark Pool Exit Successful!**\n\n` +
+            `**Protocol:** Spark USDC Vault\n` +
+            `**Transaction:** \`${result.txHash}\`\n` +
+            `**USDC Received:** ${result.assets ? (parseFloat(result.assets) / 1e6).toFixed(6) : 'Processing...'}\n` +
+            `**Gas Cost:** $0.00 (sponsored by inkvest!)\n` +
+            `**Status:** ✅ Complete\n\n` +
+            `💰 USDC has been added to your Smart Wallet\n` +
+            `📊 Check your updated portfolio`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: new InlineKeyboard()
+              .text("📊 View Portfolio", "view_portfolio")
+              .text("💰 Check Balance", "check_balance")
+              .row()
+              .text("🦑 Start Earning", "zap_funds")
+          }
+        );
+      } catch (error: any) {
+        console.error("Spark withdrawal failed:", error);
+        const errorKeyboard = new InlineKeyboard()
+          .text("🔄 Try Again", "withdraw_spark_max")
+          .text("💸 Custom Amount", "withdraw_spark_custom")
+          .row()
+          .text("📊 View Portfolio", "view_portfolio")
+          .text("💰 Check Balance", "check_balance");
+
+        await ctx.api.editMessageText(
+          ctx.chat!.id,
+          processingMsg.message_id,
+          `❌ **Spark Pool Exit Failed**\n\n` +
+            `**Error:** ${error.message}\n\n` +
+            `**Common Issues:**\n` +
+            `• No Spark position found\n` +
+            `• Network connectivity issues\n` +
+            `• Transaction temporarily failed\n\n` +
+            `**Solutions:**\n` +
+            `• Try again in a few seconds\n` +
+            `• Check your portfolio first\n` +
+            `• Use custom amount if max fails`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: errorKeyboard
+          }
+        );
+      }
+      return;
+    }
+
+    if (callbackData === "withdraw_spark_custom") {
+      await ctx.answerCallbackQuery();
+      
+      // Store protocol preference and set state for amount input
+      ctx.session.tempData = ctx.session.tempData || {};
+      ctx.session.tempData.protocol = "spark";
+      ctx.session.awaitingWithdrawAmount = true;
+      
+      await ctx.reply(
+        `💸 **Custom Spark Withdrawal**\n\n` +
+          `Please enter the amount of SPARKUSDC shares you want to redeem:\n\n` +
+          `**Examples:**\n` +
+          `• \`1\` - Redeem 1 SPARKUSDC share\n` +
+          `• \`0.5\` - Redeem 0.5 shares\n` +
           `• \`max\` - Redeem all available\n\n` +
           `**Note:** Gasless via Smart Wallet technology\n\n` +
           `**Cancel:** Send /cancel`,
@@ -765,8 +898,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
 
     // Determine which protocol to withdraw from
     const protocol = ctx.session.tempData?.protocol || "aave"; // Default to Aave for legacy support
-    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : "Aave V3";
-    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : "🏛️";
+    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : "Aave V3";
+    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : protocol === "spark" ? "⚡" : "🏛️";
 
     const processingMsg = await ctx.reply(
       `🔄 **Processing Withdrawal...**\n\n` +
@@ -819,6 +952,19 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
         console.log(`🔬 Using gasless Morpho withdrawal for Smart Wallet user`);
         const { withdrawFromMorphoPYTH } = await import("../services/morpho-defi");
         const result = await withdrawFromMorphoPYTH(userId, amount);
+        if (!result.success) {
+          throw new Error(result.error);
+        }
+        receipt = {
+          transactionHash: result.txHash,
+          blockNumber: "N/A (CDP UserOp)",
+          gasUsed: "Sponsored by inkvest"
+        };
+      } else if (protocol === "spark") {
+        // Use Spark gasless withdrawal
+        console.log(`⚡ Using gasless Spark withdrawal for Smart Wallet user`);
+        const { withdrawFromSpark } = await import("../services/spark-defi");
+        const result = await withdrawFromSpark(userId, amount);
         if (!result.success) {
           throw new Error(result.error);
         }

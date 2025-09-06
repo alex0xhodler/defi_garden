@@ -58,12 +58,75 @@
         "100% success rate in testing",
         "Reference implementation for future integrations"
       ]
+    },
+    {
+      "id": "spark-usdc",
+      "name": "Spark USDC Vault",
+      "description": "MetaMorpho Spark USDC vault on Base via Morpho infrastructure",
+      "apy": "~8%",
+      "tvl": "TBD",
+      "risk": "low",
+      "riskScore": "3/10",
+      "chain": "base",
+      "asset": "USDC",
+      "contracts": {
+        "vault": "0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "generalAdapter": "0xb98c948cfa24072e58935bc004a8a7b376ae746a",
+        "bundler": "0x6bfd8137e702540e7a42b74178a4a49ba43920c4"
+      },
+      "decimals": {
+        "asset": 6,
+        "shares": 18
+      },
+      "status": "testing",
+      "integration": {
+        "pattern": "morpho-multicall",
+        "service": "src/services/spark-defi.ts",
+        "testDeposit": "src/scripts/test-spark-deposit.ts",
+        "testWithdrawal": "src/scripts/test-spark-withdrawal.ts"
+      },
+      "testTransactions": {
+        "deposit": {
+          "hash": "0xdbdce090221724ec5c2e0183123bee8518884d981ef03e50a9d174c771b7113f",
+          "amount": "1.0 USDC",
+          "shares": "~0.968 SPARKUSDC",
+          "gasUsed": "303545",
+          "gasless": true,
+          "note": "Reference transaction from stack trace"
+        },
+        "withdrawal": {
+          "hash": "0xa27d33363fa01a5798b9d695191c8497cab423279caa5989e407f8444992957d",
+          "shares": "0.968 SPARKUSDC",
+          "assets": "1.0 USDC",
+          "gasUsed": "259800",
+          "gasless": true,
+          "note": "Reference transaction from stack trace"
+        }
+      },
+      "commands": {
+        "testDeposit": "npm run test:spark -- --key YOUR_KEY --amount 0.1",
+        "testWithdrawal": "npm run test:spark-withdraw -- --key YOUR_KEY --shares 0.05"
+      },
+      "defillama": {
+        "poolId": "9f146531-9c31-46ba-8e26-6b59bdaca9ff",
+        "url": "https://yields.llama.fi/pool/9f146531-9c31-46ba-8e26-6b59bdaca9ff"
+      },
+      "addedDate": "2025-09-06",
+      "lastTested": "pending",
+      "integrationNotes": [
+        "Uses Morpho infrastructure with General Adapter multicall pattern",
+        "Gasless transactions via CDP Paymaster", 
+        "SPARKUSDC shares (18 decimals) backed by USDC (6 decimals)",
+        "Integration based on successful transaction stack traces",
+        "Requires testing validation before production deployment"
+      ]
     }
   ],
   "metadata": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "lastUpdated": "2025-09-06",
-    "totalPools": 1,
+    "totalPools": 2,
     "supportedChains": ["base"],
     "supportedAssets": ["USDC"],
     "patterns": {
@@ -71,6 +134,13 @@
         "description": "Direct ERC4626 vault interaction",
         "deposit": "approve + deposit",
         "withdrawal": "redeem",
+        "gasless": true,
+        "template": "src/templates/defi-pool-template/"
+      },
+      "morpho-multicall": {
+        "description": "Morpho infrastructure with General Adapter multicall",
+        "deposit": "approve + multicall via General Adapter",
+        "withdrawal": "permit + redeem via General Adapter",
         "gasless": true,
         "template": "src/templates/defi-pool-template/"
       }

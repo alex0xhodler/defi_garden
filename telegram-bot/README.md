@@ -253,6 +253,36 @@ npm start
 - Never commit actual private keys or tokens
 - Update documentation for new features
 
+## 📚 **DeFi Pool Integration Documentation**
+
+### **🔥 Start Here - Integration Guides**
+- **`DOCUMENTATION_INDEX.md`** - Choose the right integration path
+- **`MORPHO_POOL_INTEGRATION_MASTER_GUIDE.md`** - **For Morpho pools (100% success rate)**
+- **`CRITICAL_INTEGRATION_STEPS.md`** - Most commonly missed steps
+- **`POOL_INTEGRATION_TEMPLATE.md`** - General integration template
+
+### **🎯 Success Examples**
+- **Morpho PYTH/USDC**: Reference implementation, 100% working
+- **Spark USDC Vault**: Latest success following proven pattern
+- **Pattern**: Same infrastructure, only vault address changes
+
+### **⚠️ Common Issues**
+- **`TYPESCRIPT_COMMON_ISSUES.md`** - Interface errors and fixes
+- **Missing from DeFiLlama** = Invisible protocol in bot
+- **Wrong risk score** = Protocol filtered out of auto-deployment  
+- **Missing callback handlers** = "Unknown command" errors
+
+### **🧪 Testing Commands**
+```bash
+# For Morpho pools (proven pattern)
+npm run test:morpho -- --key YOUR_KEY --amount 0.1
+npm run test:spark -- --key YOUR_KEY --amount 0.1
+
+# Template commands
+npm run template:help    # View integration guide
+npm run pools:list       # View supported pools
+```
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

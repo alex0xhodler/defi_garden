@@ -2,6 +2,11 @@
 
 > **⚠️ CRITICAL**: Always use this template when implementing new DeFi pools. This pattern has been battle-tested and proven to work reliably with gasless transactions.
 
+**🚨 MOST IMPORTANT**: After service implementation, you MUST add the protocol to DeFiLlama real-time fetching or it will be INVISIBLE in the bot! 
+
+**📚 For Morpho-based pools**: Use `MORPHO_POOL_INTEGRATION_MASTER_GUIDE.md` - proven pattern with Spark success.
+**📚 For other protocols**: See `CRITICAL_INTEGRATION_STEPS.md` for general integration steps.
+
 ## 🎯 Success Story: Morpho PYTH/USDC Integration
 
 **Proven Results:**
