@@ -93,20 +93,23 @@ const portfolioHandler: CommandHandler = {
       let aaveApy = 5.69;
       let fluidApy = 7.72;
       let compoundApy = 7.65;
+      let morphoApy = 10.0;
       
       try {
         const { fetchProtocolApy } = await import("../lib/defillama-api");
-        const [realAaveApy, realFluidApy, realCompoundApy] = await Promise.allSettled([
+        const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy] = await Promise.allSettled([
           fetchProtocolApy("AAVE"),
           fetchProtocolApy("FLUID"), 
-          fetchProtocolApy("COMPOUND")
+          fetchProtocolApy("COMPOUND"),
+          fetchProtocolApy("MORPHO")
         ]);
         
         if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
         if (realFluidApy.status === 'fulfilled') fluidApy = realFluidApy.value;
         if (realCompoundApy.status === 'fulfilled') compoundApy = realCompoundApy.value;
+        if (realMorphoApy.status === 'fulfilled') morphoApy = realMorphoApy.value;
         
-        console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%`);
+        console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%`);
       } catch (error) {
         console.warn("Failed to fetch real-time APY, using fallback rates:", error);
       }
@@ -221,18 +224,21 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     let aaveApy = 5.69;
     let fluidApy = 7.72;
     let compoundApy = 7.65;
+    let morphoApy = 10.0;
     
     try {
       const { fetchProtocolApy } = await import("../lib/defillama-api");
-      const [realAaveApy, realFluidApy, realCompoundApy] = await Promise.allSettled([
+      const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy] = await Promise.allSettled([
         fetchProtocolApy("AAVE"),
         fetchProtocolApy("FLUID"), 
-        fetchProtocolApy("COMPOUND")
+        fetchProtocolApy("COMPOUND"),
+        fetchProtocolApy("MORPHO")
       ]);
       
       if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
       if (realFluidApy.status === 'fulfilled') fluidApy = realFluidApy.value;
       if (realCompoundApy.status === 'fulfilled') compoundApy = realCompoundApy.value;
+      if (realMorphoApy.status === 'fulfilled') morphoApy = realMorphoApy.value;
     } catch (error) {
       console.warn("Failed to fetch real-time APY for portfolio details:", error);
     }

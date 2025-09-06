@@ -317,14 +317,14 @@ export async function getCompoundV3APY(): Promise<number> {
 /**
  * Fetch individual protocol APY by pool ID
  */
-export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND"): Promise<number> {
+export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO"): Promise<number> {
   try {
     const poolId = POOL_IDS[protocol];
     const pool = await fetchPoolById(poolId);
     
     if (!pool) {
       console.warn(`No data found for ${protocol}, using fallback`);
-      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65 };
+      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0 };
       return fallbacks[protocol];
     }
     
@@ -334,7 +334,7 @@ export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND"):
     return parseFloat(apy.toFixed(2));
   } catch (error) {
     console.error(`Error fetching ${protocol} APY:`, error);
-    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65 };
+    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0 };
     return fallbacks[protocol];
   }
 }
