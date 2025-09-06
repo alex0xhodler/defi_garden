@@ -152,23 +152,26 @@ export const startHandler: CommandHandler = {
           // Check both wallet USDC balance and DeFi positions
           const { getCoinbaseWalletUSDCBalance } = await import("../lib/coinbase-wallet");
           const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import("../lib/token-wallet");
+          const { getMorphoBalance } = await import("../services/morpho-defi");
           
           try {
-            const [walletUsdc, aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
+            const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance] = await Promise.all([
               getCoinbaseWalletUSDCBalance(wallet.address as Address),
               getAaveBalance(wallet.address as Address),
               getFluidBalance(wallet.address as Address),
-              getCompoundBalance(wallet.address as Address)
+              getCompoundBalance(wallet.address as Address),
+              getMorphoBalance(wallet.address as Address)
             ]);
 
             const walletUsdcNum = parseFloat(walletUsdc);
             const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
             const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
             const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
+            const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
             
-            const totalFunds = walletUsdcNum + aaveBalanceNum + fluidBalanceNum + compoundBalanceNum;
+            const totalFunds = walletUsdcNum + aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum;
             
-            console.log(`🔍 User ${firstName} funds check: Wallet: $${walletUsdcNum}, Aave: $${aaveBalanceNum}, Fluid: $${fluidBalanceNum}, Compound: $${compoundBalanceNum}, Total: $${totalFunds}`);
+            console.log(`🔍 User ${firstName} funds check: Wallet: $${walletUsdcNum}, Aave: $${aaveBalanceNum}, Fluid: $${fluidBalanceNum}, Compound: $${compoundBalanceNum}, Morpho: $${morphoBalanceNum}, Total: $${totalFunds}`);
             
             if (totalFunds > 0.01) {
               // User has funds - show full main menu

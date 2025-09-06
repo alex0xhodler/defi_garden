@@ -39,6 +39,7 @@ const withdrawHandler: CommandHandler = {
         .text("🌊 Exit from Fluid", "withdraw_fluid_menu").row()
         .text("🏛️ Exit from Aave", "withdraw_aave_menu").row()
         .text("🏦 Exit from Compound", "withdraw_compound_menu").row()
+        .text("🔬 Exit from Morpho", "withdraw_morpho_menu").row()
         .text("❌ Cancel", "cancel_operation");
 
       await ctx.reply(
@@ -53,6 +54,9 @@ const withdrawHandler: CommandHandler = {
           `**🏦 Compound V3**\n` +
           `• USDC lending with COMP rewards\n` +
           `• Full or partial withdrawal options\n\n` +
+          `**🔬 Morpho PYTH/USDC**\n` +
+          `• Premium yield protocol (10% APY)\n` +
+          `• Gasless withdrawals via Smart Wallet\n\n` +
           `**Note:** Small gas fee (~$0.002) required for each exit`,
         {
           parse_mode: "Markdown",
@@ -93,7 +97,8 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       const protocolInfo: { [key: string]: { name: string; emoji: string } } = {
         'fluid': { name: 'Fluid Finance', emoji: '🌊' },
         'aave': { name: 'Aave V3', emoji: '🏛️' },
-        'compound': { name: 'Compound V3', emoji: '🏦' }
+        'compound': { name: 'Compound V3', emoji: '🏦' },
+        'morpho': { name: 'Morpho PYTH/USDC', emoji: '🔬' }
       };
       
       const info = protocolInfo[protocol] || { name: 'Protocol', emoji: '💰' };

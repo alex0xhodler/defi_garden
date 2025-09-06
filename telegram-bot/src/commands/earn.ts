@@ -57,7 +57,7 @@ export async function getYieldOpportunities(
         exposure: "single",
         underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
         rewardTokens: [],
-        riskScore: 2,
+        riskScore: 5,
         protocol: "morpho"
       },
       {
