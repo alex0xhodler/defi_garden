@@ -257,10 +257,7 @@ export async function withdrawFromMorphoPYTH(
       smartAccount = wallet.smartAccount;
     }
     
-    // Convert shares amount to proper units (18 decimals for MetaMorpho shares)
-    const sharesWei = parseUnits(sharesAmount, 18);
-    
-    // Check current share balance
+    // Check current share balance first
     const shareBalance = await publicClient.readContract({
       address: MORPHO_CONTRACTS.METAMORPHO_PYTH_USDC,
       abi: simpleERC20Abi,
@@ -268,8 +265,18 @@ export async function withdrawFromMorphoPYTH(
       args: [smartAccount.address]
     });
 
-    if (shareBalance < sharesWei) {
-      throw new Error(`Insufficient share balance. Have: ${shareBalance}, Need: ${sharesWei}`);
+    // Handle "max" amount or parse the specific amount
+    let sharesWei: bigint;
+    if (sharesAmount.toLowerCase() === 'max') {
+      sharesWei = shareBalance; // Use full balance
+      console.log(`📊 Using max balance: ${shareBalance} shares`);
+    } else {
+      // Convert shares amount to proper units (18 decimals for MetaMorpho shares)
+      sharesWei = parseUnits(sharesAmount, 18);
+      
+      if (shareBalance < sharesWei) {
+        throw new Error(`Insufficient share balance. Have: ${shareBalance}, Need: ${sharesWei}`);
+      }
     }
 
     // Get current nonce for permit

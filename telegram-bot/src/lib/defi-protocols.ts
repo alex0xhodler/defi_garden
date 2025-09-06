@@ -559,7 +559,7 @@ export async function executeWithdraw(
         result = await withdrawFromMorphoPYTH(userId!, amountUsdc);
         break;
       default:
-        throw new Error(`Unsupported protocol for gasless: ${protocol}`);
+        throw new Error(`Unsupported protocol for gasless: ${protocol.toLowerCase()}`);
     }
     
     if (!result.success) {
@@ -788,7 +788,7 @@ export async function executeZap(
         result = await deployToMorphoPYTH(userId!, amountUsdc);
         break;
       default:
-        throw new Error(`Unsupported protocol for gasless: ${protocol}`);
+        throw new Error(`Unsupported protocol for gasless: ${protocolLower}`);
     }
     
     if (!result.success) {
