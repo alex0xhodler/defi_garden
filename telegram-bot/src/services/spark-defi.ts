@@ -6,11 +6,12 @@ const SPARK_TOKENS = {
   USDC: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913" as Address,
 };
 
-// Spark USDC vault contract addresses on Base (from stack traces)
+// Spark USDC vault contract addresses on Base (using same infrastructure as Morpho)
 const SPARK_CONTRACTS = {
-  VAULT: "0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a" as Address, // SPARKUSDC vault address
-  GENERAL_ADAPTER: "0xb98c948cfa24072e58935bc004a8a7b376ae746a" as Address, // General adapter from multicall
-  BUNDLER: "0x6bfd8137e702540e7a42b74178a4a49ba43920c4" as Address // Bundler3 address
+  GENERAL_ADAPTER: "0xb98c948cfa24072e58935bc004a8a7b376ae746a" as Address,
+  SPARK_USDC_VAULT: "0x7bfa7c4f149e7415b73bdedfe609237e29cbf34a" as Address, // SPARKUSDC vault address
+  MORPHO_BLUE: "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb" as Address,
+  BUNDLER: "0x6bfd8137e702540e7a42b74178a4a49ba43920c4" as Address
 };
 
 // Standard ERC20 ABI for balance checks
@@ -75,19 +76,19 @@ export async function deployToSpark(
     // Create sponsored bundler client for gasless transactions
     const bundlerClient = await createSponsoredBundlerClient(smartAccount);
 
-    // Trying direct vault approach first (like working Morpho pattern)
-    // If this fails, we'll analyze the exact multicall pattern from your stack trace
+    // Using EXACT same pattern as working Morpho PYTH/USDC implementation
+    // Only difference: vault address (Spark vs Morpho PYTH)
     
-    // Step 1: Approve Spark vault to spend USDC directly
+    // USDC approve for Spark vault direct deposit (same as Morpho pattern)
     const approveCalldata = '0x095ea7b3' + 
-      SPARK_CONTRACTS.VAULT.slice(2).padStart(64, '0') +  // spender (Spark vault)
-      amountWei.toString(16).padStart(64, '0');  // amount
-
-    // Step 2: Direct deposit to Spark vault (ERC4626 deposit)
-    const depositCalldata = '0x6e553f65' +  // deposit(uint256,address)
-      amountWei.toString(16).padStart(64, '0') +     // assets
-      smartAccount.address.slice(2).padStart(64, '0'); // receiver
-
+      SPARK_CONTRACTS.SPARK_USDC_VAULT.slice(2).padStart(64, '0') +  // spender (Spark vault)
+      amountWei.toString(16).padStart(64, '0');  // amount (32 bytes)
+    
+    // Direct deposit to Spark vault (ERC4626 standard - same as Morpho)
+    const directDepositCalldata = '0x6e553f65' +  // deposit(uint256,address) 
+      amountWei.toString(16).padStart(64, '0') +     // assets (32 bytes)
+      smartAccount.address.slice(2).padStart(64, '0'); // receiver (32 bytes)
+    
     const operations = [
       // Step 1: Approve Spark vault to spend USDC
       {
@@ -96,11 +97,11 @@ export async function deployToSpark(
         data: approveCalldata as `0x${string}`,
         skipRevert: false
       },
-      // Step 2: Direct deposit to Spark vault
+      // Step 2: Direct deposit to Spark vault (ERC4626)
       {
-        to: SPARK_CONTRACTS.VAULT,
+        to: SPARK_CONTRACTS.SPARK_USDC_VAULT,
         value: '0',
-        data: depositCalldata as `0x${string}`,
+        data: directDepositCalldata as `0x${string}`,
         skipRevert: false
       }
     ];
@@ -189,7 +190,7 @@ export async function withdrawFromSpark(
     
     // Check current share balance first
     const shareBalance = await publicClient.readContract({
-      address: SPARK_CONTRACTS.VAULT,
+      address: SPARK_CONTRACTS.SPARK_USDC_VAULT,
       abi: simpleERC20Abi,
       functionName: 'balanceOf',
       args: [smartAccount.address]
@@ -226,7 +227,7 @@ export async function withdrawFromSpark(
     const operations = [
       // Direct redeem from Spark vault (ERC4626)
       {
-        to: SPARK_CONTRACTS.VAULT,
+        to: SPARK_CONTRACTS.SPARK_USDC_VAULT,
         value: '0',
         data: directRedeemCalldata as `0x${string}`,
         skipRevert: false
@@ -294,7 +295,7 @@ export async function getSparkBalance(userAddress: Address): Promise<{
   try {
     // Get user's SPARKUSDC share balance
     const shares = await publicClient.readContract({
-      address: SPARK_CONTRACTS.VAULT,
+      address: SPARK_CONTRACTS.SPARK_USDC_VAULT,
       abi: simpleERC20Abi,
       functionName: 'balanceOf',
       args: [userAddress]

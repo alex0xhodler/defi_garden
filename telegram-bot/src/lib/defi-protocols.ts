@@ -787,6 +787,10 @@ export async function executeZap(
       case "morpho":
         result = await deployToMorphoPYTH(userId!, amountUsdc);
         break;
+      case "spark":
+        const { deployToSpark } = await import("../services/spark-defi");
+        result = await deployToSpark(userId!, amountUsdc);
+        break;
       default:
         throw new Error(`Unsupported protocol for gasless: ${protocolLower}`);
     }

@@ -150,17 +150,53 @@ After completing integration, run these to verify:
 ```bash
 # Check if pool is being fetched
 npm run dev
-# Look for: "Fetching specific pools from DeFiLlama: ..., 9f146531-9c31-46ba-8e26-6b59bdaca9ff"
-# Look for: "✅ Spark: X.X% APY ... - saved to DB"
+# Look for: "Fetching specific pools from DeFiLlama: ..., [POOL_ID]"
+# Look for: "✅ [ProtocolName]: X.X% APY ... - saved to DB"
 
-# Test pool selection
-npm run test:spark-cycle -- --key TEST_KEY --amount 0.1
+# Test pool selection  
+npm run test:[protocol]-cycle -- --key TEST_KEY --amount 0.1
 
 # Check bot integration
-# Send /balance - should show Spark positions
-# Send /portfolio - should show detailed Spark info  
-# Send /withdraw - should have "⚡ Exit from Spark" option
+# Send /balance - should show protocol positions
+# Send /portfolio - should show detailed protocol info  
+# Send /withdraw - should have "[EMOJI] Exit from [Protocol]" option
 ```
+
+## 🚨 **CRITICAL: Bot vs Test Script Differences**
+
+### **⚠️ Common Issue: Test Works, Bot Fails**
+**Symptoms**: Test scripts pass, but bot manual investment fails with "Transaction failed during execution"
+
+**Root Causes**:
+1. **Different Smart Wallets**: Test uses private key directly, bot uses database user's Smart Wallet
+2. **USDC Balance Location**: Test wallet has USDC, but bot user's Smart Wallet doesn't
+3. **User Session Differences**: Mock vs real user sessions may have different settings
+
+### **🔧 Debugging Steps**:
+```bash
+# 1. Check actual bot user's Smart Wallet USDC balance
+# Look in logs for: Smart Account 0x... already deployed
+# This is the actual Smart Wallet the bot is using
+
+# 2. Check if bot user has USDC on their Smart Wallet
+# Send /balance in bot to see actual balances
+
+# 3. Transfer USDC to bot user's Smart Wallet if needed
+# Use transfer script or manual transfer
+
+# 4. Compare transaction patterns
+# Test script UserOp vs bot UserOp may have different parameters
+```
+
+### **💡 Solution Pattern**:
+1. **Test scripts validate service functions work** ✅
+2. **Bot integration validates UI/UX works** ✅  
+3. **User wallet balance is separate concern** ⚠️
+
+If test scripts pass but bot fails with "Transaction failed during execution":
+- ✅ Integration is correct
+- ❌ User needs to fund their bot Smart Wallet
+- 🔧 Not an integration bug, but a balance/wallet issue
 
 ## 📋 **Copy-Paste Checklist for New Protocol**
 
