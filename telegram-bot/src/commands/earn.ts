@@ -61,6 +61,22 @@ export async function getYieldOpportunities(
         protocol: "morpho"
       },
       {
+        poolId: "spark-usdc",
+        project: "Spark",
+        chain: "Base", 
+        symbol: "USDC",
+        tvlUsd: 25_000_000,
+        apy: 8.0,
+        apyBase: 8.0,
+        apyReward: 0.0,
+        ilRisk: "no",
+        exposure: "single",
+        underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+        rewardTokens: [],
+        riskScore: 3,
+        protocol: "spark"
+      },
+      {
         poolId: "fluid-usdc-base",
         project: "Fluid",
         chain: "Base",

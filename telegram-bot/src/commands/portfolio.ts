@@ -34,9 +34,10 @@ const portfolioHandler: CommandHandler = {
       const { hasCoinbaseSmartWallet, getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
       let walletAddress = wallet.address as Address;
       let usingSmartWallet = false;
+      let smartWallet: any = null;
       
       if (hasCoinbaseSmartWallet(userId)) {
-        const smartWallet = await getCoinbaseSmartWallet(userId);
+        smartWallet = await getCoinbaseSmartWallet(userId);
         if (smartWallet) {
           walletAddress = smartWallet.smartAccount.address;
           usingSmartWallet = true;
@@ -49,7 +50,8 @@ const portfolioHandler: CommandHandler = {
       
       // Fetch real on-chain balances
       const { getMorphoBalance } = await import("../services/morpho-defi");
-      const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, usdcBalance] = await Promise.all([
+      const { getSparkBalance } = await import("../services/spark-defi");
+      const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, usdcBalance] = await Promise.all([
         getAaveBalance(walletAddress),
         getFluidBalance(walletAddress),
         getCompoundBalance(walletAddress),
@@ -57,6 +59,10 @@ const portfolioHandler: CommandHandler = {
           console.error(`❌ Portfolio command - Morpho balance fetch failed for ${wallet.address}:`, error);
           return { assetsFormatted: '0.00' };
         }), // Use regular wallet address like start-help.ts
+        smartWallet?.smartAccount?.address ? getSparkBalance(smartWallet.smartAccount.address).catch(error => {
+          console.error(`❌ Portfolio command - Spark balance fetch failed for ${smartWallet?.smartAccount?.address}:`, error);
+          return { assetsFormatted: '0.00' };
+        }) : Promise.resolve({ assetsFormatted: '0.00' }),
         getTokenBalance(BASE_TOKENS.USDC, walletAddress)
       ]);
 
@@ -64,12 +70,14 @@ const portfolioHandler: CommandHandler = {
       const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
       const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
       const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
+      const sparkBalanceNum = parseFloat(sparkBalance.assetsFormatted);
       const usdcBalanceNum = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
       
       console.log(`🔍 Portfolio command - Morpho balance: ${morphoBalance.assetsFormatted} → ${morphoBalanceNum}`);
+      console.log(`🔍 Portfolio command - Spark balance: ${sparkBalance.assetsFormatted} → ${sparkBalanceNum}`);
 
       // If no DeFi deposits, show empty portfolio
-      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0) {
+      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0 && sparkBalanceNum === 0) {
         const keyboard = new InlineKeyboard()
           .text("🦑 Start Earning", "zap_funds")
           .text("📥 Deposit", "deposit")
@@ -103,26 +111,29 @@ const portfolioHandler: CommandHandler = {
       let fluidApy = 7.72;
       let compoundApy = 7.65;
       let morphoApy = 10.0;
+      let sparkApy = 8.0;
       
       try {
         const { fetchProtocolApy } = await import("../lib/defillama-api");
-        const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy] = await Promise.allSettled([
+        const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy, realSparkApy] = await Promise.allSettled([
           fetchProtocolApy("AAVE"),
           fetchProtocolApy("FLUID"), 
           fetchProtocolApy("COMPOUND"),
-          fetchProtocolApy("MORPHO")
+          fetchProtocolApy("MORPHO"),
+          fetchProtocolApy("SPARK")
         ]);
         
         if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
         if (realFluidApy.status === 'fulfilled') fluidApy = realFluidApy.value;
         if (realCompoundApy.status === 'fulfilled') compoundApy = realCompoundApy.value;
         if (realMorphoApy.status === 'fulfilled') morphoApy = realMorphoApy.value;
+        if (realSparkApy.status === 'fulfilled') sparkApy = realSparkApy.value;
         
-        console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%`);
+        console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%, Spark ${sparkApy}%`);
       } catch (error) {
         console.warn("Failed to fetch real-time APY, using fallback rates:", error);
       }
-      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum;
+      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum;
       
       let message = `📊 **Your DeFi Portfolio**\n\n`;
       
@@ -138,6 +149,15 @@ const portfolioHandler: CommandHandler = {
         message += `• **Current Deposit**: $${morphoBalanceNum.toFixed(2)}\n`;
         message += `• **Current APY**: ${morphoApy}%\n`;
         message += `• **Protocol**: Morpho on Base\n`;
+        message += `• **Status**: ✅ Active & Earning\n\n`;
+      }
+      
+      if (sparkBalanceNum > 0) {
+        message += `**⚡ Spark USDC Vault Position**\n\n`;
+        message += `🟢 **Spark USDC Vault**\n`;
+        message += `• **Current Deposit**: $${sparkBalanceNum.toFixed(2)}\n`;
+        message += `• **Current APY**: ${sparkApy}%\n`;
+        message += `• **Protocol**: Spark via Morpho on Base\n`;
         message += `• **Status**: ✅ Active & Earning\n\n`;
       }
       

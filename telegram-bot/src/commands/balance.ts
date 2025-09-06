@@ -63,20 +63,25 @@ export const balanceHandler: CommandHandler = {
         // Get DeFi positions
         const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import("../lib/token-wallet");
         const { getMorphoBalance } = await import("../services/morpho-defi");
+        const { getSparkBalance } = await import("../services/spark-defi");
         const { getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
         
         // Get Smart Wallet address for protocols that use Smart Wallet
         const smartWallet = await getCoinbaseSmartWallet(userId);
         const smartWalletAddress = smartWallet?.smartAccount.address;
         
-        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance] = await Promise.all([
+        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance] = await Promise.all([
           getAaveBalance(wallet.address as Address),
           getFluidBalance(wallet.address as Address),
           getCompoundBalance(wallet.address as Address),
           getMorphoBalance(wallet.address as Address).catch(error => {
             console.error(`❌ Balance command - Morpho balance fetch failed for ${wallet.address}:`, error);
             return { assetsFormatted: '0.00' };
-          })
+          }),
+          smartWalletAddress ? getSparkBalance(smartWalletAddress).catch(error => {
+            console.error(`❌ Balance command - Spark balance fetch failed for ${smartWalletAddress}:`, error);
+            return { assetsFormatted: '0.00' };
+          }) : Promise.resolve({ assetsFormatted: '0.00' })
         ]);
 
         // Build smart balance message showing only positive balances
@@ -130,6 +135,14 @@ export const balanceHandler: CommandHandler = {
         if (morphoNum > 0.01) {
           defiPositions += `🔬 **Morpho PYTH/USDC**: $${morphoNum.toFixed(2)} USDC\n`;
           totalDefiValue += morphoNum;
+          hasAnyBalance = true;
+        }
+
+        const sparkNum = parseFloat(sparkBalance.assetsFormatted);
+        console.log(`🔍 Balance command - Spark balance: ${sparkBalance.assetsFormatted} → ${sparkNum}`);
+        if (sparkNum > 0.01) {
+          defiPositions += `⚡ **Spark USDC Vault**: $${sparkNum.toFixed(2)} USDC\n`;
+          totalDefiValue += sparkNum;
           hasAnyBalance = true;
         }
 

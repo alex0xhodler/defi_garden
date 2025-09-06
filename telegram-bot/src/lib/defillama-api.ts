@@ -10,7 +10,8 @@ export const POOL_IDS = {
   AAVE: "7e0661bf-8cf3-45e6-9424-31916d4c7b84",
   FLUID: "7372edda-f07f-4598-83e5-4edec48c4039", 
   COMPOUND: "0c8567f8-ba5b-41ad-80de-00a71895eb19",
-  MORPHO: "301667a4-dc42-492d-a978-ea4f69811a72"
+  MORPHO: "301667a4-dc42-492d-a978-ea4f69811a72",
+  SPARK: "9f146531-9c31-46ba-8e26-6b59bdaca9ff"
 } as const;
 
 // DeFiLlama API pool structure
@@ -317,14 +318,14 @@ export async function getCompoundV3APY(): Promise<number> {
 /**
  * Fetch individual protocol APY by pool ID
  */
-export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO"): Promise<number> {
+export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO" | "SPARK"): Promise<number> {
   try {
     const poolId = POOL_IDS[protocol];
     const pool = await fetchPoolById(poolId);
     
     if (!pool) {
       console.warn(`No data found for ${protocol}, using fallback`);
-      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0 };
+      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0 };
       return fallbacks[protocol];
     }
     
@@ -334,7 +335,7 @@ export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" |
     return parseFloat(apy.toFixed(2));
   } catch (error) {
     console.error(`Error fetching ${protocol} APY:`, error);
-    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0 };
+    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0 };
     return fallbacks[protocol];
   }
 }
