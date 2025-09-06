@@ -13,8 +13,8 @@ const monitorBot = new Bot(process.env.TELEGRAM_BOT_TOKEN || "");
 // Base USDC token address
 const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 
-// DRPC WebSocket endpoint for Base mainnet (no rate limiting)
-const BASE_WSS = "wss://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhnKxixj";
+// Coinbase WebSocket endpoint for Base mainnet
+const BASE_WSS = "wss://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz";
 
 // Store monitored wallet addresses and connection state
 const monitoredWallets = new Set();
@@ -583,7 +583,7 @@ function setupWebSocketConnection() {
   wsConnection = ws;
   
   ws.on('open', function() {
-    console.log('🔌 Connected to DRPC WebSocket (Base mainnet)');
+    console.log('🔌 Connected to Coinbase WebSocket (Base mainnet)');
     
     // Subscribe to USDC Transfer events
     const subscription = {
