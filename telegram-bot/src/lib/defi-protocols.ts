@@ -11,6 +11,7 @@ import {
   autoDeployToCompoundV3,
   withdrawFromCompoundV3
 } from "../services/coinbase-defi";
+import { deployToMorphoPYTH, withdrawFromMorphoPYTH } from "../services/morpho-defi";
 
 // Aave V3 Pool contract address on Base
 const AAVE_V3_POOL = "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5" as Address;
@@ -554,6 +555,9 @@ export async function executeWithdraw(
       case "compound":
         result = await withdrawFromCompoundV3(userId!, amountUsdc);
         break;
+      case "morpho":
+        result = await withdrawFromMorphoPYTH(userId!, amountUsdc);
+        break;
       default:
         throw new Error(`Unsupported protocol for gasless: ${protocol}`);
     }
@@ -580,6 +584,9 @@ export async function executeWithdraw(
       
       case "compound":
         return await withdrawFromCompound(walletData, amountUsdc, claimRewards);
+      
+      case "morpho":
+        throw new Error(`Morpho requires a Coinbase Smart Wallet for gasless transactions. Please create a Smart Wallet using /wallet.`);
       
       default:
         throw new Error(`Unsupported protocol: ${protocol}`);
@@ -772,6 +779,9 @@ export async function executeZap(
       case "compound":
         result = await autoDeployToCompoundV3(userId!, amountUsdc);
         break;
+      case "morpho":
+        result = await deployToMorphoPYTH(userId!, amountUsdc);
+        break;
       default:
         throw new Error(`Unsupported protocol for gasless: ${protocol}`);
     }
@@ -798,6 +808,9 @@ export async function executeZap(
       
       case "compound":
         return await supplyToCompound(walletData, amountUsdc);
+      
+      case "morpho":
+        throw new Error(`Morpho requires a Coinbase Smart Wallet for gasless transactions. Please create a Smart Wallet using /wallet.`);
       
       default:
         throw new Error(`Unsupported protocol: ${protocol}`);

@@ -55,6 +55,10 @@ async function getHighestAPYProtocol() {
       'Compound': {
         deployFn: 'autoDeployToCompoundV3',
         displayName: 'Compound V3'
+      },
+      'Morpho': {
+        deployFn: 'deployToMorphoPYTH',
+        displayName: 'Morpho PYTH/USDC'
       }
     };
     

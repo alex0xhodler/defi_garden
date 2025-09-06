@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon",
     "start": "ts-node index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test:morpho": "ts-node src/scripts/test-morpho-deposit.ts"
   },
   "keywords": [
     "defi",

@@ -120,3 +120,151 @@ export const erc20Abi = [
     type: "event",
   },
 ] as const;
+
+/**
+ * MetaMorpho Vault ABI - ERC4626 standard functions for Morpho vaults
+ */
+export const metaMorphoAbi = [
+  // ERC4626 standard functions
+  {
+    inputs: [
+      { name: "assets", type: "uint256" },
+      { name: "receiver", type: "address" }
+    ],
+    name: "deposit",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "nonpayable",
+    type: "function"
+  },
+  {
+    inputs: [
+      { name: "assets", type: "uint256" },
+      { name: "receiver", type: "address" },
+      { name: "owner", type: "address" }
+    ],
+    name: "withdraw",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "nonpayable",
+    type: "function"
+  },
+  {
+    inputs: [
+      { name: "shares", type: "uint256" },
+      { name: "receiver", type: "address" },
+      { name: "owner", type: "address" }
+    ],
+    name: "redeem",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "nonpayable",
+    type: "function"
+  },
+  {
+    inputs: [{ name: "account", type: "address" }],
+    name: "balanceOf",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "view",
+    type: "function"
+  },
+  {
+    inputs: [],
+    name: "totalAssets",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "view",
+    type: "function"
+  },
+  {
+    inputs: [{ name: "assets", type: "uint256" }],
+    name: "previewDeposit",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "view",
+    type: "function"
+  },
+  {
+    inputs: [{ name: "assets", type: "uint256" }],
+    name: "previewWithdraw",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "view",
+    type: "function"
+  },
+  // Events
+  {
+    anonymous: false,
+    inputs: [
+      { indexed: true, name: "sender", type: "address" },
+      { indexed: true, name: "owner", type: "address" },
+      { indexed: false, name: "assets", type: "uint256" },
+      { indexed: false, name: "shares", type: "uint256" }
+    ],
+    name: "Deposit",
+    type: "event"
+  },
+  {
+    anonymous: false,
+    inputs: [
+      { indexed: true, name: "sender", type: "address" },
+      { indexed: true, name: "receiver", type: "address" },
+      { indexed: true, name: "owner", type: "address" },
+      { indexed: false, name: "assets", type: "uint256" },
+      { indexed: false, name: "shares", type: "uint256" }
+    ],
+    name: "Withdraw",
+    type: "event"
+  }
+] as const;
+
+/**
+ * EIP-2612 Permit ABI - For gasless approvals
+ */
+export const permitAbi = [
+  {
+    inputs: [
+      { name: "owner", type: "address" },
+      { name: "spender", type: "address" },
+      { name: "value", type: "uint256" },
+      { name: "deadline", type: "uint256" },
+      { name: "v", type: "uint8" },
+      { name: "r", type: "bytes32" },
+      { name: "s", type: "bytes32" }
+    ],
+    name: "permit",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function"
+  },
+  {
+    inputs: [{ name: "owner", type: "address" }],
+    name: "nonces",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "view",
+    type: "function"
+  }
+] as const;
+
+/**
+ * GeneralAdapter ABI - For multicall operations
+ */
+export const generalAdapterAbi = [
+  {
+    inputs: [
+      { name: "token", type: "address" },
+      { name: "spender", type: "address" },
+      { name: "value", type: "uint256" }
+    ],
+    name: "forceApprove",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function"
+  },
+  {
+    inputs: [
+      { name: "market", type: "address" },
+      { name: "assets", type: "uint256" },
+      { name: "minShares", type: "uint256" },
+      { name: "onBehalf", type: "address" }
+    ],
+    name: "morphoSupply",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "nonpayable",
+    type: "function"
+  }
+] as const;
