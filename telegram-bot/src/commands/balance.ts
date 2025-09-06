@@ -61,10 +61,19 @@ export const balanceHandler: CommandHandler = {
 
         // Get DeFi positions
         const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import("../lib/token-wallet");
-        const [aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
+        const { getMorphoBalance } = await import("../services/morpho-defi");
+        const { getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
+        
+        // Get Smart Wallet address for protocols that use Smart Wallet
+        const smartWallet = await getCoinbaseSmartWallet(userId);
+        const smartWalletAddress = smartWallet?.smartAccount.address;
+        
+        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance] = await Promise.all([
           getAaveBalance(wallet.address as Address),
           getFluidBalance(wallet.address as Address),
-          getCompoundBalance(wallet.address as Address)
+          getCompoundBalance(wallet.address as Address),
+          // Check Morpho balance on Smart Wallet address since deposits are made there
+          smartWalletAddress ? getMorphoBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
         ]);
 
         // Build smart balance message showing only positive balances
@@ -110,6 +119,13 @@ export const balanceHandler: CommandHandler = {
         if (compoundNum > 0.01) {
           defiPositions += `🏦 **Compound V3**: $${compoundNum.toFixed(2)} USDC\n`;
           totalDefiValue += compoundNum;
+          hasAnyBalance = true;
+        }
+
+        const morphoNum = parseFloat(morphoBalance.assetsFormatted);
+        if (morphoNum > 0.01) {
+          defiPositions += `🔬 **Morpho PYTH/USDC**: $${morphoNum.toFixed(2)} USDC\n`;
+          totalDefiValue += morphoNum;
           hasAnyBalance = true;
         }
 

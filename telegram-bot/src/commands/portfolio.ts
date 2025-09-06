@@ -47,20 +47,23 @@ const portfolioHandler: CommandHandler = {
       await new Promise(resolve => setTimeout(resolve, 1000));
       
       // Fetch real on-chain balances
-      const [aaveBalance, fluidBalance, compoundBalance, usdcBalance] = await Promise.all([
+      const { getMorphoBalance } = await import("../services/morpho-defi");
+      const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, usdcBalance] = await Promise.all([
         getAaveBalance(walletAddress),
         getFluidBalance(walletAddress),
         getCompoundBalance(walletAddress),
+        getMorphoBalance(walletAddress),
         getTokenBalance(BASE_TOKENS.USDC, walletAddress)
       ]);
 
       const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
       const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
       const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
+      const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
       const usdcBalanceNum = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
 
       // If no DeFi deposits, show empty portfolio
-      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0) {
+      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0) {
         const keyboard = new InlineKeyboard()
           .text("🦑 Start Earning", "zap_funds")
           .text("📥 Deposit", "deposit")
@@ -113,7 +116,7 @@ const portfolioHandler: CommandHandler = {
       } catch (error) {
         console.warn("Failed to fetch real-time APY, using fallback rates:", error);
       }
-      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum;
+      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum;
       
       let message = `📊 **Your DeFi Portfolio**\n\n`;
       
@@ -123,6 +126,15 @@ const portfolioHandler: CommandHandler = {
       message += `🏦 **Total Deposited**: $${totalValue.toFixed(2)}\n\n`;
 
       // Active positions (sorted by APY - highest first)
+      if (morphoBalanceNum > 0) {
+        message += `**🔬 Morpho PYTH/USDC Position**\n\n`;
+        message += `🟢 **Morpho PYTH/USDC**\n`;
+        message += `• **Current Deposit**: $${morphoBalanceNum.toFixed(2)}\n`;
+        message += `• **Current APY**: ${morphoApy}%\n`;
+        message += `• **Protocol**: Morpho on Base\n`;
+        message += `• **Status**: ✅ Active & Earning\n\n`;
+      }
+      
       if (compoundBalanceNum > 0) {
         message += `**🏦 Compound V3 Position**\n\n`;
         message += `🟢 **Compound USDC**\n`;
@@ -203,17 +215,20 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
         console.log(`📍 Using Smart Wallet address for portfolio callback: ${walletAddress}`);
       }
     }
-    const [aaveBalance, fluidBalance, compoundBalance] = await Promise.all([
+    const { getMorphoBalance } = await import("../services/morpho-defi");
+    const [aaveBalance, fluidBalance, compoundBalance, morphoBalance] = await Promise.all([
       getAaveBalance(walletAddress),
       getFluidBalance(walletAddress),
-      getCompoundBalance(walletAddress)
+      getCompoundBalance(walletAddress),
+      getMorphoBalance(walletAddress)
     ]);
     
     const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
     const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
     const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
+    const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
     
-    if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0) {
+    if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0) {
       await ctx.answerCallbackQuery("No active positions found");
       return;
     }
@@ -246,6 +261,18 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     let message = `📈 **Portfolio Details**\n\n`;
     
     // Show positions in order of APY (highest first)
+    if (morphoBalanceNum > 0) {
+      message += `**🔬 Morpho PYTH/USDC Position Details**\n\n`;
+      message += `🟢 **USDC Lending Position**\n`;
+      message += `• **Current Deposit**: $${morphoBalanceNum.toFixed(2)}\n`;
+      message += `• **Token**: Morpho PYTH/USDC Vault Shares\n`;
+      message += `• **Protocol**: Morpho Blue via MetaMorpho\n`;
+      message += `• **Chain**: Base Network\n`;
+      message += `• **Current APY**: ${morphoApy}%\n`;
+      message += `• **Status**: ✅ Active & Auto-Compounding\n`;
+      message += `• **Risk Level**: 🟡 Medium (5/10) - Higher yield strategy\n\n`;
+    }
+    
     if (compoundBalanceNum > 0) {
       message += `**🏦 Compound V3 Position Details**\n\n`;
       message += `🟢 **USDC Lending Position**\n`;
