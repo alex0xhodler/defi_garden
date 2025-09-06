@@ -11,9 +11,10 @@ import { erc20Abi } from "../utils/abis";
 
 // Handler for balance command
 export const balanceHandler: CommandHandler = {
-  command: "balance",
+  command: "balance", 
   description: "Show current ETH + filtered ERC-20 balances",
   handler: async (ctx: BotContext) => {
+    console.log("🔍 Balance command executed - DEBUG VERSION LOADED");
     try {
       const userId = ctx.session.userId;
 
@@ -72,7 +73,10 @@ export const balanceHandler: CommandHandler = {
           getAaveBalance(wallet.address as Address),
           getFluidBalance(wallet.address as Address),
           getCompoundBalance(wallet.address as Address),
-          getMorphoBalance(wallet.address as Address)
+          getMorphoBalance(wallet.address as Address).catch(error => {
+            console.error(`❌ Balance command - Morpho balance fetch failed for ${wallet.address}:`, error);
+            return { assetsFormatted: '0.00' };
+          })
         ]);
 
         // Build smart balance message showing only positive balances
@@ -122,6 +126,7 @@ export const balanceHandler: CommandHandler = {
         }
 
         const morphoNum = parseFloat(morphoBalance.assetsFormatted);
+        console.log(`🔍 Balance command - Morpho balance: ${morphoBalance.assetsFormatted} → ${morphoNum}`);
         if (morphoNum > 0.01) {
           defiPositions += `🔬 **Morpho PYTH/USDC**: $${morphoNum.toFixed(2)} USDC\n`;
           totalDefiValue += morphoNum;

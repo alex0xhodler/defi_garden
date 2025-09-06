@@ -96,6 +96,12 @@ bot.command("cancel", async (ctx) => {
   }
 });
 
+// Add test command to verify bot is receiving commands
+bot.command("test", async (ctx) => {
+  console.log("🧪 TEST COMMAND EXECUTED - Bot is receiving commands!");
+  await ctx.reply("🧪 Test successful! Bot is working.");
+});
+
 // Smart Recovery Handler Functions
 async function handleRetryPendingTransaction(ctx: BotContext) {
   try {

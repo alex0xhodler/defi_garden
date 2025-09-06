@@ -12,8 +12,9 @@ import { BASE_TOKENS } from "../utils/constants";
 
 const portfolioHandler: CommandHandler = {
   command: "portfolio",
-  description: "View DeFi positions and yields",
+  description: "View DeFi positions and yields", 
   handler: async (ctx: BotContext) => {
+    console.log("🔍 Portfolio command executed - DEBUG VERSION LOADED");
     try {
       const userId = ctx.session.userId;
 
@@ -52,7 +53,10 @@ const portfolioHandler: CommandHandler = {
         getAaveBalance(walletAddress),
         getFluidBalance(walletAddress),
         getCompoundBalance(walletAddress),
-        getMorphoBalance(wallet.address as Address), // Use regular wallet address like start-help.ts
+        getMorphoBalance(wallet.address as Address).catch(error => {
+          console.error(`❌ Portfolio command - Morpho balance fetch failed for ${wallet.address}:`, error);
+          return { assetsFormatted: '0.00' };
+        }), // Use regular wallet address like start-help.ts
         getTokenBalance(BASE_TOKENS.USDC, walletAddress)
       ]);
 
@@ -61,6 +65,8 @@ const portfolioHandler: CommandHandler = {
       const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
       const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
       const usdcBalanceNum = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
+      
+      console.log(`🔍 Portfolio command - Morpho balance: ${morphoBalance.assetsFormatted} → ${morphoBalanceNum}`);
 
       // If no DeFi deposits, show empty portfolio
       if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0) {
