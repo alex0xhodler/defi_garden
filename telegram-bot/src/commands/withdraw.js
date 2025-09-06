@@ -64,6 +64,7 @@ const withdrawHandler = {
                 .text("🌊 Exit from Fluid", "withdraw_fluid_menu").row()
                 .text("🏛️ Exit from Aave", "withdraw_aave_menu").row()
                 .text("🏦 Exit from Compound", "withdraw_compound_menu").row()
+                .text("🔬 Exit from Morpho", "withdraw_morpho_menu").row()
                 .text("❌ Cancel", "cancel_operation");
             await ctx.reply(`🚪 **Exit DeFi Pools**\n\n` +
                 `Choose which protocol to exit from:\n\n` +
@@ -76,6 +77,9 @@ const withdrawHandler = {
                 `**🏦 Compound V3**\n` +
                 `• USDC lending with COMP rewards\n` +
                 `• Full or partial withdrawal options\n\n` +
+                `**🔬 Morpho PYTH/USDC**\n` +
+                `• Premium yield protocol (10% APY)\n` +
+                `• Gasless withdrawals via Smart Wallet\n\n` +
                 `**Note:** Small gas fee (~$0.002) required for each exit`, {
                 parse_mode: "Markdown",
                 reply_markup: keyboard,
@@ -110,7 +114,8 @@ const handleWithdrawCallbacks = async (ctx) => {
             const protocolInfo = {
                 'fluid': { name: 'Fluid Finance', emoji: '🌊' },
                 'aave': { name: 'Aave V3', emoji: '🏛️' },
-                'compound': { name: 'Compound V3', emoji: '🏦' }
+                'compound': { name: 'Compound V3', emoji: '🏦' },
+                'morpho': { name: 'Morpho PYTH/USDC', emoji: '🔬' }
             };
             const info = protocolInfo[protocol] || { name: 'Protocol', emoji: '💰' };
             const continueKeyboard = new grammy_1.InlineKeyboard()
@@ -184,6 +189,26 @@ const handleWithdrawCallbacks = async (ctx) => {
                 `• **Exit All** - Withdraw complete Compound position to wallet\n` +
                 `• **Custom Amount** - Specify exact USDC amount to exit\n\n` +
                 `**Note:** COMP rewards are claimed automatically on withdrawal`, {
+                parse_mode: "Markdown",
+                reply_markup: keyboard
+            });
+            return;
+        }
+        if (callbackData === "withdraw_morpho_menu") {
+            await ctx.answerCallbackQuery();
+            const keyboard = new grammy_1.InlineKeyboard()
+                .text("💸 Exit All Morpho", "withdraw_morpho_max").row()
+                .text("⚖️ Exit Custom Amount", "withdraw_morpho_custom").row()
+                .text("🔙 Back", "withdraw");
+            await ctx.reply(`🔬 **Exit from Morpho PYTH/USDC**\n\n` +
+                `**Your Morpho Position:**\n` +
+                `• Current APY: 10.0%\n` +
+                `• Token: MetaMorpho shares (vault shares)\n` +
+                `• Rewards: Auto-compounding yield\n\n` +
+                `**Exit Options:**\n` +
+                `• **Exit All** - Withdraw complete Morpho position to Smart Wallet\n` +
+                `• **Custom Amount** - Specify exact share amount to redeem\n\n` +
+                `**Note:** Gasless transactions via Smart Wallet technology`, {
                 parse_mode: "Markdown",
                 reply_markup: keyboard
             });
@@ -341,6 +366,12 @@ const handleWithdrawCallbacks = async (ctx) => {
             await showWithdrawalConfirmation(ctx, "compound", "max");
             return;
         }
+        if (callbackData === "withdraw_morpho_max") {
+            await ctx.answerCallbackQuery();
+            // Show locked funds confirmation first
+            await showWithdrawalConfirmation(ctx, "morpho", "max");
+            return;
+        }
         if (callbackData === "confirm_withdraw_compound_max") {
             await ctx.answerCallbackQuery();
             const processingMsg = await ctx.reply(`🔄 **Processing Pool Exit...**\n\n` +
@@ -402,6 +433,61 @@ const handleWithdrawCallbacks = async (ctx) => {
                 });
             }
         }
+        if (callbackData === "confirm_withdraw_morpho_max") {
+            await ctx.answerCallbackQuery();
+            const processingMsg = await ctx.reply(`🔄 **Processing Pool Exit...**\n\n` +
+                `**Protocol:** Morpho PYTH/USDC\n` +
+                `**Amount:** All available shares\n` +
+                `**Gas:** Sponsored by inkvest (gasless for you!)\n` +
+                `**Status:** Executing transaction...`, {
+                parse_mode: "Markdown"
+            });
+            try {
+                // Import the withdrawFromMorphoPYTH function
+                const { withdrawFromMorphoPYTH } = await Promise.resolve().then(() => __importStar(require("../services/morpho-defi")));
+                
+                const result = await withdrawFromMorphoPYTH(userId, "max");
+                if (!result.success) {
+                    throw new Error(result.error);
+                }
+                const successKeyboard = new grammy_1.InlineKeyboard()
+                    .text("🦑 Earn More", "zap_funds")
+                    .text("📊 View Portfolio", "view_portfolio")
+                    .row()
+                    .text("💰 Check Balance", "check_balance")
+                    .text("📥 Deposit More", "deposit");
+                await ctx.api.editMessageText(processingMsg.chat.id, processingMsg.message_id, `✅ **Pool Exit Successful!**\n\n` +
+                    `**Protocol:** Morpho PYTH/USDC\n` +
+                    `**Amount:** All available shares redeemed\n` +
+                    `**Assets Received:** ${result.assets} USDC\n` +
+                    `**Gas:** Sponsored by inkvest (gasless!)\n` +
+                    `**Transaction:** \`${result.txHash}\`\n\n` +
+                    `💰 USDC has been moved back to your Smart Wallet!\n` +
+                    `🔍 [View on Basescan](https://basescan.org/tx/${result.txHash})`, {
+                    parse_mode: "Markdown",
+                    reply_markup: successKeyboard
+                });
+            }
+            catch (error) {
+                console.error("Morpho withdrawal failed:", error);
+                const errorKeyboard = new grammy_1.InlineKeyboard()
+                    .text("🔄 Try Again", "withdraw_morpho_max")
+                    .text("💸 Custom Amount", "withdraw_morpho_custom")
+                    .row()
+                    .text("📊 View Portfolio", "view_portfolio")
+                    .text("💰 Check Balance", "check_balance");
+                await ctx.api.editMessageText(processingMsg.chat.id, processingMsg.message_id, `❌ **Pool Exit Failed**\n\n` +
+                    `**Error:** ${error.message}\n\n` +
+                    `This might be due to:\n` +
+                    `• No USDC deposited in Morpho\n` +
+                    `• Network issues\n` +
+                    `• Smart Wallet not set up\n\n` +
+                    `Try checking your balance with /portfolio`, {
+                    parse_mode: "Markdown",
+                    reply_markup: errorKeyboard
+                });
+            }
+        }
         if (callbackData === "withdraw_compound_custom") {
             await ctx.answerCallbackQuery();
             // Store protocol preference and set state for amount input
@@ -415,6 +501,24 @@ const handleWithdrawCallbacks = async (ctx) => {
                 `• \`50.5\` - Withdraw 50.5 USDC\n` +
                 `• \`max\` - Withdraw all available\n\n` +
                 `**Note:** COMP rewards are automatically claimed\n\n` +
+                `**Cancel:** Send /cancel`, {
+                parse_mode: "Markdown"
+            });
+            return;
+        }
+        if (callbackData === "withdraw_morpho_custom") {
+            await ctx.answerCallbackQuery();
+            // Store protocol preference and set state for amount input
+            ctx.session.tempData = ctx.session.tempData || {};
+            ctx.session.tempData.protocol = "morpho";
+            ctx.session.awaitingWithdrawAmount = true;
+            await ctx.reply(`💸 **Custom Morpho Withdrawal**\n\n` +
+                `Please enter the amount of shares you want to redeem:\n\n` +
+                `**Examples:**\n` +
+                `• \`1\` - Redeem 1 share\n` +
+                `• \`50.5\` - Redeem 50.5 shares\n` +
+                `• \`max\` - Redeem all available\n\n` +
+                `**Note:** Gasless via Smart Wallet technology\n\n` +
                 `**Cancel:** Send /cancel`, {
                 parse_mode: "Markdown"
             });
@@ -521,8 +625,8 @@ const handleWithdrawAmountInput = async (ctx, amount) => {
         }
         // Determine which protocol to withdraw from
         const protocol = ctx.session.tempData?.protocol || "aave"; // Default to Aave for legacy support
-        const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : "Aave V3";
-        const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : "🏛️";
+        const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : "Aave V3";
+        const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : "🏛️";
         const processingMsg = await ctx.reply(`🔄 **Processing Withdrawal...**\n\n` +
             `**Protocol:** ${protocolEmoji} ${protocolName}\n` +
             `**Amount:** ${amount === "max" ? "All available" : amount} USDC\n` +
@@ -560,6 +664,20 @@ const handleWithdrawAmountInput = async (ctx, amount) => {
                     throw new Error(result.error);
                 }
                 // Simulate receipt format for consistency with other protocols
+                receipt = {
+                    transactionHash: result.txHash,
+                    blockNumber: "N/A (CDP UserOp)",
+                    gasUsed: "Sponsored by inkvest"
+                };
+            }
+            else if (protocol === "morpho") {
+                // Use Morpho gasless withdrawal
+                console.log(`🔬 Using gasless Morpho withdrawal for Smart Wallet user`);
+                const { withdrawFromMorphoPYTH } = await Promise.resolve().then(() => __importStar(require("../services/morpho-defi")));
+                const result = await withdrawFromMorphoPYTH(userId, amount);
+                if (!result.success) {
+                    throw new Error(result.error);
+                }
                 receipt = {
                     transactionHash: result.txHash,
                     blockNumber: "N/A (CDP UserOp)",
@@ -608,12 +726,12 @@ const handleWithdrawAmountInput = async (ctx, amount) => {
             // Build success message based on protocol
             let successMessage = `✅ **Withdrawal Successful!**\n\n` +
                 `**Protocol:** ${protocolEmoji} ${protocolName}\n` +
-                `**Amount:** ${isMaxWithdrawal ? "All available" : amount} USDC\n`;
-            if (protocol === "compound") {
+                `**Amount:** ${isMaxWithdrawal ? "All available" : amount} ${protocol === "morpho" ? "shares" : "USDC"}\n`;
+            if (protocol === "compound" || protocol === "morpho") {
                 // CDP gasless withdrawal message
                 successMessage += `**Gas:** Sponsored by inkvest (gasless!)\n` +
                     `**Transaction:** \`${receipt.transactionHash}\`\n\n` +
-                    `💰 USDC has been withdrawn to your Smart Wallet!\n`;
+                    `💰 ${protocol === "morpho" ? "USDC has been withdrawn" : "USDC has been withdrawn"} to your Smart Wallet!\n`;
             }
             else {
                 // Regular withdrawal message
@@ -634,9 +752,9 @@ const handleWithdrawAmountInput = async (ctx, amount) => {
         }
         catch (error) {
             console.error("Withdrawal failed:", error);
-            const retryCustomAction = protocol === "fluid" ? "withdraw_fluid_custom" : protocol === "compound" ? "withdraw_compound_custom" : "withdraw_aave_custom";
-            const withdrawAllAction = protocol === "fluid" ? "withdraw_fluid_max" : protocol === "compound" ? "withdraw_compound_max" : "withdraw_aave_max";
-            const protocolDisplayName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound" : "Aave";
+            const retryCustomAction = protocol === "fluid" ? "withdraw_fluid_custom" : protocol === "compound" ? "withdraw_compound_custom" : protocol === "morpho" ? "withdraw_morpho_custom" : "withdraw_aave_custom";
+            const withdrawAllAction = protocol === "fluid" ? "withdraw_fluid_max" : protocol === "compound" ? "withdraw_compound_max" : protocol === "morpho" ? "withdraw_morpho_max" : "withdraw_aave_max";
+            const protocolDisplayName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound" : protocol === "morpho" ? "Morpho" : "Aave";
             const errorKeyboard = new grammy_1.InlineKeyboard()
                 .text("🔄 Try Again", retryCustomAction)
                 .text(`💸 Exit All ${protocolDisplayName}`, withdrawAllAction)
@@ -648,7 +766,7 @@ const handleWithdrawAmountInput = async (ctx, amount) => {
                 `**Error:** ${error.message}\n\n` +
                 `This might be due to:\n` +
                 `• Insufficient ETH for gas fees\n` +
-                `• No USDC deposited in ${protocolDisplayName}\n` +
+                `• No ${protocol === "morpho" ? "shares" : "USDC"} deposited in ${protocolDisplayName}\n` +
                 `• Withdrawal amount exceeds deposited balance\n` +
                 `• Network issues\n\n` +
                 `Try checking your balance with /portfolio`, {
@@ -677,7 +795,8 @@ async function showWithdrawalConfirmation(ctx, protocol, amount) {
         const protocolInfo = {
             'fluid': { name: 'Fluid Finance', emoji: '🌊', apy: 7.8 },
             'aave': { name: 'Aave V3', emoji: '🏛️', apy: 5.2 },
-            'compound': { name: 'Compound V3', emoji: '🏦', apy: 6.2 }
+            'compound': { name: 'Compound V3', emoji: '🏦', apy: 6.2 },
+            'morpho': { name: 'Morpho PYTH/USDC', emoji: '🔬', apy: 10.0 }
         };
         const info = protocolInfo[protocol] || { name: 'Protocol', emoji: '💰', apy: 5.0 };
         // Get user's actual balance from their DeFi positions
@@ -700,6 +819,11 @@ async function showWithdrawalConfirmation(ctx, protocol, amount) {
                     else if (protocol === 'fluid') {
                         const balanceResult = await (0, token_wallet_1.getFluidBalance)(wallet.address);
                         estimatedBalance = parseFloat(balanceResult.fUsdcBalanceFormatted);
+                    }
+                    else if (protocol === 'morpho') {
+                        const { getMorphoBalance } = await Promise.resolve().then(() => __importStar(require("../services/morpho-defi")));
+                        const balanceResult = await getMorphoBalance(wallet.address);
+                        estimatedBalance = parseFloat(balanceResult.assetsFormatted);
                     }
                 }
             }

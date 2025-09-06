@@ -45,6 +45,22 @@ export async function getYieldOpportunities(
     // Fallback to static data if API fails
     return [
       {
+        poolId: "morpho-pyth-usdc",
+        project: "Morpho",
+        chain: "Base", 
+        symbol: "USDC",
+        tvlUsd: 50_000_000,
+        apy: 10.0,
+        apyBase: 10.0,
+        apyReward: 0.0,
+        ilRisk: "no",
+        exposure: "single",
+        underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+        rewardTokens: [],
+        riskScore: 2,
+        protocol: "morpho"
+      },
+      {
         poolId: "fluid-usdc-base",
         project: "Fluid",
         chain: "Base",
