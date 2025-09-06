@@ -3,7 +3,7 @@ const { createPublicClient, http } = require('viem');
 const { base } = require('viem/chains');
 
 const DB_PATH = process.env.DB_PATH || "./defi-garden.sqlite";
-const PUBLIC_RPC_URL = "https://lb.drpc.org/base/AvgxwlBbqkwviRzVD3VcB1HBZLeBg98R8IWRqhnKxixj";
+const PUBLIC_RPC_URL = "https://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz";
 
 // Create public client for checking deployment
 const publicClient = createPublicClient({
