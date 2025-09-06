@@ -52,7 +52,7 @@ const portfolioHandler: CommandHandler = {
         getAaveBalance(walletAddress),
         getFluidBalance(walletAddress),
         getCompoundBalance(walletAddress),
-        getMorphoBalance(walletAddress),
+        getMorphoBalance(wallet.address as Address), // Use regular wallet address like start-help.ts
         getTokenBalance(BASE_TOKENS.USDC, walletAddress)
       ]);
 
@@ -220,7 +220,7 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
       getAaveBalance(walletAddress),
       getFluidBalance(walletAddress),
       getCompoundBalance(walletAddress),
-      getMorphoBalance(walletAddress)
+      getMorphoBalance(wallet.address as Address) // Use regular wallet address like start-help.ts
     ]);
     
     const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);

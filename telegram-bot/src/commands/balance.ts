@@ -72,8 +72,7 @@ export const balanceHandler: CommandHandler = {
           getAaveBalance(wallet.address as Address),
           getFluidBalance(wallet.address as Address),
           getCompoundBalance(wallet.address as Address),
-          // Check Morpho balance on Smart Wallet address since deposits are made there
-          smartWalletAddress ? getMorphoBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
+          getMorphoBalance(wallet.address as Address)
         ]);
 
         // Build smart balance message showing only positive balances
