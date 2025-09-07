@@ -8,6 +8,7 @@ import {
   saveUserSettings,
   updateUserBalanceCheckTime,
   startDepositMonitoringWithContext,
+  startDepositMonitoring,
 } from "../lib/database";
 import { generateCoinbaseSmartWallet, getCoinbaseSmartWallet, hasCoinbaseSmartWallet } from "../lib/coinbase-wallet";
 import { CommandHandler } from "../types/commands";
@@ -205,7 +206,6 @@ export const startHandler: CommandHandler = {
               );
             } else {
               // User has no funds - show deposit screen and START MONITORING
-              const { startDepositMonitoringWithContext } = await import("../lib/database");
               startDepositMonitoringWithContext(userId, 'onboarding', 5, {
                 userType: 'existing_low_balance',
                 totalFunds: totalFunds
@@ -240,7 +240,6 @@ export const startHandler: CommandHandler = {
             console.error("Error checking user funds for", firstName, ":", error);
             
             // Fallback to basic deposit screen - ALSO START MONITORING
-            const { startDepositMonitoringWithContext } = await import("../lib/database");
             startDepositMonitoringWithContext(userId, 'onboarding', 5, {
               userType: 'existing_fallback',
               error: 'balance_check_failed'
