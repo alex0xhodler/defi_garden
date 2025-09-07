@@ -106,7 +106,7 @@ export function calculateRiskScore(pool: YieldOpportunity): number {
   
   // Protocol reputation risk
   const protocolRisk: Record<string, number> = {
-    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Spark': 1, 'Seamless': 2, 'Moonwell USDC': 5, 'Yearn': 2, 
+    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Spark': 1, 'Seamless': 2, 'Moonwell USDC': 2, 'Yearn': 2, 
     'Morpho': 2, 'Pendle': 3, 'Convex': 2, 'Unknown': 5
   };
   
