@@ -27,67 +27,165 @@ let pollInterval = null;
 let connectionCheckInterval = null;
 
 /**
- * Determine the highest APY protocol and its deployment function
+ * Calculate risk score for a protocol (reused from earn.ts)
  */
-async function getHighestAPYProtocol() {
+function calculateRiskScore(pool) {
+  let risk = 0;
+  
+  // TVL risk (higher TVL = lower risk)
+  if (pool.tvlUsd < 10_000_000) risk += 5;
+  else if (pool.tvlUsd < 50_000_000) risk += 3;
+  else if (pool.tvlUsd < 100_000_000) risk += 2;
+  else risk += 1;
+  
+  // Protocol reputation risk
+  const protocolRisk = {
+    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Morpho': 2, 'Spark': 1, 'Seamless': 2, 'Moonwell': 2, 'Moonwell USDC': 2, 'Yearn': 2, 
+    'Pendle': 3, 'Convex': 2, 'Unknown': 5
+  };
+  
+  // Special case: MorphoPYTH has very high risk due to low liquidity
+  if (pool.project === 'Morpho' && pool.poolId === '301667a4-dc42-492d-a978-ea4f69811a72') {
+    risk += 8; // Very high risk for MorphoPYTH
+  } else {
+    risk += protocolRisk[pool.project] || 4;
+  }
+  
+  // APY risk (unusually high APY = higher risk)
+  if (pool.apy > 15) risk += 3;
+  else if (pool.apy > 10) risk += 2;
+  else if (pool.apy > 8) risk += 1;
+  
+  return Math.min(risk, 10); // Cap at 10
+}
+
+/**
+ * Get best protocol using risk-aware selection (reuses logic from earn.ts)
+ */
+async function getBestProtocolForUser(userId) {
   try {
+    // Import required functions
     const { fetchRealTimeYields } = require("../lib/defillama-api");
+    const { getUserSettings } = require("../lib/database");
+    
+    // Get user settings or use conservative defaults for new users
+    const userSettings = getUserSettings(userId);
+    const userRiskLevel = userSettings?.riskLevel || 2; // Conservative default (1-5 scale)
+    const userMinApy = userSettings?.minApy || 5; // 5% minimum default
+    
+    console.log(`🎯 Risk-aware selection for user ${userId}: Risk Level ${userRiskLevel}/5, Min APY ${userMinApy}%`);
     
     // Fetch current APYs from DeFiLlama
     const yields = await fetchRealTimeYields();
     
-    // Sort by APY descending to get the highest
-    const sortedYields = yields.sort((a, b) => b.apy - a.apy);
-    const highestYieldProtocol = sortedYields[0];
+    // Apply risk scores to the real-time data
+    const opportunitiesWithRisk = yields.map(pool => ({
+      ...pool,
+      riskScore: calculateRiskScore(pool)
+    }));
     
-    console.log(`🎯 Highest APY Protocol: ${highestYieldProtocol.project} with ${highestYieldProtocol.apy}% APY`);
+    // Filter by risk and APY, then get highest APY
+    const suitablePools = opportunitiesWithRisk
+      .filter(pool => {
+        const riskScore = calculateRiskScore(pool);
+        const passesRisk = riskScore <= userRiskLevel * 2;
+        const passesApy = pool.apy >= userMinApy;
+        console.log(`🔍 ${pool.project}: Risk ${riskScore}/10, APY ${pool.apy}% - ${passesRisk && passesApy ? 'QUALIFIED' : 'FILTERED OUT'}`);
+        return passesRisk && passesApy;
+      })
+      .sort((a, b) => b.apy - a.apy);
     
-    // Map protocol names to deployment functions
+    if (suitablePools.length === 0) {
+      console.warn(`⚠️ No pools match user criteria, using safe fallback (Compound V3)`);
+      return {
+        protocol: 'Compound V3',
+        deployFn: 'autoDeployToCompoundV3',
+        service: '../services/coinbase-defi',
+        apy: 7.65,
+        project: 'Compound',
+        riskScore: 3
+      };
+    }
+    
+    const bestPool = suitablePools[0];
+    console.log(`🎯 Selected Protocol: ${bestPool.project} with ${bestPool.apy}% APY (Risk: ${bestPool.riskScore}/10)`);
+    
+    // Enhanced protocol mapping with service paths
     const protocolMap = {
       'Aave': {
         deployFn: 'gaslessDeployToAave',
+        service: '../services/coinbase-defi',
         displayName: 'Aave V3'
       },
       'Fluid': {
-        deployFn: 'gaslessDeployToFluid', 
+        deployFn: 'gaslessDeployToFluid',
+        service: '../services/coinbase-defi', 
         displayName: 'Fluid'
       },
       'Compound': {
         deployFn: 'autoDeployToCompoundV3',
+        service: '../services/coinbase-defi',
         displayName: 'Compound V3'
       },
       'Morpho': {
         deployFn: 'deployToMorphoPYTH',
+        service: '../services/morpho-defi',
         displayName: 'Morpho PYTH/USDC'
+      },
+      'Spark': {
+        deployFn: 'deployToSpark',
+        service: '../services/spark-defi',
+        displayName: 'Spark Protocol'
+      },
+      'Seamless': {
+        deployFn: 'deployToSeamless',
+        service: '../services/seamless-defi',
+        displayName: 'Seamless Protocol'
+      },
+      'Moonwell': {
+        deployFn: 'deployToMoonwell',
+        service: '../services/moonwell-defi',
+        displayName: 'Moonwell USDC'
+      },
+      'Moonwell USDC': {
+        deployFn: 'deployToMoonwell',
+        service: '../services/moonwell-defi',
+        displayName: 'Moonwell USDC'
       }
     };
     
-    const protocolConfig = protocolMap[highestYieldProtocol.project];
+    const protocolConfig = protocolMap[bestPool.project];
     if (!protocolConfig) {
-      console.warn(`⚠️ Unknown protocol ${highestYieldProtocol.project}, defaulting to Compound V3`);
+      console.warn(`⚠️ Unknown protocol ${bestPool.project}, defaulting to Compound V3`);
       return {
         protocol: 'Compound V3',
         deployFn: 'autoDeployToCompoundV3',
-        apy: highestYieldProtocol.apy,
-        project: 'Compound'
+        service: '../services/coinbase-defi',
+        apy: 7.65,
+        project: 'Compound',
+        riskScore: 3
       };
     }
     
     return {
       protocol: protocolConfig.displayName,
       deployFn: protocolConfig.deployFn,
-      apy: highestYieldProtocol.apy,
-      project: highestYieldProtocol.project
+      service: protocolConfig.service,
+      apy: bestPool.apy,
+      project: bestPool.project,
+      riskScore: bestPool.riskScore
     };
     
   } catch (error) {
-    console.error("Error determining highest APY protocol:", error);
-    // Fallback to Compound V3 if API fails
+    console.error("Error determining best protocol for user:", error);
+    // Fallback to safe option if anything fails
     return {
       protocol: 'Compound V3',
-      deployFn: 'autoDeployToCompoundV3', 
+      deployFn: 'autoDeployToCompoundV3',
+      service: '../services/coinbase-defi',
       apy: 7.65,
-      project: 'Compound'
+      project: 'Compound',
+      riskScore: 3
     };
   }
 }
@@ -170,27 +268,28 @@ async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) 
  */
 async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
-    // Step 1: Determine the highest APY protocol
-    const bestProtocol = await getHighestAPYProtocol();
+    // Step 1: Determine the best protocol using risk-aware selection
+    const bestProtocol = await getBestProtocolForUser(userId);
     
-    // Step 2: Send initial notification
+    // Step 2: Send initial notification with risk context
+    const riskText = bestProtocol.riskScore <= 3 ? "🛡️ Safe" : bestProtocol.riskScore <= 6 ? "⚠️ Moderate" : "🚨 Higher Risk";
     await monitorBot.api.sendMessage(
       userId,
       `🎉 *Deposit confirmed ${firstName}!*\n\n` +
       `${amount} ${tokenSymbol} received!\n\n` +
-      `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas... 🦑`,
+      `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) ${riskText} with sponsored gas... 🦑`,
       { parse_mode: "Markdown" }
     );
 
-    // Step 3: Auto-deploy using Coinbase CDP sponsored transactions
-    console.log(`🦑 Auto-deploying ${amount} ${tokenSymbol} for user ${userId} to ${bestProtocol.protocol}...`);
+    // Step 3: Auto-deploy using appropriate service
+    console.log(`🦑 Auto-deploying ${amount} ${tokenSymbol} for user ${userId} to ${bestProtocol.protocol} (Risk: ${bestProtocol.riskScore}/10)...`);
     
-    // Import Coinbase DeFi service and get the appropriate deployment function
-    const coinbaseDefi = require("../services/coinbase-defi.ts");
-    const deploymentFunction = coinbaseDefi[bestProtocol.deployFn];
+    // Import the appropriate service and get the deployment function
+    const defiService = require(bestProtocol.service);
+    const deploymentFunction = defiService[bestProtocol.deployFn];
     
     if (!deploymentFunction) {
-      throw new Error(`Deployment function ${bestProtocol.deployFn} not found`);
+      throw new Error(`Deployment function ${bestProtocol.deployFn} not found in ${bestProtocol.service}`);
     }
     
     // Execute sponsored deployment
