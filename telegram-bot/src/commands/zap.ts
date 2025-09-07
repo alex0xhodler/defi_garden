@@ -106,10 +106,16 @@ export function calculateRiskScore(pool: YieldOpportunity): number {
   
   // Protocol reputation risk
   const protocolRisk: Record<string, number> = {
-    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Spark': 1, 'Seamless': 5, 'Moonwell USDC': 5, 'Yearn': 2, 
+    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Spark': 1, 'Seamless': 2, 'Moonwell USDC': 2, 'Yearn': 2, 
     'Morpho': 2, 'Pendle': 3, 'Convex': 2, 'Unknown': 5
   };
-  risk += protocolRisk[pool.project] || 4;
+  
+  // Special case: MorphoPYTH has very high risk due to low liquidity
+  if (pool.project === 'Morpho' && pool.poolId === '301667a4-dc42-492d-a978-ea4f69811a72') {
+    risk += 8; // Very high risk for MorphoPYTH
+  } else {
+    risk += protocolRisk[pool.project] || 4;
+  }
   
   // Impermanent loss risk
   if (pool.ilRisk === 'yes') risk += 2;
@@ -228,7 +234,7 @@ export async function handlePoolSelection(ctx: BotContext): Promise<void> {
     const keyboard = new InlineKeyboard();
     let message = `🎯 *Choose Your Protocol*\n\n`;
     
-    for (const pool of suitablePools.slice(0, 5)) { // Show top 5
+    for (const pool of suitablePools) { // Show all qualifying protocols
       const riskScore = calculateRiskScore(pool);
       const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
       
