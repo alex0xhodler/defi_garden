@@ -14,6 +14,8 @@
     "test:spark-cycle": "ts-node src/scripts/test-spark-full-cycle.ts",
     "test:seamless": "ts-node src/scripts/test-seamless-deposit.ts",
     "test:seamless-withdraw": "ts-node src/scripts/test-seamless-withdrawal.ts",
+    "test:moonwell": "ts-node src/scripts/test-moonwell-deposit.ts",
+    "test:moonwell-withdraw": "ts-node src/scripts/test-moonwell-withdrawal.ts",
     "test:bot-integration": "ts-node src/scripts/test-bot-integration.ts",
     "test:telegram-bot": "ts-node src/scripts/test-telegram-bot-integration.ts",
     "template:list": "ls -la src/templates/defi-pool-template/",
