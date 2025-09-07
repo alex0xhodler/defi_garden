@@ -220,9 +220,80 @@ export function setExpectingDepositUntil(userId: string, untilTimestamp: number 
   stmt.run(untilTimestamp, userId);
 }
 
+// Monitoring context types
+export type MonitoringContextType = 'onboarding' | 'manual_selection' | 'generic_deposit' | 'balance_check';
+
+export interface MonitoringContext {
+  type: MonitoringContextType;
+  timestamp: number;
+  metadata?: any;
+}
+
 export function startDepositMonitoring(userId: string, durationMinutes: number = 5): void {
   const untilTimestamp = Date.now() + (durationMinutes * 60 * 1000);
   setExpectingDepositUntil(userId, untilTimestamp);
+}
+
+// Enhanced version with context tracking
+export function startDepositMonitoringWithContext(
+  userId: string, 
+  contextType: MonitoringContextType,
+  durationMinutes: number = 5,
+  metadata?: any
+): void {
+  // Start normal monitoring
+  const untilTimestamp = Date.now() + (durationMinutes * 60 * 1000);
+  setExpectingDepositUntil(userId, untilTimestamp);
+
+  // Store monitoring context in session_data
+  try {
+    const db = getDatabase();
+    const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId) as any;
+    let sessionData: any = {};
+    
+    if (userSession && userSession.session_data) {
+      sessionData = JSON.parse(userSession.session_data);
+    }
+    
+    // Add monitoring context
+    sessionData.monitoringContext = {
+      type: contextType,
+      timestamp: Date.now(),
+      metadata: metadata || {}
+    } as MonitoringContext;
+    
+    // Save back to database
+    db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
+      .run(JSON.stringify(sessionData), userId);
+      
+    console.log(`💾 Stored monitoring context for user ${userId}: ${contextType}`);
+  } catch (error) {
+    console.error("Error storing monitoring context:", error);
+    // Continue with normal monitoring even if context storage fails
+  }
+}
+
+// Get monitoring context for a user
+export function getMonitoringContext(userId: string): MonitoringContext | null {
+  try {
+    const db = getDatabase();
+    const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId) as any;
+    
+    if (userSession && userSession.session_data) {
+      const sessionData = JSON.parse(userSession.session_data);
+      const context = sessionData.monitoringContext;
+      
+      // Check if context is expired (should match monitoring window)
+      if (context && Date.now() - context.timestamp > 5 * 60 * 1000) {
+        return null;
+      }
+      
+      return context || null;
+    }
+  } catch (error) {
+    console.error("Error getting monitoring context:", error);
+  }
+  return null;
 }
 
 export function stopDepositMonitoring(userId: string): void {

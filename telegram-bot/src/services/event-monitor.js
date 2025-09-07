@@ -225,7 +225,7 @@ async function checkPreDepositBalance(userId) {
 }
 
 /**
- * Handle new deposit - auto-deploy for first-time users, notify existing users
+ * Handle new deposit - context-aware routing based on monitoring type
  */
 async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
@@ -233,17 +233,58 @@ async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) 
     const preDepositBalance = preDepositBalances.get(userId) || 0;
     const depositAmount = parseFloat(amount);
     
-    // If deposit is significant (>$0.10) and user is actively being monitored, auto-invest it
-    const shouldAutoInvest = depositAmount > 0.10; // Any meaningful deposit gets auto-invested
+    // Get monitoring context to determine how to handle this deposit
+    const { getMonitoringContext } = require("../lib/database.ts");
+    const monitoringContext = getMonitoringContext(userId);
     
-    console.log(`💡 Deposit handling: User ${userId}, pre-deposit: $${preDepositBalance}, deposit: $${depositAmount}, auto-invest: ${shouldAutoInvest}`);
+    // Check for pending manual protocol selection
+    const { getDatabase } = require("../lib/database");
+    const db = getDatabase();
+    let pendingTransaction = null;
     
-    if (shouldAutoInvest) {
-      // Auto-deploy any meaningful deposit for active users
+    try {
+      const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
+      if (userSession && userSession.session_data) {
+        const sessionData = JSON.parse(userSession.session_data);
+        pendingTransaction = sessionData.pendingTransaction;
+        
+        // Check if pending transaction is still valid (not expired)
+        if (pendingTransaction && Date.now() - pendingTransaction.timestamp > 5 * 60 * 1000) {
+          console.log(`⏰ Pending transaction expired for user ${userId}, clearing it`);
+          pendingTransaction = null;
+        }
+      }
+    } catch (dbError) {
+      console.error(`Error checking pending transaction for user ${userId}:`, dbError);
+    }
+    
+    console.log(`💡 Context-aware deposit handling: User ${userId}, amount: $${depositAmount}, context: ${monitoringContext?.type || 'unknown'}, pending: ${pendingTransaction ? pendingTransaction.protocol : 'none'}`);
+    
+    // Decision tree based on context and pending transactions
+    if (pendingTransaction && pendingTransaction.isManualSelection && depositAmount > 0.10) {
+      // STATE 4B: User was short on manual protocol selection - honor their choice
+      console.log(`🎯 Manual protocol completion: User ${userId} chose ${pendingTransaction.protocol}`);
+      await handleManualProtocolCompletion(userId, firstName, amount, tokenSymbol, txHash, pendingTransaction);
+      
+    } else if (monitoringContext?.type === 'onboarding' && depositAmount > 0.10) {
+      // STATES 1, 2, 3: New/low-balance users - auto-deploy to highest APY
+      console.log(`🆕 Onboarding flow: Auto-deploying to highest APY for user ${userId}`);
       await handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash);
-    } else {
-      // Very small deposit - just notify
+      
+    } else if ((monitoringContext?.type === 'generic_deposit' || monitoringContext?.type === 'balance_check') && depositAmount > 0.10) {
+      // STATE 4A: High balance user generic deposit - offer options, no auto-deploy
+      console.log(`💼 High balance generic deposit: Offering options to user ${userId}`);
+      await handleHighBalanceDeposit(userId, firstName, amount, tokenSymbol, txHash);
+      
+    } else if (depositAmount <= 0.10) {
+      // Small deposit - just notify via existing flow
+      console.log(`🪙 Small deposit: Notifying user ${userId} with standard flow`);
       await handleExistingUserDeposit(userId, firstName, amount, tokenSymbol, txHash);
+      
+    } else {
+      // Fallback to existing behavior for unknown contexts
+      console.log(`🔄 Fallback: Using standard auto-deploy for user ${userId}`);
+      await handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash);
     }
     
     // Clean up the stored balance
@@ -530,6 +571,187 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
       `💰 **Deposit confirmed ${firstName}!**\n\n` +
       `${amount} ${tokenSymbol} received and ready in your wallet.\n\n` +
       `Use the bot menu to deploy your funds.`,
+      { parse_mode: "Markdown" }
+    );
+  }
+}
+
+/**
+ * Handle manual protocol completion - user was short on their chosen protocol
+ */
+async function handleManualProtocolCompletion(userId, firstName, amount, tokenSymbol, txHash, pendingTransaction) {
+  try {
+    console.log(`🎯 Manual protocol completion: ${amount} ${tokenSymbol} for ${pendingTransaction.protocol} (user ${userId})`);
+    
+    // Use the protocol they specifically chose
+    const selectedProtocol = {
+      protocol: pendingTransaction.displayName || pendingTransaction.protocol,
+      deployFn: pendingTransaction.deployFn,
+      service: pendingTransaction.service,
+      apy: pendingTransaction.apy,
+      project: pendingTransaction.project || pendingTransaction.protocol,
+      riskScore: pendingTransaction.riskScore || 3
+    };
+    
+    // Send notification about completing their choice
+    await monitorBot.api.sendMessage(
+      userId,
+      `🎉 *Deposit confirmed ${firstName}!*\n\n` +
+      `${amount} ${tokenSymbol} received!\n\n` +
+      `🎯 Deploying to your chosen protocol: **${selectedProtocol.protocol}**!\n\n` +
+      `• **APY**: ${selectedProtocol.apy}%\n` +
+      `• **Gas**: Fully sponsored by inkvest\n\n` +
+      `Deploying now with smart contract automation...`,
+      { parse_mode: "Markdown" }
+    );
+
+    // Execute deployment using the chosen protocol
+    console.log(`🎯 Auto-deploying ${amount} ${tokenSymbol} to chosen protocol ${selectedProtocol.protocol} for user ${userId}...`);
+    
+    // Import the appropriate service and get the deployment function
+    const defiService = require(selectedProtocol.service);
+    const deploymentFunction = defiService[selectedProtocol.deployFn];
+    
+    if (!deploymentFunction) {
+      throw new Error(`Deployment function ${selectedProtocol.deployFn} not found in ${selectedProtocol.service}`);
+    }
+    
+    // Execute sponsored deployment
+    const deployResult = await deploymentFunction(userId, amount);
+    
+    if (deployResult.success) {
+      console.log(`✅ Successfully deployed ${amount} ${tokenSymbol} to chosen ${selectedProtocol.protocol}`);
+      
+      // Success message with main menu
+      const { createMainMenuKeyboard, getMainMenuMessage } = require("../utils/mainMenu");
+      const { calculateDetailedEarnings, formatTxLink } = require("../utils/earnings");
+      const earnings = calculateDetailedEarnings(parseFloat(amount), selectedProtocol.apy);
+      
+      await monitorBot.api.sendMessage(
+        userId,
+        `🎯 *Your Choice Completed!*\n\n` +
+        `💰 **Investment**: $${amount} ${tokenSymbol} to ${selectedProtocol.protocol}\n` +
+        `📈 **APY**: ${selectedProtocol.apy}% (as chosen)\n` +
+        `🔗 **Transactions**: [Deposit](https://basescan.org/tx/${txHash}) | [Investment](https://basescan.org/tx/${deployResult.txHash})\n\n` +
+        `**Your Earnings:**\n` +
+        `• Daily: ${earnings.dailyWithContext}\n` +
+        `• Monthly: ${earnings.monthly}\n` +
+        `• Yearly: ${earnings.yearly}\n\n` +
+        `✅ Deployed to your manually selected protocol!`,
+        { 
+          parse_mode: "Markdown",
+          reply_markup: createMainMenuKeyboard()
+        }
+      );
+
+      // Clear the pending transaction since it's completed
+      try {
+        const { getDatabase } = require("../lib/database");
+        const db = getDatabase();
+        const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
+        
+        if (userSession && userSession.session_data) {
+          const sessionData = JSON.parse(userSession.session_data);
+          delete sessionData.pendingTransaction;
+          db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
+            .run(JSON.stringify(sessionData), userId);
+        }
+      } catch (clearError) {
+        console.error("Error clearing pending transaction:", clearError);
+      }
+
+    } else {
+      console.error(`❌ Failed to deploy to chosen ${selectedProtocol.protocol}: ${deployResult.error}`);
+      
+      await monitorBot.api.sendMessage(
+        userId,
+        `⚠️ *Deposit confirmed but deployment failed*\n\n` +
+        `${amount} ${tokenSymbol} received but couldn't deploy to ${selectedProtocol.protocol}.\n\n` +
+        `Error: ${deployResult.error}\n\n` +
+        `Your funds are safe in your wallet. Please try manual deployment via the bot menu.`,
+        { parse_mode: "Markdown" }
+      );
+    }
+
+  } catch (error) {
+    console.error(`Failed to complete manual protocol selection for user ${userId}:`, error);
+    
+    await monitorBot.api.sendMessage(
+      userId,
+      `⚠️ *Deposit confirmed but deployment failed*\n\n` +
+      `${amount} ${tokenSymbol} received but couldn't deploy to your chosen protocol.\n\n` +
+      `Please try manual deployment via the bot menu.`,
+      { parse_mode: "Markdown" }
+    );
+  }
+}
+
+/**
+ * Handle high balance user generic deposit - offer options, no auto-deploy
+ */
+async function handleHighBalanceDeposit(userId, firstName, amount, tokenSymbol, txHash) {
+  try {
+    console.log(`💼 High balance generic deposit: ${amount} ${tokenSymbol} for user ${userId}`);
+    
+    // Get current total balance after deposit
+    const { getCoinbaseWalletUSDCBalance } = require("../lib/coinbase-wallet");
+    const { getCoinbaseSmartWallet } = require("../lib/coinbase-wallet");
+    
+    const wallet = await getCoinbaseSmartWallet(userId);
+    let totalBalance = amount; // fallback if we can't get current balance
+    
+    if (wallet && wallet.smartAccount) {
+      const currentBalance = await getCoinbaseWalletUSDCBalance(wallet.smartAccount.address);
+      totalBalance = currentBalance;
+    }
+
+    // Import menu utilities and get highest APY for auto-manage option
+    const { InlineKeyboard } = require("grammy");
+    const { getHighestAPY } = require("../lib/defillama-api");
+    const { formatTxLink } = require("../utils/earnings");
+    
+    let highestAPY = "10"; // fallback
+    try {
+      highestAPY = await getHighestAPY();
+    } catch (apyError) {
+      console.error("Error getting highest APY:", apyError);
+    }
+    
+    const keyboard = new InlineKeyboard()
+      .text(`🦑 inkvest Automanaged (${highestAPY}% APY)`, "zap_auto_deploy")
+      .row()
+      .text("🎯 Choose Protocol Manually", "zap_choose_protocol")
+      .row()
+      .text("📊 View Portfolio", "view_portfolio")
+      .text("💼 Keep in Wallet", "main_menu");
+    
+    await monitorBot.api.sendMessage(
+      userId,
+      `💰 **Deposit confirmed ${firstName}!**\n\n` +
+      `+$${amount} ${tokenSymbol} received\n` +
+      `💳 **Total wallet balance: $${totalBalance} USDC**\n\n` +
+      `**Ready to earn? Choose your approach:**\n\n` +
+      `🦑 **Automanaged**: I'll find the highest APY (${highestAPY}%)\n` +
+      `🎯 **Manual**: You choose the specific protocol\n` +
+      `💼 **Hold**: Keep funds in wallet for now\n\n` +
+      `Deposit TX: ${formatTxLink(txHash)}`,
+      { 
+        parse_mode: "Markdown",
+        reply_markup: keyboard
+      }
+    );
+    
+    console.log(`✅ High balance user ${firstName} deposit handled with options (no auto-deploy)`);
+    
+  } catch (error) {
+    console.error(`Failed to handle high balance deposit for user ${userId}:`, error);
+    
+    // Fallback notification
+    await monitorBot.api.sendMessage(
+      userId,
+      `💰 **Deposit confirmed ${firstName}!**\n\n` +
+      `${amount} ${tokenSymbol} received and ready in your wallet.\n\n` +
+      `Use the bot menu to deploy your funds when ready.`,
       { parse_mode: "Markdown" }
     );
   }

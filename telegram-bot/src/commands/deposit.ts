@@ -2,7 +2,7 @@ import { BotContext } from "../context";
 import { getWallet } from "../lib/token-wallet";
 import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
-import { startDepositMonitoring } from "../lib/database";
+import { startDepositMonitoringWithContext } from "../lib/database";
 
 const depositHandler: CommandHandler = {
   command: "deposit",
@@ -40,8 +40,11 @@ const depositHandler: CommandHandler = {
         console.log(`📍 Using Smart Wallet deposit address: ${depositAddress}`);
       }
 
-      // Start 5-minute monitoring window for deposits
-      startDepositMonitoring(userId, 5);
+      // Start 5-minute monitoring window for generic deposits (no auto-deploy)
+      startDepositMonitoringWithContext(userId, 'generic_deposit', 5, {
+        command: '/deposit',
+        walletType: wallet.type
+      });
       
       // Manual balance checking system will handle deposit detection
       if (wallet.type === 'coinbase-smart-wallet' && wallet.autoCreated) {
