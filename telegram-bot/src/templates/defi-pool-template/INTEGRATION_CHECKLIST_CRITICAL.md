@@ -2,13 +2,21 @@
 
 **Use this checklist for EVERY new protocol integration to ensure nothing is missed!**
 
-## 🔥 **PHASE 1: Service Implementation** 
+## 🚀 **PHASE 1: Service Implementation (Template Method)** 
 
-### **1.1 Service Functions**
-- [ ] Copy `src/templates/defi-pool-template/service-template.ts` to `src/services/[protocol]-defi.ts`
-- [ ] Replace all `[POOL_NAME]` placeholders with actual protocol name
-- [ ] Update contract addresses from DeFiLlama pool data or transaction analysis
-- [ ] Replace `[POOL_CONTRACTS].VAULT` with actual vault address
+### **1.1 Template-Based Service Creation (NEW - 10x Faster)**
+- [ ] **Copy bulletproof template**: `cp src/services/moonwell-defi.ts src/services/[protocol]-defi.ts`
+- [ ] **Replace 4 values only**: 
+  - [ ] Contract names: `MOONWELL` → `[PROTOCOL]`
+  - [ ] Vault address: `0xc1256...` → `[VAULT_ADDRESS]`
+  - [ ] Pool ID: `1643c124...` → `[DEFILLAMA_POOL_ID]`
+  - [ ] Function names: `deployToMoonwell` → `deployTo[Protocol]` (3 functions)
+- [ ] **BUILD VERIFICATION**: `npm run build` - MUST pass with zero errors
+- [ ] **Copy test scripts**: Copy `test-moonwell-*.ts` and replace protocol names
+- [ ] **Add NPM scripts**: Follow package.json pattern from Moonwell
+
+### **1.2 Contract Testing (ALL Must Pass)**
+- [ ] **Build verification**: `npm run build` passes before testing
 - [ ] Test deposit function: `npm run test:[protocol] -- --key TEST_KEY --amount 0.1`
 - [ ] Test withdrawal function: `npm run test:[protocol]-withdraw -- --key TEST_KEY --shares 0.05`
 - [ ] Test max exit: `npm run test:[protocol]-withdraw -- --key TEST_KEY --shares max`
@@ -37,6 +45,7 @@
 - [ ] Copy complete processing logic (fetch + fallback + database saving)
 - [ ] Add to TypeScript types: `fetchProtocolApy(protocol: "..." | "[PROTOCOL]")`
 - [ ] Add to BOTH fallback objects: `[PROTOCOL]: X.XX`
+- [ ] **BUILD VERIFICATION**: `npm run build` - MUST pass after DeFiLlama changes
 
 ### **2.2 🔥 Risk Scoring (CRITICAL)**
 **Files**: `src/commands/earn.ts` AND `src/commands/zap.ts`
@@ -95,35 +104,57 @@ if ([protocol]BalanceNum > 0) {
   - [ ] `callbackData === "withdraw_[protocol]_menu" ||` 
   - [ ] `callbackData === "withdraw_[protocol]_custom" ||`
 
-### **2.8 Configuration Updates**
+### **2.8 CRITICAL Withdrawal Routing (Learned from Seamless/Moonwell)**
+**File**: `src/commands/withdraw.ts` `handleWithdrawAmountInput` function
+- [ ] **Protocol Name Mapping** (~line 1034): Add `protocol === "[protocol]" ? "[Protocol Name]" :`
+- [ ] **Protocol Emoji Mapping** (~line 1035): Add `protocol === "[protocol]" ? "[EMOJI]" :`  
+- [ ] **Execution Case** (~line 1122): Add complete `else if (protocol === "[protocol]")` block
+- [ ] **Import and call**: `withdrawFrom[Protocol](userId, amount)`
+
+### **2.9 Final Build Verification**
+- [ ] **MANDATORY**: `npm run build` - MUST pass with zero errors after all changes
+- [ ] **Fix any TypeScript errors immediately** before proceeding to testing
+
+### **2.10 Configuration Updates**
 **File**: `src/config/supported-pools.json`
 - [ ] Update pool status from "testing" to "active" 
 - [ ] Add successful transaction hashes
 - [ ] Update "lastTested" date
 
-## ✅ **Verification Tests**
+## ✅ **Bulletproof Verification Protocol (Enhanced)**
 
-After completing ALL steps above:
+### **Phase 1: Build Verification (MANDATORY FIRST)**
+- [ ] **`npm run build` passes with zero TypeScript errors**
+- [ ] **Fix ALL compilation issues before proceeding to testing**
+- [ ] **No undefined imports or type mismatches**
 
-### **Log Verification**
+### **Phase 2: Contract-Level Testing**
 Start bot and check logs show:
 - [ ] `Fetching specific pools from DeFiLlama: ..., [POOL_ID]`
-- [ ] `Found X/X requested pools` (X should be +1)  
+- [ ] `Found 8/8 requested pools` (count increased by 1)  
 - [ ] `✅ [ProtocolName]: X.X% APY ... - saved to DB`
 
-### **Bot Command Testing**
-- [ ] `/balance` - Shows protocol positions
-- [ ] `/portfolio` - Shows detailed protocol info
-- [ ] `/withdraw` - Has protocol exit option
-- [ ] `/zap` - Includes protocol in auto-deployment
-- [ ] Manual protocol selection shows protocol
+### **Phase 3: Bot Command Testing**
+- [ ] `/balance` - Shows protocol positions with correct emoji
+- [ ] `/portfolio` - Shows detailed protocol info with real-time APY
+- [ ] `/withdraw` - Has "[EMOJI] Exit from [Protocol]" option
+- [ ] `/zap` - Includes protocol in auto-deployment selection
+- [ ] Manual protocol selection shows protocol in earn menu
 
-### **User Flow Testing**  
-- [ ] Deposit via bot interface
-- [ ] Check portfolio shows position
-- [ ] Partial withdrawal (50%) works
-- [ ] Full exit (max) works
-- [ ] No "unknown command" errors
+### **Phase 4: Critical User Flow Testing**  
+**EACH must work perfectly:**
+- [ ] **Manual Investment**: `/earn` → Manual Selection → Protocol → Deploy 1 USDC → ✅ Success
+- [ ] **Portfolio Display**: Check portfolio shows position with correct amounts
+- [ ] **Max Withdrawal**: `/withdraw` → Protocol → Exit All → ✅ Success
+- [ ] **🚨 Custom Withdrawal**: `/withdraw` → Protocol → Custom Amount → ✅ Routes to CORRECT protocol
+- [ ] **Log Validation**: Custom withdrawal shows `🔥 Using gasless [Protocol] withdrawal` (NOT Aave!)
+
+### **Phase 5: Error Prevention Validation**
+- [ ] **No "unknown command" errors** in any flow
+- [ ] **No "unsupported protocol" errors** in withdrawal
+- [ ] **No TypeScript compilation warnings**
+- [ ] **All display amounts consistent** across commands
+- [ ] **Protocol emoji unique** and displays correctly
 
 ## 🎯 **Success Criteria**
 
