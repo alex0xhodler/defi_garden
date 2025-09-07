@@ -1031,8 +1031,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
 
     // Determine which protocol to withdraw from
     const protocol = ctx.session.tempData?.protocol || "aave"; // Default to Aave for legacy support
-    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : "Aave V3";
-    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : protocol === "spark" ? "⚡" : "🏛️";
+    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : protocol === "seamless" ? "Seamless USDC" : "Aave V3";
+    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : protocol === "spark" ? "⚡" : protocol === "seamless" ? "🌊" : "🏛️";
 
     const processingMsg = await ctx.reply(
       `🔄 **Processing Withdrawal...**\n\n` +
@@ -1098,6 +1098,19 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
         console.log(`⚡ Using gasless Spark withdrawal for Smart Wallet user`);
         const { withdrawFromSpark } = await import("../services/spark-defi");
         const result = await withdrawFromSpark(userId, amount);
+        if (!result.success) {
+          throw new Error(result.error);
+        }
+        receipt = {
+          transactionHash: result.txHash,
+          blockNumber: "N/A (CDP UserOp)",
+          gasUsed: "Sponsored by inkvest"
+        };
+      } else if (protocol === "seamless") {
+        // Use Seamless gasless withdrawal
+        console.log(`🌊 Using gasless Seamless withdrawal for Smart Wallet user`);
+        const { withdrawFromSeamless } = await import("../services/seamless-defi");
+        const result = await withdrawFromSeamless(userId, amount);
         if (!result.success) {
           throw new Error(result.error);
         }
