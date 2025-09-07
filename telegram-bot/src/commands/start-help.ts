@@ -220,7 +220,7 @@ export const startHandler: CommandHandler = {
 
               await ctx.reply(
                 `👋 *Welcome back ${firstName}!*\n\n` +
-                `💰 *Your inkvest address:*\n` +
+                `🐙 *Your inkvest savings account address:*\n` +
                 `\`${wallet.address}\`\n\n` +
                 `Send USDC on Base ↑ to start earning.\n\n` +
                 `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
@@ -252,7 +252,7 @@ export const startHandler: CommandHandler = {
 
             await ctx.reply(
               `👋 *Welcome back ${firstName}!*\n\n` +
-              `💰 *Your inkvest address:*\n` +
+              `🐙 *Your inkvest savings account address:*\n` +
               `\`${wallet.address}\`\n\n` +
               `Send USDC on Base ↑ to start earning.\n\n` +
               `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,

@@ -274,13 +274,20 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
     // Step 1: Determine the best protocol using risk-aware selection
     const bestProtocol = await getBestProtocolForUser(userId);
     
-    // Step 2: Send initial notification with risk context
-    const riskText = bestProtocol.riskScore <= 3 ? "🛡️ Safe" : bestProtocol.riskScore <= 6 ? "⚠️ Moderate" : "🚨 Higher Risk";
+    // Step 2: Send enhanced notification with comprehensive protocol details
+    const safetyText = bestProtocol.riskScore <= 3 ? "Very safe, established protocol" : 
+                      bestProtocol.riskScore <= 6 ? "Moderate risk, established protocol" : 
+                      "Higher risk protocol";
+    
     await monitorBot.api.sendMessage(
       userId,
       `🎉 *Deposit confirmed ${firstName}!*\n\n` +
       `${amount} ${tokenSymbol} received!\n\n` +
-      `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) ${riskText} with sponsored gas... 🦑`,
+      `🦑 Auto-investing to ${bestProtocol.protocol}!\n\n` +
+      `• **APY**: ${bestProtocol.apy}%\n` +
+      `• **Safety**: ${safetyText}\n` +
+      `• **Gas**: Fully sponsored by inkvest\n\n` +
+      `Deploying now with smart contract automation...`,
       { parse_mode: "Markdown" }
     );
 
