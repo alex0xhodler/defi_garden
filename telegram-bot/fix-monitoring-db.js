@@ -15,10 +15,14 @@ console.log("Current users in monitoring:", users.map(u => ({
   expiresIn: u.expectingDepositUntil ? Math.floor((u.expectingDepositUntil - currentTime) / 1000) + "s" : "null"
 })));
 
-// Clean up all stuck monitoring states
+// Clean up only John's stuck monitoring state (keep new users intact)
 users.forEach(user => {
-  console.log(`🧹 Stopping monitoring for user ${user.userId} (${user.firstName})`);
-  stopDepositMonitoring(user.userId);
+  if (user.userId === "491812750") { // John's stuck state
+    console.log(`🧹 Stopping stuck monitoring for John (${user.userId})`);
+    stopDepositMonitoring(user.userId);
+  } else {
+    console.log(`✅ Keeping monitoring for ${user.firstName} (${user.userId}) - this is normal`);
+  }
 });
 
 console.log("✅ All monitoring states cleared");
