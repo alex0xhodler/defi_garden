@@ -201,13 +201,26 @@ export const startHandler: CommandHandler = {
                 }
               );
             } else {
-              // User has no funds - show deposit screen
+              // User has no funds - show deposit screen and START MONITORING
+              const { startDepositMonitoring } = await import("../lib/database");
+              startDepositMonitoring(userId, 5);
+              console.log(`🎯 Started deposit monitoring for user ${userId} (/start - no funds)`);
+
+              // Force refresh monitoring service to include this user
+              try {
+                const eventMonitor = await import("../services/event-monitor");
+                await eventMonitor.forceRefreshWallets();
+                console.log(`🔄 Refreshed monitoring service for user ${userId}`);
+              } catch (error) {
+                console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
+              }
+
               const keyboard = new InlineKeyboard()
                 .text("🔍 Check for Deposit", "manual_balance_check");
 
               await ctx.reply(
                 `👋 *Welcome back ${firstName}!*\n\n` +
-                `💰 *Your inkvest address:*\n` +
+                `🐙 *Your inkvest savings account address:*\n` +
                 `\`${wallet.address}\`\n\n` +
                 `Send USDC on Base ↑ to start earning.\n\n` +
                 `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
@@ -219,13 +232,27 @@ export const startHandler: CommandHandler = {
             }
           } catch (error) {
             console.error("Error checking user funds for", firstName, ":", error);
-            // Fallback to basic deposit screen
+            
+            // Fallback to basic deposit screen - ALSO START MONITORING
+            const { startDepositMonitoring } = await import("../lib/database");
+            startDepositMonitoring(userId, 5);
+            console.log(`🎯 Started deposit monitoring for user ${userId} (/start - fallback)`);
+
+            // Force refresh monitoring service
+            try {
+              const eventMonitor = await import("../services/event-monitor");
+              await eventMonitor.forceRefreshWallets();
+              console.log(`🔄 Refreshed monitoring service for user ${userId}`);
+            } catch (refreshError) {
+              console.log("Event monitor refresh failed:", refreshError instanceof Error ? refreshError.message : String(refreshError));
+            }
+            
             const keyboard = new InlineKeyboard()
               .text("🔍 Check for Deposit", "manual_balance_check");
 
             await ctx.reply(
               `👋 *Welcome back ${firstName}!*\n\n` +
-              `💰 *Your inkvest address:*\n` +
+              `🐙 *Your inkvest savings account address:*\n` +
               `\`${wallet.address}\`\n\n` +
               `Send USDC on Base ↑ to start earning.\n\n` +
               `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,

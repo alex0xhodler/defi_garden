@@ -478,11 +478,25 @@ bot.on("callback_query:data", async (ctx) => {
   } else if (callbackData === "help") {
     await helpHandler.handler(ctx);
   } else if (callbackData === "manual_balance_check") {
-    // Manual balance check for onboarding users
+    // Manual balance check for onboarding users - Start monitoring for deposits
     const userId = ctx.session.userId;
     if (!userId) {
       await ctx.reply("❌ Please start the bot first with /start command.");
       return;
+    }
+
+    // Start deposit monitoring for 5 minutes when user checks for deposits
+    const { startDepositMonitoring } = await import("./src/lib/database");
+    startDepositMonitoring(userId, 5);
+    console.log(`🎯 Started deposit monitoring for user ${userId} (manual_balance_check)`);
+
+    // Force refresh monitoring service to include this user immediately
+    try {
+      const eventMonitor = await import("./src/services/event-monitor");
+      await eventMonitor.forceRefreshWallets();
+      console.log(`🔄 Refreshed monitoring service for user ${userId}`);
+    } catch (error) {
+      console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
     }
 
     const { getCoinbaseSmartWallet, getCoinbaseWalletUSDCBalance } = await import("./src/lib/coinbase-wallet");
@@ -680,7 +694,7 @@ bot.on("callback_query:data", async (ctx) => {
       );
     }
   } else if (callbackData === "deposit_help") {
-    // Help with depositing USDC
+    // Help with depositing USDC - Start monitoring for deposits
     const userId = ctx.session.userId;
     if (!userId) {
       await ctx.reply("❌ Please start the bot first with /start command.");
@@ -693,6 +707,20 @@ bot.on("callback_query:data", async (ctx) => {
     if (!wallet) {
       await ctx.reply("❌ No wallet found. Please use /start to create one.");
       return;
+    }
+
+    // Start deposit monitoring for 5 minutes when user requests deposit info
+    const { startDepositMonitoring } = await import("./src/lib/database");
+    startDepositMonitoring(userId, 5);
+    console.log(`🎯 Started deposit monitoring for user ${userId} (deposit_help)`);
+
+    // Force refresh monitoring service to include this user immediately
+    try {
+      const eventMonitor = await import("./src/services/event-monitor");
+      await eventMonitor.forceRefreshWallets();
+      console.log(`🔄 Refreshed monitoring service for user ${userId}`);
+    } catch (error) {
+      console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
     }
     
     const keyboard = new InlineKeyboard()
