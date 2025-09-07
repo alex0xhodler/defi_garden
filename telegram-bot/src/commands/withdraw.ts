@@ -5,6 +5,7 @@ import { withdrawFromCompoundV3, gaslessWithdrawFromAave, gaslessWithdrawFromFlu
 import { getCoinbaseSmartWallet, hasCoinbaseSmartWallet } from "../lib/coinbase-wallet";
 import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
+import { Address } from "viem";
 
 const withdrawHandler: CommandHandler = {
   command: "withdraw",
@@ -34,44 +35,102 @@ const withdrawHandler: CommandHandler = {
         return;
       }
 
-      // Show protocol selection for exit
-      const keyboard = new InlineKeyboard()
-        .text("🌊 Exit from Fluid", "withdraw_fluid_menu").row()
-        .text("🏛️ Exit from Aave", "withdraw_aave_menu").row()
-        .text("🏦 Exit from Compound", "withdraw_compound_menu").row()
-        .text("🔬 Exit from Morpho", "withdraw_morpho_menu").row()
-        .text("⚡ Exit from Spark", "withdraw_spark_menu").row()
-        .text("🌊 Exit from Seamless", "withdraw_seamless_menu").row()
-        .text("🌕 Exit from Moonwell", "withdraw_moonwell_menu").row()
-        .text("❌ Cancel", "cancel_operation");
+      // Check user balances across all protocols to filter active positions
+      const { getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
+      const { getMorphoBalance } = await import("../services/morpho-defi");
+      const { getSparkBalance } = await import("../services/spark-defi");
+      const { getSeamlessBalance } = await import("../services/seamless-defi");
+      const { getMoonwellBalance } = await import("../services/moonwell-defi");
+      
+      try {
+        // Get Smart Wallet address for new protocols (since deposits are made via CDP)
+        const smartWallet = await getCoinbaseSmartWallet(userId);
+        const smartWalletAddress = smartWallet?.smartAccount.address;
+        
+        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance] = await Promise.all([
+          getAaveBalance(wallet.address as Address),
+          getFluidBalance(wallet.address as Address),
+          getCompoundBalance(wallet.address as Address),
+          getMorphoBalance(wallet.address as Address),
+          // Check Spark balance on Smart Wallet address since deposits are made there
+          smartWalletAddress ? getSparkBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+          // Check Seamless balance on Smart Wallet address since deposits are made there
+          smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+          // Check Moonwell balance on Smart Wallet address since deposits are made there
+          smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
+        ]);
 
-      await ctx.reply(
-        `🚪 **Exit DeFi Pools**\n\n` +
-          `Choose which protocol to exit from:\n\n` +
-          `**🌊 Fluid Finance**\n` +
-          `• Higher APY protocol (7.8%)\n` +
-          `• Full or partial withdrawal options\n\n` +
-          `**🏛️ Aave V3**\n` +
-          `• Stable lending protocol (5.2%)\n` +
-          `• Full or partial withdrawal options\n\n` +
-          `**🏦 Compound V3**\n` +
-          `• USDC lending with COMP rewards\n` +
-          `• Full or partial withdrawal options\n\n` +
-          `**🔬 Morpho PYTH/USDC**\n` +
-          `• Premium yield protocol (10% APY)\n` +
-          `• Gasless withdrawals via Smart Wallet\n\n` +
-          `**⚡ Spark USDC Vault**\n` +
-          `• Low-risk Morpho vault (8% APY)\n` +
-          `• Gasless withdrawals via Smart Wallet\n\n` +
-          `**🌊 Seamless USDC**\n` +
-          `• Base network lending (5% APY)\n` +
-          `• Gasless withdrawals via Smart Wallet\n\n` +
-          `**Note:** Small gas fee (~$0.002) required for each exit`,
-        {
+        // Parse balances and filter active positions (>$0.01)
+        const activePositions = [];
+        
+        const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
+        const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
+        const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
+        const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
+        const sparkBalanceNum = parseFloat(sparkBalance.assetsFormatted);
+        const seamlessBalanceNum = parseFloat(seamlessBalance.assetsFormatted);
+        const moonwellBalanceNum = parseFloat(moonwellBalance.assetsFormatted);
+        
+        if (aaveBalanceNum > 0.01) activePositions.push({ protocol: 'aave', balance: aaveBalanceNum, emoji: '🏛️', name: 'Aave V3', apy: '5.2%' });
+        if (fluidBalanceNum > 0.01) activePositions.push({ protocol: 'fluid', balance: fluidBalanceNum, emoji: '🌊', name: 'Fluid Finance', apy: '7.8%' });
+        if (compoundBalanceNum > 0.01) activePositions.push({ protocol: 'compound', balance: compoundBalanceNum, emoji: '🏦', name: 'Compound V3', apy: '6.2%' });
+        if (morphoBalanceNum > 0.01) activePositions.push({ protocol: 'morpho', balance: morphoBalanceNum, emoji: '🔬', name: 'Morpho PYTH/USDC', apy: '10%' });
+        if (sparkBalanceNum > 0.01) activePositions.push({ protocol: 'spark', balance: sparkBalanceNum, emoji: '⚡', name: 'Spark USDC Vault', apy: '8%' });
+        if (seamlessBalanceNum > 0.01) activePositions.push({ protocol: 'seamless', balance: seamlessBalanceNum, emoji: '🌊', name: 'Seamless USDC', apy: '5%' });
+        if (moonwellBalanceNum > 0.01) activePositions.push({ protocol: 'moonwell', balance: moonwellBalanceNum, emoji: '🌕', name: 'Moonwell USDC', apy: '5%' });
+        
+        // If no active positions, show earning suggestion
+        if (activePositions.length === 0) {
+          const { getHighestAPY } = await import("../lib/defillama-api");
+          const highestAPY = await getHighestAPY();
+          
+          const keyboard = new InlineKeyboard()
+            .text("🦑 Start Earning", "zap_auto_deploy")
+            .text("📊 View Portfolio", "view_portfolio")
+            .row()
+            .text("🔄 Main Menu", "main_menu");
+          
+          await ctx.reply(
+            `No active positions to exit from, are you looking to start earning ${highestAPY}% returned by inkvest automanage option?`,
+            { reply_markup: keyboard }
+          );
+          return;
+        }
+        
+        // Build keyboard with only active positions
+        const keyboard = new InlineKeyboard();
+        activePositions.forEach(position => {
+          keyboard.text(`${position.emoji} Exit from ${position.name}`, `withdraw_${position.protocol}_menu`).row();
+        });
+        keyboard.text("❌ Cancel", "cancel_operation");
+        
+        // Build succinct message with actual balances
+        let message = `🚪 **Exit Active Positions**\n\nChoose protocol to exit from:\n\n`;
+        activePositions.forEach(position => {
+          message += `${position.emoji} **${position.name}**: $${position.balance.toFixed(2)} (${position.apy} APY)\n`;
+        });
+        message += `\nAll exits are gasless via Smart Wallet`;
+        
+        await ctx.reply(message, {
           parse_mode: "Markdown",
           reply_markup: keyboard,
-        }
-      );
+        });
+        
+      } catch (error) {
+        console.error("Error checking user balances for withdraw:", error);
+        
+        // Fallback: show retry option
+        const keyboard = new InlineKeyboard()
+          .text("🔄 Try Again", "withdraw")
+          .text("📊 View Portfolio", "view_portfolio")
+          .row()
+          .text("🔄 Main Menu", "main_menu");
+        
+        await ctx.reply(
+          "⚠️ Unable to fetch balances. Try again?",
+          { reply_markup: keyboard }
+        );
+      }
     } catch (error) {
       console.error("Error in withdraw command:", error);
       await ctx.reply("❌ An error occurred. Please try again later.");
