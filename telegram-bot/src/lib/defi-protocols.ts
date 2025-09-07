@@ -558,6 +558,14 @@ export async function executeWithdraw(
       case "morpho":
         result = await withdrawFromMorphoPYTH(userId!, amountUsdc);
         break;
+      case "spark":
+        const { withdrawFromSpark } = await import("../services/spark-defi");
+        result = await withdrawFromSpark(userId!, amountUsdc);
+        break;
+      case "seamless":
+        const { withdrawFromSeamless } = await import("../services/seamless-defi");
+        result = await withdrawFromSeamless(userId!, amountUsdc);
+        break;
       default:
         throw new Error(`Unsupported protocol for gasless: ${protocol.toLowerCase()}`);
     }
@@ -790,6 +798,10 @@ export async function executeZap(
       case "spark":
         const { deployToSpark } = await import("../services/spark-defi");
         result = await deployToSpark(userId!, amountUsdc);
+        break;
+      case "seamless":
+        const { deployToSeamless } = await import("../services/seamless-defi");
+        result = await deployToSeamless(userId!, amountUsdc);
         break;
       default:
         throw new Error(`Unsupported protocol for gasless: ${protocolLower}`);

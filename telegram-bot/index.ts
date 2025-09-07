@@ -413,9 +413,9 @@ bot.on("callback_query:data", async (ctx) => {
   const callbackData = ctx.callbackQuery.data;
 
   // Handle withdraw-specific callbacks first
-  if (callbackData === "withdraw_aave_max" || callbackData === "withdraw_fluid_max" || callbackData === "withdraw_compound_max" || callbackData === "withdraw_morpho_max" || callbackData === "withdraw_spark_max" ||
-      callbackData === "withdraw_fluid_menu" || callbackData === "withdraw_aave_menu" || callbackData === "withdraw_compound_menu" || callbackData === "withdraw_morpho_menu" || callbackData === "withdraw_spark_menu" ||
-      callbackData === "withdraw_fluid_custom" || callbackData === "withdraw_aave_custom" || callbackData === "withdraw_compound_custom" || callbackData === "withdraw_morpho_custom" || callbackData === "withdraw_spark_custom" ||
+  if (callbackData === "withdraw_aave_max" || callbackData === "withdraw_fluid_max" || callbackData === "withdraw_compound_max" || callbackData === "withdraw_morpho_max" || callbackData === "withdraw_spark_max" || callbackData === "withdraw_seamless_max" ||
+      callbackData === "withdraw_fluid_menu" || callbackData === "withdraw_aave_menu" || callbackData === "withdraw_compound_menu" || callbackData === "withdraw_morpho_menu" || callbackData === "withdraw_spark_menu" || callbackData === "withdraw_seamless_menu" ||
+      callbackData === "withdraw_fluid_custom" || callbackData === "withdraw_aave_custom" || callbackData === "withdraw_compound_custom" || callbackData === "withdraw_morpho_custom" || callbackData === "withdraw_spark_custom" || callbackData === "withdraw_seamless_custom" ||
       callbackData === "withdraw_aave_custom_with_rewards" || callbackData === "withdraw_aave_custom_no_rewards" ||
       callbackData === "withdraw_compound_custom_with_rewards" || callbackData === "withdraw_compound_custom_no_rewards" ||
       callbackData === "withdraw_custom" || callbackData === "withdraw_custom_with_rewards" || callbackData === "withdraw_custom_no_rewards" ||

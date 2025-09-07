@@ -64,13 +64,14 @@ export const balanceHandler: CommandHandler = {
         const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import("../lib/token-wallet");
         const { getMorphoBalance } = await import("../services/morpho-defi");
         const { getSparkBalance } = await import("../services/spark-defi");
+        const { getSeamlessBalance } = await import("../services/seamless-defi");
         const { getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
         
         // Get Smart Wallet address for protocols that use Smart Wallet
         const smartWallet = await getCoinbaseSmartWallet(userId);
         const smartWalletAddress = smartWallet?.smartAccount.address;
         
-        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance] = await Promise.all([
+        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance] = await Promise.all([
           getAaveBalance(wallet.address as Address),
           getFluidBalance(wallet.address as Address),
           getCompoundBalance(wallet.address as Address),
@@ -80,6 +81,10 @@ export const balanceHandler: CommandHandler = {
           }),
           smartWalletAddress ? getSparkBalance(smartWalletAddress).catch(error => {
             console.error(`❌ Balance command - Spark balance fetch failed for ${smartWalletAddress}:`, error);
+            return { assetsFormatted: '0.00' };
+          }) : Promise.resolve({ assetsFormatted: '0.00' }),
+          smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(error => {
+            console.error(`❌ Balance command - Seamless balance fetch failed for ${smartWalletAddress}:`, error);
             return { assetsFormatted: '0.00' };
           }) : Promise.resolve({ assetsFormatted: '0.00' })
         ]);
@@ -143,6 +148,14 @@ export const balanceHandler: CommandHandler = {
         if (sparkNum > 0.01) {
           defiPositions += `⚡ **Spark USDC Vault**: $${sparkNum.toFixed(2)} USDC\n`;
           totalDefiValue += sparkNum;
+          hasAnyBalance = true;
+        }
+
+        const seamlessNum = parseFloat(seamlessBalance.assetsFormatted);
+        console.log(`🔍 Balance command - Seamless balance: ${seamlessBalance.assetsFormatted} → ${seamlessNum}`);
+        if (seamlessNum > 0.01) {
+          defiPositions += `🌊 **Seamless USDC**: $${seamlessNum.toFixed(2)} USDC\n`;
+          totalDefiValue += seamlessNum;
           hasAnyBalance = true;
         }
 

@@ -11,7 +11,8 @@ export const POOL_IDS = {
   FLUID: "7372edda-f07f-4598-83e5-4edec48c4039", 
   COMPOUND: "0c8567f8-ba5b-41ad-80de-00a71895eb19",
   MORPHO: "301667a4-dc42-492d-a978-ea4f69811a72",
-  SPARK: "9f146531-9c31-46ba-8e26-6b59bdaca9ff"
+  SPARK: "9f146531-9c31-46ba-8e26-6b59bdaca9ff",
+  SEAMLESS: "4a22de3c-271e-4152-b8d8-29053de06f37"
 } as const;
 
 // DeFiLlama API pool structure
@@ -55,7 +56,7 @@ async function fetchSpecificPools(poolIds: string[]): Promise<DeFiLlamaPool[]> {
     const data = response.data;
     const allPools = data.data || [];
     
-    // Filter to only our 3 pools
+    // Filter to only our pools
     const ourPools = allPools.filter((pool: DeFiLlamaPool) => 
       poolIds.includes(pool.pool)
     );
@@ -129,13 +130,14 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
     // Import database functions
     const { saveProtocolRate, getProtocolRate } = await import("./database");
     
-    // Fetch all five pools in one efficient call
+    // Fetch all six pools in one efficient call
     const pools = await fetchSpecificPools([
       POOL_IDS.AAVE,
       POOL_IDS.FLUID,
       POOL_IDS.COMPOUND,
       POOL_IDS.MORPHO,
-      POOL_IDS.SPARK
+      POOL_IDS.SPARK,
+      POOL_IDS.SEAMLESS
     ]);
     
     const aavePool = pools.find(p => p.pool === POOL_IDS.AAVE);
@@ -143,6 +145,7 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
     const compoundPool = pools.find(p => p.pool === POOL_IDS.COMPOUND);
     const morphoPool = pools.find(p => p.pool === POOL_IDS.MORPHO);
     const sparkPool = pools.find(p => p.pool === POOL_IDS.SPARK);
+    const seamlessPool = pools.find(p => p.pool === POOL_IDS.SEAMLESS);
     
     const opportunities: YieldOpportunity[] = [];
     
@@ -271,6 +274,31 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
       }
     }
     
+    // Process Seamless
+    if (seamlessPool) {
+      const seamlessOpportunity = convertToYieldOpportunity(seamlessPool, "Seamless");
+      opportunities.push(seamlessOpportunity);
+      
+      // Save to database for future fallback
+      saveProtocolRate("seamless", seamlessOpportunity.apy, seamlessOpportunity.apyBase, seamlessOpportunity.apyReward, seamlessPool.tvlUsd);
+      console.log(`✅ Seamless: ${seamlessOpportunity.apy}% APY (${seamlessOpportunity.apyBase}% base + ${seamlessOpportunity.apyReward}% rewards) - saved to DB`);
+    } else {
+      console.warn("❌ Failed to fetch Seamless data, using database fallback");
+      const cachedSeamless = getProtocolRate("seamless");
+      if (cachedSeamless) {
+        opportunities.push(convertToYieldOpportunity({
+          tvlUsd: cachedSeamless.tvlUsd,
+          apy: cachedSeamless.apy,
+          apyBase: cachedSeamless.apyBase,
+          apyReward: cachedSeamless.apyReward
+        } as DeFiLlamaPool, "Seamless"));
+        console.log(`📦 Using cached Seamless data: ${cachedSeamless.apy}% APY (last updated: ${new Date(cachedSeamless.lastUpdated).toISOString()})`);
+      } else {
+        console.log(`🔧 Using hardcoded Seamless fallback: 5.0% APY`);
+        opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Seamless", 5.0));
+      }
+    }
+    
     console.log(`=== FETCHED ${opportunities.length} REAL-TIME YIELDS ===`);
     return opportunities;
     
@@ -288,7 +316,9 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
         { name: "Aave", fallback: 5.69 },
         { name: "Fluid", fallback: 7.72 },
         { name: "Compound", fallback: 7.65 },
-        { name: "Morpho", fallback: 10.0 }
+        { name: "Morpho", fallback: 10.0 },
+        { name: "Spark", fallback: 8.0 },
+        { name: "Seamless", fallback: 5.0 }
       ];
       
       for (const { name, fallback } of protocols) {
@@ -314,7 +344,10 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
       return [
         convertToYieldOpportunity({} as DeFiLlamaPool, "Aave", 5.69),
         convertToYieldOpportunity({} as DeFiLlamaPool, "Fluid", 7.72),
-        convertToYieldOpportunity({} as DeFiLlamaPool, "Compound", 7.65)
+        convertToYieldOpportunity({} as DeFiLlamaPool, "Compound", 7.65),
+        convertToYieldOpportunity({} as DeFiLlamaPool, "Morpho", 10.0),
+        convertToYieldOpportunity({} as DeFiLlamaPool, "Spark", 8.0),
+        convertToYieldOpportunity({} as DeFiLlamaPool, "Seamless", 5.0)
       ];
     }
   }
@@ -345,14 +378,14 @@ export async function getCompoundV3APY(): Promise<number> {
 /**
  * Fetch individual protocol APY by pool ID
  */
-export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO" | "SPARK"): Promise<number> {
+export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO" | "SPARK" | "SEAMLESS"): Promise<number> {
   try {
     const poolId = POOL_IDS[protocol];
     const pool = await fetchPoolById(poolId);
     
     if (!pool) {
       console.warn(`No data found for ${protocol}, using fallback`);
-      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0 };
+      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0, SEAMLESS: 5.0 };
       return fallbacks[protocol];
     }
     
@@ -362,7 +395,7 @@ export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" |
     return parseFloat(apy.toFixed(2));
   } catch (error) {
     console.error(`Error fetching ${protocol} APY:`, error);
-    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0 };
+    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0, SEAMLESS: 5.0 };
     return fallbacks[protocol];
   }
 }

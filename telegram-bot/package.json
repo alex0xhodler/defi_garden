@@ -12,6 +12,8 @@
     "test:spark": "ts-node src/scripts/test-spark-deposit.ts",
     "test:spark-withdraw": "ts-node src/scripts/test-spark-withdrawal.ts",
     "test:spark-cycle": "ts-node src/scripts/test-spark-full-cycle.ts",
+    "test:seamless": "ts-node src/scripts/test-seamless-deposit.ts",
+    "test:seamless-withdraw": "ts-node src/scripts/test-seamless-withdrawal.ts",
     "test:bot-integration": "ts-node src/scripts/test-bot-integration.ts",
     "template:list": "ls -la src/templates/defi-pool-template/",
     "template:help": "cat POOL_INTEGRATION_TEMPLATE.md",
