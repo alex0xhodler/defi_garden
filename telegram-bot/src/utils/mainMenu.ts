@@ -69,30 +69,77 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
       
       // STATE 1: User has active DeFi positions
       if (totalDeployed > 0.01) {
-        const { getCompoundV3APY } = await import('../lib/defillama-api');
-        const apy = await getCompoundV3APY();
-        const earnings = calculateRealTimeEarnings(totalDeployed, apy);
+        // Fetch real-time APY data (with current fallbacks)
+        let aaveApy = 5.69;
+        let fluidApy = 7.72;
+        let compoundApy = 7.65;
+        let morphoApy = 10.0;
+        let sparkApy = 8.0;
+        let seamlessApy = 5.0;
+        let moonwellApy = 5.0;
+        
+        try {
+          const { fetchProtocolApy } = await import('../lib/defillama-api');
+          const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy, realSparkApy, realSeamlessApy, realMoonwellApy] = await Promise.allSettled([
+            fetchProtocolApy("AAVE"),
+            fetchProtocolApy("FLUID"), 
+            fetchProtocolApy("COMPOUND"),
+            fetchProtocolApy("MORPHO"),
+            fetchProtocolApy("SPARK"),
+            fetchProtocolApy("SEAMLESS"),
+            fetchProtocolApy("MOONWELL")
+          ]);
+          
+          if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
+          if (realFluidApy.status === 'fulfilled') fluidApy = realFluidApy.value;
+          if (realCompoundApy.status === 'fulfilled') compoundApy = realCompoundApy.value;
+          if (realMorphoApy.status === 'fulfilled') morphoApy = realMorphoApy.value;
+          if (realSparkApy.status === 'fulfilled') sparkApy = realSparkApy.value;
+          if (realSeamlessApy.status === 'fulfilled') seamlessApy = realSeamlessApy.value;
+          if (realMoonwellApy.status === 'fulfilled') moonwellApy = realMoonwellApy.value;
+          
+          console.log(`Main menu APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%, Spark ${sparkApy}%, Seamless ${seamlessApy}%, Moonwell ${moonwellApy}%`);
+        } catch (error) {
+          console.warn("Failed to fetch real-time APY for main menu, using fallback rates:", error);
+        }
+        
+        // Calculate weighted average APY for earnings calculation
+        const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum;
+        const weightedApy = totalValue > 0 ? (
+          (aaveBalanceNum * aaveApy + 
+           fluidBalanceNum * fluidApy + 
+           compoundBalanceNum * compoundApy + 
+           morphoBalanceNum * morphoApy + 
+           sparkBalanceNum * sparkApy + 
+           seamlessBalanceNum * seamlessApy + 
+           moonwellBalanceNum * moonwellApy) / totalValue
+        ) : 0;
+        
+        const earnings = calculateRealTimeEarnings(totalDeployed, weightedApy);
         
         let message = `🐙 *Welcome back ${firstName}!*\n\n`;
-        message += `💰 **Portfolio Summary:**\n`;
+        message += `💰 **inkvest savings account:**\n`;
         
         if (morphoBalanceNum > 0.01) {
-          message += `• $${morphoBalanceNum.toFixed(2)} in Morpho PYTH/USDC (10% APY)\n`;
+          message += `• $${morphoBalanceNum.toFixed(2)} in Morpho PYTH/USDC (${morphoApy}% APY)\n`;
         }
         if (sparkBalanceNum > 0.01) {
-          message += `• $${sparkBalanceNum.toFixed(2)} in Spark USDC Vault (8% APY)\n`;
+          message += `• $${sparkBalanceNum.toFixed(2)} in Spark USDC Vault (${sparkApy}% APY)\n`;
         }
         if (seamlessBalanceNum > 0.01) {
-          message += `• $${seamlessBalanceNum.toFixed(2)} in Seamless USDC (5% APY)\n`;
+          message += `• $${seamlessBalanceNum.toFixed(2)} in Seamless USDC (${seamlessApy}% APY)\n`;
+        }
+        if (moonwellBalanceNum > 0.01) {
+          message += `• $${moonwellBalanceNum.toFixed(2)} in Moonwell USDC (${moonwellApy}% APY)\n`;
         }
         if (compoundBalanceNum > 0.01) {
-          message += `• $${compoundBalanceNum.toFixed(2)} in Compound V3 (${apy}% APY)\n`;
+          message += `• $${compoundBalanceNum.toFixed(2)} in Compound V3 (${compoundApy}% APY)\n`;
         }
         if (aaveBalanceNum > 0.01) {
-          message += `• $${aaveBalanceNum.toFixed(2)} in Aave V3\n`;
+          message += `• $${aaveBalanceNum.toFixed(2)} in Aave V3 (${aaveApy}% APY)\n`;
         }
         if (fluidBalanceNum > 0.01) {
-          message += `• $${fluidBalanceNum.toFixed(2)} in Fluid Protocol\n`;
+          message += `• $${fluidBalanceNum.toFixed(2)} in Fluid Protocol (${fluidApy}% APY)\n`;
         }
         
         message += `\n💸 **Total Value:** $${totalDeployed.toFixed(2)}\n`;
