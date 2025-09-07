@@ -531,8 +531,6 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
 async function loadWalletAddresses() {
   try {
     const users = getUsersForBalanceMonitoring();
-    console.log(`🔍 getUsersForBalanceMonitoring() returned ${users.length} users:`, users.map(u => `${u.userId} (${u.firstName || 'Unknown'})`));
-    
     const previousCount = monitoredWallets.size;
     monitoredWallets.clear();
     
@@ -541,15 +539,10 @@ async function loadWalletAddresses() {
       if (wallet) {
         let addressToMonitor = wallet.address;
         
-        // Enhanced debug logging
-        console.log(`👤 User: ${user.userId} (${user.firstName || 'Unknown'}) → Wallet: ${addressToMonitor}`);
-        console.log(`📍 Monitoring deposits for: ${addressToMonitor}`);
-        
         // Store pre-deposit balance for this user (only if not already set)
         if (!preDepositBalances.has(user.userId)) {
           const preBalance = await checkPreDepositBalance(user.userId);
           preDepositBalances.set(user.userId, preBalance);
-          console.log(`🏁 Initial pre-deposit balance set for user ${user.userId}: $${preBalance} USDC`);
         }
         
         monitoredWallets.add({
@@ -562,17 +555,10 @@ async function loadWalletAddresses() {
     
     const currentCount = monitoredWallets.size;
     if (currentCount !== previousCount) {
-      console.log(`📊 Wallet count changed: ${previousCount} → ${currentCount} wallets to monitor`);
+      console.log(`📊 Monitoring ${currentCount} wallet(s) for deposits`);
     }
     
-    // Summary: Show all monitored wallets
-    const walletList = Array.from(monitoredWallets);
-    console.log(`🎯 Currently monitoring ${walletList.length} wallets:`);
-    walletList.forEach(w => {
-      console.log(`  • ${w.userId} (${w.firstName}): ${w.address}`);
-    });
-    
-    return walletList;
+    return Array.from(monitoredWallets);
     
   } catch (error) {
     console.error("Error loading wallet addresses:", error);
@@ -731,16 +717,6 @@ function setupWebSocketConnection() {
       
       if (message.method === 'eth_subscription') {
         const log = message.params.result;
-        
-        // Debug: Log all incoming events
-        const recipientAddress = '0x' + log.topics[2].slice(-40);
-        const amount = parseTransferAmount(log.data);
-        console.log(`📨 USDC Transfer Event: ${amount} USDC → ${recipientAddress.toLowerCase().slice(0,8)}... (${log.transactionHash.slice(0,10)}...)`);
-        
-        // Debug: Show monitored wallets
-        const monitoredAddresses = Array.from(monitoredWallets).map(w => w.address.slice(0,8) + '...');
-        console.log(`🎯 Currently monitoring: [${monitoredAddresses.join(', ')}]`);
-        
         handleTransferEvent(log);
       } else if (message.id === 1) {
         console.log(`✅ Subscription confirmed: ${message.result}`);
