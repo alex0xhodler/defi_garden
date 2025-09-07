@@ -13,8 +13,8 @@ const monitorBot = new Bot(process.env.TELEGRAM_BOT_TOKEN || "");
 // Base USDC token address
 const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 
-// Coinbase WebSocket endpoint for Base mainnet
-const BASE_WSS = "wss://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz";
+// 0xrpc.io WebSocket endpoint for Base mainnet
+const BASE_WSS = "wss://0xrpc.io/base";
 
 // Store monitored wallet addresses and connection state
 const monitoredWallets = new Set();
