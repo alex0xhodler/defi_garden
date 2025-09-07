@@ -41,6 +41,7 @@ const withdrawHandler: CommandHandler = {
         .text("🏦 Exit from Compound", "withdraw_compound_menu").row()
         .text("🔬 Exit from Morpho", "withdraw_morpho_menu").row()
         .text("⚡ Exit from Spark", "withdraw_spark_menu").row()
+        .text("🌊 Exit from Seamless", "withdraw_seamless_menu").row()
         .text("❌ Cancel", "cancel_operation");
 
       await ctx.reply(
@@ -60,6 +61,9 @@ const withdrawHandler: CommandHandler = {
           `• Gasless withdrawals via Smart Wallet\n\n` +
           `**⚡ Spark USDC Vault**\n` +
           `• Low-risk Morpho vault (8% APY)\n` +
+          `• Gasless withdrawals via Smart Wallet\n\n` +
+          `**🌊 Seamless USDC**\n` +
+          `• Base network lending (5% APY)\n` +
           `• Gasless withdrawals via Smart Wallet\n\n` +
           `**Note:** Small gas fee (~$0.002) required for each exit`,
         {
@@ -453,6 +457,135 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
           `Please enter the amount of SPARKUSDC shares you want to redeem:\n\n` +
           `**Examples:**\n` +
           `• \`1\` - Redeem 1 SPARKUSDC share\n` +
+          `• \`0.5\` - Redeem 0.5 shares\n` +
+          `• \`max\` - Redeem all available\n\n` +
+          `**Note:** Gasless via Smart Wallet technology\n\n` +
+          `**Cancel:** Send /cancel`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_seamless_menu") {
+      await ctx.answerCallbackQuery();
+      
+      const keyboard = new InlineKeyboard()
+        .text("💸 Exit All Seamless", "withdraw_seamless_max").row()
+        .text("⚖️ Exit Custom Amount", "withdraw_seamless_custom").row()
+        .text("🔙 Back", "withdraw");
+
+      await ctx.reply(
+        `🌊 **Exit from Seamless USDC**\n\n` +
+          `**Your Seamless Position:**\n` +
+          `• Current APY: 5.0%\n` +
+          `• Token: SMUSDC shares (vault shares)\n` +
+          `• Rewards: Auto-compounding yield\n\n` +
+          `**Exit Options:**\n` +
+          `• **Exit All** - Withdraw complete Seamless position to Smart Wallet\n` +
+          `• **Custom Amount** - Specify exact share amount to redeem\n\n` +
+          `**Note:** Gasless transactions via Smart Wallet technology`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_seamless_max") {
+      await ctx.answerCallbackQuery();
+      
+      const processingMsg = await ctx.reply(
+        `🔄 **Processing Pool Exit...**\n\n` +
+          `**Protocol:** Seamless USDC\n` +
+          `**Amount:** All available shares\n` +
+          `**Gas:** Sponsored by inkvest (gasless for you!)\n` +
+          `**Status:** Executing transaction...`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+
+      try {
+        // Import the withdrawFromSeamless function
+        const { withdrawFromSeamless } = await import("../services/seamless-defi");
+        
+        const userId = ctx.from?.id?.toString();
+        if (!userId) {
+          throw new Error("User ID not found");
+        }
+
+        const result = await withdrawFromSeamless(userId, "max");
+        if (!result.success) {
+          throw new Error(result.error || "Unknown withdrawal error");
+        }
+
+        await ctx.api.editMessageText(
+          ctx.chat!.id,
+          processingMsg.message_id,
+          `✅ **Seamless Pool Exit Successful!**\n\n` +
+            `**Protocol:** Seamless USDC\n` +
+            `**Transaction:** \`${result.txHash}\`\n` +
+            `**USDC Received:** ${result.assets ? (parseFloat(result.assets) / 1e6).toFixed(6) : 'Processing...'}\n` +
+            `**Gas Cost:** $0.00 (sponsored by inkvest!)\n` +
+            `**Status:** ✅ Complete\n\n` +
+            `💰 USDC has been added to your Smart Wallet\n` +
+            `📊 Check your updated portfolio`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: new InlineKeyboard()
+              .text("📊 View Portfolio", "view_portfolio")
+              .text("💰 Check Balance", "check_balance")
+              .row()
+              .text("🦑 Start Earning", "zap_funds")
+          }
+        );
+      } catch (error: any) {
+        console.error("Seamless withdrawal failed:", error);
+        const errorKeyboard = new InlineKeyboard()
+          .text("🔄 Try Again", "withdraw_seamless_max")
+          .text("💸 Custom Amount", "withdraw_seamless_custom")
+          .row()
+          .text("📊 View Portfolio", "view_portfolio")
+          .text("💰 Check Balance", "check_balance");
+
+        await ctx.api.editMessageText(
+          ctx.chat!.id,
+          processingMsg.message_id,
+          `❌ **Seamless Pool Exit Failed**\n\n` +
+            `**Error:** ${error.message}\n\n` +
+            `**Common Issues:**\n` +
+            `• No Seamless position found\n` +
+            `• Network connectivity issues\n` +
+            `• Transaction temporarily failed\n\n` +
+            `**Solutions:**\n` +
+            `• Try again in a few seconds\n` +
+            `• Check your portfolio first\n` +
+            `• Use custom amount if max fails`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: errorKeyboard
+          }
+        );
+      }
+      return;
+    }
+
+    if (callbackData === "withdraw_seamless_custom") {
+      await ctx.answerCallbackQuery();
+      
+      // Store protocol preference and set state for amount input
+      ctx.session.tempData = ctx.session.tempData || {};
+      ctx.session.tempData.protocol = "seamless";
+      ctx.session.awaitingWithdrawAmount = true;
+      
+      await ctx.reply(
+        `💸 **Custom Seamless Withdrawal**\n\n` +
+          `Please enter the amount of SMUSDC shares you want to redeem:\n\n` +
+          `**Examples:**\n` +
+          `• \`1\` - Redeem 1 SMUSDC share\n` +
           `• \`0.5\` - Redeem 0.5 shares\n` +
           `• \`max\` - Redeem all available\n\n` +
           `**Note:** Gasless via Smart Wallet technology\n\n` +
@@ -898,8 +1031,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
 
     // Determine which protocol to withdraw from
     const protocol = ctx.session.tempData?.protocol || "aave"; // Default to Aave for legacy support
-    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : "Aave V3";
-    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : protocol === "spark" ? "⚡" : "🏛️";
+    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : protocol === "seamless" ? "Seamless USDC" : "Aave V3";
+    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : protocol === "spark" ? "⚡" : protocol === "seamless" ? "🌊" : "🏛️";
 
     const processingMsg = await ctx.reply(
       `🔄 **Processing Withdrawal...**\n\n` +
@@ -965,6 +1098,19 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
         console.log(`⚡ Using gasless Spark withdrawal for Smart Wallet user`);
         const { withdrawFromSpark } = await import("../services/spark-defi");
         const result = await withdrawFromSpark(userId, amount);
+        if (!result.success) {
+          throw new Error(result.error);
+        }
+        receipt = {
+          transactionHash: result.txHash,
+          blockNumber: "N/A (CDP UserOp)",
+          gasUsed: "Sponsored by inkvest"
+        };
+      } else if (protocol === "seamless") {
+        // Use Seamless gasless withdrawal
+        console.log(`🌊 Using gasless Seamless withdrawal for Smart Wallet user`);
+        const { withdrawFromSeamless } = await import("../services/seamless-defi");
+        const result = await withdrawFromSeamless(userId, amount);
         if (!result.success) {
           throw new Error(result.error);
         }

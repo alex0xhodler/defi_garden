@@ -408,4 +408,132 @@ Use this guide as the **definitive pattern** for any Morpho-based pool integrati
 
 ---
 
-**🎯 Next Pool**: Copy this exact pattern, change only the vault address and protocol name!
+---
+
+## 🧪 **PHASE 3: Mandatory Testing & Validation**
+
+### **3.1 Contract-Level Testing (BEFORE Bot Integration)**
+
+**All tests MUST pass before proceeding to bot integration:**
+
+```bash
+# Test deposit functionality
+npm run test:[protocol] -- --key $TEST_PRIVATE_KEY --amount 0.1
+
+# Test custom withdrawal (critical for routing validation)
+npm run test:[protocol]-withdraw -- --key $TEST_PRIVATE_KEY --shares 0.05
+
+# Test full withdrawal
+npm run test:[protocol]-withdraw -- --key $TEST_PRIVATE_KEY --shares max
+```
+
+**Success Criteria:**
+- [ ] All transactions confirm on blockchain
+- [ ] Deposit shows shares received
+- [ ] Withdrawals show USDC received
+- [ ] Gasless execution (CDP Paymaster working)
+- [ ] Exchange rate shows yield accrual
+
+### **3.2 Bot Interface Testing (CRITICAL)**
+
+**Complete User Journey Validation:**
+
+1. **Manual Investment Flow**:
+   ```
+   /earn → 🎯 Manual Selection → [Protocol] → Deploy 1 USDC → Confirm
+   ```
+   - [ ] ✅ Success with transaction hash
+   - [ ] No "unsupported protocol" errors
+
+2. **Display Integration Testing**:
+   ```
+   /balance → Should show protocol position
+   /portfolio → Should show protocol with APY and status
+   Welcome message → Should show position if active
+   ```
+   - [ ] Consistent position amounts across all displays
+   - [ ] Correct APY from DeFiLlama
+   - [ ] Protocol appears with proper emoji and naming
+
+3. **Withdrawal Flow Testing**:
+   ```
+   /withdraw → [Protocol] → 💸 Exit All → Success
+   /withdraw → [Protocol] → ⚖️ Custom Amount → Enter amount → Success
+   ```
+   - [ ] **CRITICAL**: Custom withdrawal routes to correct protocol (not Aave!)
+   - [ ] Max withdrawal works
+   - [ ] Both show gasless execution logs
+
+### **3.3 Log Validation Requirements**
+
+**Required log patterns for integration success:**
+
+```bash
+# Build validation
+npm run build  # Must pass without TypeScript errors
+
+# DeFiLlama integration logs
+"Found X/X requested pools" (X should increase by 1)
+"✅ [Protocol Name]: X.X% APY ... - saved to DB"
+
+# Withdrawal routing logs (CRITICAL)
+"🌊 Using gasless [Protocol] withdrawal for Smart Wallet user"
+# NOT "🦑 Using gasless Aave withdrawal" for other protocols!
+
+# Error validation
+NO "Unknown command" errors
+NO "Unsupported protocol" errors
+```
+
+### **3.4 Automated Bot Testing**
+
+**Run comprehensive bot validation:**
+
+```bash
+# Set up test environment (secure - use your own credentials)
+export BOT_TOKEN=your_test_bot_token
+export CHAT_ID=your_chat_id
+
+# Run automated Telegram bot integration test
+npm run test:telegram-bot -- --protocol [protocol_name]
+```
+
+**Automated Validation Includes:**
+- [ ] DeFiLlama fetching logs validation
+- [ ] Display command integration (`/balance`, `/portfolio`)
+- [ ] Withdrawal interface accessibility
+- [ ] Critical routing logic verification
+- [ ] Comprehensive test report generation
+
+### **3.5 Integration Completion Checklist**
+
+**Before declaring integration complete, verify ALL:**
+
+**📋 Contract Functions:**
+- [ ] Deposit function works (npm test script passes)
+- [ ] Custom withdrawal works (npm test script passes)
+- [ ] Full withdrawal works (npm test script passes)
+
+**🤖 Bot Integration:**
+- [ ] Protocol visible in manual selection
+- [ ] Manual investment executes successfully
+- [ ] Balance command shows protocol position
+- [ ] Portfolio command shows protocol with APY
+- [ ] Withdrawal interface includes protocol
+- [ ] Max withdrawal executes successfully
+- [ ] **CRITICAL**: Custom withdrawal routes to correct protocol
+
+**📊 System Integration:**
+- [ ] DeFiLlama real-time fetching working
+- [ ] Risk scoring applied correctly
+- [ ] Gasless routing configured
+- [ ] No unknown command errors
+- [ ] TypeScript compilation passes
+
+**🎯 Success Criteria**: If ALL checkboxes pass → Integration is complete and production ready!
+
+---
+
+**🔑 Critical Insight**: Testing is not optional - it's what distinguishes working integrations from broken ones. The systematic approach prevents the routing bugs we discovered during Seamless integration.
+
+**🎯 Next Pool**: Copy this exact pattern, change only the vault address and protocol name, then follow this complete testing protocol!
