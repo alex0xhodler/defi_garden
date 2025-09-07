@@ -535,21 +535,30 @@ async function loadWalletAddresses() {
     monitoredWallets.clear();
     
     for (const user of users) {
-      const wallet = getWalletByUserId(user.userId);
-      if (wallet) {
-        let addressToMonitor = wallet.address;
+      try {
+        // Use the SAME address logic as the bot display - get Smart Wallet address
+        const { getCoinbaseSmartWallet } = require("../lib/coinbase-wallet");
+        const smartWallet = await getCoinbaseSmartWallet(user.userId);
         
-        // Store pre-deposit balance for this user (only if not already set)
-        if (!preDepositBalances.has(user.userId)) {
-          const preBalance = await checkPreDepositBalance(user.userId);
-          preDepositBalances.set(user.userId, preBalance);
+        if (smartWallet && smartWallet.address) {
+          let addressToMonitor = smartWallet.address; // This is smartAccount.address - same as bot display
+          
+          // Store pre-deposit balance for this user (only if not already set)
+          if (!preDepositBalances.has(user.userId)) {
+            const preBalance = await checkPreDepositBalance(user.userId);
+            preDepositBalances.set(user.userId, preBalance);
+          }
+          
+          monitoredWallets.add({
+            address: addressToMonitor.toLowerCase(),
+            userId: user.userId,
+            firstName: user.firstName || "there"
+          });
+          
+          console.log(`🎯 Monitoring ${user.firstName || user.userId}: ${addressToMonitor.slice(0,10)}...`);
         }
-        
-        monitoredWallets.add({
-          address: addressToMonitor.toLowerCase(),
-          userId: user.userId,
-          firstName: user.firstName || "there"
-        });
+      } catch (error) {
+        console.error(`Error getting wallet for user ${user.userId}:`, error.message);
       }
     }
     
