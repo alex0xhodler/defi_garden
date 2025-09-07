@@ -485,10 +485,12 @@ bot.on("callback_query:data", async (ctx) => {
       return;
     }
 
-    // Start deposit monitoring for 5 minutes when user checks for deposits
-    const { startDepositMonitoring } = await import("./src/lib/database");
-    startDepositMonitoring(userId, 5);
-    console.log(`🎯 Started deposit monitoring for user ${userId} (manual_balance_check)`);
+    // Start deposit monitoring for 5 minutes when user manually checks balance
+    const { startDepositMonitoringWithContext } = await import("./src/lib/database");
+    startDepositMonitoringWithContext(userId, 'balance_check', 5, {
+      trigger: 'manual_balance_check_button'
+    });
+    console.log(`🎯 Started balance_check monitoring for user ${userId} (manual_balance_check)`);
 
     // Force refresh monitoring service to include this user immediately
     try {
@@ -709,10 +711,12 @@ bot.on("callback_query:data", async (ctx) => {
       return;
     }
 
-    // Start deposit monitoring for 5 minutes when user requests deposit info
-    const { startDepositMonitoring } = await import("./src/lib/database");
-    startDepositMonitoring(userId, 5);
-    console.log(`🎯 Started deposit monitoring for user ${userId} (deposit_help)`);
+    // Start deposit monitoring for 5 minutes when user requests deposit help
+    const { startDepositMonitoringWithContext } = await import("./src/lib/database");
+    startDepositMonitoringWithContext(userId, 'balance_check', 5, {
+      trigger: 'deposit_help_button'
+    });
+    console.log(`🎯 Started balance_check monitoring for user ${userId} (deposit_help)`);
 
     // Force refresh monitoring service to include this user immediately
     try {
@@ -839,11 +843,63 @@ bot.on("callback_query:data", async (ctx) => {
     
     if (selectedPoolData) {
       const { calculateRiskScore } = await import("./src/commands/zap");
+      
+      // Protocol mapping for deployment metadata (matches event-monitor.js)
+      const protocolMap = {
+        'Aave': {
+          deployFn: 'gaslessDeployToAave',
+          service: '../services/coinbase-defi',
+          displayName: 'Aave V3'
+        },
+        'Fluid': {
+          deployFn: 'gaslessDeployToFluid',
+          service: '../services/coinbase-defi', 
+          displayName: 'Fluid'
+        },
+        'Compound': {
+          deployFn: 'autoDeployToCompoundV3',
+          service: '../services/coinbase-defi',
+          displayName: 'Compound V3'
+        },
+        'Morpho': {
+          deployFn: 'deployToMorphoPYTH',
+          service: '../services/morpho-defi',
+          displayName: 'Morpho PYTH/USDC'
+        },
+        'Spark': {
+          deployFn: 'deployToSpark',
+          service: '../services/spark-defi',
+          displayName: 'Spark Protocol'
+        },
+        'Seamless': {
+          deployFn: 'deployToSeamless',
+          service: '../services/seamless-defi',
+          displayName: 'Seamless Protocol'
+        },
+        'Moonwell': {
+          deployFn: 'deployToMoonwell',
+          service: '../services/moonwell-defi',
+          displayName: 'Moonwell USDC'
+        },
+        'Moonwell USDC': {
+          deployFn: 'deployToMoonwell',
+          service: '../services/moonwell-defi',
+          displayName: 'Moonwell USDC'
+        }
+      };
+      
+      const protocolConfig = protocolMap[selectedPoolData.project as keyof typeof protocolMap];
+      
       ctx.session.tempData!.poolInfo = {
         protocol: selectedPoolData.project,
         apy: selectedPoolData.apy,
         tvlUsd: selectedPoolData.tvlUsd,
-        riskScore: calculateRiskScore(selectedPoolData)
+        riskScore: calculateRiskScore(selectedPoolData),
+        // Add deployment metadata for manual protocol completion
+        deployFn: protocolConfig?.deployFn,
+        service: protocolConfig?.service,
+        displayName: protocolConfig?.displayName || selectedPoolData.project,
+        project: selectedPoolData.project
       };
     }
     

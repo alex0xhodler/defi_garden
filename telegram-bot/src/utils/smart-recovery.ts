@@ -1,7 +1,7 @@
 import { BotContext } from "../context";
 import { InlineKeyboard } from "grammy";
 import { getWallet } from "../lib/token-wallet";
-import { startDepositMonitoring } from "../lib/database";
+import { startDepositMonitoringWithContext } from "../lib/database";
 
 export interface PendingTransaction {
   type: 'invest' | 'withdraw';
@@ -12,6 +12,13 @@ export interface PendingTransaction {
   shortage: number;
   timestamp: number;
   reminderSent?: boolean;
+  // Enhanced for manual selection completion
+  isManualSelection?: boolean;
+  deployFn?: string;
+  service?: string; 
+  displayName?: string;
+  project?: string;
+  riskScore?: number;
 }
 
 export interface InsufficientBalanceDetails {
@@ -36,7 +43,15 @@ export function storePendingTransaction(ctx: BotContext, details: InsufficientBa
     apy: details.apy,
     shortage: details.shortage,
     timestamp: Date.now(),
-    reminderSent: false
+    reminderSent: false,
+    // Mark as manual selection for auto-deployment logic
+    isManualSelection: true,
+    // Store deployment metadata from poolInfo if available
+    deployFn: details.poolInfo?.deployFn,
+    service: details.poolInfo?.service,
+    displayName: details.poolInfo?.displayName || details.protocol,
+    project: details.poolInfo?.project || details.protocol,
+    riskScore: details.poolInfo?.riskScore
   };
 
   // Store in in-memory session
@@ -172,8 +187,12 @@ export async function sendInsufficientBalanceFlow(
     // Store pending transaction
     storePendingTransaction(ctx, details);
 
-    // Start 5-minute monitoring window
-    startDepositMonitoring(userId, 5);
+    // Start 5-minute monitoring window with manual selection context
+    startDepositMonitoringWithContext(userId, 'manual_selection', 5, {
+      protocol: details.protocol,
+      amount: details.requestedAmount,
+      apy: details.apy
+    });
     
     // Force refresh event monitor to immediately watch this wallet
     try {

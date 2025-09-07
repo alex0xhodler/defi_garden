@@ -7,7 +7,7 @@ import {
   getUserSettings,
   saveUserSettings,
   updateUserBalanceCheckTime,
-  startDepositMonitoring,
+  startDepositMonitoringWithContext,
 } from "../lib/database";
 import { generateCoinbaseSmartWallet, getCoinbaseSmartWallet, hasCoinbaseSmartWallet } from "../lib/coinbase-wallet";
 import { CommandHandler } from "../types/commands";
@@ -63,8 +63,11 @@ export const startHandler: CommandHandler = {
         // Start balance monitoring (legacy system for onboarding)
         updateUserBalanceCheckTime(userId);
         
-        // Start 5-minute deposit monitoring window
-        startDepositMonitoring(userId, 5);
+        // Start 5-minute deposit monitoring window (new user onboarding)
+        startDepositMonitoringWithContext(userId, 'onboarding', 5, {
+          userType: 'new_user',
+          walletCreated: true
+        });
         
         // Manual balance checking system will handle deposit detection
         console.log(`🔄 User ${userId} ready for manual balance checks`);
@@ -202,9 +205,12 @@ export const startHandler: CommandHandler = {
               );
             } else {
               // User has no funds - show deposit screen and START MONITORING
-              const { startDepositMonitoring } = await import("../lib/database");
-              startDepositMonitoring(userId, 5);
-              console.log(`🎯 Started deposit monitoring for user ${userId} (/start - no funds)`);
+              const { startDepositMonitoringWithContext } = await import("../lib/database");
+              startDepositMonitoringWithContext(userId, 'onboarding', 5, {
+                userType: 'existing_low_balance',
+                totalFunds: totalFunds
+              });
+              console.log(`🎯 Started onboarding monitoring for user ${userId} (/start - no funds)`);
 
               // Force refresh monitoring service to include this user
               try {
@@ -234,9 +240,12 @@ export const startHandler: CommandHandler = {
             console.error("Error checking user funds for", firstName, ":", error);
             
             // Fallback to basic deposit screen - ALSO START MONITORING
-            const { startDepositMonitoring } = await import("../lib/database");
-            startDepositMonitoring(userId, 5);
-            console.log(`🎯 Started deposit monitoring for user ${userId} (/start - fallback)`);
+            const { startDepositMonitoringWithContext } = await import("../lib/database");
+            startDepositMonitoringWithContext(userId, 'onboarding', 5, {
+              userType: 'existing_fallback',
+              error: 'balance_check_failed'
+            });
+            console.log(`🎯 Started onboarding monitoring for user ${userId} (/start - fallback)`);
 
             // Force refresh monitoring service
             try {
