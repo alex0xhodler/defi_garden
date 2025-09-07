@@ -150,17 +150,30 @@ export const startHandler: CommandHandler = {
           ctx.session.walletAddress = wallet.address;
           
           // Check both wallet USDC balance and DeFi positions
-          const { getCoinbaseWalletUSDCBalance } = await import("../lib/coinbase-wallet");
+          const { getCoinbaseWalletUSDCBalance, getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
           const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import("../lib/token-wallet");
           const { getMorphoBalance } = await import("../services/morpho-defi");
+          const { getSparkBalance } = await import("../services/spark-defi");
+          const { getSeamlessBalance } = await import("../services/seamless-defi");
+          const { getMoonwellBalance } = await import("../services/moonwell-defi");
           
           try {
-            const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance] = await Promise.all([
+            // Get Smart Wallet address for new protocols (since deposits are made via CDP)
+            const smartWallet = await getCoinbaseSmartWallet(userId);
+            const smartWalletAddress = smartWallet?.smartAccount.address;
+            
+            const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance] = await Promise.all([
               getCoinbaseWalletUSDCBalance(wallet.address as Address),
               getAaveBalance(wallet.address as Address),
               getFluidBalance(wallet.address as Address),
               getCompoundBalance(wallet.address as Address),
-              getMorphoBalance(wallet.address as Address)
+              getMorphoBalance(wallet.address as Address),
+              // Check Spark balance on Smart Wallet address since deposits are made there
+              smartWalletAddress ? getSparkBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+              // Check Seamless balance on Smart Wallet address since deposits are made there
+              smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+              // Check Moonwell balance on Smart Wallet address since deposits are made there
+              smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
             ]);
 
             const walletUsdcNum = parseFloat(walletUsdc);
@@ -168,10 +181,13 @@ export const startHandler: CommandHandler = {
             const fluidBalanceNum = parseFloat(fluidBalance.fUsdcBalanceFormatted);
             const compoundBalanceNum = parseFloat(compoundBalance.cUsdcBalanceFormatted);
             const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
+            const sparkBalanceNum = parseFloat(sparkBalance.assetsFormatted);
+            const seamlessBalanceNum = parseFloat(seamlessBalance.assetsFormatted);
+            const moonwellBalanceNum = parseFloat(moonwellBalance.assetsFormatted);
             
-            const totalFunds = walletUsdcNum + aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum;
+            const totalFunds = walletUsdcNum + aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum;
             
-            console.log(`🔍 User ${firstName} funds check: Wallet: $${walletUsdcNum}, Aave: $${aaveBalanceNum}, Fluid: $${fluidBalanceNum}, Compound: $${compoundBalanceNum}, Morpho: $${morphoBalanceNum}, Total: $${totalFunds}`);
+            console.log(`🔍 User ${firstName} funds check: Wallet: $${walletUsdcNum}, Aave: $${aaveBalanceNum}, Fluid: $${fluidBalanceNum}, Compound: $${compoundBalanceNum}, Morpho: $${morphoBalanceNum}, Spark: $${sparkBalanceNum}, Seamless: $${seamlessBalanceNum}, Moonwell: $${moonwellBalanceNum}, Total: $${totalFunds}`);
             
             if (totalFunds > 0.01) {
               // User has funds - show full main menu
