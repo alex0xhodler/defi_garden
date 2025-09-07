@@ -492,10 +492,10 @@ bot.on("callback_query:data", async (ctx) => {
 
     // Force refresh monitoring service to include this user
     try {
-      const { forceRefreshWallets } = await import("./src/services/event-monitor");
-      await forceRefreshWallets();
+      const eventMonitor = await import("./src/services/event-monitor");
+      await eventMonitor.forceRefreshWallets();
     } catch (error) {
-      console.log("Event monitor refresh failed:", error.message);
+      console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
     }
 
     const { getCoinbaseSmartWallet, getCoinbaseWalletUSDCBalance } = await import("./src/lib/coinbase-wallet");
@@ -715,10 +715,10 @@ bot.on("callback_query:data", async (ctx) => {
 
     // Force refresh monitoring service to include this user
     try {
-      const { forceRefreshWallets } = await import("./src/services/event-monitor");
-      await forceRefreshWallets();
+      const eventMonitor = await import("./src/services/event-monitor");
+      await eventMonitor.forceRefreshWallets();
     } catch (error) {
-      console.log("Event monitor refresh failed:", error.message);
+      console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
     }
     
     const keyboard = new InlineKeyboard()
