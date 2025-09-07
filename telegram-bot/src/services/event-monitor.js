@@ -231,15 +231,18 @@ async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) 
   try {
     // Get the pre-deposit balance we stored when monitoring started
     const preDepositBalance = preDepositBalances.get(userId) || 0;
-    const isFirstDeposit = preDepositBalance < 0.01; // Less than 1 cent = new user
+    const depositAmount = parseFloat(amount);
     
-    console.log(`💡 Deposit handling: User ${userId}, pre-deposit: $${preDepositBalance}, first deposit: ${isFirstDeposit}`);
+    // If deposit is significant (>$0.10) and user is actively being monitored, auto-invest it
+    const shouldAutoInvest = depositAmount > 0.10; // Any meaningful deposit gets auto-invested
     
-    if (isFirstDeposit) {
-      // New user - auto-deploy for quick onboarding
+    console.log(`💡 Deposit handling: User ${userId}, pre-deposit: $${preDepositBalance}, deposit: $${depositAmount}, auto-invest: ${shouldAutoInvest}`);
+    
+    if (shouldAutoInvest) {
+      // Auto-deploy any meaningful deposit for active users
       await handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash);
     } else {
-      // Existing user - keep funds in wallet and notify
+      // Very small deposit - just notify
       await handleExistingUserDeposit(userId, firstName, amount, tokenSymbol, txHash);
     }
     
@@ -533,6 +536,15 @@ async function loadWalletAddresses() {
     const users = getUsersForBalanceMonitoring();
     console.log(`🔍 getUsersForBalanceMonitoring() returned ${users.length} users:`, 
       users.map(u => `${u.userId}(${u.firstName}) expectingUntil:${u.expectingDepositUntil} onboarding:${u.onboardingCompleted}`));
+    
+    // Clean up expired monitoring states
+    const currentTime = Date.now();
+    users.forEach(user => {
+      if (user.expectingDepositUntil && user.expectingDepositUntil < currentTime) {
+        console.log(`🧹 Cleaning up expired monitoring for user ${user.userId} (${user.firstName})`);
+        stopDepositMonitoring(user.userId);
+      }
+    });
     
     const previousCount = monitoredWallets.size;
     monitoredWallets.clear();
