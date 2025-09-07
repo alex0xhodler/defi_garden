@@ -219,10 +219,18 @@ export async function withdrawFromSeamless(
     // Using direct vault redeem (ERC4626 standard) - same as successful Morpho/Spark pattern
     // The working deposit used direct vault interaction, so withdrawal should too
     
+    console.log(`🔍 Debug info:`);
+    console.log(`   Vault: ${SEAMLESS_CONTRACTS.SEAMLESS_USDC_VAULT}`);
+    console.log(`   Shares to redeem: ${sharesWei}`);
+    console.log(`   Smart Account: ${smartAccount.address}`);
+    console.log(`   Share balance: ${shareBalance}`);
+    
     const directRedeemCalldata = '0xba087652' +  // redeem(uint256,address,address) - ERC4626 standard
       sharesWei.toString(16).padStart(64, '0') +             // shares amount
       smartAccount.address.slice(2).padStart(64, '0') +      // receiver 
       smartAccount.address.slice(2).padStart(64, '0');       // owner
+
+    console.log(`   Redeem calldata: ${directRedeemCalldata}`);
 
     const operations = [
       // Direct redeem from Seamless vault (ERC4626)
