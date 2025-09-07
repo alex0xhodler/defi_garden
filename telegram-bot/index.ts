@@ -490,10 +490,11 @@ bot.on("callback_query:data", async (ctx) => {
     startDepositMonitoring(userId, 5);
     console.log(`🎯 Started deposit monitoring for user ${userId} (manual_balance_check)`);
 
-    // Force refresh monitoring service to include this user
+    // Force refresh monitoring service to include this user immediately
     try {
       const eventMonitor = await import("./src/services/event-monitor");
       await eventMonitor.forceRefreshWallets();
+      console.log(`🔄 Refreshed monitoring service for user ${userId}`);
     } catch (error) {
       console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
     }
@@ -713,10 +714,11 @@ bot.on("callback_query:data", async (ctx) => {
     startDepositMonitoring(userId, 5);
     console.log(`🎯 Started deposit monitoring for user ${userId} (deposit_help)`);
 
-    // Force refresh monitoring service to include this user
+    // Force refresh monitoring service to include this user immediately
     try {
       const eventMonitor = await import("./src/services/event-monitor");
       await eventMonitor.forceRefreshWallets();
+      console.log(`🔄 Refreshed monitoring service for user ${userId}`);
     } catch (error) {
       console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
     }

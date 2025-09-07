@@ -531,6 +531,9 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
 async function loadWalletAddresses() {
   try {
     const users = getUsersForBalanceMonitoring();
+    console.log(`🔍 getUsersForBalanceMonitoring() returned ${users.length} users:`, 
+      users.map(u => `${u.userId}(${u.firstName}) expectingUntil:${u.expectingDepositUntil} onboarding:${u.onboardingCompleted}`));
+    
     const previousCount = monitoredWallets.size;
     monitoredWallets.clear();
     
