@@ -236,4 +236,111 @@ When integrating a new protocol, copy this checklist:
 
 ---
 
-**Remember**: Missing DeFiLlama integration = Invisible protocol in bot! 🚨
+## 🆕 **NEW CRITICAL STEP: Withdrawal Routing**
+
+**Discovered during Seamless integration - MUST NOT MISS!**
+
+### **⚠️ CRITICAL: Custom Withdrawal Routing**
+
+**File**: `src/commands/withdraw.ts`  
+**Function**: `handleWithdrawAmountInput`  
+**Issue**: Custom withdrawals default to Aave if protocol case is missing  
+**Impact**: Users trying custom withdrawal from new protocol get Aave withdrawal instead!
+
+#### **Required Updates in handleWithdrawAmountInput:**
+
+1. **Protocol Name Mapping** (~line 1034):
+```typescript
+const protocolName = protocol === "fluid" ? "Fluid Finance" : 
+                    protocol === "compound" ? "Compound V3" : 
+                    protocol === "morpho" ? "Morpho PYTH/USDC" : 
+                    protocol === "spark" ? "Spark USDC Vault" :
+                    protocol === "[PROTOCOL_LOWERCASE]" ? "[PROTOCOL_NAME]" :  // 👈 ADD THIS
+                    "Aave V3";
+```
+
+2. **Protocol Emoji Mapping** (~line 1035):
+```typescript
+const protocolEmoji = protocol === "fluid" ? "🌊" : 
+                     protocol === "compound" ? "🏦" : 
+                     protocol === "morpho" ? "🔬" : 
+                     protocol === "spark" ? "⚡" :
+                     protocol === "[PROTOCOL_LOWERCASE]" ? "[EMOJI]" :  // 👈 ADD THIS
+                     "🏛️";
+```
+
+3. **Execution Case** (~line 1109):
+```typescript
+} else if (protocol === "[PROTOCOL_LOWERCASE]") {
+  // Use [ProtocolName] gasless withdrawal
+  console.log(`[EMOJI] Using gasless [ProtocolName] withdrawal for Smart Wallet user`);
+  const { withdrawFrom[ProtocolName] } = await import("../services/[protocol]-defi");
+  const result = await withdrawFrom[ProtocolName](userId, amount);
+  if (!result.success) {
+    throw new Error(result.error);
+  }
+  receipt = {
+    transactionHash: result.txHash,
+    blockNumber: "N/A (CDP UserOp)",
+    gasUsed: "Sponsored by inkvest"
+  };
+}
+```
+
+### **🧪 How to Validate This Fix**
+
+**Test Sequence:**
+1. `/withdraw` → Select your protocol → `⚖️ Exit Custom Amount`
+2. Enter any amount (e.g., "0.1")
+3. **Check logs for**: `🌊 Using gasless [YourProtocol] withdrawal` 
+4. **NOT**: `🦑 Using gasless Aave withdrawal`
+
+**If you see Aave logs** → The routing is broken, custom withdrawals are going to wrong protocol!
+
+---
+
+## 🎯 **Complete Integration Validation Protocol**
+
+### **Phase 1: Contract Testing**
+```bash
+npm run test:[protocol] -- --key $KEY --amount 0.1
+npm run test:[protocol]-withdraw -- --key $KEY --shares 0.05  
+npm run test:[protocol]-withdraw -- --key $KEY --shares max
+```
+
+### **Phase 2: Bot Interface Testing**
+```bash
+# Manual investment flow
+/earn → Manual Selection → [Protocol] → Deploy → Success
+
+# Display integration
+/balance → Shows protocol position
+/portfolio → Shows protocol with APY  
+Welcome back → Shows position if active
+
+# Withdrawal flows (BOTH must work)
+/withdraw → [Protocol] → Exit All → Success
+/withdraw → [Protocol] → Custom Amount → Enter amount → Success ⚠️ CRITICAL
+```
+
+### **Phase 3: Log Validation**
+```bash
+npm run build  # No TypeScript errors
+# DeFiLlama: "✅ [Protocol]: X.X% APY ... - saved to DB"
+# Routing: "Using gasless [Protocol] withdrawal" (not Aave!)
+# No unknown commands or unsupported protocol errors
+```
+
+### **Phase 4: Automated Validation**
+```bash
+export BOT_TOKEN=test_token CHAT_ID=your_id
+npm run test:telegram-bot -- --protocol [protocol]
+```
+
+**🎯 Success = ALL phases pass!**
+
+---
+
+**🔑 Key Takeaway**: Custom withdrawal routing is a hidden integration point that's easy to miss. Always test BOTH max and custom withdrawal flows to catch routing bugs!
+
+**Remember**: Missing ANY of these steps = Incomplete integration with broken user flows! 🚨

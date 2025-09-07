@@ -1,12 +1,20 @@
 #!/usr/bin/env ts-node
 
 /**
- * 🧪 Complete Bot Integration Test
+ * 🧪 Complete Bot Integration Test Suite
  * 
- * Tests the complete user flow from startup to portfolio management
- * Verifies all 8 critical integration points are working
+ * Tests complete DeFi pool integration with systematic validation:
+ * - Contract-level testing (deposit/withdraw functions)
+ * - Bot interface testing (display integration) 
+ * - User flow testing (manual investment/withdrawal)
+ * - Log validation (DeFiLlama fetching, routing correctness)
  * 
- * Usage: npm run test:bot-integration -- --key 0xYOUR_PRIVATE_KEY
+ * This ensures bulletproof integrations by catching routing bugs and
+ * display inconsistencies before declaring success.
+ * 
+ * Usage: 
+ *   npm run test:bot-integration -- --protocol seamless --key 0xYOUR_KEY
+ *   npm run test:bot-integration -- --protocol spark --key 0xYOUR_KEY
  */
 
 import { privateKeyToAccount } from 'viem/accounts';

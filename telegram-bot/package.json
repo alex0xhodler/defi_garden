@@ -15,6 +15,7 @@
     "test:seamless": "ts-node src/scripts/test-seamless-deposit.ts",
     "test:seamless-withdraw": "ts-node src/scripts/test-seamless-withdrawal.ts",
     "test:bot-integration": "ts-node src/scripts/test-bot-integration.ts",
+    "test:telegram-bot": "ts-node src/scripts/test-telegram-bot-integration.ts",
     "template:list": "ls -la src/templates/defi-pool-template/",
     "template:help": "cat POOL_INTEGRATION_TEMPLATE.md",
     "pools:list": "cat src/config/supported-pools.json",
