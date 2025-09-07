@@ -1,148 +1,121 @@
-import { parseArgs } from 'node:util';
-import { createTestAccount, printTestResults, TestResult } from './test-helpers';
-import { withdrawFromMoonwell, getMoonwellBalance } from '../services/moonwell-defi';
+#!/usr/bin/env ts-node
 
 /**
- * Test script for Moonwell USDC vault withdrawals
+ * Moonwell USDC Vault Withdrawal Testing Script
  * 
- * This script tests the Moonwell withdrawal functionality using the proven
- * Morpho/Spark/Seamless pattern that has shown 100% success rate.
+ * Tests gasless USDC withdrawals from Moonwell USDC vault using Smart Wallet
+ * Following proven Morpho/Spark/Seamless pattern
  * 
  * Usage:
- *   npm run test:moonwell-withdraw -- --key YOUR_PRIVATE_KEY --shares 0.1
- *   npm run test:moonwell-withdraw -- --key YOUR_PRIVATE_KEY --shares max
- *   ts-node src/scripts/test-moonwell-withdrawal.ts --key YOUR_PRIVATE_KEY --shares 0.1
+ *   npm run test:moonwell-withdraw -- --key 0xYOUR_PRIVATE_KEY --shares 0.1
+ *   npm run test:moonwell-withdraw -- --key 0xYOUR_PRIVATE_KEY --shares max
+ *   ts-node src/scripts/test-moonwell-withdrawal.ts --key 0xYOUR_PRIVATE_KEY --shares 0.1
  * 
- * Requirements:
- * - Private key with Moonwell USDC shares in Moonwell vault
- * - CDP Paymaster whitelisting for gasless transactions
- * - Valid Moonwell vault address
+ * Options:
+ *   --key       Private key of test wallet (required)
+ *   --shares    Shares amount to withdraw or "max" for all (default: 0.1) 
+ *   --verbose   Enable verbose logging (default: false)
+ *   --help      Show help message
  */
 
-async function testMoonwellWithdrawal() {
-  console.log('🧪 Testing Moonwell USDC Vault Withdrawal');
-  console.log('=========================================\n');
+import { parseArgs } from 'node:util';
+import { withdrawFromMoonwell, getMoonwellBalance } from '../services/moonwell-defi';
+import { createTestSmartWallet, checkUSDCBalance } from '../utils/test-helpers';
 
-  // Parse command line arguments
+async function main() {
+  console.log('🌕 Moonwell USDC Vault Withdrawal Test');
+  console.log('======================================\n');
+
   const { values } = parseArgs({
     args: process.argv.slice(2),
     options: {
       key: { type: 'string', short: 'k' },
-      shares: { type: 'string', short: 's' },
-      verbose: { type: 'boolean', short: 'v', default: false }
+      shares: { type: 'string', short: 's', default: '0.1' },
+      verbose: { type: 'boolean', short: 'v', default: false },
+      help: { type: 'boolean', short: 'h', default: false }
     }
   });
 
-  if (!values.key || !values.shares) {
-    console.error('❌ Missing required arguments');
-    console.error('Usage: npm run test:moonwell-withdraw -- --key YOUR_PRIVATE_KEY --shares 0.1');
-    console.error('       npm run test:moonwell-withdraw -- --key YOUR_PRIVATE_KEY --shares max');
+  if (values.help) {
+    console.log('Usage: npm run test:moonwell-withdraw -- --key YOUR_PRIVATE_KEY [--shares 0.1|max] [--verbose]');
+    process.exit(0);
+  }
+
+  if (!values.key) {
+    console.error('❌ Private key required. Use --key YOUR_PRIVATE_KEY');
     process.exit(1);
   }
 
-  const testResults: TestResult[] = [];
-  const startTime = Date.now();
+  const shares = values.shares as string;
+  const verbose = values.verbose as boolean;
 
   try {
-    // Step 1: Create test account from private key
-    console.log('🔑 Creating test Smart Wallet account...');
-    const testAccount = await createTestAccount(values.key as string);
-    console.log(`✅ Smart Wallet created: ${testAccount.address}\n`);
+    // Create test Smart Wallet
+    console.log(`🔐 Creating Smart Wallet for testing...`);
+    const smartWallet = await createTestSmartWallet(values.key as string);
+    console.log(`✅ Smart Wallet: ${smartWallet.address}\n`);
 
-    // Step 2: Check current balance
-    console.log('💰 Checking current Moonwell balance...');
-    const balanceStart = Date.now();
-    const balance = await getMoonwellBalance(testAccount.address);
-    const balanceTime = Date.now() - balanceStart;
+    // Check current Moonwell balance
+    console.log('📊 Checking current Moonwell position...');
+    const beforeBalance = await getMoonwellBalance(smartWallet.address);
+    console.log(`📈 Current Moonwell shares: ${beforeBalance.sharesFormatted}`);
+    console.log(`💵 USDC equivalent: ~${beforeBalance.assetsFormatted} USDC\n`);
 
-    console.log(`📊 Current balance: ${balance.sharesFormatted} Moonwell USDC shares`);
-    console.log(`📊 USDC equivalent: ~${balance.assetsFormatted} USDC\n`);
-
-    if (balance.shares === 0n) {
+    if (beforeBalance.shares === 0n) {
       console.log('⚠️  No Moonwell shares found. Please deposit first using:');
       console.log('   npm run test:moonwell -- --key YOUR_PRIVATE_KEY --amount 0.1\n');
       process.exit(1);
     }
 
-    testResults.push({
-      name: 'Balance Check',
-      success: true,
-      details: {
-        shares: balance.sharesFormatted,
-        assets: balance.assetsFormatted,
-        executionTime: `${balanceTime}ms`
-      },
-      duration: balanceTime
-    });
+    // Check initial USDC balance
+    console.log(`💰 Checking USDC balance before withdrawal...`);
+    const beforeUSDC = await checkUSDCBalance(smartWallet.address);
+    console.log(`💵 USDC Balance: ${beforeUSDC.formatted} USDC\n`);
 
-    // Step 3: Test Moonwell withdrawal
-    console.log(`🔄 Testing Moonwell withdrawal: ${values.shares} shares`);
-    console.log('Using same proven pattern as Morpho PYTH/USDC, Spark, and Seamless...\n');
+    // Execute withdrawal
+    console.log(`🔄 Withdrawing ${shares} Moonwell USDC shares...`);
+    const startTime = Date.now();
     
-    const withdrawStart = Date.now();
-    const result = await withdrawFromMoonwell('test-user', values.shares as string, testAccount);
-    const withdrawTime = Date.now() - withdrawStart;
-
-    testResults.push({
-      name: 'Moonwell USDC Withdrawal',
-      success: result.success,
-      details: result.success 
-        ? {
-            txHash: result.txHash,
-            assets: result.assets,
-            executionTime: `${withdrawTime}ms`,
-            gasUsed: 'Gasless (CDP Paymaster)',
-            pattern: 'Direct ERC4626 Redeem'
-          }
-        : { error: result.error },
-      duration: withdrawTime
-    });
+    const result = await withdrawFromMoonwell('test-user', shares, smartWallet);
+    
+    const executionTime = Date.now() - startTime;
 
     if (result.success) {
-      console.log('✅ Moonwell withdrawal successful!');
+      console.log('✅ Withdrawal successful!');
       console.log(`📋 Transaction: ${result.txHash}`);
       console.log(`💰 USDC received: ${result.assets}`);
-      console.log(`⏱️  Execution time: ${withdrawTime}ms`);
-      console.log(`⛽ Gas cost: $0.00 (Sponsored by CDP)`);
-    } else {
-      console.log('❌ Moonwell withdrawal failed!');
-      console.log(`📋 Error: ${result.error}`);
-    }
+      console.log(`⏱️  Execution time: ${executionTime}ms`);
+      console.log(`⛽ Gas cost: $0.00 (Sponsored by CDP)\n`);
 
-    // Step 4: Check final balance if withdrawal was successful
-    if (result.success) {
-      console.log('\n💰 Checking final balance...');
-      const finalBalance = await getMoonwellBalance(testAccount.address);
-      console.log(`📊 Remaining shares: ${finalBalance.sharesFormatted} Moonwell USDC`);
-      console.log(`📊 USDC equivalent: ~${finalBalance.assetsFormatted} USDC`);
+      // Check final balances
+      console.log('📊 Checking final positions...');
+      const afterBalance = await getMoonwellBalance(smartWallet.address);
+      const afterUSDC = await checkUSDCBalance(smartWallet.address);
       
-      const balanceDiff = balance.shares - finalBalance.shares;
-      console.log(`📈 Shares redeemed: ${(Number(balanceDiff) / 1e18).toFixed(6)} Moonwell USDC`);
+      console.log(`📈 Remaining Moonwell shares: ${afterBalance.sharesFormatted}`);
+      console.log(`💵 Final USDC Balance: ${afterUSDC.formatted} USDC`);
+      
+      const sharesDiff = beforeBalance.shares - afterBalance.shares;
+      const usdcDiff = parseFloat(afterUSDC.formatted) - parseFloat(beforeUSDC.formatted);
+      
+      console.log(`📊 Shares redeemed: ${(Number(sharesDiff) / 1e18).toFixed(6)} Moonwell USDC`);
+      console.log(`📊 USDC received: +${usdcDiff.toFixed(6)} USDC\n`);
+
+      console.log('🎉 Moonwell withdrawal test PASSED!');
+    } else {
+      console.error('❌ Withdrawal failed!');
+      console.error(`📋 Error: ${result.error}\n`);
+      console.log('🔴 Moonwell withdrawal test FAILED!');
+      process.exit(1);
     }
 
   } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-    console.error('❌ Test execution failed:', errorMessage);
-    
-    testResults.push({
-      name: 'Moonwell Withdrawal Test',
-      success: false,
-      details: { error: errorMessage },
-      duration: Date.now() - startTime
-    });
+    console.error('❌ Test execution failed:', error);
+    console.log('🔴 Moonwell withdrawal test FAILED!');
+    process.exit(1);
   }
-
-  // Print final results
-  const totalTime = Date.now() - startTime;
-  console.log('\n' + '='.repeat(50));
-  console.log('📊 MOONWELL WITHDRAWAL TEST RESULTS');
-  console.log('='.repeat(50));
-  printTestResults(testResults, totalTime);
-
-  // Exit with appropriate code
-  const allSuccess = testResults.every(r => r.success);
-  process.exit(allSuccess ? 0 : 1);
 }
 
-// Run the test
-testMoonwellWithdrawal().catch(console.error);
+if (require.main === module) {
+  main().catch(console.error);
+}

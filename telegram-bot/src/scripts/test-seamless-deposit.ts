@@ -1,6 +1,6 @@
 import { parseArgs } from 'node:util';
-import { createTestAccount, printTestResults, TestResult } from './test-helpers';
-import { deployToSeamless } from '../services/seamless-defi';
+import { createTestSmartWallet, checkUSDCBalance } from '../utils/test-helpers';
+import { deployToSeamless, getSeamlessBalance } from '../services/seamless-defi';
 
 /**
  * Test script for Seamless USDC vault deposits
@@ -38,13 +38,12 @@ async function testSeamlessDeposit() {
     process.exit(1);
   }
 
-  const testResults: TestResult[] = [];
   const startTime = Date.now();
 
   try {
     // Step 1: Create test account from private key
     console.log('🔑 Creating test Smart Wallet account...');
-    const testAccount = await createTestAccount(values.key as string);
+    const testAccount = await createTestSmartWallet(values.key as string);
     console.log(`✅ Smart Wallet created: ${testAccount.address}\n`);
 
     // Step 2: Test Seamless deposit

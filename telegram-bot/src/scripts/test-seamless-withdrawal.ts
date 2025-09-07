@@ -1,5 +1,5 @@
 import { parseArgs } from 'node:util';
-import { createTestAccount, printTestResults, TestResult } from './test-helpers';
+import { createTestAccount, printTestResults, TestResult } from '../utils/test-helpers';
 import { withdrawFromSeamless, getSeamlessBalance } from '../services/seamless-defi';
 
 /**

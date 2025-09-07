@@ -1,109 +1,112 @@
-import { parseArgs } from 'node:util';
-import { createTestAccount, printTestResults, TestResult } from './test-helpers';
-import { deployToMoonwell } from '../services/moonwell-defi';
+#!/usr/bin/env ts-node
 
 /**
- * Test script for Moonwell USDC vault deposits
+ * Moonwell USDC Vault Deposit Testing Script
  * 
- * This script tests the Moonwell deposit functionality using the proven
- * Morpho/Spark/Seamless pattern that has shown 100% success rate.
+ * Tests gasless USDC deposits to Moonwell USDC vault using Smart Wallet
+ * Following proven Morpho/Spark/Seamless pattern
  * 
  * Usage:
- *   npm run test:moonwell -- --key YOUR_PRIVATE_KEY --amount 0.1
- *   ts-node src/scripts/test-moonwell-deposit.ts --key YOUR_PRIVATE_KEY --amount 0.1
+ *   npm run test:moonwell -- --key 0xYOUR_PRIVATE_KEY --amount 0.1
+ *   ts-node src/scripts/test-moonwell-deposit.ts --key 0xYOUR_PRIVATE_KEY --amount 0.1
  * 
- * Requirements:
- * - Private key with USDC balance on Base network
- * - CDP Paymaster whitelisting for gasless transactions
- * - Valid Moonwell vault address
+ * Options:
+ *   --key       Private key of test wallet (required)
+ *   --amount    USDC amount to deposit (default: 0.1) 
+ *   --verbose   Enable verbose logging (default: false)
+ *   --help      Show help message
  */
 
-async function testMoonwellDeposit() {
-  console.log('🧪 Testing Moonwell USDC Vault Deposit');
-  console.log('======================================\n');
+import { parseArgs } from 'node:util';
+import { deployToMoonwell, getMoonwellBalance } from '../services/moonwell-defi';
+import { createTestSmartWallet, checkUSDCBalance } from '../utils/test-helpers';
 
-  // Parse command line arguments
+async function main() {
+  console.log('🌕 Moonwell USDC Vault Deposit Test');
+  console.log('===================================\n');
+
   const { values } = parseArgs({
     args: process.argv.slice(2),
     options: {
       key: { type: 'string', short: 'k' },
-      amount: { type: 'string', short: 'a' },
-      verbose: { type: 'boolean', short: 'v', default: false }
+      amount: { type: 'string', short: 'a', default: '0.1' },
+      verbose: { type: 'boolean', short: 'v', default: false },
+      help: { type: 'boolean', short: 'h', default: false }
     }
   });
 
-  if (!values.key || !values.amount) {
-    console.error('❌ Missing required arguments');
-    console.error('Usage: npm run test:moonwell -- --key YOUR_PRIVATE_KEY --amount 0.1');
+  if (values.help) {
+    console.log('Usage: npm run test:moonwell -- --key YOUR_PRIVATE_KEY [--amount 0.1] [--verbose]');
+    process.exit(0);
+  }
+
+  if (!values.key) {
+    console.error('❌ Private key required. Use --key YOUR_PRIVATE_KEY');
     process.exit(1);
   }
 
-  const testResults: TestResult[] = [];
-  const startTime = Date.now();
+  const amount = values.amount as string;
+  const verbose = values.verbose as boolean;
 
   try {
-    // Step 1: Create test account from private key
-    console.log('🔑 Creating test Smart Wallet account...');
-    const testAccount = await createTestAccount(values.key as string);
-    console.log(`✅ Smart Wallet created: ${testAccount.address}\n`);
+    // Create test Smart Wallet
+    console.log(`🔐 Creating Smart Wallet for testing...`);
+    const smartWallet = await createTestSmartWallet(values.key as string);
+    console.log(`✅ Smart Wallet: ${smartWallet.address}\n`);
 
-    // Step 2: Test Moonwell deposit
-    console.log(`🚀 Testing Moonwell deposit: ${values.amount} USDC`);
-    console.log('Using same proven pattern as Morpho PYTH/USDC, Spark, and Seamless...\n');
+    // Check USDC balance
+    console.log(`💰 Checking USDC balance...`);
+    const usdcBalance = await checkUSDCBalance(smartWallet.address);
+    console.log(`💵 USDC Balance: ${usdcBalance.formatted} USDC\n`);
+
+    if (parseFloat(usdcBalance.formatted) < parseFloat(amount)) {
+      console.error(`❌ Insufficient USDC. Need ${amount}, have ${usdcBalance.formatted}`);
+      process.exit(1);
+    }
+
+    // Check current Moonwell balance
+    console.log('📊 Checking current Moonwell position...');
+    const beforeBalance = await getMoonwellBalance(smartWallet.address);
+    console.log(`📈 Current Moonwell shares: ${beforeBalance.sharesFormatted}\n`);
+
+    // Execute deposit
+    console.log(`🚀 Depositing ${amount} USDC to Moonwell USDC vault...`);
+    const startTime = Date.now();
     
-    const depositStart = Date.now();
-    const result = await deployToMoonwell('test-user', values.amount as string, testAccount);
-    const depositTime = Date.now() - depositStart;
-
-    testResults.push({
-      name: 'Moonwell USDC Deposit',
-      success: result.success,
-      details: result.success 
-        ? {
-            txHash: result.txHash,
-            shares: result.shares,
-            executionTime: `${depositTime}ms`,
-            gasUsed: 'Gasless (CDP Paymaster)',
-            pattern: 'Direct ERC4626 Deposit'
-          }
-        : { error: result.error },
-      duration: depositTime
-    });
+    const result = await deployToMoonwell('test-user', amount, smartWallet);
+    
+    const executionTime = Date.now() - startTime;
 
     if (result.success) {
-      console.log('✅ Moonwell deposit successful!');
+      console.log('✅ Deposit successful!');
       console.log(`📋 Transaction: ${result.txHash}`);
       console.log(`🎯 Shares received: ${result.shares}`);
-      console.log(`⏱️  Execution time: ${depositTime}ms`);
-      console.log(`⛽ Gas cost: $0.00 (Sponsored by CDP)`);
+      console.log(`⏱️  Execution time: ${executionTime}ms`);
+      console.log(`⛽ Gas cost: $0.00 (Sponsored by CDP)\n`);
+
+      // Check final balance
+      console.log('📊 Checking final Moonwell position...');
+      const afterBalance = await getMoonwellBalance(smartWallet.address);
+      console.log(`📈 New Moonwell shares: ${afterBalance.sharesFormatted}`);
+      
+      const sharesDiff = afterBalance.shares - beforeBalance.shares;
+      console.log(`📊 Shares gained: ${(Number(sharesDiff) / 1e18).toFixed(6)} Moonwell USDC\n`);
+
+      console.log('🎉 Moonwell deposit test PASSED!');
     } else {
-      console.log('❌ Moonwell deposit failed!');
-      console.log(`📋 Error: ${result.error}`);
+      console.error('❌ Deposit failed!');
+      console.error(`📋 Error: ${result.error}\n`);
+      console.log('🔴 Moonwell deposit test FAILED!');
+      process.exit(1);
     }
 
   } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-    console.error('❌ Test execution failed:', errorMessage);
-    
-    testResults.push({
-      name: 'Moonwell Deposit Test',
-      success: false,
-      details: { error: errorMessage },
-      duration: Date.now() - startTime
-    });
+    console.error('❌ Test execution failed:', error);
+    console.log('🔴 Moonwell deposit test FAILED!');
+    process.exit(1);
   }
-
-  // Print final results
-  const totalTime = Date.now() - startTime;
-  console.log('\n' + '='.repeat(50));
-  console.log('📊 MOONWELL DEPOSIT TEST RESULTS');
-  console.log('='.repeat(50));
-  printTestResults(testResults, totalTime);
-
-  // Exit with appropriate code
-  const allSuccess = testResults.every(r => r.success);
-  process.exit(allSuccess ? 0 : 1);
 }
 
-// Run the test
-testMoonwellDeposit().catch(console.error);
+if (require.main === module) {
+  main().catch(console.error);
+}
