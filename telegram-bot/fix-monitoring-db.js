@@ -15,13 +15,26 @@ console.log("Current users in monitoring:", users.map(u => ({
   expiresIn: u.expectingDepositUntil ? Math.floor((u.expectingDepositUntil - currentTime) / 1000) + "s" : "null"
 })));
 
-// Clean up only John's stuck monitoring state (keep new users intact)
+// Clean up John's stuck state completely (reset everything)
+const { getDatabase } = require("./src/lib/database");
+const db = getDatabase();
+
 users.forEach(user => {
   if (user.userId === "491812750") { // John's stuck state
-    console.log(`🧹 Stopping stuck monitoring for John (${user.userId})`);
-    stopDepositMonitoring(user.userId);
+    console.log(`🧹 Resetting ALL flags for John - fresh start`);
+    
+    // Clear ALL monitoring-related flags so he gets fresh timestamps when he starts again
+    db.prepare(`
+      UPDATE users SET 
+        expectingDepositUntil = NULL,
+        lastBalanceCheck = NULL,
+        onboardingCompleted = NULL
+      WHERE userId = ?
+    `).run(user.userId);
+    
+    console.log(`✅ John reset completely - will get fresh timestamps on next /start`);
   } else {
-    console.log(`✅ Keeping monitoring for ${user.firstName} (${user.userId}) - this is normal`);
+    console.log(`✅ Keeping ${user.firstName} (${user.userId}) unchanged`);
   }
 });
 
