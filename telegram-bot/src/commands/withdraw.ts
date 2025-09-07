@@ -42,6 +42,7 @@ const withdrawHandler: CommandHandler = {
         .text("🔬 Exit from Morpho", "withdraw_morpho_menu").row()
         .text("⚡ Exit from Spark", "withdraw_spark_menu").row()
         .text("🌊 Exit from Seamless", "withdraw_seamless_menu").row()
+        .text("🌕 Exit from Moonwell", "withdraw_moonwell_menu").row()
         .text("❌ Cancel", "cancel_operation");
 
       await ctx.reply(
@@ -494,6 +495,32 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       return;
     }
 
+    if (callbackData === "withdraw_moonwell_menu") {
+      await ctx.answerCallbackQuery();
+      
+      const keyboard = new InlineKeyboard()
+        .text("💸 Exit All Moonwell", "withdraw_moonwell_max").row()
+        .text("⚖️ Exit Custom Amount", "withdraw_moonwell_custom").row()
+        .text("🔙 Back", "withdraw");
+
+      await ctx.reply(
+        `🌕 **Exit from Moonwell USDC**\n\n` +
+          `**Your Moonwell Position:**\n` +
+          `• Current APY: 5.0%\n` +
+          `• Token: Moonwell USDC shares (vault shares)\n` +
+          `• Rewards: Auto-compounding yield\n\n` +
+          `**Exit Options:**\n` +
+          `• **Exit All** - Withdraw complete Moonwell position to Smart Wallet\n` +
+          `• **Custom Amount** - Specify exact share amount to redeem\n\n` +
+          `**Note:** Gasless transactions via Smart Wallet technology`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      return;
+    }
+
     if (callbackData === "withdraw_seamless_max") {
       await ctx.answerCallbackQuery();
       
@@ -586,6 +613,97 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
           `Please enter the amount of SMUSDC shares you want to redeem:\n\n` +
           `**Examples:**\n` +
           `• \`1\` - Redeem 1 SMUSDC share\n` +
+          `• \`0.5\` - Redeem 0.5 shares\n` +
+          `• \`max\` - Redeem all available\n\n` +
+          `**Note:** Gasless via Smart Wallet technology\n\n` +
+          `**Cancel:** Send /cancel`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_moonwell_max") {
+      await ctx.answerCallbackQuery();
+      
+      const processingMsg = await ctx.reply(
+        `🔄 **Processing Pool Exit...**\n\n` +
+          `• Initiating Moonwell USDC withdrawal\n` +
+          `• Using gasless Smart Wallet transaction\n` +
+          `• Please wait...`,
+        { parse_mode: "Markdown" }
+      );
+
+      try {
+        const userId = ctx.from!.id.toString();
+        
+        // Use Smart Wallet for gasless withdrawal
+        const { withdrawFromMoonwell } = await import("../services/moonwell-defi");
+        const result = await withdrawFromMoonwell(userId, 'max');
+
+        if (result.success && result.txHash) {
+          await ctx.api.editMessageText(
+            ctx.chat!.id,
+            processingMsg.message_id,
+            `✅ **Moonwell Pool Exit Complete!**\n\n` +
+              `**Transaction Hash:**\n\`${result.txHash}\`\n\n` +
+              `• **Protocol:** Moonwell USDC\n` +
+              `• **Assets Received:** USDC deposited to Smart Wallet\n` +
+              `• **Gas Cost:** $0.00 (Sponsored)\n\n` +
+              `Your funds are now available in your Smart Wallet!`,
+            {
+              parse_mode: "Markdown",
+              reply_markup: new InlineKeyboard()
+                .text("💰 Check Balance", "check_balance")
+                .text("📊 View Portfolio", "view_portfolio")
+                .row()
+            }
+          );
+        } else {
+          throw new Error(result.error || 'Transaction failed');
+        }
+      } catch (error: any) {
+        console.error('❌ Moonwell max withdrawal failed:', error);
+        
+        const errorKeyboard = new InlineKeyboard()
+          .text("🔄 Try Again", "withdraw_moonwell_max")
+          .text("💸 Custom Amount", "withdraw_moonwell_custom")
+          .row()
+          .text("📊 View Portfolio", "view_portfolio")
+          .text("💰 Check Balance", "check_balance");
+
+        await ctx.api.editMessageText(
+          ctx.chat!.id,
+          processingMsg.message_id,
+          `❌ **Moonwell Pool Exit Failed**\n\n` +
+            `**Error:** ${error.message}\n\n` +
+            `**Common Issues:**\n` +
+            `• Insufficient balance\n` +
+            `• Network connectivity\n` +
+            `• Try custom amount instead`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: errorKeyboard
+          }
+        );
+      }
+      return;
+    }
+
+    if (callbackData === "withdraw_moonwell_custom") {
+      await ctx.answerCallbackQuery();
+      
+      // Store protocol preference and set state for amount input
+      ctx.session.tempData = ctx.session.tempData || {};
+      ctx.session.tempData.protocol = "moonwell";
+      ctx.session.awaitingWithdrawAmount = true;
+      
+      await ctx.reply(
+        `💸 **Custom Moonwell Withdrawal**\n\n` +
+          `Please enter the amount of Moonwell USDC shares you want to redeem:\n\n` +
+          `**Examples:**\n` +
+          `• \`1\` - Redeem 1 Moonwell USDC share\n` +
           `• \`0.5\` - Redeem 0.5 shares\n` +
           `• \`max\` - Redeem all available\n\n` +
           `**Note:** Gasless via Smart Wallet technology\n\n` +
@@ -1031,8 +1149,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
 
     // Determine which protocol to withdraw from
     const protocol = ctx.session.tempData?.protocol || "aave"; // Default to Aave for legacy support
-    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : protocol === "seamless" ? "Seamless USDC" : "Aave V3";
-    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : protocol === "spark" ? "⚡" : protocol === "seamless" ? "🌊" : "🏛️";
+    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : protocol === "seamless" ? "Seamless USDC" : protocol === "moonwell" ? "Moonwell USDC" : "Aave V3";
+    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : protocol === "spark" ? "⚡" : protocol === "seamless" ? "🌊" : protocol === "moonwell" ? "🌕" : "🏛️";
 
     const processingMsg = await ctx.reply(
       `🔄 **Processing Withdrawal...**\n\n` +
@@ -1111,6 +1229,19 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
         console.log(`🌊 Using gasless Seamless withdrawal for Smart Wallet user`);
         const { withdrawFromSeamless } = await import("../services/seamless-defi");
         const result = await withdrawFromSeamless(userId, amount);
+        if (!result.success) {
+          throw new Error(result.error);
+        }
+        receipt = {
+          transactionHash: result.txHash,
+          blockNumber: "N/A (CDP UserOp)",
+          gasUsed: "Sponsored by inkvest"
+        };
+      } else if (protocol === "moonwell") {
+        // Use Moonwell gasless withdrawal
+        console.log(`🌕 Using gasless Moonwell withdrawal for Smart Wallet user`);
+        const { withdrawFromMoonwell } = await import("../services/moonwell-defi");
+        const result = await withdrawFromMoonwell(userId, amount);
         if (!result.success) {
           throw new Error(result.error);
         }

@@ -32,6 +32,7 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
       const { getMorphoBalance } = await import('../services/morpho-defi');
       const { getSparkBalance } = await import('../services/spark-defi');
       const { getSeamlessBalance } = await import('../services/seamless-defi');
+      const { getMoonwellBalance } = await import('../services/moonwell-defi');
       const { calculateRealTimeEarnings } = await import('./earnings');
       
       // Get Smart Wallet address for Compound deposits (since deposits are made via CDP)
@@ -39,7 +40,7 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
       const smartWalletAddress = smartWallet?.smartAccount.address;
       
       // Fetch wallet USDC and DeFi positions
-      const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance] = await Promise.all([
+      const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance] = await Promise.all([
         getCoinbaseWalletUSDCBalance(walletAddress as Address).catch(() => '0.00'),
         getAaveBalance(walletAddress as Address).catch(() => ({ aUsdcBalanceFormatted: '0.00' })),
         getFluidBalance(walletAddress as Address).catch(() => ({ fUsdcBalanceFormatted: '0.00' })),
@@ -50,7 +51,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         // Check Spark balance on Smart Wallet address since deposits are made there
         smartWalletAddress ? getSparkBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
         // Check Seamless balance on Smart Wallet address since deposits are made there
-        smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
+        smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+        // Check Moonwell balance on Smart Wallet address since deposits are made there
+        smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
       ]);
 
       const walletUsdcNum = parseFloat(walletUsdc);
@@ -60,8 +63,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
       const morphoBalanceNum = parseFloat(morphoBalance.assetsFormatted);
       const sparkBalanceNum = parseFloat(sparkBalance.assetsFormatted);
       const seamlessBalanceNum = parseFloat(seamlessBalance.assetsFormatted);
+      const moonwellBalanceNum = parseFloat(moonwellBalance.assetsFormatted);
       
-      const totalDeployed = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum;
+      const totalDeployed = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum;
       
       // STATE 1: User has active DeFi positions
       if (totalDeployed > 0.01) {

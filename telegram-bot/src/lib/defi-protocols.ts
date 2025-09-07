@@ -566,6 +566,11 @@ export async function executeWithdraw(
         const { withdrawFromSeamless } = await import("../services/seamless-defi");
         result = await withdrawFromSeamless(userId!, amountUsdc);
         break;
+      case "moonwell":
+      case "moonwell usdc":
+        const { withdrawFromMoonwell } = await import("../services/moonwell-defi");
+        result = await withdrawFromMoonwell(userId!, amountUsdc);
+        break;
       default:
         throw new Error(`Unsupported protocol for gasless: ${protocol.toLowerCase()}`);
     }
@@ -802,6 +807,11 @@ export async function executeZap(
       case "seamless":
         const { deployToSeamless } = await import("../services/seamless-defi");
         result = await deployToSeamless(userId!, amountUsdc);
+        break;
+      case "moonwell":
+      case "moonwell usdc":
+        const { deployToMoonwell } = await import("../services/moonwell-defi");
+        result = await deployToMoonwell(userId!, amountUsdc);
         break;
       default:
         throw new Error(`Unsupported protocol for gasless: ${protocolLower}`);

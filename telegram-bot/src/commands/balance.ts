@@ -65,13 +65,14 @@ export const balanceHandler: CommandHandler = {
         const { getMorphoBalance } = await import("../services/morpho-defi");
         const { getSparkBalance } = await import("../services/spark-defi");
         const { getSeamlessBalance } = await import("../services/seamless-defi");
+        const { getMoonwellBalance } = await import("../services/moonwell-defi");
         const { getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
         
         // Get Smart Wallet address for protocols that use Smart Wallet
         const smartWallet = await getCoinbaseSmartWallet(userId);
         const smartWalletAddress = smartWallet?.smartAccount.address;
         
-        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance] = await Promise.all([
+        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance] = await Promise.all([
           getAaveBalance(wallet.address as Address),
           getFluidBalance(wallet.address as Address),
           getCompoundBalance(wallet.address as Address),
@@ -85,6 +86,10 @@ export const balanceHandler: CommandHandler = {
           }) : Promise.resolve({ assetsFormatted: '0.00' }),
           smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(error => {
             console.error(`❌ Balance command - Seamless balance fetch failed for ${smartWalletAddress}:`, error);
+            return { assetsFormatted: '0.00' };
+          }) : Promise.resolve({ assetsFormatted: '0.00' }),
+          smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(error => {
+            console.error(`❌ Balance command - Moonwell balance fetch failed for ${smartWalletAddress}:`, error);
             return { assetsFormatted: '0.00' };
           }) : Promise.resolve({ assetsFormatted: '0.00' })
         ]);
@@ -156,6 +161,14 @@ export const balanceHandler: CommandHandler = {
         if (seamlessNum > 0.01) {
           defiPositions += `🌊 **Seamless USDC**: $${seamlessNum.toFixed(2)} USDC\n`;
           totalDefiValue += seamlessNum;
+          hasAnyBalance = true;
+        }
+
+        const moonwellNum = parseFloat(moonwellBalance.assetsFormatted);
+        console.log(`🔍 Balance command - Moonwell balance: ${moonwellBalance.assetsFormatted} → ${moonwellNum}`);
+        if (moonwellNum > 0.01) {
+          defiPositions += `🌕 **Moonwell USDC**: $${moonwellNum.toFixed(2)} USDC\n`;
+          totalDefiValue += moonwellNum;
           hasAnyBalance = true;
         }
 
