@@ -123,34 +123,73 @@ export const exportHandler: CommandHandler = {
       }
 
       // UNIVERSAL BALANCE CHECK - Check for Smart Wallet regardless of detection
+      console.log(`🚀 ==> EXPORT SAFETY CHECK INITIATED FOR USER ${userId} <==`);
+      
       const { hasCoinbaseSmartWallet, checkAllUSDCBalances } = await import("../lib/coinbase-wallet");
       const hasSmartWallet = hasCoinbaseSmartWallet(userId);
       
-      console.log(`🔍 Export Debug - User ${userId}: hasSmartWallet=${hasSmartWallet}`);
+      // Get database wallet info for debugging
+      const { getWalletByUserId: getWallet } = await import("../lib/database");
+      const dbWallet = getWallet(userId);
       
-      // ALWAYS check Smart Wallet balances if user might have them
+      console.log(`🔍 DATABASE WALLET INFO - User ${userId}:`, {
+        exists: !!dbWallet,
+        type: dbWallet?.type || 'UNDEFINED',
+        address: dbWallet?.address || 'UNDEFINED'
+      });
+      
+      console.log(`🔍 SMART WALLET DETECTION - User ${userId}: hasSmartWallet=${hasSmartWallet} (based on type === 'coinbase-smart-wallet')`);
+      
+      // CRITICAL: ALWAYS attempt Smart Wallet balance check regardless of database type
+      // This handles cases where database type is wrong or wallet was upgraded
+      console.log(`🔍 ATTEMPTING UNIVERSAL Smart Wallet balance check for user ${userId}...`);
       let balances = null;
       try {
-        console.log(`🔍 ATTEMPTING Smart Wallet balance check for user ${userId}...`);
         balances = await checkAllUSDCBalances(userId);
-        console.log(`💰 Balance Check Result - User ${userId}:`, balances ? `SUCCESS - Smart: ${balances.smartWalletBalance}, EOA: ${balances.eoaBalance}, Total: ${balances.totalBalance}` : 'FAILED - NULL RESULT');
-      } catch (error) {
-        console.log(`💰 Balance Check ERROR - User ${userId}:`, error);
+        console.log(`💰 BALANCE CHECK RESULT - User ${userId}:`, {
+          success: !!balances,
+          smartWalletBalance: balances?.smartWalletBalance || 'NULL',
+          eoaBalance: balances?.eoaBalance || 'NULL',
+          totalBalance: balances?.totalBalance || 'NULL',
+          smartWalletAddress: balances?.smartWalletAddress || 'NULL',
+          eoaAddress: balances?.eoaAddress || 'NULL'
+        });
+      } catch (error: any) {
+        console.log(`💰 BALANCE CHECK ERROR - User ${userId}:`, {
+          error: error.message || 'Unknown error',
+          stack: error.stack?.split('\n').slice(0, 3)
+        });
       }
       
+      // SAFETY DECISION LOGIC - Enhanced with comprehensive logging
       if (balances) {
-        // User has Smart Wallet balances - check if funds need migration
-        console.log(`🦑 User ${userId} has Smart Wallet balances - checking for mandatory migration`);
+        console.log(`🦑 SMART WALLET BALANCES DETECTED - User ${userId} - initiating safety evaluation`);
         
-        // balances already fetched above
-
-        console.log(`💰 Balance Check - User ${userId}: Smart=${balances.smartWalletBalance}, EOA=${balances.eoaBalance}, Total=${balances.totalBalance}`);
         const smartWalletBalance = parseFloat(balances.smartWalletBalance);
         const eoaBalance = parseFloat(balances.eoaBalance);
         
-        console.log(`🔍 DECISION POINT - User ${userId}: smartWalletBalance=${smartWalletBalance}, condition=${smartWalletBalance > 0.01 ? 'BLOCK EXPORT' : 'ALLOW EXPORT'}`);
+        console.log(`💰 DETAILED BALANCE ANALYSIS - User ${userId}:`, {
+          smartWalletBalance: `$${smartWalletBalance}`,
+          eoaBalance: `$${eoaBalance}`,
+          totalBalance: `$${balances.totalBalance}`,
+          smartWalletAddress: balances.smartWalletAddress,
+          eoaAddress: balances.eoaAddress,
+          safetyThreshold: '$0.01',
+          requiresTransfer: smartWalletBalance > 0.01
+        });
         
-        if (smartWalletBalance > 0.01) { // If more than 1 cent in Smart Wallet - MUST transfer to EOA first
+        console.log(`🔍 SAFETY DECISION POINT - User ${userId}:`, {
+          condition: `smartWalletBalance (${smartWalletBalance}) > 0.01`,
+          result: smartWalletBalance > 0.01 ? '🚫 BLOCK EXPORT - TRANSFER REQUIRED' : '✅ ALLOW EXPORT - SAFE BALANCE',
+          reasoning: smartWalletBalance > 0.01 
+            ? 'Smart Wallet has significant funds that private key cannot access'
+            : 'Smart Wallet balance is negligible, private key will control meaningful funds'
+        });
+        
+        if (smartWalletBalance > 0.01) { 
+          // CRITICAL PATH: Block export and require mandatory fund migration
+          console.log(`🚫 BLOCKING PRIVATE KEY EXPORT - User ${userId} Smart Wallet contains $${smartWalletBalance} USDC`);
+          console.log(`🔄 INITIATING MANDATORY FUND MIGRATION FLOW - User ${userId}`);
           // Set current action for MANDATORY fund migration flow
           ctx.session.currentAction = "mandatory_fund_migration";
           
@@ -176,14 +215,36 @@ export const exportHandler: CommandHandler = {
           );
           return;
         } else {
-          console.log(`✅ User ${userId} Smart Wallet has minimal funds ($${smartWalletBalance}) - proceeding with export`);
+          // Smart Wallet balance is minimal - safe to proceed
+          console.log(`✅ SMART WALLET BALANCE ACCEPTABLE - User ${userId}:`, {
+            smartWalletBalance: `$${smartWalletBalance}`,
+            belowThreshold: true,
+            safetyStatus: 'EXPORT APPROVED - minimal Smart Wallet funds',
+            note: 'Private key will control majority of user funds'
+          });
+          console.log(`✅ PROCEEDING TO PRIVATE KEY EXPORT - User ${userId} - safety requirements met`);
         }
       } else {
-        // Could not get Smart Wallet balances - either traditional wallet or Smart Wallet detection failed
-        console.log(`⚠️ BALANCE CHECK FAILED - User ${userId}: hasSmartWallet=${hasSmartWallet}, balances=${balances}`);
+        // Balance check failed or returned null
+        console.log(`⚠️ SMART WALLET BALANCE CHECK FAILED - User ${userId}:`, {
+          hasSmartWallet: hasSmartWallet,
+          balances: balances,
+          databaseType: dbWallet?.type,
+          possibleCauses: [
+            'User has traditional wallet (not Smart Wallet)',
+            'Smart Wallet detection failed',
+            'Network/RPC error during balance check',
+            'Wallet data corruption'
+          ]
+        });
+        
         if (hasSmartWallet) {
-          // Detection says Smart Wallet but balance check failed - BLOCK export for safety
-          console.log(`🚫 User ${userId} detected as Smart Wallet but balance check failed - BLOCKING export for safety`);
+          // Database says Smart Wallet but balance check failed - BLOCK for safety
+          console.log(`🚫 SAFETY BLOCK TRIGGERED - User ${userId}:`, {
+            reason: 'Smart Wallet detected in database but balance verification failed',
+            action: 'BLOCKING export to prevent potential fund loss',
+            recommendation: 'User should try again or contact support'
+          });
           await ctx.reply(
             `🔒 *PRIVATE KEY EXPORT BLOCKED*\n\n` +
             `Unable to verify your wallet balances for security reasons.\n\n` +
@@ -192,14 +253,31 @@ export const exportHandler: CommandHandler = {
           );
           return;
         } else {
-          console.log(`🏦 User ${userId} has traditional wallet (hasSmartWallet=false) - proceeding with export`);
+          // Traditional wallet or Smart Wallet balance check failed but not detected as Smart Wallet
+          console.log(`🏦 TRADITIONAL WALLET PATH - User ${userId}:`, {
+            hasSmartWallet: false,
+            balanceCheckResult: 'failed/null',
+            walletType: 'traditional (legacy)',
+            safetyStatus: 'PROCEEDING - no Smart Wallet detected',
+            privateKeyControls: 'all funds (traditional wallet)'
+          });
+          console.log(`🏦 PROCEEDING WITH TRADITIONAL WALLET EXPORT - User ${userId}`);
         }
       }
 
       // Check if user has any wallet (Smart or traditional)
+      console.log(`🔍 FINAL WALLET VERIFICATION - User ${userId} - checking for any wallet existence`);
       const wallet = await getWallet(userId);
+      
+      console.log(`💼 WALLET EXISTENCE CHECK - User ${userId}:`, {
+        traditionalWallet: !!wallet,
+        smartWallet: hasSmartWallet,
+        walletAddress: wallet?.address || 'NONE',
+        hasAnyWallet: !!(wallet || hasSmartWallet)
+      });
 
       if (!wallet && !hasSmartWallet) {
+        console.log(`❌ NO WALLET FOUND - User ${userId} - blocking export and requesting wallet creation`);
         await ctx.reply(
           "❌ You don't have a wallet yet.\n\n" +
             "Use /create to create a new wallet or /import to import an existing one."
@@ -207,10 +285,12 @@ export const exportHandler: CommandHandler = {
         return;
       }
 
-      // Set current action
+      // Set current action for export confirmation flow
+      console.log(`🔐 INITIATING EXPORT CONFIRMATION FLOW - User ${userId} - setting session action`);
       ctx.session.currentAction = "export_wallet";
 
       // Show warning and confirmation prompt
+      console.log(`⚠️ DISPLAYING SECURITY WARNING - User ${userId} - awaiting user confirmation`);
       await ctx.reply(
         "⚠️ *SECURITY WARNING*\n\n" +
           "You are about to export your private key. This is sensitive information that gives complete control over your wallet funds.\n\n" +
