@@ -66,13 +66,14 @@ export const balanceHandler: CommandHandler = {
         const { getSparkBalance } = await import("../services/spark-defi");
         const { getSeamlessBalance } = await import("../services/seamless-defi");
         const { getMoonwellBalance } = await import("../services/moonwell-defi");
+        const { getMorphoRe7Balance } = await import("../services/morpho-re7-defi");
         const { getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
         
         // Get Smart Wallet address for protocols that use Smart Wallet
         const smartWallet = await getCoinbaseSmartWallet(userId);
         const smartWalletAddress = smartWallet?.smartAccount.address;
         
-        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance] = await Promise.all([
+        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance, morphoRe7Balance] = await Promise.all([
           getAaveBalance(wallet.address as Address),
           getFluidBalance(wallet.address as Address),
           getCompoundBalance(wallet.address as Address),
@@ -90,6 +91,10 @@ export const balanceHandler: CommandHandler = {
           }) : Promise.resolve({ assetsFormatted: '0.00' }),
           smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(error => {
             console.error(`❌ Balance command - Moonwell balance fetch failed for ${smartWalletAddress}:`, error);
+            return { assetsFormatted: '0.00' };
+          }) : Promise.resolve({ assetsFormatted: '0.00' }),
+          smartWalletAddress ? getMorphoRe7Balance(smartWalletAddress).catch(error => {
+            console.error(`❌ Balance command - Morpho Re7 balance fetch failed for ${smartWalletAddress}:`, error);
             return { assetsFormatted: '0.00' };
           }) : Promise.resolve({ assetsFormatted: '0.00' })
         ]);
@@ -169,6 +174,14 @@ export const balanceHandler: CommandHandler = {
         if (moonwellNum > 0.01) {
           defiPositions += `🌕 **Moonwell USDC**: $${moonwellNum.toFixed(2)} USDC\n`;
           totalDefiValue += moonwellNum;
+          hasAnyBalance = true;
+        }
+
+        const morphoRe7Num = parseFloat(morphoRe7Balance.assetsFormatted);
+        console.log(`🔍 Balance command - Morpho Re7 balance: ${morphoRe7Balance.assetsFormatted} → ${morphoRe7Num}`);
+        if (morphoRe7Num > 0.01) {
+          defiPositions += `♾️ **Re7 Universal USDC**: $${morphoRe7Num.toFixed(2)} USDC\n`;
+          totalDefiValue += morphoRe7Num;
           hasAnyBalance = true;
         }
 
