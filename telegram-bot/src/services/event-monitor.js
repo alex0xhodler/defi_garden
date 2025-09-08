@@ -392,7 +392,7 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
         inline_keyboard: [
           [
             { text: "🔄 Retry Auto-Deploy", callback_data: "zap_auto_deploy" },
-            { text: "📊 Manual Selection", callback_data: "zap_manual" }
+            { text: "📊 Manual Selection", callback_data: "zap_choose_protocol" }
           ],
           [
             { text: "💰 Check Balance", callback_data: "check_balance" }
@@ -421,7 +421,7 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
       inline_keyboard: [
         [
           { text: "🔄 Retry Auto-Deploy", callback_data: "zap_auto_deploy" },
-          { text: "📊 Manual Selection", callback_data: "zap_manual" }
+          { text: "📊 Manual Selection", callback_data: "zap_choose_protocol" }
         ],
         [
           { text: "💰 Check Balance", callback_data: "check_balance" }
@@ -695,25 +695,57 @@ async function handleManualProtocolCompletion(userId, firstName, amount, tokenSy
     } else {
       console.error(`❌ Failed to deploy to chosen ${selectedProtocol.protocol}: ${deployResult.error}`);
       
+      // Send error message with retry options
+      const manualProtocolRetryKeyboard = {
+        inline_keyboard: [
+          [
+            { text: "🔄 Retry Auto-Deploy", callback_data: "zap_auto_deploy" },
+            { text: "📊 Manual Selection", callback_data: "zap_choose_protocol" }
+          ],
+          [
+            { text: "💰 Check Balance", callback_data: "check_balance" }
+          ]
+        ]
+      };
+      
       await monitorBot.api.sendMessage(
         userId,
         `⚠️ *Deposit confirmed but deployment failed*\n\n` +
         `${amount} ${tokenSymbol} received but couldn't deploy to ${selectedProtocol.protocol}.\n\n` +
         `Error: ${deployResult.error}\n\n` +
-        `Your funds are safe in your wallet. Please try manual deployment via the bot menu.`,
-        { parse_mode: "Markdown" }
+        `💡 *Try again* - this might be a temporary protocol issue.`,
+        { 
+          parse_mode: "Markdown",
+          reply_markup: manualProtocolRetryKeyboard
+        }
       );
     }
 
   } catch (error) {
     console.error(`Failed to complete manual protocol selection for user ${userId}:`, error);
     
+    // Send error message with retry options for catch block
+    const manualProtocolCatchRetryKeyboard = {
+      inline_keyboard: [
+        [
+          { text: "🔄 Retry Auto-Deploy", callback_data: "zap_auto_deploy" },
+          { text: "📊 Manual Selection", callback_data: "zap_choose_protocol" }
+        ],
+        [
+          { text: "💰 Check Balance", callback_data: "check_balance" }
+        ]
+      ]
+    };
+    
     await monitorBot.api.sendMessage(
       userId,
       `⚠️ *Deposit confirmed but deployment failed*\n\n` +
       `${amount} ${tokenSymbol} received but couldn't deploy to your chosen protocol.\n\n` +
-      `Please try manual deployment via the bot menu.`,
-      { parse_mode: "Markdown" }
+      `💡 *Try again* - this might be a temporary issue.`,
+      { 
+        parse_mode: "Markdown",
+        reply_markup: manualProtocolCatchRetryKeyboard
+      }
     );
   }
 }
