@@ -52,19 +52,25 @@ const depositHandler: CommandHandler = {
       }
       console.log(`🔄 User ${userId} ready for manual balance checks`);
 
-      // Create action buttons
+      // Create action buttons with multiple payment options
       const keyboard = new InlineKeyboard()
         .text("🦑 Start Earning", "zap_auto_deploy")
+        .row()
+        .text("💳 Apple Pay", "buy_usdc_applepay")
+        .text("🏪 Coinbase", "buy_usdc_coinbase")
         .row()
         .text("💰 Check Balance", "check_balance")
         .text("📊 Portfolio", "view_portfolio");
 
-      // Simplified deposit information
+      // Enhanced deposit information with multiple payment options
       await ctx.reply(
         `💰 *Ready to start earning, ${firstName}?*\n\n` +
-          `Send USDC to your Smart Wallet:\n` +
-          `\`${depositAddress}\`\n\n` +
-          `*Network:* Base (super cheap fees!)\n` +
+          `**Option 1: Send USDC directly**\n` +
+          `\`${depositAddress}\`\n` +
+          `*Network:* Base (super cheap fees!)\n\n` +
+          `**Option 2: Buy USDC instantly** 💳\n` +
+          `• Apple Pay - Fast checkout\n` +
+          `• Coinbase - Traditional purchase\n\n` +
           `*Minimum:* Any amount\n` +
           `*Gas fees:* Sponsored by inkvest! 🦑\n\n` +
           `✅ **Now monitoring for deposits** (5 minutes)\n` +

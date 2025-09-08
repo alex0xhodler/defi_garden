@@ -77,15 +77,21 @@ export const startHandler: CommandHandler = {
         const { getCompoundV3APY } = await import("../lib/defillama-api");
         const apy = await getCompoundV3APY();
 
-        // Check for deposit button - monitoring starts automatically
+        // Multiple payment options - monitoring starts automatically
         const keyboard = new InlineKeyboard()
+          .text("💳 Apple Pay", "buy_usdc_applepay")
+          .text("🏪 Coinbase", "buy_usdc_coinbase")
+          .row()
           .text("🔍 Check for Deposit", "manual_balance_check");
 
         await ctx.reply(
           `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
           `💰 *Your inkvest address:*\n` +
           `\`${wallet.address}\`\n\n` +
-          `Send USDC on Base ↑ to start earning.\n\n` +
+          `**Option 1:** Send USDC on Base ↑\n` +
+          `**Option 2:** Buy USDC instantly 💳\n` +
+          `• Apple Pay - Fast checkout\n` +
+          `• Coinbase - Traditional purchase\n\n` +
           `✅ Gasless transactions (we sponsor gas)\n` +
           `✅ Auto-deployed to highest yields\n` +
           `✅ Withdraw anytime, zero lock-ups\n\n` +
@@ -131,15 +137,21 @@ export const startHandler: CommandHandler = {
           const { getCompoundV3APY } = await import("../lib/defillama-api");
           const apy = await getCompoundV3APY();
 
-          // Check for deposit button - monitoring starts automatically
+          // Multiple payment options - monitoring starts automatically
           const keyboard = new InlineKeyboard()
+            .text("💳 Apple Pay", "buy_usdc_applepay")
+            .text("🏪 Coinbase", "buy_usdc_coinbase")
+            .row()
             .text("🔍 Check for Deposit", "manual_balance_check");
 
           await ctx.reply(
             `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
             `💰 *Your inkvest address:*\n` +
             `\`${newWallet.address}\`\n\n` +
-            `Send USDC on Base ↑ to start earning.\n\n` +
+            `**Option 1:** Send USDC on Base ↑\n` +
+            `**Option 2:** Buy USDC instantly 💳\n` +
+            `• Apple Pay - Fast checkout\n` +
+            `• Coinbase - Traditional purchase\n\n` +
             `✅ Gasless transactions (we sponsor gas)\n` +
             `✅ Auto-deployed to highest yields\n` +
             `✅ Withdraw anytime, zero lock-ups\n\n` +
@@ -222,13 +234,19 @@ export const startHandler: CommandHandler = {
               }
 
               const keyboard = new InlineKeyboard()
+                .text("💳 Apple Pay", "buy_usdc_applepay")
+                .text("🏪 Coinbase", "buy_usdc_coinbase")
+                .row()
                 .text("🔍 Check for Deposit", "manual_balance_check");
 
               await ctx.reply(
                 `👋 *Welcome back ${firstName}!*\n\n` +
                 `🐙 *Your inkvest savings account address:*\n` +
                 `\`${wallet.address}\`\n\n` +
-                `Send USDC on Base ↑ to start earning.\n\n` +
+                `**Option 1:** Send USDC on Base ↑\n` +
+                `**Option 2:** Buy USDC instantly 💳\n` +
+                `• Apple Pay - Fast checkout\n` +
+                `• Coinbase - Traditional purchase\n\n` +
                 `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
                 {
                   parse_mode: "Markdown",
@@ -256,13 +274,19 @@ export const startHandler: CommandHandler = {
             }
             
             const keyboard = new InlineKeyboard()
+              .text("💳 Apple Pay", "buy_usdc_applepay")
+              .text("🏪 Coinbase", "buy_usdc_coinbase")
+              .row()
               .text("🔍 Check for Deposit", "manual_balance_check");
 
             await ctx.reply(
               `👋 *Welcome back ${firstName}!*\n\n` +
               `🐙 *Your inkvest savings account address:*\n` +
               `\`${wallet.address}\`\n\n` +
-              `Send USDC on Base ↑ to start earning.\n\n` +
+              `**Option 1:** Send USDC on Base ↑\n` +
+              `**Option 2:** Buy USDC instantly 💳\n` +
+              `• Apple Pay - Fast checkout\n` +
+              `• Coinbase - Traditional purchase\n\n` +
               `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
               {
                 parse_mode: "Markdown",

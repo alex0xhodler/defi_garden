@@ -221,7 +221,7 @@ export function setExpectingDepositUntil(userId: string, untilTimestamp: number 
 }
 
 // Monitoring context types
-export type MonitoringContextType = 'onboarding' | 'manual_selection' | 'generic_deposit' | 'balance_check';
+export type MonitoringContextType = 'onboarding' | 'manual_selection' | 'generic_deposit' | 'balance_check' | 'purchase_completion';
 
 export interface MonitoringContext {
   type: MonitoringContextType;

@@ -477,6 +477,174 @@ bot.on("callback_query:data", async (ctx) => {
     await withdrawHandler.handler(ctx);
   } else if (callbackData === "help") {
     await helpHandler.handler(ctx);
+  } else if (callbackData === "buy_usdc_applepay") {
+    // Handle Apple Pay USDC purchase
+    const userId = ctx.session.userId;
+    const firstName = ctx.from?.first_name || "there";
+    
+    if (!userId) {
+      await ctx.reply("❌ Please start the bot first with /start command.");
+      return;
+    }
+
+    // Get user's wallet address first
+    const { getWallet } = await import("./src/lib/token-wallet");
+    let wallet;
+    
+    try {
+      wallet = await getWallet(userId);
+      
+      if (!wallet) {
+        await ctx.reply("❌ Wallet not found. Please run /start to create your Smart Wallet first.");
+        return;
+      }
+
+      // Generate Apple Pay onramp URL
+      const { generateApplePayOnrampUrl } = await import("./src/lib/coinbase-onramp");
+      const onrampUrl = await generateApplePayOnrampUrl(wallet.address, userId, 20); // Default $20
+
+      // Create keyboard with the onramp link
+      const keyboard = new InlineKeyboard()
+        .url("💳 Buy USDC with Apple Pay", onrampUrl)
+        .row()
+        .text("✅ I've completed my purchase", "purchase_completed")
+        .text("🔍 Check for deposits", "manual_balance_check");
+
+      await ctx.reply(
+        `💳 **Buy USDC instantly with Apple Pay** 🍎\n\n` +
+          `Hi ${firstName}! Tap the button below to:\n\n` +
+          `✅ Buy USDC with Apple Pay or debit card\n` +
+          `✅ Funds sent directly to your Smart Wallet\n` +
+          `✅ Auto-earning starts immediately\n\n` +
+          `*Destination:* \`${wallet.address}\`\n` +
+          `*Network:* Base\n` +
+          `*Default Amount:* $20 USD (you can change it)\n\n` +
+          `After purchase, tap "I've completed my purchase" and I'll check for your deposit! 🦑`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard,
+        }
+      );
+
+      await ctx.answerCallbackQuery("Apple Pay purchase ready!");
+      
+    } catch (error) {
+      console.error("Error handling Apple Pay purchase:", error);
+      
+      // Check if it's a credentials issue
+      if (error instanceof Error && error.message.includes("not configured")) {
+        await ctx.reply(
+          `💳 **Apple Pay Setup In Progress** 🔧\n\n` +
+          `Sorry ${firstName}, our Apple Pay integration is being set up!\n\n` +
+          `**For now, please use Option 1:**\n` +
+          `Send USDC directly to your wallet address:\n` +
+          `\`${wallet?.address || 'your wallet address'}\`\n\n` +
+          `*Network:* Base\n` +
+          `*We'll notify you immediately when USDC arrives!* 🦑`
+        );
+      } else {
+        await ctx.reply("❌ Sorry, there was an issue setting up Apple Pay. Please try the regular USDC transfer option instead.");
+      }
+      
+      await ctx.answerCallbackQuery();
+    }
+    
+  } else if (callbackData === "buy_usdc_coinbase") {
+    // Handle Coinbase USDC purchase (no API required)
+    const userId = ctx.session.userId;
+    const firstName = ctx.from?.first_name || "there";
+    
+    if (!userId) {
+      await ctx.reply("❌ Please start the bot first with /start command.");
+      return;
+    }
+
+    try {
+      // Get user's wallet address
+      const { getWallet } = await import("./src/lib/token-wallet");
+      const wallet = await getWallet(userId);
+      
+      if (!wallet) {
+        await ctx.reply("❌ Wallet not found. Please run /start to create your Smart Wallet first.");
+        return;
+      }
+
+      // Generate Coinbase Pay URL (no API required)
+      const { generateCoinbasePayUrl } = await import("./src/lib/coinbase-onramp");
+      const coinbaseUrl = generateCoinbasePayUrl(wallet.address, 20); // Default $20
+
+      // Create keyboard with the coinbase link
+      const keyboard = new InlineKeyboard()
+        .url("🏪 Buy USDC on Coinbase", coinbaseUrl)
+        .row()
+        .text("✅ I've completed my purchase", "purchase_completed")
+        .text("🔍 Check for deposits", "manual_balance_check");
+
+      await ctx.reply(
+        `🏪 **Buy USDC on Coinbase** \n\n` +
+          `Hi ${firstName}! Tap the button below to:\n\n` +
+          `✅ Purchase USDC on Coinbase\n` +
+          `✅ Send to your Smart Wallet address\n` +
+          `✅ Start earning automatically\n\n` +
+          `*Your destination address:*\n` +
+          `\`${wallet.address}\`\n` +
+          `*Network:* Base\n\n` +
+          `**Steps:**\n` +
+          `1. Buy USDC on Coinbase\n` +
+          `2. Send to address above (Base network)\n` +
+          `3. Tap "I've completed my purchase"\n\n` +
+          `I'll detect your deposit and start earning! 🦑`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard,
+        }
+      );
+
+      await ctx.answerCallbackQuery("Coinbase purchase guide ready!");
+      
+    } catch (error) {
+      console.error("Error handling Coinbase purchase:", error);
+      await ctx.reply("❌ Sorry, there was an issue setting up the Coinbase link. Please try the regular USDC transfer option instead.");
+      await ctx.answerCallbackQuery();
+    }
+    
+  } else if (callbackData === "purchase_completed") {
+    // Handle purchase completion confirmation
+    const userId = ctx.session.userId;
+    
+    if (!userId) {
+      await ctx.reply("❌ Please start the bot first with /start command.");
+      return;
+    }
+
+    // Start deposit monitoring for purchase completion
+    const { startDepositMonitoringWithContext } = await import("./src/lib/database");
+    startDepositMonitoringWithContext(userId, 'purchase_completion', 10, {
+      trigger: 'apple_pay_purchase_completed'
+    });
+    console.log(`🎯 Started purchase_completion monitoring for user ${userId} (Apple Pay)`);
+
+    // Force refresh monitoring service to include this user immediately
+    try {
+      const eventMonitor = await import("./src/services/event-monitor");
+      await eventMonitor.forceRefreshWallets();
+      console.log(`🔄 Refreshed monitoring service for user ${userId}`);
+    } catch (error) {
+      console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
+    }
+
+    await ctx.reply(
+      `✅ **Thanks for letting me know!**\n\n` +
+        `I'm now monitoring your Smart Wallet for the next 10 minutes.\n\n` +
+        `Once I detect your USDC deposit, I'll:\n` +
+        `🦑 Notify you immediately\n` +
+        `🚀 Auto-deploy to the highest yield opportunity\n` +
+        `📊 Start tracking your earnings\n\n` +
+        `*This usually takes 1-3 minutes after purchase completion.*`
+    );
+
+    await ctx.answerCallbackQuery("Monitoring for your deposit!");
+    
   } else if (callbackData === "manual_balance_check") {
     // Manual balance check for onboarding users - Start monitoring for deposits
     const userId = ctx.session.userId;
