@@ -83,8 +83,11 @@ export async function handleSettingsOption(
     console.log(`🔧 Settings option called: "${option}"`);
     const settings = ctx.session.settings;
 
+    console.log(`🔧 Switch statement input: "${option}" (type: ${typeof option})`);
+    
     switch (option) {
       case "risk":
+        console.log(`✅ Matched case: risk`);
         const riskKeyboard = new InlineKeyboard()
           .text("🛡️ 1 - Very Safe", "risk_1")
           .text("🟢 2 - Conservative", "risk_2")
@@ -141,6 +144,7 @@ export async function handleSettingsOption(
         break;
 
       case "minApy":
+        console.log(`✅ Matched case: minApy`);
         const minApyKeyboard = new InlineKeyboard()
           .text("1%", "minapy_1")
           .text("2%", "minapy_2")

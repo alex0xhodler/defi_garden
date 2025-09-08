@@ -951,7 +951,9 @@ bot.on("callback_query:data", async (ctx) => {
       const { exportHandler } = await import("./src/commands/import-export");
       await exportHandler.handler(ctx);
     } else {
+      console.log(`🔧 Calling handleSettingsOption with option: "${option}"`);
       await handleSettingsOption(ctx, option);
+      console.log(`🔧 handleSettingsOption completed for: "${option}"`);
     }
   }
 
