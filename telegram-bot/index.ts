@@ -918,6 +918,7 @@ bot.on("callback_query:data", async (ctx) => {
       | "risk"
       | "slippage"
       | "minApy"
+      | "reset"
       | "back"
       | "export_key";
     
@@ -950,6 +951,44 @@ bot.on("callback_query:data", async (ctx) => {
       // Handle export private key from settings
       const { exportHandler } = await import("./src/commands/import-export");
       await exportHandler.handler(ctx);
+    } else if (option === "reset") {
+      // Handle reset to defaults
+      const userId = ctx.session.userId;
+      if (!userId) {
+        await ctx.answerCallbackQuery("Session expired");
+        return;
+      }
+
+      // Import constants and database functions
+      const { DEFAULT_SETTINGS } = await import("./src/utils/constants");
+      const { saveUserSettings } = await import("./src/lib/database");
+
+      // Reset to default settings
+      ctx.session.settings = {
+        userId,
+        riskLevel: DEFAULT_SETTINGS.RISK_LEVEL,
+        slippage: DEFAULT_SETTINGS.SLIPPAGE,
+        autoCompound: DEFAULT_SETTINGS.AUTO_COMPOUND,
+        minApy: DEFAULT_SETTINGS.MIN_APY,
+      };
+
+      // Save to database
+      await saveUserSettings(userId, ctx.session.settings);
+
+      await ctx.answerCallbackQuery("Settings reset to defaults!");
+      await ctx.editMessageText(
+        `🔄 **Settings Reset to Defaults**\n\n` +
+        `✅ Risk Level: **3** (Moderate)\n` +
+        `✅ Min APY: **5%**\n\n` +
+        `Your settings have been restored to the recommended defaults.\n\n` +
+        `💡 You can adjust them anytime from the Settings menu.`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: new InlineKeyboard()
+            .text("⚙️ Settings", "open_settings")
+            .text("🔙 Go Back", "go_back_start")
+        }
+      );
     } else {
       console.log(`🔧 Calling handleSettingsOption with option: "${option}"`);
       await handleSettingsOption(ctx, option);
@@ -973,6 +1012,12 @@ bot.on("callback_query:data", async (ctx) => {
   else if (callbackData.startsWith("minapy_")) {
     const minApy = parseFloat(callbackData.replace("minapy_", ""));
     await updateMinApy(ctx, minApy);
+  }
+
+  // Go back to start callback
+  else if (callbackData === "go_back_start") {
+    await startHandler.handler(ctx);
+    await ctx.answerCallbackQuery();
   }
 
   // Other callbacks

@@ -24,21 +24,16 @@ const settingsHandler = {
             message += `\n\n`;
             message += `📈 **Min APY**: ${settings?.minApy || 5}%\n`;
             message += `Only show opportunities above this yield\n\n`;
-            message += `💱 **Slippage**: ${settings?.slippage || 1}%\n`;
-            message += `Maximum price impact tolerance\n\n`;
-            message += `🔄 **Auto-Compound**: ${settings?.autoCompound ? 'ON' : 'OFF'}\n`;
-            message += `Automatically reinvest harvested yields\n\n`;
             const keyboard = new grammy_1.InlineKeyboard()
                 .text("🎯 Risk Level", "settings_risk")
                 .text("📈 Min APY", "settings_minApy")
                 .row()
-                .text("💱 Slippage", "settings_slippage")
-                .text("🔄 Auto-Compound", "settings_autoCompound")
-                .row()
                 .text("🔑 Export Private Key", "settings_export_key")
-                .row()
                 .text("🔄 Reset to Defaults", "settings_reset")
-                .text("✅ Done", "settings_back");
+                .row()
+                .text("💡 How to Send USDC", "deposit_help")
+                .row()
+                .text("🔙 Go Back", "go_back_start");
             await ctx.reply(message, {
                 parse_mode: "Markdown",
                 reply_markup: keyboard

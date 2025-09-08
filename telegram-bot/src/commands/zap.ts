@@ -99,7 +99,8 @@ export function calculateRiskScore(pool: YieldOpportunity): number {
   let risk = 0;
   
   // TVL risk (higher TVL = lower risk)
-  if (pool.tvlUsd < 10_000_000) risk += 5;
+  if (pool.tvlUsd < 1_000_000) risk += 7;
+  else if (pool.tvlUsd < 10_000_000) risk += 5;
   else if (pool.tvlUsd < 50_000_000) risk += 3;
   else if (pool.tvlUsd < 100_000_000) risk += 2;
   else risk += 1;
