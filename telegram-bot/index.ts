@@ -917,6 +917,7 @@ bot.on("callback_query:data", async (ctx) => {
     const option = callbackData.replace("settings_", "") as
       | "risk"
       | "slippage"
+      | "minApy"
       | "back"
       | "export_key";
 
