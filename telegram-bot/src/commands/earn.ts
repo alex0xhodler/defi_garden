@@ -2,7 +2,7 @@ import { InlineKeyboard } from "grammy";
 import { BotContext } from "../context";
 import { CommandHandler } from "../types/commands";
 import { YieldOpportunity } from "../types/config";
-import { ERRORS, RISK_THRESHOLDS, BASE_TOKENS, isRpcConfigured } from "../utils/constants";
+import { ERRORS, RISK_THRESHOLDS, BASE_TOKENS, DEFAULT_SETTINGS, isRpcConfigured } from "../utils/constants";
 import { getWallet, getMultipleTokenBalances, formatTokenAmount, getEthBalance } from "../lib/token-wallet";
 import { formatEther } from "viem";
 import { executeZap } from "../lib/defi-protocols";
@@ -21,7 +21,7 @@ import { Address } from "viem";
 export async function getYieldOpportunities(
   token: string = "USDC", 
   riskLevel: number = 3,
-  minApy: number = 5
+  minApy: number = DEFAULT_SETTINGS.MIN_APY
 ): Promise<YieldOpportunity[]> {
   try {
     // Import the DeFiLlama API client
@@ -230,7 +230,9 @@ const earnHandler: CommandHandler = {
 export async function handlePoolSelection(ctx: BotContext): Promise<void> {
   try {
     const userRiskLevel = ctx.session.settings?.riskLevel || 3;
-    const userMinApy = ctx.session.settings?.minApy || 5;
+    const userMinApy = ctx.session.settings?.minApy || DEFAULT_SETTINGS.MIN_APY;
+    
+    console.log(`👤 User ${ctx.session.userId} settings: Min APY ${userMinApy}% (${ctx.session.settings?.minApy ? 'user configured' : 'default'})`);
     
     // Get available yield opportunities
     const opportunities = await getYieldOpportunities("USDC", userRiskLevel, userMinApy);
@@ -385,8 +387,11 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
           selectedPool = ctx.session.tempData.selectedPool;
           poolInfo = ctx.session.tempData.poolInfo;
         } else {
-          // Fallback: Get the best pool for auto-deployment
-          const opportunities = await getYieldOpportunities("USDC");
+          // Fallback: Get the best pool for auto-deployment using user settings
+          const userRiskLevel = ctx.session.settings?.riskLevel || 3;
+          const userMinApy = ctx.session.settings?.minApy || DEFAULT_SETTINGS.MIN_APY;
+          
+          const opportunities = await getYieldOpportunities("USDC", userRiskLevel, userMinApy);
           const bestPool = opportunities
             .filter(pool => pool.tvlUsd >= RISK_THRESHOLDS.TVL_SAFE)
             .sort((a, b) => b.apy - a.apy)[0];
@@ -450,8 +455,11 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
       selectedPool = ctx.session.tempData.selectedPool;
       poolInfo = ctx.session.tempData.poolInfo;
     } else {
-      // Fallback: Get the best pool for auto-deployment (shouldn't happen normally)
-      const opportunities = await getYieldOpportunities("USDC");
+      // Fallback: Get the best pool for auto-deployment using user settings (shouldn't happen normally)
+      const userRiskLevel = ctx.session.settings?.riskLevel || 3;
+      const userMinApy = ctx.session.settings?.minApy || DEFAULT_SETTINGS.MIN_APY;
+      
+      const opportunities = await getYieldOpportunities("USDC", userRiskLevel, userMinApy);
       const bestPool = opportunities
         .filter(pool => pool.tvlUsd >= RISK_THRESHOLDS.TVL_SAFE)
         .sort((a, b) => b.apy - a.apy)[0];
@@ -688,7 +696,7 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
 
     // Get the best pool automatically
     const userRiskLevel = ctx.session.settings?.riskLevel || 3;
-    const userMinApy = ctx.session.settings?.minApy || 5;
+    const userMinApy = ctx.session.settings?.minApy || DEFAULT_SETTINGS.MIN_APY;
     
     const opportunities = await getYieldOpportunities("USDC", userRiskLevel, userMinApy);
     const bestPool = opportunities
