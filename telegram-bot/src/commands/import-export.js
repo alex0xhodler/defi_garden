@@ -36,6 +36,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.exportHandler = exports.importHandler = void 0;
 exports.handlePrivateKeyInput = handlePrivateKeyInput;
 exports.handleExportConfirmation = handleExportConfirmation;
+exports.handleFundMigration = handleFundMigration;
 const token_wallet_1 = require("../lib/token-wallet");
 const validators_1 = require("../utils/validators");
 const grammy_1 = require("grammy");
@@ -128,16 +129,153 @@ exports.exportHandler = {
                 await ctx.reply("❌ Please start the bot first with /start command.");
                 return;
             }
-            // Get user's wallet
-            const wallet = await (0, token_wallet_1.getWallet)(userId);
-            if (!wallet) {
+            // UNIVERSAL BALANCE CHECK - Check for Smart Wallet regardless of detection
+            console.log(`🚀 ==> EXPORT SAFETY CHECK INITIATED FOR USER ${userId} <==`);
+            const { hasCoinbaseSmartWallet, checkAllUSDCBalances } = await Promise.resolve().then(() => __importStar(require("../lib/coinbase-wallet")));
+            const hasSmartWallet = hasCoinbaseSmartWallet(userId);
+            // Get database wallet info for debugging
+            const { getWalletByUserId: getWallet } = await Promise.resolve().then(() => __importStar(require("../lib/database")));
+            const dbWallet = getWallet(userId);
+            console.log(`🔍 DATABASE WALLET INFO - User ${userId}:`, {
+                exists: !!dbWallet,
+                type: dbWallet?.type || 'UNDEFINED',
+                address: dbWallet?.address || 'UNDEFINED'
+            });
+            console.log(`🔍 SMART WALLET DETECTION - User ${userId}: hasSmartWallet=${hasSmartWallet} (based on type === 'coinbase-smart-wallet')`);
+            // CRITICAL: ALWAYS attempt Smart Wallet balance check regardless of database type
+            // This handles cases where database type is wrong or wallet was upgraded
+            console.log(`🔍 ATTEMPTING UNIVERSAL Smart Wallet balance check for user ${userId}...`);
+            let balances = null;
+            try {
+                balances = await checkAllUSDCBalances(userId);
+                console.log(`💰 BALANCE CHECK RESULT - User ${userId}:`, {
+                    success: !!balances,
+                    smartWalletBalance: balances?.smartWalletBalance || 'NULL',
+                    eoaBalance: balances?.eoaBalance || 'NULL',
+                    totalBalance: balances?.totalBalance || 'NULL',
+                    smartWalletAddress: balances?.smartWalletAddress || 'NULL',
+                    eoaAddress: balances?.eoaAddress || 'NULL'
+                });
+            }
+            catch (error) {
+                console.log(`💰 BALANCE CHECK ERROR - User ${userId}:`, {
+                    error: error.message || 'Unknown error',
+                    stack: error.stack?.split('\n').slice(0, 3)
+                });
+            }
+            // SAFETY DECISION LOGIC - Enhanced with comprehensive logging
+            if (balances) {
+                console.log(`🦑 SMART WALLET BALANCES DETECTED - User ${userId} - initiating safety evaluation`);
+                const smartWalletBalance = parseFloat(balances.smartWalletBalance);
+                const eoaBalance = parseFloat(balances.eoaBalance);
+                console.log(`💰 DETAILED BALANCE ANALYSIS - User ${userId}:`, {
+                    smartWalletBalance: `$${smartWalletBalance}`,
+                    eoaBalance: `$${eoaBalance}`,
+                    totalBalance: `$${balances.totalBalance}`,
+                    smartWalletAddress: balances.smartWalletAddress,
+                    eoaAddress: balances.eoaAddress,
+                    safetyThreshold: '$0.01',
+                    requiresTransfer: smartWalletBalance > 0.01
+                });
+                console.log(`🔍 SAFETY DECISION POINT - User ${userId}:`, {
+                    condition: `smartWalletBalance (${smartWalletBalance}) > 0.01`,
+                    result: smartWalletBalance > 0.01 ? '🚫 BLOCK EXPORT - TRANSFER REQUIRED' : '✅ ALLOW EXPORT - SAFE BALANCE',
+                    reasoning: smartWalletBalance > 0.01
+                        ? 'Smart Wallet has significant funds that private key cannot access'
+                        : 'Smart Wallet balance is negligible, private key will control meaningful funds'
+                });
+                if (smartWalletBalance > 0.01) {
+                    // CRITICAL PATH: Block export and require mandatory fund migration
+                    console.log(`🚫 BLOCKING PRIVATE KEY EXPORT - User ${userId} Smart Wallet contains $${smartWalletBalance} USDC`);
+                    console.log(`🔄 INITIATING MANDATORY FUND MIGRATION FLOW - User ${userId}`);
+                    // Set current action for MANDATORY fund migration flow
+                    ctx.session.currentAction = "mandatory_fund_migration";
+                    console.log(`🚫 User ${userId} BLOCKED from export - Smart Wallet has $${smartWalletBalance} USDC - MANDATORY TRANSFER TO EOA REQUIRED`);
+                    // MANDATORY fund consolidation - no skip option
+                    const keyboard = new grammy_1.InlineKeyboard()
+                        .text("🔄 Consolidate Funds Now", "confirm_fund_migration");
+                    await ctx.reply(`🔒 *PRIVATE KEY EXPORT LOCKED*\n\n` +
+                        `Your funds are currently in your Smart Wallet, but the private key only controls your Regular Wallet address.\n\n` +
+                        `📊 *Current Locations:*\n` +
+                        `• 🦑 **Smart Wallet**: ${balances.smartWalletBalance} USDC ← Your funds are HERE\n` +
+                        `• 🔑 **Regular Wallet**: ${balances.eoaBalance} USDC ← Private key controls THIS\n\n` +
+                        `🚫 **Private key export is blocked until Smart Wallet funds are transferred to Regular Wallet.**\n\n` +
+                        `✅ **Required Action**: Transfer ${balances.smartWalletBalance} USDC from Smart Wallet to Regular Wallet. Then your private key will control ALL your funds.\n\n` +
+                        `🌟 *This transfer is gasless - no fees required!*`, {
+                        parse_mode: "Markdown",
+                        reply_markup: keyboard,
+                    });
+                    return;
+                }
+                else {
+                    // Smart Wallet balance is minimal - safe to proceed
+                    console.log(`✅ SMART WALLET BALANCE ACCEPTABLE - User ${userId}:`, {
+                        smartWalletBalance: `$${smartWalletBalance}`,
+                        belowThreshold: true,
+                        safetyStatus: 'EXPORT APPROVED - minimal Smart Wallet funds',
+                        note: 'Private key will control majority of user funds'
+                    });
+                    console.log(`✅ PROCEEDING TO PRIVATE KEY EXPORT - User ${userId} - safety requirements met`);
+                }
+            }
+            else {
+                // Balance check failed or returned null
+                console.log(`⚠️ SMART WALLET BALANCE CHECK FAILED - User ${userId}:`, {
+                    hasSmartWallet: hasSmartWallet,
+                    balances: balances,
+                    databaseType: dbWallet?.type,
+                    possibleCauses: [
+                        'User has traditional wallet (not Smart Wallet)',
+                        'Smart Wallet detection failed',
+                        'Network/RPC error during balance check',
+                        'Wallet data corruption'
+                    ]
+                });
+                if (hasSmartWallet) {
+                    // Database says Smart Wallet but balance check failed - BLOCK for safety
+                    console.log(`🚫 SAFETY BLOCK TRIGGERED - User ${userId}:`, {
+                        reason: 'Smart Wallet detected in database but balance verification failed',
+                        action: 'BLOCKING export to prevent potential fund loss',
+                        recommendation: 'User should try again or contact support'
+                    });
+                    await ctx.reply(`🔒 *PRIVATE KEY EXPORT BLOCKED*\n\n` +
+                        `Unable to verify your wallet balances for security reasons.\n\n` +
+                        `This prevents accidentally exporting a private key that might not control all your funds.\n\n` +
+                        `Please try again in a moment.`);
+                    return;
+                }
+                else {
+                    // Traditional wallet or Smart Wallet balance check failed but not detected as Smart Wallet
+                    console.log(`🏦 TRADITIONAL WALLET PATH - User ${userId}:`, {
+                        hasSmartWallet: false,
+                        balanceCheckResult: 'failed/null',
+                        walletType: 'traditional (legacy)',
+                        safetyStatus: 'PROCEEDING - no Smart Wallet detected',
+                        privateKeyControls: 'all funds (traditional wallet)'
+                    });
+                    console.log(`🏦 PROCEEDING WITH TRADITIONAL WALLET EXPORT - User ${userId}`);
+                }
+            }
+            // Check if user has any wallet (Smart or traditional)
+            console.log(`🔍 FINAL WALLET VERIFICATION - User ${userId} - checking for any wallet existence`);
+            const wallet = await getWallet(userId);
+            console.log(`💼 WALLET EXISTENCE CHECK - User ${userId}:`, {
+                traditionalWallet: !!wallet,
+                smartWallet: hasSmartWallet,
+                walletAddress: wallet?.address || 'NONE',
+                hasAnyWallet: !!(wallet || hasSmartWallet)
+            });
+            if (!wallet && !hasSmartWallet) {
+                console.log(`❌ NO WALLET FOUND - User ${userId} - blocking export and requesting wallet creation`);
                 await ctx.reply("❌ You don't have a wallet yet.\n\n" +
                     "Use /create to create a new wallet or /import to import an existing one.");
                 return;
             }
-            // Set current action
+            // Set current action for export confirmation flow
+            console.log(`🔐 INITIATING EXPORT CONFIRMATION FLOW - User ${userId} - setting session action`);
             ctx.session.currentAction = "export_wallet";
             // Show warning and confirmation prompt
+            console.log(`⚠️ DISPLAYING SECURITY WARNING - User ${userId} - awaiting user confirmation`);
             await ctx.reply("⚠️ *SECURITY WARNING*\n\n" +
                 "You are about to export your private key. This is sensitive information that gives complete control over your wallet funds.\n\n" +
                 "*NEVER*:\n" +
@@ -150,7 +288,7 @@ exports.exportHandler = {
             });
         }
         catch (error) {
-            console.error("Error in export command:", error);
+            console.error("🔑 ERROR in export command:", error);
             await ctx.reply("❌ An error occurred. Please try again later.");
         }
     },
@@ -159,7 +297,15 @@ exports.exportHandler = {
 async function handleExportConfirmation(ctx, confirmed) {
     try {
         // Remove the confirmation keyboard
-        await ctx.editMessageReplyMarkup({ reply_markup: undefined });
+        try {
+            await ctx.editMessageReplyMarkup({ reply_markup: undefined });
+        }
+        catch (error) {
+            // Ignore "message is not modified" errors - this happens when message already has no keyboard
+            if (!error.description?.includes("message is not modified")) {
+                throw error;
+            }
+        }
         if (!confirmed) {
             // Check if user is in onboarding state (onboardingCompleted is null)
             const { getUserByTelegramId } = await Promise.resolve().then(() => __importStar(require("../lib/database")));
@@ -200,18 +346,80 @@ async function handleExportConfirmation(ctx, confirmed) {
             await ctx.reply("❌ Session expired. Please use /start to begin again.");
             return;
         }
-        // Get user's wallet
-        const wallet = await (0, token_wallet_1.getWallet)(userId);
-        if (!wallet) {
-            await ctx.reply("❌ Wallet not found. Please create or import a wallet first.");
-            return;
+        // Check if user has a Coinbase Smart Wallet first
+        const { hasCoinbaseSmartWallet, getCoinbaseSmartWallet } = await Promise.resolve().then(() => __importStar(require("../lib/coinbase-wallet")));
+        let privateKey;
+        let walletAddress;
+        let isSmartWallet = false;
+        if (hasCoinbaseSmartWallet(userId)) {
+            // User has a Coinbase Smart Wallet - CRITICAL SECURITY CHECK
+            const { checkAllUSDCBalances } = await Promise.resolve().then(() => __importStar(require("../lib/coinbase-wallet")));
+            // FINAL BALANCE VERIFICATION before showing private key
+            console.log(`🔒 FINAL SECURITY CHECK - Verifying Smart Wallet balance before private key export for user ${userId}`);
+            const finalBalanceCheck = await checkAllUSDCBalances(userId);
+            if (!finalBalanceCheck) {
+                await ctx.reply("❌ Unable to verify wallet balance. Private key export blocked for security.");
+                return;
+            }
+            const finalSmartWalletBalance = parseFloat(finalBalanceCheck.smartWalletBalance);
+            const finalEoaBalance = parseFloat(finalBalanceCheck.eoaBalance);
+            console.log(`🔍 Final balance check: Smart = $${finalSmartWalletBalance}, EOA = $${finalEoaBalance}`);
+            if (finalSmartWalletBalance > 0.01) {
+                // BLOCK EXPORT - Smart Wallet still has funds
+                console.log(`🚫 PRIVATE KEY EXPORT BLOCKED - Smart Wallet still has $${finalSmartWalletBalance}`);
+                const keyboard = new grammy_1.InlineKeyboard()
+                    .text("🔄 Transfer Remaining Funds", "confirm_fund_migration");
+                await ctx.reply(`🚫 *PRIVATE KEY EXPORT BLOCKED*\n\n` +
+                    `**Transfer Incomplete**: Your Smart Wallet still contains ${finalBalanceCheck.smartWalletBalance} USDC.\n\n` +
+                    `📊 *Current Locations:*\n` +
+                    `• 🦑 **Smart Wallet**: ${finalBalanceCheck.smartWalletBalance} USDC ← Still has funds\n` +
+                    `• 🔑 **Regular Wallet**: ${finalBalanceCheck.eoaBalance} USDC ← Private key controls this\n\n` +
+                    `🔒 **Private key export is locked until Smart Wallet balance is below $0.01**\n\n` +
+                    `Please complete the transfer of remaining Smart Wallet funds to Regular Wallet.`, {
+                    parse_mode: "Markdown",
+                    reply_markup: keyboard,
+                });
+                ctx.session.currentAction = "mandatory_fund_migration";
+                return;
+            }
+            console.log(`✅ FINAL SECURITY CHECK PASSED - Smart Wallet: $${finalSmartWalletBalance} - PRIVATE KEY EXPORT APPROVED`);
+            const smartWallet = await getCoinbaseSmartWallet(userId);
+            if (!smartWallet) {
+                await ctx.reply("❌ Smart wallet not found. Please try again later.");
+                return;
+            }
+            // Get the private key from the encrypted wallet data
+            const { decrypt } = await Promise.resolve().then(() => __importStar(require("../lib/encryption")));
+            privateKey = decrypt(smartWallet.walletData.encryptedPrivateKey);
+            walletAddress = smartWallet.owner.address; // EOA address that the private key controls
+            isSmartWallet = true;
         }
-        // Extract private key
-        const privateKey = (0, token_wallet_1.getPrivateKey)(wallet);
-        // Send private key in a separate message that auto-deletes after 60 seconds
-        await ctx.reply("🔑 *Your Private Key*\n\n" + `\`${privateKey}\`\n\n`, {
-            parse_mode: "Markdown",
-        });
+        else {
+            // User has a traditional wallet
+            const wallet = await (0, token_wallet_1.getWallet)(userId);
+            if (!wallet) {
+                await ctx.reply("❌ Wallet not found. Please create or import a wallet first.");
+                return;
+            }
+            // Extract private key for traditional wallet
+            privateKey = (0, token_wallet_1.getPrivateKey)(wallet);
+            walletAddress = wallet.address;
+        }
+        // Send private key with appropriate explanation
+        if (isSmartWallet) {
+            await ctx.reply("🔑 *Your Private Key*\n\n" +
+                `\`${privateKey}\`\n\n` +
+                `ℹ️ *This private key controls your regular wallet address:*\n` +
+                `\`${walletAddress}\`\n\n` +
+                "✅ *All your funds should now be accessible when you import this key into MetaMask or other wallets.*\n\n", {
+                parse_mode: "Markdown",
+            });
+        }
+        else {
+            await ctx.reply("🔑 *Your Private Key*\n\n" + `\`${privateKey}\`\n\n`, {
+                parse_mode: "Markdown",
+            });
+        }
         // Send follow-up reminder about security with action buttons
         // Check if user is in onboarding state
         const { getUserByTelegramId } = await Promise.resolve().then(() => __importStar(require("../lib/database")));
@@ -257,5 +465,127 @@ async function handleExportConfirmation(ctx, confirmed) {
     catch (error) {
         console.error("Error handling export confirmation:", error);
         await ctx.reply("❌ An error occurred while exporting your private key. Please try again later.");
+    }
+}
+// Handle MANDATORY fund migration before export
+async function handleFundMigration(ctx, migrate = true // Always true since migration is mandatory
+) {
+    try {
+        const userId = ctx.session.userId;
+        if (!userId) {
+            await ctx.reply("❌ Session expired. Please use /start to begin again.");
+            return;
+        }
+        // Remove the confirmation keyboard
+        await ctx.editMessageReplyMarkup({ reply_markup: undefined });
+        // MANDATORY fund migration - no skip option allowed
+        await ctx.reply("🔄 *Transferring funds from Smart Wallet to Regular Wallet...*\n\nThis gasless transfer may take a few moments.");
+        try {
+            // Get Smart Wallet balances
+            const { checkAllUSDCBalances, transferUsdcGasless } = await Promise.resolve().then(() => __importStar(require("../lib/coinbase-wallet")));
+            const balances = await checkAllUSDCBalances(userId);
+            if (!balances) {
+                throw new Error("Unable to check wallet balances");
+            }
+            const smartWalletBalance = parseFloat(balances.smartWalletBalance);
+            if (smartWalletBalance <= 0.01) {
+                await ctx.reply("✅ No significant funds found in Smart Wallet. Proceeding with export...");
+                // Proceed to export
+                ctx.session.currentAction = "export_wallet";
+                await handleExportConfirmation(ctx, true);
+                return;
+            }
+            // Transfer funds from Smart Wallet to EOA
+            const transferAmount = (smartWalletBalance - 0.01).toFixed(2); // Leave small amount for gas
+            console.log(`🔄 Migrating ${transferAmount} USDC from Smart Wallet to EOA for user ${userId}`);
+            const result = await transferUsdcGasless(userId, balances.eoaAddress, transferAmount);
+            if (result.success) {
+                await ctx.reply(`✅ *Fund transfer completed!*\n\n` +
+                    `Transferred ${transferAmount} USDC from Smart Wallet to Regular Wallet.\n\n` +
+                    `Transaction hash: \`${result.txHash}\`\n\n` +
+                    `🔍 *Verifying balance to unlock private key export...*`, {
+                    parse_mode: "Markdown",
+                });
+                // Wait for transaction to be processed
+                await new Promise(resolve => setTimeout(resolve, 3000));
+                // CRITICAL: Re-verify Smart Wallet balance before allowing export
+                console.log(`🔍 Post-transfer balance verification for user ${userId}`);
+                const postTransferBalances = await checkAllUSDCBalances(userId);
+                if (!postTransferBalances) {
+                    throw new Error("Unable to verify balance after transfer");
+                }
+                const remainingBalance = parseFloat(postTransferBalances.smartWalletBalance);
+                console.log(`💰 Post-transfer Smart Wallet balance: $${remainingBalance}`);
+                if (remainingBalance > 0.01) {
+                    // BLOCK export - funds still remain
+                    console.log(`🚫 EXPORT STILL BLOCKED - Remaining balance: $${remainingBalance}`);
+                    const keyboard = new grammy_1.InlineKeyboard()
+                        .text("🔄 Try Transfer Again", "confirm_fund_migration");
+                    await ctx.reply(`⚠️ *EXPORT STILL BLOCKED*\n\n` +
+                        `Your Smart Wallet still contains ${postTransferBalances.smartWalletBalance} USDC after the transfer.\n\n` +
+                        `🚫 **Private key export remains locked until Smart Wallet balance is below $0.01**\n\n` +
+                        `This may happen if:\n` +
+                        `• The transfer was partial due to gas reserves\n` +
+                        `• You received new funds during transfer\n` +
+                        `• Network delays in processing\n\n` +
+                        `Please try transferring the remaining funds.`, {
+                        parse_mode: "Markdown",
+                        reply_markup: keyboard,
+                    });
+                    return;
+                }
+                // Balance verified - safe to proceed with export
+                console.log(`✅ Balance verified - Smart Wallet: $${remainingBalance} - EXPORT UNLOCKED`);
+                await ctx.reply(`🔓 *PRIVATE KEY EXPORT UNLOCKED!*\n\n` +
+                    `✅ All funds successfully consolidated:\n` +
+                    `• Smart Wallet: ${postTransferBalances.smartWalletBalance} USDC\n` +
+                    `• Regular Wallet: ${postTransferBalances.eoaBalance} USDC\n` +
+                    `• **Total: ${postTransferBalances.totalBalance} USDC**\n\n` +
+                    `Your private key will now give you access to all your funds!`);
+                // Proceed to export
+                ctx.session.currentAction = "export_wallet";
+                await handleExportConfirmation(ctx, true);
+            }
+            else {
+                // Transfer failed - BLOCK export and require retry
+                console.log(`🚫 Transfer failed for user ${userId}: ${result.error}`);
+                const keyboard = new grammy_1.InlineKeyboard()
+                    .text("🔄 Retry Transfer", "confirm_fund_migration")
+                    .row()
+                    .text("❓ Get Help", "transfer_help");
+                await ctx.reply(`❌ *FUND TRANSFER FAILED*\n\n` +
+                    `Error: ${result.error}\n\n` +
+                    `🚫 **Private key export remains locked until your Smart Wallet funds are successfully transferred.**\n\n` +
+                    `Your Smart Wallet still contains ${balances.smartWalletBalance} USDC that won't be accessible with just your private key.\n\n` +
+                    `Please retry the gasless transfer to unlock private key export.`, {
+                    parse_mode: "Markdown",
+                    reply_markup: keyboard,
+                });
+                // Keep session in migration mode - do NOT proceed to export
+                ctx.session.currentAction = "mandatory_fund_migration";
+            }
+        }
+        catch (migrationError) {
+            console.error("Fund migration failed:", migrationError);
+            const keyboard = new grammy_1.InlineKeyboard()
+                .text("🔄 Retry Transfer", "confirm_fund_migration")
+                .row()
+                .text("❓ Get Help", "transfer_help");
+            await ctx.reply(`❌ *FUND TRANSFER ERROR*\n\n` +
+                `Error: ${migrationError.message}\n\n` +
+                `🚫 **Private key export remains locked until your Smart Wallet funds are successfully transferred.**\n\n` +
+                `Your Smart Wallet funds won't be accessible with just your private key.\n\n` +
+                `Please retry the gasless transfer to unlock private key export.`, {
+                parse_mode: "Markdown",
+                reply_markup: keyboard,
+            });
+            // Keep session in migration mode - do NOT proceed to export
+            ctx.session.currentAction = "mandatory_fund_migration";
+        }
+    }
+    catch (error) {
+        console.error("Error handling fund migration:", error);
+        await ctx.reply("❌ An error occurred during fund migration. Please try again later.");
+        ctx.session.currentAction = undefined;
     }
 }
