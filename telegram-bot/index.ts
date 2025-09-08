@@ -23,6 +23,7 @@ import settingsHandler, {
   handleSettingsOption,
   updateSlippage,
   updateRiskLevel,
+  updateMinApy,
 } from "./src/commands/settings";
 import depositHandler from "./src/commands/deposit";
 import withdrawHandler, {
@@ -961,6 +962,12 @@ bot.on("callback_query:data", async (ctx) => {
   else if (callbackData.startsWith("slippage_")) {
     const slippage = parseFloat(callbackData.replace("slippage_", ""));
     await updateSlippage(ctx, slippage);
+  }
+
+  // Min APY callbacks
+  else if (callbackData.startsWith("minapy_")) {
+    const minApy = parseFloat(callbackData.replace("minapy_", ""));
+    await updateMinApy(ctx, minApy);
   }
 
   // Other callbacks

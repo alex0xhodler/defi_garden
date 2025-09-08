@@ -139,6 +139,42 @@ export async function handleSettingsOption(
         );
         break;
 
+      case "minApy":
+        const minApyKeyboard = new InlineKeyboard()
+          .text("1%", "minapy_1")
+          .text("2%", "minapy_2")
+          .text("3%", "minapy_3")
+          .row()
+          .text("4%", "minapy_4")
+          .text("5%", "minapy_5")
+          .text("6%", "minapy_6")
+          .row()
+          .text("7%", "minapy_7")
+          .text("8%", "minapy_8")
+          .text("10%", "minapy_10")
+          .row()
+          .text("12%", "minapy_12")
+          .text("15%", "minapy_15")
+          .row()
+          .text("⬅️ Back", "settings_back");
+
+        await ctx.editMessageText(
+          `📈 *Minimum APY Threshold*\n\n` +
+          `Only show yield opportunities above this APY:\n\n` +
+          `• **1-3%**: Ultra-safe protocols only\n` +
+          `• **4-6%**: Conservative, established protocols\n` +
+          `• **7-8%**: Balanced risk/reward (recommended)\n` +
+          `• **10%+**: Higher yields, accept more risk\n` +
+          `• **12-15%**: Maximum yield hunting\n\n` +
+          `Current: **${settings?.minApy || 5}%**\n\n` +
+          `💡 Pools below your threshold won't appear in /earn or /zap commands.`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: minApyKeyboard
+          }
+        );
+        break;
+
       default:
         await ctx.answerCallbackQuery("Feature coming soon!");
     }
@@ -243,6 +279,53 @@ export async function updateSlippage(ctx: BotContext, slippage: number): Promise
     );
   } catch (error) {
     console.error("Error updating slippage:", error);
+    await ctx.answerCallbackQuery("Error updating settings");
+  }
+}
+
+export async function updateMinApy(ctx: BotContext, minApy: number): Promise<void> {
+  try {
+    const userId = ctx.session.userId;
+    
+    if (!userId) {
+      await ctx.answerCallbackQuery("Session expired");
+      return;
+    }
+
+    // Update session
+    if (!ctx.session.settings) {
+      ctx.session.settings = {
+        userId,
+        riskLevel: 3,
+        slippage: 1,
+        autoCompound: true,
+        minApy: 5
+      };
+    }
+    
+    ctx.session.settings.minApy = minApy;
+
+    // Save to database
+    await saveUserSettings(userId, ctx.session.settings);
+    
+    await ctx.answerCallbackQuery(`Min APY updated to ${minApy}%`);
+    await ctx.editMessageText(
+      `✅ **Minimum APY Updated!**\n\n` +
+      `Your new minimum APY threshold: **${minApy}%**\n\n` +
+      `🎯 Only yield opportunities above ${minApy}% APY will be shown in:\n` +
+      `• **/earn** command pool selection\n` +
+      `• **/zap** command opportunities\n` +
+      `• Auto-deployment when you deposit funds\n\n` +
+      `💡 **Tip**: Lower thresholds show more options, higher thresholds focus on premium yields.`,
+      {
+        parse_mode: "Markdown",
+        reply_markup: new InlineKeyboard()
+          .text("⚙️ More Settings", "open_settings")
+          .text("✅ Done", "settings_back")
+      }
+    );
+  } catch (error) {
+    console.error("Error updating min APY:", error);
     await ctx.answerCallbackQuery("Error updating settings");
   }
 }
