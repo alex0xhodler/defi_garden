@@ -71,9 +71,11 @@ async function getBestProtocolForUser(userId) {
     // Get user settings or use conservative defaults for new users
     const userSettings = getUserSettings(userId);
     const userRiskLevel = userSettings?.riskLevel || 2; // Conservative default (1-5 scale)
-    const userMinApy = userSettings?.minApy || 5; // 5% minimum default
+    // Import constants for consistent fallback
+    const { DEFAULT_SETTINGS } = require("../utils/constants");
+    const userMinApy = userSettings?.minApy || DEFAULT_SETTINGS.MIN_APY;
     
-    console.log(`🎯 Risk-aware selection for user ${userId}: Risk Level ${userRiskLevel}/5, Min APY ${userMinApy}%`);
+    console.log(`🎯 Auto-deployment for user ${userId}: Risk Level ${userRiskLevel}/5, Min APY ${userMinApy}% (${userSettings?.minApy ? 'user configured' : 'default'})`);
     
     // Fetch current APYs from DeFiLlama
     const yields = await fetchRealTimeYields();
