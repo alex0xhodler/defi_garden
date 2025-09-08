@@ -615,15 +615,67 @@ async function handleManualProtocolCompletion(userId, firstName, amount, tokenSy
   try {
     console.log(`🎯 Manual protocol completion: ${amount} ${tokenSymbol} for ${pendingTransaction.protocol} (user ${userId})`);
     
-    // Use the protocol they specifically chose
+    // Fallback protocol mapping in case pending transaction is missing service info
+    const protocolMap = {
+      'Aave': {
+        deployFn: 'gaslessDeployToAave',
+        service: '../services/coinbase-defi',
+        displayName: 'Aave V3'
+      },
+      'Fluid': {
+        deployFn: 'gaslessDeployToFluid',
+        service: '../services/coinbase-defi', 
+        displayName: 'Fluid'
+      },
+      'Compound': {
+        deployFn: 'autoDeployToCompoundV3',
+        service: '../services/coinbase-defi',
+        displayName: 'Compound V3'
+      },
+      'Morpho': {
+        deployFn: 'deployToMorphoPYTH',
+        service: '../services/morpho-defi',
+        displayName: 'Morpho PYTH/USDC'
+      },
+      'Spark': {
+        deployFn: 'deployToSpark',
+        service: '../services/spark-defi',
+        displayName: 'Spark Protocol'
+      },
+      'Seamless': {
+        deployFn: 'deployToSeamless',
+        service: '../services/seamless-defi',
+        displayName: 'Seamless Protocol'
+      },
+      'Moonwell': {
+        deployFn: 'deployToMoonwell',
+        service: '../services/moonwell-defi',
+        displayName: 'Moonwell USDC'
+      },
+      'Moonwell USDC': {
+        deployFn: 'deployToMoonwell',
+        service: '../services/moonwell-defi',
+        displayName: 'Moonwell USDC'
+      }
+    };
+    
+    // Use the protocol they specifically chose, with fallback mapping
+    const protocolKey = pendingTransaction.project || pendingTransaction.protocol;
+    const fallbackConfig = protocolMap[protocolKey];
+    
     const selectedProtocol = {
-      protocol: pendingTransaction.displayName || pendingTransaction.protocol,
-      deployFn: pendingTransaction.deployFn,
-      service: pendingTransaction.service,
+      protocol: pendingTransaction.displayName || fallbackConfig?.displayName || pendingTransaction.protocol,
+      deployFn: pendingTransaction.deployFn || fallbackConfig?.deployFn,
+      service: pendingTransaction.service || fallbackConfig?.service,
       apy: pendingTransaction.apy,
       project: pendingTransaction.project || pendingTransaction.protocol,
       riskScore: pendingTransaction.riskScore || 3
     };
+    
+    // Validate we have the required deployment info
+    if (!selectedProtocol.service || !selectedProtocol.deployFn) {
+      throw new Error(`Missing deployment configuration for protocol ${protocolKey}. Service: ${selectedProtocol.service}, DeployFn: ${selectedProtocol.deployFn}`);
+    }
     
     // Send notification about completing their choice
     await monitorBot.api.sendMessage(
