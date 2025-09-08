@@ -387,27 +387,57 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
     } else {
       console.error(`❌ Failed to deploy ${amount} ${tokenSymbol} to ${bestProtocol.protocol}: ${deployResult.error}`);
       
-      // Send error message but still complete onboarding
+      // Send error message with retry options
+      const retryKeyboard = {
+        inline_keyboard: [
+          [
+            { text: "🔄 Retry Auto-Deploy", callback_data: "zap_auto_deploy" },
+            { text: "📊 Manual Selection", callback_data: "zap_manual" }
+          ],
+          [
+            { text: "💰 Check Balance", callback_data: "check_balance" }
+          ]
+        ]
+      };
+
       await monitorBot.api.sendMessage(
         userId,
         `⚠️ *Deposit confirmed but deployment failed*\n\n` +
         `${amount} ${tokenSymbol} received but couldn't auto-deploy to ${bestProtocol.protocol}.\n\n` +
         `Error: ${deployResult.error}\n\n` +
-        `Please try manual deployment via the bot menu.`,
-        { parse_mode: "Markdown" }
+        `💡 *Try again* - this might be a temporary protocol issue.`,
+        { 
+          parse_mode: "Markdown",
+          reply_markup: retryKeyboard
+        }
       );
     }
 
   } catch (error) {
     console.error(`Failed to auto-deploy and complete onboarding for user ${userId}:`, error);
     
-    // Send error message but still complete onboarding
+    // Send error message with retry options
+    const generalRetryKeyboard = {
+      inline_keyboard: [
+        [
+          { text: "🔄 Retry Auto-Deploy", callback_data: "zap_auto_deploy" },
+          { text: "📊 Manual Selection", callback_data: "zap_manual" }
+        ],
+        [
+          { text: "💰 Check Balance", callback_data: "check_balance" }
+        ]
+      ]
+    };
+
     await monitorBot.api.sendMessage(
       userId,
       `⚠️ *Deposit confirmed but deployment failed*\n\n` +
       `${amount} ${tokenSymbol} received but couldn't auto-deploy.\n\n` +
-      `Please try manual deployment via the bot menu.`,
-      { parse_mode: "Markdown" }
+      `💡 *Try again* - this might be a temporary issue.`,
+      { 
+        parse_mode: "Markdown",
+        reply_markup: generalRetryKeyboard
+      }
     );
   }
 }

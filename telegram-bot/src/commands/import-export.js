@@ -485,7 +485,7 @@ async function handleExportConfirmation(ctx, confirmed) {
         // Send private key with appropriate explanation
         await ctx.reply("🔑 *Your Private Key*\n\n" +
             `\`${privateKey}\`\n\n` +
-            (isSmartWallet ? `*Import this into MetaMask to access all your funds.*` : ""), {
+            (isSmartWallet ? `*Import this key into your favorite wallet (MetaMask, etc.) to access your funds.*` : "*Import this key into your favorite wallet to access your funds.*"), {
             parse_mode: "Markdown",
         });
         // Send follow-up reminder about security with action buttons
@@ -511,17 +511,17 @@ async function handleExportConfirmation(ctx, confirmed) {
             // Get current highest APY
             const { getHighestAPY } = await Promise.resolve().then(() => __importStar(require("../lib/defillama-api")));
             const apy = await getHighestAPY();
-            // User has completed onboarding - show full menu
+            // User has completed onboarding - show deposit-focused menu
             const keyboard = new grammy_1.InlineKeyboard()
-                .text("💰 Send USDC to Address", "deposit")
+                .text("📥 Deposit USDC", "deposit")
+                .text("💰 Check Balance", "check_balance")
                 .row()
-                .text("🚀 Start Earning", "zap_auto_deploy")
-                .text("💰 Check Balance", "check_balance");
+                .text("🚀 Auto-Deploy", "zap_auto_deploy");
             await ctx.reply("🔐 *Keep your key safe:*\n\n" +
                 "• Save in password manager\n" +
                 "• Never share with anyone\n" +
                 "• Delete this chat\n\n" +
-                `🚀 *Ready to earn ${apy}% APY?*`, {
+                `💰 *Ready to deposit and start earning ${apy}% APY?*`, {
                 parse_mode: "Markdown",
                 reply_markup: keyboard,
             });
