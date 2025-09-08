@@ -920,6 +920,8 @@ bot.on("callback_query:data", async (ctx) => {
       | "minApy"
       | "back"
       | "export_key";
+    
+    console.log(`🔧 Settings callback: "${callbackData}" → option: "${option}"`);
 
     if (option === "back") {
       // Go back to standardized main menu

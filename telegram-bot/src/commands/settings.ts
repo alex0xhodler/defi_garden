@@ -80,6 +80,7 @@ export async function handleSettingsOption(
   option: SettingsOption
 ): Promise<void> {
   try {
+    console.log(`🔧 Settings option called: "${option}"`);
     const settings = ctx.session.settings;
 
     switch (option) {
@@ -176,6 +177,7 @@ export async function handleSettingsOption(
         break;
 
       default:
+        console.log(`❌ Unhandled settings option: "${option}"`);
         await ctx.answerCallbackQuery("Feature coming soon!");
     }
   } catch (error) {
