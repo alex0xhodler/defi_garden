@@ -46,7 +46,7 @@ export interface ConversationState {
   [key: string]: any;
 }
 
-export type SettingsOption = "risk" | "slippage" | "autoCompound" | "minApy";
+export type SettingsOption = "risk" | "slippage" | "autoCompound" | "minApy" | "export_key";
 
 // Zap-specific temp data structure
 export interface ZapTempData {
