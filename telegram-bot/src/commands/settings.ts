@@ -180,6 +180,13 @@ export async function handleSettingsOption(
         );
         break;
 
+      case "export_key":
+        console.log(`✅ Matched case: export_key`);
+        // Import and call the existing export handler with full safety checks
+        const { exportHandler } = await import("./import-export");
+        await exportHandler.handler(ctx);
+        break;
+
       default:
         console.log(`❌ Unhandled settings option: "${option}"`);
         await ctx.answerCallbackQuery("Feature coming soon!");

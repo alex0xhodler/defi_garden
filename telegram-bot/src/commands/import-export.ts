@@ -123,52 +123,172 @@ export const exportHandler: CommandHandler = {
       }
 
       // UNIVERSAL BALANCE CHECK - Check for Smart Wallet regardless of detection
+      console.log(`🚀 ==> EXPORT SAFETY CHECK INITIATED FOR USER ${userId} <==`);
+      
       const { hasCoinbaseSmartWallet, checkAllUSDCBalances } = await import("../lib/coinbase-wallet");
       const hasSmartWallet = hasCoinbaseSmartWallet(userId);
       
-      console.log(`🔍 Export Debug - User ${userId}: hasSmartWallet=${hasSmartWallet}`);
+      // Get database wallet info for debugging
+      const { getWalletByUserId: getDbWallet } = await import("../lib/database");
+      const dbWallet = getDbWallet(userId);
       
-      // ALWAYS check Smart Wallet balances if user might have them
+      console.log(`🔍 DATABASE WALLET INFO - User ${userId}:`, {
+        exists: !!dbWallet,
+        type: dbWallet?.type || 'UNDEFINED',
+        address: dbWallet?.address || 'UNDEFINED'
+      });
+      
+      console.log(`🔍 SMART WALLET DETECTION - User ${userId}: hasSmartWallet=${hasSmartWallet} (based on type === 'coinbase-smart-wallet')`);
+      
+      // CRITICAL: ALWAYS attempt Smart Wallet balance check regardless of database type
+      // This handles cases where database type is wrong or wallet was upgraded
+      console.log(`🔍 ATTEMPTING UNIVERSAL Smart Wallet balance check for user ${userId}...`);
       let balances = null;
       try {
-        console.log(`🔍 ATTEMPTING Smart Wallet balance check for user ${userId}...`);
         balances = await checkAllUSDCBalances(userId);
-        console.log(`💰 Balance Check Result - User ${userId}:`, balances ? `SUCCESS - Smart: ${balances.smartWalletBalance}, EOA: ${balances.eoaBalance}, Total: ${balances.totalBalance}` : 'FAILED - NULL RESULT');
-      } catch (error) {
-        console.log(`💰 Balance Check ERROR - User ${userId}:`, error);
+        console.log(`💰 BALANCE CHECK RESULT - User ${userId}:`, {
+          success: !!balances,
+          smartWalletBalance: balances?.smartWalletBalance || 'NULL',
+          eoaBalance: balances?.eoaBalance || 'NULL',
+          totalBalance: balances?.totalBalance || 'NULL',
+          smartWalletAddress: balances?.smartWalletAddress || 'NULL',
+          eoaAddress: balances?.eoaAddress || 'NULL'
+        });
+      } catch (error: any) {
+        console.log(`💰 BALANCE CHECK ERROR - User ${userId}:`, {
+          error: error.message || 'Unknown error',
+          stack: error.stack?.split('\n').slice(0, 3)
+        });
       }
       
-      if (balances) {
-        // User has Smart Wallet balances - check if funds need migration
-        console.log(`🦑 User ${userId} has Smart Wallet balances - checking for mandatory migration`);
-        
-        // balances already fetched above
+      // DEFI POSITION SAFETY CHECK - Use real blockchain balances like /portfolio 
+      console.log(`🏦 CHECKING REAL DEFI POSITIONS - User ${userId} - fetching live blockchain balances`);
+      
+      // Get Smart Wallet for balance checks
+      const { getCoinbaseSmartWallet } = await import("../lib/coinbase-wallet");
+      const smartWallet = await getCoinbaseSmartWallet(userId);
+      const smartWalletAddress = smartWallet?.smartAccount?.address;
+      
+      // Get actual on-chain DeFi balances (same logic as /portfolio)
+      const { getWallet: getTokenWallet, getAaveBalance, getFluidBalance, getCompoundBalance } = await import("../lib/token-wallet");
+      const { getMorphoBalance } = await import("../services/morpho-defi");
+      const { getSparkBalance } = await import("../services/spark-defi"); 
+      const { getSeamlessBalance } = await import("../services/seamless-defi");
+      const { getMoonwellBalance } = await import("../services/moonwell-defi");
+      
+      const tokenWallet = await getTokenWallet(userId);
+      const walletAddress = tokenWallet?.address;
+      
+      // Fetch all real DeFi balances in parallel (with type checks)
+      const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance] = await Promise.allSettled([
+        walletAddress ? getAaveBalance(walletAddress).catch(() => ({ aUsdcBalanceFormatted: '0.00' })) : Promise.resolve({ aUsdcBalanceFormatted: '0.00' }),
+        walletAddress ? getFluidBalance(walletAddress).catch(() => ({ fUsdcBalanceFormatted: '0.00' })) : Promise.resolve({ fUsdcBalanceFormatted: '0.00' }),
+        walletAddress ? getCompoundBalance(walletAddress).catch(() => ({ cUsdcBalanceFormatted: '0.00' })) : Promise.resolve({ cUsdcBalanceFormatted: '0.00' }),
+        walletAddress ? getMorphoBalance(walletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+        smartWalletAddress ? getSparkBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+        smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+        smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
+      ]);
+      
+      // Parse balances (same logic as /portfolio)
+      const aaveBalanceNum = parseFloat(aaveBalance.status === 'fulfilled' ? aaveBalance.value.aUsdcBalanceFormatted : '0.00');
+      const fluidBalanceNum = parseFloat(fluidBalance.status === 'fulfilled' ? fluidBalance.value.fUsdcBalanceFormatted : '0.00');
+      const compoundBalanceNum = parseFloat(compoundBalance.status === 'fulfilled' ? compoundBalance.value.cUsdcBalanceFormatted : '0.00');
+      const morphoBalanceNum = parseFloat(morphoBalance.status === 'fulfilled' ? morphoBalance.value.assetsFormatted : '0.00');
+      const sparkBalanceNum = parseFloat(sparkBalance.status === 'fulfilled' ? sparkBalance.value.assetsFormatted : '0.00');
+      const seamlessBalanceNum = parseFloat(seamlessBalance.status === 'fulfilled' ? seamlessBalance.value.assetsFormatted : '0.00');
+      const moonwellBalanceNum = parseFloat(moonwellBalance.status === 'fulfilled' ? moonwellBalance.value.assetsFormatted : '0.00');
+      
+      // Build array of actual active positions with real balances
+      const actualActivePositions = [];
+      if (aaveBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Aave', value: aaveBalanceNum });
+      if (fluidBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Fluid', value: fluidBalanceNum });
+      if (compoundBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Compound', value: compoundBalanceNum });
+      if (morphoBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Morpho', value: morphoBalanceNum });
+      if (sparkBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Spark', value: sparkBalanceNum });
+      if (seamlessBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Seamless', value: seamlessBalanceNum });
+      if (moonwellBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Moonwell', value: moonwellBalanceNum });
+      
+      const totalPositionValue = actualActivePositions.reduce((sum, pos) => sum + pos.value, 0);
+      
+      console.log(`🏦 REAL DEFI POSITION CHECK RESULT - User ${userId}:`, {
+        aave: `$${aaveBalanceNum.toFixed(2)}`,
+        fluid: `$${fluidBalanceNum.toFixed(2)}`,
+        compound: `$${compoundBalanceNum.toFixed(2)}`,
+        morpho: `$${morphoBalanceNum.toFixed(2)}`,
+        spark: `$${sparkBalanceNum.toFixed(2)}`,
+        seamless: `$${seamlessBalanceNum.toFixed(2)}`,
+        moonwell: `$${moonwellBalanceNum.toFixed(2)}`,
+        totalActivePositions: actualActivePositions.length,
+        totalPositionValue: `$${totalPositionValue.toFixed(2)}`,
+        activePositions: actualActivePositions.map(pos => `${pos.protocol}: $${pos.value.toFixed(2)}`).join(', ')
+      });
+      
+      // Use actualActivePositions instead of significantPositions for safety logic
+      const significantPositions = actualActivePositions;
 
-        console.log(`💰 Balance Check - User ${userId}: Smart=${balances.smartWalletBalance}, EOA=${balances.eoaBalance}, Total=${balances.totalBalance}`);
+      // SAFETY DECISION LOGIC - Enhanced with comprehensive logging AND position checking
+      if (balances) {
+        console.log(`🦑 SMART WALLET BALANCES DETECTED - User ${userId} - initiating safety evaluation`);
+        
         const smartWalletBalance = parseFloat(balances.smartWalletBalance);
         const eoaBalance = parseFloat(balances.eoaBalance);
         
-        console.log(`🔍 DECISION POINT - User ${userId}: smartWalletBalance=${smartWalletBalance}, condition=${smartWalletBalance > 0.01 ? 'BLOCK EXPORT' : 'ALLOW EXPORT'}`);
+        // totalPositionValue already calculated above from real blockchain balances
+        const totalLockedValue = smartWalletBalance + totalPositionValue;
         
-        if (smartWalletBalance > 0.01) { // If more than 1 cent in Smart Wallet - MUST transfer to EOA first
-          // Set current action for MANDATORY fund migration flow
+        console.log(`💰 COMPREHENSIVE VALUE ANALYSIS - User ${userId}:`, {
+          smartWalletBalance: `$${smartWalletBalance.toFixed(2)}`,
+          eoaBalance: `$${eoaBalance.toFixed(2)}`,
+          totalBalance: `$${balances.totalBalance}`,
+          defiPositionsValue: `$${totalPositionValue.toFixed(2)}`,
+          totalLockedValue: `$${totalLockedValue.toFixed(2)}`,
+          smartWalletAddress: balances.smartWalletAddress,
+          eoaAddress: balances.eoaAddress,
+          safetyThreshold: '$0.01',
+          positionsCount: significantPositions.length
+        });
+        
+        console.log(`🔍 ENHANCED SAFETY DECISION - User ${userId}:`, {
+          liquidCheck: `smartWalletBalance (${smartWalletBalance.toFixed(2)}) > 0.01`,
+          positionCheck: `significantPositions (${significantPositions.length}) > 0`,
+          totalCheck: `totalLockedValue (${totalLockedValue.toFixed(2)}) > 0.01`,
+          result: (smartWalletBalance > 0.01 || significantPositions.length > 0) ? '🚫 BLOCK EXPORT - FUNDS/POSITIONS LOCKED' : '✅ ALLOW EXPORT - SAFE',
+          reasoning: (smartWalletBalance > 0.01 || significantPositions.length > 0)
+            ? 'User has funds or positions locked in Smart Wallet that private key cannot access'
+            : 'No significant funds or positions locked in Smart Wallet'
+        });
+        
+        if (smartWalletBalance > 0.01 || significantPositions.length > 0) { 
+          // CRITICAL PATH: Block export and require fund/position migration
+          console.log(`🚫 BLOCKING PRIVATE KEY EXPORT - User ${userId} has locked value: $${totalLockedValue.toFixed(2)} (${smartWalletBalance.toFixed(2)} liquid + ${totalPositionValue.toFixed(2)} positions)`);
+          console.log(`🔄 INITIATING MANDATORY FUND/POSITION MIGRATION FLOW - User ${userId}`);
+          
+          // Set current action for fund/position migration
           ctx.session.currentAction = "mandatory_fund_migration";
           
-          console.log(`🚫 User ${userId} BLOCKED from export - Smart Wallet has $${smartWalletBalance} USDC - MANDATORY TRANSFER TO EOA REQUIRED`);
-          
-          // MANDATORY fund consolidation - no skip option
-          const keyboard = new InlineKeyboard()
-            .text("🔄 Consolidate Funds Now", "confirm_fund_migration");
+          // Build position summary for user display with real balances
+          const positionSummary = significantPositions.length > 0 
+            ? `\n\n📊 **Active Positions**: ${significantPositions.length} earning position${significantPositions.length > 1 ? 's' : ''}\n` +
+              significantPositions.map(pos => `• ${pos.protocol}: $${pos.value.toFixed(2)}`).join('\n')
+            : '';
+
+          // Create keyboard with appropriate options
+          const keyboard = new InlineKeyboard();
+          if (significantPositions.length > 0) {
+            keyboard.text("📊 Exit Positions First", "open_portfolio");
+            if (smartWalletBalance > 0.01) {
+              keyboard.row().text("🔄 Move Liquid Funds", "confirm_fund_migration");
+            }
+          } else {
+            keyboard.text("🔄 Move Funds", "confirm_fund_migration");
+          }
 
           await ctx.reply(
-            `🔒 *PRIVATE KEY EXPORT LOCKED*\n\n` +
-            `Your funds are currently in your Smart Wallet, but the private key only controls your Regular Wallet address.\n\n` +
-            `📊 *Current Locations:*\n` +
-            `• 🦑 **Smart Wallet**: ${balances.smartWalletBalance} USDC ← Your funds are HERE\n` +
-            `• 🔑 **Regular Wallet**: ${balances.eoaBalance} USDC ← Private key controls THIS\n\n` +
-            `🚫 **Private key export is blocked until Smart Wallet funds are transferred to Regular Wallet.**\n\n` +
-            `✅ **Required Action**: Transfer ${balances.smartWalletBalance} USDC from Smart Wallet to Regular Wallet. Then your private key will control ALL your funds.\n\n` +
-            `🌟 *This transfer is gasless - no fees required!*`,
+            `🔒 *Export Blocked*\n\n` +
+            `Your private key only controls part of your funds.\n\n` +
+            `💰 **Smart Wallet**: $${smartWalletBalance.toFixed(2)} USDC${positionSummary}\n\n` +
+            `✅ ${significantPositions.length > 0 ? 'Exit positions first, then move remaining funds' : 'Move funds to unlock export (gasless)'}`,
             {
               parse_mode: "Markdown",
               reply_markup: keyboard,
@@ -176,14 +296,36 @@ export const exportHandler: CommandHandler = {
           );
           return;
         } else {
-          console.log(`✅ User ${userId} Smart Wallet has minimal funds ($${smartWalletBalance}) - proceeding with export`);
+          // Smart Wallet balance is minimal - safe to proceed
+          console.log(`✅ SMART WALLET BALANCE ACCEPTABLE - User ${userId}:`, {
+            smartWalletBalance: `$${smartWalletBalance}`,
+            belowThreshold: true,
+            safetyStatus: 'EXPORT APPROVED - minimal Smart Wallet funds',
+            note: 'Private key will control majority of user funds'
+          });
+          console.log(`✅ PROCEEDING TO PRIVATE KEY EXPORT - User ${userId} - safety requirements met`);
         }
       } else {
-        // Could not get Smart Wallet balances - either traditional wallet or Smart Wallet detection failed
-        console.log(`⚠️ BALANCE CHECK FAILED - User ${userId}: hasSmartWallet=${hasSmartWallet}, balances=${balances}`);
+        // Balance check failed or returned null
+        console.log(`⚠️ SMART WALLET BALANCE CHECK FAILED - User ${userId}:`, {
+          hasSmartWallet: hasSmartWallet,
+          balances: balances,
+          databaseType: dbWallet?.type,
+          possibleCauses: [
+            'User has traditional wallet (not Smart Wallet)',
+            'Smart Wallet detection failed',
+            'Network/RPC error during balance check',
+            'Wallet data corruption'
+          ]
+        });
+        
         if (hasSmartWallet) {
-          // Detection says Smart Wallet but balance check failed - BLOCK export for safety
-          console.log(`🚫 User ${userId} detected as Smart Wallet but balance check failed - BLOCKING export for safety`);
+          // Database says Smart Wallet but balance check failed - BLOCK for safety
+          console.log(`🚫 SAFETY BLOCK TRIGGERED - User ${userId}:`, {
+            reason: 'Smart Wallet detected in database but balance verification failed',
+            action: 'BLOCKING export to prevent potential fund loss',
+            recommendation: 'User should try again or contact support'
+          });
           await ctx.reply(
             `🔒 *PRIVATE KEY EXPORT BLOCKED*\n\n` +
             `Unable to verify your wallet balances for security reasons.\n\n` +
@@ -192,14 +334,31 @@ export const exportHandler: CommandHandler = {
           );
           return;
         } else {
-          console.log(`🏦 User ${userId} has traditional wallet (hasSmartWallet=false) - proceeding with export`);
+          // Traditional wallet or Smart Wallet balance check failed but not detected as Smart Wallet
+          console.log(`🏦 TRADITIONAL WALLET PATH - User ${userId}:`, {
+            hasSmartWallet: false,
+            balanceCheckResult: 'failed/null',
+            walletType: 'traditional (legacy)',
+            safetyStatus: 'PROCEEDING - no Smart Wallet detected',
+            privateKeyControls: 'all funds (traditional wallet)'
+          });
+          console.log(`🏦 PROCEEDING WITH TRADITIONAL WALLET EXPORT - User ${userId}`);
         }
       }
 
       // Check if user has any wallet (Smart or traditional)
-      const wallet = await getWallet(userId);
+      console.log(`🔍 FINAL WALLET VERIFICATION - User ${userId} - checking for any wallet existence`);
+      const finalWallet = await getTokenWallet(userId);
+      
+      console.log(`💼 WALLET EXISTENCE CHECK - User ${userId}:`, {
+        traditionalWallet: !!finalWallet,
+        smartWallet: hasSmartWallet,
+        walletAddress: finalWallet?.address || 'NONE',
+        hasAnyWallet: !!(finalWallet || hasSmartWallet)
+      });
 
-      if (!wallet && !hasSmartWallet) {
+      if (!finalWallet && !hasSmartWallet) {
+        console.log(`❌ NO WALLET FOUND - User ${userId} - blocking export and requesting wallet creation`);
         await ctx.reply(
           "❌ You don't have a wallet yet.\n\n" +
             "Use /create to create a new wallet or /import to import an existing one."
@@ -207,10 +366,12 @@ export const exportHandler: CommandHandler = {
         return;
       }
 
-      // Set current action
+      // Set current action for export confirmation flow
+      console.log(`🔐 INITIATING EXPORT CONFIRMATION FLOW - User ${userId} - setting session action`);
       ctx.session.currentAction = "export_wallet";
 
       // Show warning and confirmation prompt
+      console.log(`⚠️ DISPLAYING SECURITY WARNING - User ${userId} - awaiting user confirmation`);
       await ctx.reply(
         "⚠️ *SECURITY WARNING*\n\n" +
           "You are about to export your private key. This is sensitive information that gives complete control over your wallet funds.\n\n" +
@@ -379,22 +540,14 @@ export async function handleExportConfirmation(
     }
 
     // Send private key with appropriate explanation
-    if (isSmartWallet) {
-      await ctx.reply(
-        "🔑 *Your Private Key*\n\n" + 
-        `\`${privateKey}\`\n\n` +
-        `ℹ️ *This private key controls your regular wallet address:*\n` +
-        `\`${walletAddress}\`\n\n` +
-        "✅ *All your funds should now be accessible when you import this key into MetaMask or other wallets.*\n\n", 
-        {
-          parse_mode: "Markdown",
-        }
-      );
-    } else {
-      await ctx.reply("🔑 *Your Private Key*\n\n" + `\`${privateKey}\`\n\n`, {
+    await ctx.reply(
+      "🔑 *Your Private Key*\n\n" + 
+      `\`${privateKey}\`\n\n` +
+      (isSmartWallet ? `*Import this key into your favorite wallet (MetaMask, etc.) to access your funds.*` : "*Import this key into your favorite wallet to access your funds.*"),
+      {
         parse_mode: "Markdown",
-      });
-    }
+      }
+    );
 
     // Send follow-up reminder about security with action buttons
     // Check if user is in onboarding state
@@ -425,20 +578,19 @@ export async function handleExportConfirmation(
       const { getHighestAPY } = await import("../lib/defillama-api");
       const apy = await getHighestAPY();
       
-      // User has completed onboarding - show full menu
+      // User has completed onboarding - show deposit-focused menu
       const keyboard = new InlineKeyboard()
-        .text("💰 Send USDC to Address", "deposit")
+        .text("📥 Deposit USDC", "deposit")
+        .text("💰 Check Balance", "check_balance")
         .row()
-        .text("🚀 Start Earning", "zap_auto_deploy")
-        .text("💰 Check Balance", "check_balance");
+        .text("🚀 Auto-Deploy", "zap_auto_deploy");
 
       await ctx.reply(
-        "⚠️ *REMINDER*\n\n" +
-          "Your private key has been displayed. For security:\n\n" +
-          "1. Save it in a secure password manager\n" +
-          "2. Never share it with anyone\n" +
-          "3. Delete any chat history containing this key\n\n" +
-          `🚀 *Ready to start earning ${apy}% APY?*`,
+        "🔐 *Keep your key safe:*\n\n" +
+          "• Save in password manager\n" +
+          "• Never share with anyone\n" +
+          "• Delete this chat\n\n" +
+          `💰 *Ready to deposit and start earning ${apy}% APY?*`,
         {
           parse_mode: "Markdown",
           reply_markup: keyboard,
@@ -473,7 +625,7 @@ export async function handleFundMigration(
     await ctx.editMessageReplyMarkup({ reply_markup: undefined });
 
     // MANDATORY fund migration - no skip option allowed
-    await ctx.reply("🔄 *Transferring funds from Smart Wallet to Regular Wallet...*\n\nThis gasless transfer may take a few moments.");
+    await ctx.reply("🔄 *Moving your funds...*\n\nThis may take a moment.");
 
     try {
       // Get Smart Wallet balances
@@ -504,10 +656,9 @@ export async function handleFundMigration(
 
       if (result.success) {
         await ctx.reply(
-          `✅ *Fund transfer completed!*\n\n` +
-          `Transferred ${transferAmount} USDC from Smart Wallet to Regular Wallet.\n\n` +
-          `Transaction hash: \`${result.txHash}\`\n\n` +
-          `🔍 *Verifying balance to unlock private key export...*`,
+          `✅ *Transfer completed!*\n\n` +
+          `Moved ${transferAmount} USDC successfully.\n\n` +
+          `🔓 *Unlocking private key export...*`,
           {
             parse_mode: "Markdown",
           }
@@ -554,12 +705,9 @@ export async function handleFundMigration(
         // Balance verified - safe to proceed with export
         console.log(`✅ Balance verified - Smart Wallet: $${remainingBalance} - EXPORT UNLOCKED`);
         await ctx.reply(
-          `🔓 *PRIVATE KEY EXPORT UNLOCKED!*\n\n` +
-          `✅ All funds successfully consolidated:\n` +
-          `• Smart Wallet: ${postTransferBalances.smartWalletBalance} USDC\n` +
-          `• Regular Wallet: ${postTransferBalances.eoaBalance} USDC\n` +
-          `• **Total: ${postTransferBalances.totalBalance} USDC**\n\n` +
-          `Your private key will now give you access to all your funds!`
+          `🔓 *Export Unlocked!*\n\n` +
+          `💰 Total: **${postTransferBalances.totalBalance} USDC**\n\n` +
+          `Your private key will now control all your funds.`
         );
 
         // Proceed to export

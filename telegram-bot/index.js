@@ -108,6 +108,11 @@ bot.command("cancel", async (ctx) => {
         await ctx.reply("There is no active operation to cancel.");
     }
 });
+// Add test command to verify bot is receiving commands
+bot.command("test", async (ctx) => {
+    console.log("🧪 TEST COMMAND EXECUTED - Bot is receiving commands!");
+    await ctx.reply("🧪 Test successful! Bot is working.");
+});
 // Smart Recovery Handler Functions
 async function handleRetryPendingTransaction(ctx) {
     try {
@@ -355,9 +360,9 @@ async function handleManualDepositCheck(ctx) {
 bot.on("callback_query:data", async (ctx) => {
     const callbackData = ctx.callbackQuery.data;
     // Handle withdraw-specific callbacks first
-    if (callbackData === "withdraw_aave_max" || callbackData === "withdraw_fluid_max" || callbackData === "withdraw_compound_max" ||
-        callbackData === "withdraw_fluid_menu" || callbackData === "withdraw_aave_menu" || callbackData === "withdraw_compound_menu" ||
-        callbackData === "withdraw_fluid_custom" || callbackData === "withdraw_aave_custom" || callbackData === "withdraw_compound_custom" ||
+    if (callbackData === "withdraw_aave_max" || callbackData === "withdraw_fluid_max" || callbackData === "withdraw_compound_max" || callbackData === "withdraw_morpho_max" || callbackData === "withdraw_spark_max" || callbackData === "withdraw_seamless_max" || callbackData === "withdraw_moonwell_max" ||
+        callbackData === "withdraw_fluid_menu" || callbackData === "withdraw_aave_menu" || callbackData === "withdraw_compound_menu" || callbackData === "withdraw_morpho_menu" || callbackData === "withdraw_spark_menu" || callbackData === "withdraw_seamless_menu" || callbackData === "withdraw_moonwell_menu" ||
+        callbackData === "withdraw_fluid_custom" || callbackData === "withdraw_aave_custom" || callbackData === "withdraw_compound_custom" || callbackData === "withdraw_morpho_custom" || callbackData === "withdraw_spark_custom" || callbackData === "withdraw_seamless_custom" || callbackData === "withdraw_moonwell_custom" ||
         callbackData === "withdraw_aave_custom_with_rewards" || callbackData === "withdraw_aave_custom_no_rewards" ||
         callbackData === "withdraw_compound_custom_with_rewards" || callbackData === "withdraw_compound_custom_no_rewards" ||
         callbackData === "withdraw_custom" || callbackData === "withdraw_custom_with_rewards" || callbackData === "withdraw_custom_no_rewards" ||
@@ -365,8 +370,19 @@ bot.on("callback_query:data", async (ctx) => {
         await (0, withdraw_1.handleWithdrawCallbacks)(ctx);
         return;
     }
+    // Fund migration callbacks
+    if (callbackData === "confirm_fund_migration") {
+        await (0, import_export_1.handleFundMigration)(ctx, true);
+        await ctx.answerCallbackQuery();
+        return;
+    }
+    else if (callbackData === "skip_fund_migration") {
+        await (0, import_export_1.handleFundMigration)(ctx, false);
+        await ctx.answerCallbackQuery();
+        return;
+    }
     // Confirmation callbacks
-    if (callbackData === "confirm_yes") {
+    else if (callbackData === "confirm_yes") {
         switch (ctx.session.currentAction) {
             case "export_wallet":
                 await (0, import_export_1.handleExportConfirmation)(ctx, true);
@@ -406,6 +422,9 @@ bot.on("callback_query:data", async (ctx) => {
     else if (callbackData === "open_settings") {
         await settings_1.default.handler(ctx);
     }
+    else if (callbackData === "open_portfolio") {
+        await portfolio_1.default.handler(ctx);
+    }
     else if (callbackData === "deposit") {
         await deposit_1.default.handler(ctx);
     }
@@ -416,11 +435,26 @@ bot.on("callback_query:data", async (ctx) => {
         await start_help_1.helpHandler.handler(ctx);
     }
     else if (callbackData === "manual_balance_check") {
-        // Manual balance check for onboarding users
+        // Manual balance check for onboarding users - Start monitoring for deposits
         const userId = ctx.session.userId;
         if (!userId) {
             await ctx.reply("❌ Please start the bot first with /start command.");
             return;
+        }
+        // Start deposit monitoring for 5 minutes when user manually checks balance
+        const { startDepositMonitoringWithContext } = await Promise.resolve().then(() => __importStar(require("./src/lib/database")));
+        startDepositMonitoringWithContext(userId, 'balance_check', 5, {
+            trigger: 'manual_balance_check_button'
+        });
+        console.log(`🎯 Started balance_check monitoring for user ${userId} (manual_balance_check)`);
+        // Force refresh monitoring service to include this user immediately
+        try {
+            const eventMonitor = await Promise.resolve().then(() => __importStar(require("./src/services/event-monitor")));
+            await eventMonitor.forceRefreshWallets();
+            console.log(`🔄 Refreshed monitoring service for user ${userId}`);
+        }
+        catch (error) {
+            console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
         }
         const { getCoinbaseSmartWallet, getCoinbaseWalletUSDCBalance } = await Promise.resolve().then(() => __importStar(require("./src/lib/coinbase-wallet")));
         const wallet = await getCoinbaseSmartWallet(userId);
@@ -432,96 +466,122 @@ bot.on("callback_query:data", async (ctx) => {
         try {
             // Check USDC balance
             const usdcBalance = await getCoinbaseWalletUSDCBalance(wallet.address);
-            if (parseFloat(usdcBalance.toString()) > 0) {
-                // Funds detected! Auto-deploy using Coinbase CDP
-                // Determine the highest APY protocol
-                const { fetchRealTimeYields } = await Promise.resolve().then(() => __importStar(require("./src/lib/defillama-api")));
-                const yields = await fetchRealTimeYields();
-                const sortedYields = yields.sort((a, b) => b.apy - a.apy);
-                const highestYieldProtocol = sortedYields[0];
-                // Map protocol names to deployment functions
-                const protocolMap = {
-                    'Aave': { deployFn: 'gaslessDeployToAave', displayName: 'Aave V3' },
-                    'Fluid': { deployFn: 'gaslessDeployToFluid', displayName: 'Fluid' },
-                    'Compound': { deployFn: 'autoDeployToCompoundV3', displayName: 'Compound V3' }
-                };
-                const protocolConfig = protocolMap[highestYieldProtocol.project];
-                const bestProtocol = protocolConfig ? {
-                    protocol: protocolConfig.displayName,
-                    deployFn: protocolConfig.deployFn,
-                    apy: highestYieldProtocol.apy,
-                    project: highestYieldProtocol.project
-                } : {
-                    protocol: 'Compound V3',
-                    deployFn: 'autoDeployToCompoundV3',
-                    apy: 7.65,
-                    project: 'Compound'
-                };
-                await ctx.editMessageText(`🎉 *Deposit detected!*\n\n` +
-                    `${usdcBalance.toString()} USDC found in your wallet!\n\n` +
-                    `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas...`, { parse_mode: "Markdown" });
-                const firstName = ctx.from?.first_name || "there";
-                // Execute sponsored deployment
-                setTimeout(async () => {
-                    try {
-                        const coinbaseDefi = await Promise.resolve().then(() => __importStar(require("./src/services/coinbase-defi")));
-                        let deployResult;
-                        if (bestProtocol.deployFn === 'autoDeployToCompoundV3') {
-                            deployResult = await coinbaseDefi.autoDeployToCompoundV3(userId, usdcBalance.toString());
+            const balanceNum = parseFloat(usdcBalance.toString());
+            if (balanceNum > 0.01) {
+                // Funds detected! Check if first-time user or existing user
+                const { getUserByTelegramId } = await Promise.resolve().then(() => __importStar(require("./src/lib/database")));
+                const user = getUserByTelegramId(userId);
+                const isFirstTimeUser = !user || user.onboardingCompleted === null;
+                if (isFirstTimeUser) {
+                    // First-time user - auto-deploy for quick onboarding
+                    console.log(`🆕 First-time deposit detected: $${balanceNum} USDC for user ${userId}`);
+                    // Determine the highest APY protocol
+                    const { fetchRealTimeYields } = await Promise.resolve().then(() => __importStar(require("./src/lib/defillama-api")));
+                    const yields = await fetchRealTimeYields();
+                    const sortedYields = yields.sort((a, b) => b.apy - a.apy);
+                    const highestYieldProtocol = sortedYields[0];
+                    // Map protocol names to deployment functions
+                    const protocolMap = {
+                        'Aave': { deployFn: 'gaslessDeployToAave', displayName: 'Aave V3' },
+                        'Fluid': { deployFn: 'gaslessDeployToFluid', displayName: 'Fluid' },
+                        'Compound': { deployFn: 'autoDeployToCompoundV3', displayName: 'Compound V3' }
+                    };
+                    const protocolConfig = protocolMap[highestYieldProtocol.project];
+                    const bestProtocol = protocolConfig ? {
+                        protocol: protocolConfig.displayName,
+                        deployFn: protocolConfig.deployFn,
+                        apy: highestYieldProtocol.apy,
+                        project: highestYieldProtocol.project
+                    } : {
+                        protocol: 'Compound V3',
+                        deployFn: 'autoDeployToCompoundV3',
+                        apy: 7.65,
+                        project: 'Compound'
+                    };
+                    await ctx.editMessageText(`🎉 *First deposit detected!*\n\n` +
+                        `${usdcBalance.toString()} USDC found in your wallet!\n\n` +
+                        `Auto-deploying to ${bestProtocol.protocol} (${bestProtocol.apy}% APY) with sponsored gas...`, { parse_mode: "Markdown" });
+                    const firstName = ctx.from?.first_name || "there";
+                    // Execute sponsored deployment
+                    setTimeout(async () => {
+                        try {
+                            const coinbaseDefi = await Promise.resolve().then(() => __importStar(require("./src/services/coinbase-defi")));
+                            let deployResult;
+                            if (bestProtocol.deployFn === 'autoDeployToCompoundV3') {
+                                deployResult = await coinbaseDefi.autoDeployToCompoundV3(userId, usdcBalance.toString());
+                            }
+                            else if (bestProtocol.deployFn === 'gaslessDeployToAave') {
+                                deployResult = await coinbaseDefi.gaslessDeployToAave(userId, usdcBalance.toString());
+                            }
+                            else if (bestProtocol.deployFn === 'gaslessDeployToFluid') {
+                                deployResult = await coinbaseDefi.gaslessDeployToFluid(userId, usdcBalance.toString());
+                            }
+                            else {
+                                throw new Error(`Unknown deployment function: ${bestProtocol.deployFn}`);
+                            }
+                            if (deployResult.success) {
+                                // Send success message with main menu
+                                const { createMainMenuKeyboard, getMainMenuMessage } = await Promise.resolve().then(() => __importStar(require("./src/utils/mainMenu")));
+                                // Import earnings utilities
+                                const { calculateDetailedEarnings, formatTxLink } = await Promise.resolve().then(() => __importStar(require("./src/utils/earnings")));
+                                const earnings = calculateDetailedEarnings(parseFloat(usdcBalance.toString()), bestProtocol.apy);
+                                await ctx.editMessageText(`🐙 *Welcome to your **inkvest** savings account!*\n\n` +
+                                    `💰 **Position Summary:**\n` +
+                                    `• Invested: $${usdcBalance.toString()} USDC into ${bestProtocol.protocol}\n` +
+                                    `• APY: ${bestProtocol.apy}% (auto-compounding)\n` +
+                                    `• Strategy: Gasless & automated\n\n` +
+                                    `📈 **Your Earnings Breakdown:**\n` +
+                                    `• Daily: ${earnings.dailyWithContext}\n` +
+                                    `• Weekly: ${earnings.weekly}\n` +
+                                    `• Monthly: ${earnings.monthly}\n` +
+                                    `• Yearly: ${earnings.yearly}\n` +
+                                    `• Time to 2x: ~${earnings.timeToDouble}\n\n` +
+                                    `✅ **Benefits:**\n` +
+                                    `• ${earnings.comparisonMultiple} better than US savings (${earnings.savingsApy})\n` +
+                                    `• Gas sponsored by inkvest\n` +
+                                    `• Withdraw anytime, no penalties\n\n` +
+                                    (deployResult.txHash ?
+                                        `📝 [View Investment](https://basescan.org/tx/${deployResult.txHash})` :
+                                        `📝 Investment completed successfully`), {
+                                    parse_mode: "Markdown",
+                                    reply_markup: createMainMenuKeyboard()
+                                });
+                            }
+                            else {
+                                const { createMainMenuKeyboard } = await Promise.resolve().then(() => __importStar(require("./src/utils/mainMenu")));
+                                await ctx.editMessageText(`⚠️ *Deployment failed*\n\n` +
+                                    `${usdcBalance.toString()} USDC found but couldn't auto-deploy to ${bestProtocol.protocol}.\n\n` +
+                                    `Error: ${deployResult.error}\n\n` +
+                                    `Please try manual deployment via the bot menu.`, {
+                                    parse_mode: "Markdown",
+                                    reply_markup: createMainMenuKeyboard()
+                                });
+                            }
                         }
-                        else if (bestProtocol.deployFn === 'gaslessDeployToAave') {
-                            deployResult = await coinbaseDefi.gaslessDeployToAave(userId, usdcBalance.toString());
+                        catch (error) {
+                            console.error("Error completing manual onboarding:", error);
+                            await ctx.editMessageText(`❌ Error during deployment. Please try again later.`, { parse_mode: "Markdown" });
                         }
-                        else if (bestProtocol.deployFn === 'gaslessDeployToFluid') {
-                            deployResult = await coinbaseDefi.gaslessDeployToFluid(userId, usdcBalance.toString());
-                        }
-                        else {
-                            throw new Error(`Unknown deployment function: ${bestProtocol.deployFn}`);
-                        }
-                        if (deployResult.success) {
-                            // Send success message with main menu
-                            const { createMainMenuKeyboard, getMainMenuMessage } = await Promise.resolve().then(() => __importStar(require("./src/utils/mainMenu")));
-                            // Import earnings utilities
-                            const { calculateDetailedEarnings, formatTxLink } = await Promise.resolve().then(() => __importStar(require("./src/utils/earnings")));
-                            const earnings = calculateDetailedEarnings(parseFloat(usdcBalance.toString()), bestProtocol.apy);
-                            await ctx.editMessageText(`🐙 *Welcome to your **inkvest** savings account!*\n\n` +
-                                `💰 **Position Summary:**\n` +
-                                `• Invested: $${usdcBalance.toString()} USDC into ${bestProtocol.protocol}\n` +
-                                `• APY: ${bestProtocol.apy}% (auto-compounding)\n` +
-                                `• Strategy: Gasless & automated\n\n` +
-                                `📈 **Your Earnings Breakdown:**\n` +
-                                `• Daily: ${earnings.dailyWithContext}\n` +
-                                `• Weekly: ${earnings.weekly}\n` +
-                                `• Monthly: ${earnings.monthly}\n` +
-                                `• Yearly: ${earnings.yearly}\n` +
-                                `• Time to 2x: ~${earnings.timeToDouble}\n\n` +
-                                `✅ **Benefits:**\n` +
-                                `• ${earnings.comparisonMultiple} better than US savings (${earnings.savingsApy})\n` +
-                                `• Gas sponsored by inkvest\n` +
-                                `• Withdraw anytime, no penalties\n\n` +
-                                (deployResult.txHash ?
-                                    `📝 [View Investment](https://basescan.org/tx/${deployResult.txHash})` :
-                                    `📝 Investment completed successfully`), {
-                                parse_mode: "Markdown",
-                                reply_markup: createMainMenuKeyboard()
-                            });
-                        }
-                        else {
-                            const { createMainMenuKeyboard } = await Promise.resolve().then(() => __importStar(require("./src/utils/mainMenu")));
-                            await ctx.editMessageText(`⚠️ *Deployment failed*\n\n` +
-                                `${usdcBalance.toString()} USDC found but couldn't auto-deploy to ${bestProtocol.protocol}.\n\n` +
-                                `Error: ${deployResult.error}\n\n` +
-                                `Please try manual deployment via the bot menu.`, {
-                                parse_mode: "Markdown",
-                                reply_markup: createMainMenuKeyboard()
-                            });
-                        }
-                    }
-                    catch (error) {
-                        console.error("Error completing manual onboarding:", error);
-                        await ctx.editMessageText(`❌ Error during deployment. Please try again later.`, { parse_mode: "Markdown" });
-                    }
-                }, 2000);
+                    }, 2000);
+                }
+                else {
+                    // Existing user - show balance with investment options
+                    console.log(`💰 Existing user deposit detected: $${balanceNum} USDC for user ${userId}`);
+                    const { InlineKeyboard } = await Promise.resolve().then(() => __importStar(require("grammy")));
+                    const keyboard = new InlineKeyboard()
+                        .text("🦑 inkvest Automanaged", "zap_auto_deploy")
+                        .row()
+                        .text("📊 View Portfolio", "view_portfolio")
+                        .text("💰 Check Balance", "check_balance")
+                        .row()
+                        .text("🔄 Main Menu", "main_menu");
+                    await ctx.editMessageText(`💰 **Deposit confirmed!**\n\n` +
+                        `$${balanceNum.toFixed(2)} USDC found in your wallet\n\n` +
+                        `Your funds are ready! Choose your investment approach:`, {
+                        parse_mode: "Markdown",
+                        reply_markup: keyboard
+                    });
+                }
             }
             else {
                 // No funds yet - improved messaging
@@ -553,7 +613,7 @@ bot.on("callback_query:data", async (ctx) => {
         }
     }
     else if (callbackData === "deposit_help") {
-        // Help with depositing USDC
+        // Help with depositing USDC - Start monitoring for deposits
         const userId = ctx.session.userId;
         if (!userId) {
             await ctx.reply("❌ Please start the bot first with /start command.");
@@ -564,6 +624,21 @@ bot.on("callback_query:data", async (ctx) => {
         if (!wallet) {
             await ctx.reply("❌ No wallet found. Please use /start to create one.");
             return;
+        }
+        // Start deposit monitoring for 5 minutes when user requests deposit help
+        const { startDepositMonitoringWithContext } = await Promise.resolve().then(() => __importStar(require("./src/lib/database")));
+        startDepositMonitoringWithContext(userId, 'balance_check', 5, {
+            trigger: 'deposit_help_button'
+        });
+        console.log(`🎯 Started balance_check monitoring for user ${userId} (deposit_help)`);
+        // Force refresh monitoring service to include this user immediately
+        try {
+            const eventMonitor = await Promise.resolve().then(() => __importStar(require("./src/services/event-monitor")));
+            await eventMonitor.forceRefreshWallets();
+            console.log(`🔄 Refreshed monitoring service for user ${userId}`);
+        }
+        catch (error) {
+            console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
         }
         const keyboard = new grammy_1.InlineKeyboard()
             .text("🔍 Check for Deposit", "manual_balance_check")
@@ -670,11 +745,60 @@ bot.on("callback_query:data", async (ctx) => {
         const selectedPoolData = opportunities.find(pool => pool.poolId === poolId);
         if (selectedPoolData) {
             const { calculateRiskScore } = await Promise.resolve().then(() => __importStar(require("./src/commands/zap")));
+            // Protocol mapping for deployment metadata (matches event-monitor.js)
+            const protocolMap = {
+                'Aave': {
+                    deployFn: 'gaslessDeployToAave',
+                    service: '../services/coinbase-defi',
+                    displayName: 'Aave V3'
+                },
+                'Fluid': {
+                    deployFn: 'gaslessDeployToFluid',
+                    service: '../services/coinbase-defi',
+                    displayName: 'Fluid'
+                },
+                'Compound': {
+                    deployFn: 'autoDeployToCompoundV3',
+                    service: '../services/coinbase-defi',
+                    displayName: 'Compound V3'
+                },
+                'Morpho': {
+                    deployFn: 'deployToMorphoPYTH',
+                    service: '../services/morpho-defi',
+                    displayName: 'Morpho PYTH/USDC'
+                },
+                'Spark': {
+                    deployFn: 'deployToSpark',
+                    service: '../services/spark-defi',
+                    displayName: 'Spark Protocol'
+                },
+                'Seamless': {
+                    deployFn: 'deployToSeamless',
+                    service: '../services/seamless-defi',
+                    displayName: 'Seamless Protocol'
+                },
+                'Moonwell': {
+                    deployFn: 'deployToMoonwell',
+                    service: '../services/moonwell-defi',
+                    displayName: 'Moonwell USDC'
+                },
+                'Moonwell USDC': {
+                    deployFn: 'deployToMoonwell',
+                    service: '../services/moonwell-defi',
+                    displayName: 'Moonwell USDC'
+                }
+            };
+            const protocolConfig = protocolMap[selectedPoolData.project];
             ctx.session.tempData.poolInfo = {
                 protocol: selectedPoolData.project,
                 apy: selectedPoolData.apy,
                 tvlUsd: selectedPoolData.tvlUsd,
-                riskScore: calculateRiskScore(selectedPoolData)
+                riskScore: calculateRiskScore(selectedPoolData),
+                // Add deployment metadata for manual protocol completion
+                deployFn: protocolConfig?.deployFn,
+                service: protocolConfig?.service,
+                displayName: protocolConfig?.displayName || selectedPoolData.project,
+                project: selectedPoolData.project
             };
         }
         ctx.session.currentAction = "zap_amount";
@@ -684,6 +808,7 @@ bot.on("callback_query:data", async (ctx) => {
     // Settings callbacks
     else if (callbackData.startsWith("settings_")) {
         const option = callbackData.replace("settings_", "");
+        console.log(`🔧 Settings callback: "${callbackData}" → option: "${option}"`);
         if (option === "back") {
             // Go back to standardized main menu
             const { createMainMenuKeyboard, getMainMenuMessage } = await Promise.resolve().then(() => __importStar(require("./src/utils/mainMenu")));
@@ -708,8 +833,42 @@ bot.on("callback_query:data", async (ctx) => {
             const { exportHandler } = await Promise.resolve().then(() => __importStar(require("./src/commands/import-export")));
             await exportHandler.handler(ctx);
         }
+        else if (option === "reset") {
+            // Handle reset to defaults
+            const userId = ctx.session.userId;
+            if (!userId) {
+                await ctx.answerCallbackQuery("Session expired");
+                return;
+            }
+            // Import constants and database functions
+            const { DEFAULT_SETTINGS } = await Promise.resolve().then(() => __importStar(require("./src/utils/constants")));
+            const { saveUserSettings } = await Promise.resolve().then(() => __importStar(require("./src/lib/database")));
+            // Reset to default settings
+            ctx.session.settings = {
+                userId,
+                riskLevel: DEFAULT_SETTINGS.RISK_LEVEL,
+                slippage: DEFAULT_SETTINGS.SLIPPAGE,
+                autoCompound: DEFAULT_SETTINGS.AUTO_COMPOUND,
+                minApy: DEFAULT_SETTINGS.MIN_APY,
+            };
+            // Save to database
+            await saveUserSettings(userId, ctx.session.settings);
+            await ctx.answerCallbackQuery("Settings reset to defaults!");
+            await ctx.editMessageText(`🔄 **Settings Reset to Defaults**\n\n` +
+                `✅ Risk Level: **3** (Moderate)\n` +
+                `✅ Min APY: **5%**\n\n` +
+                `Your settings have been restored to the recommended defaults.\n\n` +
+                `💡 You can adjust them anytime from the Settings menu.`, {
+                parse_mode: "Markdown",
+                reply_markup: new grammy_1.InlineKeyboard()
+                    .text("⚙️ Settings", "open_settings")
+                    .text("🔙 Go Back", "go_back_start")
+            });
+        }
         else {
+            console.log(`🔧 Calling handleSettingsOption with option: "${option}"`);
             await (0, settings_1.handleSettingsOption)(ctx, option);
+            console.log(`🔧 handleSettingsOption completed for: "${option}"`);
         }
     }
     // Risk level callbacks
@@ -721,6 +880,16 @@ bot.on("callback_query:data", async (ctx) => {
     else if (callbackData.startsWith("slippage_")) {
         const slippage = parseFloat(callbackData.replace("slippage_", ""));
         await (0, settings_1.updateSlippage)(ctx, slippage);
+    }
+    // Min APY callbacks
+    else if (callbackData.startsWith("minapy_")) {
+        const minApy = parseFloat(callbackData.replace("minapy_", ""));
+        await (0, settings_1.updateMinApy)(ctx, minApy);
+    }
+    // Go back to start callback
+    else if (callbackData === "go_back_start") {
+        await start_help_1.startHandler.handler(ctx);
+        await ctx.answerCallbackQuery();
     }
     // Other callbacks
     else if (callbackData === "export_key") {

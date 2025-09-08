@@ -472,6 +472,8 @@ bot.on("callback_query:data", async (ctx) => {
     await harvestHandler.handler(ctx);
   } else if (callbackData === "open_settings") {
     await settingsHandler.handler(ctx);
+  } else if (callbackData === "open_portfolio") {
+    await portfolioHandler.handler(ctx);
   } else if (callbackData === "deposit") {
     await depositHandler.handler(ctx);
   } else if (callbackData === "withdraw") {
