@@ -98,13 +98,13 @@ async function getBestProtocolForUser(userId) {
       .sort((a, b) => b.apy - a.apy);
     
     if (suitablePools.length === 0) {
-      console.warn(`⚠️ No pools match user criteria, using safe fallback (Compound V3)`);
+      console.warn(`⚠️ No pools match user criteria, using safe fallback (Aave V3)`);
       return {
-        protocol: 'Compound V3',
-        deployFn: 'autoDeployToCompoundV3',
+        protocol: 'Aave V3',
+        deployFn: 'gaslessDeployToAave',
         service: '../services/coinbase-defi',
-        apy: 7.65,
-        project: 'Compound',
+        apy: 5.35,
+        project: 'Aave',
         riskScore: 3
       };
     }
@@ -158,13 +158,13 @@ async function getBestProtocolForUser(userId) {
     
     const protocolConfig = protocolMap[bestPool.project];
     if (!protocolConfig) {
-      console.warn(`⚠️ Unknown protocol ${bestPool.project}, defaulting to Compound V3`);
+      console.warn(`⚠️ Unknown protocol ${bestPool.project}, defaulting to Aave V3 (safer fallback)`);
       return {
-        protocol: 'Compound V3',
-        deployFn: 'autoDeployToCompoundV3',
+        protocol: 'Aave V3',
+        deployFn: 'gaslessDeployToAave',
         service: '../services/coinbase-defi',
-        apy: 7.65,
-        project: 'Compound',
+        apy: 5.35,
+        project: 'Aave',
         riskScore: 3
       };
     }
