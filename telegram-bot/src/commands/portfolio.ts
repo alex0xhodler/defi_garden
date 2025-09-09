@@ -138,72 +138,40 @@ const portfolioHandler: CommandHandler = {
       let morphoRe7Apy = 6.0;
       
       try {
-        const { fetchProtocolApy } = await import("../lib/defillama-api");
+        const { getCachedMultipleProtocolAPYs } = await import("../utils/cached-apy-helper");
         
-        // Build array of API calls only for protocols with active positions
-        const activeProtocolCalls: Promise<number>[] = [];
-        const protocolMapping: Array<{protocol: string, type: 'AAVE' | 'FLUID' | 'COMPOUND' | 'MORPHO' | 'SPARK' | 'SEAMLESS' | 'MOONWELL' | 'MORPHO_RE7'}> = [];
+        // Build array of protocols only for those with active positions
+        const activeProtocols: Array<'AAVE' | 'FLUID' | 'COMPOUND' | 'MORPHO' | 'SPARK' | 'SEAMLESS' | 'MOONWELL' | 'MORPHO_RE7'> = [];
         
-        if (aaveBalanceNum > 0) {
-          activeProtocolCalls.push(fetchProtocolApy("AAVE"));
-          protocolMapping.push({protocol: 'aave', type: 'AAVE'});
-        }
-        if (fluidBalanceNum > 0) {
-          activeProtocolCalls.push(fetchProtocolApy("FLUID"));
-          protocolMapping.push({protocol: 'fluid', type: 'FLUID'});
-        }
-        if (compoundBalanceNum > 0) {
-          activeProtocolCalls.push(fetchProtocolApy("COMPOUND"));
-          protocolMapping.push({protocol: 'compound', type: 'COMPOUND'});
-        }
-        if (morphoBalanceNum > 0) {
-          activeProtocolCalls.push(fetchProtocolApy("MORPHO"));
-          protocolMapping.push({protocol: 'morpho', type: 'MORPHO'});
-        }
-        if (sparkBalanceNum > 0) {
-          activeProtocolCalls.push(fetchProtocolApy("SPARK"));
-          protocolMapping.push({protocol: 'spark', type: 'SPARK'});
-        }
-        if (seamlessBalanceNum > 0) {
-          activeProtocolCalls.push(fetchProtocolApy("SEAMLESS"));
-          protocolMapping.push({protocol: 'seamless', type: 'SEAMLESS'});
-        }
-        if (moonwellBalanceNum > 0) {
-          activeProtocolCalls.push(fetchProtocolApy("MOONWELL"));
-          protocolMapping.push({protocol: 'moonwell', type: 'MOONWELL'});
-        }
-        if (morphoRe7BalanceNum > 0) {
-          activeProtocolCalls.push(fetchProtocolApy("MORPHO_RE7"));
-          protocolMapping.push({protocol: 'morpho_re7', type: 'MORPHO_RE7'});
-        }
+        if (aaveBalanceNum > 0) activeProtocols.push('AAVE');
+        if (fluidBalanceNum > 0) activeProtocols.push('FLUID');
+        if (compoundBalanceNum > 0) activeProtocols.push('COMPOUND');
+        if (morphoBalanceNum > 0) activeProtocols.push('MORPHO');
+        if (sparkBalanceNum > 0) activeProtocols.push('SPARK');
+        if (seamlessBalanceNum > 0) activeProtocols.push('SEAMLESS');
+        if (moonwellBalanceNum > 0) activeProtocols.push('MOONWELL');
+        if (morphoRe7BalanceNum > 0) activeProtocols.push('MORPHO_RE7');
         
-        console.log(`📊 Portfolio: Fetching APY for ${activeProtocolCalls.length} active protocols (optimization: avoiding ${8 - activeProtocolCalls.length} unnecessary API calls)`);
+        console.log(`📊 Portfolio: Using cached APY for ${activeProtocols.length} active protocols (optimization: avoiding ${8 - activeProtocols.length} unnecessary lookups)`);
         
-        // Execute only the necessary API calls
-        if (activeProtocolCalls.length > 0) {
-          const results = await Promise.allSettled(activeProtocolCalls);
+        // Get cached APY values efficiently
+        if (activeProtocols.length > 0) {
+          const cachedAPYs = await getCachedMultipleProtocolAPYs(activeProtocols);
           
           // Map results back to protocol variables
-          results.forEach((result, index) => {
-            if (result.status === 'fulfilled') {
-              const mapping = protocolMapping[index];
-              switch (mapping.type) {
-                case 'AAVE': aaveApy = result.value; break;
-                case 'FLUID': fluidApy = result.value; break;
-                case 'COMPOUND': compoundApy = result.value; break;
-                case 'MORPHO': morphoApy = result.value; break;
-                case 'SPARK': sparkApy = result.value; break;
-                case 'SEAMLESS': seamlessApy = result.value; break;
-                case 'MOONWELL': moonwellApy = result.value; break;
-                case 'MORPHO_RE7': morphoRe7Apy = result.value; break;
-              }
-            }
-          });
+          if (cachedAPYs.AAVE) aaveApy = cachedAPYs.AAVE;
+          if (cachedAPYs.FLUID) fluidApy = cachedAPYs.FLUID;
+          if (cachedAPYs.COMPOUND) compoundApy = cachedAPYs.COMPOUND;
+          if (cachedAPYs.MORPHO) morphoApy = cachedAPYs.MORPHO;
+          if (cachedAPYs.SPARK) sparkApy = cachedAPYs.SPARK;
+          if (cachedAPYs.SEAMLESS) seamlessApy = cachedAPYs.SEAMLESS;
+          if (cachedAPYs.MOONWELL) moonwellApy = cachedAPYs.MOONWELL;
+          if (cachedAPYs.MORPHO_RE7) morphoRe7Apy = cachedAPYs.MORPHO_RE7;
         }
         
         console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%, Spark ${sparkApy}%, Seamless ${seamlessApy}%, Moonwell ${moonwellApy}%, Morpho Re7 ${morphoRe7Apy}%`);
       } catch (error) {
-        console.warn("Failed to fetch real-time APY, using fallback rates:", error);
+        console.warn("Failed to fetch cached APY, using fallback rates:", error);
       }
       const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum + morphoRe7BalanceNum;
       
