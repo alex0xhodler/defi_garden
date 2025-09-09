@@ -273,10 +273,8 @@ async function calculateMorphoYields(walletAddress: Address, positions: any[], r
     const morphoPool = realTimeYields.find(pool => pool.project === 'Morpho');
     const realTimeApy = morphoPool ? morphoPool.apy : 6.90;
     
-    // Get Morpho positions from database
-    const morphoPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'morpho');
-    
-    if (morphoPositions.length === 0 || currentBalance < 0.01) {
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
       return {
         protocol: 'Morpho',
         currentValue: 0,
@@ -286,8 +284,14 @@ async function calculateMorphoYields(walletAddress: Address, positions: any[], r
         hasPosition: false
       };
     }
+
+    // Get Morpho positions from database (if available)
+    const morphoPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'morpho');
     
-    const totalOriginalDeposit = morphoPositions.reduce((sum, pos) => sum + pos.amountInvested, 0);
+    // Calculate yield based on available data
+    const totalOriginalDeposit = morphoPositions.length > 0
+      ? morphoPositions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
     const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
     
     return {
@@ -330,10 +334,8 @@ async function calculateSparkYields(walletAddress: Address, positions: any[], re
     const sparkPool = realTimeYields.find(pool => pool.project === 'Spark');
     const realTimeApy = sparkPool ? sparkPool.apy : 6.63;
     
-    // Get Spark positions from database
-    const sparkPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'spark');
-    
-    if (sparkPositions.length === 0 || currentBalance < 0.01) {
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
       return {
         protocol: 'Spark',
         currentValue: 0,
@@ -343,8 +345,14 @@ async function calculateSparkYields(walletAddress: Address, positions: any[], re
         hasPosition: false
       };
     }
+
+    // Get Spark positions from database (if available)
+    const sparkPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'spark');
     
-    const totalOriginalDeposit = sparkPositions.reduce((sum, pos) => sum + pos.amountInvested, 0);
+    // Calculate yield based on available data
+    const totalOriginalDeposit = sparkPositions.length > 0
+      ? sparkPositions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
     const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
     
     return {
@@ -387,10 +395,8 @@ async function calculateSeamlessYields(walletAddress: Address, positions: any[],
     const seamlessPool = realTimeYields.find(pool => pool.project === 'Seamless');
     const realTimeApy = seamlessPool ? seamlessPool.apy : 7.38;
     
-    // Get Seamless positions from database
-    const seamlessPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'seamless');
-    
-    if (seamlessPositions.length === 0 || currentBalance < 0.01) {
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
       return {
         protocol: 'Seamless',
         currentValue: 0,
@@ -400,8 +406,14 @@ async function calculateSeamlessYields(walletAddress: Address, positions: any[],
         hasPosition: false
       };
     }
+
+    // Get Seamless positions from database (if available)
+    const seamlessPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'seamless');
     
-    const totalOriginalDeposit = seamlessPositions.reduce((sum, pos) => sum + pos.amountInvested, 0);
+    // Calculate yield based on available data
+    const totalOriginalDeposit = seamlessPositions.length > 0
+      ? seamlessPositions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
     const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
     
     return {
@@ -444,10 +456,8 @@ async function calculateMoonwellYields(walletAddress: Address, positions: any[],
     const moonwellPool = realTimeYields.find(pool => pool.project === 'Moonwell USDC');
     const realTimeApy = moonwellPool ? moonwellPool.apy : 7.31;
     
-    // Get Moonwell positions from database
-    const moonwellPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'moonwell');
-    
-    if (moonwellPositions.length === 0 || currentBalance < 0.01) {
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
       return {
         protocol: 'Moonwell',
         currentValue: 0,
@@ -457,8 +467,17 @@ async function calculateMoonwellYields(walletAddress: Address, positions: any[],
         hasPosition: false
       };
     }
+
+    // Get Moonwell positions from database (if available)
+    const moonwellPositions = positions.filter(pos => 
+      pos.protocol.toLowerCase() === 'moonwell' ||
+      pos.protocol.toLowerCase().includes('moonwell')
+    );
     
-    const totalOriginalDeposit = moonwellPositions.reduce((sum, pos) => sum + pos.amountInvested, 0);
+    // Calculate yield based on available data
+    const totalOriginalDeposit = moonwellPositions.length > 0
+      ? moonwellPositions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
     const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
     
     return {
@@ -501,10 +520,8 @@ async function calculateMorphoRe7Yields(walletAddress: Address, positions: any[]
     const morphoRe7Pool = realTimeYields.find(pool => pool.project === 'Re7 Universal USDC');
     const realTimeApy = morphoRe7Pool ? morphoRe7Pool.apy : 9.95;
     
-    // Get Morpho Re7 positions from database
-    const morphoRe7Positions = positions.filter(pos => pos.protocol.toLowerCase() === 're7' || pos.protocol.toLowerCase() === 'morpho re7');
-    
-    if (morphoRe7Positions.length === 0 || currentBalance < 0.01) {
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
       return {
         protocol: 'Re7 Universal USDC',
         currentValue: 0,
@@ -514,8 +531,19 @@ async function calculateMorphoRe7Yields(walletAddress: Address, positions: any[]
         hasPosition: false
       };
     }
+
+    // Get Morpho Re7 positions from database (if available)
+    const morphoRe7Positions = positions.filter(pos => 
+      pos.protocol.toLowerCase() === 're7' || 
+      pos.protocol.toLowerCase() === 'morpho re7' ||
+      pos.protocol.toLowerCase() === 'morphore7' ||
+      pos.protocol.toLowerCase().includes('re7')
+    );
     
-    const totalOriginalDeposit = morphoRe7Positions.reduce((sum, pos) => sum + pos.amountInvested, 0);
+    // Calculate yield based on available data
+    const totalOriginalDeposit = morphoRe7Positions.length > 0 
+      ? morphoRe7Positions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
     const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
     
     return {
