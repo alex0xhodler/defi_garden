@@ -61,6 +61,22 @@ export async function getYieldOpportunities(
         protocol: "morpho"
       },
       {
+        poolId: "morpho-re7-universal-usdc",
+        project: "Re7 Universal USDC",
+        chain: "Base", 
+        symbol: "USDC",
+        tvlUsd: 10_000_000,
+        apy: 6.0,
+        apyBase: 6.0,
+        apyReward: 0.0,
+        ilRisk: "no",
+        exposure: "single",
+        underlyingTokens: ["0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"],
+        rewardTokens: [],
+        riskScore: 1,
+        protocol: "morpho-re7"
+      },
+      {
         poolId: "spark-usdc",
         project: "Spark",
         chain: "Base", 
@@ -139,7 +155,7 @@ export function calculateRiskScore(pool: YieldOpportunity): number {
   
   // Protocol reputation risk
   const protocolRisk: Record<string, number> = {
-    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Morpho': 2, 'Spark': 1, 'Seamless': 2, 'Moonwell USDC': 2, 'Yearn': 2, 
+    'Aave': 1, 'Compound': 1, 'Fluid': 1, 'Morpho': 2, 'Spark': 1, 'Seamless': 2, 'Moonwell USDC': 2, 'Re7 Universal USDC': 1, 'Yearn': 2, 
     'Pendle': 3, 'Convex': 2, 'Unknown': 5
   };
   

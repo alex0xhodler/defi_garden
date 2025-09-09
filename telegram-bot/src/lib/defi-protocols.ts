@@ -571,6 +571,12 @@ export async function executeWithdraw(
         const { withdrawFromMoonwell } = await import("../services/moonwell-defi");
         result = await withdrawFromMoonwell(userId!, amountUsdc);
         break;
+      case "morpho-re7":
+      case "re7 universal usdc":
+      case "re7":
+        const { withdrawFromMorphoRe7 } = await import("../services/morpho-re7-defi");
+        result = await withdrawFromMorphoRe7(userId!, amountUsdc);
+        break;
       default:
         throw new Error(`Unsupported protocol for gasless: ${protocol.toLowerCase()}`);
     }
@@ -812,6 +818,12 @@ export async function executeZap(
       case "moonwell usdc":
         const { deployToMoonwell } = await import("../services/moonwell-defi");
         result = await deployToMoonwell(userId!, amountUsdc);
+        break;
+      case "morpho-re7":
+      case "re7 universal usdc":
+      case "re7":
+        const { deployToMorphoRe7 } = await import("../services/morpho-re7-defi");
+        result = await deployToMorphoRe7(userId!, amountUsdc);
         break;
       default:
         throw new Error(`Unsupported protocol for gasless: ${protocolLower}`);

@@ -53,7 +53,8 @@ const portfolioHandler: CommandHandler = {
       const { getSparkBalance } = await import("../services/spark-defi");
       const { getSeamlessBalance } = await import("../services/seamless-defi");
       const { getMoonwellBalance } = await import("../services/moonwell-defi");
-      const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance, usdcBalance] = await Promise.all([
+      const { getMorphoRe7Balance } = await import("../services/morpho-re7-defi");
+      const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance, morphoRe7Balance, usdcBalance] = await Promise.all([
         getAaveBalance(walletAddress),
         getFluidBalance(walletAddress),
         getCompoundBalance(walletAddress),
@@ -73,6 +74,10 @@ const portfolioHandler: CommandHandler = {
           console.error(`❌ Portfolio command - Moonwell balance fetch failed for ${smartWallet?.smartAccount?.address}:`, error);
           return { assetsFormatted: '0.00' };
         }) : Promise.resolve({ assetsFormatted: '0.00' }),
+        smartWallet?.smartAccount?.address ? getMorphoRe7Balance(smartWallet.smartAccount.address).catch(error => {
+          console.error(`❌ Portfolio command - Morpho Re7 balance fetch failed for ${smartWallet?.smartAccount?.address}:`, error);
+          return { assetsFormatted: '0.00' };
+        }) : Promise.resolve({ assetsFormatted: '0.00' }),
         getTokenBalance(BASE_TOKENS.USDC, walletAddress)
       ]);
 
@@ -83,15 +88,17 @@ const portfolioHandler: CommandHandler = {
       const sparkBalanceNum = parseFloat(sparkBalance.assetsFormatted);
       const seamlessBalanceNum = parseFloat(seamlessBalance.assetsFormatted);
       const moonwellBalanceNum = parseFloat(moonwellBalance.assetsFormatted);
+      const morphoRe7BalanceNum = parseFloat(morphoRe7Balance.assetsFormatted);
       const usdcBalanceNum = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
       
       console.log(`🔍 Portfolio command - Morpho balance: ${morphoBalance.assetsFormatted} → ${morphoBalanceNum}`);
       console.log(`🔍 Portfolio command - Spark balance: ${sparkBalance.assetsFormatted} → ${sparkBalanceNum}`);
       console.log(`🔍 Portfolio command - Seamless balance: ${seamlessBalance.assetsFormatted} → ${seamlessBalanceNum}`);
       console.log(`🔍 Portfolio command - Moonwell balance: ${moonwellBalance.assetsFormatted} → ${moonwellBalanceNum}`);
+      console.log(`🔍 Portfolio command - Morpho Re7 balance: ${morphoRe7Balance.assetsFormatted} → ${morphoRe7BalanceNum}`);
 
       // If no DeFi deposits, show empty portfolio
-      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0 && sparkBalanceNum === 0 && seamlessBalanceNum === 0 && moonwellBalanceNum === 0) {
+      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0 && sparkBalanceNum === 0 && seamlessBalanceNum === 0 && moonwellBalanceNum === 0 && morphoRe7BalanceNum === 0) {
         const keyboard = new InlineKeyboard()
           .text("🦑 Start Earning", "zap_funds")
           .text("📥 Deposit", "deposit")
@@ -128,17 +135,19 @@ const portfolioHandler: CommandHandler = {
       let sparkApy = 8.0;
       let seamlessApy = 5.0;
       let moonwellApy = 5.0;
+      let morphoRe7Apy = 6.0;
       
       try {
         const { fetchProtocolApy } = await import("../lib/defillama-api");
-        const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy, realSparkApy, realSeamlessApy, realMoonwellApy] = await Promise.allSettled([
+        const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy, realSparkApy, realSeamlessApy, realMoonwellApy, realMorphoRe7Apy] = await Promise.allSettled([
           fetchProtocolApy("AAVE"),
           fetchProtocolApy("FLUID"), 
           fetchProtocolApy("COMPOUND"),
           fetchProtocolApy("MORPHO"),
           fetchProtocolApy("SPARK"),
           fetchProtocolApy("SEAMLESS"),
-          fetchProtocolApy("MOONWELL")
+          fetchProtocolApy("MOONWELL"),
+          fetchProtocolApy("MORPHO_RE7")
         ]);
         
         if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
@@ -148,12 +157,13 @@ const portfolioHandler: CommandHandler = {
         if (realSparkApy.status === 'fulfilled') sparkApy = realSparkApy.value;
         if (realSeamlessApy.status === 'fulfilled') seamlessApy = realSeamlessApy.value;
         if (realMoonwellApy.status === 'fulfilled') moonwellApy = realMoonwellApy.value;
+        if (realMorphoRe7Apy.status === 'fulfilled') morphoRe7Apy = realMorphoRe7Apy.value;
         
-        console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%, Spark ${sparkApy}%, Seamless ${seamlessApy}%, Moonwell ${moonwellApy}%`);
+        console.log(`Portfolio APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%, Spark ${sparkApy}%, Seamless ${seamlessApy}%, Moonwell ${moonwellApy}%, Morpho Re7 ${morphoRe7Apy}%`);
       } catch (error) {
         console.warn("Failed to fetch real-time APY, using fallback rates:", error);
       }
-      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum;
+      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum + morphoRe7BalanceNum;
       
       let message = `📊 **Your DeFi Portfolio**\n\n`;
       
@@ -169,6 +179,15 @@ const portfolioHandler: CommandHandler = {
         message += `• **Current Deposit**: $${morphoBalanceNum.toFixed(2)}\n`;
         message += `• **Current APY**: ${morphoApy}%\n`;
         message += `• **Protocol**: Morpho on Base\n`;
+        message += `• **Status**: ✅ Active & Earning\n\n`;
+      }
+
+      if (morphoRe7BalanceNum > 0) {
+        message += `**♾️ Re7 Universal USDC Position**\n\n`;
+        message += `🟢 **Re7 Universal USDC**\n`;
+        message += `• **Current Deposit**: $${morphoRe7BalanceNum.toFixed(2)}\n`;
+        message += `• **Current APY**: ${morphoRe7Apy}%\n`;
+        message += `• **Protocol**: Re7 Universal USDC via Morpho on Base\n`;
         message += `• **Status**: ✅ Active & Earning\n\n`;
       }
       

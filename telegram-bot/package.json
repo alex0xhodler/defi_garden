@@ -16,6 +16,8 @@
     "test:seamless-withdraw": "ts-node src/scripts/test-seamless-withdrawal.ts",
     "test:moonwell": "ts-node src/scripts/test-moonwell-deposit.ts",
     "test:moonwell-withdraw": "ts-node src/scripts/test-moonwell-withdrawal.ts",
+    "test:morpho-re7": "ts-node src/scripts/test-morpho-re7-deposit.ts",
+    "test:morpho-re7-withdraw": "ts-node src/scripts/test-morpho-re7-withdrawal.ts",
     "test:bot-integration": "ts-node src/scripts/test-bot-integration.ts",
     "test:telegram-bot": "ts-node src/scripts/test-telegram-bot-integration.ts",
     "template:list": "ls -la src/templates/defi-pool-template/",
@@ -45,7 +47,7 @@
     "@types/better-sqlite3": "^7.6.13",
     "@types/crypto-js": "^4.2.2",
     "@types/node": "^22.14.1",
-    "nodemon": "^3.1.9",
+    "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },

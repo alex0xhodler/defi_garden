@@ -13,7 +13,8 @@ export const POOL_IDS = {
   MORPHO: "301667a4-dc42-492d-a978-ea4f69811a72",
   SPARK: "9f146531-9c31-46ba-8e26-6b59bdaca9ff",
   SEAMLESS: "4a22de3c-271e-4152-b8d8-29053de06f37",
-  MOONWELL: "1643c124-f047-4fc5-9642-d6fa91875184"
+  MOONWELL: "1643c124-f047-4fc5-9642-d6fa91875184",
+  MORPHO_RE7: "44390fb2-b3ad-46ee-a916-f21289f3cc88"
 } as const;
 
 // DeFiLlama API pool structure
@@ -131,7 +132,7 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
     // Import database functions
     const { saveProtocolRate, getProtocolRate } = await import("./database");
     
-    // Fetch all seven pools in one efficient call
+    // Fetch all eight pools in one efficient call
     const pools = await fetchSpecificPools([
       POOL_IDS.AAVE,
       POOL_IDS.FLUID,
@@ -139,7 +140,8 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
       POOL_IDS.MORPHO,
       POOL_IDS.SPARK,
       POOL_IDS.SEAMLESS,
-      POOL_IDS.MOONWELL
+      POOL_IDS.MOONWELL,
+      POOL_IDS.MORPHO_RE7
     ]);
     
     const aavePool = pools.find(p => p.pool === POOL_IDS.AAVE);
@@ -149,6 +151,7 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
     const sparkPool = pools.find(p => p.pool === POOL_IDS.SPARK);
     const seamlessPool = pools.find(p => p.pool === POOL_IDS.SEAMLESS);
     const moonwellPool = pools.find(p => p.pool === POOL_IDS.MOONWELL);
+    const morphoRe7Pool = pools.find(p => p.pool === POOL_IDS.MORPHO_RE7);
     
     const opportunities: YieldOpportunity[] = [];
     
@@ -326,6 +329,31 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
         opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Moonwell USDC", 5.0));
       }
     }
+
+    // Process Morpho Re7 Universal USDC
+    if (morphoRe7Pool) {
+      const morphoRe7Opportunity = convertToYieldOpportunity(morphoRe7Pool, "Re7 Universal USDC");
+      opportunities.push(morphoRe7Opportunity);
+      
+      // Save to database for future fallback
+      saveProtocolRate("morpho-re7", morphoRe7Opportunity.apy, morphoRe7Opportunity.apyBase, morphoRe7Opportunity.apyReward, morphoRe7Pool.tvlUsd);
+      console.log(`✅ Re7 Universal USDC: ${morphoRe7Opportunity.apy}% APY (${morphoRe7Opportunity.apyBase}% base + ${morphoRe7Opportunity.apyReward}% rewards) - saved to DB`);
+    } else {
+      console.warn("❌ Failed to fetch Re7 Universal USDC data, using database fallback");
+      const cachedMorphoRe7 = getProtocolRate("morpho-re7");
+      if (cachedMorphoRe7) {
+        opportunities.push(convertToYieldOpportunity({
+          tvlUsd: cachedMorphoRe7.tvlUsd,
+          apy: cachedMorphoRe7.apy,
+          apyBase: cachedMorphoRe7.apyBase,
+          apyReward: cachedMorphoRe7.apyReward
+        } as DeFiLlamaPool, "Re7 Universal USDC"));
+        console.log(`📦 Using cached Re7 Universal USDC data: ${cachedMorphoRe7.apy}% APY (last updated: ${new Date(cachedMorphoRe7.lastUpdated).toISOString()})`);
+      } else {
+        console.log(`🔧 Using hardcoded Re7 Universal USDC fallback: 6.0% APY`);
+        opportunities.push(convertToYieldOpportunity({} as DeFiLlamaPool, "Re7 Universal USDC", 6.0));
+      }
+    }
     
     console.log(`=== FETCHED ${opportunities.length} REAL-TIME YIELDS ===`);
     return opportunities;
@@ -347,7 +375,8 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
         { name: "Morpho", fallback: 10.0 },
         { name: "Spark", fallback: 8.0 },
         { name: "Seamless", fallback: 5.0 },
-        { name: "Moonwell USDC", fallback: 5.0 }
+        { name: "Moonwell USDC", fallback: 5.0 },
+        { name: "Re7 Universal USDC", fallback: 6.0 }
       ];
       
       for (const { name, fallback } of protocols) {
@@ -376,7 +405,8 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
         convertToYieldOpportunity({} as DeFiLlamaPool, "Compound", 7.65),
         convertToYieldOpportunity({} as DeFiLlamaPool, "Morpho", 10.0),
         convertToYieldOpportunity({} as DeFiLlamaPool, "Spark", 8.0),
-        convertToYieldOpportunity({} as DeFiLlamaPool, "Seamless", 5.0)
+        convertToYieldOpportunity({} as DeFiLlamaPool, "Seamless", 5.0),
+        convertToYieldOpportunity({} as DeFiLlamaPool, "Re7 Universal USDC", 6.0)
       ];
     }
   }
@@ -407,14 +437,14 @@ export async function getCompoundV3APY(): Promise<number> {
 /**
  * Fetch individual protocol APY by pool ID
  */
-export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO" | "SPARK" | "SEAMLESS" | "MOONWELL"): Promise<number> {
+export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO" | "SPARK" | "SEAMLESS" | "MOONWELL" | "MORPHO_RE7"): Promise<number> {
   try {
     const poolId = POOL_IDS[protocol];
     const pool = await fetchPoolById(poolId);
     
     if (!pool) {
       console.warn(`No data found for ${protocol}, using fallback`);
-      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0, SEAMLESS: 5.0, MOONWELL: 5.0 };
+      const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0, SEAMLESS: 5.0, MOONWELL: 5.0, MORPHO_RE7: 6.0 };
       return fallbacks[protocol];
     }
     
@@ -424,7 +454,7 @@ export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" |
     return parseFloat(apy.toFixed(2));
   } catch (error) {
     console.error(`Error fetching ${protocol} APY:`, error);
-    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0, SEAMLESS: 5.0, MOONWELL: 5.0 };
+    const fallbacks = { AAVE: 5.69, FLUID: 7.72, COMPOUND: 7.65, MORPHO: 10.0, SPARK: 8.0, SEAMLESS: 5.0, MOONWELL: 5.0, MORPHO_RE7: 6.0 };
     return fallbacks[protocol];
   }
 }

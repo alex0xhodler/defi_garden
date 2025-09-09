@@ -121,12 +121,72 @@
         "Integration based on successful transaction stack traces",
         "Requires testing validation before production deployment"
       ]
+    },
+    {
+      "id": "morpho-re7-universal-usdc",
+      "name": "Re7 Universal USDC ♾️",
+      "description": "Re7 Universal USDC vault providing optimized yield with Risk Score 1",
+      "apy": "~6%",
+      "tvl": "TBD",
+      "risk": "very-low",
+      "riskScore": "1/10",
+      "chain": "base",
+      "asset": "USDC",
+      "contracts": {
+        "vault": "0xB7890CEE6CF4792cdCC13489D36D9d42726ab863",
+        "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+      },
+      "decimals": {
+        "asset": 6,
+        "shares": 18
+      },
+      "status": "testing",
+      "integration": {
+        "pattern": "erc4626-direct",
+        "service": "src/services/morpho-re7-defi.ts",
+        "testDeposit": "src/scripts/test-morpho-re7-deposit.ts",
+        "testWithdrawal": "src/scripts/test-morpho-re7-withdrawal.ts"
+      },
+      "testTransactions": {
+        "deposit": {
+          "hash": "pending",
+          "amount": "TBD",
+          "shares": "TBD",
+          "gasUsed": "TBD",
+          "gasless": true
+        },
+        "withdrawal": {
+          "hash": "pending",
+          "shares": "TBD",
+          "assets": "TBD",
+          "yieldBonus": "TBD",
+          "gasUsed": "TBD",
+          "gasless": true
+        }
+      },
+      "commands": {
+        "testDeposit": "npm run test:morpho-re7 -- --key YOUR_KEY --amount 0.1",
+        "testWithdrawal": "npm run test:morpho-re7-withdraw -- --key YOUR_KEY --shares 0.05"
+      },
+      "defillama": {
+        "poolId": "44390fb2-b3ad-46ee-a916-f21289f3cc88",
+        "url": "https://yields.llama.fi/pool/44390fb2-b3ad-46ee-a916-f21289f3cc88"
+      },
+      "addedDate": "2025-09-08",
+      "lastTested": "pending",
+      "integrationNotes": [
+        "Uses direct ERC4626 deposit/redeem pattern (same as Morpho PYTH success)",
+        "Gasless transactions via CDP Paymaster", 
+        "Risk Score 1 - Very low risk vault",
+        "Template method from proven Moonwell integration",
+        "Requires testing validation before production deployment"
+      ]
     }
   ],
   "metadata": {
-    "version": "1.1.0",
-    "lastUpdated": "2025-09-06",
-    "totalPools": 2,
+    "version": "1.2.0",
+    "lastUpdated": "2025-09-08",
+    "totalPools": 3,
     "supportedChains": ["base"],
     "supportedAssets": ["USDC"],
     "patterns": {

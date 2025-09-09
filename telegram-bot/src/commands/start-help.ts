@@ -160,13 +160,14 @@ export const startHandler: CommandHandler = {
           const { getSparkBalance } = await import("../services/spark-defi");
           const { getSeamlessBalance } = await import("../services/seamless-defi");
           const { getMoonwellBalance } = await import("../services/moonwell-defi");
+          const { getMorphoRe7Balance } = await import("../services/morpho-re7-defi");
           
           try {
             // Get Smart Wallet address for new protocols (since deposits are made via CDP)
             const smartWallet = await getCoinbaseSmartWallet(userId);
             const smartWalletAddress = smartWallet?.smartAccount.address;
             
-            const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance] = await Promise.all([
+            const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance, morphoRe7Balance] = await Promise.all([
               getCoinbaseWalletUSDCBalance(wallet.address as Address),
               getAaveBalance(wallet.address as Address),
               getFluidBalance(wallet.address as Address),
@@ -177,7 +178,9 @@ export const startHandler: CommandHandler = {
               // Check Seamless balance on Smart Wallet address since deposits are made there
               smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
               // Check Moonwell balance on Smart Wallet address since deposits are made there
-              smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
+              smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+              // Check Morpho Re7 balance on Smart Wallet address since deposits are made there
+              smartWalletAddress ? getMorphoRe7Balance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
             ]);
 
             const walletUsdcNum = parseFloat(walletUsdc);
@@ -188,10 +191,11 @@ export const startHandler: CommandHandler = {
             const sparkBalanceNum = parseFloat(sparkBalance.assetsFormatted);
             const seamlessBalanceNum = parseFloat(seamlessBalance.assetsFormatted);
             const moonwellBalanceNum = parseFloat(moonwellBalance.assetsFormatted);
+            const morphoRe7BalanceNum = parseFloat(morphoRe7Balance.assetsFormatted);
             
-            const totalFunds = walletUsdcNum + aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum;
+            const totalFunds = walletUsdcNum + aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum + morphoRe7BalanceNum;
             
-            console.log(`🔍 User ${firstName} funds check: Wallet: $${walletUsdcNum}, Aave: $${aaveBalanceNum}, Fluid: $${fluidBalanceNum}, Compound: $${compoundBalanceNum}, Morpho: $${morphoBalanceNum}, Spark: $${sparkBalanceNum}, Seamless: $${seamlessBalanceNum}, Moonwell: $${moonwellBalanceNum}, Total: $${totalFunds}`);
+            console.log(`🔍 User ${firstName} funds check: Wallet: $${walletUsdcNum}, Aave: $${aaveBalanceNum}, Fluid: $${fluidBalanceNum}, Compound: $${compoundBalanceNum}, Morpho: $${morphoBalanceNum}, Spark: $${sparkBalanceNum}, Seamless: $${seamlessBalanceNum}, Moonwell: $${moonwellBalanceNum}, Re7: $${morphoRe7BalanceNum}, Total: $${totalFunds}`);
             
             if (totalFunds > 0.01) {
               // User has funds - show full main menu
