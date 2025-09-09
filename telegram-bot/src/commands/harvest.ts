@@ -10,9 +10,17 @@ import {
 } from "../lib/database";
 import { getWallet } from "../lib/token-wallet";
 import { getAaveBalance, getFluidBalance, getCompoundBalance, formatTokenAmount } from "../lib/token-wallet";
+import { getCoinbaseSmartWallet } from "../lib/coinbase-wallet";
 import { getPendingCompoundRewards, claimCompoundRewards, getPendingFluidRewards } from "../lib/defi-protocols";
 import { fetchRealTimeYields } from "../lib/defillama-api";
 import { Address, parseUnits } from "viem";
+
+// Import balance functions for missing protocols
+import { getMorphoBalance } from "../services/morpho-defi";
+import { getSparkBalance } from "../services/spark-defi";
+import { getSeamlessBalance } from "../services/seamless-defi";
+import { getMoonwellBalance } from "../services/moonwell-defi";
+import { getMorphoRe7Balance } from "../services/morpho-re7-defi";
 
 /**
  * Calculate real-time Aave yields based on aUSDC balance vs original deposit
@@ -246,6 +254,319 @@ async function calculateCompoundYields(walletAddress: Address, positions: any[],
   }
 }
 
+/**
+ * Calculate real-time Morpho yields based on vault shares vs original deposit
+ */
+async function calculateMorphoYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
+  protocol: string;
+  currentValue: number;
+  originalDeposit: number;
+  yieldEarned: number;
+  apy: number;
+  hasPosition: boolean;
+}> {
+  try {
+    const { assetsFormatted } = await getMorphoBalance(walletAddress);
+    const currentBalance = parseFloat(assetsFormatted);
+    
+    // Get real-time APY from DeFiLlama
+    const morphoPool = realTimeYields.find(pool => pool.project === 'Morpho');
+    const realTimeApy = morphoPool ? morphoPool.apy : 6.90;
+    
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
+      return {
+        protocol: 'Morpho',
+        currentValue: 0,
+        originalDeposit: 0,
+        yieldEarned: 0,
+        apy: realTimeApy,
+        hasPosition: false
+      };
+    }
+
+    // Get Morpho positions from database (if available)
+    const morphoPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'morpho');
+    
+    // Calculate yield based on available data
+    const totalOriginalDeposit = morphoPositions.length > 0
+      ? morphoPositions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
+    const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
+    
+    return {
+      protocol: 'Morpho',
+      currentValue: currentBalance,
+      originalDeposit: totalOriginalDeposit,
+      yieldEarned,
+      apy: realTimeApy,
+      hasPosition: true
+    };
+  } catch (error) {
+    console.error('Error calculating Morpho yields:', error);
+    return {
+      protocol: 'Morpho',
+      currentValue: 0,
+      originalDeposit: 0,
+      yieldEarned: 0,
+      apy: 0,
+      hasPosition: false
+    };
+  }
+}
+
+/**
+ * Calculate real-time Spark yields based on vault shares vs original deposit
+ */
+async function calculateSparkYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
+  protocol: string;
+  currentValue: number;
+  originalDeposit: number;
+  yieldEarned: number;
+  apy: number;
+  hasPosition: boolean;
+}> {
+  try {
+    const { assetsFormatted } = await getSparkBalance(walletAddress);
+    const currentBalance = parseFloat(assetsFormatted);
+    
+    // Get real-time APY from DeFiLlama
+    const sparkPool = realTimeYields.find(pool => pool.project === 'Spark');
+    const realTimeApy = sparkPool ? sparkPool.apy : 6.63;
+    
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
+      return {
+        protocol: 'Spark',
+        currentValue: 0,
+        originalDeposit: 0,
+        yieldEarned: 0,
+        apy: realTimeApy,
+        hasPosition: false
+      };
+    }
+
+    // Get Spark positions from database (if available)
+    const sparkPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'spark');
+    
+    // Calculate yield based on available data
+    const totalOriginalDeposit = sparkPositions.length > 0
+      ? sparkPositions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
+    const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
+    
+    return {
+      protocol: 'Spark',
+      currentValue: currentBalance,
+      originalDeposit: totalOriginalDeposit,
+      yieldEarned,
+      apy: realTimeApy,
+      hasPosition: true
+    };
+  } catch (error) {
+    console.error('Error calculating Spark yields:', error);
+    return {
+      protocol: 'Spark',
+      currentValue: 0,
+      originalDeposit: 0,
+      yieldEarned: 0,
+      apy: 0,
+      hasPosition: false
+    };
+  }
+}
+
+/**
+ * Calculate real-time Seamless yields based on vault shares vs original deposit
+ */
+async function calculateSeamlessYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
+  protocol: string;
+  currentValue: number;
+  originalDeposit: number;
+  yieldEarned: number;
+  apy: number;
+  hasPosition: boolean;
+}> {
+  try {
+    const { assetsFormatted } = await getSeamlessBalance(walletAddress);
+    const currentBalance = parseFloat(assetsFormatted);
+    
+    // Get real-time APY from DeFiLlama
+    const seamlessPool = realTimeYields.find(pool => pool.project === 'Seamless');
+    const realTimeApy = seamlessPool ? seamlessPool.apy : 7.38;
+    
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
+      return {
+        protocol: 'Seamless',
+        currentValue: 0,
+        originalDeposit: 0,
+        yieldEarned: 0,
+        apy: realTimeApy,
+        hasPosition: false
+      };
+    }
+
+    // Get Seamless positions from database (if available)
+    const seamlessPositions = positions.filter(pos => pos.protocol.toLowerCase() === 'seamless');
+    
+    // Calculate yield based on available data
+    const totalOriginalDeposit = seamlessPositions.length > 0
+      ? seamlessPositions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
+    const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
+    
+    return {
+      protocol: 'Seamless',
+      currentValue: currentBalance,
+      originalDeposit: totalOriginalDeposit,
+      yieldEarned,
+      apy: realTimeApy,
+      hasPosition: true
+    };
+  } catch (error) {
+    console.error('Error calculating Seamless yields:', error);
+    return {
+      protocol: 'Seamless',
+      currentValue: 0,
+      originalDeposit: 0,
+      yieldEarned: 0,
+      apy: 0,
+      hasPosition: false
+    };
+  }
+}
+
+/**
+ * Calculate real-time Moonwell yields based on vault shares vs original deposit
+ */
+async function calculateMoonwellYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
+  protocol: string;
+  currentValue: number;
+  originalDeposit: number;
+  yieldEarned: number;
+  apy: number;
+  hasPosition: boolean;
+}> {
+  try {
+    const { assetsFormatted } = await getMoonwellBalance(walletAddress);
+    const currentBalance = parseFloat(assetsFormatted);
+    
+    // Get real-time APY from DeFiLlama
+    const moonwellPool = realTimeYields.find(pool => pool.project === 'Moonwell USDC');
+    const realTimeApy = moonwellPool ? moonwellPool.apy : 7.31;
+    
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
+      return {
+        protocol: 'Moonwell',
+        currentValue: 0,
+        originalDeposit: 0,
+        yieldEarned: 0,
+        apy: realTimeApy,
+        hasPosition: false
+      };
+    }
+
+    // Get Moonwell positions from database (if available)
+    const moonwellPositions = positions.filter(pos => 
+      pos.protocol.toLowerCase() === 'moonwell' ||
+      pos.protocol.toLowerCase().includes('moonwell')
+    );
+    
+    // Calculate yield based on available data
+    const totalOriginalDeposit = moonwellPositions.length > 0
+      ? moonwellPositions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
+    const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
+    
+    return {
+      protocol: 'Moonwell',
+      currentValue: currentBalance,
+      originalDeposit: totalOriginalDeposit,
+      yieldEarned,
+      apy: realTimeApy,
+      hasPosition: true
+    };
+  } catch (error) {
+    console.error('Error calculating Moonwell yields:', error);
+    return {
+      protocol: 'Moonwell',
+      currentValue: 0,
+      originalDeposit: 0,
+      yieldEarned: 0,
+      apy: 0,
+      hasPosition: false
+    };
+  }
+}
+
+/**
+ * Calculate real-time Morpho Re7 yields based on vault shares vs original deposit
+ */
+async function calculateMorphoRe7Yields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
+  protocol: string;
+  currentValue: number;
+  originalDeposit: number;
+  yieldEarned: number;
+  apy: number;
+  hasPosition: boolean;
+}> {
+  try {
+    const { assetsFormatted } = await getMorphoRe7Balance(walletAddress);
+    const currentBalance = parseFloat(assetsFormatted);
+    
+    // Get real-time APY from DeFiLlama
+    const morphoRe7Pool = realTimeYields.find(pool => pool.project === 'Re7 Universal USDC');
+    const realTimeApy = morphoRe7Pool ? morphoRe7Pool.apy : 9.95;
+    
+    // Check if user has balance (ERC4626 protocols work balance-based)
+    if (currentBalance < 0.01) {
+      return {
+        protocol: 'Re7 Universal USDC',
+        currentValue: 0,
+        originalDeposit: 0,
+        yieldEarned: 0,
+        apy: realTimeApy,
+        hasPosition: false
+      };
+    }
+
+    // Get Morpho Re7 positions from database (if available)
+    const morphoRe7Positions = positions.filter(pos => 
+      pos.protocol.toLowerCase() === 're7' || 
+      pos.protocol.toLowerCase() === 'morpho re7' ||
+      pos.protocol.toLowerCase() === 'morphore7' ||
+      pos.protocol.toLowerCase().includes('re7')
+    );
+    
+    // Calculate yield based on available data
+    const totalOriginalDeposit = morphoRe7Positions.length > 0 
+      ? morphoRe7Positions.reduce((sum, pos) => sum + pos.amountInvested, 0)
+      : currentBalance * 0.95; // Estimate if no database history
+    const yieldEarned = Math.max(0, currentBalance - totalOriginalDeposit);
+    
+    return {
+      protocol: 'Re7 Universal USDC',
+      currentValue: currentBalance,
+      originalDeposit: totalOriginalDeposit,
+      yieldEarned,
+      apy: realTimeApy,
+      hasPosition: true
+    };
+  } catch (error) {
+    console.error('Error calculating Morpho Re7 yields:', error);
+    return {
+      protocol: 'Re7 Universal USDC',
+      currentValue: 0,
+      originalDeposit: 0,
+      yieldEarned: 0,
+      apy: 0,
+      hasPosition: false
+    };
+  }
+}
+
 const harvestHandler: CommandHandler = {
   command: "harvest",
   description: "Claim yields and compound rewards",
@@ -264,14 +585,21 @@ const harvestHandler: CommandHandler = {
         return;
       }
 
-      // Get wallet
+      // Get wallet and Smart Wallet (all protocols now use Smart Wallet)
       const wallet = await getWallet(user.userId);
       if (!wallet) {
         await ctx.reply(ERRORS.NO_WALLET);
         return;
       }
 
-      const walletAddress = wallet.address as Address;
+      // Get Smart Wallet address (used by all protocols)
+      const smartWallet = await getCoinbaseSmartWallet(user.userId);
+      const walletAddress = smartWallet?.smartAccount.address as Address;
+      
+      if (!walletAddress) {
+        await ctx.reply("❌ Smart Wallet not found. Please try /start to set up your wallet.");
+        return;
+      }
       
       // Get user's positions from database
       const positions = getPositionsByUserId(user.userId);
@@ -305,20 +633,30 @@ const harvestHandler: CommandHandler = {
         realTimeYields = [
           { project: 'Aave', apy: 5.69, apyBase: 5.69, apyReward: 0 },
           { project: 'Fluid', apy: 7.72, apyBase: 4.0, apyReward: 3.72 },
-          { project: 'Compound', apy: 7.65, apyBase: 6.75, apyReward: 0.91 }
+          { project: 'Compound', apy: 7.65, apyBase: 6.75, apyReward: 0.91 },
+          { project: 'Morpho', apy: 6.90, apyBase: 6.69, apyReward: 0.21 },
+          { project: 'Spark', apy: 6.63, apyBase: 6.63, apyReward: 0 },
+          { project: 'Seamless', apy: 7.38, apyBase: 6.63, apyReward: 0.76 },
+          { project: 'Moonwell USDC', apy: 7.31, apyBase: 6.63, apyReward: 0.68 },
+          { project: 'Re7 Universal USDC', apy: 9.95, apyBase: 5.24, apyReward: 4.71 }
         ];
         console.log('📊 Using fallback yields:', realTimeYields.map(y => `${y.project}: ${y.apy.toFixed(2)}%`));
       }
 
-      // Calculate real-time rewards for all three protocols
-      const [aaveYields, fluidYields, compoundYields] = await Promise.all([
+      // Calculate real-time rewards for all eight protocols
+      const [aaveYields, fluidYields, compoundYields, morphoYields, sparkYields, seamlessYields, moonwellYields, morphoRe7Yields] = await Promise.all([
         calculateAaveYields(walletAddress, positions, realTimeYields),
         calculateFluidRewards(walletAddress, positions, realTimeYields),
-        calculateCompoundYields(walletAddress, positions, realTimeYields)
+        calculateCompoundYields(walletAddress, positions, realTimeYields),
+        calculateMorphoYields(walletAddress, positions, realTimeYields),
+        calculateSparkYields(walletAddress, positions, realTimeYields),
+        calculateSeamlessYields(walletAddress, positions, realTimeYields),
+        calculateMoonwellYields(walletAddress, positions, realTimeYields),
+        calculateMorphoRe7Yields(walletAddress, positions, realTimeYields)
       ]);
       
       // Filter protocols that have positions and yields
-      const protocolYields = [aaveYields, fluidYields, compoundYields].filter(p => p.hasPosition);
+      const protocolYields = [aaveYields, fluidYields, compoundYields, morphoYields, sparkYields, seamlessYields, moonwellYields, morphoRe7Yields].filter(p => p.hasPosition);
       
       if (protocolYields.length === 0) {
         await ctx.reply(
