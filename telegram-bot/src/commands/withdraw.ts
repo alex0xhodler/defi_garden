@@ -171,7 +171,11 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
         'fluid': { name: 'Fluid Finance', emoji: '🌊' },
         'aave': { name: 'Aave V3', emoji: '🏛️' },
         'compound': { name: 'Compound V3', emoji: '🏦' },
-        'morpho': { name: 'Morpho PYTH/USDC', emoji: '🔬' }
+        'morpho': { name: 'Morpho PYTH/USDC', emoji: '🔬' },
+        'spark': { name: 'Spark USDC Vault', emoji: '⚡' },
+        'seamless': { name: 'Seamless USDC', emoji: '🌊' },
+        'moonwell': { name: 'Moonwell USDC', emoji: '🌕' },
+        'morpho-re7': { name: 'Re7 Universal USDC', emoji: '♾️' }
       };
       
       const info = protocolInfo[protocol] || { name: 'Protocol', emoji: '💰' };
@@ -585,6 +589,32 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
       return;
     }
 
+    if (callbackData === "withdraw_morpho-re7_menu") {
+      await ctx.answerCallbackQuery();
+      
+      const keyboard = new InlineKeyboard()
+        .text("💸 Exit All Re7", "withdraw_morpho-re7_max").row()
+        .text("⚖️ Exit Custom Amount", "withdraw_morpho-re7_custom").row()
+        .text("🔙 Back", "withdraw");
+
+      await ctx.reply(
+        `♾️ **Exit from Re7 Universal USDC**\n\n` +
+          `**Your Re7 Position:**\n` +
+          `• Current APY: 10.12%\n` +
+          `• Token: Re7 Universal USDC shares (vault shares)\n` +
+          `• Rewards: Auto-compounding yield\n\n` +
+          `**Exit Options:**\n` +
+          `• **Exit All** - Withdraw complete Re7 position to Smart Wallet\n` +
+          `• **Custom Amount** - Specify exact share amount to redeem\n\n` +
+          `**Note:** Gasless transactions via Smart Wallet technology`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: keyboard
+        }
+      );
+      return;
+    }
+
     if (callbackData === "withdraw_seamless_max") {
       await ctx.answerCallbackQuery();
       
@@ -768,6 +798,97 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
           `Please enter the amount of Moonwell USDC shares you want to redeem:\n\n` +
           `**Examples:**\n` +
           `• \`1\` - Redeem 1 Moonwell USDC share\n` +
+          `• \`0.5\` - Redeem 0.5 shares\n` +
+          `• \`max\` - Redeem all available\n\n` +
+          `**Note:** Gasless via Smart Wallet technology\n\n` +
+          `**Cancel:** Send /cancel`,
+        {
+          parse_mode: "Markdown"
+        }
+      );
+      return;
+    }
+
+    if (callbackData === "withdraw_morpho-re7_max") {
+      await ctx.answerCallbackQuery();
+      
+      const processingMsg = await ctx.reply(
+        `🔄 **Processing Pool Exit...**\n\n` +
+          `• Initiating Re7 Universal USDC withdrawal\n` +
+          `• Using gasless Smart Wallet transaction\n` +
+          `• Please wait...`,
+        { parse_mode: "Markdown" }
+      );
+
+      try {
+        const userId = ctx.from!.id.toString();
+        
+        // Use Smart Wallet for gasless withdrawal
+        const { withdrawFromMorphoRe7 } = await import("../services/morpho-re7-defi");
+        const result = await withdrawFromMorphoRe7(userId, 'max');
+
+        if (result.success && result.txHash) {
+          await ctx.api.editMessageText(
+            ctx.chat!.id,
+            processingMsg.message_id,
+            `✅ **Re7 Universal USDC Pool Exit Complete!**\n\n` +
+              `**Transaction Hash:**\n\`${result.txHash}\`\n\n` +
+              `• **Protocol:** Re7 Universal USDC\n` +
+              `• **Assets Received:** USDC deposited to Smart Wallet\n` +
+              `• **Gas Cost:** $0.00 (Sponsored)\n\n` +
+              `Your funds are now available in your Smart Wallet!`,
+            {
+              parse_mode: "Markdown",
+              reply_markup: new InlineKeyboard()
+                .text("💰 Check Balance", "check_balance")
+                .text("📊 View Portfolio", "view_portfolio")
+                .row()
+            }
+          );
+        } else {
+          throw new Error(result.error || 'Transaction failed');
+        }
+      } catch (error: any) {
+        console.error('❌ Morpho Re7 max withdrawal failed:', error);
+        
+        const errorKeyboard = new InlineKeyboard()
+          .text("🔄 Try Again", "withdraw_morpho-re7_max")
+          .text("💸 Custom Amount", "withdraw_morpho-re7_custom")
+          .row()
+          .text("📊 View Portfolio", "view_portfolio")
+          .text("💰 Check Balance", "check_balance");
+
+        await ctx.api.editMessageText(
+          ctx.chat!.id,
+          processingMsg.message_id,
+          `❌ **Re7 Universal USDC Pool Exit Failed**\n\n` +
+            `**Error:** ${error.message}\n\n` +
+            `**Common Issues:**\n` +
+            `• Insufficient balance\n` +
+            `• Network connectivity\n` +
+            `• Try custom amount instead`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: errorKeyboard
+          }
+        );
+      }
+      return;
+    }
+
+    if (callbackData === "withdraw_morpho-re7_custom") {
+      await ctx.answerCallbackQuery();
+      
+      // Store protocol preference and set state for amount input
+      ctx.session.tempData = ctx.session.tempData || {};
+      ctx.session.tempData.protocol = "morpho-re7";
+      ctx.session.awaitingWithdrawAmount = true;
+      
+      await ctx.reply(
+        `💸 **Custom Re7 Universal USDC Withdrawal**\n\n` +
+          `Please enter the amount of Re7 Universal USDC shares you want to redeem:\n\n` +
+          `**Examples:**\n` +
+          `• \`1\` - Redeem 1 Re7 Universal USDC share\n` +
           `• \`0.5\` - Redeem 0.5 shares\n` +
           `• \`max\` - Redeem all available\n\n` +
           `**Note:** Gasless via Smart Wallet technology\n\n` +
@@ -1213,8 +1334,8 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
 
     // Determine which protocol to withdraw from
     const protocol = ctx.session.tempData?.protocol || "aave"; // Default to Aave for legacy support
-    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : protocol === "seamless" ? "Seamless USDC" : protocol === "moonwell" ? "Moonwell USDC" : "Aave V3";
-    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : protocol === "spark" ? "⚡" : protocol === "seamless" ? "🌊" : protocol === "moonwell" ? "🌕" : "🏛️";
+    const protocolName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound V3" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : protocol === "seamless" ? "Seamless USDC" : protocol === "moonwell" ? "Moonwell USDC" : protocol === "morpho-re7" ? "Re7 Universal USDC" : "Aave V3";
+    const protocolEmoji = protocol === "fluid" ? "🌊" : protocol === "compound" ? "🏦" : protocol === "morpho" ? "🔬" : protocol === "spark" ? "⚡" : protocol === "seamless" ? "🌊" : protocol === "moonwell" ? "🌕" : protocol === "morpho-re7" ? "♾️" : "🏛️";
 
     const processingMsg = await ctx.reply(
       `🔄 **Processing Withdrawal...**\n\n` +
@@ -1306,6 +1427,19 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
         console.log(`🌕 Using gasless Moonwell withdrawal for Smart Wallet user`);
         const { withdrawFromMoonwell } = await import("../services/moonwell-defi");
         const result = await withdrawFromMoonwell(userId, amount);
+        if (!result.success) {
+          throw new Error(result.error);
+        }
+        receipt = {
+          transactionHash: result.txHash,
+          blockNumber: "N/A (CDP UserOp)",
+          gasUsed: "Sponsored by inkvest"
+        };
+      } else if (protocol === "morpho-re7") {
+        // Use Morpho Re7 gasless withdrawal
+        console.log(`♾️ Using gasless Morpho Re7 withdrawal for Smart Wallet user`);
+        const { withdrawFromMorphoRe7 } = await import("../services/morpho-re7-defi");
+        const result = await withdrawFromMorphoRe7(userId, amount);
         if (!result.success) {
           throw new Error(result.error);
         }
