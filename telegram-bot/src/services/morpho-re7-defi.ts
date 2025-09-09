@@ -197,9 +197,9 @@ export async function withdrawFromMorphoRe7(
     });
     
     if (sharesAmount === 'max') {
-      // Use exact balance for max exit to avoid precision issues
-      sharesWei = shareBalance;
-      console.log(`📤 MAX EXIT: Using exact balance ${sharesWei} wei (${(Number(sharesWei) / 1e18).toFixed(6)} Morpho Re7 Universal USDC)`);
+      // Use balance minus 1 wei for max exit to avoid vault rounding issues
+      sharesWei = shareBalance > 1n ? shareBalance - 1n : shareBalance;
+      console.log(`📤 MAX EXIT: Using ${sharesWei} wei (${(Number(sharesWei) / 1e18).toFixed(6)} Re7 Universal USDC) [original: ${shareBalance}]`);
     } else {
       // Convert shares amount to proper units (18 decimals for Morpho Re7 Universal USDC shares)
       sharesWei = parseUnits(sharesAmount as string, 18);
