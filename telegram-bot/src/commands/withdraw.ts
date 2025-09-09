@@ -1524,9 +1524,9 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
     } catch (error: any) {
       console.error("Withdrawal failed:", error);
       
-      const retryCustomAction = protocol === "fluid" ? "withdraw_fluid_custom" : protocol === "compound" ? "withdraw_compound_custom" : "withdraw_aave_custom";
-      const withdrawAllAction = protocol === "fluid" ? "withdraw_fluid_max" : protocol === "compound" ? "withdraw_compound_max" : "withdraw_aave_max";
-      const protocolDisplayName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound" : "Aave";
+      const retryCustomAction = protocol === "fluid" ? "withdraw_fluid_custom" : protocol === "compound" ? "withdraw_compound_custom" : protocol === "morpho" ? "withdraw_morpho_custom" : protocol === "spark" ? "withdraw_spark_custom" : protocol === "seamless" ? "withdraw_seamless_custom" : protocol === "moonwell" ? "withdraw_moonwell_custom" : protocol === "morpho-re7" ? "withdraw_morpho-re7_custom" : "withdraw_aave_custom";
+      const withdrawAllAction = protocol === "fluid" ? "withdraw_fluid_max" : protocol === "compound" ? "withdraw_compound_max" : protocol === "morpho" ? "withdraw_morpho_max" : protocol === "spark" ? "withdraw_spark_max" : protocol === "seamless" ? "withdraw_seamless_max" : protocol === "moonwell" ? "withdraw_moonwell_max" : protocol === "morpho-re7" ? "withdraw_morpho-re7_max" : "withdraw_aave_max";
+      const protocolDisplayName = protocol === "fluid" ? "Fluid Finance" : protocol === "compound" ? "Compound" : protocol === "morpho" ? "Morpho PYTH/USDC" : protocol === "spark" ? "Spark USDC Vault" : protocol === "seamless" ? "Seamless USDC" : protocol === "moonwell" ? "Moonwell USDC" : protocol === "morpho-re7" ? "Re7 Universal USDC" : "Aave";
 
       const errorKeyboard = new InlineKeyboard()
         .text("🔄 Try Again", retryCustomAction)
