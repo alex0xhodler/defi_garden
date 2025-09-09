@@ -41,13 +41,14 @@ const withdrawHandler: CommandHandler = {
       const { getSparkBalance } = await import("../services/spark-defi");
       const { getSeamlessBalance } = await import("../services/seamless-defi");
       const { getMoonwellBalance } = await import("../services/moonwell-defi");
+      const { getMorphoRe7Balance } = await import("../services/morpho-re7-defi");
       
       try {
         // Get Smart Wallet address for new protocols (since deposits are made via CDP)
         const smartWallet = await getCoinbaseSmartWallet(userId);
         const smartWalletAddress = smartWallet?.smartAccount.address;
         
-        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance] = await Promise.all([
+        const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance, morphoRe7Balance] = await Promise.all([
           getAaveBalance(wallet.address as Address),
           getFluidBalance(wallet.address as Address),
           getCompoundBalance(wallet.address as Address),
@@ -57,7 +58,9 @@ const withdrawHandler: CommandHandler = {
           // Check Seamless balance on Smart Wallet address since deposits are made there
           smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
           // Check Moonwell balance on Smart Wallet address since deposits are made there
-          smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
+          smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+          // Check Morpho Re7 balance on Smart Wallet address since deposits are made there
+          smartWalletAddress ? getMorphoRe7Balance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
         ]);
 
         // Parse balances and filter active positions (>$0.01)
@@ -70,6 +73,7 @@ const withdrawHandler: CommandHandler = {
         const sparkBalanceNum = parseFloat(sparkBalance.assetsFormatted);
         const seamlessBalanceNum = parseFloat(seamlessBalance.assetsFormatted);
         const moonwellBalanceNum = parseFloat(moonwellBalance.assetsFormatted);
+        const morphoRe7BalanceNum = parseFloat(morphoRe7Balance.assetsFormatted);
         
         if (aaveBalanceNum > 0.01) activePositions.push({ protocol: 'aave', balance: aaveBalanceNum, emoji: '🏛️', name: 'Aave V3', apy: '5.2%' });
         if (fluidBalanceNum > 0.01) activePositions.push({ protocol: 'fluid', balance: fluidBalanceNum, emoji: '🌊', name: 'Fluid Finance', apy: '7.8%' });
@@ -78,6 +82,7 @@ const withdrawHandler: CommandHandler = {
         if (sparkBalanceNum > 0.01) activePositions.push({ protocol: 'spark', balance: sparkBalanceNum, emoji: '⚡', name: 'Spark USDC Vault', apy: '8%' });
         if (seamlessBalanceNum > 0.01) activePositions.push({ protocol: 'seamless', balance: seamlessBalanceNum, emoji: '🌊', name: 'Seamless USDC', apy: '5%' });
         if (moonwellBalanceNum > 0.01) activePositions.push({ protocol: 'moonwell', balance: moonwellBalanceNum, emoji: '🌕', name: 'Moonwell USDC', apy: '5%' });
+        if (morphoRe7BalanceNum > 0.01) activePositions.push({ protocol: 'morpho-re7', balance: morphoRe7BalanceNum, emoji: '♾️', name: 'Re7 Universal USDC', apy: '9%' });
         
         // If no active positions, show earning suggestion
         if (activePositions.length === 0) {
