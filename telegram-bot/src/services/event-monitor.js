@@ -144,15 +144,15 @@ async function getBestProtocolForUser(userId) {
         service: '../services/seamless-defi',
         displayName: 'Seamless Protocol'
       },
-      'Moonwell': {
-        deployFn: 'deployToMoonwell',
-        service: '../services/moonwell-defi',
-        displayName: 'Moonwell USDC'
-      },
       'Moonwell USDC': {
         deployFn: 'deployToMoonwell',
         service: '../services/moonwell-defi',
         displayName: 'Moonwell USDC'
+      },
+      'Re7 Universal USDC': {
+        deployFn: 'deployToMorphoRe7',
+        service: '../services/morpho-re7-defi',
+        displayName: 'Re7 Universal USDC'
       }
     };
     
