@@ -142,6 +142,32 @@ case "[protocol name]":
   break;
 ```
 
+#### **🚨 Phase 3.5: Protocol Mapping (CRITICAL - 2 minutes)**
+**⚠️ MANDATORY**: Add protocol to auto-investment mapping or it will default to Aave fallback!
+
+**File: `src/services/event-monitor.js`**
+```javascript
+// Add to protocolMap (around line 152):
+'[Protocol Name]': {
+  deployFn: 'deployTo[Protocol]',
+  service: '../services/[protocol]-defi',
+  displayName: '[Protocol Name]'
+}
+```
+
+**🚨 CRITICAL**: The protocol name MUST match exactly what DeFiLlama API returns in the `convertToYieldOpportunity` calls.
+
+**Example for Re7 Universal USDC:**
+```javascript
+'Re7 Universal USDC': {
+  deployFn: 'deployToMorphoRe7',
+  service: '../services/morpho-re7-defi',
+  displayName: 'Re7 Universal USDC'
+}
+```
+
+**Without this step**: System will select your protocol as highest APY but default to Aave fallback, causing suboptimal returns!
+
 #### **Phase 4: Verification (5 minutes)**
 ```bash
 # 1. Build check
@@ -155,6 +181,10 @@ npm run dev  # Check logs for DeFiLlama fetching
 
 # 4. Critical routing test
 # /withdraw → [Protocol] → Custom Amount → Verify correct protocol logs
+
+# 5. Auto-investment mapping test
+# Look for protocol selection logs: "🎯 Selected Protocol: [Protocol Name]" 
+# Should NOT see: "⚠️ Unknown protocol [Protocol Name], defaulting to Aave V3"
 ```
 
 #### **Phase 5: Production Validation (2 minutes)**
@@ -166,6 +196,7 @@ npm run dev  # Check logs for DeFiLlama fetching
 ✅ Custom withdrawal routes correctly (not Aave!)
 ✅ DeFiLlama real-time fetching working
 ✅ No TypeScript compilation errors
+✅ **NEW**: Auto-investment selects protocol correctly (no Aave fallback)
 ```
 
 ---
@@ -218,6 +249,25 @@ git diff src/services/moonwell-defi.ts src/services/[protocol]-defi.ts
 3. Custom withdrawal routing missing → check handleWithdrawAmountInput
 ```
 
+### **Auto-Investment Issues** 🚨
+```bash
+# Symptoms: "⚠️ Unknown protocol [Name], defaulting to Aave V3"
+# Problem: Missing protocol mapping in event-monitor.js
+
+# Fix:
+1. Add protocol to protocolMap in src/services/event-monitor.js
+2. Protocol name MUST match DeFiLlama API exactly
+3. Verify deployFn matches your service export function
+4. Test with deposit flow to confirm no fallback warnings
+
+# Example:
+'Re7 Universal USDC': {
+  deployFn: 'deployToMorphoRe7',
+  service: '../services/morpho-re7-defi',
+  displayName: 'Re7 Universal USDC'
+}
+```
+
 ---
 
 ## 🎯 **Copy-Paste Checklist**
@@ -229,7 +279,7 @@ git diff src/services/moonwell-defi.ts src/services/[protocol]-defi.ts
 - [ ] Add NPM scripts to package.json
 - [ ] `npm run build` passes with zero errors
 
-### **Bot Integration Level (20 minutes)**
+### **Bot Integration Level (22 minutes)**
 - [ ] DeFiLlama: 6 edit points in `defillama-api.ts`
 - [ ] Risk scoring: 2 files (`earn.ts`, `zap.ts`)
 - [ ] Balance integration: 3 files (`balance.ts`, `portfolio.ts`, `mainMenu.ts`)
@@ -237,15 +287,17 @@ git diff src/services/moonwell-defi.ts src/services/[protocol]-defi.ts
 - [ ] Callback routing: OR conditions in `index.ts`
 - [ ] Gasless routing: 2 cases in `defi-protocols.ts`
 - [ ] **CRITICAL**: Custom withdrawal routing in `handleWithdrawAmountInput`
+- [ ] **🚨 MANDATORY**: Protocol mapping in `event-monitor.js` protocolMap (prevents Aave fallback!)
 
-### **Validation Level (5 minutes)**
+### **Validation Level (7 minutes)**
 - [ ] `npm run build` passes
 - [ ] Contract tests pass (deposit + withdraw + max)
 - [ ] DeFiLlama logs show protocol fetching
 - [ ] Custom withdrawal routes to correct protocol
 - [ ] All bot interfaces show protocol consistently
+- [ ] **🚨 NEW**: Auto-investment mapping works (no "defaulting to Aave" warnings)
 
-**🎯 Total Time**: 35 minutes for complete, bulletproof integration!
+**🎯 Total Time**: 37 minutes for complete, bulletproof integration!
 
 ---
 
