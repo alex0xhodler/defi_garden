@@ -33,6 +33,7 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
       const { getSparkBalance } = await import('../services/spark-defi');
       const { getSeamlessBalance } = await import('../services/seamless-defi');
       const { getMoonwellBalance } = await import('../services/moonwell-defi');
+      const { getMorphoRe7Balance } = await import('../services/morpho-re7-defi');
       const { calculateRealTimeEarnings } = await import('./earnings');
       
       // Get Smart Wallet address for Compound deposits (since deposits are made via CDP)
@@ -40,7 +41,7 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
       const smartWalletAddress = smartWallet?.smartAccount.address;
       
       // Fetch wallet USDC and DeFi positions
-      const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance] = await Promise.all([
+      const [walletUsdc, aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance, morphoRe7Balance] = await Promise.all([
         getCoinbaseWalletUSDCBalance(walletAddress as Address).catch(() => '0.00'),
         getAaveBalance(walletAddress as Address).catch(() => ({ aUsdcBalanceFormatted: '0.00' })),
         getFluidBalance(walletAddress as Address).catch(() => ({ fUsdcBalanceFormatted: '0.00' })),
@@ -53,7 +54,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         // Check Seamless balance on Smart Wallet address since deposits are made there
         smartWalletAddress ? getSeamlessBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
         // Check Moonwell balance on Smart Wallet address since deposits are made there
-        smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
+        smartWalletAddress ? getMoonwellBalance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' }),
+        // Check Morpho Re7 balance on Smart Wallet address since deposits are made there
+        smartWalletAddress ? getMorphoRe7Balance(smartWalletAddress).catch(() => ({ assetsFormatted: '0.00' })) : Promise.resolve({ assetsFormatted: '0.00' })
       ]);
 
       const walletUsdcNum = parseFloat(walletUsdc);
@@ -64,8 +67,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
       const sparkBalanceNum = parseFloat(sparkBalance.assetsFormatted);
       const seamlessBalanceNum = parseFloat(seamlessBalance.assetsFormatted);
       const moonwellBalanceNum = parseFloat(moonwellBalance.assetsFormatted);
+      const morphoRe7BalanceNum = parseFloat(morphoRe7Balance.assetsFormatted);
       
-      const totalDeployed = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum;
+      const totalDeployed = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum + morphoRe7BalanceNum;
       
       // STATE 1: User has active DeFi positions
       if (totalDeployed > 0.01) {
@@ -77,17 +81,19 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         let sparkApy = 8.0;
         let seamlessApy = 5.0;
         let moonwellApy = 5.0;
+        let morphoRe7Apy = 6.0;
         
         try {
           const { fetchProtocolApy } = await import('../lib/defillama-api');
-          const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy, realSparkApy, realSeamlessApy, realMoonwellApy] = await Promise.allSettled([
+          const [realAaveApy, realFluidApy, realCompoundApy, realMorphoApy, realSparkApy, realSeamlessApy, realMoonwellApy, realMorphoRe7Apy] = await Promise.allSettled([
             fetchProtocolApy("AAVE"),
             fetchProtocolApy("FLUID"), 
             fetchProtocolApy("COMPOUND"),
             fetchProtocolApy("MORPHO"),
             fetchProtocolApy("SPARK"),
             fetchProtocolApy("SEAMLESS"),
-            fetchProtocolApy("MOONWELL")
+            fetchProtocolApy("MOONWELL"),
+            fetchProtocolApy("MORPHO_RE7")
           ]);
           
           if (realAaveApy.status === 'fulfilled') aaveApy = realAaveApy.value;
@@ -97,14 +103,15 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
           if (realSparkApy.status === 'fulfilled') sparkApy = realSparkApy.value;
           if (realSeamlessApy.status === 'fulfilled') seamlessApy = realSeamlessApy.value;
           if (realMoonwellApy.status === 'fulfilled') moonwellApy = realMoonwellApy.value;
+          if (realMorphoRe7Apy.status === 'fulfilled') morphoRe7Apy = realMorphoRe7Apy.value;
           
-          console.log(`Main menu APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%, Spark ${sparkApy}%, Seamless ${seamlessApy}%, Moonwell ${moonwellApy}%`);
+          console.log(`Main menu APY rates: Aave ${aaveApy}%, Fluid ${fluidApy}%, Compound ${compoundApy}%, Morpho ${morphoApy}%, Spark ${sparkApy}%, Seamless ${seamlessApy}%, Moonwell ${moonwellApy}%, Morpho Re7 ${morphoRe7Apy}%`);
         } catch (error) {
           console.warn("Failed to fetch real-time APY for main menu, using fallback rates:", error);
         }
         
         // Calculate weighted average APY for earnings calculation
-        const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum;
+        const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum + morphoRe7BalanceNum;
         const weightedApy = totalValue > 0 ? (
           (aaveBalanceNum * aaveApy + 
            fluidBalanceNum * fluidApy + 
@@ -112,7 +119,8 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
            morphoBalanceNum * morphoApy + 
            sparkBalanceNum * sparkApy + 
            seamlessBalanceNum * seamlessApy + 
-           moonwellBalanceNum * moonwellApy) / totalValue
+           moonwellBalanceNum * moonwellApy + 
+           morphoRe7BalanceNum * morphoRe7Apy) / totalValue
         ) : 0;
         
         const earnings = calculateRealTimeEarnings(totalDeployed, weightedApy);
@@ -120,6 +128,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         let message = `🐙 *Welcome back ${firstName}!*\n\n`;
         message += `💰 **inkvest savings account:**\n`;
         
+        if (morphoRe7BalanceNum > 0.01) {
+          message += `• $${morphoRe7BalanceNum.toFixed(2)} in Re7 Universal USDC (${morphoRe7Apy}% APY)\n`;
+        }
         if (morphoBalanceNum > 0.01) {
           message += `• $${morphoBalanceNum.toFixed(2)} in Morpho PYTH/USDC (${morphoApy}% APY)\n`;
         }
