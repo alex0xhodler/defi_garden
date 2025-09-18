@@ -157,7 +157,7 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         message += `🦑 **Earning:** ${earnings} automatically\n\n`;
         message += `✅ Interest compounds automatically\n`;
         message += `✅ Withdraw anytime, no penalties or lock-ups\n`;
-        message += `✅ All fees covered (we sponsor costs)\n\n`;
+        message += `✅ inkvest pays for the transaction\n\n`;
         message += `What would you like to do?`;
         
         return message;
@@ -191,7 +191,7 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         let message = `🐙 *Welcome back ${firstName}!*\n\n`;
         message += `💰 **Ready to deploy:** $${walletUsdcNum.toFixed(2)} USDC\n\n`;
         message += `🦑 **Start earning ${apy}% APY** with the best available protocol!\n\n`;
-        message += `✅ All fees covered (we sponsor transaction costs)\n`;
+        message += `✅ inkvest pays for the transaction\n`;
         message += `✅ Interest compounds automatically\n`;
         message += `✅ Withdraw anytime, no penalties or lock-ups\n\n`;
         message += `Ready to start earning?`;
@@ -216,7 +216,7 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         return `🐙 *Welcome back ${firstName}!*\n\n` +
           `⚠️ **Experiencing high load** - Balance checking temporarily limited\n\n` +
           `🦑 **Start earning ${fallbackAPY}% APY** with the best available protocol!\n\n` +
-          `✅ All fees covered (we sponsor transaction costs)\n` +
+          `✅ inkvest pays for the transaction\n` +
           `✅ Interest compounds automatically\n` +
           `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
           `Ready to start earning?`;

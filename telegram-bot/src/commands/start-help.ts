@@ -86,7 +86,7 @@ export const startHandler: CommandHandler = {
               `💰 *Your inkvest deposit address:*\n` +
               `\`${wallet.address}\`\n\n` +
               `Send USDC to this address ↑ (on Base blockchain network) to start earning.\n\n` +
-              `✅ All fees covered (we sponsor transaction costs)\n` +
+              `✅ inkvest pays for the transaction\n` +
               `✅ Funds auto-deposit to highest rates\n` +
               `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
               `I'll start earning interest as soon as funds arrive! 🦑`;
@@ -140,7 +140,7 @@ export const startHandler: CommandHandler = {
                 `💰 *Your inkvest deposit address:*\n` +
                 `\`${newWallet.address}\`\n\n` +
                 `Send USDC to this address ↑ (on Base blockchain network) to start earning.\n\n` +
-                `✅ All fees covered (we sponsor transaction costs)\n` +
+                `✅ inkvest pays for the transaction\n` +
                 `✅ Funds auto-deposit to highest rates\n` +
                 `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
                 `I'll start earning interest as soon as funds arrive! 🦑`;
