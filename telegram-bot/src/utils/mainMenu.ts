@@ -155,9 +155,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         
         message += `\n💸 **Total Value:** $${totalDeployed.toFixed(2)}\n`;
         message += `🦑 **Earning:** ${earnings} automatically\n\n`;
-        message += `✅ Auto-compounding activated\n`;
-        message += `✅ Withdraw anytime, zero lock-ups\n`;
-        message += `✅ Gas-sponsored transactions\n\n`;
+        message += `✅ Interest compounds automatically\n`;
+        message += `✅ Withdraw anytime, no penalties or lock-ups\n`;
+        message += `✅ All fees covered (we sponsor costs)\n\n`;
         message += `What would you like to do?`;
         
         return message;
@@ -191,9 +191,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         let message = `🐙 *Welcome back ${firstName}!*\n\n`;
         message += `💰 **Ready to deploy:** $${walletUsdcNum.toFixed(2)} USDC\n\n`;
         message += `🦑 **Start earning ${apy}% APY** with the best available protocol!\n\n`;
-        message += `✅ Gasless transactions (we sponsor gas)\n`;
-        message += `✅ Auto-compounding activated\n`;
-        message += `✅ Withdraw anytime, zero lock-ups\n\n`;
+        message += `✅ All fees covered (we sponsor transaction costs)\n`;
+        message += `✅ Interest compounds automatically\n`;
+        message += `✅ Withdraw anytime, no penalties or lock-ups\n\n`;
         message += `Ready to start earning?`;
         
         return message;
@@ -216,9 +216,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         return `🐙 *Welcome back ${firstName}!*\n\n` +
           `⚠️ **Experiencing high load** - Balance checking temporarily limited\n\n` +
           `🦑 **Start earning ${fallbackAPY}% APY** with the best available protocol!\n\n` +
-          `✅ Gasless transactions (we sponsor gas)\n` +
-          `✅ Auto-compounding activated\n` +
-          `✅ Withdraw anytime, zero lock-ups\n\n` +
+          `✅ All fees covered (we sponsor transaction costs)\n` +
+          `✅ Interest compounds automatically\n` +
+          `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
           `Ready to start earning?`;
       }
       
