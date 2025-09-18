@@ -254,7 +254,7 @@ const portfolioHandler: CommandHandler = {
       // Quick actions
       const keyboard = new InlineKeyboard()
         .text("🦑 Earn More", "zap_funds")
-        .text("🌾 Harvest", "harvest_yields")
+        .text("💰 Collect Earnings", "harvest_yields")
         .row()
         .text("🚪 Exit Pool", "withdraw")
         .text("🔄 Refresh", "view_portfolio")

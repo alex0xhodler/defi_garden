@@ -64,9 +64,9 @@ export async function notifyYieldUpdate(
     const keyboard = new InlineKeyboard()
       .text("📊 View Portfolio", "view_portfolio")
       .row()
-      .text("🌾 Harvest", "harvest_yields");
+      .text("💰 Collect Earnings", "harvest_yields");
 
-    const message = `🌱 ${firstName}, your garden is growing!\n\n` +
+    const message = `💰 ${firstName}, your account is growing!\n\n` +
       `💰 Total earned: $${totalYield.toFixed(2)}\n` +
       `📈 Today: +$${dailyYield.toFixed(2)}\n\n` +
       `Your money is working hard for you.`;
@@ -122,14 +122,14 @@ export async function notifyHarvestOpportunity(
 
   try {
     const keyboard = new InlineKeyboard()
-      .text("🌾 Harvest Now", "harvest_yields")
+      .text("💰 Collect Now", "harvest_yields")
       .row()
       .text("📊 View Portfolio", "view_portfolio");
 
-    const message = `🌾 ${firstName}, time to harvest!\n\n` +
+    const message = `💰 ${firstName}, time to collect earnings!\n\n` +
       `💰 Pending yield: $${pendingYield.toFixed(2)}\n` +
       `📈 Protocol: ${protocol}\n\n` +
-      `Harvest now to compound your earnings.`;
+      `Collect now to compound your earnings.`;
 
     await notificationBot.api.sendMessage(userId, message, {
       reply_markup: keyboard

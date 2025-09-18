@@ -807,7 +807,7 @@ bot.on("callback_query:data", async (ctx) => {
   } else if (callbackData === "harvest_cancel") {
     ctx.session.tempData = {};
     await ctx.editMessageText(
-      "🌾 Harvest cancelled. Your yields remain in the protocols earning interest.",
+      "💰 Collection cancelled. Your earnings remain in the accounts earning interest.",
       {
         reply_markup: new InlineKeyboard()
           .text("📊 View Portfolio", "view_portfolio")

@@ -11,7 +11,7 @@ export function createMainMenuKeyboard(): InlineKeyboard {
     .text("🦑 Start Earning", "zap_funds")
     .row()
     .text("📊 Portfolio", "view_portfolio")
-    .text("🌾 Harvest", "harvest_yields")
+    .text("💰 Collect Earnings", "harvest_yields")
     .row()
     .text("⚙️ Settings", "open_settings")
     .text("📋 Help", "help");

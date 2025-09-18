@@ -568,8 +568,8 @@ async function calculateMorphoRe7Yields(walletAddress: Address, positions: any[]
 }
 
 const harvestHandler: CommandHandler = {
-  command: "harvest",
-  description: "Claim yields and compound rewards",
+  command: "harvest", 
+  description: "Collect interest earnings and compound",
   handler: async (ctx: BotContext) => {
     try {
       const telegramId = ctx.from?.id?.toString();
@@ -660,9 +660,9 @@ const harvestHandler: CommandHandler = {
       
       if (protocolYields.length === 0) {
         await ctx.reply(
-          `🌾 *No Active Positions*\n\n` +
-          `You don't have any active DeFi positions to harvest from.\n\n` +
-          `Use /zap to start earning yields!`,
+          `💰 *No Active Positions*\n\n` +
+          `You don't have any active positions to collect earnings from.\n\n` +
+          `Use /zap to start earning interest!`,
           {
             parse_mode: "Markdown",
             reply_markup: new InlineKeyboard().text("🦑 Start Earning", "zap_funds")
@@ -714,8 +714,8 @@ const harvestHandler: CommandHandler = {
         return;
       }
 
-      // Show harvestable token rewards
-      let message = `🌾 *Ready to Harvest Token Rewards*\n\n`;
+      // Show collectible token rewards
+      let message = `💰 *Ready to Collect Token Rewards*\n\n`;
       
       if (hasClaimableCompRewards) {
         message += `🏦 **Compound COMP Rewards**: ${compRewardAmount} COMP\n`;
@@ -936,7 +936,7 @@ export async function handleHarvestConfirmation(
         successMessage += `• Yields continue earning in the protocols\n`;
       }
       successMessage += `• Position values updated in your portfolio\n`;
-      successMessage += `• You can harvest again as more yields accrue\n\n`;
+      successMessage += `• You can collect again as more earnings accrue\n\n`;
       
       // Calculate performance metrics
       const totalInvested = protocolYields.reduce((sum: number, p: any) => sum + p.originalDeposit, 0);
@@ -965,12 +965,12 @@ export async function handleHarvestConfirmation(
       if (totalYield > 5.0) {
         setTimeout(async () => {
           await ctx.reply(
-            `💡 **Excellent harvest!** You earned $${totalYield.toFixed(3)} in yields. ` +
-            `Your DeFi farming is working well! Consider adding more capital to maximize the compound effect. 📈`,
+            `💡 **Excellent collection!** You earned $${totalYield.toFixed(3)} in interest. ` +
+            `Your high-yield account is working well! Consider adding more capital to maximize the compound effect. 📈`,
             {
               reply_markup: new InlineKeyboard()
                 .text("🦑 Earn More", "zap_funds")
-                .text("🔄 Check Harvest Again", "harvest_yields")
+                .text("🔄 Check Earnings Again", "harvest_yields")
             }
           );
         }, 2000);
