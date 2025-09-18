@@ -672,9 +672,9 @@ bot.on("callback_query:data", async (ctx) => {
         await editMessageWithRealtimeAPY(ctx, {
           generateMessage: (apy: number, isLoading: boolean) => {
             const baseMessage = `🔍 *Monitoring your inkvest address...*\n\n` +
-              `💰 *Your earning address:*\n\`${wallet.address}\`\n\n` +
-              `No deposits detected yet. Send USDC on Base network to start earning ${apy}% APY!\n\n` +
-              `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`;
+              `💰 *Your deposit address:*\n\`${wallet.address}\`\n\n` +
+              `No deposits detected yet. Transfer USDC (digital dollars) to start earning ${apy}% APY!\n\n` +
+              `⚡ *I'm watching 24/7* - funds auto-deposit instantly when they arrive.`;
             
             return isLoading ? baseMessage + `\n\n⏳ *Getting latest rates...*` : baseMessage;
           },

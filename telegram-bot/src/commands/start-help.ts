@@ -82,14 +82,14 @@ export const startHandler: CommandHandler = {
 
         await sendMessageWithRealtimeAPY(ctx, {
           generateMessage: (apy: number, isLoading: boolean) => {
-            const baseMessage = `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
-              `💰 *Your inkvest address:*\n` +
+            const baseMessage = `✨ *You're all set to earn ${apy}% APY on your deposits!*\n\n` +
+              `💰 *Your inkvest deposit address:*\n` +
               `\`${wallet.address}\`\n\n` +
-              `Send USDC on Base ↑ to start earning.\n\n` +
-              `✅ Gasless transactions (we sponsor gas)\n` +
-              `✅ Auto-deployed to highest yields\n` +
-              `✅ Withdraw anytime, zero lock-ups\n\n` +
-              `I'll auto-deploy as soon as funds arrive! 🦑`;
+              `Transfer USDC (digital dollars) to this address ↑ to start earning.\n\n` +
+              `✅ All fees covered (we sponsor transaction costs)\n` +
+              `✅ Funds auto-deposit to highest rates\n` +
+              `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
+              `I'll start earning interest as soon as funds arrive! 🦑`;
             
             return isLoading ? baseMessage + `\n\n⏳ *Getting latest rates...*` : baseMessage;
           },
@@ -136,14 +136,14 @@ export const startHandler: CommandHandler = {
 
           await sendMessageWithRealtimeAPY(ctx, {
             generateMessage: (apy: number, isLoading: boolean) => {
-              const baseMessage = `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
-                `💰 *Your inkvest address:*\n` +
+              const baseMessage = `✨ *You're all set to earn ${apy}% APY on your deposits!*\n\n` +
+                `💰 *Your inkvest deposit address:*\n` +
                 `\`${newWallet.address}\`\n\n` +
-                `Send USDC on Base ↑ to start earning.\n\n` +
-                `✅ Gasless transactions (we sponsor gas)\n` +
-                `✅ Auto-deployed to highest yields\n` +
-                `✅ Withdraw anytime, zero lock-ups\n\n` +
-                `I'll auto-deploy as soon as funds arrive! 🦑`;
+                `Transfer USDC (digital dollars) to this address ↑ to start earning.\n\n` +
+                `✅ All fees covered (we sponsor transaction costs)\n` +
+                `✅ Funds auto-deposit to highest rates\n` +
+                `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
+                `I'll start earning interest as soon as funds arrive! 🦑`;
               
               return isLoading ? baseMessage + `\n\n⏳ *Getting latest rates...*` : baseMessage;
             },

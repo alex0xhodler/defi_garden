@@ -231,15 +231,15 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
   let message = `🦑 *Welcome back ${firstName}! Earn ${highestAPY}% APY starting today.*\n\n`;
   
   if (walletAddress) {
-    message += `💰 *Your inkvest address:*\n\`${walletAddress}\`\n\n` +
-      `Send USDC on Base ↑ and watch your money grow.\n\n` +
-      `✅ AI finds highest yields automatically\n` +
+    message += `💰 *Your inkvest deposit address:*\n\`${walletAddress}\`\n\n` +
+      `Transfer USDC (digital dollars) ↑ and watch your money grow.\n\n` +
+      `✅ AI finds highest interest rates automatically\n` +
       `✅ Compounds 24/7 while you sleep\n` +
-      `✅ Withdraw anytime, zero lock-ups\n\n`;
+      `✅ Withdraw anytime, no penalties or lock-ups\n\n`;
   } else {
-    message += `✅ AI finds highest yields automatically\n` +
+    message += `✅ AI finds highest interest rates automatically\n` +
       `✅ Compounds 24/7 while you sleep\n` +
-      `✅ Withdraw anytime, zero lock-ups\n\n`;
+      `✅ Withdraw anytime, no penalties or lock-ups\n\n`;
   }
   
   message += `Ready to take action?`;
