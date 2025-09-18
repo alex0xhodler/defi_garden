@@ -73,28 +73,28 @@ export const startHandler: CommandHandler = {
         // Manual balance checking system will handle deposit detection
         console.log(`🔄 User ${userId} ready for manual balance checks`);
         
-        // Get current APY with consistency
-        const { getConsistentAPY } = await import("../utils/consistent-apy");
-        const apy = await getConsistentAPY(userId, 'initial');
-
+        // Use real-time APY with immediate response and updates
+        const { sendMessageWithRealtimeAPY } = await import("../utils/realtime-apy-updater");
+        
         // Check for deposit button - monitoring starts automatically
         const keyboard = new InlineKeyboard()
           .text("🔍 Check for Deposit", "manual_balance_check");
 
-        await ctx.reply(
-          `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
-          `💰 *Your inkvest address:*\n` +
-          `\`${wallet.address}\`\n\n` +
-          `Send USDC on Base ↑ to start earning.\n\n` +
-          `✅ Gasless transactions (we sponsor gas)\n` +
-          `✅ Auto-deployed to highest yields\n` +
-          `✅ Withdraw anytime, zero lock-ups\n\n` +
-          `I'll auto-deploy as soon as funds arrive! 🦑`,
-          {
-            parse_mode: "Markdown",
-            reply_markup: keyboard,
-          }
-        );
+        await sendMessageWithRealtimeAPY(ctx, {
+          generateMessage: (apy: number, isLoading: boolean) => {
+            const baseMessage = `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
+              `💰 *Your inkvest address:*\n` +
+              `\`${wallet.address}\`\n\n` +
+              `Send USDC on Base ↑ to start earning.\n\n` +
+              `✅ Gasless transactions (we sponsor gas)\n` +
+              `✅ Auto-deployed to highest yields\n` +
+              `✅ Withdraw anytime, zero lock-ups\n\n` +
+              `I'll auto-deploy as soon as funds arrive! 🦑`;
+            
+            return isLoading ? baseMessage + `\n\n⏳ *Getting latest rates...*` : baseMessage;
+          },
+          keyboard
+        }, userId);
 
       } else {
         // Existing user - check if they have Coinbase Smart Wallet
@@ -127,28 +127,28 @@ export const startHandler: CommandHandler = {
           // Manual balance checking system will handle deposit detection
           console.log(`🔄 User ${userId} ready for manual balance checks`);
           
-          // Get current APY with consistency
-          const { getConsistentAPY } = await import("../utils/consistent-apy");
-          const apy = await getConsistentAPY(userId, 'initial');
-
+          // Use real-time APY with immediate response and updates
+          const { sendMessageWithRealtimeAPY } = await import("../utils/realtime-apy-updater");
+          
           // Check for deposit button - monitoring starts automatically
           const keyboard = new InlineKeyboard()
             .text("🔍 Check for Deposit", "manual_balance_check");
 
-          await ctx.reply(
-            `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
-            `💰 *Your inkvest address:*\n` +
-            `\`${newWallet.address}\`\n\n` +
-            `Send USDC on Base ↑ to start earning.\n\n` +
-            `✅ Gasless transactions (we sponsor gas)\n` +
-            `✅ Auto-deployed to highest yields\n` +
-            `✅ Withdraw anytime, zero lock-ups\n\n` +
-            `I'll auto-deploy as soon as funds arrive! 🦑`,
-            {
-              parse_mode: "Markdown",
-              reply_markup: keyboard,
-            }
-          );
+          await sendMessageWithRealtimeAPY(ctx, {
+            generateMessage: (apy: number, isLoading: boolean) => {
+              const baseMessage = `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
+                `💰 *Your inkvest address:*\n` +
+                `\`${newWallet.address}\`\n\n` +
+                `Send USDC on Base ↑ to start earning.\n\n` +
+                `✅ Gasless transactions (we sponsor gas)\n` +
+                `✅ Auto-deployed to highest yields\n` +
+                `✅ Withdraw anytime, zero lock-ups\n\n` +
+                `I'll auto-deploy as soon as funds arrive! 🦑`;
+              
+              return isLoading ? baseMessage + `\n\n⏳ *Getting latest rates...*` : baseMessage;
+            },
+            keyboard
+          }, userId);
         } else {
           // Existing user with wallet - check if they have any funds
           ctx.session.walletAddress = wallet.address;

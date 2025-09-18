@@ -6,10 +6,10 @@
 import { apyOrchestrator } from '../services/apy-orchestrator';
 
 /**
- * Get consistent APY for user context
+ * Get consistent APY for user context with risk preference consideration
  * This ensures the same APY is shown throughout a user's journey
  * 
- * @param userId - Optional user ID for session consistency
+ * @param userId - Optional user ID for session consistency and risk settings
  * @param context - User journey context for consistency
  * @returns Promise<number> - APY percentage (e.g., 7.5 for 7.5%)
  */
@@ -18,21 +18,83 @@ export async function getConsistentAPY(
   context?: 'initial' | 'checking_deposits' | 'portfolio' | 'settings'
 ): Promise<number> {
   try {
-    // For initial context, we MUST get fresh data to avoid inconsistency
-    const requireFresh = context === 'initial';
-    
     const response = await apyOrchestrator.getAPY({
       userId,
       journeyState: context,
-      requireFresh, // Force fresh data for initial interactions
-      timeout: requireFresh ? 8000 : 3000 // Longer timeout for fresh data
+      timeout: 3000 // Standard timeout - no blocking
     });
     
-    return response.value;
+    // Get user risk-adjusted APY
+    return await getRiskAdjustedAPY(response.value, userId);
   } catch (error) {
     console.error('❌ getConsistentAPY failed:', error);
-    // Return safe fallback
-    return 7.5;
+    // Return risk-adjusted fallback
+    return await getRiskAdjustedAPY(7.5, userId);
+  }
+}
+
+/**
+ * Get immediate APY (fast response) for real-time UI updates
+ * Uses cached data if available, shows loading indicator if needed
+ */
+export async function getImmediateAPY(userId?: string): Promise<{
+  apy: number;
+  isLoading: boolean;
+  confidence: number;
+}> {
+  try {
+    const response = await apyOrchestrator.getAPY({
+      userId,
+      journeyState: 'initial',
+      timeout: 100 // Very fast timeout for immediate response
+    });
+    
+    const adjustedAPY = await getRiskAdjustedAPY(response.value, userId);
+    
+    return {
+      apy: adjustedAPY,
+      isLoading: response.confidence < 0.8, // Show loading if low confidence
+      confidence: response.confidence
+    };
+  } catch (error) {
+    const fallbackAPY = await getRiskAdjustedAPY(7.5, userId);
+    return {
+      apy: fallbackAPY,
+      isLoading: true, // Always loading if we hit fallback
+      confidence: 0.3
+    };
+  }
+}
+
+/**
+ * Adjust APY based on user risk preference to match auto-investing logic
+ */
+async function getRiskAdjustedAPY(baseAPY: number, userId?: string): Promise<number> {
+  if (!userId) return baseAPY;
+  
+  try {
+    const { getUserSettings } = await import('../lib/database');
+    const settings = getUserSettings(userId);
+    
+    if (!settings) return baseAPY;
+    
+    // Match the auto-investing risk logic
+    const riskLevel = settings.riskLevel || 3; // Default moderate risk
+    
+    // Risk-adjusted APY selection (matching auto-invest behavior)
+    if (riskLevel <= 2) {
+      // Conservative: Show Aave/Compound range (5-7%)
+      return Math.min(baseAPY, 7.0);
+    } else if (riskLevel >= 4) {
+      // Aggressive: Show highest available APY
+      return baseAPY;
+    } else {
+      // Moderate: Show good but not extreme APY (cap at ~9%)
+      return Math.min(baseAPY, 9.0);
+    }
+  } catch (error) {
+    console.warn('⚠️ Could not get risk settings, using base APY:', error);
+    return baseAPY;
   }
 }
 
