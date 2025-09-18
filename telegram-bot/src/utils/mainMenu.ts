@@ -232,7 +232,7 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
   
   if (walletAddress) {
     message += `💰 *Your inkvest deposit address:*\n\`${walletAddress}\`\n\n` +
-      `Transfer USDC (digital dollars) ↑ and watch your money grow.\n\n` +
+      `Send USDC ↑ (on Base blockchain network) and watch your money grow.\n\n` +
       `✅ AI finds highest interest rates automatically\n` +
       `✅ Compounds 24/7 while you sleep\n` +
       `✅ Withdraw anytime, no penalties or lock-ups\n\n`;

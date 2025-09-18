@@ -673,7 +673,7 @@ bot.on("callback_query:data", async (ctx) => {
           generateMessage: (apy: number, isLoading: boolean) => {
             const baseMessage = `🔍 *Monitoring your inkvest address...*\n\n` +
               `💰 *Your deposit address:*\n\`${wallet.address}\`\n\n` +
-              `No deposits detected yet. Transfer USDC (digital dollars) to start earning ${apy}% APY!\n\n` +
+              `No deposits detected yet. Send USDC to start earning ${apy}% APY! (use Base blockchain network)\n\n` +
               `⚡ *I'm watching 24/7* - funds auto-deposit instantly when they arrive.`;
             
             return isLoading ? baseMessage + `\n\n⏳ *Getting latest rates...*` : baseMessage;

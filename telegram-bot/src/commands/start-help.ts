@@ -85,7 +85,7 @@ export const startHandler: CommandHandler = {
             const baseMessage = `✨ *You're all set to earn ${apy}% APY on your deposits!*\n\n` +
               `💰 *Your inkvest deposit address:*\n` +
               `\`${wallet.address}\`\n\n` +
-              `Transfer USDC (digital dollars) to this address ↑ to start earning.\n\n` +
+              `Send USDC to this address ↑ (on Base blockchain network) to start earning.\n\n` +
               `✅ All fees covered (we sponsor transaction costs)\n` +
               `✅ Funds auto-deposit to highest rates\n` +
               `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
@@ -139,7 +139,7 @@ export const startHandler: CommandHandler = {
               const baseMessage = `✨ *You're all set to earn ${apy}% APY on your deposits!*\n\n` +
                 `💰 *Your inkvest deposit address:*\n` +
                 `\`${newWallet.address}\`\n\n` +
-                `Transfer USDC (digital dollars) to this address ↑ to start earning.\n\n` +
+                `Send USDC to this address ↑ (on Base blockchain network) to start earning.\n\n` +
                 `✅ All fees covered (we sponsor transaction costs)\n` +
                 `✅ Funds auto-deposit to highest rates\n` +
                 `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
