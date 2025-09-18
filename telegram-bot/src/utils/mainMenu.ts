@@ -21,8 +21,8 @@ export function createMainMenuKeyboard(): InlineKeyboard {
  * Main menu message text with portfolio check and user state detection
  */
 export async function getMainMenuMessage(firstName: string = "there", walletAddress?: string, userId?: string): Promise<string> {
-  const { getHighestAPY } = await import('../lib/defillama-api');
-  const highestAPY = await getHighestAPY();
+  const { getConsistentAPY } = await import('./consistent-apy');
+  const highestAPY = await getConsistentAPY(userId, 'initial');
   
   // Check user's fund status if userId and wallet provided
   if (userId && walletAddress) {

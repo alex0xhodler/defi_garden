@@ -73,9 +73,9 @@ export const startHandler: CommandHandler = {
         // Manual balance checking system will handle deposit detection
         console.log(`🔄 User ${userId} ready for manual balance checks`);
         
-        // Get current APY
-        const { getCompoundV3APY } = await import("../lib/defillama-api");
-        const apy = await getCompoundV3APY();
+        // Get current APY with consistency
+        const { getConsistentAPY } = await import("../utils/consistent-apy");
+        const apy = await getConsistentAPY(userId, 'initial');
 
         // Check for deposit button - monitoring starts automatically
         const keyboard = new InlineKeyboard()
@@ -127,9 +127,9 @@ export const startHandler: CommandHandler = {
           // Manual balance checking system will handle deposit detection
           console.log(`🔄 User ${userId} ready for manual balance checks`);
           
-          // Get current APY
-          const { getCompoundV3APY } = await import("../lib/defillama-api");
-          const apy = await getCompoundV3APY();
+          // Get current APY with consistency
+          const { getConsistentAPY } = await import("../utils/consistent-apy");
+          const apy = await getConsistentAPY(userId, 'initial');
 
           // Check for deposit button - monitoring starts automatically
           const keyboard = new InlineKeyboard()
@@ -291,9 +291,9 @@ export const helpHandler: CommandHandler = {
     try {
       const firstName = ctx.from?.first_name || "there";
       
-      // Get highest APY for marketing message
-      const { getHighestAPY } = await import("../lib/defillama-api");
-      const highestAPY = await getHighestAPY();
+      // Get highest APY for marketing message with consistency
+      const { getConsistentAPY } = await import("../utils/consistent-apy");
+      const highestAPY = await getConsistentAPY(ctx.session.userId, 'initial');
 
       const keyboard = new InlineKeyboard()
         .text("💰 Start Earning", "deposit")

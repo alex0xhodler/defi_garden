@@ -661,9 +661,9 @@ bot.on("callback_query:data", async (ctx) => {
         }
         
       } else {
-        // No funds yet - improved messaging
-        const { getHighestAPY } = await import("./src/lib/defillama-api");
-        const apy = await getHighestAPY();
+        // No funds yet - use consistent APY for user journey
+        const { getConsistentAPY } = await import("./src/utils/consistent-apy");
+        const apy = await getConsistentAPY(userId, 'checking_deposits');
         
         const keyboard = new InlineKeyboard()
           .text("🔍 Check Again", "manual_balance_check")
