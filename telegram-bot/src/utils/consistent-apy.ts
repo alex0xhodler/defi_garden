@@ -18,10 +18,14 @@ export async function getConsistentAPY(
   context?: 'initial' | 'checking_deposits' | 'portfolio' | 'settings'
 ): Promise<number> {
   try {
+    // For initial context, we MUST get fresh data to avoid inconsistency
+    const requireFresh = context === 'initial';
+    
     const response = await apyOrchestrator.getAPY({
       userId,
       journeyState: context,
-      timeout: 3000 // 3 second timeout for user-facing calls
+      requireFresh, // Force fresh data for initial interactions
+      timeout: requireFresh ? 8000 : 3000 // Longer timeout for fresh data
     });
     
     return response.value;

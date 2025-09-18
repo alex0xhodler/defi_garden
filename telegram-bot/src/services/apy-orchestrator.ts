@@ -156,6 +156,24 @@ class APYOrchestrator {
     const fallback = async (): Promise<APYSourceResult> => {
       console.log('🔄 Circuit breaker triggered - using cached fallback');
       const cachedData = await apyCache.getAPY(request.userId, request.journeyState);
+      
+      // For initial context, if we have no good cached data, try to wait for fresh data
+      if (request.journeyState === 'initial' && cachedData.source === 'fallback') {
+        console.log('⏳ Initial context needs fresh data - trying one more time...');
+        // Give the background refresh a moment to complete
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        const retryCache = await apyCache.getAPY(request.userId, request.journeyState);
+        if (retryCache.source !== 'fallback') {
+          return {
+            value: retryCache.value,
+            source: `retry_${retryCache.source}`,
+            confidence: retryCache.confidence,
+            responseTime: 1000,
+            timestamp: retryCache.timestamp
+          };
+        }
+      }
+      
       return {
         value: cachedData.value,
         source: `fallback_${cachedData.source}`,
