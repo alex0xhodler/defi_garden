@@ -661,25 +661,25 @@ bot.on("callback_query:data", async (ctx) => {
         }
         
       } else {
-        // No funds yet - improved messaging
-        const { getHighestAPY } = await import("./src/lib/defillama-api");
-        const apy = await getHighestAPY();
+        // No funds yet - use real-time APY for consistent user experience
+        const { editMessageWithRealtimeAPY } = await import("./src/utils/realtime-apy-updater");
         
         const keyboard = new InlineKeyboard()
           .text("🔍 Check Again", "manual_balance_check")
           .row()
           .text("📋 How to Send USDC", "deposit_help");
           
-        await ctx.editMessageText(
-          `🔍 *Monitoring your inkvest address...*\n\n` +
-          `💰 *Your earning address:*\n\`${wallet.address}\`\n\n` +
-          `No deposits detected yet. Send USDC on Base network to start earning ${apy}% APY!\n\n` +
-          `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
-          {
-            parse_mode: "Markdown",
-            reply_markup: keyboard,
-          }
-        );
+        await editMessageWithRealtimeAPY(ctx, {
+          generateMessage: (apy: number, isLoading: boolean) => {
+            const baseMessage = `🔍 *Monitoring your inkvest address...*\n\n` +
+              `💰 *Your deposit address:*\n\`${wallet.address}\`\n\n` +
+              `No deposits detected yet. Send USDC to start earning ${apy}% APY! (use Base blockchain network)\n\n` +
+              `⚡ *I'm watching 24/7* - funds auto-deposit instantly when they arrive.`;
+            
+            return isLoading ? baseMessage + `\n\n⏳ *Getting latest rates...*` : baseMessage;
+          },
+          keyboard
+        }, userId);
       }
       
     } catch (error) {
@@ -807,7 +807,7 @@ bot.on("callback_query:data", async (ctx) => {
   } else if (callbackData === "harvest_cancel") {
     ctx.session.tempData = {};
     await ctx.editMessageText(
-      "🌾 Harvest cancelled. Your yields remain in the protocols earning interest.",
+      "💰 Collection cancelled. Your earnings remain in the accounts earning interest.",
       {
         reply_markup: new InlineKeyboard()
           .text("📊 View Portfolio", "view_portfolio")

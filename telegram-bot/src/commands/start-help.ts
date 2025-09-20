@@ -36,7 +36,7 @@ export const startHandler: CommandHandler = {
 
       if (!existingUser) {
         // New user - auto-create everything
-        await ctx.reply(`👋 Hi ${firstName}! I'm inkvest, your personal yield farming companion.\n\nSetting up your inkvest account... 🦑`);
+        await ctx.reply(`👋 Hi ${firstName}! I'm inkvest, your personal high-yield savings assistant.\n\nCreating your secure inkvest account with exportable wallet... 🦑`);
 
         // Register new user
         createUser(
@@ -73,28 +73,28 @@ export const startHandler: CommandHandler = {
         // Manual balance checking system will handle deposit detection
         console.log(`🔄 User ${userId} ready for manual balance checks`);
         
-        // Get current APY
-        const { getCompoundV3APY } = await import("../lib/defillama-api");
-        const apy = await getCompoundV3APY();
-
+        // Use real-time APY with immediate response and updates
+        const { sendMessageWithRealtimeAPY } = await import("../utils/realtime-apy-updater");
+        
         // Check for deposit button - monitoring starts automatically
         const keyboard = new InlineKeyboard()
           .text("🔍 Check for Deposit", "manual_balance_check");
 
-        await ctx.reply(
-          `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
-          `💰 *Your inkvest address:*\n` +
-          `\`${wallet.address}\`\n\n` +
-          `Send USDC on Base ↑ to start earning.\n\n` +
-          `✅ Gasless transactions (we sponsor gas)\n` +
-          `✅ Auto-deployed to highest yields\n` +
-          `✅ Withdraw anytime, zero lock-ups\n\n` +
-          `I'll auto-deploy as soon as funds arrive! 🦑`,
-          {
-            parse_mode: "Markdown",
-            reply_markup: keyboard,
-          }
-        );
+        await sendMessageWithRealtimeAPY(ctx, {
+          generateMessage: (apy: number, isLoading: boolean) => {
+            const baseMessage = `✨ *You're all set to earn ${apy}% APY on your deposits!*\n\n` +
+              `💰 *Your inkvest deposit address:*\n` +
+              `\`${wallet.address}\`\n\n` +
+              `Send USDC to this address ↑ (on Base blockchain network) to start earning.\n\n` +
+              `✅ inkvest pays for the transaction\n` +
+              `✅ Funds auto-deposit to highest rates\n` +
+              `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
+              `I'll start earning interest as soon as funds arrive! 🦑`;
+            
+            return isLoading ? baseMessage + `\n\n⏳ *Getting latest rates...*` : baseMessage;
+          },
+          keyboard
+        }, userId);
 
       } else {
         // Existing user - check if they have Coinbase Smart Wallet
@@ -113,7 +113,7 @@ export const startHandler: CommandHandler = {
 
         if (!wallet) {
           // User exists but no wallet - auto-create Coinbase Smart Wallet
-          await ctx.reply(`👋 Welcome back ${firstName}!\n\nSetting up your inkvest Smart Wallet... 🦑`);
+          await ctx.reply(`👋 Welcome back ${firstName}!\n\nCreating your secure inkvest wallet (fully exportable)... 🦑`);
 
           // Auto-create Coinbase Smart Wallet
           const newWallet = await generateCoinbaseSmartWallet(userId);
@@ -127,28 +127,28 @@ export const startHandler: CommandHandler = {
           // Manual balance checking system will handle deposit detection
           console.log(`🔄 User ${userId} ready for manual balance checks`);
           
-          // Get current APY
-          const { getCompoundV3APY } = await import("../lib/defillama-api");
-          const apy = await getCompoundV3APY();
-
+          // Use real-time APY with immediate response and updates
+          const { sendMessageWithRealtimeAPY } = await import("../utils/realtime-apy-updater");
+          
           // Check for deposit button - monitoring starts automatically
           const keyboard = new InlineKeyboard()
             .text("🔍 Check for Deposit", "manual_balance_check");
 
-          await ctx.reply(
-            `✨ *You're all set to earn ${apy}% APY on USDC!*\n\n` +
-            `💰 *Your inkvest address:*\n` +
-            `\`${newWallet.address}\`\n\n` +
-            `Send USDC on Base ↑ to start earning.\n\n` +
-            `✅ Gasless transactions (we sponsor gas)\n` +
-            `✅ Auto-deployed to highest yields\n` +
-            `✅ Withdraw anytime, zero lock-ups\n\n` +
-            `I'll auto-deploy as soon as funds arrive! 🦑`,
-            {
-              parse_mode: "Markdown",
-              reply_markup: keyboard,
-            }
-          );
+          await sendMessageWithRealtimeAPY(ctx, {
+            generateMessage: (apy: number, isLoading: boolean) => {
+              const baseMessage = `✨ *You're all set to earn ${apy}% APY on your deposits!*\n\n` +
+                `💰 *Your inkvest deposit address:*\n` +
+                `\`${newWallet.address}\`\n\n` +
+                `Send USDC to this address ↑ (on Base blockchain network) to start earning.\n\n` +
+                `✅ inkvest pays for the transaction\n` +
+                `✅ Funds auto-deposit to highest rates\n` +
+                `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
+                `I'll start earning interest as soon as funds arrive! 🦑`;
+              
+              return isLoading ? baseMessage + `\n\n⏳ *Getting latest rates...*` : baseMessage;
+            },
+            keyboard
+          }, userId);
         } else {
           // Existing user with wallet - check if they have any funds
           ctx.session.walletAddress = wallet.address;
@@ -291,9 +291,9 @@ export const helpHandler: CommandHandler = {
     try {
       const firstName = ctx.from?.first_name || "there";
       
-      // Get highest APY for marketing message
-      const { getHighestAPY } = await import("../lib/defillama-api");
-      const highestAPY = await getHighestAPY();
+      // Get highest APY for marketing message with consistency
+      const { getConsistentAPY } = await import("../utils/consistent-apy");
+      const highestAPY = await getConsistentAPY(ctx.session.userId, 'initial');
 
       const keyboard = new InlineKeyboard()
         .text("💰 Start Earning", "deposit")
@@ -304,19 +304,19 @@ export const helpHandler: CommandHandler = {
 
       await ctx.reply(
         `🦑 *How inkvest Works*\n\n` +
-          `Hi ${firstName}! I'm your personal yield farming assistant.\n\n` +
+          `Hi ${firstName}! I'm your personal high-yield savings assistant.\n\n` +
           `🐙 *What I Do*\n` +
-          `• Find the best DeFi yields (~${highestAPY}% APY)\n` +
-          `• Auto-deploy your funds safely\n` +
-          `• Monitor and compound earnings\n\n` +
-          `🛡️ *Safety First*\n` +
-          `• Only use vetted protocols ($10M+ TVL)\n` +
-          `• You keep full control of funds\n` +
-          `• Base network = ultra-low fees\n\n` +
+          `• Find the best interest rates (~${highestAPY}% APY)\n` +
+          `• Auto-deposit your funds safely\n` +
+          `• Monitor and compound your earnings\n\n` +
+          `🛡️ *Safety & Control*\n` +
+          `• Only use established platforms ($10M+ deposits)\n` +
+          `• You own your wallet + can export anytime\n` +
+          `• Ultra-low fees on Base network\n\n` +
           `💰 *Getting Started*\n` +
           `1. Send USDC to your deposit address\n` +
           `2. I'll notify when funds arrive\n` +
-          `3. Auto-deploy to best opportunities\n` +
+          `3. Auto-deposit to best rates\n` +
           `4. Watch your money grow! 🌱`,
         { 
           parse_mode: "Markdown",

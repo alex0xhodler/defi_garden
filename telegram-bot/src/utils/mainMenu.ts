@@ -11,7 +11,7 @@ export function createMainMenuKeyboard(): InlineKeyboard {
     .text("🦑 Start Earning", "zap_funds")
     .row()
     .text("📊 Portfolio", "view_portfolio")
-    .text("🌾 Harvest", "harvest_yields")
+    .text("💰 Collect Earnings", "harvest_yields")
     .row()
     .text("⚙️ Settings", "open_settings")
     .text("📋 Help", "help");
@@ -21,8 +21,8 @@ export function createMainMenuKeyboard(): InlineKeyboard {
  * Main menu message text with portfolio check and user state detection
  */
 export async function getMainMenuMessage(firstName: string = "there", walletAddress?: string, userId?: string): Promise<string> {
-  const { getHighestAPY } = await import('../lib/defillama-api');
-  const highestAPY = await getHighestAPY();
+  const { getConsistentAPY } = await import('./consistent-apy');
+  const highestAPY = await getConsistentAPY(userId, 'initial');
   
   // Check user's fund status if userId and wallet provided
   if (userId && walletAddress) {
@@ -155,9 +155,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         
         message += `\n💸 **Total Value:** $${totalDeployed.toFixed(2)}\n`;
         message += `🦑 **Earning:** ${earnings} automatically\n\n`;
-        message += `✅ Auto-compounding activated\n`;
-        message += `✅ Withdraw anytime, zero lock-ups\n`;
-        message += `✅ Gas-sponsored transactions\n\n`;
+        message += `✅ Interest compounds automatically\n`;
+        message += `✅ Withdraw anytime, no penalties or lock-ups\n`;
+        message += `✅ inkvest pays for the transaction\n\n`;
         message += `What would you like to do?`;
         
         return message;
@@ -191,9 +191,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         let message = `🐙 *Welcome back ${firstName}!*\n\n`;
         message += `💰 **Ready to deploy:** $${walletUsdcNum.toFixed(2)} USDC\n\n`;
         message += `🦑 **Start earning ${apy}% APY** with the best available protocol!\n\n`;
-        message += `✅ Gasless transactions (we sponsor gas)\n`;
-        message += `✅ Auto-compounding activated\n`;
-        message += `✅ Withdraw anytime, zero lock-ups\n\n`;
+        message += `✅ inkvest pays for the transaction\n`;
+        message += `✅ Interest compounds automatically\n`;
+        message += `✅ Withdraw anytime, no penalties or lock-ups\n\n`;
         message += `Ready to start earning?`;
         
         return message;
@@ -216,9 +216,9 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         return `🐙 *Welcome back ${firstName}!*\n\n` +
           `⚠️ **Experiencing high load** - Balance checking temporarily limited\n\n` +
           `🦑 **Start earning ${fallbackAPY}% APY** with the best available protocol!\n\n` +
-          `✅ Gasless transactions (we sponsor gas)\n` +
-          `✅ Auto-compounding activated\n` +
-          `✅ Withdraw anytime, zero lock-ups\n\n` +
+          `✅ inkvest pays for the transaction\n` +
+          `✅ Interest compounds automatically\n` +
+          `✅ Withdraw anytime, no penalties or lock-ups\n\n` +
           `Ready to start earning?`;
       }
       
@@ -231,15 +231,15 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
   let message = `🦑 *Welcome back ${firstName}! Earn ${highestAPY}% APY starting today.*\n\n`;
   
   if (walletAddress) {
-    message += `💰 *Your inkvest address:*\n\`${walletAddress}\`\n\n` +
-      `Send USDC on Base ↑ and watch your money grow.\n\n` +
-      `✅ AI finds highest yields automatically\n` +
+    message += `💰 *Your inkvest deposit address:*\n\`${walletAddress}\`\n\n` +
+      `Send USDC ↑ (on Base blockchain network) and watch your money grow.\n\n` +
+      `✅ AI finds highest interest rates automatically\n` +
       `✅ Compounds 24/7 while you sleep\n` +
-      `✅ Withdraw anytime, zero lock-ups\n\n`;
+      `✅ Withdraw anytime, no penalties or lock-ups\n\n`;
   } else {
-    message += `✅ AI finds highest yields automatically\n` +
+    message += `✅ AI finds highest interest rates automatically\n` +
       `✅ Compounds 24/7 while you sleep\n` +
-      `✅ Withdraw anytime, zero lock-ups\n\n`;
+      `✅ Withdraw anytime, no penalties or lock-ups\n\n`;
   }
   
   message += `Ready to take action?`;
