@@ -302,18 +302,20 @@ export function stopDepositMonitoring(userId: string): void {
 
 export function getUsersForBalanceMonitoring(): UserRow[] {
   const currentTime = Date.now();
+  const fiveMinutesAgo = currentTime - (5 * 60 * 1000); // 5 minutes in milliseconds
+  
   const stmt = db.prepare(`
     SELECT * FROM ${DB_TABLES.USERS} 
     WHERE (
-      -- New users waiting for first deposit
-      (onboardingCompleted IS NULL AND lastBalanceCheck IS NOT NULL)
+      -- New users waiting for first deposit (only monitor for 5 minutes after lastBalanceCheck)
+      (onboardingCompleted IS NULL AND lastBalanceCheck IS NOT NULL AND lastBalanceCheck > ?)
       OR 
       -- Users actively expecting deposit (within time window)
       (expectingDepositUntil IS NOT NULL AND expectingDepositUntil > ?)
     )
   `);
 
-  return stmt.all(currentTime) as UserRow[];
+  return stmt.all(fiveMinutesAgo, currentTime) as UserRow[];
 }
 
 // Wallet operations
