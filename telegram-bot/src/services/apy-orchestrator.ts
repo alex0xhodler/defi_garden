@@ -243,9 +243,9 @@ class APYOrchestrator {
       } catch (error) {
         console.warn('⚠️ Background APY refresh failed:', error);
       }
-    }, 60000); // Every minute
+    }, 300000); // Every 5 minutes
 
-    console.log('🔄 Background refresh started (60s interval)');
+    console.log('🔄 Background refresh started (5min interval)');
   }
 
   /**
