@@ -1070,7 +1070,7 @@ async function startEventMonitoringService() {
       if (!pollInterval) {
         await checkAndManageConnection();
       }
-    }, 60 * 1000);
+    }, 10 * 1000);
     
     console.log("✅ Event-based monitoring service started");
     console.log("📡 Efficient monitoring - zero resources when no wallets");
