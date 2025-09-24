@@ -172,17 +172,17 @@ const zapHandler: CommandHandler = {
 
       // Check if user wants automation or manual selection
       const keyboard = new InlineKeyboard()
-        .text("🐙 inkvest Auto-Managed", "zap_auto_deploy")
+        .text("🐙 Auto managed by inkvest", "zap_auto_deploy")
         .row()
-        .text("🎯 Manual Management", "zap_choose_protocol");
+        .text("🎯 Manual management", "zap_choose_protocol");
 
       const firstName = ctx.from?.first_name || "there";
 
       await ctx.reply(
         `🚀 *Ready to start earning, ${firstName}?*\n\n` +
         `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
-        `🐙 **inkvest Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
-        `🎯 **Manual Management**: You choose the protocol\n\n` +
+        `🐙 1% AUM fee at deposit, always earn maximum yield, no performance fees\n` +
+        `🎯 You choose the protocol with manual management\n\n` +
         `What sounds good?`,
         {
           parse_mode: "Markdown",
@@ -722,7 +722,7 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
     const safetyIcon = riskIcon(riskScore);
 
     await ctx.reply(
-      `🐙 **inkvest Auto-Managed Selected Best Pool**\n\n` +
+      `🐙 **Auto managed by inkvest Selected Best Pool**\n\n` +
       `${safetyIcon} **${bestPool.project}** - Highest APY Available\n` +
       `• **APY**: **${bestPool.apy}%** (${bestPool.apyBase}% base + ${bestPool.apyReward}% rewards)\n` +
       `• **TVL**: $${(bestPool.tvlUsd / 1_000_000).toFixed(1)}M\n` +
