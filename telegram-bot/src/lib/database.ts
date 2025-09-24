@@ -672,6 +672,285 @@ export function getAllProtocolRates(): {
   return stmt.all() as any[];
 }
 
+// =============================================================================
+// INDEX TOKENS OPERATIONS
+// =============================================================================
+
+// Define types for index database rows
+type IndexTokenRow = {
+  tokenId: string;
+  symbol: string;
+  name: string;
+  category: string;
+  contractAddress: string;
+  chain: string;
+  description: string | null;
+  riskLevel: number;
+  isActive: number;
+  createdAt: number;
+  lastUpdated: number;
+};
+
+type IndexPositionRow = {
+  id: string;
+  userId: string;
+  indexTokenId: string;
+  tokensOwned: number;
+  averageBuyPrice: number;
+  totalInvested: number;
+  currentValue: number;
+  firstPurchaseAt: number;
+  lastUpdatedAt: number;
+};
+
+type IndexTransactionRow = {
+  txHash: string;
+  userId: string;
+  indexTokenId: string;
+  operationType: string;
+  usdcAmount: number;
+  tokensAmount: number;
+  pricePerToken: number;
+  gasUsed: string | null;
+  status: string;
+  timestamp: number;
+};
+
+type IndexCompositionRow = {
+  id: string;
+  indexTokenId: string;
+  underlyingToken: string;
+  underlyingSymbol: string;
+  weightPercentage: number;
+  lastUpdated: number;
+};
+
+// Index token operations
+export function getIndexTokensByCategory(category: string): IndexTokenRow[] {
+  const stmt = db.prepare(`
+    SELECT * FROM index_tokens 
+    WHERE category = ? AND isActive = 1
+    ORDER BY riskLevel ASC, name ASC
+  `);
+  
+  return stmt.all(category) as IndexTokenRow[];
+}
+
+export function getIndexTokenById(tokenId: string): IndexTokenRow | null {
+  const stmt = db.prepare(`
+    SELECT * FROM index_tokens WHERE tokenId = ? AND isActive = 1
+  `);
+  
+  return stmt.get(tokenId) as IndexTokenRow | null;
+}
+
+export function getAllActiveIndexTokens(): IndexTokenRow[] {
+  const stmt = db.prepare(`
+    SELECT * FROM index_tokens 
+    WHERE isActive = 1
+    ORDER BY category ASC, riskLevel ASC, name ASC
+  `);
+  
+  return stmt.all() as IndexTokenRow[];
+}
+
+export function getIndexComposition(tokenId: string): IndexCompositionRow[] {
+  const stmt = db.prepare(`
+    SELECT * FROM index_compositions 
+    WHERE indexTokenId = ?
+    ORDER BY weightPercentage DESC
+  `);
+  
+  return stmt.all(tokenId) as IndexCompositionRow[];
+}
+
+// Index position operations
+export function saveIndexPosition(position: {
+  id: string;
+  userId: string;
+  indexTokenId: string;
+  tokensOwned: number;
+  averageBuyPrice: number;
+  totalInvested: number;
+  currentValue: number;
+  firstPurchaseAt?: number;
+}): void {
+  const now = Date.now();
+  const firstPurchase = position.firstPurchaseAt || now;
+  
+  const stmt = db.prepare(`
+    INSERT OR REPLACE INTO index_positions (
+      id, userId, indexTokenId, tokensOwned, averageBuyPrice,
+      totalInvested, currentValue, firstPurchaseAt, lastUpdatedAt
+    )
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
+  
+  stmt.run(
+    position.id,
+    position.userId,
+    position.indexTokenId,
+    position.tokensOwned,
+    position.averageBuyPrice,
+    position.totalInvested,
+    position.currentValue,
+    firstPurchase,
+    now
+  );
+}
+
+export function getIndexPositionsByUserId(userId: string): IndexPositionRow[] {
+  const stmt = db.prepare(`
+    SELECT ip.*, it.symbol, it.name, it.contractAddress, it.category, it.riskLevel
+    FROM index_positions ip
+    JOIN index_tokens it ON ip.indexTokenId = it.tokenId
+    WHERE ip.userId = ? AND ip.tokensOwned > 0
+    ORDER BY ip.currentValue DESC
+  `);
+  
+  return stmt.all(userId) as any[];
+}
+
+export function getIndexPositionByUserAndToken(
+  userId: string, 
+  indexTokenId: string
+): IndexPositionRow | null {
+  const stmt = db.prepare(`
+    SELECT * FROM index_positions 
+    WHERE userId = ? AND indexTokenId = ?
+  `);
+  
+  return stmt.get(userId, indexTokenId) as IndexPositionRow | null;
+}
+
+export function updateIndexPositionValue(
+  positionId: string,
+  tokensOwned: number,
+  currentValue: number,
+  averageBuyPrice?: number
+): void {
+  const now = Date.now();
+  
+  if (averageBuyPrice !== undefined) {
+    // Update with new average buy price (for additional purchases)
+    const stmt = db.prepare(`
+      UPDATE index_positions 
+      SET tokensOwned = ?, currentValue = ?, averageBuyPrice = ?, lastUpdatedAt = ?
+      WHERE id = ?
+    `);
+    stmt.run(tokensOwned, currentValue, averageBuyPrice, now, positionId);
+  } else {
+    // Update only current value (for price changes)
+    const stmt = db.prepare(`
+      UPDATE index_positions 
+      SET tokensOwned = ?, currentValue = ?, lastUpdatedAt = ?
+      WHERE id = ?
+    `);
+    stmt.run(tokensOwned, currentValue, now, positionId);
+  }
+}
+
+export function deleteIndexPosition(positionId: string): void {
+  const stmt = db.prepare(`
+    DELETE FROM index_positions WHERE id = ?
+  `);
+  
+  stmt.run(positionId);
+}
+
+// Index transaction operations
+export function saveIndexTransaction(
+  txHash: string,
+  userId: string,
+  indexTokenId: string,
+  operationType: 'buy' | 'sell',
+  usdcAmount: number,
+  tokensAmount: number,
+  pricePerToken: number,
+  status: 'success' | 'failed' | 'pending',
+  gasUsed?: string
+): void {
+  const stmt = db.prepare(`
+    INSERT OR REPLACE INTO index_transactions (
+      txHash, userId, indexTokenId, operationType, usdcAmount,
+      tokensAmount, pricePerToken, gasUsed, status, timestamp
+    )
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
+  
+  stmt.run(
+    txHash,
+    userId,
+    indexTokenId,
+    operationType,
+    usdcAmount,
+    tokensAmount,
+    pricePerToken,
+    gasUsed,
+    status,
+    Date.now()
+  );
+}
+
+export function getIndexTransactionsByUserId(
+  userId: string,
+  limit = 10
+): IndexTransactionRow[] {
+  const stmt = db.prepare(`
+    SELECT it.*, idx.symbol, idx.name
+    FROM index_transactions it
+    JOIN index_tokens idx ON it.indexTokenId = idx.tokenId
+    WHERE it.userId = ? 
+    ORDER BY it.timestamp DESC 
+    LIMIT ?
+  `);
+  
+  return stmt.all(userId, limit) as any[];
+}
+
+export function getIndexPortfolioStats(userId: string): {
+  totalValue: number;
+  totalInvested: number;
+  totalPnL: number;
+  positionCount: number;
+} {
+  const stmt = db.prepare(`
+    SELECT 
+      SUM(currentValue) as totalValue,
+      SUM(totalInvested) as totalInvested,
+      SUM(currentValue - totalInvested) as totalPnL,
+      COUNT(*) as positionCount
+    FROM index_positions
+    WHERE userId = ? AND tokensOwned > 0
+  `);
+  
+  const result = stmt.get(userId) as any;
+  
+  return {
+    totalValue: result.totalValue || 0,
+    totalInvested: result.totalInvested || 0,
+    totalPnL: result.totalPnL || 0,
+    positionCount: result.positionCount || 0
+  };
+}
+
+// Run migration to add index tables
+export function runIndexTablesMigration(): void {
+  try {
+    // Read and execute the migration SQL
+    const fs = require('fs');
+    const path = require('path');
+    const migrationPath = path.join(__dirname, '../../migrations/add-index-tables.sql');
+    const migrationSQL = fs.readFileSync(migrationPath, 'utf8');
+    
+    db.exec(migrationSQL);
+    console.log("✅ Index tables migration completed successfully");
+  } catch (error) {
+    console.error("❌ Error running index tables migration:", error);
+    throw error;
+  }
+}
+
 // Close database connection
 export function closeDatabase(): void {
   db.close();
