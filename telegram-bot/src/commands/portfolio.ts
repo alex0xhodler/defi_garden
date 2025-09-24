@@ -262,8 +262,7 @@ const portfolioHandler: CommandHandler = {
         .row()
         .text("💰 Collect Earnings", "harvest_yields")
         .row()
-        .text("🚚 Exit Pool", "withdraw")
-        .text("💰 Check Balance", "check_balance")
+        .text("💵 Withdraw Investments", "withdraw")
         .row()
         .text("🔙 Back to Main", "main_menu");
 
@@ -407,13 +406,13 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     message += `• **Contract**: \`${BASE_TOKENS.aUSDC.slice(0, 8)}...\`\n\n`;
     
     message += `**⚡ Available Actions**\n`;
-    message += `• **Exit Pool**: Get all funds back to wallet\n`;
+    message += `• **Withdraw Investments**: Get all funds back to wallet\n`;
     message += `• **Add More**: Zap additional USDC to pool\n\n`;
 
     const keyboard = new InlineKeyboard()
       .text("🦑 Earn More", "zap_funds")
       .row()
-      .text("🚚 Exit Pool", "withdraw")
+      .text("💵 Withdraw Investments", "withdraw")
       .row()
       .text("🔙 Back to Portfolio", "view_portfolio")
       .text("🔄 Refresh Data", "portfolio_details");
