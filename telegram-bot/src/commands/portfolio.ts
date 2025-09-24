@@ -210,7 +210,8 @@ const portfolioHandler: CommandHandler = {
         message += `You have $${usdcBalanceNum.toFixed(2)} USDC ready to invest. Your money will start earning immediately with zero fees and auto-compounding!\n\n`;
       } else {
         message += `🦑 **Grow your earnings faster!**\n`;
-        message += `Add more USDC and watch your daily earnings compound automatically. No fees, no lock-ups, withdraw anytime.\n\n`;
+        message += `Add more USDC and watch your daily earnings compound automatically.\n`;
+        message += `No fees, no lock-ups, withdraw anytime.\n\n`;
       }
       // Always show deposit address since users need it to add more funds
       message += `Send USDC to your address:\n\`${wallet.address}\`\n*Network: Base \u2022 Minimum: $1 USDC*\n\n`;
