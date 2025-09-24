@@ -191,11 +191,11 @@ const portfolioHandler: CommandHandler = {
         const dailyFromThis = yearlyFromThis / 365;
         
         if (monthlyEarnings >= 0.01) {
-          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY, earning **~$${monthlyFromThis.toFixed(2)}** monthly and working for you 24/7!\n\n`;
+          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY,\nearning **~$${monthlyFromThis.toFixed(2)}** monthly with auto-compounding!\n\n`;
         } else if (dailyFromThis >= 0.001) {
-          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY, earning **~$${dailyFromThis.toFixed(3)}** daily and working for you 24/7!\n\n`;
+          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY,\nearning **~$${dailyFromThis.toFixed(3)}** daily with auto-compounding!\n\n`;
         } else {
-          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY, earning **~$${yearlyFromThis.toFixed(2)}** yearly and working for you 24/7!\n\n`;
+          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY,\nearning **~$${yearlyFromThis.toFixed(2)}** yearly with auto-compounding!\n\n`;
         }
       }
 
