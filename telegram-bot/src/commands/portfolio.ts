@@ -206,11 +206,11 @@ const portfolioHandler: CommandHandler = {
 
       // Deposit section with clear call to action and address
       message += `💵 **Want to invest more?**\n`;
-      if (usdcBalanceNum > 0.01) {
+      if (usdcBalanceNum >= 1.0) {
         message += `You have $${usdcBalanceNum.toFixed(2)} USDC ready to invest.\n\n`;
-      } else {
-        message += `Send USDC to your address:\n\`${wallet.address}\`\n*Network: Base \u2022 Any amount*\n\n`;
       }
+      // Always show deposit address since users need it to add more funds
+      message += `Send USDC to your address:\n\`${wallet.address}\`\n*Network: Base \u2022 Minimum: $1 USDC*\n\n`;
 
       // Quick actions - prioritized layout with single-button rows for main actions
       const keyboard = new InlineKeyboard()
