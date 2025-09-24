@@ -9,6 +9,7 @@ import {
 import { getWallet, getAaveBalance, getFluidBalance, getCompoundBalance, getTokenBalance } from "../lib/token-wallet";
 import { Address } from "viem";
 import { BASE_TOKENS } from "../utils/constants";
+import { riskIcon } from "../utils/risk-icons";
 
 const portfolioHandler: CommandHandler = {
   command: "portfolio",
@@ -171,6 +172,10 @@ const portfolioHandler: CommandHandler = {
       message += `💰 **Total Portfolio Value**: $${totalValue.toFixed(2)}\n`;
       message += `💳 **Wallet USDC**: $${usdcBalanceNum.toFixed(2)}\n`;
       message += `🏦 **Total Deposited**: $${totalValue.toFixed(2)}\n\n`;
+      
+      // Add deposit address for easy access
+      message += `💰 **Your Deposit Address**:\n\`${wallet.address}\`\n`;
+      message += `*Network:* Base • *Minimum:* Any amount\n\n`;
 
       // Active positions (sorted by APY - highest first)
       if (morphoBalanceNum > 0) {
@@ -353,7 +358,9 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
       message += `• **Chain**: Base Network\n`;
       message += `• **Current APY**: ${morphoApy}%\n`;
       message += `• **Status**: ✅ Active & Auto-Compounding\n`;
-      message += `• **Risk Level**: 🟡 Medium (5/10) - Higher yield strategy\n\n`;
+      const morphoRiskScore = 5; // Morpho is medium risk
+      const riskEmoji = riskIcon(morphoRiskScore);
+      message += `• **Risk Level**: ${riskEmoji} Medium (${morphoRiskScore}/10) - Higher yield strategy\n\n`;
     }
     
     if (compoundBalanceNum > 0) {

@@ -13,6 +13,7 @@ import {
 } from "../lib/database";
 import { isValidAmount } from "../utils/validators";
 import { Address } from "viem";
+import { riskIcon, riskLabel } from "../utils/risk-icons";
 
 /**
  * Get real-time yield opportunities for USDC lending on Base
@@ -297,7 +298,7 @@ export async function handlePoolSelection(ctx: BotContext): Promise<void> {
     
     for (const pool of suitablePools) { // Show all qualifying protocols
       const riskScore = calculateRiskScore(pool);
-      const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
+      const safetyIcon = riskIcon(riskScore);
       
       message += `${safetyIcon} **${pool.project}**\n`;
       message += `• APY: **${pool.apy}%** (${pool.apyBase}% base + ${pool.apyReward}% rewards)\n`;
@@ -748,7 +749,7 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
 
     // Show the selected pool and ask for amount
     const riskScore = calculateRiskScore(bestPool);
-    const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
+    const safetyIcon = riskIcon(riskScore);
 
     await ctx.reply(
       `🐙 **inkvest Auto-Managed Selected Best Pool**\n\n` +
@@ -756,7 +757,7 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
       `• **APY**: **${bestPool.apy}%** (${bestPool.apyBase}% base + ${bestPool.apyReward}% rewards)\n` +
       `• **TVL**: $${(bestPool.tvlUsd / 1_000_000).toFixed(1)}M\n` +
       `• **Risk Score**: ${riskScore}/10\n` +
-      `• **Safety**: ${riskScore <= 3 ? "Very Safe" : riskScore <= 6 ? "Moderate" : "Higher Risk"}\n\n` +
+      `• **Safety**: ${riskLabel(riskScore)} Risk\n\n` +
       `💰 **How much USDC would you like to invest?**\n\n` +
       `Enter the amount in USDC (e.g., "10", "25.5"):`,
       { parse_mode: "Markdown" }
