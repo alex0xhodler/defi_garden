@@ -13,6 +13,7 @@ import {
 } from "../lib/database";
 import { isValidAmount } from "../utils/validators";
 import { Address } from "viem";
+import { riskIcon, riskLabel } from "../utils/risk-icons";
 
 /**
  * Get real-time yield opportunities for USDC lending on Base
@@ -221,15 +222,15 @@ const earnHandler: CommandHandler = {
 
       // Simplified earn options
       const keyboard = new InlineKeyboard()
-        .text("🐙 inkvest Auto-Managed", "zap_auto_deploy")
+        .text("🐙 Auto managed by inkvest", "zap_auto_deploy")
         .row()
-        .text("🎯 Manual Management", "zap_choose_protocol");
+        .text("🎯 Manual management", "zap_choose_protocol");
 
       await ctx.reply(
         `🦑 *Ready to start earning, ${firstName}?*\n\n` +
         `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
-        `🐙 **inkvest Auto-Managed**: Always earn maximum yield, no performance fees, 1% AUM fee at deposit\n` +
-        `🎯 **Manual Management**: You choose the protocol\n\n` +
+        `🐙 1% AUM fee at deposit, always earn maximum yield, no performance fees\n` +
+        `🎯 You choose the protocol with manual management\n\n` +
         `What sounds good?`,
         {
           parse_mode: "Markdown",
@@ -297,7 +298,7 @@ export async function handlePoolSelection(ctx: BotContext): Promise<void> {
     
     for (const pool of suitablePools) { // Show all qualifying protocols
       const riskScore = calculateRiskScore(pool);
-      const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
+      const safetyIcon = riskIcon(riskScore);
       
       message += `${safetyIcon} **${pool.project}**\n`;
       message += `• APY: **${pool.apy}%** (${pool.apyBase}% base + ${pool.apyReward}% rewards)\n`;
@@ -748,15 +749,15 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
 
     // Show the selected pool and ask for amount
     const riskScore = calculateRiskScore(bestPool);
-    const safetyIcon = riskScore <= 3 ? "🛡️" : riskScore <= 6 ? "⚠️" : "🚨";
+    const safetyIcon = riskIcon(riskScore);
 
     await ctx.reply(
-      `🐙 **inkvest Auto-Managed Selected Best Pool**\n\n` +
+      `🐙 **Auto managed by inkvest Selected Best Pool**\n\n` +
       `${safetyIcon} **${bestPool.project}** - Highest APY Available\n` +
       `• **APY**: **${bestPool.apy}%** (${bestPool.apyBase}% base + ${bestPool.apyReward}% rewards)\n` +
       `• **TVL**: $${(bestPool.tvlUsd / 1_000_000).toFixed(1)}M\n` +
       `• **Risk Score**: ${riskScore}/10\n` +
-      `• **Safety**: ${riskScore <= 3 ? "Very Safe" : riskScore <= 6 ? "Moderate" : "Higher Risk"}\n\n` +
+      `• **Safety**: ${riskLabel(riskScore)} Risk\n\n` +
       `💰 **How much USDC would you like to invest?**\n\n` +
       `Enter the amount in USDC (e.g., "10", "25.5"):`,
       { parse_mode: "Markdown" }

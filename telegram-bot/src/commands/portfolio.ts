@@ -9,6 +9,7 @@ import {
 import { getWallet, getAaveBalance, getFluidBalance, getCompoundBalance, getTokenBalance } from "../lib/token-wallet";
 import { Address } from "viem";
 import { BASE_TOKENS } from "../utils/constants";
+import { riskIcon } from "../utils/risk-icons";
 
 const portfolioHandler: CommandHandler = {
   command: "portfolio",
@@ -165,103 +166,74 @@ const portfolioHandler: CommandHandler = {
       }
       const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum + morphoRe7BalanceNum;
       
-      let message = `📊 **Your DeFi Portfolio**\n\n`;
+      // Calculate total monthly earnings projection
+      const positions = [];
+      if (morphoBalanceNum > 0) positions.push({ balance: morphoBalanceNum, apy: morphoApy, name: 'Morpho PYTH/USDC' });
+      if (morphoRe7BalanceNum > 0) positions.push({ balance: morphoRe7BalanceNum, apy: morphoRe7Apy, name: 'Re7 Universal USDC' });
+      if (sparkBalanceNum > 0) positions.push({ balance: sparkBalanceNum, apy: sparkApy, name: 'Spark USDC' });
+      if (seamlessBalanceNum > 0) positions.push({ balance: seamlessBalanceNum, apy: seamlessApy, name: 'Seamless USDC' });
+      if (moonwellBalanceNum > 0) positions.push({ balance: moonwellBalanceNum, apy: moonwellApy, name: 'Moonwell USDC' });
+      if (compoundBalanceNum > 0) positions.push({ balance: compoundBalanceNum, apy: compoundApy, name: 'Compound V3' });
+      if (fluidBalanceNum > 0) positions.push({ balance: fluidBalanceNum, apy: fluidApy, name: 'Fluid Finance' });
+      if (aaveBalanceNum > 0) positions.push({ balance: aaveBalanceNum, apy: aaveApy, name: 'Aave V3' });
       
-      // Real-time balances
-      message += `💰 **Total Portfolio Value**: $${totalValue.toFixed(2)}\n`;
-      message += `💳 **Wallet USDC**: $${usdcBalanceNum.toFixed(2)}\n`;
-      message += `🏦 **Total Deposited**: $${totalValue.toFixed(2)}\n\n`;
-
-      // Active positions (sorted by APY - highest first)
-      if (morphoBalanceNum > 0) {
-        message += `**🔬 Morpho PYTH/USDC Position**\n\n`;
-        message += `🟢 **Morpho PYTH/USDC**\n`;
-        message += `• **Current Deposit**: $${morphoBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${morphoApy}%\n`;
-        message += `• **Protocol**: Morpho on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
-
-      if (morphoRe7BalanceNum > 0) {
-        message += `**♾️ Re7 Universal USDC Position**\n\n`;
-        message += `🟢 **Re7 Universal USDC**\n`;
-        message += `• **Current Deposit**: $${morphoRe7BalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${morphoRe7Apy}%\n`;
-        message += `• **Protocol**: Re7 Universal USDC via Morpho on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
+      // Sort by balance (highest first) for cleaner display
+      positions.sort((a, b) => b.balance - a.balance);
       
-      if (sparkBalanceNum > 0) {
-        message += `**⚡ Spark USDC Vault Position**\n\n`;
-        message += `🟢 **Spark USDC Vault**\n`;
-        message += `• **Current Deposit**: $${sparkBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${sparkApy}%\n`;
-        message += `• **Protocol**: Spark via Morpho on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
-
-      if (seamlessBalanceNum > 0) {
-        message += `**🌊 Seamless USDC Position**\n\n`;
-        message += `🟢 **Seamless USDC**\n`;
-        message += `• **Current Deposit**: $${seamlessBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${seamlessApy}%\n`;
-        message += `• **Protocol**: Seamless via Morpho on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
-
-      if (moonwellBalanceNum > 0) {
-        message += `**🌕 Moonwell USDC Position**\n\n`;
-        message += `🟢 **Moonwell USDC**\n`;
-        message += `• **Current Deposit**: $${moonwellBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${moonwellApy}%\n`;
-        message += `• **Protocol**: Moonwell on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
+      const monthlyEarnings = positions.reduce((total, pos) => total + (pos.balance * pos.apy / 100) / 12, 0);
       
-      if (compoundBalanceNum > 0) {
-        message += `**🏦 Compound V3 Position**\n\n`;
-        message += `🟢 **Compound USDC**\n`;
-        message += `• **Current Deposit**: $${compoundBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${compoundApy}%\n`;
-        message += `• **Protocol**: Compound V3 on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
+      let message = `💰 **Your Investments**\n\n`;
+      
+      // Combined investment overview in flowing format
+      for (const position of positions) {
+        const monthlyFromThis = (position.balance * position.apy / 100) / 12;
+        const yearlyFromThis = position.balance * position.apy / 100;
+        const dailyFromThis = yearlyFromThis / 365;
+        
+        if (monthlyEarnings >= 0.01) {
+          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY,\nearning **~$${monthlyFromThis.toFixed(2)}** monthly with auto-compounding!\n\n`;
+        } else if (dailyFromThis >= 0.001) {
+          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY,\nearning **~$${dailyFromThis.toFixed(3)}** daily with auto-compounding!\n\n`;
+        } else {
+          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY,\nearning **~$${yearlyFromThis.toFixed(2)}** yearly with auto-compounding!\n\n`;
+        }
       }
 
-      if (fluidBalanceNum > 0) {
-        message += `**🌊 Fluid Finance Position**\n\n`;
-        message += `🟢 **Fluid USDC**\n`;
-        message += `• **Current Deposit**: $${fluidBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${fluidApy}%\n`;
-        message += `• **Protocol**: Fluid on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
+      // Deposit section with encouraging and actionable messaging
+      if (usdcBalanceNum >= 1.0) {
+        message += `🦑 **Ready to grow your earnings?**\n`;
+        message += `You have $${usdcBalanceNum.toFixed(2)} USDC ready to invest. Your money will start earning immediately with zero fees and auto-compounding!\n\n`;
+      } else {
+        message += `Add more USDC and watch your daily earnings\ncompound automatically. No fees, no lock-ups,\nwithdraw anytime with no transaction fees.\n\n`;
       }
+      // Always show deposit address since users need it to add more funds
+      message += `Send USDC to your address:\n\`${wallet.address}\`\n*Network: Base \u2022 Minimum: $1 USDC*\n\n`;
 
-      if (aaveBalanceNum > 0) {
-        message += `**🏛️ Aave V3 Position**\n\n`;
-        message += `🟢 **Aave USDC**\n`;
-        message += `• **Current Deposit**: $${aaveBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${aaveApy}%\n`;
-        message += `• **Protocol**: Aave V3 on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
-
-      // Performance note
-      message += `📈 **Real-Time Data**\n`;
-      message += `• Balance fetched from blockchain\n`;
-      message += `• Reflects all deposits/withdrawals\n`;
-      message += `• Auto-compounding rewards included\n\n`;
-
-      // Quick actions
+      // Quick actions - prioritized layout with single-button rows for main actions
       const keyboard = new InlineKeyboard()
         .text("🦑 Earn More", "zap_funds")
+        .row()
         .text("💰 Collect Earnings", "harvest_yields")
         .row()
-        .text("🚪 Exit Pool", "withdraw")
-        .text("🔄 Refresh", "view_portfolio")
+        .text("💵 Withdraw Investments", "withdraw")
         .row()
-        .text("💰 Check Balance", "check_balance");
+        .text("💳 Deposit More", "deposit")
+        .row()
+        .text("🔙 Back to Main", "main_menu");
 
-      message += `⏰ *Updated: ${new Date().toLocaleTimeString()}*`;
+      // Get user timezone from Telegram (if available) or use UTC
+      const userTimezone = ctx.from?.language_code ? 
+        Intl.DateTimeFormat().resolvedOptions().timeZone : 'UTC';
+      
+      const updateTime = new Date().toLocaleString('en-US', {
+        timeZone: userTimezone,
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true,
+        timeZoneName: 'short'
+      });
+      
+      message += `⏰ *Updated: ${updateTime}*`;
 
       await ctx.reply(message, {
         parse_mode: "Markdown",
@@ -353,7 +325,9 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
       message += `• **Chain**: Base Network\n`;
       message += `• **Current APY**: ${morphoApy}%\n`;
       message += `• **Status**: ✅ Active & Auto-Compounding\n`;
-      message += `• **Risk Level**: 🟡 Medium (5/10) - Higher yield strategy\n\n`;
+      const morphoRiskScore = 5; // Morpho is medium risk
+      const riskEmoji = riskIcon(morphoRiskScore);
+      message += `• **Risk Level**: ${riskEmoji} Medium (${morphoRiskScore}/10) - Higher yield strategy\n\n`;
     }
     
     if (compoundBalanceNum > 0) {
@@ -399,15 +373,16 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     message += `• **Contract**: \`${BASE_TOKENS.aUSDC.slice(0, 8)}...\`\n\n`;
     
     message += `**⚡ Available Actions**\n`;
-    message += `• **Exit Pool**: Get all funds back to wallet\n`;
+    message += `• **Withdraw Investments**: Get all funds back to wallet\n`;
     message += `• **Add More**: Zap additional USDC to pool\n\n`;
 
     const keyboard = new InlineKeyboard()
-      .text("🚪 Exit Pool", "withdraw")
       .text("🦑 Earn More", "zap_funds")
       .row()
-      .text("🔄 Refresh Data", "portfolio_details")
-      .text("🔙 Back to Portfolio", "view_portfolio");
+      .text("💵 Withdraw Investments", "withdraw")
+      .row()
+      .text("🔙 Back to Portfolio", "view_portfolio")
+      .text("🔄 Refresh Data", "portfolio_details");
 
     await ctx.editMessageText(message, {
       parse_mode: "Markdown",
