@@ -696,7 +696,7 @@ const harvestHandler: CommandHandler = {
         }
         
         await ctx.reply(
-          `🌾 *Harvest Status*\n\n` +
+          `💰 *Your Earnings Status*\n\n` +
           `🎁 **Token Rewards**: None available yet\n\n` +
           `⏰ Your positions are earning, but no claimable token rewards yet.\n\n` +
           `**Your Positions**:\n${positionsText}\n` +
