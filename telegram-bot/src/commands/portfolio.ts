@@ -256,15 +256,16 @@ const portfolioHandler: CommandHandler = {
       message += `• Reflects all deposits/withdrawals\n`;
       message += `• Auto-compounding rewards included\n\n`;
 
-      // Quick actions - reorganized to prevent text cutoff
+      // Quick actions - prioritized layout with single-button rows for main actions
       const keyboard = new InlineKeyboard()
+        .text("🦑 Earn More", "zap_funds")
+        .row()
         .text("💰 Collect Earnings", "harvest_yields")
         .row()
-        .text("🦑 Earn More", "zap_funds")
+        .text("🚚 Exit Pool", "withdraw")
         .text("💰 Check Balance", "check_balance")
         .row()
-        .text("🚚 Exit Pool", "withdraw")
-        .text("🔄 Refresh", "view_portfolio");
+        .text("🔙 Back to Main", "main_menu");
 
       message += `⏰ *Updated: ${new Date().toLocaleTimeString()}*`;
 
@@ -410,11 +411,11 @@ export const handlePortfolioDetails = async (ctx: BotContext) => {
     message += `• **Add More**: Zap additional USDC to pool\n\n`;
 
     const keyboard = new InlineKeyboard()
-      .text("🔙 Back to Portfolio", "view_portfolio")
-      .row()
       .text("🦑 Earn More", "zap_funds")
+      .row()
       .text("🚚 Exit Pool", "withdraw")
       .row()
+      .text("🔙 Back to Portfolio", "view_portfolio")
       .text("🔄 Refresh Data", "portfolio_details");
 
     await ctx.editMessageText(message, {
