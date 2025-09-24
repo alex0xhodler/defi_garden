@@ -182,22 +182,34 @@ const portfolioHandler: CommandHandler = {
       
       const monthlyEarnings = positions.reduce((total, pos) => total + (pos.balance * pos.apy / 100) / 12, 0);
       
-      let message = `💰 **Your Portfolio**\n\n`;
+      let message = `💰 **Your Investments**\n\n`;
       
-      // Key metrics - simplified and user-focused
-      message += `**$${totalValue.toFixed(2)}** invested\n`;
-      message += `**~$${monthlyEarnings.toFixed(2)}** earning monthly\n\n`;
-
-      // Active positions - simplified display
-      for (const position of positions) {
-        const monthlyFromThis = (position.balance * position.apy / 100) / 12;
-        message += `**${position.name}** \u2022 ${position.apy}% APY\n`;
-        message += `$${position.balance.toFixed(2)} \u2192 ~$${monthlyFromThis.toFixed(2)}/month\n\n`;
+      // Key metrics with encouraging messaging
+      if (monthlyEarnings >= 0.01) {
+        message += `You've invested **$${totalValue.toFixed(2)}** and you're earning **~$${monthlyEarnings.toFixed(2)}** monthly!\n\n`;
+      } else {
+        message += `You've invested **$${totalValue.toFixed(2)}**. Small amounts need time to show monthly earnings.\n\n`;
       }
 
-      // Wallet info - moved to bottom and simplified
+      // Active positions with contextual information
+      for (const position of positions) {
+        const monthlyFromThis = (position.balance * position.apy / 100) / 12;
+        const yearlyFromThis = position.balance * position.apy / 100;
+        
+        message += `**${position.name}** \u2022 ${position.apy.toFixed(1)}% APY\n`;
+        if (monthlyFromThis >= 0.01) {
+          message += `$${position.balance.toFixed(2)} earning ~$${monthlyFromThis.toFixed(2)}/month\n\n`;
+        } else {
+          message += `$${position.balance.toFixed(2)} earning ~$${yearlyFromThis.toFixed(2)}/year\n\n`;
+        }
+      }
+
+      // Deposit section with clear call to action and address
+      message += `💵 **Want to invest more?**\n`;
       if (usdcBalanceNum > 0.01) {
-        message += `💳 **Wallet**: $${usdcBalanceNum.toFixed(2)} USDC available\n\n`;
+        message += `You have $${usdcBalanceNum.toFixed(2)} USDC ready to invest.\n\n`;
+      } else {
+        message += `Send USDC to your address:\n\`${wallet.address}\`\n*Network: Base \u2022 Any amount*\n\n`;
       }
 
       // Quick actions - prioritized layout with single-button rows for main actions
