@@ -188,7 +188,7 @@ const portfolioHandler: CommandHandler = {
       if (monthlyEarnings >= 0.01) {
         message += `You've invested **$${totalValue.toFixed(2)}** and you're earning **~$${monthlyEarnings.toFixed(2)}** monthly!\n\n`;
       } else {
-        message += `You've invested **$${totalValue.toFixed(2)}** and it's working for you 24/7! Add more to see those earnings grow faster.\n\n`;
+        message += `You've invested **$${totalValue.toFixed(2)}** and it's working for you 24/7!\n\n`;
       }
 
       // Active positions with contextual information
@@ -206,10 +206,10 @@ const portfolioHandler: CommandHandler = {
 
       // Deposit section with encouraging and actionable messaging
       if (usdcBalanceNum >= 1.0) {
-        message += `🚀 **Ready to grow your earnings?**\n`;
+        message += `🦑 **Ready to grow your earnings?**\n`;
         message += `You have $${usdcBalanceNum.toFixed(2)} USDC ready to invest. Your money will start earning immediately with zero fees and auto-compounding!\n\n`;
       } else {
-        message += `🚀 **Grow your earnings faster!**\n`;
+        message += `🦑 **Grow your earnings faster!**\n`;
         message += `Add more USDC and watch your daily earnings compound automatically. No fees, no lock-ups, withdraw anytime.\n\n`;
       }
       // Always show deposit address since users need it to add more funds
