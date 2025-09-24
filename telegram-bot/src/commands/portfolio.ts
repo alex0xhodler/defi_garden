@@ -184,23 +184,18 @@ const portfolioHandler: CommandHandler = {
       
       let message = `💰 **Your Investments**\n\n`;
       
-      // Key metrics with encouraging messaging
-      if (monthlyEarnings >= 0.01) {
-        message += `You've invested **$${totalValue.toFixed(2)}** and you're earning **~$${monthlyEarnings.toFixed(2)}** monthly!\n\n`;
-      } else {
-        message += `You've invested **$${totalValue.toFixed(2)}** and it's working for you 24/7!\n\n`;
-      }
-
-      // Active positions with contextual information
+      // Combined investment overview in flowing format
       for (const position of positions) {
         const monthlyFromThis = (position.balance * position.apy / 100) / 12;
         const yearlyFromThis = position.balance * position.apy / 100;
+        const dailyFromThis = yearlyFromThis / 365;
         
-        message += `**${position.name}** \u2022 ${position.apy.toFixed(1)}% APY\n`;
-        if (monthlyFromThis >= 0.01) {
-          message += `$${position.balance.toFixed(2)} earning ~$${monthlyFromThis.toFixed(2)}/month\n\n`;
+        if (monthlyEarnings >= 0.01) {
+          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY, earning **~$${monthlyFromThis.toFixed(2)}** monthly and working for you 24/7!\n\n`;
+        } else if (dailyFromThis >= 0.001) {
+          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY, earning **~$${dailyFromThis.toFixed(3)}** daily and working for you 24/7!\n\n`;
         } else {
-          message += `$${position.balance.toFixed(2)} earning ~$${yearlyFromThis.toFixed(2)}/year\n\n`;
+          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY, earning **~$${yearlyFromThis.toFixed(2)}** yearly and working for you 24/7!\n\n`;
         }
       }
 
