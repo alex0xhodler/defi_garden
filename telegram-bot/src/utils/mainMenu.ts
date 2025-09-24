@@ -7,11 +7,11 @@ import { Address } from "viem";
  */
 export function createMainMenuKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
-    .text("💰 Check Balance", "check_balance")
     .text("🦑 Start Earning", "zap_funds")
+    .text("💼 Investments", "view_portfolio")
     .row()
-    .text("📊 Portfolio", "view_portfolio")
-    .text("💰 Collect Earnings", "harvest_yields")
+    .text("💰 Check Balance", "check_balance")
+    .text("🌿 Collect Earnings", "harvest_yields")
     .row()
     .text("⚙️ Settings", "open_settings")
     .text("📋 Help", "help");
