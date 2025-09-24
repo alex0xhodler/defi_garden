@@ -179,7 +179,7 @@ const zapHandler: CommandHandler = {
       const firstName = ctx.from?.first_name || "there";
 
       await ctx.reply(
-        `🚀 *Ready to start earning, ${firstName}?*\n\n` +
+        `🦑 *Ready to start earning, ${firstName}?*\n\n` +
         `I'll find the best yields for your USDC based on your risk level (${ctx.session.settings?.riskLevel || 3}/5).\n\n` +
         `🐙 1% AUM fee at deposit, always earn maximum yield, no performance fees\n` +
         `🎯 You choose the protocol with manual management\n\n` +
