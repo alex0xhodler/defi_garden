@@ -166,95 +166,39 @@ const portfolioHandler: CommandHandler = {
       }
       const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum + morphoRe7BalanceNum;
       
-      let message = `📊 **Your DeFi Portfolio**\n\n`;
+      // Calculate total monthly earnings projection
+      const positions = [];
+      if (morphoBalanceNum > 0) positions.push({ balance: morphoBalanceNum, apy: morphoApy, name: 'Morpho PYTH/USDC' });
+      if (morphoRe7BalanceNum > 0) positions.push({ balance: morphoRe7BalanceNum, apy: morphoRe7Apy, name: 'Re7 Universal USDC' });
+      if (sparkBalanceNum > 0) positions.push({ balance: sparkBalanceNum, apy: sparkApy, name: 'Spark USDC' });
+      if (seamlessBalanceNum > 0) positions.push({ balance: seamlessBalanceNum, apy: seamlessApy, name: 'Seamless USDC' });
+      if (moonwellBalanceNum > 0) positions.push({ balance: moonwellBalanceNum, apy: moonwellApy, name: 'Moonwell USDC' });
+      if (compoundBalanceNum > 0) positions.push({ balance: compoundBalanceNum, apy: compoundApy, name: 'Compound V3' });
+      if (fluidBalanceNum > 0) positions.push({ balance: fluidBalanceNum, apy: fluidApy, name: 'Fluid Finance' });
+      if (aaveBalanceNum > 0) positions.push({ balance: aaveBalanceNum, apy: aaveApy, name: 'Aave V3' });
       
-      // Real-time balances
-      message += `💰 **Total Portfolio Value**: $${totalValue.toFixed(2)}\n`;
-      message += `💳 **Wallet USDC**: $${usdcBalanceNum.toFixed(2)}\n`;
-      message += `🏦 **Total Deposited**: $${totalValue.toFixed(2)}\n\n`;
+      // Sort by balance (highest first) for cleaner display
+      positions.sort((a, b) => b.balance - a.balance);
       
-      // Add deposit address for easy access
-      message += `💰 **Your Deposit Address**:\n\`${wallet.address}\`\n`;
-      message += `*Network:* Base • *Minimum:* Any amount\n\n`;
-
-      // Active positions (sorted by APY - highest first)
-      if (morphoBalanceNum > 0) {
-        message += `**🔬 Morpho PYTH/USDC Position**\n\n`;
-        message += `🟢 **Morpho PYTH/USDC**\n`;
-        message += `• **Current Deposit**: $${morphoBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${morphoApy}%\n`;
-        message += `• **Protocol**: Morpho on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
-
-      if (morphoRe7BalanceNum > 0) {
-        message += `**♾️ Re7 Universal USDC Position**\n\n`;
-        message += `🟢 **Re7 Universal USDC**\n`;
-        message += `• **Current Deposit**: $${morphoRe7BalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${morphoRe7Apy}%\n`;
-        message += `• **Protocol**: Re7 Universal USDC via Morpho on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
+      const monthlyEarnings = positions.reduce((total, pos) => total + (pos.balance * pos.apy / 100) / 12, 0);
       
-      if (sparkBalanceNum > 0) {
-        message += `**⚡ Spark USDC Vault Position**\n\n`;
-        message += `🟢 **Spark USDC Vault**\n`;
-        message += `• **Current Deposit**: $${sparkBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${sparkApy}%\n`;
-        message += `• **Protocol**: Spark via Morpho on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
-
-      if (seamlessBalanceNum > 0) {
-        message += `**🌊 Seamless USDC Position**\n\n`;
-        message += `🟢 **Seamless USDC**\n`;
-        message += `• **Current Deposit**: $${seamlessBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${seamlessApy}%\n`;
-        message += `• **Protocol**: Seamless via Morpho on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
-
-      if (moonwellBalanceNum > 0) {
-        message += `**🌕 Moonwell USDC Position**\n\n`;
-        message += `🟢 **Moonwell USDC**\n`;
-        message += `• **Current Deposit**: $${moonwellBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${moonwellApy}%\n`;
-        message += `• **Protocol**: Moonwell on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
+      let message = `💰 **Your Portfolio**\n\n`;
       
-      if (compoundBalanceNum > 0) {
-        message += `**🏦 Compound V3 Position**\n\n`;
-        message += `🟢 **Compound USDC**\n`;
-        message += `• **Current Deposit**: $${compoundBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${compoundApy}%\n`;
-        message += `• **Protocol**: Compound V3 on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
+      // Key metrics - simplified and user-focused
+      message += `**$${totalValue.toFixed(2)}** invested\n`;
+      message += `**~$${monthlyEarnings.toFixed(2)}** earning monthly\n\n`;
+
+      // Active positions - simplified display
+      for (const position of positions) {
+        const monthlyFromThis = (position.balance * position.apy / 100) / 12;
+        message += `**${position.name}** \u2022 ${position.apy}% APY\n`;
+        message += `$${position.balance.toFixed(2)} \u2192 ~$${monthlyFromThis.toFixed(2)}/month\n\n`;
       }
 
-      if (fluidBalanceNum > 0) {
-        message += `**🌊 Fluid Finance Position**\n\n`;
-        message += `🟢 **Fluid USDC**\n`;
-        message += `• **Current Deposit**: $${fluidBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${fluidApy}%\n`;
-        message += `• **Protocol**: Fluid on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
+      // Wallet info - moved to bottom and simplified
+      if (usdcBalanceNum > 0.01) {
+        message += `💳 **Wallet**: $${usdcBalanceNum.toFixed(2)} USDC available\n\n`;
       }
-
-      if (aaveBalanceNum > 0) {
-        message += `**🏛️ Aave V3 Position**\n\n`;
-        message += `🟢 **Aave USDC**\n`;
-        message += `• **Current Deposit**: $${aaveBalanceNum.toFixed(2)}\n`;
-        message += `• **Current APY**: ${aaveApy}%\n`;
-        message += `• **Protocol**: Aave V3 on Base\n`;
-        message += `• **Status**: ✅ Active & Earning\n\n`;
-      }
-
-      // Performance note
-      message += `📈 **Real-Time Data**\n`;
-      message += `• Balance fetched from blockchain\n`;
-      message += `• Reflects all deposits/withdrawals\n`;
-      message += `• Auto-compounding rewards included\n\n`;
 
       // Quick actions - prioritized layout with single-button rows for main actions
       const keyboard = new InlineKeyboard()
@@ -266,7 +210,19 @@ const portfolioHandler: CommandHandler = {
         .row()
         .text("🔙 Back to Main", "main_menu");
 
-      message += `⏰ *Updated: ${new Date().toLocaleTimeString()}*`;
+      // Get user timezone from Telegram (if available) or use UTC
+      const userTimezone = ctx.from?.language_code ? 
+        Intl.DateTimeFormat().resolvedOptions().timeZone : 'UTC';
+      
+      const updateTime = new Date().toLocaleString('en-US', {
+        timeZone: userTimezone,
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true,
+        timeZoneName: 'short'
+      });
+      
+      message += `⏰ *Updated: ${updateTime}*`;
 
       await ctx.reply(message, {
         parse_mode: "Markdown",
