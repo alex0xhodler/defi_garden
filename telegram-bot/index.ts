@@ -103,7 +103,10 @@ bot.command("test", async (ctx) => {
   await ctx.reply("🧪 Test successful! Bot is working.");
 });
 
-// Smart Recovery Handler Functions
+/**
+ * Handles the retry of a pending transaction after the user has deposited sufficient funds.
+ * @param {BotContext} ctx - The bot context.
+ */
 async function handleRetryPendingTransaction(ctx: BotContext) {
   try {
     const { getPendingTransaction, clearPendingTransaction } = await import("./src/utils/smart-recovery");
@@ -178,6 +181,10 @@ async function handleRetryPendingTransaction(ctx: BotContext) {
   }
 }
 
+/**
+ * Cancels a pending transaction, clearing it from the user's session.
+ * @param {BotContext} ctx - The bot context.
+ */
 async function handleCancelPendingTransaction(ctx: BotContext) {
   try {
     const { clearPendingTransaction } = await import("./src/utils/smart-recovery");
@@ -196,6 +203,11 @@ async function handleCancelPendingTransaction(ctx: BotContext) {
   }
 }
 
+/**
+ * Handles the user's choice to invest their currently available balance,
+ * even if it's less than their original pending transaction amount.
+ * @param {BotContext} ctx - The bot context.
+ */
 async function handleInvestAvailable(ctx: BotContext) {
   try {
     const { getPendingTransaction, clearPendingTransaction } = await import("./src/utils/smart-recovery");
@@ -282,6 +294,12 @@ async function handleInvestAvailable(ctx: BotContext) {
   }
 }
 
+/**
+ * Manually triggers a check for the user's deposit.
+ * This function is called when the user presses the "Check for Deposit" button.
+ * It fetches the user's current balance and provides contextual feedback.
+ * @param {BotContext} ctx - The bot context.
+ */
 async function handleManualDepositCheck(ctx: BotContext) {
   try {
     const { getPendingTransaction, clearPendingTransaction } = await import("./src/utils/smart-recovery");
@@ -1162,7 +1180,10 @@ bot.catch((err) => {
   console.error("Bot error occurred:", err);
 });
 
-// Start the bot
+/**
+ * Starts the Telegram bot.
+ * This function initializes the bot, logs startup messages, and begins listening for updates.
+ */
 const startBot = async () => {
   console.log("🦑 Starting inkvest Telegram Bot...");
 

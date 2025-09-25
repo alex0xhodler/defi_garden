@@ -1,21 +1,35 @@
 import { Context } from "grammy";
 import { UserSettings, Position } from "./config";
 
+/**
+ * Defines the structure of the data stored in the user's session.
+ * This is used to maintain state between different interactions with the bot.
+ */
 export interface SessionData {
+  /** The user's unique identifier. */
   userId?: string;
+  /** The user's wallet address. */
   walletAddress?: string;
+  /** The current multi-step action the user is performing (e.g., 'import_wallet'). */
   currentAction?: string;
+  /** A temporary data store for the current action. */
   tempData?: Record<string, any>;
+  /** The user's personalized settings. */
   settings?: UserSettings;
-  zapMode?: "auto" | "manual"; // Auto-deploy vs manual protocol selection
-  positions?: Position[]; // User's active DeFi positions
-  awaitingWithdrawAmount?: boolean; // For custom withdrawal amount input
-  retryZap?: { // For retrying failed zap with same parameters
+  /** The selected mode for the 'zap' (invest) feature. */
+  zapMode?: "auto" | "manual";
+  /** The user's active DeFi positions. */
+  positions?: Position[];
+  /** A flag indicating if the bot is waiting for the user to input a custom withdrawal amount. */
+  awaitingWithdrawAmount?: boolean;
+  /** Data stored to allow retrying a failed 'zap' transaction with the same parameters. */
+  retryZap?: {
     amount: string;
     selectedPool: string;
     poolInfo: any;
   };
-  pendingTransaction?: { // For smart recovery after insufficient balance
+  /** Data for a transaction that failed due to insufficient balance, to allow for smart recovery. */
+  pendingTransaction?: {
     type: 'invest' | 'withdraw';
     protocol: string;
     poolId: string;
@@ -27,32 +41,59 @@ export interface SessionData {
   };
 }
 
+/**
+ * Extends the base grammY Context to include our custom session data structure.
+ */
 export interface BotContext extends Context {
+  /** The session data for the current user. */
   session: SessionData;
 }
 
+/**
+ * Defines the structure for a bot command handler.
+ */
 export interface CommandHandler {
+  /** The command string (e.g., 'start'). */
   command: string;
+  /** A brief description of the command for help menus. */
   description: string;
+  /** The asynchronous function that handles the command logic. */
   handler: (ctx: BotContext) => Promise<void>;
 }
 
+/**
+ * Defines the structure for a step in a multi-step conversation flow.
+ */
 export interface StepHandler {
+  /** The handler function for this step. */
   handler: (ctx: BotContext) => Promise<void>;
+  /** The key for the next step in the flow. */
   next?: string;
 }
 
+/**
+ * A generic type for storing state within a conversation.
+ */
 export interface ConversationState {
   [key: string]: any;
 }
 
+/**
+ * Defines the possible options available in the settings menu.
+ */
 export type SettingsOption = "risk" | "slippage" | "autoCompound" | "minApy" | "export_key";
 
-// Zap-specific temp data structure
+/**
+ * Defines the structure for temporary data stored during a 'zap' (invest) operation.
+ */
 export interface ZapTempData {
+  /** The token selected for the investment. */
   selectedToken?: string;
+  /** The ID of the selected investment pool. */
   selectedPool?: string;
+  /** The amount to invest. */
   amount?: string;
+  /** Information about the selected pool. */
   poolInfo?: {
     protocol: string;
     apy: number;
@@ -61,17 +102,21 @@ export interface ZapTempData {
     address: string;
     underlyingToken: string;
   };
+  /** The estimated gas cost for the transaction. */
   gasEstimate?: string;
+  /** The quote received from a swap aggregator, if applicable. */
   quote?: {
     outputAmount: string;
     priceImpact: string;
   };
 }
 
-// Action types for the bot state machine
-export type ActionType = 
+/**
+ * Defines the possible action types that represent the bot's current state in a multi-step flow.
+ */
+export type ActionType =
   | "import_wallet"
-  | "export_wallet" 
+  | "export_wallet"
   | "zap_amount"
   | "zap_confirm"
   | "harvest_confirm"

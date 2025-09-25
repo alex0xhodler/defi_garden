@@ -1,44 +1,30 @@
-# 🌱 DeFi Garden Telegram Bot
+# 🦑 inkvest Telegram Bot
 
-**Your automated yield farming assistant that finds the best DeFi opportunities**
+**Your automated yield farming assistant that finds the best DeFi opportunities on Base.**
 
-Auto-deploy funds to the highest-yielding, safest DeFi protocols with just a few taps in Telegram.
+inkvest is a sophisticated Telegram bot designed to simplify the process of yield farming on the Base network. It provides a user-friendly interface to interact with various DeFi protocols, allowing users to deposit funds, earn yield, and manage their portfolio without needing deep technical expertise. The bot prioritizes security, user control, and maximizing returns within a user-defined risk tolerance.
 
-## ✨ Features
+## ✨ Core Features
 
-### 🐙 **Intelligent Auto-Deployment**
-- Scans 50+ protocols for best opportunities
-- Filters by risk level, TVL, and audit status  
-- Auto-selects highest APY pools within your risk tolerance
-- Gas cost protection (won't let you overpay)
-
-### 🛡️ **Safety First**
-- Only vetted protocols with $10M+ TVL for auto-deployment
-- 24/7 monitoring with emergency alerts
-- Smart contract audit requirements
-- User maintains full control of funds
-
-### 📊 **Portfolio Management** 
-- Real-time position tracking and yield calculations
-- One-click harvest and compound functionality
-- Performance analytics and P&L tracking
-- Auto-compounding with customizable strategies
-
-### ⚡ **User Experience**
-- Simple Telegram interface - no complex DeFi knowledge needed
-- Works on any device with Telegram
-- Secure wallet creation and import
-- Multi-chain support (starting with Base for cheap gas)
+- **🐙 Intelligent Auto-Deployment**: Scans supported protocols for the best yield opportunities and automatically deploys funds based on the user's risk settings.
+- **🛡️ Safety First**: Interacts only with vetted, audited protocols with significant Total Value Locked (TVL).
+- **📊 Real-time Portfolio Management**: Track your positions, view current values, and see your earnings update in real-time.
+- **💸 Gasless Transactions**: Leverages Coinbase Smart Wallets and Paymasters to sponsor transaction fees, making DeFi accessible to everyone.
+- **🔐 Non-Custodial**: Users maintain full control over their funds. The bot facilitates transactions, but users can export their private keys at any time.
+- **🤖 Simple Telegram Interface**: All features are accessible through intuitive Telegram commands and buttons.
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-- Node.js 18+ 
-- Telegram account
-- QuickNode account (for RPC access)
+- **Node.js**: Version 18 or higher.
+- **npm**: Comes with Node.js.
+- **Telegram Account**: To create and interact with the bot.
+- **QuickNode Account**: For a reliable Base network RPC endpoint.
 
-### 1. Clone and Install
+### 1. Clone and Install Dependencies
+
+First, clone the repository to your local machine and install the required npm packages.
 
 ```bash
 git clone <repository-url>
@@ -48,265 +34,109 @@ npm install
 
 ### 2. Environment Setup
 
-```bash
-# Copy environment template
-cp .env.example .env
+The bot uses a `.env` file for configuration. Copy the example file to create your own:
 
-# Generate encryption key
+```bash
+cp .env.example .env
+```
+
+Next, you need to generate a secure encryption key to protect user wallet data.
+
+```bash
+# This command generates a 32-byte random key encoded in base64.
 openssl rand -base64 32
 ```
 
 ### 3. Configure Environment Variables
 
-Edit `.env` with your values:
+Open the `.env` file and fill in the required values:
 
 ```env
-# Get from @BotFather on Telegram
-TELEGRAM_BOT_TOKEN=your_bot_token
+# 1. Get this from @BotFather on Telegram after creating a new bot.
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 
-# Get from QuickNode (Base network endpoint)
-QUICKNODE_RPC=https://your-endpoint.quiknode.pro/key
+# 2. Get this from QuickNode (Base Mainnet endpoint).
+QUICKNODE_RPC=https://your-quicknode-endpoint.quiknode.pro/your-api-key/
 
-# Use the generated encryption key
-WALLET_ENCRYPTION_KEY=your_32_char_key
+# 3. Paste the key you generated in the previous step.
+WALLET_ENCRYPTION_KEY=your_32_character_encryption_key
 ```
 
-### 4. Create Telegram Bot
+### 4. Run the Bot
 
-1. Message [@BotFather](https://t.me/BotFather) on Telegram
-2. Send `/newbot` command
-3. Choose a name and username for your bot
-4. Copy the provided token to your `.env` file
-
-### 5. Get QuickNode RPC Endpoint
-
-1. Sign up at [QuickNode](https://www.quicknode.com)
-2. Create a Base Mainnet endpoint
-3. Copy the HTTP URL to your `.env` file
-
-### 6. Run the Bot
+You can run the bot in either development or production mode.
 
 ```bash
-# Development mode (auto-restart on changes)
+# Development mode (with auto-reloading on file changes)
 npm run dev
 
 # Production mode
+npm run build
 npm start
 ```
 
-### 7. Test Your Bot
+Your bot should now be running and ready to accept commands on Telegram!
 
-1. Search for your bot on Telegram
-2. Send `/start` command
-3. Follow the setup flow to create a wallet
-4. Deposit some USDC and try `/zap`!
+## 🤖 Bot Usage Guide
 
-## 🎯 Usage Guide
+Interact with your bot on Telegram using the following commands.
 
-### Basic Commands
+### Core Commands
 
-- **`/start`** - Initialize bot and create/import wallet
-- **`/balance`** - Check your token balances  
-- **`/zap`** - Auto-deploy funds to best yield opportunities
-- **`/portfolio`** - View your DeFi positions and yields
-- **`/harvest`** - Claim yields and compound rewards
-- **`/settings`** - Adjust risk tolerance and preferences
+- **/start**: Initializes the bot, creates a new secure smart wallet, and displays the main menu.
+- **/wallet**: Shows your wallet address and provides options to export your private key.
+- **/balance**: Displays your current ETH and USDC balances.
+- **/portfolio**: Shows a detailed view of your active DeFi investments, including current value and APY.
+- **/earn**: The main command to start investing. It offers both automatic and manual deployment options.
+- **/harvest**: Collects any claimable reward tokens from your DeFi positions.
+- **/withdraw**: Allows you to exit your positions and withdraw funds back to your wallet.
+- **/settings**: Lets you configure your risk tolerance, slippage, and minimum APY preferences.
+- **/help**: Provides a simple guide on how the bot works.
 
-### Wallet Management
+## 🏗️ Codebase Structure
 
-- **`/wallet`** - View wallet address and info
-- **`/deposit`** - Show your deposit address  
-- **`/withdraw`** - Withdraw funds to another address
-- **`/import`** - Import existing wallet via private key
-- **`/export`** - Export your private key (with confirmation)
+The `telegram-bot` directory is organized as follows:
 
-### Getting Started Flow
+- **`src/`**: Contains all the core source code for the bot.
+  - **`commands/`**: Each file defines a primary bot command (e.g., `/start`, `/wallet`).
+  - **`lib/`**: Core logic for interacting with the blockchain, database, and external APIs.
+    - `coinbase-wallet.ts`: Manages Coinbase Smart Wallet creation and gasless transactions.
+    - `database.ts`: Handles all interactions with the SQLite database.
+    - `defi-protocols.ts`: Contains logic for interacting with specific DeFi protocols (Aave, Compound, etc.).
+    - `defillama-api.ts`: Fetches APY and pool data from DeFiLlama.
+    - `encryption.ts`: Handles the encryption and decryption of user private keys.
+    - `token-wallet.ts`: Provides utility functions for wallet and token management.
+  - **`services/`**: Background services and high-level business logic.
+    - `apy-orchestrator.ts`: Manages fetching and caching APY data from multiple sources.
+    - `event-monitor.js`: A WebSocket-based service to monitor for user deposits in real-time.
+  - **`types/`**: Contains all TypeScript type definitions and interfaces.
+  - **`utils/`**: Utility functions for formatting, validation, and other helpers.
+- **`index.ts`**: The main entry point of the application. It initializes the bot, sets up middleware, and registers all command handlers.
+- **`README.md`**: This file.
 
-1. **Create Wallet**: Use `/start` to create a new wallet or import existing
-2. **Deposit Funds**: Send USDC to your wallet address (use `/deposit` to get it)
-3. **Set Risk Level**: Use `/settings` to choose your risk tolerance (1-5)
-4. **Start Farming**: Use `/zap` to auto-deploy to best opportunities
-5. **Track Progress**: Use `/portfolio` to monitor your yields
-6. **Harvest Rewards**: Use `/harvest` to claim and compound yields
+## 🔒 Security
 
-## 🔧 Configuration
+Security is a top priority for the inkvest bot.
 
-### Risk Levels
-
-- **Level 1** 🛡️ - Very Safe: Only Aave, Compound (3-5% APY)
-- **Level 2** 🟢 - Conservative: + Yearn, established DeFi (4-8% APY)  
-- **Level 3** 🟡 - Moderate: + Some newer protocols (5-15% APY)
-- **Level 4** 🟠 - Aggressive: Higher yield farming (10-25% APY)
-- **Level 5** 🔴 - Maximum Yield: All protocols (15%+ APY)
-
-### Auto-Deployment Safety Rules
-
-- **TVL Minimum**: $100M+ for auto-deployment, $10M absolute minimum
-- **Audit Requirement**: Only audited protocols from reputable firms
-- **Gas Protection**: Transactions blocked if gas >10% of investment
-- **Slippage Limits**: Configurable 0.1-5% maximum price impact
-
-## 🏗️ Architecture
-
-### Core Components
-
-```
-📱 Telegram Bot (Grammy)
-├── 💾 SQLite Database (positions, transactions, settings)
-├── 🔐 Wallet Management (encrypted private keys)
-├── 🌐 DeFi Integration (1inch + protocol-specific contracts)
-├── 📊 Yield Optimization (DeFiLlama API + risk scoring)
-└── ⚡ Real-time Monitoring (position updates, emergency alerts)
-```
-
-### Database Schema
-
-- **Users**: Telegram user info and registration
-- **Wallets**: Encrypted private keys and addresses
-- **Settings**: Risk levels, slippage, auto-compound preferences
-- **Positions**: Active DeFi positions with yields and performance
-- **Transactions**: Complete history of zaps, harvests, and transfers
-
-### Security Features
-
-- **AES-256 Encryption**: All private keys encrypted at rest
-- **No Private Key Exposure**: Keys never logged or transmitted
-- **Session Management**: Secure session handling with timeout
-- **Input Validation**: All user inputs sanitized and validated
-- **Database Transactions**: Atomic operations prevent data corruption
-
-## 🔒 Security Considerations
-
-### Private Key Management
-- Keys are encrypted with AES-256-CBC before storage
-- Encryption key must be kept secure and never shared
-- Keys are decrypted only in memory during operations
-- Database access requires proper authentication
-
-### Gas Protection
-- Transactions are blocked if gas cost >10% of investment
-- Users are warned about high gas periods
-- Alternative chains suggested for small amounts
-
-### Smart Contract Risks
-- Only interact with audited protocols  
-- TVL thresholds enforced for safety
-- Emergency monitoring for protocol issues
-- Users can exit positions at any time
-
-## 🚀 Deployment
-
-### Production Setup
-
-1. **Server Requirements**: 
-   - VPS with 1GB+ RAM
-   - Node.js 18+
-   - SSL certificate for webhooks (optional)
-
-2. **Environment Variables**:
-   ```bash
-   NODE_ENV=production
-   DB_PATH=/path/to/secure/database.sqlite
-   WALLET_ENCRYPTION_KEY=secure_32_char_key
-   ```
-
-3. **Process Management**:
-   ```bash
-   # Install PM2 for production process management
-   npm install -g pm2
-   
-   # Start bot with PM2
-   pm2 start index.ts --name defi-garden-bot
-   
-   # Enable auto-restart on server reboot
-   pm2 startup
-   pm2 save
-   ```
-
-4. **Database Backup**:
-   ```bash
-   # Daily backup of SQLite database
-   cp defi-garden.sqlite defi-garden-backup-$(date +%Y%m%d).sqlite
-   ```
-
-### Monitoring
-
-- Monitor bot uptime and response times
-- Set up alerts for database errors
-- Track gas price spikes and user impact
-- Monitor protocol TVL changes and alerts
+- **Non-Custodial**: Users always have full control over their funds. Private keys can be exported at any time.
+- **Encryption**: All private keys are encrypted at rest using AES-256 with a secret key you provide.
+- **Gasless Safety**: By sponsoring transactions, the bot abstracts away the need for users to hold ETH for gas, reducing a common point of friction and error.
+- **Vetted Protocols**: The bot only integrates with well-established and audited DeFi protocols.
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`  
-3. Make your changes and test thoroughly
-4. Commit your changes: `git commit -m 'Add amazing feature'`
-5. Push to the branch: `git push origin feature/amazing-feature`
-6. Open a Pull Request
+Contributions are welcome! Please feel free to open an issue or submit a pull request.
 
-### Development Guidelines
-
-- Follow TypeScript best practices
-- Add comprehensive error handling
-- Test all user flows manually
-- Never commit actual private keys or tokens
-- Update documentation for new features
-
-## 📚 **DeFi Pool Integration Documentation**
-
-### **🔥 Start Here - Integration Guides**
-- **`DOCUMENTATION_INDEX.md`** - Choose the right integration path
-- **`MORPHO_POOL_INTEGRATION_MASTER_GUIDE.md`** - **For Morpho pools (100% success rate)**
-- **`CRITICAL_INTEGRATION_STEPS.md`** - Most commonly missed steps
-- **`POOL_INTEGRATION_TEMPLATE.md`** - General integration template
-
-### **🎯 Success Examples**
-- **Morpho PYTH/USDC**: Reference implementation, 100% working
-- **Spark USDC Vault**: Latest success following proven pattern
-- **Pattern**: Same infrastructure, only vault address changes
-
-### **⚠️ Common Issues**
-- **`TYPESCRIPT_COMMON_ISSUES.md`** - Interface errors and fixes
-- **Missing from DeFiLlama** = Invisible protocol in bot
-- **Wrong risk score** = Protocol filtered out of auto-deployment  
-- **Missing callback handlers** = "Unknown command" errors
-
-### **🧪 Testing Commands**
-```bash
-# For Morpho pools (proven pattern)
-npm run test:morpho -- --key YOUR_KEY --amount 0.1
-npm run test:spark -- --key YOUR_KEY --amount 0.1
-
-# Template commands
-npm run template:help    # View integration guide
-npm run pools:list       # View supported pools
-```
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/my-new-feature`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/my-new-feature`.
+5. Open a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## ⚠️ Disclaimer
 
-This software is provided for educational and informational purposes only. DeFi investments carry inherent risks including:
-
-- Smart contract vulnerabilities
-- Impermanent loss in liquidity pools  
-- Market volatility and potential losses
-- Protocol governance risks
-- Regulatory changes
-
-**Use at your own risk. Never invest more than you can afford to lose. Always do your own research before making investment decisions.**
-
-## 🆘 Support
-
-- **Issues**: Report bugs or request features via GitHub Issues
-- **Discussions**: Join community discussions in GitHub Discussions
-- **Security**: Report security issues privately to [security@defigarden.com]
-
----
-
-**Built with ❤️ for the DeFi community**
-
-*Making yield farming accessible to everyone, one Telegram message at a time.*
+This software is for educational purposes only. DeFi is inherently risky. **Use this software at your own risk.** Always do your own research and never invest more than you can afford to lose. The creators of this bot are not liable for any financial losses.

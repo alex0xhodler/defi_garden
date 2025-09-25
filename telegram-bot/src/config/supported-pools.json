@@ -1,6 +1,8 @@
 {
+  "_comment": "This file contains a list of supported DeFi pools for the inkvest bot. Each pool object includes metadata, contract addresses, and integration details.",
   "pools": [
     {
+      "_comment": "Configuration for the Morpho PYTH/USDC vault.",
       "id": "morpho-pyth-usdc",
       "name": "Morpho PYTH/USDC",
       "description": "MetaMorpho vault with PYTH/USDC strategy providing ~10% APY",
@@ -53,13 +55,14 @@
       "lastTested": "2025-09-06",
       "integrationNotes": [
         "Uses direct ERC4626 deposit/redeem pattern",
-        "Gasless transactions via CDP Paymaster", 
+        "Gasless transactions via CDP Paymaster",
         "Proven yield generation (+5.25% bonus observed)",
         "100% success rate in testing",
         "Reference implementation for future integrations"
       ]
     },
     {
+      "_comment": "Configuration for the Spark USDC vault.",
       "id": "spark-usdc",
       "name": "Spark USDC Vault",
       "description": "MetaMorpho Spark USDC vault on Base via Morpho infrastructure",
@@ -116,13 +119,14 @@
       "lastTested": "pending",
       "integrationNotes": [
         "Uses Morpho infrastructure with General Adapter multicall pattern",
-        "Gasless transactions via CDP Paymaster", 
+        "Gasless transactions via CDP Paymaster",
         "SPARKUSDC shares (18 decimals) backed by USDC (6 decimals)",
         "Integration based on successful transaction stack traces",
         "Requires testing validation before production deployment"
       ]
     },
     {
+      "_comment": "Configuration for the Re7 Universal USDC vault.",
       "id": "morpho-re7-universal-usdc",
       "name": "Re7 Universal USDC ♾️",
       "description": "Re7 Universal USDC vault providing optimized yield with Risk Score 1",
@@ -176,7 +180,7 @@
       "lastTested": "pending",
       "integrationNotes": [
         "Uses direct ERC4626 deposit/redeem pattern (same as Morpho PYTH success)",
-        "Gasless transactions via CDP Paymaster", 
+        "Gasless transactions via CDP Paymaster",
         "Risk Score 1 - Very low risk vault",
         "Template method from proven Moonwell integration",
         "Requires testing validation before production deployment"
@@ -184,6 +188,7 @@
     }
   ],
   "metadata": {
+    "_comment": "Metadata about the pools configuration file, including version, supported assets, and integration pattern details.",
     "version": "1.2.0",
     "lastUpdated": "2025-09-08",
     "totalPools": 3,
