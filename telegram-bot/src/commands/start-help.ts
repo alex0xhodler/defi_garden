@@ -241,17 +241,6 @@ export const startHandler: CommandHandler = {
                 console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
               }
 
-              // 🚨 SPECIAL CASE: Alex | Beans.so user has issues with formatted messages
-              if (userId === '2060330584') {
-                console.log(`🚨 DEBUG: Special handling for Alex | Beans.so - sending plain text`);
-                try {
-                  await ctx.reply(`Welcome back! Your deposit address: ${wallet.address}`);
-                  console.log(`✅ DEBUG: Sent plain message to problematic user ${userId}`);
-                } catch (error) {
-                  console.error(`🚨 DEBUG: Even plain message failed for user ${userId}:`, error);
-                }
-                return;
-              }
               
               try {
                 const keyboard = new InlineKeyboard()
