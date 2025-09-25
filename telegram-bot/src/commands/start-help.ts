@@ -20,9 +20,22 @@ export const startHandler: CommandHandler = {
   description: "Welcome to inkvest - start earning today",
   handler: async (ctx: BotContext) => {
     try {
-      const userId = ctx.session.userId;
+      let userId = ctx.session.userId;
       const firstName = ctx.from?.first_name || "there";
-      console.log(`🚨 DEBUG: START COMMAND CALLED for user ${userId} (${firstName}) at ${new Date().toISOString()}`);
+      console.log(`🚨 DEBUG: START COMMAND CALLED for user ${userId} (${firstName}) at ${new Date().toISOString()}`);      
+      
+      // 🚨 FIX: Handle undefined userId (session issue)
+      if (!userId) {
+        userId = ctx.from?.id?.toString();
+        console.log(`🚨 DEBUG: userId was undefined, using Telegram ID: ${userId}`);
+        if (userId) {
+          ctx.session.userId = userId;
+        } else {
+          console.error(`🚨 CRITICAL: Cannot determine userId for user ${firstName}`);
+          await ctx.reply(`❌ Sorry, there was a session error. Please try /start again.`);
+          return;
+        }
+      }
 
       if (!userId) {
         await ctx.reply("❌ Unable to identify user. Please try again later.");
