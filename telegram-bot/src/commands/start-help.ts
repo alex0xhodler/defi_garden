@@ -17,11 +17,12 @@ import { DEFAULT_SETTINGS } from "../utils/constants";
 // Start handler with auto-wallet creation
 export const startHandler: CommandHandler = {
   command: "start",
-  description: "Start bot and begin earning",
+  description: "Welcome to inkvest - start earning today",
   handler: async (ctx: BotContext) => {
     try {
-      const userId = ctx.from?.id.toString();
+      const userId = ctx.session.userId;
       const firstName = ctx.from?.first_name || "there";
+      console.log(`🚨 DEBUG: START COMMAND CALLED for user ${userId} (${firstName}) at ${new Date().toISOString()}`);
 
       if (!userId) {
         await ctx.reply("❌ Unable to identify user. Please try again later.");
@@ -231,8 +232,8 @@ export const startHandler: CommandHandler = {
                 const keyboard = new InlineKeyboard()
                   .text("🔍 Check for Deposit", "manual_balance_check");
 
-                console.log(`🚨 DEBUG: Attempting to send reply to user ${userId}`);
-                await ctx.reply(
+                console.log(`🚨 DEBUG: Attempting to send reply to user ${userId}, chat ID: ${ctx.chat?.id}`);
+                const messageResult = await ctx.reply(
                   `👋 *Welcome back ${firstName}!*\n\n` +
                   `🐙 *Your inkvest savings account address:*\n` +
                   `\`${wallet.address}\`\n\n` +
@@ -243,7 +244,7 @@ export const startHandler: CommandHandler = {
                     reply_markup: keyboard,
                   }
                 );
-                console.log(`✅ DEBUG: Successfully sent no-funds reply to user ${userId}`);
+                console.log(`✅ DEBUG: Successfully sent no-funds reply to user ${userId}, message ID: ${messageResult.message_id}`);
               } catch (replyError) {
                 console.error(`🚨 DEBUG: Failed to send reply to user ${userId}:`, replyError);
                 // Try sending a simple message without formatting
