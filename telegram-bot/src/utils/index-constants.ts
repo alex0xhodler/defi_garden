@@ -2,7 +2,7 @@ import { Address } from "viem";
 
 // Index-related contract addresses on Base network
 export const INDEX_CONTRACTS = {
-  // Odos Router V3 for DEX aggregation and swaps
+  // Odos Router V3 for DEX aggregation and swaps on Base
   ODOS_ROUTER_V3: "0x0d05a7d3448512b78fa8a9e46c4872c88c4a0d05" as Address,
   
   // Known index tokens (add more as they become available)

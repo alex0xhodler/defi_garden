@@ -198,6 +198,12 @@ export interface IndexSessionData {
   selectedCategory?: IndexCategory;
   selectedIndexToken?: string;
   amount?: string;
+  adjustedAmount?: string;
+  originalAmount?: string;
+  sellAmount?: string; // For sell transactions
+  sellMode?: boolean; // True when selling
+  customAmount?: boolean; // True when using custom amount input
+  isMaxSell?: boolean; // True when selling 100% (MAX)
   quoteData?: OdosQuoteResponse;
   confirmationStep?: boolean;
 }

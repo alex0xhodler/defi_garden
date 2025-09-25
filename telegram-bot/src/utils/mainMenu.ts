@@ -8,12 +8,14 @@ import { Address } from "viem";
 export function createMainMenuKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
     .text("🦑 Start Earning", "zap_funds")
+    .text("📊 Index Tokens", "index_main")
+    .row()
     .text("💼 Investments", "view_portfolio")
-    .row()
     .text("💰 Check Balance", "check_balance")
-    .text("🌿 Collect Earnings", "harvest_yields")
     .row()
+    .text("🌿 Collect Earnings", "harvest_yields")
     .text("⚙️ Settings", "open_settings")
+    .row()
     .text("📋 Help", "help");
 }
 
@@ -125,6 +127,8 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
         
         const earnings = calculateRealTimeEarnings(totalDeployed, weightedApy);
         
+        // Note: Index positions don't earn APY like DeFi positions, they track asset price performance
+        
         let message = `🐙 *Welcome back ${firstName}!*\n\n`;
         message += `💰 **inkvest savings account:**\n`;
         
@@ -153,8 +157,33 @@ export async function getMainMenuMessage(firstName: string = "there", walletAddr
           message += `• $${fluidBalanceNum.toFixed(2)} in Fluid Protocol (${fluidApy}% APY)\n`;
         }
         
-        message += `\n💸 **Total Value:** $${totalDeployed.toFixed(2)}\n`;
-        message += `🦑 **Earning:** ${earnings} automatically\n\n`;
+        // Add Index Positions
+        let totalIndexValue = 0;
+        try {
+          const { getUserIndexPositions } = await import('../services/index-tokens/index-balance');
+          const userIndexPositions = await getUserIndexPositions(userId);
+          
+          for (const position of userIndexPositions) {
+            if (position.currentValue > 0.01) {
+              const categoryEmoji = position.category === 'blue_chip' ? '🏦' : '📊';
+              message += `• $${position.currentValue.toFixed(2)} in ${position.symbol} Index\n`;
+              totalIndexValue += position.currentValue;
+            }
+          }
+        } catch (error) {
+          console.error('Error fetching index positions for main menu:', error);
+        }
+        
+        const grandTotal = totalDeployed + totalIndexValue;
+        message += `\n💸 **Total Value:** $${grandTotal.toFixed(2)}\n`;
+        if (totalIndexValue > 0 && totalDeployed > 0) {
+          message += `🦑 **DeFi Earnings:** ${earnings} automatically\n`;
+          message += `📊 **Index Investments:** $${totalIndexValue.toFixed(2)} tracking market performance\n\n`;
+        } else if (totalDeployed > 0) {
+          message += `🦑 **Earning:** ${earnings} automatically\n\n`;
+        } else if (totalIndexValue > 0) {
+          message += `📊 **Index Investments:** $${totalIndexValue.toFixed(2)} tracking market performance\n\n`;
+        }
         message += `✅ Interest compounds automatically\n`;
         message += `✅ Withdraw anytime, no penalties or lock-ups\n`;
         message += `✅ inkvest pays for the transaction\n\n`;

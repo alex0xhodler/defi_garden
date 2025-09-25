@@ -30,6 +30,23 @@ import withdrawHandler, {
   handleWithdrawCallbacks,
   handleWithdrawAmountInput,
 } from "./src/commands/withdraw";
+import indexTokensHandler, {
+  handleIndexCategorySelection,
+  handleIndexTokenSelection,
+  handleIndexAmountInput,
+  handleIndexPurchaseConfirmation,
+  handleIndexQuickAmount,
+  handleViewIndexPositions,
+  handleSellIndexPositions,
+  handleSellIndexToken,
+  handleSellIndexAmount,
+  handleSellIndexCustomAmount,
+  handleIndexSellConfirmation,
+  handleIndexSellAmountInput,
+  handleIndexRetryAfterTransfer,
+  handleIndexCancelTransfer,
+  handleSelectAddress,
+} from "./src/commands/index-tokens";
 
 // Load environment variables
 dotenv.config();
@@ -69,6 +86,7 @@ bot.command(harvestHandler.command, harvestHandler.handler);
 bot.command(settingsHandler.command, settingsHandler.handler);
 bot.command(depositHandler.command, depositHandler.handler);
 bot.command(withdrawHandler.command, withdrawHandler.handler);
+bot.command(indexTokensHandler.command, indexTokensHandler.handler);
 bot.command(helpHandler.command, helpHandler.handler);
 
 // Set bot commands menu
@@ -82,6 +100,7 @@ bot.api.setMyCommands([
   { command: settingsHandler.command, description: settingsHandler.description },
   { command: depositHandler.command, description: depositHandler.description },
   { command: withdrawHandler.command, description: withdrawHandler.description },
+  { command: indexTokensHandler.command, description: indexTokensHandler.description },
   { command: helpHandler.command, description: helpHandler.description },
 ]);
 
@@ -150,24 +169,87 @@ async function handleRetryPendingTransaction(ctx: BotContext) {
       return;
     }
     
-    // Set up session for transaction execution
-    ctx.session.tempData = {
-      amount: pending.amount.toString(),
-      selectedPool: pending.poolId,
-      poolInfo: {
-        protocol: pending.protocol,
-        apy: pending.apy
+    // Check if this is an index token purchase
+    if (pending.service === 'index-tokens' && pending.deployFn === 'buyIndexToken') {
+      // Handle index token purchase retry
+      console.log(`🔄 Retrying index token purchase: $${pending.amount} for ${pending.poolId}`);
+      
+      ctx.session.tempData = {
+        indexData: {
+          selectedIndexToken: pending.poolId,
+          selectedCategory: pending.poolInfo?.category,
+          amount: pending.amount.toString()
+        }
+      };
+      ctx.session.currentAction = "index_confirm";
+      
+      // Clear pending transaction
+      clearPendingTransaction(ctx);
+      
+      // Execute the index token purchase
+      await ctx.reply("⏳ **Processing your index token purchase...**\n\n🔄 This may take 30-60 seconds.");
+      
+      const { buyIndexToken } = await import("./src/services/index-tokens/index-core");
+      const { getIndexTokenById } = await import("./src/lib/database");
+      
+      const result = await buyIndexToken(ctx.session.userId!, pending.poolId, pending.amount.toString());
+      
+      if (result.success) {
+        const token = getIndexTokenById(pending.poolId);
+        
+        await ctx.reply(
+          `✅ **Index Token Purchase Successful!**\n\n` +
+          `💰 **Invested**: $${pending.amount} USDC\n` +
+          `📊 **Token**: ${token?.symbol} (${token?.name})\n` +
+          `🪙 **Received**: ${result.tokensReceived} tokens\n` +
+          `💱 **Price**: $${result.pricePerToken?.toFixed(4)} per token\n` +
+          `🔗 **Transaction**: \`${result.txHash}\`\n\n` +
+          `🎉 Your index position is now active! Use /index to view your positions.`,
+          { 
+            parse_mode: "Markdown",
+            reply_markup: new InlineKeyboard()
+              .text("📊 View Positions", "view_index_positions")
+              .text("🛍️ Buy More", "index_main")
+          }
+        );
+      } else {
+        await ctx.reply(
+          `❌ **Index Token Purchase Failed**\n\n` +
+          `**Error**: ${result.error}\n\n` +
+          `Your USDC is safe. Please try again or contact support if the issue persists.`,
+          {
+            parse_mode: "Markdown",
+            reply_markup: new InlineKeyboard()
+              .text("🔄 Try Again", "index_main")
+              .text("💰 Check Balance", "check_balance")
+          }
+        );
       }
-    };
-    
-    ctx.session.currentAction = "zap_confirm";
-    
-    // Clear pending transaction
-    clearPendingTransaction(ctx);
-    
-    // Execute the investment
-    await ctx.reply("⏳ **Processing your investment...**\n\nThis may take 30-60 seconds.");
-    await handleZapConfirmation(ctx, true);
+      
+      // Reset session
+      ctx.session.currentAction = undefined;
+      ctx.session.tempData = {};
+      
+    } else {
+      // Handle yield farming protocol retry (existing logic)
+      ctx.session.tempData = {
+        amount: pending.amount.toString(),
+        selectedPool: pending.poolId,
+        poolInfo: {
+          protocol: pending.protocol,
+          apy: pending.apy
+        }
+      };
+      
+      ctx.session.currentAction = "zap_confirm";
+      
+      // Clear pending transaction
+      clearPendingTransaction(ctx);
+      
+      // Execute the investment
+      await ctx.reply("⏳ **Processing your investment...**\n\nThis may take 30-60 seconds.");
+      await handleZapConfirmation(ctx, true);
+    }
     
     await ctx.answerCallbackQuery("Investment started!");
     
@@ -409,6 +491,120 @@ async function handleManualDepositCheck(ctx: BotContext) {
   }
 }
 
+async function handleIndexAdjustConfirm(ctx: BotContext) {
+  try {
+    // Get the adjusted amount from session or temp data
+    const adjustedAmount = ctx.session.tempData?.adjustedAmount;
+    const tokenId = ctx.session.tempData?.selectedIndexToken;
+    
+    if (!adjustedAmount || !tokenId) {
+      await ctx.reply("❌ Missing purchase details. Please try again.");
+      await ctx.answerCallbackQuery();
+      return;
+    }
+    
+    // Update the session with adjusted amount
+    ctx.session.tempData = ctx.session.tempData || {};
+    ctx.session.tempData.amount = adjustedAmount;
+    
+    // Proceed with the purchase using the adjusted amount
+    await ctx.reply("⏳ **Processing your index token purchase...**\n\n🔄 This may take 30-60 seconds.");
+    
+    const { buyIndexToken } = await import("./src/services/index-tokens/index-core");
+    const { getIndexTokenById } = await import("./src/lib/database");
+    
+    const result = await buyIndexToken(ctx.session.userId!, tokenId, adjustedAmount);
+    
+    if (result.success) {
+      const token = getIndexTokenById(tokenId);
+      
+      await ctx.reply(
+        `✅ **Index Token Purchase Successful!**\n\n` +
+        `💰 **Invested**: $${adjustedAmount} USDC\n` +
+        `📊 **Token**: ${token?.symbol} (${token?.name})\n` +
+        `🪙 **Received**: ${result.tokensReceived} tokens\n` +
+        `💱 **Price**: $${result.pricePerToken?.toFixed(4)} per token\n` +
+        `🔗 **Transaction**: \`${result.txHash}\`\n\n` +
+        `🎉 Your index position is now active! Use /index to view your positions.`,
+        { 
+          parse_mode: "Markdown",
+          reply_markup: new InlineKeyboard()
+            .text("📊 View Positions", "view_index_positions")
+            .text("🛍️ Buy More", "index_main")
+        }
+      );
+    } else {
+      await ctx.reply(
+        `❌ **Index Token Purchase Failed**\n\n` +
+        `**Error**: ${result.error}\n\n` +
+        `Your USDC is safe. Please try again or contact support if the issue persists.`,
+        {
+          parse_mode: "Markdown",
+          reply_markup: new InlineKeyboard()
+            .text("🔄 Try Again", "index_main")
+            .text("💰 Check Balance", "check_balance")
+        }
+      );
+    }
+    
+    // Reset session
+    ctx.session.currentAction = undefined;
+    ctx.session.tempData = {};
+    
+    await ctx.answerCallbackQuery("Purchase completed");
+    
+  } catch (error) {
+    console.error("Error handling index adjust confirm:", error);
+    await ctx.reply("❌ An error occurred while processing your purchase. Please try again.");
+    await ctx.answerCallbackQuery();
+  }
+}
+
+async function handleIndexAdjustChange(ctx: BotContext) {
+  try {
+    // Reset to amount input mode
+    ctx.session.currentAction = "index_amount";
+    // Keep the selected token info but clear amount
+    if (ctx.session.tempData) {
+      delete ctx.session.tempData.amount;
+      delete ctx.session.tempData.adjustedAmount;
+    }
+    
+    await ctx.reply("💰 **Enter New Amount**\n\nPlease enter the new amount you'd like to invest in USDC:");
+    await ctx.answerCallbackQuery("Enter new amount");
+    
+  } catch (error) {
+    console.error("Error handling index adjust change:", error);
+    await ctx.reply("❌ An error occurred. Please try again.");
+    await ctx.answerCallbackQuery();
+  }
+}
+
+async function handleIndexAdjustCancel(ctx: BotContext) {
+  try {
+    // Clear all session data
+    ctx.session.tempData = {};
+    ctx.session.currentAction = undefined;
+    
+    await ctx.reply(
+      "❌ **Index Token Purchase Cancelled**\n\n" +
+      "Your funds remain safe in your wallet. You can buy index tokens anytime using /index.",
+      {
+        reply_markup: new InlineKeyboard()
+          .text("🛍️ Browse Index Tokens", "index_main")
+          .text("💰 Check Balance", "check_balance")
+      }
+    );
+    
+    await ctx.answerCallbackQuery("Purchase cancelled");
+    
+  } catch (error) {
+    console.error("Error handling index adjust cancel:", error);
+    await ctx.reply("❌ An error occurred while cancelling. Please try again.");
+    await ctx.answerCallbackQuery();
+  }
+}
+
 // Handle callback queries
 bot.on("callback_query:data", async (ctx) => {
   const callbackData = ctx.callbackQuery.data;
@@ -480,6 +676,117 @@ bot.on("callback_query:data", async (ctx) => {
     await withdrawHandler.handler(ctx);
   } else if (callbackData === "help") {
     await helpHandler.handler(ctx);
+  } else if (callbackData === "index_main") {
+    console.log('🗎 INDEX_MAIN callback triggered');
+    await indexTokensHandler.handler(ctx);
+    console.log('🗎 INDEX_MAIN callback completed');
+  } else if (callbackData.startsWith("index_category_")) {
+    const category = callbackData.replace("index_category_", "");
+    await handleIndexCategorySelection(ctx, category as any);
+  } else if (callbackData.startsWith("index_token_")) {
+    const indexTokenId = callbackData.replace("index_token_", "");
+    
+    // Handle OPEN coming soon
+    if (indexTokenId === "open_coming_soon") {
+      await ctx.answerCallbackQuery();
+      await ctx.reply(
+        "🌍 **OPEN - Open Stablecoin Index**\n\n" +
+        "🗺 **Equal-Weight Stablecoin Protocol Index**\n" +
+        "• Tracks leading stablecoin networks\n" +
+        "• Focus on transparency & decentralized governance\n" +
+        "• Evaluates asset-backing, peg design, safety\n" +
+        "• Risk Level: 5/10\n\n" +
+        "🗺 **Top Holdings (Equal Weight):**\n" +
+        "• INV (Inverse DAO) - 15.6%\n" +
+        "• AAVE (Aave Token) - 11.5%\n" +
+        "• OGN (Origin Token) - 10.9%\n" +
+        "• ALCX (Alchemix) - 10.6%\n" +
+        "• SKY, FXS, FXN, CRV, RSR, LQTY\n\n" +
+        "🏦 **Governance:**\n" +
+        "• Governed by SQUILL token holders\n" +
+        "• Vote-locked governance participation\n" +
+        "• Community-driven basket changes\n\n" +
+        "🔔 **Coming Soon on inkvest bot!**\n" +
+        "👉 Learn more: openstablecoinindex.com",
+        { 
+          parse_mode: "Markdown",
+          reply_markup: new InlineKeyboard()
+            .text("🏦 Buy LCAP Instead", "index_token_blue_chip_01")
+            .row()
+            .text("🔙 Back to Index Tokens", "index_main")
+        }
+      );
+      return;
+    }
+    
+    await handleIndexTokenSelection(ctx, indexTokenId);
+  } else if (callbackData.startsWith("sell_index_token_")) {
+    const indexTokenId = callbackData.replace("sell_index_token_", "");
+    await handleSellIndexToken(ctx, indexTokenId);
+  } else if (callbackData.startsWith("sell_index_amount_")) {
+    // Parse: sell_index_amount_tokenId_percentage
+    // Need to be careful with tokenIds that contain underscores
+    const afterPrefix = callbackData.replace("sell_index_amount_", "");
+    const lastUnderscoreIndex = afterPrefix.lastIndexOf("_");
+    const indexTokenId = afterPrefix.substring(0, lastUnderscoreIndex);
+    const percentage = parseInt(afterPrefix.substring(lastUnderscoreIndex + 1));
+    await handleSellIndexAmount(ctx, indexTokenId, percentage);
+  } else if (callbackData.startsWith("sell_index_custom_")) {
+    const indexTokenId = callbackData.replace("sell_index_custom_", "");
+    await handleSellIndexCustomAmount(ctx, indexTokenId);
+  } else if (callbackData.startsWith("index_amount_")) {
+    const amount = callbackData.replace("index_amount_", "");
+    await handleIndexQuickAmount(ctx, amount);
+  } else if (callbackData === "index_confirm_yes") {
+    await handleIndexPurchaseConfirmation(ctx, true);
+  } else if (callbackData === "index_confirm_no") {
+    await handleIndexPurchaseConfirmation(ctx, false);
+  } else if (callbackData === "index_sell_confirm_yes") {
+    await handleIndexSellConfirmation(ctx, true);
+  } else if (callbackData === "index_sell_confirm_no") {
+    await handleIndexSellConfirmation(ctx, false);
+  } else if (callbackData === "view_index_positions") {
+    await handleViewIndexPositions(ctx);
+  } else if (callbackData === "sell_index_positions") {
+    await handleSellIndexPositions(ctx);
+  } else if (callbackData === "index_retry_after_transfer") {
+    const { handleIndexRetryAfterTransfer } = await import("./src/commands/index-tokens");
+    await handleIndexRetryAfterTransfer(ctx);
+  } else if (callbackData === "index_cancel_transfer") {
+    const { handleIndexCancelTransfer } = await import("./src/commands/index-tokens");
+    await handleIndexCancelTransfer(ctx);
+  } else if (callbackData.startsWith("select_address_")) {
+    const address = callbackData.replace("select_address_", "");
+    const { handleSelectAddress } = await import("./src/commands/index-tokens");
+    await handleSelectAddress(ctx, address);
+  } else if (callbackData === "start_bot") {
+    // Redirect to start command
+    await startHandler.handler(ctx);
+    await ctx.answerCallbackQuery();
+  } else if (callbackData === "main_menu") {
+    // Show main menu
+    const { createMainMenuKeyboard, getMainMenuMessage } = await import("./src/utils/mainMenu");
+    const firstName = ctx.from?.first_name || "there";
+    
+    // Get wallet address from session or database
+    let walletAddress = ctx.session.walletAddress;
+    if (!walletAddress && ctx.session.userId) {
+      const { getWallet } = await import("./src/lib/token-wallet");
+      const wallet = await getWallet(ctx.session.userId);
+      if (wallet) {
+        walletAddress = wallet.address;
+        ctx.session.walletAddress = wallet.address;
+      }
+    }
+
+    await ctx.editMessageText(
+      await getMainMenuMessage(firstName, walletAddress, ctx.session.userId),
+      { 
+        parse_mode: "Markdown",
+        reply_markup: createMainMenuKeyboard() 
+      }
+    );
+    await ctx.answerCallbackQuery();
   } else if (callbackData === "manual_balance_check") {
     // Manual balance check for onboarding users - Start monitoring for deposits
     const userId = ctx.session.userId;
@@ -1073,6 +1380,15 @@ bot.on("callback_query:data", async (ctx) => {
     await handleManualDepositCheck(ctx);
   } 
   
+  // Index token adjustment callbacks
+  else if (callbackData === "index_adjust_confirm") {
+    await handleIndexAdjustConfirm(ctx);
+  } else if (callbackData === "index_adjust_change") {
+    await handleIndexAdjustChange(ctx);
+  } else if (callbackData === "index_adjust_cancel") {
+    await handleIndexAdjustCancel(ctx);
+  }
+  
   else {
     await ctx.answerCallbackQuery("Unknown command");
   }
@@ -1095,6 +1411,12 @@ bot.on("message:text", async (ctx) => {
       break;
     case "zap_amount":
       await handleZapAmountInput(ctx);
+      break;
+    case "index_amount":
+      await handleIndexAmountInput(ctx);
+      break;
+    case "index_sell_amount":
+      await handleIndexSellAmountInput(ctx);
       break;
     case "withdraw_eth_address":
     case "withdraw_usdc_address":
@@ -1139,9 +1461,10 @@ bot.command("help", async (ctx) => {
       "/start - Start the bot and create/import wallet\n" +
       "/wallet - Show wallet address\n" +
       "/balance - Show token balances\n\n" +
-      "*DeFi Commands:*\n" +
-      "/portfolio - View your yield farming positions\n" +
+      "*Investment Commands:*\n" +
+      "/portfolio - View your yield farming and index positions\n" +
       "/zap - Auto-deploy funds to best yield opportunities\n" +
+      "/index - Buy diversified index tokens\n" +
       "/harvest - Claim yields and compound rewards\n" +
       "/settings - Adjust risk tolerance and slippage\n\n" +
       "*Transfer Commands:*\n" +

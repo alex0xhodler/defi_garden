@@ -19,6 +19,7 @@ export interface PendingTransaction {
   displayName?: string;
   project?: string;
   riskScore?: number;
+  poolInfo?: any; // Store additional pool metadata for retry
 }
 
 export interface InsufficientBalanceDetails {
@@ -51,7 +52,8 @@ export function storePendingTransaction(ctx: BotContext, details: InsufficientBa
     service: details.poolInfo?.service,
     displayName: details.poolInfo?.displayName || details.protocol,
     project: details.poolInfo?.project || details.protocol,
-    riskScore: details.poolInfo?.riskScore
+    riskScore: details.poolInfo?.riskScore,
+    poolInfo: details.poolInfo // Store full poolInfo for retry
   };
 
   // Store in in-memory session
@@ -145,29 +147,54 @@ export function clearPendingTransaction(ctx: BotContext): void {
 export function generateSmartMessage(details: InsufficientBalanceDetails): string {
   const { currentBalance, requestedAmount, shortage, protocol, apy } = details;
   
-  return `💳 **Smart Savings Assistant**\n\n` +
+  let message = `💳 **Smart Investment Assistant**\n\n` +
     `You're **$${shortage.toFixed(2)} short** for this investment:\n` +
-    `• Protocol: **${protocol}**\n` +
-    `• Target APY: **${apy}%**\n` +
-    `• Your balance: $${currentBalance.toFixed(2)}\n` +
+    `• Investment: **${protocol}**\n`;
+  
+  // Only show APY if it's greater than 0 (yield farming protocols)
+  if (apy > 0) {
+    message += `• Target APY: **${apy}%**\n`;
+  }
+  
+  message += `• Your balance: $${currentBalance.toFixed(2)}\n` +
     `• Needed: $${requestedAmount.toFixed(2)}\n\n` +
     `**Deposit USDC to continue:**\n`;
+    
+  return message;
 }
 
 /**
  * Create smart recovery keyboard with contextual options
  */
 export function createSmartRecoveryKeyboard(details: InsufficientBalanceDetails): InlineKeyboard {
-  const { shortage, currentBalance } = details;
+  const { shortage, currentBalance, poolInfo } = details;
   
-  return new InlineKeyboard()
-    .text(`📥 Deposit $${shortage.toFixed(2)}`, "deposit")
-    .text("🔍 Check Deposit", "manual_deposit_check")
-    .row()
-    .text(`💰 Invest $${currentBalance.toFixed(2)} Now`, "invest_available")
-    .text("🔄 Change Amount", "modify_amount")
-    .row()
-    .text("❌ Cancel", "cancel_investment");
+  // Check if this is an index token purchase
+  const isIndexToken = poolInfo?.service === 'index-tokens' || poolInfo?.deployFn === 'buyIndexToken';
+  
+  if (isIndexToken) {
+    // Index token specific keyboard with vertical layout
+    return new InlineKeyboard()
+      .text(`✅ Invest $${currentBalance.toFixed(2)} Now`, "index_adjust_confirm")
+      .row()
+      .text(`📥 Deposit $${shortage.toFixed(2)} More`, "deposit")
+      .row()
+      .text("🔍 Check Deposit", "manual_deposit_check")
+      .row()
+      .text("🔄 Change Amount", "index_adjust_change")
+      .row()
+      .text("❌ Cancel", "index_adjust_cancel");
+  } else {
+    // Standard yield investment keyboard
+    return new InlineKeyboard()
+      .text(`📥 Deposit $${shortage.toFixed(2)}`, "deposit")
+      .text("🔍 Check Deposit", "manual_deposit_check")
+      .row()
+      .text(`💰 Invest $${currentBalance.toFixed(2)} Now`, "invest_available")
+      .text("🔄 Change Amount", "modify_amount")
+      .row()
+      .text("❌ Cancel", "cancel_investment");
+  }
 }
 
 /**
@@ -186,6 +213,20 @@ export async function sendInsufficientBalanceFlow(
 
     // Store pending transaction
     storePendingTransaction(ctx, details);
+    
+    // For index tokens, also store session data for the adjust handlers
+    const isIndexToken = details.poolInfo?.service === 'index-tokens' || details.poolInfo?.deployFn === 'buyIndexToken';
+    if (isIndexToken) {
+      const tempData = ctx.session.tempData as any || {};
+      tempData.indexData = {
+        selectedIndexToken: details.poolId,
+        amount: details.requestedAmount.toString(),
+        adjustedAmount: details.currentBalance.toString(),
+        originalAmount: details.requestedAmount.toString()
+      };
+      ctx.session.tempData = tempData;
+      ctx.session.currentAction = "index_adjust";
+    }
 
     // Start 5-minute monitoring window with manual selection context
     startDepositMonitoringWithContext(userId, 'manual_selection', 5, {

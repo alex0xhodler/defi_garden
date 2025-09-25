@@ -625,6 +625,135 @@ async function handleManualProtocolCompletion(userId, firstName, amount, tokenSy
       riskScore: pendingTransaction.riskScore || 3
     };
     
+    // Special handling for index tokens - check current balance and offer options instead of auto-deploying
+    if (selectedProtocol.service === '../services/index-tokens/index-core' || selectedProtocol.deployFn === 'buyIndexToken') {
+      console.log(`📊 Index token detected: Checking balance and offering options instead of auto-deploying`);
+      
+      // Get current total balance
+      const { getCoinbaseWalletUSDCBalance } = require("../lib/coinbase-wallet");
+      const { getCoinbaseSmartWallet } = require("../lib/coinbase-wallet");
+      
+      const wallet = await getCoinbaseSmartWallet(userId);
+      let currentBalance = parseFloat(amount); // fallback
+      
+      if (wallet && wallet.smartAccount) {
+        const balanceStr = await getCoinbaseWalletUSDCBalance(wallet.smartAccount.address);
+        currentBalance = parseFloat(balanceStr) || parseFloat(amount);
+      }
+      
+      const originalAmount = pendingTransaction.amount;
+      const shortage = originalAmount - currentBalance;
+      
+      console.log(`📊 Index balance check: User has $${currentBalance}, wanted $${originalAmount}, shortage: $${shortage}`);
+      
+      // Send deposit confirmation with options
+      const { InlineKeyboard } = require("grammy");
+      const { formatTxLink } = require("../utils/earnings");
+      
+      if (shortage <= 0) {
+        // User now has enough - offer to complete with original requested amount
+        const keyboard = new InlineKeyboard()
+          .text(`✅ Buy $${originalAmount} ${selectedProtocol.protocol}`, "retry_pending_transaction")
+          .row()
+          .text("💰 Keep in Wallet", "cancel_pending_transaction")
+          .text("🎯 View Options", "main_menu");
+        
+        await monitorBot.api.sendMessage(
+          userId,
+          `🎉 **Perfect ${firstName}!**\n\n` +
+          `You deposited **$${amount} ${tokenSymbol}**\n` +
+          `✅ You now have **$${currentBalance.toFixed(2)}** total!\n\n` +
+          `**Ready to complete your index token purchase:**\n` +
+          `• Token: ${selectedProtocol.protocol}\n` +
+          `• Amount: $${originalAmount}\n\n` +
+          `Deposit TX: ${formatTxLink(txHash)}\n\n` +
+          `Shall I complete your purchase now?`,
+          { 
+            parse_mode: "Markdown",
+            reply_markup: keyboard
+          }
+        );
+        
+      } else if (currentBalance >= 1) {
+        // User has some funds but not enough - offer adjustment options
+        const keyboard = new InlineKeyboard()
+          .text(`✅ Buy $${currentBalance.toFixed(2)} ${selectedProtocol.protocol}`, "index_adjust_confirm")
+          .row()
+          .text(`📥 Deposit $${shortage.toFixed(2)} More`, "deposit")
+          .row()
+          .text("🔄 Change Amount", "index_adjust_change")
+          .row()
+          .text("❌ Cancel", "index_adjust_cancel");
+          
+        await monitorBot.api.sendMessage(
+          userId,
+          `💡 **More Options Available ${firstName}!**\n\n` +
+          `+$${amount} ${tokenSymbol} deposited\n` +
+          `💰 **Your balance**: $${currentBalance.toFixed(2)} USDC\n` +
+          `🎯 **You wanted**: $${originalAmount} ${selectedProtocol.protocol}\n` +
+          `💸 **Still need**: $${shortage.toFixed(2)}\n\n` +
+          `**What would you like to do?**\n` +
+          `• Buy with your current balance\n` +
+          `• Deposit more to reach your target\n` +
+          `• Change the investment amount\n\n` +
+          `Deposit TX: ${formatTxLink(txHash)}`,
+          { 
+            parse_mode: "Markdown",
+            reply_markup: keyboard
+          }
+        );
+        
+        // Store adjustment data for index handlers
+        try {
+          const { getDatabase } = require("../lib/database");
+          const db = getDatabase();
+          const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
+          
+          if (userSession && userSession.session_data) {
+            const sessionData = JSON.parse(userSession.session_data);
+            if (!sessionData.tempData) sessionData.tempData = {};
+            if (!sessionData.tempData.indexData) sessionData.tempData.indexData = {};
+            
+            sessionData.tempData.indexData.adjustedAmount = currentBalance.toString();
+            sessionData.tempData.indexData.originalAmount = originalAmount.toString();
+            sessionData.tempData.indexData.selectedIndexToken = pendingTransaction.poolId;
+            sessionData.currentAction = "index_adjust";
+            
+            db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
+              .run(JSON.stringify(sessionData), userId);
+          }
+        } catch (storeError) {
+          console.error("Error storing adjustment data:", storeError);
+        }
+        
+      } else {
+        // User still has very little - continue with insufficient balance flow
+        const keyboard = new InlineKeyboard()
+          .text(`📥 Deposit $${shortage.toFixed(2)} More`, "deposit")
+          .text("🔍 Check Balance", "manual_deposit_check")
+          .row()
+          .text("❌ Cancel", "cancel_pending_transaction");
+          
+        await monitorBot.api.sendMessage(
+          userId,
+          `💳 **More Funds Needed ${firstName}**\n\n` +
+          `+$${amount} ${tokenSymbol} received\n` +
+          `💰 **Your balance**: $${currentBalance.toFixed(2)} USDC\n` +
+          `🎯 **You want**: $${originalAmount} ${selectedProtocol.protocol}\n` +
+          `💸 **Still need**: $${shortage.toFixed(2)}\n\n` +
+          `Minimum for ${selectedProtocol.protocol}: $1.00\n\n` +
+          `Deposit TX: ${formatTxLink(txHash)}`,
+          { 
+            parse_mode: "Markdown",
+            reply_markup: keyboard
+          }
+        );
+      }
+      
+      return; // Exit early for index tokens - don't auto-deploy
+    }
+    
+    // For non-index tokens (yield farming), continue with original auto-deploy logic
     // Send notification about completing their choice
     await monitorBot.api.sendMessage(
       userId,

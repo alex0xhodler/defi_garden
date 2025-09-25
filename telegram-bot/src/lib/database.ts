@@ -164,6 +164,13 @@ export function initDatabase(): void {
       console.error("Error adding session_data column:", error);
     }
   }
+  
+  // Run index tables migration
+  try {
+    runIndexTablesMigration();
+  } catch (error: any) {
+    console.error("Error running index tables migration:", error);
+  }
 }
 
 // User operations

@@ -55,10 +55,34 @@ export const balanceHandler: CommandHandler = {
       try {
         // Get wallet balances
         const ethBalance = await getEthBalance(wallet.address);
-        const tokenBalances = await getMultipleTokenBalances(
-          [BASE_TOKENS.USDC],
-          wallet.address as Address
-        );
+        
+        // Get USDC balances from both EOA and Smart Wallet (if applicable)
+        const { checkAllUSDCBalances } = await import("../lib/coinbase-wallet");
+        let smartWalletUsdcBalance = 0;
+        let eoaUsdcBalance = 0;
+        let showBothBalances = false;
+        
+        const balances = await checkAllUSDCBalances(userId).catch(error => {
+          console.error('❌ Error checking dual USDC balances:', error);
+          return null;
+        });
+        
+        if (balances) {
+          smartWalletUsdcBalance = parseFloat(balances.smartWalletBalance);
+          eoaUsdcBalance = parseFloat(balances.eoaBalance);
+          // Show both balances if EOA has funds
+          showBothBalances = eoaUsdcBalance > 0.01;
+        } else {
+          // Fallback to regular wallet balance check
+          const tokenBalances = await getMultipleTokenBalances(
+            [BASE_TOKENS.USDC],
+            wallet.address as Address
+          );
+          const usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
+          if (usdcBalance) {
+            smartWalletUsdcBalance = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
+          }
+        }
 
         // Get DeFi positions
         const { getAaveBalance, getFluidBalance, getCompoundBalance } = await import("../lib/token-wallet");
@@ -110,14 +134,20 @@ export const balanceHandler: CommandHandler = {
           hasAnyBalance = true;
         }
 
-        // USDC Balance (show if > 0.01)
-        const usdcBalance = tokenBalances.find(token => token.symbol === "USDC");
-        if (usdcBalance) {
-          const usdcNum = parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2));
-          if (usdcNum > 0.01) {
-            message += `💵 **USDC**: $${usdcNum.toFixed(2)}\n`;
-            hasAnyBalance = true;
+        // USDC Balance display - show EOA and Smart Wallet separately if both exist
+        const totalUsdcBalance = smartWalletUsdcBalance + eoaUsdcBalance;
+        if (totalUsdcBalance > 0.01) {
+          if (showBothBalances) {
+            // Show both balances clearly labeled
+            message += `💵 **USDC**:\n`;
+            message += `  • Smart Wallet: $${smartWalletUsdcBalance.toFixed(2)} (bot-controlled)\n`;
+            message += `  • EOA Wallet: $${eoaUsdcBalance.toFixed(2)} (manual transfer needed)\n`;
+            message += `  • Total: $${totalUsdcBalance.toFixed(2)}\n`;
+          } else {
+            // Show single balance
+            message += `💵 **USDC**: $${totalUsdcBalance.toFixed(2)}\n`;
           }
+          hasAnyBalance = true;
         }
 
         // DeFi Positions (show if > 0.01)
@@ -185,14 +215,38 @@ export const balanceHandler: CommandHandler = {
           hasAnyBalance = true;
         }
 
+        // Get Index Positions
+        const { getUserIndexPositions } = await import("../services/index-tokens/index-balance");
+        let indexPositions = "";
+        let totalIndexValue = 0;
+        
+        try {
+          const userIndexPositions = await getUserIndexPositions(userId);
+          console.log(`🔍 Balance command - Index positions: ${userIndexPositions.length} positions, $${userIndexPositions.reduce((sum: number, p: any) => sum + p.currentValue, 0).toFixed(2)} total value`);
+          
+          for (const position of userIndexPositions) {
+            if (position.currentValue > 0.01) {
+              const categoryEmoji = position.category === 'blue_chip' ? '🏦' : '📊';
+              indexPositions += `${categoryEmoji} **${position.symbol}**: $${position.currentValue.toFixed(2)}\n`;
+              totalIndexValue += position.currentValue;
+              hasAnyBalance = true;
+            }
+          }
+        } catch (error) {
+          console.error('Error fetching index positions for balance:', error);
+        }
+
         if (defiPositions) {
           message += `\n🦑 **Earning Positions**:\n${defiPositions}`;
         }
+        
+        if (indexPositions) {
+          message += `\n📊 **Index Positions**:\n${indexPositions}`;
+        }
 
-        // Show total if user has DeFi positions
-        if (totalDefiValue > 0) {
-          const usdcNum = usdcBalance ? parseFloat(formatTokenAmount(usdcBalance.balance, 6, 2)) : 0;
-          const totalValue = usdcNum + totalDefiValue;
+        // Show total if user has any positions
+        if (totalDefiValue > 0 || totalIndexValue > 0) {
+          const totalValue = totalUsdcBalance + totalDefiValue + totalIndexValue;
           message += `\n💎 **Total Value**: $${totalValue.toFixed(2)}`;
         }
 

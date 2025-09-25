@@ -55,7 +55,38 @@ const portfolioHandler: CommandHandler = {
       const { getSeamlessBalance } = await import("../services/seamless-defi");
       const { getMoonwellBalance } = await import("../services/moonwell-defi");
       const { getMorphoRe7Balance } = await import("../services/morpho-re7-defi");
-      const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance, morphoRe7Balance, usdcBalance] = await Promise.all([
+      
+      // Fetch USDC balances for both Smart Wallet and EOA (if they exist and differ)
+      const { checkAllUSDCBalances } = await import("../lib/coinbase-wallet");
+      let smartWalletUsdcBalance = 0;
+      let eoaUsdcBalance = 0;
+      let smartWalletAddress: string | null = null;
+      let eoaAddress: string | null = null;
+      let showBothBalances = false;
+      
+      if (smartWallet) {
+        // User has a Smart Wallet - check both addresses
+        const balances = await checkAllUSDCBalances(userId).catch(error => {
+          console.error('❌ Error checking dual USDC balances:', error);
+          return null;
+        });
+        
+        if (balances) {
+          smartWalletUsdcBalance = parseFloat(balances.smartWalletBalance);
+          eoaUsdcBalance = parseFloat(balances.eoaBalance);
+          smartWalletAddress = balances.smartWalletAddress;
+          eoaAddress = balances.eoaAddress;
+          
+          // Show both balances if EOA has funds or addresses differ
+          showBothBalances = eoaUsdcBalance > 0 || smartWalletAddress !== eoaAddress;
+        }
+      } else {
+        // Regular wallet - just get the single balance
+        const usdcBalance = await getTokenBalance(BASE_TOKENS.USDC, walletAddress);
+        smartWalletUsdcBalance = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
+      }
+      
+      const [aaveBalance, fluidBalance, compoundBalance, morphoBalance, sparkBalance, seamlessBalance, moonwellBalance, morphoRe7Balance] = await Promise.all([
         getAaveBalance(walletAddress),
         getFluidBalance(walletAddress),
         getCompoundBalance(walletAddress),
@@ -78,8 +109,7 @@ const portfolioHandler: CommandHandler = {
         smartWallet?.smartAccount?.address ? getMorphoRe7Balance(smartWallet.smartAccount.address).catch(error => {
           console.error(`❌ Portfolio command - Morpho Re7 balance fetch failed for ${smartWallet?.smartAccount?.address}:`, error);
           return { assetsFormatted: '0.00' };
-        }) : Promise.resolve({ assetsFormatted: '0.00' }),
-        getTokenBalance(BASE_TOKENS.USDC, walletAddress)
+        }) : Promise.resolve({ assetsFormatted: '0.00' })
       ]);
 
       const aaveBalanceNum = parseFloat(aaveBalance.aUsdcBalanceFormatted);
@@ -90,36 +120,71 @@ const portfolioHandler: CommandHandler = {
       const seamlessBalanceNum = parseFloat(seamlessBalance.assetsFormatted);
       const moonwellBalanceNum = parseFloat(moonwellBalance.assetsFormatted);
       const morphoRe7BalanceNum = parseFloat(morphoRe7Balance.assetsFormatted);
-      const usdcBalanceNum = parseFloat(usdcBalance) / 1e6; // Convert from wei to USDC
+      
+      // Total USDC balance (Smart Wallet + EOA if applicable)
+      const totalUsdcBalance = smartWalletUsdcBalance + eoaUsdcBalance;
+      
+      // Log balance info for debugging
+      console.log(`💰 Portfolio USDC balances:`, {
+        smartWallet: `$${smartWalletUsdcBalance.toFixed(2)}`,
+        eoa: `$${eoaUsdcBalance.toFixed(2)}`,
+        total: `$${totalUsdcBalance.toFixed(2)}`,
+        showBoth: showBothBalances
+      });
+      
+      // Fetch index token positions
+      const { getUserIndexPositions } = await import("../services/index-tokens/index-balance");
+      const indexPositions = await getUserIndexPositions(userId).catch(error => {
+        console.error(`❌ Portfolio command - Index positions fetch failed:`, error);
+        return [];
+      });
+      
+      // Calculate total index value
+      const totalIndexValue = indexPositions.reduce((sum, pos) => sum + pos.currentValue, 0);
+      const totalIndexInvested = indexPositions.reduce((sum, pos) => sum + pos.totalInvested, 0);
       
       console.log(`🔍 Portfolio command - Morpho balance: ${morphoBalance.assetsFormatted} → ${morphoBalanceNum}`);
       console.log(`🔍 Portfolio command - Spark balance: ${sparkBalance.assetsFormatted} → ${sparkBalanceNum}`);
       console.log(`🔍 Portfolio command - Seamless balance: ${seamlessBalance.assetsFormatted} → ${seamlessBalanceNum}`);
       console.log(`🔍 Portfolio command - Moonwell balance: ${moonwellBalance.assetsFormatted} → ${moonwellBalanceNum}`);
       console.log(`🔍 Portfolio command - Morpho Re7 balance: ${morphoRe7Balance.assetsFormatted} → ${morphoRe7BalanceNum}`);
+      console.log(`🔍 Portfolio command - Index positions: ${indexPositions.length} positions, $${totalIndexValue.toFixed(2)} total value`);
 
-      // If no DeFi deposits, show empty portfolio
-      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0 && sparkBalanceNum === 0 && seamlessBalanceNum === 0 && moonwellBalanceNum === 0 && morphoRe7BalanceNum === 0) {
+      // If no DeFi deposits AND no index positions, show empty portfolio
+      if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0 && sparkBalanceNum === 0 && seamlessBalanceNum === 0 && moonwellBalanceNum === 0 && morphoRe7BalanceNum === 0 && totalIndexValue === 0) {
         const keyboard = new InlineKeyboard()
           .text("🦑 Start Earning", "zap_funds")
-          .text("📥 Deposit", "deposit")
+          .text("📊 Buy Indexes", "index_main")
           .row()
+          .text("📥 Deposit", "deposit")
           .text("💰 Check Balance", "check_balance")
+          .row()
           .text("📚 Learn More", "help");
 
+        // Build balance breakdown for empty portfolio
+        let balanceBreakdown = '';
+        if (showBothBalances) {
+          balanceBreakdown += `• Smart Wallet USDC: $${smartWalletUsdcBalance.toFixed(2)}\n`;
+          if (eoaUsdcBalance > 0) {
+            balanceBreakdown += `• EOA USDC: $${eoaUsdcBalance.toFixed(2)} (not accessible by bot)\n`;
+          }
+          balanceBreakdown += `• Total USDC: $${totalUsdcBalance.toFixed(2)}\n`;
+        } else {
+          balanceBreakdown += `• Wallet USDC: $${totalUsdcBalance.toFixed(2)}\n`;
+        }
+        
         await ctx.reply(
-          `📊 **Your DeFi Portfolio**\n\n` +
-          `🌱 You haven't started yield farming yet!\n\n` +
+          `📊 **Your Investment Portfolio**\n\n` +
+          `🌱 You haven't started investing yet!\n\n` +
           `**Current Balances**:\n` +
-          `• Wallet USDC: $${usdcBalanceNum.toFixed(2)}\n` +
-          `• Aave Deposits: $0.00\n` +
-          `• Fluid Deposits: $0.00\n` +
-          `• Compound Deposits: $0.00\n\n` +
+          balanceBreakdown +
+          `• Yield Farming: $0.00\n` +
+          `• Index Tokens: $0.00\n\n` +
           `**Get Started**:\n` +
-          `• Use 🦑 Start Earning to auto-deploy to best yields\n` +
-          `• Earn 5%+ APY on your USDC\n` +
-          `• Only vetted, high-TVL protocols\n\n` +
-          `💡 **Tip**: Portfolio now shows real-time blockchain data`,
+          `• 🦑 **Start Earning**: Auto-deploy to best yields (5%+ APY)\n` +
+          `• 📊 **Buy Indexes**: Invest in token baskets for diversification\n` +
+          `• Both options offer gasless transactions!\n\n` +
+          `💡 **Tip**: Portfolio shows real-time blockchain data`,
           {
             parse_mode: "Markdown",
             reply_markup: keyboard
@@ -164,7 +229,8 @@ const portfolioHandler: CommandHandler = {
       } catch (error) {
         console.warn("Failed to fetch real-time APY, using fallback rates:", error);
       }
-      const totalValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum + morphoRe7BalanceNum;
+      const totalYieldValue = aaveBalanceNum + fluidBalanceNum + compoundBalanceNum + morphoBalanceNum + sparkBalanceNum + seamlessBalanceNum + moonwellBalanceNum + morphoRe7BalanceNum;
+      const totalPortfolioValue = totalYieldValue + totalIndexValue;
       
       // Calculate total monthly earnings projection
       const positions = [];
@@ -182,27 +248,69 @@ const portfolioHandler: CommandHandler = {
       
       const monthlyEarnings = positions.reduce((total, pos) => total + (pos.balance * pos.apy / 100) / 12, 0);
       
-      let message = `💰 **Your Investments**\n\n`;
+      let message = `💰 **Your Investment Portfolio**\n\n`;
       
-      // Combined investment overview in flowing format
-      for (const position of positions) {
-        const monthlyFromThis = (position.balance * position.apy / 100) / 12;
-        const yearlyFromThis = position.balance * position.apy / 100;
-        const dailyFromThis = yearlyFromThis / 365;
-        
-        if (monthlyEarnings >= 0.01) {
-          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY,\nearning **~$${monthlyFromThis.toFixed(2)}** monthly with auto-compounding!\n\n`;
-        } else if (dailyFromThis >= 0.001) {
-          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY,\nearning **~$${dailyFromThis.toFixed(3)}** daily with auto-compounding!\n\n`;
-        } else {
-          message += `You've invested **$${position.balance.toFixed(2)}** in ${position.name} at ${position.apy.toFixed(1)}% APY,\nearning **~$${yearlyFromThis.toFixed(2)}** yearly with auto-compounding!\n\n`;
+      // Portfolio Summary
+      message += `📊 **Total Portfolio**: $${totalPortfolioValue.toFixed(2)}\n`;
+      if (totalYieldValue > 0) message += `🦑 Yield Farming: $${totalYieldValue.toFixed(2)}\n`;
+      if (totalIndexValue > 0) message += `📈 Index Tokens: $${totalIndexValue.toFixed(2)}\n`;
+      
+      // USDC Balance Breakdown
+      if (showBothBalances && totalUsdcBalance > 0) {
+        message += `\n**💰 USDC Balance Breakdown**:\n`;
+        message += `• Smart Wallet: $${smartWalletUsdcBalance.toFixed(2)} (bot can use)\n`;
+        if (eoaUsdcBalance > 0) {
+          message += `• EOA Balance: $${eoaUsdcBalance.toFixed(2)} (transfer needed for bot use)\n`;
+        }
+        message += `• **Total**: $${totalUsdcBalance.toFixed(2)}\n`;
+      } else if (totalUsdcBalance > 0) {
+        message += `💰 Available USDC: $${totalUsdcBalance.toFixed(2)}\n`;
+      }
+      
+      message += `\n`;
+      
+      // Yield farming positions
+      if (positions.length > 0) {
+        message += `**🦑 Yield Farming Positions**:\n`;
+        for (const position of positions) {
+          const monthlyFromThis = (position.balance * position.apy / 100) / 12;
+          const yearlyFromThis = position.balance * position.apy / 100;
+          const dailyFromThis = yearlyFromThis / 365;
+          
+          if (monthlyEarnings >= 0.01) {
+            message += `• **$${position.balance.toFixed(2)}** in ${position.name} (${position.apy.toFixed(1)}% APY)\n  Earning ~$${monthlyFromThis.toFixed(2)}/month\n\n`;
+          } else if (dailyFromThis >= 0.001) {
+            message += `• **$${position.balance.toFixed(2)}** in ${position.name} (${position.apy.toFixed(1)}% APY)\n  Earning ~$${dailyFromThis.toFixed(3)}/day\n\n`;
+          } else {
+            message += `• **$${position.balance.toFixed(2)}** in ${position.name} (${position.apy.toFixed(1)}% APY)\n  Earning ~$${yearlyFromThis.toFixed(2)}/year\n\n`;
+          }
+        }
+      }
+      
+      // Index token positions
+      if (indexPositions.length > 0) {
+        message += `**📈 Index Token Positions**:\n`;
+        for (const indexPos of indexPositions) {
+          const pnl = indexPos.currentValue - indexPos.totalInvested;
+          const pnlPercent = indexPos.totalInvested > 0 ? (pnl / indexPos.totalInvested) * 100 : 0;
+          const pnlEmoji = pnl >= 0 ? '📈' : '📉';
+          
+          message += `• **${indexPos.name || indexPos.symbol || 'Unknown Token'}**: $${indexPos.currentValue.toFixed(2)}\n`;
+          message += `  Invested: $${indexPos.totalInvested.toFixed(2)} ${pnlEmoji} ${pnlPercent >= 0 ? '+' : ''}${pnlPercent.toFixed(1)}%\n\n`;
         }
       }
 
       // Deposit section with encouraging and actionable messaging
-      if (usdcBalanceNum >= 1.0) {
+      if (smartWalletUsdcBalance >= 1.0) {
         message += `🦑 **Ready to grow your earnings?**\n`;
-        message += `You have $${usdcBalanceNum.toFixed(2)} USDC ready to invest. Your money will start earning immediately with zero fees and auto-compounding!\n\n`;
+        message += `You have $${smartWalletUsdcBalance.toFixed(2)} USDC in your Smart Wallet ready to invest. Your money will start earning immediately with zero fees and auto-compounding!\n\n`;
+        
+        if (eoaUsdcBalance > 0) {
+          message += `💡 **Note**: You also have $${eoaUsdcBalance.toFixed(2)} USDC in your EOA. To use these funds with the bot, you'll need to transfer them to your Smart Wallet first.\n\n`;
+        }
+      } else if (totalUsdcBalance >= 1.0 && eoaUsdcBalance > 0) {
+        message += `🔄 **Transfer to Start Earning**\n`;
+        message += `You have $${eoaUsdcBalance.toFixed(2)} USDC in your EOA. Transfer to your Smart Wallet to start earning with gasless transactions!\n\n`;
       } else {
         message += `Add more USDC and watch your daily earnings\ncompound automatically. No fees, no lock-ups,\nwithdraw anytime with no transaction fees.\n\n`;
       }
@@ -210,15 +318,21 @@ const portfolioHandler: CommandHandler = {
       message += `Send USDC to your address:\n\`${wallet.address}\`\n*Network: Base \u2022 Minimum: $1 USDC*\n\n`;
 
       // Quick actions - prioritized layout with single-button rows for main actions
-      const keyboard = new InlineKeyboard()
-        .text("🦑 Earn More", "zap_funds")
-        .row()
-        .text("💰 Collect Earnings", "harvest_yields")
-        .row()
-        .text("💵 Withdraw Investments", "withdraw")
-        .row()
-        .text("💳 Deposit More", "deposit")
-        .row()
+      let keyboard = new InlineKeyboard();
+      
+      // Always show main investment options
+      keyboard = keyboard.text("🦑 Earn More", "zap_funds").text("📊 Buy Indexes", "index_main").row();
+      
+      // Show relevant actions based on what user has
+      if (totalYieldValue > 0) {
+        keyboard = keyboard.text("💰 Collect Earnings", "harvest_yields").row();
+      }
+      if (totalPortfolioValue > 0) {
+        keyboard = keyboard.text("💵 Withdraw", "withdraw").row();
+      }
+      
+      // Always show deposit and main menu
+      keyboard = keyboard.text("💳 Deposit More", "deposit").row()
         .text("🔙 Back to Main", "main_menu");
 
       // Get user timezone from Telegram (if available) or use UTC

@@ -159,7 +159,15 @@ export async function getUserIndexPositions(userId: string): Promise<IndexPositi
       return [];
     }
 
-    // Update current values with market prices
+    // Get user's wallet address for on-chain balance verification
+    const { getWallet } = await import('../../lib/token-wallet');
+    const wallet = await getWallet(userId);
+    if (!wallet) {
+      console.warn(`⚠️ No wallet found for user ${userId}, cannot verify on-chain balances`);
+      return [];
+    }
+
+    // Update current values with market prices and verify on-chain balances
     const updatedPositions: IndexPosition[] = [];
 
     for (const position of positions) {
@@ -171,26 +179,46 @@ export async function getUserIndexPositions(userId: string): Promise<IndexPositi
           continue;
         }
 
+        // Verify on-chain balance to detect stale positions
+        const onChainBalance = await getIndexTokenBalance(wallet.address as Address, position.indexTokenId);
+        const actualTokensOwned = onChainBalance ? parseFloat(onChainBalance.balanceFormatted) : 0;
+        
+        console.log(`🔍 Position ${position.indexTokenId}: DB=${position.tokensOwned}, OnChain=${actualTokensOwned}`);
+        
+        // If on-chain balance is zero or very small, clean up the position
+        if (actualTokensOwned < 0.000001) {
+          console.log(`🧽 Cleaning up stale position ${position.id} - on-chain balance: ${actualTokensOwned}`);
+          const { deleteIndexPosition } = await import('../../lib/database');
+          deleteIndexPosition(position.id);
+          continue; // Skip adding this position to results
+        }
+        
+        // Use on-chain balance if it differs significantly from database
+        const tokensToUse = Math.abs(actualTokensOwned - position.tokensOwned) > 0.001 ? actualTokensOwned : position.tokensOwned;
+        
         const priceData = await getTokenPrice(tokenData.contractAddress, tokenData.symbol);
-        const currentValue = position.tokensOwned * priceData.price;
+        const currentValue = tokensToUse * priceData.price;
 
-        // Update position in database with current value
+        // Update position in database with corrected tokens owned and current value
         updateIndexPositionValue(
           position.id,
-          position.tokensOwned,
+          tokensToUse,
           currentValue
           // Don't update average buy price - that stays historical
         );
 
-        // Add to results with updated current value
+        // Add to results with updated current value and corrected tokens owned
         updatedPositions.push({
           ...position,
+          tokensOwned: tokensToUse,
           currentValue,
           symbol: tokenData.symbol,
           name: tokenData.name,
           contractAddress: tokenData.contractAddress as Address,
           category: tokenData.category as any,
-          riskLevel: tokenData.riskLevel
+          riskLevel: tokenData.riskLevel,
+          firstPurchaseAt: new Date(position.firstPurchaseAt),
+          lastUpdatedAt: new Date(position.lastUpdatedAt)
         });
 
         // Small delay between price API calls
@@ -199,7 +227,11 @@ export async function getUserIndexPositions(userId: string): Promise<IndexPositi
       } catch (positionError) {
         console.error(`❌ Error updating position ${position.id}:`, positionError);
         // Include position with stale data rather than excluding it
-        updatedPositions.push(position);
+        updatedPositions.push({
+          ...position,
+          firstPurchaseAt: new Date(position.firstPurchaseAt),
+          lastUpdatedAt: new Date(position.lastUpdatedAt)
+        });
       }
     }
 
@@ -233,15 +265,20 @@ export async function calculateIndexPortfolioStats(userId: string): Promise<Inde
       };
     }
 
-    const totalValue = positions.reduce((sum, pos) => sum + pos.currentValue, 0);
-    const totalInvested = positions.reduce((sum, pos) => sum + pos.totalInvested, 0);
+    // Only include positions with actual token holdings for P&L calculation
+    const activePositions = positions.filter(pos => pos.tokensOwned > 0.000001);
+    
+    const totalValue = activePositions.reduce((sum, pos) => sum + pos.currentValue, 0);
+    const totalInvested = activePositions.reduce((sum, pos) => sum + pos.totalInvested, 0);
     const totalPnL = totalValue - totalInvested;
+
+    console.log(`📊 Portfolio Stats: ${activePositions.length} active positions, $${totalValue.toFixed(2)} value, $${totalInvested.toFixed(2)} invested, $${totalPnL.toFixed(2)} P&L`);
 
     return {
       totalValue,
       totalInvested,
       totalPnL,
-      positionCount: positions.length
+      positionCount: activePositions.length
     };
 
   } catch (error: any) {
@@ -275,8 +312,12 @@ async function getTokenPrice(
   }
 
   try {
-    // Try multiple price sources
-    let priceData = await getPriceFromCoingecko(tokenAddress, symbol);
+    // For LCAP token, prioritize Reserve Protocol API for consistency with sell quotes
+    let priceData = await getPriceFromReserveProtocol(tokenAddress);
+    
+    if (!priceData) {
+      priceData = await getPriceFromCoingecko(tokenAddress, symbol);
+    }
     
     if (!priceData) {
       priceData = await getPriceFromDeFiLlama(tokenAddress);
@@ -321,15 +362,8 @@ async function getPriceFromCoingecko(
   try {
     // Note: For now we'll use a mock response since LCAP might not be on CoinGecko yet
     // In production, you'd make an actual API call here
+    // LCAP pricing is now handled by Reserve Protocol API for consistency
     
-    // Mock price for LCAP based on your stack trace data
-    if (symbol === 'LCAP') {
-      return {
-        price: 11.91, // $10 USDC / 0.837 LCAP ≈ $11.91 per LCAP
-        change24h: 2.5 // Mock 2.5% daily change
-      };
-    }
-
     // For other tokens, you would make actual API calls:
     /*
     const response = await fetch(
@@ -354,6 +388,81 @@ async function getPriceFromCoingecko(
 
   } catch (error) {
     console.error('Error fetching from CoinGecko:', error);
+    return null;
+  }
+}
+
+/**
+ * Get token price from Reserve Protocol API for LCAP token
+ * This ensures pricing consistency with sell quotes
+ * @param tokenAddress Token contract address
+ * @returns Price data or null
+ */
+async function getPriceFromReserveProtocol(
+  tokenAddress: Address | string
+): Promise<{ price: number; change24h?: number } | null> {
+  try {
+    // Check if this is the LCAP token
+    const isLCAP = tokenAddress.toString().toLowerCase() === '0x4da9a0f397db1397902070f93a4d6ddbc0e0e6e8';
+    
+    if (!isLCAP) {
+      return null; // Only handle LCAP through Reserve Protocol
+    }
+
+    // Get a small quote (1 LCAP token = 10^18 wei) to determine current price
+    // We'll quote LCAP → USDC to get the USD value
+    const oneTokenInWei = '1000000000000000000'; // 1 LCAP
+    const usdcAddress = '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913'; // USDC on Base
+    
+    const params = new URLSearchParams({
+      chainId: '8453', // Base chain ID
+      tokenIn: tokenAddress.toString(),
+      tokenOut: usdcAddress,
+      amountIn: oneTokenInWei,
+      slippage: '100', // 1% slippage
+      signer: '0x0000000000000000000000000000000000000001' // Dummy signer for quote only
+    });
+
+    console.log(`📊 Fetching LCAP price via Reserve Protocol...`);
+    
+    const response = await fetch(`https://api.reserve.org/odos/swap?${params}`, {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Origin': 'https://app.reserve.org',
+        'Referer': 'https://app.reserve.org/'
+      },
+      signal: AbortSignal.timeout(10000)
+    });
+
+    if (!response.ok) {
+      console.warn(`⚠️ Reserve Protocol API error: ${response.status}`);
+      return null;
+    }
+
+    const responseData = await response.json();
+    
+    if (responseData.status === 'success') {
+      const result = responseData.result;
+      // Calculate price: amountOut (USDC with 6 decimals) / amountIn (LCAP with 18 decimals)
+      const usdcOut = parseFloat(result.amountOut) / 1e6; // USDC has 6 decimals
+      const lcapIn = parseFloat(result.amountIn) / 1e18; // LCAP has 18 decimals
+      const price = usdcOut / lcapIn;
+      
+      console.log(`✅ LCAP price from Reserve Protocol: $${price.toFixed(4)}`);
+      console.log(`   Quote: ${lcapIn} LCAP → ${usdcOut} USDC`);
+      
+      return {
+        price: price,
+        change24h: undefined // Reserve Protocol doesn't provide 24h change
+      };
+    }
+
+    console.warn(`⚠️ Reserve Protocol returned error:`, responseData.error);
+    return null;
+
+  } catch (error) {
+    console.error('Error fetching from Reserve Protocol:', error);
     return null;
   }
 }

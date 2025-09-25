@@ -199,17 +199,44 @@ export const exportHandler: CommandHandler = {
       const seamlessBalanceNum = parseFloat(seamlessBalance.status === 'fulfilled' ? seamlessBalance.value.assetsFormatted : '0.00');
       const moonwellBalanceNum = parseFloat(moonwellBalance.status === 'fulfilled' ? moonwellBalance.value.assetsFormatted : '0.00');
       
-      // Build array of actual active positions with real balances
-      const actualActivePositions = [];
-      if (aaveBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Aave', value: aaveBalanceNum });
-      if (fluidBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Fluid', value: fluidBalanceNum });
-      if (compoundBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Compound', value: compoundBalanceNum });
-      if (morphoBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Morpho', value: morphoBalanceNum });
-      if (sparkBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Spark', value: sparkBalanceNum });
-      if (seamlessBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Seamless', value: seamlessBalanceNum });
-      if (moonwellBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Moonwell', value: moonwellBalanceNum });
+      // INDEX TOKEN POSITION SAFETY CHECK - Check for active index token positions
+      console.log(`📋 CHECKING INDEX TOKEN POSITIONS - User ${userId} - fetching active positions`);
       
-      const totalPositionValue = actualActivePositions.reduce((sum, pos) => sum + pos.value, 0);
+      const { getUserIndexPositions } = await import("../services/index-tokens/index-balance");
+      const indexPositions = await getUserIndexPositions(userId);
+      
+      // Build array of active index positions with significant value
+      const activeIndexPositions = indexPositions.filter(pos => pos.currentValue > 0.10);
+      const totalIndexValue = activeIndexPositions.reduce((sum, pos) => sum + pos.currentValue, 0);
+      
+      console.log(`📋 INDEX POSITION CHECK RESULT - User ${userId}:`, {
+        totalIndexPositions: indexPositions.length,
+        activeIndexPositions: activeIndexPositions.length,
+        totalIndexValue: `$${totalIndexValue.toFixed(2)}`,
+        positions: activeIndexPositions.map(pos => `${pos.symbol}: $${pos.currentValue.toFixed(2)}`).join(', ') || 'None'
+      });
+      
+      // Build array of actual active positions with real balances (yield + index tokens)
+      const actualActivePositions = [];
+      if (aaveBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Aave', value: aaveBalanceNum, type: 'yield' });
+      if (fluidBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Fluid', value: fluidBalanceNum, type: 'yield' });
+      if (compoundBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Compound', value: compoundBalanceNum, type: 'yield' });
+      if (morphoBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Morpho', value: morphoBalanceNum, type: 'yield' });
+      if (sparkBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Spark', value: sparkBalanceNum, type: 'yield' });
+      if (seamlessBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Seamless', value: seamlessBalanceNum, type: 'yield' });
+      if (moonwellBalanceNum > 0.10) actualActivePositions.push({ protocol: 'Moonwell', value: moonwellBalanceNum, type: 'yield' });
+      
+      // Add index token positions to the active positions array
+      activeIndexPositions.forEach(indexPos => {
+        actualActivePositions.push({ 
+          protocol: `Index (${indexPos.symbol})`, 
+          value: indexPos.currentValue, 
+          type: 'index'
+        });
+      });
+      
+      const totalYieldValue = actualActivePositions.filter(pos => pos.type === 'yield').reduce((sum, pos) => sum + pos.value, 0);
+      const totalPositionValue = totalYieldValue + totalIndexValue;
       
       console.log(`🏦 REAL DEFI POSITION CHECK RESULT - User ${userId}:`, {
         aave: `$${aaveBalanceNum.toFixed(2)}`,
@@ -268,27 +295,72 @@ export const exportHandler: CommandHandler = {
           ctx.session.currentAction = "mandatory_fund_migration";
           
           // Build position summary for user display with real balances
-          const positionSummary = significantPositions.length > 0 
-            ? `\n\n📊 **Active Positions**: ${significantPositions.length} earning position${significantPositions.length > 1 ? 's' : ''}\n` +
-              significantPositions.map(pos => `• ${pos.protocol}: $${pos.value.toFixed(2)}`).join('\n')
-            : '';
+          const yieldPositions = significantPositions.filter(pos => pos.type === 'yield');
+          const indexPositions = significantPositions.filter(pos => pos.type === 'index');
+          
+          let positionSummary = '';
+          
+          if (yieldPositions.length > 0) {
+            positionSummary += `\n\n📊 **Yield Positions**: ${yieldPositions.length} earning position${yieldPositions.length > 1 ? 's' : ''}\n` +
+              yieldPositions.map(pos => `• ${pos.protocol}: $${pos.value.toFixed(2)}`).join('\n');
+          }
+          
+          if (indexPositions.length > 0) {
+            positionSummary += `\n\n📋 **Index Positions**: ${indexPositions.length} index token${indexPositions.length > 1 ? 's' : ''}\n` +
+              indexPositions.map(pos => `• ${pos.protocol}: $${pos.value.toFixed(2)}`).join('\n');
+          }
 
           // Create keyboard with appropriate options
           const keyboard = new InlineKeyboard();
-          if (significantPositions.length > 0) {
-            keyboard.text("📊 Exit Positions First", "open_portfolio");
+          
+          const hasYieldPositions = significantPositions.some(pos => pos.type === 'yield');
+          const hasIndexPositions = significantPositions.some(pos => pos.type === 'index');
+          
+          if (hasYieldPositions && hasIndexPositions) {
+            // User has both types of positions
+            keyboard.text("📊 Exit Yield Positions", "open_portfolio")
+                   .row()
+                   .text("📋 Exit Index Positions", "index_main");
+            if (smartWalletBalance > 0.01) {
+              keyboard.row().text("🔄 Move Liquid Funds", "confirm_fund_migration");
+            }
+          } else if (hasYieldPositions) {
+            // User has only yield positions
+            keyboard.text("📊 Exit Yield Positions", "open_portfolio");
+            if (smartWalletBalance > 0.01) {
+              keyboard.row().text("🔄 Move Liquid Funds", "confirm_fund_migration");
+            }
+          } else if (hasIndexPositions) {
+            // User has only index positions
+            keyboard.text("📋 Exit Index Positions", "index_main");
             if (smartWalletBalance > 0.01) {
               keyboard.row().text("🔄 Move Liquid Funds", "confirm_fund_migration");
             }
           } else {
+            // User has no positions, only liquid funds
             keyboard.text("🔄 Move Funds", "confirm_fund_migration");
           }
 
+          // Determine appropriate instruction message
+          let instructionMessage = '';
+          const hasYieldPositions = significantPositions.some(pos => pos.type === 'yield');
+          const hasIndexPositions = significantPositions.some(pos => pos.type === 'index');
+          
+          if (hasYieldPositions && hasIndexPositions) {
+            instructionMessage = 'Exit all positions first, then move remaining liquid funds';
+          } else if (hasYieldPositions) {
+            instructionMessage = 'Exit yield positions first, then move remaining funds';
+          } else if (hasIndexPositions) {
+            instructionMessage = 'Exit index positions first, then move remaining funds';
+          } else {
+            instructionMessage = 'Move funds to unlock export (gasless)';
+          }
+          
           await ctx.reply(
             `🔒 *Export Blocked*\n\n` +
             `Your private key only controls part of your funds.\n\n` +
             `💰 **Smart Wallet**: $${smartWalletBalance.toFixed(2)} USDC${positionSummary}\n\n` +
-            `✅ ${significantPositions.length > 0 ? 'Exit positions first, then move remaining funds' : 'Move funds to unlock export (gasless)'}`,
+            `✅ ${instructionMessage}`,
             {
               parse_mode: "Markdown",
               reply_markup: keyboard,

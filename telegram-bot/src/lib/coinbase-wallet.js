@@ -288,6 +288,102 @@ async function checkAllUSDCBalances(userId) {
     }
 }
 /**
+ * Transfer USDC from EOA to Smart Wallet using regular transaction
+ * This function uses the user's private key to make a standard USDC transfer from EOA to Smart Wallet
+ */
+async function transferUsdcFromEoaToSmartWallet(userId, usdcAmount) {
+    try {
+        console.log(`🔄 Transferring ${usdcAmount} USDC from EOA to Smart Wallet for user ${userId}`);
+        
+        // Get user's wallet information
+        const wallet = await getCoinbaseSmartWallet(userId);
+        if (!wallet) {
+            throw new Error('No Coinbase Smart Wallet found for user');
+        }
+        
+        const { smartAccount, owner } = wallet;
+        const eoaAddress = owner.address;
+        const smartWalletAddress = smartAccount.address;
+        
+        // Create viem clients
+        const publicClient = exports.publicClient;
+        const { createWalletClient, http, parseUnits } = await Promise.resolve().then(() => __importStar(require('viem')));
+        const { base } = await Promise.resolve().then(() => __importStar(require('viem/chains')));
+        
+        // Create wallet client with the EOA private key
+        const walletClient = createWalletClient({
+            account: owner,
+            chain: base,
+            transport: http("https://api.developer.coinbase.com/rpc/v1/base/f6O1WKUX3qIOA60s1PfWirVzQcQYatXz"),
+        });
+        
+        const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
+        const amountWei = parseUnits(usdcAmount, 6);
+        
+        // Check EOA USDC balance
+        const eoaBalance = await publicClient.readContract({
+            address: BASE_USDC_ADDRESS,
+            abi: [
+                {
+                    inputs: [{ name: "account", type: "address" }],
+                    name: "balanceOf",
+                    outputs: [{ name: "", type: "uint256" }],
+                    stateMutability: "view",
+                    type: "function"
+                }
+            ],
+            functionName: 'balanceOf',
+            args: [eoaAddress]
+        });
+        
+        if (eoaBalance < amountWei) {
+            throw new Error(`Insufficient USDC in EOA. Have: ${(Number(eoaBalance) / 1e6).toFixed(6)}, Need: ${usdcAmount}`);
+        }
+        
+        console.log(`📤 Executing USDC transfer from EOA ${eoaAddress} to Smart Wallet ${smartWalletAddress}...`);
+        
+        // Execute the transfer
+        const hash = await walletClient.writeContract({
+            address: BASE_USDC_ADDRESS,
+            abi: [
+                {
+                    inputs: [{ name: "to", type: "address" }, { name: "value", type: "uint256" }],
+                    name: "transfer",
+                    outputs: [{ name: "", type: "bool" }],
+                    stateMutability: "nonpayable",
+                    type: "function"
+                }
+            ],
+            functionName: 'transfer',
+            args: [smartWalletAddress, amountWei],
+        });
+        
+        console.log(`✅ Transfer transaction sent: ${hash}`);
+        
+        // Wait for confirmation
+        const receipt = await publicClient.waitForTransactionReceipt({ hash });
+        
+        if (receipt.status === 'success') {
+            console.log(`✅ Transfer confirmed! Block: ${receipt.blockNumber}`);
+            return {
+                success: true,
+                txHash: hash
+            };
+        } else {
+            throw new Error('Transfer transaction failed');
+        }
+        
+    } catch (error) {
+        console.error('Error in EOA to Smart Wallet transfer:', error);
+        return {
+            success: false,
+            error: error.message || 'Unknown transfer error'
+        };
+    }
+}
+exports.transferUsdcFromEoaToSmartWallet = transferUsdcFromEoaToSmartWallet;
+
+/**
  * Transfer USDC gaslessly using CDP paymaster (gas paid with USDC)
  */
 async function transferUsdcGasless(userId, toAddress, usdcAmount) {
