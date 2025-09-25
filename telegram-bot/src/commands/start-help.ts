@@ -210,6 +210,8 @@ export const startHandler: CommandHandler = {
               );
             } else {
               // User has no funds - show deposit screen and START MONITORING
+              console.log(`🚨 DEBUG: About to send no-funds message to user ${userId}`);
+              
               startDepositMonitoringWithContext(userId, 'onboarding', 5, {
                 userType: 'existing_low_balance',
                 totalFunds: totalFunds
@@ -225,20 +227,33 @@ export const startHandler: CommandHandler = {
                 console.log("Event monitor refresh failed:", error instanceof Error ? error.message : String(error));
               }
 
-              const keyboard = new InlineKeyboard()
-                .text("🔍 Check for Deposit", "manual_balance_check");
+              try {
+                const keyboard = new InlineKeyboard()
+                  .text("🔍 Check for Deposit", "manual_balance_check");
 
-              await ctx.reply(
-                `👋 *Welcome back ${firstName}!*\n\n` +
-                `🐙 *Your inkvest savings account address:*\n` +
-                `\`${wallet.address}\`\n\n` +
-                `Send USDC on Base ↑ to start earning.\n\n` +
-                `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
-                {
-                  parse_mode: "Markdown",
-                  reply_markup: keyboard,
+                console.log(`🚨 DEBUG: Attempting to send reply to user ${userId}`);
+                await ctx.reply(
+                  `👋 *Welcome back ${firstName}!*\n\n` +
+                  `🐙 *Your inkvest savings account address:*\n` +
+                  `\`${wallet.address}\`\n\n` +
+                  `Send USDC on Base ↑ to start earning.\n\n` +
+                  `⚡ *I'm watching 24/7* - funds auto-deploy instantly when they arrive.`,
+                  {
+                    parse_mode: "Markdown",
+                    reply_markup: keyboard,
+                  }
+                );
+                console.log(`✅ DEBUG: Successfully sent no-funds reply to user ${userId}`);
+              } catch (replyError) {
+                console.error(`🚨 DEBUG: Failed to send reply to user ${userId}:`, replyError);
+                // Try sending a simple message without formatting
+                try {
+                  await ctx.reply(`Welcome back ${firstName}! Send USDC to: ${wallet.address}`);
+                  console.log(`✅ DEBUG: Sent fallback message to user ${userId}`);
+                } catch (fallbackError) {
+                  console.error(`🚨 DEBUG: Even fallback message failed for user ${userId}:`, fallbackError);
                 }
-              );
+              }
             }
           } catch (error) {
             console.error("Error checking user funds for", firstName, ":", error);
