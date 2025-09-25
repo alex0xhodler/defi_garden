@@ -414,13 +414,41 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
 
 /**
  * Get the highest APY from all monitored pools
+ * 🚀 COLD START OPTIMIZED: Uses database cache first, API only as fallback
  */
 export async function getHighestAPY(): Promise<number> {
   try {
+    // 🚀 COLD START FIX: Use database first, API as fallback only
+    const { getProtocolRate } = await import('./database');
+    
+    // Try to get highest cached APY from database
+    const protocols = ['aave', 'fluid', 'compound', 'morpho', 'spark', 'seamless', 'moonwell', 'morpho-re7'];
+    const cachedAPYs: number[] = [];
+    
+    for (const protocol of protocols) {
+      const rate = getProtocolRate(protocol);
+      if (rate && rate.apy && typeof rate.apy === 'number' && rate.apy > 0) {
+        // Check if data is reasonably fresh (within 24 hours)
+        const age = Date.now() - (rate.lastUpdated || 0);
+        if (age < 24 * 60 * 60 * 1000) {
+          cachedAPYs.push(rate.apy);
+        }
+      }
+    }
+    
+    if (cachedAPYs.length > 0) {
+      const highest = Math.max(...cachedAPYs);
+      console.log(`🚀 Cold start optimized: Using cached highest APY ${highest}% from database (${cachedAPYs.length} protocols)`);
+      return parseFloat(highest.toFixed(2));
+    }
+    
+    // Only fallback to API if no cached data available
+    console.log(`📡 No fresh cached APY data, falling back to API call`);
     const yields = await fetchRealTimeYields();
     const highestAPY = Math.max(...yields.map(y => y.apy));
     console.log(`Highest APY found: ${highestAPY}%`);
     return parseFloat(highestAPY.toFixed(2));
+    
   } catch (error) {
     console.error("Error fetching highest APY:", error);
     return 7.72; // Fallback to reasonable default
