@@ -40,6 +40,11 @@ export interface APYHealthStatus {
   averageResponseTime: number;
 }
 
+/**
+ * Manages the entire lifecycle of APY data, from fetching to caching and serving.
+ * It acts as a central controller, ensuring data reliability and performance
+ * through features like circuit breaking, background refreshing, and intelligent caching.
+ */
 class APYOrchestrator {
   private circuitBreaker: CircuitBreaker;
   private startTime: number = Date.now();
@@ -57,9 +62,13 @@ class APYOrchestrator {
     this.initialize();
   }
 
+  /**
+   * Initializes the orchestrator by starting background processes and pre-warming the cache.
+   * @private
+   */
   private async initialize(): Promise<void> {
     console.log('🎯 APY Orchestrator initializing...');
-    
+
     // Start cache cleanup
     apyCache.startCleanupInterval();
     
@@ -73,7 +82,10 @@ class APYOrchestrator {
   }
 
   /**
-   * Main entry point - Get APY with full orchestration
+   * The main entry point for requesting APY data.
+   * It handles request timeouts and routes the request through the orchestration logic.
+   * @param {APYRequest} [request={}] - The request object, containing optional user context and flags.
+   * @returns {Promise<APYResponse>} A promise that resolves to a detailed APY response object.
    */
   async getAPY(request: APYRequest = {}): Promise<APYResponse> {
     const startTime = Date.now();
@@ -113,7 +125,11 @@ class APYOrchestrator {
   }
 
   /**
-   * Core APY request execution with intelligent routing
+   * The core logic for handling an APY request.
+   * It decides whether to serve from cache or fetch fresh data based on the request and cache state.
+   * @private
+   * @param {APYRequest} request - The APY request object.
+   * @returns {Promise<APYResponse>} A promise that resolves to the APY response.
    */
   private async executeAPYRequest(request: APYRequest): Promise<APYResponse> {
     // Check if fresh data is required
@@ -146,7 +162,11 @@ class APYOrchestrator {
   }
 
   /**
-   * Get fresh APY data with circuit breaker protection
+   * Fetches fresh APY data from the source manager, wrapped in a circuit breaker for resilience.
+   * It uses the cache as a fallback if the circuit is open.
+   * @private
+   * @param {APYRequest} request - The APY request object.
+   * @returns {Promise<APYResponse>} A promise that resolves to the APY response based on fresh data or a fallback.
    */
   private async getFreshAPY(request: APYRequest): Promise<APYResponse> {
     const operation = async (): Promise<APYSourceResult> => {
@@ -204,7 +224,11 @@ class APYOrchestrator {
   }
 
   /**
-   * Emergency fallback when everything fails
+   * Provides a final, hardcoded fallback APY value when all other data sources and caches are unavailable.
+   * @private
+   * @param {APYRequest} request - The original APY request object.
+   * @param {number} responseTime - The total time taken before falling back.
+   * @returns {APYResponse} An APY response object with low confidence.
    */
   private getEmergencyFallback(request: APYRequest, responseTime: number): APYResponse {
     const emergencyAPY = 7.5; // Safe conservative value
@@ -227,7 +251,9 @@ class APYOrchestrator {
   }
 
   /**
-   * Background refresh to keep cache warm
+   * Starts a background interval to periodically refresh the APY data,
+   * ensuring the cache stays warm and up-to-date.
+   * @private
    */
   private startBackgroundRefresh(): void {
     if (this.backgroundRefreshInterval) {
@@ -249,7 +275,8 @@ class APYOrchestrator {
   }
 
   /**
-   * Pre-warm cache on startup
+   * Performs an initial fetch of APY data on startup to populate the cache.
+   * @private
    */
   private async preWarmCache(): Promise<void> {
     try {
@@ -263,7 +290,9 @@ class APYOrchestrator {
   }
 
   /**
-   * Health monitoring and diagnostics
+   * Provides a comprehensive health status of the entire APY system.
+   * This includes metrics on uptime, success rate, response times, and the status of underlying components like the cache and circuit breaker.
+   * @returns {APYHealthStatus} An object containing detailed health metrics.
    */
   getHealthStatus(): APYHealthStatus {
     const uptime = Date.now() - this.startTime;
@@ -292,18 +321,25 @@ class APYOrchestrator {
   }
 
   /**
-   * Administrative functions
+   * An administrative function to force an immediate refresh of the APY data, bypassing all caches.
+   * @returns {Promise<APYResponse>} A promise that resolves to the freshly fetched APY response.
    */
   async forceRefresh(): Promise<APYResponse> {
     console.log('🔄 Force refresh requested');
     return await this.getFreshAPY({ requireFresh: true });
   }
 
+  /**
+   * An administrative function to clear all cache layers.
+   */
   clearAllCaches(): void {
     apyCache.clearCache('ALL');
     console.log('🧹 All caches cleared by orchestrator');
   }
 
+  /**
+   * An administrative function to reset all health and performance metrics.
+   */
   resetHealthMetrics(): void {
     this.totalRequests = 0;
     this.successfulRequests = 0;
@@ -315,7 +351,7 @@ class APYOrchestrator {
   }
 
   /**
-   * Shutdown gracefully
+   * Gracefully shuts down the orchestrator by clearing any running intervals.
    */
   shutdown(): void {
     if (this.backgroundRefreshInterval) {
@@ -329,9 +365,18 @@ class APYOrchestrator {
 // Export singleton instance
 export const apyOrchestrator = new APYOrchestrator();
 
-// Export simple interface for easy integration
+/**
+ * A simplified, exported function for easy integration into other parts of the application.
+ * It provides a straightforward way to get a contextual APY value without needing to interact with the full orchestrator object.
+ * @param {string} [userId] - The user's ID for session context.
+ * @param {'initial' | 'checking_deposits' | 'portfolio' | 'settings'} [journeyState] - The user's current journey state.
+ * @param {object} [options] - Optional parameters.
+ * @param {boolean} [options.requireFresh] - Whether to force a fresh data fetch.
+ * @param {number} [options.timeout] - Request timeout in milliseconds.
+ * @returns {Promise<number>} A promise that resolves to the final APY value.
+ */
 export async function getContextualAPY(
-  userId?: string, 
+  userId?: string,
   journeyState?: 'initial' | 'checking_deposits' | 'portfolio' | 'settings',
   options?: { requireFresh?: boolean; timeout?: number }
 ): Promise<number> {

@@ -1,6 +1,12 @@
 import { BotContext } from "../context";
 import { CommandHandler } from "../types/commands";
 
+/**
+ * Handles the /test_api command, a development tool to verify connectivity
+ * and data fetching from the DeFiLlama API.
+ * @command /test_api
+ * @description Test DeFiLlama API integration (development only).
+ */
 const testApiHandler: CommandHandler = {
   command: "test_api",
   description: "Test DeFiLlama API integration (development only)",

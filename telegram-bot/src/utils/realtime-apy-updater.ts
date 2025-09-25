@@ -13,7 +13,12 @@ export interface APYMessageTemplate {
 }
 
 /**
- * Send message with immediate APY, then update with fresh data
+ * Sends a message to the user with the best available APY, providing an immediate response
+ * from the cache and then updating the message asynchronously if fresher data becomes available.
+ * @param {BotContext} ctx - The bot context.
+ * @param {APYMessageTemplate} template - An object containing a function to generate the message content.
+ * @param {string} [userId] - The user's ID for fetching contextual APY.
+ * @returns {Promise<void>}
  */
 export async function sendMessageWithRealtimeAPY(
   ctx: BotContext,
@@ -66,7 +71,13 @@ export async function sendMessageWithRealtimeAPY(
 }
 
 /**
- * Edit existing message with real-time APY update
+ * Edits an existing message to display the best available APY.
+ * Like `sendMessageWithRealtimeAPY`, it provides an immediate update from the cache
+ * and then a second update if fresher data is fetched successfully.
+ * @param {BotContext} ctx - The bot context.
+ * @param {APYMessageTemplate} template - An object containing a function to generate the message content.
+ * @param {string} [userId] - The user's ID for fetching contextual APY.
+ * @returns {Promise<void>}
  */
 export async function editMessageWithRealtimeAPY(
   ctx: BotContext,
@@ -114,14 +125,18 @@ export async function editMessageWithRealtimeAPY(
 }
 
 /**
- * Helper to create loading indicator text
+ * A helper function to append a loading indicator to a message string.
+ * @param {string} baseText - The base message text.
+ * @returns {string} The text with a loading indicator appended.
  */
 export function createLoadingIndicator(baseText: string): string {
   return `${baseText}\n\n⏳ *Getting latest rates...*`;
 }
 
 /**
- * Helper to remove loading indicator
+ * A helper function to remove a loading indicator from a message string.
+ * @param {string} text - The message text containing a loading indicator.
+ * @returns {string} The text with the loading indicator removed.
  */
 export function removeLoadingIndicator(text: string): string {
   return text.replace(/\n\n⏳ \*Getting latest rates\.\.\.\*/, '');

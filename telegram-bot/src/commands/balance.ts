@@ -9,9 +9,15 @@ import { TokenInfo } from "../types/config";
 import { BASE_TOKENS, isRpcConfigured } from "../utils/constants";
 import { erc20Abi } from "../utils/abis";
 
-// Handler for balance command
+/**
+ * Handles the /balance command, displaying the user's ETH, USDC, and DeFi protocol balances.
+ * It fetches balances from the user's EOA wallet and their associated smart wallet for various protocols.
+ * Provides a summary of holdings and action buttons for depositing, withdrawing, and managing the portfolio.
+ * @command /balance
+ * @description Show current ETH + filtered ERC-20 balances.
+ */
 export const balanceHandler: CommandHandler = {
-  command: "balance", 
+  command: "balance",
   description: "Show current ETH + filtered ERC-20 balances",
   handler: async (ctx: BotContext) => {
     console.log("🔍 Balance command executed - DEBUG VERSION LOADED");
@@ -255,7 +261,12 @@ export const balanceHandler: CommandHandler = {
   },
 };
 
-// Handle ETH withdrawal from balance menu
+/**
+ * Initiates the ETH withdrawal process from the balance menu.
+ * It checks for a valid user session and wallet, then prompts the user for a destination address.
+ * @param {BotContext} ctx - The bot context containing session and user information.
+ * @returns {Promise<void>}
+ */
 export async function handleWithdrawEth(ctx: BotContext): Promise<void> {
   try {
     const userId = ctx.session.userId;
@@ -299,7 +310,13 @@ export async function handleWithdrawEth(ctx: BotContext): Promise<void> {
   }
 }
 
-// Handle USDC withdrawal from balance menu  
+/**
+ * Initiates the USDC withdrawal process from the balance menu.
+ * It checks both the regular and smart wallet for USDC balances and determines if a gasless withdrawal is possible.
+ * Prompts the user for a destination address.
+ * @param {BotContext} ctx - The bot context containing session and user information.
+ * @returns {Promise<void>}
+ */
 export async function handleWithdrawUsdc(ctx: BotContext): Promise<void> {
   try {
     const userId = ctx.session.userId;
@@ -399,10 +416,16 @@ export async function handleWithdrawUsdc(ctx: BotContext): Promise<void> {
   }
 }
 
-// Handle text input for withdrawal flows
+/**
+ * Routes text input during a withdrawal flow to the appropriate handler based on the current session action.
+ * This acts as a state machine for the multi-step withdrawal process.
+ * @param {BotContext} ctx - The bot context, which includes the current session state.
+ * @param {string} text - The text message sent by the user.
+ * @returns {Promise<void>}
+ */
 export async function handleWithdrawTextInput(ctx: BotContext, text: string): Promise<void> {
   const action = ctx.session.currentAction;
-  
+
   switch (action) {
     case "withdraw_eth_address":
       await handleWithdrawEthAddressInput(ctx, text);
@@ -424,7 +447,13 @@ export async function handleWithdrawTextInput(ctx: BotContext, text: string): Pr
   }
 }
 
-// Handle address input for ETH withdrawal
+/**
+ * Handles the user's input for the destination address during an ETH withdrawal.
+ * It validates the address format and, if valid, proceeds to ask for the withdrawal amount.
+ * @param {BotContext} ctx - The bot context.
+ * @param {string} address - The destination Ethereum address provided by the user.
+ * @returns {Promise<void>}
+ */
 async function handleWithdrawEthAddressInput(ctx: BotContext, address: string): Promise<void> {
   try {
     // Basic address validation
@@ -460,7 +489,13 @@ async function handleWithdrawEthAddressInput(ctx: BotContext, address: string): 
   }
 }
 
-// Handle address input for USDC withdrawal  
+/**
+ * Handles the user's input for the destination address during a USDC withdrawal.
+ * Validates the address and proceeds to ask for the withdrawal amount.
+ * @param {BotContext} ctx - The bot context.
+ * @param {string} address - The destination Ethereum address provided by the user.
+ * @returns {Promise<void>}
+ */
 async function handleWithdrawUsdcAddressInput(ctx: BotContext, address: string): Promise<void> {
   try {
     // Basic address validation
@@ -495,7 +530,13 @@ async function handleWithdrawUsdcAddressInput(ctx: BotContext, address: string):
   }
 }
 
-// Handle amount input for ETH withdrawal
+/**
+ * Handles the user's input for the withdrawal amount during an ETH withdrawal.
+ * It validates the amount, checks for sufficient balance (reserving for gas), and executes the transaction.
+ * @param {BotContext} ctx - The bot context.
+ * @param {string} amount - The amount of ETH to withdraw, or 'max'.
+ * @returns {Promise<void>}
+ */
 async function handleWithdrawEthAmountInput(ctx: BotContext, amount: string): Promise<void> {
   try {
     const userId = ctx.session.userId!;
@@ -598,7 +639,14 @@ async function handleWithdrawEthAmountInput(ctx: BotContext, amount: string): Pr
   }
 }
 
-// Handle amount input for USDC withdrawal
+/**
+ * Handles the user's input for the withdrawal amount during a USDC withdrawal.
+ * It validates the amount, checks for sufficient balance in either the regular or smart wallet,
+ * and executes the transaction, prioritizing a gasless withdrawal if possible.
+ * @param {BotContext} ctx - The bot context.
+ * @param {string} amount - The amount of USDC to withdraw, or 'max'.
+ * @returns {Promise<void>}
+ */
 async function handleWithdrawUsdcAmountInput(ctx: BotContext, amount: string): Promise<void> {
   try {
     const userId = ctx.session.userId!;

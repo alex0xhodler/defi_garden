@@ -4,7 +4,13 @@ import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
 import { verifyEncryptionKey } from "../lib/encryption";
 
-// Wallet command handler
+/**
+ * Handles the /wallet command.
+ * It displays the user's wallet address and type (e.g., auto-created, imported).
+ * It provides relevant action buttons based on the wallet type.
+ * @command /wallet
+ * @description Show wallet address and type.
+ */
 export const walletHandler: CommandHandler = {
   command: "wallet",
   description: "Show wallet address and type",
@@ -83,7 +89,13 @@ export const walletHandler: CommandHandler = {
   },
 };
 
-// Create command handler
+/**
+ * Handles the /create command.
+ * It generates a new wallet for the user, encrypts the private key, and saves it.
+ * It includes a safety check to prevent overwriting an existing wallet without confirmation.
+ * @command /create
+ * @description Create and save a new wallet.
+ */
 export const createHandler: CommandHandler = {
   command: "create",
   description: "Create and save a new wallet",

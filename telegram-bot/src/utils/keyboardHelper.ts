@@ -1,7 +1,8 @@
 import { InlineKeyboard } from "grammy";
 
 /**
- * Create confirmation keyboard with Yes/No buttons
+ * Creates a standard confirmation keyboard with "Yes" and "No" buttons.
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object.
  */
 export function createConfirmationKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
@@ -10,7 +11,8 @@ export function createConfirmationKeyboard(): InlineKeyboard {
 }
 
 /**
- * Create gas priority selection keyboard
+ * Creates a keyboard for selecting gas priority (Low, Medium, High).
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object.
  */
 export function createGasPriorityKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
@@ -20,7 +22,8 @@ export function createGasPriorityKeyboard(): InlineKeyboard {
 }
 
 /**
- * Create slippage selection keyboard
+ * Creates a keyboard for selecting slippage tolerance.
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object.
  */
 export function createSlippageKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
@@ -31,7 +34,8 @@ export function createSlippageKeyboard(): InlineKeyboard {
 }
 
 /**
- * Create settings keyboard
+ * Creates a keyboard for the main settings menu.
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object.
  */
 export function createSettingsKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
@@ -42,7 +46,8 @@ export function createSettingsKeyboard(): InlineKeyboard {
 }
 
 /**
- * Create token selection keyboard with common tokens
+ * Creates a keyboard for selecting a token, including common options and a "Custom" option.
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object.
  */
 export function createTokenSelectionKeyboard(): InlineKeyboard {
   const keyboard = new InlineKeyboard()
@@ -57,7 +62,10 @@ export function createTokenSelectionKeyboard(): InlineKeyboard {
 }
 
 /**
- * Create pagination keyboard for history view
+ * Creates a pagination keyboard with "Previous" and "Next" buttons for navigating through pages.
+ * @param {number} currentPage - The current page number.
+ * @param {number} totalPages - The total number of pages.
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object with pagination controls.
  */
 export function createPaginationKeyboard(
   currentPage: number,

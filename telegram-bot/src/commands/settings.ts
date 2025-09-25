@@ -4,6 +4,13 @@ import { CommandHandler, SettingsOption } from "../types/commands";
 import { saveUserSettings } from "../lib/database";
 import { ERRORS } from "../utils/constants";
 
+/**
+ * Handles the /settings command.
+ * It displays the user's current settings for risk level, minimum APY, slippage, and auto-compounding,
+ * and provides buttons to change them.
+ * @command /settings
+ * @description Adjust risk tolerance and preferences.
+ */
 const settingsHandler: CommandHandler = {
   command: "settings",
   description: "Adjust risk tolerance and preferences",
@@ -58,6 +65,11 @@ const settingsHandler: CommandHandler = {
   },
 };
 
+/**
+ * Returns a user-friendly description for a given risk level.
+ * @param {number} riskLevel - The risk level (1-5).
+ * @returns {string} The description string.
+ */
 function getRiskDescription(riskLevel: number): string {
   switch (riskLevel) {
     case 1:
@@ -75,6 +87,13 @@ function getRiskDescription(riskLevel: number): string {
   }
 }
 
+/**
+ * Handles the user's selection from the main settings menu.
+ * It routes the user to the appropriate sub-menu for changing risk, slippage, or min APY.
+ * @param {BotContext} ctx - The bot context.
+ * @param {SettingsOption} option - The settings option selected by the user.
+ * @returns {Promise<void>}
+ */
 export async function handleSettingsOption(
   ctx: BotContext,
   option: SettingsOption
@@ -197,6 +216,13 @@ export async function handleSettingsOption(
   }
 }
 
+/**
+ * Updates the user's risk level setting.
+ * It saves the new setting to the session and the database, and confirms the change with the user.
+ * @param {BotContext} ctx - The bot context.
+ * @param {number} riskLevel - The new risk level selected by the user.
+ * @returns {Promise<void>}
+ */
 export async function updateRiskLevel(ctx: BotContext, riskLevel: number): Promise<void> {
   try {
     const userId = ctx.session.userId;
@@ -248,6 +274,13 @@ export async function updateRiskLevel(ctx: BotContext, riskLevel: number): Promi
   }
 }
 
+/**
+ * Updates the user's slippage tolerance setting.
+ * It saves the new setting to the session and the database, and confirms the change with the user.
+ * @param {BotContext} ctx - The bot context.
+ * @param {number} slippage - The new slippage percentage selected by the user.
+ * @returns {Promise<void>}
+ */
 export async function updateSlippage(ctx: BotContext, slippage: number): Promise<void> {
   try {
     const userId = ctx.session.userId;
@@ -296,6 +329,13 @@ export async function updateSlippage(ctx: BotContext, slippage: number): Promise
   }
 }
 
+/**
+ * Updates the user's minimum APY threshold setting.
+ * It saves the new setting to the session and the database, and confirms the change with the user.
+ * @param {BotContext} ctx - The bot context.
+ * @param {number} minApy - The new minimum APY percentage selected by the user.
+ * @returns {Promise<void>}
+ */
 export async function updateMinApy(ctx: BotContext, minApy: number): Promise<void> {
   try {
     const userId = ctx.session.userId;

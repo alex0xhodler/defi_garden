@@ -21,6 +21,15 @@ export interface SessionAPYContext {
   interactionCount: number;
 }
 
+/**
+ * Implements a multi-layered caching system for APY (Annual Percentage Yield) data
+ * to ensure fast, consistent, and reliable APY information is delivered to users.
+ * The layers are:
+ * L1: In-memory hot cache (short TTL)
+ * L2: Per-user session cache (medium TTL)
+ * L3: Database cache (long TTL)
+ * L4: Static fallback values
+ */
 class APYCacheSystem {
   // L1 Cache: Global 30-second hot cache
   private l1Cache: APYData | null = null;
@@ -43,7 +52,11 @@ class APYCacheSystem {
   };
 
   /**
-   * Get APY with intelligent layer selection
+   * Retrieves an APY value, intelligently selecting from the cache layers.
+   * It prioritizes the fastest and most relevant cache (L2 -> L1 -> L3 -> L4).
+   * @param {string} [userId] - The user's ID, for L2 session caching.
+   * @param {string} [journeyState] - The user's current state in the bot flow, for L2 caching.
+   * @returns {Promise<APYData>} An object containing the APY value and metadata about its source and freshness.
    */
   async getAPY(userId?: string, journeyState?: string): Promise<APYData> {
     const now = Date.now();
@@ -115,7 +128,10 @@ class APYCacheSystem {
   }
 
   /**
-   * Set fresh APY data from external source
+   * Updates the cache with a fresh APY value, typically fetched from an external API.
+   * This method populates the L1 and L3 caches.
+   * @param {number} value - The new APY value.
+   * @param {'api' | 'database'} [source='api'] - The source of the new data.
    */
   setFreshAPY(value: number, source: 'api' | 'database' = 'api'): void {
     const now = Date.now();
@@ -130,7 +146,9 @@ class APYCacheSystem {
   }
 
   /**
-   * L1 Cache Operations
+   * Sets a value in the L1 (in-memory hot) cache.
+   * @private
+   * @param {number} value - The APY value to cache.
    */
   private setL1Cache(value: number): void {
     this.l1Cache = {
@@ -142,7 +160,12 @@ class APYCacheSystem {
   }
 
   /**
-   * L2 Cache Operations (Session Management)
+   * Retrieves data from the L2 (per-user session) cache.
+   * It also handles cache expiration and updates the journey state.
+   * @private
+   * @param {string} userId - The user's ID.
+   * @param {SessionAPYContext['journeyState']} journeyState - The user's current journey state.
+   * @returns {SessionAPYContext | null} The cached session data, or null if not found or expired.
    */
   private getL2Cache(userId: string, journeyState: SessionAPYContext['journeyState']): SessionAPYContext | null {
     const cached = this.l2Cache.get(userId);
@@ -163,9 +186,16 @@ class APYCacheSystem {
     return cached;
   }
 
+  /**
+   * Sets data in the L2 (per-user session) cache.
+   * @private
+   * @param {string} userId - The user's ID.
+   * @param {SessionAPYContext['journeyState']} journeyState - The user's current journey state.
+   * @param {number} apy - The APY value to cache for the session.
+   */
   private setL2Cache(userId: string, journeyState: SessionAPYContext['journeyState'], apy: number): void {
     const existing = this.l2Cache.get(userId);
-    
+
     this.l2Cache.set(userId, {
       userId,
       journeyState,
@@ -178,7 +208,9 @@ class APYCacheSystem {
   }
 
   /**
-   * L3 Cache Operations (Database Integration)
+   * Retrieves data from the L3 (database) cache.
+   * @private
+   * @returns {Promise<APYData | null>} A promise that resolves to the cached data, or null if not found or an error occurs.
    */
   private async getL3Cache(): Promise<APYData | null> {
     try {
@@ -201,6 +233,12 @@ class APYCacheSystem {
     return null;
   }
 
+  /**
+   * Sets data in the L3 (database) cache.
+   * @private
+   * @param {number} value - The APY value to cache.
+   * @returns {Promise<void>}
+   */
   private async setL3Cache(value: number): Promise<void> {
     try {
       // This will integrate with the existing database system
@@ -213,13 +251,21 @@ class APYCacheSystem {
   }
 
   /**
-   * Cache Analytics and Management
+   * Calculates a confidence score (0-1) for a cached value based on its age.
+   * @private
+   * @param {number} timestamp - The timestamp when the data was cached.
+   * @param {number} maxAge - The maximum age (TTL) of the cache layer.
+   * @returns {number} A confidence score between 0 and 1.
    */
   private calculateConfidence(timestamp: number, maxAge: number): number {
     const age = Date.now() - timestamp;
     return Math.max(0, Math.min(1, 1 - (age / maxAge)));
   }
 
+  /**
+   * Retrieves statistics about the current state of the L1 and L2 caches.
+   * @returns {object} An object containing cache statistics.
+   */
   getCacheStats() {
     const now = Date.now();
     return {
@@ -242,6 +288,10 @@ class APYCacheSystem {
     };
   }
 
+  /**
+   * Clears one or all cache layers.
+   * @param {'L1' | 'L2' | 'L3' | 'ALL'} [level] - The cache level to clear. Defaults to 'ALL'.
+   */
   clearCache(level?: 'L1' | 'L2' | 'L3' | 'ALL'): void {
     switch (level) {
       case 'L1':
@@ -265,7 +315,10 @@ class APYCacheSystem {
     }
   }
 
-  // Cleanup expired sessions periodically
+  /**
+   * Periodically cleans up expired L2 session cache entries.
+   * @private
+   */
   private cleanupExpiredSessions(): void {
     const now = Date.now();
     let cleaned = 0;
@@ -282,7 +335,9 @@ class APYCacheSystem {
     }
   }
 
-  // Start periodic cleanup
+  /**
+   * Starts a periodic interval to clean up expired L2 session cache entries.
+   */
   startCleanupInterval(): void {
     setInterval(() => {
       this.cleanupExpiredSessions();

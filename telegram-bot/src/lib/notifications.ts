@@ -6,19 +6,27 @@ import { updateUserOnboardingStatus } from "./database";
 let notificationBot: Bot | null = null;
 
 /**
- * Initialize the notification bot instance
+ * Initializes the bot instance used for sending notifications.
+ * This must be called once at startup.
+ * @param {Bot} bot - The main grammY bot instance.
  */
 export function initializeNotificationBot(bot: Bot): void {
   notificationBot = bot;
 }
 
 /**
- * Send deposit confirmation notification to user
+ * Sends a notification to a user confirming their deposit has been received.
+ * It also marks the user's onboarding as complete.
+ * @param {string} userId - The user's Telegram ID.
+ * @param {string} firstName - The user's first name.
+ * @param {string} amount - The amount of the deposit.
+ * @param {string} tokenSymbol - The symbol of the deposited token (e.g., "USDC").
+ * @returns {Promise<void>}
  */
 export async function notifyDepositReceived(
-  userId: string, 
-  firstName: string, 
-  amount: string, 
+  userId: string,
+  firstName: string,
+  amount: string,
   tokenSymbol: string
 ): Promise<void> {
   if (!notificationBot) {
@@ -50,7 +58,12 @@ export async function notifyDepositReceived(
 }
 
 /**
- * Send yield update notification
+ * Sends a regular update to the user about their earnings.
+ * @param {string} userId - The user's Telegram ID.
+ * @param {string} firstName - The user's first name.
+ * @param {number} totalYield - The total yield earned so far.
+ * @param {number} dailyYield - The yield earned in the last 24 hours.
+ * @returns {Promise<void>}
  */
 export async function notifyYieldUpdate(
   userId: string,
@@ -81,7 +94,11 @@ export async function notifyYieldUpdate(
 }
 
 /**
- * Send low balance warning
+ * Sends a warning to the user if their ETH balance is low, which might prevent them from paying for gas.
+ * @param {string} userId - The user's Telegram ID.
+ * @param {string} firstName - The user's first name.
+ * @param {string} ethBalance - The user's current (low) ETH balance.
+ * @returns {Promise<void>}
  */
 export async function notifyLowGasBalance(
   userId: string,
@@ -110,7 +127,12 @@ export async function notifyLowGasBalance(
 }
 
 /**
- * Send harvest opportunity notification
+ * Notifies the user when there is a significant amount of yield ready to be harvested.
+ * @param {string} userId - The user's Telegram ID.
+ * @param {string} firstName - The user's first name.
+ * @param {number} pendingYield - The amount of pending yield.
+ * @param {string} protocol - The protocol where the yield is available.
+ * @returns {Promise<void>}
  */
 export async function notifyHarvestOpportunity(
   userId: string,
@@ -141,7 +163,13 @@ export async function notifyHarvestOpportunity(
 }
 
 /**
- * Send emergency alert notification
+ * Sends an emergency security alert to the user regarding a protocol they are invested in.
+ * @param {string} userId - The user's Telegram ID.
+ * @param {string} firstName - The user's first name.
+ * @param {string} protocol - The protocol affected by the alert.
+ * @param {"LOW" | "MEDIUM" | "HIGH"} riskLevel - The severity of the risk.
+ * @param {string} description - A description of the security issue.
+ * @returns {Promise<void>}
  */
 export async function notifyEmergencyAlert(
   userId: string,
@@ -180,7 +208,9 @@ export async function notifyEmergencyAlert(
 }
 
 /**
- * Helper to get user's first name from database
+ * A helper function to retrieve a user's first name from the database using their Telegram ID.
+ * @param {string} telegramId - The user's Telegram ID.
+ * @returns {string} The user's first name, or "there" as a fallback.
  */
 export function getUserFirstName(telegramId: string): string {
   try {

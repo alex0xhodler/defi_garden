@@ -88,11 +88,15 @@ const simpleMorphoSupplyAbi = [
 ] as const;
 
 /**
- * Deploy USDC to Morpho PYTH/USDC vault with sponsored gas
- * Follows the multicall pattern from the user's transaction
+ * Deposits USDC into the Morpho PYTH/USDC vault for a user, sponsoring the gas fee via a multicall.
+ * This function bundles the necessary `approve` and `deposit` actions into a single gasless transaction.
+ * @param {string} userId - The unique identifier for the user.
+ * @param {string} usdcAmount - The amount of USDC to deposit, in a human-readable format (e.g., "100.5").
+ * @param {any} [testSmartAccount] - An optional smart account object for testing purposes.
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string; shares?: string }>} An object indicating the transaction's success, hash, shares received, or an error message.
  */
 export async function deployToMorphoPYTH(
-  userId: string, 
+  userId: string,
   usdcAmount: string,
   testSmartAccount?: any // Optional parameter for testing
 ): Promise<{ success: boolean; txHash?: string; error?: string; shares?: string }> {
@@ -232,11 +236,15 @@ export async function deployToMorphoPYTH(
 }
 
 /**
- * Withdraw USDC from Morpho PYTH/USDC vault using GeneralAdapter pattern
- * Based on user's successful transaction: 0x5ca632844fdd976062b1913adeb7197788220acbe8f9718b50c82a1fcfc24e13
+ * Withdraws USDC from the Morpho PYTH/USDC vault by redeeming vault shares in a gas-sponsored transaction.
+ * It uses a direct ERC4626 `redeem` call.
+ * @param {string} userId - The unique identifier for the user.
+ * @param {string} sharesAmount - The amount of vault shares to redeem. Can be a specific number or 'max'.
+ * @param {any} [testSmartAccount] - An optional smart account object for testing purposes.
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string; assets?: string }>} An object indicating the transaction's success, hash, assets received, or an error message.
  */
 export async function withdrawFromMorphoPYTH(
-  userId: string, 
+  userId: string,
   sharesAmount: string,
   testSmartAccount?: any // Optional parameter for testing
 ): Promise<{ success: boolean; txHash?: string; error?: string; assets?: string }> {
@@ -359,7 +367,10 @@ export async function withdrawFromMorphoPYTH(
 }
 
 /**
- * Get user's Morpho PYTH/USDC position (shares and equivalent USDC value)
+ * Fetches a user's position in the Morpho PYTH/USDC vault.
+ * It returns both the raw share balance and the underlying USDC asset value.
+ * @param {Address} userAddress - The user's wallet address.
+ * @returns {Promise<{ shares: bigint; assets: bigint; sharesFormatted: string; assetsFormatted: string; }>} An object containing the raw and formatted share and asset balances.
  */
 export async function getMorphoBalance(userAddress: Address): Promise<{
   shares: bigint;
@@ -400,8 +411,9 @@ export async function getMorphoBalance(userAddress: Address): Promise<{
 }
 
 /**
- * Get current APY for Morpho PYTH/USDC vault
- * This should be fetched from Defillama or Morpho's API
+ * Gets the current APY for the Morpho PYTH/USDC vault.
+ * Note: This currently returns a hardcoded default value and should be updated to fetch from a live API.
+ * @returns {Promise<number>} A promise that resolves to the current APY as a percentage.
  */
 export async function getMorphoAPY(): Promise<number> {
   try {
@@ -415,7 +427,8 @@ export async function getMorphoAPY(): Promise<number> {
 }
 
 /**
- * Get vault total assets and TVL for display
+ * Fetches information about the Morpho vault, such as its total assets and TVL.
+ * @returns {Promise<{ totalAssets: bigint; tvlFormatted: string; }>} An object containing the total assets in wei and a formatted TVL string.
  */
 export async function getMorphoVaultInfo(): Promise<{
   totalAssets: bigint;

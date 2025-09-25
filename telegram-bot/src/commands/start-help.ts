@@ -14,7 +14,14 @@ import { generateCoinbaseSmartWallet, getCoinbaseSmartWallet, hasCoinbaseSmartWa
 import { CommandHandler } from "../types/commands";
 import { DEFAULT_SETTINGS } from "../utils/constants";
 
-// Start handler with auto-wallet creation
+/**
+ * Handles the /start command. This is the main entry point for users.
+ * It checks if the user is new or existing. For new users, it creates a user record,
+ * default settings, and a new secure smart wallet. For existing users, it welcomes them back
+ * and displays either a deposit prompt or their main menu, depending on their balance.
+ * @command /start
+ * @description Start bot and begin earning.
+ */
 export const startHandler: CommandHandler = {
   command: "start",
   description: "Start bot and begin earning",
@@ -283,7 +290,13 @@ export const startHandler: CommandHandler = {
   },
 };
 
-// Help handler with simplified messaging
+/**
+ * Handles the /help command.
+ * It provides a user-friendly explanation of how the bot works, its safety features,
+ * and how to get started, along with action buttons.
+ * @command /help
+ * @description How inkvest works.
+ */
 export const helpHandler: CommandHandler = {
   command: "help",
   description: "How inkvest works",

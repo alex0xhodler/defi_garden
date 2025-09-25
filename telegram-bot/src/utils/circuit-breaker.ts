@@ -26,6 +26,10 @@ export interface CircuitBreakerMetrics {
   totalFailures: number;
 }
 
+/**
+ * Implements the Circuit Breaker pattern to improve the resilience of interactions with external services.
+ * It monitors for failures and can temporarily block requests to a failing service, preventing cascading failures.
+ */
 export class CircuitBreaker {
   private state: CircuitState = CircuitState.CLOSED;
   private failures: number = 0;
@@ -41,6 +45,15 @@ export class CircuitBreaker {
     private name: string = 'default'
   ) {}
 
+  /**
+   * Executes a given operation, wrapped by the circuit breaker's logic.
+   * If the circuit is closed, it attempts the operation. On failure, it records the failure.
+   * If the circuit is open, it immediately executes the fallback function.
+   * @template T
+   * @param {() => Promise<T>} operation - The primary function to execute.
+   * @param {() => Promise<T>} fallback - The fallback function to execute if the operation is blocked or fails.
+   * @returns {Promise<T>} A promise that resolves with the result of either the operation or the fallback.
+   */
   async execute<T>(
     operation: () => Promise<T>,
     fallback: () => Promise<T>
@@ -77,6 +90,11 @@ export class CircuitBreaker {
     }
   }
 
+  /**
+   * Handles the logic for a successful operation.
+   * It increments the success count and can transition the state from HALF_OPEN back to CLOSED.
+   * @private
+   */
   private onSuccess(): void {
     this.successes++;
     this.lastSuccessTime = Date.now();
@@ -96,6 +114,11 @@ export class CircuitBreaker {
     }
   }
 
+  /**
+   * Handles the logic for a failed operation.
+   * It records the failure and opens the circuit if the failure threshold is reached.
+   * @private
+   */
   private onFailure(): void {
     const now = Date.now();
     this.failures++;
@@ -112,11 +135,20 @@ export class CircuitBreaker {
     }
   }
 
+  /**
+   * Determines if the circuit breaker should transition from OPEN to HALF_OPEN to attempt a recovery.
+   * @private
+   * @returns {boolean} True if the recovery timeout has passed, false otherwise.
+   */
   private shouldAttemptReset(): boolean {
     if (!this.lastFailureTime) return true;
     return Date.now() - this.lastFailureTime >= this.config.recoveryTimeout;
   }
 
+  /**
+   * Retrieves the current metrics of the circuit breaker.
+   * @returns {CircuitBreakerMetrics} An object containing the current state, failure/success counts, and other metrics.
+   */
   getMetrics(): CircuitBreakerMetrics {
     return {
       state: this.state,
@@ -129,11 +161,18 @@ export class CircuitBreaker {
     };
   }
 
+  /**
+   * Calculates a health score (0.0 to 1.0) based on the ratio of total failures to total calls.
+   * @returns {number} The health score.
+   */
   getHealthScore(): number {
     if (this.totalCalls === 0) return 1.0;
     return Math.max(0, 1 - (this.totalFailures / this.totalCalls));
   }
 
+  /**
+   * Manually resets the circuit breaker to its initial CLOSED state.
+   */
   reset(): void {
     this.state = CircuitState.CLOSED;
     this.failures = 0;

@@ -18,12 +18,17 @@ const monitorBot = new Bot(process.env.TELEGRAM_BOT_TOKEN || "");
 const previousBalances = new Map<string, { usdc: string; eth: string }>();
 
 /**
- * Send deposit notification
+ * Sends a notification to a user when a new deposit is detected.
+ * @param {string} userId - The user's Telegram ID.
+ * @param {string} firstName - The user's first name.
+ * @param {string} amount - The amount of the deposit.
+ * @param {string} tokenSymbol - The symbol of the deposited token.
+ * @returns {Promise<void>}
  */
 async function notifyDepositReceived(
-  userId: string, 
-  firstName: string, 
-  amount: string, 
+  userId: string,
+  firstName: string,
+  amount: string,
   tokenSymbol: string
 ): Promise<void> {
   try {
@@ -40,7 +45,9 @@ async function notifyDepositReceived(
 }
 
 /**
- * Check balances for users who need monitoring
+ * Periodically checks the balances for all users who are currently being monitored for deposits.
+ * It fetches the list of users from the database and then checks each one.
+ * @returns {Promise<void>}
  */
 async function checkUserBalances(): Promise<void> {
   try {
@@ -68,7 +75,10 @@ async function checkUserBalances(): Promise<void> {
 }
 
 /**
- * Check balance for a single user
+ * Checks the token balances for a single user, compares them to previously stored balances,
+ * and sends a notification if a new deposit is detected.
+ * @param {any} user - The user object from the database.
+ * @returns {Promise<void>}
  */
 async function checkSingleUserBalance(user: any): Promise<void> {
   const wallet = getWalletByUserId(user.userId);
@@ -120,7 +130,9 @@ async function checkSingleUserBalance(user: any): Promise<void> {
 }
 
 /**
- * Start the deposit monitoring service
+ * Starts the deposit monitoring service.
+ * It performs an initial balance check and then sets up a recurring interval to check for new deposits.
+ * @returns {Promise<void>}
  */
 async function startMonitoringService(): Promise<void> {
   console.log("🦑 Starting inkvest deposit monitoring service...");

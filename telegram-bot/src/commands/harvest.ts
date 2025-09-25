@@ -23,7 +23,11 @@ import { getMoonwellBalance } from "../services/moonwell-defi";
 import { getMorphoRe7Balance } from "../services/morpho-re7-defi";
 
 /**
- * Calculate real-time Aave yields based on aUSDC balance vs original deposit
+ * Calculates real-time Aave yields based on the user's aUSDC balance versus their original deposit.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @param {any[]} positions - The user's positions from the database.
+ * @param {any[]} realTimeYields - Real-time yield data from an external API like DeFiLlama.
+ * @returns {Promise<object>} An object containing the calculated yield data for Aave.
  */
 async function calculateAaveYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
   protocol: string;
@@ -81,7 +85,11 @@ async function calculateAaveYields(walletAddress: Address, positions: any[], rea
 }
 
 /**
- * Calculate claimable FLUID token rewards (not balance growth)
+ * Calculates claimable FLUID token rewards. This focuses on the reward tokens, not the underlying asset's balance growth.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @param {any[]} positions - The user's positions from the database.
+ * @param {any[]} realTimeYields - Real-time yield data from an external API.
+ * @returns {Promise<object>} An object containing the calculated FLUID reward data.
  */
 async function calculateFluidRewards(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
   protocol: string;
@@ -169,8 +177,11 @@ async function calculateFluidRewards(walletAddress: Address, positions: any[], r
 }
 
 /**
- * Calculate real-time Compound yields based on cUSDCv3 balance vs original deposit
- * Also checks for COMP reward tokens that can be claimed
+ * Calculates real-time Compound yields, including both the underlying asset growth and claimable COMP reward tokens.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @param {any[]} positions - The user's positions from the database.
+ * @param {any[]} realTimeYields - Real-time yield data from an external API.
+ * @returns {Promise<object>} An object containing the calculated Compound yield and reward data.
  */
 async function calculateCompoundYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
   protocol: string;
@@ -255,7 +266,11 @@ async function calculateCompoundYields(walletAddress: Address, positions: any[],
 }
 
 /**
- * Calculate real-time Morpho yields based on vault shares vs original deposit
+ * Calculates real-time Morpho yields based on the user's vault share value versus their original deposit.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @param {any[]} positions - The user's positions from the database.
+ * @param {any[]} realTimeYields - Real-time yield data from an external API.
+ * @returns {Promise<object>} An object containing the calculated yield data for Morpho.
  */
 async function calculateMorphoYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
   protocol: string;
@@ -316,7 +331,11 @@ async function calculateMorphoYields(walletAddress: Address, positions: any[], r
 }
 
 /**
- * Calculate real-time Spark yields based on vault shares vs original deposit
+ * Calculates real-time Spark yields based on the user's vault share value versus their original deposit.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @param {any[]} positions - The user's positions from the database.
+ * @param {any[]} realTimeYields - Real-time yield data from an external API.
+ * @returns {Promise<object>} An object containing the calculated yield data for Spark.
  */
 async function calculateSparkYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
   protocol: string;
@@ -377,7 +396,11 @@ async function calculateSparkYields(walletAddress: Address, positions: any[], re
 }
 
 /**
- * Calculate real-time Seamless yields based on vault shares vs original deposit
+ * Calculates real-time Seamless yields based on the user's vault share value versus their original deposit.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @param {any[]} positions - The user's positions from the database.
+ * @param {any[]} realTimeYields - Real-time yield data from an external API.
+ * @returns {Promise<object>} An object containing the calculated yield data for Seamless.
  */
 async function calculateSeamlessYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
   protocol: string;
@@ -438,7 +461,11 @@ async function calculateSeamlessYields(walletAddress: Address, positions: any[],
 }
 
 /**
- * Calculate real-time Moonwell yields based on vault shares vs original deposit
+ * Calculates real-time Moonwell yields based on the user's vault share value versus their original deposit.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @param {any[]} positions - The user's positions from the database.
+ * @param {any[]} realTimeYields - Real-time yield data from an external API.
+ * @returns {Promise<object>} An object containing the calculated yield data for Moonwell.
  */
 async function calculateMoonwellYields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
   protocol: string;
@@ -502,7 +529,11 @@ async function calculateMoonwellYields(walletAddress: Address, positions: any[],
 }
 
 /**
- * Calculate real-time Morpho Re7 yields based on vault shares vs original deposit
+ * Calculates real-time Morpho Re7 yields based on the user's vault share value versus their original deposit.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @param {any[]} positions - The user's positions from the database.
+ * @param {any[]} realTimeYields - Real-time yield data from an external API.
+ * @returns {Promise<object>} An object containing the calculated yield data for Morpho Re7.
  */
 async function calculateMorphoRe7Yields(walletAddress: Address, positions: any[], realTimeYields: any[]): Promise<{
   protocol: string;
@@ -567,8 +598,15 @@ async function calculateMorphoRe7Yields(walletAddress: Address, positions: any[]
   }
 }
 
+/**
+ * Handles the /harvest command.
+ * It calculates and displays the user's claimable earnings from all active positions.
+ * If there are claimable rewards, it presents options for harvesting them.
+ * @command /harvest
+ * @description Collect interest earnings and compound.
+ */
 const harvestHandler: CommandHandler = {
-  command: "harvest", 
+  command: "harvest",
   description: "Collect interest earnings and compound",
   handler: async (ctx: BotContext) => {
     try {
@@ -780,7 +818,14 @@ const harvestHandler: CommandHandler = {
   },
 };
 
-// Handle harvest confirmation and execution
+/**
+ * Handles the user's choice for a harvesting strategy (e.g., claim all, hold).
+ * It executes the necessary transactions to claim rewards from the relevant protocols (like Compound)
+ * and updates the database accordingly.
+ * @param {BotContext} ctx - The bot context.
+ * @param {string} strategy - The chosen harvest strategy. Currently, only 'compound' (claim all) is fully implemented.
+ * @returns {Promise<void>}
+ */
 export async function handleHarvestConfirmation(
   ctx: BotContext,
   strategy: "compound" | "withdraw" | "split"

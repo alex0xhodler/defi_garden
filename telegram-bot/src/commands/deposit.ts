@@ -4,6 +4,13 @@ import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
 import { startDepositMonitoringWithContext } from "../lib/database";
 
+/**
+ * Handles the /deposit command.
+ * It provides the user with their unique deposit address (either EOA or smart wallet).
+ * It also initiates a temporary monitoring window to detect incoming deposits.
+ * @command /deposit
+ * @description Get your deposit address.
+ */
 const depositHandler: CommandHandler = {
   command: "deposit",
   description: "Get your deposit address",

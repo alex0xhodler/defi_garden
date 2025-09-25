@@ -29,7 +29,12 @@ export const cdpPaymasterClient = createPaymasterClient({
 });
 
 /**
- * Generate a new Coinbase Smart Wallet for a user
+ * Generates a new Coinbase Smart Wallet for a user.
+ * This involves creating a new private key for the owner EOA, deterministically calculating the smart account address,
+ * and saving the encrypted private key to the database.
+ * @param {string} userId - The unique identifier for the user.
+ * @returns {Promise<object>} A promise that resolves to an object containing the new wallet's address, smart account object, and owner account object.
+ * @throws Will throw an error if the wallet generation or saving process fails.
  */
 export async function generateCoinbaseSmartWallet(userId: string) {
   try {
@@ -78,7 +83,10 @@ export async function generateCoinbaseSmartWallet(userId: string) {
 }
 
 /**
- * Check if Smart Account is deployed on-chain (fallback for edge cases)
+ * Checks if a smart account has been deployed on-chain by verifying if it has code at its address.
+ * This is a fallback mechanism for edge cases.
+ * @param {Address} address - The address of the smart account to check.
+ * @returns {Promise<boolean>} A promise that resolves to true if the account is deployed, false otherwise.
  */
 async function isSmartAccountDeployedOnChain(address: Address): Promise<boolean> {
   try {
@@ -91,7 +99,11 @@ async function isSmartAccountDeployedOnChain(address: Address): Promise<boolean>
 }
 
 /**
- * Get existing Coinbase Smart Wallet for user
+ * Retrieves an existing Coinbase Smart Wallet for a user from the database.
+ * It decrypts the private key and reconstructs the smart account object.
+ * @param {string} userId - The unique identifier for the user.
+ * @returns {Promise<object | null>} A promise that resolves to the smart wallet object or null if not found.
+ * @throws Will throw an error if the wallet retrieval or decryption fails.
  */
 export async function getCoinbaseSmartWallet(userId: string) {
   try {
@@ -140,7 +152,9 @@ export async function getCoinbaseSmartWallet(userId: string) {
 }
 
 /**
- * Check if user has a Coinbase Smart Wallet
+ * Checks if a user has a Coinbase Smart Wallet by looking up their wallet type in the database.
+ * @param {string} userId - The unique identifier for the user.
+ * @returns {boolean} True if the user has a Coinbase Smart Wallet, false otherwise.
  */
 export function hasCoinbaseSmartWallet(userId: string): boolean {
   const walletData = getWalletByUserId(userId);
@@ -148,7 +162,9 @@ export function hasCoinbaseSmartWallet(userId: string): boolean {
 }
 
 /**
- * Get wallet addresses (both smart wallet and EOA) for a user
+ * Gets both the smart wallet address and the owner EOA address for a user.
+ * @param {string} userId - The unique identifier for the user.
+ * @returns {Promise<{ smartWalletAddress: Address; eoaAddress: Address } | null>} A promise that resolves to an object with both addresses, or null if the wallet is not found.
  */
 export async function getWalletAddresses(userId: string): Promise<{ smartWalletAddress: Address; eoaAddress: Address } | null> {
   try {
@@ -166,7 +182,9 @@ export async function getWalletAddresses(userId: string): Promise<{ smartWalletA
 }
 
 /**
- * Get USDC balance for a Coinbase Smart Wallet
+ * Fetches the USDC balance for a given wallet address on the Base network.
+ * @param {Address} walletAddress - The address to check the USDC balance of.
+ * @returns {Promise<string>} A promise that resolves to the formatted USDC balance as a string (e.g., "123.45"). Returns "0.00" on error.
  */
 export async function getCoinbaseWalletUSDCBalance(walletAddress: Address): Promise<string> {
   try {
@@ -198,11 +216,15 @@ export async function getCoinbaseWalletUSDCBalance(walletAddress: Address): Prom
 }
 
 /**
- * Create CDP bundler client for USDC gas payment transactions
+ * Creates a Viem bundler client configured to use the Coinbase Paymaster for sponsoring transactions (paying gas with USDC).
+ * It handles removing the `initCode` for already deployed accounts to prevent errors.
+ * @param {any} smartAccount - The Viem smart account object.
+ * @param {boolean} [isDeployed=false] - A flag indicating if the smart account is already deployed on-chain.
+ * @returns {Promise<any>} A promise that resolves to the configured bundler client.
  */
 export async function createSponsoredBundlerClient(smartAccount: any, isDeployed: boolean = false) {
   const { createBundlerClient } = await import('viem/account-abstraction');
-  
+
   // If the account is already deployed, remove initCode to avoid AA10 error
   if (isDeployed && smartAccount.getInitCode) {
     console.log(`🔧 Removing initCode for deployed Smart Account`);
@@ -222,7 +244,8 @@ export async function createSponsoredBundlerClient(smartAccount: any, isDeployed
 }
 
 /**
- * Check if CDP Paymaster supports USDC gas payments
+ * Checks if the configured Coinbase Paymaster supports USDC for gas payments.
+ * @returns {Promise<boolean>} A promise that resolves to true if USDC is a supported payment token, false otherwise.
  */
 export async function checkPaymasterUSDCSupport(): Promise<boolean> {
   try {
@@ -252,10 +275,13 @@ export async function checkPaymasterUSDCSupport(): Promise<boolean> {
 }
 
 /**
- * Check USDC balance in both Smart Wallet and EOA
+ * Checks the USDC balance in both the user's smart wallet and their owner EOA.
+ * This is useful for safety checks, like before exporting a private key.
+ * @param {string} userId - The unique identifier for the user.
+ * @returns {Promise<object | null>} A promise that resolves to an object containing both balances and addresses, or null on error.
  */
-export async function checkAllUSDCBalances(userId: string): Promise<{ 
-  smartWalletBalance: string; 
+export async function checkAllUSDCBalances(userId: string): Promise<{
+  smartWalletBalance: string;
   eoaBalance: string;
   smartWalletAddress: Address;
   eoaAddress: Address;
@@ -284,7 +310,12 @@ export async function checkAllUSDCBalances(userId: string): Promise<{
 }
 
 /**
- * Transfer USDC gaslessly using CDP paymaster (gas paid with USDC)
+ * Transfers USDC from a user's smart wallet to a specified address gaslessly.
+ * The transaction fee is paid using the user's USDC balance via the Coinbase Paymaster.
+ * @param {string} userId - The user initiating the transfer.
+ * @param {Address} toAddress - The recipient's address.
+ * @param {string} usdcAmount - The amount of USDC to transfer, as a string.
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string }>} A promise that resolves to an object indicating success, the transaction hash, or an error message.
  */
 export async function transferUsdcGasless(
   userId: string,

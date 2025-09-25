@@ -12,7 +12,11 @@ const publicClient = createPublicClient({
 });
 
 /**
- * Create a Smart Wallet from private key for testing
+ * Creates a Coinbase Smart Wallet instance from a private key for testing purposes.
+ * This allows tests to simulate a user's wallet.
+ * @param {string} privateKey - The private key of the owner EOA.
+ * @returns {Promise<object>} An object containing the owner account, the smart account, and its address.
+ * @throws Will throw an error if the private key format is invalid.
  */
 export async function createTestSmartWallet(privateKey: string) {
   try {
@@ -50,7 +54,10 @@ export async function createTestSmartWallet(privateKey: string) {
 }
 
 /**
- * Check USDC balance of an address
+ * Checks the USDC balance of a given address on the Base network.
+ * @param {Address} address - The address to check the balance of.
+ * @returns {Promise<{ balance: bigint; formatted: string; }>} An object containing the raw balance as a bigint and the formatted balance as a string.
+ * @throws Will throw an error if the balance check fails.
  */
 export async function checkUSDCBalance(address: Address): Promise<{
   balance: bigint;
@@ -82,7 +89,9 @@ export async function checkUSDCBalance(address: Address): Promise<{
 }
 
 /**
- * Mock user session for testing purposes
+ * Creates a mock user session object for use in tests.
+ * @param {string} [userId='test-user'] - The user ID to use for the mock session.
+ * @returns {object} A mock session object with default settings.
  */
 export function createMockUserSession(userId: string = 'test-user') {
   return {
@@ -100,14 +109,24 @@ export function createMockUserSession(userId: string = 'test-user') {
 }
 
 /**
- * Validate transaction hash format
+ * Validates if a given string is a valid Ethereum transaction hash.
+ * @param {string} hash - The string to validate.
+ * @returns {boolean} True if the string is a valid transaction hash, false otherwise.
  */
 export function isValidTxHash(hash: string): boolean {
   return /^0x[a-fA-F0-9]{64}$/.test(hash);
 }
 
 /**
- * Format test results for display
+ * @interface TestResult
+ * @description Represents the outcome of a test execution.
+ * @property {boolean} success - Whether the test passed.
+ * @property {string} [txHash] - The transaction hash, if applicable.
+ * @property {string} [shares] - The amount of shares received, if applicable.
+ * @property {string} [error] - The error message if the test failed.
+ * @property {string} [gasUsed] - The amount of gas used.
+ * @property {number} startTime - The timestamp when the test started.
+ * @property {number} [endTime] - The timestamp when the test ended.
  */
 export interface TestResult {
   success: boolean;
@@ -119,9 +138,14 @@ export interface TestResult {
   endTime?: number;
 }
 
+/**
+ * Formats a TestResult object into a human-readable string for logging.
+ * @param {TestResult} result - The test result object.
+ * @returns {string} A formatted string summarizing the test result.
+ */
 export function formatTestResult(result: TestResult): string {
   const duration = result.endTime ? result.endTime - result.startTime : 0;
-  
+
   if (result.success) {
     return `
 ✅ TEST PASSED (${duration}ms)
@@ -138,7 +162,9 @@ export function formatTestResult(result: TestResult): string {
 }
 
 /**
- * Verify a transaction on the blockchain
+ * Verifies a transaction on the blockchain by repeatedly fetching its receipt until it's confirmed.
+ * @param {string} txHash - The hash of the transaction to verify.
+ * @returns {Promise<{ success: boolean; gasUsed?: string; blockNumber?: number; }>} An object indicating the transaction status and details.
  */
 export async function verifyTransaction(txHash: string): Promise<{
   success: boolean;
@@ -201,10 +227,14 @@ export async function verifyTransaction(txHash: string): Promise<{
 }
 
 /**
- * Wait for a transaction to be confirmed with timeout
+ * Waits for a transaction to be confirmed on the blockchain, with a specified timeout.
+ * @param {string} txHash - The hash of the transaction to wait for.
+ * @param {number} [timeoutMs=30000] - The maximum time to wait in milliseconds.
+ * @returns {Promise<boolean>} A promise that resolves to true if the transaction succeeded, or false if it failed.
+ * @throws Will throw an error if the transaction verification times out.
  */
 export async function waitForTransaction(
-  txHash: string, 
+  txHash: string,
   timeoutMs: number = 30000
 ): Promise<boolean> {
   const startTime = Date.now();
@@ -227,11 +257,14 @@ export async function waitForTransaction(
 }
 
 /**
- * Safe error logging without exposing sensitive data
+ * Logs an error message safely by sanitizing it to remove sensitive data like private keys and addresses.
+ * @param {any} error - The error object or message.
+ * @param {string} context - A string describing the context where the error occurred.
+ * @returns {string} The sanitized error message.
  */
 export function safeErrorLog(error: any, context: string): string {
   const message = error?.message || 'Unknown error';
-  
+
   // Remove potentially sensitive data
   const sanitized = message
     .replace(/0x[a-fA-F0-9]{40}/g, '0x***')  // Replace addresses

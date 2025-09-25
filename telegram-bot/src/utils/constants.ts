@@ -6,12 +6,16 @@ dotenv.config();
 // Endpoints
 export const QUICKNODE_RPC_URL = process.env.QUICKNODE_RPC || "";
 
-// Validate RPC configuration - check if proper RPC endpoint is configured
+/**
+ * Validates that a proper RPC endpoint is configured in the environment variables.
+ * It checks for the presence of known RPC provider domains.
+ * @returns {boolean} True if a valid RPC URL is configured, false otherwise.
+ */
 export const isRpcConfigured = (): boolean => {
-  return !!(QUICKNODE_RPC_URL && 
-           QUICKNODE_RPC_URL.length > 0 && 
-           (QUICKNODE_RPC_URL.includes('quiknode.pro') || 
-            QUICKNODE_RPC_URL.includes('alchemy.com') || 
+  return !!(QUICKNODE_RPC_URL &&
+           QUICKNODE_RPC_URL.length > 0 &&
+           (QUICKNODE_RPC_URL.includes('quiknode.pro') ||
+            QUICKNODE_RPC_URL.includes('alchemy.com') ||
             QUICKNODE_RPC_URL.includes('infura.io') ||
             QUICKNODE_RPC_URL.includes('drpc.org') ||
             QUICKNODE_RPC_URL.includes('api.developer.coinbase.com')));

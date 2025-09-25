@@ -2,6 +2,13 @@ import { BotContext } from "../context";
 import { CommandHandler } from "../types/commands";
 import { cleanupUnverifiedTransactions } from "../lib/database";
 
+/**
+ * Handles the /cleanup command.
+ * This command is an administrative tool to remove unverified or outdated transaction
+ * and position records from the database for a specific user, ensuring data integrity.
+ * @command /cleanup
+ * @description Clean up unverified transactions and positions.
+ */
 const cleanupHandler: CommandHandler = {
   command: "cleanup",
   description: "Clean up unverified transactions and positions",

@@ -12,15 +12,21 @@ export const RISK_ICON: Record<RiskBand, string> = {
 };
 
 /**
- * Clamp a number between min and max values
+ * Clamps a number between a minimum and maximum value.
+ * @param {number} n - The number to clamp.
+ * @param {number} min - The minimum value.
+ * @param {number} max - The maximum value.
+ * @returns {number} The clamped number.
  */
 export function clamp(n: number, min: number, max: number): number {
   return Math.max(min, Math.min(max, n));
 }
 
 /**
- * Determine risk band from numerical score
- * Boundaries: [0-6) = low, [6-8) = medium, [8-10] = high
+ * Determines the risk band ('low', 'medium', 'high') from a numerical risk score.
+ * Boundaries: [0-6) = low, [6-8) = medium, [8-10] = high.
+ * @param {number} score - The numerical risk score (0-10).
+ * @returns {RiskBand} The corresponding risk band.
  */
 export function riskBand(score: number): RiskBand {
   const s = clamp(score, 0, 10);
@@ -30,14 +36,18 @@ export function riskBand(score: number): RiskBand {
 }
 
 /**
- * Get risk icon emoji from numerical score
+ * Gets the emoji icon corresponding to a numerical risk score.
+ * @param {number} score - The numerical risk score.
+ * @returns {string} The emoji icon for the risk level.
  */
 export function riskIcon(score: number): string {
   return RISK_ICON[riskBand(score)];
 }
 
 /**
- * Get risk level text from numerical score
+ * Gets the capitalized text label ('Low', 'Medium', 'High') for a numerical risk score.
+ * @param {number} score - The numerical risk score.
+ * @returns {string} The capitalized risk label.
  */
 export function riskLabel(score: number): string {
   const band = riskBand(score);
@@ -45,7 +55,9 @@ export function riskLabel(score: number): string {
 }
 
 /**
- * Get both icon and label for display
+ * Gets a combined string with both the risk icon and label for display.
+ * @param {number} score - The numerical risk score.
+ * @returns {string} A formatted string with the icon and label (e.g., "🛡️ Low").
  */
 export function riskDisplay(score: number): string {
   const icon = riskIcon(score);

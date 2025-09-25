@@ -27,11 +27,14 @@ let pollInterval = null;
 let connectionCheckInterval = null;
 
 /**
- * Calculate risk score for a protocol (reused from earn.ts)
+ * Calculates a risk score for a given yield opportunity based on TVL, protocol reputation, and APY.
+ * This is a simplified version for use within the event monitor.
+ * @param {object} pool - The yield opportunity pool data.
+ * @returns {number} A risk score from 1 (lowest risk) to 10 (highest risk).
  */
 function calculateRiskScore(pool) {
   let risk = 0;
-  
+
   // TVL risk (higher TVL = lower risk)
   if (pool.tvlUsd < 10_000_000) risk += 5;
   else if (pool.tvlUsd < 50_000_000) risk += 3;
@@ -60,7 +63,10 @@ function calculateRiskScore(pool) {
 }
 
 /**
- * Get best protocol using risk-aware selection (reuses logic from earn.ts)
+ * Determines the best DeFi protocol for a user to invest in based on their risk settings and real-time APY data.
+ * It fetches yield opportunities, filters them by the user's risk tolerance, and selects the one with the highest APY.
+ * @param {string} userId - The user's unique identifier.
+ * @returns {Promise<object>} A promise that resolves to an object containing the details of the best protocol.
  */
 async function getBestProtocolForUser(userId) {
   try {
@@ -193,7 +199,10 @@ async function getBestProtocolForUser(userId) {
 }
 
 /**
- * Manually set pre-deposit balance for a user (for new wallet edge case)
+ * A utility to manually set the pre-deposit balance for a user. This is used in edge cases,
+ * particularly for new wallets, to establish a baseline before monitoring for new deposits.
+ * @param {string} userId - The user's unique identifier.
+ * @param {number} balance - The balance to set.
  */
 function setPreDepositBalance(userId, balance) {
   console.log(`🎯 Manually setting pre-deposit balance for user ${userId}: $${balance}`);
@@ -201,7 +210,10 @@ function setPreDepositBalance(userId, balance) {
 }
 
 /**
- * Check if user has existing funds in their smart wallet
+ * Checks the initial USDC balance of a user's smart wallet before monitoring begins.
+ * This helps differentiate a new deposit from existing funds.
+ * @param {string} userId - The user's unique identifier.
+ * @returns {Promise<number>} A promise that resolves to the user's current USDC balance.
  */
 async function checkPreDepositBalance(userId) {
   try {
@@ -227,7 +239,15 @@ async function checkPreDepositBalance(userId) {
 }
 
 /**
- * Handle new deposit - context-aware routing based on monitoring type
+ * The core logic for handling a newly detected deposit.
+ * It uses the user's monitoring context (e.g., onboarding, manual selection) to route the deposit
+ * to the appropriate handler, such as auto-deploying for new users or offering options to existing users.
+ * @param {string} userId - The user's ID.
+ * @param {string} firstName - The user's first name.
+ * @param {string} amount - The amount of the deposit.
+ * @param {string} tokenSymbol - The symbol of the deposited token.
+ * @param {string} txHash - The transaction hash of the deposit.
+ * @returns {Promise<void>}
  */
 async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
@@ -310,7 +330,15 @@ async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) 
 }
 
 /**
- * Handle first-time deposit - auto-deploy for quick onboarding
+ * Handles the flow for a user's first-time deposit.
+ * It automatically selects the best protocol based on risk/reward and executes a gas-sponsored deployment.
+ * It then sends a comprehensive welcome and summary message.
+ * @param {string} userId - The user's ID.
+ * @param {string} firstName - The user's first name.
+ * @param {string} amount - The amount of the deposit.
+ * @param {string} tokenSymbol - The symbol of the deposited token.
+ * @param {string} txHash - The transaction hash of the deposit.
+ * @returns {Promise<void>}
  */
 async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
@@ -443,7 +471,15 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
 }
 
 /**
- * Handle deposit for existing user - check for pending transactions and offer smart completion
+ * Handles a deposit for an existing user.
+ * It checks if the user has a pending transaction (e.g., from an insufficient balance flow)
+ * and offers to complete it. Otherwise, it presents standard investment options.
+ * @param {string} userId - The user's ID.
+ * @param {string} firstName - The user's first name.
+ * @param {string} amount - The amount of the deposit.
+ * @param {string} tokenSymbol - The symbol of the deposited token.
+ * @param {string} txHash - The transaction hash of the deposit.
+ * @returns {Promise<void>}
  */
 async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
@@ -609,7 +645,15 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
 }
 
 /**
- * Handle manual protocol completion - user was short on their chosen protocol
+ * Handles the completion of an investment that was previously blocked due to insufficient funds,
+ * where the user had already manually selected a protocol.
+ * @param {string} userId - The user's ID.
+ * @param {string} firstName - The user's first name.
+ * @param {string} amount - The amount of the new deposit.
+ * @param {string} tokenSymbol - The symbol of the deposited token.
+ * @param {string} txHash - The transaction hash of the deposit.
+ * @param {object} pendingTransaction - The pending transaction data from the user's session.
+ * @returns {Promise<void>}
  */
 async function handleManualProtocolCompletion(userId, firstName, amount, tokenSymbol, txHash, pendingTransaction) {
   try {
@@ -719,7 +763,14 @@ async function handleManualProtocolCompletion(userId, firstName, amount, tokenSy
 }
 
 /**
- * Handle high balance user generic deposit - offer options, no auto-deploy
+ * Handles a deposit for a user who already has a significant balance.
+ * Instead of auto-deploying, it presents the user with investment options.
+ * @param {string} userId - The user's ID.
+ * @param {string} firstName - The user's first name.
+ * @param {string} amount - The amount of the deposit.
+ * @param {string} tokenSymbol - The symbol of the deposited token.
+ * @param {string} txHash - The transaction hash of the deposit.
+ * @returns {Promise<void>}
  */
 async function handleHighBalanceDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
@@ -790,7 +841,9 @@ async function handleHighBalanceDeposit(userId, firstName, amount, tokenSymbol, 
 }
 
 /**
- * Load wallet addresses to monitor (gets correct smart wallet addresses)
+ * Fetches the list of user wallets that are currently marked for deposit monitoring from the database.
+ * It cleans up expired monitoring states and caches pre-deposit balances for new wallets.
+ * @returns {Promise<Array<object>>} A promise that resolves to an array of wallet info objects to monitor.
  */
 async function loadWalletAddresses() {
   try {
@@ -852,8 +905,9 @@ async function loadWalletAddresses() {
 }
 
 /**
- * Force immediate refresh of monitored wallets
- * Call this when new users are created for instant monitoring
+ * Forces an immediate refresh of the list of monitored wallets and restarts the WebSocket connection if necessary.
+ * This is called when a new user starts a monitoring session to ensure they are included immediately.
+ * @returns {Promise<void>}
  */
 async function forceRefreshWallets() {
   console.log("🔄 Force refreshing monitored wallets...");
@@ -861,7 +915,9 @@ async function forceRefreshWallets() {
 }
 
 /**
- * Check wallet count and manage WebSocket connection accordingly
+ * Manages the WebSocket connection based on the number of wallets being monitored.
+ * It establishes a connection if there are wallets to monitor and disconnects if there are none.
+ * @returns {Promise<number>} The number of wallets currently being monitored.
  */
 async function checkAndManageConnection() {
   const wallets = await loadWalletAddresses();
@@ -897,7 +953,9 @@ async function checkAndManageConnection() {
 }
 
 /**
- * Parse transfer log data
+ * Parses the amount from the `data` field of an ERC20 Transfer event log.
+ * @param {string} data - The hex string from the log's data field.
+ * @returns {string} The formatted token amount as a string.
  */
 function parseTransferAmount(data) {
   try {
@@ -916,7 +974,10 @@ function parseTransferAmount(data) {
 }
 
 /**
- * Handle incoming transfer event
+ * Handles an incoming `Transfer` event log from the WebSocket subscription.
+ * It parses the log, identifies the recipient, and if it's a monitored wallet, triggers the new deposit flow.
+ * @param {object} log - The event log object from the WebSocket message.
+ * @returns {void}
  */
 function handleTransferEvent(log) {
   try {
@@ -957,7 +1018,9 @@ function handleTransferEvent(log) {
 }
 
 /**
- * Setup WebSocket connection with event subscriptions
+ * Establishes and configures the WebSocket connection to the blockchain node.
+ * It subscribes to USDC Transfer events and sets up handlers for messages, errors, and connection closing.
+ * @returns {void}
  */
 function setupWebSocketConnection() {
   const ws = new WebSocket(BASE_WSS);
@@ -1048,7 +1111,9 @@ function setupWebSocketConnection() {
 }
 
 /**
- * Start the event-based monitoring service
+ * Starts the main event monitoring service.
+ * It initiates the connection management loop that polls for users who need monitoring.
+ * @returns {Promise<void>}
  */
 async function startEventMonitoringService() {
   console.log("🦑 Starting inkvest event-based deposit monitoring...");

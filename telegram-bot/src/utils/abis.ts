@@ -1,5 +1,7 @@
 /**
- * Standard ERC-20 ABI with essential functions
+ * A standard ABI for ERC20 tokens, including common read/write functions and events.
+ * This can be used with Viem's `readContract` and `writeContract` for interacting with any ERC20 token.
+ * @const {any[]}
  */
 export const erc20Abi = [
   // Read functions
@@ -122,7 +124,9 @@ export const erc20Abi = [
 ] as const;
 
 /**
- * MetaMorpho Vault ABI - ERC4626 standard functions for Morpho vaults
+ * An ABI for MetaMorpho Vaults, which follow the ERC4626 tokenized vault standard.
+ * It includes functions for depositing, withdrawing, and redeeming shares, as well as viewing balances and total assets.
+ * @const {any[]}
  */
 export const metaMorphoAbi = [
   // ERC4626 standard functions
@@ -213,7 +217,9 @@ export const metaMorphoAbi = [
 ] as const;
 
 /**
- * EIP-2612 Permit ABI - For gasless approvals
+ * An ABI for the EIP-2612 `permit` function, which allows for gasless token approvals
+ * by signing an off-chain message instead of sending a transaction.
+ * @const {any[]}
  */
 export const permitAbi = [
   {
@@ -241,7 +247,9 @@ export const permitAbi = [
 ] as const;
 
 /**
- * GeneralAdapter ABI - For multicall operations
+ * An ABI for a general-purpose adapter contract that can be used to bundle
+ * multiple actions (like `forceApprove` and `morphoSupply`) into a single transaction (multicall).
+ * @const {any[]}
  */
 export const generalAdapterAbi = [
   {

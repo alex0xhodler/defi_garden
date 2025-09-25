@@ -6,12 +6,12 @@
 import { apyOrchestrator } from '../services/apy-orchestrator';
 
 /**
- * Get consistent APY for user context with risk preference consideration
- * This ensures the same APY is shown throughout a user's journey
- * 
- * @param userId - Optional user ID for session consistency and risk settings
- * @param context - User journey context for consistency
- * @returns Promise<number> - APY percentage (e.g., 7.5 for 7.5%)
+ * Provides a consistent APY value for the user throughout their session.
+ * It uses the APY orchestrator to fetch a cached or fresh value and then adjusts it based on the user's risk settings.
+ * This is the primary function that should be used to display APY to users.
+ * @param {string} [userId] - The user's ID for session consistency and risk settings.
+ * @param {'initial' | 'checking_deposits' | 'portfolio' | 'settings'} [context] - The user's current context in the bot flow.
+ * @returns {Promise<number>} A promise that resolves to the consistent, risk-adjusted APY percentage.
  */
 export async function getConsistentAPY(
   userId?: string,
@@ -34,8 +34,10 @@ export async function getConsistentAPY(
 }
 
 /**
- * Get immediate APY (fast response) for real-time UI updates
- * Uses cached data if available, shows loading indicator if needed
+ * Gets an APY value with a very short timeout, suitable for immediate UI updates.
+ * It returns the APY along with a flag indicating if a background refresh is needed (based on cache confidence).
+ * @param {string} [userId] - The user's ID for session context.
+ * @returns {Promise<{ apy: number; isLoading: boolean; confidence: number; }>} An object with the APY, a loading flag, and a confidence score.
  */
 export async function getImmediateAPY(userId?: string): Promise<{
   apy: number;
@@ -67,11 +69,16 @@ export async function getImmediateAPY(userId?: string): Promise<{
 }
 
 /**
- * Adjust APY based on user risk preference to match auto-investing logic
+ * Adjusts a base APY according to the user's saved risk preference.
+ * This ensures that the APY shown to the user aligns with the investment opportunities they will be offered.
+ * @private
+ * @param {number} baseAPY - The base APY fetched from the orchestrator.
+ * @param {string} [userId] - The user's ID to fetch risk settings for.
+ * @returns {Promise<number>} The risk-adjusted APY.
  */
 async function getRiskAdjustedAPY(baseAPY: number, userId?: string): Promise<number> {
   if (!userId) return baseAPY;
-  
+
   try {
     const { getUserSettings } = await import('../lib/database');
     const settings = getUserSettings(userId);
@@ -99,11 +106,10 @@ async function getRiskAdjustedAPY(baseAPY: number, userId?: string): Promise<num
 }
 
 /**
- * Get fresh APY data (bypasses cache)
- * Use this when you specifically need the latest data
- * 
- * @param userId - Optional user ID
- * @returns Promise<number> - Fresh APY percentage
+ * Forces a fetch of fresh APY data, bypassing any caches.
+ * This should be used sparingly, only when the absolute latest data is required.
+ * @param {string} [userId] - The user's ID.
+ * @returns {Promise<number>} A promise that resolves to the fresh APY percentage.
  */
 export async function getFreshAPY(userId?: string): Promise<number> {
   try {
@@ -122,11 +128,11 @@ export async function getFreshAPY(userId?: string): Promise<number> {
 }
 
 /**
- * Get APY with detailed information (for debugging/monitoring)
- * 
- * @param userId - Optional user ID
- * @param context - User journey context
- * @returns Promise with detailed APY response
+ * Gets the full, detailed APY response from the orchestrator, including metadata.
+ * This is primarily intended for debugging and monitoring purposes.
+ * @param {string} [userId] - The user's ID.
+ * @param {'initial' | 'checking_deposits' | 'portfolio' | 'settings'} [context] - The user's current context.
+ * @returns {Promise<import('../services/apy-orchestrator').APYResponse>} A promise that resolves to the detailed APY response object.
  */
 export async function getDetailedAPY(
   userId?: string,
@@ -140,8 +146,9 @@ export async function getDetailedAPY(
 }
 
 /**
- * Legacy compatibility - replaces getHighestAPY() calls
- * @deprecated Use getConsistentAPY() instead
+ * A deprecated legacy function for compatibility.
+ * @deprecated Use getConsistentAPY() instead.
+ * @returns {Promise<number>} The consistent APY.
  */
 export async function getHighestAPY(): Promise<number> {
   console.warn('⚠️ getHighestAPY() is deprecated. Use getConsistentAPY() instead.');
@@ -149,8 +156,9 @@ export async function getHighestAPY(): Promise<number> {
 }
 
 /**
- * Legacy compatibility - replaces getCompoundV3APY() calls
- * @deprecated Use getConsistentAPY() instead
+ * A deprecated legacy function for compatibility.
+ * @deprecated Use getConsistentAPY() instead.
+ * @returns {Promise<number>} The consistent APY.
  */
 export async function getCompoundV3APY(): Promise<number> {
   console.warn('⚠️ getCompoundV3APY() is deprecated. Use getConsistentAPY() instead.');

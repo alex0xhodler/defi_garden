@@ -47,7 +47,11 @@ interface DeFiLlamaPool {
 }
 
 /**
- * Fetch specific pools by IDs (much more efficient than fetching all pools)
+ * Fetches data for a specific list of pool IDs from the DeFiLlama API.
+ * It retrieves all pools and then filters for the requested IDs.
+ * @param {string[]} poolIds - An array of DeFiLlama pool IDs to fetch.
+ * @returns {Promise<DeFiLlamaPool[]>} A promise that resolves to an array of pool data objects.
+ * @throws Will throw an error if the API request fails.
  */
 async function fetchSpecificPools(poolIds: string[]): Promise<DeFiLlamaPool[]> {
   try {
@@ -72,7 +76,10 @@ async function fetchSpecificPools(poolIds: string[]): Promise<DeFiLlamaPool[]> {
 }
 
 /**
- * Fetch specific pool data by pool ID
+ * Fetches data for a single pool by its ID.
+ * @param {string} poolId - The DeFiLlama pool ID.
+ * @returns {Promise<DeFiLlamaPool | null>} A promise that resolves to the pool data object, or null if not found.
+ * @throws Will throw an error if the API request fails.
  */
 async function fetchPoolById(poolId: string): Promise<DeFiLlamaPool | null> {
   try {
@@ -92,10 +99,14 @@ async function fetchPoolById(poolId: string): Promise<DeFiLlamaPool | null> {
 }
 
 /**
- * Convert DeFiLlama pool to our YieldOpportunity format
+ * Converts a pool object from the DeFiLlama API format to the internal `YieldOpportunity` format.
+ * @param {DeFiLlamaPool} pool - The pool data from DeFiLlama.
+ * @param {string} protocol - The name of the protocol.
+ * @param {number} [fallbackApy] - A fallback APY to use if the pool data doesn't contain one.
+ * @returns {YieldOpportunity} The converted yield opportunity object.
  */
 function convertToYieldOpportunity(
-  pool: DeFiLlamaPool, 
+  pool: DeFiLlamaPool,
   protocol: string,
   fallbackApy?: number
 ): YieldOpportunity {
@@ -123,7 +134,10 @@ function convertToYieldOpportunity(
 }
 
 /**
- * Fetch real-time USDC lending rates for all protocols
+ * Fetches real-time yield opportunities for all monitored protocols.
+ * It gets data from the DeFiLlama API and uses a database-backed cache as a fallback mechanism.
+ * If both fail, it uses hardcoded default values.
+ * @returns {Promise<YieldOpportunity[]>} A promise that resolves to an array of yield opportunities.
  */
 export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
   try {
@@ -413,7 +427,8 @@ export async function fetchRealTimeYields(): Promise<YieldOpportunity[]> {
 }
 
 /**
- * Get the highest APY from all monitored pools
+ * Gets the highest APY currently available from all monitored pools.
+ * @returns {Promise<number>} A promise that resolves to the highest APY as a number.
  */
 export async function getHighestAPY(): Promise<number> {
   try {
@@ -428,14 +443,17 @@ export async function getHighestAPY(): Promise<number> {
 }
 
 /**
- * Get Compound V3 specific APY (async wrapper)
+ * A convenience wrapper to get the specific APY for Compound V3.
+ * @returns {Promise<number>} A promise that resolves to the Compound V3 APY.
  */
 export async function getCompoundV3APY(): Promise<number> {
   return await fetchProtocolApy("COMPOUND");
 }
 
 /**
- * Fetch individual protocol APY by pool ID
+ * Fetches the APY for a single, specific protocol by its name.
+ * @param {"AAVE" | "FLUID" | "COMPOUND" | "MORPHO" | "SPARK" | "SEAMLESS" | "MOONWELL" | "MORPHO_RE7"} protocol - The name of the protocol.
+ * @returns {Promise<number>} A promise that resolves to the protocol's APY.
  */
 export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO" | "SPARK" | "SEAMLESS" | "MOONWELL" | "MORPHO_RE7"): Promise<number> {
   try {
@@ -460,11 +478,13 @@ export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" |
 }
 
 /**
- * Test function to verify API connectivity and data structure
+ * A test function to verify DeFiLlama API connectivity and log the fetched data.
+ * This is intended for development and debugging purposes.
+ * @returns {Promise<void>}
  */
 export async function testDeFiLlamaAPI(): Promise<void> {
   console.log("=== TESTING DEFILLAMA API ===");
-  
+
   try {
     const opportunities = await fetchRealTimeYields();
     

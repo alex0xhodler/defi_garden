@@ -32,7 +32,10 @@ export interface InsufficientBalanceDetails {
 }
 
 /**
- * Store pending transaction in user session and database
+ * Stores the details of a pending transaction in both the user's session and the database.
+ * This is used to recover the transaction later, for example, after the user deposits more funds.
+ * @param {BotContext} ctx - The bot context.
+ * @param {InsufficientBalanceDetails} details - The details of the transaction that failed due to insufficient balance.
  */
 export function storePendingTransaction(ctx: BotContext, details: InsufficientBalanceDetails): void {
   const pendingTx: PendingTransaction = {
@@ -87,11 +90,14 @@ export function storePendingTransaction(ctx: BotContext, details: InsufficientBa
 }
 
 /**
- * Get pending transaction from session
+ * Retrieves the pending transaction from the user's session.
+ * It also checks if the pending transaction has expired and clears it if necessary.
+ * @param {BotContext} ctx - The bot context.
+ * @returns {PendingTransaction | undefined} The pending transaction object, or undefined if none exists or it has expired.
  */
 export function getPendingTransaction(ctx: BotContext): PendingTransaction | undefined {
   const pending = ctx.session.pendingTransaction;
-  
+
   // Check if expired (5 minutes)
   if (pending && Date.now() - pending.timestamp > 5 * 60 * 1000) {
     clearPendingTransaction(ctx);
@@ -102,7 +108,8 @@ export function getPendingTransaction(ctx: BotContext): PendingTransaction | und
 }
 
 /**
- * Clear pending transaction from session and database
+ * Clears any pending transaction from the user's session and the database.
+ * @param {BotContext} ctx - The bot context.
  */
 export function clearPendingTransaction(ctx: BotContext): void {
   // Clear from in-memory session
@@ -140,11 +147,13 @@ export function clearPendingTransaction(ctx: BotContext): void {
 }
 
 /**
- * Generate smart contextual message for insufficient balance
+ * Generates a user-friendly message explaining why a transaction failed due to insufficient balance.
+ * @param {InsufficientBalanceDetails} details - The details of the failed transaction.
+ * @returns {string} A formatted markdown message.
  */
 export function generateSmartMessage(details: InsufficientBalanceDetails): string {
   const { currentBalance, requestedAmount, shortage, protocol, apy } = details;
-  
+
   return `💳 **Smart Savings Assistant**\n\n` +
     `You're **$${shortage.toFixed(2)} short** for this investment:\n` +
     `• Protocol: **${protocol}**\n` +
@@ -155,11 +164,14 @@ export function generateSmartMessage(details: InsufficientBalanceDetails): strin
 }
 
 /**
- * Create smart recovery keyboard with contextual options
+ * Creates a keyboard with contextual options for the user to recover from an insufficient balance error.
+ * Options may include depositing more funds, investing the available amount, or changing the amount.
+ * @param {InsufficientBalanceDetails} details - The details of the failed transaction.
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object.
  */
 export function createSmartRecoveryKeyboard(details: InsufficientBalanceDetails): InlineKeyboard {
   const { shortage, currentBalance } = details;
-  
+
   return new InlineKeyboard()
     .text(`📥 Deposit $${shortage.toFixed(2)}`, "deposit")
     .text("🔍 Check Deposit", "manual_deposit_check")
@@ -171,10 +183,15 @@ export function createSmartRecoveryKeyboard(details: InsufficientBalanceDetails)
 }
 
 /**
- * Show intelligent insufficient balance flow with deposit screen
+ * Initiates the smart recovery flow when a user has an insufficient balance.
+ * It stores the pending transaction, starts deposit monitoring, and sends a message to the user
+ * with their deposit address and recovery options.
+ * @param {BotContext} ctx - The bot context.
+ * @param {InsufficientBalanceDetails} details - The details of the failed transaction.
+ * @returns {Promise<void>}
  */
 export async function sendInsufficientBalanceFlow(
-  ctx: BotContext, 
+  ctx: BotContext,
   details: InsufficientBalanceDetails
 ): Promise<void> {
   try {
@@ -236,12 +253,17 @@ export async function sendInsufficientBalanceFlow(
 }
 
 /**
- * Generate completion offer message for successful deposit
+ * Generates a message to offer the completion of a pending transaction after a successful deposit.
+ * @param {string} firstName - The user's first name.
+ * @param {number} depositAmount - The amount the user deposited.
+ * @param {string} tokenSymbol - The symbol of the deposited token.
+ * @param {PendingTransaction} pending - The details of the pending transaction.
+ * @returns {string} A formatted markdown message.
  */
 export function generateCompletionMessage(
-  firstName: string, 
-  depositAmount: number, 
-  tokenSymbol: string, 
+  firstName: string,
+  depositAmount: number,
+  tokenSymbol: string,
   pending: PendingTransaction
 ): string {
   return `🎉 **Perfect ${firstName}!**\n\n` +
@@ -255,11 +277,17 @@ export function generateCompletionMessage(
 }
 
 /**
- * Generate partial deposit message when user deposits less than needed
+ * Generates a message for when a user makes a partial deposit that is not enough to cover the pending transaction.
+ * @param {string} firstName - The user's first name.
+ * @param {number} depositAmount - The amount the user deposited.
+ * @param {string} tokenSymbol - The symbol of the deposited token.
+ * @param {number} stillNeeded - The remaining amount needed.
+ * @param {PendingTransaction} pending - The details of the pending transaction.
+ * @returns {string} A formatted markdown message.
  */
 export function generatePartialDepositMessage(
   firstName: string,
-  depositAmount: number, 
+  depositAmount: number,
   tokenSymbol: string,
   stillNeeded: number,
   pending: PendingTransaction
@@ -274,7 +302,8 @@ export function generatePartialDepositMessage(
 }
 
 /**
- * Create completion keyboard for successful deposits
+ * Creates a keyboard with options for the user after they have deposited enough funds to complete a pending transaction.
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object.
  */
 export function createCompletionKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
@@ -285,7 +314,9 @@ export function createCompletionKeyboard(): InlineKeyboard {
 }
 
 /**
- * Create partial deposit keyboard
+ * Creates a keyboard with options for the user after they have made a partial deposit.
+ * @param {number} stillNeeded - The remaining amount the user needs to deposit.
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object.
  */
 export function createPartialDepositKeyboard(stillNeeded: number): InlineKeyboard {
   return new InlineKeyboard()
@@ -297,7 +328,9 @@ export function createPartialDepositKeyboard(stillNeeded: number): InlineKeyboar
 }
 
 /**
- * Check if user has a valid pending transaction
+ * Checks if the user has a valid, non-expired pending transaction in their session.
+ * @param {BotContext} ctx - The bot context.
+ * @returns {boolean} True if a valid pending transaction exists, false otherwise.
  */
 export function hasPendingTransaction(ctx: BotContext): boolean {
   const pending = getPendingTransaction(ctx);
@@ -305,7 +338,9 @@ export function hasPendingTransaction(ctx: BotContext): boolean {
 }
 
 /**
- * Get shortage amount from pending transaction
+ * Gets the shortage amount from the user's pending transaction.
+ * @param {BotContext} ctx - The bot context.
+ * @returns {number} The shortage amount, or 0 if no pending transaction exists.
  */
 export function getPendingShortage(ctx: BotContext): number {
   const pending = getPendingTransaction(ctx);

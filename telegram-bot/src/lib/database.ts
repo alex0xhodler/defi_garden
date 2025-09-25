@@ -69,7 +69,10 @@ type TransactionRow = {
   timestamp: number;
 };
 
-// Initialize tables
+/**
+ * Initializes the SQLite database by creating all necessary tables and indexes if they don't already exist.
+ * Also handles simple migrations like adding new columns.
+ */
 export function initDatabase(): void {
   db.exec(`
     CREATE TABLE IF NOT EXISTS ${DB_TABLES.USERS} (
@@ -166,7 +169,15 @@ export function initDatabase(): void {
   }
 }
 
-// User operations
+/**
+ * Creates a new user record in the database.
+ * If a user with the given userId already exists, the operation is ignored.
+ * @param {string} userId - The unique internal identifier for the user.
+ * @param {string} telegramId - The user's Telegram ID.
+ * @param {string} [username] - The user's Telegram username.
+ * @param {string} [firstName] - The user's first name.
+ * @param {string} [lastName] - The user's last name.
+ */
 export function createUser(
   userId: string,
   telegramId: string,
@@ -182,6 +193,11 @@ export function createUser(
   stmt.run(userId, telegramId, username, firstName, lastName, Date.now());
 }
 
+/**
+ * Retrieves a user's record from the database using their Telegram ID.
+ * @param {string} telegramId - The user's Telegram ID.
+ * @returns {UserRow | undefined} The user row object, or undefined if not found.
+ */
 export function getUserByTelegramId(telegramId: string): UserRow | undefined {
   const stmt = db.prepare(`
     SELECT * FROM ${DB_TABLES.USERS} WHERE telegramId = ?
@@ -190,6 +206,11 @@ export function getUserByTelegramId(telegramId: string): UserRow | undefined {
   return stmt.get(telegramId) as UserRow | undefined;
 }
 
+/**
+ * Updates the onboarding completion status for a user.
+ * @param {string} userId - The user's unique identifier.
+ * @param {boolean} completed - Whether the onboarding is completed.
+ */
 export function updateUserOnboardingStatus(userId: string, completed: boolean): void {
   const stmt = db.prepare(`
     UPDATE ${DB_TABLES.USERS} 
@@ -200,6 +221,10 @@ export function updateUserOnboardingStatus(userId: string, completed: boolean): 
   stmt.run(completed ? Date.now() : null, userId);
 }
 
+/**
+ * Updates the `lastBalanceCheck` timestamp for a user to the current time.
+ * @param {string} userId - The user's unique identifier.
+ */
 export function updateUserBalanceCheckTime(userId: string): void {
   const stmt = db.prepare(`
     UPDATE ${DB_TABLES.USERS} 
@@ -210,6 +235,11 @@ export function updateUserBalanceCheckTime(userId: string): void {
   stmt.run(Date.now(), userId);
 }
 
+/**
+ * Sets the timestamp until which the bot should actively monitor for a user's deposit.
+ * @param {string} userId - The user's unique identifier.
+ * @param {number | null} untilTimestamp - The timestamp (in ms) to monitor until, or null to stop monitoring.
+ */
 export function setExpectingDepositUntil(userId: string, untilTimestamp: number | null): void {
   const stmt = db.prepare(`
     UPDATE ${DB_TABLES.USERS} 
@@ -229,14 +259,26 @@ export interface MonitoringContext {
   metadata?: any;
 }
 
+/**
+ * Starts a deposit monitoring window for a user for a specified duration.
+ * @param {string} userId - The user's unique identifier.
+ * @param {number} [durationMinutes=5] - The duration in minutes to monitor for a deposit.
+ */
 export function startDepositMonitoring(userId: string, durationMinutes: number = 5): void {
   const untilTimestamp = Date.now() + (durationMinutes * 60 * 1000);
   setExpectingDepositUntil(userId, untilTimestamp);
 }
 
-// Enhanced version with context tracking
+/**
+ * Starts a deposit monitoring window and logs the context (e.g., onboarding, manual check) for the action.
+ * This allows the bot to tailor its response when a deposit is detected.
+ * @param {string} userId - The user's unique identifier.
+ * @param {MonitoringContextType} contextType - The context for starting the monitoring (e.g., 'onboarding').
+ * @param {number} [durationMinutes=5] - The duration in minutes to monitor.
+ * @param {any} [metadata] - Additional metadata to store with the context.
+ */
 export function startDepositMonitoringWithContext(
-  userId: string, 
+  userId: string,
   contextType: MonitoringContextType,
   durationMinutes: number = 5,
   metadata?: any
@@ -273,7 +315,11 @@ export function startDepositMonitoringWithContext(
   }
 }
 
-// Get monitoring context for a user
+/**
+ * Retrieves the currently active monitoring context for a user.
+ * @param {string} userId - The user's unique identifier.
+ * @returns {MonitoringContext | null} The monitoring context object, or null if none is active or found.
+ */
 export function getMonitoringContext(userId: string): MonitoringContext | null {
   try {
     const db = getDatabase();
@@ -296,10 +342,19 @@ export function getMonitoringContext(userId: string): MonitoringContext | null {
   return null;
 }
 
+/**
+ * Stops the deposit monitoring for a specific user by setting the monitoring timestamp to null.
+ * @param {string} userId - The user's unique identifier.
+ */
 export function stopDepositMonitoring(userId: string): void {
   setExpectingDepositUntil(userId, null);
 }
 
+/**
+ * Retrieves a list of all users who currently require balance monitoring.
+ * This includes new users in their initial onboarding window and users who have triggered a manual check.
+ * @returns {UserRow[]} An array of user row objects.
+ */
 export function getUsersForBalanceMonitoring(): UserRow[] {
   const currentTime = Date.now();
   const fiveMinutesAgo = currentTime - (5 * 60 * 1000); // 5 minutes in milliseconds
@@ -318,7 +373,11 @@ export function getUsersForBalanceMonitoring(): UserRow[] {
   return stmt.all(fiveMinutesAgo, currentTime) as UserRow[];
 }
 
-// Wallet operations
+/**
+ * Saves or updates a user's wallet data in the database.
+ * @param {WalletData} walletData - The wallet data object to save.
+ * @param {string} userId - The unique identifier of the user who owns the wallet.
+ */
 export function saveWallet(walletData: WalletData, userId: string): void {
   const stmt = db.prepare(`
     INSERT OR REPLACE INTO ${DB_TABLES.WALLETS} (address, userId, encryptedPrivateKey, type, createdAt, autoCreated, isDeployed)
@@ -336,6 +395,11 @@ export function saveWallet(walletData: WalletData, userId: string): void {
   );
 }
 
+/**
+ * Retrieves a user's wallet data from the database using their user ID.
+ * @param {string} userId - The user's unique identifier.
+ * @returns {WalletData | null} The wallet data object, or null if not found.
+ */
 export function getWalletByUserId(userId: string): WalletData | null {
   const stmt = db.prepare(`
     SELECT * FROM ${DB_TABLES.WALLETS} WHERE userId = ?
@@ -354,6 +418,11 @@ export function getWalletByUserId(userId: string): WalletData | null {
   } as WalletData;
 }
 
+/**
+ * Retrieves a user's wallet data from the database using their wallet address.
+ * @param {string} address - The wallet address.
+ * @returns {WalletData | null} The wallet data object, or null if not found.
+ */
 export function getWalletByAddress(address: string): WalletData | null {
   const stmt = db.prepare(`
     SELECT * FROM ${DB_TABLES.WALLETS} WHERE address = ?
@@ -372,14 +441,23 @@ export function getWalletByAddress(address: string): WalletData | null {
   } as WalletData;
 }
 
+/**
+ * Updates the deployment status of a user's smart wallet.
+ * @param {string} userId - The user's unique identifier.
+ * @param {boolean} isDeployed - True if the wallet is deployed, false otherwise.
+ */
 export function updateWalletDeploymentStatus(userId: string, isDeployed: boolean): void {
   const stmt = db.prepare(`
     UPDATE ${DB_TABLES.WALLETS} SET isDeployed = ? WHERE userId = ?
   `);
-  
+
   stmt.run(isDeployed ? 1 : 0, userId);
 }
 
+/**
+ * Deletes a wallet from the database using its address.
+ * @param {string} address - The address of the wallet to delete.
+ */
 export function deleteWallet(address: string): void {
   const stmt = db.prepare(`
     DELETE FROM ${DB_TABLES.WALLETS} WHERE address = ?
@@ -388,7 +466,11 @@ export function deleteWallet(address: string): void {
   stmt.run(address);
 }
 
-// Settings operations
+/**
+ * Saves or updates a user's application settings in the database.
+ * @param {string} userId - The user's unique identifier.
+ * @param {Omit<UserSettings, "userId">} settings - The settings object to save.
+ */
 export function saveUserSettings(
   userId: string,
   settings: Omit<UserSettings, "userId">
@@ -407,6 +489,11 @@ export function saveUserSettings(
   );
 }
 
+/**
+ * Retrieves a user's settings from the database.
+ * @param {string} userId - The user's unique identifier.
+ * @returns {UserSettings | null} The user's settings object, or null if not found.
+ */
 export function getUserSettings(userId: string): UserSettings | null {
   const stmt = db.prepare(`
     SELECT * FROM ${DB_TABLES.SETTINGS} WHERE userId = ?
@@ -425,7 +512,10 @@ export function getUserSettings(userId: string): UserSettings | null {
   };
 }
 
-// Position operations
+/**
+ * Saves or updates a user's DeFi position in the database.
+ * @param {Omit<Position, 'lastUpdated'>} position - The position object to save.
+ */
 export function savePosition(position: Omit<Position, 'lastUpdated'>): void {
   const stmt = db.prepare(`
     INSERT OR REPLACE INTO ${DB_TABLES.POSITIONS} (
@@ -455,6 +545,11 @@ export function savePosition(position: Omit<Position, 'lastUpdated'>): void {
   );
 }
 
+/**
+ * Retrieves all DeFi positions for a given user.
+ * @param {string} userId - The user's unique identifier.
+ * @returns {Position[]} An array of the user's positions.
+ */
 export function getPositionsByUserId(userId: string): Position[] {
   const stmt = db.prepare(`
     SELECT * FROM ${DB_TABLES.POSITIONS} 
@@ -470,10 +565,17 @@ export function getPositionsByUserId(userId: string): Position[] {
   }));
 }
 
+/**
+ * Updates the dynamic values of a specific DeFi position.
+ * @param {string} positionId - The unique identifier of the position.
+ * @param {number} currentValue - The new current value of the position.
+ * @param {number} currentApy - The new current APY of the position.
+ * @param {number} yieldEarned - The new total yield earned by the position.
+ */
 export function updatePositionValue(
-  positionId: string, 
-  currentValue: number, 
-  currentApy: number, 
+  positionId: string,
+  currentValue: number,
+  currentApy: number,
   yieldEarned: number
 ): void {
   const stmt = db.prepare(`
@@ -485,6 +587,10 @@ export function updatePositionValue(
   stmt.run(currentValue, currentApy, yieldEarned, Date.now(), positionId);
 }
 
+/**
+ * Deletes a position from the database.
+ * @param {string} positionId - The unique identifier of the position to delete.
+ */
 export function deletePosition(positionId: string): void {
   const stmt = db.prepare(`
     DELETE FROM ${DB_TABLES.POSITIONS} WHERE id = ?
@@ -493,7 +599,20 @@ export function deletePosition(positionId: string): void {
   stmt.run(positionId);
 }
 
-// Transaction operations
+/**
+ * Saves a new transaction record to the database.
+ * @param {string} txHash - The transaction hash.
+ * @param {string} userId - The user's unique identifier.
+ * @param {string} walletAddress - The wallet address used for the transaction.
+ * @param {string} operationType - The type of operation (e.g., 'zap', 'harvest').
+ * @param {string} tokenSymbol - The symbol of the token involved.
+ * @param {string} amount - The amount of the primary token transferred.
+ * @param {string} status - The status of the transaction (e.g., 'success', 'failed').
+ * @param {string} [poolId] - The ID of the DeFi pool involved.
+ * @param {string} [protocol] - The name of the protocol involved.
+ * @param {string} [yieldEarned] - The amount of yield earned in this transaction.
+ * @param {string} [gasUsed] - The amount of gas used.
+ */
 export function saveTransaction(
   txHash: string,
   userId: string,
@@ -531,6 +650,12 @@ export function saveTransaction(
   );
 }
 
+/**
+ * Retrieves the most recent transactions for a user.
+ * @param {string} userId - The user's unique identifier.
+ * @param {number} [limit=10] - The maximum number of transactions to retrieve.
+ * @returns {TransactionRow[]} An array of transaction row objects.
+ */
 export function getTransactionsByUserId(
   userId: string,
   limit = 10
@@ -545,6 +670,11 @@ export function getTransactionsByUserId(
   return stmt.all(userId, limit) as TransactionRow[];
 }
 
+/**
+ * Calculates and retrieves aggregate portfolio statistics for a user.
+ * @param {string} userId - The user's unique identifier.
+ * @returns {object} An object containing total value, total invested, total yield, and position count.
+ */
 export function getPortfolioStats(userId: string): {
   totalValue: number;
   totalInvested: number;
@@ -571,7 +701,12 @@ export function getPortfolioStats(userId: string): {
   };
 }
 
-// Clean up unverified transactions and positions
+/**
+ * Cleans up the database by removing old, unverified, or failed transactions and their associated positions for a user.
+ * It typically keeps only the latest successful transaction and its related data.
+ * @param {string} userId - The user's unique identifier.
+ * @returns {{ deletedTransactions: number; deletedPositions: number }} An object reporting the number of deleted records.
+ */
 export function cleanupUnverifiedTransactions(userId: string): {
   deletedTransactions: number;
   deletedPositions: number;
@@ -621,17 +756,27 @@ export function cleanupUnverifiedTransactions(userId: string): {
   return { deletedTransactions, deletedPositions };
 }
 
-// Get database instance for direct access
+/**
+ * Returns the raw better-sqlite3 database instance for direct access when needed.
+ * @returns {Database.Database} The database instance.
+ */
 export function getDatabase() {
   return db;
 }
 
-// Protocol rates operations
+/**
+ * Saves or updates the latest APY and TVL data for a specific protocol.
+ * @param {string} protocol - The name of the protocol.
+ * @param {number} apy - The total APY.
+ * @param {number} apyBase - The base APY.
+ * @param {number} apyReward - The reward APY.
+ * @param {number} tvlUsd - The total value locked in USD.
+ */
 export function saveProtocolRate(
-  protocol: string, 
-  apy: number, 
-  apyBase: number, 
-  apyReward: number, 
+  protocol: string,
+  apy: number,
+  apyBase: number,
+  apyReward: number,
   tvlUsd: number
 ): void {
   const stmt = db.prepare(`
@@ -642,6 +787,11 @@ export function saveProtocolRate(
   stmt.run(protocol.toLowerCase(), apy, apyBase, apyReward, tvlUsd, Date.now());
 }
 
+/**
+ * Retrieves the cached rate data for a specific protocol.
+ * @param {string} protocol - The name of the protocol.
+ * @returns {object | null} The protocol rate data, or null if not found.
+ */
 export function getProtocolRate(protocol: string): {
   protocol: string;
   apy: number;
@@ -657,6 +807,10 @@ export function getProtocolRate(protocol: string): {
   return stmt.get(protocol.toLowerCase()) as any;
 }
 
+/**
+ * Retrieves all cached protocol rates from the database, ordered by APY descending.
+ * @returns {any[]} An array of all protocol rate data objects.
+ */
 export function getAllProtocolRates(): {
   protocol: string;
   apy: number;
@@ -672,7 +826,9 @@ export function getAllProtocolRates(): {
   return stmt.all() as any[];
 }
 
-// Close database connection
+/**
+ * Closes the database connection. Should be called on graceful shutdown.
+ */
 export function closeDatabase(): void {
   db.close();
 }

@@ -11,9 +11,16 @@ import { Address } from "viem";
 import { BASE_TOKENS } from "../utils/constants";
 import { riskIcon } from "../utils/risk-icons";
 
+/**
+ * Handles the /portfolio command.
+ * It fetches and displays a user's complete DeFi portfolio, including balances in various protocols
+ * like Aave, Compound, Morpho, etc. It provides a real-time overview of their investments and earnings.
+ * @command /portfolio
+ * @description View DeFi positions and yields.
+ */
 const portfolioHandler: CommandHandler = {
   command: "portfolio",
-  description: "View DeFi positions and yields", 
+  description: "View DeFi positions and yields",
   handler: async (ctx: BotContext) => {
     console.log("🔍 Portfolio command executed - DEBUG VERSION LOADED");
     try {
@@ -247,7 +254,12 @@ const portfolioHandler: CommandHandler = {
   },
 };
 
-// Handle portfolio details callback
+/**
+ * Handles the "portfolio_details" callback, providing a more detailed breakdown of each active position.
+ * It shows protocol-specific information, current APY, and risk levels for each investment.
+ * @param {BotContext} ctx - The bot context from the callback query.
+ * @returns {Promise<void>}
+ */
 export const handlePortfolioDetails = async (ctx: BotContext) => {
   try {
     const userId = ctx.session.userId;

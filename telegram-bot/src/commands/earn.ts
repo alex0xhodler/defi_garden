@@ -16,11 +16,15 @@ import { Address } from "viem";
 import { riskIcon, riskLabel } from "../utils/risk-icons";
 
 /**
- * Get real-time yield opportunities for USDC lending on Base
- * Uses DeFiLlama API with fallback to cached data
+ * Fetches real-time yield opportunities for a given token, filtering by risk and APY.
+ * It uses the DeFiLlama API as the primary source and falls back to static data on failure.
+ * @param {string} [token="USDC"] - The token symbol to find opportunities for.
+ * @param {number} [riskLevel=3] - The user's risk tolerance level (1-5).
+ * @param {number} [minApy=DEFAULT_SETTINGS.MIN_APY] - The minimum APY to include in the results.
+ * @returns {Promise<YieldOpportunity[]>} A promise that resolves to an array of yield opportunities.
  */
 export async function getYieldOpportunities(
-  token: string = "USDC", 
+  token: string = "USDC",
   riskLevel: number = 3,
   minApy: number = DEFAULT_SETTINGS.MIN_APY
 ): Promise<YieldOpportunity[]> {
@@ -144,9 +148,14 @@ export async function getYieldOpportunities(
   }
 }
 
+/**
+ * Calculates a risk score for a given yield opportunity based on TVL, protocol reputation, and other factors.
+ * @param {YieldOpportunity} pool - The yield opportunity to score.
+ * @returns {number} A risk score from 1 (lowest risk) to 10 (highest risk).
+ */
 export function calculateRiskScore(pool: YieldOpportunity): number {
   let risk = 0;
-  
+
   // TVL risk (higher TVL = lower risk)
   if (pool.tvlUsd < 1_000_000) risk += 7;
   else if (pool.tvlUsd < 10_000_000) risk += 5;
@@ -177,8 +186,14 @@ export function calculateRiskScore(pool: YieldOpportunity): number {
   return Math.min(risk, 10);
 }
 
+/**
+ * Handles the /earn command, initiating the process for the user to invest their funds.
+ * It presents the user with options for automatic (auto-managed) or manual investment.
+ * @command /earn
+ * @description Start earning with your funds.
+ */
 const earnHandler: CommandHandler = {
-  command: "earn", 
+  command: "earn",
   description: "Start earning with your funds",
   handler: async (ctx: BotContext) => {
     try {
@@ -244,7 +259,13 @@ const earnHandler: CommandHandler = {
   },
 };
 
-// Handle pool/protocol selection
+/**
+ * Handles the manual protocol selection process.
+ * It fetches suitable yield opportunities based on the user's risk and APY settings,
+ * then displays them as a list of selectable options.
+ * @param {BotContext} ctx - The bot context.
+ * @returns {Promise<void>}
+ */
 export async function handlePoolSelection(ctx: BotContext): Promise<void> {
   try {
     const userRiskLevel = ctx.session.settings?.riskLevel || 3;
@@ -320,7 +341,13 @@ export async function handlePoolSelection(ctx: BotContext): Promise<void> {
   }
 }
 
-// Handle amount input
+/**
+ * Handles the user's input for the investment amount.
+ * It validates the input, checks for sufficient USDC and ETH (for gas) balance,
+ * and then proceeds to the confirmation step. It triggers a smart recovery flow if the balance is insufficient.
+ * @param {BotContext} ctx - The bot context.
+ * @returns {Promise<void>}
+ */
 export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
   try {
     const userId = ctx.session.userId;
@@ -536,7 +563,14 @@ export async function handleZapAmountInput(ctx: BotContext): Promise<void> {
   }
 }
 
-// Handle zap confirmation
+/**
+ * Handles the final confirmation of the investment (zap).
+ * If confirmed, it executes the DeFi transaction, saves the position and transaction data to the database,
+ * and sends a success or failure message to the user.
+ * @param {BotContext} ctx - The bot context.
+ * @param {boolean} confirmed - Whether the user confirmed the action.
+ * @returns {Promise<void>}
+ */
 export async function handleZapConfirmation(
   ctx: BotContext,
   confirmed: boolean
@@ -697,7 +731,13 @@ export async function handleZapConfirmation(
   }
 }
 
-// Handle auto-earn deployment
+/**
+ * Handles the "auto-managed" investment flow.
+ * It automatically selects the best available yield opportunity based on user settings,
+ * stores the choice in the session, and prompts the user for the investment amount.
+ * @param {BotContext} ctx - The bot context.
+ * @returns {Promise<void>}
+ */
 export async function handleAutoEarn(ctx: BotContext): Promise<void> {
   try {
     const userId = ctx.session.userId;
@@ -769,7 +809,13 @@ export async function handleAutoEarn(ctx: BotContext): Promise<void> {
   }
 }
 
-// Handle zap retry with same parameters
+/**
+ * Handles the retry of a failed zap transaction.
+ * It uses the parameters stored in the session from the previous failed attempt
+ * to re-execute the investment transaction.
+ * @param {BotContext} ctx - The bot context.
+ * @returns {Promise<void>}
+ */
 export async function handleZapRetry(ctx: BotContext): Promise<void> {
   try {
     const userId = ctx.session.userId;

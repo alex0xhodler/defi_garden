@@ -6,6 +6,12 @@ import { InlineKeyboard } from "grammy";
 import { createConfirmationKeyboard } from "../utils/keyboardHelper";
 
 
+/**
+ * Handles the /import command. It initiates the process for a user to import an
+ * existing wallet using a private key. It includes a safety check if a wallet already exists.
+ * @command /import
+ * @description Import wallet via private key.
+ */
 export const importHandler: CommandHandler = {
   command: "import",
   description: "Import wallet via private key",
@@ -57,7 +63,12 @@ export const importHandler: CommandHandler = {
   },
 };
 
-// Handler for private key input
+/**
+ * Handles the user's private key submission. It validates the key format,
+ * imports the wallet, saves the new address to the session, and confirms success with the user.
+ * @param {BotContext} ctx - The bot context containing the user's message and session.
+ * @returns {Promise<void>}
+ */
 export async function handlePrivateKeyInput(ctx: BotContext): Promise<void> {
   try {
     const userId = ctx.session.userId;
@@ -110,6 +121,13 @@ export async function handlePrivateKeyInput(ctx: BotContext): Promise<void> {
   }
 }
 
+/**
+ * Handles the /export command. It performs critical safety checks to ensure a user
+ * doesn't export a private key that cannot access all their funds (e.g., funds in a smart wallet).
+ * If safe, it prompts the user for confirmation before displaying the key. If not safe, it initiates a mandatory fund migration flow.
+ * @command /export
+ * @description Display private key (with confirmation prompt).
+ */
 export const exportHandler: CommandHandler = {
   command: "export",
   description: "Display private key (with confirmation prompt)",
@@ -392,7 +410,14 @@ export const exportHandler: CommandHandler = {
   },
 };
 
-// Handle export confirmation
+/**
+ * Handles the user's confirmation to export their private key. If confirmed, it retrieves
+ * the key, displays it to the user, and provides security reminders. If denied, it cancels the operation.
+ * It includes a final balance check for smart wallets as a last line of defense.
+ * @param {BotContext} ctx - The bot context.
+ * @param {boolean} confirmed - Whether the user confirmed the export.
+ * @returns {Promise<void>}
+ */
 export async function handleExportConfirmation(
   ctx: BotContext,
   confirmed: boolean
@@ -608,7 +633,13 @@ export async function handleExportConfirmation(
   }
 }
 
-// Handle MANDATORY fund migration before export
+/**
+ * Handles the mandatory migration of funds from a smart wallet to the user's EOA (Externally Owned Account)
+ * before a private key export is allowed. This is a critical safety feature to prevent fund loss.
+ * @param {BotContext} ctx - The bot context.
+ * @param {boolean} [migrate=true] - A flag to proceed with migration, which is always true as this is a mandatory flow.
+ * @returns {Promise<void>}
+ */
 export async function handleFundMigration(
   ctx: BotContext,
   migrate: boolean = true // Always true since migration is mandatory

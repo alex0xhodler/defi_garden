@@ -1,7 +1,10 @@
 /**
- * Calculate real-time earnings based on deposit amount and APY
+ * Calculates and formats a user-friendly string representing the estimated earnings
+ * over a meaningful time period (week, month, or year).
+ * @param {number} usdcAmount - The principal amount in USDC.
+ * @param {number} apy - The Annual Percentage Yield (e.g., 7.5 for 7.5%).
+ * @returns {string} A formatted string describing the earnings (e.g., "$1.44 per week").
  */
-
 export function calculateRealTimeEarnings(usdcAmount: number, apy: number) {
   // Calculate earnings per different time periods
   const yearlyEarnings = usdcAmount * (apy / 100);
@@ -31,7 +34,11 @@ export function calculateRealTimeEarnings(usdcAmount: number, apy: number) {
 }
 
 /**
- * Calculate detailed earnings breakdown for enhanced display
+ * Calculates a detailed breakdown of earnings, including daily, weekly, monthly,
+ * and yearly projections, as well as time-to-double estimates and comparisons to traditional savings.
+ * @param {number} usdcAmount - The principal amount in USDC.
+ * @param {number} apy - The Annual Percentage Yield.
+ * @returns {object} An object containing various formatted earnings metrics.
  */
 export function calculateDetailedEarnings(usdcAmount: number, apy: number) {
   const yearlyEarnings = usdcAmount * (apy / 100);
@@ -73,7 +80,9 @@ export function calculateDetailedEarnings(usdcAmount: number, apy: number) {
 }
 
 /**
- * Format transaction hash with Basescan link (no preview)
+ * Formats a transaction hash into a markdown link to its page on Basescan.
+ * @param {string} txHash - The transaction hash.
+ * @returns {string} A markdown-formatted link to the transaction on Basescan.
  */
 export function formatTxLink(txHash: string): string {
   return `[${txHash.slice(0, 10)}...](https://basescan.org/tx/${txHash})`;

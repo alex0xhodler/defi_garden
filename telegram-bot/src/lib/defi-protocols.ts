@@ -141,10 +141,11 @@ const FLUID_FTOKEN_ABI = [
 ] as const;
 
 /**
- * Check if wallet has sufficient ETH for gas fees
- * @param walletData User's wallet data
- * @param minEthRequired Minimum ETH required (default 0.0001 ETH)
- * @returns Promise<void> - throws error if insufficient
+ * Checks if a wallet has a sufficient ETH balance to cover gas fees.
+ * Throws an error if the balance is below the required minimum.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @param {string} [minEthRequired="0.0001"] - The minimum amount of ETH required, as a string.
+ * @returns {Promise<void>} A promise that resolves if the balance is sufficient, or rejects with an error if not.
  */
 async function checkEthBalance(walletData: WalletData, minEthRequired: string = "0.0001"): Promise<void> {
   const userAddress = walletData.address as Address;
@@ -162,10 +163,11 @@ async function checkEthBalance(walletData: WalletData, minEthRequired: string = 
 }
 
 /**
- * Supply USDC to Aave V3
- * @param walletData User's wallet data
- * @param amountUsdc Amount in USDC (human readable, e.g., "100.5")
- * @returns Transaction receipt
+ * Supplies USDC to the Aave V3 protocol on behalf of the user.
+ * This function handles the necessary token approval before supplying.
+ * @param {WalletData} walletData - The user's wallet data containing the private key.
+ * @param {string} amountUsdc - The amount of USDC to supply, in a human-readable format (e.g., "100.5").
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
  */
 export async function supplyToAave(
   walletData: WalletData,
@@ -236,10 +238,11 @@ export async function supplyToAave(
 }
 
 /**
- * Supply USDC to Compound V3
- * @param walletData User's wallet data
- * @param amountUsdc Amount in USDC (human readable, e.g., "100.5")
- * @returns Transaction receipt
+ * Supplies USDC to the Compound V3 protocol on behalf of the user.
+ * It handles the token approval before supplying.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @param {string} amountUsdc - The amount of USDC to supply in a human-readable format.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
  */
 export async function supplyToCompound(
   walletData: WalletData,
@@ -295,11 +298,11 @@ export async function supplyToCompound(
 }
 
 /**
- * Withdraw USDC from Compound V3
- * @param walletData User's wallet data
- * @param amountUsdc Amount in USDC (human readable, e.g., "100.5") or "max" for full withdrawal
- * @param claimRewards Whether to claim rewards before withdrawal (default true for max, false for partial)
- * @returns Transaction receipt
+ * Withdraws USDC from the Compound V3 protocol.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @param {string} amountUsdc - The amount of USDC to withdraw, or "max" for the full balance.
+ * @param {boolean} [claimRewards] - Whether to claim rewards during the withdrawal. Defaults to true for max withdrawals.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
  */
 export async function withdrawFromCompound(
   walletData: WalletData,
@@ -343,11 +346,11 @@ export async function withdrawFromCompound(
 }
 
 /**
- * Withdraw USDC from Aave V3
- * @param walletData User's wallet data
- * @param amountUsdc Amount in USDC (human readable, e.g., "100.5") or "max" for full withdrawal
- * @param claimRewards Whether to claim rewards before withdrawal (default true for max, false for partial)
- * @returns Transaction receipt
+ * Withdraws USDC from the Aave V3 protocol.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @param {string} amountUsdc - The amount of USDC to withdraw, or "max" for the full balance.
+ * @param {boolean} [claimRewards] - Whether to claim rewards during the withdrawal. This is currently a placeholder.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
  */
 export async function withdrawFromAave(
   walletData: WalletData,
@@ -392,10 +395,11 @@ export async function withdrawFromAave(
 }
 
 /**
- * Supply USDC to Fluid Finance
- * @param walletData User's wallet data
- * @param amountUsdc Amount in USDC (human readable, e.g., "100.5")
- * @returns Transaction receipt
+ * Supplies USDC to the Fluid Finance protocol.
+ * It handles the necessary token approval before depositing.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @param {string} amountUsdc - The amount of USDC to supply in a human-readable format.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
  */
 export async function supplyToFluid(
   walletData: WalletData,
@@ -474,11 +478,11 @@ export async function supplyToFluid(
 }
 
 /**
- * Withdraw USDC from Fluid Finance
- * @param walletData User's wallet data
- * @param amountUsdc Amount in USDC (human readable, e.g., "100.5") or "max" for full withdrawal
- * @param claimRewards Whether to claim rewards before withdrawal (default true for max, false for partial)
- * @returns Transaction receipt
+ * Withdraws USDC from the Fluid Finance protocol.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @param {string} amountUsdc - The amount of USDC to withdraw, or "max" for the full balance.
+ * @param {boolean} [claimRewards] - Whether to claim rewards. This is currently a placeholder.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
  */
 export async function withdrawFromFluid(
   walletData: WalletData,
@@ -523,12 +527,14 @@ export async function withdrawFromFluid(
 }
 
 /**
- * Execute a withdrawal transaction from the specified protocol
- * @param protocol Protocol name ("aave", "fluid", or "compound")
- * @param walletData User's wallet data
- * @param amountUsdc Amount in USDC to withdraw or "max" for full withdrawal
- * @param claimRewards Whether to claim rewards before withdrawal
- * @returns Transaction receipt
+ * Executes a withdrawal from a specified DeFi protocol, automatically handling gasless
+ * transactions for users with a Coinbase Smart Wallet.
+ * @param {string} protocol - The name of the protocol to withdraw from (e.g., "aave", "compound").
+ * @param {WalletData} walletData - The user's EOA wallet data (used as a fallback).
+ * @param {string} amountUsdc - The amount of USDC to withdraw, or "max".
+ * @param {boolean} [claimRewards] - Whether to claim rewards, if applicable.
+ * @param {string} [userId] - The user's ID, required for gasless transactions.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
  */
 export async function executeWithdraw(
   protocol: string,
@@ -614,16 +620,9 @@ export async function executeWithdraw(
 }
 
 /**
- * Execute a zap transaction to the specified protocol
- * @param protocol Protocol name ("Aave" or "Compound")
- * @param walletData User's wallet data
- * @param amountUsdc Amount in USDC to supply
- * @returns Transaction receipt
- */
-/**
- * Claim COMP rewards from Compound V3
- * @param walletData User's wallet data
- * @returns Transaction receipt
+ * Claims pending COMP rewards from the Compound V3 protocol for the user.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt of the claim.
  */
 export async function claimCompoundRewards(
   walletData: WalletData
@@ -651,12 +650,13 @@ export async function claimCompoundRewards(
 }
 
 /**
- * Get pending FLUID token rewards from FluidMerkleDistributor
- * Based on transaction structure from FluidMerkleDistributor.claim()
+ * Fetches a user's pending FLUID token rewards by calling the Fluid Finance API.
+ * @param {Address} userAddress - The user's wallet address.
+ * @returns {Promise<object>} A promise that resolves to an object containing reward information.
  */
 export async function getPendingFluidRewards(
   userAddress: Address
-): Promise<{ 
+): Promise<{
   rewardToken: string; 
   amount: string; 
   amountFormatted: string;
@@ -739,9 +739,9 @@ export async function getPendingFluidRewards(
 }
 
 /**
- * Check pending COMP rewards for a user
- * @param userAddress User's wallet address
- * @returns Pending reward amount and token address
+ * Fetches a user's pending COMP rewards from the Compound V3 protocol's rewards contract.
+ * @param {Address} userAddress - The user's wallet address.
+ * @returns {Promise<{ rewardToken: string; amount: string; amountFormatted: string }>} A promise that resolves to an object with the reward token address and amount.
  */
 export async function getPendingCompoundRewards(
   userAddress: Address
@@ -774,6 +774,16 @@ export async function getPendingCompoundRewards(
   }
 }
 
+/**
+ * Executes a "zap" (deposit) into a specified DeFi protocol.
+ * It automatically detects if the user has a Coinbase Smart Wallet and routes to the appropriate
+ * gasless or standard deposit function.
+ * @param {string} protocol - The target protocol for the deposit (e.g., "Aave", "Compound").
+ * @param {WalletData} walletData - The user's EOA wallet data, used for standard transactions.
+ * @param {string} amountUsdc - The amount of USDC to deposit.
+ * @param {string} [userId] - The user's ID, required to check for and use a smart wallet.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves to the transaction receipt.
+ */
 export async function executeZap(
   protocol: string,
   walletData: WalletData,

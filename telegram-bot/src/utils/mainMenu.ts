@@ -2,8 +2,9 @@ import { InlineKeyboard } from "grammy";
 import { Address } from "viem";
 
 /**
- * Create standardized main menu keyboard
- * This should be used across all commands to maintain consistency
+ * Creates a standardized main menu keyboard with common user actions.
+ * This function ensures a consistent user experience across different commands.
+ * @returns {InlineKeyboard} A grammY InlineKeyboard object representing the main menu.
  */
 export function createMainMenuKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
@@ -18,7 +19,13 @@ export function createMainMenuKeyboard(): InlineKeyboard {
 }
 
 /**
- * Main menu message text with portfolio check and user state detection
+ * Generates a dynamic main menu message for the user.
+ * The message content is tailored based on the user's current state, such as whether they have
+ * active investments, funds in their wallet, or are new to the bot.
+ * @param {string} [firstName="there"] - The user's first name.
+ * @param {string} [walletAddress] - The user's wallet address.
+ * @param {string} [userId] - The user's unique identifier.
+ * @returns {Promise<string>} A promise that resolves to the formatted markdown message string.
  */
 export async function getMainMenuMessage(firstName: string = "there", walletAddress?: string, userId?: string): Promise<string> {
   const { getConsistentAPY } = await import('./consistent-apy');

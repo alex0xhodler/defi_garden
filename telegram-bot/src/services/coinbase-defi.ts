@@ -124,10 +124,15 @@ const FLUID_FTOKEN_ABI = [
 ] as const;
 
 /**
- * Auto-deploy USDC to Compound V3 with sponsored gas
+ * Deploys USDC to Compound V3 for a user, sponsoring the gas fee via the Coinbase Paymaster.
+ * It automatically handles token approval and supplying assets in a single transaction batch.
+ * The function will auto-fit the deployment amount if the requested amount exceeds the available balance minus a gas reserve.
+ * @param {string} userId - The user's unique identifier.
+ * @param {string} usdcAmount - The amount of USDC to deploy, as a string.
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string }>} An object indicating the transaction's success, hash, or an error message.
  */
 export async function autoDeployToCompoundV3(
-  userId: string, 
+  userId: string,
   usdcAmount: string
 ): Promise<{ success: boolean; txHash?: string; error?: string }> {
   try {
@@ -300,7 +305,8 @@ export async function autoDeployToCompoundV3(
 }
 
 /**
- * Get current Compound V3 APY from DefiLlama
+ * Fetches the current APY for Compound V3 from DeFiLlama.
+ * @returns {Promise<number>} A promise that resolves to the current APY as a number.
  */
 export async function getCompoundV3APY(): Promise<number> {
   const { getCompoundV3APY } = await import('../lib/defillama-api');
@@ -308,7 +314,9 @@ export async function getCompoundV3APY(): Promise<number> {
 }
 
 /**
- * Check if user has funds deployed in Compound V3
+ * Fetches the user's deposit balance in Compound V3.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @returns {Promise<string>} A promise that resolves to the formatted balance as a string.
  */
 export async function getCompoundV3Balance(walletAddress: Address): Promise<string> {
   try {
@@ -340,7 +348,10 @@ export async function getCompoundV3Balance(walletAddress: Address): Promise<stri
 }
 
 /**
- * Get exact Compound V3 balance in wei for precise withdrawals
+ * Fetches the exact, unformatted balance (in wei) of a user's deposits in Compound V3.
+ * Useful for precise calculations in withdrawal transactions.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @returns {Promise<bigint>} A promise that resolves to the raw balance as a bigint.
  */
 export async function getCompoundV3BalanceExact(walletAddress: Address): Promise<bigint> {
   try {
@@ -371,10 +382,14 @@ export async function getCompoundV3BalanceExact(walletAddress: Address): Promise
 
 
 /**
- * Withdraw USDC from Compound V3 with CDP sponsored gas
+ * Withdraws USDC from Compound V3 for a user, sponsoring the gas fee via the Coinbase Paymaster.
+ * @param {string} userId - The user's unique identifier.
+ * @param {string | bigint} usdcAmount - The amount of USDC to withdraw, as a string or bigint.
+ * @param {boolean} [isMaxWithdrawal=false] - A flag to indicate if this is a maximum withdrawal.
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string }>} An object indicating the transaction's success, hash, or an error message.
  */
 export async function withdrawFromCompoundV3(
-  userId: string, 
+  userId: string,
   usdcAmount: string | bigint,
   isMaxWithdrawal: boolean = false
 ): Promise<{ success: boolean; txHash?: string; error?: string }> {
@@ -515,10 +530,14 @@ export async function withdrawFromCompoundV3(
 }
 
 /**
- * Auto-deploy USDC to Aave V3 with sponsored gas
+ * Deploys USDC to Aave V3 for a user, sponsoring the gas fee via the Coinbase Paymaster.
+ * It handles token approval and supply in a single transaction batch.
+ * @param {string} userId - The user's unique identifier.
+ * @param {string} usdcAmount - The amount of USDC to deploy.
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string }>} An object indicating the transaction's success, hash, or an error message.
  */
 export async function gaslessDeployToAave(
-  userId: string, 
+  userId: string,
   usdcAmount: string
 ): Promise<{ success: boolean; txHash?: string; error?: string }> {
   try {
@@ -669,10 +688,13 @@ export async function gaslessDeployToAave(
 }
 
 /**
- * Withdraw USDC from Aave V3 with CDP sponsored gas
+ * Withdraws USDC from Aave V3 for a user, sponsoring the gas fee via the Coinbase Paymaster.
+ * @param {string} userId - The user's unique identifier.
+ * @param {string} usdcAmount - The amount of USDC to withdraw (or "max").
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string }>} An object indicating the transaction's success, hash, or an error message.
  */
 export async function gaslessWithdrawFromAave(
-  userId: string, 
+  userId: string,
   usdcAmount: string
 ): Promise<{ success: boolean; txHash?: string; error?: string }> {
   try {
@@ -782,10 +804,14 @@ export async function gaslessWithdrawFromAave(
 }
 
 /**
- * Auto-deploy USDC to Fluid Finance with sponsored gas
+ * Deploys USDC to Fluid Finance for a user, sponsoring the gas fee via the Coinbase Paymaster.
+ * It handles token approval and deposit in a single transaction batch.
+ * @param {string} userId - The user's unique identifier.
+ * @param {string} usdcAmount - The amount of USDC to deploy.
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string }>} An object indicating the transaction's success, hash, or an error message.
  */
 export async function gaslessDeployToFluid(
-  userId: string, 
+  userId: string,
   usdcAmount: string
 ): Promise<{ success: boolean; txHash?: string; error?: string }> {
   try {
@@ -947,10 +973,13 @@ export async function gaslessDeployToFluid(
 }
 
 /**
- * Withdraw USDC from Fluid Finance with CDP sponsored gas
+ * Withdraws USDC from Fluid Finance for a user, sponsoring the gas fee via the Coinbase Paymaster.
+ * @param {string} userId - The user's unique identifier.
+ * @param {string} usdcAmount - The amount of USDC to withdraw (or "max").
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string }>} An object indicating the transaction's success, hash, or an error message.
  */
 export async function gaslessWithdrawFromFluid(
-  userId: string, 
+  userId: string,
   usdcAmount: string
 ): Promise<{ success: boolean; txHash?: string; error?: string }> {
   try {

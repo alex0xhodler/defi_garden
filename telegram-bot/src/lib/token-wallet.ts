@@ -32,7 +32,10 @@ import {
 // *** WALLET FUNCTIONS *** //
 
 /**
- * Create a wallet client for the given private key
+ * Creates a Viem WalletClient instance for a given account.
+ * This client is used for sending transactions (write operations).
+ * @param {Account} account - The Viem account object created from a private key.
+ * @returns {WalletClient} A configured Viem WalletClient.
  */
 function createClient(account: Account): WalletClient {
   return createWalletClient({
@@ -43,7 +46,9 @@ function createClient(account: Account): WalletClient {
 }
 
 /**
- * Create a public client for Base network
+ * Creates a Viem PublicClient instance for the Base network.
+ * This client is used for read-only operations like fetching balances and reading contract state.
+ * @returns {PublicClient} A configured Viem PublicClient.
  */
 export function createPublicClientForBase() {
   return createPublicClient({
@@ -53,7 +58,9 @@ export function createPublicClientForBase() {
 }
 
 /**
- * Generate a new wallet
+ * Generates a new wallet for a user, encrypts the private key, and saves it to the database.
+ * @param {string} userId - The unique identifier for the user.
+ * @returns {Promise<WalletData>} A promise that resolves with the data of the newly created wallet.
  */
 export async function generateWallet(userId: string): Promise<WalletData> {
   const privateKey = generatePrivateKey();
@@ -76,7 +83,11 @@ export async function generateWallet(userId: string): Promise<WalletData> {
 }
 
 /**
- * Import a wallet from private key
+ * Imports a wallet using a provided private key.
+ * It encrypts the key and saves the wallet data to the database.
+ * @param {string} userId - The unique identifier for the user.
+ * @param {string} privateKey - The private key to import.
+ * @returns {Promise<WalletData>} A promise that resolves with the data of the imported wallet.
  */
 export async function importWallet(
   userId: string,
@@ -102,14 +113,18 @@ export async function importWallet(
 }
 
 /**
- * Get wallet for a user
+ * Retrieves a user's wallet data from the database.
+ * @param {string} userId - The user's unique identifier.
+ * @returns {Promise<WalletData | null>} A promise that resolves with the user's wallet data, or null if not found.
  */
 export async function getWallet(userId: string): Promise<WalletData | null> {
   return getWalletByUserId(userId);
 }
 
 /**
- * Get account object from wallet data
+ * Creates a Viem `Account` object from the wallet data by decrypting the private key.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @returns {Account} The Viem account object.
  */
 export function getAccount(walletData: WalletData): Account {
   const privateKey = decrypt(walletData.encryptedPrivateKey);
@@ -117,14 +132,19 @@ export function getAccount(walletData: WalletData): Account {
 }
 
 /**
- * Get private key from wallet data
+ * Decrypts and returns the private key from a user's wallet data.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @returns {string} The decrypted private key.
  */
 export function getPrivateKey(walletData: WalletData): string {
   return decrypt(walletData.encryptedPrivateKey);
 }
 
 /**
- * Get ETH balance for an address
+ * Fetches the native ETH balance for a given address.
+ * @param {Address} address - The address to check the balance of.
+ * @returns {Promise<string>} A promise that resolves to the balance as a string in wei.
+ * @throws Will throw an error if the RPC call fails.
  */
 export async function getEthBalance(address: Address): Promise<string> {
   try {
@@ -138,7 +158,16 @@ export async function getEthBalance(address: Address): Promise<string> {
 }
 
 /**
- * Execute a contract method using viem's writeContract
+ * A generic function to execute a write method on a smart contract.
+ * It simulates the transaction first for safety and then sends it with optimized gas settings.
+ * @param {object} params - The parameters for the contract method execution.
+ * @param {WalletData} params.walletData - The user's wallet data.
+ * @param {Address} params.contractAddress - The address of the contract to interact with.
+ * @param {any} params.abi - The ABI of the contract.
+ * @param {string} params.functionName - The name of the function to call.
+ * @param {any[]} params.args - The arguments to pass to the function.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
+ * @throws Will throw an error if the simulation or transaction fails.
  */
 export async function executeContractMethod({
   walletData,
@@ -225,7 +254,11 @@ export async function executeContractMethod({
 }
 
 /**
- * Execute a transaction
+ * Executes a raw transaction.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @param {TransactionParams} params - The transaction parameters (to, data, value, etc.).
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
+ * @throws Will throw an error if the transaction fails.
  */
 export async function executeTransaction(
   walletData: WalletData,
@@ -263,7 +296,11 @@ export async function executeTransaction(
 }
 
 /**
- * Withdraw ETH to another address
+ * Withdraws ETH from the user's wallet to a specified address.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @param {WithdrawalParams} params - The withdrawal parameters (to, amount, gas settings).
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
+ * @throws Will throw an error if the withdrawal fails.
  */
 export async function withdrawEth(
   walletData: WalletData,
@@ -309,7 +346,11 @@ export async function withdrawEth(
 }
 
 /**
- * Estimate gas for ETH withdrawal
+ * Estimates the gas required for an ETH withdrawal transaction.
+ * @param {Address} from - The sender's address.
+ * @param {Address} to - The recipient's address.
+ * @param {string} amount - The amount of ETH to send in wei.
+ * @returns {Promise<string>} A promise that resolves to the estimated gas as a string.
  */
 export async function estimateWithdrawalGas(
   from: Address,
@@ -335,9 +376,9 @@ export async function estimateWithdrawalGas(
 // *** TOKEN FUNCTIONS *** //
 
 /**
- * Get token information using on-chain RPC calls
- * @param tokenAddress The token's contract address
- * @returns TokenInfo object with token details or null if failed
+ * Fetches on-chain information for a given ERC20 token, such as its symbol and decimals.
+ * @param {Address} tokenAddress - The contract address of the token.
+ * @returns {Promise<TokenInfo | null>} A promise that resolves to a TokenInfo object, or null if the token is not found or an error occurs.
  */
 export async function getTokenInfo(
   tokenAddress: Address
@@ -382,10 +423,10 @@ export async function getTokenInfo(
 }
 
 /**
- * Get token balance for a specific address
- * @param tokenAddress The token's contract address
- * @param walletAddress The wallet address to check balance for
- * @returns Token balance as string
+ * Fetches the balance of a specific token (ERC20 or native ETH) for a given wallet address.
+ * @param {Address} tokenAddress - The contract address of the token, or the native token address for ETH.
+ * @param {Address} walletAddress - The address of the wallet to check.
+ * @returns {Promise<string>} A promise that resolves to the raw token balance as a string.
  */
 export async function getTokenBalance(
   tokenAddress: Address,
@@ -418,10 +459,10 @@ export async function getTokenBalance(
 }
 
 /**
- * Get multiple token balances for a wallet
- * @param tokenAddresses Array of token addresses
- * @param walletAddress Wallet address to check balances for
- * @returns Array of token info objects with balances
+ * Fetches the balances for multiple tokens for a single wallet address in an efficient manner.
+ * @param {Address[]} tokenAddresses - An array of token addresses to check.
+ * @param {Address} walletAddress - The address of the wallet.
+ * @returns {Promise<TokenInfo[]>} A promise that resolves to an array of TokenInfo objects, each including the balance.
  */
 export async function getMultipleTokenBalances(
   tokenAddresses: Address[],
@@ -470,9 +511,10 @@ export async function getMultipleTokenBalances(
 }
 
 /**
- * Get Aave aUSDC balance for a wallet (real deposited amount)
- * @param walletAddress The wallet address to check
- * @returns aUSDC balance representing actual Aave deposits
+ * Fetches the user's deposit balance in the Aave V3 protocol.
+ * This is determined by checking the balance of the aUSDC token.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @returns {Promise<{ aUsdcBalance: string; aUsdcBalanceFormatted: string; }>} A promise that resolves to an object containing the raw and formatted balance.
  */
 export async function getAaveBalance(walletAddress: Address): Promise<{
   aUsdcBalance: string;
@@ -503,9 +545,10 @@ export async function getAaveBalance(walletAddress: Address): Promise<{
 }
 
 /**
- * Get Fluid fUSDC balance for a wallet (real deposited amount)
- * @param walletAddress The wallet address to check
- * @returns fUSDC balance representing actual Fluid deposits
+ * Fetches the user's deposit balance in the Fluid Finance protocol.
+ * This is determined by checking the balance of the fUSDC token.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @returns {Promise<{ fUsdcBalance: string; fUsdcBalanceFormatted: string; }>} A promise that resolves to an object containing the raw and formatted balance.
  */
 export async function getFluidBalance(walletAddress: Address): Promise<{
   fUsdcBalance: string;
@@ -536,9 +579,10 @@ export async function getFluidBalance(walletAddress: Address): Promise<{
 }
 
 /**
- * Get Compound V3 cUSDCv3 balance for a wallet (real deposited amount)
- * @param walletAddress The wallet address to check
- * @returns cUSDCv3 balance representing actual Compound deposits
+ * Fetches the user's deposit balance in the Compound V3 protocol.
+ * This is determined by checking the balance of the cUSDCv3 token.
+ * @param {Address} walletAddress - The user's wallet address.
+ * @returns {Promise<{ cUsdcBalance: string; cUsdcBalanceFormatted: string; }>} A promise that resolves to an object containing the raw and formatted balance.
  */
 export async function getCompoundBalance(walletAddress: Address): Promise<{
   cUsdcBalance: string;
@@ -569,9 +613,9 @@ export async function getCompoundBalance(walletAddress: Address): Promise<{
 }
 
 /**
- * Get token address from symbol
- * @param symbol Token symbol (e.g., "ETH", "USDC")
- * @returns Token address or null if not found
+ * A utility function to get a token's contract address from its symbol.
+ * @param {string} symbol - The token symbol (e.g., "ETH", "USDC").
+ * @returns {Address | null} The token's address, or null if not found in the predefined list.
  */
 export function getTokenAddressFromSymbol(symbol: string): Address | null {
   const upperSymbol = symbol.toUpperCase();
@@ -585,11 +629,11 @@ export function getTokenAddressFromSymbol(symbol: string): Address | null {
 }
 
 /**
- * Format token amount according to its decimals
- * @param amount Raw token amount (in base units)
- * @param decimals Token decimals
- * @param displayDecimals Number of decimals to display
- * @returns Formatted amount as string
+ * A utility function to format a raw token amount (in its smallest unit, e.g., wei) into a human-readable string.
+ * @param {string | bigint} amount - The raw token amount.
+ * @param {number} decimals - The number of decimals the token has.
+ * @param {number} [displayDecimals=4] - The number of decimal places to show in the output string.
+ * @returns {string} The formatted token amount as a string.
  */
 export function formatTokenAmount(
   amount: string | bigint,
@@ -609,11 +653,11 @@ export function formatTokenAmount(
 }
 
 /**
- * Get ERC20 token allowance
- * @param tokenAddress Token contract address
- * @param ownerAddress Owner address
- * @param spenderAddress Spender address (typically exchange contract)
- * @returns Allowance amount as string
+ * Fetches the current ERC20 token allowance a spender has from an owner.
+ * @param {Address} tokenAddress - The contract address of the ERC20 token.
+ * @param {Address} ownerAddress - The address of the token owner.
+ * @param {Address} spenderAddress - The address of the spender.
+ * @returns {Promise<string>} A promise that resolves to the allowance amount as a string.
  */
 export async function getTokenAllowance(
   tokenAddress: Address,
@@ -643,11 +687,12 @@ export async function getTokenAllowance(
 }
 
 /**
- * Transfer USDC tokens to another address
- * @param walletData User's wallet data
- * @param toAddress Destination address
- * @param amount Amount in USDC (human readable, e.g., "100.5")
- * @returns Transaction receipt
+ * Transfers USDC tokens from the user's wallet to a specified destination address.
+ * @param {WalletData} walletData - The user's wallet data.
+ * @param {Address} toAddress - The recipient's address.
+ * @param {string} amount - The amount of USDC to transfer, in human-readable format.
+ * @returns {Promise<TransactionReceipt>} A promise that resolves with the transaction receipt.
+ * @throws Will throw an error if the balance is insufficient or the transaction fails.
  */
 export async function transferUsdc(
   walletData: WalletData,

@@ -26,18 +26,16 @@ const simpleERC20Abi = [
 ] as const;
 
 /**
- * Deposit USDC to Moonwell USDC vault with sponsored gas
- * 
- * Based on proven Morpho/Spark/Seamless pattern - Direct ERC4626 deposit via multicall
- * Uses the same transaction pattern as proven successful deposits
- * 
- * @param userId User identifier
- * @param usdcAmount Amount to deposit (in USDC, e.g., "1.0")
- * @param testSmartAccount Optional smart account for testing
- * @returns Promise with success status, transaction hash, and shares received
+ * Deposits USDC into the Moonwell USDC vault for a user, sponsoring the gas fee.
+ * This function follows the ERC4626 standard for vault deposits, bundling `approve` and `deposit` calls
+ * into a single gasless transaction via a multicall.
+ * @param {string} userId - The unique identifier for the user.
+ * @param {string} usdcAmount - The amount of USDC to deposit, in a human-readable format (e.g., "1.0").
+ * @param {any} [testSmartAccount] - An optional smart account object for testing purposes.
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string; shares?: string }>} An object indicating the transaction's success, hash, shares received, or an error message.
  */
 export async function deployToMoonwell(
-  userId: string, 
+  userId: string,
   usdcAmount: string,
   testSmartAccount?: any // Optional parameter for testing
 ): Promise<{ success: boolean; txHash?: string; error?: string; shares?: string }> {
@@ -153,18 +151,15 @@ export async function deployToMoonwell(
 }
 
 /**
- * Withdraw USDC from Moonwell vault using direct ERC4626 redeem
- * 
- * Based on proven withdrawal pattern from Morpho/Spark/Seamless success
- * Uses direct ERC4626 redeem pattern
- * 
- * @param userId User identifier
- * @param sharesAmount Amount of shares to redeem
- * @param testSmartAccount Optional smart account for testing
- * @returns Promise with success status, transaction hash, and assets received
+ * Withdraws USDC from the Moonwell USDC vault by redeeming vault shares.
+ * This function uses the standard ERC4626 `redeem` function in a gas-sponsored transaction.
+ * @param {string} userId - The unique identifier for the user.
+ * @param {string | 'max'} sharesAmount - The amount of vault shares to redeem, or 'max' to redeem all.
+ * @param {any} [testSmartAccount] - An optional smart account object for testing purposes.
+ * @returns {Promise<{ success: boolean; txHash?: string; error?: string; assets?: string }>} An object indicating the transaction's success, hash, assets received, or an error message.
  */
 export async function withdrawFromMoonwell(
-  userId: string, 
+  userId: string,
   sharesAmount: string | 'max',
   testSmartAccount?: any // Optional parameter for testing
 ): Promise<{ success: boolean; txHash?: string; error?: string; assets?: string }> {
@@ -289,10 +284,10 @@ export async function withdrawFromMoonwell(
 }
 
 /**
- * Get user's Moonwell vault position (shares and equivalent USDC value)
- * 
- * @param userAddress User's wallet address
- * @returns Object with shares, assets, and formatted values
+ * Fetches a user's balance in the Moonwell USDC vault.
+ * It returns both the raw share balance and the underlying USDC asset value.
+ * @param {Address} userAddress - The user's wallet address.
+ * @returns {Promise<{ shares: bigint; assets: bigint; sharesFormatted: string; assetsFormatted: string; }>} An object containing the raw and formatted share and asset balances.
  */
 export async function getMoonwellBalance(userAddress: Address): Promise<{
   shares: bigint;
@@ -332,9 +327,8 @@ export async function getMoonwellBalance(userAddress: Address): Promise<{
 }
 
 /**
- * Get current APY for Moonwell USDC vault from DeFiLlama
- * 
- * @returns Current APY as a percentage
+ * Fetches the current APY for the Moonwell USDC vault from the DeFiLlama API.
+ * @returns {Promise<number>} A promise that resolves to the current APY as a percentage. Returns a default value on failure.
  */
 export async function getMoonwellAPY(): Promise<number> {
   try {
@@ -356,9 +350,8 @@ export async function getMoonwellAPY(): Promise<number> {
 }
 
 /**
- * Get Moonwell vault total assets and TVL for display
- * 
- * @returns Object with total assets and formatted TVL
+ * Fetches general information about the Moonwell USDC vault, including its Total Value Locked (TVL).
+ * @returns {Promise<{ totalAssets: bigint; tvlFormatted: string; }>} An object containing the total assets in USDC units and the formatted TVL string.
  */
 export async function getMoonwellVaultInfo(): Promise<{
   totalAssets: bigint;

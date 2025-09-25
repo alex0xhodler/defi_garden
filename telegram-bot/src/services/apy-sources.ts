@@ -21,6 +21,11 @@ export interface APYSourceResult {
   timestamp: number;
 }
 
+/**
+ * Manages multiple sources for APY data, providing a resilient and intelligent
+ * way to fetch the most accurate and available information. It uses a priority
+ * and health-based system to select the best source at any given time.
+ */
 class APYSourceManager {
   private sources: Map<string, APYSource> = new Map();
 
@@ -28,6 +33,10 @@ class APYSourceManager {
     this.initializeSources();
   }
 
+  /**
+   * Initializes the set of available APY data sources with their default priorities.
+   * @private
+   */
   private initializeSources(): void {
     // Primary source: DeFiLlama highest APY
     this.sources.set('defillama_highest', {
@@ -75,7 +84,10 @@ class APYSourceManager {
   }
 
   /**
-   * Get APY from best available source with intelligent fallback
+   * Retrieves an APY value by trying available sources in order of priority and health.
+   * It gracefully falls back to the next available source if one fails.
+   * @returns {Promise<APYSourceResult>} A promise that resolves to the result from the first successful source.
+   * @throws Will throw an error if all available sources fail.
    */
   async getAPY(): Promise<APYSourceResult> {
     const sortedSources = Array.from(this.sources.entries())
@@ -117,7 +129,11 @@ class APYSourceManager {
   }
 
   /**
-   * Fetch from specific source
+   * Dispatches a fetch request to the specified data source.
+   * @private
+   * @param {string} sourceName - The name of the source to fetch from.
+   * @returns {Promise<number>} A promise that resolves to the APY value from the source.
+   * @throws Will throw an error if the source is unknown or the fetch fails.
    */
   private async fetchFromSource(sourceName: string): Promise<number> {
     switch (sourceName) {
@@ -139,7 +155,10 @@ class APYSourceManager {
   }
 
   /**
-   * Primary source: DeFiLlama API
+   * Fetches the highest APY from the DeFiLlama API.
+   * @private
+   * @returns {Promise<number>} A promise that resolves to the highest APY.
+   * @throws Will throw an error if the fetched APY is invalid.
    */
   private async fetchFromDeFiLlama(): Promise<number> {
     const { getHighestAPY } = await import('../lib/defillama-api');
@@ -153,7 +172,10 @@ class APYSourceManager {
   }
 
   /**
-   * Secondary source: Database cached values
+   * Fetches the APY from the local database cache.
+   * @private
+   * @returns {Promise<number>} A promise that resolves to the cached APY.
+   * @throws Will throw an error if no valid, recent data is found in the cache.
    */
   private async fetchFromDatabase(): Promise<number> {
     try {
@@ -175,7 +197,10 @@ class APYSourceManager {
   }
 
   /**
-   * Tertiary source: Calculate average from multiple protocols
+   * Calculates an APY by taking the highest value from several cached protocol rates.
+   * @private
+   * @returns {Promise<number>} A promise that resolves to the calculated highest APY.
+   * @throws Will throw an error if no valid protocol data is available.
    */
   private async fetchCalculatedAverage(): Promise<number> {
     try {
@@ -206,7 +231,9 @@ class APYSourceManager {
   }
 
   /**
-   * Emergency source: Static fallback values
+   * Provides a hardcoded, static fallback APY as a last resort.
+   * @private
+   * @returns {number} The static fallback APY value.
    */
   private getStaticFallback(): number {
     // Return a conservative but reasonable APY
@@ -216,7 +243,10 @@ class APYSourceManager {
   }
 
   /**
-   * Health monitoring and metrics
+   * Records a successful fetch from a data source and updates its health score.
+   * @private
+   * @param {string} sourceName - The name of the successful source.
+   * @param {number} responseTime - The time taken for the fetch operation.
    */
   private recordSuccess(sourceName: string, responseTime: number): void {
     const source = this.sources.get(sourceName);
@@ -234,6 +264,12 @@ class APYSourceManager {
     console.log(`✅ APY source ${sourceName} success (${responseTime}ms) - Health: ${source.healthScore.toFixed(2)}`);
   }
 
+  /**
+   * Records a failed fetch from a data source and updates its health score.
+   * @private
+   * @param {string} sourceName - The name of the failed source.
+   * @param {unknown} error - The error that occurred.
+   */
   private recordFailure(sourceName: string, error: unknown): void {
     const source = this.sources.get(sourceName);
     if (!source) return;
@@ -248,9 +284,16 @@ class APYSourceManager {
     console.log(`❌ APY source ${sourceName} failed - Health: ${source.healthScore.toFixed(2)}`);
   }
 
+  /**
+   * Calculates a confidence score for a result based on the source's health and response time.
+   * @private
+   * @param {APYSource} source - The source the data came from.
+   * @param {number} responseTime - The response time for the fetch.
+   * @returns {number} A confidence score between 0 and 1.
+   */
   private calculateConfidence(source: APYSource, responseTime: number): number {
     let confidence = source.healthScore;
-    
+
     // Adjust based on response time
     if (responseTime < 1000) confidence *= 1.0;
     else if (responseTime < 3000) confidence *= 0.9;
@@ -267,14 +310,15 @@ class APYSourceManager {
   }
 
   /**
-   * Get health status of all sources
+   * Returns the current health status and metrics for all configured data sources.
+   * @returns {Record<string, APYSource>} An object mapping source names to their health data.
    */
   getSourcesHealth(): Record<string, APYSource> {
     return Object.fromEntries(this.sources.entries());
   }
 
   /**
-   * Reset health scores (useful for testing)
+   * Resets the health and performance metrics for all sources. Useful for testing.
    */
   resetHealthScores(): void {
     for (const source of this.sources.values()) {
@@ -288,7 +332,9 @@ class APYSourceManager {
   }
 
   /**
-   * Force specific source priority (for testing/debugging)
+   * Allows manually setting the priority of a source, for debugging or testing purposes.
+   * @param {string} sourceName - The name of the source to modify.
+   * @param {number} priority - The new priority level (lower is higher priority).
    */
   setSourcePriority(sourceName: string, priority: number): void {
     const source = this.sources.get(sourceName);

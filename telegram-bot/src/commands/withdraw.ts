@@ -7,6 +7,13 @@ import { CommandHandler } from "../types/commands";
 import { InlineKeyboard } from "grammy";
 import { Address } from "viem";
 
+/**
+ * Handles the /withdraw command.
+ * It fetches the user's active positions across all supported DeFi protocols
+ * and presents them with options to exit (withdraw from) any of them.
+ * @command /withdraw
+ * @description Exit DeFi pools and get USDC back to wallet.
+ */
 const withdrawHandler: CommandHandler = {
   command: "withdraw",
   description: "Exit DeFi pools and get USDC back to wallet",
@@ -143,7 +150,13 @@ const withdrawHandler: CommandHandler = {
   },
 };
 
-// Handle withdrawal callbacks
+/**
+ * Handles all callback queries related to the withdrawal process.
+ * It acts as a router, directing the user through the multi-step withdrawal flow,
+ * from selecting a protocol and amount to confirming the transaction.
+ * @param {BotContext} ctx - The bot context from the callback query.
+ * @returns {Promise<void>}
+ */
 export const handleWithdrawCallbacks = async (ctx: BotContext) => {
   const callbackData = ctx.callbackQuery?.data;
 
@@ -1309,7 +1322,14 @@ export const handleWithdrawCallbacks = async (ctx: BotContext) => {
   }
 };
 
-// Handle custom withdrawal amount input
+/**
+ * Handles the user's text input for a custom withdrawal amount.
+ * It validates the amount, determines the correct protocol from the session,
+ * executes the withdrawal transaction (often gaslessly), and sends a confirmation or error message.
+ * @param {BotContext} ctx - The bot context.
+ * @param {string} amount - The amount of USDC (or shares) the user wants to withdraw. Can be a number or "max".
+ * @returns {Promise<void>}
+ */
 export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string) => {
   try {
     const userId = ctx.session.userId;
@@ -1567,7 +1587,12 @@ export const handleWithdrawAmountInput = async (ctx: BotContext, amount: string)
 };
 
 /**
- * Show withdrawal confirmation with daily earnings impact
+ * Displays a confirmation message to the user before they withdraw,
+ * showing the financial impact of their decision, such as the estimated daily earnings they would forfeit.
+ * @param {BotContext} ctx - The bot context.
+ * @param {string} protocol - The protocol the user is withdrawing from (e.g., 'aave', 'compound').
+ * @param {string} amount - The amount being withdrawn (used for the confirmation callback).
+ * @returns {Promise<void>}
  */
 async function showWithdrawalConfirmation(ctx: BotContext, protocol: string, amount: string): Promise<void> {
   try {
