@@ -153,8 +153,8 @@ const portfolioHandler: CommandHandler = {
       // If no DeFi deposits AND no index positions, show empty portfolio
       if (aaveBalanceNum === 0 && fluidBalanceNum === 0 && compoundBalanceNum === 0 && morphoBalanceNum === 0 && sparkBalanceNum === 0 && seamlessBalanceNum === 0 && moonwellBalanceNum === 0 && morphoRe7BalanceNum === 0 && totalIndexValue === 0) {
         const keyboard = new InlineKeyboard()
-          .text("🦑 Start Earning", "zap_funds")
-          .text("📊 Buy Indexes", "index_main")
+          .text("🦑 Earn Interest", "zap_funds")
+          .text("📊 Buy Index Tokens", "index_main")
           .row()
           .text("📥 Deposit", "deposit")
           .text("💰 Check Balance", "check_balance")
@@ -181,8 +181,8 @@ const portfolioHandler: CommandHandler = {
           `• Yield Farming: $0.00\n` +
           `• Index Tokens: $0.00\n\n` +
           `**Get Started**:\n` +
-          `• 🦑 **Start Earning**: Auto-deploy to best yields (5%+ APY)\n` +
-          `• 📊 **Buy Indexes**: Invest in token baskets for diversification\n` +
+          `• 🦑 **Earn Interest**: Auto-deploy to best yields (5%+ APY)\n` +
+          `• 📊 **Buy Index Tokens**: Invest in token baskets for diversification\n` +
           `• Both options offer gasless transactions!\n\n` +
           `💡 **Tip**: Portfolio shows real-time blockchain data`,
           {
@@ -321,7 +321,7 @@ const portfolioHandler: CommandHandler = {
       let keyboard = new InlineKeyboard();
       
       // Always show main investment options
-      keyboard = keyboard.text("🦑 Earn More", "zap_funds").text("📊 Buy Indexes", "index_main").row();
+      keyboard = keyboard.text("🦑 Earn More Interest", "zap_funds").text("📊 Get More Exposure", "index_main").row();
       
       // Show relevant actions based on what user has
       if (totalYieldValue > 0) {

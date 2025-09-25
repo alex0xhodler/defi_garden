@@ -7,8 +7,8 @@ import { Address } from "viem";
  */
 export function createMainMenuKeyboard(): InlineKeyboard {
   return new InlineKeyboard()
-    .text("🦑 Start Earning", "zap_funds")
-    .text("📊 Index Tokens", "index_main")
+    .text("🦑 Earn Interest", "zap_funds")
+    .text("📊 Buy Index Tokens", "index_main")
     .row()
     .text("💼 Investments", "view_portfolio")
     .text("💰 Check Balance", "check_balance")
