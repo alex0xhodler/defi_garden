@@ -464,9 +464,39 @@ export async function getCompoundV3APY(): Promise<number> {
 
 /**
  * Fetch individual protocol APY by pool ID
+ * 🚀 COLD START OPTIMIZED: Uses database cache first, API only as fallback
  */
 export async function fetchProtocolApy(protocol: "AAVE" | "FLUID" | "COMPOUND" | "MORPHO" | "SPARK" | "SEAMLESS" | "MOONWELL" | "MORPHO_RE7"): Promise<number> {
   try {
+    // 🚀 COLD START FIX: Check database cache first
+    const { getProtocolRate } = await import('./database');
+    
+    const protocolMappings: Record<string, string> = {
+      'AAVE': 'aave',
+      'FLUID': 'fluid', 
+      'COMPOUND': 'compound',
+      'MORPHO': 'morpho',
+      'SPARK': 'spark',
+      'SEAMLESS': 'seamless',
+      'MOONWELL': 'moonwell',
+      'MORPHO_RE7': 'morpho-re7'
+    };
+    
+    const dbKey = protocolMappings[protocol];
+    if (dbKey) {
+      const cached = getProtocolRate(dbKey);
+      if (cached && cached.apy && typeof cached.apy === 'number' && cached.apy > 0) {
+        // Check if data is reasonably fresh (within 24 hours)
+        const age = Date.now() - (cached.lastUpdated || 0);
+        if (age < 24 * 60 * 60 * 1000) {
+          console.log(`🚀 ${protocol}: Using cached APY ${cached.apy}% from database`);
+          return parseFloat(cached.apy.toFixed(2));
+        }
+      }
+    }
+    
+    // Only fallback to API if no cached data available
+    console.log(`📡 ${protocol}: No cached data, falling back to API call`);
     const poolId = POOL_IDS[protocol];
     const pool = await fetchPoolById(poolId);
     
