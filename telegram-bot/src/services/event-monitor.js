@@ -4,7 +4,7 @@ const {
   getUsersForBalanceMonitoring, 
   getWalletByUserId,
   stopDepositMonitoring 
-} = require("../lib/database.ts");
+} = require("../../lib/database.js");
 require("dotenv").config();
 
 // Simple bot instance for notifications
@@ -13,8 +13,8 @@ const monitorBot = new Bot(process.env.TELEGRAM_BOT_TOKEN || "");
 // Base USDC token address
 const BASE_USDC_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 
-// 0xrpc.io WebSocket endpoint for Base mainnet
-const BASE_WSS = "wss://0xrpc.io/base";
+// Tenderly WebSocket endpoint for Base mainnet
+const BASE_WSS = "wss://base.gateway.tenderly.co";
 
 // Store monitored wallet addresses and connection state
 const monitoredWallets = new Set();
@@ -22,6 +22,10 @@ const monitoredWallets = new Set();
 const preDepositBalances = new Map();
 // Cache deployment status to avoid repeated blockchain calls
 const deploymentStatusCache = new Map();
+// Prevent duplicate processing of same deposit
+const processedDeposits = new Set();
+// Prevent concurrent processing for same user
+const processingLocks = new Map();
 let wsConnection = null;
 let pollInterval = null;
 let connectionCheckInterval = null;
@@ -231,16 +235,41 @@ async function checkPreDepositBalance(userId) {
  */
 async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) {
   try {
+    // CRITICAL: Prevent duplicate processing
+    const depositKey = `${userId}-${txHash}-${amount}`;
+    if (processedDeposits.has(depositKey)) {
+      console.log(`🚫 Skipping duplicate deposit processing: ${depositKey}`);
+      return;
+    }
+    
+    // CRITICAL: Prevent concurrent processing for same user
+    if (processingLocks.has(userId)) {
+      console.log(`🔒 User ${userId} already being processed, skipping...`);
+      return;
+    }
+    
+    // Lock this user for processing
+    processingLocks.set(userId, Date.now());
+    processedDeposits.add(depositKey);
+    
+    // Auto-cleanup after 10 minutes
+    setTimeout(() => {
+      processedDeposits.delete(depositKey);
+      processingLocks.delete(userId);
+    }, 10 * 60 * 1000);
+    
+    console.log(`🔐 Processing deposit: ${depositKey}`);
+    
     // Get the pre-deposit balance we stored when monitoring started
     const preDepositBalance = preDepositBalances.get(userId) || 0;
     const depositAmount = parseFloat(amount);
     
     // Get monitoring context to determine how to handle this deposit
-    const { getMonitoringContext } = require("../lib/database.ts");
+    const { getMonitoringContext } = require("../../lib/database.js");
     const monitoringContext = getMonitoringContext(userId);
     
     // Check for pending manual protocol selection
-    const { getDatabase } = require("../lib/database");
+    const { getDatabase } = require("../../lib/database.js");
     const db = getDatabase();
     let pendingTransaction = null;
     
@@ -260,40 +289,49 @@ async function handleNewDeposit(userId, firstName, amount, tokenSymbol, txHash) 
       console.error(`Error checking pending transaction for user ${userId}:`, dbError);
     }
     
-    console.log(`💡 Context-aware deposit handling: User ${userId}, amount: $${depositAmount}, context: ${monitoringContext?.type || 'unknown'}, pending: ${pendingTransaction ? pendingTransaction.protocol : 'none'}`);
+  // Check if user is new (no onboarding completed) regardless of context
+  const { getUserByTelegramId } = require("../../lib/database.js");
+  const user = getUserByTelegramId(userId);
+  const isNewUser = !user || user.onboardingCompleted === null;
+  
+  console.log(`💡 Context-aware deposit handling: User ${userId}, amount: $${depositAmount}, context: ${monitoringContext?.type || 'unknown'}, pending: ${pendingTransaction ? pendingTransaction.protocol : 'none'}, isNewUser: ${isNewUser}`);
+  
+  // Decision tree based on user status and pending transactions
+  if (pendingTransaction && pendingTransaction.isManualSelection && depositAmount > 0.10) {
+    // STATE 4B: User was short on manual protocol selection - honor their choice
+    console.log(`🎯 Manual protocol completion: User ${userId} chose ${pendingTransaction.protocol}`);
+    await handleManualProtocolCompletion(userId, firstName, amount, tokenSymbol, txHash, pendingTransaction);
     
-    // Decision tree based on context and pending transactions
-    if (pendingTransaction && pendingTransaction.isManualSelection && depositAmount > 0.10) {
-      // STATE 4B: User was short on manual protocol selection - honor their choice
-      console.log(`🎯 Manual protocol completion: User ${userId} chose ${pendingTransaction.protocol}`);
-      await handleManualProtocolCompletion(userId, firstName, amount, tokenSymbol, txHash, pendingTransaction);
-      
-    } else if (monitoringContext?.type === 'onboarding' && depositAmount > 0.10) {
-      // STATES 1, 2, 3: New/low-balance users - auto-deploy to highest APY
-      console.log(`🆕 Onboarding flow: Auto-deploying to highest APY for user ${userId}`);
-      await handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash);
-      
-    } else if ((monitoringContext?.type === 'generic_deposit' || monitoringContext?.type === 'balance_check') && depositAmount > 0.10) {
-      // STATE 4A: High balance user generic deposit - offer options, no auto-deploy
-      console.log(`💼 High balance generic deposit: Offering options to user ${userId}`);
-      await handleHighBalanceDeposit(userId, firstName, amount, tokenSymbol, txHash);
-      
-    } else if (depositAmount <= 0.10) {
-      // Small deposit - just notify via existing flow
-      console.log(`🪙 Small deposit: Notifying user ${userId} with standard flow`);
-      await handleExistingUserDeposit(userId, firstName, amount, tokenSymbol, txHash);
-      
-    } else {
-      // Fallback to existing behavior for unknown contexts
-      console.log(`🔄 Fallback: Using standard auto-deploy for user ${userId}`);
-      await handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash);
-    }
+  } else if (isNewUser && depositAmount > 0.10) {
+    // STATES 1, 2, 3: New users - auto-deploy to highest APY regardless of context
+    console.log(`🆕 New user first deposit: Auto-deploying to highest APY for user ${userId}`);
+    await handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash);
+    
+  } else if (!isNewUser && depositAmount > 0.10) {
+    // STATE 4A: Existing user deposit - offer options, no auto-deploy
+    console.log(`💼 Existing user deposit: Offering options to user ${userId}`);
+    await handleHighBalanceDeposit(userId, firstName, amount, tokenSymbol, txHash);
+    
+  } else if (depositAmount <= 0.10) {
+    // Small deposit - just notify via existing flow
+    console.log(`🪙 Small deposit: Notifying user ${userId} with standard flow`);
+    await handleExistingUserDeposit(userId, firstName, amount, tokenSymbol, txHash);
+    
+  } else {
+    // Fallback to auto-deploy for unknown cases
+    console.log(`🔄 Fallback: Using auto-deploy for user ${userId}`);
+    await handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, txHash);
+  }
     
     // Clean up the stored balance
     preDepositBalances.delete(userId);
+    // Release processing lock
+    processingLocks.delete(userId);
     
   } catch (error) {
     console.error(`Failed to handle deposit for user ${userId}:`, error);
+    // Release processing lock on error
+    processingLocks.delete(userId);
     
     // Fallback: send basic notification
     try {
@@ -387,30 +425,94 @@ async function handleFirstTimeDeposit(userId, firstName, amount, tokenSymbol, tx
     } else {
       console.error(`❌ Failed to deploy ${amount} ${tokenSymbol} to ${bestProtocol.protocol}: ${deployResult.error}`);
       
-      // Send error message with retry options
-      const retryKeyboard = {
-        inline_keyboard: [
-          [
-            { text: "🔄 Retry Auto-Deploy", callback_data: "zap_auto_deploy" },
-            { text: "📊 Manual Selection", callback_data: "zap_manual" }
-          ],
-          [
-            { text: "💰 Check Balance", callback_data: "check_balance" }
-          ]
-        ]
-      };
-
-      await monitorBot.api.sendMessage(
-        userId,
-        `⚠️ *Deposit confirmed but deployment failed*\n\n` +
-        `${amount} ${tokenSymbol} received but couldn't auto-deploy to ${bestProtocol.protocol}.\n\n` +
-        `Error: ${deployResult.error}\n\n` +
-        `💡 *Try again* - this might be a temporary protocol issue.`,
-        { 
-          parse_mode: "Markdown",
-          reply_markup: retryKeyboard
+      // CRITICAL: Check if deployment actually succeeded despite timeout
+      let actuallySucceeded = false;
+      if (deployResult.error && deployResult.error.includes('Timed out while waiting')) {
+        console.log(`🔍 Timeout detected - verifying if deployment actually succeeded...`);
+        
+        try {
+          // Wait a bit for transaction to potentially confirm
+          await new Promise(resolve => setTimeout(resolve, 5000));
+          
+          // Check wallet balance - if it's zero or much lower, deployment likely succeeded
+          const { getCoinbaseSmartWallet, getCoinbaseWalletUSDCBalance } = require("../lib/coinbase-wallet");
+          const wallet = await getCoinbaseSmartWallet(userId);
+          if (wallet) {
+            const currentBalance = await getCoinbaseWalletUSDCBalance(wallet.address);
+            const balanceNum = parseFloat(currentBalance);
+            const originalAmount = parseFloat(amount);
+            
+            // If balance is significantly lower than deposit, deployment likely succeeded
+            if (balanceNum < originalAmount * 0.1) { // Less than 10% of original deposit remaining
+              actuallySucceeded = true;
+              console.log(`✅ Deployment verification: Balance dropped from $${originalAmount} to $${balanceNum} - deployment succeeded!`);
+              
+              // Send corrected success message
+              const { createMainMenuKeyboard } = require("../utils/mainMenu");
+              const { calculateDetailedEarnings } = require("../utils/earnings");
+              const earnings = calculateDetailedEarnings(originalAmount, bestProtocol.apy);
+              
+              await monitorBot.api.sendMessage(
+                userId,
+                `🎉 *Great news ${firstName}!*\n\n` +
+                `Your deployment to ${bestProtocol.protocol} actually succeeded!\n\n` +
+                `💰 **Position Summary:**\n` +
+                `• Invested: $${amount} ${tokenSymbol} into ${bestProtocol.protocol}\n` +
+                `• APY: ${bestProtocol.apy}% (auto-compounding)\n` +
+                `• Strategy: Gasless & automated\n\n` +
+                `📈 **Your Earnings Breakdown:**\n` +
+                `• Daily: ${earnings.dailyWithContext}\n` +
+                `• Weekly: ${earnings.weekly}\n` +
+                `• Monthly: ${earnings.monthly}\n` +
+                `• Yearly: ${earnings.yearly}\n` +
+                `• Time to 2x: ~${earnings.timeToDouble}\n\n` +
+                `✅ **Benefits:**\n` +
+                `• ${earnings.comparisonMultiple} better than US savings (${earnings.savingsApy})\n` +
+                `• Gas sponsored by inkvest\n` +
+                `• Withdraw anytime, no penalties`,
+                { 
+                  parse_mode: "Markdown",
+                  reply_markup: createMainMenuKeyboard()
+                }
+              );
+              
+              console.log(`🦑 ${firstName} successfully onboarded after timeout verification!`);
+              return; // Exit successful
+            } else {
+              console.log(`❌ Deployment verification: Balance still high ($${balanceNum}) - deployment likely failed`);
+            }
+          }
+        } catch (verificationError) {
+          console.error(`Error during deployment verification:`, verificationError);
         }
-      );
+      }
+      
+      if (!actuallySucceeded) {
+        // Send error message with retry options
+        const retryKeyboard = {
+          inline_keyboard: [
+            [
+              { text: "🔄 Retry Auto-Deploy", callback_data: "zap_auto_deploy" },
+              { text: "📊 Manual Selection", callback_data: "zap_manual" }
+            ],
+            [
+              { text: "💰 Check Balance", callback_data: "check_balance" }
+            ]
+          ]
+        };
+
+        await monitorBot.api.sendMessage(
+          userId,
+          `⚠️ *Deposit confirmed but deployment failed*\n\n` +
+          `${amount} ${tokenSymbol} received but couldn't auto-deploy to ${bestProtocol.protocol}.\n\n` +
+          `Error: ${deployResult.error}\n\n` +
+          `💡 *Try again* - this might be a temporary protocol issue.`,
+          { 
+            parse_mode: "Markdown",
+            reply_markup: retryKeyboard
+          }
+        );
+      }
     }
 
   } catch (error) {
@@ -571,7 +673,7 @@ async function handleExistingUserDeposit(userId, firstName, amount, tokenSymbol,
     } else {
       // No pending transaction - standard deposit flow
       const keyboard = new InlineKeyboard()
-        .text("🦑 inkvest Automanaged", "zap_auto_deploy")
+        .text("🦑 inkvest Auto-managed", "zap_auto_deploy")
         .row()
         .text("📊 View Portfolio", "view_portfolio")
         .text("💰 Check Balance", "check_balance")
@@ -879,7 +981,7 @@ async function handleHighBalanceDeposit(userId, firstName, amount, tokenSymbol, 
     }
     
     const keyboard = new InlineKeyboard()
-      .text(`🦑 inkvest Automanaged (${highestAPY}% APY)`, "zap_auto_deploy")
+      .text(`🦑 inkvest Auto-managed (${highestAPY}% APY)`, "zap_auto_deploy")
       .row()
       .text("🎯 Choose Protocol Manually", "zap_choose_protocol")
       .row()

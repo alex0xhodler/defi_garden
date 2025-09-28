@@ -2,43 +2,27 @@ module.exports = {
   apps: [
     {
       name: 'inkvest-bot',
-      script: 'npx',
-      args: 'ts-node index.ts',
+      script: './node_modules/.bin/ts-node',
+      args: 'index.ts',
       instances: 1,
       exec_mode: 'fork',
       env: {
-        NODE_ENV: 'production'
+        NODE_ENV: 'development'
       },
-      max_memory_restart: '900M',
-      min_uptime: '10s',
-      max_restarts: 5,
-      log_file: './logs/bot-combined.log',
-      out_file: './logs/bot-out.log',
-      error_file: './logs/bot-error.log',
-      log_date_format: 'YYYY-MM-DD HH:mm Z',
       watch: false,
       restart_delay: 1000
     },
     {
       name: 'event-monitor',
-      script: 'npx',
-      args: 'ts-node src/services/event-monitor.js',
+      script: 'node',
+      args: 'src/services/event-monitor.js',
       instances: 1,
       exec_mode: 'fork',
       env: {
-        NODE_ENV: 'production',
-        UV_THREADPOOL_SIZE: 2
+        NODE_ENV: 'development'
       },
-      max_memory_restart: '400M',
-      min_uptime: '10s',
-      max_restarts: 10,
-      log_file: './logs/event-monitor-combined.log',
-      out_file: './logs/event-monitor-out.log',
-      error_file: './logs/event-monitor-error.log',
-      log_date_format: 'YYYY-MM-DD HH:mm Z',
       watch: false,
-      restart_delay: 5000,
-      cron_restart: '0 2 * * *' // Restart daily at 2 AM for health
+      restart_delay: 2000
     }
   ]
 };

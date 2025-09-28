@@ -47,8 +47,8 @@ const viem_1 = require("viem");
 const account_abstraction_1 = require("viem/account-abstraction");
 const chains_1 = require("viem/chains");
 const accounts_1 = require("viem/accounts");
-const database_1 = require("./database");
-const encryption_1 = require("./encryption");
+const database_1 = require("../../lib/database.js");
+const encryption_1 = require("../../lib/encryption.js");
 // Coinbase CDP configuration
 const CDP_PROJECT_ID = '8c26f2ba-ed37-49ab-868b-ebad7692c0a0';
 const CDP_API_KEY = '9578d547-b0f5-46ee-840a-7872b4234c46';

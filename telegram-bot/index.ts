@@ -949,7 +949,7 @@ bot.on("callback_query:data", async (ctx) => {
           
           const { InlineKeyboard } = await import("grammy");
           const keyboard = new InlineKeyboard()
-            .text("🦑 inkvest Automanaged", "zap_auto_deploy")
+            .text("🦑 inkvest Auto-managed", "zap_auto_deploy")
             .row()
             .text("📊 View Portfolio", "view_portfolio")
             .text("💰 Check Balance", "check_balance")

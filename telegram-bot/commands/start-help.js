@@ -70,10 +70,15 @@ exports.startHandler = {
                 const wallet = await (0, coinbase_wallet_1.generateCoinbaseSmartWallet)(userId);
                 // Set wallet in session
                 ctx.session.walletAddress = wallet.address;
-                // Start balance monitoring (legacy system for onboarding)
+                // CRITICAL: Start balance monitoring FIRST (required by getUsersForBalanceMonitoring)
                 (0, database_1.updateUserBalanceCheckTime)(userId);
-                // Start 5-minute deposit monitoring window
-                (0, database_1.startDepositMonitoring)(userId, 5);
+                // Then start 5-minute deposit monitoring window with onboarding context
+                const { startDepositMonitoringWithContext } = require("../lib/database");
+                startDepositMonitoringWithContext(userId, 'onboarding', 5, {
+                    trigger: 'start_command_new_user',
+                    walletCreated: true
+                });
+                console.log(`✅ User ${userId} now ready for deposit monitoring: lastBalanceCheck set + expectingDepositUntil set`);
                 // Force refresh event monitor to immediately watch this new wallet
                 try {
                     const eventMonitor = require("../services/event-monitor.js");
@@ -121,8 +126,15 @@ exports.startHandler = {
                     const newWallet = await (0, coinbase_wallet_1.generateCoinbaseSmartWallet)(userId);
                     // Set wallet in session
                     ctx.session.walletAddress = newWallet.address;
-                    // Start balance monitoring
+                    // CRITICAL: Start balance monitoring FIRST (required by getUsersForBalanceMonitoring)
                     (0, database_1.updateUserBalanceCheckTime)(userId);
+                    // Then start 5-minute deposit monitoring window with onboarding context
+                    const { startDepositMonitoringWithContext } = require("../lib/database");
+                    startDepositMonitoringWithContext(userId, 'onboarding', 5, {
+                        trigger: 'start_command_existing_user_new_wallet',
+                        walletCreated: true
+                    });
+                    console.log(`✅ User ${userId} now ready for deposit monitoring: lastBalanceCheck set + expectingDepositUntil set`);
                     // Force refresh event monitor to immediately watch this new wallet
                     try {
                         const eventMonitor = require("../services/event-monitor.js");

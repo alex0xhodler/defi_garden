@@ -10,6 +10,8 @@ exports.updateUserOnboardingStatus = updateUserOnboardingStatus;
 exports.updateUserBalanceCheckTime = updateUserBalanceCheckTime;
 exports.setExpectingDepositUntil = setExpectingDepositUntil;
 exports.startDepositMonitoring = startDepositMonitoring;
+exports.startDepositMonitoringWithContext = startDepositMonitoringWithContext;
+exports.getMonitoringContext = getMonitoringContext;
 exports.stopDepositMonitoring = stopDepositMonitoring;
 exports.getUsersForBalanceMonitoring = getUsersForBalanceMonitoring;
 exports.saveWallet = saveWallet;
@@ -31,6 +33,19 @@ exports.getDatabase = getDatabase;
 exports.saveProtocolRate = saveProtocolRate;
 exports.getProtocolRate = getProtocolRate;
 exports.getAllProtocolRates = getAllProtocolRates;
+exports.getIndexTokensByCategory = getIndexTokensByCategory;
+exports.getIndexTokenById = getIndexTokenById;
+exports.getAllActiveIndexTokens = getAllActiveIndexTokens;
+exports.getIndexComposition = getIndexComposition;
+exports.saveIndexPosition = saveIndexPosition;
+exports.getIndexPositionsByUserId = getIndexPositionsByUserId;
+exports.getIndexPositionByUserAndToken = getIndexPositionByUserAndToken;
+exports.updateIndexPositionValue = updateIndexPositionValue;
+exports.deleteIndexPosition = deleteIndexPosition;
+exports.saveIndexTransaction = saveIndexTransaction;
+exports.getIndexTransactionsByUserId = getIndexTransactionsByUserId;
+exports.getIndexPortfolioStats = getIndexPortfolioStats;
+exports.runIndexTablesMigration = runIndexTablesMigration;
 exports.closeDatabase = closeDatabase;
 const better_sqlite3_1 = __importDefault(require("better-sqlite3"));
 const constants_1 = require("../utils/constants");
@@ -130,6 +145,13 @@ function initDatabase() {
             console.error("Error adding session_data column:", error);
         }
     }
+    // Run index tables migration
+    try {
+        runIndexTablesMigration();
+    }
+    catch (error) {
+        console.error("Error running index tables migration:", error);
+    }
 }
 // User operations
 function createUser(userId, telegramId, username, firstName, lastName) {
@@ -172,6 +194,55 @@ function setExpectingDepositUntil(userId, untilTimestamp) {
 function startDepositMonitoring(userId, durationMinutes = 5) {
     const untilTimestamp = Date.now() + (durationMinutes * 60 * 1000);
     setExpectingDepositUntil(userId, untilTimestamp);
+}
+// Enhanced version with context tracking
+function startDepositMonitoringWithContext(userId, contextType, durationMinutes = 5, metadata) {
+    // Start normal monitoring
+    const untilTimestamp = Date.now() + (durationMinutes * 60 * 1000);
+    setExpectingDepositUntil(userId, untilTimestamp);
+    // Store monitoring context in session_data
+    try {
+        const db = getDatabase();
+        const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
+        let sessionData = {};
+        if (userSession && userSession.session_data) {
+            sessionData = JSON.parse(userSession.session_data);
+        }
+        // Add monitoring context
+        sessionData.monitoringContext = {
+            type: contextType,
+            timestamp: Date.now(),
+            metadata: metadata || {}
+        };
+        // Save back to database
+        db.prepare('UPDATE users SET session_data = ? WHERE userId = ?')
+            .run(JSON.stringify(sessionData), userId);
+        console.log(`💾 Stored monitoring context for user ${userId}: ${contextType}`);
+    }
+    catch (error) {
+        console.error("Error storing monitoring context:", error);
+        // Continue with normal monitoring even if context storage fails
+    }
+}
+// Get monitoring context for a user
+function getMonitoringContext(userId) {
+    try {
+        const db = getDatabase();
+        const userSession = db.prepare('SELECT session_data FROM users WHERE userId = ?').get(userId);
+        if (userSession && userSession.session_data) {
+            const sessionData = JSON.parse(userSession.session_data);
+            const context = sessionData.monitoringContext;
+            // Check if context is expired (should match monitoring window)
+            if (context && Date.now() - context.timestamp > 5 * 60 * 1000) {
+                return null;
+            }
+            return context || null;
+        }
+    }
+    catch (error) {
+        console.error("Error getting monitoring context:", error);
+    }
+    return null;
 }
 function stopDepositMonitoring(userId) {
     setExpectingDepositUntil(userId, null);
@@ -409,6 +480,150 @@ function getAllProtocolRates() {
     SELECT * FROM protocol_rates ORDER BY apy DESC
   `);
     return stmt.all();
+}
+// Index token operations
+function getIndexTokensByCategory(category) {
+    const stmt = db.prepare(`
+    SELECT * FROM index_tokens 
+    WHERE category = ? AND isActive = 1
+    ORDER BY riskLevel ASC, name ASC
+  `);
+    return stmt.all(category);
+}
+function getIndexTokenById(tokenId) {
+    const stmt = db.prepare(`
+    SELECT * FROM index_tokens WHERE tokenId = ? AND isActive = 1
+  `);
+    return stmt.get(tokenId);
+}
+function getAllActiveIndexTokens() {
+    const stmt = db.prepare(`
+    SELECT * FROM index_tokens 
+    WHERE isActive = 1
+    ORDER BY category ASC, riskLevel ASC, name ASC
+  `);
+    return stmt.all();
+}
+function getIndexComposition(tokenId) {
+    const stmt = db.prepare(`
+    SELECT * FROM index_compositions 
+    WHERE indexTokenId = ?
+    ORDER BY weightPercentage DESC
+  `);
+    return stmt.all(tokenId);
+}
+// Index position operations
+function saveIndexPosition(position) {
+    const now = Date.now();
+    const firstPurchase = position.firstPurchaseAt || now;
+    const stmt = db.prepare(`
+    INSERT OR REPLACE INTO index_positions (
+      id, userId, indexTokenId, tokensOwned, averageBuyPrice,
+      totalInvested, currentValue, firstPurchaseAt, lastUpdatedAt
+    )
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
+    stmt.run(position.id, position.userId, position.indexTokenId, position.tokensOwned, position.averageBuyPrice, position.totalInvested, position.currentValue, firstPurchase, now);
+}
+function getIndexPositionsByUserId(userId) {
+    const stmt = db.prepare(`
+    SELECT ip.*, it.symbol, it.name, it.contractAddress, it.category, it.riskLevel
+    FROM index_positions ip
+    JOIN index_tokens it ON ip.indexTokenId = it.tokenId
+    WHERE ip.userId = ? AND ip.tokensOwned > 0
+    ORDER BY ip.currentValue DESC
+  `);
+    return stmt.all(userId);
+}
+function getIndexPositionByUserAndToken(userId, indexTokenId) {
+    const stmt = db.prepare(`
+    SELECT * FROM index_positions 
+    WHERE userId = ? AND indexTokenId = ?
+  `);
+    return stmt.get(userId, indexTokenId);
+}
+function updateIndexPositionValue(positionId, tokensOwned, currentValue, averageBuyPrice) {
+    const now = Date.now();
+    if (averageBuyPrice !== undefined) {
+        // Update with new average buy price (for additional purchases)
+        const stmt = db.prepare(`
+      UPDATE index_positions 
+      SET tokensOwned = ?, currentValue = ?, averageBuyPrice = ?, lastUpdatedAt = ?
+      WHERE id = ?
+    `);
+        stmt.run(tokensOwned, currentValue, averageBuyPrice, now, positionId);
+    }
+    else {
+        // Update only current value (for price changes)
+        const stmt = db.prepare(`
+      UPDATE index_positions 
+      SET tokensOwned = ?, currentValue = ?, lastUpdatedAt = ?
+      WHERE id = ?
+    `);
+        stmt.run(tokensOwned, currentValue, now, positionId);
+    }
+}
+function deleteIndexPosition(positionId) {
+    const stmt = db.prepare(`
+    DELETE FROM index_positions WHERE id = ?
+  `);
+    stmt.run(positionId);
+}
+// Index transaction operations
+function saveIndexTransaction(txHash, userId, indexTokenId, operationType, usdcAmount, tokensAmount, pricePerToken, status, gasUsed) {
+    const stmt = db.prepare(`
+    INSERT OR REPLACE INTO index_transactions (
+      txHash, userId, indexTokenId, operationType, usdcAmount,
+      tokensAmount, pricePerToken, gasUsed, status, timestamp
+    )
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `);
+    stmt.run(txHash, userId, indexTokenId, operationType, usdcAmount, tokensAmount, pricePerToken, gasUsed, status, Date.now());
+}
+function getIndexTransactionsByUserId(userId, limit = 10) {
+    const stmt = db.prepare(`
+    SELECT it.*, idx.symbol, idx.name
+    FROM index_transactions it
+    JOIN index_tokens idx ON it.indexTokenId = idx.tokenId
+    WHERE it.userId = ? 
+    ORDER BY it.timestamp DESC 
+    LIMIT ?
+  `);
+    return stmt.all(userId, limit);
+}
+function getIndexPortfolioStats(userId) {
+    const stmt = db.prepare(`
+    SELECT 
+      SUM(currentValue) as totalValue,
+      SUM(totalInvested) as totalInvested,
+      SUM(currentValue - totalInvested) as totalPnL,
+      COUNT(*) as positionCount
+    FROM index_positions
+    WHERE userId = ? AND tokensOwned > 0
+  `);
+    const result = stmt.get(userId);
+    return {
+        totalValue: result.totalValue || 0,
+        totalInvested: result.totalInvested || 0,
+        totalPnL: result.totalPnL || 0,
+        positionCount: result.positionCount || 0
+    };
+}
+// Run migration to add index tables
+function runIndexTablesMigration() {
+    try {
+        // Read and execute the migration SQL
+        const fs = require('fs');
+        const path = require('path');
+        const migrationPath = path.join(__dirname, '../../migrations/add-index-tables.sql');
+        const migrationSQL = fs.readFileSync(migrationPath, 'utf8');
+        db.exec(migrationSQL);
+        console.log("✅ Index tables migration completed successfully");
+    }
+    catch (error) {
+        console.error("❌ Error running index tables migration:", error);
+        throw error;
+    }
 }
 // Close database connection
 function closeDatabase() {
