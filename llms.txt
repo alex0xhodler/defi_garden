@@ -1,50 +1,77 @@
 # DeFi Garden — Yield Farming Discovery Platform
 
-- Last Updated: 2025-09-29T20:07:54.600Z
+- Last Updated: 2025-09-29T20:18:45.228Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 19522
+- Total URLs: 19681
 
 ## Homepage
 TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.
 - https://www.defi.garden
 
-## Token Pages
-TL;DR: Token-specific yield opportunities and analytics. Count: 19403
-- https://www.defi.garden/?token=%24ETHER
-- https://www.defi.garden/?token=%24ETHER&chain=Solana
-- https://www.defi.garden/?token=%24ETHER&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=20AAVEPRIMEWETH
-- https://www.defi.garden/?token=20AAVEPRIMEWETH&chain=Ethereum
-- https://www.defi.garden/?token=20AAVEPRIMEWETH&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=20WABASUSDC
-- https://www.defi.garden/?token=20WABASUSDC&chain=Base
+## Top Chains by TVL
+TL;DR: Highest liquidity blockchain networks for DeFi yields.
+- Ethereum ($165.0B TVL) — https://www.defi.garden/?chain=Ethereum
+- Linea ($49.1B TVL) — https://www.defi.garden/?chain=Linea
+- Solana ($13.8B TVL) — https://www.defi.garden/?chain=Solana
+- Base ($7.9B TVL) — https://www.defi.garden/?chain=Base
+- BSC ($7.2B TVL) — https://www.defi.garden/?chain=BSC
+- Arbitrum ($5.4B TVL) — https://www.defi.garden/?chain=Arbitrum
+- Tron ($5.1B TVL) — https://www.defi.garden/?chain=Tron
+- Plasma ($4.5B TVL) — https://www.defi.garden/?chain=Plasma
 
-## Chain Pages
-TL;DR: Chain-specific DeFi opportunities and metrics. Count: 111
-- https://www.defi.garden/?chain=APTOS
-- https://www.defi.garden/?chain=Acala
-- https://www.defi.garden/?chain=Algorand
-- https://www.defi.garden/?chain=Aptos
-- https://www.defi.garden/?chain=Arbitrum
-- https://www.defi.garden/?chain=Astar
-- https://www.defi.garden/?chain=Aurora
-- https://www.defi.garden/?chain=Avalanche
+## Popular Token Yields
+TL;DR: Most searched tokens for yield farming opportunities.
+- USDC yields across all chains — https://www.defi.garden/?token=USDC
+- USDT yields across all chains — https://www.defi.garden/?token=USDT
+- ETH yields across all chains — https://www.defi.garden/?token=ETH
+- WETH yields across all chains — https://www.defi.garden/?token=WETH
+- DAI yields across all chains — https://www.defi.garden/?token=DAI
+- BTC yields across all chains — https://www.defi.garden/?token=BTC
+- WBTC yields across all chains — https://www.defi.garden/?token=WBTC
+- STETH yields across all chains — https://www.defi.garden/?token=STETH
 
-## Pool Types
-TL;DR: Categorized by strategy - lending, staking, LP/DEX. Count: 0
+## Popular Token-Chain Combinations
+TL;DR: Most common "find X yield on Y chain" searches.
+- WSTETH on Linea ($47.9B TVL) — https://www.defi.garden/?token=WSTETH&chain=Linea
+- INETH on Linea ($47.9B TVL) — https://www.defi.garden/?token=INETH&chain=Linea
+- STETH on Ethereum ($36.0B TVL) — https://www.defi.garden/?token=STETH&chain=Ethereum
+- WEETH on Ethereum ($19.4B TVL) — https://www.defi.garden/?token=WEETH&chain=Ethereum
+- WBETH on Ethereum ($13.8B TVL) — https://www.defi.garden/?token=WBETH&chain=Ethereum
+- WSTETH on Ethereum ($11.5B TVL) — https://www.defi.garden/?token=WSTETH&chain=Ethereum
+- WETH on Ethereum ($10.9B TVL) — https://www.defi.garden/?token=WETH&chain=Ethereum
+- SUSDE on Ethereum ($10.0B TVL) — https://www.defi.garden/?token=SUSDE&chain=Ethereum
 
-## High-Yield Opportunities
-TL;DR: Top live yields by APY (filtered by TVL ≥ $10k).
-- BSC · beefy · GIGGLE-WBNB — 850268.33% APY, $11,086 TVL
-- Base · seamless-v1 · ILM-ETH-USDC-3XLOOP — 784033.62% APY, $10,751 TVL
-- Base · aerodrome-v1 · USDC-EMT — 218389.18% APY, $12,108 TVL
-- Base · aerodrome-slipstream · USDC-VELVET — 99326.41% APY, $364,165 TVL
-- Solana · kamino-liquidity · SOL-DOOD — 98352.12% APY, $110,299 TVL
-- Base · aerodrome-v1 · WETH-TRAC — 97016.31% APY, $69,803 TVL
-- Solana · raydium-amm · QTO-USDC — 95232.97% APY, $10,468 TVL
-- Base · aerodrome-slipstream · AVNT-USDC — 57185.15% APY, $2,208,138 TVL
-- BSC · beefy · XPL-USDT — 44377.37% APY, $74,610 TVL
-- Solana · raydium-amm · USD1-DIP — 28840.23% APY, $10,082 TVL
+## Major DeFi Protocols
+TL;DR: Largest protocols by total value locked.
+- lynex-v2 ($47.9B TVL) — https://www.defi.garden/?search=lynex-v2
+- aave-v3 ($43.1B TVL) — https://www.defi.garden/?search=aave-v3
+- lido ($35.5B TVL) — https://www.defi.garden/?search=lido
+- binance-staked-eth ($14.7B TVL) — https://www.defi.garden/?search=binance-staked-eth
+- ether.fi-stake ($11.0B TVL) — https://www.defi.garden/?search=ether.fi-stake
+- merkl ($9.4B TVL) — https://www.defi.garden/?search=merkl
 
-Note: This file is optimized for AI assistants. For live data and trading, visit https://www.defi.garden
+## Common Search Patterns
+TL;DR: Typical user queries and where to find them.
+- "Best USDC yields" → https://www.defi.garden/?token=USDC
+- "USDC yields on Base" → https://www.defi.garden/?token=USDC&chain=Base
+- "Ethereum lending" → https://www.defi.garden/?chain=Ethereum&poolTypes=Lending
+- "Pendle opportunities" → https://www.defi.garden/?search=Pendle
+- "High APY staking" → https://www.defi.garden/?poolTypes=Staking&minApy=10
+- "Safe lending USDT" → https://www.defi.garden/?token=USDT&poolTypes=Lending
+- "Arbitrum LP tokens" → https://www.defi.garden/?chain=Arbitrum&poolTypes=LP%2FDEX
+- "High TVL pools" → https://www.defi.garden/?minTvl=10000000
+
+## Current Top Yields
+TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10k).
+- BSC · beefy · GIGGLE-WBNB — 850268.3% APY, $11,086 TVL — https://www.defi.garden/?token=GIGGLE-WBNB&chain=BSC
+- Base · seamless-v1 · ILM-ETH-USDC-3XLOOP — 784033.6% APY, $10,751 TVL — https://www.defi.garden/?token=ILM-ETH-USDC-3XLOOP&chain=Base
+- Base · aerodrome-v1 · USDC-EMT — 218389.2% APY, $12,108 TVL — https://www.defi.garden/?token=USDC-EMT&chain=Base
+- Base · aerodrome-slipstream · USDC-VELVET — 99326.4% APY, $364,165 TVL — https://www.defi.garden/?token=USDC-VELVET&chain=Base
+- Solana · kamino-liquidity · SOL-DOOD — 98352.1% APY, $110,299 TVL — https://www.defi.garden/?token=SOL-DOOD&chain=Solana
+- Base · aerodrome-v1 · WETH-TRAC — 97016.3% APY, $69,803 TVL — https://www.defi.garden/?token=WETH-TRAC&chain=Base
+- Solana · raydium-amm · QTO-USDC — 95233.0% APY, $10,468 TVL — https://www.defi.garden/?token=QTO-USDC&chain=Solana
+- Base · aerodrome-slipstream · AVNT-USDC — 57185.1% APY, $2,208,138 TVL — https://www.defi.garden/?token=AVNT-USDC&chain=Base
+
+💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
+📊 For live rates and direct protocol access: https://www.defi.garden

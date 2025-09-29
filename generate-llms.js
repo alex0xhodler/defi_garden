@@ -195,9 +195,84 @@ function pickHighYield(pools, options = {}) {
 }
 
 /**
- * Build concise llms.txt content
+ * Analyze yield data to extract insights for LLM content
  */
-function buildConcise(meta, categories, highYield) {
+function analyzeYieldData(pools) {
+  if (!pools || pools.length === 0) {
+    return {
+      topChainsByTvl: [],
+      topProtocols: [],
+      popularTokens: [],
+      topTokenChainCombos: []
+    };
+  }
+
+  // Aggregate data by chain, protocol, and token
+  const chainTvl = new Map();
+  const protocolTvl = new Map();
+  const tokenTvl = new Map();
+  const tokenChainTvl = new Map();
+
+  pools.forEach(pool => {
+    const tvl = Number(pool.tvlUsd) || 0;
+    if (tvl <= 0) return;
+
+    // Chain aggregation
+    if (pool.chain) {
+      chainTvl.set(pool.chain, (chainTvl.get(pool.chain) || 0) + tvl);
+    }
+
+    // Protocol aggregation
+    if (pool.project) {
+      protocolTvl.set(pool.project, (protocolTvl.get(pool.project) || 0) + tvl);
+    }
+
+    // Token aggregation (extract from symbol)
+    if (pool.symbol) {
+      const tokens = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
+      tokens.forEach(token => {
+        if (token.length >= 2 && token.length < 20) {
+          tokenTvl.set(token, (tokenTvl.get(token) || 0) + tvl);
+          
+          // Token-chain combination
+          const key = `${token}-${pool.chain}`;
+          tokenChainTvl.set(key, (tokenChainTvl.get(key) || 0) + tvl);
+        }
+      });
+    }
+  });
+
+  // Sort and get top entries
+  const topChainsByTvl = Array.from(chainTvl.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map(([chain, tvl]) => ({ chain, tvl }));
+
+  const topProtocols = Array.from(protocolTvl.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(([protocol, tvl]) => ({ protocol, tvl }));
+
+  const popularTokens = Array.from(tokenTvl.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15)
+    .map(([token, tvl]) => ({ token, tvl }));
+
+  const topTokenChainCombos = Array.from(tokenChainTvl.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 20)
+    .map(([combo, tvl]) => {
+      const [token, chain] = combo.split('-');
+      return { token, chain, tvl };
+    });
+
+  return { topChainsByTvl, topProtocols, popularTokens, topTokenChainCombos };
+}
+
+/**
+ * Build concise llms.txt content with search-optimized sections
+ */
+function buildConcise(meta, categories, highYield, yieldAnalysis) {
   const lines = [];
   
   // Header with single H1
@@ -217,60 +292,79 @@ function buildConcise(meta, categories, highYield) {
   categories.homepage.slice(0, 3).forEach(url => lines.push(`- ${url}`));
   lines.push('');
   
-  // Token pages section  
-  lines.push('## Token Pages');
-  lines.push(`TL;DR: Token-specific yield opportunities and analytics. Count: ${categories.tokens.length}`);
-  
-  // Show sample of popular tokens
-  const sampleTokens = categories.tokens
-    .filter(url => {
-      try {
-        const params = new URLSearchParams(new URL(url).search);
-        const token = params.get('token');
-        if (!token) return false;
-        const decodedToken = decodeURIComponent(token).toUpperCase();
-        return ['ETH', 'USDC', 'USDT', 'DAI', 'WETH', 'BTC', 'WBTC'].some(popular => 
-          decodedToken.includes(popular)
-        );
-      } catch {
-        return false; // Skip malformed URLs
-      }
-    })
-    .slice(0, 8);
-  
-  sampleTokens.forEach(url => lines.push(`- ${url}`));
+  // Top chains by TVL (most searched)
+  lines.push('## Top Chains by TVL');
+  lines.push('TL;DR: Highest liquidity blockchain networks for DeFi yields.');
+  yieldAnalysis.topChainsByTvl.forEach(({ chain, tvl }) => {
+    const chainUrl = `${meta.baseUrl}/?chain=${encodeURIComponent(chain)}`;
+    const tvlFormatted = `$${(tvl / 1e9).toFixed(1)}B`;
+    lines.push(`- ${chain} (${tvlFormatted} TVL) — ${chainUrl}`);
+  });
   lines.push('');
   
-  // Chain pages section
-  lines.push('## Chain Pages');
-  lines.push(`TL;DR: Chain-specific DeFi opportunities and metrics. Count: ${categories.chains.length}`);
-  categories.chains.slice(0, 8).forEach(url => lines.push(`- ${url}`));
+  // Popular token searches
+  lines.push('## Popular Token Yields');
+  lines.push('TL;DR: Most searched tokens for yield farming opportunities.');
+  const popularSearchTokens = ['USDC', 'USDT', 'ETH', 'WETH', 'DAI', 'BTC', 'WBTC', 'STETH'];
+  popularSearchTokens.forEach(token => {
+    const tokenUrl = `${meta.baseUrl}/?token=${token}`;
+    lines.push(`- ${token} yields across all chains — ${tokenUrl}`);
+  });
   lines.push('');
   
-  // Pool types section
-  lines.push('## Pool Types');
-  lines.push(`TL;DR: Categorized by strategy - lending, staking, LP/DEX. Count: ${categories.poolTypes.length}`);
-  categories.poolTypes.slice(0, 6).forEach(url => lines.push(`- ${url}`));
+  // Top token-chain combinations (common searches)
+  lines.push('## Popular Token-Chain Combinations');
+  lines.push('TL;DR: Most common "find X yield on Y chain" searches.');
+  yieldAnalysis.topTokenChainCombos.slice(0, 8).forEach(({ token, chain, tvl }) => {
+    const url = `${meta.baseUrl}/?token=${encodeURIComponent(token)}&chain=${encodeURIComponent(chain)}`;
+    const tvlFormatted = tvl > 1e9 ? `$${(tvl / 1e9).toFixed(1)}B` : `$${(tvl / 1e6).toFixed(0)}M`;
+    lines.push(`- ${token} on ${chain} (${tvlFormatted} TVL) — ${url}`);
+  });
   lines.push('');
   
-  // High-yield opportunities
-  lines.push('## High-Yield Opportunities');
-  lines.push('TL;DR: Top live yields by APY (filtered by TVL ≥ $10k).');
+  // Top protocols by TVL
+  lines.push('## Major DeFi Protocols');
+  lines.push('TL;DR: Largest protocols by total value locked.');
+  yieldAnalysis.topProtocols.slice(0, 6).forEach(({ protocol, tvl }) => {
+    const protocolUrl = `${meta.baseUrl}/?search=${encodeURIComponent(protocol)}`;
+    const tvlFormatted = tvl > 1e9 ? `$${(tvl / 1e9).toFixed(1)}B` : `$${(tvl / 1e6).toFixed(0)}M`;
+    lines.push(`- ${protocol} (${tvlFormatted} TVL) — ${protocolUrl}`);
+  });
+  lines.push('');
+  
+  // Common search patterns
+  lines.push('## Common Search Patterns');
+  lines.push('TL;DR: Typical user queries and where to find them.');
+  lines.push(`- "Best USDC yields" → ${meta.baseUrl}/?token=USDC`);
+  lines.push(`- "USDC yields on Base" → ${meta.baseUrl}/?token=USDC&chain=Base`);
+  lines.push(`- "Ethereum lending" → ${meta.baseUrl}/?chain=Ethereum&poolTypes=Lending`);
+  lines.push(`- "Pendle opportunities" → ${meta.baseUrl}/?search=Pendle`);
+  lines.push(`- "High APY staking" → ${meta.baseUrl}/?poolTypes=Staking&minApy=10`);
+  lines.push(`- "Safe lending USDT" → ${meta.baseUrl}/?token=USDT&poolTypes=Lending`);
+  lines.push(`- "Arbitrum LP tokens" → ${meta.baseUrl}/?chain=Arbitrum&poolTypes=LP%2FDEX`);
+  lines.push(`- "High TVL pools" → ${meta.baseUrl}/?minTvl=10000000`);
+  lines.push('');
+  
+  // Current top yields
+  lines.push('## Current Top Yields');
+  lines.push('TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10k).');
   
   if (!highYield.top.length) {
-    lines.push('- Data temporarily unavailable from DefiLlama API');
+    lines.push('- Live yield data temporarily unavailable from DefiLlama API');
   } else {
-    highYield.top.slice(0, 10).forEach(pool => {
-      const apy = `${Number(pool.apy).toFixed(2)}%`;
+    highYield.top.slice(0, 8).forEach(pool => {
+      const apy = `${Number(pool.apy).toFixed(1)}%`;
       const tvl = `$${Math.round(Number(pool.tvlUsd) || 0).toLocaleString()}`;
       const name = [pool.chain, pool.project, pool.symbol].filter(Boolean).join(' · ');
-      lines.push(`- ${name} — ${apy} APY, ${tvl} TVL`);
+      const searchUrl = `${meta.baseUrl}/?token=${encodeURIComponent(pool.symbol || '')}&chain=${encodeURIComponent(pool.chain || '')}`;
+      lines.push(`- ${name} — ${apy} APY, ${tvl} TVL — ${searchUrl}`);
     });
   }
   lines.push('');
   
   // Footer note
-  lines.push(`Note: This file is optimized for AI assistants. For live data and trading, visit ${meta.baseUrl}`);
+  lines.push(`💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.`);
+  lines.push(`📊 For live rates and direct protocol access: ${meta.baseUrl}`);
   
   return lines.join('\n');
 }
@@ -278,7 +372,7 @@ function buildConcise(meta, categories, highYield) {
 /**
  * Build comprehensive llms-full.txt content
  */
-function buildFull(meta, categories, highYield) {
+function buildFull(meta, categories, highYield, yieldAnalysis) {
   const lines = [];
   
   // Header with single H1
@@ -333,6 +427,36 @@ function buildFull(meta, categories, highYield) {
     lines.push('');
   }
   
+  // Market analysis sections (if yield data available)
+  if (yieldAnalysis && yieldAnalysis.topChainsByTvl.length > 0) {
+    lines.push('## Market Analysis: Top Chains by TVL');
+    lines.push('TL;DR: Comprehensive chain rankings by total value locked.');
+    yieldAnalysis.topChainsByTvl.forEach(({ chain, tvl }) => {
+      const chainUrl = `${meta.baseUrl}/?chain=${encodeURIComponent(chain)}`;
+      const tvlFormatted = `$${(tvl / 1e9).toFixed(2)}B`;
+      lines.push(`- ${chain}: ${tvlFormatted} TVL — ${chainUrl}`);
+    });
+    lines.push('');
+    
+    lines.push('## Market Analysis: Top Protocols');
+    lines.push('TL;DR: Leading DeFi protocols by aggregate TVL across all pools.');
+    yieldAnalysis.topProtocols.forEach(({ protocol, tvl }) => {
+      const protocolUrl = `${meta.baseUrl}/?search=${encodeURIComponent(protocol)}`;
+      const tvlFormatted = tvl > 1e9 ? `$${(tvl / 1e9).toFixed(2)}B` : `$${(tvl / 1e6).toFixed(0)}M`;
+      lines.push(`- ${protocol}: ${tvlFormatted} TVL — ${protocolUrl}`);
+    });
+    lines.push('');
+    
+    lines.push('## Market Analysis: Popular Token-Chain Combinations');
+    lines.push('TL;DR: Most liquid token-chain pairs ranked by TVL.');
+    yieldAnalysis.topTokenChainCombos.forEach(({ token, chain, tvl }) => {
+      const url = `${meta.baseUrl}/?token=${encodeURIComponent(token)}&chain=${encodeURIComponent(chain)}`;
+      const tvlFormatted = tvl > 1e9 ? `$${(tvl / 1e9).toFixed(2)}B` : `$${(tvl / 1e6).toFixed(0)}M`;
+      lines.push(`- ${token} on ${chain}: ${tvlFormatted} TVL — ${url}`);
+    });
+    lines.push('');
+  }
+  
   // Detailed high-yield opportunities by chain
   lines.push('## Live High-Yield Opportunities (by Chain)');
   lines.push('TL;DR: Current top-performing pools with detailed metrics.');
@@ -380,6 +504,7 @@ async function main() {
     // Fetch yield data
     const { yields, sourceTs } = await fetchYieldsSafe();
     const highYield = pickHighYield(yields);
+    const yieldAnalysis = analyzeYieldData(yields);
     
     // Build metadata
     const meta = {
@@ -390,8 +515,8 @@ async function main() {
     };
     
     // Generate content
-    const conciseContent = buildConcise(meta, categories, highYield);
-    const fullContent = buildFull(meta, categories, highYield);
+    const conciseContent = buildConcise(meta, categories, highYield, yieldAnalysis);
+    const fullContent = buildFull(meta, categories, highYield, yieldAnalysis);
     
     // Ensure output directory exists
     if (!fs.existsSync(OUTPUT_DIR)) {
