@@ -1,0 +1,50 @@
+# DeFi Garden — Yield Farming Discovery Platform
+
+- Last Updated: 2025-09-29T20:07:54.600Z
+- Canonical: https://www.defi.garden
+- Data Sources: sitemap.xml, DefiLlama API
+- Total URLs: 19522
+
+## Homepage
+TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.
+- https://www.defi.garden
+
+## Token Pages
+TL;DR: Token-specific yield opportunities and analytics. Count: 19403
+- https://www.defi.garden/?token=%24ETHER
+- https://www.defi.garden/?token=%24ETHER&chain=Solana
+- https://www.defi.garden/?token=%24ETHER&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=20AAVEPRIMEWETH
+- https://www.defi.garden/?token=20AAVEPRIMEWETH&chain=Ethereum
+- https://www.defi.garden/?token=20AAVEPRIMEWETH&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=20WABASUSDC
+- https://www.defi.garden/?token=20WABASUSDC&chain=Base
+
+## Chain Pages
+TL;DR: Chain-specific DeFi opportunities and metrics. Count: 111
+- https://www.defi.garden/?chain=APTOS
+- https://www.defi.garden/?chain=Acala
+- https://www.defi.garden/?chain=Algorand
+- https://www.defi.garden/?chain=Aptos
+- https://www.defi.garden/?chain=Arbitrum
+- https://www.defi.garden/?chain=Astar
+- https://www.defi.garden/?chain=Aurora
+- https://www.defi.garden/?chain=Avalanche
+
+## Pool Types
+TL;DR: Categorized by strategy - lending, staking, LP/DEX. Count: 0
+
+## High-Yield Opportunities
+TL;DR: Top live yields by APY (filtered by TVL ≥ $10k).
+- BSC · beefy · GIGGLE-WBNB — 850268.33% APY, $11,086 TVL
+- Base · seamless-v1 · ILM-ETH-USDC-3XLOOP — 784033.62% APY, $10,751 TVL
+- Base · aerodrome-v1 · USDC-EMT — 218389.18% APY, $12,108 TVL
+- Base · aerodrome-slipstream · USDC-VELVET — 99326.41% APY, $364,165 TVL
+- Solana · kamino-liquidity · SOL-DOOD — 98352.12% APY, $110,299 TVL
+- Base · aerodrome-v1 · WETH-TRAC — 97016.31% APY, $69,803 TVL
+- Solana · raydium-amm · QTO-USDC — 95232.97% APY, $10,468 TVL
+- Base · aerodrome-slipstream · AVNT-USDC — 57185.15% APY, $2,208,138 TVL
+- BSC · beefy · XPL-USDT — 44377.37% APY, $74,610 TVL
+- Solana · raydium-amm · USD1-DIP — 28840.23% APY, $10,082 TVL
+
+Note: This file is optimized for AI assistants. For live data and trading, visit https://www.defi.garden

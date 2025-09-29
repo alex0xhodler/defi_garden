@@ -31,6 +31,9 @@ jobs:
         cache: 'npm'
         cache-dependency-path: package.json
     
+    - name: Install dependencies
+      run: npm install --only=production
+    
     - name: Generate sitemap
       run: |
         echo "🚀 Generating fresh sitemap..."
@@ -41,6 +44,21 @@ jobs:
         echo "URL count: $(grep -c '<url>' sitemap.xml)"
         
         echo "✅ Sitemap generation completed"
+    
+    - name: Generate LLM files
+      run: |
+        echo "🤖 Generating LLM-friendly files..."
+        node generate-llms.js
+        
+        echo "📊 LLM files stats:"
+        if [ -f llms.txt ]; then
+          echo "llms.txt size: $(du -h llms.txt | cut -f1)"
+        fi
+        if [ -f llms-full.txt ]; then
+          echo "llms-full.txt size: $(du -h llms-full.txt | cut -f1)"
+        fi
+        
+        echo "✅ LLM files generation completed"
     
     - name: Validate sitemap XML
       run: |
@@ -58,17 +76,18 @@ jobs:
           echo "✅ No changes in sitemap files"
         fi
     
-    - name: Commit updated sitemap
+    - name: Commit updated files
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "alex@0xhodler.nl"
+        git config --local user.name "alex0xhodler"
         
-        git add sitemap.xml robots.txt
-        git commit -m "chore: update sitemap with latest tokens and yields
+        git add sitemap.xml robots.txt llms.txt llms-full.txt
+        git commit -m "chore: update sitemap and LLM files with latest yields
         
         - Regenerated sitemap.xml with $(grep -c '<url>' sitemap.xml) URLs
-        - Updated robots.txt with current timestamp
+        - Updated robots.txt with AI crawler support
+        - Generated llms.txt and llms-full.txt for AI assistants
         - Includes latest DeFi tokens and yield opportunities
         
         🤖 Automated update via GitHub Actions"
@@ -96,15 +115,20 @@ jobs:
     
     - name: Summary
       run: |
-        echo "## Sitemap Update Summary" >> $GITHUB_STEP_SUMMARY
+        echo "## Sitemap & LLM Files Update Summary" >> $GITHUB_STEP_SUMMARY
         echo "- **Total URLs**: $(grep -c '<url>' sitemap.xml)" >> $GITHUB_STEP_SUMMARY
-        echo "- **File Size**: $(du -h sitemap.xml | cut -f1)" >> $GITHUB_STEP_SUMMARY
+        echo "- **Sitemap Size**: $(du -h sitemap.xml | cut -f1)" >> $GITHUB_STEP_SUMMARY
+        if [ -f llms.txt ]; then
+          echo "- **LLM Files**: llms.txt ($(du -h llms.txt | cut -f1)), llms-full.txt ($(du -h llms-full.txt | cut -f1))" >> $GITHUB_STEP_SUMMARY
+        fi
         echo "- **Last Updated**: $(date -u)" >> $GITHUB_STEP_SUMMARY
         echo "- **Status**: ✅ Completed successfully" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
-        echo "### SEO Benefits" >> $GITHUB_STEP_SUMMARY
+        echo "### SEO & AI Benefits" >> $GITHUB_STEP_SUMMARY
         echo "- Individual token yield pages for organic search" >> $GITHUB_STEP_SUMMARY
         echo "- Network-specific landing pages" >> $GITHUB_STEP_SUMMARY
         echo "- Pool type categorization pages" >> $GITHUB_STEP_SUMMARY
         echo "- High-value TVL and APY filter pages" >> $GITHUB_STEP_SUMMARY
+        echo "- AI-friendly content discovery via llms.txt" >> $GITHUB_STEP_SUMMARY
+        echo "- Enhanced robots.txt with AI crawler permissions" >> $GITHUB_STEP_SUMMARY
         echo "- Daily update frequency for fresh content" >> $GITHUB_STEP_SUMMARY

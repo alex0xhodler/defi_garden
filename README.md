@@ -172,7 +172,33 @@ npm run serve           # Alternative development server
 # SEO & Sitemap
 npm run sitemap         # Generate sitemap.xml
 npm run sitemap:validate # Validate generated sitemap
+
+# LLM Files
+npm run generate:llms   # Generate llms.txt and llms-full.txt
 ```
+
+### AI Assistant Integration
+
+DeFi Garden includes cutting-edge AI assistant integration through `llms.txt` and `llms-full.txt` files:
+
+#### **LLM Files Generation**
+- **`llms.txt`**: Concise overview optimized for AI assistants
+- **`llms-full.txt`**: Comprehensive site index with all URLs and live yield data
+- **Daily Updates**: Automatically generated via GitHub Actions alongside sitemap updates
+- **High-Yield Data**: Includes real-time top-performing pools from DefiLlama API
+
+#### **Environment Variables**
+```bash
+SITEMAP_PATH=./sitemap.xml           # Path to sitemap.xml file
+LLMS_OUTPUT_DIR=./                   # Output directory for LLM files
+DEFILLAMA_YIELDS_URL=https://yields.llama.fi/pools  # DefiLlama API endpoint
+```
+
+#### **AI Crawler Support**
+The enhanced `robots.txt` explicitly allows AI assistant crawlers:
+- **OpenAI**: `OAI-SearchBot`, `ChatGPT-User`
+- **Perplexity**: `PerplexityBot`, `Perplexity-User`
+- **References**: Direct links to `llms.txt` and `llms-full.txt` for discovery
 
 ### Environment Configuration
 
