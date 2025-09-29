@@ -275,8 +275,8 @@ function analyzeYieldData(pools) {
 function buildConcise(meta, categories, highYield, yieldAnalysis) {
   const lines = [];
   
-  // Header with single H1
-  lines.push('# DeFi Garden — Yield Farming Discovery Platform');
+  // Header with single H1 (SEO optimized)
+  lines.push('# Find the Best Yields for Your Tokens Across All Chains | DeFi Garden');
   lines.push('');
   
   // Metadata
@@ -375,8 +375,8 @@ function buildConcise(meta, categories, highYield, yieldAnalysis) {
 function buildFull(meta, categories, highYield, yieldAnalysis) {
   const lines = [];
   
-  // Header with single H1
-  lines.push('# DeFi Garden — Complete Site Index for AI Agents');
+  // Header with single H1 (SEO optimized for comprehensive index)
+  lines.push('# Complete DeFi Yield Index: Best Token Yields Across All Blockchains | DeFi Garden');
   lines.push('');
   
   // Extended metadata
