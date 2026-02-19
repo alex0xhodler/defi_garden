@@ -210,10 +210,10 @@
     /* Dark Mode Neumorphic Shadows */
     --neuro-shadow-dark: #19181B;
     --neuro-shadow-light: #302E34;
-    --neuro-shadow-raised: 8px 8px 16px var(--neuro-shadow-dark), -8px -8px 16px var(--neuro-shadow-light);
-    --neuro-shadow-pressed: inset 6px 6px 12px var(--neuro-shadow-dark), inset -6px -6px 12px var(--neuro-shadow-light);
-    --neuro-shadow-flat: 4px 4px 8px var(--neuro-shadow-dark), -4px -4px 8px var(--neuro-shadow-light);
-    --neuro-shadow-subtle: 2px 2px 5px var(--neuro-shadow-dark), -2px -2px 5px var(--neuro-shadow-light);
+    --neuro-shadow-raised: 6px 6px 14px var(--neuro-shadow-dark), -6px -6px 14px var(--neuro-shadow-light);
+    --neuro-shadow-pressed: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light);
+    --neuro-shadow-flat: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light);
+    --neuro-shadow-subtle: 2px 2px 6px var(--neuro-shadow-dark), -2px -2px 6px var(--neuro-shadow-light);
 
     /* RGB versions for dark mode */
     --color-success-rgb: var(--color-teal-300-rgb);
@@ -419,6 +419,9 @@ pre code {
 .btn--primary {
   background: var(--color-primary);
   color: var(--color-btn-primary-text);
+
+  box-shadow: 0 4px 12px rgba(35, 209, 96, 0.3) !important;
+  font-weight: 600;
 }
 
 .btn--primary:hover {
@@ -746,10 +749,10 @@ select.form-control {
 /* Neumorphism Design System Overrides */
 :root {
   /* Neumorphism Color Palette */
-  --neuro-bg: #F0F3F6;
-  --neuro-surface: #F0F3F6;
+  --neuro-bg: #EAEFF5;
+  --neuro-surface: #F2F6FA;
   --neuro-surface-light: #F4F6F9;
-  --neuro-shadow-dark: #D4D9E2;
+  --neuro-shadow-dark: #D1D9E6;
   --neuro-shadow-light: #FFFFFF;
   --neuro-text: #2D3748;
   --neuro-text-secondary: #6B7280;
@@ -765,10 +768,10 @@ select.form-control {
   --color-forest: #065F46;
   
   /* Neumorphism Shadows (Light Mode) */
-  --neuro-shadow-raised: 8px 8px 16px var(--neuro-shadow-dark), -8px -8px 16px var(--neuro-shadow-light);
-  --neuro-shadow-pressed: inset 6px 6px 12px var(--neuro-shadow-dark), inset -6px -6px 12px var(--neuro-shadow-light);
-  --neuro-shadow-flat: 4px 4px 8px var(--neuro-shadow-dark), -4px -4px 8px var(--neuro-shadow-light);
-  --neuro-shadow-subtle: 2px 2px 5px var(--neuro-shadow-dark), -2px -2px 5px var(--neuro-shadow-light);
+  --neuro-shadow-raised: 6px 6px 14px var(--neuro-shadow-dark), -6px -6px 14px var(--neuro-shadow-light);
+  --neuro-shadow-pressed: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light);
+  --neuro-shadow-flat: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light);
+  --neuro-shadow-subtle: 2px 2px 6px var(--neuro-shadow-dark), -2px -2px 6px var(--neuro-shadow-light);
   
   /* Override semantic colors with neumorphism theme */
   --color-background: var(--neuro-bg);
@@ -1628,10 +1631,15 @@ body {
   transition: all 0.2s ease;
   box-shadow: var(--neuro-shadow-pressed);
   outline: none;
+
+  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--neuro-bg);
 }
 
 .search-input:focus {
   box-shadow: var(--neuro-shadow-pressed), 0 0 0 3px rgba(16, 185, 129, 0.2);
+
+  box-shadow: var(--neuro-shadow-pressed);
 }
 
 .search-input::placeholder {
@@ -1858,6 +1866,11 @@ body {
 .pool-card:hover .pool-apy-hero {
   box-shadow: var(--neuro-shadow-subtle);
   transform: scale(1.02);
+
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  background: var(--neuro-bg);
+  border-radius: 16px;
+  padding: 8px 16px;
 }
 
 .pool-card:hover .pool-apy-preview {
@@ -1876,16 +1889,7 @@ body {
   box-shadow: var(--neuro-shadow-flat);
 }
 
-.pool-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary-green));
-  border-radius: 20px 20px 0 0;
-}
+.pool-card::before { display: none; }
 
 .pool-header {
   display: flex;
@@ -2198,7 +2202,10 @@ body {
     box-sizing: border-box;
     max-width: 100%;
     min-height: 44px; /* Minimum touch target */
-  }
+  
+  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--neuro-bg);
+}
   
   /* Mobile Autocomplete Dropdown - Optimized Height */
   .autocomplete-dropdown {
@@ -2320,7 +2327,10 @@ body {
     padding: var(--space-10) var(--space-16);
     font-size: var(--font-size-sm);
     border-radius: 18px;
-  }
+  
+  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--neuro-bg);
+}
   
   .logo {
     max-width: 100%;
@@ -2393,7 +2403,9 @@ html {
   .search-input:focus {
     position: relative;
     z-index: 9999;
-  }
+  
+  box-shadow: var(--neuro-shadow-pressed);
+}
   
   /* Improve touch scrolling */
   .autocomplete-dropdown,
@@ -2417,7 +2429,10 @@ html {
   /* Prevent viewport zoom on input focus for iOS */
   .search-input {
     font-size: 16px; /* Prevents zoom on iOS */
-  }
+  
+  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--neuro-bg);
+}
 }
 
 /* Add slight upward shift for Google-style positioning */
@@ -2462,7 +2477,11 @@ html {
     box-shadow: var(--neuro-shadow-subtle);
     margin-bottom: var(--space-8);
     text-align: center;
-  }
+  
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  background: var(--neuro-bg);
+  border-radius: 12px;
+}
   
   .tvl-value {
     font-size: var(--font-size-sm);
@@ -2663,17 +2682,17 @@ html {
 
 /* TVL confidence indicators */
 .pool-tvl-section[data-tvl-tier="large"] {
-  border-left-color: var(--color-primary);
+  
   border-left-width: 4px;
 }
 
 .pool-tvl-section[data-tvl-tier="medium"] {
-  border-left-color: #f59e0b;
+  
   border-left-width: 3px;
 }
 
 .pool-tvl-section[data-tvl-tier="small"] {
-  border-left-color: #6b7280;
+  
   border-left-width: 2px;
 }
 
@@ -2682,6 +2701,11 @@ html {
   font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
   font-feature-settings: 'tnum' 1, 'kern' 1;
   font-variant-numeric: tabular-nums;
+
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  background: var(--neuro-bg);
+  border-radius: 16px;
+  padding: 8px 16px;
 }
 
 .tvl-value,
@@ -2714,16 +2738,20 @@ html {
   align-items: center;
   background: var(--color-surface);
   border: 1px solid rgba(16, 185, 129, 0.08);
-  border-left: 3px solid var(--color-primary);
+  border: none;
   padding: var(--space-8) var(--space-12);
   border-radius: 10px;
   margin: var(--space-12) 0;
   transition: all 0.3s ease;
+
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  background: var(--neuro-bg);
+  border-radius: 12px;
 }
 
 .pool-tvl-section:hover {
   background: var(--color-surface);
-  border-left-color: var(--color-forest);
+  
 }
 
 .tvl-label {
@@ -2745,17 +2773,17 @@ html {
 
 /* TVL tier-based border styling */
 .pool-tvl-section[data-tvl-tier="large"] {
-  border-left-color: #10b981;
+  
   border-left-width: 4px;
 }
 
 .pool-tvl-section[data-tvl-tier="medium"] {
-  border-left-color: #f59e0b;
+  
   border-left-width: 3px;
 }
 
 .pool-tvl-section[data-tvl-tier="small"] {
-  border-left-color: #6b7280;
+  
   border-left-width: 2px;
 }
 
@@ -2810,6 +2838,11 @@ html {
   cursor: pointer;
   width: 100%;
   margin-top: var(--space-8);
+
+  box-shadow: 0 4px 12px rgba(35, 209, 96, 0.3) !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
 }
 
 .calculate-yield-btn-new::before { display: none; }
@@ -2823,6 +2856,9 @@ html {
   box-shadow: 
     0 8px 25px rgba(16, 185, 129, 0.4),
     inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+  box-shadow: 0 6px 16px rgba(35, 209, 96, 0.4) !important;
+  transform: translateY(-1px);
 }
 
 .calculate-yield-btn-new:active {
@@ -2841,6 +2877,11 @@ html {
   line-height: 0.9;
   position: relative;
   overflow: hidden;
+
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  background: var(--neuro-bg);
+  border-radius: 16px;
+  padding: 8px 16px;
 }
 
 /* Smaller APY display for desktop compact cards */
@@ -2849,7 +2890,12 @@ html {
     font-size: var(--font-size-xl);
     padding: var(--space-6) var(--space-12);
     border-radius: 10px;
-  }
+  
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  background: var(--neuro-bg);
+  border-radius: 16px;
+  padding: 8px 16px;
+}
 }
 
 .pool-apy-preview {
@@ -2928,6 +2974,10 @@ html {
   justify-content: space-between;
   align-items: center;
   border-left: 3px solid var(--color-secondary-green);
+
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  background: var(--neuro-bg);
+  border-radius: 12px;
 }
 
 .tvl-label {
@@ -3011,6 +3061,11 @@ html {
   letter-spacing: 0.05em;
   position: relative;
   overflow: hidden;
+
+  box-shadow: 0 4px 12px rgba(35, 209, 96, 0.3) !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
 }
 
 /* Button shimmer effect */
@@ -3020,6 +3075,9 @@ html {
   background: var(--color-primary);
   box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(16, 185, 129, 0.4);
   transform: translateY(-3px);
+
+  box-shadow: 0 6px 16px rgba(35, 209, 96, 0.4) !important;
+  transform: translateY(-1px);
 }
 
 .calculate-yield-btn-new:hover::before {
@@ -3346,7 +3404,12 @@ html {
   .pool-apy-hero {
     font-size: var(--font-size-xl);
     padding: var(--space-6) var(--space-12);
-  }
+  
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  background: var(--neuro-bg);
+  border-radius: 16px;
+  padding: 8px 16px;
+}
   
   .pool-apy-preview {
     font-size: var(--font-size-xs);
@@ -3355,7 +3418,11 @@ html {
   .pool-tvl-section {
     padding: var(--space-8);
     margin-bottom: var(--space-16);
-  }
+  
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  background: var(--neuro-bg);
+  border-radius: 12px;
+}
   
   .tvl-value {
     font-size: var(--font-size-base);
@@ -3364,7 +3431,12 @@ html {
   .calculate-yield-btn-new {
     padding: var(--space-12) var(--space-20);
     font-size: var(--font-size-sm);
-  }
+  
+  box-shadow: 0 4px 12px rgba(35, 209, 96, 0.3) !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
 }
 
 /* Dark Mode Toggle Styles */
@@ -3590,10 +3662,10 @@ html {
   /* Dark Mode Neumorphic Shadows */
   --neuro-shadow-dark: #19181B;
   --neuro-shadow-light: #302E34;
-  --neuro-shadow-raised: 8px 8px 16px var(--neuro-shadow-dark), -8px -8px 16px var(--neuro-shadow-light);
-  --neuro-shadow-pressed: inset 6px 6px 12px var(--neuro-shadow-dark), inset -6px -6px 12px var(--neuro-shadow-light);
-  --neuro-shadow-flat: 4px 4px 8px var(--neuro-shadow-dark), -4px -4px 8px var(--neuro-shadow-light);
-  --neuro-shadow-subtle: 2px 2px 5px var(--neuro-shadow-dark), -2px -2px 5px var(--neuro-shadow-light);
+  --neuro-shadow-raised: 6px 6px 14px var(--neuro-shadow-dark), -6px -6px 14px var(--neuro-shadow-light);
+  --neuro-shadow-pressed: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light);
+  --neuro-shadow-flat: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light);
+  --neuro-shadow-subtle: 2px 2px 6px var(--neuro-shadow-dark), -2px -2px 6px var(--neuro-shadow-light);
 }
 
 /* Search Buttons */
@@ -3893,10 +3965,15 @@ html {
 
 .search-input {
   transition: all 300ms var(--entry-easing);
+
+  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--neuro-bg);
 }
 
 .search-input:focus {
   animation: pulseGlow 2s var(--entry-easing) infinite;
+
+  box-shadow: var(--neuro-shadow-pressed);
 }
 
 /* Filters section animations */
@@ -4450,6 +4527,9 @@ html {
   background: var(--color-primary) !important;
   color: #FFFFFF !important;
   box-shadow: 0 4px 12px rgba(30, 215, 96, 0.4) !important;
+
+  box-shadow: 0 4px 12px rgba(35, 209, 96, 0.3) !important;
+  font-weight: 600;
 }
 .btn--primary:hover:not(:disabled) {
   background: var(--color-primary-hover) !important;
