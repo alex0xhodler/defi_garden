@@ -2681,39 +2681,21 @@ html {
   transition: all 0.3s ease;
 }
 
-.pool-card:hover .pool-left-section::after {
-  opacity: 1;
-  transform: scale(1);
-}
+
 
 /* Risk assessment visual indicators */
-.pool-card[data-risk-level="low"]::before {
-  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary-green));
-}
 
-.pool-card[data-risk-level="medium"]::before {
-  background: linear-gradient(90deg, #f59e0b, #eab308);
-}
 
-.pool-card[data-risk-level="high"]::before {
-  background: linear-gradient(90deg, #ef4444, #dc2626);
-}
+
+
+
 
 /* TVL confidence indicators */
-.pool-tvl-section[data-tvl-tier="large"] {
-  
-  border-left-width: 4px;
-}
 
-.pool-tvl-section[data-tvl-tier="medium"] {
-  
-  border-left-width: 3px;
-}
 
-.pool-tvl-section[data-tvl-tier="small"] {
-  
-  border-left-width: 2px;
-}
+
+
+
 
 /* Enhanced typography hierarchy for financial data */
 .pool-apy-hero {
@@ -2798,20 +2780,11 @@ html {
 }
 
 /* TVL tier-based border styling */
-.pool-tvl-section[data-tvl-tier="large"] {
-  
-  border-left-width: 4px;
-}
 
-.pool-tvl-section[data-tvl-tier="medium"] {
-  
-  border-left-width: 3px;
-}
 
-.pool-tvl-section[data-tvl-tier="small"] {
-  
-  border-left-width: 2px;
-}
+
+
+
 
 /* Daily earnings preview enhancement */
 .pool-apy-preview {
@@ -2834,17 +2807,11 @@ html {
 }
 
 /* Risk-based top border indicators */
-.pool-card[data-risk="low"]::before {
-  background: linear-gradient(90deg, #10b981, #34d399);
-}
 
-.pool-card[data-risk="medium"]::before {
-  background: linear-gradient(90deg, #f59e0b, #fbbf24);
-}
 
-.pool-card[data-risk="high"]::before {
-  background: linear-gradient(90deg, #ef4444, #f87171);
-}
+
+
+
 
 /* Enhanced button styling for Calculate Yield */
 .calculate-yield-btn-new {
@@ -3005,7 +2972,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-left: 3px solid var(--color-secondary-green);
+  border: none;
 
   box-shadow: var(--neuro-shadow-pressed) !important;
   background: var(--neuro-bg);
