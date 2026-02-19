@@ -174,8 +174,8 @@
     --color-bg-8: rgba(8, 145, 178, 0.15); /* Dark cyan */
     
     /* Semantic Color Tokens (Dark Mode) */
-    --color-background: #242227;
-    --color-surface: #242227;
+    --color-background: #1B191E;
+    --color-surface: #211F24;
     --color-text: #F3F1F4;
     --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
     --color-primary: #1ED760;
@@ -208,8 +208,8 @@
     --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 
     /* Dark Mode Neumorphic Shadows */
-    --neuro-shadow-dark: #19181B;
-    --neuro-shadow-light: #302E34;
+    --neuro-shadow-dark: #141317;
+    --neuro-shadow-light: #2E2B31;
     --neuro-shadow-raised: 6px 6px 14px var(--neuro-shadow-dark), -6px -6px 14px var(--neuro-shadow-light);
     --neuro-shadow-pressed: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light);
     --neuro-shadow-flat: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light);
@@ -242,8 +242,8 @@
   --color-bg-8: rgba(8, 145, 178, 0.15); /* Dark cyan */
   
   /* Semantic Color Tokens (Dark Mode) */
-  --color-background: #242227;
-  --color-surface: #242227;
+  --color-background: #1B191E;
+  --color-surface: #211F24;
   --color-text: #F3F1F4;
   --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
   --color-primary: #1ED760;
@@ -1634,6 +1634,9 @@ body {
 
   box-shadow: var(--neuro-shadow-pressed);
   background: var(--neuro-bg);
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 
 .search-input:focus {
@@ -1871,6 +1874,9 @@ body {
   background: var(--neuro-bg);
   border-radius: 16px;
   padding: 8px 16px;
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 
 .pool-card:hover .pool-apy-preview {
@@ -2205,6 +2211,9 @@ body {
   
   box-shadow: var(--neuro-shadow-pressed);
   background: var(--neuro-bg);
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
   
   /* Mobile Autocomplete Dropdown - Optimized Height */
@@ -2330,6 +2339,9 @@ body {
   
   box-shadow: var(--neuro-shadow-pressed);
   background: var(--neuro-bg);
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
   
   .logo {
@@ -2432,6 +2444,9 @@ html {
   
   box-shadow: var(--neuro-shadow-pressed);
   background: var(--neuro-bg);
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 }
 
@@ -2481,6 +2496,10 @@ html {
   box-shadow: var(--neuro-shadow-pressed) !important;
   background: var(--neuro-bg);
   border-radius: 12px;
+
+  background: var(--color-surface) !important;
+  border-radius: 12px;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
   
   .tvl-value {
@@ -2706,6 +2725,9 @@ html {
   background: var(--neuro-bg);
   border-radius: 16px;
   padding: 8px 16px;
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 
 .tvl-value,
@@ -2747,6 +2769,10 @@ html {
   box-shadow: var(--neuro-shadow-pressed) !important;
   background: var(--neuro-bg);
   border-radius: 12px;
+
+  background: var(--color-surface) !important;
+  border-radius: 12px;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 
 .pool-tvl-section:hover {
@@ -2882,6 +2908,9 @@ html {
   background: var(--neuro-bg);
   border-radius: 16px;
   padding: 8px 16px;
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 
 /* Smaller APY display for desktop compact cards */
@@ -2895,6 +2924,9 @@ html {
   background: var(--neuro-bg);
   border-radius: 16px;
   padding: 8px 16px;
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 }
 
@@ -2978,6 +3010,10 @@ html {
   box-shadow: var(--neuro-shadow-pressed) !important;
   background: var(--neuro-bg);
   border-radius: 12px;
+
+  background: var(--color-surface) !important;
+  border-radius: 12px;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 
 .tvl-label {
@@ -3409,6 +3445,9 @@ html {
   background: var(--neuro-bg);
   border-radius: 16px;
   padding: 8px 16px;
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
   
   .pool-apy-preview {
@@ -3422,6 +3461,10 @@ html {
   box-shadow: var(--neuro-shadow-pressed) !important;
   background: var(--neuro-bg);
   border-radius: 12px;
+
+  background: var(--color-surface) !important;
+  border-radius: 12px;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
   
   .tvl-value {
@@ -3628,8 +3671,8 @@ html {
   --color-bg-8: rgba(8, 145, 178, 0.15); /* Dark cyan */
   
   /* Semantic Color Tokens (Dark Mode) */
-  --color-background: #242227;
-  --color-surface: #242227;
+  --color-background: #1B191E;
+  --color-surface: #211F24;
   --color-text: #F3F1F4;
   --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
   --color-primary: #1ED760;
@@ -3660,8 +3703,8 @@ html {
   --status-border-opacity: 0.25;
 
   /* Dark Mode Neumorphic Shadows */
-  --neuro-shadow-dark: #19181B;
-  --neuro-shadow-light: #302E34;
+  --neuro-shadow-dark: #141317;
+  --neuro-shadow-light: #2E2B31;
   --neuro-shadow-raised: 6px 6px 14px var(--neuro-shadow-dark), -6px -6px 14px var(--neuro-shadow-light);
   --neuro-shadow-pressed: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light);
   --neuro-shadow-flat: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light);
@@ -3968,6 +4011,9 @@ html {
 
   box-shadow: var(--neuro-shadow-pressed);
   background: var(--neuro-bg);
+
+  background: var(--color-surface) !important;
+  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 
 .search-input:focus {
