@@ -574,6 +574,15 @@ function useTypingPlaceholder(phrases, typingSpeed = 150, deletingSpeed = 75, pa
   const [text, setText] = useState('');
   const [phraseIndex, setPhraseIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [showCursor, setShowCursor] = useState(true);
+
+  // Blinking cursor effect
+  useEffect(() => {
+    const cursorInterval = setInterval(() => {
+      setShowCursor((prev) => !prev);
+    }, 530);
+    return () => clearInterval(cursorInterval);
+  }, []);
 
   // If phrases change (e.g. language change), reset state
   useEffect(() => {
@@ -606,6 +615,9 @@ function useTypingPlaceholder(phrases, typingSpeed = 150, deletingSpeed = 75, pa
         timeout = setTimeout(() => {
           setText(currentPhrase.slice(0, text.length + 1));
         }, currentTypingSpeed);
+        
+        // Force cursor visible while typing for better UX
+        setShowCursor(true);
       } else {
         timeout = setTimeout(() => {
           setIsDeleting(true);
@@ -617,7 +629,8 @@ function useTypingPlaceholder(phrases, typingSpeed = 150, deletingSpeed = 75, pa
   }, [text, isDeleting, phraseIndex, phrases, typingSpeed, deletingSpeed, pauseTime]);
 
   // Return a space to keep vertical height uniform when empty, avoiding layout jumps
-  return text || ' ';
+  // Append a blinking cursor to enhance the typing effect
+  return text + (showCursor ? '|' : '\u200A');
 }
 
 // Main App Component
@@ -682,7 +695,7 @@ function App() {
   });
 
   // Create translation function for current language
-  const t = createTranslationFunction(language);
+  const t = useMemo(() => createTranslationFunction(language), [language]);
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
 
