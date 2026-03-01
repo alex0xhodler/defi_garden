@@ -608,9 +608,13 @@ function useTypingPlaceholder(phrases, typingSpeed = 150, deletingSpeed = 75, pa
       }
     } else {
       if (text.length < currentPhrase.length) {
+        // First phrase '...' should animate slower
+        let isTypingDots = currentIdx === 0 && text.length >= currentPhrase.replace(/\.\.\.$/, '').length;
+        
         // Normal CPM rate (e.g. 200-300 CPM) involves varying delays per keystroke
-        const randomJitter = Math.random() * (typingSpeed * 0.5);
-        const currentTypingSpeed = typingSpeed + randomJitter - (typingSpeed * 0.25);
+        const baseSpeed = isTypingDots ? 400 : typingSpeed;
+        const randomJitter = Math.random() * (baseSpeed * 0.5);
+        const currentTypingSpeed = baseSpeed + randomJitter - (baseSpeed * 0.25);
         
         timeout = setTimeout(() => {
           setText(currentPhrase.slice(0, text.length + 1));
