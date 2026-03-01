@@ -6,8 +6,8 @@
   "scripts": {
     "sitemap": "node generate-sitemap.js",
     "sitemap:validate": "node generate-sitemap.js && echo 'Validating sitemap...' && curl -s -o /dev/null -w '%{http_code}' https://www.xml-sitemaps.com/validate-xml-sitemap.html",
-    "serve": "python -m http.server 8000",
-    "dev": "python -m http.server 8000",
+    "serve": "npx --yes http-server -p 8000",
+    "dev": "npx --yes http-server -p 8000",
     "generate:llms": "node generate-llms.js"
   },
   "keywords": [
