@@ -937,6 +937,11 @@ body {
   font-size: var(--font-size-base);
   color: var(--color-text);
   font-family: var(--font-family-base);
+  caret-color: var(--color-primary);
+}
+
+.google-search-input:placeholder-shown {
+  caret-color: transparent;
 }
 
 .google-search-input::placeholder {
@@ -1634,6 +1639,7 @@ body {
   border-radius: 20px;
   background: var(--color-background);
   color: var(--color-text);
+  caret-color: var(--color-primary);
   transition: all 0.2s ease;
   box-shadow: var(--neuro-shadow-pressed);
   outline: none;
@@ -1643,6 +1649,10 @@ body {
 
   background: var(--color-surface) !important;
   box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
+}
+
+.search-input:placeholder-shown {
+  caret-color: transparent;
 }
 
 .search-input:focus {
