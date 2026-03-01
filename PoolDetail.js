@@ -258,7 +258,7 @@ function PoolDetail({
           right: 0,
           width: '40%',
           height: '100%',
-          background: 'linear-gradient(90deg, transparent 0%, rgba(16, 185, 129, 0.03) 100%)',
+          background: 'linear-gradient(90deg, transparent 0%, rgba(59, 130, 246, 0.03) 100%)',
           pointerEvents: 'none'
         }
       }),
@@ -1086,7 +1086,7 @@ function PoolDetail({
           style: {
             marginTop: '16px',
             paddingTop: '16px',
-            borderTop: '1px solid rgba(16, 185, 129, 0.1)'
+            borderTop: '1px solid rgba(59, 130, 246, 0.1)'
           }
         },
           React.createElement('div', {

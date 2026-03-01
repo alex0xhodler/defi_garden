@@ -1,4 +1,4 @@
-const { useState, useEffect, useMemo } = React;
+const { useState, useEffect, useMemo, useRef } = React;
 
 // Import translation system (script tag will load translations.js before app.js)
 // translations, formatKoreanCurrency, detectUserLanguage, createTranslationFunction are available globally
@@ -580,6 +580,8 @@ function App() {
   const [selectedProtocols, setSelectedProtocols] = useState([]); // New state for protocol filtering
   const [minTvl, setMinTvl] = useState(0);
   const [minApy, setMinApy] = useState(0);
+  const [viewMode, setViewMode] = useState('grid');
+  const [sortBy, setSortBy] = useState('apy');
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -1394,11 +1396,15 @@ function App() {
         
         return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
       });
-      // Sort by total APY (base + reward) descending
+      // Sort by selected criteria
       filtered.sort((a, b) => {
-        const apyA = (a.apyBase || 0) + (a.apyReward || 0);
-        const apyB = (b.apyBase || 0) + (b.apyReward || 0);
-        return apyB - apyA;
+        if (sortBy === 'tvl') {
+          return b.tvlUsd - a.tvlUsd;
+        } else {
+          const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+          const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+          return apyB - apyA;
+        }
       });
       setFilteredPools(filtered);
       setCurrentPage(1);
@@ -1451,11 +1457,15 @@ function App() {
         return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
       });
 
-      // Sort by total APY (base + reward) descending
+      // Sort by selected criteria
       filtered.sort((a, b) => {
-        const apyA = (a.apyBase || 0) + (a.apyReward || 0);
-        const apyB = (b.apyBase || 0) + (b.apyReward || 0);
-        return apyB - apyA;
+        if (sortBy === 'tvl') {
+          return b.tvlUsd - a.tvlUsd;
+        } else {
+          const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+          const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+          return apyB - apyA;
+        }
       });
 
       setFilteredPools(filtered);
@@ -1509,16 +1519,20 @@ function App() {
       return hasToken && chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
     });
 
-    // Sort by total APY (base + reward) descending
+    // Sort by selected criteria
     filtered.sort((a, b) => {
-      const apyA = (a.apyBase || 0) + (a.apyReward || 0);
-      const apyB = (b.apyBase || 0) + (b.apyReward || 0);
-      return apyB - apyA;
+      if (sortBy === 'tvl') {
+        return b.tvlUsd - a.tvlUsd;
+      } else {
+        const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+        const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+        return apyB - apyA;
+      }
     });
 
     setFilteredPools(filtered);
     setCurrentPage(1); // Reset to first page when filters change
-  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode]);
+  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode, sortBy]);
 
   // Update URL when filters change (but not during initial load, popstate events, or pool detail view)
   useEffect(() => {
@@ -2310,17 +2324,46 @@ function App() {
       (selectedToken || (chainMode && selectedChain)) && React.createElement('div', { className: 'results-section animate-on-mount' },
         filteredPools.length > 0 ? [
           React.createElement('div', { className: 'results-header', key: 'header' },
-            React.createElement('h2', { className: 'results-title' },
-              chainMode && selectedChain && !selectedToken
-                ? t('chainYields', selectedChain)
-                : t('tokenYields', selectedToken, selectedChain)
+            React.createElement('div', { className: 'results-header-left' },
+              React.createElement('h2', { className: 'results-title' },
+                chainMode && selectedChain && !selectedToken
+                  ? t('chainYields', selectedChain)
+                  : t('tokenYields', selectedToken, selectedChain)
+              ),
+              React.createElement('div', { className: 'results-count' },
+                t('showingResults', filteredPools.length)
+              )
             ),
-            React.createElement('div', { className: 'results-count' },
-              t('showingResults', filteredPools.length)
+            React.createElement('div', { className: 'results-controls' },
+              React.createElement('div', { className: 'view-toggles' },
+                React.createElement('button', { 
+                  className: `view-toggle-btn ${viewMode === 'grid' ? 'active' : ''}`,
+                  onClick: () => setViewMode('grid'),
+                  title: 'Grid View'
+                }, '▦'),
+                React.createElement('button', { 
+                  className: `view-toggle-btn ${viewMode === 'list' ? 'active' : ''}`,
+                  onClick: () => setViewMode('list'),
+                  title: 'List View'
+                }, '☰')
+              ),
+              React.createElement('div', { className: 'sort-control' },
+                React.createElement('span', { className: 'sort-label' }, 'Sort by:'),
+                React.createElement('div', { className: 'view-toggles sort-toggles' },
+                  React.createElement('button', { 
+                    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
+                    onClick: () => setSortBy('apy')
+                  }, 'APY'),
+                  React.createElement('button', { 
+                    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
+                    onClick: () => setSortBy('tvl')
+                  }, 'TVL')
+                )
+              )
             )
           ),
 
-          React.createElement('div', { className: 'pools-grid', key: 'pools' },
+          React.createElement('div', { className: viewMode === 'list' ? 'pools-list' : 'pools-grid', key: 'pools' },
             paginatedPools.map((pool, index) => {
               const protocolUrl = getProtocolUrl(pool);
               const quickPreview = getQuickPreview(pool);
