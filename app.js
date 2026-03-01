@@ -571,7 +571,7 @@ const getFriendlyProtocolName = (protocolName) => {
 
 // Custom hook for typing placeholder animation
 function useTypingPlaceholder(phrases, typingSpeed = 150, deletingSpeed = 75, pauseTime = 2000) {
-  const [text, setText] = useState('');
+  const [text, setText] = useState(() => (phrases && phrases.length > 0) ? phrases[0].replace(/\.\.\.$/, '') : '');
   const [phraseIndex, setPhraseIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [showCursor, setShowCursor] = useState(true);
@@ -586,7 +586,7 @@ function useTypingPlaceholder(phrases, typingSpeed = 150, deletingSpeed = 75, pa
 
   // If phrases change (e.g. language change), reset state
   useEffect(() => {
-    setText('');
+    setText((phrases && phrases.length > 0) ? phrases[0].replace(/\.\.\.$/, '') : '');
     setPhraseIndex(0);
     setIsDeleting(false);
   }, [phrases]);
@@ -706,7 +706,7 @@ function App() {
     "CRV LP on Curve",
     "Kamino lending"
   ], [t]);
-  const animatedPlaceholder = useTypingPlaceholder(searchPhrases, 200, 75, 2000);
+  const animatedPlaceholder = useTypingPlaceholder(searchPhrases, 80, 40, 2000);
 
   const itemsPerPage = 9;
 
