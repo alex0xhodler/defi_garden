@@ -569,6 +569,74 @@ const getFriendlyProtocolName = (protocolName) => {
          protocolName.charAt(0).toUpperCase() + protocolName.slice(1).replace(/-/g, ' ');
 };
 
+// Custom hook for typing placeholder animation
+function useTypingPlaceholder(phrases, typingSpeed = 150, deletingSpeed = 75, pauseTime = 2000) {
+  const [text, setText] = useState(() => (phrases && phrases.length > 0) ? phrases[0].replace(/\.\.\.$/, '') : '');
+  const [phraseIndex, setPhraseIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [showCursor, setShowCursor] = useState(true);
+
+  // Blinking cursor effect
+  useEffect(() => {
+    const cursorInterval = setInterval(() => {
+      setShowCursor((prev) => !prev);
+    }, 530);
+    return () => clearInterval(cursorInterval);
+  }, []);
+
+  // If phrases change (e.g. language change), reset state
+  useEffect(() => {
+    setText((phrases && phrases.length > 0) ? phrases[0].replace(/\.\.\.$/, '') : '');
+    setPhraseIndex(0);
+    setIsDeleting(false);
+  }, [phrases]);
+
+  useEffect(() => {
+    if (!phrases || phrases.length === 0) return;
+    let timeout;
+    const currentIdx = phraseIndex % phrases.length;
+    const currentPhrase = phrases[currentIdx];
+
+    if (isDeleting) {
+      if (text.length > 0) {
+        timeout = setTimeout(() => {
+          setText((prev) => prev.slice(0, -1));
+        }, deletingSpeed);
+      } else {
+        setIsDeleting(false);
+        setPhraseIndex((prev) => (prev + 1) % phrases.length);
+      }
+    } else {
+      if (text.length < currentPhrase.length) {
+        // First phrase '...' should animate slower
+        let isTypingDots = currentIdx === 0 && text.length >= currentPhrase.replace(/\.\.\.$/, '').length;
+        
+        // Normal CPM rate (e.g. 200-300 CPM) involves varying delays per keystroke
+        const baseSpeed = isTypingDots ? 400 : typingSpeed;
+        const randomJitter = Math.random() * (baseSpeed * 0.5);
+        const currentTypingSpeed = baseSpeed + randomJitter - (baseSpeed * 0.25);
+        
+        timeout = setTimeout(() => {
+          setText(currentPhrase.slice(0, text.length + 1));
+        }, currentTypingSpeed);
+        
+        // Force cursor visible while typing for better UX
+        setShowCursor(true);
+      } else {
+        timeout = setTimeout(() => {
+          setIsDeleting(true);
+        }, pauseTime);
+      }
+    }
+
+    return () => clearTimeout(timeout);
+  }, [text, isDeleting, phraseIndex, phrases, typingSpeed, deletingSpeed, pauseTime]);
+
+  // Return a space to keep vertical height uniform when empty, avoiding layout jumps
+  // Append a blinking cursor to enhance the typing effect
+  return text + (showCursor ? '|' : '\u200A');
+}
+
 // Main App Component
 function App() {
   const [pools, setPools] = useState([]);
@@ -631,9 +699,19 @@ function App() {
   });
 
   // Create translation function for current language
-  const t = createTranslationFunction(language);
+  const t = useMemo(() => createTranslationFunction(language), [language]);
 
   const debouncedSearchInput = useDebounce(searchInput, 300);
+
+  const searchPhrases = useMemo(() => [
+    t('searchPlaceholder'),
+    "USDC on Base",
+    "Lending on Plasma",
+    "CRV LP on Curve",
+    "Kamino lending"
+  ], [t]);
+  const animatedPlaceholder = useTypingPlaceholder(searchPhrases, 80, 40, 2000);
+
   const itemsPerPage = 9;
 
   // URL parameter utilities
@@ -2096,7 +2174,7 @@ function App() {
             React.createElement('input', {
               type: 'text',
               className: 'google-search-input',
-              placeholder: selectedToken ? selectedToken : (selectedChain ? selectedChain : t('searchPlaceholder')),
+              placeholder: selectedToken ? selectedToken : (selectedChain ? selectedChain : animatedPlaceholder),
               value: searchInput,
               onChange: handleSearchInputChange,
               onKeyDown: handleKeyDown,
@@ -2232,7 +2310,7 @@ function App() {
           React.createElement('input', {
             type: 'text',
             className: 'search-input',
-            placeholder: t('searchPlaceholder'),
+            placeholder: animatedPlaceholder,
             value: searchInput,
             onChange: handleSearchInputChange,
             onKeyDown: handleKeyDown,
