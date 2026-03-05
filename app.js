@@ -1738,9 +1738,9 @@ function App() {
     }
 
     // Close mobile keyboard by blurring the input
-    const searchInput = document.querySelector('.search-input');
-    if (searchInput) {
-      searchInput.blur();
+    const searchInputEl = document.querySelector('.search-input');
+    if (searchInputEl) {
+      searchInputEl.blur();
     }
 
     // Scroll to results section only on mobile viewports (not desktop)
