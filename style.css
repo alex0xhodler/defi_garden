@@ -4298,7 +4298,28 @@ html {
 
 /* Results animations */
 .results-section.animate-on-mount {
-  animation: fadeInUp var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 3) both;
+  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 2) both;
+}
+
+/* Pool Detail animations */
+.pool-detail-container.animate-on-mount {
+  animation: fadeInDown var(--entry-duration-normal) var(--entry-easing) var(--entry-delay-base) both;
+}
+
+.pool-hero-card.animate-on-mount {
+  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 2) both;
+}
+
+.quick-metrics.animate-on-mount {
+  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 3) both;
+}
+
+.calculator-compact.animate-on-mount {
+  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 4) both;
+}
+
+.pool-info-section.animate-on-mount {
+  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 5) both;
 }
 
 /* Staggered card animations */
@@ -4895,4 +4916,221 @@ html {
   box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px rgba(255, 255, 255, 0.1) !important;
   transform: translateY(2px);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --- P0: UX Animation & Delight Additions --- */
+
+/* 1. Neumorphic "Physical" Button Press */
+.calculate-yield-btn-new:active,
+.search-button:active,
+.google-nav-tab:active,
+.google-filter-btn:active,
+.view-toggle-btn:active,
+.theme-toggle:active,
+.language-toggle:active,
+.filter-pill:active,
+.filter-chip:active {
+  transform: translateY(2px) scale(0.97) !important;
+  box-shadow: var(--shadow-inset, inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.5)) !important;
+  transition: transform 100ms ease, box-shadow 100ms ease !important;
+}
+
+[data-theme="dark"] .calculate-yield-btn-new:active,
+[data-theme="dark"] .search-button:active,
+[data-theme="dark"] .google-nav-tab:active,
+[data-theme="dark"] .google-filter-btn:active,
+[data-theme="dark"] .view-toggle-btn:active,
+[data-theme="dark"] .theme-toggle:active,
+[data-theme="dark"] .language-toggle:active,
+[data-theme="dark"] .filter-pill:active,
+[data-theme="dark"] .filter-chip:active {
+  box-shadow: var(--neuro-shadow-pressed, inset 4px 4px 10px #141317, inset -4px -4px 10px #2E2B31) !important;
+}
+
+/* 2. Smooth Hover Elevation */
+.pool-card:hover,
+.pool-row:hover,
+.calculate-yield-btn-new:hover,
+.search-button:hover:not(:disabled),
+.google-nav-tab:hover:not(.active),
+.google-filter-btn:hover:not(.active),
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  transition: transform 200ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 200ms cubic-bezier(0.25, 1, 0.5, 1) !important;
+}
+
+/* 3. Staggered Entrance Choreography */
+@keyframes smoothFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pool-card.animate-on-mount,
+.pool-card {
+  animation: smoothFadeInUp 400ms cubic-bezier(0.25, 1, 0.5, 1) both !important;
+}
+
+.pool-card:nth-child(1) {
+  animation-delay: 50ms !important;
+}
+
+.pool-card:nth-child(2) {
+  animation-delay: 100ms !important;
+}
+
+.pool-card:nth-child(3) {
+  animation-delay: 150ms !important;
+}
+
+.pool-card:nth-child(4) {
+  animation-delay: 200ms !important;
+}
+
+.pool-card:nth-child(5) {
+  animation-delay: 250ms !important;
+}
+
+.pool-card:nth-child(6) {
+  animation-delay: 300ms !important;
+}
+
+.pool-card:nth-child(7) {
+  animation-delay: 350ms !important;
+}
+
+.pool-card:nth-child(8) {
+  animation-delay: 400ms !important;
+}
+
+.pool-card:nth-child(9) {
+  animation-delay: 450ms !important;
+}
+
+.pool-card:nth-child(10) {
+  animation-delay: 500ms !important;
+}
+
+.pool-card:nth-child(n+11) {
+  animation-delay: 550ms !important;
+}
+
+/* 4. Global State Transitions */
+body,
+.app {
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+.pool-card,
+.google-search-container,
+.google-header-sticky,
+.filter-pills-container,
+.modal-content {
+  transition: transform 200ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 200ms cubic-bezier(0.25, 1, 0.5, 1), background-color 300ms ease, color 300ms ease, border-color 300ms ease;
+}
+
+/* --- P1: UI Polish Additions --- */
+
+/* 5. Engaging Loading States & Skeletons */
+.loading-skeleton-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.pulse-text {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  animation: pulse-op 1.5s infinite alternate;
+  margin-bottom: 30px;
+}
+
+@keyframes pulse-op {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.98);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.skeleton-card {
+  pointer-events: none;
+  background: var(--color-background);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .skeleton-card {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--color-surface) 25%, var(--color-background) 50%, var(--color-surface) 75%);
+  background-size: 200% 100%;
+  animation: skeletonLoading 2s infinite linear;
+  border-radius: 4px;
+}
+
+.skeleton-text {
+  height: 24px;
+  margin-bottom: 12px;
+}
+
+.skeleton-text.small {
+  height: 16px;
+}
+
+@keyframes skeletonLoading {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* 6. Interactive Yield Calculator Glow */
+.amount-input {
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.amount-input:focus {
+  box-shadow: var(--shadow-inset, inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.3)), 0 0 14px rgba(74, 222, 128, 0.3) !important;
+}
+
+[data-theme="dark"] .amount-input:focus {
+  box-shadow: var(--neuro-shadow-pressed, inset 4px 4px 10px #141317, inset -4px -4px 10px #2E2B31), 0 0 14px rgba(74, 222, 128, 0.15) !important;
+}
+
+@keyframes yieldBounce {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  40% {
+    transform: scale(1.08);
+    filter: brightness(1.2) drop-shadow(0 0 8px rgba(74, 222, 128, 0.4));
+  }
+
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+.yield-pulse-active {
+  animation: yieldBounce 300ms cubic-bezier(0.34, 1.56, 0.64, 1) !important;
 }

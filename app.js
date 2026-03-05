@@ -83,27 +83,27 @@ const PROTOCOL_URLS = {
 // Pool type classification function
 const getPoolType = (pool) => {
   if (!pool.project) return 'Yield Farming';
-  
+
   const projectName = pool.project.toLowerCase().replace(/\s+/g, '-');
-  
+
   // Check for lending pool indicators
   if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
     return 'Lending';
   }
-  
+
   // Check against protocol categories
   if (LENDING_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
     return 'Lending';
   }
-  
+
   if (DEX_LP_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
     return 'LP/DEX';
   }
-  
+
   if (STAKING_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
     return 'Staking';
   }
-  
+
   // Default to yield farming for unmatched pools
   return 'Yield Farming';
 };
@@ -137,155 +137,155 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
   if (allTokens && allTokens.length > 0) {
     const exactTokenMatch = allTokens.find(t => t.toLowerCase() === lowerQuery);
     if (exactTokenMatch) {
-        token = exactTokenMatch;
+      token = exactTokenMatch;
     } else {
-        // Split query into words for context analysis
-        const words = lowerQuery.split(/\s+/);
-        
-        // Filter out qualifier words that aren't tokens
-        const qualifierWords = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
-        const filteredWords = words.filter(word => !qualifierWords.includes(word));
-        
-        // Find chain context indicators to exclude words after them
-        const chainIndicators = ['on', 'chain', 'network', 'blockchain'];
-        let tokenCandidateWords = [];
-        let wordsAfterChainIndicators = [];
-        
-        for (let i = 0; i < filteredWords.length; i++) {
-            if (chainIndicators.includes(filteredWords[i])) {
-                // Stop including words after chain indicators
-                tokenCandidateWords = filteredWords.slice(0, i);
-                wordsAfterChainIndicators = filteredWords.slice(i + 1);
-                break;
-            }
+      // Split query into words for context analysis
+      const words = lowerQuery.split(/\s+/);
+
+      // Filter out qualifier words that aren't tokens
+      const qualifierWords = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
+      const filteredWords = words.filter(word => !qualifierWords.includes(word));
+
+      // Find chain context indicators to exclude words after them
+      const chainIndicators = ['on', 'chain', 'network', 'blockchain'];
+      let tokenCandidateWords = [];
+      let wordsAfterChainIndicators = [];
+
+      for (let i = 0; i < filteredWords.length; i++) {
+        if (chainIndicators.includes(filteredWords[i])) {
+          // Stop including words after chain indicators
+          tokenCandidateWords = filteredWords.slice(0, i);
+          wordsAfterChainIndicators = filteredWords.slice(i + 1);
+          break;
         }
-        
-        // If no chain indicators found, use first few filtered words (typically tokens come first)
-        if (tokenCandidateWords.length === 0) {
-            tokenCandidateWords = filteredWords.slice(0, Math.min(3, filteredWords.length));
+      }
+
+      // If no chain indicators found, use first few filtered words (typically tokens come first)
+      if (tokenCandidateWords.length === 0) {
+        tokenCandidateWords = filteredWords.slice(0, Math.min(3, filteredWords.length));
+      }
+
+      const tokenCandidateText = tokenCandidateWords.join(' ');
+
+      // Common trading tokens (prioritize these)
+      const commonTokens = ['USDC', 'USDT', 'DAI', 'ETH', 'WETH', 'BTC', 'WBTC', 'UNI', 'LINK', 'AAVE', 'COMP', 'MKR'];
+
+      // Score tokens based on context and priority
+      const tokenScores = [];
+
+      for (const t of allTokens) {
+        const tokenLower = t.toLowerCase();
+        const escapedToken = tokenLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const wordBoundaryRegex = new RegExp(`\\b${escapedToken}\\b`, 'i');
+
+        // Skip if this token appears after chain indicators (likely it's being used as a chain name)
+        if (wordsAfterChainIndicators.some(word => word.toLowerCase() === tokenLower)) {
+          continue;
         }
-        
-        const tokenCandidateText = tokenCandidateWords.join(' ');
-        
-        // Common trading tokens (prioritize these)
-        const commonTokens = ['USDC', 'USDT', 'DAI', 'ETH', 'WETH', 'BTC', 'WBTC', 'UNI', 'LINK', 'AAVE', 'COMP', 'MKR'];
-        
-        // Score tokens based on context and priority
-        const tokenScores = [];
-        
+
+        if (wordBoundaryRegex.test(tokenCandidateText)) {
+          let score = 0;
+
+          // Position scoring: earlier words get higher scores
+          const tokenPosition = tokenCandidateText.toLowerCase().indexOf(tokenLower);
+          score += Math.max(0, 100 - tokenPosition * 10);
+
+          // Common token bonus
+          if (commonTokens.includes(t)) {
+            score += 50;
+          }
+
+          // Length bonus (prefer longer, more specific tokens)
+          score += t.length * 2;
+
+          tokenScores.push({ token: t, score });
+        }
+      }
+
+      // Sort by score and pick the highest
+      if (tokenScores.length > 0) {
+        tokenScores.sort((a, b) => b.score - a.score);
+        token = tokenScores[0].token;
+      }
+
+      // Fallback: if no matches in candidate text, try token candidate text only (not full query)
+      if (!token && tokenCandidateText) {
         for (const t of allTokens) {
-            const tokenLower = t.toLowerCase();
-            const escapedToken = tokenLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            const wordBoundaryRegex = new RegExp(`\\b${escapedToken}\\b`, 'i');
-            
-            // Skip if this token appears after chain indicators (likely it's being used as a chain name)
-            if (wordsAfterChainIndicators.some(word => word.toLowerCase() === tokenLower)) {
-                continue;
+          const tokenLower = t.toLowerCase();
+
+          // Skip if this token appears after chain indicators (likely it's being used as a chain name)
+          if (wordsAfterChainIndicators.some(word => word.toLowerCase() === tokenLower)) {
+            continue;
+          }
+
+          if (t.length >= 3 && tokenCandidateText.toLowerCase().includes(tokenLower)) {
+            // Double-check this isn't likely a chain name or qualifier word
+            const chainNames = ['base', 'ethereum', 'polygon', 'arbitrum', 'optimism', 'avalanche', 'fantom', 'solana'];
+            const qualifierWordsCheck = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
+            if (!chainNames.includes(tokenLower) && !qualifierWordsCheck.includes(tokenLower)) {
+              token = t;
+              break;
             }
-            
-            if (wordBoundaryRegex.test(tokenCandidateText)) {
-                let score = 0;
-                
-                // Position scoring: earlier words get higher scores
-                const tokenPosition = tokenCandidateText.toLowerCase().indexOf(tokenLower);
-                score += Math.max(0, 100 - tokenPosition * 10);
-                
-                // Common token bonus
-                if (commonTokens.includes(t)) {
-                    score += 50;
-                }
-                
-                // Length bonus (prefer longer, more specific tokens)
-                score += t.length * 2;
-                
-                tokenScores.push({ token: t, score });
-            }
+          }
         }
-        
-        // Sort by score and pick the highest
-        if (tokenScores.length > 0) {
-            tokenScores.sort((a, b) => b.score - a.score);
-            token = tokenScores[0].token;
-        }
-        
-        // Fallback: if no matches in candidate text, try token candidate text only (not full query)
-        if (!token && tokenCandidateText) {
-            for (const t of allTokens) {
-                const tokenLower = t.toLowerCase();
-                
-                // Skip if this token appears after chain indicators (likely it's being used as a chain name)
-                if (wordsAfterChainIndicators.some(word => word.toLowerCase() === tokenLower)) {
-                    continue;
-                }
-                
-                if (t.length >= 3 && tokenCandidateText.toLowerCase().includes(tokenLower)) {
-                    // Double-check this isn't likely a chain name or qualifier word
-                    const chainNames = ['base', 'ethereum', 'polygon', 'arbitrum', 'optimism', 'avalanche', 'fantom', 'solana'];
-                    const qualifierWordsCheck = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
-                    if (!chainNames.includes(tokenLower) && !qualifierWordsCheck.includes(tokenLower)) {
-                        token = t;
-                        break;
-                    }
-                }
-            }
-        }
+      }
     }
   }
 
   // --- Parse Chain ---
   // Mapping for common chain aliases
   const chainAliases = {
-      'eth': 'Ethereum',
-      'ethereum': 'Ethereum',
-      'polygon': 'Polygon',
-      'matic': 'Polygon',
-      'arb': 'Arbitrum',
-      'arbitrum': 'Arbitrum',
-      'op': 'Optimism',
-      'optimism': 'Optimism',
-      'bnb': 'BNB Chain',
-      'bsc': 'BNB Chain',
-      'binance': 'BNB Chain',
-      'avax': 'Avalanche',
-      'avalanche': 'Avalanche',
-      'sol': 'Solana',
-      'solana': 'Solana',
-      'ftm': 'Fantom',
-      'fantom': 'Fantom',
-      'zksync': 'zkSync Era',
-      'base': 'Base',
-      'linea': 'Linea',
-      'celo': 'Celo',
-      'gnosis': 'Gnosis',
-      'moonbeam': 'Moonbeam',
-      'cronos': 'Cronos'
+    'eth': 'Ethereum',
+    'ethereum': 'Ethereum',
+    'polygon': 'Polygon',
+    'matic': 'Polygon',
+    'arb': 'Arbitrum',
+    'arbitrum': 'Arbitrum',
+    'op': 'Optimism',
+    'optimism': 'Optimism',
+    'bnb': 'BNB Chain',
+    'bsc': 'BNB Chain',
+    'binance': 'BNB Chain',
+    'avax': 'Avalanche',
+    'avalanche': 'Avalanche',
+    'sol': 'Solana',
+    'solana': 'Solana',
+    'ftm': 'Fantom',
+    'fantom': 'Fantom',
+    'zksync': 'zkSync Era',
+    'base': 'Base',
+    'linea': 'Linea',
+    'celo': 'Celo',
+    'gnosis': 'Gnosis',
+    'moonbeam': 'Moonbeam',
+    'cronos': 'Cronos'
   };
 
   if (allChains && allChains.length > 0) {
     for (const alias in chainAliases) {
-        if (lowerQuery.includes(alias)) {
-            const matchedChain = chainAliases[alias];
-            if (allChains.includes(matchedChain)) { // Ensure it's a valid, available chain
-                chain = matchedChain;
-                break;
-            }
+      if (lowerQuery.includes(alias)) {
+        const matchedChain = chainAliases[alias];
+        if (allChains.includes(matchedChain)) { // Ensure it's a valid, available chain
+          chain = matchedChain;
+          break;
         }
+      }
     }
   }
 
   // --- Parse Pool Types ---
   if (lowerQuery.includes('lending')) {
-      poolTypes.push('Lending');
+    poolTypes.push('Lending');
   }
   if (lowerQuery.includes('lp') || lowerQuery.includes('dex')) {
-      poolTypes.push('LP/DEX');
+    poolTypes.push('LP/DEX');
   }
   if (lowerQuery.includes('staking') || lowerQuery.includes('stake')) {
-      poolTypes.push('Staking');
+    poolTypes.push('Staking');
   }
   // Only add Yield Farming if it's explicitly mentioned as the main activity, not just descriptive
   if (lowerQuery.includes('farm') || lowerQuery.includes('farming')) {
-      poolTypes.push('Yield Farming');
+    poolTypes.push('Yield Farming');
   }
   // Don't automatically add "Yield Farming" for generic "yield" mentions in queries like "best usdc yields"
 
@@ -294,33 +294,33 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
 
   // --- Parse Protocols ---
   let protocols = [];
-  
+
   // Create dynamic protocol aliases from available protocols list
   const protocolAliases = {};
-  
+
   // If we have available protocols, use them; otherwise fall back to static list
   if (allProtocols && allProtocols.length > 0) {
     // Generate aliases dynamically from available protocols
     allProtocols.forEach(protocol => {
       const friendlyName = protocol.friendlyName || protocol;
       const lowerFriendly = friendlyName.toLowerCase();
-      
+
       // Create variations for each protocol
       const aliases = [lowerFriendly];
-      
+
       // Add common variations
       if (lowerFriendly.includes('v2')) aliases.push(lowerFriendly.replace('v2', 'v-2'));
       if (lowerFriendly.includes('v3')) aliases.push(lowerFriendly.replace('v3', 'v-3'));
       if (lowerFriendly.includes('-')) aliases.push(lowerFriendly.replace(/-/g, ' '));
       if (lowerFriendly.includes(' ')) aliases.push(lowerFriendly.replace(/\s+/g, '-'));
-      
+
       // Add original names if available
       if (protocol.originalNames && Array.isArray(protocol.originalNames)) {
         protocol.originalNames.forEach(name => {
           aliases.push(name.toLowerCase());
         });
       }
-      
+
       protocolAliases[friendlyName] = [...new Set(aliases)]; // Deduplicate
     });
   } else {
@@ -358,24 +358,24 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
 
   // Protocol context keywords that typically precede protocol names
   const protocolKeywords = ['on', 'via', 'using', 'through', 'from', 'with', 'in'];
-  
+
   // Method 1: Look for protocols after context keywords
   const words = lowerQuery.split(/\s+/);
   const qualifierWords = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
   const filteredWords = words.filter(word => !qualifierWords.includes(word));
-  
+
   // Chain names to avoid protocol conflicts
   const chainNames = ['base', 'ethereum', 'polygon', 'arbitrum', 'optimism', 'avalanche', 'fantom', 'solana', 'binance', 'bnb'];
-  
+
   for (let i = 0; i < filteredWords.length - 1; i++) {
     if (protocolKeywords.includes(filteredWords[i])) {
       const protocolCandidate = filteredWords[i + 1];
-      
+
       // Skip if the candidate is likely a chain name
       if (chainNames.includes(protocolCandidate)) {
         continue;
       }
-      
+
       // Find matching protocol
       for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
         if (aliases.some(alias => alias === protocolCandidate || protocolCandidate.includes(alias))) {
@@ -385,28 +385,28 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
       }
     }
   }
-  
+
   // Method 2: Direct protocol name detection (fallback) 
   if (protocols.length === 0) {
     for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
       if (aliases.some(alias => lowerQuery.includes(alias))) {
         // Additional check: avoid matching common words that might be part of other contexts
         const aliasMatch = aliases.find(alias => lowerQuery.includes(alias));
-        
+
         // Skip if the alias is likely a chain name
         if (chainNames.includes(aliasMatch)) {
           continue;
         }
-        
+
         const wordBoundaryRegex = new RegExp(`\\b${aliasMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
-        
+
         if (wordBoundaryRegex.test(lowerQuery)) {
           protocols.push(friendlyName);
         }
       }
     }
   }
-  
+
   // Method 3: Protocol-first detection (e.g., "aave on arbitrum")
   if (protocols.length === 0) {
     const firstFilteredWord = filteredWords[0];
@@ -419,7 +419,7 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
       }
     }
   }
-  
+
   // Deduplicate protocols
   protocols = [...new Set(protocols)];
 
@@ -432,7 +432,7 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
       'curve': 'Ethereum',   // Default to mainnet for Curve
       // Add more as needed
     };
-    
+
     for (const protocol of protocols) {
       if (protocolChainMapping[protocol.toLowerCase()]) {
         chain = protocolChainMapping[protocol.toLowerCase()];
@@ -476,97 +476,97 @@ const getChainColor = (chainName) => {
 // Helper function to get friendly protocol names
 const getFriendlyProtocolName = (protocolName) => {
   if (!protocolName) return protocolName;
-  
+
   const protocolNameMap = {
     // Aave variants
     'aave-v2': 'Aave',
     'aave-v3': 'Aave',
     'aave': 'Aave',
-    
+
     // Compound variants
     'compound-v2': 'Compound',
     'compound-v3': 'Compound',
     'compound': 'Compound',
-    
+
     // Uniswap variants
     'uniswap-v2': 'Uniswap',
     'uniswap-v3': 'Uniswap',
     'uniswap': 'Uniswap',
-    
+
     // Curve variants
     'curve-dex': 'Curve',
     'curve': 'Curve',
-    
+
     // Balancer variants
     'balancer-v2': 'Balancer',
     'balancer': 'Balancer',
-    
+
     // PancakeSwap variants
     'pancakeswap-v2': 'PancakeSwap',
     'pancakeswap-v3': 'PancakeSwap',
     'pancakeswap-amm': 'PancakeSwap',
     'pancakeswap': 'PancakeSwap',
-    
+
     // Aerodrome variants
     'aerodrome-slipstream': 'Aerodrome',
     'aerodrome': 'Aerodrome',
-    
+
     // Morpho variants
     'morpho-blue': 'Morpho',
     'morpho': 'Morpho',
-    
+
     // Lido variants
     'lido': 'Lido',
-    
+
     // Rocket Pool variants
     'rocket-pool': 'Rocket Pool',
     'rocketpool': 'Rocket Pool',
-    
+
     // Ether.fi variants
     'ether.fi-stake': 'Ether.fi',
     'ether.fi': 'Ether.fi',
-    
+
     // Jito variants
     'jito-liquid-staking': 'Jito',
     'jito': 'Jito',
-    
+
     // Yearn variants
     'yearn-finance': 'Yearn',
     'yearn': 'Yearn',
-    
+
     // Convex variants
     'convex-finance': 'Convex',
     'convex': 'Convex',
-    
+
     // GMX variants
     'gmx-v2-perps': 'GMX',
     'gmx': 'GMX',
-    
+
     // Camelot variants
     'camelot-v2': 'Camelot',
     'camelot-v3': 'Camelot',
     'camelot': 'Camelot',
-    
+
     // Venus variants
     'venus-core-pool': 'Venus',
     'venus': 'Venus',
-    
+
     // Pendle variants
     'pendle': 'Pendle',
-    
+
     // Raydium variants
     'raydium': 'Raydium',
-    
+
     // Orca variants
     'orca': 'Orca',
-    
+
     // Marinade variants
     'marinade': 'Marinade'
   };
-  
+
   // Return mapped name or capitalize first letter of original
-  return protocolNameMap[protocolName.toLowerCase()] || 
-         protocolName.charAt(0).toUpperCase() + protocolName.slice(1).replace(/-/g, ' ');
+  return protocolNameMap[protocolName.toLowerCase()] ||
+    protocolName.charAt(0).toUpperCase() + protocolName.slice(1).replace(/-/g, ' ');
 };
 
 // Custom hook for typing placeholder animation
@@ -610,16 +610,16 @@ function useTypingPlaceholder(phrases, typingSpeed = 150, deletingSpeed = 75, pa
       if (text.length < currentPhrase.length) {
         // First phrase '...' should animate slower
         let isTypingDots = currentIdx === 0 && text.length >= currentPhrase.replace(/\.\.\.$/, '').length;
-        
+
         // Normal CPM rate (e.g. 200-300 CPM) involves varying delays per keystroke
         const baseSpeed = isTypingDots ? 400 : typingSpeed;
         const randomJitter = Math.random() * (baseSpeed * 0.5);
         const currentTypingSpeed = baseSpeed + randomJitter - (baseSpeed * 0.25);
-        
+
         timeout = setTimeout(() => {
           setText(currentPhrase.slice(0, text.length + 1));
         }, currentTypingSpeed);
-        
+
         // Force cursor visible while typing for better UX
         setShowCursor(true);
       } else {
@@ -635,6 +635,56 @@ function useTypingPlaceholder(phrases, typingSpeed = 150, deletingSpeed = 75, pa
   // Return a space to keep vertical height uniform when empty, avoiding layout jumps
   // Append a blinking cursor to enhance the typing effect
   return text + (showCursor ? '|' : '\u200A');
+}
+
+// Custom hook / component for Animated Rolling Numbers
+function AnimatedNumber({ value, formatFn = (v) => v, duration = 1200, delay = 0 }) {
+  const [displayValue, setDisplayValue] = useState(value); // Start at target initially to prevent jarring jump if no animation happens
+  const prevValueRef = useRef(0);
+  const isInitialMount = useRef(true);
+
+  useEffect(() => {
+    let startTime = null;
+    let animationFrame;
+
+    const startValue = prevValueRef.current;
+    const endValue = value;
+    const valueDiff = endValue - startValue;
+
+    // If it's pure 0 diff, no need to animate if not initial mount
+    if (valueDiff === 0 && !isInitialMount.current) {
+      return;
+    }
+
+    // Quick delay before starting
+    const timeout = setTimeout(() => {
+      const animate = (currentTime) => {
+        if (!startTime) startTime = currentTime;
+        const progress = Math.min((currentTime - startTime) / duration, 1);
+
+        // easeOutExpo for realistic rolling slowdown
+        const easeProgress = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+
+        setDisplayValue(startValue + valueDiff * easeProgress);
+
+        if (progress < 1) {
+          animationFrame = requestAnimationFrame(animate);
+        } else {
+          prevValueRef.current = endValue; // Save for next animation
+        }
+      };
+      animationFrame = requestAnimationFrame(animate);
+    }, isInitialMount.current ? delay : 0);
+
+    isInitialMount.current = false;
+
+    return () => {
+      clearTimeout(timeout);
+      cancelAnimationFrame(animationFrame);
+    };
+  }, [value, duration, delay]);
+
+  return React.createElement(React.Fragment, null, formatFn(displayValue));
 }
 
 // Main App Component
@@ -682,14 +732,14 @@ function App() {
     if (savedLang && ['en', 'ko'].includes(savedLang)) {
       return savedLang;
     }
-    
+
     // Check URL parameter
     const urlParams = new URLSearchParams(window.location.search);
     const langParam = urlParams.get('lang');
     if (langParam && ['en', 'ko'].includes(langParam)) {
       return langParam;
     }
-    
+
     // Auto-detect browser language
     const browserLang = navigator.language.toLowerCase();
     if (browserLang.startsWith('ko')) {
@@ -738,15 +788,15 @@ function App() {
     if (protocols && protocols.length > 0) params.set('protocols', protocols.join(','));
     if (minTvl > 0) params.set('minTvl', minTvl.toString());
     if (minApy > 0) params.set('minApy', minApy.toString());
-    
+
     // Add language parameter if not English (default)
     if (language !== 'en') {
       params.set('lang', language);
     }
-    
+
     const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
     window.history.pushState({}, '', newUrl);
-    
+
     // Update page title with localized text
     if (chain && chainMode && !token) {
       document.title = t('chainPageTitle', chain);
@@ -762,10 +812,10 @@ function App() {
     const oldLang = language;
     setLanguage(newLang);
     localStorage.setItem('defi-garden-lang', newLang);
-    
+
     // Analytics tracking for language change
     Analytics.trackLanguageChange(oldLang, newLang);
-    
+
     // Update URL with new language
     const url = new URL(window.location);
     if (newLang === 'en') {
@@ -779,7 +829,7 @@ function App() {
   // Initialize state from URL parameters on mount
   useEffect(() => {
     const urlParams = getUrlParams();
-    
+
     // Check for chain-first mode (chain parameter without token)
     if (urlParams.chain && !urlParams.token) {
       setChainMode(true);
@@ -795,16 +845,16 @@ function App() {
       setShowAutocomplete(false);
       document.title = `${urlParams.token.toUpperCase()} Yields | DeFi Garden 🌱`;
     }
-    
+
     if (urlParams.chain) setSelectedChain(urlParams.chain);
     if (urlParams.poolTypes) setSelectedPoolTypes(urlParams.poolTypes);
     if (urlParams.protocols) setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
     if (urlParams.minTvl) setMinTvl(urlParams.minTvl);
     if (urlParams.minApy) setMinApy(urlParams.minApy);
-    
+
     // Mark initial load as complete after a brief delay
     setTimeout(() => setIsInitialLoad(false), 100);
-    
+
     // Trigger entry animations immediately
     setTimeout(() => setAnimationsTriggered(true), 50);
   }, []);
@@ -814,16 +864,16 @@ function App() {
     const handlePopState = () => {
       const params = new URLSearchParams(window.location.search);
       const poolParam = params.get('pool');
-      
+
       // Check if we're navigating away from pool detail view
       if (!poolParam && currentView === 'pool-detail') {
         // Browser back navigation analytics disabled temporarily
         setCurrentView('search');
         setDetailPool(null);
       }
-      
+
       const urlParams = getUrlParams();
-      
+
       // Determine mode based on URL parameters
       if (urlParams.chain && !urlParams.token) {
         // Chain-first mode
@@ -851,7 +901,7 @@ function App() {
         setShowFilters(false);
         document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
       }
-      
+
       setSelectedPoolTypes(urlParams.poolTypes);
       setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
       setMinApy(urlParams.minApy);
@@ -875,7 +925,7 @@ function App() {
         }
         const data = await response.json();
         setPools(data.data || []);
-        
+
         // Track successful data load
         Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
           pools_count: data.data?.length || 0
@@ -900,11 +950,11 @@ function App() {
       const urlParams = getUrlParams();
       if (urlParams.pool) {
         // Find the pool by ID
-        const foundPool = pools.find(pool => 
-          pool.pool === urlParams.pool || 
+        const foundPool = pools.find(pool =>
+          pool.pool === urlParams.pool ||
           `${pool.project}-${pool.symbol}-${pool.chain}` === decodeURIComponent(urlParams.pool)
         );
-        
+
         if (foundPool) {
           setDetailPool(foundPool);
           setCurrentView('pool-detail');
@@ -931,7 +981,7 @@ function App() {
         if (!response.ok) return; // Fail silently, use static fallback
 
         const protocols = await response.json();
-        
+
         // Build URL mapping from protocols data
         const urlMapping = {};
         protocols.forEach(protocol => {
@@ -939,7 +989,7 @@ function App() {
             // Map by name (for matching with pool.project)
             const key = protocol.name.toLowerCase().replace(/\s+/g, '-');
             urlMapping[key] = protocol.url;
-            
+
             // Also map by slug if available
             if (protocol.slug && protocol.slug !== key) {
               urlMapping[protocol.slug] = protocol.url;
@@ -968,7 +1018,7 @@ function App() {
         setActiveDropdown(null);
       }
     };
-    
+
     if (activeDropdown) {
       document.addEventListener('click', handleClickOutside);
       return () => document.removeEventListener('click', handleClickOutside);
@@ -981,14 +1031,14 @@ function App() {
       const scrollLeft = container.scrollLeft;
       const scrollWidth = container.scrollWidth;
       const clientWidth = container.clientWidth;
-      
+
       // Add scrolled class if scrolled past start (show left fade)
       if (scrollLeft > 10) {
         container.classList.add('scrolled');
       } else {
         container.classList.remove('scrolled');
       }
-      
+
       // Add scrolled-end class if scrolled near end (hide right fade)
       if (scrollLeft >= scrollWidth - clientWidth - 10) {
         container.classList.add('scrolled-end');
@@ -1002,11 +1052,11 @@ function App() {
       containers.forEach(container => {
         // Initial scroll position check
         handleScroll(container);
-        
+
         // Add scroll listener for real-time updates
         const scrollHandler = () => handleScroll(container);
         container.addEventListener('scroll', scrollHandler, { passive: true });
-        
+
         // Store handler reference for cleanup
         container._scrollHandler = scrollHandler;
       });
@@ -1035,10 +1085,10 @@ function App() {
   useEffect(() => {
     // Apply theme to document root
     document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
-    
+
     // Save theme preference to localStorage
     localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-    
+
     // Update meta theme-color for mobile browsers
     const themeColorMeta = document.querySelector('meta[name="theme-color"]');
     if (themeColorMeta) {
@@ -1089,9 +1139,9 @@ function App() {
           initial_load: true
         });
       } else {
-        Analytics.trackPageView('/', { 
+        Analytics.trackPageView('/', {
           language,
-          initial_load: true 
+          initial_load: true
         });
       }
     }
@@ -1108,7 +1158,7 @@ function App() {
         selectedPoolTypes,
         selectedProtocols
       };
-      
+
       const filtersActive = Analytics.getFiltersActiveCount(activeFilters);
       if (filtersActive > 1) {
         // Analytics disabled: Analytics.trackFilterCombination(activeFilters, filteredPools.length);
@@ -1119,14 +1169,14 @@ function App() {
   // Listen for system theme changes
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    
+
     const handleChange = (e) => {
       // Only update if user hasn't set a preference
       if (!localStorage.getItem('theme')) {
         setIsDarkMode(e.matches);
       }
     };
-    
+
     mediaQuery.addEventListener('change', handleChange);
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);
@@ -1135,7 +1185,7 @@ function App() {
   useEffect(() => {
     // Apply language to document root
     document.documentElement.lang = language;
-    
+
     // Update page title with localized text
     if (chainMode && selectedChain && !selectedToken) {
       document.title = t('chainPageTitle', selectedChain);
@@ -1144,13 +1194,13 @@ function App() {
     } else {
       document.title = t('pageTitle');
     }
-    
+
     // Update meta description
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
       metaDesc.content = t('metaDescription');
     }
-    
+
     // Add body class for language-specific styling
     document.body.className = document.body.className.replace(/lang-\w+/g, '');
     document.body.classList.add(`lang-${language}`);
@@ -1179,7 +1229,7 @@ function App() {
         });
       }
     });
-    
+
     const tokens = Array.from(tokenSet).sort();
     return tokens;
   }, [pools]);
@@ -1189,36 +1239,36 @@ function App() {
     if (!debouncedSearchInput || debouncedSearchInput.length < 1) {
       return [];
     }
-    
+
     const searchTerm = debouncedSearchInput.toUpperCase();
-    
+
     // Check if this looks like a natural language query
-    const isNaturalLanguage = debouncedSearchInput.split(' ').length > 1 || 
-                               /\b(best|highest|top|yield|yields|lending|staking|farming|opportunities|on|for|eth|btc|usdc|base|arbitrum|polygon|aave|compound|uniswap|curve|morpho|euler|venus)\b/i.test(debouncedSearchInput);
-    
+    const isNaturalLanguage = debouncedSearchInput.split(' ').length > 1 ||
+      /\b(best|highest|top|yield|yields|lending|staking|farming|opportunities|on|for|eth|btc|usdc|base|arbitrum|polygon|aave|compound|uniswap|curve|morpho|euler|venus)\b/i.test(debouncedSearchInput);
+
     if (isNaturalLanguage) {
       // For natural language, try to parse and provide relevant suggestions
       const { token, chain, poolTypes, protocols } = parseNaturalLanguageQuery(debouncedSearchInput, availableTokens, allAvailableChains, availableProtocols?.all || []);
-      
+
       // Return suggestions based on parsed results
       const suggestions = [];
-      
+
       // Build descriptive suggestion showing what was parsed
       let parsedComponents = [];
       if (token) parsedComponents.push(token);
       if (protocols.length > 0) parsedComponents.push(`on ${protocols.join(', ')}`);
       if (chain) parsedComponents.push(`(${chain})`);
       if (poolTypes.length > 0) parsedComponents.push(`[${poolTypes.join(', ')}]`);
-      
+
       if (parsedComponents.length > 0) {
         suggestions.push(parsedComponents.join(' '));
       }
-      
+
       // Add the primary token if detected
       if (token && !suggestions.includes(token)) {
         suggestions.push(token);
       }
-      
+
       // Add related tokens if a token is partially matched but not exactly found
       if (!token && availableTokens && availableTokens.length > 0) {
         availableTokens.forEach(t => {
@@ -1227,20 +1277,20 @@ function App() {
           }
         });
       }
-      
+
       return suggestions.slice(0, 5); // Limit natural language suggestions
     }
-    
+
     // Standard token autocomplete logic
     const exactMatches = [];
     const startsWith = [];
     const contains = [];
-    
+
     // Safety check for availableTokens
     if (!availableTokens || availableTokens.length === 0) {
       return [];
     }
-    
+
     availableTokens.forEach(token => {
       if (token === searchTerm) {
         exactMatches.push(token);
@@ -1250,7 +1300,7 @@ function App() {
         contains.push(token);
       }
     });
-    
+
     // Return prioritized results: exact matches first, then starts with, then contains
     const results = [...exactMatches, ...startsWith, ...contains];
     return results;
@@ -1259,14 +1309,14 @@ function App() {
   // Get all available chains from all pools (for natural language parsing)
   const allAvailableChains = useMemo(() => {
     if (!pools || pools.length === 0) return [];
-    
+
     const chainSet = new Set();
     pools.forEach(pool => {
       if (pool.chain && pool.tvlUsd > 0) {
         chainSet.add(pool.chain);
       }
     });
-    
+
     return Array.from(chainSet).sort();
   }, [pools]);
 
@@ -1283,23 +1333,23 @@ function App() {
           chainTVL[pool.chain] += pool.tvlUsd;
         }
       });
-      
+
       // Sort chains by TVL descending
       return Object.entries(chainTVL)
-        .sort(([,a], [,b]) => b - a)
+        .sort(([, a], [, b]) => b - a)
         .map(([chain]) => chain);
-        
+
     } else if (selectedToken && pools.length > 0) {
       // In token mode, show chains available for the selected token, sorted by TVL
       const chainTVL = {};
-      
+
       pools.forEach(pool => {
         if (!pool.symbol || !pool.chain) return;
-        
+
         // Check if any symbol in the pool matches the selected token
         const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
         const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
-        
+
         if (hasToken && pool.tvlUsd > 0) {
           if (!chainTVL[pool.chain]) {
             chainTVL[pool.chain] = 0;
@@ -1307,10 +1357,10 @@ function App() {
           chainTVL[pool.chain] += pool.tvlUsd;
         }
       });
-      
+
       // Sort chains by TVL descending
       return Object.entries(chainTVL)
-        .sort(([,a], [,b]) => b - a)
+        .sort(([, a], [, b]) => b - a)
         .map(([chain]) => chain);
     }
     return [];
@@ -1320,14 +1370,14 @@ function App() {
   // Get available protocols for selected token or chain (dynamically from current pools)
   const availableProtocols = useMemo(() => {
     if (!pools.length) return { popular: [], all: [] };
-    
+
     const protocolStats = {};
-    
+
     pools.forEach(pool => {
       if (!pool.project || !pool.tvlUsd || pool.tvlUsd <= 0) return;
-      
+
       let includePool = false;
-      
+
       // Chain mode: include pools based on selected chain (including special categories)
       if (chainMode && selectedChain && !selectedToken) {
         if (selectedChain === 'All') {
@@ -1344,7 +1394,7 @@ function App() {
       else if (selectedToken && pool.symbol) {
         const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
         includePool = symbols.some(symbol => symbol === selectedToken.toUpperCase());
-        
+
         // Also check chain filter if both token and chain are selected
         if (includePool && selectedChain) {
           if (selectedChain === 'All') {
@@ -1357,11 +1407,11 @@ function App() {
           }
         }
       }
-      
+
       if (includePool) {
         // Get friendly name and group protocols with same friendly name
         const friendlyName = getFriendlyProtocolName(pool.project);
-        
+
         if (!protocolStats[friendlyName]) {
           protocolStats[friendlyName] = {
             friendlyName: friendlyName,
@@ -1372,12 +1422,12 @@ function App() {
         } else {
           protocolStats[friendlyName].originalNames.add(pool.project);
         }
-        
+
         protocolStats[friendlyName].poolCount++;
         protocolStats[friendlyName].totalTvl += pool.tvlUsd;
       }
     });
-    
+
     // Convert originalNames Set to Array and sort protocols by TVL descending
     const allProtocols = Object.values(protocolStats)
       .map(protocol => ({
@@ -1385,10 +1435,10 @@ function App() {
         originalNames: Array.from(protocol.originalNames)
       }))
       .sort((a, b) => b.totalTvl - a.totalTvl);
-    
+
     // Get top 50 protocols by TVL - comprehensive list including single-chain giants
     const popular = allProtocols.slice(0, 50);
-    
+
     return {
       popular,
       all: allProtocols
@@ -1398,9 +1448,9 @@ function App() {
   // Get pool type counts for selected token or chain (before other filters)
   const poolTypeCounts = useMemo(() => {
     if (!pools.length) return {};
-    
+
     const counts = { 'All': 0, 'Lending': 0, 'LP/DEX': 0, 'Staking': 0, 'Yield Farming': 0 };
-    
+
     pools.forEach(pool => {
       // Chain mode: count all pools on selected chain
       if (chainMode && selectedChain && !selectedToken) {
@@ -1411,12 +1461,12 @@ function App() {
         }
         return;
       }
-      
+
       // Token mode: count pools with selected token
       if (selectedToken && pool.symbol) {
         const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
         const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
-        
+
         if (hasToken && pool.tvlUsd > 0) {
           const poolType = getPoolType(pool);
           counts[poolType]++;
@@ -1424,7 +1474,7 @@ function App() {
         }
       }
     });
-    
+
     return counts;
   }, [selectedToken, selectedChain, chainMode, pools]);
 
@@ -1434,44 +1484,44 @@ function App() {
     if (currentView === 'pool-detail') {
       return;
     }
-    
+
     // Special chain categories: handle "All" and "Popular" as predefined filters
     if (!selectedToken && (selectedChain === 'All' || selectedChain === 'Popular')) {
       // Define popular chains (top 15 by TVL/activity)
       const popularChains = ['Ethereum', 'Arbitrum', 'Polygon', 'Optimism', 'Base', 'BNB Chain', 'Avalanche', 'Solana', 'Fantom', 'Linea', 'Gnosis', 'Celo', 'Moonbeam', 'Cronos', 'zkSync Era'];
-      
+
       let filtered = pools.filter(pool => {
         // Chain filter: either all chains or popular chains only
-        const chainMatch = selectedChain === 'All' || 
+        const chainMatch = selectedChain === 'All' ||
           (selectedChain === 'Popular' && popularChains.includes(pool.chain));
-        
+
         // Filter by pool type if selected
         const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
-        
+
         // Filter by protocol if selected (check against friendly names)
-        const protocolMatch = selectedProtocols.length === 0 || 
+        const protocolMatch = selectedProtocols.length === 0 ||
           selectedProtocols.some(selectedProtocol => {
             // Method 1: Find the protocol object with matching friendly name (case insensitive)
-            const protocolObj = availableProtocols?.all?.find(p => 
+            const protocolObj = availableProtocols?.all?.find(p =>
               p?.friendlyName?.toLowerCase() === selectedProtocol?.toLowerCase()
             );
             if (protocolObj && protocolObj.originalNames.includes(pool.project)) {
               return true;
             }
-            
+
             // Method 2: Direct fallback - check if pool project name contains the selected protocol
             const projectLower = pool.project?.toLowerCase() || '';
             const protocolLower = selectedProtocol?.toLowerCase() || '';
             return projectLower.includes(protocolLower) || projectLower.includes(protocolLower.replace(/\s+/g, '-'));
           });
-        
+
         // Filter by minimum TVL
         const tvlMatch = pool.tvlUsd >= minTvl;
-        
+
         // Filter by minimum APY
         const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
         const apyMatch = totalApy >= minApy;
-        
+
         return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
       });
       // Sort by selected criteria
@@ -1488,12 +1538,12 @@ function App() {
       setCurrentPage(1);
       return;
     }
-    
+
     // Chain-first mode: filter by chain only (including special categories)
     if (chainMode && selectedChain && !selectedToken) {
       // Define popular chains (same as above for consistency)
       const popularChains = ['Ethereum', 'Arbitrum', 'Polygon', 'Optimism', 'Base', 'BNB Chain', 'Avalanche', 'Solana', 'Fantom', 'Linea', 'Gnosis', 'Celo', 'Moonbeam', 'Cronos', 'zkSync Era'];
-      
+
       let filtered = pools.filter(pool => {
         // Filter by selected chain (handle special categories)
         let chainMatch;
@@ -1504,34 +1554,34 @@ function App() {
         } else {
           chainMatch = pool.chain === selectedChain; // Regular chain match
         }
-        
+
         // Filter by pool type if selected
         const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
-        
+
         // Filter by protocol if selected (check against friendly names)
-        const protocolMatch = selectedProtocols.length === 0 || 
+        const protocolMatch = selectedProtocols.length === 0 ||
           selectedProtocols.some(selectedProtocol => {
             // Method 1: Find the protocol object with matching friendly name (case insensitive)
-            const protocolObj = availableProtocols?.all?.find(p => 
+            const protocolObj = availableProtocols?.all?.find(p =>
               p?.friendlyName?.toLowerCase() === selectedProtocol?.toLowerCase()
             );
             if (protocolObj && protocolObj.originalNames.includes(pool.project)) {
               return true;
             }
-            
+
             // Method 2: Direct fallback - check if pool project name contains the selected protocol
             const projectLower = pool.project?.toLowerCase() || '';
             const protocolLower = selectedProtocol?.toLowerCase() || '';
             return projectLower.includes(protocolLower) || projectLower.includes(protocolLower.replace(/\s+/g, '-'));
           });
-        
+
         // Filter by minimum TVL
         const tvlMatch = pool.tvlUsd >= minTvl;
-        
+
         // Filter by minimum APY
         const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
         const apyMatch = totalApy >= minApy;
-        
+
         return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
       });
 
@@ -1559,41 +1609,41 @@ function App() {
 
     let filtered = pools.filter(pool => {
       if (!pool.symbol) return false;
-      
+
       // Check if any symbol in the pool matches the selected token
       const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
       const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
-      
+
       // Filter by chain if selected
       const chainMatch = !selectedChain || pool.chain === selectedChain;
-      
+
       // Filter by pool type if selected
       const poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
-      
+
       // Filter by protocol if selected (check against friendly names)
-      const protocolMatch = selectedProtocols.length === 0 || 
+      const protocolMatch = selectedProtocols.length === 0 ||
         selectedProtocols.some(selectedProtocol => {
           // Method 1: Find the protocol object with matching friendly name (case insensitive)
-          const protocolObj = availableProtocols?.all?.find(p => 
+          const protocolObj = availableProtocols?.all?.find(p =>
             p?.friendlyName?.toLowerCase() === selectedProtocol?.toLowerCase()
           );
           if (protocolObj && protocolObj.originalNames.includes(pool.project)) {
             return true;
           }
-          
+
           // Method 2: Direct fallback - check if pool project name contains the selected protocol
           const projectLower = pool.project?.toLowerCase() || '';
           const protocolLower = selectedProtocol?.toLowerCase() || '';
           return projectLower.includes(protocolLower) || projectLower.includes(protocolLower.replace(/\s+/g, '-'));
         });
-      
+
       // Filter by minimum TVL
       const tvlMatch = pool.tvlUsd >= minTvl;
-      
+
       // Filter by minimum APY
       const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
       const apyMatch = totalApy >= minApy;
-      
+
       return hasToken && chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
     });
 
@@ -1633,7 +1683,7 @@ function App() {
     setShowFilters(true);
     setMinTvl(100000); // Default to $100k TVL for chain mode
     setShowAutocomplete(false);
-    
+
     // Analytics tracking for chain selection
     const isFeelingDegen = chainName === 'Popular' && !selectedToken && minTvl >= 1000000;
     if (isFeelingDegen) {
@@ -1644,18 +1694,18 @@ function App() {
       input_method: isFeelingDegen ? 'feeling_degen_button' : 'chain_selection',
       language
     });
-    
+
     // Update URL for chain-first mode
     updateUrl('', chainName, selectedPoolTypes, selectedProtocols, 100000, minApy);
-    
+
     // Scroll to results on mobile
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
     if (isMobile) {
       setTimeout(() => {
         const resultsSection = document.querySelector('.results-section');
         if (resultsSection) {
-          resultsSection.scrollIntoView({ 
-            behavior: 'smooth', 
+          resultsSection.scrollIntoView({
+            behavior: 'smooth',
             block: 'start',
             inline: 'nearest'
           });
@@ -1668,46 +1718,46 @@ function App() {
   // Handle token selection
   const handleTokenSelect = (token) => {
     setChainMode(false); // Switch to token-first mode
-    
+
     // Simple search tracking - capture the full search input at search completion
     Analytics.trackSearch(searchInput || token, {
       selected_token: token,
       input_method: showAutocomplete ? 'autocomplete' : 'direct_input',
       language
     });
-    
+
     setSelectedToken(token);
     setSearchInput(token);
     setShowAutocomplete(false);
     setShowFilters(true); // Show filters after token selection
     setHighlightedIndex(-1);
-    
+
     // Reset TVL to default for token mode
     if (minTvl === 100000) {
       setMinTvl(0);
     }
-    
+
     // Close mobile keyboard by blurring the input
     const searchInput = document.querySelector('.search-input');
     if (searchInput) {
       searchInput.blur();
     }
-    
+
     // Scroll to results section only on mobile viewports (not desktop)
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
     if (isMobile) {
       setTimeout(() => {
         const resultsSection = document.querySelector('.results-section');
         if (resultsSection) {
-          resultsSection.scrollIntoView({ 
-            behavior: 'smooth', 
+          resultsSection.scrollIntoView({
+            behavior: 'smooth',
             block: 'start',
             inline: 'nearest'
           });
         }
       }, 100);
     }
-    
+
     // URL will be updated by the useEffect
   };
 
@@ -1715,12 +1765,12 @@ function App() {
   const handleSearchInputChange = (e) => {
     const value = e.target.value;
     const previousValue = searchInput;
-    
+
     // Search abandonment analytics disabled temporarily
     // TODO: Re-enable with proper safety checks
-    
+
     setSearchInput(value);
-    
+
     // Clear selected token if input doesn't match
     if (value !== selectedToken) {
       setSelectedToken('');
@@ -1730,7 +1780,7 @@ function App() {
       setSelectedProtocols([]);
       setShowFilters(false);
     }
-    
+
     // Show autocomplete if there's input
     setShowAutocomplete(value.length > 0);
     setHighlightedIndex(-1);
@@ -1782,11 +1832,11 @@ function App() {
           } else {
             setChainMode(false);
           }
-          
+
           setShowFilters(true); // Always show filters after a search
           setShowAutocomplete(false);
           setHighlightedIndex(-1);
-          
+
           // Update URL immediately after parsing and setting state
           // The useEffect that listens to state changes will then push the URL
         }
@@ -1795,7 +1845,7 @@ function App() {
       switch (e.key) {
         case 'ArrowDown':
           e.preventDefault();
-          setHighlightedIndex(prev => 
+          setHighlightedIndex(prev =>
             prev < autocompleteTokens.length - 1 ? prev + 1 : prev
           );
           break;
@@ -1823,7 +1873,7 @@ function App() {
       selectedProtocols
     };
     // Analytics disabled: Analytics.trackFiltersReset(previousFilters, filteredPools.length);
-    
+
     setSelectedToken('');
     setSearchInput('');
     setSelectedChain('');
@@ -1840,7 +1890,7 @@ function App() {
     setChainMode(false);
     setCurrentView('search');
     setDetailPool(null);
-    
+
     // Clear URL parameters and reset title
     window.history.pushState({}, '', window.location.pathname);
     document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
@@ -1871,23 +1921,23 @@ function App() {
     if (pool.url && pool.url.startsWith('http')) {
       return pool.url;
     }
-    
+
     // Enhanced URL resolution with dynamic data
     if (!pool.project) return null;
     const key = pool.project.toLowerCase().replace(/\s+/g, '-');
-    
+
     // Try dynamic protocol URLs first, then fallback to static
-    return dynamicProtocolUrls[key] || 
-           dynamicProtocolUrls[pool.project] || 
-           PROTOCOL_URLS[key] || 
-           null;
+    return dynamicProtocolUrls[key] ||
+      dynamicProtocolUrls[pool.project] ||
+      PROTOCOL_URLS[key] ||
+      null;
   };
 
   // Add referral parameter to protocol URL
   const getProtocolUrlWithRef = (pool) => {
     const baseUrl = getProtocolUrl(pool);
     if (!baseUrl) return null;
-    
+
     try {
       const url = new URL(baseUrl);
       url.searchParams.set('ref', 'defi.garden');
@@ -1910,7 +1960,7 @@ function App() {
   const handlePoolClick = (pool, e, position = -1) => {
     e.preventDefault();
     e.stopPropagation();
-    
+
     // Simple pool view tracking
     Analytics.trackPoolView(pool, {
       position: position,
@@ -1918,23 +1968,23 @@ function App() {
       selected_chain: selectedChain,
       selected_token: selectedToken
     });
-    
+
     // Set the pool for detail view
     setDetailPool(pool);
     setCurrentView('pool-detail');
     // Scroll to top when navigating to pool details
     window.scrollTo(0, 0);
-    
+
     // Update URL to include pool identifier
     const poolId = encodeURIComponent(pool.pool || `${pool.project}-${pool.symbol}-${pool.chain}`);
     const params = new URLSearchParams(window.location.search);
     params.set('pool', poolId);
     const newUrl = `${window.location.pathname}?${params.toString()}`;
     window.history.pushState({}, '', newUrl);
-    
+
     // Update page title
     document.title = `${pool.symbol} on ${pool.project} | DeFi Garden 🌱`;
-    
+
     // Scroll to top
     window.scrollTo(0, 0);
   };
@@ -1943,17 +1993,17 @@ function App() {
   const handleBackFromDetail = () => {
     // Analytics tracking for navigation
     // Analytics disabled: Analytics.trackNavigation('pool-detail', 'search', 'back_button');
-    
+
     // Remove pool parameter from URL first
     const params = new URLSearchParams(window.location.search);
     params.delete('pool');
     const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
     window.history.pushState({}, '', newUrl);
-    
+
     // Then update the state - React will batch these
     setCurrentView('search');
     setDetailPool(null);
-    
+
     // Restore previous title and scroll position
     setTimeout(() => {
       if (chainMode && selectedChain && !selectedToken) {
@@ -1963,7 +2013,7 @@ function App() {
       } else {
         document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
       }
-      
+
       // Ensure we scroll back to the top of search results
       window.scrollTo(0, 0);
     }, 0);
@@ -1973,10 +2023,10 @@ function App() {
   const handleCalculateYield = (pool, e) => {
     e.preventDefault();
     e.stopPropagation();
-    
+
     // Analytics tracking for yield calculation
     Analytics.trackPoolClick(pool, 'yield_calculator');
-    
+
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
     setCurrentView('pool-detail');
@@ -1987,10 +2037,10 @@ function App() {
   // Handle pool type selection (multi-select)
   const handlePoolTypeToggle = (poolType) => {
     setSelectedPoolTypes(prev => {
-      const newTypes = prev.includes(poolType) 
+      const newTypes = prev.includes(poolType)
         ? prev.filter(type => type !== poolType)
         : [...prev, poolType];
-      
+
       // Analytics tracking for pool type filter
       const fullFilterState = {
         selectedChain,
@@ -2002,7 +2052,7 @@ function App() {
         previousResultsCount: filteredPools.length
       };
       // Analytics disabled: Analytics.trackFilterChange('pool_type', poolType, filteredPools.length, fullFilterState);
-      
+
       return newTypes;
     });
   };
@@ -2013,7 +2063,7 @@ function App() {
       const newProtocols = prev.includes(protocolFriendlyName)
         ? prev.filter(p => p !== protocolFriendlyName)
         : [...prev, protocolFriendlyName];
-      
+
       // Analytics tracking for protocol filter
       const fullFilterState = {
         selectedChain,
@@ -2025,7 +2075,7 @@ function App() {
         previousResultsCount: filteredPools.length
       };
       // Analytics disabled: Analytics.trackFilterChange('protocol', protocolFriendlyName, filteredPools.length, fullFilterState);
-      
+
       return newProtocols;
     });
   };
@@ -2072,7 +2122,7 @@ function App() {
   const calculateYields = (amount, apyPercent) => {
     const dailyRate = apyPercent / 365 / 100;
     const weeklyRate = apyPercent / 52.14 / 100; // More accurate weekly calculation
-    
+
     return {
       oneDayGain: amount * dailyRate,
       oneWeekGain: amount * weeklyRate,
@@ -2123,7 +2173,7 @@ function App() {
         onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
         'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
       }, language === 'en' ? 'KO' : 'EN'),
-      
+
       React.createElement('div', { className: 'container' },
         React.createElement(PoolDetail, {
           pool: detailPool,
@@ -2135,10 +2185,11 @@ function App() {
           getProtocolUrl: getProtocolUrl,
           getProtocolUrlWithRef: getProtocolUrlWithRef,
           isDarkMode: isDarkMode,
-          t: t
+          t: t,
+          AnimatedNumber: AnimatedNumber
         })
       ),
-      
+
       // Footer
       React.createElement('footer', { className: 'app-footer' },
         React.createElement('p', null,
@@ -2154,20 +2205,20 @@ function App() {
     );
   }
 
-  return React.createElement('div', { 
-    className: `app ${(selectedToken || (chainMode && selectedChain)) ? 'has-results' : ''}` 
+  return React.createElement('div', {
+    className: `app ${(selectedToken || (chainMode && selectedChain)) ? 'has-results' : ''}`
   },
     // Google-style sticky header - ONLY show when we have results
-    (selectedToken || (chainMode && selectedChain)) && React.createElement('div', { 
+    (selectedToken || (chainMode && selectedChain)) && React.createElement('div', {
       className: 'google-header-sticky'
     },
       React.createElement('div', { className: 'google-header-content' },
         // Logo (compact, clickable)
-        React.createElement('div', { 
+        React.createElement('div', {
           className: 'google-logo',
           onClick: resetApp
         }, '🌱 DeFi Garden'),
-        
+
         // Persistent search bar
         React.createElement('div', { className: 'google-search-container' },
           React.createElement('div', { className: 'google-search-bar' },
@@ -2191,7 +2242,7 @@ function App() {
             }, '🔍')
           )
         ),
-        
+
         // Controls (theme, language) 
         React.createElement('div', { className: 'google-header-controls' },
           React.createElement('button', {
@@ -2206,7 +2257,7 @@ function App() {
           }, isDarkMode ? '☀️' : '🌙')
         )
       ),
-      
+
       // Google-style navigation tabs - part of the header
       React.createElement('div', { className: 'google-nav-row' },
         React.createElement('div', { className: 'google-nav-tabs' },
@@ -2226,20 +2277,20 @@ function App() {
             className: `google-nav-tab ${selectedPoolTypes.includes('LP/DEX') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
             onClick: () => setSelectedPoolTypes(['LP/DEX'])
           }, 'LP/DEX'),
-          
+
           // Quick filter buttons 
           React.createElement('button', {
             className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
             onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),
             id: 'chains-btn'
           }, selectedChain || 'Chains'),
-          
+
           React.createElement('button', {
             className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
             onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
             id: 'tvl-btn'
-          }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl/1000000) + 'M+' : (minTvl/1000) + 'K+'}` : 'TVL'),
-          
+          }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000) + 'M+' : (minTvl / 1000) + 'K+'}` : 'TVL'),
+
           React.createElement('button', {
             className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
             onClick: () => setActiveDropdown(activeDropdown === 'protocols' ? null : 'protocols'),
@@ -2252,7 +2303,7 @@ function App() {
             id: 'apy-btn'
           }, minApy > 0 ? `${minApy}%+` : 'APY')
         ),
-        
+
         // Results count only
         React.createElement('div', { className: 'google-tools-section' },
           React.createElement('span', { className: 'google-results-count' },
@@ -2282,22 +2333,22 @@ function App() {
 
     // Language Toggle
     React.createElement('button', {
-      className: 'language-toggle', 
+      className: 'language-toggle',
       onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
       'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
     }, language === 'en' ? 'KO' : 'EN'),
 
     React.createElement('div', { className: 'container' },
       // Header - only show when no results
-      !(selectedToken || (chainMode && selectedChain)) && React.createElement('div', { 
+      !(selectedToken || (chainMode && selectedChain)) && React.createElement('div', {
         className: `header animate-on-mount`
       },
-        
-        React.createElement('h1', { 
-          className: 'logo', 
+
+        React.createElement('h1', {
+          className: 'logo',
           onClick: resetApp
         }, 'DeFi Garden'),
-        React.createElement('p', { className: 'subtitle' }, 
+        React.createElement('p', { className: 'subtitle' },
           'Find the best yields for your tokens across all chains'
         )
       ),
@@ -2318,21 +2369,21 @@ function App() {
             onBlur: handleInputBlur,
             autoFocus: true
           }),
-          
+
           // Autocomplete Dropdown
-          showAutocomplete && autocompleteTokens.length > 0 && 
-            React.createElement('div', { className: 'autocomplete-dropdown' },
-              autocompleteTokens.map((token, index) => 
-                React.createElement('div', {
-                  key: token,
-                  className: `autocomplete-item ${index === highlightedIndex ? 'highlighted' : ''}`,
-                  onMouseDown: (e) => {
-                    e.preventDefault(); // Prevent input blur
-                    handleTokenSelect(token);
-                  }
-                }, token)
-              )
-            ),
+          showAutocomplete && autocompleteTokens.length > 0 &&
+          React.createElement('div', { className: 'autocomplete-dropdown' },
+            autocompleteTokens.map((token, index) =>
+              React.createElement('div', {
+                key: token,
+                className: `autocomplete-item ${index === highlightedIndex ? 'highlighted' : ''}`,
+                onMouseDown: (e) => {
+                  e.preventDefault(); // Prevent input blur
+                  handleTokenSelect(token);
+                }
+              }, token)
+            )
+          ),
 
           // Two-Button Interface - show when no token is selected and not in chain mode
           !selectedToken && !chainMode && React.createElement('div', { className: 'search-buttons' },
@@ -2344,7 +2395,7 @@ function App() {
                 }
               },
               disabled: searchInput.length === 0
-            }, 
+            },
               React.createElement('span', { className: 'button-icon' }, '🔍'),
               React.createElement('span', { className: 'button-text' }, t('tokenSearch'))
             ),
@@ -2357,7 +2408,7 @@ function App() {
                 setShowFilters(true);
                 setMinTvl(1000000); // $1M TVL for degen mode
                 setShowAutocomplete(false);
-                
+
                 // Analytics tracking for feeling degen
                 Analytics.trackFeelingDegen();
                 Analytics.trackSearch('', {
@@ -2365,18 +2416,18 @@ function App() {
                   input_method: 'feeling_degen_button',
                   language
                 });
-                
+
                 // Update URL for degen mode
                 updateUrl('', 'Popular', selectedPoolTypes, selectedProtocols, 1000000, minApy);
-                
+
                 // Scroll to results on mobile
                 const isMobile = window.matchMedia('(max-width: 768px)').matches;
                 if (isMobile) {
                   setTimeout(() => {
                     const resultsSection = document.querySelector('.results-section');
                     if (resultsSection) {
-                      resultsSection.scrollIntoView({ 
-                        behavior: 'smooth', 
+                      resultsSection.scrollIntoView({
+                        behavior: 'smooth',
                         block: 'start',
                         inline: 'nearest'
                       });
@@ -2414,12 +2465,12 @@ function App() {
             ),
             React.createElement('div', { className: 'results-controls' },
               React.createElement('div', { className: 'view-toggles' },
-                React.createElement('button', { 
+                React.createElement('button', {
                   className: `view-toggle-btn ${viewMode === 'grid' ? 'active' : ''}`,
                   onClick: () => setViewMode('grid'),
                   title: 'Grid View'
                 }, '▦'),
-                React.createElement('button', { 
+                React.createElement('button', {
                   className: `view-toggle-btn ${viewMode === 'list' ? 'active' : ''}`,
                   onClick: () => setViewMode('list'),
                   title: 'List View'
@@ -2428,11 +2479,11 @@ function App() {
               React.createElement('div', { className: 'sort-control' },
                 React.createElement('span', { className: 'sort-label' }, 'Sort by:'),
                 React.createElement('div', { className: 'view-toggles sort-toggles' },
-                  React.createElement('button', { 
+                  React.createElement('button', {
                     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
                     onClick: () => setSortBy('apy')
                   }, 'APY'),
-                  React.createElement('button', { 
+                  React.createElement('button', {
                     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
                     onClick: () => setSortBy('tvl')
                   }, 'TVL')
@@ -2462,22 +2513,34 @@ function App() {
                   ),
                   React.createElement('div', { className: 'pool-apy-section' },
                     React.createElement('div', { className: 'pool-apy-hero' },
-                      formatAPY(pool.apyBase, pool.apyReward)
+                      React.createElement(AnimatedNumber, {
+                        value: (pool.apyBase || 0) + (pool.apyReward || 0),
+                        formatFn: (v) => `${v.toFixed(2)}%`,
+                        delay: 100 + index * 50
+                      })
                     ),
                     React.createElement('div', { className: 'pool-apy-preview' },
-                      `$${quickPreview.dailyEarnings.toFixed(2)}/day`
+                      React.createElement(AnimatedNumber, {
+                        value: quickPreview.dailyEarnings,
+                        formatFn: (v) => `$${v.toFixed(2)}/day`,
+                        delay: 150 + index * 50
+                      })
                     )
                   )
                 ),
-                
+
                 // TVL prominent display 
                 React.createElement('div', { className: 'pool-tvl-section' },
                   React.createElement('div', { className: 'tvl-label' }, t('tvl')),
                   React.createElement('div', { className: 'tvl-value' },
-                    formatCurrency(pool.tvlUsd)
+                    React.createElement(AnimatedNumber, {
+                      value: pool.tvlUsd,
+                      formatFn: (v) => formatCurrency(v),
+                      delay: 200 + index * 50
+                    })
                   )
                 ),
-                
+
                 // Progressive disclosure for APY breakdown (only show when BOTH Base and Reward APY exist)
                 (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', { className: 'pool-details-expanded' },
                   pool.apyBase > 0 && React.createElement('div', { className: 'apy-breakdown' },
@@ -2489,7 +2552,7 @@ function App() {
                     React.createElement('span', { className: 'breakdown-value' }, `${pool.apyReward.toFixed(2)}%`)
                   )
                 ),
-                
+
                 // Primary CTA - Calculate Yield (full width, prominent)
                 React.createElement('div', { className: 'pool-cta-section' },
                   React.createElement('button', {
@@ -2508,11 +2571,11 @@ function App() {
               onClick: () => setCurrentPage(prev => Math.max(1, prev - 1)),
               disabled: currentPage === 1
             }, 'Previous'),
-            
+
             React.createElement('div', { className: 'pagination-info' },
               `Page ${currentPage} of ${totalPages}`
             ),
-            
+
             React.createElement('button', {
               className: 'pagination-button',
               onClick: () => setCurrentPage(prev => Math.min(totalPages, prev + 1)),
@@ -2520,7 +2583,7 @@ function App() {
             }, 'Next')
           )
         ] : React.createElement('div', { className: 'empty-state' },
-          React.createElement('div', { className: 'empty-message' }, 
+          React.createElement('div', { className: 'empty-message' },
             chainMode && selectedChain && !selectedToken
               ? t('noYieldsFoundChain', selectedChain)
               : t('noYieldsFound', selectedToken)
@@ -2538,7 +2601,7 @@ function App() {
       ),
 
       // Yield Calculator Modal
-      showYieldCalculator && selectedPool && React.createElement('div', { 
+      showYieldCalculator && selectedPool && React.createElement('div', {
         className: 'modal-overlay',
         onClick: (e) => {
           if (e.target === e.currentTarget) {
@@ -2567,7 +2630,7 @@ function App() {
               ),
               React.createElement('div', { className: 'pool-info-item' },
                 React.createElement('span', { className: 'label' }, 'APY:'),
-                React.createElement('span', { className: 'value apy' }, 
+                React.createElement('span', { className: 'value apy' },
                   formatAPY(selectedPool.apyBase, selectedPool.apyReward)
                 )
               ),
@@ -2592,17 +2655,17 @@ function App() {
             (() => {
               const totalApy = (selectedPool.apyBase || 0) + (selectedPool.apyReward || 0);
               const yields = calculateYields(investmentAmount, totalApy);
-              
+
               return React.createElement('div', { className: 'yield-results' },
                 React.createElement('div', { className: 'yield-result-item' },
                   React.createElement('div', { className: 'yield-period' }, '1 Day Yield'),
-                  React.createElement('div', { className: 'yield-amount' }, 
+                  React.createElement('div', { className: 'yield-amount' },
                     `$${yields.oneDayGain.toFixed(2)}`
                   )
                 ),
                 React.createElement('div', { className: 'yield-result-item' },
                   React.createElement('div', { className: 'yield-period' }, '1 Week Yield'),
-                  React.createElement('div', { className: 'yield-amount' }, 
+                  React.createElement('div', { className: 'yield-amount' },
                     `$${yields.oneWeekGain.toFixed(2)}`
                   )
                 ),
@@ -2616,7 +2679,7 @@ function App() {
             (() => {
               const protocolUrl = getProtocolUrlWithRef(selectedPool);
               if (!protocolUrl) return null;
-              
+
               return React.createElement('div', { className: 'start-earning-section' },
                 React.createElement('button', {
                   className: 'start-earning-btn',
@@ -2643,7 +2706,7 @@ function App() {
       ),
 
       // Global dropdowns - rendered at top level to avoid any container overflow issues
-      activeDropdown === 'chains' && availableChains.length > 1 && React.createElement('div', { 
+      activeDropdown === 'chains' && availableChains.length > 1 && React.createElement('div', {
         className: 'global-filter-dropdown chains-dropdown',
         style: {
           position: 'fixed',
@@ -2660,10 +2723,10 @@ function App() {
               setChainMode(true); // Enable chain mode for All category
               setActiveDropdown(null);
               setShowFilters(true);
-              
+
               // Set reasonable default filters for All chains
               if (minTvl === 0) setMinTvl(10000); // $10k default TVL for all chains
-              
+
               // Update URL
               updateUrl('', 'All', selectedPoolTypes, selectedProtocols, minTvl || 10000, minApy);
             }
@@ -2675,15 +2738,15 @@ function App() {
               setChainMode(true); // Enable chain mode for Popular category  
               setActiveDropdown(null);
               setShowFilters(true);
-              
+
               // Set reasonable default filters for Popular chains
               if (minTvl === 0) setMinTvl(50000); // $50k default TVL for popular chains
-              
+
               // Update URL
               updateUrl('', 'Popular', selectedPoolTypes, selectedProtocols, minTvl || 50000, minApy);
             }
           }, 'Popular'),
-          availableChains.map(chain => 
+          availableChains.map(chain =>
             React.createElement('button', {
               key: chain,
               className: `filter-pill chain-pill ${selectedChain === chain ? 'active' : ''}`,
@@ -2700,7 +2763,7 @@ function App() {
       ),
 
       // Protocols dropdown
-      activeDropdown === 'protocols' && availableProtocols.all.length > 0 && React.createElement('div', { 
+      activeDropdown === 'protocols' && availableProtocols.all.length > 0 && React.createElement('div', {
         className: 'global-filter-dropdown protocols-dropdown',
         style: {
           position: 'fixed',
@@ -2718,16 +2781,15 @@ function App() {
             }
           }, 'All Protocols'),
           availableProtocols.popular.length > 0 && React.createElement('button', {
-            className: `filter-pill protocol-pill popular ${
-              availableProtocols.popular.every(p => selectedProtocols.includes(p.friendlyName)) &&
+            className: `filter-pill protocol-pill popular ${availableProtocols.popular.every(p => selectedProtocols.includes(p.friendlyName)) &&
               selectedProtocols.length === availableProtocols.popular.length ? 'active' : ''
-            }`,
+              }`,
             onClick: () => {
               handlePopularProtocols();
               setActiveDropdown(null);
             }
           }, 'Popular'),
-          availableProtocols.all.slice(0, 50).map(protocol => 
+          availableProtocols.all.slice(0, 50).map(protocol =>
             React.createElement('button', {
               key: protocol.friendlyName,
               className: `filter-pill protocol-pill ${selectedProtocols.includes(protocol.friendlyName) ? 'active' : ''}`,
@@ -2741,7 +2803,7 @@ function App() {
       ),
 
       // TVL dropdown
-      activeDropdown === 'tvl' && React.createElement('div', { 
+      activeDropdown === 'tvl' && React.createElement('div', {
         className: 'global-filter-dropdown tvl-dropdown',
         style: {
           position: 'fixed',
@@ -2771,7 +2833,7 @@ function App() {
       ),
 
       // APY dropdown
-      activeDropdown === 'apy' && React.createElement('div', { 
+      activeDropdown === 'apy' && React.createElement('div', {
         className: 'global-filter-dropdown apy-dropdown',
         style: {
           position: 'fixed',
