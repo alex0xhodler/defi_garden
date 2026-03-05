@@ -5,7 +5,7 @@ const Analytics = {
   pageLoadTime: Date.now(),
   lastEventTime: Date.now(),
   viewStartTime: Date.now(),
-  
+
   // Initialize session
   init() {
     this.sessionId = this.generateSessionId();
@@ -49,10 +49,10 @@ const Analytics = {
         ...this.getBaseContext(),
         ...eventData
       };
-      
+
       // Update last event time
       this.lastEventTime = Date.now();
-      
+
       umami.track(eventName, enrichedData);
     }
   },
@@ -64,17 +64,17 @@ const Analytics = {
       view_duration_previous: Date.now() - this.viewStartTime,
       ...properties
     });
-    
+
     // Reset view timer
     this.viewStartTime = Date.now();
   },
 
   // Search Analytics - Enhanced
-  
+
   // Track when users type in search (debounced)
   trackSearchInput(query, resultsCount, context = {}) {
     const searchType = this.classifySearchType(query);
-    
+
     this.track('search_input', {
       query_text: query.toLowerCase(),
       query_length: query.length,
@@ -119,6 +119,24 @@ const Analytics = {
     }
   },
 
+  // General search tracking (called from handleTokenSelect and handleChainSelect)
+  trackSearch(query, context = {}) {
+    const selectedResult = context.selected_token || context.selected_chain || '';
+    this.trackSearchSuccess(query || '', selectedResult, 0, {
+      ...context,
+      chainMode: !!context.selected_chain && !context.selected_token
+    });
+  },
+
+  // Track "I'm Feeling Degen" button clicks
+  trackFeelingDegen(context = {}) {
+    this.track('feeling_degen', {
+      min_tvl: context.minTvl || 1000000,
+      chain_filter: 'Popular',
+      trigger: 'feeling_degen_button'
+    });
+  },
+
   // Track autocomplete interactions
   trackAutocomplete(action, query, suggestion, position) {
     this.track('autocomplete_interaction', {
@@ -131,10 +149,10 @@ const Analytics = {
   },
 
   // Enhanced Pool Analytics
-  
+
   trackPoolView(pool, context = {}) {
     const poolAnalytics = this.enrichPoolData(pool, context);
-    
+
     this.track('pool_view', {
       ...poolAnalytics,
       source_view: context.sourceView || 'search',
@@ -147,7 +165,7 @@ const Analytics = {
 
   trackPoolClick(pool, clickType, context = {}) {
     const poolAnalytics = this.enrichPoolData(pool, context);
-    
+
     this.track('pool_click', {
       ...poolAnalytics,
       click_type: clickType,
@@ -161,7 +179,7 @@ const Analytics = {
   trackYieldCalculation(amount, pool, context = {}) {
     const poolAnalytics = this.enrichPoolData(pool, context);
     const yields = context.calculatedYields || {};
-    
+
     this.track('yield_calculation', {
       ...poolAnalytics,
       investment_amount: amount,
@@ -174,7 +192,7 @@ const Analytics = {
   },
 
   // Filter Analytics - Enhanced
-  
+
   trackFilterChange(filterType, value, resultsCount, fullFilterState = {}) {
     this.track('filter_change', {
       filter_type: filterType,
@@ -188,7 +206,7 @@ const Analytics = {
 
   trackFilterCombination(activeFilters, resultsCount) {
     const combination = this.serializeFilters(activeFilters);
-    
+
     this.track('filter_combination', {
       filters_combination: combination,
       filters_count: this.getFiltersActiveCount(activeFilters),
@@ -206,7 +224,7 @@ const Analytics = {
   },
 
   // Navigation Analytics
-  
+
   trackNavigation(fromView, toView, method, context = {}) {
     this.track('navigation', {
       from_view: fromView,
@@ -217,13 +235,13 @@ const Analytics = {
       pool_id: context.poolId || null,
       search_active: !!context.searchQuery
     });
-    
+
     // Reset view timer
     this.viewStartTime = Date.now();
   },
 
   // User Engagement Analytics
-  
+
   trackEngagement(action, context = {}) {
     this.track('user_engagement', {
       engagement_type: action,
@@ -235,7 +253,7 @@ const Analytics = {
   },
 
   // Language and Localization
-  
+
   trackLanguageChange(fromLang, toLang, context = {}) {
     this.track('language_change', {
       from_language: fromLang,
@@ -246,7 +264,7 @@ const Analytics = {
   },
 
   // Performance Tracking
-  
+
   trackPerformance(metric, value, context = {}) {
     this.track('performance_metric', {
       metric_name: metric,
@@ -259,7 +277,7 @@ const Analytics = {
   },
 
   // Error Tracking
-  
+
   trackError(error, context = {}) {
     this.track('error_occurred', {
       error_message: String(error.message || error).substring(0, 200),
@@ -273,20 +291,20 @@ const Analytics = {
   },
 
   // Utility Functions
-  
+
   classifySearchType(query) {
     const lowerQuery = query.toLowerCase();
     const tokens = ['eth', 'btc', 'usdc', 'usdt', 'dai', 'weth', 'wbtc', 'matic', 'avax', 'sol'];
     const chains = ['ethereum', 'polygon', 'arbitrum', 'optimism', 'base', 'avalanche', 'binance'];
     const protocols = ['aave', 'compound', 'uniswap', 'curve', 'morpho', 'euler', 'venus'];
-    
+
     const containsToken = tokens.some(token => lowerQuery.includes(token));
     const containsChain = chains.some(chain => lowerQuery.includes(chain));
     const containsProtocol = protocols.some(protocol => lowerQuery.includes(protocol));
-    
-    const isNatural = query.split(' ').length > 1 || 
-                      /\b(best|highest|top|yield|yields|lending|staking|farming|opportunities|on|for)\b/i.test(query);
-    
+
+    const isNatural = query.split(' ').length > 1 ||
+      /\b(best|highest|top|yield|yields|lending|staking|farming|opportunities|on|for)\b/i.test(query);
+
     let type = 'unknown';
     if (containsToken && containsChain) type = 'token_and_chain';
     else if (containsToken) type = 'token_search';
@@ -295,7 +313,7 @@ const Analytics = {
     else if (isNatural) type = 'natural_language';
     else if (query.length <= 5) type = 'token_symbol';
     else type = 'text_search';
-    
+
     return {
       type,
       isNatural,
@@ -307,7 +325,7 @@ const Analytics = {
 
   enrichPoolData(pool, context = {}) {
     const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
-    
+
     return {
       pool_id: pool.pool,
       pool_symbol: pool.symbol,
@@ -329,7 +347,7 @@ const Analytics = {
   getPoolType(pool) {
     // Simplified version - can be expanded
     if (!pool.project) return 'unknown';
-    
+
     const project = pool.project.toLowerCase();
     if (['aave', 'compound', 'morpho', 'euler'].some(p => project.includes(p))) return 'lending';
     if (['uniswap', 'curve', 'balancer', 'sushiswap'].some(p => project.includes(p))) return 'dex_lp';
@@ -345,7 +363,7 @@ const Analytics = {
     if (filters.minApy > 0) active.push(`apy:${filters.minApy}`);
     if (filters.selectedPoolTypes?.length > 0) active.push(`types:${filters.selectedPoolTypes.join(',')}`);
     if (filters.selectedProtocols?.length > 0) active.push(`protocols:${filters.selectedProtocols.join(',')}`);
-    
+
     return active.join('|') || 'none';
   },
 
@@ -392,16 +410,16 @@ const Analytics = {
 
   calculateRiskScore(pool) {
     let risk = 0;
-    
+
     // TVL factor (lower TVL = higher risk)
     if (pool.tvlUsd < 1000000) risk += 2;
     else if (pool.tvlUsd < 10000000) risk += 1;
-    
+
     // APY factor (higher APY = higher risk)
     const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
     if (totalApy > 15) risk += 2;
     else if (totalApy > 8) risk += 1;
-    
+
     return Math.min(risk, 3); // Cap at 3
   },
 
@@ -426,7 +444,7 @@ const Analytics = {
     if (!this.sessionId) {
       this.init();
     }
-    
+
     this.track('session_start', {
       entry_point: this.getEntryPoint(),
       is_returning_user: this.isReturningUser(),
