@@ -1,28 +1,38 @@
 // Standalone PoolDetail Component - Full Version
-const { useState } = React;
+const { useState, useEffect } = React;
 
-function PoolDetail({ 
-  pool, 
-  onBack, 
+function PoolDetail({
+  pool,
+  onBack,
   resetApp,
-  calculateYields, 
-  formatCurrency, 
+  calculateYields,
+  formatCurrency,
   formatAPY,
   getProtocolUrl,
   getProtocolUrlWithRef,
   isDarkMode,
-  t
+  t,
+  AnimatedNumber
 }) {
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
   const [calculatorExpanded, setCalculatorExpanded] = useState(true);
   const [poolInfoExpanded, setPoolInfoExpanded] = useState(true);
   const [activeCalculatorTab, setActiveCalculatorTab] = useState('30days');
-  
+  const [isPulsing, setIsPulsing] = useState(false);
+
+  useEffect(() => {
+    if (investmentAmount > 0) {
+      setIsPulsing(true);
+      const timer = setTimeout(() => setIsPulsing(false), 300);
+      return () => clearTimeout(timer);
+    }
+  }, [investmentAmount]);
+
   if (!pool) {
     return React.createElement('div', { className: 'pool-detail-empty' },
       React.createElement('p', null, 'No pool selected'),
-      React.createElement('button', { 
+      React.createElement('button', {
         className: 'back-button',
         onClick: () => {
           // Analytics tracking for back navigation from pool detail
@@ -34,40 +44,40 @@ function PoolDetail({
       }, t ? t('backToSearch') : '← Back to Search')
     );
   }
-  
+
   const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
   const yields = calculateYields(investmentAmount, totalApy);
   const protocolUrl = getProtocolUrl(pool);
   const protocolUrlWithRef = getProtocolUrlWithRef(pool);
-  
+
   // Determine pool type (must be defined before getRiskAssessment)
   const getPoolType = () => {
     if (!pool.project) return 'Yield Farming';
-    
+
     const projectName = pool.project.toLowerCase();
-    
+
     if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
       return 'Lending';
     }
-    
+
     const lendingProtocols = ['aave', 'compound', 'morpho', 'spark', 'maple', 'euler', 'radiant'];
     const dexProtocols = ['uniswap', 'curve', 'balancer', 'pancakeswap', 'sushiswap'];
     const stakingProtocols = ['lido', 'rocket-pool', 'ether.fi', 'jito', 'marinade'];
-    
+
     if (lendingProtocols.some(p => projectName.includes(p))) return 'Lending';
     if (dexProtocols.some(p => projectName.includes(p))) return 'LP/DEX';
     if (stakingProtocols.some(p => projectName.includes(p))) return 'Staking';
-    
+
     return 'Yield Farming';
   };
-  
+
   const poolType = getPoolType();
-  
+
   // Comprehensive Risk Assessment
   const getRiskAssessment = () => {
     let riskScore = 0;
     const factors = [];
-    
+
     // TVL Factor (40% weight)
     if (pool.tvlUsd < 1000000) {
       riskScore += 40;
@@ -78,7 +88,7 @@ function PoolDetail({
     } else {
       factors.push('High liquidity');
     }
-    
+
     // APY Factor (30% weight) - Higher APY = Higher risk
     if (totalApy > 50) {
       riskScore += 30;
@@ -90,16 +100,16 @@ function PoolDetail({
       riskScore += 10;
       factors.push('Elevated yield');
     }
-    
+
     // Pool Age/Maturity Factor (20% weight)
-    const isNewProtocol = ['jito', 'ether.fi', 'pendle', 'eigenlayer'].some(p => 
+    const isNewProtocol = ['jito', 'ether.fi', 'pendle', 'eigenlayer'].some(p =>
       pool.project?.toLowerCase().includes(p)
     );
     if (isNewProtocol) {
       riskScore += 15;
       factors.push('Newer protocol');
     }
-    
+
     // Pool Type Factor (10% weight)
     if (poolType === 'LP/DEX') {
       riskScore += 10;
@@ -108,7 +118,7 @@ function PoolDetail({
       riskScore += 5;
       factors.push('Credit risk');
     }
-    
+
     // Determine overall risk level
     let level, color, description;
     if (riskScore <= 25) {
@@ -124,17 +134,17 @@ function PoolDetail({
       color = 'var(--color-error)';
       description = 'Advanced DeFi strategy';
     }
-    
+
     return { level, color, description, factors, score: riskScore };
   };
-  
+
   const riskAssessment = getRiskAssessment();
-  
-  return React.createElement('div', { 
+
+  return React.createElement('div', {
     className: 'pool-detail-container',
-    style: { 
-      opacity: 1, 
-      display: 'block', 
+    style: {
+      opacity: 1,
+      display: 'block',
       visibility: 'visible',
       position: 'relative',
       minHeight: '100vh',
@@ -144,7 +154,7 @@ function PoolDetail({
     }
   },
     // Clean Header: Logo | Breadcrumb | Toggle
-    React.createElement('div', { 
+    React.createElement('div', {
       className: 'header animate-on-mount',
       style: {
         display: 'flex',
@@ -162,7 +172,7 @@ function PoolDetail({
           height: '40px' // Match toggle height
         }
       },
-        React.createElement('h1', { 
+        React.createElement('h1', {
           className: 'logo',
           style: {
             fontSize: 'var(--font-size-lg)',
@@ -178,7 +188,7 @@ function PoolDetail({
           onMouseLeave: (e) => e.target.style.color = 'var(--color-text)'
         }, 'DeFi Garden')
       ),
-      
+
       // Center: Breadcrumb Navigation
       React.createElement('div', {
         className: 'pool-breadcrumb',
@@ -196,8 +206,8 @@ function PoolDetail({
           color: 'var(--color-text)'
         }
       },
-        React.createElement('span', { 
-          style: { 
+        React.createElement('span', {
+          style: {
             color: 'var(--color-text-secondary)',
             cursor: 'pointer',
             transition: 'color 0.2s ease'
@@ -212,34 +222,34 @@ function PoolDetail({
           onMouseEnter: (e) => e.target.style.color = 'var(--color-primary)',
           onMouseLeave: (e) => e.target.style.color = 'var(--color-text-secondary)'
         }, 'Search Results'),
-        React.createElement('span', { 
-          style: { 
+        React.createElement('span', {
+          style: {
             color: 'var(--color-primary)'
-          } 
+          }
         }, '→'),
-        React.createElement('span', { 
-          style: { 
+        React.createElement('span', {
+          style: {
             color: 'var(--color-text)',
             fontWeight: 'var(--font-weight-semibold)'
-          } 
+          }
         }, `${pool.symbol} Pool`)
       ),
-      
+
       // Right: Empty space for real toggle (matching height)
-      React.createElement('div', { 
-        style: { 
+      React.createElement('div', {
+        style: {
           width: '100px',
           height: '40px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'flex-end'
-        } 
+        }
       })
     ),
-    
+
     // Hero Section - Simplified and Focused
-    React.createElement('div', { 
-      className: 'pool-hero-card',
+    React.createElement('div', {
+      className: 'pool-hero-card animate-on-mount',
       style: {
         background: 'var(--color-background)',
         borderRadius: '24px',
@@ -262,7 +272,7 @@ function PoolDetail({
           pointerEvents: 'none'
         }
       }),
-      
+
       // Main Hero Content
       React.createElement('div', {
         className: 'pool-hero-content',
@@ -276,7 +286,7 @@ function PoolDetail({
       },
         // Left side - Pool info
         React.createElement('div', { className: 'pool-info-section' },
-          React.createElement('h1', { 
+          React.createElement('h1', {
             className: 'pool-symbol-hero',
             style: {
               fontSize: 'var(--font-size-4xl)',
@@ -287,8 +297,8 @@ function PoolDetail({
               lineHeight: '1.1'
             }
           }, pool.symbol),
-          
-          React.createElement('div', { 
+
+          React.createElement('div', {
             className: 'pool-meta-simplified',
             style: {
               display: 'flex',
@@ -299,21 +309,21 @@ function PoolDetail({
               color: 'var(--color-text-secondary)'
             }
           },
-            React.createElement('span', { 
+            React.createElement('span', {
               className: 'protocol-name',
-              style: { 
+              style: {
                 color: 'var(--color-text)',
                 fontWeight: 'var(--font-weight-semibold)'
               }
             }, pool.project),
             React.createElement('span', { className: 'separator' }, '•'),
-            React.createElement('span', { 
+            React.createElement('span', {
               className: 'chain-name',
               style: { color: 'var(--color-primary)' }
             }, pool.chain)
           ),
-          
-          React.createElement('div', { 
+
+          React.createElement('div', {
             className: 'pool-type-badge-hero',
             style: {
               display: 'inline-flex',
@@ -329,7 +339,7 @@ function PoolDetail({
               letterSpacing: '0.5px'
             }
           }, poolType),
-          
+
           // Trust indicators
           React.createElement('div', {
             className: 'trust-indicators',
@@ -365,12 +375,18 @@ function PoolDetail({
                 color: 'var(--color-text-secondary)',
                 boxShadow: 'var(--neuro-shadow-pressed)'
               }
-            }, formatCurrency(pool.tvlUsd) + ' TVL')
+            },
+              AnimatedNumber ? React.createElement(AnimatedNumber, {
+                value: pool.tvlUsd,
+                formatFn: (v) => formatCurrency(v) + ' TVL',
+                duration: 1200
+              }) : formatCurrency(pool.tvlUsd) + ' TVL'
+            )
           )
         ),
-        
+
         // Right side - APY and CTA
-        React.createElement('div', { 
+        React.createElement('div', {
           className: 'apy-cta-section',
           style: {
             textAlign: 'right',
@@ -415,8 +431,12 @@ function PoolDetail({
                 lineHeight: '1.1',
                 marginBottom: (pool.apyBase > 0 && pool.apyReward > 0) ? '6px' : '0'
               }
-            }, formatAPY(pool.apyBase, pool.apyReward)),
-            
+            }, AnimatedNumber ? React.createElement(AnimatedNumber, {
+              value: (pool.apyBase || 0) + (pool.apyReward || 0),
+              formatFn: (v) => `${v.toFixed(2)}%`,
+              duration: 1500
+            }) : formatAPY(pool.apyBase, pool.apyReward)),
+
             // APY Breakdown when both base and reward exist
             (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
               style: {
@@ -430,7 +450,7 @@ function PoolDetail({
               React.createElement('div', null, t ? t('rewardApyBreakdown', pool.apyReward.toFixed(1)) : `+ ${pool.apyReward.toFixed(1)}% Rewards`)
             )
           ),
-          
+
           protocolUrlWithRef && React.createElement('div', {
             style: {
               display: 'flex',
@@ -469,10 +489,10 @@ function PoolDetail({
         )
       )
     ),
-    
+
     // Quick Metrics - Force 3-column layout
-    React.createElement('div', { 
-      className: 'quick-metrics',
+    React.createElement('div', {
+      className: 'quick-metrics animate-on-mount',
       style: {
         display: 'grid',
         gridTemplateColumns: '1fr 1fr 1fr',
@@ -480,7 +500,7 @@ function PoolDetail({
         marginBottom: '40px'
       }
     },
-      React.createElement('div', { 
+      React.createElement('div', {
         className: 'metric-card-simple',
         style: {
           background: 'var(--color-background)',
@@ -505,10 +525,14 @@ function PoolDetail({
             fontWeight: 'var(--font-weight-bold)',
             color: 'var(--color-primary)'
           }
-        }, `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}`)
+        }, AnimatedNumber ? React.createElement(AnimatedNumber, {
+          value: investmentAmount * totalApy / 365 / 100,
+          formatFn: (v) => `$${v.toFixed(2)}`,
+          duration: 1000
+        }) : `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}`)
       ),
-      
-      React.createElement('div', { 
+
+      React.createElement('div', {
         className: 'metric-card-simple',
         style: {
           background: 'var(--color-background)',
@@ -533,10 +557,14 @@ function PoolDetail({
             fontWeight: 'var(--font-weight-bold)',
             color: 'var(--color-text)'
           }
-        }, `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`)
+        }, AnimatedNumber ? React.createElement(AnimatedNumber, {
+          value: investmentAmount * totalApy / 12 / 100,
+          formatFn: (v) => `$${v.toFixed(2)}`,
+          duration: 1000
+        }) : `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`)
       ),
-      
-      React.createElement('div', { 
+
+      React.createElement('div', {
         className: 'metric-card-simple risk-card',
         style: {
           background: 'var(--color-background)',
@@ -545,9 +573,9 @@ function PoolDetail({
           boxShadow: 'var(--neuro-shadow-raised)',
           textAlign: 'center',
           transition: 'all 0.3s ease',
-          border: `2px solid ${riskAssessment.color.replace('var(--color-', '').replace(')', '') === 'error' ? 'rgba(239, 68, 68, 0.2)' : 
-                                   riskAssessment.color.replace('var(--color-', '').replace(')', '') === 'warning' ? 'rgba(245, 158, 11, 0.2)' : 
-                                   'rgba(34, 197, 94, 0.2)'}`
+          border: `2px solid ${riskAssessment.color.replace('var(--color-', '').replace(')', '') === 'error' ? 'rgba(239, 68, 68, 0.2)' :
+            riskAssessment.color.replace('var(--color-', '').replace(')', '') === 'warning' ? 'rgba(245, 158, 11, 0.2)' :
+              'rgba(34, 197, 94, 0.2)'}`
         }
       },
         React.createElement('div', {
@@ -585,10 +613,10 @@ function PoolDetail({
         }, `Key factors: ${riskAssessment.factors.slice(0, 2).join(', ')}`)
       )
     ),
-    
+
     // Collapsible Yield Calculator
-    React.createElement('div', { 
-      className: `calculator-compact ${calculatorExpanded ? 'expanded' : ''}`,
+    React.createElement('div', {
+      className: `calculator-compact animate-on-mount ${calculatorExpanded ? 'expanded' : ''}`,
       style: {
         background: 'var(--color-background)',
         borderRadius: '16px',
@@ -650,7 +678,7 @@ function PoolDetail({
           }
         }, '▼')
       ),
-      
+
       // Expanded Calculator Content
       calculatorExpanded && React.createElement('div', {
         className: 'calculator-content',
@@ -659,14 +687,14 @@ function PoolDetail({
         }
       },
         // Investment Input
-        React.createElement('div', { 
+        React.createElement('div', {
           className: 'investment-input-group',
           style: {
             marginBottom: '24px',
             textAlign: 'center'
           }
         },
-          React.createElement('div', { 
+          React.createElement('div', {
             className: 'input-wrapper',
             style: {
               display: 'flex',
@@ -716,9 +744,9 @@ function PoolDetail({
               }
             })
           ),
-          
+
           // Quick Amount Buttons
-          React.createElement('div', { 
+          React.createElement('div', {
             style: {
               display: 'flex',
               gap: '8px',
@@ -727,7 +755,7 @@ function PoolDetail({
               marginBottom: '16px'
             }
           },
-            [100, 500, 1000, 2000, 5000, 10000, 100000].map(amount => 
+            [100, 500, 1000, 2000, 5000, 10000, 100000].map(amount =>
               React.createElement('button', {
                 key: amount,
                 onClick: () => {
@@ -770,13 +798,13 @@ function PoolDetail({
                   alignItems: 'center',
                   justifyContent: 'center'
                 }
-              }, `$${amount >= 1000 ? `${amount/1000}k` : amount}`)
+              }, `$${amount >= 1000 ? `${amount / 1000}k` : amount}`)
             )
           )
         ),
-        
+
         // Tab Navigation for Time Periods
-        React.createElement('div', { 
+        React.createElement('div', {
           style: {
             display: 'flex',
             gap: '4px',
@@ -793,7 +821,7 @@ function PoolDetail({
               '7days': '7 Days',
               '30days': '30 Days'
             };
-            
+
             return React.createElement('button', {
               key: tab,
               onClick: () => setActiveCalculatorTab(tab),
@@ -830,9 +858,9 @@ function PoolDetail({
             }, tabLabels[tab]);
           })
         ),
-        
+
         // Primary Yield Result (based on selected tab)
-        React.createElement('div', { 
+        React.createElement('div', {
           style: {
             background: 'var(--color-background)',
             borderRadius: '16px',
@@ -878,9 +906,10 @@ function PoolDetail({
               if (tooltip) tooltip.remove();
             }
           }, activeCalculatorTab === '1day' ? (t ? t('estimatedDailyEarnings') : 'Estimated Daily Earnings') :
-             activeCalculatorTab === '7days' ? (t ? t('estimatedEarnings') : 'Estimated Weekly Earnings') :
-             (t ? t('estimatedMonthlyEarnings') : 'Estimated Monthly Earnings')),
+            activeCalculatorTab === '7days' ? (t ? t('estimatedEarnings') : 'Estimated Weekly Earnings') :
+              (t ? t('estimatedMonthlyEarnings') : 'Estimated Monthly Earnings')),
           React.createElement('div', {
+            className: isPulsing ? 'yield-pulse-active' : '',
             style: {
               fontSize: 'var(--font-size-3xl)',
               fontWeight: '900',
@@ -889,11 +918,12 @@ function PoolDetail({
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
               lineHeight: '1.1',
-              marginBottom: '8px'
+              marginBottom: '8px',
+              transition: 'transform 0.15s ease-out'
             }
           }, activeCalculatorTab === '1day' ? `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}` :
-             activeCalculatorTab === '7days' ? `$${(investmentAmount * totalApy / 52 / 100).toFixed(2)}` :
-             `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`),
+            activeCalculatorTab === '7days' ? `$${(investmentAmount * totalApy / 52 / 100).toFixed(2)}` :
+              `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`),
           React.createElement('div', {
             style: {
               fontSize: 'var(--font-size-sm)',
@@ -902,13 +932,13 @@ function PoolDetail({
             }
           }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString()} investment`)
         ),
-        
+
       )
     ),
-    
+
     // Collapsible Pool Information
-    React.createElement('div', { 
-      className: `pool-info-section ${poolInfoExpanded ? 'expanded' : ''}`,
+    React.createElement('div', {
+      className: `pool-info-section animate-on-mount ${poolInfoExpanded ? 'expanded' : ''}`,
       style: {
         background: 'var(--color-background)',
         borderRadius: '16px',
@@ -982,7 +1012,7 @@ function PoolDetail({
           }
         }, '▼')
       ),
-      
+
       // Expanded Pool Information Content
       poolInfoExpanded && React.createElement('div', {
         className: 'pool-info-content',
@@ -992,96 +1022,96 @@ function PoolDetail({
       },
         // APY Breakdown Grid
         React.createElement('div', {
-        style: {
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-          gap: '12px',
-          marginBottom: '20px'
-        }
-      },
-        // APY Breakdown
-        (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
           style: {
-            padding: '12px',
-            background: 'var(--color-background)',
-            borderRadius: '8px',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            textAlign: 'center'
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+            gap: '12px',
+            marginBottom: '20px'
           }
         },
+          // APY Breakdown
+          (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
+            style: {
+              padding: '12px',
+              background: 'var(--color-background)',
+              borderRadius: '8px',
+              boxShadow: 'var(--neuro-shadow-subtle)',
+              textAlign: 'center'
+            }
+          },
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                marginBottom: '4px',
+                textTransform: 'uppercase'
+              }
+            }, 'Base APY'),
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-base)',
+                fontWeight: 'var(--font-weight-bold)',
+                color: 'var(--color-text)'
+              }
+            }, `${pool.apyBase.toFixed(1)}%`)
+          ),
+
+          (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
+            style: {
+              padding: '12px',
+              background: 'var(--color-background)',
+              borderRadius: '8px',
+              boxShadow: 'var(--neuro-shadow-subtle)',
+              textAlign: 'center'
+            }
+          },
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                marginBottom: '4px',
+                textTransform: 'uppercase'
+              }
+            }, 'Reward APY'),
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-base)',
+                fontWeight: 'var(--font-weight-bold)',
+                color: 'var(--color-primary)'
+              }
+            }, `${pool.apyReward.toFixed(1)}%`)
+          ),
+
+          // Pool Age (if available)
           React.createElement('div', {
             style: {
-              fontSize: 'var(--font-size-xs)',
-              color: 'var(--color-text-secondary)',
-              marginBottom: '4px',
-              textTransform: 'uppercase'
+              padding: '12px',
+              background: 'var(--color-background)',
+              borderRadius: '8px',
+              boxShadow: 'var(--neuro-shadow-subtle)',
+              textAlign: 'center'
             }
-          }, 'Base APY'),
-          React.createElement('div', {
-            style: {
-              fontSize: 'var(--font-size-base)',
-              fontWeight: 'var(--font-weight-bold)',
-              color: 'var(--color-text)'
-            }
-          }, `${pool.apyBase.toFixed(1)}%`)
+          },
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                marginBottom: '4px',
+                textTransform: 'uppercase'
+              }
+            }, t ? t('poolType') : 'Pool Type'),
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-sm)',
+                fontWeight: 'var(--font-weight-medium)',
+                color: 'var(--color-text)'
+              }
+            }, poolType)
+          )
         ),
-        
-        (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
-          style: {
-            padding: '12px',
-            background: 'var(--color-background)',
-            borderRadius: '8px',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            textAlign: 'center'
-          }
-        },
-          React.createElement('div', {
-            style: {
-              fontSize: 'var(--font-size-xs)',
-              color: 'var(--color-text-secondary)',
-              marginBottom: '4px',
-              textTransform: 'uppercase'
-            }
-          }, 'Reward APY'),
-          React.createElement('div', {
-            style: {
-              fontSize: 'var(--font-size-base)',
-              fontWeight: 'var(--font-weight-bold)',
-              color: 'var(--color-primary)'
-            }
-          }, `${pool.apyReward.toFixed(1)}%`)
-        ),
-        
-        // Pool Age (if available)
-        React.createElement('div', {
-          style: {
-            padding: '12px',
-            background: 'var(--color-background)',
-            borderRadius: '8px',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            textAlign: 'center'
-          }
-        },
-          React.createElement('div', {
-            style: {
-              fontSize: 'var(--font-size-xs)',
-              color: 'var(--color-text-secondary)',
-              marginBottom: '4px',
-              textTransform: 'uppercase'
-            }
-          }, t ? t('poolType') : 'Pool Type'),
-          React.createElement('div', {
-            style: {
-              fontSize: 'var(--font-size-sm)',
-              fontWeight: 'var(--font-weight-medium)',
-              color: 'var(--color-text)'
-            }
-          }, poolType)
-        )
-      ),
-      
-      // Tokens Section (if available)
-      (pool.underlyingTokens && pool.underlyingTokens.length > 0) && 
+
+        // Tokens Section (if available)
+        (pool.underlyingTokens && pool.underlyingTokens.length > 0) &&
         React.createElement('div', {
           style: {
             marginTop: '16px',
@@ -1106,7 +1136,7 @@ function PoolDetail({
           },
             pool.underlyingTokens.map((token, idx) => {
               const isAddress = typeof token === 'string' && token.startsWith('0x') && token.length >= 40;
-              
+
               if (isAddress) {
                 return React.createElement('a', {
                   key: idx,
@@ -1129,7 +1159,7 @@ function PoolDetail({
                   }
                 }, `${token.slice(0, 6)}...${token.slice(-4)} ↗`);
               }
-              
+
               return React.createElement('span', {
                 key: idx,
                 style: {
