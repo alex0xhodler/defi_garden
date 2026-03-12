@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-03-11T02:57:52.115Z
+- Last Updated: 2026-03-12T03:01:25.634Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 18103
+- Total URLs: 17934
 
 ## Homepage
 TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.
@@ -11,14 +11,14 @@ TL;DR: Main dashboard for discovering DeFi yields across all chains and protocol
 
 ## Top Chains by TVL
 TL;DR: Highest liquidity blockchain networks for DeFi yields.
-- Ethereum ($115.8B TVL) — https://www.defi.garden/?chain=Ethereum
-- Base ($68.0B TVL) — https://www.defi.garden/?chain=Base
-- Solana ($9.3B TVL) — https://www.defi.garden/?chain=Solana
-- BSC ($4.6B TVL) — https://www.defi.garden/?chain=BSC
+- Ethereum ($116.2B TVL) — https://www.defi.garden/?chain=Ethereum
+- Base ($67.9B TVL) — https://www.defi.garden/?chain=Base
+- Solana ($9.2B TVL) — https://www.defi.garden/?chain=Solana
+- BSC ($4.5B TVL) — https://www.defi.garden/?chain=BSC
 - Tron ($3.3B TVL) — https://www.defi.garden/?chain=Tron
 - Arbitrum ($2.7B TVL) — https://www.defi.garden/?chain=Arbitrum
-- Plasma ($2.2B TVL) — https://www.defi.garden/?chain=Plasma
-- Hyperliquid L1 ($1.8B TVL) — https://www.defi.garden/?chain=Hyperliquid%20L1
+- Plasma ($2.3B TVL) — https://www.defi.garden/?chain=Plasma
+- Hyperliquid L1 ($1.9B TVL) — https://www.defi.garden/?chain=Hyperliquid%20L1
 
 ## Popular Token Yields
 TL;DR: Most searched tokens for yield farming opportunities.
@@ -45,11 +45,11 @@ TL;DR: Most common "find X yield on Y chain" searches.
 ## Major DeFi Protocols
 TL;DR: Largest protocols by total value locked.
 - sushiswap-v3 ($38.3B TVL) — https://www.defi.garden/?search=sushiswap-v3
-- aave-v3 ($26.5B TVL) — https://www.defi.garden/?search=aave-v3
+- aave-v3 ($26.4B TVL) — https://www.defi.garden/?search=aave-v3
 - curve-dex ($21.2B TVL) — https://www.defi.garden/?search=curve-dex
-- lido ($18.8B TVL) — https://www.defi.garden/?search=lido
-- merkl ($12.6B TVL) — https://www.defi.garden/?search=merkl
-- morpho-v1 ($11.3B TVL) — https://www.defi.garden/?search=morpho-v1
+- lido ($18.9B TVL) — https://www.defi.garden/?search=lido
+- merkl ($12.7B TVL) — https://www.defi.garden/?search=merkl
+- morpho-v1 ($11.4B TVL) — https://www.defi.garden/?search=morpho-v1
 
 ## Common Search Patterns
 TL;DR: Typical user queries and where to find them.
@@ -64,14 +64,14 @@ TL;DR: Typical user queries and where to find them.
 
 ## Current Top Yields
 TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10k).
-- Solana · orca-dex · SOS-USDC — 105763.2% APY, $13,622 TVL — https://www.defi.garden/?token=SOS-USDC&chain=Solana
+- Base · aerodrome-slipstream · AVNT-USDC — 245406.6% APY, $870,741 TVL — https://www.defi.garden/?token=AVNT-USDC&chain=Base
+- Base · aerodrome-v1 · WETH-ARCONA — 209936.0% APY, $26,158 TVL — https://www.defi.garden/?token=WETH-ARCONA&chain=Base
+- Base · aerodrome-v1 · AIP-WETH — 199489.3% APY, $29,774 TVL — https://www.defi.garden/?token=AIP-WETH&chain=Base
 - Base · uniswap-v4 · ETH-PING — 85690.8% APY, $51,062 TVL — https://www.defi.garden/?token=ETH-PING&chain=Base
-- Ethereum · uniswap-v4 · ETH-VRA — 56903.4% APY, $11,477 TVL — https://www.defi.garden/?token=ETH-VRA&chain=Ethereum
-- Avalanche · blackhole-clmm · WAVAX-USDC — 47208.9% APY, $4,112,574 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
-- Base · uniswap-v4 · WETH-CLAWDITOR — 43510.0% APY, $46,483 TVL — https://www.defi.garden/?token=WETH-CLAWDITOR&chain=Base
+- Ethereum · uniswap-v4 · ETH-VRA — 57715.6% APY, $11,316 TVL — https://www.defi.garden/?token=ETH-VRA&chain=Ethereum
+- Base · uniswap-v4 · WETH-CLAWDITOR — 43351.9% APY, $46,656 TVL — https://www.defi.garden/?token=WETH-CLAWDITOR&chain=Base
 - Base · uniswap-v4 · WETH-CLAWDIUS — 39408.5% APY, $46,722 TVL — https://www.defi.garden/?token=WETH-CLAWDIUS&chain=Base
-- Base · uniswap-v4 · ZORA-ALEXANDERELORENZO — 36534.2% APY, $48,707 TVL — https://www.defi.garden/?token=ZORA-ALEXANDERELORENZO&chain=Base
-- Ethereum · uniswap-v4 · USDC-ANVL — 35847.9% APY, $11,635 TVL — https://www.defi.garden/?token=USDC-ANVL&chain=Ethereum
+- Base · beefy · CLAWNCH-WETH — 38697.2% APY, $22,264 TVL — https://www.defi.garden/?token=CLAWNCH-WETH&chain=Base
 
 💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
 📊 For live rates and direct protocol access: https://www.defi.garden
