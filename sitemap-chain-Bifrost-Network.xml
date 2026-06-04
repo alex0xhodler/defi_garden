@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.defi.garden/?chain=Bifrost%20Network</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Bifrost+Network" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Bifrost+Network&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Bifrost+Network" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WSTBFC&amp;chain=Bifrost%20Network</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTBFC&amp;chain=Bifrost+Network" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTBFC&amp;chain=Bifrost+Network&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSTBFC&amp;chain=Bifrost+Network" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BTCUSD&amp;chain=Bifrost%20Network</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTCUSD&amp;chain=Bifrost+Network" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTCUSD&amp;chain=Bifrost+Network&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTCUSD&amp;chain=Bifrost+Network" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BFC&amp;chain=Bifrost%20Network</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BFC&amp;chain=Bifrost+Network" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BFC&amp;chain=Bifrost+Network&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BFC&amp;chain=Bifrost+Network" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETH&amp;chain=Bifrost%20Network</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Bifrost+Network" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Bifrost+Network&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Bifrost+Network" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=Bifrost%20Network</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Bifrost+Network" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Bifrost+Network&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Bifrost+Network" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BNB&amp;chain=Bifrost%20Network</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BNB&amp;chain=Bifrost+Network" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BNB&amp;chain=Bifrost+Network&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BNB&amp;chain=Bifrost+Network" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT&amp;chain=Bifrost%20Network</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Bifrost+Network" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Bifrost+Network&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Bifrost+Network" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+</urlset>

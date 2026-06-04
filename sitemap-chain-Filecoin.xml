@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.defi.garden/?chain=Filecoin</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Filecoin" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Filecoin&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Filecoin" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=IFIL&amp;chain=Filecoin</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IFIL&amp;chain=Filecoin" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IFIL&amp;chain=Filecoin&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IFIL&amp;chain=Filecoin" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FIL&amp;chain=Filecoin</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FIL&amp;chain=Filecoin" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FIL&amp;chain=Filecoin&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FIL&amp;chain=Filecoin" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+</urlset>

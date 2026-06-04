@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.defi.garden/?chain=Manta</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Manta" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Manta&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Manta" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VMANTA&amp;chain=Manta</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VMANTA&amp;chain=Manta" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VMANTA&amp;chain=Manta&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VMANTA&amp;chain=Manta" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=STONE&amp;chain=Manta</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STONE&amp;chain=Manta" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STONE&amp;chain=Manta&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STONE&amp;chain=Manta" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=Manta</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Manta" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Manta&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Manta" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETH&amp;chain=Manta</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Manta" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Manta&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Manta" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WETH&amp;chain=Manta</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Manta" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Manta&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Manta" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+</urlset>
