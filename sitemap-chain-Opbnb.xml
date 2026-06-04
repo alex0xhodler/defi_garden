@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.defi.garden/?chain=Opbnb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Opbnb" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Opbnb&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Opbnb" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT&amp;chain=Opbnb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Opbnb" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Opbnb&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Opbnb" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FDUSD&amp;chain=Opbnb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FDUSD&amp;chain=Opbnb" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FDUSD&amp;chain=Opbnb&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FDUSD&amp;chain=Opbnb" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WBNB&amp;chain=Opbnb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBNB&amp;chain=Opbnb" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBNB&amp;chain=Opbnb&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBNB&amp;chain=Opbnb" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.86</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RCM&amp;chain=Opbnb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RCM&amp;chain=Opbnb" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RCM&amp;chain=Opbnb&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RCM&amp;chain=Opbnb" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.46</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HB&amp;chain=Opbnb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HB&amp;chain=Opbnb" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HB&amp;chain=Opbnb&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HB&amp;chain=Opbnb" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.44</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETH&amp;chain=Opbnb</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Opbnb" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Opbnb&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Opbnb" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+</urlset>

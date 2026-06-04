@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.defi.garden/?chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NBASIS&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NBASIS&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NBASIS&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NBASIS&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USCC&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USCC&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USCC&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USCC&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NOPAL&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NOPAL&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NOPAL&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NOPAL&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USTB&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USTB&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USTB&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USTB&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.89</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NALPHA&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NALPHA&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NALPHA&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NALPHA&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NFALCON&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NFALCON&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NFALCON&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NFALCON&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NWISDOM&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NWISDOM&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NWISDOM&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NWISDOM&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NLCRD&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NLCRD&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NLCRD&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NLCRD&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NTBILL&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NTBILL&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NTBILL&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NTBILL&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NACRDX&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NACRDX&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NACRDX&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NACRDX&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NCREDIT&amp;chain=Plume%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NCREDIT&amp;chain=Plume+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NCREDIT&amp;chain=Plume+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NCREDIT&amp;chain=Plume+Mainnet" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.46</priority>
+  </url>
+</urlset>

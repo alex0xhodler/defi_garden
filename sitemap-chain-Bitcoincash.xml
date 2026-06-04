@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.defi.garden/?chain=Bitcoincash</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Bitcoincash" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Bitcoincash&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Bitcoincash" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BCH&amp;chain=Bitcoincash</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BCH&amp;chain=Bitcoincash" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BCH&amp;chain=Bitcoincash&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BCH&amp;chain=Bitcoincash" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RUNE&amp;chain=Bitcoincash</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RUNE&amp;chain=Bitcoincash" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RUNE&amp;chain=Bitcoincash&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RUNE&amp;chain=Bitcoincash" />
+    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.79</priority>
+  </url>
+</urlset>

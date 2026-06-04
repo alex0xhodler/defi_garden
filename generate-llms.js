@@ -22,7 +22,7 @@ function log(msg) { console.log(`🤖 [llms] ${msg}`); }
 function err(msg, e) { console.error(`❌ [llms][error] ${msg}${e ? `: ${e.message}` : ''}`); }
 
 /**
- * Parse sitemap.xml and extract URLs
+ * Parse sitemap.xml (Index) and extract all URLs from sub-sitemaps
  */
 async function parseSitemap(sitemapPath) {
   try {
@@ -30,12 +30,47 @@ async function parseSitemap(sitemapPath) {
     const parser = new XMLParser({ ignoreAttributes: false });
     const data = parser.parse(xml);
     
-    const urlset = data.urlset || {};
-    const entries = Array.isArray(urlset.url) ? urlset.url : (urlset.url ? [urlset.url] : []);
-    const urls = entries.map(entry => entry.loc).filter(Boolean);
+    let allUrls = [];
+
+    // Check if it's a sitemap index
+    if (data.sitemapindex) {
+      log('Detected sitemap index. Parsing sub-sitemaps...');
+      const sitemaps = Array.isArray(data.sitemapindex.sitemap) 
+        ? data.sitemapindex.sitemap 
+        : [data.sitemapindex.sitemap];
+      
+      for (const sm of sitemaps) {
+        const loc = sm.loc;
+        if (!loc) continue;
+        
+        // If it's a local file (same directory as sitemap.xml)
+        const filename = path.basename(loc);
+        const subSitemapPath = path.resolve(path.dirname(sitemapPath), filename);
+        
+        if (fs.existsSync(subSitemapPath)) {
+          log(`Reading sub-sitemap: ${filename}`);
+          const subXml = fs.readFileSync(subSitemapPath, 'utf8');
+          const subData = parser.parse(subXml);
+          const entries = Array.isArray(subData.urlset?.url) 
+            ? subData.urlset.url 
+            : (subData.urlset?.url ? [subData.urlset.url] : []);
+          
+          const subUrls = entries.map(entry => entry.loc).filter(Boolean);
+          allUrls = allUrls.concat(subUrls);
+        } else {
+          log(`Warning: Sub-sitemap file not found locally: ${subSitemapPath}`);
+        }
+      }
+    } else if (data.urlset) {
+      // Standard single sitemap
+      const entries = Array.isArray(data.urlset.url) 
+        ? data.urlset.url 
+        : (data.urlset.url ? [data.urlset.url] : []);
+      allUrls = entries.map(entry => entry.loc).filter(Boolean);
+    }
     
-    log(`Parsed ${urls.length} URLs from sitemap`);
-    return Array.from(new Set(urls)).sort(); // Dedupe and sort for consistency
+    log(`Parsed total of ${allUrls.length} URLs`);
+    return Array.from(new Set(allUrls)).sort(); // Dedupe and sort for consistency
   } catch (error) {
     throw new Error(`Failed to parse sitemap: ${error.message}`);
   }
