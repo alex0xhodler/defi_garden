@@ -6,43 +6,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Carbon" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Carbon&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Carbon" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USD&amp;chain=Carbon</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USD&amp;chain=Carbon" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USD&amp;chain=Carbon&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USD&amp;chain=Carbon" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.74</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SWTH&amp;chain=Carbon</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SWTH&amp;chain=Carbon" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SWTH&amp;chain=Carbon&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SWTH&amp;chain=Carbon" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.52</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=ETH&amp;chain=Carbon</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Carbon" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Carbon&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Carbon" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SWTH&amp;chain=Carbon</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SWTH&amp;chain=Carbon" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SWTH&amp;chain=Carbon&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SWTH&amp;chain=Carbon" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USD&amp;chain=Carbon</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USD&amp;chain=Carbon" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USD&amp;chain=Carbon&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USD&amp;chain=Carbon" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=RSWTH&amp;chain=Carbon</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RSWTH&amp;chain=Carbon" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RSWTH&amp;chain=Carbon&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RSWTH&amp;chain=Carbon" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.44</priority>
   </url>
@@ -51,7 +51,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LUNC&amp;chain=Carbon" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LUNC&amp;chain=Carbon&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LUNC&amp;chain=Carbon" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.47</priority>
   </url>
@@ -60,7 +60,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USC&amp;chain=Carbon" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USC&amp;chain=Carbon&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USC&amp;chain=Carbon" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.42</priority>
   </url>

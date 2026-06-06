@@ -1,10 +1,10 @@
 # Complete DeFi Yield Index: Best Token Yields Across All Blockchains | DeFi Garden
 
-- Last Updated: 2026-06-06T03:09:21.251Z
+- Last Updated: 2026-06-06T08:02:34.495Z
 - Canonical: https://www.defi.garden
-- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-06-06T03:09:21.193Z)
-- Total URLs: 19814
-- Categories: homepage(1), tokens(19701), chains(105), poolTypes(0), highValue(7)
+- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-06-06T08:02:34.423Z)
+- Total URLs: 19780
+- Categories: homepage(1), tokens(19667), chains(105), poolTypes(0), highValue(7)
 
 ## Homepage
 TL;DR: Main application entry points and dashboards.
@@ -228,7 +228,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=4CHAN&chain=Solana
 - https://www.defi.garden/?token=4CHAN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=4CHAN&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=4CLAW
 - https://www.defi.garden/?token=4CLAW&chain=Base
 - https://www.defi.garden/?token=4CLAW&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=4IR
@@ -256,12 +255,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=50LBGT
 - https://www.defi.garden/?token=50LBGT&chain=Berachain
 - https://www.defi.garden/?token=50LBGT&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=50WAGNO
-- https://www.defi.garden/?token=50WAGNO&chain=Gnosis
-- https://www.defi.garden/?token=50WAGNO&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=50WAWSTETH
-- https://www.defi.garden/?token=50WAWSTETH&chain=Gnosis
-- https://www.defi.garden/?token=50WAWSTETH&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=50WBERA
 - https://www.defi.garden/?token=50WBERA&chain=Berachain
 - https://www.defi.garden/?token=50WBERA&poolTypes=Yield%20Farming
@@ -596,8 +589,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=AGENTHANSA
 - https://www.defi.garden/?token=AGENTHANSA&chain=Base
 - https://www.defi.garden/?token=AGENTHANSA&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=AGENTPUDGY&chain=Base
-- https://www.defi.garden/?token=AGENTPUDGY&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=AGETH&chain=Ethereum
 - https://www.defi.garden/?token=AGETH&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=AGETH&poolTypes=Lending
@@ -745,7 +736,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=AIUSD
 - https://www.defi.garden/?token=AIUSD&chain=Avalanche
 - https://www.defi.garden/?token=AIUSD&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=AIW3
 - https://www.defi.garden/?token=AIW3&chain=Base
 - https://www.defi.garden/?token=AIW3&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=AIX
@@ -848,9 +838,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=ALON
 - https://www.defi.garden/?token=ALON&chain=Solana
 - https://www.defi.garden/?token=ALON&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=ALONE
-- https://www.defi.garden/?token=ALONE&chain=Solana
-- https://www.defi.garden/?token=ALONE&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=ALP&chain=Solana
 - https://www.defi.garden/?token=ALP&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=ALPACA
@@ -863,6 +850,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=ALPH&chain=Ethereum
 - https://www.defi.garden/?token=ALPH&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=ALPH&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=ALPHA
 - https://www.defi.garden/?token=ALPHA&chain=Ethereum
 - https://www.defi.garden/?token=ALPHA&chain=Sui
 - https://www.defi.garden/?token=ALPHA&poolTypes=LP%2FDEX
@@ -918,6 +906,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=AMAPT
 - https://www.defi.garden/?token=AMAPT&chain=Aptos
 - https://www.defi.garden/?token=AMAPT&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=AMARA
 - https://www.defi.garden/?token=AMARA&chain=Base
 - https://www.defi.garden/?token=AMARA&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=AMATO
@@ -936,7 +925,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=AMBIOS&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=AMDAI&chain=Polygon
 - https://www.defi.garden/?token=AMDAI&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=AMEN
 - https://www.defi.garden/?token=AMEN&chain=Base
 - https://www.defi.garden/?token=AMEN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=AMERICA
@@ -1092,7 +1080,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=APE&chain=Polygon
 - https://www.defi.garden/?token=APE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=APE&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=APED
 - https://www.defi.garden/?token=APED&chain=Ethereum
 - https://www.defi.garden/?token=APED&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=APEETH&chain=Arbitrum
@@ -1148,7 +1135,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=APVCHF
 - https://www.defi.garden/?token=APVCHF&chain=Base
 - https://www.defi.garden/?token=APVCHF&poolTypes=Lending
-- https://www.defi.garden/?token=APX
 - https://www.defi.garden/?token=APX&chain=Ethereum
 - https://www.defi.garden/?token=APX&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=APXETH
@@ -1451,6 +1437,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=AUF&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=AUGUSTAUSD&chain=Ethereum
 - https://www.defi.garden/?token=AUGUSTAUSD&poolTypes=Lending
+- https://www.defi.garden/?token=AUGUSTAUSDV2
 - https://www.defi.garden/?token=AUGUSTAUSDV2&chain=Ethereum
 - https://www.defi.garden/?token=AUGUSTAUSDV2&poolTypes=Lending
 - https://www.defi.garden/?token=AUGUSTUSDCV2
@@ -1610,7 +1597,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=AVO
 - https://www.defi.garden/?token=AVO&chain=Solana
 - https://www.defi.garden/?token=AVO&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=AVRK
 - https://www.defi.garden/?token=AVRK&chain=Arbitrum
 - https://www.defi.garden/?token=AVRK&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=AVUSD
@@ -1690,7 +1676,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=AXS&chain=Ethereum
 - https://www.defi.garden/?token=AXS&chain=Polygon
 - https://www.defi.garden/?token=AXS&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=AYB
 - https://www.defi.garden/?token=AYB&chain=Base
 - https://www.defi.garden/?token=AYB&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=AZCHF
@@ -1719,7 +1704,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=B3
 - https://www.defi.garden/?token=B3&chain=Base
 - https://www.defi.garden/?token=B3&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=B3&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=BA&chain=Sonic
 - https://www.defi.garden/?token=BA&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BABA&chain=Defichain
@@ -1772,6 +1756,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BAC
 - https://www.defi.garden/?token=BAC&chain=Ethereum
 - https://www.defi.garden/?token=BAC&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=BACHI
 - https://www.defi.garden/?token=BACHI&chain=Base
 - https://www.defi.garden/?token=BACHI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BACOIN&chain=Hyperliquid%20L1
@@ -1831,6 +1816,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BANANA&chain=Polygon
 - https://www.defi.garden/?token=BANANA&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BANANA&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=BAND
 - https://www.defi.garden/?token=BAND&chain=Ethereum
 - https://www.defi.garden/?token=BAND&chain=Osmosis
 - https://www.defi.garden/?token=BAND&poolTypes=LP%2FDEX
@@ -1891,7 +1877,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BASIR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BASK&chain=Ethereum
 - https://www.defi.garden/?token=BASK&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=BASTR
 - https://www.defi.garden/?token=BASTR&chain=Base
 - https://www.defi.garden/?token=BASTR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BAT
@@ -2003,6 +1988,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BDAI
 - https://www.defi.garden/?token=BDAI&chain=Avalanche
 - https://www.defi.garden/?token=BDAI&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=BDI
 - https://www.defi.garden/?token=BDI&chain=Ethereum
 - https://www.defi.garden/?token=BDI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BDID
@@ -2043,6 +2029,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BEBE&chain=Base
 - https://www.defi.garden/?token=BEBE&chain=Ethereum
 - https://www.defi.garden/?token=BEBE&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=BED
+- https://www.defi.garden/?token=BED&chain=Ethereum
+- https://www.defi.garden/?token=BED&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BEE
 - https://www.defi.garden/?token=BEE&chain=Solana
 - https://www.defi.garden/?token=BEE&poolTypes=Yield%20Farming
@@ -2111,6 +2100,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BET&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BETH&chain=BSC
 - https://www.defi.garden/?token=BETH&poolTypes=Lending
+- https://www.defi.garden/?token=BETS
 - https://www.defi.garden/?token=BETS&chain=Base
 - https://www.defi.garden/?token=BETS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BETTER
@@ -2155,6 +2145,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BIAO&chain=Solana
 - https://www.defi.garden/?token=BIAO&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BIAO&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=BICO
 - https://www.defi.garden/?token=BICO&chain=Ethereum
 - https://www.defi.garden/?token=BICO&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BID
@@ -2237,6 +2228,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BITGETUSDT0
 - https://www.defi.garden/?token=BITGETUSDT0&chain=Arbitrum
 - https://www.defi.garden/?token=BITGETUSDT0&poolTypes=Lending
+- https://www.defi.garden/?token=BITI
 - https://www.defi.garden/?token=BITI&chain=Defichain
 - https://www.defi.garden/?token=BITI&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=BITMXNBP
@@ -2346,6 +2338,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BMC
 - https://www.defi.garden/?token=BMC&chain=Ethereum
 - https://www.defi.garden/?token=BMC&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=BMI
 - https://www.defi.garden/?token=BMI&chain=Ethereum
 - https://www.defi.garden/?token=BMI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BMIND&chain=Base
@@ -2416,6 +2409,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BODEN
 - https://www.defi.garden/?token=BODEN&chain=Solana
 - https://www.defi.garden/?token=BODEN&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=BOE
 - https://www.defi.garden/?token=BOE&chain=Base
 - https://www.defi.garden/?token=BOE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BOG&chain=Ethereum
@@ -2645,7 +2639,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BROCCOLI&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=BROGE&chain=Base
 - https://www.defi.garden/?token=BROGE&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=BROGG
 - https://www.defi.garden/?token=BROGG&chain=Base
 - https://www.defi.garden/?token=BROGG&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BROSEF&chain=Base
@@ -2768,6 +2761,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BTCUSD&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=BTCV&chain=Polygon
 - https://www.defi.garden/?token=BTCV&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=BTCVC
 - https://www.defi.garden/?token=BTCVC&chain=Sui
 - https://www.defi.garden/?token=BTCVC&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=BTCY&chain=Arbitrum
@@ -2884,7 +2878,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BUSDT
 - https://www.defi.garden/?token=BUSDT&chain=Avalanche
 - https://www.defi.garden/?token=BUSDT&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=BUSINESS
 - https://www.defi.garden/?token=BUSINESS&chain=Ethereum
 - https://www.defi.garden/?token=BUSINESS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=BUT
@@ -2950,6 +2943,8 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=BZC&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=BZIL&chain=Base
 - https://www.defi.garden/?token=BZIL&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=BZR
+- https://www.defi.garden/?token=BZR&chain=Ethereum
 - https://www.defi.garden/?token=BZR&chain=Polygon
 - https://www.defi.garden/?token=BZR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=C0&chain=Ethereum
@@ -2983,9 +2978,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=CAKE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CAKE&poolTypes=Lending
 - https://www.defi.garden/?token=CAKE&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=CAL
-- https://www.defi.garden/?token=CAL&chain=Ethereum
-- https://www.defi.garden/?token=CAL&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CALITA
 - https://www.defi.garden/?token=CALITA&chain=Solana
 - https://www.defi.garden/?token=CALITA&poolTypes=Yield%20Farming
@@ -2997,12 +2989,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=CANTONCC
 - https://www.defi.garden/?token=CANTONCC&chain=Base
 - https://www.defi.garden/?token=CANTONCC&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=CAP
 - https://www.defi.garden/?token=CAP&chain=Arbitrum
 - https://www.defi.garden/?token=CAP&chain=Ethereum
-- https://www.defi.garden/?token=CAP&chain=Solana
 - https://www.defi.garden/?token=CAP&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=CAP&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=CAPACITR
 - https://www.defi.garden/?token=CAPACITR&chain=Base
 - https://www.defi.garden/?token=CAPACITR&poolTypes=LP%2FDEX
@@ -3120,7 +3109,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=CBXRP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CBXRP&poolTypes=Lending
 - https://www.defi.garden/?token=CBXRP&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=CC
 - https://www.defi.garden/?token=CC&chain=Base
 - https://www.defi.garden/?token=CC&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CC0COMPANY
@@ -3134,6 +3122,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=CCAT&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=CCBCH&chain=Ethereum
 - https://www.defi.garden/?token=CCBCH&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=CCC
 - https://www.defi.garden/?token=CCC&chain=Base
 - https://www.defi.garden/?token=CCC&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CCG&chain=Base
@@ -3246,11 +3235,14 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=CHAIN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CHAM&chain=Hyperliquid%20L1
 - https://www.defi.garden/?token=CHAM&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=CHAMELEON&chain=Hyperliquid%20L1
+- https://www.defi.garden/?token=CHAMELEON&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=CHAMP
 - https://www.defi.garden/?token=CHAMP&chain=Base
 - https://www.defi.garden/?token=CHAMP&chain=Polygon
 - https://www.defi.garden/?token=CHAMP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CHAMP&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=CHAMPZ
 - https://www.defi.garden/?token=CHAMPZ&chain=Base
 - https://www.defi.garden/?token=CHAMPZ&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CHANT
@@ -3393,6 +3385,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=CICP&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=CIEL&chain=Ethereum
 - https://www.defi.garden/?token=CIEL&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=CIG
 - https://www.defi.garden/?token=CIG&chain=Ethereum
 - https://www.defi.garden/?token=CIG&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CIL&chain=Ethereum
@@ -3681,10 +3674,14 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=CONCHO
 - https://www.defi.garden/?token=CONCHO&chain=Solana
 - https://www.defi.garden/?token=CONCHO&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=CONDO
 - https://www.defi.garden/?token=CONDO&chain=Base
 - https://www.defi.garden/?token=CONDO&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CONTENT&chain=Base
 - https://www.defi.garden/?token=CONTENT&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=CONVAI
+- https://www.defi.garden/?token=CONVAI&chain=Base
+- https://www.defi.garden/?token=CONVAI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CONWAY
 - https://www.defi.garden/?token=CONWAY&chain=Base
 - https://www.defi.garden/?token=CONWAY&poolTypes=LP%2FDEX
@@ -3758,7 +3755,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=COTI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=COVID&chain=Base
 - https://www.defi.garden/?token=COVID&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=COVO
 - https://www.defi.garden/?token=COVO&chain=Polygon
 - https://www.defi.garden/?token=COVO&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=COW
@@ -3800,9 +3796,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=CRCL
 - https://www.defi.garden/?token=CRCL&chain=Base
 - https://www.defi.garden/?token=CRCL&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=CRCLON
-- https://www.defi.garden/?token=CRCLON&chain=BSC
-- https://www.defi.garden/?token=CRCLON&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=CRCLX
 - https://www.defi.garden/?token=CRCLX&chain=Solana
 - https://www.defi.garden/?token=CRCLX&poolTypes=Yield%20Farming
@@ -4184,7 +4177,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=CZAR
 - https://www.defi.garden/?token=CZAR&chain=Celo
 - https://www.defi.garden/?token=CZAR&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=D.O.G.E
 - https://www.defi.garden/?token=D.O.G.E&chain=Base
 - https://www.defi.garden/?token=D.O.G.E&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=D3
@@ -4195,6 +4187,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DACMLITSTRATEGY&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=DACXI&chain=Ethereum
 - https://www.defi.garden/?token=DACXI&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=DADA
 - https://www.defi.garden/?token=DADA&chain=Base
 - https://www.defi.garden/?token=DADA&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DADDY
@@ -4358,9 +4351,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DEDUST
 - https://www.defi.garden/?token=DEDUST&chain=TON
 - https://www.defi.garden/?token=DEDUST&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=DEE
-- https://www.defi.garden/?token=DEE&chain=Solana
-- https://www.defi.garden/?token=DEE&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=DEEDSTR&chain=Ethereum
 - https://www.defi.garden/?token=DEEDSTR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DEEP
@@ -4425,7 +4415,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DERP
 - https://www.defi.garden/?token=DERP&chain=Ethereum
 - https://www.defi.garden/?token=DERP&chain=Solana
-- https://www.defi.garden/?token=DERP&chain=Sonic
 - https://www.defi.garden/?token=DERP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DERP&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=DESC
@@ -4462,6 +4451,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DEVVE
 - https://www.defi.garden/?token=DEVVE&chain=Ethereum
 - https://www.defi.garden/?token=DEVVE&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=DEWN
 - https://www.defi.garden/?token=DEWN&chain=Base
 - https://www.defi.garden/?token=DEWN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DEXCHECKAI
@@ -4472,7 +4462,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DEXE
 - https://www.defi.garden/?token=DEXE&chain=Ethereum
 - https://www.defi.garden/?token=DEXE&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=DEXL
 - https://www.defi.garden/?token=DEXL&chain=Ethereum
 - https://www.defi.garden/?token=DEXL&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DEXT
@@ -4508,8 +4497,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DFT&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DFX
 - https://www.defi.garden/?token=DFX&chain=Ethereum
-- https://www.defi.garden/?token=DFX&chain=Polygon
-- https://www.defi.garden/?token=DFX&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DFX&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=DG
 - https://www.defi.garden/?token=DG&chain=Ethereum
@@ -4572,6 +4559,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DIEM
 - https://www.defi.garden/?token=DIEM&chain=Base
 - https://www.defi.garden/?token=DIEM&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=DIGG
 - https://www.defi.garden/?token=DIGG&chain=Ethereum
 - https://www.defi.garden/?token=DIGG&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DIGI
@@ -4669,7 +4657,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DNA&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=DNBUY&chain=Ethereum
 - https://www.defi.garden/?token=DNBUY&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=DNC
 - https://www.defi.garden/?token=DNC&chain=Arbitrum
 - https://www.defi.garden/?token=DNC&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DND10
@@ -4720,9 +4707,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DOGE1
 - https://www.defi.garden/?token=DOGE1&chain=Ethereum
 - https://www.defi.garden/?token=DOGE1&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=DOGEAI
-- https://www.defi.garden/?token=DOGEAI&chain=Solana
-- https://www.defi.garden/?token=DOGEAI&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=DOGEBASE
 - https://www.defi.garden/?token=DOGEBASE&chain=Base
 - https://www.defi.garden/?token=DOGEBASE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DOGEFATHER
@@ -4815,6 +4800,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=DOODLE&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=DOODLES&chain=Base
 - https://www.defi.garden/?token=DOODLES&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=DOOK
 - https://www.defi.garden/?token=DOOK&chain=Base
 - https://www.defi.garden/?token=DOOK&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=DOOMER
@@ -5339,7 +5325,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=ENO
 - https://www.defi.garden/?token=ENO&chain=Ethereum
 - https://www.defi.garden/?token=ENO&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=ENQAI
 - https://www.defi.garden/?token=ENQAI&chain=Ethereum
 - https://www.defi.garden/?token=ENQAI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=ENS
@@ -5360,9 +5345,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=EOLAS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=EOS&chain=Base
 - https://www.defi.garden/?token=EOS&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=EP
-- https://www.defi.garden/?token=EP&chain=Polygon
-- https://www.defi.garden/?token=EP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=EPCT&chain=Solana
 - https://www.defi.garden/?token=EPCT&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=EPIC
@@ -5391,9 +5373,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=ERA
 - https://www.defi.garden/?token=ERA&chain=Arbitrum
 - https://www.defi.garden/?token=ERA&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=ERC20
-- https://www.defi.garden/?token=ERC20&chain=Solana
-- https://www.defi.garden/?token=ERC20&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=ERG
 - https://www.defi.garden/?token=ERG&chain=Cardano
 - https://www.defi.garden/?token=ERG&poolTypes=Yield%20Farming
@@ -5538,7 +5517,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=ETHYS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=ETN&chain=Solana
 - https://www.defi.garden/?token=ETN&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=EUDAEMON
 - https://www.defi.garden/?token=EUDAEMON&chain=Base
 - https://www.defi.garden/?token=EUDAEMON&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=EUL
@@ -5580,6 +5558,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=EURCV
 - https://www.defi.garden/?token=EURCV&chain=Ethereum
 - https://www.defi.garden/?token=EURCV&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=EURD
+- https://www.defi.garden/?token=EURD&chain=Solana
+- https://www.defi.garden/?token=EURD&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=EURE
 - https://www.defi.garden/?token=EURE&chain=Arbitrum
 - https://www.defi.garden/?token=EURE&chain=Ethereum
@@ -5672,9 +5653,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=EVE
 - https://www.defi.garden/?token=EVE&chain=Base
 - https://www.defi.garden/?token=EVE&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=EVMOS
-- https://www.defi.garden/?token=EVMOS&chain=Osmosis
-- https://www.defi.garden/?token=EVMOS&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=EVN&chain=Ethereum
 - https://www.defi.garden/?token=EVN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=EVO
@@ -5852,7 +5830,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=FBX&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=FCAGENT&chain=Base
 - https://www.defi.garden/?token=FCAGENT&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=FCKN
 - https://www.defi.garden/?token=FCKN&chain=Base
 - https://www.defi.garden/?token=FCKN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=FCM
@@ -5996,7 +5973,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=FIL
 - https://www.defi.garden/?token=FIL&chain=BSC
 - https://www.defi.garden/?token=FIL&chain=Filecoin
-- https://www.defi.garden/?token=FIL&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=FIL&poolTypes=Lending
 - https://www.defi.garden/?token=FIL&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=FILAMENT&chain=Base
@@ -6169,7 +6145,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=FOOM
 - https://www.defi.garden/?token=FOOM&chain=Ethereum
 - https://www.defi.garden/?token=FOOM&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=FORCE
 - https://www.defi.garden/?token=FORCE&chain=Base
 - https://www.defi.garden/?token=FORCE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=FOREST
@@ -6371,6 +6346,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=FTX
 - https://www.defi.garden/?token=FTX&chain=Solana
 - https://www.defi.garden/?token=FTX&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=FTXTOKEN
 - https://www.defi.garden/?token=FTXTOKEN&chain=Ethereum
 - https://www.defi.garden/?token=FTXTOKEN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=FU
@@ -6557,6 +6533,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=GAMISDUSDC
 - https://www.defi.garden/?token=GAMISDUSDC&chain=Ethereum
 - https://www.defi.garden/?token=GAMISDUSDC&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=GAMISUSDC
 - https://www.defi.garden/?token=GAMISUSDC&chain=Base
 - https://www.defi.garden/?token=GAMISUSDC&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=GAMISXRP
@@ -6588,6 +6565,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=GAS
 - https://www.defi.garden/?token=GAS&chain=Neo
 - https://www.defi.garden/?token=GAS&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=GASCHEAP
+- https://www.defi.garden/?token=GASCHEAP&chain=Base
+- https://www.defi.garden/?token=GASCHEAP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=GASLESS&chain=Ethereum
 - https://www.defi.garden/?token=GASLESS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=GASS
@@ -6817,6 +6797,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=GLDY
 - https://www.defi.garden/?token=GLDY&chain=Solana
 - https://www.defi.garden/?token=GLDY&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=GLE
 - https://www.defi.garden/?token=GLE&chain=Base
 - https://www.defi.garden/?token=GLE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=GLHFSTR&chain=Ethereum
@@ -6847,7 +6828,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=GLUTEU&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=GM
 - https://www.defi.garden/?token=GM&chain=Arbitrum
-- https://www.defi.garden/?token=GM&chain=Base
 - https://www.defi.garden/?token=GM&chain=Ethereum
 - https://www.defi.garden/?token=GM&chain=Hyperliquid%20L1
 - https://www.defi.garden/?token=GM&poolTypes=LP%2FDEX
@@ -6856,6 +6836,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=GMAC&chain=Arbitrum
 - https://www.defi.garden/?token=GMAC&chain=Ethereum
 - https://www.defi.garden/?token=GMAC&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=GMB
 - https://www.defi.garden/?token=GMB&chain=Base
 - https://www.defi.garden/?token=GMB&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=GME
@@ -6951,6 +6932,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=GOETH
 - https://www.defi.garden/?token=GOETH&chain=Algorand
 - https://www.defi.garden/?token=GOETH&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=GOG
 - https://www.defi.garden/?token=GOG&chain=Ethereum
 - https://www.defi.garden/?token=GOG&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=GOGLZ
@@ -6972,9 +6954,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=GOLD&chain=Solana
 - https://www.defi.garden/?token=GOLD&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=GOLD&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=GOLDAO
-- https://www.defi.garden/?token=GOLDAO&chain=ICP
-- https://www.defi.garden/?token=GOLDAO&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=GOLDEN&chain=Ethereum
 - https://www.defi.garden/?token=GOLDEN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=GOLDGR
@@ -7116,9 +7095,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=GS&chain=Ethereum
 - https://www.defi.garden/?token=GS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=GS&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=GSNAKE
-- https://www.defi.garden/?token=GSNAKE&chain=Sonic
-- https://www.defi.garden/?token=GSNAKE&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=GSOL
 - https://www.defi.garden/?token=GSOL&chain=Polkadot
 - https://www.defi.garden/?token=GSOL&poolTypes=Yield%20Farming
@@ -7492,8 +7468,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=HDAI
 - https://www.defi.garden/?token=HDAI&chain=Ethereum
 - https://www.defi.garden/?token=HDAI&poolTypes=Lending
-- https://www.defi.garden/?token=HDAO&chain=Polygon
-- https://www.defi.garden/?token=HDAO&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=HDN
 - https://www.defi.garden/?token=HDN&chain=Arbitrum
 - https://www.defi.garden/?token=HDN&poolTypes=LP%2FDEX
@@ -7593,7 +7567,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=HGETH
 - https://www.defi.garden/?token=HGETH&chain=Ethereum
 - https://www.defi.garden/?token=HGETH&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=HGETH&poolTypes=Lending
 - https://www.defi.garden/?token=HGETH&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=HGUN&chain=Hyperliquid%20L1
 - https://www.defi.garden/?token=HGUN&poolTypes=Yield%20Farming
@@ -7646,6 +7619,8 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=HIVE
 - https://www.defi.garden/?token=HIVE&chain=Base
 - https://www.defi.garden/?token=HIVE&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=HKB&chain=Solana
+- https://www.defi.garden/?token=HKB&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=HKDC&chain=Solana
 - https://www.defi.garden/?token=HKDC&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=HKDT&chain=Solana
@@ -7694,11 +7669,8 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=HODLCOIN&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=HOE&chain=Ethereum
 - https://www.defi.garden/?token=HOE&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=HOG
 - https://www.defi.garden/?token=HOG&chain=Base
-- https://www.defi.garden/?token=HOG&chain=Solana
 - https://www.defi.garden/?token=HOG&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=HOG&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=HOGE
 - https://www.defi.garden/?token=HOGE&chain=Ethereum
 - https://www.defi.garden/?token=HOGE&poolTypes=LP%2FDEX
@@ -7868,6 +7840,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=HUNTERBANK
 - https://www.defi.garden/?token=HUNTERBANK&chain=Base
 - https://www.defi.garden/?token=HUNTERBANK&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=HUNTERIUS
+- https://www.defi.garden/?token=HUNTERIUS&chain=Base
+- https://www.defi.garden/?token=HUNTERIUS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=HUSD
 - https://www.defi.garden/?token=HUSD&chain=BSC
 - https://www.defi.garden/?token=HUSD&chain=Heco
@@ -8074,6 +8049,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=ICFC
 - https://www.defi.garden/?token=ICFC&chain=ICP
 - https://www.defi.garden/?token=ICFC&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=ICHI
 - https://www.defi.garden/?token=ICHI&chain=Ethereum
 - https://www.defi.garden/?token=ICHI&chain=Polygon
 - https://www.defi.garden/?token=ICHI&poolTypes=LP%2FDEX
@@ -8250,7 +8226,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=INUINU
 - https://www.defi.garden/?token=INUINU&chain=Ethereum
 - https://www.defi.garden/?token=INUINU&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=INUS
 - https://www.defi.garden/?token=INUS&chain=Ethereum
 - https://www.defi.garden/?token=INUS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=INV
@@ -8277,7 +8252,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=IOTA&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=IOTAI&chain=Ethereum
 - https://www.defi.garden/?token=IOTAI&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=IP
 - https://www.defi.garden/?token=IP&chain=Base
 - https://www.defi.garden/?token=IP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=IPXAI
@@ -8308,6 +8282,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=ISC
 - https://www.defi.garden/?token=ISC&chain=Solana
 - https://www.defi.garden/?token=ISC&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=ISD
+- https://www.defi.garden/?token=ISD&chain=Solana
+- https://www.defi.garden/?token=ISD&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=ISLAND
 - https://www.defi.garden/?token=ISLAND&chain=Ethereum
 - https://www.defi.garden/?token=ISLAND&chain=Solana
@@ -8396,6 +8373,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=JASPER
 - https://www.defi.garden/?token=JASPER&chain=Solana
 - https://www.defi.garden/?token=JASPER&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=JCHF
 - https://www.defi.garden/?token=JCHF&chain=Polygon
 - https://www.defi.garden/?token=JCHF&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=JECAK&chain=Base
@@ -8459,7 +8437,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=JITOSOL&chain=Solana
 - https://www.defi.garden/?token=JITOSOL&poolTypes=Staking
 - https://www.defi.garden/?token=JITOSOL&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=JJ
 - https://www.defi.garden/?token=JJ&chain=Ethereum
 - https://www.defi.garden/?token=JJ&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=JKL
@@ -8563,6 +8540,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=JTRSY
 - https://www.defi.garden/?token=JTRSY&chain=Ethereum
 - https://www.defi.garden/?token=JTRSY&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=JUAN
+- https://www.defi.garden/?token=JUAN&chain=Solana
+- https://www.defi.garden/?token=JUAN&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=JUJUHIHI&chain=Base
 - https://www.defi.garden/?token=JUJUHIHI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=JULIANUSDC
@@ -8637,6 +8617,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=KAIKU&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=KAIO&chain=Base
 - https://www.defi.garden/?token=KAIO&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=KAITO
 - https://www.defi.garden/?token=KAITO&chain=Base
 - https://www.defi.garden/?token=KAITO&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=KAIUSDC
@@ -8663,7 +8644,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=KARRAT
 - https://www.defi.garden/?token=KARRAT&chain=Ethereum
 - https://www.defi.garden/?token=KARRAT&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=KARUM
 - https://www.defi.garden/?token=KARUM&chain=Base
 - https://www.defi.garden/?token=KARUM&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=KAS&chain=Solana
@@ -8696,6 +8676,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=KDK
 - https://www.defi.garden/?token=KDK&chain=Berachain
 - https://www.defi.garden/?token=KDK&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=KEANU
 - https://www.defi.garden/?token=KEANU&chain=Ethereum
 - https://www.defi.garden/?token=KEANU&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=KEEPER&chain=Base
@@ -8710,7 +8691,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=KEK&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=KEKE&chain=Ethereum
 - https://www.defi.garden/?token=KEKE&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=KEKEC
 - https://www.defi.garden/?token=KEKEC&chain=Ethereum
 - https://www.defi.garden/?token=KEKEC&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=KEKIUS
@@ -8926,8 +8906,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=KODIWETH
 - https://www.defi.garden/?token=KODIWETH&chain=Berachain
 - https://www.defi.garden/?token=KODIWETH&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=KODIZERO&chain=Berachain
-- https://www.defi.garden/?token=KODIZERO&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=KOGE
 - https://www.defi.garden/?token=KOGE&chain=BSC
 - https://www.defi.garden/?token=KOGE&poolTypes=LP%2FDEX
@@ -9084,6 +9062,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=LADYS
 - https://www.defi.garden/?token=LADYS&chain=Ethereum
 - https://www.defi.garden/?token=LADYS&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=LAIKA
 - https://www.defi.garden/?token=LAIKA&chain=Ethereum
 - https://www.defi.garden/?token=LAIKA&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=LAINESOL
@@ -9200,6 +9179,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=LEGACY
 - https://www.defi.garden/?token=LEGACY&chain=Starknet
 - https://www.defi.garden/?token=LEGACY&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=LEND
 - https://www.defi.garden/?token=LEND&chain=Ethereum
 - https://www.defi.garden/?token=LEND&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=LENDS&chain=Ethereum
@@ -9224,6 +9204,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=LETSBONK
 - https://www.defi.garden/?token=LETSBONK&chain=Solana
 - https://www.defi.garden/?token=LETSBONK&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=LETSGO
 - https://www.defi.garden/?token=LETSGO&chain=Ethereum
 - https://www.defi.garden/?token=LETSGO&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=LFG&chain=Ethereum
@@ -9394,7 +9375,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=LL
 - https://www.defi.garden/?token=LL&chain=Ethereum
 - https://www.defi.garden/?token=LL&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=LLD
 - https://www.defi.garden/?token=LLD&chain=Ethereum
 - https://www.defi.garden/?token=LLD&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=LLM
@@ -9472,7 +9452,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=LON&chain=Arbitrum
 - https://www.defi.garden/?token=LON&chain=Ethereum
 - https://www.defi.garden/?token=LON&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=LONG
 - https://www.defi.garden/?token=LONG&chain=Base
 - https://www.defi.garden/?token=LONG&chain=Hyperliquid%20L1
 - https://www.defi.garden/?token=LONG&chain=ZKsync%20Era
@@ -9675,6 +9654,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=LYNX
 - https://www.defi.garden/?token=LYNX&chain=Linea
 - https://www.defi.garden/?token=LYNX&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=LYP
 - https://www.defi.garden/?token=LYP&chain=Base
 - https://www.defi.garden/?token=LYP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=LYRA
@@ -9799,7 +9779,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MARG
 - https://www.defi.garden/?token=MARG&chain=TON
 - https://www.defi.garden/?token=MARG&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=MARS
 - https://www.defi.garden/?token=MARS&chain=Ethereum
 - https://www.defi.garden/?token=MARS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MARSCOIN
@@ -9937,6 +9916,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MD
 - https://www.defi.garden/?token=MD&chain=Solana
 - https://www.defi.garden/?token=MD&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=MDOGAI
 - https://www.defi.garden/?token=MDOGAI&chain=Base
 - https://www.defi.garden/?token=MDOGAI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MDX
@@ -10008,14 +9988,12 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MENDI
 - https://www.defi.garden/?token=MENDI&chain=Linea
 - https://www.defi.garden/?token=MENDI&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=MEOW
 - https://www.defi.garden/?token=MEOW&chain=Ethereum
-- https://www.defi.garden/?token=MEOW&chain=Solana
 - https://www.defi.garden/?token=MEOW&chain=ZKsync%20Era
 - https://www.defi.garden/?token=MEOW&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=MEOW&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=MERCURY&chain=Base
 - https://www.defi.garden/?token=MERCURY&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=MERIT
 - https://www.defi.garden/?token=MERIT&chain=Base
 - https://www.defi.garden/?token=MERIT&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MERL&chain=BSC
@@ -10162,6 +10140,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MINI&chain=Solana
 - https://www.defi.garden/?token=MINI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MINI&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=MINION
+- https://www.defi.garden/?token=MINION&chain=Solana
+- https://www.defi.garden/?token=MINION&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=MINKY&chain=Base
 - https://www.defi.garden/?token=MINKY&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MINTEDMERCH
@@ -10231,9 +10212,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MMGA
 - https://www.defi.garden/?token=MMGA&chain=Solana
 - https://www.defi.garden/?token=MMGA&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=MMM
-- https://www.defi.garden/?token=MMM&chain=Solana
-- https://www.defi.garden/?token=MMM&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=MMT&chain=Solana
 - https://www.defi.garden/?token=MMT&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=MMX&chain=Ethereum
@@ -10313,7 +10291,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MOLTEN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MOLTH&chain=Base
 - https://www.defi.garden/?token=MOLTH&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=MOLTLINE
 - https://www.defi.garden/?token=MOLTLINE&chain=Base
 - https://www.defi.garden/?token=MOLTLINE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MOLTROAD&chain=Base
@@ -10351,6 +10328,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MONJI&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=MONKE&chain=Ethereum
 - https://www.defi.garden/?token=MONKE&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=MONKEY
+- https://www.defi.garden/?token=MONKEY&chain=Solana
+- https://www.defi.garden/?token=MONKEY&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=MONKEYS&chain=Ethereum
 - https://www.defi.garden/?token=MONKEYS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MONKY&chain=BSC
@@ -10459,10 +10439,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MPETH
 - https://www.defi.garden/?token=MPETH&chain=Ethereum
 - https://www.defi.garden/?token=MPETH&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=MPFA&chain=Solana
-- https://www.defi.garden/?token=MPFA&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=MPH&chain=Ethereum
-- https://www.defi.garden/?token=MPH&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MPLX
 - https://www.defi.garden/?token=MPLX&chain=Solana
 - https://www.defi.garden/?token=MPLX&poolTypes=Yield%20Farming
@@ -10529,9 +10505,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MSOL&chain=Solana
 - https://www.defi.garden/?token=MSOL&poolTypes=Staking
 - https://www.defi.garden/?token=MSOL&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=MSOP
-- https://www.defi.garden/?token=MSOP&chain=OP%20Mainnet
-- https://www.defi.garden/?token=MSOP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MSTR
 - https://www.defi.garden/?token=MSTR&chain=Base
 - https://www.defi.garden/?token=MSTR&chain=Defichain
@@ -10636,6 +10609,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MUSDC
 - https://www.defi.garden/?token=MUSDC&chain=Arbitrum
 - https://www.defi.garden/?token=MUSDC&chain=Base
+- https://www.defi.garden/?token=MUSDC&chain=Ethereum
 - https://www.defi.garden/?token=MUSDC&poolTypes=Lending
 - https://www.defi.garden/?token=MUSDC&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=MUSDT0
@@ -10648,8 +10622,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MUSKIT
 - https://www.defi.garden/?token=MUSKIT&chain=Solana
 - https://www.defi.garden/?token=MUSKIT&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=MUST&chain=Ethereum
-- https://www.defi.garden/?token=MUST&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=MUTM
 - https://www.defi.garden/?token=MUTM&chain=Base
 - https://www.defi.garden/?token=MUTM&chain=Ethereum
@@ -10664,9 +10636,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=MVL
 - https://www.defi.garden/?token=MVL&chain=Ethereum
 - https://www.defi.garden/?token=MVL&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=MVPW
-- https://www.defi.garden/?token=MVPW&chain=Solana
-- https://www.defi.garden/?token=MVPW&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=MVT
 - https://www.defi.garden/?token=MVT&chain=Venom
 - https://www.defi.garden/?token=MVT&poolTypes=Yield%20Farming
@@ -10924,6 +10893,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=NEUY
 - https://www.defi.garden/?token=NEUY&chain=Polygon
 - https://www.defi.garden/?token=NEUY&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=NEWO
 - https://www.defi.garden/?token=NEWO&chain=Ethereum
 - https://www.defi.garden/?token=NEWO&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=NEWSOM
@@ -10971,6 +10941,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=NFT&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=NFTD&chain=Avalanche
 - https://www.defi.garden/?token=NFTD&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=NFTX
 - https://www.defi.garden/?token=NFTX&chain=Ethereum
 - https://www.defi.garden/?token=NFTX&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=NG
@@ -11029,9 +11000,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=NKT&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=NKYS&chain=Hyperliquid%20L1
 - https://www.defi.garden/?token=NKYS&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=NLC
-- https://www.defi.garden/?token=NLC&chain=Polygon
-- https://www.defi.garden/?token=NLC&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=NLCRD
 - https://www.defi.garden/?token=NLCRD&chain=Plume%20Mainnet
 - https://www.defi.garden/?token=NLCRD&poolTypes=Yield%20Farming
@@ -11071,9 +11039,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=NOELCLAW
 - https://www.defi.garden/?token=NOELCLAW&chain=Base
 - https://www.defi.garden/?token=NOELCLAW&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=NOHAT
-- https://www.defi.garden/?token=NOHAT&chain=Solana
-- https://www.defi.garden/?token=NOHAT&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=NOICE&chain=Base
 - https://www.defi.garden/?token=NOICE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=NOJEET&chain=Base
@@ -11197,6 +11162,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=NUIT
 - https://www.defi.garden/?token=NUIT&chain=Solana
 - https://www.defi.garden/?token=NUIT&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=NUMBER1
+- https://www.defi.garden/?token=NUMBER1&chain=Base
+- https://www.defi.garden/?token=NUMBER1&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=NUMETAL
 - https://www.defi.garden/?token=NUMETAL&chain=Base
 - https://www.defi.garden/?token=NUMETAL&poolTypes=LP%2FDEX
@@ -11237,6 +11205,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=NUSDT&chain=BSC
 - https://www.defi.garden/?token=NUSDT&chain=Ethereum
 - https://www.defi.garden/?token=NUSDT&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=NUT
 - https://www.defi.garden/?token=NUT&chain=Ethereum
 - https://www.defi.garden/?token=NUT&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=NUTS
@@ -11418,9 +11387,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=OIL&chain=Solana
 - https://www.defi.garden/?token=OIL&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=OIL&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=OIL1
-- https://www.defi.garden/?token=OIL1&chain=Solana
-- https://www.defi.garden/?token=OIL1&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=OK4MI&chain=Ethereum
 - https://www.defi.garden/?token=OK4MI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=OKB
@@ -11441,6 +11407,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=OLAS&chain=Solana
 - https://www.defi.garden/?token=OLAS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=OLAS&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=OLDSLERF
 - https://www.defi.garden/?token=OLDSLERF&chain=Solana
 - https://www.defi.garden/?token=OLDSLERF&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=OLP
@@ -11466,6 +11433,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=OMNI&chain=Ethereum
 - https://www.defi.garden/?token=OMNI&chain=Polygon
 - https://www.defi.garden/?token=OMNI&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=OMOCHI
+- https://www.defi.garden/?token=OMOCHI&chain=Solana
+- https://www.defi.garden/?token=OMOCHI&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=ONCHAIN
 - https://www.defi.garden/?token=ONCHAIN&chain=Base
 - https://www.defi.garden/?token=ONCHAIN&poolTypes=LP%2FDEX
@@ -11547,7 +11517,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=OPENHUMAN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=OPENVERSE&chain=Solana
 - https://www.defi.garden/?token=OPENVERSE&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=OPENWORK
 - https://www.defi.garden/?token=OPENWORK&chain=Base
 - https://www.defi.garden/?token=OPENWORK&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=OPENX
@@ -11713,6 +11682,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=OUSG&chain=Ethereum
 - https://www.defi.garden/?token=OUSG&chain=XRPL
 - https://www.defi.garden/?token=OUSG&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=OUTLIER
+- https://www.defi.garden/?token=OUTLIER&chain=Solana
+- https://www.defi.garden/?token=OUTLIER&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=OVER
 - https://www.defi.garden/?token=OVER&chain=Arbitrum
 - https://www.defi.garden/?token=OVER&chain=Base
@@ -11778,7 +11750,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=PALU
 - https://www.defi.garden/?token=PALU&chain=Solana
 - https://www.defi.garden/?token=PALU&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=PANANA
 - https://www.defi.garden/?token=PANANA&chain=Base
 - https://www.defi.garden/?token=PANANA&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=PANDA
@@ -11808,7 +11779,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=PASG
 - https://www.defi.garden/?token=PASG&chain=Osmosis
 - https://www.defi.garden/?token=PASG&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=PAT
 - https://www.defi.garden/?token=PAT&chain=Base
 - https://www.defi.garden/?token=PAT&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=PATIENCE
@@ -12097,6 +12067,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=PIB&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=PICA&chain=Ethereum
 - https://www.defi.garden/?token=PICA&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=PICKLE
 - https://www.defi.garden/?token=PICKLE&chain=Ethereum
 - https://www.defi.garden/?token=PICKLE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=PICOSOL
@@ -12196,6 +12167,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=PLANET&chain=Ethereum
 - https://www.defi.garden/?token=PLANET&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=PLANKTON
+- https://www.defi.garden/?token=PLANKTON&chain=Solana
 - https://www.defi.garden/?token=PLANKTON&chain=TON
 - https://www.defi.garden/?token=PLANKTON&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=PLASMAUSD
@@ -12297,6 +12269,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=POKE
 - https://www.defi.garden/?token=POKE&chain=Solana
 - https://www.defi.garden/?token=POKE&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=POKEHUB
+- https://www.defi.garden/?token=POKEHUB&chain=Solana
+- https://www.defi.garden/?token=POKEHUB&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=POKEMON
 - https://www.defi.garden/?token=POKEMON&chain=Solana
 - https://www.defi.garden/?token=POKEMON&poolTypes=Yield%20Farming
@@ -12415,6 +12390,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=PPAI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=PPPP&chain=Ethereum
 - https://www.defi.garden/?token=PPPP&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=PPUMP
 - https://www.defi.garden/?token=PPUMP&chain=Base
 - https://www.defi.garden/?token=PPUMP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=PPX
@@ -12422,6 +12398,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=PPX&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=PPY&chain=Polygon
 - https://www.defi.garden/?token=PPY&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=PRANA
 - https://www.defi.garden/?token=PRANA&chain=Polygon
 - https://www.defi.garden/?token=PRANA&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=PRCL
@@ -12648,11 +12625,13 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=PX
 - https://www.defi.garden/?token=PX&chain=TON
 - https://www.defi.garden/?token=PX&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=PXAE
+- https://www.defi.garden/?token=PXAE&chain=Solana
+- https://www.defi.garden/?token=PXAE&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=PXETH
 - https://www.defi.garden/?token=PXETH&chain=Ethereum
 - https://www.defi.garden/?token=PXETH&chain=OP%20Mainnet
 - https://www.defi.garden/?token=PXETH&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=PXETH&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=PXK
 - https://www.defi.garden/?token=PXK&chain=Solana
 - https://www.defi.garden/?token=PXK&poolTypes=Yield%20Farming
@@ -12698,17 +12677,13 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=PZM&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=QAIT
 - https://www.defi.garden/?token=QAIT&chain=BSC
-- https://www.defi.garden/?token=QAIT&chain=Solana
 - https://www.defi.garden/?token=QAIT&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=QAIT&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=QANX
 - https://www.defi.garden/?token=QANX&chain=Ethereum
 - https://www.defi.garden/?token=QANX&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=QBIO
 - https://www.defi.garden/?token=QBIO&chain=Solana
 - https://www.defi.garden/?token=QBIO&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=QBIT&chain=Ethereum
-- https://www.defi.garden/?token=QBIT&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=QE
 - https://www.defi.garden/?token=QE&chain=Base
 - https://www.defi.garden/?token=QE&poolTypes=LP%2FDEX
@@ -12891,6 +12866,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=RAZZ
 - https://www.defi.garden/?token=RAZZ&chain=Solana
 - https://www.defi.garden/?token=RAZZ&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=RB
 - https://www.defi.garden/?token=RB&chain=Base
 - https://www.defi.garden/?token=RB&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=RBC
@@ -13172,9 +13148,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=RING&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=RIO
 - https://www.defi.garden/?token=RIO&chain=Ethereum
-- https://www.defi.garden/?token=RIO&chain=Osmosis
 - https://www.defi.garden/?token=RIO&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=RIO&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=RION
 - https://www.defi.garden/?token=RION&chain=Aptos
 - https://www.defi.garden/?token=RION&poolTypes=Yield%20Farming
@@ -13400,6 +13374,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=RSETH&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=RSETH&poolTypes=Lending
 - https://www.defi.garden/?token=RSETH&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=RSGP
 - https://www.defi.garden/?token=RSGP&chain=Base
 - https://www.defi.garden/?token=RSGP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=RSR
@@ -13455,7 +13430,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=RUNE&chain=Ethereum
 - https://www.defi.garden/?token=RUNE&chain=Litecoin
 - https://www.defi.garden/?token=RUNE&chain=XRPL
-- https://www.defi.garden/?token=RUNE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=RUNE&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=RUNNER&chain=Hyperliquid%20L1
 - https://www.defi.garden/?token=RUNNER&poolTypes=Yield%20Farming
@@ -13490,7 +13464,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=RVLT
 - https://www.defi.garden/?token=RVLT&chain=Polygon
 - https://www.defi.garden/?token=RVLT&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=RVST
 - https://www.defi.garden/?token=RVST&chain=Ethereum
 - https://www.defi.garden/?token=RVST&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=RVV
@@ -13513,6 +13486,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=RXLP
 - https://www.defi.garden/?token=RXLP&chain=Ethereum
 - https://www.defi.garden/?token=RXLP&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=RXS
 - https://www.defi.garden/?token=RXS&chain=Base
 - https://www.defi.garden/?token=RXS&chain=Ethereum
 - https://www.defi.garden/?token=RXS&poolTypes=LP%2FDEX
@@ -13574,8 +13548,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SAITO&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SAIX&chain=Base
 - https://www.defi.garden/?token=SAIX&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=SAKE&chain=Base
-- https://www.defi.garden/?token=SAKE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SAKURA
 - https://www.defi.garden/?token=SAKURA&chain=Solana
 - https://www.defi.garden/?token=SAKURA&poolTypes=Yield%20Farming
@@ -13788,6 +13760,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SCRVUSDC&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SCRVUSDT&chain=Fantom
 - https://www.defi.garden/?token=SCRVUSDT&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=SCS
 - https://www.defi.garden/?token=SCS&chain=Solana
 - https://www.defi.garden/?token=SCS&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=SCTRL
@@ -14087,7 +14060,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SHART
 - https://www.defi.garden/?token=SHART&chain=Hyperliquid%20L1
 - https://www.defi.garden/?token=SHART&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=SHD
 - https://www.defi.garden/?token=SHD&chain=Ethereum
 - https://www.defi.garden/?token=SHD&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SHDW
@@ -14143,8 +14115,10 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SHIBU
 - https://www.defi.garden/?token=SHIBU&chain=Solana
 - https://www.defi.garden/?token=SHIBU&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=SHIFU
 - https://www.defi.garden/?token=SHIFU&chain=Ethereum
 - https://www.defi.garden/?token=SHIFU&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=SHIK
 - https://www.defi.garden/?token=SHIK&chain=Ethereum
 - https://www.defi.garden/?token=SHIK&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SHIKOKU
@@ -14173,6 +14147,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SHITREA
 - https://www.defi.garden/?token=SHITREA&chain=Citrea
 - https://www.defi.garden/?token=SHITREA&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=SHIV
 - https://www.defi.garden/?token=SHIV&chain=Ethereum
 - https://www.defi.garden/?token=SHIV&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SHKOOBY&chain=Ethereum
@@ -14188,6 +14163,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SHOGGOTH
 - https://www.defi.garden/?token=SHOGGOTH&chain=Solana
 - https://www.defi.garden/?token=SHOGGOTH&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=SHOGUN
 - https://www.defi.garden/?token=SHOGUN&chain=Base
 - https://www.defi.garden/?token=SHOGUN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SHORT&chain=Base
@@ -14199,6 +14175,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SHRUB&chain=Solana
 - https://www.defi.garden/?token=SHRUB&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SHRUB&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=SHU
 - https://www.defi.garden/?token=SHU&chain=Ethereum
 - https://www.defi.garden/?token=SHU&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SHUSD
@@ -14332,6 +14309,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SKID
 - https://www.defi.garden/?token=SKID&chain=Solana
 - https://www.defi.garden/?token=SKID&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=SKINUT
 - https://www.defi.garden/?token=SKINUT&chain=Base
 - https://www.defi.garden/?token=SKINUT&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SKITTEN
@@ -14446,7 +14424,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SMOKE
 - https://www.defi.garden/?token=SMOKE&chain=Solana
 - https://www.defi.garden/?token=SMOKE&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=SMOKEFLEET
 - https://www.defi.garden/?token=SMOKEFLEET&chain=Solana
 - https://www.defi.garden/?token=SMOKEFLEET&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=SMOKEY&chain=Solana
@@ -14544,7 +14521,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SNX
 - https://www.defi.garden/?token=SNX&chain=Ethereum
 - https://www.defi.garden/?token=SNX&chain=OP%20Mainnet
-- https://www.defi.garden/?token=SNX&chain=Polygon
 - https://www.defi.garden/?token=SNX&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SNX&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=SNYPE&chain=Hyperliquid%20L1
@@ -14763,7 +14739,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SPETH
 - https://www.defi.garden/?token=SPETH&chain=Ethereum
 - https://www.defi.garden/?token=SPETH&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=SPHINCS
 - https://www.defi.garden/?token=SPHINCS&chain=Ethereum
 - https://www.defi.garden/?token=SPHINCS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SPICE&chain=Ethereum
@@ -14922,9 +14897,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SS&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=SSC&chain=BSC
 - https://www.defi.garden/?token=SSC&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=SSD5000
-- https://www.defi.garden/?token=SSD5000&chain=Solana
-- https://www.defi.garden/?token=SSD5000&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=SSHIB
 - https://www.defi.garden/?token=SSHIB&chain=Solana
 - https://www.defi.garden/?token=SSHIB&poolTypes=Yield%20Farming
@@ -15012,9 +14984,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=STARMAN
 - https://www.defi.garden/?token=STARMAN&chain=Ethereum
 - https://www.defi.garden/?token=STARMAN&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=STARS
-- https://www.defi.garden/?token=STARS&chain=Osmosis
-- https://www.defi.garden/?token=STARS&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=STARSHIP
 - https://www.defi.garden/?token=STARSHIP&chain=Solana
 - https://www.defi.garden/?token=STARSHIP&poolTypes=Yield%20Farming
@@ -15159,12 +15128,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=STM
 - https://www.defi.garden/?token=STM&chain=Ethereum
 - https://www.defi.garden/?token=STM&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=STMATIC&chain=Polygon
-- https://www.defi.garden/?token=STMATIC&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=STNK
 - https://www.defi.garden/?token=STNK&chain=Solana
 - https://www.defi.garden/?token=STNK&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=STNXM
 - https://www.defi.garden/?token=STNXM&chain=Ethereum
 - https://www.defi.garden/?token=STNXM&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=STOCHASTIC
@@ -15248,6 +15214,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=STRKBTC
 - https://www.defi.garden/?token=STRKBTC&chain=Starknet
 - https://www.defi.garden/?token=STRKBTC&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=STRNGR
 - https://www.defi.garden/?token=STRNGR&chain=Ethereum
 - https://www.defi.garden/?token=STRNGR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=STRONG
@@ -15277,6 +15244,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=STSTX&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=STSTXBTC&chain=Stacks
 - https://www.defi.garden/?token=STSTXBTC&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=STSUI
 - https://www.defi.garden/?token=STSUI&chain=Sui
 - https://www.defi.garden/?token=STSUI&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=STTIA&chain=Osmosis
@@ -15419,12 +15387,12 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SUPERWETH&chain=Base
 - https://www.defi.garden/?token=SUPERWETH&chain=Ethereum
 - https://www.defi.garden/?token=SUPERWETH&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=SUPH
 - https://www.defi.garden/?token=SUPH&chain=Base
 - https://www.defi.garden/?token=SUPH&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SUPPOMAN
 - https://www.defi.garden/?token=SUPPOMAN&chain=Solana
 - https://www.defi.garden/?token=SUPPOMAN&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=SUPR
 - https://www.defi.garden/?token=SUPR&chain=Base
 - https://www.defi.garden/?token=SUPR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SURE&chain=Ethereum
@@ -15664,6 +15632,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SYMM
 - https://www.defi.garden/?token=SYMM&chain=Base
 - https://www.defi.garden/?token=SYMM&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=SYN
 - https://www.defi.garden/?token=SYN&chain=Ethereum
 - https://www.defi.garden/?token=SYN&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SYN&poolTypes=Staking
@@ -15672,9 +15641,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SYND
 - https://www.defi.garden/?token=SYND&chain=Base
 - https://www.defi.garden/?token=SYND&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=SYNDOG
-- https://www.defi.garden/?token=SYNDOG&chain=Base
-- https://www.defi.garden/?token=SYNDOG&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SYNTH
 - https://www.defi.garden/?token=SYNTH&chain=Base
 - https://www.defi.garden/?token=SYNTH&poolTypes=LP%2FDEX
@@ -15688,6 +15654,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=SYNUSDX&chain=Ethereum
 - https://www.defi.garden/?token=SYNUSDX&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=SYRUP
+- https://www.defi.garden/?token=SYRUP&chain=Base
 - https://www.defi.garden/?token=SYRUP&chain=Ethereum
 - https://www.defi.garden/?token=SYRUP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=SYRUP&poolTypes=Yield%20Farming
@@ -15785,6 +15752,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=TAOLOR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=TAONU&chain=Ethereum
 - https://www.defi.garden/?token=TAONU&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=TAOS
 - https://www.defi.garden/?token=TAOS&chain=Base
 - https://www.defi.garden/?token=TAOS&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=TAOSHI
@@ -15829,6 +15797,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=TBL
 - https://www.defi.garden/?token=TBL&chain=XRPL
 - https://www.defi.garden/?token=TBL&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=TBR
 - https://www.defi.garden/?token=TBR&chain=Base
 - https://www.defi.garden/?token=TBR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=TBTC
@@ -16019,6 +15988,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=THL
 - https://www.defi.garden/?token=THL&chain=Aptos
 - https://www.defi.garden/?token=THL&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=THOR
 - https://www.defi.garden/?token=THOR&chain=Ethereum
 - https://www.defi.garden/?token=THOR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=THOR&poolTypes=Yield%20Farming
@@ -16152,7 +16122,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=TOMMY&chain=Solana
 - https://www.defi.garden/?token=TOMMY&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=TON
-- https://www.defi.garden/?token=TON&chain=Solana
 - https://www.defi.garden/?token=TON&chain=TON
 - https://www.defi.garden/?token=TON&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=TONCOIN
@@ -16284,9 +16253,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=TRIPLETON
 - https://www.defi.garden/?token=TRIPLETON&chain=TON
 - https://www.defi.garden/?token=TRIPLETON&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=TRISIG
-- https://www.defi.garden/?token=TRISIG&chain=Solana
-- https://www.defi.garden/?token=TRISIG&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=TRN
 - https://www.defi.garden/?token=TRN&chain=Base
 - https://www.defi.garden/?token=TRN&poolTypes=LP%2FDEX
@@ -16350,6 +16316,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=TRUSTK
 - https://www.defi.garden/?token=TRUSTK&chain=BSC
 - https://www.defi.garden/?token=TRUSTK&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=TRUTH
 - https://www.defi.garden/?token=TRUTH&chain=Sui
 - https://www.defi.garden/?token=TRUTH&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=TRVL
@@ -16427,6 +16394,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=TTD
 - https://www.defi.garden/?token=TTD&chain=BSC
 - https://www.defi.garden/?token=TTD&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=TTRUMP
 - https://www.defi.garden/?token=TTRUMP&chain=Base
 - https://www.defi.garden/?token=TTRUMP&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=TULIPAUSDC
@@ -16471,9 +16439,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=TUTC&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=TUX&chain=OP%20Mainnet
 - https://www.defi.garden/?token=TUX&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=TVR
-- https://www.defi.garden/?token=TVR&chain=Solana
-- https://www.defi.garden/?token=TVR&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=TW&chain=Solana
 - https://www.defi.garden/?token=TW&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=TW33T&chain=Ethereum
@@ -16572,6 +16537,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=UGG
 - https://www.defi.garden/?token=UGG&chain=Solana
 - https://www.defi.garden/?token=UGG&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=UGXC
 - https://www.defi.garden/?token=UGXC&chain=Solana
 - https://www.defi.garden/?token=UGXC&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=UHDC
@@ -16611,10 +16577,14 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=UMA&chain=Ethereum
 - https://www.defi.garden/?token=UMA&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=UMA&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=UMAX
 - https://www.defi.garden/?token=UMAX&chain=Base
 - https://www.defi.garden/?token=UMAX&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=UMX&chain=Ethereum
 - https://www.defi.garden/?token=UMX&poolTypes=LP%2FDEX
+- https://www.defi.garden/?token=UMXM
+- https://www.defi.garden/?token=UMXM&chain=Base
+- https://www.defi.garden/?token=UMXM&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=UNCN
 - https://www.defi.garden/?token=UNCN&chain=Polygon
 - https://www.defi.garden/?token=UNCN&poolTypes=LP%2FDEX
@@ -17235,7 +17205,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=USHI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=USK&chain=Ethereum
 - https://www.defi.garden/?token=USK&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=USL
 - https://www.defi.garden/?token=USL&chain=TON
 - https://www.defi.garden/?token=USL&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=USN
@@ -17316,7 +17285,9 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=USUSDS&chain=Ethereum
 - https://www.defi.garden/?token=USUSDS&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=USWR
+- https://www.defi.garden/?token=USWR&chain=Base
 - https://www.defi.garden/?token=USWR&chain=Solana
+- https://www.defi.garden/?token=USWR&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=USWR&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=USX
 - https://www.defi.garden/?token=USX&chain=OP%20Mainnet
@@ -17627,7 +17598,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=VISION&chain=Polygon
 - https://www.defi.garden/?token=VISION&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=VISION&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=VISUALIZEVALUE
 - https://www.defi.garden/?token=VISUALIZEVALUE&chain=Base
 - https://www.defi.garden/?token=VISUALIZEVALUE&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=VITA
@@ -18982,6 +18952,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=XMDX&chain=BSC
 - https://www.defi.garden/?token=XMDX&chain=Heco
 - https://www.defi.garden/?token=XMDX&poolTypes=Yield%20Farming
+- https://www.defi.garden/?token=XMN
 - https://www.defi.garden/?token=XMN&chain=Sui
 - https://www.defi.garden/?token=XMN&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=XMONEY
@@ -19321,7 +19292,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=YNBNB
 - https://www.defi.garden/?token=YNBNB&chain=BSC
 - https://www.defi.garden/?token=YNBNB&poolTypes=Yield%20Farming
-- https://www.defi.garden/?token=YNBNBX
 - https://www.defi.garden/?token=YNBNBX&chain=BSC
 - https://www.defi.garden/?token=YNBNBX&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=YND
@@ -19414,9 +19384,6 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=YSEC
 - https://www.defi.garden/?token=YSEC&chain=Ethereum
 - https://www.defi.garden/?token=YSEC&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=YSOL
-- https://www.defi.garden/?token=YSOL&chain=Solana
-- https://www.defi.garden/?token=YSOL&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=YSYBOLD&chain=Ethereum
 - https://www.defi.garden/?token=YSYBOLD&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=YSYG
@@ -19448,6 +19415,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=YUSDX
 - https://www.defi.garden/?token=YUSDX&chain=Flare
 - https://www.defi.garden/?token=YUSDX&poolTypes=Lending
+- https://www.defi.garden/?token=YUUKI
 - https://www.defi.garden/?token=YUUKI&chain=Base
 - https://www.defi.garden/?token=YUUKI&poolTypes=LP%2FDEX
 - https://www.defi.garden/?token=YVAUSD&chain=Katana
@@ -19597,9 +19565,7 @@ TL;DR: Individual token yield analysis and opportunities.
 - https://www.defi.garden/?token=ZEST
 - https://www.defi.garden/?token=ZEST&chain=BSC
 - https://www.defi.garden/?token=ZEST&chain=Ethereum
-- https://www.defi.garden/?token=ZEST&chain=Solana
 - https://www.defi.garden/?token=ZEST&poolTypes=LP%2FDEX
-- https://www.defi.garden/?token=ZEST&poolTypes=Yield%20Farming
 - https://www.defi.garden/?token=ZETH
 - https://www.defi.garden/?token=ZETH&chain=Ethereum
 - https://www.defi.garden/?token=ZETH&poolTypes=LP%2FDEX
@@ -19837,74 +19803,74 @@ TL;DR: Filtered views for minimum TVL and APY thresholds.
 
 ## Market Analysis: Top Chains by TVL
 TL;DR: Comprehensive chain rankings by total value locked.
-- Ethereum: $77.96B TVL — https://www.defi.garden/?chain=Ethereum
-- Solana: $7.89B TVL — https://www.defi.garden/?chain=Solana
-- BSC: $6.10B TVL — https://www.defi.garden/?chain=BSC
-- Base: $5.47B TVL — https://www.defi.garden/?chain=Base
-- Tron: $3.14B TVL — https://www.defi.garden/?chain=Tron
+- Ethereum: $77.48B TVL — https://www.defi.garden/?chain=Ethereum
+- Solana: $7.80B TVL — https://www.defi.garden/?chain=Solana
+- BSC: $6.08B TVL — https://www.defi.garden/?chain=BSC
+- Base: $5.44B TVL — https://www.defi.garden/?chain=Base
+- Tron: $3.10B TVL — https://www.defi.garden/?chain=Tron
 - Arbitrum: $2.38B TVL — https://www.defi.garden/?chain=Arbitrum
-- Hyperliquid L1: $1.99B TVL — https://www.defi.garden/?chain=Hyperliquid%20L1
-- Avalanche: $1.41B TVL — https://www.defi.garden/?chain=Avalanche
+- Hyperliquid L1: $1.97B TVL — https://www.defi.garden/?chain=Hyperliquid%20L1
+- Avalanche: $1.40B TVL — https://www.defi.garden/?chain=Avalanche
 
 ## Market Analysis: Top Protocols
 TL;DR: Leading DeFi protocols by aggregate TVL across all pools.
-- lido: $14.05B TVL — https://www.defi.garden/?search=lido
-- aave-v3: $12.23B TVL — https://www.defi.garden/?search=aave-v3
-- morpho-blue: $10.17B TVL — https://www.defi.garden/?search=morpho-blue
-- sky-lending: $8.25B TVL — https://www.defi.garden/?search=sky-lending
-- binance-staked-eth: $5.86B TVL — https://www.defi.garden/?search=binance-staked-eth
-- maple: $3.93B TVL — https://www.defi.garden/?search=maple
-- sparklend: $3.58B TVL — https://www.defi.garden/?search=sparklend
-- justlend: $2.99B TVL — https://www.defi.garden/?search=justlend
-- ether.fi-stake: $2.97B TVL — https://www.defi.garden/?search=ether.fi-stake
+- lido: $13.88B TVL — https://www.defi.garden/?search=lido
+- aave-v3: $12.10B TVL — https://www.defi.garden/?search=aave-v3
+- morpho-blue: $10.13B TVL — https://www.defi.garden/?search=morpho-blue
+- sky-lending: $8.39B TVL — https://www.defi.garden/?search=sky-lending
+- binance-staked-eth: $5.76B TVL — https://www.defi.garden/?search=binance-staked-eth
+- maple: $3.92B TVL — https://www.defi.garden/?search=maple
+- sparklend: $3.60B TVL — https://www.defi.garden/?search=sparklend
 - blackrock-buidl: $2.95B TVL — https://www.defi.garden/?search=blackrock-buidl
+- justlend: $2.95B TVL — https://www.defi.garden/?search=justlend
+- ether.fi-stake: $2.91B TVL — https://www.defi.garden/?search=ether.fi-stake
 
 ## Market Analysis: Popular Token-Chain Combinations
 TL;DR: Most liquid token-chain pairs ranked by TVL.
-- STETH on Ethereum: $14.22B TVL — https://www.defi.garden/?token=STETH&chain=Ethereum
-- SUSDS on Ethereum: $6.48B TVL — https://www.defi.garden/?token=SUSDS&chain=Ethereum
-- WBETH on Ethereum: $5.53B TVL — https://www.defi.garden/?token=WBETH&chain=Ethereum
-- USDC on Ethereum: $5.51B TVL — https://www.defi.garden/?token=USDC&chain=Ethereum
-- WEETH on Ethereum: $4.81B TVL — https://www.defi.garden/?token=WEETH&chain=Ethereum
-- WSTETH on Ethereum: $4.48B TVL — https://www.defi.garden/?token=WSTETH&chain=Ethereum
-- USDT on Ethereum: $3.53B TVL — https://www.defi.garden/?token=USDT&chain=Ethereum
-- WETH on Ethereum: $3.47B TVL — https://www.defi.garden/?token=WETH&chain=Ethereum
-- WBTC on Ethereum: $3.46B TVL — https://www.defi.garden/?token=WBTC&chain=Ethereum
+- STETH on Ethereum: $14.05B TVL — https://www.defi.garden/?token=STETH&chain=Ethereum
+- SUSDS on Ethereum: $6.47B TVL — https://www.defi.garden/?token=SUSDS&chain=Ethereum
+- USDC on Ethereum: $5.46B TVL — https://www.defi.garden/?token=USDC&chain=Ethereum
+- WBETH on Ethereum: $5.44B TVL — https://www.defi.garden/?token=WBETH&chain=Ethereum
+- WEETH on Ethereum: $4.72B TVL — https://www.defi.garden/?token=WEETH&chain=Ethereum
+- WSTETH on Ethereum: $4.53B TVL — https://www.defi.garden/?token=WSTETH&chain=Ethereum
+- WETH on Ethereum: $3.55B TVL — https://www.defi.garden/?token=WETH&chain=Ethereum
+- WBTC on Ethereum: $3.45B TVL — https://www.defi.garden/?token=WBTC&chain=Ethereum
+- USDT on Ethereum: $3.44B TVL — https://www.defi.garden/?token=USDT&chain=Ethereum
 - USYC on BSC: $2.75B TVL — https://www.defi.garden/?token=USYC&chain=BSC
 - SUSDE on Ethereum: $2.47B TVL — https://www.defi.garden/?token=SUSDE&chain=Ethereum
-- RETH on Ethereum: $2.24B TVL — https://www.defi.garden/?token=RETH&chain=Ethereum
-- CBBTC on Base: $2.23B TVL — https://www.defi.garden/?token=CBBTC&chain=Base
-- CBBTC on Ethereum: $1.91B TVL — https://www.defi.garden/?token=CBBTC&chain=Ethereum
-- USDS on Ethereum: $1.72B TVL — https://www.defi.garden/?token=USDS&chain=Ethereum
-- KHYPE on Hyperliquid L1: $1.42B TVL — https://www.defi.garden/?token=KHYPE&chain=Hyperliquid%20L1
-- USDC on Solana: $1.14B TVL — https://www.defi.garden/?token=USDC&chain=Solana
+- CBBTC on Base: $2.22B TVL — https://www.defi.garden/?token=CBBTC&chain=Base
+- RETH on Ethereum: $2.21B TVL — https://www.defi.garden/?token=RETH&chain=Ethereum
+- CBBTC on Ethereum: $1.90B TVL — https://www.defi.garden/?token=CBBTC&chain=Ethereum
+- USDS on Ethereum: $1.73B TVL — https://www.defi.garden/?token=USDS&chain=Ethereum
+- KHYPE on Hyperliquid L1: $1.41B TVL — https://www.defi.garden/?token=KHYPE&chain=Hyperliquid%20L1
+- USDC on Solana: $1.18B TVL — https://www.defi.garden/?token=USDC&chain=Solana
 - USDY on Ethereum: $1.10B TVL — https://www.defi.garden/?token=USDY&chain=Ethereum
 - BUIDL on Ethereum: $1.01B TVL — https://www.defi.garden/?token=BUIDL&chain=Ethereum
-- RSETH on Ethereum: $985M TVL — https://www.defi.garden/?token=RSETH&chain=Ethereum
+- RSETH on Ethereum: $968M TVL — https://www.defi.garden/?token=RSETH&chain=Ethereum
 
 ## Live High-Yield Opportunities (by Chain)
 TL;DR: Current top-performing pools with detailed metrics.
 ### Base
-- aerodrome-slipstream · USDC-VELVET — 861141.57% APY, $334,443 TVL — https://www.defi.garden
-- beefy · WETH-DEGEN — 251164.38% APY, $54,077 TVL — https://www.defi.garden
-- aerodrome-slipstream · USDC-VFY — 158105.35% APY, $70,301 TVL — https://www.defi.garden
-- aerodrome-slipstream · CTR-USDC — 144643.61% APY, $608,413 TVL — https://www.defi.garden
-- metrom · WETH-DEAD — 100000.00% APY, $16,090 TVL — https://www.defi.garden
-- aerodrome-v1 · WETH-TRAC — 69787.16% APY, $44,425 TVL — https://www.defi.garden
+- aerodrome-slipstream · USDC-VELVET — 835490.66% APY, $340,863 TVL — https://www.defi.garden
+- beefy · WETH-DEGEN — 507353.62% APY, $55,777 TVL — https://www.defi.garden
+- aerodrome-slipstream · CTR-USDC — 407402.75% APY, $612,249 TVL — https://www.defi.garden
+- aerodrome-slipstream · USDC-VFY — 339799.07% APY, $70,092 TVL — https://www.defi.garden
+- metrom · WETH-DEAD — 100000.00% APY, $16,039 TVL — https://www.defi.garden
+- aerodrome-v1 · WETH-TRAC — 70227.59% APY, $43,348 TVL — https://www.defi.garden
+- aerodrome-slipstream · USDC-PROS — 68242.98% APY, $917,378 TVL — https://www.defi.garden
+- aerodrome-slipstream · USDC-CBBTC — 49212.08% APY, $29,518 TVL — https://www.defi.garden
 
 ### Avalanche
 - blackhole-clmm · WAVAX-USDC — 717581.69% APY, $65,622 TVL — https://www.defi.garden
-- blackhole-clmm · WAVAX-USDC — 197365.78% APY, $1,463,193 TVL — https://www.defi.garden
+- blackhole-clmm · WAVAX-USDC — 201197.30% APY, $1,416,383 TVL — https://www.defi.garden
 
 ### Ethereum
 - uniswap-v4 · ETH-FLORK — 487629.02% APY, $50,370 TVL — https://www.defi.garden
 - curve-dex · USDC-WETH — 332636.73% APY, $120,428 TVL — https://www.defi.garden
-- supernova-cl · EURC-USDC — 92588.10% APY, $16,564 TVL — https://www.defi.garden
-- supernova-cl · WETH-USDT — 55297.86% APY, $305,533 TVL — https://www.defi.garden
+- supernova-cl · EURC-USDC — 88821.62% APY, $16,547 TVL — https://www.defi.garden
 
 ### BSC
 - zeebu · ZBU — 433202.72% APY, $616,763 TVL — https://www.defi.garden
-- beefy · 4-USDT — 63624.45% APY, $10,599 TVL — https://www.defi.garden
 
 ### TON
 - dedust · MARG-TON — 325037.98% APY, $10,074 TVL — https://www.defi.garden

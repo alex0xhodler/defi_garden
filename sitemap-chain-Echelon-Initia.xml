@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Echelon+Initia" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Echelon+Initia&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Echelon+Initia" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,16 +15,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IUSD&amp;chain=Echelon+Initia" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IUSD&amp;chain=Echelon+Initia&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IUSD&amp;chain=Echelon+Initia" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.67</priority>
+    <priority>0.66</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USDC&amp;chain=Echelon%20Initia</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Echelon+Initia" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Echelon+Initia&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Echelon+Initia" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -33,44 +33,26 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SXINIT&amp;chain=Echelon+Initia" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SXINIT&amp;chain=Echelon+Initia&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SXINIT&amp;chain=Echelon+Initia" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.53</priority>
+    <priority>0.52</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=MILKINIT&amp;chain=Echelon%20Initia</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MILKINIT&amp;chain=Echelon+Initia" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MILKINIT&amp;chain=Echelon+Initia&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MILKINIT&amp;chain=Echelon+Initia" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.46</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ETH&amp;chain=Echelon%20Initia</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Echelon+Initia" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Echelon+Initia&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Echelon+Initia" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=TIA&amp;chain=Echelon%20Initia</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TIA&amp;chain=Echelon+Initia" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TIA&amp;chain=Echelon+Initia&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TIA&amp;chain=Echelon+Initia" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.59</priority>
+    <priority>0.45</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=INIT&amp;chain=Echelon%20Initia</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=INIT&amp;chain=Echelon+Initia" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=INIT&amp;chain=Echelon+Initia&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=INIT&amp;chain=Echelon+Initia" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.40</priority>
+    <priority>0.44</priority>
   </url>
 </urlset>

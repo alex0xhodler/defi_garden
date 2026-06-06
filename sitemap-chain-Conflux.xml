@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Conflux" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Conflux&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Conflux" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,17 +15,17 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WCFX&amp;chain=Conflux" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WCFX&amp;chain=Conflux&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WCFX&amp;chain=Conflux" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.54</priority>
+    <priority>0.53</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=XCFX&amp;chain=Conflux</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XCFX&amp;chain=Conflux" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XCFX&amp;chain=Conflux&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XCFX&amp;chain=Conflux" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.54</priority>
+    <priority>0.53</priority>
   </url>
 </urlset>

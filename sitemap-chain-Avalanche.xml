@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BUIDL&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BUIDL&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BUIDL&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -24,7 +24,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -33,43 +33,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAVAX&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAVAX&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.86</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BTC.B&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTC.B&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTC.B&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTC.B&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.82</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WAVAX&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAVAX&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAVAX&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <priority>0.81</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SAVUSD&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAVUSD&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAVUSD&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAVUSD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.81</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WAVAX&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAVAX&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAVAX&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAVAX&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.79</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USDT&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -78,43 +78,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GGAVAX&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GGAVAX&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GGAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.69</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=LCPEDU&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LCPEDU&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LCPEDU&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LCPEDU&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.69</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=TAVAX&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TAVAX&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TAVAX&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.68</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=ACRED&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ACRED&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ACRED&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ACRED&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TAVAX&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TAVAX&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TAVAX&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TAVAX&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SAVBTC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAVBTC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAVBTC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAVBTC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.68</priority>
   </url>
@@ -123,52 +123,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AVAX&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AVAX&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.69</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WETH.E&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH.E&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH.E&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH.E&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.69</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=RUNE&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RUNE&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RUNE&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RUNE&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.79</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=AIAVAX&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AIAVAX&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AIAVAX&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AIAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.62</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WBTC.E&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC.E&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC.E&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC.E&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.63</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SUSDP&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDP&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDP&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDP&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.65</priority>
   </url>
@@ -177,7 +159,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AVDAI&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AVDAI&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AVDAI&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.61</priority>
   </url>
@@ -186,7 +168,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AVUSDC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AVUSDC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AVUSDC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.61</priority>
   </url>
@@ -195,52 +177,70 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AVUSDT&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AVUSDT&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AVUSDT&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.61</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=ETH&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=WBTC.E&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC.E&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC.E&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC.E&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AIAVAX&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AIAVAX&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AIAVAX&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AIAVAX&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BTC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.88</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=AUSD&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AUSD&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AUSD&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AUSD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.79</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GHO&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GHO&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GHO&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GHO&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETH&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AUSD&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AUSD&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AUSD&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AUSD&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AGUSDC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AGUSDC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AGUSDC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AGUSDC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.63</priority>
   </url>
@@ -249,7 +249,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AIUSD&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AIUSD&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AIUSD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.60</priority>
   </url>
@@ -258,34 +258,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.83</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=REUSD&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=REUSD&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=REUSD&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=REUSD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=LINK.E&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LINK.E&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LINK.E&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LINK.E&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.62</priority>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BDAI&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BDAI&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BDAI&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BDAI&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.59</priority>
   </url>
@@ -294,7 +276,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BUSDC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BUSDC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BUSDC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.59</priority>
   </url>
@@ -303,25 +285,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BUSDT&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BUSDT&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BUSDT&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.59</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=XUSD&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XUSD&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XUSD&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XUSD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=LINK.E&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LINK.E&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LINK.E&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LINK.E&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.76</priority>
+    <priority>0.62</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=VBILL&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VBILL&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VBILL&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VBILL&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.79</priority>
   </url>
@@ -330,7 +312,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=40AVAX&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=40AVAX&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=40AVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.61</priority>
   </url>
@@ -339,7 +321,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BLACKHOLE&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BLACKHOLE&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BLACKHOLE&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.58</priority>
   </url>
@@ -348,7 +330,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VAULT&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VAULT&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VAULT&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.70</priority>
   </url>
@@ -357,205 +339,205 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDP&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDP&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDP&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.63</priority>
+    <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GAMIUSDC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GAMIUSDC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GAMIUSDC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GAMIUSDC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.68</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SOL&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOL&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOL&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOL&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.81</priority>
+    <priority>0.69</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=DAI.E&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DAI.E&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DAI.E&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DAI.E&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.59</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=RSAVAX&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RSAVAX&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RSAVAX&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RSAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=REUSD&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=REUSD&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=REUSD&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=REUSD&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.57</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SOL&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOL&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOL&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOL&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AV3CRV&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AV3CRV&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AV3CRV&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AV3CRV&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.59</priority>
+    <priority>0.58</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AVWBTC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AVWBTC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AVWBTC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AVWBTC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.57</priority>
+    <priority>0.56</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AVWETH&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AVWETH&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AVWETH&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AVWETH&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.57</priority>
+    <priority>0.56</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AIBTC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AIBTC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AIBTC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AIBTC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.57</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=YYAVAX&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YYAVAX&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YYAVAX&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YYAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.56</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=XSGD&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XSGD&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XSGD&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XSGD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=RSAVAX&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RSAVAX&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RSAVAX&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RSAVAX&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.62</priority>
+    <priority>0.56</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=XAUT0&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAUT0&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAUT0&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XAUT0&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.69</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SUPER&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUPER&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUPER&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUPER&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=YYAVAX&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YYAVAX&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YYAVAX&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YYAVAX&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.65</priority>
+    <priority>0.55</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=BLACK&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BLACK&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BLACK&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BLACK&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=XUSD&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XUSD&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XUSD&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XUSD&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.59</priority>
+    <priority>0.76</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=MQT&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MQT&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MQT&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MQT&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.55</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=NXUSD&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NXUSD&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NXUSD&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NXUSD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=SUPER&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUPER&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUPER&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUPER&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.54</priority>
+    <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=YAK&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YAK&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YAK&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YAK&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=BLACK&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BLACK&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BLACK&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BLACK&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.54</priority>
+    <priority>0.58</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=EURC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EURC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EURC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EURC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.78</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=FRAX&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FRAX&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FRAX&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FRAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.84</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=EUROC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EUROC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EUROC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EUROC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=YAK&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YAK&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YAK&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YAK&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.53</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NXUSD&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NXUSD&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NXUSD&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NXUSD&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.53</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FRAX&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FRAX&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FRAX&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FRAX&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.84</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PNG&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PNG&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PNG&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PNG&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.53</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=XAVA&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAVA&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAVA&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XAVA&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.53</priority>
+    <priority>0.52</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=VOLTA&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VOLTA&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VOLTA&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VOLTA&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.53</priority>
   </url>
@@ -564,61 +546,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT.E&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT.E&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT.E&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.65</priority>
+    <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=YUSD&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YUSD&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YUSD&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YUSD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.76</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=EUROP&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EUROP&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EUROP&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EUROP&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=XAVA&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAVA&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAVA&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XAVA&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.62</priority>
+    <priority>0.53</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WEETH&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WEETH&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WEETH&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WEETH&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SIERRA&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SIERRA&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SIERRA&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SIERRA&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.74</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=AAVE.E&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVE.E&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVE.E&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVE.E&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.51</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=MIM&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MIM&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MIM&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MIM&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.77</priority>
   </url>
@@ -627,25 +591,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC.E&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC.E&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC.E&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.73</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SUZ&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUZ&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUZ&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUZ&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=SIERRA&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SIERRA&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SIERRA&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SIERRA&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.51</priority>
+    <priority>0.74</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=QI&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=QI&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=QI&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=QI&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.59</priority>
   </url>
@@ -654,43 +618,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LUNA&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LUNA&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LUNA&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUZ&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUZ&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUZ&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUZ&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AAVE.E&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVE.E&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVE.E&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVE.E&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=ANKRAVAX&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ANKRAVAX&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ANKRAVAX&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ANKRAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.51</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=NYA&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NYA&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NYA&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NYA&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.58</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=PRIME&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PRIME&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PRIME&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PRIME&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.88</priority>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AXLUSDC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AXLUSDC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AXLUSDC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AXLUSDC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.60</priority>
   </url>
@@ -699,61 +663,79 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WH2C&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WH2C&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WH2C&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=ARENA&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ARENA&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ARENA&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ARENA&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=NYA&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NYA&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NYA&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NYA&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.50</priority>
+    <priority>0.57</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=MXNB&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MXNB&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MXNB&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MXNB&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=YOM&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YOM&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YOM&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YOM&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.59</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=GUN&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GUN&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GUN&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GUN&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.55</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WBTC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MXNB&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MXNB&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MXNB&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MXNB&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ARENA&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ARENA&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ARENA&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ARENA&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GUN&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GUN&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GUN&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GUN&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PRIME&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PRIME&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PRIME&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PRIME&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.88</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PNIC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PNIC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PNIC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PNIC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.48</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=RSTAVAX&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RSTAVAX&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RSTAVAX&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RSTAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.48</priority>
   </url>
@@ -762,7 +744,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BLAZE&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BLAZE&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BLAZE&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
@@ -771,7 +753,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AXD&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AXD&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AXD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.47</priority>
   </url>
@@ -780,25 +762,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SHRAP&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SHRAP&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SHRAP&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.48</priority>
+    <priority>0.47</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RSTAVAX&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RSTAVAX&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RSTAVAX&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RSTAVAX&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.47</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=KULA&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KULA&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KULA&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KULA&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.47</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RBTC.B&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RBTC.B&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RBTC.B&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RBTC.B&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.46</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SJOE&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SJOE&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SJOE&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SJOE&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.46</priority>
   </url>
@@ -807,52 +807,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CROC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CROC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CROC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.46</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=RBTC.B&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RBTC.B&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RBTC.B&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RBTC.B&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.46</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SSUZ&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SSUZ&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SSUZ&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SSUZ&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.46</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=NUSD&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NUSD&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NUSD&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NUSD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.67</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SPORE&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SPORE&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SPORE&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SPORE&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.51</priority>
+    <priority>0.45</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WSAC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSAC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSAC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSAC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.45</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SSUZ&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SSUZ&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SSUZ&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SSUZ&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.45</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AXEN&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AXEN&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AXEN&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AXEN&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.45</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NFTD&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NFTD&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NFTD&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NFTD&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.45</priority>
   </url>
@@ -861,25 +852,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FOLKS&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FOLKS&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FOLKS&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.45</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=DOGE&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DOGE&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DOGE&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DOGE&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.72</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=NFTD&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NFTD&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NFTD&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NFTD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.45</priority>
   </url>
@@ -888,115 +861,124 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WLFI&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WLFI&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WLFI&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=NXPC&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NXPC&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NXPC&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NXPC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=DOGE&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DOGE&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DOGE&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DOGE&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.45</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=LP&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LP&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LP&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LP&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.68</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=DIGITS&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DIGITS&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DIGITS&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DIGITS&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.55</priority>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SUSDE&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDE&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDE&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDE&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=AXEN&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AXEN&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AXEN&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AXEN&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=NXPC&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NXPC&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NXPC&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NXPC&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.44</priority>
+    <priority>0.45</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SPORE&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SPORE&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SPORE&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SPORE&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.52</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BTCB&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTCB&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTCB&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTCB&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.87</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WET&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WET&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WET&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WET&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=LP&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LP&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LP&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LP&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.44</priority>
+    <priority>0.68</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BYTES&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BYTES&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BYTES&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BYTES&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.48</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WET&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WET&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WET&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WET&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.44</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NUSD&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NUSD&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NUSD&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NUSD&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AVIA&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AVIA&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AVIA&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AVIA&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.44</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=AAVEWAVAX&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVEWAVAX&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVEWAVAX&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVEWAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.44</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=HERESY&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HERESY&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HERESY&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HERESY&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.44</priority>
+    <priority>0.43</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BORNE&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BORNE&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BORNE&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BORNE&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.43</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AAVEWAVAX&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVEWAVAX&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVEWAVAX&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVEWAVAX&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.43</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=UTY&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UTY&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UTY&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UTY&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.43</priority>
   </url>
@@ -1005,16 +987,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FBOMB&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FBOMB&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FBOMB&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=UTY&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UTY&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UTY&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UTY&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=AAVEGHO&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVEGHO&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVEGHO&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVEGHO&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HERESY&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HERESY&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HERESY&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HERESY&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.43</priority>
   </url>
@@ -1023,34 +1014,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=COQ&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=COQ&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=COQ&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.43</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=HUSKY&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HUSKY&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HUSKY&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HUSKY&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.43</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=AAVEGHO&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVEGHO&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVEGHO&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVEGHO&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.67</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=BANDS&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BANDS&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BANDS&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BANDS&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.42</priority>
   </url>
@@ -1059,79 +1023,70 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BUSD&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BUSD&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BUSD&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.69</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SFI&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SFI&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SFI&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SFI&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=HUSKY&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HUSKY&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HUSKY&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HUSKY&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.51</priority>
+    <priority>0.42</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=DAI&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DAI&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DAI&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DAI&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=BANDS&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BANDS&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BANDS&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BANDS&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.86</priority>
+    <priority>0.42</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=EXUSDC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EXUSDC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EXUSDC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EXUSDC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.42</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=KET&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KET&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KET&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KET&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=DAI&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DAI&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DAI&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DAI&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.44</priority>
+    <priority>0.86</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SFI&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SFI&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SFI&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SFI&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.51</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BEAM&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BEAM&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BEAM&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BEAM&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=PEFI&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PEFI&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PEFI&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PEFI&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.41</priority>
+    <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GCROC&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GCROC&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GCROC&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GCROC&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.41</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=MOANI&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MOANI&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MOANI&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MOANI&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.41</priority>
   </url>
@@ -1140,16 +1095,52 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AVAI&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AVAI&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AVAI&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KET&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KET&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KET&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KET&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.43</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MOANI&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MOANI&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MOANI&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MOANI&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PEFI&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PEFI&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PEFI&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PEFI&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GOHM&amp;chain=Avalanche</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GOHM&amp;chain=Avalanche" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GOHM&amp;chain=Avalanche&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GOHM&amp;chain=Avalanche" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.49</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=JOE&amp;chain=Avalanche</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=JOE&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=JOE&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=JOE&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.60</priority>
   </url>
@@ -1158,44 +1149,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SHIB&amp;chain=Avalanche" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SHIB&amp;chain=Avalanche&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SHIB&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.61</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=GOHM&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GOHM&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GOHM&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GOHM&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.50</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=TICO&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TICO&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TICO&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TICO&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=UST&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UST&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UST&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UST&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.48</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WAAVASAVAX&amp;chain=Avalanche</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAAVASAVAX&amp;chain=Avalanche" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAAVASAVAX&amp;chain=Avalanche&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAAVASAVAX&amp;chain=Avalanche" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
   </url>
 </urlset>

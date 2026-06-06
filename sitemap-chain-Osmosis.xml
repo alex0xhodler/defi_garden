@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDY&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDY&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDY&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -24,7 +24,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -33,25 +33,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ATOM&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ATOM&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ATOM&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.68</priority>
+    <priority>0.67</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=OSMO&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OSMO&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OSMO&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OSMO&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.66</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BTC&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTC&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTC&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTC&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.88</priority>
   </url>
@@ -60,7 +60,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STATOM&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STATOM&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STATOM&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.61</priority>
   </url>
@@ -69,34 +69,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MILKTIA&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MILKTIA&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MILKTIA&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.58</priority>
+    <priority>0.57</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TIA&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TIA&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TIA&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TIA&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.59</priority>
+    <priority>0.58</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=STOSMO&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STOSMO&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STOSMO&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STOSMO&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.58</priority>
+    <priority>0.57</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WETH&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -105,34 +105,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ATONE&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ATONE&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ATONE&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.56</priority>
+    <priority>0.55</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=NYM&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NYM&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NYM&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NYM&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.58</priority>
+    <priority>0.56</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=INJ&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=INJ&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=INJ&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=INJ&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.59</priority>
+    <priority>0.58</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AKT&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AKT&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AKT&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AKT&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.58</priority>
   </url>
@@ -141,7 +141,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -150,25 +150,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BABY&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BABY&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BABY&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.54</priority>
+    <priority>0.55</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WBTC&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ETH&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -177,52 +168,70 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XION&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XION&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XION&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.54</priority>
+    <priority>0.53</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=IST&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IST&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IST&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IST&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETH&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AMPOSMO&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AMPOSMO&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AMPOSMO&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AMPOSMO&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.50</priority>
+    <priority>0.49</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BOSMO&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BOSMO&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BOSMO&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BOSMO&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.50</priority>
+    <priority>0.49</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AXL&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AXL&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AXL&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AXL&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.51</priority>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DOGE&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DOGE&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DOGE&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DOGE&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=STISLM&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STISLM&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STISLM&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STISLM&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.49</priority>
   </url>
@@ -231,43 +240,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ISLM&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ISLM&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ISLM&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.53</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=DOGE&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DOGE&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DOGE&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DOGE&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.72</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=CRO&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CRO&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CRO&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CRO&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.65</priority>
+    <priority>0.52</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PHOTON&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PHOTON&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PHOTON&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PHOTON&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CRO&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CRO&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CRO&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CRO&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=MED&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MED&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MED&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MED&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.49</priority>
   </url>
@@ -276,52 +276,52 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LINK&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LINK&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LINK&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.82</priority>
+    <priority>0.81</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=STTIA&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STTIA&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STTIA&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STTIA&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.47</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=FET&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FET&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FET&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FET&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=STBAND&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STBAND&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STBAND&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STBAND&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.47</priority>
+    <priority>0.46</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BAND&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BAND&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BAND&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BAND&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FET&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FET&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FET&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FET&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=NBTC&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NBTC&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NBTC&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NBTC&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.46</priority>
   </url>
@@ -330,124 +330,124 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=JUNO&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=JUNO&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=JUNO&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.59</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=DRC&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DRC&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DRC&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DRC&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.50</priority>
+    <priority>0.58</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USTC&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USTC&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USTC&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USTC&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.66</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SCRT&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SCRT&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SCRT&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SCRT&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.49</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SLCA&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SLCA&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SLCA&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SLCA&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.45</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=P2P&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=P2P&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=P2P&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=P2P&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.46</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=DSM&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DSM&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DSM&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DSM&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.44</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=NLS&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NLS&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NLS&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NLS&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.44</priority>
+    <priority>0.45</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SCRT&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SCRT&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SCRT&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SCRT&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.48</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=ARKEO&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ARKEO&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ARKEO&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ARKEO&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.44</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=NGM&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NGM&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NGM&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NGM&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <loc>https://www.defi.garden/?token=P2P&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=P2P&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=P2P&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=P2P&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.44</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=EEUR&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EEUR&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EEUR&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EEUR&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.44</priority>
+    <priority>0.46</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PHMN&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PHMN&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PHMN&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PHMN&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.47</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NGM&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NGM&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NGM&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NGM&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.43</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EEUR&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EEUR&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EEUR&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EEUR&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.43</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BERNESE&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BERNESE&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BERNESE&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BERNESE&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.45</priority>
+    <priority>0.43</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=NRIDE&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NRIDE&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NRIDE&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NRIDE&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.43</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DRC&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DRC&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DRC&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DRC&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.49</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GNOD&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GNOD&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GNOD&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GNOD&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.43</priority>
   </url>
@@ -456,7 +456,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DAI&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DAI&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DAI&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.86</priority>
   </url>
@@ -465,79 +465,79 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XRP&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XRP&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XRP&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.71</priority>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=NTMPI&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NTMPI&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NTMPI&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NTMPI&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.43</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=GNOD&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GNOD&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GNOD&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GNOD&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.43</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=STRD&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STRD&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STRD&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STRD&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.42</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=LUNC&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LUNC&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LUNC&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LUNC&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.47</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SOLVBTC&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.83</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=YIELDETH&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YIELDETH&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YIELDETH&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YIELDETH&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.53</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=MILKBABY&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MILKBABY&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MILKBABY&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MILKBABY&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.41</priority>
+    <priority>0.42</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=STRD&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STRD&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STRD&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STRD&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.42</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SOLVBTC&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LUNC&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LUNC&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LUNC&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LUNC&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.47</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=YIELDETH&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YIELDETH&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YIELDETH&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YIELDETH&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.52</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PASG&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PASG&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PASG&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PASG&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DSM&amp;chain=Osmosis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DSM&amp;chain=Osmosis" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DSM&amp;chain=Osmosis&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DSM&amp;chain=Osmosis" />
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.41</priority>
   </url>
@@ -546,7 +546,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CTK&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CTK&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CTK&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.44</priority>
   </url>
@@ -555,7 +555,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TX&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TX&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TX&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.41</priority>
   </url>
@@ -564,61 +564,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IRIS&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IRIS&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IRIS&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.41</priority>
+    <priority>0.40</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BLD&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BLD&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BLD&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BLD&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.41</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=EVMOS&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EVMOS&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EVMOS&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EVMOS&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.41</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=STARS&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STARS&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STARS&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STARS&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=RIO&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RIO&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RIO&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RIO&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.53</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SPICE&amp;chain=Osmosis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SPICE&amp;chain=Osmosis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SPICE&amp;chain=Osmosis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SPICE&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.49</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=HEART&amp;chain=Osmosis</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HEART&amp;chain=Osmosis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HEART&amp;chain=Osmosis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HEART&amp;chain=Osmosis" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.40</priority>
   </url>

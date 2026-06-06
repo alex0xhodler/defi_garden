@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Xlayer" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Xlayer&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Xlayer" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XBTC&amp;chain=Xlayer" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XBTC&amp;chain=Xlayer&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XBTC&amp;chain=Xlayer" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
   </url>
@@ -24,17 +24,17 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XETH&amp;chain=Xlayer" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XETH&amp;chain=Xlayer&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XETH&amp;chain=Xlayer" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.68</priority>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WOKB&amp;chain=Xlayer</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WOKB&amp;chain=Xlayer" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WOKB&amp;chain=Xlayer&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WOKB&amp;chain=Xlayer" />
-    <lastmod>2026-06-04T10:32:58.416Z</lastmod>
+    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.66</priority>
+    <priority>0.64</priority>
   </url>
 </urlset>
