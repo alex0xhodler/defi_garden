@@ -990,6 +990,23 @@ body {
   color: var(--color-text-secondary);
 }
 
+/* ✕ clear button inside google search bar */
+.google-search-clear {
+  padding: var(--space-4) var(--space-8);
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+  border-radius: var(--neuro-radius-sm);
+  transition: color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.google-search-clear:hover {
+  color: var(--color-text);
+}
+
 .google-search-button {
   padding: var(--space-10);
   margin-right: var(--space-8);

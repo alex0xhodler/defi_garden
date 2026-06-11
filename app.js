@@ -2238,13 +2238,29 @@ function App() {
             React.createElement('input', {
               type: 'text',
               className: 'google-search-input',
-              placeholder: selectedToken ? selectedToken : (selectedChain ? selectedChain : animatedPlaceholder),
+              // Placeholder reflects token query only; chain state belongs to filter chips
+              placeholder: selectedToken ? selectedToken : animatedPlaceholder,
               value: searchInput,
               onChange: handleSearchInputChange,
               onKeyDown: handleKeyDown,
               onFocus: handleInputFocus,
               onBlur: handleInputBlur
             }),
+            // ✕ clear button — only visible when search input is non-empty
+            searchInput.length > 0 && React.createElement('button', {
+              className: 'google-search-clear',
+              'aria-label': 'Clear search',
+              onMouseDown: (e) => {
+                // Use mousedown to fire before blur
+                e.preventDefault();
+                setSearchInput('');
+                setSelectedToken('');
+                setShowAutocomplete(false);
+                // Return focus to input
+                const input = e.currentTarget.parentElement.querySelector('.google-search-input');
+                if (input) input.focus();
+              }
+            }, '✕'),
             React.createElement('button', {
               className: 'google-search-button',
               onClick: () => {
