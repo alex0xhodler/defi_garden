@@ -31,7 +31,7 @@ const translations = {
     rewardApyBreakdown: (apy) => `+ ${apy}% Rewards`,
     opensProtocol: "Opens protocol • Wallet required",
     protocol: "Protocol↗",
-    calculateYield: "Calculate Yield",
+    calculateYield: "View & calculate →",
     startEarning: "Start Earning",
     startEarningOn: (protocol) => `Start Earning on ${protocol}`,
     
@@ -123,7 +123,7 @@ const translations = {
     rewardApyBreakdown: (apy) => `+ ${apy}% 보상`,
     opensProtocol: "프로토콜 열기 • 지갑 필요",
     protocol: "프로토콜↗",
-    calculateYield: "수익 계산",
+    calculateYield: "보기 및 계산 →",
     startEarning: "수익 시작",
     startEarningOn: (protocol) => `${protocol}에서 수익 시작`,
     

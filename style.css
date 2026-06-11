@@ -3086,49 +3086,36 @@ html {
 
 
 
-/* Enhanced button styling for Calculate Yield */
+/* Ghost affordance CTA for card "View & calculate" */
 .calculate-yield-btn-new {
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-active));
-  color: white;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  background: transparent;
+  box-shadow: none;
+  color: var(--color-primary);
+  font-weight: 600;
   font-size: var(--font-size-sm);
-  padding: var(--space-12) var(--space-20);
+  padding: var(--space-8) var(--space-16);
   border-radius: var(--neuro-radius-md);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: var(--neuro-shadow-flat), inset 1px 1px 2px rgba(255, 255, 255, 0.3);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  position: relative;
-  overflow: hidden;
+  border: none;
   cursor: pointer;
   width: 100%;
   margin-top: var(--space-8);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .calculate-yield-btn-new::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.5s ease;
-}
-
-.calculate-yield-btn-new:hover::before {
-  left: 100%;
+  display: none;
 }
 
 .calculate-yield-btn-new:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--neuro-shadow-raised), inset 1px 1px 3px rgba(255, 255, 255, 0.4);
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-subtle);
+  transform: none;
 }
 
 .calculate-yield-btn-new:active {
-  transform: translateY(2px);
-  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.1);
+  /* press-physics rule in the global block handles this */
 }
 
 .pool-apy-hero {
@@ -3320,47 +3307,6 @@ html {
 /* Primary CTA Section */
 .pool-cta-section {
   margin-top: auto;
-}
-
-.calculate-yield-btn-new {
-  width: 100%;
-  padding: var(--space-16) var(--space-24);
-  border: none;
-  background: var(--color-primary);
-  color: white;
-  border-radius: var(--neuro-radius-lg);
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-bold);
-  box-shadow: var(--neuro-shadow-raised);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  position: relative;
-  overflow: hidden;
-
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: capitalize;
-}
-
-/* Button shimmer effect */
-.calculate-yield-btn-new::before {
-  display: none;
-}
-
-.calculate-yield-btn-new:hover {
-  background: var(--color-primary);
-  box-shadow: var(--neuro-shadow-flat);
-}
-
-.calculate-yield-btn-new:hover::before {
-  left: 100%;
-}
-
-.calculate-yield-btn-new:active {
-  box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(-1px);
 }
 
 /* Legacy button styles for backwards compatibility */
@@ -3707,12 +3653,11 @@ html {
   }
 
   .calculate-yield-btn-new {
-    padding: var(--space-12) var(--space-20);
+    padding: var(--space-8) var(--space-16);
     font-size: var(--font-size-sm);
-
     font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: capitalize;
+    text-transform: none;
+    letter-spacing: normal;
   }
 }
 

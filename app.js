@@ -2559,19 +2559,7 @@ function App() {
                   )
                 ),
 
-                // Progressive disclosure for APY breakdown (only show when BOTH Base and Reward APY exist)
-                (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', { className: 'pool-details-expanded' },
-                  pool.apyBase > 0 && React.createElement('div', { className: 'apy-breakdown' },
-                    React.createElement('span', { className: 'breakdown-label' }, t('baseApy')),
-                    React.createElement('span', { className: 'breakdown-value' }, formatApy(pool.apyBase))
-                  ),
-                  pool.apyReward > 0 && React.createElement('div', { className: 'apy-breakdown' },
-                    React.createElement('span', { className: 'breakdown-label' }, t('rewardApy')),
-                    React.createElement('span', { className: 'breakdown-value' }, formatApy(pool.apyReward))
-                  )
-                ),
-
-                // Primary CTA - Calculate Yield (full width, prominent)
+                // Primary CTA - Calculate Yield (full width, quiet ghost)
                 React.createElement('div', { className: 'pool-cta-section' },
                   React.createElement('button', {
                     className: 'calculate-yield-btn-new',
