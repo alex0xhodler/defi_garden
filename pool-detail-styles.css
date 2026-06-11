@@ -546,7 +546,7 @@
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
   position: relative;
   overflow: hidden;
@@ -554,22 +554,13 @@
 
 .start-earning-btn::before { display: none; }
 
-.start-earning-btn:hover::before {
-  left: 100%;
-}
-
 .start-earning-btn:hover {
-  transform: translateY(-2px) scale(1.01);
-  box-shadow: 
-    0 8px 25px rgba(59, 130, 246, 0.4),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: var(--neuro-shadow-flat);
 }
 
 .start-earning-btn:active {
-  transform: translateY(0) scale(0.98);
-  box-shadow: 
-    0 4px 8px rgba(59, 130, 246, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transform: translateY(1px);
+  box-shadow: var(--neuro-shadow-pressed);
 }
 
 .start-earning-btn.primary {
@@ -752,7 +743,7 @@
 
 .pool-hero-card:hover {
   transform: translateY(-2px);
-  box-shadow: var(--neuro-shadow-raised), 0 12px 35px rgba(59, 130, 246, 0.1);
+  box-shadow: var(--neuro-shadow-raised);
 }
 
 .pool-symbol-hero {
@@ -787,32 +778,18 @@
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
   position: relative;
   overflow: hidden;
 }
 
 .cta-button-primary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
-  transition: left 0.5s ease;
+  display: none;
 }
 
 .cta-button-primary:hover {
-  transform: translateY(-2px) scale(1.01);
-  box-shadow: 
-    0 8px 25px rgba(59, 130, 246, 0.4),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
-}
-
-.cta-button-primary:hover::before {
-  left: 100%;
+  box-shadow: var(--neuro-shadow-flat);
 }
 
 .cta-button-primary:hover .arrow {
@@ -820,10 +797,8 @@
 }
 
 .cta-button-primary:active {
-  transform: translateY(0) scale(0.98);
-  box-shadow: 
-    0 4px 8px rgba(59, 130, 246, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transform: translateY(1px);
+  box-shadow: var(--neuro-shadow-pressed);
 }
 
 /* Quick Metrics Cards */
@@ -1019,9 +994,9 @@
 
 /* Loading states */
 .loading-shimmer {
-  background: linear-gradient(90deg, 
-    var(--color-background) 25%, 
-    rgba(59, 130, 246, 0.1) 50%, 
+  background: linear-gradient(90deg,
+    var(--color-background) 25%,
+    var(--color-surface) 50%,
     var(--color-background) 75%);
   background-size: 200% 100%;
   animation: shimmer 2s infinite;

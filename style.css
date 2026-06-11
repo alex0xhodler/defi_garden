@@ -153,7 +153,6 @@
   --entry-delay-base: 100ms;
   --entry-delay-stagger: 50ms;
   --entry-easing: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  --entry-easing-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
   /* Layout */
   --container-sm: 640px;
@@ -449,21 +448,20 @@ pre code {
 .btn--primary {
   background: var(--color-primary);
   color: var(--color-btn-primary-text);
-  box-shadow: 4px 4px 10px rgba(59, 130, 246, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.5);
+  box-shadow: var(--neuro-shadow-raised);
   font-weight: 600;
   transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn--primary:hover {
   background: var(--color-primary-hover);
-  box-shadow: 6px 6px 14px rgba(59, 130, 246, 0.4), -6px -6px 14px rgba(255, 255, 255, 0.6);
-  transform: translateY(-2px);
+  box-shadow: var(--neuro-shadow-flat);
 }
 
 .btn--primary:active {
   background: var(--color-primary-active);
-  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px rgba(255, 255, 255, 0.1);
-  transform: translateY(2px);
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(1px);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -949,7 +947,6 @@ body {
 
 .google-logo:hover {
   transform: translateY(-1px);
-  text-shadow: 0 2px 8px rgba(var(--color-primary-rgb), 0.2);
 }
 
 .google-search-container {
@@ -1302,24 +1299,8 @@ body {
 /* Enhanced hover animations for scrollable pills */
 .global-filter-dropdown .filter-pill.active,
 .global-filter-dropdown .filter-chip.active {
-  transform: translateY(-1px) scale(1.02);
+  transform: translateY(-1px);
   box-shadow: var(--neuro-shadow-raised);
-  animation: pillPulse 0.3s ease-out;
-}
-
-/* Delightful pulse animation when selecting */
-@keyframes pillPulse {
-  0% {
-    transform: translateY(-1px) scale(1.02);
-  }
-
-  50% {
-    transform: translateY(-2px) scale(1.08);
-  }
-
-  100% {
-    transform: translateY(-1px) scale(1.02);
-  }
 }
 
 /* Add subtle momentum scrolling feedback */
@@ -2129,16 +2110,16 @@ body {
 }
 
 .pool-card:hover {
-  transform: translateY(-4px) scale(1.01);
-  box-shadow: var(--neuro-shadow-raised), 0 12px 30px rgba(59, 130, 246, 0.2);
+  transform: translateY(-2px);
+  box-shadow: var(--neuro-shadow-raised);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Reduced hover effect for desktop compact cards */
 @media (min-width: 1024px) {
   .pool-card:hover {
-    transform: translateY(-2px) scale(1.01);
-    box-shadow: var(--neuro-shadow-raised), 0 8px 20px rgba(59, 130, 246, 0.15);
+    transform: translateY(-2px);
+    box-shadow: var(--neuro-shadow-raised);
   }
 }
 
@@ -2973,7 +2954,7 @@ html {
   border-radius: var(--neuro-radius-md);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+  box-shadow: var(--neuro-shadow-subtle);
   opacity: 0;
   transform: scale(0.8);
   transition: all 0.3s ease;
@@ -3352,13 +3333,12 @@ html {
   transition: all 0.3s ease;
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
-  box-shadow: var(--neuro-shadow-subtle), 0 4px 15px rgba(59, 130, 246, 0.25);
+  box-shadow: var(--neuro-shadow-raised);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   position: relative;
   overflow: hidden;
 
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
   font-weight: 600;
   letter-spacing: 0.5px;
   text-transform: capitalize;
@@ -3371,11 +3351,7 @@ html {
 
 .calculate-yield-btn-new:hover {
   background: var(--color-primary);
-  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(59, 130, 246, 0.4);
-  transform: translateY(-3px);
-
-  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4) !important;
-  transform: translateY(-1px);
+  box-shadow: var(--neuro-shadow-flat);
 }
 
 .calculate-yield-btn-new:hover::before {
@@ -3629,7 +3605,7 @@ html {
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  box-shadow: var(--neuro-shadow-raised);
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
@@ -3637,17 +3613,12 @@ html {
 }
 
 .start-earning-btn:hover {
-  transform: translateY(-2px) scale(1.01);
-  box-shadow:
-    0 8px 25px rgba(59, 130, 246, 0.4),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: var(--neuro-shadow-flat);
 }
 
 .start-earning-btn:active {
-  transform: translateY(0) scale(0.98);
-  box-shadow:
-    0 4px 8px rgba(59, 130, 246, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transform: translateY(1px);
+  box-shadow: var(--neuro-shadow-pressed);
 }
 
 .start-earning-btn::before {
@@ -3739,7 +3710,6 @@ html {
     padding: var(--space-12) var(--space-20);
     font-size: var(--font-size-sm);
 
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: capitalize;
@@ -4249,18 +4219,6 @@ html {
   }
 }
 
-@keyframes pulseGlow {
-
-  0%,
-  100% {
-    box-shadow: var(--shadow-raised);
-  }
-
-  50% {
-    box-shadow: var(--shadow-raised), 0 0 20px rgba(var(--color-teal-500-rgb), 0.3);
-  }
-}
-
 /* Initial hidden state for animated elements */
 .animate-on-mount {
   opacity: 0;
@@ -4295,8 +4253,6 @@ html {
 }
 
 .search-input:focus {
-  animation: pulseGlow 2s var(--entry-easing) infinite;
-
   box-shadow: var(--neuro-shadow-pressed);
 }
 
@@ -4449,7 +4405,7 @@ html {
 }
 
 .theme-toggle-handle {
-  transition: transform 300ms var(--entry-easing-bounce);
+  transition: transform 300ms var(--entry-easing);
 }
 
 /* Enhanced Horizontal Scrolling Filter Styles with Improved UX */
@@ -4901,59 +4857,51 @@ html {
 }
 
 .btn:active:not(:disabled) {
-  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.7);
-  transform: translateY(2px);
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(1px);
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn--primary {
   background: var(--color-primary) !important;
   color: #FFFFFF !important;
-  box-shadow: 4px 4px 10px rgba(59, 130, 246, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.5) !important;
+  box-shadow: var(--neuro-shadow-raised) !important;
   font-weight: 600;
   transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn--primary:hover:not(:disabled) {
   background: var(--color-primary-hover) !important;
-  box-shadow: 6px 6px 14px rgba(59, 130, 246, 0.4), -6px -6px 14px rgba(255, 255, 255, 0.6) !important;
-  transform: translateY(-2px);
+  box-shadow: var(--neuro-shadow-flat) !important;
 }
 
 .btn--primary:active:not(:disabled) {
   background: var(--color-primary-active) !important;
-  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px rgba(255, 255, 255, 0.1) !important;
-  transform: translateY(2px);
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  transform: translateY(1px);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* --- P0: UX Animation & Delight Additions --- */
 
-/* 1. Neumorphic "Physical" Button Press */
+/* 1. Neumorphic "Physical" Button Press - controls sink into the surface */
+.btn:active,
 .calculate-yield-btn-new:active,
+.start-earning-btn:active,
 .search-button:active,
+.google-search-button:active,
+.google-control-btn:active,
 .google-nav-tab:active,
 .google-filter-btn:active,
 .view-toggle-btn:active,
 .theme-toggle:active,
 .language-toggle:active,
+.pagination-btn:active,
 .filter-pill:active,
 .filter-chip:active {
-  transform: translateY(2px) scale(0.97) !important;
-  box-shadow: var(--shadow-inset, inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.5)) !important;
-  transition: transform 100ms ease, box-shadow 100ms ease !important;
-}
-
-[data-theme="dark"] .calculate-yield-btn-new:active,
-[data-theme="dark"] .search-button:active,
-[data-theme="dark"] .google-nav-tab:active,
-[data-theme="dark"] .google-filter-btn:active,
-[data-theme="dark"] .view-toggle-btn:active,
-[data-theme="dark"] .theme-toggle:active,
-[data-theme="dark"] .language-toggle:active,
-[data-theme="dark"] .filter-pill:active,
-[data-theme="dark"] .filter-chip:active {
-  box-shadow: var(--neuro-shadow-pressed, inset 4px 4px 10px #141317, inset -4px -4px 10px #2E2B31) !important;
+  transform: translateY(1px) !important;
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  transition: transform 80ms ease, box-shadow 80ms ease !important;
 }
 
 /* 2. Smooth Hover Elevation */
@@ -5116,27 +5064,20 @@ body,
 }
 
 .amount-input:focus {
-  box-shadow: var(--shadow-inset, inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.3)), 0 0 14px rgba(74, 222, 128, 0.3) !important;
-}
-
-[data-theme="dark"] .amount-input:focus {
-  box-shadow: var(--neuro-shadow-pressed, inset 4px 4px 10px #141317, inset -4px -4px 10px #2E2B31), 0 0 14px rgba(74, 222, 128, 0.15) !important;
+  box-shadow: var(--neuro-shadow-pressed) !important;
 }
 
 @keyframes yieldBounce {
   0% {
     transform: scale(1);
-    filter: brightness(1);
   }
 
   40% {
-    transform: scale(1.08);
-    filter: brightness(1.2) drop-shadow(0 0 8px rgba(74, 222, 128, 0.4));
+    transform: scale(1.02);
   }
 
   100% {
     transform: scale(1);
-    filter: brightness(1);
   }
 }
 
