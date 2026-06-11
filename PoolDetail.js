@@ -1179,11 +1179,19 @@ function PoolDetail({
               const isAddress = typeof token === 'string' && token.startsWith('0x') && token.length >= 40;
 
               if (isAddress) {
+                // Derive display symbol from pool.symbol split on '-' or '/'
+                const symbolParts = pool.symbol ? pool.symbol.split(/[-\/]/).map(s => s.trim()) : [];
+                const addressCount = pool.underlyingTokens.filter(t => typeof t === 'string' && t.startsWith('0x') && t.length >= 40).length;
+                const displayLabel = (symbolParts.length === addressCount && symbolParts[idx])
+                  ? symbolParts[idx] + ' ↗'
+                  : `${token.slice(0, 6)}...${token.slice(-4)} ↗`;
+
                 return React.createElement('a', {
                   key: idx,
                   href: `https://blockscan.com/address/${token}`,
                   target: '_blank',
                   rel: 'noopener noreferrer',
+                  title: token,
                   style: {
                     display: 'inline-flex',
                     alignItems: 'center',
@@ -1198,7 +1206,7 @@ function PoolDetail({
                     transition: 'all 0.2s ease',
                     fontFamily: 'monospace'
                   }
-                }, `${token.slice(0, 6)}...${token.slice(-4)} ↗`);
+                }, displayLabel);
               }
 
               return React.createElement('span', {
