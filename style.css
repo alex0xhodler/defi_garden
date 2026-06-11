@@ -153,7 +153,6 @@
   --entry-delay-base: 100ms;
   --entry-delay-stagger: 50ms;
   --entry-easing: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  --entry-easing-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
   /* Layout */
   --container-sm: 640px;
@@ -224,13 +223,13 @@
     --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
     --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 
-    /* Dark Mode Neumorphic Shadows (Bolder, Supreme) */
+    /* Dark Mode Neumorphic Shadows (Soft, Quiet Depth) */
     --neuro-shadow-dark: #0a090c;
     --neuro-shadow-light: #24212a;
-    --neuro-shadow-raised: 8px 8px 16px var(--neuro-shadow-dark), -8px -8px 16px var(--neuro-shadow-light), inset 1px 1px 2px rgba(255, 255, 255, 0.08);
-    --neuro-shadow-pressed: inset 6px 6px 12px var(--neuro-shadow-dark), inset -6px -6px 12px var(--neuro-shadow-light), 1px 1px 1px rgba(255, 255, 255, 0.05);
-    --neuro-shadow-flat: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light), inset 1px 1px 1px rgba(255, 255, 255, 0.05);
-    --neuro-shadow-subtle: 2px 2px 6px var(--neuro-shadow-dark), -2px -2px 6px var(--neuro-shadow-light);
+    --neuro-shadow-raised: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light), inset 1px 1px 1px rgba(255, 255, 255, 0.06);
+    --neuro-shadow-pressed: inset 3px 3px 7px var(--neuro-shadow-dark), inset -3px -3px 7px var(--neuro-shadow-light);
+    --neuro-shadow-flat: 3px 3px 8px var(--neuro-shadow-dark), -3px -3px 8px var(--neuro-shadow-light);
+    --neuro-shadow-subtle: 2px 2px 5px var(--neuro-shadow-dark), -2px -2px 5px var(--neuro-shadow-light);
 
     /* RGB versions for dark mode */
     --color-success-rgb: var(--color-teal-300-rgb);
@@ -449,21 +448,20 @@ pre code {
 .btn--primary {
   background: var(--color-primary);
   color: var(--color-btn-primary-text);
-  box-shadow: 4px 4px 10px rgba(59, 130, 246, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.5);
+  box-shadow: var(--neuro-shadow-raised);
   font-weight: 600;
   transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn--primary:hover {
   background: var(--color-primary-hover);
-  box-shadow: 6px 6px 14px rgba(59, 130, 246, 0.4), -6px -6px 14px rgba(255, 255, 255, 0.6);
-  transform: translateY(-2px);
+  box-shadow: var(--neuro-shadow-flat);
 }
 
 .btn--primary:active {
   background: var(--color-primary-active);
-  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px rgba(255, 255, 255, 0.1);
-  transform: translateY(2px);
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(1px);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -796,6 +794,16 @@ select.form-control {
   --neuro-surface-light: #F1F5F9;
   --neuro-shadow-dark: #BDCEDB;
   --neuro-shadow-light: #FFFFFF;
+  --neuro-shadow-dark-rgb: 148, 163, 184;
+  --neuro-shadow-light-rgb: 255, 255, 255;
+
+  /* Soft Squircle Radius Scale */
+  --neuro-radius-sm: 10px;
+  --neuro-radius-md: 14px;
+  --neuro-radius-lg: 16px;
+
+  /* Background gradient (lit from center top, resolves per theme) */
+  --neuro-bg-gradient: radial-gradient(circle at center top, var(--color-surface), var(--color-background));
   --neuro-text: #0F172A;
   --neuro-text-secondary: #475569;
 
@@ -809,11 +817,11 @@ select.form-control {
   --color-sage: #93C5FD;
   --color-forest: #1E40AF;
 
-  /* Neumorphism Shadows (Light Mode) - Bolder, Supreme */
-  --neuro-shadow-raised: 8px 8px 18px var(--neuro-shadow-dark), -8px -8px 18px var(--neuro-shadow-light), inset 1px 1px 2px rgba(255, 255, 255, 0.8);
-  --neuro-shadow-pressed: inset 6px 6px 12px var(--neuro-shadow-dark), inset -6px -6px 12px var(--neuro-shadow-light), 1px 1px 1px rgba(255, 255, 255, 0.7);
-  --neuro-shadow-flat: 4px 4px 12px var(--neuro-shadow-dark), -4px -4px 12px var(--neuro-shadow-light), inset 1px 1px 2px rgba(255, 255, 255, 0.5);
-  --neuro-shadow-subtle: 2px 2px 8px var(--neuro-shadow-dark), -2px -2px 8px var(--neuro-shadow-light);
+  /* Neumorphism Shadows (Light Mode) - Soft, Quiet Depth */
+  --neuro-shadow-raised: 4px 4px 10px rgba(var(--neuro-shadow-dark-rgb), 0.45), -4px -4px 10px rgba(var(--neuro-shadow-light-rgb), 0.9), inset 1px 1px 1px rgba(255, 255, 255, 0.6);
+  --neuro-shadow-pressed: inset 3px 3px 7px rgba(var(--neuro-shadow-dark-rgb), 0.45), inset -3px -3px 7px rgba(var(--neuro-shadow-light-rgb), 0.85);
+  --neuro-shadow-flat: 3px 3px 8px rgba(var(--neuro-shadow-dark-rgb), 0.35), -3px -3px 8px rgba(var(--neuro-shadow-light-rgb), 0.8);
+  --neuro-shadow-subtle: 2px 2px 5px rgba(var(--neuro-shadow-dark-rgb), 0.3), -2px -2px 5px rgba(var(--neuro-shadow-light-rgb), 0.7);
 
   /* Override semantic colors with neumorphism theme */
   --color-background: var(--neuro-bg);
@@ -831,17 +839,16 @@ select.form-control {
 
 body {
   font-family: var(--font-family-base);
-  background: var(--color-background);
+  background: var(--neuro-bg-gradient) 0% 0% / cover fixed;
   color: var(--color-text);
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: none;
 }
 
 .app {
   min-height: 100vh;
-  background: var(--color-background);
+  background: transparent;
   padding-bottom: 80px;
   /* Space for footer */
 }
@@ -940,7 +947,6 @@ body {
 
 .google-logo:hover {
   transform: translateY(-1px);
-  text-shadow: 0 2px 8px rgba(var(--color-primary-rgb), 0.2);
 }
 
 .google-search-container {
@@ -954,7 +960,7 @@ body {
   display: flex;
   align-items: center;
   background: var(--color-surface);
-  border-radius: var(--radius-full);
+  border-radius: var(--neuro-radius-lg);
   box-shadow: var(--neuro-shadow-subtle);
   border: none;
   transition: all 0.2s ease;
@@ -982,6 +988,23 @@ body {
 
 .google-search-input::placeholder {
   color: var(--color-text-secondary);
+}
+
+/* ✕ clear button inside google search bar */
+.google-search-clear {
+  padding: var(--space-4) var(--space-8);
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+  border-radius: var(--neuro-radius-sm);
+  transition: color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.google-search-clear:hover {
+  color: var(--color-text);
 }
 
 .google-search-button {
@@ -1020,7 +1043,7 @@ body {
   padding: var(--space-8) var(--space-12);
   background: var(--color-surface);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   color: var(--color-text);
   cursor: pointer;
   font-size: var(--font-size-sm);
@@ -1095,7 +1118,7 @@ body {
   padding: var(--space-8) var(--space-16);
   background: var(--color-surface);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   color: var(--color-text);
   cursor: pointer;
   font-size: var(--font-size-sm);
@@ -1293,24 +1316,8 @@ body {
 /* Enhanced hover animations for scrollable pills */
 .global-filter-dropdown .filter-pill.active,
 .global-filter-dropdown .filter-chip.active {
-  transform: translateY(-1px) scale(1.02);
+  transform: translateY(-1px);
   box-shadow: var(--neuro-shadow-raised);
-  animation: pillPulse 0.3s ease-out;
-}
-
-/* Delightful pulse animation when selecting */
-@keyframes pillPulse {
-  0% {
-    transform: translateY(-1px) scale(1.02);
-  }
-
-  50% {
-    transform: translateY(-2px) scale(1.08);
-  }
-
-  100% {
-    transform: translateY(-1px) scale(1.02);
-  }
 }
 
 /* Add subtle momentum scrolling feedback */
@@ -1427,7 +1434,7 @@ body {
   padding: var(--space-10) var(--space-16);
   background: var(--color-surface);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   color: var(--color-text);
   cursor: pointer;
   font-size: var(--font-size-sm);
@@ -1490,7 +1497,7 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
   padding: var(--space-12) var(--space-16);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   background: transparent;
   box-shadow: none;
   max-width: 300px;
@@ -1544,7 +1551,7 @@ body {
   padding: var(--space-6) var(--space-12);
   background: rgba(var(--color-primary-rgb, 33, 128, 141), 0.1);
   border: 1px solid rgba(var(--color-primary-rgb, 33, 128, 141), 0.2);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   color: var(--color-primary);
@@ -1606,7 +1613,7 @@ body {
 
 .chain-card {
   background: var(--color-background);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   padding: var(--space-20);
   box-shadow: var(--neuro-shadow-subtle);
   cursor: pointer;
@@ -1702,7 +1709,7 @@ body {
   padding: var(--space-16) var(--space-20);
   font-size: var(--font-size-lg);
   border: none;
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   background: var(--color-background);
   color: var(--color-text);
   caret-color: var(--color-primary);
@@ -1738,7 +1745,7 @@ body {
   left: 0;
   right: 0;
   background: var(--color-background);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   box-shadow: var(--neuro-shadow-subtle);
   z-index: 1000;
   max-height: 400px;
@@ -1750,7 +1757,7 @@ body {
   padding: var(--space-12) var(--space-20);
   cursor: pointer;
   transition: all 0.2s ease;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   margin: var(--space-4) var(--space-8);
   background: var(--color-background);
 }
@@ -1766,7 +1773,7 @@ body {
 /* Neumorphic Filters Section */
 .filters-section {
   background: var(--color-background);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   padding: var(--space-16);
   margin-bottom: var(--space-24);
   box-shadow: var(--neuro-shadow-subtle);
@@ -1798,7 +1805,7 @@ body {
   padding: var(--space-6) var(--space-12);
   margin: 0;
   background: var(--color-background);
-  border-radius: 8px;
+  border-radius: var(--neuro-radius-sm);
   box-shadow: var(--neuro-shadow-inset);
   display: inline-flex;
   align-items: center;
@@ -1830,7 +1837,7 @@ body {
 .filter-select {
   padding: var(--space-12) var(--space-16);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   background: var(--color-background);
   color: var(--color-text);
   font-size: var(--font-size-base);
@@ -1870,7 +1877,7 @@ body {
   margin-bottom: var(--space-24);
   padding: var(--space-16) var(--space-20);
   background: var(--color-background);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   box-shadow: var(--neuro-shadow-flat);
 }
 
@@ -1891,7 +1898,7 @@ body {
 .view-toggles {
   display: flex;
   background: var(--color-surface);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   padding: 4px;
   box-shadow: var(--neuro-shadow-pressed);
 }
@@ -1900,7 +1907,7 @@ body {
   background: transparent;
   border: none;
   padding: 6px 12px;
-  border-radius: 8px;
+  border-radius: var(--neuro-radius-sm);
   cursor: pointer;
   color: var(--color-text-secondary);
   font-size: 16px;
@@ -1931,7 +1938,7 @@ body {
 
 .sort-toggles {
   background: var(--color-surface);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   padding: 4px;
   box-shadow: var(--neuro-shadow-pressed);
 }
@@ -1960,7 +1967,7 @@ body {
   gap: var(--space-24);
   padding: var(--space-16) var(--space-24);
   min-height: auto;
-  border-radius: 16px;
+  border-radius: var(--neuro-radius-lg);
   flex-direction: row;
 }
 
@@ -2070,7 +2077,7 @@ body {
   color: var(--color-text-secondary);
   background: var(--color-background);
   padding: var(--space-6) var(--space-12);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   box-shadow: var(--neuro-shadow-pressed);
 }
 
@@ -2093,7 +2100,7 @@ body {
 
 .pool-card {
   background: var(--color-background);
-  border-radius: 24px;
+  border-radius: var(--neuro-radius-lg);
   padding: var(--space-24);
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   box-shadow: var(--neuro-shadow-flat);
@@ -2109,7 +2116,7 @@ body {
 @media (min-width: 1024px) {
   .pool-card {
     padding: var(--space-16);
-    border-radius: 24px;
+    border-radius: var(--neuro-radius-lg);
     min-height: 200px;
     max-height: 280px;
   }
@@ -2120,16 +2127,16 @@ body {
 }
 
 .pool-card:hover {
-  transform: translateY(-4px) scale(1.01);
-  box-shadow: var(--neuro-shadow-raised), 0 12px 30px rgba(59, 130, 246, 0.2);
+  transform: translateY(-2px);
+  box-shadow: var(--neuro-shadow-raised);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Reduced hover effect for desktop compact cards */
 @media (min-width: 1024px) {
   .pool-card:hover {
-    transform: translateY(-2px) scale(1.01);
-    box-shadow: var(--neuro-shadow-raised), 0 8px 20px rgba(59, 130, 246, 0.15);
+    transform: translateY(-2px);
+    box-shadow: var(--neuro-shadow-raised);
   }
 }
 
@@ -2139,7 +2146,7 @@ body {
 
   box-shadow: var(--neuro-shadow-pressed) !important;
   background: var(--neuro-bg);
-  border-radius: 16px;
+  border-radius: var(--neuro-radius-lg);
   padding: 8px 16px;
 
   background: var(--color-surface) !important;
@@ -2204,7 +2211,7 @@ body {
   opacity: 0.7;
   transition: all 0.2s ease;
   padding: var(--space-2) var(--space-4);
-  border-radius: 6px;
+  border-radius: var(--neuro-radius-sm);
   background: var(--color-background);
   box-shadow: var(--neuro-shadow-subtle);
 }
@@ -2220,7 +2227,7 @@ body {
   color: var(--color-primary);
   background: var(--color-background);
   padding: var(--space-8) var(--space-12);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   box-shadow: var(--neuro-shadow-pressed);
 }
 
@@ -2236,7 +2243,7 @@ body {
   flex-direction: column;
   background: var(--color-background);
   padding: var(--space-8);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   box-shadow: var(--neuro-shadow-subtle);
 }
 
@@ -2261,7 +2268,7 @@ body {
   background: var(--color-background);
   color: var(--color-primary);
   padding: var(--space-8) var(--space-16);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   box-shadow: var(--neuro-shadow-subtle);
@@ -2283,7 +2290,7 @@ body {
   border: none;
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   cursor: pointer;
   transition: all 0.2s ease;
   font-size: var(--font-size-sm);
@@ -2319,7 +2326,7 @@ body {
   margin: 0 var(--space-16);
   padding: var(--space-8) var(--space-16);
   background: var(--color-background);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   box-shadow: var(--neuro-shadow-pressed);
 }
 
@@ -2329,7 +2336,7 @@ body {
   text-align: center;
   padding: var(--space-32);
   background: var(--color-background);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   box-shadow: var(--neuro-shadow-flat);
   margin: var(--space-24) 0;
   width: 100%;
@@ -2375,7 +2382,7 @@ body {
   text-align: center;
   padding: var(--space-32);
   background: var(--color-background);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   box-shadow: var(--neuro-shadow-flat);
   margin: var(--space-24) 0;
 }
@@ -2413,7 +2420,7 @@ body {
   font-weight: var(--font-weight-medium);
   transition: all 0.2s ease;
   padding: var(--space-2) var(--space-4);
-  border-radius: 6px;
+  border-radius: var(--neuro-radius-sm);
 }
 
 .app-footer a:hover {
@@ -2431,7 +2438,7 @@ body {
   border: none;
   background: linear-gradient(135deg, var(--color-primary), var(--color-teal-600));
   color: white;
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: var(--font-size-sm);
@@ -2477,7 +2484,7 @@ body {
   .search-input {
     font-size: var(--font-size-base);
     padding: var(--space-12) var(--space-20);
-    border-radius: 20px;
+    border-radius: var(--neuro-radius-lg);
     width: 100%;
     box-sizing: border-box;
     max-width: 100%;
@@ -2543,7 +2550,7 @@ body {
     padding: var(--space-20);
     min-height: auto;
 
-    border-radius: 24px;
+    border-radius: var(--neuro-radius-lg);
   }
 
   .pool-card.clickable {
@@ -2604,7 +2611,7 @@ body {
     padding: var(--space-16);
     margin-bottom: var(--space-16);
 
-    border-radius: 24px;
+    border-radius: var(--neuro-radius-lg);
   }
 
   .search-container {
@@ -2615,7 +2622,7 @@ body {
   .search-input {
     padding: var(--space-10) var(--space-16);
     font-size: var(--font-size-sm);
-    border-radius: 18px;
+    border-radius: var(--neuro-radius-lg);
 
     box-shadow: var(--neuro-shadow-pressed);
     background: var(--neuro-bg);
@@ -2774,17 +2781,17 @@ html {
   .pool-tvl-section {
     background: var(--color-background);
     padding: var(--space-6) var(--space-8);
-    border-radius: 8px;
+    border-radius: var(--neuro-radius-sm);
     box-shadow: var(--neuro-shadow-subtle);
     margin-bottom: var(--space-8);
     text-align: center;
 
     box-shadow: var(--neuro-shadow-pressed) !important;
     background: var(--neuro-bg);
-    border-radius: 12px;
+    border-radius: var(--neuro-radius-md);
 
     background: var(--color-surface) !important;
-    border-radius: 12px;
+    border-radius: var(--neuro-radius-md);
     box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
   }
 
@@ -2887,7 +2894,7 @@ html {
   gap: var(--space-4);
   padding: 4px 12px;
   background: var(--color-surface);
-  border-radius: 999px;
+  border-radius: var(--neuro-radius-md);
   box-shadow: var(--neuro-shadow-pressed);
   opacity: 0.9;
 }
@@ -2961,10 +2968,10 @@ html {
   font-size: 10px;
   font-weight: var(--font-weight-bold);
   padding: var(--space-1) var(--space-4);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+  box-shadow: var(--neuro-shadow-subtle);
   opacity: 0;
   transform: scale(0.8);
   transition: all 0.3s ease;
@@ -2994,7 +3001,7 @@ html {
 
   box-shadow: var(--neuro-shadow-pressed) !important;
   background: var(--neuro-bg);
-  border-radius: 16px;
+  border-radius: var(--neuro-radius-lg);
   padding: 8px 16px;
 
   background: var(--color-surface) !important;
@@ -3037,7 +3044,7 @@ html {
   padding: var(--space-8) var(--space-12);
   margin: var(--space-12) 0;
   transition: all 0.3s ease;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 
@@ -3077,7 +3084,7 @@ html {
   background: var(--color-surface);
   border: 1px solid rgba(59, 130, 246, 0.1);
   padding: var(--space-4) var(--space-8);
-  border-radius: 8px;
+  border-radius: var(--neuro-radius-sm);
   opacity: 0.9;
   transition: all 0.3s ease;
   margin-top: var(--space-2);
@@ -3096,49 +3103,36 @@ html {
 
 
 
-/* Enhanced button styling for Calculate Yield */
+/* Ghost affordance CTA for card "View & calculate" */
 .calculate-yield-btn-new {
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-active));
-  color: white;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  background: transparent;
+  box-shadow: none;
+  color: var(--color-primary);
+  font-weight: 600;
   font-size: var(--font-size-sm);
-  padding: var(--space-12) var(--space-20);
-  border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: var(--neuro-shadow-flat), inset 1px 1px 2px rgba(255, 255, 255, 0.3);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  position: relative;
-  overflow: hidden;
+  padding: var(--space-8) var(--space-16);
+  border-radius: var(--neuro-radius-md);
+  border: none;
   cursor: pointer;
   width: 100%;
   margin-top: var(--space-8);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .calculate-yield-btn-new::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.5s ease;
-}
-
-.calculate-yield-btn-new:hover::before {
-  left: 100%;
+  display: none;
 }
 
 .calculate-yield-btn-new:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--neuro-shadow-raised), inset 1px 1px 3px rgba(255, 255, 255, 0.4);
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-subtle);
+  transform: none;
 }
 
 .calculate-yield-btn-new:active {
-  transform: translateY(2px);
-  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2), inset -4px -4px 8px rgba(255, 255, 255, 0.1);
+  /* press-physics rule in the global block handles this */
 }
 
 .pool-apy-hero {
@@ -3148,7 +3142,7 @@ html {
   color: var(--color-primary);
   background: var(--neuro-bg);
   padding: var(--space-16) var(--space-24);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   box-shadow: var(--neuro-shadow-pressed), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
   line-height: 0.9;
@@ -3157,7 +3151,7 @@ html {
 
   box-shadow: var(--neuro-shadow-pressed) !important;
   background: var(--neuro-bg);
-  border-radius: 16px;
+  border-radius: var(--neuro-radius-lg);
   padding: 8px 16px;
 
   background: var(--color-surface) !important;
@@ -3169,11 +3163,11 @@ html {
   .pool-apy-hero {
     font-size: var(--font-size-xl);
     padding: var(--space-6) var(--space-12);
-    border-radius: 10px;
+    border-radius: var(--neuro-radius-sm);
 
     box-shadow: var(--neuro-shadow-pressed) !important;
     background: var(--neuro-bg);
-    border-radius: 16px;
+    border-radius: var(--neuro-radius-lg);
     padding: 8px 16px;
 
     background: var(--color-surface) !important;
@@ -3191,7 +3185,7 @@ html {
   padding: var(--space-2) var(--space-8);
   text-align: right;
   background: rgba(59, 130, 246, 0.1);
-  border-radius: 8px;
+  border-radius: var(--neuro-radius-sm);
   border: 1px solid rgba(59, 130, 246, 0.2);
   margin-right: var(--space-8);
 }
@@ -3249,7 +3243,7 @@ html {
 .pool-tvl-section {
   background: var(--color-background);
   padding: var(--space-10) var(--space-12);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   box-shadow: var(--neuro-shadow-subtle);
   margin-bottom: var(--space-16);
   transition: all 0.3s ease;
@@ -3260,10 +3254,10 @@ html {
 
   box-shadow: var(--neuro-shadow-pressed) !important;
   background: var(--neuro-bg);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
 
   background: var(--color-surface) !important;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
 }
 
@@ -3294,7 +3288,7 @@ html {
   margin-bottom: var(--space-16);
   padding: 0 var(--space-16);
   background: var(--color-background);
-  border-radius: 8px;
+  border-radius: var(--neuro-radius-sm);
   box-shadow: var(--neuro-shadow-subtle);
 }
 
@@ -3322,7 +3316,7 @@ html {
   font-weight: var(--font-weight-bold);
   background: var(--color-background);
   padding: var(--space-2) var(--space-6);
-  border-radius: 6px;
+  border-radius: var(--neuro-radius-sm);
   box-shadow: var(--neuro-shadow-subtle);
 }
 
@@ -3332,59 +3326,13 @@ html {
   margin-top: auto;
 }
 
-.calculate-yield-btn-new {
-  width: 100%;
-  padding: var(--space-16) var(--space-24);
-  border: none;
-  background: var(--color-primary);
-  color: white;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-bold);
-  box-shadow: var(--neuro-shadow-subtle), 0 4px 15px rgba(59, 130, 246, 0.25);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  position: relative;
-  overflow: hidden;
-
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: capitalize;
-}
-
-/* Button shimmer effect */
-.calculate-yield-btn-new::before {
-  display: none;
-}
-
-.calculate-yield-btn-new:hover {
-  background: var(--color-primary);
-  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(59, 130, 246, 0.4);
-  transform: translateY(-3px);
-
-  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4) !important;
-  transform: translateY(-1px);
-}
-
-.calculate-yield-btn-new:hover::before {
-  left: 100%;
-}
-
-.calculate-yield-btn-new:active {
-  box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(-1px);
-}
-
 /* Legacy button styles for backwards compatibility */
 .calculate-yield-btn {
   padding: var(--space-8) var(--space-16);
   border: none;
   background: var(--color-background);
   color: var(--color-primary);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   cursor: pointer;
   transition: all 0.2s ease;
   font-size: var(--font-size-sm);
@@ -3421,7 +3369,7 @@ html {
 /* Yield Calculator Modal */
 .yield-calculator-modal {
   background: var(--color-background);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   padding: var(--space-32);
   max-width: 500px;
   width: 90%;
@@ -3485,7 +3433,7 @@ html {
 /* Pool Info Section */
 .pool-info {
   background: var(--color-background);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   padding: var(--space-20);
   box-shadow: var(--neuro-shadow-pressed);
   display: flex;
@@ -3515,7 +3463,7 @@ html {
   color: var(--color-primary);
   background: var(--color-background);
   padding: var(--space-4) var(--space-8);
-  border-radius: 8px;
+  border-radius: var(--neuro-radius-sm);
   box-shadow: var(--neuro-shadow-subtle);
 }
 
@@ -3523,7 +3471,7 @@ html {
   color: var(--color-text);
   background: var(--color-background);
   padding: var(--space-4) var(--space-8);
-  border-radius: 8px;
+  border-radius: var(--neuro-radius-sm);
   box-shadow: var(--neuro-shadow-subtle);
   font-family: monospace;
   font-weight: var(--font-weight-bold);
@@ -3545,7 +3493,7 @@ html {
 .amount-input {
   padding: var(--space-16);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   background: var(--color-background);
   color: var(--color-text);
   font-size: var(--font-size-base);
@@ -3572,7 +3520,7 @@ html {
   align-items: center;
   padding: var(--space-16) var(--space-20);
   background: var(--color-background);
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   box-shadow: var(--neuro-shadow-subtle);
 }
 
@@ -3588,7 +3536,7 @@ html {
   color: var(--color-primary);
   background: var(--color-background);
   padding: var(--space-6) var(--space-12);
-  border-radius: 8px;
+  border-radius: var(--neuro-radius-sm);
   box-shadow: var(--neuro-shadow-pressed);
 }
 
@@ -3600,7 +3548,7 @@ html {
   margin-top: var(--space-8);
   padding: var(--space-8);
   background: var(--color-background);
-  border-radius: 8px;
+  border-radius: var(--neuro-radius-sm);
   box-shadow: var(--neuro-shadow-subtle);
 }
 
@@ -3615,12 +3563,12 @@ html {
   border: none;
   background: var(--color-primary);
   color: white;
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  box-shadow: var(--neuro-shadow-raised);
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
@@ -3628,17 +3576,12 @@ html {
 }
 
 .start-earning-btn:hover {
-  transform: translateY(-2px) scale(1.01);
-  box-shadow:
-    0 8px 25px rgba(59, 130, 246, 0.4),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: var(--neuro-shadow-flat);
 }
 
 .start-earning-btn:active {
-  transform: translateY(0) scale(0.98);
-  box-shadow:
-    0 4px 8px rgba(59, 130, 246, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transform: translateY(1px);
+  box-shadow: var(--neuro-shadow-pressed);
 }
 
 .start-earning-btn::before {
@@ -3698,7 +3641,7 @@ html {
 
     box-shadow: var(--neuro-shadow-pressed) !important;
     background: var(--neuro-bg);
-    border-radius: 16px;
+    border-radius: var(--neuro-radius-lg);
     padding: 8px 16px;
 
     background: var(--color-surface) !important;
@@ -3715,10 +3658,10 @@ html {
 
     box-shadow: var(--neuro-shadow-pressed) !important;
     background: var(--neuro-bg);
-    border-radius: 12px;
+    border-radius: var(--neuro-radius-md);
 
     background: var(--color-surface) !important;
-    border-radius: 12px;
+    border-radius: var(--neuro-radius-md);
     box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
   }
 
@@ -3727,13 +3670,11 @@ html {
   }
 
   .calculate-yield-btn-new {
-    padding: var(--space-12) var(--space-20);
+    padding: var(--space-8) var(--space-16);
     font-size: var(--font-size-sm);
-
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
     font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: capitalize;
+    text-transform: none;
+    letter-spacing: normal;
   }
 }
 
@@ -3816,12 +3757,7 @@ html {
   background: var(--color-secondary);
 }
 
-.theme-toggle-text {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-text-secondary);
-  user-select: none;
-}
+/* .theme-toggle-text removed — icon reflects current state, no text label needed */
 
 /* Language Toggle Styles */
 .language-toggle {
@@ -3966,13 +3902,13 @@ html {
   --status-bg-opacity: 0.15;
   --status-border-opacity: 0.25;
 
-  /* Dark Mode Neumorphic Shadows */
+  /* Dark Mode Neumorphic Shadows (Soft, Quiet Depth) */
   --neuro-shadow-dark: #141317;
   --neuro-shadow-light: #2E2B31;
-  --neuro-shadow-raised: 6px 6px 14px var(--neuro-shadow-dark), -6px -6px 14px var(--neuro-shadow-light);
-  --neuro-shadow-pressed: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light);
-  --neuro-shadow-flat: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light);
-  --neuro-shadow-subtle: 2px 2px 6px var(--neuro-shadow-dark), -2px -2px 6px var(--neuro-shadow-light);
+  --neuro-shadow-raised: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light), inset 1px 1px 1px rgba(255, 255, 255, 0.06);
+  --neuro-shadow-pressed: inset 3px 3px 7px var(--neuro-shadow-dark), inset -3px -3px 7px var(--neuro-shadow-light);
+  --neuro-shadow-flat: 3px 3px 8px var(--neuro-shadow-dark), -3px -3px 8px var(--neuro-shadow-light);
+  --neuro-shadow-subtle: 2px 2px 5px var(--neuro-shadow-dark), -2px -2px 5px var(--neuro-shadow-light);
 }
 
 /* Search Buttons */
@@ -3992,7 +3928,7 @@ html {
   border: none;
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: 20px;
+  border-radius: var(--neuro-radius-lg);
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: var(--font-size-base);
@@ -4135,9 +4071,6 @@ html {
     left: 22px;
   }
 
-  .theme-toggle-text {
-    font-size: var(--font-size-xs);
-  }
 }
 
 /* Extra small screens - compact mobile toggle */
@@ -4180,10 +4113,8 @@ html {
     left: 20px;
   }
 
-  .theme-toggle-text {
-    font-size: 10px;
-  }
 }
+
 
 /* =========================================
    ENTRY ANIMATIONS
@@ -4240,18 +4171,6 @@ html {
   }
 }
 
-@keyframes pulseGlow {
-
-  0%,
-  100% {
-    box-shadow: var(--shadow-raised);
-  }
-
-  50% {
-    box-shadow: var(--shadow-raised), 0 0 20px rgba(var(--color-teal-500-rgb), 0.3);
-  }
-}
-
 /* Initial hidden state for animated elements */
 .animate-on-mount {
   opacity: 0;
@@ -4286,8 +4205,6 @@ html {
 }
 
 .search-input:focus {
-  animation: pulseGlow 2s var(--entry-easing) infinite;
-
   box-shadow: var(--neuro-shadow-pressed);
 }
 
@@ -4380,7 +4297,7 @@ html {
       var(--color-secondary) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--neuro-radius-lg);
 }
 
 @keyframes shimmer {
@@ -4440,7 +4357,7 @@ html {
 }
 
 .theme-toggle-handle {
-  transition: transform 300ms var(--entry-easing-bounce);
+  transition: transform 300ms var(--entry-easing);
 }
 
 /* Enhanced Horizontal Scrolling Filter Styles with Improved UX */
@@ -4547,7 +4464,7 @@ html {
   flex-shrink: 0;
   padding: var(--space-8) var(--space-16);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   background: var(--color-surface);
   color: var(--color-text);
   font-size: var(--font-size-sm);
@@ -4624,7 +4541,7 @@ html {
   flex-shrink: 0;
   padding: var(--space-8) var(--space-16);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   background: var(--color-surface);
   color: var(--color-text);
   font-size: var(--font-size-sm);
@@ -4694,7 +4611,7 @@ html {
   flex-shrink: 0;
   padding: var(--space-4) var(--space-8);
   background: transparent;
-  border-radius: 6px;
+  border-radius: var(--neuro-radius-sm);
   min-height: 32px;
   display: flex;
   align-items: center;
@@ -4720,7 +4637,7 @@ html {
   flex-shrink: 0;
   padding: var(--space-8) var(--space-16);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--neuro-radius-md);
   background: var(--color-surface);
   color: var(--color-text);
   font-size: var(--font-size-sm);
@@ -4808,21 +4725,21 @@ html {
     padding: var(--space-12) var(--space-16);
     font-size: var(--font-size-sm);
     min-height: 44px;
-    border-radius: 12px;
+    border-radius: var(--neuro-radius-md);
   }
 
   .filter-pill {
     padding: var(--space-10) var(--space-16);
     font-size: var(--font-size-sm);
     min-height: 44px;
-    border-radius: 12px;
+    border-radius: var(--neuro-radius-md);
   }
 
   .filter-button {
     padding: var(--space-10) var(--space-16);
     font-size: var(--font-size-sm);
     min-height: 44px;
-    border-radius: 12px;
+    border-radius: var(--neuro-radius-md);
   }
 
   .value-filters-row {
@@ -4832,7 +4749,7 @@ html {
   .filters-section {
     padding: var(--space-8);
     margin-bottom: var(--space-16);
-    border-radius: 12px;
+    border-radius: var(--neuro-radius-md);
   }
 
   .value-filters-row {
@@ -4873,7 +4790,7 @@ html {
   align-items: center;
   justify-content: center;
   padding: var(--space-12) var(--space-24);
-  border-radius: 999px;
+  border-radius: var(--neuro-radius-lg);
   font-size: var(--font-size-base);
   font-weight: 600;
   line-height: 1.5;
@@ -4892,59 +4809,51 @@ html {
 }
 
 .btn:active:not(:disabled) {
-  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.7);
-  transform: translateY(2px);
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(1px);
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn--primary {
   background: var(--color-primary) !important;
   color: #FFFFFF !important;
-  box-shadow: 4px 4px 10px rgba(59, 130, 246, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.5) !important;
+  box-shadow: var(--neuro-shadow-raised) !important;
   font-weight: 600;
   transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn--primary:hover:not(:disabled) {
   background: var(--color-primary-hover) !important;
-  box-shadow: 6px 6px 14px rgba(59, 130, 246, 0.4), -6px -6px 14px rgba(255, 255, 255, 0.6) !important;
-  transform: translateY(-2px);
+  box-shadow: var(--neuro-shadow-flat) !important;
 }
 
 .btn--primary:active:not(:disabled) {
   background: var(--color-primary-active) !important;
-  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2), inset -4px -4px 10px rgba(255, 255, 255, 0.1) !important;
-  transform: translateY(2px);
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  transform: translateY(1px);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* --- P0: UX Animation & Delight Additions --- */
 
-/* 1. Neumorphic "Physical" Button Press */
+/* 1. Neumorphic "Physical" Button Press - controls sink into the surface */
+.btn:active,
 .calculate-yield-btn-new:active,
+.start-earning-btn:active,
 .search-button:active,
+.google-search-button:active,
+.google-control-btn:active,
 .google-nav-tab:active,
 .google-filter-btn:active,
 .view-toggle-btn:active,
 .theme-toggle:active,
 .language-toggle:active,
+.pagination-btn:active,
 .filter-pill:active,
 .filter-chip:active {
-  transform: translateY(2px) scale(0.97) !important;
-  box-shadow: var(--shadow-inset, inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.5)) !important;
-  transition: transform 100ms ease, box-shadow 100ms ease !important;
-}
-
-[data-theme="dark"] .calculate-yield-btn-new:active,
-[data-theme="dark"] .search-button:active,
-[data-theme="dark"] .google-nav-tab:active,
-[data-theme="dark"] .google-filter-btn:active,
-[data-theme="dark"] .view-toggle-btn:active,
-[data-theme="dark"] .theme-toggle:active,
-[data-theme="dark"] .language-toggle:active,
-[data-theme="dark"] .filter-pill:active,
-[data-theme="dark"] .filter-chip:active {
-  box-shadow: var(--neuro-shadow-pressed, inset 4px 4px 10px #141317, inset -4px -4px 10px #2E2B31) !important;
+  transform: translateY(1px) !important;
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  transition: transform 80ms ease, box-shadow 80ms ease !important;
 }
 
 /* 2. Smooth Hover Elevation */
@@ -5107,30 +5016,80 @@ body,
 }
 
 .amount-input:focus {
-  box-shadow: var(--shadow-inset, inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.3)), 0 0 14px rgba(74, 222, 128, 0.3) !important;
-}
-
-[data-theme="dark"] .amount-input:focus {
-  box-shadow: var(--neuro-shadow-pressed, inset 4px 4px 10px #141317, inset -4px -4px 10px #2E2B31), 0 0 14px rgba(74, 222, 128, 0.15) !important;
+  box-shadow: var(--neuro-shadow-pressed) !important;
 }
 
 @keyframes yieldBounce {
   0% {
     transform: scale(1);
-    filter: brightness(1);
   }
 
   40% {
-    transform: scale(1.08);
-    filter: brightness(1.2) drop-shadow(0 0 8px rgba(74, 222, 128, 0.4));
+    transform: scale(1.02);
   }
 
   100% {
     transform: scale(1);
-    filter: brightness(1);
   }
 }
 
 .yield-pulse-active {
   animation: yieldBounce 300ms cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+/* Metric card sublabel (e.g. "on $100,000") */
+.metric-sublabel {
+  display: block;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+/* Calculator disclaimer and anomaly warning */
+.calc-disclaimer {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-8);
+  line-height: 1.4;
+}
+
+.calc-warning {
+  color: var(--color-warning);
+  font-size: var(--font-size-xs);
+  margin-top: var(--space-4);
+  line-height: 1.4;
+}
+
+/* Anomalous APY flag */
+.apy-anomalous {
+  color: var(--color-warning) !important;
+  -webkit-text-fill-color: unset !important;
+  background: none !important;
+}
+
+/* Detail header controls */
+.detail-header-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  border: none;
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-subtle);
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--duration-normal) var(--ease-standard);
+}
+
+.detail-header-btn:active {
+  box-shadow: var(--neuro-shadow-pressed) !important;
+  transform: translateY(1px);
+}
+
+.detail-header-controls {
+  display: flex;
+  gap: var(--space-8);
+  align-items: center;
 }

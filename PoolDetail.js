@@ -8,12 +8,22 @@ function PoolDetail({
   calculateYields,
   formatCurrency,
   formatAPY,
+  formatUsd,
+  formatNum,
+  formatApy,
   getProtocolUrl,
   getProtocolUrlWithRef,
   isDarkMode,
   t,
-  AnimatedNumber
+  AnimatedNumber,
+  toggleTheme,
+  language,
+  changeLanguage
 }) {
+  // Fallback formatters when not passed (e.g. SSR/tests)
+  const _formatUsd = formatUsd || ((n, f) => '$' + Number(n || 0).toLocaleString('en-US', { maximumFractionDigits: f || 2 }));
+  const _formatNum = formatNum || ((n) => Number(n || 0).toLocaleString('en-US'));
+  const _formatApy = formatApy || ((pct) => Number(pct || 0).toLocaleString('en-US', { maximumFractionDigits: 2 }) + '%');
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
   const [calculatorExpanded, setCalculatorExpanded] = useState(true);
@@ -73,10 +83,24 @@ function PoolDetail({
 
   const poolType = getPoolType();
 
+  const APY_SANITY_LIMIT_LOCAL = 1000; // mirror of app.js constant
+
   // Comprehensive Risk Assessment
   const getRiskAssessment = () => {
     let riskScore = 0;
     const factors = [];
+
+    // Anomalous APY override — force High risk immediately
+    if (totalApy > APY_SANITY_LIMIT_LOCAL) {
+      factors.push('Anomalous yield');
+      return {
+        level: t ? t('highRisk') : 'High',
+        color: 'var(--color-error)',
+        description: 'Anomalous yield — extreme caution',
+        factors,
+        score: 100
+      };
+    }
 
     // TVL Factor (40% weight)
     if (pool.tvlUsd < 1000000) {
@@ -199,7 +223,7 @@ function PoolDetail({
           padding: '0 20px',
           height: '40px', // Match toggle height
           background: 'var(--color-background)',
-          borderRadius: '20px',
+          borderRadius: 'var(--neuro-radius-lg)',
           boxShadow: 'var(--neuro-shadow-pressed)',
           fontSize: 'var(--font-size-sm)',
           fontWeight: 'var(--font-weight-medium)',
@@ -235,16 +259,21 @@ function PoolDetail({
         }, `${pool.symbol} Pool`)
       ),
 
-      // Right: Empty space for real toggle (matching height)
-      React.createElement('div', {
-        style: {
-          width: '100px',
-          height: '40px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'flex-end'
-        }
-      })
+      // Right: Header controls (language + theme)
+      React.createElement('div', { className: 'detail-header-controls' },
+        // Language toggle
+        (changeLanguage && language) && React.createElement('button', {
+          className: 'detail-header-btn',
+          onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
+          'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
+        }, language === 'en' ? 'KO' : 'EN'),
+        // Theme toggle
+        toggleTheme && React.createElement('button', {
+          className: 'detail-header-btn',
+          onClick: toggleTheme,
+          'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
+        }, isDarkMode ? '🌙' : '☀️')
+      )
     ),
 
     // Hero Section - Simplified and Focused
@@ -252,7 +281,7 @@ function PoolDetail({
       className: 'pool-hero-card animate-on-mount',
       style: {
         background: 'var(--color-background)',
-        borderRadius: '24px',
+        borderRadius: 'var(--neuro-radius-lg)',
         padding: '32px',
         boxShadow: 'var(--neuro-shadow-raised)',
         marginBottom: '24px',
@@ -331,7 +360,7 @@ function PoolDetail({
               background: 'var(--color-background)',
               color: 'var(--color-primary)',
               padding: '8px 16px',
-              borderRadius: '20px',
+              borderRadius: 'var(--neuro-radius-lg)',
               fontSize: 'var(--font-size-sm)',
               fontWeight: 'var(--font-weight-medium)',
               boxShadow: 'var(--neuro-shadow-pressed)',
@@ -357,7 +386,7 @@ function PoolDetail({
                 gap: '4px',
                 padding: '4px 8px',
                 background: 'var(--color-background)',
-                borderRadius: '12px',
+                borderRadius: 'var(--neuro-radius-md)',
                 fontSize: 'var(--font-size-xs)',
                 color: 'var(--color-success)',
                 boxShadow: 'var(--neuro-shadow-pressed)'
@@ -370,7 +399,7 @@ function PoolDetail({
                 alignItems: 'center',
                 padding: '4px 8px',
                 background: 'var(--color-background)',
-                borderRadius: '12px',
+                borderRadius: 'var(--neuro-radius-md)',
                 fontSize: 'var(--font-size-xs)',
                 color: 'var(--color-text-secondary)',
                 boxShadow: 'var(--neuro-shadow-pressed)'
@@ -404,7 +433,7 @@ function PoolDetail({
               alignItems: 'flex-end',
               padding: '20px 24px',
               background: 'var(--color-background)',
-              borderRadius: '16px',
+              borderRadius: 'var(--neuro-radius-lg)',
               boxShadow: 'var(--neuro-shadow-pressed)',
               minWidth: '200px'
             }
@@ -433,7 +462,7 @@ function PoolDetail({
               }
             }, AnimatedNumber ? React.createElement(AnimatedNumber, {
               value: (pool.apyBase || 0) + (pool.apyReward || 0),
-              formatFn: (v) => `${v.toFixed(2)}%`,
+              formatFn: (v) => _formatApy(v),
               duration: 1500
             }) : formatAPY(pool.apyBase, pool.apyReward)),
 
@@ -446,8 +475,8 @@ function PoolDetail({
                 lineHeight: '1.3'
               }
             },
-              React.createElement('div', null, t ? t('baseApyBreakdown', pool.apyBase.toFixed(1)) : `${pool.apyBase.toFixed(1)}% Base`),
-              React.createElement('div', null, t ? t('rewardApyBreakdown', pool.apyReward.toFixed(1)) : `+ ${pool.apyReward.toFixed(1)}% Rewards`)
+              React.createElement('div', null, t ? t('baseApyBreakdown', _formatApy(pool.apyBase).replace('%','')) : `${_formatApy(pool.apyBase)} Base`),
+              React.createElement('div', null, t ? t('rewardApyBreakdown', _formatApy(pool.apyReward).replace('%','')) : `+ ${_formatApy(pool.apyReward)} Rewards`)
             )
           ),
 
@@ -504,7 +533,7 @@ function PoolDetail({
         className: 'metric-card-simple',
         style: {
           background: 'var(--color-background)',
-          borderRadius: '16px',
+          borderRadius: 'var(--neuro-radius-lg)',
           padding: '20px',
           boxShadow: 'var(--neuro-shadow-subtle)',
           textAlign: 'center',
@@ -518,7 +547,10 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, t ? t('dailyEarnings', investmentAmount) : `Daily ($${investmentAmount.toLocaleString()})`),
+        },
+          React.createElement('span', { style: { display: 'block' } }, t ? t('dailyEarnings', investmentAmount) : 'Daily earnings'),
+          React.createElement('span', { className: 'metric-sublabel' }, t ? t('dailyEarningsSubLabel', investmentAmount) : `on $${Number(investmentAmount || 0).toLocaleString('en-US')}`)
+        ),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
@@ -527,16 +559,16 @@ function PoolDetail({
           }
         }, AnimatedNumber ? React.createElement(AnimatedNumber, {
           value: investmentAmount * totalApy / 365 / 100,
-          formatFn: (v) => `$${v.toFixed(2)}`,
+          formatFn: (v) => _formatUsd(v),
           duration: 1000
-        }) : `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}`)
+        }) : _formatUsd(investmentAmount * totalApy / 365 / 100))
       ),
 
       React.createElement('div', {
         className: 'metric-card-simple',
         style: {
           background: 'var(--color-background)',
-          borderRadius: '16px',
+          borderRadius: 'var(--neuro-radius-lg)',
           padding: '20px',
           boxShadow: 'var(--neuro-shadow-subtle)',
           textAlign: 'center',
@@ -550,7 +582,10 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, t ? t('monthlyEarnings', investmentAmount) : `Monthly ($${investmentAmount.toLocaleString()})`),
+        },
+          React.createElement('span', { style: { display: 'block' } }, t ? t('monthlyEarnings', investmentAmount) : 'Monthly earnings'),
+          React.createElement('span', { className: 'metric-sublabel' }, t ? t('monthlyEarningsSubLabel', investmentAmount) : `on $${Number(investmentAmount || 0).toLocaleString('en-US')}`)
+        ),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
@@ -559,16 +594,16 @@ function PoolDetail({
           }
         }, AnimatedNumber ? React.createElement(AnimatedNumber, {
           value: investmentAmount * totalApy / 12 / 100,
-          formatFn: (v) => `$${v.toFixed(2)}`,
+          formatFn: (v) => _formatUsd(v),
           duration: 1000
-        }) : `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`)
+        }) : _formatUsd(investmentAmount * totalApy / 12 / 100))
       ),
 
       React.createElement('div', {
         className: 'metric-card-simple risk-card',
         style: {
           background: 'var(--color-background)',
-          borderRadius: '16px',
+          borderRadius: 'var(--neuro-radius-lg)',
           padding: '24px',
           boxShadow: 'var(--neuro-shadow-raised)',
           textAlign: 'center',
@@ -619,7 +654,7 @@ function PoolDetail({
       className: `calculator-compact animate-on-mount ${calculatorExpanded ? 'expanded' : ''}`,
       style: {
         background: 'var(--color-background)',
-        borderRadius: '16px',
+        borderRadius: 'var(--neuro-radius-lg)',
         padding: calculatorExpanded ? '24px' : '20px',
         boxShadow: calculatorExpanded ? 'var(--neuro-shadow-raised)' : 'var(--neuro-shadow-pressed)',
         marginBottom: '32px',
@@ -659,7 +694,7 @@ function PoolDetail({
                 color: 'var(--color-text-secondary)',
                 marginTop: '2px'
               }
-            }, t ? t('quickEstimate', investmentAmount, `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}`) : `Quick estimate for $${investmentAmount}: $${(investmentAmount * totalApy / 365 / 100).toFixed(2)}/day`)
+            }, t ? t('quickEstimate', investmentAmount, investmentAmount * totalApy / 365 / 100) : `Quick estimate for $${Number(investmentAmount || 0).toLocaleString('en-US')}: $${Number(investmentAmount * totalApy / 365 / 100 || 0).toLocaleString('en-US', { maximumFractionDigits: 2 })}/day`)
           )
         ),
         React.createElement('div', {
@@ -733,7 +768,7 @@ function PoolDetail({
                 width: '180px',
                 padding: '12px 16px',
                 border: 'none',
-                borderRadius: '12px',
+                borderRadius: 'var(--neuro-radius-md)',
                 background: 'var(--color-background)',
                 color: 'var(--color-text)',
                 fontSize: 'var(--font-size-lg)',
@@ -784,7 +819,7 @@ function PoolDetail({
                 style: {
                   padding: '8px 16px',
                   border: 'none',
-                  borderRadius: '12px',
+                  borderRadius: 'var(--neuro-radius-md)',
                   background: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-surface)',
                   color: investmentAmount === amount ? 'white' : 'var(--color-text)',
                   fontSize: 'var(--font-size-sm)',
@@ -810,7 +845,7 @@ function PoolDetail({
             gap: '4px',
             marginBottom: '24px',
             background: 'var(--color-background)',
-            borderRadius: '12px',
+            borderRadius: 'var(--neuro-radius-md)',
             padding: '4px',
             boxShadow: 'var(--neuro-shadow-pressed)'
           }
@@ -841,7 +876,7 @@ function PoolDetail({
                 flex: 1,
                 padding: '8px 12px',
                 border: 'none',
-                borderRadius: '12px',
+                borderRadius: 'var(--neuro-radius-md)',
                 background: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-surface)',
                 color: activeCalculatorTab === tab ? 'white' : 'var(--color-text)',
                 fontSize: 'var(--font-size-sm)',
@@ -863,7 +898,7 @@ function PoolDetail({
         React.createElement('div', {
           style: {
             background: 'var(--color-background)',
-            borderRadius: '16px',
+            borderRadius: 'var(--neuro-radius-lg)',
             padding: '24px',
             textAlign: 'center',
             boxShadow: 'var(--neuro-shadow-raised)',
@@ -921,16 +956,22 @@ function PoolDetail({
               marginBottom: '8px',
               transition: 'transform 0.15s ease-out'
             }
-          }, activeCalculatorTab === '1day' ? `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}` :
-            activeCalculatorTab === '7days' ? `$${(investmentAmount * totalApy / 52 / 100).toFixed(2)}` :
-              `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`),
+          }, activeCalculatorTab === '1day' ? _formatUsd(investmentAmount * totalApy / 365 / 100) :
+            activeCalculatorTab === '7days' ? _formatUsd(investmentAmount * totalApy / 52 / 100) :
+              _formatUsd(investmentAmount * totalApy / 12 / 100)),
           React.createElement('div', {
             style: {
               fontSize: 'var(--font-size-sm)',
               color: 'var(--color-text-secondary)',
               fontWeight: 'var(--font-weight-medium)'
             }
-          }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString()} investment`)
+          }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString('en-US')} investment`),
+          React.createElement('div', { className: 'calc-disclaimer' },
+            t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'
+          ),
+          totalApy > APY_SANITY_LIMIT_LOCAL && React.createElement('div', { className: 'calc-warning' },
+            t ? t('calcAnomalyWarning') : '⚠ This rate is anomalous and almost certainly unsustainable.'
+          )
         ),
 
       )
@@ -941,7 +982,7 @@ function PoolDetail({
       className: `pool-info-section animate-on-mount ${poolInfoExpanded ? 'expanded' : ''}`,
       style: {
         background: 'var(--color-background)',
-        borderRadius: '16px',
+        borderRadius: 'var(--neuro-radius-lg)',
         padding: poolInfoExpanded ? '24px' : '20px',
         boxShadow: poolInfoExpanded ? 'var(--neuro-shadow-raised)' : 'var(--neuro-shadow-pressed)',
         marginBottom: '32px',
@@ -988,7 +1029,7 @@ function PoolDetail({
               background: 'var(--color-background)',
               color: 'var(--color-primary)',
               textDecoration: 'none',
-              borderRadius: '6px',
+              borderRadius: 'var(--neuro-radius-sm)',
               fontSize: 'var(--font-size-xs)',
               fontWeight: 'var(--font-weight-medium)',
               boxShadow: 'var(--neuro-shadow-subtle)',
@@ -1034,7 +1075,7 @@ function PoolDetail({
             style: {
               padding: '12px',
               background: 'var(--color-background)',
-              borderRadius: '8px',
+              borderRadius: 'var(--neuro-radius-sm)',
               boxShadow: 'var(--neuro-shadow-subtle)',
               textAlign: 'center'
             }
@@ -1053,14 +1094,14 @@ function PoolDetail({
                 fontWeight: 'var(--font-weight-bold)',
                 color: 'var(--color-text)'
               }
-            }, `${pool.apyBase.toFixed(1)}%`)
+            }, _formatApy(pool.apyBase))
           ),
 
           (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
             style: {
               padding: '12px',
               background: 'var(--color-background)',
-              borderRadius: '8px',
+              borderRadius: 'var(--neuro-radius-sm)',
               boxShadow: 'var(--neuro-shadow-subtle)',
               textAlign: 'center'
             }
@@ -1079,7 +1120,7 @@ function PoolDetail({
                 fontWeight: 'var(--font-weight-bold)',
                 color: 'var(--color-primary)'
               }
-            }, `${pool.apyReward.toFixed(1)}%`)
+            }, _formatApy(pool.apyReward))
           ),
 
           // Pool Age (if available)
@@ -1087,7 +1128,7 @@ function PoolDetail({
             style: {
               padding: '12px',
               background: 'var(--color-background)',
-              borderRadius: '8px',
+              borderRadius: 'var(--neuro-radius-sm)',
               boxShadow: 'var(--neuro-shadow-subtle)',
               textAlign: 'center'
             }
@@ -1138,18 +1179,26 @@ function PoolDetail({
               const isAddress = typeof token === 'string' && token.startsWith('0x') && token.length >= 40;
 
               if (isAddress) {
+                // Derive display symbol from pool.symbol split on '-' or '/'
+                const symbolParts = pool.symbol ? pool.symbol.split(/[-\/]/).map(s => s.trim()) : [];
+                const addressCount = pool.underlyingTokens.filter(t => typeof t === 'string' && t.startsWith('0x') && t.length >= 40).length;
+                const displayLabel = (symbolParts.length === addressCount && symbolParts[idx])
+                  ? symbolParts[idx] + ' ↗'
+                  : `${token.slice(0, 6)}...${token.slice(-4)} ↗`;
+
                 return React.createElement('a', {
                   key: idx,
                   href: `https://blockscan.com/address/${token}`,
                   target: '_blank',
                   rel: 'noopener noreferrer',
+                  title: token,
                   style: {
                     display: 'inline-flex',
                     alignItems: 'center',
                     padding: '6px 10px',
                     background: 'var(--color-background)',
                     color: 'var(--color-primary)',
-                    borderRadius: '8px',
+                    borderRadius: 'var(--neuro-radius-sm)',
                     fontSize: 'var(--font-size-xs)',
                     fontWeight: 'var(--font-weight-medium)',
                     boxShadow: 'var(--neuro-shadow-subtle)',
@@ -1157,7 +1206,7 @@ function PoolDetail({
                     transition: 'all 0.2s ease',
                     fontFamily: 'monospace'
                   }
-                }, `${token.slice(0, 6)}...${token.slice(-4)} ↗`);
+                }, displayLabel);
               }
 
               return React.createElement('span', {
@@ -1166,7 +1215,7 @@ function PoolDetail({
                   padding: '6px 10px',
                   background: 'var(--color-background)',
                   color: 'var(--color-text)',
-                  borderRadius: '8px',
+                  borderRadius: 'var(--neuro-radius-sm)',
                   fontSize: 'var(--font-size-xs)',
                   fontWeight: 'var(--font-weight-medium)',
                   boxShadow: 'var(--neuro-shadow-subtle)'

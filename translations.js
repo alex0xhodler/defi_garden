@@ -31,7 +31,7 @@ const translations = {
     rewardApyBreakdown: (apy) => `+ ${apy}% Rewards`,
     opensProtocol: "Opens protocol • Wallet required",
     protocol: "Protocol↗",
-    calculateYield: "Calculate Yield",
+    calculateYield: "View & calculate →",
     startEarning: "Start Earning",
     startEarningOn: (protocol) => `Start Earning on ${protocol}`,
     
@@ -44,8 +44,10 @@ const translations = {
     highRisk: "High",
     
     // Numbers and earnings
-    dailyEarnings: (amount) => `$${amount}/day`,
-    monthlyEarnings: (amount) => `Monthly ($${amount.toLocaleString()})`,
+    dailyEarnings: (amount) => `Daily earnings`,
+    monthlyEarnings: (amount) => `Monthly earnings`,
+    dailyEarningsSubLabel: (amount) => `on $${Number(amount || 0).toLocaleString('en-US')}`,
+    monthlyEarningsSubLabel: (amount) => `on $${Number(amount || 0).toLocaleString('en-US')}`,
     estimatedEarnings: "Estimated Earnings",
     estimatedDailyEarnings: "Estimated Daily Earnings",
     estimatedMonthlyEarnings: "Estimated Monthly Earnings",
@@ -56,6 +58,7 @@ const translations = {
     adjustFilters: "Try adjusting your filters or searching for a different token",
     adjustFiltersChain: "Try adjusting your TVL or APY filters, or select a different chain",
     resetFilters: "Reset Filters",
+    showSmallerPools: "Show pools with lower TVL",
     loadingError: "Failed to load yield data. Please try again later.",
     
     // Navigation
@@ -66,12 +69,16 @@ const translations = {
     poolType: "Pool Type", 
     underlyingAssets: "Underlying Assets",
     calculateYourEarnings: "Calculate Your Earnings",
-    quickEstimate: (amount, daily) => `Quick estimate for $${amount.toLocaleString()}: $${daily}/day`,
-    basedOnInvestment: (amount) => `Based on $${amount.toLocaleString()} investment`,
+    quickEstimate: (amount, dailyRaw) => `Quick estimate for $${Number(amount || 0).toLocaleString('en-US')}: $${Number(dailyRaw || 0).toLocaleString('en-US', { maximumFractionDigits: 2 })}/day`,
+    basedOnInvestment: (amount) => `Based on $${Number(amount || 0).toLocaleString('en-US')} investment`,
     verified: "✓ Verified",
     onProtocolChain: (protocol, chain, hasUrl) => `on ${protocol} • ${chain}${hasUrl ? ' ↗' : ''}`,
     tvl: "TVL",
     
+    // Calculator disclaimers
+    calcDisclaimer: "Estimates based on current rates — yields change constantly. Not financial advice.",
+    calcAnomalyWarning: "⚠ This rate is anomalous and almost certainly unsustainable.",
+
     // Footer
     poweredBy: "Powered by",
     madeWith: "Made with AI & Degen Love.",
@@ -117,7 +124,7 @@ const translations = {
     rewardApyBreakdown: (apy) => `+ ${apy}% 보상`,
     opensProtocol: "프로토콜 열기 • 지갑 필요",
     protocol: "프로토콜↗",
-    calculateYield: "수익 계산",
+    calculateYield: "보기 및 계산 →",
     startEarning: "수익 시작",
     startEarningOn: (protocol) => `${protocol}에서 수익 시작`,
     
@@ -130,8 +137,10 @@ const translations = {
     highRisk: "높음",
     
     // Numbers and earnings
-    dailyEarnings: (amount) => `${formatKoreanCurrency(amount)}/일`,
-    monthlyEarnings: (amount) => `월간 (${formatKoreanCurrency(amount)})`,
+    dailyEarnings: (amount) => `일일 수익`,
+    monthlyEarnings: (amount) => `월 수익`,
+    dailyEarningsSubLabel: (amount) => `${formatKoreanCurrency(amount)} 기준`,
+    monthlyEarningsSubLabel: (amount) => `${formatKoreanCurrency(amount)} 기준`,
     estimatedEarnings: "예상 수익",
     estimatedDailyEarnings: "예상 일일 수익",
     estimatedMonthlyEarnings: "예상 월간 수익",
@@ -142,6 +151,7 @@ const translations = {
     adjustFilters: "필터를 조정하거나 다른 토큰을 검색해보세요",
     adjustFiltersChain: "TVL 또는 APY 필터를 조정하거나 다른 체인을 선택해보세요",
     resetFilters: "필터 초기화",
+    showSmallerPools: "TVL이 낮은 풀도 보기",
     loadingError: "수익률 데이터를 불러오지 못했습니다. 다시 시도해주세요.",
     
     // Navigation
@@ -152,12 +162,16 @@ const translations = {
     poolType: "풀 유형",
     underlyingAssets: "기초 자산",
     calculateYourEarnings: "수익 계산하기",
-    quickEstimate: (amount, daily) => `${formatKoreanCurrency(amount)} 예상: ${formatKoreanCurrency(parseFloat(daily.replace('$', '').replace(',', '')) * 1200)}/일`,
+    quickEstimate: (amount, dailyRaw) => `${formatKoreanCurrency(amount)} 예상: ${formatKoreanCurrency(Number(dailyRaw || 0))}/일`,
     basedOnInvestment: (amount) => `${formatKoreanCurrency(amount)} 투자 기준`,
     verified: "✓ 인증됨",
     onProtocolChain: (protocol, chain, hasUrl) => `${protocol}에서 • ${chain}${hasUrl ? ' ↗' : ''}`,
     tvl: "TVL",
     
+    // Calculator disclaimers
+    calcDisclaimer: "현재 수익률 기준 추정치이며 수시로 변동됩니다. 투자 조언이 아닙니다.",
+    calcAnomalyWarning: "⚠ 이 수익률은 비정상적이며 거의 지속 불가능합니다.",
+
     // Footer
     poweredBy: "제공:",
     madeWith: "AI와 디젠 사랑으로 제작.",
@@ -177,7 +191,7 @@ const translations = {
 function formatKoreanCurrency(num) {
   if (num >= 100000000) return `${(num/100000000).toFixed(1)}억원`;
   if (num >= 10000) return `${(num/10000).toFixed(1)}만원`;
-  return `${Math.round(num).toLocaleString()}원`;
+  return `${Math.round(num).toLocaleString('en-US')}원`;
 }
 
 // Language detection helper

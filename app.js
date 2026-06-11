@@ -687,6 +687,10 @@ function AnimatedNumber({ value, formatFn = (v) => v, duration = 1200, delay = 0
   return React.createElement(React.Fragment, null, formatFn(displayValue));
 }
 
+// APY sanity constants
+const APY_SANITY_LIMIT = 1000;
+const DEFAULT_MIN_TVL = 10000000; // $10M default floor
+
 // Main App Component
 function App() {
   const [pools, setPools] = useState([]);
@@ -696,10 +700,11 @@ function App() {
   const [selectedChain, setSelectedChain] = useState('');
   const [selectedPoolTypes, setSelectedPoolTypes] = useState([]); // Changed to array for multi-select
   const [selectedProtocols, setSelectedProtocols] = useState([]); // New state for protocol filtering
-  const [minTvl, setMinTvl] = useState(0);
+  const [minTvl, setMinTvl] = useState(DEFAULT_MIN_TVL);
   const [minApy, setMinApy] = useState(0);
   const [viewMode, setViewMode] = useState('grid');
   const [sortBy, setSortBy] = useState('apy');
+  const [userSortedApy, setUserSortedApy] = useState(false); // true when user explicitly clicks APY sort
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -769,12 +774,14 @@ function App() {
     const params = new URLSearchParams(window.location.search);
     const poolTypesParam = params.get('poolTypes');
     const protocolsParam = params.get('protocols');
+    // Respect explicit minTvl=0; fall back to DEFAULT_MIN_TVL only when param is absent
+    const minTvl = params.has('minTvl') ? parseInt(params.get('minTvl'), 10) : DEFAULT_MIN_TVL;
     return {
       token: params.get('token') || '',
       chain: params.get('chain') || '',
       poolTypes: poolTypesParam ? poolTypesParam.split(',') : [],
       protocols: protocolsParam ? protocolsParam.split(',') : [],
-      minTvl: parseInt(params.get('minTvl') || '0', 10),
+      minTvl,
       minApy: parseInt(params.get('minApy') || '0', 10),
       pool: params.get('pool') || ''
     };
@@ -835,7 +842,6 @@ function App() {
       setChainMode(true);
       setSelectedChain(urlParams.chain);
       setShowFilters(true);
-      setMinTvl(100000); // Default to $100k TVL for chain mode as per PRD
       setShowAutocomplete(false);
       document.title = `${urlParams.chain} DeFi Yields | DeFi Garden 🌱`;
     } else if (urlParams.token) {
@@ -849,7 +855,7 @@ function App() {
     if (urlParams.chain) setSelectedChain(urlParams.chain);
     if (urlParams.poolTypes) setSelectedPoolTypes(urlParams.poolTypes);
     if (urlParams.protocols) setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
-    if (urlParams.minTvl) setMinTvl(urlParams.minTvl);
+    setMinTvl(urlParams.minTvl);
     if (urlParams.minApy) setMinApy(urlParams.minApy);
 
     // Mark initial load as complete after a brief delay
@@ -882,7 +888,6 @@ function App() {
         setSearchInput('');
         setSelectedChain(urlParams.chain);
         setShowFilters(true);
-        setMinTvl(urlParams.minTvl || 100000);
         document.title = `${urlParams.chain} DeFi Yields | DeFi Garden 🌱`;
       } else if (urlParams.token) {
         // Token-first mode
@@ -904,6 +909,7 @@ function App() {
 
       setSelectedPoolTypes(urlParams.poolTypes);
       setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
+      setMinTvl(urlParams.minTvl);
       setMinApy(urlParams.minApy);
       setShowAutocomplete(false);
       setHighlightedIndex(-1);
@@ -1531,6 +1537,12 @@ function App() {
         } else {
           const apyA = (a.apyBase || 0) + (a.apyReward || 0);
           const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+          if (!userSortedApy) {
+            // Sane pools before anomalous, each group sorted by APY desc
+            const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+            const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+            if (anomA !== anomB) return anomA - anomB;
+          }
           return apyB - apyA;
         }
       });
@@ -1592,6 +1604,11 @@ function App() {
         } else {
           const apyA = (a.apyBase || 0) + (a.apyReward || 0);
           const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+          if (!userSortedApy) {
+            const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+            const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+            if (anomA !== anomB) return anomA - anomB;
+          }
           return apyB - apyA;
         }
       });
@@ -1654,13 +1671,18 @@ function App() {
       } else {
         const apyA = (a.apyBase || 0) + (a.apyReward || 0);
         const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+        if (!userSortedApy) {
+          const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+          const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+          if (anomA !== anomB) return anomA - anomB;
+        }
         return apyB - apyA;
       }
     });
 
     setFilteredPools(filtered);
     setCurrentPage(1); // Reset to first page when filters change
-  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode, sortBy]);
+  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode, sortBy, userSortedApy]);
 
   // Update URL when filters change (but not during initial load, popstate events, or pool detail view)
   useEffect(() => {
@@ -1681,7 +1703,7 @@ function App() {
     setSelectedToken(''); // Clear token selection
     setSearchInput(''); // Clear search input
     setShowFilters(true);
-    setMinTvl(100000); // Default to $100k TVL for chain mode
+    setMinTvl(DEFAULT_MIN_TVL);
     setShowAutocomplete(false);
 
     // Analytics tracking for chain selection
@@ -1731,11 +1753,6 @@ function App() {
     setShowAutocomplete(false);
     setShowFilters(true); // Show filters after token selection
     setHighlightedIndex(-1);
-
-    // Reset TVL to default for token mode
-    if (minTvl === 100000) {
-      setMinTvl(0);
-    }
 
     // Close mobile keyboard by blurring the input
     const searchInputEl = document.querySelector('.search-input');
@@ -1828,7 +1845,7 @@ function App() {
           // If chain is found and no token, it's chain-first mode.
           if (chain && !token) {
             setChainMode(true);
-            setMinTvl(100000); // Default TVL for chain-first mode
+            setMinTvl(DEFAULT_MIN_TVL);
           } else {
             setChainMode(false);
           }
@@ -1879,7 +1896,7 @@ function App() {
     setSelectedChain('');
     setSelectedPoolTypes([]);
     setSelectedProtocols([]);
-    setMinTvl(0);
+    setMinTvl(DEFAULT_MIN_TVL);
     setMinApy(0);
     setFilteredPools([]);
     setCurrentPage(1);
@@ -1909,10 +1926,18 @@ function App() {
     }
   };
 
+  // APY anomaly check
+  const isAnomalousApy = (pool) => ((pool.apyBase || 0) + (pool.apyReward || 0)) > APY_SANITY_LIMIT;
+
+  // Pinned en-US formatters — prevent OS-locale rendering differences
+  const formatUsd = (n, maxFrac = 2) => '$' + Number(n || 0).toLocaleString('en-US', { maximumFractionDigits: maxFrac });
+  const formatNum = (n) => Number(n || 0).toLocaleString('en-US');
+  const formatApy = (pct) => Number(pct || 0).toLocaleString('en-US', { maximumFractionDigits: 2 }) + '%';
+
   // Format APY
   const formatAPY = (apyBase, apyReward) => {
     const total = (apyBase || 0) + (apyReward || 0);
-    return `${total.toFixed(2)}%`;
+    return formatApy(total);
   };
 
   // Get protocol URL with smart URL detection
@@ -2149,30 +2174,6 @@ function App() {
   // Render Pool Detail View if active
   if (currentView === 'pool-detail' && detailPool) {
     return React.createElement('div', { className: 'app pool-detail-view' },
-      // Theme Toggle
-      React.createElement('button', {
-        className: 'theme-toggle',
-        'data-theme': isDarkMode ? 'dark' : 'light',
-        onClick: toggleTheme,
-        'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-      },
-        React.createElement('div', { className: 'theme-toggle-icon' },
-          isDarkMode ? '☀️' : '🌙'
-        ),
-        React.createElement('div', { className: 'theme-toggle-switch' },
-          React.createElement('div', { className: 'theme-toggle-handle' })
-        ),
-        React.createElement('div', { className: 'theme-toggle-text' },
-          isDarkMode ? 'Light' : 'Dark'
-        )
-      ),
-
-      // Language Toggle  
-      React.createElement('button', {
-        className: 'language-toggle',
-        onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
-        'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
-      }, language === 'en' ? 'KO' : 'EN'),
 
       React.createElement('div', { className: 'container' },
         React.createElement(PoolDetail, {
@@ -2182,11 +2183,17 @@ function App() {
           calculateYields: calculateYields,
           formatCurrency: formatCurrency,
           formatAPY: formatAPY,
+          formatUsd: formatUsd,
+          formatNum: formatNum,
+          formatApy: formatApy,
           getProtocolUrl: getProtocolUrl,
           getProtocolUrlWithRef: getProtocolUrlWithRef,
           isDarkMode: isDarkMode,
           t: t,
-          AnimatedNumber: AnimatedNumber
+          AnimatedNumber: AnimatedNumber,
+          toggleTheme: toggleTheme,
+          language: language,
+          changeLanguage: changeLanguage
         })
       ),
 
@@ -2225,13 +2232,29 @@ function App() {
             React.createElement('input', {
               type: 'text',
               className: 'google-search-input',
-              placeholder: selectedToken ? selectedToken : (selectedChain ? selectedChain : animatedPlaceholder),
+              // Placeholder reflects token query only; chain state belongs to filter chips
+              placeholder: selectedToken ? selectedToken : animatedPlaceholder,
               value: searchInput,
               onChange: handleSearchInputChange,
               onKeyDown: handleKeyDown,
               onFocus: handleInputFocus,
               onBlur: handleInputBlur
             }),
+            // ✕ clear button — only visible when search input is non-empty
+            searchInput.length > 0 && React.createElement('button', {
+              className: 'google-search-clear',
+              'aria-label': 'Clear search',
+              onMouseDown: (e) => {
+                // Use mousedown to fire before blur
+                e.preventDefault();
+                setSearchInput('');
+                setSelectedToken('');
+                setShowAutocomplete(false);
+                // Return focus to input
+                const input = e.currentTarget.parentElement.querySelector('.google-search-input');
+                if (input) input.focus();
+              }
+            }, '✕'),
             React.createElement('button', {
               className: 'google-search-button',
               onClick: () => {
@@ -2254,7 +2277,7 @@ function App() {
             className: 'google-control-btn theme-toggle',
             onClick: toggleTheme,
             'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-          }, isDarkMode ? '☀️' : '🌙')
+          }, isDarkMode ? '🌙' : '☀️')
         )
       ),
 
@@ -2289,7 +2312,7 @@ function App() {
             className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
             onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
             id: 'tvl-btn'
-          }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000) + 'M+' : (minTvl / 1000) + 'K+'}` : 'TVL'),
+          }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : 'TVL'),
 
           React.createElement('button', {
             className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
@@ -2307,13 +2330,13 @@ function App() {
         // Results count only
         React.createElement('div', { className: 'google-tools-section' },
           React.createElement('span', { className: 'google-results-count' },
-            `${filteredPools.length.toLocaleString()} results`
+            `${filteredPools.length.toLocaleString('en-US')} results`
           )
         )
       )
     ),
 
-    // Theme Toggle (original - keep for homepage)
+    // Theme Toggle (homepage/results)
     React.createElement('button', {
       className: 'theme-toggle',
       'data-theme': isDarkMode ? 'dark' : 'light',
@@ -2321,13 +2344,10 @@ function App() {
       'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
     },
       React.createElement('div', { className: 'theme-toggle-icon' },
-        isDarkMode ? '☀️' : '🌙'
+        isDarkMode ? '🌙' : '☀️'
       ),
       React.createElement('div', { className: 'theme-toggle-switch' },
         React.createElement('div', { className: 'theme-toggle-handle' })
-      ),
-      React.createElement('div', { className: 'theme-toggle-text' },
-        isDarkMode ? 'Light' : 'Dark'
       )
     ),
 
@@ -2481,11 +2501,11 @@ function App() {
                 React.createElement('div', { className: 'view-toggles sort-toggles' },
                   React.createElement('button', {
                     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
-                    onClick: () => setSortBy('apy')
+                    onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
                   }, 'APY'),
                   React.createElement('button', {
                     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
-                    onClick: () => setSortBy('tvl')
+                    onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
                   }, 'TVL')
                 )
               )
@@ -2512,17 +2532,22 @@ function App() {
                     )
                   ),
                   React.createElement('div', { className: 'pool-apy-section' },
-                    React.createElement('div', { className: 'pool-apy-hero' },
-                      React.createElement(AnimatedNumber, {
-                        value: (pool.apyBase || 0) + (pool.apyReward || 0),
-                        formatFn: (v) => `${v.toFixed(2)}%`,
-                        delay: 100 + index * 50
-                      })
+                    React.createElement('div', {
+                      className: isAnomalousApy(pool) ? 'pool-apy-hero apy-anomalous' : 'pool-apy-hero',
+                      title: isAnomalousApy(pool) ? 'Anomalous rate — likely temporary, manipulated, or a data artifact' : undefined
+                    },
+                      isAnomalousApy(pool)
+                        ? ('⚠ ' + formatApy((pool.apyBase || 0) + (pool.apyReward || 0)))
+                        : React.createElement(AnimatedNumber, {
+                            value: (pool.apyBase || 0) + (pool.apyReward || 0),
+                            formatFn: (v) => formatApy(v),
+                            delay: 100 + index * 50
+                          })
                     ),
                     React.createElement('div', { className: 'pool-apy-preview' },
                       React.createElement(AnimatedNumber, {
                         value: quickPreview.dailyEarnings,
-                        formatFn: (v) => `$${v.toFixed(2)}/day`,
+                        formatFn: (v) => formatUsd(v) + '/day',
                         delay: 150 + index * 50
                       })
                     )
@@ -2541,19 +2566,7 @@ function App() {
                   )
                 ),
 
-                // Progressive disclosure for APY breakdown (only show when BOTH Base and Reward APY exist)
-                (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', { className: 'pool-details-expanded' },
-                  pool.apyBase > 0 && React.createElement('div', { className: 'apy-breakdown' },
-                    React.createElement('span', { className: 'breakdown-label' }, t('baseApy')),
-                    React.createElement('span', { className: 'breakdown-value' }, `${pool.apyBase.toFixed(2)}%`)
-                  ),
-                  pool.apyReward > 0 && React.createElement('div', { className: 'apy-breakdown' },
-                    React.createElement('span', { className: 'breakdown-label' }, t('rewardApy')),
-                    React.createElement('span', { className: 'breakdown-value' }, `${pool.apyReward.toFixed(2)}%`)
-                  )
-                ),
-
-                // Primary CTA - Calculate Yield (full width, prominent)
+                // Primary CTA - Calculate Yield (full width, quiet ghost)
                 React.createElement('div', { className: 'pool-cta-section' },
                   React.createElement('button', {
                     className: 'calculate-yield-btn-new',
@@ -2593,6 +2606,10 @@ function App() {
               ? t('adjustFiltersChain')
               : t('adjustFilters')
           ),
+          minTvl > 0 && React.createElement('button', {
+            className: 'reset-filters-btn',
+            onClick: () => handleTvlSelect(0)
+          }, t('showSmallerPools')),
           React.createElement('button', {
             className: 'reset-filters-btn',
             onClick: resetApp
@@ -2660,17 +2677,23 @@ function App() {
                 React.createElement('div', { className: 'yield-result-item' },
                   React.createElement('div', { className: 'yield-period' }, '1 Day Yield'),
                   React.createElement('div', { className: 'yield-amount' },
-                    `$${yields.oneDayGain.toFixed(2)}`
+                    formatUsd(yields.oneDayGain)
                   )
                 ),
                 React.createElement('div', { className: 'yield-result-item' },
                   React.createElement('div', { className: 'yield-period' }, '1 Week Yield'),
                   React.createElement('div', { className: 'yield-amount' },
-                    `$${yields.oneWeekGain.toFixed(2)}`
+                    formatUsd(yields.oneWeekGain)
                   )
                 ),
                 React.createElement('div', { className: 'yield-disclaimer' },
                   'Calculations based on simple interest, not compounded. Actual yields may vary.'
+                ),
+                React.createElement('div', { className: 'calc-disclaimer' },
+                  t('calcDisclaimer')
+                ),
+                isAnomalousApy(selectedPool) && React.createElement('div', { className: 'calc-warning' },
+                  t('calcAnomalyWarning')
                 )
               );
             })(),
