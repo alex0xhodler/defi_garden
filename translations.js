@@ -189,7 +189,7 @@ const translations = {
 function formatKoreanCurrency(num) {
   if (num >= 100000000) return `${(num/100000000).toFixed(1)}억원`;
   if (num >= 10000) return `${(num/10000).toFixed(1)}만원`;
-  return `${Math.round(num).toLocaleString()}원`;
+  return `${Math.round(num).toLocaleString('en-US')}원`;
 }
 
 // Language detection helper
