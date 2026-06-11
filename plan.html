@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <title>Garden Planner 🌱 | Plan Your DeFi Savings by Goal — DeFi Garden</title>
+    <meta name="description" content="A goal-first DeFi savings planner. Tell us what you're saving for and how much you can set aside each month — we'll show what live, real pool rates could grow it into. Every number is live DefiLlama data. Education, not advice.">
+
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="DeFi savings planner, goal-based saving, stablecoin yield, retirement DeFi, compound growth, monthly deposit calculator, DeFi Garden">
+    <meta name="author" content="DeFi Garden">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://defigarden.app/plan.html">
+
+    <!-- Multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://defigarden.app/plan.html">
+    <link rel="alternate" hreflang="ko" href="https://defigarden.app/plan.html?lang=ko">
+    <link rel="alternate" hreflang="x-default" href="https://defigarden.app/plan.html">
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="Garden Planner 🌱 | Plan Your DeFi Savings by Goal">
+    <meta property="og:description" content="Tell us what you're saving for. We'll show what live, real DeFi pool rates could grow your monthly deposits into. Every number is live data — education, not advice.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://defigarden.app/plan.html">
+    <meta property="og:site_name" content="DeFi Garden">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Garden Planner 🌱 | Plan Your DeFi Savings by Goal">
+    <meta name="twitter:description" content="Tell us what you're saving for. We'll show what live, real DeFi pool rates could grow your monthly deposits into.">
+    <meta name="twitter:creator" content="@defigarden">
+
+    <!-- App Icons and Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#2D5A3D">
+    <meta name="msapplication-TileColor" content="#2D5A3D">
+
+    <!-- Performance: Preload critical resources -->
+    <link rel="preload" href="./fonts/FKGroteskNeue.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://unpkg.com/react@18/umd/react.production.min.js" as="script">
+    <link rel="preload" href="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" as="script">
+    <link rel="dns-prefetch" href="//unpkg.com">
+    <link rel="dns-prefetch" href="//yields.llama.fi">
+
+    <!-- Load CSS non-blocking -->
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="planner-styles.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <noscript><link rel="stylesheet" href="planner-styles.css"></noscript>
+
+    <script>
+        // Define process global before React loads to prevent ReferenceError
+        window.process = {
+            env: {}
+        };
+        // Apply saved theme before paint to avoid a flash of the wrong theme
+        (function () {
+            try {
+                var saved = localStorage.getItem('theme');
+                var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+                document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+            } catch (e) {}
+        })();
+    </script>
+    <script defer crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script defer crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script defer src="translations.js"></script>
+    <script async defer data-website-id="9e56d1e1-f7c1-48fd-bb9d-e6b3e0ce2a3c" src="https://enhace.defi.garden/script.js"></script>
+</head>
+<body>
+    <div id="planner-root"></div>
+
+    <script defer src="planner.js"></script>
+</body>
+</html>
