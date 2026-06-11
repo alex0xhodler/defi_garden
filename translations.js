@@ -74,6 +74,10 @@ const translations = {
     onProtocolChain: (protocol, chain, hasUrl) => `on ${protocol} • ${chain}${hasUrl ? ' ↗' : ''}`,
     tvl: "TVL",
     
+    // Calculator disclaimers
+    calcDisclaimer: "Estimates based on current rates — yields change constantly. Not financial advice.",
+    calcAnomalyWarning: "⚠ This rate is anomalous and almost certainly unsustainable.",
+
     // Footer
     poweredBy: "Powered by",
     madeWith: "Made with AI & Degen Love.",
@@ -162,6 +166,10 @@ const translations = {
     onProtocolChain: (protocol, chain, hasUrl) => `${protocol}에서 • ${chain}${hasUrl ? ' ↗' : ''}`,
     tvl: "TVL",
     
+    // Calculator disclaimers
+    calcDisclaimer: "현재 수익률 기준 추정치이며 수시로 변동됩니다. 투자 조언이 아닙니다.",
+    calcAnomalyWarning: "⚠ 이 수익률은 비정상적이며 거의 지속 불가능합니다.",
+
     // Footer
     poweredBy: "제공:",
     madeWith: "AI와 디젠 사랑으로 제작.",

@@ -83,10 +83,24 @@ function PoolDetail({
 
   const poolType = getPoolType();
 
+  const APY_SANITY_LIMIT_LOCAL = 1000; // mirror of app.js constant
+
   // Comprehensive Risk Assessment
   const getRiskAssessment = () => {
     let riskScore = 0;
     const factors = [];
+
+    // Anomalous APY override — force High risk immediately
+    if (totalApy > APY_SANITY_LIMIT_LOCAL) {
+      factors.push('Anomalous yield');
+      return {
+        level: t ? t('highRisk') : 'High',
+        color: 'var(--color-error)',
+        description: 'Anomalous yield — extreme caution',
+        factors,
+        score: 100
+      };
+    }
 
     // TVL Factor (40% weight)
     if (pool.tvlUsd < 1000000) {
@@ -946,7 +960,13 @@ function PoolDetail({
               color: 'var(--color-text-secondary)',
               fontWeight: 'var(--font-weight-medium)'
             }
-          }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString('en-US')} investment`)
+          }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString('en-US')} investment`),
+          React.createElement('div', { className: 'calc-disclaimer' },
+            t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'
+          ),
+          totalApy > APY_SANITY_LIMIT_LOCAL && React.createElement('div', { className: 'calc-warning' },
+            t ? t('calcAnomalyWarning') : '⚠ This rate is anomalous and almost certainly unsustainable.'
+          )
         ),
 
       )

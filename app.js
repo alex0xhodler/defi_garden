@@ -687,6 +687,10 @@ function AnimatedNumber({ value, formatFn = (v) => v, duration = 1200, delay = 0
   return React.createElement(React.Fragment, null, formatFn(displayValue));
 }
 
+// APY sanity constants
+const APY_SANITY_LIMIT = 1000;
+const DEFAULT_MIN_TVL = 10000000; // $10M default floor
+
 // Main App Component
 function App() {
   const [pools, setPools] = useState([]);
@@ -696,10 +700,11 @@ function App() {
   const [selectedChain, setSelectedChain] = useState('');
   const [selectedPoolTypes, setSelectedPoolTypes] = useState([]); // Changed to array for multi-select
   const [selectedProtocols, setSelectedProtocols] = useState([]); // New state for protocol filtering
-  const [minTvl, setMinTvl] = useState(0);
+  const [minTvl, setMinTvl] = useState(DEFAULT_MIN_TVL);
   const [minApy, setMinApy] = useState(0);
   const [viewMode, setViewMode] = useState('grid');
   const [sortBy, setSortBy] = useState('apy');
+  const [userSortedApy, setUserSortedApy] = useState(false); // true when user explicitly clicks APY sort
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -769,12 +774,14 @@ function App() {
     const params = new URLSearchParams(window.location.search);
     const poolTypesParam = params.get('poolTypes');
     const protocolsParam = params.get('protocols');
+    // Respect explicit minTvl=0; fall back to DEFAULT_MIN_TVL only when param is absent
+    const minTvl = params.has('minTvl') ? parseInt(params.get('minTvl'), 10) : DEFAULT_MIN_TVL;
     return {
       token: params.get('token') || '',
       chain: params.get('chain') || '',
       poolTypes: poolTypesParam ? poolTypesParam.split(',') : [],
       protocols: protocolsParam ? protocolsParam.split(',') : [],
-      minTvl: parseInt(params.get('minTvl') || '0', 10),
+      minTvl,
       minApy: parseInt(params.get('minApy') || '0', 10),
       pool: params.get('pool') || ''
     };
@@ -1531,6 +1538,12 @@ function App() {
         } else {
           const apyA = (a.apyBase || 0) + (a.apyReward || 0);
           const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+          if (!userSortedApy) {
+            // Sane pools before anomalous, each group sorted by APY desc
+            const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+            const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+            if (anomA !== anomB) return anomA - anomB;
+          }
           return apyB - apyA;
         }
       });
@@ -1592,6 +1605,11 @@ function App() {
         } else {
           const apyA = (a.apyBase || 0) + (a.apyReward || 0);
           const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+          if (!userSortedApy) {
+            const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+            const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+            if (anomA !== anomB) return anomA - anomB;
+          }
           return apyB - apyA;
         }
       });
@@ -1654,13 +1672,18 @@ function App() {
       } else {
         const apyA = (a.apyBase || 0) + (a.apyReward || 0);
         const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+        if (!userSortedApy) {
+          const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+          const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+          if (anomA !== anomB) return anomA - anomB;
+        }
         return apyB - apyA;
       }
     });
 
     setFilteredPools(filtered);
     setCurrentPage(1); // Reset to first page when filters change
-  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode, sortBy]);
+  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode, sortBy, userSortedApy]);
 
   // Update URL when filters change (but not during initial load, popstate events, or pool detail view)
   useEffect(() => {
@@ -1908,6 +1931,9 @@ function App() {
       return `$${amount?.toFixed(0) || '0'}`;
     }
   };
+
+  // APY anomaly check
+  const isAnomalousApy = (pool) => ((pool.apyBase || 0) + (pool.apyReward || 0)) > APY_SANITY_LIMIT;
 
   // Pinned en-US formatters — prevent OS-locale rendering differences
   const formatUsd = (n, maxFrac = 2) => '$' + Number(n || 0).toLocaleString('en-US', { maximumFractionDigits: maxFrac });
@@ -2300,7 +2326,7 @@ function App() {
             className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
             onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
             id: 'tvl-btn'
-          }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000) + 'M+' : (minTvl / 1000) + 'K+'}` : 'TVL'),
+          }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : 'TVL'),
 
           React.createElement('button', {
             className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
@@ -2492,11 +2518,11 @@ function App() {
                 React.createElement('div', { className: 'view-toggles sort-toggles' },
                   React.createElement('button', {
                     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
-                    onClick: () => setSortBy('apy')
+                    onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
                   }, 'APY'),
                   React.createElement('button', {
                     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
-                    onClick: () => setSortBy('tvl')
+                    onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
                   }, 'TVL')
                 )
               )
@@ -2523,12 +2549,17 @@ function App() {
                     )
                   ),
                   React.createElement('div', { className: 'pool-apy-section' },
-                    React.createElement('div', { className: 'pool-apy-hero' },
-                      React.createElement(AnimatedNumber, {
-                        value: (pool.apyBase || 0) + (pool.apyReward || 0),
-                        formatFn: (v) => formatApy(v),
-                        delay: 100 + index * 50
-                      })
+                    React.createElement('div', {
+                      className: isAnomalousApy(pool) ? 'pool-apy-hero apy-anomalous' : 'pool-apy-hero',
+                      title: isAnomalousApy(pool) ? 'Anomalous rate — likely temporary, manipulated, or a data artifact' : undefined
+                    },
+                      isAnomalousApy(pool)
+                        ? ('⚠ ' + formatApy((pool.apyBase || 0) + (pool.apyReward || 0)))
+                        : React.createElement(AnimatedNumber, {
+                            value: (pool.apyBase || 0) + (pool.apyReward || 0),
+                            formatFn: (v) => formatApy(v),
+                            delay: 100 + index * 50
+                          })
                     ),
                     React.createElement('div', { className: 'pool-apy-preview' },
                       React.createElement(AnimatedNumber, {
@@ -2682,6 +2713,12 @@ function App() {
                 ),
                 React.createElement('div', { className: 'yield-disclaimer' },
                   'Calculations based on simple interest, not compounded. Actual yields may vary.'
+                ),
+                React.createElement('div', { className: 'calc-disclaimer' },
+                  t('calcDisclaimer')
+                ),
+                isAnomalousApy(selectedPool) && React.createElement('div', { className: 'calc-warning' },
+                  t('calcAnomalyWarning')
                 )
               );
             })(),
