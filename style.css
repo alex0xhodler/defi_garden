@@ -3740,12 +3740,7 @@ html {
   background: var(--color-secondary);
 }
 
-.theme-toggle-text {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-text-secondary);
-  user-select: none;
-}
+/* .theme-toggle-text removed — icon reflects current state, no text label needed */
 
 /* Language Toggle Styles */
 .language-toggle {
@@ -4059,9 +4054,6 @@ html {
     left: 22px;
   }
 
-  .theme-toggle-text {
-    font-size: var(--font-size-xs);
-  }
 }
 
 /* Extra small screens - compact mobile toggle */
@@ -4104,10 +4096,8 @@ html {
     left: 20px;
   }
 
-  .theme-toggle-text {
-    font-size: 10px;
-  }
 }
+
 
 /* =========================================
    ENTRY ANIMATIONS

@@ -2267,7 +2267,7 @@ function App() {
             className: 'google-control-btn theme-toggle',
             onClick: toggleTheme,
             'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-          }, isDarkMode ? '☀️' : '🌙')
+          }, isDarkMode ? '🌙' : '☀️')
         )
       ),
 
@@ -2326,7 +2326,7 @@ function App() {
       )
     ),
 
-    // Theme Toggle (original - keep for homepage)
+    // Theme Toggle (homepage/results)
     React.createElement('button', {
       className: 'theme-toggle',
       'data-theme': isDarkMode ? 'dark' : 'light',
@@ -2334,13 +2334,10 @@ function App() {
       'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
     },
       React.createElement('div', { className: 'theme-toggle-icon' },
-        isDarkMode ? '☀️' : '🌙'
+        isDarkMode ? '🌙' : '☀️'
       ),
       React.createElement('div', { className: 'theme-toggle-switch' },
         React.createElement('div', { className: 'theme-toggle-handle' })
-      ),
-      React.createElement('div', { className: 'theme-toggle-text' },
-        isDarkMode ? 'Light' : 'Dark'
       )
     ),
 
