@@ -1909,10 +1909,15 @@ function App() {
     }
   };
 
+  // Pinned en-US formatters — prevent OS-locale rendering differences
+  const formatUsd = (n, maxFrac = 2) => '$' + Number(n || 0).toLocaleString('en-US', { maximumFractionDigits: maxFrac });
+  const formatNum = (n) => Number(n || 0).toLocaleString('en-US');
+  const formatApy = (pct) => Number(pct || 0).toLocaleString('en-US', { maximumFractionDigits: 2 }) + '%';
+
   // Format APY
   const formatAPY = (apyBase, apyReward) => {
     const total = (apyBase || 0) + (apyReward || 0);
-    return `${total.toFixed(2)}%`;
+    return formatApy(total);
   };
 
   // Get protocol URL with smart URL detection
@@ -2182,11 +2187,17 @@ function App() {
           calculateYields: calculateYields,
           formatCurrency: formatCurrency,
           formatAPY: formatAPY,
+          formatUsd: formatUsd,
+          formatNum: formatNum,
+          formatApy: formatApy,
           getProtocolUrl: getProtocolUrl,
           getProtocolUrlWithRef: getProtocolUrlWithRef,
           isDarkMode: isDarkMode,
           t: t,
-          AnimatedNumber: AnimatedNumber
+          AnimatedNumber: AnimatedNumber,
+          toggleTheme: toggleTheme,
+          language: language,
+          changeLanguage: changeLanguage
         })
       ),
 
@@ -2307,7 +2318,7 @@ function App() {
         // Results count only
         React.createElement('div', { className: 'google-tools-section' },
           React.createElement('span', { className: 'google-results-count' },
-            `${filteredPools.length.toLocaleString()} results`
+            `${filteredPools.length.toLocaleString('en-US')} results`
           )
         )
       )
@@ -2515,14 +2526,14 @@ function App() {
                     React.createElement('div', { className: 'pool-apy-hero' },
                       React.createElement(AnimatedNumber, {
                         value: (pool.apyBase || 0) + (pool.apyReward || 0),
-                        formatFn: (v) => `${v.toFixed(2)}%`,
+                        formatFn: (v) => formatApy(v),
                         delay: 100 + index * 50
                       })
                     ),
                     React.createElement('div', { className: 'pool-apy-preview' },
                       React.createElement(AnimatedNumber, {
                         value: quickPreview.dailyEarnings,
-                        formatFn: (v) => `$${v.toFixed(2)}/day`,
+                        formatFn: (v) => formatUsd(v) + '/day',
                         delay: 150 + index * 50
                       })
                     )
@@ -2545,11 +2556,11 @@ function App() {
                 (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', { className: 'pool-details-expanded' },
                   pool.apyBase > 0 && React.createElement('div', { className: 'apy-breakdown' },
                     React.createElement('span', { className: 'breakdown-label' }, t('baseApy')),
-                    React.createElement('span', { className: 'breakdown-value' }, `${pool.apyBase.toFixed(2)}%`)
+                    React.createElement('span', { className: 'breakdown-value' }, formatApy(pool.apyBase))
                   ),
                   pool.apyReward > 0 && React.createElement('div', { className: 'apy-breakdown' },
                     React.createElement('span', { className: 'breakdown-label' }, t('rewardApy')),
-                    React.createElement('span', { className: 'breakdown-value' }, `${pool.apyReward.toFixed(2)}%`)
+                    React.createElement('span', { className: 'breakdown-value' }, formatApy(pool.apyReward))
                   )
                 ),
 
@@ -2660,13 +2671,13 @@ function App() {
                 React.createElement('div', { className: 'yield-result-item' },
                   React.createElement('div', { className: 'yield-period' }, '1 Day Yield'),
                   React.createElement('div', { className: 'yield-amount' },
-                    `$${yields.oneDayGain.toFixed(2)}`
+                    formatUsd(yields.oneDayGain)
                   )
                 ),
                 React.createElement('div', { className: 'yield-result-item' },
                   React.createElement('div', { className: 'yield-period' }, '1 Week Yield'),
                   React.createElement('div', { className: 'yield-amount' },
-                    `$${yields.oneWeekGain.toFixed(2)}`
+                    formatUsd(yields.oneWeekGain)
                   )
                 ),
                 React.createElement('div', { className: 'yield-disclaimer' },

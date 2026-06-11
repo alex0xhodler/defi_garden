@@ -8,12 +8,22 @@ function PoolDetail({
   calculateYields,
   formatCurrency,
   formatAPY,
+  formatUsd,
+  formatNum,
+  formatApy,
   getProtocolUrl,
   getProtocolUrlWithRef,
   isDarkMode,
   t,
-  AnimatedNumber
+  AnimatedNumber,
+  toggleTheme,
+  language,
+  changeLanguage
 }) {
+  // Fallback formatters when not passed (e.g. SSR/tests)
+  const _formatUsd = formatUsd || ((n, f) => '$' + Number(n || 0).toLocaleString('en-US', { maximumFractionDigits: f || 2 }));
+  const _formatNum = formatNum || ((n) => Number(n || 0).toLocaleString('en-US'));
+  const _formatApy = formatApy || ((pct) => Number(pct || 0).toLocaleString('en-US', { maximumFractionDigits: 2 }) + '%');
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
   const [calculatorExpanded, setCalculatorExpanded] = useState(true);
@@ -433,7 +443,7 @@ function PoolDetail({
               }
             }, AnimatedNumber ? React.createElement(AnimatedNumber, {
               value: (pool.apyBase || 0) + (pool.apyReward || 0),
-              formatFn: (v) => `${v.toFixed(2)}%`,
+              formatFn: (v) => _formatApy(v),
               duration: 1500
             }) : formatAPY(pool.apyBase, pool.apyReward)),
 
@@ -446,8 +456,8 @@ function PoolDetail({
                 lineHeight: '1.3'
               }
             },
-              React.createElement('div', null, t ? t('baseApyBreakdown', pool.apyBase.toFixed(1)) : `${pool.apyBase.toFixed(1)}% Base`),
-              React.createElement('div', null, t ? t('rewardApyBreakdown', pool.apyReward.toFixed(1)) : `+ ${pool.apyReward.toFixed(1)}% Rewards`)
+              React.createElement('div', null, t ? t('baseApyBreakdown', _formatApy(pool.apyBase).replace('%','')) : `${_formatApy(pool.apyBase)} Base`),
+              React.createElement('div', null, t ? t('rewardApyBreakdown', _formatApy(pool.apyReward).replace('%','')) : `+ ${_formatApy(pool.apyReward)} Rewards`)
             )
           ),
 
@@ -518,7 +528,7 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, t ? t('dailyEarnings', investmentAmount) : `Daily ($${investmentAmount.toLocaleString()})`),
+        }, t ? t('dailyEarnings', investmentAmount) : `Daily ($${investmentAmount.toLocaleString('en-US')})`),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
@@ -527,9 +537,9 @@ function PoolDetail({
           }
         }, AnimatedNumber ? React.createElement(AnimatedNumber, {
           value: investmentAmount * totalApy / 365 / 100,
-          formatFn: (v) => `$${v.toFixed(2)}`,
+          formatFn: (v) => _formatUsd(v),
           duration: 1000
-        }) : `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}`)
+        }) : _formatUsd(investmentAmount * totalApy / 365 / 100))
       ),
 
       React.createElement('div', {
@@ -550,7 +560,7 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, t ? t('monthlyEarnings', investmentAmount) : `Monthly ($${investmentAmount.toLocaleString()})`),
+        }, t ? t('monthlyEarnings', investmentAmount) : `Monthly ($${investmentAmount.toLocaleString('en-US')})`),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
@@ -559,9 +569,9 @@ function PoolDetail({
           }
         }, AnimatedNumber ? React.createElement(AnimatedNumber, {
           value: investmentAmount * totalApy / 12 / 100,
-          formatFn: (v) => `$${v.toFixed(2)}`,
+          formatFn: (v) => _formatUsd(v),
           duration: 1000
-        }) : `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`)
+        }) : _formatUsd(investmentAmount * totalApy / 12 / 100))
       ),
 
       React.createElement('div', {
@@ -659,7 +669,7 @@ function PoolDetail({
                 color: 'var(--color-text-secondary)',
                 marginTop: '2px'
               }
-            }, t ? t('quickEstimate', investmentAmount, `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}`) : `Quick estimate for $${investmentAmount}: $${(investmentAmount * totalApy / 365 / 100).toFixed(2)}/day`)
+            }, t ? t('quickEstimate', investmentAmount, investmentAmount * totalApy / 365 / 100) : `Quick estimate for $${Number(investmentAmount || 0).toLocaleString('en-US')}: $${Number(investmentAmount * totalApy / 365 / 100 || 0).toLocaleString('en-US', { maximumFractionDigits: 2 })}/day`)
           )
         ),
         React.createElement('div', {
@@ -921,16 +931,16 @@ function PoolDetail({
               marginBottom: '8px',
               transition: 'transform 0.15s ease-out'
             }
-          }, activeCalculatorTab === '1day' ? `$${(investmentAmount * totalApy / 365 / 100).toFixed(2)}` :
-            activeCalculatorTab === '7days' ? `$${(investmentAmount * totalApy / 52 / 100).toFixed(2)}` :
-              `$${(investmentAmount * totalApy / 12 / 100).toFixed(2)}`),
+          }, activeCalculatorTab === '1day' ? _formatUsd(investmentAmount * totalApy / 365 / 100) :
+            activeCalculatorTab === '7days' ? _formatUsd(investmentAmount * totalApy / 52 / 100) :
+              _formatUsd(investmentAmount * totalApy / 12 / 100)),
           React.createElement('div', {
             style: {
               fontSize: 'var(--font-size-sm)',
               color: 'var(--color-text-secondary)',
               fontWeight: 'var(--font-weight-medium)'
             }
-          }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString()} investment`)
+          }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString('en-US')} investment`)
         ),
 
       )
@@ -1053,7 +1063,7 @@ function PoolDetail({
                 fontWeight: 'var(--font-weight-bold)',
                 color: 'var(--color-text)'
               }
-            }, `${pool.apyBase.toFixed(1)}%`)
+            }, _formatApy(pool.apyBase))
           ),
 
           (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
@@ -1079,7 +1089,7 @@ function PoolDetail({
                 fontWeight: 'var(--font-weight-bold)',
                 color: 'var(--color-primary)'
               }
-            }, `${pool.apyReward.toFixed(1)}%`)
+            }, _formatApy(pool.apyReward))
           ),
 
           // Pool Age (if available)
