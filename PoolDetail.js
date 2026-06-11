@@ -528,7 +528,10 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, t ? t('dailyEarnings', investmentAmount) : `Daily ($${investmentAmount.toLocaleString('en-US')})`),
+        },
+          React.createElement('span', { style: { display: 'block' } }, t ? t('dailyEarnings', investmentAmount) : 'Daily earnings'),
+          React.createElement('span', { className: 'metric-sublabel' }, t ? t('dailyEarningsSubLabel', investmentAmount) : `on $${Number(investmentAmount || 0).toLocaleString('en-US')}`)
+        ),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
@@ -560,7 +563,10 @@ function PoolDetail({
             marginBottom: '8px',
             fontWeight: 'var(--font-weight-medium)'
           }
-        }, t ? t('monthlyEarnings', investmentAmount) : `Monthly ($${investmentAmount.toLocaleString('en-US')})`),
+        },
+          React.createElement('span', { style: { display: 'block' } }, t ? t('monthlyEarnings', investmentAmount) : 'Monthly earnings'),
+          React.createElement('span', { className: 'metric-sublabel' }, t ? t('monthlyEarningsSubLabel', investmentAmount) : `on $${Number(investmentAmount || 0).toLocaleString('en-US')}`)
+        ),
         React.createElement('div', {
           style: {
             fontSize: 'var(--font-size-xl)',
