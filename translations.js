@@ -58,6 +58,7 @@ const translations = {
     adjustFilters: "Try adjusting your filters or searching for a different token",
     adjustFiltersChain: "Try adjusting your TVL or APY filters, or select a different chain",
     resetFilters: "Reset Filters",
+    showSmallerPools: "Show pools with lower TVL",
     loadingError: "Failed to load yield data. Please try again later.",
     
     // Navigation
@@ -150,6 +151,7 @@ const translations = {
     adjustFilters: "필터를 조정하거나 다른 토큰을 검색해보세요",
     adjustFiltersChain: "TVL 또는 APY 필터를 조정하거나 다른 체인을 선택해보세요",
     resetFilters: "필터 초기화",
+    showSmallerPools: "TVL이 낮은 풀도 보기",
     loadingError: "수익률 데이터를 불러오지 못했습니다. 다시 시도해주세요.",
     
     // Navigation

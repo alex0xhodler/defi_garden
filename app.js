@@ -842,7 +842,6 @@ function App() {
       setChainMode(true);
       setSelectedChain(urlParams.chain);
       setShowFilters(true);
-      setMinTvl(100000); // Default to $100k TVL for chain mode as per PRD
       setShowAutocomplete(false);
       document.title = `${urlParams.chain} DeFi Yields | DeFi Garden 🌱`;
     } else if (urlParams.token) {
@@ -856,7 +855,7 @@ function App() {
     if (urlParams.chain) setSelectedChain(urlParams.chain);
     if (urlParams.poolTypes) setSelectedPoolTypes(urlParams.poolTypes);
     if (urlParams.protocols) setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
-    if (urlParams.minTvl) setMinTvl(urlParams.minTvl);
+    setMinTvl(urlParams.minTvl);
     if (urlParams.minApy) setMinApy(urlParams.minApy);
 
     // Mark initial load as complete after a brief delay
@@ -889,7 +888,6 @@ function App() {
         setSearchInput('');
         setSelectedChain(urlParams.chain);
         setShowFilters(true);
-        setMinTvl(urlParams.minTvl || 100000);
         document.title = `${urlParams.chain} DeFi Yields | DeFi Garden 🌱`;
       } else if (urlParams.token) {
         // Token-first mode
@@ -911,6 +909,7 @@ function App() {
 
       setSelectedPoolTypes(urlParams.poolTypes);
       setSelectedProtocols(urlParams.protocols.map(normalizeProtocolName));
+      setMinTvl(urlParams.minTvl);
       setMinApy(urlParams.minApy);
       setShowAutocomplete(false);
       setHighlightedIndex(-1);
@@ -1704,7 +1703,7 @@ function App() {
     setSelectedToken(''); // Clear token selection
     setSearchInput(''); // Clear search input
     setShowFilters(true);
-    setMinTvl(100000); // Default to $100k TVL for chain mode
+    setMinTvl(DEFAULT_MIN_TVL);
     setShowAutocomplete(false);
 
     // Analytics tracking for chain selection
@@ -1754,11 +1753,6 @@ function App() {
     setShowAutocomplete(false);
     setShowFilters(true); // Show filters after token selection
     setHighlightedIndex(-1);
-
-    // Reset TVL to default for token mode
-    if (minTvl === 100000) {
-      setMinTvl(0);
-    }
 
     // Close mobile keyboard by blurring the input
     const searchInputEl = document.querySelector('.search-input');
@@ -1851,7 +1845,7 @@ function App() {
           // If chain is found and no token, it's chain-first mode.
           if (chain && !token) {
             setChainMode(true);
-            setMinTvl(100000); // Default TVL for chain-first mode
+            setMinTvl(DEFAULT_MIN_TVL);
           } else {
             setChainMode(false);
           }
@@ -1902,7 +1896,7 @@ function App() {
     setSelectedChain('');
     setSelectedPoolTypes([]);
     setSelectedProtocols([]);
-    setMinTvl(0);
+    setMinTvl(DEFAULT_MIN_TVL);
     setMinApy(0);
     setFilteredPools([]);
     setCurrentPage(1);
@@ -2612,6 +2606,10 @@ function App() {
               ? t('adjustFiltersChain')
               : t('adjustFilters')
           ),
+          minTvl > 0 && React.createElement('button', {
+            className: 'reset-filters-btn',
+            onClick: () => handleTvlSelect(0)
+          }, t('showSmallerPools')),
           React.createElement('button', {
             className: 'reset-filters-btn',
             onClick: resetApp
