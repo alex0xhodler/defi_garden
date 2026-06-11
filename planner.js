@@ -452,16 +452,21 @@
     function doShare() {
       setSharing(true);
       renderShareImage({
-        lang: lang,
         headline: t('bloomHeadline', formatUsdRounded(projection), years),
         goalLabel: goalLabel(t, props.goal),
-        monthly: formatUsd(monthly),
+        subline: t('shareSubline', formatUsd(monthly), years),
+        footer: t('shareFooter'),
         years: years,
         you: monthly, apy: apy
       }).then(function () { setSharing(false); }).catch(function () { setSharing(false); });
     }
 
     return e('div', { className: 'gp-bloom' },
+      // Preset intro — stays visible in the bloom so fast-forwarded (and
+      // reduced-motion) visitors always see whose plan they started from.
+      props.presetName
+        ? e('p', { className: 'gp-preset-intro gp-bloom-intro gp-animate-in' }, t('presetIntro', props.presetName))
+        : null,
       // Headline
       e('div', { className: 'gp-bloom-headline gp-animate-in' },
         e('div', { className: 'gp-headline-figure' },
@@ -637,7 +642,7 @@
 
       ctx.font = '500 30px "Satoshi", system-ui, -apple-system, sans-serif';
       ctx.fillStyle = '#475569';
-      ctx.fillText(opts.monthly + ' / month  ·  ' + opts.years + (opts.lang === 'ko' ? '년' : ' years'), 110, 322);
+      ctx.fillText(opts.subline, 110, 322);
 
       // Wordmark
       ctx.font = '700 30px "Satoshi", system-ui, -apple-system, sans-serif';
@@ -647,7 +652,7 @@
       ctx.textAlign = 'left';
       ctx.font = '400 20px "Satoshi", system-ui, -apple-system, sans-serif';
       ctx.fillStyle = '#94A3B8';
-      ctx.fillText('Estimates from live pool rates — education, not advice.', 110, H - 100);
+      ctx.fillText(opts.footer, 110, H - 100);
 
       try {
         c.toBlob(function (blob) {
@@ -1024,7 +1029,7 @@
           stepBubble = e('div', { className: 'gp-bloom-error' }, e('p', null, rootT(lang, 'loadingError')));
         } else {
           stepBubble = e(Bloom, {
-            t: t, lang: lang,
+            t: t, lang: lang, presetName: preset ? preset.name : null,
             goal: answers.goal, monthly: answers.monthly, years: answers.years, temperament: answers.temperament,
             pools: pools, onWhatIf: onWhatIf
           });

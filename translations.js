@@ -178,6 +178,8 @@ const translations = {
       disclaimer: "Estimates from live pool rates — they change daily. Education, not advice.",
       share: "Share my garden",
       sharePrepping: "Drawing…",
+      shareSubline: (amt, years) => `${amt} / month  ·  ${years} years`,
+      shareFooter: "Estimates from live pool rates — education, not advice.",
       tendGarden: "Tend your garden",
 
       // Persona intros
@@ -368,6 +370,8 @@ const translations = {
       disclaimer: "실시간 풀 수익률 기반 추정치이며 매일 변동됩니다. 투자 조언이 아닌 교육용입니다.",
       share: "내 정원 공유하기",
       sharePrepping: "그리는 중…",
+      shareSubline: (amt, years) => `매달 ${amt}  ·  ${years}년`,
+      shareFooter: "실시간 풀 수익률 기반 추정치 — 투자 조언이 아닌 교육용입니다.",
       tendGarden: "내 정원 가꾸기",
 
       presetIntro: (name) => `${name}님처럼 계획해 봐요 — 무엇이든 바꿔 내 것으로 만드세요.`,

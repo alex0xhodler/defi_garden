@@ -159,6 +159,10 @@
   font-weight: var(--font-weight-medium);
   color: var(--color-primary);
 }
+.gp-bloom-intro {
+  margin: 0;
+  text-align: center;
+}
 
 /* ---------- Chips ---------- */
 .gp-chips { display: flex; gap: var(--space-10); }
@@ -738,6 +742,7 @@
 .gp-bloom > .gp-animate-in:nth-child(4) { animation-delay: 270ms; }
 .gp-bloom > .gp-animate-in:nth-child(5) { animation-delay: 360ms; }
 .gp-bloom > .gp-animate-in:nth-child(6) { animation-delay: 450ms; }
+.gp-bloom > .gp-animate-in:nth-child(7) { animation-delay: 540ms; }
 
 @keyframes gpIn {
   from { opacity: 0; transform: translateY(12px); }
