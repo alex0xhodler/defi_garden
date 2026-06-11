@@ -2180,30 +2180,6 @@ function App() {
   // Render Pool Detail View if active
   if (currentView === 'pool-detail' && detailPool) {
     return React.createElement('div', { className: 'app pool-detail-view' },
-      // Theme Toggle
-      React.createElement('button', {
-        className: 'theme-toggle',
-        'data-theme': isDarkMode ? 'dark' : 'light',
-        onClick: toggleTheme,
-        'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-      },
-        React.createElement('div', { className: 'theme-toggle-icon' },
-          isDarkMode ? '☀️' : '🌙'
-        ),
-        React.createElement('div', { className: 'theme-toggle-switch' },
-          React.createElement('div', { className: 'theme-toggle-handle' })
-        ),
-        React.createElement('div', { className: 'theme-toggle-text' },
-          isDarkMode ? 'Light' : 'Dark'
-        )
-      ),
-
-      // Language Toggle  
-      React.createElement('button', {
-        className: 'language-toggle',
-        onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
-        'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
-      }, language === 'en' ? 'KO' : 'EN'),
 
       React.createElement('div', { className: 'container' },
         React.createElement(PoolDetail, {

@@ -259,16 +259,21 @@ function PoolDetail({
         }, `${pool.symbol} Pool`)
       ),
 
-      // Right: Empty space for real toggle (matching height)
-      React.createElement('div', {
-        style: {
-          width: '100px',
-          height: '40px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'flex-end'
-        }
-      })
+      // Right: Header controls (language + theme)
+      React.createElement('div', { className: 'detail-header-controls' },
+        // Language toggle
+        (changeLanguage && language) && React.createElement('button', {
+          className: 'detail-header-btn',
+          onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
+          'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
+        }, language === 'en' ? 'KO' : 'EN'),
+        // Theme toggle
+        toggleTheme && React.createElement('button', {
+          className: 'detail-header-btn',
+          onClick: toggleTheme,
+          'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
+        }, isDarkMode ? '🌙' : '☀️')
+      )
     ),
 
     // Hero Section - Simplified and Focused
