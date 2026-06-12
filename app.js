@@ -2459,6 +2459,16 @@ function App() {
               React.createElement('span', { className: 'button-icon' }, '🚀'),
               React.createElement('span', { className: 'button-text' }, t('feelingDegen'))
             )
+          ),
+
+          // Garden Planner entry — goal-first invitation under the search buttons
+          !selectedToken && !chainMode && React.createElement('a', {
+            className: 'planner-entry',
+            href: language === 'ko' ? 'plan.html?lang=ko' : 'plan.html'
+          },
+            React.createElement('span', { className: 'planner-entry-icon', 'aria-hidden': 'true' }, '🌱'),
+            React.createElement('span', { className: 'planner-entry-question' }, t('plannerEntryQuestion')),
+            React.createElement('span', { className: 'planner-entry-cta' }, t('plannerEntryCta'))
           )
         )
       ),
