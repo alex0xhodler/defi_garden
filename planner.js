@@ -1720,6 +1720,17 @@
 
     var stage = gardenStage(plan);
 
+    // Plan summary strip pieces
+    var onEdit = props.onEdit;
+    var stripGoalDef = goalById(plan.goal);
+    var stripGoal = (stripGoalDef ? stripGoalDef.emoji + ' ' : '') + goalLabel(t, plan.goal);
+    var stripFunding = (plan.fundingMode === 'capital' && plan.capital)
+      ? t('stripCapital', formatUsdRounded(plan.capital))
+      : (plan.monthly ? formatUsd(plan.monthly) + '/mo' : null);
+    var planPkName = personaKey === 'stable' ? t('personaStableTitle')
+      : (personaKey === 'rwa' ? t('personaRwaTitle')
+        : (personaKey === 'degen' ? t('personaDegenTitle') : ''));
+
     // Build archetype-aware projection block
     var projectionBlock;
     if (arch === 'growth') {

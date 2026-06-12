@@ -1212,6 +1212,7 @@
   .gp-compound-line { transition: none; }
   .gp-item-fill-inner { transition: none; }
   .gp-journey-pulse { animation: none; }
+  .gp-funding-picker-open { animation: none; }
 }
 
 /* ==========================================================================
@@ -1233,6 +1234,7 @@
 .gp-funding-card-title { font-weight: 600; margin-bottom: 6px; font-size: 0.95rem; }
 .gp-funding-card-desc { font-size: 0.78rem; color: var(--neuro-text-secondary); margin-bottom: 12px; }
 .gp-funding-amount-picker { margin-top: 12px; text-align: left; }
+.gp-funding-picker-open { animation: gpIn 0.25s var(--ease-standard, ease) both; }
 .gp-question-sm { font-size: 0.85rem; margin: 4px 0 8px; }
 
 /* Persona ladder */
