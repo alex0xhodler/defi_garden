@@ -96,7 +96,7 @@ const translations = {
     plannerEntryQuestion: "What are you saving for?",
     plannerEntryCta: "Plan my garden →",
 
-    // Garden Planner
+    // Garden Planner v2
     planner: {
       // Page meta
       pageTitle: "Garden Planner 🌱 | Plan your DeFi savings by goal — DeFi Garden",
@@ -107,6 +107,7 @@ const translations = {
       tagline: "Plant a goal. Watch it grow.",
       startFresh: "Start fresh",
       back: "Back",
+      myGarden: "My garden",
 
       // Thinking indicator
       thinking: "Growing your answer…",
@@ -115,12 +116,13 @@ const translations = {
       step1Question: "Let's grow something. What are you saving for?",
       goalRetirement: "Retirement",
       goalHome: "A home",
-      goalEducation: "Education",
-      goalRainy: "Rainy day",
-      goalGrow: "Just grow it",
+      goalClaude: "My Claude subscription",
+      goalSneakers: "Fresh sneakers",
+      goalIphone: "New iPhone",
       freeTextPlaceholder: "…or tell me in your own words",
       freeTextNudge: "I want to get this right — let's start with one of these for now. You can always change it.",
       youPicked: (goal) => `Saving for ${goal}`,
+      sharedPlanIntro: "Someone shared their garden — make it yours.",
 
       // Step 2 — monthly
       step2Question: (goal) => `Lovely — ${goal.toLowerCase()} it is. How much could you set aside each month?`,
@@ -128,23 +130,43 @@ const translations = {
       customAmount: "Custom amount",
       monthlyChosen: (amt) => `${amt} every month`,
 
-      // Step 3 — horizon
-      step3Question: "And how long can it grow? No rush — longer is gentler on you.",
-      years: (n) => `${n} years`,
+      // Step 3 — horizon (growth archetype only; DeFi-honest max 10 years)
+      step3Question: "How long can it grow? In DeFi, we plan in seasons — up to 10 years.",
+      years: (n) => `${n} yr${n !== 1 ? 's' : ''}`,
+      yearsShort: "yrs",
       horizonChosen: (n) => `Growing for ${n} years`,
 
-      // Step 4 — temperament
-      step4Question: "Last thing — how do you want to sleep at night?",
-      tempSleepTitle: "Sleep well",
-      tempSleepDesc: "Stablecoin pools only, on the largest, most-battle-tested protocols.",
-      tempSleepRisk: "What can go wrong: a stablecoin could briefly lose its $1 peg, or a protocol could have a bug. Lower odds, never zero.",
-      tempBalancedTitle: "Balanced",
-      tempBalancedDesc: "A wider mix of solid pools, capped at moderate rates.",
-      tempBalancedRisk: "What can go wrong: prices and rates swing more, and some assets aren't dollar-pegged. You trade calm for a bit more growth.",
-      tempBoldTitle: "Adventurous",
-      tempBoldDesc: "Higher-rate pools, still above our safety floor.",
-      tempBoldRisk: "What can go wrong: real volatility, newer protocols, and rates that can vanish. Only money you can watch wobble.",
+      // Step 4 — strategy personas (renamed from temperament)
+      step4Question: "Last thing — where should your money work?",
+      personaStableTitle: "Established Stablecoins",
+      personaStableDesc: "Stablecoin pools on battle-tested lending & staking protocols, TVL ≥ $50M. Steady 3–8%, boring on purpose.",
+      personaStableRisk: "Risk: depeg + contract bug — low odds, never zero.",
+      personaRwaTitle: "RWA & Fresh Entries",
+      personaRwaDesc: "Tokenized treasuries, real-world-asset yields, and newer-but-credible entries. TradFi yields moving onchain — the fastest-growing corner of DeFi.",
+      personaRwaRisk: "Risk: newer instruments, issuer & regulatory risk, thinner history.",
+      personaDegenTitle: "Degen LPs",
+      personaDegenDesc: "High-APY LP farms, TVL ≥ $10M. These rates are real today and typically last days-to-weeks, requiring active farm-hopping.",
+      personaDegenRisk: "Honest: projected at ⅓ of headline rate — farm rates decay fast. For money you can watch wobble.",
       tempChosen: (t) => `${t} pace`,
+
+      // Backward compat aliases for old temperament keys
+      tempSleepTitle: "Established Stablecoins",
+      tempSleepDesc: "Stablecoin pools on battle-tested protocols.",
+      tempSleepRisk: "Risk: depeg + contract bug — low odds, never zero.",
+      tempBalancedTitle: "RWA & Fresh Entries",
+      tempBalancedDesc: "TradFi yields moving onchain.",
+      tempBalancedRisk: "Risk: newer instruments, thinner history.",
+      tempBoldTitle: "Degen LPs",
+      tempBoldDesc: "High-APY farms — projected at ⅓ headline rate.",
+      tempBoldRisk: "Only money you can watch wobble.",
+
+      // Hero answers by archetype
+      heroTarget: (goal, date) => `${goal} — yours by ${date}`,
+      heroTargetInstant: (goal) => `You could buy ${goal} today — or let yield pay for it`,
+      heroTargetSub: (yieldAmt, targetAmt) => `yield chips in ${yieldAmt} of the ${targetAmt}`,
+      heroSubscription: (goal, date) => `From ${date}, yield pays for ${goal} — forever`,
+      heroSubscriptionFar: (amt) => `Save ${amt} — then yield pays the bill forever`,
+      heroSubscriptionForever: (amt, apy) => `The forever number: ${amt} at ${apy} blended`,
 
       // The bloom
       bloomBuilding: "Planting your garden…",
@@ -154,30 +176,55 @@ const translations = {
       bloomDeposited: (amt) => `You'd have deposited ${amt} of your own money`,
       bloomCurveYou: "Your garden",
       bloomCurveBank: "Bank account",
-      poolsHeading: "Three live pools behind this plan",
+
+      // Make it yours
+      makeItYours: "Make it yours",
+      makeItMonthly: "Monthly amount",
+      makeItYears: "Time horizon",
+
+      // Primary CTA
+      ctaStart: (project) => `Start growing on ${project}`,
+      ctaMicrocopy: "Opens protocol • Wallet required",
+
+      // Engine room — pools
+      poolsHeading: "The engine behind this plan",
+      blendedBadge: (apy) => `Blended rate: ${apy}`,
+      degenHaircutNote: (headline) => `Projected at ⅓ haircut (${headline} headline) — farm rates decay. Active management required.`,
       poolApy: "APY",
       poolTvl: "TVL",
       viewPool: "View pool →",
-      noPools: "No pools clear this safety bar right now — try a different pace and we'll only ever show you real, live rates.",
+      noPools: "No pools clear this safety bar right now — try a different pace. We only ever show real, live rates.",
 
-      // What-if
+      // What-if (legacy, kept for backward compat)
       whatIfHeading: "What if…",
       whatIfMore: "+$200/month",
-      whatIfLonger: "+5 years",
+      whatIfLonger: "+2 years",
       whatIfSafer: "Safer",
       whatIfBolder: "Bolder",
 
-      // Ask box
+      // Ask box — always-visible chips + curated answers
       askPlaceholder: "Ask anything about this plan…",
-      askRatesDrop: "Honestly? They will move — these are live rates that change daily. If your blended rate fell by half, your projection would land closer to the bank line but still well ahead of it over time. That's why we spread across three pools and keep a safety floor.",
-      askSafe: "Nothing in DeFi is risk-free, and we'd never pretend otherwise. \"Sleep well\" sticks to stablecoin pools on the largest protocols to lower the odds — but a depeg or a contract bug is always possible. Never deposit money you can't afford to lose.",
+      askChipSafe: "Is this safe?",
+      askChipRatesDrop: "What if rates drop?",
+      askChipCatch: "What's the catch?",
+      askChipWithdraw: "Can I withdraw anytime?",
+      askChipStop: "What if I stop depositing?",
+      askRatesDrop: "Honestly? They will move — these are live rates that change daily. If your blended rate fell by half, your projection would land closer to the bank line but still well ahead over time. That's why we spread across three pools and keep a safety floor.",
+      askSafe: "Nothing in DeFi is risk-free, and we'd never pretend otherwise. Established stablecoins sticks to the largest, most-battle-tested protocols to lower the odds — but a depeg or a contract bug is always possible. Never deposit money you can't afford to lose.",
+      askCatch: "The catch is real: rates change daily, sometimes dramatically. The projected numbers assume consistency that markets don't guarantee. We show it anyway because even at half the rate, compounding over years beats a 0.5% savings account. Education, not promises.",
       askWithdraw: "These pools are generally liquid — you can usually withdraw any time, though rates aren't locked in and can change the moment you do. Always check the protocol's own terms before depositing.",
+      askStop: "If you stop depositing, the money you've already placed keeps earning yield — the compounding just slows because no new capital is joining. Your plan timeline will extend, but the money is still working.",
       askHow: "Every number here comes straight from live DefiLlama pool data, blended and run through our safety filters. We never invent a rate. Pools with absurd APY are filtered out entirely.",
-      askFallback: "I can't answer that one confidently yet — and I'd rather say so than guess. Try one of the what-if chips above to reshape the plan, or ask about rates, risk, or withdrawals.",
+      askApy: "APY means Annual Percentage Yield — how much your deposit earns over a year if the rate holds constant. In DeFi, rates change daily based on supply and demand, so today's APY is a snapshot, not a contract.",
+      askAdvice: "This is not financial advice — and we want to be clear about that. We're a calculator that shows what live, public pool rates could theoretically do to your savings. Talk to a financial professional before making real decisions.",
+      askFallback: "I'm a gardener, not a guru — here's what I can answer well:",
 
       disclaimer: "Estimates from live pool rates — they change daily. Education, not advice.",
       share: "Share my garden",
       sharePrepping: "Drawing…",
+      shareLink: "Copy link",
+      shareLinkCopied: "Copied!",
+      shareNative: "Share",
       shareSubline: (amt, years) => `${amt} / month  ·  ${years} years`,
       shareFooter: "Estimates from live pool rates — education, not advice.",
       tendGarden: "Tend your garden",
@@ -185,12 +232,13 @@ const translations = {
       // Persona intros
       presetIntro: (name) => `Planning like ${name} — adjust anything to make it yours.`,
 
-      // Return visit — Garden Report
+      // Return visit — Garden Report (fixed: shows without API)
       reportTitle: "Your garden",
       reportSince: (date) => `Your garden since ${date}`,
       reportOnTrack: "Still on track — your rates are holding steady.",
       reportAhead: "Ahead of plan — rates ticked up since you planted this.",
       reportDipped: "Rates dipped a little — here's the honest impact.",
+      reportUpdating: "Checking live rates…",
       reportRateUp: "up",
       reportRateDown: "down",
       reportRateFlat: "steady",
@@ -299,6 +347,7 @@ const translations = {
     plannerEntryCta: "내 정원 계획하기 →",
 
     // Garden Planner
+    // 가든 플래너 v2
     planner: {
       pageTitle: "가든 플래너 🌱 | 목표 중심 DeFi 저축 계획 — DeFi Garden",
       metaDescription: "목표부터 시작하는 DeFi 저축 플래너. 무엇을 위해 매달 얼마를 모을 수 있는지 알려주시면, 실시간 풀 수익률로 얼마나 키울 수 있는지 보여드립니다. 모든 숫자는 DefiLlama 실시간 데이터입니다. 투자 조언이 아닌 교육용입니다.",
@@ -307,39 +356,59 @@ const translations = {
       tagline: "목표를 심고, 자라는 걸 지켜보세요.",
       startFresh: "처음부터 다시",
       back: "뒤로",
+      myGarden: "내 정원",
 
       thinking: "답을 키우는 중…",
 
       step1Question: "함께 무언가를 키워봐요. 무엇을 위해 모으고 계신가요?",
       goalRetirement: "은퇴 자금",
       goalHome: "내 집 마련",
-      goalEducation: "교육비",
-      goalRainy: "비상금",
-      goalGrow: "그냥 불리기",
+      goalClaude: "Claude 구독료",
+      goalSneakers: "새 운동화",
+      goalIphone: "새 아이폰",
       freeTextPlaceholder: "…아니면 직접 말씀해 주세요",
       freeTextNudge: "제대로 도와드리고 싶어요 — 우선 이 중에서 하나 골라볼까요? 언제든 바꿀 수 있어요.",
       youPicked: (goal) => `${goal} 모으기`,
+      sharedPlanIntro: "누군가 정원을 공유했어요 — 내 것으로 만들어 보세요.",
 
       step2Question: (goal) => `좋아요 — ${goal}이군요. 매달 얼마나 따로 모을 수 있을까요?`,
       step2QuestionPlain: "매달 얼마나 따로 모을 수 있을까요?",
       customAmount: "직접 입력",
       monthlyChosen: (amt) => `매달 ${amt}`,
 
-      step3Question: "그리고 얼마나 오래 키울 수 있나요? 서두르지 마세요 — 길수록 마음이 편해요.",
+      step3Question: "얼마나 오래 키울 수 있나요? DeFi에서는 시즌 단위로 계획해요 — 최대 10년.",
       years: (n) => `${n}년`,
+      yearsShort: "년",
       horizonChosen: (n) => `${n}년 동안 키우기`,
 
-      step4Question: "마지막으로 — 어떻게 하면 발 뻗고 주무실 수 있나요?",
-      tempSleepTitle: "편안하게",
-      tempSleepDesc: "가장 크고 검증된 프로토콜의 스테이블코인 풀만.",
-      tempSleepRisk: "무엇이 잘못될 수 있나: 스테이블코인이 잠시 $1 가치를 잃거나 프로토콜에 버그가 생길 수 있어요. 가능성은 낮지만 0은 아닙니다.",
-      tempBalancedTitle: "균형 있게",
-      tempBalancedDesc: "견고한 풀을 폭넓게 섞되 수익률은 적당한 선에서.",
-      tempBalancedRisk: "무엇이 잘못될 수 있나: 가격과 수익률 변동이 더 크고, 일부 자산은 달러에 연동되지 않아요. 더 큰 성장을 위해 평온함을 조금 내어주는 셈입니다.",
-      tempBoldTitle: "모험적으로",
-      tempBoldDesc: "안전 기준선은 넘으면서 더 높은 수익률의 풀.",
-      tempBoldRisk: "무엇이 잘못될 수 있나: 큰 변동성, 신생 프로토콜, 사라질 수 있는 수익률. 흔들려도 지켜볼 수 있는 돈으로만.",
+      step4Question: "마지막으로 — 내 돈이 어디서 일하면 좋을까요?",
+      personaStableTitle: "검증된 스테이블코인",
+      personaStableDesc: "검증된 대출·스테이킹 프로토콜의 스테이블코인 풀, TVL ≥ $50M. 꾸준히 3~8%, 의도적으로 평범하게.",
+      personaStableRisk: "위험: 디페그 + 컨트랙트 버그 — 낮은 확률, 0은 아님.",
+      personaRwaTitle: "RWA & 신흥 프로토콜",
+      personaRwaDesc: "토큰화된 국채, 실물 자산 수익률, 신뢰할 수 있는 신규 항목. TradFi 수익률이 온체인으로 — DeFi에서 가장 빠르게 성장하는 영역.",
+      personaRwaRisk: "위험: 새로운 금융상품, 발행자·규제 리스크, 얇은 역사.",
+      personaDegenTitle: "디젠 LP",
+      personaDegenDesc: "고수익 LP 팜, TVL ≥ $10M. 이 수익률은 지금 실재하며 보통 며칠~몇 주 지속돼요. 적극적인 농장 이동이 필요합니다.",
+      personaDegenRisk: "솔직히: 헤드라인 수익률의 ⅓로 투영 — 팜 수익률은 빠르게 감소. 흔들려도 괜찮은 돈으로만.",
       tempChosen: (t) => `${t} 속도`,
+
+      tempSleepTitle: "검증된 스테이블코인",
+      tempSleepDesc: "검증된 프로토콜의 스테이블코인 풀만.",
+      tempSleepRisk: "위험: 디페그 + 컨트랙트 버그.",
+      tempBalancedTitle: "RWA & 신흥 프로토콜",
+      tempBalancedDesc: "TradFi 수익률이 온체인으로.",
+      tempBalancedRisk: "위험: 새로운 금융상품, 얇은 역사.",
+      tempBoldTitle: "디젠 LP",
+      tempBoldDesc: "고수익 팜 — 헤드라인 수익률의 ⅓로 투영.",
+      tempBoldRisk: "흔들려도 괜찮은 돈으로만.",
+
+      heroTarget: (goal, date) => `${goal} — ${date}까지 모아요`,
+      heroTargetInstant: (goal) => `${goal}은 지금 바로 살 수 있어요 — 수익률로 내도록 할 수도 있어요`,
+      heroTargetSub: (yieldAmt, targetAmt) => `${targetAmt} 중 ${yieldAmt}은 수익률이 내줘요`,
+      heroSubscription: (goal, date) => `${date}부터 수익률이 ${goal}을 영원히 내줘요`,
+      heroSubscriptionFar: (amt) => `${amt}만 모으면 — 수익률이 영구적으로 비용을 내줘요`,
+      heroSubscriptionForever: (amt, apy) => `영원한 수: ${apy} 수익률에서 ${amt}`,
 
       bloomBuilding: "정원을 심는 중…",
       bloomHeadline: (amt, years) => `${years}년 후 약 ${amt}`,
@@ -348,7 +417,17 @@ const translations = {
       bloomDeposited: (amt) => `직접 넣은 원금은 ${amt}`,
       bloomCurveYou: "내 정원",
       bloomCurveBank: "예금 계좌",
-      poolsHeading: "이 계획을 떠받치는 실시간 풀 3개",
+
+      makeItYours: "내 것으로 만들기",
+      makeItMonthly: "월 금액",
+      makeItYears: "기간",
+
+      ctaStart: (project) => `${project}에서 키우기 시작`,
+      ctaMicrocopy: "프로토콜 열기 • 지갑 필요",
+
+      poolsHeading: "이 계획을 떠받치는 엔진",
+      blendedBadge: (apy) => `혼합 수익률: ${apy}`,
+      degenHaircutNote: (headline) => `⅓ 할인 적용 (헤드라인 ${headline}) — 팜 수익률은 빠르게 감소. 적극적 관리 필요.`,
       poolApy: "APY",
       poolTvl: "TVL",
       viewPool: "풀 보기 →",
@@ -356,20 +435,32 @@ const translations = {
 
       whatIfHeading: "만약에…",
       whatIfMore: "+매달 $200",
-      whatIfLonger: "+5년",
+      whatIfLonger: "+2년",
       whatIfSafer: "더 안전하게",
       whatIfBolder: "더 과감하게",
 
       askPlaceholder: "이 계획에 대해 무엇이든 물어보세요…",
+      askChipSafe: "안전한가요?",
+      askChipRatesDrop: "수익률이 떨어지면?",
+      askChipCatch: "단점이 뭔가요?",
+      askChipWithdraw: "언제든 출금 가능한가요?",
+      askChipStop: "입금을 멈추면?",
       askRatesDrop: "솔직히요? 수익률은 움직입니다 — 매일 변하는 실시간 수치예요. 혼합 수익률이 절반으로 떨어져도, 예측치는 예금 선에 가까워지지만 시간이 지나면 여전히 훨씬 앞섭니다. 그래서 세 개 풀에 나누고 안전 기준선을 둡니다.",
-      askSafe: "DeFi에 위험이 전혀 없는 건 없고, 그렇게 꾸미지 않겠습니다. '편안하게'는 가장 큰 프로토콜의 스테이블코인 풀만 골라 가능성을 낮추지만, 디페그나 컨트랙트 버그는 언제든 생길 수 있어요. 잃어도 괜찮은 돈만 넣으세요.",
+      askSafe: "DeFi에 위험이 전혀 없는 건 없고, 그렇게 꾸미지 않겠습니다. 검증된 스테이블코인은 가장 큰 프로토콜의 풀만 골라 가능성을 낮추지만, 디페그나 컨트랙트 버그는 언제든 생길 수 있어요. 잃어도 괜찮은 돈만 넣으세요.",
+      askCatch: "단점은 실재해요: 수익률은 매일, 때로는 급격하게 변합니다. 예측 숫자는 시장이 보장하지 않는 일관성을 가정해요. 그래도 보여드리는 이유는 절반의 수익률에서도 수년간의 복리는 0.5% 예금을 이깁니다. 약속이 아닌 교육이에요.",
       askWithdraw: "이 풀들은 대체로 유동성이 좋아 보통 언제든 출금할 수 있어요. 다만 수익률은 고정이 아니라 출금하는 순간에도 바뀔 수 있습니다. 입금 전에 항상 프로토콜 약관을 확인하세요.",
+      askStop: "입금을 멈춰도 이미 넣은 돈은 계속 수익을 내요 — 새 자금이 없으니 복리 속도만 느려질 뿐입니다. 계획 기간이 늘어나지만 돈은 계속 일해요.",
       askHow: "여기 모든 숫자는 DefiLlama 실시간 풀 데이터를 그대로 가져와 혼합하고 안전 필터를 거친 값입니다. 수익률을 지어내지 않아요. 말도 안 되게 높은 APY 풀은 아예 걸러냅니다.",
-      askFallback: "그건 아직 자신 있게 답하기 어려워요 — 추측하기보다 솔직히 말씀드릴게요. 위의 '만약에' 칩으로 계획을 바꿔보거나 수익률, 위험, 출금에 대해 물어보세요.",
+      askApy: "APY는 연간 수익률 — 수익률이 일정하게 유지될 때 예금이 1년에 얼마나 버는지를 의미해요. DeFi에서는 수요와 공급에 따라 수익률이 매일 바뀌므로, 오늘의 APY는 스냅샷이지 계약이 아닙니다.",
+      askAdvice: "이것은 투자 조언이 아닙니다 — 명확히 말씀드리고 싶어요. 저희는 실시간 공개 풀 수익률이 저축에 이론상 어떤 영향을 미치는지 보여주는 계산기입니다. 실제 결정 전에 금융 전문가와 상담하세요.",
+      askFallback: "저는 전문가가 아니라 정원사예요 — 제가 잘 답할 수 있는 것들:",
 
       disclaimer: "실시간 풀 수익률 기반 추정치이며 매일 변동됩니다. 투자 조언이 아닌 교육용입니다.",
       share: "내 정원 공유하기",
       sharePrepping: "그리는 중…",
+      shareLink: "링크 복사",
+      shareLinkCopied: "복사됨!",
+      shareNative: "공유",
       shareSubline: (amt, years) => `매달 ${amt}  ·  ${years}년`,
       shareFooter: "실시간 풀 수익률 기반 추정치 — 투자 조언이 아닌 교육용입니다.",
       tendGarden: "내 정원 가꾸기",
@@ -381,6 +472,7 @@ const translations = {
       reportOnTrack: "여전히 순조로워요 — 수익률이 안정적으로 유지되고 있어요.",
       reportAhead: "계획보다 앞서가요 — 심은 뒤로 수익률이 올랐어요.",
       reportDipped: "수익률이 조금 내렸어요 — 솔직한 영향을 보여드릴게요.",
+      reportUpdating: "실시간 수익률 확인 중…",
       reportRateUp: "상승",
       reportRateDown: "하락",
       reportRateFlat: "유지",
