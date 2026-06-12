@@ -247,6 +247,7 @@ const translations = {
       reportTend: "Tend your garden",
       reportFresh: "Start fresh",
       reportPoolGone: "This pool is no longer in the live data — we won't guess its rate.",
+      reportHolding: "holding",
 
       // v3 yield-funded — funding mode step
       fundingModeQuestion: "How do you want to fund it?",
@@ -537,6 +538,7 @@ const translations = {
       reportTend: "내 정원 가꾸기",
       reportFresh: "처음부터 다시",
       reportPoolGone: "이 풀은 더 이상 실시간 데이터에 없어요 — 수익률을 추측하지 않겠습니다.",
+      reportHolding: "유지 중",
 
       // v3 yield-funded — funding mode step
       fundingModeQuestion: "어떻게 마련할 건가요?",

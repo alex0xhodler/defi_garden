@@ -1710,8 +1710,8 @@
                     r.liveApy != null ? formatApy(r.liveApy) : (formatApy(r.savedApy) + ' *')
                   ),
                   poolsReady && r.liveApy != null ? e('span', { className: 'gp-report-delta' },
-                    dir === 'up' ? '▲ ' : (dir === 'down' ? '▼ ' : '● '),
-                    (delta >= 0 ? '+' : '') + formatApy(delta).replace('%', '') + '%'
+                    dir === 'flat' ? ('● ' + t('reportHolding')) : (dir === 'up' ? '▲ ' : '▼ '),
+                    dir !== 'flat' ? ((delta >= 0 ? '+' : '') + formatApy(delta).replace('%', '') + '%') : null
                   ) : null
                 )
           );
@@ -2049,7 +2049,12 @@
           restoreFromPlan(savedPlan);
           setMode('convo'); setStep('bloom');
         },
-        onFresh: restart
+        onFresh: restart,
+        onEdit: function(editStep) {
+          restoreFromPlan(savedPlan);
+          setMode('convo');
+          setStep(editStep);
+        }
       });
     } else {
       var stepBubble;
