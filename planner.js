@@ -20,7 +20,7 @@
   var POOLS_API = 'https://yields.llama.fi/pools';
   var BANK_APY = 0.5;
   var STORAGE_KEY = 'garden-plan';
-  var PLAN_VERSION = 2;
+  var PLAN_VERSION = 3;
 
   var STABLE_SYMBOLS = ['USDC', 'USDT', 'DAI', 'USDS', 'FRAX', 'TUSD', 'USDP', 'GUSD',
     'LUSD', 'USDD', 'PYUSD', 'USDE', 'SUSD', 'CRVUSD', 'GHO', 'USD0', 'FDUSD', 'USDB',
@@ -516,10 +516,7 @@
       var raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return null;
       var p = JSON.parse(raw);
-      if (!p) return null;
-      // Accept version 1 or 2
-      if (p.version !== PLAN_VERSION && p.version !== 1) return null;
-      return p;
+      return migratePlan(p);
     } catch (e4) { return null; }
   }
   function savePlan(plan) {
@@ -1020,10 +1017,16 @@
         temperament: PERSONA_TO_TEMPERAMENT[persona] || persona,
         pools: curated.map(function (p) { return { pool: p.pool, symbol: p.symbol, project: p.project, chain: p.chain, apy: poolTotalApy(p) }; }),
         blendedApy: rawApy, effectiveApy: apy,
-        projection: projection,
+        projection: archetype === 'growth' ? projection : null,
+        fundingMode: propFundingMode,
+        capital: propCapital,
+        deadline: propDeadline,
+        archetype: archetype,
+        target: targetAmt,
+        hero: buildPlanHero({ archetype: archetype, fundingMode: propFundingMode, capital: propCapital, monthly: monthly, years: years || 10, target: targetAmt, apy: apy }),
         savedAt: new Date().toISOString()
       });
-    }, [curated, monthly, years, persona, apy]);
+    }, [curated, monthly, years, persona, apy, goal, propCapital, propFundingMode, propDeadline]);
 
     // Top pool for CTA
     var topPool = curated[0];
@@ -1597,19 +1600,90 @@
 
     var liveApys = live.filter(function (r) { return r.liveApy != null; }).map(function (r) { return r.liveApy; });
     var newBlended = liveApys.length ? median(liveApys) : plan.blendedApy;
-    var newProjection = futureValue(plan.monthly, newBlended, plan.years);
 
+    // Apply degen haircut if applicable (pre-existing honesty bug now fixed)
+    var personaKey = TEMPERAMENT_TO_PERSONA[plan.temperament] || plan.persona;
+    var newEffective = personaKey === 'degen' ? newBlended / 3 : newBlended;
+
+    var newProjection = futureValue(plan.monthly, newEffective, plan.years);
+
+    // Derive archetype from persisted field or recompute from goal
+    var arch = plan.archetype || goalArchetype(plan.goal);
+
+    // Archetype-aware status pill
     var status, statusClass;
-    if (!poolsReady) { status = t('reportUpdating'); statusClass = 'is-ontrack'; }
-    else if (newProjection > plan.projection * 1.02) { status = t('reportAhead'); statusClass = 'is-ahead'; }
-    else if (newProjection < plan.projection * 0.98) { status = t('reportDipped'); statusClass = 'is-dipped'; }
-    else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+    if (!poolsReady) {
+      status = t('reportUpdating'); statusClass = 'is-ontrack';
+    } else if (arch === 'growth') {
+      if (newProjection > (plan.projection || 0) * 1.02) { status = t('reportAhead'); statusClass = 'is-ahead'; }
+      else if (newProjection < (plan.projection || 0) * 0.98) { status = t('reportDipped'); statusClass = 'is-dipped'; }
+      else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+    } else if (arch === 'target') {
+      var heroMonths = plan.hero && plan.hero.months != null ? plan.hero.months : null;
+      var curM;
+      if (plan.capital && plan.fundingMode === 'capital') {
+        curM = monthsUntilYieldCoversTarget(plan.capital, newEffective, plan.target);
+      } else {
+        curM = timeToTarget(plan.target, plan.monthly, newEffective);
+      }
+      if (heroMonths != null && isFinite(curM)) {
+        if (curM + 0.5 < heroMonths) { status = t('reportAhead'); statusClass = 'is-ahead'; }
+        else if (curM - 0.5 > heroMonths) { status = t('reportDipped'); statusClass = 'is-dipped'; }
+        else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+      } else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+    } else if (arch === 'subscription') {
+      var heroForever = plan.hero && plan.hero.foreverAmt != null ? plan.hero.foreverAmt : null;
+      var curFn = foreverNumber(plan.target || 20, newEffective);
+      if (heroForever != null && isFinite(curFn) && isFinite(heroForever)) {
+        if (curFn < heroForever) { status = t('reportAhead'); statusClass = 'is-ahead'; }
+        else if (curFn > heroForever) { status = t('reportDipped'); statusClass = 'is-dipped'; }
+        else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+      } else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+    } else {
+      status = t('reportOnTrack'); statusClass = 'is-ontrack';
+    }
 
     var dateStr = '';
     try { dateStr = new Date(plan.savedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }); }
     catch (e7) { dateStr = plan.savedAt || ''; }
 
     var stage = gardenStage(plan);
+
+    // Build archetype-aware projection block
+    var projectionBlock;
+    if (arch === 'growth') {
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' }, t('reportProjectionNow', formatUsdRounded(newProjection))),
+        e('div', { className: 'gp-report-was' }, t('reportProjectionWas', formatUsdRounded(plan.projection)))
+      );
+    } else if (arch === 'target' && plan.capital && plan.fundingMode === 'capital') {
+      var mFlip = monthsUntilYieldCoversTarget(plan.capital, newEffective, plan.target);
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' }, t('heroTargetFlip', formatUsdRounded(plan.capital), goalLabel(t, plan.goal), monthsFromNow(mFlip) || '—')),
+        e('div', { className: 'gp-report-was' }, t('heroTargetFlipKeep', formatUsdRounded(plan.capital)))
+      );
+    } else if (arch === 'target') {
+      var mTarget = timeToTarget(plan.target, plan.monthly, newEffective);
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' }, t('heroTarget', goalLabel(t, plan.goal), monthsFromNow(mTarget) || '—'))
+      );
+    } else if (arch === 'subscription') {
+      var fnSub = foreverNumber(plan.target || 20, newEffective);
+      var pctSub = (plan.capital && isFinite(fnSub) && fnSub > 0) ? Math.min(100, Math.round(plan.capital / fnSub * 100)) : 0;
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' },
+          pctSub >= 100
+            ? t('subHeroWin', goalLabel(t, plan.goal))
+            : t('subHeroProgress', pctSub, goalLabel(t, plan.goal))
+        ),
+        isFinite(fnSub) ? e('div', { className: 'gp-report-was' }, formatUsdRounded(fnSub) + ' plants it forever') : null
+      );
+    } else {
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' }, t('reportProjectionNow', formatUsdRounded(newProjection))),
+        e('div', { className: 'gp-report-was' }, t('reportProjectionWas', formatUsdRounded(plan.projection)))
+      );
+    }
 
     return e('div', { className: 'gp-report gp-animate-in' },
       e('div', { className: 'gp-report-head' },
@@ -1618,10 +1692,7 @@
         e('div', { className: 'gp-report-status ' + statusClass }, status)
       ),
 
-      e('div', { className: 'gp-report-projection' },
-        e('div', { className: 'gp-report-now' }, t('reportProjectionNow', formatUsdRounded(newProjection))),
-        e('div', { className: 'gp-report-was' }, t('reportProjectionWas', formatUsdRounded(plan.projection)))
-      ),
+      projectionBlock,
 
       e('div', { className: 'gp-report-pools' },
         live.map(function (r) {
@@ -1955,6 +2026,19 @@
     // Horizon chips — max 10 years per spec §2
     var horizonChips = [1, 2, 3, 5, 10];
 
+    function restoreFromPlan(plan) {
+      var p = TEMPERAMENT_TO_PERSONA[plan.temperament] || plan.persona || 'stable';
+      setAnswers({
+        goal: plan.goal,
+        monthly: plan.monthly || null,
+        years: plan.years || null,
+        persona: p,
+        capital: plan.capital || null,
+        fundingMode: plan.fundingMode || (plan.capital ? 'capital' : (plan.monthly ? 'monthly' : null)),
+        deadline: plan.deadline || null
+      });
+    }
+
     var content;
     if (mode === 'report' && savedPlan) {
       // P0 FIX: Show report immediately — don't block on API load.
@@ -1962,8 +2046,7 @@
       content = e(GardenReport, {
         t: t, plan: savedPlan, pools: pools, poolsReady: loadStatus === 'ready',
         onTend: function () {
-          var p = TEMPERAMENT_TO_PERSONA[savedPlan.temperament] || savedPlan.persona || 'stable';
-          setAnswers({ goal: savedPlan.goal, monthly: savedPlan.monthly, years: savedPlan.years, persona: p });
+          restoreFromPlan(savedPlan);
           setMode('convo'); setStep('bloom');
         },
         onFresh: restart
