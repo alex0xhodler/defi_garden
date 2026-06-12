@@ -165,23 +165,23 @@ const PERSONAS = [
     name: 'Tomoko',
     emoji: '🌳',
     title: "Tomoko's Retirement Garden",
-    tagline: 'A pharmacist in Osaka, $1,000 a month, and 25 quiet years of compounding.',
+    tagline: 'A pharmacist in Osaka, $1,000 a month, and 10 patient years of compounding.',
     seoTitle: "Tomoko's Retirement Garden — A DeFi Yield Story | DeFi Garden",
     seoDescription: 'How a 51-year-old pharmacist plans a $1,000-a-month retirement garden with large stablecoin pools — live rates, honest risks, and the real math. A fictional story for education, not advice.',
     goalLabel: 'Retirement 🌳',
     monthly: 1000,
-    years: 25,
+    years: 10,
     temperament: 'sleep',
-    temperamentLabel: 'Sleep well — stablecoin pools only, $50M+ TVL',
+    temperamentLabel: 'Established Stablecoins — stablecoin pools only, $50M+ TVL',
     intro: [
       'Tomoko is 51. She has spent twenty-six years as a hospital pharmacist in Osaka, and she plans her money the way she checks prescriptions: slowly, twice.',
-      'Her bank pays 0.3% on savings. At that rate, the ¥150,000 (about $1,000) she sets aside every month would spend the next 25 years doing almost nothing. That bothered her more than any market headline ever has.'
+      'Her bank pays 0.3% on savings. At that rate, the ¥150,000 (about $1,000) she sets aside every month would spend the next 10 years doing almost nothing. That bothered her more than any market headline ever has.'
     ],
     discoveryHeading: 'The discovery moment',
     discovery: [
       'It was her nephew, home for New Year, who showed her a yield screen on his phone — every rate pulled live from public blockchain data, refreshed daily, nothing promised.',
       '“So the interest rate is just… visible? For everyone?” she asked. He nodded. What won her over was not the rate. It was that she could check it herself, any morning, the way she checks anything else she is responsible for.',
-      'Tomoko set her own rules before depositing anything: dollar-pegged stablecoins only, and only pools holding more than $50 million — big, boring, and busy. The Garden Planner calls that temperament “Sleep well”, which she found accurate.'
+      'Tomoko set her own rules before depositing anything: dollar-pegged stablecoins only, and only pools holding more than $50 million — big, boring, and busy. The Garden Planner calls that strategy “Established Stablecoins”, which she found accurate. And in DeFi, 10 years is a full horizon — plenty of time for compounding to work.'
     ],
     riskIntro: 'Tomoko read this part twice. You should too — this is what can genuinely go wrong:',
     ctaHeading: 'Plant a garden like Tomoko’s',
@@ -191,42 +191,42 @@ const PERSONAS = [
     slug: 'kevin',
     name: 'Kevin',
     emoji: '🌱',
-    title: "Kevin's Just-Grow-It Garden",
-    tagline: 'A product manager in Austin, $500 a month, 13 years — alongside his 401(k), never instead of it.',
-    seoTitle: "Kevin's Just-Grow-It Garden — A DeFi Yield Story | DeFi Garden",
-    seoDescription: 'A 34-year-old with a healthy 401(k) plants a separate $500-a-month DeFi garden for 13 years. The questions he asked, the honest risks, and the real math. A fictional story for education, not advice.',
-    goalLabel: 'Just grow it 🌱',
+    title: "Kevin's Down-Payment Garden",
+    tagline: 'A product manager in Austin, $500 a month, 10 years — building toward a first home.',
+    seoTitle: "Kevin's Down-Payment Garden — A DeFi Yield Story | DeFi Garden",
+    seoDescription: 'A 34-year-old product manager grows a $500-a-month DeFi garden for 10 years toward a home down payment — with RWA pools. The questions he asked, honest risks, and real math. A fictional story for education, not advice.',
+    goalLabel: 'A home 🏡',
     monthly: 500,
-    years: 13,
+    years: 10,
     temperament: 'balanced',
-    temperamentLabel: 'Balanced — $10M+ TVL, APY capped at 50%',
+    temperamentLabel: 'RWA & Fresh Entries — tokenized treasuries and credible newer pools, $10M+ TVL',
     intro: [
       'Kevin is 34, a product manager in Austin. He maxes his employer’s 401(k) match every January and never touches it. This story is not about that money.',
-      'It is about the other $500 a month — the amount left over after rent, the dog, and one ambitious smoker grill. Kevin wanted that money somewhere he could actually watch, with rates he could verify himself, for the 13 years until his daughter starts college.'
+      'It is about the other $500 a month — the amount left over after rent, the dog, and one ambitious smoker grill. Kevin and his partner have a goal: a down payment on a first home in roughly 10 years. He wanted that money somewhere he could actually watch, with rates he could verify himself.'
     ],
     discoveryHeading: 'The discovery moment',
     discovery: [
       'Kevin found DeFi the way most people do: a friend’s screenshot of a yield number that looked fake. His first instinct was to find the catch — so he went looking for the data source instead of the marketing.',
-      'What he found was a public, live feed of thousands of pools with their rates and deposits visible to anyone. No account manager, no glossy PDF. He filtered out everything small or extreme: pools holding at least $10 million, yields under 50%. The planner calls that “Balanced”.'
+      'What he found was a public, live feed of thousands of pools with their rates and deposits visible to anyone. No account manager, no glossy PDF. He found tokenized treasury pools and credible newer protocols with audited contracts — real-world assets moving onchain. The planner calls that strategy “RWA & Fresh Entries”.'
     ],
-    faqHeading: 'The 401(k) questions Kevin asked',
+    faqHeading: 'The home-goal questions Kevin asked',
     faq: [
       {
-        q: '“Is this a replacement for my 401(k)?”',
-        a: 'No. A 401(k) has an employer match, tax advantages, and decades of legal protection. A DeFi pool has none of those. Kevin treats his garden as a separate, smaller experiment — money he could afford to lose without changing a single life plan.'
+        q: '“Is DeFi safe enough for a down-payment fund?”',
+        a: 'Kevin asked this carefully. His answer: it depends on your timeline and risk tolerance. He sized the DeFi garden as one part of his plan — alongside regular savings — not the whole of it. He can afford some volatility because he has 10 years and uses stablecoin-adjacent pools.'
       },
       {
-        q: '“Should I move retirement money into DeFi?”',
-        a: 'Nothing on this page suggests that, and Kevin didn’t. He left his 401(k) exactly where it was. His garden is funded only by new monthly savings that were previously sitting in a 0.5% account.'
+        q: '“What if rates drop over those 10 years?”',
+        a: 'They probably will at some point. Kevin used the planner’s conservative projections and built a realistic model. He is not counting on today’s rates holding — just on beating a 0.5% savings account over time.'
       },
       {
-        q: '“Then why bother at all?”',
-        a: 'Because the in-between money — too far from retirement to lock away, too important to ignore — was earning almost nothing. Kevin wanted it visible, liquid, and working, and he wanted to understand exactly what it was doing.'
+        q: '“Why RWA pools specifically?”',
+        a: 'Because tokenized treasury yields and real-world-asset protocols connect to real cashflows. Kevin liked that the underlying yield source was understandable: T-bills, private credit, corporate debt. Different risks than pure DeFi, but risks he could name.'
       }
     ],
     riskIntro: 'Kevin’s rule: never deposit into anything whose failure modes you can’t describe out loud. Here are his, out loud:',
     ctaHeading: 'Plant a garden like Kevin’s',
-    ctaText: 'Start from Kevin’s answers — $500 a month, 13 years, balanced — and adjust until the plan feels like yours.'
+    ctaText: 'Start from Kevin’s answers — $500 a month, 10 years, RWA & Fresh Entries — and adjust until the plan feels like yours.'
   },
   {
     slug: 'lucia',
@@ -248,11 +248,11 @@ const PERSONAS = [
     discoveryHeading: 'The discovery moment',
     discovery: [
       'A studio-mate mentioned she kept her buffer in a stablecoin lending pool — “like a savings account, except I can see the interest rate move, and I can leave whenever I want.” Lucia was skeptical for a month. Then she started checking the live rates herself, every morning, like weather.',
-      'The rule she landed on was strict: dollar-pegged stablecoins only, pools above $50 million, nothing exotic. An umbrella fund must be boring and reachable — growth is the bonus, not the point. The planner calls this temperament “Sleep well”.'
+      'The rule she landed on was strict: dollar-pegged stablecoins only, pools above $50 million, nothing exotic. An umbrella fund must be boring and reachable — growth is the bonus, not the point. The planner calls this strategy “Established Stablecoins”.'
     ],
     riskIntro: 'An emergency fund has one job: existing when things go wrong. So Lucia weighed what could go wrong with the fund itself:',
     ctaHeading: 'Plant a garden like Lucia’s',
-    ctaText: 'Start from Lucia’s answers — $300 a month, 10 years, sleep-well — and shape the plan around your own weather.'
+    ctaText: 'Start from Lucia’s answers — $300 a month, 10 years, Established Stablecoins — and shape the plan around your own weather.'
   }
 ];
 
