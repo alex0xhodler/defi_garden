@@ -829,10 +829,14 @@
   function Chips(props) {
     return e('div', { className: 'gp-chips' + (props.wrap ? ' gp-chips-wrap' : '') },
       props.options.map(function (opt) {
+        var hasHint = opt.hint != null;
+        var isFeatured = !!opt.featured;
         return e('button', {
           key: opt.value,
           type: 'button',
-          className: 'gp-chip' + (props.selected === opt.value ? ' is-selected' : ''),
+          className: 'gp-chip' + (props.selected === opt.value ? ' is-selected' : '') +
+            (hasHint ? ' gp-chip-has-hint' : '') +
+            (isFeatured ? ' gp-chip-featured' : ''),
           onClick: function () { props.onPick(opt.value); },
           onMouseEnter: props.onHover ? function() { props.onHover(opt.value); } : null,
           onFocus: props.onHover ? function() { props.onHover(opt.value); } : null,
@@ -840,7 +844,8 @@
           onBlur: props.onHoverEnd ? function() { props.onHoverEnd(); } : null
         },
           opt.emoji ? e('span', { className: 'gp-chip-emoji' }, opt.emoji) : null,
-          e('span', null, opt.label)
+          e('span', null, opt.label),
+          hasHint ? e('span', { className: 'gp-chip-hint' }, opt.hint) : null
         );
       })
     );
@@ -1798,6 +1803,16 @@
       return function () { alive = false; };
     }, []);
 
+    // A1: stable guidance APY for step-2 chip hints (pinned to 'stable' persona)
+    var stableGuidanceCurated = useMemo(function () {
+      return loadStatus === 'ready' ? curatePools(pools, 'stable', 3) : [];
+    }, [pools, loadStatus]);
+    var stableGuidanceApy = useMemo(function () {
+      return stableGuidanceCurated.length ? blendedApy(stableGuidanceCurated) : null;
+    }, [stableGuidanceCurated]);
+    var guidanceApy = stableGuidanceApy || 5.5;
+    var guidanceIsIllustrative = !stableGuidanceApy;
+
     // URL flags
     var urlParams = useMemo(function () { return new URLSearchParams(window.location.search); }, []);
     var presetKey = urlParams.get('preset');
@@ -2082,21 +2097,103 @@
         );
       } else if (step === 'funding-mode') {
         var capitalChips = [1000, 2500, 5000, 10000, 25000];
+        var goalDef3 = goalById(answers.goal);
+        var goalTarget3 = goalDef3 ? goalDef3.target : null;
+        var arch3 = goalArchetype(answers.goal);
+
+        var goalContextLine = null;
+        if (arch3 === 'subscription' && goalTarget3) {
+          var fn3 = foreverNumber(goalTarget3, guidanceApy);
+          if (isFinite(fn3)) {
+            var contextText = t('fundingContextSub', goalLabel(t, answers.goal), formatUsd(goalTarget3) + '/mo', formatApy(guidanceApy), formatUsdRounded(fn3));
+            if (guidanceIsIllustrative) {
+              contextText = contextText + ' ' + t('fundingContextIllustrative');
+            }
+            goalContextLine = e('p', { className: 'gp-goal-context' }, contextText);
+          }
+        } else if (arch3 === 'target' && goalTarget3) {
+          goalContextLine = e('p', { className: 'gp-goal-context' }, t('fundingContextTarget', goalLabel(t, answers.goal), formatUsd(goalTarget3)));
+        }
+
+        var capHints = chipHintsFor(capitalChips, {
+          archetype: arch3,
+          target: goalTarget3,
+          apy: guidanceApy,
+          mode: 'capital'
+        });
+        var capChipOptions = capHints.map(function (h) {
+          var hintLabel = null;
+          if (h.hint === 'forever' || h.forever) {
+            hintLabel = t('chipHintForever');
+          } else if (h.hint && h.hint.indexOf('pct:') === 0) {
+            var pct = parseInt(h.hint.slice(4), 10);
+            hintLabel = t('chipHintPctToForever', pct);
+          } else if (h.pct != null && !h.forever) {
+            hintLabel = t('chipHintPctToForever', h.pct);
+          } else if (h.hint && h.hint.indexOf('months:') === 0) {
+            var mths2 = parseInt(h.hint.slice(7), 10);
+            var dateStr2 = monthsFromNow(mths2);
+            hintLabel = dateStr2 ? t('chipHintYoursBy', dateStr2) : null;
+          } else if (h.months != null && isFinite(h.months)) {
+            var dateStr3 = monthsFromNow(h.months);
+            hintLabel = dateStr3 ? t('chipHintYoursBy', dateStr3) : null;
+          }
+          return { value: h.value, label: formatUsdRounded(h.value), hint: hintLabel, featured: h.featured };
+        });
+
+        var monthlyChipVals = [10, 25, 50, 100];
+        var monthlyHints = monthlyChipVals.map(function (v) {
+          var hint = null;
+          if (arch3 === 'subscription' && goalTarget3 && guidanceApy > 0) {
+            var fnSub = foreverNumber(goalTarget3, guidanceApy);
+            if (isFinite(fnSub)) {
+              var mthsSub = timeToTarget(fnSub, v, guidanceApy);
+              if (isFinite(mthsSub)) {
+                var dateSub = monthsFromNow(mthsSub);
+                if (dateSub) hint = t('chipHintForeverBy', dateSub);
+              }
+            }
+          } else if (arch3 === 'target' && goalTarget3 && guidanceApy > 0) {
+            var mthsTgt = timeToTarget(goalTarget3, v, guidanceApy);
+            if (isFinite(mthsTgt)) {
+              var dateTgt = monthsFromNow(mthsTgt);
+              if (dateTgt) hint = t('chipHintYoursBy', dateTgt);
+            }
+          }
+          return { value: v, label: formatUsd(v) + '/mo', hint: hint };
+        });
+
         stepBubble = e(Bubble, { key: 'funding-mode' },
           e('p', { className: 'gp-question' }, t('fundingModeQuestion')),
-          e(Chips, {
-            selected: fmSelected, wrap: true,
-            options: [
-              { value: 'capital', label: '💰 ' + t('fundingCapitalCard') },
-              { value: 'monthly', label: '📅 ' + t('fundingMonthlyCard') }
-            ],
-            onPick: function (v) { setFmSelected(v === fmSelected ? null : v); }
-          }),
-          fmSelected === 'capital' ? e('div', { className: 'gp-funding-amount-picker' },
+          goalContextLine,
+          e('div', { className: 'gp-temp-cards gp-funding-mode-cards' },
+            e('button', {
+              type: 'button',
+              className: 'gp-temp-card' + (fmSelected === 'capital' ? ' is-selected' : ''),
+              onClick: function () { setFmSelected(fmSelected === 'capital' ? null : 'capital'); }
+            },
+              e('div', { className: 'gp-temp-emoji' }, '💰'),
+              e('div', { className: 'gp-temp-title' }, t('fundingCapitalCard')),
+              e('div', { className: 'gp-temp-desc' }, t('fundingCapitalSubline'))
+            ),
+            e('button', {
+              type: 'button',
+              className: 'gp-temp-card' + (fmSelected === 'monthly' ? ' is-selected' : ''),
+              onClick: function () { setFmSelected(fmSelected === 'monthly' ? null : 'monthly'); }
+            },
+              e('div', { className: 'gp-temp-emoji' }, '📅'),
+              e('div', { className: 'gp-temp-title' }, t('fundingMonthlyCard')),
+              e('div', { className: 'gp-temp-desc' }, t('fundingMonthlySubline'))
+            )
+          ),
+          e('div', {
+            className: 'gp-funding-amount-picker' + (fmSelected === 'capital' ? ' gp-funding-picker-open' : ''),
+            style: fmSelected === 'capital' ? {} : { display: 'none' }
+          },
             e('p', { className: 'gp-question', style: { marginTop: '12px', fontSize: '1rem' } }, t('fundingCapitalPrompt')),
             e(Chips, {
               selected: null, wrap: true,
-              options: capitalChips.map(function (v) { return { value: v, label: formatUsdRounded(v) }; }),
+              options: capChipOptions,
               onPick: function (v) { pickFundingMode('capital', v); }
             }),
             e('form', { className: 'gp-freetext gp-money', onSubmit: submitCustomCapital },
@@ -2108,11 +2205,14 @@
               }),
               e('button', { type: 'submit', className: 'gp-text-send', 'aria-label': 'Submit' }, '→')
             )
-          ) : null,
-          fmSelected === 'monthly' ? e('div', { className: 'gp-funding-amount-picker' },
+          ),
+          e('div', {
+            className: 'gp-funding-amount-picker' + (fmSelected === 'monthly' ? ' gp-funding-picker-open' : ''),
+            style: fmSelected === 'monthly' ? {} : { display: 'none' }
+          },
             e(Chips, {
               selected: null, wrap: true,
-              options: [10, 25, 50, 100].map(function (v) { return { value: v, label: formatUsd(v) + '/mo' }; }),
+              options: monthlyHints,
               onPick: function (v) { pickFundingMode('monthly', v); }
             }),
             e('form', { className: 'gp-freetext gp-money', onSubmit: submitCustomMonthly },
@@ -2124,7 +2224,7 @@
               }),
               e('button', { type: 'submit', className: 'gp-text-send', 'aria-label': 'Submit' }, '→')
             )
-          ) : null
+          )
         );
       } else if (step === 'deadline') {
         var now = new Date();

@@ -303,7 +303,18 @@ const translations = {
       shareSubWin: (goal) => `My yield pays my ${goal} now 🤖💸`,
 
       // v3 — plan strip
-      stripCapital: (amt) => `${amt} capital`
+      stripCapital: (amt) => `${amt} capital`,
+
+      // v3.1 — funding context + chip hints
+      fundingContextSub: (goal, bill, apy, foreverAmt) => `${goal} costs ${bill}. At ${apy}, you'd need ≈${foreverAmt} parked to cover it forever — and keep your money.`,
+      fundingContextTarget: (goal, price) => `${goal} costs ${price}. Park enough capital and the yield buys it — you keep the money.`,
+      fundingContextIllustrative: "(illustrative 5.5% — live rates loading)",
+      fundingCapitalSubline: "Park a lump sum — the yield pays, you keep the money",
+      fundingMonthlySubline: "Grow into it bit by bit",
+      chipHintForever: "forever ✓",
+      chipHintPctToForever: (pct) => `${pct}% to forever`,
+      chipHintYoursBy: (date) => `yours by ${date}`,
+      chipHintForeverBy: (date) => `forever by ${date}`
     }
   },
 
@@ -594,7 +605,18 @@ const translations = {
       shareSubWin: (goal) => `이제 수익이 내 ${goal}을 내줘요 🤖💸`,
 
       // v3 — plan strip
-      stripCapital: (amt) => `${amt} 원금`
+      stripCapital: (amt) => `${amt} 원금`,
+
+      // v3.1 — funding context + chip hints
+      fundingContextSub: (goal, bill, apy, foreverAmt) => `${goal}은 ${bill}이에요. ${apy} 수익률에서 ${foreverAmt}을 굴리면 영원히 낼 수 있어요 — 원금은 그대로예요.`,
+      fundingContextTarget: (goal, price) => `${goal}은 ${price}예요. 충분한 자본을 굴리면 수익이 사줘요 — 원금은 남아요.`,
+      fundingContextIllustrative: "(예시 5.5% — 실시간 수익률 로딩 중)",
+      fundingCapitalSubline: "목돈을 굴려요 — 수익이 내주고, 원금은 그대로",
+      fundingMonthlySubline: "매달 조금씩 키워가요",
+      chipHintForever: "영구 달성 ✓",
+      chipHintPctToForever: (pct) => `달성까지 ${pct}%`,
+      chipHintYoursBy: (date) => `${date}에 내 것`,
+      chipHintForeverBy: (date) => `${date}에 영구 달성`
     }
   }
 };
