@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Hemi" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Hemi&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Hemi" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,16 +15,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VCRED&amp;chain=Hemi" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VCRED&amp;chain=Hemi&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VCRED&amp;chain=Hemi" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.57</priority>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT&amp;chain=Hemi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Hemi" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Hemi&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Hemi" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USDC.E&amp;chain=Hemi</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC.E&amp;chain=Hemi" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC.E&amp;chain=Hemi&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC.E&amp;chain=Hemi" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.73</priority>
   </url>
@@ -33,43 +42,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HEMI&amp;chain=Hemi" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HEMI&amp;chain=Hemi&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HEMI&amp;chain=Hemi" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.58</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDT&amp;chain=Hemi</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Hemi" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Hemi&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Hemi" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=HEMIBTC&amp;chain=Hemi</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HEMIBTC&amp;chain=Hemi" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HEMIBTC&amp;chain=Hemi&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HEMIBTC&amp;chain=Hemi" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.69</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WBTC&amp;chain=Hemi</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Hemi" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Hemi&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Hemi" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WETH&amp;chain=Hemi</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Hemi" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Hemi&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Hemi" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WBTC&amp;chain=Hemi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Hemi" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Hemi&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Hemi" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -78,8 +78,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MAX&amp;chain=Hemi" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MAX&amp;chain=Hemi&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MAX&amp;chain=Hemi" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.47</priority>
+    <priority>0.42</priority>
   </url>
 </urlset>

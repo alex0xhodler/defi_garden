@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,16 +15,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NICP&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NICP&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NICP&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.67</priority>
+    <priority>0.68</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=CKUSDC&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CKUSDC&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CKUSDC&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CKUSDC&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.58</priority>
   </url>
@@ -33,7 +33,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ICP&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ICP&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ICP&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.64</priority>
   </url>
@@ -42,7 +42,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTC&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTC&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTC&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.88</priority>
   </url>
@@ -51,7 +51,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -60,7 +60,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -69,7 +69,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VCHF&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VCHF&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VCHF&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.60</priority>
   </url>
@@ -78,25 +78,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CKETH&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CKETH&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CKETH&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.52</priority>
+    <priority>0.53</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=CKBTC&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CKBTC&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CKBTC&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CKBTC&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.55</priority>
+    <priority>0.56</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GLDT&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GLDT&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GLDT&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GLDT&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.53</priority>
   </url>
@@ -105,7 +105,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CKUSDT&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CKUSDT&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CKUSDT&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.53</priority>
   </url>
@@ -114,7 +114,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ICS&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ICS&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ICS&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
@@ -123,43 +123,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CHAT&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CHAT&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CHAT&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.52</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=EXE&amp;chain=ICP</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EXE&amp;chain=ICP" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EXE&amp;chain=ICP&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EXE&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.49</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=CLOUD&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CLOUD&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CLOUD&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CLOUD&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=MOTOKO&amp;chain=ICP</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MOTOKO&amp;chain=ICP" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MOTOKO&amp;chain=ICP&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MOTOKO&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=EXE&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EXE&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EXE&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EXE&amp;chain=ICP" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.47</priority>
+    <priority>0.48</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SNEED&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SNEED&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SNEED&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SNEED&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.47</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MOTOKO&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MOTOKO&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MOTOKO&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MOTOKO&amp;chain=ICP" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.47</priority>
   </url>
@@ -168,106 +168,106 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BOB&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BOB&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BOB&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.59</priority>
+    <priority>0.58</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PANDA&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PANDA&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PANDA&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PANDA&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.46</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=DEAD&amp;chain=ICP</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DEAD&amp;chain=ICP" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DEAD&amp;chain=ICP&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DEAD&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.51</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=MAPTF&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MAPTF&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MAPTF&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MAPTF&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.46</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=IDOGE&amp;chain=ICP</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IDOGE&amp;chain=ICP" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IDOGE&amp;chain=ICP&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IDOGE&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=OHSHII&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OHSHII&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OHSHII&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OHSHII&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.44</priority>
+    <priority>0.45</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DEAD&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DEAD&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DEAD&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DEAD&amp;chain=ICP" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=IDOGE&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IDOGE&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IDOGE&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IDOGE&amp;chain=ICP" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=KINIC&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KINIC&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KINIC&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KINIC&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.44</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=FUNNAI&amp;chain=ICP</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FUNNAI&amp;chain=ICP" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FUNNAI&amp;chain=ICP&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FUNNAI&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.43</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=OGY&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OGY&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OGY&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OGY&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.42</priority>
+    <priority>0.43</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WTN&amp;chain=ICP</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WTN&amp;chain=ICP" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WTN&amp;chain=ICP&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WTN&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=FUNNAI&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FUNNAI&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FUNNAI&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FUNNAI&amp;chain=ICP" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.42</priority>
+    <priority>0.43</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TACO&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TACO&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TACO&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TACO&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WTN&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WTN&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WTN&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WTN&amp;chain=ICP" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.42</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=CLOWN&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CLOWN&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CLOWN&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CLOWN&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.42</priority>
   </url>
@@ -276,7 +276,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ICFC&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ICFC&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ICFC&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DVINITY&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DVINITY&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DVINITY&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DVINITY&amp;chain=ICP" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.41</priority>
   </url>
@@ -285,25 +294,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CLAY&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CLAY&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CLAY&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.44</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=DVINITY&amp;chain=ICP</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DVINITY&amp;chain=ICP" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DVINITY&amp;chain=ICP&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DVINITY&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.41</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=ICX&amp;chain=ICP</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ICX&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ICX&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ICX&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.41</priority>
   </url>
@@ -312,7 +312,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NAK&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NAK&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NAK&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.41</priority>
   </url>
@@ -321,7 +321,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CICP&amp;chain=ICP" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CICP&amp;chain=ICP&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CICP&amp;chain=ICP" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.40</priority>
   </url>

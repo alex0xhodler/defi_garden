@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VDOT&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VDOT&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VDOT&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.72</priority>
   </url>
@@ -24,7 +24,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ADOT&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ADOT&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ADOT&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.68</priority>
   </url>
@@ -33,7 +33,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AETH&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AETH&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AETH&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.65</priority>
   </url>
@@ -42,7 +42,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTETH&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTETH&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSTETH&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -51,52 +51,52 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HOLLAR&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HOLLAR&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HOLLAR&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.70</priority>
+    <priority>0.69</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AUSDT&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AUSDT&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AUSDT&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AUSDT&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.66</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=AUSDC&amp;chain=Polkadot</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AUSDC&amp;chain=Polkadot" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AUSDC&amp;chain=Polkadot&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AUSDC&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.67</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TBTC&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TBTC&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TBTC&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TBTC&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.83</priority>
+    <priority>0.84</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AUSDC&amp;chain=Polkadot</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AUSDC&amp;chain=Polkadot" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AUSDC&amp;chain=Polkadot&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AUSDC&amp;chain=Polkadot" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GETH&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GETH&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GETH&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GETH&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.63</priority>
+    <priority>0.72</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USDC&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -105,16 +105,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HDX&amp;chain=Polkadot</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HDX&amp;chain=Polkadot" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HDX&amp;chain=Polkadot&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HDX&amp;chain=Polkadot" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PRIME&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PRIME&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PRIME&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PRIME&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.88</priority>
   </url>
@@ -123,43 +132,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AEURC&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AEURC&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AEURC&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.59</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=HDX&amp;chain=Polkadot</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HDX&amp;chain=Polkadot" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HDX&amp;chain=Polkadot&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HDX&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.59</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=GSOL&amp;chain=Polkadot</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GSOL&amp;chain=Polkadot" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GSOL&amp;chain=Polkadot&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GSOL&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.57</priority>
+    <priority>0.58</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PAXG&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PAXG&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PAXG&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PAXG&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GSOL&amp;chain=Polkadot</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GSOL&amp;chain=Polkadot" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GSOL&amp;chain=Polkadot&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GSOL&amp;chain=Polkadot" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WBTC&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -168,52 +168,52 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ASTR&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ASTR&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ASTR&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.54</priority>
+    <priority>0.55</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TRAC&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TRAC&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TRAC&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TRAC&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.59</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SUSDE&amp;chain=Polkadot</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDE&amp;chain=Polkadot" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDE&amp;chain=Polkadot&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDE&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=KSM&amp;chain=Polkadot</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KSM&amp;chain=Polkadot" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KSM&amp;chain=Polkadot&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KSM&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.53</priority>
+    <priority>0.60</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AAVE&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVE&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVE&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVE&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.79</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KSM&amp;chain=Polkadot</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KSM&amp;chain=Polkadot" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KSM&amp;chain=Polkadot&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KSM&amp;chain=Polkadot" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.54</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUSDE&amp;chain=Polkadot</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDE&amp;chain=Polkadot" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDE&amp;chain=Polkadot&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDE&amp;chain=Polkadot" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GLMR&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GLMR&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GLMR&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GLMR&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.53</priority>
   </url>
@@ -222,7 +222,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -231,7 +231,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDS&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDS&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDS&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -240,43 +240,52 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUI&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUI&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUI&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SKY&amp;chain=Polkadot</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SKY&amp;chain=Polkadot" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SKY&amp;chain=Polkadot&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SKY&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=APYUSD&amp;chain=Polkadot</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=APYUSD&amp;chain=Polkadot" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=APYUSD&amp;chain=Polkadot&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=APYUSD&amp;chain=Polkadot" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.71</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=LDO&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LDO&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LDO&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LDO&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.63</priority>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SKY&amp;chain=Polkadot</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SKY&amp;chain=Polkadot" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SKY&amp;chain=Polkadot&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SKY&amp;chain=Polkadot" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SOL&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOL&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOL&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOL&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <priority>0.81</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BNC&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BNC&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BNC&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BNC&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
@@ -285,25 +294,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LINK&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LINK&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LINK&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.81</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=APYUSD&amp;chain=Polkadot</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=APYUSD&amp;chain=Polkadot" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=APYUSD&amp;chain=Polkadot&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=APYUSD&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.79</priority>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=VASTR&amp;chain=Polkadot</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VASTR&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VASTR&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VASTR&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.57</priority>
   </url>
@@ -312,8 +312,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ENA&amp;chain=Polkadot" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ENA&amp;chain=Polkadot&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ENA&amp;chain=Polkadot" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.65</priority>
+    <priority>0.67</priority>
   </url>
 </urlset>

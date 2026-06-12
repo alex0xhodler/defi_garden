@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Bob" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Bob&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Bob" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Bob" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Bob&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Bob" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -24,7 +24,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SATUSD&amp;chain=Bob" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SATUSD&amp;chain=Bob&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SATUSD&amp;chain=Bob" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.70</priority>
   </url>
@@ -33,25 +33,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XSOLVBTC&amp;chain=Bob" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XSOLVBTC&amp;chain=Bob&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XSOLVBTC&amp;chain=Bob" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.76</priority>
+    <priority>0.77</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=STONE&amp;chain=Bob</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STONE&amp;chain=Bob" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STONE&amp;chain=Bob&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STONE&amp;chain=Bob" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.60</priority>
+    <priority>0.53</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WETH&amp;chain=Bob</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Bob" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Bob&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Bob" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -60,7 +60,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Bob" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Bob&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Bob" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -69,8 +69,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Bob" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Bob&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Bob" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.82</priority>
+    <priority>0.83</priority>
   </url>
 </urlset>

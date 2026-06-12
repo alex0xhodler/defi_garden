@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ENZOBTC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ENZOBTC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ENZOBTC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.79</priority>
   </url>
@@ -24,43 +24,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDY&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDY&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDY&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=BUCK&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BUCK&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BUCK&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BUCK&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.74</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=MBTC&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MBTC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MBTC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MBTC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BUCK&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BUCK&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BUCK&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BUCK&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=HASUI&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HASUI&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HASUI&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HASUI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.73</priority>
+    <priority>0.74</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=VSUI&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VSUI&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VSUI&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VSUI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.70</priority>
   </url>
@@ -69,7 +69,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -78,88 +78,52 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUI&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUI&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=XBTC&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XBTC&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XBTC&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XBTC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDSUI&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDSUI&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDSUI&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDSUI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.69</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=LBTC&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LBTC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LBTC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LBTC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XBTC&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XBTC&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XBTC&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XBTC&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=DEEP&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DEEP&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DEEP&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DEEP&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.66</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WAL&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAL&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAL&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAL&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=USDSUI&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDSUI&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDSUI&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDSUI&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SUIETH&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUIETH&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUIETH&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUIETH&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.63</priority>
+    <priority>0.69</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=NAVX&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NAVX&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NAVX&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NAVX&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.62</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WBTC&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=XAUM&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAUM&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAUM&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XAUM&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.63</priority>
   </url>
@@ -168,52 +132,115 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUIUSDT&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUIUSDT&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUIUSDT&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.63</priority>
+    <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=USDB&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDB&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDB&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDB&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=WBTC&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.66</priority>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WAL&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAL&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAL&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAL&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XAUM&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAUM&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAUM&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XAUM&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUIETH&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUIETH&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUIETH&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUIETH&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TRUTH&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TRUTH&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TRUTH&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TRUTH&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.60</priority>
+    <priority>0.61</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=USDT&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=USDB&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDB&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDB&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDB&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EEARN&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EEARN&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EEARN&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EEARN&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TBTC&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TBTC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TBTC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TBTC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.83</priority>
+    <priority>0.84</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TATO&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TATO&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TATO&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TATO&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HAEDAL&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HAEDAL&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HAEDAL&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HAEDAL&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ESUI&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ESUI&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ESUI&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ESUI&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HAWAL&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HAWAL&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HAWAL&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HAWAL&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.58</priority>
   </url>
@@ -222,34 +249,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CETUS&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CETUS&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CETUS&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.61</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=HAEDAL&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HAEDAL&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HAEDAL&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HAEDAL&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.59</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=EEARN&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EEARN&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EEARN&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EEARN&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=HAWAL&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HAWAL&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HAWAL&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HAWAL&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=US&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=US&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=US&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=US&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.57</priority>
   </url>
@@ -258,25 +267,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BLUE&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BLUE&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BLUE&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.58</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=US&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=US&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=US&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=US&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.57</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SUIUSDE&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUIUSDE&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUIUSDE&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUIUSDE&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.62</priority>
   </url>
@@ -285,34 +285,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=ESUI&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ESUI&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ESUI&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ESUI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.56</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=NS&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NS&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NS&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NS&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=SBETH&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SBETH&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SBETH&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SBETH&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.57</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=STSUI&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STSUI&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STSUI&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STSUI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.58</priority>
   </url>
@@ -321,7 +321,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XMN&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XMN&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XMN&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.55</priority>
   </url>
@@ -330,16 +330,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EACRED&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EACRED&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EACRED&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.56</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SBETH&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SBETH&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SBETH&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SBETH&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=NS&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NS&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NS&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NS&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ALPHA&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ALPHA&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ALPHA&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ALPHA&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HIPPO&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HIPPO&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HIPPO&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HIPPO&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.54</priority>
   </url>
@@ -348,106 +366,61 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SCA&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SCA&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SCA&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.57</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ALPHA&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ALPHA&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ALPHA&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ALPHA&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.55</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=XAGM&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAGM&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAGM&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XAGM&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.53</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=HIPPO&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HIPPO&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HIPPO&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HIPPO&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.55</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BLUB&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BLUB&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BLUB&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BLUB&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.54</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SBUSDT&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SBUSDT&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SBUSDT&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SBUSDT&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.55</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WUSDC&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WUSDC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WUSDC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WUSDC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.58</priority>
+    <priority>0.57</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SBUSDT&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SBUSDT&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SBUSDT&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SBUSDT&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WARPED&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WARPED&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WARPED&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WARPED&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.52</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ETHIRD&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETHIRD&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETHIRD&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETHIRD&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.58</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=IKA&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IKA&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IKA&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IKA&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.53</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=FDUSD&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FDUSD&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FDUSD&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FDUSD&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.68</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WETH&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -456,7 +429,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AFSUI&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AFSUI&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AFSUI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=IKA&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IKA&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IKA&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IKA&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.51</priority>
   </url>
@@ -465,133 +447,133 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FLX&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FLX&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FLX&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.53</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ZWBTC&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ZWBTC&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ZWBTC&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ZWBTC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.49</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDZ&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDZ&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDZ&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDZ&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.63</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WUSDT&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WUSDT&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WUSDT&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WUSDT&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.53</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=PANS&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PANS&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PANS&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PANS&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.53</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=LUMO&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LUMO&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LUMO&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LUMO&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.51</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=LOFI&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LOFI&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LOFI&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LOFI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.52</priority>
+    <priority>0.53</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FDUSD&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FDUSD&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FDUSD&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FDUSD&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ZWBTC&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ZWBTC&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ZWBTC&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ZWBTC&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.49</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETHIRD&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETHIRD&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETHIRD&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETHIRD&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PLSH&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PLSH&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PLSH&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PLSH&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.48</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=E4C&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=E4C&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=E4C&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=E4C&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=WUSDT&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WUSDT&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WUSDT&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WUSDT&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.48</priority>
+    <priority>0.53</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=JACKSON&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=JACKSON&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=JACKSON&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=JACKSON&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.47</priority>
+    <priority>0.48</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BUT&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BUT&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BUT&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BUT&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.47</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PANS&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PANS&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PANS&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PANS&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LUMO&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LUMO&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LUMO&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LUMO&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.51</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AUSD&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AUSD&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AUSD&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AUSD&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.83</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=TARDI&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TARDI&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TARDI&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TARDI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.46</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SOL&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOL&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOL&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOL&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <priority>0.81</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=BVS&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BVS&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BVS&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BVS&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=E4C&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=E4C&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=E4C&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=E4C&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.46</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PIGU&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PIGU&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PIGU&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PIGU&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.45</priority>
   </url>
@@ -600,25 +582,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DMC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DMC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DMC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.45</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=PIGU&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PIGU&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PIGU&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PIGU&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.45</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=UICIDE&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UICIDE&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UICIDE&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UICIDE&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.45</priority>
   </url>
@@ -627,7 +591,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STBTC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STBTC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STBTC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.72</priority>
   </url>
@@ -636,43 +600,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CHIRP&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CHIRP&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CHIRP&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.49</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=MANIFEST&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MANIFEST&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MANIFEST&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MANIFEST&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.50</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=KYLN&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KYLN&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KYLN&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KYLN&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.44</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SAIL&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAIL&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAIL&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAIL&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.44</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=FUD&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FUD&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FUD&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FUD&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.44</priority>
   </url>
@@ -681,43 +618,52 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YLAY&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YLAY&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YLAY&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MANIFEST&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MANIFEST&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MANIFEST&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MANIFEST&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SUAI&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUAI&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUAI&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUAI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.43</priority>
+    <priority>0.44</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=UICIDE&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UICIDE&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UICIDE&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UICIDE&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.44</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SSUI&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SSUI&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SSUI&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SSUI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.43</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SUICY&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUICY&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUICY&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUICY&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.43</priority>
+    <priority>0.44</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TURBOS&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TURBOS&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TURBOS&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TURBOS&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.46</priority>
   </url>
@@ -726,7 +672,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SCB&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SCB&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SCB&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.43</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SAIL&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAIL&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAIL&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAIL&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.43</priority>
   </url>
@@ -735,61 +690,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AXOL&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AXOL&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AXOL&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.45</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KYLN&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KYLN&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KYLN&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KYLN&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.43</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BTCVC&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTCVC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTCVC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTCVC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.42</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=UNI&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UNI&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UNI&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UNI&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=LIQ&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LIQ&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LIQ&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LIQ&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.60</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=MBP&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MBP&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MBP&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MBP&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.42</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=MIU&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MIU&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MIU&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MIU&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.42</priority>
+    <priority>0.61</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BITS&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BITS&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BITS&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BITS&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.42</priority>
   </url>
@@ -798,34 +735,70 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SBWBTC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SBWBTC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SBWBTC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.42</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WBNB&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBNB&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBNB&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBNB&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=BEARS&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BEARS&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BEARS&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BEARS&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.86</priority>
+    <priority>0.42</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MAGMA&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MAGMA&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MAGMA&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MAGMA&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.42</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MIU&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MIU&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MIU&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MIU&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.42</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WSOL&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSOL&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSOL&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSOL&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.85</priority>
+    <priority>0.86</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUIMON&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUIMON&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUIMON&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUIMON&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.41</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GOLF&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GOLF&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GOLF&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GOLF&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SH&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SH&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SH&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SH&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.41</priority>
   </url>
@@ -834,115 +807,52 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PYTH&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PYTH&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PYTH&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.55</priority>
+    <priority>0.56</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=MUSD&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MUSD&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MUSD&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MUSD&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.68</priority>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SETAI&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SETAI&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SETAI&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SETAI&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WEND&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WEND&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WEND&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WEND&amp;chain=Sui" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.40</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SONIC&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SONIC&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SONIC&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SONIC&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.48</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SUIMON&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUIMON&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUIMON&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUIMON&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SH&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SH&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SH&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SH&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=MAGMA&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MAGMA&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MAGMA&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MAGMA&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=PUGWIF&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PUGWIF&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PUGWIF&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PUGWIF&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ZEN&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ZEN&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ZEN&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ZEN&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=TUSK&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TUSK&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TUSK&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TUSK&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=TAKE&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TAKE&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TAKE&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TAKE&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WIN&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WIN&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WIN&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WIN&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.57</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SUIYAN&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUIYAN&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUIYAN&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUIYAN&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
+    <priority>0.49</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WWAL&amp;chain=Sui</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WWAL&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WWAL&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WWAL&amp;chain=Sui" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.40</priority>
   </url>
