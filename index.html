@@ -3,72 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
-    <title>DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains</title>
-    <meta name="description" content="Find the best DeFi yields for your tokens with DeFi Garden. Compare lending, staking, and LP rewards across 50+ protocols and all major chains. Real-time APY data from Defillama API with intelligent filtering by token, chain, TVL, and pool type.">
-    
+
+    <!-- Default title/meta for planner (bare /) — analytics pages set their own via JS -->
+    <title>DeFi Garden 🌱 | Plan your DeFi savings by goal</title>
+    <meta name="description" content="A goal-first DeFi savings planner. Tell us what you're saving for and how much you can set aside each month — we'll show what live, real pool rates could grow it into. Every number is live DefiLlama data. Education, not advice.">
+
     <!-- SEO Meta Tags -->
-    <meta name="keywords" content="DeFi, yield farming, cryptocurrency, APY, lending, staking, liquidity pools, Ethereum, Polygon, Arbitrum, Optimism, DeFi protocols, crypto yields">
+    <meta name="keywords" content="DeFi savings planner, goal-based saving, stablecoin yield, retirement DeFi, compound growth, yield farming, cryptocurrency, APY, DeFi Garden">
     <meta name="author" content="DeFi Garden">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://defigarden.app">
-    
+    <link rel="canonical" href="https://defigarden.app/">
+
     <!-- Multilingual SEO -->
     <link rel="alternate" hreflang="en" href="https://defigarden.app/">
     <link rel="alternate" hreflang="ko" href="https://defigarden.app/?lang=ko">
     <link rel="alternate" hreflang="x-default" href="https://defigarden.app/">
-    
-    <!-- Open Graph Meta Tags for Social Media Sharing -->
-    <meta property="og:title" content="DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities">
-    <meta property="og:description" content="Find the best DeFi yields for your tokens across all chains. Compare lending, staking, and LP rewards with real-time APY data from 50+ protocols.">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="DeFi Garden 🌱 | Plan Your DeFi Savings by Goal">
+    <meta property="og:description" content="Tell us what you're saving for. We'll show what live, real DeFi pool rates could grow your monthly deposits into. Every number is live data — education, not advice.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://defigarden.app">
+    <meta property="og:url" content="https://defigarden.app/">
     <meta property="og:site_name" content="DeFi Garden">
     <meta property="og:locale" content="en_US">
-    
+
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities">
-    <meta name="twitter:description" content="Find the best DeFi yields for your tokens across all chains. Compare lending, staking, and LP rewards with real-time APY data.">
+    <meta name="twitter:title" content="DeFi Garden 🌱 | Plan Your DeFi Savings by Goal">
+    <meta name="twitter:description" content="Tell us what you're saving for. We'll show what live, real DeFi pool rates could grow your monthly deposits into.">
     <meta name="twitter:creator" content="@defigarden">
-    
+
     <!-- App Icons and Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    
+
     <!-- Theme Color for Mobile Browsers -->
     <meta name="theme-color" content="#2D5A3D">
     <meta name="msapplication-TileColor" content="#2D5A3D">
-    
+
     <!-- Performance: Preload critical resources -->
     <link rel="preload" href="./fonts/FKGroteskNeue.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="https://unpkg.com/react@18/umd/react.production.min.js" as="script">
-    <link rel="preload" href="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" as="script">
     <link rel="dns-prefetch" href="//unpkg.com">
     <link rel="dns-prefetch" href="//yields.llama.fi">
-    
-    <!-- Load CSS non-blocking -->
-    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="pool-detail-styles.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
-    <noscript><link rel="stylesheet" href="pool-detail-styles.css"></noscript>
-    
+
     <script>
-        // Define process global before React loads to prevent ReferenceError
-        window.process = {
-            env: {}
-        };
+        // IA Router — runs before React loads. Zero flash. Zero double-load.
+        // ANALYTICS PARAMS: any of these mean "show the analytics app"
+        // PLANNER PARAMS:   goal/monthly/years/pace/preset/fresh = planner
+        // Bare /            = planner (new default per spec §7)
+        (function () {
+            var params = new URLSearchParams(window.location.search);
+            var ANALYTICS_PARAMS = ['token', 'chain', 'pool', 'poolTypes', 'protocols', 'minTvl', 'minApy', 'app'];
+            var needsAnalytics = ANALYTICS_PARAMS.some(function(k) { return params.has(k); });
+            window.__APP_MODE = needsAnalytics ? 'analytics' : 'planner';
+
+            // Apply saved theme before paint to avoid flash
+            window.process = { env: {} };
+            try {
+                var saved = localStorage.getItem('theme');
+                var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+                document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+            } catch (e) {}
+
+            // Update canonical/OG if analytics mode
+            if (needsAnalytics) {
+                var canon = document.querySelector('link[rel="canonical"]');
+                if (canon) canon.href = 'https://defigarden.app/' + (window.location.search || '');
+                document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
+                var desc = document.querySelector('meta[name="description"]');
+                if (desc) desc.content = 'Find the best DeFi yields for your tokens with DeFi Garden. Compare lending, staking, and LP rewards across 50+ protocols and all major chains. Real-time APY data from Defillama API.';
+            }
+        })();
     </script>
+
+    <!-- Shared CSS (always loaded) -->
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+
+    <!-- React UMD (shared) -->
     <script defer crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script defer crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script defer src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script defer src="translations.js"></script>
-    <script defer src="analytics.js"></script>
     <script async defer data-website-id="9e56d1e1-f7c1-48fd-bb9d-e6b3e0ce2a3c" src="https://enhace.defi.garden/script.js"></script>
 </head>
 <body>
+    <!-- Root mounts for both experiences; only one gets populated per load -->
     <div id="root"></div>
-    
-    <script type="text/babel" src="PoolDetail.js"></script>
-    <script type="text/babel" src="app.js"></script>
+    <div id="planner-root"></div>
+
+    <!-- Mode-conditional loaders: only one set fires per load -->
+    <script>
+        // Inline router: inject the right CSS + JS for this load
+        (function () {
+            var mode = window.__APP_MODE;
+            var head = document.head;
+
+            function addCSS(href) {
+                var l = document.createElement('link');
+                l.rel = 'stylesheet';
+                l.href = href;
+                l.media = 'print';
+                l.onload = function() { this.media = 'all'; };
+                head.appendChild(l);
+            }
+            function addScript(src, type) {
+                var s = document.createElement('script');
+                s.src = src;
+                if (type) s.setAttribute('type', type);
+                s.defer = true;
+                document.body.appendChild(s);
+            }
+
+            if (mode === 'analytics') {
+                // Analytics app: needs babel, pool-detail-styles, app.js, PoolDetail.js
+                addCSS('pool-detail-styles.css');
+                addScript('https://unpkg.com/@babel/standalone/babel.min.js');
+                addScript('analytics.js');
+                // PoolDetail.js and app.js use type="text/babel"
+                addScript('PoolDetail.js', 'text/babel');
+                addScript('app.js', 'text/babel');
+            } else {
+                // Planner: needs planner-styles, planner.js
+                addCSS('planner-styles.css');
+                addScript('planner.js');
+            }
+        })();
+    </script>
 </body>
 </html>
