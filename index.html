@@ -80,54 +80,55 @@
     <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="style.css"></noscript>
 
-    <!-- React UMD (shared) -->
+    <!-- Mode-conditional CSS: injected synchronously so it fetches in parallel -->
+    <script>
+        (function() {
+            var mode = window.__APP_MODE;
+            var head = document.head;
+            function addCSS(href) {
+                var l = document.createElement('link');
+                l.rel = 'stylesheet'; l.href = href;
+                l.media = 'print'; l.onload = function() { this.media = 'all'; };
+                head.appendChild(l);
+            }
+            if (mode === 'analytics') { addCSS('pool-detail-styles.css'); }
+            else { addCSS('planner-styles.css'); }
+        })();
+    </script>
+
+    <!-- React UMD (shared, static defer — guaranteed order after HTML parse) -->
     <script defer crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script defer crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script defer src="translations.js"></script>
     <script async defer data-website-id="9e56d1e1-f7c1-48fd-bb9d-e6b3e0ce2a3c" src="https://enhace.defi.garden/script.js"></script>
+
+    <!-- Planner script — static defer so it runs after React + translations -->
+    <script defer src="planner.js"></script>
 </head>
 <body>
     <!-- Root mounts for both experiences; only one gets populated per load -->
     <div id="root"></div>
     <div id="planner-root"></div>
 
-    <!-- Mode-conditional loaders: only one set fires per load -->
+    <!-- Analytics scripts — injected only when needed (Babel requires dynamic load) -->
     <script>
-        // Inline router: inject the right CSS + JS for this load
-        (function () {
-            var mode = window.__APP_MODE;
-            var head = document.head;
-
-            function addCSS(href) {
-                var l = document.createElement('link');
-                l.rel = 'stylesheet';
-                l.href = href;
-                l.media = 'print';
-                l.onload = function() { this.media = 'all'; };
-                head.appendChild(l);
-            }
-            function addScript(src, type) {
-                var s = document.createElement('script');
-                s.src = src;
-                if (type) s.setAttribute('type', type);
-                s.defer = true;
-                document.body.appendChild(s);
-            }
-
-            if (mode === 'analytics') {
-                // Analytics app: needs babel, pool-detail-styles, app.js, PoolDetail.js
-                addCSS('pool-detail-styles.css');
-                addScript('https://unpkg.com/@babel/standalone/babel.min.js');
+        if (window.__APP_MODE === 'analytics') {
+            (function() {
+                var head = document.head;
+                function addScript(src, type) {
+                    var s = document.createElement('script');
+                    s.src = src;
+                    if (type) s.setAttribute('type', type);
+                    document.body.appendChild(s);
+                }
+                // Inject text/babel app scripts first so Babel can find them when it loads
                 addScript('analytics.js');
-                // PoolDetail.js and app.js use type="text/babel"
                 addScript('PoolDetail.js', 'text/babel');
                 addScript('app.js', 'text/babel');
-            } else {
-                // Planner: needs planner-styles, planner.js
-                addCSS('planner-styles.css');
-                addScript('planner.js');
-            }
-        })();
+                // Babel last — it scans for type="text/babel" scripts when it loads
+                addScript('https://unpkg.com/@babel/standalone/babel.min.js');
+            })();
+        }
     </script>
 </body>
 </html>
