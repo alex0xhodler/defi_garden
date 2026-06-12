@@ -135,4 +135,88 @@ test('dailyYield zero capital returns 0', () => {
   assert.strictEqual(gp.dailyYield(0, 6), 0);
 });
 
+console.log('migratePlan');
+test('v2 monthly plan migrates to v3 with archetype and hero.kind=projection', () => {
+  const v2plan = { version: 2, goal: 'retirement', monthly: 500, years: 10, persona: 'stable', temperament: 'sleep', pools: [], blendedApy: 5, effectiveApy: 5, projection: 81939, savedAt: '2026-01-01' };
+  const result = gp.migratePlan(v2plan);
+  assert.ok(result !== null, 'should return non-null');
+  assert.strictEqual(result.version, 3, 'version should be 3');
+  assert.strictEqual(result.archetype, 'growth', 'archetype should be growth for retirement');
+  assert.strictEqual(result.fundingMode, 'monthly', 'fundingMode should be monthly');
+  assert.strictEqual(result.capital, null, 'capital should be null');
+  assert.ok(result.hero && result.hero.kind === 'projection', 'hero.kind should be projection');
+});
+test('v3 plan passthrough — valid capital plan returns itself', () => {
+  const v3plan = { version: 3, goal: 'iphone', capital: 10000, monthly: null, fundingMode: 'capital', archetype: 'target', target: 1100, hero: { kind: 'flipDate', months: 22 }, pools: [], savedAt: '2026-01-01' };
+  const result = gp.migratePlan(v3plan);
+  assert.ok(result === v3plan, 'should return the same object for valid v3');
+});
+test('version 99 returns null', () => {
+  const result = gp.migratePlan({ version: 99, goal: 'retirement', monthly: 500 });
+  assert.strictEqual(result, null, 'unknown version should return null');
+});
+test('v3 with no monthly and no capital returns null', () => {
+  const result = gp.migratePlan({ version: 3, goal: 'iphone', monthly: null, capital: null });
+  assert.strictEqual(result, null, 'no funding source should return null');
+});
+test('v2 with no monthly returns null', () => {
+  const result = gp.migratePlan({ version: 2, goal: 'retirement', monthly: 0 });
+  assert.strictEqual(result, null, 'v2 with zero monthly should return null');
+});
+test('null input returns null', () => {
+  assert.strictEqual(gp.migratePlan(null), null);
+});
+
+console.log('buildPlanHero');
+test('subscription $5000 @ 5.5% target $20 -> progressPct 100 (5000 > 4364)', () => {
+  const hero = gp.buildPlanHero({ archetype: 'subscription', fundingMode: 'capital', capital: 5000, monthly: null, years: 10, target: 20, apy: 5.5 });
+  assert.strictEqual(hero.kind, 'forever');
+  assert.strictEqual(hero.progressPct, 100, 'progressPct should be 100 since 5000 > foreverNum(20, 5.5)~4364');
+});
+test('subscription $1000 @ 5.5% target $20 -> progressPct in 21..25', () => {
+  const hero = gp.buildPlanHero({ archetype: 'subscription', fundingMode: 'capital', capital: 1000, monthly: null, years: 10, target: 20, apy: 5.5 });
+  assert.strictEqual(hero.kind, 'forever');
+  assert.ok(hero.progressPct >= 21 && hero.progressPct <= 25, 'expected ~23%, got ' + hero.progressPct);
+});
+test('target capital $10000 target $1100 @ 6% -> months in 21..23', () => {
+  const hero = gp.buildPlanHero({ archetype: 'target', fundingMode: 'capital', capital: 10000, monthly: null, years: 10, target: 1100, apy: 6 });
+  assert.strictEqual(hero.kind, 'flipDate');
+  assert.ok(hero.months >= 21 && hero.months <= 23, 'expected ~22 months, got ' + hero.months);
+});
+test('growth archetype -> kind projection matching futureValue', () => {
+  const hero = gp.buildPlanHero({ archetype: 'growth', fundingMode: 'monthly', capital: null, monthly: 500, years: 10, target: null, apy: 6 });
+  assert.strictEqual(hero.kind, 'projection');
+  const expected = gp.futureValue(500, 6, 10);
+  assert.ok(Math.abs(hero.projection - expected) < 1, 'projection mismatch');
+});
+
+console.log('chipHintsFor');
+test('subscription capital chips [1000,2500,5000,10000,25000] @ 5.5% target 20 -> exactly one featured (value 5000)', () => {
+  const hints = gp.chipHintsFor([1000, 2500, 5000, 10000, 25000], { archetype: 'subscription', target: 20, apy: 5.5, mode: 'capital' });
+  const featured = hints.filter(function(h) { return h.featured; });
+  assert.strictEqual(featured.length, 1, 'should have exactly one featured chip');
+  assert.strictEqual(featured[0].value, 5000, 'featured chip should be 5000 (first chip >= foreverNum)');
+});
+test('subscription $1000 chip pct in 21..25 at 5.5% target 20', () => {
+  const hints = gp.chipHintsFor([1000], { archetype: 'subscription', target: 20, apy: 5.5, mode: 'capital' });
+  assert.ok(hints[0].pct >= 21 && hints[0].pct <= 25, 'expected ~23%, got ' + hints[0].pct);
+});
+test('apy=0 -> no Infinity or NaN fields in chips', () => {
+  const hints = gp.chipHintsFor([1000, 5000, 10000], { archetype: 'subscription', target: 20, apy: 0, mode: 'capital' });
+  hints.forEach(function(h) {
+    Object.keys(h).forEach(function(k) {
+      const v = h[k];
+      if (typeof v === 'number') {
+        assert.ok(isFinite(v), 'field ' + k + ' should be finite, got ' + v);
+        assert.ok(!isNaN(v), 'field ' + k + ' should not be NaN');
+      }
+    });
+  });
+});
+test('target capital chips include months field when finite', () => {
+  const hints = gp.chipHintsFor([10000], { archetype: 'target', target: 1100, apy: 6, mode: 'capital' });
+  assert.ok('months' in hints[0], 'should have months field');
+  assert.ok(isFinite(hints[0].months), 'months should be finite');
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');

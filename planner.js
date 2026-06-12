@@ -159,6 +159,124 @@
   }
 
   // ---------------------------------------------------------------------------
+  // v3 plan helpers: migration, hero builder, chip hints
+  // ---------------------------------------------------------------------------
+
+  // migratePlan(p) — normalize any stored plan to v3 or return null.
+  function migratePlan(p) {
+    if (!p || typeof p !== 'object') return null;
+    if (p.version === 3) {
+      var g3 = goalById(p.goal);
+      if (!g3) return null;
+      var hasCapital3 = p.capital && Number(p.capital) > 0;
+      var hasMonthly3 = p.monthly && Number(p.monthly) > 0;
+      if (!hasCapital3 && !hasMonthly3) return null;
+      return p;
+    }
+    if (p.version === 1 || p.version === 2) {
+      var hasMonthly = p.monthly && Number(p.monthly) > 0;
+      var gDef = goalById(p.goal);
+      if (!hasMonthly || !gDef) return null;
+      return {
+        version: 3,
+        goal: p.goal,
+        monthly: p.monthly,
+        years: p.years || null,
+        persona: p.persona || null,
+        temperament: p.temperament || null,
+        pools: p.pools || [],
+        blendedApy: p.blendedApy || null,
+        effectiveApy: p.effectiveApy || null,
+        savedAt: p.savedAt || null,
+        archetype: goalArchetype(p.goal),
+        fundingMode: 'monthly',
+        capital: null,
+        deadline: null,
+        target: (gDef && gDef.target) || null,
+        projection: p.projection || null,
+        hero: { kind: 'projection', projection: p.projection || null }
+      };
+    }
+    return null;
+  }
+
+  // buildPlanHero(args) — compute the persisted per-archetype headline metric.
+  // args: { archetype, fundingMode, capital, monthly, years, target, apy }
+  function buildPlanHero(args) {
+    var archetype = args.archetype;
+    var fundingMode = args.fundingMode;
+    var capital = Number(args.capital) || 0;
+    var monthly = Number(args.monthly) || 0;
+    var years = Number(args.years) || 10;
+    var target = Number(args.target) || 0;
+    var apy = Number(args.apy) || 0;
+
+    if (archetype === 'growth') {
+      return { kind: 'projection', projection: futureValue(monthly, apy, years) };
+    }
+    if (archetype === 'target') {
+      if (fundingMode === 'capital' && capital > 0) {
+        var m = monthsUntilYieldCoversTarget(capital, apy, target);
+        return { kind: 'flipDate', months: isFinite(m) ? m : null, capital: capital };
+      }
+      var m2 = timeToTarget(target, monthly, apy);
+      return { kind: 'targetDate', months: isFinite(m2) ? m2 : null };
+    }
+    if (archetype === 'subscription') {
+      var fn = foreverNumber(target || 20, apy);
+      var pct = (capital && isFinite(fn) && fn > 0) ? Math.min(100, Math.round(capital / fn * 100)) : 0;
+      return { kind: 'forever', foreverAmt: isFinite(fn) ? fn : null, progressPct: pct };
+    }
+    return { kind: 'projection', projection: futureValue(monthly, apy, years) };
+  }
+
+  // chipHintsFor(values, ctx) — per-chip outcome descriptors.
+  // ctx: { archetype, target, apy, mode }
+  // Returns array of { value, pct?, months?, forever?, featured? }
+  function chipHintsFor(values, ctx) {
+    var archetype = ctx.archetype;
+    var target = Number(ctx.target) || 0;
+    var apy = Number(ctx.apy) || 0;
+    var mode = ctx.mode; // 'capital' or 'monthly'
+    var result = [];
+    var featuredFound = false;
+
+    for (var i = 0; i < values.length; i++) {
+      var v = values[i];
+      var chip = { value: v };
+
+      if (mode === 'capital') {
+        if (archetype === 'subscription') {
+          var fn = foreverNumber(target, apy);
+          var pct = (isFinite(fn) && fn > 0) ? Math.round(v / fn * 100) : null;
+          if (pct != null) chip.pct = pct;
+          var forever = (pct != null && v >= fn);
+          if (forever) chip.forever = true;
+          if (forever && !featuredFound) {
+            chip.featured = true;
+            featuredFound = true;
+          }
+        } else if (archetype === 'target') {
+          var months = monthsUntilYieldCoversTarget(v, apy, target);
+          if (isFinite(months)) chip.months = months;
+        }
+      } else if (mode === 'monthly') {
+        if (archetype === 'target') {
+          var mMonths = timeToTarget(target, v, apy);
+          if (isFinite(mMonths)) chip.months = mMonths;
+        } else if (archetype === 'subscription') {
+          var fn2 = foreverNumber(target, apy);
+          var mMonths2 = timeToTarget(isFinite(fn2) ? fn2 : Infinity, v, apy);
+          if (isFinite(mMonths2)) chip.months = mMonths2;
+        }
+      }
+
+      result.push(chip);
+    }
+    return result;
+  }
+
+  // ---------------------------------------------------------------------------
   // Persona / strategy filters (replaces temperaments)
   // ---------------------------------------------------------------------------
   var PERSONAS = {
@@ -2081,7 +2199,8 @@
     formatUsdRounded: formatUsdRounded,
     timeToTarget: timeToTarget, foreverNumber: foreverNumber, effectiveApy: effectiveApy,
     cumulativeYield: cumulativeYield, monthsUntilYieldCoversTarget: monthsUntilYieldCoversTarget,
-    capitalForDeadline: capitalForDeadline, dailyYield: dailyYield
+    capitalForDeadline: capitalForDeadline, dailyYield: dailyYield,
+    migratePlan: migratePlan, buildPlanHero: buildPlanHero, chipHintsFor: chipHintsFor
   };
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;
