@@ -855,8 +855,7 @@
         ),
         e('div', { className: 'gp-headline-sub' },
           t('heroTargetSub', formatUsdRounded(yieldContribution || 0), targetAmt ? formatUsdRounded(targetAmt) : '?')
-        ),
-        e('div', { className: 'gp-headline-vs' }, t('bloomVsBank', formatUsdRounded(liveBankProjection)))
+        )
       );
     } else if (archetype === 'subscription' && foreverAmt) {
       heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in' },
@@ -866,8 +865,7 @@
         ),
         e('div', { className: 'gp-headline-sub' },
           t('heroSubscriptionForever', formatUsdRounded(foreverAmt), formatApy(apy))
-        ),
-        e('div', { className: 'gp-headline-vs' }, t('bloomVsBank', formatUsdRounded(liveBankProjection)))
+        )
       );
     } else {
       heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in' },
@@ -1720,17 +1718,33 @@
     module.exports = api;
   } else {
     window.GardenPlanner = api;
+    // Only mount on planner pages (bare / or plan.html); skip analytics mode.
+    if (window.__APP_MODE === 'analytics') return;
     function mountPlanner() {
       var mount = document.getElementById('planner-root');
-      if (mount && window.ReactDOM && window.React) {
-        ReactDOM.createRoot(mount).render(e(Planner));
-      }
+      if (!mount) return;
+      // Re-resolve React bindings here: module-level R/e may have been
+      // captured before React loaded when planner.js was dynamically injected.
+      var _React = window.React;
+      var _ReactDOM = window.ReactDOM;
+      if (!_React || !_ReactDOM) return;
+      var _e = _React.createElement;
+      // Patch module-level bindings so Planner component tree uses real React
+      R = _React;
+      e = _e;
+      useState = _React.useState;
+      useEffect = _React.useEffect;
+      useRef = _React.useRef;
+      useMemo = _React.useMemo;
+      useCallback = _React.useCallback;
+      _ReactDOM.createRoot(mount).render(_e(Planner));
     }
-    // Wait for ReactDOM to be ready (handles dynamic script load race)
+    // With static defer the React scripts are guaranteed to execute before
+    // planner.js, so the direct call path is the normal path.
     if (window.ReactDOM && window.React) {
       mountPlanner();
     } else {
-      window.addEventListener('load', mountPlanner);
+      document.addEventListener('DOMContentLoaded', mountPlanner);
     }
   }
 })();
