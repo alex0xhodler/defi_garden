@@ -1580,6 +1580,72 @@
   }
 
   // ===========================================================================
+  // ReportJourney — 3-row vertical stepper for the garden report
+  // ===========================================================================
+  function ReportJourney(props) {
+    var t = props.t;
+    var plan = props.plan;
+    var poolsReady = props.poolsReady;
+    var newBlended = props.newBlended;
+    var arch = plan.archetype || goalArchetype(plan.goal);
+
+    var dateStr = '';
+    try { dateStr = new Date(plan.savedAt).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }); }
+    catch (e11) { dateStr = ''; }
+
+    var heroText = '';
+    if (plan.hero) {
+      var h = plan.hero;
+      if (h.kind === 'flipDate' && h.months !== null) {
+        var goalDef4 = goalById(plan.goal);
+        heroText = (goalDef4 ? goalDef4.emoji + ' ' : '') + t('heroTargetFlip', formatUsdRounded(h.capital || 0), goalLabel(t, plan.goal), monthsFromNow(h.months) || '');
+      } else if (h.kind === 'targetDate' && h.months !== null) {
+        heroText = t('heroTarget', goalLabel(t, plan.goal), monthsFromNow(h.months) || '');
+      } else if (h.kind === 'forever') {
+        if (h.progressPct >= 100) {
+          heroText = t('subHeroWin', goalLabel(t, plan.goal));
+        } else {
+          heroText = t('subHeroProgress', h.progressPct, goalLabel(t, plan.goal));
+        }
+      } else if (h.kind === 'projection' && h.projection !== null) {
+        heroText = '🌳 ≈ ' + formatUsdRounded(h.projection);
+      }
+    }
+
+    var deltaApy = (props.savedBlended != null && newBlended != null) ? (newBlended - props.savedBlended) : 0;
+    var statusSubLine;
+    if (!poolsReady) {
+      statusSubLine = t('reportUpdating');
+    } else if (Math.abs(deltaApy) <= 0.05) {
+      statusSubLine = t('journeyHolding');
+    } else {
+      statusSubLine = t('journeyMoved', (deltaApy >= 0 ? '+' : '') + formatApy(deltaApy));
+    }
+
+    return e('div', { className: 'gp-journey' },
+      e('div', { className: 'gp-journey-row is-done' },
+        e('div', { className: 'gp-journey-marker' }, '✓'),
+        e('div', { className: 'gp-journey-content' },
+          e('div', { className: 'gp-journey-label' }, '🌱 ' + t('journeyPlanted', dateStr))
+        )
+      ),
+      e('div', { className: 'gp-journey-row is-active' },
+        e('div', { className: 'gp-journey-marker gp-journey-pulse' }, '🌿'),
+        e('div', { className: 'gp-journey-content' },
+          e('div', { className: 'gp-journey-label' }, t('journeyGrowing')),
+          e('div', { className: 'gp-journey-status' }, statusSubLine)
+        )
+      ),
+      heroText ? e('div', { className: 'gp-journey-row is-next' },
+        e('div', { className: 'gp-journey-marker' }, '○'),
+        e('div', { className: 'gp-journey-content' },
+          e('div', { className: 'gp-journey-label' }, heroText)
+        )
+      ) : null
+    );
+  }
+
+  // ===========================================================================
   // Garden Report (return visit) — fixed P0 bug: show immediately without API
   // ===========================================================================
   function GardenReport(props) {
@@ -1694,8 +1760,33 @@
       e('div', { className: 'gp-report-head' },
         e('div', { className: 'gp-report-emoji' }, stage.emoji),
         e('h2', { className: 'gp-report-title' }, t('reportSince', dateStr)),
+        e('div', { className: 'gp-plan-strip' },
+          e('span', { className: 'gp-strip-item', role: 'button', tabIndex: 0,
+            onClick: onEdit ? function() { onEdit('goal'); } : null,
+            onKeyDown: onEdit ? function(ev) { if (ev.key === 'Enter') onEdit('goal'); } : null
+          }, stripGoal),
+          stripFunding ? e('span', { className: 'gp-strip-sep' }, '·') : null,
+          stripFunding ? e('span', { className: 'gp-strip-item', role: 'button', tabIndex: 0,
+            onClick: onEdit ? function() { onEdit('funding-mode'); } : null,
+            onKeyDown: onEdit ? function(ev) { if (ev.key === 'Enter') onEdit('funding-mode'); } : null
+          }, stripFunding) : null,
+          e('span', { className: 'gp-strip-sep' }, '·'),
+          e('span', { className: 'gp-strip-item', role: 'button', tabIndex: 0,
+            onClick: onEdit ? function() { onEdit('temperament'); } : null,
+            onKeyDown: onEdit ? function(ev) { if (ev.key === 'Enter') onEdit('temperament'); } : null
+          }, planPkName)
+        ),
         e('div', { className: 'gp-report-status ' + statusClass }, status)
       ),
+
+      e(ReportJourney, {
+        t: t,
+        plan: plan,
+        poolsReady: poolsReady,
+        newBlended: newBlended,
+        savedBlended: plan.blendedApy,
+        status: status
+      }),
 
       projectionBlock,
 
@@ -1738,7 +1829,7 @@
     return e('header', { className: 'gp-header' },
       e('a', { className: 'gp-logo', href: 'index.html' }, '🌱 DeFi Garden'),
       e('div', { className: 'gp-header-actions' },
-        // My Garden affordance — shows when plan exists
+        // My Garden affordance — shows when plan exists and not already in report view
         props.hasSavedPlan && props.mode !== 'report' ? e('button', {
           type: 'button', className: 'gp-my-garden-btn',
           onClick: props.onShowGarden
@@ -2356,14 +2447,14 @@
       );
     }
 
-    var canRestart = (mode === 'convo' && (stepIndex > 0 || step === 'bloom'));
+    var canRestart = (stepIndex > 0 || step === 'bloom' || mode === 'report' || !!loadSavedPlan());
     var hasSavedPlan = !!loadSavedPlan();
 
     return e('div', { className: 'gp-app' },
       e(PlannerHeader, {
         dark: dark, onToggleTheme: function () { setDark(function (d) { return !d; }); },
         canRestart: canRestart, restartLabel: t('startFresh'), onRestart: restart,
-        hasSavedPlan: hasSavedPlan && mode !== 'report',
+        hasSavedPlan: hasSavedPlan,
         myGardenLabel: t('myGarden'),
         mode: mode,
         onShowGarden: function() { setMode('report'); }

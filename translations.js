@@ -249,6 +249,12 @@ const translations = {
       reportPoolGone: "This pool is no longer in the live data — we won't guess its rate.",
       reportHolding: "holding",
 
+      // v3.1 — journey stepper
+      journeyPlanted: (date) => `Planted ${date}`,
+      journeyGrowing: "Growing now",
+      journeyHolding: "rates holding steady",
+      journeyMoved: (delta) => `rates moved ${delta}`,
+
       // v3 yield-funded — funding mode step
       fundingModeQuestion: "How do you want to fund it?",
       fundingCapitalCard: "I have money that could work",
@@ -550,6 +556,12 @@ const translations = {
       reportFresh: "처음부터 다시",
       reportPoolGone: "이 풀은 더 이상 실시간 데이터에 없어요 — 수익률을 추측하지 않겠습니다.",
       reportHolding: "유지 중",
+
+      // v3.1 — journey stepper
+      journeyPlanted: (date) => `${date}에 심었어요`,
+      journeyGrowing: "자라는 중",
+      journeyHolding: "수익률이 안정적이에요",
+      journeyMoved: (delta) => `수익률이 ${delta} 변동됐어요`,
 
       // v3 yield-funded — funding mode step
       fundingModeQuestion: "어떻게 마련할 건가요?",
