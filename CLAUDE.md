@@ -1,171 +1,53 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Guidance for Claude Code when working in this repository.
 
-## Project Overview
+## What this product is
 
-DeFi Garden is a React-based web application that helps users discover the highest yielding DeFi opportunities across all blockchain networks. The app uses a neumorphic design system with real-time data from the Defillama API to present yield farming opportunities in an intuitive, searchable interface.
+DeFi Garden (defigarden.app) is a static, no-backend, no-build-step web app on the DefiLlama pools API, with two faces:
+
+1. **Garden Planner** (the DEFAULT feature, bare `/` and `plan.html`) — a goal-first, conversational, generative-UI savings planner for the ICP below.
+2. **Analytics app** (every parameterized URL: `/?token=`, `/?chain=`, `/?pool=`, etc.) — the original yield search/grid, reached from the planner via the header icon.
+
+An inline IA router in `index.html` (`window.__APP_MODE`) decides which experience loads. **Existing parameterized URLs are sacred — thousands of sitemap URLs depend on them serving the analytics app unchanged.**
+
+## ICP and product direction (decided 2026-06, harness this)
+
+- **ICP**: the cautious retail saver who thinks in monthly deposits and life goals, NOT in APY/pools. Not the degen (they use DefiLlama directly), not the analyst (LlamaAI serves them at $490/yr). Trust is the conversion currency; the default view is the product; honest numbers beat exciting numbers.
+- **Trust rails are the moat**: every displayed number derives from live DefiLlama pool data through sanity filters. `APY_SANITY_LIMIT = 1000%` (anomalous pools can NEVER enter a plan; in the analytics app they are demoted + ⚠-flagged + forced High risk). `DEFAULT_MIN_TVL = $10M` everywhere. The conversation layer is scripted/deterministic (a provider interface exists for a future LLM) — an LLM may narrate, never produce numbers.
+- **Plan archetypes**: GROWTH (retirement, home — future-value, ≤10y horizons, bank comparison), TARGET (sneakers, iPhone — time-to-item), SUBSCRIPTION (Claude — "forever number" = capital whose yield pays the bill).
+- **The flip (v3, decided)**: in-reach goals are YIELD-FUNDED, never "saved up for". Headline frame: *"Buy it outright and the money's gone. Garden it and you keep the money AND get the thing."* Capital-first is the default funding path; infeasible deadlines render truth-as-content (feasibility ladder, never fudged dates); subscription ladder uses the everyday-bills set (Spotify → Netflix → Claude Pro → Gym → Phone bill), forever numbers always from the live blended rate. Copy ban-list for in-reach goals: "save up", "afford", "budget".
+- **Degen honesty**: the Degen LPs persona projects at a ⅓ haircut of headline APY and says so — farm rates decay.
+- **Hook model (no dark patterns)**: trigger = monthly tending + rate-change deltas; action = one tap; variable reward = real rate movement ("you're 2 weeks ahead of plan"); investment = the saved plan (localStorage `garden-plan`), garden stages (seed→sprout→sapling→tree) from honest progress only. Virality = shareable plan URLs (all state in params) + share-card PNGs.
+- Full specs: `docs/garden-planner-v2-spec.md` (planner v2 + IA swap) and `docs/garden-planner-v3-yield-funded.md` (yield-funded goals — the active direction).
 
 ## Architecture
 
-### Frontend Stack
-- **React 18** - Using vanilla React with Babel transformation (no build tools)
-- **Pure CSS** - Comprehensive neumorphic design system with CSS custom properties
-- **Vanilla JavaScript** - ES6+ with React hooks pattern
-- **External APIs** - Defillama yields API for real-time DeFi data
+- **No build step.** React 18 UMD; `app.js`/`PoolDetail.js` via babel-standalone; `planner.js` is a plain script. ALL components use `React.createElement` — never JSX.
+- Files: `index.html` (router + analytics app shell) · `plan.html` + `planner.js` + `planner-styles.css` (planner) · `app.js` (analytics app) · `PoolDetail.js` · `translations.js` (en/ko, `t(key)`; planner section included) · `style.css` (design system) · `pool-detail-styles.css` · `analytics.js` · `stories/` + `generate-stories.js` (persona landing pages: tomoko/kevin/lucia — fictional composites, "education not advice") · `generate-sitemap.js`/`generate-llms.js` (SEO assets).
+- Data: `https://yields.llama.fi/pools` fetched client-side. Pool deep link: `/?pool=<pool.pool>`.
+- State conventions: theme = localStorage `theme` + `data-theme` attr; language = `?lang` + localStorage `defi-garden-lang`; saved plan = localStorage `garden-plan`.
 
-### Key Components
-- `App` component handles all application state and logic
-- Token search with intelligent autocomplete and debouncing
-- Dynamic filtering system (chain, TVL, APY)
-- Paginated results with neumorphic card design
-- Protocol URL mapping for direct access to DeFi platforms
+## Design system (post-2026 redesign — keep it this way)
 
-### Data Flow
-1. Fetches pool data from `https://yields.llama.fi/pools` on mount
-2. Processes and normalizes token symbols for search
-3. Smart filtering with multiple criteria (token, chain, TVL, APY)
-4. Results sorted by total APY (base + reward) descending
-5. Pagination and direct protocol linking
+- Neumorphic, calm, skeuomorphic. Tokens only: `--neuro-shadow-raised/-flat/-pressed/-subtle` (soft: 4px offsets, low-opacity), `--neuro-radius-sm/-md/-lg` (10/14/16px squircles), `--neuro-bg-gradient`. Light source top-left. Accent colors (#3B82F6 family) are fixed.
+- **Banned**: electric glow box-shadows, bounce easings, fake urgency, scale-pop hovers. Press physics: interactive controls sink 1px into `--neuro-shadow-pressed` on `:active` (global rule).
+- `prefers-reduced-motion` respected for every animation. Must be flawless at 360/768/1280px and in dark mode.
 
-## Development Commands
+## Hard rules
 
-Since this is a pure HTML/CSS/JS project with no package.json, development is straightforward:
+- All money/number formatting pinned to `en-US` (`formatUsd`/`formatNum`/`formatApy` in app.js; never bare `toLocaleString()`).
+- Every user-facing string goes through `translations.js` — EN and natural KO updated together, always.
+- Never weaken the trust rails (sanity limit, TVL floor, anomaly flags, degen haircut, focus rings).
+- Surgical diffs over rewrites. Conventional commits.
 
-### Running the Application
-```bash
-# Serve locally using any HTTP server
-python -m http.server 8000
-# or
-npx serve .
-# or simply open index.html in a browser
-```
+## Development & verification
 
-### Development Workflow
-1. Edit files directly in your editor
-2. Refresh browser to see changes
-3. Use browser DevTools for debugging
-4. Test responsiveness across devices
-
-## File Structure
-
-```
-/
-├── index.html          # Main HTML file with React setup
-├── app.js             # Main React component and application logic
-├── style.css          # Comprehensive neumorphic design system
-├── settings.local.json # Claude Code permissions and settings
-└── commands/          # AI-assisted development commands
-    ├── plan.md
-    ├── ai-review.md
-    └── [23 other command files]
-```
-
-## Code Patterns and Conventions
-
-### React Patterns
-- Use `React.createElement()` for all components (no JSX)
-- Custom hooks like `useDebounce` for performance optimization
-- Functional components with hooks exclusively
-- Memoized computations using `useMemo` for expensive operations
-
-### State Management
-- Local state with `useState` for all application data
-- Derived state through `useMemo` and `useEffect`
-- Debounced search input to prevent excessive API calls
-- Centralized error handling and loading states
-
-### Styling Architecture
-- CSS custom properties for theming and consistency
-- Neumorphic design system with raised/pressed shadow states
-- Responsive design with mobile-first approach
-- Dark/light mode support through CSS custom properties
-
-### API Integration
-- Single API endpoint: `https://yields.llama.fi/pools`
-- Error handling with user-friendly messages
-- Loading states during data fetching
-- Protocol URL mapping for external navigation
-
-## Key Features
-
-### Search and Filtering
-- **Token Search**: Smart autocomplete with exact matches, starts-with, and contains logic
-- **Chain Filtering**: Dynamic dropdown based on selected token
-- **TVL Filtering**: Minimum Total Value Locked thresholds
-- **APY Filtering**: Minimum Annual Percentage Yield requirements
-
-### User Experience
-- **Keyboard Navigation**: Arrow keys, Enter, Escape support in autocomplete
-- **Visual Feedback**: Neumorphic pressed/raised states
-- **Responsive Design**: Works across desktop, tablet, and mobile
-- **Accessibility**: Focus states, proper ARIA labels, semantic HTML
-
-### Performance Optimizations
-- Debounced search (300ms delay)
-- Memoized token processing and filtering
-- Efficient pagination to handle large datasets
-- Client-side caching of API responses
-
-## AI-Assisted Development
-
-This project includes 23 AI command files in the `/commands` directory for development workflows:
-
-### Key Commands
-- `/plan` - Technical specification and architecture planning
-- `/ai-review` - Comprehensive code review and security analysis
-- `/security-gate` - Security vulnerability scanning
-- `/performance-baseline` - Performance monitoring setup
-- `/observability-check` - Monitoring and alerting validation
-
-### Usage Pattern
-The commands follow a production-grade development workflow emphasizing:
-- Zero technical debt tolerance
-- Security-first development
-- Comprehensive testing strategies
-- Performance optimization
-- AI-enhanced code quality
-
-## Testing Strategy
-
-Since this is a client-side only application:
-- Manual testing across different browsers
-- Responsive design testing on various screen sizes
-- API error handling verification
-- Performance testing with large datasets
-- Accessibility testing with screen readers
+- Serve: `python3 -m http.server 8000` (any static server). No tests/lint pipeline; verification is Playwright-based E2E + critical screenshot review (a working Playwright install is typically at `/tmp/neuro-shots`).
+- Verify both router paths after ANY change near `index.html`: bare `/` → planner, `/?token=USDC` → analytics app with pool cards.
+- After changing presets/personas, re-run `node generate-stories.js` and commit regenerated `stories/`.
+- Sandbox note: external font/analytics fetches fail locally (ignorable); page errors are not.
 
 ## Deployment
 
-This is a static web application that can be deployed to:
-- GitHub Pages
-- Netlify
-- Vercel
-- Any static hosting service
-- CDN with proper CORS headers
-
-Simply upload the files to your hosting provider - no build process required.
-
-## Performance Considerations
-
-- **Debounced Search**: Prevents excessive API calls during typing
-- **Smart Filtering**: Client-side filtering after initial API fetch
-- **Pagination**: Handles large datasets efficiently
-- **Memoization**: Expensive computations cached appropriately
-- **Lazy Loading**: Only load data when needed
-
-## Security Notes
-
-- API calls made to trusted Defillama endpoints only
-- No user data collection or storage
-- External links opened with `noopener,noreferrer`
-- Input sanitization for search queries
-- No eval() or dangerous dynamic code execution
-
-## Browser Compatibility
-
-- Modern browsers supporting ES6+ features
-- CSS Grid and Flexbox support required
-- CSS Custom Properties for theming
-- Fetch API for network requests
-- Modern React 18 features
+Static hosting (no server rewrites assumed). The sitemap suite + `stories/` + `plan.html` are SEO surface — regenerate via the `generate-*.js` scripts, don't hand-edit.
