@@ -1026,6 +1026,172 @@
   .gp-primary-cta { font-size: var(--font-size-base); padding: var(--space-12) var(--space-20); }
 }
 
+/* ---------- Chip hints (A2) ---------- */
+.gp-chip-has-hint {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-10) var(--space-14);
+  min-height: 44px;
+}
+.gp-chip-hint {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  font-weight: var(--font-weight-medium);
+}
+.gp-chip-featured {
+  box-shadow: var(--neuro-shadow-raised);
+}
+.gp-chip-featured .gp-chip-hint {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+}
+.gp-chip-featured.is-selected {
+  box-shadow: var(--neuro-shadow-pressed);
+}
+
+/* ---------- Goal context line (A3.1) ---------- */
+.gp-goal-context {
+  margin: 0 0 var(--space-16);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-normal);
+  padding: var(--space-10) var(--space-14);
+  border-radius: var(--neuro-radius-sm);
+  background: var(--color-background);
+  box-shadow: var(--neuro-shadow-pressed);
+}
+
+/* ---------- Funding mode cards (A3.2) ---------- */
+.gp-funding-mode-cards {
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: var(--space-4);
+}
+@media (max-width: 480px) {
+  .gp-funding-mode-cards { grid-template-columns: 1fr; }
+}
+
+/* ---------- Journey stepper (C1) ---------- */
+.gp-journey {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: var(--space-16);
+  border-radius: var(--neuro-radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-flat);
+  margin-bottom: var(--space-16);
+}
+.gp-journey-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-12);
+  position: relative;
+  padding-bottom: var(--space-16);
+}
+.gp-journey-row:last-child {
+  padding-bottom: 0;
+}
+.gp-journey-row::before {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: 28px;
+  width: 2px;
+  bottom: 0;
+  background: var(--color-border);
+}
+.gp-journey-row:last-child::before {
+  display: none;
+}
+.gp-journey-marker {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-full);
+  background: var(--color-background);
+  box-shadow: var(--neuro-shadow-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-sm);
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+.gp-journey-row.is-done .gp-journey-marker {
+  color: var(--color-success);
+  font-weight: var(--font-weight-bold);
+}
+.gp-journey-row.is-next .gp-journey-marker {
+  color: var(--color-text-secondary);
+  opacity: 0.6;
+}
+.gp-journey-pulse {
+  animation: gpJourneyPulse 2s ease-in-out infinite;
+}
+@keyframes gpJourneyPulse {
+  0%, 100% { box-shadow: var(--neuro-shadow-subtle); }
+  50% { box-shadow: var(--neuro-shadow-flat); }
+}
+.gp-journey-content {
+  flex: 1;
+  min-width: 0;
+  padding-top: var(--space-2);
+}
+.gp-journey-label {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+  line-height: var(--line-height-tight);
+}
+.gp-journey-row.is-done .gp-journey-label {
+  color: var(--color-text-secondary);
+}
+.gp-journey-row.is-next .gp-journey-label {
+  color: var(--color-text-secondary);
+  opacity: 0.7;
+}
+.gp-journey-status {
+  margin-top: var(--space-4);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-mono, ui-monospace, monospace);
+  line-height: var(--line-height-normal);
+}
+
+/* ---------- Thread row journey markers (C3) ---------- */
+.gp-thread-row {
+  position: relative;
+}
+.gp-thread-row + .gp-thread-row::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: -8px;
+  width: 2px;
+  height: 8px;
+  background: var(--color-border);
+}
+
+/* ---------- Focus-visible states (C3) ---------- */
+.gp-chip:focus-visible,
+.gp-temp-card:focus-visible,
+.gp-strip-item:focus-visible,
+.gp-ask-chip:focus-visible,
+.gp-persona-pill:focus-visible {
+  outline: none;
+  box-shadow: var(--neuro-shadow-flat), 0 0 0 2px var(--color-primary);
+}
+
+/* ---------- 360px touch targets (C3) ---------- */
+@media (max-width: 400px) {
+  .gp-chip {
+    min-height: 44px;
+  }
+  .gp-chips-wrap { gap: var(--space-8); }
+}
+
 /* ---------- Reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   .gp-animate-in,
@@ -1045,6 +1211,8 @@
   .gp-primary-cta { transition: none; }
   .gp-compound-line { transition: none; }
   .gp-item-fill-inner { transition: none; }
+  .gp-journey-pulse { animation: none; }
+  .gp-funding-picker-open { animation: none; }
 }
 
 /* ==========================================================================
@@ -1061,11 +1229,12 @@
   background: none;
 }
 .gp-funding-card:active,
-.gp-funding-card:focus-visible { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); outline: 2px solid #3B82F6; }
-.gp-funding-card.is-selected { border-color: #3B82F6; box-shadow: var(--neuro-shadow-flat); }
+.gp-funding-card:focus-visible { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); outline: 2px solid var(--color-primary); }
+.gp-funding-card.is-selected { border-color: var(--color-primary); box-shadow: var(--neuro-shadow-flat); }
 .gp-funding-card-title { font-weight: 600; margin-bottom: 6px; font-size: 0.95rem; }
 .gp-funding-card-desc { font-size: 0.78rem; color: var(--neuro-text-secondary); margin-bottom: 12px; }
 .gp-funding-amount-picker { margin-top: 12px; text-align: left; }
+.gp-funding-picker-open { animation: gpIn 0.25s var(--ease-standard, ease) both; }
 .gp-question-sm { font-size: 0.85rem; margin: 4px 0 8px; }
 
 /* Persona ladder */
@@ -1090,7 +1259,7 @@
   box-shadow: var(--neuro-shadow-pressed); overflow: hidden;
 }
 .gp-item-fill-inner {
-  height: 100%; background: #3B82F6; border-radius: 4px;
+  height: 100%; background: var(--color-primary); border-radius: 4px;
   transition: width 0.5s ease;
   min-width: 3px;
 }
@@ -1124,18 +1293,18 @@
 }
 .gp-rung-locked { opacity: 0.65; }
 .gp-rung-unlocked { box-shadow: var(--neuro-shadow-raised); }
-.gp-rung-selected { outline: 2px solid #3B82F6; border-radius: var(--neuro-radius-sm); }
+.gp-rung-selected { outline: 2px solid var(--color-primary); border-radius: var(--neuro-radius-sm); }
 .gp-rung-emoji { font-size: 1rem; flex-shrink: 0; }
 .gp-rung-label { flex: 1; font-size: 0.875rem; font-weight: 500; }
 .gp-rung-forever { font-size: 0.85rem; font-weight: 600; color: var(--neuro-text-secondary); }
 .gp-rung-badge {
-  background: #3B82F6; color: #fff; border-radius: 99px;
+  background: var(--color-primary); color: #fff; border-radius: 99px;
   padding: 2px 8px; font-size: 0.72rem; font-weight: 600; flex-shrink: 0;
 }
 .gp-rung-pct { font-size: 0.75rem; color: var(--neuro-text-secondary); flex-shrink: 0; }
 
 /* Instant-win celebration */
-.gp-instant-win .gp-headline-figure { color: #3B82F6; }
+.gp-instant-win .gp-headline-figure { color: var(--color-primary); }
 
 /* Ladder row highlight active persona */
-.gp-ladder-row-active .gp-ladder-label { color: #3B82F6; }
+.gp-ladder-row-active .gp-ladder-label { color: var(--color-primary); }

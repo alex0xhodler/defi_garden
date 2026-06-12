@@ -20,7 +20,7 @@
   var POOLS_API = 'https://yields.llama.fi/pools';
   var BANK_APY = 0.5;
   var STORAGE_KEY = 'garden-plan';
-  var PLAN_VERSION = 2;
+  var PLAN_VERSION = 3;
 
   var STABLE_SYMBOLS = ['USDC', 'USDT', 'DAI', 'USDS', 'FRAX', 'TUSD', 'USDP', 'GUSD',
     'LUSD', 'USDD', 'PYUSD', 'USDE', 'SUSD', 'CRVUSD', 'GHO', 'USD0', 'FDUSD', 'USDB',
@@ -156,6 +156,124 @@
   // Daily yield from a lump sum
   function dailyYield(capital, annualRatePct) {
     return (Number(capital) || 0) * (Number(annualRatePct) || 0) / 100 / 365;
+  }
+
+  // ---------------------------------------------------------------------------
+  // v3 plan helpers: migration, hero builder, chip hints
+  // ---------------------------------------------------------------------------
+
+  // migratePlan(p) — normalize any stored plan to v3 or return null.
+  function migratePlan(p) {
+    if (!p || typeof p !== 'object') return null;
+    if (p.version === 3) {
+      var g3 = goalById(p.goal);
+      if (!g3) return null;
+      var hasCapital3 = p.capital && Number(p.capital) > 0;
+      var hasMonthly3 = p.monthly && Number(p.monthly) > 0;
+      if (!hasCapital3 && !hasMonthly3) return null;
+      return p;
+    }
+    if (p.version === 1 || p.version === 2) {
+      var hasMonthly = p.monthly && Number(p.monthly) > 0;
+      var gDef = goalById(p.goal);
+      if (!hasMonthly || !gDef) return null;
+      return {
+        version: 3,
+        goal: p.goal,
+        monthly: p.monthly,
+        years: p.years || null,
+        persona: p.persona || null,
+        temperament: p.temperament || null,
+        pools: p.pools || [],
+        blendedApy: p.blendedApy || null,
+        effectiveApy: p.effectiveApy || null,
+        savedAt: p.savedAt || null,
+        archetype: goalArchetype(p.goal),
+        fundingMode: 'monthly',
+        capital: null,
+        deadline: null,
+        target: (gDef && gDef.target) || null,
+        projection: p.projection || null,
+        hero: { kind: 'projection', projection: p.projection || null }
+      };
+    }
+    return null;
+  }
+
+  // buildPlanHero(args) — compute the persisted per-archetype headline metric.
+  // args: { archetype, fundingMode, capital, monthly, years, target, apy }
+  function buildPlanHero(args) {
+    var archetype = args.archetype;
+    var fundingMode = args.fundingMode;
+    var capital = Number(args.capital) || 0;
+    var monthly = Number(args.monthly) || 0;
+    var years = Number(args.years) || 10;
+    var target = Number(args.target) || 0;
+    var apy = Number(args.apy) || 0;
+
+    if (archetype === 'growth') {
+      return { kind: 'projection', projection: futureValue(monthly, apy, years) };
+    }
+    if (archetype === 'target') {
+      if (fundingMode === 'capital' && capital > 0) {
+        var m = monthsUntilYieldCoversTarget(capital, apy, target);
+        return { kind: 'flipDate', months: isFinite(m) ? m : null, capital: capital };
+      }
+      var m2 = timeToTarget(target, monthly, apy);
+      return { kind: 'targetDate', months: isFinite(m2) ? m2 : null };
+    }
+    if (archetype === 'subscription') {
+      var fn = foreverNumber(target || 20, apy);
+      var pct = (capital && isFinite(fn) && fn > 0) ? Math.min(100, Math.round(capital / fn * 100)) : 0;
+      return { kind: 'forever', foreverAmt: isFinite(fn) ? fn : null, progressPct: pct };
+    }
+    return { kind: 'projection', projection: futureValue(monthly, apy, years) };
+  }
+
+  // chipHintsFor(values, ctx) — per-chip outcome descriptors.
+  // ctx: { archetype, target, apy, mode }
+  // Returns array of { value, pct?, months?, forever?, featured? }
+  function chipHintsFor(values, ctx) {
+    var archetype = ctx.archetype;
+    var target = Number(ctx.target) || 0;
+    var apy = Number(ctx.apy) || 0;
+    var mode = ctx.mode; // 'capital' or 'monthly'
+    var result = [];
+    var featuredFound = false;
+
+    for (var i = 0; i < values.length; i++) {
+      var v = values[i];
+      var chip = { value: v };
+
+      if (mode === 'capital') {
+        if (archetype === 'subscription') {
+          var fn = foreverNumber(target, apy);
+          var pct = (isFinite(fn) && fn > 0) ? Math.round(v / fn * 100) : null;
+          if (pct != null) chip.pct = pct;
+          var forever = (pct != null && v >= fn);
+          if (forever) chip.forever = true;
+          if (forever && !featuredFound) {
+            chip.featured = true;
+            featuredFound = true;
+          }
+        } else if (archetype === 'target') {
+          var months = monthsUntilYieldCoversTarget(v, apy, target);
+          if (isFinite(months)) chip.months = months;
+        }
+      } else if (mode === 'monthly') {
+        if (archetype === 'target') {
+          var mMonths = timeToTarget(target, v, apy);
+          if (isFinite(mMonths)) chip.months = mMonths;
+        } else if (archetype === 'subscription') {
+          var fn2 = foreverNumber(target, apy);
+          var mMonths2 = timeToTarget(isFinite(fn2) ? fn2 : Infinity, v, apy);
+          if (isFinite(mMonths2)) chip.months = mMonths2;
+        }
+      }
+
+      result.push(chip);
+    }
+    return result;
   }
 
   // ---------------------------------------------------------------------------
@@ -398,10 +516,7 @@
       var raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return null;
       var p = JSON.parse(raw);
-      if (!p) return null;
-      // Accept version 1 or 2
-      if (p.version !== PLAN_VERSION && p.version !== 1) return null;
-      return p;
+      return migratePlan(p);
     } catch (e4) { return null; }
   }
   function savePlan(plan) {
@@ -714,10 +829,14 @@
   function Chips(props) {
     return e('div', { className: 'gp-chips' + (props.wrap ? ' gp-chips-wrap' : '') },
       props.options.map(function (opt) {
+        var hasHint = opt.hint != null;
+        var isFeatured = !!opt.featured;
         return e('button', {
           key: opt.value,
           type: 'button',
-          className: 'gp-chip' + (props.selected === opt.value ? ' is-selected' : ''),
+          className: 'gp-chip' + (props.selected === opt.value ? ' is-selected' : '') +
+            (hasHint ? ' gp-chip-has-hint' : '') +
+            (isFeatured ? ' gp-chip-featured' : ''),
           onClick: function () { props.onPick(opt.value); },
           onMouseEnter: props.onHover ? function() { props.onHover(opt.value); } : null,
           onFocus: props.onHover ? function() { props.onHover(opt.value); } : null,
@@ -725,7 +844,8 @@
           onBlur: props.onHoverEnd ? function() { props.onHoverEnd(); } : null
         },
           opt.emoji ? e('span', { className: 'gp-chip-emoji' }, opt.emoji) : null,
-          e('span', null, opt.label)
+          e('span', null, opt.label),
+          hasHint ? e('span', { className: 'gp-chip-hint' }, opt.hint) : null
         );
       })
     );
@@ -902,10 +1022,16 @@
         temperament: PERSONA_TO_TEMPERAMENT[persona] || persona,
         pools: curated.map(function (p) { return { pool: p.pool, symbol: p.symbol, project: p.project, chain: p.chain, apy: poolTotalApy(p) }; }),
         blendedApy: rawApy, effectiveApy: apy,
-        projection: projection,
+        projection: archetype === 'growth' ? projection : null,
+        fundingMode: propFundingMode,
+        capital: propCapital,
+        deadline: propDeadline,
+        archetype: archetype,
+        target: targetAmt,
+        hero: buildPlanHero({ archetype: archetype, fundingMode: propFundingMode, capital: propCapital, monthly: monthly, years: years || 10, target: targetAmt, apy: apy }),
         savedAt: new Date().toISOString()
       });
-    }, [curated, monthly, years, persona, apy]);
+    }, [curated, monthly, years, persona, apy, goal, propCapital, propFundingMode, propDeadline]);
 
     // Top pool for CTA
     var topPool = curated[0];
@@ -1454,6 +1580,72 @@
   }
 
   // ===========================================================================
+  // ReportJourney — 3-row vertical stepper for the garden report
+  // ===========================================================================
+  function ReportJourney(props) {
+    var t = props.t;
+    var plan = props.plan;
+    var poolsReady = props.poolsReady;
+    var newBlended = props.newBlended;
+    var arch = plan.archetype || goalArchetype(plan.goal);
+
+    var dateStr = '';
+    try { dateStr = new Date(plan.savedAt).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }); }
+    catch (e11) { dateStr = ''; }
+
+    var heroText = '';
+    if (plan.hero) {
+      var h = plan.hero;
+      if (h.kind === 'flipDate' && h.months !== null) {
+        var goalDef4 = goalById(plan.goal);
+        heroText = (goalDef4 ? goalDef4.emoji + ' ' : '') + t('heroTargetFlip', formatUsdRounded(h.capital || 0), goalLabel(t, plan.goal), monthsFromNow(h.months) || '');
+      } else if (h.kind === 'targetDate' && h.months !== null) {
+        heroText = t('heroTarget', goalLabel(t, plan.goal), monthsFromNow(h.months) || '');
+      } else if (h.kind === 'forever') {
+        if (h.progressPct >= 100) {
+          heroText = t('subHeroWin', goalLabel(t, plan.goal));
+        } else {
+          heroText = t('subHeroProgress', h.progressPct, goalLabel(t, plan.goal));
+        }
+      } else if (h.kind === 'projection' && h.projection !== null) {
+        heroText = '🌳 ≈ ' + formatUsdRounded(h.projection);
+      }
+    }
+
+    var deltaApy = (props.savedBlended != null && newBlended != null) ? (newBlended - props.savedBlended) : 0;
+    var statusSubLine;
+    if (!poolsReady) {
+      statusSubLine = t('reportUpdating');
+    } else if (Math.abs(deltaApy) <= 0.05) {
+      statusSubLine = t('journeyHolding');
+    } else {
+      statusSubLine = t('journeyMoved', (deltaApy >= 0 ? '+' : '') + formatApy(deltaApy));
+    }
+
+    return e('div', { className: 'gp-journey' },
+      e('div', { className: 'gp-journey-row is-done' },
+        e('div', { className: 'gp-journey-marker' }, '✓'),
+        e('div', { className: 'gp-journey-content' },
+          e('div', { className: 'gp-journey-label' }, '🌱 ' + t('journeyPlanted', dateStr))
+        )
+      ),
+      e('div', { className: 'gp-journey-row is-active' },
+        e('div', { className: 'gp-journey-marker gp-journey-pulse' }, '🌿'),
+        e('div', { className: 'gp-journey-content' },
+          e('div', { className: 'gp-journey-label' }, t('journeyGrowing')),
+          e('div', { className: 'gp-journey-status' }, statusSubLine)
+        )
+      ),
+      heroText ? e('div', { className: 'gp-journey-row is-next' },
+        e('div', { className: 'gp-journey-marker' }, '○'),
+        e('div', { className: 'gp-journey-content' },
+          e('div', { className: 'gp-journey-label' }, heroText)
+        )
+      ) : null
+    );
+  }
+
+  // ===========================================================================
   // Garden Report (return visit) — fixed P0 bug: show immediately without API
   // ===========================================================================
   function GardenReport(props) {
@@ -1479,13 +1671,48 @@
 
     var liveApys = live.filter(function (r) { return r.liveApy != null; }).map(function (r) { return r.liveApy; });
     var newBlended = liveApys.length ? median(liveApys) : plan.blendedApy;
-    var newProjection = futureValue(plan.monthly, newBlended, plan.years);
 
+    // Apply degen haircut if applicable (pre-existing honesty bug now fixed)
+    var personaKey = TEMPERAMENT_TO_PERSONA[plan.temperament] || plan.persona;
+    var newEffective = personaKey === 'degen' ? newBlended / 3 : newBlended;
+
+    var newProjection = futureValue(plan.monthly, newEffective, plan.years);
+
+    // Derive archetype from persisted field or recompute from goal
+    var arch = plan.archetype || goalArchetype(plan.goal);
+
+    // Archetype-aware status pill
     var status, statusClass;
-    if (!poolsReady) { status = t('reportUpdating'); statusClass = 'is-ontrack'; }
-    else if (newProjection > plan.projection * 1.02) { status = t('reportAhead'); statusClass = 'is-ahead'; }
-    else if (newProjection < plan.projection * 0.98) { status = t('reportDipped'); statusClass = 'is-dipped'; }
-    else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+    if (!poolsReady) {
+      status = t('reportUpdating'); statusClass = 'is-ontrack';
+    } else if (arch === 'growth') {
+      if (newProjection > (plan.projection || 0) * 1.02) { status = t('reportAhead'); statusClass = 'is-ahead'; }
+      else if (newProjection < (plan.projection || 0) * 0.98) { status = t('reportDipped'); statusClass = 'is-dipped'; }
+      else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+    } else if (arch === 'target') {
+      var heroMonths = plan.hero && plan.hero.months != null ? plan.hero.months : null;
+      var curM;
+      if (plan.capital && plan.fundingMode === 'capital') {
+        curM = monthsUntilYieldCoversTarget(plan.capital, newEffective, plan.target);
+      } else {
+        curM = timeToTarget(plan.target, plan.monthly, newEffective);
+      }
+      if (heroMonths != null && isFinite(curM)) {
+        if (curM + 0.5 < heroMonths) { status = t('reportAhead'); statusClass = 'is-ahead'; }
+        else if (curM - 0.5 > heroMonths) { status = t('reportDipped'); statusClass = 'is-dipped'; }
+        else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+      } else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+    } else if (arch === 'subscription') {
+      var heroForever = plan.hero && plan.hero.foreverAmt != null ? plan.hero.foreverAmt : null;
+      var curFn = foreverNumber(plan.target || 20, newEffective);
+      if (heroForever != null && isFinite(curFn) && isFinite(heroForever)) {
+        if (curFn < heroForever) { status = t('reportAhead'); statusClass = 'is-ahead'; }
+        else if (curFn > heroForever) { status = t('reportDipped'); statusClass = 'is-dipped'; }
+        else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+      } else { status = t('reportOnTrack'); statusClass = 'is-ontrack'; }
+    } else {
+      status = t('reportOnTrack'); statusClass = 'is-ontrack';
+    }
 
     var dateStr = '';
     try { dateStr = new Date(plan.savedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }); }
@@ -1493,17 +1720,86 @@
 
     var stage = gardenStage(plan);
 
+    // Plan summary strip pieces
+    var onEdit = props.onEdit;
+    var stripGoalDef = goalById(plan.goal);
+    var stripGoal = (stripGoalDef ? stripGoalDef.emoji + ' ' : '') + goalLabel(t, plan.goal);
+    var stripFunding = (plan.fundingMode === 'capital' && plan.capital)
+      ? t('stripCapital', formatUsdRounded(plan.capital))
+      : (plan.monthly ? formatUsd(plan.monthly) + '/mo' : null);
+    var planPkName = personaKey === 'stable' ? t('personaStableTitle')
+      : (personaKey === 'rwa' ? t('personaRwaTitle')
+        : (personaKey === 'degen' ? t('personaDegenTitle') : ''));
+
+    // Build archetype-aware projection block
+    var projectionBlock;
+    if (arch === 'growth') {
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' }, t('reportProjectionNow', formatUsdRounded(newProjection))),
+        e('div', { className: 'gp-report-was' }, t('reportProjectionWas', formatUsdRounded(plan.projection)))
+      );
+    } else if (arch === 'target' && plan.capital && plan.fundingMode === 'capital') {
+      var mFlip = monthsUntilYieldCoversTarget(plan.capital, newEffective, plan.target);
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' }, t('heroTargetFlip', formatUsdRounded(plan.capital), goalLabel(t, plan.goal), monthsFromNow(mFlip) || '—')),
+        e('div', { className: 'gp-report-was' }, t('heroTargetFlipKeep', formatUsdRounded(plan.capital)))
+      );
+    } else if (arch === 'target') {
+      var mTarget = timeToTarget(plan.target, plan.monthly, newEffective);
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' }, t('heroTarget', goalLabel(t, plan.goal), monthsFromNow(mTarget) || '—'))
+      );
+    } else if (arch === 'subscription') {
+      var fnSub = foreverNumber(plan.target || 20, newEffective);
+      var pctSub = (plan.capital && isFinite(fnSub) && fnSub > 0) ? Math.min(100, Math.round(plan.capital / fnSub * 100)) : 0;
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' },
+          pctSub >= 100
+            ? t('subHeroWin', goalLabel(t, plan.goal))
+            : t('subHeroProgress', pctSub, goalLabel(t, plan.goal))
+        ),
+        isFinite(fnSub) ? e('div', { className: 'gp-report-was' }, formatUsdRounded(fnSub) + ' plants it forever') : null
+      );
+    } else {
+      projectionBlock = e('div', { className: 'gp-report-projection' },
+        e('div', { className: 'gp-report-now' }, t('reportProjectionNow', formatUsdRounded(newProjection))),
+        e('div', { className: 'gp-report-was' }, t('reportProjectionWas', formatUsdRounded(plan.projection)))
+      );
+    }
+
     return e('div', { className: 'gp-report gp-animate-in' },
       e('div', { className: 'gp-report-head' },
         e('div', { className: 'gp-report-emoji' }, stage.emoji),
         e('h2', { className: 'gp-report-title' }, t('reportSince', dateStr)),
+        e('div', { className: 'gp-plan-strip' },
+          e('span', { className: 'gp-strip-item', role: 'button', tabIndex: 0,
+            onClick: onEdit ? function() { onEdit('goal'); } : null,
+            onKeyDown: onEdit ? function(ev) { if (ev.key === 'Enter') onEdit('goal'); } : null
+          }, stripGoal),
+          stripFunding ? e('span', { className: 'gp-strip-sep' }, '·') : null,
+          stripFunding ? e('span', { className: 'gp-strip-item', role: 'button', tabIndex: 0,
+            onClick: onEdit ? function() { onEdit('funding-mode'); } : null,
+            onKeyDown: onEdit ? function(ev) { if (ev.key === 'Enter') onEdit('funding-mode'); } : null
+          }, stripFunding) : null,
+          e('span', { className: 'gp-strip-sep' }, '·'),
+          e('span', { className: 'gp-strip-item', role: 'button', tabIndex: 0,
+            onClick: onEdit ? function() { onEdit('temperament'); } : null,
+            onKeyDown: onEdit ? function(ev) { if (ev.key === 'Enter') onEdit('temperament'); } : null
+          }, planPkName)
+        ),
         e('div', { className: 'gp-report-status ' + statusClass }, status)
       ),
 
-      e('div', { className: 'gp-report-projection' },
-        e('div', { className: 'gp-report-now' }, t('reportProjectionNow', formatUsdRounded(newProjection))),
-        e('div', { className: 'gp-report-was' }, t('reportProjectionWas', formatUsdRounded(plan.projection)))
-      ),
+      e(ReportJourney, {
+        t: t,
+        plan: plan,
+        poolsReady: poolsReady,
+        newBlended: newBlended,
+        savedBlended: plan.blendedApy,
+        status: status
+      }),
+
+      projectionBlock,
 
       e('div', { className: 'gp-report-pools' },
         live.map(function (r) {
@@ -1521,8 +1817,8 @@
                     r.liveApy != null ? formatApy(r.liveApy) : (formatApy(r.savedApy) + ' *')
                   ),
                   poolsReady && r.liveApy != null ? e('span', { className: 'gp-report-delta' },
-                    dir === 'up' ? '▲ ' : (dir === 'down' ? '▼ ' : '● '),
-                    (delta >= 0 ? '+' : '') + formatApy(delta).replace('%', '') + '%'
+                    dir === 'flat' ? ('● ' + t('reportHolding')) : (dir === 'up' ? '▲ ' : '▼ '),
+                    dir !== 'flat' ? ((delta >= 0 ? '+' : '') + formatApy(delta).replace('%', '') + '%') : null
                   ) : null
                 )
           );
@@ -1544,7 +1840,7 @@
     return e('header', { className: 'gp-header' },
       e('a', { className: 'gp-logo', href: 'index.html' }, '🌱 DeFi Garden'),
       e('div', { className: 'gp-header-actions' },
-        // My Garden affordance — shows when plan exists
+        // My Garden affordance — shows when plan exists and not already in report view
         props.hasSavedPlan && props.mode !== 'report' ? e('button', {
           type: 'button', className: 'gp-my-garden-btn',
           onClick: props.onShowGarden
@@ -1608,6 +1904,16 @@
         .catch(function () { if (alive) setLoadStatus('error'); });
       return function () { alive = false; };
     }, []);
+
+    // A1: stable guidance APY for step-2 chip hints (pinned to 'stable' persona)
+    var stableGuidanceCurated = useMemo(function () {
+      return loadStatus === 'ready' ? curatePools(pools, 'stable', 3) : [];
+    }, [pools, loadStatus]);
+    var stableGuidanceApy = useMemo(function () {
+      return stableGuidanceCurated.length ? blendedApy(stableGuidanceCurated) : null;
+    }, [stableGuidanceCurated]);
+    var guidanceApy = stableGuidanceApy || 5.5;
+    var guidanceIsIllustrative = !stableGuidanceApy;
 
     // URL flags
     var urlParams = useMemo(function () { return new URLSearchParams(window.location.search); }, []);
@@ -1837,6 +2143,19 @@
     // Horizon chips — max 10 years per spec §2
     var horizonChips = [1, 2, 3, 5, 10];
 
+    function restoreFromPlan(plan) {
+      var p = TEMPERAMENT_TO_PERSONA[plan.temperament] || plan.persona || 'stable';
+      setAnswers({
+        goal: plan.goal,
+        monthly: plan.monthly || null,
+        years: plan.years || null,
+        persona: p,
+        capital: plan.capital || null,
+        fundingMode: plan.fundingMode || (plan.capital ? 'capital' : (plan.monthly ? 'monthly' : null)),
+        deadline: plan.deadline || null
+      });
+    }
+
     var content;
     if (mode === 'report' && savedPlan) {
       // P0 FIX: Show report immediately — don't block on API load.
@@ -1844,11 +2163,15 @@
       content = e(GardenReport, {
         t: t, plan: savedPlan, pools: pools, poolsReady: loadStatus === 'ready',
         onTend: function () {
-          var p = TEMPERAMENT_TO_PERSONA[savedPlan.temperament] || savedPlan.persona || 'stable';
-          setAnswers({ goal: savedPlan.goal, monthly: savedPlan.monthly, years: savedPlan.years, persona: p });
+          restoreFromPlan(savedPlan);
           setMode('convo'); setStep('bloom');
         },
-        onFresh: restart
+        onFresh: restart,
+        onEdit: function(editStep) {
+          restoreFromPlan(savedPlan);
+          setMode('convo');
+          setStep(editStep);
+        }
       });
     } else {
       var stepBubble;
@@ -1876,21 +2199,103 @@
         );
       } else if (step === 'funding-mode') {
         var capitalChips = [1000, 2500, 5000, 10000, 25000];
+        var goalDef3 = goalById(answers.goal);
+        var goalTarget3 = goalDef3 ? goalDef3.target : null;
+        var arch3 = goalArchetype(answers.goal);
+
+        var goalContextLine = null;
+        if (arch3 === 'subscription' && goalTarget3) {
+          var fn3 = foreverNumber(goalTarget3, guidanceApy);
+          if (isFinite(fn3)) {
+            var contextText = t('fundingContextSub', goalLabel(t, answers.goal), formatUsd(goalTarget3) + '/mo', formatApy(guidanceApy), formatUsdRounded(fn3));
+            if (guidanceIsIllustrative) {
+              contextText = contextText + ' ' + t('fundingContextIllustrative');
+            }
+            goalContextLine = e('p', { className: 'gp-goal-context' }, contextText);
+          }
+        } else if (arch3 === 'target' && goalTarget3) {
+          goalContextLine = e('p', { className: 'gp-goal-context' }, t('fundingContextTarget', goalLabel(t, answers.goal), formatUsd(goalTarget3)));
+        }
+
+        var capHints = chipHintsFor(capitalChips, {
+          archetype: arch3,
+          target: goalTarget3,
+          apy: guidanceApy,
+          mode: 'capital'
+        });
+        var capChipOptions = capHints.map(function (h) {
+          var hintLabel = null;
+          if (h.hint === 'forever' || h.forever) {
+            hintLabel = t('chipHintForever');
+          } else if (h.hint && h.hint.indexOf('pct:') === 0) {
+            var pct = parseInt(h.hint.slice(4), 10);
+            hintLabel = t('chipHintPctToForever', pct);
+          } else if (h.pct != null && !h.forever) {
+            hintLabel = t('chipHintPctToForever', h.pct);
+          } else if (h.hint && h.hint.indexOf('months:') === 0) {
+            var mths2 = parseInt(h.hint.slice(7), 10);
+            var dateStr2 = monthsFromNow(mths2);
+            hintLabel = dateStr2 ? t('chipHintYoursBy', dateStr2) : null;
+          } else if (h.months != null && isFinite(h.months)) {
+            var dateStr3 = monthsFromNow(h.months);
+            hintLabel = dateStr3 ? t('chipHintYoursBy', dateStr3) : null;
+          }
+          return { value: h.value, label: formatUsdRounded(h.value), hint: hintLabel, featured: h.featured };
+        });
+
+        var monthlyChipVals = [10, 25, 50, 100];
+        var monthlyHints = monthlyChipVals.map(function (v) {
+          var hint = null;
+          if (arch3 === 'subscription' && goalTarget3 && guidanceApy > 0) {
+            var fnSub = foreverNumber(goalTarget3, guidanceApy);
+            if (isFinite(fnSub)) {
+              var mthsSub = timeToTarget(fnSub, v, guidanceApy);
+              if (isFinite(mthsSub)) {
+                var dateSub = monthsFromNow(mthsSub);
+                if (dateSub) hint = t('chipHintForeverBy', dateSub);
+              }
+            }
+          } else if (arch3 === 'target' && goalTarget3 && guidanceApy > 0) {
+            var mthsTgt = timeToTarget(goalTarget3, v, guidanceApy);
+            if (isFinite(mthsTgt)) {
+              var dateTgt = monthsFromNow(mthsTgt);
+              if (dateTgt) hint = t('chipHintYoursBy', dateTgt);
+            }
+          }
+          return { value: v, label: formatUsd(v) + '/mo', hint: hint };
+        });
+
         stepBubble = e(Bubble, { key: 'funding-mode' },
           e('p', { className: 'gp-question' }, t('fundingModeQuestion')),
-          e(Chips, {
-            selected: fmSelected, wrap: true,
-            options: [
-              { value: 'capital', label: '💰 ' + t('fundingCapitalCard') },
-              { value: 'monthly', label: '📅 ' + t('fundingMonthlyCard') }
-            ],
-            onPick: function (v) { setFmSelected(v === fmSelected ? null : v); }
-          }),
-          fmSelected === 'capital' ? e('div', { className: 'gp-funding-amount-picker' },
+          goalContextLine,
+          e('div', { className: 'gp-temp-cards gp-funding-mode-cards' },
+            e('button', {
+              type: 'button',
+              className: 'gp-temp-card' + (fmSelected === 'capital' ? ' is-selected' : ''),
+              onClick: function () { setFmSelected(fmSelected === 'capital' ? null : 'capital'); }
+            },
+              e('div', { className: 'gp-temp-emoji' }, '💰'),
+              e('div', { className: 'gp-temp-title' }, t('fundingCapitalCard')),
+              e('div', { className: 'gp-temp-desc' }, t('fundingCapitalSubline'))
+            ),
+            e('button', {
+              type: 'button',
+              className: 'gp-temp-card' + (fmSelected === 'monthly' ? ' is-selected' : ''),
+              onClick: function () { setFmSelected(fmSelected === 'monthly' ? null : 'monthly'); }
+            },
+              e('div', { className: 'gp-temp-emoji' }, '📅'),
+              e('div', { className: 'gp-temp-title' }, t('fundingMonthlyCard')),
+              e('div', { className: 'gp-temp-desc' }, t('fundingMonthlySubline'))
+            )
+          ),
+          e('div', {
+            className: 'gp-funding-amount-picker' + (fmSelected === 'capital' ? ' gp-funding-picker-open' : ''),
+            style: fmSelected === 'capital' ? {} : { display: 'none' }
+          },
             e('p', { className: 'gp-question', style: { marginTop: '12px', fontSize: '1rem' } }, t('fundingCapitalPrompt')),
             e(Chips, {
               selected: null, wrap: true,
-              options: capitalChips.map(function (v) { return { value: v, label: formatUsdRounded(v) }; }),
+              options: capChipOptions,
               onPick: function (v) { pickFundingMode('capital', v); }
             }),
             e('form', { className: 'gp-freetext gp-money', onSubmit: submitCustomCapital },
@@ -1902,11 +2307,14 @@
               }),
               e('button', { type: 'submit', className: 'gp-text-send', 'aria-label': 'Submit' }, '→')
             )
-          ) : null,
-          fmSelected === 'monthly' ? e('div', { className: 'gp-funding-amount-picker' },
+          ),
+          e('div', {
+            className: 'gp-funding-amount-picker' + (fmSelected === 'monthly' ? ' gp-funding-picker-open' : ''),
+            style: fmSelected === 'monthly' ? {} : { display: 'none' }
+          },
             e(Chips, {
               selected: null, wrap: true,
-              options: [10, 25, 50, 100].map(function (v) { return { value: v, label: formatUsd(v) + '/mo' }; }),
+              options: monthlyHints,
               onPick: function (v) { pickFundingMode('monthly', v); }
             }),
             e('form', { className: 'gp-freetext gp-money', onSubmit: submitCustomMonthly },
@@ -1918,7 +2326,7 @@
               }),
               e('button', { type: 'submit', className: 'gp-text-send', 'aria-label': 'Submit' }, '→')
             )
-          ) : null
+          )
         );
       } else if (step === 'deadline') {
         var now = new Date();
@@ -2050,14 +2458,14 @@
       );
     }
 
-    var canRestart = (mode === 'convo' && (stepIndex > 0 || step === 'bloom'));
+    var canRestart = (stepIndex > 0 || step === 'bloom' || mode === 'report' || !!loadSavedPlan());
     var hasSavedPlan = !!loadSavedPlan();
 
     return e('div', { className: 'gp-app' },
       e(PlannerHeader, {
         dark: dark, onToggleTheme: function () { setDark(function (d) { return !d; }); },
         canRestart: canRestart, restartLabel: t('startFresh'), onRestart: restart,
-        hasSavedPlan: hasSavedPlan && mode !== 'report',
+        hasSavedPlan: hasSavedPlan,
         myGardenLabel: t('myGarden'),
         mode: mode,
         onShowGarden: function() { setMode('report'); }
@@ -2081,7 +2489,8 @@
     formatUsdRounded: formatUsdRounded,
     timeToTarget: timeToTarget, foreverNumber: foreverNumber, effectiveApy: effectiveApy,
     cumulativeYield: cumulativeYield, monthsUntilYieldCoversTarget: monthsUntilYieldCoversTarget,
-    capitalForDeadline: capitalForDeadline, dailyYield: dailyYield
+    capitalForDeadline: capitalForDeadline, dailyYield: dailyYield,
+    migratePlan: migratePlan, buildPlanHero: buildPlanHero, chipHintsFor: chipHintsFor
   };
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;
