@@ -246,7 +246,63 @@ const translations = {
       reportProjectionWas: (amt) => `(was ${amt} when you planted it)`,
       reportTend: "Tend your garden",
       reportFresh: "Start fresh",
-      reportPoolGone: "This pool is no longer in the live data — we won't guess its rate."
+      reportPoolGone: "This pool is no longer in the live data — we won't guess its rate.",
+
+      // v3 yield-funded — funding mode step
+      fundingModeQuestion: "How do you want to fund it?",
+      fundingCapitalCard: "I have money that could work",
+      fundingCapitalDesc: "Put a lump sum to work — your yield pays for it, you keep your money",
+      fundingMonthlyCard: "I'll build it monthly",
+      fundingMonthlyDesc: "Chip in monthly — we'll show what your garden covers",
+      fundingCapitalPrompt: "How much could you put to work?",
+      deadlineQuestion: "When do you want it?",
+      deadlineNoRush: "No rush",
+      deadlineSixMonths: "6 months",
+      deadlineThisYear: "This year",
+
+      // v3 — TARGET hero (capital path)
+      heroTargetFlip: (capital, goal, date) => `Park ${capital} — your ${goal} pays for itself by ${date}`,
+      heroTargetFlipKeep: (capital) => `And you keep the ${capital}.`,
+      heroTargetYieldCovers: (pct) => `Your garden covers ${pct}% of the cost`,
+      heroTargetFeasibilityTitle: (deadline) => `No honest pool gets you there by ${deadline}.`,
+      heroTargetFeasibilityWhat: "What's real:",
+
+      // v3 — persona ladder
+      ladderStables: (date) => `Established stables → ${date}`,
+      ladderRwa: (date) => `RWA & fresh → ${date}`,
+      ladderDegen: (date) => `Degen LPs* → ${date}`,
+      ladderDegenNote: "*projected at ⅓ haircut — farm rates decay",
+
+      // v3 — scale-matched comparisons
+      comparisonCreditCard: (goal, financed) => `Financed at 24% APR over a year, this ${goal} costs ~${financed} — gardened, it costs $0 of your principal.`,
+      comparisonMoneyGone: (target, dateStr, goal) => `Spend ${target} today and it's gone. Garden it and ${dateStr}-you has the ${goal} AND the money.`,
+
+      // v3 — tangibility
+      tangibilityLine: (daily, unit) => `Your garden grows ≈ ${daily}/day — a ${unit} every other day`,
+      tangibilityCoffee: "coffee",
+
+      // v3 — SUBSCRIPTION hero + ladder
+      subHeroWin: (goal) => `Your money pays for ${goal}. Forever. Starting now.`,
+      subHeroProgress: (pct, goal) => `${pct}% of the way to free ${goal}`,
+      subHeroMonthly: (date) => `At +$100/mo you cross in ${date}`,
+      subLadderTitle: "Your subscription ladder",
+      subLadderUnlocked: "unlocked",
+      subLadderProgress: (pct) => `${pct}% there`,
+      hybridDiscount: (pct) => `A permanent ${pct}% discount your money earns you`,
+
+      // v3 — ladder item labels
+      ladderSpotify: "Spotify",
+      ladderNetflix: "Netflix",
+      ladderClaude: "Claude Pro",
+      ladderGym: "Gym membership",
+      ladderPhoneBill: "Phone bill",
+
+      // v3 — share card
+      shareTargetNew: (goal, date) => `My ${goal} is buying itself — by ${date} 🤯`,
+      shareSubWin: (goal) => `My yield pays my ${goal} now 🤖💸`,
+
+      // v3 — plan strip
+      stripCapital: (amt) => `${amt} capital`
     }
   },
 
@@ -480,7 +536,63 @@ const translations = {
       reportProjectionWas: (amt) => `(심었을 땐 ${amt})`,
       reportTend: "내 정원 가꾸기",
       reportFresh: "처음부터 다시",
-      reportPoolGone: "이 풀은 더 이상 실시간 데이터에 없어요 — 수익률을 추측하지 않겠습니다."
+      reportPoolGone: "이 풀은 더 이상 실시간 데이터에 없어요 — 수익률을 추측하지 않겠습니다.",
+
+      // v3 yield-funded — funding mode step
+      fundingModeQuestion: "어떻게 마련할 건가요?",
+      fundingCapitalCard: "굴릴 돈이 있어요",
+      fundingCapitalDesc: "목돈을 굴리세요 — 수익이 목표를 채우고, 원금은 그대로예요",
+      fundingMonthlyCard: "매달 조금씩 넣을게요",
+      fundingMonthlyDesc: "매달 적립하면 정원이 얼마나 채워주는지 보여드려요",
+      fundingCapitalPrompt: "얼마나 굴릴 수 있나요?",
+      deadlineQuestion: "언제까지 갖고 싶으세요?",
+      deadlineNoRush: "여유있게",
+      deadlineSixMonths: "6개월 안에",
+      deadlineThisYear: "올해 안에",
+
+      // v3 — TARGET hero (capital path)
+      heroTargetFlip: (capital, goal, date) => `${capital}을 굴리면 — ${date}에 ${goal}이 저절로 생겨요`,
+      heroTargetFlipKeep: (capital) => `그리고 ${capital}은 그대로 남아 있어요.`,
+      heroTargetYieldCovers: (pct) => `정원이 비용의 ${pct}%를 채워줘요`,
+      heroTargetFeasibilityTitle: (deadline) => `${deadline}까지는 어떤 풀도 솔직히 불가능해요.`,
+      heroTargetFeasibilityWhat: "현실적으로는:",
+
+      // v3 — persona ladder
+      ladderStables: (date) => `안정 스테이블 → ${date}`,
+      ladderRwa: (date) => `RWA & 신규 → ${date}`,
+      ladderDegen: (date) => `데겐 LP* → ${date}`,
+      ladderDegenNote: "*수익률의 ⅓로 예상 — 팜 수익은 금방 줄어들어요",
+
+      // v3 — scale-matched comparisons
+      comparisonCreditCard: (goal, financed) => `24% APR 할부로 구매하면 이 ${goal}은 ${financed} — 정원을 가꾸면 원금 $0으로 얻어요.`,
+      comparisonMoneyGone: (target, dateStr, goal) => `지금 ${target}을 쓰면 사라져요. 정원을 가꾸면 ${dateStr}에 ${goal}도 생기고 돈도 남아요.`,
+
+      // v3 — tangibility
+      tangibilityLine: (daily, unit) => `지금 내 정원은 하루 약 ${daily}씩 자라요 — 이틀에 ${unit} 한 번`,
+      tangibilityCoffee: "커피",
+
+      // v3 — SUBSCRIPTION hero + ladder
+      subHeroWin: (goal) => `내 돈이 ${goal}을 영원히 내줘요. 지금 바로.`,
+      subHeroProgress: (pct, goal) => `무료 ${goal}까지 ${pct}% 왔어요`,
+      subHeroMonthly: (date) => `매달 +$100 추가하면 ${date}에 달성해요`,
+      subLadderTitle: "구독 사다리",
+      subLadderUnlocked: "달성",
+      subLadderProgress: (pct) => `${pct}% 달성`,
+      hybridDiscount: (pct) => `내 돈이 벌어주는 영구 ${pct}% 할인`,
+
+      // v3 — ladder item labels
+      ladderSpotify: "Spotify",
+      ladderNetflix: "Netflix",
+      ladderClaude: "Claude Pro",
+      ladderGym: "헬스장 회원권",
+      ladderPhoneBill: "휴대폰 요금",
+
+      // v3 — share card
+      shareTargetNew: (goal, date) => `내 ${goal}이 저절로 사지고 있어요 — ${date}까지 🤯`,
+      shareSubWin: (goal) => `이제 수익이 내 ${goal}을 내줘요 🤖💸`,
+
+      // v3 — plan strip
+      stripCapital: (amt) => `${amt} 원금`
     }
   }
 };

@@ -93,4 +93,46 @@ test('korean 은퇴 -> retirement', () => assert.strictEqual(gp.matchGoalFromTex
 console.log('formatUsdRounded sanity (en-US)');
 test('millions formatted with M', () => assert.ok(/M$/.test(gp.formatUsdRounded(1234567))));
 
+console.log('v3 yield-funded math');
+test('cumulativeYield at 6% for 22 months on $10k covers $1,100', () => {
+  const y = gp.cumulativeYield(10000, 6, 22);
+  assert.ok(y >= 1100, 'should cover $1,100 iPhone: got ' + y.toFixed(2));
+});
+test('cumulativeYield zero rate returns 0', () => {
+  assert.strictEqual(gp.cumulativeYield(10000, 0, 12), 0);
+});
+test('monthsUntilYieldCoversTarget iPhone $1,100 at 6% with $10k ~ 22 months (±1)', () => {
+  const m = gp.monthsUntilYieldCoversTarget(10000, 6, 1100);
+  assert.ok(Math.abs(m - 22) <= 1, 'expected ~22 months, got ' + m);
+});
+test('monthsUntilYieldCoversTarget iPhone at 10% with $10k ~ 13 months (±1)', () => {
+  const m = gp.monthsUntilYieldCoversTarget(10000, 10, 1100);
+  assert.ok(Math.abs(m - 13) <= 1, 'expected ~13 months, got ' + m);
+});
+test('monthsUntilYieldCoversTarget zero capital returns Infinity', () => {
+  assert.strictEqual(gp.monthsUntilYieldCoversTarget(0, 6, 1100), Infinity);
+});
+test('capitalForDeadline iPhone 5 months at 6% ~ $44k (±5%)', () => {
+  const c = gp.capitalForDeadline(6, 1100, 5);
+  assert.ok(Math.abs(c - 44000) / 44000 < 0.05, 'expected ~$44k, got ' + c.toFixed(0));
+});
+test('capitalForDeadline zero rate returns Infinity', () => {
+  assert.strictEqual(gp.capitalForDeadline(0, 1100, 5), Infinity);
+});
+test('foreverNumber Claude $20/mo at 5.5% ~ $4,364 (±5%)', () => {
+  const fn = gp.foreverNumber(20, 5.5);
+  assert.ok(Math.abs(fn - 4364) / 4364 < 0.05, 'expected ~$4364, got ' + fn.toFixed(0));
+});
+test('foreverNumber Spotify $12/mo at 5.5% ~ $2,618 (±5%)', () => {
+  const fn = gp.foreverNumber(12, 5.5);
+  assert.ok(Math.abs(fn - 2618) / 2618 < 0.05, 'expected ~$2618, got ' + fn.toFixed(0));
+});
+test('dailyYield $10k at 6% ~ $1.644/day (±0.01)', () => {
+  const d = gp.dailyYield(10000, 6);
+  assert.ok(Math.abs(d - 1.644) < 0.01, 'got ' + d.toFixed(3));
+});
+test('dailyYield zero capital returns 0', () => {
+  assert.strictEqual(gp.dailyYield(0, 6), 0);
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');

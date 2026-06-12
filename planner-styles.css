@@ -1044,4 +1044,98 @@
   .gp-my-garden-btn,
   .gp-primary-cta { transition: none; }
   .gp-compound-line { transition: none; }
+  .gp-item-fill-inner { transition: none; }
 }
+
+/* ==========================================================================
+   v3 yield-funded additions — calm neumorphic, no glow, no bounce
+   ========================================================================== */
+
+/* Funding mode step */
+.gp-funding-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+@media (max-width: 480px) { .gp-funding-cards { grid-template-columns: 1fr; } }
+.gp-funding-card {
+  padding: 20px 16px; border-radius: var(--neuro-radius-md);
+  box-shadow: var(--neuro-shadow-raised); cursor: pointer; text-align: center;
+  border: 2px solid transparent; transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  background: none;
+}
+.gp-funding-card:active,
+.gp-funding-card:focus-visible { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); outline: 2px solid #3B82F6; }
+.gp-funding-card.is-selected { border-color: #3B82F6; box-shadow: var(--neuro-shadow-flat); }
+.gp-funding-card-title { font-weight: 600; margin-bottom: 6px; font-size: 0.95rem; }
+.gp-funding-card-desc { font-size: 0.78rem; color: var(--neuro-text-secondary); margin-bottom: 12px; }
+.gp-funding-amount-picker { margin-top: 12px; text-align: left; }
+.gp-question-sm { font-size: 0.85rem; margin: 4px 0 8px; }
+
+/* Persona ladder */
+.gp-persona-ladder { display: grid; gap: 6px; margin: 14px 0; }
+.gp-ladder-row {
+  display: flex; align-items: flex-start; flex-direction: column;
+  padding: 10px 14px; border-radius: var(--neuro-radius-sm);
+  background: var(--color-surface); box-shadow: var(--neuro-shadow-flat); font-size: 0.875rem;
+}
+.gp-ladder-row-active { box-shadow: var(--neuro-shadow-raised); }
+.gp-ladder-label { font-weight: 500; }
+.gp-ladder-degen-note { font-size: 0.72rem; color: var(--neuro-text-secondary); margin-top: 3px; }
+
+/* Feasibility state */
+.gp-feasibility-title { font-size: 1rem; }
+.gp-feasibility-needed { font-size: 0.85rem; color: var(--neuro-text-secondary); margin: 6px 0; }
+
+/* Item fill progress bar */
+.gp-item-fill { margin: 12px 0; }
+.gp-item-fill-bar {
+  height: 8px; border-radius: 4px;
+  box-shadow: var(--neuro-shadow-pressed); overflow: hidden;
+}
+.gp-item-fill-inner {
+  height: 100%; background: #3B82F6; border-radius: 4px;
+  transition: width 0.5s ease;
+  min-width: 3px;
+}
+.gp-item-fill-label { font-size: 0.78rem; color: var(--neuro-text-secondary); margin-top: 4px; }
+
+/* Tangibility line */
+.gp-tangibility {
+  font-size: 0.8rem; color: var(--neuro-text-secondary); margin-bottom: 10px;
+  padding: 8px 12px; border-radius: var(--neuro-radius-sm);
+  box-shadow: var(--neuro-shadow-subtle);
+}
+
+/* Scale-matched comparisons */
+.gp-comparison { margin: 12px 0; display: flex; flex-direction: column; gap: 8px; }
+.gp-comparison p {
+  font-size: 0.85rem; padding: 10px 14px; border-radius: var(--neuro-radius-sm);
+  box-shadow: var(--neuro-shadow-flat); margin: 0; line-height: 1.45;
+}
+
+/* Flip-keep subline emphasis */
+.gp-flip-keep { font-style: italic; font-size: 0.9rem; }
+
+/* Subscription ladder */
+.gp-sub-ladder { margin: 14px 0; }
+.gp-sub-ladder-title { font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--neuro-text-secondary); margin-bottom: 8px; }
+.gp-sub-rung {
+  display: flex; align-items: center; gap: 8px; padding: 10px 14px;
+  border-radius: var(--neuro-radius-sm); margin-bottom: 6px;
+  background: var(--color-surface); box-shadow: var(--neuro-shadow-flat);
+}
+.gp-rung-locked { opacity: 0.65; }
+.gp-rung-unlocked { box-shadow: var(--neuro-shadow-raised); }
+.gp-rung-selected { outline: 2px solid #3B82F6; border-radius: var(--neuro-radius-sm); }
+.gp-rung-emoji { font-size: 1rem; flex-shrink: 0; }
+.gp-rung-label { flex: 1; font-size: 0.875rem; font-weight: 500; }
+.gp-rung-forever { font-size: 0.85rem; font-weight: 600; color: var(--neuro-text-secondary); }
+.gp-rung-badge {
+  background: #3B82F6; color: #fff; border-radius: 99px;
+  padding: 2px 8px; font-size: 0.72rem; font-weight: 600; flex-shrink: 0;
+}
+.gp-rung-pct { font-size: 0.75rem; color: var(--neuro-text-secondary); flex-shrink: 0; }
+
+/* Instant-win celebration */
+.gp-instant-win .gp-headline-figure { color: #3B82F6; }
+
+/* Ladder row highlight active persona */
+.gp-ladder-row-active .gp-ladder-label { color: #3B82F6; }
