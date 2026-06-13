@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -24,7 +24,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DATOM&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DATOM&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DATOM&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.67</priority>
   </url>
@@ -33,16 +33,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ATOM&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ATOM&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ATOM&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.67</priority>
+    <priority>0.68</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USDC.AXL&amp;chain=Neutron</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC.AXL&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC.AXL&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC.AXL&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.57</priority>
   </url>
@@ -51,7 +51,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DYDX&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DYDX&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DYDX&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.54</priority>
   </url>
@@ -60,7 +60,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -69,7 +69,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NTRN&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NTRN&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NTRN&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.51</priority>
   </url>
@@ -78,7 +78,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTETH&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTETH&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSTETH&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -87,7 +87,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH.AXL&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH.AXL&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH.AXL&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.48</priority>
   </url>
@@ -96,7 +96,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PHMN&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PHMN&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PHMN&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.47</priority>
   </url>
@@ -105,35 +105,17 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TIA&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TIA&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TIA&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.58</priority>
+    <priority>0.59</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=DTIA&amp;chain=Neutron</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DTIA&amp;chain=Neutron" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DTIA&amp;chain=Neutron&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DTIA&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.43</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ECLIPASTRO&amp;chain=Neutron</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ECLIPASTRO&amp;chain=Neutron" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ECLIPASTRO&amp;chain=Neutron&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ECLIPASTRO&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=XASTRO&amp;chain=Neutron</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XASTRO&amp;chain=Neutron" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XASTRO&amp;chain=Neutron&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XASTRO&amp;chain=Neutron" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
   </url>
 </urlset>

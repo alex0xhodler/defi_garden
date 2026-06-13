@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XALGO&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XALGO&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XALGO&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.72</priority>
   </url>
@@ -24,7 +24,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ALGO&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ALGO&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ALGO&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.65</priority>
   </url>
@@ -33,43 +33,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SILVER&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SILVER&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SILVER&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.63</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDC&amp;chain=Algorand</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Algorand" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Algorand&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.62</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GOLD&amp;chain=Algorand</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GOLD&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GOLD&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GOLD&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.62</priority>
+    <priority>0.61</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GOBTC&amp;chain=Algorand</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GOBTC&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GOBTC&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GOBTC&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=Algorand</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Algorand" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Algorand&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Algorand" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GOETH&amp;chain=Algorand</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GOETH&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GOETH&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GOETH&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.55</priority>
   </url>
@@ -78,7 +78,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TALGO&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TALGO&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TALGO&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.51</priority>
   </url>
@@ -87,7 +87,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -96,7 +96,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ISOLATED&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ISOLATED&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ISOLATED&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.47</priority>
   </url>
@@ -105,7 +105,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -114,16 +114,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GALGO&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GALGO&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GALGO&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.44</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WLINK&amp;chain=Algorand</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WLINK&amp;chain=Algorand" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WLINK&amp;chain=Algorand&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WLINK&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.44</priority>
   </url>
@@ -132,17 +123,26 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NTT&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NTT&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NTT&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.43</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WLINK&amp;chain=Algorand</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WLINK&amp;chain=Algorand" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WLINK&amp;chain=Algorand&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WLINK&amp;chain=Algorand" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.42</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WSOL&amp;chain=Algorand</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSOL&amp;chain=Algorand" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSOL&amp;chain=Algorand&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSOL&amp;chain=Algorand" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.85</priority>
+    <priority>0.86</priority>
   </url>
 </urlset>

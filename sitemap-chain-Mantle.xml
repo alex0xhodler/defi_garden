@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDE&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDE&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDE&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -24,7 +24,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUPUSDT&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDT&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUPUSDT&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.84</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT0&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT0&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT0&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT0&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.84</priority>
   </url>
@@ -33,25 +42,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDY&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDY&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDY&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDT0&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT0&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT0&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT0&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.83</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GHO&amp;chain=Mantle</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GHO&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GHO&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GHO&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.82</priority>
   </url>
@@ -60,34 +60,43 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FBTC&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FBTC&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FBTC&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.74</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDC&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDT&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WETH&amp;chain=Mantle</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WMNT&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WMNT&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WMNT&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WMNT&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -96,79 +105,61 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BILL&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BILL&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BILL&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.61</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WMNT&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WMNT&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WMNT&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WMNT&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.58</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=BSB&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BSB&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BSB&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BSB&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.58</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=OPG&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OPG&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OPG&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OPG&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.57</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USDE&amp;chain=Mantle</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDE&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDE&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDE&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=METH&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=METH&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=METH&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=METH&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=BSB&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BSB&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BSB&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BSB&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.86</priority>
+    <priority>0.59</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WGOOGLX&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WGOOGLX&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WGOOGLX&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WGOOGLX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=OPG&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OPG&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OPG&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OPG&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.51</priority>
+    <priority>0.57</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=ELSA&amp;chain=Mantle</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ELSA&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ELSA&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ELSA&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.57</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WAAPLX&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAAPLX&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAAPLX&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAAPLX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=WHOODX&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WHOODX&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WHOODX&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WHOODX&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WGOOGLX&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WGOOGLX&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WGOOGLX&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WGOOGLX&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
@@ -177,34 +168,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WQQQX&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WQQQX&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WQQQX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WAAPLX&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAAPLX&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAAPLX&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAAPLX&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WNVDAX&amp;chain=Mantle</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WNVDAX&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WNVDAX&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WNVDAX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.56</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WHOODX&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WHOODX&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WHOODX&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WHOODX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WSPYX&amp;chain=Mantle</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSPYX&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSPYX&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSPYX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.61</priority>
   </url>
@@ -213,7 +204,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WTSLAX&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WTSLAX&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WTSLAX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.56</priority>
   </url>
@@ -222,7 +213,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WMETAX&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WMETAX&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WMETAX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
@@ -231,7 +222,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VOOI&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VOOI&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VOOI&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SCOR&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SCOR&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SCOR&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SCOR&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
@@ -240,25 +240,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WMSTRX&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WMSTRX&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WMSTRX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.55</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SCOR&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SCOR&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SCOR&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SCOR&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WCRCLX&amp;chain=Mantle</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WCRCLX&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WCRCLX&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WCRCLX&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
@@ -267,26 +258,26 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CMETH&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CMETH&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CMETH&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.64</priority>
+    <priority>0.58</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USD1&amp;chain=Mantle</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USD1&amp;chain=Mantle" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USD1&amp;chain=Mantle&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USD1&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.83</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=AUSD&amp;chain=Mantle</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AUSD&amp;chain=Mantle" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AUSD&amp;chain=Mantle&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AUSD&amp;chain=Mantle" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <loc>https://www.defi.garden/?token=METH&amp;chain=Mantle</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=METH&amp;chain=Mantle" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=METH&amp;chain=Mantle&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=METH&amp;chain=Mantle" />
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.83</priority>
+    <priority>0.86</priority>
   </url>
 </urlset>

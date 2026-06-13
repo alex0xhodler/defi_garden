@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Waves" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Waves&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Waves" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,16 +15,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SWAVES&amp;chain=Waves" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SWAVES&amp;chain=Waves&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SWAVES&amp;chain=Waves" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.54</priority>
+    <priority>0.55</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WAVES&amp;chain=Waves</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAVES&amp;chain=Waves" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAVES&amp;chain=Waves&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAVES&amp;chain=Waves" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.49</priority>
   </url>
@@ -33,7 +33,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XTN&amp;chain=Waves" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XTN&amp;chain=Waves&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XTN&amp;chain=Waves" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.50</priority>
   </url>
@@ -42,8 +42,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SWOP&amp;chain=Waves" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SWOP&amp;chain=Waves&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SWOP&amp;chain=Waves" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.43</priority>
+    <priority>0.44</priority>
   </url>
 </urlset>

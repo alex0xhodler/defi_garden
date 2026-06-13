@@ -2459,6 +2459,34 @@ function App() {
               React.createElement('span', { className: 'button-icon' }, '🚀'),
               React.createElement('span', { className: 'button-text' }, t('feelingDegen'))
             )
+          ),
+
+          // Garden Planner entry — goal-first invitation under the search buttons.
+          // Plan-aware: if user has a saved plan, show their projection instead of generic CTA.
+          !selectedToken && !chainMode && React.createElement('a', {
+            className: 'planner-entry',
+            href: language === 'ko' ? 'plan.html?lang=ko' : 'plan.html'
+          }, (() => {
+            try {
+              var saved = localStorage.getItem('garden-plan');
+              if (saved) {
+                var p = JSON.parse(saved);
+                if (p && (p.version === 1 || p.version === 2) && p.projection && p.savedAt) {
+                  var year = new Date(p.savedAt).getFullYear() + (p.years || 10);
+                  var projFmt = '$' + Math.round(p.projection).toLocaleString('en-US');
+                  return [
+                    React.createElement('span', { key: 'icon', className: 'planner-entry-icon', 'aria-hidden': 'true' }, '🌱'),
+                    React.createElement('span', { key: 'q', className: 'planner-entry-question' }, '🌱 Your garden — ≈ ' + projFmt + ' by ' + year + ' →')
+                  ];
+                }
+              }
+            } catch (e2) {}
+            return [
+              React.createElement('span', { key: 'icon', className: 'planner-entry-icon', 'aria-hidden': 'true' }, '🌱'),
+              React.createElement('span', { key: 'q', className: 'planner-entry-question' }, t('plannerEntryQuestion')),
+              React.createElement('span', { key: 'cta', className: 'planner-entry-cta' }, t('plannerEntryCta'))
+            ];
+          })()
           )
         )
       ),

@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Bitcoin" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Bitcoin&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Bitcoin" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,17 +15,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTC&amp;chain=Bitcoin" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTC&amp;chain=Bitcoin&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTC&amp;chain=Bitcoin" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
+    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.88</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=RUNE&amp;chain=Bitcoin</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RUNE&amp;chain=Bitcoin" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RUNE&amp;chain=Bitcoin&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RUNE&amp;chain=Bitcoin" />
-    <lastmod>2026-06-06T08:02:20.019Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.79</priority>
   </url>
 </urlset>
