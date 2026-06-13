@@ -247,6 +247,13 @@ const translations = {
       reportTend: "Tend your garden",
       reportFresh: "Start fresh",
       reportPoolGone: "This pool is no longer in the live data — we won't guess its rate.",
+      reportHolding: "holding",
+
+      // v3.1 — journey stepper
+      journeyPlanted: (date) => `Planted ${date}`,
+      journeyGrowing: "Growing now",
+      journeyHolding: "rates holding steady",
+      journeyMoved: (delta) => `rates moved ${delta}`,
 
       // v3 yield-funded — funding mode step
       fundingModeQuestion: "How do you want to fund it?",
@@ -302,7 +309,18 @@ const translations = {
       shareSubWin: (goal) => `My yield pays my ${goal} now 🤖💸`,
 
       // v3 — plan strip
-      stripCapital: (amt) => `${amt} capital`
+      stripCapital: (amt) => `${amt} capital`,
+
+      // v3.1 — funding context + chip hints
+      fundingContextSub: (goal, bill, apy, foreverAmt) => `${goal} costs ${bill}. At ${apy}, you'd need ≈${foreverAmt} parked to cover it forever — and keep your money.`,
+      fundingContextTarget: (goal, price) => `${goal} costs ${price}. Park enough capital and the yield buys it — you keep the money.`,
+      fundingContextIllustrative: "(illustrative 5.5% — live rates loading)",
+      fundingCapitalSubline: "Park a lump sum — the yield pays, you keep the money",
+      fundingMonthlySubline: "Grow into it bit by bit",
+      chipHintForever: "forever ✓",
+      chipHintPctToForever: (pct) => `${pct}% to forever`,
+      chipHintYoursBy: (date) => `yours by ${date}`,
+      chipHintForeverBy: (date) => `forever by ${date}`
     }
   },
 
@@ -537,6 +555,13 @@ const translations = {
       reportTend: "내 정원 가꾸기",
       reportFresh: "처음부터 다시",
       reportPoolGone: "이 풀은 더 이상 실시간 데이터에 없어요 — 수익률을 추측하지 않겠습니다.",
+      reportHolding: "유지 중",
+
+      // v3.1 — journey stepper
+      journeyPlanted: (date) => `${date}에 심었어요`,
+      journeyGrowing: "자라는 중",
+      journeyHolding: "수익률이 안정적이에요",
+      journeyMoved: (delta) => `수익률이 ${delta} 변동됐어요`,
 
       // v3 yield-funded — funding mode step
       fundingModeQuestion: "어떻게 마련할 건가요?",
@@ -592,7 +617,18 @@ const translations = {
       shareSubWin: (goal) => `이제 수익이 내 ${goal}을 내줘요 🤖💸`,
 
       // v3 — plan strip
-      stripCapital: (amt) => `${amt} 원금`
+      stripCapital: (amt) => `${amt} 원금`,
+
+      // v3.1 — funding context + chip hints
+      fundingContextSub: (goal, bill, apy, foreverAmt) => `${goal}은 ${bill}이에요. ${apy} 수익률에서 ${foreverAmt}을 굴리면 영원히 낼 수 있어요 — 원금은 그대로예요.`,
+      fundingContextTarget: (goal, price) => `${goal}은 ${price}예요. 충분한 자본을 굴리면 수익이 사줘요 — 원금은 남아요.`,
+      fundingContextIllustrative: "(예시 5.5% — 실시간 수익률 로딩 중)",
+      fundingCapitalSubline: "목돈을 굴려요 — 수익이 내주고, 원금은 그대로",
+      fundingMonthlySubline: "매달 조금씩 키워가요",
+      chipHintForever: "영구 달성 ✓",
+      chipHintPctToForever: (pct) => `달성까지 ${pct}%`,
+      chipHintYoursBy: (date) => `${date}에 내 것`,
+      chipHintForeverBy: (date) => `${date}에 영구 달성`
     }
   }
 };
