@@ -109,11 +109,27 @@
     return (Number(monthlyTarget) * 12) / rate;
   }
   // Cumulative subscription ladder — pure, unit-testable.
-  // items: array of { id, emoji, labelKey, monthly } (sorted ascending by monthly already, but we sort to be safe)
+  // items: array of { id, emoji, labelKey, monthly }
   // apy: annual rate %; capital: user lump sum or null
-  // Returns array (same length, same order) with cumulative fields added.
-  function buildLadder(items, apy, capital) {
-    var sorted = items.slice().sort(function (a, b) { return a.monthly - b.monthly; });
+  // anchorId (optional): when provided and matches an item id, that item is placed first (rung 0);
+  //   remaining items follow sorted ascending by monthly; cumulative starts from anchor.
+  //   Unknown anchorId falls back to normal ascending sort.
+  // Returns array (same length) with cumulative fields added.
+  function buildLadder(items, apy, capital, anchorId) {
+    var anchor = null;
+    var rest = items.slice();
+    if (anchorId) {
+      var anchorIdx = -1;
+      for (var ai = 0; ai < rest.length; ai++) {
+        if (rest[ai].id === anchorId) { anchorIdx = ai; break; }
+      }
+      if (anchorIdx !== -1) {
+        anchor = rest[anchorIdx];
+        rest = rest.slice(0, anchorIdx).concat(rest.slice(anchorIdx + 1));
+      }
+    }
+    rest.sort(function (a, b) { return a.monthly - b.monthly; });
+    var sorted = anchor ? [anchor].concat(rest) : rest;
     var cumMonthly = 0;
     return sorted.map(function (item) {
       cumMonthly += item.monthly;
@@ -133,6 +149,62 @@
         pct: pct
       };
     });
+  }
+
+  // coveredBundle(capital, apyPct, anchorGoalId)
+  // Returns which anchored subscription-ladder rungs the capital already covers.
+  // Builds the anchored ladder (rung-0 = anchor goal, rest sorted asc) and walks
+  // from the bottom up collecting every rung whose cumulative foreverAmt <= capital.
+  //
+  // Returns:
+  //   covered         — rungs (in ladder order) whose foreverAmt <= capital
+  //   coveredCount    — covered.length
+  //   combinedMonthly — cumMonthly of highest covered rung (0 if none)
+  //   combinedForever — foreverAmt of highest covered rung (0 if none)
+  //   surplus         — max(0, capital - combinedForever)
+  //   nextRung        — first uncovered rung, or null if all covered
+  //   nextPct         — round(capital / nextRung.foreverAmt * 100) clamped 0..100, or null
+  function coveredBundle(capital, apyPct, anchorGoalId) {
+    var cap = Number(capital) || 0;
+    var ladder = buildLadder(SUBSCRIPTION_LADDER, apyPct, cap, anchorGoalId);
+    var covered = [];
+    var nextRung = null;
+    for (var i = 0; i < ladder.length; i++) {
+      var rung = ladder[i];
+      if (isFinite(rung.foreverAmt) && cap >= rung.foreverAmt) {
+        covered.push(rung);
+      } else {
+        if (nextRung === null) nextRung = rung;
+      }
+    }
+    var highestCovered = covered.length > 0 ? covered[covered.length - 1] : null;
+    var combinedMonthly = highestCovered ? highestCovered.cumMonthly : 0;
+    var combinedForever = highestCovered ? highestCovered.foreverAmt : 0;
+    var surplus = Math.max(0, cap - (isFinite(combinedForever) ? combinedForever : 0));
+    var nextPct = null;
+    if (nextRung && isFinite(nextRung.foreverAmt) && nextRung.foreverAmt > 0) {
+      nextPct = Math.min(100, Math.round(cap / nextRung.foreverAmt * 100));
+    }
+    return {
+      covered: covered,
+      coveredCount: covered.length,
+      combinedMonthly: combinedMonthly,
+      combinedForever: combinedForever,
+      surplus: surplus,
+      nextRung: nextRung,
+      nextPct: nextPct
+    };
+  }
+
+  // joinBundle(labels) — join array of label strings for the bundle headline.
+  // 0: ""   1: "Spotify"   2: "A + B"   3: "A, B + C"   >3: "A, B, C + N more"
+  function joinBundle(labels) {
+    if (!labels || labels.length === 0) return '';
+    if (labels.length === 1) return labels[0];
+    if (labels.length === 2) return labels[0] + ' + ' + labels[1];
+    if (labels.length === 3) return labels[0] + ', ' + labels[1] + ' + ' + labels[2];
+    var extra = labels.length - 3;
+    return labels[0] + ', ' + labels[1] + ', ' + labels[2] + ' + ' + extra + ' more';
   }
 
   // Add N months to today, return readable string; returns null for Infinity/NaN
@@ -1261,23 +1333,65 @@
     function doShare() {
       setSharing(true);
       var heroDate = ladderDates ? monthsFromNow(ladderDates[pk]) : null;
-      var heroText = (archetype === 'target' && isCapitalPath && heroDate)
-        ? t('shareTargetNew', goalLabel(t, goal), heroDate)
-        : (archetype === 'subscription' && isInstantWin)
-          ? t('shareSubWin', goalLabel(t, goal))
-          : archetype === 'target' && targetDate
-            ? t('heroTarget', goalLabel(t, goal), targetDate)
-            : archetype === 'subscription' && foreverDate
-              ? t('heroSubscription', goalLabel(t, goal), foreverDate)
-              : t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
+      var shareHeadline, shareSubline, shareDrawChart;
+
+      if (archetype === 'subscription' && isCapitalPath) {
+        // Subscription capital path: bundle-aware headline + correct figures
+        var shareBundle = coveredBundle(subCapital, apy, goal);
+        var shareBundleLabels = shareBundle.covered.map(function (r) { return t(r.labelKey); });
+        var shareBundleList = joinBundle(shareBundleLabels);
+        if (shareBundleList) {
+          shareHeadline = t('shareSubBundle', shareBundleList);
+          shareSubline = t('shareSubSubline',
+            formatUsdRounded(subCapital),
+            formatApy(apy),
+            formatUsd(shareBundle.combinedMonthly)
+          );
+        } else {
+          // Capital parked but doesn't cover anchor yet — fall back gracefully
+          shareHeadline = t('shareSubWin', goalLabel(t, goal));
+          shareSubline = t('shareSubSubline',
+            formatUsdRounded(subCapital),
+            formatApy(apy),
+            formatUsd(0)
+          );
+        }
+        shareDrawChart = false;
+      } else if (archetype === 'subscription') {
+        // Monthly subscription path
+        shareHeadline = foreverDate
+          ? t('heroSubscription', goalLabel(t, goal), foreverDate)
+          : t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
+        shareSubline = t('shareSubline', formatUsd(monthly), slideYears);
+        shareDrawChart = true;
+      } else if (archetype === 'target') {
+        // Target path
+        if (isCapitalPath && heroDate) {
+          shareHeadline = t('shareTargetNew', goalLabel(t, goal), heroDate);
+        } else if (targetDate) {
+          shareHeadline = t('heroTarget', goalLabel(t, goal), targetDate);
+        } else {
+          shareHeadline = t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
+        }
+        shareSubline = isCapitalPath
+          ? formatUsdRounded(slideCapital) + ' · ' + formatApy(apy)
+          : t('shareSubline', formatUsd(monthly), slideYears);
+        shareDrawChart = !isCapitalPath;
+      } else {
+        // Growth path
+        shareHeadline = t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
+        shareSubline = t('shareSubline', formatUsd(monthly), slideYears);
+        shareDrawChart = true;
+      }
 
       renderShareImage({
-        headline: heroText,
+        headline: shareHeadline,
         goalLabel: goalLabel(t, goal),
-        subline: t('shareSubline', formatUsd(monthly), slideYears),
+        subline: shareSubline,
         footer: t('shareFooter'),
         years: slideYears,
-        you: slideMonthly, apy: apy
+        you: slideMonthly, apy: apy,
+        drawChart: shareDrawChart
       }).then(function () { setSharing(false); }).catch(function () { setSharing(false); });
     }
 
@@ -1304,11 +1418,23 @@
     function doNativeShare() {
       var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline);
       var nativeHeroDate = ladderDates ? monthsFromNow(ladderDates[pk]) : null;
-      var heroText = (archetype === 'target' && isCapitalPath && nativeHeroDate)
-        ? t('shareTargetNew', goalLabel(t, goal), nativeHeroDate)
-        : archetype === 'target' && targetDate
-          ? t('heroTarget', goalLabel(t, goal), targetDate)
-          : t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
+      var heroText;
+      if (archetype === 'subscription' && isCapitalPath) {
+        var nativeBundle = coveredBundle(subCapital, apy, goal);
+        var nativeBundleLabels = nativeBundle.covered.map(function (r) { return t(r.labelKey); });
+        var nativeBundleList = joinBundle(nativeBundleLabels);
+        heroText = nativeBundleList
+          ? t('shareSubBundle', nativeBundleList)
+          : t('shareSubWin', goalLabel(t, goal));
+      } else if (archetype === 'subscription' && foreverDate) {
+        heroText = t('heroSubscription', goalLabel(t, goal), foreverDate);
+      } else if (archetype === 'target' && isCapitalPath && nativeHeroDate) {
+        heroText = t('shareTargetNew', goalLabel(t, goal), nativeHeroDate);
+      } else if (archetype === 'target' && targetDate) {
+        heroText = t('heroTarget', goalLabel(t, goal), targetDate);
+      } else {
+        heroText = t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
+      }
       if (navigator.share) {
         navigator.share({ title: 'My DeFi Garden', text: heroText, url: url }).catch(function(){});
       }
@@ -1371,33 +1497,51 @@
         e('div', { className: 'gp-headline-sub' }, t('hybridDiscount', yieldPct))
       );
     } else if (archetype === 'subscription') {
-      // SUBSCRIPTION hero
-      if (isInstantWin) {
-        var surplusAmt = (isFinite(subCapital) && isFinite(foreverAmt) && subCapital > foreverAmt)
-          ? subCapital - foreverAmt : 0;
+      // SUBSCRIPTION hero — bundle-aware via coveredBundle
+      var bundle = isCapitalPath
+        ? coveredBundle(subCapital, apy, goal)
+        : { coveredCount: 0, covered: [], combinedMonthly: 0, combinedForever: 0, surplus: 0, nextRung: null, nextPct: null };
+
+      if (isCapitalPath && bundle.coveredCount >= 1) {
+        // Instant-win: capital covers at least anchor rung
+        var bundleLabels = bundle.covered.map(function (r) { return t(r.labelKey); });
+        var bundleList = joinBundle(bundleLabels);
+        var surplusChip = null;
+        if (bundle.nextRung && bundle.surplus >= 1) {
+          surplusChip = e('div', { className: 'gp-instant-win-surplus' },
+            t('subHeroTowardNext', formatUsdRounded(bundle.surplus), t(bundle.nextRung.labelKey))
+          );
+        } else if (!bundle.nextRung && bundle.surplus > 0) {
+          surplusChip = e('div', { className: 'gp-instant-win-surplus' },
+            t('subHeroWinSurplus', formatUsdRounded(bundle.surplus))
+          );
+        }
         heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in gp-instant-win' },
           e('div', { className: 'gp-instant-win-eyebrow' }, t('subHeroWinEyebrow')),
-          e('div', { className: 'gp-headline-figure' }, t('subHeroWin', goalLabel(t, goal))),
+          e('div', { className: 'gp-headline-figure' }, t('subHeroWinBundle', bundleList)),
           e('div', { className: 'gp-headline-sub' },
             t('subHeroWinCovers',
-              isFinite(foreverAmt) ? formatUsdRounded(foreverAmt) : '…',
-              formatUsd(subGoalMonthly) + '/mo',
+              isFinite(bundle.combinedForever) ? formatUsdRounded(bundle.combinedForever) : '…',
+              formatUsd(bundle.combinedMonthly),
               formatApy(apy)
             )
           ),
-          (surplusAmt > 0 && isFinite(surplusAmt))
-            ? e('div', { className: 'gp-instant-win-surplus' }, t('subHeroWinSurplus', formatUsdRounded(surplusAmt)))
-            : null
+          surplusChip
         );
       } else {
+        // Progress variant — anchored to first rung (anchor goal)
+        var anchorRungForever = bundle.nextRung ? bundle.nextRung.foreverAmt : foreverAmt;
+        var progressPct = (subCapital && isFinite(anchorRungForever) && anchorRungForever > 0)
+          ? Math.min(100, Math.round(subCapital / anchorRungForever * 100))
+          : subProgress;
         var crossDate = isCapitalPath
-          ? null  // capital-only: no monthly top-up date without knowing deposit rate
+          ? null
           : foreverDate;
         heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in' },
-          e('div', { className: 'gp-headline-figure' }, t('subHeroProgress', subProgress, goalLabel(t, goal))),
+          e('div', { className: 'gp-headline-figure' }, t('subHeroProgress', progressPct, goalLabel(t, goal))),
           crossDate ? e('div', { className: 'gp-headline-sub' }, t('subHeroMonthly', crossDate)) : null,
-          isFinite(foreverAmt) ? e('div', { className: 'gp-headline-sub' },
-            formatUsdRounded(foreverAmt) + ' plants it forever'
+          isFinite(anchorRungForever) ? e('div', { className: 'gp-headline-sub' },
+            formatUsdRounded(anchorRungForever) + ' plants it forever'
           ) : null
         );
       }
@@ -1479,19 +1623,19 @@
           : null
       ) : null,
 
-      // 2. INTERACTIVE CHART
-      e('div', { className: 'gp-curve-wrap gp-animate-in' },
+      // 2. INTERACTIVE CHART (hidden for subscription — ladder replaces it)
+      archetype !== 'subscription' ? e('div', { className: 'gp-curve-wrap gp-animate-in' },
         e(GrowthCurve, {
           monthly: slideMonthly, years: slideYears, apy: apy,
           target: archetype === 'target' ? targetAmt : null,
-          forever: archetype === 'subscription' ? foreverAmt : null,
+          forever: null,
           ariaLabel: t('bloomCurveYou')
         }),
         e('div', { className: 'gp-legend' },
           e('span', { className: 'gp-legend-item gp-legend-you' }, e('i', null), t('bloomCurveYou')),
           e('span', { className: 'gp-legend-item gp-legend-bank' }, e('i', null), t('bloomCurveBank'))
         )
-      ),
+      ) : null,
 
       // 3. MAKE-IT-YOURS — sliders + persona pills
       e('div', { className: 'gp-makeit gp-animate-in' },
@@ -1823,50 +1967,87 @@
       ctx.fill();
       ctx.restore();
 
-      ctx.save();
-      var cx = 110, cw = W - 220, cy = 360, ch = 150;
-      var pts = 40;
-      ctx.beginPath();
-      for (var i = 0; i <= pts; i++) {
-        var yr = (opts.years * i) / pts;
-        var v = futureValue(opts.you, opts.apy, yr);
-        var vmax = futureValue(opts.you, opts.apy, opts.years) || 1;
-        var X = cx + (i / pts) * cw;
-        var Y = cy + ch - (v / vmax) * ch;
-        if (i === 0) ctx.moveTo(X, Y); else ctx.lineTo(X, Y);
+      if (opts.drawChart) {
+        ctx.save();
+        var cx = 110, cw = W - 220, cy = 360, ch = 150;
+        var pts = 40;
+        ctx.beginPath();
+        for (var i = 0; i <= pts; i++) {
+          var yr = (opts.years * i) / pts;
+          var v = futureValue(opts.you, opts.apy, yr);
+          var vmax = futureValue(opts.you, opts.apy, opts.years) || 1;
+          var X = cx + (i / pts) * cw;
+          var Y = cy + ch - (v / vmax) * ch;
+          if (i === 0) ctx.moveTo(X, Y); else ctx.lineTo(X, Y);
+        }
+        ctx.lineTo(cx + cw, cy + ch);
+        ctx.lineTo(cx, cy + ch);
+        ctx.closePath();
+        var cgrad = ctx.createLinearGradient(0, cy, 0, cy + ch);
+        cgrad.addColorStop(0, 'rgba(59,130,246,0.28)');
+        cgrad.addColorStop(1, 'rgba(59,130,246,0)');
+        ctx.fillStyle = cgrad;
+        ctx.fill();
+        ctx.beginPath();
+        for (var k = 0; k <= pts; k++) {
+          var yr2 = (opts.years * k) / pts;
+          var v2 = futureValue(opts.you, opts.apy, yr2);
+          var vmax2 = futureValue(opts.you, opts.apy, opts.years) || 1;
+          var X2 = cx + (k / pts) * cw;
+          var Y2 = cy + ch - (v2 / vmax2) * ch;
+          if (k === 0) ctx.moveTo(X2, Y2); else ctx.lineTo(X2, Y2);
+        }
+        ctx.strokeStyle = '#3B82F6';
+        ctx.lineWidth = 5; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+        ctx.stroke();
+        ctx.restore();
       }
-      ctx.lineTo(cx + cw, cy + ch);
-      ctx.lineTo(cx, cy + ch);
-      ctx.closePath();
-      var cgrad = ctx.createLinearGradient(0, cy, 0, cy + ch);
-      cgrad.addColorStop(0, 'rgba(59,130,246,0.28)');
-      cgrad.addColorStop(1, 'rgba(59,130,246,0)');
-      ctx.fillStyle = cgrad;
-      ctx.fill();
-      ctx.beginPath();
-      for (var k = 0; k <= pts; k++) {
-        var yr2 = (opts.years * k) / pts;
-        var v2 = futureValue(opts.you, opts.apy, yr2);
-        var vmax2 = futureValue(opts.you, opts.apy, opts.years) || 1;
-        var X2 = cx + (k / pts) * cw;
-        var Y2 = cy + ch - (v2 / vmax2) * ch;
-        if (k === 0) ctx.moveTo(X2, Y2); else ctx.lineTo(X2, Y2);
-      }
-      ctx.strokeStyle = '#3B82F6';
-      ctx.lineWidth = 5; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
-      ctx.stroke();
-      ctx.restore();
 
       ctx.fillStyle = '#0F172A';
       ctx.textBaseline = 'alphabetic';
       ctx.font = '600 34px "Satoshi", system-ui, -apple-system, sans-serif';
       ctx.fillText('🌱 ' + (opts.goalLabel || ''), 110, 170);
+
+      // Headline: fit to card width; wrap to 2 lines if needed, or step down font
       ctx.font = '700 72px "Satoshi", system-ui, -apple-system, sans-serif';
       ctx.fillStyle = '#1E40AF';
-      ctx.fillText(opts.headline, 110, 270);
+      var availW = W - 220;
+      var headline = opts.headline || '';
+      var headlineWrapped = false;
+      if (ctx.measureText(headline).width <= availW) {
+        ctx.fillText(headline, 110, 270);
+      } else {
+        // Try to split on spaces into two lines
+        var words = headline.split(' ');
+        var line1 = '', line2 = '';
+        var splitFound = false;
+        for (var wi = 1; wi < words.length; wi++) {
+          var candidate = words.slice(0, wi).join(' ');
+          var rest = words.slice(wi).join(' ');
+          if (ctx.measureText(candidate).width <= availW && ctx.measureText(rest).width <= availW) {
+            line1 = candidate; line2 = rest; splitFound = true;
+          }
+        }
+        if (splitFound && line2) {
+          ctx.fillText(line1, 110, 248);
+          ctx.fillText(line2, 110, 320);
+          headlineWrapped = true;
+        } else {
+          // Step font down until it fits
+          var fsize = 72;
+          while (fsize > 28 && ctx.measureText(headline).width > availW) {
+            fsize -= 4;
+            ctx.font = '700 ' + fsize + 'px "Satoshi", system-ui, -apple-system, sans-serif';
+          }
+          ctx.fillText(headline, 110, 270);
+        }
+      }
+
+      // Subline y offset: if headline was wrapped, push subline down to avoid collision
+      var sublineY = headlineWrapped ? 360 : 322;
       ctx.font = '500 30px "Satoshi", system-ui, -apple-system, sans-serif';
       ctx.fillStyle = '#475569';
-      ctx.fillText(opts.subline, 110, 322);
+      ctx.fillText(opts.subline || '', 110, sublineY);
       ctx.font = '700 30px "Satoshi", system-ui, -apple-system, sans-serif';
       ctx.fillStyle = '#3B82F6';
       ctx.textAlign = 'right';
@@ -1874,7 +2055,7 @@
       ctx.textAlign = 'left';
       ctx.font = '400 20px "Satoshi", system-ui, -apple-system, sans-serif';
       ctx.fillStyle = '#94A3B8';
-      ctx.fillText(opts.footer, 110, H - 100);
+      ctx.fillText(opts.footer || '', 110, H - 100);
 
       try {
         c.toBlob(function (blob) {
@@ -2051,25 +2232,23 @@
 
     // --- Dashboard: archetype-aware progress / what's next ---
     var progressBlock = null;
+    var repBundle = null;
     if (arch === 'subscription') {
-      var ladder = buildLadder(SUBSCRIPTION_LADDER, newEffective, plan.capital || null);
-      var unlocked = ladder.filter(function (r) { return r.unlocked; });
-      var nextLocked = null;
-      for (var li = 0; li < ladder.length; li++) {
-        if (!ladder[li].unlocked) { nextLocked = ladder[li]; break; }
-      }
-      var unlockedLabels = unlocked.map(function (r) { return r.emoji + ' ' + t(r.labelKey); }).join(', ');
+      repBundle = coveredBundle(plan.capital || null, newEffective, plan.goal);
+      var repCovered = repBundle.covered;
+      var repNextRung = repBundle.nextRung;
+      var repCoveredLabels = repCovered.map(function (r) { return r.emoji + ' ' + t(r.labelKey); }).join(', ');
       progressBlock = e('div', { className: 'gp-report-progress' },
-        unlocked.length > 0
-          ? e('div', { className: 'gp-report-progress-covers' }, t('reportCovers', unlockedLabels))
+        repCovered.length > 0
+          ? e('div', { className: 'gp-report-progress-covers' }, t('reportCovers', repCoveredLabels))
           : null,
-        nextLocked
-          ? (unlocked.length === 0 && nextLocked.pct > 0
+        repNextRung
+          ? (repCovered.length === 0 && repBundle.nextPct > 0
               ? e('div', { className: 'gp-report-progress-next' },
-                  t('reportNextPct', nextLocked.pct, nextLocked.emoji + ' ' + t(nextLocked.labelKey)))
+                  t('reportNextPct', repBundle.nextPct, repNextRung.emoji + ' ' + t(repNextRung.labelKey)))
               : e('div', { className: 'gp-report-progress-next' },
-                  t('reportNext', nextLocked.emoji + ' ' + t(nextLocked.labelKey),
-                    isFinite(nextLocked.foreverAmt) ? formatUsdRounded(nextLocked.foreverAmt) : '—'))
+                  t('reportNext', repNextRung.emoji + ' ' + t(repNextRung.labelKey),
+                    isFinite(repNextRung.foreverAmt) ? formatUsdRounded(repNextRung.foreverAmt) : '—'))
             )
           : null
       );
@@ -2094,15 +2273,23 @@
         e('div', { className: 'gp-report-now' }, t('heroTarget', goalLabel(t, plan.goal), monthsFromNow(mTarget) || '—'))
       );
     } else if (arch === 'subscription') {
-      var fnSub = foreverNumber(plan.target || 20, newEffective);
-      var pctSub = (plan.capital && isFinite(fnSub) && fnSub > 0) ? Math.min(100, Math.round(plan.capital / fnSub * 100)) : 0;
+      // Use the same repBundle computed for progressBlock above
+      var repB = repBundle || coveredBundle(plan.capital || null, newEffective, plan.goal);
+      var repNowLine;
+      if (repB.coveredCount >= 1) {
+        var repBundleLabels = repB.covered.map(function (r) { return t(r.labelKey); });
+        repNowLine = t('subHeroWinBundle', joinBundle(repBundleLabels));
+      } else {
+        var repAnchorPct = repB.nextPct || 0;
+        repNowLine = t('subHeroProgress', repAnchorPct, goalLabel(t, plan.goal));
+      }
+      var repAnchorForever = repB.nextRung ? repB.nextRung.foreverAmt
+        : (repB.covered.length > 0 ? repB.covered[0].foreverAmt : null);
       projectionBlock = e('div', { className: 'gp-report-projection' },
-        e('div', { className: 'gp-report-now' },
-          pctSub >= 100
-            ? t('subHeroWin', goalLabel(t, plan.goal))
-            : t('subHeroProgress', pctSub, goalLabel(t, plan.goal))
-        ),
-        isFinite(fnSub) ? e('div', { className: 'gp-report-was' }, formatUsdRounded(fnSub) + ' plants it forever') : null
+        e('div', { className: 'gp-report-now' }, repNowLine),
+        (repAnchorForever && isFinite(repAnchorForever))
+          ? e('div', { className: 'gp-report-was' }, formatUsdRounded(repAnchorForever) + ' plants it forever')
+          : null
       );
     } else {
       projectionBlock = e('div', { className: 'gp-report-projection' },
@@ -2406,6 +2593,8 @@
       }); });
       if (arch === 'target') {
         advance('deadline');
+      } else if (arch === 'subscription') {
+        advance('bloom');
       } else {
         advance('temperament');
       }
@@ -2422,7 +2611,7 @@
 
     function pickDeadline(months) {
       setAnswers(function (a) { return Object.assign({}, a, { deadline: months }); });
-      advance('temperament');
+      advance('bloom');
     }
 
     function pickYears(v) {
@@ -2558,104 +2747,49 @@
           showNudge ? e('p', { className: 'gp-nudge' }, t('freeTextNudge')) : null
         );
       } else if (step === 'funding-mode') {
-        var capitalChips = [1000, 2500, 5000, 10000, 25000];
         var goalDef3 = goalById(answers.goal);
         var goalTarget3 = goalDef3 ? goalDef3.target : null;
         var arch3 = goalArchetype(answers.goal);
 
-        var goalContextLine = null;
-        if (arch3 === 'subscription' && goalTarget3) {
-          var fn3 = foreverNumber(goalTarget3, guidanceApy);
-          if (isFinite(fn3)) {
-            var contextText = t('fundingContextSub', goalLabel(t, answers.goal), formatUsd(goalTarget3) + '/mo', formatApy(guidanceApy), formatUsdRounded(fn3));
+        if (arch3 === 'subscription') {
+          // Subscription: single smart amount step — tiered options anchored to chosen goal
+          var subLadder = buildLadder(SUBSCRIPTION_LADDER, guidanceApy, null, answers.goal);
+          var anchorRung = subLadder[0];
+          var anchorMonthly = anchorRung ? anchorRung.monthly : (goalTarget3 || 20);
+          var anchorForeverAmt = anchorRung ? anchorRung.foreverAmt : foreverNumber(anchorMonthly, guidanceApy);
+          var subContextLine = null;
+          if (isFinite(anchorForeverAmt)) {
+            var anchorChipVal = Math.ceil(anchorForeverAmt / 100) * 100;
+            var subContextText = t('amountContextSub',
+              goalLabel(t, answers.goal),
+              formatUsd(anchorMonthly),
+              formatApy(guidanceApy),
+              formatUsdRounded(anchorChipVal)
+            );
             if (guidanceIsIllustrative) {
-              contextText = contextText + ' ' + t('fundingContextIllustrative');
+              subContextText = subContextText + ' ' + t('fundingContextIllustrative');
             }
-            goalContextLine = e('p', { className: 'gp-goal-context' }, contextText);
+            subContextLine = e('p', { className: 'gp-goal-context' }, subContextText);
           }
-        } else if (arch3 === 'target' && goalTarget3) {
-          goalContextLine = e('p', { className: 'gp-goal-context' }, t('fundingContextTarget', goalLabel(t, answers.goal), formatUsd(goalTarget3)));
-        }
+          var subTierOptions = subLadder.map(function (rung, idx) {
+            var chipVal = Math.ceil(rung.foreverAmt / 100) * 100;
+            var hint = idx === 0
+              ? t('amountMinimumTag') + ' · ' + t('coversForever', goalLabel(t, answers.goal))
+              : t('coversPlus', t(rung.labelKey));
+            return {
+              value: chipVal,
+              label: formatUsdRounded(chipVal),
+              hint: isFinite(rung.foreverAmt) ? hint : null,
+              featured: idx === 0
+            };
+          }).filter(function (opt) { return isFinite(opt.value) && opt.value > 0; });
 
-        var capHints = chipHintsFor(capitalChips, {
-          archetype: arch3,
-          target: goalTarget3,
-          apy: guidanceApy,
-          mode: 'capital'
-        });
-        var capChipOptions = capHints.map(function (h) {
-          var hintLabel = null;
-          if (h.hint === 'forever' || h.forever) {
-            hintLabel = t('chipHintForever');
-          } else if (h.hint && h.hint.indexOf('pct:') === 0) {
-            var pct = parseInt(h.hint.slice(4), 10);
-            hintLabel = t('chipHintPctToForever', pct);
-          } else if (h.pct != null && !h.forever) {
-            hintLabel = t('chipHintPctToForever', h.pct);
-          } else if (h.hint && h.hint.indexOf('months:') === 0) {
-            var mths2 = parseInt(h.hint.slice(7), 10);
-            var dateStr2 = monthsFromNow(mths2);
-            hintLabel = dateStr2 ? t('chipHintYoursBy', dateStr2) : null;
-          } else if (h.months != null && isFinite(h.months)) {
-            var dateStr3 = monthsFromNow(h.months);
-            hintLabel = dateStr3 ? t('chipHintYoursBy', dateStr3) : null;
-          }
-          return { value: h.value, label: formatUsdRounded(h.value), hint: hintLabel, featured: h.featured };
-        });
-
-        var monthlyChipVals = [10, 25, 50, 100];
-        var monthlyHints = monthlyChipVals.map(function (v) {
-          var hint = null;
-          if (arch3 === 'subscription' && goalTarget3 && guidanceApy > 0) {
-            var fnSub = foreverNumber(goalTarget3, guidanceApy);
-            if (isFinite(fnSub)) {
-              var mthsSub = timeToTarget(fnSub, v, guidanceApy);
-              if (isFinite(mthsSub)) {
-                var dateSub = monthsFromNow(mthsSub);
-                if (dateSub) hint = t('chipHintForeverBy', dateSub);
-              }
-            }
-          } else if (arch3 === 'target' && goalTarget3 && guidanceApy > 0) {
-            var mthsTgt = timeToTarget(goalTarget3, v, guidanceApy);
-            if (isFinite(mthsTgt)) {
-              var dateTgt = monthsFromNow(mthsTgt);
-              if (dateTgt) hint = t('chipHintYoursBy', dateTgt);
-            }
-          }
-          return { value: v, label: formatUsd(v) + '/mo', hint: hint };
-        });
-
-        stepBubble = e(Bubble, { key: 'funding-mode' },
-          e('p', { className: 'gp-question' }, t('fundingModeQuestion')),
-          goalContextLine,
-          e('div', { className: 'gp-temp-cards gp-funding-mode-cards' },
-            e('button', {
-              type: 'button',
-              className: 'gp-temp-card' + (fmSelected === 'capital' ? ' is-selected' : ''),
-              onClick: function () { setFmSelected(fmSelected === 'capital' ? null : 'capital'); }
-            },
-              e('div', { className: 'gp-temp-emoji' }, '💰'),
-              e('div', { className: 'gp-temp-title' }, t('fundingCapitalCard')),
-              e('div', { className: 'gp-temp-desc' }, t('fundingCapitalSubline'))
-            ),
-            e('button', {
-              type: 'button',
-              className: 'gp-temp-card' + (fmSelected === 'monthly' ? ' is-selected' : ''),
-              onClick: function () { setFmSelected(fmSelected === 'monthly' ? null : 'monthly'); }
-            },
-              e('div', { className: 'gp-temp-emoji' }, '📅'),
-              e('div', { className: 'gp-temp-title' }, t('fundingMonthlyCard')),
-              e('div', { className: 'gp-temp-desc' }, t('fundingMonthlySubline'))
-            )
-          ),
-          e('div', {
-            className: 'gp-funding-amount-picker' + (fmSelected === 'capital' ? ' gp-funding-picker-open' : ''),
-            style: fmSelected === 'capital' ? {} : { display: 'none' }
-          },
-            e('p', { className: 'gp-question', style: { marginTop: '12px', fontSize: '1rem' } }, t('fundingCapitalPrompt')),
+          stepBubble = e(Bubble, { key: 'funding-mode' },
+            e('p', { className: 'gp-question' }, t('amountQuestion')),
+            subContextLine,
             e(Chips, {
               selected: null, wrap: true,
-              options: capChipOptions,
+              options: subTierOptions,
               onPick: function (v) { pickFundingMode('capital', v); }
             }),
             e('form', { className: 'gp-freetext gp-money', onSubmit: submitCustomCapital },
@@ -2667,27 +2801,118 @@
               }),
               e('button', { type: 'submit', className: 'gp-text-send', 'aria-label': 'Submit' }, '→')
             )
-          ),
-          e('div', {
-            className: 'gp-funding-amount-picker' + (fmSelected === 'monthly' ? ' gp-funding-picker-open' : ''),
-            style: fmSelected === 'monthly' ? {} : { display: 'none' }
-          },
-            e(Chips, {
-              selected: null, wrap: true,
-              options: monthlyHints,
-              onPick: function (v) { pickFundingMode('monthly', v); }
-            }),
-            e('form', { className: 'gp-freetext gp-money', onSubmit: submitCustomMonthly },
-              e('span', { className: 'gp-money-prefix' }, '$'),
-              e('input', {
-                type: 'text', inputMode: 'numeric', className: 'gp-text-input', value: cm,
-                placeholder: t('customAmount'),
-                onChange: function (ev) { setCm(ev.target.value.replace(/[^0-9]/g, '')); }
+          );
+        } else {
+          // Target (and any other archetype): keep existing two-card + amount UI
+          var goalContextLine = null;
+          if (arch3 === 'target' && goalTarget3) {
+            goalContextLine = e('p', { className: 'gp-goal-context' }, t('fundingContextTarget', goalLabel(t, answers.goal), formatUsd(goalTarget3)));
+          }
+
+          var capitalChips = [1000, 2500, 5000, 10000, 25000];
+          var capHints = chipHintsFor(capitalChips, {
+            archetype: arch3,
+            target: goalTarget3,
+            apy: guidanceApy,
+            mode: 'capital'
+          });
+          var capChipOptions = capHints.map(function (h) {
+            var hintLabel = null;
+            if (h.hint === 'forever' || h.forever) {
+              hintLabel = t('chipHintForever');
+            } else if (h.hint && h.hint.indexOf('pct:') === 0) {
+              var pct = parseInt(h.hint.slice(4), 10);
+              hintLabel = t('chipHintPctToForever', pct);
+            } else if (h.pct != null && !h.forever) {
+              hintLabel = t('chipHintPctToForever', h.pct);
+            } else if (h.hint && h.hint.indexOf('months:') === 0) {
+              var mths2 = parseInt(h.hint.slice(7), 10);
+              var dateStr2 = monthsFromNow(mths2);
+              hintLabel = dateStr2 ? t('chipHintYoursBy', dateStr2) : null;
+            } else if (h.months != null && isFinite(h.months)) {
+              var dateStr3 = monthsFromNow(h.months);
+              hintLabel = dateStr3 ? t('chipHintYoursBy', dateStr3) : null;
+            }
+            return { value: h.value, label: formatUsdRounded(h.value), hint: hintLabel, featured: h.featured };
+          });
+
+          var monthlyChipVals = [10, 25, 50, 100];
+          var monthlyHints = monthlyChipVals.map(function (v) {
+            var hint = null;
+            if (arch3 === 'target' && goalTarget3 && guidanceApy > 0) {
+              var mthsTgt = timeToTarget(goalTarget3, v, guidanceApy);
+              if (isFinite(mthsTgt)) {
+                var dateTgt = monthsFromNow(mthsTgt);
+                if (dateTgt) hint = t('chipHintYoursBy', dateTgt);
+              }
+            }
+            return { value: v, label: formatUsd(v) + '/mo', hint: hint };
+          });
+
+          stepBubble = e(Bubble, { key: 'funding-mode' },
+            e('p', { className: 'gp-question' }, t('fundingModeQuestion')),
+            goalContextLine,
+            e('div', { className: 'gp-temp-cards gp-funding-mode-cards' },
+              e('button', {
+                type: 'button',
+                className: 'gp-temp-card' + (fmSelected === 'capital' ? ' is-selected' : ''),
+                onClick: function () { setFmSelected(fmSelected === 'capital' ? null : 'capital'); }
+              },
+                e('div', { className: 'gp-temp-emoji' }, '💰'),
+                e('div', { className: 'gp-temp-title' }, t('fundingCapitalCard')),
+                e('div', { className: 'gp-temp-desc' }, t('fundingCapitalSubline'))
+              ),
+              e('button', {
+                type: 'button',
+                className: 'gp-temp-card' + (fmSelected === 'monthly' ? ' is-selected' : ''),
+                onClick: function () { setFmSelected(fmSelected === 'monthly' ? null : 'monthly'); }
+              },
+                e('div', { className: 'gp-temp-emoji' }, '📅'),
+                e('div', { className: 'gp-temp-title' }, t('fundingMonthlyCard')),
+                e('div', { className: 'gp-temp-desc' }, t('fundingMonthlySubline'))
+              )
+            ),
+            e('div', {
+              className: 'gp-funding-amount-picker' + (fmSelected === 'capital' ? ' gp-funding-picker-open' : ''),
+              style: fmSelected === 'capital' ? {} : { display: 'none' }
+            },
+              e('p', { className: 'gp-question', style: { marginTop: '12px', fontSize: '1rem' } }, t('fundingCapitalPrompt')),
+              e(Chips, {
+                selected: null, wrap: true,
+                options: capChipOptions,
+                onPick: function (v) { pickFundingMode('capital', v); }
               }),
-              e('button', { type: 'submit', className: 'gp-text-send', 'aria-label': 'Submit' }, '→')
+              e('form', { className: 'gp-freetext gp-money', onSubmit: submitCustomCapital },
+                e('span', { className: 'gp-money-prefix' }, '$'),
+                e('input', {
+                  type: 'text', inputMode: 'numeric', className: 'gp-text-input', value: cc,
+                  placeholder: t('customAmount'),
+                  onChange: function (ev) { setCc(ev.target.value.replace(/[^0-9]/g, '')); }
+                }),
+                e('button', { type: 'submit', className: 'gp-text-send', 'aria-label': 'Submit' }, '→')
+              )
+            ),
+            e('div', {
+              className: 'gp-funding-amount-picker' + (fmSelected === 'monthly' ? ' gp-funding-picker-open' : ''),
+              style: fmSelected === 'monthly' ? {} : { display: 'none' }
+            },
+              e(Chips, {
+                selected: null, wrap: true,
+                options: monthlyHints,
+                onPick: function (v) { pickFundingMode('monthly', v); }
+              }),
+              e('form', { className: 'gp-freetext gp-money', onSubmit: submitCustomMonthly },
+                e('span', { className: 'gp-money-prefix' }, '$'),
+                e('input', {
+                  type: 'text', inputMode: 'numeric', className: 'gp-text-input', value: cm,
+                  placeholder: t('customAmount'),
+                  onChange: function (ev) { setCm(ev.target.value.replace(/[^0-9]/g, '')); }
+                }),
+                e('button', { type: 'submit', className: 'gp-text-send', 'aria-label': 'Submit' }, '→')
+              )
             )
-          )
-        );
+          );
+        }
       } else if (step === 'deadline') {
         var now = new Date();
         var monthsToYearEnd = (11 - now.getMonth()) + (now.getDate() > 1 ? 1 : 0);
@@ -2813,7 +3038,7 @@
       }
 
       content = e('div', { className: 'gp-convo' },
-        thread.length ? e('div', { className: 'gp-thread' }, thread) : null,
+        (step !== 'bloom' && thread.length) ? e('div', { className: 'gp-thread' }, thread) : null,
         e('div', { className: 'gp-current' }, stepBubble)
       );
     }
@@ -2853,7 +3078,9 @@
     migratePlan: migratePlan, buildPlanHero: buildPlanHero, chipHintsFor: chipHintsFor,
     buildLadder: buildLadder,
     poolAlternatives: poolAlternatives,
-    reportStats: reportStats
+    reportStats: reportStats,
+    coveredBundle: coveredBundle,
+    joinBundle: joinBundle
   };
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;

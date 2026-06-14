@@ -544,4 +544,212 @@ test('months field equals days/30.4375', () => {
   assert.ok(Math.abs(stats.months - expectedMonths) < 0.001, 'months should be days/30.4375');
 });
 
+// ---------------------------------------------------------------------------
+// buildLadder — anchor (optional 4th arg)
+// ---------------------------------------------------------------------------
+console.log('buildLadder — anchor');
+
+// No-anchor call must deep-equal previous 3-arg output (backward-compat guard)
+test('buildLadder no-anchor 4-arg {} deep-equals 3-arg call', () => {
+  const r3 = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null);
+  const r4 = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, null);
+  assert.deepStrictEqual(r4, r3, '4-arg null anchorId must be identical to 3-arg call');
+});
+
+// anchor='spotify' — spotify is already cheapest, result identical to no-anchor
+test('buildLadder anchor=spotify is identical to no-anchor (spotify already cheapest)', () => {
+  const rBase = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null);
+  const rAnchored = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'spotify');
+  assert.deepStrictEqual(rAnchored, rBase, 'anchor=spotify should not change order');
+});
+
+// anchor='claude' — order should be [claude, spotify, netflix, gym, phonebill]
+test('buildLadder anchor=claude: first rung id is claude', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'claude');
+  assert.strictEqual(result[0].id, 'claude', 'first rung should be claude');
+});
+
+test('buildLadder anchor=claude: remaining rungs sorted asc by monthly', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'claude');
+  // After claude (monthly=20), remaining sorted asc: spotify(12), netflix(18), gym(40), phonebill(70)
+  const ids = result.map(function(r) { return r.id; });
+  assert.deepStrictEqual(ids, ['claude', 'spotify', 'netflix', 'gym', 'phonebill'],
+    'order should be [claude, spotify, netflix, gym, phonebill], got ' + ids.join(','));
+});
+
+test('buildLadder anchor=claude: cumMonthly sequence is [20,32,50,90,160]', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'claude');
+  const expected = [20, 32, 50, 90, 160];
+  result.forEach(function(r, i) {
+    assert.strictEqual(r.cumMonthly, expected[i],
+      'cumMonthly[' + i + '] expected ' + expected[i] + ' got ' + r.cumMonthly);
+  });
+});
+
+test('buildLadder anchor=claude: rung0 foreverAmt ~ foreverNumber(20, 5.5) within ±5%', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'claude');
+  const expected = gp.foreverNumber(20, 5.5); // ~4364
+  const pct = Math.abs(result[0].foreverAmt - expected) / expected;
+  assert.ok(pct < 0.05, 'rung0 foreverAmt expected ~' + expected.toFixed(0) + ' got ' + result[0].foreverAmt.toFixed(0));
+});
+
+test('buildLadder anchor=claude: foreverAmts strictly increasing', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'claude');
+  for (var i = 1; i < result.length; i++) {
+    assert.ok(result[i].foreverAmt > result[i-1].foreverAmt,
+      'foreverAmt not strictly increasing at index ' + i);
+  }
+});
+
+test('buildLadder anchor=claude capital=5000: claude rung unlocked (5000 > ~4364), spotify rung NOT unlocked (cumMonthly=32 -> ~6982)', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, 5000, 'claude');
+  assert.ok(result[0].unlocked, 'claude rung should be unlocked at $5000');
+  assert.ok(!result[1].unlocked, 'spotify rung (cumMonthly=32, ~6982) should NOT be unlocked at $5000');
+});
+
+test('buildLadder anchor=claude capital=null: no rung unlocked', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'claude');
+  result.forEach(function(r, i) {
+    assert.ok(!r.unlocked, 'rung ' + i + ' should not be unlocked when capital=null');
+  });
+});
+
+// anchor='phonebill' — rung0 is phonebill (70), rest sorted asc
+test('buildLadder anchor=phonebill: first rung id is phonebill', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'phonebill');
+  assert.strictEqual(result[0].id, 'phonebill', 'first rung should be phonebill');
+});
+
+test('buildLadder anchor=phonebill: cumMonthly sequence starts at 70', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'phonebill');
+  assert.strictEqual(result[0].cumMonthly, 70, 'rung0 cumMonthly should be 70');
+});
+
+// Unknown anchorId falls back to normal sort (no crash)
+test('buildLadder unknown anchorId falls back to normal ascending sort (no crash)', () => {
+  const result = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null, 'unknown-id-xyz');
+  const base = gp.buildLadder(SUBSCRIPTION_LADDER, 5.5, null);
+  assert.deepStrictEqual(result, base, 'unknown anchor should produce same result as no-anchor');
+});
+
+// ---------------------------------------------------------------------------
+// coveredBundle
+// ---------------------------------------------------------------------------
+console.log('coveredBundle');
+
+// anchor='spotify', apy=5.5 (standard illustrative rate in codebase)
+// spotify rung cumMonthly=12  foreverAmt ~ 2618
+// netflix rung cumMonthly=30  foreverAmt ~ 6545
+// claude  rung cumMonthly=50  foreverAmt ~ 10909
+// gym     rung cumMonthly=90  foreverAmt ~ 19636
+// phonebill rung cumMonthly=160 foreverAmt ~ 34909
+
+test('coveredBundle capital=2700 anchor=spotify: covered=[spotify], surplus~82, nextRung=netflix', function () {
+  var b = gp.coveredBundle(2700, 5.5, 'spotify');
+  assert.strictEqual(b.coveredCount, 1, 'coveredCount should be 1');
+  assert.strictEqual(b.covered[0].id, 'spotify', 'first covered should be spotify');
+  assert.strictEqual(b.combinedMonthly, 12, 'combinedMonthly should be 12');
+  assert.ok(b.surplus >= 0, 'surplus should be >= 0');
+  assert.ok(b.nextRung && b.nextRung.id === 'netflix', 'nextRung should be netflix');
+  assert.ok(b.nextPct > 0 && b.nextPct <= 100, 'nextPct should be in 0..100');
+});
+
+test('coveredBundle capital=11300 anchor=spotify: covered ids=[spotify,netflix,claude], combinedMonthly=50', function () {
+  var b = gp.coveredBundle(11300, 5.5, 'spotify');
+  var ids = b.covered.map(function (r) { return r.id; });
+  assert.ok(ids.indexOf('spotify') !== -1, 'spotify should be covered');
+  assert.ok(ids.indexOf('netflix') !== -1, 'netflix should be covered');
+  assert.ok(ids.indexOf('claude') !== -1, 'claude should be covered');
+  assert.strictEqual(b.combinedMonthly, 50, 'combinedMonthly for spotify+netflix+claude should be 50');
+  assert.ok(b.nextRung && b.nextRung.id === 'gym', 'nextRung should be gym');
+});
+
+test('coveredBundle capital=1500 anchor=spotify: coveredCount=0, combinedForever=0, nextRung=spotify', function () {
+  var b = gp.coveredBundle(1500, 5.5, 'spotify');
+  assert.strictEqual(b.coveredCount, 0, 'coveredCount should be 0');
+  assert.strictEqual(b.combinedForever, 0, 'combinedForever should be 0');
+  assert.ok(b.nextRung && b.nextRung.id === 'spotify', 'nextRung should be spotify');
+  var expectedPct = Math.round(1500 / b.nextRung.foreverAmt * 100);
+  assert.strictEqual(b.nextPct, Math.min(100, expectedPct), 'nextPct should match');
+});
+
+test('coveredBundle capital=8000 anchor=spotify: covered=[spotify,netflix], surplus>0, nextRung=claude', function () {
+  var b = gp.coveredBundle(8000, 5.5, 'spotify');
+  var ids = b.covered.map(function (r) { return r.id; });
+  assert.ok(ids.indexOf('spotify') !== -1, 'spotify should be covered');
+  assert.ok(ids.indexOf('netflix') !== -1, 'netflix should be covered');
+  assert.ok(ids.indexOf('claude') === -1, 'claude should NOT be covered');
+  assert.ok(b.surplus > 0, 'surplus should be > 0 when capital between tiers');
+  assert.ok(b.nextRung && b.nextRung.id === 'claude', 'nextRung should be claude');
+});
+
+test('coveredBundle anchor=claude capital=4600: covered=[claude], combinedMonthly=20', function () {
+  var b = gp.coveredBundle(4600, 5.5, 'claude');
+  // With anchor=claude, rung0 is claude (monthly=20, cumMonthly=20)
+  // foreverNumber(20, 5.5) = (20*12)/0.055 ~ 4364 — 4600 should unlock it
+  assert.ok(b.coveredCount >= 1, 'should have at least 1 covered rung');
+  assert.strictEqual(b.covered[0].id, 'claude', 'first covered should be claude');
+});
+
+test('coveredBundle apy=0: no NaN/Infinity in output', function () {
+  var b = gp.coveredBundle(5000, 0, 'spotify');
+  assert.ok(!isNaN(b.coveredCount), 'coveredCount not NaN');
+  assert.ok(!isNaN(b.combinedMonthly), 'combinedMonthly not NaN');
+  assert.ok(!isNaN(b.surplus), 'surplus not NaN');
+  assert.ok(isFinite(b.coveredCount), 'coveredCount finite');
+  assert.ok(isFinite(b.surplus), 'surplus finite');
+  assert.strictEqual(b.coveredCount, 0, 'apy=0 means infinite forever numbers — nothing unlocked');
+});
+
+test('coveredBundle capital=0: coveredCount=0, no NaN', function () {
+  var b = gp.coveredBundle(0, 5.3, 'spotify');
+  assert.strictEqual(b.coveredCount, 0, 'coveredCount should be 0');
+  assert.ok(!isNaN(b.surplus), 'surplus not NaN');
+  assert.strictEqual(b.surplus, 0, 'surplus should be 0');
+});
+
+test('coveredBundle nextPct clamped to 100 max', function () {
+  // capital exactly at tier boundary should give nextPct <= 100
+  var b = gp.coveredBundle(100000, 5.3, 'spotify');
+  assert.ok(b.nextPct === null || b.nextPct <= 100, 'nextPct should be clamped to 100 or null');
+});
+
+test('coveredBundle fields present: covered, coveredCount, combinedMonthly, combinedForever, surplus, nextRung, nextPct', function () {
+  var b = gp.coveredBundle(5000, 5.3, 'spotify');
+  assert.ok('covered' in b, 'missing covered');
+  assert.ok('coveredCount' in b, 'missing coveredCount');
+  assert.ok('combinedMonthly' in b, 'missing combinedMonthly');
+  assert.ok('combinedForever' in b, 'missing combinedForever');
+  assert.ok('surplus' in b, 'missing surplus');
+  assert.ok('nextRung' in b, 'missing nextRung');
+  assert.ok('nextPct' in b, 'missing nextPct');
+});
+
+// ---------------------------------------------------------------------------
+// joinBundle
+// ---------------------------------------------------------------------------
+console.log('joinBundle');
+
+test('joinBundle 1 label: returns the label directly', function () {
+  assert.strictEqual(gp.joinBundle(['Spotify']), 'Spotify');
+});
+
+test('joinBundle 2 labels: "Spotify + Netflix"', function () {
+  assert.strictEqual(gp.joinBundle(['Spotify', 'Netflix']), 'Spotify + Netflix');
+});
+
+test('joinBundle 3 labels: "Spotify, Netflix + Claude Pro"', function () {
+  assert.strictEqual(gp.joinBundle(['Spotify', 'Netflix', 'Claude Pro']), 'Spotify, Netflix + Claude Pro');
+});
+
+test('joinBundle 5 labels: first 3 + "2 more"', function () {
+  var result = gp.joinBundle(['Spotify', 'Netflix', 'Claude Pro', 'Gym', 'Phone bill']);
+  assert.ok(result.indexOf('Spotify') !== -1, 'should include Spotify');
+  assert.ok(result.indexOf('2 more') !== -1, 'should say 2 more');
+});
+
+test('joinBundle empty array: returns empty string', function () {
+  assert.strictEqual(gp.joinBundle([]), '');
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');

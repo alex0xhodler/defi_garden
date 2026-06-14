@@ -296,9 +296,11 @@ const translations = {
 
       // v3 — SUBSCRIPTION hero + ladder
       subHeroWin: (goal) => `Your money pays for ${goal}. Forever. Starting now.`,
+      subHeroWinBundle: (list) => `Your money pays for ${list}. Forever. Starting now.`,
       subHeroWinEyebrow: "∞ Forever unlocked",
-      subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt} covers the ${billMo} bill at ${apyStr} — and you keep every dollar.`,
+      subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt} covers ${billMo}/mo of bills at ${apyStr} — and you keep every dollar.`,
       subHeroWinSurplus: (amt) => `≈${amt} still growing on top.`,
+      subHeroTowardNext: (amt, label) => `≈${amt} toward also covering ${label}.`,
       subHeroProgress: (pct, goal) => `${pct}% of the way to free ${goal}`,
       subHeroMonthly: (date) => `At +$100/mo you cross in ${date}`,
       subLadderTitle: "What your money covers — forever",
@@ -318,6 +320,8 @@ const translations = {
       // v3 — share card
       shareTargetNew: (goal, date) => `My ${goal} is buying itself — by ${date} 🤯`,
       shareSubWin: (goal) => `My yield pays my ${goal} now 🤖💸`,
+      shareSubBundle: (list) => `🌱 My yield covers ${list} — forever`,
+      shareSubSubline: (capital, apy, monthly) => `≈${capital} working at ${apy} · ${monthly}/mo covered forever`,
 
       // v3 — plan strip
       stripCapital: (amt) => `${amt} capital`,
@@ -332,6 +336,13 @@ const translations = {
       chipHintPctToForever: (pct) => `${pct}% to forever`,
       chipHintYoursBy: (date) => `yours by ${date}`,
       chipHintForeverBy: (date) => `forever by ${date}`,
+
+      // v3.2 — subscription amount step (replaces lump-vs-monthly fork)
+      amountQuestion: "How much can you put in?",
+      amountContextSub: (goal, bill, apy, minAmt) => `${goal} is ${bill}/mo. The minimum to cover it forever is ≈${minAmt} — and you keep your money.`,
+      amountMinimumTag: "minimum",
+      coversForever: (goal) => `covers ${goal} forever`,
+      coversPlus: (label) => `+ ${label} too`,
 
       // Engine filter chips (pool swap/filter UI)
       engineFilterChain: "Chain",
@@ -632,9 +643,11 @@ const translations = {
 
       // v3 — SUBSCRIPTION hero + ladder
       subHeroWin: (goal) => `내 돈이 ${goal}을 영원히 내줘요. 지금 바로.`,
+      subHeroWinBundle: (list) => `내 돈이 ${list}을 영원히 내줘요. 지금 바로.`,
       subHeroWinEyebrow: "∞ 영구 달성",
-      subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt}이 ${apyStr}로 ${billMo} 요금을 커버해요 — 원금은 그대로예요.`,
+      subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt}이 ${apyStr}로 월 ${billMo} 요금을 커버해요 — 원금은 그대로예요.`,
       subHeroWinSurplus: (amt) => `≈${amt}는 추가로 불어나는 중이에요.`,
+      subHeroTowardNext: (amt, label) => `≈${amt}는 ${label} 추가 달성을 향해 불어나는 중이에요.`,
       subHeroProgress: (pct, goal) => `무료 ${goal}까지 ${pct}% 왔어요`,
       subHeroMonthly: (date) => `매달 +$100 추가하면 ${date}에 달성해요`,
       subLadderTitle: "내 돈이 영원히 내주는 것들",
@@ -654,6 +667,8 @@ const translations = {
       // v3 — share card
       shareTargetNew: (goal, date) => `내 ${goal}이 저절로 사지고 있어요 — ${date}까지 🤯`,
       shareSubWin: (goal) => `이제 수익이 내 ${goal}을 내줘요 🤖💸`,
+      shareSubBundle: (list) => `🌱 수익이 ${list}을 영원히 내줘요`,
+      shareSubSubline: (capital, apy, monthly) => `≈${capital} · ${apy} 수익률 · 매달 ${monthly} 영구 달성`,
 
       // v3 — plan strip
       stripCapital: (amt) => `${amt} 원금`,
@@ -668,6 +683,13 @@ const translations = {
       chipHintPctToForever: (pct) => `달성까지 ${pct}%`,
       chipHintYoursBy: (date) => `${date}에 내 것`,
       chipHintForeverBy: (date) => `${date}에 영구 달성`,
+
+      // v3.2 — subscription amount step (replaces lump-vs-monthly fork)
+      amountQuestion: "얼마나 넣을 수 있나요?",
+      amountContextSub: (goal, bill, apy, minAmt) => `${goal}은 월 ${bill}이에요. 영원히 내려면 최소 ≈${minAmt}만 있으면 돼요 — 원금은 그대로예요.`,
+      amountMinimumTag: "최소",
+      coversForever: (goal) => `${goal} 영구 달성`,
+      coversPlus: (label) => `+ ${label}도`,
 
       // Engine filter chips (pool swap/filter UI)
       engineFilterChain: "체인",
