@@ -163,7 +163,7 @@
     }
     var g = goalById(goalId);
     if (g && g.archetype === 'subscription' && typeof g.target === 'number') {
-      return [{ id: g.id, emoji: g.emoji, labelKey: g.labelKey, monthly: g.target }].concat(SUBSCRIPTION_LADDER);
+      return [{ id: g.id, emoji: g.emoji, icon: g.icon, labelKey: g.labelKey, monthly: g.target }].concat(SUBSCRIPTION_LADDER);
     }
     return SUBSCRIPTION_LADDER;
   }
@@ -211,6 +211,37 @@
       nextRung: nextRung,
       nextPct: nextPct
     };
+  }
+
+  // mixStats(selectedIds, apyPct) — capital needed to yield-fund an arbitrary mix of subscriptions.
+  // Resolves each id first from SUBSCRIPTION_LADDER, then from GOALS (subscription archetype).
+  // Ignores ids that resolve to nothing.
+  // Returns { count, combinedMonthly, neededCapital, ids }
+  function mixStats(selectedIds, apyPct) {
+    var ids = [];
+    var combinedMonthly = 0;
+    for (var i = 0; i < selectedIds.length; i++) {
+      var id = selectedIds[i];
+      var monthly = null;
+      for (var li = 0; li < SUBSCRIPTION_LADDER.length; li++) {
+        if (SUBSCRIPTION_LADDER[li].id === id) { monthly = SUBSCRIPTION_LADDER[li].monthly; break; }
+      }
+      if (monthly === null) {
+        var g = goalById(id);
+        if (g && typeof g.target === 'number') monthly = g.target;
+      }
+      if (monthly !== null) {
+        combinedMonthly += monthly;
+        ids.push(id);
+      }
+    }
+    var apy = Number(apyPct) || 0;
+    var neededCapital = 0;
+    if (combinedMonthly > 0 && apy > 0) {
+      var fn = foreverNumber(combinedMonthly, apy);
+      neededCapital = isFinite(fn) ? Math.ceil(fn / 100) * 100 : 0;
+    }
+    return { count: ids.length, combinedMonthly: combinedMonthly, neededCapital: neededCapital, ids: ids };
   }
 
   // joinBundle(labels) — join array of label strings for the bundle headline.
@@ -571,48 +602,57 @@
   // Goal model — two-tier archetype system
   // ---------------------------------------------------------------------------
   var GOALS = [
-    { id: 'spotify', emoji: '🎵', labelKey: 'goalSpotify', archetype: 'subscription',
+    { id: 'spotify', emoji: '🎵', icon: 'spotify.com', labelKey: 'goalSpotify', archetype: 'subscription',
       category: 'subscription', target: 12, isMonthly: true,
       keywords: ['spotify', 'music', '음악', '스포티파이'] },
-    { id: 'netflix', emoji: '🍿', labelKey: 'goalNetflix', archetype: 'subscription',
+    { id: 'netflix', emoji: '🍿', icon: 'netflix.com', labelKey: 'goalNetflix', archetype: 'subscription',
       category: 'subscription', target: 18, isMonthly: true,
       keywords: ['netflix', 'streaming', 'video', '넷플릭스', '스트리밍'] },
-    { id: 'claude', emoji: '🤖', labelKey: 'goalClaude', archetype: 'subscription',
+    { id: 'claude', emoji: '🤖', icon: 'claude.ai', labelKey: 'goalClaude', archetype: 'subscription',
       category: 'subscription', target: 20, isMonthly: true,
       keywords: ['claude', 'chatgpt', 'ai', 'subscription', 'openai', 'llm', 'cursor', 'copilot', '구독', 'ai 구독'] },
-    { id: 'mobileplan', emoji: '📶', labelKey: 'goalMobile', archetype: 'subscription',
-      category: 'subscription', target: 40, isMonthly: true,
-      keywords: ['mobile plan', 'phone plan', 'data plan', 'cell', '통신', '요금제'] },
-    { id: 'amazonprime', emoji: '📦', labelKey: 'goalAmazonPrime', archetype: 'subscription',
+    { id: 'amazonprime', emoji: '📦', icon: 'amazon.com', labelKey: 'goalAmazonPrime', archetype: 'subscription',
       category: 'subscription', target: 15, isMonthly: true,
       keywords: ['amazon prime', 'prime', '아마존 프라임', '프라임'] },
-    { id: 'disney', emoji: '🏰', labelKey: 'goalDisney', archetype: 'subscription',
+    { id: 'disney', emoji: '🏰', icon: 'disneyplus.com', labelKey: 'goalDisney', archetype: 'subscription',
       category: 'subscription', target: 16, isMonthly: true,
       keywords: ['disney+', 'disney plus', 'disney', '디즈니플러스', '디즈니'] },
-    { id: 'youtubepremium', emoji: '▶️', labelKey: 'goalYouTubePremium', archetype: 'subscription',
+    { id: 'youtubepremium', emoji: '▶️', icon: 'youtube.com', labelKey: 'goalYouTubePremium', archetype: 'subscription',
       category: 'subscription', target: 14, isMonthly: true,
       keywords: ['youtube premium', 'youtube', '유튜브 프리미엄', '유튜브'] },
-    { id: 'max', emoji: '🎬', labelKey: 'goalMax', archetype: 'subscription',
+    { id: 'max', emoji: '🎬', icon: 'max.com', labelKey: 'goalMax', archetype: 'subscription',
       category: 'subscription', target: 17, isMonthly: true,
       keywords: ['hbo', 'hbo max', 'max', '맥스', 'HBO'] },
-    { id: 'hulu', emoji: '📺', labelKey: 'goalHulu', archetype: 'subscription',
+    { id: 'hulu', emoji: '📺', icon: 'hulu.com', labelKey: 'goalHulu', archetype: 'subscription',
       category: 'subscription', target: 19, isMonthly: true,
       keywords: ['hulu', '훌루'] },
-    { id: 'appletv', emoji: '🍎', labelKey: 'goalAppleTV', archetype: 'subscription',
+    { id: 'appletv', emoji: '🍎', icon: 'apple.com', labelKey: 'goalAppleTV', archetype: 'subscription',
       category: 'subscription', target: 13, isMonthly: true,
       keywords: ['apple tv', 'apple tv+', '애플 tv', '애플tv'] },
-    { id: 'chatgpt', emoji: '💬', labelKey: 'goalChatGPT', archetype: 'subscription',
+    { id: 'chatgpt', emoji: '💬', icon: 'openai.com', labelKey: 'goalChatGPT', archetype: 'subscription',
       category: 'subscription', target: 20, isMonthly: true,
       keywords: ['chatgpt', 'openai', 'gpt', '챗gpt', '챗지피티'] },
-    { id: 'gamepass', emoji: '🎮', labelKey: 'goalGamePass', archetype: 'subscription',
+    { id: 'gamepass', emoji: '🎮', icon: 'xbox.com', labelKey: 'goalGamePass', archetype: 'subscription',
       category: 'subscription', target: 20, isMonthly: true,
       keywords: ['xbox', 'game pass', 'gamepass', '게임패스', '엑스박스'] },
-    { id: 'paramount', emoji: '⛰️', labelKey: 'goalParamount', archetype: 'subscription',
+    { id: 'paramount', emoji: '⛰️', icon: 'paramountplus.com', labelKey: 'goalParamount', archetype: 'subscription',
       category: 'subscription', target: 9, isMonthly: true,
       keywords: ['paramount', 'paramount+', '파라마운트', '파라마운트플러스'] },
-    { id: 'peacock', emoji: '🦚', labelKey: 'goalPeacock', archetype: 'subscription',
+    { id: 'peacock', emoji: '🦚', icon: 'peacocktv.com', labelKey: 'goalPeacock', archetype: 'subscription',
       category: 'subscription', target: 11, isMonthly: true,
       keywords: ['peacock', '피콕'] },
+    { id: 'doordash', emoji: '🥡', icon: 'doordash.com', labelKey: 'goalDoorDash', archetype: 'subscription',
+      category: 'subscription', target: 10, isMonthly: true,
+      keywords: ['doordash', 'dashpass', 'food delivery', '도어대시'] },
+    { id: 'uber', emoji: '🚗', icon: 'uber.com', labelKey: 'goalUberOne', archetype: 'subscription',
+      category: 'subscription', target: 10, isMonthly: true,
+      keywords: ['uber', 'uber one', 'uber eats', '우버'] },
+    { id: 'audible', emoji: '🎧', icon: 'audible.com', labelKey: 'goalAudible', archetype: 'subscription',
+      category: 'subscription', target: 15, isMonthly: true,
+      keywords: ['audible', 'audiobook', '오더블', '오디오북'] },
+    { id: 'walmart', emoji: '🛒', icon: 'walmart.com', labelKey: 'goalWalmart', archetype: 'subscription',
+      category: 'subscription', target: 13, isMonthly: true,
+      keywords: ['walmart', 'walmart+', 'walmart plus', '월마트'] },
     { id: 'sneakers', emoji: '👟', labelKey: 'goalSneakers', archetype: 'target',
       category: 'gadget', target: 180,
       keywords: ['sneaker', 'sneakers', 'shoes', 'nike', 'adidas', 'shoe', '신발', '운동화', '나이키'] },
@@ -630,11 +670,11 @@
   // Subscription ladder — always shown in full in SUBSCRIPTION bloom.
   // Forever numbers computed live from blended APY; never hardcoded.
   var SUBSCRIPTION_LADDER = [
-    { id: 'spotify',   emoji: '🎵', labelKey: 'ladderSpotify',   monthly: 12 },
-    { id: 'netflix',   emoji: '🍿', labelKey: 'ladderNetflix',   monthly: 18 },
-    { id: 'claude',    emoji: '🤖', labelKey: 'ladderClaude',    monthly: 20 },
-    { id: 'gym',       emoji: '🏋️', labelKey: 'ladderGym',       monthly: 40 },
-    { id: 'phonebill', emoji: '📱', labelKey: 'ladderPhoneBill', monthly: 70 }
+    { id: 'spotify',     emoji: '🎵', icon: 'spotify.com',  labelKey: 'ladderSpotify',   monthly: 12 },
+    { id: 'netflix',     emoji: '🍿', icon: 'netflix.com',  labelKey: 'ladderNetflix',   monthly: 18 },
+    { id: 'claude',      emoji: '🤖', icon: 'claude.ai',    labelKey: 'ladderClaude',    monthly: 20 },
+    { id: 'chatgpt',     emoji: '💬', icon: 'openai.com',   labelKey: 'goalChatGPT',     monthly: 20 },
+    { id: 'amazonprime', emoji: '📦', icon: 'amazon.com',   labelKey: 'goalAmazonPrime', monthly: 15 }
   ];
 
   function goalById(id) {
@@ -1054,6 +1094,22 @@
     );
   }
 
+  // Renders a brand favicon via Google's favicon service, falling back to the emoji on load error.
+  // slug: domain (e.g. 'spotify.com'), emoji: fallback string, cls: className for wrapper.
+  function brandIcon(slug, emoji, cls) {
+    if (!slug) return e('span', { className: cls }, emoji);
+    return e('img', {
+      className: cls + ' gp-brand-icon',
+      src: 'https://www.google.com/s2/favicons?domain=' + slug + '&sz=64',
+      alt: '', 'aria-hidden': 'true', loading: 'lazy', width: 18, height: 18,
+      onError: function (ev) {
+        var t2 = ev.target; if (!t2 || !t2.parentNode) return;
+        var s = document.createElement('span'); s.className = cls; s.textContent = emoji || '';
+        t2.parentNode.replaceChild(s, t2);
+      }
+    });
+  }
+
   function Chips(props) {
     return e('div', { className: 'gp-chips' + (props.wrap ? ' gp-chips-wrap' : '') },
       props.options.map(function (opt) {
@@ -1071,7 +1127,7 @@
           onMouseLeave: props.onHoverEnd ? function() { props.onHoverEnd(); } : null,
           onBlur: props.onHoverEnd ? function() { props.onHoverEnd(); } : null
         },
-          opt.emoji ? e('span', { className: 'gp-chip-emoji' }, opt.emoji) : null,
+          (opt.icon || opt.emoji) ? brandIcon(opt.icon, opt.emoji, 'gp-chip-emoji') : null,
           e('span', null, opt.label),
           hasHint ? e('span', { className: 'gp-chip-hint' }, opt.hint) : null
         );
@@ -1293,11 +1349,40 @@
     var subProgress = (subCapital && isFinite(foreverAmt) && foreverAmt > 0)
       ? Math.min(100, Math.round(subCapital / foreverAmt * 100)) : 0;
 
-    // Subscription ladder rungs — cumulative stack (what does my money cover, forever?)
+    // Subscription ladder rungs — cumulative stack (used in non-subscription paths + report; kept for compat)
     var ladderRungs = useMemo(function () {
       var cap = isCapitalPath ? subCapital : null;
       return buildLadder(subscriptionLadder(goal), apy, cap, goal);
     }, [apy, subCapital, isCapitalPath, goal]);
+
+    // Mix state — arbitrary toggle selection of subscription ids
+    var selectedSubsState = useState([]);
+    var selectedSubs = selectedSubsState[0], setSelectedSubs = selectedSubsState[1];
+    var mixTouchedState = useState(false);
+    var mixTouched = mixTouchedState[0], setMixTouched = mixTouchedState[1];
+
+    // Seed mix from covered-bundle when not yet touched by user
+    useEffect(function () {
+      if (!mixTouched && apy > 0) {
+        var ids = coveredBundle(slideCapital, apy, goal).covered.map(function (r) { return r.id; });
+        if (!ids.length) ids = [goal];
+        setSelectedSubs(ids);
+      }
+    }, [apy, goal, slideCapital, mixTouched]);
+
+    // Derive capital from the mix whenever selectedSubs changes
+    var currentMixStats = useMemo(function () {
+      return mixStats(selectedSubs, apy);
+    }, [selectedSubs, apy]);
+
+    // Keep slideCapital in sync with the mix (only when user has touched the mix)
+    useEffect(function () {
+      if (archetype !== 'subscription' || !isCapitalPath || !mixTouched) return;
+      var needed = currentMixStats.neededCapital;
+      if (needed > 0 && needed !== slideCapital) {
+        setSlideCapital(needed);
+      }
+    }, [currentMixStats.neededCapital, archetype, isCapitalPath, mixTouched]);
 
     // Live sliders state
     var slideMonthlyState = useState(monthly);
@@ -1330,6 +1415,154 @@
     var copySuccessState = useState(false);
     var copySuccess = copySuccessState[0], setCopySuccess = copySuccessState[1];
 
+    // YOUR PLAN card — risk dropdown open state
+    var riskOpenState = useState(false);
+    var riskOpen = riskOpenState[0], setRiskOpen = riskOpenState[1];
+
+    // Waitlist modal state
+    var waitlistOpenState = useState(false);
+    var waitlistOpen = waitlistOpenState[0], setWaitlistOpen = waitlistOpenState[1];
+    var waitlistStepState = useState(1);
+    var waitlistStep = waitlistStepState[0], setWaitlistStep = waitlistStepState[1];
+    var waitlistEmailState = useState('');
+    var waitlistEmail = waitlistEmailState[0], setWaitlistEmail = waitlistEmailState[1];
+    var waitlistStatusState = useState('idle');
+    var waitlistStatus = waitlistStatusState[0], setWaitlistStatus = waitlistStatusState[1];
+    var referralHandleState = useState('');
+    var referralHandle = referralHandleState[0], setReferralHandle = referralHandleState[1];
+    var refCheckState = useState('idle');
+    var refCheck = refCheckState[0], setRefCheck = refCheckState[1];
+    var referralCopiedState = useState(false);
+    var referralCopied = referralCopiedState[0], setReferralCopied = referralCopiedState[1];
+    // Timer ref for fake referral validation debounce
+    var refCheckTimerRef = useRef(null);
+
+    // Close waitlist on Escape key
+    useEffect(function () {
+      if (!waitlistOpen) return;
+      function handleKeyDown(ev) {
+        if (ev.key === 'Escape') setWaitlistOpen(false);
+      }
+      document.addEventListener('keydown', handleKeyDown);
+      return function () { document.removeEventListener('keydown', handleKeyDown); };
+    }, [waitlistOpen]);
+
+    function sanitizeHandle(raw) {
+      return String(raw || '').toLowerCase().replace(/[^a-z0-9.\-_]/g, '').slice(0, 30);
+    }
+
+    function handleReferralChange(ev) {
+      var cleaned = sanitizeHandle(ev.target.value);
+      setReferralHandle(cleaned);
+      setRefCheck('checking');
+      if (refCheckTimerRef.current) clearTimeout(refCheckTimerRef.current);
+      refCheckTimerRef.current = setTimeout(function () {
+        setRefCheck('ok');
+      }, 500);
+    }
+
+    function handleReferralCopy() {
+      var link = 'https://defi.garden/referral=' + referralHandle;
+      try {
+        navigator.clipboard.writeText(link).then(function () {
+          setReferralCopied(true);
+          setTimeout(function () { setReferralCopied(false); }, 2000);
+        }).catch(function () { legacyCopy(link); });
+      } catch (e2) { legacyCopy(link); }
+      function legacyCopy(txt) {
+        var ta = document.createElement('textarea');
+        ta.value = txt; document.body.appendChild(ta); ta.select();
+        document.execCommand('copy'); document.body.removeChild(ta);
+        setReferralCopied(true);
+        setTimeout(function () { setReferralCopied(false); }, 2000);
+      }
+    }
+
+    function submitWaitlist(ev) {
+      if (ev) ev.preventDefault();
+      if (!waitlistEmail.trim()) return;
+      setWaitlistStatus('submitting');
+      // Derive handle from email local part
+      var rawHandle = waitlistEmail.split('@')[0] || '';
+      var derived = sanitizeHandle(rawHandle);
+      var mixLabels = selectedSubs.map(function (id) {
+        var found = null;
+        for (var li2 = 0; li2 < SUBSCRIPTION_LADDER.length; li2++) {
+          if (SUBSCRIPTION_LADDER[li2].id === id) { found = SUBSCRIPTION_LADDER[li2]; break; }
+        }
+        return found ? t(found.labelKey) : id;
+      });
+      var labelsStr = joinBundle(mixLabels) || goalLabel(t, goal);
+      var personaTitle = pk === 'stable' ? t('personaStableTitle') : (pk === 'rwa' ? t('personaRwaTitle') : t('personaDegenTitle'));
+      var msgSummary = 'covers ' + labelsStr
+        + ' (~' + formatUsd(currentMixStats.combinedMonthly) + '/mo)'
+        + ' for ~' + formatUsd(currentMixStats.neededCapital)
+        + ', risk ' + personaTitle;
+      var payload = {
+        email: waitlistEmail,
+        message: msgSummary,
+        referral: derived,
+        _subject: 'DeFi Garden waitlist signup'
+      };
+      fetch('https://formspree.io/f/xzdqygjn', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(function (res) {
+        if (res.ok) {
+          setReferralHandle(derived);
+          setRefCheck('ok');
+          setWaitlistStep(2);
+          setWaitlistStatus('idle');
+        } else {
+          setWaitlistStatus('error');
+        }
+      }).catch(function () {
+        setWaitlistStatus('error');
+      });
+    }
+
+    function doWaitlistShare() {
+      var mixLabels2 = selectedSubs.map(function (id2) {
+        var found2 = null;
+        for (var li3 = 0; li3 < SUBSCRIPTION_LADDER.length; li3++) {
+          if (SUBSCRIPTION_LADDER[li3].id === id2) { found2 = SUBSCRIPTION_LADDER[li3]; break; }
+        }
+        return found2 ? t(found2.labelKey) : id2;
+      });
+      var tweetLabels = joinBundle(mixLabels2) || goalLabel(t, goal);
+      var tweetText = t('shareTweet', tweetLabels);
+      var tweetUrl = 'https://defi.garden/referral=' + referralHandle;
+      window.open(
+        'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweetText) +
+        '&url=' + encodeURIComponent(tweetUrl),
+        '_blank', 'noopener,noreferrer'
+      );
+    }
+
+    function doWaitlistDownload() {
+      var heroDate2 = ladderDates ? monthsFromNow(ladderDates[pk]) : null;
+      var mixLabels3 = selectedSubs.map(function (id3) {
+        var found3 = null;
+        for (var li4 = 0; li4 < SUBSCRIPTION_LADDER.length; li4++) {
+          if (SUBSCRIPTION_LADDER[li4].id === id3) { found3 = SUBSCRIPTION_LADDER[li4]; break; }
+        }
+        return found3 ? t(found3.labelKey) : id3;
+      });
+      var dlList = joinBundle(mixLabels3) || goalLabel(t, goal);
+      var dlHeadline = dlList ? t('shareSubBundle', dlList) : t('shareSubWin', goalLabel(t, goal));
+      renderShareImage({
+        headline: dlHeadline,
+        goalLabel: goalLabel(t, goal),
+        subline: t('shareSubSubline', formatUsdRounded(currentMixStats.neededCapital || subCapital || 0), formatApy(apy), formatUsd(currentMixStats.combinedMonthly)),
+        footer: t('shareFooter'),
+        years: slideYears,
+        you: slideMonthly,
+        apy: apy,
+        drawChart: false
+      }).catch(function () {});
+    }
+
     // Persist plan whenever artifact settles — curated is always the DISPLAYED set
     useEffect(function () {
       if (!curated.length) return;
@@ -1350,9 +1583,10 @@
         savedAt: new Date().toISOString(),
         // Optional fields (new in this version) — older migratePlan ignores unknown fields
         poolFilters: poolFilters,
-        slotPicks: slotPicks
+        slotPicks: slotPicks,
+        mix: archetype === 'subscription' ? selectedSubs : undefined
       });
-    }, [curated, monthly, years, persona, apy, goal, propCapital, propFundingMode, propDeadline, poolFilters, slotPicks]);
+    }, [curated, monthly, years, persona, apy, goal, propCapital, propFundingMode, propDeadline, poolFilters, slotPicks, selectedSubs, archetype]);
 
     // Top pool for CTA
     var topPool = curated[0];
@@ -1545,40 +1779,40 @@
         e('div', { className: 'gp-headline-sub' }, t('hybridDiscount', yieldPct))
       );
     } else if (archetype === 'subscription') {
-      // SUBSCRIPTION hero — bundle-aware via coveredBundle
-      var bundle = isCapitalPath
-        ? coveredBundle(subCapital, apy, goal)
-        : { coveredCount: 0, covered: [], combinedMonthly: 0, combinedForever: 0, surplus: 0, nextRung: null, nextPct: null };
-
-      if (isCapitalPath && bundle.coveredCount >= 1) {
-        // Instant-win: capital covers at least anchor rung
-        var bundleLabels = bundle.covered.map(function (r) { return t(r.labelKey); });
-        var bundleList = joinBundle(bundleLabels);
-        var surplusChip = null;
-        if (bundle.nextRung && bundle.surplus >= 1) {
-          surplusChip = e('div', { className: 'gp-instant-win-surplus' },
-            t('subHeroTowardNext', formatUsdRounded(bundle.surplus), t(bundle.nextRung.labelKey))
-          );
-        } else if (!bundle.nextRung && bundle.surplus > 0) {
-          surplusChip = e('div', { className: 'gp-instant-win-surplus' },
-            t('subHeroWinSurplus', formatUsdRounded(bundle.surplus))
-          );
-        }
+      // SUBSCRIPTION hero — derived from the mix selection
+      var heroMix = currentMixStats;
+      if (isCapitalPath && heroMix.count >= 1) {
+        // Build labels from mix ids via subscriptionLadder items + GOALS
+        var heroMixItems = subscriptionLadder(goal);
+        var heroLabels = heroMix.ids.map(function (id) {
+          for (var li = 0; li < heroMixItems.length; li++) {
+            if (heroMixItems[li].id === id) return t(heroMixItems[li].labelKey);
+          }
+          var hg = goalById(id);
+          return hg ? t(hg.labelKey) : id;
+        });
+        var heroBundleList = joinBundle(heroLabels);
         heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in gp-instant-win' },
           e('div', { className: 'gp-instant-win-eyebrow' }, t('subHeroWinEyebrow')),
-          e('div', { className: 'gp-headline-figure' }, bundle.coveredCount >= 2 ? t('subHeroWinBundleMany', bundleList) : t('subHeroWinBundle', bundleList)),
+          e('div', { className: 'gp-headline-figure' },
+            heroMix.count >= 2 ? t('subHeroWinBundleMany', heroBundleList) : t('subHeroWinBundle', heroBundleList)
+          ),
           e('div', { className: 'gp-headline-sub' },
             t('subHeroWinCovers',
-              isFinite(bundle.combinedForever) ? formatUsdRounded(bundle.combinedForever) : '…',
-              formatUsd(bundle.combinedMonthly),
+              heroMix.neededCapital > 0 ? formatUsdRounded(heroMix.neededCapital) : '…',
+              formatUsd(heroMix.combinedMonthly),
               formatApy(apy)
             )
-          ),
-          surplusChip
+          )
+        );
+      } else if (isCapitalPath && heroMix.count === 0) {
+        // No selection yet — gentle prompt
+        heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in' },
+          e('div', { className: 'gp-headline-figure' }, t('mixHeroEmpty'))
         );
       } else {
-        // Progress variant — anchored to first rung (anchor goal)
-        var anchorRungForever = bundle.nextRung ? bundle.nextRung.foreverAmt : foreverAmt;
+        // Monthly path — progress variant (unchanged)
+        var anchorRungForever = foreverAmt;
         var progressPct = (subCapital && isFinite(anchorRungForever) && anchorRungForever > 0)
           ? Math.min(100, Math.round(subCapital / anchorRungForever * 100))
           : subProgress;
@@ -1615,8 +1849,465 @@
       archetype === 'subscription' ? t('askChipStop') : t('askChipWithdraw')
     ];
 
+    // Mix toggle list element — subscription card cover (arbitrary selection)
+    var mixItems = archetype === 'subscription' ? subscriptionLadder(goal) : [];
+    var mixElement = archetype === 'subscription' ? (function () {
+      return e('div', { className: 'gp-mix-list' },
+        e('div', { className: 'gp-sub-ladder-title' }, t('planCoverLabel')),
+        isCapitalPath ? e('p', { className: 'gp-mix-hint' }, t('mixHint')) : null,
+        mixItems.map(function (item) {
+          var isOn = selectedSubs.indexOf(item.id) !== -1;
+          return e('button', {
+            key: item.id,
+            type: 'button',
+            className: 'gp-mix-row' + (isOn ? ' is-on' : ''),
+            onClick: (function (id) {
+              return function () {
+                setMixTouched(true);
+                setSelectedSubs(function (prev) {
+                  var idx = prev.indexOf(id);
+                  if (idx === -1) return prev.concat([id]);
+                  return prev.slice(0, idx).concat(prev.slice(idx + 1));
+                });
+              };
+            }(item.id)),
+            'aria-pressed': isOn ? 'true' : 'false'
+          },
+            e('span', { className: 'gp-mix-check', 'aria-hidden': 'true' }, isOn ? '✓' : ''),
+            brandIcon(item.icon, item.emoji, 'gp-mix-emoji'),
+            e('span', { className: 'gp-mix-label' }, t(item.labelKey)),
+            e('span', { className: 'gp-mix-monthly' }, formatUsd(item.monthly) + '/mo')
+          );
+        }),
+        currentMixStats.count === 0
+          ? e('div', { className: 'gp-mix-total gp-mix-empty' }, t('mixEmpty'))
+          : e('div', { className: 'gp-mix-total-wrap' },
+              e('div', { className: 'gp-mix-total' },
+                t('mixTotal',
+                  currentMixStats.neededCapital > 0 ? formatUsdRounded(currentMixStats.neededCapital) : '…',
+                  formatUsd(currentMixStats.combinedMonthly)
+                ),
+                ' *'
+              ),
+              e('div', { className: 'gp-mix-caveat' },
+                '* ' + t(pk === 'degen' ? 'mixCaveatDegen' : (pk === 'rwa' ? 'mixCaveatRwa' : 'mixCaveatStable'))
+              )
+            )
+      );
+    })() : null;
+
+    // YOUR PLAN card — subscription-only consolidated control block
+    var planCardElement = archetype === 'subscription' ? (function () {
+      var personaOptions = [
+        { key: 'stable', shortKey: 'personaStableShort', titleKey: 'personaStableTitle' },
+        { key: 'rwa',    shortKey: 'personaRwaShort',    titleKey: 'personaRwaTitle' },
+        { key: 'degen',  shortKey: 'personaDegenShort',  titleKey: 'personaDegenTitle' }
+      ];
+      var currentPersonaOpt = personaOptions.filter(function (p) { return p.key === pk; })[0] || personaOptions[0];
+      var currentRiskLabel = t(currentPersonaOpt.shortKey);
+
+      return e('div', { className: 'gp-plan-card gp-animate-in' },
+        e('div', { className: 'gp-plan-card-title' }, t('planCardTitle')),
+
+        // 1. Cover: mix toggle list
+        e('div', { className: 'gp-plan-card-cover' },
+          mixElement
+        ),
+
+        e('div', { className: 'gp-plan-card-divider' }),
+
+        // 2. Risk dropdown
+        e('div', { className: 'gp-plan-risk' },
+          e('span', { className: 'gp-plan-risk-label' }, t('riskLabel')),
+          e('div', { style: { position: 'relative' } },
+            e('button', {
+              type: 'button',
+              className: 'gp-risk-toggle',
+              'aria-haspopup': 'listbox',
+              'aria-expanded': riskOpen ? 'true' : 'false',
+              onClick: function () { setRiskOpen(function (v) { return !v; }); },
+              onKeyDown: function (ev) {
+                if (ev.key === 'Escape') { setRiskOpen(false); }
+              }
+            },
+              currentRiskLabel, ' ▾'
+            ),
+            riskOpen ? e('div', {
+              className: 'gp-risk-menu',
+              role: 'listbox',
+              'aria-label': t('riskLabel')
+            },
+              personaOptions.map(function (p) {
+                var isSelected = pk === p.key;
+                return e('button', {
+                  key: p.key,
+                  type: 'button',
+                  role: 'option',
+                  'aria-selected': isSelected ? 'true' : 'false',
+                  className: 'gp-risk-option' + (isSelected ? ' is-selected' : ''),
+                  onClick: function () {
+                    if (props.onWhatIf) props.onWhatIf('persona:' + p.key);
+                    setRiskOpen(false);
+                  },
+                  onKeyDown: function (ev) {
+                    if (ev.key === 'Escape') { setRiskOpen(false); }
+                  }
+                },
+                  e('span', { className: 'gp-risk-option-short' }, t(p.shortKey)),
+                  e('span', { className: 'gp-risk-option-title' }, t(p.titleKey))
+                );
+              })
+            ) : null
+          )
+        )
+      );
+    })() : null;
+
+    // Engine room element (shared)
+    var engineElement = e('div', { className: 'gp-pools gp-animate-in' },
+      e('div', { className: 'gp-pools-heading' },
+        t('poolsHeading'),
+        e('span', { className: 'gp-blended-badge' }, t('blendedBadge', formatApy(apy)))
+      ),
+      isDegenPersona ? e('div', { className: 'gp-degen-warning' },
+        t('degenHaircutNote', formatApy(rawApy))
+      ) : null,
+
+      // Filter chip rows — chain
+      chainOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+        e('span', { className: 'gp-engine-filter-label' }, t('engineFilterChain')),
+        e('div', { className: 'gp-chips gp-chips-wrap' },
+          [{ value: null, label: t('engineAll') }].concat(
+            chainOptions.map(function (c) { return { value: c, label: c }; })
+          ).map(function (opt) {
+            var isSelected = poolFilters.chain === opt.value;
+            return e('button', {
+              key: opt.value == null ? '__all__' : opt.value,
+              type: 'button',
+              className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+              onClick: function () {
+                setPoolFilters(function (f) { return Object.assign({}, f, { chain: opt.value }); });
+              }
+            }, opt.label);
+          })
+        )
+      ) : null,
+
+      // Filter chip rows — token
+      tokenOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+        e('span', { className: 'gp-engine-filter-label' }, t('engineFilterToken')),
+        e('div', { className: 'gp-chips gp-chips-wrap' },
+          [{ value: null, label: t('engineAll') }].concat(
+            tokenOptions.map(function (tok) { return { value: tok, label: tok }; })
+          ).map(function (opt) {
+            var isSelected = poolFilters.token === opt.value;
+            return e('button', {
+              key: opt.value == null ? '__all__' : opt.value,
+              type: 'button',
+              className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+              onClick: function () {
+                setPoolFilters(function (f) { return Object.assign({}, f, { token: opt.value }); });
+              }
+            }, opt.label);
+          })
+        )
+      ) : null,
+
+      curated.length === 0
+        ? e('div', { className: 'gp-pools-empty' }, t('noPools'))
+        : e('div', { className: 'gp-pool-grid' },
+            curated.map(function (p, slotIdx) {
+              var isSwapOpen = openSwapSlot === slotIdx;
+              var displayedIds = curated.map(function (c) { return c.pool; });
+              var alts = isSwapOpen
+                ? poolAlternatives(pools, persona, {
+                    chain: poolFilters.chain || undefined,
+                    token: poolFilters.token || undefined
+                  }, displayedIds, 5)
+                : [];
+
+              return e('div', {
+                key: p.pool,
+                className: 'gp-pool-slot' + (isSwapOpen ? ' gp-pool-slot-open' : '')
+              },
+                e('a', {
+                  className: 'gp-pool-card', href: '/?pool=' + encodeURIComponent(p.pool),
+                  rel: 'noopener'
+                },
+                  e('div', { className: 'gp-pool-top' },
+                    e('span', { className: 'gp-pool-symbol' }, p.symbol),
+                    e('span', { className: 'gp-pool-apy' }, formatApy(poolTotalApy(p)))
+                  ),
+                  e('div', { className: 'gp-pool-meta' },
+                    e('span', { className: 'gp-pool-project' }, p.project),
+                    e('span', { className: 'gp-pool-chain' }, p.chain)
+                  ),
+                  e('div', { className: 'gp-pool-foot' },
+                    e('span', { className: 'gp-pool-tvl' }, t('poolTvl') + ' ' + formatTvl(p.tvlUsd)),
+                    e('span', { className: 'gp-pool-link' }, t('viewPool'))
+                  )
+                ),
+                e('button', {
+                  type: 'button',
+                  className: 'gp-pool-swap-btn' + (isSwapOpen ? ' is-active' : ''),
+                  'aria-label': isSwapOpen ? t('engineSwapClose') : t('engineSwap'),
+                  onClick: function (ev) {
+                    ev.stopPropagation();
+                    setOpenSwapSlot(isSwapOpen ? null : slotIdx);
+                  }
+                }, isSwapOpen ? '×' : t('engineSwap')),
+
+                isSwapOpen ? e('div', { className: 'gp-swap-panel' },
+                  alts.length === 0
+                    ? e('div', { className: 'gp-swap-empty' }, t('noPools'))
+                    : alts.map(function (alt) {
+                        return e('button', {
+                          key: alt.pool,
+                          type: 'button',
+                          className: 'gp-swap-alt',
+                          onClick: function () {
+                            setSlotPicks(function (prev) {
+                              var next = prev.slice();
+                              next[slotIdx] = alt.pool;
+                              return next;
+                            });
+                            setOpenSwapSlot(null);
+                          }
+                        },
+                          e('div', { className: 'gp-swap-alt-top' },
+                            e('span', { className: 'gp-swap-alt-symbol' }, alt.symbol),
+                            e('span', { className: 'gp-swap-alt-apy' }, formatApy(poolTotalApy(alt)))
+                          ),
+                          e('div', { className: 'gp-swap-alt-meta' },
+                            e('span', null, alt.project),
+                            e('span', null, ' · ' + alt.chain)
+                          )
+                        );
+                      })
+                ) : null
+              );
+            })
+          )
+    );
+
+    // CTA element (shared) — opens waitlist modal
+    var ctaElement = e('div', { className: 'gp-cta-row gp-animate-in' },
+      e('button', {
+        type: 'button',
+        className: 'gp-primary-cta',
+        onClick: function () {
+          setWaitlistStep(1);
+          setWaitlistStatus('idle');
+          setWaitlistOpen(true);
+        }
+      },
+        t('ctaWaitlist')
+      ),
+      e('p', { className: 'gp-cta-microcopy' }, t('ctaWaitlistMicro'))
+    );
+
+    // Ask box element (shared)
+    var askElement = e('div', { className: 'gp-ask gp-animate-in' },
+      ask.q ? e('div', { className: 'gp-ask-thread' },
+        e('div', { className: 'gp-ask-q' }, ask.q),
+        ask.thinking ? e(Sprout, null)
+          : e('div', { className: 'gp-ask-a' }, ask.a && ask.a.text)
+      ) : null,
+      e('div', { className: 'gp-ask-chips' },
+        suggestedChips.filter(Boolean).map(function(chip) {
+          return e('button', {
+            key: chip, type: 'button', className: 'gp-ask-chip',
+            onClick: function() { pickSuggestedQ(chip); }
+          }, chip);
+        })
+      ),
+      e('form', { className: 'gp-ask-form', onSubmit: submitAsk },
+        e('input', {
+          type: 'text', className: 'gp-ask-input', value: askVal,
+          placeholder: t('askPlaceholder'),
+          onChange: function (ev) { setAskVal(ev.target.value); }
+        }),
+        e('button', { type: 'submit', className: 'gp-ask-send', 'aria-label': 'Ask' }, '→')
+      )
+    );
+
+    // Share/foot element (shared)
+    var footElement = e('div', { className: 'gp-bloom-foot gp-animate-in' },
+      e('p', { className: 'gp-disclaimer' }, t('disclaimer')),
+      e('div', { className: 'gp-share-row' },
+        e('button', { type: 'button', className: 'gp-share-btn', onClick: doShare, disabled: isSharing },
+          isSharing ? t('sharePrepping') : ('📸 ' + t('share'))
+        ),
+        e('button', { type: 'button', className: 'gp-share-btn gp-share-link', onClick: doCopyLink },
+          copySuccess ? ('✓ ' + t('shareLinkCopied')) : ('🔗 ' + t('shareLink'))
+        ),
+        navigator.share ? e('button', { type: 'button', className: 'gp-share-btn', onClick: doNativeShare },
+          '↗ ' + t('shareNative')
+        ) : null
+      )
+    );
+
+    // Build children array conditionally by archetype
+    var presetIntro = props.presetName
+      ? e('p', { className: 'gp-preset-intro gp-bloom-intro gp-animate-in' }, t('presetIntro', props.presetName))
+      : null;
+
+    // --- Waitlist modal ---
+    var waitlistMixLabels = selectedSubs.map(function (sid) {
+      var found4 = null;
+      for (var li5 = 0; li5 < SUBSCRIPTION_LADDER.length; li5++) {
+        if (SUBSCRIPTION_LADDER[li5].id === sid) { found4 = SUBSCRIPTION_LADDER[li5]; break; }
+      }
+      return found4 ? t(found4.labelKey) : sid;
+    });
+    var waitlistLabelStr = joinBundle(waitlistMixLabels) || goalLabel(t, goal);
+    var referralLink = 'https://defi.garden/referral=' + referralHandle;
+
+    // Deterministic waitlist position derived from submitted email (stable across renders)
+    var waitlistPosition = (function () {
+      var email = waitlistEmail || '';
+      var h = 0;
+      for (var ci = 0; ci < email.length; ci++) { h = (h * 31 + email.charCodeAt(ci)) >>> 0; }
+      return 1200 + (h % 7800);
+    }());
+    var waitlistPositionStr = Number(waitlistPosition).toLocaleString('en-US');
+
+    // Email validation for disable logic
+    var emailValid = /^\S+@\S+\.\S+$/.test(waitlistEmail);
+
+    var waitlistModal = waitlistOpen ? e('div', {
+      className: 'gp-waitlist-backdrop',
+      onClick: function (ev) { if (ev.target === ev.currentTarget) setWaitlistOpen(false); },
+      role: 'dialog',
+      'aria-modal': 'true',
+      'aria-label': t('waitlistTitle')
+    },
+      e('div', { className: 'gp-waitlist-card' },
+        // Close button
+        e('button', {
+          type: 'button',
+          className: 'gp-waitlist-close',
+          onClick: function () { setWaitlistOpen(false); },
+          'aria-label': t('waitlistClose')
+        }, '✕'),
+
+        waitlistStep === 1
+          // --- Step 1: benefits + email ---
+          ? e('div', { className: 'gp-waitlist-body' },
+              e('div', { className: 'gp-waitlist-step-row' },
+                e('h2', { className: 'gp-waitlist-title' }, t('waitlistTitle')),
+                e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 1))
+              ),
+              e('p', { className: 'gp-waitlist-benefits' }, t('waitlistBenefits')),
+              currentMixStats.count > 0
+                ? e('p', { className: 'gp-waitlist-garden-line' },
+                    t('waitlistGarden', waitlistLabelStr, formatUsd(currentMixStats.combinedMonthly))
+                  )
+                : null,
+              e('form', { className: 'gp-waitlist-form', onSubmit: submitWaitlist },
+                e('input', {
+                  type: 'email',
+                  className: 'gp-waitlist-email-input',
+                  placeholder: t('waitlistEmailPlaceholder'),
+                  value: waitlistEmail,
+                  required: true,
+                  autoFocus: true,
+                  onChange: function (ev) { setWaitlistEmail(ev.target.value); setWaitlistStatus('idle'); }
+                }),
+                e('p', { className: 'gp-waitlist-nospam' }, t('waitlistNoSpam')),
+                waitlistStatus === 'error'
+                  ? e('p', { className: 'gp-waitlist-error' }, t('waitlistError'))
+                  : null,
+                e('button', {
+                  type: 'submit',
+                  className: 'gp-waitlist-submit' + (!emailValid ? ' is-disabled' : ''),
+                  disabled: waitlistStatus === 'submitting' || !emailValid
+                },
+                  waitlistStatus === 'submitting' ? '…' : t('waitlistJoin')
+                )
+              )
+            )
+          // --- Step 2: accepted + referral + share ---
+          : e('div', { className: 'gp-waitlist-body' },
+              e('div', { className: 'gp-waitlist-step-row' },
+                e('h2', { className: 'gp-waitlist-title' }, t('waitlistAccepted')),
+                e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 2))
+              ),
+              e('p', { className: 'gp-waitlist-next-steps' }, t('waitlistNextSteps')),
+
+              // Waitlist position + skip incentive
+              e('div', { className: 'gp-waitlist-position' },
+                e('span', { className: 'gp-waitlist-position-number' }, t('waitlistPosition', waitlistPositionStr)),
+                e('span', { className: 'gp-waitlist-position-skip' }, t('waitlistSkip'))
+              ),
+
+              e('p', { className: 'gp-waitlist-jump-line' }, t('waitlistJumpLine')),
+
+              // Referral handle editor
+              e('div', { className: 'gp-waitlist-referral-section' },
+                e('label', { className: 'gp-waitlist-label', htmlFor: 'gp-referral-handle' },
+                  t('referralHandleLabel')
+                ),
+                e('div', { className: 'gp-waitlist-referral-row' },
+                  e('input', {
+                    id: 'gp-referral-handle',
+                    type: 'text',
+                    className: 'gp-waitlist-handle-input',
+                    value: referralHandle,
+                    maxLength: 30,
+                    onChange: handleReferralChange
+                  }),
+                  e('span', { className: 'gp-waitlist-ref-check' },
+                    refCheck === 'checking' ? t('referralValidating')
+                      : refCheck === 'ok' ? e('span', { className: 'gp-ref-valid' }, t('referralValid'))
+                      : null
+                  )
+                ),
+                e('div', { className: 'gp-waitlist-label' }, t('referralLinkLabel')),
+                e('div', { className: 'gp-waitlist-link-row' },
+                  e('span', { className: 'gp-waitlist-link-text' }, referralLink),
+                  e('button', {
+                    type: 'button',
+                    className: 'gp-waitlist-copy-btn',
+                    onClick: handleReferralCopy
+                  }, referralCopied ? t('referralCopied') : t('referralCopy'))
+                )
+              ),
+
+              // Share actions — primary (Share on X) first, secondary (Download) second
+              e('div', { className: 'gp-waitlist-share-row' },
+                e('button', {
+                  type: 'button',
+                  className: 'gp-waitlist-action-btn gp-waitlist-share-primary',
+                  onClick: doWaitlistShare
+                }, t('shareOnX')),
+                e('button', {
+                  type: 'button',
+                  className: 'gp-waitlist-action-btn',
+                  onClick: doWaitlistDownload
+                }, t('downloadCard'))
+              )
+            )
+      )
+    ) : null;
+
+    if (archetype === 'subscription') {
+      // Subscription: hero → YOUR PLAN card → engine → CTA → ask → foot → modal
+      return e('div', { className: 'gp-bloom' },
+        presetIntro,
+        heroElement,
+        planCardElement,
+        engineElement,
+        ctaElement,
+        askElement,
+        footElement,
+        waitlistModal
+      );
+    }
+
+    // Target / Growth: hero → plan-strip → 1b → chart → make-it-yours → engine → CTA → ask → foot → modal
     return e('div', { className: 'gp-bloom' },
-      props.presetName ? e('p', { className: 'gp-preset-intro gp-bloom-intro gp-animate-in' }, t('presetIntro', props.presetName)) : null,
+      presetIntro,
 
       // 1. HERO ANSWER
       heroElement,
@@ -1625,15 +2316,7 @@
       e('div', { className: 'gp-plan-strip gp-animate-in' },
         e('span', { className: 'gp-strip-item', onClick: props.onEditGoal, role: 'button', tabIndex: 0,
           onKeyDown: function(ev){ if(ev.key==='Enter') props.onEditGoal && props.onEditGoal(); } },
-          (function () {
-            if (archetype === 'subscription' && isCapitalPath && subCapital && apy) {
-              var stripBundle = coveredBundle(subCapital, apy, goal);
-              if (stripBundle.coveredCount >= 2) {
-                return (goalDef ? goalDef.emoji : '🌱') + ' ' + goalLabel(t, goal) + ' ' + t('stripMore', stripBundle.coveredCount - 1);
-              }
-            }
-            return (goalDef ? goalDef.emoji : '🌱') + ' ' + goalLabel(t, goal);
-          })()
+          (goalDef ? goalDef.emoji : '🌱') + ' ' + goalLabel(t, goal)
         ),
         e('span', { className: 'gp-strip-sep' }, '·'),
         e('span', { className: 'gp-strip-item', onClick: props.onEditMonthly, role: 'button', tabIndex: 0,
@@ -1671,7 +2354,7 @@
         t('tangibilityLine', formatUsd(dailyYieldAmt, 2), t('tangibilityCoffee'))
       ) : null,
 
-      // 1d. v3 — scale-matched comparisons (TARGET only, replaces bank comparison)
+      // 1d. v3 — scale-matched comparisons (TARGET only)
       (archetype === 'target') ? e('div', { className: 'gp-comparison gp-animate-in' },
         targetAmt ? e('p', null, t('comparisonCreditCard', goalLabel(t, goal), formatUsdRounded(targetAmt * (1 + 0.24 / 2 * (12 + 1) / 12)))) : null,
         (isCapitalPath && ladderDates && monthsFromNow(ladderDates[pk]))
@@ -1679,8 +2362,8 @@
           : null
       ) : null,
 
-      // 2. INTERACTIVE CHART (hidden for subscription and capital-funded target — no monthly contribution to chart)
-      (archetype !== 'subscription' && !isCapitalPath) ? e('div', { className: 'gp-curve-wrap gp-animate-in' },
+      // 2. INTERACTIVE CHART (hidden for capital-funded target — no monthly contribution to chart)
+      !isCapitalPath ? e('div', { className: 'gp-curve-wrap gp-animate-in' },
         e(GrowthCurve, {
           monthly: slideMonthly, years: slideYears, apy: apy,
           target: archetype === 'target' ? targetAmt : null,
@@ -1697,7 +2380,6 @@
       e('div', { className: 'gp-makeit gp-animate-in' },
         e('div', { className: 'gp-makeit-label' }, t('makeItYours')),
         e('div', { className: 'gp-makeit-sliders' },
-          // Capital slider (capital path target/subscription)
           isCapitalPath ? e('div', { className: 'gp-slider-group' },
             e('div', { className: 'gp-slider-row-label' },
               e('span', null, t('fundingCapitalCard')),
@@ -1712,7 +2394,6 @@
               onChange: function(ev) { setSlideCapital(parseInt(ev.target.value, 10)); }
             })
           ) : e('div', { className: 'gp-slider-group' },
-            // Monthly amount slider (monthly path / growth)
             e('div', { className: 'gp-slider-row-label' },
               e('span', null, t('makeItMonthly')),
               e('span', { className: 'gp-slider-live-val' }, formatUsd(slideMonthly) + '/mo')
@@ -1726,7 +2407,6 @@
               onChange: function(ev) { setSlideMonthly(parseInt(ev.target.value, 10)); }
             })
           ),
-          // Years slider (growth archetype only)
           archetype === 'growth' ? e('div', { className: 'gp-slider-group' },
             e('div', { className: 'gp-slider-row-label' },
               e('span', null, t('makeItYears')),
@@ -1742,7 +2422,6 @@
             })
           ) : null
         ),
-        // Persona switch pills
         e('div', { className: 'gp-persona-pills' },
           [
             { key: 'stable', shortKey: 'personaStableShort', titleKey: 'personaStableTitle' },
@@ -1761,233 +2440,20 @@
         )
       ),
 
-      // 4. PRIMARY CTA
-      topPool ? e('div', { className: 'gp-cta-row gp-animate-in' },
-        e('a', {
-          className: 'gp-primary-cta',
-          href: '/?pool=' + encodeURIComponent(topPool.pool),
-          rel: 'noopener'
-        },
-          t('ctaStart', topPool.project), ' →'
-        ),
-        e('p', { className: 'gp-cta-microcopy' }, t('ctaMicrocopy'))
-      ) : null,
+      // 4. ENGINE ROOM
+      engineElement,
 
-      // 4b. v3 — subscription ladder (cumulative stack)
-      archetype === 'subscription' ? (function () {
-        // Index of the last unlocked rung (-1 if none)
-        var lastUnlockedIdx = -1;
-        for (var li = ladderRungs.length - 1; li >= 0; li--) {
-          if (ladderRungs[li].unlocked) { lastUnlockedIdx = li; break; }
-        }
-        return e('div', { className: 'gp-sub-ladder gp-animate-in' },
-          e('div', { className: 'gp-sub-ladder-title' }, t('subLadderTitle')),
-          ladderRungs.map(function (rung, idx) {
-            var isYouAreHere = isCapitalPath && idx === lastUnlockedIdx;
-            var rungLabel = idx === 0 ? t(rung.labelKey) : t('ladderPlus', t(rung.labelKey));
-            return e('div', {
-              key: rung.id,
-              className: 'gp-sub-rung'
-                + (isCapitalPath && rung.unlocked ? ' gp-rung-unlocked' : ' gp-rung-locked')
-                + (rung.id === goal ? ' gp-rung-selected' : '')
-                + (isYouAreHere ? ' gp-rung-here' : '')
-            },
-              e('span', { className: 'gp-rung-emoji' }, rung.emoji),
-              e('div', { className: 'gp-rung-info' },
-                e('span', { className: 'gp-rung-label' }, rungLabel),
-                e('span', { className: 'gp-rung-cummonthly' }, formatUsd(rung.cumMonthly) + '/mo')
-              ),
-              e('div', { className: 'gp-rung-right' },
-                e('span', { className: 'gp-rung-forever' },
-                  isFinite(rung.foreverAmt) ? formatUsdRounded(rung.foreverAmt) : (apy > 0 ? '—' : '…')
-                ),
-                isCapitalPath
-                  ? (rung.unlocked
-                      ? e('span', { className: 'gp-rung-badge' }, t('subLadderUnlocked'))
-                      : e('span', { className: 'gp-rung-pct' }, t('subLadderProgress', rung.pct))
-                    )
-                  : null
-              ),
-              isYouAreHere
-                ? e('span', { className: 'gp-rung-here-marker' }, t('ladderYouAreHere'))
-                : null
-            );
-          })
-        );
-      })() : null,
+      // 5. PRIMARY CTA
+      ctaElement,
 
-      // 5. ENGINE ROOM — pools with filter chips + per-card swap
-      e('div', { className: 'gp-pools gp-animate-in' },
-        e('div', { className: 'gp-pools-heading' },
-          t('poolsHeading'),
-          e('span', { className: 'gp-blended-badge' }, t('blendedBadge', formatApy(apy)))
-        ),
-        isDegenPersona ? e('div', { className: 'gp-degen-warning' },
-          t('degenHaircutNote', formatApy(rawApy))
-        ) : null,
-
-        // Filter chip rows — chain
-        chainOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
-          e('span', { className: 'gp-engine-filter-label' }, t('engineFilterChain')),
-          e('div', { className: 'gp-chips gp-chips-wrap' },
-            [{ value: null, label: t('engineAll') }].concat(
-              chainOptions.map(function (c) { return { value: c, label: c }; })
-            ).map(function (opt) {
-              var isSelected = poolFilters.chain === opt.value;
-              return e('button', {
-                key: opt.value == null ? '__all__' : opt.value,
-                type: 'button',
-                className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
-                onClick: function () {
-                  setPoolFilters(function (f) { return Object.assign({}, f, { chain: opt.value }); });
-                }
-              }, opt.label);
-            })
-          )
-        ) : null,
-
-        // Filter chip rows — token
-        tokenOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
-          e('span', { className: 'gp-engine-filter-label' }, t('engineFilterToken')),
-          e('div', { className: 'gp-chips gp-chips-wrap' },
-            [{ value: null, label: t('engineAll') }].concat(
-              tokenOptions.map(function (tok) { return { value: tok, label: tok }; })
-            ).map(function (opt) {
-              var isSelected = poolFilters.token === opt.value;
-              return e('button', {
-                key: opt.value == null ? '__all__' : opt.value,
-                type: 'button',
-                className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
-                onClick: function () {
-                  setPoolFilters(function (f) { return Object.assign({}, f, { token: opt.value }); });
-                }
-              }, opt.label);
-            })
-          )
-        ) : null,
-
-        curated.length === 0
-          ? e('div', { className: 'gp-pools-empty' }, t('noPools'))
-          : e('div', { className: 'gp-pool-grid' },
-              curated.map(function (p, slotIdx) {
-                var isSwapOpen = openSwapSlot === slotIdx;
-                // Alternatives for this slot: exclude all currently-displayed pool ids
-                var displayedIds = curated.map(function (c) { return c.pool; });
-                var alts = isSwapOpen
-                  ? poolAlternatives(pools, persona, {
-                      chain: poolFilters.chain || undefined,
-                      token: poolFilters.token || undefined
-                    }, displayedIds, 5)
-                  : [];
-
-                return e('div', {
-                  key: p.pool,
-                  className: 'gp-pool-slot' + (isSwapOpen ? ' gp-pool-slot-open' : '')
-                },
-                  // The pool card — still navigates on click (anchor)
-                  e('a', {
-                    className: 'gp-pool-card', href: '/?pool=' + encodeURIComponent(p.pool),
-                    rel: 'noopener'
-                  },
-                    e('div', { className: 'gp-pool-top' },
-                      e('span', { className: 'gp-pool-symbol' }, p.symbol),
-                      e('span', { className: 'gp-pool-apy' }, formatApy(poolTotalApy(p)))
-                    ),
-                    e('div', { className: 'gp-pool-meta' },
-                      e('span', { className: 'gp-pool-project' }, p.project),
-                      e('span', { className: 'gp-pool-chain' }, p.chain)
-                    ),
-                    e('div', { className: 'gp-pool-foot' },
-                      e('span', { className: 'gp-pool-tvl' }, t('poolTvl') + ' ' + formatTvl(p.tvlUsd)),
-                      e('span', { className: 'gp-pool-link' }, t('viewPool'))
-                    )
-                  ),
-                  // Swap button — separate from the anchor, no navigation
-                  e('button', {
-                    type: 'button',
-                    className: 'gp-pool-swap-btn' + (isSwapOpen ? ' is-active' : ''),
-                    'aria-label': isSwapOpen ? t('engineSwapClose') : t('engineSwap'),
-                    onClick: function (ev) {
-                      ev.stopPropagation();
-                      setOpenSwapSlot(isSwapOpen ? null : slotIdx);
-                    }
-                  }, isSwapOpen ? '×' : t('engineSwap')),
-
-                  // Inline alternatives panel
-                  isSwapOpen ? e('div', { className: 'gp-swap-panel' },
-                    alts.length === 0
-                      ? e('div', { className: 'gp-swap-empty' }, t('noPools'))
-                      : alts.map(function (alt) {
-                          return e('button', {
-                            key: alt.pool,
-                            type: 'button',
-                            className: 'gp-swap-alt',
-                            onClick: function () {
-                              setSlotPicks(function (prev) {
-                                var next = prev.slice();
-                                next[slotIdx] = alt.pool;
-                                return next;
-                              });
-                              setOpenSwapSlot(null);
-                            }
-                          },
-                            e('div', { className: 'gp-swap-alt-top' },
-                              e('span', { className: 'gp-swap-alt-symbol' }, alt.symbol),
-                              e('span', { className: 'gp-swap-alt-apy' }, formatApy(poolTotalApy(alt)))
-                            ),
-                            e('div', { className: 'gp-swap-alt-meta' },
-                              e('span', null, alt.project),
-                              e('span', null, ' · ' + alt.chain)
-                            )
-                          );
-                        })
-                  ) : null
-                );
-              })
-            )
-      ),
-
-      // 6. ASK BOX — with always-visible chips
-      e('div', { className: 'gp-ask gp-animate-in' },
-        ask.q ? e('div', { className: 'gp-ask-thread' },
-          e('div', { className: 'gp-ask-q' }, ask.q),
-          ask.thinking ? e(Sprout, null)
-            : e('div', { className: 'gp-ask-a' }, ask.a && ask.a.text)
-        ) : null,
-        // Always-visible suggested chips
-        e('div', { className: 'gp-ask-chips' },
-          suggestedChips.filter(Boolean).map(function(chip) {
-            return e('button', {
-              key: chip, type: 'button', className: 'gp-ask-chip',
-              onClick: function() { pickSuggestedQ(chip); }
-            }, chip);
-          })
-        ),
-        e('form', { className: 'gp-ask-form', onSubmit: submitAsk },
-          e('input', {
-            type: 'text', className: 'gp-ask-input', value: askVal,
-            placeholder: t('askPlaceholder'),
-            onChange: function (ev) { setAskVal(ev.target.value); }
-          }),
-          e('button', { type: 'submit', className: 'gp-ask-send', 'aria-label': 'Ask' }, '→')
-        )
-      ),
+      // 6. ASK BOX
+      askElement,
 
       // 7. SHARE + GARDEN
-      e('div', { className: 'gp-bloom-foot gp-animate-in' },
-        e('p', { className: 'gp-disclaimer' }, t('disclaimer')),
-        e('div', { className: 'gp-share-row' },
-          e('button', { type: 'button', className: 'gp-share-btn', onClick: doShare, disabled: isSharing },
-            isSharing ? t('sharePrepping') : ('📸 ' + t('share'))
-          ),
-          e('button', { type: 'button', className: 'gp-share-btn gp-share-link', onClick: doCopyLink },
-            copySuccess ? ('✓ ' + t('shareLinkCopied')) : ('🔗 ' + t('shareLink'))
-          ),
-          navigator.share ? e('button', { type: 'button', className: 'gp-share-btn', onClick: doNativeShare },
-            '↗ ' + t('shareNative')
-          ) : null
-        )
-      )
+      footElement,
+
+      // 8. WAITLIST MODAL (portal-style fixed overlay)
+      waitlistModal
     );
   }
 
@@ -2332,24 +2798,47 @@
         e('div', { className: 'gp-report-now' }, t('heroTarget', goalLabel(t, plan.goal), monthsFromNow(mTarget) || '—'))
       );
     } else if (arch === 'subscription') {
-      // Use the same repBundle computed for progressBlock above
-      var repB = repBundle || coveredBundle(plan.capital || null, newEffective, plan.goal);
-      var repNowLine;
-      if (repB.coveredCount >= 1) {
-        var repBundleLabels = repB.covered.map(function (r) { return t(r.labelKey); });
-        repNowLine = t('subHeroWinBundle', joinBundle(repBundleLabels));
+      // Use plan.mix (new field) when present, else fall back to coveredBundle path
+      if (plan.mix && Array.isArray(plan.mix) && plan.mix.length > 0) {
+        var repMix = mixStats(plan.mix, newEffective);
+        var repMixItems = subscriptionLadder(plan.goal);
+        var repMixLabels = repMix.ids.map(function (id) {
+          for (var rli = 0; rli < repMixItems.length; rli++) {
+            if (repMixItems[rli].id === id) return repMixItems[rli].emoji + ' ' + t(repMixItems[rli].labelKey);
+          }
+          var rmg = goalById(id);
+          return rmg ? rmg.emoji + ' ' + t(rmg.labelKey) : id;
+        });
+        projectionBlock = e('div', { className: 'gp-report-projection' },
+          e('div', { className: 'gp-report-now' },
+            t('reportCovers', repMixLabels.join(', '))
+          ),
+          repMix.neededCapital > 0
+            ? e('div', { className: 'gp-report-was' },
+                t('mixTotal', formatUsdRounded(repMix.neededCapital), formatUsd(repMix.combinedMonthly))
+              )
+            : null
+        );
       } else {
-        var repAnchorPct = repB.nextPct || 0;
-        repNowLine = t('subHeroProgress', repAnchorPct, goalLabel(t, plan.goal));
+        // Older plans without mix field — use coveredBundle path
+        var repB = repBundle || coveredBundle(plan.capital || null, newEffective, plan.goal);
+        var repNowLine;
+        if (repB.coveredCount >= 1) {
+          var repBundleLabels = repB.covered.map(function (r) { return t(r.labelKey); });
+          repNowLine = t('subHeroWinBundle', joinBundle(repBundleLabels));
+        } else {
+          var repAnchorPct = repB.nextPct || 0;
+          repNowLine = t('subHeroProgress', repAnchorPct, goalLabel(t, plan.goal));
+        }
+        var repAnchorForever = repB.nextRung ? repB.nextRung.foreverAmt
+          : (repB.covered.length > 0 ? repB.covered[0].foreverAmt : null);
+        projectionBlock = e('div', { className: 'gp-report-projection' },
+          e('div', { className: 'gp-report-now' }, repNowLine),
+          (repAnchorForever && isFinite(repAnchorForever))
+            ? e('div', { className: 'gp-report-was' }, formatUsdRounded(repAnchorForever) + ' plants it forever')
+            : null
+        );
       }
-      var repAnchorForever = repB.nextRung ? repB.nextRung.foreverAmt
-        : (repB.covered.length > 0 ? repB.covered[0].foreverAmt : null);
-      projectionBlock = e('div', { className: 'gp-report-projection' },
-        e('div', { className: 'gp-report-now' }, repNowLine),
-        (repAnchorForever && isFinite(repAnchorForever))
-          ? e('div', { className: 'gp-report-was' }, formatUsdRounded(repAnchorForever) + ' plants it forever')
-          : null
-      );
     } else {
       projectionBlock = e('div', { className: 'gp-report-projection' },
         e('div', { className: 'gp-report-now' }, t('reportProjectionNow', formatUsdRounded(newProjection))),
@@ -2609,12 +3098,20 @@
     // ---- step handlers ----
     function pickGoal(id) {
       var arch = goalArchetype(id);
-      setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: a.persona || (arch !== 'growth' ? 'stable' : null) }); });
       setShowNudge(false);
-      if (arch === 'target' || arch === 'subscription') {
-        advance('funding-mode');
+      if (arch === 'subscription') {
+        // Amount step ("How much can you put in?") is temporarily skipped: seed a
+        // default capital (the goal's minimum forever) and go straight to the bloom,
+        // where the mix toggles let users adjust the amount/combo.
+        // To re-enable the step, restore: advance('funding-mode').
+        var sg = goalById(id);
+        var seedCapital = sg && sg.target ? Math.ceil(foreverNumber(sg.target, guidanceApy) / 100) * 100 : null;
+        setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: a.persona || 'stable', fundingMode: 'capital', capital: seedCapital, monthly: null }); });
+        advance('bloom');
       } else {
-        advance('monthly');
+        setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: a.persona || (arch !== 'growth' ? 'stable' : null) }); });
+        if (arch === 'target') { advance('funding-mode'); }
+        else { advance('monthly'); }
       }
     }
     function submitFreeText(ev) {
@@ -2781,41 +3278,39 @@
           e('p', { className: 'gp-question' }, t('step1Question')),
           e('p', { className: 'gp-splash-hook' }, t('splashHook')),
           e('div', { className: 'gp-goal-groups' },
-            [
-              { catKey: 'catSubscriptions', catId: 'subscription' },
-              { catKey: 'catGadgets',       catId: 'gadget' },
-              { catKey: 'catLife',          catId: 'life' }
-            ].map(function (cat) {
-              var catGoals = GOALS.filter(function (g) { return g.category === cat.catId; });
-              if (cat.catId === 'subscription') {
-                var primaryGoals = catGoals.slice(0, 4);
-                var extraGoals = catGoals.slice(4);
-                var allShownGoals = subsExpanded ? primaryGoals.concat(extraGoals) : primaryGoals;
-                var toggleChip = e('button', {
-                  key: '__toggle__',
-                  type: 'button',
-                  className: 'gp-chip',
-                  onClick: function () { setSubsExpanded(!subsExpanded); }
-                }, subsExpanded ? t('goalLess') : t('goalMore'));
+            (function () {
+              var activeCats = [
+                { catKey: 'catSubscriptions', catId: 'subscription' }
+                // Temporarily hidden — re-enable to restore Gadgets / Big goals:
+                // { catKey: 'catGadgets', catId: 'gadget' },
+                // { catKey: 'catLife',    catId: 'life' }
+              ];
+              return activeCats.map(function (cat) {
+                var catGoals = GOALS.filter(function (g) { return g.category === cat.catId; });
+                if (cat.catId === 'subscription') {
+                  // Show all subscription goals expanded — no More/Show-less toggle
+                  return e('div', { key: cat.catId, className: 'gp-goal-group' },
+                    // Omit the category label when there is only one group — context comes from
+                    // the splash question above.  When gadgets/life are re-enabled (activeCats
+                    // length > 1) the label re-appears automatically.
+                    activeCats.length > 1 ? e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)) : null,
+                    e(Chips, {
+                      wrap: true, selected: answers.goal,
+                      options: catGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji, icon: g.icon }; }),
+                      onPick: pickGoal
+                    })
+                  );
+                }
                 return e('div', { key: cat.catId, className: 'gp-goal-group' },
                   e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)),
                   e(Chips, {
                     wrap: true, selected: answers.goal,
-                    options: allShownGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
-                    onPick: pickGoal,
-                    trailing: toggleChip
+                    options: catGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji, icon: g.icon }; }),
+                    onPick: pickGoal
                   })
                 );
-              }
-              return e('div', { key: cat.catId, className: 'gp-goal-group' },
-                e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)),
-                e(Chips, {
-                  wrap: true, selected: answers.goal,
-                  options: catGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
-                  onPick: pickGoal
-                })
-              );
-            })
+              });
+            })()
           ),
           e('form', { className: 'gp-freetext', onSubmit: submitFreeText },
             e('input', {
@@ -3165,7 +3660,8 @@
     poolAlternatives: poolAlternatives,
     reportStats: reportStats,
     coveredBundle: coveredBundle,
-    joinBundle: joinBundle
+    joinBundle: joinBundle,
+    mixStats: mixStats
   };
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;
