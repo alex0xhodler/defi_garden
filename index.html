@@ -114,19 +114,23 @@
     <script>
         if (window.__APP_MODE === 'analytics') {
             (function() {
-                var head = document.head;
-                function addScript(src, type) {
+                function addScript(src, type, onload) {
                     var s = document.createElement('script');
                     s.src = src;
                     if (type) s.setAttribute('type', type);
+                    if (onload) s.onload = onload;
                     document.body.appendChild(s);
                 }
                 // Inject text/babel app scripts first so Babel can find them when it loads
                 addScript('analytics.js');
                 addScript('PoolDetail.js', 'text/babel');
                 addScript('app.js', 'text/babel');
-                // Babel last — it scans for type="text/babel" scripts when it loads
-                addScript('https://unpkg.com/@babel/standalone/babel.min.js');
+                // Babel is injected async, so it loads AFTER DOMContentLoaded has fired —
+                // its auto-scan never runs. Transpile the injected text/babel scripts
+                // explicitly once Babel is ready, so the analytics app actually mounts.
+                addScript('https://unpkg.com/@babel/standalone/babel.min.js', null, function() {
+                    if (window.Babel && Babel.transformScriptTags) Babel.transformScriptTags();
+                });
             })();
         }
     </script>
