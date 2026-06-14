@@ -114,6 +114,7 @@ const translations = {
 
       // Step 1 — goal
       step1Question: "Let's grow something. What are you saving for?",
+      splashHook: "Park money once — its yield pays the bill forever, and you keep every dollar.",
       catSubscriptions: "Subscriptions",
       catGadgets: "Gadgets",
       catLife: "Big goals",
@@ -156,6 +157,9 @@ const translations = {
 
       // Step 4 — strategy personas (renamed from temperament)
       step4Question: "Last thing — where should your money work?",
+      personaStableShort: "Sleep-easy",
+      personaRwaShort: "Balanced",
+      personaDegenShort: "Bold",
       personaStableTitle: "Established Stablecoins",
       personaStableDesc: "Stablecoin pools on battle-tested lending & staking protocols, TVL ≥ $50M. Steady 3–8%, boring on purpose.",
       personaStableRisk: "Risk: depeg + contract bug — low odds, never zero.",
@@ -309,6 +313,8 @@ const translations = {
       // v3 — SUBSCRIPTION hero + ladder
       subHeroWin: (goal) => `Your money pays for ${goal}. Forever. Starting now.`,
       subHeroWinBundle: (list) => `Your money pays for ${list}. Forever. Starting now.`,
+      subHeroWinBundleMany: (list) => `Your money pays for ${list} — forever.`,
+      stripMore: (n) => `+${n} more`,
       subHeroWinEyebrow: "∞ Forever unlocked",
       subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt} covers ${billMo}/mo of bills at ${apyStr} — and you keep every dollar.`,
       subHeroWinSurplus: (amt) => `≈${amt} still growing on top.`,
@@ -486,6 +492,7 @@ const translations = {
       thinking: "답을 키우는 중…",
 
       step1Question: "함께 무언가를 키워봐요. 무엇을 위해 모으고 계신가요?",
+      splashHook: "한 번 넣어두면 — 수익이 요금을 영원히 내주고, 원금은 고스란히 남아요.",
       catSubscriptions: "구독 서비스",
       catGadgets: "가젯",
       catLife: "큰 목표",
@@ -525,6 +532,9 @@ const translations = {
       horizonChosen: (n) => `${n}년 동안 키우기`,
 
       step4Question: "마지막으로 — 내 돈이 어디서 일하면 좋을까요?",
+      personaStableShort: "안심 수익",
+      personaRwaShort: "균형",
+      personaDegenShort: "과감하게",
       personaStableTitle: "검증된 스테이블코인",
       personaStableDesc: "검증된 대출·스테이킹 프로토콜의 스테이블코인 풀, TVL ≥ $50M. 꾸준히 3~8%, 의도적으로 평범하게.",
       personaStableRisk: "위험: 디페그 + 컨트랙트 버그 — 낮은 확률, 0은 아님.",
@@ -668,6 +678,8 @@ const translations = {
       // v3 — SUBSCRIPTION hero + ladder
       subHeroWin: (goal) => `내 돈이 ${goal}을 영원히 내줘요. 지금 바로.`,
       subHeroWinBundle: (list) => `내 돈이 ${list}을 영원히 내줘요. 지금 바로.`,
+      subHeroWinBundleMany: (list) => `내 돈이 ${list}을 영원히 내줘요.`,
+      stripMore: (n) => `+${n}개 더`,
       subHeroWinEyebrow: "∞ 영구 달성",
       subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt}이 ${apyStr}로 월 ${billMo} 요금을 커버해요 — 원금은 그대로예요.`,
       subHeroWinSurplus: (amt) => `≈${amt}는 추가로 불어나는 중이에요.`,

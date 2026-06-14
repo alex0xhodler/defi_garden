@@ -1075,7 +1075,8 @@
           e('span', null, opt.label),
           hasHint ? e('span', { className: 'gp-chip-hint' }, opt.hint) : null
         );
-      })
+      }),
+      props.trailing || null
     );
   }
 
@@ -1565,7 +1566,7 @@
         }
         heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in gp-instant-win' },
           e('div', { className: 'gp-instant-win-eyebrow' }, t('subHeroWinEyebrow')),
-          e('div', { className: 'gp-headline-figure' }, t('subHeroWinBundle', bundleList)),
+          e('div', { className: 'gp-headline-figure' }, bundle.coveredCount >= 2 ? t('subHeroWinBundleMany', bundleList) : t('subHeroWinBundle', bundleList)),
           e('div', { className: 'gp-headline-sub' },
             t('subHeroWinCovers',
               isFinite(bundle.combinedForever) ? formatUsdRounded(bundle.combinedForever) : '…',
@@ -1624,7 +1625,15 @@
       e('div', { className: 'gp-plan-strip gp-animate-in' },
         e('span', { className: 'gp-strip-item', onClick: props.onEditGoal, role: 'button', tabIndex: 0,
           onKeyDown: function(ev){ if(ev.key==='Enter') props.onEditGoal && props.onEditGoal(); } },
-          (goalDef ? goalDef.emoji : '🌱') + ' ' + goalLabel(t, goal)
+          (function () {
+            if (archetype === 'subscription' && isCapitalPath && subCapital && apy) {
+              var stripBundle = coveredBundle(subCapital, apy, goal);
+              if (stripBundle.coveredCount >= 2) {
+                return (goalDef ? goalDef.emoji : '🌱') + ' ' + goalLabel(t, goal) + ' ' + t('stripMore', stripBundle.coveredCount - 1);
+              }
+            }
+            return (goalDef ? goalDef.emoji : '🌱') + ' ' + goalLabel(t, goal);
+          })()
         ),
         e('span', { className: 'gp-strip-sep' }, '·'),
         e('span', { className: 'gp-strip-item', onClick: props.onEditMonthly, role: 'button', tabIndex: 0,
@@ -1670,8 +1679,8 @@
           : null
       ) : null,
 
-      // 2. INTERACTIVE CHART (hidden for subscription — ladder replaces it)
-      archetype !== 'subscription' ? e('div', { className: 'gp-curve-wrap gp-animate-in' },
+      // 2. INTERACTIVE CHART (hidden for subscription and capital-funded target — no monthly contribution to chart)
+      (archetype !== 'subscription' && !isCapitalPath) ? e('div', { className: 'gp-curve-wrap gp-animate-in' },
         e(GrowthCurve, {
           monthly: slideMonthly, years: slideYears, apy: apy,
           target: archetype === 'target' ? targetAmt : null,
@@ -1736,15 +1745,18 @@
         // Persona switch pills
         e('div', { className: 'gp-persona-pills' },
           [
-            { key: 'stable', label: t('personaStableTitle') },
-            { key: 'rwa', label: t('personaRwaTitle') },
-            { key: 'degen', label: t('personaDegenTitle') }
+            { key: 'stable', shortKey: 'personaStableShort', titleKey: 'personaStableTitle' },
+            { key: 'rwa',    shortKey: 'personaRwaShort',    titleKey: 'personaRwaTitle' },
+            { key: 'degen',  shortKey: 'personaDegenShort',  titleKey: 'personaDegenTitle' }
           ].map(function(p) {
             return e('button', {
               key: p.key, type: 'button',
               className: 'gp-persona-pill' + (pk === p.key ? ' is-selected' : ''),
               onClick: function() { if (props.onWhatIf) props.onWhatIf('persona:' + p.key); }
-            }, p.label);
+            },
+              e('span', { className: 'gp-persona-pill-short' }, t(p.shortKey)),
+              e('span', { className: 'gp-persona-pill-sub' }, t(p.titleKey))
+            );
           })
         )
       ),
@@ -2767,6 +2779,7 @@
           preset ? e('p', { className: 'gp-preset-intro' }, t('presetIntro', preset.name)) : null,
           showSharedIntro ? e('p', { className: 'gp-preset-intro' }, t('sharedPlanIntro')) : null,
           e('p', { className: 'gp-question' }, t('step1Question')),
+          e('p', { className: 'gp-splash-hook' }, t('splashHook')),
           e('div', { className: 'gp-goal-groups' },
             [
               { catKey: 'catSubscriptions', catId: 'subscription' },
@@ -2777,31 +2790,21 @@
               if (cat.catId === 'subscription') {
                 var primaryGoals = catGoals.slice(0, 4);
                 var extraGoals = catGoals.slice(4);
+                var allShownGoals = subsExpanded ? primaryGoals.concat(extraGoals) : primaryGoals;
+                var toggleChip = e('button', {
+                  key: '__toggle__',
+                  type: 'button',
+                  className: 'gp-chip',
+                  onClick: function () { setSubsExpanded(!subsExpanded); }
+                }, subsExpanded ? t('goalLess') : t('goalMore'));
                 return e('div', { key: cat.catId, className: 'gp-goal-group' },
                   e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)),
                   e(Chips, {
                     wrap: true, selected: answers.goal,
-                    options: primaryGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
-                    onPick: pickGoal
-                  }),
-                  subsExpanded
-                    ? e('div', null,
-                        e(Chips, {
-                          wrap: true, selected: answers.goal,
-                          options: extraGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
-                          onPick: pickGoal
-                        }),
-                        e('button', {
-                          type: 'button',
-                          className: 'gp-chip gp-chip-more',
-                          onClick: function () { setSubsExpanded(false); }
-                        }, t('goalLess'))
-                      )
-                    : e('button', {
-                        type: 'button',
-                        className: 'gp-chip gp-chip-more',
-                        onClick: function () { setSubsExpanded(true); }
-                      }, t('goalMore'))
+                    options: allShownGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
+                    onPick: pickGoal,
+                    trailing: toggleChip
+                  })
                 );
               }
               return e('div', { key: cat.catId, className: 'gp-goal-group' },
@@ -3134,7 +3137,9 @@
         onShowGarden: function() { setMode('report'); }
       }),
       e('main', { className: 'gp-main' },
-        e('div', { className: 'gp-tagline' }, e('h1', null, t('title')), e('p', null, t('tagline'))),
+        (step === 'goal' && mode !== 'report')
+          ? e('div', { className: 'gp-tagline' }, e('h1', null, t('title')), e('p', null, t('tagline')))
+          : null,
         content
       )
     );

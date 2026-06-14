@@ -194,14 +194,13 @@
 .gp-chip-emoji { font-size: var(--font-size-lg); line-height: 1; }
 .gp-chip-whatif { font-weight: var(--font-weight-semibold); color: var(--color-primary); }
 
-/* More / Less toggle chip — secondary, dashed border signals it's a control not a goal */
-.gp-chip-more {
-  border: 1px dashed var(--color-text-muted, currentColor);
-  opacity: 0.75;
+/* Splash value-prop hook line */
+.gp-splash-hook {
   font-size: var(--font-size-sm);
-  margin-top: var(--space-8);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-4);
+  margin-bottom: 0;
 }
-.gp-chip-more:hover { opacity: 1; }
 
 /* ---------- Free-text inputs ---------- */
 .gp-freetext {
@@ -1033,6 +1032,26 @@
   color: var(--color-primary);
   font-weight: var(--font-weight-semibold);
 }
+.gp-persona-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.gp-persona-pill-short {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+  line-height: 1.2;
+}
+.gp-persona-pill-sub {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  line-height: 1.2;
+}
+.gp-persona-pill.is-selected .gp-persona-pill-sub {
+  color: var(--color-primary);
+  opacity: 0.8;
+}
 
 /* ---------- Primary CTA row ---------- */
 .gp-cta-row {
@@ -1357,7 +1376,6 @@
 
 /* ---------- Focus-visible states (C3) ---------- */
 .gp-chip:focus-visible,
-.gp-chip-more:focus-visible,
 .gp-temp-card:focus-visible,
 .gp-strip-item:focus-visible,
 .gp-ask-chip:focus-visible,
@@ -1381,7 +1399,6 @@
   .gp-thinking-dots span { animation: none; }
   .gp-curve-you.gp-draw { stroke-dashoffset: 0; animation: none; }
   .gp-chip,
-  .gp-chip-more,
   .gp-temp-card,
   .gp-pool-card,
   .gp-cta,
@@ -1551,10 +1568,10 @@
   margin-top: var(--space-8);
 }
 @media (max-width: 768px) {
-  .gp-instant-win .gp-headline-figure { font-size: 40px; }
+  .gp-instant-win .gp-headline-figure { font-size: 34px; }
 }
 @media (max-width: 400px) {
-  .gp-instant-win .gp-headline-figure { font-size: 34px; }
+  .gp-instant-win .gp-headline-figure { font-size: 28px; }
 }
 
 /* Ladder row highlight active persona */
