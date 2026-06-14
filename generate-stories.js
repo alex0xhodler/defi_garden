@@ -17,7 +17,7 @@ const path = require('path');
 const https = require('https');
 
 // Canonical site URL — matches plan.html / index.html canonicals
-const SITE_URL = 'https://defigarden.app';
+const SITE_URL = 'https://www.defi.garden';
 
 // Defillama API endpoint
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -374,11 +374,16 @@ ${p.faq.map(item => `        <div class="st-faq-item">
     <meta property="og:url" content="${pageUrl}">
     <meta property="og:site_name" content="DeFi Garden">
     <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="${SITE_URL}/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="DeFi Garden — plan your DeFi savings by goal">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${escapeHtml(p.seoTitle)}">
     <meta name="twitter:description" content="${escapeHtml(p.seoDescription)}">
+    <meta name="twitter:image" content="${SITE_URL}/og-image.png">
     <meta name="twitter:creator" content="@defigarden">
 
     <!-- App Icons and Favicon -->

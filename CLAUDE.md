@@ -4,7 +4,7 @@ Guidance for Claude Code when working in this repository.
 
 ## What this product is
 
-DeFi Garden (defigarden.app) is a static, no-backend, no-build-step web app on the DefiLlama pools API, with two faces:
+DeFi Garden (www.defi.garden) is a static, no-backend, no-build-step web app on the DefiLlama pools API, with two faces:
 
 1. **Garden Planner** (the DEFAULT feature, bare `/` and `plan.html`) — a goal-first, conversational, generative-UI savings planner for the ICP below.
 2. **Analytics app** (every parameterized URL: `/?token=`, `/?chain=`, `/?pool=`, etc.) — the original yield search/grid, reached from the planner via the header icon.
