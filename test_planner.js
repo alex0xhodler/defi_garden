@@ -752,4 +752,107 @@ test('joinBundle empty array: returns empty string', function () {
   assert.strictEqual(gp.joinBundle([]), '');
 });
 
+// ---------------------------------------------------------------------------
+// subscriptionLadder
+// ---------------------------------------------------------------------------
+console.log('subscriptionLadder');
+
+// disney is NOT in SUBSCRIPTION_LADDER (which has spotify/netflix/claude/gym/phonebill)
+test('subscriptionLadder(disney): first item id is disney', function () {
+  var ladder = gp.subscriptionLadder('disney');
+  assert.strictEqual(ladder[0].id, 'disney', 'first item should be disney');
+});
+
+test('subscriptionLadder(disney): length is SUBSCRIPTION_LADDER.length + 1', function () {
+  var base = gp.SUBSCRIPTION_LADDER;
+  var ladder = gp.subscriptionLadder('disney');
+  assert.strictEqual(ladder.length, base.length + 1, 'should have base+1 items');
+});
+
+test('subscriptionLadder(disney): contains all everyday-set ids', function () {
+  var ladder = gp.subscriptionLadder('disney');
+  var ids = ladder.map(function (x) { return x.id; });
+  ['spotify', 'netflix', 'claude', 'gym', 'phonebill'].forEach(function (id) {
+    assert.ok(ids.indexOf(id) !== -1, id + ' should be in ladder');
+  });
+});
+
+test('subscriptionLadder(disney): each item has monthly field', function () {
+  var ladder = gp.subscriptionLadder('disney');
+  ladder.forEach(function (item) {
+    assert.ok(typeof item.monthly === 'number' && item.monthly > 0, 'item ' + item.id + ' missing monthly');
+  });
+});
+
+test('subscriptionLadder(netflix): identical to SUBSCRIPTION_LADDER (already in base)', function () {
+  var base = gp.SUBSCRIPTION_LADDER;
+  var ladder = gp.subscriptionLadder('netflix');
+  assert.deepStrictEqual(ladder, base, 'netflix ladder should equal SUBSCRIPTION_LADDER');
+});
+
+test('subscriptionLadder(null): identical to SUBSCRIPTION_LADDER', function () {
+  var base = gp.SUBSCRIPTION_LADDER;
+  var ladder = gp.subscriptionLadder(null);
+  assert.deepStrictEqual(ladder, base, 'null ladder should equal SUBSCRIPTION_LADDER');
+});
+
+test('subscriptionLadder(undefined): identical to SUBSCRIPTION_LADDER', function () {
+  var base = gp.SUBSCRIPTION_LADDER;
+  var ladder = gp.subscriptionLadder(undefined);
+  assert.deepStrictEqual(ladder, base, 'undefined ladder should equal SUBSCRIPTION_LADDER');
+});
+
+test('subscriptionLadder(unknown-xyz): identical to SUBSCRIPTION_LADDER', function () {
+  var base = gp.SUBSCRIPTION_LADDER;
+  var ladder = gp.subscriptionLadder('unknown-xyz');
+  assert.deepStrictEqual(ladder, base, 'unknown id ladder should equal SUBSCRIPTION_LADDER');
+});
+
+test('subscriptionLadder(spotify): identical to SUBSCRIPTION_LADDER (already in base)', function () {
+  var base = gp.SUBSCRIPTION_LADDER;
+  var ladder = gp.subscriptionLadder('spotify');
+  assert.deepStrictEqual(ladder, base, 'spotify ladder should equal SUBSCRIPTION_LADDER');
+});
+
+test('subscriptionLadder(disney): disney item has monthly=16', function () {
+  var ladder = gp.subscriptionLadder('disney');
+  assert.strictEqual(ladder[0].monthly, 16, 'disney monthly should be 16');
+});
+
+// ---------------------------------------------------------------------------
+// coveredBundle with non-ladder anchor (disney)
+// ---------------------------------------------------------------------------
+console.log('coveredBundle with non-ladder anchor');
+
+// disney monthly=16, apy=5.3
+// foreverNumber(16, 5.3) = (16*12)/0.053 ~ 3622
+// subscriptionLadder('disney') = [{id:'disney',monthly:16}, ...SUBSCRIPTION_LADDER]
+// buildLadder with anchor='disney': rung0 cumMonthly=16, foreverAmt~3622
+
+test('coveredBundle(disneyForever, 5.3, disney): covered[0].id===disney', function () {
+  var disneyMonthly = 16;
+  var apy = 5.3;
+  var fn = gp.foreverNumber(disneyMonthly, apy);
+  var capital = Math.ceil(fn);
+  var b = gp.coveredBundle(capital, apy, 'disney');
+  assert.ok(b.coveredCount >= 1, 'should have at least 1 covered rung');
+  assert.strictEqual(b.covered[0].id, 'disney', 'first covered rung should be disney');
+});
+
+test('coveredBundle(belowDisney, 5.3, disney): coveredCount=0, nextRung.id===disney', function () {
+  var disneyMonthly = 16;
+  var apy = 5.3;
+  var fn = gp.foreverNumber(disneyMonthly, apy);
+  var capital = Math.floor(fn) - 1; // just below
+  var b = gp.coveredBundle(capital, apy, 'disney');
+  assert.strictEqual(b.coveredCount, 0, 'coveredCount should be 0 below disney threshold');
+  assert.ok(b.nextRung && b.nextRung.id === 'disney', 'nextRung should be disney');
+});
+
+test('coveredBundle(0, 5.3, disney): coveredCount=0, nextRung.id===disney', function () {
+  var b = gp.coveredBundle(0, 5.3, 'disney');
+  assert.strictEqual(b.coveredCount, 0);
+  assert.ok(b.nextRung && b.nextRung.id === 'disney', 'nextRung should be disney');
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');

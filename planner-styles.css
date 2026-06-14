@@ -194,6 +194,15 @@
 .gp-chip-emoji { font-size: var(--font-size-lg); line-height: 1; }
 .gp-chip-whatif { font-weight: var(--font-weight-semibold); color: var(--color-primary); }
 
+/* More / Less toggle chip — secondary, dashed border signals it's a control not a goal */
+.gp-chip-more {
+  border: 1px dashed var(--color-text-muted, currentColor);
+  opacity: 0.75;
+  font-size: var(--font-size-sm);
+  margin-top: var(--space-8);
+}
+.gp-chip-more:hover { opacity: 1; }
+
 /* ---------- Free-text inputs ---------- */
 .gp-freetext {
   display: flex;
@@ -1348,6 +1357,7 @@
 
 /* ---------- Focus-visible states (C3) ---------- */
 .gp-chip:focus-visible,
+.gp-chip-more:focus-visible,
 .gp-temp-card:focus-visible,
 .gp-strip-item:focus-visible,
 .gp-ask-chip:focus-visible,
@@ -1371,6 +1381,7 @@
   .gp-thinking-dots span { animation: none; }
   .gp-curve-you.gp-draw { stroke-dashoffset: 0; animation: none; }
   .gp-chip,
+  .gp-chip-more,
   .gp-temp-card,
   .gp-pool-card,
   .gp-cta,

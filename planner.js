@@ -151,6 +151,23 @@
     });
   }
 
+  // subscriptionLadder(goalId)
+  // Returns the effective ladder items for an anchor goal:
+  //   - if goalId is already in SUBSCRIPTION_LADDER, or falsy → SUBSCRIPTION_LADDER unchanged
+  //   - if goalId is a subscription goal with a target not in SUBSCRIPTION_LADDER → prepend it
+  //   - else → SUBSCRIPTION_LADDER unchanged
+  function subscriptionLadder(goalId) {
+    if (!goalId) return SUBSCRIPTION_LADDER;
+    for (var li = 0; li < SUBSCRIPTION_LADDER.length; li++) {
+      if (SUBSCRIPTION_LADDER[li].id === goalId) return SUBSCRIPTION_LADDER;
+    }
+    var g = goalById(goalId);
+    if (g && g.archetype === 'subscription' && typeof g.target === 'number') {
+      return [{ id: g.id, emoji: g.emoji, labelKey: g.labelKey, monthly: g.target }].concat(SUBSCRIPTION_LADDER);
+    }
+    return SUBSCRIPTION_LADDER;
+  }
+
   // coveredBundle(capital, apyPct, anchorGoalId)
   // Returns which anchored subscription-ladder rungs the capital already covers.
   // Builds the anchored ladder (rung-0 = anchor goal, rest sorted asc) and walks
@@ -166,7 +183,7 @@
   //   nextPct         — round(capital / nextRung.foreverAmt * 100) clamped 0..100, or null
   function coveredBundle(capital, apyPct, anchorGoalId) {
     var cap = Number(capital) || 0;
-    var ladder = buildLadder(SUBSCRIPTION_LADDER, apyPct, cap, anchorGoalId);
+    var ladder = buildLadder(subscriptionLadder(anchorGoalId), apyPct, cap, anchorGoalId);
     var covered = [];
     var nextRung = null;
     for (var i = 0; i < ladder.length; i++) {
@@ -566,6 +583,36 @@
     { id: 'mobileplan', emoji: '📶', labelKey: 'goalMobile', archetype: 'subscription',
       category: 'subscription', target: 40, isMonthly: true,
       keywords: ['mobile plan', 'phone plan', 'data plan', 'cell', '통신', '요금제'] },
+    { id: 'amazonprime', emoji: '📦', labelKey: 'goalAmazonPrime', archetype: 'subscription',
+      category: 'subscription', target: 15, isMonthly: true,
+      keywords: ['amazon prime', 'prime', '아마존 프라임', '프라임'] },
+    { id: 'disney', emoji: '🏰', labelKey: 'goalDisney', archetype: 'subscription',
+      category: 'subscription', target: 16, isMonthly: true,
+      keywords: ['disney+', 'disney plus', 'disney', '디즈니플러스', '디즈니'] },
+    { id: 'youtubepremium', emoji: '▶️', labelKey: 'goalYouTubePremium', archetype: 'subscription',
+      category: 'subscription', target: 14, isMonthly: true,
+      keywords: ['youtube premium', 'youtube', '유튜브 프리미엄', '유튜브'] },
+    { id: 'max', emoji: '🎬', labelKey: 'goalMax', archetype: 'subscription',
+      category: 'subscription', target: 17, isMonthly: true,
+      keywords: ['hbo', 'hbo max', 'max', '맥스', 'HBO'] },
+    { id: 'hulu', emoji: '📺', labelKey: 'goalHulu', archetype: 'subscription',
+      category: 'subscription', target: 19, isMonthly: true,
+      keywords: ['hulu', '훌루'] },
+    { id: 'appletv', emoji: '🍎', labelKey: 'goalAppleTV', archetype: 'subscription',
+      category: 'subscription', target: 13, isMonthly: true,
+      keywords: ['apple tv', 'apple tv+', '애플 tv', '애플tv'] },
+    { id: 'chatgpt', emoji: '💬', labelKey: 'goalChatGPT', archetype: 'subscription',
+      category: 'subscription', target: 20, isMonthly: true,
+      keywords: ['chatgpt', 'openai', 'gpt', '챗gpt', '챗지피티'] },
+    { id: 'gamepass', emoji: '🎮', labelKey: 'goalGamePass', archetype: 'subscription',
+      category: 'subscription', target: 20, isMonthly: true,
+      keywords: ['xbox', 'game pass', 'gamepass', '게임패스', '엑스박스'] },
+    { id: 'paramount', emoji: '⛰️', labelKey: 'goalParamount', archetype: 'subscription',
+      category: 'subscription', target: 9, isMonthly: true,
+      keywords: ['paramount', 'paramount+', '파라마운트', '파라마운트플러스'] },
+    { id: 'peacock', emoji: '🦚', labelKey: 'goalPeacock', archetype: 'subscription',
+      category: 'subscription', target: 11, isMonthly: true,
+      keywords: ['peacock', '피콕'] },
     { id: 'sneakers', emoji: '👟', labelKey: 'goalSneakers', archetype: 'target',
       category: 'gadget', target: 180,
       keywords: ['sneaker', 'sneakers', 'shoes', 'nike', 'adidas', 'shoe', '신발', '운동화', '나이키'] },
@@ -1248,8 +1295,8 @@
     // Subscription ladder rungs — cumulative stack (what does my money cover, forever?)
     var ladderRungs = useMemo(function () {
       var cap = isCapitalPath ? subCapital : null;
-      return buildLadder(SUBSCRIPTION_LADDER, apy, cap);
-    }, [apy, subCapital, isCapitalPath]);
+      return buildLadder(subscriptionLadder(goal), apy, cap, goal);
+    }, [apy, subCapital, isCapitalPath, goal]);
 
     // Live sliders state
     var slideMonthlyState = useState(monthly);
@@ -2489,6 +2536,7 @@
     var customMonthly = useState(''); var cm = customMonthly[0], setCm = customMonthly[1];
     var freeText = useState(''); var ft = freeText[0], setFt = freeText[1];
     var nudgeState = useState(false); var showNudge = nudgeState[0], setShowNudge = nudgeState[1];
+    var subsExpandedState = useState(false); var subsExpanded = subsExpandedState[0], setSubsExpanded = subsExpandedState[1];
 
     // Hover state for compounding explainer
     var hoverAmountState = useState(null);
@@ -2726,6 +2774,36 @@
               { catKey: 'catLife',          catId: 'life' }
             ].map(function (cat) {
               var catGoals = GOALS.filter(function (g) { return g.category === cat.catId; });
+              if (cat.catId === 'subscription') {
+                var primaryGoals = catGoals.slice(0, 4);
+                var extraGoals = catGoals.slice(4);
+                return e('div', { key: cat.catId, className: 'gp-goal-group' },
+                  e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)),
+                  e(Chips, {
+                    wrap: true, selected: answers.goal,
+                    options: primaryGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
+                    onPick: pickGoal
+                  }),
+                  subsExpanded
+                    ? e('div', null,
+                        e(Chips, {
+                          wrap: true, selected: answers.goal,
+                          options: extraGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
+                          onPick: pickGoal
+                        }),
+                        e('button', {
+                          type: 'button',
+                          className: 'gp-chip gp-chip-more',
+                          onClick: function () { setSubsExpanded(false); }
+                        }, t('goalLess'))
+                      )
+                    : e('button', {
+                        type: 'button',
+                        className: 'gp-chip gp-chip-more',
+                        onClick: function () { setSubsExpanded(true); }
+                      }, t('goalMore'))
+                );
+              }
               return e('div', { key: cat.catId, className: 'gp-goal-group' },
                 e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)),
                 e(Chips, {
@@ -2753,7 +2831,7 @@
 
         if (arch3 === 'subscription') {
           // Subscription: single smart amount step — tiered options anchored to chosen goal
-          var subLadder = buildLadder(SUBSCRIPTION_LADDER, guidanceApy, null, answers.goal);
+          var subLadder = buildLadder(subscriptionLadder(answers.goal), guidanceApy, null, answers.goal);
           var anchorRung = subLadder[0];
           var anchorMonthly = anchorRung ? anchorRung.monthly : (goalTarget3 || 20);
           var anchorForeverAmt = anchorRung ? anchorRung.foreverAmt : foreverNumber(anchorMonthly, guidanceApy);
@@ -3077,6 +3155,8 @@
     capitalForDeadline: capitalForDeadline, dailyYield: dailyYield,
     migratePlan: migratePlan, buildPlanHero: buildPlanHero, chipHintsFor: chipHintsFor,
     buildLadder: buildLadder,
+    SUBSCRIPTION_LADDER: SUBSCRIPTION_LADDER,
+    subscriptionLadder: subscriptionLadder,
     poolAlternatives: poolAlternatives,
     reportStats: reportStats,
     coveredBundle: coveredBundle,
