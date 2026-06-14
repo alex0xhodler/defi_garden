@@ -108,6 +108,33 @@
     if (rate <= 0) return Infinity;
     return (Number(monthlyTarget) * 12) / rate;
   }
+  // Cumulative subscription ladder — pure, unit-testable.
+  // items: array of { id, emoji, labelKey, monthly } (sorted ascending by monthly already, but we sort to be safe)
+  // apy: annual rate %; capital: user lump sum or null
+  // Returns array (same length, same order) with cumulative fields added.
+  function buildLadder(items, apy, capital) {
+    var sorted = items.slice().sort(function (a, b) { return a.monthly - b.monthly; });
+    var cumMonthly = 0;
+    return sorted.map(function (item) {
+      cumMonthly += item.monthly;
+      var foreverAmt = foreverNumber(cumMonthly, apy);
+      var unlocked = (capital != null && isFinite(foreverAmt) && capital >= foreverAmt);
+      var pct = (capital != null && isFinite(foreverAmt) && foreverAmt > 0)
+        ? Math.min(100, Math.round(capital / foreverAmt * 100))
+        : 0;
+      return {
+        id: item.id,
+        emoji: item.emoji,
+        labelKey: item.labelKey,
+        monthly: item.monthly,
+        cumMonthly: cumMonthly,
+        foreverAmt: foreverAmt,
+        unlocked: !!unlocked,
+        pct: pct
+      };
+    });
+  }
+
   // Add N months to today, return readable string; returns null for Infinity/NaN
   function monthsFromNow(months) {
     if (!isFinite(months) || isNaN(months)) return null;
@@ -156,6 +183,49 @@
   // Daily yield from a lump sum
   function dailyYield(capital, annualRatePct) {
     return (Number(capital) || 0) * (Number(annualRatePct) || 0) / 100 / 365;
+  }
+
+  // ---------------------------------------------------------------------------
+  // reportStats — pure helper for the GardenReport return-visit dashboard
+  // reportStats(plan, liveEffectiveApyPct, nowIso)
+  //   plan: the saved plan object (capital, monthly, fundingMode, savedAt)
+  //   liveEffectiveApyPct: effective APY already with degen haircut applied
+  //   nowIso: ISO date string for "now"
+  // Returns: { days, months, earnedEstimate }
+  //   days — whole days elapsed (>= 0; negative elapsed clamps to 0)
+  //   months — elapsed months (days / 30.4375)
+  //   earnedEstimate — honest estimate of yield accrued so far (>= 0, finite)
+  // ---------------------------------------------------------------------------
+  function reportStats(plan, liveEffectiveApyPct, nowIso) {
+    var savedMs = plan.savedAt ? new Date(plan.savedAt).getTime() : NaN;
+    var nowMs = nowIso ? new Date(nowIso).getTime() : Date.now();
+    var diffMs = isNaN(savedMs) ? 0 : (nowMs - savedMs);
+    var days = diffMs <= 0 ? 0 : Math.floor(diffMs / (1000 * 60 * 60 * 24));
+    var months = days / 30.4375;
+    var apy = Number(liveEffectiveApyPct) || 0;
+
+    var earned = 0;
+    if (days > 0 && apy > 0) {
+      var cap = Number(plan.capital) || 0;
+      var mo = Number(plan.monthly) || 0;
+      var isCapital = (plan.fundingMode === 'capital') && cap > 0;
+      if (isCapital) {
+        // Cumulative yield from lump sum over elapsed months
+        earned = cumulativeYield(cap, apy, months);
+      } else if (mo > 0) {
+        // Estimate yield accrued on deposits made so far:
+        // futureValue of contributions over elapsed period minus principal deposited
+        var elapsedYears = months / 12;
+        var fv = futureValue(mo, apy, elapsedYears);
+        var deposited = mo * months; // approximate: monthly * elapsed months
+        earned = Math.max(0, fv - deposited);
+      }
+    }
+
+    // Guard against NaN/Infinity from any edge case
+    if (!isFinite(earned) || isNaN(earned)) earned = 0;
+
+    return { days: days, months: months, earnedEstimate: earned };
   }
 
   // ---------------------------------------------------------------------------
@@ -316,26 +386,41 @@
     return false;
   }
 
-  function curatePools(pools, personaKey, limit) {
+  // curatePools(pools, personaKey, limit, opts)
+  // opts (all optional, backward-compatible): {
+  //   chain: string  — keep only pools where pool.chain matches (case-insensitive)
+  //   token: string  — keep only pools where pool.symbol contains token (case-insensitive)
+  //   exclude: string[] — pool ids to drop before curating
+  // }
+  // All existing trust rails (APY_SANITY_LIMIT, TVL floor, stableOnly) apply BEFORE opts.
+  function curatePools(pools, personaKey, limit, opts) {
     // Support legacy temperament keys
     var pk = TEMPERAMENT_TO_PERSONA[personaKey] || personaKey;
     var band = PERSONAS[pk] || PERSONAS.stable;
     var lim = limit == null ? 3 : limit;
     if (!Array.isArray(pools)) return [];
 
+    // Parse opts (backward-compat: 3-arg calls pass undefined)
+    var filterChain = opts && opts.chain ? String(opts.chain).toLowerCase() : null;
+    var filterToken = opts && opts.token ? String(opts.token).toLowerCase() : null;
+    var excludeSet = {};
+    if (opts && Array.isArray(opts.exclude)) {
+      opts.exclude.forEach(function (id) { excludeSet[id] = true; });
+    }
+
     var eligible = pools.filter(function (p) {
       if (!p || !p.symbol || !p.project) return false;
+      // Hard trust rails first
       var apy = poolTotalApy(p);
-      if (apy > APY_SANITY_LIMIT) return false;  // hard rail
+      if (apy > APY_SANITY_LIMIT) return false;
       if (apy <= 0) return false;
       if (apy > band.maxApy) return false;
       if ((p.tvlUsd || 0) < band.minTvl) return false;
       if (band.stableOnly && !isStableSymbol(p.symbol)) return false;
-      if (band.rwaAllowlist) {
-        // RWA persona: prefer allowlist projects but also admit non-anomalous non-stable pools
-        // as fallback so we always get ≥3 results
-        // (filtering to allowlist only is done in sort priority)
-      }
+      // opts filters applied after rails (never bypass safety)
+      if (excludeSet[p.pool]) return false;
+      if (filterChain && String(p.chain || '').toLowerCase() !== filterChain) return false;
+      if (filterToken && String(p.symbol || '').toLowerCase().indexOf(filterToken) === -1) return false;
       return true;
     });
 
@@ -369,6 +454,19 @@
     return out;
   }
 
+  // poolAlternatives(pools, personaKey, opts, excludeIds, limit)
+  // Returns in-band, project-deduped pools not in excludeIds, honoring chain/token opts,
+  // sorted by the same band criteria. Anomalous / sub-TVL pools never appear.
+  // excludeIds: array of pool ids already displayed (never returned).
+  function poolAlternatives(pools, personaKey, opts, excludeIds, limit) {
+    var lim = limit == null ? 5 : limit;
+    var safeExclude = Array.isArray(excludeIds) ? excludeIds : [];
+    // Build opts with exclude merged in
+    var mergedOpts = Object.assign({}, opts || {}, { exclude: safeExclude });
+    // Get a larger pool (up to 20) to have headroom after project-dedup
+    return curatePools(pools, personaKey, lim, mergedOpts);
+  }
+
   function blendedApy(curated) {
     if (!curated || !curated.length) return 0;
     return median(curated.map(poolTotalApy));
@@ -384,19 +482,30 @@
   // Goal model — two-tier archetype system
   // ---------------------------------------------------------------------------
   var GOALS = [
-    { id: 'retirement', emoji: '🌳', labelKey: 'goalRetirement', archetype: 'growth',
-      keywords: ['retire', 'retirement', 'pension', 'old age', '은퇴', '노후', '연금'] },
-    { id: 'home', emoji: '🏡', labelKey: 'goalHome', archetype: 'growth',
-      keywords: ['home', 'house', 'apartment', 'down payment', 'mortgage', 'property', '집', '주택', '아파트'] },
+    { id: 'spotify', emoji: '🎵', labelKey: 'goalSpotify', archetype: 'subscription',
+      category: 'subscription', target: 12, isMonthly: true,
+      keywords: ['spotify', 'music', '음악', '스포티파이'] },
+    { id: 'netflix', emoji: '🍿', labelKey: 'goalNetflix', archetype: 'subscription',
+      category: 'subscription', target: 18, isMonthly: true,
+      keywords: ['netflix', 'streaming', 'video', '넷플릭스', '스트리밍'] },
     { id: 'claude', emoji: '🤖', labelKey: 'goalClaude', archetype: 'subscription',
-      target: 20, isMonthly: true,
+      category: 'subscription', target: 20, isMonthly: true,
       keywords: ['claude', 'chatgpt', 'ai', 'subscription', 'openai', 'llm', 'cursor', 'copilot', '구독', 'ai 구독'] },
+    { id: 'mobileplan', emoji: '📶', labelKey: 'goalMobile', archetype: 'subscription',
+      category: 'subscription', target: 40, isMonthly: true,
+      keywords: ['mobile plan', 'phone plan', 'data plan', 'cell', '통신', '요금제'] },
     { id: 'sneakers', emoji: '👟', labelKey: 'goalSneakers', archetype: 'target',
-      target: 180,
+      category: 'gadget', target: 180,
       keywords: ['sneaker', 'sneakers', 'shoes', 'nike', 'adidas', 'shoe', '신발', '운동화', '나이키'] },
     { id: 'iphone', emoji: '📱', labelKey: 'goalIphone', archetype: 'target',
-      target: 1100,
-      keywords: ['phone', 'iphone', 'android', 'samsung', 'pixel', 'mobile', '폰', '아이폰', '휴대폰', '스마트폰'] }
+      category: 'gadget', target: 1100,
+      keywords: ['phone', 'iphone', 'android', 'samsung', 'pixel', 'mobile', '폰', '아이폰', '휴대폰', '스마트폰'] },
+    { id: 'home', emoji: '🏡', labelKey: 'goalHome', archetype: 'growth',
+      category: 'life',
+      keywords: ['home', 'house', 'apartment', 'down payment', 'mortgage', 'property', '집', '주택', '아파트'] },
+    { id: 'retirement', emoji: '🌳', labelKey: 'goalRetirement', archetype: 'growth',
+      category: 'life',
+      keywords: ['retire', 'retirement', 'pension', 'old age', '은퇴', '노후', '연금'] }
   ];
 
   // Subscription ladder — always shown in full in SUBSCRIPTION bloom.
@@ -894,12 +1003,103 @@
     var propDeadline = props.deadline || null;
     var isCapitalPath = propFundingMode === 'capital' && propCapital;
 
-    var curated = useMemo(function () { return curatePools(pools, persona, 3); }, [pools, persona]);
+    // --- Pool filter + slot-override state ---
+    var poolFiltersState = useState({ chain: null, token: null });
+    var poolFilters = poolFiltersState[0], setPoolFilters = poolFiltersState[1];
+
+    // slotPicks: array of explicit pool-id choices per slot (null = auto).
+    // Length ≤ 3; null entry means "use whatever curatePools picks for that slot".
+    var slotPicksState = useState([null, null, null]);
+    var slotPicks = slotPicksState[0], setSlotPicks = slotPicksState[1];
+
+    // openSwapSlot: index of the card whose swap panel is open, or null
+    var openSwapSlotState = useState(null);
+    var openSwapSlot = openSwapSlotState[0], setOpenSwapSlot = openSwapSlotState[1];
+
+    // Reset stale slot picks when filters or persona change
+    useEffect(function () {
+      setSlotPicks([null, null, null]);
+      setOpenSwapSlot(null);
+    }, [poolFilters.chain, poolFilters.token, persona]);
+
+    // Auto-curated set (filtered by poolFilters, no slot overrides)
+    var autoCurated = useMemo(function () {
+      return curatePools(pools, persona, 3, {
+        chain: poolFilters.chain || undefined,
+        token: poolFilters.token || undefined
+      });
+    }, [pools, persona, poolFilters.chain, poolFilters.token]);
+
+    // Build a pool-id lookup for slot-pick resolution
+    var poolById = useMemo(function () {
+      var m = {};
+      (pools || []).forEach(function (p) { m[p.pool] = p; });
+      return m;
+    }, [pools]);
+
+    // Displayed set: start from autoCurated, then apply user slot picks.
+    // A slot pick replaces the pool at that index if the chosen pool is in-band
+    // for the current filters (we re-validate via curatePools rails to be safe:
+    // just check the pool is not anomalous and meets TVL floor for the persona).
+    var curated = useMemo(function () {
+      if (slotPicks.every(function (p) { return p === null; })) return autoCurated;
+      var out = autoCurated.slice(); // start from auto set (may be < 3 entries)
+      for (var i = 0; i < slotPicks.length; i++) {
+        var pid = slotPicks[i];
+        if (!pid) continue;
+        var pool = poolById[pid];
+        if (!pool) continue;
+        // Trust rail re-check: never let a picked pool bypass safety
+        var apy2 = poolTotalApy(pool);
+        if (apy2 > APY_SANITY_LIMIT || apy2 <= 0) continue;
+        var pk3 = TEMPERAMENT_TO_PERSONA[persona] || persona;
+        var band3 = PERSONAS[pk3] || PERSONAS.stable;
+        if ((pool.tvlUsd || 0) < band3.minTvl) continue;
+        if (band3.stableOnly && !isStableSymbol(pool.symbol)) continue;
+        if (i < out.length) {
+          out[i] = pool;
+        } else {
+          out.push(pool);
+        }
+      }
+      return out.slice(0, 3);
+    }, [autoCurated, slotPicks, poolById, persona]);
+
     var rawApy = useMemo(function () { return blendedApy(curated); }, [curated]);
     var apy = useMemo(function () {
       var pk = TEMPERAMENT_TO_PERSONA[persona] || persona;
       return (PERSONAS[pk] && PERSONAS[pk].degenHaircut) ? rawApy / 3 : rawApy;
     }, [rawApy, persona]);
+
+    // Derive chain chip options from chains present in the eligible (unfiltered) set
+    var chainOptions = useMemo(function () {
+      var eligible = curatePools(pools, persona, 30);
+      var counts = {};
+      eligible.forEach(function (p) {
+        var c = p.chain || 'Unknown';
+        counts[c] = (counts[c] || 0) + 1;
+      });
+      var chains = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
+      return chains.slice(0, 4); // top 4 by frequency
+    }, [pools, persona]);
+
+    // Derive token chip options from distinct stable tokens in the eligible set
+    var tokenOptions = useMemo(function () {
+      var eligible = curatePools(pools, persona, 30);
+      var seen = {};
+      var tokens = [];
+      eligible.forEach(function (p) {
+        // Split LP symbols and collect individual stables
+        var parts = String(p.symbol || '').toUpperCase().split(/[-_\/\s+]/).map(function (s) { return s.trim(); }).filter(Boolean);
+        parts.forEach(function (t) {
+          if (!seen[t] && STABLE_SYMBOLS.indexOf(t) !== -1) {
+            seen[t] = true;
+            tokens.push(t);
+          }
+        });
+      });
+      return tokens.slice(0, 4); // top 4
+    }, [pools, persona]);
 
     // v3 — per-persona curated pools + APYs for persona ladder
     var allPersonaCurated = useMemo(function () {
@@ -939,6 +1139,7 @@
     }, [slideCapital, allPersonaApy, targetAmt, isCapitalPath]);
 
     var pk = TEMPERAMENT_TO_PERSONA[persona] || persona;
+    var isDegenPersona = pk === 'degen';
 
     var deadlineFeasible = useMemo(function () {
       if (!propDeadline || !ladderDates) return true;
@@ -972,14 +1173,10 @@
     var subProgress = (subCapital && isFinite(foreverAmt) && foreverAmt > 0)
       ? Math.min(100, Math.round(subCapital / foreverAmt * 100)) : 0;
 
-    // Subscription ladder rungs
+    // Subscription ladder rungs — cumulative stack (what does my money cover, forever?)
     var ladderRungs = useMemo(function () {
-      return SUBSCRIPTION_LADDER.map(function (rung) {
-        var fn = foreverNumber(rung.monthly, apy);
-        var unlocked = isCapitalPath && subCapital && isFinite(fn) && subCapital >= fn;
-        var pct = (subCapital && isFinite(fn) && fn > 0) ? Math.min(100, Math.round(subCapital / fn * 100)) : 0;
-        return Object.assign({}, rung, { foreverAmt: fn, unlocked: !!unlocked, pct: pct });
-      });
+      var cap = isCapitalPath ? subCapital : null;
+      return buildLadder(SUBSCRIPTION_LADDER, apy, cap);
     }, [apy, subCapital, isCapitalPath]);
 
     // Live sliders state
@@ -1013,13 +1210,14 @@
     var copySuccessState = useState(false);
     var copySuccess = copySuccessState[0], setCopySuccess = copySuccessState[1];
 
-    // Persist plan whenever artifact settles
+    // Persist plan whenever artifact settles — curated is always the DISPLAYED set
     useEffect(function () {
       if (!curated.length) return;
       savePlan({
         version: PLAN_VERSION,
         goal: goal, monthly: monthly, years: years || 10, persona: persona,
         temperament: PERSONA_TO_TEMPERAMENT[persona] || persona,
+        // pools saved = displayed set (user's actual stack, including any swaps)
         pools: curated.map(function (p) { return { pool: p.pool, symbol: p.symbol, project: p.project, chain: p.chain, apy: poolTotalApy(p) }; }),
         blendedApy: rawApy, effectiveApy: apy,
         projection: archetype === 'growth' ? projection : null,
@@ -1029,9 +1227,12 @@
         archetype: archetype,
         target: targetAmt,
         hero: buildPlanHero({ archetype: archetype, fundingMode: propFundingMode, capital: propCapital, monthly: monthly, years: years || 10, target: targetAmt, apy: apy }),
-        savedAt: new Date().toISOString()
+        savedAt: new Date().toISOString(),
+        // Optional fields (new in this version) — older migratePlan ignores unknown fields
+        poolFilters: poolFilters,
+        slotPicks: slotPicks
       });
-    }, [curated, monthly, years, persona, apy, goal, propCapital, propFundingMode, propDeadline]);
+    }, [curated, monthly, years, persona, apy, goal, propCapital, propFundingMode, propDeadline, poolFilters, slotPicks]);
 
     // Top pool for CTA
     var topPool = curated[0];
@@ -1172,11 +1373,21 @@
     } else if (archetype === 'subscription') {
       // SUBSCRIPTION hero
       if (isInstantWin) {
+        var surplusAmt = (isFinite(subCapital) && isFinite(foreverAmt) && subCapital > foreverAmt)
+          ? subCapital - foreverAmt : 0;
         heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in gp-instant-win' },
+          e('div', { className: 'gp-instant-win-eyebrow' }, t('subHeroWinEyebrow')),
           e('div', { className: 'gp-headline-figure' }, t('subHeroWin', goalLabel(t, goal))),
           e('div', { className: 'gp-headline-sub' },
-            formatUsdRounded(subCapital) + ' → ' + (isFinite(foreverAmt) ? formatUsdRounded(foreverAmt) : '…') + ' needed'
-          )
+            t('subHeroWinCovers',
+              isFinite(foreverAmt) ? formatUsdRounded(foreverAmt) : '…',
+              formatUsd(subGoalMonthly) + '/mo',
+              formatApy(apy)
+            )
+          ),
+          (surplusAmt > 0 && isFinite(surplusAmt))
+            ? e('div', { className: 'gp-instant-win-surplus' }, t('subHeroWinSurplus', formatUsdRounded(surplusAmt)))
+            : null
         );
       } else {
         var crossDate = isCapitalPath
@@ -1211,9 +1422,6 @@
       t('askChipSafe'), t('askChipRatesDrop'), t('askChipCatch'),
       archetype === 'subscription' ? t('askChipStop') : t('askChipWithdraw')
     ];
-
-    var pk = TEMPERAMENT_TO_PERSONA[persona] || persona;
-    var isDegenPersona = pk === 'degen';
 
     return e('div', { className: 'gp-bloom' },
       props.presetName ? e('p', { className: 'gp-preset-intro gp-bloom-intro gp-animate-in' }, t('presetIntro', props.presetName)) : null,
@@ -1362,26 +1570,50 @@
         e('p', { className: 'gp-cta-microcopy' }, t('ctaMicrocopy'))
       ) : null,
 
-      // 4b. v3 — subscription ladder
-      archetype === 'subscription' ? e('div', { className: 'gp-sub-ladder gp-animate-in' },
-        e('div', { className: 'gp-sub-ladder-title' }, t('subLadderTitle')),
-        ladderRungs.map(function (rung) {
-          return e('div', {
-            key: rung.id,
-            className: 'gp-sub-rung' + (rung.unlocked ? ' gp-rung-unlocked' : ' gp-rung-locked')
-              + (rung.id === 'claude' && goal === 'claude' ? ' gp-rung-selected' : '')
-          },
-            e('span', { className: 'gp-rung-emoji' }, rung.emoji),
-            e('span', { className: 'gp-rung-label' }, t(rung.labelKey)),
-            e('span', { className: 'gp-rung-forever' }, isFinite(rung.foreverAmt) ? formatUsdRounded(rung.foreverAmt) : (apy > 0 ? '—' : '…')),
-            rung.unlocked
-              ? e('span', { className: 'gp-rung-badge' }, t('subLadderUnlocked'))
-              : e('span', { className: 'gp-rung-pct' }, t('subLadderProgress', rung.pct))
-          );
-        })
-      ) : null,
+      // 4b. v3 — subscription ladder (cumulative stack)
+      archetype === 'subscription' ? (function () {
+        // Index of the last unlocked rung (-1 if none)
+        var lastUnlockedIdx = -1;
+        for (var li = ladderRungs.length - 1; li >= 0; li--) {
+          if (ladderRungs[li].unlocked) { lastUnlockedIdx = li; break; }
+        }
+        return e('div', { className: 'gp-sub-ladder gp-animate-in' },
+          e('div', { className: 'gp-sub-ladder-title' }, t('subLadderTitle')),
+          ladderRungs.map(function (rung, idx) {
+            var isYouAreHere = isCapitalPath && idx === lastUnlockedIdx;
+            var rungLabel = idx === 0 ? t(rung.labelKey) : t('ladderPlus', t(rung.labelKey));
+            return e('div', {
+              key: rung.id,
+              className: 'gp-sub-rung'
+                + (isCapitalPath && rung.unlocked ? ' gp-rung-unlocked' : ' gp-rung-locked')
+                + (rung.id === goal ? ' gp-rung-selected' : '')
+                + (isYouAreHere ? ' gp-rung-here' : '')
+            },
+              e('span', { className: 'gp-rung-emoji' }, rung.emoji),
+              e('div', { className: 'gp-rung-info' },
+                e('span', { className: 'gp-rung-label' }, rungLabel),
+                e('span', { className: 'gp-rung-cummonthly' }, formatUsd(rung.cumMonthly) + '/mo')
+              ),
+              e('div', { className: 'gp-rung-right' },
+                e('span', { className: 'gp-rung-forever' },
+                  isFinite(rung.foreverAmt) ? formatUsdRounded(rung.foreverAmt) : (apy > 0 ? '—' : '…')
+                ),
+                isCapitalPath
+                  ? (rung.unlocked
+                      ? e('span', { className: 'gp-rung-badge' }, t('subLadderUnlocked'))
+                      : e('span', { className: 'gp-rung-pct' }, t('subLadderProgress', rung.pct))
+                    )
+                  : null
+              ),
+              isYouAreHere
+                ? e('span', { className: 'gp-rung-here-marker' }, t('ladderYouAreHere'))
+                : null
+            );
+          })
+        );
+      })() : null,
 
-      // 5. ENGINE ROOM — pools
+      // 5. ENGINE ROOM — pools with filter chips + per-card swap
       e('div', { className: 'gp-pools gp-animate-in' },
         e('div', { className: 'gp-pools-heading' },
           t('poolsHeading'),
@@ -1390,26 +1622,123 @@
         isDegenPersona ? e('div', { className: 'gp-degen-warning' },
           t('degenHaircutNote', formatApy(rawApy))
         ) : null,
+
+        // Filter chip rows — chain
+        chainOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+          e('span', { className: 'gp-engine-filter-label' }, t('engineFilterChain')),
+          e('div', { className: 'gp-chips gp-chips-wrap' },
+            [{ value: null, label: t('engineAll') }].concat(
+              chainOptions.map(function (c) { return { value: c, label: c }; })
+            ).map(function (opt) {
+              var isSelected = poolFilters.chain === opt.value;
+              return e('button', {
+                key: opt.value == null ? '__all__' : opt.value,
+                type: 'button',
+                className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+                onClick: function () {
+                  setPoolFilters(function (f) { return Object.assign({}, f, { chain: opt.value }); });
+                }
+              }, opt.label);
+            })
+          )
+        ) : null,
+
+        // Filter chip rows — token
+        tokenOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+          e('span', { className: 'gp-engine-filter-label' }, t('engineFilterToken')),
+          e('div', { className: 'gp-chips gp-chips-wrap' },
+            [{ value: null, label: t('engineAll') }].concat(
+              tokenOptions.map(function (tok) { return { value: tok, label: tok }; })
+            ).map(function (opt) {
+              var isSelected = poolFilters.token === opt.value;
+              return e('button', {
+                key: opt.value == null ? '__all__' : opt.value,
+                type: 'button',
+                className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+                onClick: function () {
+                  setPoolFilters(function (f) { return Object.assign({}, f, { token: opt.value }); });
+                }
+              }, opt.label);
+            })
+          )
+        ) : null,
+
         curated.length === 0
           ? e('div', { className: 'gp-pools-empty' }, t('noPools'))
           : e('div', { className: 'gp-pool-grid' },
-              curated.map(function (p) {
-                return e('a', {
-                  key: p.pool, className: 'gp-pool-card', href: '/?pool=' + encodeURIComponent(p.pool),
-                  rel: 'noopener'
+              curated.map(function (p, slotIdx) {
+                var isSwapOpen = openSwapSlot === slotIdx;
+                // Alternatives for this slot: exclude all currently-displayed pool ids
+                var displayedIds = curated.map(function (c) { return c.pool; });
+                var alts = isSwapOpen
+                  ? poolAlternatives(pools, persona, {
+                      chain: poolFilters.chain || undefined,
+                      token: poolFilters.token || undefined
+                    }, displayedIds, 5)
+                  : [];
+
+                return e('div', {
+                  key: p.pool,
+                  className: 'gp-pool-slot' + (isSwapOpen ? ' gp-pool-slot-open' : '')
                 },
-                  e('div', { className: 'gp-pool-top' },
-                    e('span', { className: 'gp-pool-symbol' }, p.symbol),
-                    e('span', { className: 'gp-pool-apy' }, formatApy(poolTotalApy(p)))
+                  // The pool card — still navigates on click (anchor)
+                  e('a', {
+                    className: 'gp-pool-card', href: '/?pool=' + encodeURIComponent(p.pool),
+                    rel: 'noopener'
+                  },
+                    e('div', { className: 'gp-pool-top' },
+                      e('span', { className: 'gp-pool-symbol' }, p.symbol),
+                      e('span', { className: 'gp-pool-apy' }, formatApy(poolTotalApy(p)))
+                    ),
+                    e('div', { className: 'gp-pool-meta' },
+                      e('span', { className: 'gp-pool-project' }, p.project),
+                      e('span', { className: 'gp-pool-chain' }, p.chain)
+                    ),
+                    e('div', { className: 'gp-pool-foot' },
+                      e('span', { className: 'gp-pool-tvl' }, t('poolTvl') + ' ' + formatTvl(p.tvlUsd)),
+                      e('span', { className: 'gp-pool-link' }, t('viewPool'))
+                    )
                   ),
-                  e('div', { className: 'gp-pool-meta' },
-                    e('span', { className: 'gp-pool-project' }, p.project),
-                    e('span', { className: 'gp-pool-chain' }, p.chain)
-                  ),
-                  e('div', { className: 'gp-pool-foot' },
-                    e('span', { className: 'gp-pool-tvl' }, t('poolTvl') + ' ' + formatTvl(p.tvlUsd)),
-                    e('span', { className: 'gp-pool-link' }, t('viewPool'))
-                  )
+                  // Swap button — separate from the anchor, no navigation
+                  e('button', {
+                    type: 'button',
+                    className: 'gp-pool-swap-btn' + (isSwapOpen ? ' is-active' : ''),
+                    'aria-label': isSwapOpen ? t('engineSwapClose') : t('engineSwap'),
+                    onClick: function (ev) {
+                      ev.stopPropagation();
+                      setOpenSwapSlot(isSwapOpen ? null : slotIdx);
+                    }
+                  }, isSwapOpen ? '×' : t('engineSwap')),
+
+                  // Inline alternatives panel
+                  isSwapOpen ? e('div', { className: 'gp-swap-panel' },
+                    alts.length === 0
+                      ? e('div', { className: 'gp-swap-empty' }, t('noPools'))
+                      : alts.map(function (alt) {
+                          return e('button', {
+                            key: alt.pool,
+                            type: 'button',
+                            className: 'gp-swap-alt',
+                            onClick: function () {
+                              setSlotPicks(function (prev) {
+                                var next = prev.slice();
+                                next[slotIdx] = alt.pool;
+                                return next;
+                              });
+                              setOpenSwapSlot(null);
+                            }
+                          },
+                            e('div', { className: 'gp-swap-alt-top' },
+                              e('span', { className: 'gp-swap-alt-symbol' }, alt.symbol),
+                              e('span', { className: 'gp-swap-alt-apy' }, formatApy(poolTotalApy(alt)))
+                            ),
+                            e('div', { className: 'gp-swap-alt-meta' },
+                              e('span', null, alt.project),
+                              e('span', null, ' · ' + alt.chain)
+                            )
+                          );
+                        })
+                  ) : null
                 );
               })
             )
@@ -1580,37 +1909,18 @@
   }
 
   // ===========================================================================
-  // ReportJourney — 3-row vertical stepper for the garden report
+  // ReportJourney — 2-row vertical stepper (Planted → Growing now)
+  // The is-next hero row has been removed; outcome lives in the projection block.
   // ===========================================================================
   function ReportJourney(props) {
     var t = props.t;
     var plan = props.plan;
     var poolsReady = props.poolsReady;
     var newBlended = props.newBlended;
-    var arch = plan.archetype || goalArchetype(plan.goal);
 
     var dateStr = '';
     try { dateStr = new Date(plan.savedAt).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }); }
     catch (e11) { dateStr = ''; }
-
-    var heroText = '';
-    if (plan.hero) {
-      var h = plan.hero;
-      if (h.kind === 'flipDate' && h.months !== null) {
-        var goalDef4 = goalById(plan.goal);
-        heroText = (goalDef4 ? goalDef4.emoji + ' ' : '') + t('heroTargetFlip', formatUsdRounded(h.capital || 0), goalLabel(t, plan.goal), monthsFromNow(h.months) || '');
-      } else if (h.kind === 'targetDate' && h.months !== null) {
-        heroText = t('heroTarget', goalLabel(t, plan.goal), monthsFromNow(h.months) || '');
-      } else if (h.kind === 'forever') {
-        if (h.progressPct >= 100) {
-          heroText = t('subHeroWin', goalLabel(t, plan.goal));
-        } else {
-          heroText = t('subHeroProgress', h.progressPct, goalLabel(t, plan.goal));
-        }
-      } else if (h.kind === 'projection' && h.projection !== null) {
-        heroText = '🌳 ≈ ' + formatUsdRounded(h.projection);
-      }
-    }
 
     var deltaApy = (props.savedBlended != null && newBlended != null) ? (newBlended - props.savedBlended) : 0;
     var statusSubLine;
@@ -1635,18 +1945,12 @@
           e('div', { className: 'gp-journey-label' }, t('journeyGrowing')),
           e('div', { className: 'gp-journey-status' }, statusSubLine)
         )
-      ),
-      heroText ? e('div', { className: 'gp-journey-row is-next' },
-        e('div', { className: 'gp-journey-marker' }, '○'),
-        e('div', { className: 'gp-journey-content' },
-          e('div', { className: 'gp-journey-label' }, heroText)
-        )
-      ) : null
+      )
     );
   }
 
   // ===========================================================================
-  // Garden Report (return visit) — fixed P0 bug: show immediately without API
+  // Garden Report (return visit) — genuine dashboard with elapsed + progress
   // ===========================================================================
   function GardenReport(props) {
     var t = props.t, plan = props.plan, pools = props.pools, poolsReady = props.poolsReady;
@@ -1672,7 +1976,7 @@
     var liveApys = live.filter(function (r) { return r.liveApy != null; }).map(function (r) { return r.liveApy; });
     var newBlended = liveApys.length ? median(liveApys) : plan.blendedApy;
 
-    // Apply degen haircut if applicable (pre-existing honesty bug now fixed)
+    // Apply degen haircut if applicable
     var personaKey = TEMPERAMENT_TO_PERSONA[plan.temperament] || plan.persona;
     var newEffective = personaKey === 'degen' ? newBlended / 3 : newBlended;
 
@@ -1731,7 +2035,47 @@
       : (personaKey === 'rwa' ? t('personaRwaTitle')
         : (personaKey === 'degen' ? t('personaDegenTitle') : ''));
 
-    // Build archetype-aware projection block
+    // --- Dashboard: elapsed time + estimated growth ---
+    var stats = reportStats(plan, newEffective, new Date().toISOString());
+    var elapsedBlock = stats.days > 0
+      ? e('div', { className: 'gp-report-elapsed' },
+          e('span', { className: 'gp-report-elapsed-days' }, t('reportElapsedDays', stats.days)),
+          stats.earnedEstimate > 0.005
+            ? e('span', { className: 'gp-report-elapsed-sep' }, ' · ')
+            : null,
+          stats.earnedEstimate > 0.005
+            ? e('span', { className: 'gp-report-earned-est' }, t('reportEarnedEst', formatUsdRounded(stats.earnedEstimate)))
+            : null
+        )
+      : null;
+
+    // --- Dashboard: archetype-aware progress / what's next ---
+    var progressBlock = null;
+    if (arch === 'subscription') {
+      var ladder = buildLadder(SUBSCRIPTION_LADDER, newEffective, plan.capital || null);
+      var unlocked = ladder.filter(function (r) { return r.unlocked; });
+      var nextLocked = null;
+      for (var li = 0; li < ladder.length; li++) {
+        if (!ladder[li].unlocked) { nextLocked = ladder[li]; break; }
+      }
+      var unlockedLabels = unlocked.map(function (r) { return r.emoji + ' ' + t(r.labelKey); }).join(', ');
+      progressBlock = e('div', { className: 'gp-report-progress' },
+        unlocked.length > 0
+          ? e('div', { className: 'gp-report-progress-covers' }, t('reportCovers', unlockedLabels))
+          : null,
+        nextLocked
+          ? (unlocked.length === 0 && nextLocked.pct > 0
+              ? e('div', { className: 'gp-report-progress-next' },
+                  t('reportNextPct', nextLocked.pct, nextLocked.emoji + ' ' + t(nextLocked.labelKey)))
+              : e('div', { className: 'gp-report-progress-next' },
+                  t('reportNext', nextLocked.emoji + ' ' + t(nextLocked.labelKey),
+                    isFinite(nextLocked.foreverAmt) ? formatUsdRounded(nextLocked.foreverAmt) : '—'))
+            )
+          : null
+      );
+    }
+
+    // Build archetype-aware projection block (headline outcome — appears once here only)
     var projectionBlock;
     if (arch === 'growth') {
       projectionBlock = e('div', { className: 'gp-report-projection' },
@@ -1799,7 +2143,11 @@
         status: status
       }),
 
+      elapsedBlock,
+
       projectionBlock,
+
+      progressBlock,
 
       e('div', { className: 'gp-report-pools' },
         live.map(function (r) {
@@ -2182,11 +2530,23 @@
           preset ? e('p', { className: 'gp-preset-intro' }, t('presetIntro', preset.name)) : null,
           showSharedIntro ? e('p', { className: 'gp-preset-intro' }, t('sharedPlanIntro')) : null,
           e('p', { className: 'gp-question' }, t('step1Question')),
-          e(Chips, {
-            wrap: true, selected: answers.goal,
-            options: GOALS.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
-            onPick: pickGoal
-          }),
+          e('div', { className: 'gp-goal-groups' },
+            [
+              { catKey: 'catSubscriptions', catId: 'subscription' },
+              { catKey: 'catGadgets',       catId: 'gadget' },
+              { catKey: 'catLife',          catId: 'life' }
+            ].map(function (cat) {
+              var catGoals = GOALS.filter(function (g) { return g.category === cat.catId; });
+              return e('div', { key: cat.catId, className: 'gp-goal-group' },
+                e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)),
+                e(Chips, {
+                  wrap: true, selected: answers.goal,
+                  options: catGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
+                  onPick: pickGoal
+                })
+              );
+            })
+          ),
           e('form', { className: 'gp-freetext', onSubmit: submitFreeText },
             e('input', {
               type: 'text', className: 'gp-text-input', value: ft,
@@ -2490,7 +2850,10 @@
     timeToTarget: timeToTarget, foreverNumber: foreverNumber, effectiveApy: effectiveApy,
     cumulativeYield: cumulativeYield, monthsUntilYieldCoversTarget: monthsUntilYieldCoversTarget,
     capitalForDeadline: capitalForDeadline, dailyYield: dailyYield,
-    migratePlan: migratePlan, buildPlanHero: buildPlanHero, chipHintsFor: chipHintsFor
+    migratePlan: migratePlan, buildPlanHero: buildPlanHero, chipHintsFor: chipHintsFor,
+    buildLadder: buildLadder,
+    poolAlternatives: poolAlternatives,
+    reportStats: reportStats
   };
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;

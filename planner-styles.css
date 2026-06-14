@@ -486,6 +486,7 @@
 .gp-pool-card {
   display: flex;
   flex-direction: column;
+  flex: 1; /* fill slot height when inside gp-pool-slot */
   gap: var(--space-8);
   padding: var(--space-16);
   border-radius: var(--neuro-radius-md);
@@ -534,6 +535,129 @@
   color: var(--color-text-secondary);
   font-size: var(--font-size-base);
   line-height: var(--line-height-normal);
+}
+
+/* ---------- Engine filter rows ---------- */
+.gp-engine-filter-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-10);
+  margin-bottom: var(--space-10);
+  flex-wrap: wrap;
+}
+.gp-engine-filter-label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  min-width: 36px;
+}
+/* Engine chips are slightly smaller than the primary chips */
+.gp-engine-chip {
+  padding: var(--space-6) var(--space-12);
+  font-size: var(--font-size-xs);
+}
+
+/* ---------- Pool slot wrapper (card + swap control) ---------- */
+.gp-pool-slot {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Swap button — sits beneath the card, not a child of the <a> */
+.gp-pool-swap-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--space-6);
+  padding: var(--space-6) var(--space-10);
+  border: none;
+  border-radius: var(--neuro-radius-sm);
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-subtle);
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: box-shadow var(--duration-normal) var(--ease-standard),
+              color var(--duration-normal) var(--ease-standard);
+}
+.gp-pool-swap-btn:hover {
+  box-shadow: var(--neuro-shadow-flat);
+  color: var(--color-primary);
+}
+.gp-pool-swap-btn:active {
+  box-shadow: var(--neuro-shadow-pressed);
+}
+.gp-pool-swap-btn.is-active {
+  box-shadow: var(--neuro-shadow-pressed);
+  color: var(--color-primary);
+}
+
+/* Inline swap alternatives panel */
+.gp-swap-panel {
+  margin-top: var(--space-6);
+  border-radius: var(--neuro-radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-flat);
+  overflow: hidden;
+}
+.gp-swap-alt {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  padding: var(--space-10) var(--space-12);
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text);
+  font-family: var(--font-family-base);
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-standard);
+}
+.gp-swap-alt:last-child { border-bottom: none; }
+.gp-swap-alt:hover { background: var(--color-background); }
+.gp-swap-alt:active { background: var(--color-background); box-shadow: inset var(--neuro-shadow-pressed); }
+.gp-swap-alt-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-8);
+}
+.gp-swap-alt-symbol {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+}
+.gp-swap-alt-apy {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-sm);
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+.gp-swap-alt-meta {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+}
+.gp-swap-empty {
+  padding: var(--space-12);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+}
+
+/* Responsive: on narrow screens swap panel spans full column */
+@media (max-width: 480px) {
+  .gp-engine-filter-row { gap: var(--space-8); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gp-pool-swap-btn,
+  .gp-swap-alt { transition: none; }
 }
 
 /* Ask anything */
@@ -709,6 +833,54 @@
 .gp-delta-down .gp-report-delta { color: var(--color-warning); }
 .gp-delta-flat .gp-report-delta { color: var(--color-text-secondary); }
 .gp-report-pool-gone { font-size: var(--font-size-xs); color: var(--color-text-secondary); font-style: italic; text-align: right; }
+
+/* ---------- Dashboard: elapsed days + estimated growth ---------- */
+.gp-report-elapsed {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  padding: var(--space-12) var(--space-16);
+  border-radius: var(--neuro-radius-md);
+  background: var(--color-background);
+  box-shadow: var(--neuro-shadow-flat);
+  font-size: var(--font-size-sm);
+}
+.gp-report-elapsed-days {
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+}
+.gp-report-elapsed-sep {
+  color: var(--color-text-secondary);
+}
+.gp-report-earned-est {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* ---------- Dashboard: subscription covers + next rung ---------- */
+.gp-report-progress {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  padding: var(--space-16);
+  border-radius: var(--neuro-radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-flat);
+}
+.gp-report-progress-covers {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  font-weight: var(--font-weight-medium);
+}
+.gp-report-progress-next {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 400px) {
+  .gp-report-elapsed { flex-direction: column; align-items: flex-start; gap: var(--space-2); }
+}
 
 .gp-report-actions { display: flex; gap: var(--space-12); justify-content: center; flex-wrap: wrap; }
 
@@ -1282,7 +1454,13 @@
 /* Flip-keep subline emphasis */
 .gp-flip-keep { font-style: italic; font-size: 0.9rem; }
 
-/* Subscription ladder */
+/* Goal groups (step 1) */
+.gp-goal-groups { display: flex; flex-direction: column; gap: 4px; }
+.gp-goal-group { margin-bottom: 8px; }
+.gp-goal-cat-label { font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--neuro-text-secondary); margin: 0 0 6px 0; }
+
+/* Subscription ladder — cumulative stack */
 .gp-sub-ladder { margin: 14px 0; }
 .gp-sub-ladder-title { font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
   letter-spacing: 0.04em; color: var(--neuro-text-secondary); margin-bottom: 8px; }
@@ -1290,21 +1468,83 @@
   display: flex; align-items: center; gap: 8px; padding: 10px 14px;
   border-radius: var(--neuro-radius-sm); margin-bottom: 6px;
   background: var(--color-surface); box-shadow: var(--neuro-shadow-flat);
+  position: relative;
 }
 .gp-rung-locked { opacity: 0.65; }
 .gp-rung-unlocked { box-shadow: var(--neuro-shadow-raised); }
 .gp-rung-selected { outline: 2px solid var(--color-primary); border-radius: var(--neuro-radius-sm); }
+/* "you're here" rung — subtle left accent, no glow */
+.gp-rung-here {
+  border-left: 3px solid var(--color-primary);
+  padding-left: 11px; /* compensate for the border */
+  box-shadow: var(--neuro-shadow-raised);
+}
 .gp-rung-emoji { font-size: 1rem; flex-shrink: 0; }
-.gp-rung-label { flex: 1; font-size: 0.875rem; font-weight: 500; }
+/* Label + cumulative monthly stacked vertically */
+.gp-rung-info { flex: 1; display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.gp-rung-label { font-size: 0.875rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gp-rung-cummonthly { font-size: 0.72rem; color: var(--neuro-text-secondary); }
+/* Right column: forever amount + badge/pct stacked */
+.gp-rung-right { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0; }
 .gp-rung-forever { font-size: 0.85rem; font-weight: 600; color: var(--neuro-text-secondary); }
 .gp-rung-badge {
   background: var(--color-primary); color: #fff; border-radius: 99px;
-  padding: 2px 8px; font-size: 0.72rem; font-weight: 600; flex-shrink: 0;
+  padding: 2px 8px; font-size: 0.72rem; font-weight: 600;
 }
-.gp-rung-pct { font-size: 0.75rem; color: var(--neuro-text-secondary); flex-shrink: 0; }
+.gp-rung-pct { font-size: 0.75rem; color: var(--neuro-text-secondary); }
+/* "you're here" marker label */
+.gp-rung-here-marker {
+  position: absolute; right: 14px; top: -9px;
+  font-size: 0.68rem; font-weight: 600; color: var(--color-primary);
+  background: var(--color-surface); padding: 0 4px;
+  border-radius: var(--neuro-radius-sm);
+  box-shadow: var(--neuro-shadow-subtle);
+  white-space: nowrap;
+}
+@media (prefers-reduced-motion: reduce) {
+  .gp-rung-here { transition: none; }
+}
 
 /* Instant-win celebration */
-.gp-instant-win .gp-headline-figure { color: var(--color-primary); }
+.gp-instant-win .gp-headline-figure {
+  font-size: 52px;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--color-primary) 0%, color-mix(in srgb, var(--color-primary) 70%, white 30%) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gp-instant-win-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-4);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+  background: var(--color-background);
+  border-radius: var(--radius-full);
+  box-shadow: var(--neuro-shadow-subtle);
+  padding: var(--space-4) var(--space-10);
+  margin-bottom: var(--space-8);
+}
+.gp-instant-win-surplus {
+  display: inline-block;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+  background: var(--color-background);
+  border-radius: var(--radius-full);
+  box-shadow: var(--neuro-shadow-subtle);
+  padding: var(--space-4) var(--space-10);
+  margin-top: var(--space-8);
+}
+@media (max-width: 768px) {
+  .gp-instant-win .gp-headline-figure { font-size: 40px; }
+}
+@media (max-width: 400px) {
+  .gp-instant-win .gp-headline-figure { font-size: 34px; }
+}
 
 /* Ladder row highlight active persona */
 .gp-ladder-row-active .gp-ladder-label { color: var(--color-primary); }
