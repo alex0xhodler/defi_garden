@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+  Source for og-image.png (1200x630 social share card).
+  Regenerate after editing:  node og-image.build.mjs   (renders this file to og-image.png)
+  Neumorphic, calm, brand palette — matches style.css design tokens.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'FKGroteskNeue';
+    src: url('./fonts/FKGroteskNeue.woff2') format('woff2');
+    font-weight: 400 700;
+    font-display: block;
+  }
+  :root {
+    --bg: #E2E8F0;
+    --surface: #EEF2F7;
+    --ink: #13343B;
+    --muted: #626C71;
+    --accent: #3B82F6;
+    --shadow-dark: rgba(148, 163, 184, 0.55);
+    --shadow-light: rgba(255, 255, 255, 0.95);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1200px; height: 630px; }
+  body {
+    font-family: 'FKGroteskNeue', -apple-system, 'Inter', sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(circle at 28% 18%, #F4F7FB 0%, var(--bg) 60%, #D7DEE8 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .card {
+    width: 1080px;
+    height: 510px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, var(--surface), var(--bg));
+    box-shadow:
+      18px 18px 40px var(--shadow-dark),
+      -18px -18px 40px var(--shadow-light),
+      inset 1px 1px 1px rgba(255, 255, 255, 0.6);
+    padding: 64px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  .top { display: flex; align-items: center; gap: 32px; }
+  .seed {
+    width: 132px; height: 132px; flex: none;
+    border-radius: 50%;
+    background: linear-gradient(145deg, var(--bg), var(--surface));
+    box-shadow:
+      inset 7px 7px 14px var(--shadow-dark),
+      inset -7px -7px 14px var(--shadow-light);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 70px; line-height: 1;
+  }
+  .wordmark { font-size: 76px; font-weight: 700; letter-spacing: -1.5px; }
+  .tagline {
+    font-size: 58px; font-weight: 700; letter-spacing: -1px; line-height: 1.12;
+  }
+  .tagline .accent { color: var(--accent); }
+  .footnote {
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .trust { font-size: 28px; color: var(--muted); font-weight: 400; }
+  .domain {
+    font-size: 28px; font-weight: 700; color: var(--ink);
+    padding: 14px 28px; border-radius: 18px;
+    background: linear-gradient(145deg, var(--surface), var(--bg));
+    box-shadow:
+      6px 6px 14px var(--shadow-dark),
+      -6px -6px 14px var(--shadow-light);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="top">
+      <div class="seed">🌱</div>
+      <div class="wordmark">DeFi Garden</div>
+    </div>
+    <div class="tagline">Plan your DeFi savings<br>by <span class="accent">goal</span>, not by APY.</div>
+    <div class="footnote">
+      <div class="trust">Every number is live DefiLlama data · Education, not advice</div>
+      <div class="domain">www.defi.garden</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -5,32 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
 
     <!-- Default title/meta for planner (bare /) — analytics pages set their own via JS -->
-    <title>DeFi Garden 🌱 | Plan your DeFi savings by goal</title>
+    <title>DeFi Garden 🌱 | Plan Your DeFi Savings by Goal</title>
     <meta name="description" content="A goal-first DeFi savings planner. Tell us what you're saving for and how much you can set aside each month — we'll show what live, real pool rates could grow it into. Every number is live DefiLlama data. Education, not advice.">
 
     <!-- SEO Meta Tags -->
     <meta name="keywords" content="DeFi savings planner, goal-based saving, stablecoin yield, retirement DeFi, compound growth, yield farming, cryptocurrency, APY, DeFi Garden">
     <meta name="author" content="DeFi Garden">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://defigarden.app/">
+    <link rel="canonical" href="https://www.defi.garden/">
 
     <!-- Multilingual SEO -->
-    <link rel="alternate" hreflang="en" href="https://defigarden.app/">
-    <link rel="alternate" hreflang="ko" href="https://defigarden.app/?lang=ko">
-    <link rel="alternate" hreflang="x-default" href="https://defigarden.app/">
+    <link rel="alternate" hreflang="en" href="https://www.defi.garden/">
+    <link rel="alternate" hreflang="ko" href="https://www.defi.garden/?lang=ko">
+    <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="DeFi Garden 🌱 | Plan Your DeFi Savings by Goal">
     <meta property="og:description" content="Tell us what you're saving for. We'll show what live, real DeFi pool rates could grow your monthly deposits into. Every number is live data — education, not advice.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://defigarden.app/">
+    <meta property="og:url" content="https://www.defi.garden/">
     <meta property="og:site_name" content="DeFi Garden">
     <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://www.defi.garden/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="DeFi Garden — plan your DeFi savings by goal">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="DeFi Garden 🌱 | Plan Your DeFi Savings by Goal">
     <meta name="twitter:description" content="Tell us what you're saving for. We'll show what live, real DeFi pool rates could grow your monthly deposits into.">
+    <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:creator" content="@defigarden">
 
     <!-- App Icons and Favicon -->
@@ -67,11 +72,16 @@
 
             // Update canonical/OG if analytics mode
             if (needsAnalytics) {
+                var analyticsUrl = 'https://www.defi.garden/' + (window.location.search || '');
                 var canon = document.querySelector('link[rel="canonical"]');
-                if (canon) canon.href = 'https://defigarden.app/' + (window.location.search || '');
+                if (canon) canon.href = analyticsUrl;
                 document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
                 var desc = document.querySelector('meta[name="description"]');
                 if (desc) desc.content = 'Find the best DeFi yields for your tokens with DeFi Garden. Compare lending, staking, and LP rewards across 50+ protocols and all major chains. Real-time APY data from Defillama API.';
+                var ogUrl = document.querySelector('meta[property="og:url"]');
+                if (ogUrl) ogUrl.content = analyticsUrl;
+                var ogTitle = document.querySelector('meta[property="og:title"]');
+                if (ogTitle) ogTitle.content = document.title;
             }
         })();
     </script>
