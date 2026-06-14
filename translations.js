@@ -378,7 +378,19 @@ const translations = {
       // Return-visit dashboard — subscription covers + next rung
       reportCovers: (list) => `Covered forever: ${list}`,
       reportNext: (label, amt) => `Next: + ${label} at ≈${amt}`,
-      reportNextPct: (pct, label) => `${pct}% toward covering ${label}`
+      reportNextPct: (pct, label) => `${pct}% toward covering ${label}`,
+
+      // YOUR PLAN card (subscription bloom consolidation)
+      planCardTitle: "Your plan",
+      planCoverLabel: "What it covers",
+      capitalLabel: "Capital",
+      riskLabel: "Risk",
+
+      // Mix toggle UI
+      mixHint: "Tap to add or remove what your money covers",
+      mixTotal: (amt, monthly) => `≈${amt} covers ${monthly}/mo — forever`,
+      mixEmpty: "Pick at least one to cover",
+      mixHeroEmpty: "Pick what your money covers"
     }
   },
 
@@ -744,7 +756,19 @@ const translations = {
       // Return-visit dashboard — subscription covers + next rung
       reportCovers: (list) => `영구 커버: ${list}`,
       reportNext: (label, amt) => `다음: + ${label} (≈${amt} 필요)`,
-      reportNextPct: (pct, label) => `${label} 커버까지 ${pct}%`
+      reportNextPct: (pct, label) => `${label} 커버까지 ${pct}%`,
+
+      // YOUR PLAN card (subscription bloom consolidation)
+      planCardTitle: "내 계획",
+      planCoverLabel: "내주는 것들",
+      capitalLabel: "원금",
+      riskLabel: "위험도",
+
+      // Mix toggle UI
+      mixHint: "탭해서 내 돈이 내줄 항목을 추가하거나 빼세요",
+      mixTotal: (amt, monthly) => `≈${amt}로 월 ${monthly} 영구 커버`,
+      mixEmpty: "항목을 최소 하나 선택해 주세요",
+      mixHeroEmpty: "내 돈이 내줄 항목을 골라보세요"
     }
   }
 };

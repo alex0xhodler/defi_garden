@@ -644,24 +644,27 @@ console.log('coveredBundle');
 // gym     rung cumMonthly=90  foreverAmt ~ 19636
 // phonebill rung cumMonthly=160 foreverAmt ~ 34909
 
-test('coveredBundle capital=2700 anchor=spotify: covered=[spotify], surplus~82, nextRung=netflix', function () {
+test('coveredBundle capital=2700 anchor=spotify: covered=[spotify], surplus~82, nextRung=amazonprime', function () {
+  // New ladder: spotify(12) cumForever~2618; amazonprime(27) cumForever~5891
   var b = gp.coveredBundle(2700, 5.5, 'spotify');
   assert.strictEqual(b.coveredCount, 1, 'coveredCount should be 1');
   assert.strictEqual(b.covered[0].id, 'spotify', 'first covered should be spotify');
   assert.strictEqual(b.combinedMonthly, 12, 'combinedMonthly should be 12');
   assert.ok(b.surplus >= 0, 'surplus should be >= 0');
-  assert.ok(b.nextRung && b.nextRung.id === 'netflix', 'nextRung should be netflix');
+  assert.ok(b.nextRung && b.nextRung.id === 'amazonprime', 'nextRung should be amazonprime');
   assert.ok(b.nextPct > 0 && b.nextPct <= 100, 'nextPct should be in 0..100');
 });
 
-test('coveredBundle capital=11300 anchor=spotify: covered ids=[spotify,netflix,claude], combinedMonthly=50', function () {
+test('coveredBundle capital=11300 anchor=spotify: covered ids=[spotify,amazonprime,netflix], combinedMonthly=45', function () {
+  // New ladder sorted: spotify(12)~2618, amazonprime(27)~5891, netflix(45)~9818, claude/chatgpt(65/85)~14182/18545
+  // 11300 >= 2618, >= 5891, >= 9818, < 14182 -> covered=[spotify,amazonprime,netflix], combinedMonthly=45
   var b = gp.coveredBundle(11300, 5.5, 'spotify');
   var ids = b.covered.map(function (r) { return r.id; });
   assert.ok(ids.indexOf('spotify') !== -1, 'spotify should be covered');
+  assert.ok(ids.indexOf('amazonprime') !== -1, 'amazonprime should be covered');
   assert.ok(ids.indexOf('netflix') !== -1, 'netflix should be covered');
-  assert.ok(ids.indexOf('claude') !== -1, 'claude should be covered');
-  assert.strictEqual(b.combinedMonthly, 50, 'combinedMonthly for spotify+netflix+claude should be 50');
-  assert.ok(b.nextRung && b.nextRung.id === 'gym', 'nextRung should be gym');
+  assert.strictEqual(b.combinedMonthly, 45, 'combinedMonthly for spotify+amazonprime+netflix should be 45');
+  assert.ok(b.nextRung && b.nextRung.id === 'claude', 'nextRung should be claude');
 });
 
 test('coveredBundle capital=1500 anchor=spotify: coveredCount=0, combinedForever=0, nextRung=spotify', function () {
@@ -673,14 +676,16 @@ test('coveredBundle capital=1500 anchor=spotify: coveredCount=0, combinedForever
   assert.strictEqual(b.nextPct, Math.min(100, expectedPct), 'nextPct should match');
 });
 
-test('coveredBundle capital=8000 anchor=spotify: covered=[spotify,netflix], surplus>0, nextRung=claude', function () {
+test('coveredBundle capital=8000 anchor=spotify: covered=[spotify,amazonprime], surplus>0, nextRung=netflix', function () {
+  // New ladder: spotify(12)~2618, amazonprime(27)~5891, netflix(45)~9818
+  // 8000 >= 2618, >= 5891, < 9818 -> covered=[spotify,amazonprime], nextRung=netflix
   var b = gp.coveredBundle(8000, 5.5, 'spotify');
   var ids = b.covered.map(function (r) { return r.id; });
   assert.ok(ids.indexOf('spotify') !== -1, 'spotify should be covered');
-  assert.ok(ids.indexOf('netflix') !== -1, 'netflix should be covered');
-  assert.ok(ids.indexOf('claude') === -1, 'claude should NOT be covered');
+  assert.ok(ids.indexOf('amazonprime') !== -1, 'amazonprime should be covered');
+  assert.ok(ids.indexOf('netflix') === -1, 'netflix should NOT be covered');
   assert.ok(b.surplus > 0, 'surplus should be > 0 when capital between tiers');
-  assert.ok(b.nextRung && b.nextRung.id === 'claude', 'nextRung should be claude');
+  assert.ok(b.nextRung && b.nextRung.id === 'netflix', 'nextRung should be netflix');
 });
 
 test('coveredBundle anchor=claude capital=4600: covered=[claude], combinedMonthly=20', function () {
@@ -772,7 +777,7 @@ test('subscriptionLadder(disney): length is SUBSCRIPTION_LADDER.length + 1', fun
 test('subscriptionLadder(disney): contains all everyday-set ids', function () {
   var ladder = gp.subscriptionLadder('disney');
   var ids = ladder.map(function (x) { return x.id; });
-  ['spotify', 'netflix', 'claude', 'gym', 'phonebill'].forEach(function (id) {
+  ['spotify', 'netflix', 'claude', 'chatgpt', 'amazonprime'].forEach(function (id) {
     assert.ok(ids.indexOf(id) !== -1, id + ' should be in ladder');
   });
 });
@@ -853,6 +858,68 @@ test('coveredBundle(0, 5.3, disney): coveredCount=0, nextRung.id===disney', func
   var b = gp.coveredBundle(0, 5.3, 'disney');
   assert.strictEqual(b.coveredCount, 0);
   assert.ok(b.nextRung && b.nextRung.id === 'disney', 'nextRung should be disney');
+});
+
+// ---------------------------------------------------------------------------
+// mixStats
+// ---------------------------------------------------------------------------
+console.log('mixStats');
+
+test('mixStats([spotify,claude], 5.5): combinedMonthly=32', function () {
+  var s = gp.mixStats(['spotify', 'claude'], 5.5);
+  assert.strictEqual(s.combinedMonthly, 32, 'combinedMonthly should be 32');
+});
+
+test('mixStats([spotify,claude], 5.5): neededCapital is finite, multiple of 100, equals ceil(foreverNumber(32,5.5)/100)*100', function () {
+  var s = gp.mixStats(['spotify', 'claude'], 5.5);
+  var expected = Math.ceil(gp.foreverNumber(32, 5.5) / 100) * 100;
+  assert.ok(isFinite(s.neededCapital), 'neededCapital should be finite');
+  assert.ok(!isNaN(s.neededCapital), 'neededCapital should not be NaN');
+  assert.strictEqual(s.neededCapital % 100, 0, 'neededCapital should be multiple of 100');
+  assert.strictEqual(s.neededCapital, expected, 'neededCapital should equal ceil(foreverNumber(32,5.5)/100)*100');
+});
+
+test('mixStats([spotify], 5.5): combinedMonthly=12', function () {
+  var s = gp.mixStats(['spotify'], 5.5);
+  assert.strictEqual(s.combinedMonthly, 12, 'combinedMonthly should be 12');
+});
+
+test('mixStats([amazonprime,chatgpt], 5.5): combinedMonthly=35', function () {
+  var s = gp.mixStats(['amazonprime', 'chatgpt'], 5.5);
+  assert.strictEqual(s.combinedMonthly, 35, 'combinedMonthly should be 35 (15+20)');
+});
+
+test('mixStats([], 5.5): count=0, combinedMonthly=0, neededCapital=0', function () {
+  var s = gp.mixStats([], 5.5);
+  assert.strictEqual(s.count, 0, 'count should be 0');
+  assert.strictEqual(s.combinedMonthly, 0, 'combinedMonthly should be 0');
+  assert.strictEqual(s.neededCapital, 0, 'neededCapital should be 0');
+});
+
+test('mixStats([spotify,claude], 0): neededCapital=0, no NaN/Infinity', function () {
+  var s = gp.mixStats(['spotify', 'claude'], 0);
+  assert.strictEqual(s.neededCapital, 0, 'neededCapital should be 0 when apy=0');
+  assert.ok(!isNaN(s.neededCapital), 'neededCapital should not be NaN');
+  assert.ok(isFinite(s.neededCapital), 'neededCapital should be finite');
+});
+
+test('mixStats([spotify,bogus], 5.5): ignores bogus, combinedMonthly=12, count=1', function () {
+  var s = gp.mixStats(['spotify', 'bogus'], 5.5);
+  assert.strictEqual(s.combinedMonthly, 12, 'combinedMonthly should be 12 ignoring bogus');
+  assert.strictEqual(s.count, 1, 'count should be 1 ignoring bogus');
+  assert.ok(s.ids.indexOf('bogus') === -1, 'bogus should not be in ids');
+});
+
+test('mixStats([disney], 5.5): combinedMonthly=16 (via GOALS target)', function () {
+  var s = gp.mixStats(['disney'], 5.5);
+  assert.strictEqual(s.combinedMonthly, 16, 'disney monthly via goalById target should be 16');
+  assert.strictEqual(s.count, 1, 'count should be 1');
+  assert.ok(s.ids.indexOf('disney') !== -1, 'ids should contain disney');
+});
+
+test('mixStats ids field contains only resolved ids', function () {
+  var s = gp.mixStats(['spotify', 'bogus', 'claude'], 5.5);
+  assert.deepStrictEqual(s.ids.sort(), ['claude', 'spotify'], 'ids should only contain resolved ids');
 });
 
 console.log('\nAll ' + passed + ' assertions evaluated.');

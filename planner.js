@@ -213,6 +213,37 @@
     };
   }
 
+  // mixStats(selectedIds, apyPct) — capital needed to yield-fund an arbitrary mix of subscriptions.
+  // Resolves each id first from SUBSCRIPTION_LADDER, then from GOALS (subscription archetype).
+  // Ignores ids that resolve to nothing.
+  // Returns { count, combinedMonthly, neededCapital, ids }
+  function mixStats(selectedIds, apyPct) {
+    var ids = [];
+    var combinedMonthly = 0;
+    for (var i = 0; i < selectedIds.length; i++) {
+      var id = selectedIds[i];
+      var monthly = null;
+      for (var li = 0; li < SUBSCRIPTION_LADDER.length; li++) {
+        if (SUBSCRIPTION_LADDER[li].id === id) { monthly = SUBSCRIPTION_LADDER[li].monthly; break; }
+      }
+      if (monthly === null) {
+        var g = goalById(id);
+        if (g && typeof g.target === 'number') monthly = g.target;
+      }
+      if (monthly !== null) {
+        combinedMonthly += monthly;
+        ids.push(id);
+      }
+    }
+    var apy = Number(apyPct) || 0;
+    var neededCapital = 0;
+    if (combinedMonthly > 0 && apy > 0) {
+      var fn = foreverNumber(combinedMonthly, apy);
+      neededCapital = isFinite(fn) ? Math.ceil(fn / 100) * 100 : 0;
+    }
+    return { count: ids.length, combinedMonthly: combinedMonthly, neededCapital: neededCapital, ids: ids };
+  }
+
   // joinBundle(labels) — join array of label strings for the bundle headline.
   // 0: ""   1: "Spotify"   2: "A + B"   3: "A, B + C"   >3: "A, B, C + N more"
   function joinBundle(labels) {
@@ -630,11 +661,11 @@
   // Subscription ladder — always shown in full in SUBSCRIPTION bloom.
   // Forever numbers computed live from blended APY; never hardcoded.
   var SUBSCRIPTION_LADDER = [
-    { id: 'spotify',   emoji: '🎵', labelKey: 'ladderSpotify',   monthly: 12 },
-    { id: 'netflix',   emoji: '🍿', labelKey: 'ladderNetflix',   monthly: 18 },
-    { id: 'claude',    emoji: '🤖', labelKey: 'ladderClaude',    monthly: 20 },
-    { id: 'gym',       emoji: '🏋️', labelKey: 'ladderGym',       monthly: 40 },
-    { id: 'phonebill', emoji: '📱', labelKey: 'ladderPhoneBill', monthly: 70 }
+    { id: 'spotify',     emoji: '🎵', labelKey: 'ladderSpotify',   monthly: 12 },
+    { id: 'netflix',     emoji: '🍿', labelKey: 'ladderNetflix',   monthly: 18 },
+    { id: 'claude',      emoji: '🤖', labelKey: 'ladderClaude',    monthly: 20 },
+    { id: 'chatgpt',     emoji: '💬', labelKey: 'goalChatGPT',     monthly: 20 },
+    { id: 'amazonprime', emoji: '📦', labelKey: 'goalAmazonPrime', monthly: 15 }
   ];
 
   function goalById(id) {
@@ -1293,11 +1324,40 @@
     var subProgress = (subCapital && isFinite(foreverAmt) && foreverAmt > 0)
       ? Math.min(100, Math.round(subCapital / foreverAmt * 100)) : 0;
 
-    // Subscription ladder rungs — cumulative stack (what does my money cover, forever?)
+    // Subscription ladder rungs — cumulative stack (used in non-subscription paths + report; kept for compat)
     var ladderRungs = useMemo(function () {
       var cap = isCapitalPath ? subCapital : null;
       return buildLadder(subscriptionLadder(goal), apy, cap, goal);
     }, [apy, subCapital, isCapitalPath, goal]);
+
+    // Mix state — arbitrary toggle selection of subscription ids
+    var selectedSubsState = useState([]);
+    var selectedSubs = selectedSubsState[0], setSelectedSubs = selectedSubsState[1];
+    var mixTouchedState = useState(false);
+    var mixTouched = mixTouchedState[0], setMixTouched = mixTouchedState[1];
+
+    // Seed mix from covered-bundle when not yet touched by user
+    useEffect(function () {
+      if (!mixTouched && apy > 0) {
+        var ids = coveredBundle(slideCapital, apy, goal).covered.map(function (r) { return r.id; });
+        if (!ids.length) ids = [goal];
+        setSelectedSubs(ids);
+      }
+    }, [apy, goal, slideCapital, mixTouched]);
+
+    // Derive capital from the mix whenever selectedSubs changes
+    var currentMixStats = useMemo(function () {
+      return mixStats(selectedSubs, apy);
+    }, [selectedSubs, apy]);
+
+    // Keep slideCapital in sync with the mix (only when user has touched the mix)
+    useEffect(function () {
+      if (archetype !== 'subscription' || !isCapitalPath || !mixTouched) return;
+      var needed = currentMixStats.neededCapital;
+      if (needed > 0 && needed !== slideCapital) {
+        setSlideCapital(needed);
+      }
+    }, [currentMixStats.neededCapital, archetype, isCapitalPath, mixTouched]);
 
     // Live sliders state
     var slideMonthlyState = useState(monthly);
@@ -1330,6 +1390,10 @@
     var copySuccessState = useState(false);
     var copySuccess = copySuccessState[0], setCopySuccess = copySuccessState[1];
 
+    // YOUR PLAN card — risk dropdown open state
+    var riskOpenState = useState(false);
+    var riskOpen = riskOpenState[0], setRiskOpen = riskOpenState[1];
+
     // Persist plan whenever artifact settles — curated is always the DISPLAYED set
     useEffect(function () {
       if (!curated.length) return;
@@ -1350,9 +1414,10 @@
         savedAt: new Date().toISOString(),
         // Optional fields (new in this version) — older migratePlan ignores unknown fields
         poolFilters: poolFilters,
-        slotPicks: slotPicks
+        slotPicks: slotPicks,
+        mix: archetype === 'subscription' ? selectedSubs : undefined
       });
-    }, [curated, monthly, years, persona, apy, goal, propCapital, propFundingMode, propDeadline, poolFilters, slotPicks]);
+    }, [curated, monthly, years, persona, apy, goal, propCapital, propFundingMode, propDeadline, poolFilters, slotPicks, selectedSubs, archetype]);
 
     // Top pool for CTA
     var topPool = curated[0];
@@ -1545,40 +1610,40 @@
         e('div', { className: 'gp-headline-sub' }, t('hybridDiscount', yieldPct))
       );
     } else if (archetype === 'subscription') {
-      // SUBSCRIPTION hero — bundle-aware via coveredBundle
-      var bundle = isCapitalPath
-        ? coveredBundle(subCapital, apy, goal)
-        : { coveredCount: 0, covered: [], combinedMonthly: 0, combinedForever: 0, surplus: 0, nextRung: null, nextPct: null };
-
-      if (isCapitalPath && bundle.coveredCount >= 1) {
-        // Instant-win: capital covers at least anchor rung
-        var bundleLabels = bundle.covered.map(function (r) { return t(r.labelKey); });
-        var bundleList = joinBundle(bundleLabels);
-        var surplusChip = null;
-        if (bundle.nextRung && bundle.surplus >= 1) {
-          surplusChip = e('div', { className: 'gp-instant-win-surplus' },
-            t('subHeroTowardNext', formatUsdRounded(bundle.surplus), t(bundle.nextRung.labelKey))
-          );
-        } else if (!bundle.nextRung && bundle.surplus > 0) {
-          surplusChip = e('div', { className: 'gp-instant-win-surplus' },
-            t('subHeroWinSurplus', formatUsdRounded(bundle.surplus))
-          );
-        }
+      // SUBSCRIPTION hero — derived from the mix selection
+      var heroMix = currentMixStats;
+      if (isCapitalPath && heroMix.count >= 1) {
+        // Build labels from mix ids via subscriptionLadder items + GOALS
+        var heroMixItems = subscriptionLadder(goal);
+        var heroLabels = heroMix.ids.map(function (id) {
+          for (var li = 0; li < heroMixItems.length; li++) {
+            if (heroMixItems[li].id === id) return t(heroMixItems[li].labelKey);
+          }
+          var hg = goalById(id);
+          return hg ? t(hg.labelKey) : id;
+        });
+        var heroBundleList = joinBundle(heroLabels);
         heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in gp-instant-win' },
           e('div', { className: 'gp-instant-win-eyebrow' }, t('subHeroWinEyebrow')),
-          e('div', { className: 'gp-headline-figure' }, bundle.coveredCount >= 2 ? t('subHeroWinBundleMany', bundleList) : t('subHeroWinBundle', bundleList)),
+          e('div', { className: 'gp-headline-figure' },
+            heroMix.count >= 2 ? t('subHeroWinBundleMany', heroBundleList) : t('subHeroWinBundle', heroBundleList)
+          ),
           e('div', { className: 'gp-headline-sub' },
             t('subHeroWinCovers',
-              isFinite(bundle.combinedForever) ? formatUsdRounded(bundle.combinedForever) : '…',
-              formatUsd(bundle.combinedMonthly),
+              heroMix.neededCapital > 0 ? formatUsdRounded(heroMix.neededCapital) : '…',
+              formatUsd(heroMix.combinedMonthly),
               formatApy(apy)
             )
-          ),
-          surplusChip
+          )
+        );
+      } else if (isCapitalPath && heroMix.count === 0) {
+        // No selection yet — gentle prompt
+        heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in' },
+          e('div', { className: 'gp-headline-figure' }, t('mixHeroEmpty'))
         );
       } else {
-        // Progress variant — anchored to first rung (anchor goal)
-        var anchorRungForever = bundle.nextRung ? bundle.nextRung.foreverAmt : foreverAmt;
+        // Monthly path — progress variant (unchanged)
+        var anchorRungForever = foreverAmt;
         var progressPct = (subCapital && isFinite(anchorRungForever) && anchorRungForever > 0)
           ? Math.min(100, Math.round(subCapital / anchorRungForever * 100))
           : subProgress;
@@ -1615,8 +1680,315 @@
       archetype === 'subscription' ? t('askChipStop') : t('askChipWithdraw')
     ];
 
+    // Mix toggle list element — subscription card cover (arbitrary selection)
+    var mixItems = archetype === 'subscription' ? subscriptionLadder(goal) : [];
+    var mixElement = archetype === 'subscription' ? (function () {
+      return e('div', { className: 'gp-mix-list' },
+        e('div', { className: 'gp-sub-ladder-title' }, t('planCoverLabel')),
+        isCapitalPath ? e('p', { className: 'gp-mix-hint' }, t('mixHint')) : null,
+        mixItems.map(function (item) {
+          var isOn = selectedSubs.indexOf(item.id) !== -1;
+          return e('button', {
+            key: item.id,
+            type: 'button',
+            className: 'gp-mix-row' + (isOn ? ' is-on' : ''),
+            onClick: (function (id) {
+              return function () {
+                setMixTouched(true);
+                setSelectedSubs(function (prev) {
+                  var idx = prev.indexOf(id);
+                  if (idx === -1) return prev.concat([id]);
+                  return prev.slice(0, idx).concat(prev.slice(idx + 1));
+                });
+              };
+            }(item.id)),
+            'aria-pressed': isOn ? 'true' : 'false'
+          },
+            e('span', { className: 'gp-mix-check', 'aria-hidden': 'true' }, isOn ? '✓' : ''),
+            e('span', { className: 'gp-mix-emoji' }, item.emoji),
+            e('span', { className: 'gp-mix-label' }, t(item.labelKey)),
+            e('span', { className: 'gp-mix-monthly' }, formatUsd(item.monthly) + '/mo')
+          );
+        }),
+        currentMixStats.count === 0
+          ? e('div', { className: 'gp-mix-total gp-mix-empty' }, t('mixEmpty'))
+          : e('div', { className: 'gp-mix-total' },
+              t('mixTotal',
+                currentMixStats.neededCapital > 0 ? formatUsdRounded(currentMixStats.neededCapital) : '…',
+                formatUsd(currentMixStats.combinedMonthly)
+              )
+            )
+      );
+    })() : null;
+
+    // YOUR PLAN card — subscription-only consolidated control block
+    var planCardElement = archetype === 'subscription' ? (function () {
+      var personaOptions = [
+        { key: 'stable', shortKey: 'personaStableShort', titleKey: 'personaStableTitle' },
+        { key: 'rwa',    shortKey: 'personaRwaShort',    titleKey: 'personaRwaTitle' },
+        { key: 'degen',  shortKey: 'personaDegenShort',  titleKey: 'personaDegenTitle' }
+      ];
+      var currentPersonaOpt = personaOptions.filter(function (p) { return p.key === pk; })[0] || personaOptions[0];
+      var currentRiskLabel = t(currentPersonaOpt.shortKey);
+
+      return e('div', { className: 'gp-plan-card gp-animate-in' },
+        e('div', { className: 'gp-plan-card-title' }, t('planCardTitle')),
+
+        // 1. Cover: mix toggle list
+        e('div', { className: 'gp-plan-card-cover' },
+          mixElement
+        ),
+
+        e('div', { className: 'gp-plan-card-divider' }),
+
+        // 2. Risk dropdown
+        e('div', { className: 'gp-plan-risk' },
+          e('span', { className: 'gp-plan-risk-label' }, t('riskLabel')),
+          e('div', { style: { position: 'relative' } },
+            e('button', {
+              type: 'button',
+              className: 'gp-risk-toggle',
+              'aria-haspopup': 'listbox',
+              'aria-expanded': riskOpen ? 'true' : 'false',
+              onClick: function () { setRiskOpen(function (v) { return !v; }); },
+              onKeyDown: function (ev) {
+                if (ev.key === 'Escape') { setRiskOpen(false); }
+              }
+            },
+              currentRiskLabel, ' ▾'
+            ),
+            riskOpen ? e('div', {
+              className: 'gp-risk-menu',
+              role: 'listbox',
+              'aria-label': t('riskLabel')
+            },
+              personaOptions.map(function (p) {
+                var isSelected = pk === p.key;
+                return e('button', {
+                  key: p.key,
+                  type: 'button',
+                  role: 'option',
+                  'aria-selected': isSelected ? 'true' : 'false',
+                  className: 'gp-risk-option' + (isSelected ? ' is-selected' : ''),
+                  onClick: function () {
+                    if (props.onWhatIf) props.onWhatIf('persona:' + p.key);
+                    setRiskOpen(false);
+                  },
+                  onKeyDown: function (ev) {
+                    if (ev.key === 'Escape') { setRiskOpen(false); }
+                  }
+                },
+                  e('span', { className: 'gp-risk-option-short' }, t(p.shortKey)),
+                  e('span', { className: 'gp-risk-option-title' }, t(p.titleKey))
+                );
+              })
+            ) : null
+          )
+        )
+      );
+    })() : null;
+
+    // Engine room element (shared)
+    var engineElement = e('div', { className: 'gp-pools gp-animate-in' },
+      e('div', { className: 'gp-pools-heading' },
+        t('poolsHeading'),
+        e('span', { className: 'gp-blended-badge' }, t('blendedBadge', formatApy(apy)))
+      ),
+      isDegenPersona ? e('div', { className: 'gp-degen-warning' },
+        t('degenHaircutNote', formatApy(rawApy))
+      ) : null,
+
+      // Filter chip rows — chain
+      chainOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+        e('span', { className: 'gp-engine-filter-label' }, t('engineFilterChain')),
+        e('div', { className: 'gp-chips gp-chips-wrap' },
+          [{ value: null, label: t('engineAll') }].concat(
+            chainOptions.map(function (c) { return { value: c, label: c }; })
+          ).map(function (opt) {
+            var isSelected = poolFilters.chain === opt.value;
+            return e('button', {
+              key: opt.value == null ? '__all__' : opt.value,
+              type: 'button',
+              className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+              onClick: function () {
+                setPoolFilters(function (f) { return Object.assign({}, f, { chain: opt.value }); });
+              }
+            }, opt.label);
+          })
+        )
+      ) : null,
+
+      // Filter chip rows — token
+      tokenOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+        e('span', { className: 'gp-engine-filter-label' }, t('engineFilterToken')),
+        e('div', { className: 'gp-chips gp-chips-wrap' },
+          [{ value: null, label: t('engineAll') }].concat(
+            tokenOptions.map(function (tok) { return { value: tok, label: tok }; })
+          ).map(function (opt) {
+            var isSelected = poolFilters.token === opt.value;
+            return e('button', {
+              key: opt.value == null ? '__all__' : opt.value,
+              type: 'button',
+              className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+              onClick: function () {
+                setPoolFilters(function (f) { return Object.assign({}, f, { token: opt.value }); });
+              }
+            }, opt.label);
+          })
+        )
+      ) : null,
+
+      curated.length === 0
+        ? e('div', { className: 'gp-pools-empty' }, t('noPools'))
+        : e('div', { className: 'gp-pool-grid' },
+            curated.map(function (p, slotIdx) {
+              var isSwapOpen = openSwapSlot === slotIdx;
+              var displayedIds = curated.map(function (c) { return c.pool; });
+              var alts = isSwapOpen
+                ? poolAlternatives(pools, persona, {
+                    chain: poolFilters.chain || undefined,
+                    token: poolFilters.token || undefined
+                  }, displayedIds, 5)
+                : [];
+
+              return e('div', {
+                key: p.pool,
+                className: 'gp-pool-slot' + (isSwapOpen ? ' gp-pool-slot-open' : '')
+              },
+                e('a', {
+                  className: 'gp-pool-card', href: '/?pool=' + encodeURIComponent(p.pool),
+                  rel: 'noopener'
+                },
+                  e('div', { className: 'gp-pool-top' },
+                    e('span', { className: 'gp-pool-symbol' }, p.symbol),
+                    e('span', { className: 'gp-pool-apy' }, formatApy(poolTotalApy(p)))
+                  ),
+                  e('div', { className: 'gp-pool-meta' },
+                    e('span', { className: 'gp-pool-project' }, p.project),
+                    e('span', { className: 'gp-pool-chain' }, p.chain)
+                  ),
+                  e('div', { className: 'gp-pool-foot' },
+                    e('span', { className: 'gp-pool-tvl' }, t('poolTvl') + ' ' + formatTvl(p.tvlUsd)),
+                    e('span', { className: 'gp-pool-link' }, t('viewPool'))
+                  )
+                ),
+                e('button', {
+                  type: 'button',
+                  className: 'gp-pool-swap-btn' + (isSwapOpen ? ' is-active' : ''),
+                  'aria-label': isSwapOpen ? t('engineSwapClose') : t('engineSwap'),
+                  onClick: function (ev) {
+                    ev.stopPropagation();
+                    setOpenSwapSlot(isSwapOpen ? null : slotIdx);
+                  }
+                }, isSwapOpen ? '×' : t('engineSwap')),
+
+                isSwapOpen ? e('div', { className: 'gp-swap-panel' },
+                  alts.length === 0
+                    ? e('div', { className: 'gp-swap-empty' }, t('noPools'))
+                    : alts.map(function (alt) {
+                        return e('button', {
+                          key: alt.pool,
+                          type: 'button',
+                          className: 'gp-swap-alt',
+                          onClick: function () {
+                            setSlotPicks(function (prev) {
+                              var next = prev.slice();
+                              next[slotIdx] = alt.pool;
+                              return next;
+                            });
+                            setOpenSwapSlot(null);
+                          }
+                        },
+                          e('div', { className: 'gp-swap-alt-top' },
+                            e('span', { className: 'gp-swap-alt-symbol' }, alt.symbol),
+                            e('span', { className: 'gp-swap-alt-apy' }, formatApy(poolTotalApy(alt)))
+                          ),
+                          e('div', { className: 'gp-swap-alt-meta' },
+                            e('span', null, alt.project),
+                            e('span', null, ' · ' + alt.chain)
+                          )
+                        );
+                      })
+                ) : null
+              );
+            })
+          )
+    );
+
+    // CTA element (shared)
+    var ctaElement = topPool ? e('div', { className: 'gp-cta-row gp-animate-in' },
+      e('a', {
+        className: 'gp-primary-cta',
+        href: '/?pool=' + encodeURIComponent(topPool.pool),
+        rel: 'noopener'
+      },
+        t('ctaStart', topPool.project), ' →'
+      ),
+      e('p', { className: 'gp-cta-microcopy' }, t('ctaMicrocopy'))
+    ) : null;
+
+    // Ask box element (shared)
+    var askElement = e('div', { className: 'gp-ask gp-animate-in' },
+      ask.q ? e('div', { className: 'gp-ask-thread' },
+        e('div', { className: 'gp-ask-q' }, ask.q),
+        ask.thinking ? e(Sprout, null)
+          : e('div', { className: 'gp-ask-a' }, ask.a && ask.a.text)
+      ) : null,
+      e('div', { className: 'gp-ask-chips' },
+        suggestedChips.filter(Boolean).map(function(chip) {
+          return e('button', {
+            key: chip, type: 'button', className: 'gp-ask-chip',
+            onClick: function() { pickSuggestedQ(chip); }
+          }, chip);
+        })
+      ),
+      e('form', { className: 'gp-ask-form', onSubmit: submitAsk },
+        e('input', {
+          type: 'text', className: 'gp-ask-input', value: askVal,
+          placeholder: t('askPlaceholder'),
+          onChange: function (ev) { setAskVal(ev.target.value); }
+        }),
+        e('button', { type: 'submit', className: 'gp-ask-send', 'aria-label': 'Ask' }, '→')
+      )
+    );
+
+    // Share/foot element (shared)
+    var footElement = e('div', { className: 'gp-bloom-foot gp-animate-in' },
+      e('p', { className: 'gp-disclaimer' }, t('disclaimer')),
+      e('div', { className: 'gp-share-row' },
+        e('button', { type: 'button', className: 'gp-share-btn', onClick: doShare, disabled: isSharing },
+          isSharing ? t('sharePrepping') : ('📸 ' + t('share'))
+        ),
+        e('button', { type: 'button', className: 'gp-share-btn gp-share-link', onClick: doCopyLink },
+          copySuccess ? ('✓ ' + t('shareLinkCopied')) : ('🔗 ' + t('shareLink'))
+        ),
+        navigator.share ? e('button', { type: 'button', className: 'gp-share-btn', onClick: doNativeShare },
+          '↗ ' + t('shareNative')
+        ) : null
+      )
+    );
+
+    // Build children array conditionally by archetype
+    var presetIntro = props.presetName
+      ? e('p', { className: 'gp-preset-intro gp-bloom-intro gp-animate-in' }, t('presetIntro', props.presetName))
+      : null;
+
+    if (archetype === 'subscription') {
+      // Subscription: hero → YOUR PLAN card → engine → CTA → ask → foot
+      return e('div', { className: 'gp-bloom' },
+        presetIntro,
+        heroElement,
+        planCardElement,
+        engineElement,
+        ctaElement,
+        askElement,
+        footElement
+      );
+    }
+
+    // Target / Growth: hero → plan-strip → 1b → chart → make-it-yours → engine → CTA → ask → foot
     return e('div', { className: 'gp-bloom' },
-      props.presetName ? e('p', { className: 'gp-preset-intro gp-bloom-intro gp-animate-in' }, t('presetIntro', props.presetName)) : null,
+      presetIntro,
 
       // 1. HERO ANSWER
       heroElement,
@@ -1625,15 +1997,7 @@
       e('div', { className: 'gp-plan-strip gp-animate-in' },
         e('span', { className: 'gp-strip-item', onClick: props.onEditGoal, role: 'button', tabIndex: 0,
           onKeyDown: function(ev){ if(ev.key==='Enter') props.onEditGoal && props.onEditGoal(); } },
-          (function () {
-            if (archetype === 'subscription' && isCapitalPath && subCapital && apy) {
-              var stripBundle = coveredBundle(subCapital, apy, goal);
-              if (stripBundle.coveredCount >= 2) {
-                return (goalDef ? goalDef.emoji : '🌱') + ' ' + goalLabel(t, goal) + ' ' + t('stripMore', stripBundle.coveredCount - 1);
-              }
-            }
-            return (goalDef ? goalDef.emoji : '🌱') + ' ' + goalLabel(t, goal);
-          })()
+          (goalDef ? goalDef.emoji : '🌱') + ' ' + goalLabel(t, goal)
         ),
         e('span', { className: 'gp-strip-sep' }, '·'),
         e('span', { className: 'gp-strip-item', onClick: props.onEditMonthly, role: 'button', tabIndex: 0,
@@ -1671,7 +2035,7 @@
         t('tangibilityLine', formatUsd(dailyYieldAmt, 2), t('tangibilityCoffee'))
       ) : null,
 
-      // 1d. v3 — scale-matched comparisons (TARGET only, replaces bank comparison)
+      // 1d. v3 — scale-matched comparisons (TARGET only)
       (archetype === 'target') ? e('div', { className: 'gp-comparison gp-animate-in' },
         targetAmt ? e('p', null, t('comparisonCreditCard', goalLabel(t, goal), formatUsdRounded(targetAmt * (1 + 0.24 / 2 * (12 + 1) / 12)))) : null,
         (isCapitalPath && ladderDates && monthsFromNow(ladderDates[pk]))
@@ -1679,8 +2043,8 @@
           : null
       ) : null,
 
-      // 2. INTERACTIVE CHART (hidden for subscription and capital-funded target — no monthly contribution to chart)
-      (archetype !== 'subscription' && !isCapitalPath) ? e('div', { className: 'gp-curve-wrap gp-animate-in' },
+      // 2. INTERACTIVE CHART (hidden for capital-funded target — no monthly contribution to chart)
+      !isCapitalPath ? e('div', { className: 'gp-curve-wrap gp-animate-in' },
         e(GrowthCurve, {
           monthly: slideMonthly, years: slideYears, apy: apy,
           target: archetype === 'target' ? targetAmt : null,
@@ -1697,7 +2061,6 @@
       e('div', { className: 'gp-makeit gp-animate-in' },
         e('div', { className: 'gp-makeit-label' }, t('makeItYours')),
         e('div', { className: 'gp-makeit-sliders' },
-          // Capital slider (capital path target/subscription)
           isCapitalPath ? e('div', { className: 'gp-slider-group' },
             e('div', { className: 'gp-slider-row-label' },
               e('span', null, t('fundingCapitalCard')),
@@ -1712,7 +2075,6 @@
               onChange: function(ev) { setSlideCapital(parseInt(ev.target.value, 10)); }
             })
           ) : e('div', { className: 'gp-slider-group' },
-            // Monthly amount slider (monthly path / growth)
             e('div', { className: 'gp-slider-row-label' },
               e('span', null, t('makeItMonthly')),
               e('span', { className: 'gp-slider-live-val' }, formatUsd(slideMonthly) + '/mo')
@@ -1726,7 +2088,6 @@
               onChange: function(ev) { setSlideMonthly(parseInt(ev.target.value, 10)); }
             })
           ),
-          // Years slider (growth archetype only)
           archetype === 'growth' ? e('div', { className: 'gp-slider-group' },
             e('div', { className: 'gp-slider-row-label' },
               e('span', null, t('makeItYears')),
@@ -1742,7 +2103,6 @@
             })
           ) : null
         ),
-        // Persona switch pills
         e('div', { className: 'gp-persona-pills' },
           [
             { key: 'stable', shortKey: 'personaStableShort', titleKey: 'personaStableTitle' },
@@ -1761,256 +2121,17 @@
         )
       ),
 
-      // 4. PRIMARY CTA
-      topPool ? e('div', { className: 'gp-cta-row gp-animate-in' },
-        e('a', {
-          className: 'gp-primary-cta',
-          href: '/?pool=' + encodeURIComponent(topPool.pool),
-          rel: 'noopener'
-        },
-          t('ctaStart', topPool.project), ' →'
-        ),
-        e('p', { className: 'gp-cta-microcopy' }, t('ctaMicrocopy'))
-      ) : null,
+      // 4. ENGINE ROOM
+      engineElement,
 
-      // 4b. v3 — subscription ladder (cumulative stack)
-      archetype === 'subscription' ? (function () {
-        // Index of the last unlocked rung (-1 if none)
-        var lastUnlockedIdx = -1;
-        for (var li = ladderRungs.length - 1; li >= 0; li--) {
-          if (ladderRungs[li].unlocked) { lastUnlockedIdx = li; break; }
-        }
-        return e('div', { className: 'gp-sub-ladder gp-animate-in' },
-          e('div', { className: 'gp-sub-ladder-title' }, t('subLadderTitle')),
-          // Tap hint — capital path only, so user knows rungs are interactive
-          isCapitalPath ? e('p', { className: 'gp-ladder-tap-hint' }, t('ladderTapHint')) : null,
-          ladderRungs.map(function (rung, idx) {
-            var isYouAreHere = isCapitalPath && idx === lastUnlockedIdx;
-            var rungLabel = idx === 0 ? t(rung.labelKey) : t('ladderPlus', t(rung.labelKey));
-            // On capital path with a finite foreverAmt: rung is a tappable button.
-            // Tapping sets capital to ceil(foreverAmt / 100) * 100 so the tapped rung
-            // becomes the new "you're here" position.
-            var isTappable = isCapitalPath && isFinite(rung.foreverAmt);
-            var rungProps = {
-              key: rung.id,
-              className: 'gp-sub-rung'
-                + (isCapitalPath && rung.unlocked ? ' gp-rung-unlocked' : ' gp-rung-locked')
-                + (rung.id === goal ? ' gp-rung-selected' : '')
-                + (isYouAreHere ? ' gp-rung-here' : '')
-                + (isTappable ? ' gp-rung-tappable' : '')
-            };
-            if (isTappable) {
-              rungProps.type = 'button';
-              rungProps.onClick = (function (amt) {
-                return function () { setSlideCapital(Math.ceil(amt / 100) * 100); };
-              }(rung.foreverAmt));
-              rungProps.onKeyDown = (function (amt) {
-                return function (ev) {
-                  if (ev.key === 'Enter' || ev.key === ' ') {
-                    ev.preventDefault();
-                    setSlideCapital(Math.ceil(amt / 100) * 100);
-                  }
-                };
-              }(rung.foreverAmt));
-            }
-            var rungEl = isTappable ? 'button' : 'div';
-            return e(rungEl, rungProps,
-              e('span', { className: 'gp-rung-emoji' }, rung.emoji),
-              e('div', { className: 'gp-rung-info' },
-                e('span', { className: 'gp-rung-label' }, rungLabel),
-                e('span', { className: 'gp-rung-cummonthly' }, formatUsd(rung.cumMonthly) + '/mo')
-              ),
-              e('div', { className: 'gp-rung-right' },
-                e('span', { className: 'gp-rung-forever' },
-                  isFinite(rung.foreverAmt) ? formatUsdRounded(rung.foreverAmt) : (apy > 0 ? '—' : '…')
-                ),
-                isCapitalPath
-                  ? (rung.unlocked
-                      ? e('span', { className: 'gp-rung-badge' }, t('subLadderUnlocked'))
-                      : e('span', { className: 'gp-rung-pct' }, t('subLadderProgress', rung.pct))
-                    )
-                  : null
-              ),
-              isYouAreHere
-                ? e('span', { className: 'gp-rung-here-marker' }, t('ladderYouAreHere'))
-                : null
-            );
-          })
-        );
-      })() : null,
+      // 5. PRIMARY CTA
+      ctaElement,
 
-      // 5. ENGINE ROOM — pools with filter chips + per-card swap
-      e('div', { className: 'gp-pools gp-animate-in' },
-        e('div', { className: 'gp-pools-heading' },
-          t('poolsHeading'),
-          e('span', { className: 'gp-blended-badge' }, t('blendedBadge', formatApy(apy)))
-        ),
-        isDegenPersona ? e('div', { className: 'gp-degen-warning' },
-          t('degenHaircutNote', formatApy(rawApy))
-        ) : null,
-
-        // Filter chip rows — chain
-        chainOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
-          e('span', { className: 'gp-engine-filter-label' }, t('engineFilterChain')),
-          e('div', { className: 'gp-chips gp-chips-wrap' },
-            [{ value: null, label: t('engineAll') }].concat(
-              chainOptions.map(function (c) { return { value: c, label: c }; })
-            ).map(function (opt) {
-              var isSelected = poolFilters.chain === opt.value;
-              return e('button', {
-                key: opt.value == null ? '__all__' : opt.value,
-                type: 'button',
-                className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
-                onClick: function () {
-                  setPoolFilters(function (f) { return Object.assign({}, f, { chain: opt.value }); });
-                }
-              }, opt.label);
-            })
-          )
-        ) : null,
-
-        // Filter chip rows — token
-        tokenOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
-          e('span', { className: 'gp-engine-filter-label' }, t('engineFilterToken')),
-          e('div', { className: 'gp-chips gp-chips-wrap' },
-            [{ value: null, label: t('engineAll') }].concat(
-              tokenOptions.map(function (tok) { return { value: tok, label: tok }; })
-            ).map(function (opt) {
-              var isSelected = poolFilters.token === opt.value;
-              return e('button', {
-                key: opt.value == null ? '__all__' : opt.value,
-                type: 'button',
-                className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
-                onClick: function () {
-                  setPoolFilters(function (f) { return Object.assign({}, f, { token: opt.value }); });
-                }
-              }, opt.label);
-            })
-          )
-        ) : null,
-
-        curated.length === 0
-          ? e('div', { className: 'gp-pools-empty' }, t('noPools'))
-          : e('div', { className: 'gp-pool-grid' },
-              curated.map(function (p, slotIdx) {
-                var isSwapOpen = openSwapSlot === slotIdx;
-                // Alternatives for this slot: exclude all currently-displayed pool ids
-                var displayedIds = curated.map(function (c) { return c.pool; });
-                var alts = isSwapOpen
-                  ? poolAlternatives(pools, persona, {
-                      chain: poolFilters.chain || undefined,
-                      token: poolFilters.token || undefined
-                    }, displayedIds, 5)
-                  : [];
-
-                return e('div', {
-                  key: p.pool,
-                  className: 'gp-pool-slot' + (isSwapOpen ? ' gp-pool-slot-open' : '')
-                },
-                  // The pool card — still navigates on click (anchor)
-                  e('a', {
-                    className: 'gp-pool-card', href: '/?pool=' + encodeURIComponent(p.pool),
-                    rel: 'noopener'
-                  },
-                    e('div', { className: 'gp-pool-top' },
-                      e('span', { className: 'gp-pool-symbol' }, p.symbol),
-                      e('span', { className: 'gp-pool-apy' }, formatApy(poolTotalApy(p)))
-                    ),
-                    e('div', { className: 'gp-pool-meta' },
-                      e('span', { className: 'gp-pool-project' }, p.project),
-                      e('span', { className: 'gp-pool-chain' }, p.chain)
-                    ),
-                    e('div', { className: 'gp-pool-foot' },
-                      e('span', { className: 'gp-pool-tvl' }, t('poolTvl') + ' ' + formatTvl(p.tvlUsd)),
-                      e('span', { className: 'gp-pool-link' }, t('viewPool'))
-                    )
-                  ),
-                  // Swap button — separate from the anchor, no navigation
-                  e('button', {
-                    type: 'button',
-                    className: 'gp-pool-swap-btn' + (isSwapOpen ? ' is-active' : ''),
-                    'aria-label': isSwapOpen ? t('engineSwapClose') : t('engineSwap'),
-                    onClick: function (ev) {
-                      ev.stopPropagation();
-                      setOpenSwapSlot(isSwapOpen ? null : slotIdx);
-                    }
-                  }, isSwapOpen ? '×' : t('engineSwap')),
-
-                  // Inline alternatives panel
-                  isSwapOpen ? e('div', { className: 'gp-swap-panel' },
-                    alts.length === 0
-                      ? e('div', { className: 'gp-swap-empty' }, t('noPools'))
-                      : alts.map(function (alt) {
-                          return e('button', {
-                            key: alt.pool,
-                            type: 'button',
-                            className: 'gp-swap-alt',
-                            onClick: function () {
-                              setSlotPicks(function (prev) {
-                                var next = prev.slice();
-                                next[slotIdx] = alt.pool;
-                                return next;
-                              });
-                              setOpenSwapSlot(null);
-                            }
-                          },
-                            e('div', { className: 'gp-swap-alt-top' },
-                              e('span', { className: 'gp-swap-alt-symbol' }, alt.symbol),
-                              e('span', { className: 'gp-swap-alt-apy' }, formatApy(poolTotalApy(alt)))
-                            ),
-                            e('div', { className: 'gp-swap-alt-meta' },
-                              e('span', null, alt.project),
-                              e('span', null, ' · ' + alt.chain)
-                            )
-                          );
-                        })
-                  ) : null
-                );
-              })
-            )
-      ),
-
-      // 6. ASK BOX — with always-visible chips
-      e('div', { className: 'gp-ask gp-animate-in' },
-        ask.q ? e('div', { className: 'gp-ask-thread' },
-          e('div', { className: 'gp-ask-q' }, ask.q),
-          ask.thinking ? e(Sprout, null)
-            : e('div', { className: 'gp-ask-a' }, ask.a && ask.a.text)
-        ) : null,
-        // Always-visible suggested chips
-        e('div', { className: 'gp-ask-chips' },
-          suggestedChips.filter(Boolean).map(function(chip) {
-            return e('button', {
-              key: chip, type: 'button', className: 'gp-ask-chip',
-              onClick: function() { pickSuggestedQ(chip); }
-            }, chip);
-          })
-        ),
-        e('form', { className: 'gp-ask-form', onSubmit: submitAsk },
-          e('input', {
-            type: 'text', className: 'gp-ask-input', value: askVal,
-            placeholder: t('askPlaceholder'),
-            onChange: function (ev) { setAskVal(ev.target.value); }
-          }),
-          e('button', { type: 'submit', className: 'gp-ask-send', 'aria-label': 'Ask' }, '→')
-        )
-      ),
+      // 6. ASK BOX
+      askElement,
 
       // 7. SHARE + GARDEN
-      e('div', { className: 'gp-bloom-foot gp-animate-in' },
-        e('p', { className: 'gp-disclaimer' }, t('disclaimer')),
-        e('div', { className: 'gp-share-row' },
-          e('button', { type: 'button', className: 'gp-share-btn', onClick: doShare, disabled: isSharing },
-            isSharing ? t('sharePrepping') : ('📸 ' + t('share'))
-          ),
-          e('button', { type: 'button', className: 'gp-share-btn gp-share-link', onClick: doCopyLink },
-            copySuccess ? ('✓ ' + t('shareLinkCopied')) : ('🔗 ' + t('shareLink'))
-          ),
-          navigator.share ? e('button', { type: 'button', className: 'gp-share-btn', onClick: doNativeShare },
-            '↗ ' + t('shareNative')
-          ) : null
-        )
-      )
+      footElement
     );
   }
 
@@ -2355,24 +2476,47 @@
         e('div', { className: 'gp-report-now' }, t('heroTarget', goalLabel(t, plan.goal), monthsFromNow(mTarget) || '—'))
       );
     } else if (arch === 'subscription') {
-      // Use the same repBundle computed for progressBlock above
-      var repB = repBundle || coveredBundle(plan.capital || null, newEffective, plan.goal);
-      var repNowLine;
-      if (repB.coveredCount >= 1) {
-        var repBundleLabels = repB.covered.map(function (r) { return t(r.labelKey); });
-        repNowLine = t('subHeroWinBundle', joinBundle(repBundleLabels));
+      // Use plan.mix (new field) when present, else fall back to coveredBundle path
+      if (plan.mix && Array.isArray(plan.mix) && plan.mix.length > 0) {
+        var repMix = mixStats(plan.mix, newEffective);
+        var repMixItems = subscriptionLadder(plan.goal);
+        var repMixLabels = repMix.ids.map(function (id) {
+          for (var rli = 0; rli < repMixItems.length; rli++) {
+            if (repMixItems[rli].id === id) return repMixItems[rli].emoji + ' ' + t(repMixItems[rli].labelKey);
+          }
+          var rmg = goalById(id);
+          return rmg ? rmg.emoji + ' ' + t(rmg.labelKey) : id;
+        });
+        projectionBlock = e('div', { className: 'gp-report-projection' },
+          e('div', { className: 'gp-report-now' },
+            t('reportCovers', repMixLabels.join(', '))
+          ),
+          repMix.neededCapital > 0
+            ? e('div', { className: 'gp-report-was' },
+                t('mixTotal', formatUsdRounded(repMix.neededCapital), formatUsd(repMix.combinedMonthly))
+              )
+            : null
+        );
       } else {
-        var repAnchorPct = repB.nextPct || 0;
-        repNowLine = t('subHeroProgress', repAnchorPct, goalLabel(t, plan.goal));
+        // Older plans without mix field — use coveredBundle path
+        var repB = repBundle || coveredBundle(plan.capital || null, newEffective, plan.goal);
+        var repNowLine;
+        if (repB.coveredCount >= 1) {
+          var repBundleLabels = repB.covered.map(function (r) { return t(r.labelKey); });
+          repNowLine = t('subHeroWinBundle', joinBundle(repBundleLabels));
+        } else {
+          var repAnchorPct = repB.nextPct || 0;
+          repNowLine = t('subHeroProgress', repAnchorPct, goalLabel(t, plan.goal));
+        }
+        var repAnchorForever = repB.nextRung ? repB.nextRung.foreverAmt
+          : (repB.covered.length > 0 ? repB.covered[0].foreverAmt : null);
+        projectionBlock = e('div', { className: 'gp-report-projection' },
+          e('div', { className: 'gp-report-now' }, repNowLine),
+          (repAnchorForever && isFinite(repAnchorForever))
+            ? e('div', { className: 'gp-report-was' }, formatUsdRounded(repAnchorForever) + ' plants it forever')
+            : null
+        );
       }
-      var repAnchorForever = repB.nextRung ? repB.nextRung.foreverAmt
-        : (repB.covered.length > 0 ? repB.covered[0].foreverAmt : null);
-      projectionBlock = e('div', { className: 'gp-report-projection' },
-        e('div', { className: 'gp-report-now' }, repNowLine),
-        (repAnchorForever && isFinite(repAnchorForever))
-          ? e('div', { className: 'gp-report-was' }, formatUsdRounded(repAnchorForever) + ' plants it forever')
-          : null
-      );
     } else {
       projectionBlock = e('div', { className: 'gp-report-projection' },
         e('div', { className: 'gp-report-now' }, t('reportProjectionNow', formatUsdRounded(newProjection))),
@@ -3186,7 +3330,8 @@
     poolAlternatives: poolAlternatives,
     reportStats: reportStats,
     coveredBundle: coveredBundle,
-    joinBundle: joinBundle
+    joinBundle: joinBundle,
+    mixStats: mixStats
   };
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;
