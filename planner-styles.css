@@ -1533,6 +1533,36 @@
   .gp-rung-here { transition: none; }
 }
 
+/* Tappable rung (capital path only) */
+.gp-rung-tappable {
+  cursor: pointer;
+  /* Inherit the rung layout — button resets need overriding */
+  width: 100%; text-align: left; border: none;
+  font: inherit; color: inherit;
+  background: var(--color-surface);
+}
+.gp-rung-tappable:hover {
+  box-shadow: var(--neuro-shadow-raised);
+}
+.gp-rung-tappable:active {
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(1px);
+}
+.gp-rung-tappable:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .gp-rung-tappable:active { transform: none; }
+}
+
+/* Tap hint below ladder title */
+.gp-ladder-tap-hint {
+  font-size: 0.75rem;
+  color: var(--neuro-text-secondary);
+  margin: -4px 0 8px;
+}
+
 /* Instant-win celebration */
 .gp-instant-win .gp-headline-figure {
   font-size: 52px;

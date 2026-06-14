@@ -1782,16 +1782,39 @@
         }
         return e('div', { className: 'gp-sub-ladder gp-animate-in' },
           e('div', { className: 'gp-sub-ladder-title' }, t('subLadderTitle')),
+          // Tap hint — capital path only, so user knows rungs are interactive
+          isCapitalPath ? e('p', { className: 'gp-ladder-tap-hint' }, t('ladderTapHint')) : null,
           ladderRungs.map(function (rung, idx) {
             var isYouAreHere = isCapitalPath && idx === lastUnlockedIdx;
             var rungLabel = idx === 0 ? t(rung.labelKey) : t('ladderPlus', t(rung.labelKey));
-            return e('div', {
+            // On capital path with a finite foreverAmt: rung is a tappable button.
+            // Tapping sets capital to ceil(foreverAmt / 100) * 100 so the tapped rung
+            // becomes the new "you're here" position.
+            var isTappable = isCapitalPath && isFinite(rung.foreverAmt);
+            var rungProps = {
               key: rung.id,
               className: 'gp-sub-rung'
                 + (isCapitalPath && rung.unlocked ? ' gp-rung-unlocked' : ' gp-rung-locked')
                 + (rung.id === goal ? ' gp-rung-selected' : '')
                 + (isYouAreHere ? ' gp-rung-here' : '')
-            },
+                + (isTappable ? ' gp-rung-tappable' : '')
+            };
+            if (isTappable) {
+              rungProps.type = 'button';
+              rungProps.onClick = (function (amt) {
+                return function () { setSlideCapital(Math.ceil(amt / 100) * 100); };
+              }(rung.foreverAmt));
+              rungProps.onKeyDown = (function (amt) {
+                return function (ev) {
+                  if (ev.key === 'Enter' || ev.key === ' ') {
+                    ev.preventDefault();
+                    setSlideCapital(Math.ceil(amt / 100) * 100);
+                  }
+                };
+              }(rung.foreverAmt));
+            }
+            var rungEl = isTappable ? 'button' : 'div';
+            return e(rungEl, rungProps,
               e('span', { className: 'gp-rung-emoji' }, rung.emoji),
               e('div', { className: 'gp-rung-info' },
                 e('span', { className: 'gp-rung-label' }, rungLabel),
@@ -2781,41 +2804,39 @@
           e('p', { className: 'gp-question' }, t('step1Question')),
           e('p', { className: 'gp-splash-hook' }, t('splashHook')),
           e('div', { className: 'gp-goal-groups' },
-            [
-              { catKey: 'catSubscriptions', catId: 'subscription' },
-              { catKey: 'catGadgets',       catId: 'gadget' },
-              { catKey: 'catLife',          catId: 'life' }
-            ].map(function (cat) {
-              var catGoals = GOALS.filter(function (g) { return g.category === cat.catId; });
-              if (cat.catId === 'subscription') {
-                var primaryGoals = catGoals.slice(0, 4);
-                var extraGoals = catGoals.slice(4);
-                var allShownGoals = subsExpanded ? primaryGoals.concat(extraGoals) : primaryGoals;
-                var toggleChip = e('button', {
-                  key: '__toggle__',
-                  type: 'button',
-                  className: 'gp-chip',
-                  onClick: function () { setSubsExpanded(!subsExpanded); }
-                }, subsExpanded ? t('goalLess') : t('goalMore'));
+            (function () {
+              var activeCats = [
+                { catKey: 'catSubscriptions', catId: 'subscription' }
+                // Temporarily hidden — re-enable to restore Gadgets / Big goals:
+                // { catKey: 'catGadgets', catId: 'gadget' },
+                // { catKey: 'catLife',    catId: 'life' }
+              ];
+              return activeCats.map(function (cat) {
+                var catGoals = GOALS.filter(function (g) { return g.category === cat.catId; });
+                if (cat.catId === 'subscription') {
+                  // Show all subscription goals expanded — no More/Show-less toggle
+                  return e('div', { key: cat.catId, className: 'gp-goal-group' },
+                    // Omit the category label when there is only one group — context comes from
+                    // the splash question above.  When gadgets/life are re-enabled (activeCats
+                    // length > 1) the label re-appears automatically.
+                    activeCats.length > 1 ? e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)) : null,
+                    e(Chips, {
+                      wrap: true, selected: answers.goal,
+                      options: catGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
+                      onPick: pickGoal
+                    })
+                  );
+                }
                 return e('div', { key: cat.catId, className: 'gp-goal-group' },
                   e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)),
                   e(Chips, {
                     wrap: true, selected: answers.goal,
-                    options: allShownGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
-                    onPick: pickGoal,
-                    trailing: toggleChip
+                    options: catGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
+                    onPick: pickGoal
                   })
                 );
-              }
-              return e('div', { key: cat.catId, className: 'gp-goal-group' },
-                e('p', { className: 'gp-goal-cat-label' }, t(cat.catKey)),
-                e(Chips, {
-                  wrap: true, selected: answers.goal,
-                  options: catGoals.map(function (g) { return { value: g.id, label: t(g.labelKey), emoji: g.emoji }; }),
-                  onPick: pickGoal
-                })
-              );
-            })
+              });
+            })()
           ),
           e('form', { className: 'gp-freetext', onSubmit: submitFreeText },
             e('input', {
