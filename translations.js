@@ -114,9 +114,28 @@ const translations = {
 
       // Step 1 — goal
       step1Question: "Let's grow something. What are you saving for?",
+      splashHook: "Park money once — its yield pays the bill forever, and you keep every dollar.",
+      catSubscriptions: "Subscriptions",
+      catGadgets: "Gadgets",
+      catLife: "Big goals",
+      goalSpotify: "Spotify",
+      goalNetflix: "Netflix",
+      goalClaude: "Claude Pro",
+      goalMobile: "Mobile plan",
+      goalAmazonPrime: "Amazon Prime",
+      goalDisney: "Disney+",
+      goalYouTubePremium: "YouTube Premium",
+      goalMax: "Max",
+      goalHulu: "Hulu",
+      goalAppleTV: "Apple TV+",
+      goalChatGPT: "ChatGPT Plus",
+      goalGamePass: "Game Pass",
+      goalParamount: "Paramount+",
+      goalPeacock: "Peacock",
+      goalMore: "More…",
+      goalLess: "Show less",
       goalRetirement: "Retirement",
       goalHome: "A home",
-      goalClaude: "My Claude subscription",
       goalSneakers: "Fresh sneakers",
       goalIphone: "New iPhone",
       freeTextPlaceholder: "…or tell me in your own words",
@@ -138,6 +157,9 @@ const translations = {
 
       // Step 4 — strategy personas (renamed from temperament)
       step4Question: "Last thing — where should your money work?",
+      personaStableShort: "Sleep-easy",
+      personaRwaShort: "Balanced",
+      personaDegenShort: "Bold",
       personaStableTitle: "Established Stablecoins",
       personaStableDesc: "Stablecoin pools on battle-tested lending & staking protocols, TVL ≥ $50M. Steady 3–8%, boring on purpose.",
       personaStableRisk: "Risk: depeg + contract bug — low odds, never zero.",
@@ -290,11 +312,20 @@ const translations = {
 
       // v3 — SUBSCRIPTION hero + ladder
       subHeroWin: (goal) => `Your money pays for ${goal}. Forever. Starting now.`,
+      subHeroWinBundle: (list) => `Your money pays for ${list}. Forever. Starting now.`,
+      subHeroWinBundleMany: (list) => `Your money pays for ${list} — forever.`,
+      stripMore: (n) => `+${n} more`,
+      subHeroWinEyebrow: "∞ Forever unlocked",
+      subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt} covers ${billMo}/mo of bills at ${apyStr} — and you keep every dollar.`,
+      subHeroWinSurplus: (amt) => `≈${amt} still growing on top.`,
+      subHeroTowardNext: (amt, label) => `≈${amt} toward also covering ${label}.`,
       subHeroProgress: (pct, goal) => `${pct}% of the way to free ${goal}`,
       subHeroMonthly: (date) => `At +$100/mo you cross in ${date}`,
-      subLadderTitle: "Your subscription ladder",
+      subLadderTitle: "What your money covers — forever",
       subLadderUnlocked: "unlocked",
       subLadderProgress: (pct) => `${pct}% there`,
+      ladderPlus: (label) => `+ ${label}`,
+      ladderYouAreHere: "← you're here",
       hybridDiscount: (pct) => `A permanent ${pct}% discount your money earns you`,
 
       // v3 — ladder item labels
@@ -307,6 +338,8 @@ const translations = {
       // v3 — share card
       shareTargetNew: (goal, date) => `My ${goal} is buying itself — by ${date} 🤯`,
       shareSubWin: (goal) => `My yield pays my ${goal} now 🤖💸`,
+      shareSubBundle: (list) => `🌱 My yield covers ${list} — forever`,
+      shareSubSubline: (capital, apy, monthly) => `≈${capital} working at ${apy} · ${monthly}/mo covered forever`,
 
       // v3 — plan strip
       stripCapital: (amt) => `${amt} capital`,
@@ -320,7 +353,31 @@ const translations = {
       chipHintForever: "forever ✓",
       chipHintPctToForever: (pct) => `${pct}% to forever`,
       chipHintYoursBy: (date) => `yours by ${date}`,
-      chipHintForeverBy: (date) => `forever by ${date}`
+      chipHintForeverBy: (date) => `forever by ${date}`,
+
+      // v3.2 — subscription amount step (replaces lump-vs-monthly fork)
+      amountQuestion: "How much can you put in?",
+      amountContextSub: (goal, bill, apy, minAmt) => `${goal} is ${bill}/mo. The minimum to cover it forever is ≈${minAmt} — and you keep your money.`,
+      amountMinimumTag: "minimum",
+      coversForever: (goal) => `covers ${goal} forever`,
+      coversPlus: (label) => `+ ${label} too`,
+
+      // Engine filter chips (pool swap/filter UI)
+      engineFilterChain: "Chain",
+      engineFilterToken: "Token",
+      engineAll: "All",
+      engineSwap: "Swap",
+      engineSwapAlt: "Pick this pool",
+      engineSwapClose: "Close",
+
+      // Return-visit dashboard — elapsed + estimated growth
+      reportElapsedDays: (n) => n === 1 ? 'Planted 1 day ago' : `Planted ${n} days ago`,
+      reportEarnedEst: (amt) => `≈${amt} grown so far (estimate)`,
+
+      // Return-visit dashboard — subscription covers + next rung
+      reportCovers: (list) => `Covered forever: ${list}`,
+      reportNext: (label, amt) => `Next: + ${label} at ≈${amt}`,
+      reportNextPct: (pct, label) => `${pct}% toward covering ${label}`
     }
   },
 
@@ -435,9 +492,28 @@ const translations = {
       thinking: "답을 키우는 중…",
 
       step1Question: "함께 무언가를 키워봐요. 무엇을 위해 모으고 계신가요?",
+      splashHook: "한 번 넣어두면 — 수익이 요금을 영원히 내주고, 원금은 고스란히 남아요.",
+      catSubscriptions: "구독 서비스",
+      catGadgets: "가젯",
+      catLife: "큰 목표",
+      goalSpotify: "스포티파이",
+      goalNetflix: "넷플릭스",
+      goalClaude: "Claude Pro",
+      goalMobile: "통신 요금제",
+      goalAmazonPrime: "아마존 프라임",
+      goalDisney: "디즈니+",
+      goalYouTubePremium: "유튜브 프리미엄",
+      goalMax: "Max",
+      goalHulu: "Hulu",
+      goalAppleTV: "Apple TV+",
+      goalChatGPT: "ChatGPT Plus",
+      goalGamePass: "게임 패스",
+      goalParamount: "파라마운트+",
+      goalPeacock: "Peacock",
+      goalMore: "더 보기…",
+      goalLess: "접기",
       goalRetirement: "은퇴 자금",
       goalHome: "내 집 마련",
-      goalClaude: "Claude 구독료",
       goalSneakers: "새 운동화",
       goalIphone: "새 아이폰",
       freeTextPlaceholder: "…아니면 직접 말씀해 주세요",
@@ -456,6 +532,9 @@ const translations = {
       horizonChosen: (n) => `${n}년 동안 키우기`,
 
       step4Question: "마지막으로 — 내 돈이 어디서 일하면 좋을까요?",
+      personaStableShort: "안심 수익",
+      personaRwaShort: "균형",
+      personaDegenShort: "과감하게",
       personaStableTitle: "검증된 스테이블코인",
       personaStableDesc: "검증된 대출·스테이킹 프로토콜의 스테이블코인 풀, TVL ≥ $50M. 꾸준히 3~8%, 의도적으로 평범하게.",
       personaStableRisk: "위험: 디페그 + 컨트랙트 버그 — 낮은 확률, 0은 아님.",
@@ -598,11 +677,20 @@ const translations = {
 
       // v3 — SUBSCRIPTION hero + ladder
       subHeroWin: (goal) => `내 돈이 ${goal}을 영원히 내줘요. 지금 바로.`,
+      subHeroWinBundle: (list) => `내 돈이 ${list}을 영원히 내줘요. 지금 바로.`,
+      subHeroWinBundleMany: (list) => `내 돈이 ${list}을 영원히 내줘요.`,
+      stripMore: (n) => `+${n}개 더`,
+      subHeroWinEyebrow: "∞ 영구 달성",
+      subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt}이 ${apyStr}로 월 ${billMo} 요금을 커버해요 — 원금은 그대로예요.`,
+      subHeroWinSurplus: (amt) => `≈${amt}는 추가로 불어나는 중이에요.`,
+      subHeroTowardNext: (amt, label) => `≈${amt}는 ${label} 추가 달성을 향해 불어나는 중이에요.`,
       subHeroProgress: (pct, goal) => `무료 ${goal}까지 ${pct}% 왔어요`,
       subHeroMonthly: (date) => `매달 +$100 추가하면 ${date}에 달성해요`,
-      subLadderTitle: "구독 사다리",
+      subLadderTitle: "내 돈이 영원히 내주는 것들",
       subLadderUnlocked: "달성",
       subLadderProgress: (pct) => `${pct}% 달성`,
+      ladderPlus: (label) => `+ ${label}`,
+      ladderYouAreHere: "← 여기예요",
       hybridDiscount: (pct) => `내 돈이 벌어주는 영구 ${pct}% 할인`,
 
       // v3 — ladder item labels
@@ -615,6 +703,8 @@ const translations = {
       // v3 — share card
       shareTargetNew: (goal, date) => `내 ${goal}이 저절로 사지고 있어요 — ${date}까지 🤯`,
       shareSubWin: (goal) => `이제 수익이 내 ${goal}을 내줘요 🤖💸`,
+      shareSubBundle: (list) => `🌱 수익이 ${list}을 영원히 내줘요`,
+      shareSubSubline: (capital, apy, monthly) => `≈${capital} · ${apy} 수익률 · 매달 ${monthly} 영구 달성`,
 
       // v3 — plan strip
       stripCapital: (amt) => `${amt} 원금`,
@@ -628,7 +718,31 @@ const translations = {
       chipHintForever: "영구 달성 ✓",
       chipHintPctToForever: (pct) => `달성까지 ${pct}%`,
       chipHintYoursBy: (date) => `${date}에 내 것`,
-      chipHintForeverBy: (date) => `${date}에 영구 달성`
+      chipHintForeverBy: (date) => `${date}에 영구 달성`,
+
+      // v3.2 — subscription amount step (replaces lump-vs-monthly fork)
+      amountQuestion: "얼마나 넣을 수 있나요?",
+      amountContextSub: (goal, bill, apy, minAmt) => `${goal}은 월 ${bill}이에요. 영원히 내려면 최소 ≈${minAmt}만 있으면 돼요 — 원금은 그대로예요.`,
+      amountMinimumTag: "최소",
+      coversForever: (goal) => `${goal} 영구 달성`,
+      coversPlus: (label) => `+ ${label}도`,
+
+      // Engine filter chips (pool swap/filter UI)
+      engineFilterChain: "체인",
+      engineFilterToken: "토큰",
+      engineAll: "전체",
+      engineSwap: "교체",
+      engineSwapAlt: "이 풀로 바꾸기",
+      engineSwapClose: "닫기",
+
+      // Return-visit dashboard — elapsed + estimated growth
+      reportElapsedDays: (n) => n === 1 ? '심은 지 1일 됐어요' : `심은 지 ${n}일 됐어요`,
+      reportEarnedEst: (amt) => `지금까지 약 ${amt} 자란 것으로 추정돼요`,
+
+      // Return-visit dashboard — subscription covers + next rung
+      reportCovers: (list) => `영구 커버: ${list}`,
+      reportNext: (label, amt) => `다음: + ${label} (≈${amt} 필요)`,
+      reportNextPct: (pct, label) => `${label} 커버까지 ${pct}%`
     }
   }
 };
