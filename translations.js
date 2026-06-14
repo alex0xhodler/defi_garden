@@ -121,7 +121,6 @@ const translations = {
       goalSpotify: "Spotify",
       goalNetflix: "Netflix",
       goalClaude: "Claude Pro",
-      goalMobile: "Mobile plan",
       goalAmazonPrime: "Amazon Prime",
       goalDisney: "Disney+",
       goalYouTubePremium: "YouTube Premium",
@@ -132,6 +131,10 @@ const translations = {
       goalGamePass: "Game Pass",
       goalParamount: "Paramount+",
       goalPeacock: "Peacock",
+      goalDoorDash: "DoorDash",
+      goalUberOne: "Uber One",
+      goalAudible: "Audible",
+      goalWalmart: "Walmart+",
       goalMore: "More…",
       goalLess: "Show less",
       goalRetirement: "Retirement",
@@ -390,7 +393,51 @@ const translations = {
       mixHint: "Tap to add or remove what your money covers",
       mixTotal: (amt, monthly) => `≈${amt} covers ${monthly}/mo — forever`,
       mixEmpty: "Pick at least one to cover",
-      mixHeroEmpty: "Pick what your money covers"
+      mixHeroEmpty: "Pick what your money covers",
+      mixCaveatStable: "until rates drop or there's a DeFi doomsday",
+      mixCaveatRwa: "until rates drop or there's a big hack",
+      mixCaveatDegen: "until rates drop or decentralization rugs",
+
+      // Waitlist CTA
+      ctaWaitlist: "Join the waitlist →",
+      ctaWaitlistMicro: "Early access • Self-custody • Your keys",
+
+      // Waitlist modal — step 1
+      waitlistTitle: "Get early access",
+      waitlistBenefits: "A self-custody wallet you fund and hold the keys to. Spin up disposable cards that pay your chosen subscriptions from your deposit — the yield covers the bills. You keep every dollar.",
+      waitlistGarden: (labels, monthly) => `Your garden already covers ${labels} — ≈${monthly}/mo paid from yield forever.`,
+      waitlistJoin: "Join the waitlist",
+      waitlistEmailPlaceholder: "your@email.com",
+      waitlistError: "Something went wrong — please try again.",
+
+      // Waitlist modal — step 2
+      waitlistAccepted: "You're on the list 🌱",
+      waitlistNextSteps: "Once you're accepted: fund your wallet → create disposable cards → point them at your subscriptions → your yield pays the bills. You keep the principal.",
+      waitlistJumpLine: "Share your garden to jump the line.",
+
+      // Referral
+      referralHandleLabel: "Your referral handle",
+      referralValidating: "Checking…",
+      referralValid: "✓ Available",
+      referralLinkLabel: "Your referral link",
+      referralCopy: "Copy",
+      referralCopied: "Copied!",
+
+      // Share
+      shareOnX: "Share on X",
+      shareTweet: (labels) => `My yield pays for ${labels} — forever 🌱 Join me on DeFi Garden:`,
+      downloadCard: "Download garden card",
+      waitlistClose: "Close",
+
+      // Waitlist — position + skip
+      waitlistPosition: function (n) { return 'You\'re #' + n + ' in line'; },
+      waitlistSkip: "Each share moves you ahead.",
+
+      // Waitlist — email step
+      waitlistNoSpam: "No spam — one email when it's your turn.",
+
+      // Waitlist — step indicator
+      waitlistStepLabel: function (n) { return 'Step ' + n + ' of 2'; }
     }
   },
 
@@ -512,7 +559,6 @@ const translations = {
       goalSpotify: "스포티파이",
       goalNetflix: "넷플릭스",
       goalClaude: "Claude Pro",
-      goalMobile: "통신 요금제",
       goalAmazonPrime: "아마존 프라임",
       goalDisney: "디즈니+",
       goalYouTubePremium: "유튜브 프리미엄",
@@ -523,6 +569,10 @@ const translations = {
       goalGamePass: "게임 패스",
       goalParamount: "파라마운트+",
       goalPeacock: "Peacock",
+      goalDoorDash: "DoorDash",
+      goalUberOne: "Uber One",
+      goalAudible: "Audible",
+      goalWalmart: "Walmart+",
       goalMore: "더 보기…",
       goalLess: "접기",
       goalRetirement: "은퇴 자금",
@@ -768,7 +818,51 @@ const translations = {
       mixHint: "탭해서 내 돈이 내줄 항목을 추가하거나 빼세요",
       mixTotal: (amt, monthly) => `≈${amt}로 월 ${monthly} 영구 커버`,
       mixEmpty: "항목을 최소 하나 선택해 주세요",
-      mixHeroEmpty: "내 돈이 내줄 항목을 골라보세요"
+      mixHeroEmpty: "내 돈이 내줄 항목을 골라보세요",
+      mixCaveatStable: "금리가 떨어지거나 디파이 대재앙이 오기 전까지",
+      mixCaveatRwa: "금리가 떨어지거나 대형 해킹이 터지기 전까지",
+      mixCaveatDegen: "금리가 떨어지거나 탈중앙화가 무너지기 전까지",
+
+      // Waitlist CTA
+      ctaWaitlist: "대기자 명단에 등록 →",
+      ctaWaitlistMicro: "얼리 액세스 • 셀프 커스터디 • 내 키 보유",
+
+      // Waitlist modal — step 1
+      waitlistTitle: "얼리 액세스 신청",
+      waitlistBenefits: "직접 키를 보유하는 셀프 커스터디 지갑이에요. 원하는 구독료를 내주는 일회용 카드를 만들어 — 수익이 요금을 대신 내줘요. 원금은 그대로 남아요.",
+      waitlistGarden: (labels, monthly) => `내 정원은 이미 ${labels}를 커버해요 — 수익으로 매달 ≈${monthly}씩 영구히 내줄 수 있어요.`,
+      waitlistJoin: "대기자 명단 등록",
+      waitlistEmailPlaceholder: "이메일@주소.com",
+      waitlistError: "오류가 발생했어요 — 다시 시도해 주세요.",
+
+      // Waitlist modal — step 2
+      waitlistAccepted: "명단에 등록됐어요 🌱",
+      waitlistNextSteps: "승인되면: 지갑에 입금 → 일회용 카드 생성 → 구독 서비스에 연결 → 수익이 요금을 내줘요. 원금은 그대로예요.",
+      waitlistJumpLine: "내 정원을 공유하면 순서가 빨라져요.",
+
+      // Referral
+      referralHandleLabel: "추천인 핸들",
+      referralValidating: "확인 중…",
+      referralValid: "✓ 사용 가능",
+      referralLinkLabel: "내 추천 링크",
+      referralCopy: "복사",
+      referralCopied: "복사됨!",
+
+      // Share
+      shareOnX: "X에 공유",
+      shareTweet: (labels) => `수익이 ${labels} 요금을 영원히 내줘요 🌱 DeFi Garden에서 함께해요:`,
+      downloadCard: "정원 카드 다운로드",
+      waitlistClose: "닫기",
+
+      // Waitlist — position + skip
+      waitlistPosition: function (n) { return '대기 순번 #' + n + '이에요'; },
+      waitlistSkip: "공유할 때마다 순번이 올라가요.",
+
+      // Waitlist — email step
+      waitlistNoSpam: "스팸 없어요 — 순서가 되면 이메일 한 통만 보내드려요.",
+
+      // Waitlist — step indicator
+      waitlistStepLabel: function (n) { return n + ' / 2 단계'; }
     }
   }
 };
