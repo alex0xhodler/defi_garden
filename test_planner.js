@@ -922,4 +922,111 @@ test('mixStats ids field contains only resolved ids', function () {
   assert.deepStrictEqual(s.ids.sort(), ['claude', 'spotify'], 'ids should only contain resolved ids');
 });
 
+// ---------------------------------------------------------------------------
+// disciplinedSpeedup
+// ---------------------------------------------------------------------------
+console.log('disciplinedSpeedup');
+
+test('adding monthly principal reaches target sooner than lump-sum yield alone', function () {
+  var r = gp.disciplinedSpeedup({ capital: 10000, monthly: 50, annualRatePct: 6, target: 1100 });
+  assert.ok(r.baseMonths != null && r.disciplinedMonths != null, 'both months should be defined');
+  assert.ok(r.disciplinedMonths < r.baseMonths, 'disciplined should be faster than lump-sum alone');
+  assert.strictEqual(r.monthsSooner, r.baseMonths - r.disciplinedMonths, 'monthsSooner = base - disciplined');
+  assert.ok(r.monthsSooner > 0, 'monthsSooner should be positive');
+});
+
+test('zero monthly => no speedup, disciplined equals base', function () {
+  var r = gp.disciplinedSpeedup({ capital: 10000, monthly: 0, annualRatePct: 6, target: 1100 });
+  assert.strictEqual(r.monthsSooner, 0, 'monthsSooner should be 0 with no monthly');
+  assert.strictEqual(r.disciplinedMonths, r.baseMonths, 'disciplined should equal base with no monthly');
+});
+
+test('baseMonths matches monthsUntilYieldCoversTarget', function () {
+  var r = gp.disciplinedSpeedup({ capital: 10000, monthly: 50, annualRatePct: 6, target: 1100 });
+  assert.strictEqual(r.baseMonths, gp.monthsUntilYieldCoversTarget(10000, 6, 1100), 'baseMonths should match monthsUntilYieldCoversTarget');
+});
+
+test('high monthly + zero rate still finite (pure principal)', function () {
+  var r = gp.disciplinedSpeedup({ capital: 0, monthly: 100, annualRatePct: 0, target: 1100 });
+  assert.strictEqual(r.disciplinedMonths, 11, '100*11=1100, so disciplinedMonths=11');
+});
+
+test('zero target => monthsSooner 0', function () {
+  var r = gp.disciplinedSpeedup({ capital: 1000, monthly: 50, annualRatePct: 6, target: 0 });
+  assert.strictEqual(r.monthsSooner, 0, 'zero target should give 0 monthsSooner');
+});
+
+// ---------------------------------------------------------------------------
+// New goals taxonomy (requires GOALS + goalArchetype exports)
+// ---------------------------------------------------------------------------
+console.log('new goals — taxonomy');
+
+function findGoal (id) { return (gp.GOALS || []).filter(function (g) { return g.id === id; })[0]; }
+
+test('rent goal exists', function () {
+  var g = findGoal('rent');
+  assert.ok(g, 'rent goal should exist in GOALS');
+});
+
+test('rent is subscription archetype, bills category, isMonthly', function () {
+  var g = findGoal('rent');
+  assert.ok(g, 'rent goal should exist');
+  assert.strictEqual(g.archetype, 'subscription', 'rent archetype should be subscription');
+  assert.strictEqual(g.category, 'bills', 'rent category should be bills');
+  assert.strictEqual(g.isMonthly, true, 'rent isMonthly should be true');
+  assert.ok(g.target > 0, 'rent target should be > 0');
+});
+
+test('phonebill is subscription archetype, bills category', function () {
+  var g = findGoal('phonebill');
+  assert.ok(g, 'phonebill goal should exist');
+  assert.strictEqual(g.archetype, 'subscription', 'phonebill archetype should be subscription');
+  assert.strictEqual(g.category, 'bills', 'phonebill category should be bills');
+  assert.strictEqual(g.isMonthly, true, 'phonebill isMonthly should be true');
+  assert.ok(g.target > 0, 'phonebill target should be > 0');
+});
+
+test('watches is target archetype, gadget category, has price', function () {
+  var g = findGoal('watches');
+  assert.ok(g, 'watches goal should exist');
+  assert.strictEqual(g.archetype, 'target', 'watches archetype should be target');
+  assert.strictEqual(g.category, 'gadget', 'watches category should be gadget');
+  assert.ok(g.target > 0, 'watches target should be > 0');
+});
+
+test('goalArchetype helper agrees for new goals', function () {
+  assert.strictEqual(gp.goalArchetype('rent'), 'subscription', 'goalArchetype(rent) should be subscription');
+  assert.strictEqual(gp.goalArchetype('phonebill'), 'subscription', 'goalArchetype(phonebill) should be subscription');
+  assert.strictEqual(gp.goalArchetype('watches'), 'target', 'goalArchetype(watches) should be target');
+});
+
+// ---------------------------------------------------------------------------
+// matchGoalFromText — new keywords
+// ---------------------------------------------------------------------------
+console.log('matchGoalFromText — new keywords');
+
+test('rent -> rent', function () {
+  assert.strictEqual(gp.matchGoalFromText('saving for rent'), 'rent');
+});
+
+test('watch -> watches', function () {
+  assert.strictEqual(gp.matchGoalFromText('I want a nice watch'), 'watches');
+});
+
+test('phone bill -> phonebill (not iphone) [keyword-ordering guard]', function () {
+  assert.strictEqual(gp.matchGoalFromText('cover my phone bill'), 'phonebill');
+});
+
+test('iphone still -> iphone', function () {
+  assert.strictEqual(gp.matchGoalFromText('new iphone'), 'iphone');
+});
+
+test('korean 월세 -> rent', function () {
+  assert.strictEqual(gp.matchGoalFromText('월세 내기'), 'rent');
+});
+
+test('korean 시계 -> watches', function () {
+  assert.strictEqual(gp.matchGoalFromText('고급 시계 사고 싶어'), 'watches');
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');

@@ -306,6 +306,34 @@
   }
 
   // ---------------------------------------------------------------------------
+  // disciplinedSpeedup — honest "reach it sooner if you also save monthly" math.
+  // args: { capital, monthly, annualRatePct, target }
+  //   baseMonths      — months for lump-sum yield alone to cover target
+  //   disciplinedMonths — months when ALSO adding `monthly` fresh principal
+  //                       (cumulativeYield + monthly*n >= target)
+  //   monthsSooner = baseMonths - disciplinedMonths (>= 0)
+  // monthly <= 0 or target <= 0 => monthsSooner 0, disciplinedMonths == baseMonths
+  function disciplinedSpeedup(args) {
+    var capital = Number(args.capital) || 0;
+    var monthly = Number(args.monthly) || 0;
+    var apy     = Number(args.annualRatePct) || 0;
+    var target  = Number(args.target) || 0;
+    var base = monthsUntilYieldCoversTarget(capital, apy, target);
+    var baseM = isFinite(base) ? base : null;
+    if (monthly <= 0 || target <= 0) {
+      return { baseMonths: baseM, disciplinedMonths: baseM, monthsSooner: 0 };
+    }
+    var n = 0, MAX = 1200; // 100-year guard
+    while (n < MAX) {
+      n++;
+      if (cumulativeYield(capital, apy, n) + monthly * n >= target) break;
+    }
+    var disc = (n < MAX) ? n : null;
+    var sooner = (baseM != null && disc != null) ? Math.max(0, baseM - disc) : 0;
+    return { baseMonths: baseM, disciplinedMonths: disc, monthsSooner: sooner };
+  }
+
+  // ---------------------------------------------------------------------------
   // reportStats — pure helper for the GardenReport return-visit dashboard
   // reportStats(plan, liveEffectiveApyPct, nowIso)
   //   plan: the saved plan object (capital, monthly, fundingMode, savedAt)
@@ -653,12 +681,21 @@
     { id: 'walmart', emoji: '🛒', icon: 'walmart.com', labelKey: 'goalWalmart', archetype: 'subscription',
       category: 'subscription', target: 13, isMonthly: true,
       keywords: ['walmart', 'walmart+', 'walmart plus', '월마트'] },
+    { id: 'rent', emoji: '🏠', labelKey: 'goalRent', archetype: 'subscription',
+      category: 'bills', target: 1800, isMonthly: true,
+      keywords: ['rent', 'apartment rent', 'monthly rent', '월세', '집세', '임대료'] },
+    { id: 'phonebill', emoji: '📶', labelKey: 'goalPhoneBill', archetype: 'subscription',
+      category: 'bills', target: 70, isMonthly: true,
+      keywords: ['phone bill', 'cell bill', 'mobile bill', 'carrier', 'verizon', 'at&t', 't-mobile', '통신비', '휴대폰 요금', '폰 요금'] },
     { id: 'sneakers', emoji: '👟', labelKey: 'goalSneakers', archetype: 'target',
       category: 'gadget', target: 180,
       keywords: ['sneaker', 'sneakers', 'shoes', 'nike', 'adidas', 'shoe', '신발', '운동화', '나이키'] },
     { id: 'iphone', emoji: '📱', labelKey: 'goalIphone', archetype: 'target',
       category: 'gadget', target: 1100,
       keywords: ['phone', 'iphone', 'android', 'samsung', 'pixel', 'mobile', '폰', '아이폰', '휴대폰', '스마트폰'] },
+    { id: 'watches', emoji: '⌚', labelKey: 'goalWatches', archetype: 'target',
+      category: 'gadget', target: 400,
+      keywords: ['watch', 'watches', 'rolex', 'omega', 'seiko', 'apple watch', 'smartwatch', '시계', '손목시계'] },
     { id: 'home', emoji: '🏡', labelKey: 'goalHome', archetype: 'growth',
       category: 'life',
       keywords: ['home', 'house', 'apartment', 'down payment', 'mortgage', 'property', '집', '주택', '아파트'] },
@@ -1304,6 +1341,19 @@
     var slideCapitalState = useState(propCapital || 5000);
     var slideCapital = slideCapitalState[0], setSlideCapital = slideCapitalState[1];
     useEffect(function () { if (propCapital) setSlideCapital(propCapital); }, [propCapital]);
+
+    // Dynamic slider max — for subscription goals with large forever numbers (e.g. rent ~$390k)
+    // the fixed 50k max would clamp the initial value and make the slider useless.
+    // Cap at $2M to prevent degenerate APYs from producing absurd ranges.
+    var capitalSliderMax = useMemo(function () {
+      if (archetype === 'subscription' && targetAmt && apy > 0) {
+        var fn = foreverNumber(targetAmt, apy);
+        if (isFinite(fn) && fn > 0) {
+          return Math.min(2000000, Math.ceil(fn * 2 / 1000) * 1000);
+        }
+      }
+      return 50000;
+    }, [archetype, targetAmt, apy]);
 
     var ladderDates = useMemo(function () {
       if (!isCapitalPath || !targetAmt) return null;
@@ -2152,6 +2202,13 @@
       ? e('p', { className: 'gp-preset-intro gp-bloom-intro gp-animate-in' }, t('presetIntro', props.presetName))
       : null;
 
+    // Risk-first caveats — always shown, lead before plan content.
+    // caveatRates: rates change daily. caveatHack: no protocol is hack-proof (new trust-rail addition).
+    var caveatElement = e('div', { className: 'gp-bloom-caveats gp-animate-in' },
+      e('p', { className: 'gp-caveat gp-caveat-rates' }, t('caveatRates')),
+      e('p', { className: 'gp-caveat gp-caveat-hack' }, t('caveatHack'))
+    );
+
     // --- Waitlist modal ---
     var waitlistMixLabels = selectedSubs.map(function (sid) {
       var found4 = null;
@@ -2292,10 +2349,11 @@
     ) : null;
 
     if (archetype === 'subscription') {
-      // Subscription: hero → YOUR PLAN card → engine → CTA → ask → foot → modal
+      // Subscription: hero → caveats → YOUR PLAN card → engine → CTA → ask → foot → modal
       return e('div', { className: 'gp-bloom' },
         presetIntro,
         heroElement,
+        caveatElement,
         planCardElement,
         engineElement,
         ctaElement,
@@ -2305,12 +2363,13 @@
       );
     }
 
-    // Target / Growth: hero → plan-strip → 1b → chart → make-it-yours → engine → CTA → ask → foot → modal
+    // Target / Growth: hero → caveats → plan-strip → 1b → chart → make-it-yours → engine → CTA → ask → foot → modal
     return e('div', { className: 'gp-bloom' },
       presetIntro,
 
       // 1. HERO ANSWER
       heroElement,
+      caveatElement,
 
       // Editable plan summary strip
       e('div', { className: 'gp-plan-strip gp-animate-in' },
@@ -2359,7 +2418,14 @@
         targetAmt ? e('p', null, t('comparisonCreditCard', goalLabel(t, goal), formatUsdRounded(targetAmt * (1 + 0.24 / 2 * (12 + 1) / 12)))) : null,
         (isCapitalPath && ladderDates && monthsFromNow(ladderDates[pk]))
           ? e('p', null, t('comparisonMoneyGone', formatUsdRounded(targetAmt), monthsFromNow(ladderDates[pk]), goalLabel(t, goal)))
-          : null
+          : null,
+        (isCapitalPath && targetAmt) ? (function () {
+          var goalScaled = Math.max(25, Math.round(targetAmt / 20));
+          var sd = disciplinedSpeedup({ capital: slideCapital, monthly: goalScaled, annualRatePct: apy, target: targetAmt });
+          return (sd.monthsSooner > 0)
+            ? e('p', { className: 'gp-comparison-speedup' }, t('speedupDisciplined', formatUsd(goalScaled), sd.monthsSooner))
+            : null;
+        })() : null
       ) : null,
 
       // 2. INTERACTIVE CHART (hidden for capital-funded target — no monthly contribution to chart)
@@ -2387,7 +2453,7 @@
             ),
             e('input', {
               type: 'range',
-              min: 1000, max: 50000, step: 500,
+              min: 1000, max: capitalSliderMax, step: capitalSliderMax > 50000 ? 1000 : 500,
               className: 'gp-slider',
               value: slideCapital,
               'aria-label': 'Capital',
@@ -3280,10 +3346,10 @@
           e('div', { className: 'gp-goal-groups' },
             (function () {
               var activeCats = [
-                { catKey: 'catSubscriptions', catId: 'subscription' }
-                // Temporarily hidden — re-enable to restore Gadgets / Big goals:
-                // { catKey: 'catGadgets', catId: 'gadget' },
-                // { catKey: 'catLife',    catId: 'life' }
+                { catKey: 'catSubscriptions', catId: 'subscription' },
+                { catKey: 'catBills',         catId: 'bills' },
+                { catKey: 'catGadgets',       catId: 'gadget' },
+                { catKey: 'catLife',          catId: 'life' }
               ];
               return activeCats.map(function (cat) {
                 var catGoals = GOALS.filter(function (g) { return g.category === cat.catId; });
@@ -3661,7 +3727,10 @@
     reportStats: reportStats,
     coveredBundle: coveredBundle,
     joinBundle: joinBundle,
-    mixStats: mixStats
+    mixStats: mixStats,
+    disciplinedSpeedup: disciplinedSpeedup,
+    GOALS: GOALS,
+    goalArchetype: goalArchetype
   };
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;

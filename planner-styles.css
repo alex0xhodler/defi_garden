@@ -2301,3 +2301,40 @@
   letter-spacing: 0.06em;
   white-space: nowrap;
 }
+
+/* Risk-first caveats — quiet education, not alarm */
+.gp-bloom-caveats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 8px 0 12px;
+}
+.gp-caveat {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-normal);
+  padding: 8px 12px;
+  border-radius: var(--neuro-radius-sm);
+  box-shadow: var(--neuro-shadow-flat);
+  margin: 0;
+}
+.gp-caveat-hack {
+  /* Hack caveat gets a subtle left border to distinguish protocol risk from rate risk */
+  border-left: 2px solid var(--color-text-secondary);
+  padding-left: 10px;
+  opacity: 0.85;
+}
+@media (prefers-reduced-motion: reduce) {
+  .gp-bloom-caveats { animation: none; }
+}
+
+/* Disciplined speed-up line — positive framing, same quiet style as comparison */
+.gp-comparison-speedup {
+  font-size: 0.85rem;
+  padding: 10px 14px;
+  border-radius: var(--neuro-radius-sm);
+  box-shadow: var(--neuro-shadow-flat);
+  margin: 0;
+  line-height: 1.45;
+  font-style: italic;
+}
