@@ -1480,12 +1480,6 @@
     var waitlistStatus = waitlistStatusState[0], setWaitlistStatus = waitlistStatusState[1];
     var referralHandleState = useState('');
     var referralHandle = referralHandleState[0], setReferralHandle = referralHandleState[1];
-    var refCheckState = useState('idle');
-    var refCheck = refCheckState[0], setRefCheck = refCheckState[1];
-    var referralCopiedState = useState(false);
-    var referralCopied = referralCopiedState[0], setReferralCopied = referralCopiedState[1];
-    // Timer ref for fake referral validation debounce
-    var refCheckTimerRef = useRef(null);
 
     // Close waitlist on Escape key
     useEffect(function () {
@@ -1499,33 +1493,6 @@
 
     function sanitizeHandle(raw) {
       return String(raw || '').toLowerCase().replace(/[^a-z0-9.\-_]/g, '').slice(0, 30);
-    }
-
-    function handleReferralChange(ev) {
-      var cleaned = sanitizeHandle(ev.target.value);
-      setReferralHandle(cleaned);
-      setRefCheck('checking');
-      if (refCheckTimerRef.current) clearTimeout(refCheckTimerRef.current);
-      refCheckTimerRef.current = setTimeout(function () {
-        setRefCheck('ok');
-      }, 500);
-    }
-
-    function handleReferralCopy() {
-      var link = 'https://defi.garden/referral=' + referralHandle;
-      try {
-        navigator.clipboard.writeText(link).then(function () {
-          setReferralCopied(true);
-          setTimeout(function () { setReferralCopied(false); }, 2000);
-        }).catch(function () { legacyCopy(link); });
-      } catch (e2) { legacyCopy(link); }
-      function legacyCopy(txt) {
-        var ta = document.createElement('textarea');
-        ta.value = txt; document.body.appendChild(ta); ta.select();
-        document.execCommand('copy'); document.body.removeChild(ta);
-        setReferralCopied(true);
-        setTimeout(function () { setReferralCopied(false); }, 2000);
-      }
     }
 
     function submitWaitlist(ev) {
@@ -1561,7 +1528,6 @@
       }).then(function (res) {
         if (res.ok) {
           setReferralHandle(derived);
-          setRefCheck('ok');
           setWaitlistStep(2);
           setWaitlistStatus('idle');
         } else {
@@ -2218,16 +2184,6 @@
       return found4 ? t(found4.labelKey) : sid;
     });
     var waitlistLabelStr = joinBundle(waitlistMixLabels) || goalLabel(t, goal);
-    var referralLink = 'https://defi.garden/referral=' + referralHandle;
-
-    // Deterministic waitlist position derived from submitted email (stable across renders)
-    var waitlistPosition = (function () {
-      var email = waitlistEmail || '';
-      var h = 0;
-      for (var ci = 0; ci < email.length; ci++) { h = (h * 31 + email.charCodeAt(ci)) >>> 0; }
-      return 1200 + (h % 7800);
-    }());
-    var waitlistPositionStr = Number(waitlistPosition).toLocaleString('en-US');
 
     // Email validation for disable logic
     var emailValid = /^\S+@\S+\.\S+$/.test(waitlistEmail);
@@ -2284,7 +2240,7 @@
                 )
               )
             )
-          // --- Step 2: accepted + referral + share ---
+          // --- Step 2: accepted + share ---
           : e('div', { className: 'gp-waitlist-body' },
               e('div', { className: 'gp-waitlist-step-row' },
                 e('h2', { className: 'gp-waitlist-title' }, t('waitlistAccepted')),
@@ -2292,44 +2248,7 @@
               ),
               e('p', { className: 'gp-waitlist-next-steps' }, t('waitlistNextSteps')),
 
-              // Waitlist position + skip incentive
-              e('div', { className: 'gp-waitlist-position' },
-                e('span', { className: 'gp-waitlist-position-number' }, t('waitlistPosition', waitlistPositionStr)),
-                e('span', { className: 'gp-waitlist-position-skip' }, t('waitlistSkip'))
-              ),
-
               e('p', { className: 'gp-waitlist-jump-line' }, t('waitlistJumpLine')),
-
-              // Referral handle editor
-              e('div', { className: 'gp-waitlist-referral-section' },
-                e('label', { className: 'gp-waitlist-label', htmlFor: 'gp-referral-handle' },
-                  t('referralHandleLabel')
-                ),
-                e('div', { className: 'gp-waitlist-referral-row' },
-                  e('input', {
-                    id: 'gp-referral-handle',
-                    type: 'text',
-                    className: 'gp-waitlist-handle-input',
-                    value: referralHandle,
-                    maxLength: 30,
-                    onChange: handleReferralChange
-                  }),
-                  e('span', { className: 'gp-waitlist-ref-check' },
-                    refCheck === 'checking' ? t('referralValidating')
-                      : refCheck === 'ok' ? e('span', { className: 'gp-ref-valid' }, t('referralValid'))
-                      : null
-                  )
-                ),
-                e('div', { className: 'gp-waitlist-label' }, t('referralLinkLabel')),
-                e('div', { className: 'gp-waitlist-link-row' },
-                  e('span', { className: 'gp-waitlist-link-text' }, referralLink),
-                  e('button', {
-                    type: 'button',
-                    className: 'gp-waitlist-copy-btn',
-                    onClick: handleReferralCopy
-                  }, referralCopied ? t('referralCopied') : t('referralCopy'))
-                )
-              ),
 
               // Share actions — primary (Share on X) first, secondary (Download) second
               e('div', { className: 'gp-waitlist-share-row' },
