@@ -2349,14 +2349,14 @@
     ) : null;
 
     if (archetype === 'subscription') {
-      // Subscription: hero → caveats → YOUR PLAN card → engine → CTA → ask → foot → modal
+      // Subscription: hero → caveats → YOUR PLAN card → CTA → engine → ask → foot → modal
       return e('div', { className: 'gp-bloom' },
         presetIntro,
         heroElement,
         caveatElement,
         planCardElement,
-        engineElement,
         ctaElement,
+        engineElement,
         askElement,
         footElement,
         waitlistModal
@@ -2506,11 +2506,11 @@
         )
       ),
 
-      // 4. ENGINE ROOM
-      engineElement,
-
-      // 5. PRIMARY CTA
+      // 4. PRIMARY CTA
       ctaElement,
+
+      // 5. ENGINE ROOM
+      engineElement,
 
       // 6. ASK BOX
       askElement,
@@ -3577,7 +3577,11 @@
           e('p', { className: 'gp-question' }, t('step2Question', goalLabel(t, answers.goal))),
           e(Chips, {
             selected: answers.monthly, wrap: true,
-            options: monthlyChips.map(function (v) { return { value: v, label: formatUsd(v) }; }),
+            options: monthlyChips.map(function (v) {
+              var hintYears = answers.years || (arch === 'growth' ? 5 : 2);
+              var hintAmt = futureValue(v, guidanceApy, hintYears);
+              return { value: v, label: formatUsd(v), hint: t('monthlyChipHint', formatUsdRounded(hintAmt), hintYears) };
+            }),
             onPick: pickMonthly,
             onHover: setHoveredAmount,
             onHoverEnd: function() { setHoveredAmount(null); }
@@ -3623,11 +3627,18 @@
           e('button', { type: 'button', className: 'gp-cta gp-slider-confirm', onClick: function () { pickYears(answers.years || 5); } }, '→')
         );
       } else if (step === 'temperament') {
+        var tempYears = answers.years || 3;
         var cards = [
           { id: 'stable', emoji: '🏦', title: t('personaStableTitle'), desc: t('personaStableDesc'), risk: t('personaStableRisk') },
           { id: 'rwa',    emoji: '🏛️', title: t('personaRwaTitle'),    desc: t('personaRwaDesc'),    risk: t('personaRwaRisk') },
           { id: 'degen',  emoji: '🔥', title: t('personaDegenTitle'),  desc: t('personaDegenDesc'),  risk: t('personaDegenRisk') }
-        ];
+        ].map(function (card) {
+          var curated = curatePools(pools, card.id, 3);
+          var eff = effectiveApy(curated, card.id);
+          var projAmt = (eff > 0 && answers.monthly) ? futureValue(answers.monthly, eff, tempYears) : null;
+          var proj = projAmt ? t('personaProj', formatUsdRounded(projAmt), tempYears, eff.toFixed(1)) : null;
+          return Object.assign({}, card, { proj: proj });
+        });
         // Pre-select stable for target/subscription archetypes
         var preSelected = answers.persona || (skipHorizon ? 'stable' : null);
 
@@ -3643,6 +3654,7 @@
                 e('div', { className: 'gp-temp-emoji' }, card.emoji),
                 e('div', { className: 'gp-temp-title' }, card.title),
                 e('div', { className: 'gp-temp-desc' }, card.desc),
+                card.proj ? e('div', { className: 'gp-temp-proj' }, card.proj) : null,
                 e('div', { className: 'gp-temp-risk' }, card.risk)
               );
             })

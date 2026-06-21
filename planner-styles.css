@@ -333,6 +333,12 @@
   color: var(--color-text);
   line-height: var(--line-height-normal);
 }
+.gp-temp-proj {
+  font-size: var(--font-size-xs);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: -0.01em;
+}
 .gp-temp-risk {
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);

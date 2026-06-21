@@ -1029,4 +1029,51 @@ test('korean 시계 -> watches', function () {
   assert.strictEqual(gp.matchGoalFromText('고급 시계 사고 싶어'), 'watches');
 });
 
+// ---------------------------------------------------------------------------
+// translations — personaProj and monthlyChipHint keys (Proposals 3 & 4)
+// ---------------------------------------------------------------------------
+const { translations: tr2 } = require('./translations.js');
+const enP2 = tr2.en.planner;
+const koP2 = tr2.ko.planner;
+
+console.log('\ntranslations: personaProj');
+test('personaProj exists in EN as a function', function () {
+  assert.strictEqual(typeof enP2.personaProj, 'function');
+});
+test('personaProj EN: contains amount, years, apy', function () {
+  const s = enP2.personaProj('$16k', 5, '5.4');
+  assert.ok(s.includes('$16k'), 'missing amount: ' + s);
+  assert.ok(s.includes('5'), 'missing years: ' + s);
+  assert.ok(s.includes('5.4'), 'missing apy: ' + s);
+});
+test('personaProj KO: exists as a function', function () {
+  assert.strictEqual(typeof koP2.personaProj, 'function');
+});
+test('personaProj KO: contains amount', function () {
+  const s = koP2.personaProj('$16k', 5, '5.4');
+  assert.ok(s.includes('$16k'), 'missing amount in KO: ' + s);
+});
+test('personaProj KO: different string from EN', function () {
+  const en = enP2.personaProj('$16k', 5, '5.4');
+  const ko = koP2.personaProj('$16k', 5, '5.4');
+  assert.notStrictEqual(en, ko, 'KO should differ from EN');
+});
+
+console.log('\ntranslations: monthlyChipHint');
+test('monthlyChipHint exists in EN as a function', function () {
+  assert.strictEqual(typeof enP2.monthlyChipHint, 'function');
+});
+test('monthlyChipHint EN: contains amount and years', function () {
+  const s = enP2.monthlyChipHint('$16k', 5);
+  assert.ok(s.includes('$16k'), 'missing amount: ' + s);
+  assert.ok(s.includes('5'), 'missing years: ' + s);
+});
+test('monthlyChipHint KO: exists as a function', function () {
+  assert.strictEqual(typeof koP2.monthlyChipHint, 'function');
+});
+test('monthlyChipHint KO: contains amount', function () {
+  const s = koP2.monthlyChipHint('$16k', 5);
+  assert.ok(s.includes('$16k'), 'missing amount in KO: ' + s);
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');
