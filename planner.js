@@ -3578,7 +3578,8 @@
           e(Chips, {
             selected: answers.monthly, wrap: true,
             options: monthlyChips.map(function (v) {
-              var hintYears = answers.years || (arch === 'growth' ? 5 : 2);
+              if (arch !== 'growth') return { value: v, label: formatUsd(v) };
+              var hintYears = answers.years || 5;
               var hintAmt = futureValue(v, guidanceApy, hintYears);
               return { value: v, label: formatUsd(v), hint: t('monthlyChipHint', formatUsdRounded(hintAmt), hintYears) };
             }),
@@ -3636,7 +3637,7 @@
           var curated = curatePools(pools, card.id, 3);
           var eff = effectiveApy(curated, card.id);
           var projAmt = (eff > 0 && answers.monthly) ? futureValue(answers.monthly, eff, tempYears) : null;
-          var proj = projAmt ? t('personaProj', formatUsdRounded(projAmt), tempYears, eff.toFixed(1)) : null;
+          var proj = projAmt ? t('personaProj', formatUsdRounded(projAmt), tempYears, parseFloat(eff.toFixed(1))) : null;
           return Object.assign({}, card, { proj: proj });
         });
         // Pre-select stable for target/subscription archetypes

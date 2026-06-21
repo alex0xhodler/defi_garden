@@ -1041,9 +1041,9 @@ test('personaProj exists in EN as a function', function () {
   assert.strictEqual(typeof enP2.personaProj, 'function');
 });
 test('personaProj EN: contains amount, years, apy', function () {
-  const s = enP2.personaProj('$16k', 5, '5.4');
+  const s = enP2.personaProj('$16k', 3, '5.4');
   assert.ok(s.includes('$16k'), 'missing amount: ' + s);
-  assert.ok(s.includes('5'), 'missing years: ' + s);
+  assert.ok(s.includes('3'), 'missing years: ' + s);
   assert.ok(s.includes('5.4'), 'missing apy: ' + s);
 });
 test('personaProj KO: exists as a function', function () {
@@ -1074,6 +1074,10 @@ test('monthlyChipHint KO: exists as a function', function () {
 test('monthlyChipHint KO: contains amount', function () {
   const s = koP2.monthlyChipHint('$16k', 5);
   assert.ok(s.includes('$16k'), 'missing amount in KO: ' + s);
+});
+test('monthlyChipHint KO: contains years', function () {
+  const s = koP2.monthlyChipHint('$16k', 5);
+  assert.ok(s.includes('5'), 'missing years in KO: ' + s);
 });
 
 console.log('\nAll ' + passed + ' assertions evaluated.');
