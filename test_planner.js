@@ -1029,4 +1029,94 @@ test('korean 시계 -> watches', function () {
   assert.strictEqual(gp.matchGoalFromText('고급 시계 사고 싶어'), 'watches');
 });
 
+// ---------------------------------------------------------------------------
+// waitlist conversion copy — ICP alignment (no jargon, no fake position)
+// ---------------------------------------------------------------------------
+console.log('waitlist copy — ICP alignment');
+// Planner-specific translations live under translations[lang].planner
+// This mirrors makeT() in planner.js which reads translations[lang].planner[key]
+const { translations: tr } = require('./translations.js');
+const enP = tr.en.planner;
+const koP = tr.ko.planner;
+// Thin wrapper matching makeT() so tests read naturally
+function tEn(key, ...args) {
+  const v = enP[key];
+  return (typeof v === 'function') ? v(...args) : (v != null ? v : key);
+}
+function tKo(key, ...args) {
+  const v = koP[key];
+  if (v != null) return (typeof v === 'function') ? v(...args) : v;
+  // fallback to en
+  const fb = enP[key];
+  return (typeof fb === 'function') ? fb(...args) : (fb != null ? fb : key);
+}
+
+test('EN ctaWaitlistMicro has no crypto jargon (no "self-custody" or "keys")', function () {
+  const micro = tEn('ctaWaitlistMicro');
+  assert.ok(!micro.toLowerCase().includes('self-custody'), 'should not say self-custody: ' + micro);
+  assert.ok(!micro.toLowerCase().includes('your keys'), 'should not say "your keys": ' + micro);
+  assert.ok(micro.toLowerCase().includes('free'), 'should mention free: ' + micro);
+});
+
+test('EN waitlistBenefits does not mention jargon ("self-custody", "hold the keys", "disposable cards")', function () {
+  const b = tEn('waitlistBenefits');
+  assert.ok(!b.toLowerCase().includes('self-custody'), 'should not say self-custody: ' + b);
+  assert.ok(!b.toLowerCase().includes('hold the keys'), 'should not say hold the keys: ' + b);
+  assert.ok(!b.toLowerCase().includes('disposable cards'), 'should not say disposable cards: ' + b);
+});
+
+test('EN waitlistTitle is not generic "Get early access"', function () {
+  const t2 = tEn('waitlistTitle');
+  assert.ok(t2 !== 'Get early access', 'title should not be generic "Get early access": ' + t2);
+  assert.ok(t2.length > 3, 'title should be non-empty: ' + t2);
+});
+
+test('EN waitlistJoin button text is action-oriented (not just "Join the waitlist")', function () {
+  const j = tEn('waitlistJoin');
+  assert.ok(j !== 'Join the waitlist', 'submit should not be generic "Join the waitlist": ' + j);
+});
+
+test('EN waitlistNextSteps does not include onboarding step-by-step (cognitive overload)', function () {
+  const ns = tEn('waitlistNextSteps');
+  assert.ok(!ns.includes('fund your wallet →'), 'should not front-load wallet setup steps: ' + ns);
+  assert.ok(!ns.includes('create disposable cards'), 'should not mention cards yet: ' + ns);
+  assert.ok(ns.toLowerCase().includes('email'), 'should mention email notification: ' + ns);
+});
+
+test('EN waitlistNextSteps mentions setup time (sets expectation)', function () {
+  const ns = tEn('waitlistNextSteps');
+  assert.ok(ns.includes('10 minutes'), 'should set time expectation: ' + ns);
+});
+
+test('KO ctaWaitlistMicro has no Korean jargon (no "셀프 커스터디" or "키 보유")', function () {
+  const micro = tKo('ctaWaitlistMicro');
+  assert.ok(!micro.includes('셀프 커스터디'), 'should not say 셀프 커스터디: ' + micro);
+  assert.ok(!micro.includes('키 보유'), 'should not say 키 보유: ' + micro);
+  assert.ok(micro.includes('무료'), 'should mention 무료 (free): ' + micro);
+});
+
+test('KO waitlistBenefits does not mention jargon ("셀프 커스터디", "일회용 카드")', function () {
+  const b = tKo('waitlistBenefits');
+  assert.ok(!b.includes('셀프 커스터디'), 'should not say 셀프 커스터디: ' + b);
+  assert.ok(!b.includes('일회용 카드'), 'should not say 일회용 카드 at this stage: ' + b);
+});
+
+test('KO waitlistNextSteps mentions email (이메일) not wallet setup', function () {
+  const ns = tKo('waitlistNextSteps');
+  assert.ok(ns.includes('이메일'), 'should mention 이메일: ' + ns);
+  assert.ok(!ns.includes('지갑에 입금'), 'should not include 지갑에 입금 step: ' + ns);
+});
+
+test('KO waitlistTitle is not generic ("얼리 액세스 신청")', function () {
+  const t2 = tKo('waitlistTitle');
+  assert.ok(t2 !== '얼리 액세스 신청', 'KO title should not be generic "얼리 액세스 신청": ' + t2);
+  assert.ok(t2.length > 2, 'KO title should be non-empty: ' + t2);
+});
+
+test('EN waitlistJumpLine does not contain fake urgency ("jump the line")', function () {
+  const jl = tEn('waitlistJumpLine');
+  assert.ok(!jl.toLowerCase().includes('jump the line'), 'should not say "jump the line": ' + jl);
+  assert.ok(jl.length > 5, 'jump line should not be empty: ' + jl);
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');

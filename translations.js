@@ -408,20 +408,20 @@ const translations = {
 
       // Waitlist CTA
       ctaWaitlist: "Join the waitlist →",
-      ctaWaitlistMicro: "Early access • Self-custody • Your keys",
+      ctaWaitlistMicro: "Free to join • No wallet needed yet • One email when ready",
 
       // Waitlist modal — step 1
-      waitlistTitle: "Get early access",
-      waitlistBenefits: "A self-custody wallet you fund and hold the keys to. Spin up disposable cards that pay your chosen subscriptions from your deposit — the yield covers the bills. You keep every dollar.",
+      waitlistTitle: "Save your spot",
+      waitlistBenefits: "Join the early access list — we'll email you when your spot is ready. No wallet or crypto experience needed to sign up.",
       waitlistGarden: (labels, monthly) => `Your garden already covers ${labels} — ≈${monthly}/mo paid from yield forever.`,
-      waitlistJoin: "Join the waitlist",
+      waitlistJoin: "Save my spot",
       waitlistEmailPlaceholder: "your@email.com",
       waitlistError: "Something went wrong — please try again.",
 
       // Waitlist modal — step 2
       waitlistAccepted: "You're on the list 🌱",
-      waitlistNextSteps: "Once you're accepted: fund your wallet → create disposable cards → point them at your subscriptions → your yield pays the bills. You keep the principal.",
-      waitlistJumpLine: "Share your garden to jump the line.",
+      waitlistNextSteps: "We'll email you when your spot opens up. Setup takes about 10 minutes and we walk you through every step.",
+      waitlistJumpLine: "Share your plan and help a friend join too.",
 
       // Referral
       referralHandleLabel: "Your referral handle",
@@ -436,10 +436,6 @@ const translations = {
       shareTweet: (labels) => `My yield pays for ${labels} — forever 🌱 Join me on DeFi Garden:`,
       downloadCard: "Download garden card",
       waitlistClose: "Close",
-
-      // Waitlist — position + skip
-      waitlistPosition: function (n) { return 'You\'re #' + n + ' in line'; },
-      waitlistSkip: "Each share moves you ahead.",
 
       // Waitlist — email step
       waitlistNoSpam: "No spam — one email when it's your turn.",
@@ -841,20 +837,20 @@ const translations = {
 
       // Waitlist CTA
       ctaWaitlist: "대기자 명단에 등록 →",
-      ctaWaitlistMicro: "얼리 액세스 • 셀프 커스터디 • 내 키 보유",
+      ctaWaitlistMicro: "무료 가입 • 아직 지갑 불필요 • 준비되면 이메일 한 통",
 
       // Waitlist modal — step 1
-      waitlistTitle: "얼리 액세스 신청",
-      waitlistBenefits: "직접 키를 보유하는 셀프 커스터디 지갑이에요. 원하는 구독료를 내주는 일회용 카드를 만들어 — 수익이 요금을 대신 내줘요. 원금은 그대로 남아요.",
+      waitlistTitle: "자리 확보하기",
+      waitlistBenefits: "얼리 액세스 명단에 등록하면 자리가 생길 때 이메일로 알려드려요. 가입에 지갑이나 크립토 경험은 필요 없어요.",
       waitlistGarden: (labels, monthly) => `내 정원은 이미 ${labels}를 커버해요 — 수익으로 매달 ≈${monthly}씩 영구히 내줄 수 있어요.`,
-      waitlistJoin: "대기자 명단 등록",
+      waitlistJoin: "자리 확보",
       waitlistEmailPlaceholder: "이메일@주소.com",
       waitlistError: "오류가 발생했어요 — 다시 시도해 주세요.",
 
       // Waitlist modal — step 2
       waitlistAccepted: "명단에 등록됐어요 🌱",
-      waitlistNextSteps: "승인되면: 지갑에 입금 → 일회용 카드 생성 → 구독 서비스에 연결 → 수익이 요금을 내줘요. 원금은 그대로예요.",
-      waitlistJumpLine: "내 정원을 공유하면 순서가 빨라져요.",
+      waitlistNextSteps: "자리가 생기면 이메일로 알려드려요. 설정은 약 10분이면 되고 단계별로 안내해드려요.",
+      waitlistJumpLine: "플랜을 공유해서 친구도 함께 초대해요.",
 
       // Referral
       referralHandleLabel: "추천인 핸들",
@@ -871,9 +867,6 @@ const translations = {
       waitlistClose: "닫기",
 
       // Waitlist — position + skip
-      waitlistPosition: function (n) { return '대기 순번 #' + n + '이에요'; },
-      waitlistSkip: "공유할 때마다 순번이 올라가요.",
-
       // Waitlist — email step
       waitlistNoSpam: "스팸 없어요 — 순서가 되면 이메일 한 통만 보내드려요.",
 
