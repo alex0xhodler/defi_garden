@@ -197,6 +197,7 @@ const translations = {
       trustYourKeys: "Your keys",
       trustWithdraw: "Withdraw anytime",
       checkoutNote: "Live rates from DefiLlama · Education, not advice",
+      riskEdit: "Customize",
       tempChosen: (t) => `${t} pace`,
 
       // Backward compat aliases for old temperament keys
@@ -661,6 +662,7 @@ const translations = {
       trustYourKeys: "내 키",
       trustWithdraw: "언제든 출금",
       checkoutNote: "DefiLlama 실시간 데이터 · 교육 목적, 금융 조언 아님",
+      riskEdit: "설정",
       tempChosen: (t) => `${t} 속도`,
 
       tempSleepTitle: "검증된 스테이블코인",

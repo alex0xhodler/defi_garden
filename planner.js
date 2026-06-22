@@ -1479,6 +1479,15 @@
     // YOUR PLAN card — risk dropdown open state
     var riskOpenState = useState(false);
     var riskOpen = riskOpenState[0], setRiskOpen = riskOpenState[1];
+    // risk row expanded (collapsed by default)
+    var riskExpandedState = useState(false);
+    var riskExpanded = riskExpandedState[0], setRiskExpanded = riskExpandedState[1];
+    // engine expanded (collapsed by default)
+    var engineOpenState = useState(false);
+    var engineOpen = engineOpenState[0], setEngineOpen = engineOpenState[1];
+    // growth/target customize expanded (collapsed by default)
+    var makeitExpandedState = useState(false);
+    var makeitExpanded = makeitExpandedState[0], setMakeitExpanded = makeitExpandedState[1];
 
     // Waitlist modal state
     var waitlistOpenState = useState(false);
@@ -1957,15 +1966,18 @@
       );
     })() : null;
 
+    // Shared persona options + risk label (used in plan card, makeit compact, and engine)
+    var sharedPersonaOptions = [
+      { key: 'stable', shortKey: 'personaStableShort', titleKey: 'personaStableTitle' },
+      { key: 'rwa',    shortKey: 'personaRwaShort',    titleKey: 'personaRwaTitle' },
+      { key: 'degen',  shortKey: 'personaDegenShort',  titleKey: 'personaDegenTitle' }
+    ];
+    var sharedCurrentPersonaOpt = sharedPersonaOptions.filter(function (p) { return p.key === pk; })[0] || sharedPersonaOptions[0];
+    var currentRiskLabel = t(sharedCurrentPersonaOpt.shortKey);
+
     // YOUR PLAN card — subscription-only consolidated control block
     var planCardElement = archetype === 'subscription' ? (function () {
-      var personaOptions = [
-        { key: 'stable', shortKey: 'personaStableShort', titleKey: 'personaStableTitle' },
-        { key: 'rwa',    shortKey: 'personaRwaShort',    titleKey: 'personaRwaTitle' },
-        { key: 'degen',  shortKey: 'personaDegenShort',  titleKey: 'personaDegenTitle' }
-      ];
-      var currentPersonaOpt = personaOptions.filter(function (p) { return p.key === pk; })[0] || personaOptions[0];
-      var currentRiskLabel = t(currentPersonaOpt.shortKey);
+      var personaOptions = sharedPersonaOptions;
 
       return e('div', { className: 'gp-plan-card gp-animate-in' },
         e('div', { className: 'gp-plan-card-title' }, t('planCardTitle')),
@@ -1977,59 +1989,62 @@
 
         e('div', { className: 'gp-plan-card-divider' }),
 
-        // 2. Risk dropdown
-        e('div', { className: 'gp-plan-risk' },
-          e('span', { className: 'gp-plan-risk-label' }, t('riskLabel')),
-          e('div', { style: { position: 'relative' } },
-            e('button', {
-              type: 'button',
-              className: 'gp-risk-toggle',
-              'aria-haspopup': 'listbox',
-              'aria-expanded': riskOpen ? 'true' : 'false',
-              onClick: function () { setRiskOpen(function (v) { return !v; }); },
-              onKeyDown: function (ev) {
-                if (ev.key === 'Escape') { setRiskOpen(false); }
-              }
-            },
-              currentRiskLabel, ' ▾'
-            ),
-            riskOpen ? e('div', {
-              className: 'gp-risk-menu',
-              role: 'listbox',
-              'aria-label': t('riskLabel')
-            },
-              personaOptions.map(function (p) {
-                var isSelected = pk === p.key;
-                return e('button', {
-                  key: p.key,
+        // 2. Risk — compact trigger (collapsed by default), expands to full selector
+        riskExpanded
+          ? e('div', { className: 'gp-plan-risk' },
+              e('span', { className: 'gp-plan-risk-label' }, t('riskLabel')),
+              e('div', { style: { position: 'relative' } },
+                e('button', {
                   type: 'button',
-                  role: 'option',
-                  'aria-selected': isSelected ? 'true' : 'false',
-                  className: 'gp-risk-option' + (isSelected ? ' is-selected' : ''),
-                  onClick: function () {
-                    if (props.onWhatIf) props.onWhatIf('persona:' + p.key);
-                    setRiskOpen(false);
-                  },
-                  onKeyDown: function (ev) {
-                    if (ev.key === 'Escape') { setRiskOpen(false); }
-                  }
+                  className: 'gp-risk-toggle',
+                  'aria-haspopup': 'listbox',
+                  'aria-expanded': riskOpen ? 'true' : 'false',
+                  onClick: function () { setRiskOpen(function (v) { return !v; }); },
+                  onKeyDown: function (ev) { if (ev.key === 'Escape') setRiskOpen(false); }
+                }, currentRiskLabel, ' ▾'),
+                riskOpen ? e('div', {
+                  className: 'gp-risk-menu', role: 'listbox', 'aria-label': t('riskLabel')
                 },
-                  e('span', { className: 'gp-risk-option-short' }, t(p.shortKey)),
-                  e('span', { className: 'gp-risk-option-title' }, t(p.titleKey))
-                );
-              })
-            ) : null
-          )
-        )
+                  personaOptions.map(function (p) {
+                    var isSelected = pk === p.key;
+                    return e('button', {
+                      key: p.key, type: 'button', role: 'option',
+                      'aria-selected': isSelected ? 'true' : 'false',
+                      className: 'gp-risk-option' + (isSelected ? ' is-selected' : ''),
+                      onClick: function () { if (props.onWhatIf) props.onWhatIf('persona:' + p.key); setRiskOpen(false); },
+                      onKeyDown: function (ev) { if (ev.key === 'Escape') setRiskOpen(false); }
+                    },
+                      e('span', { className: 'gp-risk-option-short' }, t(p.shortKey)),
+                      e('span', { className: 'gp-risk-option-title' }, t(p.titleKey))
+                    );
+                  })
+                ) : null
+              )
+            )
+          : e('button', { type: 'button', className: 'gp-plan-risk-compact',
+              onClick: function () { setRiskExpanded(true); setRiskOpen(true); }
+            },
+              e('span', { className: 'gp-plan-risk-compact-label' }, t('riskLabel') + ' · ' + currentRiskLabel),
+              e('span', { className: 'gp-plan-risk-edit-link' }, t('riskEdit'))
+            )
       );
     })() : null;
 
-    // Engine room element (shared)
+    // Engine room element (shared) — collapsed by default
     var engineElement = e('div', { className: 'gp-pools gp-animate-in' },
-      e('div', { className: 'gp-pools-heading' },
-        t('poolsHeading'),
-        e('span', { className: 'gp-blended-badge' }, t('blendedBadge', formatApy(apy)))
+      e('button', {
+        type: 'button',
+        className: 'gp-pools-toggle',
+        onClick: function () { setEngineOpen(function (v) { return !v; }); },
+        'aria-expanded': engineOpen ? 'true' : 'false'
+      },
+        e('div', { className: 'gp-pools-heading' },
+          t('poolsHeading'),
+          e('span', { className: 'gp-blended-badge' }, t('blendedBadge', formatApy(apy)))
+        ),
+        e('span', { className: 'gp-engine-chevron' + (engineOpen ? ' is-open' : '') }, '▾')
       ),
+      engineOpen ? e('div', { className: 'gp-engine-body' },
       isDegenPersona ? e('div', { className: 'gp-degen-warning' },
         t('degenHaircutNote', formatApy(rawApy))
       ) : null,
@@ -2149,6 +2164,7 @@
               );
             })
           )
+      ) : null // close engineOpen body
     );
 
     // CTA element (shared) — opens waitlist modal
@@ -2361,10 +2377,35 @@
 
     // Checkout summary panel — price-anchor layout (right column desktop, first mobile)
     var checkoutGoalDef = goalById(goal);
+    // Service name: reactive to selectedSubs for subscription
+    var chkServiceEmoji, chkServiceName;
+    if (archetype === 'subscription') {
+      var chkLdr = subscriptionLadder(goal);
+      if (currentMixStats && currentMixStats.count >= 1) {
+        var chkLabels = currentMixStats.ids.map(function (id) {
+          for (var ci = 0; ci < chkLdr.length; ci++) {
+            if (chkLdr[ci].id === id) return t(chkLdr[ci].labelKey);
+          }
+          var cg = goalById(id);
+          return cg ? goalLabel(t, id) : id;
+        });
+        chkServiceName = chkLabels.length > 2
+          ? chkLabels[0] + ' + ' + chkLabels[1] + ' +' + (chkLabels.length - 2)
+          : chkLabels.join(' + ');
+        chkServiceEmoji = currentMixStats.count > 1 ? '∞' : (checkoutGoalDef ? checkoutGoalDef.emoji : '🌱');
+      } else {
+        chkServiceName = goalLabel(t, goal);
+        chkServiceEmoji = checkoutGoalDef ? checkoutGoalDef.emoji : '🌱';
+      }
+    } else {
+      chkServiceName = goalLabel(t, goal);
+      chkServiceEmoji = checkoutGoalDef ? checkoutGoalDef.emoji : '🌱';
+    }
     var chkPrice, chkPriceLabel, chkValueProp, chkDetailRows;
     if (archetype === 'subscription') {
-      var chkYield = subCapital && apy > 0 ? Math.round(subCapital * apy / 100 / 12) : null;
-      chkPrice = subCapital ? formatUsdRounded(subCapital) : '—';
+      var chkCapital = isCapitalPath ? slideCapital : (currentMixStats && currentMixStats.neededCapital > 0 ? currentMixStats.neededCapital : null);
+      var chkYield = chkCapital && apy > 0 ? Math.round(chkCapital * apy / 100 / 12) : null;
+      chkPrice = chkCapital ? formatUsdRounded(chkCapital) : '—';
       chkPriceLabel = t('checkoutPriceLabelCapital');
       chkValueProp = chkYield ? t('checkoutHeroSub', formatUsd(chkYield)) : null;
       chkDetailRows = [
@@ -2392,8 +2433,8 @@
 
     var checkoutPanelElement = e('div', { className: 'gp-checkout-panel gp-animate-in' },
       e('div', { className: 'gp-checkout-service' },
-        e('span', { className: 'gp-checkout-svc-emoji' }, checkoutGoalDef ? checkoutGoalDef.emoji : '🌱'),
-        e('span', { className: 'gp-checkout-svc-name' }, goalLabel(t, goal))
+        e('span', { className: 'gp-checkout-svc-emoji' }, chkServiceEmoji),
+        e('span', { className: 'gp-checkout-svc-name' }, chkServiceName)
       ),
       e('div', { className: 'gp-checkout-price-block' },
         e('div', { className: 'gp-checkout-price' }, chkPrice),
@@ -2521,10 +2562,23 @@
         )
       ) : null,
 
-      // 3. MAKE-IT-YOURS — sliders + persona pills
+      // 3. MAKE-IT-YOURS — sliders + persona pills (collapsed by default)
       e('div', { className: 'gp-makeit gp-animate-in' },
-        e('div', { className: 'gp-makeit-label' }, t('makeItYours')),
-        e('div', { className: 'gp-makeit-sliders' },
+        !makeitExpanded
+          ? e('button', { type: 'button', className: 'gp-makeit-compact',
+              onClick: function () { setMakeitExpanded(true); }
+            },
+              e('span', { className: 'gp-makeit-compact-label' }, t('makeItYours')),
+              e('span', { className: 'gp-makeit-compact-summary' },
+                (isCapitalPath ? formatUsdRounded(slideCapital) : formatUsd(slideMonthly) + '/mo')
+                + (archetype === 'growth' ? ' · ' + slideYears + ' yrs' : '')
+                + ' · ' + currentRiskLabel
+              ),
+              e('span', { className: 'gp-makeit-edit-link' }, t('riskEdit'))
+            )
+          : e('div', null,
+            e('div', { className: 'gp-makeit-label' }, t('makeItYours')),
+            e('div', { className: 'gp-makeit-sliders' },
           isCapitalPath ? e('div', { className: 'gp-slider-group' },
             e('div', { className: 'gp-slider-row-label' },
               e('span', null, t('fundingCapitalCard')),
@@ -2583,7 +2637,8 @@
             );
           })
         )
-      ),
+          ) // close expanded div
+        ),
 
       // 4. ENGINE ROOM
       engineElement,

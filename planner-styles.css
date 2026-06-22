@@ -1304,7 +1304,7 @@
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-semibold);
   color: var(--color-text);
-  margin-bottom: var(--space-12);
+  margin-bottom: 0;
 }
 .gp-blended-badge {
   font-size: var(--font-size-xs);
@@ -2048,6 +2048,90 @@
 }
 
 /* Risk dropdown row */
+/* Risk compact trigger (collapsed default) */
+.gp-plan-risk-compact {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  background: none;
+  border: none;
+  padding: var(--space-4) 0;
+  cursor: pointer;
+  width: 100%;
+  font-family: var(--font-family-base);
+}
+.gp-plan-risk-compact-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  flex: 1;
+  text-align: left;
+}
+.gp-plan-risk-edit-link {
+  font-size: var(--font-size-xs);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-medium);
+  flex-shrink: 0;
+}
+.gp-plan-risk-compact:hover .gp-plan-risk-edit-link { text-decoration: underline; }
+
+/* Engine toggle button */
+.gp-pools-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  width: 100%;
+  font-family: var(--font-family-base);
+  text-align: left;
+}
+.gp-pools-toggle .gp-pools-heading { margin-bottom: 0; flex: 1; }
+.gp-engine-chevron {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  transition: transform var(--duration-normal) var(--ease-standard);
+  flex-shrink: 0;
+  margin-left: var(--space-8);
+}
+.gp-engine-chevron.is-open { transform: rotate(180deg); }
+.gp-engine-body { margin-top: var(--space-16); }
+
+/* Makeit compact trigger (collapsed default) */
+.gp-makeit-compact {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  background: none;
+  border: none;
+  padding: var(--space-8) 0;
+  cursor: pointer;
+  width: 100%;
+  font-family: var(--font-family-base);
+}
+.gp-makeit-compact-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.gp-makeit-compact-summary {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  flex: 1;
+  text-align: left;
+}
+.gp-makeit-edit-link {
+  font-size: var(--font-size-xs);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-medium);
+  flex-shrink: 0;
+}
+.gp-makeit-compact:hover .gp-makeit-edit-link { text-decoration: underline; }
+
 .gp-plan-risk {
   display: flex;
   align-items: center;
