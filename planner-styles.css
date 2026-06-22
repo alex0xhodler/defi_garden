@@ -307,14 +307,14 @@
 .gp-temp-card {
   text-align: left;
   border: none;
-  padding: var(--space-16);
+  padding: var(--space-14) var(--space-12);
   border-radius: var(--neuro-radius-md);
   background: var(--color-background);
   box-shadow: var(--neuro-shadow-flat);
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  gap: var(--space-8);
+  gap: var(--space-10);
   transition: box-shadow var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
   font-family: var(--font-family-base);
@@ -322,16 +322,36 @@
 .gp-temp-card:hover { box-shadow: var(--neuro-shadow-raised); transform: translateY(-2px); }
 .gp-temp-card:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(0); }
 .gp-temp-card.is-selected { box-shadow: var(--neuro-shadow-pressed); }
-.gp-temp-emoji { font-size: var(--font-size-2xl); line-height: 1; }
+.gp-temp-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+.gp-temp-emoji { font-size: var(--font-size-lg); line-height: 1; flex-shrink: 0; }
 .gp-temp-title {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
   color: var(--color-text);
+  line-height: var(--line-height-tight);
 }
-.gp-temp-desc {
-  font-size: var(--font-size-sm);
-  color: var(--color-text);
-  line-height: var(--line-height-normal);
+.gp-temp-apy-block {
+  text-align: center;
+  padding: var(--space-6) 0;
+  background: var(--neuro-bg-gradient);
+  border-radius: var(--neuro-radius-sm);
+}
+.gp-temp-apy {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.gp-temp-apy-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-4);
+  line-height: 1;
 }
 .gp-temp-proj {
   font-size: var(--font-size-xs);
@@ -339,6 +359,38 @@
   font-weight: var(--font-weight-semibold);
   letter-spacing: -0.01em;
   line-height: var(--line-height-normal);
+  text-align: center;
+}
+.gp-temp-protocols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+.gp-temp-protocol-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: var(--color-surface, var(--color-background));
+  border: 1px solid var(--color-border);
+  border-radius: var(--neuro-radius-sm);
+  padding: 2px var(--space-6);
+  min-width: 0;
+}
+.gp-temp-protocol-icon {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.gp-temp-protocol-name {
+  font-size: 10px;
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 52px;
 }
 .gp-temp-risk {
   font-size: var(--font-size-xs);
@@ -347,6 +399,10 @@
   margin-top: auto;
   padding-top: var(--space-8);
   border-top: 1px solid var(--color-border);
+}
+@media (max-width: 400px) {
+  .gp-temp-protocol-name { display: none; }
+  .gp-temp-protocol-badge { padding: 2px 3px; }
 }
 
 /* ---------- Thinking sprout ---------- */

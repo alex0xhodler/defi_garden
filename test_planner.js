@@ -1080,4 +1080,62 @@ test('monthlyChipHint KO: contains years', function () {
   assert.ok(s.includes('5'), 'missing years in KO: ' + s);
 });
 
+// ---------------------------------------------------------------------------
+// translations — personaApyLabel and personaProjYield keys
+// ---------------------------------------------------------------------------
+console.log('\ntranslations: personaApyLabel + personaProjYield');
+test('personaApyLabel exists in EN as a string', function () {
+  assert.strictEqual(typeof enP2.personaApyLabel, 'string');
+});
+test('personaApyLabel KO: exists as a string', function () {
+  assert.strictEqual(typeof koP2.personaApyLabel, 'string');
+});
+test('personaApyLabel KO: different from EN', function () {
+  assert.notStrictEqual(enP2.personaApyLabel, koP2.personaApyLabel);
+});
+test('personaProjYield exists in EN as a function', function () {
+  assert.strictEqual(typeof enP2.personaProjYield, 'function');
+});
+test('personaProjYield EN: contains yield and apy', function () {
+  const s = enP2.personaProjYield('$12', 6.7);
+  assert.ok(s.includes('$12'), 'missing yield: ' + s);
+  assert.ok(s.includes('6.7'), 'missing apy: ' + s);
+});
+test('personaProjYield KO: exists as a function', function () {
+  assert.strictEqual(typeof koP2.personaProjYield, 'function');
+});
+test('personaProjYield KO: contains yield', function () {
+  const s = koP2.personaProjYield('$12', 6.7);
+  assert.ok(s.includes('$12'), 'missing yield in KO: ' + s);
+});
+test('personaProjYield KO: different from EN', function () {
+  const en = enP2.personaProjYield('$12', 6.7);
+  const ko = koP2.personaProjYield('$12', 6.7);
+  assert.notStrictEqual(en, ko, 'KO should differ from EN');
+});
+
+// ---------------------------------------------------------------------------
+// formatProjectName helper
+// ---------------------------------------------------------------------------
+console.log('\nformatProjectName');
+test('formatProjectName strips -v3 suffix', function () {
+  assert.strictEqual(gp.formatProjectName('aave-v3'), 'Aave');
+});
+test('formatProjectName strips -savings suffix', function () {
+  assert.strictEqual(gp.formatProjectName('spark-savings'), 'Spark');
+});
+test('formatProjectName strips -lending suffix', function () {
+  assert.strictEqual(gp.formatProjectName('fluid-lending'), 'Fluid');
+});
+test('formatProjectName capitalizes multi-word', function () {
+  const name = gp.formatProjectName('compound-v3');
+  assert.strictEqual(name, 'Compound');
+});
+test('formatProjectName handles plain name', function () {
+  assert.strictEqual(gp.formatProjectName('morpho'), 'Morpho');
+});
+test('formatProjectName handles empty string', function () {
+  assert.strictEqual(gp.formatProjectName(''), '');
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');

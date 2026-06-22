@@ -177,6 +177,8 @@ const translations = {
       personaDegenDesc: "High-APY LP farms, TVL ≥ $10M. These rates are real today and typically last days-to-weeks, requiring active farm-hopping.",
       personaDegenRisk: "Honest: projected at ⅓ of headline rate — farm rates decay fast. For money you can watch wobble.",
       personaProj: (amt, yrs, apy) => `≈ ${amt} in ${yrs} yrs at ${apy}%`,
+      personaProjYield: (yld, apy) => `≈ ${yld}/mo at ${apy}%`,
+      personaApyLabel: "effective APY",
       monthlyChipHint: (amt, yrs) => `→ ${amt} in ${yrs} yrs`,
       tempChosen: (t) => `${t} pace`,
 
@@ -622,6 +624,8 @@ const translations = {
       personaDegenDesc: "고수익 LP 팜, TVL ≥ $10M. 이 수익률은 지금 실재하며 보통 며칠~몇 주 지속돼요. 적극적인 농장 이동이 필요합니다.",
       personaDegenRisk: "솔직히: 헤드라인 수익률의 ⅓로 투영 — 팜 수익률은 빠르게 감소. 흔들려도 괜찮은 돈으로만.",
       personaProj: (amt, yrs, apy) => `≈ ${amt} · ${yrs}년 · ${apy}%`,
+      personaProjYield: (yld, apy) => `≈ 월 ${yld} · ${apy}%`,
+      personaApyLabel: "실효 수익률",
       monthlyChipHint: (amt, yrs) => `→ ${amt} · ${yrs}년`,
       tempChosen: (t) => `${t} 속도`,
 
