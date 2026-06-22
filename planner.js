@@ -2359,24 +2359,91 @@
       )
     ) : null;
 
+    // Checkout summary panel (right column on desktop, first on mobile)
+    var checkoutGoalDef = goalById(goal);
+    var checkoutRows = (function () {
+      if (archetype === 'subscription') {
+        var chkYield = subCapital && apy > 0 ? Math.round(subCapital * apy / 100 / 12) : null;
+        return [
+          { label: t('checkoutCapital'), value: subCapital ? formatUsdRounded(subCapital) : '—' },
+          { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
+          { label: t('checkoutMonthlyYield'), value: chkYield ? formatUsd(chkYield) + '/mo' : '—' },
+          { label: t('checkoutYouKeep'), value: t('checkoutYouKeepVal') }
+        ];
+      }
+      if (archetype === 'target' && isCapitalPath) {
+        var chkYield2 = slideCapital && apy > 0 ? Math.round(slideCapital * apy / 100 / 12) : null;
+        return [
+          { label: t('checkoutCapital'), value: formatUsdRounded(slideCapital) },
+          { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
+          { label: t('checkoutMonthlyYield'), value: chkYield2 ? formatUsd(chkYield2) + '/mo' : '—' },
+          { label: t('checkoutYouKeep'), value: t('checkoutYouKeepVal') }
+        ];
+      }
+      // growth or target monthly path
+      return [
+        { label: t('checkoutMonthly'), value: formatUsd(slideMonthly) + '/mo' },
+        { label: t('checkoutTimeline'), value: slideYears + ' ' + t('yearsShort') },
+        { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
+        { label: t('checkoutProjected'), value: formatUsdRounded(liveProjection) }
+      ];
+    })();
+
+    var checkoutPanelElement = e('div', { className: 'gp-checkout-panel gp-animate-in' },
+      e('div', { className: 'gp-checkout-heading' },
+        e('span', { className: 'gp-checkout-emoji' }, checkoutGoalDef ? checkoutGoalDef.emoji : '🌱'),
+        e('span', { className: 'gp-checkout-goal' }, goalLabel(t, goal))
+      ),
+      e('div', { className: 'gp-checkout-divider' }),
+      e('div', { className: 'gp-checkout-rows' },
+        checkoutRows.map(function (row, idx) {
+          return e('div', { key: idx, className: 'gp-checkout-row' },
+            e('span', { className: 'gp-checkout-label' }, row.label),
+            e('span', { className: 'gp-checkout-value' }, row.value)
+          );
+        })
+      ),
+      e('div', { className: 'gp-checkout-divider' }),
+      e('button', {
+        type: 'button',
+        className: 'gp-primary-cta',
+        onClick: function () {
+          setWaitlistStep(1);
+          setWaitlistStatus('idle');
+          setWaitlistOpen(true);
+        }
+      }, t('ctaWaitlist')),
+      e('p', { className: 'gp-cta-microcopy' }, t('ctaWaitlistMicro')),
+      e('div', { className: 'gp-checkout-share' },
+        e('button', { type: 'button', className: 'gp-share-btn gp-share-link', onClick: doCopyLink },
+          copySuccess ? ('✓ ' + t('shareLinkCopied')) : ('🔗 ' + t('shareLink'))
+        ),
+        navigator.share ? e('button', { type: 'button', className: 'gp-share-btn', onClick: doNativeShare },
+          '↗ ' + t('shareNative')
+        ) : null
+      )
+    );
+
     if (archetype === 'subscription') {
-      // Subscription: hero → caveats → YOUR PLAN card → CTA → engine → ask → foot → modal
       return e('div', { className: 'gp-bloom' },
         presetIntro,
-        heroElement,
-        caveatElement,
-        planCardElement,
-        ctaElement,
-        engineElement,
-        askElement,
+        e('div', { className: 'gp-bloom-layout' },
+          e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement),
+          e('div', { className: 'gp-bloom-detail' },
+            heroElement, caveatElement, planCardElement, engineElement, askElement
+          )
+        ),
         footElement,
         waitlistModal
       );
     }
 
-    // Target / Growth: hero → caveats → plan-strip → 1b → chart → make-it-yours → engine → CTA → ask → foot → modal
+    // Target / Growth: 2-col layout
     return e('div', { className: 'gp-bloom' },
       presetIntro,
+      e('div', { className: 'gp-bloom-layout' },
+        e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement),
+        e('div', { className: 'gp-bloom-detail' },
 
       // 1. HERO ANSWER
       heroElement,
@@ -2517,19 +2584,14 @@
         )
       ),
 
-      // 4. PRIMARY CTA
-      ctaElement,
-
-      // 5. ENGINE ROOM
+      // 4. ENGINE ROOM
       engineElement,
 
-      // 6. ASK BOX
-      askElement,
-
-      // 7. SHARE + GARDEN
+      // 5. ASK BOX
+      askElement
+        ) // close gp-bloom-detail
+      ), // close gp-bloom-layout
       footElement,
-
-      // 8. WAITLIST MODAL (portal-style fixed overlay)
       waitlistModal
     );
   }
@@ -3759,7 +3821,7 @@
         mode: mode,
         onShowGarden: function() { setMode('report'); }
       }),
-      e('main', { className: 'gp-main' },
+      e('main', { className: 'gp-main' + (step === 'bloom' ? ' gp-main--bloom' : '') },
         (step === 'goal' && mode !== 'report')
           ? e('div', { className: 'gp-tagline' }, e('h1', null, t('title')), e('p', null, t('tagline')))
           : null,

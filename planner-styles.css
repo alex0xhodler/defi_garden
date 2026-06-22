@@ -440,7 +440,103 @@
 }
 
 /* ---------- Bloom ---------- */
+.gp-main--bloom { max-width: 960px; }
+
 .gp-bloom { display: flex; flex-direction: column; gap: var(--space-20); }
+
+/* 2-col checkout layout */
+.gp-bloom-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: var(--space-24);
+  align-items: start;
+}
+.gp-bloom-detail {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-20);
+  min-width: 0;
+}
+.gp-bloom-checkout {
+  grid-column: 2;
+  grid-row: 1;
+  position: sticky;
+  top: var(--space-20);
+}
+
+/* Checkout panel — order summary */
+.gp-checkout-panel {
+  background: var(--color-surface);
+  border-radius: var(--neuro-radius-lg);
+  box-shadow: var(--neuro-shadow-raised);
+  padding: var(--space-20);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+.gp-checkout-heading {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+.gp-checkout-emoji { font-size: var(--font-size-xl); flex-shrink: 0; }
+.gp-checkout-goal {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  line-height: var(--line-height-tight);
+}
+.gp-checkout-divider {
+  height: 1px;
+  background: var(--color-border);
+  margin: var(--space-4) 0;
+}
+.gp-checkout-rows { display: flex; flex-direction: column; gap: var(--space-8); }
+.gp-checkout-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-8);
+}
+.gp-checkout-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+}
+.gp-checkout-value {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  text-align: right;
+}
+.gp-checkout-share {
+  display: flex;
+  gap: var(--space-8);
+  flex-wrap: wrap;
+}
+.gp-checkout-share .gp-share-btn {
+  flex: 1;
+  font-size: var(--font-size-xs);
+  padding: var(--space-6) var(--space-8);
+}
+
+/* Mobile: single-col, checkout first */
+@media (max-width: 768px) {
+  .gp-main--bloom { max-width: 760px; }
+  .gp-bloom-layout {
+    grid-template-columns: 1fr;
+  }
+  .gp-bloom-checkout {
+    grid-column: 1;
+    grid-row: 1;
+    position: static;
+  }
+  .gp-bloom-detail {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
 
 .gp-bloom-headline {
   text-align: center;
