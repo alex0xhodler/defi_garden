@@ -626,6 +626,17 @@
     return PERSONAS[pk] && PERSONAS[pk].degenHaircut ? raw / 3 : raw;
   }
 
+  // Human-readable protocol name from pool.project slug (e.g. "aave-v3" → "Aave")
+  function formatProjectName(project) {
+    return (project || '')
+      .replace(/-v[0-9]+(\.[0-9]+)?$/, '')
+      .replace(/-(savings|lending|protocol|finance|swap|staking)$/i, '')
+      .split('-')
+      .map(function (w) { return w ? w.charAt(0).toUpperCase() + w.slice(1) : ''; })
+      .join(' ')
+      .trim();
+  }
+
   // ---------------------------------------------------------------------------
   // Goal model — two-tier archetype system
   // ---------------------------------------------------------------------------
@@ -2349,14 +2360,14 @@
     ) : null;
 
     if (archetype === 'subscription') {
-      // Subscription: hero → caveats → YOUR PLAN card → engine → CTA → ask → foot → modal
+      // Subscription: hero → caveats → YOUR PLAN card → CTA → engine → ask → foot → modal
       return e('div', { className: 'gp-bloom' },
         presetIntro,
         heroElement,
         caveatElement,
         planCardElement,
-        engineElement,
         ctaElement,
+        engineElement,
         askElement,
         footElement,
         waitlistModal
@@ -2506,11 +2517,11 @@
         )
       ),
 
-      // 4. ENGINE ROOM
-      engineElement,
-
-      // 5. PRIMARY CTA
+      // 4. PRIMARY CTA
       ctaElement,
+
+      // 5. ENGINE ROOM
+      engineElement,
 
       // 6. ASK BOX
       askElement,
@@ -3172,8 +3183,8 @@
         // To re-enable the step, restore: advance('funding-mode').
         var sg = goalById(id);
         var seedCapital = sg && sg.target ? Math.ceil(foreverNumber(sg.target, guidanceApy) / 100) * 100 : null;
-        setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: a.persona || 'stable', fundingMode: 'capital', capital: seedCapital, monthly: null }); });
-        advance('bloom');
+        setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: null, fundingMode: 'capital', capital: seedCapital, monthly: null }); });
+        advance('temperament');
       } else {
         setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: a.persona || (arch !== 'growth' ? 'stable' : null) }); });
         if (arch === 'target') { advance('funding-mode'); }
@@ -3234,7 +3245,7 @@
 
     function pickDeadline(months) {
       setAnswers(function (a) { return Object.assign({}, a, { deadline: months }); });
-      advance('bloom');
+      advance('temperament');
     }
 
     function pickYears(v) {
@@ -3577,7 +3588,12 @@
           e('p', { className: 'gp-question' }, t('step2Question', goalLabel(t, answers.goal))),
           e(Chips, {
             selected: answers.monthly, wrap: true,
-            options: monthlyChips.map(function (v) { return { value: v, label: formatUsd(v) }; }),
+            options: monthlyChips.map(function (v) {
+              if (arch !== 'growth') return { value: v, label: formatUsd(v) };
+              var hintYears = answers.years || 5;
+              var hintAmt = futureValue(v, guidanceApy, hintYears);
+              return { value: v, label: formatUsd(v), hint: t('monthlyChipHint', formatUsdRounded(hintAmt), hintYears) };
+            }),
             onPick: pickMonthly,
             onHover: setHoveredAmount,
             onHoverEnd: function() { setHoveredAmount(null); }
@@ -3623,11 +3639,36 @@
           e('button', { type: 'button', className: 'gp-cta gp-slider-confirm', onClick: function () { pickYears(answers.years || 5); } }, '→')
         );
       } else if (step === 'temperament') {
+        var tempYears = answers.years || 3;
+        var tempGoalDef = goalById(answers.goal);
         var cards = [
-          { id: 'stable', emoji: '🏦', title: t('personaStableTitle'), desc: t('personaStableDesc'), risk: t('personaStableRisk') },
-          { id: 'rwa',    emoji: '🏛️', title: t('personaRwaTitle'),    desc: t('personaRwaDesc'),    risk: t('personaRwaRisk') },
-          { id: 'degen',  emoji: '🔥', title: t('personaDegenTitle'),  desc: t('personaDegenDesc'),  risk: t('personaDegenRisk') }
-        ];
+          { id: 'stable', emoji: '🏦', title: t('personaStableTitle'), risk: t('personaStableRisk') },
+          { id: 'rwa',    emoji: '🏛️', title: t('personaRwaTitle'),    risk: t('personaRwaRisk') },
+          { id: 'degen',  emoji: '🔥', title: t('personaDegenTitle'),  risk: t('personaDegenRisk') }
+        ].map(function (card) {
+          var curated = curatePools(pools, card.id, 3);
+          var eff = effectiveApy(curated, card.id);
+          var apyStr = eff > 0 ? parseFloat(eff.toFixed(1)) + '%' : '—';
+          // Projected outcome — futureValue for monthly path, monthly yield for capital path
+          var projLabel = null;
+          if (answers.monthly && eff > 0) {
+            var projAmt = futureValue(answers.monthly, eff, tempYears);
+            projLabel = t('personaProj', formatUsdRounded(projAmt), tempYears, parseFloat(eff.toFixed(1)));
+          } else if (answers.capital && eff > 0) {
+            var monthlyYield = Math.round(answers.capital * eff / 100 / 12);
+            projLabel = t('personaProjYield', formatUsd(monthlyYield, 0), parseFloat(eff.toFixed(1)));
+          }
+          // Protocol badges — unique protocols from curated pools
+          var seen2 = {};
+          var protocols = curated.filter(function (p) {
+            if (!p.project || seen2[p.project]) return false;
+            seen2[p.project] = true;
+            return true;
+          }).slice(0, 3).map(function (p) {
+            return { project: p.project, name: formatProjectName(p.project) };
+          });
+          return Object.assign({}, card, { apyStr: apyStr, proj: projLabel, protocols: protocols });
+        });
         // Pre-select stable for target/subscription archetypes
         var preSelected = answers.persona || (skipHorizon ? 'stable' : null);
 
@@ -3640,10 +3681,31 @@
                 className: 'gp-temp-card' + ((preSelected === card.id) ? ' is-selected' : ''),
                 onClick: function () { pickPersona(card.id); }
               },
-                e('div', { className: 'gp-temp-emoji' }, card.emoji),
-                e('div', { className: 'gp-temp-title' }, card.title),
-                e('div', { className: 'gp-temp-desc' }, card.desc),
-                e('div', { className: 'gp-temp-risk' }, card.risk)
+                e('div', { className: 'gp-temp-header' },
+                  e('span', { className: 'gp-temp-emoji' }, card.emoji),
+                  e('span', { className: 'gp-temp-title' }, card.title)
+                ),
+                e('div', { className: 'gp-temp-apy-block' },
+                  e('div', { className: 'gp-temp-apy' }, card.apyStr),
+                  e('div', { className: 'gp-temp-apy-label' }, t('personaApyLabel'))
+                ),
+                card.proj ? e('div', { className: 'gp-temp-proj' }, card.proj) : null,
+                card.protocols.length > 0
+                  ? e('div', { className: 'gp-temp-protocols' },
+                      card.protocols.map(function (proto) {
+                        return e('div', { key: proto.project, className: 'gp-temp-protocol-badge' },
+                          e('img', {
+                            src: 'https://icons.llama.fi/' + proto.project + '.png',
+                            className: 'gp-temp-protocol-icon',
+                            alt: proto.name,
+                            onError: function (ev) { ev.target.style.display = 'none'; }
+                          }),
+                          e('span', { className: 'gp-temp-protocol-name' }, proto.name)
+                        );
+                      })
+                    )
+                  : null,
+                e('div', { className: 'gp-temp-risk' }, '⚠ ' + card.risk)
               );
             })
           )
@@ -3730,7 +3792,8 @@
     mixStats: mixStats,
     disciplinedSpeedup: disciplinedSpeedup,
     GOALS: GOALS,
-    goalArchetype: goalArchetype
+    goalArchetype: goalArchetype,
+    formatProjectName: formatProjectName
   };
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;

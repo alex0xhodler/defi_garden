@@ -1029,4 +1029,113 @@ test('korean 시계 -> watches', function () {
   assert.strictEqual(gp.matchGoalFromText('고급 시계 사고 싶어'), 'watches');
 });
 
+// ---------------------------------------------------------------------------
+// translations — personaProj and monthlyChipHint keys (Proposals 3 & 4)
+// ---------------------------------------------------------------------------
+const { translations: tr2 } = require('./translations.js');
+const enP2 = tr2.en.planner;
+const koP2 = tr2.ko.planner;
+
+console.log('\ntranslations: personaProj');
+test('personaProj exists in EN as a function', function () {
+  assert.strictEqual(typeof enP2.personaProj, 'function');
+});
+test('personaProj EN: contains amount, years, apy', function () {
+  const s = enP2.personaProj('$16k', 3, '5.4');
+  assert.ok(s.includes('$16k'), 'missing amount: ' + s);
+  assert.ok(s.includes('3'), 'missing years: ' + s);
+  assert.ok(s.includes('5.4'), 'missing apy: ' + s);
+});
+test('personaProj KO: exists as a function', function () {
+  assert.strictEqual(typeof koP2.personaProj, 'function');
+});
+test('personaProj KO: contains amount', function () {
+  const s = koP2.personaProj('$16k', 5, '5.4');
+  assert.ok(s.includes('$16k'), 'missing amount in KO: ' + s);
+});
+test('personaProj KO: different string from EN', function () {
+  const en = enP2.personaProj('$16k', 5, '5.4');
+  const ko = koP2.personaProj('$16k', 5, '5.4');
+  assert.notStrictEqual(en, ko, 'KO should differ from EN');
+});
+
+console.log('\ntranslations: monthlyChipHint');
+test('monthlyChipHint exists in EN as a function', function () {
+  assert.strictEqual(typeof enP2.monthlyChipHint, 'function');
+});
+test('monthlyChipHint EN: contains amount and years', function () {
+  const s = enP2.monthlyChipHint('$16k', 5);
+  assert.ok(s.includes('$16k'), 'missing amount: ' + s);
+  assert.ok(s.includes('5'), 'missing years: ' + s);
+});
+test('monthlyChipHint KO: exists as a function', function () {
+  assert.strictEqual(typeof koP2.monthlyChipHint, 'function');
+});
+test('monthlyChipHint KO: contains amount', function () {
+  const s = koP2.monthlyChipHint('$16k', 5);
+  assert.ok(s.includes('$16k'), 'missing amount in KO: ' + s);
+});
+test('monthlyChipHint KO: contains years', function () {
+  const s = koP2.monthlyChipHint('$16k', 5);
+  assert.ok(s.includes('5'), 'missing years in KO: ' + s);
+});
+
+// ---------------------------------------------------------------------------
+// translations — personaApyLabel and personaProjYield keys
+// ---------------------------------------------------------------------------
+console.log('\ntranslations: personaApyLabel + personaProjYield');
+test('personaApyLabel exists in EN as a string', function () {
+  assert.strictEqual(typeof enP2.personaApyLabel, 'string');
+});
+test('personaApyLabel KO: exists as a string', function () {
+  assert.strictEqual(typeof koP2.personaApyLabel, 'string');
+});
+test('personaApyLabel KO: different from EN', function () {
+  assert.notStrictEqual(enP2.personaApyLabel, koP2.personaApyLabel);
+});
+test('personaProjYield exists in EN as a function', function () {
+  assert.strictEqual(typeof enP2.personaProjYield, 'function');
+});
+test('personaProjYield EN: contains yield and apy', function () {
+  const s = enP2.personaProjYield('$12', 6.7);
+  assert.ok(s.includes('$12'), 'missing yield: ' + s);
+  assert.ok(s.includes('6.7'), 'missing apy: ' + s);
+});
+test('personaProjYield KO: exists as a function', function () {
+  assert.strictEqual(typeof koP2.personaProjYield, 'function');
+});
+test('personaProjYield KO: contains yield', function () {
+  const s = koP2.personaProjYield('$12', 6.7);
+  assert.ok(s.includes('$12'), 'missing yield in KO: ' + s);
+});
+test('personaProjYield KO: different from EN', function () {
+  const en = enP2.personaProjYield('$12', 6.7);
+  const ko = koP2.personaProjYield('$12', 6.7);
+  assert.notStrictEqual(en, ko, 'KO should differ from EN');
+});
+
+// ---------------------------------------------------------------------------
+// formatProjectName helper
+// ---------------------------------------------------------------------------
+console.log('\nformatProjectName');
+test('formatProjectName strips -v3 suffix', function () {
+  assert.strictEqual(gp.formatProjectName('aave-v3'), 'Aave');
+});
+test('formatProjectName strips -savings suffix', function () {
+  assert.strictEqual(gp.formatProjectName('spark-savings'), 'Spark');
+});
+test('formatProjectName strips -lending suffix', function () {
+  assert.strictEqual(gp.formatProjectName('fluid-lending'), 'Fluid');
+});
+test('formatProjectName capitalizes multi-word', function () {
+  const name = gp.formatProjectName('compound-v3');
+  assert.strictEqual(name, 'Compound');
+});
+test('formatProjectName handles plain name', function () {
+  assert.strictEqual(gp.formatProjectName('morpho'), 'Morpho');
+});
+test('formatProjectName handles empty string', function () {
+  assert.strictEqual(gp.formatProjectName(''), '');
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');
