@@ -2359,69 +2359,70 @@
       )
     ) : null;
 
-    // Checkout summary panel (right column on desktop, first on mobile)
+    // Checkout summary panel — price-anchor layout (right column desktop, first mobile)
     var checkoutGoalDef = goalById(goal);
-    var checkoutRows = (function () {
-      if (archetype === 'subscription') {
-        var chkYield = subCapital && apy > 0 ? Math.round(subCapital * apy / 100 / 12) : null;
-        return [
-          { label: t('checkoutCapital'), value: subCapital ? formatUsdRounded(subCapital) : '—' },
-          { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
-          { label: t('checkoutMonthlyYield'), value: chkYield ? formatUsd(chkYield) + '/mo' : '—' },
-          { label: t('checkoutYouKeep'), value: t('checkoutYouKeepVal') }
-        ];
-      }
-      if (archetype === 'target' && isCapitalPath) {
-        var chkYield2 = slideCapital && apy > 0 ? Math.round(slideCapital * apy / 100 / 12) : null;
-        return [
-          { label: t('checkoutCapital'), value: formatUsdRounded(slideCapital) },
-          { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
-          { label: t('checkoutMonthlyYield'), value: chkYield2 ? formatUsd(chkYield2) + '/mo' : '—' },
-          { label: t('checkoutYouKeep'), value: t('checkoutYouKeepVal') }
-        ];
-      }
-      // growth or target monthly path
-      return [
-        { label: t('checkoutMonthly'), value: formatUsd(slideMonthly) + '/mo' },
-        { label: t('checkoutTimeline'), value: slideYears + ' ' + t('yearsShort') },
+    var chkPrice, chkPriceLabel, chkValueProp, chkDetailRows;
+    if (archetype === 'subscription') {
+      var chkYield = subCapital && apy > 0 ? Math.round(subCapital * apy / 100 / 12) : null;
+      chkPrice = subCapital ? formatUsdRounded(subCapital) : '—';
+      chkPriceLabel = t('checkoutPriceLabelCapital');
+      chkValueProp = chkYield ? t('checkoutHeroSub', formatUsd(chkYield)) : null;
+      chkDetailRows = [
         { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
-        { label: t('checkoutProjected'), value: formatUsdRounded(liveProjection) }
+        { label: t('checkoutYouKeep'), value: t('checkoutYouKeepVal') }
       ];
-    })();
+    } else if (archetype === 'target' && isCapitalPath) {
+      var chkYield2 = slideCapital && apy > 0 ? Math.round(slideCapital * apy / 100 / 12) : null;
+      chkPrice = formatUsdRounded(slideCapital);
+      chkPriceLabel = t('checkoutPriceLabelCapital');
+      chkValueProp = chkYield2 ? t('checkoutHeroSub', formatUsd(chkYield2)) : null;
+      chkDetailRows = [
+        { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
+        { label: t('checkoutYouKeep'), value: t('checkoutYouKeepVal') }
+      ];
+    } else {
+      chkPrice = formatUsd(slideMonthly) + '/mo';
+      chkPriceLabel = t('checkoutPriceLabelMonthly');
+      chkValueProp = t('checkoutHeroGrowth', formatUsdRounded(liveProjection), slideYears);
+      chkDetailRows = [
+        { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
+        { label: t('checkoutTimeline'), value: slideYears + ' ' + t('yearsShort') }
+      ];
+    }
 
     var checkoutPanelElement = e('div', { className: 'gp-checkout-panel gp-animate-in' },
-      e('div', { className: 'gp-checkout-heading' },
-        e('span', { className: 'gp-checkout-emoji' }, checkoutGoalDef ? checkoutGoalDef.emoji : '🌱'),
-        e('span', { className: 'gp-checkout-goal' }, goalLabel(t, goal))
+      e('div', { className: 'gp-checkout-service' },
+        e('span', { className: 'gp-checkout-svc-emoji' }, checkoutGoalDef ? checkoutGoalDef.emoji : '🌱'),
+        e('span', { className: 'gp-checkout-svc-name' }, goalLabel(t, goal))
       ),
-      e('div', { className: 'gp-checkout-divider' }),
-      e('div', { className: 'gp-checkout-rows' },
-        checkoutRows.map(function (row, idx) {
-          return e('div', { key: idx, className: 'gp-checkout-row' },
-            e('span', { className: 'gp-checkout-label' }, row.label),
-            e('span', { className: 'gp-checkout-value' }, row.value)
+      e('div', { className: 'gp-checkout-price-block' },
+        e('div', { className: 'gp-checkout-price' }, chkPrice),
+        e('div', { className: 'gp-checkout-price-label' }, chkPriceLabel)
+      ),
+      chkValueProp ? e('p', { className: 'gp-checkout-value-prop' }, chkValueProp) : null,
+      e('div', { className: 'gp-checkout-detail-rows' },
+        chkDetailRows.map(function (row, idx) {
+          return e('div', { key: idx, className: 'gp-checkout-detail-row' },
+            e('span', { className: 'gp-checkout-detail-label' }, row.label),
+            e('span', { className: 'gp-checkout-detail-value' }, row.value)
           );
         })
       ),
-      e('div', { className: 'gp-checkout-divider' }),
       e('button', {
         type: 'button',
-        className: 'gp-primary-cta',
+        className: 'gp-primary-cta gp-checkout-cta',
         onClick: function () {
           setWaitlistStep(1);
           setWaitlistStatus('idle');
           setWaitlistOpen(true);
         }
       }, t('ctaWaitlist')),
-      e('p', { className: 'gp-cta-microcopy' }, t('ctaWaitlistMicro')),
-      e('div', { className: 'gp-checkout-share' },
-        e('button', { type: 'button', className: 'gp-share-btn gp-share-link', onClick: doCopyLink },
-          copySuccess ? ('✓ ' + t('shareLinkCopied')) : ('🔗 ' + t('shareLink'))
-        ),
-        navigator.share ? e('button', { type: 'button', className: 'gp-share-btn', onClick: doNativeShare },
-          '↗ ' + t('shareNative')
-        ) : null
-      )
+      e('div', { className: 'gp-checkout-trust' },
+        e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustSelfCustody')),
+        e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustYourKeys')),
+        e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustWithdraw'))
+      ),
+      e('p', { className: 'gp-checkout-note' }, t('checkoutNote'))
     );
 
     if (archetype === 'subscription') {

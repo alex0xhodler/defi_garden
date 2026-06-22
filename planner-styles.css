@@ -466,59 +466,107 @@
   top: var(--space-20);
 }
 
-/* Checkout panel — order summary */
+/* Checkout panel — price-anchor hierarchy */
 .gp-checkout-panel {
   background: var(--color-surface);
   border-radius: var(--neuro-radius-lg);
   box-shadow: var(--neuro-shadow-raised);
-  padding: var(--space-20);
+  padding: var(--space-20) var(--space-20) var(--space-16);
   display: flex;
   flex-direction: column;
-  gap: var(--space-12);
+  gap: var(--space-16);
 }
-.gp-checkout-heading {
+
+/* Service identity */
+.gp-checkout-service {
   display: flex;
   align-items: center;
   gap: var(--space-8);
+  padding-bottom: var(--space-12);
+  border-bottom: 1px solid var(--color-border);
 }
-.gp-checkout-emoji { font-size: var(--font-size-xl); flex-shrink: 0; }
-.gp-checkout-goal {
+.gp-checkout-svc-emoji { font-size: 20px; flex-shrink: 0; line-height: 1; }
+.gp-checkout-svc-name {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+  letter-spacing: 0.01em;
+}
+
+/* Price anchor — the "cost" displayed like Stripe shows $29/mo */
+.gp-checkout-price-block { display: flex; flex-direction: column; gap: 2px; }
+.gp-checkout-price {
+  font-size: 30px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tight);
   color: var(--color-text);
-  line-height: var(--line-height-tight);
+  line-height: 1;
 }
-.gp-checkout-divider {
-  height: 1px;
-  background: var(--color-border);
-  margin: var(--space-4) 0;
+.gp-checkout-price-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
 }
-.gp-checkout-rows { display: flex; flex-direction: column; gap: var(--space-8); }
-.gp-checkout-row {
+
+/* Value prop sentence */
+.gp-checkout-value-prop {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-normal);
+  margin: 0;
+  padding-top: var(--space-4);
+}
+
+/* Secondary detail rows */
+.gp-checkout-detail-rows {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  padding: var(--space-12) 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+.gp-checkout-detail-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  gap: var(--space-8);
 }
-.gp-checkout-label {
+.gp-checkout-detail-label {
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
 }
-.gp-checkout-value {
-  font-size: var(--font-size-sm);
+.gp-checkout-detail-value {
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
   color: var(--color-text);
-  text-align: right;
 }
-.gp-checkout-share {
+
+/* CTA — full width inside panel */
+.gp-checkout-cta { width: 100%; justify-content: center; }
+
+/* Trust trifecta */
+.gp-checkout-trust {
   display: flex;
-  gap: var(--space-8);
-  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-4);
 }
-.gp-checkout-share .gp-share-btn {
-  flex: 1;
-  font-size: var(--font-size-xs);
-  padding: var(--space-6) var(--space-8);
+.gp-trust-pill {
+  font-size: 10px;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+}
+
+/* One-line disclosure */
+.gp-checkout-note {
+  font-size: 10px;
+  color: var(--color-text-secondary);
+  opacity: 0.7;
+  text-align: center;
+  margin: 0;
+  line-height: var(--line-height-normal);
 }
 
 /* Mobile: single-col, checkout first */
@@ -2465,24 +2513,18 @@
 .gp-bloom-caveats {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  margin: 8px 0 12px;
+  gap: 4px;
 }
 .gp-caveat {
-  font-size: var(--font-size-xs);
+  font-size: 11px;
   color: var(--color-text-secondary);
   line-height: var(--line-height-normal);
-  padding: 8px 12px;
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-flat);
+  padding: 0 0 0 10px;
+  border-left: 2px solid var(--color-border);
   margin: 0;
+  opacity: 0.8;
 }
-.gp-caveat-hack {
-  /* Hack caveat gets a subtle left border to distinguish protocol risk from rate risk */
-  border-left: 2px solid var(--color-text-secondary);
-  padding-left: 10px;
-  opacity: 0.85;
-}
+.gp-caveat-hack { opacity: 0.65; }
 @media (prefers-reduced-motion: reduce) {
   .gp-bloom-caveats { animation: none; }
 }
