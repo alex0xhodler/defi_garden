@@ -1479,10 +1479,13 @@
     // YOUR PLAN card — risk dropdown open state
     var riskOpenState = useState(false);
     var riskOpen = riskOpenState[0], setRiskOpen = riskOpenState[1];
-    // risk row expanded (collapsed by default)
+    // subscription: combined risk+engine customize panel (collapsed by default)
+    var planCustomizeOpenState = useState(false);
+    var planCustomizeOpen = planCustomizeOpenState[0], setPlanCustomizeOpen = planCustomizeOpenState[1];
+    // growth/target: risk row expanded (collapsed by default)
     var riskExpandedState = useState(false);
     var riskExpanded = riskExpandedState[0], setRiskExpanded = riskExpandedState[1];
-    // engine expanded (collapsed by default)
+    // growth/target: engine expanded (collapsed by default)
     var engineOpenState = useState(false);
     var engineOpen = engineOpenState[0], setEngineOpen = engineOpenState[1];
     // growth/target customize expanded (collapsed by default)
@@ -1977,56 +1980,11 @@
 
     // YOUR PLAN card — subscription-only consolidated control block
     var planCardElement = archetype === 'subscription' ? (function () {
-      var personaOptions = sharedPersonaOptions;
-
       return e('div', { className: 'gp-plan-card gp-animate-in' },
         e('div', { className: 'gp-plan-card-title' }, t('planCardTitle')),
-
-        // 1. Cover: mix toggle list
         e('div', { className: 'gp-plan-card-cover' },
           mixElement
-        ),
-
-        e('div', { className: 'gp-plan-card-divider' }),
-
-        // 2. Risk — compact trigger (collapsed by default), expands to full selector
-        riskExpanded
-          ? e('div', { className: 'gp-plan-risk' },
-              e('span', { className: 'gp-plan-risk-label' }, t('riskLabel')),
-              e('div', { style: { position: 'relative' } },
-                e('button', {
-                  type: 'button',
-                  className: 'gp-risk-toggle',
-                  'aria-haspopup': 'listbox',
-                  'aria-expanded': riskOpen ? 'true' : 'false',
-                  onClick: function () { setRiskOpen(function (v) { return !v; }); },
-                  onKeyDown: function (ev) { if (ev.key === 'Escape') setRiskOpen(false); }
-                }, currentRiskLabel, ' ▾'),
-                riskOpen ? e('div', {
-                  className: 'gp-risk-menu', role: 'listbox', 'aria-label': t('riskLabel')
-                },
-                  personaOptions.map(function (p) {
-                    var isSelected = pk === p.key;
-                    return e('button', {
-                      key: p.key, type: 'button', role: 'option',
-                      'aria-selected': isSelected ? 'true' : 'false',
-                      className: 'gp-risk-option' + (isSelected ? ' is-selected' : ''),
-                      onClick: function () { if (props.onWhatIf) props.onWhatIf('persona:' + p.key); setRiskOpen(false); },
-                      onKeyDown: function (ev) { if (ev.key === 'Escape') setRiskOpen(false); }
-                    },
-                      e('span', { className: 'gp-risk-option-short' }, t(p.shortKey)),
-                      e('span', { className: 'gp-risk-option-title' }, t(p.titleKey))
-                    );
-                  })
-                ) : null
-              )
-            )
-          : e('button', { type: 'button', className: 'gp-plan-risk-compact',
-              onClick: function () { setRiskExpanded(true); setRiskOpen(true); }
-            },
-              e('span', { className: 'gp-plan-risk-compact-label' }, t('riskLabel') + ' · ' + currentRiskLabel),
-              e('span', { className: 'gp-plan-risk-edit-link' }, t('riskEdit'))
-            )
+        )
       );
     })() : null;
 
@@ -2166,6 +2124,166 @@
           )
       ) : null // close engineOpen body
     );
+
+    // Subscription-only: combined Risk + Engine "Customize" panel
+    var subCustomizeElement = archetype === 'subscription' ? (function () {
+      var personaOptions = sharedPersonaOptions;
+      return e('div', { className: 'gp-sub-customize gp-animate-in' },
+        e('button', {
+          type: 'button',
+          className: 'gp-sub-customize-trigger',
+          onClick: function () { setPlanCustomizeOpen(function (v) { return !v; }); },
+          'aria-expanded': planCustomizeOpen ? 'true' : 'false'
+        },
+          e('div', { className: 'gp-sub-customize-summary' },
+            e('span', { className: 'gp-sub-customize-risk' }, currentRiskLabel),
+            e('span', { className: 'gp-sub-customize-sep' }, '·'),
+            e('span', { className: 'gp-sub-customize-rate' }, formatApy(apy) + ' blended')
+          ),
+          e('span', { className: 'gp-sub-customize-cta' },
+            t('riskEdit'),
+            e('span', { className: 'gp-engine-chevron' + (planCustomizeOpen ? ' is-open' : '') }, ' ▾')
+          )
+        ),
+        planCustomizeOpen ? e('div', { className: 'gp-sub-customize-body' },
+          // Risk picker
+          e('div', { className: 'gp-sub-customize-section' },
+            e('div', { className: 'gp-plan-risk' },
+              e('span', { className: 'gp-plan-risk-label' }, t('riskLabel')),
+              e('div', { style: { position: 'relative' } },
+                e('button', {
+                  type: 'button',
+                  className: 'gp-risk-toggle',
+                  'aria-haspopup': 'listbox',
+                  'aria-expanded': riskOpen ? 'true' : 'false',
+                  onClick: function () { setRiskOpen(function (v) { return !v; }); },
+                  onKeyDown: function (ev) { if (ev.key === 'Escape') setRiskOpen(false); }
+                }, currentRiskLabel, ' ▾'),
+                riskOpen ? e('div', {
+                  className: 'gp-risk-menu', role: 'listbox', 'aria-label': t('riskLabel')
+                },
+                  personaOptions.map(function (p) {
+                    var isSelected = pk === p.key;
+                    return e('button', {
+                      key: p.key, type: 'button', role: 'option',
+                      'aria-selected': isSelected ? 'true' : 'false',
+                      className: 'gp-risk-option' + (isSelected ? ' is-selected' : ''),
+                      onClick: function () { if (props.onWhatIf) props.onWhatIf('persona:' + p.key); setRiskOpen(false); },
+                      onKeyDown: function (ev) { if (ev.key === 'Escape') setRiskOpen(false); }
+                    },
+                      e('span', { className: 'gp-risk-option-short' }, t(p.shortKey)),
+                      e('span', { className: 'gp-risk-option-title' }, t(p.titleKey))
+                    );
+                  })
+                ) : null
+              )
+            )
+          ),
+          // Engine: degen warning + filters + pool grid
+          e('div', { className: 'gp-sub-customize-section' },
+            isDegenPersona ? e('div', { className: 'gp-degen-warning' },
+              t('degenHaircutNote', formatApy(rawApy))
+            ) : null,
+            chainOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+              e('span', { className: 'gp-engine-filter-label' }, t('engineFilterChain')),
+              e('div', { className: 'gp-chips gp-chips-wrap' },
+                [{ value: null, label: t('engineAll') }].concat(
+                  chainOptions.map(function (c) { return { value: c, label: c }; })
+                ).map(function (opt) {
+                  var isSelected = poolFilters.chain === opt.value;
+                  return e('button', {
+                    key: opt.value == null ? '__all__' : opt.value,
+                    type: 'button',
+                    className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+                    onClick: function () { setPoolFilters(function (f) { return Object.assign({}, f, { chain: opt.value }); }); }
+                  }, opt.label);
+                })
+              )
+            ) : null,
+            tokenOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+              e('span', { className: 'gp-engine-filter-label' }, t('engineFilterToken')),
+              e('div', { className: 'gp-chips gp-chips-wrap' },
+                [{ value: null, label: t('engineAll') }].concat(
+                  tokenOptions.map(function (tok) { return { value: tok, label: tok }; })
+                ).map(function (opt) {
+                  var isSelected = poolFilters.token === opt.value;
+                  return e('button', {
+                    key: opt.value == null ? '__all__' : opt.value,
+                    type: 'button',
+                    className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+                    onClick: function () { setPoolFilters(function (f) { return Object.assign({}, f, { token: opt.value }); }); }
+                  }, opt.label);
+                })
+              )
+            ) : null,
+            curated.length === 0
+              ? e('div', { className: 'gp-pools-empty' }, t('noPools'))
+              : e('div', { className: 'gp-pool-grid' },
+                  curated.map(function (p, slotIdx) {
+                    var isSwapOpen = openSwapSlot === slotIdx;
+                    var displayedIds = curated.map(function (c) { return c.pool; });
+                    var alts = isSwapOpen
+                      ? poolAlternatives(pools, persona, {
+                          chain: poolFilters.chain || undefined,
+                          token: poolFilters.token || undefined
+                        }, displayedIds, 5)
+                      : [];
+                    return e('div', {
+                      key: p.pool,
+                      className: 'gp-pool-slot' + (isSwapOpen ? ' gp-pool-slot-open' : '')
+                    },
+                      e('a', {
+                        className: 'gp-pool-card', href: '/?pool=' + encodeURIComponent(p.pool),
+                        rel: 'noopener'
+                      },
+                        e('div', { className: 'gp-pool-top' },
+                          e('span', { className: 'gp-pool-symbol' }, p.symbol),
+                          e('span', { className: 'gp-pool-apy' }, formatApy(poolTotalApy(p)))
+                        ),
+                        e('div', { className: 'gp-pool-meta' },
+                          e('span', { className: 'gp-pool-project' }, p.project),
+                          e('span', { className: 'gp-pool-chain' }, p.chain)
+                        ),
+                        e('div', { className: 'gp-pool-foot' },
+                          e('span', { className: 'gp-pool-tvl' }, t('poolTvl') + ' ' + formatTvl(p.tvlUsd)),
+                          e('span', { className: 'gp-pool-link' }, t('viewPool'))
+                        )
+                      ),
+                      e('button', {
+                        type: 'button',
+                        className: 'gp-pool-swap-btn' + (isSwapOpen ? ' is-active' : ''),
+                        'aria-label': isSwapOpen ? t('engineSwapClose') : t('engineSwap'),
+                        onClick: function (ev) { ev.stopPropagation(); setOpenSwapSlot(isSwapOpen ? null : slotIdx); }
+                      }, isSwapOpen ? '×' : t('engineSwap')),
+                      isSwapOpen ? e('div', { className: 'gp-swap-panel' },
+                        alts.length === 0
+                          ? e('div', { className: 'gp-swap-empty' }, t('noPools'))
+                          : alts.map(function (alt) {
+                              return e('button', {
+                                key: alt.pool, type: 'button', className: 'gp-swap-alt',
+                                onClick: function () {
+                                  setSlotPicks(function (prev) { var next = prev.slice(); next[slotIdx] = alt.pool; return next; });
+                                  setOpenSwapSlot(null);
+                                }
+                              },
+                                e('div', { className: 'gp-swap-alt-top' },
+                                  e('span', { className: 'gp-swap-alt-symbol' }, alt.symbol),
+                                  e('span', { className: 'gp-swap-alt-apy' }, formatApy(poolTotalApy(alt)))
+                                ),
+                                e('div', { className: 'gp-swap-alt-meta' },
+                                  e('span', null, alt.project),
+                                  e('span', null, ' · ' + alt.chain)
+                                )
+                              );
+                            })
+                      ) : null
+                    );
+                  })
+                )
+          )
+        ) : null
+      );
+    })() : null;
 
     // CTA element (shared) — opens waitlist modal
     var ctaElement = e('div', { className: 'gp-cta-row gp-animate-in' },
@@ -2472,7 +2590,7 @@
         e('div', { className: 'gp-bloom-layout' },
           e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement),
           e('div', { className: 'gp-bloom-detail' },
-            heroElement, caveatElement, planCardElement, engineElement, askElement
+            heroElement, planCardElement, subCustomizeElement, askElement, caveatElement
           )
         ),
         footElement,
@@ -2489,7 +2607,6 @@
 
       // 1. HERO ANSWER
       heroElement,
-      caveatElement,
 
       // Editable plan summary strip
       e('div', { className: 'gp-plan-strip gp-animate-in' },
@@ -2644,7 +2761,8 @@
       engineElement,
 
       // 5. ASK BOX
-      askElement
+      askElement,
+      caveatElement
         ) // close gp-bloom-detail
       ), // close gp-bloom-layout
       footElement,
@@ -3800,7 +3918,19 @@
                 onClick: function () { pickPersona(card.id); }
               },
                 e('div', { className: 'gp-temp-header' },
-                  e('span', { className: 'gp-temp-emoji' }, card.emoji),
+                  card.protocols.length > 0
+                    ? e('div', { className: 'gp-temp-logo-row' },
+                        card.protocols.map(function (proto) {
+                          return e('img', {
+                            key: proto.project,
+                            src: 'https://icons.llama.fi/' + proto.project + '.png',
+                            className: 'gp-temp-logo',
+                            alt: proto.name,
+                            onError: function (ev) { ev.target.style.display = 'none'; }
+                          });
+                        })
+                      )
+                    : null,
                   e('span', { className: 'gp-temp-title' }, card.title)
                 ),
                 e('div', { className: 'gp-temp-apy-block' },
@@ -3808,22 +3938,7 @@
                   e('div', { className: 'gp-temp-apy-label' }, t('personaApyLabel'))
                 ),
                 card.proj ? e('div', { className: 'gp-temp-proj' }, card.proj) : null,
-                card.protocols.length > 0
-                  ? e('div', { className: 'gp-temp-protocols' },
-                      card.protocols.map(function (proto) {
-                        return e('div', { key: proto.project, className: 'gp-temp-protocol-badge' },
-                          e('img', {
-                            src: 'https://icons.llama.fi/' + proto.project + '.png',
-                            className: 'gp-temp-protocol-icon',
-                            alt: proto.name,
-                            onError: function (ev) { ev.target.style.display = 'none'; }
-                          }),
-                          e('span', { className: 'gp-temp-protocol-name' }, proto.name)
-                        );
-                      })
-                    )
-                  : null,
-                e('div', { className: 'gp-temp-risk' }, '⚠ ' + card.risk)
+                e('div', { className: 'gp-temp-risk' }, card.risk)
               );
             })
           )
