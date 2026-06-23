@@ -431,20 +431,20 @@ const translations = {
       mixCaveatDegen: "until rates drop or decentralization rugs",
 
       // Waitlist CTA
-      ctaWaitlist: "Get your IBAN or card →",
-      ctaWaitlistMicro: "No deposit needed now — fund later",
+      ctaWaitlist: "Get the card your yield pays for →",
+      ctaWaitlistMicro: "Free to join • No deposit now • Your money, always yours",
 
       // Waitlist modal — step 1
-      waitlistTitle: "Get your IBAN or card",
-      waitlistBenefits: "You'll get a real bank IBAN for transfers and virtual cards for subscriptions. Deposit later, at your own pace — your yield covers the bills from day one. You keep the principal forever.",
+      waitlistTitle: "Reserve your yield-funded card",
+      waitlistBenefits: "Deposit once. Your IBAN handles bank transfers. Your cards charge — yield pays the bill, automatically. The principal never leaves your wallet.",
       waitlistGarden: (labels, monthly) => `Your garden already covers ${labels} — ≈${monthly}/mo paid from yield forever.`,
-      waitlistJoin: "Join the waitlist",
+      waitlistJoin: "Reserve my card →",
       waitlistEmailPlaceholder: "your@email.com",
       waitlistError: "Something went wrong — please try again.",
 
       // Waitlist modal — step 2
-      waitlistAccepted: "You're on the list 🌱",
-      waitlistNextSteps: "Once you're accepted: fund your wallet → create disposable cards → point them at your subscriptions → your yield pays the bills. You keep the principal.",
+      waitlistAccepted: "Card reserved 🌱",
+      waitlistNextSteps: "Once accepted: fund your IBAN → your cards activate → yield covers your subscriptions automatically. You keep every dollar of principal.",
       waitlistJumpLine: "Share your garden to jump the line.",
 
       // Referral
@@ -888,20 +888,20 @@ const translations = {
       mixCaveatDegen: "금리가 떨어지거나 탈중앙화가 무너지기 전까지",
 
       // Waitlist CTA
-      ctaWaitlist: "IBAN 또는 카드 받기 →",
-      ctaWaitlistMicro: "지금 입금 불필요 — 나중에 원할 때 입금",
+      ctaWaitlist: "수익이 요금 내주는 카드 받기 →",
+      ctaWaitlistMicro: "무료 가입 • 지금 입금 불필요 • 내 돈은 언제나 내 것",
 
       // Waitlist modal — step 1
-      waitlistTitle: "IBAN 또는 카드 받기",
-      waitlistBenefits: "실제 은행 IBAN과 구독용 가상 카드를 받게 돼요. 입금은 나중에, 원할 때 — 그때부터 수익이 요금을 내줘요. 원금은 영원히 그대로 남아요.",
+      waitlistTitle: "수익 기반 카드 예약하기",
+      waitlistBenefits: "한 번만 입금하면 돼요. IBAN으로 은행 이체를 받고, 카드로 결제하면 — 수익이 자동으로 요금을 내줘요. 원금은 절대 빠져나가지 않아요.",
       waitlistGarden: (labels, monthly) => `내 정원은 이미 ${labels}를 커버해요 — 수익으로 매달 ≈${monthly}씩 영구히 내줄 수 있어요.`,
-      waitlistJoin: "대기자 명단 등록",
+      waitlistJoin: "내 카드 예약하기 →",
       waitlistEmailPlaceholder: "이메일@주소.com",
       waitlistError: "오류가 발생했어요 — 다시 시도해 주세요.",
 
       // Waitlist modal — step 2
-      waitlistAccepted: "명단에 등록됐어요 🌱",
-      waitlistNextSteps: "승인되면: 지갑에 입금 → 일회용 카드 생성 → 구독 서비스에 연결 → 수익이 요금을 내줘요. 원금은 그대로예요.",
+      waitlistAccepted: "카드 예약 완료 🌱",
+      waitlistNextSteps: "승인되면: IBAN에 입금 → 카드 활성화 → 수익이 구독료를 자동으로 내줘요. 원금은 한 푼도 빠지지 않아요.",
       waitlistJumpLine: "내 정원을 공유하면 순서가 빨라져요.",
 
       // Referral
