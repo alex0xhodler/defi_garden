@@ -431,12 +431,12 @@ const translations = {
       mixCaveatDegen: "until rates drop or decentralization rugs",
 
       // Waitlist CTA
-      ctaWaitlist: "Join the waitlist →",
-      ctaWaitlistMicro: "Early access • Self-custody • Your keys",
+      ctaWaitlist: "Get your IBAN or card →",
+      ctaWaitlistMicro: "No deposit needed now — fund later",
 
       // Waitlist modal — step 1
-      waitlistTitle: "Get early access",
-      waitlistBenefits: "A self-custody wallet you fund and hold the keys to. Spin up disposable cards that pay your chosen subscriptions from your deposit — the yield covers the bills. You keep every dollar.",
+      waitlistTitle: "Get your IBAN or card",
+      waitlistBenefits: "You'll get a real bank IBAN for transfers and virtual cards for subscriptions. Deposit later, at your own pace — your yield covers the bills from day one. You keep the principal forever.",
       waitlistGarden: (labels, monthly) => `Your garden already covers ${labels} — ≈${monthly}/mo paid from yield forever.`,
       waitlistJoin: "Join the waitlist",
       waitlistEmailPlaceholder: "your@email.com",
@@ -888,12 +888,12 @@ const translations = {
       mixCaveatDegen: "금리가 떨어지거나 탈중앙화가 무너지기 전까지",
 
       // Waitlist CTA
-      ctaWaitlist: "대기자 명단에 등록 →",
-      ctaWaitlistMicro: "얼리 액세스 • 셀프 커스터디 • 내 키 보유",
+      ctaWaitlist: "IBAN 또는 카드 받기 →",
+      ctaWaitlistMicro: "지금 입금 불필요 — 나중에 원할 때 입금",
 
       // Waitlist modal — step 1
-      waitlistTitle: "얼리 액세스 신청",
-      waitlistBenefits: "직접 키를 보유하는 셀프 커스터디 지갑이에요. 원하는 구독료를 내주는 일회용 카드를 만들어 — 수익이 요금을 대신 내줘요. 원금은 그대로 남아요.",
+      waitlistTitle: "IBAN 또는 카드 받기",
+      waitlistBenefits: "실제 은행 IBAN과 구독용 가상 카드를 받게 돼요. 입금은 나중에, 원할 때 — 그때부터 수익이 요금을 내줘요. 원금은 영원히 그대로 남아요.",
       waitlistGarden: (labels, monthly) => `내 정원은 이미 ${labels}를 커버해요 — 수익으로 매달 ≈${monthly}씩 영구히 내줄 수 있어요.`,
       waitlistJoin: "대기자 명단 등록",
       waitlistEmailPlaceholder: "이메일@주소.com",
