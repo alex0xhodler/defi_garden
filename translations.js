@@ -436,7 +436,11 @@ const translations = {
 
       // Waitlist modal — step 1
       waitlistTitle: "Reserve your yield-funded card",
-      waitlistBenefits: "Deposit once. Your IBAN handles bank transfers. Your cards charge — yield pays the bill, automatically. The principal never leaves your wallet.",
+      waitlistBenefits: function (archetype) {
+        if (archetype === 'growth') return "Your savings compound tax-efficiently in a self-custody wallet. Track real growth vs a bank. Withdraw any time — it's your money, not a pension locked away.";
+        if (archetype === 'target') return "Deposit monthly and let yield accelerate your deadline. Hit your target sooner — and once you're there, the money is yours to keep or spend.";
+        return "Deposit once. Your IBAN handles bank transfers. Your cards charge — yield pays the bill, automatically. The principal never leaves your wallet.";
+      },
       waitlistGarden: (labels, monthly) => `Your garden already covers ${labels} — ≈${monthly}/mo paid from yield forever.`,
       waitlistJoin: "Reserve my card →",
       waitlistEmailPlaceholder: "your@email.com",
@@ -893,7 +897,11 @@ const translations = {
 
       // Waitlist modal — step 1
       waitlistTitle: "수익 기반 카드 예약하기",
-      waitlistBenefits: "한 번만 입금하면 돼요. IBAN으로 은행 이체를 받고, 카드로 결제하면 — 수익이 자동으로 요금을 내줘요. 원금은 절대 빠져나가지 않아요.",
+      waitlistBenefits: function (archetype) {
+        if (archetype === 'growth') return "셀프 커스터디 지갑에서 저축이 세금 효율적으로 복리로 불어나요. 은행과 실제 성장을 비교해보세요. 언제든 출금 가능 — 연금처럼 잠겨 있지 않아요.";
+        if (archetype === 'target') return "매달 입금하면 수익이 목표 달성 시기를 앞당겨줘요. 더 빨리 목표에 도달하고 — 도달하면 그 돈은 그대로 내 것이에요.";
+        return "한 번만 입금하면 돼요. IBAN으로 은행 이체를 받고, 카드로 결제하면 — 수익이 자동으로 요금을 내줘요. 원금은 절대 빠져나가지 않아요.";
+      },
       waitlistGarden: (labels, monthly) => `내 정원은 이미 ${labels}를 커버해요 — 수익으로 매달 ≈${monthly}씩 영구히 내줄 수 있어요.`,
       waitlistJoin: "내 카드 예약하기 →",
       waitlistEmailPlaceholder: "이메일@주소.com",

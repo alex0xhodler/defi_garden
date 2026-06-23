@@ -2400,7 +2400,7 @@
                 e('h2', { className: 'gp-waitlist-title' }, t('waitlistTitle')),
                 e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 1))
               ),
-              e('p', { className: 'gp-waitlist-benefits' }, t('waitlistBenefits')),
+              e('p', { className: 'gp-waitlist-benefits' }, t('waitlistBenefits', archetype)),
               currentMixStats.count > 0
                 ? e('p', { className: 'gp-waitlist-garden-line' },
                     t('waitlistGarden', waitlistLabelStr, formatUsd(currentMixStats.combinedMonthly))
