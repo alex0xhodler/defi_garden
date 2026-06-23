@@ -513,7 +513,20 @@ function PoolDetail({
                 textAlign: 'right',
                 lineHeight: '1.3'
               }
-            }, t ? t('opensProtocol') : 'Opens protocol • Wallet required')
+            }, t ? t('opensProtocol') : 'Opens protocol • Wallet required'),
+
+            React.createElement('a', {
+              className: 'cta-button-planner',
+              href: 'plan.html?fresh=1',
+            }, t ? t('plannerCta') : 'Plan my savings →'),
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                textAlign: 'right',
+                lineHeight: '1.3'
+              }
+            }, t ? t('plannerCtaHint') : 'No wallet needed')
           )
         )
       )

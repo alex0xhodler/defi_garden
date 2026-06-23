@@ -801,6 +801,33 @@
   box-shadow: var(--neuro-shadow-pressed);
 }
 
+.cta-button-planner {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: var(--color-surface);
+  color: var(--color-primary);
+  border: none;
+  border-radius: var(--neuro-radius-lg);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: var(--neuro-shadow-raised);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.cta-button-planner:hover {
+  box-shadow: var(--neuro-shadow-flat);
+}
+
+.cta-button-planner:active {
+  transform: translateY(1px);
+  box-shadow: var(--neuro-shadow-pressed);
+}
+
 /* Quick Metrics Cards */
 .metric-card-simple {
   cursor: default;
