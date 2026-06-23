@@ -763,39 +763,29 @@
 }
 
 /* Enhanced CTA Button */
+/* Primary CTA — Plan my savings (our product) */
 .cta-button-primary {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   padding: 14px 28px;
-  width: 100%;
   background: var(--color-primary);
   color: white;
   border: none;
   border-radius: var(--neuro-radius-lg);
   font-size: var(--font-size-base);
-  font-weight: var(--font-weight-bold);
-  letter-spacing: 0.025em;
-  text-transform: uppercase;
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.01em;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
-  position: relative;
-  overflow: hidden;
-}
-
-.cta-button-primary::before {
-  display: none;
 }
 
 .cta-button-primary:hover {
   box-shadow: var(--neuro-shadow-flat);
-}
-
-.cta-button-primary:hover .arrow {
-  transform: translateX(2px);
+  opacity: 0.92;
 }
 
 .cta-button-primary:active {
@@ -803,32 +793,32 @@
   box-shadow: var(--neuro-shadow-pressed);
 }
 
-.cta-button-planner {
+/* Secondary CTA — external protocol link */
+.cta-button-protocol {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  padding: 12px 24px;
+  gap: 6px;
+  padding: 11px 24px;
   background: var(--color-surface);
-  color: var(--color-primary);
+  color: var(--color-text-secondary);
   border: none;
   border-radius: var(--neuro-radius-lg);
   font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.01em;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
-  letter-spacing: 0.01em;
-  width: 100%;
-  text-align: center;
 }
 
-.cta-button-planner:hover {
+.cta-button-protocol:hover {
   box-shadow: var(--neuro-shadow-flat);
+  color: var(--color-text);
 }
 
-.cta-button-planner:active {
+.cta-button-protocol:active {
   transform: translateY(1px);
   box-shadow: var(--neuro-shadow-pressed);
 }

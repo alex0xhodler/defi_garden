@@ -480,7 +480,7 @@ function PoolDetail({
             )
           ),
 
-          protocolUrlWithRef && React.createElement('div', {
+          React.createElement('div', {
             style: {
               display: 'flex',
               flexDirection: 'column',
@@ -488,37 +488,10 @@ function PoolDetail({
               minWidth: '260px'
             }
           },
-            React.createElement('button', {
-              className: 'cta-button-primary',
-              onClick: () => {
-                // Analytics tracking for protocol link click
-                if (typeof Analytics !== 'undefined') {
-                  Analytics.trackPoolClick(pool, 'protocol_link');
-                }
-                window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
-              },
-            },
-              React.createElement('span', null, t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`),
-              React.createElement('span', {
-                className: 'arrow',
-                style: {
-                  transition: 'transform 0.2s ease'
-                }
-              }, '↗')
-            ),
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-xs)',
-                color: 'var(--color-text-secondary)',
-                textAlign: 'right',
-                lineHeight: '1.3'
-              }
-            }, t ? t('opensProtocol') : 'Opens protocol • Wallet required'),
-
             React.createElement('a', {
-              className: 'cta-button-planner',
+              className: 'cta-button-primary',
               href: 'plan.html?fresh=1',
-              style: { marginTop: '8px', width: '100%', boxSizing: 'border-box' }
+              style: { width: '100%', boxSizing: 'border-box' }
             }, t ? t('plannerCta') : 'Plan my savings →'),
             React.createElement('div', {
               style: {
@@ -527,7 +500,29 @@ function PoolDetail({
                 textAlign: 'right',
                 lineHeight: '1.3'
               }
-            }, t ? t('plannerCtaHint') : 'No wallet needed')
+            }, t ? t('plannerCtaHint') : 'No wallet needed'),
+
+            protocolUrlWithRef && React.createElement('button', {
+              className: 'cta-button-protocol',
+              style: { marginTop: '8px', width: '100%', boxSizing: 'border-box' },
+              onClick: () => {
+                if (typeof Analytics !== 'undefined') {
+                  Analytics.trackPoolClick(pool, 'protocol_link');
+                }
+                window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
+              },
+            },
+              React.createElement('span', null, t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`),
+              React.createElement('span', { style: { transition: 'transform 0.2s ease' } }, ' ↗')
+            ),
+            protocolUrlWithRef && React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                textAlign: 'right',
+                lineHeight: '1.3'
+              }
+            }, t ? t('opensProtocol') : 'Opens protocol • Wallet required')
           )
         )
       )
