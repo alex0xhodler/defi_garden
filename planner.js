@@ -1353,6 +1353,10 @@
     var slideCapital = slideCapitalState[0], setSlideCapital = slideCapitalState[1];
     useEffect(function () { if (propCapital) setSlideCapital(propCapital); }, [propCapital]);
 
+    // Checkout panel deposit mode — user can toggle between one-time and monthly
+    var checkoutModeState = useState(isCapitalPath ? 'capital' : 'monthly');
+    var checkoutMode = checkoutModeState[0], setCheckoutMode = checkoutModeState[1];
+
     // Dynamic slider max — for subscription goals with large forever numbers (e.g. rent ~$390k)
     // the fixed 50k max would clamp the initial value and make the slider useless.
     // Cap at $2M to prevent degenerate APYs from producing absurd ranges.
@@ -1866,7 +1870,6 @@
         });
         var heroBundleList = joinBundle(heroLabels);
         heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in gp-instant-win' },
-          e('div', { className: 'gp-instant-win-eyebrow' }, t('subHeroWinEyebrow')),
           e('div', { className: 'gp-headline-figure' },
             heroMix.count >= 2 ? t('subHeroWinBundleMany', heroBundleList) : t('subHeroWinBundle', heroBundleList)
           ),
@@ -2519,33 +2522,27 @@
       chkServiceName = goalLabel(t, goal);
       chkServiceEmoji = checkoutGoalDef ? checkoutGoalDef.emoji : '🌱';
     }
-    var chkPrice, chkPriceLabel, chkValueProp, chkDetailRows;
-    if (archetype === 'subscription') {
-      var chkCapital = isCapitalPath ? slideCapital : (currentMixStats && currentMixStats.neededCapital > 0 ? currentMixStats.neededCapital : null);
-      var chkYield = chkCapital && apy > 0 ? Math.round(chkCapital * apy / 100 / 12) : null;
-      chkPrice = chkCapital ? formatUsdRounded(chkCapital) : '—';
-      chkPriceLabel = t('checkoutPriceLabelCapital');
+    var chkIsCapital = checkoutMode === 'capital';
+    var chkBaseCapital = archetype === 'subscription'
+      ? (isCapitalPath ? slideCapital : (currentMixStats && currentMixStats.neededCapital > 0 ? currentMixStats.neededCapital : slideCapital))
+      : slideCapital;
+    var chkPrice, chkValueProp, chkDetailRows;
+    if (chkIsCapital) {
+      var chkYield = chkBaseCapital && apy > 0 ? Math.round(chkBaseCapital * apy / 100 / 12) : null;
+      chkPrice = chkBaseCapital ? formatUsdRounded(chkBaseCapital) : '—';
       chkValueProp = chkYield ? t('checkoutHeroSub', formatUsd(chkYield)) : null;
       chkDetailRows = [
         { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
         { label: t('checkoutYouKeep'), value: t('checkoutYouKeepVal') }
       ];
-    } else if (archetype === 'target' && isCapitalPath) {
-      var chkYield2 = slideCapital && apy > 0 ? Math.round(slideCapital * apy / 100 / 12) : null;
-      chkPrice = formatUsdRounded(slideCapital);
-      chkPriceLabel = t('checkoutPriceLabelCapital');
-      chkValueProp = chkYield2 ? t('checkoutHeroSub', formatUsd(chkYield2)) : null;
-      chkDetailRows = [
-        { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
-        { label: t('checkoutYouKeep'), value: t('checkoutYouKeepVal') }
-      ];
     } else {
-      chkPrice = formatUsd(slideMonthly) + '/mo';
-      chkPriceLabel = t('checkoutPriceLabelMonthly');
-      chkValueProp = t('checkoutHeroGrowth', formatUsdRounded(liveProjection), slideYears);
+      var chkMo = slideMonthly || Math.max(50, Math.round((chkBaseCapital || 5000) / 60));
+      var chkMonthlyFv = futureValue(chkMo, apy || 5, slideYears || 3);
+      chkPrice = formatUsd(chkMo) + '/mo';
+      chkValueProp = t('checkoutHeroGrowth', formatUsdRounded(chkMonthlyFv), slideYears || 3);
       chkDetailRows = [
         { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
-        { label: t('checkoutTimeline'), value: slideYears + ' ' + t('yearsShort') }
+        { label: t('checkoutTimeline'), value: (slideYears || 3) + ' ' + t('yearsShort') }
       ];
     }
 
@@ -2556,7 +2553,18 @@
       ),
       e('div', { className: 'gp-checkout-price-block' },
         e('div', { className: 'gp-checkout-price' }, chkPrice),
-        e('div', { className: 'gp-checkout-price-label' }, chkPriceLabel)
+        e('div', { className: 'gp-checkout-mode-toggle' },
+          e('button', {
+            type: 'button',
+            className: 'gp-checkout-mode-btn' + (checkoutMode === 'capital' ? ' is-active' : ''),
+            onClick: function () { setCheckoutMode('capital'); }
+          }, t('checkoutModeOneTime')),
+          e('button', {
+            type: 'button',
+            className: 'gp-checkout-mode-btn' + (checkoutMode === 'monthly' ? ' is-active' : ''),
+            onClick: function () { setCheckoutMode('monthly'); }
+          }, t('checkoutModeMonthly'))
+        )
       ),
       chkValueProp ? e('p', { className: 'gp-checkout-value-prop' }, chkValueProp) : null,
       e('div', { className: 'gp-checkout-detail-rows' },

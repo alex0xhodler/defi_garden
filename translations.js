@@ -193,6 +193,8 @@ const translations = {
       checkoutProjected: "Projected value",
       checkoutPriceLabelCapital: "one-time capital",
       checkoutPriceLabelMonthly: "monthly deposit",
+      checkoutModeOneTime: "One-time",
+      checkoutModeMonthly: "Monthly",
       checkoutHeroSub: (yld) => `generates ${yld}/mo — yours to keep`,
       checkoutHeroGrowth: (amt, yrs) => `grows to ${amt} in ${yrs} yrs`,
       trustSelfCustody: "Self-custody",
@@ -346,9 +348,9 @@ const translations = {
       tangibilityCoffee: "coffee",
 
       // v3 — SUBSCRIPTION hero + ladder
-      subHeroWin: (goal) => `Your money pays for ${goal}. Forever. Starting now.`,
-      subHeroWinBundle: (list) => `Your money pays for ${list}. Forever. Starting now.`,
-      subHeroWinBundleMany: (list) => `Your money pays for ${list} — forever.`,
+      subHeroWin: (goal) => `Your money pays for ${goal}. Starting now.`,
+      subHeroWinBundle: (list) => `Your money pays for ${list}. Starting now.`,
+      subHeroWinBundleMany: (list) => `Your money pays for ${list}.`,
       stripMore: (n) => `+${n} more`,
       subHeroWinEyebrow: "∞ Forever unlocked",
       subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt} covers ${billMo}/mo of bills at ${apyStr} — and you keep every dollar.`,
@@ -664,6 +666,8 @@ const translations = {
       checkoutProjected: "예상 금액",
       checkoutPriceLabelCapital: "일회성 자본",
       checkoutPriceLabelMonthly: "월 납입",
+      checkoutModeOneTime: "일회 입금",
+      checkoutModeMonthly: "월 납입",
       checkoutHeroSub: (yld) => `월 ${yld} 수익 — 원금은 그대로`,
       checkoutHeroGrowth: (amt, yrs) => `${yrs}년 후 ${amt}로 성장`,
       trustSelfCustody: "셀프 커스터디",
@@ -807,9 +811,9 @@ const translations = {
       tangibilityCoffee: "커피",
 
       // v3 — SUBSCRIPTION hero + ladder
-      subHeroWin: (goal) => `내 돈이 ${goal}을 영원히 내줘요. 지금 바로.`,
-      subHeroWinBundle: (list) => `내 돈이 ${list}을 영원히 내줘요. 지금 바로.`,
-      subHeroWinBundleMany: (list) => `내 돈이 ${list}을 영원히 내줘요.`,
+      subHeroWin: (goal) => `내 돈이 ${goal} 요금을 내줘요. 지금 바로.`,
+      subHeroWinBundle: (list) => `내 돈이 ${list} 요금을 내줘요. 지금 바로.`,
+      subHeroWinBundleMany: (list) => `내 돈이 ${list} 요금을 내줘요.`,
       stripMore: (n) => `+${n}개 더`,
       subHeroWinEyebrow: "∞ 영구 달성",
       subHeroWinCovers: (foreverAmt, billMo, apyStr) => `≈${foreverAmt}이 ${apyStr}로 월 ${billMo} 요금을 커버해요 — 원금은 그대로예요.`,

@@ -486,6 +486,38 @@
   font-weight: var(--font-weight-medium);
 }
 
+/* Deposit mode toggle — One-time | Monthly */
+.gp-checkout-mode-toggle {
+  display: inline-flex;
+  gap: 2px;
+  background: var(--color-surface-inset, rgba(0,0,0,0.06));
+  border-radius: var(--neuro-radius-sm);
+  padding: 2px;
+  margin-top: 4px;
+}
+.gp-checkout-mode-btn {
+  font-size: 11px;
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 10px;
+  border-radius: calc(var(--neuro-radius-sm) - 2px);
+  border: none;
+  background: transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+  line-height: 1.4;
+}
+.gp-checkout-mode-btn.is-active {
+  background: var(--color-surface);
+  color: var(--color-text);
+  box-shadow: var(--neuro-shadow-subtle);
+}
+.gp-checkout-mode-btn:not(.is-active):hover {
+  color: var(--color-text);
+}
+
 /* Value prop sentence */
 .gp-checkout-value-prop {
   font-size: var(--font-size-sm);
