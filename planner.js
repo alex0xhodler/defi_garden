@@ -3290,15 +3290,28 @@
 
     useEffect(function () {
       var alive = true;
-      fetch(POOLS_API)
-        .then(function (r) { return r.json(); })
-        .then(function (j) {
-          if (!alive) return;
-          setPools((j && j.data) || []);
-          setLoadStatus('ready');
-        })
-        .catch(function () { if (alive) setLoadStatus('error'); });
-      return function () { alive = false; };
+      function startFetch() {
+        if (!alive) return;
+        fetch(POOLS_API)
+          .then(function (r) { return r.json(); })
+          .then(function (j) {
+            if (!alive) return;
+            setPools((j && j.data) || []);
+            setLoadStatus('ready');
+          })
+          .catch(function () { if (alive) setLoadStatus('error'); });
+      }
+      var id;
+      if (typeof requestIdleCallback !== 'undefined') {
+        id = requestIdleCallback(startFetch, { timeout: 2000 });
+      } else {
+        id = setTimeout(startFetch, 200);
+      }
+      return function () {
+        alive = false;
+        if (typeof cancelIdleCallback !== 'undefined') cancelIdleCallback(id);
+        else clearTimeout(id);
+      };
     }, []);
 
     // A1: stable guidance APY for step-2 chip hints (pinned to 'stable' persona)
