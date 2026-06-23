@@ -414,115 +414,58 @@ function PoolDetail({
           )
         ),
 
-        // Right side - APY and CTA
+        // Right side — unified action card
         React.createElement('div', {
-          className: 'apy-cta-section',
-          style: {
-            textAlign: 'right',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'flex-end',
-            gap: '16px'
-          }
+          className: 'pool-action-card'
         },
-          React.createElement('div', {
-            className: 'apy-display-hero',
-            style: {
-              display: 'inline-flex',
-              flexDirection: 'column',
-              alignItems: 'flex-end',
-              padding: '20px 24px',
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-lg)',
-              boxShadow: 'var(--neuro-shadow-pressed)',
-              minWidth: '200px'
-            }
-          },
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-sm)',
-                color: 'var(--color-text-secondary)',
-                marginBottom: '4px',
-                textTransform: 'uppercase',
-                letterSpacing: '0.5px',
-                fontWeight: 'var(--font-weight-medium)'
-              }
-            }, t ? t('totalApy') : 'Total APY'),
-            React.createElement('div', {
-              className: 'apy-value-hero',
-              style: {
-                fontSize: 'var(--font-size-3xl)',
-                fontWeight: '900',
-                background: 'linear-gradient(135deg, var(--color-primary) 0%, var(--color-forest) 100%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text',
-                lineHeight: '1.1',
-                marginBottom: (pool.apyBase > 0 && pool.apyReward > 0) ? '6px' : '0'
-              }
-            }, AnimatedNumber ? React.createElement(AnimatedNumber, {
-              value: (pool.apyBase || 0) + (pool.apyReward || 0),
-              formatFn: (v) => _formatApy(v),
-              duration: 1500
-            }) : formatAPY(pool.apyBase, pool.apyReward)),
-
-            // APY Breakdown when both base and reward exist
+          // APY section
+          React.createElement('div', { className: 'pool-action-apy' },
+            React.createElement('div', { className: 'pool-action-apy-label' },
+              t ? t('totalApy') : 'Total APY'
+            ),
+            React.createElement('div', { className: 'apy-value-hero' },
+              AnimatedNumber ? React.createElement(AnimatedNumber, {
+                value: (pool.apyBase || 0) + (pool.apyReward || 0),
+                formatFn: (v) => _formatApy(v),
+                duration: 1500
+              }) : formatAPY(pool.apyBase, pool.apyReward)
+            ),
             (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-xs)',
-                color: 'var(--color-text-secondary)',
-                textAlign: 'right',
-                lineHeight: '1.3'
-              }
+              className: 'pool-action-apy-breakdown'
             },
-              React.createElement('div', null, t ? t('baseApyBreakdown', _formatApy(pool.apyBase).replace('%','')) : `${_formatApy(pool.apyBase)} Base`),
-              React.createElement('div', null, t ? t('rewardApyBreakdown', _formatApy(pool.apyReward).replace('%','')) : `+ ${_formatApy(pool.apyReward)} Rewards`)
+              React.createElement('span', null, t ? t('baseApyBreakdown', _formatApy(pool.apyBase).replace('%','')) : `${_formatApy(pool.apyBase)} Base`),
+              React.createElement('span', { className: 'pool-action-apy-sep' }, ' · '),
+              React.createElement('span', null, t ? t('rewardApyBreakdown', _formatApy(pool.apyReward).replace('%','')) : `+${_formatApy(pool.apyReward)} Rewards`)
             )
           ),
 
-          React.createElement('div', {
-            style: {
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '8px',
-              minWidth: '260px'
+          // Divider
+          React.createElement('div', { className: 'pool-action-divider' }),
+
+          // Primary CTA — planner
+          React.createElement('a', {
+            className: 'cta-button-primary',
+            href: 'plan.html?fresh=1'
+          }, t ? t('plannerCta') : 'Plan my savings →'),
+          React.createElement('p', { className: 'pool-action-hint' },
+            t ? t('plannerCtaHint') : 'No wallet needed'
+          ),
+
+          // Secondary — protocol link (text only)
+          protocolUrlWithRef && React.createElement('button', {
+            className: 'pool-action-protocol-link',
+            onClick: () => {
+              if (typeof Analytics !== 'undefined') {
+                Analytics.trackPoolClick(pool, 'protocol_link');
+              }
+              window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
             }
           },
-            React.createElement('a', {
-              className: 'cta-button-primary',
-              href: 'plan.html?fresh=1',
-              style: { width: '100%', boxSizing: 'border-box' }
-            }, t ? t('plannerCta') : 'Plan my savings →'),
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-xs)',
-                color: 'var(--color-text-secondary)',
-                textAlign: 'right',
-                lineHeight: '1.3'
-              }
-            }, t ? t('plannerCtaHint') : 'No wallet needed'),
-
-            protocolUrlWithRef && React.createElement('button', {
-              className: 'cta-button-protocol',
-              style: { marginTop: '8px', width: '100%', boxSizing: 'border-box' },
-              onClick: () => {
-                if (typeof Analytics !== 'undefined') {
-                  Analytics.trackPoolClick(pool, 'protocol_link');
-                }
-                window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
-              },
-            },
-              React.createElement('span', null, t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`),
-              React.createElement('span', { style: { transition: 'transform 0.2s ease' } }, ' ↗')
-            ),
-            protocolUrlWithRef && React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-xs)',
-                color: 'var(--color-text-secondary)',
-                textAlign: 'right',
-                lineHeight: '1.3'
-              }
-            }, t ? t('opensProtocol') : 'Opens protocol • Wallet required')
+            t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`,
+            ' ↗'
+          ),
+          protocolUrlWithRef && React.createElement('p', { className: 'pool-action-hint pool-action-hint--muted' },
+            t ? t('opensProtocol') : 'Opens protocol · Wallet required'
           )
         )
       )
