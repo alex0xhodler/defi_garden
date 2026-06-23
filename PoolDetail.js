@@ -484,8 +484,8 @@ function PoolDetail({
             style: {
               display: 'flex',
               flexDirection: 'column',
-              alignItems: 'flex-end',
-              gap: '8px'
+              gap: '8px',
+              minWidth: '260px'
             }
           },
             React.createElement('button', {
@@ -518,6 +518,7 @@ function PoolDetail({
             React.createElement('a', {
               className: 'cta-button-planner',
               href: 'plan.html?fresh=1',
+              style: { marginTop: '8px', width: '100%', boxSizing: 'border-box' }
             }, t ? t('plannerCta') : 'Plan my savings →'),
             React.createElement('div', {
               style: {

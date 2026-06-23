@@ -764,10 +764,12 @@
 
 /* Enhanced CTA Button */
 .cta-button-primary {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   padding: 14px 28px;
+  width: 100%;
   background: var(--color-primary);
   color: white;
   border: none;
@@ -802,8 +804,9 @@
 }
 
 .cta-button-planner {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   padding: 12px 24px;
   background: var(--color-surface);
@@ -817,6 +820,8 @@
   box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
   letter-spacing: 0.01em;
+  width: 100%;
+  text-align: center;
 }
 
 .cta-button-planner:hover {
