@@ -968,6 +968,20 @@
   flex: 1;
   min-width: 200px;
 }
+.gp-press-mention {
+  margin: 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  opacity: 0.7;
+  text-align: center;
+  width: 100%;
+}
+.gp-press-mention a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.gp-press-mention a:hover { opacity: 1; color: var(--color-text); }
 .gp-share-btn {
   flex-shrink: 0;
   border: none;

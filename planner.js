@@ -2342,6 +2342,14 @@
         navigator.share ? e('button', { type: 'button', className: 'gp-share-btn', onClick: doNativeShare },
           '↗ ' + t('shareNative')
         ) : null
+      ),
+      e('p', { className: 'gp-press-mention' },
+        t('pressFeatureLabel') + ' ',
+        e('a', {
+          href: 'https://leviathannews.xyz/258992/turn-4k-in-stablecoins-into-a-free-chatgpt-pro-subscription-earn-yield-cover-the-fee-and-keep-every-dollar-with-no-tokens-locked-50-spots-available',
+          target: '_blank',
+          rel: 'noopener'
+        }, t('pressFeatureName'))
       )
     );
 

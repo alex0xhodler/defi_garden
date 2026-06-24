@@ -279,6 +279,8 @@ const translations = {
       speedupDisciplined: (amt, months) => `Tuck away ${amt}/mo on top and you'd reach it about ${months} month${months === 1 ? '' : 's'} sooner.`,
 
       disclaimer: "Estimates from live pool rates — they change daily. Education, not advice.",
+      pressFeatureLabel: "As featured on",
+      pressFeatureName: "Leviathan News",
       share: "Share my garden",
       sharePrepping: "Drawing…",
       shareLink: "Copy link",
@@ -744,6 +746,8 @@ const translations = {
       speedupDisciplined: (amt, months) => `매달 ${amt}씩 더 모으면 약 ${months}개월 더 빨리 도달합니다.`,
 
       disclaimer: "실시간 풀 수익률 기반 추정치이며 매일 변동됩니다. 투자 조언이 아닌 교육용입니다.",
+      pressFeatureLabel: "소개된 곳",
+      pressFeatureName: "Leviathan News",
       share: "내 정원 공유하기",
       sharePrepping: "그리는 중…",
       shareLink: "링크 복사",
