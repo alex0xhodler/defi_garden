@@ -50,3 +50,8 @@ scripts/dashboard-server.js
 scripts/ai-growth-generator.js
 stories/custom-personas.json
 stories/growth-proposals.json
+
+# Private PM Plans & Task Specifications
+.agent-reviews/
+docs/*.md
+docs/pending-task-*.md
