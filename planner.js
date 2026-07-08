@@ -626,6 +626,17 @@
     return PERSONAS[pk] && PERSONAS[pk].degenHaircut ? raw / 3 : raw;
   }
 
+  // Human-readable protocol name from pool.project slug (e.g. "aave-v3" → "Aave")
+  function formatProjectName(project) {
+    return (project || '')
+      .replace(/-v[0-9]+(\.[0-9]+)?$/, '')
+      .replace(/-(savings|lending|protocol|finance|swap|staking)$/i, '')
+      .split('-')
+      .map(function (w) { return w ? w.charAt(0).toUpperCase() + w.slice(1) : ''; })
+      .join(' ')
+      .trim();
+  }
+
   // ---------------------------------------------------------------------------
   // Goal model — two-tier archetype system
   // ---------------------------------------------------------------------------
@@ -1342,6 +1353,10 @@
     var slideCapital = slideCapitalState[0], setSlideCapital = slideCapitalState[1];
     useEffect(function () { if (propCapital) setSlideCapital(propCapital); }, [propCapital]);
 
+    // Checkout panel deposit mode — user can toggle between one-time and monthly
+    var checkoutModeState = useState(isCapitalPath ? 'capital' : 'monthly');
+    var checkoutMode = checkoutModeState[0], setCheckoutMode = checkoutModeState[1];
+
     // Dynamic slider max — for subscription goals with large forever numbers (e.g. rent ~$390k)
     // the fixed 50k max would clamp the initial value and make the slider useless.
     // Cap at $2M to prevent degenerate APYs from producing absurd ranges.
@@ -1468,6 +1483,18 @@
     // YOUR PLAN card — risk dropdown open state
     var riskOpenState = useState(false);
     var riskOpen = riskOpenState[0], setRiskOpen = riskOpenState[1];
+    // subscription: combined risk+engine customize panel (collapsed by default)
+    var planCustomizeOpenState = useState(false);
+    var planCustomizeOpen = planCustomizeOpenState[0], setPlanCustomizeOpen = planCustomizeOpenState[1];
+    // growth/target: risk row expanded (collapsed by default)
+    var riskExpandedState = useState(false);
+    var riskExpanded = riskExpandedState[0], setRiskExpanded = riskExpandedState[1];
+    // growth/target: engine expanded (collapsed by default)
+    var engineOpenState = useState(false);
+    var engineOpen = engineOpenState[0], setEngineOpen = engineOpenState[1];
+    // growth/target customize expanded (collapsed by default)
+    var makeitExpandedState = useState(false);
+    var makeitExpanded = makeitExpandedState[0], setMakeitExpanded = makeitExpandedState[1];
 
     // Waitlist modal state
     var waitlistOpenState = useState(false);
@@ -1809,7 +1836,6 @@
         });
         var heroBundleList = joinBundle(heroLabels);
         heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in gp-instant-win' },
-          e('div', { className: 'gp-instant-win-eyebrow' }, t('subHeroWinEyebrow')),
           e('div', { className: 'gp-headline-figure' },
             heroMix.count >= 2 ? t('subHeroWinBundleMany', heroBundleList) : t('subHeroWinBundle', heroBundleList)
           ),
@@ -1912,79 +1938,40 @@
       );
     })() : null;
 
+    // Shared persona options + risk label (used in plan card, makeit compact, and engine)
+    var sharedPersonaOptions = [
+      { key: 'stable', shortKey: 'personaStableShort', titleKey: 'personaStableTitle' },
+      { key: 'rwa',    shortKey: 'personaRwaShort',    titleKey: 'personaRwaTitle' },
+      { key: 'degen',  shortKey: 'personaDegenShort',  titleKey: 'personaDegenTitle' }
+    ];
+    var sharedCurrentPersonaOpt = sharedPersonaOptions.filter(function (p) { return p.key === pk; })[0] || sharedPersonaOptions[0];
+    var currentRiskLabel = t(sharedCurrentPersonaOpt.shortKey);
+
     // YOUR PLAN card — subscription-only consolidated control block
     var planCardElement = archetype === 'subscription' ? (function () {
-      var personaOptions = [
-        { key: 'stable', shortKey: 'personaStableShort', titleKey: 'personaStableTitle' },
-        { key: 'rwa',    shortKey: 'personaRwaShort',    titleKey: 'personaRwaTitle' },
-        { key: 'degen',  shortKey: 'personaDegenShort',  titleKey: 'personaDegenTitle' }
-      ];
-      var currentPersonaOpt = personaOptions.filter(function (p) { return p.key === pk; })[0] || personaOptions[0];
-      var currentRiskLabel = t(currentPersonaOpt.shortKey);
-
       return e('div', { className: 'gp-plan-card gp-animate-in' },
         e('div', { className: 'gp-plan-card-title' }, t('planCardTitle')),
-
-        // 1. Cover: mix toggle list
         e('div', { className: 'gp-plan-card-cover' },
           mixElement
-        ),
-
-        e('div', { className: 'gp-plan-card-divider' }),
-
-        // 2. Risk dropdown
-        e('div', { className: 'gp-plan-risk' },
-          e('span', { className: 'gp-plan-risk-label' }, t('riskLabel')),
-          e('div', { style: { position: 'relative' } },
-            e('button', {
-              type: 'button',
-              className: 'gp-risk-toggle',
-              'aria-haspopup': 'listbox',
-              'aria-expanded': riskOpen ? 'true' : 'false',
-              onClick: function () { setRiskOpen(function (v) { return !v; }); },
-              onKeyDown: function (ev) {
-                if (ev.key === 'Escape') { setRiskOpen(false); }
-              }
-            },
-              currentRiskLabel, ' ▾'
-            ),
-            riskOpen ? e('div', {
-              className: 'gp-risk-menu',
-              role: 'listbox',
-              'aria-label': t('riskLabel')
-            },
-              personaOptions.map(function (p) {
-                var isSelected = pk === p.key;
-                return e('button', {
-                  key: p.key,
-                  type: 'button',
-                  role: 'option',
-                  'aria-selected': isSelected ? 'true' : 'false',
-                  className: 'gp-risk-option' + (isSelected ? ' is-selected' : ''),
-                  onClick: function () {
-                    if (props.onWhatIf) props.onWhatIf('persona:' + p.key);
-                    setRiskOpen(false);
-                  },
-                  onKeyDown: function (ev) {
-                    if (ev.key === 'Escape') { setRiskOpen(false); }
-                  }
-                },
-                  e('span', { className: 'gp-risk-option-short' }, t(p.shortKey)),
-                  e('span', { className: 'gp-risk-option-title' }, t(p.titleKey))
-                );
-              })
-            ) : null
-          )
         )
       );
     })() : null;
 
-    // Engine room element (shared)
+    // Engine room element (shared) — collapsed by default
     var engineElement = e('div', { className: 'gp-pools gp-animate-in' },
-      e('div', { className: 'gp-pools-heading' },
-        t('poolsHeading'),
-        e('span', { className: 'gp-blended-badge' }, t('blendedBadge', formatApy(apy)))
+      e('button', {
+        type: 'button',
+        className: 'gp-pools-toggle',
+        onClick: function () { setEngineOpen(function (v) { return !v; }); },
+        'aria-expanded': engineOpen ? 'true' : 'false'
+      },
+        e('div', { className: 'gp-pools-heading' },
+          t('poolsHeading'),
+          e('span', { className: 'gp-blended-badge' }, t('blendedBadge', formatApy(apy)))
+        ),
+        e('span', { className: 'gp-engine-chevron' + (engineOpen ? ' is-open' : '') }, '▾')
       ),
+      engineOpen ? e('div', { className: 'gp-engine-body' },
       isDegenPersona ? e('div', { className: 'gp-degen-warning' },
         t('degenHaircutNote', formatApy(rawApy))
       ) : null,
@@ -2104,7 +2091,168 @@
               );
             })
           )
+      ) : null // close engineOpen body
     );
+
+    // Subscription-only: combined Risk + Engine "Customize" panel
+    var subCustomizeElement = archetype === 'subscription' ? (function () {
+      var personaOptions = sharedPersonaOptions;
+      return e('div', { className: 'gp-sub-customize gp-animate-in' },
+        e('button', {
+          type: 'button',
+          className: 'gp-sub-customize-trigger',
+          onClick: function () { setPlanCustomizeOpen(function (v) { return !v; }); },
+          'aria-expanded': planCustomizeOpen ? 'true' : 'false'
+        },
+          e('div', { className: 'gp-sub-customize-summary' },
+            e('span', { className: 'gp-sub-customize-risk' }, currentRiskLabel),
+            e('span', { className: 'gp-sub-customize-sep' }, '·'),
+            e('span', { className: 'gp-sub-customize-rate' }, formatApy(apy) + ' blended')
+          ),
+          e('span', { className: 'gp-sub-customize-cta' },
+            t('riskEdit'),
+            e('span', { className: 'gp-engine-chevron' + (planCustomizeOpen ? ' is-open' : '') }, ' ▾')
+          )
+        ),
+        planCustomizeOpen ? e('div', { className: 'gp-sub-customize-body' },
+          // Risk picker
+          e('div', { className: 'gp-sub-customize-section' },
+            e('div', { className: 'gp-plan-risk' },
+              e('span', { className: 'gp-plan-risk-label' }, t('riskLabel')),
+              e('div', { style: { position: 'relative' } },
+                e('button', {
+                  type: 'button',
+                  className: 'gp-risk-toggle',
+                  'aria-haspopup': 'listbox',
+                  'aria-expanded': riskOpen ? 'true' : 'false',
+                  onClick: function () { setRiskOpen(function (v) { return !v; }); },
+                  onKeyDown: function (ev) { if (ev.key === 'Escape') setRiskOpen(false); }
+                }, currentRiskLabel, ' ▾'),
+                riskOpen ? e('div', {
+                  className: 'gp-risk-menu', role: 'listbox', 'aria-label': t('riskLabel')
+                },
+                  personaOptions.map(function (p) {
+                    var isSelected = pk === p.key;
+                    return e('button', {
+                      key: p.key, type: 'button', role: 'option',
+                      'aria-selected': isSelected ? 'true' : 'false',
+                      className: 'gp-risk-option' + (isSelected ? ' is-selected' : ''),
+                      onClick: function () { if (props.onWhatIf) props.onWhatIf('persona:' + p.key); setRiskOpen(false); },
+                      onKeyDown: function (ev) { if (ev.key === 'Escape') setRiskOpen(false); }
+                    },
+                      e('span', { className: 'gp-risk-option-short' }, t(p.shortKey)),
+                      e('span', { className: 'gp-risk-option-title' }, t(p.titleKey))
+                    );
+                  })
+                ) : null
+              )
+            )
+          ),
+          // Engine: degen warning + filters + pool grid
+          e('div', { className: 'gp-sub-customize-section' },
+            isDegenPersona ? e('div', { className: 'gp-degen-warning' },
+              t('degenHaircutNote', formatApy(rawApy))
+            ) : null,
+            chainOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+              e('span', { className: 'gp-engine-filter-label' }, t('engineFilterChain')),
+              e('div', { className: 'gp-chips gp-chips-wrap' },
+                [{ value: null, label: t('engineAll') }].concat(
+                  chainOptions.map(function (c) { return { value: c, label: c }; })
+                ).map(function (opt) {
+                  var isSelected = poolFilters.chain === opt.value;
+                  return e('button', {
+                    key: opt.value == null ? '__all__' : opt.value,
+                    type: 'button',
+                    className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+                    onClick: function () { setPoolFilters(function (f) { return Object.assign({}, f, { chain: opt.value }); }); }
+                  }, opt.label);
+                })
+              )
+            ) : null,
+            tokenOptions.length > 1 ? e('div', { className: 'gp-engine-filter-row' },
+              e('span', { className: 'gp-engine-filter-label' }, t('engineFilterToken')),
+              e('div', { className: 'gp-chips gp-chips-wrap' },
+                [{ value: null, label: t('engineAll') }].concat(
+                  tokenOptions.map(function (tok) { return { value: tok, label: tok }; })
+                ).map(function (opt) {
+                  var isSelected = poolFilters.token === opt.value;
+                  return e('button', {
+                    key: opt.value == null ? '__all__' : opt.value,
+                    type: 'button',
+                    className: 'gp-chip gp-engine-chip' + (isSelected ? ' is-selected' : ''),
+                    onClick: function () { setPoolFilters(function (f) { return Object.assign({}, f, { token: opt.value }); }); }
+                  }, opt.label);
+                })
+              )
+            ) : null,
+            curated.length === 0
+              ? e('div', { className: 'gp-pools-empty' }, t('noPools'))
+              : e('div', { className: 'gp-pool-grid' },
+                  curated.map(function (p, slotIdx) {
+                    var isSwapOpen = openSwapSlot === slotIdx;
+                    var displayedIds = curated.map(function (c) { return c.pool; });
+                    var alts = isSwapOpen
+                      ? poolAlternatives(pools, persona, {
+                          chain: poolFilters.chain || undefined,
+                          token: poolFilters.token || undefined
+                        }, displayedIds, 5)
+                      : [];
+                    return e('div', {
+                      key: p.pool,
+                      className: 'gp-pool-slot' + (isSwapOpen ? ' gp-pool-slot-open' : '')
+                    },
+                      e('a', {
+                        className: 'gp-pool-card', href: '/?pool=' + encodeURIComponent(p.pool),
+                        rel: 'noopener'
+                      },
+                        e('div', { className: 'gp-pool-top' },
+                          e('span', { className: 'gp-pool-symbol' }, p.symbol),
+                          e('span', { className: 'gp-pool-apy' }, formatApy(poolTotalApy(p)))
+                        ),
+                        e('div', { className: 'gp-pool-meta' },
+                          e('span', { className: 'gp-pool-project' }, p.project),
+                          e('span', { className: 'gp-pool-chain' }, p.chain)
+                        ),
+                        e('div', { className: 'gp-pool-foot' },
+                          e('span', { className: 'gp-pool-tvl' }, t('poolTvl') + ' ' + formatTvl(p.tvlUsd)),
+                          e('span', { className: 'gp-pool-link' }, t('viewPool'))
+                        )
+                      ),
+                      e('button', {
+                        type: 'button',
+                        className: 'gp-pool-swap-btn' + (isSwapOpen ? ' is-active' : ''),
+                        'aria-label': isSwapOpen ? t('engineSwapClose') : t('engineSwap'),
+                        onClick: function (ev) { ev.stopPropagation(); setOpenSwapSlot(isSwapOpen ? null : slotIdx); }
+                      }, isSwapOpen ? '×' : t('engineSwap')),
+                      isSwapOpen ? e('div', { className: 'gp-swap-panel' },
+                        alts.length === 0
+                          ? e('div', { className: 'gp-swap-empty' }, t('noPools'))
+                          : alts.map(function (alt) {
+                              return e('button', {
+                                key: alt.pool, type: 'button', className: 'gp-swap-alt',
+                                onClick: function () {
+                                  setSlotPicks(function (prev) { var next = prev.slice(); next[slotIdx] = alt.pool; return next; });
+                                  setOpenSwapSlot(null);
+                                }
+                              },
+                                e('div', { className: 'gp-swap-alt-top' },
+                                  e('span', { className: 'gp-swap-alt-symbol' }, alt.symbol),
+                                  e('span', { className: 'gp-swap-alt-apy' }, formatApy(poolTotalApy(alt)))
+                                ),
+                                e('div', { className: 'gp-swap-alt-meta' },
+                                  e('span', null, alt.project),
+                                  e('span', null, ' · ' + alt.chain)
+                                )
+                              );
+                            })
+                      ) : null
+                    );
+                  })
+                )
+          )
+        ) : null
+      );
+    })() : null;
 
     // CTA element (shared) — opens waitlist modal
     var ctaElement = e('div', { className: 'gp-cta-row gp-animate-in' },
@@ -2160,6 +2308,14 @@
         navigator.share ? e('button', { type: 'button', className: 'gp-share-btn', onClick: doNativeShare },
           '↗ ' + t('shareNative')
         ) : null
+      ),
+      e('p', { className: 'gp-press-mention' },
+        t('pressFeatureLabel') + ' ',
+        e('a', {
+          href: 'https://leviathannews.xyz/258992/turn-4k-in-stablecoins-into-a-free-chatgpt-pro-subscription-earn-yield-cover-the-fee-and-keep-every-dollar-with-no-tokens-locked-50-spots-available',
+          target: '_blank',
+          rel: 'noopener'
+        }, t('pressFeatureName'))
       )
     );
 
@@ -2211,7 +2367,7 @@
                 e('h2', { className: 'gp-waitlist-title' }, t('waitlistTitle')),
                 e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 1))
               ),
-              e('p', { className: 'gp-waitlist-benefits' }, t('waitlistBenefits')),
+              e('p', { className: 'gp-waitlist-benefits' }, t('waitlistBenefits', archetype)),
               currentMixStats.count > 0
                 ? e('p', { className: 'gp-waitlist-garden-line' },
                     t('waitlistGarden', waitlistLabelStr, formatUsd(currentMixStats.combinedMonthly))
@@ -2267,28 +2423,125 @@
       )
     ) : null;
 
+    // Checkout summary panel — price-anchor layout (right column desktop, first mobile)
+    var checkoutGoalDef = goalById(goal);
+    // Service name: reactive to selectedSubs for subscription
+    var chkServiceEmoji, chkServiceName;
     if (archetype === 'subscription') {
-      // Subscription: hero → caveats → YOUR PLAN card → engine → CTA → ask → foot → modal
+      var chkLdr = subscriptionLadder(goal);
+      if (currentMixStats && currentMixStats.count >= 1) {
+        var chkLabels = currentMixStats.ids.map(function (id) {
+          for (var ci = 0; ci < chkLdr.length; ci++) {
+            if (chkLdr[ci].id === id) return t(chkLdr[ci].labelKey);
+          }
+          var cg = goalById(id);
+          return cg ? goalLabel(t, id) : id;
+        });
+        chkServiceName = chkLabels.length > 2
+          ? chkLabels[0] + ' + ' + chkLabels[1] + ' +' + (chkLabels.length - 2)
+          : chkLabels.join(' + ');
+        chkServiceEmoji = currentMixStats.count > 1 ? '∞' : (checkoutGoalDef ? checkoutGoalDef.emoji : '🌱');
+      } else {
+        chkServiceName = goalLabel(t, goal);
+        chkServiceEmoji = checkoutGoalDef ? checkoutGoalDef.emoji : '🌱';
+      }
+    } else {
+      chkServiceName = goalLabel(t, goal);
+      chkServiceEmoji = checkoutGoalDef ? checkoutGoalDef.emoji : '🌱';
+    }
+    var chkIsCapital = checkoutMode === 'capital';
+    var chkBaseCapital = archetype === 'subscription'
+      ? (isCapitalPath ? slideCapital : (currentMixStats && currentMixStats.neededCapital > 0 ? currentMixStats.neededCapital : slideCapital))
+      : slideCapital;
+    var chkPrice, chkValueProp, chkDetailRows;
+    if (chkIsCapital) {
+      var chkYield = chkBaseCapital && apy > 0 ? Math.round(chkBaseCapital * apy / 100 / 12) : null;
+      chkPrice = chkBaseCapital ? formatUsdRounded(chkBaseCapital) : '—';
+      chkValueProp = chkYield ? t('checkoutHeroSub', formatUsd(chkYield)) : null;
+      chkDetailRows = [
+        { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
+        { label: t('checkoutYouKeep'), value: t('checkoutYouKeepVal') }
+      ];
+    } else {
+      var chkMo = slideMonthly || Math.max(50, Math.round((chkBaseCapital || 5000) / 60));
+      var chkMonthlyFv = futureValue(chkMo, apy || 5, slideYears || 3);
+      chkPrice = formatUsd(chkMo) + '/mo';
+      chkValueProp = t('checkoutHeroGrowth', formatUsdRounded(chkMonthlyFv), slideYears || 3);
+      chkDetailRows = [
+        { label: t('checkoutApy'), value: apy > 0 ? formatApy(apy) : '—' },
+        { label: t('checkoutTimeline'), value: (slideYears || 3) + ' ' + t('yearsShort') }
+      ];
+    }
+
+    var checkoutPanelElement = e('div', { className: 'gp-checkout-panel gp-animate-in' },
+      e('div', { className: 'gp-checkout-service' },
+        e('span', { className: 'gp-checkout-svc-emoji' }, chkServiceEmoji),
+        e('span', { className: 'gp-checkout-svc-name' }, chkServiceName)
+      ),
+      e('div', { className: 'gp-checkout-price-block' },
+        e('div', { className: 'gp-checkout-price' }, chkPrice),
+        e('div', { className: 'gp-checkout-mode-toggle' },
+          e('button', {
+            type: 'button',
+            className: 'gp-checkout-mode-btn' + (checkoutMode === 'capital' ? ' is-active' : ''),
+            onClick: function () { setCheckoutMode('capital'); }
+          }, t('checkoutModeOneTime')),
+          e('button', {
+            type: 'button',
+            className: 'gp-checkout-mode-btn' + (checkoutMode === 'monthly' ? ' is-active' : ''),
+            onClick: function () { setCheckoutMode('monthly'); }
+          }, t('checkoutModeMonthly'))
+        )
+      ),
+      chkValueProp ? e('p', { className: 'gp-checkout-value-prop' }, chkValueProp) : null,
+      e('div', { className: 'gp-checkout-detail-rows' },
+        chkDetailRows.map(function (row, idx) {
+          return e('div', { key: idx, className: 'gp-checkout-detail-row' },
+            e('span', { className: 'gp-checkout-detail-label' }, row.label),
+            e('span', { className: 'gp-checkout-detail-value' }, row.value)
+          );
+        })
+      ),
+      e('button', {
+        type: 'button',
+        className: 'gp-primary-cta gp-checkout-cta',
+        onClick: function () {
+          setWaitlistStep(1);
+          setWaitlistStatus('idle');
+          setWaitlistOpen(true);
+        }
+      }, t('ctaWaitlist')),
+      e('div', { className: 'gp-checkout-trust' },
+        e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustSelfCustody')),
+        e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustYourKeys')),
+        e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustWithdraw'))
+      ),
+      e('p', { className: 'gp-checkout-note' }, t('checkoutNote'))
+    );
+
+    if (archetype === 'subscription') {
       return e('div', { className: 'gp-bloom' },
         presetIntro,
-        heroElement,
-        caveatElement,
-        planCardElement,
-        engineElement,
-        ctaElement,
-        askElement,
+        e('div', { className: 'gp-bloom-layout' },
+          e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement),
+          e('div', { className: 'gp-bloom-detail' },
+            heroElement, planCardElement, subCustomizeElement, askElement, caveatElement
+          )
+        ),
         footElement,
         waitlistModal
       );
     }
 
-    // Target / Growth: hero → caveats → plan-strip → 1b → chart → make-it-yours → engine → CTA → ask → foot → modal
+    // Target / Growth: 2-col layout
     return e('div', { className: 'gp-bloom' },
       presetIntro,
+      e('div', { className: 'gp-bloom-layout' },
+        e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement),
+        e('div', { className: 'gp-bloom-detail' },
 
       // 1. HERO ANSWER
       heroElement,
-      caveatElement,
 
       // Editable plan summary strip
       e('div', { className: 'gp-plan-strip gp-animate-in' },
@@ -2361,10 +2614,23 @@
         )
       ) : null,
 
-      // 3. MAKE-IT-YOURS — sliders + persona pills
+      // 3. MAKE-IT-YOURS — sliders + persona pills (collapsed by default)
       e('div', { className: 'gp-makeit gp-animate-in' },
-        e('div', { className: 'gp-makeit-label' }, t('makeItYours')),
-        e('div', { className: 'gp-makeit-sliders' },
+        !makeitExpanded
+          ? e('button', { type: 'button', className: 'gp-makeit-compact',
+              onClick: function () { setMakeitExpanded(true); }
+            },
+              e('span', { className: 'gp-makeit-compact-label' }, t('makeItYours')),
+              e('span', { className: 'gp-makeit-compact-summary' },
+                (isCapitalPath ? formatUsdRounded(slideCapital) : formatUsd(slideMonthly) + '/mo')
+                + (archetype === 'growth' ? ' · ' + slideYears + ' yrs' : '')
+                + ' · ' + currentRiskLabel
+              ),
+              e('span', { className: 'gp-makeit-edit-link' }, t('riskEdit'))
+            )
+          : e('div', null,
+            e('div', { className: 'gp-makeit-label' }, t('makeItYours')),
+            e('div', { className: 'gp-makeit-sliders' },
           isCapitalPath ? e('div', { className: 'gp-slider-group' },
             e('div', { className: 'gp-slider-row-label' },
               e('span', null, t('fundingCapitalCard')),
@@ -2423,21 +2689,18 @@
             );
           })
         )
-      ),
+          ) // close expanded div
+        ),
 
       // 4. ENGINE ROOM
       engineElement,
 
-      // 5. PRIMARY CTA
-      ctaElement,
-
-      // 6. ASK BOX
+      // 5. ASK BOX
       askElement,
-
-      // 7. SHARE + GARDEN
+      caveatElement
+        ) // close gp-bloom-detail
+      ), // close gp-bloom-layout
       footElement,
-
-      // 8. WAITLIST MODAL (portal-style fixed overlay)
       waitlistModal
     );
   }
@@ -2962,15 +3225,28 @@
 
     useEffect(function () {
       var alive = true;
-      fetch(POOLS_API)
-        .then(function (r) { return r.json(); })
-        .then(function (j) {
-          if (!alive) return;
-          setPools((j && j.data) || []);
-          setLoadStatus('ready');
-        })
-        .catch(function () { if (alive) setLoadStatus('error'); });
-      return function () { alive = false; };
+      function startFetch() {
+        if (!alive) return;
+        fetch(POOLS_API)
+          .then(function (r) { return r.json(); })
+          .then(function (j) {
+            if (!alive) return;
+            setPools((j && j.data) || []);
+            setLoadStatus('ready');
+          })
+          .catch(function () { if (alive) setLoadStatus('error'); });
+      }
+      var id;
+      if (typeof requestIdleCallback !== 'undefined') {
+        id = requestIdleCallback(startFetch, { timeout: 2000 });
+      } else {
+        id = setTimeout(startFetch, 200);
+      }
+      return function () {
+        alive = false;
+        if (typeof cancelIdleCallback !== 'undefined') cancelIdleCallback(id);
+        else clearTimeout(id);
+      };
     }, []);
 
     // A1: stable guidance APY for step-2 chip hints (pinned to 'stable' persona)
@@ -3091,8 +3367,8 @@
         // To re-enable the step, restore: advance('funding-mode').
         var sg = goalById(id);
         var seedCapital = sg && sg.target ? Math.ceil(foreverNumber(sg.target, guidanceApy) / 100) * 100 : null;
-        setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: a.persona || 'stable', fundingMode: 'capital', capital: seedCapital, monthly: null }); });
-        advance('bloom');
+        setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: null, fundingMode: 'capital', capital: seedCapital, monthly: null }); });
+        advance('temperament');
       } else {
         setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: a.persona || (arch !== 'growth' ? 'stable' : null) }); });
         if (arch === 'target') { advance('funding-mode'); }
@@ -3153,7 +3429,7 @@
 
     function pickDeadline(months) {
       setAnswers(function (a) { return Object.assign({}, a, { deadline: months }); });
-      advance('bloom');
+      advance('temperament');
     }
 
     function pickYears(v) {
@@ -3496,7 +3772,12 @@
           e('p', { className: 'gp-question' }, t('step2Question', goalLabel(t, answers.goal))),
           e(Chips, {
             selected: answers.monthly, wrap: true,
-            options: monthlyChips.map(function (v) { return { value: v, label: formatUsd(v) }; }),
+            options: monthlyChips.map(function (v) {
+              if (arch !== 'growth') return { value: v, label: formatUsd(v) };
+              var hintYears = answers.years || 5;
+              var hintAmt = futureValue(v, guidanceApy, hintYears);
+              return { value: v, label: formatUsd(v), hint: t('monthlyChipHint', formatUsdRounded(hintAmt), hintYears) };
+            }),
             onPick: pickMonthly,
             onHover: setHoveredAmount,
             onHoverEnd: function() { setHoveredAmount(null); }
@@ -3542,11 +3823,36 @@
           e('button', { type: 'button', className: 'gp-cta gp-slider-confirm', onClick: function () { pickYears(answers.years || 5); } }, '→')
         );
       } else if (step === 'temperament') {
+        var tempYears = answers.years || 3;
+        var tempGoalDef = goalById(answers.goal);
         var cards = [
-          { id: 'stable', emoji: '🏦', title: t('personaStableTitle'), desc: t('personaStableDesc'), risk: t('personaStableRisk') },
-          { id: 'rwa',    emoji: '🏛️', title: t('personaRwaTitle'),    desc: t('personaRwaDesc'),    risk: t('personaRwaRisk') },
-          { id: 'degen',  emoji: '🔥', title: t('personaDegenTitle'),  desc: t('personaDegenDesc'),  risk: t('personaDegenRisk') }
-        ];
+          { id: 'stable', emoji: '🏦', title: t('personaStableTitle'), risk: t('personaStableRisk') },
+          { id: 'rwa',    emoji: '🏛️', title: t('personaRwaTitle'),    risk: t('personaRwaRisk') },
+          { id: 'degen',  emoji: '🔥', title: t('personaDegenTitle'),  risk: t('personaDegenRisk') }
+        ].map(function (card) {
+          var curated = curatePools(pools, card.id, 3);
+          var eff = effectiveApy(curated, card.id);
+          var apyStr = eff > 0 ? parseFloat(eff.toFixed(1)) + '%' : '—';
+          // Projected outcome — futureValue for monthly path, monthly yield for capital path
+          var projLabel = null;
+          if (answers.monthly && eff > 0) {
+            var projAmt = futureValue(answers.monthly, eff, tempYears);
+            projLabel = t('personaProj', formatUsdRounded(projAmt), tempYears, parseFloat(eff.toFixed(1)));
+          } else if (answers.capital && eff > 0) {
+            var monthlyYield = Math.round(answers.capital * eff / 100 / 12);
+            projLabel = t('personaProjYield', formatUsd(monthlyYield, 0), parseFloat(eff.toFixed(1)));
+          }
+          // Protocol badges — unique protocols from curated pools
+          var seen2 = {};
+          var protocols = curated.filter(function (p) {
+            if (!p.project || seen2[p.project]) return false;
+            seen2[p.project] = true;
+            return true;
+          }).slice(0, 3).map(function (p) {
+            return { project: p.project, name: formatProjectName(p.project) };
+          });
+          return Object.assign({}, card, { apyStr: apyStr, proj: projLabel, protocols: protocols });
+        });
         // Pre-select stable for target/subscription archetypes
         var preSelected = answers.persona || (skipHorizon ? 'stable' : null);
 
@@ -3559,9 +3865,27 @@
                 className: 'gp-temp-card' + ((preSelected === card.id) ? ' is-selected' : ''),
                 onClick: function () { pickPersona(card.id); }
               },
-                e('div', { className: 'gp-temp-emoji' }, card.emoji),
-                e('div', { className: 'gp-temp-title' }, card.title),
-                e('div', { className: 'gp-temp-desc' }, card.desc),
+                e('div', { className: 'gp-temp-header' },
+                  card.protocols.length > 0
+                    ? e('div', { className: 'gp-temp-logo-row' },
+                        card.protocols.map(function (proto) {
+                          return e('img', {
+                            key: proto.project,
+                            src: 'https://icons.llama.fi/' + proto.project + '.png',
+                            className: 'gp-temp-logo',
+                            alt: proto.name,
+                            onError: function (ev) { ev.target.style.display = 'none'; }
+                          });
+                        })
+                      )
+                    : null,
+                  e('span', { className: 'gp-temp-title' }, card.title)
+                ),
+                e('div', { className: 'gp-temp-apy-block' },
+                  e('div', { className: 'gp-temp-apy' }, card.apyStr),
+                  e('div', { className: 'gp-temp-apy-label' }, t('personaApyLabel'))
+                ),
+                card.proj ? e('div', { className: 'gp-temp-proj' }, card.proj) : null,
                 e('div', { className: 'gp-temp-risk' }, card.risk)
               );
             })
@@ -3616,7 +3940,7 @@
         mode: mode,
         onShowGarden: function() { setMode('report'); }
       }),
-      e('main', { className: 'gp-main' },
+      e('main', { className: 'gp-main' + (step === 'bloom' ? ' gp-main--bloom' : '') },
         (step === 'goal' && mode !== 'report')
           ? e('div', { className: 'gp-tagline' }, e('h1', null, t('title')), e('p', null, t('tagline')))
           : null,
@@ -3649,7 +3973,8 @@
     mixStats: mixStats,
     disciplinedSpeedup: disciplinedSpeedup,
     GOALS: GOALS,
-    goalArchetype: goalArchetype
+    goalArchetype: goalArchetype,
+    formatProjectName: formatProjectName
   };
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = api;

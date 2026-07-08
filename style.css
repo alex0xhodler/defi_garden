@@ -151,7 +151,7 @@
 
   /* Entry Animations */
   --entry-duration-fast: 400ms;
-  --entry-duration-normal: 600ms;
+  --entry-duration-normal: 750ms;
   --entry-delay-base: 100ms;
   --entry-delay-stagger: 50ms;
   --entry-easing: cubic-bezier(0.25, 0.46, 0.45, 0.94);
