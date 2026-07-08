@@ -435,25 +435,21 @@ const translations = {
       mixCaveatDegen: "until rates drop or decentralization rugs",
 
       // Waitlist CTA
-      ctaWaitlist: "Get the card your yield pays for →",
-      ctaWaitlistMicro: "Free to join • No deposit now • Your money, always yours",
+      ctaWaitlist: "Join the waitlist →",
+      ctaWaitlistMicro: "Free to join • No wallet needed yet • One email when ready",
 
       // Waitlist modal — step 1
-      waitlistTitle: "Reserve your yield-funded card",
-      waitlistBenefits: function (archetype) {
-        if (archetype === 'growth') return "Your savings compound tax-efficiently in a self-custody wallet. Track real growth vs a bank. Withdraw any time — it's your money, not a pension locked away.";
-        if (archetype === 'target') return "Deposit monthly and let yield accelerate your deadline. Hit your target sooner — and once you're there, the money is yours to keep or spend.";
-        return "Deposit once. Your IBAN handles bank transfers. Your cards charge — yield pays the bill, automatically. The principal never leaves your wallet.";
-      },
+      waitlistTitle: "Save your spot",
+      waitlistBenefits: "Join the early access list — we'll email you when your spot is ready. No wallet or crypto experience needed to sign up.",
       waitlistGarden: (labels, monthly) => `Your garden already covers ${labels} — ≈${monthly}/mo paid from yield forever.`,
-      waitlistJoin: "Reserve my card →",
+      waitlistJoin: "Save my spot",
       waitlistEmailPlaceholder: "your@email.com",
       waitlistError: "Something went wrong — please try again.",
 
       // Waitlist modal — step 2
-      waitlistAccepted: "Card reserved 🌱",
-      waitlistNextSteps: "Once accepted: fund your IBAN → your cards activate → yield covers your subscriptions automatically. You keep every dollar of principal.",
-      waitlistJumpLine: "Share your garden to jump the line.",
+      waitlistAccepted: "You're on the list 🌱",
+      waitlistNextSteps: "We'll email you when your spot opens up. Setup takes about 10 minutes and we walk you through every step.",
+      waitlistJumpLine: "Share your plan and help a friend join too.",
 
       // Referral
       referralHandleLabel: "Your referral handle",
@@ -468,10 +464,6 @@ const translations = {
       shareTweet: (labels) => `My yield pays for ${labels} — forever 🌱 Join me on DeFi Garden:`,
       downloadCard: "Download garden card",
       waitlistClose: "Close",
-
-      // Waitlist — position + skip
-      waitlistPosition: function (n) { return 'You\'re #' + n + ' in line'; },
-      waitlistSkip: "Each share moves you ahead.",
 
       // Waitlist — email step
       waitlistNoSpam: "No spam — one email when it's your turn.",
@@ -900,25 +892,21 @@ const translations = {
       mixCaveatDegen: "금리가 떨어지거나 탈중앙화가 무너지기 전까지",
 
       // Waitlist CTA
-      ctaWaitlist: "수익이 요금 내주는 카드 받기 →",
-      ctaWaitlistMicro: "무료 가입 • 지금 입금 불필요 • 내 돈은 언제나 내 것",
+      ctaWaitlist: "대기자 명단에 등록 →",
+      ctaWaitlistMicro: "무료 가입 • 아직 지갑 불필요 • 준비되면 이메일 한 통",
 
       // Waitlist modal — step 1
-      waitlistTitle: "수익 기반 카드 예약하기",
-      waitlistBenefits: function (archetype) {
-        if (archetype === 'growth') return "셀프 커스터디 지갑에서 저축이 세금 효율적으로 복리로 불어나요. 은행과 실제 성장을 비교해보세요. 언제든 출금 가능 — 연금처럼 잠겨 있지 않아요.";
-        if (archetype === 'target') return "매달 입금하면 수익이 목표 달성 시기를 앞당겨줘요. 더 빨리 목표에 도달하고 — 도달하면 그 돈은 그대로 내 것이에요.";
-        return "한 번만 입금하면 돼요. IBAN으로 은행 이체를 받고, 카드로 결제하면 — 수익이 자동으로 요금을 내줘요. 원금은 절대 빠져나가지 않아요.";
-      },
+      waitlistTitle: "자리 확보하기",
+      waitlistBenefits: "얼리 액세스 명단에 등록하면 자리가 생길 때 이메일로 알려드려요. 가입에 지갑이나 크립토 경험은 필요 없어요.",
       waitlistGarden: (labels, monthly) => `내 정원은 이미 ${labels}를 커버해요 — 수익으로 매달 ≈${monthly}씩 영구히 내줄 수 있어요.`,
-      waitlistJoin: "내 카드 예약하기 →",
+      waitlistJoin: "자리 확보",
       waitlistEmailPlaceholder: "이메일@주소.com",
       waitlistError: "오류가 발생했어요 — 다시 시도해 주세요.",
 
       // Waitlist modal — step 2
-      waitlistAccepted: "카드 예약 완료 🌱",
-      waitlistNextSteps: "승인되면: IBAN에 입금 → 카드 활성화 → 수익이 구독료를 자동으로 내줘요. 원금은 한 푼도 빠지지 않아요.",
-      waitlistJumpLine: "내 정원을 공유하면 순서가 빨라져요.",
+      waitlistAccepted: "명단에 등록됐어요 🌱",
+      waitlistNextSteps: "자리가 생기면 이메일로 알려드려요. 설정은 약 10분이면 되고 단계별로 안내해드려요.",
+      waitlistJumpLine: "플랜을 공유해서 친구도 함께 초대해요.",
 
       // Referral
       referralHandleLabel: "추천인 핸들",
@@ -935,9 +923,6 @@ const translations = {
       waitlistClose: "닫기",
 
       // Waitlist — position + skip
-      waitlistPosition: function (n) { return '대기 순번 #' + n + '이에요'; },
-      waitlistSkip: "공유할 때마다 순번이 올라가요.",
-
       // Waitlist — email step
       waitlistNoSpam: "스팸 없어요 — 순서가 되면 이메일 한 통만 보내드려요.",
 
