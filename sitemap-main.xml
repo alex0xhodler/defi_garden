@@ -20,6 +20,15 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/trust-scores</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/trust-scores" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/trust-scores?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/trust-scores" />
+    <lastmod>2026-07-08T13:08:52.884Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/stories/tomoko.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/stories/tomoko.html" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/stories/tomoko.html?lang=ko" />

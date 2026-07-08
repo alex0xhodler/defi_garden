@@ -40,6 +40,10 @@
     {
       "source": "/.well-known/openid-configuration",
       "destination": "/.well-known/openid-configuration.json"
+    },
+    {
+      "source": "/api/protocol-trust-score",
+      "destination": "/api/protocol-trust-score/index.json"
     }
   ],
   "headers": [

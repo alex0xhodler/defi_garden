@@ -1,0 +1,76 @@
+{
+  "protocols": {
+    "uniswap-v3": {
+      "name": "Uniswap V3",
+      "slug": "uniswap-v3",
+      "chain": "Base",
+      "trustScore": 98,
+      "rating": "A+",
+      "audits": [
+        {
+          "firm": "Trail of Bits",
+          "date": "2021-03",
+          "result": "PASSED",
+          "scope": "Core Contracts"
+        },
+        {
+          "firm": "ConsenSys Diligence",
+          "date": "2021-04",
+          "result": "PASSED",
+          "scope": "Periphery & Staker"
+        }
+      ],
+      "metrics": {
+        "tvlStability": "9.8/10",
+        "decentralization": "10/10",
+        "exploitHistory": "Clean (No core exploits in 5+ years)",
+        "codeComplexity": "High (Highly audited)"
+      },
+      "details": "Uniswap V3 is the gold standard for concentrated liquidity on EVM chains. It utilizes immutable smart contracts that have been live across multiple high-volume networks for several years without a single core vulnerability or exploit. Governance is distributed through UNI token delegation."
+    },
+    "aerodrome-v1": {
+      "name": "Aerodrome",
+      "slug": "aerodrome-v1",
+      "chain": "Base",
+      "trustScore": 88,
+      "rating": "A-",
+      "audits": [
+        {
+          "firm": "Spearbit",
+          "date": "2023-08",
+          "result": "RESOLVED",
+          "scope": "Velodrome/Aerodrome Core"
+        }
+      ],
+      "metrics": {
+        "tvlStability": "9.5/10",
+        "decentralization": "8.0/10",
+        "exploitHistory": "Clean (Minor front-end DNS issues resolved)",
+        "codeComplexity": "Medium (Solidly fork model)"
+      },
+      "details": "Aerodrome is the dominant AMM on Base, modeled on Velodrome V2. Its smart contracts have undergone rigorous audit review by Spearbit. While it features an active multi-sig/governance model that controls emissions, the core pooling logic is highly secure and holds over $100M+ in TVL."
+    },
+    "sky-lending": {
+      "name": "Sky Lending (formerly Maker/Spark)",
+      "slug": "sky-lending",
+      "chain": "Ethereum",
+      "trustScore": 96,
+      "rating": "A",
+      "audits": [
+        {
+          "firm": "ChainSecurity",
+          "date": "2023-05",
+          "result": "PASSED",
+          "scope": "Spark/Sky Protocol"
+        }
+      ],
+      "metrics": {
+        "tvlStability": "9.9/10",
+        "decentralization": "9.0/10",
+        "exploitHistory": "Clean",
+        "codeComplexity": "High (Complex peg mechanism)"
+      },
+      "details": "Sky (formerly MakerDAO) operates the USDS stablecoin and Spark lending protocol. Its infrastructure forms the foundation of Ethereum's credit market. Contracts are heavily audited, and changes require long multi-day timelocks before governance execution."
+    }
+  }
+}
