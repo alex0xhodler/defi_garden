@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeFi Garden - Yield Sustainability Scorecard</title>
+    <meta name="description" content="DeFi Garden's Yield Sustainability Scorecard analyzes high-APY pools for token emission, tokenomics, and treasury health to determine long-term sustainability.">
+    <meta name="keywords" content="DeFi yield sustainability, tokenomics analysis yield farm, is X APY sustainable, DeFi Garden, yield farming, tokenomics, APY, blockchain, crypto, sustainable finance, aerodrome-v1, USDC-AERO">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50%25' y='50%25' font-size='90' text-anchor='middle' dominant-baseline='central'%3E🌱%3C/text%3E%3C/svg%3E">
+
+    <style>
+        /* CSS Variables for Neumorphic Design */
+        :root {
+            --bg-color: #1e222b;
+            --text-color: #e2e8f0;
+            --text-muted: #94a3b8;
+            --neuro-shadow-raised: 6px 6px 12px #15181f, -6px -6px 12px #272c37;
+            --neuro-shadow-pressed: inset 4px 4px 8px #15181f, inset -4px -4px 8px #272c37;
+            --accent-color: #3b82f6;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --error-color: #ef4444; /* Added for error messages */
+            --border-radius: 12px;
+            --transition-speed: 0.2s;
+        }
+
+        /* Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* For FKGroteskNeue, if available via font-face or CDN, it would be the first font. */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align to top */
+            min-height: 100vh;
+            padding: 2rem 1rem;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        h1, h2, h3 {
+            color: var(--text-color);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.2;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        strong {
+            color: var(--text-color);
+        }
+
+        /* Main Container */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+        }
+        .logo svg {
+            width: 30px;
+            height: 30px;
+            fill: var(--accent-color);
+        }
+
+        .back-to-planner-btn {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: var(--border-radius);
+            box-shadow: var(--neuro-shadow-raised);
+            transition: all var(--transition-speed) ease-in-out;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .back-to-planner-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--neuro-shadow-raised), 0px 8px 16px rgba(0,0,0,0.15); /* Slightly more pronounced on hover */
+        }
+        .back-to-planner-btn:active {
+            box-shadow: var(--neuro-shadow-pressed);
+            transform: translateY(0);
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+            border-radius: var(--border-radius);
+            box-shadow: var(--neuro-shadow-raised);
+            background-color: var(--bg-color);
+        }
+
+        /* Main Scorecard Card */
+        .scorecard-panel {
+            background-color: var(--bg-color);
+            border-radius: var(--border-radius);
+            box-shadow: var(--neuro-shadow-raised);
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        /* Form Elements & Inputs (Neumorphic) */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.75rem;
+            color: var(--text-color);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        select,
+        input[type="text"] {
+            width: 100%;
+            padding: 1rem 1.25rem;
+            background-color: var(--bg-color);
+            border: none;
+            border-radius: var(--border-radius);
+            color: var(--text-color);
+            box-shadow: var(--neuro-shadow-pressed); /* Pressed for input fields by default */
+            transition: box-shadow var(--transition-speed) ease-in-out;
+            font-size: 1rem;
+            -webkit-appearance: none; /* Remove default browser styling for select */
+            -moz-appearance: none;
+            appearance: none;
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            background-size: 1.5em;
+        }
+        /* Custom arrow for select element */
+        select {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='%2394a3b8' d='M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 6.757 7.586 5.343 9z'/%3E%3C/svg%3E");
+        }
+
+        select:focus,
+        input[type="text"]:focus {
+            outline: none;
+            box-shadow: var(--neuro-shadow-pressed), 0 0 0 3px var(--accent-color); /* Highlight with accent color on focus */
+        }
+
+        select option {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .action-button {
+            display: flex;
+            justify-content: center;
+        }
+
+        .neumorphic-button {
+            background-color: var(--accent-color);
+            color: var(--text-color);
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: var(--border-radius);
+            box-shadow: var(--neuro-shadow-raised);
+            transition: all var(--transition-speed) ease-in-out;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.1rem;
+            min-width: 150px;
+        }
+
+        .neumorphic-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: var(--neuro-shadow-raised), 0px 8px 16px rgba(0,0,0,0.15);
+        }
+
+        .neumorphic-button:active:not(:disabled) {
+            box-shadow: var(--neuro-shadow-pressed);
+            transform: translateY(0);
+        }
+
+        .neumorphic-button:disabled {
+            background-color: var(--text-muted);
+            cursor: not-allowed;
+            opacity: 0.7;
+            box-shadow: var(--neuro-shadow-pressed); /* Show as pressed/inactive */
+        }
+
+        /* Score Display */
+        .score-display {
+            background-color: var(--bg-color);
+            border-radius: var(--border-radius);
+            box-shadow: var(--neuro-shadow-raised);
+            padding: 1.5rem;
+            text-align: center;
+            display: none; /* Hidden by default */
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .score-display.active {
+            display: flex;
+        }
+
+        .score-label {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+        }
+
+        .score-value {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--accent-color); /* Default, overridden by verdict */
+            margin-bottom: 0.5rem;
+        }
+
+        .score-verdict {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .score-verdict.sustainable { color: var(--success-color); }
+        .score-verdict.caution { color: var(--warning-color); }
+        .score-verdict.high-risk { color: var(--error-color); }
+
+        .score-description {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .detailed-breakdown-btn {
+            background-color: var(--bg-color);
+            color: var(--accent-color);
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: var(--border-radius);
+            box-shadow: var(--neuro-shadow-raised);
+            transition: all var(--transition-speed) ease-in-out;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .detailed-breakdown-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--neuro-shadow-raised), 0px 8px 16px rgba(0,0,0,0.15);
+        }
+        .detailed-breakdown-btn:active {
+            box-shadow: var(--neuro-shadow-pressed);
+            transform: translateY(0);
+        }
+
+        /* Loading Indicator */
+        .loading-indicator {
+            display: none; /* Hidden by default */
+            text-align: center;
+            margin-top: 1rem;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .loading-indicator.active {
+            display: flex;
+        }
+
+        .spinner {
+            border: 4px solid var(--text-muted);
+            border-top: 4px solid var(--accent-color);
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            color: var(--error-color);
+            text-align: center;
+            margin-top: 1rem;
+            display: none;
+        }
+        .error-message.active {
+            display: block;
+        }
+
+
+        /* Responsive Design */
+        @media (min-width: 768px) {
+            .scorecard-panel {
+                padding: 3rem;
+            }
+
+            .form-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                padding: 3rem 2rem;
+            }
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding-top: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Scrollbar styles for better neumorphic feel */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-color);
+            border-radius: var(--border-radius);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #2f343e; /* Slightly lighter shade for the thumb */
+            border-radius: var(--border-radius);
+            box-shadow: inset 2px 2px 5px #15181f, inset -2px -2px 5px #272c37;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-color);
+            box-shadow: inset 2px 2px 5px var(--accent-color), inset -2px -2px 5px var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM11 16V13H8V11H11V8H13V11H16V13H13V16H11Z" fill="currentColor"/>
+                </svg>
+                DeFi Garden
+            </a>
+            <a href="#" class="back-to-planner-btn" id="backToPlannerBtn">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Left-pointing arrow in a circle -->
+                    <path d="M10 20C4.47715 20 0 15.5228 0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20ZM12.7071 14.7071C12.3166 15.0976 11.6834 15.0976 11.2929 14.7071L7.29289 10.7071C6.90237 10.3166 6.90237 9.68342 7.29289 9.29289L11.2929 5.29289C11.6834 4.90237 12.3166 4.90237 12.7071 5.29289C13.0976 5.68342 13.0976 6.31658 12.7071 6.70711L9.41421 10L12.7071 13.2929C13.0976 13.6834 13.0976 14.3166 12.7071 14.7071Z" fill="currentColor"/>
+                </svg>
+                Back to Planner
+            </a>
+        </header>
+
+        <section class="hero">
+            <h1>DeFi Yield Emission & Tokenomics Sustainability Scorecard</h1>
+            <p>A programmatic tool to assess the long-term viability of high-APY DeFi pools. Understand if a yield is backed by sustainable economic models or a temporary 'farm-and-dump' scenario.</p>
+        </section>
+
+        <main class="scorecard-panel">
+            <h2>Analyze a DeFi Pool</h2>
+            <p class="description">Select a project and its associated yield symbol to get a comprehensive sustainability score.</p>
+
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="projectId">DeFi Project:</label>
+                    <select id="projectId">
+                        <option value="">Select a Project</option>
+                        <option value="aerodrome-v1" selected>Aerodrome Finance (v1)</option>
+                        <option value="balancer-v2">Balancer (v2)</option>
+                        <option value="curve-fi">Curve Finance</option>
+                        <option value="aave-v3">Aave (v3)</option>
+                        <option value="uniswap-v3">Uniswap (v3)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="symbol">Yield Token/Pair Symbol:</label>
+                    <input type="text" id="symbol" placeholder="e.g., USDC-AERO, WETH-USDC" value="USDC-AERO">
+                </div>
+            </div>
+
+            <div class="action-button">
+                <button type="button" id="getScoreBtn" class="neumorphic-button">Get Sustainability Score</button>
+            </div>
+
+            <div id="loadingIndicator" class="loading-indicator">
+                <div class="spinner"></div>
+                <span>Analyzing tokenomics...</span>
+            </div>
+
+            <div id="errorMessage" class="error-message">
+                <p>⚠️ Failed to fetch sustainability score. Please check your inputs or try again later.</p>
+            </div>
+
+            <div id="scoreDisplay" class="score-display">
+                <span class="score-label">Sustainability Score:</span>
+                <span id="scoreValue" class="score-value">--</span>
+                <p id="scoreVerdict" class="score-verdict"></p>
+                <p id="scoreDescription" class="score-description"></p>
+                <button type="button" id="detailedBreakdownBtn" class="detailed-breakdown-btn">Detailed Tokenomics Breakdown</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 DeFi Garden. All rights reserved. Data provided for informational purposes only and does not constitute financial advice.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Umami Tracking Placeholder
+        // If Umami is not loaded or configured, this provides a fallback function to prevent errors.
+        // To enable Umami, replace the comments below with your actual Umami script tag:
+        // <script async defer data-website-id="YOUR_UMAMI_WEBSITE_ID" src="YOUR_UMAMI_SCRIPT_URL"></script>
+        if (typeof window.umami === 'undefined') {
+            window.umami = function(eventName, eventData) {
+                console.log('Umami event (placeholder):', eventName, eventData);
+            };
+        }
+
+        const projectIdSelect = document.getElementById('projectId');
+        const symbolInput = document.getElementById('symbol');
+        const getScoreBtn = document.getElementById('getScoreBtn');
+        const scoreDisplay = document.getElementById('scoreDisplay');
+        const scoreValueElem = document.getElementById('scoreValue');
+        const scoreVerdictElem = document.getElementById('scoreVerdict');
+        const scoreDescriptionElem = document.getElementById('scoreDescription');
+        const detailedBreakdownBtn = document.getElementById('detailedBreakdownBtn');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        const errorMessage = document.getElementById('errorMessage');
+        const backToPlannerBtn = document.getElementById('backToPlannerBtn');
+
+        // Mock API responses for demonstration purposes
+        // In a production environment, this data would come from the actual API endpoint.
+        const mockApiResponses = {
+            'aerodrome-v1': {
+                'USDC-AERO': {
+                    score: 'A-',
+                    verdict: 'Sustainable',
+                    description: 'Aerodrome V1 (USDC-AERO) shows robust tokenomics with controlled emission and a healthy treasury, indicating long-term viability. Dilution risk is moderate.',
+                    details: 'Aerodrome\'s tokenomics for USDC-AERO include well-defined emission schedules designed to incentivize long-term liquidity providers. The treasury health is strong, with diversified assets supporting protocol stability. Regular audits ensure smart contract security. Key factors for its A- rating are balanced emissions, active governance, and growing ecosystem adoption.'
+                },
+                'WETH-AERO': {
+                    score: 'B+',
+                    verdict: 'Sustainable',
+                    description: 'WETH-AERO pool on Aerodrome V1 has good sustainability, backed by consistent demand and a well-managed emission curve.',
+                    details: 'The WETH-AERO pool benefits from high trading volumes and strong user engagement. Emission rates are designed to gradually decrease, preventing hyperinflation while still offering attractive yields. The underlying asset (WETH) provides a stable base. Continuous monitoring of liquidity provision and trading fees is recommended.'
+                }
+            },
+            'balancer-v2': {
+                'USDC-WETH': {
+                    score: 'B-',
+                    verdict: 'Caution',
+                    description: 'Balancer V2 (USDC-WETH) faces potential challenges from fluctuating market conditions and incentive adjustments. Monitor emission schedules closely.',
+                    details: 'Balancer V2 pools can offer complex tokenomics. For USDC-WETH, sustainability is good, but market volatility of WETH can impact impermanent loss. BAL token emissions are subject to governance votes, which can lead to shifts in APY. Treasury health is sound, but incentives can change. Users should be aware of governance proposals that might alter reward distributions.'
+                }
+            },
+            'curve-fi': {
+                '3CRV': {
+                    score: 'A',
+                    verdict: 'Highly Sustainable',
+                    description: 'Curve Finance\'s 3CRV pool exhibits high sustainability due to deep liquidity, stablecoin focus, and robust CRV tokenomics.',
+                    details: 'The 3CRV pool (DAI/USDC/USDT) is one of the most stable and liquid pools in DeFi. Its tokenomics are heavily reliant on veCRV mechanics, rewarding long-term stakers and incentivizing liquidity. Low impermanent loss and consistent fee generation contribute to its high sustainability score. Emission rates are predictable, and treasury is exceptionally strong.'
+                }
+            },
+            // Default response for combinations not explicitly mocked
+            'default': {
+                score: 'C+',
+                verdict: 'High Risk',
+                description: 'Insufficient data or high emission rates suggest a potentially unsustainable APY. Exercise caution. Further research is recommended.',
+                details: 'This project/symbol combination lacks sufficient historical data or exhibits concerning token emission patterns, high dilution risk, or an unverified treasury health status. High APYs in such pools often rely on continuous new capital influx, which is not sustainable long-term. Investors should proceed with extreme caution and conduct their own thorough due diligence.'
+            }
+        };
+
+        const getScore = async () => {
+            const projectId = projectIdSelect.value;
+            const symbol = symbolInput.value.trim().toUpperCase(); // Normalize symbol input
+
+            if (!projectId || !symbol) {
+                displayError('Please select a project and enter a token/pair symbol.');
+                return;
+            }
+
+            // Reset UI and show loading state
+            scoreDisplay.classList.remove('active');
+            errorMessage.classList.remove('active');
+            loadingIndicator.classList.add('active');
+            getScoreBtn.disabled = true;
+
+            try {
+                // Simulate API call delay (e.g., 1.5 seconds)
+                await new Promise(resolve => setTimeout(resolve, 1500));
+
+                let data;
+                // Attempt to retrieve data from mock responses
+                if (mockApiResponses[projectId] && mockApiResponses[projectId][symbol]) {
+                    data = mockApiResponses[projectId][symbol];
+                } else {
+                    // Fallback to a default response if specific data is not found
+                    data = mockApiResponses['default'];
+                }
+
+                // In a real production application, you would make an actual fetch call:
+                /*
+                const response = await fetch(`https://api.defi.garden/v1/yield-sustainability/score?projectId=${projectId}&symbol=${symbol}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                */
+
+                displayScore(data.score, data.verdict, data.description, data.details);
+                window.umami('get_score_success', { projectId, symbol, score: data.score });
+
+            } catch (error) {
+                console.error('Error fetching sustainability score:', error);
+                displayError('Failed to retrieve score. Please check your inputs or try again later.');
+                window.umami('get_score_failure', { projectId, symbol, error: error.message });
+            } finally {
+                loadingIndicator.classList.remove('active');
+                getScoreBtn.disabled = false;
+            }
+        };
+
+        const displayScore = (score, verdict, description, details) => {
+            scoreValueElem.textContent = score;
+            scoreVerdictElem.textContent = verdict;
+            scoreDescriptionElem.textContent = description;
+
+            // Apply color based on verdict
+            scoreVerdictElem.classList.remove('sustainable', 'caution', 'high-risk');
+            scoreValueElem.style.color = 'var(--text-color)'; // Reset color first
+            if (verdict.includes('Sustainable')) {
+                scoreVerdictElem.classList.add('sustainable');
+                scoreValueElem.style.color = 'var(--success-color)';
+            } else if (verdict.includes('Caution')) {
+                scoreVerdictElem.classList.add('caution');
+                scoreValueElem.style.color = 'var(--warning-color)';
+            } else { // Default to high-risk for any other verdict
+                scoreVerdictElem.classList.add('high-risk');
+                scoreValueElem.style.color = 'var(--error-color)';
+            }
+
+            // Store details for later use by detailed breakdown button
+            detailedBreakdownBtn.dataset.details = details;
+
+            scoreDisplay.classList.add('active');
+            errorMessage.classList.remove('active');
+        };
+
+        const displayError = (message) => {
+            errorMessage.querySelector('p').textContent = `⚠️ ${message}`;
+            errorMessage.classList.add('active');
+            scoreDisplay.classList.remove('active');
+        };
+
+        const handleDetailedBreakdown = () => {
+            const details = detailedBreakdownBtn.dataset.details || 'No detailed breakdown available for this selection.';
+            alert('Detailed Tokenomics Breakdown:\n\n' + details);
+            window.umami('detailed_breakdown_click', {
+                projectId: projectIdSelect.value,
+                symbol: symbolInput.value.trim().toUpperCase(),
+                score: scoreValueElem.textContent
+            });
+        };
+
+        // Event Listeners
+        getScoreBtn.addEventListener('click', getScore);
+        detailedBreakdownBtn.addEventListener('click', handleDetailedBreakdown);
+        backToPlannerBtn.addEventListener('click', () => {
+            window.umami('back_to_planner_click');
+            // In a real application, this would navigate back to the planner/dashboard
+            // e.g., window.location.href = '/dashboard';
+            alert('Navigating back to planner (simulated)');
+        });
+
+        // Initial setup: Get score for pre-selected values on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            // A small timeout to ensure the DOM is fully stable before triggering the initial score calculation
+            setTimeout(() => {
+                getScore();
+            }, 100);
+        });
+
+    </script>
+</body>
+</html>

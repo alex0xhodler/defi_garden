@@ -11,6 +11,15 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/yield-emission-sustainability-score</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/yield-emission-sustainability-score" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/yield-emission-sustainability-score?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/yield-emission-sustainability-score" />
+    <lastmod>2026-07-08T21:15:39.816Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/plan.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/plan.html" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/plan.html?lang=ko" />
