@@ -24,6 +24,22 @@
     {
       "source": "/index",
       "destination": "/home"
+    },
+    {
+      "source": "/.well-known/api-catalog",
+      "destination": "/.well-known/api-catalog.json"
+    },
+    {
+      "source": "/.well-known/oauth-authorization-server",
+      "destination": "/.well-known/oauth-authorization-server.json"
+    },
+    {
+      "source": "/.well-known/oauth-protected-resource",
+      "destination": "/.well-known/oauth-protected-resource.json"
+    },
+    {
+      "source": "/.well-known/openid-configuration",
+      "destination": "/.well-known/openid-configuration.json"
     }
   ],
   "headers": [
@@ -75,7 +91,19 @@
       ]
     },
     {
+      "source": "/.well-known/api-catalog.json",
+      "headers": [
+        { "key": "Content-Type", "value": "application/linkset+json; charset=utf-8" }
+      ]
+    },
+    {
       "source": "/.well-known/oauth-authorization-server",
+      "headers": [
+        { "key": "Content-Type", "value": "application/json; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/.well-known/oauth-authorization-server.json",
       "headers": [
         { "key": "Content-Type", "value": "application/json; charset=utf-8" }
       ]
@@ -87,7 +115,19 @@
       ]
     },
     {
+      "source": "/.well-known/oauth-protected-resource.json",
+      "headers": [
+        { "key": "Content-Type", "value": "application/json; charset=utf-8" }
+      ]
+    },
+    {
       "source": "/.well-known/openid-configuration",
+      "headers": [
+        { "key": "Content-Type", "value": "application/json; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/.well-known/openid-configuration.json",
       "headers": [
         { "key": "Content-Type", "value": "application/json; charset=utf-8" }
       ]
