@@ -919,7 +919,20 @@ async function generateStories() {
 
   const generatedDate = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
-  for (const persona of PERSONAS) {
+  // Merge with custom personas from local JSON if available
+  let activePersonas = [...PERSONAS];
+  const customPath = path.join(outDir, 'custom-personas.json');
+  if (fs.existsSync(customPath)) {
+    try {
+      const custom = JSON.parse(fs.readFileSync(customPath, 'utf8'));
+      activePersonas = [...activePersonas, ...custom];
+      console.log(`📡 Loaded ${custom.length} custom personas from stories/custom-personas.json`);
+    } catch (e) {
+      console.error('⚠️ Failed to load custom personas:', e.message);
+    }
+  }
+
+  for (const persona of activePersonas) {
     const curated = curatePools(pools, persona.temperament, 3);
     if (curated.length === 0) {
       throw new Error(`No pools passed the "${persona.temperament}" rails for ${persona.name} — refusing to generate without live data.`);

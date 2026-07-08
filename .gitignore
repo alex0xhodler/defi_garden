@@ -47,3 +47,4 @@ node_modules/
 # Local Oversight Dashboard & Daemons
 dashboard.html
 scripts/dashboard-server.js
+stories/custom-personas.json
