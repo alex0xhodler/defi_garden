@@ -1,4 +1,4 @@
-# Agent Authentication on DeFi Garden
+# Auth.md - Agent Authentication on DeFi Garden
 
 Welcome, AI Agent! DeFi Garden supports automated registration and authentication for autonomous AI agents.
 
