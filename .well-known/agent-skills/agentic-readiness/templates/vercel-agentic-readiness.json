@@ -1,0 +1,54 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/llms.txt"
+    },
+    {
+      "source": "/",
+      "destination": "/home"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Link", "value": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </llms.txt>; rel=\"llms-txt\"; type=\"text/markdown\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/agent-skills/index.json>; rel=\"agent-skills\"; type=\"application/json\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\"; type=\"application/json\", </.well-known/oauth-protected-resource>; rel=\"oauth-protected-resource\"; type=\"application/json\", </.well-known/oauth-authorization-server>; rel=\"oauth-authorization-server\"; type=\"application/json\", </.well-known/openid-configuration>; rel=\"openid-configuration\"; type=\"application/json\"" }
+      ]
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "headers": [
+        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
+        { "key": "Vary", "value": "Accept" },
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/",
+      "headers": [
+        { "key": "Vary", "value": "Accept" },
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
+  ]
+}

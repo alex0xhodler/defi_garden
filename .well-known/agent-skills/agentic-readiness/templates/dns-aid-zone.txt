@@ -1,0 +1,20 @@
+; =============================================================================
+; DNS-AID Well-known Entrypoints Template
+; Replace <yourdomain.com> with your apex domain, and <target.yourdomain.com>
+; with your primary CDN/hosting endpoint (e.g. www.<yourdomain.com>).
+; =============================================================================
+
+; 1. General Discovery (_index._agents)
+; Points agents to your LLM index / sitemap and establishes content preferences
+_index._agents.<yourdomain.com>.   300 IN HTTPS 1 <target.yourdomain.com>. alpn="h2" port="443" path="/llms.txt"
+_index._agents.<yourdomain.com>.   300 IN TXT   "content-signal: ai-train=no, search=yes, ai-input=no"
+
+; 2. Model Context Protocol (_mcp._agents)
+; Advertises your MCP Server card and dynamic execution endpoints
+_mcp._agents.<yourdomain.com>.     300 IN HTTPS 1 <target.yourdomain.com>. alpn="h2" port="443" path="/api/mcp"
+_mcp._agents.<yourdomain.com>.     300 IN TXT   "mcp-server-card=https://<target.yourdomain.com>/.well-known/mcp/server-card.json"
+
+; 3. Agent-to-Agent Catalog (_a2a._agents)
+; Points agents to your API catalogs and OpenID Connect configurations
+_a2a._agents.<yourdomain.com>.     300 IN HTTPS 1 <target.yourdomain.com>. alpn="h2" port="443" path="/.well-known/api-catalog"
+_a2a._agents.<yourdomain.com>.     300 IN TXT   "api-catalog=https://<target.yourdomain.com>/.well-known/api-catalog"

@@ -14,6 +14,13 @@
       "description": "Convert conversational intent into goal-first, skeuomorphic savings plans.",
       "url": "https://www.defi.garden/llms.txt",
       "sha256": "f5f1270412c028b9c0fe3d2155b762f5e987accd830f3f5d948e089567f029c9"
+    },
+    {
+      "name": "agentic-readiness",
+      "type": "reference",
+      "description": "Configure, optimize, and verify websites and APIs for seamless discovery, consumption, and tool-invocation by AI agents.",
+      "url": "https://www.defi.garden/.well-known/agent-skills/agentic-readiness/SKILL.md",
+      "sha256": "cabb7ccab1053231085412b8e5243133591b469e13bb0817828df743e76eef5a"
     }
   ]
 }
