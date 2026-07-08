@@ -47,3 +47,12 @@ node_modules/
 # Local Oversight Dashboard & Daemons
 dashboard.html
 scripts/dashboard-server.js
+scripts/ai-growth-generator.js
+stories/custom-personas.json
+stories/growth-proposals.json
+stories/product-backlog.json
+
+# Private PM Plans & Task Specifications
+.agent-reviews/
+docs/*.md
+docs/pending-task-*.md
