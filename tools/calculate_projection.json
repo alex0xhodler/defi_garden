@@ -1,0 +1,28 @@
+{
+  "type": "function",
+  "function": {
+    "name": "calculate_projection",
+    "description": "Calculate a goal-first, skeuomorphic DeFi savings plan with compound growth estimations and milestones using DeFi Garden's financial engine.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "monthlyDeposit": {
+          "type": "number",
+          "description": "The monthly deposit amount in USD (must be a positive number)"
+        },
+        "years": {
+          "type": "number",
+          "description": "The duration of the savings plan in years (must be a positive number)"
+        },
+        "goalName": {
+          "type": "string",
+          "description": "Optional name or label for the savings goal (e.g., 'House Down Payment', 'DeFi Retirement')"
+        }
+      },
+      "required": [
+        "monthlyDeposit",
+        "years"
+      ]
+    }
+  }
+}
