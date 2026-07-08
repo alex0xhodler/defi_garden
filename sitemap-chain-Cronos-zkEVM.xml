@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Cronos+zkEVM" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Cronos+zkEVM&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Cronos+zkEVM" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,25 +15,34 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WZKCRO&amp;chain=Cronos+zkEVM" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WZKCRO&amp;chain=Cronos+zkEVM&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WZKCRO&amp;chain=Cronos+zkEVM" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.54</priority>
+    <priority>0.53</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USDC&amp;chain=Cronos%20zkEVM</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Cronos+zkEVM" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Cronos+zkEVM&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Cronos+zkEVM" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CRO&amp;chain=Cronos%20zkEVM</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CRO&amp;chain=Cronos+zkEVM" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CRO&amp;chain=Cronos+zkEVM&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CRO&amp;chain=Cronos+zkEVM" />
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=VUSD&amp;chain=Cronos%20zkEVM</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VUSD&amp;chain=Cronos+zkEVM" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VUSD&amp;chain=Cronos+zkEVM&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VUSD&amp;chain=Cronos+zkEVM" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.77</priority>
   </url>
@@ -42,26 +51,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VETH&amp;chain=Cronos+zkEVM" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VETH&amp;chain=Cronos+zkEVM&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VETH&amp;chain=Cronos+zkEVM" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.60</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=CRO&amp;chain=Cronos%20zkEVM</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CRO&amp;chain=Cronos+zkEVM" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CRO&amp;chain=Cronos+zkEVM&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CRO&amp;chain=Cronos+zkEVM" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ETH&amp;chain=Cronos%20zkEVM</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Cronos+zkEVM" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Cronos+zkEVM&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Cronos+zkEVM" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
   </url>
 </urlset>

@@ -2,7 +2,7 @@ import urllib.request
 import json
 import sys
 
-def verify_url(url, headers=None, expected_content_type=None, post_data=None):
+def verify_url(url, headers=None, expected_content_type=None, post_data=None, optional=False):
     print(f"Verifying {url}...")
     req = urllib.request.Request(url, headers=headers or {})
     if post_data:
@@ -24,14 +24,19 @@ def verify_url(url, headers=None, expected_content_type=None, post_data=None):
             print(f"  Snippet:\n{snippet}\n")
             return body
     except Exception as e:
-        print(f"  [FAIL] Request failed: {e}\n")
+        if optional:
+            print(f"  [WARN] Optional endpoint failed (Skipped): {e}\n")
+        else:
+            print(f"  [FAIL] Request failed: {e}\n")
+            # We explicitly output a marker that the watchdog can parse
+            print("  [ERROR_MARKER_FOR_WATCHDOG]")
         return None
 
 def main():
     if len(sys.argv) > 1:
         base_url = sys.argv[1].rstrip('/')
     else:
-        base_url = "https://www.0xhodler.nl"
+        base_url = "https://www.defi.garden"
     
     print(f"Starting Agentic Readiness Verification for {base_url}\n" + "="*50 + "\n")
     
@@ -47,26 +52,20 @@ def main():
     # 4. Auth.md
     verify_url(f"{base_url}/auth.md", expected_content_type="text/markdown")
 
-    # 5. ACP Discovery
-    verify_url(f"{base_url}/.well-known/acp.json", expected_content_type="application/json")
+    # 5. openapi.json (DeFi Garden's OpenAPI Spec)
+    verify_url(f"{base_url}/openapi.json", expected_content_type="application/json")
 
-    # 6. MCP Server (GET)
-    verify_url(f"{base_url}/api/mcp", expected_content_type="application/json")
+    # 6. ACP Discovery (Optional for static-only site)
+    verify_url(f"{base_url}/.well-known/acp.json", expected_content_type="application/json", optional=True)
 
-    # 7. MCP Server (POST initialize)
-    verify_url(f"{base_url}/api/mcp", post_data={"jsonrpc": "2.0", "id": 1, "method": "initialize"})
+    # 7. MCP Server (Optional for static-only site)
+    verify_url(f"{base_url}/api/mcp", expected_content_type="application/json", optional=True)
 
-    # 8. MCP Server (POST tools/list)
-    verify_url(f"{base_url}/api/mcp", post_data={"jsonrpc": "2.0", "id": 1, "method": "tools/list"})
-
-    # 9. MCP Server (POST tools/call get_studio_stats)
-    verify_url(f"{base_url}/api/mcp", post_data={"jsonrpc": "2.0", "id": 1, "method": "tools/call", "params": {"name": "get_studio_stats"}})
-
-    # 10. Agent Skills Index
+    # 8. Agent Skills Index
     verify_url(f"{base_url}/.well-known/agent-skills/index.json", expected_content_type="application/json")
 
-    # 11. Agent SKILL.md
-    verify_url(f"{base_url}/.well-known/agent-skills/0xhodler-discovery/SKILL.md", expected_content_type="text/markdown")
+    # 9. Agent SKILL.md
+    verify_url(f"{base_url}/.well-known/agent-skills/agentic-readiness/SKILL.md", expected_content_type="text/markdown")
 
 if __name__ == '__main__':
     main()

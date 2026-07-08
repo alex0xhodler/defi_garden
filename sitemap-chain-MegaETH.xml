@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=MegaETH" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=MegaETH&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=MegaETH" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -15,7 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDE&amp;chain=MegaETH" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDE&amp;chain=MegaETH&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDE&amp;chain=MegaETH" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -24,16 +24,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDM&amp;chain=MegaETH" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDM&amp;chain=MegaETH&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDM&amp;chain=MegaETH" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.83</priority>
+    <priority>0.84</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=STCUSD&amp;chain=MegaETH</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STCUSD&amp;chain=MegaETH" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STCUSD&amp;chain=MegaETH&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STCUSD&amp;chain=MegaETH" />
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WSTETH&amp;chain=MegaETH</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTETH&amp;chain=MegaETH" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTETH&amp;chain=MegaETH&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSTETH&amp;chain=MegaETH" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
@@ -42,26 +51,17 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTC.B&amp;chain=MegaETH" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTC.B&amp;chain=MegaETH&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTC.B&amp;chain=MegaETH" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.81</priority>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WETH&amp;chain=MegaETH</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=MegaETH" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=MegaETH&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=MegaETH" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
+    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDT0&amp;chain=MegaETH</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT0&amp;chain=MegaETH" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT0&amp;chain=MegaETH&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT0&amp;chain=MegaETH" />
-    <lastmod>2026-06-12T06:12:37.533Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.84</priority>
   </url>
 </urlset>
