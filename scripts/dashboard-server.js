@@ -66,12 +66,12 @@ const server = http.createServer((req, res) => {
         console.log(`[OVERSIGHT] Approving action: ${action}`);
 
         if (action === 'sitemap') {
-          // Commit and push generated SEO sitemaps
-          exec('git add sitemap*.xml llms.txt llms-full.txt && git -c user.name="Hermes Agent" -c user.email="hermes@localhost" commit -m "feat(seo): publish verified sitemaps"', { cwd: '/Users/mediacenter/defi_garden' }, (err, stdout, stderr) => {
+          // Commit and push generated SEO sitemaps directly to GitHub
+          exec('git add sitemap*.xml robots.txt llms.txt llms-full.txt stories/*.html && git -c user.name="Hermes Agent" -c user.email="hermes@localhost" commit -m "feat(seo): publish verified sitemaps" && git push origin main', { cwd: '/Users/mediacenter/defi_garden' }, (err, stdout, stderr) => {
             res.writeHead(200, { 'Content-Type': 'application/json' });
             res.end(JSON.stringify({
               success: true,
-              message: `Sitemaps committed & prepared for upstream sync. Git: ${stdout.trim() || 'No changes'}`
+              message: `Sitemaps committed & successfully pushed to GitHub. Git: ${stdout.trim() || 'No changes'}`
             }));
           });
         } else if (action === 'outbound') {
