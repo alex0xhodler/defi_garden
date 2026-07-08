@@ -1,0 +1,38 @@
+{
+  "issuer": "https://www.defi.garden",
+  "authorization_endpoint": "https://www.defi.garden/oauth/authorize",
+  "token_endpoint": "https://www.defi.garden/api/oauth2/token",
+  "revocation_endpoint": "https://www.defi.garden/api/oauth2/revoke",
+  "jwks_uri": "https://www.defi.garden/api/oauth2/certs",
+  "grant_types_supported": [
+    "urn:ietf:params:oauth:grant-type:jwt-bearer",
+    "urn:workos:agent-auth:grant-type:claim"
+  ],
+  "agent_auth": {
+    "skill": "https://www.defi.garden/auth.md",
+    "register_uri": "https://www.defi.garden/api/agent/identity",
+    "claim_uri": "https://www.defi.garden/api/agent/identity/claim",
+    "claim_endpoint": "https://www.defi.garden/api/agent/identity/claim",
+    "revocation_uri": "https://www.defi.garden/api/oauth2/revoke",
+    "events_endpoint": "https://www.defi.garden/api/agent/event/notify",
+    "identity_types_supported": [
+      "anonymous",
+      "identity_assertion"
+    ],
+    "anonymous": {
+      "credential_types_supported": [
+        "api_key"
+      ]
+    },
+    "identity_assertion": {
+      "assertion_types_supported": [
+        "urn:ietf:params:oauth:token-type:id-jag",
+        "verified_email"
+      ],
+      "credential_types_supported": [
+        "access_token",
+        "api_key"
+      ]
+    }
+  }
+}

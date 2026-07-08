@@ -113,6 +113,120 @@
 
     <!-- Planner script — static defer so it runs after React + translations -->
     <script defer src="planner.js"></script>
+
+    <!-- WebMCP implementation for AI Agents -->
+    <script>
+        (function() {
+            window.navigator = window.navigator || {};
+            if (!window.navigator.modelContext) {
+                window.navigator.modelContext = {
+                    tools: [],
+                    provideContext: function(options) {
+                        if (options && options.tools) {
+                            this.tools.push.apply(this.tools, options.tools);
+                        }
+                        return Promise.resolve();
+                    }
+                };
+            }
+            window.navigator.modelContext.provideContext({
+                tools: [
+                    {
+                        name: "search_yield_pools",
+                        description: "Search and filter live DeFi yield pools. Fetches live data from DefiLlama API with trust-rail filters (minimum $10M TVL).",
+                        inputSchema: {
+                            type: "object",
+                            properties: {
+                                token: { type: "string", description: "Filter by token symbol, e.g. USDC, ETH" },
+                                chain: { type: "string", description: "Filter by blockchain, e.g. Ethereum, Base, Arbitrum" },
+                                minApy: { type: "number", description: "Minimum APY percentage, e.g. 5" }
+                            }
+                        },
+                        execute: function(args) {
+                            return fetch("https://yields.llama.fi/pools")
+                                .then(function(res) { return res.json(); })
+                                .then(function(json) {
+                                    var pools = json.data || [];
+                                    var token = (args.token || "").toLowerCase();
+                                    var chain = (args.chain || "").toLowerCase();
+                                    var minApy = args.minApy || 0;
+                                    
+                                    var filtered = pools.filter(function(p) {
+                                        if (p.tvlUsd < 10000000) return false;
+                                        if (p.apy > 1000) return false;
+                                        
+                                        if (token && !p.symbol.toLowerCase().includes(token)) return false;
+                                        if (chain && p.chain.toLowerCase() !== chain) return false;
+                                        if (minApy && p.apy < minApy) return false;
+                                        return true;
+                                    });
+                                    
+                                    return {
+                                        success: true,
+                                        results: filtered.slice(0, 10).map(function(p) {
+                                            return {
+                                                pool: p.pool,
+                                                project: p.project,
+                                                symbol: p.symbol,
+                                                chain: p.chain,
+                                                tvlUsd: p.tvlUsd,
+                                                apy: p.apy
+                                            };
+                                        })
+                                    };
+                                })
+                                .catch(function(err) {
+                                    return { success: false, error: err.message };
+                                });
+                        }
+                    },
+                    {
+                        name: "calculate_savings_projection",
+                        description: "Calculate goal-first savings projection and yield-funded milestones using compound interest math.",
+                        inputSchema: {
+                            type: "object",
+                            required: ["monthlyDeposit", "years"],
+                            properties: {
+                                monthlyDeposit: { type: "number", description: "Monthly savings amount in USD" },
+                                years: { type: "number", description: "Investment horizon in years, max 10" },
+                                goalName: { type: "string", description: "The name of the goal, e.g. Retirement, Rent" }
+                            }
+                        },
+                        execute: function(args) {
+                            var monthly = args.monthlyDeposit;
+                            var years = args.years;
+                            var months = years * 12;
+                            var apy = 5.5;
+                            var rate = apy / 100 / 12;
+                            
+                            var totalDeposited = monthly * months;
+                            var futureValue = 0;
+                            if (rate === 0) {
+                                futureValue = totalDeposited;
+                            } else {
+                                futureValue = monthly * ((Math.pow(1 + rate, months) - 1) / rate) * (1 + rate);
+                            }
+                            
+                            var interestEarned = futureValue - totalDeposited;
+                            
+                            return Promise.resolve({
+                                success: true,
+                                projection: {
+                                    goalName: args.goalName || "Savings",
+                                    monthlyDeposit: monthly,
+                                    years: years,
+                                    estimatedApy: apy,
+                                    totalDeposited: Math.round(totalDeposited),
+                                    estimatedFutureValue: Math.round(futureValue),
+                                    interestEarned: Math.round(interestEarned)
+                                }
+                            });
+                        }
+                    }
+                ]
+            });
+        })();
+    </script>
 </head>
 <body>
     <!-- Root mounts for both experiences; only one gets populated per load -->

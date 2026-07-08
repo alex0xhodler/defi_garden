@@ -1,0 +1,23 @@
+{
+  "$schema": "https://modelcontextprotocol.org/schemas/mcp-server-card-v1.json",
+  "serverInfo": {
+    "name": "DeFi Garden MCP Server",
+    "version": "1.0.0"
+  },
+  "transports": [
+    {
+      "type": "sse",
+      "url": "https://www.defi.garden/api/mcp"
+    }
+  ],
+  "capabilities": {
+    "tools": {
+      "list": true,
+      "call": true
+    },
+    "prompts": {
+      "list": true,
+      "get": true
+    }
+  }
+}
