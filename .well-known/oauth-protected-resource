@@ -1,0 +1,10 @@
+{
+  "resource": "https://www.defi.garden/api",
+  "authorization_servers": [
+    "https://www.defi.garden"
+  ],
+  "scopes_supported": [
+    "read",
+    "write"
+  ]
+}

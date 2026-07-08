@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agentskills.io/schemas/index-v1.json",
+  "skills": [
+    {
+      "name": "yield-search",
+      "type": "tool-invocation",
+      "description": "Search and filter DeFi yield pools from DefiLlama data with trust-rail filters.",
+      "url": "https://www.defi.garden/openapi.json",
+      "sha256": "4c6725088389f29b3d962659989cae404a8678d7995ca9349d94be85a51cbf3b"
+    },
+    {
+      "name": "savings-planner",
+      "type": "generative-ui",
+      "description": "Convert conversational intent into goal-first, skeuomorphic savings plans.",
+      "url": "https://www.defi.garden/llms.txt",
+      "sha256": "f5f1270412c028b9c0fe3d2155b762f5e987accd830f3f5d948e089567f029c9"
+    }
+  ]
+}

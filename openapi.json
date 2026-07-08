@@ -1,0 +1,117 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "DeFi Garden API",
+    "version": "1.0.0",
+    "description": "API endpoints for DeFi Garden yield discovery and goal calculations"
+  },
+  "servers": [
+    {
+      "url": "https://www.defi.garden/api"
+    }
+  ],
+  "paths": {
+    "/pools": {
+      "get": {
+        "summary": "Retrieve live curated DeFi yield pools",
+        "description": "Get a list of high-quality, curated DeFi yield pools matching your criteria with TVL >= $10M and APY <= 1000%.",
+        "operationId": "getCuratedPools",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by token symbol (e.g. USDC, ETH)"
+          },
+          {
+            "name": "chain",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by chain name (e.g. Ethereum, Arbitrum)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of curated pools",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "pool": { "type": "string" },
+                      "project": { "type": "string" },
+                      "symbol": { "type": "string" },
+                      "chain": { "type": "string" },
+                      "apy": { "type": "number" },
+                      "tvlUsd": { "type": "number" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-payment-info": {
+          "intent": "charge",
+          "method": "tempo",
+          "amount": "0",
+          "currency": "0x833589fCD6eDb351a47402d5823ca7F192534578",
+          "description": "Free query for curated DeFi yields"
+        }
+      }
+    },
+    "/planner": {
+      "post": {
+        "summary": "Calculate savings and yield projection",
+        "description": "Calculate goal-first, skeuomorphic savings plan with compound growth estimations.",
+        "operationId": "calculateProjection",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "monthlyDeposit",
+                  "years"
+                ],
+                "properties": {
+                  "monthlyDeposit": { "type": "number" },
+                  "years": { "type": "number" },
+                  "goalName": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Projections and milestones",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "x-payment-info": {
+          "intent": "charge",
+          "method": "tempo",
+          "amount": "0",
+          "currency": "0x833589fCD6eDb351a47402d5823ca7F192534578",
+          "description": "Free goal projection computation"
+        }
+      }
+    }
+  }
+}
