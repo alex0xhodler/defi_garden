@@ -1607,8 +1607,19 @@
     }
 
     // Persist plan whenever artifact settles — curated is always the DISPLAYED set
+    var firedPlanCreated = useRef(false);
     useEffect(function () {
       if (!curated.length) return;
+      if (typeof Analytics !== 'undefined') {
+        if (!firedPlanCreated.current) {
+          firedPlanCreated.current = true;
+          Analytics.trackPlanCreated({ archetype: archetype, goal: goal, monthly: monthly, years: years || 10, persona: persona });
+        }
+        Analytics.trackPlanSaved({
+          archetype: archetype, goal: goal, monthly: monthly, years: years || 10, persona: persona,
+          blendedApy: rawApy, poolCount: curated.length
+        });
+      }
       savePlan({
         version: PLAN_VERSION,
         goal: goal, monthly: monthly, years: years || 10, persona: persona,
@@ -1722,6 +1733,9 @@
 
     function doCopyLink() {
       var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline);
+      if (typeof Analytics !== 'undefined') {
+        Analytics.trackShareLinkCreated({ method: 'copy', goal: goal, persona: persona });
+      }
       try {
         navigator.clipboard.writeText(url).then(function() {
           setCopySuccess(true);
@@ -1742,6 +1756,9 @@
 
     function doNativeShare() {
       var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline);
+      if (typeof Analytics !== 'undefined') {
+        Analytics.trackShareLinkCreated({ method: 'native', goal: goal, persona: persona });
+      }
       var nativeHeroDate = ladderDates ? monthsFromNow(ladderDates[pk]) : null;
       var heroText;
       if (archetype === 'subscription' && isCapitalPath) {
@@ -3269,6 +3286,15 @@
     var sharedPlan = useMemo(function () {
       return (!preset && !freshFlag) ? decodePlanFromUrl(urlParams) : null;
     }, [urlParams, preset, freshFlag]);
+
+    // Virality signal — a shared plan URL was actually opened (fires once per page load)
+    useEffect(function () {
+      if (!sharedPlan || typeof Analytics === 'undefined') return;
+      Analytics.trackShareLinkOpened({
+        goal: sharedPlan.goal, persona: sharedPlan.persona,
+        capital: sharedPlan.capital, deadline: sharedPlan.deadline
+      });
+    }, [sharedPlan]);
 
     var savedPlan = useMemo(function () {
       return (preset || freshFlag) ? null : loadSavedPlan();
