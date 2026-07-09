@@ -1,0 +1,10 @@
+name = "defi-garden-mixpanel-proxy"
+main = "worker.js"
+compatibility_date = "2026-07-01"
+
+[[routes]]
+pattern = "mp.defi.garden"
+custom_domain = true
+
+[observability]
+enabled = true
