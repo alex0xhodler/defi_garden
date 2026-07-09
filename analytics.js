@@ -1,4 +1,4 @@
-// Comprehensive Analytics tracking utilities for Umami
+// Comprehensive Analytics tracking utilities for Mixpanel
 const Analytics = {
   // Session management
   sessionId: null,
@@ -44,7 +44,7 @@ const Analytics = {
 
   // Core tracking function with enhanced context
   track(eventName, eventData = {}) {
-    if (typeof umami !== 'undefined') {
+    if (typeof mixpanel !== 'undefined') {
       const enrichedData = {
         ...this.getBaseContext(),
         ...eventData
@@ -53,7 +53,7 @@ const Analytics = {
       // Update last event time
       this.lastEventTime = Date.now();
 
-      umami.track(eventName, enrichedData);
+      mixpanel.track(eventName, enrichedData);
     }
   },
 
@@ -287,6 +287,47 @@ const Analytics = {
       user_action: context.userAction || null,
       can_recover: context.recoverable !== undefined ? context.recoverable : true,
       retry_count: context.retryCount || 0
+    });
+  },
+
+  // Garden Planner Analytics — north-star conversion funnel (superdense outcome loop)
+
+  trackPlanCreated(context = {}) {
+    this.track('plan_created', {
+      archetype: context.archetype || null,
+      goal: context.goal || null,
+      monthly: context.monthly || null,
+      years: context.years || null,
+      persona: context.persona || null
+    });
+  },
+
+  trackPlanSaved(context = {}) {
+    this.track('plan_saved', {
+      archetype: context.archetype || null,
+      goal: context.goal || null,
+      monthly: context.monthly || null,
+      years: context.years || null,
+      persona: context.persona || null,
+      blended_apy: context.blendedApy || null,
+      pool_count: context.poolCount || null
+    });
+  },
+
+  trackShareLinkCreated(context = {}) {
+    this.track('share_link_created', {
+      method: context.method || 'copy', // 'copy', 'native'
+      goal: context.goal || null,
+      persona: context.persona || null
+    });
+  },
+
+  trackShareLinkOpened(context = {}) {
+    this.track('share_link_opened', {
+      goal: context.goal || null,
+      persona: context.persona || null,
+      has_capital: !!context.capital,
+      has_deadline: !!context.deadline
     });
   },
 

@@ -1,0 +1,21 @@
+{
+  "type": "function",
+  "function": {
+    "name": "get_curated_pools",
+    "description": "Retrieve high-quality, live curated DeFi yield pools from DeFi Garden matching criteria like token and chain. This query filters for safe, substantial pools with TVL >= $10M and APY <= 1000%.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "token": {
+          "type": "string",
+          "description": "Optional token symbol to filter results (e.g. 'USDC', 'ETH', 'USDT')"
+        },
+        "chain": {
+          "type": "string",
+          "description": "Optional chain name to filter results (e.g. 'Ethereum', 'Arbitrum', 'Base', 'Solana')"
+        }
+      },
+      "required": []
+    }
+  }
+}

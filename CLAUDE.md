@@ -9,7 +9,7 @@ DeFi Garden (www.defi.garden) is a static, no-backend, no-build-step web app on 
 1. **Garden Planner** (the DEFAULT feature, bare `/` and `plan.html`) — a goal-first, conversational, generative-UI savings planner for the ICP below.
 2. **Analytics app** (every parameterized URL: `/?token=`, `/?chain=`, `/?pool=`, etc.) — the original yield search/grid, reached from the planner via the header icon.
 
-An inline IA router in `index.html` (`window.__APP_MODE`) decides which experience loads. **Existing parameterized URLs are sacred — thousands of sitemap URLs depend on them serving the analytics app unchanged.**
+An inline IA router in `home.html` (`window.__APP_MODE`) decides which experience loads (this doc previously called it `index.html` — there is no `index.html` file; `home.html` is what `vercel.json` rewrites `/` to). **Existing parameterized URLs are sacred — thousands of sitemap URLs depend on them serving the analytics app unchanged.**
 
 ## ICP and product direction (decided 2026-06, harness this)
 
@@ -24,7 +24,7 @@ An inline IA router in `index.html` (`window.__APP_MODE`) decides which experien
 ## Architecture
 
 - **No build step.** React 18 UMD; `app.js`/`PoolDetail.js` via babel-standalone; `planner.js` is a plain script. ALL components use `React.createElement` — never JSX.
-- Files: `index.html` (router + analytics app shell) · `plan.html` + `planner.js` + `planner-styles.css` (planner) · `app.js` (analytics app) · `PoolDetail.js` · `translations.js` (en/ko, `t(key)`; planner section included) · `style.css` (design system) · `pool-detail-styles.css` · `analytics.js` · `stories/` + `generate-stories.js` (persona landing pages: tomoko/kevin/lucia — fictional composites, "education not advice") · `generate-sitemap.js`/`generate-llms.js` (SEO assets).
+- Files: `home.html` (router + analytics app shell, serves both `/` and `plan.html`'s planner) · `plan.html` + `planner.js` + `planner-styles.css` (planner) · `app.js` (analytics app) · `PoolDetail.js` · `translations.js` (en/ko, `t(key)`; planner section included) · `style.css` (design system) · `pool-detail-styles.css` · `analytics.js` (Mixpanel-backed; static `defer` in both `home.html` and `plan.html`'s `<head>`, loaded BEFORE `planner.js`/`app.js` — do not move it back to the old dynamic-injection-into-body pattern, that raced the planner's first tracking call) · `stories/` + `generate-stories.js` (persona landing pages: tomoko/kevin/lucia — fictional composites, "education not advice") · `generate-sitemap.js`/`generate-llms.js` (SEO assets).
 - Data: `https://yields.llama.fi/pools` fetched client-side. Pool deep link: `/?pool=<pool.pool>`.
 - State conventions: theme = localStorage `theme` + `data-theme` attr; language = `?lang` + localStorage `defi-garden-lang`; saved plan = localStorage `garden-plan`.
 
@@ -51,3 +51,7 @@ An inline IA router in `index.html` (`window.__APP_MODE`) decides which experien
 ## Deployment
 
 Static hosting (no server rewrites assumed). The sitemap suite + `stories/` + `plan.html` are SEO surface — regenerate via the `generate-*.js` scripts, don't hand-edit.
+
+## Outcome loop (added 2026-07-09)
+
+`docs/outcome/{goal.md,run.md,gate.md}` is a [superdense](https://github.com/Nimrobo/superdense) outcome folder — additive hypothesis/reward bookkeeping over the existing growth-proposal approval flow, not a replacement for it. North-star = planner conversion + share-URL virality (see `goal.md`). `scripts/dashboard-server.js`'s `/api/approve` growth-proposal branch shell-outs to `superdense hypothesis record`/`experiment open`/`add-member` after a successful ship (non-blocking — failures there never affect approval). Reward snapshots are computed by a separate script in the hermes profile (`~/.hermes/profiles/ollama-local/scripts/reward_sync_mixpanel.py`, daily cron), not by anything in this repo. Full context and the red-team review: `.agent-reviews/redteam.md`, "superdense outcome-loop integration — 2026-07-09".

@@ -47,3 +47,7 @@ node_modules/
 # Local Oversight Dashboard & Daemons
 dashboard.html
 scripts/dashboard-server.js
+
+# Superdense outcome-loop bookkeeping (local-only, same tier as the dashboard above)
+docs/outcome/
+.agent-reviews/
