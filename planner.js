@@ -2399,14 +2399,13 @@
           // --- Step 2: accepted + share ---
           : e('div', { className: 'gp-waitlist-body' },
               e('div', { className: 'gp-waitlist-step-row' },
-                e('h2', { className: 'gp-waitlist-title' }, t('waitlistAccepted')),
-                e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 2))
+                e('h2', { className: 'gp-waitlist-title' }, t('waitlistAccepted'))
               ),
               e('p', { className: 'gp-waitlist-next-steps' }, t('waitlistNextSteps')),
 
               e('p', { className: 'gp-waitlist-jump-line' }, t('waitlistJumpLine')),
 
-              // Share actions — primary (Share on X) first, secondary (Download) second
+              // Share actions — primary (Share on X), secondary (Download), and Close button at the bottom of the card
               e('div', { className: 'gp-waitlist-share-row' },
                 e('button', {
                   type: 'button',
@@ -2417,7 +2416,12 @@
                   type: 'button',
                   className: 'gp-waitlist-action-btn',
                   onClick: doWaitlistDownload
-                }, t('downloadCard'))
+                }, t('downloadCard')),
+                e('button', {
+                  type: 'button',
+                  className: 'gp-waitlist-action-btn gp-waitlist-close-btn',
+                  onClick: function () { setWaitlistOpen(false); }
+                }, t('waitlistClose'))
               )
             )
       )
