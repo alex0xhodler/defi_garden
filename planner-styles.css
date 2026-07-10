@@ -84,6 +84,54 @@
   padding: var(--space-8) var(--space-16) var(--space-32);
 }
 
+/* ---------- Arrival banner (spec 007) — greets a share-link recipient ---------- */
+.gp-arrival-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+  max-width: 760px;
+  margin: 0 auto var(--space-16);
+  padding: var(--space-14) var(--space-20);
+  border-radius: var(--neuro-radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-flat);
+}
+.gp-arrival-text {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+  line-height: var(--line-height-normal);
+}
+.gp-arrival-actions { display: flex; align-items: center; gap: var(--space-8); flex-shrink: 0; }
+.gp-arrival-cta { white-space: nowrap; }
+.gp-arrival-dismiss {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: var(--neuro-radius-sm);
+  background: var(--color-background);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-base);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--neuro-shadow-subtle);
+  transition: box-shadow var(--duration-normal) var(--ease-standard),
+    transform var(--duration-normal) var(--ease-standard);
+}
+.gp-arrival-dismiss:hover { box-shadow: var(--neuro-shadow-flat); }
+.gp-arrival-dismiss:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.gp-arrival-dismiss:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+@media (max-width: 480px) {
+  .gp-arrival-banner { flex-direction: column; align-items: flex-start; gap: var(--space-12); }
+}
+
 .gp-tagline {
   text-align: center;
   margin-bottom: var(--space-24);
@@ -577,9 +625,12 @@
   line-height: var(--line-height-normal);
 }
 
-/* Share prompt — bloom-moment CTA (spec 004); calm nudge, not a dark pattern.
-   Sits inside the sticky checkout column so it's visible without scrolling
-   on desktop, and is first-on-page on mobile (checkout renders before detail). */
+/* Share prompt — the ONLY share surface at the bloom moment (spec 005;
+   originated spec 004). Calm nudge, not a dark pattern. Sits inside the
+   sticky checkout column so it's visible without scrolling on desktop, and
+   is first-on-page on mobile (checkout renders before detail). Two
+   full-width buttons stack via the flex-column + 100%-width rules below —
+   no new layout CSS needed for the added (image-share) button. */
 .gp-share-prompt {
   margin-top: var(--space-16);
   padding: var(--space-16) var(--space-20);
@@ -1400,18 +1451,6 @@
 .gp-ask-chip:hover { box-shadow: var(--neuro-shadow-flat); color: var(--color-primary); }
 .gp-ask-chip:active { box-shadow: var(--neuro-shadow-pressed); }
 
-/* ---------- Share row ---------- */
-.gp-share-row {
-  display: flex;
-  gap: var(--space-10);
-  flex-wrap: wrap;
-  margin-top: var(--space-8);
-}
-.gp-share-link {
-  background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-subtle);
-}
-
 /* ---------- Compounding micro-explainer ---------- */
 .gp-compound-line {
   margin: var(--space-10) 0 0;
@@ -1666,6 +1705,7 @@
   .gp-strip-item,
   .gp-analytics-btn,
   .gp-my-garden-btn,
+  .gp-arrival-dismiss,
   .gp-primary-cta { transition: none; }
   .gp-compound-line { transition: none; }
   .gp-item-fill-inner { transition: none; }

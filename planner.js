@@ -1479,6 +1479,11 @@
     var isSharing = sharingState[0], setSharing = sharingState[1];
     var copySuccessState = useState(false);
     var copySuccess = copySuccessState[0], setCopySuccess = copySuccessState[1];
+    // Image share confirmation — shown after the download+clipboard-copy
+    // fallback completes (spec 005). Native file-share needs no in-app
+    // banner; the OS share sheet already confirms.
+    var imageShareConfirmState = useState(false);
+    var imageShareConfirm = imageShareConfirmState[0], setImageShareConfirm = imageShareConfirmState[1];
 
     // YOUR PLAN card — risk dropdown open state
     var riskOpenState = useState(false);
@@ -1732,6 +1737,7 @@
         shareDrawChart = true;
       }
 
+      var shareUrl = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline);
       renderShareImage({
         headline: shareHeadline,
         goalLabel: goalLabel(t, goal),
@@ -1739,8 +1745,22 @@
         footer: t('shareFooter'),
         years: slideYears,
         you: slideMonthly, apy: apy,
-        drawChart: shareDrawChart
-      }).then(function () { setSharing(false); }).catch(function () { setSharing(false); });
+        drawChart: shareDrawChart,
+        // Spec 005: the image share must also carry the plan URL off the device.
+        url: shareUrl,
+        shareText: shareHeadline
+      }).then(function (result) {
+        setSharing(false);
+        if (result && result.linkAttached) {
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackShareLinkCreated({ method: 'image', goal: goal, persona: persona });
+          }
+          if (result.method === 'download') {
+            setImageShareConfirm(true);
+            setTimeout(function () { setImageShareConfirm(false); }, 2500);
+          }
+        }
+      }).catch(function () { setSharing(false); });
     }
 
     function doCopyLink() {
@@ -2324,20 +2344,10 @@
       )
     );
 
-    // Share/foot element (shared)
+    // Foot element (shared) — share buttons removed (spec 005): the
+    // gp-share-prompt card above is now the ONLY share surface in bloom.
     var footElement = e('div', { className: 'gp-bloom-foot gp-animate-in' },
       e('p', { className: 'gp-disclaimer' }, t('disclaimer')),
-      e('div', { className: 'gp-share-row' },
-        e('button', { type: 'button', className: 'gp-share-btn', onClick: doShare, disabled: isSharing },
-          isSharing ? t('sharePrepping') : ('📸 ' + t('share'))
-        ),
-        e('button', { type: 'button', className: 'gp-share-btn gp-share-link', onClick: doCopyLink },
-          copySuccess ? ('✓ ' + t('shareLinkCopied')) : ('🔗 ' + t('shareLink'))
-        ),
-        navigator.share ? e('button', { type: 'button', className: 'gp-share-btn', onClick: doNativeShare },
-          '↗ ' + t('shareNative')
-        ) : null
-      ),
       e('p', { className: 'gp-press-mention' },
         t('pressFeatureLabel') + ' ',
         e('a', {
@@ -2548,11 +2558,18 @@
       e('p', { className: 'gp-checkout-note' }, t('checkoutNote'))
     );
 
-    // Share prompt — surfaced at the bloom moment (spec 004): a calm, visible
-    // nudge that reuses the existing doCopyLink/doNativeShare handlers.
-    // Prefers native share when available, else falls back to copy-link.
+    // Share prompt — the ONLY share surface at the bloom moment (spec 005;
+    // originated as an additive card in spec 004). Primary button is the
+    // image-first doShare flow, which now also carries the plan URL with it
+    // (see renderShareImage's completion path). Secondary reuses
+    // doNativeShare when available, else falls back to doCopyLink.
     var sharePromptElement = e('div', { className: 'gp-share-prompt gp-animate-in' },
       e('p', { className: 'gp-share-prompt-text' }, t('sharePromptHeadline')),
+      e('button', {
+        type: 'button', className: 'gp-share-btn gp-share-prompt-btn', onClick: doShare, disabled: isSharing
+      },
+        isSharing ? t('sharePrepping') : (imageShareConfirm ? ('✓ ' + t('shareImageSaved')) : ('📸 ' + t('share')))
+      ),
       navigator.share
         ? e('button', {
             type: 'button', className: 'gp-share-btn gp-share-prompt-btn', onClick: doNativeShare
@@ -2876,12 +2893,72 @@
       try {
         c.toBlob(function (blob) {
           if (!blob) { resolve(); return; }
-          var url = URL.createObjectURL(blob);
-          var a = document.createElement('a');
-          a.href = url; a.download = 'my-defi-garden.png';
-          document.body.appendChild(a); a.click(); document.body.removeChild(a);
-          setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
-          resolve();
+
+          function downloadImage() {
+            var objectUrl = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = objectUrl; a.download = 'my-defi-garden.png';
+            document.body.appendChild(a); a.click(); document.body.removeChild(a);
+            setTimeout(function () { URL.revokeObjectURL(objectUrl); }, 1000);
+          }
+
+          // No plan URL supplied (e.g. the waitlist card download) — unchanged
+          // pre-005 behavior: just deliver the image.
+          if (!opts.url) {
+            downloadImage();
+            resolve();
+            return;
+          }
+
+          // Spec 005: the image path must also move the plan URL off the device.
+          var shareFile = null, canShareFiles = false;
+          try {
+            shareFile = new File([blob], 'my-defi-garden.png', { type: 'image/png' });
+            canShareFiles = !!(navigator.share && typeof navigator.canShare === 'function' &&
+              navigator.canShare({ files: [shareFile] }));
+          } catch (fileErr) { canShareFiles = false; }
+
+          if (canShareFiles) {
+            // navigator.share() can throw synchronously (not just reject) for
+            // an unshareable payload — guard so the promise always settles
+            // and the button never gets stuck disabled ("Drawing…").
+            try {
+              navigator.share({
+                files: [shareFile], url: opts.url, title: 'My DeFi Garden',
+                text: opts.shareText || opts.headline || ''
+              }).then(function () {
+                resolve({ linkAttached: true, method: 'native' });
+              }).catch(function () {
+                resolve({ linkAttached: false, method: 'native' });
+              });
+            } catch (shareErr) {
+              resolve({ linkAttached: false, method: 'native' });
+            }
+            return;
+          }
+
+          // No native file-share support: the image download IS the delivery;
+          // copy the plan URL to the clipboard so the link travels too.
+          downloadImage();
+          try {
+            navigator.clipboard.writeText(opts.url).then(function () {
+              resolve({ linkAttached: true, method: 'download' });
+            }).catch(function () {
+              try {
+                var ta = document.createElement('textarea');
+                ta.value = opts.url;
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+                resolve({ linkAttached: true, method: 'download' });
+              } catch (fallbackErr) {
+                resolve({ linkAttached: false, method: 'download' });
+              }
+            });
+          } catch (copyErr) {
+            resolve({ linkAttached: false, method: 'download' });
+          }
         }, 'image/png');
       } catch (err) { resolve(); }
     });
@@ -3238,6 +3315,28 @@
   }
 
   // ===========================================================================
+  // Arrival banner — greets a share-link recipient once per view (spec 007)
+  // ===========================================================================
+  function ArrivalBanner(props) {
+    var t = props.t;
+    // CTA and dismiss both close the banner: shared plans fast-forward straight
+    // to the bloom step, so the recipient's prefilled plan is already rendered
+    // underneath — "adopting" it just means clearing this banner out of the way.
+    return e('div', { className: 'gp-arrival-banner gp-animate-in' },
+      e('p', { className: 'gp-arrival-text' }, t('arrivalBannerText')),
+      e('div', { className: 'gp-arrival-actions' },
+        e('button', {
+          type: 'button', className: 'gp-cta gp-arrival-cta', onClick: props.onDismiss
+        }, t('arrivalBannerCta')),
+        e('button', {
+          type: 'button', className: 'gp-arrival-dismiss', onClick: props.onDismiss,
+          'aria-label': t('arrivalBannerDismiss')
+        }, '✕')
+      )
+    );
+  }
+
+  // ===========================================================================
   // Root app — finite-state scripted conversation
   // ===========================================================================
   var STEPS = ['goal', 'funding-mode', 'deadline', 'monthly', 'horizon', 'temperament', 'bloom'];
@@ -3360,6 +3459,12 @@
     var sharedIntroState = useState(!!sharedPlan);
     var showSharedIntro = sharedIntroState[0], setShowSharedIntro = sharedIntroState[1];
 
+    // Arrival banner dismissal (spec 007) — session-only state, no localStorage.
+    // sharedPlan itself never changes after mount, so a plain dismissed flag
+    // (rather than mirroring sharedPlan into more state) is all that's needed.
+    var arrivalDismissedState = useState(false);
+    var arrivalDismissed = arrivalDismissedState[0], setArrivalDismissed = arrivalDismissedState[1];
+
     function advance(toStep) {
       if (prefersReducedMotion) { setStep(toStep); return; }
       setThinking(true);
@@ -3372,6 +3477,7 @@
       setAnswers({ goal: null, monthly: null, years: null, persona: null, capital: null, fundingMode: null, deadline: null });
       setStep('goal'); setMode('convo'); setCm(''); setCc(''); setFt(''); setShowNudge(false); setFmSelected(null);
       setShowSharedIntro(false);
+      setArrivalDismissed(true);
       try {
         var u = new URL(window.location.href);
         ['preset', 'fresh', 'goal', 'monthly', 'years', 'pace', 'capital', 'fm', 'dl'].forEach(function(k) { u.searchParams.delete(k); });
@@ -3982,6 +4088,11 @@
 
     var canRestart = (stepIndex > 0 || step === 'bloom' || mode === 'report' || !!loadSavedPlan());
     var hasSavedPlan = !!loadSavedPlan();
+    // Never show the arrival banner while the report branch is rendering the
+    // RECIPIENT'S OWN saved plan (a returning user who also opened someone
+    // else's share link) — that view ignores sharedPlan entirely, so the
+    // "someone sent you this" framing would be describing the wrong plan.
+    var showArrivalBanner = !!sharedPlan && !arrivalDismissed && !(mode === 'report' && savedPlan);
 
     return e('div', { className: 'gp-app' },
       e(PlannerHeader, {
@@ -3992,6 +4103,7 @@
         mode: mode,
         onShowGarden: function() { setMode('report'); }
       }),
+      showArrivalBanner ? e(ArrivalBanner, { t: t, onDismiss: function () { setArrivalDismissed(true); } }) : null,
       e('main', { className: 'gp-main' + (step === 'bloom' ? ' gp-main--bloom' : '') },
         (step === 'goal' && mode !== 'report')
           ? e('div', { className: 'gp-tagline' }, e('h1', null, t('title')), e('p', null, t('tagline')))

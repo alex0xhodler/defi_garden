@@ -80,3 +80,4 @@ OUT OF SCOPE — loops never modify, never run, never target:
 - 2026-07-10 · share pipeline code-audited sound end-to-end (CTA→track→encode→router→decode→track); share zeros = no usage yet, not breakage
 - 2026-07-10 · execution model (human directive): code changes are built by Sonnet 5 agents; Fable 5 only operates the loop-of-loops and judges (verifier/operator role) — the operator never writes product code directly
 - 2026-07-10 · autonomy ratcheted to (c): verifier PASS → auto-merge ANY tier, human reviews after the fact (human directive). Operator flagged the trade: no pixel-level QA exists until 003 ships, and README's ratchet advice is 4 clean weeks — human accepted. NEVER list above still human-gated.
+- 2026-07-10 · the garden IMAGE ("Share my garden") is the hero share artifact (human directive after prod review); every share path must carry the plan URL or it can't close the loop; exactly ONE share surface at bloom

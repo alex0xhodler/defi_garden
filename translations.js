@@ -201,6 +201,9 @@ const translations = {
       trustYourKeys: "Your keys",
       trustWithdraw: "Withdraw anytime",
       checkoutNote: "Live rates from DefiLlama · Education, not advice",
+      arrivalBannerText: "Someone sent you this garden — it's already set up and ready to grow.",
+      arrivalBannerCta: "Make it mine",
+      arrivalBannerDismiss: "Close",
       riskEdit: "Customize",
       tempChosen: (t) => `${t} pace`,
 
@@ -470,7 +473,10 @@ const translations = {
       waitlistNoSpam: "No spam — one email when it's your turn.",
 
       // Waitlist — step indicator
-      waitlistStepLabel: function (n) { return 'Step ' + n + ' of 2'; }
+      waitlistStepLabel: function (n) { return 'Step ' + n + ' of 2'; },
+
+      // Share — image path confirmation (spec 005)
+      shareImageSaved: "Image saved — link copied!"
     }
   },
 
@@ -669,6 +675,9 @@ const translations = {
       trustYourKeys: "내 키",
       trustWithdraw: "언제든 출금",
       checkoutNote: "DefiLlama 실시간 데이터 · 교육 목적, 금융 조언 아님",
+      arrivalBannerText: "누군가 이 정원을 보냈어요 — 이미 준비가 끝나서 바로 자랄 수 있어요.",
+      arrivalBannerCta: "내 것으로 만들기",
+      arrivalBannerDismiss: "닫기",
       riskEdit: "설정",
       tempChosen: (t) => `${t} 속도`,
 
@@ -929,7 +938,10 @@ const translations = {
       waitlistNoSpam: "스팸 없어요 — 순서가 되면 이메일 한 통만 보내드려요.",
 
       // Waitlist — step indicator
-      waitlistStepLabel: function (n) { return n + ' / 2 단계'; }
+      waitlistStepLabel: function (n) { return n + ' / 2 단계'; },
+
+      // Share — image path confirmation (spec 005)
+      shareImageSaved: "이미지 저장됨 — 링크 복사됨!"
     }
   }
 };

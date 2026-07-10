@@ -7,12 +7,25 @@ cd "$(dirname "$0")/.."   # repo root
 ITERS="${1:-1}"
 mkdir -p product-loop-kit/logs
 
-# Self-heal before building: clear stale git lock (>10 min old), then sync with
-# remote — the sitemap GitHub Action commits to main daily on GitHub's side.
-if [ -f .git/index.lock ] && [ -n "$(find .git/index.lock -mmin +10 2>/dev/null)" ]; then
-  rm -f .git/index.lock && echo "removed stale git lock"
+# Self-heal before building: clear leftover git lock (no live git process = leftover),
+# then sync with remote — the sitemap GitHub Action commits to main daily.
+if [ -f .git/index.lock ] && ! pgrep -x git >/dev/null 2>&1; then
+  rm -f .git/index.lock && echo "removed leftover git lock"
 fi
 git pull --rebase --autostash origin main 2>&1 | tail -1
+
+# Ship queue: the Cowork operator drops this marker after verifier-PASSing agent work
+# in the working tree. Commit + push it before building so approved work always ships
+# on the next tick even if the human never opens a terminal.
+if [ -f product-loop-kit/.ship-queue ]; then
+  git add -A
+  if ! git diff --cached --quiet; then
+    git commit -m "feat: approved loop work — $(head -1 product-loop-kit/.ship-queue) (see product-loop-kit/LOG.md)"
+    git push origin main && rm -f product-loop-kit/.ship-queue && echo "ship-queue: pushed approved work"
+  else
+    rm -f product-loop-kit/.ship-queue
+  fi
+fi
 
 for i in $(seq 1 "$ITERS"); do
   echo "════ build loop $i/$ITERS · $(date '+%F %H:%M') ════"
