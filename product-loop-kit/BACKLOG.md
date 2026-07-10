@@ -17,4 +17,6 @@
 | 013 | GSC fix: sitemap quality threshold in generate-sitemap.js (≥2 live pools + TVL floor per URL) | 8.0 | READY (spec TBD by next heartbeat) | HIGH | — | 0 | — |
 | 014 | GSC fix: static token/chain landing pages, top-100 by TVL (generate-*.js pattern) — phase 1 | 7.8 | READY (spec TBD) | HIGH | — | 0 | — |
 | 015 | Fix apex/referral share URL in tweet flow (redirect hygiene) | 6.0 | READY (spec TBD) | LOW | — | 0 | — |
+| 016 | Re-brand empty-state buttons (.reset-filters-btn gradients → neumorphic tokens); reuse-components rule now standing | 7.2 | IN_REVIEW (verifier PASS — held for batch queue with 017) | LOW | specs/016.md | 1 | — |
+| 017 | NL search: every advertised typing-example must parse correctly (solana/base/kamino lenders/curve/convex classes); extract parser to search-parser.js, kill test-copy drift | 8.4 | READY (top priority — first GitHub-Actions loop run picks it up) | HIGH | specs/017.md | 0 | — |
 | 007 | Arrival moment: greet share-link recipients, explicit adoption path (funnel step 2) | 8.2 | SHIPPED (live 2026-07-10, commit bce752d) | HIGH | specs/007.md | 1 | 2026-07-24 |

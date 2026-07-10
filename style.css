@@ -2442,7 +2442,7 @@ body {
   background: rgba(59, 130, 246, 0.1);
 }
 
-/* Reset Filters Button - styled like "I'm Feeling Degen" */
+/* Reset Filters Button - neumorphic recovery action (empty state) */
 .reset-filters-btn {
   margin-top: var(--space-20);
   display: inline-flex;
@@ -2450,26 +2450,30 @@ body {
   gap: var(--space-8);
   padding: var(--space-16) var(--space-24);
   border: none;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-teal-600));
-  color: white;
-  border-radius: var(--neuro-radius-lg);
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-radius: var(--neuro-radius-md);
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-raised), 0 4px 15px rgba(33, 128, 141, 0.3);
+  box-shadow: var(--neuro-shadow-raised);
   min-width: auto;
 }
 
 .reset-filters-btn:hover {
-  background: linear-gradient(135deg, var(--color-teal-600), var(--color-teal-700));
-  box-shadow: var(--neuro-shadow-raised), 0 8px 25px rgba(33, 128, 141, 0.4);
-  transform: translateY(-3px);
+  box-shadow: var(--neuro-shadow-flat);
+  transform: translateY(-2px);
 }
 
 .reset-filters-btn:active {
-  box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(0);
+  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(1px);
+}
+
+.reset-filters-btn:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
 }
 
 /* Responsive Design - Mobile Only (Desktop Unchanged) */
