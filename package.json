@@ -8,7 +8,8 @@
     "sitemap:validate": "node generate-sitemap.js && echo 'Validating sitemap...' && curl -s -o /dev/null -w '%{http_code}' https://www.xml-sitemaps.com/validate-xml-sitemap.html",
     "serve": "npx --yes http-server -p 8000 -c-1",
     "dev": "npx --yes http-server -p 8000 -c-1",
-    "generate:llms": "node generate-llms.js"
+    "generate:llms": "node generate-llms.js",
+    "test": "node test_planner.js && node test_protocol_parsing.js && node test_qualifier_fix.js && node test_smoke.js"
   },
   "keywords": [
     "defi",
@@ -38,5 +39,8 @@
   },
   "dependencies": {
     "fast-xml-parser": "^4.4.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
   }
 }
