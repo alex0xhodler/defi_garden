@@ -20,5 +20,5 @@
 | 015 | Fix apex/referral share URL in tweet flow (redirect hygiene) | 6.0 | READY (heartbeat writes the spec) | LOW | — | 0 | — |
 | 016 | Re-brand empty-state buttons to neumorphic tokens | 7.2 | SHIPPED (PR #97, merged 2026-07-11) | LOW | specs/016.md | 1 | — |
 | 017 | NL search: every advertised typing-example must parse (solana/base/kamino lenders/curve/convex) | 8.4 | superseded by 018 — fixtures passed, product failed | HIGH | specs/017.md | 1 | — |
-| 018 | NL search actually works (behavior on live data, Playwright drives the real UI) | 9.0 | IN_PROGRESS (2026-07-11) | HIGH | specs/018.md | 1 | — |
+| 018 | NL search actually works (behavior on live data, Playwright drives the real UI) | 9.0 | BLOCKED — this build session's sandbox has no egress to unpkg.com/yields.llama.fi (403), so the live-UI acceptance criteria can't be verified here (specs/018-notes.md) | HIGH | specs/018.md | 1 | — |
 | 019 | Pool-detail pages convert SEO landers toward the north star | 8.7 | READY | HIGH | specs/019.md | 0 | — |
