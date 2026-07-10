@@ -3,9 +3,13 @@
 # The Cowork operator drops product-loop-kit/.ship-queue after verifier-PASSing agent work;
 # this script commits + pushes it (Vercel then deploys main to production).
 set -uo pipefail
-cd "$(dirname "$0")/.."
+# Runs from a $HOME copy (quarantine-free for cron); REPO env points at the repo.
+cd "${REPO:-$(dirname "$0")/..}"
 
 [ -f product-loop-kit/.ship-queue ] || exit 0
+
+# Cowork-written files may carry macOS quarantine xattrs that break cron-context reads.
+xattr -rc . 2>/dev/null || true
 
 # Leftover lock with no live git process = crash artifact; a live git process = try next tick.
 if pgrep -x git >/dev/null 2>&1; then exit 0; fi

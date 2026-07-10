@@ -628,18 +628,18 @@
 /* Share prompt — the ONLY share surface at the bloom moment (spec 005;
    originated spec 004). Calm nudge, not a dark pattern. Sits inside the
    sticky checkout column so it's visible without scrolling on desktop, and
-   is first-on-page on mobile (checkout renders before detail). Two
-   full-width buttons stack via the flex-column + 100%-width rules below —
-   no new layout CSS needed for the added (image-share) button. */
+   is first-on-page on mobile (checkout renders before detail). One
+   full-width primary button (image-share) plus a demoted text link
+   (native share / copy — spec 008) stack via the flex-column rules below. */
 .gp-share-prompt {
   margin-top: var(--space-16);
-  padding: var(--space-16) var(--space-20);
+  padding: var(--space-12) var(--space-16);
   background: var(--color-surface);
   border-radius: var(--neuro-radius-md);
   box-shadow: var(--neuro-shadow-flat);
   display: flex;
   flex-direction: column;
-  gap: var(--space-12);
+  gap: var(--space-8);
 }
 .gp-share-prompt-text {
   margin: 0;
@@ -649,6 +649,24 @@
   line-height: var(--line-height-normal);
 }
 .gp-share-prompt-btn { width: 100%; }
+.gp-share-textlink {
+  align-self: flex-start;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.gp-share-textlink:hover { color: var(--color-primary); }
+.gp-share-textlink:active { color: var(--color-primary); transform: translateY(1px); }
+.gp-share-textlink:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
 
 /* Mobile: single-col, checkout first */
 @media (max-width: 768px) {

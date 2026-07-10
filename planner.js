@@ -1562,11 +1562,20 @@
           setReferralHandle(derived);
           setWaitlistStep(2);
           setWaitlistStatus('idle');
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: true });
+          }
         } else {
           setWaitlistStatus('error');
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: false });
+          }
         }
       }).catch(function () {
         setWaitlistStatus('error');
+        if (typeof Analytics !== 'undefined') {
+          Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: false });
+        }
       });
     }
 
@@ -2312,6 +2321,9 @@
           setWaitlistStep(1);
           setWaitlistStatus('idle');
           setWaitlistOpen(true);
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype });
+          }
         }
       },
         t('ctaWaitlist')
@@ -2548,6 +2560,9 @@
           setWaitlistStep(1);
           setWaitlistStatus('idle');
           setWaitlistOpen(true);
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype });
+          }
         }
       }, t('ctaWaitlist')),
       e('div', { className: 'gp-checkout-trust' },
@@ -2561,8 +2576,9 @@
     // Share prompt — the ONLY share surface at the bloom moment (spec 005;
     // originated as an additive card in spec 004). Primary button is the
     // image-first doShare flow, which now also carries the plan URL with it
-    // (see renderShareImage's completion path). Secondary reuses
-    // doNativeShare when available, else falls back to doCopyLink.
+    // (see renderShareImage's completion path). The link action (native
+    // share or copy) is a demoted text link, not a button (spec 008) —
+    // same doNativeShare/doCopyLink handlers, unchanged.
     var sharePromptElement = e('div', { className: 'gp-share-prompt gp-animate-in' },
       e('p', { className: 'gp-share-prompt-text' }, t('sharePromptHeadline')),
       e('button', {
@@ -2572,11 +2588,11 @@
       ),
       navigator.share
         ? e('button', {
-            type: 'button', className: 'gp-share-btn gp-share-prompt-btn', onClick: doNativeShare
-          }, '↗ ' + t('shareNative'))
+            type: 'button', className: 'gp-share-textlink', onClick: doNativeShare
+          }, t('shareTextLinkNative'))
         : e('button', {
-            type: 'button', className: 'gp-share-btn gp-share-prompt-btn', onClick: doCopyLink
-          }, copySuccess ? ('✓ ' + t('shareLinkCopied')) : ('🔗 ' + t('shareLink')))
+            type: 'button', className: 'gp-share-textlink', onClick: doCopyLink
+          }, copySuccess ? ('✓ ' + t('shareLinkCopied')) : t('shareTextLinkCopy'))
     );
 
     if (archetype === 'subscription') {

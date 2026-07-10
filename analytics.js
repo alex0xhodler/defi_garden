@@ -331,6 +331,23 @@ const Analytics = {
     });
   },
 
+  trackWaitlistOpened(context = {}) {
+    this.track('waitlist_opened', {
+      goal: context.goal || null,
+      persona: context.persona || null,
+      archetype: context.archetype || null
+    });
+  },
+
+  trackWaitlistSubmitted(context = {}) {
+    this.track('waitlist_submitted', {
+      goal: context.goal || null,
+      persona: context.persona || null,
+      archetype: context.archetype || null,
+      success: !!context.success
+    });
+  },
+
   // Utility Functions
 
   classifySearchType(query) {

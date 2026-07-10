@@ -22,15 +22,23 @@ if ! git diff --cached --quiet; then
   git commit -m "feat: approved loop work — see product-loop-kit/LOG.md"
 fi
 git push origin main || { echo "push failed — check git credentials, then rerun"; exit 1; }
+rm -f product-loop-kit/.ship-queue   # shipped — clear the queue marker
 
-echo "── 2/3 install schedule (weekdays: heartbeat 08:00, build loops 09:00)"
+echo "── 2/3 install schedule (weekdays: heartbeat 08:00, build loops 09:00; ship-tick every 15 min)"
 REPO="$(pwd)"
 CLAUDE_BIN="$(command -v claude || true)"
 if [ -z "$CLAUDE_BIN" ]; then echo "claude CLI not on PATH — install/alias it, then rerun"; exit 1; fi
-( crontab -l 2>/dev/null | grep -v 'product-loop-kit' ;
+
+# macOS quarantines files written by apps; cron then gets EPERM reading them.
+# Clear xattrs on the kit, and give cron a quarantine-free copy of ship-tick in $HOME.
+xattr -rc product-loop-kit 2>/dev/null || true
+cp product-loop-kit/ship-tick.sh "$HOME/.defi-garden-ship-tick.sh"
+chmod +x "$HOME/.defi-garden-ship-tick.sh"
+
+( crontab -l 2>/dev/null | grep -v 'product-loop-kit\|defi-garden-ship-tick' ;
   echo "0 8 * * 1-5 cd $REPO && $CLAUDE_BIN -p \"\$(cat product-loop-kit/prompts/heartbeat.md)\" --permission-mode acceptEdits >> product-loop-kit/logs/heartbeat.log 2>&1" ;
   echo "0 9 * * 1-5 cd $REPO && ./product-loop-kit/loop.sh 3 >> product-loop-kit/logs/cron-build.log 2>&1" ;
-  echo "*/15 * * * * cd $REPO && bash product-loop-kit/ship-tick.sh >> product-loop-kit/logs/ship.log 2>&1"
+  echo "*/15 * * * * REPO=$REPO bash \$HOME/.defi-garden-ship-tick.sh >> $REPO/product-loop-kit/logs/ship.log 2>&1"
 ) | crontab -
 
 echo "── 3/3 verify"

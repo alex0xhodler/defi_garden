@@ -12,7 +12,9 @@
     <meta name="keywords" content="DeFi savings planner, goal-based saving, stablecoin yield, retirement DeFi, compound growth, yield farming, cryptocurrency, APY, DeFi Garden">
     <meta name="author" content="DeFi Garden">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.defi.garden/">
+    <!-- No static canonical here (spec 011) — the IA router below is the
+         single source of truth for BOTH canonical and og:url, in every mode,
+         on every load. See canonical.js / window.__canonicalFor. -->
 
     <!-- Multilingual SEO -->
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/">
@@ -51,6 +53,12 @@
     <link rel="dns-prefetch" href="//unpkg.com">
     <link rel="dns-prefetch" href="//yields.llama.fi">
 
+    <!-- Canonical-URL pure function (spec 011) — loaded synchronously, BEFORE
+         the router below, which calls window.__canonicalFor(). No defer: the
+         router runs synchronously immediately after this tag and needs the
+         global ready before it executes. -->
+    <script src="canonical.js"></script>
+
     <script>
         // IA Router — runs before React loads. Zero flash. Zero double-load.
         // ANALYTICS PARAMS: any of these mean "show the analytics app"
@@ -70,16 +78,29 @@
                 document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
             } catch (e) {}
 
-            // Update canonical/OG if analytics mode
+            // Canonical/og:url — ALWAYS set from JS in both modes (spec 011:
+            // no static canonical exists anymore, so this is the single source
+            // of truth; a missing pre-render canonical is neutral, a wrong one
+            // is actively harmful). Analytics mode self-canonicalizes on the
+            // normalized query; planner mode (incl. share URLs) canonicalizes
+            // to root. See canonical.js for the normalization rules.
+            var canonicalUrl = window.__canonicalFor(window.location.search);
+            var canon = document.querySelector('link[rel="canonical"]');
+            if (!canon) {
+                canon = document.createElement('link');
+                canon.rel = 'canonical';
+                document.head.appendChild(canon);
+            }
+            canon.href = canonicalUrl;
+            var ogUrl = document.querySelector('meta[property="og:url"]');
+            if (ogUrl) ogUrl.content = canonicalUrl;
+
+            // Title/description rewrite — analytics mode only; the static
+            // defaults already in <head> are the correct planner-mode values.
             if (needsAnalytics) {
-                var analyticsUrl = 'https://www.defi.garden/' + (window.location.search || '');
-                var canon = document.querySelector('link[rel="canonical"]');
-                if (canon) canon.href = analyticsUrl;
                 document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
                 var desc = document.querySelector('meta[name="description"]');
                 if (desc) desc.content = 'Find the best DeFi yields for your tokens with DeFi Garden. Compare lending, staking, and LP rewards across 50+ protocols and all major chains. Real-time APY data from Defillama API.';
-                var ogUrl = document.querySelector('meta[property="og:url"]');
-                if (ogUrl) ogUrl.content = analyticsUrl;
                 var ogTitle = document.querySelector('meta[property="og:title"]');
                 if (ogTitle) ogTitle.content = document.title;
             }

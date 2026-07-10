@@ -691,6 +691,21 @@ function AnimatedNumber({ value, formatFn = (v) => v, duration = 1200, delay = 0
 const APY_SANITY_LIMIT = 1000;
 const DEFAULT_MIN_TVL = 10000000; // $10M default floor
 
+// Stablecoin symbol allowlist — mirrors planner.js's STABLE_SYMBOLS/isStableSymbol
+// exactly. Duplicated rather than imported: this repo has no build step or module
+// system linking app.js and planner.js, so each browser script is self-contained
+// (see formatUsd/formatNum/formatApy below, which follow the same convention).
+const STABLE_SYMBOLS = ['USDC', 'USDT', 'DAI', 'USDS', 'FRAX', 'TUSD', 'USDP', 'GUSD',
+  'LUSD', 'USDD', 'PYUSD', 'USDE', 'SUSD', 'CRVUSD', 'GHO', 'USD0', 'FDUSD', 'USDB',
+  'BUSD', 'MIM', 'DOLA', 'USDX', 'EURC', 'EURS', 'RLUSD', 'USDL', 'DEUSD', 'SDAI'];
+
+const isStableSymbol = (symbol) => {
+  if (!symbol) return false;
+  const parts = String(symbol).toUpperCase().split(/[-_\/\s+]/).map(s => s.trim()).filter(Boolean);
+  if (parts.length === 0) return false;
+  return parts.every(p => STABLE_SYMBOLS.indexOf(p) !== -1);
+};
+
 // Main App Component
 function App() {
   const [pools, setPools] = useState([]);
@@ -1929,6 +1944,69 @@ function App() {
   // APY anomaly check
   const isAnomalousApy = (pool) => ((pool.apyBase || 0) + (pool.apyReward || 0)) > APY_SANITY_LIMIT;
 
+  // --- Honest empty states (spec 012) ----------------------------------------
+  // "Resolved" = the pools fetch actually completed (pools.length > 0 — never
+  // during the pre-fetch flash, when filteredPools is trivially [] for EVERY
+  // query including valid ones; that flash is the exact "API fetch not
+  // completing in render budget" soft-404 mechanism named in
+  // product-loop-kit/specs/010-diagnosis.md, so asserting anything here before
+  // pools has loaded would be actively false) AND the active token/chain query
+  // filtered down to zero matches. currentView !== 'pool-detail' matters: the
+  // filter effect intentionally skips recomputing filteredPools while a pool
+  // detail page is open (it stays at its stale pre-navigation value), so
+  // without this guard, clicking from a dead-token empty state into one of
+  // its own (perfectly valid, real) alternative pools would leave that pool's
+  // detail page incorrectly noindexed.
+  const emptyStateResolved = currentView !== 'pool-detail' && pools.length > 0 && filteredPools.length === 0 &&
+    !!(selectedToken || (chainMode && selectedChain));
+
+  // Up to 5 live alternatives for the honest empty state: top-TVL pools on the
+  // same chain first, else top-TVL stablecoin pools. Always drawn from `pools`
+  // already in memory (no new network call) and always passing the same trust
+  // rails as the rest of the app — the $10M floor (DEFAULT_MIN_TVL, not the
+  // user's own possibly-relaxed minTvl) and the anomaly check above — so an
+  // anomalous or sub-floor pool can never appear as a "trustworthy" suggestion.
+  const getEmptyStateAlternatives = (targetChain) => {
+    const passesTrustRails = (pool) => pool.tvlUsd >= DEFAULT_MIN_TVL && !isAnomalousApy(pool);
+    const byTvlDesc = (a, b) => b.tvlUsd - a.tvlUsd;
+
+    if (targetChain && targetChain !== 'All' && targetChain !== 'Popular') {
+      const sameChain = pools.filter(p => p.chain === targetChain && passesTrustRails(p)).sort(byTvlDesc);
+      if (sameChain.length > 0) return { items: sameChain.slice(0, 5), source: 'chain' };
+    }
+
+    const stable = pools.filter(p => isStableSymbol(p.symbol) && passesTrustRails(p)).sort(byTvlDesc);
+    return { items: stable.slice(0, 5), source: 'stable' };
+  };
+
+  const emptyAlternatives = useMemo(
+    () => (emptyStateResolved ? getEmptyStateAlternatives(selectedChain) : { items: [], source: 'stable' }),
+    [emptyStateResolved, selectedChain, pools]
+  );
+
+  // Zero-pool resolved query -> inject a client noindex; any non-empty query,
+  // or no active query at all, removes it. Idempotent by construction: this
+  // always finds-or-creates the SAME node (never appends a second one), so
+  // there is exactly one meta[name="robots"] at all times. Reuses the single
+  // tag home.html already ships (home.html:14, default "index, follow");
+  // create-if-missing only guards against that tag ever being removed upstream.
+  useEffect(() => {
+    let robotsMeta = document.querySelector('meta[name="robots"]');
+    if (emptyStateResolved) {
+      if (!robotsMeta) {
+        robotsMeta = document.createElement('meta');
+        robotsMeta.setAttribute('name', 'robots');
+        document.head.appendChild(robotsMeta);
+      }
+      if (robotsMeta.getAttribute('content') !== 'noindex') {
+        robotsMeta.setAttribute('content', 'noindex');
+      }
+    } else if (robotsMeta && robotsMeta.getAttribute('content') === 'noindex') {
+      robotsMeta.setAttribute('content', 'index, follow');
+    }
+  }, [emptyStateResolved]);
+  // --- End honest empty states (spec 012) ------------------------------------
+
   // Pinned en-US formatters — prevent OS-locale rendering differences
   const formatUsd = (n, maxFrac = 2) => '$' + Number(n || 0).toLocaleString('en-US', { maximumFractionDigits: maxFrac });
   const formatNum = (n) => Number(n || 0).toLocaleString('en-US');
@@ -2165,6 +2243,75 @@ function App() {
       dailyEarnings: dailyEarnings1k,
       previewAmount: 1000
     };
+  };
+
+  // Shared pool-card renderer — factored out of the results grid so the
+  // zero-result "alternatives" block (spec 012) can render pools with the
+  // exact same component, not a re-implemented lookalike. `position` is
+  // forwarded to handlePoolClick's existing `position = -1` "not part of a
+  // paginated list" default; `delayBase` reproduces the original per-card
+  // stagger (index * 50, then +100/+150/+200 per element below).
+  const renderPoolCard = (pool, key, position, delayBase) => {
+    const protocolUrl = getProtocolUrl(pool);
+    const quickPreview = getQuickPreview(pool);
+    return React.createElement('div', {
+      key,
+      className: `pool-card animate-on-mount clickable`,
+      onClick: (e) => handlePoolClick(pool, e, position)
+    },
+      // Header: Symbol + Protocol info + APY
+      React.createElement('div', { className: 'pool-header-new' },
+        React.createElement('div', { className: 'pool-left-section' },
+          React.createElement('div', { className: 'pool-symbol' },
+            pool.symbol
+          ),
+          React.createElement('div', { className: 'pool-context-inline' },
+            t('onProtocolChain', pool.project, pool.chain, protocolUrl)
+          )
+        ),
+        React.createElement('div', { className: 'pool-apy-section' },
+          React.createElement('div', {
+            className: isAnomalousApy(pool) ? 'pool-apy-hero apy-anomalous' : 'pool-apy-hero',
+            title: isAnomalousApy(pool) ? 'Anomalous rate — likely temporary, manipulated, or a data artifact' : undefined
+          },
+            isAnomalousApy(pool)
+              ? ('⚠ ' + formatApy((pool.apyBase || 0) + (pool.apyReward || 0)))
+              : React.createElement(AnimatedNumber, {
+                  value: (pool.apyBase || 0) + (pool.apyReward || 0),
+                  formatFn: (v) => formatApy(v),
+                  delay: 100 + delayBase
+                })
+          ),
+          React.createElement('div', { className: 'pool-apy-preview' },
+            React.createElement(AnimatedNumber, {
+              value: quickPreview.dailyEarnings,
+              formatFn: (v) => formatUsd(v) + '/day',
+              delay: 150 + delayBase
+            })
+          )
+        )
+      ),
+
+      // TVL prominent display
+      React.createElement('div', { className: 'pool-tvl-section' },
+        React.createElement('div', { className: 'tvl-label' }, t('tvl')),
+        React.createElement('div', { className: 'tvl-value' },
+          React.createElement(AnimatedNumber, {
+            value: pool.tvlUsd,
+            formatFn: (v) => formatCurrency(v),
+            delay: 200 + delayBase
+          })
+        )
+      ),
+
+      // Primary CTA - Calculate Yield (full width, quiet ghost)
+      React.createElement('div', { className: 'pool-cta-section' },
+        React.createElement('button', {
+          className: 'calculate-yield-btn-new',
+          onClick: (e) => handleCalculateYield(pool, e)
+        }, t('calculateYield'))
+      )
+    );
   };
 
   // Always render UI immediately - no blocking loading state
@@ -2541,68 +2688,9 @@ function App() {
           ),
 
           React.createElement('div', { className: viewMode === 'list' ? 'pools-list' : 'pools-grid', key: 'pools' },
-            paginatedPools.map((pool, index) => {
-              const protocolUrl = getProtocolUrl(pool);
-              const quickPreview = getQuickPreview(pool);
-              return React.createElement('div', {
-                key: `${pool.pool}-${index}`,
-                className: `pool-card animate-on-mount clickable`,
-                onClick: (e) => handlePoolClick(pool, e, (currentPage - 1) * itemsPerPage + index)
-              },
-                // Header: Symbol + Protocol info + APY
-                React.createElement('div', { className: 'pool-header-new' },
-                  React.createElement('div', { className: 'pool-left-section' },
-                    React.createElement('div', { className: 'pool-symbol' },
-                      pool.symbol
-                    ),
-                    React.createElement('div', { className: 'pool-context-inline' },
-                      t('onProtocolChain', pool.project, pool.chain, protocolUrl)
-                    )
-                  ),
-                  React.createElement('div', { className: 'pool-apy-section' },
-                    React.createElement('div', {
-                      className: isAnomalousApy(pool) ? 'pool-apy-hero apy-anomalous' : 'pool-apy-hero',
-                      title: isAnomalousApy(pool) ? 'Anomalous rate — likely temporary, manipulated, or a data artifact' : undefined
-                    },
-                      isAnomalousApy(pool)
-                        ? ('⚠ ' + formatApy((pool.apyBase || 0) + (pool.apyReward || 0)))
-                        : React.createElement(AnimatedNumber, {
-                            value: (pool.apyBase || 0) + (pool.apyReward || 0),
-                            formatFn: (v) => formatApy(v),
-                            delay: 100 + index * 50
-                          })
-                    ),
-                    React.createElement('div', { className: 'pool-apy-preview' },
-                      React.createElement(AnimatedNumber, {
-                        value: quickPreview.dailyEarnings,
-                        formatFn: (v) => formatUsd(v) + '/day',
-                        delay: 150 + index * 50
-                      })
-                    )
-                  )
-                ),
-
-                // TVL prominent display 
-                React.createElement('div', { className: 'pool-tvl-section' },
-                  React.createElement('div', { className: 'tvl-label' }, t('tvl')),
-                  React.createElement('div', { className: 'tvl-value' },
-                    React.createElement(AnimatedNumber, {
-                      value: pool.tvlUsd,
-                      formatFn: (v) => formatCurrency(v),
-                      delay: 200 + index * 50
-                    })
-                  )
-                ),
-
-                // Primary CTA - Calculate Yield (full width, quiet ghost)
-                React.createElement('div', { className: 'pool-cta-section' },
-                  React.createElement('button', {
-                    className: 'calculate-yield-btn-new',
-                    onClick: (e) => handleCalculateYield(pool, e)
-                  }, t('calculateYield'))
-                )
-              );
-            })
+            paginatedPools.map((pool, index) =>
+              renderPoolCard(pool, `${pool.pool}-${index}`, (currentPage - 1) * itemsPerPage + index, index * 50)
+            )
           ),
 
           // Pagination
@@ -2633,6 +2721,26 @@ function App() {
             chainMode && selectedChain && !selectedToken
               ? t('adjustFiltersChain')
               : t('adjustFilters')
+          ),
+          // Honest empty state (spec 012) — only once the pools fetch has
+          // actually resolved (emptyStateResolved), never during the
+          // pre-fetch flash, when claiming "no live pools" would be false.
+          emptyStateResolved && React.createElement('div', { className: 'empty-submessage' },
+            chainMode && selectedChain && !selectedToken
+              ? t('emptyStateExplanationChain', selectedChain)
+              : t('emptyStateExplanation', selectedToken)
+          ),
+          emptyStateResolved && emptyAlternatives.items.length > 0 && React.createElement('div', { className: 'empty-state-alternatives' },
+            React.createElement('div', { className: 'empty-submessage' },
+              emptyAlternatives.source === 'chain'
+                ? t('emptyStateAltHeadingChain', selectedChain)
+                : t('emptyStateAltHeadingStable')
+            ),
+            React.createElement('div', { className: 'pools-grid' },
+              emptyAlternatives.items.map((pool, index) =>
+                renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50)
+              )
+            )
           ),
           minTvl > 0 && React.createElement('button', {
             className: 'reset-filters-btn',

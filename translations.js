@@ -62,7 +62,11 @@ const translations = {
     resetFilters: "Reset Filters",
     showSmallerPools: "Show pools with lower TVL",
     loadingError: "Failed to load yield data. Please try again later.",
-    
+    emptyStateExplanation: (token) => `No live pools for ${token} clear our $10M minimum-TVL safety floor today.`,
+    emptyStateExplanationChain: (chain) => `No live pools on ${chain} clear our $10M minimum-TVL safety floor today.`,
+    emptyStateAltHeadingChain: (chain) => `Live pools on ${chain} above the $10M floor`,
+    emptyStateAltHeadingStable: "Popular stablecoin pools above the $10M floor",
+
     // Navigation
     backToSearch: "← Back to Search",
     
@@ -291,7 +295,9 @@ const translations = {
       shareNative: "Share",
       shareSubline: (amt, years) => `${amt} / month  ·  ${years} years`,
       shareFooter: "Estimates from live pool rates — education, not advice.",
-      sharePromptHeadline: "Your plan is ready — send it to someone who'd want one too.",
+      sharePromptHeadline: "Send this garden to someone",
+      shareTextLinkCopy: "or copy the link",
+      shareTextLinkNative: "or share the link",
       tendGarden: "Tend your garden",
 
       // Persona intros
@@ -542,7 +548,11 @@ const translations = {
     resetFilters: "필터 초기화",
     showSmallerPools: "TVL이 낮은 풀도 보기",
     loadingError: "수익률 데이터를 불러오지 못했습니다. 다시 시도해주세요.",
-    
+    emptyStateExplanation: (token) => `현재 ${token}에서 최소 TVL $10M 기준을 통과하는 라이브 풀이 없습니다.`,
+    emptyStateExplanationChain: (chain) => `현재 ${chain}에는 최소 TVL $10M 기준을 통과하는 라이브 풀이 없습니다.`,
+    emptyStateAltHeadingChain: (chain) => `$10M 기준을 통과한 ${chain}의 라이브 풀`,
+    emptyStateAltHeadingStable: "$10M 기준을 통과한 인기 스테이블코인 풀",
+
     // Navigation
     backToSearch: "← 검색으로 돌아가기",
     
@@ -757,7 +767,9 @@ const translations = {
       shareNative: "공유",
       shareSubline: (amt, years) => `매달 ${amt}  ·  ${years}년`,
       shareFooter: "실시간 풀 수익률 기반 추정치 — 투자 조언이 아닌 교육용입니다.",
-      sharePromptHeadline: "계획이 완성됐어요 — 이런 계획이 필요할 누군가에게 보내 보세요.",
+      sharePromptHeadline: "이 정원을 누군가에게 보내 보세요",
+      shareTextLinkCopy: "또는 링크 복사",
+      shareTextLinkNative: "또는 링크 공유",
       tendGarden: "내 정원 가꾸기",
 
       presetIntro: (name) => `${name}님처럼 계획해 봐요 — 무엇이든 바꿔 내 것으로 만드세요.`,
