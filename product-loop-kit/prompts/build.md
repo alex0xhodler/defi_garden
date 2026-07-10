@@ -9,6 +9,9 @@ If `git status` shows uncommitted changes OUTSIDE product-loop-kit/ at pickup: S
 
 If the spec has an open question whose answer changes the architecture: don't guess. Mark the item BLOCKED with the question, log it, exit. Guessed intent is how loops ship the wrong thing fast.
 
+## 1b. UI work? Reuse before inventing (standing decision 2026-07-10)
+Any UI change starts by finding the existing component/class that already does the job (grep the CSS + render code). New visual elements use the neumorphic token system exclusively; a gradient, one-off style, or duplicated near-identical component is a verifier FAIL.
+
 ## 2. Blindspot pass (only if the territory is unfamiliar)
 If the item touches a part of the codebase not touched by a loop before, spend the first minutes searching the code for constraints the spec missed (existing patterns, edge cases, prior art). Add findings to the spec under `## Territory notes` before writing code.
 
