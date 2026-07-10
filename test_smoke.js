@@ -64,7 +64,14 @@ async function loadAndCollectErrors(browser, urlPath, viewport) {
 
 async function main() {
   const server = await startServer();
-  const browser = await chromium.launch();
+  // The sandboxed CI/build environment pre-installs a chromium revision that
+  // may lag the @playwright/test devDependency's expected revision, and has
+  // no outbound access to download a matching one — point at the
+  // pre-installed binary when present instead of Playwright's cache lookup.
+  const launchOpts = fs.existsSync('/opt/pw-browsers/chromium')
+    ? { executablePath: '/opt/pw-browsers/chromium' }
+    : {};
+  const browser = await chromium.launch(launchOpts);
   try {
     for (const viewport of VIEWPORTS) {
       await test('bare / renders planner UI at ' + viewport.width + 'px', async () => {

@@ -284,6 +284,7 @@
                     if (onload) s.onload = onload;
                     document.body.appendChild(s);
                 }
+                addScript('search-parser.js'); // plain script, must be ready before app.js is transpiled
                 addScript('PoolDetail.js', 'text/babel');
                 addScript('app.js', 'text/babel');
                 // Babel is injected async, so it loads AFTER DOMContentLoaded has fired —

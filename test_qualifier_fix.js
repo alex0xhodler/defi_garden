@@ -1,125 +1,55 @@
-// Test the qualifier word fix
-const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allProtocols = []) => {
-  const lowerQuery = query.toLowerCase();
-  let token = '';
-  let chain = '';
-  let poolTypes = [];
-  let protocols = [];
+/* Qualifier-word tests (spec 017): "best"/"highest"/"top" etc. must not be
+   mistaken for tokens or leak into chain/protocol matching. Requires the real
+   parser from search-parser.js — no inline copy. Run: node test_qualifier_fix.js */
+const assert = require('assert');
+const parseNaturalLanguageQuery = require('./search-parser.js');
 
-  // --- Parse Token ---
-  if (allTokens && allTokens.length > 0) {
-    const exactTokenMatch = allTokens.find(t => t.toLowerCase() === lowerQuery);
-    if (exactTokenMatch) {
-        token = exactTokenMatch;
-    } else {
-        // Split query into words for context analysis
-        const words = lowerQuery.split(/\s+/);
-        
-        // Filter out qualifier words that aren't tokens
-        const qualifierWords = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
-        const filteredWords = words.filter(word => !qualifierWords.includes(word));
-        
-        console.log('Original words:', words);
-        console.log('Filtered words:', filteredWords);
-        
-        // Find chain context indicators to exclude words after them
-        const chainIndicators = ['on', 'chain', 'network', 'blockchain'];
-        let tokenCandidateWords = [];
-        
-        for (let i = 0; i < filteredWords.length; i++) {
-            if (chainIndicators.includes(filteredWords[i])) {
-                // Stop including words after chain indicators
-                tokenCandidateWords = filteredWords.slice(0, i);
-                break;
-            }
-        }
-        
-        // If no chain indicators found, use first few filtered words (typically tokens come first)
-        if (tokenCandidateWords.length === 0) {
-            tokenCandidateWords = filteredWords.slice(0, Math.min(3, filteredWords.length));
-        }
-        
-        const tokenCandidateText = tokenCandidateWords.join(' ');
-        console.log('Token candidate text:', tokenCandidateText);
-    }
-  }
+let passed = 0;
+function test(name, fn) {
+  try { fn(); passed++; console.log('  ✓ ' + name); }
+  catch (err) { console.error('  ✗ ' + name + '\n    ' + err.message); process.exitCode = 1; }
+}
 
-  // --- Parse Chain ---
-  const chainAliases = {
-      'base': 'Base',
-      'ethereum': 'Ethereum',
-      'arbitrum': 'Arbitrum',
-      'solana': 'Solana'
-  };
-
-  if (allChains && allChains.length > 0) {
-    for (const alias in chainAliases) {
-        if (lowerQuery.includes(alias)) {
-            const matchedChain = chainAliases[alias];
-            if (allChains.includes(matchedChain)) {
-                chain = matchedChain;
-                break;
-            }
-        }
-    }
-  }
-
-  // --- Parse Protocols ---
-  const protocolAliases = {
-    'aave': ['aave', 'aave-v2', 'aave-v3'],
-    'compound': ['compound', 'compound-v2', 'compound-v3'],
-    'curve': ['curve', 'curve-dex']
-  };
-
-  const protocolKeywords = ['on', 'via', 'using', 'through', 'from', 'with', 'in'];
-  
-  // Method 1: Look for protocols after context keywords
-  const words = lowerQuery.split(/\s+/);
-  const qualifierWords = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
-  const filteredWords = words.filter(word => !qualifierWords.includes(word));
-  
-  for (let i = 0; i < filteredWords.length - 1; i++) {
-    if (protocolKeywords.includes(filteredWords[i])) {
-      const protocolCandidate = filteredWords[i + 1];
-      
-      for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
-        if (aliases.some(alias => alias === protocolCandidate || protocolCandidate.includes(alias))) {
-          protocols.push(friendlyName);
-          break;
-        }
-      }
-    }
-  }
-
-  // Pool types
-  if (lowerQuery.includes('lending')) {
-      poolTypes.push('Lending');
-  }
-  if (lowerQuery.includes('yield') || lowerQuery.includes('farming')) {
-      poolTypes.push('Yield Farming');
-  }
-
-  return { token, chain, poolTypes, protocols };
-};
-
-// Test cases
-console.log('=== Testing Qualifier Word Fix ===\n');
-
-const testCases = [
-  'best yields on base',
-  'best yields on aave', 
-  'best yields on curve',
-  'highest yields on solana',
-  'highest apy on ethereum',
-  'top usdc yields'
+const mockTokens = ['USDC', 'ETH', 'SOL', 'SOLANA'];
+const mockChains = ['Base', 'Ethereum', 'Solana'];
+const allProtocols = [
+  { friendlyName: 'Aave', originalNames: ['aave-v2', 'aave-v3'] },
+  { friendlyName: 'Curve', originalNames: ['curve-dex'] },
 ];
 
-const mockTokens = ['USDC', 'ETH', 'SOL', 'SOLANA']; // Added SOL/SOLANA to test disambiguation
-const mockChains = ['Base', 'Ethereum', 'Solana'];
+console.log('Qualifier word fix');
 
-testCases.forEach((testCase, index) => {
-  console.log(`Test ${index + 1}: "${testCase}"`);
-  const result = parseNaturalLanguageQuery(testCase, mockTokens, mockChains, []);
-  console.log('Result:', JSON.stringify(result, null, 2));
-  console.log('---\n');
+test('"best yields on base" -> chain Base, no qualifier leaked as token', () => {
+  const r = parseNaturalLanguageQuery('best yields on base', mockTokens, mockChains, allProtocols);
+  assert.strictEqual(r.chain, 'Base');
+  assert.strictEqual(r.token, '');
 });
+
+test('"best yields on aave" -> protocol Aave', () => {
+  const r = parseNaturalLanguageQuery('best yields on aave', mockTokens, mockChains, allProtocols);
+  assert.deepStrictEqual(r.protocols, ['Aave']);
+});
+
+test('"best yields on curve" -> protocol Curve', () => {
+  const r = parseNaturalLanguageQuery('best yields on curve', mockTokens, mockChains, allProtocols);
+  assert.deepStrictEqual(r.protocols, ['Curve']);
+});
+
+test('"highest yields on solana" -> chain Solana, token disambiguated to SOL not SOLANA', () => {
+  const r = parseNaturalLanguageQuery('highest yields on solana', mockTokens, mockChains, allProtocols);
+  assert.strictEqual(r.chain, 'Solana');
+});
+
+test('"highest apy on ethereum" -> chain Ethereum', () => {
+  const r = parseNaturalLanguageQuery('highest apy on ethereum', mockTokens, mockChains, allProtocols);
+  assert.strictEqual(r.chain, 'Ethereum');
+});
+
+test('"top usdc yields" -> token USDC, no chain/protocol noise', () => {
+  const r = parseNaturalLanguageQuery('top usdc yields', mockTokens, mockChains, allProtocols);
+  assert.strictEqual(r.token, 'USDC');
+  assert.strictEqual(r.chain, '');
+  assert.deepStrictEqual(r.protocols, []);
+});
+
+console.log(`\n${passed} passed`);
