@@ -23,8 +23,8 @@
 - Sources: Mixpanel project defigarden (4042048), org Equitee — via Mixpanel MCP. **NOT YET WIRED for Claude Code** (backlog 001). Until 001 ships, the heartbeat runs signal-degraded: read the latest `signals/` snapshot, never invent numbers, state "signal not wired" in the report, and keep 001 top-ranked.
 
 ## Weekly theme
-- Theme: Viral share loop, end to end — make share URLs actually get created and opened. Instrumentation truth first: share events currently report zero, and you can't optimize a loop that doesn't report.
-- Week of: 2026-07-09
+- Theme: SEO-landers to north star — search that works, pool-detail pages that convert.
+- Week of: 2026-07-11
 
 ## Budgets
 - Max build-loop attempts per item: 3 (then park with notes)
@@ -84,3 +84,7 @@ OUT OF SCOPE — loops never modify, never run, never target:
 * 2026-07-10 · execution runs on Claude Code cloud routines (claude.ai/code/routines): heartbeat routine (thinking model, Mixpanel connector) + build routine (sonnet-tier, ONE item per run), unrestricted branch pushes, Run-now for on-demand; Mac crons and Cowork in-chat builds retired
 * 2026-07-10 · docs/outcome/ and scripts/dashboard-server.js are DELIBERATELY gitignored local-only tooling — loops and cloud clones must never depend on them
 * 2026-07-10 · REUSE COMPONENTS, KEEP DESIGN TIDY (human directive): builders reuse existing components/classes before inventing new ones; any new UI uses the neumorphic token system only; gradient/off-brand one-offs are a verifier FAIL
+- 2026-07-11 · ship path (human directive): every item ships as its own claude/loop-<id> branch + PR, merged by the run itself after verifier PASS + tests green — PRs are the audit log; never direct-push main
+- 2026-07-11 · never wait unbounded on background jobs — timebox all test runs (5 min foreground cap), document and proceed
+- 2026-07-11 · UX items: acceptance criteria must measure rendered product behavior (Playwright on the real UI), never only unit fixtures — 017's failure is the precedent
+- 2026-07-11 · current focus (human): fix what makes the product feel bad/untrustworthy; convert token-search SEO landers toward the north star via pool-detail experience
