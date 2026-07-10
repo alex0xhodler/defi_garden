@@ -19,4 +19,4 @@
 | 014 | GSC fix: static token/chain landing pages, top-100 by TVL (generate-*.js pattern) — phase 1 | 7.8 | READY (heartbeat writes the spec) | HIGH | — | 0 | — |
 | 015 | Fix apex/referral share URL in tweet flow (redirect hygiene) | 6.0 | READY (heartbeat writes the spec) | LOW | — | 0 | — |
 | 016 | Re-brand empty-state buttons to neumorphic tokens | 7.2 | READY | LOW | specs/016.md | 0 | — |
-| 017 | NL search: every advertised typing-example must parse (solana/base/kamino lenders/curve/convex) | 8.4 | READY | HIGH | specs/017.md | 0 | — |
+| 017 | NL search: every advertised typing-example must parse (solana/base/kamino lenders/curve/convex) | 8.4 | IN_PROGRESS (2026-07-10) | HIGH | specs/017.md | 1 | — |
