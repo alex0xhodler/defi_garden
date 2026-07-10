@@ -7,8 +7,12 @@
 ehthumbs.db
 Thumbs.db
 
-# Claude Code Configuration
-.claude/
+# Claude Code Configuration (local-only — EXCEPT the loop verifier agent,
+# which cloud routines and fresh clones need)
+.claude/*
+!.claude/agents/
+.claude/agents/*
+!.claude/agents/verifier.md
 
 # IDE/Editor Files
 .vscode/
