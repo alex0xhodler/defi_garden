@@ -1608,6 +1608,7 @@
 
     // Persist plan whenever artifact settles — curated is always the DISPLAYED set
     var firedPlanCreated = useRef(false);
+    var lastPlanSavedSig = useRef(null);
     useEffect(function () {
       if (!curated.length) return;
       if (typeof Analytics !== 'undefined') {
@@ -1615,10 +1616,21 @@
           firedPlanCreated.current = true;
           Analytics.trackPlanCreated({ archetype: archetype, goal: goal, monthly: monthly, years: years || 10, persona: persona });
         }
-        Analytics.trackPlanSaved({
+        // plan_saved fires only on user-meaningful plan changes; rate churn
+        // re-runs this effect but must not re-fire the analytics event.
+        var planSavedSig = planSavedSignature({
           archetype: archetype, goal: goal, monthly: monthly, years: years || 10, persona: persona,
-          blendedApy: rawApy, poolCount: curated.length
+          capital: propCapital, fundingMode: propFundingMode, deadline: propDeadline,
+          poolFilters: poolFilters, slotPicks: slotPicks,
+          mix: archetype === 'subscription' ? selectedSubs : null
         });
+        if (lastPlanSavedSig.current !== planSavedSig) {
+          lastPlanSavedSig.current = planSavedSig;
+          Analytics.trackPlanSaved({
+            archetype: archetype, goal: goal, monthly: monthly, years: years || 10, persona: persona,
+            blendedApy: rawApy, poolCount: curated.length
+          });
+        }
       }
       savePlan({
         version: PLAN_VERSION,
@@ -2536,11 +2548,25 @@
       e('p', { className: 'gp-checkout-note' }, t('checkoutNote'))
     );
 
+    // Share prompt — surfaced at the bloom moment (spec 004): a calm, visible
+    // nudge that reuses the existing doCopyLink/doNativeShare handlers.
+    // Prefers native share when available, else falls back to copy-link.
+    var sharePromptElement = e('div', { className: 'gp-share-prompt gp-animate-in' },
+      e('p', { className: 'gp-share-prompt-text' }, t('sharePromptHeadline')),
+      navigator.share
+        ? e('button', {
+            type: 'button', className: 'gp-share-btn gp-share-prompt-btn', onClick: doNativeShare
+          }, '↗ ' + t('shareNative'))
+        : e('button', {
+            type: 'button', className: 'gp-share-btn gp-share-prompt-btn', onClick: doCopyLink
+          }, copySuccess ? ('✓ ' + t('shareLinkCopied')) : ('🔗 ' + t('shareLink')))
+    );
+
     if (archetype === 'subscription') {
       return e('div', { className: 'gp-bloom' },
         presetIntro,
         e('div', { className: 'gp-bloom-layout' },
-          e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement),
+          e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement, sharePromptElement),
           e('div', { className: 'gp-bloom-detail' },
             heroElement, planCardElement, subCustomizeElement, askElement, caveatElement
           )
@@ -2554,7 +2580,7 @@
     return e('div', { className: 'gp-bloom' },
       presetIntro,
       e('div', { className: 'gp-bloom-layout' },
-        e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement),
+        e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement, sharePromptElement),
         e('div', { className: 'gp-bloom-detail' },
 
       // 1. HERO ANSWER
@@ -3975,8 +4001,20 @@
     );
   }
 
+  // Dedupe key for the plan_saved analytics event: user-meaningful fields only,
+  // so rate refreshes (apy churn, curated reshuffles) cannot re-fire the event.
+  function planSavedSignature(f) {
+    f = f || {};
+    return JSON.stringify([
+      f.archetype || null, f.goal || null, f.monthly || null, f.years || null,
+      f.persona || null, f.capital || null, f.fundingMode || null, f.deadline || null,
+      f.poolFilters || null, f.slotPicks || null, f.mix || null
+    ]);
+  }
+
   // Expose pure helpers for unit testing and debugging
   var api = {
+    planSavedSignature: planSavedSignature,
     APY_SANITY_LIMIT: APY_SANITY_LIMIT,
     futureValue: futureValue, totalDeposited: totalDeposited,
     curatePools: curatePools, blendedApy: blendedApy, median: median,

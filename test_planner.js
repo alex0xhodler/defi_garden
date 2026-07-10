@@ -1228,4 +1228,32 @@ test('formatProjectName handles empty string', function () {
   assert.strictEqual(gp.formatProjectName(''), '');
 });
 
+// --- planSavedSignature: dedupe key for the plan_saved analytics event ---
+console.log('planSavedSignature');
+test('identical plans → identical signature', function () {
+  const a = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 200, years: 10, persona: 'stable' });
+  const b = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 200, years: 10, persona: 'stable' });
+  assert.strictEqual(a, b);
+});
+test('changed monthly → different signature', function () {
+  const a = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 200, years: 10, persona: 'stable' });
+  const b = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 300, years: 10, persona: 'stable' });
+  assert.notStrictEqual(a, b);
+});
+test('undefined and null fields are equivalent (initial-mount props)', function () {
+  const a = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 200, years: 10, persona: 'stable', capital: undefined, deadline: undefined });
+  const b = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 200, years: 10, persona: 'stable', capital: null, deadline: null });
+  assert.strictEqual(a, b);
+});
+test('rate noise (apy/curated) does NOT change the signature', function () {
+  const a = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 200, years: 10, persona: 'stable', apy: 5.1, curated: [{ pool: 'x' }] });
+  const b = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 200, years: 10, persona: 'stable', apy: 7.9, curated: [{ pool: 'y' }] });
+  assert.strictEqual(a, b);
+});
+test('user pool swap (slotPicks) → different signature', function () {
+  const a = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 200, years: 10, persona: 'stable', slotPicks: { 0: 'aave' } });
+  const b = gp.planSavedSignature({ archetype: 'growth', goal: 'home', monthly: 200, years: 10, persona: 'stable', slotPicks: { 0: 'morpho' } });
+  assert.notStrictEqual(a, b);
+});
+
 console.log('\nAll ' + passed + ' assertions evaluated.');

@@ -577,6 +577,28 @@
   line-height: var(--line-height-normal);
 }
 
+/* Share prompt — bloom-moment CTA (spec 004); calm nudge, not a dark pattern.
+   Sits inside the sticky checkout column so it's visible without scrolling
+   on desktop, and is first-on-page on mobile (checkout renders before detail). */
+.gp-share-prompt {
+  margin-top: var(--space-16);
+  padding: var(--space-16) var(--space-20);
+  background: var(--color-surface);
+  border-radius: var(--neuro-radius-md);
+  box-shadow: var(--neuro-shadow-flat);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+.gp-share-prompt-text {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+  line-height: var(--line-height-normal);
+}
+.gp-share-prompt-btn { width: 100%; }
+
 /* Mobile: single-col, checkout first */
 @media (max-width: 768px) {
   .gp-main--bloom { max-width: 760px; }

@@ -288,6 +288,7 @@ const translations = {
       shareNative: "Share",
       shareSubline: (amt, years) => `${amt} / month  ·  ${years} years`,
       shareFooter: "Estimates from live pool rates — education, not advice.",
+      sharePromptHeadline: "Your plan is ready — send it to someone who'd want one too.",
       tendGarden: "Tend your garden",
 
       // Persona intros
@@ -747,6 +748,7 @@ const translations = {
       shareNative: "공유",
       shareSubline: (amt, years) => `매달 ${amt}  ·  ${years}년`,
       shareFooter: "실시간 풀 수익률 기반 추정치 — 투자 조언이 아닌 교육용입니다.",
+      sharePromptHeadline: "계획이 완성됐어요 — 이런 계획이 필요할 누군가에게 보내 보세요.",
       tendGarden: "내 정원 가꾸기",
 
       presetIntro: (name) => `${name}님처럼 계획해 봐요 — 무엇이든 바꿔 내 것으로 만드세요.`,
