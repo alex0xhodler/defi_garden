@@ -286,11 +286,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/pt</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/wlfi</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1251,11 +1246,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/guld</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/hgeth</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1651,11 +1641,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/tokens/st</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/tokens/ousd</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1912,11 +1897,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/tokens/busd</loc>
-    <lastmod>2026-07-11</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/tokens/sta</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
   </url>

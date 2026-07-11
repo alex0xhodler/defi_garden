@@ -1,9 +1,9 @@
 # Complete DeFi Yield Index: Best Token Yields Across All Blockchains | DeFi Garden
 
-- Last Updated: 2026-07-11T16:41:31.027Z
+- Last Updated: 2026-07-11T16:51:28.086Z
 - Canonical: https://www.defi.garden
-- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-07-11T16:41:30.983Z)
-- Total URLs: 2479
+- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-07-11T16:51:28.028Z)
+- Total URLs: 2475
 - Categories: homepage(1), tokens(335), chains(100), poolTypes(0), highValue(7)
 
 ## Homepage
@@ -1205,7 +1205,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/gtwethp
 - https://www.defi.garden/tokens/guac
 - https://www.defi.garden/tokens/guild
-- https://www.defi.garden/tokens/guld
 - https://www.defi.garden/tokens/gummy
 - https://www.defi.garden/tokens/gusd
 - https://www.defi.garden/tokens/gusdc
@@ -1709,7 +1708,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/project89
 - https://www.defi.garden/tokens/psol
 - https://www.defi.garden/tokens/pst
-- https://www.defi.garden/tokens/pt
 - https://www.defi.garden/tokens/pufeth
 - https://www.defi.garden/tokens/puffer
 - https://www.defi.garden/tokens/pult
@@ -1970,8 +1968,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/ssol
 - https://www.defi.garden/tokens/ssp
 - https://www.defi.garden/tokens/ssv
-- https://www.defi.garden/tokens/st
-- https://www.defi.garden/tokens/sta
 - https://www.defi.garden/tokens/stak
 - https://www.defi.garden/tokens/stapt
 - https://www.defi.garden/tokens/starkbot
