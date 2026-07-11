@@ -89,6 +89,7 @@ const translations = {
     // Honest mini-projection (pool-detail)
     projectionHeading: "The Long Game",
     projectionBody: (monthly, years, amount) => `$${Number(monthly || 0).toLocaleString('en-US')}/mo in this pool grows to ~$${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })} in ${years}y at current rates.`,
+    gardenThisPoolCtaConcrete: (amount, years) => `Garden this pool → ~$${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })} in ${years}y`,
     poolDegenHaircutNote: (headline) => `Projected at ⅓ haircut (${headline} headline) — farm rates decay. Active management required.`,
 
     // Calculator disclaimers
@@ -585,6 +586,7 @@ const translations = {
     // Honest mini-projection (pool-detail)
     projectionHeading: "장기적으로 보면",
     projectionBody: (monthly, years, amount) => `이 풀에 월 ${formatKoreanCurrency(monthly)}을 넣으면 ${years}년 후 현재 수익률 기준 약 ${formatKoreanCurrency(Number(amount || 0))}이 됩니다.`,
+    gardenThisPoolCtaConcrete: (amount, years) => `이 풀 가든하기 → ${years}년 후 약 ${formatKoreanCurrency(Number(amount || 0))}`,
     poolDegenHaircutNote: (headline) => `⅓ 할인 적용 (헤드라인 ${headline}) — 팜 수익률은 빠르게 감소. 적극적 관리 필요.`,
 
     // Calculator disclaimers

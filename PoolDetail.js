@@ -184,7 +184,13 @@ function PoolDetail({
   const PROJECTION_YEARS = 5;
   const projectionApy = applyDegenHaircut ? totalApy / 3 : totalApy;
   const projectionAmount = _futureValue(PROJECTION_MONTHLY, projectionApy, PROJECTION_YEARS);
-  const gardenThisPoolHref = `plan.html?goal=retirement&pace=${gardenPersona}&monthly=${PROJECTION_MONTHLY}`;
+  // Prefill the planner horizon (years) too, so the recipient lands on exactly
+  // this pool's projection (025). The deep link never carries the pool's APY —
+  // the planner computes from its own blended, sanity-capped rate.
+  const gardenThisPoolHref = `plan.html?goal=retirement&pace=${gardenPersona}&monthly=${PROJECTION_MONTHLY}&years=${PROJECTION_YEARS}`;
+  // Concrete CTA (025): show the projected outcome ON the button — but NEVER for
+  // an anomalous pool (trust rail: anomalous rates are flagged, never hyped).
+  const showConcreteCta = !isAnomalous;
 
   return React.createElement('div', {
     className: 'pool-detail-container',
@@ -471,10 +477,17 @@ function PoolDetail({
             href: gardenThisPoolHref,
             onClick: () => {
               if (typeof Analytics !== 'undefined') {
-                Analytics.trackPoolClick(pool, 'garden_cta', { investmentAmount: PROJECTION_MONTHLY });
+                Analytics.trackPoolClick(pool, 'garden_cta', {
+                  investmentAmount: PROJECTION_MONTHLY,
+                  projectionYears: PROJECTION_YEARS,
+                  ctaVariant: showConcreteCta ? 'concrete' : 'generic'
+                });
               }
             }
-          }, t ? t('gardenThisPoolCta') : 'Garden this pool →'),
+          }, showConcreteCta
+            ? (t ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS)
+                 : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y`)
+            : (t ? t('gardenThisPoolCta') : 'Garden this pool →')),
           React.createElement('p', { className: 'pool-action-hint' },
             t ? t('plannerCtaHint') : 'No wallet needed'
           ),
