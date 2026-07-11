@@ -140,6 +140,30 @@ function startServer() {
 // positives (direct egress can succeed even when the policy proxy 403s
 // the same host). Sandbox egress policy 403s are immediate, so an 8s cap
 // is generous, not a real wait; never retried per /root/.ccr/README.md.
+// Spy on Analytics.trackSearchSuccess/trackSearchAbandonment by wrapping
+// them in-page before the query is typed. Analytics.track() itself no-ops
+// when `mixpanel` isn't loaded (true in this sandbox — mp.defi.garden is
+// blocked, same policy as unpkg.com/yields.llama.fi), so this spy is what
+// proves the Enter-triggered NL-search path actually calls these — the
+// exact code path spec 018's own Measurement section commits to
+// (search_success / search_abandonment) and that shipped disconnected from
+// it until this fix.
+async function installAnalyticsSpy(page) {
+  await page.evaluate(() => {
+    window.__analyticsEvents = [];
+    const origSuccess = Analytics.trackSearchSuccess.bind(Analytics);
+    Analytics.trackSearchSuccess = (query, selectedResult, resultsCount, context) => {
+      window.__analyticsEvents.push({ type: 'search_success', query });
+      return origSuccess(query, selectedResult, resultsCount, context);
+    };
+    const origAbandon = Analytics.trackSearchAbandonment.bind(Analytics);
+    Analytics.trackSearchAbandonment = (query, timeSpent, context) => {
+      window.__analyticsEvents.push({ type: 'search_abandonment', query });
+      return origAbandon(query, timeSpent, context);
+    };
+  });
+}
+
 function probe(url) {
   try {
     const code = execFileSync('curl', ['-sS', '-o', '/dev/null', '-w', '%{http_code}', '--max-time', '8', url], {
@@ -204,11 +228,17 @@ async function main() {
           { timeout: 15000 }
         );
         await page.waitForTimeout(1200);
+        await installAnalyticsSpy(page);
 
         const input = page.locator('.search-input');
         await input.click();
         await input.fill(q);
         await input.press('Enter');
+
+        const events = await page.evaluate(() => window.__analyticsEvents);
+        if (!events.some((ev) => ev.type === 'search_success')) {
+          throw new Error(`expected a search_success analytics event, got: ${JSON.stringify(events)}`);
+        }
 
         await page.waitForSelector('.results-section', { timeout: 10000 });
 
@@ -253,12 +283,18 @@ async function main() {
         await page.goto(`http://localhost:${PORT}/home.html?app=analytics`, { waitUntil: 'load', timeout: 20000 });
         await page.waitForSelector('.search-input', { timeout: 15000 });
         await page.waitForTimeout(1200);
+        await installAnalyticsSpy(page);
 
         const input = page.locator('.search-input');
         await input.click();
         await input.fill(q);
         await input.press('Enter');
         await page.waitForTimeout(1500);
+
+        const events = await page.evaluate(() => window.__analyticsEvents);
+        if (!events.some((ev) => ev.type === 'search_abandonment')) {
+          throw new Error(`expected a search_abandonment analytics event, got: ${JSON.stringify(events)}`);
+        }
 
         // No token/chain/protocol intent in these queries means no display
         // mode should activate — the results section stays unmounted, same

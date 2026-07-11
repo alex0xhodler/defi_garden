@@ -25,6 +25,42 @@ negative regression set to `test_search.js` (`NEGATIVE_QUERIES`) asserting
 these queries produce no results section at all, so this exact bug class
 has direct test coverage and can't silently regress again.
 
+## Verifier round 2: FAIL, fixed
+
+The round-1 regression itself was confirmed genuinely fixed (verifier
+independently re-extracted and ran the parser against the 5 broken queries
+plus a ~30-word broader sweep, all clean). But it caught a second, separate
+gap: spec 018's own Measurement section commits to `search_success` /
+`search_abandonment` events, 14-day window — but `handleKeyDown`'s
+Enter-triggered NL-search branch (the exact code every fix in this diff
+lives inside) never called `Analytics.trackSearch*` at all. Those calls
+only existed on the autocomplete-select and chain-chip-click paths
+(`handleTokenSelect`, `handleChainSelect` — both pre-existing, untouched by
+this diff), not the typing+Enter flow this spec is entirely about. In-code
+comments (`app.js` — "Search input analytics disabled temporarily... TODO:
+Re-enable", "Search abandonment analytics disabled temporarily") show this
+was a known, deliberately-deferred gap predating 018, but the spec
+re-asserts this exact measurement plan for this exact change, so it needed
+wiring, not just disclosing.
+
+Fixed by calling the existing `Analytics.trackSearch(query, {...})` /
+`Analytics.trackSearchAbandonment(query, 0, {...})` helpers (same API
+`handleTokenSelect`/`handleChainSelect` already use — no new tracking
+methods invented) right after the NL parse resolves: success when the
+parse produced a token, chain, or protocol match; abandonment when it
+resolved to nothing actionable. `test_search.js` now spies on
+`Analytics.trackSearchSuccess`/`trackSearchAbandonment` (monkey-patched
+in-page before typing, since `Analytics.track()` itself no-ops when
+`mixpanel` isn't loaded — true in this sandbox, mp.defi.garden is blocked
+by the same egress policy as unpkg.com/yields.llama.fi) and asserts the
+right event fires for every one of the 19 canonical + negative queries.
+
+One known gap left as-is: `trackSearchAbandonment`'s `timeSpent` argument
+is passed as `0` — there's no existing "when did the user start typing"
+timestamp in scope to compute a real value, and inventing one felt like
+scope creep beyond what the spec asks for. `results_count`/`selected_*`
+fields are populated correctly; only the duration field is a placeholder.
+
 ## Prior attempt on this item (branch `claude/loop-018`, unmerged)
 
 A previous build session already picked up 018, hit the identical network
@@ -170,10 +206,14 @@ render-settling window.
 
 ## Files touched
 
-- `app.js` — 5 fixes above (parser: chain matching, protocol matching,
-  pool-type stem match; render: `availableProtocols` memo, `handleKeyDown`
-  chain default)
-- `test_search.js` — new, wired into `npm test`
+- `app.js` — 5 root-cause fixes above (parser: chain matching, protocol
+  matching, pool-type stem match; render: `availableProtocols` memo,
+  `handleKeyDown` chain default), the verifier-round-1 word-boundary
+  correction, and the verifier-round-2 `Analytics.trackSearch(Success|Abandonment)`
+  wiring in `handleKeyDown`
+- `test_search.js` — new, wired into `npm test`; 14 canonical + 5 negative
+  queries, each asserting rendered DOM correctness and that the matching
+  analytics event fired
 - `package.json` / `package-lock.json` — `test_search.js` added to the test
   chain; `react`, `react-dom`, `@babel/standalone` added as devDependencies
   (test-only local vendoring, see network limitation above)

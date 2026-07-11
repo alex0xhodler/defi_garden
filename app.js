@@ -1923,6 +1923,23 @@ function App() {
           setShowAutocomplete(false);
           setHighlightedIndex(-1);
 
+          // search_success / search_abandonment (spec 018's own measurement
+          // plan) — this Enter-triggered NL parse is the code path all of
+          // this change's fixes live in, so it needs to be the thing that's
+          // actually measured, not just the pre-existing autocomplete/chip
+          // selection paths already wired below in handleChainSelect /
+          // handleTokenSelect.
+          if (token || effectiveChain || protocols.length > 0) {
+            Analytics.trackSearch(query, {
+              selected_token: token || undefined,
+              selected_chain: effectiveChain || undefined,
+              input_method: 'nl_search',
+              language
+            });
+          } else {
+            Analytics.trackSearchAbandonment(query, 0, { resultsCount: 0, language });
+          }
+
           // Update URL immediately after parsing and setting state
           // The useEffect that listens to state changes will then push the URL
         }
