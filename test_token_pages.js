@@ -45,9 +45,12 @@ test('token whose only pool is below $100K is dropped (DUST @ $50K)', () => {
 test('token with pools but ALL 0% yield is dropped (030 quality bar — ZERO)', () => {
   assert.ok(!bySym['ZERO'], 'an all-0%-APY token must not get an indexed page');
 });
-test('every generated token has >=1 pool with a real (non-zero) yield', () => {
-  ranked.forEach(r => assert.ok(r.pools.some(p => gen.poolTotalApy(p) > 0),
-    r.symbol + ' has no non-zero-yield pool'));
+test('token whose best yield rounds to 0.00% is dropped (032 — TINY @ 0.003%)', () => {
+  assert.ok(!bySym['TINY'], 'a token whose APY displays 0.00% must not get an indexed page');
+});
+test('every generated token has >=1 pool with a VISIBLE non-zero yield (not 0.00%)', () => {
+  ranked.forEach(r => assert.ok(r.pools.some(p => gen.formatApy(gen.poolTotalApy(p)) !== '0.00%'),
+    r.symbol + ' shows all 0.00% APY'));
 });
 test('ranks by aggregate qualifying TVL desc', () => {
   assert.deepStrictEqual(ranked.map(r => r.symbol), ['BIG', 'MID', 'ANOM', 'USDC.E', 'SMALL']);
