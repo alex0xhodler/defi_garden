@@ -1,6 +1,10 @@
-/* Unit tests for the static token-page generator (spec 014, phase 1).
+/* Unit tests for the static token-page generator (spec 014).
    Runs the generator's pure functions against a crafted fixture and asserts
-   on the real emitted HTML. Run: node test_token_pages.js */
+   on the real emitted HTML. Run: node test_token_pages.js
+
+   Eligibility (human directive 2026-07-11): a token earns a page if it has
+   >=1 pool with TVL >= $100K that is NOT anomalous (>1000% APY). No minimum
+   pool count, no cap by default. The anomaly exclusion is a trust rail. */
 const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
@@ -12,50 +16,62 @@ function test(name, fn) {
   catch (err) { console.error('  ✗ ' + name + '\n    ' + err.message); process.exitCode = 1; }
 }
 
-// Fixture crafted to exercise every branch. TVL in USD.
-// AAA: 3 qualifying pools, highest aggregate TVL  -> emitted, rank #1
-// BBB: 2 qualifying pools, lower aggregate TVL     -> emitted, rank #2
-// CCC: 1 qualifying pool                           -> dropped (gate < 2)
-// DDD: 2 pools but both below the $10M TVL floor   -> dropped
-// EEE: 2 pools where one is anomalous (>1000% APY) -> anomaly excluded, left with 1 -> dropped
-// USDC.E: dotted symbol, 2 qualifying pools        -> emitted, slug-safe
+// Fixture branches:
+// BIG    : 2 pools ($500M + $300M)              -> qualifies, rank #1
+// MID    : 1 pool ($5M)                          -> qualifies (single pool ok)
+// ANOM   : 1 real ($2M) + 1 anomalous ($900M @2100%) -> anomaly excluded, qualifies via the $2M pool
+// USDC.E : 1 pool ($200K), dotted symbol         -> qualifies, slug-safe
+// SMALL  : 1 pool ($150K), newer token           -> qualifies (above the $100K floor)
+// DUST   : 1 pool ($50K)                          -> dropped (below the $100K floor)
 const pools = JSON.parse(fs.readFileSync(path.join(__dirname, 'test_fixtures', 'pools-sample.json'), 'utf8'));
-const ranked = gen.rankTopTokens(pools, 100);
+const ranked = gen.rankTopTokens(pools); // no cap
 const bySym = Object.fromEntries(ranked.map(r => [r.symbol, r]));
 
-console.log('rankTopTokens — gate + ranking + trust rails');
-test('emits exactly the tokens that clear the >=2 qualifying-pool gate', () => {
-  assert.deepStrictEqual(ranked.map(r => r.symbol).sort(), ['AAA', 'BBB', 'USDC.E']);
+console.log('rankTopTokens — $100K floor, >=1 pool, no cap');
+test('emits every token with >=1 qualifying pool; drops sub-$100K-only tokens', () => {
+  assert.deepStrictEqual(ranked.map(r => r.symbol).sort(), ['ANOM', 'BIG', 'MID', 'SMALL', 'USDC.E']);
 });
-test('ranks by aggregate qualifying TVL desc (AAA before BBB)', () => {
-  const iA = ranked.findIndex(r => r.symbol === 'AAA');
-  const iB = ranked.findIndex(r => r.symbol === 'BBB');
-  assert.ok(iA < iB, 'AAA should rank above BBB');
-  assert.ok(bySym['AAA'].totalTvl > bySym['BBB'].totalTvl);
+test('single-pool tokens are included (no >=2 minimum)', () => {
+  assert.strictEqual(bySym['MID'].qualifyingCount, 1);
+  assert.strictEqual(bySym['SMALL'].qualifyingCount, 1);
+  assert.strictEqual(bySym['USDC.E'].qualifyingCount, 1);
 });
-test('single-qualifying-pool token (CCC) is dropped', () => {
-  assert.ok(!bySym['CCC']);
+test('newer/low-TVL token above the floor qualifies (SMALL @ $150K)', () => {
+  assert.ok(bySym['SMALL']);
 });
-test('sub-floor token (DDD) is dropped', () => {
-  assert.ok(!bySym['DDD']);
+test('token whose only pool is below $100K is dropped (DUST @ $50K)', () => {
+  assert.ok(!bySym['DUST']);
 });
-test('anomalous pool excluded from content AND gate (EEE dropped to <2)', () => {
-  assert.ok(!bySym['EEE'], 'EEE had 1 real + 1 anomalous pool, should not clear the gate');
+test('ranks by aggregate qualifying TVL desc', () => {
+  assert.deepStrictEqual(ranked.map(r => r.symbol), ['BIG', 'MID', 'ANOM', 'USDC.E', 'SMALL']);
+});
+
+console.log('trust rail — anomaly exclusion (untouched)');
+test('anomalous pool excluded from content AND count AND TVL (ANOM)', () => {
+  assert.strictEqual(bySym['ANOM'].qualifyingCount, 1, 'anomalous pool must not be counted');
+  assert.strictEqual(bySym['ANOM'].totalTvl, 2000000, 'anomalous $900M pool must not inflate TVL');
+  assert.strictEqual(bySym['ANOM'].pools.length, 1);
 });
 test('no rendered pool anywhere is anomalous (>1000% total APY)', () => {
   ranked.forEach(r => r.pools.forEach(p => {
     assert.ok(gen.poolTotalApy(p) <= gen.APY_SANITY_LIMIT, r.symbol + ' has an anomalous pool');
   }));
 });
-test('every rendered pool clears the $10M TVL floor', () => {
+test('every rendered pool clears the $100K floor', () => {
   ranked.forEach(r => r.pools.forEach(p => {
-    assert.ok((p.tvlUsd || 0) >= gen.DEFAULT_MIN_TVL, r.symbol + ' has a sub-floor pool');
+    assert.ok((p.tvlUsd || 0) >= gen.MIN_POOL_TVL, r.symbol + ' has a sub-floor pool');
   }));
 });
-test('cap is honored (limit=1 -> single top token AAA)', () => {
+
+console.log('cap handling');
+test('no cap by default returns all eligible tokens', () => {
+  assert.strictEqual(gen.rankTopTokens(pools).length, 5);
+  assert.strictEqual(gen.rankTopTokens(pools, 0).length, 5);
+});
+test('explicit --limit caps to top-N by TVL (limit=1 -> BIG)', () => {
   const top1 = gen.rankTopTokens(pools, 1);
   assert.strictEqual(top1.length, 1);
-  assert.strictEqual(top1[0].symbol, 'AAA');
+  assert.strictEqual(top1[0].symbol, 'BIG');
 });
 
 console.log('tokenSlug — URL/filesystem safety');
@@ -68,33 +84,34 @@ test('slug has no unsafe chars', () => {
 });
 
 console.log('renderTokenPage — server-delivered SEO content');
-const html = gen.renderTokenPage(bySym['AAA']);
-test('self-canonical to /tokens/<slug>', () => {
-  assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/tokens/aaa">'), 'missing self-canonical');
+const html = gen.renderTokenPage(bySym['BIG']);
+test('self-canonical to /tokens/<slug> (not the ?token= app URL)', () => {
+  assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/tokens/big">'), 'missing self-canonical');
 });
 test('server-delivered <title> present in raw HTML (no JS)', () => {
-  assert.ok(/<title>AAA DeFi Yields[^<]*<\/title>/.test(html), 'missing title');
+  assert.ok(/<title>BIG DeFi Yields[^<]*<\/title>/.test(html), 'missing title');
 });
 test('server-delivered meta description present', () => {
   assert.ok(/<meta name="description" content="[^"]+">/.test(html), 'missing description');
 });
 test('links into the live app at ?token=<SYMBOL>', () => {
-  assert.ok(html.includes('https://www.defi.garden/?token=AAA'), 'missing app deep link');
+  assert.ok(html.includes('https://www.defi.garden/?token=BIG'), 'missing app deep link');
 });
 test('renders >=1 real pool row with en-US formatted numbers', () => {
   assert.ok(/<td class="num">\d/.test(html), 'no formatted numeric cell');
-  assert.ok(html.includes('%'), 'no APY');
-  assert.ok(html.includes('$'), 'no TVL');
+  assert.ok(html.includes('%') && html.includes('$'), 'no APY/TVL');
 });
-test('indexable (robots index,follow — these pages are meant to be found)', () => {
+test('indexable (robots index,follow)', () => {
   assert.ok(html.includes('content="index,follow"'), 'should be indexable');
 });
-test('HTML is escaped (no raw unescaped angle-brackets in content values)', () => {
-  // project names etc. go through escapeHtml; sanity-check the helper is wired
-  const evil = gen.renderTokenPage({ symbol: 'X<Y', slug: 'x-y', qualifyingCount: 2,
-    totalTvl: 2e7, pools: [{ project: '<script>', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0 },
-                            { project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 4, apyReward: 0 }] });
-  assert.ok(!evil.includes('<script>'), 'unescaped project name leaked into HTML');
+test('single-pool page uses singular "pool" wording', () => {
+  const midHtml = gen.renderTokenPage(bySym['MID']);
+  assert.ok(/1 live pool above/.test(midHtml), 'expected singular "pool"');
+});
+test('HTML is escaped (malicious project name cannot inject markup)', () => {
+  const evil = gen.renderTokenPage({ symbol: 'X', slug: 'x', qualifyingCount: 1,
+    totalTvl: 2e7, pools: [{ project: '<script>alert(1)</script>', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
+  assert.ok(!evil.includes('<script>alert(1)</script>'), 'unescaped project name leaked into HTML');
   assert.ok(evil.includes('&lt;script&gt;'), 'expected escaped project name');
 });
 
