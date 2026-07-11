@@ -187,12 +187,17 @@ function renderTokenPage(rec, related) {
     </nav>\n`
     : '';
 
-  const rows = rec.pools.map(p => `        <tr>
-          <td>${escapeHtml(p.project || '—')}</td>
+  const rows = rec.pools.map(p => {
+    // Each pool links to its detail page (the app matches pool.pool ===
+    // urlParams.pool). Falls back to the token app view if no id.
+    const poolHref = p.pool ? `${SITE_URL}/?pool=${encodeURIComponent(p.pool)}` : appUrl;
+    return `        <tr>
+          <td><a class="tp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')} &rarr;</a></td>
           <td>${escapeHtml(p.chain || '—')}</td>
           <td class="num">${formatApy(poolTotalApy(p))}</td>
           <td class="num">${formatUsd(p.tvlUsd)}</td>
-        </tr>`).join('\n');
+        </tr>`;
+  }).join('\n');
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -225,6 +230,12 @@ function renderTokenPage(rec, related) {
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
