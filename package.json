@@ -9,7 +9,7 @@
     "serve": "npx --yes http-server -p 8000 -c-1",
     "dev": "npx --yes http-server -p 8000 -c-1",
     "generate:llms": "node generate-llms.js",
-    "test": "node test_planner.js && node test_protocol_parsing.js && node test_qualifier_fix.js && node test_smoke.js && node test_canonical.js"
+    "test": "node test_planner.js && node test_protocol_parsing.js && node test_qualifier_fix.js && node test_smoke.js && node test_canonical.js && node test_search.js"
   },
   "keywords": [
     "defi",
@@ -41,6 +41,9 @@
     "fast-xml-parser": "^4.4.1"
   },
   "devDependencies": {
-    "playwright": "^1.61.1"
+    "@babel/standalone": "^8.0.4",
+    "playwright": "^1.61.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }

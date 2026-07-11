@@ -262,8 +262,13 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
   };
 
   if (allChains && allChains.length > 0) {
+    const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+    // Short common aliases first (eth, arb, sol, op, ...) — word-boundary
+    // matched so a substring like "op" can't misfire inside "top yields".
     for (const alias in chainAliases) {
-      if (lowerQuery.includes(alias)) {
+      const aliasRegex = new RegExp(`\\b${escapeRegex(alias)}\\b`, 'i');
+      if (aliasRegex.test(lowerQuery)) {
         const matchedChain = chainAliases[alias];
         if (allChains.includes(matchedChain)) { // Ensure it's a valid, available chain
           chain = matchedChain;
@@ -271,10 +276,26 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
         }
       }
     }
+
+    // Fall back to matching any live chain name directly. chainAliases only
+    // covers ~25 common chains; allChains carries every chain actually
+    // present in the pool data (e.g. newer chains like Plasma), so a query
+    // naming one of those verbatim should still resolve.
+    if (!chain) {
+      for (const c of allChains) {
+        const chainRegex = new RegExp(`\\b${escapeRegex(c.toLowerCase())}\\b`, 'i');
+        if (chainRegex.test(lowerQuery)) {
+          chain = c;
+          break;
+        }
+      }
+    }
   }
 
   // --- Parse Pool Types ---
-  if (lowerQuery.includes('lending')) {
+  // Word-boundary stem match: catches "lending", "lend", "lender(s)" (e.g.
+  // "kamino lenders") without a per-string special case.
+  if (/\blend(ing|ers?)?\b/.test(lowerQuery)) {
     poolTypes.push('Lending');
   }
   if (lowerQuery.includes('lp') || lowerQuery.includes('dex')) {
@@ -386,23 +407,40 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
     }
   }
 
-  // Method 2: Direct protocol name detection (fallback) 
+  // Method 2: Direct protocol name detection (fallback)
   if (protocols.length === 0) {
+    const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
     for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
-      if (aliases.some(alias => lowerQuery.includes(alias))) {
-        // Additional check: avoid matching common words that might be part of other contexts
-        const aliasMatch = aliases.find(alias => lowerQuery.includes(alias));
-
+      const aliasMatch = aliases.find(alias => {
         // Skip if the alias is likely a chain name
-        if (chainNames.includes(aliasMatch)) {
-          continue;
-        }
+        if (chainNames.includes(alias)) return false;
 
-        const wordBoundaryRegex = new RegExp(`\\b${aliasMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+        const isMultiWord = /\s/.test(alias);
 
-        if (wordBoundaryRegex.test(lowerQuery)) {
-          protocols.push(friendlyName);
-        }
+        // Forward: the alias appears in the query. Single-word aliases are
+        // matched with a strict, both-ends word boundary — short static
+        // fallback abbreviations ("comp", "bal", "joe") would otherwise
+        // false-match substrings of unrelated words ("compare", "global",
+        // "joel"). Multi-word aliases only need a LEADING boundary: live
+        // friendly names derived from a slug can end in a word-fragment
+        // (e.g. "kamino-lend" -> "Kamino lend"), so "kamino lending" must
+        // still match the "kamino lend" prefix — the fragment only occurs
+        // in a phrase's last word, and the earlier word(s) already carry
+        // enough specificity to keep this safe.
+        const forwardRegex = new RegExp(
+          isMultiWord ? `\\b${escapeRegex(alias)}` : `\\b${escapeRegex(alias)}\\b`,
+          'i'
+        );
+        if (forwardRegex.test(lowerQuery)) return true;
+
+        // Reverse: a bare protocol word ("kamino") is one of the words
+        // making up a longer multi-word friendly name ("kamino lend").
+        return alias.split(/\s+/).includes(lowerQuery);
+      });
+
+      if (aliasMatch) {
+        protocols.push(friendlyName);
       }
     }
   }
@@ -1428,6 +1466,14 @@ function App() {
           }
         }
       }
+      // No filter active yet (e.g. before the very first NL search): compute
+      // across every pool. Without this branch, parseNaturalLanguageQuery's
+      // live protocol context is always empty pre-search — the parser then
+      // silently falls back to its ~26-entry static protocol list, so any
+      // live protocol outside that list (e.g. Kamino) can never match.
+      else if (!selectedToken && !(chainMode && selectedChain)) {
+        includePool = true;
+      }
 
       if (includePool) {
         // Get friendly name and group protocols with same friendly name
@@ -1850,15 +1896,23 @@ function App() {
 
           // Apply filters based on natural language parsing
           // Prioritize natural language over current state if found
+
+          // A protocol/pool-type query with no token or chain ("convex",
+          // "kamino lending", "morpho lending") still needs a display mode
+          // to render results in — default it into the existing "All
+          // chains" mode so it reuses that mode's filtering/render path
+          // instead of resolving to an empty screen.
+          const effectiveChain = chain || ((!token && (protocols.length > 0 || poolTypes.length > 0)) ? 'All' : '');
+
           if (token) setSelectedToken(token);
-          if (chain) setSelectedChain(chain);
+          if (effectiveChain) setSelectedChain(effectiveChain);
           if (poolTypes.length > 0) setSelectedPoolTypes(poolTypes);
           if (protocols.length > 0) setSelectedProtocols(protocols.map(normalizeProtocolName));
 
           // Set chain mode if chain is detected and no token is specified, or if chain is dominant
           // If token is found, it's token-first mode.
           // If chain is found and no token, it's chain-first mode.
-          if (chain && !token) {
+          if (effectiveChain && !token) {
             setChainMode(true);
             setMinTvl(DEFAULT_MIN_TVL);
           } else {
@@ -1868,6 +1922,23 @@ function App() {
           setShowFilters(true); // Always show filters after a search
           setShowAutocomplete(false);
           setHighlightedIndex(-1);
+
+          // search_success / search_abandonment (spec 018's own measurement
+          // plan) — this Enter-triggered NL parse is the code path all of
+          // this change's fixes live in, so it needs to be the thing that's
+          // actually measured, not just the pre-existing autocomplete/chip
+          // selection paths already wired below in handleChainSelect /
+          // handleTokenSelect.
+          if (token || effectiveChain || protocols.length > 0) {
+            Analytics.trackSearch(query, {
+              selected_token: token || undefined,
+              selected_chain: effectiveChain || undefined,
+              input_method: 'nl_search',
+              language
+            });
+          } else {
+            Analytics.trackSearchAbandonment(query, 0, { resultsCount: 0, language });
+          }
 
           // Update URL immediately after parsing and setting state
           // The useEffect that listens to state changes will then push the URL
