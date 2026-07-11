@@ -337,6 +337,14 @@ async function main() {
 
   const outDir = path.resolve(args.out);
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+  // Clean stale pages first so tokens dropped by the gate (030) / renamed slugs
+  // don't linger from a previous run. Only *.html is removed (never other files,
+  // and never if --out points at cwd) — the CI commit then stages the deletions.
+  if (outDir !== process.cwd()) {
+    fs.readdirSync(outDir).forEach(f => {
+      if (f.endsWith('.html')) fs.rmSync(path.join(outDir, f));
+    });
+  }
   ranked.forEach(rec => {
     fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked)));
   });
