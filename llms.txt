@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-07-11T18:27:46.146Z
+- Last Updated: 2026-07-11T20:29:51.104Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 2484
+- Total URLs: 2492
 
 ## Homepage
 TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.
@@ -66,12 +66,12 @@ TL;DR: Typical user queries and where to find them.
 TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10k).
 - Avalanche · blackhole-clmm · WAVAX-USDC — 920768.0% APY, $15,925 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
 - BSC · zeebu · ZBU — 589315.0% APY, $554,408 TVL — https://www.defi.garden/?token=ZBU&chain=BSC
-- Base · aerodrome-slipstream · USDC-CBBTC — 190010.8% APY, $43,640 TVL — https://www.defi.garden/?token=USDC-CBBTC&chain=Base
+- Base · aerodrome-slipstream · USDC-CBBTC — 187948.9% APY, $43,641 TVL — https://www.defi.garden/?token=USDC-CBBTC&chain=Base
 - TON · dedust · CRASH-GRAM — 178303.7% APY, $22,285 TVL — https://www.defi.garden/?token=CRASH-GRAM&chain=TON
-- Base · aerodrome-slipstream · USDC-VELVET — 157484.7% APY, $3,169,209 TVL — https://www.defi.garden/?token=USDC-VELVET&chain=Base
-- Base · aerodrome-v1 · WETH-TRAC — 121381.5% APY, $42,630 TVL — https://www.defi.garden/?token=WETH-TRAC&chain=Base
-- Solana · kamino-liquidity · KMNO-BSOL — 104707.0% APY, $14,378 TVL — https://www.defi.garden/?token=KMNO-BSOL&chain=Solana
-- Avalanche · blackhole-clmm · WAVAX-USDC — 65629.4% APY, $143,848 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
+- Base · aerodrome-slipstream · USDC-VELVET — 175336.2% APY, $3,243,621 TVL — https://www.defi.garden/?token=USDC-VELVET&chain=Base
+- Base · aerodrome-v1 · WETH-TRAC — 121380.0% APY, $42,166 TVL — https://www.defi.garden/?token=WETH-TRAC&chain=Base
+- Solana · kamino-liquidity · KMNO-BSOL — 104707.0% APY, $14,387 TVL — https://www.defi.garden/?token=KMNO-BSOL&chain=Solana
+- Avalanche · blackhole-clmm · WAVAX-USDC — 62618.4% APY, $143,845 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
 
 💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
 📊 For live rates and direct protocol access: https://www.defi.garden
