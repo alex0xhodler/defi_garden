@@ -10,7 +10,7 @@
     "dev": "npx --yes http-server -p 8000 -c-1",
     "generate:llms": "node generate-llms.js",
     "tokens": "node generate-token-pages.js",
-    "test": "node test_planner.js && node test_protocol_parsing.js && node test_qualifier_fix.js && node test_smoke.js && node test_canonical.js && node test_search.js && node test_token_pages.js"
+    "test": "node test_planner.js && node test_protocol_parsing.js && node test_qualifier_fix.js && node test_smoke.js && node test_canonical.js && node test_search.js && node test_token_pages.js && node test_indexnow.js"
   },
   "keywords": [
     "defi",
