@@ -48,9 +48,13 @@ test('token with pools but ALL 0% yield is dropped (030 quality bar — ZERO)', 
 test('token whose best yield rounds to 0.00% is dropped (032 — TINY @ 0.003%)', () => {
   assert.ok(!bySym['TINY'], 'a token whose APY displays 0.00% must not get an indexed page');
 });
-test('every generated token has >=1 pool with a VISIBLE non-zero yield (not 0.00%)', () => {
+test('token whose yield pool is beyond POOLS_PER_PAGE is dropped (033 — TRUNC)', () => {
+  // TRUNC's top-8-by-TVL are all 0%; its 5% pool is #9 (not shown) -> displayed table all 0.00%
+  assert.ok(!bySym['TRUNC'], 'a token whose displayed table is all 0.00% must not get an indexed page');
+});
+test('every generated token DISPLAYS >=1 visible non-zero yield (gate matches the shown table)', () => {
   ranked.forEach(r => assert.ok(r.pools.some(p => gen.formatApy(gen.poolTotalApy(p)) !== '0.00%'),
-    r.symbol + ' shows all 0.00% APY'));
+    r.symbol + ' shows all 0.00% APY in its rendered table'));
 });
 test('ranks by aggregate qualifying TVL desc', () => {
   assert.deepStrictEqual(ranked.map(r => r.symbol), ['BIG', 'MID', 'ANOM', 'USDC.E', 'SMALL']);

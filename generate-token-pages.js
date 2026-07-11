@@ -122,20 +122,20 @@ function rankTopTokens(pools, limit) {
   const records = [];
   byToken.forEach((rec, symbol) => {
     if (rec.qualifyingCount < MIN_QUALIFYING_POOLS) return; // 013 gate: skip thin tokens
-    // Quality bar (030 + 032): only generate/index a token page if at least one
-    // qualifying pool has a VISIBLE non-zero yield — i.e. its APY doesn't round
-    // to "0.00%" as displayed. A pool at e.g. 0.003% is technically > 0 but
-    // renders "0.00%", so an all-"0.00%" page (thin/low-quality to Google and
-    // useless to a saver) must still be dropped. Gate on the formatted value so
-    // it matches exactly what the page shows.
-    if (!rec.pools.some(p => formatApy(poolTotalApy(p)) !== '0.00%')) return;
     rec.pools.sort((a, b) => (b.tvlUsd || 0) - (a.tvlUsd || 0));
+    const shown = rec.pools.slice(0, POOLS_PER_PAGE); // top-N by TVL — what the page displays
+    // Quality bar (030 / 032 / 033): the DISPLAYED table must show at least one
+    // VISIBLE non-zero yield — an APY that doesn't round to "0.00%". Gate on the
+    // SHOWN slice, not all pools: a pool at 0.003% renders "0.00%" (032), and a
+    // yield-bearing pool ranked beyond POOLS_PER_PAGE isn't on the page at all
+    // (033) — either way an all-"0.00%" table is thin/low-quality and dropped.
+    if (!shown.some(p => formatApy(poolTotalApy(p)) !== '0.00%')) return;
     records.push({
       symbol,
       slug: tokenSlug(symbol),
       totalTvl: rec.totalTvl,
       qualifyingCount: rec.qualifyingCount,
-      pools: rec.pools.slice(0, POOLS_PER_PAGE)
+      pools: shown
     });
   });
 
