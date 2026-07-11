@@ -2305,6 +2305,18 @@ function App() {
     };
   };
 
+  // Future value of monthly contributions, compounded monthly — mirrors
+  // planner.js's futureValue exactly (duplicated, not imported: this repo has
+  // no build step linking app.js and planner.js, see STABLE_SYMBOLS above).
+  const futureValue = (monthly, annualRatePct, years) => {
+    const P = Number(monthly) || 0;
+    const months = Math.round((Number(years) || 0) * 12);
+    const r = (Number(annualRatePct) || 0) / 100;
+    if (r === 0) return P * months;
+    const rm = r / 12;
+    return P * ((Math.pow(1 + rm, months) - 1) / rm);
+  };
+
   // Quick preview calculation for card display
   const getQuickPreview = (pool) => {
     const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
@@ -2399,6 +2411,7 @@ function App() {
           onBack: handleBackFromDetail,
           resetApp: resetApp,
           calculateYields: calculateYields,
+          futureValue: futureValue,
           formatCurrency: formatCurrency,
           formatAPY: formatAPY,
           formatUsd: formatUsd,

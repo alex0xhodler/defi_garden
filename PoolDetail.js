@@ -6,6 +6,7 @@ function PoolDetail({
   onBack,
   resetApp,
   calculateYields,
+  futureValue,
   formatCurrency,
   formatAPY,
   formatUsd,
@@ -24,6 +25,14 @@ function PoolDetail({
   const _formatUsd = formatUsd || ((n, f) => '$' + Number(n || 0).toLocaleString('en-US', { maximumFractionDigits: f || 2 }));
   const _formatNum = formatNum || ((n) => Number(n || 0).toLocaleString('en-US'));
   const _formatApy = formatApy || ((pct) => Number(pct || 0).toLocaleString('en-US', { maximumFractionDigits: 2 }) + '%');
+  const _futureValue = futureValue || ((monthly, annualRatePct, years) => {
+    const P = Number(monthly) || 0;
+    const months = Math.round((Number(years) || 0) * 12);
+    const r = (Number(annualRatePct) || 0) / 100;
+    if (r === 0) return P * months;
+    const rm = r / 12;
+    return P * ((Math.pow(1 + rm, months) - 1) / rm);
+  });
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
   const [calculatorExpanded, setCalculatorExpanded] = useState(true);
@@ -163,6 +172,19 @@ function PoolDetail({
   };
 
   const riskAssessment = getRiskAssessment();
+
+  // Persona this pool's risk tier maps to in the planner (stable/rwa/degen —
+  // mirrors planner.js's PERSONAS thresholds, same 25/50 risk-score bands
+  // getRiskAssessment already uses above). Drives the "Garden this pool"
+  // deep link and whether the projection below applies the degen haircut.
+  const gardenPersona = riskAssessment.score <= 25 ? 'stable' : riskAssessment.score <= 50 ? 'rwa' : 'degen';
+  const isAnomalous = totalApy > APY_SANITY_LIMIT_LOCAL;
+  const applyDegenHaircut = gardenPersona === 'degen';
+  const PROJECTION_MONTHLY = 200;
+  const PROJECTION_YEARS = 5;
+  const projectionApy = applyDegenHaircut ? totalApy / 3 : totalApy;
+  const projectionAmount = _futureValue(PROJECTION_MONTHLY, projectionApy, PROJECTION_YEARS);
+  const gardenThisPoolHref = `plan.html?goal=retirement&pace=${gardenPersona}&monthly=${PROJECTION_MONTHLY}`;
 
   return React.createElement('div', {
     className: 'pool-detail-container',
@@ -442,11 +464,17 @@ function PoolDetail({
           // Divider
           React.createElement('div', { className: 'pool-action-divider' }),
 
-          // Primary CTA — planner
+          // Primary CTA — garden this pool (deep-links into the planner
+          // prefilled with a persona/goal/monthly matching this pool's risk tier)
           React.createElement('a', {
             className: 'cta-button-primary',
-            href: 'plan.html?fresh=1'
-          }, t ? t('plannerCta') : 'Plan my savings →'),
+            href: gardenThisPoolHref,
+            onClick: () => {
+              if (typeof Analytics !== 'undefined') {
+                Analytics.trackPoolClick(pool, 'garden_cta', { investmentAmount: PROJECTION_MONTHLY });
+              }
+            }
+          }, t ? t('gardenThisPoolCta') : 'Garden this pool →'),
           React.createElement('p', { className: 'pool-action-hint' },
             t ? t('plannerCtaHint') : 'No wallet needed'
           ),
@@ -598,6 +626,48 @@ function PoolDetail({
             opacity: 0.8
           }
         }, `Key factors: ${riskAssessment.factors.slice(0, 2).join(', ')}`)
+      )
+    ),
+
+    // Honest mini-projection — always visible, never collapsed
+    React.createElement('div', {
+      className: 'metric-card-simple animate-on-mount',
+      style: {
+        background: 'var(--color-background)',
+        borderRadius: 'var(--neuro-radius-lg)',
+        padding: '24px',
+        boxShadow: 'var(--neuro-shadow-raised)',
+        marginBottom: '32px',
+        textAlign: 'center'
+      }
+    },
+      React.createElement('div', {
+        style: {
+          fontSize: 'var(--font-size-sm)',
+          color: 'var(--color-text-secondary)',
+          marginBottom: '8px',
+          fontWeight: 'var(--font-weight-medium)',
+          textTransform: 'uppercase',
+          letterSpacing: '0.5px'
+        }
+      }, t ? t('projectionHeading') : 'The Long Game'),
+      React.createElement('div', {
+        style: {
+          fontSize: 'var(--font-size-lg)',
+          fontWeight: 'var(--font-weight-bold)',
+          color: 'var(--color-text)',
+          lineHeight: '1.4'
+        }
+      }, t ? t('projectionBody', PROJECTION_MONTHLY, PROJECTION_YEARS, projectionAmount) :
+        `$${PROJECTION_MONTHLY}/mo in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`),
+      applyDegenHaircut && React.createElement('div', { className: 'calc-warning' },
+        t ? t('poolDegenHaircutNote', _formatApy(totalApy)) : `Projected at ⅓ haircut (${_formatApy(totalApy)} headline) — farm rates decay. Active management required.`
+      ),
+      isAnomalous && React.createElement('div', { className: 'calc-warning' },
+        t ? t('calcAnomalyWarning') : '⚠ This rate is anomalous and almost certainly unsustainable.'
+      ),
+      React.createElement('div', { className: 'calc-disclaimer' },
+        t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'
       )
     ),
 
@@ -1100,6 +1170,89 @@ function PoolDetail({
                 color: 'var(--color-text)'
               }
             }, poolType)
+          ),
+
+          // 30d Mean APY (if available) — substantiates whether today's rate is stable or a spike
+          (typeof pool.apyMean30d === 'number') && React.createElement('div', {
+            style: {
+              padding: '12px',
+              background: 'var(--color-background)',
+              borderRadius: 'var(--neuro-radius-sm)',
+              boxShadow: 'var(--neuro-shadow-subtle)',
+              textAlign: 'center'
+            }
+          },
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                marginBottom: '4px',
+                textTransform: 'uppercase'
+              }
+            }, t ? t('apyMean30d') : '30d Mean APY'),
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-sm)',
+                fontWeight: 'var(--font-weight-medium)',
+                color: 'var(--color-text)'
+              }
+            }, _formatApy(pool.apyMean30d))
+          ),
+
+          // Exposure (if available)
+          pool.exposure && React.createElement('div', {
+            style: {
+              padding: '12px',
+              background: 'var(--color-background)',
+              borderRadius: 'var(--neuro-radius-sm)',
+              boxShadow: 'var(--neuro-shadow-subtle)',
+              textAlign: 'center'
+            }
+          },
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                marginBottom: '4px',
+                textTransform: 'uppercase'
+              }
+            }, t ? t('exposure') : 'Exposure'),
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-sm)',
+                fontWeight: 'var(--font-weight-medium)',
+                color: 'var(--color-text)',
+                textTransform: 'capitalize'
+              }
+            }, pool.exposure)
+          ),
+
+          // IL Risk (if available) — flagged in warning color when present, never hidden
+          pool.ilRisk && React.createElement('div', {
+            style: {
+              padding: '12px',
+              background: 'var(--color-background)',
+              borderRadius: 'var(--neuro-radius-sm)',
+              boxShadow: 'var(--neuro-shadow-subtle)',
+              textAlign: 'center'
+            }
+          },
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-xs)',
+                color: 'var(--color-text-secondary)',
+                marginBottom: '4px',
+                textTransform: 'uppercase'
+              }
+            }, t ? t('ilRisk') : 'IL Risk'),
+            React.createElement('div', {
+              style: {
+                fontSize: 'var(--font-size-sm)',
+                fontWeight: 'var(--font-weight-medium)',
+                color: pool.ilRisk === 'yes' ? 'var(--color-warning)' : 'var(--color-text)',
+                textTransform: 'capitalize'
+              }
+            }, pool.ilRisk === 'yes' ? (t ? t('yes') : 'Yes') : (t ? t('no') : 'No'))
           )
         ),
 
