@@ -19,6 +19,23 @@ const YIELDS_API = 'https://yields.llama.fi/pools';
 // Supported languages from translations.js
 const LANGUAGES = ['en', 'ko'];
 
+// Sitemap URL quality gate (013 — GSC fix, specs/013.md).
+// Mirrors the app's own default rendering threshold so a sitemap URL never
+// advertises more than the live page shows by default.
+// Must stay in sync with app.js: DEFAULT_MIN_TVL (app.js:730) and
+// APY_SANITY_LIMIT (app.js:729) — no shared import exists between the two.
+const SITEMAP_MIN_TVL = 10000000; // = app.js DEFAULT_MIN_TVL
+const APY_SANITY_LIMIT = 1000; // = app.js APY_SANITY_LIMIT
+const SITEMAP_MIN_QUALIFYING_POOLS = 2;
+
+function isAnomalousApy(pool) {
+  return ((pool.apyBase || 0) + (pool.apyReward || 0)) > APY_SANITY_LIMIT;
+}
+
+function isQualifyingPool(pool) {
+  return (pool.tvlUsd || 0) >= SITEMAP_MIN_TVL && !isAnomalousApy(pool);
+}
+
 /**
  * Fetch pool data from Defillama API
  */
@@ -223,6 +240,28 @@ async function generateSitemapSuite() {
       });
     });
 
+    // Quality gate (013): count qualifying pools (tvlUsd >= SITEMAP_MIN_TVL,
+    // not anomalous) per token, per token+chain, and per token+category —
+    // the exact filter a URL's default page would apply. A URL only earns a
+    // sitemap entry once its combo clears SITEMAP_MIN_QUALIFYING_POOLS.
+    const qualifyingTokenPoolCount = new Map(); // token -> count
+    const qualifyingTokenChainPoolCount = new Map(); // "token|chain" -> count
+    const qualifyingTokenCategoryPoolCount = new Map(); // "token|category" -> count
+
+    pools.forEach(p => {
+      if (!isQualifyingPool(p)) return;
+      const symbols = p.symbol?.split(/[-_\/\s]/).map(s => s.trim().toUpperCase()) || [];
+      const type = getPoolType(p);
+      symbols.forEach(s => {
+        if (!isValidToken(s)) return;
+        qualifyingTokenPoolCount.set(s, (qualifyingTokenPoolCount.get(s) || 0) + 1);
+        const chainKey = `${s}|${p.chain}`;
+        qualifyingTokenChainPoolCount.set(chainKey, (qualifyingTokenChainPoolCount.get(chainKey) || 0) + 1);
+        const catKey = `${s}|${type}`;
+        qualifyingTokenCategoryPoolCount.set(catKey, (qualifyingTokenCategoryPoolCount.get(catKey) || 0) + 1);
+      });
+    });
+
     const now = new Date().toISOString();
     const sitemaps = {
       'sitemap-main.xml': []
@@ -266,13 +305,22 @@ async function generateSitemapSuite() {
       // Add the chain landing page
       sitemaps[filename].push(generateUrlXml(`${SITE_URL}?chain=${encodeURIComponent(chain)}`, now, '0.8', 'daily'));
       
-      // Add tokens on this chain
+      // Add tokens on this chain — only combos that clear the sitemap quality gate (013)
       const chainTokens = chainTokensMap.get(chain);
+      let chainDropped = 0;
       chainTokens.forEach(token => {
+        const qualifyingCount = qualifyingTokenChainPoolCount.get(`${token}|${chain}`) || 0;
+        if (qualifyingCount < SITEMAP_MIN_QUALIFYING_POOLS) {
+          chainDropped++;
+          return;
+        }
         const tvl = tokenTvlMap.get(token) || 0;
         const priority = Math.min(0.9, 0.4 + (Math.log10(Math.max(1, tvl / 10000)) * 0.1)).toFixed(2);
         sitemaps[filename].push(generateUrlXml(`${SITE_URL}?token=${encodeURIComponent(token)}&chain=${encodeURIComponent(chain)}`, now, priority, 'daily'));
       });
+      if (chainDropped > 0) {
+        console.log(`   ⏭️  ${filename}: dropped ${chainDropped} thin token+chain combo(s) below quality gate`);
+      }
     });
 
     // 3. Vertical: Category-Specific Sitemaps (Lending, Staking, etc.)
@@ -291,23 +339,40 @@ async function generateSitemapSuite() {
       sitemaps[filename] = [];
       
       const catTokens = categoryTokensMap.get(cat);
+      let catDropped = 0;
       if (catTokens) {
         catTokens.forEach(token => {
+          const qualifyingCount = qualifyingTokenCategoryPoolCount.get(`${token}|${cat}`) || 0;
+          if (qualifyingCount < SITEMAP_MIN_QUALIFYING_POOLS) {
+            catDropped++;
+            return;
+          }
           const tvl = tokenTvlMap.get(token) || 0;
           const priority = Math.min(0.85, 0.4 + (Math.log10(Math.max(1, tvl / 10000)) * 0.1)).toFixed(2);
           sitemaps[filename].push(generateUrlXml(`${SITE_URL}?token=${encodeURIComponent(token)}&poolTypes=${categoryUrlMap[cat]}`, now, priority, 'daily'));
         });
       }
+      if (catDropped > 0) {
+        console.log(`   ⏭️  ${filename}: dropped ${catDropped} thin token+category combo(s) below quality gate`);
+      }
     });
 
     // 4. Global Token Discovery Sitemap (For tokens not tied to a specific single chain/cat view)
+    // Only tokens clearing the sitemap quality gate (013) are emitted.
     console.log('📝 Building global token discovery sitemap...');
     sitemaps['sitemap-tokens-all.xml'] = [];
+    let tokensDropped = 0;
     tokens.forEach(token => {
+      const qualifyingCount = qualifyingTokenPoolCount.get(token) || 0;
+      if (qualifyingCount < SITEMAP_MIN_QUALIFYING_POOLS) {
+        tokensDropped++;
+        return;
+      }
       const tvl = tokenTvlMap.get(token) || 0;
       const priority = Math.min(0.95, 0.5 + (Math.log10(Math.max(1, tvl / 10000)) * 0.1)).toFixed(2);
       sitemaps['sitemap-tokens-all.xml'].push(generateUrlXml(`${SITE_URL}?token=${encodeURIComponent(token)}`, now, priority, 'daily'));
     });
+    console.log(`   ⏭️  sitemap-tokens-all.xml: dropped ${tokensDropped} of ${tokens.length} thin token(s) below quality gate (< ${SITEMAP_MIN_QUALIFYING_POOLS} pools @ $${(SITEMAP_MIN_TVL / 1e6).toFixed(0)}M TVL)`);
 
     // Write all sitemaps
     const generatedFilenames = Object.keys(sitemaps);

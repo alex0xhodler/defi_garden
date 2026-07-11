@@ -15,7 +15,7 @@
 | 010 | GSC indexing crisis — diagnosis | 8.8 | DONE (specs/010-diagnosis.md) | LOW | specs/010.md | 2 | — |
 | 011 | GSC fix: canonical truth from the router, both modes | 8.8 | SHIPPED (GSC validation 2-6 wks) | HIGH | specs/011.md | 1 | — |
 | 012 | GSC fix: honest empty states — noindex + alternatives | 8.6 | SHIPPED (GSC validation 2-6 wks) | HIGH | specs/012.md | 1 | — |
-| 013 | GSC fix: sitemap quality threshold in generate-sitemap.js (≥2 live pools + TVL floor per URL) | 8.0 | READY — gated behind 020 (can't judge SEO-lander value without landing instrumentation) | HIGH | — | 0 | — |
+| 013 | GSC fix: sitemap quality threshold in generate-sitemap.js (≥2 live pools + TVL floor per URL) | 8.0 | SHIPPED (built+verified before 020's gate landed; measured via GSC indexing classes, not the Mixpanel funnel 020 fixes — gate doesn't apply retroactively; real sitemap counts land on next sitemap-update.yml CI run) | HIGH | specs/013.md | 1 | 2026-07-25 |
 | 014 | GSC fix: static token/chain landing pages, top-100 by TVL (generate-*.js pattern) — phase 1 | 7.8 | READY — gated behind 020 | HIGH | — | 0 | — |
 | 015 | Fix apex/referral share URL in tweet flow (redirect hygiene) | 6.0 | READY (heartbeat writes the spec) | LOW | — | 0 | — |
 | 016 | Re-brand empty-state buttons to neumorphic tokens | 7.2 | SHIPPED (PR #97, merged 2026-07-11) | LOW | specs/016.md | 1 | — |
