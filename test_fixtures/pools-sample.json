@@ -70,5 +70,23 @@
     "apyBase": 12.0,
     "apyReward": 0,
     "pool": "dust-dustpool-7"
+  },
+  {
+    "symbol": "ZERO",
+    "project": "aave-v3",
+    "chain": "Ethereum",
+    "tvlUsd": 50000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "zero-aave-v3-x"
+  },
+  {
+    "symbol": "ZERO",
+    "project": "compound-v3",
+    "chain": "Base",
+    "tvlUsd": 30000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "zero-compound-x"
   }
 ]

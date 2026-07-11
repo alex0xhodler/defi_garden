@@ -42,6 +42,13 @@ test('newer/low-TVL token above the floor qualifies (SMALL @ $150K)', () => {
 test('token whose only pool is below $100K is dropped (DUST @ $50K)', () => {
   assert.ok(!bySym['DUST']);
 });
+test('token with pools but ALL 0% yield is dropped (030 quality bar — ZERO)', () => {
+  assert.ok(!bySym['ZERO'], 'an all-0%-APY token must not get an indexed page');
+});
+test('every generated token has >=1 pool with a real (non-zero) yield', () => {
+  ranked.forEach(r => assert.ok(r.pools.some(p => gen.poolTotalApy(p) > 0),
+    r.symbol + ' has no non-zero-yield pool'));
+});
 test('ranks by aggregate qualifying TVL desc', () => {
   assert.deepStrictEqual(ranked.map(r => r.symbol), ['BIG', 'MID', 'ANOM', 'USDC.E', 'SMALL']);
 });
