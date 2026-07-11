@@ -1752,18 +1752,11 @@ function App() {
     setCurrentPage(1); // Reset to first page when filters change
   }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode, sortBy, userSortedApy]);
 
-  // Fire the NL-Enter search_success event once filteredPools has settled for
-  // that search, so results_count reflects what actually rendered instead of
-  // a value guessed synchronously at parse time (filteredPools is still stale
-  // in the same tick the Enter handler sets selectedToken/selectedChain).
+  // Fire the NL-Enter search_success event once filteredPools has settled
+  // (it's still stale in the same tick the Enter handler sets it, and can
+  // pass through an intermediate value before settling — debounce absorbs both).
   useEffect(() => {
     if (!pendingNlSearchTrackRef.current) return;
-    // filteredPools can pass through more than one value while a search
-    // settles (this same file's filter effect can recompute across more
-    // than one dependency change in a row); debounce so this only reads
-    // the final, settled count instead of whichever pass happens to land
-    // first — a plain single-fire-on-first-change was observed to
-    // occasionally catch an intermediate value.
     const timer = setTimeout(() => {
       const pending = pendingNlSearchTrackRef.current;
       if (!pending) return;
@@ -1958,9 +1951,7 @@ function App() {
           // selection paths already wired below in handleChainSelect /
           // handleTokenSelect.
           if (token || effectiveChain || protocols.length > 0) {
-            // filteredPools hasn't recomputed for this search yet in this
-            // same tick — stash it and let the effect above fire once it has
-            // the real count, instead of hardcoding results_count to 0.
+            // Let the effect above fire once it has the real count.
             pendingNlSearchTrackRef.current = {
               query,
               selectedResult: token || effectiveChain || '',

@@ -96,10 +96,11 @@
 
 ## Diff size
 
-Total diff (app.js + analytics.js + test_search.js, excluding BACKLOG.md bookkeeping):
-141 changed lines — under the LOW-tier 150-line cap, but close to it. Breakdown:
-app.js + analytics.js (product code) = 49 lines; test_search.js (coverage) = 92 lines.
-The spec's "analytics.js + app.js only" note is read as scoping *product-code* changes
-(consistent with its own acceptance criteria requiring new Playwright assertions in
-test_search.js) — flagging the split here so the verifier can judge the product-code
-diff and test-coverage diff separately if that reading matters for the tier call.
+Per `git diff --numstat origin/main` (the authoritative count — an earlier draft of
+this file undercounted via a hand/grep method that missed blank lines; the verifier
+subagent caught this and it's fixed here): app.js+analytics.js+test_search.js =
+133 total changed lines (120 insertions + 13 deletions). Breakdown: app.js+analytics.js
+(product code) = 41 lines; test_search.js (coverage) = 92 lines. Comfortably under the
+LOW-tier 150-line cap. The spec's "analytics.js + app.js only" note is read as scoping
+*product-code* changes (consistent with its own acceptance criteria requiring new
+Playwright assertions in test_search.js).

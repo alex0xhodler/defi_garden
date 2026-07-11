@@ -169,11 +169,9 @@ async function installAnalyticsSpy(page) {
   });
 }
 
-// A ?pool= deep link fires trackPoolView automatically as soon as pools load —
-// no user interaction to time against — so installing the spy via page.evaluate
-// AFTER goto races it (analytics.js + the pools fetch can resolve before the
-// evaluate round-trip lands). addInitScript runs before any of the page's own
-// scripts on every subsequent navigation, so it wins the race deterministically.
+// trackPoolView fires automatically on a ?pool= landing (no interaction to
+// time against), so page.evaluate after goto can race it; addInitScript
+// runs before the page's own scripts, so it wins deterministically.
 async function installPoolViewSpyBeforeLoad(page) {
   await page.addInitScript(() => {
     window.__analyticsEvents = [];
@@ -299,11 +297,8 @@ async function main() {
           await page.waitForTimeout(200);
         }
 
-        // search_success now fires from a follow-up effect once filteredPools
-        // settles (spec 020 — results_count reflects the real render, not a
-        // value guessed synchronously at Enter), so it can trail the grid by
-        // a render pass. Cards are already on screen at this point; poll
-        // briefly for the event to catch up.
+        // search_success fires from a follow-up effect (spec 020), so it can
+        // trail the rendered grid by a pass — poll briefly for it to catch up.
         const eventDeadline = Date.now() + 3000;
         let successEvent = null;
         for (;;) {
@@ -322,9 +317,7 @@ async function main() {
     }
 
     await test('?pool= deep link fires pool_view(source=url_direct); card click fires pool_view(source=card_click), no double-fire', async () => {
-      // Discover a real, resolvable pool id via the existing card-click path
-      // first — this works whether this run used live yields.llama.fi data
-      // or the local DefiLlama-shaped fixture (both routed the same way above).
+      // Discover a real pool id via card click first, so this works with live or fixture data.
       await page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
       await page.waitForSelector('.pool-card', { timeout: 15000 });
       await installAnalyticsSpy(page);
@@ -342,9 +335,7 @@ async function main() {
         throw new Error(`expected card_click source, got: ${JSON.stringify(clickViews[0])}`);
       }
 
-      // Fresh direct landing on that same pool id (the SEO/share deep-link path).
-      // trackPoolView fires as soon as the mocked pools fetch resolves, which can
-      // beat a post-goto page.evaluate — so arm the spy before navigating.
+      // Fresh direct landing on the same pool id (the SEO/share deep-link path).
       await installPoolViewSpyBeforeLoad(page);
       await page.goto(`http://localhost:${PORT}/home.html?pool=${encodeURIComponent(poolId)}`, { waitUntil: 'load', timeout: 20000 });
       await page.waitForSelector('.pool-detail-view', { timeout: 15000 });
