@@ -22,4 +22,4 @@
 | 017 | NL search: every advertised typing-example must parse (solana/base/kamino lenders/curve/convex) | 8.4 | superseded by 018 — fixtures passed, product failed | HIGH | specs/017.md | 1 | — |
 | 018 | NL search actually works (behavior on live data, Playwright drives the real UI) | 9.0 | SHIPPED (measuring; 14d: 50 success / 4 abandon — but results_count hardcoded 0, so "success" = parse, not results-shown; honest read blocked on 020) | HIGH | specs/018.md | 3 | 2026-07-25 |
 | 019 | Pool-detail pages convert SEO landers toward the north star | 8.7 | SHIPPED (measuring; 14d: garden_cta=0, pool_view=0 — CTR has no denominator until 020 instruments `?pool=` landings) | HIGH | specs/019.md | 3 | 2026-07-25 |
-| 020 | Make the SEO-lander → north-star funnel measurable (real results_count on search_success + pool_view on `?pool=` landings) | 8.5 | READY (spec written) | LOW | specs/020.md | 0 | — |
+| 020 | Make the SEO-lander → north-star funnel measurable (real results_count on search_success + pool_view on `?pool=` landings) | 8.5 | IN_PROGRESS (2026-07-11) | LOW | specs/020.md | 1 | — |

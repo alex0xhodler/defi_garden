@@ -153,7 +153,7 @@ async function installAnalyticsSpy(page) {
     window.__analyticsEvents = [];
     const origSuccess = Analytics.trackSearchSuccess.bind(Analytics);
     Analytics.trackSearchSuccess = (query, selectedResult, resultsCount, context) => {
-      window.__analyticsEvents.push({ type: 'search_success', query });
+      window.__analyticsEvents.push({ type: 'search_success', query, resultsCount });
       return origSuccess(query, selectedResult, resultsCount, context);
     };
     const origAbandon = Analytics.trackSearchAbandonment.bind(Analytics);
@@ -161,6 +161,34 @@ async function installAnalyticsSpy(page) {
       window.__analyticsEvents.push({ type: 'search_abandonment', query });
       return origAbandon(query, timeSpent, context);
     };
+    const origPoolView = Analytics.trackPoolView.bind(Analytics);
+    Analytics.trackPoolView = (pool, context) => {
+      window.__analyticsEvents.push({ type: 'pool_view', poolId: pool && pool.pool, source: context && context.source });
+      return origPoolView(pool, context);
+    };
+  });
+}
+
+// A ?pool= deep link fires trackPoolView automatically as soon as pools load —
+// no user interaction to time against — so installing the spy via page.evaluate
+// AFTER goto races it (analytics.js + the pools fetch can resolve before the
+// evaluate round-trip lands). addInitScript runs before any of the page's own
+// scripts on every subsequent navigation, so it wins the race deterministically.
+async function installPoolViewSpyBeforeLoad(page) {
+  await page.addInitScript(() => {
+    window.__analyticsEvents = [];
+    const install = () => {
+      if (typeof Analytics === 'undefined' || !Analytics.trackPoolView) {
+        setTimeout(install, 0);
+        return;
+      }
+      const origPoolView = Analytics.trackPoolView.bind(Analytics);
+      Analytics.trackPoolView = (pool, context) => {
+        window.__analyticsEvents.push({ type: 'pool_view', poolId: pool && pool.pool, source: context && context.source });
+        return origPoolView(pool, context);
+      };
+    };
+    install();
   });
 }
 
@@ -235,11 +263,6 @@ async function main() {
         await input.fill(q);
         await input.press('Enter');
 
-        const events = await page.evaluate(() => window.__analyticsEvents);
-        if (!events.some((ev) => ev.type === 'search_success')) {
-          throw new Error(`expected a search_success analytics event, got: ${JSON.stringify(events)}`);
-        }
-
         await page.waitForSelector('.results-section', { timeout: 10000 });
 
         // Filtering settles across a render + a follow-up effect pass (the
@@ -275,8 +298,71 @@ async function main() {
           if (Date.now() > deadline) throw new Error(lastFailure);
           await page.waitForTimeout(200);
         }
+
+        // search_success now fires from a follow-up effect once filteredPools
+        // settles (spec 020 — results_count reflects the real render, not a
+        // value guessed synchronously at Enter), so it can trail the grid by
+        // a render pass. Cards are already on screen at this point; poll
+        // briefly for the event to catch up.
+        const eventDeadline = Date.now() + 3000;
+        let successEvent = null;
+        for (;;) {
+          const events = await page.evaluate(() => window.__analyticsEvents);
+          successEvent = events.find((ev) => ev.type === 'search_success');
+          if (successEvent || Date.now() > eventDeadline) break;
+          await page.waitForTimeout(100);
+        }
+        if (!successEvent) {
+          throw new Error('expected a search_success analytics event');
+        }
+        if (!(successEvent.resultsCount > 0)) {
+          throw new Error(`expected search_success resultsCount > 0, got ${successEvent.resultsCount}`);
+        }
       });
     }
+
+    await test('?pool= deep link fires pool_view(source=url_direct); card click fires pool_view(source=card_click), no double-fire', async () => {
+      // Discover a real, resolvable pool id via the existing card-click path
+      // first — this works whether this run used live yields.llama.fi data
+      // or the local DefiLlama-shaped fixture (both routed the same way above).
+      await page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.pool-card', { timeout: 15000 });
+      await installAnalyticsSpy(page);
+
+      await page.locator('.pool-card').first().click();
+      await page.waitForSelector('.pool-detail-view', { timeout: 10000 });
+      const poolId = new URL(page.url()).searchParams.get('pool');
+      if (!poolId) throw new Error('expected card click to set ?pool= in the URL');
+
+      const clickViews = (await page.evaluate(() => window.__analyticsEvents)).filter((ev) => ev.type === 'pool_view');
+      if (clickViews.length !== 1) {
+        throw new Error(`expected exactly one pool_view after card click, got ${JSON.stringify(clickViews)}`);
+      }
+      if (clickViews[0].source !== 'card_click') {
+        throw new Error(`expected card_click source, got: ${JSON.stringify(clickViews[0])}`);
+      }
+
+      // Fresh direct landing on that same pool id (the SEO/share deep-link path).
+      // trackPoolView fires as soon as the mocked pools fetch resolves, which can
+      // beat a post-goto page.evaluate — so arm the spy before navigating.
+      await installPoolViewSpyBeforeLoad(page);
+      await page.goto(`http://localhost:${PORT}/home.html?pool=${encodeURIComponent(poolId)}`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.pool-detail-view', { timeout: 15000 });
+
+      const deadline = Date.now() + 5000;
+      let urlViews = [];
+      for (;;) {
+        urlViews = (await page.evaluate(() => window.__analyticsEvents)).filter((ev) => ev.type === 'pool_view');
+        if (urlViews.length || Date.now() > deadline) break;
+        await page.waitForTimeout(100);
+      }
+      if (urlViews.length !== 1) {
+        throw new Error(`expected exactly one pool_view on url_direct landing, got ${JSON.stringify(urlViews)}`);
+      }
+      if (urlViews[0].source !== 'url_direct') {
+        throw new Error(`expected url_direct source, got: ${JSON.stringify(urlViews[0])}`);
+      }
+    });
 
     for (const q of NEGATIVE_QUERIES) {
       await test(`"${q}" does not false-match a protocol`, async () => {
@@ -318,7 +404,7 @@ async function main() {
     await browser.close();
     server.close();
   }
-  const total = QUERIES.length + NEGATIVE_QUERIES.length;
+  const total = QUERIES.length + NEGATIVE_QUERIES.length + 1; // +1: pool_view source test
   console.log(passed + '/' + total + ' search behavior assertions passed');
 }
 

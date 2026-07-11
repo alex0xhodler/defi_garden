@@ -782,6 +782,8 @@ function App() {
   const [chainMode, setChainMode] = useState(false); // Track if we're in chain-first mode
   const [currentView, setCurrentView] = useState('search'); // 'search' or 'pool-detail'
   const [detailPool, setDetailPool] = useState(null); // Pool being viewed in detail
+  const urlDirectPoolViewFiredRef = useRef(null); // pool id already tracked as a url_direct landing, prevents double-fire vs card click
+  const pendingNlSearchTrackRef = useRef(null); // NL-Enter search awaiting a real results_count once filteredPools settles
 
   // Language state management
   const [language, setLanguage] = useState(() => {
@@ -1018,6 +1020,11 @@ function App() {
           setDetailPool(foundPool);
           setCurrentView('pool-detail');
           document.title = `${foundPool.symbol} on ${foundPool.project} | DeFi Garden 🌱`;
+
+          if (urlDirectPoolViewFiredRef.current !== foundPool.pool) {
+            urlDirectPoolViewFiredRef.current = foundPool.pool;
+            Analytics.trackPoolView(foundPool, { source: 'url_direct' });
+          }
         }
       }
     }
@@ -1745,6 +1752,27 @@ function App() {
     setCurrentPage(1); // Reset to first page when filters change
   }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode, sortBy, userSortedApy]);
 
+  // Fire the NL-Enter search_success event once filteredPools has settled for
+  // that search, so results_count reflects what actually rendered instead of
+  // a value guessed synchronously at parse time (filteredPools is still stale
+  // in the same tick the Enter handler sets selectedToken/selectedChain).
+  useEffect(() => {
+    if (!pendingNlSearchTrackRef.current) return;
+    // filteredPools can pass through more than one value while a search
+    // settles (this same file's filter effect can recompute across more
+    // than one dependency change in a row); debounce so this only reads
+    // the final, settled count instead of whichever pass happens to land
+    // first — a plain single-fire-on-first-change was observed to
+    // occasionally catch an intermediate value.
+    const timer = setTimeout(() => {
+      const pending = pendingNlSearchTrackRef.current;
+      if (!pending) return;
+      pendingNlSearchTrackRef.current = null;
+      Analytics.trackSearchSuccess(pending.query, pending.selectedResult, filteredPools.length, pending.context);
+    }, 250);
+    return () => clearTimeout(timer);
+  }, [filteredPools]);
+
   // Update URL when filters change (but not during initial load, popstate events, or pool detail view)
   useEffect(() => {
     if (!isInitialLoad && currentView !== 'pool-detail') {
@@ -1930,12 +1958,20 @@ function App() {
           // selection paths already wired below in handleChainSelect /
           // handleTokenSelect.
           if (token || effectiveChain || protocols.length > 0) {
-            Analytics.trackSearch(query, {
-              selected_token: token || undefined,
-              selected_chain: effectiveChain || undefined,
-              input_method: 'nl_search',
-              language
-            });
+            // filteredPools hasn't recomputed for this search yet in this
+            // same tick — stash it and let the effect above fire once it has
+            // the real count, instead of hardcoding results_count to 0.
+            pendingNlSearchTrackRef.current = {
+              query,
+              selectedResult: token || effectiveChain || '',
+              context: {
+                selected_token: token || undefined,
+                selected_chain: effectiveChain || undefined,
+                input_method: 'nl_search',
+                chainMode: !!effectiveChain && !token,
+                language
+              }
+            };
           } else {
             Analytics.trackSearchAbandonment(query, 0, { resultsCount: 0, language });
           }
@@ -2136,7 +2172,9 @@ function App() {
     e.stopPropagation();
 
     // Simple pool view tracking
+    urlDirectPoolViewFiredRef.current = pool.pool;
     Analytics.trackPoolView(pool, {
+      source: 'card_click',
       position: position,
       search_query: selectedToken || selectedChain || 'browse',
       selected_chain: selectedChain,
