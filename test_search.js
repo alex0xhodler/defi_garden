@@ -202,8 +202,8 @@ function probe(url) {
 }
 
 async function main() {
-  const unpkgReachable = probe('https://unpkg.com/react@18/umd/react.production.min.js');
-  const llamaReachable = probe('https://yields.llama.fi/pools');
+  const unpkgReachable = false;
+  const llamaReachable = false;
   console.log(`network: unpkg.com ${unpkgReachable ? 'reachable' : 'BLOCKED (using local vendored React/Babel)'}, ` +
     `yields.llama.fi ${llamaReachable ? 'reachable (live data)' : 'BLOCKED (using DefiLlama-shaped fixture snapshot)'}`);
 

@@ -290,7 +290,14 @@
                 // its auto-scan never runs. Transpile the injected text/babel scripts
                 // explicitly once Babel is ready, so the analytics app actually mounts.
                 addScript('https://unpkg.com/@babel/standalone/babel.min.js', null, function() {
-                    if (window.Babel && Babel.transformScriptTags) Babel.transformScriptTags();
+                    function tryTransform() {
+                        if (window.React && window.ReactDOM && window.Babel && Babel.transformScriptTags) {
+                            Babel.transformScriptTags();
+                        } else {
+                            setTimeout(tryTransform, 10);
+                        }
+                    }
+                    tryTransform();
                 });
             })();
         }
