@@ -16,8 +16,8 @@
 | 011 | GSC fix: canonical truth from the router, both modes | 8.8 | SHIPPED (GSC validation 2-6 wks) | HIGH | specs/011.md | 1 | — |
 | 012 | GSC fix: honest empty states — noindex + alternatives | 8.6 | SHIPPED (GSC validation 2-6 wks) | HIGH | specs/012.md | 1 | — |
 | 013 | GSC fix: sitemap quality threshold in generate-sitemap.js (≥2 live pools + TVL floor per URL) | 8.0 | SHIPPED (built+verified before 020's gate landed; measured via GSC indexing classes, not the Mixpanel funnel 020 fixes — gate doesn't apply retroactively; real sitemap counts land on next sitemap-update.yml CI run) | HIGH | specs/013.md | 1 | 2026-07-25 |
-| 014 | GSC fix: static token/chain landing pages, top-100 by TVL (generate-*.js pattern) — phase 1 | 7.8 | READY — gated behind 020 | HIGH | — | 0 | — |
-| 015 | Fix apex/referral share URL in tweet flow (redirect hygiene) | 6.0 | READY (heartbeat writes the spec) | LOW | — | 0 | — |
+| 014 | GSC fix: static token/chain landing pages, top-100 by TVL (generate-*.js pattern) — phase 1 | 7.8 | SHIPPED (PR #107, merged 2026-07-11) — phase 1: generator + offline-verified logic + sample; phase 2 (networked real pages + sitemap wiring + canonical consolidation) pending | HIGH | specs/014.md | 1 | 2026-07-25 |
+| 015 | Fix apex/referral share URL in tweet flow (redirect hygiene) | 6.0 | SHIPPED (PR #106, merged 2026-07-11) | LOW | specs/015.md | 1 | — |
 | 016 | Re-brand empty-state buttons to neumorphic tokens | 7.2 | SHIPPED (PR #97, merged 2026-07-11) | LOW | specs/016.md | 1 | — |
 | 017 | NL search: every advertised typing-example must parse (solana/base/kamino lenders/curve/convex) | 8.4 | superseded by 018 — fixtures passed, product failed | HIGH | specs/017.md | 1 | — |
 | 018 | NL search actually works (behavior on live data, Playwright drives the real UI) | 9.0 | SHIPPED (measuring; 14d: 50 success / 4 abandon — but results_count hardcoded 0, so "success" = parse, not results-shown; honest read blocked on 020) | HIGH | specs/018.md | 3 | 2026-07-25 |
