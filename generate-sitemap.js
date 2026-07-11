@@ -394,6 +394,15 @@ async function generateSitemapSuite() {
         indexXml += '  </sitemap>\n';
       }
     });
+    // Include the static /tokens/ landing-page sitemap (021) when it has been
+    // generated (generate-token-pages.js writes it in the same CI run). Kept
+    // discoverable via the index so crawlers find the real static pages.
+    if (fs.existsSync('sitemap-token-pages.xml')) {
+      indexXml += '  <sitemap>\n';
+      indexXml += `    <loc>${SITE_URL}sitemap-token-pages.xml</loc>\n`;
+      indexXml += `    <lastmod>${now}</lastmod>\n`;
+      indexXml += '  </sitemap>\n';
+    }
     indexXml += '</sitemapindex>';
     fs.writeFileSync('sitemap.xml', indexXml);
     console.log('✅ Generated sitemap.xml (Index)');
