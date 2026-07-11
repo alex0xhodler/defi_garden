@@ -97,6 +97,18 @@ test('server-delivered meta description present', () => {
 test('links into the live app at ?token=<SYMBOL>', () => {
   assert.ok(html.includes('https://www.defi.garden/?token=BIG'), 'missing app deep link');
 });
+test('each pool row links to its detail page (/?pool=<id>)', () => {
+  const top = bySym['BIG'].pools[0];
+  assert.ok(top.pool, 'fixture pool missing an id');
+  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}"`),
+    'pool row not linked to its detail page');
+  assert.ok(html.includes('class="tp-pool-link"'), 'missing pool link class');
+});
+test('pool row falls back to the token app view when a pool has no id', () => {
+  const noId = gen.renderTokenPage({ symbol: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7,
+    pools: [{ project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
+  assert.ok(noId.includes('href="https://www.defi.garden/?token=X"'), 'missing fallback link');
+});
 test('renders >=1 real pool row with en-US formatted numbers', () => {
   assert.ok(/<td class="num">\d/.test(html), 'no formatted numeric cell');
   assert.ok(html.includes('%') && html.includes('$'), 'no APY/TVL');
