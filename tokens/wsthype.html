@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,43 +64,43 @@
       </thead>
       <tbody>
         <tr>
-          <td>hyperlend-pooled</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d02bc769-aa7f-404a-9f77-22024ca2bf01">hyperlend-pooled &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$83.18M</td>
         </tr>
         <tr>
-          <td>hypurrfi-pooled</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4">hypurrfi-pooled &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.08%</td>
           <td class="num">$1.32M</td>
         </tr>
         <tr>
-          <td>felix-cdp</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ba4977a8-752c-4515-bbf2-1963d840e0cc">felix-cdp &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$711.6K</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4ea6cebf-571e-49db-90a0-f5f8939f31d6">morpho-blue &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$545.1K</td>
         </tr>
         <tr>
-          <td>euler-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781">euler-v2 &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.02%</td>
           <td class="num">$451.5K</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6a37d609-2023-4d66-8fc8-b202d142de3b">morpho-blue &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$125.3K</td>
         </tr>
         <tr>
-          <td>nest-cl</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8a08d623-6493-4f2f-9d7c-c8ff6690d667">nest-cl &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">1.47%</td>
           <td class="num">$120.2K</td>

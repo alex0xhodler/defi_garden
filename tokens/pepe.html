@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,43 +64,43 @@
       </thead>
       <tbody>
         <tr>
-          <td>uniswap-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2">uniswap-v2 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">11.97%</td>
           <td class="num">$20.59M</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7b915cbd-4701-5955-94fa-4a4a43ca1248">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.22%</td>
           <td class="num">$2.8M</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f0db8574-f867-543e-866b-8dfbb5aaf92f">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.21%</td>
           <td class="num">$2.55M</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=00f8f674-31a0-55ca-9b0b-417ab5722e17">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.28%</td>
           <td class="num">$2.53M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade">uniswap-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">1.03%</td>
           <td class="num">$1.56M</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">25.45%</td>
           <td class="num">$178.4K</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.50%</td>
           <td class="num">$151.7K</td>

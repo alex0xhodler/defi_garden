@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">2.62%</td>
           <td class="num">$441.3K</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.87%</td>
           <td class="num">$380.5K</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e6d897d8-681f-4e6d-94aa-a1893d28339d">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.25%</td>
           <td class="num">$137.3K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">1.81%</td>
           <td class="num">$123.7K</td>

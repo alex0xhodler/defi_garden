@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,19 +64,19 @@
       </thead>
       <tbody>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">38.56%</td>
           <td class="num">$663.7K</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">31.89%</td>
           <td class="num">$213K</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">26.39%</td>
           <td class="num">$139K</td>

@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,19 +64,19 @@
       </thead>
       <tbody>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8ed99f2c-a7f3-4f6b-9f45-049596d362b2">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">1.69%</td>
           <td class="num">$145.2K</td>
         </tr>
         <tr>
-          <td>kuru-clob</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=143f0c93-342a-4949-8253-167e57328e38">kuru-clob &rarr;</a></td>
           <td>Monad</td>
           <td class="num">6.54%</td>
           <td class="num">$111.4K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">3.25%</td>
           <td class="num">$106.8K</td>

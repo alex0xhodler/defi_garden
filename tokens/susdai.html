@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>usd-ai</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578">usd-ai &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">7.61%</td>
           <td class="num">$310.69M</td>
         </tr>
         <tr>
-          <td>fluid-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d91d1fe5-604e-4b89-b4c7-198fad3a5466">fluid-lending &rarr;</a></td>
           <td>Plasma</td>
           <td class="num">0.00%</td>
           <td class="num">$35.57M</td>
         </tr>
         <tr>
-          <td>fluid-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=fcc621d6-24df-44a7-98b1-780f800638a6">fluid-lending &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$31.02M</td>
         </tr>
         <tr>
-          <td>fluid-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9b554f81-b3f7-481d-b3d6-e4772d035d7e">fluid-lending &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$24.62M</td>
         </tr>
         <tr>
-          <td>fluid-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8a99f736-6a4b-48bf-bb2b-e2e51220a2b0">fluid-lending &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$23.13M</td>
         </tr>
         <tr>
-          <td>fluid-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=195030f8-7795-4dc6-b18c-0020d845c1c6">fluid-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$22.09M</td>
         </tr>
         <tr>
-          <td>fluid-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e9718cac-695f-4012-af88-1c7caeffa471">fluid-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$22.08M</td>
         </tr>
         <tr>
-          <td>fluid-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=915366de-ac1f-47e9-bf8e-ec15fa1df6ec">fluid-lending &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$20.95M</td>

@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,37 +64,37 @@
       </thead>
       <tbody>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">47.72%</td>
           <td class="num">$2.96M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
           <td class="num">16.39%</td>
           <td class="num">$2.93M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=996f86ea-420b-4036-b725-f0c50f9d73f1">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
           <td class="num">28.26%</td>
           <td class="num">$1.3M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
           <td class="num">33.37%</td>
           <td class="num">$549.7K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">34.93%</td>
           <td class="num">$213.6K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">45.59%</td>
           <td class="num">$156.5K</td>

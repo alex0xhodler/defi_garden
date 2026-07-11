@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,31 +64,31 @@
       </thead>
       <tbody>
         <tr>
-          <td>yearn-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470">yearn-finance &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">21.74%</td>
           <td class="num">$5.13M</td>
         </tr>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">9.19%</td>
           <td class="num">$1.08M</td>
         </tr>
         <tr>
-          <td>yearn-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9">yearn-finance &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">15.41%</td>
           <td class="num">$844.9K</td>
         </tr>
         <tr>
-          <td>convex-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c">convex-finance &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">15.83%</td>
           <td class="num">$770.1K</td>
         </tr>
         <tr>
-          <td>stake-dao</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6">stake-dao &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">11.66%</td>
           <td class="num">$181.7K</td>

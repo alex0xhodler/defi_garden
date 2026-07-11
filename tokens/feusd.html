@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>felix-cdp</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2bae7cf8-d278-4b27-9959-7f5f92c6f14b">felix-cdp &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$6.71M</td>
         </tr>
         <tr>
-          <td>felix-cdp</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d2a0cae6-7a65-4c1c-9995-327ddbcfb37f">felix-cdp &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$2.03M</td>
         </tr>
         <tr>
-          <td>felix-cdp</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=87214584-0bc8-4167-80e0-8be77a699f7f">felix-cdp &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$1.16M</td>
         </tr>
         <tr>
-          <td>hyperswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026">hyperswap-v3 &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.05%</td>
           <td class="num">$264K</td>

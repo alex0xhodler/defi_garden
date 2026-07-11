@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,31 +64,31 @@
       </thead>
       <tbody>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4">uniswap-v3 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.12%</td>
           <td class="num">$6.07M</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ea74173d-6493-4dde-aeb1-6997e8e557a3">uniswap-v4 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$496.3K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=fc5dfdbf-b3e8-4cc7-86ec-45a5dbc2da7d">uniswap-v4 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$493.2K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=16d02052-eacb-43e3-bc46-076efa813fd1">uniswap-v4 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$378.8K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089">uniswap-v4 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">17.39%</td>
           <td class="num">$175.2K</td>

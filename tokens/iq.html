@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,31 +64,31 @@
       </thead>
       <tbody>
         <tr>
-          <td>frax</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a">frax &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">1.56%</td>
           <td class="num">$1.86M</td>
         </tr>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7">curve-dex &rarr;</a></td>
           <td>Fraxtal</td>
           <td class="num">18.07%</td>
           <td class="num">$484.4K</td>
         </tr>
         <tr>
-          <td>frax</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1d1f75f9-2696-4aa0-8bd5-cf4082145264">frax &rarr;</a></td>
           <td>Fraxtal</td>
           <td class="num">0.00%</td>
           <td class="num">$309.4K</td>
         </tr>
         <tr>
-          <td>frax</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38">frax &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.02%</td>
           <td class="num">$124.5K</td>
         </tr>
         <tr>
-          <td>sushiswap</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0381328c-1077-42dc-8b0c-2f0ad01bf6e2">sushiswap &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$102.1K</td>

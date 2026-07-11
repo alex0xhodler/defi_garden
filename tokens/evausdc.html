@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">10.99%</td>
           <td class="num">$3.39M</td>
         </tr>
         <tr>
-          <td>stake-dao</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b">stake-dao &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">12.95%</td>
           <td class="num">$3.31M</td>
         </tr>
         <tr>
-          <td>shadow-exchange-legacy</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c">shadow-exchange-legacy &rarr;</a></td>
           <td>Sonic</td>
           <td class="num">8.54%</td>
           <td class="num">$1.3M</td>
         </tr>
         <tr>
-          <td>convex-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5">convex-finance &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">12.58%</td>
           <td class="num">$443.2K</td>

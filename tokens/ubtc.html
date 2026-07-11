@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>takara-lend</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=85dacc51-f547-42e8-be16-787c58743044">takara-lend &rarr;</a></td>
           <td>Sei</td>
           <td class="num">0.00%</td>
           <td class="num">$14.77M</td>
         </tr>
         <tr>
-          <td>hyperlend-pooled</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54">hyperlend-pooled &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.12%</td>
           <td class="num">$8.69M</td>
         </tr>
         <tr>
-          <td>project-x</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c">project-x &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">7.00%</td>
           <td class="num">$6.53M</td>
         </tr>
         <tr>
-          <td>nest-cl</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d">nest-cl &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">60.46%</td>
           <td class="num">$1.87M</td>
         </tr>
         <tr>
-          <td>hyperswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef">hyperswap-v3 &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">11.45%</td>
           <td class="num">$1.83M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=64599091-ea47-45ba-b1df-37f90a5418a4">morpho-blue &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$1.76M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6bec5a6c-a899-4247-ade2-8bc7c7570f27">morpho-blue &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$1.56M</td>
         </tr>
         <tr>
-          <td>project-x</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f">project-x &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.91%</td>
           <td class="num">$513.6K</td>

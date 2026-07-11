@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,19 +64,19 @@
       </thead>
       <tbody>
         <tr>
-          <td>hyperlend-pooled</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=62978e34-694b-4b9e-ab10-a547e2630417">hyperlend-pooled &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$2.73M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4faa9ab5-72b3-4686-bd10-f6160694693f">morpho-blue &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$334.8K</td>
         </tr>
         <tr>
-          <td>hypurrfi-pooled</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=12da9ad2-33cf-447a-97dc-bcc9afca2507">hypurrfi-pooled &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
           <td class="num">$103.2K</td>

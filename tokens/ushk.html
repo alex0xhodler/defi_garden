@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,37 +64,37 @@
       </thead>
       <tbody>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=218456e2-ffe4-5024-928b-ffbed76dd3ae">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$253.5K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4e29232d-5117-5e51-847b-3b94138d0cc3">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$253.5K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=96b99fca-0faf-5e56-ac78-a8ec7fff3072">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$253.5K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=310e5841-3108-50b4-aeab-6be0ad28f124">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$253.5K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=34f101dc-ea31-5661-9282-8b26277ac0cb">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$253.5K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=753d56de-ec82-565b-8337-d8b2bc70b21e">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.12%</td>
           <td class="num">$158.1K</td>

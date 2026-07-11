@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,31 +64,31 @@
       </thead>
       <tbody>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7dc7329e-072d-4951-9573-db4bdf01b414">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$4.2M</td>
         </tr>
         <tr>
-          <td>pendle</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56">pendle &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">11.96%</td>
           <td class="num">$214.9K</td>
         </tr>
         <tr>
-          <td>pendle</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf">pendle &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">106.21%</td>
           <td class="num">$214.9K</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e19ffe64-a168-4e53-b09d-cfb315b02543">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$203.3K</td>
         </tr>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">612.34%</td>
           <td class="num">$136.2K</td>

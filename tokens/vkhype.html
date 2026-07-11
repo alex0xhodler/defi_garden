@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>pendle</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32">pendle &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">3.40%</td>
           <td class="num">$830.9K</td>
         </tr>
         <tr>
-          <td>pendle</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25">pendle &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">3.02%</td>
           <td class="num">$830.9K</td>
         </tr>
         <tr>
-          <td>project-x</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed">project-x &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.77%</td>
           <td class="num">$344.1K</td>
         </tr>
         <tr>
-          <td>hybra-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=696cc3fd-7501-5eb9-a0ea-4a97e1c75205">hybra-v4 &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">5.35%</td>
           <td class="num">$149K</td>

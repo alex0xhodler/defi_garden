@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,43 +64,43 @@
       </thead>
       <tbody>
         <tr>
-          <td>compound-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=38ebbf7a-632b-40a6-ac1c-3685f7664bc5">compound-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$1.71M</td>
         </tr>
         <tr>
-          <td>compound-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=efb25a57-ec51-4f74-9b2c-a1206bd69a93">compound-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$1.67M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3f500684-b3f6-478f-ae1b-51924e6db1ee">uniswap-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$1.07M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100">uniswap-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.06%</td>
           <td class="num">$1.05M</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">15.12%</td>
           <td class="num">$246.3K</td>
         </tr>
         <tr>
-          <td>compound-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1f1263ab-a52a-4c2f-aed0-81492aacc65f">compound-v2 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$237.7K</td>
         </tr>
         <tr>
-          <td>uniswap-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f">uniswap-v2 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">7.24%</td>
           <td class="num">$111K</td>

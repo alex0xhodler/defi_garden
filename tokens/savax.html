@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,43 +64,43 @@
       </thead>
       <tbody>
         <tr>
-          <td>benqi-staked-avax</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9">benqi-staked-avax &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">3.32%</td>
           <td class="num">$154.8M</td>
         </tr>
         <tr>
-          <td>benqi-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=da5e182c-b440-4b80-ab54-c1bc94a4ffd4">benqi-lending &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">0.00%</td>
           <td class="num">$65.13M</td>
         </tr>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1914a267-f123-46ed-baa0-d1474d33c399">aave-v3 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">0.00%</td>
           <td class="num">$58.21M</td>
         </tr>
         <tr>
-          <td>cian-yield-layer</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ae6e839f-4361-40d4-a60e-1db3793dd70d">cian-yield-layer &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">0.00%</td>
           <td class="num">$2.09M</td>
         </tr>
         <tr>
-          <td>cian-yield-layer</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=45efc77d-49f6-4f81-97c7-246ef2eb8f89">cian-yield-layer &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">0.00%</td>
           <td class="num">$1.05M</td>
         </tr>
         <tr>
-          <td>pharaoh-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580">pharaoh-v3 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">0.00%</td>
           <td class="num">$141.7K</td>
         </tr>
         <tr>
-          <td>folks-finance-xchain</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f9049e37-b88c-4f6f-bd21-6409e80def69">folks-finance-xchain &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">0.00%</td>
           <td class="num">$138.6K</td>

@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>invesco-ustb</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1910847a-f8b5-40ce-a1ab-1dafdded5fbb">invesco-ustb &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">3.25%</td>
           <td class="num">$677.05M</td>
         </tr>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0f23649e-44fb-45be-b8b6-8ff28a0c0917">aave-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$71.32M</td>
         </tr>
         <tr>
-          <td>invesco-ustb</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81">invesco-ustb &rarr;</a></td>
           <td>Plume Mainnet</td>
           <td class="num">3.25%</td>
           <td class="num">$3.21M</td>
         </tr>
         <tr>
-          <td>invesco-ustb</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf">invesco-ustb &rarr;</a></td>
           <td>Solana</td>
           <td class="num">3.25%</td>
           <td class="num">$2.24M</td>

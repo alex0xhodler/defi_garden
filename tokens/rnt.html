@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>sushiswap</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f69c20df-5082-48ca-8a79-1c4d06c12bee">sushiswap &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">0.03%</td>
           <td class="num">$3.54M</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">1.64%</td>
           <td class="num">$472.4K</td>
         </tr>
         <tr>
-          <td>gt3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac">gt3 &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">12.37%</td>
           <td class="num">$248.7K</td>
         </tr>
         <tr>
-          <td>gt3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560">gt3 &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">23.73%</td>
           <td class="num">$183.7K</td>

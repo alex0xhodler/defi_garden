@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,31 +64,31 @@
       </thead>
       <tbody>
         <tr>
-          <td>vaneck-treasury-fund</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3">vaneck-treasury-fund &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">3.45%</td>
           <td class="num">$135.71M</td>
         </tr>
         <tr>
-          <td>vaneck-treasury-fund</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76">vaneck-treasury-fund &rarr;</a></td>
           <td>BSC</td>
           <td class="num">3.45%</td>
           <td class="num">$21.42M</td>
         </tr>
         <tr>
-          <td>vaneck-treasury-fund</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d">vaneck-treasury-fund &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">3.45%</td>
           <td class="num">$20.71M</td>
         </tr>
         <tr>
-          <td>vaneck-treasury-fund</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5">vaneck-treasury-fund &rarr;</a></td>
           <td>Solana</td>
           <td class="num">3.45%</td>
           <td class="num">$13.87M</td>
         </tr>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=037bba4d-8c43-4835-95d4-b56f50716ff6">aave-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$6.25M</td>

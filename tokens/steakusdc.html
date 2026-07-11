@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c">morpho-blue &rarr;</a></td>
           <td>Base</td>
           <td class="num">4.33%</td>
           <td class="num">$366.03M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f">morpho-blue &rarr;</a></td>
           <td>Base</td>
           <td class="num">4.08%</td>
           <td class="num">$229.91M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178">morpho-blue &rarr;</a></td>
           <td>Base</td>
           <td class="num">3.21%</td>
           <td class="num">$203.3M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">3.22%</td>
           <td class="num">$95.19M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">3.42%</td>
           <td class="num">$60.77M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980">morpho-blue &rarr;</a></td>
           <td>Katana</td>
           <td class="num">1.96%</td>
           <td class="num">$13.49M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">4.34%</td>
           <td class="num">$11.84M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954">morpho-blue &rarr;</a></td>
           <td>Katana</td>
           <td class="num">0.19%</td>
           <td class="num">$1M</td>

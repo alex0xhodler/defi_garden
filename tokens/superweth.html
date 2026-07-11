@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>superform</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6">superform &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">3.39%</td>
           <td class="num">$2.59M</td>
         </tr>
         <tr>
-          <td>pendle</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5">pendle &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">6.94%</td>
           <td class="num">$414K</td>
         </tr>
         <tr>
-          <td>pendle</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a">pendle &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">5.66%</td>
           <td class="num">$414K</td>
         </tr>
         <tr>
-          <td>superform</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4">superform &rarr;</a></td>
           <td>Base</td>
           <td class="num">3.25%</td>
           <td class="num">$287.4K</td>

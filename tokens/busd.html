@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>wombat-exchange</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364">wombat-exchange &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.03%</td>
           <td class="num">$2.05M</td>
         </tr>
         <tr>
-          <td>pancakeswap-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897">pancakeswap-amm &rarr;</a></td>
           <td>BSC</td>
           <td class="num">1.95%</td>
           <td class="num">$1.13M</td>
         </tr>
         <tr>
-          <td>kava-mint</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=93147bfc-e063-4674-a6ad-9e6762f7552b">kava-mint &rarr;</a></td>
           <td>Kava</td>
           <td class="num">0.00%</td>
           <td class="num">$859.4K</td>
         </tr>
         <tr>
-          <td>venus-core-pool</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=483533e6-3112-44a1-beae-7cae023065a6">venus-core-pool &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.00%</td>
           <td class="num">$828.3K</td>
         </tr>
         <tr>
-          <td>pancakeswap-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595">pancakeswap-amm &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.06%</td>
           <td class="num">$530.8K</td>
         </tr>
         <tr>
-          <td>beets-dex-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a2219f9a-8615-4e85-9dc7-5a305e3ff7b8">beets-dex-v3 &rarr;</a></td>
           <td>Sonic</td>
           <td class="num">0.00%</td>
           <td class="num">$404.5K</td>
         </tr>
         <tr>
-          <td>pancakeswap-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a">pancakeswap-amm &rarr;</a></td>
           <td>BSC</td>
           <td class="num">3.06%</td>
           <td class="num">$310.8K</td>
         </tr>
         <tr>
-          <td>pancakeswap-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031">pancakeswap-amm &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.05%</td>
           <td class="num">$265K</td>

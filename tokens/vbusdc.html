@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,37 +64,37 @@
       </thead>
       <tbody>
         <tr>
-          <td>yearn-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6">yearn-finance &rarr;</a></td>
           <td>Katana</td>
           <td class="num">5.06%</td>
           <td class="num">$9.66M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b5070e7b-da66-49aa-83f6-f89e4b441aca">morpho-blue &rarr;</a></td>
           <td>Katana</td>
           <td class="num">3.22%</td>
           <td class="num">$4.83M</td>
         </tr>
         <tr>
-          <td>yearn-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3bbbd1b5-3dc7-4bbf-8b7d-e229e8f8f05c">yearn-finance &rarr;</a></td>
           <td>Katana</td>
           <td class="num">4.65%</td>
           <td class="num">$4.82M</td>
         </tr>
         <tr>
-          <td>yearn-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ffeb6000-119e-4950-9875-fa90d0d8e373">yearn-finance &rarr;</a></td>
           <td>Katana</td>
           <td class="num">4.59%</td>
           <td class="num">$1.12M</td>
         </tr>
         <tr>
-          <td>spectra-metavaults</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4">spectra-metavaults &rarr;</a></td>
           <td>Katana</td>
           <td class="num">4.34%</td>
           <td class="num">$420.7K</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a">morpho-blue &rarr;</a></td>
           <td>Katana</td>
           <td class="num">9.88%</td>
           <td class="num">$101.2K</td>

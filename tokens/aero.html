@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>aerodrome-v1</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
           <td class="num">24.51%</td>
           <td class="num">$31.21M</td>
         </tr>
         <tr>
-          <td>extra-finance-leverage-farming</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d">extra-finance-leverage-farming &rarr;</a></td>
           <td>Base</td>
           <td class="num">27.32%</td>
           <td class="num">$10.22M</td>
         </tr>
         <tr>
-          <td>moonwell-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91">moonwell-lending &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.75%</td>
           <td class="num">$9.81M</td>
         </tr>
         <tr>
-          <td>extra-finance-leverage-farming</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4">extra-finance-leverage-farming &rarr;</a></td>
           <td>Base</td>
           <td class="num">4.62%</td>
           <td class="num">$3.49M</td>
         </tr>
         <tr>
-          <td>aerodrome-slipstream</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b">aerodrome-slipstream &rarr;</a></td>
           <td>Base</td>
           <td class="num">61.28%</td>
           <td class="num">$3.29M</td>
         </tr>
         <tr>
-          <td>aerodrome-v1</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
           <td class="num">16.22%</td>
           <td class="num">$2.93M</td>
         </tr>
         <tr>
-          <td>aerodrome-slipstream</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434">aerodrome-slipstream &rarr;</a></td>
           <td>Base</td>
           <td class="num">22.30%</td>
           <td class="num">$2.14M</td>
         </tr>
         <tr>
-          <td>aerodrome-v1</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
           <td class="num">97.91%</td>
           <td class="num">$2.03M</td>

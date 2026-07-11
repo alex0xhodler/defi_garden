@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>rocket-pool</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb">rocket-pool &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">2.21%</td>
           <td class="num">$2.44B</td>
         </tr>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f1a22245-a1f1-4389-8ff2-dde4914b272d">aave-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$72.29M</td>
         </tr>
         <tr>
-          <td>liquity-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5f79c82d-8722-4464-b91b-f07b96fec13c">liquity-v2 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$12.04M</td>
         </tr>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">2.16%</td>
           <td class="num">$9.92M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a7262f82-b4fd-4e5d-adea-43fb1e5df68d">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$5.04M</td>
         </tr>
         <tr>
-          <td>balancer-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600">balancer-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">6.22%</td>
           <td class="num">$4.43M</td>
         </tr>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d4cdd2fb-54bd-40fe-8093-e691ea0b291a">aave-v3 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$2.11M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2f88293e-036f-4681-a1c0-de218d758832">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$1.79M</td>

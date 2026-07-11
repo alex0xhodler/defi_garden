@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>kintsu</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd">kintsu &rarr;</a></td>
           <td>Monad</td>
           <td class="num">12.50%</td>
           <td class="num">$2.4M</td>
         </tr>
         <tr>
-          <td>neverland</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca">neverland &rarr;</a></td>
           <td>Monad</td>
           <td class="num">0.66%</td>
           <td class="num">$823.9K</td>
         </tr>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7">curve-dex &rarr;</a></td>
           <td>Monad</td>
           <td class="num">26.67%</td>
           <td class="num">$601K</td>
         </tr>
         <tr>
-          <td>curvance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b8119d26-8f79-4b60-83f6-899b66418e22">curvance &rarr;</a></td>
           <td>Monad</td>
           <td class="num">0.00%</td>
           <td class="num">$222.3K</td>

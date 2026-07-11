@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>balancer-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c">balancer-v2 &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">3.14%</td>
           <td class="num">$1.01M</td>
         </tr>
         <tr>
-          <td>balancer-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9">balancer-v2 &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">2.21%</td>
           <td class="num">$745.6K</td>
         </tr>
         <tr>
-          <td>balancer-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0">balancer-v2 &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">1.02%</td>
           <td class="num">$430.2K</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0">uniswap-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">27.17%</td>
           <td class="num">$225.5K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d46dea6e-c44c-4741-8a55-d9f2a96bd1e8">uniswap-v4 &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">12.85%</td>
           <td class="num">$203K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663">uniswap-v4 &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">18.64%</td>
           <td class="num">$156.9K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">6.89%</td>
           <td class="num">$136.2K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1ae717af-343f-40c8-be31-7c69207c54ca">uniswap-v4 &rarr;</a></td>
           <td>Base</td>
           <td class="num">12.33%</td>
           <td class="num">$114.5K</td>

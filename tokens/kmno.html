@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=655490fe-d1d9-43b2-9e18-5aa12a046e71">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.02%</td>
           <td class="num">$1.17M</td>
         </tr>
         <tr>
-          <td>kamino-liquidity</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=396b18a3-8121-4e89-bfec-4cff488ebe1c">kamino-liquidity &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$1.17M</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b03c45e9-77a9-4782-8bb7-09162616095f">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">4.60%</td>
           <td class="num">$153.9K</td>
         </tr>
         <tr>
-          <td>kamino-liquidity</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e1720ca6-d33a-4ea8-abbf-0c1de869d0f4">kamino-liquidity &rarr;</a></td>
           <td>Solana</td>
           <td class="num">4.25%</td>
           <td class="num">$153.1K</td>

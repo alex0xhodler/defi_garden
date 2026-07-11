@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>endur</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17">endur &rarr;</a></td>
           <td>Starknet</td>
           <td class="num">6.80%</td>
           <td class="num">$3.86M</td>
         </tr>
         <tr>
-          <td>ekubo</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f">ekubo &rarr;</a></td>
           <td>Starknet</td>
           <td class="num">0.04%</td>
           <td class="num">$1.07M</td>
         </tr>
         <tr>
-          <td>nostra-money-market</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3416094f-9bf9-44b8-8a48-db85cb0d397e">nostra-money-market &rarr;</a></td>
           <td>Starknet</td>
           <td class="num">1.41%</td>
           <td class="num">$893.4K</td>
         </tr>
         <tr>
-          <td>ekubo</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5304a5af-cd2e-466d-8fbe-728aeda406fa">ekubo &rarr;</a></td>
           <td>Starknet</td>
           <td class="num">19.21%</td>
           <td class="num">$588.5K</td>
         </tr>
         <tr>
-          <td>ekubo</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=55ee94b7-d355-404d-8b60-d822e1856adb">ekubo &rarr;</a></td>
           <td>Starknet</td>
           <td class="num">63.09%</td>
           <td class="num">$563.4K</td>
         </tr>
         <tr>
-          <td>ekubo</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b984cf22-1ba7-4576-a8bd-d5a8050d995a">ekubo &rarr;</a></td>
           <td>Starknet</td>
           <td class="num">35.49%</td>
           <td class="num">$481.6K</td>
         </tr>
         <tr>
-          <td>troves</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d875fe4d-9cf1-42e2-80ee-bb6fc3c566b1">troves &rarr;</a></td>
           <td>Starknet</td>
           <td class="num">25.53%</td>
           <td class="num">$414K</td>
         </tr>
         <tr>
-          <td>ekubo</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035">ekubo &rarr;</a></td>
           <td>Starknet</td>
           <td class="num">2.84%</td>
           <td class="num">$262.1K</td>

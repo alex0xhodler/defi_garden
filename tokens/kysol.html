@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,19 +64,19 @@
       </thead>
       <tbody>
         <tr>
-          <td>kyros</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e">kyros &rarr;</a></td>
           <td>Solana</td>
           <td class="num">5.72%</td>
           <td class="num">$8.03M</td>
         </tr>
         <tr>
-          <td>kamino-liquidity</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=89078c25-46af-4855-a513-db4b5d91ed01">kamino-liquidity &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$384.3K</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b820fb28-a93a-4d1e-81d0-da3453b98e54">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.01%</td>
           <td class="num">$380.7K</td>

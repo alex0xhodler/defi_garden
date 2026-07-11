@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>venus-core-pool</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e">venus-core-pool &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.25%</td>
           <td class="num">$261.9M</td>
         </tr>
         <tr>
-          <td>solv-basis-trading</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7fcd66fb-349f-4923-898a-4a303809cc42">solv-basis-trading &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.00%</td>
           <td class="num">$198.71M</td>
         </tr>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8">aave-v3 &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.05%</td>
           <td class="num">$58.86M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=afff4fcc-f3d1-4610-8843-fa1bdc75b1fa">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.00%</td>
           <td class="num">$15.84M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
           <td class="num">6.98%</td>
           <td class="num">$9.23M</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c99dcf54-b14c-56c3-81bb-c5eb16bc9114">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.02%</td>
           <td class="num">$4.95M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
           <td class="num">16.39%</td>
           <td class="num">$2.93M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
           <td class="num">11.27%</td>
           <td class="num">$2.18M</td>

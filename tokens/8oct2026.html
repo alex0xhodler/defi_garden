@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,19 +64,19 @@
       </thead>
       <tbody>
         <tr>
-          <td>curvance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad">curvance &rarr;</a></td>
           <td>Monad</td>
           <td class="num">0.20%</td>
           <td class="num">$6.12M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d272ca3f-ccb5-5b1e-89cf-ab989d5c69c7">morpho-blue &rarr;</a></td>
           <td>Monad</td>
           <td class="num">0.00%</td>
           <td class="num">$1.02M</td>
         </tr>
         <tr>
-          <td>curvance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0">curvance &rarr;</a></td>
           <td>Monad</td>
           <td class="num">0.20%</td>
           <td class="num">$102.5K</td>

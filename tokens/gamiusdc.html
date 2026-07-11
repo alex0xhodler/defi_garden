@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>gami-labs</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2">gami-labs &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">8.29%</td>
           <td class="num">$6.52M</td>
         </tr>
         <tr>
-          <td>lagoon</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65">lagoon &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">8.10%</td>
           <td class="num">$6.52M</td>
         </tr>
         <tr>
-          <td>t3tris-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=90f5ce43-ea4a-59ad-9fc4-02a43a4e39ef">t3tris-finance &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$6M</td>
         </tr>
         <tr>
-          <td>balancer-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2">balancer-v3 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">10.35%</td>
           <td class="num">$702.8K</td>

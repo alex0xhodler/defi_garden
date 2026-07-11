@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>aerodrome-slipstream</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0">aerodrome-slipstream &rarr;</a></td>
           <td>Base</td>
           <td class="num">10.80%</td>
           <td class="num">$25.36M</td>
         </tr>
         <tr>
-          <td>aerodrome-v1</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
           <td class="num">4.13%</td>
           <td class="num">$17.33M</td>
         </tr>
         <tr>
-          <td>vesper</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4208b678-e7cc-4060-9c74-88554e8ca81e">vesper &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.88%</td>
           <td class="num">$16.93M</td>
         </tr>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">7.43%</td>
           <td class="num">$12.36M</td>
         </tr>
         <tr>
-          <td>convex-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4">convex-finance &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">14.99%</td>
           <td class="num">$7.61M</td>
         </tr>
         <tr>
-          <td>vesper</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7">vesper &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.94%</td>
           <td class="num">$5.94M</td>
         </tr>
         <tr>
-          <td>stake-dao</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad">stake-dao &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">10.87%</td>
           <td class="num">$4.25M</td>
         </tr>
         <tr>
-          <td>beefy</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=42b421f5-0cf1-4380-b9aa-302eabd92503">beefy &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$3.42M</td>

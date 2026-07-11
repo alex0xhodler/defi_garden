@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,43 +64,43 @@
       </thead>
       <tbody>
         <tr>
-          <td>liquid-collective</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=465d177e-3d0d-42c0-b5f5-31c857567135">liquid-collective &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">2.58%</td>
           <td class="num">$574.57M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b16b4a73-dde5-4a4d-93d3-5785c4eb4a04">uniswap-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.06%</td>
           <td class="num">$5.69M</td>
         </tr>
         <tr>
-          <td>frankencoin</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5cfe6164-7def-4eb2-bab0-57d373eff612">frankencoin &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$3.57M</td>
         </tr>
         <tr>
-          <td>frankencoin</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=62b13b67-316b-4f00-b82d-23166db5e41e">frankencoin &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$1.08M</td>
         </tr>
         <tr>
-          <td>frankencoin</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f39ec5cc-1b7a-464b-8eb0-f147ed92cf65">frankencoin &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$578.7K</td>
         </tr>
         <tr>
-          <td>frankencoin</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=11e5cac4-df77-4309-a0d8-7b3252744c91">frankencoin &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$320.2K</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=cb7e051c-a91e-4cad-8dc2-5eb869df7845">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$279.1K</td>

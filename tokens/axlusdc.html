@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,19 +64,19 @@
       </thead>
       <tbody>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d">curve-dex &rarr;</a></td>
           <td>Base</td>
           <td class="num">5.95%</td>
           <td class="num">$173.8K</td>
         </tr>
         <tr>
-          <td>pancakeswap-amm-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2d3b6050-0d45-4e6e-a347-9e9b5791aefa">pancakeswap-amm-v3 &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.61%</td>
           <td class="num">$151.5K</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=50d13551-57cc-4029-817f-21a8d018e9e7">uniswap-v3 &rarr;</a></td>
           <td>OP Mainnet</td>
           <td class="num">0.06%</td>
           <td class="num">$117.2K</td>

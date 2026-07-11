@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>ston.fi</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908">ston.fi &rarr;</a></td>
           <td>TON</td>
           <td class="num">5.38%</td>
           <td class="num">$6.47M</td>
         </tr>
         <tr>
-          <td>ston.fi</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340">ston.fi &rarr;</a></td>
           <td>TON</td>
           <td class="num">4.37%</td>
           <td class="num">$5.62M</td>
         </tr>
         <tr>
-          <td>storm-trade</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae">storm-trade &rarr;</a></td>
           <td>TON</td>
           <td class="num">6.30%</td>
           <td class="num">$1.88M</td>
         </tr>
         <tr>
-          <td>affluent</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448">affluent &rarr;</a></td>
           <td>TON</td>
           <td class="num">9.42%</td>
           <td class="num">$1.48M</td>
         </tr>
         <tr>
-          <td>affluent</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae">affluent &rarr;</a></td>
           <td>TON</td>
           <td class="num">13.41%</td>
           <td class="num">$929.2K</td>
         </tr>
         <tr>
-          <td>ston.fi</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950">ston.fi &rarr;</a></td>
           <td>TON</td>
           <td class="num">15.45%</td>
           <td class="num">$863.4K</td>
         </tr>
         <tr>
-          <td>ston.fi</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8649df0e-8b85-4840-b1f4-feaf1d44b9af">ston.fi &rarr;</a></td>
           <td>TON</td>
           <td class="num">0.00%</td>
           <td class="num">$739.9K</td>
         </tr>
         <tr>
-          <td>evaa-protocol</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663">evaa-protocol &rarr;</a></td>
           <td>TON</td>
           <td class="num">7.79%</td>
           <td class="num">$665.3K</td>

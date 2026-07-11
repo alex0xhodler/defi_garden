@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ada1896e-f85e-4fab-a5be-9c548297a27e">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$2.35M</td>
         </tr>
         <tr>
-          <td>camelot-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474">camelot-v2 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">4.81%</td>
           <td class="num">$1.6M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f">uniswap-v3 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">26.60%</td>
           <td class="num">$1.06M</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b9311779-d877-50be-8279-515e9bc9c4a7">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">63.47%</td>
           <td class="num">$1.06M</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9e931aa5-7b7c-4c3b-8edb-fb9f07d9ce18">uniswap-v4 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$588.7K</td>
         </tr>
         <tr>
-          <td>dolomite</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac">dolomite &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.34%</td>
           <td class="num">$520.1K</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575">uniswap-v3 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">44.07%</td>
           <td class="num">$489K</td>
         </tr>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$477.9K</td>

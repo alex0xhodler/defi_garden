@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>aerodrome-v1</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
           <td class="num">6.07%</td>
           <td class="num">$1.03M</td>
         </tr>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">5.24%</td>
           <td class="num">$476.1K</td>
         </tr>
         <tr>
-          <td>convex-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498">convex-finance &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">7.44%</td>
           <td class="num">$476K</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=64434ec1-f953-4752-a1d0-4653b2523d09">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$363.2K</td>
         </tr>
         <tr>
-          <td>yearn-finance</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0147e115-a1fe-439f-ae00-f1fe46aa6620">yearn-finance &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$320K</td>
         </tr>
         <tr>
-          <td>uniswap-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=93d0bdcb-c52f-4fdc-aee7-c05bc560d3d9">uniswap-v2 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$146.3K</td>
         </tr>
         <tr>
-          <td>uniswap-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39">uniswap-v2 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">4.80%</td>
           <td class="num">$130.1K</td>
         </tr>
         <tr>
-          <td>sushiswap</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041">sushiswap &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$104.9K</td>

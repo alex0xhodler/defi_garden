@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>jito-liquid-staking</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900">jito-liquid-staking &rarr;</a></td>
           <td>Solana</td>
           <td class="num">5.36%</td>
           <td class="num">$780.35M</td>
         </tr>
         <tr>
-          <td>kamino-lend</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1da10c92-fd2e-4506-a4d1-8c8fa22ff744">kamino-lend &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$67.6M</td>
         </tr>
         <tr>
-          <td>kamino-lend</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0da4a9c7-e79d-49b1-8753-2bf18cbb37f8">kamino-lend &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$17.7M</td>
         </tr>
         <tr>
-          <td>save</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f7067019-e44f-4e03-aeb0-b717dfd8d7c7">save &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$6.45M</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.33%</td>
           <td class="num">$6.28M</td>
         </tr>
         <tr>
-          <td>kamino-liquidity</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6">kamino-liquidity &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.22%</td>
           <td class="num">$6.22M</td>
         </tr>
         <tr>
-          <td>project-0</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f">project-0 &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.14%</td>
           <td class="num">$5.95M</td>
         </tr>
         <tr>
-          <td>jupiter-lend</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=dd024b97-972d-4f89-95b6-49804810e486">jupiter-lend &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
           <td class="num">$3.8M</td>

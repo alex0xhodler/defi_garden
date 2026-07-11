@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>sovryn-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=45ed2a98-303b-4d68-ac6c-67806c98c18b">sovryn-dex &rarr;</a></td>
           <td>Rootstock</td>
           <td class="num">0.91%</td>
           <td class="num">$1.34M</td>
         </tr>
         <tr>
-          <td>sovryn-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03">sovryn-dex &rarr;</a></td>
           <td>Rootstock</td>
           <td class="num">0.08%</td>
           <td class="num">$960.4K</td>
         </tr>
         <tr>
-          <td>sovryn-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f">sovryn-dex &rarr;</a></td>
           <td>Rootstock</td>
           <td class="num">0.10%</td>
           <td class="num">$745.6K</td>
         </tr>
         <tr>
-          <td>sovryn-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6">sovryn-dex &rarr;</a></td>
           <td>Rootstock</td>
           <td class="num">0.00%</td>
           <td class="num">$741.6K</td>
         </tr>
         <tr>
-          <td>sovryn-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2">sovryn-dex &rarr;</a></td>
           <td>Rootstock</td>
           <td class="num">0.17%</td>
           <td class="num">$557.5K</td>
         </tr>
         <tr>
-          <td>sovryn-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ca0d8e1a-75cb-4156-826b-7255b94eb809">sovryn-dex &rarr;</a></td>
           <td>Rootstock</td>
           <td class="num">0.01%</td>
           <td class="num">$323.4K</td>
         </tr>
         <tr>
-          <td>sovryn-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3294c8ac-c4f3-42ac-9d0f-be92416ec265">sovryn-dex &rarr;</a></td>
           <td>Rootstock</td>
           <td class="num">1.23%</td>
           <td class="num">$277.6K</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424">uniswap-v3 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$235.6K</td>

@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>kinetic</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806">kinetic &rarr;</a></td>
           <td>Flare</td>
           <td class="num">1.00%</td>
           <td class="num">$23.69M</td>
         </tr>
         <tr>
-          <td>gami-labs</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6">gami-labs &rarr;</a></td>
           <td>Flare</td>
           <td class="num">2.42%</td>
           <td class="num">$6.52M</td>
         </tr>
         <tr>
-          <td>spectra-metavaults</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233">spectra-metavaults &rarr;</a></td>
           <td>Flare</td>
           <td class="num">3.41%</td>
           <td class="num">$6.52M</td>
         </tr>
         <tr>
-          <td>sparkdex-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975">sparkdex-v4 &rarr;</a></td>
           <td>Flare</td>
           <td class="num">1.36%</td>
           <td class="num">$5.98M</td>
         </tr>
         <tr>
-          <td>sparkdex-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832">sparkdex-v4 &rarr;</a></td>
           <td>Flare</td>
           <td class="num">16.96%</td>
           <td class="num">$1.9M</td>
         </tr>
         <tr>
-          <td>sparkdex-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a">sparkdex-v4 &rarr;</a></td>
           <td>Flare</td>
           <td class="num">12.29%</td>
           <td class="num">$847.5K</td>
         </tr>
         <tr>
-          <td>sparkdex-v3.1</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4">sparkdex-v3.1 &rarr;</a></td>
           <td>Flare</td>
           <td class="num">10.21%</td>
           <td class="num">$535.8K</td>
         </tr>
         <tr>
-          <td>sparkdex-v3.1</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e1cca30e-5f57-406b-9585-a581ea2eafd1">sparkdex-v3.1 &rarr;</a></td>
           <td>Flare</td>
           <td class="num">0.03%</td>
           <td class="num">$397.2K</td>

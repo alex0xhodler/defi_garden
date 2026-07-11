@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>frankencoin</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6c284386-ad60-4ecd-9950-3fa816dc20bb">frankencoin &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$11.17M</td>
         </tr>
         <tr>
-          <td>frankencoin</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c0ba7382-a055-4f5c-9d00-59b737bdb798">frankencoin &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$7.45M</td>
         </tr>
         <tr>
-          <td>frankencoin</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=872e82a3-59fa-4fb7-b490-f16e5fc44f06">frankencoin &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$3.35M</td>
         </tr>
         <tr>
-          <td>frankencoin</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3351bd66-b49e-482b-8541-19d82743b6af">frankencoin &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$152.6K</td>

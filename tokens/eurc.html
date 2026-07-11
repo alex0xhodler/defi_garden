@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e">aave-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">2.42%</td>
           <td class="num">$14.95M</td>
         </tr>
         <tr>
-          <td>jupiter-lend</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3">jupiter-lend &rarr;</a></td>
           <td>Solana</td>
           <td class="num">2.76%</td>
           <td class="num">$4.92M</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=61395c4f-90fc-4a70-851f-86182893705b">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$4.67M</td>
         </tr>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715">aave-v3 &rarr;</a></td>
           <td>Base</td>
           <td class="num">2.33%</td>
           <td class="num">$4.18M</td>
         </tr>
         <tr>
-          <td>aerodrome-slipstream</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767">aerodrome-slipstream &rarr;</a></td>
           <td>Base</td>
           <td class="num">15.14%</td>
           <td class="num">$2.85M</td>
         </tr>
         <tr>
-          <td>fluid-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0">fluid-lending &rarr;</a></td>
           <td>Base</td>
           <td class="num">2.54%</td>
           <td class="num">$1.59M</td>
         </tr>
         <tr>
-          <td>aerodrome-slipstream</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=fbce5857-69c4-4142-938b-62bdc9444967">aerodrome-slipstream &rarr;</a></td>
           <td>Base</td>
           <td class="num">5.82%</td>
           <td class="num">$1.11M</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ae2073a3-2d17-4b0e-a35e-9a90a2569063">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">4.28%</td>
           <td class="num">$826.5K</td>

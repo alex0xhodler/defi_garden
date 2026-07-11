@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>aerodrome-v1</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
           <td class="num">18.06%</td>
           <td class="num">$302.5K</td>
         </tr>
         <tr>
-          <td>velodrome-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c">velodrome-v2 &rarr;</a></td>
           <td>OP Mainnet</td>
           <td class="num">5.67%</td>
           <td class="num">$240.7K</td>
         </tr>
         <tr>
-          <td>velodrome-v2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68">velodrome-v2 &rarr;</a></td>
           <td>OP Mainnet</td>
           <td class="num">21.29%</td>
           <td class="num">$191K</td>
         </tr>
         <tr>
-          <td>beefy</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=bb7334da-1ebb-462a-9687-f42455d4a822">beefy &rarr;</a></td>
           <td>OP Mainnet</td>
           <td class="num">0.00%</td>
           <td class="num">$134.6K</td>

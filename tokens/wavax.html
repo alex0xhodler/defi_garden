@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5">aave-v3 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">2.09%</td>
           <td class="num">$48.64M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68">uniswap-v3 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">4.35%</td>
           <td class="num">$3.32M</td>
         </tr>
         <tr>
-          <td>pharaoh-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814">pharaoh-v3 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">31.42%</td>
           <td class="num">$2.59M</td>
         </tr>
         <tr>
-          <td>pharaoh-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc">pharaoh-v3 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">35.43%</td>
           <td class="num">$1.46M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a">uniswap-v3 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">9.55%</td>
           <td class="num">$829.4K</td>
         </tr>
         <tr>
-          <td>blackhole-clmm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2b42e1cd-5e65-4e1a-9df4-fb324a41e3cd">blackhole-clmm &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">461.68%</td>
           <td class="num">$821.3K</td>
         </tr>
         <tr>
-          <td>pharaoh-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0">pharaoh-v3 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">126.92%</td>
           <td class="num">$564.5K</td>
         </tr>
         <tr>
-          <td>joe-v2.2</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741">joe-v2.2 &rarr;</a></td>
           <td>Avalanche</td>
           <td class="num">23.41%</td>
           <td class="num">$386.1K</td>

@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>ether.fi-stake</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264">ether.fi-stake &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">2.38%</td>
           <td class="num">$3.13B</td>
         </tr>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=db678df9-3281-4bc2-a8bb-01160ffd6d48">aave-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$1.91B</td>
         </tr>
         <tr>
-          <td>ether.fi-stake</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754">ether.fi-stake &rarr;</a></td>
           <td>Linea</td>
           <td class="num">2.38%</td>
           <td class="num">$136.95M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2ee0b92f-49ed-4cc1-83b6-3c63357f50d6">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$100.49M</td>
         </tr>
         <tr>
-          <td>aave-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3df9ffeb-8c72-438c-a9ae-026488d8f2b2">aave-v3 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$75.95M</td>
         </tr>
         <tr>
-          <td>morpho-blue</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0b70c11c-75b6-4faa-a3af-0c17f4b3b38f">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$71.44M</td>
         </tr>
         <tr>
-          <td>sparklend</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9da8a761-eb0f-4d41-ad05-0ebb2ed82913">sparklend &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$67.27M</td>
         </tr>
         <tr>
-          <td>ether.fi-stake</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496">ether.fi-stake &rarr;</a></td>
           <td>Base</td>
           <td class="num">2.38%</td>
           <td class="num">$54.35M</td>

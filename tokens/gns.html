@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>gains-network</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=daf1512e-5d07-4f91-8b46-9967e006f7ac">gains-network &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.00%</td>
           <td class="num">$2.1M</td>
         </tr>
         <tr>
-          <td>gains-network</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=dc15175e-6f66-4dde-858e-af4e838f7eb1">gains-network &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.00%</td>
           <td class="num">$923.1K</td>
         </tr>
         <tr>
-          <td>gains-network</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=11c9273b-f17e-4f69-b503-3982c2da242a">gains-network &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">0.00%</td>
           <td class="num">$269.1K</td>
         </tr>
         <tr>
-          <td>camelot-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f413a14f-e487-4325-8c88-3f3665e71606">camelot-v3 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.95%</td>
           <td class="num">$255.9K</td>

@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,31 +64,31 @@
       </thead>
       <tbody>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a">uniswap-v4 &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.81%</td>
           <td class="num">$1.03M</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98">uniswap-v4 &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.02%</td>
           <td class="num">$341.1K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=986d5997-e3d7-460d-8868-826dcc35b74b">uniswap-v4 &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.00%</td>
           <td class="num">$277.4K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=459a71b6-f8e0-432f-af29-c24d88bb9000">uniswap-v4 &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.01%</td>
           <td class="num">$242.7K</td>
         </tr>
         <tr>
-          <td>uniswap-v4</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a315614c-1b31-4287-8e63-b0cbed3956d6">uniswap-v4 &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.04%</td>
           <td class="num">$165.5K</td>

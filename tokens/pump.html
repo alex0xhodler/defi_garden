@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,25 +64,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">42.01%</td>
           <td class="num">$550.5K</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">54.29%</td>
           <td class="num">$163.2K</td>
         </tr>
         <tr>
-          <td>orca-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a">orca-dex &rarr;</a></td>
           <td>Solana</td>
           <td class="num">15.08%</td>
           <td class="num">$108.4K</td>
         </tr>
         <tr>
-          <td>project-0</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7">project-0 &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.41%</td>
           <td class="num">$101.8K</td>

@@ -29,6 +29,12 @@
       .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
       .tp-card td.num, .tp-card th.num { text-align: right; }
       .tp-card tr:last-child td { border-bottom: none; }
+      .tp-card tbody tr { transition: background .15s ease; }
+      .tp-card tbody tr:hover { background: var(--color-background); }
+      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-pool-link:hover { text-decoration: underline; }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
       .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
       .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
       .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
@@ -58,49 +64,49 @@
       </thead>
       <tbody>
         <tr>
-          <td>lista-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d">lista-lending &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.78%</td>
           <td class="num">$137.86M</td>
         </tr>
         <tr>
-          <td>dolomite</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082">dolomite &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">7.67%</td>
           <td class="num">$132.56M</td>
         </tr>
         <tr>
-          <td>lista-lending</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=94a140b4-f09f-4403-a4c1-0791c99e1492">lista-lending &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.35%</td>
           <td class="num">$27.84M</td>
         </tr>
         <tr>
-          <td>curve-dex</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.46%</td>
           <td class="num">$10.05M</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.29%</td>
           <td class="num">$9.89M</td>
         </tr>
         <tr>
-          <td>bitway-earn</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429">bitway-earn &rarr;</a></td>
           <td>BSC</td>
           <td class="num">8.00%</td>
           <td class="num">$9.77M</td>
         </tr>
         <tr>
-          <td>raydium-amm</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">8.99%</td>
           <td class="num">$4.28M</td>
         </tr>
         <tr>
-          <td>uniswap-v3</td>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0c3e4db7-4c66-4ac6-bc78-c71f20475e6a">uniswap-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
           <td class="num">$3.53M</td>
