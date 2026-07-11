@@ -309,6 +309,9 @@ const translations = {
       sharePromptHeadline: "Send this garden to someone",
       shareTextLinkCopy: "or copy the link",
       shareTextLinkNative: "or share the link",
+      shareLinkPrimaryCta: "🔗 Copy your garden link",
+      shareLinkPrimaryNative: "🔗 Share your garden link",
+      shareTextLinkImage: "or save as an image",
       tendGarden: "Tend your garden",
 
       // Persona intros
@@ -792,6 +795,9 @@ const translations = {
       sharePromptHeadline: "이 정원을 누군가에게 보내 보세요",
       shareTextLinkCopy: "또는 링크 복사",
       shareTextLinkNative: "또는 링크 공유",
+      shareLinkPrimaryCta: "🔗 정원 링크 복사하기",
+      shareLinkPrimaryNative: "🔗 정원 링크 공유하기",
+      shareTextLinkImage: "또는 이미지로 저장",
       tendGarden: "내 정원 가꾸기",
 
       presetIntro: (name) => `${name}님처럼 계획해 봐요 — 무엇이든 바꿔 내 것으로 만드세요.`,
