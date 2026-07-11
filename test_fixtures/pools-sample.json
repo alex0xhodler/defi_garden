@@ -1,15 +1,10 @@
 [
-  { "symbol": "AAA", "project": "aave-v3", "chain": "Ethereum", "tvlUsd": 500000000, "apyBase": 4.1, "apyReward": 0 },
-  { "symbol": "AAA", "project": "compound-v3", "chain": "Base", "tvlUsd": 300000000, "apyBase": 3.8, "apyReward": 0.2 },
-  { "symbol": "AAA", "project": "morpho", "chain": "Arbitrum", "tvlUsd": 120000000, "apyBase": 5.0, "apyReward": 0 },
-  { "symbol": "BBB", "project": "curve", "chain": "Ethereum", "tvlUsd": 60000000, "apyBase": 6.2, "apyReward": 1.1 },
-  { "symbol": "BBB", "project": "convex", "chain": "Ethereum", "tvlUsd": 40000000, "apyBase": 7.0, "apyReward": 2.0 },
-  { "symbol": "CCC", "project": "aave-v3", "chain": "Polygon", "tvlUsd": 90000000, "apyBase": 3.0, "apyReward": 0 },
-  { "symbol": "CCC", "project": "tinypool", "chain": "Polygon", "tvlUsd": 500000, "apyBase": 9.0, "apyReward": 0 },
-  { "symbol": "DDD", "project": "smallcap", "chain": "Base", "tvlUsd": 2000000, "apyBase": 8.0, "apyReward": 0 },
-  { "symbol": "DDD", "project": "smallcap2", "chain": "Base", "tvlUsd": 3000000, "apyBase": 8.5, "apyReward": 0 },
-  { "symbol": "EEE", "project": "realpool", "chain": "Ethereum", "tvlUsd": 50000000, "apyBase": 6.0, "apyReward": 0 },
-  { "symbol": "EEE", "project": "degenfarm", "chain": "Solana", "tvlUsd": 80000000, "apyBase": 1500, "apyReward": 400 },
-  { "symbol": "USDC.E", "project": "aave-v3", "chain": "Arbitrum", "tvlUsd": 45000000, "apyBase": 4.5, "apyReward": 0 },
-  { "symbol": "USDC.E", "project": "stargate", "chain": "Optimism", "tvlUsd": 35000000, "apyBase": 5.1, "apyReward": 0.4 }
+  { "symbol": "BIG", "project": "aave-v3", "chain": "Ethereum", "tvlUsd": 500000000, "apyBase": 4.1, "apyReward": 0 },
+  { "symbol": "BIG", "project": "compound-v3", "chain": "Base", "tvlUsd": 300000000, "apyBase": 3.8, "apyReward": 0.2 },
+  { "symbol": "MID", "project": "curve", "chain": "Ethereum", "tvlUsd": 5000000, "apyBase": 6.2, "apyReward": 1.1 },
+  { "symbol": "ANOM", "project": "realpool", "chain": "Ethereum", "tvlUsd": 2000000, "apyBase": 6.0, "apyReward": 0 },
+  { "symbol": "ANOM", "project": "degenfarm", "chain": "Solana", "tvlUsd": 900000000, "apyBase": 1500, "apyReward": 600 },
+  { "symbol": "USDC.E", "project": "aave-v3", "chain": "Arbitrum", "tvlUsd": 200000, "apyBase": 4.5, "apyReward": 0 },
+  { "symbol": "SMALL", "project": "newproto", "chain": "Base", "tvlUsd": 150000, "apyBase": 9.0, "apyReward": 0 },
+  { "symbol": "DUST", "project": "dustpool", "chain": "Solana", "tvlUsd": 50000, "apyBase": 12.0, "apyReward": 0 }
 ]

@@ -32,14 +32,20 @@ const https = require('https');
 const SITE_URL = 'https://www.defi.garden';
 const YIELDS_API = 'https://yields.llama.fi/pools';
 
-// --- Sanity rails & quality gate -------------------------------------------
-// Must stay in sync with app.js: DEFAULT_MIN_TVL (app.js:730) and
-// APY_SANITY_LIMIT (app.js:729), and with generate-sitemap.js's gate (013).
-// No shared import exists between these scripts.
-const DEFAULT_MIN_TVL = 10000000; // $10M floor
-const APY_SANITY_LIMIT = 1000;    // total APY above this may NEVER be shown
-const MIN_QUALIFYING_POOLS = 2;   // a token needs >=2 qualifying pools to earn a page
-const DEFAULT_LIMIT = 100;        // phase 1: top 100 tokens by TVL
+// --- Sanity rails & eligibility --------------------------------------------
+// APY_SANITY_LIMIT is a TRUST RAIL (mirrors app.js:729 / planner.js): a pool
+// whose total APY exceeds it may NEVER be shown or counted — untouched here.
+//
+// MIN_POOL_TVL is this SEO generator's OWN eligibility floor and DELIBERATELY
+// diverges from the app's DEFAULT_MIN_TVL ($10M, app.js:730) per human directive
+// 2026-07-11: the app's $10M floor governs what enters a savings PLAN (caution);
+// these static token pages exist to capture long-tail search traffic from newer
+// tokens, which a $10M floor + 2-pool minimum shut out. The pages still show
+// only real, non-anomalous pools — just down to a $100K floor, any count >= 1.
+const MIN_POOL_TVL = 100000;      // $100K eligibility floor for a page's pools
+const APY_SANITY_LIMIT = 1000;    // TRUST RAIL: total APY above this may NEVER be shown
+const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a page
+const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
 
 // Token symbol validity — mirrors generate-sitemap.js isValidToken.
@@ -52,7 +58,7 @@ function isAnomalousApy(pool) {
   return poolTotalApy(pool) > APY_SANITY_LIMIT;
 }
 function isQualifyingPool(pool) {
-  return (pool.tvlUsd || 0) >= DEFAULT_MIN_TVL && !isAnomalousApy(pool);
+  return (pool.tvlUsd || 0) >= MIN_POOL_TVL && !isAnomalousApy(pool);
 }
 function isValidToken(symbol) {
   if (!symbol) return false;
@@ -96,12 +102,13 @@ function tokenSlug(symbol) {
  * Anomalous pools never count toward the gate and never enter `pools`.
  */
 function rankTopTokens(pools, limit) {
-  const cap = limit || DEFAULT_LIMIT;
+  // cap: falsy/0/undefined = no cap (a page for every eligible token).
+  const cap = (limit == null ? DEFAULT_LIMIT : limit);
   const byToken = new Map(); // symbol -> { totalTvl, qualifyingCount, pools:[] }
 
   pools.forEach(p => {
     if (isAnomalousApy(p)) return;            // trust rail: never display/count anomalies
-    if ((p.tvlUsd || 0) < DEFAULT_MIN_TVL) return; // qualifying pools only
+    if ((p.tvlUsd || 0) < MIN_POOL_TVL) return; // eligibility floor
     tokenSymbols(p).forEach(sym => {
       if (!isValidToken(sym)) return;
       if (!byToken.has(sym)) byToken.set(sym, { totalTvl: 0, qualifyingCount: 0, pools: [] });
@@ -126,7 +133,7 @@ function rankTopTokens(pools, limit) {
   });
 
   records.sort((a, b) => b.totalTvl - a.totalTvl);
-  return records.slice(0, cap);
+  return (cap && cap > 0) ? records.slice(0, cap) : records;
 }
 
 /** Render a single token's static landing page as an HTML string. */
@@ -136,8 +143,9 @@ function renderTokenPage(rec) {
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}`;
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const title = `${sym} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`;
+  const poolWord = rec.qualifyingCount === 1 ? 'pool' : 'pools';
   const description =
-    `${rec.qualifyingCount} live ${sym} pools above the $10M TVL floor, up to ` +
+    `${rec.qualifyingCount} live ${sym} ${poolWord} above the $100K TVL floor, up to ` +
     `${formatApy(bestApy)} APY, across ${new Set(rec.pools.map(p => p.chain)).size} chains. ` +
     `Honest yields from DefiLlama data — no anomalous rates.`;
 
@@ -179,7 +187,7 @@ function renderTokenPage(rec) {
 </head>
 <body>
     <h1>${sym} DeFi Yields</h1>
-    <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live pools above the $10M TVL floor · ranked by TVL</p>
+    <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live ${poolWord} above the $100K TVL floor · ranked by TVL</p>
     <a class="cta" href="${appUrl}">See live ${sym} pools &rarr;</a>
     <div class="scroll">
     <table>
@@ -191,7 +199,7 @@ ${rows}
       </tbody>
     </table>
     </div>
-    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $10M TVL, anomalous rates excluded). Not financial advice — education only.</p>
+    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
     <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
 </body>
 </html>
@@ -255,5 +263,5 @@ if (require.main === module) {
 module.exports = {
   rankTopTokens, renderTokenPage, tokenSlug, isQualifyingPool, isAnomalousApy,
   isValidToken, poolTotalApy, formatUsd, formatApy,
-  DEFAULT_MIN_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
+  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
