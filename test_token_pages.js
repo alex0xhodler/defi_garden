@@ -201,4 +201,36 @@ test('empty ranked list still yields a well-formed (empty) urlset', () => {
   assert.strictEqual((xml.match(/<loc>/g) || []).length, 0);
 });
 
+console.log('039 — analytics bootstrap (previously zero token pages fired a trackable event)');
+test('renderAnalyticsBootstrap emits Mixpanel stub + analytics.js + trackPageView', () => {
+  const html = gen.renderAnalyticsBootstrap('/tokens/usdc', { page_type: 'token_landing', token: 'USDC', pool_count: 3 });
+  assert.ok(html.includes('mixpanel.init('), 'missing mixpanel.init');
+  assert.ok(html.includes('<script defer src="https://www.defi.garden/analytics.js"></script>'), 'missing analytics.js script tag');
+  assert.ok(html.includes('Analytics.trackPageView("/tokens/usdc"'), 'missing trackPageView call with correct path');
+  assert.ok(html.includes('"page_type":"token_landing"') && html.includes('"token":"USDC"') && html.includes('"pool_count":3'), 'missing/incorrect properties');
+});
+test('mixpanel stub regex literal survives untouched (/^\\/\\//)', () => {
+  const html = gen.renderAnalyticsBootstrap('/tokens/usdc', {});
+  assert.ok(html.includes('.match(/^\\/\\//)'.replace(/\\\\/g, '\\')), 'regex literal corrupted');
+});
+test('every generated token page wires the analytics bootstrap with its own slug/symbol/count', () => {
+  const big = gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked));
+  assert.ok(big.includes('Analytics.trackPageView("/tokens/big"'), 'BIG page missing its trackPageView call');
+  assert.ok(big.includes('"token":"BIG"'), 'BIG page missing token property');
+  assert.ok(big.includes(`"pool_count":${bySym['BIG'].qualifyingCount}`), 'BIG page pool_count mismatch');
+});
+test('analytics bootstrap sits inside <head>, before </head>, after the scoped <style> block', () => {
+  const big = gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked));
+  const styleEnd = big.indexOf('</style>');
+  const bootstrapIdx = big.indexOf('Analytics.trackPageView');
+  const headEnd = big.indexOf('</head>');
+  assert.ok(styleEnd < bootstrapIdx && bootstrapIdx < headEnd, 'analytics bootstrap misplaced relative to <style>/</head>');
+});
+test('pre-existing content (title/canonical/pool table/related nav) unchanged by this diff', () => {
+  const big = gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked));
+  assert.ok(big.includes('<title>BIG DeFi Yields'), 'title missing/changed');
+  assert.ok(big.includes('<link rel="canonical" href="https://www.defi.garden/tokens/big">'), 'canonical missing/changed');
+  assert.ok(/class="related"/.test(big), 'related nav missing');
+});
+
 console.log(`\n${passed} assertions passed`);
