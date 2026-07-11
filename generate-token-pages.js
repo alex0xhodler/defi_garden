@@ -122,6 +122,10 @@ function rankTopTokens(pools, limit) {
   const records = [];
   byToken.forEach((rec, symbol) => {
     if (rec.qualifyingCount < MIN_QUALIFYING_POOLS) return; // 013 gate: skip thin tokens
+    // Quality bar (030, human directive): only generate/index a token page if
+    // at least one qualifying pool has a real (non-zero) yield — an all-0%-APY
+    // "DeFi Yields" page is useless and reads as thin/low-quality to Google.
+    if (!rec.pools.some(p => poolTotalApy(p) > 0)) return;
     rec.pools.sort((a, b) => (b.tvlUsd || 0) - (a.tvlUsd || 0));
     records.push({
       symbol,
