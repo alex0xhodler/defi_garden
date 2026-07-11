@@ -21,4 +21,4 @@
 | 016 | Re-brand empty-state buttons to neumorphic tokens | 7.2 | SHIPPED (PR #97, merged 2026-07-11) | LOW | specs/016.md | 1 | — |
 | 017 | NL search: every advertised typing-example must parse (solana/base/kamino lenders/curve/convex) | 8.4 | superseded by 018 — fixtures passed, product failed | HIGH | specs/017.md | 1 | — |
 | 018 | NL search actually works (behavior on live data, Playwright drives the real UI) | 9.0 | SHIPPED (PR #99, merged 2026-07-11; measuring search_success/search_abandonment) | HIGH | specs/018.md | 3 | 2026-07-25 |
-| 019 | Pool-detail pages convert SEO landers toward the north star | 8.7 | IN_PROGRESS (2026-07-11) | HIGH | specs/019.md | 1 | — |
+| 019 | Pool-detail pages convert SEO landers toward the north star | 8.7 | SHIPPED (PR #101, merged 2026-07-11; measuring garden_cta click-through → plan_created) | HIGH | specs/019.md | 3 | 2026-07-25 |
