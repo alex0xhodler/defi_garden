@@ -210,28 +210,43 @@ function renderTokenPage(rec, related) {
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <!-- Reuse the app's design system: style.css defines the neumorphic tokens
+         (--color-*, --neuro-*) + the brand gradient body. The scoped block below
+         styles this page with those tokens only — no hardcoded colors/gradients. -->
+    <link rel="stylesheet" href="/style.css">
     <style>
-      :root { color-scheme: light dark; }
-      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 820px; margin: 0 auto; padding: 24px; line-height: 1.6; }
-      h1 { font-size: 1.6rem; margin-bottom: 4px; }
-      .sub { color: #64748b; margin-top: 0; }
-      table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-      th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e2e8f0; }
-      td.num, th.num { text-align: right; }
-      .cta { display: inline-block; margin: 12px 0 24px; padding: 12px 20px; border: 1px solid #3b82f6; border-radius: 10px; color: #3b82f6; text-decoration: none; font-weight: 600; }
-      .intro { color: #334155; margin: 4px 0 16px; }
-      .related { margin: 28px 0 8px; }
-      .related h2 { font-size: 1rem; margin-bottom: 8px; }
-      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 6px 12px; border: 1px solid #cbd5e1; border-radius: 8px; color: #3b82f6; text-decoration: none; font-size: 0.9rem; }
-      .note { color: #64748b; font-size: 0.9rem; }
+      .tp-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
+      .tp-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
+      .tp-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
+      .tp-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
+      .tp-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 8px 18px; margin: 20px 0; }
+      .tp-card table { width: 100%; border-collapse: collapse; }
+      .tp-card th, .tp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
+      .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
+      .tp-card td.num, .tp-card th.num { text-align: right; }
+      .tp-card tr:last-child td { border-bottom: none; }
+      .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
+      .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
+      .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+      .tp-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+      .related { margin: 30px 0 8px; }
+      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
+      .related-links a:hover { box-shadow: var(--neuro-shadow-flat); }
+      .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
+      .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+      .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
       .scroll { overflow-x: auto; }
+      @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
 </head>
 <body>
+  <main class="tp-wrap">
     <h1>${sym} DeFi Yields</h1>
     <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live ${poolWord} above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">${intro}</p>
-    <a class="cta" href="${appUrl}">See live ${sym} pools &rarr;</a>
+    <a class="tp-cta" href="${appUrl}">See live ${sym} pools &rarr;</a>
+    <div class="tp-card">
     <div class="scroll">
     <table>
       <thead>
@@ -242,8 +257,10 @@ ${rows}
       </tbody>
     </table>
     </div>
+    </div>
 ${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
     <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
+  </main>
 </body>
 </html>
 `;
