@@ -1589,7 +1589,7 @@
       });
       var tweetLabels = joinBundle(mixLabels2) || goalLabel(t, goal);
       var tweetText = t('shareTweet', tweetLabels);
-      var tweetUrl = 'https://defi.garden/referral=' + referralHandle;
+      var tweetUrl = 'https://www.defi.garden/?ref=' + encodeURIComponent(referralHandle);
       window.open(
         'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweetText) +
         '&url=' + encodeURIComponent(tweetUrl),
