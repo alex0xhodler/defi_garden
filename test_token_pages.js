@@ -115,4 +115,39 @@ test('HTML is escaped (malicious project name cannot inject markup)', () => {
   assert.ok(evil.includes('&lt;script&gt;'), 'expected escaped project name');
 });
 
+console.log('023 — content depth + internal linking');
+test('renders a unique per-token intro from real data (top pool + totals)', () => {
+  const big = gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked));
+  assert.ok(/class="intro"/.test(big), 'no intro block');
+  assert.ok(big.includes("BIG's largest live pool is aave-v3 on Ethereum"), 'intro not token-specific');
+});
+test('intro differs per token (dataset content, not a fixed template)', () => {
+  const a = gen.renderTokenPage(bySym['BIG'], []);
+  const b = gen.renderTokenPage(bySym['MID'], []);
+  const introA = a.match(/<p class="intro">([^<]*)</)[1];
+  const introB = b.match(/<p class="intro">([^<]*)</)[1];
+  assert.notStrictEqual(introA, introB, 'intros are identical across tokens');
+});
+test('relatedFor prefers co-chain tokens, excludes self, is slug-linkable', () => {
+  const rel = gen.relatedFor(bySym['BIG'], ranked);
+  assert.ok(rel.length >= 1, 'no related tokens');
+  assert.ok(!rel.some(r => r.symbol === 'BIG'), 'self appeared in related');
+  // BIG shares Ethereum/Base with MID(Ethereum) and ANOM(Ethereum) -> co-chain first
+  assert.strictEqual(rel[0].symbol, 'MID', 'expected a co-chain token first');
+});
+test('page renders a Related tokens nav with internal /tokens/ links', () => {
+  const big = gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked));
+  assert.ok(/class="related"/.test(big), 'no related nav');
+  assert.ok(big.includes('href="https://www.defi.garden/tokens/mid"'), 'no internal token link');
+});
+test('no self-link inside the related nav (canonical self-ref is fine)', () => {
+  const big = gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked));
+  const nav = big.match(/<nav class="related"[\s\S]*?<\/nav>/)[0];
+  assert.ok(!nav.includes('/tokens/big"'), 'related nav links back to its own page');
+});
+test('related nav omitted when there are no related tokens', () => {
+  const solo = gen.renderTokenPage(bySym['BIG'], []);
+  assert.ok(!/class="related"/.test(solo), 'related nav should be absent with no related tokens');
+});
+
 console.log(`\n${passed} assertions passed`);

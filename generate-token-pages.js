@@ -136,18 +136,56 @@ function rankTopTokens(pools, limit) {
   return (cap && cap > 0) ? records.slice(0, cap) : records;
 }
 
+/**
+ * Related tokens for internal linking (023): up to `n` other ranked tokens,
+ * co-chain ones first (share a chain with `rec`), then top-TVL others. `all`
+ * arrives TVL-desc so ordering is preserved. Internal links keep pages out of
+ * the orphan set (2026 SEO: unlinked pages don't get indexed).
+ */
+function relatedFor(rec, all, n) {
+  const cap = n || 6;
+  const chains = new Set(rec.pools.map(p => p.chain));
+  const others = (all || []).filter(r => r.symbol !== rec.symbol);
+  const coChain = others.filter(r => r.pools.some(p => chains.has(p.chain)));
+  const coSet = new Set(coChain);
+  const rest = others.filter(r => !coSet.has(r));
+  return coChain.concat(rest).slice(0, cap).map(r => ({ symbol: r.symbol, slug: r.slug }));
+}
+
 /** Render a single token's static landing page as an HTML string. */
-function renderTokenPage(rec) {
+function renderTokenPage(rec, related) {
   const sym = escapeHtml(rec.symbol);
   const pageUrl = `${SITE_URL}/tokens/${rec.slug}`;
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}`;
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
+  const chainCount = new Set(rec.pools.map(p => p.chain)).size;
   const title = `${sym} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`;
   const poolWord = rec.qualifyingCount === 1 ? 'pool' : 'pools';
+  const chainWord = chainCount === 1 ? 'chain' : 'chains';
   const description =
     `${rec.qualifyingCount} live ${sym} ${poolWord} above the $100K TVL floor, up to ` +
-    `${formatApy(bestApy)} APY, across ${new Set(rec.pools.map(p => p.chain)).size} chains. ` +
+    `${formatApy(bestApy)} APY, across ${chainCount} ${chainWord}. ` +
     `Honest yields from DefiLlama data — no anomalous rates.`;
+
+  // Unique per-token intro from real data (023: content depth — this reads
+  // token-specifically even with the symbol removed, so it's not thin).
+  const top = rec.pools[0];
+  const intro =
+    `${sym}'s largest live pool is ${escapeHtml(top.project || '—')} on ${escapeHtml(top.chain || '—')} ` +
+    `at ${formatApy(poolTotalApy(top))} (${formatUsd(top.tvlUsd)} TVL). ` +
+    `${rec.qualifyingCount} ${sym} ${poolWord} across ${chainCount} ${chainWord} clear ` +
+    `DeFi Garden's $100K TVL floor, ${formatUsd(rec.totalTvl)} in total.`;
+
+  const relatedLinks = (related || []).map(r =>
+    `<a href="${SITE_URL}/tokens/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
+  const relatedBlock = relatedLinks
+    ? `    <nav class="related" aria-label="Related tokens">
+      <h2>Related tokens</h2>
+      <div class="related-links">
+        ${relatedLinks}
+      </div>
+    </nav>\n`
+    : '';
 
   const rows = rec.pools.map(p => `        <tr>
           <td>${escapeHtml(p.project || '—')}</td>
@@ -181,6 +219,10 @@ function renderTokenPage(rec) {
       th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e2e8f0; }
       td.num, th.num { text-align: right; }
       .cta { display: inline-block; margin: 12px 0 24px; padding: 12px 20px; border: 1px solid #3b82f6; border-radius: 10px; color: #3b82f6; text-decoration: none; font-weight: 600; }
+      .intro { color: #334155; margin: 4px 0 16px; }
+      .related { margin: 28px 0 8px; }
+      .related h2 { font-size: 1rem; margin-bottom: 8px; }
+      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 6px 12px; border: 1px solid #cbd5e1; border-radius: 8px; color: #3b82f6; text-decoration: none; font-size: 0.9rem; }
       .note { color: #64748b; font-size: 0.9rem; }
       .scroll { overflow-x: auto; }
     </style>
@@ -188,6 +230,7 @@ function renderTokenPage(rec) {
 <body>
     <h1>${sym} DeFi Yields</h1>
     <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live ${poolWord} above the $100K TVL floor · ranked by TVL</p>
+    <p class="intro">${intro}</p>
     <a class="cta" href="${appUrl}">See live ${sym} pools &rarr;</a>
     <div class="scroll">
     <table>
@@ -199,7 +242,7 @@ ${rows}
       </tbody>
     </table>
     </div>
-    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
+${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
     <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
 </body>
 </html>
@@ -251,7 +294,7 @@ async function main() {
   const outDir = path.resolve(args.out);
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   ranked.forEach(rec => {
-    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec));
+    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked)));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 }
@@ -261,7 +304,7 @@ if (require.main === module) {
 }
 
 module.exports = {
-  rankTopTokens, renderTokenPage, tokenSlug, isQualifyingPool, isAnomalousApy,
+  rankTopTokens, renderTokenPage, relatedFor, tokenSlug, isQualifyingPool, isAnomalousApy,
   isValidToken, poolTotalApy, formatUsd, formatApy,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
