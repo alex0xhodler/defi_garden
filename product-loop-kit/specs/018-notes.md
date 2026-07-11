@@ -1,5 +1,30 @@
 # Notes: 018 — NL search actually works
 
+## Verifier round 1: FAIL, fixed
+
+The verifier subagent independently reproduced the Playwright run (green,
+twice) but caught a real regression by reading the actual diff rather than
+trusting this file's claims: the Method 2 protocol forward-match fix
+(then at app.js ~421) removed word-boundary checking *entirely* instead of
+narrowing it. That reopened false-positive substring matches for short
+single-word static-fallback aliases — `comp` (Compound), `bal` (Balancer),
+`joe` (Trader Joe) — so plausible retail-saver queries like "compare rates"
+or "global yields" silently resolved to one unrelated protocol's pools
+instead of no match. Confirmed by the verifier via direct before/after
+execution of the extracted function body, independent of any test file.
+
+Fixed by keeping a strict, both-ends `\bword\b` boundary for single-word
+aliases (restores original safety for `comp`/`bal`/`joe`/etc.), and only
+relaxing the *trailing* boundary for multi-word aliases (where the
+fragment-truncation problem — "kamino-lend" → "Kamino lend" — actually
+occurs; the first word of a multi-word phrase already carries enough
+specificity to keep this safe). Verified the fix against both the
+regression queries and all 14 canonical queries via a fast node-only
+harness before re-running the full Playwright suite. Added a 5-query
+negative regression set to `test_search.js` (`NEGATIVE_QUERIES`) asserting
+these queries produce no results section at all, so this exact bug class
+has direct test coverage and can't silently regress again.
+
 ## Prior attempt on this item (branch `claude/loop-018`, unmerged)
 
 A previous build session already picked up 018, hit the identical network

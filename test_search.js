@@ -98,6 +98,21 @@ const QUERIES = [
   { q: 'usdc on base', minCards: 1, context: ['base'], symbol: 'usdc' }
 ];
 
+// --- Negative regression set --------------------------------------------
+// A prior version of the Method 2 protocol-forward-match fix dropped word-
+// boundary checking entirely instead of narrowing it, so short static-
+// fallback aliases ("comp", "bal", "joe") false-matched inside unrelated
+// words: "compare" -> Compound, "global" -> Balancer, "joel" -> Trader Joe.
+// These plausible retail-saver queries carry no protocol/chain/token intent
+// and must not resolve to a narrow, wrong result set.
+const NEGATIVE_QUERIES = [
+  'compare rates',
+  'global yields',
+  'joel wants some yield',
+  'comparison of yields',
+  'balance my portfolio'
+];
+
 let passed = 0;
 async function test(name, fn) {
   try { await fn(); passed++; console.log('  ✓ ' + name); }
@@ -233,6 +248,31 @@ async function main() {
       });
     }
 
+    for (const q of NEGATIVE_QUERIES) {
+      await test(`"${q}" does not false-match a protocol`, async () => {
+        await page.goto(`http://localhost:${PORT}/home.html?app=analytics`, { waitUntil: 'load', timeout: 20000 });
+        await page.waitForSelector('.search-input', { timeout: 15000 });
+        await page.waitForTimeout(1200);
+
+        const input = page.locator('.search-input');
+        await input.click();
+        await input.fill(q);
+        await input.press('Enter');
+        await page.waitForTimeout(1500);
+
+        // No token/chain/protocol intent in these queries means no display
+        // mode should activate — the results section stays unmounted, same
+        // as today's behavior for any non-matching query. If it renders
+        // pool cards, that's a false protocol match wrongly narrowing the
+        // grid instead of leaving the user's typed text alone.
+        const resultsSection = await page.locator('.results-section').count();
+        if (resultsSection > 0) {
+          const contextTexts = await page.locator('.pool-context-inline').allTextContents();
+          throw new Error(`expected no results section for a non-matching query, got cards: ${JSON.stringify(contextTexts)}`);
+        }
+      });
+    }
+
     if (pageErrors.length) {
       console.error('page errors during run:\n' + pageErrors.join('\n'));
       process.exitCode = 1;
@@ -242,7 +282,8 @@ async function main() {
     await browser.close();
     server.close();
   }
-  console.log(passed + '/' + QUERIES.length + ' search behavior assertions passed');
+  const total = QUERIES.length + NEGATIVE_QUERIES.length;
+  console.log(passed + '/' + total + ' search behavior assertions passed');
 }
 
 main().catch((err) => {

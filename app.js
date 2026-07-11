@@ -409,16 +409,30 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
 
   // Method 2: Direct protocol name detection (fallback)
   if (protocols.length === 0) {
+    const escapeRegex = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
     for (const [friendlyName, aliases] of Object.entries(protocolAliases)) {
       const aliasMatch = aliases.find(alias => {
         // Skip if the alias is likely a chain name
         if (chainNames.includes(alias)) return false;
 
-        // Forward: the alias appears in the query. Plain substring (no
-        // trailing word-boundary) on purpose — live friendly names derived
-        // from a slug can be word-fragments (e.g. "kamino-lend" ->
-        // "Kamino lend"), so "kamino lending" must still match "kamino lend".
-        if (lowerQuery.includes(alias)) return true;
+        const isMultiWord = /\s/.test(alias);
+
+        // Forward: the alias appears in the query. Single-word aliases are
+        // matched with a strict, both-ends word boundary — short static
+        // fallback abbreviations ("comp", "bal", "joe") would otherwise
+        // false-match substrings of unrelated words ("compare", "global",
+        // "joel"). Multi-word aliases only need a LEADING boundary: live
+        // friendly names derived from a slug can end in a word-fragment
+        // (e.g. "kamino-lend" -> "Kamino lend"), so "kamino lending" must
+        // still match the "kamino lend" prefix — the fragment only occurs
+        // in a phrase's last word, and the earlier word(s) already carry
+        // enough specificity to keep this safe.
+        const forwardRegex = new RegExp(
+          isMultiWord ? `\\b${escapeRegex(alias)}` : `\\b${escapeRegex(alias)}\\b`,
+          'i'
+        );
+        if (forwardRegex.test(lowerQuery)) return true;
 
         // Reverse: a bare protocol word ("kamino") is one of the words
         // making up a longer multi-word friendly name ("kamino lend").
