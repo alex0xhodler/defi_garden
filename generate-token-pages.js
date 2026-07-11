@@ -266,6 +266,16 @@ ${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi 
 `;
 }
 
+/** Render a sitemap (urlset) of all generated /tokens/<slug> URLs (021). */
+function renderTokenSitemap(ranked, lastmod) {
+  const urls = (ranked || []).map(rec =>
+    `  <url>\n    <loc>${SITE_URL}/tokens/${rec.slug}</loc>\n` +
+    (lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '') +
+    `    <changefreq>daily</changefreq>\n  </url>`).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+}
+
 // --- IO layer (only runs as a script) --------------------------------------
 function fetchPoolData() {
   return new Promise((resolve, reject) => {
@@ -283,11 +293,13 @@ function fetchPoolData() {
 }
 
 function parseArgs(argv) {
-  const args = { fixture: process.env.POOLS_FIXTURE || null, out: 'tokens', limit: DEFAULT_LIMIT };
+  const args = { fixture: process.env.POOLS_FIXTURE || null, out: 'tokens', limit: DEFAULT_LIMIT, sitemap: 'sitemap-token-pages.xml' };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--fixture') args.fixture = argv[++i];
     else if (argv[i] === '--out') args.out = argv[++i];
     else if (argv[i] === '--limit') args.limit = parseInt(argv[++i], 10) || DEFAULT_LIMIT;
+    else if (argv[i] === '--sitemap') args.sitemap = argv[++i];
+    else if (argv[i] === '--no-sitemap') args.sitemap = null;
   }
   return args;
 }
@@ -314,6 +326,12 @@ async function main() {
     fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked)));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
+
+  if (args.sitemap) {
+    const lastmod = new Date().toISOString().slice(0, 10);
+    fs.writeFileSync(path.resolve(args.sitemap), renderTokenSitemap(ranked, lastmod));
+    console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length} URLs)`);
+  }
 }
 
 if (require.main === module) {
@@ -321,7 +339,7 @@ if (require.main === module) {
 }
 
 module.exports = {
-  rankTopTokens, renderTokenPage, relatedFor, tokenSlug, isQualifyingPool, isAnomalousApy,
+  rankTopTokens, renderTokenPage, relatedFor, renderTokenSitemap, tokenSlug, isQualifyingPool, isAnomalousApy,
   isValidToken, poolTotalApy, formatUsd, formatApy,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };

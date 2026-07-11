@@ -9,6 +9,7 @@ on:
     branches: [ main ]
     paths:
       - 'generate-sitemap.js'
+      - 'generate-token-pages.js'
       - 'package.json'
 
 jobs:
@@ -34,6 +35,12 @@ jobs:
     - name: Install dependencies
       run: npm install --only=production
     
+    - name: Generate token landing pages
+      run: |
+        echo "🌿 Generating static /tokens/ landing pages + sitemap..."
+        node generate-token-pages.js --out tokens --sitemap sitemap-token-pages.xml
+        echo "Pages: $(ls tokens | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-token-pages.xml)"
+
     - name: Generate sitemap
       run: |
         echo "🚀 Generating fresh sitemap..."
@@ -82,7 +89,7 @@ jobs:
         git config --local user.email "alex@0xhodler.nl"
         git config --local user.name "alex0xhodler"
         
-        git add sitemap.xml robots.txt llms.txt llms-full.txt
+        git add sitemap.xml sitemap-token-pages.xml tokens robots.txt llms.txt llms-full.txt
         git commit -m "chore: update sitemap and LLM files with latest yields
         
         - Regenerated sitemap.xml with $(grep -c '<url>' sitemap.xml) URLs

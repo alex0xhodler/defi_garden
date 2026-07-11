@@ -156,4 +156,23 @@ test('related nav omitted when there are no related tokens', () => {
   assert.ok(!/class="related"/.test(solo), 'related nav should be absent with no related tokens');
 });
 
+console.log('021 — token sitemap (renderTokenSitemap)');
+test('emits a valid urlset with one <loc> per ranked token', () => {
+  const xml = gen.renderTokenSitemap(ranked, '2026-07-11');
+  assert.ok(xml.startsWith('<?xml'), 'missing xml decl');
+  assert.ok(xml.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'), 'missing urlset');
+  const locs = (xml.match(/<loc>/g) || []).length;
+  assert.strictEqual(locs, ranked.length, 'one loc per token');
+});
+test('sitemap URLs point at the static /tokens/<slug> pages', () => {
+  const xml = gen.renderTokenSitemap(ranked, '2026-07-11');
+  assert.ok(xml.includes('<loc>https://www.defi.garden/tokens/big</loc>'), 'missing token URL');
+  assert.ok(xml.includes('<lastmod>2026-07-11</lastmod>'), 'missing lastmod');
+});
+test('empty ranked list still yields a well-formed (empty) urlset', () => {
+  const xml = gen.renderTokenSitemap([], '2026-07-11');
+  assert.ok(xml.includes('<urlset') && xml.includes('</urlset>'), 'not well-formed');
+  assert.strictEqual((xml.match(/<loc>/g) || []).length, 0);
+});
+
 console.log(`\n${passed} assertions passed`);
