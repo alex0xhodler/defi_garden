@@ -2574,25 +2574,26 @@
     );
 
     // Share prompt — the ONLY share surface at the bloom moment (spec 005;
-    // originated as an additive card in spec 004). Primary button is the
-    // image-first doShare flow, which now also carries the plan URL with it
-    // (see renderShareImage's completion path). The link action (native
-    // share or copy) is a demoted text link, not a button (spec 008) —
-    // same doNativeShare/doCopyLink handlers, unchanged.
+    // originated as an additive card in spec 004). Reversed by spec 024
+    // (standing decision 2026-07-11): the working link is the primary
+    // artifact — it's the one that reproduces the sender's exact garden on
+    // open and can close the share_link_opened -> plan_created loop. Primary
+    // button triggers the native share sheet (doNativeShare) where available,
+    // else clipboard copy (doCopyLink); the image (doShare) is demoted to a
+    // text link. Handlers themselves are unchanged from spec 008.
+    var linkPrimaryLabel = navigator.share
+      ? t('shareLinkPrimaryNative')
+      : (copySuccess ? ('✓ ' + t('shareLinkCopied')) : t('shareLinkPrimaryCta'));
+    var linkPrimaryHandler = navigator.share ? doNativeShare : doCopyLink;
     var sharePromptElement = e('div', { className: 'gp-share-prompt gp-animate-in' },
       e('p', { className: 'gp-share-prompt-text' }, t('sharePromptHeadline')),
       e('button', {
-        type: 'button', className: 'gp-share-btn gp-share-prompt-btn', onClick: doShare, disabled: isSharing
+        type: 'button', className: 'gp-share-btn gp-share-prompt-btn', onClick: linkPrimaryHandler
+      }, linkPrimaryLabel),
+      e('button', {
+        type: 'button', className: 'gp-share-textlink', onClick: doShare, disabled: isSharing
       },
-        isSharing ? t('sharePrepping') : (imageShareConfirm ? ('✓ ' + t('shareImageSaved')) : ('📸 ' + t('share')))
-      ),
-      navigator.share
-        ? e('button', {
-            type: 'button', className: 'gp-share-textlink', onClick: doNativeShare
-          }, t('shareTextLinkNative'))
-        : e('button', {
-            type: 'button', className: 'gp-share-textlink', onClick: doCopyLink
-          }, copySuccess ? ('✓ ' + t('shareLinkCopied')) : t('shareTextLinkCopy'))
+        isSharing ? t('sharePrepping') : (imageShareConfirm ? ('✓ ' + t('shareImageSaved')) : t('shareTextLinkImage')))
     );
 
     if (archetype === 'subscription') {
