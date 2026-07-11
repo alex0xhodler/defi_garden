@@ -30,7 +30,7 @@ const translations = {
     baseApyBreakdown: (apy) => `${apy}% Base`,
     rewardApyBreakdown: (apy) => `+ ${apy}% Rewards`,
     opensProtocol: "Opens protocol • Wallet required",
-    plannerCta: "Plan my savings →",
+    gardenThisPoolCta: "Garden this pool →",
     plannerCtaHint: "No wallet needed",
     protocol: "Protocol↗",
     calculateYield: "View & calculate →",
@@ -80,7 +80,17 @@ const translations = {
     verified: "✓ Verified",
     onProtocolChain: (protocol, chain, hasUrl) => `on ${protocol} • ${chain}${hasUrl ? ' ↗' : ''}`,
     tvl: "TVL",
-    
+    apyMean30d: "30d Mean APY",
+    exposure: "Exposure",
+    ilRisk: "IL Risk",
+    yes: "Yes",
+    no: "No",
+
+    // Honest mini-projection (pool-detail)
+    projectionHeading: "The Long Game",
+    projectionBody: (monthly, years, amount) => `$${Number(monthly || 0).toLocaleString('en-US')}/mo in this pool grows to ~$${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })} in ${years}y at current rates.`,
+    poolDegenHaircutNote: (headline) => `Projected at ⅓ haircut (${headline} headline) — farm rates decay. Active management required.`,
+
     // Calculator disclaimers
     calcDisclaimer: "Estimates based on current rates — yields change constantly. Not financial advice.",
     calcAnomalyWarning: "⚠ This rate is anomalous and almost certainly unsustainable.",
@@ -516,7 +526,7 @@ const translations = {
     baseApyBreakdown: (apy) => `${apy}% 기본`,
     rewardApyBreakdown: (apy) => `+ ${apy}% 보상`,
     opensProtocol: "프로토콜 열기 • 지갑 필요",
-    plannerCta: "저축 플랜 만들기 →",
+    gardenThisPoolCta: "이 풀 가든하기 →",
     plannerCtaHint: "지갑 불필요",
     protocol: "프로토콜↗",
     calculateYield: "보기 및 계산 →",
@@ -566,7 +576,17 @@ const translations = {
     verified: "✓ 인증됨",
     onProtocolChain: (protocol, chain, hasUrl) => `${protocol}에서 • ${chain}${hasUrl ? ' ↗' : ''}`,
     tvl: "TVL",
-    
+    apyMean30d: "30일 평균 APY",
+    exposure: "익스포저",
+    ilRisk: "비영구적 손실 위험",
+    yes: "있음",
+    no: "없음",
+
+    // Honest mini-projection (pool-detail)
+    projectionHeading: "장기적으로 보면",
+    projectionBody: (monthly, years, amount) => `이 풀에 월 ${formatKoreanCurrency(monthly)}을 넣으면 ${years}년 후 현재 수익률 기준 약 ${formatKoreanCurrency(Number(amount || 0))}이 됩니다.`,
+    poolDegenHaircutNote: (headline) => `⅓ 할인 적용 (헤드라인 ${headline}) — 팜 수익률은 빠르게 감소. 적극적 관리 필요.`,
+
     // Calculator disclaimers
     calcDisclaimer: "현재 수익률 기준 추정치이며 수시로 변동됩니다. 투자 조언이 아닙니다.",
     calcAnomalyWarning: "⚠ 이 수익률은 비정상적이며 거의 지속 불가능합니다.",
