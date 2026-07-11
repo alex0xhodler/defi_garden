@@ -49,6 +49,19 @@
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
+    <script type="text/javascript">
+        window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
+        (function (f, b) { if (!b.__SV) { var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) { function g(a, d) { var b = d.split("."); 2 == b.length && ((a = a[b[0]]), (d = b[1])); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))); }; } var a = b; "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel"); a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d; }; a.people.toString = function () { return a.toString(1) + ".people (stub)"; }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" "); for (h = 0; h < i.length; h++) g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]); }; } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++) b(j[c]); return d; }; b._i.push([e, f, c]); }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g); } })(document, window.mixpanel || []);
+        mixpanel.init("f22917d9da245858a6789c9e5d412c36", { debug: false, track_pageview: false, persistence: "localStorage", api_host: "https://mp.defi.garden" });
+    </script>
+    <script defer src="https://www.defi.garden/analytics.js"></script>
+    <script>
+      window.addEventListener('load', function () {
+        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+          Analytics.trackPageView("/tokens/reth", {"page_type":"token_landing","token":"RETH","pool_count":23});
+        }
+      });
+    </script>
 </head>
 <body>
   <main class="tp-wrap">
@@ -73,18 +86,18 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f1a22245-a1f1-4389-8ff2-dde4914b272d">aave-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$73.18M</td>
+          <td class="num">$73.23M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5f79c82d-8722-4464-b91b-f07b96fec13c">liquity-v2 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$12.19M</td>
+          <td class="num">$12.2M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">2.19%</td>
+          <td class="num">2.21%</td>
           <td class="num">$10.07M</td>
         </tr>
         <tr>
@@ -97,7 +110,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600">balancer-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">6.13%</td>
-          <td class="num">$4.47M</td>
+          <td class="num">$4.49M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d4cdd2fb-54bd-40fe-8093-e691ea0b291a">aave-v3 &rarr;</a></td>

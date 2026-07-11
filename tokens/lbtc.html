@@ -49,12 +49,25 @@
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
+    <script type="text/javascript">
+        window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
+        (function (f, b) { if (!b.__SV) { var e, g, i, h; window.mixpanel = b; b._i = []; b.init = function (e, f, c) { function g(a, d) { var b = d.split("."); 2 == b.length && ((a = a[b[0]]), (d = b[1])); a[d] = function () { a.push([d].concat(Array.prototype.slice.call(arguments, 0))); }; } var a = b; "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel"); a.people = a.people || []; a.toString = function (a) { var d = "mixpanel"; "mixpanel" !== c && (d += "." + c); a || (d += " (stub)"); return d; }; a.people.toString = function () { return a.toString(1) + ".people (stub)"; }; i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" "); for (h = 0; h < i.length; h++) g(a, i[h]); var j = "set set_once union unset remove delete".split(" "); a.get_group = function () { function b(c) { d[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); a.push([e, call2]); }; } for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++) b(j[c]); return d; }; b._i.push([e, f, c]); }; b.__SV = 1.2; e = f.createElement("script"); e.type = "text/javascript"; e.async = !0; e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; g = f.getElementsByTagName("script")[0]; g.parentNode.insertBefore(e, g); } })(document, window.mixpanel || []);
+        mixpanel.init("f22917d9da245858a6789c9e5d412c36", { debug: false, track_pageview: false, persistence: "localStorage", api_host: "https://mp.defi.garden" });
+    </script>
+    <script defer src="https://www.defi.garden/analytics.js"></script>
+    <script>
+      window.addEventListener('load', function () {
+        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+          Analytics.trackPageView("/tokens/lbtc", {"page_type":"token_landing","token":"LBTC","pool_count":27});
+        }
+      });
+    </script>
 </head>
 <body>
   <main class="tp-wrap">
     <h1>LBTC DeFi Yields</h1>
     <p class="sub">27 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">LBTC's largest live pool is lombard-lbtc on Ethereum at 0.33% ($597.03M TVL). 27 LBTC pools across 2 chains clear DeFi Garden's $100K TVL floor, $1.03B in total.</p>
+    <p class="intro">LBTC's largest live pool is lombard-lbtc on Ethereum at 0.33% ($597.89M TVL). 27 LBTC pools across 2 chains clear DeFi Garden's $100K TVL floor, $1.03B in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=LBTC">See live LBTC pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -67,31 +80,31 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999">lombard-lbtc &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.33%</td>
-          <td class="num">$597.03M</td>
+          <td class="num">$597.89M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ff17b423-bccc-4d12-9a72-68bde120ac62">sparklend &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$214.12M</td>
+          <td class="num">$214.43M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b7444791-ecab-4bc4-85dc-9eb351064d98">aave-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$128.65M</td>
+          <td class="num">$128.84M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=75effcdf-6c7a-4c6a-a7c5-855f95be2cba">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$63.74M</td>
+          <td class="num">$63.83M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2fa87ded-b27a-4348-b852-e64acd817b79">uniswap-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$5.98M</td>
+          <td class="num">$5.99M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8">aerodrome-slipstream &rarr;</a></td>
@@ -103,7 +116,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e">moonwell-lending &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.24%</td>
-          <td class="num">$3.25M</td>
+          <td class="num">$3.26M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=807f07ed-801c-4d65-9596-687aa94ac8a0">morpho-blue &rarr;</a></td>
