@@ -97,5 +97,86 @@
     "apyBase": 0.003,
     "apyReward": 0,
     "pool": "tiny-somelend-y"
+  },
+  {
+    "symbol": "TRUNC",
+    "project": "zpool0",
+    "chain": "Ethereum",
+    "tvlUsd": 20000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z0"
+  },
+  {
+    "symbol": "TRUNC",
+    "project": "zpool1",
+    "chain": "Ethereum",
+    "tvlUsd": 19000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z1"
+  },
+  {
+    "symbol": "TRUNC",
+    "project": "zpool2",
+    "chain": "Ethereum",
+    "tvlUsd": 18000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z2"
+  },
+  {
+    "symbol": "TRUNC",
+    "project": "zpool3",
+    "chain": "Ethereum",
+    "tvlUsd": 17000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z3"
+  },
+  {
+    "symbol": "TRUNC",
+    "project": "zpool4",
+    "chain": "Ethereum",
+    "tvlUsd": 16000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z4"
+  },
+  {
+    "symbol": "TRUNC",
+    "project": "zpool5",
+    "chain": "Ethereum",
+    "tvlUsd": 15000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z5"
+  },
+  {
+    "symbol": "TRUNC",
+    "project": "zpool6",
+    "chain": "Ethereum",
+    "tvlUsd": 14000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z6"
+  },
+  {
+    "symbol": "TRUNC",
+    "project": "zpool7",
+    "chain": "Ethereum",
+    "tvlUsd": 13000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z7"
+  },
+  {
+    "symbol": "TRUNC",
+    "project": "yieldpool",
+    "chain": "Base",
+    "tvlUsd": 200000,
+    "apyBase": 5.0,
+    "apyReward": 0,
+    "pool": "trunc-yield"
   }
 ]
