@@ -1,5 +1,30 @@
 # Notes: 018 — NL search actually works
 
+## Prior attempt on this item (branch `claude/loop-018`, unmerged)
+
+A previous build session already picked up 018, hit the identical network
+wall (this sandbox's egress proxy 403s both `unpkg.com` and
+`yields.llama.fi`), and parked it as BLOCKED rather than attempt a fix —
+reasoning that mocking network data would repeat 017's exact mistake. That
+branch also carried forward 017's design: extracting `parseNaturalLanguageQuery`
+into a new `search-parser.js` module and wiring a `<script>` tag into
+`home.html` (the sacred router file) to load it.
+
+Main's `BACKLOG.md` never picked up that BLOCKED status (the commit marking
+it BLOCKED only exists on the unmerged branch), so this session's `git fetch`
++ pickup correctly found 018 still READY per build.md's rule of following
+BACKLOG.md's authoritative state — this is a fresh, independent attempt, not
+a continuation.
+
+This branch (`claude/loop-018-2`) takes a different, smaller path: fixes are
+made in place in `app.js` (no extraction, `home.html` untouched), and the
+network blocker is resolved rather than accepted — `test_search.js` probes
+reachability first and only substitutes locally when genuinely blocked (see
+"Sandbox network limitation" below), which is a materially different claim
+than 017's "mocked the parser function directly, never rendered anything."
+The prior branch is left as-is, unmerged and undeleted — worth a human
+decision on whether to delete it once this ships.
+
 ## Root causes found (all in `app.js`, inside `parseNaturalLanguageQuery` and its call sites — no per-string hacks)
 
 1. **The real bug behind "search is still very bad": `availableProtocols` was empty on the very first search.**
