@@ -180,14 +180,16 @@ function PoolDetail({
   const gardenPersona = riskAssessment.score <= 25 ? 'stable' : riskAssessment.score <= 50 ? 'rwa' : 'degen';
   const isAnomalous = totalApy > APY_SANITY_LIMIT_LOCAL;
   const applyDegenHaircut = gardenPersona === 'degen';
-  const PROJECTION_MONTHLY = 200;
   const PROJECTION_YEARS = 5;
   const projectionApy = applyDegenHaircut ? totalApy / 3 : totalApy;
-  const projectionAmount = _futureValue(PROJECTION_MONTHLY, projectionApy, PROJECTION_YEARS);
-  // Prefill the planner horizon (years) too, so the recipient lands on exactly
-  // this pool's projection (025). The deep link never carries the pool's APY —
-  // the planner computes from its own blended, sanity-capped rate.
-  const gardenThisPoolHref = `plan.html?goal=retirement&pace=${gardenPersona}&monthly=${PROJECTION_MONTHLY}&years=${PROJECTION_YEARS}`;
+  // Projection is tied to the calculator's investment amount (lump sum, default
+  // $1,000) so the number below AND the CTA react to what the user selects.
+  // Lump-sum compound growth: principal * (1 + r)^years.
+  const projectionAmount = investmentAmount * Math.pow(1 + projectionApy / 100, PROJECTION_YEARS);
+  // Prefill the planner with the SAME lump sum + horizon so it lands on exactly
+  // this projection (as capital, matching the calculator). The deep link never
+  // carries the pool's APY — the planner computes from its own sanity-capped rate.
+  const gardenThisPoolHref = `plan.html?goal=retirement&pace=${gardenPersona}&capital=${Math.round(investmentAmount)}&fm=capital&years=${PROJECTION_YEARS}`;
   // Concrete CTA (025): show the projected outcome ON the button — but NEVER for
   // an anomalous pool (trust rail: anomalous rates are flagged, never hyped).
   const showConcreteCta = !isAnomalous;
@@ -478,7 +480,7 @@ function PoolDetail({
             onClick: () => {
               if (typeof Analytics !== 'undefined') {
                 Analytics.trackPoolClick(pool, 'garden_cta', {
-                  investmentAmount: PROJECTION_MONTHLY,
+                  investmentAmount: Math.round(investmentAmount),
                   projectionYears: PROJECTION_YEARS,
                   ctaVariant: showConcreteCta ? 'concrete' : 'generic'
                 });
@@ -671,8 +673,8 @@ function PoolDetail({
           color: 'var(--color-text)',
           lineHeight: '1.4'
         }
-      }, t ? t('projectionBody', PROJECTION_MONTHLY, PROJECTION_YEARS, projectionAmount) :
-        `$${PROJECTION_MONTHLY}/mo in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`),
+      }, t ? t('projectionBody', investmentAmount, PROJECTION_YEARS, projectionAmount) :
+        `$${Number(investmentAmount || 0).toLocaleString('en-US')} in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`),
       applyDegenHaircut && React.createElement('div', { className: 'calc-warning' },
         t ? t('poolDegenHaircutNote', _formatApy(totalApy)) : `Projected at ⅓ haircut (${_formatApy(totalApy)} headline) — farm rates decay. Active management required.`
       ),
