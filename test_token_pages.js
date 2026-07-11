@@ -104,6 +104,12 @@ test('renders >=1 real pool row with en-US formatted numbers', () => {
 test('indexable (robots index,follow)', () => {
   assert.ok(html.includes('content="index,follow"'), 'should be indexable');
 });
+test('reuses the app design system (links style.css) and uses neuro tokens, no hardcoded hex', () => {
+  assert.ok(html.includes('<link rel="stylesheet" href="/style.css">'), 'must link the app style.css');
+  assert.ok(html.includes('var(--neuro-shadow-raised)') && html.includes('var(--color-surface)'), 'must use neuro/color tokens');
+  const styleBlock = html.match(/<style>[\s\S]*?<\/style>/)[0];
+  assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'no hardcoded hex colors in the scoped style block');
+});
 test('single-pool page uses singular "pool" wording', () => {
   const midHtml = gen.renderTokenPage(bySym['MID']);
   assert.ok(/1 live pool above/.test(midHtml), 'expected singular "pool"');
