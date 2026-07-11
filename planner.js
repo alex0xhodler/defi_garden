@@ -729,6 +729,14 @@
     for (var i = 0; i < GOALS.length; i++) if (GOALS[i].id === id) return GOALS[i];
     return null;
   }
+  // brandForId(id) — resolves { icon, emoji } for a share-card featured service,
+  // checking SUBSCRIPTION_LADDER first (its ids can shadow GOALS ids) then GOALS.
+  function brandForId(id) {
+    for (var i = 0; i < SUBSCRIPTION_LADDER.length; i++) {
+      if (SUBSCRIPTION_LADDER[i].id === id) return SUBSCRIPTION_LADDER[i];
+    }
+    return goalById(id);
+  }
   function goalLabel(t, id) {
     var g = goalById(id);
     return g ? t(g.labelKey) : id;
@@ -1599,18 +1607,27 @@
 
     function doWaitlistDownload() {
       var heroDate2 = ladderDates ? monthsFromNow(ladderDates[pk]) : null;
+      var matchedSubs3 = [];
       var mixLabels3 = selectedSubs.map(function (id3) {
         var found3 = null;
         for (var li4 = 0; li4 < SUBSCRIPTION_LADDER.length; li4++) {
           if (SUBSCRIPTION_LADDER[li4].id === id3) { found3 = SUBSCRIPTION_LADDER[li4]; break; }
         }
+        if (found3) matchedSubs3.push(found3);
         return found3 ? t(found3.labelKey) : id3;
       });
       var dlList = joinBundle(mixLabels3) || goalLabel(t, goal);
       var dlHeadline = dlList ? t('shareSubBundle', dlList) : t('shareSubWin', goalLabel(t, goal));
+      // Featured service for the row-1 icon: the single bundled service if exactly
+      // one is selected, else the anchor goal (0 selected) — a 2+ bundle has no
+      // single logo to show, so it falls back to the sprout emoji in renderShareImage.
+      var dlFeatured = matchedSubs3.length === 1 ? matchedSubs3[0]
+        : (selectedSubs.length === 0 ? brandForId(goal) : null);
       renderShareImage({
         headline: dlHeadline,
-        goalLabel: goalLabel(t, goal),
+        goalLabel: dlList,
+        brandIcon: dlFeatured ? dlFeatured.icon : null,
+        brandEmoji: dlFeatured ? dlFeatured.emoji : '🌱',
         subline: t('shareSubSubline', formatUsdRounded(currentMixStats.neededCapital || subCapital || 0), formatApy(apy), formatUsd(currentMixStats.combinedMonthly)),
         footer: t('shareFooter'),
         years: slideYears,
@@ -1695,7 +1712,7 @@
     function doShare() {
       setSharing(true);
       var heroDate = ladderDates ? monthsFromNow(ladderDates[pk]) : null;
-      var shareHeadline, shareSubline, shareDrawChart;
+      var shareHeadline, shareSubline, shareDrawChart, shareRowLabel, shareFeatured;
 
       if (archetype === 'subscription' && isCapitalPath) {
         // Subscription capital path: bundle-aware headline + correct figures
@@ -1709,6 +1726,11 @@
             formatApy(apy),
             formatUsd(shareBundle.combinedMonthly)
           );
+          // Row-1 label must match the headline's list, not the anchor goal alone —
+          // a single covered service gets its own logo; a multi-service bundle has
+          // no single logo, so it falls back to the sprout emoji in renderShareImage.
+          shareRowLabel = shareBundleList;
+          shareFeatured = shareBundle.covered.length === 1 ? brandForId(shareBundle.covered[0].id) : null;
         } else {
           // Capital parked but doesn't cover anchor yet — fall back gracefully
           shareHeadline = t('shareSubWin', goalLabel(t, goal));
@@ -1717,6 +1739,8 @@
             formatApy(apy),
             formatUsd(0)
           );
+          shareRowLabel = goalLabel(t, goal);
+          shareFeatured = brandForId(goal);
         }
         shareDrawChart = false;
       } else if (archetype === 'subscription') {
@@ -1726,6 +1750,8 @@
           : t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
         shareSubline = t('shareSubline', formatUsd(monthly), slideYears);
         shareDrawChart = true;
+        shareRowLabel = goalLabel(t, goal);
+        shareFeatured = brandForId(goal);
       } else if (archetype === 'target') {
         // Target path
         if (isCapitalPath && heroDate) {
@@ -1739,17 +1765,23 @@
           ? formatUsdRounded(slideCapital) + ' · ' + formatApy(apy)
           : t('shareSubline', formatUsd(monthly), slideYears);
         shareDrawChart = !isCapitalPath;
+        shareRowLabel = goalLabel(t, goal);
+        shareFeatured = brandForId(goal);
       } else {
         // Growth path
         shareHeadline = t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
         shareSubline = t('shareSubline', formatUsd(monthly), slideYears);
         shareDrawChart = true;
+        shareRowLabel = goalLabel(t, goal);
+        shareFeatured = brandForId(goal);
       }
 
       var shareUrl = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline);
       renderShareImage({
         headline: shareHeadline,
-        goalLabel: goalLabel(t, goal),
+        goalLabel: shareRowLabel,
+        brandIcon: shareFeatured ? shareFeatured.icon : null,
+        brandEmoji: shareFeatured ? shareFeatured.emoji : '🌱',
         subline: shareSubline,
         footer: t('shareFooter'),
         years: slideYears,
@@ -2853,10 +2885,31 @@
         ctx.restore();
       }
 
-      ctx.fillStyle = '#0F172A';
       ctx.textBaseline = 'alphabetic';
       ctx.font = '600 34px "Satoshi", system-ui, -apple-system, sans-serif';
-      ctx.fillText('🌱 ' + (opts.goalLabel || ''), 110, 170);
+      // Row-1 icon: draw the featured service's real bundled mark (local vector data,
+      // never a network fetch — canvas stays untainted) when we have one; otherwise
+      // fall back to its emoji, then the generic sprout. A draw failure (missing/
+      // malformed asset) must never throw — it just falls through to the emoji path.
+      var rowIconSize = 34, rowIconX = 110, rowTextX = rowIconX;
+      var brandMark = (opts.brandIcon && window.BRAND_ICONS) ? window.BRAND_ICONS[opts.brandIcon] : null;
+      if (brandMark) {
+        try {
+          var markPath = new Path2D(brandMark.path);
+          ctx.save();
+          ctx.translate(rowIconX, 170 - rowIconSize + 4);
+          ctx.scale(rowIconSize / brandMark.vbW, rowIconSize / brandMark.vbH);
+          ctx.fillStyle = brandMark.color;
+          ctx.fill(markPath);
+          ctx.restore();
+          rowTextX = rowIconX + rowIconSize + 12;
+        } catch (markErr) {
+          brandMark = null;
+        }
+      }
+      var rowLabel = brandMark ? (opts.goalLabel || '') : ((opts.brandEmoji || '🌱') + ' ' + (opts.goalLabel || ''));
+      ctx.fillStyle = '#0F172A';
+      ctx.fillText(rowLabel, rowTextX, 170);
 
       // Headline: fit to card width; wrap to 2 lines if needed, or step down font
       ctx.font = '700 72px "Satoshi", system-ui, -apple-system, sans-serif';
