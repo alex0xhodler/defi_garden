@@ -117,9 +117,15 @@ jobs:
         
         # Ping Bing
         curl -s "https://www.bing.com/ping?sitemap=https://www.defi.garden/sitemap.xml" || echo "Bing ping failed"
-        
+
         echo "✅ Search engines notified"
-    
+
+    - name: Ping IndexNow
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        echo "⚡ Submitting changed URLs to IndexNow (Bing + Yandex)..."
+        node indexnow-ping.js || echo "IndexNow submission failed"
+
     - name: Summary
       run: |
         echo "## Sitemap & LLM Files Update Summary" >> $GITHUB_STEP_SUMMARY
