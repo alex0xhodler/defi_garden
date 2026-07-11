@@ -88,5 +88,14 @@
     "apyBase": 0,
     "apyReward": 0,
     "pool": "zero-compound-x"
+  },
+  {
+    "symbol": "TINY",
+    "project": "somelend",
+    "chain": "Ethereum",
+    "tvlUsd": 2720000,
+    "apyBase": 0.003,
+    "apyReward": 0,
+    "pool": "tiny-somelend-y"
   }
 ]
