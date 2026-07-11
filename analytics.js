@@ -156,6 +156,7 @@ const Analytics = {
     this.track('pool_view', {
       ...poolAnalytics,
       source_view: context.sourceView || 'search',
+      source: context.source || 'card_click',
       source_position: context.position || -1,
       search_query: context.searchQuery || null,
       active_filters: this.serializeFilters(context.filters || {}),
