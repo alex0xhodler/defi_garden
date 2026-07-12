@@ -1,6 +1,6 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-07-12T20:38:22.579Z
+- Last Updated: 2026-07-12T21:03:21.447Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
 - Total URLs: 4730
