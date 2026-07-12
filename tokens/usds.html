@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>USDS DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="23 live USDS pools above the $100K TVL floor, up to 9.14% APY, across 4 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="22 live USDS pools above the $100K TVL floor, up to 9.10% APY, across 4 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/usds">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"USDS","item":"https://www.defi.garden/tokens/usds"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"centrifuge-protocol on Ethereum","url":"https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8"},{"@type":"ListItem","position":2,"name":"sparklend on Ethereum","url":"https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96"},{"@type":"ListItem","position":3,"name":"spark-savings on Arbitrum","url":"https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b"},{"@type":"ListItem","position":4,"name":"sky-lending on Ethereum","url":"https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02"},{"@type":"ListItem","position":5,"name":"sparklend on Ethereum","url":"https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9"},{"@type":"ListItem","position":6,"name":"spark-savings on Base","url":"https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd"},{"@type":"ListItem","position":7,"name":"aave-v3 on Ethereum","url":"https://www.defi.garden/?pool=e65588a1-27ad-4e20-9232-68a6cfaccf63"},{"@type":"ListItem","position":8,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=5b6c56a9-3b81-48ee-bee7-3f0dcd862e4d"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"USDS DeFi Yields Dataset","description":"Live DefiLlama yield data for USDS pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/usds","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest USDS yield today?","acceptedAnswer":{"@type":"Answer","text":"9.10% APY on centrifuge-protocol (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many USDS pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"22 live pools clear DeFi Garden's $100K TVL floor, $2.35B in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="USDS DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="23 live USDS pools above the $100K TVL floor, up to 9.14% APY, across 4 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="22 live USDS pools above the $100K TVL floor, up to 9.10% APY, across 4 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens/usds">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -61,7 +68,7 @@
     <script>
       window.addEventListener('load', function () {
         if (window.Analytics && typeof Analytics.trackPageView === 'function') {
-          Analytics.trackPageView("/tokens/usds", {"page_type":"token_landing","token":"USDS","pool_count":23});
+          Analytics.trackPageView("/tokens/usds", {"page_type":"token_landing","token":"USDS","pool_count":22});
         }
       });
     </script>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>USDS DeFi Yields</h1>
-    <p class="sub">23 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">USDS's largest live pool is centrifuge-protocol on Ethereum at 2.02% ($870.92M TVL). 23 USDS pools across 4 chains clear DeFi Garden's $100K TVL floor, $2.35B in total.</p>
+    <p class="tp-answer">The highest honest USDS yield right now is 9.10% on centrifuge-protocol (Ethereum), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
+    <p class="sub">22 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="intro">USDS's largest live pool is centrifuge-protocol on Ethereum at 2.02% ($870.89M TVL). 22 USDS pools across 4 chains clear DeFi Garden's $100K TVL floor, $2.35B in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=USDS">See live USDS pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -83,25 +91,25 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8">centrifuge-protocol &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">2.02%</td>
-          <td class="num">$870.92M</td>
+          <td class="num">$870.89M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96">sparklend &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">3.48%</td>
-          <td class="num">$561.06M</td>
+          <td class="num">3.49%</td>
+          <td class="num">$561.04M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b">spark-savings &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">3.60%</td>
-          <td class="num">$360.35M</td>
+          <td class="num">$360.34M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02">sky-lending &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">9.14%</td>
-          <td class="num">$280.24M</td>
+          <td class="num">9.10%</td>
+          <td class="num">$281.87M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9">sparklend &rarr;</a></td>
@@ -125,20 +133,35 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5b6c56a9-3b81-48ee-bee7-3f0dcd862e4d">raydium-amm &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.10%</td>
-          <td class="num">$10.25M</td>
+          <td class="num">$10.24M</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest USDS yield today?</h3>
+          <p class="tp-faq-a">9.10% APY on centrifuge-protocol (Ethereum), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many USDS pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">22 live pools clear DeFi Garden&#39;s $100K TVL floor, $2.35B in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

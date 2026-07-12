@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADA DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="25 live ADA pools above the $100K TVL floor, up to 34.05% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="25 live ADA pools above the $100K TVL floor, up to 33.90% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/ada">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"ADA","item":"https://www.defi.garden/tokens/ada"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"liqwid on Cardano","url":"https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b"},{"@type":"ListItem","position":2,"name":"minswap-dex on Cardano","url":"https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27"},{"@type":"ListItem","position":3,"name":"minswap-dex on Cardano","url":"https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6"},{"@type":"ListItem","position":4,"name":"minswap-dex on Cardano","url":"https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27"},{"@type":"ListItem","position":5,"name":"venus-core-pool on BSC","url":"https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83"},{"@type":"ListItem","position":6,"name":"minswap-dex on Cardano","url":"https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454"},{"@type":"ListItem","position":7,"name":"minswap-dex on Cardano","url":"https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763"},{"@type":"ListItem","position":8,"name":"minswap-dex on Cardano","url":"https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"ADA DeFi Yields Dataset","description":"Live DefiLlama yield data for ADA pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/ada","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest ADA yield today?","acceptedAnswer":{"@type":"Answer","text":"33.90% APY on liqwid (Cardano), based on live DefiLlama data."}},{"@type":"Question","name":"How many ADA pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"25 live pools clear DeFi Garden's $100K TVL floor, $16.22M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="ADA DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="25 live ADA pools above the $100K TVL floor, up to 34.05% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="25 live ADA pools above the $100K TVL floor, up to 33.90% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens/ada">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>ADA DeFi Yields</h1>
+    <p class="tp-answer">The highest honest ADA yield right now is 33.90% on liqwid (Cardano), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">25 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">ADA's largest live pool is liqwid on Cardano at 2.43% ($5.03M TVL). 25 ADA pools across 2 chains clear DeFi Garden's $100K TVL floor, $16.16M in total.</p>
+    <p class="intro">ADA's largest live pool is liqwid on Cardano at 2.43% ($5.05M TVL). 25 ADA pools across 2 chains clear DeFi Garden's $100K TVL floor, $16.22M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=ADA">See live ADA pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -83,54 +91,69 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b">liqwid &rarr;</a></td>
           <td>Cardano</td>
           <td class="num">2.43%</td>
-          <td class="num">$5.03M</td>
+          <td class="num">$5.05M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27">minswap-dex &rarr;</a></td>
           <td>Cardano</td>
-          <td class="num">18.04%</td>
+          <td class="num">17.96%</td>
           <td class="num">$2.34M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6">minswap-dex &rarr;</a></td>
           <td>Cardano</td>
-          <td class="num">18.50%</td>
+          <td class="num">18.44%</td>
           <td class="num">$1.74M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27">minswap-dex &rarr;</a></td>
           <td>Cardano</td>
-          <td class="num">4.27%</td>
-          <td class="num">$1.12M</td>
+          <td class="num">4.26%</td>
+          <td class="num">$1.13M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83">venus-core-pool &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.12%</td>
-          <td class="num">$839K</td>
+          <td class="num">$839.6K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454">minswap-dex &rarr;</a></td>
           <td>Cardano</td>
-          <td class="num">34.05%</td>
-          <td class="num">$757.6K</td>
+          <td class="num">33.90%</td>
+          <td class="num">$760.3K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763">minswap-dex &rarr;</a></td>
           <td>Cardano</td>
-          <td class="num">33.57%</td>
-          <td class="num">$625.6K</td>
+          <td class="num">33.61%</td>
+          <td class="num">$628.1K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a">minswap-dex &rarr;</a></td>
           <td>Cardano</td>
-          <td class="num">30.15%</td>
-          <td class="num">$583.7K</td>
+          <td class="num">30.16%</td>
+          <td class="num">$586.1K</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest ADA yield today?</h3>
+          <p class="tp-faq-a">33.90% APY on liqwid (Cardano), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many ADA pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">25 live pools clear DeFi Garden&#39;s $100K TVL floor, $16.22M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">

@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FRAX DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="36 live FRAX pools above the $100K TVL floor, up to 9.18% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="36 live FRAX pools above the $100K TVL floor, up to 9.20% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/frax">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"FRAX","item":"https://www.defi.garden/tokens/frax"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a"},{"@type":"ListItem","position":2,"name":"convex-finance on Ethereum","url":"https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f"},{"@type":"ListItem","position":3,"name":"frax on Ethereum","url":"https://www.defi.garden/?pool=a61791ea-2886-4428-991c-7181d26a6062"},{"@type":"ListItem","position":4,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1"},{"@type":"ListItem","position":5,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=a7dc71cb-77cc-435c-b7bc-006651c6c1c0"},{"@type":"ListItem","position":6,"name":"frax on Fraxtal","url":"https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07"},{"@type":"ListItem","position":7,"name":"uniswap-v3 on Ethereum","url":"https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838"},{"@type":"ListItem","position":8,"name":"frax on Ethereum","url":"https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"FRAX DeFi Yields Dataset","description":"Live DefiLlama yield data for FRAX pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/frax","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest FRAX yield today?","acceptedAnswer":{"@type":"Answer","text":"9.20% APY on curve-dex (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many FRAX pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"36 live pools clear DeFi Garden's $100K TVL floor, $121.93M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="FRAX DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="36 live FRAX pools above the $100K TVL floor, up to 9.18% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="36 live FRAX pools above the $100K TVL floor, up to 9.20% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens/frax">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>FRAX DeFi Yields</h1>
+    <p class="tp-answer">The highest honest FRAX yield right now is 9.20% on curve-dex (Ethereum), among 36 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">36 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">FRAX's largest live pool is curve-dex on Ethereum at 2.07% ($43.99M TVL). 36 FRAX pools across 2 chains clear DeFi Garden's $100K TVL floor, $122.02M in total.</p>
+    <p class="intro">FRAX's largest live pool is curve-dex on Ethereum at 2.08% ($43.98M TVL). 36 FRAX pools across 2 chains clear DeFi Garden's $100K TVL floor, $121.93M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=FRAX">See live FRAX pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -82,14 +90,14 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">2.07%</td>
-          <td class="num">$43.99M</td>
+          <td class="num">2.08%</td>
+          <td class="num">$43.98M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f">convex-finance &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">2.76%</td>
-          <td class="num">$43.88M</td>
+          <td class="num">$43.87M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a61791ea-2886-4428-991c-7181d26a6062">frax &rarr;</a></td>
@@ -100,8 +108,8 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">9.18%</td>
-          <td class="num">$4.23M</td>
+          <td class="num">9.20%</td>
+          <td class="num">$4.16M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a7dc71cb-77cc-435c-b7bc-006651c6c1c0">curve-dex &rarr;</a></td>
@@ -131,14 +139,29 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest FRAX yield today?</h3>
+          <p class="tp-faq-a">9.20% APY on curve-dex (Ethereum), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many FRAX pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">36 live pools clear DeFi Garden&#39;s $100K TVL floor, $121.93M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

@@ -7,8 +7,9 @@
     <meta name="description" content="2 live YZM pools above the $100K TVL floor, up to 0.50% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/yzm">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"YZM","item":"https://www.defi.garden/tokens/yzm"}]}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"morpho-blue on Monad","url":"https://www.defi.garden/?pool=bf489b0f-5de2-42eb-b1b9-16f5a038ec94"},{"@type":"ListItem","position":2,"name":"curvance on Monad","url":"https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"curvance on Monad","url":"https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018"},{"@type":"ListItem","position":2,"name":"morpho-blue on Monad","url":"https://www.defi.garden/?pool=bf489b0f-5de2-42eb-b1b9-16f5a038ec94"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"YZM DeFi Yields Dataset","description":"Live DefiLlama yield data for YZM pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/yzm","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest YZM yield today?","acceptedAnswer":{"@type":"Answer","text":"0.50% APY on curvance (Monad), based on live DefiLlama data."}},{"@type":"Question","name":"How many YZM pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"2 live pools clear DeFi Garden's $100K TVL floor, $1.11M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="YZM DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="2 live YZM pools above the $100K TVL floor, up to 0.50% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>YZM DeFi Yields</h1>
+    <p class="tp-answer">The highest honest YZM yield right now is 0.50% on curvance (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">2 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">YZM's largest live pool is morpho-blue on Monad at 0.00% ($1.52M TVL). 2 YZM pools across 1 chain clear DeFi Garden's $100K TVL floor, $2.42M in total.</p>
+    <p class="intro">YZM's largest live pool is curvance on Monad at 0.50% ($898.1K TVL). 2 YZM pools across 1 chain clear DeFi Garden's $100K TVL floor, $1.11M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=YZM">See live YZM pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -80,21 +88,36 @@
       </thead>
       <tbody>
         <tr>
-          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=bf489b0f-5de2-42eb-b1b9-16f5a038ec94">morpho-blue &rarr;</a></td>
-          <td>Monad</td>
-          <td class="num">0.00%</td>
-          <td class="num">$1.52M</td>
-        </tr>
-        <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018">curvance &rarr;</a></td>
           <td>Monad</td>
           <td class="num">0.50%</td>
           <td class="num">$898.1K</td>
         </tr>
+        <tr>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=bf489b0f-5de2-42eb-b1b9-16f5a038ec94">morpho-blue &rarr;</a></td>
+          <td>Monad</td>
+          <td class="num">0.00%</td>
+          <td class="num">$208.4K</td>
+        </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest YZM yield today?</h3>
+          <p class="tp-faq-a">0.50% APY on curvance (Monad), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many YZM pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">2 live pools clear DeFi Garden&#39;s $100K TVL floor, $1.11M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">

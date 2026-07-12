@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BUSD DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="11 live BUSD pools above the $100K TVL floor, up to 1.42% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="11 live BUSD pools above the $100K TVL floor, up to 1.39% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/busd">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"BUSD","item":"https://www.defi.garden/tokens/busd"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"wombat-exchange on BSC","url":"https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364"},{"@type":"ListItem","position":2,"name":"pancakeswap-amm on BSC","url":"https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897"},{"@type":"ListItem","position":3,"name":"kava-mint on Kava","url":"https://www.defi.garden/?pool=93147bfc-e063-4674-a6ad-9e6762f7552b"},{"@type":"ListItem","position":4,"name":"venus-core-pool on BSC","url":"https://www.defi.garden/?pool=483533e6-3112-44a1-beae-7cae023065a6"},{"@type":"ListItem","position":5,"name":"pancakeswap-amm on BSC","url":"https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595"},{"@type":"ListItem","position":6,"name":"beets-dex-v3 on Sonic","url":"https://www.defi.garden/?pool=a2219f9a-8615-4e85-9dc7-5a305e3ff7b8"},{"@type":"ListItem","position":7,"name":"pancakeswap-amm on BSC","url":"https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a"},{"@type":"ListItem","position":8,"name":"pancakeswap-amm on BSC","url":"https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"BUSD DeFi Yields Dataset","description":"Live DefiLlama yield data for BUSD pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/busd","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest BUSD yield today?","acceptedAnswer":{"@type":"Answer","text":"1.39% APY on wombat-exchange (BSC), based on live DefiLlama data."}},{"@type":"Question","name":"How many BUSD pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"11 live pools clear DeFi Garden's $100K TVL floor, $6.91M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="BUSD DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="11 live BUSD pools above the $100K TVL floor, up to 1.42% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="11 live BUSD pools above the $100K TVL floor, up to 1.39% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens/busd">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,6 +76,7 @@
 <body>
   <main class="tp-wrap">
     <h1>BUSD DeFi Yields</h1>
+    <p class="tp-answer">The highest honest BUSD yield right now is 1.39% on wombat-exchange (BSC), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">11 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">BUSD's largest live pool is wombat-exchange on BSC at 0.03% ($2.05M TVL). 11 BUSD pools across 3 chains clear DeFi Garden's $100K TVL floor, $6.91M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=BUSD">See live BUSD pools &rarr;</a>
@@ -88,49 +96,64 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897">pancakeswap-amm &rarr;</a></td>
           <td>BSC</td>
-          <td class="num">1.42%</td>
+          <td class="num">1.39%</td>
           <td class="num">$1.12M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=93147bfc-e063-4674-a6ad-9e6762f7552b">kava-mint &rarr;</a></td>
           <td>Kava</td>
           <td class="num">0.00%</td>
-          <td class="num">$861K</td>
+          <td class="num">$861.7K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=483533e6-3112-44a1-beae-7cae023065a6">venus-core-pool &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.00%</td>
-          <td class="num">$827.3K</td>
+          <td class="num">$827.1K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595">pancakeswap-amm &rarr;</a></td>
           <td>BSC</td>
-          <td class="num">0.13%</td>
+          <td class="num">0.11%</td>
           <td class="num">$529.9K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a2219f9a-8615-4e85-9dc7-5a305e3ff7b8">beets-dex-v3 &rarr;</a></td>
           <td>Sonic</td>
           <td class="num">0.00%</td>
-          <td class="num">$405K</td>
+          <td class="num">$405.1K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a">pancakeswap-amm &rarr;</a></td>
           <td>BSC</td>
-          <td class="num">1.33%</td>
-          <td class="num">$309K</td>
+          <td class="num">1.37%</td>
+          <td class="num">$309.3K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031">pancakeswap-amm &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.33%</td>
-          <td class="num">$265K</td>
+          <td class="num">$264.9K</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest BUSD yield today?</h3>
+          <p class="tp-faq-a">1.39% APY on wombat-exchange (BSC), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many BUSD pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">11 live pools clear DeFi Garden&#39;s $100K TVL floor, $6.91M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">

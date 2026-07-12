@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WBNB DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="33 live WBNB pools above the $100K TVL floor, up to 23.24% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="33 live WBNB pools above the $100K TVL floor, up to 23.02% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/wbnb">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"WBNB","item":"https://www.defi.garden/tokens/wbnb"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"venus-core-pool on BSC","url":"https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5"},{"@type":"ListItem","position":2,"name":"aave-v3 on BSC","url":"https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80"},{"@type":"ListItem","position":3,"name":"venus-core-pool on BSC","url":"https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2"},{"@type":"ListItem","position":4,"name":"uniswap-v3 on BSC","url":"https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876"},{"@type":"ListItem","position":5,"name":"pancakeswap-amm on BSC","url":"https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579"},{"@type":"ListItem","position":6,"name":"uniswap-v3 on BSC","url":"https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5"},{"@type":"ListItem","position":7,"name":"uniswap-v3 on BSC","url":"https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646"},{"@type":"ListItem","position":8,"name":"kava-mint on Kava","url":"https://www.defi.garden/?pool=1dec95f9-807c-4c66-ae8b-26c34e0a827c"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"WBNB DeFi Yields Dataset","description":"Live DefiLlama yield data for WBNB pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/wbnb","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest WBNB yield today?","acceptedAnswer":{"@type":"Answer","text":"23.02% APY on venus-core-pool (BSC), based on live DefiLlama data."}},{"@type":"Question","name":"How many WBNB pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"33 live pools clear DeFi Garden's $100K TVL floor, $395.54M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="WBNB DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="33 live WBNB pools above the $100K TVL floor, up to 23.24% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="33 live WBNB pools above the $100K TVL floor, up to 23.02% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens/wbnb">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>WBNB DeFi Yields</h1>
+    <p class="tp-answer">The highest honest WBNB yield right now is 23.02% on venus-core-pool (BSC), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">33 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">WBNB's largest live pool is venus-core-pool on BSC at 0.16% ($245.11M TVL). 33 WBNB pools across 2 chains clear DeFi Garden's $100K TVL floor, $394.75M in total.</p>
+    <p class="intro">WBNB's largest live pool is venus-core-pool on BSC at 0.16% ($245.66M TVL). 33 WBNB pools across 2 chains clear DeFi Garden's $100K TVL floor, $395.54M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=WBNB">See live WBNB pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -83,43 +91,43 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5">venus-core-pool &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.16%</td>
-          <td class="num">$245.11M</td>
+          <td class="num">$245.66M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80">aave-v3 &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.01%</td>
-          <td class="num">$64.22M</td>
+          <td class="num">$64.34M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2">venus-core-pool &rarr;</a></td>
           <td>BSC</td>
           <td class="num">0.15%</td>
-          <td class="num">$50.07M</td>
+          <td class="num">$50.18M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
-          <td class="num">6.60%</td>
-          <td class="num">$8.89M</td>
+          <td class="num">6.30%</td>
+          <td class="num">$8.9M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579">pancakeswap-amm &rarr;</a></td>
           <td>BSC</td>
-          <td class="num">1.12%</td>
-          <td class="num">$7.26M</td>
+          <td class="num">1.06%</td>
+          <td class="num">$7.27M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
-          <td class="num">23.24%</td>
-          <td class="num">$4.34M</td>
+          <td class="num">23.02%</td>
+          <td class="num">$4.28M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646">uniswap-v3 &rarr;</a></td>
           <td>BSC</td>
-          <td class="num">9.90%</td>
-          <td class="num">$3.92M</td>
+          <td class="num">9.94%</td>
+          <td class="num">$3.94M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=1dec95f9-807c-4c66-ae8b-26c34e0a827c">kava-mint &rarr;</a></td>
@@ -131,6 +139,21 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest WBNB yield today?</h3>
+          <p class="tp-faq-a">23.02% APY on venus-core-pool (BSC), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many WBNB pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">33 live pools clear DeFi Garden&#39;s $100K TVL floor, $395.54M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">

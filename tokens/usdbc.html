@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>USDBC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="10 live USDBC pools above the $100K TVL floor, up to 27.20% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="10 live USDBC pools above the $100K TVL floor, up to 27.23% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/usdbc">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"USDBC","item":"https://www.defi.garden/tokens/usdbc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d"},{"@type":"ListItem","position":2,"name":"aerodrome-v1 on Base","url":"https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d"},{"@type":"ListItem","position":3,"name":"stargate-v1 on Base","url":"https://www.defi.garden/?pool=9d09b0be-f6c2-463a-ad2c-4552b3e12bd9"},{"@type":"ListItem","position":4,"name":"aerodrome-v1 on Base","url":"https://www.defi.garden/?pool=dc1549ef-221e-464b-b010-e71135f73f22"},{"@type":"ListItem","position":5,"name":"aerodrome-v1 on Base","url":"https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422"},{"@type":"ListItem","position":6,"name":"curve-dex on Base","url":"https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d"},{"@type":"ListItem","position":7,"name":"symbiosis on Base","url":"https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b"},{"@type":"ListItem","position":8,"name":"alien-base-v3 on Base","url":"https://www.defi.garden/?pool=7352417e-acff-4afb-a4c7-c04dd8deda20"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"USDBC DeFi Yields Dataset","description":"Live DefiLlama yield data for USDBC pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/usdbc","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest USDBC yield today?","acceptedAnswer":{"@type":"Answer","text":"27.23% APY on aerodrome-slipstream (Base), based on live DefiLlama data."}},{"@type":"Question","name":"How many USDBC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"10 live pools clear DeFi Garden's $100K TVL floor, $1.83M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="USDBC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="10 live USDBC pools above the $100K TVL floor, up to 27.20% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="10 live USDBC pools above the $100K TVL floor, up to 27.23% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens/usdbc">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>USDBC DeFi Yields</h1>
+    <p class="tp-answer">The highest honest USDBC yield right now is 27.23% on aerodrome-slipstream (Base), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">10 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">USDBC's largest live pool is aerodrome-slipstream on Base at 1.25% ($256K TVL). 10 USDBC pools across 1 chain clear DeFi Garden's $100K TVL floor, $1.83M in total.</p>
+    <p class="intro">USDBC's largest live pool is aerodrome-slipstream on Base at 1.03% ($256K TVL). 10 USDBC pools across 1 chain clear DeFi Garden's $100K TVL floor, $1.83M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=USDBC">See live USDBC pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -82,14 +90,14 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d">aerodrome-slipstream &rarr;</a></td>
           <td>Base</td>
-          <td class="num">1.25%</td>
+          <td class="num">1.03%</td>
           <td class="num">$256K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
-          <td class="num">27.20%</td>
-          <td class="num">$249.3K</td>
+          <td class="num">27.23%</td>
+          <td class="num">$249.5K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9d09b0be-f6c2-463a-ad2c-4552b3e12bd9">stargate-v1 &rarr;</a></td>
@@ -100,19 +108,19 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=dc1549ef-221e-464b-b010-e71135f73f22">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
-          <td class="num">5.44%</td>
+          <td class="num">5.45%</td>
           <td class="num">$204.7K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
           <td class="num">8.04%</td>
-          <td class="num">$196.8K</td>
+          <td class="num">$197.2K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d">curve-dex &rarr;</a></td>
           <td>Base</td>
-          <td class="num">5.90%</td>
+          <td class="num">5.92%</td>
           <td class="num">$173.8K</td>
         </tr>
         <tr>
@@ -131,6 +139,21 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest USDBC yield today?</h3>
+          <p class="tp-faq-a">27.23% APY on aerodrome-slipstream (Base), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many USDBC pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">10 live pools clear DeFi Garden&#39;s $100K TVL floor, $1.83M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">

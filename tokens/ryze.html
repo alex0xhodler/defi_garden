@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"RYZE","item":"https://www.defi.garden/tokens/ryze"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"uniswap-v4 on Arbitrum","url":"https://www.defi.garden/?pool=97090e08-3182-463b-9da4-b7d886f0d290"},{"@type":"ListItem","position":2,"name":"uniswap-v4 on Arbitrum","url":"https://www.defi.garden/?pool=ba3aafd5-3504-4b6a-86e6-fbaf984a6019"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"RYZE DeFi Yields Dataset","description":"Live DefiLlama yield data for RYZE pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/ryze","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest RYZE yield today?","acceptedAnswer":{"@type":"Answer","text":"0.16% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data."}},{"@type":"Question","name":"How many RYZE pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"2 live pools clear DeFi Garden's $100K TVL floor, $2.32M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="RYZE DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="2 live RYZE pools above the $100K TVL floor, up to 0.16% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,6 +76,7 @@
 <body>
   <main class="tp-wrap">
     <h1>RYZE DeFi Yields</h1>
+    <p class="tp-answer">The highest honest RYZE yield right now is 0.16% on uniswap-v4 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">2 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">RYZE's largest live pool is uniswap-v4 on Arbitrum at 0.16% ($2.13M TVL). 2 RYZE pools across 1 chain clear DeFi Garden's $100K TVL floor, $2.32M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=RYZE">See live RYZE pools &rarr;</a>
@@ -95,11 +103,26 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest RYZE yield today?</h3>
+          <p class="tp-faq-a">0.16% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many RYZE pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">2 live pools clear DeFi Garden&#39;s $100K TVL floor, $2.32M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wbtc">WBTC</a>
         <a href="https://www.defi.garden/tokens/buidl">BUIDL</a>
         <a href="https://www.defi.garden/tokens/reth">RETH</a>

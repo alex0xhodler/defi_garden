@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"BUIDL","item":"https://www.defi.garden/tokens/buidl"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"blackrock-buidl on Avalanche","url":"https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f"},{"@type":"ListItem","position":2,"name":"blackrock-buidl on Ethereum","url":"https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15"},{"@type":"ListItem","position":3,"name":"blackrock-buidl on Aptos","url":"https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2"},{"@type":"ListItem","position":4,"name":"blackrock-buidl on Solana","url":"https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295"},{"@type":"ListItem","position":5,"name":"blackrock-buidl on BSC","url":"https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1"},{"@type":"ListItem","position":6,"name":"blackrock-buidl on Ethereum","url":"https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259"},{"@type":"ListItem","position":7,"name":"blackrock-buidl on OP Mainnet","url":"https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c"},{"@type":"ListItem","position":8,"name":"blackrock-buidl on Arbitrum","url":"https://www.defi.garden/?pool=1f73ccbf-189e-4471-9e5c-46151b505d7d"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"BUIDL DeFi Yields Dataset","description":"Live DefiLlama yield data for BUIDL pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/buidl","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest BUIDL yield today?","acceptedAnswer":{"@type":"Answer","text":"3.47% APY on blackrock-buidl (Avalanche), based on live DefiLlama data."}},{"@type":"Question","name":"How many BUIDL pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"9 live pools clear DeFi Garden's $100K TVL floor, $3.69B in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="BUIDL DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="9 live BUIDL pools above the $100K TVL floor, up to 3.47% APY, across 7 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,6 +76,7 @@
 <body>
   <main class="tp-wrap">
     <h1>BUIDL DeFi Yields</h1>
+    <p class="tp-answer">The highest honest BUIDL yield right now is 3.47% on blackrock-buidl (Avalanche), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">9 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">BUIDL's largest live pool is blackrock-buidl on Avalanche at 3.44% ($902.71M TVL). 9 BUIDL pools across 7 chains clear DeFi Garden's $100K TVL floor, $3.69B in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=BUIDL">See live BUIDL pools &rarr;</a>
@@ -131,14 +139,29 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest BUIDL yield today?</h3>
+          <p class="tp-faq-a">3.47% APY on blackrock-buidl (Avalanche), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many BUIDL pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">9 live pools clear DeFi Garden&#39;s $100K TVL floor, $3.69B in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains"},{"@type":"ListItem","position":3,"name":"BSC","item":"https://www.defi.garden/chains/bsc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"circle-usyc on BSC","url":"https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f"},{"@type":"ListItem","position":2,"name":"lista-liquid-staking on BSC","url":"https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4"},{"@type":"ListItem","position":3,"name":"binance-staked-eth on BSC","url":"https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a"},{"@type":"ListItem","position":4,"name":"lista-lending on BSC","url":"https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471"},{"@type":"ListItem","position":5,"name":"venus-core-pool on BSC","url":"https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e"},{"@type":"ListItem","position":6,"name":"blackrock-buidl on BSC","url":"https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1"},{"@type":"ListItem","position":7,"name":"venus-core-pool on BSC","url":"https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5"},{"@type":"ListItem","position":8,"name":"lista-cdp on BSC","url":"https://www.defi.garden/?pool=3c46f16f-b35f-4d51-b130-c3e5817eca60"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"BSC DeFi Yields Dataset","description":"Live DefiLlama yield data for BSC pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/chains/bsc","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest BSC yield today?","acceptedAnswer":{"@type":"Answer","text":"3.13% APY on circle-usyc (BSC), based on live DefiLlama data."}},{"@type":"Question","name":"How many BSC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"176 live pools clear DeFi Garden's $100K TVL floor, $6.46B in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="BSC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="176 live pools on BSC above the $100K TVL floor, up to 3.13% APY, across 110 tokens. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-faq { margin: 30px 0 8px; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,6 +76,7 @@
 <body>
   <main class="cp-wrap">
     <h1>BSC DeFi Yields</h1>
+    <p class="cp-answer">The highest honest BSC yield right now is 3.13% on circle-usyc (BSC), among 176 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">176 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">BSC's largest live pool is circle-usyc (USYC) at 3.05% ($2.92B TVL). 176 pools across 110 tokens clear DeFi Garden's $100K TVL floor, $6.46B in total.</p>
     <a class="cp-cta" href="https://www.defi.garden/?chain=BSC">See live pools on BSC &rarr;</a>
@@ -89,25 +97,25 @@
           <td>SLISBNB</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4">lista-liquid-staking &rarr;</a></td>
           <td class="num">1.29%</td>
-          <td class="num">$544.05M</td>
+          <td class="num">$545.1M</td>
         </tr>
         <tr>
           <td>WBETH</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a">binance-staked-eth &rarr;</a></td>
-          <td class="num">2.39%</td>
-          <td class="num">$377.74M</td>
+          <td class="num">2.38%</td>
+          <td class="num">$379.19M</td>
         </tr>
         <tr>
           <td>BNB</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471">lista-lending &rarr;</a></td>
           <td class="num">0.09%</td>
-          <td class="num">$279.18M</td>
+          <td class="num">$279.56M</td>
         </tr>
         <tr>
           <td>BTCB</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e">venus-core-pool &rarr;</a></td>
           <td class="num">0.25%</td>
-          <td class="num">$261.18M</td>
+          <td class="num">$261.7M</td>
         </tr>
         <tr>
           <td>BUIDL</td>
@@ -119,18 +127,33 @@
           <td>WBNB</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5">venus-core-pool &rarr;</a></td>
           <td class="num">0.16%</td>
-          <td class="num">$245.11M</td>
+          <td class="num">$245.66M</td>
         </tr>
         <tr>
           <td>SLISBNB</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=3c46f16f-b35f-4d51-b130-c3e5817eca60">lista-cdp &rarr;</a></td>
           <td class="num">0.00%</td>
-          <td class="num">$202.61M</td>
+          <td class="num">$203.17M</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="cp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">What&#39;s the highest BSC yield today?</h3>
+          <p class="cp-faq-a">3.13% APY on circle-usyc (BSC), based on live DefiLlama data.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">How many BSC pools clear the TVL floor?</h3>
+          <p class="cp-faq-a">176 live pools clear DeFi Garden&#39;s $100K TVL floor, $6.46B in total.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">Are these rates safe?</h3>
+          <p class="cp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related chains">
       <h2>Related chains</h2>
       <div class="related-links">

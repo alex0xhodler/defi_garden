@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gnosis DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="13 live pools on Gnosis above the $100K TVL floor, up to 4.09% APY, across 12 tokens. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="12 live pools on Gnosis above the $100K TVL floor, up to 4.09% APY, across 11 tokens. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/chains/gnosis">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains"},{"@type":"ListItem","position":3,"name":"Gnosis","item":"https://www.defi.garden/chains/gnosis"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"sdai on Gnosis","url":"https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a"},{"@type":"ListItem","position":2,"name":"aave-v3 on Gnosis","url":"https://www.defi.garden/?pool=79af7462-170a-4e77-886d-898dc2145c78"},{"@type":"ListItem","position":3,"name":"aave-v3 on Gnosis","url":"https://www.defi.garden/?pool=32f04d80-25f9-439f-838d-3b15becf2d21"},{"@type":"ListItem","position":4,"name":"aave-v3 on Gnosis","url":"https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d"},{"@type":"ListItem","position":5,"name":"aave-v3 on Gnosis","url":"https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27"},{"@type":"ListItem","position":6,"name":"frankencoin on Gnosis","url":"https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529"},{"@type":"ListItem","position":7,"name":"aave-v3 on Gnosis","url":"https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1"},{"@type":"ListItem","position":8,"name":"aave-v3 on Gnosis","url":"https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Gnosis DeFi Yields Dataset","description":"Live DefiLlama yield data for Gnosis pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/chains/gnosis","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest Gnosis yield today?","acceptedAnswer":{"@type":"Answer","text":"4.09% APY on sdai (Gnosis), based on live DefiLlama data."}},{"@type":"Question","name":"How many Gnosis pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"12 live pools clear DeFi Garden's $100K TVL floor, $121.95M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="Gnosis DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="13 live pools on Gnosis above the $100K TVL floor, up to 4.09% APY, across 12 tokens. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="12 live pools on Gnosis above the $100K TVL floor, up to 4.09% APY, across 11 tokens. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/chains/gnosis">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-faq { margin: 30px 0 8px; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
     </style>
@@ -61,7 +68,7 @@
     <script>
       window.addEventListener('load', function () {
         if (window.Analytics && typeof Analytics.trackPageView === 'function') {
-          Analytics.trackPageView("/chains/gnosis", {"page_type":"chain_landing","chain":"Gnosis","pool_count":13});
+          Analytics.trackPageView("/chains/gnosis", {"page_type":"chain_landing","chain":"Gnosis","pool_count":12});
         }
       });
     </script>
@@ -69,8 +76,9 @@
 <body>
   <main class="cp-wrap">
     <h1>Gnosis DeFi Yields</h1>
-    <p class="sub">13 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">Gnosis's largest live pool is sdai (SDAI) at 4.09% ($66.3M TVL). 13 pools across 12 tokens clear DeFi Garden's $100K TVL floor, $121.98M in total.</p>
+    <p class="cp-answer">The highest honest Gnosis yield right now is 4.09% on sdai (Gnosis), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
+    <p class="sub">12 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="intro">Gnosis's largest live pool is sdai (SDAI) at 4.09% ($66.29M TVL). 12 pools across 11 tokens clear DeFi Garden's $100K TVL floor, $121.95M in total.</p>
     <a class="cp-cta" href="https://www.defi.garden/?chain=Gnosis">See live pools on Gnosis &rarr;</a>
     <div class="cp-card">
     <div class="scroll">
@@ -83,13 +91,13 @@
           <td>SDAI</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a">sdai &rarr;</a></td>
           <td class="num">4.09%</td>
-          <td class="num">$66.3M</td>
+          <td class="num">$66.29M</td>
         </tr>
         <tr>
           <td>WSTETH</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=79af7462-170a-4e77-886d-898dc2145c78">aave-v3 &rarr;</a></td>
           <td class="num">0.00%</td>
-          <td class="num">$28.69M</td>
+          <td class="num">$28.65M</td>
         </tr>
         <tr>
           <td>SDAI</td>
@@ -101,13 +109,13 @@
           <td>GNO</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d">aave-v3 &rarr;</a></td>
           <td class="num">0.17%</td>
-          <td class="num">$6.6M</td>
+          <td class="num">$6.71M</td>
         </tr>
         <tr>
           <td>EURE</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27">aave-v3 &rarr;</a></td>
           <td class="num">2.26%</td>
-          <td class="num">$6.41M</td>
+          <td class="num">$6.42M</td>
         </tr>
         <tr>
           <td>ZCHF</td>
@@ -119,7 +127,7 @@
           <td>WETH</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1">aave-v3 &rarr;</a></td>
           <td class="num">0.77%</td>
-          <td class="num">$1.26M</td>
+          <td class="num">$1.27M</td>
         </tr>
         <tr>
           <td>USDC.E</td>
@@ -131,6 +139,21 @@
     </table>
     </div>
     </div>
+    <section class="cp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">What&#39;s the highest Gnosis yield today?</h3>
+          <p class="cp-faq-a">4.09% APY on sdai (Gnosis), based on live DefiLlama data.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">How many Gnosis pools clear the TVL floor?</h3>
+          <p class="cp-faq-a">12 live pools clear DeFi Garden&#39;s $100K TVL floor, $121.95M in total.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">Are these rates safe?</h3>
+          <p class="cp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related chains">
       <h2>Related chains</h2>
       <div class="related-links">

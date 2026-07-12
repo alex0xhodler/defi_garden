@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"KHYPE","item":"https://www.defi.garden/tokens/khype"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"kinetiq-khype on Hyperliquid L1","url":"https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c"},{"@type":"ListItem","position":2,"name":"hyperlend-pooled on Hyperliquid L1","url":"https://www.defi.garden/?pool=3b074bee-390c-488c-8d1e-4ab2009b1645"},{"@type":"ListItem","position":3,"name":"morpho-blue on Hyperliquid L1","url":"https://www.defi.garden/?pool=989973a1-8bd7-4a5d-8ca8-91095a3931e3"},{"@type":"ListItem","position":4,"name":"morpho-blue on Hyperliquid L1","url":"https://www.defi.garden/?pool=ec244f9f-d63c-4a53-87b8-74888c423243"},{"@type":"ListItem","position":5,"name":"morpho-blue on Hyperliquid L1","url":"https://www.defi.garden/?pool=aa5b3bd6-dda8-4bea-9c95-48e12982eebd"},{"@type":"ListItem","position":6,"name":"morpho-blue on Hyperliquid L1","url":"https://www.defi.garden/?pool=30c079fc-209d-439e-ac91-a6c25817c435"},{"@type":"ListItem","position":7,"name":"hyperlend-pooled on Hyperliquid L1","url":"https://www.defi.garden/?pool=b8cfd43f-df9b-4f0d-ac89-707eaf306278"},{"@type":"ListItem","position":8,"name":"nest-cl on Hyperliquid L1","url":"https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"KHYPE DeFi Yields Dataset","description":"Live DefiLlama yield data for KHYPE pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/khype","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest KHYPE yield today?","acceptedAnswer":{"@type":"Answer","text":"2.71% APY on kinetiq-khype (Hyperliquid L1), based on live DefiLlama data."}},{"@type":"Question","name":"How many KHYPE pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"25 live pools clear DeFi Garden's $100K TVL floor, $1.42B in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="KHYPE DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="25 live KHYPE pools above the $100K TVL floor, up to 2.71% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,6 +76,7 @@
 <body>
   <main class="tp-wrap">
     <h1>KHYPE DeFi Yields</h1>
+    <p class="tp-answer">The highest honest KHYPE yield right now is 2.71% on kinetiq-khype (Hyperliquid L1), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">25 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">KHYPE's largest live pool is kinetiq-khype on Hyperliquid L1 at 0.22% ($963.69M TVL). 25 KHYPE pools across 1 chain clear DeFi Garden's $100K TVL floor, $1.42B in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=KHYPE">See live KHYPE pools &rarr;</a>
@@ -89,25 +97,25 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3b074bee-390c-488c-8d1e-4ab2009b1645">hyperlend-pooled &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
-          <td class="num">$277.49M</td>
+          <td class="num">$277.33M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=989973a1-8bd7-4a5d-8ca8-91095a3931e3">morpho-blue &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
-          <td class="num">$62.7M</td>
+          <td class="num">$62.66M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ec244f9f-d63c-4a53-87b8-74888c423243">morpho-blue &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
-          <td class="num">$38.41M</td>
+          <td class="num">$38.39M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=aa5b3bd6-dda8-4bea-9c95-48e12982eebd">morpho-blue &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
-          <td class="num">$32.16M</td>
+          <td class="num">$32.14M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=30c079fc-209d-439e-ac91-a6c25817c435">morpho-blue &rarr;</a></td>
@@ -119,18 +127,33 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b8cfd43f-df9b-4f0d-ac89-707eaf306278">hyperlend-pooled &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">0.00%</td>
-          <td class="num">$6.66M</td>
+          <td class="num">$6.67M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8">nest-cl &rarr;</a></td>
           <td>Hyperliquid L1</td>
           <td class="num">2.71%</td>
-          <td class="num">$6.06M</td>
+          <td class="num">$6.07M</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest KHYPE yield today?</h3>
+          <p class="tp-faq-a">2.71% APY on kinetiq-khype (Hyperliquid L1), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many KHYPE pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">25 live pools clear DeFi Garden&#39;s $100K TVL floor, $1.42B in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">

@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"SMON","item":"https://www.defi.garden/tokens/smon"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"kintsu on Monad","url":"https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd"},{"@type":"ListItem","position":2,"name":"neverland on Monad","url":"https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca"},{"@type":"ListItem","position":3,"name":"curve-dex on Monad","url":"https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7"},{"@type":"ListItem","position":4,"name":"curvance on Monad","url":"https://www.defi.garden/?pool=b8119d26-8f79-4b60-83f6-899b66418e22"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"SMON DeFi Yields Dataset","description":"Live DefiLlama yield data for SMON pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/smon","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest SMON yield today?","acceptedAnswer":{"@type":"Answer","text":"28.00% APY on kintsu (Monad), based on live DefiLlama data."}},{"@type":"Question","name":"How many SMON pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear DeFi Garden's $100K TVL floor, $3.97M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="SMON DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="4 live SMON pools above the $100K TVL floor, up to 28.00% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>SMON DeFi Yields</h1>
+    <p class="tp-answer">The highest honest SMON yield right now is 28.00% on kintsu (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">SMON's largest live pool is kintsu on Monad at 12.49% ($2.34M TVL). 4 SMON pools across 1 chain clear DeFi Garden's $100K TVL floor, $3.96M in total.</p>
+    <p class="intro">SMON's largest live pool is kintsu on Monad at 12.52% ($2.34M TVL). 4 SMON pools across 1 chain clear DeFi Garden's $100K TVL floor, $3.97M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=SMON">See live SMON pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -82,14 +90,14 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd">kintsu &rarr;</a></td>
           <td>Monad</td>
-          <td class="num">12.49%</td>
+          <td class="num">12.52%</td>
           <td class="num">$2.34M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca">neverland &rarr;</a></td>
           <td>Monad</td>
-          <td class="num">0.67%</td>
-          <td class="num">$804.8K</td>
+          <td class="num">0.70%</td>
+          <td class="num">$806.5K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7">curve-dex &rarr;</a></td>
@@ -101,12 +109,27 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b8119d26-8f79-4b60-83f6-899b66418e22">curvance &rarr;</a></td>
           <td>Monad</td>
           <td class="num">0.00%</td>
-          <td class="num">$215.1K</td>
+          <td class="num">$215.6K</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest SMON yield today?</h3>
+          <p class="tp-faq-a">28.00% APY on kintsu (Monad), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many SMON pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">4 live pools clear DeFi Garden&#39;s $100K TVL floor, $3.97M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">

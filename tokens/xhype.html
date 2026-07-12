@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"XHYPE","item":"https://www.defi.garden/tokens/xhype"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"liminal-basis on Ethereum","url":"https://www.defi.garden/?pool=86938e6e-35d9-4cbf-9682-be277f300ab5"},{"@type":"ListItem","position":2,"name":"liminal-basis on Hyperliquid L1","url":"https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195"},{"@type":"ListItem","position":3,"name":"liminal-basis on Arbitrum","url":"https://www.defi.garden/?pool=6b47d784-7591-4842-84a4-a7628b37c374"},{"@type":"ListItem","position":4,"name":"project-x on Hyperliquid L1","url":"https://www.defi.garden/?pool=3c5ef067-08a3-474c-8728-567371ac2e07"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"XHYPE DeFi Yields Dataset","description":"Live DefiLlama yield data for XHYPE pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/xhype","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest XHYPE yield today?","acceptedAnswer":{"@type":"Answer","text":"7.10% APY on liminal-basis (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many XHYPE pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear DeFi Garden's $100K TVL floor, $16.95M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="XHYPE DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="4 live XHYPE pools above the $100K TVL floor, up to 7.10% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,6 +76,7 @@
 <body>
   <main class="tp-wrap">
     <h1>XHYPE DeFi Yields</h1>
+    <p class="tp-answer">The highest honest XHYPE yield right now is 7.10% on liminal-basis (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">XHYPE's largest live pool is liminal-basis on Ethereum at 7.10% ($5.6M TVL). 4 XHYPE pools across 3 chains clear DeFi Garden's $100K TVL floor, $16.95M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=XHYPE">See live XHYPE pools &rarr;</a>
@@ -107,14 +115,29 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest XHYPE yield today?</h3>
+          <p class="tp-faq-a">7.10% APY on liminal-basis (Ethereum), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many XHYPE pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">4 live pools clear DeFi Garden&#39;s $100K TVL floor, $16.95M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

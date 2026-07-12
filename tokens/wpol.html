@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WPOL DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="1 live WPOL pool above the $100K TVL floor, up to 0.07% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="8 live WPOL pools above the $100K TVL floor, up to 25.93% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/wpol">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"WPOL","item":"https://www.defi.garden/tokens/wpol"}]}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aave-v3 on Polygon","url":"https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aave-v3 on Polygon","url":"https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b"},{"@type":"ListItem","position":2,"name":"uniswap-v3 on Polygon","url":"https://www.defi.garden/?pool=173d552b-fd4f-4c5e-b97b-707c3241dd1d"},{"@type":"ListItem","position":3,"name":"uniswap-v3 on Polygon","url":"https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba"},{"@type":"ListItem","position":4,"name":"uniswap-v3 on Polygon","url":"https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758"},{"@type":"ListItem","position":5,"name":"uniswap-v3 on Polygon","url":"https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650"},{"@type":"ListItem","position":6,"name":"uniswap-v3 on Polygon","url":"https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d"},{"@type":"ListItem","position":7,"name":"uniswap-v3 on Polygon","url":"https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153"},{"@type":"ListItem","position":8,"name":"uniswap-v3 on Polygon","url":"https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"WPOL DeFi Yields Dataset","description":"Live DefiLlama yield data for WPOL pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/wpol","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest WPOL yield today?","acceptedAnswer":{"@type":"Answer","text":"25.93% APY on aave-v3 (Polygon), based on live DefiLlama data."}},{"@type":"Question","name":"How many WPOL pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"8 live pools clear DeFi Garden's $100K TVL floor, $11.59M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="WPOL DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="1 live WPOL pool above the $100K TVL floor, up to 0.07% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="8 live WPOL pools above the $100K TVL floor, up to 25.93% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens/wpol">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -61,7 +68,7 @@
     <script>
       window.addEventListener('load', function () {
         if (window.Analytics && typeof Analytics.trackPageView === 'function') {
-          Analytics.trackPageView("/tokens/wpol", {"page_type":"token_landing","token":"WPOL","pool_count":1});
+          Analytics.trackPageView("/tokens/wpol", {"page_type":"token_landing","token":"WPOL","pool_count":8});
         }
       });
     </script>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>WPOL DeFi Yields</h1>
-    <p class="sub">1 live pool above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">WPOL's largest live pool is aave-v3 on Polygon at 0.07% ($6.17M TVL). 1 WPOL pool across 1 chain clear DeFi Garden's $100K TVL floor, $6.17M in total.</p>
+    <p class="tp-answer">The highest honest WPOL yield right now is 25.93% on aave-v3 (Polygon), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
+    <p class="sub">8 live pools above the $100K TVL floor · ranked by TVL</p>
+    <p class="intro">WPOL's largest live pool is aave-v3 on Polygon at 0.07% ($6.16M TVL). 8 WPOL pools across 1 chain clear DeFi Garden's $100K TVL floor, $11.59M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=WPOL">See live WPOL pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -83,12 +91,69 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b">aave-v3 &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">0.07%</td>
-          <td class="num">$6.17M</td>
+          <td class="num">$6.16M</td>
+        </tr>
+        <tr>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=173d552b-fd4f-4c5e-b97b-707c3241dd1d">uniswap-v3 &rarr;</a></td>
+          <td>Polygon</td>
+          <td class="num">0.00%</td>
+          <td class="num">$2.56M</td>
+        </tr>
+        <tr>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba">uniswap-v3 &rarr;</a></td>
+          <td>Polygon</td>
+          <td class="num">0.00%</td>
+          <td class="num">$1.2M</td>
+        </tr>
+        <tr>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758">uniswap-v3 &rarr;</a></td>
+          <td>Polygon</td>
+          <td class="num">25.93%</td>
+          <td class="num">$1.07M</td>
+        </tr>
+        <tr>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650">uniswap-v3 &rarr;</a></td>
+          <td>Polygon</td>
+          <td class="num">5.68%</td>
+          <td class="num">$171.1K</td>
+        </tr>
+        <tr>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d">uniswap-v3 &rarr;</a></td>
+          <td>Polygon</td>
+          <td class="num">15.54%</td>
+          <td class="num">$168K</td>
+        </tr>
+        <tr>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153">uniswap-v3 &rarr;</a></td>
+          <td>Polygon</td>
+          <td class="num">4.24%</td>
+          <td class="num">$143.6K</td>
+        </tr>
+        <tr>
+          <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=684919ff-13a1-4bae-83ac-249ae1424905">uniswap-v3 &rarr;</a></td>
+          <td>Polygon</td>
+          <td class="num">8.02%</td>
+          <td class="num">$111.5K</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest WPOL yield today?</h3>
+          <p class="tp-faq-a">25.93% APY on aave-v3 (Polygon), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many WPOL pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">8 live pools clear DeFi Garden&#39;s $100K TVL floor, $11.59M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">

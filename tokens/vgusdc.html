@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"VGUSDC","item":"https://www.defi.garden/tokens/vgusdc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"beets-dex-v3 on Sonic","url":"https://www.defi.garden/?pool=ed5a8748-a9f6-4f2f-83df-0cc1abcf58b8"},{"@type":"ListItem","position":2,"name":"balancer-v3 on Ethereum","url":"https://www.defi.garden/?pool=4026a5db-f80a-4a30-9f22-f25def8c443c"},{"@type":"ListItem","position":3,"name":"beets-dex-v3 on Sonic","url":"https://www.defi.garden/?pool=44beff52-c882-4738-964a-1cbecbe3f340"},{"@type":"ListItem","position":4,"name":"beets-dex-v3 on Sonic","url":"https://www.defi.garden/?pool=0cede7ea-5fa4-4870-bd6e-677a9d88e572"},{"@type":"ListItem","position":5,"name":"beets-dex-v3 on Sonic","url":"https://www.defi.garden/?pool=7604820b-f7e6-4b06-9c63-a72c648e1eff"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"VGUSDC DeFi Yields Dataset","description":"Live DefiLlama yield data for VGUSDC pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/vgusdc","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest VGUSDC yield today?","acceptedAnswer":{"@type":"Answer","text":"0.01% APY on beets-dex-v3 (Sonic), based on live DefiLlama data."}},{"@type":"Question","name":"How many VGUSDC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"5 live pools clear DeFi Garden's $100K TVL floor, $409.97M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="VGUSDC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="5 live VGUSDC pools above the $100K TVL floor, up to 0.01% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>VGUSDC DeFi Yields</h1>
+    <p class="tp-answer">The highest honest VGUSDC yield right now is 0.01% on beets-dex-v3 (Sonic), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">5 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">VGUSDC's largest live pool is beets-dex-v3 on Sonic at 0.00% ($277.78M TVL). 5 VGUSDC pools across 2 chains clear DeFi Garden's $100K TVL floor, $409.94M in total.</p>
+    <p class="intro">VGUSDC's largest live pool is beets-dex-v3 on Sonic at 0.00% ($277.81M TVL). 5 VGUSDC pools across 2 chains clear DeFi Garden's $100K TVL floor, $409.97M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=VGUSDC">See live VGUSDC pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -83,7 +91,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ed5a8748-a9f6-4f2f-83df-0cc1abcf58b8">beets-dex-v3 &rarr;</a></td>
           <td>Sonic</td>
           <td class="num">0.00%</td>
-          <td class="num">$277.78M</td>
+          <td class="num">$277.81M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4026a5db-f80a-4a30-9f22-f25def8c443c">balancer-v3 &rarr;</a></td>
@@ -95,7 +103,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=44beff52-c882-4738-964a-1cbecbe3f340">beets-dex-v3 &rarr;</a></td>
           <td>Sonic</td>
           <td class="num">0.00%</td>
-          <td class="num">$864.7K</td>
+          <td class="num">$864.8K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0cede7ea-5fa4-4870-bd6e-677a9d88e572">beets-dex-v3 &rarr;</a></td>
@@ -113,14 +121,29 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest VGUSDC yield today?</h3>
+          <p class="tp-faq-a">0.01% APY on beets-dex-v3 (Sonic), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many VGUSDC pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">5 live pools clear DeFi Garden&#39;s $100K TVL floor, $409.97M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

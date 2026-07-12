@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"YUSD","item":"https://www.defi.garden/tokens/yusd"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aegis-yusd on Ethereum","url":"https://www.defi.garden/?pool=f91b2168-c279-475c-a98a-673220f4fee7"},{"@type":"ListItem","position":2,"name":"aegis-yusd on BSC","url":"https://www.defi.garden/?pool=85307805-6873-4ed7-bfff-e0e871ca1d50"},{"@type":"ListItem","position":3,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=986a0498-9cd7-4d82-ae06-d3f66f3f0fd7"},{"@type":"ListItem","position":4,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe"},{"@type":"ListItem","position":5,"name":"curve-dex on Avalanche","url":"https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"YUSD DeFi Yields Dataset","description":"Live DefiLlama yield data for YUSD pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/yusd","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest YUSD yield today?","acceptedAnswer":{"@type":"Answer","text":"0.16% APY on aegis-yusd (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many YUSD pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"5 live pools clear DeFi Garden's $100K TVL floor, $37.47M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="YUSD DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="5 live YUSD pools above the $100K TVL floor, up to 0.16% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,6 +76,7 @@
 <body>
   <main class="tp-wrap">
     <h1>YUSD DeFi Yields</h1>
+    <p class="tp-answer">The highest honest YUSD yield right now is 0.16% on aegis-yusd (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">5 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">YUSD's largest live pool is aegis-yusd on Ethereum at 0.00% ($34.13M TVL). 5 YUSD pools across 3 chains clear DeFi Garden's $100K TVL floor, $37.47M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=YUSD">See live YUSD pools &rarr;</a>
@@ -113,14 +121,29 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest YUSD yield today?</h3>
+          <p class="tp-faq-a">0.16% APY on aegis-yusd (Ethereum), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many YUSD pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">5 live pools clear DeFi Garden&#39;s $100K TVL floor, $37.47M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

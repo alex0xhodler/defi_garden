@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains"},{"@type":"ListItem","position":3,"name":"Plasma","item":"https://www.defi.garden/chains/plasma"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aave-v3 on Plasma","url":"https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a"},{"@type":"ListItem","position":2,"name":"aave-v3 on Plasma","url":"https://www.defi.garden/?pool=569ab5a6-76e4-46a6-abb6-b12be4197e31"},{"@type":"ListItem","position":3,"name":"aave-v3 on Plasma","url":"https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b"},{"@type":"ListItem","position":4,"name":"aave-v3 on Plasma","url":"https://www.defi.garden/?pool=56fc0c94-0bf4-4ce0-98cf-63cbfa05513c"},{"@type":"ListItem","position":5,"name":"aave-v3 on Plasma","url":"https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a"},{"@type":"ListItem","position":6,"name":"fluid-lending on Plasma","url":"https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb"},{"@type":"ListItem","position":7,"name":"fluid-lending on Plasma","url":"https://www.defi.garden/?pool=d91d1fe5-604e-4b89-b4c7-198fad3a5466"},{"@type":"ListItem","position":8,"name":"veda on Plasma","url":"https://www.defi.garden/?pool=95d4f805-1800-4184-98a0-6e49b3ccad8a"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Plasma DeFi Yields Dataset","description":"Live DefiLlama yield data for Plasma pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/chains/plasma","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest Plasma yield today?","acceptedAnswer":{"@type":"Answer","text":"5.40% APY on aave-v3 (Plasma), based on live DefiLlama data."}},{"@type":"Question","name":"How many Plasma pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"36 live pools clear DeFi Garden's $100K TVL floor, $1.08B in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="Plasma DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="36 live pools on Plasma above the $100K TVL floor, up to 5.40% APY, across 22 tokens. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-faq { margin: 30px 0 8px; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,6 +76,7 @@
 <body>
   <main class="cp-wrap">
     <h1>Plasma DeFi Yields</h1>
+    <p class="cp-answer">The highest honest Plasma yield right now is 5.40% on aave-v3 (Plasma), among 36 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">36 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">Plasma's largest live pool is aave-v3 (SUSDE) at 3.75% ($262.46M TVL). 36 pools across 22 tokens clear DeFi Garden's $100K TVL floor, $1.08B in total.</p>
     <a class="cp-cta" href="https://www.defi.garden/?chain=Plasma">See live pools on Plasma &rarr;</a>
@@ -89,7 +97,7 @@
           <td>SYRUPUSDT</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=569ab5a6-76e4-46a6-abb6-b12be4197e31">aave-v3 &rarr;</a></td>
           <td class="num">0.00%</td>
-          <td class="num">$245.98M</td>
+          <td class="num">$245.78M</td>
         </tr>
         <tr>
           <td>USDE</td>
@@ -101,19 +109,19 @@
           <td>PT-SUSDE-22OCT2026</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=56fc0c94-0bf4-4ce0-98cf-63cbfa05513c">aave-v3 &rarr;</a></td>
           <td class="num">0.00%</td>
-          <td class="num">$107.22M</td>
+          <td class="num">$107.23M</td>
         </tr>
         <tr>
           <td>USDT0</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a">aave-v3 &rarr;</a></td>
           <td class="num">4.40%</td>
-          <td class="num">$67.31M</td>
+          <td class="num">$67.37M</td>
         </tr>
         <tr>
           <td>USDT0</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb">fluid-lending &rarr;</a></td>
           <td class="num">5.40%</td>
-          <td class="num">$57.65M</td>
+          <td class="num">$57.66M</td>
         </tr>
         <tr>
           <td>SUSDAI</td>
@@ -131,6 +139,21 @@
     </table>
     </div>
     </div>
+    <section class="cp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">What&#39;s the highest Plasma yield today?</h3>
+          <p class="cp-faq-a">5.40% APY on aave-v3 (Plasma), based on live DefiLlama data.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">How many Plasma pools clear the TVL floor?</h3>
+          <p class="cp-faq-a">36 live pools clear DeFi Garden&#39;s $100K TVL floor, $1.08B in total.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">Are these rates safe?</h3>
+          <p class="cp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related chains">
       <h2>Related chains</h2>
       <div class="related-links">

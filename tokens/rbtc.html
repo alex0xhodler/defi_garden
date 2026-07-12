@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"RBTC","item":"https://www.defi.garden/tokens/rbtc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"sovryn-dex on Rootstock","url":"https://www.defi.garden/?pool=45ed2a98-303b-4d68-ac6c-67806c98c18b"},{"@type":"ListItem","position":2,"name":"sovryn-dex on Rootstock","url":"https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03"},{"@type":"ListItem","position":3,"name":"sovryn-dex on Rootstock","url":"https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f"},{"@type":"ListItem","position":4,"name":"sovryn-dex on Rootstock","url":"https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6"},{"@type":"ListItem","position":5,"name":"sovryn-dex on Rootstock","url":"https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2"},{"@type":"ListItem","position":6,"name":"sovryn-dex on Rootstock","url":"https://www.defi.garden/?pool=ca0d8e1a-75cb-4156-826b-7255b94eb809"},{"@type":"ListItem","position":7,"name":"sovryn-dex on Rootstock","url":"https://www.defi.garden/?pool=3294c8ac-c4f3-42ac-9d0f-be92416ec265"},{"@type":"ListItem","position":8,"name":"uniswap-v3 on Arbitrum","url":"https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"RBTC DeFi Yields Dataset","description":"Live DefiLlama yield data for RBTC pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/rbtc","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest RBTC yield today?","acceptedAnswer":{"@type":"Answer","text":"1.23% APY on sovryn-dex (Rootstock), based on live DefiLlama data."}},{"@type":"Question","name":"How many RBTC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"8 live pools clear DeFi Garden's $100K TVL floor, $5.19M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="RBTC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="8 live RBTC pools above the $100K TVL floor, up to 1.23% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,6 +76,7 @@
 <body>
   <main class="tp-wrap">
     <h1>RBTC DeFi Yields</h1>
+    <p class="tp-answer">The highest honest RBTC yield right now is 1.23% on sovryn-dex (Rootstock), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">8 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">RBTC's largest live pool is sovryn-dex on Rootstock at 0.91% ($1.34M TVL). 8 RBTC pools across 2 chains clear DeFi Garden's $100K TVL floor, $5.19M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=RBTC">See live RBTC pools &rarr;</a>
@@ -131,11 +139,26 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest RBTC yield today?</h3>
+          <p class="tp-faq-a">1.23% APY on sovryn-dex (Rootstock), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many RBTC pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">8 live pools clear DeFi Garden&#39;s $100K TVL floor, $5.19M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wbtc">WBTC</a>
         <a href="https://www.defi.garden/tokens/buidl">BUIDL</a>
         <a href="https://www.defi.garden/tokens/reth">RETH</a>

@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LBTC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="27 live LBTC pools above the $100K TVL floor, up to 2.73% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="27 live LBTC pools above the $100K TVL floor, up to 2.74% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/lbtc">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"LBTC","item":"https://www.defi.garden/tokens/lbtc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"lombard-lbtc on Ethereum","url":"https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999"},{"@type":"ListItem","position":2,"name":"sparklend on Ethereum","url":"https://www.defi.garden/?pool=ff17b423-bccc-4d12-9a72-68bde120ac62"},{"@type":"ListItem","position":3,"name":"aave-v3 on Ethereum","url":"https://www.defi.garden/?pool=b7444791-ecab-4bc4-85dc-9eb351064d98"},{"@type":"ListItem","position":4,"name":"morpho-blue on Ethereum","url":"https://www.defi.garden/?pool=75effcdf-6c7a-4c6a-a7c5-855f95be2cba"},{"@type":"ListItem","position":5,"name":"uniswap-v3 on Ethereum","url":"https://www.defi.garden/?pool=2fa87ded-b27a-4348-b852-e64acd817b79"},{"@type":"ListItem","position":6,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8"},{"@type":"ListItem","position":7,"name":"moonwell-lending on Base","url":"https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e"},{"@type":"ListItem","position":8,"name":"morpho-blue on Ethereum","url":"https://www.defi.garden/?pool=807f07ed-801c-4d65-9596-687aa94ac8a0"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"LBTC DeFi Yields Dataset","description":"Live DefiLlama yield data for LBTC pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/lbtc","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest LBTC yield today?","acceptedAnswer":{"@type":"Answer","text":"2.74% APY on lombard-lbtc (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many LBTC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"27 live pools clear DeFi Garden's $100K TVL floor, $1.03B in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="LBTC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="27 live LBTC pools above the $100K TVL floor, up to 2.73% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="27 live LBTC pools above the $100K TVL floor, up to 2.74% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens/lbtc">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>LBTC DeFi Yields</h1>
+    <p class="tp-answer">The highest honest LBTC yield right now is 2.74% on lombard-lbtc (Ethereum), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">27 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">LBTC's largest live pool is lombard-lbtc on Ethereum at 0.33% ($595.22M TVL). 27 LBTC pools across 2 chains clear DeFi Garden's $100K TVL floor, $1.03B in total.</p>
+    <p class="intro">LBTC's largest live pool is lombard-lbtc on Ethereum at 0.33% ($596.05M TVL). 27 LBTC pools across 2 chains clear DeFi Garden's $100K TVL floor, $1.03B in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=LBTC">See live LBTC pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -83,43 +91,43 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999">lombard-lbtc &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.33%</td>
-          <td class="num">$595.22M</td>
+          <td class="num">$596.05M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ff17b423-bccc-4d12-9a72-68bde120ac62">sparklend &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$213.47M</td>
+          <td class="num">$213.77M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b7444791-ecab-4bc4-85dc-9eb351064d98">aave-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$128.26M</td>
+          <td class="num">$128.44M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=75effcdf-6c7a-4c6a-a7c5-855f95be2cba">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$63.54M</td>
+          <td class="num">$63.63M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2fa87ded-b27a-4348-b852-e64acd817b79">uniswap-v3 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$5.94M</td>
+          <td class="num">$5.95M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8">aerodrome-slipstream &rarr;</a></td>
           <td>Base</td>
-          <td class="num">2.73%</td>
+          <td class="num">2.74%</td>
           <td class="num">$3.47M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e">moonwell-lending &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.24%</td>
-          <td class="num">$3.23M</td>
+          <td class="num">$3.24M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=807f07ed-801c-4d65-9596-687aa94ac8a0">morpho-blue &rarr;</a></td>
@@ -131,14 +139,29 @@
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest LBTC yield today?</h3>
+          <p class="tp-faq-a">2.74% APY on lombard-lbtc (Ethereum), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many LBTC pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">27 live pools clear DeFi Garden&#39;s $100K TVL floor, $1.03B in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

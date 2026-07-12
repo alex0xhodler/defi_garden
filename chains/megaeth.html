@@ -9,6 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains"},{"@type":"ListItem","position":3,"name":"MegaETH","item":"https://www.defi.garden/chains/megaeth"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aave-v3 on MegaETH","url":"https://www.defi.garden/?pool=7b13e8df-9e04-4920-a711-6aeef16f9f7c"},{"@type":"ListItem","position":2,"name":"aave-v3 on MegaETH","url":"https://www.defi.garden/?pool=07f70bad-5e2a-5b2f-8094-03965435983e"},{"@type":"ListItem","position":3,"name":"aave-v3 on MegaETH","url":"https://www.defi.garden/?pool=52612f7a-d8ec-43a0-a01a-2ba1ffc0ec9d"},{"@type":"ListItem","position":4,"name":"aave-v3 on MegaETH","url":"https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0"},{"@type":"ListItem","position":5,"name":"aave-v3 on MegaETH","url":"https://www.defi.garden/?pool=79d98ac2-be32-4b03-b598-5d9ce813045b"},{"@type":"ListItem","position":6,"name":"aave-v3 on MegaETH","url":"https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"MegaETH DeFi Yields Dataset","description":"Live DefiLlama yield data for MegaETH pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/chains/megaeth","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest MegaETH yield today?","acceptedAnswer":{"@type":"Answer","text":"3.17% APY on aave-v3 (MegaETH), based on live DefiLlama data."}},{"@type":"Question","name":"How many MegaETH pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"6 live pools clear DeFi Garden's $100K TVL floor, $145.87M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="MegaETH DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="6 live pools on MegaETH above the $100K TVL floor, up to 3.17% APY, across 6 tokens. Honest yields from DefiLlama data — no anomalous rates.">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-faq { margin: 30px 0 8px; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="cp-wrap">
     <h1>MegaETH DeFi Yields</h1>
+    <p class="cp-answer">The highest honest MegaETH yield right now is 3.17% on aave-v3 (MegaETH), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">6 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">MegaETH's largest live pool is aave-v3 (USDE) at 0.05% ($71.83M TVL). 6 pools across 6 tokens clear DeFi Garden's $100K TVL floor, $145.83M in total.</p>
+    <p class="intro">MegaETH's largest live pool is aave-v3 (USDE) at 0.05% ($71.82M TVL). 6 pools across 6 tokens clear DeFi Garden's $100K TVL floor, $145.87M in total.</p>
     <a class="cp-cta" href="https://www.defi.garden/?chain=MegaETH">See live pools on MegaETH &rarr;</a>
     <div class="cp-card">
     <div class="scroll">
@@ -83,7 +91,7 @@
           <td>USDE</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=7b13e8df-9e04-4920-a711-6aeef16f9f7c">aave-v3 &rarr;</a></td>
           <td class="num">0.05%</td>
-          <td class="num">$71.83M</td>
+          <td class="num">$71.82M</td>
         </tr>
         <tr>
           <td>STCUSD</td>
@@ -95,30 +103,45 @@
           <td>WSTETH</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=52612f7a-d8ec-43a0-a01a-2ba1ffc0ec9d">aave-v3 &rarr;</a></td>
           <td class="num">0.00%</td>
-          <td class="num">$14.24M</td>
+          <td class="num">$14.28M</td>
         </tr>
         <tr>
           <td>USDM</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0">aave-v3 &rarr;</a></td>
           <td class="num">3.17%</td>
-          <td class="num">$13.24M</td>
+          <td class="num">$13.22M</td>
         </tr>
         <tr>
           <td>BTC.B</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=79d98ac2-be32-4b03-b598-5d9ce813045b">aave-v3 &rarr;</a></td>
           <td class="num">0.00%</td>
-          <td class="num">$3.81M</td>
+          <td class="num">$3.82M</td>
         </tr>
         <tr>
           <td>WETH</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91">aave-v3 &rarr;</a></td>
           <td class="num">1.08%</td>
-          <td class="num">$129.5K</td>
+          <td class="num">$129.8K</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="cp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">What&#39;s the highest MegaETH yield today?</h3>
+          <p class="cp-faq-a">3.17% APY on aave-v3 (MegaETH), based on live DefiLlama data.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">How many MegaETH pools clear the TVL floor?</h3>
+          <p class="cp-faq-a">6 live pools clear DeFi Garden&#39;s $100K TVL floor, $145.87M in total.</p>
+        </div>
+        <div class="cp-faq-item">
+          <h3 class="cp-faq-q">Are these rates safe?</h3>
+          <p class="cp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related chains">
       <h2>Related chains</h2>
       <div class="related-links">

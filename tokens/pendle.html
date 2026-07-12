@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PENDLE DeFi Yields — Live Pools by TVL | DeFi Garden 🌱</title>
-    <meta name="description" content="17 live PENDLE pools above the $100K TVL floor, up to 45.25% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta name="description" content="17 live PENDLE pools above the $100K TVL floor, up to 43.85% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens/pendle">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"PENDLE","item":"https://www.defi.garden/tokens/pendle"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=ada1896e-f85e-4fab-a5be-9c548297a27e"},{"@type":"ListItem","position":2,"name":"camelot-v2 on Arbitrum","url":"https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474"},{"@type":"ListItem","position":3,"name":"uniswap-v3 on Arbitrum","url":"https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f"},{"@type":"ListItem","position":4,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=b9311779-d877-50be-8279-515e9bc9c4a7"},{"@type":"ListItem","position":5,"name":"uniswap-v4 on Arbitrum","url":"https://www.defi.garden/?pool=9e931aa5-7b7c-4c3b-8edb-fb9f07d9ce18"},{"@type":"ListItem","position":6,"name":"dolomite on Arbitrum","url":"https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac"},{"@type":"ListItem","position":7,"name":"uniswap-v3 on Arbitrum","url":"https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575"},{"@type":"ListItem","position":8,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"PENDLE DeFi Yields Dataset","description":"Live DefiLlama yield data for PENDLE pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/pendle","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest PENDLE yield today?","acceptedAnswer":{"@type":"Answer","text":"43.85% APY on uniswap-v4 (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many PENDLE pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"17 live pools clear DeFi Garden's $100K TVL floor, $9.81M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="PENDLE DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
-    <meta property="og:description" content="17 live PENDLE pools above the $100K TVL floor, up to 45.25% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
+    <meta property="og:description" content="17 live PENDLE pools above the $100K TVL floor, up to 43.85% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens/pendle">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -49,6 +50,12 @@
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -69,8 +76,9 @@
 <body>
   <main class="tp-wrap">
     <h1>PENDLE DeFi Yields</h1>
+    <p class="tp-answer">The highest honest PENDLE yield right now is 43.85% on uniswap-v4 (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">17 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">PENDLE's largest live pool is uniswap-v4 on Ethereum at 0.00% ($2.26M TVL). 17 PENDLE pools across 2 chains clear DeFi Garden's $100K TVL floor, $9.78M in total.</p>
+    <p class="intro">PENDLE's largest live pool is uniswap-v4 on Ethereum at 0.00% ($2.27M TVL). 17 PENDLE pools across 2 chains clear DeFi Garden's $100K TVL floor, $9.81M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=PENDLE">See live PENDLE pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -83,24 +91,24 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ada1896e-f85e-4fab-a5be-9c548297a27e">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$2.26M</td>
+          <td class="num">$2.27M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474">camelot-v2 &rarr;</a></td>
           <td>Arbitrum</td>
-          <td class="num">3.77%</td>
-          <td class="num">$1.57M</td>
+          <td class="num">3.49%</td>
+          <td class="num">$1.58M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f">uniswap-v3 &rarr;</a></td>
           <td>Arbitrum</td>
-          <td class="num">19.94%</td>
+          <td class="num">18.55%</td>
           <td class="num">$1.04M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b9311779-d877-50be-8279-515e9bc9c4a7">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">30.10%</td>
+          <td class="num">31.61%</td>
           <td class="num">$1.03M</td>
         </tr>
         <tr>
@@ -113,32 +121,47 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac">dolomite &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">0.34%</td>
-          <td class="num">$498.7K</td>
+          <td class="num">$501.4K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575">uniswap-v3 &rarr;</a></td>
           <td>Arbitrum</td>
-          <td class="num">45.25%</td>
-          <td class="num">$483.5K</td>
+          <td class="num">43.85%</td>
+          <td class="num">$484.8K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$456.7K</td>
+          <td class="num">$460.6K</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-faq" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">What&#39;s the highest PENDLE yield today?</h3>
+          <p class="tp-faq-a">43.85% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">How many PENDLE pools clear the TVL floor?</h3>
+          <p class="tp-faq-a">17 live pools clear DeFi Garden&#39;s $100K TVL floor, $9.81M in total.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Are these rates safe?</h3>
+          <p class="tp-faq-a">Every rate shown passes DeFi Garden&#39;s trust filters — a $100K minimum TVL and exclusion of anomalous (&gt;1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+    </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
+        <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>
