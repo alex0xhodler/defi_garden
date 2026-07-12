@@ -61,4 +61,38 @@ test('kevin.html FAQ block still renders (untouched by this diff)', () => {
   assert.ok(html.includes('st-faq-item'), 'FAQ block missing — should be untouched by an analytics-only diff');
 });
 
+console.log('FAQPage JSON-LD (040) — kevin only, byte-for-byte match to visible content');
+function extractLdJsonBlocks(html, type) {
+  const blocks = [];
+  const re = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
+  let m;
+  while ((m = re.exec(html))) {
+    const parsed = JSON.parse(m[1]);
+    if (!type || parsed['@type'] === type) blocks.push(parsed);
+  }
+  return blocks;
+}
+
+test('kevin.html: FAQPage JSON-LD present, valid JSON, mainEntity matches p.faq exactly', () => {
+  const kevin = gen.PERSONAS.find(p => p.slug === 'kevin');
+  const html = gen.renderStoryPage(kevin, fakePlan);
+  const faqBlocks = extractLdJsonBlocks(html, 'FAQPage');
+  assert.strictEqual(faqBlocks.length, 1, 'expected exactly one FAQPage block');
+  const mainEntity = faqBlocks[0].mainEntity;
+  assert.strictEqual(mainEntity.length, kevin.faq.length, 'mainEntity length must match p.faq length');
+  kevin.faq.forEach((item, i) => {
+    assert.strictEqual(mainEntity[i]['@type'], 'Question');
+    assert.strictEqual(mainEntity[i].name, item.q, 'question text must byte-for-byte match visible text');
+    assert.strictEqual(mainEntity[i].acceptedAnswer['@type'], 'Answer');
+    assert.strictEqual(mainEntity[i].acceptedAnswer.text, item.a, 'answer text must byte-for-byte match visible text');
+  });
+});
+
+gen.PERSONAS.filter(p => p.slug !== 'kevin').forEach(persona => {
+  test(`${persona.slug}: no FAQPage block (no p.faq array)`, () => {
+    const html = gen.renderStoryPage(persona, fakePlan);
+    assert.strictEqual(extractLdJsonBlocks(html, 'FAQPage').length, 0, `${persona.slug} has no faq array and must emit no FAQPage block`);
+  });
+});
+
 console.log(`\n${passed} assertions passed`);

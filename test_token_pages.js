@@ -147,6 +147,50 @@ test('HTML is escaped (malicious project name cannot inject markup)', () => {
   assert.ok(evil.includes('&lt;script&gt;'), 'expected escaped project name');
 });
 
+console.log('040 — BreadcrumbList JSON-LD');
+function extractLdJsonBlocks(pageHtml, type) {
+  const blocks = [];
+  const re = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
+  let m;
+  while ((m = re.exec(pageHtml))) {
+    const parsed = JSON.parse(m[1]);
+    if (!type || parsed['@type'] === type) blocks.push(parsed);
+  }
+  return blocks;
+}
+test('exactly one valid BreadcrumbList block with 3 items', () => {
+  const blocks = extractLdJsonBlocks(html, 'BreadcrumbList');
+  assert.strictEqual(blocks.length, 1, 'expected exactly one BreadcrumbList block');
+  assert.strictEqual(blocks[0].itemListElement.length, 3, 'expected exactly 3 breadcrumb items');
+});
+test('breadcrumb items: Home (linked), Tokens (unlinked — no real hub page), <SYMBOL> (linked, self-canonical)', () => {
+  const items = extractLdJsonBlocks(html, 'BreadcrumbList')[0].itemListElement;
+  assert.strictEqual(items[0].position, 1);
+  assert.strictEqual(items[0].name, 'Home');
+  assert.strictEqual(items[0].item, 'https://www.defi.garden/');
+  assert.strictEqual(items[1].position, 2);
+  assert.strictEqual(items[1].name, 'Tokens');
+  assert.ok(!('item' in items[1]), 'Tokens has no hub page in this repo — must not link a 404');
+  assert.strictEqual(items[2].position, 3);
+  assert.strictEqual(items[2].name, 'BIG');
+  assert.strictEqual(items[2].item, 'https://www.defi.garden/tokens/big', 'must match the page\'s own canonical URL');
+});
+test('malicious symbol cannot break out of the ld+json script tag (BreadcrumbList block itself)', () => {
+  // Isolates the JSON-LD block this diff adds. The pre-existing analytics
+  // bootstrap (039, renderAnalyticsBootstrap) separately JSON.stringifies
+  // rec.symbol into a *different* <script> without this escaping — a
+  // pre-existing gap out of scope for 040 (no new computation, breadcrumb/
+  // FAQ/Organization/WebSite only). Flagged in specs/040-notes.md.
+  const evil = gen.renderTokenPage({ symbol: '</script><script>alert(1)</script>', slug: 'evil', qualifyingCount: 1,
+    totalTvl: 2e7, pools: [{ project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] });
+  const ldJsonScripts = evil.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g);
+  assert.ok(ldJsonScripts.every(s => !s.slice('<script type="application/ld+json">'.length, -'</script>'.length).includes('</script')),
+    'a ld+json script body must not contain a literal </script sequence');
+  const blocks = extractLdJsonBlocks(evil, 'BreadcrumbList');
+  assert.strictEqual(blocks.length, 1, 'BreadcrumbList block must still parse as valid JSON');
+  assert.strictEqual(blocks[0].itemListElement[2].name, '</script><script>alert(1)</script>', 'JSON-LD name must still equal the raw symbol once parsed');
+});
+
 console.log('023 — content depth + internal linking');
 test('renders a unique per-token intro from real data (top pool + totals)', () => {
   const big = gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked));

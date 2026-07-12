@@ -211,6 +211,21 @@ function renderTokenPage(rec, related) {
     `${rec.qualifyingCount} ${sym} ${poolWord} across ${chainCount} ${chainWord} clear ` +
     `DeFi Garden's $100K TVL floor, ${formatUsd(rec.totalTvl)} in total.`;
 
+  // BreadcrumbList (040): Home and the current page are real, linkable URLs.
+  // "Tokens" has no `item` — there is no /tokens hub page in this repo (no
+  // rewrite in vercel.json, no generated index) and structured data must not
+  // point at a URL that 404s; schema.org's ListItem.item is optional, so an
+  // unlinked middle crumb is valid and honest to the actual site structure.
+  const breadcrumbJsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: 'Tokens' },
+      { '@type': 'ListItem', position: 3, name: rec.symbol, item: pageUrl }
+    ]
+  }).replace(/</g, '\\u003c');
+
   const relatedLinks = (related || []).map(r =>
     `<a href="${SITE_URL}/tokens/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
   const relatedBlock = relatedLinks
@@ -242,6 +257,7 @@ function renderTokenPage(rec, related) {
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
+    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
