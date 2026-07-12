@@ -229,6 +229,20 @@ test('generatedDate param controls Dataset.dateModified (defaults to today if om
   const dated = gen.renderChainPage(byChain['Big'], [], '2020-01-01');
   assert.strictEqual(extractLdJsonBlocks(dated, 'Dataset')[0].dateModified, '2020-01-01');
 });
+
+console.log('048 — freshness signal: visible "Last updated" + Dataset.dateModified match');
+test('renders a visible "Last updated <date>" line', () => {
+  const dated = gen.renderChainPage(byChain['Big'], [], '2026-07-12');
+  assert.ok(dated.includes('Last updated 2026-07-12'), 'missing visible "Last updated" line');
+});
+test('visible "Last updated" date is byte-for-byte identical to Dataset.dateModified', () => {
+  const dated = gen.renderChainPage(byChain['Big'], [], '2026-07-12');
+  const dateModified = extractLdJsonBlocks(dated, 'Dataset')[0].dateModified;
+  assert.ok(dated.includes(`Last updated ${dateModified}`), 'visible date and Dataset.dateModified must match byte-for-byte');
+});
+test('default (no generatedDate passed) still renders a "Last updated" line', () => {
+  assert.ok(/Last updated .+/.test(html), 'default-dated page missing visible "Last updated" line');
+});
 test('malicious project name cannot break out of the ItemList ld+json script tag', () => {
   const evil = gen.renderChainPage({ chain: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7, tokens: ['Y'],
     pools: [{ symbol: 'Y', project: '</script><script>alert(1)</script>', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] }, [], '2026-07-12');

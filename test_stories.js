@@ -95,4 +95,18 @@ gen.PERSONAS.filter(p => p.slug !== 'kevin').forEach(persona => {
   });
 });
 
+console.log('048 — freshness signal: visible "Last updated" + WebPage.dateModified match, every persona');
+gen.PERSONAS.forEach(persona => {
+  test(`${persona.slug}: renders a visible "Last updated <date>" line`, () => {
+    const html = gen.renderStoryPage(persona, fakePlan);
+    assert.ok(html.includes(`Last updated ${fakePlan.generatedDate}`), 'missing visible "Last updated" line');
+  });
+  test(`${persona.slug}: exactly one WebPage block, dateModified byte-for-byte matches the visible date`, () => {
+    const html = gen.renderStoryPage(persona, fakePlan);
+    const blocks = extractLdJsonBlocks(html, 'WebPage');
+    assert.strictEqual(blocks.length, 1, 'expected exactly one WebPage block');
+    assert.strictEqual(blocks[0].dateModified, fakePlan.generatedDate, 'WebPage.dateModified must match the visible date');
+  });
+});
+
 console.log(`\n${passed} assertions passed`);

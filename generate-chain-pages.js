@@ -34,7 +34,8 @@ const {
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug,
   poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
-  buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd
+  buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
+  todayGeneratedDate, renderLastUpdatedHtml
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -107,7 +108,7 @@ function renderChainPage(rec, related, generatedDate) {
   const chainName = escapeHtml(rec.chain);
   const pageUrl = `${SITE_URL}/chains/${rec.slug}`;
   const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}`;
-  const genDate = generatedDate || new Date().toISOString().slice(0, 10);
+  const genDate = generatedDate || todayGeneratedDate();
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const tokenCount = rec.tokens.length;
   const title = `${chainName} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`;
@@ -265,7 +266,7 @@ ${rows}
     </div>
     </div>
 ${faqBlock}${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
-    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
+${renderLastUpdatedHtml(genDate)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
   </main>
 </body>
 </html>
@@ -388,8 +389,11 @@ async function main() {
       if (f.endsWith('.html')) fs.rmSync(path.join(outDir, f));
     });
   }
+  // One generation date for the whole run (048): every page's visible "Last
+  // updated" line + dateModified schema agree, even across a long-running batch.
+  const genDate = todayGeneratedDate();
   ranked.forEach(rec => {
-    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked)));
+    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
