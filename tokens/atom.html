@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/atom", {"page_type":"token_landing","token":"ATOM","pool_count":8});
         }
       });
@@ -78,7 +78,7 @@
     <h1>ATOM DeFi Yields</h1>
     <p class="tp-answer">The highest honest ATOM yield right now is 15.84% on hydro-inflow (Neutron), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">8 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">ATOM's largest live pool is hydro-inflow on Neutron at 15.84% ($1.57M TVL). 8 ATOM pools across 2 chains clear DeFi Garden's $100K TVL floor, $4.71M in total.</p>
+    <p class="intro">ATOM's largest live pool is hydro-inflow on Neutron at 15.84% ($1.58M TVL). 8 ATOM pools across 2 chains clear DeFi Garden's $100K TVL floor, $4.71M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=ATOM">See live ATOM pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -91,12 +91,12 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3">hydro-inflow &rarr;</a></td>
           <td>Neutron</td>
           <td class="num">15.84%</td>
-          <td class="num">$1.57M</td>
+          <td class="num">$1.58M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58">osmosis-dex &rarr;</a></td>
           <td>Osmosis</td>
-          <td class="num">2.84%</td>
+          <td class="num">2.86%</td>
           <td class="num">$735.2K</td>
         </tr>
         <tr>
@@ -126,13 +126,13 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10">osmosis-dex &rarr;</a></td>
           <td>Osmosis</td>
-          <td class="num">3.52%</td>
+          <td class="num">3.53%</td>
           <td class="num">$275.4K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b">osmosis-dex &rarr;</a></td>
           <td>Osmosis</td>
-          <td class="num">3.82%</td>
+          <td class="num">3.83%</td>
           <td class="num">$186.3K</td>
         </tr>
       </tbody>

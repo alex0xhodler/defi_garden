@@ -9,7 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"EURC","item":"https://www.defi.garden/tokens/eurc"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"aave-v3 on Ethereum","url":"https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e"},{"@type":"ListItem","position":2,"name":"jupiter-lend on Solana","url":"https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3"},{"@type":"ListItem","position":3,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=61395c4f-90fc-4a70-851f-86182893705b"},{"@type":"ListItem","position":4,"name":"aave-v3 on Base","url":"https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715"},{"@type":"ListItem","position":5,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767"},{"@type":"ListItem","position":6,"name":"fluid-lending on Base","url":"https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0"},{"@type":"ListItem","position":7,"name":"aerodrome-slipstream on Base","url":"https://www.defi.garden/?pool=fbce5857-69c4-4142-938b-62bdc9444967"},{"@type":"ListItem","position":8,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=ae2073a3-2d17-4b0e-a35e-9a90a2569063"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"EURC DeFi Yields Dataset","description":"Live DefiLlama yield data for EURC pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/eurc","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest EURC yield today?","acceptedAnswer":{"@type":"Answer","text":"6.44% APY on aave-v3 (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many EURC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"32 live pools clear DeFi Garden's $100K TVL floor, $41.93M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest EURC yield today?","acceptedAnswer":{"@type":"Answer","text":"6.44% APY on aave-v3 (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many EURC pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"32 live pools clear DeFi Garden's $100K TVL floor, $41.95M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="EURC DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="32 live EURC pools above the $100K TVL floor, up to 6.44% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/eurc", {"page_type":"token_landing","token":"EURC","pool_count":32});
         }
       });
@@ -78,7 +78,7 @@
     <h1>EURC DeFi Yields</h1>
     <p class="tp-answer">The highest honest EURC yield right now is 6.44% on aave-v3 (Ethereum), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">32 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">EURC's largest live pool is aave-v3 on Ethereum at 2.43% ($14.92M TVL). 32 EURC pools across 3 chains clear DeFi Garden's $100K TVL floor, $41.93M in total.</p>
+    <p class="intro">EURC's largest live pool is aave-v3 on Ethereum at 2.43% ($14.92M TVL). 32 EURC pools across 3 chains clear DeFi Garden's $100K TVL floor, $41.95M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=EURC">See live EURC pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -114,7 +114,7 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767">aerodrome-slipstream &rarr;</a></td>
           <td>Base</td>
-          <td class="num">6.42%</td>
+          <td class="num">6.38%</td>
           <td class="num">$3.05M</td>
         </tr>
         <tr>
@@ -127,12 +127,12 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=fbce5857-69c4-4142-938b-62bdc9444967">aerodrome-slipstream &rarr;</a></td>
           <td>Base</td>
           <td class="num">6.44%</td>
-          <td class="num">$995K</td>
+          <td class="num">$993.4K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ae2073a3-2d17-4b0e-a35e-9a90a2569063">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">2.43%</td>
+          <td class="num">2.39%</td>
           <td class="num">$828.4K</td>
         </tr>
       </tbody>
@@ -147,7 +147,7 @@
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">How many EURC pools clear the TVL floor?</h3>
-          <p class="tp-faq-a">32 live pools clear DeFi Garden&#39;s $100K TVL floor, $41.93M in total.</p>
+          <p class="tp-faq-a">32 live pools clear DeFi Garden&#39;s $100K TVL floor, $41.95M in total.</p>
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
@@ -160,8 +160,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

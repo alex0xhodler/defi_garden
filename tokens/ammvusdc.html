@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/ammvusdc", {"page_type":"token_landing","token":"AMMVUSDC","pool_count":1});
         }
       });
@@ -118,8 +118,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

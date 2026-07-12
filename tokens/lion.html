@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/lion", {"page_type":"token_landing","token":"LION","pool_count":2});
         }
       });
@@ -96,8 +96,8 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae">raydium-amm &rarr;</a></td>
           <td>Solana</td>
-          <td class="num">0.30%</td>
-          <td class="num">$383.6K</td>
+          <td class="num">0.28%</td>
+          <td class="num">$383.8K</td>
         </tr>
       </tbody>
     </table>

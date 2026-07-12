@@ -9,7 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"GNS","item":"https://www.defi.garden/tokens/gns"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"gains-network on Arbitrum","url":"https://www.defi.garden/?pool=daf1512e-5d07-4f91-8b46-9967e006f7ac"},{"@type":"ListItem","position":2,"name":"gains-network on Base","url":"https://www.defi.garden/?pool=dc15175e-6f66-4dde-858e-af4e838f7eb1"},{"@type":"ListItem","position":3,"name":"gains-network on Polygon","url":"https://www.defi.garden/?pool=11c9273b-f17e-4f69-b503-3982c2da242a"},{"@type":"ListItem","position":4,"name":"camelot-v3 on Arbitrum","url":"https://www.defi.garden/?pool=f413a14f-e487-4325-8c88-3f3665e71606"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"GNS DeFi Yields Dataset","description":"Live DefiLlama yield data for GNS pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/gns","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest GNS yield today?","acceptedAnswer":{"@type":"Answer","text":"1.47% APY on gains-network (Arbitrum), based on live DefiLlama data."}},{"@type":"Question","name":"How many GNS pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear DeFi Garden's $100K TVL floor, $3.53M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest GNS yield today?","acceptedAnswer":{"@type":"Answer","text":"1.47% APY on gains-network (Arbitrum), based on live DefiLlama data."}},{"@type":"Question","name":"How many GNS pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear DeFi Garden's $100K TVL floor, $3.54M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="GNS DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="4 live GNS pools above the $100K TVL floor, up to 1.47% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/gns", {"page_type":"token_landing","token":"GNS","pool_count":4});
         }
       });
@@ -78,7 +78,7 @@
     <h1>GNS DeFi Yields</h1>
     <p class="tp-answer">The highest honest GNS yield right now is 1.47% on gains-network (Arbitrum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">GNS's largest live pool is gains-network on Arbitrum at 0.00% ($2.09M TVL). 4 GNS pools across 3 chains clear DeFi Garden's $100K TVL floor, $3.53M in total.</p>
+    <p class="intro">GNS's largest live pool is gains-network on Arbitrum at 0.00% ($2.09M TVL). 4 GNS pools across 3 chains clear DeFi Garden's $100K TVL floor, $3.54M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=GNS">See live GNS pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -97,19 +97,19 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=dc15175e-6f66-4dde-858e-af4e838f7eb1">gains-network &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.00%</td>
-          <td class="num">$918.8K</td>
+          <td class="num">$921K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=11c9273b-f17e-4f69-b503-3982c2da242a">gains-network &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">0.00%</td>
-          <td class="num">$267.8K</td>
+          <td class="num">$268.5K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f413a14f-e487-4325-8c88-3f3665e71606">camelot-v3 &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">1.47%</td>
-          <td class="num">$255.2K</td>
+          <td class="num">$255.4K</td>
         </tr>
       </tbody>
     </table>
@@ -123,7 +123,7 @@
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">How many GNS pools clear the TVL floor?</h3>
-          <p class="tp-faq-a">4 live pools clear DeFi Garden&#39;s $100K TVL floor, $3.53M in total.</p>
+          <p class="tp-faq-a">4 live pools clear DeFi Garden&#39;s $100K TVL floor, $3.54M in total.</p>
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
@@ -133,8 +133,8 @@
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/cbbtc">CBBTC</a>
         <a href="https://www.defi.garden/tokens/weth">WETH</a>
         <a href="https://www.defi.garden/tokens/wbtc">WBTC</a>

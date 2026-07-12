@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/usdr", {"page_type":"token_landing","token":"USDR","pool_count":4});
         }
       });
@@ -108,7 +108,7 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">0.29%</td>
+          <td class="num">0.31%</td>
           <td class="num">$195.1K</td>
         </tr>
       </tbody>
@@ -136,8 +136,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

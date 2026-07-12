@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/chains/echelon-initia", {"page_type":"chain_landing","chain":"Echelon Initia","pool_count":3});
         }
       });
@@ -97,13 +97,13 @@
           <td>USDC</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=d08cafa1-0af2-4673-8b21-ac5533e9bb20">echelon-market &rarr;</a></td>
           <td class="num">1.83%</td>
-          <td class="num">$594K</td>
+          <td class="num">$593.7K</td>
         </tr>
         <tr>
           <td>SXINIT</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369">echelon-market &rarr;</a></td>
           <td class="num">2.38%</td>
-          <td class="num">$223.2K</td>
+          <td class="num">$222.6K</td>
         </tr>
       </tbody>
     </table>

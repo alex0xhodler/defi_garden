@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/tmvusdc", {"page_type":"token_landing","token":"TMVUSDC","pool_count":4});
         }
       });
@@ -102,13 +102,13 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">5.03%</td>
+          <td class="num">5.01%</td>
           <td class="num">$488.7K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3">convex-finance &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">3.83%</td>
+          <td class="num">3.81%</td>
           <td class="num">$488.4K</td>
         </tr>
       </tbody>
@@ -136,8 +136,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/unieth", {"page_type":"token_landing","token":"UNIETH","pool_count":2});
         }
       });
@@ -96,7 +96,7 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">1.78%</td>
+          <td class="num">1.74%</td>
           <td class="num">$405K</td>
         </tr>
       </tbody>
@@ -124,8 +124,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

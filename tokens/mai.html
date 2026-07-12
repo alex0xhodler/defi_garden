@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/mai", {"page_type":"token_landing","token":"MAI","pool_count":7});
         }
       });
@@ -78,7 +78,7 @@
     <h1>MAI DeFi Yields</h1>
     <p class="tp-answer">The highest honest MAI yield right now is 6.97% on aerodrome-v1 (Base), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">7 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">MAI's largest live pool is aerodrome-v1 on Base at 6.75% ($2.54M TVL). 7 MAI pools across 3 chains clear DeFi Garden's $100K TVL floor, $5.52M in total.</p>
+    <p class="intro">MAI's largest live pool is aerodrome-v1 on Base at 6.74% ($2.54M TVL). 7 MAI pools across 3 chains clear DeFi Garden's $100K TVL floor, $5.52M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=MAI">See live MAI pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -90,7 +90,7 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60">aerodrome-v1 &rarr;</a></td>
           <td>Base</td>
-          <td class="num">6.75%</td>
+          <td class="num">6.74%</td>
           <td class="num">$2.54M</td>
         </tr>
         <tr>

@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/dammstable", {"page_type":"token_landing","token":"DAMMSTABLE","pool_count":1});
         }
       });
@@ -115,8 +115,8 @@
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wbtc">WBTC</a>
         <a href="https://www.defi.garden/tokens/buidl">BUIDL</a>
         <a href="https://www.defi.garden/tokens/reth">RETH</a>

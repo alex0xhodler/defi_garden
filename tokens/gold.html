@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/gold", {"page_type":"token_landing","token":"GOLD","pool_count":2});
         }
       });
@@ -97,7 +97,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=96f61d61-d006-4368-a199-5b7fa5c6d6ab">uniswap-v4 &rarr;</a></td>
           <td>Base</td>
           <td class="num">0.00%</td>
-          <td class="num">$153.9K</td>
+          <td class="num">$153.6K</td>
         </tr>
       </tbody>
     </table>

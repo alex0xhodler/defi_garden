@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/bet", {"page_type":"token_landing","token":"BET","pool_count":3});
         }
       });
@@ -97,7 +97,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=941d51c9-b34e-4568-897d-f1d9cfc8c957">uniswap-v4 &rarr;</a></td>
           <td>Polygon</td>
           <td class="num">0.00%</td>
-          <td class="num">$554.7K</td>
+          <td class="num">$554.6K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0a99582c-ad74-4380-abec-007014a3d85f">aerodrome-v1 &rarr;</a></td>

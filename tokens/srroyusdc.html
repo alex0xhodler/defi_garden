@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/srroyusdc", {"page_type":"token_landing","token":"SRROYUSDC","pool_count":4});
         }
       });
@@ -109,7 +109,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=3f63a73f-836b-481d-9ce5-3455ea5c4a12">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">1.33%</td>
-          <td class="num">$871.2K</td>
+          <td class="num">$871.3K</td>
         </tr>
       </tbody>
     </table>
@@ -136,8 +136,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

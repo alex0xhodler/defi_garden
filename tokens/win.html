@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/win", {"page_type":"token_landing","token":"WIN","pool_count":4});
         }
       });
@@ -97,7 +97,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=915a6589-0ab5-55f1-b317-c2a06ba02817">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$565.1K</td>
+          <td class="num">$560.2K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0864f70d-085b-4a19-a2bc-fc107ab3750a">justlend-v1 &rarr;</a></td>
@@ -109,7 +109,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=212f2e6c-d48d-4729-beef-bbb4cacaed83">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.00%</td>
-          <td class="num">$134.5K</td>
+          <td class="num">$137.1K</td>
         </tr>
       </tbody>
     </table>
@@ -136,8 +136,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

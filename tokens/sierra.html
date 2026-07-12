@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/sierra", {"page_type":"token_landing","token":"SIERRA","pool_count":4});
         }
       });
@@ -78,7 +78,7 @@
     <h1>SIERRA DeFi Yields</h1>
     <p class="tp-answer">The highest honest SIERRA yield right now is 10.19% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">4 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">SIERRA's largest live pool is pendle on Ethereum at 6.65% ($19.84M TVL). 4 SIERRA pools across 2 chains clear DeFi Garden's $100K TVL floor, $47.04M in total.</p>
+    <p class="intro">SIERRA's largest live pool is pendle on Ethereum at 6.86% ($19.84M TVL). 4 SIERRA pools across 2 chains clear DeFi Garden's $100K TVL floor, $47.04M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=SIERRA">See live SIERRA pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -90,7 +90,7 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c485f3ca-df33-5ffc-8312-7bdb629be533">pendle &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">6.65%</td>
+          <td class="num">6.86%</td>
           <td class="num">$19.84M</td>
         </tr>
         <tr>
@@ -102,7 +102,7 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769">uniswap-v4 &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">0.03%</td>
+          <td class="num">0.05%</td>
           <td class="num">$7.18M</td>
         </tr>
         <tr>
@@ -136,8 +136,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

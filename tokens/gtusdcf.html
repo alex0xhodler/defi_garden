@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/gtusdcf", {"page_type":"token_landing","token":"GTUSDCF","pool_count":3});
         }
       });
@@ -103,7 +103,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80">morpho-blue &rarr;</a></td>
           <td>Base</td>
           <td class="num">5.30%</td>
-          <td class="num">$199.5K</td>
+          <td class="num">$196.5K</td>
         </tr>
       </tbody>
     </table>
@@ -130,8 +130,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

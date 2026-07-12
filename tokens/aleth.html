@@ -9,7 +9,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"ALETH","item":"https://www.defi.garden/tokens/aleth"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88"},{"@type":"ListItem","position":2,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc"},{"@type":"ListItem","position":3,"name":"stake-dao on Ethereum","url":"https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221"},{"@type":"ListItem","position":4,"name":"velodrome-v2 on OP Mainnet","url":"https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d"},{"@type":"ListItem","position":5,"name":"convex-finance on Ethereum","url":"https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e"},{"@type":"ListItem","position":6,"name":"yearn-finance on OP Mainnet","url":"https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9"},{"@type":"ListItem","position":7,"name":"curve-dex on Arbitrum","url":"https://www.defi.garden/?pool=fa4c63d8-e411-437a-80be-b09c603cfa7b"},{"@type":"ListItem","position":8,"name":"stake-dao on Arbitrum","url":"https://www.defi.garden/?pool=9a972972-30f1-4bcc-b1f1-9a3d7117a01b"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"ALETH DeFi Yields Dataset","description":"Live DefiLlama yield data for ALETH pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/aleth","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"2026-07-12"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest ALETH yield today?","acceptedAnswer":{"@type":"Answer","text":"8.45% APY on curve-dex (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many ALETH pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"12 live pools clear DeFi Garden's $100K TVL floor, $18.76M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest ALETH yield today?","acceptedAnswer":{"@type":"Answer","text":"8.45% APY on curve-dex (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many ALETH pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"12 live pools clear DeFi Garden's $100K TVL floor, $18.74M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="ALETH DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="12 live ALETH pools above the $100K TVL floor, up to 8.45% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/aleth", {"page_type":"token_landing","token":"ALETH","pool_count":12});
         }
       });
@@ -78,7 +78,7 @@
     <h1>ALETH DeFi Yields</h1>
     <p class="tp-answer">The highest honest ALETH yield right now is 8.45% on curve-dex (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">12 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">ALETH's largest live pool is curve-dex on Ethereum at 3.16% ($4.37M TVL). 12 ALETH pools across 3 chains clear DeFi Garden's $100K TVL floor, $18.76M in total.</p>
+    <p class="intro">ALETH's largest live pool is curve-dex on Ethereum at 3.10% ($4.37M TVL). 12 ALETH pools across 3 chains clear DeFi Garden's $100K TVL floor, $18.74M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=ALETH">See live ALETH pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -90,50 +90,50 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">3.16%</td>
+          <td class="num">3.10%</td>
           <td class="num">$4.37M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">0.96%</td>
+          <td class="num">0.87%</td>
           <td class="num">$3.63M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221">stake-dao &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">1.65%</td>
-          <td class="num">$2.72M</td>
+          <td class="num">1.66%</td>
+          <td class="num">$2.73M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d">velodrome-v2 &rarr;</a></td>
           <td>OP Mainnet</td>
-          <td class="num">6.72%</td>
-          <td class="num">$2.34M</td>
+          <td class="num">6.77%</td>
+          <td class="num">$2.33M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e">convex-finance &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">2.63%</td>
-          <td class="num">$2.21M</td>
+          <td class="num">2.60%</td>
+          <td class="num">$2.2M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9">yearn-finance &rarr;</a></td>
           <td>OP Mainnet</td>
-          <td class="num">6.40%</td>
+          <td class="num">6.39%</td>
           <td class="num">$1.06M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=fa4c63d8-e411-437a-80be-b09c603cfa7b">curve-dex &rarr;</a></td>
           <td>Arbitrum</td>
-          <td class="num">8.36%</td>
-          <td class="num">$653.2K</td>
+          <td class="num">8.38%</td>
+          <td class="num">$652.9K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=9a972972-30f1-4bcc-b1f1-9a3d7117a01b">stake-dao &rarr;</a></td>
           <td>Arbitrum</td>
           <td class="num">8.45%</td>
-          <td class="num">$631.7K</td>
+          <td class="num">$633.4K</td>
         </tr>
       </tbody>
     </table>
@@ -147,7 +147,7 @@
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">How many ALETH pools clear the TVL floor?</h3>
-          <p class="tp-faq-a">12 live pools clear DeFi Garden&#39;s $100K TVL floor, $18.76M in total.</p>
+          <p class="tp-faq-a">12 live pools clear DeFi Garden&#39;s $100K TVL floor, $18.74M in total.</p>
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
@@ -160,8 +160,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>

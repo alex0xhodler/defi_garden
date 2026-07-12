@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/chains/gravity", {"page_type":"chain_landing","chain":"Gravity","pool_count":2});
         }
       });
@@ -97,7 +97,7 @@
           <td>ATETH</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a">latch &rarr;</a></td>
           <td class="num">2.16%</td>
-          <td class="num">$174.8K</td>
+          <td class="num">$174.2K</td>
         </tr>
       </tbody>
     </table>

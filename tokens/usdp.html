@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/usdp", {"page_type":"token_landing","token":"USDP","pool_count":3});
         }
       });
@@ -102,7 +102,7 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e7414ac9-06ee-4e06-9571-900c82802716">balancer-v3 &rarr;</a></td>
           <td>Base</td>
-          <td class="num">4.78%</td>
+          <td class="num">4.77%</td>
           <td class="num">$150.3K</td>
         </tr>
       </tbody>

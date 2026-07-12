@@ -67,7 +67,7 @@
     <script defer src="https://www.defi.garden/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView("/tokens/crclx", {"page_type":"token_landing","token":"CRCLX","pool_count":5});
         }
       });
@@ -78,7 +78,7 @@
     <h1>CRCLX DeFi Yields</h1>
     <p class="tp-answer">The highest honest CRCLX yield right now is 15.42% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">5 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">CRCLX's largest live pool is raydium-amm on Solana at 12.38% ($2.07M TVL). 5 CRCLX pools across 2 chains clear DeFi Garden's $100K TVL floor, $4.69M in total.</p>
+    <p class="intro">CRCLX's largest live pool is raydium-amm on Solana at 11.52% ($2.07M TVL). 5 CRCLX pools across 2 chains clear DeFi Garden's $100K TVL floor, $4.69M in total.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=CRCLX">See live CRCLX pools &rarr;</a>
     <div class="tp-card">
     <div class="scroll">
@@ -90,26 +90,26 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6">raydium-amm &rarr;</a></td>
           <td>Solana</td>
-          <td class="num">12.38%</td>
+          <td class="num">11.52%</td>
           <td class="num">$2.07M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447">raydium-amm &rarr;</a></td>
           <td>Solana</td>
-          <td class="num">3.84%</td>
+          <td class="num">3.76%</td>
           <td class="num">$2.05M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ee750b84-e4ed-4053-a8c7-d5cf15636132">kamino-lend &rarr;</a></td>
           <td>Solana</td>
           <td class="num">0.00%</td>
-          <td class="num">$270.8K</td>
+          <td class="num">$276.2K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba">raydium-amm &rarr;</a></td>
           <td>Solana</td>
-          <td class="num">2.53%</td>
-          <td class="num">$187.2K</td>
+          <td class="num">2.36%</td>
+          <td class="num">$187.1K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=de9fd0a0-0993-5f3e-afc2-0c3d7449388d">uniswap-v4 &rarr;</a></td>
@@ -142,8 +142,8 @@
         <a href="https://www.defi.garden/tokens/steth">STETH</a>
         <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/wbeth">WBETH</a>
-        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/susds">SUSDS</a>
+        <a href="https://www.defi.garden/tokens/weeth">WEETH</a>
         <a href="https://www.defi.garden/tokens/wsteth">WSTETH</a>
       </div>
     </nav>
