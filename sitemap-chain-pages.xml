@@ -256,17 +256,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/venom</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/neutron</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/etherlink</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -432,11 +432,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/neo</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/metis</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>daily</changefreq>
   </url>
