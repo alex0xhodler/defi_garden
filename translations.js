@@ -460,12 +460,12 @@ const translations = {
 
       // Waitlist CTA
       ctaWaitlist: "Join the waitlist →",
-      ctaWaitlistMicro: "Free to join • No wallet needed yet • One email when ready",
+      ctaWaitlistMicro: "Free to join • Card doesn't exist yet • We'll email you when it does",
 
       // Waitlist modal — step 1
-      waitlistTitle: "Save your spot",
-      waitlistBenefits: "Join the early access list — we'll email you when your spot is ready. No wallet or crypto experience needed to sign up.",
-      waitlistGarden: (labels, monthly) => `Your garden already covers ${labels} — ≈${monthly}/mo paid from yield forever.`,
+      waitlistTitle: "Get early access to the card",
+      waitlistBenefits: "Join early access — once it's ready, your garden's yield pays your subscription automatically through a simple card. Your money always stays yours; no wallet or crypto experience needed to sign up.",
+      waitlistGarden: (labels, monthly) => `Your garden already covers ${labels} — a card funded by ≈${monthly}/mo of yield could pay it forever.`,
       waitlistJoin: "Save my spot",
       waitlistEmailPlaceholder: "your@email.com",
       waitlistError: "Something went wrong — please try again.",
@@ -1014,12 +1014,12 @@ const translations = {
 
       // Waitlist CTA
       ctaWaitlist: "대기자 명단에 등록 →",
-      ctaWaitlistMicro: "무료 가입 • 아직 지갑 불필요 • 준비되면 이메일 한 통",
+      ctaWaitlistMicro: "무료 가입 • 카드는 아직 없어요 • 준비되면 이메일로 알려드려요",
 
       // Waitlist modal — step 1
-      waitlistTitle: "자리 확보하기",
-      waitlistBenefits: "얼리 액세스 명단에 등록하면 자리가 생길 때 이메일로 알려드려요. 가입에 지갑이나 크립토 경험은 필요 없어요.",
-      waitlistGarden: (labels, monthly) => `내 정원은 이미 ${labels}를 커버해요 — 수익으로 매달 ≈${monthly}씩 영구히 내줄 수 있어요.`,
+      waitlistTitle: "카드 얼리 액세스 신청하기",
+      waitlistBenefits: "얼리 액세스에 가입하는 거예요 — 준비되면 내 정원의 수익으로 구독료가 자동 결제되는 카드를 받게 돼요. 예치금은 항상 내 소유이고, 가입에 지갑이나 크립토 경험은 필요 없어요.",
+      waitlistGarden: (labels, monthly) => `내 정원은 이미 ${labels}를 커버해요 — 월 ≈${monthly}의 수익으로 결제되는 카드가 영구히 대신 내줄 수 있어요.`,
       waitlistJoin: "자리 확보",
       waitlistEmailPlaceholder: "이메일@주소.com",
       waitlistError: "오류가 발생했어요 — 다시 시도해 주세요.",
