@@ -47,6 +47,7 @@ const APY_SANITY_LIMIT = 1000;    // TRUST RAIL: total APY above this may NEVER 
 const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a page
 const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
+const HUB_TOP_N = 60;             // tokens linked directly on the /tokens hub before the A–Z tier takes over (045)
 
 // Token symbol validity — mirrors generate-sitemap.js isValidToken.
 const TOKEN_REGEX = /^[A-Z0-9][A-Z0-9.\-_]{1,14}$/i;
@@ -185,6 +186,167 @@ function relatedFor(rec, all, n) {
   const coSet = new Set(coChain);
   const rest = others.filter(r => !coSet.has(r));
   return coChain.concat(rest).slice(0, cap).map(r => ({ symbol: r.symbol, slug: r.slug }));
+}
+
+/**
+ * Group ranked tokens into A–Z buckets for the /tokens hub's second tier
+ * (045): the hub can't link all N tokens directly (2026 guidance caps
+ * links-per-template to ~30-100), so every token not in the hub's top-N by
+ * TVL is reachable via exactly one A–Z sub-hub instead — still <=3 clicks
+ * from `/` (home -> hub -> letter -> token).
+ */
+function groupTokensAZ(ranked) {
+  const groups = new Map(); // key -> records[]
+  (ranked || []).forEach(rec => {
+    const c = (rec.symbol || '').charAt(0).toUpperCase();
+    const key = /[A-Z]/.test(c) ? c : '0-9';
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(rec);
+  });
+  const out = [];
+  groups.forEach((records, key) => {
+    out.push({
+      key,
+      slug: key === '0-9' ? '0-9' : key.toLowerCase(),
+      records: records.slice().sort((a, b) => a.symbol.localeCompare(b.symbol))
+    });
+  });
+  out.sort((a, b) => (a.key === '0-9' ? -1 : b.key === '0-9' ? 1 : a.key.localeCompare(b.key)));
+  return out;
+}
+
+/** Scoped <style> block shared by the /tokens and /chains hub + A–Z pages
+ * (045). Same neumorphic tokens as renderTokenPage/renderChainPage's own
+ * scoped styles ("tp-"/"cp-" prefixed) — "hub-" prefixed here since hub
+ * pages are their own template, following this repo's existing pattern of
+ * one prefixed style block per page type rather than a shared stylesheet. */
+function renderHubStyleBlock() {
+  return `
+    <style>
+      .hub-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
+      .hub-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
+      .hub-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
+      .hub-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
+      .hub-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 18px; margin: 20px 0; }
+      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
+      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
+      .hub-links a:hover { box-shadow: var(--neuro-shadow-flat); }
+      .hub-links a:active { box-shadow: var(--neuro-shadow-pressed); }
+      .hub-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
+      .hub-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
+      .hub-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+      .hub-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+      .hub-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } }
+    </style>`;
+}
+
+/** Render the /tokens hub (index) page: top tokens by TVL directly, every
+ * other token reachable via its A–Z sub-hub (045 — de-orphan the SEO
+ * surface so all spoke pages are <=3 clicks from `/`). */
+function renderTokenHubPage(ranked, azGroups) {
+  const pageUrl = `${SITE_URL}/tokens`;
+  const top = (ranked || []).slice(0, HUB_TOP_N);
+  const title = `Every DeFi Token's Live Yields | DeFi Garden 🌱`;
+  const description =
+    `${ranked.length} tokens with live, trust-filtered DeFi yield data — top pools by TVL, ` +
+    `browsable by name. Honest yields from DefiLlama, no anomalous rates.`;
+
+  const topLinks = top.map(r =>
+    `<a href="${SITE_URL}/tokens/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
+  const azLinks = (azGroups || []).map(g =>
+    `<a href="${SITE_URL}/tokens/az/${g.slug}">${escapeHtml(g.key)} (${g.records.length})</a>`).join('\n        ');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${escapeHtml(title)}</title>
+    <meta name="description" content="${escapeHtml(description)}">
+    <link rel="canonical" href="${pageUrl}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="${escapeHtml(title)}">
+    <meta property="og:description" content="${escapeHtml(description)}">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:image" content="${SITE_URL}/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderAnalyticsBootstrap('/tokens', { page_type: 'token_hub', token_count: ranked.length })}
+</head>
+<body>
+  <main class="hub-wrap">
+    <h1>All Token Yield Pages</h1>
+    <p class="sub">${ranked.length} tokens with live, trust-filtered yield data</p>
+    <p class="intro">Every DeFi Garden token page in one place — live pools ranked by TVL, filtered through our $100K floor and anomaly rails. Start with the top tokens by TVL, or jump straight to a letter.</p>
+    <a class="hub-cta" href="${SITE_URL}/">&larr; Back to DeFi Garden</a>
+    <div class="hub-card">
+      <h2>Top tokens by TVL</h2>
+      <div class="hub-links">
+        ${topLinks}
+      </div>
+    </div>
+    <div class="hub-card">
+      <h2>Browse all tokens A&ndash;Z</h2>
+      <div class="hub-links">
+        ${azLinks}
+      </div>
+    </div>
+    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (&ge; $100K TVL, anomalous rates excluded). Not financial advice &mdash; education only.</p>
+  </main>
+</body>
+</html>
+`;
+}
+
+/** Render one A–Z sub-hub page: every token whose symbol starts with
+ * `group.key`, linked to its /tokens/<slug> page (045). */
+function renderTokenAzPage(group) {
+  const pageUrl = `${SITE_URL}/tokens/az/${group.slug}`;
+  const title = `Tokens starting with ${group.key} | DeFi Garden 🌱`;
+  const description =
+    `${group.records.length} DeFi tokens starting with "${group.key}" with live, ` +
+    `trust-filtered yield data on DeFi Garden.`;
+  const links = group.records.map(r =>
+    `<a href="${SITE_URL}/tokens/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${escapeHtml(title)}</title>
+    <meta name="description" content="${escapeHtml(description)}">
+    <link rel="canonical" href="${pageUrl}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="${escapeHtml(title)}">
+    <meta property="og:description" content="${escapeHtml(description)}">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:image" content="${SITE_URL}/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderAnalyticsBootstrap(`/tokens/az/${group.slug}`, { page_type: 'token_az', letter: group.key, token_count: group.records.length })}
+</head>
+<body>
+  <main class="hub-wrap">
+    <h1>Tokens starting with ${escapeHtml(group.key)}</h1>
+    <p class="sub">${group.records.length} tokens</p>
+    <a class="hub-cta" href="${SITE_URL}/tokens">&larr; All tokens</a>
+    <div class="hub-card">
+      <div class="hub-links">
+        ${links}
+      </div>
+    </div>
+    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (&ge; $100K TVL, anomalous rates excluded). Not financial advice &mdash; education only.</p>
+  </main>
+</body>
+</html>
+`;
 }
 
 /** Render a single token's static landing page as an HTML string. */
@@ -329,14 +491,17 @@ ${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi 
 `;
 }
 
-/** Render a sitemap (urlset) of all generated /tokens/<slug> URLs (021). */
-function renderTokenSitemap(ranked, lastmod) {
+/** Render a sitemap (urlset) of all generated /tokens/<slug> URLs (021),
+ * plus any `extraLocs` (045: the /tokens hub + its A–Z sub-hub pages) so
+ * they're discoverable through the same sitemap-index chain. */
+function renderTokenSitemap(ranked, lastmod, extraLocs) {
+  const lastmodTag = lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '';
+  const extra = (extraLocs || []).map(loc =>
+    `  <url>\n    <loc>${loc}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   const urls = (ranked || []).map(rec =>
-    `  <url>\n    <loc>${SITE_URL}/tokens/${rec.slug}</loc>\n` +
-    (lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '') +
-    `    <changefreq>daily</changefreq>\n  </url>`).join('\n');
+    `  <url>\n    <loc>${SITE_URL}/tokens/${rec.slug}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   return `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
 }
 
 // --- IO layer (only runs as a script) --------------------------------------
@@ -398,10 +563,23 @@ async function main() {
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
+  // Hub + A–Z pages (045): de-orphan the surface — home.html links to
+  // /tokens, which links every token within <=1 more hop.
+  const azGroups = groupTokensAZ(ranked);
+  fs.writeFileSync(path.join(outDir, 'index.html'), renderTokenHubPage(ranked, azGroups));
+  const azDir = path.join(outDir, 'az');
+  if (!fs.existsSync(azDir)) fs.mkdirSync(azDir, { recursive: true });
+  else fs.readdirSync(azDir).forEach(f => { if (f.endsWith('.html')) fs.rmSync(path.join(azDir, f)); });
+  azGroups.forEach(g => {
+    fs.writeFileSync(path.join(azDir, `${g.slug}.html`), renderTokenAzPage(g));
+  });
+  console.log(`🧭 Wrote tokens hub + ${azGroups.length} A–Z pages`);
+
   if (args.sitemap) {
     const lastmod = new Date().toISOString().slice(0, 10);
-    fs.writeFileSync(path.resolve(args.sitemap), renderTokenSitemap(ranked, lastmod));
-    console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length} URLs)`);
+    const hubUrls = [`${SITE_URL}/tokens`].concat(azGroups.map(g => `${SITE_URL}/tokens/az/${g.slug}`));
+    fs.writeFileSync(path.resolve(args.sitemap), renderTokenSitemap(ranked, lastmod, hubUrls));
+    console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length + hubUrls.length} URLs)`);
   }
 }
 
@@ -412,5 +590,6 @@ if (require.main === module) {
 module.exports = {
   rankTopTokens, renderTokenPage, relatedFor, renderTokenSitemap, tokenSlug, isQualifyingPool, isAnomalousApy,
   isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap,
+  groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };

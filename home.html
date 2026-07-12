@@ -277,6 +277,15 @@
     <div id="root"></div>
     <div id="planner-root"></div>
 
+    <!-- SEO surface hub links (045) — server-rendered, present in the raw
+         HTML in BOTH router modes so crawlers reach /tokens and /chains
+         without executing the app. Static, outside #root/#planner-root:
+         the IA router and the mounted React apps never touch this. -->
+    <footer class="seo-hub-links">
+      <a href="/tokens">Browse tokens</a>
+      <a href="/chains">Browse chains</a>
+    </footer>
+
     <!-- Analytics-app scripts (PoolDetail/app.js) — injected only when needed
          (Babel requires dynamic load). analytics.js itself is now a static
          defer tag in <head>, shared by both modes — see above. -->

@@ -32,7 +32,7 @@ const tp = require('./generate-token-pages.js');
 const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
-  renderAnalyticsBootstrap, tokenSlug: chainSlug
+  renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -240,14 +240,67 @@ ${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi 
 `;
 }
 
-/** Render a sitemap (urlset) of all generated /chains/<slug> URLs. */
-function renderChainSitemap(ranked, lastmod) {
+/** Render the /chains hub (index) page: all chains linked directly — the
+ * chain surface (dozens, not thousands) fits under the ~100-link-per-
+ * template guidance without an A–Z tier (045 — de-orphan the SEO surface
+ * so every /chains/<slug> page is <=3 clicks from `/`). */
+function renderChainHubPage(ranked) {
+  const pageUrl = `${SITE_URL}/chains`;
+  const title = `Every Chain's Live DeFi Yields | DeFi Garden 🌱`;
+  const description =
+    `${ranked.length} chains with live, trust-filtered DeFi yield data, ranked by TVL. ` +
+    `Honest yields from DefiLlama, no anomalous rates.`;
+  const links = (ranked || []).map(r =>
+    `<a href="${SITE_URL}/chains/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${escapeHtml(title)}</title>
+    <meta name="description" content="${escapeHtml(description)}">
+    <link rel="canonical" href="${pageUrl}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="${escapeHtml(title)}">
+    <meta property="og:description" content="${escapeHtml(description)}">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:image" content="${SITE_URL}/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderAnalyticsBootstrap('/chains', { page_type: 'chain_hub', chain_count: ranked.length })}
+</head>
+<body>
+  <main class="hub-wrap">
+    <h1>All Chain Yield Pages</h1>
+    <p class="sub">${ranked.length} chains with live, trust-filtered yield data</p>
+    <p class="intro">Every DeFi Garden chain page in one place — live pools ranked by TVL, filtered through our $100K floor and anomaly rails.</p>
+    <a class="hub-cta" href="${SITE_URL}/">&larr; Back to DeFi Garden</a>
+    <div class="hub-card">
+      <h2>All chains</h2>
+      <div class="hub-links">
+        ${links}
+      </div>
+    </div>
+    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (&ge; $100K TVL, anomalous rates excluded). Not financial advice &mdash; education only.</p>
+  </main>
+</body>
+</html>
+`;
+}
+
+/** Render a sitemap (urlset) of all generated /chains/<slug> URLs, plus any
+ * `extraLocs` (045: the /chains hub page). */
+function renderChainSitemap(ranked, lastmod, extraLocs) {
+  const lastmodTag = lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '';
+  const extra = (extraLocs || []).map(loc =>
+    `  <url>\n    <loc>${loc}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   const urls = (ranked || []).map(rec =>
-    `  <url>\n    <loc>${SITE_URL}/chains/${rec.slug}</loc>\n` +
-    (lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '') +
-    `    <changefreq>daily</changefreq>\n  </url>`).join('\n');
+    `  <url>\n    <loc>${SITE_URL}/chains/${rec.slug}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   return `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
 }
 
 // --- IO layer (only runs as a script) --------------------------------------
@@ -308,10 +361,16 @@ async function main() {
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
+  // Hub page (045): de-orphan the surface — home.html links to /chains,
+  // which links every chain directly (dozens fit under the ~100-link cap).
+  fs.writeFileSync(path.join(outDir, 'index.html'), renderChainHubPage(ranked));
+  console.log('🧭 Wrote chains hub page');
+
   if (args.sitemap) {
     const lastmod = new Date().toISOString().slice(0, 10);
-    fs.writeFileSync(path.resolve(args.sitemap), renderChainSitemap(ranked, lastmod));
-    console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length} URLs)`);
+    const hubUrls = [`${SITE_URL}/chains`];
+    fs.writeFileSync(path.resolve(args.sitemap), renderChainSitemap(ranked, lastmod, hubUrls));
+    console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length + hubUrls.length} URLs)`);
   }
 }
 
@@ -320,6 +379,6 @@ if (require.main === module) {
 }
 
 module.exports = {
-  rankTopChains, renderChainPage, relatedChainsFor, renderChainSitemap, chainSlug,
+  rankTopChains, renderChainPage, relatedChainsFor, renderChainSitemap, renderChainHubPage, chainSlug,
   POOLS_PER_PAGE, MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
