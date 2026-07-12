@@ -286,33 +286,29 @@
       <a href="/chains">Browse chains</a>
     </footer>
 
-    <!-- Analytics-app scripts (PoolDetail/app.js) — injected only when needed
-         (Babel requires dynamic load). analytics.js itself is now a static
-         defer tag in <head>, shared by both modes — see above. -->
+    <!-- Analytics-app scripts — injected only when needed, as the CI-compiled
+         plain-JS output (compile-app.js / npm run compile), not the text/babel
+         + in-browser @babel/standalone pipeline this used to run (backlog
+         052 — that transpile was the dominant mobile PageSpeed hit on every
+         analytics/SEO page). *.compiled.js are committed, generated output —
+         edit app.js/PoolDetail.js and recompile, never hand-edit *.compiled.js.
+         PoolDetail.compiled.js must finish executing before app.compiled.js
+         runs (app's App component references the global PoolDetail function,
+         including on the initial render for `?pool=` deep links) — chained
+         via onload since dynamically inserted scripts don't otherwise
+         guarantee execution order. analytics.js itself is a static defer tag
+         in <head>, shared by both modes — see above. -->
     <script>
         if (window.__APP_MODE === 'analytics') {
             (function() {
-                function addScript(src, type, onload) {
+                function addScript(src, onload) {
                     var s = document.createElement('script');
                     s.src = src;
-                    if (type) s.setAttribute('type', type);
                     if (onload) s.onload = onload;
                     document.body.appendChild(s);
                 }
-                addScript('PoolDetail.js', 'text/babel');
-                addScript('app.js', 'text/babel');
-                // Babel is injected async, so it loads AFTER DOMContentLoaded has fired —
-                // its auto-scan never runs. Transpile the injected text/babel scripts
-                // explicitly once Babel is ready, so the analytics app actually mounts.
-                addScript('https://unpkg.com/@babel/standalone/babel.min.js', null, function() {
-                    function tryTransform() {
-                        if (window.React && window.ReactDOM && window.Babel && Babel.transformScriptTags) {
-                            Babel.transformScriptTags();
-                        } else {
-                            setTimeout(tryTransform, 10);
-                        }
-                    }
-                    tryTransform();
+                addScript('PoolDetail.compiled.js', function() {
+                    addScript('app.compiled.js');
                 });
             })();
         }
