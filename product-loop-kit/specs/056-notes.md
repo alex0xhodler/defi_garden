@@ -7,7 +7,7 @@
 - No changes to `__APP_MODE` router logic, `ANALYTICS_PARAMS`, compile/minify pipeline, or CI workflow — confirmed via diff review.
 
 ## Deviations from spec
-None. Implemented exactly as specced.
+`plan.html`'s two unpkg `<link rel="preload" as="script">` hints (spec said "removing the preload/preconnect/dns-prefetch triplet") were repointed to the local files instead of deleted outright — a still-valid preload for the same script, now same-origin, rather than a dead hint. The acceptance criterion itself ("hints tied only to the React fetch are removed... unpkg hints removed") is satisfied either way since no unpkg reference remains; deleting a still-useful preload would have been a pure regression with no benefit. Flagged per verifier review.
 
 ## vercel.json — deliberately untouched
 Spec's acceptance criteria don't mention vercel.json, and no change is needed: the existing generic cache rule `"source": "/(.*)\\.(js|css)"` already matches `react.production.min.js`/`react-dom.production.min.js` by extension, so they automatically inherit the 5min+SWR cache header 055 shipped for all static JS/CSS. Confirmed by reading vercel.json directly.
