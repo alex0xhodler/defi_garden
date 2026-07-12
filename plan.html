@@ -51,10 +51,10 @@
     <link rel="dns-prefetch" href="//unpkg.com">
     <link rel="dns-prefetch" href="//yields.llama.fi">
 
-    <!-- Load CSS non-blocking -->
-    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <!-- Load CSS non-blocking. style.min.css is CI-minified (backlog 053); edit style.css, never style.min.css. -->
+    <link rel="stylesheet" href="style.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="planner-styles.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <noscript><link rel="stylesheet" href="style.min.css"></noscript>
     <noscript><link rel="stylesheet" href="planner-styles.css"></noscript>
 
     <script>
@@ -73,7 +73,7 @@
     </script>
     <script defer crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script defer crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script defer src="translations.js"></script>
+    <script defer src="translations.min.js"></script>
     <script defer src="brand-icons.js"></script>
 
     <!-- Mixpanel — synchronous stub loader (queues calls until the real lib loads async).
@@ -89,6 +89,7 @@
 <body>
     <div id="planner-root"></div>
 
-    <script defer src="planner.js"></script>
+    <!-- Minified in CI (backlog 053); edit planner.js, never planner.min.js. -->
+    <script defer src="planner.min.js"></script>
 </body>
 </html>

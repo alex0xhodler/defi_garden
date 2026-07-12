@@ -30,12 +30,12 @@ test('home.html does not load @babel/standalone or use type="text/babel"', () =>
   assert.ok(!/unpkg\.com\/@babel\/standalone/.test(homeHtml), 'home.html still fetches @babel/standalone from unpkg');
   assert.ok(!/['"]text\/babel['"]/.test(homeHtml), 'home.html still sets a text/babel script type');
 });
-test('home.html loads PoolDetail.compiled.js before app.compiled.js', () => {
-  const poolIdx = homeHtml.indexOf("addScript('PoolDetail.compiled.js'");
-  const appIdx = homeHtml.indexOf("addScript('app.compiled.js')");
-  assert.ok(poolIdx !== -1, 'PoolDetail.compiled.js not loaded');
-  assert.ok(appIdx !== -1, 'app.compiled.js not loaded');
-  assert.ok(poolIdx < appIdx, 'PoolDetail.compiled.js must be requested (and chained via onload) before app.compiled.js');
+test('home.html loads the (minified) compiled output, PoolDetail before app', () => {
+  const poolIdx = homeHtml.indexOf("addScript('PoolDetail.compiled");
+  const appIdx = homeHtml.indexOf("addScript('app.compiled");
+  assert.ok(poolIdx !== -1, 'PoolDetail.compiled(.min).js not loaded');
+  assert.ok(appIdx !== -1, 'app.compiled(.min).js not loaded');
+  assert.ok(poolIdx < appIdx, 'PoolDetail.compiled(.min).js must be requested (and chained via onload) before app.compiled(.min).js');
 });
 
 console.log(`\n${passed} compiled-asset assertions passed`);

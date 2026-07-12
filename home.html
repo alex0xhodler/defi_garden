@@ -113,9 +113,9 @@
         })();
     </script>
 
-    <!-- Shared CSS (always loaded) -->
-    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <!-- Shared CSS (always loaded) — minified in CI, backlog 053; edit style.css, never style.min.css -->
+    <link rel="stylesheet" href="style.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="style.min.css"></noscript>
 
     <!-- Mode-conditional CSS: injected synchronously so it fetches in parallel -->
     <script>
@@ -136,7 +136,7 @@
     <!-- React UMD (shared, static defer — guaranteed order after HTML parse) -->
     <script defer crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script defer crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script defer src="translations.js"></script>
+    <script defer src="translations.min.js"></script>
 
     <!-- Mixpanel — synchronous stub loader (queues calls until the real lib loads
          async); safe to run before analytics.js since it just needs `mixpanel`
@@ -155,8 +155,9 @@
          (the old dynamic-injection-into-body path raced planner.js's mount). -->
     <script defer src="analytics.js"></script>
 
-    <!-- Planner script — static defer so it runs after React + translations + analytics -->
-    <script defer src="planner.js"></script>
+    <!-- Planner script — static defer so it runs after React + translations + analytics.
+         Minified in CI (backlog 053); edit planner.js, never planner.min.js. -->
+    <script defer src="planner.min.js"></script>
 
     <!-- WebMCP implementation for AI Agents -->
     <script>
@@ -287,17 +288,20 @@
     </footer>
 
     <!-- Analytics-app scripts — injected only when needed, as the CI-compiled
-         plain-JS output (compile-app.js / npm run compile), not the text/babel
-         + in-browser @babel/standalone pipeline this used to run (backlog
-         052 — that transpile was the dominant mobile PageSpeed hit on every
-         analytics/SEO page). *.compiled.js are committed, generated output —
-         edit app.js/PoolDetail.js and recompile, never hand-edit *.compiled.js.
-         PoolDetail.compiled.js must finish executing before app.compiled.js
-         runs (app's App component references the global PoolDetail function,
-         including on the initial render for `?pool=` deep links) — chained
-         via onload since dynamically inserted scripts don't otherwise
-         guarantee execution order. analytics.js itself is a static defer tag
-         in <head>, shared by both modes — see above. -->
+         AND minified output (compile-app.js + minify-assets.js / npm run
+         compile && npm run minify), not the text/babel + in-browser
+         @babel/standalone pipeline this used to run (backlog 052 — that
+         transpile was the dominant mobile PageSpeed hit on every
+         analytics/SEO page) nor the raw unminified compiled JS (backlog 053).
+         *.compiled.min.js are committed, generated output — edit
+         app.js/PoolDetail.js, recompile, re-minify; never hand-edit
+         *.compiled.js or *.compiled.min.js. PoolDetail.compiled.min.js must
+         finish executing before app.compiled.min.js runs (app's App
+         component references the global PoolDetail function, including on
+         the initial render for `?pool=` deep links) — chained via onload
+         since dynamically inserted scripts don't otherwise guarantee
+         execution order. analytics.js itself is a static defer tag in
+         <head>, shared by both modes — see above. -->
     <script>
         if (window.__APP_MODE === 'analytics') {
             (function() {
@@ -307,8 +311,8 @@
                     if (onload) s.onload = onload;
                     document.body.appendChild(s);
                 }
-                addScript('PoolDetail.compiled.js', function() {
-                    addScript('app.compiled.js');
+                addScript('PoolDetail.compiled.min.js', function() {
+                    addScript('app.compiled.min.js');
                 });
             })();
         }

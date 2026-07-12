@@ -12,8 +12,12 @@ on:
       - 'generate-token-pages.js'
       - 'generate-chain-pages.js'
       - 'compile-app.js'
+      - 'minify-assets.js'
       - 'app.js'
       - 'PoolDetail.js'
+      - 'planner.js'
+      - 'translations.js'
+      - 'style.css'
       - 'package.json'
 
 jobs:
@@ -44,6 +48,12 @@ jobs:
         echo "🛠️ Compiling analytics app scripts..."
         node compile-app.js
         echo "✅ Compile completed"
+
+    - name: Minify JS/CSS (backlog 053 — cut transfer size)
+      run: |
+        echo "🗜️ Minifying shipped JS/CSS..."
+        node minify-assets.js
+        echo "✅ Minify completed"
 
     - name: Generate token landing pages
       run: |
@@ -105,7 +115,7 @@ jobs:
         git config --local user.email "alex@0xhodler.nl"
         git config --local user.name "alex0xhodler"
         
-        git add sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains sitemap-token-pages-ko.xml sitemap-chain-pages-ko.xml ko robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js
+        git add sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains sitemap-token-pages-ko.xml sitemap-chain-pages-ko.xml ko robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js style.min.css
         git commit -m "chore: update sitemap and LLM files with latest yields
         
         - Regenerated sitemap.xml with $(grep -c '<url>' sitemap.xml) URLs
