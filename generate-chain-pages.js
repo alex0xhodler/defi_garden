@@ -28,6 +28,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const tp = require('./generate-token-pages.js');
+// REUSE (spec 050): same en/ko catalog + lookup helper generate-token-pages.js
+// uses — copy-only translation, pool data/numbers identical across languages.
+const { createTranslationFunction } = require('./translations.js');
 
 const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
@@ -35,7 +38,7 @@ const {
   renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug,
   poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
-  todayGeneratedDate, renderLastUpdatedHtml,
+  todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken
 } = tp;
 
@@ -128,28 +131,24 @@ function topTokensOnChain(rec, generatedTokenSlugs, cap) {
 }
 
 /** Render a single chain's static landing page as an HTML string. */
-function renderChainPage(rec, related, generatedDate, tokenLinks) {
+function renderChainPage(rec, related, generatedDate, tokenLinks, lang) {
+  const language = (lang === 'ko') ? 'ko' : 'en';
+  const t = createTranslationFunction(language);
   const chainName = escapeHtml(rec.chain);
-  const pageUrl = `${SITE_URL}/chains/${rec.slug}`;
+  const enUrl = `${SITE_URL}/chains/${rec.slug}`;
+  const koUrl = `${SITE_URL}/ko/chains/${rec.slug}`;
+  const pageUrl = language === 'ko' ? koUrl : enUrl;
   const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}`;
   const genDate = generatedDate || todayGeneratedDate();
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const tokenCount = rec.tokens.length;
-  const title = `${chainName} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`;
-  const poolWord = rec.qualifyingCount === 1 ? 'pool' : 'pools';
-  const tokenWord = tokenCount === 1 ? 'token' : 'tokens';
-  const description =
-    `${rec.qualifyingCount} live ${poolWord} on ${chainName} above the $100K TVL floor, up to ` +
-    `${formatApy(bestApy)} APY, across ${tokenCount} ${tokenWord}. ` +
-    `Honest yields from DefiLlama data — no anomalous rates.`;
+  const title = t('tcpChainTitle', rec.chain);
+  const description = t('tcpChainDescription', rec.chain, rec.qualifyingCount, formatApy(bestApy), tokenCount);
 
   // Unique per-chain intro from real data (023-style content depth).
   const top = rec.pools[0];
-  const intro =
-    `${chainName}'s largest live pool is ${escapeHtml(top.project || '—')} (${escapeHtml(top.symbol || '—')}) ` +
-    `at ${formatApy(poolTotalApy(top))} (${formatUsd(top.tvlUsd)} TVL). ` +
-    `${rec.qualifyingCount} ${poolWord} across ${tokenCount} ${tokenWord} clear ` +
-    `DeFi Garden's $100K TVL floor, ${formatUsd(rec.totalTvl)} in total.`;
+  const intro = t('tcpChainIntro', chainName, escapeHtml(top.project || '—'), escapeHtml(top.symbol || '—'),
+    formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, tokenCount, formatUsd(rec.totalTvl));
 
   // BreadcrumbList (040 pattern): Home and the current page are real,
   // linkable URLs. "Chains" has no `item` — there is no /chains hub page in
@@ -159,8 +158,8 @@ function renderChainPage(rec, related, generatedDate, tokenLinks) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
-      { '@type': 'ListItem', position: 2, name: 'Chains' },
+      { '@type': 'ListItem', position: 1, name: t('tcpBreadcrumbHome'), item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: t('tcpBreadcrumbChains') },
       { '@type': 'ListItem', position: 3, name: rec.chain, item: pageUrl }
     ]
   }).replace(/</g, '\\u003c');
@@ -168,10 +167,10 @@ function renderChainPage(rec, related, generatedDate, tokenLinks) {
   // ItemList + Dataset (046): the ItemList mirrors the visible pool table
   // exactly (same pools/order/links via poolHrefFor, no new computation) —
   // Google requires structured data to reflect visible content.
-  const itemListJsonLd = renderItemListJsonLd(rec.pools, appUrl);
+  const itemListJsonLd = renderItemListJsonLd(rec.pools, appUrl, language);
   const datasetJsonLd = renderDatasetJsonLd(
-    `${rec.chain} DeFi Yields Dataset`,
-    `Live DefiLlama yield data for ${rec.chain} pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.`,
+    t('tcpDatasetChainName', rec.chain),
+    t('tcpDatasetChainDescription', rec.chain),
     pageUrl,
     genDate
   );
@@ -179,16 +178,16 @@ function renderChainPage(rec, related, generatedDate, tokenLinks) {
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
   // table/intro above already use — never touches raw pool data, so an
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
-  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, poolWord);
+  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, language);
   const answerBlock = renderAnswerBlockHtml(answer, 'cp-answer');
-  const faqBlock = renderFaqBlockHtml(faq, 'cp-faq');
+  const faqBlock = renderFaqBlockHtml(faq, 'cp-faq', language);
   const faqJsonLd = renderFaqJsonLd(faq);
 
   const relatedLinks = (related || []).map(r =>
-    `<a href="${SITE_URL}/chains/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
+    `<a href="${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
   const relatedBlock = relatedLinks
-    ? `    <nav class="related" aria-label="Related chains">
-      <h2>Related chains</h2>
+    ? `    <nav class="related" aria-label="${escapeHtml(t('tcpRelatedChainsHeading'))}">
+      <h2>${escapeHtml(t('tcpRelatedChainsHeading'))}</h2>
       <div class="related-links">
         ${relatedLinks}
       </div>
@@ -198,10 +197,12 @@ function renderChainPage(rec, related, generatedDate, tokenLinks) {
   // Cross-surface internal linking (049): top tokens present on this chain
   // (only ones with a real generated page) + the pool-type categories in
   // this chain's own table, linked to the live app view for that category.
-  const tokenNavItems = (tokenLinks || []).map(t => ({ label: t.symbol, href: `${SITE_URL}/tokens/${t.slug}` }));
-  const tokenLinksBlock = renderLinkNavHtml(tokenNavItems, `Top tokens on ${rec.chain}`, `Top tokens on ${rec.chain}`, 'xlink-tokens');
+  const tokenNavItems = (tokenLinks || []).map(tk =>
+    ({ label: tk.symbol, href: `${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${tk.slug}` }));
+  const topTokensHeading = t('tcpTopTokensOnHeading', rec.chain);
+  const tokenLinksBlock = renderLinkNavHtml(tokenNavItems, topTokensHeading, topTokensHeading, 'xlink-tokens');
   const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: c.url }));
-  const categoryBlock = renderLinkNavHtml(categoryItems, 'Pool categories', 'By category', 'xlink-category');
+  const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
 
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
@@ -217,14 +218,14 @@ function renderChainPage(rec, related, generatedDate, tokenLinks) {
   }).join('\n');
 
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="${language}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
     <script type="application/ld+json">${faqJsonLd}</script>
@@ -277,19 +278,19 @@ function renderChainPage(rec, related, generatedDate, tokenLinks) {
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
     </style>
-${renderAnalyticsBootstrap(`/chains/${rec.slug}`, { page_type: 'chain_landing', chain: rec.chain, pool_count: rec.qualifyingCount })}
+${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}`, { page_type: 'chain_landing', chain: rec.chain, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>
   <main class="cp-wrap">
-    <h1>${chainName} DeFi Yields</h1>
-${answerBlock}    <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live ${poolWord} above the $100K TVL floor · ranked by TVL</p>
+    <h1>${escapeHtml(t('tcpChainHeading', rec.chain))}</h1>
+${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount))}</p>
     <p class="intro">${intro}</p>
-    <a class="cp-cta" href="${appUrl}">See live pools on ${chainName} &rarr;</a>
+    <a class="cp-cta" href="${appUrl}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
     <div class="cp-card">
     <div class="scroll">
     <table>
       <thead>
-        <tr><th>Token</th><th>Protocol</th><th class="num">APY</th><th class="num">TVL</th></tr>
+        <tr><th>${escapeHtml(t('tcpColToken'))}</th><th>${escapeHtml(t('tcpColProtocol'))}</th><th class="num">${escapeHtml(t('tcpColApy'))}</th><th class="num">${escapeHtml(t('tcpColTvl'))}</th></tr>
       </thead>
       <tbody>
 ${rows}
@@ -297,8 +298,8 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
-${renderLastUpdatedHtml(genDate)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
+${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>
 </html>
@@ -309,24 +310,27 @@ ${renderLastUpdatedHtml(genDate)}    <p class="note"><a href="${SITE_URL}/">DeFi
  * chain surface (dozens, not thousands) fits under the ~100-link-per-
  * template guidance without an A–Z tier (045 — de-orphan the SEO surface
  * so every /chains/<slug> page is <=3 clicks from `/`). */
-function renderChainHubPage(ranked) {
-  const pageUrl = `${SITE_URL}/chains`;
-  const title = `Every Chain's Live DeFi Yields | DeFi Garden 🌱`;
-  const description =
-    `${ranked.length} chains with live, trust-filtered DeFi yield data, ranked by TVL. ` +
-    `Honest yields from DefiLlama, no anomalous rates.`;
+function renderChainHubPage(ranked, lang) {
+  const language = (lang === 'ko') ? 'ko' : 'en';
+  const t = createTranslationFunction(language);
+  const base = language === 'ko' ? `${SITE_URL}/ko/chains` : `${SITE_URL}/chains`;
+  const enUrl = `${SITE_URL}/chains`;
+  const koUrl = `${SITE_URL}/ko/chains`;
+  const pageUrl = language === 'ko' ? koUrl : enUrl;
+  const title = t('tcpChainHubTitle');
+  const description = t('tcpChainHubDescription', ranked.length);
   const links = (ranked || []).map(r =>
-    `<a href="${SITE_URL}/chains/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
+    `<a href="${base}/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
 
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="${language}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-    <meta property="og:type" content="website">
+${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
@@ -335,21 +339,21 @@ function renderChainHubPage(ranked) {
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
-${renderAnalyticsBootstrap('/chains', { page_type: 'chain_hub', chain_count: ranked.length })}
+${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains`, { page_type: 'chain_hub', chain_count: ranked.length, lang: language })}
 </head>
 <body>
   <main class="hub-wrap">
-    <h1>All Chain Yield Pages</h1>
-    <p class="sub">${ranked.length} chains with live, trust-filtered yield data</p>
-    <p class="intro">Every DeFi Garden chain page in one place — live pools ranked by TVL, filtered through our $100K floor and anomaly rails.</p>
-    <a class="hub-cta" href="${SITE_URL}/">&larr; Back to DeFi Garden</a>
+    <h1>${escapeHtml(t('tcpChainHubHeading'))}</h1>
+    <p class="sub">${escapeHtml(t('tcpChainHubSub', ranked.length))}</p>
+    <p class="intro">${escapeHtml(t('tcpChainHubIntro'))}</p>
+    <a class="hub-cta" href="${SITE_URL}/">${escapeHtml(t('tcpHubBackCta'))}</a>
     <div class="hub-card">
-      <h2>All chains</h2>
+      <h2>${escapeHtml(t('tcpAllChainsHeading'))}</h2>
       <div class="hub-links">
         ${links}
       </div>
     </div>
-    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (&ge; $100K TVL, anomalous rates excluded). Not financial advice &mdash; education only.</p>
+    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
   </main>
 </body>
 </html>
@@ -358,12 +362,15 @@ ${renderAnalyticsBootstrap('/chains', { page_type: 'chain_hub', chain_count: ran
 
 /** Render a sitemap (urlset) of all generated /chains/<slug> URLs, plus any
  * `extraLocs` (045: the /chains hub page). */
-function renderChainSitemap(ranked, lastmod, extraLocs) {
+function renderChainSitemap(ranked, lastmod, extraLocs, lang) {
+  // `lang` (050) only changes the base path — mirrors renderTokenSitemap's
+  // backward-compatible design (omitted = identical output to before).
+  const base = (lang === 'ko') ? 'ko/chains' : 'chains';
   const lastmodTag = lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '';
   const extra = (extraLocs || []).map(loc =>
     `  <url>\n    <loc>${loc}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   const urls = (ranked || []).map(rec =>
-    `  <url>\n    <loc>${SITE_URL}/chains/${rec.slug}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
+    `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   return `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
 }
@@ -441,11 +448,32 @@ async function main() {
   fs.writeFileSync(path.join(outDir, 'index.html'), renderChainHubPage(ranked));
   console.log('🧭 Wrote chains hub page');
 
+  // Korean variant (050): rendered from the SAME `ranked` the en pages just
+  // used — pool-parity is structural (only renderChainPage's `lang` differs).
+  // Sibling of outDir, not resolve('ko', args.out) — see generate-token-pages.js's
+  // identical fix: path.resolve() discards 'ko' when args.out is already absolute.
+  const koOutDir = path.join(path.dirname(outDir), 'ko', path.basename(outDir));
+  if (!fs.existsSync(koOutDir)) fs.mkdirSync(koOutDir, { recursive: true });
+  if (koOutDir !== process.cwd()) {
+    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html')) fs.rmSync(path.join(koOutDir, f)); });
+  }
+  ranked.forEach(rec => {
+    const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
+    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'ko'));
+  });
+  fs.writeFileSync(path.join(koOutDir, 'index.html'), renderChainHubPage(ranked, 'ko'));
+  console.log(`🇰🇷 Wrote ${ranked.length} ko/chains pages + ko hub page`);
+
   if (args.sitemap) {
     const lastmod = new Date().toISOString().slice(0, 10);
     const hubUrls = [`${SITE_URL}/chains`];
     fs.writeFileSync(path.resolve(args.sitemap), renderChainSitemap(ranked, lastmod, hubUrls));
     console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length + hubUrls.length} URLs)`);
+
+    const koSitemapPath = args.sitemap.replace(/\.xml$/, '-ko.xml');
+    const koHubUrls = [`${SITE_URL}/ko/chains`];
+    fs.writeFileSync(path.resolve(koSitemapPath), renderChainSitemap(ranked, lastmod, koHubUrls, 'ko'));
+    console.log(`🗺️  Wrote ${koSitemapPath} (${ranked.length + koHubUrls.length} URLs)`);
   }
 }
 

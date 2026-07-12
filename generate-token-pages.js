@@ -30,6 +30,13 @@ const https = require('https');
 // REUSE (standing decision 2026-07-10): the pool-type classifier already
 // computed for the category sitemaps (013) — never re-implement it here.
 const { getPoolType } = require('./generate-sitemap.js');
+// REUSE (spec 050): the same en/ko catalog + lookup helper the app already
+// ships (translations.js is Node-requireable — module.exports at the bottom).
+// Static pages are copy-only translated: pool data/numbers are identical
+// between language variants (CLAUDE.md — en-US formatting, never per-locale).
+const { createTranslationFunction } = require('./translations.js');
+
+const SUPPORTED_LANGS = ['en', 'ko'];
 
 // Canonical site URL — matches plan.html / home.html / generate-stories.js
 const SITE_URL = 'https://www.defi.garden';
@@ -109,9 +116,22 @@ function todayGeneratedDate() {
 }
 
 /** Visible "Last updated <date>" line, in the page's existing `.note` style —
- * the SAME date string passed to renderDatasetJsonLd's dateModified. */
-function renderLastUpdatedHtml(genDate) {
-  return `    <p class="note">Last updated ${escapeHtml(genDate)}</p>\n`;
+ * the SAME date string passed to renderDatasetJsonLd's dateModified. The
+ * date itself stays en-US formatted on every language variant (050 — only
+ * the surrounding label translates, mirroring CLAUDE.md's number-formatting
+ * rule so the visible date and the dateModified schema can never drift). */
+function renderLastUpdatedHtml(genDate, lang) {
+  const t = createTranslationFunction(lang || 'en');
+  return `    <p class="note">${escapeHtml(t('tcpLastUpdated', genDate))}</p>\n`;
+}
+
+/** Reciprocal hreflang tags (050): each language variant declares itself,
+ * the other language, and x-default (always the en URL — Google's default-
+ * language guidance). Self-canonical is set separately via <link rel=canonical>. */
+function renderHreflangLinks(enUrl, koUrl) {
+  return `    <link rel="alternate" hreflang="en" href="${enUrl}">
+    <link rel="alternate" hreflang="ko" href="${koUrl}">
+    <link rel="alternate" hreflang="x-default" href="${enUrl}">\n`;
 }
 
 // --- Analytics bootstrap (039) -----------------------------------------------
@@ -324,28 +344,31 @@ function renderHubStyleBlock() {
 /** Render the /tokens hub (index) page: top tokens by TVL directly, every
  * other token reachable via its A–Z sub-hub (045 — de-orphan the SEO
  * surface so all spoke pages are <=3 clicks from `/`). */
-function renderTokenHubPage(ranked, azGroups) {
-  const pageUrl = `${SITE_URL}/tokens`;
+function renderTokenHubPage(ranked, azGroups, lang) {
+  const language = (lang === 'ko') ? 'ko' : 'en';
+  const t = createTranslationFunction(language);
+  const base = language === 'ko' ? `${SITE_URL}/ko/tokens` : `${SITE_URL}/tokens`;
+  const enUrl = `${SITE_URL}/tokens`;
+  const koUrl = `${SITE_URL}/ko/tokens`;
+  const pageUrl = language === 'ko' ? koUrl : enUrl;
   const top = (ranked || []).slice(0, HUB_TOP_N);
-  const title = `Every DeFi Token's Live Yields | DeFi Garden 🌱`;
-  const description =
-    `${ranked.length} tokens with live, trust-filtered DeFi yield data — top pools by TVL, ` +
-    `browsable by name. Honest yields from DefiLlama, no anomalous rates.`;
+  const title = t('tcpTokenHubTitle');
+  const description = t('tcpTokenHubDescription', ranked.length);
 
   const topLinks = top.map(r =>
-    `<a href="${SITE_URL}/tokens/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
+    `<a href="${base}/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
   const azLinks = (azGroups || []).map(g =>
-    `<a href="${SITE_URL}/tokens/az/${g.slug}">${escapeHtml(g.key)} (${g.records.length})</a>`).join('\n        ');
+    `<a href="${base}/az/${g.slug}">${escapeHtml(g.key)} (${g.records.length})</a>`).join('\n        ');
 
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="${language}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-    <meta property="og:type" content="website">
+${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
@@ -354,27 +377,27 @@ function renderTokenHubPage(ranked, azGroups) {
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
-${renderAnalyticsBootstrap('/tokens', { page_type: 'token_hub', token_count: ranked.length })}
+${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens`, { page_type: 'token_hub', token_count: ranked.length, lang: language })}
 </head>
 <body>
   <main class="hub-wrap">
-    <h1>All Token Yield Pages</h1>
-    <p class="sub">${ranked.length} tokens with live, trust-filtered yield data</p>
-    <p class="intro">Every DeFi Garden token page in one place — live pools ranked by TVL, filtered through our $100K floor and anomaly rails. Start with the top tokens by TVL, or jump straight to a letter.</p>
-    <a class="hub-cta" href="${SITE_URL}/">&larr; Back to DeFi Garden</a>
+    <h1>${escapeHtml(t('tcpTokenHubHeading'))}</h1>
+    <p class="sub">${escapeHtml(t('tcpTokenHubSub', ranked.length))}</p>
+    <p class="intro">${escapeHtml(t('tcpTokenHubIntro'))}</p>
+    <a class="hub-cta" href="${SITE_URL}/">${escapeHtml(t('tcpHubBackCta'))}</a>
     <div class="hub-card">
-      <h2>Top tokens by TVL</h2>
+      <h2>${escapeHtml(t('tcpTopTokensByTvlHeading'))}</h2>
       <div class="hub-links">
         ${topLinks}
       </div>
     </div>
     <div class="hub-card">
-      <h2>Browse all tokens A&ndash;Z</h2>
+      <h2>${escapeHtml(t('tcpBrowseAZHeading'))}</h2>
       <div class="hub-links">
         ${azLinks}
       </div>
     </div>
-    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (&ge; $100K TVL, anomalous rates excluded). Not financial advice &mdash; education only.</p>
+    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
   </main>
 </body>
 </html>
@@ -383,24 +406,27 @@ ${renderAnalyticsBootstrap('/tokens', { page_type: 'token_hub', token_count: ran
 
 /** Render one A–Z sub-hub page: every token whose symbol starts with
  * `group.key`, linked to its /tokens/<slug> page (045). */
-function renderTokenAzPage(group) {
-  const pageUrl = `${SITE_URL}/tokens/az/${group.slug}`;
-  const title = `Tokens starting with ${group.key} | DeFi Garden 🌱`;
-  const description =
-    `${group.records.length} DeFi tokens starting with "${group.key}" with live, ` +
-    `trust-filtered yield data on DeFi Garden.`;
+function renderTokenAzPage(group, lang) {
+  const language = (lang === 'ko') ? 'ko' : 'en';
+  const t = createTranslationFunction(language);
+  const base = language === 'ko' ? `${SITE_URL}/ko/tokens` : `${SITE_URL}/tokens`;
+  const enUrl = `${SITE_URL}/tokens/az/${group.slug}`;
+  const koUrl = `${SITE_URL}/ko/tokens/az/${group.slug}`;
+  const pageUrl = language === 'ko' ? koUrl : enUrl;
+  const title = t('tcpAzTitle', group.key);
+  const description = t('tcpAzDescription', group.key, group.records.length);
   const links = group.records.map(r =>
-    `<a href="${SITE_URL}/tokens/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
+    `<a href="${base}/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
 
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="${language}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-    <meta property="og:type" content="website">
+${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
@@ -409,19 +435,19 @@ function renderTokenAzPage(group) {
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
-${renderAnalyticsBootstrap(`/tokens/az/${group.slug}`, { page_type: 'token_az', letter: group.key, token_count: group.records.length })}
+${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/az/${group.slug}`, { page_type: 'token_az', letter: group.key, token_count: group.records.length, lang: language })}
 </head>
 <body>
   <main class="hub-wrap">
-    <h1>Tokens starting with ${escapeHtml(group.key)}</h1>
-    <p class="sub">${group.records.length} tokens</p>
-    <a class="hub-cta" href="${SITE_URL}/tokens">&larr; All tokens</a>
+    <h1>${escapeHtml(t('tcpAzHeading', group.key))}</h1>
+    <p class="sub">${escapeHtml(t('tcpAzSub', group.records.length))}</p>
+    <a class="hub-cta" href="${base}">${escapeHtml(t('tcpAzBackCta'))}</a>
     <div class="hub-card">
       <div class="hub-links">
         ${links}
       </div>
     </div>
-    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (&ge; $100K TVL, anomalous rates excluded). Not financial advice &mdash; education only.</p>
+    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
   </main>
 </body>
 </html>
@@ -439,14 +465,15 @@ function poolHrefFor(p, fallbackUrl) {
 /** ItemList JSON-LD (046) for a ranked pool table: itemListElement mirrors
  * the visible rows exactly — same pools, same order, same link target each
  * row already uses (poolHrefFor). No new computation. */
-function renderItemListJsonLd(pools, appUrl) {
+function renderItemListJsonLd(pools, appUrl, lang) {
+  const t = createTranslationFunction(lang || 'en');
   return JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     itemListElement: (pools || []).map((p, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      name: `${p.project || '—'} on ${p.chain || '—'}`,
+      name: t('tcpItemListName', p.project || '—', p.chain || '—'),
       url: poolHrefFor(p, appUrl)
     }))
   }).replace(/</g, '\\u003c');
@@ -477,32 +504,19 @@ function renderDatasetJsonLd(name, description, pageUrl, generatedDate) {
  * for visible rendering and JSON.stringify raw for ld+json (the 040/
  * generate-stories.js FAQ pattern: JSON escaping != HTML escaping, and the
  * two must byte-for-byte match once the browser decodes HTML entities). */
-function buildAnswerAndFaq(label, rec, bestApy, topPool, poolWord) {
+function buildAnswerAndFaq(label, rec, bestApy, topPool, lang) {
+  const t = createTranslationFunction(lang || 'en');
   const project = topPool.project || '—';
   const chain = topPool.chain || '—';
   const apyStr = formatApy(bestApy);
   const tvlStr = formatUsd(rec.totalTvl);
 
-  const answer =
-    `The highest honest ${label} yield right now is ${apyStr} on ${project} (${chain}), ` +
-    `among ${rec.qualifyingCount} ${poolWord} above the $100K TVL floor. ` +
-    `Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.`;
+  const answer = t('tcpAnswer', label, apyStr, project, chain, rec.qualifyingCount);
 
   const faq = [
-    {
-      q: `What's the highest ${label} yield today?`,
-      a: `${apyStr} APY on ${project} (${chain}), based on live DefiLlama data.`
-    },
-    {
-      q: `How many ${label} pools clear the TVL floor?`,
-      a: `${rec.qualifyingCount} live ${poolWord} clear DeFi Garden's $100K TVL floor, ${tvlStr} in total.`
-    },
-    {
-      q: `Are these rates safe?`,
-      a: `Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous ` +
-        `(>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk ` +
-        `regardless of the rate shown.`
-    }
+    { q: t('tcpFaqQ1', label), a: t('tcpFaqA1', apyStr, project, chain) },
+    { q: t('tcpFaqQ2', label), a: t('tcpFaqA2', rec.qualifyingCount, tvlStr) },
+    { q: t('tcpFaqQ3'), a: t('tcpFaqA3') }
   ];
 
   return { answer, faq };
@@ -519,13 +533,14 @@ function renderAnswerBlockHtml(answerText, cssClass) {
 /** Visible HTML for the FAQ section (047) — mirrors generate-stories.js's
  * kevin-page FAQ markup exactly (same st-faq-item/-q/-a structure, renamed
  * to this page's own scoped prefix). */
-function renderFaqBlockHtml(faqItems, cssPrefix) {
+function renderFaqBlockHtml(faqItems, cssPrefix, lang) {
+  const heading = createTranslationFunction(lang || 'en')('tcpFaqHeading');
   const items = (faqItems || []).map(item => `        <div class="${cssPrefix}-item">
           <h3 class="${cssPrefix}-q">${escapeHtml(item.q)}</h3>
           <p class="${cssPrefix}-a">${escapeHtml(item.a)}</p>
         </div>`).join('\n');
-  return `    <section class="${cssPrefix}" aria-label="Frequently asked questions">
-      <h2>Frequently asked questions</h2>
+  return `    <section class="${cssPrefix}" aria-label="${escapeHtml(heading)}">
+      <h2>${escapeHtml(heading)}</h2>
 ${items}
     </section>\n`;
 }
@@ -546,29 +561,25 @@ function renderFaqJsonLd(faqItems) {
 }
 
 /** Render a single token's static landing page as an HTML string. */
-function renderTokenPage(rec, related, generatedDate, chainLinks) {
+function renderTokenPage(rec, related, generatedDate, chainLinks, lang) {
+  const language = (lang === 'ko') ? 'ko' : 'en';
+  const t = createTranslationFunction(language);
   const sym = escapeHtml(rec.symbol);
-  const pageUrl = `${SITE_URL}/tokens/${rec.slug}`;
+  const enUrl = `${SITE_URL}/tokens/${rec.slug}`;
+  const koUrl = `${SITE_URL}/ko/tokens/${rec.slug}`;
+  const pageUrl = language === 'ko' ? koUrl : enUrl;
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}`;
   const genDate = generatedDate || todayGeneratedDate();
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const chainCount = new Set(rec.pools.map(p => p.chain)).size;
-  const title = `${sym} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`;
-  const poolWord = rec.qualifyingCount === 1 ? 'pool' : 'pools';
-  const chainWord = chainCount === 1 ? 'chain' : 'chains';
-  const description =
-    `${rec.qualifyingCount} live ${sym} ${poolWord} above the $100K TVL floor, up to ` +
-    `${formatApy(bestApy)} APY, across ${chainCount} ${chainWord}. ` +
-    `Honest yields from DefiLlama data — no anomalous rates.`;
+  const title = t('tcpTokenTitle', rec.symbol);
+  const description = t('tcpTokenDescription', rec.symbol, rec.qualifyingCount, formatApy(bestApy), chainCount);
 
   // Unique per-token intro from real data (023: content depth — this reads
   // token-specifically even with the symbol removed, so it's not thin).
   const top = rec.pools[0];
-  const intro =
-    `${sym}'s largest live pool is ${escapeHtml(top.project || '—')} on ${escapeHtml(top.chain || '—')} ` +
-    `at ${formatApy(poolTotalApy(top))} (${formatUsd(top.tvlUsd)} TVL). ` +
-    `${rec.qualifyingCount} ${sym} ${poolWord} across ${chainCount} ${chainWord} clear ` +
-    `DeFi Garden's $100K TVL floor, ${formatUsd(rec.totalTvl)} in total.`;
+  const intro = t('tcpTokenIntro', sym, escapeHtml(top.project || '—'), escapeHtml(top.chain || '—'),
+    formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, chainCount, formatUsd(rec.totalTvl));
 
   // BreadcrumbList (040): Home and the current page are real, linkable URLs.
   // "Tokens" has no `item` — there is no /tokens hub page in this repo (no
@@ -579,8 +590,8 @@ function renderTokenPage(rec, related, generatedDate, chainLinks) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
-      { '@type': 'ListItem', position: 2, name: 'Tokens' },
+      { '@type': 'ListItem', position: 1, name: t('tcpBreadcrumbHome'), item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: t('tcpBreadcrumbTokens') },
       { '@type': 'ListItem', position: 3, name: rec.symbol, item: pageUrl }
     ]
   }).replace(/</g, '\\u003c');
@@ -588,10 +599,10 @@ function renderTokenPage(rec, related, generatedDate, chainLinks) {
   // ItemList + Dataset (046): the ItemList mirrors the visible pool table
   // exactly (same pools/order/links via poolHrefFor, no new computation) —
   // Google requires structured data to reflect visible content.
-  const itemListJsonLd = renderItemListJsonLd(rec.pools, appUrl);
+  const itemListJsonLd = renderItemListJsonLd(rec.pools, appUrl, language);
   const datasetJsonLd = renderDatasetJsonLd(
-    `${rec.symbol} DeFi Yields Dataset`,
-    `Live DefiLlama yield data for ${rec.symbol} pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.`,
+    t('tcpDatasetTokenName', rec.symbol),
+    t('tcpDatasetTokenDescription', rec.symbol),
     pageUrl,
     genDate
   );
@@ -599,16 +610,16 @@ function renderTokenPage(rec, related, generatedDate, chainLinks) {
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
   // table/intro above already use — never touches raw pool data, so an
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
-  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, top, poolWord);
+  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, top, language);
   const answerBlock = renderAnswerBlockHtml(answer, 'tp-answer');
-  const faqBlock = renderFaqBlockHtml(faq, 'tp-faq');
+  const faqBlock = renderFaqBlockHtml(faq, 'tp-faq', language);
   const faqJsonLd = renderFaqJsonLd(faq);
 
   const relatedLinks = (related || []).map(r =>
-    `<a href="${SITE_URL}/tokens/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
+    `<a href="${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
   const relatedBlock = relatedLinks
-    ? `    <nav class="related" aria-label="Related tokens">
-      <h2>Related tokens</h2>
+    ? `    <nav class="related" aria-label="${escapeHtml(t('tcpRelatedTokensHeading'))}">
+      <h2>${escapeHtml(t('tcpRelatedTokensHeading'))}</h2>
       <div class="related-links">
         ${relatedLinks}
       </div>
@@ -618,10 +629,12 @@ function renderTokenPage(rec, related, generatedDate, chainLinks) {
   // Cross-surface internal linking (049): chains this token trades on (only
   // ones with a real generated page) + the pool-type categories present in
   // this token's own table, linked to the live app view for that category.
-  const chainNavItems = (chainLinks || []).map(c => ({ label: c.chain, href: `${SITE_URL}/chains/${c.slug}` }));
-  const chainLinksBlock = renderLinkNavHtml(chainNavItems, 'Chains', 'Available on', 'xlink-chains');
+  // Chain link targets stay on the same language variant as this page.
+  const chainNavItems = (chainLinks || []).map(c =>
+    ({ label: c.chain, href: `${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${c.slug}` }));
+  const chainLinksBlock = renderLinkNavHtml(chainNavItems, t('tcpChainsAriaLabel'), t('tcpAvailableOnHeading'), 'xlink-chains');
   const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: c.url }));
-  const categoryBlock = renderLinkNavHtml(categoryItems, 'Pool categories', 'By category', 'xlink-category');
+  const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
 
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
@@ -637,14 +650,14 @@ function renderTokenPage(rec, related, generatedDate, chainLinks) {
   }).join('\n');
 
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="${language}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
-    <script type="application/ld+json">${breadcrumbJsonLd}</script>
+${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
     <script type="application/ld+json">${faqJsonLd}</script>
@@ -697,19 +710,19 @@ function renderTokenPage(rec, related, generatedDate, chainLinks) {
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
-${renderAnalyticsBootstrap(`/tokens/${rec.slug}`, { page_type: 'token_landing', token: rec.symbol, pool_count: rec.qualifyingCount })}
+${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}`, { page_type: 'token_landing', token: rec.symbol, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>
   <main class="tp-wrap">
-    <h1>${sym} DeFi Yields</h1>
-${answerBlock}    <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live ${poolWord} above the $100K TVL floor · ranked by TVL</p>
+    <h1>${escapeHtml(t('tcpTokenHeading', rec.symbol))}</h1>
+${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount))}</p>
     <p class="intro">${intro}</p>
-    <a class="tp-cta" href="${appUrl}">See live ${sym} pools &rarr;</a>
+    <a class="tp-cta" href="${appUrl}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
     <div class="tp-card">
     <div class="scroll">
     <table>
       <thead>
-        <tr><th>Protocol</th><th>Chain</th><th class="num">APY</th><th class="num">TVL</th></tr>
+        <tr><th>${escapeHtml(t('tcpColProtocol'))}</th><th>${escapeHtml(t('tcpColChain'))}</th><th class="num">${escapeHtml(t('tcpColApy'))}</th><th class="num">${escapeHtml(t('tcpColTvl'))}</th></tr>
       </thead>
       <tbody>
 ${rows}
@@ -717,8 +730,8 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
-${renderLastUpdatedHtml(genDate)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
+${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>
 </html>
@@ -728,12 +741,18 @@ ${renderLastUpdatedHtml(genDate)}    <p class="note"><a href="${SITE_URL}/">DeFi
 /** Render a sitemap (urlset) of all generated /tokens/<slug> URLs (021),
  * plus any `extraLocs` (045: the /tokens hub + its A–Z sub-hub pages) so
  * they're discoverable through the same sitemap-index chain. */
-function renderTokenSitemap(ranked, lastmod, extraLocs) {
+function renderTokenSitemap(ranked, lastmod, extraLocs, lang) {
+  // `lang` (050) only changes the base path (tokens/ vs ko/tokens/) — the
+  // root urlset tag stays byte-identical to before when omitted, so the
+  // existing en sitemap tests (exact-string urlset match) keep passing.
+  // Reciprocal hreflang is declared on-page (renderHreflangLinks), which is
+  // the primary signal Google reads; this is just KO URL coverage (050 AC).
+  const base = (lang === 'ko') ? 'ko/tokens' : 'tokens';
   const lastmodTag = lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : '';
   const extra = (extraLocs || []).map(loc =>
     `  <url>\n    <loc>${loc}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   const urls = (ranked || []).map(rec =>
-    `  <url>\n    <loc>${SITE_URL}/tokens/${rec.slug}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
+    `  <url>\n    <loc>${SITE_URL}/${base}/${rec.slug}</loc>\n${lastmodTag}    <changefreq>daily</changefreq>\n  </url>`);
   return `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${extra.concat(urls).join('\n')}\n</urlset>\n`;
 }
@@ -824,11 +843,41 @@ async function main() {
   });
   console.log(`🧭 Wrote tokens hub + ${azGroups.length} A–Z pages`);
 
+  // Korean variant (050): rendered from the SAME `ranked`/`azGroups` the en
+  // pages just used — pool-parity (same pools, same TVL/APY numbers) is
+  // structural, not something that can drift, since only renderTokenPage's
+  // `lang` argument differs. Mirrors the en directory layout under ko/.
+  // Sibling of outDir, not resolve('ko', args.out) — path.resolve() discards
+  // the first arg entirely when the second is already absolute, which would
+  // silently collapse koOutDir onto outDir itself (overwriting the en pages).
+  const koOutDir = path.join(path.dirname(outDir), 'ko', path.basename(outDir));
+  if (!fs.existsSync(koOutDir)) fs.mkdirSync(koOutDir, { recursive: true });
+  if (koOutDir !== process.cwd()) {
+    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html')) fs.rmSync(path.join(koOutDir, f)); });
+  }
+  ranked.forEach(rec => {
+    const chainLinks = chainLinksFor(rec, generatedChainSlugs);
+    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks, 'ko'));
+  });
+  fs.writeFileSync(path.join(koOutDir, 'index.html'), renderTokenHubPage(ranked, azGroups, 'ko'));
+  const koAzDir = path.join(koOutDir, 'az');
+  if (!fs.existsSync(koAzDir)) fs.mkdirSync(koAzDir, { recursive: true });
+  else fs.readdirSync(koAzDir).forEach(f => { if (f.endsWith('.html')) fs.rmSync(path.join(koAzDir, f)); });
+  azGroups.forEach(g => {
+    fs.writeFileSync(path.join(koAzDir, `${g.slug}.html`), renderTokenAzPage(g, 'ko'));
+  });
+  console.log(`🇰🇷 Wrote ${ranked.length} ko/tokens pages + ko hub + ${azGroups.length} ko A–Z pages`);
+
   if (args.sitemap) {
     const lastmod = new Date().toISOString().slice(0, 10);
     const hubUrls = [`${SITE_URL}/tokens`].concat(azGroups.map(g => `${SITE_URL}/tokens/az/${g.slug}`));
     fs.writeFileSync(path.resolve(args.sitemap), renderTokenSitemap(ranked, lastmod, hubUrls));
     console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length + hubUrls.length} URLs)`);
+
+    const koSitemapPath = args.sitemap.replace(/\.xml$/, '-ko.xml');
+    const koHubUrls = [`${SITE_URL}/ko/tokens`].concat(azGroups.map(g => `${SITE_URL}/ko/tokens/az/${g.slug}`));
+    fs.writeFileSync(path.resolve(koSitemapPath), renderTokenSitemap(ranked, lastmod, koHubUrls, 'ko'));
+    console.log(`🗺️  Wrote ${koSitemapPath} (${ranked.length + koHubUrls.length} URLs)`);
   }
 }
 
@@ -845,6 +894,7 @@ module.exports = {
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml,
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,
+  renderHreflangLinks, SUPPORTED_LANGS,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
 
