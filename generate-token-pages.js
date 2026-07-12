@@ -58,6 +58,9 @@ const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a
 const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
 const HUB_TOP_N = 60;             // tokens linked directly on the /tokens hub before the A–Z tier takes over (045)
+// Shared social/SERP image every page falls back to when it has no per-slug
+// OG card of its own (hub/A-Z pages, or a generation failure — 051).
+const OG_FALLBACK_REL_PATH = 'og-image.png';
 
 // Token symbol validity — mirrors generate-sitemap.js isValidToken.
 const TOKEN_REGEX = /^[A-Z0-9][A-Z0-9.\-_]{1,14}$/i;
@@ -560,8 +563,11 @@ function renderFaqJsonLd(faqItems) {
   }).replace(/</g, '\\u003c');
 }
 
-/** Render a single token's static landing page as an HTML string. */
-function renderTokenPage(rec, related, generatedDate, chainLinks, lang) {
+/** Render a single token's static landing page as an HTML string.
+ * `ogImagePaths` (051): Map<slug, relPath> from generateOgImages — falls
+ * back to the shared /og-image.png when the map is absent or has no entry
+ * for this slug, so a page never ships without SOME og:image. */
+function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImagePaths) {
   const language = (lang === 'ko') ? 'ko' : 'en';
   const t = createTranslationFunction(language);
   const sym = escapeHtml(rec.symbol);
@@ -570,6 +576,8 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang) {
   const pageUrl = language === 'ko' ? koUrl : enUrl;
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}`;
   const genDate = generatedDate || todayGeneratedDate();
+  const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
+  const ogImageUrl = `${SITE_URL}/${ogImageRelPath}`;
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const chainCount = new Set(rec.pools.map(p => p.chain)).size;
   const title = t('tcpTokenTitle', rec.symbol);
@@ -665,8 +673,11 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
-    <meta property="og:image" content="${SITE_URL}/og-image.png">
+    <meta property="og:image" content="${ogImageUrl}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${escapeHtml(title)}">
+    <meta name="twitter:description" content="${escapeHtml(description)}">
+    <meta name="twitter:image" content="${ogImageUrl}">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <!-- Reuse the app's design system: style.css defines the neumorphic tokens
@@ -801,6 +812,16 @@ async function main() {
   const ranked = rankTopTokens(pools, args.limit);
   console.log(`🏆 Top ${ranked.length} tokens by TVL (>= ${MIN_QUALIFYING_POOLS} qualifying pools each)`);
 
+  // Per-page OG images (051): one per token slug, shared across en/ko (the
+  // card data — symbol/best gated APY/pool count — doesn't vary by
+  // language, so a single PNG serves both variants' og:image). Lazy require,
+  // same reason as generate-chain-pages.js below: generate-og-images.js
+  // requires this module eagerly for poolTotalApy/formatApy, so a top-level
+  // require here would be a load-time cycle.
+  const { generateOgImages } = require('./generate-og-images.js');
+  const ogImagePaths = generateOgImages(ranked, 'tokens', rec => rec.symbol, process.cwd());
+  console.log(`🖼️  Generated ${ogImagePaths.size} token OG images`);
+
   const outDir = path.resolve(args.out);
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   // Clean stale pages first so tokens dropped by the gate (030) / renamed slugs
@@ -827,7 +848,7 @@ async function main() {
 
   ranked.forEach(rec => {
     const chainLinks = chainLinksFor(rec, generatedChainSlugs);
-    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks));
+    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks, 'en', ogImagePaths));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
@@ -857,7 +878,7 @@ async function main() {
   }
   ranked.forEach(rec => {
     const chainLinks = chainLinksFor(rec, generatedChainSlugs);
-    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks, 'ko'));
+    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks, 'ko', ogImagePaths));
   });
   fs.writeFileSync(path.join(koOutDir, 'index.html'), renderTokenHubPage(ranked, azGroups, 'ko'));
   const koAzDir = path.join(koOutDir, 'az');
@@ -895,7 +916,7 @@ module.exports = {
   todayGeneratedDate, renderLastUpdatedHtml,
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,
   renderHreflangLinks, SUPPORTED_LANGS,
-  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
+  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH
 };
 
 if (require.main === module) {

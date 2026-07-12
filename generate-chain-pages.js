@@ -31,6 +31,9 @@ const tp = require('./generate-token-pages.js');
 // REUSE (spec 050): same en/ko catalog + lookup helper generate-token-pages.js
 // uses — copy-only translation, pool data/numbers identical across languages.
 const { createTranslationFunction } = require('./translations.js');
+// Per-page OG images (051). Safe as a top-level require: this module only
+// requires generate-token-pages.js (not this one back), so no load cycle.
+const { generateOgImages } = require('./generate-og-images.js');
 
 const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
@@ -39,7 +42,7 @@ const {
   poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
-  categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken
+  categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -131,7 +134,10 @@ function topTokensOnChain(rec, generatedTokenSlugs, cap) {
 }
 
 /** Render a single chain's static landing page as an HTML string. */
-function renderChainPage(rec, related, generatedDate, tokenLinks, lang) {
+/* `ogImagePaths` (051): Map<slug, relPath> from generateOgImages — falls
+ * back to the shared /og-image.png when the map is absent or has no entry
+ * for this slug, so a page never ships without SOME og:image. */
+function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImagePaths) {
   const language = (lang === 'ko') ? 'ko' : 'en';
   const t = createTranslationFunction(language);
   const chainName = escapeHtml(rec.chain);
@@ -140,6 +146,8 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang) {
   const pageUrl = language === 'ko' ? koUrl : enUrl;
   const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}`;
   const genDate = generatedDate || todayGeneratedDate();
+  const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
+  const ogImageUrl = `${SITE_URL}/${ogImageRelPath}`;
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const tokenCount = rec.tokens.length;
   const title = t('tcpChainTitle', rec.chain);
@@ -233,8 +241,11 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
-    <meta property="og:image" content="${SITE_URL}/og-image.png">
+    <meta property="og:image" content="${ogImageUrl}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${escapeHtml(title)}">
+    <meta name="twitter:description" content="${escapeHtml(description)}">
+    <meta name="twitter:image" content="${ogImageUrl}">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
     <!-- Reuse the app's design system: style.css defines the neumorphic tokens
@@ -419,6 +430,11 @@ async function main() {
   const ranked = rankTopChains(pools, args.limit);
   console.log(`🏆 ${ranked.length} chains (>= ${MIN_QUALIFYING_POOLS} qualifying pool each)`);
 
+  // Per-page OG images (051): one per chain slug, shared across en/ko (the
+  // card data doesn't vary by language).
+  const ogImagePaths = generateOgImages(ranked, 'chains', rec => rec.chain, process.cwd());
+  console.log(`🖼️  Generated ${ogImagePaths.size} chain OG images`);
+
   const outDir = path.resolve(args.out);
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   // Clean stale pages first so chains dropped by the gate / renamed slugs
@@ -439,7 +455,7 @@ async function main() {
 
   ranked.forEach(rec => {
     const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
-    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks));
+    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'en', ogImagePaths));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
@@ -459,7 +475,7 @@ async function main() {
   }
   ranked.forEach(rec => {
     const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
-    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'ko'));
+    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'ko', ogImagePaths));
   });
   fs.writeFileSync(path.join(koOutDir, 'index.html'), renderChainHubPage(ranked, 'ko'));
   console.log(`🇰🇷 Wrote ${ranked.length} ko/chains pages + ko hub page`);

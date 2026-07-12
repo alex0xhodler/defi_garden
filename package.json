@@ -11,7 +11,7 @@
     "generate:llms": "node generate-llms.js",
     "tokens": "node generate-token-pages.js",
     "chains": "node generate-chain-pages.js",
-    "test": "node test_planner.js && node test_protocol_parsing.js && node test_qualifier_fix.js && node test_smoke.js && node test_canonical.js && node test_search.js && node test_token_pages.js && node test_chain_pages.js && node test_hub_pages.js && node test_indexnow.js && node test_stories.js && node test_analytics_fires.js && node test_i18n_pages.js"
+    "test": "node test_planner.js && node test_protocol_parsing.js && node test_qualifier_fix.js && node test_smoke.js && node test_canonical.js && node test_search.js && node test_token_pages.js && node test_chain_pages.js && node test_hub_pages.js && node test_indexnow.js && node test_stories.js && node test_analytics_fires.js && node test_i18n_pages.js && node test_og_images.js"
   },
   "keywords": [
     "defi",
@@ -40,7 +40,8 @@
     "node": "22.x"
   },
   "dependencies": {
-    "fast-xml-parser": "^4.4.1"
+    "fast-xml-parser": "^4.4.1",
+    "@napi-rs/canvas": "^1.0.2"
   },
   "devDependencies": {
     "@babel/standalone": "^8.0.4",
