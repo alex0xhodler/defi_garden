@@ -2442,6 +2442,34 @@ body {
   background: rgba(59, 130, 246, 0.1);
 }
 
+/* SEO surface hub links (045) — static footer nav to /tokens and /chains,
+   present in home.html's raw markup for crawlers. Normal document flow
+   (not fixed like .app-footer above), so it sits below the mounted app. */
+.seo-hub-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-16);
+  padding: var(--space-16) var(--space-20);
+  font-size: var(--font-size-sm);
+}
+
+.seo-hub-links a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--neuro-radius-sm);
+}
+
+.seo-hub-links a:hover {
+  color: var(--color-primary);
+  background: var(--color-surface);
+}
+
+.seo-hub-links a:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
 /* Reset Filters Button - neumorphic recovery action (empty state) */
 .reset-filters-btn {
   margin-top: var(--space-20);
