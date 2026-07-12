@@ -1227,7 +1227,7 @@ function App() {
 
       const filtersActive = Analytics.getFiltersActiveCount(activeFilters);
       if (filtersActive > 1) {
-        // Analytics disabled: Analytics.trackFilterCombination(activeFilters, filteredPools.length);
+        Analytics.trackFilterCombination(activeFilters, filteredPools.length);
       }
     }
   }, [selectedChain, selectedToken, minTvl, minApy, selectedPoolTypes, selectedProtocols, filteredPools.length, isInitialLoad]);
@@ -2002,7 +2002,7 @@ function App() {
       selectedPoolTypes,
       selectedProtocols
     };
-    // Analytics disabled: Analytics.trackFiltersReset(previousFilters, filteredPools.length);
+    Analytics.trackFiltersReset(previousFilters, filteredPools.length);
 
     setSelectedToken('');
     setSearchInput('');
@@ -2195,7 +2195,7 @@ function App() {
   // Handle navigation back from pool detail view
   const handleBackFromDetail = () => {
     // Analytics tracking for navigation
-    // Analytics disabled: Analytics.trackNavigation('pool-detail', 'search', 'back_button');
+    Analytics.trackNavigation('pool-detail', 'search', 'back_button');
 
     // Remove pool parameter from URL first
     const params = new URLSearchParams(window.location.search);
@@ -2254,7 +2254,7 @@ function App() {
         selectedProtocols,
         previousResultsCount: filteredPools.length
       };
-      // Analytics disabled: Analytics.trackFilterChange('pool_type', poolType, filteredPools.length, fullFilterState);
+      Analytics.trackFilterChange('pool_type', poolType, filteredPools.length, fullFilterState);
 
       return newTypes;
     });
@@ -2277,7 +2277,7 @@ function App() {
         selectedProtocols: newProtocols,
         previousResultsCount: filteredPools.length
       };
-      // Analytics disabled: Analytics.trackFilterChange('protocol', protocolFriendlyName, filteredPools.length, fullFilterState);
+      Analytics.trackFilterChange('protocol', protocolFriendlyName, filteredPools.length, fullFilterState);
 
       return newProtocols;
     });
@@ -2301,7 +2301,7 @@ function App() {
       selectedProtocols,
       previousResultsCount: filteredPools.length
     };
-    // Analytics disabled: Analytics.trackFilterChange('min_tvl', tvlValue, filteredPools.length, fullFilterState);
+    Analytics.trackFilterChange('min_tvl', tvlValue, filteredPools.length, fullFilterState);
     setMinTvl(tvlValue);
   };
 
@@ -2317,7 +2317,7 @@ function App() {
       selectedProtocols,
       previousResultsCount: filteredPools.length
     };
-    // Analytics disabled: Analytics.trackFilterChange('min_apy', apyValue, filteredPools.length, fullFilterState);
+    Analytics.trackFilterChange('min_apy', apyValue, filteredPools.length, fullFilterState);
     setMinApy(apyValue);
   };
 
