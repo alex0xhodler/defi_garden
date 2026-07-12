@@ -212,11 +212,13 @@ function wrapSitemap(content) {
  * Generate the complete sitemap suite with Vertical Semantic Grouping
  * Optimized for "Intent-Based" AI Agent crawling (Chain/Category focused)
  */
-async function generateSitemapSuite() {
+async function generateSitemapSuite(poolsOverride) {
   console.log('🚀 Starting SOTA sitemap generation with Vertical Semantic Grouping...');
-  
+
   try {
-    const pools = await fetchPoolData();
+    // poolsOverride lets tests drive the suite offline with a fixture instead
+    // of hitting the live DefiLlama API; production callers pass nothing.
+    const pools = Array.isArray(poolsOverride) ? poolsOverride : await fetchPoolData();
     const { tokens, chains, tokenChainCombos, tokenPoolTypes } = extractValidCombinations(pools);
     
     // Map data for priority and categorization
