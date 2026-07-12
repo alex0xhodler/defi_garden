@@ -411,6 +411,6 @@ if (require.main === module) {
 
 module.exports = {
   rankTopTokens, renderTokenPage, relatedFor, renderTokenSitemap, tokenSlug, isQualifyingPool, isAnomalousApy,
-  isValidToken, poolTotalApy, formatUsd, formatApy, renderAnalyticsBootstrap,
+  isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };

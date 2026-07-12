@@ -1,0 +1,182 @@
+[
+  {
+    "symbol": "AAA",
+    "project": "aave-v3",
+    "chain": "Big",
+    "tvlUsd": 500000000,
+    "apyBase": 4.1,
+    "apyReward": 0,
+    "pool": "big-aave-v3-0"
+  },
+  {
+    "symbol": "BBB",
+    "project": "compound-v3",
+    "chain": "Big",
+    "tvlUsd": 300000000,
+    "apyBase": 3.8,
+    "apyReward": 0.2,
+    "pool": "big-compound-v3-1"
+  },
+  {
+    "symbol": "CCC",
+    "project": "curve",
+    "chain": "Big",
+    "tvlUsd": 100000000,
+    "apyBase": 2.0,
+    "apyReward": 0,
+    "pool": "big-curve-2"
+  },
+  {
+    "symbol": "DDD",
+    "project": "curve",
+    "chain": "Mid",
+    "tvlUsd": 5000000,
+    "apyBase": 6.2,
+    "apyReward": 1.1,
+    "pool": "mid-curve-3"
+  },
+  {
+    "symbol": "EEE",
+    "project": "realpool",
+    "chain": "Anom",
+    "tvlUsd": 2000000,
+    "apyBase": 6.0,
+    "apyReward": 0,
+    "pool": "anom-realpool-4"
+  },
+  {
+    "symbol": "FFF",
+    "project": "degenfarm",
+    "chain": "Anom",
+    "tvlUsd": 900000000,
+    "apyBase": 1500,
+    "apyReward": 600,
+    "pool": "anom-degenfarm-5"
+  },
+  {
+    "symbol": "GGG",
+    "project": "dustpool",
+    "chain": "Dust",
+    "tvlUsd": 50000,
+    "apyBase": 12.0,
+    "apyReward": 0,
+    "pool": "dust-dustpool-6"
+  },
+  {
+    "symbol": "HHH",
+    "project": "aave-v3",
+    "chain": "Zero",
+    "tvlUsd": 50000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "zero-aave-v3-7"
+  },
+  {
+    "symbol": "III",
+    "project": "compound-v3",
+    "chain": "Zero",
+    "tvlUsd": 30000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "zero-compound-8"
+  },
+  {
+    "symbol": "JJJ",
+    "project": "somelend",
+    "chain": "Tiny",
+    "tvlUsd": 2720000,
+    "apyBase": 0.003,
+    "apyReward": 0,
+    "pool": "tiny-somelend-9"
+  },
+  {
+    "symbol": "KKK0",
+    "project": "zpool0",
+    "chain": "Trunc",
+    "tvlUsd": 20000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z0"
+  },
+  {
+    "symbol": "KKK1",
+    "project": "zpool1",
+    "chain": "Trunc",
+    "tvlUsd": 19000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z1"
+  },
+  {
+    "symbol": "KKK2",
+    "project": "zpool2",
+    "chain": "Trunc",
+    "tvlUsd": 18000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z2"
+  },
+  {
+    "symbol": "KKK3",
+    "project": "zpool3",
+    "chain": "Trunc",
+    "tvlUsd": 17000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z3"
+  },
+  {
+    "symbol": "KKK4",
+    "project": "zpool4",
+    "chain": "Trunc",
+    "tvlUsd": 16000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z4"
+  },
+  {
+    "symbol": "KKK5",
+    "project": "zpool5",
+    "chain": "Trunc",
+    "tvlUsd": 15000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z5"
+  },
+  {
+    "symbol": "KKK6",
+    "project": "zpool6",
+    "chain": "Trunc",
+    "tvlUsd": 14000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z6"
+  },
+  {
+    "symbol": "KKK7",
+    "project": "zpool7",
+    "chain": "Trunc",
+    "tvlUsd": 13000000,
+    "apyBase": 0,
+    "apyReward": 0,
+    "pool": "trunc-z7"
+  },
+  {
+    "symbol": "KKK8",
+    "project": "yieldpool",
+    "chain": "Trunc",
+    "tvlUsd": 200000,
+    "apyBase": 5.0,
+    "apyReward": 0,
+    "pool": "trunc-yield-8"
+  },
+  {
+    "symbol": "AAA",
+    "project": "someproto",
+    "chain": "Multi Chain",
+    "tvlUsd": 3000000,
+    "apyBase": 5.0,
+    "apyReward": 0,
+    "pool": "multi-someproto-9"
+  }
+]

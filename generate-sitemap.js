@@ -403,6 +403,15 @@ async function generateSitemapSuite() {
       indexXml += `    <lastmod>${now}</lastmod>\n`;
       indexXml += '  </sitemap>\n';
     }
+    // Include the static /chains/ landing-page sitemap (041) when it has been
+    // generated (generate-chain-pages.js writes it in the same CI run) —
+    // mirrors the sitemap-token-pages.xml guard directly above.
+    if (fs.existsSync('sitemap-chain-pages.xml')) {
+      indexXml += '  <sitemap>\n';
+      indexXml += `    <loc>${SITE_URL}sitemap-chain-pages.xml</loc>\n`;
+      indexXml += `    <lastmod>${now}</lastmod>\n`;
+      indexXml += '  </sitemap>\n';
+    }
     indexXml += '</sitemapindex>';
     fs.writeFileSync('sitemap.xml', indexXml);
     console.log('✅ Generated sitemap.xml (Index)');
