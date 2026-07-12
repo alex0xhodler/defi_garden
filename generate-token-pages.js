@@ -388,6 +388,84 @@ function renderDatasetJsonLd(name, description, pageUrl, generatedDate) {
   }).replace(/</g, '\\u003c');
 }
 
+/** Direct-answer + FAQ content (047, GEO/AEO). Built once from data the page
+ * already computed (the SAME gated `rec.pools`/`rec.qualifyingCount`/
+ * `rec.totalTvl` the visible table uses) so the head-query answer can never
+ * cite an anomalous or sub-floor pool — the trust rail is structural here,
+ * not a separate check: this function never reads raw pool data, only the
+ * already-filtered `rec`/`bestApy`/`topPool` a caller passes in. Shared by
+ * token and chain pages. Returns RAW (unescaped) text — callers HTML-escape
+ * for visible rendering and JSON.stringify raw for ld+json (the 040/
+ * generate-stories.js FAQ pattern: JSON escaping != HTML escaping, and the
+ * two must byte-for-byte match once the browser decodes HTML entities). */
+function buildAnswerAndFaq(label, rec, bestApy, topPool, poolWord) {
+  const project = topPool.project || '—';
+  const chain = topPool.chain || '—';
+  const apyStr = formatApy(bestApy);
+  const tvlStr = formatUsd(rec.totalTvl);
+
+  const answer =
+    `The highest honest ${label} yield right now is ${apyStr} on ${project} (${chain}), ` +
+    `among ${rec.qualifyingCount} ${poolWord} above the $100K TVL floor. ` +
+    `Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.`;
+
+  const faq = [
+    {
+      q: `What's the highest ${label} yield today?`,
+      a: `${apyStr} APY on ${project} (${chain}), based on live DefiLlama data.`
+    },
+    {
+      q: `How many ${label} pools clear the TVL floor?`,
+      a: `${rec.qualifyingCount} live ${poolWord} clear DeFi Garden's $100K TVL floor, ${tvlStr} in total.`
+    },
+    {
+      q: `Are these rates safe?`,
+      a: `Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous ` +
+        `(>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk ` +
+        `regardless of the rate shown.`
+    }
+  ];
+
+  return { answer, faq };
+}
+
+/** Visible HTML for the direct-answer block (047) — 2-4 sentences answering
+ * the head query, placed right after the H1. `cssClass` lets token/chain
+ * pages keep their own scoped prefix (tp-/cp-), matching the rest of the
+ * page's style convention. */
+function renderAnswerBlockHtml(answerText, cssClass) {
+  return `    <p class="${cssClass}">${escapeHtml(answerText)}</p>\n`;
+}
+
+/** Visible HTML for the FAQ section (047) — mirrors generate-stories.js's
+ * kevin-page FAQ markup exactly (same st-faq-item/-q/-a structure, renamed
+ * to this page's own scoped prefix). */
+function renderFaqBlockHtml(faqItems, cssPrefix) {
+  const items = (faqItems || []).map(item => `        <div class="${cssPrefix}-item">
+          <h3 class="${cssPrefix}-q">${escapeHtml(item.q)}</h3>
+          <p class="${cssPrefix}-a">${escapeHtml(item.a)}</p>
+        </div>`).join('\n');
+  return `    <section class="${cssPrefix}" aria-label="Frequently asked questions">
+      <h2>Frequently asked questions</h2>
+${items}
+    </section>\n`;
+}
+
+/** FAQPage JSON-LD (047) — mainEntity built straight from the same faqItems
+ * array renderFaqBlockHtml renders, so schema and visible text can never
+ * diverge (the 040 kevin invariant, reused here). */
+function renderFaqJsonLd(faqItems) {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: (faqItems || []).map(item => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a }
+    }))
+  }).replace(/</g, '\\u003c');
+}
+
 /** Render a single token's static landing page as an HTML string. */
 function renderTokenPage(rec, related, generatedDate) {
   const sym = escapeHtml(rec.symbol);
@@ -439,6 +517,14 @@ function renderTokenPage(rec, related, generatedDate) {
     genDate
   );
 
+  // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
+  // table/intro above already use — never touches raw pool data, so an
+  // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
+  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, top, poolWord);
+  const answerBlock = renderAnswerBlockHtml(answer, 'tp-answer');
+  const faqBlock = renderFaqBlockHtml(faq, 'tp-faq');
+  const faqJsonLd = renderFaqJsonLd(faq);
+
   const relatedLinks = (related || []).map(r =>
     `<a href="${SITE_URL}/tokens/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
   const relatedBlock = relatedLinks
@@ -474,6 +560,7 @@ function renderTokenPage(rec, related, generatedDate) {
     <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
+    <script type="application/ld+json">${faqJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
@@ -514,6 +601,12 @@ function renderTokenPage(rec, related, generatedDate) {
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-faq { margin: 30px 0 8px; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
     </style>
@@ -522,7 +615,7 @@ ${renderAnalyticsBootstrap(`/tokens/${rec.slug}`, { page_type: 'token_landing', 
 <body>
   <main class="tp-wrap">
     <h1>${sym} DeFi Yields</h1>
-    <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live ${poolWord} above the $100K TVL floor · ranked by TVL</p>
+${answerBlock}    <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live ${poolWord} above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">${intro}</p>
     <a class="tp-cta" href="${appUrl}">See live ${sym} pools &rarr;</a>
     <div class="tp-card">
@@ -537,7 +630,7 @@ ${rows}
     </table>
     </div>
     </div>
-${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
+${faqBlock}${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
     <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
   </main>
 </body>
@@ -646,5 +739,6 @@ module.exports = {
   isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap,
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
   poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
+  buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
