@@ -146,8 +146,12 @@ jobs:
             exit 0
           fi
           echo "⚠️ Push rejected (attempt $attempt) — rebasing onto latest main..."
-          git pull --rebase --autostash origin main || {
-            echo "❌ Rebase hit a conflict — aborting"; git rebase --abort || true; exit 1;
+          # -X theirs: the committed files are all freshly regenerated output,
+          # so on a conflict with main (another regen / merged PR) OUR version
+          # is the current one — take it wholesale instead of failing. ("theirs"
+          # during a rebase = the commit being replayed, i.e. this run's files.)
+          git pull --rebase --autostash -X theirs origin main || {
+            echo "❌ Rebase failed unexpectedly — aborting"; git rebase --abort || true; exit 1;
           }
           sleep $((attempt * 3))
         done
