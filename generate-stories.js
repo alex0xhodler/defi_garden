@@ -162,7 +162,7 @@ function renderAnalyticsBootstrap(pagePath, properties) {
     <script defer src="${SITE_URL}/analytics.js"></script>
     <script>
       window.addEventListener('load', function () {
-        if (window.Analytics && typeof Analytics.trackPageView === 'function') {
+        if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
           Analytics.trackPageView(${JSON.stringify(pagePath)}, ${JSON.stringify(properties || {})});
         }
       });
