@@ -412,6 +412,20 @@ async function generateSitemapSuite() {
       indexXml += `    <lastmod>${now}</lastmod>\n`;
       indexXml += '  </sitemap>\n';
     }
+    // Korean /ko/tokens/ + /ko/chains/ landing-page sitemaps (050) — same
+    // existsSync guard pattern as their en counterparts above.
+    if (fs.existsSync('sitemap-token-pages-ko.xml')) {
+      indexXml += '  <sitemap>\n';
+      indexXml += `    <loc>${SITE_URL}sitemap-token-pages-ko.xml</loc>\n`;
+      indexXml += `    <lastmod>${now}</lastmod>\n`;
+      indexXml += '  </sitemap>\n';
+    }
+    if (fs.existsSync('sitemap-chain-pages-ko.xml')) {
+      indexXml += '  <sitemap>\n';
+      indexXml += `    <loc>${SITE_URL}sitemap-chain-pages-ko.xml</loc>\n`;
+      indexXml += `    <lastmod>${now}</lastmod>\n`;
+      indexXml += '  </sitemap>\n';
+    }
     indexXml += '</sitemapindex>';
     fs.writeFileSync('sitemap.xml', indexXml);
     console.log('✅ Generated sitemap.xml (Index)');
