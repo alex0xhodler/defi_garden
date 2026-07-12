@@ -1,6 +1,6 @@
-/* Unit tests for the per-page OG image generator (spec 051).
+/* Unit tests for the per-page OG image generator (spec 051, JPEG since 057).
    Runs the real @napi-rs/canvas render against crafted/reused fixtures and
-   asserts on the actual PNG bytes + the token/chain page templates that
+   asserts on the actual JPEG bytes + the token/chain page templates that
    consume them. Run: node test_og_images.js
 
    Trust rail (mirrors test_token_pages.js/test_chain_pages.js): the ANOM
@@ -29,19 +29,31 @@ const tokenRanked = tp.rankTopTokens(pools);
 const chainRanked = cp.rankTopChains(pools);
 const tokenBySym = Object.fromEntries(tokenRanked.map(r => [r.symbol, r]));
 
-function isPng(buf) {
-  return buf.length > 8 && buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4e && buf[3] === 0x47;
+function isJpeg(buf) {
+  return buf.length > 4 && buf[0] === 0xff && buf[1] === 0xd8 && buf[buf.length - 2] === 0xff && buf[buf.length - 1] === 0xd9;
 }
-// PNG dimensions live in the IHDR chunk, bytes 16-23 (big-endian width/height).
-function pngDims(buf) {
-  return { width: buf.readUInt32BE(16), height: buf.readUInt32BE(20) };
+// JPEG dimensions live in the SOF (Start Of Frame) marker segment: scan
+// markers from byte 2 until an SOFn (0xC0-0xCF, excluding DHT/JPG/DAC) is
+// found, then read precision(1)+height(2BE)+width(2BE) from its payload.
+function jpegDims(buf) {
+  let i = 2;
+  while (i < buf.length - 9) {
+    if (buf[i] !== 0xff) { i++; continue; }
+    const marker = buf[i + 1];
+    if (marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc) {
+      return { height: buf.readUInt16BE(i + 5), width: buf.readUInt16BE(i + 7) };
+    }
+    const segLen = buf.readUInt16BE(i + 2);
+    i += 2 + segLen;
+  }
+  throw new Error('no SOF marker found');
 }
 
-console.log('renderOgCard — real PNG output');
-test('renders a valid 1200x630 PNG', () => {
+console.log('renderOgCard — real JPEG output');
+test('renders a valid 1200x630 JPEG', () => {
   const buf = og.renderOgCard({ label: 'USDC', bestApy: 6.42, poolCount: 3 });
-  assert.ok(isPng(buf), 'output is not a PNG');
-  const { width, height } = pngDims(buf);
+  assert.ok(isJpeg(buf), 'output is not a JPEG');
+  const { width, height } = jpegDims(buf);
   assert.strictEqual(width, og.CARD_W);
   assert.strictEqual(height, og.CARD_H);
 });
@@ -50,11 +62,11 @@ test('does not throw on a long label (truncated instead)', () => {
 });
 
 console.log('ogRelPath — path convention');
-test('token path is og/tokens/<slug>.png', () => {
-  assert.strictEqual(og.ogRelPath('tokens', 'usdc'), 'og/tokens/usdc.png');
+test('token path is og/tokens/<slug>.jpg', () => {
+  assert.strictEqual(og.ogRelPath('tokens', 'usdc'), 'og/tokens/usdc.jpg');
 });
-test('chain path is og/chains/<slug>.png', () => {
-  assert.strictEqual(og.ogRelPath('chains', 'ethereum'), 'og/chains/ethereum.png');
+test('chain path is og/chains/<slug>.jpg', () => {
+  assert.strictEqual(og.ogRelPath('chains', 'ethereum'), 'og/chains/ethereum.jpg');
 });
 
 console.log('trust rail — anomaly exclusion (051 AC #2, mirrors 027s share-card fix)');
@@ -75,33 +87,33 @@ function withTmpDir(fn) {
   try { fn(dir); } finally { fs.rmSync(dir, { recursive: true, force: true }); }
 }
 
-test('writes one real PNG per qualifying token, keyed by slug', () => {
+test('writes one real JPEG per qualifying token, keyed by slug', () => {
   withTmpDir(dir => {
     const paths = og.generateOgImages(tokenRanked, 'tokens', rec => rec.symbol, dir);
     tokenRanked.forEach(rec => {
-      const filePath = path.join(dir, 'og', 'tokens', `${rec.slug}.png`);
+      const filePath = path.join(dir, 'og', 'tokens', `${rec.slug}.jpg`);
       assert.ok(fs.existsSync(filePath), `missing ${filePath}`);
-      assert.ok(isPng(fs.readFileSync(filePath)));
-      assert.strictEqual(paths.get(rec.slug), `og/tokens/${rec.slug}.png`);
+      assert.ok(isJpeg(fs.readFileSync(filePath)));
+      assert.strictEqual(paths.get(rec.slug), `og/tokens/${rec.slug}.jpg`);
     });
   });
 });
-test('writes one real PNG per qualifying chain, keyed by slug', () => {
+test('writes one real JPEG per qualifying chain, keyed by slug', () => {
   withTmpDir(dir => {
     const paths = og.generateOgImages(chainRanked, 'chains', rec => rec.chain, dir);
     chainRanked.forEach(rec => {
-      const filePath = path.join(dir, 'og', 'chains', `${rec.slug}.png`);
+      const filePath = path.join(dir, 'og', 'chains', `${rec.slug}.jpg`);
       assert.ok(fs.existsSync(filePath));
-      assert.strictEqual(paths.get(rec.slug), `og/chains/${rec.slug}.png`);
+      assert.strictEqual(paths.get(rec.slug), `og/chains/${rec.slug}.jpg`);
     });
   });
 });
 test('removes a stale image left by a token no longer in the ranked set', () => {
   withTmpDir(dir => {
     fs.mkdirSync(path.join(dir, 'og', 'tokens'), { recursive: true });
-    fs.writeFileSync(path.join(dir, 'og', 'tokens', 'delisted.png'), Buffer.from([0]));
+    fs.writeFileSync(path.join(dir, 'og', 'tokens', 'delisted.jpg'), Buffer.from([0]));
     og.generateOgImages(tokenRanked, 'tokens', rec => rec.symbol, dir);
-    assert.ok(!fs.existsSync(path.join(dir, 'og', 'tokens', 'delisted.png')));
+    assert.ok(!fs.existsSync(path.join(dir, 'og', 'tokens', 'delisted.jpg')));
   });
 });
 test('a per-record render failure falls back to the shared image, other records unaffected (AC #3/#4)', () => {
@@ -110,9 +122,9 @@ test('a per-record render failure falls back to the shared image, other records 
     const records = [tokenBySym['MID'], broken];
     const paths = og.generateOgImages(records, 'tokens', rec => rec.symbol, dir);
     assert.strictEqual(paths.get('broken'), og.FALLBACK_REL_PATH);
-    assert.ok(!fs.existsSync(path.join(dir, 'og', 'tokens', 'broken.png')));
-    assert.strictEqual(paths.get(tokenBySym['MID'].slug), `og/tokens/${tokenBySym['MID'].slug}.png`);
-    assert.ok(fs.existsSync(path.join(dir, 'og', 'tokens', `${tokenBySym['MID'].slug}.png`)));
+    assert.ok(!fs.existsSync(path.join(dir, 'og', 'tokens', 'broken.jpg')));
+    assert.strictEqual(paths.get(tokenBySym['MID'].slug), `og/tokens/${tokenBySym['MID'].slug}.jpg`);
+    assert.ok(fs.existsSync(path.join(dir, 'og', 'tokens', `${tokenBySym['MID'].slug}.jpg`)));
   });
 });
 
@@ -127,14 +139,14 @@ test('generating images for the whole fixture token set completes in well under 
 });
 
 console.log('renderTokenPage / renderChainPage — per-slug og:image wiring (051 AC #1)');
-test('token page references its own og/tokens/<slug>.png when an image map is passed', () => {
+test('token page references its own og/tokens/<slug>.jpg when an image map is passed', () => {
   const rec = tokenBySym['BIG'];
-  const ogImagePaths = new Map([[rec.slug, `og/tokens/${rec.slug}.png`]]);
+  const ogImagePaths = new Map([[rec.slug, `og/tokens/${rec.slug}.jpg`]]);
   const html = tp.renderTokenPage(rec, [], '2026-07-12', [], 'en', ogImagePaths);
-  assert.ok(html.includes(`<meta property="og:image" content="${tp.SITE_URL}/og/tokens/${rec.slug}.png">`));
-  assert.ok(html.includes(`<meta name="twitter:image" content="${tp.SITE_URL}/og/tokens/${rec.slug}.png">`));
+  assert.ok(html.includes(`<meta property="og:image" content="${tp.SITE_URL}/og/tokens/${rec.slug}.jpg">`));
+  assert.ok(html.includes(`<meta name="twitter:image" content="${tp.SITE_URL}/og/tokens/${rec.slug}.jpg">`));
 });
-test('token page falls back to the shared og-image.png when no image map is passed', () => {
+test('token page falls back to the shared og-image.jpg when no image map is passed', () => {
   const rec = tokenBySym['BIG'];
   const html = tp.renderTokenPage(rec, [], '2026-07-12', [], 'en');
   assert.ok(html.includes(`<meta property="og:image" content="${tp.SITE_URL}/${tp.OG_FALLBACK_REL_PATH}">`));
@@ -152,22 +164,22 @@ test('token page sets twitter:title/twitter:description matching the page title/
   assert.ok(html.includes(`<meta name="twitter:title" content="${titleMatch[1]}">`));
   assert.ok(html.includes(`<meta name="twitter:description" content="${descMatch[1]}">`));
 });
-test('chain page references its own og/chains/<slug>.png when an image map is passed', () => {
+test('chain page references its own og/chains/<slug>.jpg when an image map is passed', () => {
   const rec = chainRanked.find(r => r.chain === 'Big') || chainRanked[0];
-  const ogImagePaths = new Map([[rec.slug, `og/chains/${rec.slug}.png`]]);
+  const ogImagePaths = new Map([[rec.slug, `og/chains/${rec.slug}.jpg`]]);
   const html = cp.renderChainPage(rec, [], '2026-07-12', [], 'en', ogImagePaths);
-  assert.ok(html.includes(`<meta property="og:image" content="${cp.SITE_URL}/og/chains/${rec.slug}.png">`));
-  assert.ok(html.includes(`<meta name="twitter:image" content="${cp.SITE_URL}/og/chains/${rec.slug}.png">`));
+  assert.ok(html.includes(`<meta property="og:image" content="${cp.SITE_URL}/og/chains/${rec.slug}.jpg">`));
+  assert.ok(html.includes(`<meta name="twitter:image" content="${cp.SITE_URL}/og/chains/${rec.slug}.jpg">`));
 });
-test('chain page falls back to the shared og-image.png when no image map is passed', () => {
+test('chain page falls back to the shared og-image.jpg when no image map is passed', () => {
   const rec = chainRanked[0];
   const html = cp.renderChainPage(rec, [], '2026-07-12', [], 'en');
-  assert.ok(html.includes(`<meta property="og:image" content="${cp.SITE_URL}/og-image.png">`));
+  assert.ok(html.includes(`<meta property="og:image" content="${cp.SITE_URL}/og-image.jpg">`));
 });
-test('hub/A-Z pages (no per-page record) keep the shared og-image.png untouched', () => {
+test('hub/A-Z pages (no per-page record) keep the shared og-image.jpg untouched', () => {
   const azGroups = tp.groupTokensAZ(tokenRanked);
   const hubHtml = tp.renderTokenHubPage(tokenRanked, azGroups);
-  assert.ok(hubHtml.includes(`<meta property="og:image" content="${tp.SITE_URL}/og-image.png">`));
+  assert.ok(hubHtml.includes(`<meta property="og:image" content="${tp.SITE_URL}/og-image.jpg">`));
 });
 
 console.log(`\n${passed} assertions passed`);

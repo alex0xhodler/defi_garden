@@ -60,7 +60,7 @@ const POOLS_PER_PAGE = 8;         // how many pools to list on each page
 const HUB_TOP_N = 60;             // tokens linked directly on the /tokens hub before the A–Z tier takes over (045)
 // Shared social/SERP image every page falls back to when it has no per-slug
 // OG card of its own (hub/A-Z pages, or a generation failure — 051).
-const OG_FALLBACK_REL_PATH = 'og-image.png';
+const OG_FALLBACK_REL_PATH = 'og-image.jpg';
 
 // Token symbol validity — mirrors generate-sitemap.js isValidToken.
 const TOKEN_REGEX = /^[A-Z0-9][A-Z0-9.\-_]{1,14}$/i;
@@ -375,7 +375,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
-    <meta property="og:image" content="${SITE_URL}/og-image.png">
+    <meta property="og:image" content="${SITE_URL}/og-image.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
@@ -433,7 +433,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
-    <meta property="og:image" content="${SITE_URL}/og-image.png">
+    <meta property="og:image" content="${SITE_URL}/og-image.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
@@ -565,7 +565,7 @@ function renderFaqJsonLd(faqItems) {
 
 /** Render a single token's static landing page as an HTML string.
  * `ogImagePaths` (051): Map<slug, relPath> from generateOgImages — falls
- * back to the shared /og-image.png when the map is absent or has no entry
+ * back to the shared /og-image.jpg when the map is absent or has no entry
  * for this slug, so a page never ships without SOME og:image. */
 function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImagePaths) {
   const language = (lang === 'ko') ? 'ko' : 'en';

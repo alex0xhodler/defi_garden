@@ -135,7 +135,7 @@ function topTokensOnChain(rec, generatedTokenSlugs, cap) {
 
 /** Render a single chain's static landing page as an HTML string. */
 /* `ogImagePaths` (051): Map<slug, relPath> from generateOgImages — falls
- * back to the shared /og-image.png when the map is absent or has no entry
+ * back to the shared /og-image.jpg when the map is absent or has no entry
  * for this slug, so a page never ships without SOME og:image. */
 function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImagePaths) {
   const language = (lang === 'ko') ? 'ko' : 'en';
@@ -345,7 +345,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${pageUrl}">
-    <meta property="og:image" content="${SITE_URL}/og-image.png">
+    <meta property="og:image" content="${SITE_URL}/og-image.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">

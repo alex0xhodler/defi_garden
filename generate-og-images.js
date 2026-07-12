@@ -3,9 +3,10 @@
 /**
  * Per-page OG image generator for the static token/chain SEO surface
  * (backlog 051). Every /tokens/<slug> and /chains/<slug> page currently
- * ships the one shared og-image.png; this renders a unique 1200x630 PNG
+ * ships the one shared og-image.jpg; this renders a unique 1200x630 JPEG
  * per page — name, best honest APY, pool count — so social/SERP shares
- * carry a data-true, on-brand card instead of a generic logo.
+ * carry a data-true, on-brand card instead of a generic logo. JPEG not PNG
+ * (backlog 057): ~22% smaller per card at 2,113-page scale, no new dep.
  *
  * No runtime image service (static architecture, CLAUDE.md): images are
  * rendered at generation time via @napi-rs/canvas (headless, no browser)
@@ -20,7 +21,7 @@
  *
  * Fallback: a per-record render/write failure never breaks the page — the
  * caller gets FALLBACK_REL_PATH back for that slug and the page's og:image
- * points at the existing shared /og-image.png instead (spec 051, AC #3/#4).
+ * points at the existing shared /og-image.jpg instead (spec 051, AC #3/#4).
  */
 
 const fs = require('fs');
@@ -41,7 +42,7 @@ const COLORS = {
   primary: '#3B82F6',
 };
 
-const FALLBACK_REL_PATH = 'og-image.png';
+const FALLBACK_REL_PATH = 'og-image.jpg';
 
 function roundRectPath(ctx, x, y, w, h, r) {
   ctx.beginPath();
@@ -102,15 +103,20 @@ function renderOgCard({ label, bestApy, poolCount }) {
   const poolLabel = `${poolCount} pool${poolCount === 1 ? '' : 's'} tracked · defi.garden`;
   ctx.fillText(poolLabel, left, pad + 420);
 
-  return canvas.toBuffer('image/png');
+  // JPEG (backlog 057): ~22% smaller than this same canvas's PNG output at
+  // 2,113-page scale — Skia's PNG/JPEG encoders here ignore quality/
+  // compression config (fixed internal settings, confirmed empirically),
+  // so the encoder choice itself is the only real lever available without
+  // a new dependency.
+  return canvas.toBuffer('image/jpeg');
 }
 
 function ogRelPath(kind, slug) {
-  return `og/${kind}/${slug}.png`;
+  return `og/${kind}/${slug}.jpg`;
 }
 
 /**
- * Generates one OG PNG per record under <outRoot>/og/<kind>/<slug>.png.
+ * Generates one OG JPEG per record under <outRoot>/og/<kind>/<slug>.jpg.
  * `labelFor(rec)` extracts the display name (symbol or chain). Returns a
  * Map<slug, relPathToUse> — either the real per-slug path or
  * FALLBACK_REL_PATH when a single record's render/write throws (a bad
@@ -124,7 +130,7 @@ function generateOgImages(records, kind, labelFor, outRoot) {
   // renamed slugs (mirrors 031's .html cleanup — same staleness class).
   const currentSlugs = new Set(records.map(rec => rec.slug));
   fs.readdirSync(ogDir).forEach(f => {
-    if (f.endsWith('.png') && !currentSlugs.has(f.slice(0, -4))) fs.rmSync(path.join(ogDir, f));
+    if (f.endsWith('.jpg') && !currentSlugs.has(f.slice(0, -4))) fs.rmSync(path.join(ogDir, f));
   });
 
   const paths = new Map();
@@ -133,7 +139,7 @@ function generateOgImages(records, kind, labelFor, outRoot) {
     try {
       const bestApy = Math.max(...rec.pools.map(poolTotalApy));
       const buf = renderOgCard({ label: labelFor(rec), bestApy, poolCount: rec.qualifyingCount });
-      fs.writeFileSync(path.join(ogDir, `${rec.slug}.png`), buf);
+      fs.writeFileSync(path.join(ogDir, `${rec.slug}.jpg`), buf);
       paths.set(rec.slug, ogRelPath(kind, rec.slug));
     } catch (e) {
       failures++;
