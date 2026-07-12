@@ -9,6 +9,7 @@ const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
 const gen = require('./generate-token-pages.js');
+const chainGen = require('./generate-chain-pages.js'); // 049 — cross-surface linking
 
 let passed = 0;
 function test(name, fn) {
@@ -423,6 +424,62 @@ test('no pre-existing content/meta/canonical/trust rail altered — answer+FAQ a
   assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/tokens/big">'), 'canonical missing/changed');
   assert.ok(html.includes('content="index,follow"'), 'robots meta missing/changed');
   assert.ok(/class="related"/.test(gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked))), 'related nav missing');
+});
+
+console.log('049 — cross-surface linking: token -> chain');
+const chainRanked = chainGen.rankTopChains(pools); // same fixture pools, real chain-side ranking
+const generatedChainSlugs = new Set(chainRanked.map(c => c.slug));
+test('chainLinksFor links only chains with a generated page (no dead links)', () => {
+  // BIG has pools on Ethereum and Base; both qualify as real chain pages.
+  const links = gen.chainLinksFor(bySym['BIG'], generatedChainSlugs);
+  assert.deepStrictEqual(links, [{ chain: 'Ethereum', slug: 'ethereum' }, { chain: 'Base', slug: 'base' }]);
+});
+test('chainLinksFor never returns a slug outside the given generated set', () => {
+  const links = gen.chainLinksFor(bySym['BIG'], new Set(['ethereum'])); // Base excluded on purpose
+  assert.deepStrictEqual(links, [{ chain: 'Ethereum', slug: 'ethereum' }]);
+});
+test('chainLinksFor dedupes repeated chains and respects the cap', () => {
+  const rec = { pools: [
+    { chain: 'Ethereum', tvlUsd: 3 }, { chain: 'Ethereum', tvlUsd: 2 },
+    { chain: 'Base', tvlUsd: 1 }, { chain: 'Arbitrum', tvlUsd: 1 }
+  ] };
+  const all = new Set(['ethereum', 'base', 'arbitrum']);
+  assert.deepStrictEqual(gen.chainLinksFor(rec, all, 2), [
+    { chain: 'Ethereum', slug: 'ethereum' }, { chain: 'Base', slug: 'base' }
+  ]);
+});
+test('against the real cross-fixture ranking, chainLinksFor never links an ungenerated chain slug', () => {
+  ranked.forEach(rec => {
+    gen.chainLinksFor(rec, generatedChainSlugs).forEach(l =>
+      assert.ok(generatedChainSlugs.has(l.slug), `dead link to ungenerated chain ${l.slug}`));
+  });
+});
+test('renderTokenPage renders a Chains nav from chainLinks, omitted when there are none', () => {
+  const withLinks = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12', [{ chain: 'Ethereum', slug: 'ethereum' }]);
+  assert.ok(withLinks.includes('aria-label="Chains"'), 'missing Chains nav');
+  assert.ok(withLinks.includes('href="https://www.defi.garden/chains/ethereum"'), 'missing chain link');
+  const noLinks = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12', []);
+  assert.ok(!noLinks.includes('aria-label="Chains"'), 'Chains nav should be absent with no chain links');
+});
+
+console.log('049 — cross-surface linking: category leg (folds in 043)');
+test('categoryLinksFor returns distinct categories with working ?token=&poolTypes= app URLs', () => {
+  const items = gen.categoryLinksFor(bySym['BIG'].pools, 'https://www.defi.garden/?token=BIG');
+  assert.deepStrictEqual(items, [{ category: 'Lending', url: 'https://www.defi.garden/?token=BIG&poolTypes=Lending' }]);
+});
+test('renderTokenPage always renders a By category nav derived from on-page pools (no category hub page exists yet)', () => {
+  const html = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12');
+  assert.ok(html.includes('aria-label="Pool categories"'), 'missing category nav');
+  assert.ok(html.includes('href="https://www.defi.garden/?token=BIG&poolTypes=Lending"'), 'missing category link');
+});
+test('cross-links reuse the related nav styling via an added class token, without colliding with the exact class="related" tests', () => {
+  const html = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12', [{ chain: 'Ethereum', slug: 'ethereum' }]);
+  assert.ok(html.includes('class="related xlink-chains"'), 'missing xlink-chains nav class');
+  assert.ok(html.includes('class="related xlink-category"'), 'missing xlink-category nav class');
+  assert.ok(!/class="related"/.test(html), 'a cross-link nav must never use the bare related-tokens class exactly');
+});
+test('043 folded in: category leg present without a separate 043 build', () => {
+  assert.ok(gen.categoryLinksFor(bySym['BIG'].pools, 'https://www.defi.garden/?token=BIG').length > 0);
 });
 
 console.log(`\n${passed} assertions passed`);

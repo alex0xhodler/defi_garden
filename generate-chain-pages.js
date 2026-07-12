@@ -35,7 +35,8 @@ const {
   renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug,
   poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
-  todayGeneratedDate, renderLastUpdatedHtml
+  todayGeneratedDate, renderLastUpdatedHtml,
+  categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -103,8 +104,31 @@ function relatedChainsFor(rec, all, n) {
   return coToken.concat(rest).slice(0, cap).map(r => ({ chain: r.chain, slug: r.slug }));
 }
 
+/**
+ * Top tokens present on this chain by aggregate on-chain TVL, restricted to
+ * tokens with a real generated /tokens/<slug> page (049 — chain->token
+ * cross-linking, symmetric to generate-token-pages.js's chainLinksFor).
+ * Never links to an ungenerated slug. Deduped, sorted by on-chain TVL desc, capped.
+ */
+function topTokensOnChain(rec, generatedTokenSlugs, cap) {
+  const limit = cap || 8;
+  const byToken = new Map(); // symbol -> aggregate on-chain tvl
+  (rec.pools || []).forEach(p => {
+    tokenSymbols(p).forEach(sym => {
+      if (!isValidToken(sym)) return;
+      byToken.set(sym, (byToken.get(sym) || 0) + (p.tvlUsd || 0));
+    });
+  });
+  return Array.from(byToken.entries())
+    .map(([symbol, tvl]) => ({ symbol, slug: chainSlug(symbol), tvl }))
+    .filter(t => generatedTokenSlugs && generatedTokenSlugs.has(t.slug))
+    .sort((a, b) => b.tvl - a.tvl)
+    .slice(0, limit)
+    .map(({ symbol, slug }) => ({ symbol, slug }));
+}
+
 /** Render a single chain's static landing page as an HTML string. */
-function renderChainPage(rec, related, generatedDate) {
+function renderChainPage(rec, related, generatedDate, tokenLinks) {
   const chainName = escapeHtml(rec.chain);
   const pageUrl = `${SITE_URL}/chains/${rec.slug}`;
   const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}`;
@@ -170,6 +194,14 @@ function renderChainPage(rec, related, generatedDate) {
       </div>
     </nav>\n`
     : '';
+
+  // Cross-surface internal linking (049): top tokens present on this chain
+  // (only ones with a real generated page) + the pool-type categories in
+  // this chain's own table, linked to the live app view for that category.
+  const tokenNavItems = (tokenLinks || []).map(t => ({ label: t.symbol, href: `${SITE_URL}/tokens/${t.slug}` }));
+  const tokenLinksBlock = renderLinkNavHtml(tokenNavItems, `Top tokens on ${rec.chain}`, `Top tokens on ${rec.chain}`, 'xlink-tokens');
+  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: c.url }));
+  const categoryBlock = renderLinkNavHtml(categoryItems, 'Pool categories', 'By category', 'xlink-category');
 
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
@@ -265,7 +297,7 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
+${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
 ${renderLastUpdatedHtml(genDate)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
   </main>
 </body>
@@ -392,8 +424,15 @@ async function main() {
   // One generation date for the whole run (048): every page's visible "Last
   // updated" line + dateModified schema agree, even across a long-running batch.
   const genDate = todayGeneratedDate();
+
+  // Cross-surface linking (049): which /tokens/<slug> pages will actually
+  // exist, computed from this SAME `pools` fetch (already in scope via `tp`)
+  // so token/chain eligibility can never drift within one run.
+  const generatedTokenSlugs = new Set(tp.rankTopTokens(pools, 0).map(t => t.slug));
+
   ranked.forEach(rec => {
-    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate));
+    const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
+    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
@@ -416,5 +455,6 @@ if (require.main === module) {
 
 module.exports = {
   rankTopChains, renderChainPage, relatedChainsFor, renderChainSitemap, renderChainHubPage, chainSlug,
+  topTokensOnChain,
   POOLS_PER_PAGE, MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
