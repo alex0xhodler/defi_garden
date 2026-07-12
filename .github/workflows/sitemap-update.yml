@@ -95,8 +95,13 @@ jobs:
     
     - name: Validate sitemap XML
       run: |
-        echo "🔍 Validating sitemap XML structure..."
-        xmllint --noout sitemap.xml && echo "✅ Sitemap XML is valid" || echo "❌ Sitemap XML is invalid"
+        echo "🔍 Validating every generated sitemap*.xml..."
+        # Node-based (fast-xml-parser, already a dependency) instead of xmllint,
+        # which isn't installed on the runner — the old step could never
+        # actually validate and silently passed on any input. This one fails
+        # the job if any generated sitemap is malformed, so a broken sitemap is
+        # never committed or published.
+        node validate-sitemaps.js
     
     - name: Check for changes
       id: verify-changed-files
@@ -130,8 +135,24 @@ jobs:
     - name: Push changes
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
-        git push origin main
-        echo "✅ Changes pushed to repository"
+        # This job races with any other push to main (a merged PR, a concurrent
+        # run). A plain `git push` fails the whole workflow on rejection — the
+        # actual cause of the red builds. Rebase our regenerated-artifact commit
+        # onto the latest main and retry with backoff instead. The committed
+        # files are all regenerated output, so rebasing them forward is safe.
+        for attempt in 1 2 3 4 5; do
+          if git push origin main; then
+            echo "✅ Changes pushed to repository"
+            exit 0
+          fi
+          echo "⚠️ Push rejected (attempt $attempt) — rebasing onto latest main..."
+          git pull --rebase --autostash origin main || {
+            echo "❌ Rebase hit a conflict — aborting"; git rebase --abort || true; exit 1;
+          }
+          sleep $((attempt * 3))
+        done
+        echo "❌ Could not push after 5 attempts"
+        exit 1
     
     - name: Ping Google about sitemap update
       if: steps.verify-changed-files.outputs.changed == 'true'
