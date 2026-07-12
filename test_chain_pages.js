@@ -306,4 +306,68 @@ test('analytics bootstrap sits inside <head>, before </head>, after the scoped <
   assert.ok(styleEnd < bootstrapIdx && bootstrapIdx < headEnd, 'analytics bootstrap misplaced relative to <style>/</head>');
 });
 
+console.log('047 — direct-answer block + FAQPage (GEO/AEO)');
+test('renders a visible direct-answer block right after the H1, before the pool table', () => {
+  const h1Idx = html.indexOf('<h1>');
+  const answerIdx = html.indexOf('class="cp-answer"');
+  const tableIdx = html.indexOf('<table>');
+  assert.ok(answerIdx > h1Idx && answerIdx < tableIdx, 'answer block misplaced relative to H1/table');
+});
+test('answer block answers the head query using only gated data already on the page', () => {
+  const big = byChain['Big'];
+  const answerText = html.match(/class="cp-answer">([^<]*)</)[1];
+  assert.ok(answerText.includes('Big'), 'answer must name the chain');
+  assert.ok(answerText.includes(tp.formatApy(tp.poolTotalApy(big.pools[0]))), 'answer must cite the top pool\'s real APY');
+  assert.ok(answerText.includes(String(big.qualifyingCount)), 'answer must cite the real qualifying pool count');
+  assert.ok(answerText.includes('$100K TVL floor') && answerText.includes('anomalous'), 'answer must disclose the trust filters');
+});
+test('renders a visible FAQPage Q&A block with 2-4 items', () => {
+  const items = html.match(/<div class="cp-faq-item">/g) || [];
+  assert.ok(items.length >= 2 && items.length <= 4, 'expected 2-4 visible FAQ items, got ' + items.length);
+});
+test('FAQPage JSON-LD mainEntity is byte-for-byte the visible question/answer text (040 kevin invariant)', () => {
+  const blocks = extractLdJsonBlocks(html, 'FAQPage');
+  assert.strictEqual(blocks.length, 1, 'expected exactly one FAQPage block');
+  const mainEntity = blocks[0].mainEntity;
+  assert.ok(mainEntity.length >= 2 && mainEntity.length <= 4);
+  const qMatches = [...html.matchAll(/<h3 class="cp-faq-q">([^<]*)<\/h3>/g)].map(m => m[1]);
+  const aMatches = [...html.matchAll(/<p class="cp-faq-a">([^<]*)<\/p>/g)].map(m => m[1]);
+  mainEntity.forEach((item, i) => {
+    const decode = (s) => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+    assert.strictEqual(item.name, decode(qMatches[i]), 'FAQ question text mismatch at index ' + i);
+    assert.strictEqual(item.acceptedAnswer.text, decode(aMatches[i]), 'FAQ answer text mismatch at index ' + i);
+    assert.strictEqual(item['@type'], 'Question');
+    assert.strictEqual(item.acceptedAnswer['@type'], 'Answer');
+  });
+});
+test('trust rail: neither the answer block nor the FAQ ever cites an anomalous or sub-floor pool (Anom fixture)', () => {
+  const anomHtml = gen.renderChainPage(byChain['Anom']);
+  assert.ok(!anomHtml.includes('degenfarm'), 'anomalous pool project name leaked into the page');
+  assert.ok(!anomHtml.includes('1,500.00%') && !anomHtml.includes('2,100.00%'), 'anomalous APY leaked into the page');
+  const answerText = anomHtml.match(/class="cp-answer">([^<]*)</)[1];
+  assert.ok(answerText.includes('realpool'), 'answer should cite the real (non-anomalous) top pool');
+  assert.ok(answerText.includes('1 pool'), 'Anom has exactly 1 qualifying (non-anomalous) pool');
+});
+test('answer/FAQ content differs per chain (dataset content, not a fixed template)', () => {
+  const midHtml = gen.renderChainPage(byChain['Mid']);
+  const bigAnswer = html.match(/class="cp-answer">([^<]*)</)[1];
+  const midAnswer = midHtml.match(/class="cp-answer">([^<]*)</)[1];
+  assert.notStrictEqual(bigAnswer, midAnswer, 'answer block is identical across chains');
+});
+test('malicious chain name cannot break out of the FAQPage ld+json script tag', () => {
+  const evil = gen.renderChainPage({ chain: '</script><script>alert(1)</script>', slug: 'evil', qualifyingCount: 1,
+    totalTvl: 2e7, tokens: ['Y'], pools: [{ symbol: 'Y', project: 'aave', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] });
+  const ldJsonScripts = evil.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g);
+  assert.ok(ldJsonScripts.every(s => !s.slice('<script type="application/ld+json">'.length, -'</script>'.length).includes('</script')),
+    'a ld+json script body must not contain a literal </script sequence');
+  const faq = extractLdJsonBlocks(evil, 'FAQPage')[0];
+  assert.ok(faq.mainEntity[0].name.includes('</script><script>alert(1)</script>'), 'FAQ question must still contain the raw chain name once parsed');
+});
+test('no pre-existing content/meta/canonical/trust rail altered — answer+FAQ are additive only', () => {
+  assert.ok(html.includes('<title>Big DeFi Yields'), 'title missing/changed');
+  assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/chains/big">'), 'canonical missing/changed');
+  assert.ok(html.includes('content="index,follow"'), 'robots meta missing/changed');
+  assert.ok(/class="related"/.test(gen.renderChainPage(byChain['Big'], gen.relatedChainsFor(byChain['Big'], ranked))), 'related nav missing');
+});
+
 console.log(`\n${passed} assertions passed`);

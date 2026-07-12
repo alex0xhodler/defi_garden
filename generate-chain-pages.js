@@ -33,7 +33,8 @@ const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug,
-  poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd
+  poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
+  buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -150,6 +151,14 @@ function renderChainPage(rec, related, generatedDate) {
     genDate
   );
 
+  // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
+  // table/intro above already use — never touches raw pool data, so an
+  // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
+  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, poolWord);
+  const answerBlock = renderAnswerBlockHtml(answer, 'cp-answer');
+  const faqBlock = renderFaqBlockHtml(faq, 'cp-faq');
+  const faqJsonLd = renderFaqJsonLd(faq);
+
   const relatedLinks = (related || []).map(r =>
     `<a href="${SITE_URL}/chains/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
   const relatedBlock = relatedLinks
@@ -185,6 +194,7 @@ function renderChainPage(rec, related, generatedDate) {
     <script type="application/ld+json">${breadcrumbJsonLd}</script>
     <script type="application/ld+json">${itemListJsonLd}</script>
     <script type="application/ld+json">${datasetJsonLd}</script>
+    <script type="application/ld+json">${faqJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
@@ -225,6 +235,12 @@ function renderChainPage(rec, related, generatedDate) {
       .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-faq { margin: 30px 0 8px; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
     </style>
@@ -233,7 +249,7 @@ ${renderAnalyticsBootstrap(`/chains/${rec.slug}`, { page_type: 'chain_landing', 
 <body>
   <main class="cp-wrap">
     <h1>${chainName} DeFi Yields</h1>
-    <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live ${poolWord} above the $100K TVL floor · ranked by TVL</p>
+${answerBlock}    <p class="sub">${escapeHtml(String(rec.qualifyingCount))} live ${poolWord} above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">${intro}</p>
     <a class="cp-cta" href="${appUrl}">See live pools on ${chainName} &rarr;</a>
     <div class="cp-card">
@@ -248,7 +264,7 @@ ${rows}
     </table>
     </div>
     </div>
-${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
+${faqBlock}${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
     <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
   </main>
 </body>
