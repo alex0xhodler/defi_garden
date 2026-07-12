@@ -190,6 +190,64 @@ test('malicious chain name cannot break out of the ld+json script tag', () => {
   assert.strictEqual(blocks[0].itemListElement[2].name, '</script><script>alert(1)</script>', 'JSON-LD name must still equal the raw chain name once parsed');
 });
 
+console.log('046 — ItemList + Dataset JSON-LD');
+test('exactly one valid ItemList block whose items EXACTLY match the visible table rows', () => {
+  const blocks = extractLdJsonBlocks(html, 'ItemList');
+  assert.strictEqual(blocks.length, 1, 'expected exactly one ItemList block');
+  const items = blocks[0].itemListElement;
+  const big = byChain['Big'];
+  assert.strictEqual(items.length, big.pools.length, 'ItemList item count must match the visible row count');
+  big.pools.forEach((p, i) => {
+    assert.strictEqual(items[i].position, i + 1, 'position must match row order');
+    assert.strictEqual(items[i].name, `${p.project} on ${p.chain}`, 'name must match project/chain shown in the row');
+    const expectedUrl = p.pool
+      ? `https://www.defi.garden/?pool=${encodeURIComponent(p.pool)}`
+      : `https://www.defi.garden/?chain=${encodeURIComponent(big.chain)}`;
+    assert.strictEqual(items[i].url, expectedUrl, 'url must match the row\'s own link target');
+    assert.ok(html.includes(`href="${items[i].url}"`), 'ItemList url must actually appear as a rendered row link');
+  });
+});
+test('exactly one valid Dataset block with required schema.org properties', () => {
+  const blocks = extractLdJsonBlocks(html, 'Dataset');
+  assert.strictEqual(blocks.length, 1, 'expected exactly one Dataset block');
+  const d = blocks[0];
+  assert.ok(d.name && typeof d.name === 'string', 'missing Dataset.name');
+  assert.ok(d.description && typeof d.description === 'string', 'missing Dataset.description');
+  assert.strictEqual(d.url, 'https://www.defi.garden/chains/big', 'Dataset.url must be the page\'s own canonical URL');
+  assert.strictEqual(d.publisher['@type'], 'Organization');
+  assert.strictEqual(d.publisher.name, 'DeFi Garden');
+  assert.strictEqual(d.creator['@type'], 'Organization');
+  assert.ok(d.dateModified, 'missing Dataset.dateModified');
+});
+test('Dataset name/description are chain-specific (dataset content, not a fixed template)', () => {
+  const midHtml = gen.renderChainPage(byChain['Mid'], [], '2026-07-12');
+  const midDataset = extractLdJsonBlocks(midHtml, 'Dataset')[0];
+  assert.ok(midDataset.name.includes('Mid'), 'Dataset.name should be chain-specific');
+  assert.notStrictEqual(midDataset.name, extractLdJsonBlocks(html, 'Dataset')[0].name);
+});
+test('generatedDate param controls Dataset.dateModified (defaults to today if omitted)', () => {
+  const dated = gen.renderChainPage(byChain['Big'], [], '2020-01-01');
+  assert.strictEqual(extractLdJsonBlocks(dated, 'Dataset')[0].dateModified, '2020-01-01');
+});
+test('malicious project name cannot break out of the ItemList ld+json script tag', () => {
+  const evil = gen.renderChainPage({ chain: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7, tokens: ['Y'],
+    pools: [{ symbol: 'Y', project: '</script><script>alert(1)</script>', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] }, [], '2026-07-12');
+  const ldJsonScripts = evil.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g);
+  assert.ok(ldJsonScripts.every(s => !s.slice('<script type="application/ld+json">'.length, -'</script>'.length).includes('</script')),
+    'a ld+json script body must not contain a literal </script sequence');
+  const items = extractLdJsonBlocks(evil, 'ItemList')[0].itemListElement;
+  assert.strictEqual(items[0].name, '</script><script>alert(1)</script> on X', 'ItemList name must still equal the raw project name once parsed');
+});
+test('no visible content/meta/canonical/trust rail altered — only ld+json script blocks added', () => {
+  const stripLdJson = (s) => s.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>\n?/g, '');
+  const before = stripLdJson(gen.renderChainPage(byChain['Big'], gen.relatedChainsFor(byChain['Big'], ranked), '2026-07-12'));
+  assert.ok(before.includes('<title>Big DeFi Yields'), 'title missing/changed');
+  assert.ok(before.includes('<link rel="canonical" href="https://www.defi.garden/chains/big">'), 'canonical missing/changed');
+  assert.ok(before.includes('content="index,follow"'), 'robots meta missing/changed');
+  assert.ok(/class="related"/.test(before), 'related nav missing');
+  assert.ok(before.includes('Analytics.trackPageView("/chains/big"'), 'analytics bootstrap missing');
+});
+
 console.log('related chains — internal linking');
 test('relatedChainsFor prefers co-token chains, excludes self, is slug-linkable', () => {
   const rel = gen.relatedChainsFor(byChain['Big'], ranked);

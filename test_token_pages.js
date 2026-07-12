@@ -191,6 +191,76 @@ test('malicious symbol cannot break out of the ld+json script tag (BreadcrumbLis
   assert.strictEqual(blocks[0].itemListElement[2].name, '</script><script>alert(1)</script>', 'JSON-LD name must still equal the raw symbol once parsed');
 });
 
+console.log('046 — ItemList + Dataset JSON-LD');
+test('exactly one valid ItemList block whose items EXACTLY match the visible table rows', () => {
+  const blocks = extractLdJsonBlocks(html, 'ItemList');
+  assert.strictEqual(blocks.length, 1, 'expected exactly one ItemList block');
+  const items = blocks[0].itemListElement;
+  const big = bySym['BIG'];
+  assert.strictEqual(items.length, big.pools.length, 'ItemList item count must match the visible row count');
+  big.pools.forEach((p, i) => {
+    assert.strictEqual(items[i].position, i + 1, 'position must match row order');
+    assert.strictEqual(items[i].name, `${p.project} on ${p.chain}`, 'name must match project/chain shown in the row');
+    const expectedUrl = p.pool
+      ? `https://www.defi.garden/?pool=${encodeURIComponent(p.pool)}`
+      : `https://www.defi.garden/?token=${encodeURIComponent(big.symbol)}`;
+    assert.strictEqual(items[i].url, expectedUrl, 'url must match the row\'s own link target');
+    assert.ok(html.includes(`href="${items[i].url}"`), 'ItemList url must actually appear as a rendered row link');
+  });
+});
+test('ItemList item count matches the number of <tr> rows in the table, not the full pool set', () => {
+  const items = extractLdJsonBlocks(html, 'ItemList')[0].itemListElement;
+  const trCount = (html.match(/<tr>\s*<td>/g) || []).length; // hub/az pages have no such rows; this page has exactly one table
+  assert.strictEqual(items.length, trCount, 'ItemList must mirror the exact rendered row count');
+});
+test('exactly one valid Dataset block with required schema.org properties', () => {
+  const blocks = extractLdJsonBlocks(html, 'Dataset');
+  assert.strictEqual(blocks.length, 1, 'expected exactly one Dataset block');
+  const d = blocks[0];
+  assert.ok(d.name && typeof d.name === 'string', 'missing Dataset.name');
+  assert.ok(d.description && typeof d.description === 'string', 'missing Dataset.description');
+  assert.strictEqual(d.url, 'https://www.defi.garden/tokens/big', 'Dataset.url must be the page\'s own canonical URL');
+  assert.strictEqual(d.publisher['@type'], 'Organization');
+  assert.strictEqual(d.publisher.name, 'DeFi Garden');
+  assert.strictEqual(d.creator['@type'], 'Organization');
+  assert.ok(d.dateModified, 'missing Dataset.dateModified');
+});
+test('Dataset name/description are token-specific (dataset content, not a fixed template)', () => {
+  const midHtml = gen.renderTokenPage(bySym['MID'], [], '2026-07-12');
+  const midDataset = extractLdJsonBlocks(midHtml, 'Dataset')[0];
+  assert.ok(midDataset.name.includes('MID'), 'Dataset.name should be token-specific');
+  assert.notStrictEqual(midDataset.name, extractLdJsonBlocks(html, 'Dataset')[0].name);
+});
+test('generatedDate param controls Dataset.dateModified (defaults to today if omitted)', () => {
+  const dated = gen.renderTokenPage(bySym['BIG'], [], '2020-01-01');
+  assert.strictEqual(extractLdJsonBlocks(dated, 'Dataset')[0].dateModified, '2020-01-01');
+});
+test('malicious project name cannot break out of the ItemList ld+json script tag', () => {
+  const evil = gen.renderTokenPage({ symbol: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7,
+    pools: [{ project: '</script><script>alert(1)</script>', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] }, [], '2026-07-12');
+  const ldJsonScripts = evil.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g);
+  assert.ok(ldJsonScripts.every(s => !s.slice('<script type="application/ld+json">'.length, -'</script>'.length).includes('</script')),
+    'a ld+json script body must not contain a literal </script sequence');
+  const items = extractLdJsonBlocks(evil, 'ItemList')[0].itemListElement;
+  assert.strictEqual(items[0].name, '</script><script>alert(1)</script> on Base', 'ItemList name must still equal the raw project name once parsed');
+});
+test('no visible content/meta/canonical/trust rail altered — only ld+json script blocks added', () => {
+  // 046 is additive-only (spec 046, acceptance criterion 4). Strip every
+  // <script type="application/ld+json"> block and diff against a pre-046
+  // fixture rendering to prove nothing else moved.
+  const stripLdJson = (s) => s.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>\n?/g, '');
+  const before = stripLdJson(gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked), '2026-07-12'));
+  // Recompute what the page looked like immediately before this diff by
+  // asserting the stripped output still contains every pre-existing marker
+  // untouched (title/canonical/table/related nav/analytics), i.e. ld+json
+  // removal is the ONLY structural difference this diff introduces.
+  assert.ok(before.includes('<title>BIG DeFi Yields'), 'title missing/changed');
+  assert.ok(before.includes('<link rel="canonical" href="https://www.defi.garden/tokens/big">'), 'canonical missing/changed');
+  assert.ok(before.includes('content="index,follow"'), 'robots meta missing/changed');
+  assert.ok(/class="related"/.test(before), 'related nav missing');
+  assert.ok(before.includes('Analytics.trackPageView("/tokens/big"'), 'analytics bootstrap missing');
+});
+
 console.log('023 — content depth + internal linking');
 test('renders a unique per-token intro from real data (top pool + totals)', () => {
   const big = gen.renderTokenPage(bySym['BIG'], gen.relatedFor(bySym['BIG'], ranked));

@@ -349,11 +349,51 @@ ${renderAnalyticsBootstrap(`/tokens/az/${group.slug}`, { page_type: 'token_az', 
 `;
 }
 
+/** Resolves the same pool-detail (or fallback) URL a visible table row links
+ * to (`p.pool ? /?pool=<id> : fallbackUrl`) — shared by row rendering AND
+ * ItemList JSON-LD so the two can never drift (046: schema must match the
+ * visible content byte-for-byte). */
+function poolHrefFor(p, fallbackUrl) {
+  return p.pool ? `${SITE_URL}/?pool=${encodeURIComponent(p.pool)}` : fallbackUrl;
+}
+
+/** ItemList JSON-LD (046) for a ranked pool table: itemListElement mirrors
+ * the visible rows exactly — same pools, same order, same link target each
+ * row already uses (poolHrefFor). No new computation. */
+function renderItemListJsonLd(pools, appUrl) {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: (pools || []).map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: `${p.project || '—'} on ${p.chain || '—'}`,
+      url: poolHrefFor(p, appUrl)
+    }))
+  }).replace(/</g, '\\u003c');
+}
+
+/** Dataset JSON-LD (046) describing the page's live yield dataset. Shared by
+ * token and chain pages — callers supply the content-specific name/description. */
+function renderDatasetJsonLd(name, description, pageUrl, generatedDate) {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name,
+    description,
+    url: pageUrl,
+    creator: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL },
+    publisher: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL },
+    dateModified: generatedDate
+  }).replace(/</g, '\\u003c');
+}
+
 /** Render a single token's static landing page as an HTML string. */
-function renderTokenPage(rec, related) {
+function renderTokenPage(rec, related, generatedDate) {
   const sym = escapeHtml(rec.symbol);
   const pageUrl = `${SITE_URL}/tokens/${rec.slug}`;
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}`;
+  const genDate = generatedDate || new Date().toISOString().slice(0, 10);
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const chainCount = new Set(rec.pools.map(p => p.chain)).size;
   const title = `${sym} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`;
@@ -388,6 +428,17 @@ function renderTokenPage(rec, related) {
     ]
   }).replace(/</g, '\\u003c');
 
+  // ItemList + Dataset (046): the ItemList mirrors the visible pool table
+  // exactly (same pools/order/links via poolHrefFor, no new computation) —
+  // Google requires structured data to reflect visible content.
+  const itemListJsonLd = renderItemListJsonLd(rec.pools, appUrl);
+  const datasetJsonLd = renderDatasetJsonLd(
+    `${rec.symbol} DeFi Yields Dataset`,
+    `Live DefiLlama yield data for ${rec.symbol} pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.`,
+    pageUrl,
+    genDate
+  );
+
   const relatedLinks = (related || []).map(r =>
     `<a href="${SITE_URL}/tokens/${r.slug}">${escapeHtml(r.symbol)}</a>`).join('\n        ');
   const relatedBlock = relatedLinks
@@ -401,8 +452,9 @@ function renderTokenPage(rec, related) {
 
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
-    // urlParams.pool). Falls back to the token app view if no id.
-    const poolHref = p.pool ? `${SITE_URL}/?pool=${encodeURIComponent(p.pool)}` : appUrl;
+    // urlParams.pool). Falls back to the token app view if no id. Shared
+    // with the ItemList JSON-LD above via poolHrefFor so they can't drift.
+    const poolHref = poolHrefFor(p, appUrl);
     return `        <tr>
           <td><a class="tp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')} &rarr;</a></td>
           <td>${escapeHtml(p.chain || '—')}</td>
@@ -420,6 +472,8 @@ function renderTokenPage(rec, related) {
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
     <script type="application/ld+json">${breadcrumbJsonLd}</script>
+    <script type="application/ld+json">${itemListJsonLd}</script>
+    <script type="application/ld+json">${datasetJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
@@ -591,5 +645,6 @@ module.exports = {
   rankTopTokens, renderTokenPage, relatedFor, renderTokenSitemap, tokenSlug, isQualifyingPool, isAnomalousApy,
   isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap,
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
+  poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
