@@ -6,14 +6,17 @@
  * These ship to the browser as plain <script> tags — no in-browser Babel.
  * Source uses React.createElement exclusively (no JSX, see CLAUDE.md), so no
  * JSX transform is needed. What IS needed: app.js and PoolDetail.js are two
- * separate classic <script> tags sharing one global lexical scope. Each
- * declares `var { useState, ... } = React` — already fixed by hand to avoid
- * a `const` redeclaration collision — but other top-level `let`/`const`
- * bindings inside each file's App()/PoolDetail() function bodies can still
- * throw "Cannot access before initialization" (TDZ) if referenced (even just
- * in a dependency array) before their own declaration line runs. Previously
- * @babel/standalone's default transform silently downleveled all let/const
- * to var, which has no TDZ. This script runs the same downlevel via
+ * separate classic <script> tags sharing one global lexical scope, and both
+ * still declare `const { useState, ... } = React` at their top level in
+ * source. Loaded verbatim, that's a `const` redeclaration collision
+ * (SyntaxError) across the two sibling scripts. Separately, some top-level
+ * `let`/`const` bindings are referenced (even just in a dependency array)
+ * before their own declaration line runs later in the same function —
+ * e.g. app.js's autocompleteTokens useMemo referencing allAvailableChains —
+ * which throws "Cannot access before initialization" (TDZ) with real
+ * let/const semantics. @babel/standalone's default transform silently
+ * downleveled all let/const to var, which has neither problem (no TDZ, and
+ * var redeclaration is a no-op). This script runs the same downlevel via
  * @babel/plugin-transform-block-scoping so compiled output preserves that
  * exact behavior — nothing else about the code changes.
  *
