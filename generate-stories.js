@@ -363,6 +363,23 @@ function renderStoryPage(persona, plan) {
           <span class="st-pool-apy">${escapeHtml(formatApy(poolTotalApy(pool)))} APY</span>
         </li>`).join('\n');
 
+  // FAQPage JSON-LD (040): mainEntity built straight from the same p.faq
+  // array the visible HTML below renders from, so schema and page text can
+  // never diverge (Google requires structured data to match visible content).
+  // Raw (unescaped) q/a text is correct here — JSON escaping differs from
+  // HTML escaping, and the rendered page's HTML-entity-decoded text is what
+  // byte-for-byte equals these raw strings.
+  const faqJsonLd = p.faq ? `
+    <script type="application/ld+json">${JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: p.faq.map(item => ({
+        '@type': 'Question',
+        name: item.q,
+        acceptedAnswer: { '@type': 'Answer', text: item.a }
+      }))
+    }).replace(/</g, '\\u003c')}</script>` : '';
+
   const faqHtml = p.faq ? `
     <!-- The 401(k) questions — questions people actually ask, never advice -->
     <section class="st-section">
@@ -389,6 +406,7 @@ ${p.faq.map(item => `        <div class="st-faq-item">
     <meta name="author" content="DeFi Garden">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="${pageUrl}">
+${faqJsonLd}
 
     <!-- Multilingual SEO -->
     <link rel="alternate" hreflang="en" href="${pageUrl}">

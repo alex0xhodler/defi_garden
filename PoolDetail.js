@@ -194,6 +194,17 @@ function PoolDetail({
   // an anomalous pool (trust rail: anomalous rates are flagged, never hyped).
   const showConcreteCta = !isAnomalous;
 
+  // BreadcrumbList JSON-LD (040): mirrors the visual breadcrumb above
+  // (Search Results -> <SYMBOL> Pool) without touching its markup/behavior.
+  const breadcrumbJsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Search Results', item: `${window.location.origin}/?app=1` },
+      { '@type': 'ListItem', position: 2, name: `${pool.symbol} Pool`, item: `${window.location.origin}/?pool=${encodeURIComponent(pool.pool)}` }
+    ]
+  }).replace(/</g, '\\u003c');
+
   return React.createElement('div', {
     className: 'pool-detail-container',
     style: {
@@ -207,6 +218,10 @@ function PoolDetail({
       margin: '0 auto'
     }
   },
+    React.createElement('script', {
+      type: 'application/ld+json',
+      dangerouslySetInnerHTML: { __html: breadcrumbJsonLd }
+    }),
     // Clean Header: Logo | Breadcrumb | Toggle
     React.createElement('div', {
       className: 'header animate-on-mount',

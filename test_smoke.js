@@ -13,6 +13,10 @@ const { chromium } = require('playwright');
 
 const PORT = 8791;
 const ROOT = __dirname;
+// Sandboxed Chromium build (mirrors test_search.js) — a fresh install can
+// pull a Playwright version whose default headless-shell revision isn't
+// pre-installed; the full chrome binary always is.
+const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 const MIME = {
   '.html': 'text/html', '.js': 'application/javascript', '.css': 'text/css',
   '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2',
@@ -62,9 +66,32 @@ async function loadAndCollectErrors(browser, urlPath, viewport) {
   return { page, errors };
 }
 
+function extractLdJsonBlocks(html, type) {
+  const blocks = [];
+  const re = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
+  let m;
+  while ((m = re.exec(html))) {
+    const parsed = JSON.parse(m[1]);
+    if (!type || parsed['@type'] === type) blocks.push(parsed);
+  }
+  return blocks;
+}
+
 async function main() {
+  await test('home.html: sitewide Organization + WebSite JSON-LD, valid JSON, minimum required properties (040)', async () => {
+    const html = fs.readFileSync(path.join(ROOT, 'home.html'), 'utf8');
+    const org = extractLdJsonBlocks(html, 'Organization');
+    const site = extractLdJsonBlocks(html, 'WebSite');
+    if (org.length !== 1) throw new Error('expected exactly one Organization block, found ' + org.length);
+    if (site.length !== 1) throw new Error('expected exactly one WebSite block, found ' + site.length);
+    ['name', 'url', 'logo'].forEach(k => { if (!org[0][k]) throw new Error('Organization missing ' + k); });
+    ['name', 'url'].forEach(k => { if (!site[0][k]) throw new Error('WebSite missing ' + k); });
+    if (org[0].url !== 'https://www.defi.garden/') throw new Error('Organization.url mismatch');
+    if (site[0].url !== 'https://www.defi.garden/') throw new Error('WebSite.url mismatch');
+  });
+
   const server = await startServer();
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
     for (const viewport of VIEWPORTS) {
       await test('bare / renders planner UI at ' + viewport.width + 'px', async () => {
@@ -81,6 +108,21 @@ async function main() {
         if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
       });
     }
+
+    await test('pool-detail view (?pool=<id>) renders a BreadcrumbList JSON-LD block (040)', async () => {
+      const { page, errors } = await loadAndCollectErrors(browser, '/?token=USDC', VIEWPORTS[2]);
+      await page.waitForSelector('.pool-card', { timeout: 15000 });
+      await page.click('.pool-card');
+      await page.waitForSelector('.pool-breadcrumb', { timeout: 10000 });
+      const blocks = await page.evaluate(() => Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .map(s => JSON.parse(s.textContent)));
+      const breadcrumb = blocks.find(b => b['@type'] === 'BreadcrumbList');
+      await page.close();
+      if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+      if (!breadcrumb) throw new Error('no BreadcrumbList JSON-LD found on the pool-detail view');
+      if (breadcrumb.itemListElement.length !== 2) throw new Error('expected 2 breadcrumb items (Search Results, <SYMBOL> Pool)');
+      if (!/ Pool$/.test(breadcrumb.itemListElement[1].name)) throw new Error('second breadcrumb item should be "<SYMBOL> Pool"');
+    });
   } finally {
     await browser.close();
     server.close();
