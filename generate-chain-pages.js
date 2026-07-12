@@ -32,7 +32,8 @@ const tp = require('./generate-token-pages.js');
 const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
-  renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug
+  renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug,
+  poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -101,10 +102,11 @@ function relatedChainsFor(rec, all, n) {
 }
 
 /** Render a single chain's static landing page as an HTML string. */
-function renderChainPage(rec, related) {
+function renderChainPage(rec, related, generatedDate) {
   const chainName = escapeHtml(rec.chain);
   const pageUrl = `${SITE_URL}/chains/${rec.slug}`;
   const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}`;
+  const genDate = generatedDate || new Date().toISOString().slice(0, 10);
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const tokenCount = rec.tokens.length;
   const title = `${chainName} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`;
@@ -137,6 +139,17 @@ function renderChainPage(rec, related) {
     ]
   }).replace(/</g, '\\u003c');
 
+  // ItemList + Dataset (046): the ItemList mirrors the visible pool table
+  // exactly (same pools/order/links via poolHrefFor, no new computation) —
+  // Google requires structured data to reflect visible content.
+  const itemListJsonLd = renderItemListJsonLd(rec.pools, appUrl);
+  const datasetJsonLd = renderDatasetJsonLd(
+    `${rec.chain} DeFi Yields Dataset`,
+    `Live DefiLlama yield data for ${rec.chain} pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.`,
+    pageUrl,
+    genDate
+  );
+
   const relatedLinks = (related || []).map(r =>
     `<a href="${SITE_URL}/chains/${r.slug}">${escapeHtml(r.chain)}</a>`).join('\n        ');
   const relatedBlock = relatedLinks
@@ -150,8 +163,9 @@ function renderChainPage(rec, related) {
 
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
-    // urlParams.pool). Falls back to this chain's app view if no id.
-    const poolHref = p.pool ? `${SITE_URL}/?pool=${encodeURIComponent(p.pool)}` : appUrl;
+    // urlParams.pool). Falls back to this chain's app view if no id. Shared
+    // with the ItemList JSON-LD above via poolHrefFor so they can't drift.
+    const poolHref = poolHrefFor(p, appUrl);
     return `        <tr>
           <td>${escapeHtml(p.symbol || '—')}</td>
           <td><a class="cp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')} &rarr;</a></td>
@@ -169,6 +183,8 @@ function renderChainPage(rec, related) {
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${pageUrl}">
     <script type="application/ld+json">${breadcrumbJsonLd}</script>
+    <script type="application/ld+json">${itemListJsonLd}</script>
+    <script type="application/ld+json">${datasetJsonLd}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${escapeHtml(title)}">
     <meta property="og:description" content="${escapeHtml(description)}">
