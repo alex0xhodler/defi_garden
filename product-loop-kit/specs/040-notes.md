@@ -55,6 +55,44 @@ computation"). Flagging for a future backlog item — a test in
 script tag'`) documents and isolates this so it doesn't silently regress
 further, but only asserts on the JSON-LD block this diff owns.
 
+## Environment limitation hit during verification (documented, not a code defect)
+
+This sandbox's outbound network policy blocks `unpkg.com` (the CDN React 18 UMD
+loads from, per CLAUDE.md's "React 18 UMD ... via babel-standalone") and
+`yields.llama.fi` (the pools API) outright — confirmed via
+`$HTTPS_PROXY/__agentproxy/status`'s `recentRelayFailures` (both hosts show
+`connect_rejected: gateway answered 403`) and a direct `curl` to
+`yields.llama.fi` timing out. Since React itself can't load, `test_smoke.js`'s
+Playwright checks (bare `/` planner mount, `/?token=USDC` pool cards, and the
+new pool-detail BreadcrumbList check this diff adds) cannot render ANYTHING in
+this environment — confirmed this is not a regression from this diff, since
+even the pre-existing bare-`/` and `?token=USDC` checks (present before this
+change, from spec 003) fail identically, for the identical reason (React never
+mounts). Per NORTH_STAR's timebox rule ("never wait unbounded ... document and
+proceed"), this is documented here rather than blocked on indefinitely — a
+real browser with network egress (or CI) would need to confirm the
+PoolDetail.js BreadcrumbList render.
+
+What DID verify clean in this sandbox (no CDN/API dependency):
+- `home.html`'s Organization/WebSite JSON-LD — static file read + JSON.parse,
+  no browser needed. Passed.
+- `generate-token-pages.js`'s BreadcrumbList and `generate-stories.js`'s
+  FAQPage — pure Node unit tests against fixtures, no network. Passed (44 +
+  15 assertions respectively, full suites, nothing regressed).
+- `node --check` on all 5 touched files (incl. `PoolDetail.js`) — syntax
+  valid.
+- `test_planner.js` / `test_protocol_parsing.js` / `test_qualifier_fix.js`
+  (NORTH_STAR's canonical "Test:" command) — all pass unaffected.
+
+What's UNVERIFIED in this sandbox specifically because of the network block
+(not because of any known defect):
+- `PoolDetail.js`'s BreadcrumbList actually appearing in the live DOM when a
+  real pool-detail view renders (code review: the `React.createElement`
+  call is structurally identical to the token-page/story-page JSON-LD
+  patterns that DID verify, and `pool.symbol`/`pool.pool` are the same
+  fields `app.js` already uses to build the `?pool=` URL scheme elsewhere —
+  low risk, but not independently rendered-DOM-verified here).
+
 ## Test coverage added
 - `test_token_pages.js`: BreadcrumbList presence/shape/values, XSS-safety of
   the JSON-LD block for a malicious symbol.
