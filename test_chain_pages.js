@@ -1,0 +1,251 @@
+/* Unit tests for the static chain-page generator (spec 041).
+   Runs the generator's pure functions against a crafted fixture and asserts
+   on the real emitted HTML. Run: node test_chain_pages.js
+
+   Eligibility (mirrors 014's amended rule, reused via isQualifyingPool):
+   a chain earns a page if it has >=1 pool with TVL >= $100K that is NOT
+   anomalous (>1000% APY). No minimum pool count, no cap by default. The
+   anomaly exclusion is a trust rail (shared with generate-token-pages.js). */
+const assert = require('assert');
+const fs = require('fs');
+const path = require('path');
+const gen = require('./generate-chain-pages.js');
+const tp = require('./generate-token-pages.js');
+
+let passed = 0;
+function test(name, fn) {
+  try { fn(); passed++; console.log('  ✓ ' + name); }
+  catch (err) { console.error('  ✗ ' + name + '\n    ' + err.message); process.exitCode = 1; }
+}
+
+// Fixture branches (test_fixtures/pools-chain-sample.json):
+// Big         : 3 pools (500M/300M/100M), 3 distinct tokens -> qualifies, rank #1
+// Mid         : 1 pool ($5M)                                -> qualifies (single pool ok), rank #2
+// Multi Chain : 1 pool ($3M), space in name                 -> qualifies, slug safety, rank #3, shares token AAA with Big
+// Anom        : 1 real ($2M) + 1 anomalous ($900M @2100%)   -> anomaly excluded, qualifies via the $2M pool, rank #4
+// Dust        : 1 pool ($50K)                                -> dropped (below $100K floor, no entry at all)
+// Zero        : 2 pools ($50M+$30M), all 0% APY              -> dropped (quality bar, all shown are 0.00%)
+// Tiny        : 1 pool ($2.72M @ 0.003%, rounds to 0.00%)    -> dropped (032-style rounding gate)
+// Trunc       : 8 zero-APY pools (13-20M) + 1 real-yield pool ($200K, ranked #9) -> dropped (033-style truncation)
+const pools = JSON.parse(fs.readFileSync(path.join(__dirname, 'test_fixtures', 'pools-chain-sample.json'), 'utf8'));
+const ranked = gen.rankTopChains(pools); // no cap
+const byChain = Object.fromEntries(ranked.map(r => [r.chain, r]));
+
+console.log('rankTopChains — $100K floor, >=1 pool, no cap');
+test('emits every chain with >=1 qualifying pool; drops sub-floor/thin chains', () => {
+  assert.deepStrictEqual(ranked.map(r => r.chain).sort(), ['Anom', 'Big', 'Mid', 'Multi Chain']);
+});
+test('single-pool chains are included (no >=2 minimum)', () => {
+  assert.strictEqual(byChain['Mid'].qualifyingCount, 1);
+  assert.strictEqual(byChain['Multi Chain'].qualifyingCount, 1);
+});
+test('chain with pools but ALL 0% yield is dropped (quality bar — Zero)', () => {
+  assert.ok(!byChain['Zero'], 'an all-0%-APY chain must not get an indexed page');
+});
+test('chain whose only pool rounds to 0.00% is dropped (Tiny, 0.003% APY)', () => {
+  assert.ok(!byChain['Tiny'], 'a chain whose APY displays 0.00% must not get an indexed page');
+});
+test('chain whose real-yield pool is beyond POOLS_PER_PAGE is dropped (Trunc, truncation)', () => {
+  assert.ok(!byChain['Trunc'], 'a chain whose displayed table is all 0.00% must not get an indexed page');
+});
+test('chain whose only pool is below the $100K floor gets no entry at all (Dust)', () => {
+  assert.ok(!byChain['Dust'], 'a sub-floor-only chain must not appear in rankTopChains output');
+});
+test('every generated chain DISPLAYS >=1 visible non-zero yield (gate matches the shown table)', () => {
+  ranked.forEach(r => assert.ok(r.pools.some(p => tp.formatApy(tp.poolTotalApy(p)) !== '0.00%'),
+    r.chain + ' shows all 0.00% APY in its rendered table'));
+});
+test('ranks by aggregate qualifying TVL desc', () => {
+  assert.deepStrictEqual(ranked.map(r => r.chain), ['Big', 'Mid', 'Multi Chain', 'Anom']);
+});
+
+console.log('trust rail — anomaly exclusion (reused via isQualifyingPool, untouched)');
+test('anomalous pool excluded from content AND count AND TVL (Anom)', () => {
+  assert.strictEqual(byChain['Anom'].qualifyingCount, 1, 'anomalous pool must not be counted');
+  assert.strictEqual(byChain['Anom'].totalTvl, 2000000, 'anomalous $900M pool must not inflate TVL');
+  assert.strictEqual(byChain['Anom'].pools.length, 1);
+  assert.ok(!byChain['Anom'].tokens.includes('FFF'), 'anomalous pool\'s token must not enter the chain\'s token diversity count');
+});
+test('no rendered pool anywhere is anomalous (>1000% total APY)', () => {
+  ranked.forEach(r => r.pools.forEach(p => {
+    assert.ok(tp.poolTotalApy(p) <= gen.APY_SANITY_LIMIT, r.chain + ' has an anomalous pool');
+  }));
+});
+test('every rendered pool clears the $100K floor', () => {
+  ranked.forEach(r => r.pools.forEach(p => {
+    assert.ok((p.tvlUsd || 0) >= gen.MIN_POOL_TVL, r.chain + ' has a sub-floor pool');
+  }));
+});
+
+console.log('cap handling');
+test('no cap by default returns all eligible chains', () => {
+  assert.strictEqual(gen.rankTopChains(pools).length, 4);
+  assert.strictEqual(gen.rankTopChains(pools, 0).length, 4);
+});
+test('explicit --limit caps to top-N by TVL (limit=1 -> Big)', () => {
+  const top1 = gen.rankTopChains(pools, 1);
+  assert.strictEqual(top1.length, 1);
+  assert.strictEqual(top1[0].chain, 'Big');
+});
+
+console.log('chainSlug (reused tokenSlug) — URL/filesystem safety');
+test('chain name with a space slugs to a dash-safe form', () => {
+  assert.strictEqual(byChain['Multi Chain'].slug, 'multi-chain');
+});
+test('slug has no unsafe chars for every ranked chain', () => {
+  ranked.forEach(r => assert.ok(/^[a-z0-9-]+$/.test(r.slug), 'bad slug: ' + r.slug));
+});
+
+console.log('renderChainPage — server-delivered SEO content');
+const html = gen.renderChainPage(byChain['Big']);
+test('self-canonical to /chains/<slug> (not the ?chain= app URL)', () => {
+  assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/chains/big">'), 'missing self-canonical');
+});
+test('server-delivered <title> present in raw HTML (no JS)', () => {
+  assert.ok(/<title>Big DeFi Yields[^<]*<\/title>/.test(html), 'missing title');
+});
+test('server-delivered meta description present', () => {
+  assert.ok(/<meta name="description" content="[^"]+">/.test(html), 'missing description');
+});
+test('links into the live app at ?chain=<Chain>', () => {
+  assert.ok(html.includes('https://www.defi.garden/?chain=Big'), 'missing app deep link');
+});
+test('each pool row links to its detail page (/?pool=<id>) and shows its token', () => {
+  const top = byChain['Big'].pools[0];
+  assert.ok(top.pool, 'fixture pool missing an id');
+  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}"`),
+    'pool row not linked to its detail page');
+  assert.ok(html.includes('class="cp-pool-link"'), 'missing pool link class');
+  assert.ok(html.includes('<td>AAA</td>'), 'missing token column value');
+});
+test('pool row falls back to the chain app view when a pool has no id', () => {
+  const noId = gen.renderChainPage({ chain: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7, tokens: ['Y'],
+    pools: [{ symbol: 'Y', project: 'aave', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
+  assert.ok(noId.includes('href="https://www.defi.garden/?chain=X"'), 'missing fallback link');
+});
+test('renders >=1 real pool row with en-US formatted numbers', () => {
+  assert.ok(/<td class="num">\d/.test(html), 'no formatted numeric cell');
+  assert.ok(html.includes('%') && html.includes('$'), 'no APY/TVL');
+});
+test('indexable (robots index,follow)', () => {
+  assert.ok(html.includes('content="index,follow"'), 'should be indexable');
+});
+test('reuses the app design system (links style.css) and uses neuro tokens, no hardcoded hex', () => {
+  assert.ok(html.includes('<link rel="stylesheet" href="/style.css">'), 'must link the app style.css');
+  assert.ok(html.includes('var(--neuro-shadow-raised)') && html.includes('var(--color-surface)'), 'must use neuro/color tokens');
+  const styleBlock = html.match(/<style>[\s\S]*?<\/style>/)[0];
+  assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'no hardcoded hex colors in the scoped style block');
+});
+test('single-pool page uses singular "pool" wording', () => {
+  const midHtml = gen.renderChainPage(byChain['Mid']);
+  assert.ok(/1 live pool above/.test(midHtml), 'expected singular "pool"');
+});
+test('HTML is escaped (malicious project name cannot inject markup)', () => {
+  const evil = gen.renderChainPage({ chain: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7, tokens: ['Y'],
+    pools: [{ symbol: 'Y', project: '<script>alert(1)</script>', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
+  assert.ok(!evil.includes('<script>alert(1)</script>'), 'unescaped project name leaked into HTML');
+  assert.ok(evil.includes('&lt;script&gt;'), 'expected escaped project name');
+});
+test('content differs from a bare re-render of the ?chain= app view (written intro is chain-specific)', () => {
+  assert.ok(/class="intro"/.test(html), 'no intro block');
+  assert.ok(html.includes("Big's largest live pool is aave-v3"), 'intro not chain-specific');
+});
+
+console.log('BreadcrumbList JSON-LD (040 pattern)');
+function extractLdJsonBlocks(pageHtml, type) {
+  const blocks = [];
+  const re = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
+  let m;
+  while ((m = re.exec(pageHtml))) {
+    const parsed = JSON.parse(m[1]);
+    if (!type || parsed['@type'] === type) blocks.push(parsed);
+  }
+  return blocks;
+}
+test('exactly one valid BreadcrumbList block with 3 items', () => {
+  const blocks = extractLdJsonBlocks(html, 'BreadcrumbList');
+  assert.strictEqual(blocks.length, 1, 'expected exactly one BreadcrumbList block');
+  assert.strictEqual(blocks[0].itemListElement.length, 3, 'expected exactly 3 breadcrumb items');
+});
+test('breadcrumb items: Home (linked), Chains (unlinked — no real hub page), <Chain> (linked, self-canonical)', () => {
+  const items = extractLdJsonBlocks(html, 'BreadcrumbList')[0].itemListElement;
+  assert.strictEqual(items[0].position, 1);
+  assert.strictEqual(items[0].name, 'Home');
+  assert.strictEqual(items[0].item, 'https://www.defi.garden/');
+  assert.strictEqual(items[1].position, 2);
+  assert.strictEqual(items[1].name, 'Chains');
+  assert.ok(!('item' in items[1]), 'Chains has no hub page in this repo — must not link a 404');
+  assert.strictEqual(items[2].position, 3);
+  assert.strictEqual(items[2].name, 'Big');
+  assert.strictEqual(items[2].item, 'https://www.defi.garden/chains/big', 'must match the page\'s own canonical URL');
+});
+test('malicious chain name cannot break out of the ld+json script tag', () => {
+  const evil = gen.renderChainPage({ chain: '</script><script>alert(1)</script>', slug: 'evil', qualifyingCount: 1,
+    totalTvl: 2e7, tokens: ['Y'], pools: [{ symbol: 'Y', project: 'aave', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] });
+  const ldJsonScripts = evil.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g);
+  assert.ok(ldJsonScripts.every(s => !s.slice('<script type="application/ld+json">'.length, -'</script>'.length).includes('</script')),
+    'a ld+json script body must not contain a literal </script sequence');
+  const blocks = extractLdJsonBlocks(evil, 'BreadcrumbList');
+  assert.strictEqual(blocks.length, 1, 'BreadcrumbList block must still parse as valid JSON');
+  assert.strictEqual(blocks[0].itemListElement[2].name, '</script><script>alert(1)</script>', 'JSON-LD name must still equal the raw chain name once parsed');
+});
+
+console.log('related chains — internal linking');
+test('relatedChainsFor prefers co-token chains, excludes self, is slug-linkable', () => {
+  const rel = gen.relatedChainsFor(byChain['Big'], ranked);
+  assert.ok(rel.length >= 1, 'no related chains');
+  assert.ok(!rel.some(r => r.chain === 'Big'), 'self appeared in related');
+  // Big shares token AAA with "Multi Chain" -> co-token first, ahead of Mid/Anom by TVL alone
+  assert.strictEqual(rel[0].chain, 'Multi Chain', 'expected the co-token chain first');
+});
+test('page renders a Related chains nav with internal /chains/ links', () => {
+  const big = gen.renderChainPage(byChain['Big'], gen.relatedChainsFor(byChain['Big'], ranked));
+  assert.ok(/class="related"/.test(big), 'no related nav');
+  assert.ok(big.includes('href="https://www.defi.garden/chains/multi-chain"'), 'no internal chain link');
+});
+test('no self-link inside the related nav', () => {
+  const big = gen.renderChainPage(byChain['Big'], gen.relatedChainsFor(byChain['Big'], ranked));
+  const nav = big.match(/<nav class="related"[\s\S]*?<\/nav>/)[0];
+  assert.ok(!nav.includes('/chains/big"'), 'related nav links back to its own page');
+});
+test('related nav omitted when there are no related chains', () => {
+  const solo = gen.renderChainPage(byChain['Big'], []);
+  assert.ok(!/class="related"/.test(solo), 'related nav should be absent with no related chains');
+});
+
+console.log('renderChainSitemap');
+test('emits a valid urlset with one <loc> per ranked chain', () => {
+  const xml = gen.renderChainSitemap(ranked, '2026-07-12');
+  assert.ok(xml.startsWith('<?xml'), 'missing xml decl');
+  assert.ok(xml.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'), 'missing urlset');
+  const locs = (xml.match(/<loc>/g) || []).length;
+  assert.strictEqual(locs, ranked.length, 'one loc per chain');
+});
+test('sitemap URLs point at the static /chains/<slug> pages', () => {
+  const xml = gen.renderChainSitemap(ranked, '2026-07-12');
+  assert.ok(xml.includes('<loc>https://www.defi.garden/chains/big</loc>'), 'missing chain URL');
+  assert.ok(xml.includes('<lastmod>2026-07-12</lastmod>'), 'missing lastmod');
+});
+test('empty ranked list still yields a well-formed (empty) urlset', () => {
+  const xml = gen.renderChainSitemap([], '2026-07-12');
+  assert.ok(xml.includes('<urlset') && xml.includes('</urlset>'), 'not well-formed');
+  assert.strictEqual((xml.match(/<loc>/g) || []).length, 0);
+});
+
+console.log('analytics bootstrap (reused from generate-token-pages.js, 039 pattern)');
+test('every generated chain page wires the analytics bootstrap with its own slug/chain/count', () => {
+  const big = gen.renderChainPage(byChain['Big'], gen.relatedChainsFor(byChain['Big'], ranked));
+  assert.ok(big.includes('Analytics.trackPageView("/chains/big"'), 'Big page missing its trackPageView call');
+  assert.ok(big.includes('"page_type":"chain_landing"'), 'Big page missing page_type property');
+  assert.ok(big.includes('"chain":"Big"'), 'Big page missing chain property');
+  assert.ok(big.includes(`"pool_count":${byChain['Big'].qualifyingCount}`), 'Big page pool_count mismatch');
+});
+test('analytics bootstrap sits inside <head>, before </head>, after the scoped <style> block', () => {
+  const big = gen.renderChainPage(byChain['Big'], gen.relatedChainsFor(byChain['Big'], ranked));
+  const styleEnd = big.indexOf('</style>');
+  const bootstrapIdx = big.indexOf('Analytics.trackPageView');
+  const headEnd = big.indexOf('</head>');
+  assert.ok(styleEnd < bootstrapIdx && bootstrapIdx < headEnd, 'analytics bootstrap misplaced relative to <style>/</head>');
+});
+
+console.log(`\n${passed} assertions passed`);

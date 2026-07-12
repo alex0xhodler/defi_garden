@@ -10,6 +10,7 @@ on:
     paths:
       - 'generate-sitemap.js'
       - 'generate-token-pages.js'
+      - 'generate-chain-pages.js'
       - 'package.json'
 
 jobs:
@@ -40,6 +41,12 @@ jobs:
         echo "🌿 Generating static /tokens/ landing pages + sitemap..."
         node generate-token-pages.js --out tokens --sitemap sitemap-token-pages.xml
         echo "Pages: $(ls tokens | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-token-pages.xml)"
+
+    - name: Generate chain landing pages
+      run: |
+        echo "⛓️ Generating static /chains/ landing pages + sitemap..."
+        node generate-chain-pages.js --out chains --sitemap sitemap-chain-pages.xml
+        echo "Pages: $(ls chains | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-chain-pages.xml)"
 
     - name: Generate sitemap
       run: |
@@ -89,7 +96,7 @@ jobs:
         git config --local user.email "alex@0xhodler.nl"
         git config --local user.name "alex0xhodler"
         
-        git add sitemap.xml sitemap-token-pages.xml tokens robots.txt llms.txt llms-full.txt
+        git add sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains robots.txt llms.txt llms-full.txt
         git commit -m "chore: update sitemap and LLM files with latest yields
         
         - Regenerated sitemap.xml with $(grep -c '<url>' sitemap.xml) URLs
