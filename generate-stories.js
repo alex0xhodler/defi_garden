@@ -380,6 +380,20 @@ function renderStoryPage(persona, plan) {
       }))
     }).replace(/</g, '\\u003c')}</script>` : '';
 
+  // WebPage JSON-LD (048, freshness signal): dateModified is the SAME
+  // plan.generatedDate string rendered visibly in the footer below — must
+  // byte-for-byte match (Google's must-match-visible-content rule). Emitted
+  // for every persona (unlike faqJsonLd, kevin-only) so all 3 story pages
+  // carry a freshness signal.
+  const webPageJsonLd = `
+    <script type="application/ld+json">${JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      url: pageUrl,
+      name: p.seoTitle,
+      dateModified: plan.generatedDate
+    }).replace(/</g, '\\u003c')}</script>`;
+
   const faqHtml = p.faq ? `
     <!-- The 401(k) questions — questions people actually ask, never advice -->
     <section class="st-section">
@@ -407,6 +421,7 @@ ${p.faq.map(item => `        <div class="st-faq-item">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="${pageUrl}">
 ${faqJsonLd}
+${webPageJsonLd}
 
     <!-- Multilingual SEO -->
     <link rel="alternate" hreflang="en" href="${pageUrl}">
@@ -540,6 +555,7 @@ ${poolRows}
 
   <footer class="st-footer">
     <p>${escapeHtml(p.name)} is a fictional composite created for education. Every rate shown was live DefiLlama pool data when this page was generated — rates change daily. Nothing here is financial advice.</p>
+    <p>Last updated ${escapeHtml(plan.generatedDate)}</p>
     <p><a href="../">DeFi Garden</a> · <a href="../plan.html">Garden Planner</a></p>
   </footer>
 

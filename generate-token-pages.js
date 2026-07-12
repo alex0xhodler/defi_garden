@@ -96,6 +96,21 @@ function tokenSlug(symbol) {
   return String(symbol).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
+// --- Freshness signal (048) -------------------------------------------------
+// Human-readable en-US date for the visible "Last updated" line AND the
+// page's dateModified schema — the SAME string feeds both, so they can never
+// drift (Google's must-match-visible-content rule). Shared by generate-chain-
+// pages.js (reuse before inventing, standing decision 2026-07-10).
+function todayGeneratedDate() {
+  return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+/** Visible "Last updated <date>" line, in the page's existing `.note` style —
+ * the SAME date string passed to renderDatasetJsonLd's dateModified. */
+function renderLastUpdatedHtml(genDate) {
+  return `    <p class="note">Last updated ${escapeHtml(genDate)}</p>\n`;
+}
+
 // --- Analytics bootstrap (039) -----------------------------------------------
 // Zero of these generated pages loaded analytics.js before this — an
 // untracked, unmeasurable chunk of the SEO investment (specs/039.md). This is
@@ -471,7 +486,7 @@ function renderTokenPage(rec, related, generatedDate) {
   const sym = escapeHtml(rec.symbol);
   const pageUrl = `${SITE_URL}/tokens/${rec.slug}`;
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}`;
-  const genDate = generatedDate || new Date().toISOString().slice(0, 10);
+  const genDate = generatedDate || todayGeneratedDate();
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const chainCount = new Set(rec.pools.map(p => p.chain)).size;
   const title = `${sym} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`;
@@ -631,7 +646,7 @@ ${rows}
     </div>
     </div>
 ${faqBlock}${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
-    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
+${renderLastUpdatedHtml(genDate)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
   </main>
 </body>
 </html>
@@ -705,8 +720,11 @@ async function main() {
       if (f.endsWith('.html')) fs.rmSync(path.join(outDir, f));
     });
   }
+  // One generation date for the whole run (048): every page's visible "Last
+  // updated" line + dateModified schema agree, even across a long-running batch.
+  const genDate = todayGeneratedDate();
   ranked.forEach(rec => {
-    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked)));
+    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
@@ -740,5 +758,6 @@ module.exports = {
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
   poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
+  todayGeneratedDate, renderLastUpdatedHtml,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
