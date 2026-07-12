@@ -13,9 +13,10 @@
 - SEO regen (only after preset/persona/SEO-surface changes): `npm run sitemap && npm run generate:llms && node generate-stories.js` — commit the regenerated files, never hand-edit them
 
 ## North-star metric
-- Metric: Viral loop closure
-- Exact definition: weekly count of `plan_created` events preceded by `share_link_opened` for the same user — Mixpanel funnel `share_link_opened → plan_created` (7-day conversion window), project defigarden (4042048)
-- Current baseline: **0** — 30d to 2026-07-09: `share_link_opened` 0, `share_link_created` 0, `plan_created` 5, `session_start` 132 (see `signals/2026-07-09.md`)
+- Metric: Waitlist conversions — the card funnel (changed 2026-07-12 from viral-loop closure, via operator interview Q2: the business is the yield-funded subscription card and the waitlist is its funnel. OPERATOR INFERENCE from the human's answer — human: veto and revert this block if unintended)
+- Exact definition: weekly count of `waitlist_submitted` events (instrumented by backlog 009), Mixpanel project defigarden (4042048)
+- Input metric (the amplifier feeding the funnel, previous north star): viral loop closure — weekly `plan_created` preceded by `share_link_opened` for the same user (7-day conversion window)
+- Current baseline: unknown — Mixpanel MCP unauthenticated in cloud sessions as of 2026-07-12; heartbeat backfills `waitlist_submitted` from the next live signal read or `signals/` snapshot, never invents numbers. Viral-closure baseline remains **0** (30d to 2026-07-09: `share_link_opened` 0, `plan_created` 5, `session_start` 132 — `signals/2026-07-09.md`)
 - Guardrail metrics (never trade these away): `error_occurred` rate; planner conversion (`plan_created` per planner session); parameterized analytics URLs (`?token=/?chain=/?pool=`) keep rendering pool cards — that's the SEO lifeline
 
 ## Signals
@@ -23,8 +24,8 @@
 - Sources: Mixpanel project defigarden (4042048), org Equitee — via Mixpanel MCP. **NOT YET WIRED for Claude Code** (backlog 001). Until 001 ships, the heartbeat runs signal-degraded: read the latest `signals/` snapshot, never invent numbers, state "signal not wired" in the report, and keep 001 top-ranked.
 
 ## Weekly theme
-- Theme: SEO-landers to north star — search that works, pool-detail pages that convert.
-- Week of: 2026-07-11
+- Theme: Distribution + card funnel — X protocol-spotlight engine (yields + example gardens, human posts via Canva video template) and waitlist conversion toward the card. SEO keeps compounding untouched in the background.
+- Week of: 2026-07-12 (set by the human in the 2026-07-12 operator interview)
 
 ## Budgets
 - Max build-loop attempts per item: 3 (then park with notes)
@@ -91,4 +92,9 @@ OUT OF SCOPE — loops never modify, never run, never target:
 - 2026-07-11 · token SEO surfaces are TWO DISTINCT things (human directive): `/tokens/<slug>` = static SEO landing page (real server-delivered content) and `?token=<SYMBOL>` = interactive app view. They must show DIFFERENT content and each self-canonical — do NOT consolidate one canonical into the other (they are not duplicates)
 - 2026-07-11 · plan share = a UNIQUE WORKING LINK attached to the garden that reproduces the sender's exact setup one-tap on open (human directive, refines the 2026-07-10 image-hero decision for item 024): the link that rebuilds the garden is the primary artifact; an image may accompany but the working link is what closes the loop
 - 2026-07-12 · operating model refined (human directive): the session/routine model is ALWAYS Fable — Fable does thinking, planning, redteaming, backlog writing, verification judgment, and interviews the human to co-decide low-hanging-fruit/high-upside product moves; product code is written ONLY by dispatched coding agents (Opus or Sonnet via the Agent tool's model override), whose sole job is implementing the plan Fable hands them. Extends the 2026-07-10 execution-model decision. Routine owners: set the cloud routine's model to Fable in claude.ai/code routine settings — a session can't change its own routine config.
+- 2026-07-12 · distribution channel (human, interview Q1): X/Twitter protocol spotlights — posts spotlight a pool's yield + an example garden built on it, tagging the protocol; start with SMALL protocols keen to collaborate (Curve is the upper bound — in general aim lower); the human produces each video from a reusable Canva template, edited per pool so it stays unique — never slop. Loops build the per-spotlight data/copy/asset pack (live numbers through trust rails, a working example-garden share URL, tweet draft, template field values, share-card PNG); the Canva template itself + posting = human-owned.
+- 2026-07-12 · business model (human, interview Q2): the yield-funded subscription CARD. Users deposit with us into the protocol (position always self-manageable), each position gets a DISPOSABLE CARD that pays a subscription from the yield (e.g. $23/mo yield → Claude sub); we pocket card fees. The waitlist is the card's funnel; the planner's SUBSCRIPTION archetype / forever-number flip is the product's front door. North-star metric switched accordingly (see metric section — flagged as operator inference, human may veto). Card copy stays honest: it's a waitlist for early access, the card does not exist yet — no fake availability.
+- 2026-07-12 · GSC (human, interview Q3): NO connector for now — the human checks GSC manually over the next ~6 weeks (through ~2026-08-23); 026 stays parked, heartbeat must not nag about it before then.
+- 2026-07-12 · Mixpanel MCP (human, interview Q4): should be ON — but cloud sessions see it unauthenticated (OAuth can't run non-interactively). Human action: authorize the Mixpanel connector in claude.ai connector settings + enable it on the heartbeat/build routines. Until visible in-session, heartbeats stay snapshot-based.
+- 2026-07-12 · PSI (human, interview Q5): the API key shared 2026-07-12 is on the WRONG account — discarded, never committed, do not reuse; no PSI CI rail for now; og-image compression (057) parked for later. The one-off PSI read stands as the perf baseline: mobile 88/100, TBT 0ms, CLS 0.
 - 2026-07-12 · sandbox network partially OPEN (human unblocked it; verified live in-session): curl/node/generators now reach yields.llama.fi (live pool data), unpkg, npm, googleapis — generate-stories.js/token/chain generators and PSI API calls run in-session. BUT browser-originated HTTPS is still blocked at the proxy connection level (Chromium CONNECT tunnels get reset regardless of CA trust — diagnosed 2026-07-12: NSS store was empty, CA installed, still reset with cert checks off → connection-level policy, not trust) — so Playwright tests keep the established fixture-routing pattern (test_search.js style) for external hosts; real browser behavior is measured via PSI against live prod instead. PSI works with the human's API key (held in-session/secrets only, NEVER committed). GSC still needs the 026 connector (human-owned).
