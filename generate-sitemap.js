@@ -508,4 +508,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateSitemapSuite, generateRobotsTxt };
+module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType };

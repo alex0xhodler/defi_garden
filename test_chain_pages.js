@@ -30,6 +30,8 @@ function test(name, fn) {
 const pools = JSON.parse(fs.readFileSync(path.join(__dirname, 'test_fixtures', 'pools-chain-sample.json'), 'utf8'));
 const ranked = gen.rankTopChains(pools); // no cap
 const byChain = Object.fromEntries(ranked.map(r => [r.chain, r]));
+const tokenRanked = tp.rankTopTokens(pools); // same fixture pools, real token-side ranking (049)
+const generatedTokenSlugs = new Set(tokenRanked.map(t => t.slug));
 
 console.log('rankTopChains — $100K floor, >=1 pool, no cap');
 test('emits every chain with >=1 qualifying pool; drops sub-floor/thin chains', () => {
@@ -382,6 +384,48 @@ test('no pre-existing content/meta/canonical/trust rail altered — answer+FAQ a
   assert.ok(html.includes('<link rel="canonical" href="https://www.defi.garden/chains/big">'), 'canonical missing/changed');
   assert.ok(html.includes('content="index,follow"'), 'robots meta missing/changed');
   assert.ok(/class="related"/.test(gen.renderChainPage(byChain['Big'], gen.relatedChainsFor(byChain['Big'], ranked))), 'related nav missing');
+});
+
+console.log('049 — cross-surface linking: chain -> token');
+test('topTokensOnChain links only tokens with a generated page, ranked by on-chain TVL desc (no dead links)', () => {
+  // Big's displayed table: AAA (500M), BBB (300M), CCC (100M).
+  const links = gen.topTokensOnChain(byChain['Big'], new Set(['aaa', 'bbb']));
+  assert.deepStrictEqual(links, [{ symbol: 'AAA', slug: 'aaa' }, { symbol: 'BBB', slug: 'bbb' }]);
+});
+test('topTokensOnChain excludes a slug outside the given generated set', () => {
+  const links = gen.topTokensOnChain(byChain['Big'], new Set(['aaa'])); // BBB/CCC excluded on purpose
+  assert.deepStrictEqual(links, [{ symbol: 'AAA', slug: 'aaa' }]);
+});
+test('topTokensOnChain respects the cap', () => {
+  const links = gen.topTokensOnChain(byChain['Big'], new Set(['aaa', 'bbb', 'ccc']), 2);
+  assert.deepStrictEqual(links.map(l => l.symbol), ['AAA', 'BBB']);
+});
+test('against the real cross-fixture ranking, topTokensOnChain never links an ungenerated token slug', () => {
+  ranked.forEach(rec => {
+    gen.topTokensOnChain(rec, generatedTokenSlugs).forEach(l =>
+      assert.ok(generatedTokenSlugs.has(l.slug), `dead link to ungenerated token ${l.slug}`));
+  });
+});
+test('renderChainPage renders a Top tokens nav from tokenLinks, omitted when there are none', () => {
+  const withLinks = gen.renderChainPage(byChain['Big'], [], '2026-07-12', [{ symbol: 'AAA', slug: 'aaa' }]);
+  assert.ok(withLinks.includes('aria-label="Top tokens on Big"'), 'missing token nav');
+  assert.ok(withLinks.includes('href="https://www.defi.garden/tokens/aaa"'), 'missing token link');
+  const noLinks = gen.renderChainPage(byChain['Big'], [], '2026-07-12', []);
+  assert.ok(!noLinks.includes('aria-label="Top tokens on Big"'), 'token nav should be absent with no token links');
+});
+
+console.log('049 — cross-surface linking: category leg (folds in 043)');
+test('renderChainPage always renders a By category nav derived from on-page pools (no category hub page exists yet)', () => {
+  const html = gen.renderChainPage(byChain['Big'], [], '2026-07-12');
+  assert.ok(html.includes('aria-label="Pool categories"'), 'missing category nav');
+  assert.ok(html.includes('href="https://www.defi.garden/?chain=Big&poolTypes=Lending"'), 'missing Lending category link');
+  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&poolTypes=${encodeURIComponent('LP/DEX')}"`), 'missing LP/DEX category link');
+});
+test('cross-links reuse the related nav styling via an added class token, without colliding with the exact class="related" tests', () => {
+  const html = gen.renderChainPage(byChain['Big'], [], '2026-07-12', [{ symbol: 'AAA', slug: 'aaa' }]);
+  assert.ok(html.includes('class="related xlink-tokens"'), 'missing xlink-tokens nav class');
+  assert.ok(html.includes('class="related xlink-category"'), 'missing xlink-category nav class');
+  assert.ok(!/class="related"/.test(html), 'a cross-link nav must never use the bare related-chains class exactly');
 });
 
 console.log(`\n${passed} assertions passed`);

@@ -27,6 +27,9 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+// REUSE (standing decision 2026-07-10): the pool-type classifier already
+// computed for the category sitemaps (013) — never re-implement it here.
+const { getPoolType } = require('./generate-sitemap.js');
 
 // Canonical site URL — matches plan.html / home.html / generate-stories.js
 const SITE_URL = 'https://www.defi.garden';
@@ -201,6 +204,67 @@ function relatedFor(rec, all, n) {
   const coSet = new Set(coChain);
   const rest = others.filter(r => !coSet.has(r));
   return coChain.concat(rest).slice(0, cap).map(r => ({ symbol: r.symbol, slug: r.slug }));
+}
+
+/**
+ * Distinct chains present in a token's displayed pool table that have a real
+ * generated /chains/<slug> page (049 — cross-surface linking). Never links
+ * to an ungenerated slug — that's a soft-404, the exact GSC class 012/013
+ * fought. Ordered by first appearance in `rec.pools` (already TVL-sorted),
+ * deduped, capped.
+ */
+function chainLinksFor(rec, generatedChainSlugs, cap) {
+  const limit = cap || 8;
+  const seen = new Set();
+  const out = [];
+  (rec.pools || []).forEach(p => {
+    const chain = (p.chain || '').toString().trim();
+    if (!chain) return;
+    const slug = tokenSlug(chain); // same slugifier generate-chain-pages.js uses
+    if (seen.has(slug) || !(generatedChainSlugs && generatedChainSlugs.has(slug))) return;
+    seen.add(slug);
+    out.push({ chain, slug });
+  });
+  return out.slice(0, limit);
+}
+
+/**
+ * Distinct pool-type categories present in a displayed pool table (049 —
+ * folds in 043's category-clustering idea), linking to the existing
+ * `?token=/chain=&poolTypes=<cat>` app view — a real, working page. No
+ * category hub page exists yet (045 shipped hub pages for tokens/chains
+ * only), so this is the interim target spec 049 calls out. Ordered by first
+ * appearance, deduped, capped.
+ */
+function categoryLinksFor(pools, baseAppUrl, cap) {
+  const limit = cap || 8;
+  const seen = new Set();
+  const out = [];
+  (pools || []).forEach(p => {
+    const cat = getPoolType(p);
+    if (seen.has(cat)) return;
+    seen.add(cat);
+    out.push({ category: cat, url: `${baseAppUrl}&poolTypes=${encodeURIComponent(cat)}` });
+  });
+  return out.slice(0, limit);
+}
+
+/**
+ * Generic internal-links nav block (049), reusing the existing "related"
+ * nav's markup/styling (`.related`/`.related-links`) via an added class
+ * token so the pre-existing related-tokens/chains nav's exact
+ * `class="related"` tests keep targeting only that original nav.
+ */
+function renderLinkNavHtml(items, ariaLabel, heading, extraNavClass) {
+  if (!items || !items.length) return '';
+  const links = items.map(i => `<a href="${i.href}">${escapeHtml(i.label)}</a>`).join('\n        ');
+  const navClass = extraNavClass ? `related ${extraNavClass}` : 'related';
+  return `    <nav class="${navClass}" aria-label="${escapeHtml(ariaLabel)}">
+      <h2>${escapeHtml(heading)}</h2>
+      <div class="related-links">
+        ${links}
+      </div>
+    </nav>\n`;
 }
 
 /**
@@ -482,7 +546,7 @@ function renderFaqJsonLd(faqItems) {
 }
 
 /** Render a single token's static landing page as an HTML string. */
-function renderTokenPage(rec, related, generatedDate) {
+function renderTokenPage(rec, related, generatedDate, chainLinks) {
   const sym = escapeHtml(rec.symbol);
   const pageUrl = `${SITE_URL}/tokens/${rec.slug}`;
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}`;
@@ -550,6 +614,14 @@ function renderTokenPage(rec, related, generatedDate) {
       </div>
     </nav>\n`
     : '';
+
+  // Cross-surface internal linking (049): chains this token trades on (only
+  // ones with a real generated page) + the pool-type categories present in
+  // this token's own table, linked to the live app view for that category.
+  const chainNavItems = (chainLinks || []).map(c => ({ label: c.chain, href: `${SITE_URL}/chains/${c.slug}` }));
+  const chainLinksBlock = renderLinkNavHtml(chainNavItems, 'Chains', 'Available on', 'xlink-chains');
+  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: c.url }));
+  const categoryBlock = renderLinkNavHtml(categoryItems, 'Pool categories', 'By category', 'xlink-category');
 
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
@@ -645,7 +717,7 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
+${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}    <p class="note">Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
 ${renderLastUpdatedHtml(genDate)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
   </main>
 </body>
@@ -723,8 +795,20 @@ async function main() {
   // One generation date for the whole run (048): every page's visible "Last
   // updated" line + dateModified schema agree, even across a long-running batch.
   const genDate = todayGeneratedDate();
+
+  // Cross-surface linking (049): which /chains/<slug> pages will actually
+  // exist, computed from this SAME `pools` fetch so token/chain eligibility
+  // can never drift within one run. Lazy require (not at module top level) —
+  // generate-chain-pages.js requires this module eagerly, so a top-level
+  // require here would be a load-time cycle; deferring to inside main()
+  // sidesteps it since this module has fully finished loading by the time
+  // main() runs.
+  const { rankTopChains } = require('./generate-chain-pages.js');
+  const generatedChainSlugs = new Set(rankTopChains(pools, 0).map(c => c.slug));
+
   ranked.forEach(rec => {
-    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate));
+    const chainLinks = chainLinksFor(rec, generatedChainSlugs);
+    fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
@@ -748,16 +832,22 @@ async function main() {
   }
 }
 
-if (require.main === module) {
-  main().catch(e => { console.error('❌', e.message); process.exit(1); });
-}
-
+// module.exports must be assigned BEFORE main() runs (not after, as this
+// file previously had it): main() lazily requires generate-chain-pages.js
+// (049, chainLinksFor's generatedChainSlugs), which requires this module
+// right back — if main() ran first, that circular require would observe
+// module.exports still at its default {}.
 module.exports = {
   rankTopTokens, renderTokenPage, relatedFor, renderTokenSitemap, tokenSlug, isQualifyingPool, isAnomalousApy,
-  isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap,
+  isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap, tokenSymbols,
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
   poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml,
+  chainLinksFor, categoryLinksFor, renderLinkNavHtml,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
+
+if (require.main === module) {
+  main().catch(e => { console.error('❌', e.message); process.exit(1); });
+}
