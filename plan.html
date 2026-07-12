@@ -46,11 +46,9 @@
 
     <!-- Performance: Preload critical resources -->
     <link rel="preload" href="./fonts/FKGroteskNeue.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="https://unpkg.com/react@18/umd/react.production.min.js" as="script">
-    <link rel="preload" href="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" as="script">
-    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="preload" href="./react.production.min.js" as="script">
+    <link rel="preload" href="./react-dom.production.min.js" as="script">
     <link rel="preconnect" href="https://yields.llama.fi">
-    <link rel="dns-prefetch" href="//unpkg.com">
     <link rel="dns-prefetch" href="//yields.llama.fi">
 
     <!-- Load CSS non-blocking. style.min.css is CI-minified (backlog 053); edit style.css, never style.min.css. -->
@@ -73,8 +71,8 @@
             } catch (e) {}
         })();
     </script>
-    <script defer crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script defer crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script defer src="./react.production.min.js"></script>
+    <script defer src="./react-dom.production.min.js"></script>
     <script defer src="translations.min.js"></script>
     <script defer src="brand-icons.js"></script>
 

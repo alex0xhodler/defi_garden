@@ -56,9 +56,7 @@
 
     <!-- Performance: Preload critical resources -->
     <link rel="preload" href="./fonts/FKGroteskNeue.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preconnect" href="https://unpkg.com" crossorigin>
     <link rel="preconnect" href="https://yields.llama.fi">
-    <link rel="dns-prefetch" href="//unpkg.com">
     <link rel="dns-prefetch" href="//yields.llama.fi">
 
     <!-- Canonical-URL pure function (spec 011) — loaded synchronously, BEFORE
@@ -135,9 +133,13 @@
         })();
     </script>
 
-    <!-- React UMD (shared, static defer — guaranteed order after HTML parse) -->
-    <script defer crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script defer crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- React UMD (shared, static defer — guaranteed order after HTML parse).
+         Self-hosted (backlog 056) — vendored copies of react@18.3.1/react-dom@18.3.1
+         UMD production builds, pinned to package.json's devDependency version.
+         Re-copy from node_modules/react(-dom)/umd/*.production.min.js on version bump;
+         never hand-edit. -->
+    <script defer src="./react.production.min.js"></script>
+    <script defer src="./react-dom.production.min.js"></script>
     <script defer src="translations.min.js"></script>
 
     <!-- Mixpanel — synchronous stub loader (queues calls until the real lib loads
