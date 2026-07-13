@@ -445,10 +445,15 @@ async function main() {
 
   // Per-page OG images (051): one per chain slug, shared across en/ko (the
   // card data doesn't vary by language).
-  const ogImagePaths = generateOgImages(ranked, 'chains', rec => rec.chain, process.cwd());
+  const outDir = path.resolve(args.out);
+  // OG images land in the og/ sibling of outDir (same sibling convention as
+  // koOutDir below), so a scratch run pointed at --out /scratch/chains writes
+  // /scratch/og/chains and leaves the repo's committed og/chains untouched.
+  // On the CI path (--out chains from the repo root) path.dirname(outDir) is
+  // the repo root, i.e. byte-identical to the old process.cwd() behavior.
+  const ogImagePaths = generateOgImages(ranked, 'chains', rec => rec.chain, path.dirname(outDir));
   console.log(`🖼️  Generated ${ogImagePaths.size} chain OG images`);
 
-  const outDir = path.resolve(args.out);
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   // Clean stale pages first so chains dropped by the gate / renamed slugs
   // don't linger from a previous run (mirrors 031's token-page cleanup).
