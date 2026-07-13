@@ -1238,6 +1238,12 @@
     var monthly = props.monthly, years = props.years, persona = props.persona;
     var goal = props.goal;
     var pools = props.pools;
+    // Attribution passthrough (064): the arriving ?src= param, e.g.
+    // 'x_spotlight' from a generate-spotlight.js share URL. Threaded onto
+    // plan_created/waitlist_opened so spotlight-origin funnel activity is
+    // attributable — no new event names, same param the SEO waitlist
+    // entry point (062) already reads at the Planner level.
+    var source = props.source || null;
     var archetype = goalArchetype(goal);
     var goalDef = goalById(goal);
 
@@ -1678,7 +1684,7 @@
       if (typeof Analytics !== 'undefined') {
         if (!firedPlanCreated.current) {
           firedPlanCreated.current = true;
-          Analytics.trackPlanCreated({ archetype: archetype, goal: goal, monthly: monthly, years: years || 10, persona: persona });
+          Analytics.trackPlanCreated({ archetype: archetype, goal: goal, monthly: monthly, years: years || 10, persona: persona, source: source });
         }
         // plan_saved fires only on user-meaningful plan changes; rate churn
         // re-runs this effect but must not re-fire the analytics event.
@@ -2388,7 +2394,7 @@
           setWaitlistOpen(true);
           waitlistEmailEnteredRef.current = false;
           if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype });
+            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype, source: source });
           }
         }
       },
@@ -2637,7 +2643,7 @@
           setWaitlistOpen(true);
           waitlistEmailEnteredRef.current = false;
           if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype });
+            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype, source: source });
           }
         }
       }, t('ctaWaitlist')),
@@ -4321,6 +4327,9 @@
             years: answers.years || 10,
             persona: effectivePersona,
             pools: pools,
+            // 064: threads the arriving ?src= (e.g. 'x_spotlight') onto
+            // Bloom's plan_created/waitlist_opened events.
+            source: waitlistSrc,
             capital: answers.capital,
             fundingMode: answers.fundingMode,
             deadline: answers.deadline,

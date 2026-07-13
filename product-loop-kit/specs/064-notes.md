@@ -1,0 +1,31 @@
+# 064 build notes
+
+## What shipped
+- `generate-spotlight.js`'s `buildShareUrl` now always appends `src=x_spotlight` and a stable per-pool `ref` (reuses the same slug already used for the output directory / `pack.slug` — one identifier, never two that could drift). All prior params (goal/monthly/pace/chain/token) unchanged; `src`/`ref` are ignored by `decodePlanFromUrl` (planner.js:883-906), so they carry zero plan state and cannot change what garden renders.
+- `planner.js`'s `Bloom` component now accepts a `source` prop (threaded from `Planner`'s existing `waitlistSrc` — the same `urlParams.get('src')` the 062 SEO-quick-waitlist path already reads) and passes it to:
+  - `Analytics.trackPlanCreated({ ..., source })` (new field)
+  - both `Analytics.trackWaitlistOpened({ ..., source })` call sites inside `Bloom` (the checkout-panel CTA at `.gp-checkout-cta`, and the dead `ctaElement` — see Deviations)
+- `analytics.js`'s `trackPlanCreated` gained a `source` field (defaults `null`, same pattern every other tracked event already uses for optional context).
+- New cadence/coverage generator functions in `generate-spotlight.js`: `rankCandidates` (extracted from `pickPool`'s auto-pick logic), `loadCoveredPacks` (reads existing `spotlights/<slug>/pack.json` files), `buildCadence` (pure: pool set + already-covered packs → `{ covered, next }`), `renderCadenceMarkdown`. `main()` writes `spotlights/CADENCE.md` after every run, reflecting coverage state including the just-written pack.
+- Regenerated `planner.min.js` via `npm run minify` (plan.html loads the minified file — the exact staleness gap that bit 061; verified byte-identical via `test_minified_assets.js`).
+- Tests: extended `test_spotlight.js` (attribution param assertions, cadence pure-function tests, a CLI test proving a second run keeps the first pool "covered" and excludes it from "next"). New `test_spotlight_attribution.js` (Playwright, real rendered `plan.html`, same harness as `test_spotlight_url.js`/`test_waitlist_seo_entry.js`) drives a spotlight-shaped URL end to end and asserts `plan_created`/`waitlist_opened` both carry `source=x_spotlight`, plus a no-`?src=` control case asserting `source=null` (no regression on the non-spotlight path). Wired into `package.json`'s `test` script after `test_spotlight_url.js`.
+
+## Deviations from spec
+- Spec's `ref` example format is `<project>-<chain>-<symbol>`; shipped `ref` reuses the exact slug `buildPack` already computes for the output directory (`<project>-<symbol>-<chain>`, via `tokenSlug`). Spec explicitly left the format as a builder choice ("keep it stable + URL-safe") — reusing the existing slug avoids computing two different identifiers for the same pool that could drift apart, and is still stable + URL-safe.
+- Spec's acceptance criteria requires `plan_created` (not just `waitlist_opened`) to carry `source=x_spotlight`, which `analytics.js`'s `trackPlanCreated` didn't support before this change (only `trackWaitlistOpened`/`trackWaitlistSubmitted`/etc. had a `source` field). Added `source` to `trackPlanCreated`'s context — additive, one new optional field, no new event name, matches the pattern every sibling waitlist-tracking method already uses.
+- Bloom's `ctaElement` (the button holding `t('ctaWaitlist')` + `t('ctaWaitlistMicro')`) is pre-existing dead code — computed but never mounted into Bloom's render tree (confirmed via `grep`; only reachable waitlist trigger inside Bloom is the checkout-panel CTA, `.gp-checkout-cta`, at line ~2639). Backlog 061's notes already flagged this as "candidate for a future item." Out of scope for 064 (spec didn't ask for it) — threaded `source` through it anyway since it was a one-line, zero-risk addition alongside the reachable call site, so it doesn't silently regress if that dead code is ever revived.
+- Cadence doc shipped as the spec's `spotlights/CADENCE.md` companion-file option (not embedded per-pack) — one running doc, not duplicated into every pack.json.
+- `spotlights/` output (including `CADENCE.md`) is not committed in this PR — same precedent as every prior token/chain/spotlight-page generator item (network-gated `npm run spotlight`, human-triggered; 060's own notes document this convention). The generator + its pure functions are fully tested via fixtures.
+
+## No trust-rail / router / SEO-surface change
+Confirmed: no `APY_SANITY_LIMIT`/`DEFAULT_MIN_TVL`/anomaly-flag/degen-haircut touch, no `home.html` router change, no hand-edit to generated SEO output, no new dependency, no `vercel.json`/CI/`package.json`-dependency change (only `package.json`'s `test` script string gained one more `&&`-chained test file, consistent with every prior new-test-file item).
+
+## Verification (Playwright, real rendered UI, not fixtures — 2026-07-11 standing decision)
+`test_spotlight_attribution.js` (new) drives real rendered `plan.html` via a spotlight-shaped URL (`...&src=x_spotlight&ref=...`), asserting via the Mixpanel stub-queue inspection technique (`test_waitlist_seo_entry.js`'s pattern):
+1. `plan_created` fires with `source=x_spotlight` on load.
+2. Clicking `.gp-checkout-cta` opens the waitlist modal and fires `waitlist_opened` with `source=x_spotlight`.
+3. A plain share link with no `?src=` still fires `plan_created` with `source=null` — no regression on the existing (non-spotlight) share path.
+
+`test_spotlight.js`'s CLI suite additionally proves a second generator run against the same `--out` directory keeps the first spotlighted pool listed as "covered" in `CADENCE.md` and excludes it from "next candidates" — the coverage state is real (filesystem-backed), not just unit-tested in isolation.
+
+`node test_planner.js && node test_protocol_parsing.js && node test_qualifier_fix.js` — 190/190 assertions, exit 0. `test_spotlight.js` — 36/36. `test_spotlight_url.js` — 3/3 (no regression). `test_waitlist_seo_entry.js` — 4/4 (no regression). `test_waitlist_funnel.js` — 3/3 (no regression). `test_minified_assets.js` — 7/7 (planner.min.js confirmed byte-identical to a fresh minify of the edited planner.js). `test_analytics_fires.js` fails on a pre-existing, unrelated sandbox limitation (needs a live-generated `/tokens/big` page; confirmed identical on an unmodified `git stash` baseline — not a regression from this diff).
