@@ -34,7 +34,12 @@ const { getPoolType } = require('./generate-sitemap.js');
 // ships (translations.js is Node-requireable — module.exports at the bottom).
 // Static pages are copy-only translated: pool data/numbers are identical
 // between language variants (CLAUDE.md — en-US formatting, never per-locale).
-const { createTranslationFunction } = require('./translations.js');
+const { createTranslationFunction, translations } = require('./translations.js');
+// REUSE (spec 066): planner.js IS Node-requireable (module.exports guarded at
+// its own bottom, same convention as translations.js) — its blendedApy/
+// foreverNumber/SUBSCRIPTION_LADDER are the SAME rate-blend + forever-number
+// math the live planner uses. Never re-derive a parallel calc path here.
+const gp = require('./planner.js');
 
 const SUPPORTED_LANGS = ['en', 'ko'];
 
@@ -307,6 +312,61 @@ function renderWaitlistCtaHtml(pitch, cssPrefix, source, t) {
       <a class="${cssPrefix}-cta" href="/plan.html?waitlist=1&amp;src=${encodeURIComponent(source)}">${escapeHtml(t('tcpWaitlistCta'))}</a>
       <p class="${cssPrefix}-waitlist-micro">${escapeHtml(t('tcpWaitlistMicro'))}</p>
     </div>\n`;
+}
+
+// --- Yield headline (066): honest per-token "your idle X could earn Y"
+// pitch — the 058-approved custom KPI that ties the card business model to
+// the SEO surface without a backend. Anchored to Claude Pro (the flagship
+// subscription in NORTH_STAR.md's business model / the spotlight pack's own
+// DEFAULT_GOAL_ID), so the number stays honest and singular per page rather
+// than picking a different anchor per token.
+const YIELD_HEADLINE_ANCHOR_ID = 'claude';
+
+function yieldHeadlineAnchor() {
+  return gp.SUBSCRIPTION_LADDER.find(item => item.id === YIELD_HEADLINE_ANCHOR_ID);
+}
+
+/** SUBSCRIPTION_LADDER label keys (e.g. 'ladderClaude') live under the
+ * nested translations[lang].planner catalog, not the flat tcp* keys
+ * createTranslationFunction resolves — same lookup generate-spotlight.js's
+ * goalLabelText already does for the identical reason (kept local rather
+ * than shared since spotlight's version resolves SUBSCRIPTION_GOALS labels,
+ * a different key set, from a script that must stay Node-standalone). */
+function ladderLabelText(labelKey, lang) {
+  const dict = (translations[lang] && translations[lang].planner) || translations.en.planner;
+  const v = dict[labelKey];
+  return v == null ? (translations.en.planner[labelKey] || labelKey) : v;
+}
+
+/** One honest headline: the token's blended (median) APY across `rec.pools`
+ * — already gated by the SAME trust rails (min-TVL floor, anomaly exclusion)
+ * every other number on this page passes through — paired with the capital
+ * gp.foreverNumber says that rate needs to run the anchor subscription
+ * forever. Returns null (no fabricated number, never a zero/NaN) when the
+ * blended rate rounds to "0.00%": a token can clear the qualifying-pool gate
+ * (>=1 non-zero pool exists) yet still have its MEDIAN land on a 0% pool,
+ * same display-honesty gate as 032's "visibly non-zero" rule. */
+function yieldHeadlineFor(rec, lang) {
+  const anchor = yieldHeadlineAnchor();
+  const blendedRate = gp.blendedApy(rec.pools);
+  const apyStr = formatApy(blendedRate);
+  if (apyStr === '0.00%') return null;
+  const foreverAmt = gp.foreverNumber(anchor.monthly, blendedRate);
+  if (!isFinite(foreverAmt) || foreverAmt <= 0) return null;
+  return {
+    apyStr,
+    foreverAmtStr: formatUsd(foreverAmt),
+    monthly: anchor.monthly,
+    subLabel: ladderLabelText(anchor.labelKey, lang)
+  };
+}
+
+/** Visible HTML for the yield headline, placed above the pool table (066).
+ * Empty string when `headline` is null — a token with no honest blended
+ * rate simply doesn't get this line, never a fabricated one. */
+function renderYieldHeadlineHtml(headline, sym, t) {
+  if (!headline) return '';
+  return `    <p class="tp-yield-headline">${escapeHtml(t('tcpYieldHeadline', sym, headline.apyStr, headline.foreverAmtStr, headline.monthly, headline.subLabel))}</p>\n`;
 }
 
 /** Scoped CSS for renderWaitlistCtaHtml's block, appended to a page's
@@ -678,6 +738,10 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // Waitlist CTA (062): the only path from this page into the card funnel.
   const waitlistBlock = renderWaitlistCtaHtml(t('tcpWaitlistPitchToken', rec.symbol), 'tp', 'seo_token', t);
 
+  // Yield headline (066): honest per-token "your idle X could earn Y" pitch,
+  // above the table, giving the waitlist CTA above a reason-to-act.
+  const yieldHeadlineBlock = renderYieldHeadlineHtml(yieldHeadlineFor(rec, language), rec.symbol, t);
+
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
     // urlParams.pool). Falls back to the token app view if no id. Shared
@@ -747,6 +811,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
       .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-yield-headline { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); padding: 14px 18px; margin: 4px 0 18px; color: var(--color-text); font-weight: 600; line-height: 1.5; }
       .tp-faq { margin: 30px 0 8px; }
       .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
       .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
@@ -762,7 +827,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}
     <h1>${escapeHtml(t('tcpTokenHeading', rec.symbol))}</h1>
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount))}</p>
     <p class="intro">${intro}</p>
-    <a class="tp-cta" href="${appUrl}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
+${yieldHeadlineBlock}    <a class="tp-cta" href="${appUrl}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
     <div class="tp-card">
     <div class="scroll">
     <table>
@@ -951,6 +1016,7 @@ module.exports = {
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
   renderHreflangLinks, SUPPORTED_LANGS,
+  yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH
 };
 

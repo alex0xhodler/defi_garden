@@ -46,6 +46,11 @@ const path = require('path');
 const https = require('https');
 const { createCanvas } = require('@napi-rs/canvas');
 const { poolTotalApy, isAnomalousApy, formatUsd, formatApy, tokenSlug } = require('./generate-token-pages.js');
+// REUSE (spec 066): the SAME forever-number math the token pages' yield
+// headline uses (gp.foreverNumber) — a spotlight pool has exactly one pool,
+// so "blended" degenerates to that pool's own APY, but the calc path is the
+// identical planner.js helper, never a second implementation.
+const { foreverNumber } = require('./planner.js');
 const { COLORS, CARD_W, CARD_H } = require('./generate-og-images.js');
 const { translations } = require('./translations.js');
 
@@ -255,7 +260,7 @@ function buildTweetDraft({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goa
   );
 }
 
-function buildCanvaFields({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, shareUrl, tweetDraft }) {
+function buildCanvaFields({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, shareUrl, tweetDraft, foreverAmtStr }) {
   return {
     protocolName: protocolLabel,
     poolSymbol: poolSymbol,
@@ -264,7 +269,11 @@ function buildCanvaFields({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, go
     tvl: tvlStr,
     goalLabel: goalLabelText,
     shareUrl: shareUrl,
-    tweetDraft: tweetDraft
+    tweetDraft: tweetDraft,
+    // 066: the SAME forever-number field the token-page yield headline
+    // exposes (gp.foreverNumber) — null (never a fabricated figure) when
+    // the pool's own APY doesn't clear a visibly-nonzero rate.
+    foreverAmt: foreverAmtStr
   };
 }
 
@@ -360,6 +369,12 @@ function buildPack(pool, { goalId, lang } = {}) {
   // drift apart.
   const slug = tokenSlug(`${pool.project}-${pool.symbol}-${pool.chain}`);
 
+  // 066: capital this pool's own APY would need to run the pack's goal
+  // subscription forever — SAME gp.foreverNumber math the token-page yield
+  // headline uses. null (never "$∞" or a fabricated figure) when apy <= 0.
+  const foreverAmt = foreverNumber(monthly, apy);
+  const foreverAmtStr = (isFinite(foreverAmt) && foreverAmt > 0) ? formatUsd(foreverAmt) : null;
+
   const shareUrl = buildShareUrl({
     goal: goalDef.id, monthly: monthly, persona: persona, chain: pool.chain, token: pool.symbol, ref: slug
   });
@@ -368,7 +383,7 @@ function buildPack(pool, { goalId, lang } = {}) {
     goalLabelText: goalLabel, monthly, shareUrl, project: pool.project
   });
   const canvaFields = buildCanvaFields({
-    protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr, goalLabelText: goalLabel, shareUrl, tweetDraft
+    protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr, goalLabelText: goalLabel, shareUrl, tweetDraft, foreverAmtStr
   });
 
   return {
@@ -387,6 +402,8 @@ function buildPack(pool, { goalId, lang } = {}) {
     goalLabel: goalLabel,
     monthly: monthly,
     persona: persona,
+    foreverAmt: foreverAmt,
+    foreverAmtStr: foreverAmtStr,
     shareUrl: shareUrl,
     tweetDraft: tweetDraft,
     canvaFields: canvaFields,

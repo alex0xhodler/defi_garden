@@ -155,9 +155,23 @@ test('tweetDraft references protocol, pool symbol, chain, live APY/TVL, share UR
   assert.ok(/confirm/i.test(pack.tweetDraft), 'must flag the handle as unconfirmed, never fabricate it as verified');
 });
 test('canvaFields is a flat, named-field object', () => {
-  ['protocolName', 'poolSymbol', 'chain', 'apy', 'tvl', 'goalLabel', 'shareUrl', 'tweetDraft'].forEach((k) => {
+  ['protocolName', 'poolSymbol', 'chain', 'apy', 'tvl', 'goalLabel', 'shareUrl', 'tweetDraft', 'foreverAmt'].forEach((k) => {
     assert.ok(Object.prototype.hasOwnProperty.call(pack.canvaFields, k), `missing canvaFields.${k}`);
   });
+});
+test('066 — pack.foreverAmt is the SAME planner.js gp.foreverNumber(monthly, apy) figure, formatUsd-ed', () => {
+  const { foreverNumber } = require('./planner.js');
+  const { formatUsd } = require('./generate-token-pages.js');
+  const expected = formatUsd(foreverNumber(pack.monthly, pack.apy));
+  assert.strictEqual(pack.foreverAmtStr, expected);
+  assert.strictEqual(pack.canvaFields.foreverAmt, expected);
+  assert.strictEqual(typeof pack.foreverAmt, 'number');
+});
+test('066 — foreverAmtStr is null (never "$Infinity"/NaN) when the pool APY is 0', () => {
+  const zeroApyPool = { pool: 'good-1', project: 'tiny-good', symbol: 'USDC', chain: 'Base', tvlUsd: 15000000, apyBase: 0, apyReward: 0 };
+  const zeroPack = gen.buildPack(zeroApyPool, { goalId: 'claude', lang: 'en' });
+  assert.strictEqual(zeroPack.foreverAmtStr, null);
+  assert.strictEqual(zeroPack.canvaFields.foreverAmt, null);
 });
 test('unrecognized --goal falls back to claude with a warning, never crashes', () => {
   const warnLog = [];

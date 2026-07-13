@@ -522,4 +522,76 @@ test('every generated token page (en + ko) renders the waitlist CTA', () => {
   });
 });
 
+console.log('066 — yield headline: honest per-token custom KPI, reusing planner.js blend/forever-number math');
+const gp = require('./planner.js');
+test('blended rate is the SAME median gp.blendedApy(rec.pools) computes — no parallel calc path', () => {
+  const h = gen.yieldHeadlineFor(bySym['BIG'], 'en');
+  assert.strictEqual(h.apyStr, gen.formatApy(gp.blendedApy(bySym['BIG'].pools)));
+});
+test('forever amount is the SAME gp.foreverNumber(monthly, blendedRate) capital figure', () => {
+  const h = gen.yieldHeadlineFor(bySym['MID'], 'en');
+  const anchor = gen.yieldHeadlineAnchor();
+  const expected = gen.formatUsd(gp.foreverNumber(anchor.monthly, gp.blendedApy(bySym['MID'].pools)));
+  assert.strictEqual(h.foreverAmtStr, expected);
+});
+test('anchor is Claude Pro at its SUBSCRIPTION_LADDER monthly price (single source of truth)', () => {
+  const anchor = gen.yieldHeadlineAnchor();
+  assert.strictEqual(anchor.id, 'claude');
+  const h = gen.yieldHeadlineFor(bySym['BIG'], 'en');
+  assert.strictEqual(h.monthly, anchor.monthly);
+  assert.strictEqual(h.subLabel, 'Claude Pro');
+});
+test('every ranked token (all clear the 032 visible-nonzero table gate) gets a non-null headline', () => {
+  ranked.forEach(r => {
+    assert.ok(gen.yieldHeadlineFor(r, 'en'), `${r.symbol} unexpectedly got no yield headline`);
+  });
+});
+test('returns null (no fabricated number) when the blended MEDIAN rounds to 0.00%, even with a non-zero pool present', () => {
+  const medianZeroRec = { symbol: 'MEDZERO', pools: [
+    { apyBase: 0, apyReward: 0, tvlUsd: 200000 },
+    { apyBase: 0, apyReward: 0, tvlUsd: 150000 },
+    { apyBase: 5, apyReward: 0, tvlUsd: 100000 }
+  ] };
+  assert.strictEqual(gen.yieldHeadlineFor(medianZeroRec, 'en'), null);
+});
+test('renderYieldHeadlineHtml renders nothing for a null headline', () => {
+  const t = require('./translations.js').createTranslationFunction('en');
+  assert.strictEqual(gen.renderYieldHeadlineHtml(null, 'X', t), '');
+});
+test('headline renders above the pool table (.tp-card), after the intro paragraph', () => {
+  const introIdx = html.indexOf('<p class="intro">');
+  const headlineIdx = html.indexOf('<p class="tp-yield-headline">');
+  const tableIdx = html.indexOf('<div class="tp-card">');
+  assert.ok(introIdx > -1 && headlineIdx > introIdx && headlineIdx < tableIdx,
+    'expected intro < yield headline < pool table in document order');
+});
+test('headline copy states the token symbol, APY, forever capital, and monthly subscription price', () => {
+  const h = gen.yieldHeadlineFor(bySym['BIG'], 'en');
+  assert.ok(html.includes(`Your idle BIG could earn ~${h.apyStr}`), 'missing token/APY in rendered headline');
+  assert.ok(html.includes(`park ${h.foreverAmtStr}`), 'missing forever-capital figure in rendered headline');
+  assert.ok(html.includes(`$${h.monthly}/mo Claude Pro`), 'missing monthly subscription anchor in rendered headline');
+});
+test('malicious token symbol cannot inject markup into the yield headline', () => {
+  const evil = { symbol: '<script>alert(1)</script>', pools: [{ project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] };
+  const t = require('./translations.js').createTranslationFunction('en');
+  const headlineHtml = gen.renderYieldHeadlineHtml(gen.yieldHeadlineFor(evil, 'en'), evil.symbol, t);
+  assert.ok(!headlineHtml.includes('<script>alert(1)</script>'), 'unescaped symbol leaked into the yield headline');
+  assert.ok(headlineHtml.includes('&lt;script&gt;'), 'expected escaped symbol in the yield headline');
+});
+test('every generated token page (en + ko) carries the yield headline with natural KO copy', () => {
+  ranked.forEach(rec => {
+    const enHtml = gen.renderTokenPage(rec, [], '2026-07-12', [], 'en');
+    const koHtml = gen.renderTokenPage(rec, [], '2026-07-12', [], 'ko');
+    assert.ok(enHtml.includes('tp-yield-headline'), `EN page missing yield headline for ${rec.symbol}`);
+    assert.ok(koHtml.includes('tp-yield-headline'), `KO page missing yield headline for ${rec.symbol}`);
+    assert.ok(koHtml.includes('Claude Pro') && koHtml.includes('구독료'), `KO page yield headline not translated for ${rec.symbol}`);
+  });
+});
+test('yield headline uses the neuro token system only, no hardcoded hex colors', () => {
+  const styleMatch = html.match(/\.tp-yield-headline \{[^}]*\}/);
+  assert.ok(styleMatch, 'yield headline style rule missing from rendered page');
+  assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleMatch[0]), 'hardcoded hex color in the yield headline style');
+  assert.ok(styleMatch[0].includes('var(--neuro-shadow-raised)'), 'must reuse existing neuro shadow token');
+});
+
 console.log(`\n${passed} assertions passed`);
