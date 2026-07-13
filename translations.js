@@ -120,8 +120,8 @@ const translations = {
       metaDescription: "A goal-first DeFi savings planner. Tell us what you're saving for and how much you can set aside each month — we'll show what live, real pool rates could grow it into. Every number is live DefiLlama data. Education, not advice.",
 
       // Header
-      title: "Garden Planner",
-      tagline: "Plant a goal. Watch it grow.",
+      title: "Pay your bills with yield, forever",
+      tagline: "Tell us what you need. Live DeFi yield covers it automatically.",
       startFresh: "Start fresh",
       back: "Back",
       myGarden: "My garden",
@@ -132,6 +132,7 @@ const translations = {
       // Step 1 — goal
       step1Question: "Let's grow something. What are you saving for?",
       splashHook: "Park money once — its yield pays the bill forever, and you keep every dollar.",
+      splashHookLive: (apy) => `Park money once — at today's ${apy} blended rate, the yield pays your bill forever and you keep every dollar.`,
       catSubscriptions: "Subscriptions",
       catBills: "Monthly bills",
       catGadgets: "Gadgets",
@@ -706,8 +707,8 @@ const translations = {
       pageTitle: "가든 플래너 🌱 | 목표 중심 DeFi 저축 계획 — DeFi Garden",
       metaDescription: "목표부터 시작하는 DeFi 저축 플래너. 무엇을 위해 매달 얼마를 모을 수 있는지 알려주시면, 실시간 풀 수익률로 얼마나 키울 수 있는지 보여드립니다. 모든 숫자는 DefiLlama 실시간 데이터입니다. 투자 조언이 아닌 교육용입니다.",
 
-      title: "가든 플래너",
-      tagline: "목표를 심고, 자라는 걸 지켜보세요.",
+      title: "수익이 요금을 내줘요 — 영원히",
+      tagline: "필요한 걸 알려주세요. 실시간 DeFi 수익이 알아서 내드려요.",
       startFresh: "처음부터 다시",
       back: "뒤로",
       myGarden: "내 정원",
@@ -716,6 +717,7 @@ const translations = {
 
       step1Question: "함께 무언가를 키워봐요. 무엇을 위해 모으고 계신가요?",
       splashHook: "한 번 넣어두면 — 수익이 요금을 영원히 내주고, 원금은 고스란히 남아요.",
+      splashHookLive: (apy) => `한 번 넣어두면 — 오늘 기준 혼합 수익률 ${apy}로 수익이 요금을 영원히 내주고, 원금은 고스란히 남아요.`,
       catSubscriptions: "구독 서비스",
       catBills: "고정 지출",
       catGadgets: "가젯",
