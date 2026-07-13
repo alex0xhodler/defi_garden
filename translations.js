@@ -523,6 +523,10 @@ const translations = {
     // the nested `planner` key instead and use identical copy on purpose.
     tcpWaitlistPitchToken: (sym) => `A card that spends your ${sym} yield — never your ${sym} itself. Join the waitlist and be first when it's ready.`,
     tcpWaitlistPitchChain: (chain) => `A card that spends the yield from your ${chain} positions — never the principal. Join the waitlist and be first when it's ready.`,
+    // Yield headline (066) — honest per-token custom KPI, computed live from
+    // the SAME blended-rate/forever-number math the planner itself uses.
+    tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
+      `Your idle ${sym} could earn ~${apyStr} — park ${foreverAmtStr} and it could run a $${monthly}/mo ${subLabel} subscription, forever.`,
     tcpWaitlistHeading: "Get early access to the card",
     tcpWaitlistCta: "Join the waitlist →",
     tcpWaitlistMicro: "Free to join • Card doesn't exist yet • We'll email you when it does",
@@ -1083,6 +1087,10 @@ const translations = {
     tcpChainCta: (chain) => `${chain}의 실시간 풀 보기 →`,
     tcpWaitlistPitchToken: (sym) => `내 ${sym} 수익으로 결제되는 카드예요 — ${sym} 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.`,
     tcpWaitlistPitchChain: (chain) => `${chain} 포지션의 수익으로 결제되는 카드예요 — 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.`,
+    // Yield headline (066) — honest per-token custom KPI, computed live from
+    // the SAME blended-rate/forever-number math the planner itself uses.
+    tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
+      `유휴 ${sym}으로 약 ${apyStr}의 수익을 낼 수 있어요 — ${foreverAmtStr}를 예치하면 월 $${monthly} ${subLabel} 구독료를 영원히 낼 수 있어요.`,
     tcpWaitlistHeading: "카드 얼리 액세스 신청하기",
     tcpWaitlistCta: "대기자 명단에 등록 →",
     tcpWaitlistMicro: "무료 가입 • 카드는 아직 없어요 • 준비되면 이메일로 알려드려요",
