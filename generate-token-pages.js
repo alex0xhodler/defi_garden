@@ -923,10 +923,15 @@ async function main() {
   // requires this module eagerly for poolTotalApy/formatApy, so a top-level
   // require here would be a load-time cycle.
   const { generateOgImages } = require('./generate-og-images.js');
-  const ogImagePaths = generateOgImages(ranked, 'tokens', rec => rec.symbol, process.cwd());
+  const outDir = path.resolve(args.out);
+  // OG images land in the og/ sibling of outDir (same sibling convention as
+  // koOutDir below), so a scratch run pointed at --out /scratch/tokens writes
+  // /scratch/og/tokens and leaves the repo's committed og/tokens untouched.
+  // On the CI path (--out tokens from the repo root) path.dirname(outDir) is
+  // the repo root, i.e. byte-identical to the old process.cwd() behavior.
+  const ogImagePaths = generateOgImages(ranked, 'tokens', rec => rec.symbol, path.dirname(outDir));
   console.log(`🖼️  Generated ${ogImagePaths.size} token OG images`);
 
-  const outDir = path.resolve(args.out);
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   // Clean stale pages first so tokens dropped by the gate (030) / renamed slugs
   // don't linger from a previous run. Only *.html is removed (never other files,
