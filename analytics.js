@@ -338,7 +338,8 @@ const Analytics = {
       goal: context.goal || null,
       persona: context.persona || null,
       archetype: context.archetype || null,
-      source: context.source || null
+      source: context.source || null,
+      pitch_variant: context.pitchVariant || null
     });
   },
 
@@ -348,7 +349,8 @@ const Analytics = {
       persona: context.persona || null,
       archetype: context.archetype || null,
       success: !!context.success,
-      source: context.source || null
+      source: context.source || null,
+      pitch_variant: context.pitchVariant || null
     });
   },
 
@@ -357,7 +359,8 @@ const Analytics = {
       goal: context.goal || null,
       persona: context.persona || null,
       archetype: context.archetype || null,
-      source: context.source || null
+      source: context.source || null,
+      pitch_variant: context.pitchVariant || null
     });
   },
 
@@ -366,7 +369,8 @@ const Analytics = {
       goal: context.goal || null,
       persona: context.persona || null,
       archetype: context.archetype || null,
-      source: context.source || null
+      source: context.source || null,
+      pitch_variant: context.pitchVariant || null
     });
   },
 
@@ -376,7 +380,8 @@ const Analytics = {
       goal: context.goal || null,
       persona: context.persona || null,
       archetype: context.archetype || null,
-      source: context.source || null
+      source: context.source || null,
+      pitch_variant: context.pitchVariant || null
     });
   },
 
