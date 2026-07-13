@@ -126,13 +126,21 @@ function pickPool(pools, poolId) {
     }
     return pool;
   }
-  const candidates = (pools || [])
-    .filter((p) => isQualifyingPool(p) && isSmallEnoughProtocol(p.project, aggregates))
-    .sort((a, b) => poolTotalApy(b) - poolTotalApy(a));
+  const candidates = rankCandidates(pools);
   if (!candidates.length) {
     throw new SpotlightError('no trust-rail-qualifying, small-enough-protocol pool found in this dataset');
   }
   return candidates[0];
+}
+
+/** All trust-rail-qualifying, small-enough-protocol pools, ranked highest
+ * total APY first. Shared by pickPool (auto-pick = candidates[0]) and the
+ * cadence doc (candidates minus already-covered pools = next-up list). */
+function rankCandidates(pools) {
+  const aggregates = protocolTvlAggregates(pools);
+  return (pools || [])
+    .filter((p) => isQualifyingPool(p) && isSmallEnoughProtocol(p.project, aggregates))
+    .sort((a, b) => poolTotalApy(b) - poolTotalApy(a));
 }
 
 // --- Goal model (mirrors a subset of planner.js:643-716's subscription
@@ -219,14 +227,21 @@ function formatProjectName(project) {
 
 // --- Share URL (mirrors encodePlanToUrl's param semantics, planner.js:856 —
 // this is a small parallel Node-side builder, not a require of that browser
-// function, per spec territory notes) ----------------------------------------
-function buildShareUrl({ goal, monthly, persona, chain, token }) {
+// function, per spec territory notes). `src`/`ref` (064) are attribution-only
+// params the planner already knows how to read (urlParams.get('src'),
+// planner.js:3529) — they carry no plan state and decodePlanFromUrl ignores
+// them, so they cannot change what garden renders. --------------------------
+const SPOTLIGHT_SRC = 'x_spotlight';
+
+function buildShareUrl({ goal, monthly, persona, chain, token, ref }) {
   const params = new URLSearchParams();
   params.set('goal', goal);
   params.set('monthly', String(monthly));
   params.set('pace', persona);
   if (chain) params.set('chain', chain);
   if (token) params.set('token', token);
+  params.set('src', SPOTLIGHT_SRC);
+  if (ref) params.set('ref', ref);
   return `${SITE_URL}/plan.html?${params.toString()}`;
 }
 
@@ -340,9 +355,13 @@ function buildPack(pool, { goalId, lang } = {}) {
   const apyStr = formatApy(apy);
   const tvlStr = formatUsd(pool.tvlUsd);
   const monthly = goalDef.target;
+  // Stable per-pool ref: same slug used for the output directory (slug),
+  // reused as the URL's `ref` param — one identifier, never two that could
+  // drift apart.
+  const slug = tokenSlug(`${pool.project}-${pool.symbol}-${pool.chain}`);
 
   const shareUrl = buildShareUrl({
-    goal: goalDef.id, monthly: monthly, persona: persona, chain: pool.chain, token: pool.symbol
+    goal: goalDef.id, monthly: monthly, persona: persona, chain: pool.chain, token: pool.symbol, ref: slug
   });
   const tweetDraft = buildTweetDraft({
     protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr,
@@ -351,8 +370,6 @@ function buildPack(pool, { goalId, lang } = {}) {
   const canvaFields = buildCanvaFields({
     protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr, goalLabelText: goalLabel, shareUrl, tweetDraft
   });
-
-  const slug = tokenSlug(`${pool.project}-${pool.symbol}-${pool.chain}`);
 
   return {
     slug,
@@ -375,6 +392,77 @@ function buildPack(pool, { goalId, lang } = {}) {
     canvaFields: canvaFields,
     generatedAt: new Date().toISOString()
   };
+}
+
+// --- Cadence / coverage doc (064) --------------------------------------------
+// "the running list of pools already spotlighted + the next N candidates …
+// so the human's weekly posting is systematic and non-repeating" (spec 064).
+// Pure and testable: buildCadence/renderCadenceMarkdown take the already-
+// spotlighted pack summaries as plain data (never touch the filesystem
+// themselves) — loadCoveredPacks is the one IO-doing wrapper, kept separate
+// so the ranking/rendering logic is deterministic given the same pool set +
+// covered list, per the spec's acceptance criterion.
+const DEFAULT_NEXT_CANDIDATES = 5;
+
+/** Reads every existing spotlights/<slug>/pack.json under outDir (if any)
+ * and returns their parsed contents. A brand-new outDir (nothing spotlighted
+ * yet) returns []. */
+function loadCoveredPacks(outDir) {
+  if (!fs.existsSync(outDir)) return [];
+  return fs.readdirSync(outDir)
+    .map((slug) => path.join(outDir, slug, 'pack.json'))
+    .filter((p) => fs.existsSync(p))
+    .map((p) => JSON.parse(fs.readFileSync(p, 'utf8')))
+    .sort((a, b) => String(a.generatedAt).localeCompare(String(b.generatedAt)));
+}
+
+/** coveredPacks: array of pack objects (same shape buildPack returns /
+ * pack.json on disk) for pools already spotlighted. Returns { covered, next }
+ * — next is up to nextN trust-rail-qualifying, small-enough-protocol pools
+ * (highest total APY first) whose pool id isn't already in coveredPacks. */
+function buildCadence(pools, coveredPacks, { nextN } = {}) {
+  const n = nextN || DEFAULT_NEXT_CANDIDATES;
+  const coveredPoolIds = new Set((coveredPacks || []).map((p) => p.pool));
+  const next = rankCandidates(pools)
+    .filter((p) => !coveredPoolIds.has(p.pool))
+    .slice(0, n)
+    .map((p) => ({
+      protocol: p.project,
+      protocolLabel: formatProjectName(p.project),
+      pool: p.pool,
+      poolSymbol: p.symbol,
+      chain: p.chain,
+      apyStr: formatApy(poolTotalApy(p)),
+      tvlStr: formatUsd(p.tvlUsd)
+    }));
+  return { covered: coveredPacks || [], next };
+}
+
+function renderCadenceMarkdown(cadence) {
+  const lines = [
+    '# Spotlight cadence & coverage',
+    '',
+    '_Generated by `generate-spotlight.js` — do not hand-edit; regenerates on every `npm run spotlight` run._',
+    '',
+    `## Already spotlighted (${cadence.covered.length})`
+  ];
+  if (!cadence.covered.length) {
+    lines.push('_None yet._');
+  } else {
+    cadence.covered.forEach((c) => {
+      lines.push(`- ${c.protocolLabel} · ${c.poolSymbol} (${c.chain}) — pool \`${c.pool}\`, spotlighted ${c.generatedAt || 'unknown date'}`);
+    });
+  }
+  lines.push('', `## Next candidates (${cadence.next.length})`);
+  if (!cadence.next.length) {
+    lines.push('_No qualifying, uncovered candidates left in this pool set._');
+  } else {
+    cadence.next.forEach((c) => {
+      lines.push(`- ${c.protocolLabel} · ${c.poolSymbol} (${c.chain}) — ${c.apyStr} APY, ${c.tvlStr} TVL tracked (\`--pool ${c.pool}\`)`);
+    });
+  }
+  lines.push('');
+  return lines.join('\n');
 }
 
 // --- IO layer (only runs as a script) ---------------------------------------
@@ -436,16 +524,24 @@ async function main() {
   console.log(`📝 Wrote ${path.join(args.out, pack.slug, 'pack.json')}`);
   console.log(`🖼️  Wrote ${path.join(args.out, pack.slug, 'card.png')}`);
   console.log(`🔗 ${pack.shareUrl}`);
+
+  // Cadence doc reflects the coverage state AFTER this run's pack lands.
+  const outRoot = path.resolve(args.out);
+  const coveredPacks = loadCoveredPacks(outRoot);
+  const cadence = buildCadence(pools, coveredPacks);
+  fs.writeFileSync(path.join(outRoot, 'CADENCE.md'), renderCadenceMarkdown(cadence));
+  console.log(`📋 Wrote ${path.join(args.out, 'CADENCE.md')} (${cadence.covered.length} covered, ${cadence.next.length} next candidates)`);
 }
 
 module.exports = {
-  DEFAULT_MIN_TVL, APY_SANITY_LIMIT, CURVE_PROJECT_KEY,
+  DEFAULT_MIN_TVL, APY_SANITY_LIMIT, CURVE_PROJECT_KEY, SPOTLIGHT_SRC,
   isQualifyingPool, protocolTvlAggregates, isSmallEnoughProtocol,
-  pickPool, SpotlightError,
+  pickPool, rankCandidates, SpotlightError,
   SUBSCRIPTION_GOALS, DEFAULT_GOAL_ID, resolveGoal,
   STABLE_SYMBOLS, isStableSymbol, PERSONA_BANDS, classifyPersona,
   formatProjectName, buildShareUrl, buildTweetDraft, buildCanvaFields,
-  renderSpotlightCard, buildPack
+  renderSpotlightCard, buildPack,
+  loadCoveredPacks, buildCadence, renderCadenceMarkdown, DEFAULT_NEXT_CANDIDATES
 };
 
 if (require.main === module) {

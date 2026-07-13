@@ -299,7 +299,8 @@ const Analytics = {
       goal: context.goal || null,
       monthly: context.monthly || null,
       years: context.years || null,
-      persona: context.persona || null
+      persona: context.persona || null,
+      source: context.source || null
     });
   },
 

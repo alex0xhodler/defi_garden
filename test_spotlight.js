@@ -132,6 +132,18 @@ test('shareUrl query string matches what decodePlanFromUrl expects (goal/monthly
   assert.strictEqual(u.searchParams.get('chain'), 'Base');
   assert.strictEqual(u.searchParams.get('token'), 'USDC');
 });
+test('shareUrl carries attribution src=x_spotlight and a stable per-pool ref (064)', () => {
+  const u = new URL(pack.shareUrl);
+  assert.strictEqual(u.searchParams.get('src'), 'x_spotlight');
+  assert.strictEqual(u.searchParams.get('src'), gen.SPOTLIGHT_SRC);
+  assert.strictEqual(u.searchParams.get('ref'), pack.slug);
+  assert.strictEqual(u.searchParams.get('ref'), 'tiny-good-usdc-base');
+});
+test('buildShareUrl is stable/deterministic for the same pool (same ref every call)', () => {
+  const u1 = gen.buildShareUrl({ goal: 'claude', monthly: 20, persona: 'stable', chain: 'Base', token: 'USDC', ref: 'tiny-good-usdc-base' });
+  const u2 = gen.buildShareUrl({ goal: 'claude', monthly: 20, persona: 'stable', chain: 'Base', token: 'USDC', ref: 'tiny-good-usdc-base' });
+  assert.strictEqual(u1, u2);
+});
 test('tweetDraft references protocol, pool symbol, chain, live APY/TVL, share URL, and an unconfirmed @handle placeholder', () => {
   assert.ok(pack.tweetDraft.includes('Tiny Good'));
   assert.ok(pack.tweetDraft.includes('USDC'));
@@ -179,6 +191,63 @@ test('does not throw on a long protocol label (truncated instead)', () => {
 });
 
 // ===========================================================================
+// Cadence / coverage doc (064) — pure-function unit tests
+// ===========================================================================
+console.log('rankCandidates / buildCadence / renderCadenceMarkdown — cadence doc (064)');
+// A second, larger fixture with several qualifying small-protocol pools so
+// "next candidates" ranking + exclusion-of-covered has something to rank.
+const CADENCE_POOLS = [
+  { pool: 'curve-1', project: 'curve-dex', symbol: '3CRV', chain: 'Ethereum', tvlUsd: 500000000, apyBase: 3, apyReward: 0 },
+  { pool: 'curve-2', project: 'curve-dex', symbol: 'crvUSD-USDC', chain: 'Ethereum', tvlUsd: 400000000, apyBase: 4, apyReward: 0 },
+  { pool: 'small-a', project: 'proto-a', symbol: 'USDC', chain: 'Base', tvlUsd: 15000000, apyBase: 12, apyReward: 0 },
+  { pool: 'small-b', project: 'proto-b', symbol: 'USDT', chain: 'Arbitrum', tvlUsd: 20000000, apyBase: 9, apyReward: 0 },
+  { pool: 'small-c', project: 'proto-c', symbol: 'DAI', chain: 'Optimism', tvlUsd: 12000000, apyBase: 6, apyReward: 0 },
+  { pool: 'dust-1', project: 'tiny-dust', symbol: 'USDC', chain: 'Ethereum', tvlUsd: 500000, apyBase: 8, apyReward: 0 }
+];
+test('rankCandidates ranks qualifying, small-enough pools by total APY descending, excludes Curve/dust', () => {
+  const ranked = gen.rankCandidates(CADENCE_POOLS);
+  assert.deepStrictEqual(ranked.map((p) => p.pool), ['small-a', 'small-b', 'small-c']);
+});
+test('buildCadence with no coverage yet returns all candidates as "next", none "covered"', () => {
+  const cadence = gen.buildCadence(CADENCE_POOLS, []);
+  assert.strictEqual(cadence.covered.length, 0);
+  assert.deepStrictEqual(cadence.next.map((c) => c.pool), ['small-a', 'small-b', 'small-c']);
+});
+test('buildCadence excludes already-covered pools from "next" and echoes them as "covered"', () => {
+  const coveredPacks = [{ pool: 'small-a', protocol: 'proto-a', protocolLabel: 'Proto A', poolSymbol: 'USDC', chain: 'Base', slug: 'proto-a-usdc-base', generatedAt: '2026-07-13T00:00:00.000Z' }];
+  const cadence = gen.buildCadence(CADENCE_POOLS, coveredPacks);
+  assert.strictEqual(cadence.covered.length, 1);
+  assert.deepStrictEqual(cadence.next.map((c) => c.pool), ['small-b', 'small-c']);
+});
+test('buildCadence honors nextN', () => {
+  const cadence = gen.buildCadence(CADENCE_POOLS, [], { nextN: 1 });
+  assert.deepStrictEqual(cadence.next.map((c) => c.pool), ['small-a']);
+});
+test('buildCadence is deterministic given the same pool set + coverage', () => {
+  const c1 = gen.buildCadence(CADENCE_POOLS, []);
+  const c2 = gen.buildCadence(CADENCE_POOLS, []);
+  assert.deepStrictEqual(c1, c2);
+});
+test('renderCadenceMarkdown lists covered + next candidates with pool ids for --pool reuse', () => {
+  const cadence = gen.buildCadence(CADENCE_POOLS, [
+    { pool: 'small-a', protocol: 'proto-a', protocolLabel: 'Proto A', poolSymbol: 'USDC', chain: 'Base', slug: 'proto-a-usdc-base', generatedAt: '2026-07-13T00:00:00.000Z' }
+  ]);
+  const md = gen.renderCadenceMarkdown(cadence);
+  assert.ok(md.includes('Proto A'), 'covered entry missing');
+  assert.ok(md.includes('small-a'), 'covered pool id missing');
+  assert.ok(md.includes('--pool small-b'), 'next candidate --pool hint missing');
+  assert.ok(!md.includes('--pool small-a'), 'already-covered pool must not reappear in "next"');
+});
+test('renderCadenceMarkdown handles the empty-coverage / empty-candidates edges without throwing', () => {
+  assert.doesNotThrow(() => gen.renderCadenceMarkdown(gen.buildCadence(CADENCE_POOLS, [])));
+  assert.doesNotThrow(() => gen.renderCadenceMarkdown(gen.buildCadence([], [])));
+});
+test('loadCoveredPacks returns [] for a not-yet-existing output directory', () => {
+  const missingDir = path.join(os.tmpdir(), 'spotlight-cadence-does-not-exist-' + Date.now());
+  assert.deepStrictEqual(gen.loadCoveredPacks(missingDir), []);
+});
+
+// ===========================================================================
 // CLI end-to-end tests (real subprocess — the spec's own acceptance
 // criteria are phrased as CLI behavior: "node generate-spotlight.js
 // --fixture <path> produces spotlights/<slug>/pack.json + card.png ... and
@@ -214,6 +283,42 @@ test('a valid small-protocol pool produces pack.json + a non-empty, valid card.p
     const dims = pngDims(cardBuf);
     assert.strictEqual(dims.width, 1200);
     assert.strictEqual(dims.height, 630);
+
+    assert.strictEqual(u.searchParams.get('src'), 'x_spotlight');
+    assert.strictEqual(u.searchParams.get('ref'), 'tiny-good-usdc-base');
+
+    const cadencePath = path.join(dir, 'CADENCE.md');
+    assert.ok(fs.existsSync(cadencePath), 'CADENCE.md missing');
+    const cadenceMd = fs.readFileSync(cadencePath, 'utf8');
+    assert.ok(cadenceMd.includes('Tiny Good'), 'CADENCE.md should list the just-spotlighted pool as covered');
+    assert.ok(cadenceMd.includes('good-1'), 'CADENCE.md should reference the covered pool id');
+  });
+});
+
+test('a second CLI run against the same --out dir keeps the first pool covered (no re-spotlighting)', () => {
+  withTmpDir((dir) => {
+    execFileSync('node', ['generate-spotlight.js', '--fixture', fixturePath, '--pool', 'good-1', '--out', dir], {
+      cwd: __dirname, encoding: 'utf8'
+    });
+    // A second fixture with the original pool plus a fresh qualifying candidate.
+    const secondFixturePath = path.join(os.tmpdir(), 'spotlight-test-fixture-2.json');
+    const secondPools = FIXTURE_POOLS.concat([
+      { pool: 'good-2', project: 'tiny-good-2', symbol: 'USDT', chain: 'Arbitrum', tvlUsd: 18000000, apyBase: 7, apyReward: 0 }
+    ]);
+    fs.writeFileSync(secondFixturePath, JSON.stringify({ status: 'success', data: secondPools }));
+    try {
+      execFileSync('node', ['generate-spotlight.js', '--fixture', secondFixturePath, '--pool', 'good-2', '--out', dir], {
+        cwd: __dirname, encoding: 'utf8'
+      });
+      const cadenceMd = fs.readFileSync(path.join(dir, 'CADENCE.md'), 'utf8');
+      assert.ok(cadenceMd.includes('good-1'), 'first run\'s pool should still be listed as covered');
+      assert.ok(cadenceMd.includes('good-2'), 'second run\'s pool should now be listed as covered');
+      const nextSection = cadenceMd.slice(cadenceMd.indexOf('## Next candidates'));
+      assert.ok(!nextSection.includes('--pool good-1'), 'already-covered pool must not reappear in next candidates');
+      assert.ok(!nextSection.includes('--pool good-2'), 'already-covered pool must not reappear in next candidates');
+    } finally {
+      fs.rmSync(secondFixturePath, { force: true });
+    }
   });
 });
 
