@@ -853,7 +853,7 @@
   // ---------------------------------------------------------------------------
   // URL plan encoding/decoding (shareable plans)
   // ---------------------------------------------------------------------------
-  function encodePlanToUrl(goal, monthly, years, persona, capital, fundingMode, deadline) {
+  function encodePlanToUrl(goal, monthly, years, persona, capital, fundingMode, deadline, poolFilters) {
     var u = new URL(window.location.href);
     u.searchParams.set('goal', goal || '');
     if (fundingMode === 'capital' && capital) {
@@ -869,6 +869,13 @@
     if (deadline != null) u.searchParams.set('dl', String(deadline));
     else u.searchParams.delete('dl');
     u.searchParams.set('pace', persona || 'stable');
+    // Pool filters (060): additive — carries a spotlight/user's chain+token
+    // filter through the share link so a fresh open re-curates to the same
+    // pool, instead of always falling back to top-3-by-persona.
+    if (poolFilters && poolFilters.chain) u.searchParams.set('chain', String(poolFilters.chain));
+    else u.searchParams.delete('chain');
+    if (poolFilters && poolFilters.token) u.searchParams.set('token', String(poolFilters.token));
+    else u.searchParams.delete('token');
     u.searchParams.delete('preset');
     u.searchParams.delete('fresh');
     return u.toString();
@@ -884,13 +891,18 @@
     var monthly = parseInt(urlParams.get('monthly'), 10);
     var years = parseInt(urlParams.get('years'), 10);
     var dl = parseInt(urlParams.get('dl'), 10);
+    // 060: optional chain/token filter carried by the share link. null when
+    // absent — never changes the existing null-goal/null-pace early-return
+    // contract above.
+    var chain = urlParams.get('chain') || null;
+    var token = urlParams.get('token') || null;
     // Require either capital (capital path) or monthly (monthly/legacy path)
     if (fm === 'capital') {
       if (!capital) return null;
-      return { goal: goal, capital: capital, monthly: null, fundingMode: 'capital', deadline: isNaN(dl) ? null : dl, years: isNaN(years) ? null : years, persona: pace };
+      return { goal: goal, capital: capital, monthly: null, fundingMode: 'capital', deadline: isNaN(dl) ? null : dl, years: isNaN(years) ? null : years, persona: pace, chain: chain, token: token };
     }
     if (!monthly) return null;
-    return { goal: goal, monthly: monthly, capital: null, fundingMode: fm || 'monthly', deadline: isNaN(dl) ? null : dl, years: isNaN(years) ? null : years, persona: pace };
+    return { goal: goal, monthly: monthly, capital: null, fundingMode: fm || 'monthly', deadline: isNaN(dl) ? null : dl, years: isNaN(years) ? null : years, persona: pace, chain: chain, token: token };
   }
 
   // ---------------------------------------------------------------------------
@@ -1236,7 +1248,11 @@
     var isCapitalPath = propFundingMode === 'capital' && propCapital;
 
     // --- Pool filter + slot-override state ---
-    var poolFiltersState = useState({ chain: null, token: null });
+    // Seeded from props.initialChain/initialToken (060) — the Planner
+    // component seeds those from a decoded shared-plan URL, same pattern as
+    // ansState's own sharedPlan initializer a few hundred lines below. Plain
+    // UI-driven filter changes after mount always go through setPoolFilters.
+    var poolFiltersState = useState({ chain: props.initialChain || null, token: props.initialToken || null });
     var poolFilters = poolFiltersState[0], setPoolFilters = poolFiltersState[1];
 
     // slotPicks: array of explicit pool-id choices per slot (null = auto).
@@ -1776,7 +1792,7 @@
         shareFeatured = brandForId(goal);
       }
 
-      var shareUrl = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline);
+      var shareUrl = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters);
       renderShareImage({
         headline: shareHeadline,
         goalLabel: shareRowLabel,
@@ -1805,7 +1821,7 @@
     }
 
     function doCopyLink() {
-      var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline);
+      var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters);
       if (typeof Analytics !== 'undefined') {
         Analytics.trackShareLinkCreated({ method: 'copy', goal: goal, persona: persona });
       }
@@ -1828,7 +1844,7 @@
     }
 
     function doNativeShare() {
-      var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline);
+      var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters);
       if (typeof Analytics !== 'undefined') {
         Analytics.trackShareLinkCreated({ method: 'native', goal: goal, persona: persona });
       }
@@ -3550,7 +3566,7 @@
       setArrivalDismissed(true);
       try {
         var u = new URL(window.location.href);
-        ['preset', 'fresh', 'goal', 'monthly', 'years', 'pace', 'capital', 'fm', 'dl'].forEach(function(k) { u.searchParams.delete(k); });
+        ['preset', 'fresh', 'goal', 'monthly', 'years', 'pace', 'capital', 'fm', 'dl', 'chain', 'token'].forEach(function(k) { u.searchParams.delete(k); });
         window.history.replaceState({}, '', u.pathname + (u.search || ''));
       } catch (e10) {}
     }
@@ -4135,6 +4151,10 @@
             capital: answers.capital,
             fundingMode: answers.fundingMode,
             deadline: answers.deadline,
+            // 060: seed Bloom's own pool-filter state from a decoded shared
+            // plan (chain/token survive the share-URL round trip now).
+            initialChain: sharedPlan ? (sharedPlan.chain || null) : null,
+            initialToken: sharedPlan ? (sharedPlan.token || null) : null,
             onWhatIf: onWhatIf,
             onEditGoal: onEditGoal,
             onEditMonthly: onEditMonthly,
