@@ -146,11 +146,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/megaeth</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/ink</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
@@ -161,12 +156,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/stacks</loc>
+    <loc>https://www.defi.garden/ko/chains/starknet</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/starknet</loc>
+    <loc>https://www.defi.garden/ko/chains/stacks</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -177,6 +172,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/ton</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/megaeth</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
