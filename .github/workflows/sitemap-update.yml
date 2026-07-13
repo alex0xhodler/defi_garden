@@ -125,7 +125,7 @@ jobs:
         git add sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains sitemap-token-pages-ko.xml sitemap-chain-pages-ko.xml ko robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js style.min.css planner-styles.min.css pool-detail-styles.min.css
         git commit -m "chore: update sitemap and LLM files with latest yields
         
-        - Regenerated sitemap.xml with $(grep -c '<url>' sitemap.xml) URLs
+        - Regenerated sitemap index with $( { grep -o '<sitemap>' sitemap.xml || true; } | wc -l ) child sitemaps and $( { grep -o '<url>' sitemap*.xml || true; } | wc -l ) total URLs
         - Updated robots.txt with AI crawler support
         - Generated llms.txt and llms-full.txt for AI assistants
         - Includes latest DeFi tokens and yield opportunities
