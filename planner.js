@@ -31,6 +31,27 @@
     'spiko', 'hashnote', 'superstate', 'backed', 'ethena', 'usual', 'janus', 'tradfi'];
 
   // ---------------------------------------------------------------------------
+  // Waitlist pitch variant (spec 065) — computed once from the URL `pitch` param.
+  // 'b'/'c' (case-insensitive) select alternate honest framings; anything else
+  // (missing/invalid) falls back to 'a' so default copy stays byte-identical.
+  // Every waitlist event carries this as pitch_variant; only the modal title +
+  // benefits + dialog aria-label vary by it.
+  var PITCH_VARIANT = (function () {
+    try {
+      var p = new URLSearchParams(window.location.search).get('pitch');
+      p = (p || '').toLowerCase();
+      return (p === 'b' || p === 'c') ? p : 'a';
+    } catch (err) {
+      return 'a';
+    }
+  })();
+  // Map a base translation key to its pitch-variant key (waitlistTitle ->
+  // waitlistTitleB for variant 'b'); variant 'a' returns the base key unchanged.
+  function pitchKey(baseKey) {
+    return PITCH_VARIANT === 'a' ? baseKey : baseKey + PITCH_VARIANT.toUpperCase();
+  }
+
+  // ---------------------------------------------------------------------------
   // Formatting — pinned to en-US everywhere
   // ---------------------------------------------------------------------------
   function formatUsd(n, maxFrac) {
@@ -1577,19 +1598,19 @@
       if (ev) ev.preventDefault();
       if (!waitlistEmail.trim()) {
         if (typeof Analytics !== 'undefined') {
-          Analytics.trackWaitlistError({ reason: 'empty_email', goal: goal, persona: persona, archetype: archetype });
+          Analytics.trackWaitlistError({ reason: 'empty_email', goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
         }
         return;
       }
       if (!/^\S+@\S+\.\S+$/.test(waitlistEmail)) {
         if (typeof Analytics !== 'undefined') {
-          Analytics.trackWaitlistError({ reason: 'invalid_email', goal: goal, persona: persona, archetype: archetype });
+          Analytics.trackWaitlistError({ reason: 'invalid_email', goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
         }
         return;
       }
       setWaitlistStatus('submitting');
       if (typeof Analytics !== 'undefined') {
-        Analytics.trackWaitlistSubmitAttempt({ goal: goal, persona: persona, archetype: archetype });
+        Analytics.trackWaitlistSubmitAttempt({ goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
       }
       // Derive handle from email local part
       var rawHandle = waitlistEmail.split('@')[0] || '';
@@ -1623,20 +1644,20 @@
           setWaitlistStep(2);
           setWaitlistStatus('idle');
           if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: true });
+            Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: true, pitchVariant: PITCH_VARIANT });
           }
         } else {
           setWaitlistStatus('error');
           if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistError({ reason: 'formspree_error', goal: goal, persona: persona, archetype: archetype });
-            Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: false });
+            Analytics.trackWaitlistError({ reason: 'formspree_error', goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
+            Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: false, pitchVariant: PITCH_VARIANT });
           }
         }
       }).catch(function () {
         setWaitlistStatus('error');
         if (typeof Analytics !== 'undefined') {
-          Analytics.trackWaitlistError({ reason: 'network', goal: goal, persona: persona, archetype: archetype });
-          Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: false });
+          Analytics.trackWaitlistError({ reason: 'network', goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
+          Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: false, pitchVariant: PITCH_VARIANT });
         }
       });
     }
@@ -2412,7 +2433,7 @@
           setWaitlistOpen(true);
           waitlistEmailEnteredRef.current = false;
           if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype, source: source });
+            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype, source: source, pitchVariant: PITCH_VARIANT });
           }
         }
       },
@@ -2490,7 +2511,7 @@
       onClick: function (ev) { if (ev.target === ev.currentTarget) setWaitlistOpen(false); },
       role: 'dialog',
       'aria-modal': 'true',
-      'aria-label': t('waitlistTitle')
+      'aria-label': t(pitchKey('waitlistTitle'))
     },
       e('div', { className: 'gp-waitlist-card' },
         // Close button
@@ -2505,10 +2526,10 @@
           // --- Step 1: benefits + email ---
           ? e('div', { className: 'gp-waitlist-body' },
               e('div', { className: 'gp-waitlist-step-row' },
-                e('h2', { className: 'gp-waitlist-title' }, t('waitlistTitle')),
+                e('h2', { className: 'gp-waitlist-title' }, t(pitchKey('waitlistTitle'))),
                 e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 1))
               ),
-              e('p', { className: 'gp-waitlist-benefits' }, t('waitlistBenefits', archetype)),
+              e('p', { className: 'gp-waitlist-benefits' }, t(pitchKey('waitlistBenefits'), archetype)),
               currentMixStats.count > 0
                 ? e('p', { className: 'gp-waitlist-garden-line' },
                     t('waitlistGarden', waitlistLabelStr, formatUsd(currentMixStats.combinedMonthly))
@@ -2526,7 +2547,7 @@
                     if (!waitlistEmailEnteredRef.current) {
                       waitlistEmailEnteredRef.current = true;
                       if (typeof Analytics !== 'undefined') {
-                        Analytics.trackWaitlistEmailEntered({ goal: goal, persona: persona, archetype: archetype });
+                        Analytics.trackWaitlistEmailEntered({ goal: goal, persona: persona, archetype: archetype, pitchVariant: PITCH_VARIANT });
                       }
                     }
                     setWaitlistEmail(ev.target.value);
@@ -2661,7 +2682,7 @@
           setWaitlistOpen(true);
           waitlistEmailEnteredRef.current = false;
           if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype, source: source });
+            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype, source: source, pitchVariant: PITCH_VARIANT });
           }
         }
       }, t('ctaWaitlist')),
@@ -3563,7 +3584,7 @@
 
     useEffect(function () {
       if (quickWaitlistOpen && typeof Analytics !== 'undefined') {
-        Analytics.trackWaitlistOpened({ source: waitlistSrc });
+        Analytics.trackWaitlistOpened({ source: waitlistSrc, pitchVariant: PITCH_VARIANT });
       }
       // Runs once: quickWaitlistOpen's initial value and waitlistSrc are both
       // derived from urlParams, which is computed once (useMemo, [] deps).
@@ -3580,19 +3601,19 @@
       if (ev) ev.preventDefault();
       if (!quickWaitlistEmail.trim()) {
         if (typeof Analytics !== 'undefined') {
-          Analytics.trackWaitlistError({ reason: 'empty_email', source: waitlistSrc });
+          Analytics.trackWaitlistError({ reason: 'empty_email', source: waitlistSrc, pitchVariant: PITCH_VARIANT });
         }
         return;
       }
       if (!/^\S+@\S+\.\S+$/.test(quickWaitlistEmail)) {
         if (typeof Analytics !== 'undefined') {
-          Analytics.trackWaitlistError({ reason: 'invalid_email', source: waitlistSrc });
+          Analytics.trackWaitlistError({ reason: 'invalid_email', source: waitlistSrc, pitchVariant: PITCH_VARIANT });
         }
         return;
       }
       setQuickWaitlistStatus('submitting');
       if (typeof Analytics !== 'undefined') {
-        Analytics.trackWaitlistSubmitAttempt({ source: waitlistSrc });
+        Analytics.trackWaitlistSubmitAttempt({ source: waitlistSrc, pitchVariant: PITCH_VARIANT });
       }
       var payload = {
         email: quickWaitlistEmail,
@@ -3608,20 +3629,20 @@
           setQuickWaitlistStep(2);
           setQuickWaitlistStatus('idle');
           if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: true });
+            Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: true, pitchVariant: PITCH_VARIANT });
           }
         } else {
           setQuickWaitlistStatus('error');
           if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistError({ reason: 'formspree_error', source: waitlistSrc });
-            Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: false });
+            Analytics.trackWaitlistError({ reason: 'formspree_error', source: waitlistSrc, pitchVariant: PITCH_VARIANT });
+            Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: false, pitchVariant: PITCH_VARIANT });
           }
         }
       }).catch(function () {
         setQuickWaitlistStatus('error');
         if (typeof Analytics !== 'undefined') {
-          Analytics.trackWaitlistError({ reason: 'network', source: waitlistSrc });
-          Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: false });
+          Analytics.trackWaitlistError({ reason: 'network', source: waitlistSrc, pitchVariant: PITCH_VARIANT });
+          Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: false, pitchVariant: PITCH_VARIANT });
         }
       });
     }
@@ -3632,7 +3653,7 @@
       onClick: function (ev) { if (ev.target === ev.currentTarget) setQuickWaitlistOpen(false); },
       role: 'dialog',
       'aria-modal': 'true',
-      'aria-label': t('waitlistTitle')
+      'aria-label': t(pitchKey('waitlistTitle'))
     },
       e('div', { className: 'gp-waitlist-card' },
         e('button', {
@@ -3644,10 +3665,10 @@
         quickWaitlistStep === 1
           ? e('div', { className: 'gp-waitlist-body' },
               e('div', { className: 'gp-waitlist-step-row' },
-                e('h2', { className: 'gp-waitlist-title' }, t('waitlistTitle')),
+                e('h2', { className: 'gp-waitlist-title' }, t(pitchKey('waitlistTitle'))),
                 e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 1))
               ),
-              e('p', { className: 'gp-waitlist-benefits' }, t('waitlistBenefits')),
+              e('p', { className: 'gp-waitlist-benefits' }, t(pitchKey('waitlistBenefits'))),
               e('form', { className: 'gp-waitlist-form', onSubmit: submitQuickWaitlist },
                 e('input', {
                   type: 'email',
@@ -3660,7 +3681,7 @@
                     if (!quickWaitlistEmailEnteredRef.current) {
                       quickWaitlistEmailEnteredRef.current = true;
                       if (typeof Analytics !== 'undefined') {
-                        Analytics.trackWaitlistEmailEntered({ source: waitlistSrc });
+                        Analytics.trackWaitlistEmailEntered({ source: waitlistSrc, pitchVariant: PITCH_VARIANT });
                       }
                     }
                     setQuickWaitlistEmail(ev.target.value);

@@ -465,6 +465,10 @@ const translations = {
       // Waitlist modal — step 1
       waitlistTitle: "Get early access to the card",
       waitlistBenefits: "Join early access — once it's ready, your garden's yield pays your subscription automatically through a simple card. Your money always stays yours; no wallet or crypto experience needed to sign up.",
+      waitlistTitleB: "Your subscriptions, paid by your yield",
+      waitlistBenefitsB: "Pay a subscription the normal way and the money's gone. We're building a card that pays it from your garden's yield instead — the deposit stays yours the whole time. It doesn't exist yet: join the waitlist and we'll email you the moment it's ready. No wallet or crypto experience needed to sign up.",
+      waitlistTitleC: "Yield pays the bill — the money stays yours",
+      waitlistBenefitsC: "We're building a card that pays your subscription straight from your garden's yield. The deposit itself is never spent, and you can withdraw it anytime. The card isn't live yet — join the waitlist and you're first in line when it is. No wallet or crypto experience needed to sign up.",
       waitlistGarden: (labels, monthly) => `Your garden already covers ${labels} — a card funded by ≈${monthly}/mo of yield could pay it forever.`,
       waitlistJoin: "Save my spot",
       waitlistEmailPlaceholder: "your@email.com",
@@ -1032,6 +1036,10 @@ const translations = {
       // Waitlist modal — step 1
       waitlistTitle: "카드 얼리 액세스 신청하기",
       waitlistBenefits: "얼리 액세스에 가입하는 거예요 — 준비되면 내 정원의 수익으로 구독료가 자동 결제되는 카드를 받게 돼요. 예치금은 항상 내 소유이고, 가입에 지갑이나 크립토 경험은 필요 없어요.",
+      waitlistTitleB: "구독료, 내 수익이 대신 내줘요",
+      waitlistBenefitsB: "구독료를 그냥 내면 돈은 사라져요. 우리가 만들고 있는 카드는 내 정원의 수익으로 구독료를 대신 내줘요 — 예치금은 그대로 내 것이고요. 아직 출시 전이에요. 웨이트리스트에 등록하면 준비되는 순간 이메일로 알려드려요. 가입에 지갑이나 크립토 경험은 필요 없어요.",
+      waitlistTitleC: "수익이 결제하고, 원금은 내 것",
+      waitlistBenefitsC: "내 정원의 수익으로 구독료를 바로 결제해주는 카드를 만들고 있어요. 예치금 자체는 절대 쓰이지 않고, 언제든 출금할 수 있어요. 카드는 아직 출시 전이에요 — 웨이트리스트에 등록하면 준비되는 대로 가장 먼저 알려드려요. 가입에 지갑이나 크립토 경험은 필요 없어요.",
       waitlistGarden: (labels, monthly) => `내 정원은 이미 ${labels}를 커버해요 — 월 ≈${monthly}의 수익으로 결제되는 카드가 영구히 대신 내줄 수 있어요.`,
       waitlistJoin: "자리 확보",
       waitlistEmailPlaceholder: "이메일@주소.com",

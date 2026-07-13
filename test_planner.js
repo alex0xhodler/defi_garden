@@ -1148,6 +1148,50 @@ test('EN waitlistJumpLine does not contain fake urgency ("jump the line")', func
   assert.ok(jl.length > 5, 'jump line should not be empty: ' + jl);
 });
 
+// --- Spec 065: pitch-variant copy (B/C) holds the same ICP rails as A ---
+['B', 'C'].forEach(function (V) {
+  const titleKey = 'waitlistTitle' + V;
+  const benefitsKey = 'waitlistBenefits' + V;
+
+  test('EN ' + titleKey + ' present, non-empty, distinct from base title', function () {
+    const t2 = tEn(titleKey);
+    assert.ok(typeof t2 === 'string' && t2.length > 3, 'title should be a non-empty string: ' + t2);
+    assert.ok(t2 !== tEn('waitlistTitle'), titleKey + ' should differ from base waitlistTitle: ' + t2);
+  });
+
+  test('EN ' + benefitsKey + ' has no jargon ("self-custody", "hold the keys", "disposable card", "save up", "afford", "budget")', function () {
+    const b = tEn(benefitsKey).toLowerCase();
+    ['self-custody', 'hold the keys', 'disposable card', 'save up', 'afford', 'budget'].forEach(function (banned) {
+      assert.ok(!b.includes(banned), benefitsKey + ' should not say "' + banned + '": ' + b);
+    });
+  });
+
+  test('EN ' + benefitsKey + ' states the card does not exist yet + waitlist/email honesty (no fake availability)', function () {
+    const b = tEn(benefitsKey).toLowerCase();
+    assert.ok(b.includes("doesn't exist yet") || b.includes("isn't live yet") || b.includes('not live yet'),
+      benefitsKey + ' must say the card does not exist / is not live yet: ' + b);
+    assert.ok(b.includes('waitlist'), benefitsKey + ' must reference the waitlist: ' + b);
+  });
+
+  test('KO ' + titleKey + ' present, non-empty, distinct from base title', function () {
+    const t2 = tKo(titleKey);
+    assert.ok(typeof t2 === 'string' && t2.length > 2, 'KO title should be a non-empty string: ' + t2);
+    assert.ok(t2 !== tKo('waitlistTitle'), 'KO ' + titleKey + ' should differ from base waitlistTitle: ' + t2);
+  });
+
+  test('KO ' + benefitsKey + ' has no jargon ("셀프 커스터디", "일회용 카드")', function () {
+    const b = tKo(benefitsKey);
+    assert.ok(!b.includes('셀프 커스터디'), 'KO ' + benefitsKey + ' should not say 셀프 커스터디: ' + b);
+    assert.ok(!b.includes('일회용 카드'), 'KO ' + benefitsKey + ' should not say 일회용 카드: ' + b);
+  });
+
+  test('KO ' + benefitsKey + ' states the card is not out yet + waitlist honesty (출시 전 + 웨이트리스트)', function () {
+    const b = tKo(benefitsKey);
+    assert.ok(b.includes('출시 전'), 'KO ' + benefitsKey + ' must say 출시 전 (not released yet): ' + b);
+    assert.ok(b.includes('웨이트리스트'), 'KO ' + benefitsKey + ' must reference 웨이트리스트: ' + b);
+  });
+});
+
 // ---------------------------------------------------------------------------
 // translations — personaProj and monthlyChipHint keys (Proposals 3 & 4)
 // ---------------------------------------------------------------------------
