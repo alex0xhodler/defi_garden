@@ -505,6 +505,13 @@ test('waitlist block uses the neuro token system only, no hardcoded hex colors, 
   assert.ok(html.includes(styleBlock), 'waitlist style block missing from the rendered page <style>');
   assert.ok(html.match(/<a class="tp-cta" href="\/plan\.html\?waitlist=1/), 'CTA link must reuse the existing .tp-cta button style');
 });
+test('waitlist pitch line escapes a malicious token symbol (cannot inject markup)', () => {
+  const evil = gen.renderTokenPage({ symbol: '<script>alert(1)</script>', slug: 'evil', qualifyingCount: 1,
+    totalTvl: 2e7, pools: [{ project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] });
+  const waitlistDiv = evil.match(/<div class="tp-waitlist">[\s\S]*?<\/div>/)[0];
+  assert.ok(!waitlistDiv.includes('<script>alert(1)</script>'), 'unescaped symbol leaked into the waitlist pitch');
+  assert.ok(waitlistDiv.includes('&lt;script&gt;'), 'expected escaped symbol in the waitlist pitch');
+});
 test('every generated token page (en + ko) renders the waitlist CTA', () => {
   ranked.forEach(rec => {
     const enHtml = gen.renderTokenPage(rec, [], '2026-07-12', [], 'en');

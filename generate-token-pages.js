@@ -303,7 +303,7 @@ function renderLinkNavHtml(items, ariaLabel, heading, extraNavClass) {
 function renderWaitlistCtaHtml(pitch, cssPrefix, source, t) {
   return `    <div class="${cssPrefix}-waitlist">
       <h2>${escapeHtml(t('tcpWaitlistHeading'))}</h2>
-      <p>${pitch}</p>
+      <p>${escapeHtml(pitch)}</p>
       <a class="${cssPrefix}-cta" href="/plan.html?waitlist=1&amp;src=${encodeURIComponent(source)}">${escapeHtml(t('tcpWaitlistCta'))}</a>
       <p class="${cssPrefix}-waitlist-micro">${escapeHtml(t('tcpWaitlistMicro'))}</p>
     </div>\n`;

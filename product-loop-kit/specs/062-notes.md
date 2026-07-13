@@ -87,6 +87,22 @@ entries before the real lib loads) rather than needing the real lib to load
 — sidesteps the network dependency for the assertion entirely, not just the
 page load.
 
+## Fix after verifier review
+The verifier caught a real, reproducible defect: `renderWaitlistCtaHtml`'s
+`pitch` argument (the token/chain-specific line built from `t('tcpWaitlistPitchToken'|'tcpWaitlistPitchChain', rec.symbol|rec.chain)`)
+was interpolated into the page unescaped, unlike every other interpolation
+in these two files (`escapeHtml(rec.symbol)`, `escapeHtml(t('tcpTokenHeading', rec.symbol))`,
+etc.). Token symbols are constrained by `TOKEN_REGEX`, but chain names have
+no equivalent character-safety regex and flow straight from the live
+DefiLlama `/pools` API's `chain` field — external data — into HTML on a
+public SEO surface. Fixed by wrapping the interpolation with `escapeHtml(pitch)`
+in `renderWaitlistCtaHtml` (generate-token-pages.js), matching the function's
+own pattern for the heading/CTA/micro lines. Added a dedicated regression
+test to both `test_token_pages.js` and `test_chain_pages.js` ("waitlist pitch
+line escapes a malicious token symbol / chain name") asserting a `<script>`
+payload in `rec.symbol`/`rec.chain` renders escaped inside the waitlist div,
+not raw.
+
 ## Verification run
 - `node test_planner.js && node test_protocol_parsing.js && node test_qualifier_fix.js` (NORTH_STAR's canonical set): PASS
 - `node test_compiled_assets.js`, `node test_minified_assets.js`: PASS (planner.min.js/translations.min.js regenerated via `npm run minify`)

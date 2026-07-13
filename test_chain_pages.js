@@ -451,6 +451,13 @@ test('waitlist block uses the neuro token system only, no hardcoded hex colors, 
   assert.ok(html.includes(styleBlock), 'waitlist style block missing from the rendered page <style>');
   assert.ok(html.match(/<a class="cp-cta" href="\/plan\.html\?waitlist=1/), 'CTA link must reuse the existing .cp-cta button style');
 });
+test('waitlist pitch line escapes a malicious chain name (cannot inject markup)', () => {
+  const evil = gen.renderChainPage({ chain: '<script>alert(1)</script>', slug: 'evil', qualifyingCount: 1,
+    totalTvl: 2e7, tokens: ['Y'], pools: [{ symbol: 'Y', project: 'aave', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] });
+  const waitlistDiv = evil.match(/<div class="cp-waitlist">[\s\S]*?<\/div>/)[0];
+  assert.ok(!waitlistDiv.includes('<script>alert(1)</script>'), 'unescaped chain name leaked into the waitlist pitch');
+  assert.ok(waitlistDiv.includes('&lt;script&gt;'), 'expected escaped chain name in the waitlist pitch');
+});
 test('every generated chain page (en + ko) renders the waitlist CTA', () => {
   ranked.forEach(rec => {
     const enHtml = gen.renderChainPage(rec, [], '2026-07-12', [], 'en');
