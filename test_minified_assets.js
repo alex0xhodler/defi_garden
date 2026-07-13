@@ -44,17 +44,23 @@ async function main() {
     assert.ok(homeHtml.includes('planner.min.js'), 'home.html does not load planner.min.js');
     assert.ok(homeHtml.includes("addScript('PoolDetail.compiled.min.js'"), 'home.html does not load PoolDetail.compiled.min.js');
     assert.ok(homeHtml.includes("addScript('app.compiled.min.js')"), 'home.html does not load app.compiled.min.js');
+    assert.ok(homeHtml.includes("addCSS('pool-detail-styles.min.css')"), 'home.html does not load pool-detail-styles.min.css');
+    assert.ok(homeHtml.includes("addCSS('planner-styles.min.css')"), 'home.html does not load planner-styles.min.css');
     assert.ok(!/href="style\.css"/.test(homeHtml), 'home.html still links raw style.css');
     assert.ok(!/src="translations\.js"/.test(homeHtml), 'home.html still loads raw translations.js');
     assert.ok(!/src="planner\.js"/.test(homeHtml), 'home.html still loads raw planner.js');
+    assert.ok(!/addCSS\('pool-detail-styles\.css'\)/.test(homeHtml), 'home.html still loads raw pool-detail-styles.css');
+    assert.ok(!/addCSS\('planner-styles\.css'\)/.test(homeHtml), 'home.html still loads raw planner-styles.css');
   });
-  await test('plan.html loads style.min.css, translations.min.js, planner.min.js', () => {
+  await test('plan.html loads style.min.css, translations.min.js, planner.min.js, planner-styles.min.css', () => {
     assert.ok(planHtml.includes('style.min.css'), 'plan.html does not load style.min.css');
     assert.ok(planHtml.includes('translations.min.js'), 'plan.html does not load translations.min.js');
     assert.ok(planHtml.includes('planner.min.js'), 'plan.html does not load planner.min.js');
+    assert.ok(planHtml.includes('planner-styles.min.css'), 'plan.html does not load planner-styles.min.css');
     assert.ok(!/href="style\.css"/.test(planHtml), 'plan.html still links raw style.css');
     assert.ok(!/src="translations\.js"/.test(planHtml), 'plan.html still loads raw translations.js');
     assert.ok(!/src="planner\.js"/.test(planHtml), 'plan.html still loads raw planner.js');
+    assert.ok(!/href="planner-styles\.css"/.test(planHtml), 'plan.html still links raw planner-styles.css');
   });
 
   console.log(`\n${passed} minified-asset assertions passed`);

@@ -18,7 +18,7 @@ const { minify: minifyJs } = require('terser');
 const CleanCSS = require('clean-css');
 
 const JS_FILES = ['app.compiled.js', 'PoolDetail.compiled.js', 'planner.js', 'translations.js'];
-const CSS_FILES = ['style.css'];
+const CSS_FILES = ['style.css', 'planner-styles.css', 'pool-detail-styles.css'];
 
 function minPath(file) {
   return file.replace(/\.(js|css)$/, '.min.$1');
