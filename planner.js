@@ -2422,26 +2422,6 @@
       );
     })() : null;
 
-    // CTA element (shared) — opens waitlist modal
-    var ctaElement = e('div', { className: 'gp-cta-row gp-animate-in' },
-      e('button', {
-        type: 'button',
-        className: 'gp-primary-cta',
-        onClick: function () {
-          setWaitlistStep(1);
-          setWaitlistStatus('idle');
-          setWaitlistOpen(true);
-          waitlistEmailEnteredRef.current = false;
-          if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype, source: source, pitchVariant: PITCH_VARIANT });
-          }
-        }
-      },
-        t('ctaWaitlist')
-      ),
-      e('p', { className: 'gp-cta-microcopy' }, t('ctaWaitlistMicro'))
-    );
-
     // Ask box element (shared)
     var askElement = e('div', { className: 'gp-ask gp-animate-in' },
       ask.q ? e('div', { className: 'gp-ask-thread' },
@@ -2686,6 +2666,7 @@
           }
         }
       }, t('ctaWaitlist')),
+      e('p', { className: 'gp-cta-microcopy' }, t('ctaWaitlistMicro')),
       e('div', { className: 'gp-checkout-trust' },
         e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustSelfCustody')),
         e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustYourKeys')),
