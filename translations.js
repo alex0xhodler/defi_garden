@@ -535,6 +535,10 @@ const translations = {
     // the SAME blended-rate/forever-number math the planner itself uses.
     tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
       `Your idle ${sym} could earn ~${apyStr} — park ${foreverAmtStr} and it could run a $${monthly}/mo ${subLabel} subscription, forever.`,
+    // Yield headline for chain pages (075) — same honest math, chain-scoped:
+    // a chain has no single token, so this frames it as "idle assets on <Chain>".
+    tcpYieldHeadlineChain: (chain, apyStr, foreverAmtStr, monthly, subLabel) =>
+      `Idle assets on ${chain} could earn ~${apyStr} — park ${foreverAmtStr} and it could run a $${monthly}/mo ${subLabel} subscription, forever.`,
     tcpWaitlistHeading: "Get early access to the card",
     tcpWaitlistCta: "Join the waitlist →",
     tcpWaitlistMicro: "Free to join • Card doesn't exist yet • We'll email you when it does",
@@ -1107,6 +1111,10 @@ const translations = {
     // the SAME blended-rate/forever-number math the planner itself uses.
     tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
       `유휴 ${sym}으로 약 ${apyStr}의 수익을 낼 수 있어요 — ${foreverAmtStr}를 예치하면 월 $${monthly} ${subLabel} 구독료를 영원히 낼 수 있어요.`,
+    // Yield headline for chain pages (075) — same honest math, chain-scoped:
+    // a chain has no single token, so this frames it as "idle assets on <Chain>".
+    tcpYieldHeadlineChain: (chain, apyStr, foreverAmtStr, monthly, subLabel) =>
+      `${chain}의 유휴 자산으로 약 ${apyStr}의 수익을 낼 수 있어요 — ${foreverAmtStr}를 예치하면 월 $${monthly} ${subLabel} 구독료를 영원히 낼 수 있어요.`,
     tcpWaitlistHeading: "카드 얼리 액세스 신청하기",
     tcpWaitlistCta: "대기자 명단에 등록 →",
     tcpWaitlistMicro: "무료 가입 • 카드는 아직 없어요 • 준비되면 이메일로 알려드려요",

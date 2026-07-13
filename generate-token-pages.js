@@ -362,11 +362,16 @@ function yieldHeadlineFor(rec, lang) {
 }
 
 /** Visible HTML for the yield headline, placed above the pool table (066).
- * Empty string when `headline` is null — a token with no honest blended
- * rate simply doesn't get this line, never a fabricated one. */
-function renderYieldHeadlineHtml(headline, sym, t) {
+ * Empty string when `headline` is null — a subject with no honest blended
+ * rate simply doesn't get this line, never a fabricated one.
+ * The trailing params (075) let the chain generator reuse this verbatim with
+ * its own css class + message key + subject (the chain name in place of the
+ * token symbol); omitting them preserves the exact token-page behavior. */
+function renderYieldHeadlineHtml(headline, subject, t, cssClass, msgKey) {
   if (!headline) return '';
-  return `    <p class="tp-yield-headline">${escapeHtml(t('tcpYieldHeadline', sym, headline.apyStr, headline.foreverAmtStr, headline.monthly, headline.subLabel))}</p>\n`;
+  const klass = cssClass || 'tp-yield-headline';
+  const key = msgKey || 'tcpYieldHeadline';
+  return `    <p class="${klass}">${escapeHtml(t(key, subject, headline.apyStr, headline.foreverAmtStr, headline.monthly, headline.subLabel))}</p>\n`;
 }
 
 /** Scoped CSS for renderWaitlistCtaHtml's block, appended to a page's

@@ -43,7 +43,8 @@ const {
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
-  renderWaitlistCtaHtml, renderWaitlistCtaStyle
+  renderWaitlistCtaHtml, renderWaitlistCtaStyle,
+  yieldHeadlineFor, renderYieldHeadlineHtml
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -189,6 +190,13 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
   const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, language);
   const answerBlock = renderAnswerBlockHtml(answer, 'cp-answer');
+
+  // Honest per-chain yield headline (075): reuses generate-token-pages.js's
+  // shared yieldHeadlineFor (median blend over the SAME trust-railed rec.pools,
+  // anchored to Claude Pro) — never the page's max-based bestApy. Null (median
+  // rounds to 0.00% / non-finite forever number) → renders nothing.
+  const yieldHeadlineBlock = renderYieldHeadlineHtml(
+    yieldHeadlineFor(rec, language), rec.chain, t, 'cp-yield-headline', 'tcpYieldHeadlineChain');
   const faqBlock = renderFaqBlockHtml(faq, 'cp-faq', language);
   const faqJsonLd = renderFaqJsonLd(faq);
 
@@ -285,6 +293,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
       .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-yield-headline { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); padding: 14px 18px; margin: 4px 0 18px; color: var(--color-text); font-weight: 600; line-height: 1.5; }
       .cp-faq { margin: 30px 0 8px; }
       .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
       .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
@@ -300,7 +309,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}
     <h1>${escapeHtml(t('tcpChainHeading', rec.chain))}</h1>
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount))}</p>
     <p class="intro">${intro}</p>
-    <a class="cp-cta" href="${appUrl}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
+${yieldHeadlineBlock}    <a class="cp-cta" href="${appUrl}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
     <div class="cp-card">
     <div class="scroll">
     <table>
