@@ -737,6 +737,7 @@ function App() {
   var [chainMode, setChainMode] = useState(false); // Track if we're in chain-first mode
   var [currentView, setCurrentView] = useState('search'); // 'search' or 'pool-detail'
   var [detailPool, setDetailPool] = useState(null); // Pool being viewed in detail
+  var [deadPoolParam, setDeadPoolParam] = useState(null); // ?pool=<id> present but not in live pools (spec 072)
   var urlDirectPoolViewFiredRef = useRef(null); // pool id already tracked as a url_direct landing, prevents double-fire vs card click
   var pendingNlSearchTrackRef = useRef(null); // NL-Enter search awaiting a real results_count once filteredPools settles
 
@@ -875,6 +876,11 @@ function App() {
         setCurrentView('search');
         setDetailPool(null);
       }
+
+      // No pool param on this URL -> clear any dead-pool empty state (spec 072)
+      if (!poolParam) {
+        setDeadPoolParam(null);
+      }
       var urlParams = getUrlParams();
 
       // Determine mode based on URL parameters
@@ -956,6 +962,7 @@ function App() {
         // Find the pool by ID
         var foundPool = pools.find(pool => pool.pool === urlParams.pool || `${pool.project}-${pool.symbol}-${pool.chain}` === decodeURIComponent(urlParams.pool));
         if (foundPool) {
+          setDeadPoolParam(null);
           setDetailPool(foundPool);
           setCurrentView('pool-detail');
           document.title = `${foundPool.symbol} on ${foundPool.project} | DeFi Garden 🌱`;
@@ -965,6 +972,10 @@ function App() {
               source: 'url_direct'
             });
           }
+        } else {
+          // ?pool=<id> present but absent from live pools — record the miss so the
+          // honest dead-pool empty state renders instead of the full homepage grid (spec 072).
+          setDeadPoolParam(urlParams.pool);
         }
       }
     }
@@ -1964,6 +1975,12 @@ function App() {
   // detail page incorrectly noindexed.
   var emptyStateResolved = currentView !== 'pool-detail' && pools.length > 0 && filteredPools.length === 0 && !!(selectedToken || chainMode && selectedChain);
 
+  // Dead ?pool=<id> deep link (spec 072): the id is absent from the live pools list.
+  // Same "never claim dead while loading / never while a real pool detail is open"
+  // rule as emptyStateResolved above — deadPoolParam is only ever set once
+  // pools.length > 0 and a foundPool lookup missed.
+  var deadPoolResolved = currentView !== 'pool-detail' && pools.length > 0 && !!deadPoolParam;
+
   // Up to 5 live alternatives for the honest empty state: top-TVL pools on the
   // same chain first, else top-TVL stablecoin pools. Always drawn from `pools`
   // already in memory (no new network call) and always passing the same trust
@@ -1991,6 +2008,14 @@ function App() {
     source: 'stable'
   }, [emptyStateResolved, selectedChain, pools]);
 
+  // Alternatives for the dead-pool empty state (spec 072): no target chain is
+  // known (the id is gone), so this always resolves to top-TVL stablecoin pools
+  // through the identical trust rails as emptyAlternatives above.
+  var deadPoolAlternatives = useMemo(() => deadPoolResolved ? getEmptyStateAlternatives(null) : {
+    items: [],
+    source: 'stable'
+  }, [deadPoolResolved, pools]);
+
   // Zero-pool resolved query -> inject a client noindex; any non-empty query,
   // or no active query at all, removes it. Idempotent by construction: this
   // always finds-or-creates the SAME node (never appends a second one), so
@@ -1999,7 +2024,7 @@ function App() {
   // create-if-missing only guards against that tag ever being removed upstream.
   useEffect(() => {
     var robotsMeta = document.querySelector('meta[name="robots"]');
-    if (emptyStateResolved) {
+    if (emptyStateResolved || deadPoolResolved) {
       if (!robotsMeta) {
         robotsMeta = document.createElement('meta');
         robotsMeta.setAttribute('name', 'robots');
@@ -2011,7 +2036,7 @@ function App() {
     } else if (robotsMeta && robotsMeta.getAttribute('content') === 'noindex') {
       robotsMeta.setAttribute('content', 'index, follow');
     }
-  }, [emptyStateResolved]);
+  }, [emptyStateResolved, deadPoolResolved]);
   // --- End honest empty states (spec 012) ------------------------------------
 
   // Pinned en-US formatters — prevent OS-locale rendering differences
@@ -2620,9 +2645,9 @@ function App() {
     className: 'error-message'
   }, error)),
   // Results Section - show for both token mode and chain mode
-  (selectedToken || chainMode && selectedChain) && React.createElement('div', {
+  (selectedToken || chainMode && selectedChain || deadPoolResolved) && React.createElement('div', {
     className: 'results-section animate-on-mount'
-  }, filteredPools.length > 0 ? [React.createElement('div', {
+  }, filteredPools.length > 0 && !deadPoolResolved ? [React.createElement('div', {
     className: 'results-header',
     key: 'header'
   }, React.createElement('div', {
@@ -2683,21 +2708,29 @@ function App() {
     className: 'empty-state'
   }, React.createElement('div', {
     className: 'empty-message'
-  }, chainMode && selectedChain && !selectedToken ? t('noYieldsFoundChain', selectedChain) : t('noYieldsFound', selectedToken)), React.createElement('div', {
+  }, deadPoolResolved ? t('poolNotFoundTitle') : chainMode && selectedChain && !selectedToken ? t('noYieldsFoundChain', selectedChain) : t('noYieldsFound', selectedToken)), React.createElement('div', {
     className: 'empty-submessage'
-  }, chainMode && selectedChain && !selectedToken ? t('adjustFiltersChain') : t('adjustFilters')),
+  }, deadPoolResolved ? t('poolNotFoundExplanation') : chainMode && selectedChain && !selectedToken ? t('adjustFiltersChain') : t('adjustFilters')),
   // Honest empty state (spec 012) — only once the pools fetch has
   // actually resolved (emptyStateResolved), never during the
   // pre-fetch flash, when claiming "no live pools" would be false.
-  emptyStateResolved && React.createElement('div', {
+  !deadPoolResolved && emptyStateResolved && React.createElement('div', {
     className: 'empty-submessage'
-  }, chainMode && selectedChain && !selectedToken ? t('emptyStateExplanationChain', selectedChain) : t('emptyStateExplanation', selectedToken)), emptyStateResolved && emptyAlternatives.items.length > 0 && React.createElement('div', {
+  }, chainMode && selectedChain && !selectedToken ? t('emptyStateExplanationChain', selectedChain) : t('emptyStateExplanation', selectedToken)), !deadPoolResolved && emptyStateResolved && emptyAlternatives.items.length > 0 && React.createElement('div', {
     className: 'empty-state-alternatives'
   }, React.createElement('div', {
     className: 'empty-submessage'
   }, emptyAlternatives.source === 'chain' ? t('emptyStateAltHeadingChain', selectedChain) : t('emptyStateAltHeadingStable')), React.createElement('div', {
     className: 'pools-grid'
-  }, emptyAlternatives.items.map((pool, index) => renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50)))), minTvl > 0 && React.createElement('button', {
+  }, emptyAlternatives.items.map((pool, index) => renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50)))),
+  // Dead-pool alternatives (spec 072): top-TVL stablecoin pools via the same trust rails.
+  deadPoolResolved && deadPoolAlternatives.items.length > 0 && React.createElement('div', {
+    className: 'empty-state-alternatives'
+  }, React.createElement('div', {
+    className: 'empty-submessage'
+  }, t('emptyStateAltHeadingStable')), React.createElement('div', {
+    className: 'pools-grid'
+  }, deadPoolAlternatives.items.map((pool, index) => renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50)))), minTvl > 0 && React.createElement('button', {
     className: 'reset-filters-btn',
     onClick: () => handleTvlSelect(0)
   }, t('showSmallerPools')), React.createElement('button', {
