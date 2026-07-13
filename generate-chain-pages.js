@@ -42,7 +42,8 @@ const {
   poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
-  categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH
+  categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
+  renderWaitlistCtaHtml, renderWaitlistCtaStyle
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -212,6 +213,9 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: c.url }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
 
+  // Waitlist CTA (062): the only path from this page into the card funnel.
+  const waitlistBlock = renderWaitlistCtaHtml(t('tcpWaitlistPitchChain', rec.chain), 'cp', 'seo_chain', t);
+
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
     // urlParams.pool). Falls back to this chain's app view if no id. Shared
@@ -288,7 +292,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
       .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
-    </style>
+${renderWaitlistCtaStyle('cp')}    </style>
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}`, { page_type: 'chain_landing', chain: rec.chain, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>
@@ -309,7 +313,7 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
 ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>

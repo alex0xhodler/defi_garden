@@ -336,7 +336,8 @@ const Analytics = {
     this.track('waitlist_opened', {
       goal: context.goal || null,
       persona: context.persona || null,
-      archetype: context.archetype || null
+      archetype: context.archetype || null,
+      source: context.source || null
     });
   },
 
@@ -345,7 +346,8 @@ const Analytics = {
       goal: context.goal || null,
       persona: context.persona || null,
       archetype: context.archetype || null,
-      success: !!context.success
+      success: !!context.success,
+      source: context.source || null
     });
   },
 

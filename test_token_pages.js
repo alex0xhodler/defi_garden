@@ -482,4 +482,44 @@ test('043 folded in: category leg present without a separate 043 build', () => {
   assert.ok(gen.categoryLinksFor(bySym['BIG'].pools, 'https://www.defi.garden/?token=BIG').length > 0);
 });
 
+console.log('062 — waitlist CTA (the missing SEO -> north-star bridge)');
+test('renders exactly one waitlist CTA, deep-linking into plan.html with source=seo_token', () => {
+  const matches = html.match(/href="\/plan\.html\?waitlist=1&amp;src=seo_token"/g) || [];
+  assert.strictEqual(matches.length, 1, 'expected exactly one waitlist CTA link');
+});
+test('CTA copy is honest — reuses the app\'s existing disclosure copy verbatim, no new hype string', () => {
+  assert.ok(html.includes('Join the waitlist →'), 'missing tcpWaitlistCta copy');
+  assert.ok(html.includes('Free to join') && html.includes('exist yet') && html.includes("We&#39;ll email you when it does"),
+    'missing tcpWaitlistMicro honest-disclosure copy');
+});
+test('pitch line is token-specific (dataset content, not a fixed template)', () => {
+  assert.ok(html.includes('A card that spends your BIG yield'), 'missing BIG-specific pitch');
+  const midHtml2 = gen.renderTokenPage(bySym['MID']);
+  assert.ok(midHtml2.includes('A card that spends your MID yield'), 'missing MID-specific pitch');
+});
+test('waitlist block uses the neuro token system only, no hardcoded hex colors, reuses .tp-cta', () => {
+  const styleBlock = gen.renderWaitlistCtaStyle('tp');
+  assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'hardcoded hex color in the waitlist CTA style block');
+  assert.ok(styleBlock.includes('var(--neuro-shadow-raised)') && styleBlock.includes('.tp-cta'),
+    'must reuse existing neuro tokens/button style');
+  assert.ok(html.includes(styleBlock), 'waitlist style block missing from the rendered page <style>');
+  assert.ok(html.match(/<a class="tp-cta" href="\/plan\.html\?waitlist=1/), 'CTA link must reuse the existing .tp-cta button style');
+});
+test('waitlist pitch line escapes a malicious token symbol (cannot inject markup)', () => {
+  const evil = gen.renderTokenPage({ symbol: '<script>alert(1)</script>', slug: 'evil', qualifyingCount: 1,
+    totalTvl: 2e7, pools: [{ project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] });
+  const waitlistDiv = evil.match(/<div class="tp-waitlist">[\s\S]*?<\/div>/)[0];
+  assert.ok(!waitlistDiv.includes('<script>alert(1)</script>'), 'unescaped symbol leaked into the waitlist pitch');
+  assert.ok(waitlistDiv.includes('&lt;script&gt;'), 'expected escaped symbol in the waitlist pitch');
+});
+test('every generated token page (en + ko) renders the waitlist CTA', () => {
+  ranked.forEach(rec => {
+    const enHtml = gen.renderTokenPage(rec, [], '2026-07-12', [], 'en');
+    const koHtml = gen.renderTokenPage(rec, [], '2026-07-12', [], 'ko');
+    assert.ok(enHtml.includes('src=seo_token'), `EN page missing waitlist CTA for ${rec.symbol}`);
+    assert.ok(koHtml.includes('src=seo_token'), `KO page missing waitlist CTA for ${rec.symbol}`);
+    assert.ok(koHtml.includes('대기자 명단'), `KO page waitlist pitch not translated for ${rec.symbol}`); // "waitlist" in Korean
+  });
+});
+
 console.log(`\n${passed} assertions passed`);

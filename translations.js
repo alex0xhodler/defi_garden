@@ -517,6 +517,15 @@ const translations = {
     tcpSubLine: (count) => `${count} live ${count === 1 ? 'pool' : 'pools'} above the $100K TVL floor · ranked by TVL`,
     tcpTokenCta: (sym) => `See live ${sym} pools →`,
     tcpChainCta: (chain) => `See live pools on ${chain} →`,
+    // Waitlist CTA (062) — flat top-level keys (like every other tcp* string)
+    // so the Node generators' createTranslationFunction can reach them; the
+    // client app's own waitlistTitle/ctaWaitlist/ctaWaitlistMicro live under
+    // the nested `planner` key instead and use identical copy on purpose.
+    tcpWaitlistPitchToken: (sym) => `A card that spends your ${sym} yield — never your ${sym} itself. Join the waitlist and be first when it's ready.`,
+    tcpWaitlistPitchChain: (chain) => `A card that spends the yield from your ${chain} positions — never the principal. Join the waitlist and be first when it's ready.`,
+    tcpWaitlistHeading: "Get early access to the card",
+    tcpWaitlistCta: "Join the waitlist →",
+    tcpWaitlistMicro: "Free to join • Card doesn't exist yet • We'll email you when it does",
     tcpColProtocol: "Protocol",
     tcpColChain: "Chain",
     tcpColToken: "Token",
@@ -1072,6 +1081,11 @@ const translations = {
     tcpSubLine: (count) => `$100K TVL 기준을 넘는 실시간 풀 ${count}개 · TVL 순 정렬`,
     tcpTokenCta: (sym) => `${sym} 실시간 풀 보기 →`,
     tcpChainCta: (chain) => `${chain}의 실시간 풀 보기 →`,
+    tcpWaitlistPitchToken: (sym) => `내 ${sym} 수익으로 결제되는 카드예요 — ${sym} 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.`,
+    tcpWaitlistPitchChain: (chain) => `${chain} 포지션의 수익으로 결제되는 카드예요 — 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.`,
+    tcpWaitlistHeading: "카드 얼리 액세스 신청하기",
+    tcpWaitlistCta: "대기자 명단에 등록 →",
+    tcpWaitlistMicro: "무료 가입 • 카드는 아직 없어요 • 준비되면 이메일로 알려드려요",
     tcpColProtocol: "프로토콜",
     tcpColChain: "체인",
     tcpColToken: "토큰",
