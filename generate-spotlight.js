@@ -251,21 +251,34 @@ function buildShareUrl({ goal, monthly, persona, chain, token, ref }) {
 }
 
 // --- Tweet draft + Canva fields ----------------------------------------------
-function buildTweetDraft({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, monthly, shareUrl, project }) {
+// The funding claim ("runs a $X/mo sub, forever") is a forever-number claim,
+// so for the degen persona it MUST state the ⅓ haircut plainly — the same
+// honesty stance the live planner's degenHaircutNote takes (CLAUDE.md
+// degen-honesty rail: "projects at a ⅓ haircut of headline APY AND says so").
+// Stable/rwa personas get no haircut, so their funding line is byte-identical
+// to the pre-069 output.
+function buildTweetDraft({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, monthly, shareUrl, project, persona }) {
+  const fundingLine = persona === 'degen'
+    ? `Projected at ⅓ of today's rate (farm rates decay), that still runs a $${monthly}/mo ${goalLabelText} sub, forever.\n\n`
+    : `Parked here, that's enough to run a $${monthly}/mo ${goalLabelText} sub, forever.\n\n`;
   return (
     `${protocolLabel} is paying ${apyStr} on ${poolSymbol} (${chain}) — ${tvlStr} TVL.\n` +
-    `Parked here, that's enough to run a $${monthly}/mo ${goalLabelText} sub, forever.\n\n` +
+    fundingLine +
     `See the garden → ${shareUrl}\n\n` +
     `@${project} (confirm handle before posting — not verified by this script)`
   );
 }
 
-function buildCanvaFields({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, shareUrl, tweetDraft, foreverAmtStr }) {
+function buildCanvaFields({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, shareUrl, tweetDraft, foreverAmtStr, effectiveApyStr }) {
   return {
     protocolName: protocolLabel,
     poolSymbol: poolSymbol,
     chain: chain,
     apy: apyStr,
+    // 069: the projection basis — identical to `apy` for stable/rwa, the ⅓
+    // haircut rate for degen. `apy` stays the HEADLINE live fact; this is
+    // the rate every forever-number in the pack is actually computed at.
+    effectiveApy: effectiveApyStr,
     tvl: tvlStr,
     goalLabel: goalLabelText,
     shareUrl: shareUrl,
@@ -293,7 +306,7 @@ function roundRectPath(ctx, x, y, w, h, r) {
   ctx.closePath();
 }
 
-function renderSpotlightCard({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, monthly }) {
+function renderSpotlightCard({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, monthly, persona, effectiveApyStr }) {
   const canvas = createCanvas(CARD_W, CARD_H);
   const ctx = canvas.getContext('2d');
 
@@ -338,14 +351,29 @@ function renderSpotlightCard({ protocolLabel, poolSymbol, chain, apyStr, tvlStr,
   ctx.font = '700 78px sans-serif';
   ctx.fillText(apyStr, left, pad + 340);
 
+  // 069 degen-honesty: the headline "Live APY" IS the live rate, but every
+  // forever-number in this pack is projected at the ⅓ haircut — one small
+  // caveat line (existing secondary text style, no new colors/glyphs) so the
+  // card never implies the headline rate is the projection basis. Only for
+  // degen; stable/rwa cards render byte-identically to the pre-069 layout.
+  let yTvl = pad + 385;
+  let yFraming = pad + 440;
+  if (persona === 'degen' && effectiveApyStr) {
+    ctx.fillStyle = COLORS.textSecondary;
+    ctx.font = '500 26px sans-serif';
+    ctx.fillText(`projected at ${effectiveApyStr} (⅓ of today's rate)`, left, pad + 378);
+    yTvl = pad + 420;
+    yFraming = pad + 475;
+  }
+
   ctx.fillStyle = COLORS.textSecondary;
   ctx.font = '500 26px sans-serif';
-  ctx.fillText(`${tvlStr} TVL tracked`, left, pad + 385);
+  ctx.fillText(`${tvlStr} TVL tracked`, left, yTvl);
 
   ctx.fillStyle = COLORS.text;
   ctx.font = '600 30px sans-serif';
   const framing = `→ funds a $${monthly}/mo ${goalLabelText} sub`;
-  ctx.fillText(framing, left, pad + 440);
+  ctx.fillText(framing, left, yFraming);
 
   ctx.fillStyle = COLORS.textSecondary;
   ctx.font = '500 26px sans-serif';
@@ -362,6 +390,13 @@ function buildPack(pool, { goalId, lang } = {}) {
   const protocolLabel = formatProjectName(pool.project);
   const apy = poolTotalApy(pool);
   const apyStr = formatApy(apy);
+  // 069 degen-honesty: the projection basis for every forever-number in the
+  // pack. Mirror of planner.js:657 (effectiveApy) / planner.js:1354-1357,
+  // keyed on this script's own classifyPersona result — the degen band is the
+  // one the planner tags degenHaircut, so `persona === 'degen'` reproduces
+  // the identical ÷3 rule. Headline `apy`/`apyStr` stay the live fact.
+  const effApy = persona === 'degen' ? apy / 3 : apy;
+  const effectiveApyStr = formatApy(effApy);
   const tvlStr = formatUsd(pool.tvlUsd);
   const monthly = goalDef.target;
   // Stable per-pool ref: same slug used for the output directory (slug),
@@ -371,8 +406,11 @@ function buildPack(pool, { goalId, lang } = {}) {
 
   // 066: capital this pool's own APY would need to run the pack's goal
   // subscription forever — SAME gp.foreverNumber math the token-page yield
-  // headline uses. null (never "$∞" or a fabricated figure) when apy <= 0.
-  const foreverAmt = foreverNumber(monthly, apy);
+  // headline uses. 069: computed at the haircut-applied `effApy` so a degen
+  // pack's claimed figure matches what its own linked garden renders (the
+  // planner haircuts before calling foreverNumber). null (never "$∞" or a
+  // fabricated figure) when the effective APY <= 0.
+  const foreverAmt = foreverNumber(monthly, effApy);
   const foreverAmtStr = (isFinite(foreverAmt) && foreverAmt > 0) ? formatUsd(foreverAmt) : null;
 
   const shareUrl = buildShareUrl({
@@ -380,10 +418,10 @@ function buildPack(pool, { goalId, lang } = {}) {
   });
   const tweetDraft = buildTweetDraft({
     protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr,
-    goalLabelText: goalLabel, monthly, shareUrl, project: pool.project
+    goalLabelText: goalLabel, monthly, shareUrl, project: pool.project, persona
   });
   const canvaFields = buildCanvaFields({
-    protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr, goalLabelText: goalLabel, shareUrl, tweetDraft, foreverAmtStr
+    protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr, goalLabelText: goalLabel, shareUrl, tweetDraft, foreverAmtStr, effectiveApyStr
   });
 
   return {
@@ -396,6 +434,8 @@ function buildPack(pool, { goalId, lang } = {}) {
     token: pool.symbol,
     apy: apy,
     apyStr: apyStr,
+    effectiveApy: effApy,
+    effectiveApyStr: effectiveApyStr,
     tvl: pool.tvlUsd,
     tvlStr: tvlStr,
     goal: goalDef.id,
@@ -533,7 +573,8 @@ async function main() {
 
   const cardBuf = renderSpotlightCard({
     protocolLabel: pack.protocolLabel, poolSymbol: pack.poolSymbol, chain: pack.chain,
-    apyStr: pack.apyStr, tvlStr: pack.tvlStr, goalLabelText: pack.goalLabel, monthly: pack.monthly
+    apyStr: pack.apyStr, tvlStr: pack.tvlStr, goalLabelText: pack.goalLabel, monthly: pack.monthly,
+    persona: pack.persona, effectiveApyStr: pack.effectiveApyStr
   });
   fs.writeFileSync(path.join(outDir, 'card.png'), cardBuf);
   fs.writeFileSync(path.join(outDir, 'pack.json'), JSON.stringify(pack, null, 2));
