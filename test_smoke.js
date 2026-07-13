@@ -9,6 +9,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
 
 const PORT = 8791;
@@ -22,9 +23,63 @@ const MIME = {
   '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2',
   '.png': 'image/png', '.txt': 'text/plain', '.xml': 'application/xml'
 };
-// Errors from these are ignorable per CLAUDE.md ("external font/analytics
-// fetch failures are ignorable locally; page errors are not").
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel/i;
+// Matched against the failing resource's own URL (msg.location().url), not
+// msg.text() — Chromium's "Failed to load resource" text never includes the
+// URL itself (exact test_search.js technique + comment). Each entry is an
+// observed-firing, non-critical external fetch that degrades gracefully, so
+// per CLAUDE.md ("external font/analytics fetches fail locally; page errors
+// are not") it must not fail the gate — genuine page errors and any other
+// console error still do:
+//   - mp.defi.garden / cdn.mxpnl.com / mixpanel — analytics (fire-and-forget)
+//   - api.llama.fi/protocols            — app.js protocol-name cache, fails silently
+//   - fontshare.com                     — style.css @import web font
+//   - www.google.com/s2/favicons        — planner brand favicons (aria-hidden,
+//                                          onError falls back to emoji)
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com|www\.google\.com\/s2\/favicons/i;
+
+// yields.llama.fi is blocked at the proxy for browser-originated HTTPS in
+// cloud-loop sandboxes (NORTH_STAR standing decision 2026-07-12) while curl —
+// which honors HTTPS_PROXY — still reaches it. So we route the pools fetch on
+// every page and fulfill it with a live snapshot (captured once via curl when
+// reachable) or a DefiLlama-shaped fixture otherwise. test_search.js precedent.
+const POOLS_URL = 'https://yields.llama.fi/pools';
+
+// --- DefiLlama-shaped fixture (fallback only) ----------------------------
+// Inline (spec 077 §3 builder's choice — test_search.js keeps its own fixture
+// too; requiring it is impossible here since it runs main() at require time).
+// USDC pools sized well above the $10M DEFAULT_MIN_TVL floor with non-zero
+// apyBase so /?token=USDC renders .pool-card elements and survives trust-rail
+// filtering; a couple of non-USDC pools add realistic noise.
+function makePool(id, project, symbol, chain, tvlUsd, apyBase) {
+  return { pool: id, project, symbol, chain, tvlUsd, apyBase: apyBase || 0, apyReward: 0 };
+}
+const FIXTURE_POOLS = [
+  makePool('usdc-base-aave', 'aave-v3', 'USDC', 'Base', 45_000_000, 4.2),
+  makePool('usdc-eth-morpho', 'morpho-blue', 'USDC', 'Ethereum', 55_000_000, 5.9),
+  makePool('usdc-arb-aave', 'aave-v3', 'USDC', 'Arbitrum', 70_000_000, 4.8),
+  makePool('usdc-sol-kamino', 'kamino-lend', 'USDC', 'Solana', 80_000_000, 7.5),
+  makePool('eth-eth-aave', 'aave-v3', 'ETH', 'Ethereum', 200_000_000, 2.9)
+];
+const FIXTURE_RESPONSE = JSON.stringify({ status: 'success', data: FIXTURE_POOLS });
+
+// Body served to every routed pools request, and which mode produced it.
+let POOLS_BODY = FIXTURE_RESPONSE;
+let DATA_MODE = 'fixture';
+
+// Quick outbound reachability probe via curl (honors HTTPS_PROXY exactly as
+// Chromium would; a raw Node https.get would bypass the proxy and false-
+// positive). Same shape as test_search.js probe(). 8s cap is generous — policy
+// 403/resets are immediate; never retried per /root/.ccr/README.md.
+function probe(url) {
+  try {
+    const code = execFileSync('curl', ['-sS', '-o', '/dev/null', '-w', '%{http_code}', '--max-time', '8', url], {
+      encoding: 'utf8'
+    });
+    return code.trim().startsWith('2') || code.trim().startsWith('3');
+  } catch (err) {
+    return false;
+  }
+}
 
 const VIEWPORTS = [
   { width: 360, height: 640 },
@@ -58,10 +113,19 @@ async function loadAndCollectErrors(browser, urlPath, viewport) {
   const errors = [];
   page.on('pageerror', (err) => errors.push('pageerror: ' + err.message));
   page.on('console', (msg) => {
-    if (msg.type() === 'error' && !IGNORABLE_ERROR_PATTERN.test(msg.text())) {
-      errors.push('console.error: ' + msg.text());
+    if (msg.type() !== 'error') return;
+    // Classify by the failing resource's URL, not the text — Chromium's
+    // "Failed to load resource" message never contains the URL (test_search.js).
+    const source = msg.location()?.url || '';
+    if (!IGNORABLE_ERROR_PATTERN.test(source) && !IGNORABLE_ERROR_PATTERN.test(msg.text())) {
+      errors.push('console.error: ' + msg.text() + (source ? ' (' + source + ')' : ''));
     }
   });
+  // Route the pools fetch before navigating so the browser never egresses to
+  // the (proxy-blocked) host; serve the captured live snapshot or the fixture.
+  await page.route(POOLS_URL, (route) => route.fulfill({
+    status: 200, contentType: 'application/json', body: POOLS_BODY
+  }));
   await page.goto('http://localhost:' + PORT + urlPath, { waitUntil: 'load', timeout: 15000 });
   return { page, errors };
 }
@@ -78,6 +142,21 @@ function extractLdJsonBlocks(html, type) {
 }
 
 async function main() {
+  // Decide the pools data mode once: capture the real body if curl can reach
+  // llama (the browser can't in-sandbox), else fall back to the fixture. The
+  // 10MB+ payload needs a raised maxBuffer.
+  if (probe(POOLS_URL)) {
+    try {
+      const body = execFileSync('curl', ['-sS', '--max-time', '20', POOLS_URL], {
+        encoding: 'utf8', maxBuffer: 64 * 1024 * 1024
+      });
+      if (body && body.trim().startsWith('{')) { POOLS_BODY = body; DATA_MODE = 'live snapshot'; }
+    } catch (err) { /* keep fixture fallback */ }
+  }
+  console.log('network: yields.llama.fi ' + (DATA_MODE === 'live snapshot'
+    ? 'reachable — serving live snapshot captured via curl'
+    : 'BLOCKED — serving DefiLlama-shaped fixture'));
+
   await test('home.html: sitewide Organization + WebSite JSON-LD, valid JSON, minimum required properties (040)', async () => {
     const html = fs.readFileSync(path.join(ROOT, 'home.html'), 'utf8');
     const org = extractLdJsonBlocks(html, 'Organization');
