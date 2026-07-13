@@ -1286,6 +1286,32 @@ function PoolDetail({
           )
         ),
 
+        // Rate-volatility honesty note (071) — full-width, calm. Fires only when
+        // the current total APY and the 30-day mean both exist, are > 0, and
+        // diverge by >=1.5x (max/min). Conservative: never on missing/zero data.
+        (typeof pool.apyMean30d === 'number' &&
+          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
+          pool.apyMean30d > 0 &&
+          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
+            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
+        React.createElement('div', {
+          className: 'rate-volatility-note',
+          style: {
+            background: 'var(--color-background)',
+            borderRadius: 'var(--neuro-radius-sm)',
+            boxShadow: 'var(--neuro-shadow-subtle)',
+            color: 'var(--color-text-secondary)',
+            fontSize: 'var(--font-size-sm)',
+            lineHeight: '1.5',
+            padding: '12px 16px',
+            marginBottom: '20px'
+          }
+        },
+          t
+            ? t('rateVolatilityNote', _formatApy((pool.apyBase || 0) + (pool.apyReward || 0)), _formatApy(pool.apyMean30d))
+            : `This pool's rate moves a lot: ${_formatApy((pool.apyBase || 0) + (pool.apyReward || 0))} right now vs a ${_formatApy(pool.apyMean30d)} 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.`
+        ),
+
         // Tokens Section (if available)
         (pool.underlyingTokens && pool.underlyingTokens.length > 0) &&
         React.createElement('div', {
