@@ -468,4 +468,75 @@ test('every generated chain page (en + ko) renders the waitlist CTA', () => {
   });
 });
 
+console.log('075 — yield headline: honest per-chain custom KPI, reusing the token generator\'s shared blend/forever-number helper');
+const gp = require('./planner.js');
+test('blended rate is the SAME median gp.blendedApy(rec.pools) computes — no parallel calc path, not bestApy', () => {
+  const h = tp.yieldHeadlineFor(byChain['Big'], 'en');
+  assert.strictEqual(h.apyStr, tp.formatApy(gp.blendedApy(byChain['Big'].pools)));
+});
+test('forever amount is the SAME gp.foreverNumber(monthly, blendedRate) capital figure', () => {
+  const h = tp.yieldHeadlineFor(byChain['Mid'], 'en');
+  const anchor = tp.yieldHeadlineAnchor();
+  const expected = tp.formatUsd(gp.foreverNumber(anchor.monthly, gp.blendedApy(byChain['Mid'].pools)));
+  assert.strictEqual(h.foreverAmtStr, expected);
+});
+test('anchor is Claude Pro at its SUBSCRIPTION_LADDER monthly price (single source of truth)', () => {
+  const anchor = tp.yieldHeadlineAnchor();
+  assert.strictEqual(anchor.id, 'claude');
+  const h = tp.yieldHeadlineFor(byChain['Big'], 'en');
+  assert.strictEqual(h.monthly, anchor.monthly);
+  assert.strictEqual(h.subLabel, 'Claude Pro');
+});
+test('every ranked chain (all clear the 032 visible-nonzero table gate) gets a non-null headline', () => {
+  ranked.forEach(r => {
+    assert.ok(tp.yieldHeadlineFor(r, 'en'), `${r.chain} unexpectedly got no yield headline`);
+  });
+});
+test('returns null (no fabricated number) when the blended MEDIAN rounds to 0.00%, even with a non-zero pool present', () => {
+  const medianZeroRec = { chain: 'MedZero', slug: 'medzero', qualifyingCount: 3, totalTvl: 450000, tokens: ['Y'], pools: [
+    { symbol: 'Y', project: 'aave', chain: 'MedZero', pool: 'p1', apyBase: 0, apyReward: 0, tvlUsd: 200000 },
+    { symbol: 'Y', project: 'aave', chain: 'MedZero', pool: 'p2', apyBase: 0, apyReward: 0, tvlUsd: 150000 },
+    { symbol: 'Y', project: 'aave', chain: 'MedZero', pool: 'p3', apyBase: 5, apyReward: 0, tvlUsd: 100000 }
+  ] };
+  assert.strictEqual(tp.yieldHeadlineFor(medianZeroRec, 'en'), null);
+  const page = gen.renderChainPage(medianZeroRec, [], '2026-07-12', [], 'en');
+  assert.ok(!page.includes('cp-yield-headline">'), 'median-zero chain must render no cp-yield-headline paragraph');
+});
+test('headline renders above the pool table (.cp-card), after the intro paragraph', () => {
+  const introIdx = html.indexOf('<p class="intro">');
+  const headlineIdx = html.indexOf('<p class="cp-yield-headline">');
+  const tableIdx = html.indexOf('<div class="cp-card">');
+  assert.ok(introIdx > -1 && headlineIdx > introIdx && headlineIdx < tableIdx,
+    'expected intro < yield headline < pool table in document order');
+});
+test('headline copy states the chain, APY, forever capital, and monthly subscription price', () => {
+  const h = tp.yieldHeadlineFor(byChain['Big'], 'en');
+  assert.ok(html.includes(`Idle assets on Big could earn ~${h.apyStr}`), 'missing chain/APY in rendered headline');
+  assert.ok(html.includes(`park ${h.foreverAmtStr}`), 'missing forever-capital figure in rendered headline');
+  assert.ok(html.includes(`$${h.monthly}/mo Claude Pro`), 'missing monthly subscription anchor in rendered headline');
+});
+test('malicious chain name cannot inject markup into the yield headline', () => {
+  const evil = { chain: '<script>alert(1)</script>', slug: 'evil', qualifyingCount: 1, totalTvl: 1e7, tokens: ['Y'],
+    pools: [{ symbol: 'Y', project: 'aave', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0, pool: 'p1' }] };
+  const evilPage = gen.renderChainPage(evil, [], '2026-07-12', [], 'en');
+  const headlineP = evilPage.match(/<p class="cp-yield-headline">[\s\S]*?<\/p>/)[0];
+  assert.ok(!headlineP.includes('<script>alert(1)</script>'), 'unescaped chain name leaked into the yield headline');
+  assert.ok(headlineP.includes('&lt;script&gt;'), 'expected escaped chain name in the yield headline');
+});
+test('every generated chain page (en + ko) carries the yield headline with natural KO copy', () => {
+  ranked.forEach(rec => {
+    const enHtml = gen.renderChainPage(rec, [], '2026-07-12', [], 'en');
+    const koHtml = gen.renderChainPage(rec, [], '2026-07-12', [], 'ko');
+    assert.ok(enHtml.includes('cp-yield-headline'), `EN page missing yield headline for ${rec.chain}`);
+    assert.ok(koHtml.includes('cp-yield-headline'), `KO page missing yield headline for ${rec.chain}`);
+    assert.ok(koHtml.includes('Claude Pro') && koHtml.includes('구독료'), `KO page yield headline not translated for ${rec.chain}`);
+  });
+});
+test('yield headline uses the neuro token system only, no hardcoded hex colors', () => {
+  const styleMatch = html.match(/\.cp-yield-headline \{[^}]*\}/);
+  assert.ok(styleMatch, 'yield headline style rule missing from rendered page');
+  assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleMatch[0]), 'hardcoded hex color in the yield headline style');
+  assert.ok(styleMatch[0].includes('var(--neuro-shadow-raised)'), 'must reuse existing neuro shadow token');
+});
+
 console.log(`\n${passed} assertions passed`);
