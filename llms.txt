@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-07-13T15:28:58.447Z
+- Last Updated: 2026-07-13T16:36:53.942Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 4749
+- Total URLs: 4747
 
 ## Homepage
 TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.
@@ -11,7 +11,7 @@ TL;DR: Main dashboard for discovering DeFi yields across all chains and protocol
 
 ## Top Chains by TVL
 TL;DR: Highest liquidity blockchain networks for DeFi yields.
-- Ethereum ($83.5B TVL) — https://www.defi.garden/?chain=Ethereum
+- Ethereum ($83.6B TVL) — https://www.defi.garden/?chain=Ethereum
 - Solana ($8.2B TVL) — https://www.defi.garden/?chain=Solana
 - BSC ($6.4B TVL) — https://www.defi.garden/?chain=BSC
 - Base ($5.9B TVL) — https://www.defi.garden/?chain=Base
@@ -64,14 +64,14 @@ TL;DR: Typical user queries and where to find them.
 
 ## Current Top Yields
 TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10k).
-- Avalanche · blackhole-clmm · WAVAX-USDC — 920768.0% APY, $15,925 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
+- Avalanche · blackhole-clmm · WAVAX-USDC — 809320.7% APY, $15,120 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
 - BSC · zeebu · ZBU — 734837.0% APY, $537,727 TVL — https://www.defi.garden/?token=ZBU&chain=BSC
-- Avalanche · blackhole-clmm · WAVAX-USDC — 428058.3% APY, $43,356 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
-- Base · aerodrome-slipstream · USDC-VELVET — 183185.0% APY, $3,714,963 TVL — https://www.defi.garden/?token=USDC-VELVET&chain=Base
-- Base · aerodrome-v1 · WETH-TRAC — 113784.4% APY, $41,291 TVL — https://www.defi.garden/?token=WETH-TRAC&chain=Base
-- Base · aerodrome-slipstream · CTR-USDC — 106723.1% APY, $456,857 TVL — https://www.defi.garden/?token=CTR-USDC&chain=Base
+- Avalanche · blackhole-clmm · WAVAX-USDC — 468457.0% APY, $42,721 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
+- Base · aerodrome-slipstream · USDC-VELVET — 156682.0% APY, $3,812,748 TVL — https://www.defi.garden/?token=USDC-VELVET&chain=Base
+- Base · aerodrome-v1 · WETH-TRAC — 113236.5% APY, $41,321 TVL — https://www.defi.garden/?token=WETH-TRAC&chain=Base
+- Base · aerodrome-slipstream · CTR-USDC — 88369.4% APY, $456,141 TVL — https://www.defi.garden/?token=CTR-USDC&chain=Base
+- Polygon · quickswap-dex · USDC-DAI — 79552.7% APY, $301,711 TVL — https://www.defi.garden/?token=USDC-DAI&chain=Polygon
 - Base · uniswap-v4 · WETH-NURTBAGLARD — 42196.8% APY, $26,737 TVL — https://www.defi.garden/?token=WETH-NURTBAGLARD&chain=Base
-- Base · uniswap-v4 · ZORA-CC0COMPANY — 38660.9% APY, $50,445 TVL — https://www.defi.garden/?token=ZORA-CC0COMPANY&chain=Base
 
 💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
 📊 For live rates and direct protocol access: https://www.defi.garden
