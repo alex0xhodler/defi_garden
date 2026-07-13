@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"BALANCERRETH","item":"https://www.defi.garden/tokens/balancerreth"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"balancer-v3 on OP Mainnet","url":"https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442"},{"@type":"ListItem","position":2,"name":"balancer-v3 on Arbitrum","url":"https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3"},{"@type":"ListItem","position":3,"name":"balancer-v3 on Base","url":"https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"BALANCERRETH DeFi Yields Dataset","description":"Live DefiLlama yield data for BALANCERRETH pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/balancerreth","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"July 13, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest BALANCERRETH yield today?","acceptedAnswer":{"@type":"Answer","text":"7.21% APY on balancer-v3 (OP Mainnet), based on live DefiLlama data."}},{"@type":"Question","name":"How many BALANCERRETH pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear DeFi Garden's $100K TVL floor, $761.8K in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest BALANCERRETH yield today?","acceptedAnswer":{"@type":"Answer","text":"7.21% APY on balancer-v3 (OP Mainnet), based on live DefiLlama data."}},{"@type":"Question","name":"How many BALANCERRETH pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear DeFi Garden's $100K TVL floor, $766.2K in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="BALANCERRETH DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="3 live BALANCERRETH pools above the $100K TVL floor, up to 7.21% APY, across 3 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -57,6 +57,7 @@
       .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
       .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-yield-headline { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); padding: 14px 18px; margin: 4px 0 18px; color: var(--color-text); font-weight: 600; line-height: 1.5; }
       .tp-faq { margin: 30px 0 8px; }
       .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
       .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
@@ -89,7 +90,8 @@
     <h1>BALANCERRETH DeFi Yields</h1>
     <p class="tp-answer">The highest honest BALANCERRETH yield right now is 7.21% on balancer-v3 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">3 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">BALANCERRETH's largest live pool is balancer-v3 on OP Mainnet at 4.62% ($290.7K TVL). 3 BALANCERRETH pools across 3 chains clear DeFi Garden's $100K TVL floor, $761.8K in total.</p>
+    <p class="intro">BALANCERRETH's largest live pool is balancer-v3 on OP Mainnet at 4.62% ($292.8K TVL). 3 BALANCERRETH pools across 3 chains clear DeFi Garden's $100K TVL floor, $766.2K in total.</p>
+    <p class="tp-yield-headline">Your idle BALANCERRETH could earn ~6.31% — park $3.8K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=BALANCERRETH">See live BALANCERRETH pools →</a>
     <div class="tp-card">
     <div class="scroll">
@@ -102,19 +104,19 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442">balancer-v3 &rarr;</a></td>
           <td>OP Mainnet</td>
           <td class="num">4.62%</td>
-          <td class="num">$290.7K</td>
+          <td class="num">$292.8K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3">balancer-v3 &rarr;</a></td>
           <td>Arbitrum</td>
-          <td class="num">6.29%</td>
-          <td class="num">$238.5K</td>
+          <td class="num">6.31%</td>
+          <td class="num">$239.7K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6">balancer-v3 &rarr;</a></td>
           <td>Base</td>
           <td class="num">7.21%</td>
-          <td class="num">$232.6K</td>
+          <td class="num">$233.7K</td>
         </tr>
       </tbody>
     </table>
@@ -128,7 +130,7 @@
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">How many BALANCERRETH pools clear the TVL floor?</h3>
-          <p class="tp-faq-a">3 live pools clear DeFi Garden&#39;s $100K TVL floor, $761.8K in total.</p>
+          <p class="tp-faq-a">3 live pools clear DeFi Garden&#39;s $100K TVL floor, $766.2K in total.</p>
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
