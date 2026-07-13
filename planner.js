@@ -87,6 +87,16 @@
   function totalDeposited(monthly, years) {
     return (Number(monthly) || 0) * Math.round((Number(years) || 0) * 12);
   }
+  // Lump-sum compounding for the capital-first funding path (v3). futureValue/
+  // totalDeposited above are pure monthly-contribution formulas and silently
+  // evaluate to 0 for a capital-funded plan (monthly is null/0 there) — this
+  // covers the missing leg. Safe to add unconditionally alongside futureValue:
+  // capital is 0/null for monthly-funded plans, so it never double-counts.
+  function capitalGrowth(capital, annualRatePct, years) {
+    var C = Number(capital) || 0;
+    var r = (Number(annualRatePct) || 0) / 100;
+    return C * Math.pow(1 + r, Number(years) || 0);
+  }
   // Time to reach a target with monthly contributions + compounding
   // Returns months
   function timeToTarget(target, monthly, annualRatePct) {
@@ -430,7 +440,7 @@
     var apy = Number(args.apy) || 0;
 
     if (archetype === 'growth') {
-      return { kind: 'projection', projection: futureValue(monthly, apy, years) };
+      return { kind: 'projection', projection: futureValue(monthly, apy, years) + capitalGrowth(capital, apy, years) };
     }
     if (archetype === 'target') {
       if (fundingMode === 'capital' && capital > 0) {
@@ -445,7 +455,7 @@
       var pct = (capital && isFinite(fn) && fn > 0) ? Math.min(100, Math.round(capital / fn * 100)) : 0;
       return { kind: 'forever', foreverAmt: isFinite(fn) ? fn : null, progressPct: pct };
     }
-    return { kind: 'projection', projection: futureValue(monthly, apy, years) };
+    return { kind: 'projection', projection: futureValue(monthly, apy, years) + capitalGrowth(capital, apy, years) };
   }
 
   // chipHintsFor(values, ctx) — per-chip outcome descriptors.
@@ -1368,9 +1378,9 @@
 
     // Archetype-specific computations
     var targetAmt = goalDef ? goalDef.target : null;
-    var projection = futureValue(monthly, apy, years || 10);
-    var bankProjection = futureValue(monthly, BANK_APY, years || 10);
-    var deposited = totalDeposited(monthly, years || 10);
+    var projection = futureValue(monthly, apy, years || 10) + capitalGrowth(propCapital, apy, years || 10);
+    var bankProjection = futureValue(monthly, BANK_APY, years || 10) + capitalGrowth(propCapital, BANK_APY, years || 10);
+    var deposited = totalDeposited(monthly, years || 10) + (Number(propCapital) || 0);
 
     // TARGET: time to reach target (monthly accumulation path — v2 compat)
     var monthsToTarget = (archetype === 'target' && targetAmt) ? timeToTarget(targetAmt, monthly, apy) : null;
@@ -1490,9 +1500,14 @@
       var pk = TEMPERAMENT_TO_PERSONA[persona] || persona;
       var haircut = PERSONAS[pk] && PERSONAS[pk].degenHaircut;
       var liveApy = haircut ? rawApy / 3 : rawApy;
-      return futureValue(slideMonthly, liveApy, slideYears);
-    }, [slideMonthly, slideYears, rawApy, persona]);
-    var liveBankProjection = futureValue(slideMonthly, BANK_APY, slideYears);
+      // slideCapital defaults to 5000 even on monthly-funded plans (its own
+      // useState fallback), so it must be gated by isCapitalPath here — unlike
+      // propCapital elsewhere, which is null/0 for a monthly-funded plan.
+      return futureValue(isCapitalPath ? 0 : slideMonthly, liveApy, slideYears)
+        + capitalGrowth(isCapitalPath ? slideCapital : 0, liveApy, slideYears);
+    }, [slideMonthly, slideCapital, isCapitalPath, slideYears, rawApy, persona]);
+    var liveBankProjection = futureValue(isCapitalPath ? 0 : slideMonthly, BANK_APY, slideYears)
+      + capitalGrowth(isCapitalPath ? slideCapital : 0, BANK_APY, slideYears);
 
     // Sync sliders with prop changes
     useEffect(function() { setSlideMonthly(monthly); }, [monthly]);
@@ -1999,7 +2014,10 @@
         );
       }
     } else {
-      // GROWTH: unchanged
+      // GROWTH — capital-funded plans show a capital slider instead of a
+      // monthly one (see the isCapitalPath slider-group below), so
+      // "deposited" is the lump sum, not a monthly*months product.
+      var growthDeposited = isCapitalPath ? (Number(slideCapital) || 0) : totalDeposited(slideMonthly, slideYears);
       heroElement = e('div', { className: 'gp-bloom-headline gp-animate-in' },
         e('div', { className: 'gp-headline-figure' },
           '≈ ', e(CountUp, {
@@ -2010,7 +2028,7 @@
         ),
         e('div', { className: 'gp-headline-sub' }, t('bloomInYears', slideYears)),
         e('div', { className: 'gp-headline-vs' }, t('bloomVsBank', formatUsdRounded(liveBankProjection))),
-        e('div', { className: 'gp-headline-deposited' }, t('bloomDeposited', formatUsd(totalDeposited(slideMonthly, slideYears))))
+        e('div', { className: 'gp-headline-deposited' }, t('bloomDeposited', formatUsd(growthDeposited)))
       );
     }
 
@@ -3174,7 +3192,7 @@
     var personaKey = TEMPERAMENT_TO_PERSONA[plan.temperament] || plan.persona;
     var newEffective = personaKey === 'degen' ? newBlended / 3 : newBlended;
 
-    var newProjection = futureValue(plan.monthly, newEffective, plan.years);
+    var newProjection = futureValue(plan.monthly, newEffective, plan.years) + capitalGrowth(plan.capital, newEffective, plan.years);
 
     // Derive archetype from persisted field or recompute from goal
     var arch = plan.archetype || goalArchetype(plan.goal);
@@ -4401,7 +4419,7 @@
   var api = {
     planSavedSignature: planSavedSignature,
     APY_SANITY_LIMIT: APY_SANITY_LIMIT,
-    futureValue: futureValue, totalDeposited: totalDeposited,
+    futureValue: futureValue, totalDeposited: totalDeposited, capitalGrowth: capitalGrowth,
     curatePools: curatePools, blendedApy: blendedApy, median: median,
     isStableSymbol: isStableSymbol, isAnomalousApy: isAnomalousApy,
     matchGoalFromText: matchGoalFromText,

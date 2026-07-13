@@ -189,6 +189,35 @@ test('growth archetype -> kind projection matching futureValue', () => {
   const expected = gp.futureValue(500, 6, 10);
   assert.ok(Math.abs(hero.projection - expected) < 1, 'projection mismatch');
 });
+test('growth archetype, CAPITAL-funded (no monthly) -> projection is NOT zero (regression: was $0 pre-fix)', () => {
+  // Exact repro of the reported bug: /plan?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5
+  const hero = gp.buildPlanHero({ archetype: 'growth', fundingMode: 'capital', capital: 1000, monthly: null, years: 5, target: null, apy: 10.58 });
+  assert.strictEqual(hero.kind, 'projection');
+  assert.ok(hero.projection > 1000, 'expected capital to compound above the $1,000 principal, got ' + hero.projection);
+  const expected = gp.capitalGrowth(1000, 10.58, 5);
+  assert.ok(Math.abs(hero.projection - expected) < 1, 'projection should equal pure lump-sum compounding when monthly is null');
+});
+test('growth archetype, capital=0/null -> unaffected (no phantom capital added to a monthly-only plan)', () => {
+  const withCapital = gp.buildPlanHero({ archetype: 'growth', fundingMode: 'monthly', capital: null, monthly: 500, years: 10, target: null, apy: 6 });
+  const withZero = gp.buildPlanHero({ archetype: 'growth', fundingMode: 'monthly', capital: 0, monthly: 500, years: 10, target: null, apy: 6 });
+  assert.strictEqual(withCapital.projection, withZero.projection);
+});
+
+console.log('capitalGrowth (lump-sum compounding for the capital-first funding path)');
+test('capitalGrowth(1000, 10.58%, 5y) compounds above the principal', () => {
+  const fv = gp.capitalGrowth(1000, 10.58, 5);
+  // 1000 * 1.1058^5 ~= 1653.42
+  assert.ok(Math.abs(fv - 1653.42) < 1, 'got ' + fv);
+});
+test('capitalGrowth(0, ...) is 0', () => {
+  assert.strictEqual(gp.capitalGrowth(0, 10, 5), 0);
+});
+test('capitalGrowth(null, ...) is 0 (never throws on a monthly-funded plan\'s absent capital)', () => {
+  assert.strictEqual(gp.capitalGrowth(null, 10, 5), 0);
+});
+test('capitalGrowth at 0% rate returns the bare principal', () => {
+  assert.strictEqual(gp.capitalGrowth(1000, 0, 5), 1000);
+});
 
 console.log('chipHintsFor');
 test('subscription capital chips [1000,2500,5000,10000,25000] @ 5.5% target 20 -> exactly one featured (value 5000)', () => {
