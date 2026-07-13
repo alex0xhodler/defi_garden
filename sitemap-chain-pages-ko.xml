@@ -156,12 +156,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/stacks</loc>
+    <loc>https://www.defi.garden/ko/chains/starknet</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/starknet</loc>
+    <loc>https://www.defi.garden/ko/chains/stacks</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -171,12 +171,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/ton</loc>
+    <loc>https://www.defi.garden/ko/chains/megaeth</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/megaeth</loc>
+    <loc>https://www.defi.garden/ko/chains/ton</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -216,12 +216,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/osmosis</loc>
+    <loc>https://www.defi.garden/ko/chains/pharos</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/pharos</loc>
+    <loc>https://www.defi.garden/ko/chains/osmosis</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -251,17 +251,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/etherlink</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/bifrost-network</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/neutron</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/chains/etherlink</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -427,6 +427,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/neo</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/metis</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
   </url>
