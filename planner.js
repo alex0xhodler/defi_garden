@@ -1536,6 +1536,7 @@
     var waitlistStatus = waitlistStatusState[0], setWaitlistStatus = waitlistStatusState[1];
     var referralHandleState = useState('');
     var referralHandle = referralHandleState[0], setReferralHandle = referralHandleState[1];
+    var waitlistEmailEnteredRef = useRef(false);
 
     // Close waitlist on Escape key
     useEffect(function () {
@@ -1553,8 +1554,22 @@
 
     function submitWaitlist(ev) {
       if (ev) ev.preventDefault();
-      if (!waitlistEmail.trim()) return;
+      if (!waitlistEmail.trim()) {
+        if (typeof Analytics !== 'undefined') {
+          Analytics.trackWaitlistError({ reason: 'empty_email', goal: goal, persona: persona, archetype: archetype });
+        }
+        return;
+      }
+      if (!/^\S+@\S+\.\S+$/.test(waitlistEmail)) {
+        if (typeof Analytics !== 'undefined') {
+          Analytics.trackWaitlistError({ reason: 'invalid_email', goal: goal, persona: persona, archetype: archetype });
+        }
+        return;
+      }
       setWaitlistStatus('submitting');
+      if (typeof Analytics !== 'undefined') {
+        Analytics.trackWaitlistSubmitAttempt({ goal: goal, persona: persona, archetype: archetype });
+      }
       // Derive handle from email local part
       var rawHandle = waitlistEmail.split('@')[0] || '';
       var derived = sanitizeHandle(rawHandle);
@@ -1592,12 +1607,14 @@
         } else {
           setWaitlistStatus('error');
           if (typeof Analytics !== 'undefined') {
+            Analytics.trackWaitlistError({ reason: 'formspree_error', goal: goal, persona: persona, archetype: archetype });
             Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: false });
           }
         }
       }).catch(function () {
         setWaitlistStatus('error');
         if (typeof Analytics !== 'undefined') {
+          Analytics.trackWaitlistError({ reason: 'network', goal: goal, persona: persona, archetype: archetype });
           Analytics.trackWaitlistSubmitted({ goal: goal, persona: persona, archetype: archetype, success: false });
         }
       });
@@ -2369,6 +2386,7 @@
           setWaitlistStep(1);
           setWaitlistStatus('idle');
           setWaitlistOpen(true);
+          waitlistEmailEnteredRef.current = false;
           if (typeof Analytics !== 'undefined') {
             Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype });
           }
@@ -2480,7 +2498,16 @@
                   value: waitlistEmail,
                   required: true,
                   autoFocus: true,
-                  onChange: function (ev) { setWaitlistEmail(ev.target.value); setWaitlistStatus('idle'); }
+                  onChange: function (ev) {
+                    if (!waitlistEmailEnteredRef.current) {
+                      waitlistEmailEnteredRef.current = true;
+                      if (typeof Analytics !== 'undefined') {
+                        Analytics.trackWaitlistEmailEntered({ goal: goal, persona: persona, archetype: archetype });
+                      }
+                    }
+                    setWaitlistEmail(ev.target.value);
+                    setWaitlistStatus('idle');
+                  }
                 }),
                 e('p', { className: 'gp-waitlist-nospam' }, t('waitlistNoSpam')),
                 waitlistStatus === 'error'
@@ -2608,6 +2635,7 @@
           setWaitlistStep(1);
           setWaitlistStatus('idle');
           setWaitlistOpen(true);
+          waitlistEmailEnteredRef.current = false;
           if (typeof Analytics !== 'undefined') {
             Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype });
           }
@@ -3507,6 +3535,7 @@
     var quickWaitlistEmail = quickWaitlistEmailState[0], setQuickWaitlistEmail = quickWaitlistEmailState[1];
     var quickWaitlistStatusState = useState('idle');
     var quickWaitlistStatus = quickWaitlistStatusState[0], setQuickWaitlistStatus = quickWaitlistStatusState[1];
+    var quickWaitlistEmailEnteredRef = useRef(false);
 
     useEffect(function () {
       if (quickWaitlistOpen && typeof Analytics !== 'undefined') {
@@ -3525,8 +3554,22 @@
 
     function submitQuickWaitlist(ev) {
       if (ev) ev.preventDefault();
-      if (!quickWaitlistEmail.trim()) return;
+      if (!quickWaitlistEmail.trim()) {
+        if (typeof Analytics !== 'undefined') {
+          Analytics.trackWaitlistError({ reason: 'empty_email', source: waitlistSrc });
+        }
+        return;
+      }
+      if (!/^\S+@\S+\.\S+$/.test(quickWaitlistEmail)) {
+        if (typeof Analytics !== 'undefined') {
+          Analytics.trackWaitlistError({ reason: 'invalid_email', source: waitlistSrc });
+        }
+        return;
+      }
       setQuickWaitlistStatus('submitting');
+      if (typeof Analytics !== 'undefined') {
+        Analytics.trackWaitlistSubmitAttempt({ source: waitlistSrc });
+      }
       var payload = {
         email: quickWaitlistEmail,
         message: 'source: ' + (waitlistSrc || 'direct'),
@@ -3546,12 +3589,14 @@
         } else {
           setQuickWaitlistStatus('error');
           if (typeof Analytics !== 'undefined') {
+            Analytics.trackWaitlistError({ reason: 'formspree_error', source: waitlistSrc });
             Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: false });
           }
         }
       }).catch(function () {
         setQuickWaitlistStatus('error');
         if (typeof Analytics !== 'undefined') {
+          Analytics.trackWaitlistError({ reason: 'network', source: waitlistSrc });
           Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: false });
         }
       });
@@ -3587,7 +3632,16 @@
                   value: quickWaitlistEmail,
                   required: true,
                   autoFocus: true,
-                  onChange: function (ev) { setQuickWaitlistEmail(ev.target.value); setQuickWaitlistStatus('idle'); }
+                  onChange: function (ev) {
+                    if (!quickWaitlistEmailEnteredRef.current) {
+                      quickWaitlistEmailEnteredRef.current = true;
+                      if (typeof Analytics !== 'undefined') {
+                        Analytics.trackWaitlistEmailEntered({ source: waitlistSrc });
+                      }
+                    }
+                    setQuickWaitlistEmail(ev.target.value);
+                    setQuickWaitlistStatus('idle');
+                  }
                 }),
                 e('p', { className: 'gp-waitlist-nospam' }, t('waitlistNoSpam')),
                 quickWaitlistStatus === 'error'

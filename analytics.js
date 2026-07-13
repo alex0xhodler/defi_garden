@@ -351,6 +351,34 @@ const Analytics = {
     });
   },
 
+  trackWaitlistEmailEntered(context = {}) {
+    this.track('waitlist_email_entered', {
+      goal: context.goal || null,
+      persona: context.persona || null,
+      archetype: context.archetype || null,
+      source: context.source || null
+    });
+  },
+
+  trackWaitlistSubmitAttempt(context = {}) {
+    this.track('waitlist_submit_attempt', {
+      goal: context.goal || null,
+      persona: context.persona || null,
+      archetype: context.archetype || null,
+      source: context.source || null
+    });
+  },
+
+  trackWaitlistError(context = {}) {
+    this.track('waitlist_error', {
+      reason: context.reason || null,
+      goal: context.goal || null,
+      persona: context.persona || null,
+      archetype: context.archetype || null,
+      source: context.source || null
+    });
+  },
+
   // Utility Functions
 
   classifySearchType(query) {
