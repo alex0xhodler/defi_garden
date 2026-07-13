@@ -291,6 +291,37 @@ function renderLinkNavHtml(items, ariaLabel, heading, extraNavClass) {
 }
 
 /**
+ * Waitlist CTA block (062): the missing SEO → north-star bridge. `cssPrefix`
+ * is 'tp' (tokens) or 'cp' (chains) — reuses that page type's existing
+ * `.${cssPrefix}-cta` button style (already defined in each page's <style>
+ * block) rather than inventing new button chrome. `source` feeds
+ * `plan.html?waitlist=1&src=<source>`, which planner.js reads on load to
+ * auto-open the waitlist modal and tag `waitlist_opened(source=...)`.
+ * Copy is honest by construction: `ctaWaitlistMicro` already discloses
+ * "Card doesn't exist yet" — reused verbatim, never re-worded per-page.
+ */
+function renderWaitlistCtaHtml(pitch, cssPrefix, source, t) {
+  return `    <div class="${cssPrefix}-waitlist">
+      <h2>${escapeHtml(t('tcpWaitlistHeading'))}</h2>
+      <p>${pitch}</p>
+      <a class="${cssPrefix}-cta" href="/plan.html?waitlist=1&amp;src=${encodeURIComponent(source)}">${escapeHtml(t('tcpWaitlistCta'))}</a>
+      <p class="${cssPrefix}-waitlist-micro">${escapeHtml(t('tcpWaitlistMicro'))}</p>
+    </div>\n`;
+}
+
+/** Scoped CSS for renderWaitlistCtaHtml's block, appended to a page's
+ * existing <style> — reuses the same neumorphic tokens as `.${cssPrefix}-card`
+ * (no new colors/gradients, per the 2026-07-10 "reuse before inventing" rule). */
+function renderWaitlistCtaStyle(cssPrefix) {
+  return `      .${cssPrefix}-waitlist { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 20px 22px; margin: 24px 0; }
+      .${cssPrefix}-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--color-text); }
+      .${cssPrefix}-waitlist p { color: var(--color-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
+      .${cssPrefix}-waitlist .${cssPrefix}-cta { margin: 4px 0 10px; }
+      .${cssPrefix}-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
+`;
+}
+
+/**
  * Group ranked tokens into A–Z buckets for the /tokens hub's second tier
  * (045): the hub can't link all N tokens directly (2026 guidance caps
  * links-per-template to ~30-100), so every token not in the hub's top-N by
@@ -644,6 +675,9 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: c.url }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
 
+  // Waitlist CTA (062): the only path from this page into the card funnel.
+  const waitlistBlock = renderWaitlistCtaHtml(t('tcpWaitlistPitchToken', rec.symbol), 'tp', 'seo_token', t);
+
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
     // urlParams.pool). Falls back to the token app view if no id. Shared
@@ -720,7 +754,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
-    </style>
+${renderWaitlistCtaStyle('tp')}    </style>
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}`, { page_type: 'token_landing', token: rec.symbol, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>
@@ -741,7 +775,7 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
 ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>
@@ -915,6 +949,7 @@ module.exports = {
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml,
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,
+  renderWaitlistCtaHtml, renderWaitlistCtaStyle,
   renderHreflangLinks, SUPPORTED_LANGS,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH
 };

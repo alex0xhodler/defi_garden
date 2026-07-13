@@ -3493,6 +3493,125 @@
     var preset = presetKey ? PRESETS[presetKey] : null;
     var freshFlag = urlParams.get('fresh') === '1';
 
+    // Direct waitlist entry point from the static SEO pages (062):
+    // ?waitlist=1&src=seo_token|seo_chain opens a lightweight, plan-independent
+    // waitlist modal on load. Reuses the same neumorphic gp-waitlist-* tokens
+    // and copy as Bloom's modal, but needs none of Bloom's plan context
+    // (goal/persona/pools) — a landing from a token/chain page has no plan yet.
+    var waitlistSrc = urlParams.get('src');
+    var quickWaitlistOpenState = useState(urlParams.get('waitlist') === '1');
+    var quickWaitlistOpen = quickWaitlistOpenState[0], setQuickWaitlistOpen = quickWaitlistOpenState[1];
+    var quickWaitlistStepState = useState(1);
+    var quickWaitlistStep = quickWaitlistStepState[0], setQuickWaitlistStep = quickWaitlistStepState[1];
+    var quickWaitlistEmailState = useState('');
+    var quickWaitlistEmail = quickWaitlistEmailState[0], setQuickWaitlistEmail = quickWaitlistEmailState[1];
+    var quickWaitlistStatusState = useState('idle');
+    var quickWaitlistStatus = quickWaitlistStatusState[0], setQuickWaitlistStatus = quickWaitlistStatusState[1];
+
+    useEffect(function () {
+      if (quickWaitlistOpen && typeof Analytics !== 'undefined') {
+        Analytics.trackWaitlistOpened({ source: waitlistSrc });
+      }
+      // Runs once: quickWaitlistOpen's initial value and waitlistSrc are both
+      // derived from urlParams, which is computed once (useMemo, [] deps).
+    }, []);
+
+    useEffect(function () {
+      if (!quickWaitlistOpen) return;
+      function onKey(ev) { if (ev.key === 'Escape') setQuickWaitlistOpen(false); }
+      window.addEventListener('keydown', onKey);
+      return function () { window.removeEventListener('keydown', onKey); };
+    }, [quickWaitlistOpen]);
+
+    function submitQuickWaitlist(ev) {
+      if (ev) ev.preventDefault();
+      if (!quickWaitlistEmail.trim()) return;
+      setQuickWaitlistStatus('submitting');
+      var payload = {
+        email: quickWaitlistEmail,
+        message: 'source: ' + (waitlistSrc || 'direct'),
+        _subject: 'DeFi Garden waitlist signup'
+      };
+      fetch('https://formspree.io/f/xzdqygjn', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(function (res) {
+        if (res.ok) {
+          setQuickWaitlistStep(2);
+          setQuickWaitlistStatus('idle');
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: true });
+          }
+        } else {
+          setQuickWaitlistStatus('error');
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: false });
+          }
+        }
+      }).catch(function () {
+        setQuickWaitlistStatus('error');
+        if (typeof Analytics !== 'undefined') {
+          Analytics.trackWaitlistSubmitted({ source: waitlistSrc, success: false });
+        }
+      });
+    }
+
+    var quickWaitlistEmailValid = /^\S+@\S+\.\S+$/.test(quickWaitlistEmail);
+    var quickWaitlistModal = quickWaitlistOpen ? e('div', {
+      className: 'gp-waitlist-backdrop',
+      onClick: function (ev) { if (ev.target === ev.currentTarget) setQuickWaitlistOpen(false); },
+      role: 'dialog',
+      'aria-modal': 'true',
+      'aria-label': t('waitlistTitle')
+    },
+      e('div', { className: 'gp-waitlist-card' },
+        e('button', {
+          type: 'button',
+          className: 'gp-waitlist-close',
+          onClick: function () { setQuickWaitlistOpen(false); },
+          'aria-label': t('waitlistClose')
+        }, '✕'),
+        quickWaitlistStep === 1
+          ? e('div', { className: 'gp-waitlist-body' },
+              e('div', { className: 'gp-waitlist-step-row' },
+                e('h2', { className: 'gp-waitlist-title' }, t('waitlistTitle')),
+                e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 1))
+              ),
+              e('p', { className: 'gp-waitlist-benefits' }, t('waitlistBenefits')),
+              e('form', { className: 'gp-waitlist-form', onSubmit: submitQuickWaitlist },
+                e('input', {
+                  type: 'email',
+                  className: 'gp-waitlist-email-input',
+                  placeholder: t('waitlistEmailPlaceholder'),
+                  value: quickWaitlistEmail,
+                  required: true,
+                  autoFocus: true,
+                  onChange: function (ev) { setQuickWaitlistEmail(ev.target.value); setQuickWaitlistStatus('idle'); }
+                }),
+                e('p', { className: 'gp-waitlist-nospam' }, t('waitlistNoSpam')),
+                quickWaitlistStatus === 'error'
+                  ? e('p', { className: 'gp-waitlist-error' }, t('waitlistError'))
+                  : null,
+                e('button', {
+                  type: 'submit',
+                  className: 'gp-waitlist-submit' + (!quickWaitlistEmailValid ? ' is-disabled' : ''),
+                  disabled: quickWaitlistStatus === 'submitting' || !quickWaitlistEmailValid
+                },
+                  quickWaitlistStatus === 'submitting' ? '…' : t('waitlistJoin')
+                )
+              )
+            )
+          : e('div', { className: 'gp-waitlist-body' },
+              e('div', { className: 'gp-waitlist-step-row' },
+                e('h2', { className: 'gp-waitlist-title' }, t('waitlistAccepted')),
+                e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 2))
+              ),
+              e('p', { className: 'gp-waitlist-next-steps' }, t('waitlistNextSteps'))
+            )
+      )
+    ) : null;
+
     // Shared plan from URL params (goal/monthly/pace)
     var sharedPlan = useMemo(function () {
       return (!preset && !freshFlag) ? decodePlanFromUrl(urlParams) : null;
@@ -4199,7 +4318,8 @@
           ? e('div', { className: 'gp-tagline' }, e('h1', null, t('title')), e('p', null, t('tagline')))
           : null,
         content
-      )
+      ),
+      quickWaitlistModal
     );
   }
 

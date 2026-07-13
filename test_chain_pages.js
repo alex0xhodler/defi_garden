@@ -428,4 +428,37 @@ test('cross-links reuse the related nav styling via an added class token, withou
   assert.ok(!/class="related"/.test(html), 'a cross-link nav must never use the bare related-chains class exactly');
 });
 
+console.log('062 — waitlist CTA (the missing SEO -> north-star bridge)');
+test('renders exactly one waitlist CTA, deep-linking into plan.html with source=seo_chain', () => {
+  const matches = html.match(/href="\/plan\.html\?waitlist=1&amp;src=seo_chain"/g) || [];
+  assert.strictEqual(matches.length, 1, 'expected exactly one waitlist CTA link');
+});
+test('CTA copy is honest — reuses the app\'s existing disclosure copy verbatim, no new hype string', () => {
+  assert.ok(html.includes('Join the waitlist →'), 'missing tcpWaitlistCta copy');
+  assert.ok(html.includes('Free to join') && html.includes('exist yet') && html.includes("We&#39;ll email you when it does"),
+    'missing tcpWaitlistMicro honest-disclosure copy');
+});
+test('pitch line is chain-specific (dataset content, not a fixed template)', () => {
+  assert.ok(html.includes('A card that spends the yield from your Big positions'), 'missing Big-specific pitch');
+  const midHtml = gen.renderChainPage(byChain['Mid'], [], '2026-07-12');
+  assert.ok(midHtml.includes('A card that spends the yield from your Mid positions'), 'missing Mid-specific pitch');
+});
+test('waitlist block uses the neuro token system only, no hardcoded hex colors, reuses .cp-cta', () => {
+  const styleBlock = tp.renderWaitlistCtaStyle('cp');
+  assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'hardcoded hex color in the waitlist CTA style block');
+  assert.ok(styleBlock.includes('var(--neuro-shadow-raised)') && styleBlock.includes('.cp-cta'),
+    'must reuse existing neuro tokens/button style');
+  assert.ok(html.includes(styleBlock), 'waitlist style block missing from the rendered page <style>');
+  assert.ok(html.match(/<a class="cp-cta" href="\/plan\.html\?waitlist=1/), 'CTA link must reuse the existing .cp-cta button style');
+});
+test('every generated chain page (en + ko) renders the waitlist CTA', () => {
+  ranked.forEach(rec => {
+    const enHtml = gen.renderChainPage(rec, [], '2026-07-12', [], 'en');
+    const koHtml = gen.renderChainPage(rec, [], '2026-07-12', [], 'ko');
+    assert.ok(enHtml.includes('src=seo_chain'), `EN page missing waitlist CTA for ${rec.chain}`);
+    assert.ok(koHtml.includes('src=seo_chain'), `KO page missing waitlist CTA for ${rec.chain}`);
+    assert.ok(koHtml.includes('대기자 명단'), `KO page waitlist pitch not translated for ${rec.chain}`); // "waitlist" in Korean
+  });
+});
+
 console.log(`\n${passed} assertions passed`);
