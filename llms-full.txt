@@ -1,8 +1,8 @@
 # Complete DeFi Yield Index: Best Token Yields Across All Blockchains | DeFi Garden
 
-- Last Updated: 2026-07-13T07:31:05.765Z
+- Last Updated: 2026-07-13T07:52:38.618Z
 - Canonical: https://www.defi.garden
-- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-07-13T07:31:05.707Z)
+- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-07-13T07:52:38.568Z)
 - Total URLs: 4694
 - Categories: homepage(1), tokens(330), chains(100), poolTypes(0), highValue(7)
 
