@@ -3999,7 +3999,7 @@
           preset ? e('p', { className: 'gp-preset-intro' }, t('presetIntro', preset.name)) : null,
           showSharedIntro ? e('p', { className: 'gp-preset-intro' }, t('sharedPlanIntro')) : null,
           e('p', { className: 'gp-question' }, t('step1Question')),
-          e('p', { className: 'gp-splash-hook' }, t('splashHook')),
+          e('p', { className: 'gp-splash-hook' }, stableGuidanceApy ? t('splashHookLive', formatApy(stableGuidanceApy)) : t('splashHook')),
           e('div', { className: 'gp-goal-groups' },
             (function () {
               var activeCats = [
