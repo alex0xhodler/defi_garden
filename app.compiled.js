@@ -13,6 +13,8 @@ var {
 var LENDING_PROTOCOLS = ['aave', 'aave-v2', 'aave-v3', 'compound', 'compound-v2', 'compound-v3', 'morpho', 'morpho-blue', 'spark', 'sparklend', 'maple', 'euler', 'radiant', 'iron-bank', 'cream', 'benqi-lending', 'venus', 'tectonic', 'moonwell', 'strike', 'granary', 'pac-finance', 'dforce', 'annex'];
 var DEX_LP_PROTOCOLS = ['uniswap', 'uniswap-v2', 'uniswap-v3', 'curve', 'curve-dex', 'balancer', 'balancer-v2', 'pancakeswap', 'pancakeswap-v2', 'pancakeswap-v3', 'sushiswap', 'quickswap', 'traderjoe', 'spookyswap', 'spiritswap', 'honeyswap', 'dfyn', 'viperswap', 'pangolin', 'lydia', 'defiswap', 'varen', 'levinswap', 'aerodrome', 'aerodrome-slipstream', 'velodrome', 'solidly', 'bancor', 'kyberswap', 'dodoex', '1inch', 'osmosis', 'raydium', 'orca'];
 var STAKING_PROTOCOLS = ['lido', 'rocket-pool', 'rocketpool', 'ether.fi', 'ether.fi-stake', 'stakewise', 'jito', 'jito-liquid-staking', 'marinade', 'binance-staked-eth', 'coinbase-wrapped-staked-eth', 'frax', 'frax-ether', 'benqi', 'benqi-staked-avax', 'staked-frax-ether', 'ankr', 'pstake', 'stader', 'chorus-one', 'figment'];
+var YIELD_DERIVATIVES_PROTOCOLS = ['pendle', 'spectra', 'spectra-v2', 'spectra-metavaults', 'termmax', 'napier', 'sense', 'notional', 'element'];
+var RWA_PROTOCOLS = ['ondo', 'centrifuge', 'goldfinch', 'openeden', 'matrixdock', 'midas-rwa', 'midas', 'usual', 'credix', 'clearpool', 'maple', 'superstate', 'franklin', 'backed', 'hashnote', 'mountain-protocol'];
 
 // Enhanced Protocol URL mapping with more protocols
 var PROTOCOL_URLS = {
@@ -67,10 +69,40 @@ var PROTOCOL_URLS = {
   "stakewise": "https://stakewise.io"
 };
 
+// Nav category tabs (data-driven; key = internal category, null = "All").
+var CATEGORY_TABS = [{
+  key: null,
+  labelKey: 'navCatAll'
+}, {
+  key: 'Lending',
+  labelKey: 'navCatLending'
+}, {
+  key: 'Staking',
+  labelKey: 'navCatStaking'
+}, {
+  key: 'LP/DEX',
+  labelKey: 'navCatLpDex'
+}, {
+  key: 'RWA',
+  labelKey: 'navCatRwa'
+}, {
+  key: 'Yield Derivatives',
+  labelKey: 'navCatYieldDerivatives'
+}];
+
 // Pool type classification function
 var getPoolType = pool => {
   if (!pool.project) return 'Yield Farming';
   var projectName = pool.project.toLowerCase().replace(/\s+/g, '-');
+
+  // Protocol-native RWA / yield-derivative classification wins over the generic
+  // lending/dex/staking lists (honest, protocol-derived — spec 091).
+  if (RWA_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'RWA';
+  }
+  if (YIELD_DERIVATIVES_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'Yield Derivatives';
+  }
 
   // Check for lending pool indicators
   if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
@@ -290,6 +322,12 @@ var parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allProto
   }
   if (lowerQuery.includes('staking') || lowerQuery.includes('stake')) {
     poolTypes.push('Staking');
+  }
+  if (/\brwa\b/.test(lowerQuery) || /real[\s-]world/.test(lowerQuery)) {
+    poolTypes.push('RWA');
+  }
+  if (/\bpendle\b/.test(lowerQuery) || /yield[\s-]derivativ/.test(lowerQuery)) {
+    poolTypes.push('Yield Derivatives');
   }
   // Only add Yield Farming if it's explicitly mentioned as the main activity, not just descriptive
   if (lowerQuery.includes('farm') || lowerQuery.includes('farming')) {
@@ -1538,6 +1576,8 @@ function App() {
       'Lending': 0,
       'LP/DEX': 0,
       'Staking': 0,
+      'RWA': 0,
+      'Yield Derivatives': 0,
       'Yield Farming': 0
     };
     pools.forEach(pool => {
@@ -2550,20 +2590,15 @@ function App() {
     className: 'google-nav-row'
   }, React.createElement('div', {
     className: 'google-nav-tabs'
-  }, React.createElement('button', {
-    className: `google-nav-tab ${!selectedPoolTypes.length ? 'active' : ''}`,
-    onClick: () => setSelectedPoolTypes([])
-  }, 'All'), React.createElement('button', {
-    className: `google-nav-tab ${selectedPoolTypes.includes('Lending') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
-    onClick: () => setSelectedPoolTypes(['Lending'])
-  }, 'Lending'), React.createElement('button', {
-    className: `google-nav-tab ${selectedPoolTypes.includes('Staking') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
-    onClick: () => setSelectedPoolTypes(['Staking'])
-  }, 'Staking'), React.createElement('button', {
-    className: `google-nav-tab ${selectedPoolTypes.includes('LP/DEX') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
-    onClick: () => setSelectedPoolTypes(['LP/DEX'])
-  }, 'LP/DEX'),
-  // Quick filter buttons 
+  }, ...CATEGORY_TABS.map(({
+    key,
+    labelKey
+  }) => React.createElement('button', {
+    key: labelKey,
+    className: `google-nav-tab ${(key ? selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1 : !selectedPoolTypes.length) ? 'active' : ''}`,
+    onClick: () => setSelectedPoolTypes(key ? [key] : [])
+  }, t(labelKey))),
+  // Quick filter buttons
   React.createElement('button', {
     className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
     onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),

@@ -27,6 +27,17 @@ const STAKING_PROTOCOLS = [
   'ankr', 'pstake', 'stader', 'chorus-one', 'figment'
 ];
 
+const YIELD_DERIVATIVES_PROTOCOLS = [
+  'pendle', 'spectra', 'spectra-v2', 'spectra-metavaults', 'termmax', 'napier',
+  'sense', 'notional', 'element'
+];
+
+const RWA_PROTOCOLS = [
+  'ondo', 'centrifuge', 'goldfinch', 'openeden', 'matrixdock', 'midas-rwa',
+  'midas', 'usual', 'credix', 'clearpool', 'maple', 'superstate', 'franklin',
+  'backed', 'hashnote', 'mountain-protocol'
+];
+
 // Enhanced Protocol URL mapping with more protocols
 const PROTOCOL_URLS = {
   "lido": "https://lido.fi",
@@ -80,11 +91,31 @@ const PROTOCOL_URLS = {
   "stakewise": "https://stakewise.io"
 };
 
+// Nav category tabs (data-driven; key = internal category, null = "All").
+const CATEGORY_TABS = [
+  { key: null, labelKey: 'navCatAll' },
+  { key: 'Lending', labelKey: 'navCatLending' },
+  { key: 'Staking', labelKey: 'navCatStaking' },
+  { key: 'LP/DEX', labelKey: 'navCatLpDex' },
+  { key: 'RWA', labelKey: 'navCatRwa' },
+  { key: 'Yield Derivatives', labelKey: 'navCatYieldDerivatives' }
+];
+
 // Pool type classification function
 const getPoolType = (pool) => {
   if (!pool.project) return 'Yield Farming';
 
   const projectName = pool.project.toLowerCase().replace(/\s+/g, '-');
+
+  // Protocol-native RWA / yield-derivative classification wins over the generic
+  // lending/dex/staking lists (honest, protocol-derived — spec 091).
+  if (RWA_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'RWA';
+  }
+
+  if (YIELD_DERIVATIVES_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'Yield Derivatives';
+  }
 
   // Check for lending pool indicators
   if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
@@ -303,6 +334,12 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
   }
   if (lowerQuery.includes('staking') || lowerQuery.includes('stake')) {
     poolTypes.push('Staking');
+  }
+  if (/\brwa\b/.test(lowerQuery) || /real[\s-]world/.test(lowerQuery)) {
+    poolTypes.push('RWA');
+  }
+  if (/\bpendle\b/.test(lowerQuery) || /yield[\s-]derivativ/.test(lowerQuery)) {
+    poolTypes.push('Yield Derivatives');
   }
   // Only add Yield Farming if it's explicitly mentioned as the main activity, not just descriptive
   if (lowerQuery.includes('farm') || lowerQuery.includes('farming')) {
@@ -1611,7 +1648,7 @@ function App() {
   const poolTypeCounts = useMemo(() => {
     if (!pools.length) return {};
 
-    const counts = { 'All': 0, 'Lending': 0, 'LP/DEX': 0, 'Staking': 0, 'Yield Farming': 0 };
+    const counts = { 'All': 0, 'Lending': 0, 'LP/DEX': 0, 'Staking': 0, 'RWA': 0, 'Yield Derivatives': 0, 'Yield Farming': 0 };
 
     pools.forEach(pool => {
       // Chain mode: count all pools on selected chain
@@ -2665,24 +2702,15 @@ function App() {
       // Google-style navigation tabs - part of the header
       React.createElement('div', { className: 'google-nav-row' },
         React.createElement('div', { className: 'google-nav-tabs' },
-          React.createElement('button', {
-            className: `google-nav-tab ${!selectedPoolTypes.length ? 'active' : ''}`,
-            onClick: () => setSelectedPoolTypes([])
-          }, 'All'),
-          React.createElement('button', {
-            className: `google-nav-tab ${selectedPoolTypes.includes('Lending') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
-            onClick: () => setSelectedPoolTypes(['Lending'])
-          }, 'Lending'),
-          React.createElement('button', {
-            className: `google-nav-tab ${selectedPoolTypes.includes('Staking') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
-            onClick: () => setSelectedPoolTypes(['Staking'])
-          }, 'Staking'),
-          React.createElement('button', {
-            className: `google-nav-tab ${selectedPoolTypes.includes('LP/DEX') && selectedPoolTypes.length === 1 ? 'active' : ''}`,
-            onClick: () => setSelectedPoolTypes(['LP/DEX'])
-          }, 'LP/DEX'),
+          ...CATEGORY_TABS.map(({ key, labelKey }) =>
+            React.createElement('button', {
+              key: labelKey,
+              className: `google-nav-tab ${(key ? (selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1) : !selectedPoolTypes.length) ? 'active' : ''}`,
+              onClick: () => setSelectedPoolTypes(key ? [key] : [])
+            }, t(labelKey))
+          ),
 
-          // Quick filter buttons 
+          // Quick filter buttons
           React.createElement('button', {
             className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
             onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),

@@ -17,7 +17,15 @@ const translations = {
     minTvl: "Minimum TVL",
     minApy: "Minimum APY",
     noMin: "No Min",
-    
+
+    // Nav category tabs
+    navCatAll: "All",
+    navCatLending: "Lending",
+    navCatStaking: "Staking",
+    navCatLpDex: "LP/DEX",
+    navCatRwa: "RWA",
+    navCatYieldDerivatives: "Yield Derivatives",
+
     // Results
     showingResults: (count) => `${count} pool${count !== 1 ? 's' : ''} found`,
     chainYields: (chain) => `${chain} DeFi Yields`,
@@ -621,7 +629,15 @@ const translations = {
     minTvl: "최소 TVL",
     minApy: "최소 APY",
     noMin: "제한 없음",
-    
+
+    // Nav category tabs
+    navCatAll: "전체",
+    navCatLending: "대출",
+    navCatStaking: "스테이킹",
+    navCatLpDex: "LP/DEX",
+    navCatRwa: "RWA",
+    navCatYieldDerivatives: "이자 파생상품",
+
     // Results
     showingResults: (count) => `${count}개 풀 발견`,
     chainYields: (chain) => `${chain} DeFi 수익률`,
