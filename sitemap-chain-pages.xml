@@ -121,12 +121,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/cronos</loc>
+    <loc>https://www.defi.garden/chains/flare</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/flare</loc>
+    <loc>https://www.defi.garden/chains/cronos</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -156,12 +156,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/starknet</loc>
+    <loc>https://www.defi.garden/chains/stacks</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stacks</loc>
+    <loc>https://www.defi.garden/chains/starknet</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -181,12 +181,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/megaeth</loc>
+    <loc>https://www.defi.garden/chains/polkadot</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/polkadot</loc>
+    <loc>https://www.defi.garden/chains/megaeth</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -266,12 +266,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/multiversx</loc>
+    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
+    <loc>https://www.defi.garden/chains/multiversx</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -302,6 +302,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/citrea</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/defichain</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
