@@ -306,7 +306,7 @@ function analyzeYieldData(pools) {
 
 // Placeholder swapped in for the volatile timestamp values when comparing new
 // output against the committed file, so a no-content-change run compares equal
-// and skips the write (spec 082 — same honest "content as of" treatment 081
+// and skips the write (spec 083 — same honest "content as of" treatment 081
 // gave sitemap <lastmod>).
 const LLMS_TS_PLACEHOLDER = '__DEFI_GARDEN_LLMS_TS__';
 
@@ -328,7 +328,7 @@ function normalizeLlmsContent(content) {
  * Write `newContent` to `filePath` only if it differs from the on-disk file
  * modulo the volatile timestamp lines; otherwise leave the committed file
  * byte-identical (its timestamps preserved). Missing/unreadable file or any
- * unexpected comparison error → write fresh (pre-082 behavior, never crashes
+ * unexpected comparison error → write fresh (pre-083 behavior, never crashes
  * the CI pipeline). `now` is used only for the diagnostic log line. Returns
  * true if the file was written.
  */

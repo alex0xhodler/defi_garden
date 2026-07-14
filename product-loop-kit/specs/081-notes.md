@@ -114,8 +114,8 @@ regenerated sitemap output: `git status --porcelain -- 'sitemap*.xml' robots.txt
 llms.txt llms-full.txt` is EMPTY. `npm install` populated `node_modules` (gitignored,
 not shown in status). No sitemaps committed in this PR (per spec §C).
 
-## Addendum (2026-07-14, item 082)
+## Addendum (2026-07-14, item 083)
 `test_lastmod_honesty.js` as shipped hardcoded this build session's ephemeral
 scratchpad path for its fixture temp dir, so it ENOENT-failed 8/8 once the
-session died (caught live by 082's verifier). Repaired in 082's commit with
+session died (caught live by 083's verifier). Repaired in 083's commit with
 the repo-standard `os.tmpdir()` pattern — 8/8 green again; no logic changed.

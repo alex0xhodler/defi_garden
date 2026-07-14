@@ -1,4 +1,4 @@
-# 082 — implementation & verification notes
+# 083 — implementation & verification notes
 
 Implemented 2026-07-14. Honest `llms.txt` / `llms-full.txt` freshness: preserve the
 committed file (and its timestamps) byte-identical when a run's content is
@@ -22,9 +22,9 @@ itself, per spec §Change).
 - `test_lastmod_honesty.js` — verifier-evidenced prerequisite repair (see
   Deviations below): one-line fix of 081's hardcoded dead-session scratch path to
   the same `os.tmpdir()` pattern. Nothing else in the file changed.
-- `product-loop-kit/specs/082-notes.md` — this file.
+- `product-loop-kit/specs/083-notes.md` — this file.
 
-(`product-loop-kit/BACKLOG.md` + `specs/082.md` appeared in the working tree from
+(`product-loop-kit/BACKLOG.md` + `specs/083.md` appeared in the working tree from
 the loop's own task setup — NOT touched by this implementation.)
 
 ## Design / how it works
@@ -47,7 +47,7 @@ the loop's own task setup — NOT touched by this implementation.)
   `false`, file stays byte-identical). Otherwise → `fs.writeFileSync` and log
   `"<file> content changed — stamped <iso>"` (returns `true`). The read+compare is
   wrapped in try/catch; a missing/unreadable file or any unexpected comparison
-  error sets `unchanged = false` → writes fresh (exact pre-082 behavior, never
+  error sets `unchanged = false` → writes fresh (exact pre-083 behavior, never
   crashes the CI pipeline).
 - `main()` calls the helper for both `llms.txt` and `llms-full.txt`, passing
   `meta.updatedAt` purely for the log line.
@@ -66,11 +66,11 @@ the loop's own task setup — NOT touched by this implementation.)
   hardcoded scratchpad path from 081's (now dead) build session — and was proven
   by the verifier to fail 8/8 with ENOENT at HEAD today. Since it sits at
   position 33 in the `&&`-joined `npm test` chain, a permanent failure there
-  would make 082's test at position 34 unreachable in any chain run, voiding
+  would make 083's test at position 34 unreachable in any chain run, voiding
   acceptance criterion 1 ("wired into npm test"). Applied the same one-line
   `os.tmpdir()` fix there and changed NOTHING else in that file; it passes 8/8
   again (evidence below). This restores 081's regression coverage and the
-  chain's reachability — it is a repair required for 082's acceptance, not new
+  chain's reachability — it is a repair required for 083's acceptance, not new
   scope.
 - The regexes are anchored to the exact emitted line shapes rather
   than a looser global match, so an incidental `(fetched: …)` or `- Last Updated:`
@@ -169,7 +169,7 @@ mutation backup, logs). `npm install` populated `node_modules` (gitignored). Fin
  M package.json
  M product-loop-kit/BACKLOG.md   (loop setup — not touched by me)
  M test_lastmod_honesty.js       (prerequisite repair, see Deviations)
-?? product-loop-kit/specs/082.md (loop setup — not touched by me)
-?? product-loop-kit/specs/082-notes.md
+?? product-loop-kit/specs/083.md (loop setup — not touched by me)
+?? product-loop-kit/specs/083-notes.md
 ?? test_llms_freshness.js
 ```

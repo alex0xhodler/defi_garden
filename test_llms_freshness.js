@@ -1,4 +1,4 @@
-/* Regression tests for spec 082 — generate-llms.js must stop churning
+/* Regression tests for spec 083 — generate-llms.js must stop churning
    llms.txt / llms-full.txt when the content is unchanged. New output is
    compared against the on-disk file MODULO the three volatile timestamp lines
    (`- Last Updated: <iso>` in both files; the `(fetched: <iso-or-unavailable>)`
@@ -70,7 +70,7 @@ const NEW_UPDATED = '2026-07-14T09:09:09.009Z';
 const NEW_FETCHED = '2026-07-14T09:09:08.000Z';
 const URLS = ['https://www.defi.garden/?token=USDC', 'https://www.defi.garden/?token=ETH'];
 
-console.log('llms.txt / llms-full.txt freshness — 082');
+console.log('llms.txt / llms-full.txt freshness — 083');
 
 // (a) New content equal-modulo-timestamps to the committed file → NOT rewritten,
 // byte-identical, old timestamps preserved. (Fails an always-changed mutation.)
