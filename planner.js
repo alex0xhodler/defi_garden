@@ -1525,14 +1525,26 @@
       return mixStats(selectedSubs, apy);
     }, [selectedSubs, apy]);
 
-    // Keep slideCapital in sync with the mix (only when user has touched the mix)
+    // Keep slideCapital in sync with the LIVE-APY coverage the mix implies — from
+    // the initial seed on, not only after the user touches the mix. The upstream
+    // pick seeds `capital` with foreverNumber(target, guidanceApy) (~5.5% stable
+    // guidance, planner.js ~L3863), but the bloom recomputes coverage at the live
+    // blended apy, so the seeded value is stale: bug 099 — a single $20/mo pick
+    // seeded ≈$4,400–4,800 at the guidance rate while the live rate needs ≈$2,300,
+    // leaving the checkout hero card ($ from slideCapital) at ~2× the headline and
+    // forever line ($ from currentMixStats.neededCapital). Syncing unconditionally
+    // gives the hero card, headline and forever line ONE source of truth
+    // (neededCapital) and also refreshes on persona/APY change. No user input is
+    // lost: the amount step is skipped for subscriptions (capital is always a
+    // seeded default), and dragging the capital slider still wins — it changes
+    // slideCapital without changing neededCapital, so this effect never refires.
     useEffect(function () {
-      if (archetype !== 'subscription' || !isCapitalPath || !mixTouched) return;
+      if (archetype !== 'subscription' || !isCapitalPath) return;
       var needed = currentMixStats.neededCapital;
       if (needed > 0 && needed !== slideCapital) {
         setSlideCapital(needed);
       }
-    }, [currentMixStats.neededCapital, archetype, isCapitalPath, mixTouched]);
+    }, [currentMixStats.neededCapital, archetype, isCapitalPath]);
 
     // Live sliders state
     var slideMonthlyState = useState(monthly);
