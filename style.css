@@ -2020,7 +2020,7 @@ body {
   justify-content: space-between;
   gap: var(--space-24);
   padding: var(--space-16) var(--space-24);
-  min-height: auto;
+  min-height: 84px;
   border-radius: var(--neuro-radius-lg);
   flex-direction: row;
 }
@@ -2041,15 +2041,25 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: center;
+  text-align: right;
+}
+
+/* 095: calmer 0-yield hero (pairs with 092's honest .pool-apy-tag). The
+   0.00% number stays in the DOM — only its visual loudness drops (trust
+   rail intact: secondary color + opacity >= 0.7, legible in dark mode). */
+.pools-list .pool-apy-section:has(.pool-apy-tag) .pool-apy-hero {
+  color: var(--color-text-secondary);
+  opacity: 0.75;
 }
 
 .pools-list .pool-tvl-section {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
+  text-align: right;
   margin: 0;
   padding: 0;
   background: transparent !important;
