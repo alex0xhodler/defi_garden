@@ -1312,6 +1312,51 @@ function PoolDetail({
             : `This pool's rate moves a lot: ${_formatApy((pool.apyBase || 0) + (pool.apyReward || 0))} right now vs a ${_formatApy(pool.apyMean30d)} 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.`
         ),
 
+        // Rate-track-record note (088.1) — full-width, calm. Reuses 071's exact
+        // neuro styling. Surfaces 087's kpis.historyPoints + kpis.apyStdev as
+        // calm cautious-saver language. Yields entirely to the 071 volatility
+        // note (same divergence boolean) so the two are mutually exclusive, and
+        // renders nothing when kpis are missing (live SEO deep-link landings).
+        (!(typeof pool.apyMean30d === 'number' &&
+          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
+          pool.apyMean30d > 0 &&
+          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
+            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
+          pool.kpis && typeof pool.kpis === 'object' && Number(pool.kpis.historyPoints) >= 1) &&
+        React.createElement('div', {
+          className: 'rate-track-record-note',
+          style: {
+            background: 'var(--color-background)',
+            borderRadius: 'var(--neuro-radius-sm)',
+            boxShadow: 'var(--neuro-shadow-subtle)',
+            color: 'var(--color-text-secondary)',
+            fontSize: 'var(--font-size-sm)',
+            lineHeight: '1.5',
+            padding: '12px 16px',
+            marginBottom: '20px'
+          }
+        },
+          (function () {
+            var _cur = (pool.apyBase || 0) + (pool.apyReward || 0);
+            var _k = pool.kpis;
+            var hp = Number(_k.historyPoints);
+            var stdev = (typeof _k.apyStdev === 'number') ? _k.apyStdev : null;
+            if (hp < 7) {
+              return t
+                ? t('rateTrackRecordNew')
+                : "We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.";
+            }
+            if (stdev !== null && _cur > 0 && (stdev / _cur) <= 0.2) {
+              return t
+                ? t('rateTrackRecordSteady', hp)
+                : `Steady so far: across the ${hp} days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.`;
+            }
+            return t
+              ? t('rateTrackRecordTracked', hp)
+              : `We've been tracking this pool's rate for ${hp} days. Watching how a rate holds up over time is one honest way to judge it.`;
+          })()
+        ),
+
         // Tokens Section (if available)
         (pool.underlyingTokens && pool.underlyingTokens.length > 0) &&
         React.createElement('div', {
