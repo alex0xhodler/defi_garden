@@ -26,6 +26,12 @@ const translations = {
     navCatRwa: "RWA",
     navCatYieldDerivatives: "Yield Derivatives",
 
+    // Nav filter buttons (default/unselected labels)
+    navFilterChains: "Chains",
+    navFilterTvl: "TVL",
+    navFilterProtocols: "Protocols",
+    navFilterApy: "APY",
+
     // Results
     showingResults: (count) => `${count} pool${count !== 1 ? 's' : ''} found`,
     chainYields: (chain) => `${chain} DeFi Yields`,
@@ -637,6 +643,12 @@ const translations = {
     navCatLpDex: "LP/DEX",
     navCatRwa: "RWA",
     navCatYieldDerivatives: "이자 파생상품",
+
+    // Nav filter buttons (default/unselected labels)
+    navFilterChains: "체인",
+    navFilterTvl: "TVL",
+    navFilterProtocols: "프로토콜",
+    navFilterApy: "APY",
 
     // Results
     showingResults: (count) => `${count}개 풀 발견`,
