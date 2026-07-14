@@ -96,17 +96,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/op-mainnet</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/plume-mainnet</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/katana</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/chains/op-mainnet</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -121,12 +121,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/flare</loc>
+    <loc>https://www.defi.garden/ko/chains/cronos</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/cronos</loc>
+    <loc>https://www.defi.garden/ko/chains/flare</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -181,12 +181,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/polkadot</loc>
+    <loc>https://www.defi.garden/ko/chains/megaeth</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/megaeth</loc>
+    <loc>https://www.defi.garden/ko/chains/polkadot</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -427,11 +427,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/neo</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/chains/metis</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
