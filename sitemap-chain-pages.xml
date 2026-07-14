@@ -156,12 +156,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stacks</loc>
+    <loc>https://www.defi.garden/chains/starknet</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/starknet</loc>
+    <loc>https://www.defi.garden/chains/stacks</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -401,11 +401,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/igra</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/conflux</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
@@ -421,7 +416,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/igra</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/neo</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/metis</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
