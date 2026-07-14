@@ -304,6 +304,52 @@ function analyzeYieldData(pools) {
   return { topChainsByTvl, topProtocols, popularTokens, topTokenChainCombos };
 }
 
+// Placeholder swapped in for the volatile timestamp values when comparing new
+// output against the committed file, so a no-content-change run compares equal
+// and skips the write (spec 082 — same honest "content as of" treatment 081
+// gave sitemap <lastmod>).
+const LLMS_TS_PLACEHOLDER = '__DEFI_GARDEN_LLMS_TS__';
+
+/**
+ * Normalize the volatile timestamp values in llms.txt / llms-full.txt content
+ * to a stable placeholder: the two `- Last Updated: <iso>` lines and the
+ * `(fetched: <iso-or-"unavailable">)` value inside `- Data Sources: …`. Any
+ * non-string input is returned untouched (caller then treats it as a mismatch).
+ */
+function normalizeLlmsContent(content) {
+  if (typeof content !== 'string') return content;
+  return content
+    .replace(/^(- Last Updated: ).*$/gm, `$1${LLMS_TS_PLACEHOLDER}`)
+    .replace(/^(- Data Sources: sitemap\.xml, DefiLlama API \(fetched: )[^)]*(\))$/gm,
+      `$1${LLMS_TS_PLACEHOLDER}$2`);
+}
+
+/**
+ * Write `newContent` to `filePath` only if it differs from the on-disk file
+ * modulo the volatile timestamp lines; otherwise leave the committed file
+ * byte-identical (its timestamps preserved). Missing/unreadable file or any
+ * unexpected comparison error → write fresh (pre-082 behavior, never crashes
+ * the CI pipeline). `now` is used only for the diagnostic log line. Returns
+ * true if the file was written.
+ */
+function writeIfContentChanged(filePath, newContent, now) {
+  const label = path.basename(filePath);
+  let unchanged = false;
+  try {
+    const existing = fs.readFileSync(filePath, 'utf8');
+    unchanged = normalizeLlmsContent(newContent) === normalizeLlmsContent(existing);
+  } catch (e) {
+    unchanged = false; // missing/unreadable/compare failure → write fresh
+  }
+  if (unchanged) {
+    log(`${label} unchanged — kept committed timestamps`);
+    return false;
+  }
+  fs.writeFileSync(filePath, newContent, 'utf8');
+  log(`${label} content changed — stamped ${now}`);
+  return true;
+}
+
 /**
  * Build concise llms.txt content with search-optimized sections
  */
@@ -562,8 +608,8 @@ async function main() {
     const concisePath = path.join(OUTPUT_DIR, 'llms.txt');
     const fullPath = path.join(OUTPUT_DIR, 'llms-full.txt');
     
-    fs.writeFileSync(concisePath, conciseContent, 'utf8');
-    fs.writeFileSync(fullPath, fullContent, 'utf8');
+    writeIfContentChanged(concisePath, conciseContent, meta.updatedAt);
+    writeIfContentChanged(fullPath, fullContent, meta.updatedAt);
     
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
     
@@ -597,5 +643,8 @@ module.exports = {
   fetchYieldsSafe,
   pickHighYield,
   buildConcise,
-  buildFull
+  buildFull,
+  normalizeLlmsContent,
+  writeIfContentChanged,
+  LLMS_TS_PLACEHOLDER
 };

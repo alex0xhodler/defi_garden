@@ -20,8 +20,6 @@ const {
   LASTMOD_PLACEHOLDER,
 } = require('./generate-sitemap.js');
 
-const SCRATCH = '/tmp/claude-0/-home-user-defi-garden/655ed55a-51d8-5e18-8b0e-9a8b20a351d6/scratchpad';
-
 let passed = 0;
 function test(name, fn) {
   try { fn(); passed++; console.log('  ✓ ' + name); }
@@ -29,7 +27,7 @@ function test(name, fn) {
 }
 
 function withTmpDir(fn) {
-  const dir = fs.mkdtempSync(path.join(SCRATCH, 'lastmod-honesty-'));
+  const dir = fs.mkdtempSync(path.join(require('os').tmpdir(), 'lastmod-honesty-'));
   try { fn(dir); } finally { fs.rmSync(dir, { recursive: true, force: true }); }
 }
 
