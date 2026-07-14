@@ -101,12 +101,25 @@ function envelope(pools, generatedAt) {
 
 /** Normalize a serialized snapshot/meta file for the freshness compare: strip
  * the volatile `generatedAt` value and meta's derived `bytes` so a run that only
- * changed the timestamp compares equal to what's committed (081/083 pattern). */
+ * changed the timestamp compares equal to what's committed (081/083 pattern).
+ *
+ * Also strips any per-pool `"kpis":{…}` object (087 C1 — the churn trap): a
+ * separate step (`compute-kpis.js`) writes a derived `kpis` object INTO the
+ * committed snapshot/slices. Without this strip, THIS generator's next run would
+ * produce kpi-less content, compare-unequal, and rewrite the file (dropping
+ * kpis) every single run — infinite daily churn = a daily Vercel deploy. The
+ * kpis object is a flat single-level JSON object (values are numbers/null/short
+ * strings, no nested `}`), so `,?"kpis":\{[^}]*\}` matches it exactly. Stripped
+ * from BOTH sides of the compare: the fresh kpis-less generation has no match
+ * (unchanged), the kpi-enriched committed file loses its `,"kpis":{…}` — so when
+ * the railed pools are otherwise identical the two compare equal and nothing is
+ * rewritten. */
 function normalizeSnapshotContent(content) {
   if (typeof content !== 'string') return content;
   return content
     .replace(/("generatedAt":\s*)"[^"]*"/g, '$1"<TS>"')
-    .replace(/("bytes":\s*)\d+/g, '$1<BYTES>');
+    .replace(/("bytes":\s*)\d+/g, '$1<BYTES>')
+    .replace(/,?"kpis":\{[^}]*\}/g, '');
 }
 
 /** Build the complete set of intended output files ({ absPath, content }) from

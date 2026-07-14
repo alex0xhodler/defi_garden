@@ -10,6 +10,7 @@ on:
     paths:
       - 'generate-sitemap.js'
       - 'generate-pools-snapshot.js'
+      - 'compute-kpis.js'
       - 'generate-token-pages.js'
       - 'generate-chain-pages.js'
       - 'compile-app.js'
@@ -70,6 +71,12 @@ jobs:
         echo "📸 Generating static pools snapshot + per-chain/token slices..."
         node generate-pools-snapshot.js
         echo "✅ Pools snapshot generation completed"
+
+    - name: Compute KPIs + retain history (backlog 087 — data-layer leg 2 phase 0)
+      run: |
+        echo "📈 Appending slim history point + computing per-pool KPIs..."
+        node compute-kpis.js
+        echo "✅ KPI computation completed"
 
     - name: Generate token landing pages
       run: |
