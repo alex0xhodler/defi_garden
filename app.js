@@ -2492,6 +2492,11 @@ function App() {
             rel: 'noopener noreferrer'
           }, 'Defillama API'),
           '. Made with AI & Degen Love.'
+        ),
+        React.createElement('p', { className: 'app-footer-hub-links' },
+          React.createElement('a', { href: '/tokens' }, t('browseTokens')),
+          ' · ',
+          React.createElement('a', { href: '/chains' }, t('browseChains'))
         )
       )
     );
@@ -3015,6 +3020,11 @@ function App() {
           rel: 'noopener noreferrer'
         }, 'Defillama API'),
         '. Made with AI & Degen Love.'
+      ),
+      React.createElement('p', { className: 'app-footer-hub-links' },
+        React.createElement('a', { href: '/tokens' }, t('browseTokens')),
+        ' · ',
+        React.createElement('a', { href: '/chains' }, t('browseChains'))
       ),
 
       // Global dropdowns - rendered at top level to avoid any container overflow issues

@@ -2381,7 +2381,13 @@ function App() {
       href: 'https://api-docs.defillama.com/',
       target: '_blank',
       rel: 'noopener noreferrer'
-    }, 'Defillama API'), '. Made with AI & Degen Love.')));
+    }, 'Defillama API'), '. Made with AI & Degen Love.'), React.createElement('p', {
+      className: 'app-footer-hub-links'
+    }, React.createElement('a', {
+      href: '/tokens'
+    }, t('browseTokens')), ' · ', React.createElement('a', {
+      href: '/chains'
+    }, t('browseChains')))));
   }
   return React.createElement('div', {
     className: `app ${selectedToken || chainMode && selectedChain ? 'has-results' : ''}`
@@ -2838,7 +2844,13 @@ function App() {
     href: 'https://api-docs.defillama.com/',
     target: '_blank',
     rel: 'noopener noreferrer'
-  }, 'Defillama API'), '. Made with AI & Degen Love.'),
+  }, 'Defillama API'), '. Made with AI & Degen Love.'), React.createElement('p', {
+    className: 'app-footer-hub-links'
+  }, React.createElement('a', {
+    href: '/tokens'
+  }, t('browseTokens')), ' · ', React.createElement('a', {
+    href: '/chains'
+  }, t('browseChains'))),
   // Global dropdowns - rendered at top level to avoid any container overflow issues
   activeDropdown === 'chains' && availableChains.length > 1 && React.createElement('div', {
     className: 'global-filter-dropdown chains-dropdown',

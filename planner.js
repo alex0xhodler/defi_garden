@@ -1503,14 +1503,22 @@
     var mixTouchedState = useState(false);
     var mixTouched = mixTouchedState[0], setMixTouched = mixTouchedState[1];
 
-    // Seed mix from covered-bundle when not yet touched by user
+    // Seed the mix with exactly the user's picked subscription (the anchor goal)
+    // when it hasn't been touched yet. This previously seeded from
+    // coveredBundle(slideCapital, apy, goal).covered — EVERY anchored-ladder rung
+    // the capital already covered — so Spotify ($12/mo, the cheapest non-anchor
+    // rung) silently tagged along whenever capital covered anchor + $12/mo (bug
+    // 085). coveredBundle stays in use for the unlocked/pct display and the
+    // report/share bundles; only the mix SEED changed. slideCapital is
+    // intentionally NOT in the dep array now: the seeded value no longer depends
+    // on capital, so keeping it would only cause redundant [goal] re-seeds on
+    // every capital change while the mix is untouched. mixStats ignores an
+    // unresolvable id, so the extra `goal` truthiness guard is just belt-and-braces.
     useEffect(function () {
-      if (!mixTouched && apy > 0) {
-        var ids = coveredBundle(slideCapital, apy, goal).covered.map(function (r) { return r.id; });
-        if (!ids.length) ids = [goal];
-        setSelectedSubs(ids);
+      if (!mixTouched && apy > 0 && goal) {
+        setSelectedSubs([goal]);
       }
-    }, [apy, goal, slideCapital, mixTouched]);
+    }, [apy, goal, mixTouched]);
 
     // Derive capital from the mix whenever selectedSubs changes
     var currentMixStats = useMemo(function () {

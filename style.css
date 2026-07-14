@@ -2442,6 +2442,13 @@ body {
   background: rgba(59, 130, 246, 0.1);
 }
 
+/* Hub nav inside the disclosure footer (086): /tokens + /chains, reusing the
+   existing .app-footer a styling so no one-off visual language is introduced.
+   The ' · ' separator text node inherits .app-footer p's secondary color. */
+.app-footer-hub-links {
+  margin-top: var(--space-4);
+}
+
 /* SEO surface hub links (045) — static footer nav to /tokens and /chains,
    present in home.html's raw markup for crawlers. Normal document flow
    (not fixed like .app-footer above), so it sits below the mounted app. */
@@ -2468,6 +2475,15 @@ body {
 .seo-hub-links a:focus-visible {
   outline: none;
   box-shadow: var(--focus-ring);
+}
+
+/* Analytics mode duplicates these two links inside the visible (fixed)
+   .app-footer, so the static crawler footer — which the fixed footer would
+   otherwise occlude — is hidden there (086). Planner mode has no fixed
+   .app-footer, so the static links stay visible + clickable. Mode is set on
+   <html data-app-mode> by home.html's IA router before paint. */
+html[data-app-mode="analytics"] .seo-hub-links {
+  display: none;
 }
 
 /* Reset Filters Button - neumorphic recovery action (empty state) */
