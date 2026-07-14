@@ -729,6 +729,12 @@ function AnimatedNumber({ value, formatFn = (v) => v, duration = 1200, delay = 0
 const APY_SANITY_LIMIT = 1000;
 const DEFAULT_MIN_TVL = 10000000; // $10M default floor
 
+// A pool with (near-)zero total APY is a no-supply-yield / collateral asset —
+// it must never top the default browse (092). Below 0.01% reads as "0.00%"
+// once formatApy rounds to 2 decimals — the exact population the UX audit flags.
+const NO_SUPPLY_YIELD_EPSILON = 0.01;
+const hasNoSupplyYield = (pool) => ((pool.apyBase || 0) + (pool.apyReward || 0)) < NO_SUPPLY_YIELD_EPSILON;
+
 // Stablecoin symbol allowlist — mirrors planner.js's STABLE_SYMBOLS/isStableSymbol
 // exactly. Duplicated rather than imported: this repo has no build step or module
 // system linking app.js and planner.js, so each browser script is self-contained
@@ -1683,6 +1689,10 @@ function App() {
       // Sort by selected criteria
       filtered.sort((a, b) => {
         if (sortBy === 'tvl') {
+          // Yielding pools before no-supply-yield pools, then TVL desc (092)
+          const noA = hasNoSupplyYield(a) ? 1 : 0;
+          const noB = hasNoSupplyYield(b) ? 1 : 0;
+          if (noA !== noB) return noA - noB;
           return b.tvlUsd - a.tvlUsd;
         } else {
           const apyA = (a.apyBase || 0) + (a.apyReward || 0);
@@ -1750,6 +1760,10 @@ function App() {
       // Sort by selected criteria
       filtered.sort((a, b) => {
         if (sortBy === 'tvl') {
+          // Yielding pools before no-supply-yield pools, then TVL desc (092)
+          const noA = hasNoSupplyYield(a) ? 1 : 0;
+          const noB = hasNoSupplyYield(b) ? 1 : 0;
+          if (noA !== noB) return noA - noB;
           return b.tvlUsd - a.tvlUsd;
         } else {
           const apyA = (a.apyBase || 0) + (a.apyReward || 0);
@@ -1817,6 +1831,10 @@ function App() {
     // Sort by selected criteria
     filtered.sort((a, b) => {
       if (sortBy === 'tvl') {
+        // Yielding pools before no-supply-yield pools, then TVL desc (092)
+        const noA = hasNoSupplyYield(a) ? 1 : 0;
+        const noB = hasNoSupplyYield(b) ? 1 : 0;
+        if (noA !== noB) return noA - noB;
         return b.tvlUsd - a.tvlUsd;
       } else {
         const apyA = (a.apyBase || 0) + (a.apyReward || 0);
@@ -2490,13 +2508,15 @@ function App() {
                   delay: 100 + delayBase
                 })
           ),
-          React.createElement('div', { className: 'pool-apy-preview' },
-            React.createElement(AnimatedNumber, {
-              value: quickPreview.dailyEarnings,
-              formatFn: (v) => formatUsd(v) + '/day',
-              delay: 150 + delayBase
-            })
-          )
+          hasNoSupplyYield(pool)
+            ? React.createElement('div', { className: 'pool-apy-tag' }, t('noSupplyYield'))
+            : React.createElement('div', { className: 'pool-apy-preview' },
+                React.createElement(AnimatedNumber, {
+                  value: quickPreview.dailyEarnings,
+                  formatFn: (v) => formatUsd(v) + '/day',
+                  delay: 150 + delayBase
+                })
+              )
         )
       ),
 
