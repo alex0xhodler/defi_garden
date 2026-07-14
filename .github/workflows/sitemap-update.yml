@@ -22,6 +22,13 @@ on:
       - 'pool-detail-styles.css'
       - 'package.json'
 
+# Serialize the daily cron and push-triggered runs so their checkouts/pushes
+# can't interleave (the live 04:32/04:50 collision window — 081). Never cancel an
+# in-flight run: a half-finished sitemap push is worse than waiting.
+concurrency:
+  group: sitemap-update
+  cancel-in-progress: false
+
 jobs:
   update-sitemap:
     runs-on: ubuntu-latest
