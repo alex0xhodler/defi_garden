@@ -681,9 +681,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TBTC" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TBTC&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TBTC" />
-    <lastmod>2026-07-14T07:30:50.043Z</lastmod>
+    <lastmod>2026-07-14T13:36:26.227Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.93</priority>
+    <priority>0.94</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TETH</loc>
@@ -846,15 +846,6 @@
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.93</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=VGUSDC</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VGUSDC" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VGUSDC&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VGUSDC" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=VSOL</loc>
