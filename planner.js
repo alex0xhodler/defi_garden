@@ -139,6 +139,13 @@
     if (rate <= 0) return Infinity;
     return (Number(monthlyTarget) * 12) / rate;
   }
+  // ceil100(x) — round UP to the nearest $100. The single rounding used for every
+  // capital-needed figure (mixStats, the persona-pick capital seed, the
+  // funding-mode chips) so all surfaces render the identical number (spec 089).
+  function ceil100(x) {
+    var v = Number(x) || 0;
+    return isFinite(v) ? Math.ceil(v / 100) * 100 : 0;
+  }
   // Cumulative subscription ladder — pure, unit-testable.
   // items: array of { id, emoji, labelKey, monthly }
   // apy: annual rate %; capital: user lump sum or null
@@ -270,7 +277,7 @@
     var neededCapital = 0;
     if (combinedMonthly > 0 && apy > 0) {
       var fn = foreverNumber(combinedMonthly, apy);
-      neededCapital = isFinite(fn) ? Math.ceil(fn / 100) * 100 : 0;
+      neededCapital = ceil100(fn);
     }
     return { count: ids.length, combinedMonthly: combinedMonthly, neededCapital: neededCapital, ids: ids };
   }
@@ -655,6 +662,15 @@
     var pk = TEMPERAMENT_TO_PERSONA[personaKey] || personaKey;
     var raw = blendedApy(curated);
     return PERSONAS[pk] && PERSONAS[pk].degenHaircut ? raw / 3 : raw;
+  }
+  // personaBlendedApy(pools, personaKey) — the ONE blended-rate derivation for a
+  // persona: curate its pools, take the blended (median) APY, apply the degen ⅓
+  // haircut INSIDE the rate (trust rail). This is byte-for-byte the expression the
+  // temperament card shows (effectiveApy(curatePools(pools, id, 3), id)) and the
+  // one Bloom uses as its `apy` on a fresh arrival, so seeding the subscription
+  // capital from it keeps strip == sidebar == checkout consistent (spec 089).
+  function personaBlendedApy(pools, personaKey) {
+    return effectiveApy(curatePools(pools, personaKey, 3), personaKey);
   }
 
   // Human-readable protocol name from pool.project slug (e.g. "aave-v3" → "Aave")
@@ -3774,6 +3790,13 @@
     var arrivalDismissedState = useState(false);
     var arrivalDismissed = arrivalDismissedState[0], setArrivalDismissed = arrivalDismissedState[1];
 
+    // 089: true once the user has PINNED a capital number (deep-link ?capital=,
+    // shared plan, or an explicit funding-mode / custom-amount pick). While false,
+    // the subscription capital is system-seeded from the chosen persona's blended
+    // rate and re-derived on persona change; once true, the user's number wins and
+    // is never re-seeded.
+    var capitalUserSetRef = useRef(!!(sharedPlan && sharedPlan.capital));
+
     function advance(toStep) {
       if (prefersReducedMotion) { setStep(toStep); return; }
       setThinking(true);
@@ -3783,6 +3806,7 @@
 
     function restart() {
       clearSavedPlan();
+      capitalUserSetRef.current = false; // 089
       setAnswers({ goal: null, monthly: null, years: null, persona: null, capital: null, fundingMode: null, deadline: null });
       setStep('goal'); setMode('convo'); setCm(''); setCc(''); setFt(''); setShowNudge(false); setFmSelected(null);
       setShowSharedIntro(false);
@@ -3823,18 +3847,42 @@
       setStep('bloom');
     }, [sharedPlan, answers]);
 
+    // 089: keep the subscription capital seed correct across the pools-loading
+    // race (persona may be picked before yields.llama.fi resolves) and across
+    // persona changes (onWhatIf safer/bolder). Runs only for a subscription
+    // capital plan whose capital the user has NOT pinned; recomputes the
+    // standardized capital-needed from the chosen persona's blended rate — the
+    // same expression Bloom uses as apy, so strip/sidebar/checkout stay unified.
+    // No-ops once answers.capital already equals the target (stable, no loop).
+    useEffect(function () {
+      if (loadStatus !== 'ready') return;
+      if (capitalUserSetRef.current) return;
+      if (goalArchetype(answers.goal) !== 'subscription') return;
+      if (answers.fundingMode !== 'capital' || !answers.persona) return;
+      var g = goalById(answers.goal);
+      var rate = personaBlendedApy(pools, answers.persona);
+      if (!g || !g.target || !(rate > 0)) return;
+      var seed = ceil100(foreverNumber(g.target, rate));
+      if (seed > 0 && seed !== answers.capital) {
+        setAnswers(function (a) { return Object.assign({}, a, { capital: seed }); });
+      }
+    }, [loadStatus, pools, answers.persona, answers.fundingMode, answers.goal, answers.capital]);
+
     // ---- step handlers ----
     function pickGoal(id) {
       var arch = goalArchetype(id);
       setShowNudge(false);
       if (arch === 'subscription') {
-        // Amount step ("How much can you put in?") is temporarily skipped: seed a
-        // default capital (the goal's minimum forever) and go straight to the bloom,
-        // where the mix toggles let users adjust the amount/combo.
-        // To re-enable the step, restore: advance('funding-mode').
-        var sg = goalById(id);
-        var seedCapital = sg && sg.target ? Math.ceil(foreverNumber(sg.target, guidanceApy) / 100) * 100 : null;
-        setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: null, fundingMode: 'capital', capital: seedCapital, monthly: null }); });
+        // 089: do NOT seed capital here. The capital-needed can only be computed
+        // once a risk/persona is chosen (its blended rate feeds the forever
+        // number). Seeding from the pre-risk guidance rate produced a stale $
+        // that was shown in the strip DURING the risk step and disagreed with
+        // Bloom's real-rate figure. capital stays null (so the 💰 strip row can't
+        // render pre-risk) and is seeded in pickPersona / the backstop effect.
+        // The amount step ("How much can you put in?") is skipped: the bloom mix
+        // toggles let users adjust the amount/combo (restore: advance('funding-mode')).
+        capitalUserSetRef.current = false;
+        setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: null, fundingMode: 'capital', capital: null, monthly: null }); });
         advance('temperament');
       } else {
         setAnswers(function (a) { return Object.assign({}, a, { goal: id, persona: a.persona || (arch !== 'growth' ? 'stable' : null) }); });
@@ -3871,6 +3919,8 @@
     }
     function pickFundingMode(mode, amount) {
       var arch = goalArchetype(answers.goal);
+      // 089: a capital pick here is a user-pinned number — never re-seed it.
+      if (mode === 'capital') capitalUserSetRef.current = true;
       setAnswers(function (a) { return Object.assign({}, a, {
         fundingMode: mode,
         capital: mode === 'capital' ? amount : null,
@@ -3904,7 +3954,21 @@
       advance('temperament');
     }
     function pickPersona(v) {
-      setAnswers(function (a) { return Object.assign({}, a, { persona: v }); });
+      setAnswers(function (a) {
+        var next = Object.assign({}, a, { persona: v });
+        // 089: subscription capital path — now that a risk/persona exists, seed the
+        // standardized capital-needed from the CHOSEN persona's blended rate (degen
+        // ⅓ haircut inside — trust rail), the exact expression the temperament card
+        // showed and Bloom uses as apy. Only when the user hasn't pinned their own
+        // capital. If pools aren't ready yet (rate 0), leave null — the backstop
+        // effect seeds it the moment they resolve, keeping every surface unified.
+        if (!capitalUserSetRef.current && goalArchetype(a.goal) === 'subscription' && a.fundingMode === 'capital') {
+          var g = goalById(a.goal);
+          var rate = personaBlendedApy(pools, v);
+          next.capital = (g && g.target && rate > 0) ? ceil100(foreverNumber(g.target, rate)) : null;
+        }
+        return next;
+      });
       advance('bloom');
     }
 
@@ -4056,27 +4120,34 @@
         var arch3 = goalArchetype(answers.goal);
 
         if (arch3 === 'subscription') {
-          // Subscription: single smart amount step — tiered options anchored to chosen goal
-          var subLadder = buildLadder(subscriptionLadder(answers.goal), guidanceApy, null, answers.goal);
+          // Subscription: single smart amount step — tiered options anchored to chosen goal.
+          // 089: this step is only reachable via the bloom strip's 💰 edit tap, i.e.
+          // AFTER a persona exists — so use the chosen persona's blended rate (the
+          // unified derivation) for the chip $ values, not the pre-risk guidance
+          // rate; falls back to guidance only if the persona rate isn't ready.
+          var subFundRate = (answers.persona && personaBlendedApy(pools, answers.persona) > 0)
+            ? personaBlendedApy(pools, answers.persona) : guidanceApy;
+          var subFundIllustrative = !(answers.persona && personaBlendedApy(pools, answers.persona) > 0) && guidanceIsIllustrative;
+          var subLadder = buildLadder(subscriptionLadder(answers.goal), subFundRate, null, answers.goal);
           var anchorRung = subLadder[0];
           var anchorMonthly = anchorRung ? anchorRung.monthly : (goalTarget3 || 20);
-          var anchorForeverAmt = anchorRung ? anchorRung.foreverAmt : foreverNumber(anchorMonthly, guidanceApy);
+          var anchorForeverAmt = anchorRung ? anchorRung.foreverAmt : foreverNumber(anchorMonthly, subFundRate);
           var subContextLine = null;
           if (isFinite(anchorForeverAmt)) {
-            var anchorChipVal = Math.ceil(anchorForeverAmt / 100) * 100;
+            var anchorChipVal = ceil100(anchorForeverAmt);
             var subContextText = t('amountContextSub',
               goalLabel(t, answers.goal),
               formatUsd(anchorMonthly),
-              formatApy(guidanceApy),
+              formatApy(subFundRate),
               formatUsdRounded(anchorChipVal)
             );
-            if (guidanceIsIllustrative) {
+            if (subFundIllustrative) {
               subContextText = subContextText + ' ' + t('fundingContextIllustrative');
             }
             subContextLine = e('p', { className: 'gp-goal-context' }, subContextText);
           }
           var subTierOptions = subLadder.map(function (rung, idx) {
-            var chipVal = Math.ceil(rung.foreverAmt / 100) * 100;
+            var chipVal = ceil100(rung.foreverAmt);
             var hint = idx === 0
               ? t('amountMinimumTag') + ' · ' + t('coversForever', goalLabel(t, answers.goal))
               : t('coversPlus', t(rung.labelKey));
@@ -4298,7 +4369,8 @@
           { id: 'degen',  emoji: '🔥', title: t('personaDegenTitle'),  risk: t('personaDegenRisk') }
         ].map(function (card) {
           var curated = curatePools(pools, card.id, 3);
-          var eff = effectiveApy(curated, card.id);
+          // 089: same derivation the persona-pick capital seed + Bloom apy use.
+          var eff = personaBlendedApy(pools, card.id);
           var apyStr = eff > 0 ? parseFloat(eff.toFixed(1)) + '%' : '—';
           // Projected outcome — futureValue for monthly path, monthly yield for capital path
           var projLabel = null;
@@ -4453,6 +4525,7 @@
     PERSONAS: PERSONAS, RWA_ALLOWLIST: RWA_ALLOWLIST,
     formatUsdRounded: formatUsdRounded,
     timeToTarget: timeToTarget, foreverNumber: foreverNumber, effectiveApy: effectiveApy,
+    ceil100: ceil100, personaBlendedApy: personaBlendedApy,
     cumulativeYield: cumulativeYield, monthsUntilYieldCoversTarget: monthsUntilYieldCoversTarget,
     capitalForDeadline: capitalForDeadline, dailyYield: dailyYield,
     migratePlan: migratePlan, buildPlanHero: buildPlanHero, chipHintsFor: chipHintsFor,
