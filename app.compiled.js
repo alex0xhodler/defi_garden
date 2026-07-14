@@ -710,7 +710,7 @@ function App() {
   var [selectedProtocols, setSelectedProtocols] = useState([]); // New state for protocol filtering
   var [minTvl, setMinTvl] = useState(DEFAULT_MIN_TVL);
   var [minApy, setMinApy] = useState(0);
-  var [viewMode, setViewMode] = useState('grid');
+  var [viewMode, setViewMode] = useState('list');
   var [sortBy, setSortBy] = useState('apy');
   var [userSortedApy, setUserSortedApy] = useState(false); // true when user explicitly clicks APY sort
   var [currentPage, setCurrentPage] = useState(1);
