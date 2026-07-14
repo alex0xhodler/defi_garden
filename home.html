@@ -75,6 +75,11 @@
             var ANALYTICS_PARAMS = ['token', 'chain', 'pool', 'poolTypes', 'protocols', 'minTvl', 'minApy', 'app'];
             var needsAnalytics = ANALYTICS_PARAMS.some(function(k) { return params.has(k); });
             window.__APP_MODE = needsAnalytics ? 'analytics' : 'planner';
+            // Mirror the mode onto <html> before paint (same pattern as
+            // data-theme below) so CSS can hide the static .seo-hub-links
+            // footer in analytics mode, where the same links are now
+            // duplicated inside the visible (fixed) .app-footer (086).
+            document.documentElement.setAttribute('data-app-mode', window.__APP_MODE);
 
             // Apply saved theme before paint to avoid flash
             window.process = { env: {} };

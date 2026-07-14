@@ -102,7 +102,9 @@ const translations = {
     // Footer
     poweredBy: "Powered by",
     madeWith: "Made with AI & Degen Love.",
-    
+    browseTokens: "Browse tokens",
+    browseChains: "Browse chains",
+
     // Page titles (for SEO)
     pageTitle: "DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains",
     tokenPageTitle: (token) => `${token.toUpperCase()} Yields | DeFi Garden 🌱`,
@@ -700,7 +702,9 @@ const translations = {
     // Footer
     poweredBy: "제공:",
     madeWith: "AI와 디젠 사랑으로 제작.",
-    
+    browseTokens: "토큰 둘러보기",
+    browseChains: "체인 둘러보기",
+
     // Page titles (for SEO)
     pageTitle: "DeFi Garden 🌱 | 모든 체인에서 최고 수익률 찾기",
     tokenPageTitle: (token) => `${token.toUpperCase()} 수익률 | DeFi Garden 🌱`,
