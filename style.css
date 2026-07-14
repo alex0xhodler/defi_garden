@@ -1089,7 +1089,39 @@ body {
   display: none;
 }
 
+/* Primary category rail + secondary filter cluster grouping (spec 093) */
+.google-nav-primary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-shrink: 0;
+}
+
+.google-nav-secondary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  flex-shrink: 0;
+}
+
+.google-nav-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--color-border);
+  margin: 0 var(--space-12);
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.google-nav-tab svg,
+.google-filter-btn svg {
+  flex-shrink: 0;
+}
+
 .google-nav-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-6);
   flex-shrink: 0;
   padding: var(--space-6) var(--space-12);
   background: transparent;
@@ -1116,6 +1148,9 @@ body {
 }
 
 .google-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-6);
   flex-shrink: 0;
   padding: var(--space-8) var(--space-16);
   background: var(--color-surface);
@@ -1128,7 +1163,6 @@ body {
   white-space: nowrap;
   box-shadow: var(--neuro-shadow-subtle);
   transition: all 0.2s ease;
-  margin-left: var(--space-8);
 }
 
 .google-filter-btn:hover:not(.active):not(.has-selection) {
@@ -1684,9 +1718,27 @@ body {
     gap: var(--space-4);
   }
 
+  /* Keep primary rail + divider + secondary cluster on one scrollable row (spec 093) */
+  .google-nav-primary,
+  .google-nav-secondary {
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+  }
+
+  .google-nav-divider {
+    flex-shrink: 0;
+    margin: 0 var(--space-8);
+  }
+
   .google-nav-tab {
     padding: var(--space-8) var(--space-12);
     font-size: var(--font-size-xs);
+  }
+
+  .google-nav-tab svg,
+  .google-filter-btn svg {
+    width: 14px;
+    height: 14px;
   }
 
   .google-tools-btn {

@@ -92,14 +92,49 @@ const PROTOCOL_URLS = {
 };
 
 // Nav category tabs (data-driven; key = internal category, null = "All").
+// `icon` keys into NAV_ICONS below (spec 093).
 const CATEGORY_TABS = [
-  { key: null, labelKey: 'navCatAll' },
-  { key: 'Lending', labelKey: 'navCatLending' },
-  { key: 'Staking', labelKey: 'navCatStaking' },
-  { key: 'LP/DEX', labelKey: 'navCatLpDex' },
-  { key: 'RWA', labelKey: 'navCatRwa' },
-  { key: 'Yield Derivatives', labelKey: 'navCatYieldDerivatives' }
+  { key: null, labelKey: 'navCatAll', icon: 'all' },
+  { key: 'Lending', labelKey: 'navCatLending', icon: 'lending' },
+  { key: 'Staking', labelKey: 'navCatStaking', icon: 'staking' },
+  { key: 'LP/DEX', labelKey: 'navCatLpDex', icon: 'lpdex' },
+  { key: 'RWA', labelKey: 'navCatRwa', icon: 'rwa' },
+  { key: 'Yield Derivatives', labelKey: 'navCatYieldDerivatives', icon: 'yieldderiv' }
 ];
+
+// Monochrome Lucide-style line glyphs (24x24 viewBox) for nav tabs + filter
+// buttons. Rendered via navIcon() with stroke="currentColor" so each glyph
+// inherits its control's text color (inactive/active/has-selection) automatically.
+const NAV_ICONS = {
+  // grid — "all / everything"
+  all: 'M3 3h7v7H3z M14 3h7v7h-7z M14 14h7v7h-7z M3 14h7v7H3z',
+  // landmark / bank — lending
+  lending: 'M3 21h18 M4 10h16 M5 21v-11 M9 21v-11 M15 21v-11 M19 21v-11 M12 3 4 10h16z',
+  // layers — staking
+  staking: 'M12 2 2 7l10 5 10-5-10-5z M2 12l10 5 10-5 M2 17l10 5 10-5',
+  // arrow-left-right (swap) — LP/DEX
+  lpdex: 'M8 3 4 7l4 4 M4 7h16 M16 21l4-4-4-4 M20 17H4',
+  // building — real-world assets
+  rwa: 'M4 22V4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18 M4 22h16 M9 7h2 M13 7h2 M9 11h2 M13 11h2 M10 22v-4h4v4',
+  // trending-up — yield derivatives
+  yieldderiv: 'M22 7l-8.5 8.5-5-5L2 17 M16 7h6v6',
+  // link — chains
+  chains: 'M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71 M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71',
+  // database (cylinder) — TVL
+  tvl: 'M4 6c0-1.66 3.58-3 8-3s8 1.34 8 3 M4 6c0 1.66 3.58 3 8 3s8-1.34 8-3 M4 6v12c0 1.66 3.58 3 8 3s8-1.34 8-3V6 M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3',
+  // cube / box — protocols
+  protocols: 'M21 7.5l-9-5-9 5v9l9 5 9-5v-9z M3 7.5l9 5 9-5 M12 12.5v10',
+  // percent — APY
+  apy: 'M19 5 5 19 M7 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 1 0 0-5z M17 14.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 1 0 0-5z'
+};
+
+// Render a 16x16 currentColor line glyph for the nav rail (spec 093).
+const navIcon = (key) =>
+  React.createElement('svg', {
+    viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': 1.8,
+    'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'aria-hidden': 'true',
+    width: 16, height: 16
+  }, React.createElement('path', { d: NAV_ICONS[key] }));
 
 // Pool type classification function
 const getPoolType = (pool) => {
@@ -2711,38 +2746,61 @@ function App() {
       // Google-style navigation tabs - part of the header
       React.createElement('div', { className: 'google-nav-row' },
         React.createElement('div', { className: 'google-nav-tabs' },
-          ...CATEGORY_TABS.map(({ key, labelKey }) =>
-            React.createElement('button', {
-              key: labelKey,
-              className: `google-nav-tab ${(key ? (selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1) : !selectedPoolTypes.length) ? 'active' : ''}`,
-              onClick: () => setSelectedPoolTypes(key ? [key] : [])
-            }, t(labelKey))
+          // Primary rail: category tabs ("what am I browsing")
+          React.createElement('div', { className: 'google-nav-primary' },
+            ...CATEGORY_TABS.map(({ key, labelKey, icon }) =>
+              React.createElement('button', {
+                key: labelKey,
+                className: `google-nav-tab ${(key ? (selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1) : !selectedPoolTypes.length) ? 'active' : ''}`,
+                onClick: () => setSelectedPoolTypes(key ? [key] : [])
+              },
+                navIcon(icon),
+                React.createElement('span', { className: 'google-nav-label' }, t(labelKey))
+              )
+            )
           ),
 
-          // Quick filter buttons
-          React.createElement('button', {
-            className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
-            onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),
-            id: 'chains-btn'
-          }, selectedChain || 'Chains'),
+          // Primary/secondary boundary
+          React.createElement('span', { className: 'google-nav-divider', 'aria-hidden': 'true' }),
 
-          React.createElement('button', {
-            className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
-            onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
-            id: 'tvl-btn'
-          }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : 'TVL'),
+          // Secondary cluster: filter buttons ("how is it narrowed")
+          React.createElement('div', { className: 'google-nav-secondary' },
+            React.createElement('button', {
+              className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
+              onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),
+              id: 'chains-btn'
+            },
+              navIcon('chains'),
+              React.createElement('span', { className: 'google-nav-label' }, selectedChain || t('navFilterChains'))
+            ),
 
-          React.createElement('button', {
-            className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
-            onClick: () => setActiveDropdown(activeDropdown === 'protocols' ? null : 'protocols'),
-            id: 'protocols-btn'
-          }, selectedProtocols.length > 0 ? `${selectedProtocols.length} Protocol${selectedProtocols.length > 1 ? 's' : ''}` : 'Protocols'),
+            React.createElement('button', {
+              className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
+              onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
+              id: 'tvl-btn'
+            },
+              navIcon('tvl'),
+              React.createElement('span', { className: 'google-nav-label' }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : t('navFilterTvl'))
+            ),
 
-          React.createElement('button', {
-            className: `google-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
-            onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy'),
-            id: 'apy-btn'
-          }, minApy > 0 ? `${minApy}%+` : 'APY')
+            React.createElement('button', {
+              className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
+              onClick: () => setActiveDropdown(activeDropdown === 'protocols' ? null : 'protocols'),
+              id: 'protocols-btn'
+            },
+              navIcon('protocols'),
+              React.createElement('span', { className: 'google-nav-label' }, selectedProtocols.length > 0 ? `${selectedProtocols.length} Protocol${selectedProtocols.length > 1 ? 's' : ''}` : t('navFilterProtocols'))
+            ),
+
+            React.createElement('button', {
+              className: `google-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
+              onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy'),
+              id: 'apy-btn'
+            },
+              navIcon('apy'),
+              React.createElement('span', { className: 'google-nav-label' }, minApy > 0 ? `${minApy}%+` : t('navFilterApy'))
+            )
+          )
         ),
 
         // Results count only
