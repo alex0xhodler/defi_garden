@@ -531,6 +531,9 @@ const translations = {
     // the nested `planner` key instead and use identical copy on purpose.
     tcpWaitlistPitchToken: (sym) => `A card that spends your ${sym} yield — never your ${sym} itself. Join the waitlist and be first when it's ready.`,
     tcpWaitlistPitchChain: (chain) => `A card that spends the yield from your ${chain} positions — never the principal. Join the waitlist and be first when it's ready.`,
+    // Generic hub/A-Z pitch (079) — no subject, since a hub spans mixed
+    // tokens/chains; same honest framing as the per-subject pitches above.
+    tcpWaitlistPitchHub: "A card that spends your DeFi yield — never your principal. Join the waitlist and be first when it's ready.",
     // Yield headline (066) — honest per-token custom KPI, computed live from
     // the SAME blended-rate/forever-number math the planner itself uses.
     tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
@@ -1107,6 +1110,9 @@ const translations = {
     tcpChainCta: (chain) => `${chain}의 실시간 풀 보기 →`,
     tcpWaitlistPitchToken: (sym) => `내 ${sym} 수익으로 결제되는 카드예요 — ${sym} 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.`,
     tcpWaitlistPitchChain: (chain) => `${chain} 포지션의 수익으로 결제되는 카드예요 — 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.`,
+    // Generic hub/A-Z pitch (079) — no subject, since a hub spans mixed
+    // tokens/chains; same honest framing as the per-subject pitches above.
+    tcpWaitlistPitchHub: "내 디파이 수익으로 결제되는 카드예요 — 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.",
     // Yield headline (066) — honest per-token custom KPI, computed live from
     // the SAME blended-rate/forever-number math the planner itself uses.
     tcpYieldHeadline: (sym, apyStr, foreverAmtStr, monthly, subLabel) =>
