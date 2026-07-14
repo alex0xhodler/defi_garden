@@ -6,26 +6,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Alephium" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Alephium&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Alephium" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
+    <lastmod>2026-07-14T04:20:00.606Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDT&amp;chain=Alephium</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Alephium" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Alephium&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Alephium" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ALPH&amp;chain=Alephium</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ALPH&amp;chain=Alephium" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ALPH&amp;chain=Alephium&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ALPH&amp;chain=Alephium" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.43</priority>
   </url>
 </urlset>

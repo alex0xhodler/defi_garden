@@ -6,26 +6,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Rollux" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Rollux&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Rollux" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
+    <lastmod>2026-07-14T04:20:00.606Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDT&amp;chain=Rollux</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Rollux" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Rollux&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Rollux" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDC&amp;chain=Rollux</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Rollux" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Rollux&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Rollux" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
   </url>
 </urlset>

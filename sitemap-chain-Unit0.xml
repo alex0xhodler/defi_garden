@@ -6,35 +6,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Unit0" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Unit0&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Unit0" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
+    <lastmod>2026-07-14T04:20:00.606Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDT&amp;chain=Unit0</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Unit0" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Unit0&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Unit0" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WUNIT0&amp;chain=Unit0</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WUNIT0&amp;chain=Unit0" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WUNIT0&amp;chain=Unit0&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WUNIT0&amp;chain=Unit0" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.48</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SANCHO&amp;chain=Unit0</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SANCHO&amp;chain=Unit0" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SANCHO&amp;chain=Unit0&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SANCHO&amp;chain=Unit0" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.42</priority>
   </url>
 </urlset>

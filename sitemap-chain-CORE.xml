@@ -6,62 +6,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=CORE" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=CORE&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=CORE" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
+    <lastmod>2026-07-14T04:20:00.606Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=CORE&amp;chain=CORE</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CORE&amp;chain=CORE" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CORE&amp;chain=CORE&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CORE&amp;chain=CORE" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.66</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WCORE&amp;chain=CORE</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WCORE&amp;chain=CORE" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WCORE&amp;chain=CORE&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WCORE&amp;chain=CORE" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.57</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=STCORE&amp;chain=CORE</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STCORE&amp;chain=CORE" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STCORE&amp;chain=CORE&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STCORE&amp;chain=CORE" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.46</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=BTCB&amp;chain=CORE</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTCB&amp;chain=CORE" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTCB&amp;chain=CORE&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTCB&amp;chain=CORE" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.87</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDT&amp;chain=CORE</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=CORE" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=CORE&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=CORE" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDC&amp;chain=CORE</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=CORE" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=CORE&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=CORE" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
   </url>
 </urlset>
