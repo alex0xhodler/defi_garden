@@ -791,11 +791,25 @@
     var bl = (navigator.language || 'en').toLowerCase();
     return bl.indexOf('ko') === 0 ? 'ko' : 'en';
   }
+  // Resilient accessor for the `translations` global (loaded via a separate
+  // deferred translations.min.js). If that script failed / was interrupted /
+  // lost a deploy race, the bare `translations` dereference used to throw an
+  // uncaught ReferenceError inside makeT's useMemo and kill the planner render
+  // at the funnel top (spec 082). Return the real object when present, else
+  // null so callers degrade gracefully instead of throwing.
+  function safeTranslations() {
+    if (typeof translations !== 'undefined' && translations) return translations;
+    if (typeof window !== 'undefined' && window.translations) return window.translations;
+    return null;
+  }
   function makeT(lang) {
-    var dict = (translations[lang] && translations[lang].planner) || translations.en.planner;
-    var fallback = translations.en.planner;
     return function t(key) {
       var args = Array.prototype.slice.call(arguments, 1);
+      // Re-check on every call so strings recover if translations loads late.
+      var tr = safeTranslations();
+      if (!tr) return key; // graceful degradation: key-echo (same as unknown key)
+      var dict = (tr[lang] && tr[lang].planner) || tr.en.planner;
+      var fallback = tr.en.planner;
       var v = dict[key];
       if (v == null) v = fallback[key];
       if (typeof v === 'function') return v.apply(null, args);
@@ -803,9 +817,11 @@
     };
   }
   function rootT(lang, key) {
-    var d = translations[lang] || translations.en;
+    var tr = safeTranslations();
+    if (!tr) return key; // graceful degradation; sole caller renders this as text
+    var d = tr[lang] || tr.en;
     var v = d[key];
-    if (v == null) v = translations.en[key];
+    if (v == null) v = tr.en[key];
     return v;
   }
 
