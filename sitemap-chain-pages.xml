@@ -146,12 +146,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/xlayer</loc>
+    <loc>https://www.defi.garden/chains/ink</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/ink</loc>
+    <loc>https://www.defi.garden/chains/xlayer</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -261,12 +261,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
+    <loc>https://www.defi.garden/chains/neutron</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/neutron</loc>
+    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -282,11 +282,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/flow</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/rootstock</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -312,6 +307,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/unichain</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/rootstock</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -351,12 +351,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/tac</loc>
+    <loc>https://www.defi.garden/chains/fuel-ignition</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/fuel-ignition</loc>
+    <loc>https://www.defi.garden/chains/tac</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -406,6 +406,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/igra</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/conflux</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
@@ -417,11 +422,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/world-chain</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/igra</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>

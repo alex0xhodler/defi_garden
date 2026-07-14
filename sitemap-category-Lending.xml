@@ -47,19 +47,19 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=USDT&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;poolTypes=Lending" />
+    <loc>https://www.defi.garden/?token=USDS&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDS&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDS&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDS&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=USDS&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDS&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDS&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDS&amp;poolTypes=Lending" />
+    <loc>https://www.defi.garden/?token=USDT&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -83,6 +83,15 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=USDE&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending&amp;lang=ko" />
@@ -96,15 +105,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;poolTypes=Lending" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;poolTypes=Lending&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;poolTypes=Lending" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=USDE&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
