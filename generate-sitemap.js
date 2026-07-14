@@ -28,6 +28,42 @@ const SITEMAP_MIN_TVL = 10000000; // = app.js DEFAULT_MIN_TVL
 const APY_SANITY_LIMIT = 1000; // = app.js APY_SANITY_LIMIT
 const SITEMAP_MIN_QUALIFYING_POOLS = 2;
 
+// Root sitemap-*.xml files this generator must NEVER delete during stale-child
+// cleanup: they are owned by generate-token-pages.js / generate-chain-pages.js
+// (021/041/050), joined to the index here only via existsSync guards.
+const FOREIGN_PAGE_SITEMAPS = [
+  'sitemap-token-pages.xml',
+  'sitemap-token-pages-ko.xml',
+  'sitemap-chain-pages.xml',
+  'sitemap-chain-pages-ko.xml',
+];
+
+/**
+ * Delete stale root sitemap-*.xml children this generator did NOT write this
+ * run (080). Keeps the deployed tree in lockstep with the live generator output
+ * so the index never references — and CI never re-commits — orphaned lists.
+ *
+ * Never touches: sitemap.xml (the index — the regex requires a hyphen after
+ * "sitemap", so it can't match), files written this run (writtenFilenames), or
+ * the four foreign page-sitemaps (FOREIGN_PAGE_SITEMAPS). Every deletion is
+ * logged individually plus a summary count — never silent.
+ */
+function cleanupStaleSitemaps(writtenFilenames, dir = process.cwd()) {
+  const written = new Set(writtenFilenames);
+  const keep = new Set(FOREIGN_PAGE_SITEMAPS);
+  const deleted = [];
+  fs.readdirSync(dir)
+    .filter(f => /^sitemap-.*\.xml$/.test(f))
+    .forEach(f => {
+      if (written.has(f) || keep.has(f)) return;
+      fs.unlinkSync(path.join(dir, f));
+      deleted.push(f);
+      console.log(`🗑️  Deleted stale sitemap: ${f}`);
+    });
+  console.log(`🧹 Stale sitemap cleanup: removed ${deleted.length} orphan file(s)`);
+  return deleted;
+}
+
 function isAnomalousApy(pool) {
   return ((pool.apyBase || 0) + (pool.apyReward || 0)) > APY_SANITY_LIMIT;
 }
@@ -378,9 +414,11 @@ async function generateSitemapSuite(poolsOverride) {
 
     // Write all sitemaps
     const generatedFilenames = Object.keys(sitemaps);
+    const writtenFilenames = [];
     for (const filename of generatedFilenames) {
       if (sitemaps[filename].length > 0) {
         fs.writeFileSync(filename, wrapSitemap(sitemaps[filename].join('')));
+        writtenFilenames.push(filename);
         console.log(`✅ Generated ${filename} with ${sitemaps[filename].length} URLs`);
       }
     }
@@ -431,6 +469,10 @@ async function generateSitemapSuite(poolsOverride) {
     indexXml += '</sitemapindex>';
     fs.writeFileSync('sitemap.xml', indexXml);
     console.log('✅ Generated sitemap.xml (Index)');
+
+    // 080: remove stale generator-owned children this run did not write, so the
+    // deployed tree matches the live output and the index has no orphans.
+    cleanupStaleSitemaps(writtenFilenames);
 
     return true;
   } catch (error) {
@@ -524,4 +566,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType };
+module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS };

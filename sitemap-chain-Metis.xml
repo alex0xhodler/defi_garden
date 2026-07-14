@@ -6,62 +6,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Metis" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Metis&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Metis" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
+    <lastmod>2026-07-14T04:20:00.606Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=HERA&amp;chain=Metis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HERA&amp;chain=Metis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HERA&amp;chain=Metis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HERA&amp;chain=Metis" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.58</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=M.USDC&amp;chain=Metis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=M.USDC&amp;chain=Metis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=M.USDC&amp;chain=Metis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=M.USDC&amp;chain=Metis" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.51</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WETH&amp;chain=Metis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Metis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Metis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Metis" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=M.USDT&amp;chain=Metis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=M.USDT&amp;chain=Metis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=M.USDT&amp;chain=Metis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=M.USDT&amp;chain=Metis" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.46</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=ARTMETIS&amp;chain=Metis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ARTMETIS&amp;chain=Metis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ARTMETIS&amp;chain=Metis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ARTMETIS&amp;chain=Metis" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.43</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WMETIS&amp;chain=Metis</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WMETIS&amp;chain=Metis" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WMETIS&amp;chain=Metis&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WMETIS&amp;chain=Metis" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.47</priority>
   </url>
 </urlset>

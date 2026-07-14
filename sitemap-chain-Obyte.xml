@@ -6,26 +6,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Obyte" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Obyte&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Obyte" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
+    <lastmod>2026-07-14T04:20:00.606Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=GBYTE&amp;chain=Obyte</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GBYTE&amp;chain=Obyte" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GBYTE&amp;chain=Obyte&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GBYTE&amp;chain=Obyte" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.45</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=OSWAP&amp;chain=Obyte</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OSWAP&amp;chain=Obyte" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OSWAP&amp;chain=Obyte&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OSWAP&amp;chain=Obyte" />
-    <lastmod>2026-07-08T12:06:46.571Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.40</priority>
   </url>
 </urlset>
