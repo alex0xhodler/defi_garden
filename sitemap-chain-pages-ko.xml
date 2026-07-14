@@ -176,12 +176,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/megaeth</loc>
+    <loc>https://www.defi.garden/ko/chains/bob</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bob</loc>
+    <loc>https://www.defi.garden/ko/chains/megaeth</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -422,11 +422,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/neo</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/chains/metis</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
