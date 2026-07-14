@@ -136,22 +136,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stable</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/berachain</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/ink</loc>
+    <loc>https://www.defi.garden/chains/stable</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/xlayer</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/ink</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -422,6 +422,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/neo</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/metis</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
