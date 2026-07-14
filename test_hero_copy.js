@@ -88,6 +88,8 @@ function startServer() {
 async function loadHero(browser, poolsMode) {
   const context = await browser.newContext();
   const pageErrors = [];
+  // spec 059: serve a STALE snapshot so the FE falls back to the fixtured LIVE endpoint deterministically (a 200 keeps the browser console clean; a 404 would trip pageErrors guards).
+  await context.route('**/data/pools-snapshot*', route => route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
   // Route the pools API first (route order: first match wins in Playwright).
   await context.route('**yields.llama.fi/pools**', route => {
     if (poolsMode === 'ok') {

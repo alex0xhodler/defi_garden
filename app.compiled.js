@@ -740,6 +740,7 @@ function App() {
   var [deadPoolParam, setDeadPoolParam] = useState(null); // ?pool=<id> present but not in live pools (spec 072)
   var urlDirectPoolViewFiredRef = useRef(null); // pool id already tracked as a url_direct landing, prevents double-fire vs card click
   var pendingNlSearchTrackRef = useRef(null); // NL-Enter search awaiting a real results_count once filteredPools settles
+  var poolsSourceRef = useRef(null); // where `pools` came from: 'snapshot' | 'live' (spec 059 — drives the escape-hatch refetch)
 
   // Language state management
   var [language, setLanguage] = useState(() => {
@@ -921,23 +922,67 @@ function App() {
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, [currentView, detailPool]);
-  // Background fetch pools data after UI loads
+  // Background fetch pools data after UI loads.
+  // Snapshot-first (spec 059): when this load can be served by the railed static
+  // snapshot (no ?pool= deep link — those ALWAYS go live, spec 072 dead-pool
+  // empty state; and the initial minTvl is at/above the $10M floor the snapshot
+  // is filtered to), try the small snapshot behind a 15-min freshness gate.
+  // ANY failure at ANY step falls straight through to today's exact live path —
+  // the snapshot is a perf layer, never a source of truth the app can't route
+  // around. Trust rails (APY_SANITY_LIMIT / DEFAULT_MIN_TVL / anomaly demotion)
+  // are byte-untouched and run identically on whichever payload loads.
   useEffect(() => {
+    var SNAPSHOT_MAX_AGE_MS = 15 * 60 * 1000; // 3x the intended ~5-min cadence
+
+    var loadLive = async startTime => {
+      var response = await fetch('https://yields.llama.fi/pools');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      var data = await response.json();
+      poolsSourceRef.current = 'live';
+      setPools(data.data || []);
+      Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
+        pools_count: data.data?.length || 0,
+        source: 'live'
+      });
+    };
+
+    // Returns true if the snapshot was fresh, valid and applied; false → caller
+    // must fall back to live. Never throws (any error resolves to false).
+    var tryLoadSnapshot = async startTime => {
+      try {
+        var metaRes = await fetch('/data/pools-snapshot-meta.json');
+        if (!metaRes.ok) return false;
+        var meta = await metaRes.json();
+        if (!meta || meta.schemaVersion !== 1) return false;
+        var age = Date.now() - new Date(meta.generatedAt).getTime();
+        if (!(age >= 0) || age > SNAPSHOT_MAX_AGE_MS) return false; // stale/invalid date → live
+        var snapRes = await fetch('/data/pools-snapshot.json');
+        if (!snapRes.ok) return false;
+        var snap = await snapRes.json();
+        if (!snap || snap.schemaVersion !== 1 || !Array.isArray(snap.pools) || snap.pools.length === 0) return false;
+        poolsSourceRef.current = 'snapshot';
+        setPools(snap.pools);
+        Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
+          pools_count: snap.pools.length,
+          source: 'snapshot'
+        });
+        return true;
+      } catch (e) {
+        return false;
+      }
+    };
     var fetchPoolsInBackground = async () => {
       var startTime = Date.now();
       try {
         setError('');
-        var response = await fetch('https://yields.llama.fi/pools');
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
+        var urlParams = getUrlParams();
+        var snapshotEligible = !urlParams.pool && urlParams.minTvl >= DEFAULT_MIN_TVL;
+        if (snapshotEligible && (await tryLoadSnapshot(startTime))) {
+          return;
         }
-        var data = await response.json();
-        setPools(data.data || []);
-
-        // Track successful data load
-        Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
-          pools_count: data.data?.length || 0
-        });
+        await loadLive(startTime);
       } catch (err) {
         setError('Failed to load yield data. Please try again later.');
         console.error('Error fetching pools:', err);
@@ -953,6 +998,33 @@ function App() {
     setLoading(true);
     fetchPoolsInBackground();
   }, []);
+
+  // Escape hatch (spec 059 B3): the railed snapshot only contains pools >= $10M
+  // TVL, so if `pools` came from the snapshot and the effective minTvl later
+  // drops below the floor (TVL chips, All/Popular chain modes, popstate, or a
+  // reset), it would show fewer pools than live would. Fetch live once and
+  // replace `pools` so no filter state ever under-reports vs a live load. On
+  // failure the snapshot pools (all >= $10M) stay — never worse than before.
+  useEffect(() => {
+    if (poolsSourceRef.current !== 'snapshot' || minTvl >= DEFAULT_MIN_TVL) return;
+    var alive = true;
+    (async () => {
+      try {
+        var response = await fetch('https://yields.llama.fi/pools');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        var data = await response.json();
+        if (!alive) return;
+        poolsSourceRef.current = 'live';
+        setPools(data.data || []);
+      } catch (err) {
+        // Keep the snapshot pools; they're all >= $10M so nothing regresses.
+        console.error('Escape-hatch live refetch failed:', err);
+      }
+    })();
+    return () => {
+      alive = false;
+    };
+  }, [minTvl]);
 
   // Handle pool detail URL parameter after pools are loaded
   useEffect(() => {

@@ -123,6 +123,8 @@ async function loadAndCollectErrors(browser, urlPath, viewport) {
   });
   // Route the pools fetch before navigating so the browser never egresses to
   // the (proxy-blocked) host; serve the captured live snapshot or the fixture.
+  // spec 059: serve a STALE snapshot so the FE falls back to the fixtured/captured POOLS_BODY deterministically (200 keeps the console clean).
+  await page.route('**/data/pools-snapshot*', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
   await page.route(POOLS_URL, (route) => route.fulfill({
     status: 200, contentType: 'application/json', body: POOLS_BODY
   }));

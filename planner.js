@@ -3531,8 +3531,14 @@
 
     useEffect(function () {
       var alive = true;
-      function startFetch() {
-        if (!alive) return;
+      // Snapshot-first (spec 059 C1): the planner's floors are all >= $10M, so
+      // the railed static snapshot always covers it. Try the small snapshot
+      // behind a 15-min freshness gate; ANY failure at ANY step falls straight
+      // through to the live POOLS_API fetch — exactly today's path. Planner
+      // rails (floors, sanity limit, stable curation, degen haircut) run
+      // unchanged on whichever payload loads, so no relax/escape-hatch exists.
+      var SNAPSHOT_MAX_AGE_MS = 15 * 60 * 1000;
+      function goLive() {
         fetch(POOLS_API)
           .then(function (r) { return r.json(); })
           .then(function (j) {
@@ -3541,6 +3547,27 @@
             setLoadStatus('ready');
           })
           .catch(function () { if (alive) setLoadStatus('error'); });
+      }
+      function startFetch() {
+        if (!alive) return;
+        fetch('/data/pools-snapshot-meta.json')
+          .then(function (r) { if (!r.ok) throw new Error('meta'); return r.json(); })
+          .then(function (meta) {
+            if (!meta || meta.schemaVersion !== 1) throw new Error('meta invalid');
+            var age = Date.now() - new Date(meta.generatedAt).getTime();
+            if (!(age >= 0) || age > SNAPSHOT_MAX_AGE_MS) throw new Error('stale');
+            return fetch('/data/pools-snapshot.json');
+          })
+          .then(function (r) { if (!r.ok) throw new Error('snap'); return r.json(); })
+          .then(function (snap) {
+            if (!alive) return;
+            if (!snap || snap.schemaVersion !== 1 || !Array.isArray(snap.pools) || snap.pools.length === 0) {
+              throw new Error('snap invalid');
+            }
+            setPools(snap.pools);
+            setLoadStatus('ready');
+          })
+          .catch(function () { if (alive) goLive(); });
       }
       var id;
       if (typeof requestIdleCallback !== 'undefined') {

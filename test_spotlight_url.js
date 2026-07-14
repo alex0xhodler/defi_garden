@@ -176,6 +176,8 @@ async function main() {
     // Pools are always routed to this test's own deterministic fixture
     // (regardless of live reachability) so the chain/token assertions below
     // are exact, not dependent on whatever pools happen to be live right now.
+    // spec 059: serve a STALE snapshot so the FE falls back to the fixtured LIVE endpoint deterministically (a 200 keeps the browser console clean; a 404 would trip pageErrors guards).
+    await page.route('**/data/pools-snapshot*', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
     await page.route('https://yields.llama.fi/pools', (route) => route.fulfill({
       status: 200, contentType: 'application/json', body: FIXTURE_RESPONSE
     }));

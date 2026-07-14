@@ -126,6 +126,8 @@ async function main() {
         status: 200, contentType: 'application/javascript', body: fs.readFileSync(localPath)
       }));
     }
+    // spec 059: serve a STALE snapshot so the FE falls back to the fixtured LIVE endpoint deterministically (a 200 keeps the browser console clean; a 404 would trip pageErrors guards).
+    await page.route('**/data/pools-snapshot*', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
     await page.route('https://yields.llama.fi/pools', (route) => route.fulfill({
       status: 200, contentType: 'application/json', body: FIXTURE_RESPONSE
     }));
