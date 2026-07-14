@@ -35,6 +35,11 @@
       .hub-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .hub-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
       @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } }
+      .hub-waitlist { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 20px 22px; margin: 24px 0; }
+      .hub-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--color-text); }
+      .hub-waitlist p { color: var(--color-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
+      .hub-waitlist .hub-cta { margin: 4px 0 10px; }
+      .hub-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
     </style>
     <script type="text/javascript">
         window.MIXPANEL_CUSTOM_LIB_URL = "https://mp.defi.garden/lib.min.js";
@@ -92,6 +97,12 @@
         <a href="https://www.defi.garden/tokens/iusdt">IUSDT</a>
         <a href="https://www.defi.garden/tokens/ixs">IXS</a>
       </div>
+    </div>
+    <div class="hub-waitlist">
+      <h2>Get early access to the card</h2>
+      <p>A card that spends your DeFi yield — never your principal. Join the waitlist and be first when it&#39;s ready.</p>
+      <a class="hub-cta" href="/plan.html?waitlist=1&amp;src=seo_tokens_az">Join the waitlist →</a>
+      <p class="hub-waitlist-micro">Free to join • Card doesn&#39;t exist yet • We&#39;ll email you when it does</p>
     </div>
     <p class="note">Yields are live from DefiLlama and pass DeFi Garden&#39;s trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.</p>
   </main>

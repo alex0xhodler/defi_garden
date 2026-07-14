@@ -117,6 +117,50 @@ test('omitting extraLocs behaves exactly as before 045 (backward compatible)', (
   assert.strictEqual((xml.match(/<loc>/g) || []).length, rankedChains.length);
 });
 
+console.log('waitlist CTA on the hub/az spine (079) — SEO → north-star bridge');
+// EN + KO variants of each surface, so both language mirrors are asserted.
+const tokenHubKo = tp.renderTokenHubPage(rankedTokens, azGroups, 'ko');
+const azHtmlKo = tp.renderTokenAzPage(groupA, 'ko');
+const chainHubKo = cp.renderChainHubPage(rankedChains, 'ko');
+// Count of `.hub-waitlist` blocks — the no-double-render guard.
+function waitlistBlockCount(html) {
+  return (html.match(/class="hub-waitlist"/g) || []).length;
+}
+[
+  ['tokens hub (en)', tokenHubHtml, 'seo_tokens_hub'],
+  ['tokens hub (ko)', tokenHubKo, 'seo_tokens_hub'],
+  ['tokens A–Z (en)', azHtml, 'seo_tokens_az'],
+  ['tokens A–Z (ko)', azHtmlKo, 'seo_tokens_az'],
+  ['chains hub (en)', chainHubHtml, 'seo_chains_hub'],
+  ['chains hub (ko)', chainHubKo, 'seo_chains_hub']
+].forEach(([label, html, source]) => {
+  test(`${label} renders exactly one waitlist CTA block`, () => {
+    assert.strictEqual(waitlistBlockCount(html), 1, 'expected exactly one .hub-waitlist block');
+  });
+  test(`${label} CTA links to plan.html with src=${source}`, () => {
+    assert.ok(html.includes(`href="/plan.html?waitlist=1&amp;src=${source}"`), 'missing/incorrect waitlist href');
+    // No other surface's source leaked onto this page.
+    ['seo_tokens_hub', 'seo_tokens_az', 'seo_chains_hub']
+      .filter(s => s !== source)
+      .forEach(other => assert.ok(!html.includes(`src=${other}"`), 'leaked source ' + other));
+  });
+  test(`${label} reuses the existing .hub-cta button chrome + verbatim honesty micro-line`, () => {
+    assert.ok(/<a class="hub-cta" href="\/plan\.html\?waitlist=1/.test(html), 'CTA anchor must carry the existing .hub-cta class');
+    assert.ok(html.includes('class="hub-waitlist-micro"'), 'missing honesty micro-line');
+  });
+});
+test('EN hub CTA carries the EN copy; KO hub CTA carries the KO copy', () => {
+  assert.ok(tokenHubHtml.includes('Get early access to the card'), 'EN heading missing');
+  assert.ok(tokenHubHtml.includes('Card doesn&#39;t exist yet'), 'EN honesty micro-line missing');
+  assert.ok(tokenHubKo.includes('카드 얼리 액세스 신청하기'), 'KO heading missing');
+  assert.ok(tokenHubKo.includes('카드는 아직 없어요'), 'KO honesty micro-line missing');
+});
+test('the waitlist block sits before the trailing trust note (same placement as leaf pages)', () => {
+  const waitlistIdx = tokenHubHtml.indexOf('class="hub-waitlist"');
+  const noteIdx = tokenHubHtml.lastIndexOf('class="note"');
+  assert.ok(waitlistIdx > -1 && noteIdx > waitlistIdx, 'waitlist block must precede the trust note');
+});
+
 console.log('home.html — static (pre-JS) links into the SEO surface (045)');
 const homeHtml = fs.readFileSync(path.join(__dirname, 'home.html'), 'utf8');
 test('raw HTML contains a static anchor to /tokens', () => {

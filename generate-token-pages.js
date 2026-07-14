@@ -437,7 +437,7 @@ function renderHubStyleBlock() {
       .hub-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .hub-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
       @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } }
-    </style>`;
+${renderWaitlistCtaStyle('hub')}    </style>`;
 }
 
 /** Render the /tokens hub (index) page: top tokens by TVL directly, every
@@ -496,7 +496,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens`, { page_ty
         ${azLinks}
       </div>
     </div>
-    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
   </main>
 </body>
 </html>
@@ -546,7 +546,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/az/${group.
         ${links}
       </div>
     </div>
-    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t)}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
   </main>
 </body>
 </html>

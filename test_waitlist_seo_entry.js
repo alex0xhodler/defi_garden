@@ -111,6 +111,35 @@ async function main() {
         throw new Error('expected source=seo_chain, got ' + JSON.stringify(opened && opened[2] && opened[2].source));
       }
     });
+
+    // 079: the hub/az spine now carries the same CTA. Drive the REAL served
+    // tokens/index.html end-to-end: the CTA must be visible, clicking it must
+    // land on plan.html with the waitlist modal open and waitlist_opened
+    // tagged source=seo_tokens_hub (the hub surface's own source).
+    await test('tokens/index.html CTA is visible, clicks through to the waitlist modal with source=seo_tokens_hub', async () => {
+      const page4 = await context.newPage();
+      await page4.goto(`http://localhost:${PORT}/tokens/index.html`, {
+        waitUntil: 'domcontentloaded', timeout: 15000
+      });
+      // The waitlist CTA (not the back-to-home hub-cta) — target by its href.
+      const cta = page4.locator('.hub-waitlist a.hub-cta[href*="waitlist=1"]');
+      await cta.waitFor({ state: 'visible', timeout: 5000 });
+      const href = await cta.getAttribute('href');
+      if (!/src=seo_tokens_hub/.test(href)) {
+        throw new Error('hub CTA href missing src=seo_tokens_hub: ' + href);
+      }
+      await Promise.all([
+        page4.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 15000 }),
+        cta.click()
+      ]);
+      await page4.waitForSelector('.gp-waitlist-backdrop', { timeout: 5000 });
+      const calls = await page4.evaluate(() => (window.mixpanel || []).filter(c => Array.isArray(c) && c[0] === 'track'));
+      const opened = calls.find(c => c[1] === 'waitlist_opened');
+      await page4.close();
+      if (!opened || opened[2].source !== 'seo_tokens_hub') {
+        throw new Error('expected source=seo_tokens_hub, got ' + JSON.stringify(opened && opened[2] && opened[2].source));
+      }
+    });
   } finally {
     await browser.close();
     server.close();
