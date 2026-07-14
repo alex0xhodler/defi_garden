@@ -762,7 +762,7 @@ function App() {
   const [minTvl, setMinTvl] = useState(DEFAULT_MIN_TVL);
   const [minApy, setMinApy] = useState(0);
   const [viewMode, setViewMode] = useState('list');
-  const [sortBy, setSortBy] = useState('apy');
+  const [sortBy, setSortBy] = useState('tvl');
   const [userSortedApy, setUserSortedApy] = useState(false); // true when user explicitly clicks APY sort
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false);
