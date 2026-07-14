@@ -285,9 +285,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TBTC&amp;chain=Ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TBTC&amp;chain=Ethereum&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TBTC&amp;chain=Ethereum" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-07-14T06:51:12.134Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.83</priority>
+    <priority>0.84</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=STEAKUSDC&amp;chain=Ethereum</loc>
