@@ -60,6 +60,21 @@ A raw `sqlite` file on serverless (Vercel functions, Cloudflare Workers) is ephe
 - A filtered snapshot keeping only: the 13 used fields (§0), only pools passing the existing trust rails (`tvlUsd >= DEFAULT_MIN_TVL` and not anomalous per `APY_SANITY_LIMIT`) — which is also the subset the FE actually renders today — would cut both **row count** (trust-rail filtering already discards a large share of listed pools) and **field count** (roughly 13/33 ≈ 40% of the per-row bytes) at the same time. Directionally this is very likely a >50% reduction in transferred bytes, plausibly more once verbose array fields (`predictions`, `rewardTokens`) are dropped.
 - **This estimate is not a substitute for measurement.** Phase 1 of the recommendation below is exactly that measurement, and it requires no architecture decision to run.
 
+## §4a — Measured (2026-07-14, live in-session)
+
+The §4 estimate is now replaced with a REAL measurement, taken live from `https://yields.llama.fi/pools` in this repo's sandbox (Node + zlib) during the 059 build. This supersedes §4's ASSUMED numbers.
+
+| payload | rows | raw bytes | gzip bytes |
+|---|---|---|---|
+| full `/pools` (what the FE downloads today) | 15,416 | 10,575,356 | 2,095,248 |
+| 13-field projection, ALL rows | 15,416 | 4,820,471 | 1,285,267 |
+| 13-field, `tvlUsd >= $10M` (anomalous KEPT) — the shipped snapshot | 712 | 202,268 | 50,962 |
+
+- The railed snapshot is a **97.6% cut on the wire** (2,095 KB → 51 KB gzip) versus what the FE downloads today.
+- Anomalous pools (`apyBase + apyReward > 1000%`) above the $10M floor: **0** on measurement day — the keep-and-flag rule (§5) still applies structurally; the generator filters on TVL only and never drops flagged pools.
+- The railed set spans **40 chains / 371 distinct symbols** (~411 slice files: per-chain + per-token).
+- Confirmation from the actual 059 generator run over the same live payload: 15,416 fetched → 712 railed pools, 219,891-byte snapshot envelope (51,763-byte gzip), 412 files written (1 snapshot + 1 meta + 40 chain slices + 370 token slices). The small deltas vs the raw projection above are the envelope wrapper (`schemaVersion`/`generatedAt`/`source`/`minTvlUsd`/`count` keys) and one slug collision merge on the token side.
+
 ## 5. Trust rails
 
 Whichever option ships, the snapshot/cache layer becomes the natural **server-side enforcement point** for the trust rails that today run client-side in `app.js`/`planner.js`:

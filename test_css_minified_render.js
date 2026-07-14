@@ -62,6 +62,8 @@ function startServer() {
 // Route yields.llama.fi to the fixture and abort every other non-local
 // request (fonts, analytics CDN) — connection-blocked in-sandbox anyway.
 async function routeExternals(context) {
+  // spec 059: serve a STALE snapshot so the FE falls back to the fixtured LIVE endpoint deterministically (a 200 keeps the browser console clean; a 404 would trip pageErrors guards).
+  await context.route('**/data/pools-snapshot*', route => route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
   await context.route('**yields.llama.fi/pools**', route => route.fulfill({
     status: 200, contentType: 'application/json', body: FIXTURE_POOLS
   }));

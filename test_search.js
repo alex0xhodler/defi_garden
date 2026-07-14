@@ -237,6 +237,12 @@ async function main() {
         }));
       }
     }
+    // Snapshot-first FE (spec 059): this suite fixtures the LIVE endpoint, so
+    // 404 the committed static snapshot to force the deterministic live path
+    // (otherwise a freshly-committed /data/ snapshot is served by the local
+    // server and silently bypasses FIXTURE_RESPONSE).
+    await page.route('**/data/pools-snapshot*', (route) =>
+      route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
     if (!llamaReachable) {
       await page.route('https://yields.llama.fi/pools', (route) => route.fulfill({
         status: 200, contentType: 'application/json', body: FIXTURE_RESPONSE
