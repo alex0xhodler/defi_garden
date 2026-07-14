@@ -6,6 +6,23 @@ const Analytics = {
   lastEventTime: Date.now(),
   viewStartTime: Date.now(),
 
+  // Production hostname allowlist (spec 096) — Mixpanel events only fire from
+  // real production hosts. Local dev servers (localhost/127.0.0.1), Vercel
+  // preview deploys (*.vercel.app), and file: loads are suppressed so dev/test
+  // traffic never pollutes the north-star funnel. Exact-match set; defensive
+  // string ops only — a throw in the gate would break tracking site-wide.
+  PRODUCTION_HOSTS: ['defi.garden', 'www.defi.garden', 'yield.garden', 'www.yield.garden'],
+  _suppressionLogged: false,
+
+  isProductionHost() {
+    try {
+      const host = ((typeof window !== 'undefined' && window.location && window.location.hostname) || '').toLowerCase();
+      return this.PRODUCTION_HOSTS.indexOf(host) !== -1;
+    } catch (e) {
+      return false;
+    }
+  },
+
   // Initialize session
   init() {
     this.sessionId = this.generateSessionId();
@@ -44,17 +61,27 @@ const Analytics = {
 
   // Core tracking function with enhanced context
   track(eventName, eventData = {}) {
-    if (typeof mixpanel !== 'undefined') {
-      const enrichedData = {
-        ...this.getBaseContext(),
-        ...eventData
-      };
+    if (typeof mixpanel === 'undefined') return;
 
-      // Update last event time
-      this.lastEventTime = Date.now();
-
-      mixpanel.track(eventName, enrichedData);
+    // Suppress all tracking on non-production hosts (spec 096) — the single
+    // choke point every track* helper and startSession() funnel through.
+    if (!this.isProductionHost()) {
+      if (!this._suppressionLogged) {
+        this._suppressionLogged = true;
+        try { console.debug('[analytics] suppressed (non-production host)'); } catch (e) {}
+      }
+      return;
     }
+
+    const enrichedData = {
+      ...this.getBaseContext(),
+      ...eventData
+    };
+
+    // Update last event time
+    this.lastEventTime = Date.now();
+
+    mixpanel.track(eventName, enrichedData);
   },
 
   // Enhanced page view tracking
