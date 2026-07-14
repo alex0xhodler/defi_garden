@@ -9,10 +9,12 @@
       "pendle"/"yield derivatives" -> Yield Derivatives; and a NEGATIVE case
       ("best usdc yields") adds neither.
    2. Rendered Playwright (fixture-routed, test_default_sort.js harness verbatim):
-      an ondo (RWA) / pendle (Yield Derivatives) / aave (Lending) fixture on
+      an ondo (RWA) / pendle x2 (Yield Derivatives) / aave (Lending) fixture on
       chain Base; assert the RWA + Yield Derivatives nav tabs render, that
-      clicking each filters the grid to only its pool, zero page errors, and that
-      both tabs still exist in the DOM at a 360px viewport (they scroll, not wrap).
+      clicking each filters the grid to its pools, that TYPING "pendle" filters
+      by PROTOCOL not the PENDLE token (fix 098 — PT-USDE, a pendle pool with no
+      PENDLE symbol segment, must appear), zero page errors, and that both tabs
+      still exist in the DOM at a 360px viewport (they scroll, not wrap).
 
    Run: node test_category_taxonomy.js */
 const http = require('http');
@@ -51,12 +53,31 @@ function assertExcludes(desc, query, categories) {
   else { console.log('  ✗ ' + desc + '\n    expected poolTypes to exclude ' + JSON.stringify(categories) + ', got ' + JSON.stringify(got)); process.exitCode = 1; }
 }
 
+// Assert exact token + a protocol membership on the parsed result.
+function assertTokenProtocol(desc, query, tokens, expectToken, expectProtocol) {
+  unitTotal++;
+  const r = parse(query, tokens, CHAINS, []);
+  const okToken = r.token === expectToken;
+  const okProto = expectProtocol == null || r.protocols.includes(expectProtocol);
+  if (okToken && okProto) { unitPassed++; console.log('  ✓ ' + desc); }
+  else { console.log('  ✗ ' + desc + '\n    expected token ' + JSON.stringify(expectToken) + (expectProtocol ? ' + protocol ' + JSON.stringify(expectProtocol) : '') + ', got token ' + JSON.stringify(r.token) + ' protocols ' + JSON.stringify(r.protocols)); process.exitCode = 1; }
+}
+
 console.log('=== parser unit: RWA / Yield Derivatives detection (spec 091) ===');
 assertIncludes('"rwa" -> RWA', 'rwa', 'RWA');
 assertIncludes('"real world assets" -> RWA', 'real world assets', 'RWA');
 assertIncludes('"pendle" -> Yield Derivatives', 'pendle', 'Yield Derivatives');
 assertIncludes('"yield derivatives" -> Yield Derivatives', 'yield derivatives', 'Yield Derivatives');
 assertExcludes('"best usdc yields" -> neither RWA nor Yield Derivatives', 'best usdc yields', ['RWA', 'Yield Derivatives']);
+
+// Fix (098): a bare protocol name that is ALSO a token symbol (PENDLE) must NOT
+// become a token search — the protocol's pools span many underlying tokens, so
+// token=PENDLE wrongly empties the result. The token is dropped; the protocol
+// (+ category) drives the filter.
+assertTokenProtocol('"pendle" -> token cleared, protocol Pendle', 'pendle', ['PENDLE', 'USDC', 'ETH'], '', 'Pendle');
+assertTokenProtocol('"aave" -> token cleared, protocol Aave', 'aave', ['AAVE', 'USDC'], '', 'Aave');
+// Non-regression: a token that is NOT the detected protocol's name stays.
+assertTokenProtocol('"usdc on aave" keeps token USDC', 'usdc on aave', ['USDC', 'AAVE'], 'USDC', 'Aave');
 
 // ---------------------------------------------------------------------------
 // Layer 2: rendered Playwright (test_default_sort.js harness)
@@ -76,10 +97,13 @@ function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
   if (poolMeta) pool.poolMeta = poolMeta;
   return pool;
 }
-// All TVL > $10M, non-zero apyBase, all on Base, all symbols carry the USDC segment.
+// All TVL > $10M, non-zero apyBase, all on Base. `PT-USDE` is a pendle-protocol
+// pool whose symbol carries NO "PENDLE" token segment — it proves that typing
+// "pendle" filters by PROTOCOL, not by the PENDLE token (fix 098).
 const FIXTURE_POOLS = [
   makePool('rwa-ondo-base', 'ondo-yield-assets', 'USDC-ONDO', 'Base', 120_000_000, 4.5),
   makePool('yd-pendle-base', 'pendle', 'USDC-PENDLE', 'Base', 80_000_000, 6.0),
+  makePool('yd-pendle-pt-base', 'pendle', 'PT-USDE', 'Base', 60_000_000, 7.5),
   makePool('lend-aave-base', 'aave-v3', 'USDC-AAVE', 'Base', 200_000_000, 3.0, 'Lending')
 ];
 const FIXTURE_RESPONSE = JSON.stringify({ status: 'success', data: FIXTURE_POOLS });
@@ -179,7 +203,7 @@ async function main() {
 
     await page.goto(`http://localhost:${PORT}/?chain=Base`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('.pool-card', { timeout: 15000 });
-    await waitForSymbols(page, ['USDC-ONDO', 'USDC-PENDLE', 'USDC-AAVE']);
+    await waitForSymbols(page, ['USDC-ONDO', 'USDC-PENDLE', 'PT-USDE', 'USDC-AAVE']);
 
     // (a) The RWA + Yield Derivatives nav tabs render.
     await test('nav tabs include "RWA" and "Yield Derivatives"', async () => {
@@ -197,14 +221,15 @@ async function main() {
       assertSet(await symbolSet(page), ['USDC-ONDO'], 'RWA-filtered grid');
     });
 
-    // (c) Clicking Yield Derivatives leaves ONLY the pendle pool.
-    await test('clicking Yield Derivatives tab filters grid to only the pendle pool', async () => {
+    // (c) Clicking Yield Derivatives leaves ONLY the two pendle-protocol pools.
+    await test('clicking Yield Derivatives tab filters grid to the pendle pools', async () => {
       await clickTab(page, 'Yield Derivatives');
-      await waitForSymbols(page, ['USDC-PENDLE']);
-      assertSet(await symbolSet(page), ['USDC-PENDLE'], 'Yield-Derivatives-filtered grid');
+      await waitForSymbols(page, ['USDC-PENDLE', 'PT-USDE']);
+      assertSet(await symbolSet(page), ['USDC-PENDLE', 'PT-USDE'], 'Yield-Derivatives-filtered grid');
     });
 
     // (e) At 360px the RWA + Yield Derivatives tabs still exist in the DOM (they scroll).
+    // Runs BEFORE the search test so it observes the healthy browse header.
     await test('RWA + Yield Derivatives tabs exist in DOM at 360px viewport', async () => {
       await page.setViewportSize({ width: 360, height: 780 });
       await page.waitForTimeout(200);
@@ -213,6 +238,27 @@ async function main() {
       for (const want of ['RWA', 'Yield Derivatives']) {
         if (!labels.includes(want)) throw new Error(`expected "${want}" tab at 360px, got ${JSON.stringify(labels)}`);
       }
+      await page.setViewportSize({ width: 1280, height: 900 });
+    });
+
+    // (c2) Fix 096: TYPING "pendle" filters by PROTOCOL, not the PENDLE token.
+    // The old bug set token=PENDLE and showed a dead-end (or only PENDLE-symbol
+    // pools). Now it must show BOTH pendle-protocol pools — crucially PT-USDE,
+    // whose symbol has no PENDLE segment, so it can only appear via the protocol
+    // filter, not a token filter. Drives the input via keyboard (the animated
+    // placeholder re-renders the node, so a bound locator for press() can detach).
+    await test('typing "pendle" shows pendle-PROTOCOL pools (not the PENDLE token)', async () => {
+      await clickTab(page, 'All');
+      await waitForSymbols(page, ['USDC-ONDO', 'USDC-PENDLE', 'PT-USDE', 'USDC-AAVE']);
+      await page.click('.google-search-input');
+      await page.keyboard.type('pendle', { delay: 20 });
+      await page.waitForTimeout(400); // let the 300ms search debounce settle
+      await page.keyboard.press('Enter');
+      await waitForSymbols(page, ['USDC-PENDLE', 'PT-USDE']);
+      const syms = await symbolSet(page);
+      assertSet(syms, ['USDC-PENDLE', 'PT-USDE'], 'typed-"pendle" grid');
+      // Explicit regression guard: the no-PENDLE-token pool MUST be present.
+      if (!syms.includes('PT-USDE')) throw new Error('PT-USDE missing — search is still token-restricted to PENDLE');
     });
 
     // (d) Zero non-ignorable page errors.

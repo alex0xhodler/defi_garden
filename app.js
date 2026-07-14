@@ -516,6 +516,15 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
     }
   }
 
+  // A bare protocol name (e.g. "pendle") is a protocol search, not a token
+  // search: the protocol's pools are built on many different underlying tokens,
+  // so restricting to a same-named token (PENDLE) wrongly empties the result.
+  // When the extracted token is really just a detected protocol's own name,
+  // drop it and let the protocol (+ any category) filter drive the results.
+  if (token && protocols.some(p => p.toLowerCase() === token.toLowerCase())) {
+    token = '';
+  }
+
   return { token, chain, poolTypes, protocols };
 };
 
