@@ -35,7 +35,7 @@ const MIME = {
 //   - fontshare.com                     — style.css @import web font
 //   - www.google.com/s2/favicons        — planner brand favicons (aria-hidden,
 //                                          onError falls back to emoji)
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com|www\.google\.com\/s2\/favicons/i;
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons\.llamao\.fi|api\.llama\.fi\/protocols|fontshare\.com|www\.google\.com\/s2\/favicons/i;
 
 // yields.llama.fi is blocked at the proxy for browser-originated HTTPS in
 // cloud-loop sandboxes (NORTH_STAR standing decision 2026-07-12) while curl —
@@ -124,6 +124,7 @@ async function loadAndCollectErrors(browser, urlPath, viewport) {
   // Route the pools fetch before navigating so the browser never egresses to
   // the (proxy-blocked) host; serve the captured live snapshot or the fixture.
   // spec 059: serve a STALE snapshot so the FE falls back to the fixtured/captured POOLS_BODY deterministically (200 keeps the console clean).
+  await page.route('https://icons.llamao.fi/**', (route) => route.abort()); // decorative icon host (spec 094) is proxy-blocked in-sandbox; abort so requests never delay the load event
   await page.route('**/data/pools-snapshot*', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
   await page.route(POOLS_URL, (route) => route.fulfill({
     status: 200, contentType: 'application/json', body: POOLS_BODY

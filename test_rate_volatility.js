@@ -22,7 +22,7 @@ const MIME = {
   '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2',
   '.png': 'image/png', '.txt': 'text/plain', '.xml': 'application/xml'
 };
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com/i;
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons\.llamao\.fi|api\.llama\.fi\/protocols|fontshare\.com/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 // --- DefiLlama-shaped fixtures ------------------------------------------
@@ -127,6 +127,7 @@ async function main() {
       }));
     }
     // spec 059: serve a STALE snapshot so the FE falls back to the fixtured LIVE endpoint deterministically (a 200 keeps the browser console clean; a 404 would trip pageErrors guards).
+    await page.route('https://icons.llamao.fi/**', (route) => route.abort()); // decorative icon host (spec 094) is proxy-blocked in-sandbox; abort so requests never delay the load event
     await page.route('**/data/pools-snapshot*', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
     await page.route('https://yields.llama.fi/pools', (route) => route.fulfill({
       status: 200, contentType: 'application/json', body: FIXTURE_RESPONSE

@@ -35,7 +35,7 @@ const MIME = {
 // CLAUDE.md ("external font/analytics fetches fail locally; page errors are
 // not") and app.js already degrades them gracefully (protocols fetch fails
 // silently, analytics is fire-and-forget).
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com/i;
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons\.llamao\.fi|api\.llama\.fi\/protocols|fontshare\.com/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 // --- DefiLlama-shaped fixture pools --------------------------------------
@@ -241,6 +241,7 @@ async function main() {
     // 404 the committed static snapshot to force the deterministic live path
     // (otherwise a freshly-committed /data/ snapshot is served by the local
     // server and silently bypasses FIXTURE_RESPONSE).
+    await page.route('https://icons.llamao.fi/**', (route) => route.abort()); // decorative icon host (spec 094) is proxy-blocked in-sandbox; abort so requests never delay the load event
     await page.route('**/data/pools-snapshot*', (route) =>
       route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
     if (!llamaReachable) {
