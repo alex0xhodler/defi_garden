@@ -43,14 +43,20 @@
   }
 
   function SearchIcon() {
-    return e('svg', { className: 'landing-icon', viewBox: '0 0 24 24', fill: 'none', 'aria-hidden': 'true' },
+    return e('svg', {
+      className: 'landing-icon', viewBox: '0 0 24 24', width: 23, height: 23,
+      preserveAspectRatio: 'xMidYMid meet', fill: 'none', 'aria-hidden': 'true'
+    },
       e('circle', { cx: '10.8', cy: '10.8', r: '6.3', stroke: 'currentColor', strokeWidth: '1.8' }),
       e('path', { d: 'm16 16 4.2 4.2', stroke: 'currentColor', strokeWidth: '1.8', strokeLinecap: 'round' })
     );
   }
 
   function ArrowIcon() {
-    return e('svg', { className: 'landing-arrow-icon', viewBox: '0 0 20 20', fill: 'none', 'aria-hidden': 'true' },
+    return e('svg', {
+      className: 'landing-arrow-icon', viewBox: '0 0 20 20', width: 19, height: 19,
+      preserveAspectRatio: 'xMidYMid meet', fill: 'none', 'aria-hidden': 'true'
+    },
       e('path', { d: 'M4 10h11M11 5l5 5-5 5', stroke: 'currentColor', strokeWidth: '1.7', strokeLinecap: 'round', strokeLinejoin: 'round' })
     );
   }
