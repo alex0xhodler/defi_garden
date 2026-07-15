@@ -1240,6 +1240,36 @@ body {
   animation: dropdownSlide var(--duration-fast) var(--ease-standard);
 }
 
+/* Scrim behind an open filter dropdown (spec 111). Starts below the sticky
+   header (top:128px matches the dropdowns' fixed top) so the filter buttons
+   stay clickable and switching filters directly still works; only the results
+   area dims + click-to-close. z-index sits just under the dropdowns' 99999. */
+.global-filter-scrim {
+  position: fixed;
+  top: 128px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99998;
+  background: rgba(15, 23, 42, 0.06);
+  animation: scrimFade var(--duration-fast) var(--ease-standard);
+}
+
+[data-theme="dark"] .global-filter-scrim {
+  background: rgba(0, 0, 0, 0.28);
+}
+
+@keyframes scrimFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .global-filter-scrim {
+    animation: none;
+  }
+}
+
 .global-filter-dropdown .filter-pills-container {
   display: flex;
   flex-wrap: wrap;
@@ -1299,7 +1329,7 @@ body {
 
 .global-filter-dropdown .filter-pill:hover:not(.active),
 .global-filter-dropdown .filter-chip:hover:not(.active) {
-  transform: translateY(-2px) scale(1.02);
+  transform: translateY(-1px);
   box-shadow: var(--neuro-shadow-raised);
 }
 
@@ -1354,6 +1384,17 @@ body {
 .global-filter-dropdown .filter-chip.active {
   transform: translateY(-1px);
   box-shadow: var(--neuro-shadow-raised);
+}
+
+/* Selected chip reads as unmistakable filled-primary (matches .google-filter-btn.has-selection).
+   Scoped to .filter-chip ONLY — the transform/box-shadow override lives here (not on the shared
+   rule above) so chain/protocol pills keep their existing brand/primary fill AND lift unchanged. */
+.global-filter-dropdown .filter-chip.active {
+  background: var(--color-primary);
+  color: white;
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(0);
+  box-shadow: var(--neuro-shadow-subtle);
 }
 
 /* Add subtle momentum scrolling feedback */
