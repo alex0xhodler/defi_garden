@@ -1837,6 +1837,10 @@ function App() {
       setFilteredPools([]);
       return;
     }
+
+    // Same popular-chain set the chain-first block uses (app.js ~1838) — kept
+    // local so the token-first chain filter can honor 'All'/'Popular' too.
+    var tokenModePopularChains = ['Ethereum', 'Arbitrum', 'Polygon', 'Optimism', 'Base', 'BNB Chain', 'Avalanche', 'Solana', 'Fantom', 'Linea', 'Gnosis', 'Celo', 'Moonbeam', 'Cronos', 'zkSync Era'];
     var filtered = pools.filter(pool => {
       if (!pool.symbol) return false;
 
@@ -1844,8 +1848,12 @@ function App() {
       var symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
       var hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
 
-      // Filter by chain if selected
-      var chainMatch = !selectedChain || pool.chain === selectedChain;
+      // Filter by chain if selected. 'All' = every chain (wildcard) and
+      // 'Popular' = the popular-chain set — mirroring the chain-first block.
+      // Without this, a token + chain=All query matched pool.chain === 'All'
+      // literally (never true), so every pool was filtered out and the UI wrongly
+      // showed "No yields found" for the token (e.g. ?token=USDC&chain=All).
+      var chainMatch = !selectedChain || selectedChain === 'All' || (selectedChain === 'Popular' ? tokenModePopularChains.includes(pool.chain) : pool.chain === selectedChain);
 
       // Filter by pool type if selected
       var poolTypeMatch = selectedPoolTypes.length === 0 || selectedPoolTypes.includes(getPoolType(pool));
