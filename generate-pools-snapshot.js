@@ -272,10 +272,11 @@ function fetchPoolData() {
 }
 
 function parseArgs(argv) {
-  const args = { fixture: process.env.POOLS_FIXTURE || null, out: null };
+  const args = { fixture: process.env.POOLS_FIXTURE || null, out: null, seoOut: process.env.SEO_OUT || null };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--fixture') args.fixture = argv[++i];
     else if (argv[i] === '--out') args.out = argv[++i];
+    else if (argv[i] === '--seo-out') args.seoOut = argv[++i];
   }
   return args;
 }
@@ -296,6 +297,16 @@ async function main() {
     pools = await fetchPoolData();
   }
   console.log(`✅ ${pools.length} pools fetched`);
+
+  // 112: also emit a $1000-floored RAW-pool transient (full fields preserved,
+  // a provable superset of every pool the 3 SEO generators consume) so ONE CI
+  // fetch feeds the committed $10M snapshot AND all three generators. Scratch
+  // path only — never committed/served (076 out-isolation lesson).
+  if (args.seoOut) {
+    const seoPools = pools.filter(p => (Number(p && p.tvlUsd) || 0) >= 1000);
+    fs.writeFileSync(path.resolve(args.seoOut), JSON.stringify(seoPools));
+    console.log(`🌱 SEO transient: ${seoPools.length} pools >= $1,000 TVL -> ${args.seoOut}`);
+  }
 
   const generatedAt = new Date().toISOString();
   const result = generateSnapshot(pools, outDir, generatedAt);

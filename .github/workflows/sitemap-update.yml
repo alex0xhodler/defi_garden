@@ -69,7 +69,7 @@ jobs:
     - name: Generate pools snapshot (backlog 059 — static trust-rail-filtered data layer)
       run: |
         echo "📸 Generating static pools snapshot + per-chain/token slices..."
-        node generate-pools-snapshot.js
+        node generate-pools-snapshot.js --seo-out "$RUNNER_TEMP/seo-pools.json"
         echo "✅ Pools snapshot generation completed"
 
     - name: Compute KPIs + retain history (backlog 087 — data-layer leg 2 phase 0)
@@ -81,19 +81,19 @@ jobs:
     - name: Generate token landing pages
       run: |
         echo "🌿 Generating static /tokens/ landing pages + sitemap..."
-        node generate-token-pages.js --out tokens --sitemap sitemap-token-pages.xml
+        node generate-token-pages.js --out tokens --sitemap sitemap-token-pages.xml --fixture "$RUNNER_TEMP/seo-pools.json"
         echo "Pages: $(ls tokens | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-token-pages.xml)"
 
     - name: Generate chain landing pages
       run: |
         echo "⛓️ Generating static /chains/ landing pages + sitemap..."
-        node generate-chain-pages.js --out chains --sitemap sitemap-chain-pages.xml
+        node generate-chain-pages.js --out chains --sitemap sitemap-chain-pages.xml --fixture "$RUNNER_TEMP/seo-pools.json"
         echo "Pages: $(ls chains | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-chain-pages.xml)"
 
     - name: Generate sitemap
       run: |
         echo "🚀 Generating fresh sitemap..."
-        node generate-sitemap.js
+        POOLS_FIXTURE="$RUNNER_TEMP/seo-pools.json" node generate-sitemap.js
         
         echo "📊 Sitemap stats:"
         echo "File size: $(du -h sitemap.xml | cut -f1)"
