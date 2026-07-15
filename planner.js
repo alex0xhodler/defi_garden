@@ -3560,7 +3560,7 @@
   // ===========================================================================
   function PlannerHeader(props) {
     return e('header', { className: 'gp-header' },
-      e('a', { className: 'gp-logo', href: 'index.html' }, '🌱 DeFi Garden'),
+      e('a', { className: 'gp-logo', href: 'home.html' }, '🌱 DeFi Garden'),
       e('div', { className: 'gp-header-actions' },
         // My Garden affordance — shows when plan exists and not already in report view
         props.hasSavedPlan && props.mode !== 'report' ? e('button', {
@@ -4610,8 +4610,11 @@
     module.exports = api;
   } else {
     window.GardenPlanner = api;
-    // Only mount on planner pages (bare / or plan.html); skip analytics mode.
-    if (window.__APP_MODE === 'analytics') return;
+    // Only mount when the router explicitly selects planner mode. The bare
+    // root is now the search-first landing; plan.html and planner share URLs
+    // still select planner mode before this script runs.
+    var isPlanDocument = /(?:^|\/)plan\.html$/.test(window.location.pathname);
+    if (window.__APP_MODE !== 'planner' && !isPlanDocument) return;
     function mountPlanner() {
       var mount = document.getElementById('planner-root');
       if (!mount) return;
