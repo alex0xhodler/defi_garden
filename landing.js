@@ -63,7 +63,10 @@
   }
 
   function PlantIllustration() {
-    return e('svg', { className: 'landing-plant-svg', viewBox: '0 0 340 260', fill: 'none', 'aria-hidden': 'true' },
+    return e('svg', {
+      className: 'landing-plant-svg', viewBox: '0 0 340 260', width: 340, height: 260,
+      preserveAspectRatio: 'xMidYMid meet', fill: 'none', 'aria-hidden': 'true'
+    },
       e('circle', { cx: '170', cy: '130', r: '105', className: 'landing-plant-halo' }),
       e('path', { d: 'M170 205V91', className: 'landing-plant-stem' }),
       e('path', { d: 'M170 125c-28-24-52-23-70-9 16 26 41 29 70 9Z', className: 'landing-plant-leaf landing-plant-leaf-left' }),
