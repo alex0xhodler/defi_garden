@@ -900,7 +900,7 @@
   // ---------------------------------------------------------------------------
   // URL plan encoding/decoding (shareable plans)
   // ---------------------------------------------------------------------------
-  function encodePlanToUrl(goal, monthly, years, persona, capital, fundingMode, deadline, poolFilters) {
+  function encodePlanToUrl(goal, monthly, years, persona, capital, fundingMode, deadline, poolFilters, mixIds) {
     var u = new URL(window.location.href);
     u.searchParams.set('goal', goal || '');
     if (fundingMode === 'capital' && capital) {
@@ -923,9 +923,34 @@
     else u.searchParams.delete('chain');
     if (poolFilters && poolFilters.token) u.searchParams.set('token', String(poolFilters.token));
     else u.searchParams.delete('token');
+    // Subscription mix (101): carry the full multi-service selection so a shared
+    // garden rebuilds the sender's EXACT mix, not just the anchor goal. Only set
+    // when this is a subscription plan AND the mix is a real edited/multi set
+    // (more than the bare [goal] anchor default) — single-pick/anchor-only and
+    // ALL non-subscription URLs stay byte-identical to before (no share-URL
+    // churn / regression guard).
+    var mixArr = Array.isArray(mixIds) ? mixIds.filter(Boolean) : [];
+    var isAnchorOnlyMix = mixArr.length === 1 && mixArr[0] === goal;
+    if (goalArchetype(goal) === 'subscription' && mixArr.length >= 1 && !isAnchorOnlyMix) {
+      u.searchParams.set('mix', mixArr.join(','));
+    } else {
+      u.searchParams.delete('mix');
+    }
     u.searchParams.delete('preset');
     u.searchParams.delete('fresh');
     return u.toString();
+  }
+  // True when `id` resolves to a KNOWN subscription — a SUBSCRIPTION_LADDER rung
+  // or a subscription-archetype GOAL. The clean validator for a decoded share
+  // `mix`: unknown/garbage ids are dropped (honest degradation) so a hand-edited
+  // URL can never seed a bogus service.
+  function isSubscriptionId(id) {
+    if (!id) return false;
+    for (var i = 0; i < SUBSCRIPTION_LADDER.length; i++) {
+      if (SUBSCRIPTION_LADDER[i].id === id) return true;
+    }
+    var g = goalById(id);
+    return !!(g && g.archetype === 'subscription');
   }
   function decodePlanFromUrl(urlParams) {
     var goal = urlParams.get('goal');
@@ -943,13 +968,25 @@
     // contract above.
     var chain = urlParams.get('chain') || null;
     var token = urlParams.get('token') || null;
+    // 101: optional subscription mix carried by the share link. Parse defensively
+    // (never throw on a hand-edited/garbage value), split on comma, trim, and
+    // keep only ids that resolve to a known subscription. null when nothing
+    // valid remains → arrival falls back to the anchor [goal] seed.
+    var mix = null;
+    try {
+      var rawMix = urlParams.get('mix');
+      if (rawMix) {
+        var ids = String(rawMix).split(',').map(function (s) { return s.trim(); }).filter(isSubscriptionId);
+        if (ids.length) mix = ids;
+      }
+    } catch (eMix) { mix = null; }
     // Require either capital (capital path) or monthly (monthly/legacy path)
     if (fm === 'capital') {
       if (!capital) return null;
-      return { goal: goal, capital: capital, monthly: null, fundingMode: 'capital', deadline: isNaN(dl) ? null : dl, years: isNaN(years) ? null : years, persona: pace, chain: chain, token: token };
+      return { goal: goal, capital: capital, monthly: null, fundingMode: 'capital', deadline: isNaN(dl) ? null : dl, years: isNaN(years) ? null : years, persona: pace, chain: chain, token: token, mix: mix };
     }
     if (!monthly) return null;
-    return { goal: goal, monthly: monthly, capital: null, fundingMode: fm || 'monthly', deadline: isNaN(dl) ? null : dl, years: isNaN(years) ? null : years, persona: pace, chain: chain, token: token };
+    return { goal: goal, monthly: monthly, capital: null, fundingMode: fm || 'monthly', deadline: isNaN(dl) ? null : dl, years: isNaN(years) ? null : years, persona: pace, chain: chain, token: token, mix: mix };
   }
 
   // ---------------------------------------------------------------------------
@@ -1497,10 +1534,20 @@
       return buildLadder(subscriptionLadder(goal), apy, cap, goal);
     }, [apy, subCapital, isCapitalPath, goal]);
 
-    // Mix state — arbitrary toggle selection of subscription ids
-    var selectedSubsState = useState([]);
+    // Mix state — arbitrary toggle selection of subscription ids.
+    // 101: when the arriving plan carried a decoded subscription `mix`
+    // (validated ids, threaded in as props.initialMix), seed selectedSubs from
+    // it and mark the mix as touched — via the INITIAL useState value, not an
+    // effect, so the anchor-only seed effect below (guarded by !mixTouched) can
+    // never race/clobber the restored multi-service garden. Plain single-pick /
+    // non-subscription arrivals (no initialMix) fall through to the [goal] seed
+    // unchanged; mixTouched=true also lets the 099 slideCapital⇄neededCapital
+    // sync recompute coverage from the full restored mix.
+    var sharedMix = (archetype === 'subscription' && Array.isArray(props.initialMix) && props.initialMix.length)
+      ? props.initialMix.slice() : null;
+    var selectedSubsState = useState(sharedMix || []);
     var selectedSubs = selectedSubsState[0], setSelectedSubs = selectedSubsState[1];
-    var mixTouchedState = useState(false);
+    var mixTouchedState = useState(!!sharedMix);
     var mixTouched = mixTouchedState[0], setMixTouched = mixTouchedState[1];
 
     // Seed the mix with exactly the user's picked subscription (the anchor goal)
@@ -1887,7 +1934,7 @@
         shareFeatured = brandForId(goal);
       }
 
-      var shareUrl = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters);
+      var shareUrl = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters, selectedSubs);
       renderShareImage({
         headline: shareHeadline,
         goalLabel: shareRowLabel,
@@ -1916,7 +1963,7 @@
     }
 
     function doCopyLink() {
-      var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters);
+      var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters, selectedSubs);
       if (typeof Analytics !== 'undefined') {
         Analytics.trackShareLinkCreated({ method: 'copy', goal: goal, persona: persona });
       }
@@ -1939,7 +1986,7 @@
     }
 
     function doNativeShare() {
-      var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters);
+      var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters, selectedSubs);
       if (typeof Analytics !== 'undefined') {
         Analytics.trackShareLinkCreated({ method: 'native', goal: goal, persona: persona });
       }
@@ -4420,6 +4467,9 @@
             // plan (chain/token survive the share-URL round trip now).
             initialChain: sharedPlan ? (sharedPlan.chain || null) : null,
             initialToken: sharedPlan ? (sharedPlan.token || null) : null,
+            // 101: seed Bloom's subscription mix from a decoded shared plan so a
+            // multi-service garden (e.g. Spotify+Netflix+Claude) rebuilds exactly.
+            initialMix: sharedPlan ? (sharedPlan.mix || null) : null,
             onWhatIf: onWhatIf,
             onEditGoal: onEditGoal,
             onEditMonthly: onEditMonthly,
