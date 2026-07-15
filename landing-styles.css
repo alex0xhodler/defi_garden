@@ -383,8 +383,11 @@
   position: absolute;
   right: -10px;
   bottom: -13px;
+  display: block;
   width: min(100%, 365px);
   height: auto;
+  max-width: 100%;
+  transform-origin: 50% 100%;
   color: var(--color-primary);
   animation: landing-plant-breathe 7s ease-in-out infinite;
 }
