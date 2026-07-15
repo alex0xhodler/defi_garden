@@ -56,20 +56,20 @@
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=ETH&amp;chain=Arbitrum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Arbitrum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Arbitrum&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Arbitrum" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=WSTETH&amp;chain=Arbitrum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTETH&amp;chain=Arbitrum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTETH&amp;chain=Arbitrum&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSTETH&amp;chain=Arbitrum" />
     <lastmod>2026-07-14T13:36:26.227Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETH&amp;chain=Arbitrum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Arbitrum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Arbitrum&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Arbitrum" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
