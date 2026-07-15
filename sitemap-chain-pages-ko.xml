@@ -136,12 +136,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/stable</loc>
+    <loc>https://www.defi.garden/ko/chains/berachain</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/berachain</loc>
+    <loc>https://www.defi.garden/ko/chains/stable</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -256,12 +256,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/venom</loc>
+    <loc>https://www.defi.garden/ko/chains/bifrost-network</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bifrost-network</loc>
+    <loc>https://www.defi.garden/ko/chains/venom</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -276,12 +276,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/heco</loc>
+    <loc>https://www.defi.garden/ko/chains/flow</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/flow</loc>
+    <loc>https://www.defi.garden/ko/chains/heco</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -351,12 +351,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/fuel-ignition</loc>
+    <loc>https://www.defi.garden/ko/chains/tac</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/tac</loc>
+    <loc>https://www.defi.garden/ko/chains/fuel-ignition</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
