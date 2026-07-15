@@ -877,6 +877,7 @@ function App() {
   const urlDirectPoolViewFiredRef = useRef(null); // pool id already tracked as a url_direct landing, prevents double-fire vs card click
   const pendingNlSearchTrackRef = useRef(null); // NL-Enter search awaiting a real results_count once filteredPools settles
   const poolsSourceRef = useRef(null); // where `pools` came from: 'snapshot' | 'live' (spec 059 — drives the escape-hatch refetch)
+  const kpiEnrichedPoolRef = useRef(null); // spec 105 — pool id whose kpis we already tried to enrich from the snapshot (prevents refetch/loop)
 
   // Language state management
   const [language, setLanguage] = useState(() => {
@@ -1202,6 +1203,39 @@ function App() {
       }
     }
   }, [pools, detailPool, currentView]);
+
+  // spec 105: a direct ?pool=<id> SEO deep link always loads LIVE /pools (no
+  // kpis — snapshotEligible is false when urlParams.pool is set), so the
+  // trust-signal notes (088.1 rate-track-record, 103 rate-momentum) that read
+  // pool.kpis.* would hide for exactly the SEO arrivals we most want to convert.
+  // When the detail pool carries no kpis, read them once from the railed snapshot
+  // (same source in-app browse gets them from) and merge ONLY that kpis object
+  // onto the single detail pool. Purely additive: any failure, or a pool absent
+  // from the snapshot, leaves detailPool untouched and the notes hide as today.
+  // Never mutates the `pools` array or any trust-rail logic.
+  useEffect(() => {
+    if (currentView !== 'pool-detail' || !detailPool || detailPool.kpis) return;
+    const poolId = detailPool.pool;
+    if (!poolId || kpiEnrichedPoolRef.current === poolId) return;
+    kpiEnrichedPoolRef.current = poolId;
+    let alive = true;
+    (async () => {
+      try {
+        const res = await fetch('/data/pools-snapshot.json');
+        if (!res.ok) return;
+        const snap = await res.json();
+        if (!alive || !snap || snap.schemaVersion !== 1 || !Array.isArray(snap.pools)) return;
+        const match = snap.pools.find(p => p && p.pool === poolId);
+        if (!match || !match.kpis || typeof match.kpis !== 'object') return;
+        setDetailPool(prev => (prev && prev.pool === poolId && !prev.kpis)
+          ? Object.assign({}, prev, { kpis: match.kpis })
+          : prev);
+      } catch (e) {
+        // Live landing keeps no kpis — the notes hide, exactly today's behavior.
+      }
+    })();
+    return () => { alive = false; };
+  }, [detailPool, currentView]);
 
   // Background fetch protocols data after UI loads
   useEffect(() => {
