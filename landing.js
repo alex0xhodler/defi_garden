@@ -43,20 +43,29 @@
   }
 
   function SearchIcon() {
-    return e('svg', { className: 'landing-icon', viewBox: '0 0 24 24', fill: 'none', 'aria-hidden': 'true' },
+    return e('svg', {
+      className: 'landing-icon', viewBox: '0 0 24 24', width: 23, height: 23,
+      preserveAspectRatio: 'xMidYMid meet', fill: 'none', 'aria-hidden': 'true'
+    },
       e('circle', { cx: '10.8', cy: '10.8', r: '6.3', stroke: 'currentColor', strokeWidth: '1.8' }),
       e('path', { d: 'm16 16 4.2 4.2', stroke: 'currentColor', strokeWidth: '1.8', strokeLinecap: 'round' })
     );
   }
 
   function ArrowIcon() {
-    return e('svg', { className: 'landing-arrow-icon', viewBox: '0 0 20 20', fill: 'none', 'aria-hidden': 'true' },
+    return e('svg', {
+      className: 'landing-arrow-icon', viewBox: '0 0 20 20', width: 19, height: 19,
+      preserveAspectRatio: 'xMidYMid meet', fill: 'none', 'aria-hidden': 'true'
+    },
       e('path', { d: 'M4 10h11M11 5l5 5-5 5', stroke: 'currentColor', strokeWidth: '1.7', strokeLinecap: 'round', strokeLinejoin: 'round' })
     );
   }
 
   function LeafMark() {
-    return e('svg', { className: 'landing-leaf-mark', viewBox: '0 0 32 32', fill: 'none', 'aria-hidden': 'true' },
+    return e('svg', {
+      className: 'landing-leaf-mark', viewBox: '0 0 32 32', width: 24, height: 24,
+      preserveAspectRatio: 'xMidYMid meet', fill: 'none', 'aria-hidden': 'true'
+    },
       e('path', { d: 'M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z', fill: 'currentColor' }),
       e('path', { d: 'M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4', stroke: 'currentColor', strokeWidth: '1.6', strokeLinecap: 'round' })
     );
