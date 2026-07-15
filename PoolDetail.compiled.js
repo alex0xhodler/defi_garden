@@ -1209,6 +1209,34 @@ function PoolDetail({
     }
     return t ? t('rateTrackRecordTracked', hp) : `We've been tracking this pool's rate for ${hp} days. Watching how a rate holds up over time is one honest way to judge it.`;
   }()),
+  // Rate-momentum honesty note (103) — full-width, calm. Reuses 071's
+  // exact neuro styling. Surfaces 087's kpis.apyMomentum (last − first
+  // total APY over the tracked window) as calm cautious-saver language:
+  // rising AND falling rates said out loud (degen-honesty precedent).
+  // Yields entirely to the 071 volatility note (same divergence boolean)
+  // so the two are mutually exclusive, renders nothing when kpis/momentum
+  // are missing (live SEO deep-link landings), needs a ≥7-day window, and
+  // stays silent below a meaningful move (|momentum| < 0.5, 088.1 covers).
+  !(typeof pool.apyMean30d === 'number' && (pool.apyBase || 0) + (pool.apyReward || 0) > 0 && pool.apyMean30d > 0 && Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) / Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) >= 1.5) && pool.kpis && typeof pool.kpis === 'object' && typeof pool.kpis.apyMomentum === 'number' && Number(pool.kpis.historyPoints) >= 7 && Math.abs(pool.kpis.apyMomentum) >= 0.5 && React.createElement('div', {
+    className: 'rate-momentum-note',
+    style: {
+      background: 'var(--color-background)',
+      borderRadius: 'var(--neuro-radius-sm)',
+      boxShadow: 'var(--neuro-shadow-subtle)',
+      color: 'var(--color-text-secondary)',
+      fontSize: 'var(--font-size-sm)',
+      lineHeight: '1.5',
+      padding: '12px 16px',
+      marginBottom: '20px'
+    }
+  }, function () {
+    var mom = pool.kpis.apyMomentum;
+    var hp = Number(pool.kpis.historyPoints);
+    if (mom >= 0.5) {
+      return t ? t('rateMomentumRising', _formatApy(Math.abs(mom)), hp) : `This pool's rate has climbed about ${_formatApy(Math.abs(mom))} over the ${hp} days we've tracked it. Rates that rose can slip back just as easily — this page projects on today's rate, not the climb.`;
+    }
+    return t ? t('rateMomentumFalling', _formatApy(Math.abs(mom)), hp) : `This pool's rate has eased down about ${_formatApy(Math.abs(mom))} over the ${hp} days we've tracked it. Falling rates are normal once reward emissions taper — worth knowing before you plan a garden around today's number.`;
+  }()),
   // Tokens Section (if available)
   pool.underlyingTokens && pool.underlyingTokens.length > 0 && React.createElement('div', {
     style: {
