@@ -1253,7 +1253,9 @@ function App() {
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (activeDropdown && !event.target.closest('.filter-dropdown-container')) {
+      if (activeDropdown &&
+          !event.target.closest('.global-filter-dropdown') &&
+          !event.target.closest('.google-filter-btn')) {
         setActiveDropdown(null);
       }
     };
@@ -2807,7 +2809,6 @@ function App() {
                 className: `google-nav-tab ${(key ? (selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1) : !selectedPoolTypes.length) ? 'active' : ''}`,
                 onClick: () => setSelectedPoolTypes(key ? [key] : [])
               },
-                navIcon(icon),
                 React.createElement('span', { className: 'google-nav-label' }, t(labelKey))
               )
             )
@@ -3267,6 +3268,13 @@ function App() {
       ),
 
       // Global dropdowns - rendered at top level to avoid any container overflow issues
+      // Scrim behind any open filter dropdown — dims the results and closes on click.
+      activeDropdown && React.createElement('div', {
+        className: 'global-filter-scrim',
+        'aria-hidden': 'true',
+        onClick: () => setActiveDropdown(null)
+      }),
+
       activeDropdown === 'chains' && availableChains.length > 1 && React.createElement('div', {
         className: 'global-filter-dropdown chains-dropdown',
         style: {
