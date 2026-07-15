@@ -101,12 +101,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/plume-mainnet</loc>
+    <loc>https://www.defi.garden/chains/katana</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/katana</loc>
+    <loc>https://www.defi.garden/chains/plume-mainnet</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -251,12 +251,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
+    <loc>https://www.defi.garden/chains/etherlink</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/etherlink</loc>
+    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
