@@ -967,6 +967,62 @@
     u.searchParams.delete('fresh');
     return u.toString();
   }
+
+  // ---------------------------------------------------------------------------
+  // Tend reminder (.ics) — the hook-model trigger leg (spec 115). No dependency,
+  // no permission prompt (a downloadable calendar file, NOT the Notifications
+  // API), no dark pattern: an honest, self-service monthly reminder that
+  // deep-links back into the user's exact garden (report mode auto-loads it).
+  // ---------------------------------------------------------------------------
+  function buildTendReminderIcs(shareUrl, summary, description) {
+    // DTSTART ~30 days out. ISO/UTC only (house rule: no bare toLocaleString
+    // without en-US; here every field is emitted in ICS UTC basic format).
+    var start = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000);
+    function icsStamp(d) {
+      return d.getUTCFullYear() +
+        String(d.getUTCMonth() + 1).padStart(2, '0') +
+        String(d.getUTCDate()).padStart(2, '0') + 'T' +
+        String(d.getUTCHours()).padStart(2, '0') +
+        String(d.getUTCMinutes()).padStart(2, '0') +
+        String(d.getUTCSeconds()).padStart(2, '0') + 'Z';
+    }
+    // Escape per RFC5545 minimally: backslashes, commas, semicolons, newlines.
+    function esc(s) { return String(s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n'); }
+    var dt = icsStamp(start);
+    var uid = 'tend-' + start.getTime() + '@defi.garden';
+    var lines = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//DeFi Garden//Tend Reminder//EN',
+      'CALSCALE:GREGORIAN',
+      'BEGIN:VEVENT',
+      'UID:' + uid,
+      'DTSTAMP:' + dt,
+      'DTSTART:' + dt,
+      'RRULE:FREQ=MONTHLY',
+      'SUMMARY:' + esc(summary),
+      'DESCRIPTION:' + esc(description + ' ' + shareUrl),
+      'URL:' + esc(shareUrl),
+      'END:VEVENT',
+      'END:VCALENDAR'
+    ];
+    return lines.join('\r\n');
+  }
+
+  function downloadTendReminder(shareUrl, summary, description) {
+    var ics = buildTendReminderIcs(shareUrl, summary, description);
+    try {
+      var blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = 'defi-garden-tending.ics';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(function () { try { URL.revokeObjectURL(url); } catch (e) {} }, 0);
+    } catch (err) {}
+  }
   // True when `id` resolves to a KNOWN subscription — a SUBSCRIPTION_LADDER rung
   // or a subscription-archetype GOAL. The clean validator for a decoded share
   // `mix`: unknown/garbage ids are dropped (honest degradation) so a hand-edited
@@ -2817,6 +2873,14 @@
       ? t('shareLinkPrimaryNative')
       : (copySuccess ? ('✓ ' + t('shareLinkCopied')) : t('shareLinkPrimaryCta'));
     var linkPrimaryHandler = navigator.share ? doNativeShare : doCopyLink;
+    // Hook-model trigger leg (spec 115): honest, self-service monthly reminder.
+    function doTendReminder() {
+      var url = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters, selectedSubs);
+      downloadTendReminder(url, t('tendReminderTitle'), t('tendReminderDesc'));
+      if (typeof Analytics !== 'undefined') {
+        Analytics.trackTendReminderAdded({ surface: 'bloom', goal: goal, persona: persona });
+      }
+    }
     var sharePromptElement = e('div', { className: 'gp-share-prompt gp-animate-in' },
       e('p', { className: 'gp-share-prompt-text' }, t('sharePromptHeadline')),
       e('button', {
@@ -2825,7 +2889,11 @@
       e('button', {
         type: 'button', className: 'gp-share-textlink', onClick: doShare, disabled: isSharing
       },
-        isSharing ? t('sharePrepping') : (imageShareConfirm ? ('✓ ' + t('shareImageSaved')) : t('shareTextLinkImage')))
+        isSharing ? t('sharePrepping') : (imageShareConfirm ? ('✓ ' + t('shareImageSaved')) : t('shareTextLinkImage'))),
+      e('button', {
+        type: 'button', className: 'gp-share-textlink gp-tend-reminder', onClick: doTendReminder
+      }, t('tendReminderCta')),
+      e('p', { className: 'gp-tend-reminder-note' }, t('tendReminderNote'))
     );
 
     if (archetype === 'subscription') {
@@ -3300,6 +3368,16 @@
   function GardenReport(props) {
     var t = props.t, plan = props.plan, pools = props.pools, poolsReady = props.poolsReady;
 
+    // Hook-model trigger leg (spec 115): re-arm the honest monthly reminder from
+    // the return-visit dashboard. URL rebuilt from the saved plan's fields.
+    function reportTendReminder() {
+      var url = encodePlanToUrl(plan.goal, plan.monthly, plan.years, plan.persona, plan.capital, plan.fundingMode, plan.deadline, plan.poolFilters, plan.mix);
+      downloadTendReminder(url, t('tendReminderTitle'), t('tendReminderDesc'));
+      if (typeof Analytics !== 'undefined') {
+        Analytics.trackTendReminderAdded({ surface: 'report', goal: plan.goal, persona: plan.persona });
+      }
+    }
+
     var live = useMemo(function () {
       if (!poolsReady) {
         // Return plan data without live deltas — no guessing
@@ -3550,6 +3628,12 @@
       e('div', { className: 'gp-report-actions' },
         e('button', { type: 'button', className: 'gp-cta', onClick: props.onTend }, t('reportTend')),
         e('button', { type: 'button', className: 'gp-cta gp-cta-ghost', onClick: props.onFresh }, t('reportFresh'))
+      ),
+      e('div', { className: 'gp-report-reminder' },
+        e('button', {
+          type: 'button', className: 'gp-share-textlink gp-tend-reminder', onClick: reportTendReminder
+        }, t('tendReminderCta')),
+        e('p', { className: 'gp-tend-reminder-note' }, t('tendReminderNote'))
       ),
       e('p', { className: 'gp-disclaimer' }, t('disclaimer'))
     );

@@ -360,6 +360,14 @@ const Analytics = {
     });
   },
 
+  trackTendReminderAdded(context = {}) {
+    this.track('tend_reminder_added', {
+      surface: context.surface || null,
+      goal: context.goal || null,
+      persona: context.persona || null
+    });
+  },
+
   trackWaitlistOpened(context = {}) {
     this.track('waitlist_opened', {
       goal: context.goal || null,
