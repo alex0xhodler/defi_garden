@@ -6,7 +6,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Lending.xml</loc>
-    <lastmod>2026-07-15T15:27:45.054Z</lastmod>
+    <lastmod>2026-07-15T22:42:15.593Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Staking.xml</loc>
@@ -130,7 +130,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Ethereum.xml</loc>
-    <lastmod>2026-07-15T15:27:45.054Z</lastmod>
+    <lastmod>2026-07-15T22:42:15.593Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Etherlink.xml</loc>
@@ -309,6 +309,10 @@
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
   </sitemap>
   <sitemap>
+    <loc>https://www.defi.garden/sitemap-chain-Robinhood-Chain.xml</loc>
+    <lastmod>2026-07-15T22:42:15.593Z</lastmod>
+  </sitemap>
+  <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Rollux.xml</loc>
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
   </sitemap>
@@ -426,7 +430,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-tokens-all.xml</loc>
-    <lastmod>2026-07-15T15:27:45.054Z</lastmod>
+    <lastmod>2026-07-15T22:42:15.593Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-token-pages.xml</loc>
