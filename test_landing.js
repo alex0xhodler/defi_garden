@@ -78,6 +78,12 @@ async function main() {
     assert.strictEqual(await landingLeafMarks.count(), 2);
     assert.strictEqual(await landingLeafMarks.first().getAttribute('width'), '24');
     assert.strictEqual(await landingLeafMarks.first().getAttribute('height'), '24');
+    assert.strictEqual(await page.locator('#landing-root .landing-icon').getAttribute('width'), '23');
+    assert.strictEqual(await page.locator('#landing-root .landing-icon').getAttribute('height'), '23');
+    const landingArrowIcons = page.locator('#landing-root .landing-arrow-icon');
+    assert.strictEqual(await landingArrowIcons.count(), 2);
+    assert.strictEqual(await landingArrowIcons.first().getAttribute('width'), '19');
+    assert.strictEqual(await landingArrowIcons.first().getAttribute('height'), '19');
     const landingFooterText = await page.locator('#landing-root .app-footer').innerText();
     assert.ok(landingFooterText.includes('DefiLlama API') && landingFooterText.includes('Browse tokens'), 'landing footer should match the analytics footer');
     passed++;
