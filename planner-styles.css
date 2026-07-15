@@ -1788,6 +1788,17 @@
   box-shadow: var(--neuro-shadow-subtle);
 }
 
+/* Plan-level projection confidence note (spec 106) */
+.gp-plan-confidence {
+  display: flex; align-items: flex-start; gap: 8px;
+  font-size: 0.8rem; color: var(--neuro-text-secondary);
+  margin: 0 0 12px; padding: 10px 14px;
+  border-radius: var(--neuro-radius-sm);
+  box-shadow: var(--neuro-shadow-subtle);
+  line-height: 1.5;
+}
+.gp-plan-confidence-icon { flex: none; }
+
 /* Scale-matched comparisons */
 .gp-comparison { margin: 12px 0; display: flex; flex-direction: column; gap: 8px; }
 .gp-comparison p {

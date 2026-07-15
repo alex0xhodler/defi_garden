@@ -650,6 +650,33 @@
     if (!curated || !curated.length) return 0;
     return median(curated.map(poolTotalApy));
   }
+  // Plan-level projection confidence (spec 106): summarize the track record of
+  // the `curated` set behind the blended rate using 087's stored kpis. Reads
+  // ONLY p.kpis.* + poolTotalApy(p); never filters, drops, reorders, re-weights,
+  // or re-flags a pool, and never touches the rail constants. Returns null when
+  // no curated pool carries usable kpis (live fallback / cold CDN) so the note
+  // hides honestly — same null-safe discipline as 088.1's live-landing hide.
+  function planConfidence(curated) {
+    if (!curated || !curated.length) return null;
+    var tracked = curated.filter(function (p) {
+      return p && p.kpis && typeof p.kpis === 'object' && Number(p.kpis.historyPoints) >= 1;
+    });
+    if (!tracked.length) return null;
+    var total = tracked.length;
+    var minHp = Infinity;
+    var steady = 0;
+    for (var i = 0; i < tracked.length; i++) {
+      var p = tracked[i];
+      var k = p.kpis;
+      var hp = Number(k.historyPoints);
+      if (hp < minHp) minHp = hp;
+      var cur = poolTotalApy(p);
+      if (hp >= 7 && typeof k.apyStdev === 'number' && k.apyStdev !== null && cur > 0 && (k.apyStdev / cur) <= 0.2) {
+        steady++;
+      }
+    }
+    return { total: total, steady: steady, minHp: minHp };
+  }
   // For degen: effective APY with 1/3 haircut
   function effectiveApy(curated, personaKey) {
     var pk = TEMPERAMENT_TO_PERSONA[personaKey] || personaKey;
@@ -2208,6 +2235,26 @@
       );
     })() : null;
 
+    // Plan-level projection confidence note (spec 106) — a calm line summarizing
+    // the track record of the whole `curated` set behind the blended rate. Hides
+    // itself (null) on the live/no-kpis path. Sits after heroElement in both trees.
+    var planConfidenceElement = (function () {
+      var conf = planConfidence(curated);
+      if (!conf) return null;
+      var copy;
+      if (conf.steady === conf.total && conf.minHp >= 7) {
+        copy = t('planConfidenceSteady', conf.minHp);
+      } else if (conf.steady > 0) {
+        copy = t('planConfidencePartial', conf.steady, conf.total);
+      } else {
+        copy = t('planConfidenceBuilding');
+      }
+      return e('div', { className: 'gp-plan-confidence gp-animate-in' },
+        e('span', { className: 'gp-plan-confidence-icon', 'aria-hidden': 'true' }, '🌱'),
+        e('span', { className: 'gp-plan-confidence-text' }, copy)
+      );
+    })();
+
     // Engine room element (shared) — collapsed by default
     var engineElement = e('div', { className: 'gp-pools gp-animate-in' },
       e('button', {
@@ -2787,7 +2834,7 @@
         e('div', { className: 'gp-bloom-layout' },
           e('div', { className: 'gp-bloom-checkout' }, checkoutPanelElement, sharePromptElement),
           e('div', { className: 'gp-bloom-detail' },
-            heroElement, planCardElement, subCustomizeElement, askElement, caveatElement
+            heroElement, planConfidenceElement, planCardElement, subCustomizeElement, askElement, caveatElement
           )
         ),
         footElement,
@@ -2804,6 +2851,7 @@
 
       // 1. HERO ANSWER
       heroElement,
+      planConfidenceElement,
 
       // Editable plan summary strip
       e('div', { className: 'gp-plan-strip gp-animate-in' },
