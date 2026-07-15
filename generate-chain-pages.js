@@ -415,6 +415,23 @@ function fetchPoolData() {
   });
 }
 
+// 112: load pools from a fixture/transient, failing SAFE to live. Returns an
+// array only when the fixture holds a non-empty pool array; otherwise null so
+// the caller live-fetches (never a truncated/empty run that would prune SEO).
+function loadFixturePools(fixturePath) {
+  if (!fixturePath) return null;
+  try {
+    const raw = JSON.parse(fs.readFileSync(fixturePath, 'utf8'));
+    const arr = raw && raw.data ? raw.data : raw;
+    if (Array.isArray(arr) && arr.length > 0) return arr;
+    console.warn('⚠️  Fixture empty — live fallback:', fixturePath);
+    return null;
+  } catch (e) {
+    console.warn('⚠️  Fixture missing/malformed — live fallback:', fixturePath, '(' + e.message + ')');
+    return null;
+  }
+}
+
 function parseArgs(argv) {
   const args = { fixture: process.env.POOLS_FIXTURE || null, out: 'chains', limit: DEFAULT_LIMIT, sitemap: 'sitemap-chain-pages.xml' };
   for (let i = 0; i < argv.length; i++) {
@@ -429,11 +446,9 @@ function parseArgs(argv) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  let pools;
-  if (args.fixture) {
-    console.log('📄 Loading pools from fixture:', args.fixture);
-    const raw = JSON.parse(fs.readFileSync(args.fixture, 'utf8'));
-    pools = raw.data || raw;
+  let pools = loadFixturePools(args.fixture);
+  if (pools) {
+    console.log('📄 Loaded pools from fixture:', args.fixture);
   } else {
     console.log('📡 Fetching pools from DefiLlama...');
     pools = await fetchPoolData();
@@ -517,6 +532,6 @@ if (require.main === module) {
 
 module.exports = {
   rankTopChains, renderChainPage, relatedChainsFor, renderChainSitemap, renderChainHubPage, chainSlug,
-  topTokensOnChain,
+  topTokensOnChain, loadFixturePools,
   POOLS_PER_PAGE, MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };

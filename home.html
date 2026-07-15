@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
 
-    <!-- Default title/meta for planner (bare /) — analytics pages set their own via JS -->
-    <title>DeFi Garden 🌱 | Plan Your DeFi Savings by Goal</title>
-    <meta name="description" content="A goal-first DeFi savings planner. Tell us what you're saving for and how much you can set aside each month — we'll show what live, real pool rates could grow it into. Every number is live DefiLlama data. Education, not advice.">
+    <!-- Default title/meta for the search-first landing — planner and analytics
+         modes rewrite these values in the router or their mounted app. -->
+    <title>DeFi Garden 🌱 | Find your next yield</title>
+    <meta name="description" content="Search live DeFi yields across every chain, then plant a garden around what you want to grow. Education, not advice.">
 
     <!-- SEO Meta Tags -->
     <meta name="keywords" content="DeFi savings planner, goal-based saving, stablecoin yield, retirement DeFi, compound growth, yield farming, cryptocurrency, APY, DeFi Garden">
@@ -22,8 +23,8 @@
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="DeFi Garden 🌱 | Plan Your DeFi Savings by Goal">
-    <meta property="og:description" content="Tell us what you're saving for. We'll show what live, real DeFi pool rates could grow your monthly deposits into. Every number is live data — education, not advice.">
+    <meta property="og:title" content="DeFi Garden 🌱 | Find your next yield">
+    <meta property="og:description" content="Search live DeFi yields across every chain, then plant a garden around what you want to grow. Education, not advice.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.defi.garden/">
     <meta property="og:site_name" content="DeFi Garden">
@@ -69,12 +70,16 @@
         // IA Router — runs before React loads. Zero flash. Zero double-load.
         // ANALYTICS PARAMS: any of these mean "show the analytics app"
         // PLANNER PARAMS:   goal/monthly/years/pace/preset/fresh = planner
-        // Bare /            = planner (new default per spec §7)
+        // PLANNER PATH:     /plan.html is always the planner
+        // Bare /            = search-first landing
         (function () {
             var params = new URLSearchParams(window.location.search);
             var ANALYTICS_PARAMS = ['token', 'chain', 'pool', 'poolTypes', 'protocols', 'minTvl', 'minApy', 'app'];
+            var PLANNER_PARAMS = ['goal', 'monthly', 'years', 'pace', 'preset', 'fresh', 'capital', 'fm', 'dl'];
             var needsAnalytics = ANALYTICS_PARAMS.some(function(k) { return params.has(k); });
-            window.__APP_MODE = needsAnalytics ? 'analytics' : 'planner';
+            var isPlannerPath = /(?:^|\/)plan\.html$/.test(window.location.pathname);
+            var needsPlanner = isPlannerPath || PLANNER_PARAMS.some(function(k) { return params.has(k); });
+            window.__APP_MODE = needsAnalytics ? 'analytics' : (needsPlanner ? 'planner' : 'landing');
             // Mirror the mode onto <html> before paint (same pattern as
             // data-theme below) so CSS can hide the static .seo-hub-links
             // footer in analytics mode, where the same links are now
@@ -106,14 +111,21 @@
             var ogUrl = document.querySelector('meta[property="og:url"]');
             if (ogUrl) ogUrl.content = canonicalUrl;
 
-            // Title/description rewrite — analytics mode only; the static
-            // defaults already in <head> are the correct planner-mode values.
+            // Title/description rewrite — analytics and planner modes only;
+            // landing mode uses the static defaults above and localizes them
+            // after translations.js mounts.
             if (needsAnalytics) {
                 document.title = 'DeFi Garden 🌱 | Discover Highest Yield Farming Opportunities Across All Chains';
                 var desc = document.querySelector('meta[name="description"]');
                 if (desc) desc.content = 'Find the best DeFi yields for your tokens with DeFi Garden. Compare lending, staking, and LP rewards across 50+ protocols and all major chains. Real-time APY data from Defillama API.';
                 var ogTitle = document.querySelector('meta[property="og:title"]');
                 if (ogTitle) ogTitle.content = document.title;
+            } else if (needsPlanner) {
+                document.title = 'Garden Planner 🌱 | Plan Your DeFi Savings by Goal — DeFi Garden';
+                var plannerDesc = document.querySelector('meta[name="description"]');
+                if (plannerDesc) plannerDesc.content = 'A goal-first DeFi savings planner. Tell us what you\'re saving for and how much you can set aside each month — we\'ll show what live, real pool rates could grow it into. Education, not advice.';
+                var plannerOgTitle = document.querySelector('meta[property="og:title"]');
+                if (plannerOgTitle) plannerOgTitle.content = document.title;
             }
         })();
     </script>
@@ -134,7 +146,8 @@
                 head.appendChild(l);
             }
             if (mode === 'analytics') { addCSS('pool-detail-styles.min.css'); }
-            else { addCSS('planner-styles.min.css'); }
+            else if (mode === 'planner') { addCSS('planner-styles.min.css'); }
+            else { addCSS('landing-styles.css'); }
         })();
     </script>
 
@@ -145,7 +158,7 @@
          never hand-edit. -->
     <script defer src="./react.production.min.js"></script>
     <script defer src="./react-dom.production.min.js"></script>
-    <script defer src="translations.min.js"></script>
+    <script defer src="translations.js"></script>
 
     <!-- Mixpanel — synchronous stub loader (queues calls until the real lib loads
          async); safe to run before analytics.js since it just needs `mixpanel`
@@ -166,7 +179,10 @@
 
     <!-- Planner script — static defer so it runs after React + translations + analytics.
          Minified in CI (backlog 053); edit planner.js, never planner.min.js. -->
-    <script defer src="planner.min.js"></script>
+    <script defer src="planner.js"></script>
+
+    <!-- Search-first landing script — mounts only when the router selects it. -->
+    <script defer src="landing.js"></script>
 
     <!-- WebMCP implementation for AI Agents -->
     <script>
@@ -286,6 +302,7 @@
     <!-- Root mounts for both experiences; only one gets populated per load -->
     <div id="root"></div>
     <div id="planner-root"></div>
+    <div id="landing-root"></div>
 
     <!-- SEO surface hub links (045) — server-rendered, present in the raw
          HTML in BOTH router modes so crawlers reach /tokens and /chains

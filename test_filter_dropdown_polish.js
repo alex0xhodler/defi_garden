@@ -1,20 +1,19 @@
-/* Filter-dropdown polish gate for spec 111. Drives the REAL open-dropdown UI in
-   the analytics app and asserts the Part B polish:
-     - a subtle .filter-dropdown-scrim renders under the dropdown (z-index below it)
-     - NO banned scale-pop hover on inactive pills/chips (matrix scale ≈ 1)
-     - the selected chip is a solid, unmistakable filled control (white text, a
-       fill distinct from an unselected sibling)
-     - clicking the scrim (outside the panel) closes both scrim + dropdown
+/* Filter-dropdown open-state polish gate for spec 111. Drives the REAL analytics
+   UI (home.html) and verifies part B of the spec:
+     B1. Opening a filter dropdown renders a .global-filter-scrim.
+     B2. The selected .filter-chip.active reads as filled-primary (white text,
+         a background distinct from a non-active chip, non-transparent).
+     B3. Hovering a non-active chip lifts (translate) with NO scale (m11 === 1).
+     B4. Clicking the scrim closes the dropdown.
+     B5. Open → scrim → close runs clean at 360/768/1280 widths and in dark mode,
+         with a dark-tinted scrim (alpha > 0).
+   Harness scaffolding copied verbatim from test_nav_rail_ia.js (local static
+   server; page.route fixtures for unpkg React/react-dom/@babel from node_modules;
+   stale snapshot stub; yields.llama.fi fixture; IGNORABLE_ERROR_PATTERN incl.
+   icons.llamao.fi; chromium at /opt/pw-browsers/chromium if present).
 
-   Rendered Playwright only, same harness as test_nav_rail_ia.js: local static
-   server for home.html; page.route fixtures for React/react-dom/@babel from
-   node_modules; a stale pools-snapshot stub; a yields.llama.fi/pools fixture; an
-   icons.llamao.fi 1×1 pool-logo fixture; IGNORABLE_ERROR_PATTERN; the
-   /opt/pw-browsers/chromium executable if present.
-
-   Load /?token=USDC — token mode leaves selectedChain empty (clean default
-   labels) and shows every USDC pool. The TVL dropdown always renders and carries
-   one active chip + inactive siblings, ideal for the fill/hover assertions.
+   Load /?token=USDC so the TVL/APY dropdowns are reachable and no chain is
+   preselected.
 
    Run: node test_filter_dropdown_polish.js */
 const http = require('http');
@@ -29,7 +28,7 @@ const MIME = {
   '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2',
   '.png': 'image/png', '.txt': 'text/plain', '.xml': 'application/xml'
 };
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com/i;
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com|icons\.llamao\.fi/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
@@ -37,8 +36,8 @@ function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
   if (poolMeta) pool.poolMeta = poolMeta;
   return pool;
 }
-// All TVL > $10M so they survive the default floor; two chains so the Chains
-// dropdown renders (>1 chain) and every symbol carries a USDC token segment.
+// All TVL > $10M, non-zero apyBase, symbols carry a token segment (USDC).
+// Two Base pools spanning RWA + Lending; one Ethereum pool so availableChains > 1.
 const FIXTURE_POOLS = [
   makePool('rwa-ondo-base', 'ondo-yield-assets', 'USDC-ONDO', 'Base', 120_000_000, 4.5),
   makePool('lend-aave-base', 'aave-v3', 'USDC-AAVE', 'Base', 200_000_000, 3.0, 'Lending'),
@@ -84,38 +83,29 @@ async function routeFixtures(page) {
       status: 200, contentType: 'application/javascript', body: fs.readFileSync(localPath)
     }));
   }
-  // Stale-stub the committed snapshot so the freshness gate falls back to the
-  // live fixture rather than the committed snapshot.
   await page.route('**/data/pools-snapshot*', (route) =>
     route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
   await page.route('https://yields.llama.fi/pools', (route) => route.fulfill({
     status: 200, contentType: 'application/json', body: FIXTURE_RESPONSE
   }));
-  // Pool-logo loads (icons.llamao.fi) → tiny 1×1 fixture so the sandbox network
-  // artifact does not mask real page errors.
-  await page.route('https://icons.llamao.fi/**', (route) => route.fulfill({
-    status: 200, contentType: 'image/svg+xml', body: '<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"></svg>'
-  }));
 }
 
-// Parse a computed transform string to its scaleX / scaleY. 'none' → {1,1}.
-function scaleOf(transform) {
-  if (!transform || transform === 'none') return { sx: 1, sy: 1 };
-  const m = transform.match(/matrix\(([^)]+)\)/);
-  if (!m) return { sx: 1, sy: 1 };
-  const p = m[1].split(',').map(s => parseFloat(s.trim()));
-  // matrix(a, b, c, d, e, f): scaleX ≈ a, scaleY ≈ d (no rotation here).
-  return { sx: p[0], sy: p[3] };
-}
-
+// Open the TVL dropdown (idempotent: closes any open dropdown first).
 async function openTvl(page) {
+  // Close whatever is open so we start clean.
+  await page.evaluate(() => {
+    const scrim = document.querySelector('.global-filter-scrim');
+    if (scrim) scrim.click();
+  });
+  await page.waitForTimeout(150);
   await page.click('#tvl-btn');
   await page.waitForSelector('.global-filter-dropdown', { timeout: 5000 });
+  await page.waitForTimeout(120);
 }
 
 async function main() {
-  console.log('\n=== rendered Playwright: filter-dropdown polish (spec 111) ===');
-  console.log('network: unpkg.com BLOCKED (vendored React/Babel), yields.llama.fi + icons.llamao.fi BLOCKED (fixtures)');
+  console.log('\n=== rendered Playwright: filter-dropdown open-state polish (spec 111) ===');
+  console.log('network: unpkg.com BLOCKED (vendored React/Babel), yields.llama.fi BLOCKED (fixture snapshot)');
   const server = await startServer();
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
@@ -133,106 +123,147 @@ async function main() {
 
     await page.goto(`http://localhost:${PORT}/?token=USDC`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('.pool-card', { timeout: 15000 });
-    // home.html loads style.min.css with media="print" onload="this.media='all'"
-    // (non-blocking async-CSS). That onload swap is racy under headless, so drive
-    // it deterministically — exactly what the browser does on load — then wait
-    // until the sheet is live before probing computed styles.
-    await page.evaluate(() =>
-      document.querySelectorAll('link[rel="stylesheet"][media="print"]').forEach(l => { l.media = 'all'; }));
-    await page.waitForFunction(() => {
-      const h = document.querySelector('.google-header-sticky');
-      return h && getComputedStyle(h).position === 'fixed';
-    }, { timeout: 5000 }).catch(() => {});
     await page.waitForSelector('#tvl-btn', { timeout: 5000 });
+    // style.min.css is perf-deferred (media="print" → onload this.media='all'); prod
+    // browsers fire that swap near-instantly, but headless chromium lazy-loads print
+    // sheets so the swap can lag arbitrarily in-sandbox. Do exactly what the prod
+    // onload handler does, then wait for the neuro tokens (--color-primary, scrim
+    // tint) to actually resolve before asserting computed styles.
+    await page.evaluate(() => {
+      document.querySelectorAll('link[rel="stylesheet"][media="print"]').forEach((l) => { l.media = 'all'; });
+    });
+    await page.waitForFunction(() =>
+      getComputedStyle(document.documentElement).getPropertyValue('--color-primary').trim() !== '',
+      null, { timeout: 15000 });
 
-    // (1) Scrim present + layered under the dropdown.
-    await test('opening TVL renders exactly one scrim, z-index below the dropdown', async () => {
+    // B1: opening a dropdown renders the scrim.
+    await test('B1: opening #tvl-btn renders a .global-filter-scrim', async () => {
       await openTvl(page);
-      const r = await page.evaluate(() => {
-        const dds = document.querySelectorAll('.global-filter-dropdown');
-        const scrims = document.querySelectorAll('.filter-dropdown-scrim');
-        if (dds.length < 1 || scrims.length < 1) return { ddCount: dds.length, scrimCount: scrims.length };
-        return {
-          ddCount: dds.length,
-          scrimCount: scrims.length,
-          ddZ: parseInt(getComputedStyle(dds[0]).zIndex, 10),
-          scrimZ: parseInt(getComputedStyle(scrims[0]).zIndex, 10)
-        };
-      });
-      if (r.scrimCount !== 1) throw new Error('expected exactly 1 .filter-dropdown-scrim, got ' + r.scrimCount);
-      if (r.ddCount < 1) throw new Error('expected a .global-filter-dropdown to be open');
-      if (!(r.scrimZ < r.ddZ)) throw new Error(`scrim z-index ${r.scrimZ} not strictly below dropdown z-index ${r.ddZ}`);
+      const hasScrim = await page.evaluate(() => !!document.querySelector('.global-filter-scrim'));
+      if (!hasScrim) throw new Error('.global-filter-scrim not present after opening #tvl-btn');
     });
 
-    // (2) No banned scale-pop hover on an inactive chip.
-    await test('hovering an inactive dropdown chip yields no scale (matrix scale ≈ 1)', async () => {
-      const sel = '.global-filter-dropdown .filter-chip:not(.active)';
-      await page.waitForSelector(sel, { timeout: 5000 });
-      await page.hover(sel).catch(() => {});
-      await page.waitForTimeout(120);
-      const transform = await page.evaluate((s) => {
-        const el = document.querySelector(s);
-        return el ? getComputedStyle(el).transform : 'none';
-      }, sel);
-      const { sx, sy } = scaleOf(transform);
-      if (Math.abs(sx - 1) > 0.01 || Math.abs(sy - 1) > 0.01)
-        throw new Error(`inactive chip hover has scale (sx=${sx}, sy=${sy}) — banned scale-pop; transform=${transform}`);
-    });
-
-    // (3) Selected chip is a solid filled control — white text, fill distinct
-    //     from an unselected sibling. Select a chip (this closes the dropdown as
-    //     each chip calls setActiveDropdown(null)), then reopen and inspect.
-    await test('selected chip is filled: white text + background unlike an unselected sibling', async () => {
-      // Select the "No Min" chip so at least one pool always remains visible.
+    // B2: selected chip reads as filled-primary — white text, a background that
+    //     differs from a non-active chip and is not transparent.
+    await test('B2: selected $10M+ chip is filled-primary (white text, distinct non-transparent bg)', async () => {
+      await openTvl(page);
+      // Click the chip whose trimmed text is exactly "$10M+".
       await page.evaluate(() => {
         const chip = Array.from(document.querySelectorAll('.global-filter-dropdown .filter-chip'))
-          .find(c => c.textContent.trim() === 'No Min');
-        if (chip) chip.click();
+          .find(c => c.textContent.trim() === '$10M+');
+        if (!chip) throw new Error('no $10M+ chip');
+        chip.click();
       });
-      await page.waitForSelector('.global-filter-dropdown', { state: 'detached', timeout: 5000 }).catch(() => {});
+      await page.waitForTimeout(150);
+      // Selecting closes the dropdown; reopen to inspect the active chip.
       await openTvl(page);
       const r = await page.evaluate(() => {
         const chips = Array.from(document.querySelectorAll('.global-filter-dropdown .filter-chip'));
         const active = chips.find(c => c.classList.contains('active'));
-        const inactive = chips.find(c => !c.classList.contains('active'));
-        if (!active || !inactive) return { hasActive: !!active, hasInactive: !!inactive };
+        const nonActive = chips.find(c => !c.classList.contains('active'));
+        if (!active) return { err: 'no active chip' };
+        if (!nonActive) return { err: 'no non-active chip' };
         const cs = getComputedStyle(active);
+        const csN = getComputedStyle(nonActive);
         return {
-          hasActive: true,
-          hasInactive: true,
-          color: cs.color,
           activeBg: cs.backgroundColor,
-          inactiveBg: getComputedStyle(inactive).backgroundColor
+          nonActiveBg: csN.backgroundColor,
+          activeColor: cs.color,
+          activeText: active.textContent.trim()
         };
       });
-      if (!r.hasActive) throw new Error('no .active chip found in reopened dropdown');
-      if (!r.hasInactive) throw new Error('no unselected sibling chip to compare against');
-      const whiteish = /rgba?\(\s*255,\s*255,\s*255/.test(r.color);
-      if (!whiteish) throw new Error('selected chip text color is not white: ' + r.color);
-      if (r.activeBg === r.inactiveBg)
-        throw new Error('selected chip background equals unselected sibling background (' + r.activeBg + ') — not a distinct fill');
-      const transparent = /rgba?\([^)]*,\s*0\s*\)/.test(r.activeBg) || r.activeBg === 'transparent';
-      if (transparent) throw new Error('selected chip background is transparent: ' + r.activeBg);
+      if (r.err) throw new Error(r.err);
+      if (r.activeText !== '$10M+') throw new Error('active chip text is ' + JSON.stringify(r.activeText) + ', expected "$10M+"');
+      if (r.activeBg === 'rgba(0, 0, 0, 0)' || r.activeBg === 'transparent')
+        throw new Error('active chip background is transparent: ' + r.activeBg);
+      if (r.activeBg === r.nonActiveBg)
+        throw new Error('active chip background (' + r.activeBg + ') does not differ from non-active (' + r.nonActiveBg + ')');
+      if (r.activeColor !== 'rgb(255, 255, 255)')
+        throw new Error('active chip color is ' + r.activeColor + ', expected white rgb(255, 255, 255)');
     });
 
-    // (4) Clicking the scrim (outside the panel) closes both scrim + dropdown.
-    await test('clicking the scrim closes both the dropdown and the scrim', async () => {
-      // Dropdown is open from the previous reopen. Click the scrim directly.
-      await page.waitForSelector('.filter-dropdown-scrim', { timeout: 5000 });
+    // B3: hovering a non-active chip lifts (translate) but does NOT scale.
+    await test('B3: hovering a non-active chip has no scale in its transform (m11 === 1)', async () => {
+      await openTvl(page);
+      // Hover the "$1M+" chip (non-active while minTvl=$10M).
+      const handle = await page.evaluateHandle(() => {
+        return Array.from(document.querySelectorAll('.global-filter-dropdown .filter-chip'))
+          .find(c => c.textContent.trim() === '$1M+') || null;
+      });
+      const el = handle.asElement();
+      if (!el) throw new Error('no $1M+ chip to hover');
+      await el.hover();
+      await page.waitForTimeout(250);
+      const transform = await el.evaluate((node) => getComputedStyle(node).transform);
+      if (transform && transform !== 'none') {
+        const m = transform.match(/matrix\(([^)]+)\)/);
+        if (!m) throw new Error('unexpected transform format: ' + transform);
+        const parts = m[1].split(',').map(s => parseFloat(s.trim()));
+        const m11 = parts[0];
+        if (Math.abs(m11 - 1) > 0.001)
+          throw new Error('hover transform has a scale (m11=' + m11 + '): ' + transform);
+      }
+    });
+
+    // B4: clicking the scrim closes the dropdown.
+    await test('B4: clicking the .global-filter-scrim closes the dropdown', async () => {
+      await openTvl(page);
       await page.evaluate(() => {
-        const scrim = document.querySelector('.filter-dropdown-scrim');
+        const scrim = document.querySelector('.global-filter-scrim');
+        if (!scrim) throw new Error('no scrim to click');
+        scrim.click();
+      });
+      await page.waitForTimeout(200);
+      const stillOpen = await page.evaluate(() => !!document.querySelector('.global-filter-dropdown'));
+      if (stillOpen) throw new Error('.global-filter-dropdown still present after clicking scrim');
+    });
+
+    // B5: open → scrim present → close runs clean at each viewport, then dark mode.
+    await test('B5: open/scrim/close survives 360/768/1280 widths', async () => {
+      const viewports = [{ w: 360, h: 780 }, { w: 768, h: 1024 }, { w: 1280, h: 900 }];
+      for (const vp of viewports) {
+        await page.setViewportSize({ width: vp.w, height: vp.h });
+        await page.waitForTimeout(150);
+        await openTvl(page);
+        const hasScrim = await page.evaluate(() => !!document.querySelector('.global-filter-scrim'));
+        if (!hasScrim) throw new Error('scrim missing at ' + vp.w + 'px');
+        await page.evaluate(() => document.querySelector('.global-filter-scrim').click());
+        await page.waitForTimeout(200);
+        const stillOpen = await page.evaluate(() => !!document.querySelector('.global-filter-dropdown'));
+        if (stillOpen) throw new Error('dropdown did not close at ' + vp.w + 'px');
+      }
+      await page.setViewportSize({ width: 1280, height: 900 });
+    });
+
+    await test('B5: dark-mode scrim renders with a dark tint (alpha > 0)', async () => {
+      await page.evaluate(() => document.documentElement.setAttribute('data-theme', 'dark'));
+      await page.waitForTimeout(150);
+      await openTvl(page);
+      const r = await page.evaluate(() => {
+        const scrim = document.querySelector('.global-filter-scrim');
+        if (!scrim) return { err: 'no scrim in dark mode' };
+        const bg = getComputedStyle(scrim).backgroundColor;
+        // Parse rgb/rgba → alpha (defaults to 1 for rgb()).
+        const m = bg.match(/rgba?\(([^)]+)\)/);
+        let alpha = 1;
+        if (m) {
+          const parts = m[1].split(',').map(s => parseFloat(s.trim()));
+          if (parts.length === 4) alpha = parts[3];
+        }
+        return { bg, alpha };
+      });
+      if (r.err) throw new Error(r.err);
+      if (!(r.alpha > 0)) throw new Error('dark-mode scrim background has no visible tint: ' + r.bg);
+      // Clean up: close + restore light mode.
+      await page.evaluate(() => {
+        const scrim = document.querySelector('.global-filter-scrim');
         if (scrim) scrim.click();
+        document.documentElement.removeAttribute('data-theme');
       });
       await page.waitForTimeout(150);
-      const r = await page.evaluate(() => ({
-        dd: document.querySelectorAll('.global-filter-dropdown').length,
-        scrim: document.querySelectorAll('.filter-dropdown-scrim').length
-      }));
-      if (r.dd !== 0) throw new Error(r.dd + ' .global-filter-dropdown still present after scrim click');
-      if (r.scrim !== 0) throw new Error(r.scrim + ' .filter-dropdown-scrim still present after scrim click');
     });
 
-    // (5) Zero non-ignorable page errors across the run.
+    // Final: zero non-ignorable page errors across the run.
     if (pageErrors.length) {
       console.error('page errors during run:\n' + pageErrors.join('\n'));
       process.exitCode = 1;

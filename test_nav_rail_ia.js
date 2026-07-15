@@ -28,7 +28,7 @@ const MIME = {
   '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2',
   '.png': 'image/png', '.txt': 'text/plain', '.xml': 'application/xml'
 };
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com/i;
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com|icons\.llamao\.fi/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
@@ -89,11 +89,6 @@ async function routeFixtures(page) {
     route.fulfill({ status: 200, contentType: 'application/json', body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}' }));
   await page.route('https://yields.llama.fi/pools', (route) => route.fulfill({
     status: 200, contentType: 'application/json', body: FIXTURE_RESPONSE
-  }));
-  // Pool-logo loads (icons.llamao.fi) → tiny 1×1 fixture so the sandbox network
-  // artifact does not mask real page errors.
-  await page.route('https://icons.llamao.fi/**', (route) => route.fulfill({
-    status: 200, contentType: 'image/svg+xml', body: '<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"></svg>'
   }));
 }
 
@@ -203,20 +198,19 @@ async function main() {
       if (r.notFilterBtn.length) throw new Error('filters missing .google-filter-btn class: ' + JSON.stringify(r.notFilterBtn));
     });
 
-    // (4) Category tabs carry NO <svg> (icons dropped, spec 111); every filter
-    //     pill still contains an inline <svg>.
-    await test('category tabs have no <svg>; every filter pill keeps its <svg>', async () => {
+    // (4) Category tabs are text-only (no <svg>); every filter button keeps exactly one inline <svg>.
+    await test('category tabs have NO <svg>; every filter button has exactly one <svg>', async () => {
       const r = await page.evaluate(() => {
         const tabs = Array.from(document.querySelectorAll('.google-nav-tab'));
         const filters = Array.from(document.querySelectorAll('.google-filter-btn'));
-        const tabsWithSvg = tabs.filter(c => c.querySelector('svg')).length;
-        const filtersWithoutSvg = filters.filter(c => !c.querySelector('svg')).length;
-        return { tabCount: tabs.length, filterCount: filters.length, tabsWithSvg, filtersWithoutSvg };
+        const tabsWithSvg = tabs.filter(t => t.querySelector('svg')).length;
+        const filtersWrongSvg = filters.filter(f => f.querySelectorAll('svg').length !== 1).length;
+        return { tabCount: tabs.length, tabsWithSvg, filterCount: filters.length, filtersWrongSvg };
       });
       if (r.tabCount < 1) throw new Error('expected category tabs to exist');
-      if (r.filterCount < 1) throw new Error('expected filter pills to exist');
       if (r.tabsWithSvg !== 0) throw new Error(r.tabsWithSvg + ' category tab(s) still contain an <svg>');
-      if (r.filtersWithoutSvg !== 0) throw new Error(r.filtersWithoutSvg + ' filter pill(s) have no <svg> child');
+      if (r.filterCount < 1) throw new Error('expected filter buttons to exist');
+      if (r.filtersWrongSvg !== 0) throw new Error(r.filtersWrongSvg + ' filter button(s) do not have exactly one <svg>');
     });
 
     // (6) Dropdown still positions off its button (preserved IDs drive positioning).

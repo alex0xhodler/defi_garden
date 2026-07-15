@@ -1240,23 +1240,34 @@ body {
   animation: dropdownSlide var(--duration-fast) var(--ease-standard);
 }
 
-/* Subtle scrim behind an open filter dropdown — click to close (spec 111). */
-.filter-dropdown-scrim {
+/* Scrim behind an open filter dropdown (spec 111). Starts below the sticky
+   header (top:128px matches the dropdowns' fixed top) so the filter buttons
+   stay clickable and switching filters directly still works; only the results
+   area dims + click-to-close. z-index sits just under the dropdowns' 99999. */
+.global-filter-scrim {
   position: fixed;
-  inset: 0;
-  z-index: 99998; /* just under .global-filter-dropdown (99999) */
-  background: rgba(0, 0, 0, 0.04);
+  top: 128px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99998;
+  background: rgba(15, 23, 42, 0.06);
   animation: scrimFade var(--duration-fast) var(--ease-standard);
 }
-[data-theme="dark"] .filter-dropdown-scrim {
-  background: rgba(0, 0, 0, 0.18);
+
+[data-theme="dark"] .global-filter-scrim {
+  background: rgba(0, 0, 0, 0.28);
 }
+
 @keyframes scrimFade {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
 @media (prefers-reduced-motion: reduce) {
-  .filter-dropdown-scrim { animation: none; }
+  .global-filter-scrim {
+    animation: none;
+  }
 }
 
 .global-filter-dropdown .filter-pills-container {
@@ -1368,18 +1379,22 @@ body {
   scroll-snap-type: x proximity;
 }
 
-/* Selected pill/chip in an open dropdown = a solid, unmistakable filled control
-   (never a barely-there 1px lift). Chain pills keep their per-chain brand color. */
+/* Enhanced hover animations for scrollable pills */
 .global-filter-dropdown .filter-pill.active,
 .global-filter-dropdown .filter-chip.active {
-  background: var(--color-primary);
-  color: #fff;
-  font-weight: var(--font-weight-semibold);
-  transform: translateY(0);
+  transform: translateY(-1px);
   box-shadow: var(--neuro-shadow-raised);
 }
-.global-filter-dropdown .chain-pill.active {
-  background: var(--chain-color, var(--color-primary));
+
+/* Selected chip reads as unmistakable filled-primary (matches .google-filter-btn.has-selection).
+   Scoped to .filter-chip ONLY — the transform/box-shadow override lives here (not on the shared
+   rule above) so chain/protocol pills keep their existing brand/primary fill AND lift unchanged. */
+.global-filter-dropdown .filter-chip.active {
+  background: var(--color-primary);
+  color: white;
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(0);
+  box-shadow: var(--neuro-shadow-subtle);
 }
 
 /* Add subtle momentum scrolling feedback */
@@ -4496,20 +4511,21 @@ html {
   animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 3) both;
 }
 
-/* Honest "The Long Game" projection card — "always visible, never collapsed"
-   (PoolDetail.js). Without its own `both`-fill-mode entrance rule it inherited
-   the base .animate-on-mount { opacity: 0 } and reverted to hidden after the
-   generic fade finished (flash-then-hide bug). Matches the sibling cadence. */
-.metric-card-simple.animate-on-mount {
-  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 4) both;
-}
-
 .calculator-compact.animate-on-mount {
   animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 4) both;
 }
 
 .pool-info-section.animate-on-mount {
   animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 5) both;
+}
+
+/* "The Long Game" projection card: like every sibling pool-detail card it
+   inherits the base .animate-on-mount { opacity: 0 } but, unlike them, had no
+   entrance rule of its own with `both` fill-mode — so it flashed then reverted
+   to opacity:0 on ?pool= views. Give it the same fadeInScale entrance the other
+   cards have. (Item 111 PR #235 hotfix, human-surfaced live.) */
+.metric-card-simple.animate-on-mount {
+  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 4) both;
 }
 
 /* Staggered card animations */
