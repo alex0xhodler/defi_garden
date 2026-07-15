@@ -1240,6 +1240,25 @@ body {
   animation: dropdownSlide var(--duration-fast) var(--ease-standard);
 }
 
+/* Subtle scrim behind an open filter dropdown — click to close (spec 111). */
+.filter-dropdown-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 99998; /* just under .global-filter-dropdown (99999) */
+  background: rgba(0, 0, 0, 0.04);
+  animation: scrimFade var(--duration-fast) var(--ease-standard);
+}
+[data-theme="dark"] .filter-dropdown-scrim {
+  background: rgba(0, 0, 0, 0.18);
+}
+@keyframes scrimFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .filter-dropdown-scrim { animation: none; }
+}
+
 .global-filter-dropdown .filter-pills-container {
   display: flex;
   flex-wrap: wrap;
@@ -1299,7 +1318,7 @@ body {
 
 .global-filter-dropdown .filter-pill:hover:not(.active),
 .global-filter-dropdown .filter-chip:hover:not(.active) {
-  transform: translateY(-2px) scale(1.02);
+  transform: translateY(-1px);
   box-shadow: var(--neuro-shadow-raised);
 }
 
@@ -1349,11 +1368,18 @@ body {
   scroll-snap-type: x proximity;
 }
 
-/* Enhanced hover animations for scrollable pills */
+/* Selected pill/chip in an open dropdown = a solid, unmistakable filled control
+   (never a barely-there 1px lift). Chain pills keep their per-chain brand color. */
 .global-filter-dropdown .filter-pill.active,
 .global-filter-dropdown .filter-chip.active {
-  transform: translateY(-1px);
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(0);
   box-shadow: var(--neuro-shadow-raised);
+}
+.global-filter-dropdown .chain-pill.active {
+  background: var(--chain-color, var(--color-primary));
 }
 
 /* Add subtle momentum scrolling feedback */
@@ -4468,6 +4494,14 @@ html {
 
 .quick-metrics.animate-on-mount {
   animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 3) both;
+}
+
+/* Honest "The Long Game" projection card — "always visible, never collapsed"
+   (PoolDetail.js). Without its own `both`-fill-mode entrance rule it inherited
+   the base .animate-on-mount { opacity: 0 } and reverted to hidden after the
+   generic fade finished (flash-then-hide bug). Matches the sibling cadence. */
+.metric-card-simple.animate-on-mount {
+  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 4) both;
 }
 
 .calculator-compact.animate-on-mount {

@@ -90,6 +90,11 @@ async function routeFixtures(page) {
   await page.route('https://yields.llama.fi/pools', (route) => route.fulfill({
     status: 200, contentType: 'application/json', body: FIXTURE_RESPONSE
   }));
+  // Pool-logo loads (icons.llamao.fi) → tiny 1×1 fixture so the sandbox network
+  // artifact does not mask real page errors.
+  await page.route('https://icons.llamao.fi/**', (route) => route.fulfill({
+    status: 200, contentType: 'image/svg+xml', body: '<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"></svg>'
+  }));
 }
 
 // Set of visible .pool-card symbols.
@@ -198,15 +203,20 @@ async function main() {
       if (r.notFilterBtn.length) throw new Error('filters missing .google-filter-btn class: ' + JSON.stringify(r.notFilterBtn));
     });
 
-    // (4) Icons render: every tab + every filter contains an inline <svg> child.
-    await test('every .google-nav-tab and .google-filter-btn contains an inline <svg>', async () => {
+    // (4) Category tabs carry NO <svg> (icons dropped, spec 111); every filter
+    //     pill still contains an inline <svg>.
+    await test('category tabs have no <svg>; every filter pill keeps its <svg>', async () => {
       const r = await page.evaluate(() => {
-        const controls = Array.from(document.querySelectorAll('.google-nav-tab, .google-filter-btn'));
-        const withoutSvg = controls.filter(c => !c.querySelector('svg')).length;
-        return { count: controls.length, withoutSvg };
+        const tabs = Array.from(document.querySelectorAll('.google-nav-tab'));
+        const filters = Array.from(document.querySelectorAll('.google-filter-btn'));
+        const tabsWithSvg = tabs.filter(c => c.querySelector('svg')).length;
+        const filtersWithoutSvg = filters.filter(c => !c.querySelector('svg')).length;
+        return { tabCount: tabs.length, filterCount: filters.length, tabsWithSvg, filtersWithoutSvg };
       });
-      if (r.count < 1) throw new Error('expected nav controls to exist');
-      if (r.withoutSvg !== 0) throw new Error(r.withoutSvg + ' nav control(s) have no <svg> child');
+      if (r.tabCount < 1) throw new Error('expected category tabs to exist');
+      if (r.filterCount < 1) throw new Error('expected filter pills to exist');
+      if (r.tabsWithSvg !== 0) throw new Error(r.tabsWithSvg + ' category tab(s) still contain an <svg>');
+      if (r.filtersWithoutSvg !== 0) throw new Error(r.filtersWithoutSvg + ' filter pill(s) have no <svg> child');
     });
 
     // (6) Dropdown still positions off its button (preserved IDs drive positioning).

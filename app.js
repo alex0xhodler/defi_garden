@@ -2807,7 +2807,6 @@ function App() {
                 className: `google-nav-tab ${(key ? (selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1) : !selectedPoolTypes.length) ? 'active' : ''}`,
                 onClick: () => setSelectedPoolTypes(key ? [key] : [])
               },
-                navIcon(icon),
                 React.createElement('span', { className: 'google-nav-label' }, t(labelKey))
               )
             )
@@ -3267,6 +3266,11 @@ function App() {
       ),
 
       // Global dropdowns - rendered at top level to avoid any container overflow issues
+      activeDropdown && React.createElement('div', {
+        className: 'filter-dropdown-scrim',
+        'aria-hidden': 'true',
+        onClick: () => setActiveDropdown(null)
+      }),
       activeDropdown === 'chains' && availableChains.length > 1 && React.createElement('div', {
         className: 'global-filter-dropdown chains-dropdown',
         style: {
