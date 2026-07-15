@@ -22,7 +22,7 @@ const PORT = 8793;
 const ROOT = __dirname;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 const MIME = { '.html': 'text/html', '.js': 'application/javascript', '.css': 'text/css' };
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|fontshare\.com/i;
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons\.llamao\.fi|fontshare\.com/i;
 
 let passed = 0;
 async function test(name, fn) {
@@ -83,6 +83,10 @@ async function main() {
       await page.route('https://www.defi.garden/analytics.js', (route) => route.fulfill({
         status: 200, contentType: 'application/javascript', body: fs.readFileSync(path.join(ROOT, 'analytics.js'))
       }));
+
+      // Decorative pool-row icon host (spec 094) is proxy-blocked in-sandbox;
+      // abort so its requests never delay the page 'load' event.
+      await page.route('https://icons.llamao.fi/**', (route) => route.abort());
 
       // Spy on Analytics.track (one call above mixpanel.track itself, which
       // is unreachable in this sandbox — same established pattern as

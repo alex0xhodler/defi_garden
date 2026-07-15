@@ -2471,6 +2471,49 @@ function App() {
     };
   };
 
+  // Decorative protocol + chain logo for a pool row/card (spec 094). Purely
+  // visual: reads pool.project/pool.chain only, never touches ordering,
+  // filtering, numbers, anomaly flags, or the 092 demotion. Icons load lazily
+  // from the DefiLlama icon CDN and degrade to a monogram (first letter of the
+  // project) on error, so a broken/blocked image never reflows the row. The
+  // container is aria-hidden — the existing text badge carries accessible
+  // identity — but the imgs still get real alt text per the a11y criterion.
+  var PoolLogo = ({
+    project,
+    chain
+  }) => {
+    var [protoError, setProtoError] = useState(false);
+    var [chainError, setChainError] = useState(false);
+    var protoSrc = project ? `https://icons.llamao.fi/icons/protocols/${encodeURIComponent(String(project).toLowerCase())}?w=48&h=48` : '';
+    var chainSrc = chain ? `https://icons.llamao.fi/icons/chains/rsz_${encodeURIComponent(String(chain).toLowerCase())}?w=48&h=48` : '';
+    var monogram = (String(project || '').trim()[0] || '?').toUpperCase();
+    return React.createElement('div', {
+      className: 'pool-logo',
+      'aria-hidden': 'true'
+    }, !protoSrc || protoError ? React.createElement('div', {
+      className: 'pool-logo-monogram',
+      title: t('poolProtocolLogoAlt', project || '')
+    }, monogram) : React.createElement('img', {
+      className: 'pool-logo-img',
+      src: protoSrc,
+      loading: 'lazy',
+      width: 24,
+      height: 24,
+      decoding: 'async',
+      alt: t('poolProtocolLogoAlt', project),
+      onError: () => setProtoError(true)
+    }), chainSrc && !chainError ? React.createElement('img', {
+      className: 'pool-logo-chain',
+      src: chainSrc,
+      loading: 'lazy',
+      width: 14,
+      height: 14,
+      decoding: 'async',
+      alt: t('poolChainLogoAlt', chain),
+      onError: () => setChainError(true)
+    }) : null);
+  };
+
   // Shared pool-card renderer — factored out of the results grid so the
   // zero-result "alternatives" block (spec 012) can render pools with the
   // exact same component, not a re-implemented lookalike. `position` is
@@ -2490,7 +2533,10 @@ function App() {
       className: 'pool-header-new'
     }, React.createElement('div', {
       className: 'pool-left-section'
-    }, React.createElement('div', {
+    }, React.createElement(PoolLogo, {
+      project: pool.project,
+      chain: pool.chain
+    }), React.createElement('div', {
       className: 'pool-symbol'
     }, pool.symbol), React.createElement('div', {
       className: 'pool-context-inline'

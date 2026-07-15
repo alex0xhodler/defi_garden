@@ -2988,6 +2988,55 @@ html {
   gap: var(--space-4);
 }
 
+/* Decorative protocol + chain logo (spec 094). Fixed 24px box so a slow or
+   failed image never reflows the row; neuro tokens only, no gradient/glow. */
+.pool-logo {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+  margin-bottom: var(--space-4);
+}
+
+.pool-logo-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: var(--neuro-radius-sm);
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-subtle);
+  display: block;
+}
+
+.pool-logo-monogram {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--neuro-radius-sm);
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-subtle);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.pool-logo-chain {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: var(--color-surface);
+  box-shadow: var(--neuro-shadow-subtle);
+  display: block;
+}
+
 .pool-symbol {
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-black);
