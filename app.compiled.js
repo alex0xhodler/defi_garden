@@ -280,8 +280,12 @@ var parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allProto
               return 0; // continue
             }
             if (_t.length >= 3 && tokenCandidateText.toLowerCase().includes(tokenLower)) {
-              // Double-check this isn't likely a chain name or qualifier word
-              var _chainNames = ['base', 'ethereum', 'polygon', 'arbitrum', 'optimism', 'avalanche', 'fantom', 'solana'];
+              // Double-check this isn't likely a chain name or qualifier word.
+              // Must stay in sync with the `chainAliases` map declared below (in
+              // TDZ here, so its keys can't be referenced directly): every alias
+              // key — short AND long — belongs here so no chain alias leaks into
+              // the token slot via this substring test.
+              var _chainNames = ['eth', 'ethereum', 'polygon', 'matic', 'arb', 'arbitrum', 'op', 'optimism', 'bnb', 'bsc', 'binance', 'avax', 'avalanche', 'sol', 'solana', 'ftm', 'fantom', 'zksync', 'base', 'linea', 'celo', 'gnosis', 'moonbeam', 'cronos'];
               var qualifierWordsCheck = ['best', 'highest', 'top', 'good', 'great', 'yields', 'yield', 'farming', 'opportunities', 'rates', 'apy'];
               if (!_chainNames.includes(tokenLower) && !qualifierWordsCheck.includes(tokenLower)) {
                 token = _t;
