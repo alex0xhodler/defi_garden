@@ -181,7 +181,10 @@ const translations = {
       footerMadeWith: ". Made with AI & Degen Love.",
       footerBrowseTokens: "Browse tokens",
       footerBrowseChains: "Browse chains",
-      searchFallback: "Search"
+      searchFallback: "Search",
+      returnCaption: "Welcome back",
+      returnStatus: (date) => `Planted ${date}`,
+      returnCta: "Tend your garden"
     },
 
     // Garden Planner v2
@@ -854,7 +857,10 @@ const translations = {
       footerMadeWith: ". Made with AI & Degen Love.",
       footerBrowseTokens: "토큰 둘러보기",
       footerBrowseChains: "체인 둘러보기",
-      searchFallback: "검색"
+      searchFallback: "검색",
+      returnCaption: "다시 오셨네요",
+      returnStatus: (date) => `${date}에 심었어요`,
+      returnCta: "정원 돌보기"
     },
 
     // Garden Planner

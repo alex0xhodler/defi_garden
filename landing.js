@@ -14,6 +14,36 @@
   var TOKEN_HINTS = ['USDC', 'USDT', 'DAI', 'ETH', 'WETH', 'BTC', 'WBTC', 'SOL', 'LINK', 'UNI', 'AAVE', 'CRV'];
   var CHAIN_HINTS = ['Arbitrum', 'Base', 'Ethereum', 'Polygon', 'Optimism', 'Solana', 'Avalanche', 'BNB Chain', 'Plasma', 'Celo', 'Gnosis'];
 
+  // goal id -> translations.planner label key (canonical list owned by planner.js
+  // GOALS; duplicated read-only here because planner.js is not loaded on the
+  // landing route — a static label lookup, not rate math). Unknown ids fail safe
+  // to the generic first-time card.
+  var GOAL_LABEL_KEYS = {
+    spotify: 'goalSpotify', netflix: 'goalNetflix', claude: 'goalClaude', amazonprime: 'goalAmazonPrime',
+    disney: 'goalDisney', youtubepremium: 'goalYouTubePremium', max: 'goalMax', hulu: 'goalHulu',
+    appletv: 'goalAppleTV', chatgpt: 'goalChatGPT', gamepass: 'goalGamePass', paramount: 'goalParamount',
+    peacock: 'goalPeacock', doordash: 'goalDoorDash', uber: 'goalUberOne', audible: 'goalAudible',
+    walmart: 'goalWalmart', rent: 'goalRent', phonebill: 'goalPhoneBill', sneakers: 'goalSneakers',
+    iphone: 'goalIphone', watches: 'goalWatches', home: 'goalHome', retirement: 'goalRetirement'
+  };
+
+  // Read + shallow-validate localStorage['garden-plan']. Returns the plan object
+  // only when it carries a recognizable goal we can label; any parse/shape
+  // problem fails safe to null (-> generic first-time card). Same try/catch
+  // discipline as the theme/lang reads above.
+  function readSavedPlan() {
+    try {
+      var raw = localStorage.getItem('garden-plan');
+      if (!raw) return null;
+      var plan = JSON.parse(raw);
+      if (!plan || typeof plan !== 'object') return null;
+      if (typeof plan.goal !== 'string' || !GOAL_LABEL_KEYS[plan.goal]) return null;
+      return plan;
+    } catch (err) {
+      return null;
+    }
+  }
+
   function detectLanguage() {
     try {
       var saved = localStorage.getItem('defi-garden-lang');
@@ -152,6 +182,23 @@
     var setMenuOpen = menuState[1];
     var copy = getCopy(language);
 
+    var savedPlanState = useState(readSavedPlan);
+    var savedPlan = savedPlanState[0];
+    var plannerCopy = (translations[language] && translations[language].planner) || (translations.en && translations.en.planner) || {};
+    var goalLabelKey = savedPlan ? GOAL_LABEL_KEYS[savedPlan.goal] : null;
+    var goalLabel = goalLabelKey ? plannerCopy[goalLabelKey] : null;
+    var showReturnCard = !!goalLabel;
+    var plantedDate = '';
+    if (showReturnCard && savedPlan.savedAt) {
+      try { plantedDate = new Date(savedPlan.savedAt).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }); } catch (err) {}
+    }
+
+    function tendGarden() {
+      if (typeof Analytics !== 'undefined') {
+        Analytics.track('garden_reentry_clicked', { goal: savedPlan.goal, archetype: savedPlan.archetype || null });
+      }
+    }
+
     useEffect(function () {
       document.documentElement.lang = language;
       document.title = copy.pageTitle;
@@ -163,6 +210,12 @@
       if (ogDescription) ogDescription.content = copy.metaDescription;
       writeTheme(dark);
     }, [language, dark, copy]);
+
+    useEffect(function () {
+      if (showReturnCard && typeof Analytics !== 'undefined') {
+        Analytics.track('garden_reentry_shown', { goal: savedPlan.goal, archetype: savedPlan.archetype || null });
+      }
+    }, [showReturnCard]);
 
     function toggleLanguage() {
       var next = language === 'en' ? 'ko' : 'en';
@@ -265,16 +318,27 @@
               e(ExampleChip, { value: 'Lending on Arbitrum', onChoose: chooseExample }, copy.exampleLending)
             )
           ),
-          e('aside', { className: 'landing-garden-card landing-reveal landing-reveal-three' },
-            e('div', { className: 'landing-card-topline' },
-              e('span', { className: 'landing-seed-icon' }, e(LeafMark)),
-              e('span', { className: 'landing-card-caption' }, copy.gardenNote)
-            ),
-            e('h2', null, copy.gardenTitle),
-            e('p', null, copy.gardenBody),
-            e('a', { className: 'landing-garden-link', href: 'plan.html' }, copy.gardenCta, e(ArrowIcon)),
-            e(PlantIllustration)
-          )
+          showReturnCard
+            ? e('aside', { className: 'landing-garden-card landing-reveal landing-reveal-three', 'data-testid': 'landing-return-card' },
+                e('div', { className: 'landing-card-topline' },
+                  e('span', { className: 'landing-seed-icon' }, e(LeafMark)),
+                  e('span', { className: 'landing-card-caption' }, copy.returnCaption)
+                ),
+                e('h2', null, goalLabel),
+                (plantedDate && typeof copy.returnStatus === 'function') ? e('p', null, copy.returnStatus(plantedDate)) : null,
+                e('a', { className: 'landing-garden-link', href: 'plan.html', 'data-testid': 'landing-return-cta', onClick: tendGarden }, copy.returnCta, e(ArrowIcon)),
+                e(PlantIllustration)
+              )
+            : e('aside', { className: 'landing-garden-card landing-reveal landing-reveal-three' },
+                e('div', { className: 'landing-card-topline' },
+                  e('span', { className: 'landing-seed-icon' }, e(LeafMark)),
+                  e('span', { className: 'landing-card-caption' }, copy.gardenNote)
+                ),
+                e('h2', null, copy.gardenTitle),
+                e('p', null, copy.gardenBody),
+                e('a', { className: 'landing-garden-link', href: 'plan.html' }, copy.gardenCta, e(ArrowIcon)),
+                e(PlantIllustration)
+              )
         ),
         e('section', { id: 'trust', className: 'landing-trust-section', 'aria-labelledby': 'landing-trust-title' },
           e('div', { className: 'landing-trust-copy' },
