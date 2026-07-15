@@ -104,7 +104,7 @@ jobs:
     - name: Generate LLM files
       run: |
         echo "🤖 Generating LLM-friendly files..."
-        node generate-llms.js
+        POOLS_FIXTURE="$RUNNER_TEMP/seo-pools.json" node generate-llms.js
         
         echo "📊 LLM files stats:"
         if [ -f llms.txt ]; then
