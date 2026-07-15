@@ -668,6 +668,23 @@
 .gp-share-textlink:active { color: var(--color-primary); transform: translateY(1px); }
 .gp-share-textlink:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
 
+/* Honest monthly tend reminder (spec 115) — calm caption under the CTA. */
+.gp-tend-reminder-note {
+  margin: var(--space-4) 0 0;
+  font-size: 12px;
+  color: var(--color-text-muted, var(--color-text-secondary));
+  line-height: 1.4;
+}
+.gp-report-reminder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  margin-top: var(--space-16);
+  text-align: center;
+}
+.gp-report-reminder .gp-tend-reminder-note { text-align: center; }
+
 /* Mobile: single-col, checkout first */
 @media (max-width: 768px) {
   .gp-main--bloom { max-width: 760px; }
