@@ -4519,6 +4519,15 @@ html {
   animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 5) both;
 }
 
+/* "The Long Game" projection card: like every sibling pool-detail card it
+   inherits the base .animate-on-mount { opacity: 0 } but, unlike them, had no
+   entrance rule of its own with `both` fill-mode — so it flashed then reverted
+   to opacity:0 on ?pool= views. Give it the same fadeInScale entrance the other
+   cards have. (Item 111 PR #235 hotfix, human-surfaced live.) */
+.metric-card-simple.animate-on-mount {
+  animation: fadeInScale var(--entry-duration-normal) var(--entry-easing) calc(var(--entry-delay-base) * 4) both;
+}
+
 /* Staggered card animations */
 .pool-card.animate-on-mount {
   animation: fadeInUp var(--entry-duration-fast) var(--entry-easing) both;
