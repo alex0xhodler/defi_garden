@@ -195,6 +195,31 @@ async function fetchYieldsSafe() {
   });
 }
 
+// 113: load pools from the shared $1000-floored SEO transient, failing SAFE to
+// a live fetch. Returns an array only when the fixture holds a non-empty pool
+// array; otherwise null so the caller live-fetches (never a truncated/empty run
+// that would degrade the llms SEO surface). Mirrors the token/chain/sitemap
+// generators' identical helper.
+function loadFixturePools(fixturePath) {
+  if (!fixturePath) return null;
+  try {
+    const raw = JSON.parse(fs.readFileSync(fixturePath, 'utf8'));
+    const arr = raw && raw.data ? raw.data : raw;
+    if (Array.isArray(arr) && arr.length > 0) return arr;
+    log('Fixture empty — live fallback: ' + fixturePath);
+    return null;
+  } catch (e) {
+    log('Fixture missing/malformed — live fallback: ' + fixturePath + ' (' + e.message + ')');
+    return null;
+  }
+}
+
+function parseFixtureArg(argv) {
+  let fixture = process.env.POOLS_FIXTURE || null;
+  for (let i = 0; i < argv.length; i++) if (argv[i] === '--fixture') fixture = argv[++i];
+  return fixture;
+}
+
 /**
  * Select high-yield opportunities from pool data
  */
@@ -583,7 +608,25 @@ async function main() {
     const categories = categorizeUrls(urls, baseUrl);
     
     // Fetch yield data
-    const { yields, sourceTs } = await fetchYieldsSafe();
+    // 113: prefer the shared $1000-floored SEO transient (single CI /pools fetch,
+    // written by generate-pools-snapshot.js), failing SAFE to a live fetch when
+    // absent — parity with the token/chain/sitemap generators. The transient is
+    // $1000-TVL-floored, so the llms aggregates legitimately EXCLUDE sub-$1000
+    // "dust" pools vs a full-payload run: a KNOWN, human-signed-off divergence
+    // (backlog 113), NOT a regression.
+    const fixturePath = parseFixtureArg(process.argv.slice(2));
+    const fixturePools = loadFixturePools(fixturePath);
+    let yields, sourceTs;
+    if (fixturePools) {
+      yields = fixturePools;
+      // The transient was produced by a live DefiLlama fetch earlier in the same
+      // CI run; its file mtime is the honest "fetched" timestamp.
+      try { sourceTs = fs.statSync(fixturePath).mtime.toISOString(); }
+      catch (e) { sourceTs = null; }
+      log(`Using SEO transient (${yields.length} pools, $1000-floored) — no live fetch [113]`);
+    } else {
+      ({ yields, sourceTs } = await fetchYieldsSafe());
+    }
     const highYield = pickHighYield(yields);
     const yieldAnalysis = analyzeYieldData(yields);
     
@@ -642,9 +685,12 @@ module.exports = {
   categorizeUrls,
   fetchYieldsSafe,
   pickHighYield,
+  analyzeYieldData,
   buildConcise,
   buildFull,
   normalizeLlmsContent,
   writeIfContentChanged,
+  loadFixturePools,
+  parseFixtureArg,
   LLMS_TS_PLACEHOLDER
 };
