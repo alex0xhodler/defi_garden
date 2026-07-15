@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-07-15T13:59:37.980Z
+- Last Updated: 2026-07-15T14:33:16.896Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 4860
+- Total URLs: 4871
 
 ## Homepage
 TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.
@@ -64,14 +64,14 @@ TL;DR: Typical user queries and where to find them.
 
 ## Current Top Yields
 TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10k).
-- Avalanche · blackhole-clmm · WAVAX-USDC — 862463.7% APY, $15,289 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
+- Avalanche · blackhole-clmm · WAVAX-USDC — 913722.8% APY, $15,331 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
 - BSC · zeebu · ZBU — 453695.2% APY, $569,376 TVL — https://www.defi.garden/?token=ZBU&chain=BSC
 - Arbitrum · curve-dex · WETH-USDC — 320837.2% APY, $23,491 TVL — https://www.defi.garden/?token=WETH-USDC&chain=Arbitrum
-- Base · aerodrome-slipstream · USDC-VELVET — 198881.4% APY, $3,555,415 TVL — https://www.defi.garden/?token=USDC-VELVET&chain=Base
-- Base · aerodrome-v1 · WETH-TRAC — 116212.3% APY, $42,966 TVL — https://www.defi.garden/?token=WETH-TRAC&chain=Base
-- Base · aerodrome-slipstream · CTR-USDC — 83027.6% APY, $460,119 TVL — https://www.defi.garden/?token=CTR-USDC&chain=Base
+- Base · aerodrome-slipstream · USDC-VELVET — 211741.0% APY, $3,559,103 TVL — https://www.defi.garden/?token=USDC-VELVET&chain=Base
+- Base · aerodrome-v1 · WETH-TRAC — 115453.5% APY, $43,078 TVL — https://www.defi.garden/?token=WETH-TRAC&chain=Base
+- Base · aerodrome-slipstream · CTR-USDC — 103401.7% APY, $458,986 TVL — https://www.defi.garden/?token=CTR-USDC&chain=Base
 - Avalanche · blackhole-clmm · WAVAX-USDC — 58120.9% APY, $113,519 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
-- Base · uniswap-v4 · WETH-PISSFACE — 48086.0% APY, $39,531 TVL — https://www.defi.garden/?token=WETH-PISSFACE&chain=Base
+- Base · uniswap-v4 · WETH-PISSFACE — 47111.3% APY, $40,349 TVL — https://www.defi.garden/?token=WETH-PISSFACE&chain=Base
 
 💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
 📊 For live rates and direct protocol access: https://www.defi.garden

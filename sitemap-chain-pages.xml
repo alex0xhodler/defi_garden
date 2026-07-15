@@ -121,12 +121,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/cronos</loc>
+    <loc>https://www.defi.garden/chains/flare</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/flare</loc>
+    <loc>https://www.defi.garden/chains/cronos</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -241,12 +241,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/icp</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/icp</loc>
+    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -261,11 +266,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/neutron</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
@@ -276,12 +276,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/heco</loc>
+    <loc>https://www.defi.garden/chains/flow</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/flow</loc>
+    <loc>https://www.defi.garden/chains/heco</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
