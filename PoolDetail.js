@@ -1401,6 +1401,53 @@ function PoolDetail({
           })()
         ),
 
+        // TVL-trend honesty note (104) — full-width, calm. Reuses 071's exact
+        // neuro styling. Surfaces 087's kpis.tvlTrend (signed fraction of the
+        // deposit-base change over the tracked window) as calm cautious-saver
+        // language: a shrinking pool that still clears the $10M floor is the
+        // ICP-relevant risk; a growing pool is one honest sign, never a
+        // guarantee. Yields entirely to the 071 volatility note (same
+        // divergence boolean) so a volatile pool shows exactly one note,
+        // renders nothing when kpis/tvlTrend are missing (live SEO deep-link
+        // landings), needs a ≥7-point window, and stays silent below a
+        // meaningful move (|tvlTrend| < 0.25).
+        (!(typeof pool.apyMean30d === 'number' &&
+          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
+          pool.apyMean30d > 0 &&
+          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
+            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
+          pool.kpis && typeof pool.kpis === 'object' &&
+          typeof pool.kpis.tvlTrend === 'number' &&
+          Number(pool.kpis.historyPoints) >= 7 &&
+          Math.abs(pool.kpis.tvlTrend) >= 0.25) &&
+        React.createElement('div', {
+          className: 'tvl-trend-note',
+          style: {
+            background: 'var(--color-background)',
+            borderRadius: 'var(--neuro-radius-sm)',
+            boxShadow: 'var(--neuro-shadow-subtle)',
+            color: 'var(--color-text-secondary)',
+            fontSize: 'var(--font-size-sm)',
+            lineHeight: '1.5',
+            padding: '12px 16px',
+            marginBottom: '20px'
+          }
+        },
+          (function () {
+            var tvl = pool.kpis.tvlTrend;
+            var hp = Number(pool.kpis.historyPoints);
+            var pctStr = _formatNum(Math.round(Math.abs(tvl) * 100)) + '%';
+            if (tvl <= -0.25) {
+              return t
+                ? t('tvlTrendShrinking', pctStr, hp)
+                : "This pool's deposits have shrunk about " + pctStr + " over the " + hp + " days we've tracked it. A pool can keep clearing our $10M size floor while quietly losing deposits — worth watching for a garden you plan to hold for years.";
+            }
+            return t
+              ? t('tvlTrendGrowing', pctStr, hp)
+              : "This pool's deposits have grown about " + pctStr + " over the " + hp + " days we've tracked it. More deposits isn't a guarantee, but a pool that's holding or gaining size is one honest sign of staying power.";
+          })()
+        ),
+
         // Tokens Section (if available)
         (pool.underlyingTokens && pool.underlyingTokens.length > 0) &&
         React.createElement('div', {
