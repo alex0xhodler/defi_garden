@@ -102,6 +102,29 @@ async function fetchPoolData() {
   });
 }
 
+// 112: load pools from a fixture/transient, failing SAFE to live. Returns an
+// array only when the fixture holds a non-empty pool array; otherwise null so
+// the caller live-fetches (never a truncated/empty run that would prune SEO).
+function loadFixturePools(fixturePath) {
+  if (!fixturePath) return null;
+  try {
+    const raw = JSON.parse(fs.readFileSync(fixturePath, 'utf8'));
+    const arr = raw && raw.data ? raw.data : raw;
+    if (Array.isArray(arr) && arr.length > 0) return arr;
+    console.warn('⚠️  Fixture empty — live fallback:', fixturePath);
+    return null;
+  } catch (e) {
+    console.warn('⚠️  Fixture missing/malformed — live fallback:', fixturePath, '(' + e.message + ')');
+    return null;
+  }
+}
+
+function parseFixtureArg(argv) {
+  let fixture = process.env.POOLS_FIXTURE || null;
+  for (let i = 0; i < argv.length; i++) if (argv[i] === '--fixture') fixture = argv[++i];
+  return fixture;
+}
+
 /**
  * Strict token filtering to remove junk/spam/unwanted symbols
  * Complies with 2026 "Sitemap Hygiene" standards
@@ -624,8 +647,8 @@ Disallow: /
 async function main() {
   try {
     console.log('🚀 Generating SOTA sitemap suite for DeFi Garden...');
-    
-    await generateSitemapSuite();
+    const override = loadFixturePools(parseFixtureArg(process.argv.slice(2)));
+    await generateSitemapSuite(override);
     
     const robotsContent = generateRobotsTxt();
     fs.writeFileSync('robots.txt', robotsContent);
@@ -648,4 +671,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER };
+module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg };
