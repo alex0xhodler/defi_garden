@@ -1,0 +1,30 @@
+# Cloudflare Worker: pool-history poller (backlog 108/109, spec 108/117).
+# Hourly Cron Trigger fetches yields.llama.fi/pools, applies the trust rails at
+# write time, and appends slim rows to D1. An authed GET /history lets CI read the
+# window (compute-kpis.js, ticket 110). This Worker is a poller/CI store — the app
+# FE never reads it, so the no-backend tenet holds on the read path.
+#
+# HUMAN provisioning (ticket 108 — loops never handle credentials):
+#   npm i -g wrangler && wrangler login
+#   wrangler d1 create defi-garden-history          # paste the printed database_id below
+#   wrangler d1 execute defi-garden-history --file=schema.sql --remote
+#   wrangler deploy
+#   wrangler secret put READ_TOKEN                  # a random string; also add to GH secrets
+# Then GitHub -> Settings -> Secrets -> Actions: HISTORY_ENDPOINT (the Worker URL) +
+# HISTORY_TOKEN (= READ_TOKEN).
+
+name = "defi-garden-poller"
+main = "src/poller.js"
+compatibility_date = "2026-07-01"
+
+# Optional knobs (defaults live in src/poller-core.js; override here if desired):
+# [vars]
+# RETENTION_DAYS = "90"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "defi-garden-history"
+database_id = "REPLACE_WITH_d1_create_OUTPUT"
+
+[triggers]
+crons = ["0 * * * *"]   # hourly — DefiLlama pools rarely move faster; keeps D1 tiny
