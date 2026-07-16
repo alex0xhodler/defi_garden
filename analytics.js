@@ -346,6 +346,7 @@ const Analytics = {
   trackShareLinkCreated(context = {}) {
     this.track('share_link_created', {
       method: context.method || 'copy', // 'copy', 'native'
+      surface: context.surface || null, // 'report' (return-visit re-share) vs null (bloom origin)
       goal: context.goal || null,
       persona: context.persona || null
     });
