@@ -411,11 +411,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/igra</loc>
-    <lastmod>2026-07-16</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/conflux</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>daily</changefreq>
@@ -427,6 +422,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/world-chain</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/igra</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>daily</changefreq>
   </url>

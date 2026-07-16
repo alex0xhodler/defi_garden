@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-07-16T09:45:18.238Z
+- Last Updated: 2026-07-16T10:33:29.045Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 4912
+- Total URLs: 4900
 
 ## Homepage
 TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.
@@ -67,11 +67,11 @@ TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10k).
 - Arbitrum · curve-dex · WETH-USDC — 677771.3% APY, $24,582 TVL — https://www.defi.garden/?token=WETH-USDC&chain=Arbitrum
 - BSC · zeebu · ZBU — 454146.0% APY, $568,581 TVL — https://www.defi.garden/?token=ZBU&chain=BSC
 - Avalanche · blackhole-clmm · WAVAX-USDC — 240325.0% APY, $15,492 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
-- Avalanche · blackhole-clmm · WAVAX-USDC — 213199.1% APY, $42,493 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
-- Base · aerodrome-slipstream · USDC-VELVET — 131766.2% APY, $3,547,595 TVL — https://www.defi.garden/?token=USDC-VELVET&chain=Base
-- Base · aerodrome-v1 · WETH-TRAC — 110861.9% APY, $42,485 TVL — https://www.defi.garden/?token=WETH-TRAC&chain=Base
-- Base · aerodrome-slipstream · USDC-VFY — 81057.5% APY, $28,919 TVL — https://www.defi.garden/?token=USDC-VFY&chain=Base
-- Base · uniswap-v4 · WETH-WISH — 66654.7% APY, $41,515 TVL — https://www.defi.garden/?token=WETH-WISH&chain=Base
+- Avalanche · blackhole-clmm · WAVAX-USDC — 164809.1% APY, $42,495 TVL — https://www.defi.garden/?token=WAVAX-USDC&chain=Avalanche
+- Base · aerodrome-slipstream · USDC-VELVET — 118903.8% APY, $3,532,063 TVL — https://www.defi.garden/?token=USDC-VELVET&chain=Base
+- Base · aerodrome-v1 · WETH-TRAC — 111766.4% APY, $42,254 TVL — https://www.defi.garden/?token=WETH-TRAC&chain=Base
+- Base · uniswap-v4 · WETH-WISH — 67536.3% APY, $40,973 TVL — https://www.defi.garden/?token=WETH-WISH&chain=Base
+- Base · uniswap-v4 · WETH-CLAWDITOR — 46446.1% APY, $49,183 TVL — https://www.defi.garden/?token=WETH-CLAWDITOR&chain=Base
 
 💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
 📊 For live rates and direct protocol access: https://www.defi.garden
