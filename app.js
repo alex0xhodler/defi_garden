@@ -835,6 +835,20 @@ const isStableSymbol = (symbol) => {
   return parts.every(p => STABLE_SYMBOLS.indexOf(p) !== -1);
 };
 
+// Token ⇄ pool-symbol matcher for the analytics search (token filter + the
+// chain / protocol / pool-type counts that must agree with the grid).
+// DefiLlama's pool `symbol` is frequently a VAULT ticker that embeds the base
+// asset (STEAKUSDC, GTUSDCP, mwUSDC, ETHENAUSDC), so the old exact split-part
+// equality (`symbol === 'USDC'`) silently dropped the largest venues — e.g.
+// every Morpho Blue USDC vault on Base. Match on substring instead, mirroring
+// DefiLlama's own token grouping. Trust rails stay orthogonal: the
+// DEFAULT_MIN_TVL floor and APY sanity / anomaly demotion still apply to every
+// matched pool downstream, so this widens coverage without weakening them.
+const symbolMatchesToken = (poolSymbol, token) => {
+  if (!poolSymbol || !token) return false;
+  return String(poolSymbol).toUpperCase().includes(String(token).toUpperCase());
+};
+
 // Main App Component
 function App() {
   const [pools, setPools] = useState([]);
@@ -1621,9 +1635,8 @@ function App() {
       pools.forEach(pool => {
         if (!pool.symbol || !pool.chain) return;
 
-        // Check if any symbol in the pool matches the selected token
-        const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
-        const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
+        // Match the selected token against the pool symbol (vault-ticker aware)
+        const hasToken = symbolMatchesToken(pool.symbol, selectedToken);
 
         if (hasToken && pool.tvlUsd > 0) {
           if (!chainTVL[pool.chain]) {
@@ -1667,8 +1680,7 @@ function App() {
       }
       // Token mode: include pools with selected token
       else if (selectedToken && pool.symbol) {
-        const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
-        includePool = symbols.some(symbol => symbol === selectedToken.toUpperCase());
+        includePool = symbolMatchesToken(pool.symbol, selectedToken);
 
         // Also check chain filter if both token and chain are selected
         if (includePool && selectedChain) {
@@ -1747,8 +1759,7 @@ function App() {
 
       // Token mode: count pools with selected token
       if (selectedToken && pool.symbol) {
-        const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
-        const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
+        const hasToken = symbolMatchesToken(pool.symbol, selectedToken);
 
         if (hasToken && pool.tvlUsd > 0) {
           const poolType = getPoolType(pool);
@@ -1916,9 +1927,8 @@ function App() {
     let filtered = pools.filter(pool => {
       if (!pool.symbol) return false;
 
-      // Check if any symbol in the pool matches the selected token
-      const symbols = pool.symbol.split(/[-_\/\s]/).map(s => s.trim().toUpperCase());
-      const hasToken = symbols.some(symbol => symbol === selectedToken.toUpperCase());
+      // Match the selected token against the pool symbol (vault-ticker aware)
+      const hasToken = symbolMatchesToken(pool.symbol, selectedToken);
 
       // Filter by chain if selected. 'All' = every chain (wildcard) and
       // 'Popular' = the popular-chain set — mirroring the chain-first block.
