@@ -54,3 +54,6 @@ scripts/dashboard-server.js
 # Superdense outcome-loop bookkeeping (local-only, same tier as the dashboard above)
 docs/outcome/
 .agent-reviews/
+
+# Cloudflare Wrangler build/state (109 poller)
+.wrangler/
