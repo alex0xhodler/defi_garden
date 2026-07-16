@@ -533,6 +533,15 @@
     <priority>0.82</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=SIERRA&amp;poolTypes=Yield%20Farming</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SIERRA&amp;poolTypes=Yield+Farming" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SIERRA&amp;poolTypes=Yield+Farming&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SIERRA&amp;poolTypes=Yield+Farming" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.77</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=WEETH&amp;poolTypes=Yield%20Farming</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WEETH&amp;poolTypes=Yield+Farming" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WEETH&amp;poolTypes=Yield+Farming&amp;lang=ko" />
@@ -542,13 +551,13 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SIERRA&amp;poolTypes=Yield%20Farming</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SIERRA&amp;poolTypes=Yield+Farming" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SIERRA&amp;poolTypes=Yield+Farming&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SIERRA&amp;poolTypes=Yield+Farming" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <loc>https://www.defi.garden/?token=MSETH&amp;poolTypes=Yield%20Farming</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=Yield+Farming" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=Yield+Farming&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=Yield+Farming" />
+    <lastmod>2026-07-16T09:45:17.861Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.77</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=GHO&amp;poolTypes=Yield%20Farming</loc>

@@ -251,12 +251,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/celo</loc>
+    <loc>https://www.defi.garden/ko/chains/etherlink</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/etherlink</loc>
+    <loc>https://www.defi.garden/ko/chains/celo</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>daily</changefreq>
   </url>
