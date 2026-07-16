@@ -58,6 +58,13 @@
     <noscript><link rel="stylesheet" href="planner-styles.min.css"></noscript>
 
     <script>
+        // This document IS the planner. Declare planner mode explicitly so
+        // planner.js mounts regardless of the served path: production's
+        // cleanUrls (vercel.json) serves this file at the extensionless `/plan`,
+        // where planner.js's /plan\.html$/ path fallback does not match and
+        // nothing else sets __APP_MODE (home.html's router never runs here).
+        // Must run before the deferred planner.js. See planner.js mount guard.
+        window.__APP_MODE = 'planner';
         // Define process global before React loads to prevent ReferenceError
         window.process = {
             env: {}
