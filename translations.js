@@ -393,6 +393,8 @@ const translations = {
       tendGarden: "Tend your garden",
       tendReminderCta: "🗓️ Remind me to tend this monthly",
       tendReminderNote: "We'll never email you — this adds a private monthly reminder to your own calendar.",
+      reportShareCta: "🔗 Share my garden",
+      reportShareNote: "Copies a working link that rebuilds this exact garden for whoever you send it to.",
       tendReminderTitle: "Tend your DeFi Garden — check your rates",
       tendReminderDesc: "Time to check in on your garden and see how your rates are doing.",
 
@@ -1055,6 +1057,8 @@ const translations = {
       tendGarden: "내 정원 가꾸기",
       tendReminderCta: "🗓️ 매달 가꾸도록 알림 추가",
       tendReminderNote: "이메일은 절대 보내지 않아요 — 내 캘린더에 매달 반복되는 개인 알림만 추가돼요.",
+      reportShareCta: "🔗 내 정원 공유하기",
+      reportShareNote: "보내는 사람 누구에게나 이 정원을 그대로 다시 열어주는 링크를 복사해요.",
       tendReminderTitle: "내 DeFi Garden 가꾸기 — 수익률 확인하기",
       tendReminderDesc: "정원을 살펴보고 수익률이 어떤지 확인할 시간이에요.",
 

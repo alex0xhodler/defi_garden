@@ -3378,6 +3378,35 @@
       }
     }
 
+    // Viral-loop closure (spec 116): re-share the garden from report mode — the
+    // return-visit high-intent moment. Copies the same rebuild link (identical
+    // encodePlanToUrl args to reportTendReminder) via the doCopyLink pattern.
+    var reportShareCopiedState = useState(false);
+    var reportShareCopied = reportShareCopiedState[0];
+    var setReportShareCopied = reportShareCopiedState[1];
+    function reportShareLink() {
+      var url = encodePlanToUrl(plan.goal, plan.monthly, plan.years, plan.persona, plan.capital, plan.fundingMode, plan.deadline, plan.poolFilters, plan.mix);
+      if (typeof Analytics !== 'undefined') {
+        Analytics.trackShareLinkCreated({ method: 'copy', surface: 'report', goal: plan.goal, persona: plan.persona });
+      }
+      try {
+        navigator.clipboard.writeText(url).then(function() {
+          setReportShareCopied(true);
+          setTimeout(function() { setReportShareCopied(false); }, 2000);
+        }).catch(function() {
+          // fallback
+          var ta = document.createElement('textarea');
+          ta.value = url;
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+          setReportShareCopied(true);
+          setTimeout(function() { setReportShareCopied(false); }, 2000);
+        });
+      } catch(err) {}
+    }
+
     var live = useMemo(function () {
       if (!poolsReady) {
         // Return plan data without live deltas — no guessing
@@ -3628,6 +3657,12 @@
       e('div', { className: 'gp-report-actions' },
         e('button', { type: 'button', className: 'gp-cta', onClick: props.onTend }, t('reportTend')),
         e('button', { type: 'button', className: 'gp-cta gp-cta-ghost', onClick: props.onFresh }, t('reportFresh'))
+      ),
+      e('div', { className: 'gp-report-reminder' },
+        e('button', {
+          type: 'button', className: 'gp-share-textlink gp-report-share-link', onClick: reportShareLink
+        }, reportShareCopied ? t('shareLinkCopied') : t('reportShareCta')),
+        e('p', { className: 'gp-tend-reminder-note' }, t('reportShareNote'))
       ),
       e('div', { className: 'gp-report-reminder' },
         e('button', {
