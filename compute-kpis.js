@@ -43,6 +43,8 @@ const path = require('path');
 
 const SCHEMA_VERSION = 1;
 const HISTORY_RETENTION = 30; // keep the 30 most-recent dated history points
+const RISK_FREE_APY = 4.0;      // 117: disclosed risk-free benchmark (~US T-bill), configurable
+const SHARPE_MIN_POINTS = 8;    // 117: below this the rate-stability Sharpe is too noisy → null
 
 // --- helpers ---------------------------------------------------------------
 
@@ -87,16 +89,31 @@ function stdevPop(nums) {
 /** Derived, null-safe KPIs for one pool given its ascending-by-date `series`
  * (`[{date, apyTotal, tvlUsd}, …]`). Deltas are null when there is <2 points
  * (honest "no track record yet"), and tvlTrend is also null when the earliest
- * TVL is 0 (division guard). */
+ * TVL is 0 (division guard). Also returns `apyMean` (plain mean of the apy
+ * series, any point count) and the rate-stability `apySharpe` (null for <8 pts
+ * or sd=0). */
 function computeKpis(pool, series) {
   const first = series[0];
   const last = series[series.length - 1];
   const enough = series.length >= 2;
+  const apys = series.map(s => s.apyTotal);
+  const sd = stdevPop(apys);                              // population stdev of the apy series
+  const mean = apys.reduce((a, b) => a + b, 0) / apys.length;
+  // 117 rate-stability Sharpe: (mean apy − risk-free) / apy volatility. NO √T —
+  // apyTotal is already an annualized rate. Rewards steady yields, penalizes erratic
+  // ones. Captures ONLY yield-rate volatility, NOT principal risk (IL/depeg/exploit/
+  // TVL-flight) — never surface it as a "safety score". null when <8 points (too
+  // noisy → "not enough history") or sd===0 (flat rate → Sharpe undefined, not ∞).
+  const apySharpe = (series.length >= SHARPE_MIN_POINTS && sd > 0)
+    ? round((mean - RISK_FREE_APY) / sd, 2)
+    : null;
   return {
     historyPoints: series.length,
     firstSeen: first.date,
     apyMomentum: enough ? round(last.apyTotal - first.apyTotal, 2) : null,
-    apyStdev: enough ? round(stdevPop(series.map(s => s.apyTotal)), 2) : null,
+    apyStdev: enough ? round(sd, 2) : null,
+    apyMean: round(mean, 2),
+    apySharpe,
     tvlTrend: (!enough || first.tvlUsd === 0)
       ? null
       : round((last.tvlUsd - first.tvlUsd) / first.tvlUsd, 4)
@@ -308,7 +325,7 @@ function main() {
 module.exports = {
   round, slimPoint, buildSlimMap, stdevPop, computeKpis, buildSeriesByPool,
   historyDir, readHistory, pruneHistory, appendHistory, resolveDataPaths,
-  normalize, enrich, HISTORY_RETENTION, SCHEMA_VERSION
+  normalize, enrich, HISTORY_RETENTION, SCHEMA_VERSION, RISK_FREE_APY, SHARPE_MIN_POINTS
 };
 
 if (require.main === module) {
