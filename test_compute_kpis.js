@@ -91,6 +91,49 @@ test('computeKpis — tvlTrend null when earliest TVL is 0 (division guard)', ()
   assert.strictEqual(kpis.apyMomentum, 1, 'other deltas still computed');
 });
 
+test('computeKpis — apyMean is the mean of the apy series (any point count, incl. 1)', () => {
+  assert.strictEqual(k.computeKpis({}, [{ date: '2026-07-10', apyTotal: 4.5, tvlUsd: 1000 }]).apyMean, 4.5);
+  const two = k.computeKpis({}, [
+    { date: '2026-07-10', apyTotal: 4.0, tvlUsd: 1000 },
+    { date: '2026-07-12', apyTotal: 5.0, tvlUsd: 1200 }
+  ]);
+  assert.strictEqual(two.apyMean, 4.5); // mean([4,5])
+});
+
+test('computeKpis — apySharpe null for <8 points (too noisy → no track record)', () => {
+  // 7 points, non-zero dispersion — still below SHARPE_MIN_POINTS(8) → null.
+  const series = [2, 4, 4, 4, 5, 5, 7].map((a, i) => ({ date: '2026-07-0' + (i + 1), apyTotal: a, tvlUsd: 1000 }));
+  const kpis = k.computeKpis({}, series);
+  assert.strictEqual(kpis.historyPoints, 7);
+  assert.strictEqual(kpis.apySharpe, null);
+  assert.strictEqual(kpis.apyMean, 4.43); // mean([2,4,4,4,5,5,7]) = 31/7 = 4.4285… → 4.43
+});
+
+test('computeKpis — apySharpe computed for ≥8 points with non-zero stdev', () => {
+  // Textbook series [2,4,4,4,5,5,7,9]: mean 5, population stdev 2.
+  // apySharpe = (5 − RISK_FREE_APY 4) / 2 = 0.5.
+  const series = [2, 4, 4, 4, 5, 5, 7, 9].map((a, i) => ({ date: '2026-07-' + String(i + 1).padStart(2, '0'), apyTotal: a, tvlUsd: 1000 }));
+  const kpis = k.computeKpis({}, series);
+  assert.strictEqual(kpis.historyPoints, 8);
+  assert.strictEqual(kpis.apyMean, 5);
+  assert.strictEqual(kpis.apyStdev, 2);
+  assert.strictEqual(kpis.apySharpe, 0.5, '(mean 5 − riskfree 4) / stdev 2 = 0.5');
+});
+
+test('computeKpis — apySharpe null when stdev is 0 even with ≥8 points (division guard)', () => {
+  // 8 identical points → sd 0 → Sharpe undefined → null, never Infinity.
+  const series = Array.from({ length: 8 }, (_, i) => ({ date: '2026-07-' + String(i + 1).padStart(2, '0'), apyTotal: 6, tvlUsd: 1000 }));
+  const kpis = k.computeKpis({}, series);
+  assert.strictEqual(kpis.historyPoints, 8);
+  assert.strictEqual(kpis.apyMean, 6);
+  assert.strictEqual(kpis.apySharpe, null);
+});
+
+test('computeKpis — RISK_FREE_APY and SHARPE_MIN_POINTS are exported constants', () => {
+  assert.strictEqual(k.RISK_FREE_APY, 4.0);
+  assert.strictEqual(k.SHARPE_MIN_POINTS, 8);
+});
+
 test('buildSeriesByPool — ascending entries yield ascending per-pool series', () => {
   const entries = [
     { date: '2026-07-10', pools: { a: [4, 100], b: [1, 50] } },
