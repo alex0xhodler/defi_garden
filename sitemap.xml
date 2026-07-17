@@ -2,11 +2,11 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-LP-DEX.xml</loc>
-    <lastmod>2026-07-15T23:38:59.205Z</lastmod>
+    <lastmod>2026-07-17T05:13:44.785Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Lending.xml</loc>
-    <lastmod>2026-07-15T22:42:15.593Z</lastmod>
+    <lastmod>2026-07-17T05:13:44.785Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Staking.xml</loc>
@@ -14,7 +14,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Yield-Farming.xml</loc>
-    <lastmod>2026-07-16T00:53:17.040Z</lastmod>
+    <lastmod>2026-07-17T05:13:44.785Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Abstract.xml</loc>
@@ -50,7 +50,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Base.xml</loc>
-    <lastmod>2026-07-16T09:45:17.861Z</lastmod>
+    <lastmod>2026-07-17T05:13:44.785Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Berachain.xml</loc>
@@ -126,7 +126,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Ethereum.xml</loc>
-    <lastmod>2026-07-16T14:05:28.619Z</lastmod>
+    <lastmod>2026-07-17T05:13:44.785Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Etherlink.xml</loc>
@@ -330,7 +330,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Solana.xml</loc>
-    <lastmod>2026-07-16T09:45:17.861Z</lastmod>
+    <lastmod>2026-07-17T05:13:44.785Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Sonic.xml</loc>
@@ -426,22 +426,22 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-tokens-all.xml</loc>
-    <lastmod>2026-07-16T14:05:28.619Z</lastmod>
+    <lastmod>2026-07-17T05:13:44.785Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-token-pages.xml</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-07-17</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-pages.xml</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-07-17</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-token-pages-ko.xml</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-07-17</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-pages-ko.xml</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-07-17</lastmod>
   </sitemap>
 </sitemapindex>
