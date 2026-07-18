@@ -76,12 +76,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/mantle</loc>
+    <loc>https://www.defi.garden/chains/xrpl</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/xrpl</loc>
+    <loc>https://www.defi.garden/chains/mantle</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -136,12 +136,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/berachain</loc>
+    <loc>https://www.defi.garden/chains/stable</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stable</loc>
+    <loc>https://www.defi.garden/chains/berachain</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
