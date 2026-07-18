@@ -1208,7 +1208,17 @@ function PoolDetail({
       return t ? t('rateTrackRecordSteady', hp) : `Steady so far: across the ${hp} days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.`;
     }
     return t ? t('rateTrackRecordTracked', hp) : `We've been tracking this pool's rate for ${hp} days. Watching how a rate holds up over time is one honest way to judge it.`;
-  }()),
+  }(),
+  // Rate-stability Sharpe annotation (117.1) — one calm extra line under
+  // the stdev sentence, reusing the parent note's neuro surface/color/
+  // font (inline top-gap only, zero new CSS). Present only when 087's
+  // kpis.apySharpe is a finite number (null for <8 history points or
+  // sd=0), so it renders dormant until pools accrue enough history.
+  typeof pool.kpis.apySharpe === 'number' && React.createElement('div', {
+    style: {
+      marginTop: '6px'
+    }
+  }, t ? t('rateSharpeNote', _formatNum(pool.kpis.apySharpe)) : `Rate-stability score ${_formatNum(pool.kpis.apySharpe)} (vs a ~4% risk-free rate): how steady this pool's yield has been relative to how much it pays — not a measure of principal safety.`)),
   // Rate-momentum honesty note (103) — full-width, calm. Reuses 071's
   // exact neuro styling. Surfaces 087's kpis.apyMomentum (last − first
   // total APY over the tracked window) as calm cautious-saver language:
