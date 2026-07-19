@@ -317,6 +317,15 @@
     <priority>0.92</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=LUNC</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LUNC" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LUNC&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LUNC" />
+    <lastmod>2026-07-19T07:57:38.396Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.91</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=MSETH</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSETH" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSETH&amp;lang=ko" />
@@ -646,15 +655,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDC&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUPUSDC" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SYRUPUSDT</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUPUSDT" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDT&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUPUSDT" />
-    <lastmod>2026-07-18T07:55:30.618Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
