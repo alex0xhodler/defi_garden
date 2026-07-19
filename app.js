@@ -1820,6 +1820,25 @@ function App() {
       });
       // Sort by selected criteria
       filtered.sort((a, b) => {
+        if (sortBy === 'sharpe') {
+          // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
+          // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
+          // (trust rail — no anomalous pool jumps the queue via Sharpe). Within the sane
+          // group: numeric apySharpe desc, null Sharpe last, tie-break TVL desc — so it's
+          // a graceful no-op until pools accrue >=8 history points, then activates.
+          const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+          const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+          const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+          const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+          if (anomA !== anomB) return anomA - anomB;
+          const shA = (a.kpis && typeof a.kpis.apySharpe === 'number') ? a.kpis.apySharpe : null;
+          const shB = (b.kpis && typeof b.kpis.apySharpe === 'number') ? b.kpis.apySharpe : null;
+          const nullA = shA === null ? 1 : 0;
+          const nullB = shB === null ? 1 : 0;
+          if (nullA !== nullB) return nullA - nullB;              // numeric Sharpe before null
+          if (shA !== null && shB !== null && shA !== shB) return shB - shA; // Sharpe desc
+          return b.tvlUsd - a.tvlUsd;                             // tie-break TVL desc
+        }
         if (sortBy === 'tvl') {
           // Yielding pools before no-supply-yield pools, then TVL desc (092)
           const noA = hasNoSupplyYield(a) ? 1 : 0;
@@ -1891,6 +1910,25 @@ function App() {
 
       // Sort by selected criteria
       filtered.sort((a, b) => {
+        if (sortBy === 'sharpe') {
+          // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
+          // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
+          // (trust rail — no anomalous pool jumps the queue via Sharpe). Within the sane
+          // group: numeric apySharpe desc, null Sharpe last, tie-break TVL desc — so it's
+          // a graceful no-op until pools accrue >=8 history points, then activates.
+          const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+          const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+          const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+          const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+          if (anomA !== anomB) return anomA - anomB;
+          const shA = (a.kpis && typeof a.kpis.apySharpe === 'number') ? a.kpis.apySharpe : null;
+          const shB = (b.kpis && typeof b.kpis.apySharpe === 'number') ? b.kpis.apySharpe : null;
+          const nullA = shA === null ? 1 : 0;
+          const nullB = shB === null ? 1 : 0;
+          if (nullA !== nullB) return nullA - nullB;              // numeric Sharpe before null
+          if (shA !== null && shB !== null && shA !== shB) return shB - shA; // Sharpe desc
+          return b.tvlUsd - a.tvlUsd;                             // tie-break TVL desc
+        }
         if (sortBy === 'tvl') {
           // Yielding pools before no-supply-yield pools, then TVL desc (092)
           const noA = hasNoSupplyYield(a) ? 1 : 0;
@@ -1972,6 +2010,25 @@ function App() {
 
     // Sort by selected criteria
     filtered.sort((a, b) => {
+      if (sortBy === 'sharpe') {
+        // 117.2 risk-adjusted (rate-stability Sharpe) sort. Anomalous pools (APY >
+        // APY_SANITY_LIMIT) stay demoted below ALL sane pools exactly as apy/tvl sorts
+        // (trust rail — no anomalous pool jumps the queue via Sharpe). Within the sane
+        // group: numeric apySharpe desc, null Sharpe last, tie-break TVL desc — so it's
+        // a graceful no-op until pools accrue >=8 history points, then activates.
+        const apyA = (a.apyBase || 0) + (a.apyReward || 0);
+        const apyB = (b.apyBase || 0) + (b.apyReward || 0);
+        const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
+        const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
+        if (anomA !== anomB) return anomA - anomB;
+        const shA = (a.kpis && typeof a.kpis.apySharpe === 'number') ? a.kpis.apySharpe : null;
+        const shB = (b.kpis && typeof b.kpis.apySharpe === 'number') ? b.kpis.apySharpe : null;
+        const nullA = shA === null ? 1 : 0;
+        const nullB = shB === null ? 1 : 0;
+        if (nullA !== nullB) return nullA - nullB;              // numeric Sharpe before null
+        if (shA !== null && shB !== null && shA !== shB) return shB - shA; // Sharpe desc
+        return b.tvlUsd - a.tvlUsd;                             // tie-break TVL desc
+      }
       if (sortBy === 'tvl') {
         // Yielding pools before no-supply-yield pools, then TVL desc (092)
         const noA = hasNoSupplyYield(a) ? 1 : 0;
@@ -3119,7 +3176,11 @@ function App() {
                   React.createElement('button', {
                     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
                     onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
-                  }, 'TVL')
+                  }, 'TVL'),
+                  React.createElement('button', {
+                    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
+                    onClick: () => { setSortBy('sharpe'); setUserSortedApy(false); }
+                  }, t('sortByRiskAdjusted'))
                 )
               )
             )
