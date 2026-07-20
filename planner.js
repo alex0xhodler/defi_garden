@@ -81,6 +81,31 @@
   function poolTotalApy(pool) {
     return (pool.apyBase || 0) + (pool.apyReward || 0);
   }
+  // Rate-stability Sharpe (pool.kpis.apySharpe), or null when absent/non-numeric.
+  // Null in current prod (all pools) — the tie-break must be a pure no-op then.
+  function poolSharpe(pool) {
+    var s = pool && pool.kpis ? pool.kpis.apySharpe : null;
+    return (typeof s === 'number' && isFinite(s)) ? s : null;
+  }
+  // Near-tie-break: among rail-passing candidates whose total APY is effectively
+  // equal, prefer the steadier-yield pool (higher apySharpe). Returns a comparator
+  // delta ONLY inside the near-tie AND when Sharpe is decisive; 0 otherwise, so the
+  // primary APY key keeps its order (never leapfrog a materially-higher-APY pool).
+  // Epsilon = max(0.1pp absolute floor, 2% of the larger rate) — 0.1pp keeps sub-1%
+  // rates from being swamped by the relative term; 2% scales the near-tie window with
+  // the rate so a 0.1pp gap at 20% APY still counts as a near-tie.
+  function sharpeTieBreak(a, b) {
+    var apyA = poolTotalApy(a);
+    var apyB = poolTotalApy(b);
+    var eps = Math.max(0.10, 0.02 * Math.max(apyA, apyB));
+    if (Math.abs(apyA - apyB) > eps) return 0; // outside near-tie: Sharpe has no say
+    var sa = poolSharpe(a);
+    var sb = poolSharpe(b);
+    if (sa === null && sb === null) return 0;      // both unknown: keep prior order
+    if (sa === null && sb !== null) return 1;      // a unknown, b known: b wins (a after)
+    if (sb === null && sa !== null) return -1;     // b unknown, a known: a wins (a before)
+    return sb - sa;                                // both known: higher Sharpe first
+  }
   function isAnomalousApy(pool) {
     return poolTotalApy(pool) > APY_SANITY_LIMIT;
   }
@@ -608,7 +633,9 @@
         var ap = band.preferTypes.indexOf(poolKind(a)) !== -1 ? 0 : 1;
         var bp = band.preferTypes.indexOf(poolKind(b)) !== -1 ? 0 : 1;
         if (ap !== bp) return ap - bp;
-        return poolTotalApy(b) - poolTotalApy(a);
+        var byApy = poolTotalApy(b) - poolTotalApy(a);
+        var tb = sharpeTieBreak(a, b);
+        return tb !== 0 ? tb : byApy;
       });
     } else if (band.rwaAllowlist) {
       // Sort: allowlist first, then others by APY
@@ -616,10 +643,16 @@
         var ar = isRwaProject(a) ? 0 : 1;
         var br = isRwaProject(b) ? 0 : 1;
         if (ar !== br) return ar - br;
-        return poolTotalApy(b) - poolTotalApy(a);
+        var byApy = poolTotalApy(b) - poolTotalApy(a);
+        var tb = sharpeTieBreak(a, b);
+        return tb !== 0 ? tb : byApy;
       });
     } else {
-      eligible.sort(function (a, b) { return poolTotalApy(b) - poolTotalApy(a); });
+      eligible.sort(function (a, b) {
+        var byApy = poolTotalApy(b) - poolTotalApy(a);
+        var tb = sharpeTieBreak(a, b);
+        return tb !== 0 ? tb : byApy;
+      });
     }
 
     var seen = {};
