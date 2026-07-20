@@ -76,12 +76,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/robinhood-chain</loc>
+    <loc>https://www.defi.garden/ko/chains/xrpl</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/xrpl</loc>
+    <loc>https://www.defi.garden/ko/chains/robinhood-chain</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -281,12 +281,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/flow</loc>
+    <loc>https://www.defi.garden/ko/chains/move</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/move</loc>
+    <loc>https://www.defi.garden/ko/chains/flow</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>daily</changefreq>
   </url>
