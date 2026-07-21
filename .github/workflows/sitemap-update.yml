@@ -72,7 +72,10 @@ jobs:
         node generate-pools-snapshot.js --seo-out "$RUNNER_TEMP/seo-pools.json"
         echo "✅ Pools snapshot generation completed"
 
-    - name: Compute KPIs + retain history (backlog 087 — data-layer leg 2 phase 0)
+    - name: Compute KPIs + retain history (backlog 087 — data-layer leg 2 phase 0; 110 — read from D1 when provisioned)
+      env:
+        HISTORY_ENDPOINT: ${{ secrets.HISTORY_ENDPOINT }}
+        HISTORY_TOKEN: ${{ secrets.HISTORY_TOKEN }}
       run: |
         echo "📈 Appending slim history point + computing per-pool KPIs..."
         node compute-kpis.js
