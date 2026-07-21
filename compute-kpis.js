@@ -43,6 +43,8 @@ const path = require('path');
 
 const SCHEMA_VERSION = 1;
 const HISTORY_RETENTION = 30; // keep the 30 most-recent dated history points
+const DB_WINDOW_DAYS = 90;      // 110: days requested from the D1 /history endpoint
+const DB_FETCH_TIMEOUT_MS = 15000; // never hang CI on an unreachable endpoint
 const RISK_FREE_APY = 4.0;      // 117: disclosed risk-free benchmark (~US T-bill), configurable
 const SHARPE_MIN_POINTS = 8;    // 117: below this the rate-stability Sharpe is too noisy → null
 
@@ -156,6 +158,54 @@ function readHistory(dataDir) {
   return out;
 }
 
+// --- DB (Cloudflare D1 /history) read path (110) ---------------------------
+
+/** PURE: reshape the flat `/history` rows (`[{pool_id, ts, apy, tvl_usd}, …]`
+ * ascending by ts, unix SECONDS) into the SAME `[{date, pools:{id:[apy,tvl]}}]`
+ * shape `readHistory()` returns and `buildSeriesByPool()` consumes.
+ *
+ * Determinism: `date` derives ONLY from each row's `ts` (a pure function of the
+ * input), NEVER a wall-clock `new Date()` — the pure-core determinism discipline
+ * (see file header) holds. Rows are ascending by ts, so within a UTC day the
+ * LATER row overwrites the earlier per pool → one point-per-day per pool, making
+ * daily-cadence DB data byte-equivalent to the file path's slimPoint output. */
+function reshapeDbRows(rows) {
+  if (!Array.isArray(rows)) return [];
+  const byDate = new Map(); // date → { date, pools:{} } (insertion order = ts order)
+  rows.forEach(r => {
+    if (!r || r.pool_id == null || r.ts == null) return; // skip malformed
+    // PURE date-of-ts: unix seconds → UTC calendar day. NOT `new Date()` wall clock.
+    const date = new Date(Number(r.ts) * 1000).toISOString().slice(0, 10);
+    let entry = byDate.get(date);
+    if (!entry) { entry = { date, pools: {} }; byDate.set(date, entry); }
+    // round is idempotent on already-4dp apy; matches slimPoint output exactly.
+    entry.pools[r.pool_id] = [round(Number(r.apy), 4), Number(r.tvl_usd) || 0];
+  });
+  const out = Array.from(byDate.values());
+  out.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+  return out;
+}
+
+/** Fetch `${endpoint}?days=<days>` from the D1 /history Worker (Bearer-guarded
+ * when a token is provided) and reshape into history entries. Aborts after
+ * DB_FETCH_TIMEOUT_MS so CI never hangs on an unreachable endpoint. Throws on a
+ * non-2xx status (caller in main() catches → local file fallback). */
+async function fetchDbHistory(endpoint, token, days) {
+  const url = endpoint + (endpoint.includes('?') ? '&' : '?') + 'days=' + days;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), DB_FETCH_TIMEOUT_MS);
+  try {
+    const headers = {};
+    if (token) headers.authorization = 'Bearer ' + token;
+    const res = await fetch(url, { headers, signal: controller.signal });
+    if (!res.ok) throw new Error('history endpoint ' + res.status);
+    const rows = await res.json();
+    return reshapeDbRows(rows);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 /** Keep the HISTORY_RETENTION most-recent dated files (lexicographic on the
  * `YYYY-MM-DD.json` name), delete older ones. Returns the count pruned. */
 function pruneHistory(dataDir) {
@@ -220,8 +270,11 @@ function normalize(content) {
  * KPIs into the snapshot and every slice under an all-or-nothing freshness gate.
  * `generatedAt` is injected (main() supplies `new Date().toISOString()`); the
  * run date is `generatedAt.slice(0,10)`. Returns { changed, enriched, appended }.
+ * `historyOverride` (110): when non-null, use it as the retained-window history
+ * (the D1 /history path) instead of reading `data/history/*.json`. All KPI math /
+ * snapshot / slice baking stays byte-identical either way.
  */
-function enrich(dataDir, generatedAt) {
+function enrich(dataDir, generatedAt, historyOverride) {
   const paths = resolveDataPaths(dataDir);
   const snapContent = tryRead(paths.snapshot);
   if (snapContent == null) {
@@ -236,7 +289,7 @@ function enrich(dataDir, generatedAt) {
 
   // 2. Build per-pool series from the retained window (now including today's
   //    point if appended, else the identical most-recent point).
-  const history = readHistory(dataDir);
+  const history = (historyOverride != null) ? historyOverride : readHistory(dataDir);
   const seriesByPool = buildSeriesByPool(history);
 
   // 3. Enrich each snapshot pool in place (never reorder/drop). A pool not yet
@@ -301,7 +354,7 @@ function parseArgs(argv) {
   return args;
 }
 
-function main() {
+async function main() {
   const args = parseArgs(process.argv.slice(2));
   // Default dataDir = <repo>/data (resolved against this script, never
   // process.cwd() — 076 lesson). --out isolates all writes into the given dir.
@@ -309,7 +362,27 @@ function main() {
   // --date injects a deterministic run date at midnight UTC; else wall clock.
   const generatedAt = args.date ? (args.date + 'T00:00:00.000Z') : new Date().toISOString();
 
-  const result = enrich(dataDir, generatedAt);
+  // 110: prefer the D1 /history endpoint when provisioned (HISTORY_ENDPOINT set),
+  // else fall back to the local file history. Unset endpoint (current production
+  // reality — 108 not yet provisioned) → historyOverride stays null → file path →
+  // byte-identical to today. Any error here degrades honestly to the file path.
+  let historyOverride = null;
+  const endpoint = process.env.HISTORY_ENDPOINT;
+  if (endpoint) {
+    try {
+      const dbEntries = await fetchDbHistory(endpoint, process.env.HISTORY_TOKEN, DB_WINDOW_DAYS);
+      if (dbEntries && dbEntries.length) {
+        historyOverride = dbEntries;
+        console.log(`📡 KPI history source: D1 /history (${dbEntries.length} day-buckets, days=${DB_WINDOW_DAYS})`);
+      } else {
+        console.log('📡 HISTORY_ENDPOINT set but /history returned no rows — falling back to local file history');
+      }
+    } catch (e) {
+      console.log(`📡 HISTORY_ENDPOINT unreachable (${e.message}) — falling back to local file history`);
+    }
+  }
+
+  const result = enrich(dataDir, generatedAt, historyOverride);
   if (result.reason === 'no-snapshot') {
     console.log('⚠️  No data/pools-snapshot.json found — nothing to enrich. Run generate-pools-snapshot.js first.');
     return;
@@ -325,7 +398,8 @@ function main() {
 module.exports = {
   round, slimPoint, buildSlimMap, stdevPop, computeKpis, buildSeriesByPool,
   historyDir, readHistory, pruneHistory, appendHistory, resolveDataPaths,
-  normalize, enrich, HISTORY_RETENTION, SCHEMA_VERSION, RISK_FREE_APY, SHARPE_MIN_POINTS
+  normalize, enrich, HISTORY_RETENTION, SCHEMA_VERSION, RISK_FREE_APY, SHARPE_MIN_POINTS,
+  reshapeDbRows, fetchDbHistory, DB_WINDOW_DAYS
 };
 
 if (require.main === module) {
