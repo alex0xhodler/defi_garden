@@ -16,12 +16,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/base</loc>
+    <loc>https://www.defi.garden/ko/chains/bsc</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bsc</loc>
+    <loc>https://www.defi.garden/ko/chains/base</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -36,12 +36,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/hyperliquid-l1</loc>
+    <loc>https://www.defi.garden/ko/chains/avalanche</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/avalanche</loc>
+    <loc>https://www.defi.garden/ko/chains/hyperliquid-l1</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -141,12 +141,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/gnosis</loc>
+    <loc>https://www.defi.garden/ko/chains/stable</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/stable</loc>
+    <loc>https://www.defi.garden/ko/chains/gnosis</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -331,12 +331,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/echelon-initia</loc>
+    <loc>https://www.defi.garden/ko/chains/hemi</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/hemi</loc>
+    <loc>https://www.defi.garden/ko/chains/echelon-initia</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -346,12 +346,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/manta</loc>
+    <loc>https://www.defi.garden/ko/chains/canto</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/canto</loc>
+    <loc>https://www.defi.garden/ko/chains/manta</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
   </url>
