@@ -29,6 +29,31 @@ const Analytics = {
     this.pageLoadTime = Date.now();
     this.lastEventTime = Date.now();
     this.viewStartTime = Date.now();
+    // Capture acquisition (UTM / click-id / referring domain) ONCE at landing,
+    // before any SPA navigation clears the query string. Persisted on `this` for
+    // the whole session so every event is attributable — the spotlight links
+    // (item 064) carry utm_*/ref, and this is what surfaces them on
+    // waitlist_opened etc. under stable, queryable names. Additive only.
+    this.acquisition = this.captureAcquisition();
+  },
+
+  // Parse the landing URL's acquisition params + the referring domain. All keys
+  // omitted when absent (never emit empty/"undefined" strings); fully guarded.
+  captureAcquisition() {
+    const out = {};
+    try {
+      const params = new URLSearchParams(window.location.search || '');
+      // Standard UTMs + the `ref` the spotlight links use (064) + common ad click ids
+      ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',
+        'ref', 'gclid', 'fbclid', 'twclid'].forEach((k) => {
+        const v = params.get(k);
+        if (v) out[k] = String(v).substring(0, 200); // cap length (privacy/safety)
+      });
+      if (document.referrer) {
+        try { out.referring_domain = new URL(document.referrer).hostname; } catch (e) {}
+      }
+    } catch (e) {}
+    return out;
   },
 
   generateSessionId() {
@@ -48,7 +73,10 @@ const Analytics = {
       page_url: window.location.href,
       referrer: document.referrer || 'direct',
       time_since_load: Date.now() - this.pageLoadTime,
-      time_since_last_event: Date.now() - this.lastEventTime
+      time_since_last_event: Date.now() - this.lastEventTime,
+      // Session-scoped acquisition (utm_*/ref/click-id/referring_domain), captured
+      // once at landing so it survives SPA navigation clearing the query string.
+      ...(this.acquisition || {})
     };
   },
 
