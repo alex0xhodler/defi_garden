@@ -2342,7 +2342,10 @@ function App() {
   // --- End honest empty states (spec 012) ------------------------------------
 
   // Pinned en-US formatters — prevent OS-locale rendering differences
+  // 126: pin exactly `maxFrac` decimals (min===max) so cents never drop a trailing
+  // zero — daily earnings render "$0.10", not "$0.1". maxFrac=0 (projections) → "$1,193".
   var formatUsd = (n, maxFrac = 2) => '$' + Number(n || 0).toLocaleString('en-US', {
+    minimumFractionDigits: maxFrac,
     maximumFractionDigits: maxFrac
   });
   var formatNum = n => Number(n || 0).toLocaleString('en-US');

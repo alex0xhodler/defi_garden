@@ -101,7 +101,7 @@ const translations = {
     poolType: "Pool Type", 
     underlyingAssets: "Underlying Assets",
     calculateYourEarnings: "Calculate Your Earnings",
-    quickEstimate: (amount, dailyRaw) => `Quick estimate for $${Number(amount || 0).toLocaleString('en-US')}: $${Number(dailyRaw || 0).toLocaleString('en-US', { maximumFractionDigits: 2 })}/day`,
+    quickEstimate: (amount, dailyRaw) => `Quick estimate for $${Number(amount || 0).toLocaleString('en-US')}: $${Number(dailyRaw || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}/day`,
     basedOnInvestment: (amount) => `Based on $${Number(amount || 0).toLocaleString('en-US')} investment`,
     verified: "✓ Verified",
     onProtocolChain: (protocol, chain, hasUrl) => `on ${protocol} • ${chain}${hasUrl ? ' ↗' : ''}`,
