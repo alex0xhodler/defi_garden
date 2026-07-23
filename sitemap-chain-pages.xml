@@ -256,12 +256,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/bifrost-network</loc>
+    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
+    <loc>https://www.defi.garden/chains/bifrost-network</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -351,12 +351,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/xrpl-evm</loc>
+    <loc>https://www.defi.garden/chains/fuel-ignition</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/fuel-ignition</loc>
+    <loc>https://www.defi.garden/chains/xrpl-evm</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
