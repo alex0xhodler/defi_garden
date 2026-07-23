@@ -3212,7 +3212,14 @@ function App() {
               disabled: currentPage === totalPages
             }, 'Next')
           )
-        ] : React.createElement('div', { className: 'empty-state' },
+        ] : (loading && !emptyStateResolved && !deadPoolResolved)
+          // 132: while the initial fetch is in flight and nothing has resolved yet,
+          // show a loading line — NOT "No yields found for X", which is false during
+          // the pre-fetch flash (esp. on ?token= SEO landings where the snapshot
+          // resolves in a beat). The empty state below renders only once resolved.
+          ? React.createElement('div', { className: 'empty-state', key: 'loading' },
+              React.createElement('div', { className: 'empty-message' }, t('loadingYields')))
+          : React.createElement('div', { className: 'empty-state', key: 'empty' },
           React.createElement('div', { className: 'empty-message' },
             deadPoolResolved
               ? t('poolNotFoundTitle')
