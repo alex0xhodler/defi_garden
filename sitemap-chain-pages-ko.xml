@@ -256,11 +256,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/venom</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/bifrost-network</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
@@ -271,12 +266,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/multiversx</loc>
+    <loc>https://www.defi.garden/ko/chains/venom</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/heco</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/multiversx</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -306,17 +306,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/rootstock</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/defichain</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/unichain</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/hedera</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/chains/rootstock</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -406,12 +411,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/world-chain</loc>
+    <loc>https://www.defi.garden/ko/chains/waves</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/waves</loc>
+    <loc>https://www.defi.garden/ko/chains/world-chain</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
