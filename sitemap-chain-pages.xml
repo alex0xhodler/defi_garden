@@ -366,11 +366,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/zksync-era</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/rsk</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
@@ -382,6 +377,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/kusama</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/zksync-era</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -406,12 +406,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/waves</loc>
+    <loc>https://www.defi.garden/chains/world-chain</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/world-chain</loc>
+    <loc>https://www.defi.garden/chains/waves</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
   </url>
