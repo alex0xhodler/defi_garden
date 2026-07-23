@@ -79,6 +79,7 @@ const translations = {
     estimatedMonthlyEarnings: "Estimated Monthly Earnings",
     
     // Empty states and errors
+    loadingYields: "Loading live pools…",
     noYieldsFound: (token) => `No yields found for ${token}`,
     noYieldsFoundChain: (chain) => `No yields found on ${chain} with current filters`,
     adjustFilters: "Try adjusting your filters or searching for a different token",
@@ -759,6 +760,7 @@ const translations = {
     estimatedMonthlyEarnings: "예상 월간 수익",
     
     // Empty states and errors
+    loadingYields: "실시간 풀 불러오는 중…",
     noYieldsFound: (token) => `${token}에 대한 수익률을 찾을 수 없습니다`,
     noYieldsFoundChain: (chain) => `현재 필터로 ${chain}에서 수익률을 찾을 수 없습니다`,
     adjustFilters: "필터를 조정하거나 다른 토큰을 검색해보세요",
