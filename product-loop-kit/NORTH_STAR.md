@@ -20,6 +20,25 @@
 - Current baseline: unknown — Mixpanel MCP unauthenticated in cloud sessions as of 2026-07-12; heartbeat backfills `waitlist_submitted` from the next live signal read or `signals/` snapshot, never invents numbers. Viral-closure baseline remains **0** (30d to 2026-07-09: `share_link_opened` 0, `plan_created` 5, `session_start` 132 — `signals/2026-07-09.md`)
 - Guardrail metrics (never trade these away): `error_occurred` rate; planner conversion (`plan_created` per planner session); parameterized analytics URLs (`?token=/?chain=/?pool=`) keep rendering pool cards — that's the SEO lifeline
 
+### North-star Mixpanel query (item 123, DEFINE + verify, 2026-07-23)
+Both CTAs render-verified firing on both pool-detail entry paths (rendered-Playwright, `test_northstar_cta_fires.js`) — url_direct (`/?pool=<id>` landing) and card_click (grid card → detail). One real gap found and fixed: `analytics.js` `trackPoolClick()` emitted `click_type` but never a `source` property, so line 17's definition above ("pool_click events with `source ∈ {garden_cta, protocol_link}`") did not match the live payload before this fix — `source` is now emitted alongside the pre-existing `click_type` (kept for backward compat with any saved report built against it). Call sites (PoolDetail.js:497/517) needed no changes — `enrichPoolData()` already attaches pool id/project/chain/apy to every `pool_click`/`pool_view`.
+
+Copy-pasteable query (Mixpanel UI, project **defigarden** 4042048):
+- **Report type**: Insights (Formulas mode — two event lines, combined with a formula)
+- **Event names**: `pool_click` (numerator) and `pool_view` (denominator) — confirmed exact names by reading `analytics.js` (`trackPoolClick`/`trackPoolView` → `this.track('pool_click', …)` / `this.track('pool_view', …)`), not guessed.
+- **Line A** — event `pool_click`, filter `source` is one of `garden_cta`, `protocol_link`; measure = **Total events**; break down by `source` (optional, to see the two CTAs separately).
+- **Line B** — event `pool_view`; measure = **Total events** (all sources — card_click + url_direct + any future entry path).
+- **Formula**: `A / B` → click-through rate. Weekly count = Line A alone, shown with **Time unit = Week**, "Last 12 weeks" (or whatever window the current report cadence uses).
+- **Segmentation available on both lines** (verified present on every event, non-empty): `pool_id`, `pool_project`, `pool_chain`, `total_apy`, `source` — breaking down by any of these slices the north star by pool/protocol/chain without a new event.
+- **Denominator caveat**: `pool_view` also fires from any future non-CTA-driving entry path if one is ever added — the CTR formula stays correct as long as `pool_view` fires exactly once per pool-detail render (verified for both current paths; test asserts no double-fire).
+
+Emitter audit (`pool_click`, all call sites, grepped across analytics.js/app.js/PoolDetail.js/planner.js):
+1. `PoolDetail.js:497` — `Analytics.trackPoolClick(pool, 'garden_cta', {...})` — the "Garden this pool →" CTA. **North star.**
+2. `PoolDetail.js:517` — `Analytics.trackPoolClick(pool, 'protocol_link')` — the "Start Earning on <protocol> ↗" link. **North star.**
+3. `app.js:2546` (`handleCalculateYield`) — `Analytics.trackPoolClick(pool, 'yield_calculator')` — a pool-card "calculate yield" affordance in the analytics grid that jumps straight into pool-detail. NOT part of the north star (excluded by the `source ∈ {garden_cta, protocol_link}` filter above) but worth knowing it shares the event — a query that forgets the `source` filter will overcount.
+
+Rename decision: **keep `pool_click`, isolate via `source`** (the brief's default). `source` now has three disjoint values (`garden_cta`, `protocol_link`, `yield_calculator`) that fully disambiguate every emitter — no noise the property can't resolve, so there's no case for promoting to distinct event names. Renaming would also fragment any pre-2026-07-23 `pool_click` history for no query-time benefit.
+
 ## Signals
 - Mode: analytics
 - Sources: Mixpanel project defigarden (4042048), org Equitee — via Mixpanel MCP. **NOT YET WIRED for Claude Code** (backlog 001). Until 001 ships, the heartbeat runs signal-degraded: read the latest `signals/` snapshot, never invent numbers, state "signal not wired" in the report, and keep 001 top-ranked.

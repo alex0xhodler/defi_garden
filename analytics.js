@@ -225,6 +225,12 @@ const Analytics = {
     this.track('pool_click', {
       ...poolAnalytics,
       click_type: clickType,
+      // North-star segmentation (backlog 123): the pool-detail CTAs are
+      // isolated by `source`, matching pool_view's existing `source` prop
+      // (card_click/url_direct) so both events share a query-able shape.
+      // click_type is kept for backward compatibility with any existing
+      // saved reports/dashboards built against it.
+      source: clickType,
       time_spent_viewing_ms: context.viewStartTime ? Date.now() - context.viewStartTime : null,
       investment_amount_set: context.investmentAmount || null,
       yield_calculated: !!context.yieldCalculated,
