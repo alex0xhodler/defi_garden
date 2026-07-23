@@ -41,3 +41,13 @@ missing, and someone calls it a tracking bug.
 
 **Provenance:** item 120 (specs/120.md — the "undefined referrer" investigation); items 044 (window.Analytics
 guard), 096 (host gate).
+
+## Addendum (122, 2026-07-23): derived-KPI numeric blow-ups (division by near-zero)
+When a computed KPI renders an absurd value (e.g. rate-stability Sharpe = -900,719,925,474,097.9):
+1. It's usually a divide-by-near-zero, not a data bug. Sharpe = (mean-RF)/stdev; a FLAT series gives
+   stdev = float dust (~1e-16), not exactly 0, so a `> 0` guard misses it.
+2. Fix in TWO layers: (a) compute — require a MEANINGFUL denominator (epsilon floor, e.g. sd>=0.05) +
+   cap the result magnitude + Number.isFinite; (b) render — gate on `Math.abs(x) <= CAP` (NOT just
+   isFinite — an astronomical value is still finite) so a stale committed artifact can't render.
+3. Latency trap: these stay dormant until real history/scale arrives (122 surfaced only after the D1
+   backfill gave the KPI 10 real days to divide across). New data = new edge cases.

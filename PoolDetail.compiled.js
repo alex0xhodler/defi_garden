@@ -1212,9 +1212,11 @@ function PoolDetail({
   // Rate-stability Sharpe annotation (117.1) — one calm extra line under
   // the stdev sentence, reusing the parent note's neuro surface/color/
   // font (inline top-gap only, zero new CSS). Present only when 087's
-  // kpis.apySharpe is a finite number (null for <8 history points or
-  // sd=0), so it renders dormant until pools accrue enough history.
-  typeof pool.kpis.apySharpe === 'number' && React.createElement('div', {
+  // kpis.apySharpe is a finite, sane-magnitude number (null for <8 history
+  // points / flat rate). 122: gate on finite AND |value| <= 50 so a stale
+  // pre-fix snapshot value (e.g. -900,719,925,474,097.9 from float-dust
+  // stdev) is never rendered even before CI regenerates the snapshot.
+  typeof pool.kpis.apySharpe === 'number' && Number.isFinite(pool.kpis.apySharpe) && Math.abs(pool.kpis.apySharpe) <= 50 && React.createElement('div', {
     style: {
       marginTop: '6px'
     }
