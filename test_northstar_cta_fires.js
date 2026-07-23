@@ -2,7 +2,7 @@
    DEFINE + verify. The north star (NORTH_STAR.md, pivoted 2026-07-23) is the
    two pool-detail conversion CTAs: "Garden this pool" (PoolDetail.js
    `cta-button-primary`, fires `Analytics.trackPoolClick(pool, 'garden_cta', ...)`)
-   and "Start Earning on <protocol>" (PoolDetail.js `pool-action-protocol-link`,
+   and "Start Earning on <protocol>" (PoolDetail.js `cta-button-protocol`,
    fires `Analytics.trackPoolClick(pool, 'protocol_link')`). Both funnel into
    the single `pool_click` event, isolated by a `source` property.
 
@@ -100,7 +100,7 @@ async function installTrackSpy(page) {
     window.__events = [];
     window.open = () => null;
     document.addEventListener('click', (e) => {
-      if (e.target.closest('.cta-button-primary, .pool-action-protocol-link')) e.preventDefault();
+      if (e.target.closest('.cta-button-primary, .cta-button-protocol')) e.preventDefault();
     }, true);
     const install = () => {
       if (typeof Analytics === 'undefined' || !Analytics.track) { setTimeout(install, 0); return; }
@@ -210,8 +210,8 @@ async function main() {
 
     await test('url_direct: "Start Earning on <protocol>" link fires pool_click(source=protocol_link) with segmentation props, no navigation', async () => {
       await resetEvents(page);
-      const link = page.locator('.pool-action-protocol-link').first();
-      if ((await link.count()) === 0) throw new Error('expected .pool-action-protocol-link to render for a pool with a known protocol URL (lido)');
+      const link = page.locator('.cta-button-protocol').first();
+      if ((await link.count()) === 0) throw new Error('expected .cta-button-protocol to render for a pool with a known protocol URL (lido)');
       await link.click();
       const events = await pollEvents(page, (evs) => evs.some((e) => e.eventName === 'pool_click' && e.eventData.source === 'protocol_link'), 5000);
       const clicks = events.filter((e) => e.eventName === 'pool_click' && e.eventData.source === 'protocol_link');
@@ -252,8 +252,8 @@ async function main() {
 
     await test('card_click: "Start Earning on <protocol>" link fires pool_click(source=protocol_link) with segmentation props, no navigation', async () => {
       await resetEvents(page);
-      const link = page.locator('.pool-action-protocol-link').first();
-      if ((await link.count()) === 0) throw new Error('expected .pool-action-protocol-link to render for a pool with a known protocol URL (aave-v3)');
+      const link = page.locator('.cta-button-protocol').first();
+      if ((await link.count()) === 0) throw new Error('expected .cta-button-protocol to render for a pool with a known protocol URL (aave-v3)');
       await link.click();
       const events = await pollEvents(page, (evs) => evs.some((e) => e.eventName === 'pool_click' && e.eventData.source === 'protocol_link'), 5000);
       const clicks = events.filter((e) => e.eventName === 'pool_click' && e.eventData.source === 'protocol_link');
