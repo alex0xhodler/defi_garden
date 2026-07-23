@@ -511,7 +511,7 @@ function PoolDetail({
 
           // Secondary — protocol link (text only)
           protocolUrlWithRef && React.createElement('button', {
-            className: 'pool-action-protocol-link',
+            className: 'cta-button-protocol',
             onClick: () => {
               if (typeof Analytics !== 'undefined') {
                 Analytics.trackPoolClick(pool, 'protocol_link');
