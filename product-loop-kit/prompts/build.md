@@ -33,7 +33,12 @@ Invoke the `verifier` subagent with: the spec path, the branch name, the notes f
 - BEFORE merging, write the explainer to `product-loop-kit/specs/<item-id>-pr.md`: HIGH tier = full walkthrough (goal → intuition → what changed and why, diff in reading order, deviations from spec) ending with a 5-question quiz (answers at the bottom, base64). LOW tier = short explainer, same file.
 - Note `auto-merged` + tier in the log. If the merge touches render paths and the smoke gate (backlog 003) hasn't shipped, append `needs human visual spot-check` to the log line.
 
-## 6. Close out
+## 6. Compound — codify a reusable playbook (only if this was a non-trivial investigation)
+The compound step: each unit of work should make the next one easier. If this item involved a non-trivial **investigation** — a bug root-caused, a signal classified, a "is-this-a-bug-or-expected" judgment, an audit of where something is emitted — write or UPDATE a playbook so the next occurrence follows a checklist instead of re-deriving it. Skip for routine feature work (the spec already captures that).
+- Write/update `product-loop-kit/playbooks/<topic>.md` in the format from `playbooks/README.md` (When / Answer-in-one-line / Steps with exact file:line + decision rule / Resolution / Traps / Provenance). If a playbook for the topic exists, UPDATE it — never duplicate.
+- Keep it a checklist, not an essay. This is additive docs — it lands in the same commit/PR as the item.
+
+## 7. Close out
 - BACKLOG.md: item → SHIPPED (or IN_REVIEW / PARKED / BLOCKED) with measurement-window end date for growth items.
-- Append to `product-loop-kit/LOG.md`: `date | build | item-id | attempts | outcome | risk tier | est. cost`.
+- Append to `product-loop-kit/LOG.md`: `date | build | item-id | attempts | outcome | risk tier | est. cost`. Note `+playbook: <topic>` if step 6 produced one.
 - Exit. Do not pick up another item.

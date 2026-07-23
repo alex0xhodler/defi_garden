@@ -1,0 +1,36 @@
+# Playbooks — the compound step
+
+> Idea borrowed from Every's compound-engineering plugin (2026-07-22): *"each unit of work should make
+> the next one easier."* Our loop already plans → builds → verifies → learns; this is the missing piece —
+> **codify a non-trivial investigation ONCE so the next occurrence follows a checklist instead of
+> re-deriving it.**
+
+## What a playbook is
+A short, reusable **how-to for a recurring investigation** — not a spec (that's per-item) and not an
+experiment result (that's `LEARNINGS.md`). A playbook answers *"when I see X again, how do I diagnose /
+classify / fix it?"* with the exact files, functions, and decision rules, so a future heartbeat or build
+tick can just follow it.
+
+## When to write or update one (the compound trigger)
+At the END of any non-trivial **investigation** — a bug root-caused, a signal classified, a
+"is-this-a-bug-or-expected" judgment, an audit of where something is emitted. NOT for routine feature
+work (that's just a spec). If a playbook for the topic already exists, **update it** — never duplicate.
+Both `prompts/build.md` (step 6) and `prompts/heartbeat.md` carry this rule.
+
+## Format (keep it a checklist, not an essay)
+```
+# <topic> — playbook
+When: <the trigger — what you're seeing that sent you here>
+Answer in one line: <the usual verdict, so a reader knows the likely outcome before digging>
+Steps:
+  1. Look at <file:line / function> for <what>
+  2. Decision rule: <if A → …, if B → …>
+Resolution: <what to do for each branch>
+Traps: <the gotchas that waste time>
+Provenance: <the LOG/spec entry this was distilled from>
+```
+
+## Current playbooks
+- `traffic-quality-classification.md` — real users vs crawler/bot traffic (distilled from every status read)
+- `gsc-noindex-triage.md` — GSC "Excluded by noindex" intentional vs regression (item 118)
+- `analytics-regression-triage.md` — "a Mixpanel property looks wrong/undefined" bug vs expected (item 120)

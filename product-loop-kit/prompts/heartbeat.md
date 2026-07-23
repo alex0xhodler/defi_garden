@@ -32,8 +32,11 @@ Stay inside the weekly theme unless something is on fire (guardrail metric breac
 - Close the loop on experiments: any item whose measurement window ended → write the result (moved / didn't / inconclusive + numbers) into `LEARNINGS.md` and mark the backlog item DONE or REVERT-CANDIDATE.
 - Write the report to `product-loop-kit/reports/YYYY-MM-DD.md`: 10 lines max — metric state, what changed, top 3 backlog items, experiment results, and any QUESTIONS FOR THE HUMAN.
 
+## 4b. Compound — codify a reusable playbook (only if this tick did a non-trivial investigation)
+Each unit of work should make the next one easier. If this heartbeat did a non-trivial **investigation** — classified traffic quality, triaged a signal anomaly, judged whether a metric is a bug vs expected — write or UPDATE a playbook so the next tick follows a checklist instead of re-deriving it (e.g. `playbooks/traffic-quality-classification.md` is the one you follow to classify a session count as real vs bot — read it BEFORE re-deriving that judgment, and refine it if you learned something new). Format + rules in `playbooks/README.md`; UPDATE an existing playbook rather than duplicate. Skip if the tick was routine (no investigation).
+
 ## Questions for the human
 Ask at most 3, and only where the answer changes what gets built (product intent, tradeoffs, things only they know). Check Standing Decisions in NORTH_STAR.md first — never ask a question that's already answered there.
 
 ## Exit
-Backlog updated, specs written, report saved. Append one line to `product-loop-kit/LOG.md`: `date | heartbeat | items added/updated | flags`. Do not start building anything.
+Backlog updated, specs written, report saved. Append one line to `product-loop-kit/LOG.md`: `date | heartbeat | items added/updated | flags`. Note `+playbook: <topic>` if step 4b produced one. Do not start building anything.
