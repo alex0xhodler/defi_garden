@@ -47,6 +47,9 @@ const DB_WINDOW_DAYS = 90;      // 110: days requested from the D1 /history endp
 const DB_FETCH_TIMEOUT_MS = 15000; // never hang CI on an unreachable endpoint
 const RISK_FREE_APY = 4.0;      // 117: disclosed risk-free benchmark (~US T-bill), configurable
 const SHARPE_MIN_POINTS = 8;    // 117: below this the rate-stability Sharpe is too noisy → null
+const SHARPE_MIN_STDEV = 0.05;  // 122: min apy stdev (pp) to score — below this the rate is flat and
+                                //      sd = float dust (~1e-16), which blew up (mean-RF)/sd to -9e14
+const SHARPE_ABS_MAX = 50;      // 122: cap |Sharpe| — beyond this it's noise (or anomalous), not shown
 
 // --- helpers ---------------------------------------------------------------
 
@@ -106,9 +109,15 @@ function computeKpis(pool, series) {
   // ones. Captures ONLY yield-rate volatility, NOT principal risk (IL/depeg/exploit/
   // TVL-flight) — never surface it as a "safety score". null when <8 points (too
   // noisy → "not enough history") or sd===0 (flat rate → Sharpe undefined, not ∞).
-  const apySharpe = (series.length >= SHARPE_MIN_POINTS && sd > 0)
-    ? round((mean - RISK_FREE_APY) / sd, 2)
-    : null;
+  // 122: a near-constant rate gives sd = floating-point dust (~1e-16), which passes a
+  // bare sd>0 guard and makes (mean-RF)/sd explode (SUSDS rendered -900,719,925,474,097.9).
+  // Require a MEANINGFUL move (sd >= SHARPE_MIN_STDEV) and keep only a sane magnitude —
+  // below the floor / beyond the cap the score is noise → null ("not enough variation").
+  let apySharpe = null;
+  if (series.length >= SHARPE_MIN_POINTS && sd >= SHARPE_MIN_STDEV) {
+    const s = round((mean - RISK_FREE_APY) / sd, 2);
+    if (Number.isFinite(s) && Math.abs(s) <= SHARPE_ABS_MAX) apySharpe = s;
+  }
   return {
     historyPoints: series.length,
     firstSeen: first.date,

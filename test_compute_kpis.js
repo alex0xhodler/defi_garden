@@ -129,6 +129,38 @@ test('computeKpis — apySharpe null when stdev is 0 even with ≥8 points (divi
   assert.strictEqual(kpis.apySharpe, null);
 });
 
+test('computeKpis — 122: NEAR-constant rate (float-dust stdev) → apySharpe null, NOT -9e14', () => {
+  // The real SUSDS bug: a flat 3.6% rate gives sd ≈ 1e-16 (not exactly 0), which passed
+  // the old `sd > 0` guard and blew (mean-RF)/sd up to -900,719,925,474,097.9. Now the
+  // SHARPE_MIN_STDEV floor catches it → null.
+  const series = Array.from({ length: 10 }, (_, i) => ({
+    date: '2026-07-' + String(i + 1).padStart(2, '0'),
+    apyTotal: 3.6 + (i % 2 === 0 ? 0 : 1e-13), // sub-epsilon jitter → sd ~1e-14, well under 0.05
+    tvlUsd: 1000
+  }));
+  const kpis = k.computeKpis({}, series);
+  assert.strictEqual(kpis.historyPoints, 10);
+  assert.strictEqual(kpis.apySharpe, null, 'flat rate → null, never an astronomical score');
+  assert.ok(kpis.apyStdev != null && kpis.apyStdev < 0.05, 'stdev is real but below the floor');
+});
+
+test('computeKpis — 122: |Sharpe| beyond SHARPE_ABS_MAX(50) → null (noise/anomalous)', () => {
+  // mean ~500, tiny-but-above-floor stdev 0.06 → (500-4)/0.06 ≈ 8266 → over the cap → null.
+  const series = [500, 500.06, 500, 500.06, 500, 500.06, 500, 500.06]
+    .map((a, i) => ({ date: '2026-07-' + String(i + 1).padStart(2, '0'), apyTotal: a, tvlUsd: 1000 }));
+  const kpis = k.computeKpis({}, series);
+  assert.strictEqual(kpis.apySharpe, null, 'absurd-magnitude Sharpe suppressed');
+});
+
+test('computeKpis — 122: stdev just above the floor still scores (not over-suppressed)', () => {
+  // stdev ~0.5 (meaningful move), mean 5 → (5-4)/0.5 = 2.0, a sane displayable Sharpe.
+  const series = [4.5, 5.5, 4.5, 5.5, 4.5, 5.5, 4.5, 5.5]
+    .map((a, i) => ({ date: '2026-07-' + String(i + 1).padStart(2, '0'), apyTotal: a, tvlUsd: 1000 }));
+  const kpis = k.computeKpis({}, series);
+  assert.strictEqual(kpis.apyMean, 5);
+  assert.strictEqual(kpis.apySharpe, 2, '(5-4)/0.5 = 2.0 — real variation still scores');
+});
+
 test('computeKpis — RISK_FREE_APY and SHARPE_MIN_POINTS are exported constants', () => {
   assert.strictEqual(k.RISK_FREE_APY, 4.0);
   assert.strictEqual(k.SHARPE_MIN_POINTS, 8);
