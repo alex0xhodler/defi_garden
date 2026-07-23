@@ -34,3 +34,4 @@ Provenance: <the LOG/spec entry this was distilled from>
 - `traffic-quality-classification.md` — real users vs crawler/bot traffic (distilled from every status read)
 - `gsc-noindex-triage.md` — GSC "Excluded by noindex" intentional vs regression (item 118)
 - `analytics-regression-triage.md` — "a Mixpanel property looks wrong/undefined" bug vs expected (item 120)
+- `product-audit.md` — drive the real app + find bug classes without traffic (the pre-traffic heartbeat mandate)
