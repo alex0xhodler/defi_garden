@@ -18,10 +18,13 @@ In `manual-goals` mode: there is no analytics signal. Read the human's goals fro
 
 Save the raw numbers snapshot to `product-loop-kit/signals/YYYY-MM-DD.md`. Diff against the previous snapshot: what moved, what's noise. Respect the minimum-sample rule in NORTH_STAR.md — do not act on noise; say "insufficient data" when it's insufficient.
 
+## 2b. Product audit — the pre-traffic primary job (when the funnel is unmeasurable)
+If traffic is below the minimum-sample threshold (no measurable funnel signal — the current reality), a metric-only tick has nothing to act on, and optimizing an unmeasurable funnel is premature (NORTH_STAR standing decision 2026-07-23). Do NOT no-op. Instead the tick's PRIMARY job is a **product audit**: follow `playbooks/product-audit.md` — drive the real rendered app across a rotating subset of surfaces (fixture-routed Playwright / the committed snapshot, since external HTTPS is sandbox-blocked) and find the bug classes that need NO traffic to find: broken/absurd numbers, dead-ends for valid queries, loading flashes, page/console errors, money/i18n format bugs, dead CTAs, responsive/dark breakage. These are exactly what the human keeps catching by hand (122/126/132/133…). Feed findings into §3/§4 as scored opportunities. The §2 metric read still runs — record the zero; a guardrail breach (e.g. an `error_occurred` spike) still outranks everything — it just no longer gates the tick to a no-op. When traffic becomes measurable, metric-triage resumes as primary and the audit drops to a rotating background check.
+
 ## 3. Produce opportunities (3–7, no more)
-Stay inside the weekly theme unless something is on fire (guardrail metric breached). For each opportunity:
-- Evidence: the specific numbers, verbatim
-- Hypothesis: why users drop here (state confidence: this is a guess vs. supported)
+Opportunities come from the metric signal (§2) OR the product audit (§2b) — whichever the tick has. Stay inside the weekly theme unless something is on fire (guardrail breached, or a P0 audit finding — a broken/absurd number or page error on a live surface outranks the theme). For each:
+- Evidence: the specific numbers verbatim (metric) OR the rendered repro — surface + what shows (audit)
+- Hypothesis: why users drop here / why it's broken (state confidence: this is a guess vs. supported)
 - Proposed change (smallest version that tests the hypothesis)
 - Expected impact on north star / effort (S,M,L) / risk tier per NORTH_STAR policy
 - Score = impact × confidence ÷ effort
