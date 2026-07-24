@@ -1355,22 +1355,7 @@ function PoolDetail({
             return t
               ? t('rateTrackRecordTracked', hp)
               : `We've been tracking this pool's rate for ${hp} days. Watching how a rate holds up over time is one honest way to judge it.`;
-          })(),
-          // Rate-stability Sharpe annotation (117.1) — one calm extra line under
-          // the stdev sentence, reusing the parent note's neuro surface/color/
-          // font (inline top-gap only, zero new CSS). Present only when 087's
-          // kpis.apySharpe is a finite, sane-magnitude number (null for <8 history
-          // points / flat rate). 122: gate on finite AND |value| <= 50 so a stale
-          // pre-fix snapshot value (e.g. -900,719,925,474,097.9 from float-dust
-          // stdev) is never rendered even before CI regenerates the snapshot.
-          (typeof pool.kpis.apySharpe === 'number' && Number.isFinite(pool.kpis.apySharpe)
-            && Math.abs(pool.kpis.apySharpe) <= 50) && React.createElement('div', {
-            style: { marginTop: '6px' }
-          },
-            t
-              ? t('rateSharpeNote', _formatNum(pool.kpis.apySharpe))
-              : `Rate-stability score ${_formatNum(pool.kpis.apySharpe)} (vs a ~4% risk-free rate): how steady this pool's yield has been relative to how much it pays — not a measure of principal safety.`
-          )
+          })()
         ),
 
         // Rate-momentum honesty note (103) — full-width, calm. Reuses 071's
