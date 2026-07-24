@@ -36,12 +36,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/avalanche</loc>
+    <loc>https://www.defi.garden/chains/hyperliquid-l1</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/hyperliquid-l1</loc>
+    <loc>https://www.defi.garden/chains/avalanche</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -161,17 +161,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stacks</loc>
-    <lastmod>2026-07-24</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/starknet</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/mezo</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/stacks</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -376,12 +376,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/scroll</loc>
+    <loc>https://www.defi.garden/chains/kusama</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/kusama</loc>
+    <loc>https://www.defi.garden/chains/scroll</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
