@@ -981,7 +981,13 @@
     min-width: auto !important;
     align-self: center;
   }
-  
+
+  .pool-action-card {
+    min-width: auto !important;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .cta-button-primary {
     width: 100%;
     justify-content: center;
