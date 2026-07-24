@@ -66,7 +66,60 @@ var PROTOCOL_URLS = {
   "traderjoe": "https://traderjoexyz.com",
   "bancor": "https://bancor.network",
   "olympus": "https://olympusdao.finance",
-  "stakewise": "https://stakewise.io"
+  "stakewise": "https://stakewise.io",
+  // Top-TVL static fallbacks (item 138) — keep the "Start Earning on <protocol>"
+  // north-star CTA rendering even when the dynamic api.llama.fi/protocols fetch
+  // fails or races (ad-blocker, outage, slow network) and pool.url is absent
+  // (the committed snapshot carries no url). URLs sourced from the live
+  // DefiLlama protocols API (the same source the dynamic fetch reads), with
+  // affiliate query params stripped so getProtocolUrlWithRef adds ours cleanly.
+  "sky-lending": "https://app.sky.money",
+  "sky": "https://app.sky.money",
+  "spark-savings": "https://spark.fi",
+  "blackrock-buidl": "https://securitize.io",
+  "justlend-v1": "https://justlend.org",
+  "justlend": "https://justlend.org",
+  "circle-usyc": "https://www.circle.com/usyc",
+  "ondo-yield-assets": "https://ondo.finance",
+  "ondo": "https://ondo.finance",
+  "centrifuge-protocol": "https://centrifuge.io",
+  "centrifuge": "https://centrifuge.io",
+  "kamino-lend": "https://kamino.com",
+  "kamino": "https://kamino.com",
+  "venus-core-pool": "https://app.venus.io",
+  "venus": "https://app.venus.io",
+  "fluid-lending": "https://fluid.io",
+  "fluid-dex": "https://fluid.io",
+  "fluid": "https://fluid.io",
+  "kelp": "https://kelpdao.xyz",
+  "jupiter-lend": "https://jup.ag",
+  "jupiter-staked-sol": "https://jup.ag",
+  "concrete": "https://app.concrete.xyz",
+  "kinetiq-khype": "https://kinetiq.xyz",
+  "binance-staked-sol": "https://www.binance.com",
+  "invesco-ustb": "https://superstate.com",
+  "lombard-lbtc": "https://www.lombard.finance",
+  "liquid-collective": "https://liquidcollective.io",
+  "lista-liquid-staking": "https://lista.org",
+  "lista-lending": "https://lista.org",
+  "usual-usd0": "https://usual.money",
+  "usual": "https://usual.money",
+  "dolomite": "https://dolomite.io",
+  "meth-protocol": "https://www.methprotocol.xyz",
+  "hyperlend-pooled": "https://app.hyperlend.finance",
+  "hyperlend": "https://app.hyperlend.finance",
+  "solv-basis-trading": "https://solv.finance",
+  "raydium-amm": "https://raydium.io",
+  "raydium": "https://raydium.io",
+  "usd-ai": "https://usd.ai",
+  "multipli.fi": "https://app.multipli.fi",
+  "beets-dex-v3": "https://beets.fi",
+  "beets": "https://beets.fi",
+  "stakewise-v2": "https://stakewise.io",
+  "onre": "https://app.onre.finance",
+  "pareto-credit": "https://pareto.credit",
+  "midas-rwa": "https://midas.app",
+  "midas": "https://midas.app"
 };
 
 // Nav category tabs (data-driven; key = internal category, null = "All").
