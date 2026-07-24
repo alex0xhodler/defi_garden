@@ -238,7 +238,12 @@ const Analytics = {
       // CTA placement (backlog 125): 'hero' | 'repeat_footer' — additive
       // segmentation so the north-star `source` query is unchanged while a
       // secondary breakdown reveals how much the repeat footer CTA drives.
-      ctaPlacement: context.ctaPlacement || null
+      ctaPlacement: context.ctaPlacement || null,
+      // Plan-checkout archetype (backlog 139, bet A): 'growth' | 'target' for
+      // the planner's "Start growing on <project>" CTA (source=plan_checkout).
+      // Additive only, same pattern as ctaPlacement above — null for every
+      // pre-existing pool_click emitter, north-star `source` filter unchanged.
+      archetype: context.archetype || null
     });
   },
 

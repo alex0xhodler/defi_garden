@@ -2705,12 +2705,26 @@
     // Email validation for disable logic
     var emailValid = /^\S+@\S+\.\S+$/.test(waitlistEmail);
 
+    // Bet A (backlog 139): the card waitlist's copy ("your garden's yield
+    // pays your subscription automatically") only makes sense for the
+    // SUBSCRIPTION archetype — the card IS the subscription-paying product.
+    // For TARGET/GROWTH the modal is demoted to a secondary "get early
+    // access to what's next" ask (see checkoutPanelElement below) and needs
+    // its own honest copy that never claims the card pays anything for a
+    // one-time purchase or a decades-out goal. Title/aria-label/benefits all
+    // branch the same way; SUBSCRIPTION keeps the exact prior call (pitch
+    // A/B/C variant included) — zero behavioral change for that archetype.
+    var waitlistTitleForModal = archetype === 'subscription' ? t(pitchKey('waitlistTitle')) : t('waitlistTitleEarlyAccess');
+    var waitlistBenefitsForModal = archetype === 'subscription'
+      ? t(pitchKey('waitlistBenefits'), archetype)
+      : t('waitlistBenefitsEarlyAccess');
+
     var waitlistModal = waitlistOpen ? e('div', {
       className: 'gp-waitlist-backdrop',
       onClick: function (ev) { if (ev.target === ev.currentTarget) setWaitlistOpen(false); },
       role: 'dialog',
       'aria-modal': 'true',
-      'aria-label': t(pitchKey('waitlistTitle'))
+      'aria-label': waitlistTitleForModal
     },
       e('div', { className: 'gp-waitlist-card' },
         // Close button
@@ -2725,11 +2739,11 @@
           // --- Step 1: benefits + email ---
           ? e('div', { className: 'gp-waitlist-body' },
               e('div', { className: 'gp-waitlist-step-row' },
-                e('h2', { className: 'gp-waitlist-title' }, t(pitchKey('waitlistTitle'))),
+                e('h2', { className: 'gp-waitlist-title' }, waitlistTitleForModal),
                 e('span', { className: 'gp-waitlist-step' }, t('waitlistStepLabel', 1))
               ),
-              e('p', { className: 'gp-waitlist-benefits' }, t(pitchKey('waitlistBenefits'), archetype)),
-              currentMixStats.count > 0
+              e('p', { className: 'gp-waitlist-benefits' }, waitlistBenefitsForModal),
+              archetype === 'subscription' && currentMixStats.count > 0
                 ? e('p', { className: 'gp-waitlist-garden-line' },
                     t('waitlistGarden', waitlistLabelStr, formatUsd(currentMixStats.combinedMonthly))
                   )
@@ -2843,6 +2857,37 @@
       ];
     }
 
+    function openCheckoutWaitlist() {
+      setWaitlistStep(1);
+      setWaitlistStatus('idle');
+      setWaitlistOpen(true);
+      waitlistEmailEnteredRef.current = false;
+      if (typeof Analytics !== 'undefined') {
+        Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype, source: source, pitchVariant: PITCH_VARIANT });
+      }
+    }
+
+    // Bet A (backlog 139, docs/strategy-2026-07-23-pretraffic-bets.md §3):
+    // the card waitlist is the right ending ONLY for SUBSCRIPTION (the card
+    // pays a recurring bill from yield — it IS the business model, 2026-07-12
+    // standing decision, unchanged here). For TARGET/GROWTH the terminal CTA
+    // was previously the SAME waitlist with subscription-only copy — goal-
+    // incoherent for a retirement/iPhone/sneakers plan. Route those instead
+    // to the plan's top curated pool (spec v2 §4.4, never implemented until
+    // now) — the same pool data the Engine-room cards below already show
+    // (curated[0], highest-preference/APY after trust rails), deep-linking
+    // into PoolDetail, which is also the north-star CTA surface. Falls back
+    // to the waitlist-primary layout whenever no pool is curated yet
+    // (loading/empty) — never a dead pool link.
+    var checkoutTopPool = (curated && curated.length > 0) ? curated[0] : null;
+    var checkoutPoolPrimary = archetype !== 'subscription' && !!checkoutTopPool;
+
+    function handleCheckoutPoolClick() {
+      if (typeof Analytics !== 'undefined' && checkoutTopPool) {
+        Analytics.trackPoolClick(checkoutTopPool, 'plan_checkout', { archetype: archetype });
+      }
+    }
+
     var checkoutPanelElement = e('div', { className: 'gp-checkout-panel gp-animate-in' },
       e('div', { className: 'gp-checkout-service' },
         e('span', { className: 'gp-checkout-svc-emoji' }, chkServiceEmoji),
@@ -2872,20 +2917,28 @@
           );
         })
       ),
-      e('button', {
-        type: 'button',
-        className: 'gp-primary-cta gp-checkout-cta',
-        onClick: function () {
-          setWaitlistStep(1);
-          setWaitlistStatus('idle');
-          setWaitlistOpen(true);
-          waitlistEmailEnteredRef.current = false;
-          if (typeof Analytics !== 'undefined') {
-            Analytics.trackWaitlistOpened({ goal: goal, persona: persona, archetype: archetype, source: source, pitchVariant: PITCH_VARIANT });
-          }
-        }
-      }, t('ctaWaitlist')),
-      e('p', { className: 'gp-cta-microcopy' }, t('ctaWaitlistMicro')),
+      checkoutPoolPrimary
+        ? e('a', {
+            className: 'gp-primary-cta gp-checkout-cta',
+            href: '/?pool=' + encodeURIComponent(checkoutTopPool.pool),
+            rel: 'noopener',
+            onClick: handleCheckoutPoolClick
+          }, t('startGrowingCta', checkoutTopPool.project))
+        : e('button', {
+            type: 'button',
+            className: 'gp-primary-cta gp-checkout-cta',
+            onClick: openCheckoutWaitlist
+          }, t('ctaWaitlist')),
+      e('p', { className: 'gp-cta-microcopy' },
+        checkoutPoolPrimary ? t('startGrowingCtaMicro') : t('ctaWaitlistMicro')
+      ),
+      checkoutPoolPrimary
+        ? e('button', {
+            type: 'button',
+            className: 'gp-share-textlink gp-checkout-waitlist-secondary',
+            onClick: openCheckoutWaitlist
+          }, t('ctaWaitlistSecondary'))
+        : null,
       e('div', { className: 'gp-checkout-trust' },
         e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustSelfCustody')),
         e('span', { className: 'gp-trust-pill' }, '✓ ' + t('trustYourKeys')),
