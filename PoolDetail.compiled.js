@@ -691,9 +691,7 @@ function PoolDetail({
       color: 'var(--color-text-secondary)',
       marginTop: '2px'
     }
-  }, t ? t('quickEstimate', investmentAmount, investmentAmount * totalApy / 365 / 100) : `Quick estimate for $${Number(investmentAmount || 0).toLocaleString('en-US')}: $${Number(investmentAmount * totalApy / 365 / 100 || 0).toLocaleString('en-US', {
-    maximumFractionDigits: 2
-  })}/day`))), React.createElement('div', {
+  }, t ? t('calcSubPrompt') : 'See your daily, weekly & monthly returns'))), React.createElement('div', {
     className: 'calculator-toggle',
     style: {
       width: '32px',
