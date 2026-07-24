@@ -497,7 +497,8 @@ function PoolDetail({
                 Analytics.trackPoolClick(pool, 'garden_cta', {
                   investmentAmount: Math.round(investmentAmount),
                   projectionYears: PROJECTION_YEARS,
-                  ctaVariant: showConcreteCta ? 'concrete' : 'generic'
+                  ctaVariant: showConcreteCta ? 'concrete' : 'generic',
+                  ctaPlacement: 'hero'
                 });
               }
             }
@@ -514,7 +515,7 @@ function PoolDetail({
             className: 'cta-button-protocol',
             onClick: () => {
               if (typeof Analytics !== 'undefined') {
-                Analytics.trackPoolClick(pool, 'protocol_link');
+                Analytics.trackPoolClick(pool, 'protocol_link', { ctaPlacement: 'hero' });
               }
               window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
             }
@@ -1536,6 +1537,66 @@ function PoolDetail({
             })
           )
         )
+      )
+    ),
+
+    // Repeat CTA block (125) — mirrors the hero action card's two north-star
+    // CTAs so a reader who has scrolled to the bottom (past Pool Information)
+    // can convert without scrolling back up. Reuses .pool-action-card + the
+    // hero button/hint classes verbatim (zero new CSS); only additive
+    // instrumentation via ctaPlacement:'repeat_footer'. Inherits showConcreteCta
+    // (!isAnomalous) so no anomalous projection ever leaks into this CTA.
+    React.createElement('div', {
+      className: 'pool-action-card',
+      style: { maxWidth: '420px', margin: '32px auto 0' }
+    },
+      React.createElement('p', {
+        style: {
+          fontSize: 'var(--font-size-base)',
+          fontWeight: 'var(--font-weight-semibold)',
+          color: 'var(--color-text)',
+          textAlign: 'center',
+          margin: 0
+        }
+      }, t ? t('repeatCtaHeading') : 'Ready to start this garden?'),
+
+      // Primary CTA — garden this pool (repeat)
+      React.createElement('a', {
+        className: 'cta-button-primary',
+        href: gardenThisPoolHref,
+        onClick: () => {
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackPoolClick(pool, 'garden_cta', {
+              investmentAmount: Math.round(investmentAmount),
+              projectionYears: PROJECTION_YEARS,
+              ctaVariant: showConcreteCta ? 'concrete' : 'generic',
+              ctaPlacement: 'repeat_footer'
+            });
+          }
+        }
+      }, showConcreteCta
+        ? (t ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS)
+             : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y`)
+        : (t ? t('gardenThisPoolCta') : 'Garden this pool →')),
+      React.createElement('p', { className: 'pool-action-hint' },
+        t ? t('plannerCtaHint') : 'No wallet needed'
+      ),
+
+      // Secondary — protocol link (repeat)
+      protocolUrlWithRef && React.createElement('button', {
+        className: 'cta-button-protocol',
+        onClick: () => {
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackPoolClick(pool, 'protocol_link', { ctaPlacement: 'repeat_footer' });
+          }
+          window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
+        }
+      },
+        t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`,
+        ' ↗'
+      ),
+      protocolUrlWithRef && React.createElement('p', { className: 'pool-action-hint pool-action-hint--muted' },
+        t ? t('opensProtocol') : 'Opens protocol · Wallet required'
       )
     ),
   );
