@@ -234,7 +234,11 @@ const Analytics = {
       time_spent_viewing_ms: context.viewStartTime ? Date.now() - context.viewStartTime : null,
       investment_amount_set: context.investmentAmount || null,
       yield_calculated: !!context.yieldCalculated,
-      source_position: context.position || -1
+      source_position: context.position || -1,
+      // CTA placement (backlog 125): 'hero' | 'repeat_footer' — additive
+      // segmentation so the north-star `source` query is unchanged while a
+      // secondary breakdown reveals how much the repeat footer CTA drives.
+      ctaPlacement: context.ctaPlacement || null
     });
   },
 
