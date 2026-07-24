@@ -1,8 +1,12 @@
-/* Playwright behavior gate for spec 117.1 (pool-detail rate-stability Sharpe
-   annotation): drives the REAL rendered pool-detail UI (static server +
-   chromium) and asserts on the rendered DOM — never on a return value. The
-   Sharpe line renders as ONE extra calm line INSIDE the 088.1
-   .rate-track-record-note, present only when kpis.apySharpe is a finite number.
+/* Playwright behavior gate for spec 127 (pool-detail rate-stability copy): the
+   raw-Sharpe jargon line added by 117.1 was REMOVED for the cautious-saver ICP
+   — a bare Sharpe-like score, a "risk-free rate" benchmark, and a risk-adjusted
+   framing read as jargon (not trust) on the north-star conversion surface. This
+   test now GUARDS ITS ABSENCE: it drives the REAL rendered pool-detail UI
+   (static server + chromium) and asserts on the rendered DOM — never on a
+   return value. The parent 088.1 .rate-track-record-note + its kept first
+   sentence still render; the Sharpe annotation no longer renders even when
+   kpis.apySharpe is a finite number.
 
    Fixture-routed like test_kpi_track_record.js: browser-originated HTTPS is
    proxy-blocked in-sandbox (standing decision 2026-07-12), so the
@@ -38,7 +42,8 @@ function makePool(overrides) {
   }, overrides);
 }
 
-// S1 — apySharpe a finite number + hp:30 (≥8) → Sharpe annotation PRESENT.
+// S1 — apySharpe a finite number + hp:30 (≥8): parent note renders (steady
+// first sentence) but the dropped Sharpe annotation is ABSENT (item 127).
 const SHARPE_POOL = makePool({
   pool: 'sharpe-pool', apyBase: 6, apyMean30d: 6,
   kpis: { historyPoints: 30, firstSeen: '2026-06-14', apyMomentum: 0.1, apyStdev: 0.4, tvlTrend: 0.02, apySharpe: 0.5 }
@@ -129,14 +134,14 @@ async function main() {
       status: 200, contentType: 'application/json', body: FIXTURE_RESPONSE
     }));
 
-    // S1 — finite apySharpe: annotation present with benchmark + caveat, no raw key.
-    await test('S1 apySharpe:0.5 (hp:30) renders Sharpe annotation w/ "4%" benchmark + principal-safety caveat', async () => {
+    // S1 — finite apySharpe: parent note + kept first sentence render, but the
+    // dropped Sharpe jargon line is ABSENT (no raw score / benchmark / caveat).
+    await test('S1 apySharpe:0.5 (hp:30) renders parent note w/ "Steady so far" first sentence but NO Sharpe annotation', async () => {
       const { present, text } = await renderPool(page, SHARPE_POOL.pool);
       if (!present) throw new Error('expected .rate-track-record-note to be present');
-      if (!text.includes('Rate-stability score')) throw new Error(`expected Sharpe annotation, got: ${text}`);
-      if (!text.includes('0.5')) throw new Error(`expected formatted value "0.5", got: ${text}`);
-      if (!text.includes('4%')) throw new Error(`expected "4%" benchmark, got: ${text}`);
-      if (!text.includes('not a measure of principal safety')) throw new Error(`expected principal-safety caveat, got: ${text}`);
+      if (!text.includes('Steady so far')) throw new Error(`expected kept first sentence "Steady so far", got: ${text}`);
+      if (text.includes('Rate-stability score')) throw new Error(`expected NO dropped Sharpe line, got: ${text}`);
+      if (text.includes('not a measure of principal safety')) throw new Error(`expected NO principal-safety caveat, got: ${text}`);
       if (text.includes('rateSharpeNote')) throw new Error(`raw translation key leaked: ${text}`);
     });
 
@@ -148,12 +153,13 @@ async function main() {
       if (text.includes('rateSharpeNote')) throw new Error(`raw translation key leaked: ${text}`);
     });
 
-    // S3 — Korean copy on the finite-Sharpe fixture: KO caveat present, no raw key.
-    await test('S3 ?lang=ko finite apySharpe renders Korean Sharpe annotation', async () => {
+    // S3 — Korean copy on the finite-Sharpe fixture: kept KO first sentence
+    // renders, but the dropped Korean Sharpe line is ABSENT.
+    await test('S3 ?lang=ko finite apySharpe renders Korean parent note but NO Sharpe annotation', async () => {
       const { present, text } = await renderPool(page, SHARPE_POOL.pool, 'ko');
       if (!present) throw new Error('expected .rate-track-record-note to be present in ko');
-      if (!text.includes('이율 안정성 점수')) throw new Error(`expected Korean Sharpe substring, got: ${text}`);
-      if (!text.includes('원금 안전성을 나타내는 지표가 아닙니다')) throw new Error(`expected Korean principal-safety caveat, got: ${text}`);
+      if (!text.includes('지금까지 안정적입니다')) throw new Error(`expected kept Korean first sentence, got: ${text}`);
+      if (text.includes('이율 안정성 점수')) throw new Error(`expected NO Korean Sharpe substring, got: ${text}`);
       if (text.includes('rateSharpeNote')) throw new Error(`raw translation key leaked: ${text}`);
     });
 
