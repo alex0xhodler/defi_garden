@@ -9,13 +9,6 @@ var {
 // Import translation system (script tag will load translations.js before app.js)
 // translations, formatKoreanCurrency, detectUserLanguage, createTranslationFunction are available globally
 
-// Pool type categorization
-var LENDING_PROTOCOLS = ['aave', 'aave-v2', 'aave-v3', 'compound', 'compound-v2', 'compound-v3', 'morpho', 'morpho-blue', 'spark', 'sparklend', 'maple', 'euler', 'radiant', 'iron-bank', 'cream', 'benqi-lending', 'venus', 'tectonic', 'moonwell', 'strike', 'granary', 'pac-finance', 'dforce', 'annex'];
-var DEX_LP_PROTOCOLS = ['uniswap', 'uniswap-v2', 'uniswap-v3', 'curve', 'curve-dex', 'balancer', 'balancer-v2', 'pancakeswap', 'pancakeswap-v2', 'pancakeswap-v3', 'sushiswap', 'quickswap', 'traderjoe', 'spookyswap', 'spiritswap', 'honeyswap', 'dfyn', 'viperswap', 'pangolin', 'lydia', 'defiswap', 'varen', 'levinswap', 'aerodrome', 'aerodrome-slipstream', 'velodrome', 'solidly', 'bancor', 'kyberswap', 'dodoex', '1inch', 'osmosis', 'raydium', 'orca'];
-var STAKING_PROTOCOLS = ['lido', 'rocket-pool', 'rocketpool', 'ether.fi', 'ether.fi-stake', 'stakewise', 'jito', 'jito-liquid-staking', 'marinade', 'binance-staked-eth', 'coinbase-wrapped-staked-eth', 'frax', 'frax-ether', 'benqi', 'benqi-staked-avax', 'staked-frax-ether', 'ankr', 'pstake', 'stader', 'chorus-one', 'figment'];
-var YIELD_DERIVATIVES_PROTOCOLS = ['pendle', 'spectra', 'spectra-v2', 'spectra-metavaults', 'termmax', 'napier', 'sense', 'notional', 'element'];
-var RWA_PROTOCOLS = ['ondo', 'centrifuge', 'goldfinch', 'openeden', 'matrixdock', 'midas-rwa', 'midas', 'usual', 'credix', 'clearpool', 'maple', 'superstate', 'franklin', 'backed', 'hashnote', 'mountain-protocol'];
-
 // Enhanced Protocol URL mapping with more protocols
 var PROTOCOL_URLS = {
   "lido": "https://lido.fi",
@@ -191,39 +184,11 @@ var navIcon = key => React.createElement('svg', {
   d: NAV_ICONS[key]
 }));
 
-// Pool type classification function
-var getPoolType = pool => {
-  if (!pool.project) return 'Yield Farming';
-  var projectName = pool.project.toLowerCase().replace(/\s+/g, '-');
-
-  // Protocol-native RWA / yield-derivative classification wins over the generic
-  // lending/dex/staking lists (honest, protocol-derived — spec 091).
-  if (RWA_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
-    return 'RWA';
-  }
-  if (YIELD_DERIVATIVES_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
-    return 'Yield Derivatives';
-  }
-
-  // Check for lending pool indicators
-  if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
-    return 'Lending';
-  }
-
-  // Check against protocol categories
-  if (LENDING_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
-    return 'Lending';
-  }
-  if (DEX_LP_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
-    return 'LP/DEX';
-  }
-  if (STAKING_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
-    return 'Staking';
-  }
-
-  // Default to yield farming for unmatched pools
-  return 'Yield Farming';
-};
+// Pool type classification function — single source of truth now lives in
+// PoolDetail.js as getPoolTypeShared (spec 130). PoolDetail.compiled.min.js
+// runs before app.compiled.min.js (home.html script order), so the global is
+// defined by the time this delegates to it.
+var getPoolType = pool => getPoolTypeShared(pool);
 
 // Custom hook for debouncing
 function useDebounce(value, delay) {

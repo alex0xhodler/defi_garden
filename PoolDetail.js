@@ -1,6 +1,86 @@
 // Standalone PoolDetail Component - Full Version
 const { useState, useEffect } = React;
 
+// Pool type categorization — SINGLE SOURCE OF TRUTH (spec 130).
+// These list constants + getPoolTypeShared live here (PoolDetail.js loads
+// BEFORE app.js per home.html's script order, so these top-level declarations
+// are globals by the time app.js runs). app.js's getPoolType delegates to
+// getPoolTypeShared — do not fork a second copy of this classifier.
+const LENDING_PROTOCOLS = [
+  'aave', 'aave-v2', 'aave-v3', 'compound', 'compound-v2', 'compound-v3',
+  'morpho', 'morpho-blue', 'spark', 'sparklend', 'maple', 'euler', 'radiant',
+  'iron-bank', 'cream', 'benqi-lending', 'venus', 'tectonic', 'moonwell',
+  'strike', 'granary', 'pac-finance', 'dforce', 'annex', 'sky-lending'
+];
+
+const DEX_LP_PROTOCOLS = [
+  'uniswap', 'uniswap-v2', 'uniswap-v3', 'curve', 'curve-dex', 'balancer',
+  'balancer-v2', 'pancakeswap', 'pancakeswap-v2', 'pancakeswap-v3', 'sushiswap',
+  'quickswap', 'traderjoe', 'spookyswap', 'spiritswap', 'honeyswap', 'dfyn',
+  'viperswap', 'pangolin', 'lydia', 'defiswap', 'varen', 'levinswap',
+  'aerodrome', 'aerodrome-slipstream', 'velodrome', 'solidly', 'bancor',
+  'kyberswap', 'dodoex', '1inch', 'osmosis', 'raydium', 'orca'
+];
+
+const STAKING_PROTOCOLS = [
+  'lido', 'rocket-pool', 'rocketpool', 'ether.fi', 'ether.fi-stake', 'stakewise',
+  'jito', 'jito-liquid-staking', 'marinade', 'binance-staked-eth', 'coinbase-wrapped-staked-eth',
+  'frax', 'frax-ether', 'benqi', 'benqi-staked-avax', 'staked-frax-ether',
+  'ankr', 'pstake', 'stader', 'chorus-one', 'figment'
+];
+
+const YIELD_DERIVATIVES_PROTOCOLS = [
+  'pendle', 'spectra', 'spectra-v2', 'spectra-metavaults', 'termmax', 'napier',
+  'sense', 'notional', 'element'
+];
+
+const RWA_PROTOCOLS = [
+  'ondo', 'centrifuge', 'goldfinch', 'openeden', 'matrixdock', 'midas-rwa',
+  'midas', 'usual', 'credix', 'clearpool', 'maple', 'superstate', 'franklin',
+  'backed', 'hashnote', 'mountain-protocol'
+];
+
+// Shared pool-type classifier (spec 130) — the complete, single-source logic
+// (RWA -> Yield Derivatives -> poolMeta-lending -> LENDING -> DEX -> STAKING ->
+// default Yield Farming), used by BOTH the analytics grid (app.js delegates)
+// and this pool-detail hero badge.
+function getPoolTypeShared(pool) {
+  if (!pool.project) return 'Yield Farming';
+
+  const projectName = pool.project.toLowerCase().replace(/\s+/g, '-');
+
+  // Protocol-native RWA / yield-derivative classification wins over the generic
+  // lending/dex/staking lists (honest, protocol-derived — spec 091).
+  if (RWA_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'RWA';
+  }
+
+  if (YIELD_DERIVATIVES_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'Yield Derivatives';
+  }
+
+  // Check for lending pool indicators
+  if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
+    return 'Lending';
+  }
+
+  // Check against protocol categories
+  if (LENDING_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'Lending';
+  }
+
+  if (DEX_LP_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'LP/DEX';
+  }
+
+  if (STAKING_PROTOCOLS.some(protocol => projectName.includes(protocol))) {
+    return 'Staking';
+  }
+
+  // Default to yield farming for unmatched pools
+  return 'Yield Farming';
+}
+
 function PoolDetail({
   pool,
   onBack,
@@ -69,28 +149,9 @@ function PoolDetail({
   const protocolUrl = getProtocolUrl(pool);
   const protocolUrlWithRef = getProtocolUrlWithRef(pool);
 
-  // Determine pool type (must be defined before getRiskAssessment)
-  const getPoolType = () => {
-    if (!pool.project) return 'Yield Farming';
-
-    const projectName = pool.project.toLowerCase();
-
-    if (pool.poolMeta && pool.poolMeta.toLowerCase().includes('lending')) {
-      return 'Lending';
-    }
-
-    const lendingProtocols = ['aave', 'compound', 'morpho', 'spark', 'maple', 'euler', 'radiant'];
-    const dexProtocols = ['uniswap', 'curve', 'balancer', 'pancakeswap', 'sushiswap'];
-    const stakingProtocols = ['lido', 'rocket-pool', 'ether.fi', 'jito', 'marinade'];
-
-    if (lendingProtocols.some(p => projectName.includes(p))) return 'Lending';
-    if (dexProtocols.some(p => projectName.includes(p))) return 'LP/DEX';
-    if (stakingProtocols.some(p => projectName.includes(p))) return 'Staking';
-
-    return 'Yield Farming';
-  };
-
-  const poolType = getPoolType();
+  // Determine pool type (must be defined before getRiskAssessment) — single
+  // shared classifier (spec 130); same categories as the analytics grid.
+  const poolType = getPoolTypeShared(pool);
 
   const APY_SANITY_LIMIT_LOCAL = 1000; // mirror of app.js constant
 
