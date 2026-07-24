@@ -36,12 +36,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/hyperliquid-l1</loc>
+    <loc>https://www.defi.garden/ko/chains/avalanche</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/avalanche</loc>
+    <loc>https://www.defi.garden/ko/chains/hyperliquid-l1</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -166,12 +166,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/stacks</loc>
+    <loc>https://www.defi.garden/ko/chains/mezo</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/mezo</loc>
+    <loc>https://www.defi.garden/ko/chains/stacks</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -201,12 +201,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/cardano</loc>
+    <loc>https://www.defi.garden/ko/chains/algorand</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/algorand</loc>
+    <loc>https://www.defi.garden/ko/chains/cardano</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -256,17 +256,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/venom</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/bifrost-network</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/neutron</loc>
-    <lastmod>2026-07-24</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/chains/venom</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
