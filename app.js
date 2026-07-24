@@ -942,7 +942,7 @@ function App() {
     if (chain) params.set('chain', chain);
     if (poolTypes && poolTypes.length > 0) params.set('poolTypes', poolTypes.join(','));
     if (protocols && protocols.length > 0) params.set('protocols', protocols.join(','));
-    if (minTvl > 0) params.set('minTvl', minTvl.toString());
+    if (minTvl > 0 && minTvl !== DEFAULT_MIN_TVL) params.set('minTvl', minTvl.toString());
     if (minApy > 0) params.set('minApy', minApy.toString());
 
     // Add language parameter if not English (default)
