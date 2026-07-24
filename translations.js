@@ -753,8 +753,8 @@ const translations = {
     // Numbers and earnings
     dailyEarnings: (amount) => `일일 수익`,
     monthlyEarnings: (amount) => `월 수익`,
-    dailyEarningsSubLabel: (amount) => `${formatKoreanCurrency(amount)} 기준`,
-    monthlyEarningsSubLabel: (amount) => `${formatKoreanCurrency(amount)} 기준`,
+    dailyEarningsSubLabel: (amount) => `$${Number(amount || 0).toLocaleString('en-US')} 기준`,
+    monthlyEarningsSubLabel: (amount) => `$${Number(amount || 0).toLocaleString('en-US')} 기준`,
     estimatedEarnings: "예상 수익",
     estimatedDailyEarnings: "예상 일일 수익",
     estimatedMonthlyEarnings: "예상 월간 수익",
@@ -784,7 +784,7 @@ const translations = {
     underlyingAssets: "기초 자산",
     calculateYourEarnings: "수익 계산하기",
     calcSubPrompt: "일간·주간·월간 수익을 확인하세요",
-    basedOnInvestment: (amount) => `${formatKoreanCurrency(amount)} 투자 기준`,
+    basedOnInvestment: (amount) => `$${Number(amount || 0).toLocaleString('en-US')} 투자 기준`,
     verified: "✓ 인증됨",
     onProtocolChain: (protocol, chain, hasUrl) => `${protocol}에서 • ${chain}${hasUrl ? ' ↗' : ''}`,
     poolProtocolLogoAlt: (project) => `${project} 로고`,
@@ -799,8 +799,8 @@ const translations = {
 
     // Honest mini-projection (pool-detail)
     projectionHeading: "장기적으로 보면",
-    projectionBody: (principal, years, amount) => `이 풀에 ${formatKoreanCurrency(principal)}을 넣으면 ${years}년 후 현재 수익률 기준 약 ${formatKoreanCurrency(Number(amount || 0))}이 됩니다.`,
-    gardenThisPoolCtaConcrete: (amount, years) => `이 풀 가든하기 → ${years}년 후 약 ${formatKoreanCurrency(Number(amount || 0))}`,
+    projectionBody: (principal, years, amount) => `이 풀에 $${Number(principal || 0).toLocaleString('en-US')}을 넣으면 ${years}년 후 현재 수익률 기준 약 $${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })}이 됩니다.`,
+    gardenThisPoolCtaConcrete: (amount, years) => `이 풀 가든하기 → ${years}년 후 약 $${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })}`,
     poolDegenHaircutNote: (headline) => `⅓ 할인 적용 (헤드라인 ${headline}) — 팜 수익률은 빠르게 감소. 적극적 관리 필요.`,
 
     // Calculator disclaimers
@@ -1344,13 +1344,6 @@ const translations = {
   }
 };
 
-// Helper function for Korean currency formatting (만/억)
-function formatKoreanCurrency(num) {
-  if (num >= 100000000) return `${(num/100000000).toFixed(1)}억원`;
-  if (num >= 10000) return `${(num/10000).toFixed(1)}만원`;
-  return `${Math.round(num).toLocaleString('en-US')}원`;
-}
-
 // Language detection helper
 function detectUserLanguage() {
   const browserLang = navigator.language.toLowerCase();
@@ -1378,7 +1371,6 @@ function createTranslationFunction(language) {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     translations,
-    formatKoreanCurrency,
     detectUserLanguage,
     createTranslationFunction
   };
