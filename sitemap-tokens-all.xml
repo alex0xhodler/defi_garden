@@ -245,15 +245,6 @@
     <priority>0.89</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=HYPERUSDCA</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HYPERUSDCA" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HYPERUSDCA&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HYPERUSDCA" />
-    <lastmod>2026-07-21T05:20:31.213Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.87</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=JITOSOL</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=JITOSOL" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=JITOSOL&amp;lang=ko" />

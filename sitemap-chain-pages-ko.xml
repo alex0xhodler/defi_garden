@@ -16,12 +16,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bsc</loc>
+    <loc>https://www.defi.garden/ko/chains/base</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/base</loc>
+    <loc>https://www.defi.garden/ko/chains/bsc</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -376,12 +376,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/kusama</loc>
+    <loc>https://www.defi.garden/ko/chains/scroll</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/scroll</loc>
+    <loc>https://www.defi.garden/ko/chains/kusama</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -411,12 +411,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/world-chain</loc>
+    <loc>https://www.defi.garden/ko/chains/waves</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/waves</loc>
+    <loc>https://www.defi.garden/ko/chains/world-chain</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
