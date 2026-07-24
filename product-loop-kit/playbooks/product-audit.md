@@ -38,11 +38,20 @@ run; log which surfaces you covered.
 4. **Console / page errors.** Zero `pageerror` / `console.error` on every driven surface — `error_occurred`
    is a guardrail; catch it BEFORE users do. → 044, 082.
 5. **Raw i18n keys / missing KO.** No `t('…')`-shaped or camelCase keys leaking; EN and KO both render
-   (toggle `?lang=ko`). → recurring hard-rule (EN+KO together).
+   (toggle `?lang=ko`). → recurring hard-rule (EN+KO together). **AND: check KO money figures for
+   currency-unit truth** — a KO string can render perfect Korean while relabeling a raw USD number as
+   `원` (Won) with no conversion, which is a number-sanity bug wearing an i18n costume; compare the KO
+   figure against the EN `$` figure for the same value and flag any unit swap without conversion. →
+   caught **137** (`formatKoreanCurrency` stamping 원 onto USD across every pool-detail money string).
 6. **Dead CTAs / broken links.** Every primary CTA + link resolves (no dead clicks); the two north-star
    CTAs ("Garden this pool", "Start Earning") fire their events. → 029 (dead pool rows).
 7. **Responsive / dark.** No horizontal body scroll at 360px; dark mode renders; focus rings present. →
-   recurring design-system rule (360/768/1280 + dark).
+   recurring design-system rule (360/768/1280 + dark). **AND: assert the primary CTA's bounding box is
+   fully inside the viewport/visible ancestor at 360px** — an ancestor with `overflow:hidden` can clip a
+   min-width child invisible while `document.body.scrollWidth` stays clean, so a scrollWidth-only check
+   passes on a page whose main CTA is gone. → caught **136** (pool-detail `.pool-action-card` min-width
+   300px inside a 240px mobile flex parent, clipped by `.pool-hero-card` overflow:hidden; body scrollWidth
+   352 ≤ 360 the whole time).
 8. **Honest labels (JUDGMENT — flag, don't auto-fix).** Category/type matches the data (SUSDS on
    sky-lending ≠ "Yield Farming"). Surface for human review. → 130.
 
