@@ -166,12 +166,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/mezo</loc>
+    <loc>https://www.defi.garden/chains/starknet</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/starknet</loc>
+    <loc>https://www.defi.garden/chains/mezo</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
