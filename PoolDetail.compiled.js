@@ -222,7 +222,7 @@ function PoolDetail({
   // Prefill the planner with the SAME lump sum + horizon so it lands on exactly
   // this projection (as capital, matching the calculator). The deep link never
   // carries the pool's APY — the planner computes from its own sanity-capped rate.
-  var gardenThisPoolHref = `plan.html?goal=retirement&pace=${gardenPersona}&capital=${Math.round(investmentAmount)}&fm=capital&years=${PROJECTION_YEARS}`;
+  var gardenThisPoolHref = `plan.html?goal=retirement&pace=${gardenPersona}&capital=${Math.round(investmentAmount)}&fm=capital&years=${PROJECTION_YEARS}&src=pool`;
   // Concrete CTA (025): show the projected outcome ON the button — but NEVER for
   // an anomalous pool (trust rail: anomalous rates are flagged, never hyped).
   var showConcreteCta = !isAnomalous;

@@ -245,6 +245,7 @@ const translations = {
       freeTextNudge: "I want to get this right — let's start with one of these for now. You can always change it.",
       youPicked: (goal) => `Saving for ${goal}`,
       sharedPlanIntro: "Someone shared their garden — make it yours.",
+      sharedPlanIntroPool: "Prefilled from the pool you picked — make it yours.",
 
       // Step 2 — monthly
       step2Question: (goal) => `Lovely — ${goal.toLowerCase()} it is. How much could you set aside each month?`,
@@ -296,6 +297,7 @@ const translations = {
       trustWithdraw: "Withdraw anytime",
       checkoutNote: "Live rates from DefiLlama · Education, not advice",
       arrivalBannerText: "Someone sent you this garden — it's already set up and ready to grow.",
+      arrivalBannerTextPool: "Here's your plan, prefilled from the pool you picked — make it yours.",
       arrivalBannerCta: "Make it mine",
       arrivalBannerDismiss: "Close",
       riskEdit: "Customize",
@@ -939,6 +941,7 @@ const translations = {
       freeTextNudge: "제대로 도와드리고 싶어요 — 우선 이 중에서 하나 골라볼까요? 언제든 바꿀 수 있어요.",
       youPicked: (goal) => `${goal} 모으기`,
       sharedPlanIntro: "누군가 정원을 공유했어요 — 내 것으로 만들어 보세요.",
+      sharedPlanIntroPool: "선택한 풀을 기반으로 미리 설정했어요 — 내 것으로 만들어 보세요.",
 
       step2Question: (goal) => `좋아요 — ${goal}이군요. 매달 얼마나 따로 모을 수 있을까요?`,
       step2QuestionPlain: "매달 얼마나 따로 모을 수 있을까요?",
@@ -987,6 +990,7 @@ const translations = {
       trustWithdraw: "언제든 출금",
       checkoutNote: "DefiLlama 실시간 데이터 · 교육 목적, 금융 조언 아님",
       arrivalBannerText: "누군가 이 정원을 보냈어요 — 이미 준비가 끝나서 바로 자랄 수 있어요.",
+      arrivalBannerTextPool: "선택한 풀을 기반으로 미리 준비한 계획이에요 — 내 것으로 만들어 보세요.",
       arrivalBannerCta: "내 것으로 만들기",
       arrivalBannerDismiss: "닫기",
       riskEdit: "설정",
