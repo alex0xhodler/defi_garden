@@ -15,6 +15,20 @@ against the committed `data/pools-snapshot.json` (real data — that's how 122's
 caught: it was IN the snapshot). Rotate a subset of surfaces per tick — don't re-audit everything every
 run; log which surfaces you covered.
 
+**Fixture traps that fabricate findings (learned 2026-07-25 — three false alarms in one tick):**
+- **Snapshot staleness gate.** The committed snapshot is usually older than `SNAPSHOT_MAX_AGE_MS`
+  (app.js:1086), so serving it verbatim silently falls through to the LIVE fetch path and the page renders
+  0 results — which looks exactly like a dead-end product bug. To exercise the snapshot-first path, route
+  `/data/pools-snapshot-meta.json` with `generatedAt: new Date().toISOString()`. To exercise the LIVE path,
+  serve `yields.llama.fi/pools` in the LIVE shape `{status:'success', data:[…]}` (add `apy` per pool) —
+  the snapshot shape (`{pools:[…]}`) makes the live loader read `data.data` → undefined → false "0 results".
+- **Async meta reads.** The 012 noindex (and other effect-injected state) lands seconds after "load" —
+  babel-standalone compile + data fetch first. A single read at ~4s false-negatives; POLL up to ~10s
+  before claiming noindex/empty-state didn't fire.
+- **Money-format regex.** House style abbreviates TVL as `$11.2K` / `$273.3M` — a `\$\d+\.\d` scan flags
+  these as 1-decimal violations. Exclude a trailing `[KMBT]` before flagging; the real 126-class bug is
+  `$0.1` with NO suffix.
+
 ## Surfaces to drive
 - `/` — planner hero (default funnel top)
 - `?token=<common>` (e.g. USDC) — grid renders pool cards
