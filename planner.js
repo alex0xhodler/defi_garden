@@ -998,6 +998,10 @@
     }
     u.searchParams.delete('preset');
     u.searchParams.delete('fresh');
+    // Never leak the pool-CTA source marker (item 143) into a genuine share link:
+    // a user who arrived via ?src=pool and then shares must produce a clean,
+    // unmarked share URL so the recipient sees the real "someone shared" arrival.
+    u.searchParams.delete('src');
     return u.toString();
   }
 
@@ -3799,7 +3803,7 @@
     // to the bloom step, so the recipient's prefilled plan is already rendered
     // underneath — "adopting" it just means clearing this banner out of the way.
     return e('div', { className: 'gp-arrival-banner gp-animate-in' },
-      e('p', { className: 'gp-arrival-text' }, t('arrivalBannerText')),
+      e('p', { className: 'gp-arrival-text' }, t(props.poolSourced ? 'arrivalBannerTextPool' : 'arrivalBannerText')),
       e('div', { className: 'gp-arrival-actions' },
         e('button', {
           type: 'button', className: 'gp-cta gp-arrival-cta', onClick: props.onDismiss
@@ -4063,14 +4067,21 @@
       return (!preset && !freshFlag) ? decodePlanFromUrl(urlParams) : null;
     }, [urlParams, preset, freshFlag]);
 
+    // Pool-sourced arrival (item 143): the "Garden this pool" CTA deep-links with
+    // the SAME param shape as a genuine share, but marks itself with ?src=pool.
+    // A pool-CTA arrival is a self-initiated click (already tracked on the pool
+    // page as pool_click{source=garden_cta}), NOT a share someone sent — so we
+    // branch to honest copy and suppress the false share_link_opened event.
+    var poolSourced = !!sharedPlan && urlParams.get('src') === 'pool';
+
     // Virality signal — a shared plan URL was actually opened (fires once per page load)
     useEffect(function () {
-      if (!sharedPlan || typeof Analytics === 'undefined') return;
+      if (!sharedPlan || poolSourced || typeof Analytics === 'undefined') return;
       Analytics.trackShareLinkOpened({
         goal: sharedPlan.goal, persona: sharedPlan.persona,
         capital: sharedPlan.capital, deadline: sharedPlan.deadline
       });
-    }, [sharedPlan]);
+    }, [sharedPlan, poolSourced]);
 
     var savedPlan = useMemo(function () {
       return (preset || freshFlag) ? null : loadSavedPlan();
@@ -4344,7 +4355,7 @@
       } else if (step === 'goal') {
         stepBubble = e(Bubble, { key: 'goal' },
           preset ? e('p', { className: 'gp-preset-intro' }, t('presetIntro', preset.name)) : null,
-          showSharedIntro ? e('p', { className: 'gp-preset-intro' }, t('sharedPlanIntro')) : null,
+          showSharedIntro ? e('p', { className: 'gp-preset-intro' }, t(poolSourced ? 'sharedPlanIntroPool' : 'sharedPlanIntro')) : null,
           e('p', { className: 'gp-question' }, t('step1Question')),
           e('p', { className: 'gp-splash-hook' }, stableGuidanceApy ? t('splashHookLive', formatApy(stableGuidanceApy)) : t('splashHook')),
           e('div', { className: 'gp-goal-groups' },
@@ -4734,7 +4745,7 @@
           });
           stepBubble = showSharedIntro
             ? e(React.Fragment, null,
-                e('p', { className: 'gp-preset-intro' }, t('sharedPlanIntro')),
+                e('p', { className: 'gp-preset-intro' }, t(poolSourced ? 'sharedPlanIntroPool' : 'sharedPlanIntro')),
                 bloomEl
               )
             : bloomEl;
@@ -4764,7 +4775,7 @@
         mode: mode,
         onShowGarden: function() { setMode('report'); }
       }),
-      showArrivalBanner ? e(ArrivalBanner, { t: t, onDismiss: function () { setArrivalDismissed(true); } }) : null,
+      showArrivalBanner ? e(ArrivalBanner, { t: t, poolSourced: poolSourced, onDismiss: function () { setArrivalDismissed(true); } }) : null,
       e('main', { className: 'gp-main' + (step === 'bloom' ? ' gp-main--bloom' : '') },
         (step === 'goal' && mode !== 'report')
           ? e('div', { className: 'gp-tagline' }, e('h1', null, t('title')), e('p', null, t('tagline')))
