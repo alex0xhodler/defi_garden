@@ -2585,6 +2585,7 @@ body {
    otherwise occlude — is hidden there (086). Planner mode has no fixed
    .app-footer, so the static links stay visible + clickable. Mode is set on
    <html data-app-mode> by home.html's IA router before paint. */
+/* NOTE (131): this rule is ALSO inlined as render-blocking critical CSS in home.html's <head> so it applies before the async style.min.css swap. Keep both selectors identical. */
 html[data-app-mode="analytics"] .seo-hub-links {
   display: none;
 }
