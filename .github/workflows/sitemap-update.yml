@@ -185,18 +185,12 @@ jobs:
         echo "❌ Could not push after 5 attempts"
         exit 1
     
-    - name: Ping Google about sitemap update
-      if: steps.verify-changed-files.outputs.changed == 'true'
-      run: |
-        echo "🔔 Notifying search engines about sitemap update..."
-        
-        # Ping Google
-        curl -s "https://www.google.com/ping?sitemap=https://www.defi.garden/sitemap.xml" || echo "Google ping failed"
-        
-        # Ping Bing
-        curl -s "https://www.bing.com/ping?sitemap=https://www.defi.garden/sitemap.xml" || echo "Bing ping failed"
-
-        echo "✅ Search engines notified"
+    # NOTE: The old Google and Bing sitemap-ping HTTP endpoints were deprecated
+    # in 2023/2022 and now return 404/410 — they no longer accept sitemap
+    # notifications. Both point site owners to IndexNow, which the next step
+    # already does (verified HTTP 200). The dead "Ping Google" step was removed
+    # (item 141) because it printed "Search engines notified" while doing
+    # nothing — a misleading green in the CI log.
 
     - name: Ping IndexNow
       if: steps.verify-changed-files.outputs.changed == 'true'
