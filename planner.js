@@ -3845,11 +3845,14 @@
       var alive = true;
       // Snapshot-first (spec 059 C1): the planner's floors are all >= $10M, so
       // the railed static snapshot always covers it. Try the small snapshot
-      // behind a 15-min freshness gate; ANY failure at ANY step falls straight
+      // behind a freshness gate; ANY failure at ANY step falls straight
       // through to the live POOLS_API fetch — exactly today's path. Planner
       // rails (floors, sanity limit, stable curation, degen haircut) run
       // unchanged on whichever payload loads, so no relax/escape-hatch exists.
-      var SNAPSHOT_MAX_AGE_MS = 15 * 60 * 1000;
+      // 6h ≈ 2× the slowest observed CI-bake gap (spec 140) — same constant
+      // and rationale as app.js; the old 15-min gate left this fast path dead
+      // ~85–90% of the day so bare `/` sessions paid the slow live fetch.
+      var SNAPSHOT_MAX_AGE_MS = 6 * 60 * 60 * 1000;
       function goLive() {
         fetch(POOLS_API)
           .then(function (r) { return r.json(); })
