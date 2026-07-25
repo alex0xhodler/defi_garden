@@ -201,17 +201,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/algorand</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/cardano</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/fraxtal</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/algorand</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -311,6 +311,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/defichain</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/unichain</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
@@ -406,12 +411,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/world-chain</loc>
+    <loc>https://www.defi.garden/ko/chains/waves</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/waves</loc>
+    <loc>https://www.defi.garden/ko/chains/world-chain</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
