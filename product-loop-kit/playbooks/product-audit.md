@@ -44,6 +44,16 @@ run; log which surfaces you covered.
    `analytics-regression-triage.md`); money not en-US 2dp (`$0.1` not `$0.10`, missing thousands
    separators); unformatted APY/TVL. → caught **122** (−900,719,925,474,097.9), **126** (`$0.1`), 032/033
    (all-0.00%).
+   **AND: percentages are absurd RELATIVE TO THE TRUST RAIL, not to 1e11.** A magnitude scan tuned to the
+   122 class (`ABSURD_MAGNITUDE = 1e11`, `audit-app.js:55`) cannot see an out-of-rail *rate*: `36,452.4%`
+   is only 3.6e4 and sails straight through, yet it is 36× `APY_SANITY_LIMIT` (1000%) and reads as
+   broken to any human. Decision rule: **any rendered `%` figure > `APY_SANITY_LIMIT` on a pool that is
+   NOT anomaly-flagged is a finding** — the rail defines what the product itself calls not-credible, so
+   showing it unflagged is a contradiction. Corollary when auditing a *derived* numeric field: find EVERY
+   render site of that field (`grep` the raw property name) and check each has a bound — the trust rails
+   are enforced per-field, so `totalApy` being railed says nothing about `apyMean30d`. → caught **144**
+   (`apyMean30d = 36452.38798` on balancer-v2 WSTETH-AAVE rendering as a trusted "30d Mean APY" card + in
+   the 071 note's prose, on a pool whose `totalApy = 0.24` keeps it un-flagged).
 2. **Dead-end as primary content.** The page's MAIN region is an empty / error / "no results" / "$0.00" /
    all-0% state for a VALID query. → **133** ($10M dead-end on small tokens), token pages all-0%.
 3. **Loading flash.** Render with delayed/empty data first; the pre-load view must NOT claim "no results"
@@ -77,9 +87,11 @@ Ticket each as a normal backlog row (rows-only, spec at build time); a rendered-
 row is the strongest evidence.
 
 ## Automatability
-Checks 1–6 are deterministic and mechanizable — a `audit-app.js` Playwright scanner could render each
-surface and emit a findings JSON the heartbeat tickets, so regressions like −900T / `$0.1` can never ship
-unnoticed again. Until that exists, this checklist is the manual-but-repeatable version. (Candidate build.)
+Checks 1–7 are mechanized: **`audit-app.js` shipped (item 142, 2026-07-25)** — a read-only Playwright
+scanner over the surface rotation emitting `signals/audit-findings.json` for the heartbeat to ticket.
+Known blind spot (144): its number-sanity check is magnitude-only (`ABSURD_MAGNITUDE = 1e11`), so
+out-of-rail **percentages** — the 144 class — pass clean. Candidate extension: a rail-relative percent
+check per the decision rule in class 1 above. Check 8 stays human judgment.
 
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
