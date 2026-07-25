@@ -591,6 +591,62 @@ function PoolDetail({
       )
     ),
 
+    // Honest mini-projection — always visible, never collapsed. LEADS the page
+    // body (129): the 5y compounded outcome is the yield-funded headline, shown
+    // before the small-absolute-$ daily/monthly cards which read as underwhelming
+    // on low-APY pools ("$0.10/day"). Trust rails (anomaly/degen/disclaimer) move
+    // with this node unchanged.
+    React.createElement('div', {
+      className: 'metric-card-simple pool-projection-card animate-on-mount',
+      style: {
+        background: 'var(--color-background)',
+        borderRadius: 'var(--neuro-radius-lg)',
+        padding: '24px',
+        boxShadow: 'var(--neuro-shadow-raised)',
+        marginBottom: '32px',
+        textAlign: 'center'
+      }
+    },
+      React.createElement('div', {
+        style: {
+          fontSize: 'var(--font-size-sm)',
+          color: 'var(--color-text-secondary)',
+          marginBottom: '8px',
+          fontWeight: 'var(--font-weight-medium)',
+          textTransform: 'uppercase',
+          letterSpacing: '0.5px'
+        }
+      }, t ? t('projectionHeading') : 'The Long Game'),
+      React.createElement('div', {
+        style: {
+          fontSize: 'var(--font-size-lg)',
+          fontWeight: 'var(--font-weight-bold)',
+          color: 'var(--color-text)',
+          lineHeight: '1.4'
+        }
+      }, t ? t('projectionBody', investmentAmount, PROJECTION_YEARS, projectionAmount) :
+        `$${Number(investmentAmount || 0).toLocaleString('en-US')} in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`),
+      // Yield-funded thesis line (129): the deposit stays the user's — you keep
+      // your money AND it keeps working. Honest framing, no numbers to rail.
+      React.createElement('div', {
+        style: {
+          fontSize: 'var(--font-size-sm)',
+          color: 'var(--color-text-secondary)',
+          marginTop: '8px',
+          lineHeight: '1.4'
+        }
+      }, t ? t('projectionKeepNote') : 'Your deposit stays yours — you keep your money, and it keeps working.'),
+      applyDegenHaircut && React.createElement('div', { className: 'calc-warning' },
+        t ? t('poolDegenHaircutNote', _formatApy(totalApy)) : `Projected at ⅓ haircut (${_formatApy(totalApy)} headline) — farm rates decay. Active management required.`
+      ),
+      isAnomalous && React.createElement('div', { className: 'calc-warning' },
+        t ? t('calcAnomalyWarning') : '⚠ This rate is anomalous and almost certainly unsustainable.'
+      ),
+      React.createElement('div', { className: 'calc-disclaimer' },
+        t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'
+      )
+    ),
+
     // Quick Metrics - Force 3-column layout
     React.createElement('div', {
       className: 'quick-metrics animate-on-mount',
@@ -718,48 +774,6 @@ function PoolDetail({
             opacity: 0.8
           }
         }, `Key factors: ${riskAssessment.factors.slice(0, 2).join(', ')}`)
-      )
-    ),
-
-    // Honest mini-projection — always visible, never collapsed
-    React.createElement('div', {
-      className: 'metric-card-simple animate-on-mount',
-      style: {
-        background: 'var(--color-background)',
-        borderRadius: 'var(--neuro-radius-lg)',
-        padding: '24px',
-        boxShadow: 'var(--neuro-shadow-raised)',
-        marginBottom: '32px',
-        textAlign: 'center'
-      }
-    },
-      React.createElement('div', {
-        style: {
-          fontSize: 'var(--font-size-sm)',
-          color: 'var(--color-text-secondary)',
-          marginBottom: '8px',
-          fontWeight: 'var(--font-weight-medium)',
-          textTransform: 'uppercase',
-          letterSpacing: '0.5px'
-        }
-      }, t ? t('projectionHeading') : 'The Long Game'),
-      React.createElement('div', {
-        style: {
-          fontSize: 'var(--font-size-lg)',
-          fontWeight: 'var(--font-weight-bold)',
-          color: 'var(--color-text)',
-          lineHeight: '1.4'
-        }
-      }, t ? t('projectionBody', investmentAmount, PROJECTION_YEARS, projectionAmount) :
-        `$${Number(investmentAmount || 0).toLocaleString('en-US')} in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`),
-      applyDegenHaircut && React.createElement('div', { className: 'calc-warning' },
-        t ? t('poolDegenHaircutNote', _formatApy(totalApy)) : `Projected at ⅓ haircut (${_formatApy(totalApy)} headline) — farm rates decay. Active management required.`
-      ),
-      isAnomalous && React.createElement('div', { className: 'calc-warning' },
-        t ? t('calcAnomalyWarning') : '⚠ This rate is anomalous and almost certainly unsustainable.'
-      ),
-      React.createElement('div', { className: 'calc-disclaimer' },
-        t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'
       )
     ),
 
