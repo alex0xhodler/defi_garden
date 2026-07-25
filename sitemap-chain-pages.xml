@@ -201,12 +201,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/cardano</loc>
+    <loc>https://www.defi.garden/chains/fraxtal</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/fraxtal</loc>
+    <loc>https://www.defi.garden/chains/cardano</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -251,17 +251,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/venom</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/neutron</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -331,12 +331,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/core</loc>
+    <loc>https://www.defi.garden/chains/echelon-initia</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/echelon-initia</loc>
+    <loc>https://www.defi.garden/chains/core</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>daily</changefreq>
   </url>
