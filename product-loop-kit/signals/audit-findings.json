@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-07-25T12:50:51.750Z",
+  "surfacesCovered": [
+    "grid-token",
+    "pool-detail",
+    "dead-pool"
+  ],
+  "findings": []
+}
