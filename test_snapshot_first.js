@@ -15,7 +15,8 @@
    Scenarios (spec 059 E2):
      (a) fresh snapshot + live ABORTED → ?token=USDC renders snapshot cards, no live call
      (b) snapshot 404 + live fixture → cards render from live (missing → fallback)
-     (c) STALE snapshot + live fixture → cards render from live AND live was hit
+     (c) STALE snapshot (7h > 6h gate) + live fixture → cards render from live AND live was hit
+     (c2) WITHIN-GATE snapshot (3h < 6h gate, spec 140) + live ABORTED → snapshot cards, no live call
      (d) equivalence: same pools as snapshot vs as live → identical rendered set
      (e) ?minTvl=10000 + fresh snapshot + live fixture → live used (rail-relax gate)
      (f) bare / planner renders with fresh snapshot + live ABORTED (both router paths)
@@ -68,7 +69,8 @@ function metaFor(pools, generatedAt) {
 }
 function liveBody(pools) { return JSON.stringify({ status: 'success', data: pools }); }
 const freshTs = () => new Date().toISOString();
-const staleTs = () => new Date(Date.now() - 60 * 60 * 1000).toISOString(); // 1h old > 15min gate
+const withinTs = () => new Date(Date.now() - 3 * 60 * 60 * 1000).toISOString(); // 3h old < 6h gate → snapshot still served (spec 140)
+const staleTs = () => new Date(Date.now() - 7 * 60 * 60 * 1000).toISOString(); // 7h old > 6h gate (spec 140) → live
 
 let passed = 0;
 async function test(name, fn) {
@@ -176,6 +178,21 @@ async function main() {
       } finally { await r.context.close(); }
     });
 
+    // (c2) WITHIN-GATE snapshot (3h old, < 6h) + live aborted → snapshot served, no live call.
+    //      This is the spec-140 acceptance: an age the OLD 15-min gate would have
+    //      rejected now stays on the fast path.
+    await test('(c2) within-gate snapshot (3h < 6h) + live aborted → snapshot cards, no live call', async () => {
+      const ts = withinTs();
+      const r = await makeRouted(browser, { meta: { pools: SNAPSHOT_POOLS, ts }, snap: { pools: SNAPSHOT_POOLS, ts }, live: null });
+      try {
+        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+        const ctx = await cardContexts(r.page);
+        if (!everyIncludes(ctx, 'snapproto')) throw new Error('expected snapshot cards (snapproto) for a 3h-old snapshot, got: ' + JSON.stringify(ctx));
+        if (anyIncludes(ctx, 'liveproto')) throw new Error('live pools must not appear for a within-gate snapshot');
+        if (r.liveHits() !== 0) throw new Error(`expected 0 live requests for a 3h-old snapshot, got ${r.liveHits()}`);
+      } finally { await r.context.close(); }
+    });
+
     // (d) equivalence: same pools via snapshot vs via live → identical set.
     await test('(d) equivalence: same pools as snapshot vs as live render the identical card set', async () => {
       const ts = freshTs();
@@ -239,8 +256,8 @@ async function main() {
     await browser.close();
     server.close();
   }
-  console.log(`\n${passed}/7 snapshot-first scenarios passed`);
-  if (passed !== 7) process.exitCode = 1;
+  console.log(`\n${passed}/8 snapshot-first scenarios passed`);
+  if (passed !== 8) process.exitCode = 1;
 }
 
 main().catch((err) => {

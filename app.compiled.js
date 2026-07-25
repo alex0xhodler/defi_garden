@@ -1070,8 +1070,15 @@ function App() {
   // around. Trust rails (APY_SANITY_LIMIT / DEFAULT_MIN_TVL / anomaly demotion)
   // are byte-untouched and run identically on whichever payload loads.
   useEffect(() => {
-    var SNAPSHOT_MAX_AGE_MS = 15 * 60 * 1000; // 3x the intended ~5-min cadence
-
+    // 6h ≈ 2× the slowest observed CI-bake gap (~1.5–3h). The committed
+    // snapshot is baked by the sitemap-update.yml CI (git-observable ~8
+    // bakes/24h), NOT the 109 poller — that writes Cloudflare D1, not this
+    // repo file, so the never-realized ~5-min cadence never applied here.
+    // The old 15-min gate rejected an otherwise-valid snapshot ~85–90% of the
+    // day, dropping every visitor (incl. ?pool=/?token= SEO landers) onto the
+    // slow live fetch 059 exists to avoid. Same "cover a missed run" intent as
+    // the original multiplier, sized to the real cadence.
+    var SNAPSHOT_MAX_AGE_MS = 6 * 60 * 60 * 1000;
     var loadLive = async startTime => {
       var response = await fetch('https://yields.llama.fi/pools');
       if (!response.ok) {
