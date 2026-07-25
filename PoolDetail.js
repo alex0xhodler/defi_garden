@@ -155,6 +155,14 @@ function PoolDetail({
 
   const APY_SANITY_LIMIT_LOCAL = 1000; // mirror of app.js constant
 
+  // 144: apyMean30d is presented as fact; anything outside the trust rail is not
+  // presentable. Magnitude gate (not isFinite alone) — 122's precedent: garbage
+  // values are finite.
+  const mean30dSane = typeof pool.apyMean30d === 'number' &&
+    Number.isFinite(pool.apyMean30d) &&
+    pool.apyMean30d >= 0 &&
+    pool.apyMean30d <= APY_SANITY_LIMIT_LOCAL;
+
   // Comprehensive Risk Assessment
   const getRiskAssessment = () => {
     let riskScore = 0;
@@ -1279,7 +1287,7 @@ function PoolDetail({
           ),
 
           // 30d Mean APY (if available) — substantiates whether today's rate is stable or a spike
-          (typeof pool.apyMean30d === 'number') && React.createElement('div', {
+          mean30dSane && React.createElement('div', {
             style: {
               padding: '12px',
               background: 'var(--color-background)',
@@ -1365,7 +1373,7 @@ function PoolDetail({
         // Rate-volatility honesty note (071) — full-width, calm. Fires only when
         // the current total APY and the 30-day mean both exist, are > 0, and
         // diverge by >=1.5x (max/min). Conservative: never on missing/zero data.
-        (typeof pool.apyMean30d === 'number' &&
+        (mean30dSane &&
           ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
           pool.apyMean30d > 0 &&
           (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
@@ -1393,7 +1401,7 @@ function PoolDetail({
         // calm cautious-saver language. Yields entirely to the 071 volatility
         // note (same divergence boolean) so the two are mutually exclusive, and
         // renders nothing when kpis are missing (live SEO deep-link landings).
-        (!(typeof pool.apyMean30d === 'number' &&
+        (!(mean30dSane &&
           ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
           pool.apyMean30d > 0 &&
           (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
@@ -1441,7 +1449,7 @@ function PoolDetail({
         // so the two are mutually exclusive, renders nothing when kpis/momentum
         // are missing (live SEO deep-link landings), needs a ≥7-day window, and
         // stays silent below a meaningful move (|momentum| < 0.5, 088.1 covers).
-        (!(typeof pool.apyMean30d === 'number' &&
+        (!(mean30dSane &&
           ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
           pool.apyMean30d > 0 &&
           (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
@@ -1487,7 +1495,7 @@ function PoolDetail({
         // renders nothing when kpis/tvlTrend are missing (live SEO deep-link
         // landings), needs a ≥7-point window, and stays silent below a
         // meaningful move (|tvlTrend| < 0.25).
-        (!(typeof pool.apyMean30d === 'number' &&
+        (!(mean30dSane &&
           ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
           pool.apyMean30d > 0 &&
           (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
