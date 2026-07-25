@@ -200,6 +200,30 @@ async function main() {
       if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
       await page.close();
     });
+
+    // (e) pool-detail (north-star page): the 131 regression. Load the detail view
+    // and assert single-instance WITHOUT forcing the async style.css swap — the
+    // inline critical rule in home.html <head> must hide the static footer at
+    // first paint (this is the exact state the 2026-07-23 audit captured: 2 links).
+    await test('/?pool=usdc-base-aave (north-star): inline critical CSS hides static footer pre-swap, one visible hub link set', async () => {
+      const { page, errors } = await newPage(browser);
+      await page.goto('http://localhost:' + PORT + '/?pool=usdc-base-aave', { waitUntil: 'load', timeout: 15000 });
+      await page.waitForSelector('.pool-detail-view', { timeout: 15000 });
+      // Deliberately NO applyPrintStylesheets: prove the inline rule works before
+      // the media="print" swap fires (the FOUC / headless-audit state).
+      if (await page.evaluate(() => document.documentElement.getAttribute('data-app-mode')) !== 'analytics')
+        throw new Error('expected data-app-mode="analytics" on pool-detail page');
+      const seoDisplay = await page.evaluate(() => getComputedStyle(document.querySelector('.seo-hub-links')).display);
+      if (seoDisplay !== 'none') throw new Error('.seo-hub-links must be display:none from inline critical CSS pre-swap, got ' + seoDisplay);
+      const visibleTokens = await page.locator('a[href="/tokens"]:visible').count();
+      const visibleChains = await page.locator('a[href="/chains"]:visible').count();
+      if (visibleTokens !== 1) throw new Error('expected exactly 1 visible /tokens link on pool-detail, found ' + visibleTokens);
+      if (visibleChains !== 1) throw new Error('expected exactly 1 visible /chains link on pool-detail, found ' + visibleChains);
+      const inFooter = await page.locator('.app-footer .app-footer-hub-links a[href="/tokens"]').isVisible();
+      if (!inFooter) throw new Error('the one visible /tokens link should be inside .app-footer-hub-links');
+      if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+      await page.close();
+    });
   } finally {
     await browser.close();
     server.close();

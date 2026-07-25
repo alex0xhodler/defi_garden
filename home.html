@@ -134,6 +134,19 @@
     <link rel="stylesheet" href="style.min.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="style.min.css"></noscript>
 
+    <!-- Critical dedup (131, mirrors the style.css rule 086 added at .seo-hub-links):
+         the static .seo-hub-links crawler footer is duplicated inside the React
+         .app-footer in analytics mode. style.min.css loads async (the media="print"
+         swap above), so its copy of this rule can't hide the static footer before
+         first paint — that flashed a duplicate "Browse tokens · Browse chains"
+         (worst on the empty-#root pool-detail page: the static footer appears under
+         the header before the app mounts its own footer). Inline + render-blocking =
+         no flash, in every renderer including headless. data-app-mode is set by the
+         IA router script above before paint; crawlers run no JS so it is never set
+         for them and the raw static <a href="/tokens"> anchors stay reachable.
+         Keep this selector identical to the style.css rule. -->
+    <style>html[data-app-mode="analytics"] .seo-hub-links{display:none}</style>
+
     <!-- Mode-conditional CSS: injected synchronously so it fetches in parallel -->
     <script>
         (function() {
