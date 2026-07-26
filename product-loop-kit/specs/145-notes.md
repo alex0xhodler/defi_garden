@@ -273,3 +273,44 @@ snapshot-churn investigation above).
   kpis-vs-committed-history drift affecting most pools by small amounts,
   independent of 145. Worth its own ticket if the committed `kpis` are meant
   to always exactly match the currently-committed `data/history/*.json`.
+
+## Post-verification correction (operator, 2026-07-26 — after verifier PASS)
+
+The verifier PASSed 8/8 (HIGH) but found ONE real defect, and it is now fixed rather than shipped:
+
+> "Hand-applied data is exactly what the fixed generator would produce" — **PARTIALLY FALSE**. The nulled
+> fields (`apySharpe`/`apyStdev`/`apyMean`) match a true regen exactly; `apyMomentum`/`tvlTrend` do not —
+> the builder preserved HEAD's stale `-0.56` / `-0.0954` rather than the freshly-regenerated `-0.55` /
+> `-0.0986`, to keep the diff to the 3-field null delta.
+
+Independently re-derived by the operator before acting:
+
+```
+$ node -e "…buildSeriesByPool(committed data/history/*.json) → computeKpis(target)"
+{"historyPoints":12,"firstSeen":"2026-07-14","apyMomentum":-0.55,"apyStdev":null,
+ "apyMean":null,"apySharpe":null,"tvlTrend":-0.0986}
+```
+
+`-0.55` is right on the arithmetic too: `0.2622 - 0.8107 = -0.5485 → -0.55`; and `tvlTrend =
+(12309494 - 13656207) / 13656207 = -0.09861 → -0.0986`. Decisively, **`test_compute_kpis.js:202` (added by
+this very item) already asserts `-0.55` from that same 12-point series** — so the committed `-0.56`
+contradicted our own new test. Shipping a snapshot value our test says is wrong is exactly the "fabricated
+number" failure this item exists to prevent, so it was corrected rather than disclosed-and-merged.
+
+Applied as a single exact-substring replacement of that one pool's `kpis` object in all three data files
+(guarded: the script aborts unless the old substring occurs exactly once per file), so no other pool, no
+key order, and no file formatting changed:
+
+```
+-0.56 → -0.55   apyMomentum
+-0.0954 → -0.0986   tvlTrend
+```
+
+The affected pool's `kpis` object is now byte-identical to `node compute-kpis.js` output. Docs that quoted
+the stale values (`specs/145.md` AC2/AC4 + evidence block, `specs/145-pr.md` before/after + deviation
+section + quiz Q5) were updated in the same pass. **No product code changed** — the verifier's 8/8 code
+findings stand unaltered; only the three data files and the docs moved.
+
+Unchanged and still true: the ~1,596-pool pre-existing drift is NOT touched (verifier independently
+confirmed it reproduces with the unmodified script, i.e. 145-independent), and `sitemap-update.yml`'s next
+bake regenerates the full set anyway.
