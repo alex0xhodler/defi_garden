@@ -128,13 +128,25 @@ function parseFixtureArg(argv) {
 /**
  * Strict token filtering to remove junk/spam/unwanted symbols
  * Complies with 2026 "Sitemap Hygiene" standards
+ *
+ * Mirrors generate-token-pages.js's isValidToken exactly (spec 148) — the two
+ * must never drift. tokenRegex alone accepts pure-digit strings and Pendle-
+ * style expiry-date fragments (e.g. the "22OCT2026" split out of
+ * "PT-SUSDE-22OCT2026" by the symbol.split() callers below) — both are real
+ * regex matches but not real tokens, so two further rejection rules layer on
+ * top.
  */
 function isValidToken(symbol) {
   if (!symbol || typeof symbol !== 'string') return false;
   // Alphanumeric, dots, hyphens, and underscores only. 2-15 chars.
   // Exclude symbols starting with weird characters like $, %, etc.
   const tokenRegex = /^[A-Z0-9][A-Z0-9.\-_]{1,14}$/i;
-  return tokenRegex.test(symbol);
+  if (!tokenRegex.test(symbol)) return false;
+  const pureNumericRegex = /^[0-9]+$/;
+  if (pureNumericRegex.test(symbol)) return false; // e.g. "2027", "00", "67"
+  const dateFragmentRegex = /^[0-9]{1,2}(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[0-9]{2,4}$/i;
+  if (dateFragmentRegex.test(symbol)) return false; // e.g. "22OCT2026", "16SEP26"
+  return true;
 }
 
 /**
@@ -671,4 +683,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg };
+module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg, isValidToken };

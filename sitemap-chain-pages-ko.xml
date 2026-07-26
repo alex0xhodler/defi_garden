@@ -246,17 +246,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/etherlink</loc>
-    <lastmod>2026-07-26</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/celo</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/venom</loc>
+    <loc>https://www.defi.garden/ko/chains/etherlink</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -267,6 +262,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/bifrost-network</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/venom</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
   </url>

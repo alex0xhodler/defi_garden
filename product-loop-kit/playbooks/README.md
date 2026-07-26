@@ -37,3 +37,4 @@ Provenance: <the LOG/spec entry this was distilled from>
 - `product-audit.md` — drive the real app + find bug classes without traffic (the pre-traffic heartbeat mandate)
 - `archetype-coherence.md` — a planner surface shows copy/numbers built for a different goal archetype (item 146)
 - `pre-existing-red-triage.md` — a test is red on `main` and isn't yours: product regression vs stale test vs sandbox (item 147)
+- `seo-surface-regen-delta.md` — isolating what YOUR code change did to the generated SEO surface from daily data churn (item 148)
