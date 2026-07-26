@@ -166,6 +166,81 @@ test('computeKpis — RISK_FREE_APY and SHARPE_MIN_POINTS are exported constants
   assert.strictEqual(k.SHARPE_MIN_POINTS, 8);
 });
 
+// --- 145: APY_SANITY_LIMIT trust-rail mirror on history-derived KPIs -------
+
+test('computeKpis — 145: APY_SANITY_LIMIT is an exported constant, mirrors app.js:800', () => {
+  assert.strictEqual(k.APY_SANITY_LIMIT, 1000);
+});
+
+test('computeKpis — 145 AC1: a point ANYWHERE in the series > APY_SANITY_LIMIT nulls ' +
+  'apyMean/apyStdev/apySharpe, but leaves historyPoints/firstSeen/tvlTrend intact', () => {
+  // 8+ points, sane stdev/mean otherwise scoreable — a single poisoned point
+  // (260,768%-style DefiLlama glitch, mid-series) must null all three
+  // distribution KPIs while historyPoints/firstSeen/tvlTrend stay honest facts.
+  const series = [4.0, 4.5, 5.0, 260768.64, 4.2, 4.8, 5.1, 4.6].map((a, i) => ({
+    date: '2026-07-' + String(i + 1).padStart(2, '0'), apyTotal: a, tvlUsd: 1000 + i * 10
+  }));
+  const kpis = k.computeKpis({}, series);
+  assert.strictEqual(kpis.apyMean, null, 'apyMean nulled — the whole series is poisoned by one point');
+  assert.strictEqual(kpis.apyStdev, null, 'apyStdev nulled');
+  assert.strictEqual(kpis.apySharpe, null, 'apySharpe nulled');
+  assert.strictEqual(kpis.historyPoints, 8, 'historyPoints — tracking fact, unchanged');
+  assert.strictEqual(kpis.firstSeen, '2026-07-01', 'firstSeen — tracking fact, unchanged');
+  assert.strictEqual(kpis.tvlTrend, 0.07, 'tvlTrend — rate-independent, unchanged: (1070-1000)/1000');
+});
+
+test('computeKpis — 145 AC2: a poisoned MIDDLE point does NOT null apyMomentum ' +
+  '(both endpoints sane) — the real pool 201e5f6e-… case, momentum survives', () => {
+  // Mirrors the real committed history for 201e5f6e-cf75-4d0e-b07f-d58da3cee23a:
+  // sane first/last, one 260,768%-magnitude glitch day in the middle.
+  const series = [0.8107, 0.5554, 0.4765, 0.4027, 0.36, 0.1497, 260768.6404, 0.5983, 1.2518, 0.3728, 0.2506, 0.2622]
+    .map((a, i) => ({ date: '2026-07-' + String(i + 14).padStart(2, '0'), apyTotal: a, tvlUsd: 1000 }));
+  const kpis = k.computeKpis({}, series);
+  assert.strictEqual(kpis.apyMean, null, 'series-wide KPI still nulled by the middle poison point');
+  assert.strictEqual(kpis.apyStdev, null);
+  assert.strictEqual(kpis.apySharpe, null);
+  assert.strictEqual(kpis.apyMomentum, -0.55, 'momentum reads ONLY first/last (both sane) — retained: 0.2622 - 0.8107');
+  assert.strictEqual(kpis.historyPoints, 12);
+});
+
+test('computeKpis — 145 AC2b: an out-of-rail ENDPOINT (first or last) DOES null apyMomentum', () => {
+  const seriesBadFirst = [1500, 4.0, 4.5, 5.0].map((a, i) => ({
+    date: '2026-07-' + String(i + 1).padStart(2, '0'), apyTotal: a, tvlUsd: 1000
+  }));
+  const kpisBadFirst = k.computeKpis({}, seriesBadFirst);
+  assert.strictEqual(kpisBadFirst.apyMomentum, null, 'poisoned FIRST point nulls momentum');
+
+  const seriesBadLast = [4.0, 4.5, 5.0, 1500].map((a, i) => ({
+    date: '2026-07-' + String(i + 1).padStart(2, '0'), apyTotal: a, tvlUsd: 1000
+  }));
+  const kpisBadLast = k.computeKpis({}, seriesBadLast);
+  assert.strictEqual(kpisBadLast.apyMomentum, null, 'poisoned LAST point nulls momentum');
+  // Both endpoints also poison the whole-series KPIs (AC1 — the last point alone is enough).
+  assert.strictEqual(kpisBadLast.apyMean, null);
+  assert.strictEqual(kpisBadLast.apyStdev, null);
+});
+
+test('computeKpis — 145 AC3: an all-sane series is byte-identical to the pre-145 behavior ' +
+  '(no over-nulling — the rail is a pure ADD, never a relax)', () => {
+  // Same fixtures as the pre-existing "≥8 points" and "<2 points" tests above,
+  // re-asserted in full to prove the 145 rail never touches an already-sane series.
+  const eightPointSeries = [2, 4, 4, 4, 5, 5, 7, 9].map((a, i) => ({ date: '2026-07-' + String(i + 1).padStart(2, '0'), apyTotal: a, tvlUsd: 1000 }));
+  const eightPointKpis = k.computeKpis({}, eightPointSeries);
+  assert.deepStrictEqual(eightPointKpis, {
+    historyPoints: 8, firstSeen: '2026-07-01', apyMomentum: 7, apyStdev: 2, apyMean: 5, apySharpe: 0.5, tvlTrend: 0
+  }, 'all points sane, all ≤ APY_SANITY_LIMIT — byte-identical to the pre-145 computation');
+
+  const singlePointKpis = k.computeKpis({}, [{ date: '2026-07-10', apyTotal: 4.5, tvlUsd: 1000 }]);
+  assert.deepStrictEqual(singlePointKpis, {
+    historyPoints: 1, firstSeen: '2026-07-10', apyMomentum: null, apyStdev: null, apyMean: 4.5, apySharpe: null, tvlTrend: null
+  }, '<2 points, sane value — byte-identical to pre-145 (nulls come from the existing <2-point guard, not the rail)');
+
+  // A point exactly AT the rail (not over it) must NOT be treated as out-of-rail.
+  const atLimitSeries = [1000, 4, 4, 4, 5, 5, 7, 9].map((a, i) => ({ date: '2026-07-' + String(i + 1).padStart(2, '0'), apyTotal: a, tvlUsd: 1000 }));
+  const atLimitKpis = k.computeKpis({}, atLimitSeries);
+  assert.notStrictEqual(atLimitKpis.apyMean, null, 'exactly AT APY_SANITY_LIMIT (1000) is still sane — only STRICTLY over rails');
+});
+
 test('buildSeriesByPool — ascending entries yield ascending per-pool series', () => {
   const entries = [
     { date: '2026-07-10', pools: { a: [4, 100], b: [1, 50] } },
