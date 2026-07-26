@@ -28,6 +28,12 @@ run; log which surfaces you covered.
 - **Money-format regex.** House style abbreviates TVL as `$11.2K` / `$273.3M` — a `\$\d+\.\d` scan flags
   these as 1-decimal violations. Exclude a trailing `[KMBT]` before flagging; the real 126-class bug is
   `$0.1` with NO suffix.
+- **A crashed scanner is not a clean scanner (learned 2026-07-26).** A fresh clone has no `node_modules`,
+  so `node audit-app.js` dies with `MODULE_NOT_FOUND: playwright` and writes NO findings file — leaving
+  yesterday's `signals/audit-findings.json` on disk to be mis-read as today's clean run. **Before recording
+  "audit clean", confirm `surfacesCovered` is non-empty and its `generatedAt` is from THIS tick.** Re-run
+  with `NODE_PATH=/opt/node22/lib/node_modules` (playwright is installed globally) or `npm install` first.
+  → ticketed **149** (make the script self-heal and fail loudly).
 
 ## Surfaces to drive
 - `/` — planner hero (default funnel top)
@@ -78,6 +84,22 @@ run; log which surfaces you covered.
    352 ≤ 360 the whole time).
 8. **Honest labels (JUDGMENT — flag, don't auto-fix).** Category/type matches the data (SUSDS on
    sky-lending ≠ "Yield Farming"). Surface for human review. → 130.
+9. **URL provenance: is that weird URL ours? (learned 2026-07-26 — the check `audit-app.js` cannot do.)**
+   The scanner only drives surfaces we hand it, so it can never find a surface we should not be generating
+   at all. Once per tick, read the prod `page_view`-by-`$current_url` breakdown and pick out every URL whose
+   parameters look like garbage (`?token=22OCT2026`, `?token=20`, `?token=20)`). For each, answer **"did we
+   generate this, or did a crawler invent it?"** — `grep` the literal value in the generated surface
+   (`sitemap-*.xml`, `tokens/`, `chains/`, `llms*.txt`) and, if it is ours, walk back to the generator
+   function that minted it. Do NOT assume crawler-invention: on 2026-07-23 the odd `?chain=robinhood` URLs
+   genuinely were crawler-invented and that (correct) verdict made the whole class feel safe, so the
+   2026-07-26 batch was nearly waved through — they turned out to be ours. The generator bug class is
+   **string-splitting a compound symbol**: `PT-SUSDE-22OCT2026`.split(`/[-_\/\s]/`) yields the expiry date
+   as a "token", and a permissive validity regex (`^[A-Z0-9][A-Z0-9.\-_]{1,14}$`) waves it through into a
+   real page + sitemap entry + OG image + IndexNow submission, ×2 languages. → caught **148**.
+   Decision rule: **any generated URL whose slug is a pure number or a date fragment is a finding** — no
+   human searches it, and it is thin by construction. Corollary: when auditing any surface built by
+   splitting a data field, check the *validity predicate*, not the output list — the junk set is
+   data-dependent and churns daily (8 date fragments in today's snapshot; only 2 of them committed).
 
 ## Severity → score (so audit findings compete with metric opportunities)
 - **P0** broken number / page error / astronomical value on a live surface (trust-breaker) → 9+.
@@ -91,7 +113,11 @@ Checks 1–7 are mechanized: **`audit-app.js` shipped (item 142, 2026-07-25)** �
 scanner over the surface rotation emitting `signals/audit-findings.json` for the heartbeat to ticket.
 Known blind spot (144): its number-sanity check is magnitude-only (`ABSURD_MAGNITUDE = 1e11`), so
 out-of-rail **percentages** — the 144 class — pass clean. Candidate extension: a rail-relative percent
-check per the decision rule in class 1 above. Check 8 stays human judgment.
+check per the decision rule in class 1 above. Checks 8 and 9 stay human judgment: **9 is structurally
+un-mechanizable by this scanner** — it drives a fixed surface rotation, so it cannot flag a surface that
+should not exist. Class 9 runs from the Mixpanel URL breakdown, not from Playwright. Run it every tick.
+A tick where `audit-app.js` returns 0 findings is therefore NOT a tick with nothing to look at — 2026-07-26
+scored 0 findings across 10 surfaces and still produced 148 from the URL-provenance check.
 
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
