@@ -74,6 +74,15 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=WETH&amp;poolTypes=Yield%20Farming</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;poolTypes=Yield+Farming" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;poolTypes=Yield+Farming&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;poolTypes=Yield+Farming" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=USDT&amp;poolTypes=Yield%20Farming</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;poolTypes=Yield+Farming" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;poolTypes=Yield+Farming&amp;lang=ko" />
@@ -87,15 +96,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDS&amp;poolTypes=Yield+Farming" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDS&amp;poolTypes=Yield+Farming&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDS&amp;poolTypes=Yield+Farming" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=WETH&amp;poolTypes=Yield%20Farming</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;poolTypes=Yield+Farming" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;poolTypes=Yield+Farming&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;poolTypes=Yield+Farming" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -254,15 +254,6 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SAVAX&amp;poolTypes=Yield%20Farming</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAVAX&amp;poolTypes=Yield+Farming" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAVAX&amp;poolTypes=Yield+Farming&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAVAX&amp;poolTypes=Yield+Farming" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.84</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=WBTC&amp;poolTypes=Yield%20Farming</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;poolTypes=Yield+Farming" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;poolTypes=Yield+Farming&amp;lang=ko" />
@@ -270,6 +261,15 @@
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SAVAX&amp;poolTypes=Yield%20Farming</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAVAX&amp;poolTypes=Yield+Farming" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAVAX&amp;poolTypes=Yield+Farming&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAVAX&amp;poolTypes=Yield+Farming" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.84</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USD1&amp;poolTypes=Yield%20Farming</loc>
