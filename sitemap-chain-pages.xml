@@ -246,12 +246,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/etherlink</loc>
+    <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/celo</loc>
+    <loc>https://www.defi.garden/chains/etherlink</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -291,17 +291,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/citrea</loc>
-    <lastmod>2026-07-26</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/move</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/pharos</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/citrea</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -376,12 +376,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/kusama</loc>
+    <loc>https://www.defi.garden/chains/scroll</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/scroll</loc>
+    <loc>https://www.defi.garden/chains/kusama</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
   </url>
