@@ -33,8 +33,21 @@ function assert(cond, msg) { if (!cond) throw new Error(msg); }
 
 async function main() {
   // ---- Case 1: clean run against the committed snapshot ----
+  // Scoped to the app surfaces + the clean static anchor (backlog 154): an
+  // UNSCOPED run also samples a rotating slice of tokens/*.html + chains/*.html,
+  // and real junk pages exist on disk right now (tokens/00.html, tokens/01.html,
+  // tokens/8oct2026.html — see spec 154's evidence) that legitimately trip the
+  // new junk-slug check. That's a true positive, not a regression here — see
+  // test_seo_surface_audit.js criterion 2 for the positive-control assertion
+  // on exactly that class. This case stays about the surfaces it was written
+  // about: the app surfaces (grid/pool-detail/dead-pool/etc.) plus the single
+  // hand-picked anchor static page, which is clean.
+  const APP_SURFACES_PLUS_ANCHOR = [
+    'grid-token', 'pool-detail', 'grid-chain', 'dead-pool', 'grid-loading',
+    'pool-detail-360', 'grid-360', 'pool-detail-dark', 'pool-detail-ko', 'static-page'
+  ];
   await test('clean run: covers pool-detail + dead-pool, ZERO P0/P1, writes signals JSON', async () => {
-    const result = await runAudit({ port: 8820, snapshotPath: SNAPSHOT });
+    const result = await runAudit({ port: 8820, snapshotPath: SNAPSHOT, only: APP_SURFACES_PLUS_ANCHOR });
 
     assert(result.surfacesCovered.includes('pool-detail'), 'surfacesCovered missing "pool-detail" (north-star ?pool=)');
     assert(result.surfacesCovered.includes('dead-pool'), 'surfacesCovered missing "dead-pool" (dead ?pool=)');

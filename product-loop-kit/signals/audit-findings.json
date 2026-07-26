@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T15:25:01.270Z",
+  "generatedAt": "2026-07-26T19:07:42.255Z",
   "status": "OK",
   "playwright": {
     "source": "global",
@@ -15,7 +15,13 @@
     "grid-360",
     "pool-detail-dark",
     "pool-detail-ko",
-    "static-page"
+    "static-page",
+    "static-page:tokens/xhype",
+    "static-page:tokens/cyb3rwr3n",
+    "static-page:tokens/liquidbtc",
+    "static-page:tokens/slisbnb",
+    "static-page:chains/zigchain",
+    "static-page:chains/kusama"
   ],
   "findings": []
 }
