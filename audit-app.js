@@ -22,9 +22,22 @@
         a [KMBT] suffix ($11.2K / $273.3M are legal house style).
 
    Env overrides (for the acceptance test's positive control):
-     AUDIT_SNAPSHOT_PATH  — snapshot body served on the snapshot + live routes
-                            (default 'data/pools-snapshot.json').
-     AUDIT_PORT           — server port (default 8821).
+     AUDIT_SNAPSHOT_PATH   — snapshot body served on the snapshot + live routes
+                             (default 'data/pools-snapshot.json').
+     AUDIT_PORT            — server port (default 8821).
+     AUDIT_PLAYWRIGHT_ROOT — resolve playwright ONLY from
+                             require(path.join(root, 'playwright')) (testing hook;
+                             also how "playwright unresolvable" is simulated).
+     AUDIT_OUT             — findings JSON out path (default
+                             product-loop-kit/signals/audit-findings.json).
+
+   backlog 149: playwright is resolved lazily (bare require -> npm global root ->
+   hardcoded global fallback) instead of at module load, so `require('./audit-app.js')`
+   never throws in a fresh clone with no node_modules. When playwright cannot be
+   resolved at all, the script writes a `status: "DID_NOT_RUN"` findings artifact
+   (so a stale prior findings file can never be mistaken for a clean run) and exits
+   non-zero. Exit codes: 0 clean run / 1 P0-P1 findings present / 2 other fatal
+   error / 3 playwright unresolvable.
 
    Run: node audit-app.js   → writes product-loop-kit/signals/audit-findings.json,
         prints findings JSON + covered surfaces, exits non-zero on any P0/P1. */
@@ -32,7 +45,6 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const { chromium } = require('playwright');
 
 const ROOT = __dirname;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
@@ -53,6 +65,82 @@ const DEFAULT_OUT = path.join(ROOT, 'product-loop-kit', 'signals', 'audit-findin
 // ($17.3B) — never as a raw >1e11 token — so this only ever fires on the
 // −900,719,925,474,097.9 (122) bug class, never on real data.
 const ABSURD_MAGNITUDE = 1e11;
+
+// Hardcoded fallback root for when neither a bare `require('playwright')` nor
+// `npm root -g` resolves it (matches this environment's global install path;
+// see spec 149 evidence). Kept as a last resort, not a first choice.
+const GLOBAL_FALLBACK_ROOT = '/opt/node22/lib/node_modules';
+
+// ---------------------------------------------------------------------------
+// Lazy playwright resolution (backlog 149). No module-level `chromium`
+// binding: a fresh clone with no node_modules must be able to
+// `require('./audit-app.js')` without throwing. Resolution happens only when
+// runAudit() actually needs the engine.
+// ---------------------------------------------------------------------------
+// Version lookup never throws (per spec) — always falls back to 'unknown'.
+function versionFromRoot(root) {
+  try { return require(path.join(root, 'playwright', 'package.json')).version; }
+  catch (e) { return 'unknown'; }
+}
+function versionFromBareRequire() {
+  try { return require(path.join(path.dirname(require.resolve('playwright/package.json')), 'package.json')).version; }
+  catch (e) { return 'unknown'; }
+}
+
+function resolvePlaywright(opts = {}) {
+  const overrideRoot = opts.root || process.env.AUDIT_PLAYWRIGHT_ROOT || '';
+  const attempts = [];
+
+  if (overrideRoot) {
+    try {
+      const chromium = require(path.join(overrideRoot, 'playwright')).chromium;
+      const version = versionFromRoot(overrideRoot);
+      console.error(`[audit] playwright resolved from override (${version}) at ${overrideRoot}`);
+      return { chromium, version, source: 'override', resolvedFrom: overrideRoot };
+    } catch (e) {
+      attempts.push(`override (${overrideRoot}): ${e.message}`);
+      resolvePlaywright.lastAttempts = attempts;
+      return null; // single documented override — no further fallback attempted
+    }
+  }
+
+  // 1. bare require — local node_modules (the normal, non-degraded path).
+  try {
+    const chromium = require('playwright').chromium;
+    const version = versionFromBareRequire();
+    console.error(`[audit] playwright resolved from local (${version}) at local node_modules`);
+    return { chromium, version, source: 'local', resolvedFrom: 'node_modules' };
+  } catch (e) {
+    attempts.push(`local: ${e.message}`);
+  }
+
+  // 2. npm global root.
+  let globalRoot = '';
+  try {
+    globalRoot = require('child_process').execSync('npm root -g', { encoding: 'utf8', timeout: 10000 }).trim();
+    const chromium = require(path.join(globalRoot, 'playwright')).chromium;
+    const version = versionFromRoot(globalRoot);
+    console.error(`[audit] playwright resolved from global (${version}) at ${globalRoot}`);
+    return { chromium, version, source: 'global', resolvedFrom: globalRoot };
+  } catch (e) {
+    attempts.push(`global (${globalRoot || 'npm root -g failed'}): ${e.message}`);
+  }
+
+  // 3. hardcoded global fallback (skip if identical to the npm global root already tried).
+  if (globalRoot !== GLOBAL_FALLBACK_ROOT) {
+    try {
+      const chromium = require(path.join(GLOBAL_FALLBACK_ROOT, 'playwright')).chromium;
+      const version = versionFromRoot(GLOBAL_FALLBACK_ROOT);
+      console.error(`[audit] playwright resolved from global-fallback (${version}) at ${GLOBAL_FALLBACK_ROOT}`);
+      return { chromium, version, source: 'global-fallback', resolvedFrom: GLOBAL_FALLBACK_ROOT };
+    } catch (e) {
+      attempts.push(`global-fallback (${GLOBAL_FALLBACK_ROOT}): ${e.message}`);
+    }
+  }
+
+  resolvePlaywright.lastAttempts = attempts;
+  return null;
+}
 
 const NM = path.join(ROOT, 'node_modules');
 const UNPKG_VENDOR = {
@@ -342,9 +430,20 @@ async function checkResponsive(page, s, findings, ctaSelector) {
 // Public entry point.
 // ---------------------------------------------------------------------------
 async function runAudit(opts = {}) {
+  const outPath = opts.outPath || process.env.AUDIT_OUT || DEFAULT_OUT;
+
+  // Resolve playwright BEFORE the snapshot read / server start, so a missing
+  // engine fails fast and starts no server (backlog 149).
+  const pw = resolvePlaywright();
+  if (!pw) {
+    const err = new Error('playwright unresolvable: tried local, npm global root, and the hardcoded global fallback');
+    err.code = 'AUDIT_PLAYWRIGHT_UNRESOLVED';
+    err.attempts = resolvePlaywright.lastAttempts || [];
+    throw err;
+  }
+
   const snapshotPath = path.resolve(ROOT, opts.snapshotPath || process.env.AUDIT_SNAPSHOT_PATH || 'data/pools-snapshot.json');
   const port = Number(opts.port || process.env.AUDIT_PORT || 8821);
-  const outPath = opts.outPath || DEFAULT_OUT;
 
   const snapshotBody = fs.readFileSync(snapshotPath, 'utf8');
   const snap = JSON.parse(snapshotBody);
@@ -391,7 +490,7 @@ async function runAudit(opts = {}) {
   if (Array.isArray(opts.only)) surfaces = surfaces.filter((s) => opts.only.includes(s.name));
 
   const server = await startServer(port);
-  const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
+  const browser = await pw.chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   const baseUrl = `http://localhost:${port}`;
   const ctx = { snapshotBody, freshMeta, liveBody };
   const findings = [];
@@ -407,22 +506,57 @@ async function runAudit(opts = {}) {
     server.close();
   }
 
-  const result = { generatedAt: new Date().toISOString(), surfacesCovered, findings };
+  const result = {
+    generatedAt: new Date().toISOString(),
+    status: 'OK',
+    playwright: { source: pw.source, version: pw.version },
+    surfacesCovered,
+    findings
+  };
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(result, null, 2) + '\n');
   return result;
 }
 
-module.exports = { runAudit, scanNumbers };
+// Exported so the item-142 exit contract (non-zero on any P0/P1) is directly
+// testable without re-running a full audit.
+function blockingFindings(findings) {
+  return (findings || []).filter((f) => f && (f.severity === 'P0' || f.severity === 'P1'));
+}
+
+module.exports = { runAudit, scanNumbers, resolvePlaywright, blockingFindings };
 
 if (require.main === module) {
+  const outPath = process.env.AUDIT_OUT || DEFAULT_OUT;
+
+  function writeFailureArtifact(x) {
+    try {
+      fs.mkdirSync(path.dirname(outPath), { recursive: true });
+      fs.writeFileSync(outPath, JSON.stringify(x, null, 2) + '\n');
+    } catch (writeErr) {
+      console.error('[audit] failed to write failure artifact: ' + writeErr.message);
+    }
+  }
+
   runAudit()
     .then((result) => {
       console.log(JSON.stringify(result, null, 2));
       console.log('\n[audit] surfaces covered: ' + result.surfacesCovered.join(', '));
-      const blocking = result.findings.filter((f) => f.severity === 'P0' || f.severity === 'P1');
+      const blocking = blockingFindings(result.findings);
       console.log(`[audit] findings: ${result.findings.length} total, ${blocking.length} blocking (P0/P1)`);
       process.exit(blocking.length > 0 ? 1 : 0);
     })
-    .catch((err) => { console.error(err); process.exit(2); });
+    .catch((err) => {
+      console.error(err);
+      const unresolved = err.code === 'AUDIT_PLAYWRIGHT_UNRESOLVED';
+      writeFailureArtifact({
+        generatedAt: new Date().toISOString(),
+        status: 'DID_NOT_RUN',
+        reason: unresolved ? 'playwright unresolvable' : (err.message || String(err)),
+        attempts: err.attempts || [],
+        surfacesCovered: [],
+        findings: []
+      });
+      process.exit(unresolved ? 3 : 2);
+    });
 }

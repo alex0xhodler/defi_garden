@@ -4,8 +4,13 @@
 a count, "done" — and you suspect the log is green while the underlying action did nothing (or the metric
 is structurally wrong). A "misleading green."
 
+**Also when** (item 149, the silent variant): a *script* reports its verdict through a durable artifact
+(`signals/*.json`, a report file, a committed count) and can die before writing it. Same lie, delivered by
+silence instead of an echo.
+
 **Answer in one line:** if a step can print success without its real work succeeding, the green is a lie —
-delete the dead work or fix the signal to reflect reality; never leave a reassuring line over a no-op.
+delete the dead work or fix the signal to reflect reality; never leave a reassuring line over a no-op. And
+if a run can END without writing its verdict, the *previous* verdict becomes the lie.
 
 ## Steps
 1. **Find the claim vs. the work.** Read the step's `run:` block. Separate the *echo* (what the log claims)
@@ -43,6 +48,17 @@ delete the dead work or fix the signal to reflect reality; never leave a reassur
   presence of that pattern is itself a smell that the log can't be trusted.
 - **Verify at the real artifact, not a stand-in.** Item 078's bad count only reproduces against the split
   sitemap index, not a single flat file.
+- **A stale artifact is a green nobody printed.** If the only durable output is a file, ask: *what does the
+  next reader see if this run dies?* If the answer is "yesterday's file, unchanged," the crash is
+  indistinguishable from a clean run. Fix by writing an explicit failure shape (`status: "DID_NOT_RUN"`,
+  empty result arrays, the reason) **to the real path**, overwriting the stale verdict, then exiting
+  non-zero — destroying the old result is the point, not a hazard. Give successes a matching positive field
+  (`status: "OK"`) so the reader checks one field instead of inferring health from an empty findings array.
+- **Crash-before-write hides in the boring lines.** 149's was a module-level `require()` of a dependency
+  that was declared *and* installed — just not where a fresh clone looks. Anything above the first write
+  (imports, arg parsing, config reads) is in the danger zone; resolve it lazily or fail loudly.
 
 **Provenance:** item 141 (dead Google/Bing sitemap-ping step, specs/141.md); item 078 (dead
-`grep -c '<url>' sitemap.xml` health count in the daily commit message, first occurrence of this class).
+`grep -c '<url>' sitemap.xml` health count in the daily commit message, first occurrence of this class);
+item 149 (`audit-app.js` crashing on `require('playwright')` in a fresh clone, writing no findings file so a
+crashed run read as "audit clean" — first *silent* occurrence, specs/149.md).
