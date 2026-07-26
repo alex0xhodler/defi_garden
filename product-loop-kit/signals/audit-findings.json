@@ -1,5 +1,10 @@
 {
-  "generatedAt": "2026-07-26T07:06:11.317Z",
+  "generatedAt": "2026-07-26T15:25:01.270Z",
+  "status": "OK",
+  "playwright": {
+    "source": "global",
+    "version": "1.56.1"
+  },
   "surfacesCovered": [
     "grid-token",
     "pool-detail",
