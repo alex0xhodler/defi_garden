@@ -1,9 +1,10 @@
 /* audit-app.js — read-only Playwright product-audit scanner (backlog 142).
 
    Mechanizes playbooks/product-audit.md checks 1–7: drives the real rendered
-   surfaces (grid, pool-detail = north star, dead-pool empty state, static SEO
-   page) against the committed data/pools-snapshot.json and emits a findings
-   JSON. It NEVER edits a product file — it only READS the rendered product.
+   surfaces (grid, pool-detail = north star, dead-pool empty state, a rotating
+   sample of static SEO leaf pages — backlog 154) against the committed
+   data/pools-snapshot.json and emits a findings JSON. It NEVER edits a product
+   file — it only READS the rendered product.
 
    Reference implementation for every fixture mechanic (local server, vendored
    unpkg React/ReactDOM/Babel, icons.llamao.fi abort, snapshot routing, the
@@ -30,6 +31,15 @@
                              also how "playwright unresolvable" is simulated).
      AUDIT_OUT             — findings JSON out path (default
                              product-loop-kit/signals/audit-findings.json).
+     AUDIT_STATIC_PAGES    — comma-separated repo-relative paths (backlog 154);
+                             when set, REPLACES the static-page anchor + sample
+                             rotation entirely and is used verbatim (tests /
+                             positive-negative controls).
+     AUDIT_STATIC_SAMPLE   — how many extra tokens/*.html + chains/*.html leaf
+                             pages to sample beyond the anchor (default 6,
+                             capped at 12; backlog 154).
+     AUDIT_STATIC_SEED     — seed string for the deterministic static-page
+                             sample (default: UTC date YYYY-MM-DD; backlog 154).
 
    backlog 149: playwright is resolved lazily (bare require -> npm global root ->
    hardcoded global fallback) instead of at module load, so `require('./audit-app.js')`
@@ -70,6 +80,136 @@ const ABSURD_MAGNITUDE = 1e11;
 // `npm root -g` resolves it (matches this environment's global install path;
 // see spec 149 evidence). Kept as a last resort, not a first choice.
 const GLOBAL_FALLBACK_ROOT = '/opt/node22/lib/node_modules';
+
+// ---------------------------------------------------------------------------
+// Sampled static SEO surface (backlog 154). Enumerates `tokens/*.html` +
+// `chains/*.html` leaf pages (excluding hub pages: tokens/index.html,
+// chains/index.html — and tokens/az/* is already excluded for free, since
+// `fs.readdirSync('tokens', {withFileTypes:true})` lists `az` as a directory
+// entry, not a `.html` file, so the `.endsWith('.html')` filter drops it).
+//
+// No `Math.random`: the sample is chosen by hashing a seed string (default
+// the UTC date — see spec 154 Design A) and striding across the sorted
+// candidate list. The only Date-based input is that default seed string,
+// read once per run; nothing here reads Date.now()/Math.random() to pick.
+// Same seed (e.g. same UTC day, re-run) ⇒ identical pick ⇒ a reproducible
+// finding. A different seed (next day, or AUDIT_STATIC_SEED override) ⇒ a
+// different start index ⇒ (on lists this size — thousands of tokens, dozens
+// of chains) a different slice, so coverage actually accumulates over time.
+// ---------------------------------------------------------------------------
+const DEFAULT_STATIC_SAMPLE = 6;
+const MAX_STATIC_SAMPLE = 12;
+// 148's junk-slug predicate, mirrored verbatim: the <h1>'s leading token is
+// pure-numeric OR date-shaped. Digit-LEADING real tickers (1W, 4W, 13W, 3CRV,
+// 1INCH, 50EIGEN, 0X0) must NOT match either — they have a non-digit
+// character, so neither regex (anchored, no wildcard letters) can hit them.
+const JUNK_SLUG_NUMERIC = /^[0-9]+$/;
+const JUNK_SLUG_DATE = /^[0-9]{1,2}(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[0-9]{2,4}$/i;
+// 032's visible-non-zero-APY gate leaking (PT/fixed-yield class, PR #309 Finding 1).
+const ZERO_YIELD_CLAIM = /up to 0\.00% APY/i;
+
+function defaultStaticSeed() {
+  // UTC date, YYYY-MM-DD. The one documented Date-based input: it changes
+  // once a day, not on every invocation, so a same-day re-run reproduces the
+  // exact same sample (and thus the exact same finding, if any).
+  return new Date().toISOString().slice(0, 10);
+}
+
+// FNV-1a — deterministic, dependency-free string hash (no crypto module, no
+// new dependency). Used only to turn the seed string into a start index.
+function hashSeed(str) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return h >>> 0;
+}
+
+function listLeafPages(dir) {
+  let entries;
+  try { entries = fs.readdirSync(path.join(ROOT, dir), { withFileTypes: true }); }
+  catch (e) { return []; }
+  return entries
+    .filter((e) => e.isFile() && e.name.endsWith('.html') && e.name !== 'index.html')
+    .map((e) => `${dir}/${e.name}`)
+    .sort();
+}
+
+// Deterministic stride-pick over a sorted list: hash(seed) chooses a start
+// index, then a stride (list.length / count) walks the list from there,
+// wrapping, skipping repeats. Same seed ⇒ same start ⇒ same picks.
+function sampleBySeed(sortedList, count, seed) {
+  if (!sortedList.length || count <= 0) return [];
+  const n = Math.min(count, sortedList.length);
+  const start = hashSeed(seed) % sortedList.length;
+  const stride = Math.max(1, Math.floor(sortedList.length / n));
+  const picked = [];
+  const seen = new Set();
+  let idx = start;
+  let guard = 0;
+  while (picked.length < n && guard < sortedList.length * 2) {
+    if (!seen.has(idx)) { seen.add(idx); picked.push(sortedList[idx]); }
+    idx = (idx + stride) % sortedList.length;
+    guard++;
+  }
+  return picked;
+}
+
+function slugFromRel(rel) {
+  return rel.replace(/^\/+/, '').replace(/\.html$/, '');
+}
+
+// Builds the static-page surface list (spec 154 Design A). `opts.staticPages`
+// / `opts.staticSample` / `opts.staticSeed` mirror the env vars, opts wins —
+// the same override convention as every other knob in this file (port,
+// snapshotPath, outPath).
+function buildStaticSurfaces(opts) {
+  const overrideRaw = opts.staticPages || process.env.AUDIT_STATIC_PAGES;
+  if (overrideRaw) {
+    // Explicit override (tests / positive control): used verbatim, replaces
+    // the anchor + rotation entirely (spec 154 Design A). First entry keeps
+    // the anchor name `static-page`; further entries use the sampled naming
+    // so surfacesCovered stays self-describing either way.
+    return overrideRaw.split(',').map((s) => s.trim()).filter(Boolean)
+      .map((rel, i) => {
+        const normalized = rel.startsWith('/') ? rel : '/' + rel;
+        const name = i === 0 ? 'static-page' : `static-page:${slugFromRel(normalized)}`;
+        return { name, url: normalized, kind: 'static', width: 1280 };
+      })
+      .filter((s) => fs.existsSync(path.join(ROOT, s.url)));
+  }
+
+  const surfaces = [];
+  // Anchor surface — unchanged fallback pair, unchanged logic, unchanged name
+  // (`static-page`), so surfacesCovered never regresses for existing callers.
+  const anchorRel = ['/tokens/usdc.html', '/chains/ethereum.html'].find((rel) => fs.existsSync(path.join(ROOT, rel)));
+  if (anchorRel) surfaces.push({ name: 'static-page', url: anchorRel, kind: 'static', width: 1280 });
+  else console.error('[audit] no static SEO anchor page found — skipping anchor');
+
+  const sampleSize = Math.min(MAX_STATIC_SAMPLE,
+    Math.max(0, Number(opts.staticSample || process.env.AUDIT_STATIC_SAMPLE || DEFAULT_STATIC_SAMPLE)));
+  const seed = opts.staticSeed || process.env.AUDIT_STATIC_SEED || defaultStaticSeed();
+
+  // Default 6 = up to 4 token + 2 chain (2:1 ratio), falling back to whatever
+  // exists on either side (spec 154 Design A).
+  const tokenCount = Math.ceil((sampleSize * 2) / 3);
+  const chainCount = sampleSize - tokenCount;
+
+  // Exclude the anchor's own leaf so the rotation never "samples" the page
+  // already covered by the anchor surface.
+  const anchorLeafRel = anchorRel ? anchorRel.replace(/^\/+/, '') : null;
+  const tokenLeaves = listLeafPages('tokens').filter((r) => r !== anchorLeafRel);
+  const chainLeaves = listLeafPages('chains').filter((r) => r !== anchorLeafRel);
+
+  const tokenPicks = sampleBySeed(tokenLeaves, tokenCount, `${seed}:tokens`);
+  const chainPicks = sampleBySeed(chainLeaves, chainCount, `${seed}:chains`);
+
+  for (const rel of tokenPicks.concat(chainPicks)) {
+    surfaces.push({ name: `static-page:${slugFromRel(rel)}`, url: '/' + rel, kind: 'static', width: 1280 });
+  }
+  return surfaces;
+}
 
 // ---------------------------------------------------------------------------
 // Lazy playwright resolution (backlog 149). No module-level `chromium`
@@ -319,9 +459,32 @@ async function main(browser, baseUrl, s, ctx) {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
 
     if (s.kind === 'static') {
-      // Static SEO page: number sanity + page errors only.
+      // Static SEO page: number sanity + page errors, plus the 154 checks —
+      // all read from the RENDERED page, this is a detector only (no writes).
       await page.waitForTimeout(400);
-      await auditText(page, s, findings);
+      const text = await auditText(page, s, findings);
+
+      // junk-slug (148 class): leading token of the rendered <h1> is
+      // pure-numeric or date-shaped. Detail quotes the rendered <h1> verbatim.
+      const h1Text = (await page.locator('h1').first().textContent().catch(() => '')) || '';
+      const leadToken = h1Text.trim().split(/\s+/)[0] || '';
+      if (leadToken && (JUNK_SLUG_NUMERIC.test(leadToken) || JUNK_SLUG_DATE.test(leadToken))) {
+        findings.push(finding(s.name, s.vpLabel, 'junk-slug', 'P1', `rendered <h1> is junk: "${h1Text.trim()}"`));
+      }
+
+      // zero-yield-claim (item 032's visible-non-zero-APY gate leaking).
+      if (ZERO_YIELD_CLAIM.test(text)) {
+        findings.push(finding(s.name, s.vpLabel, 'zero-yield-claim', 'P1', 'rendered copy claims "up to 0.00% APY"'));
+      }
+
+      // empty-table (soft-404 class): no pool rows rendered at all. Union of
+      // both row selectors — a static page is either a token page (.tp-…) or
+      // a chain page (.cp-…), never both, so either being present is enough.
+      const rowCount = await page.locator('.tp-pool-link, .cp-pool-link').count();
+      if (rowCount === 0) {
+        findings.push(finding(s.name, s.vpLabel, 'empty-table', 'P1', 'rendered page has zero .tp-pool-link/.cp-pool-link rows'));
+      }
+
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
       return findings;
@@ -469,8 +632,6 @@ async function runAudit(opts = {}) {
     data: pools.map((p) => Object.assign({}, p, { apy: (p.apyBase || 0) + (p.apyReward || 0) }))
   });
 
-  const staticPage = ['/tokens/usdc.html', '/chains/ethereum.html'].find((rel) => fs.existsSync(path.join(ROOT, rel)));
-
   // Default surface rotation.
   const poolUrl = `/home.html?pool=${encodeURIComponent(poolId)}`;
   let surfaces = [
@@ -484,8 +645,13 @@ async function runAudit(opts = {}) {
     { name: 'pool-detail-dark', url: poolUrl, kind: 'pool', width: 1280, dark: true },
     { name: 'pool-detail-ko', url: `${poolUrl}&lang=ko`, kind: 'pool', width: 1280, ko: true }
   ];
-  if (staticPage) surfaces.push({ name: 'static-page', url: staticPage, kind: 'static', width: 1280 });
-  else console.error('[audit] no static SEO page found — skipping static surface');
+  surfaces = surfaces.concat(buildStaticSurfaces(opts));
+
+  // Test-support only (not a spec-154 env override): restrict the run to just
+  // the static-page surfaces, skipping the 9 app surfaces entirely. Used by
+  // the determinism acceptance test so it can call runAudit() twice per seed
+  // without paying for the full grid/pool-detail/dead-pool render each time.
+  if (opts.staticOnly) surfaces = surfaces.filter((s) => s.kind === 'static');
 
   if (Array.isArray(opts.only)) surfaces = surfaces.filter((s) => opts.only.includes(s.name));
 

@@ -42,7 +42,8 @@ run; log which surfaces you covered.
 - `?chain=<X>`
 - `?pool=<live id>` — **pool detail = the current north-star surface** (audit this every tick)
 - `?pool=<dead id>` — 072 dead-pool empty state
-- `/tokens/<slug>`, `/chains/<slug>` — static SEO pages
+- `/tokens/<slug>`, `/chains/<slug>` — static SEO pages. Drive a **sample**, not just `usdc`/`ethereum`:
+  the junk lives in the tail of the 2,079-page set, never in the flagship page (item 154)
 
 ## Bug-class checklist (smell → check → the finding it came from)
 1. **Number sanity.** Scan rendered text for `NaN`/`Infinity`/`undefined`/`null`; absurd magnitude (a
@@ -113,11 +114,29 @@ Checks 1–7 are mechanized: **`audit-app.js` shipped (item 142, 2026-07-25)** �
 scanner over the surface rotation emitting `signals/audit-findings.json` for the heartbeat to ticket.
 Known blind spot (144): its number-sanity check is magnitude-only (`ABSURD_MAGNITUDE = 1e11`), so
 out-of-rail **percentages** — the 144 class — pass clean. Candidate extension: a rail-relative percent
-check per the decision rule in class 1 above. Checks 8 and 9 stay human judgment: **9 is structurally
-un-mechanizable by this scanner** — it drives a fixed surface rotation, so it cannot flag a surface that
-should not exist. Class 9 runs from the Mixpanel URL breakdown, not from Playwright. Run it every tick.
-A tick where `audit-app.js` returns 0 findings is therefore NOT a tick with nothing to look at — 2026-07-26
+check per the decision rule in class 1 above.
+
+**Generated-surface sampling (item 154, 2026-07-26).** The static-SEO leg used to be ONE hand-picked page
+(`/tokens/usdc.html` — the best page in the set) out of 2,079 token + 88 chain pages, which is why the
+scanner scored 10 surfaces / 0 findings on the same day a human found item 148 by hand. It now drives an
+anchor page **plus a deterministic rotating sample** (`AUDIT_STATIC_SAMPLE`, default 6; seeded by UTC date
+via `AUDIT_STATIC_SEED`, so a same-day re-run reproduces a finding and the next day covers a different
+slice), and the `kind:'static'` branch flags three page-level classes: `junk-slug` (rendered `<h1>` lead
+token pure-numeric or date-shaped — the 148 class), `zero-yield-claim` (`"up to 0.00% APY"` — item 032's
+gate leaking, the PT/fixed-yield class), and `empty-table` (zero `.tp-pool-link`/`.cp-pool-link` rows —
+soft-404). Use `AUDIT_STATIC_PAGES=<rel,paths>` to pin exact pages when reproducing.
+
+That narrows check 9 but does not close it. The scanner can now see **a bad page that exists on disk**;
+it still cannot see **a URL class that was never generated into the repo** (crawler-walked app URLs like
+`?token=22OCT2026`). Split the class accordingly: on-disk junk → `audit-app.js`; live-URL provenance →
+the Mixpanel URL breakdown, every tick. Check 8 stays human judgment.
+A tick where `audit-app.js` returns 0 findings is still NOT a tick with nothing to look at — 2026-07-26
 scored 0 findings across 10 surfaces and still produced 148 from the URL-provenance check.
+
+**Trap (154):** when a scanner starts reporting a class that is genuinely live, an existing "clean run"
+acceptance test will go red on TRUE positives. Scope that test to the surfaces it was written about
+(`runAudit({only: [...]})`) — never downgrade a severity or filter the finding away to restore green. The
+scanner's honesty is the product.
 
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
