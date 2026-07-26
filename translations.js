@@ -595,6 +595,10 @@ const translations = {
       // Share
       shareOnX: "Share on X",
       shareTweet: (labels) => `My yield pays for ${labels} — forever 🌱 Join me on DeFi Garden:`,
+      // Non-subscription (TARGET/GROWTH) tweet frame (spec 146) — shareTweet's
+      // "My yield pays for X — forever" phrasing is subscription-only; this
+      // wraps the archetype-correct share headline instead.
+      shareTweetGeneric: (headline) => `${headline} 🌱 Join me on DeFi Garden:`,
       downloadCard: "Download garden card",
       waitlistClose: "Close",
 
@@ -1278,6 +1282,7 @@ const translations = {
       // Share
       shareOnX: "X에 공유",
       shareTweet: (labels) => `수익이 ${labels} 요금을 영원히 내줘요 🌱 DeFi Garden에서 함께해요:`,
+      shareTweetGeneric: (headline) => `${headline} 🌱 DeFi Garden에서 함께해요:`,
       downloadCard: "정원 카드 다운로드",
       waitlistClose: "닫기",
 

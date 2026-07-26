@@ -284,7 +284,11 @@
       }
       if (monthly === null) {
         var g = goalById(id);
-        if (g && typeof g.target === 'number') monthly = g.target;
+        // spec 146 root-cause fix: only resolve a GOALS fallback when the goal
+        // is genuinely a monthly cost (archetype: 'subscription' + isMonthly
+        // true). Without this guard a TARGET goal's ONE-TIME item price
+        // (GOALS[].target, e.g. iphone=1100) was misread as a $/mo figure.
+        if (g && g.isMonthly === true && typeof g.target === 'number') monthly = g.target;
       }
       if (monthly !== null) {
         combinedMonthly += monthly;
@@ -1682,10 +1686,14 @@
     // every capital change while the mix is untouched. mixStats ignores an
     // unresolvable id, so the extra `goal` truthiness guard is just belt-and-braces.
     useEffect(function () {
-      if (!mixTouched && apy > 0 && goal) {
+      // spec 146: gate the seed to the subscription archetype — selectedSubs is
+      // a subscription-mix concept only (already gated everywhere it's
+      // persisted, planner.js ~1934/1962); seeding it for TARGET/GROWTH
+      // populated currentMixStats with a bogus bundle from first render.
+      if (archetype === 'subscription' && !mixTouched && apy > 0 && goal) {
         setSelectedSubs([goal]);
       }
-    }, [apy, goal, mixTouched]);
+    }, [apy, goal, mixTouched, archetype]);
 
     // Derive capital from the mix whenever selectedSubs changes
     var currentMixStats = useMemo(function () {
@@ -1818,19 +1826,34 @@
       // Derive handle from email local part
       var rawHandle = waitlistEmail.split('@')[0] || '';
       var derived = sanitizeHandle(rawHandle);
-      var mixLabels = selectedSubs.map(function (id) {
-        var found = null;
-        for (var li2 = 0; li2 < SUBSCRIPTION_LADDER.length; li2++) {
-          if (SUBSCRIPTION_LADDER[li2].id === id) { found = SUBSCRIPTION_LADDER[li2]; break; }
-        }
-        return found ? t(found.labelKey) : id;
-      });
-      var labelsStr = joinBundle(mixLabels) || goalLabel(t, goal);
       var personaTitle = pk === 'stable' ? t('personaStableTitle') : (pk === 'rwa' ? t('personaRwaTitle') : t('personaDegenTitle'));
-      var msgSummary = 'covers ' + labelsStr
-        + ' (~' + formatUsd(currentMixStats.combinedMonthly) + '/mo)'
-        + ' for ~' + formatUsd(currentMixStats.neededCapital)
-        + ', risk ' + personaTitle;
+      // spec 146: branch by archetype. Subscription keeps the pre-existing
+      // "covers …" summary verbatim (raw-id fallback fixed to goalLabel).
+      // TARGET/GROWTH previously reused this same "covers X (~$Y/mo)" string
+      // even though those goals have no $/mo — an honest plain-English
+      // summary of the plan actually built (goal + capital or monthly×years +
+      // risk) replaces it. Not user-facing UI (operator's Formspree inbox
+      // only) — intentionally left untranslated, per spec.
+      var msgSummary;
+      if (archetype === 'subscription') {
+        var mixLabels = selectedSubs.map(function (id) {
+          var found = null;
+          for (var li2 = 0; li2 < SUBSCRIPTION_LADDER.length; li2++) {
+            if (SUBSCRIPTION_LADDER[li2].id === id) { found = SUBSCRIPTION_LADDER[li2]; break; }
+          }
+          return found ? t(found.labelKey) : goalLabel(t, id);
+        });
+        var labelsStr = joinBundle(mixLabels) || goalLabel(t, goal);
+        msgSummary = 'covers ' + labelsStr
+          + ' (~' + formatUsd(currentMixStats.combinedMonthly) + '/mo)'
+          + ' for ~' + formatUsd(currentMixStats.neededCapital)
+          + ', risk ' + personaTitle;
+      } else {
+        var fundingDesc = isCapitalPath
+          ? ('~' + formatUsd(slideCapital) + ' capital')
+          : ('~' + formatUsd(slideMonthly) + '/mo for ' + slideYears + ' yrs');
+        msgSummary = goalLabel(t, goal) + ' plan: ' + fundingDesc + ', risk ' + personaTitle;
+      }
       var payload = {
         email: waitlistEmail,
         message: msgSummary,
@@ -1866,15 +1889,32 @@
     }
 
     function doWaitlistShare() {
-      var mixLabels2 = selectedSubs.map(function (id2) {
-        var found2 = null;
-        for (var li3 = 0; li3 < SUBSCRIPTION_LADDER.length; li3++) {
-          if (SUBSCRIPTION_LADDER[li3].id === id2) { found2 = SUBSCRIPTION_LADDER[li3]; break; }
-        }
-        return found2 ? t(found2.labelKey) : id2;
-      });
-      var tweetLabels = joinBundle(mixLabels2) || goalLabel(t, goal);
-      var tweetText = t('shareTweet', tweetLabels);
+      var tweetText;
+      if (archetype === 'subscription') {
+        // Byte-for-byte pre-146 behavior: label the ACTUAL selected mix
+        // (selectedSubs) — NOT buildShareCopy's coveredBundle-derived
+        // rowLabel, which reflects what the parked capital covers and can
+        // diverge from selectedSubs the moment a user manually toggles the
+        // mix UI (e.g. adds Spotify without the capital covering it yet).
+        // Reusing buildShareCopy here would be a real behavior change on an
+        // already-correct path; only the raw-id fallback (item 5) is fixed.
+        var mixLabels2 = selectedSubs.map(function (id2) {
+          var found2 = null;
+          for (var li3 = 0; li3 < SUBSCRIPTION_LADDER.length; li3++) {
+            if (SUBSCRIPTION_LADDER[li3].id === id2) { found2 = SUBSCRIPTION_LADDER[li3]; break; }
+          }
+          return found2 ? t(found2.labelKey) : goalLabel(t, id2);
+        });
+        var tweetLabels = joinBundle(mixLabels2) || goalLabel(t, goal);
+        tweetText = t('shareTweet', tweetLabels);
+      } else {
+        // TARGET/GROWTH never had an archetype-correct tweet frame at all
+        // (shareTweet is subscription-worded "My yield pays for X —
+        // forever") — reuse doShare's archetype branch (2026-07-10 REUSE
+        // directive) via buildShareCopy + a new generic tweet wrapper.
+        var copy = buildShareCopy();
+        tweetText = t('shareTweetGeneric', copy.headline);
+      }
       var tweetUrl = 'https://www.defi.garden/?ref=' + encodeURIComponent(referralHandle);
       window.open(
         'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweetText) +
@@ -1884,34 +1924,62 @@
     }
 
     function doWaitlistDownload() {
-      var heroDate2 = ladderDates ? monthsFromNow(ladderDates[pk]) : null;
-      var matchedSubs3 = [];
-      var mixLabels3 = selectedSubs.map(function (id3) {
-        var found3 = null;
-        for (var li4 = 0; li4 < SUBSCRIPTION_LADDER.length; li4++) {
-          if (SUBSCRIPTION_LADDER[li4].id === id3) { found3 = SUBSCRIPTION_LADDER[li4]; break; }
-        }
-        if (found3) matchedSubs3.push(found3);
-        return found3 ? t(found3.labelKey) : id3;
-      });
-      var dlList = joinBundle(mixLabels3) || goalLabel(t, goal);
-      var dlHeadline = dlList ? t('shareSubBundle', dlList) : t('shareSubWin', goalLabel(t, goal));
-      // Featured service for the row-1 icon: the single bundled service if exactly
-      // one is selected, else the anchor goal (0 selected) — a 2+ bundle has no
-      // single logo to show, so it falls back to the sprout emoji in renderShareImage.
-      var dlFeatured = matchedSubs3.length === 1 ? matchedSubs3[0]
-        : (selectedSubs.length === 0 ? brandForId(goal) : null);
+      var headline, subline, drawChart, rowLabel, featured;
+      if (archetype === 'subscription') {
+        // Byte-for-byte pre-146 behavior — same selectedSubs-based mix bundle
+        // as before (see doWaitlistShare above for why buildShareCopy's
+        // coveredBundle path is NOT reused here); only the raw-id fallback
+        // (item 5) is fixed.
+        var matchedSubs3 = [];
+        var mixLabels3 = selectedSubs.map(function (id3) {
+          var found3 = null;
+          for (var li4 = 0; li4 < SUBSCRIPTION_LADDER.length; li4++) {
+            if (SUBSCRIPTION_LADDER[li4].id === id3) { found3 = SUBSCRIPTION_LADDER[li4]; break; }
+          }
+          if (found3) matchedSubs3.push(found3);
+          return found3 ? t(found3.labelKey) : goalLabel(t, id3);
+        });
+        var dlList = joinBundle(mixLabels3) || goalLabel(t, goal);
+        headline = dlList ? t('shareSubBundle', dlList) : t('shareSubWin', goalLabel(t, goal));
+        // Featured service for the row-1 icon: the single bundled service if
+        // exactly one is selected, else the anchor goal (0 selected) — a 2+
+        // bundle has no single logo, falls back to the sprout emoji.
+        featured = matchedSubs3.length === 1 ? matchedSubs3[0]
+          : (selectedSubs.length === 0 ? brandForId(goal) : null);
+        rowLabel = dlList;
+        subline = t('shareSubSubline', formatUsdRounded(currentMixStats.neededCapital || subCapital || 0), formatApy(apy), formatUsd(currentMixStats.combinedMonthly));
+        drawChart = false;
+      } else {
+        // TARGET/GROWTH — the actually-broken path this spec fixes. Reuse
+        // doShare's archetype branch (2026-07-10 REUSE directive).
+        var copy = buildShareCopy();
+        headline = copy.headline; subline = copy.subline; drawChart = copy.drawChart;
+        rowLabel = copy.rowLabel; featured = copy.featured;
+      }
+      // spec 146 item 4: carry the plan URL off the device like every other
+      // share path (same argument list doShare uses) — this surface
+      // previously shipped a PNG with no link and no share_link_created.
+      var shareUrl = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters, selectedSubs);
       renderShareImage({
-        headline: dlHeadline,
-        goalLabel: dlList,
-        brandIcon: dlFeatured ? dlFeatured.icon : null,
-        brandEmoji: dlFeatured ? dlFeatured.emoji : '🌱',
-        subline: t('shareSubSubline', formatUsdRounded(currentMixStats.neededCapital || subCapital || 0), formatApy(apy), formatUsd(currentMixStats.combinedMonthly)),
+        headline: headline,
+        goalLabel: rowLabel,
+        brandIcon: featured ? featured.icon : null,
+        brandEmoji: featured ? featured.emoji : '🌱',
+        subline: subline,
         footer: t('shareFooter'),
         years: slideYears,
         you: slideMonthly,
         apy: apy,
-        drawChart: false
+        drawChart: drawChart,
+        url: shareUrl,
+        shareText: headline
+      }).then(function (result) {
+        if (result && result.linkAttached) {
+          if (typeof Analytics !== 'undefined') {
+            // New, disjoint method value — cannot pollute the existing image/link series.
+            Analytics.trackShareLinkCreated({ method: 'waitlist_card', goal: goal, persona: persona });
+          }
+        }
       }).catch(function () {});
     }
 
@@ -1987,10 +2055,16 @@
         });
     }
 
-    function doShare() {
-      setSharing(true);
+    // buildShareCopy() — single source of truth for the archetype-branched
+    // share copy (headline/subline/row-label/featured brand/chart-flag).
+    // Extracted from doShare (spec 146) so doWaitlistShare and
+    // doWaitlistDownload reuse the SAME branching instead of re-deriving
+    // their own (previously subscription-only, TARGET/GROWTH-incoherent)
+    // copy — the 2026-07-10 REUSE directive. doShare's own output is
+    // unchanged: this is the same code, only moved.
+    function buildShareCopy() {
       var heroDate = ladderDates ? monthsFromNow(ladderDates[pk]) : null;
-      var shareHeadline, shareSubline, shareDrawChart, shareRowLabel, shareFeatured;
+      var headline, subline, drawChart, rowLabel, featured;
 
       if (archetype === 'subscription' && isCapitalPath) {
         // Subscription capital path: bundle-aware headline + correct figures
@@ -1998,8 +2072,8 @@
         var shareBundleLabels = shareBundle.covered.map(function (r) { return t(r.labelKey); });
         var shareBundleList = joinBundle(shareBundleLabels);
         if (shareBundleList) {
-          shareHeadline = t('shareSubBundle', shareBundleList);
-          shareSubline = t('shareSubSubline',
+          headline = t('shareSubBundle', shareBundleList);
+          subline = t('shareSubSubline',
             formatUsdRounded(subCapital),
             formatApy(apy),
             formatUsd(shareBundle.combinedMonthly)
@@ -2007,67 +2081,73 @@
           // Row-1 label must match the headline's list, not the anchor goal alone —
           // a single covered service gets its own logo; a multi-service bundle has
           // no single logo, so it falls back to the sprout emoji in renderShareImage.
-          shareRowLabel = shareBundleList;
-          shareFeatured = shareBundle.covered.length === 1 ? brandForId(shareBundle.covered[0].id) : null;
+          rowLabel = shareBundleList;
+          featured = shareBundle.covered.length === 1 ? brandForId(shareBundle.covered[0].id) : null;
         } else {
           // Capital parked but doesn't cover anchor yet — fall back gracefully
-          shareHeadline = t('shareSubWin', goalLabel(t, goal));
-          shareSubline = t('shareSubSubline',
+          headline = t('shareSubWin', goalLabel(t, goal));
+          subline = t('shareSubSubline',
             formatUsdRounded(subCapital),
             formatApy(apy),
             formatUsd(0)
           );
-          shareRowLabel = goalLabel(t, goal);
-          shareFeatured = brandForId(goal);
+          rowLabel = goalLabel(t, goal);
+          featured = brandForId(goal);
         }
-        shareDrawChart = false;
+        drawChart = false;
       } else if (archetype === 'subscription') {
         // Monthly subscription path
-        shareHeadline = foreverDate
+        headline = foreverDate
           ? t('heroSubscription', goalLabel(t, goal), foreverDate)
           : t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
-        shareSubline = t('shareSubline', formatUsd(monthly), slideYears);
-        shareDrawChart = true;
-        shareRowLabel = goalLabel(t, goal);
-        shareFeatured = brandForId(goal);
+        subline = t('shareSubline', formatUsd(monthly), slideYears);
+        drawChart = true;
+        rowLabel = goalLabel(t, goal);
+        featured = brandForId(goal);
       } else if (archetype === 'target') {
         // Target path
         if (isCapitalPath && heroDate) {
-          shareHeadline = t('shareTargetNew', goalLabel(t, goal), heroDate);
+          headline = t('shareTargetNew', goalLabel(t, goal), heroDate);
         } else if (targetDate) {
-          shareHeadline = t('heroTarget', goalLabel(t, goal), targetDate);
+          headline = t('heroTarget', goalLabel(t, goal), targetDate);
         } else {
-          shareHeadline = t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
+          headline = t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
         }
-        shareSubline = isCapitalPath
+        subline = isCapitalPath
           ? formatUsdRounded(slideCapital) + ' · ' + formatApy(apy)
           : t('shareSubline', formatUsd(monthly), slideYears);
-        shareDrawChart = !isCapitalPath;
-        shareRowLabel = goalLabel(t, goal);
-        shareFeatured = brandForId(goal);
+        drawChart = !isCapitalPath;
+        rowLabel = goalLabel(t, goal);
+        featured = brandForId(goal);
       } else {
         // Growth path
-        shareHeadline = t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
-        shareSubline = t('shareSubline', formatUsd(monthly), slideYears);
-        shareDrawChart = true;
-        shareRowLabel = goalLabel(t, goal);
-        shareFeatured = brandForId(goal);
+        headline = t('bloomHeadline', formatUsdRounded(liveProjection), slideYears);
+        subline = t('shareSubline', formatUsd(monthly), slideYears);
+        drawChart = true;
+        rowLabel = goalLabel(t, goal);
+        featured = brandForId(goal);
       }
 
+      return { headline: headline, subline: subline, rowLabel: rowLabel, featured: featured, drawChart: drawChart };
+    }
+
+    function doShare() {
+      setSharing(true);
+      var copy = buildShareCopy();
       var shareUrl = encodePlanToUrl(goal, monthly, years, persona, props.capital, props.fundingMode, props.deadline, poolFilters, selectedSubs);
       renderShareImage({
-        headline: shareHeadline,
-        goalLabel: shareRowLabel,
-        brandIcon: shareFeatured ? shareFeatured.icon : null,
-        brandEmoji: shareFeatured ? shareFeatured.emoji : '🌱',
-        subline: shareSubline,
+        headline: copy.headline,
+        goalLabel: copy.rowLabel,
+        brandIcon: copy.featured ? copy.featured.icon : null,
+        brandEmoji: copy.featured ? copy.featured.emoji : '🌱',
+        subline: copy.subline,
         footer: t('shareFooter'),
         years: slideYears,
         you: slideMonthly, apy: apy,
-        drawChart: shareDrawChart,
+        drawChart: copy.drawChart,
         // Spec 005: the image share must also carry the plan URL off the device.
         url: shareUrl,
-        shareText: shareHeadline
+        shareText: copy.headline
       }).then(function (result) {
         setSharing(false);
         if (result && result.linkAttached) {
