@@ -172,7 +172,7 @@
          never hand-edit. -->
     <script defer src="./react.production.min.js"></script>
     <script defer src="./react-dom.production.min.js"></script>
-    <script defer src="translations.js"></script>
+    <script defer src="translations.min.js"></script>
 
     <!-- Mixpanel — synchronous stub loader (queues calls until the real lib loads
          async); safe to run before analytics.js since it just needs `mixpanel`
@@ -193,7 +193,7 @@
 
     <!-- Planner script — static defer so it runs after React + translations + analytics.
          Minified in CI (backlog 053); edit planner.js, never planner.min.js. -->
-    <script defer src="planner.js"></script>
+    <script defer src="planner.min.js"></script>
 
     <!-- Search-first landing script — mounts only when the router selects it. -->
     <script defer src="landing.js"></script>
