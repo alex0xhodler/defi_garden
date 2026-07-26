@@ -1,9 +1,16 @@
 {
-  "generatedAt": "2026-07-25T12:50:51.750Z",
+  "generatedAt": "2026-07-26T00:16:05.412Z",
   "surfacesCovered": [
     "grid-token",
     "pool-detail",
-    "dead-pool"
+    "grid-chain",
+    "dead-pool",
+    "grid-loading",
+    "pool-detail-360",
+    "grid-360",
+    "pool-detail-dark",
+    "pool-detail-ko",
+    "static-page"
   ],
   "findings": []
 }

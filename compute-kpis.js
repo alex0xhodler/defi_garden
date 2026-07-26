@@ -21,9 +21,12 @@
  *   - This script NEVER filters, drops, reorders, or re-weights a pool. It only
  *     ADDS a `kpis` object. The pool set and order in every output file is
  *     exactly what the 059 generator produced.
- *   - This script NEVER reads or relaxes the trust rails (APY_SANITY_LIMIT,
- *     DEFAULT_MIN_TVL, anomaly flags) — those are applied UPSTREAM by the 059
- *     generator and stay byte-untouched here.
+ *   - This script NEVER relaxes the trust rails (APY_SANITY_LIMIT, DEFAULT_MIN_TVL,
+ *     anomaly flags) — those are applied UPSTREAM by the 059 generator and stay
+ *     byte-untouched here. 145: it DOES mirror APY_SANITY_LIMIT locally (read-only,
+ *     never redefined/relaxed) to bound its OWN derived math over the history
+ *     series — an out-of-rail history point must not feed apyMean/apyStdev/
+ *     apySharpe/apyMomentum, even though the pool itself still passes upstream.
  *   - History piggybacks the existing daily commit and only appends on a REAL
  *     data change, so it adds no extra Vercel deploy.
  *
@@ -50,6 +53,12 @@ const SHARPE_MIN_POINTS = 8;    // 117: below this the rate-stability Sharpe is 
 const SHARPE_MIN_STDEV = 0.05;  // 122: min apy stdev (pp) to score — below this the rate is flat and
                                 //      sd = float dust (~1e-16), which blew up (mean-RF)/sd to -9e14
 const SHARPE_ABS_MAX = 50;      // 122: cap |Sharpe| — beyond this it's noise (or anomalous), not shown
+const APY_SANITY_LIMIT = 1000;  // 145 TRUST RAIL mirror (source of truth: app.js:800): a rate above this
+                                 // is not credible, so nothing may be DERIVED from it either — an
+                                 // out-of-rail history point must not feed apyMean/apyStdev/apySharpe/
+                                 // apyMomentum. This script still never READS or RELAXES the rail
+                                 // upstream (header comment above); it only ADDS this bound to its own
+                                 // derived math over the history series.
 
 // --- helpers ---------------------------------------------------------------
 
@@ -118,13 +127,20 @@ function computeKpis(pool, series) {
     const s = round((mean - RISK_FREE_APY) / sd, 2);
     if (Number.isFinite(s) && Math.abs(s) <= SHARPE_ABS_MAX) apySharpe = s;
   }
+  // 145 trust rail: an out-of-rail rate point is not credible data, so nothing
+  // may be DERIVED from it — honest omission, never a clamped/"cleaned" value.
+  // apyMean/apyStdev/apySharpe read the WHOLE series (any point over the rail
+  // poisons all three); apyMomentum reads ONLY the first/last endpoints (a
+  // poisoned MIDDLE point must not null it — the real-world case this fixes).
+  const seriesRailed = apys.some(a => a > APY_SANITY_LIMIT);
+  const momentumRailed = first.apyTotal > APY_SANITY_LIMIT || last.apyTotal > APY_SANITY_LIMIT;
   return {
     historyPoints: series.length,
     firstSeen: first.date,
-    apyMomentum: enough ? round(last.apyTotal - first.apyTotal, 2) : null,
-    apyStdev: enough ? round(sd, 2) : null,
-    apyMean: round(mean, 2),
-    apySharpe,
+    apyMomentum: (enough && !momentumRailed) ? round(last.apyTotal - first.apyTotal, 2) : null,
+    apyStdev: (enough && !seriesRailed) ? round(sd, 2) : null,
+    apyMean: seriesRailed ? null : round(mean, 2),
+    apySharpe: seriesRailed ? null : apySharpe,
     tvlTrend: (!enough || first.tvlUsd === 0)
       ? null
       : round((last.tvlUsd - first.tvlUsd) / first.tvlUsd, 4)
@@ -408,7 +424,7 @@ module.exports = {
   round, slimPoint, buildSlimMap, stdevPop, computeKpis, buildSeriesByPool,
   historyDir, readHistory, pruneHistory, appendHistory, resolveDataPaths,
   normalize, enrich, HISTORY_RETENTION, SCHEMA_VERSION, RISK_FREE_APY, SHARPE_MIN_POINTS,
-  reshapeDbRows, fetchDbHistory, DB_WINDOW_DAYS
+  reshapeDbRows, fetchDbHistory, DB_WINDOW_DAYS, APY_SANITY_LIMIT
 };
 
 if (require.main === module) {
