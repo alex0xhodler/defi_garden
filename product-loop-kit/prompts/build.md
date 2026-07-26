@@ -5,6 +5,8 @@ You are one iteration of the build loop. You do exactly one backlog item this se
 ## 1. Pick up work
 Read `product-loop-kit/NORTH_STAR.md`, then `product-loop-kit/BACKLOG.md`. Take the highest-scored item with status READY (skip items at attempt-limit). Set it to IN_PROGRESS with today's date. Read its spec in `product-loop-kit/specs/` fully. Read `CLAUDE.md`.
 
+**Before you start building, check the item isn't already in flight** (added 2026-07-26 after two runs built item 148 the same day): `git ls-remote origin 'refs/heads/claude/loop-<id>'`, or list open PRs. Because the status change ships in the SAME commit as the code (2026-07-13 rule), an item whose PR is open-but-unmerged — the mandatory outcome for anything NEVER-list-gated — still reads `READY` on `main`. An existing `claude/loop-<id>` branch or open PR means IN_REVIEW/BLOCKED: skip to the next item. Full write-up in `LEARNINGS.md` (2026-07-26, loop process).
+
 If `git status` shows uncommitted changes OUTSIDE product-loop-kit/ at pickup: STOP — mark nothing, log `dirty tree — human work present, aborting to avoid sweeping it into a loop commit`, and exit. Never commit changes you didn't make.
 
 If the spec has an open question whose answer changes the architecture: don't guess. Mark the item BLOCKED with the question, log it, exit. Guessed intent is how loops ship the wrong thing fast.
