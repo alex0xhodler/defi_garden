@@ -40,6 +40,17 @@
                              capped at 12; backlog 154).
      AUDIT_STATIC_SEED     — seed string for the deterministic static-page
                              sample (default: UTC date YYYY-MM-DD; backlog 154).
+     AUDIT_STATIC_PRESCAN_MAX — cap on how many prescan-flagged suspect pages
+                             get promoted into the rendered sample ahead of the
+                             uniform rotation (default 4, clamped to the
+                             sample size; backlog 157). Promoted pages replace
+                             uniform picks — the total static-page budget
+                             (anchor + sample size) never grows.
+     AUDIT_STATIC_PRESCAN  — set to '0' to disable prescan/promotion entirely
+                             (falls back to pure uniform rotation; backlog
+                             157). Same effect as opts.prescan === false.
+                             Prescan is already off whenever AUDIT_STATIC_PAGES
+                             is set (that override is used verbatim).
 
    backlog 149: playwright is resolved lazily (bare require -> npm global root ->
    hardcoded global fallback) instead of at module load, so `require('./audit-app.js')`
@@ -108,6 +119,33 @@ const JUNK_SLUG_DATE = /^[0-9]{1,2}(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|
 // 032's visible-non-zero-APY gate leaking (PT/fixed-yield class, PR #309 Finding 1).
 const ZERO_YIELD_CLAIM = /up to 0\.00% APY/i;
 
+// backlog 157 prescan-only signals (no rendered-page equivalent to reuse):
+// bare broken-numeric-literal tokens, and an absurd $-magnitude figure in
+// visible text. Both are text-only checks — no Playwright, no DOM.
+const BROKEN_NUMBER_LITERAL = /(^|[^A-Za-z0-9$])(NaN|Infinity|undefined|null)(?![A-Za-z0-9])/;
+// Tightened per spec 157 evidence: the loose form `-?\$?[0-9][0-9,.]*\s?[TQ]\b`
+// (no prefix guard) false-positives on tokens/a0t.html — "A0T" contains the
+// substring "0T", which matches as if it were "0 Trillion". Requiring the
+// character before the leading digit be start-of-string or non-alphanumeric
+// excludes "A0T" (preceded by the letter "A") while still catching a real
+// standalone magnitude like "900,719,925,474,097.9T" or "$1.2Q". Measured
+// 0/2,176 on this checkout (spec 157 evidence) — do NOT revert to the loose form.
+const ABSURD_MAGNITUDE_TEXT = /(^|[^A-Za-z0-9])-?\$?[0-9][0-9,.]*\s?[TQ]\b/;
+
+// Default cap on how many prescan suspects get promoted into the rendered
+// sample per run (spec 157 B.2) — small on purpose: promoted pages replace
+// uniform picks, they never grow the total static-page render budget.
+const DEFAULT_PRESCAN_MAX = 4;
+
+// signal -> severity, single source of truth for both prescanStaticPages()
+// suspect records and the aggregate `static-prescan:<signal>` findings.
+const PRESCAN_SIGNALS = {
+  'broken-number-literal': 'P0',
+  'absurd-magnitude': 'P0',
+  'junk-slug': 'P1',
+  'zero-yield-claim': 'P1'
+};
+
 function defaultStaticSeed() {
   // UTC date, YYYY-MM-DD. The one documented Date-based input: it changes
   // once a day, not on every invocation, so a same-day re-run reproduces the
@@ -160,24 +198,109 @@ function slugFromRel(rel) {
   return rel.replace(/^\/+/, '').replace(/\.html$/, '');
 }
 
-// Builds the static-page surface list (spec 154 Design A). `opts.staticPages`
-// / `opts.staticSample` / `opts.staticSeed` mirror the env vars, opts wins —
-// the same override convention as every other knob in this file (port,
-// snapshotPath, outPath).
+// Strips <script>/<style> blocks, captures the <h1> inner text, then strips
+// all remaining tags to get visible text — pure string ops, no DOM/parser.
+function extractPageText(html) {
+  const stripped = html
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ');
+  const h1Match = stripped.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
+  const h1Text = (h1Match ? h1Match[1] : '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const visibleText = stripped.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  return { h1Text, visibleText };
+}
+
+// ---------------------------------------------------------------------------
+// Static-surface prescan (backlog 157). Pure fs + regex over EVERY
+// tokens/*.html + chains/*.html leaf page — no Playwright, no network, no
+// writes — so the (small) rendered sample can be AIMED at suspicious pages
+// instead of picked uniformly (spec 157 evidence: p ≈ 1.3%/day of hitting a
+// known-bad page at the old uniform default). Reuses the SAME predicates the
+// rendered `kind: 'static'` checks already use (JUNK_SLUG_*, ZERO_YIELD_CLAIM)
+// — this is not a second copy of the 148 predicate, it is the one predicate
+// applied before render instead of only after.
+//
+// Never throws: an unreadable/unparseable file is skipped with a stderr note
+// and does not count toward `scanned`.
+// ---------------------------------------------------------------------------
+function prescanStaticPages(opts = {}) {
+  const rels = listLeafPages('tokens').concat(listLeafPages('chains'));
+  let scanned = 0;
+  const suspects = [];
+
+  for (const rel of rels) {
+    let h1Text, visibleText;
+    try {
+      const html = fs.readFileSync(path.join(ROOT, rel), 'utf8');
+      ({ h1Text, visibleText } = extractPageText(html));
+    } catch (e) {
+      console.error(`[audit] prescan: skipping unreadable/unparseable ${rel}: ${e.message}`);
+      continue;
+    }
+    scanned++;
+    const slug = slugFromRel(rel);
+    const leadToken = h1Text.split(/\s+/)[0] || '';
+
+    if (leadToken && (JUNK_SLUG_NUMERIC.test(leadToken) || JUNK_SLUG_DATE.test(leadToken))) {
+      suspects.push({ rel, slug, signal: 'junk-slug', severity: PRESCAN_SIGNALS['junk-slug'],
+        detail: `<h1> lead token "${leadToken}" is junk (rendered <h1>: "${h1Text}")` });
+    }
+    if (ZERO_YIELD_CLAIM.test(visibleText)) {
+      suspects.push({ rel, slug, signal: 'zero-yield-claim', severity: PRESCAN_SIGNALS['zero-yield-claim'],
+        detail: 'visible text contains "up to 0.00% APY"' });
+    }
+    const brokenMatch = visibleText.match(BROKEN_NUMBER_LITERAL);
+    if (brokenMatch) {
+      suspects.push({ rel, slug, signal: 'broken-number-literal', severity: PRESCAN_SIGNALS['broken-number-literal'],
+        detail: `visible text contains broken numeric token "${brokenMatch[2]}"` });
+    }
+    const magMatch = visibleText.match(ABSURD_MAGNITUDE_TEXT);
+    if (magMatch) {
+      suspects.push({ rel, slug, signal: 'absurd-magnitude', severity: PRESCAN_SIGNALS['absurd-magnitude'],
+        detail: `visible text contains an absurd magnitude "${magMatch[0].trim()}"` });
+    }
+  }
+
+  // P0-first, then rel — deterministic, independent of fs.readdirSync order
+  // (already sorted per-dir by listLeafPages, but the two dirs are concatenated).
+  suspects.sort((a, b) => {
+    const rank = (sev) => (sev === 'P0' ? 0 : 1);
+    if (rank(a.severity) !== rank(b.severity)) return rank(a.severity) - rank(b.severity);
+    return a.rel < b.rel ? -1 : a.rel > b.rel ? 1 : 0;
+  });
+
+  return { scanned, suspects };
+}
+
+// No-suspects/prescan-disabled shape — always the same shape whether prescan
+// ran and found nothing, or didn't run at all, so callers never need to
+// null-check `result.prescan`.
+function emptyPrescanResult() {
+  return { scanned: 0, suspectCount: 0, bySignal: {}, promoted: [] };
+}
+
+// Builds the static-page surface list (spec 154 Design A + spec 157 prescan
+// promotion). `opts.staticPages` / `opts.staticSample` / `opts.staticSeed` /
+// `opts.prescan` / `opts.prescanMax` mirror the env vars, opts wins — the
+// same override convention as every other knob in this file (port,
+// snapshotPath, outPath). Returns `{ surfaces, prescan, prescanFindings }`.
 function buildStaticSurfaces(opts) {
   const overrideRaw = opts.staticPages || process.env.AUDIT_STATIC_PAGES;
   if (overrideRaw) {
     // Explicit override (tests / positive control): used verbatim, replaces
     // the anchor + rotation entirely (spec 154 Design A). First entry keeps
     // the anchor name `static-page`; further entries use the sampled naming
-    // so surfacesCovered stays self-describing either way.
-    return overrideRaw.split(',').map((s) => s.trim()).filter(Boolean)
+    // so surfacesCovered stays self-describing either way. Prescan is OFF in
+    // this mode (spec 157 B.2) so existing override-based controls stay
+    // exactly as predictable as before this item.
+    const surfaces = overrideRaw.split(',').map((s) => s.trim()).filter(Boolean)
       .map((rel, i) => {
         const normalized = rel.startsWith('/') ? rel : '/' + rel;
         const name = i === 0 ? 'static-page' : `static-page:${slugFromRel(normalized)}`;
         return { name, url: normalized, kind: 'static', width: 1280 };
       })
       .filter((s) => fs.existsSync(path.join(ROOT, s.url)));
+    return { surfaces, prescan: emptyPrescanResult(), prescanFindings: [] };
   }
 
   const surfaces = [];
@@ -186,21 +309,89 @@ function buildStaticSurfaces(opts) {
   const anchorRel = ['/tokens/usdc.html', '/chains/ethereum.html'].find((rel) => fs.existsSync(path.join(ROOT, rel)));
   if (anchorRel) surfaces.push({ name: 'static-page', url: anchorRel, kind: 'static', width: 1280 });
   else console.error('[audit] no static SEO anchor page found — skipping anchor');
+  const anchorLeafRel = anchorRel ? anchorRel.replace(/^\/+/, '') : null;
 
   const sampleSize = Math.min(MAX_STATIC_SAMPLE,
     Math.max(0, Number(opts.staticSample || process.env.AUDIT_STATIC_SAMPLE || DEFAULT_STATIC_SAMPLE)));
   const seed = opts.staticSeed || process.env.AUDIT_STATIC_SEED || defaultStaticSeed();
 
+  // ---- Prescan + promotion (backlog 157) ----------------------------------
+  // Kill switch: opts.prescan === false / AUDIT_STATIC_PRESCAN=0 (spec 157).
+  // Default is ON, with one narrow exception: `opts.staticOnly` (test-support
+  // only — see its own comment at the runAudit() call site; no production
+  // caller ever sets it, only test_seo_surface_audit.js's determinism check)
+  // defaults prescan OFF unless the caller opts back in with `prescan: true`.
+  // Reason: that pre-157 test drives `staticSample: 1`, so a default
+  // prescanMax(4) clamped to sampleSize(1) gives cap=1 — with real suspects
+  // in the double digits, a 1-of-N seed-hash pick has a non-trivial chance of
+  // colliding between its two hardcoded seeds, turning an unrelated legacy
+  // assertion ("different seed picks a different page") flaky for reasons
+  // that have nothing to do with what it's testing. This item may not modify
+  // that file, so the safer direction is the default here, not there.
+  const prescanEnabled = opts.prescan === true ? true
+    : opts.prescan === false ? false
+    : process.env.AUDIT_STATIC_PRESCAN === '0' ? false
+    : !opts.staticOnly;
+  const prescanMaxRaw = Math.max(0, Number(opts.prescanMax || process.env.AUDIT_STATIC_PRESCAN_MAX || DEFAULT_PRESCAN_MAX));
+  const cap = Math.min(prescanMaxRaw, sampleSize);
+
+  let prescan = emptyPrescanResult();
+  const prescanFindings = [];
+  let promotedRels = [];
+
+  if (prescanEnabled && cap > 0) {
+    const scan = prescanStaticPages();
+    // Never promote the anchor's own leaf — it is already covered by the
+    // unchanged `static-page` surface, promoting it too would be a no-op
+    // duplicate name collision.
+    const suspects = scan.suspects.filter((s) => s.rel !== anchorLeafRel);
+
+    const bySignal = {};
+    for (const sig of Object.keys(PRESCAN_SIGNALS)) bySignal[sig] = 0;
+    for (const s of suspects) bySignal[s.signal] = (bySignal[s.signal] || 0) + 1;
+
+    // One aggregate finding per signal with >=1 suspect (spec 157 B.3) — a
+    // systemic defect must not emit one finding per suspect page.
+    for (const sig of Object.keys(PRESCAN_SIGNALS)) {
+      const hits = suspects.filter((s) => s.signal === sig);
+      if (hits.length === 0) continue;
+      const examples = hits.slice(0, 10).map((s) => s.slug);
+      prescanFindings.push(finding('static-prescan', 'n/a', `static-prescan:${sig}`, PRESCAN_SIGNALS[sig],
+        `${hits.length} of ${scan.scanned} static SEO pages match ${sig} — examples: ${examples.join(', ')}`));
+    }
+
+    // Dedupe to unique rels (a page can trip >1 signal), preserving the
+    // P0-first/rel-sorted order prescanStaticPages() already returned.
+    const seenRel = new Set();
+    const suspectRels = [];
+    for (const s of suspects) { if (!seenRel.has(s.rel)) { seenRel.add(s.rel); suspectRels.push(s.rel); } }
+
+    // If suspects exceed the cap, pick among them by seed so successive runs
+    // work through the backlog instead of re-rendering the same few forever;
+    // when suspects <= cap, sampleBySeed just returns the whole set (in a
+    // seed-dependent order) — promotion is suspicion-driven, not seed-driven.
+    promotedRels = sampleBySeed(suspectRels, cap, `${seed}:prescan`);
+
+    prescan = { scanned: scan.scanned, suspectCount: suspects.length, bySignal, promoted: promotedRels.map(slugFromRel) };
+  }
+
+  for (const rel of promotedRels) {
+    surfaces.push({ name: `static-page:${slugFromRel(rel)}`, url: '/' + rel, kind: 'static', width: 1280 });
+  }
+
+  // ---- Uniform rotation fills the REMAINING budget -------------------------
+  const promotedSet = new Set(promotedRels);
+  const remainingSampleSize = Math.max(0, sampleSize - promotedRels.length);
+
   // Default 6 = up to 4 token + 2 chain (2:1 ratio), falling back to whatever
   // exists on either side (spec 154 Design A).
-  const tokenCount = Math.ceil((sampleSize * 2) / 3);
-  const chainCount = sampleSize - tokenCount;
+  const tokenCount = Math.ceil((remainingSampleSize * 2) / 3);
+  const chainCount = remainingSampleSize - tokenCount;
 
-  // Exclude the anchor's own leaf so the rotation never "samples" the page
-  // already covered by the anchor surface.
-  const anchorLeafRel = anchorRel ? anchorRel.replace(/^\/+/, '') : null;
-  const tokenLeaves = listLeafPages('tokens').filter((r) => r !== anchorLeafRel);
-  const chainLeaves = listLeafPages('chains').filter((r) => r !== anchorLeafRel);
+  // Exclude the anchor's own leaf AND any promoted leaf so the uniform
+  // rotation never re-samples a page already covered another way.
+  const tokenLeaves = listLeafPages('tokens').filter((r) => r !== anchorLeafRel && !promotedSet.has(r));
+  const chainLeaves = listLeafPages('chains').filter((r) => r !== anchorLeafRel && !promotedSet.has(r));
 
   const tokenPicks = sampleBySeed(tokenLeaves, tokenCount, `${seed}:tokens`);
   const chainPicks = sampleBySeed(chainLeaves, chainCount, `${seed}:chains`);
@@ -208,7 +399,7 @@ function buildStaticSurfaces(opts) {
   for (const rel of tokenPicks.concat(chainPicks)) {
     surfaces.push({ name: `static-page:${slugFromRel(rel)}`, url: '/' + rel, kind: 'static', width: 1280 });
   }
-  return surfaces;
+  return { surfaces, prescan, prescanFindings };
 }
 
 // ---------------------------------------------------------------------------
@@ -645,7 +836,8 @@ async function runAudit(opts = {}) {
     { name: 'pool-detail-dark', url: poolUrl, kind: 'pool', width: 1280, dark: true },
     { name: 'pool-detail-ko', url: `${poolUrl}&lang=ko`, kind: 'pool', width: 1280, ko: true }
   ];
-  surfaces = surfaces.concat(buildStaticSurfaces(opts));
+  const staticResult = buildStaticSurfaces(opts);
+  surfaces = surfaces.concat(staticResult.surfaces);
 
   // Test-support only (not a spec-154 env override): restrict the run to just
   // the static-page surfaces, skipping the 9 app surfaces entirely. Used by
@@ -655,11 +847,24 @@ async function runAudit(opts = {}) {
 
   if (Array.isArray(opts.only)) surfaces = surfaces.filter((s) => opts.only.includes(s.name));
 
+  // Aggregate prescan findings (backlog 157) are pure fs-scan output, not
+  // tied to a rendered surface — apply the SAME `opts.only` allowlist to
+  // them (matched against `f.surface`, always 'static-prescan') that already
+  // scopes the rendered surfaces above. Without this, a caller that
+  // deliberately scopes a run away from the static rotation (e.g.
+  // test_audit_app.js's clean-run case, which predates this item and asserts
+  // ZERO P0/P1) would pick up the real junk-slug true-positive through the
+  // back door — see playbooks/product-audit.md's 154 trap: scope the test to
+  // the surfaces it was written about, never filter a finding away to force
+  // green.
+  let prescanFindings = staticResult.prescanFindings;
+  if (Array.isArray(opts.only)) prescanFindings = prescanFindings.filter((f) => opts.only.includes(f.surface));
+
   const server = await startServer(port);
   const browser = await pw.chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   const baseUrl = `http://localhost:${port}`;
   const ctx = { snapshotBody, freshMeta, liveBody };
-  const findings = [];
+  const findings = [...prescanFindings];
   const surfacesCovered = [];
   try {
     for (const s of surfaces) {
@@ -677,7 +882,8 @@ async function runAudit(opts = {}) {
     status: 'OK',
     playwright: { source: pw.source, version: pw.version },
     surfacesCovered,
-    findings
+    findings,
+    prescan: staticResult.prescan
   };
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(result, null, 2) + '\n');
@@ -690,7 +896,7 @@ function blockingFindings(findings) {
   return (findings || []).filter((f) => f && (f.severity === 'P0' || f.severity === 'P1'));
 }
 
-module.exports = { runAudit, scanNumbers, resolvePlaywright, blockingFindings };
+module.exports = { runAudit, scanNumbers, resolvePlaywright, blockingFindings, prescanStaticPages };
 
 if (require.main === module) {
   const outPath = process.env.AUDIT_OUT || DEFAULT_OUT;
