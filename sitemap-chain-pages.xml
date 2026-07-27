@@ -141,12 +141,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/gnosis</loc>
+    <loc>https://www.defi.garden/chains/stable</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stable</loc>
+    <loc>https://www.defi.garden/chains/gnosis</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -246,11 +246,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
@@ -261,12 +256,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/neutron</loc>
+    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/bifrost-network</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/neutron</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -311,12 +311,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/unichain</loc>
+    <loc>https://www.defi.garden/chains/defichain</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/defichain</loc>
+    <loc>https://www.defi.garden/chains/unichain</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -411,17 +411,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/world-chain</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/waves</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/igra</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/world-chain</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
