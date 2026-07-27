@@ -51,6 +51,9 @@
                              157). Same effect as opts.prescan === false.
                              Prescan is already off whenever AUDIT_STATIC_PAGES
                              is set (that override is used verbatim).
+     AUDIT_TEXT_SURFACES   — set to '0' to disable the llms.txt/llms-full.txt
+                             text-surface pass (backlog 160); same effect as
+                             opts.textSurfaces === false. Default ON.
 
    backlog 149: playwright is resolved lazily (bare require -> npm global root ->
    hardcoded global fallback) instead of at module load, so `require('./audit-app.js')`
@@ -66,6 +69,11 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+// APY_SANITY_LIMIT from the poller's independent rail mirror (src/poller-
+// core.js:18, itself mirrored from app.js:729) — NOT from generate-llms.js,
+// the very generator this pass audits (spec 160: that would make the rail
+// check self-fulfilling if the generator's own copy were ever weakened).
+const { APY_SANITY_LIMIT } = require('./src/poller-core.js');
 
 const ROOT = __dirname;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
@@ -145,6 +153,130 @@ const PRESCAN_SIGNALS = {
   'junk-slug': 'P1',
   'zero-yield-claim': 'P1'
 };
+
+// Non-HTML text-surface prescan (backlog 160): llms.txt/llms-full.txt are
+// generated/committed/served surfaces prescanStaticPages() never reads
+// (evidence: 159 published 353,114.2% APY live, caught only by hand). Same
+// pure fs+regex shape as the static prescan, aimed at ~2 files not ~2,197.
+const TEXT_SURFACE_FILES = ['llms.txt', 'llms-full.txt'];
+// signal -> severity, single source of truth (same role as PRESCAN_SIGNALS).
+const TEXT_SURFACE_SIGNALS = { 'apy-rail-breach': 'P0', 'broken-number-literal': 'P0', 'tvl-floor-claim': 'P1', 'empty-surface': 'P1' };
+
+// Every "<figure>% APY" (159's own detector); leading class excludes a
+// preceding digit/letter/'.' so this can't match mid-token.
+const TEXT_APY_FIGURE = /(?:^|[^0-9A-Za-z.])((?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?)\s*%\s*APY/g;
+const TEXT_TVL_FLOOR_CLAIM = /TVL\s*(?:≥|>=)\s*\$([0-9][0-9,]*(?:\.[0-9]+)?)\s*([KMBT])?/; // "TVL ≥ $10M"
+const TEXT_TVL_FIGURE = /\$([0-9][0-9,]*(?:\.[0-9]+)?)\s*([KMBT])?\s*TVL/g; // "$112,870,949 TVL"
+// "Pool line" shape both files use for leaderboard rows: an APY figure AND
+// a TVL figure on the same line, e.g. "… 47.7% APY, $112,870,949 TVL — …".
+const TEXT_POOL_LINE_APY = /%\s*APY/;
+const TEXT_POOL_LINE_TVL = /\bTVL\b/;
+
+// K/M/B/T suffix parser shared by the floor claim + listed TVL figures.
+function parseMoney(numStr, suffix) {
+  const n = parseFloat(String(numStr).replace(/,/g, ''));
+  if (!Number.isFinite(n)) return NaN;
+  const mult = suffix === 'K' ? 1e3 : suffix === 'M' ? 1e6 : suffix === 'B' ? 1e9 : suffix === 'T' ? 1e12 : 1;
+  return n * mult;
+}
+
+// Never throws: an unreadable/missing file is skipped (stderr note) and
+// doesn't count toward `scanned` — exact parallel of prescanStaticPages().
+function prescanTextSurfaces(opts = {}) {
+  const files = opts.files || TEXT_SURFACE_FILES;
+  let scanned = 0;
+  const suspects = [];
+
+  for (const file of files) {
+    const abs = path.isAbsolute(file) ? file : path.join(ROOT, file);
+    const rel = path.isAbsolute(file) ? path.relative(ROOT, file) : file;
+    let content;
+    try {
+      content = fs.readFileSync(abs, 'utf8');
+    } catch (e) {
+      console.error(`[audit] text prescan: skipping unreadable/missing ${rel}: ${e.message}`);
+      continue;
+    }
+    scanned++;
+
+    // apy-rail-breach (P0) — one suspect per FILE, not per figure (a
+    // systemic breach must not flood the findings list). `.matchAll` clones
+    // its regex, so reusing the module-level `g`-flag TEXT_APY_FIGURE here
+    // across files is safe (unlike a stateful `.exec` loop).
+    const breaches = [];
+    for (const m of content.matchAll(TEXT_APY_FIGURE)) {
+      const numText = m[1];
+      const val = parseFloat(numText.replace(/,/g, ''));
+      if (!Number.isFinite(val) || !(val > APY_SANITY_LIMIT)) continue;
+      // Verbatim figure (e.g. "353114.2% APY"): the number plus whatever
+      // followed it, dropping the leading one-char separator.
+      const figureText = numText + m[0].slice(m[0].indexOf(numText) + numText.length);
+      breaches.push({ val, figureText });
+    }
+    if (breaches.length) {
+      breaches.sort((a, b) => b.val - a.val);
+      const others = breaches.slice(1, 3).map((b) => `"${b.figureText}"`);
+      const plural = breaches.length !== 1;
+      let detail = `${breaches.length} APY figure${plural ? 's' : ''} ${plural ? 'exceed' : 'exceeds'} the ${APY_SANITY_LIMIT}% rail — highest "${breaches[0].figureText}"`;
+      if (others.length) detail += ` (also: ${others.join(', ')})`;
+      suspects.push({ rel, signal: 'apy-rail-breach', severity: TEXT_SURFACE_SIGNALS['apy-rail-breach'], detail });
+    }
+
+    // tvl-floor-claim (P1) — scoped to the SAME SECTION the floor is stated
+    // in (floor line down to the next `## ` heading or EOF): deliberate, so
+    // e.g. "## Top Chains by TVL" (aggregate CHAIN TVLs) never false-positives
+    // against a pool floor stated in a different section.
+    const floorMatch = content.match(TEXT_TVL_FLOOR_CLAIM);
+    if (floorMatch) {
+      const floorVal = parseMoney(floorMatch[1], floorMatch[2]);
+      const lineStart = content.lastIndexOf('\n', floorMatch.index) + 1;
+      const rest = content.slice(lineStart);
+      const headingMatch = rest.match(/\n## /);
+      const sectionText = headingMatch ? rest.slice(0, headingMatch.index) : rest;
+
+      let smallest = null;
+      for (const m of sectionText.matchAll(TEXT_TVL_FIGURE)) {
+        const val = parseMoney(m[1], m[2]);
+        if (Number.isFinite(val) && (!smallest || val < smallest.val)) smallest = { val, text: m[0] };
+      }
+      if (smallest && smallest.val < floorVal) {
+        suspects.push({ rel, signal: 'tvl-floor-claim', severity: TEXT_SURFACE_SIGNALS['tvl-floor-claim'],
+          detail: `stated floor "${floorMatch[0]}" but smallest listed figure in its section is "${smallest.text}"` });
+      }
+    }
+
+    // broken-number-literal (P0) — reuses the existing predicate verbatim.
+    const brokenMatch = content.match(BROKEN_NUMBER_LITERAL);
+    if (brokenMatch) {
+      suspects.push({ rel, signal: 'broken-number-literal', severity: TEXT_SURFACE_SIGNALS['broken-number-literal'],
+        detail: `file contains broken numeric token "${brokenMatch[2]}"` });
+    }
+
+    // empty-surface (P1) — soft-404 equivalent: zero pool-shaped lines
+    // (guards against an over-tight filter silently emptying the surface).
+    const poolLineCount = content.split('\n')
+      .filter((line) => TEXT_POOL_LINE_APY.test(line) && TEXT_POOL_LINE_TVL.test(line)).length;
+    if (poolLineCount === 0) {
+      suspects.push({ rel, signal: 'empty-surface', severity: TEXT_SURFACE_SIGNALS['empty-surface'],
+        detail: 'file lists zero pools (no line contains both a % APY figure and a TVL figure)' });
+    }
+  }
+
+  // P0-first, then rel — same comparator shape as prescanStaticPages().
+  suspects.sort((a, b) => {
+    const rank = (sev) => (sev === 'P0' ? 0 : 1);
+    if (rank(a.severity) !== rank(b.severity)) return rank(a.severity) - rank(b.severity);
+    return a.rel < b.rel ? -1 : a.rel > b.rel ? 1 : 0;
+  });
+
+  return { scanned, suspects };
+}
+
+// No-suspects/disabled shape — always the same shape whether the pass ran
+// and found nothing, or didn't run at all (mirrors emptyPrescanResult()).
+function emptyTextSurfaceResult() {
+  return { scanned: 0, suspectCount: 0, bySignal: {} };
+}
 
 function defaultStaticSeed() {
   // UTC date, YYYY-MM-DD. The one documented Date-based input: it changes
@@ -860,12 +992,48 @@ async function runAudit(opts = {}) {
   let prescanFindings = staticResult.prescanFindings;
   if (Array.isArray(opts.only)) prescanFindings = prescanFindings.filter((f) => opts.only.includes(f.surface));
 
+  // Text-surface pass (backlog 160), computed BEFORE the browser launches
+  // (pure fs). Kill switch mirrors the static prescan's convention
+  // (opts.textSurfaces / AUDIT_TEXT_SURFACES=0); default ON, off under
+  // opts.staticOnly (test-support-only, see its comment above this function).
+  const textSurfacesEnabled = opts.textSurfaces === true ? true
+    : opts.textSurfaces === false ? false
+    : process.env.AUDIT_TEXT_SURFACES === '0' ? false
+    : !opts.staticOnly;
+
+  let textSurfaces = emptyTextSurfaceResult();
+  let textSurfaceFindings = [];
+  if (textSurfacesEnabled) {
+    const textScan = prescanTextSurfaces();
+    const bySignal = {};
+    for (const sig of Object.keys(TEXT_SURFACE_SIGNALS)) bySignal[sig] = 0;
+    for (const s of textScan.suspects) bySignal[s.signal] = (bySignal[s.signal] || 0) + 1;
+    textSurfaces = { scanned: textScan.scanned, suspectCount: textScan.suspects.length, bySignal };
+
+    // One aggregate finding per signal — same shape as static-prescan:<signal>.
+    for (const sig of Object.keys(TEXT_SURFACE_SIGNALS)) {
+      const hits = textScan.suspects.filter((s) => s.signal === sig);
+      if (hits.length === 0) continue;
+      const examples = hits.slice(0, 10).map((s) => `${s.rel}: ${s.detail}`);
+      textSurfaceFindings.push(finding('text-surfaces', 'n/a', `text-surface:${sig}`, TEXT_SURFACE_SIGNALS[sig],
+        `${hits.length} of ${textScan.scanned} text surfaces match ${sig} — examples: ${examples.join(' | ')}`));
+    }
+  }
+  // Same `opts.only` allowlist as the rendered surfaces + static-prescan
+  // findings above — without it a scoped-away caller (test_audit_app.js's
+  // clean-run case) would pick these up through the back door.
+  const textSurfacesInOnly = !Array.isArray(opts.only) || opts.only.includes('text-surfaces');
+  if (Array.isArray(opts.only)) textSurfaceFindings = textSurfaceFindings.filter((f) => opts.only.includes(f.surface));
+
   const server = await startServer(port);
   const browser = await pw.chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   const baseUrl = `http://localhost:${port}`;
   const ctx = { snapshotBody, freshMeta, liveBody };
-  const findings = [...prescanFindings];
+  const findings = [...prescanFindings, ...textSurfaceFindings];
   const surfacesCovered = [];
+  // Named only when the pass ran AND survived opts.only (spec 160: unlike
+  // static-prescan, this DOES get its own surfacesCovered entry).
+  if (textSurfacesEnabled && textSurfacesInOnly) surfacesCovered.push('text-surfaces');
   try {
     for (const s of surfaces) {
       const f = await main(browser, baseUrl, s, ctx);
@@ -883,7 +1051,8 @@ async function runAudit(opts = {}) {
     playwright: { source: pw.source, version: pw.version },
     surfacesCovered,
     findings,
-    prescan: staticResult.prescan
+    prescan: staticResult.prescan,
+    textSurfaces
   };
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(result, null, 2) + '\n');
@@ -896,7 +1065,7 @@ function blockingFindings(findings) {
   return (findings || []).filter((f) => f && (f.severity === 'P0' || f.severity === 'P1'));
 }
 
-module.exports = { runAudit, scanNumbers, resolvePlaywright, blockingFindings, prescanStaticPages };
+module.exports = { runAudit, scanNumbers, resolvePlaywright, blockingFindings, prescanStaticPages, prescanTextSurfaces };
 
 if (require.main === module) {
   const outPath = process.env.AUDIT_OUT || DEFAULT_OUT;
