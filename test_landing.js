@@ -15,7 +15,10 @@ const MIME = {
   '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2',
   '.png': 'image/png', '.txt': 'text/plain', '.xml': 'application/xml'
 };
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|fontshare\.com/i;
+// Matched against the failing resource's own URL (msg.location().url), not
+// msg.text() — Chromium's "Failed to load resource" text never includes the
+// URL itself (exact test_smoke.js/test_search.js technique + comment).
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons\.llamao\.fi|api\.llama\.fi\/protocols|fontshare\.com|www\.google\.com\/s2\/favicons/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 const FIXTURE_POOLS = [
@@ -41,6 +44,16 @@ function startServer() {
 async function preparePage(page) {
   // React/Babel are intentionally loaded from the same CDN as production;
   // this checkout may not have those optional packages installed locally.
+  await page.route('https://icons.llamao.fi/**', (route) => route.abort()); // decorative icon host (spec 094) is proxy-blocked in-sandbox; abort so requests never delay the load event
+  // Snapshot-first FE (spec 059): serve a deliberately-stale snapshot so
+  // tryLoadSnapshot's age check rejects it and the app falls through to the
+  // routed live /pools fetch below, making FIXTURE_POOLS the real source for
+  // the grid instead of the committed data/pools-snapshot.json (test_smoke.js:130 shape).
+  await page.route('**/data/pools-snapshot*', (route) => route.fulfill({
+    status: 200,
+    contentType: 'application/json',
+    body: '{"schemaVersion":1,"generatedAt":"2020-01-01T00:00:00.000Z","count":1,"bytes":100}'
+  }));
   await page.route('https://yields.llama.fi/pools', (route) => route.fulfill({
     status: 200,
     contentType: 'application/json',
@@ -62,8 +75,12 @@ async function main() {
     const errors = [];
     page.on('pageerror', (err) => errors.push('pageerror: ' + err.message));
     page.on('console', (msg) => {
-      if (msg.type() === 'error' && !IGNORABLE_ERROR_PATTERN.test(msg.text())) {
-        errors.push('console.error: ' + msg.text());
+      if (msg.type() !== 'error') return;
+      // Classify by the failing resource's URL, not the text — Chromium's
+      // "Failed to load resource" message never contains the URL (test_smoke.js:117-122).
+      const source = msg.location()?.url || '';
+      if (!IGNORABLE_ERROR_PATTERN.test(source) && !IGNORABLE_ERROR_PATTERN.test(msg.text())) {
+        errors.push('console.error: ' + msg.text() + (source ? ' (' + source + ')' : ''));
       }
     });
     await preparePage(page);
@@ -91,7 +108,13 @@ async function main() {
 
     await page.locator('[data-testid="landing-search"]').fill('USDC');
     await page.locator('[data-testid="landing-search"]').press('Enter');
-    await page.waitForURL((url) => url.searchParams.get('token') === 'USDC', { timeout: 10000 });
+    // waitUntil defaults to 'load'; the analytics route's decorative icon
+    // requests never settle in this sandbox (proxy-blocked, see IGNORABLE_ERROR_PATTERN
+    // above) so 'load' never fires even though the navigation itself is
+    // already complete. Wait on the URL only, exactly as the app's own
+    // history-push resolves it — the .pool-card assertion right below is
+    // still what actually proves the handoff rendered.
+    await page.waitForURL((url) => url.searchParams.get('token') === 'USDC', { waitUntil: 'commit', timeout: 10000 });
     await page.waitForSelector('.pool-card', { timeout: 15000 });
     passed++;
     console.log('  ✓ landing search enters the existing analytics result route');
