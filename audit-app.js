@@ -2,10 +2,12 @@
 
    Mechanizes playbooks/product-audit.md checks 1–7: drives the real rendered
    surfaces (grid, pool-detail = north star, dead-pool empty state, the
-   search-first landing + Garden Planner default face — backlog 162, a
-   rotating sample of static SEO leaf pages — backlog 154) against the
-   committed data/pools-snapshot.json and emits a findings JSON. It NEVER
-   edits a product file — it only READS the rendered product.
+   search-first landing + Garden Planner default face — backlog 162, the
+   deep-linked plan bloom/checkout screen where the planner's computed
+   numbers first render — backlog 164, a rotating sample of static SEO leaf
+   pages — backlog 154) against the committed data/pools-snapshot.json and
+   emits a findings JSON. It NEVER edits a product file — it only READS the
+   rendered product.
 
    Reference implementation for every fixture mechanic (local server, vendored
    unpkg React/ReactDOM/Babel, icons.llamao.fi abort, snapshot routing, the
@@ -880,9 +882,25 @@ async function main(browser, baseUrl, s, ctx) {
       const text = await auditText(page, s, findings);
 
       const goalChip = page.locator('.gp-chip').first();
-      if ((await goalChip.count()) === 0 || !(await goalChip.isVisible())) {
+      const goalChipVisible = (await goalChip.count()) > 0 && (await goalChip.isVisible());
+      if (!goalChipVisible) {
         findings.push(finding(s.name, s.vpLabel, 'dead-cta', 'P1',
           'planner goal chip (.gp-chip) missing or not visible on the first screen'));
+      } else if (s.width > 360 && !s.ko) {
+        // backlog 164 — one interactive check, scoped to the 1280/EN surface
+        // only (not planner-360/planner-ko — one flake surface, not three).
+        // Visibility alone (above) cannot see a chip that renders but does
+        // not advance the flow — click it and assert the planner actually
+        // leaves the goal step. `.gp-thread-row` (planner.js's ThreadRow) is
+        // pushed into the thread only once `step !== 'goal' && answers.goal`
+        // — a truthful rendered signal that exists only past the goal step,
+        // not internal React state.
+        await goalChip.click();
+        const advanced = await pollFor(page, async () => (await page.locator('.gp-thread-row').count()) > 0, 8000);
+        if (!advanced) {
+          findings.push(finding(s.name, s.vpLabel, 'dead-cta', 'P1',
+            'clicking the first goal chip (.gp-chip) did not advance the planner past the goal step (.gp-thread-row) within 8s'));
+        }
       }
 
       // i18n — reuses the exact "KO surface rendered no Hangul text" check
@@ -894,6 +912,51 @@ async function main(browser, baseUrl, s, ctx) {
 
       // responsive — 360 surface only, against the same first-screen chip.
       if (s.width <= 360) await checkResponsive(page, s, findings, '.gp-chip');
+
+      if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
+      await page.close();
+      return findings;
+    }
+
+    if (s.kind === 'bloom') {
+      // backlog 164 — deep-linked plan bloom/checkout screen. This is the
+      // first time the audit renders a NUMBER the planner actually computed
+      // (capital, forever number, projections, checkout price) rather than
+      // just the goal picker's static chip labels (162's 'planner' kind
+      // above). Reached via a share-plan URL shape (?goal=&pace=&monthly=&
+      // years=), the exact one planner.js's "Shared plan fast-forward to
+      // bloom" effect and test_plan_checkout_cta.js's gotoPlan() already
+      // prove lands on `.gp-checkout-panel` — no multi-step drive needed.
+      const ok = await waitForSelector(page, '.gp-checkout-panel', 15000);
+      if (!ok) {
+        findings.push(finding(s.name, s.vpLabel, 'dead-end', 'P1',
+          'bloom did not render .gp-checkout-panel within 15s'));
+        if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
+        await page.close();
+        return findings;
+      }
+      const text = await auditText(page, s, findings);
+
+      // Bloom's primary control — either the pool-first "Start growing on
+      // <project> →" <a> or the waitlist <button> fallback (both share this
+      // class; test_plan_checkout_cta.js:3006/3013 in planner.js). Either
+      // shape is fine here — this is a presence/visibility check, not a
+      // shape assertion (that belongs to test_plan_checkout_cta.js).
+      const cta = page.locator('.gp-checkout-cta').first();
+      if ((await cta.count()) === 0 || !(await cta.isVisible())) {
+        findings.push(finding(s.name, s.vpLabel, 'dead-cta', 'P1',
+          'bloom primary control (.gp-checkout-cta) missing or not visible'));
+      }
+
+      // i18n — reuses the exact "KO surface rendered no Hangul text" check
+      // the 'pool'/'planner' drivers already run, scoped to the -ko surface only.
+      if (s.ko) {
+        const hasHangul = /[가-힣]/.test(text);
+        if (!hasHangul) findings.push(finding(s.name, s.vpLabel, 'i18n', 'P2', 'KO surface rendered no Hangul text'));
+      }
+
+      // responsive — 360 surface only, against the same primary control.
+      if (s.width <= 360) await checkResponsive(page, s, findings, '.gp-checkout-cta');
 
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
@@ -1034,7 +1097,16 @@ async function runAudit(opts = {}) {
     { name: 'landing', url: '/', kind: 'landing', width: 1280 },
     { name: 'planner', url: '/plan.html', kind: 'planner', width: 1280 },
     { name: 'planner-360', url: '/plan.html', kind: 'planner', width: 360 },
-    { name: 'planner-ko', url: '/plan.html?lang=ko', kind: 'planner', width: 1280, ko: true }
+    { name: 'planner-ko', url: '/plan.html?lang=ko', kind: 'planner', width: 1280, ko: true },
+    // backlog 164 — deep-linked plan bloom/checkout screens (the archetype
+    // triple from CLAUDE.md, reused verbatim from test_plan_checkout_cta.js).
+    // Appended after planner-ko so no existing surfacesCovered entry moves
+    // or renames.
+    { name: 'plan-bloom-growth', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10', kind: 'bloom', width: 1280 },
+    { name: 'plan-bloom-target', url: '/plan.html?goal=iphone&pace=stable&monthly=200', kind: 'bloom', width: 1280 },
+    { name: 'plan-bloom-subscription', url: '/plan.html?goal=claude&pace=stable&monthly=50', kind: 'bloom', width: 1280 },
+    { name: 'plan-bloom-360', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10', kind: 'bloom', width: 360 },
+    { name: 'plan-bloom-ko', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10&lang=ko', kind: 'bloom', width: 1280, ko: true }
   ];
   const staticResult = buildStaticSurfaces(opts);
   surfaces = surfaces.concat(staticResult.surfaces);
