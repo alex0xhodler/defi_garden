@@ -122,3 +122,29 @@ survived into this diff (`git status` was empty at reset). Worth a line in
 LEARNINGS: a loop session must `git fetch` before branching off `main` — a
 cloud checkout's local `main` can be days stale even when the working branch
 is current.
+
+## Post-verifier fix (same PR, before merge)
+
+Verifier returned **PASS, 10/10, tier HIGH**, with one non-blocking defect:
+`test_audit_text_surfaces.js`'s integration case wrapped both the `runAudit()`
+call *and* its assertions in one try/catch that logged "(skipped)" without
+incrementing `failed`. A genuine wiring regression — `'text-surfaces'` missing
+from `surfacesCovered`, an unpopulated `result.textSurfaces`, or `opts.only`
+leakage — would therefore have been indistinguishable from chromium being
+unavailable: 14 passed / 0 failed, exit 0.
+
+That is precisely the defect class this item exists to close (a check that
+cannot go red), so it was fixed rather than deferred: only the `runAudit()`
+call is now skippable, and only for an environment gap; the assertions moved
+outside the catch and run through the file's normal `test()` harness.
+
+Proof it now bites: temporarily forced the wiring off
+(`if (textSurfacesEnabled && textSurfacesInOnly)` → `if (false)`) →
+`✗ integration: ... 14 passed, 1 failed`. Restored via `git checkout --`,
+verified byte-identical with `md5sum -c` (`audit-app.js: OK`), suite back to
+**15/15**.
+
+Cost disclosed: this is a second push on the branch, i.e. one extra Vercel
+preview deployment against the free-tier quota the 2026-07-13 decision exists
+to protect. Judged worth it — the alternative is shipping the audit's own
+blind spot inside the item that closes blind spots.

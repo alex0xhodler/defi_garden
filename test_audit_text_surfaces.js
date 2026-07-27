@@ -267,28 +267,41 @@ async function tryIntegrationCase() {
   const outPath = path.join(os.tmpdir(), `audit-findings-text-surfaces-${process.pid}.json`);
   const timeoutMs = 90000;
   let timer;
+  let result;
+
+  // ONLY the run itself may be skipped, and only for an environment gap
+  // (playwright unresolvable / chromium won't launch / the hard timeout).
+  // The assertions below deliberately sit OUTSIDE this catch: a wiring
+  // regression — 'text-surfaces' missing from surfacesCovered, an unpopulated
+  // result.textSurfaces, or opts.only leakage — must go RED, not report
+  // itself as "(skipped)". A check that cannot fail is the exact defect class
+  // this whole item exists to close (verifier note, 2026-07-27).
   try {
-    const result = await Promise.race([
+    result = await Promise.race([
       runAudit({ port: 8940, only: ['text-surfaces'], outPath }),
       new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('integration case exceeded 90s hard timeout')), timeoutMs); })
     ]);
-    clearTimeout(timer);
-    assertT(result.surfacesCovered.includes('text-surfaces'),
-      `expected surfacesCovered to include "text-surfaces"; got ${JSON.stringify(result.surfacesCovered)}`);
-    assertT(result.textSurfaces && typeof result.textSurfaces.scanned === 'number',
-      `expected result.textSurfaces to be populated; got ${JSON.stringify(result.textSurfaces)}`);
-    // only:['text-surfaces'] matches no rendered surface name, so nothing else runs.
-    assertT(result.surfacesCovered.length === 1,
-      `expected only the text-surfaces entry when scoped via opts.only; got ${JSON.stringify(result.surfacesCovered)}`);
-    passed++;
-    console.log('  ✓ integration: runAudit({ only: [\'text-surfaces\'] }) covers text-surfaces and populates result.textSurfaces');
   } catch (err) {
-    console.log('  (skipped) integration case: ' + err.message);
+    console.log('  (skipped) integration case — could not run the audit here: ' + err.message);
     console.log('    reason recorded in product-loop-kit/specs/160-notes.md');
+    return;
   } finally {
     clearTimeout(timer);
-    try { fs.unlinkSync(outPath); } catch (e) {}
   }
+
+  test('integration: runAudit({ only: [\'text-surfaces\'] }) covers text-surfaces and populates result.textSurfaces', () => {
+    try {
+      assertT(result.surfacesCovered.includes('text-surfaces'),
+        `expected surfacesCovered to include "text-surfaces"; got ${JSON.stringify(result.surfacesCovered)}`);
+      assertT(result.textSurfaces && typeof result.textSurfaces.scanned === 'number',
+        `expected result.textSurfaces to be populated; got ${JSON.stringify(result.textSurfaces)}`);
+      // only:['text-surfaces'] matches no rendered surface name, so nothing else runs.
+      assertT(result.surfacesCovered.length === 1,
+        `expected only the text-surfaces entry when scoped via opts.only; got ${JSON.stringify(result.surfacesCovered)}`);
+    } finally {
+      try { fs.unlinkSync(outPath); } catch (e) {}
+    }
+  });
 }
 
 async function main() {
