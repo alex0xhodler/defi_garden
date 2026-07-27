@@ -76,12 +76,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/sei</loc>
+    <loc>https://www.defi.garden/chains/sonic</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/sonic</loc>
+    <loc>https://www.defi.garden/chains/sei</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -161,12 +161,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/mezo</loc>
+    <loc>https://www.defi.garden/chains/starknet</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/starknet</loc>
+    <loc>https://www.defi.garden/chains/mezo</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -246,12 +246,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/etherlink</loc>
+    <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/celo</loc>
+    <loc>https://www.defi.garden/chains/etherlink</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -307,11 +307,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/citrea</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/defichain</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
