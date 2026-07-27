@@ -1,9 +1,11 @@
-/* Playwright smoke gate (spec 003): both sacred router paths must actually render.
+/* Playwright smoke gate (spec 003): the sacred router paths must actually render.
    Run: node test_smoke.js
    Serves the repo statically (mimicking vercel.json's "/" -> home.html rewrite)
    and drives real Chromium at 360/768/1280px against:
-     1. "/"              -> planner UI mounts into #planner-root
-     2. "/?token=USDC"    -> analytics app renders .pool-card elements
+     1. "/"              -> search-first landing mounts into #landing-root (2026-07-15 pivot),
+                             and the planner does NOT mount there
+     2. "/plan.html"      -> planner UI mounts into #planner-root
+     3. "/?token=USDC"    -> analytics app renders .pool-card elements
    Fails on any unexpected page/console error (external font/analytics fetch
    failures are ignorable per CLAUDE.md). */
 const http = require('http');
@@ -176,8 +178,17 @@ async function main() {
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
     for (const viewport of VIEWPORTS) {
-      await test('bare / renders planner UI at ' + viewport.width + 'px', async () => {
+      await test('bare / renders the search-first landing at ' + viewport.width + 'px', async () => {
         const { page, errors } = await loadAndCollectErrors(browser, '/', viewport);
+        await page.waitForSelector('[data-testid="landing-search"]', { timeout: 10000 });
+        const plannerMounted = await page.locator('#planner-root .gp-app').count();
+        await page.close();
+        if (plannerMounted !== 0) throw new Error('planner mounted on bare / (expected only the landing)');
+        if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+      });
+
+      await test('/plan.html renders the planner at ' + viewport.width + 'px', async () => {
+        const { page, errors } = await loadAndCollectErrors(browser, '/plan.html', viewport);
         await page.waitForSelector('#planner-root [class*="gp-"]', { timeout: 10000 });
         await page.close();
         if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
