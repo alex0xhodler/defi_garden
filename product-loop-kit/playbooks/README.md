@@ -38,3 +38,4 @@ Provenance: <the LOG/spec entry this was distilled from>
 - `archetype-coherence.md` — a planner surface shows copy/numbers built for a different goal archetype (item 146)
 - `pre-existing-red-triage.md` — a test is red on `main` and isn't yours: product regression vs stale test vs sandbox (item 147)
 - `loop-container-contention.md` — a subagent reports files changing under it / a "second session" on the tree (item 162)
+- `test-gate-observability.md` — before saying "tests green": count what ran, and tell environmental reds from real ones (item 163)
