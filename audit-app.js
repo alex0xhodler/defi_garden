@@ -1,10 +1,11 @@
 /* audit-app.js — read-only Playwright product-audit scanner (backlog 142).
 
    Mechanizes playbooks/product-audit.md checks 1–7: drives the real rendered
-   surfaces (grid, pool-detail = north star, dead-pool empty state, a rotating
-   sample of static SEO leaf pages — backlog 154) against the committed
-   data/pools-snapshot.json and emits a findings JSON. It NEVER edits a product
-   file — it only READS the rendered product.
+   surfaces (grid, pool-detail = north star, dead-pool empty state, the
+   search-first landing + Garden Planner default face — backlog 162, a
+   rotating sample of static SEO leaf pages — backlog 154) against the
+   committed data/pools-snapshot.json and emits a findings JSON. It NEVER
+   edits a product file — it only READS the rendered product.
 
    Reference implementation for every fixture mechanic (local server, vendored
    unpkg React/ReactDOM/Babel, icons.llamao.fi abort, snapshot routing, the
@@ -838,6 +839,67 @@ async function main(browser, baseUrl, s, ctx) {
       return findings;
     }
 
+    if (s.kind === 'landing') {
+      // backlog 162 — search-first landing (bare `/`, mounts into
+      // #landing-root). Readiness + primary CTA selectors read straight off
+      // landing.js (data-testid="landing-search" / .landing-search-submit) —
+      // the same selectors test_smoke.js/test_landing.js already assert on.
+      const ok = await waitForSelector(page, '[data-testid="landing-search"]', 10000);
+      if (!ok) {
+        findings.push(finding(s.name, s.vpLabel, 'dead-end', 'P1',
+          'landing did not render #landing-root content ([data-testid="landing-search"]) within 10s'));
+      }
+      await auditText(page, s, findings);
+
+      const searchCta = page.locator('.landing-search-submit').first();
+      if ((await searchCta.count()) === 0 || !(await searchCta.isVisible())) {
+        findings.push(finding(s.name, s.vpLabel, 'dead-cta', 'P1',
+          'landing search submit (.landing-search-submit) missing or not visible'));
+      }
+
+      if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
+      await page.close();
+      return findings;
+    }
+
+    if (s.kind === 'planner') {
+      // backlog 162 — Garden Planner (`/plan.html`, mounts into
+      // #planner-root as .gp-app). The planner is conversational: the FIRST
+      // screen is the goal picker (planner.js step === 'goal'), so the
+      // primary next-step control is a goal chip (.gp-chip, from the shared
+      // Chips component) — this drives no multi-step flow, per the spec's
+      // territory note.
+      const ok = await waitForSelector(page, '#planner-root .gp-app', 10000);
+      if (!ok) {
+        findings.push(finding(s.name, s.vpLabel, 'dead-end', 'P1',
+          'planner did not render #planner-root .gp-app within 10s'));
+        if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
+        await page.close();
+        return findings;
+      }
+      const text = await auditText(page, s, findings);
+
+      const goalChip = page.locator('.gp-chip').first();
+      if ((await goalChip.count()) === 0 || !(await goalChip.isVisible())) {
+        findings.push(finding(s.name, s.vpLabel, 'dead-cta', 'P1',
+          'planner goal chip (.gp-chip) missing or not visible on the first screen'));
+      }
+
+      // i18n — reuses the exact "KO surface rendered no Hangul text" check
+      // the 'pool' driver already runs (below), scoped to the -ko surface only.
+      if (s.ko) {
+        const hasHangul = /[가-힣]/.test(text);
+        if (!hasHangul) findings.push(finding(s.name, s.vpLabel, 'i18n', 'P2', 'KO surface rendered no Hangul text'));
+      }
+
+      // responsive — 360 surface only, against the same first-screen chip.
+      if (s.width <= 360) await checkResponsive(page, s, findings, '.gp-chip');
+
+      if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
+      await page.close();
+      return findings;
+    }
+
     // kind === 'pool' — the north-star surface.
     const ok = await waitForSelector(page, '.pool-detail-view', 12000);
     if (!ok) {
@@ -966,7 +1028,13 @@ async function runAudit(opts = {}) {
     { name: 'pool-detail-360', url: poolUrl, kind: 'pool', width: 360 },
     { name: 'grid-360', url: '/home.html?token=USDC', kind: 'grid', width: 360 },
     { name: 'pool-detail-dark', url: poolUrl, kind: 'pool', width: 1280, dark: true },
-    { name: 'pool-detail-ko', url: `${poolUrl}&lang=ko`, kind: 'pool', width: 1280, ko: true }
+    { name: 'pool-detail-ko', url: `${poolUrl}&lang=ko`, kind: 'pool', width: 1280, ko: true },
+    // backlog 162 — the planner/landing default face. Appended after the
+    // existing nine so no existing surfacesCovered entry moves or renames.
+    { name: 'landing', url: '/', kind: 'landing', width: 1280 },
+    { name: 'planner', url: '/plan.html', kind: 'planner', width: 1280 },
+    { name: 'planner-360', url: '/plan.html', kind: 'planner', width: 360 },
+    { name: 'planner-ko', url: '/plan.html?lang=ko', kind: 'planner', width: 1280, ko: true }
   ];
   const staticResult = buildStaticSurfaces(opts);
   surfaces = surfaces.concat(staticResult.surfaces);
@@ -1079,7 +1147,18 @@ if (require.main === module) {
     }
   }
 
-  runAudit()
+  // backlog 162 — CLI wiring for the existing opts.only / opts.staticOnly
+  // knobs (already used by every test file via a direct runAudit() call, but
+  // never exposed on the command line): `--only=a,b,c` and `--static-only`.
+  const cliOpts = {};
+  for (const arg of process.argv.slice(2)) {
+    if (arg === '--static-only') cliOpts.staticOnly = true;
+    else if (arg.startsWith('--only=')) {
+      cliOpts.only = arg.slice('--only='.length).split(',').map((s) => s.trim()).filter(Boolean);
+    }
+  }
+
+  runAudit(cliOpts)
     .then((result) => {
       console.log(JSON.stringify(result, null, 2));
       console.log('\n[audit] surfaces covered: ' + result.surfacesCovered.join(', '));
