@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-26T19:07:42.255Z",
+  "generatedAt": "2026-07-27T07:22:10.333Z",
   "status": "OK",
   "playwright": {
-    "source": "global",
+    "source": "local",
     "version": "1.56.1"
   },
   "surfacesCovered": [
@@ -16,12 +16,64 @@
     "pool-detail-dark",
     "pool-detail-ko",
     "static-page",
-    "static-page:tokens/xhype",
-    "static-page:tokens/cyb3rwr3n",
-    "static-page:tokens/liquidbtc",
-    "static-page:tokens/slisbnb",
-    "static-page:chains/zigchain",
-    "static-page:chains/kusama"
+    "static-page:tokens/01",
+    "static-page:tokens/17dec2026",
+    "static-page:tokens/20261231",
+    "static-page:tokens/2027",
+    "static-page:tokens/ncloa",
+    "static-page:tokens/aiusd"
   ],
-  "findings": []
+  "findings": [
+    {
+      "surface": "static-prescan",
+      "viewport": "n/a",
+      "check": "static-prescan:junk-slug",
+      "severity": "P1",
+      "detail": "7 of 2197 static SEO pages match junk-slug — examples: tokens/00, tokens/01, tokens/17dec2026, tokens/20261231, tokens/2027, tokens/67, tokens/8oct2026"
+    },
+    {
+      "surface": "static-page:tokens/01",
+      "viewport": "1280px",
+      "check": "junk-slug",
+      "severity": "P1",
+      "detail": "rendered <h1> is junk: \"01 DeFi Yields\""
+    },
+    {
+      "surface": "static-page:tokens/17dec2026",
+      "viewport": "1280px",
+      "check": "junk-slug",
+      "severity": "P1",
+      "detail": "rendered <h1> is junk: \"17DEC2026 DeFi Yields\""
+    },
+    {
+      "surface": "static-page:tokens/20261231",
+      "viewport": "1280px",
+      "check": "junk-slug",
+      "severity": "P1",
+      "detail": "rendered <h1> is junk: \"20261231 DeFi Yields\""
+    },
+    {
+      "surface": "static-page:tokens/2027",
+      "viewport": "1280px",
+      "check": "junk-slug",
+      "severity": "P1",
+      "detail": "rendered <h1> is junk: \"2027 DeFi Yields\""
+    }
+  ],
+  "prescan": {
+    "scanned": 2197,
+    "suspectCount": 7,
+    "bySignal": {
+      "broken-number-literal": 0,
+      "absurd-magnitude": 0,
+      "junk-slug": 7,
+      "zero-yield-claim": 0
+    },
+    "promoted": [
+      "tokens/01",
+      "tokens/17dec2026",
+      "tokens/20261231",
+      "tokens/2027"
+    ]
+  }
 }
