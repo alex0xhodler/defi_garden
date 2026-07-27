@@ -121,12 +121,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/katana</loc>
+    <loc>https://www.defi.garden/ko/chains/linea</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/linea</loc>
+    <loc>https://www.defi.garden/ko/chains/katana</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -161,12 +161,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/starknet</loc>
+    <loc>https://www.defi.garden/ko/chains/mezo</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/mezo</loc>
+    <loc>https://www.defi.garden/ko/chains/starknet</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -246,17 +246,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/venom</loc>
-    <lastmod>2026-07-27</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/etherlink</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/celo</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/venom</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>daily</changefreq>
   </url>
