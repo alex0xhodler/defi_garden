@@ -138,6 +138,29 @@ acceptance test will go red on TRUE positives. Scope that test to the surfaces i
 (`runAudit({only: [...]})`) — never downgrade a severity or filter the finding away to restore green. The
 scanner's honesty is the product.
 
+**Prescan-before-render (item 157, 2026-07-27).** 154's rotation samples the 2,176-page static-SEO set
+*uniformly* — a specific known-bad page is found with p ≈ (sample size / page count) per day, ~1.3% at the
+default. `prescanStaticPages()` closes that gap the CHEAP way: a pure `fs` + regex pass over **every**
+leaf page (no Playwright, no network, seconds not minutes) reusing the exact same predicates the rendered
+checks already use (`JUNK_SLUG_NUMERIC`/`JUNK_SLUG_DATE`/`ZERO_YIELD_CLAIM`), plus two prescan-only text
+checks (`broken-number-literal`: bare `NaN`/`Infinity`/`undefined`/`null`; `absurd-magnitude`: a `$…T`/`…Q`
+magnitude in visible text — tightened with a `(^|[^A-Za-z0-9])` prefix guard so it does NOT false-positive
+on in-word digit sequences like `tokens/a0t.html`'s "A0T" containing "0T"). `buildStaticSurfaces()` then
+promotes up to `AUDIT_STATIC_PRESCAN_MAX` (default 4, clamped to the sample size) of the suspects it finds
+into the rendered sample AHEAD of the uniform rotation — same-day coverage of the whole set at roughly the
+same render budget, since promoted pages replace uniform picks rather than adding to them. When there are
+more suspects than the cap, which ones get promoted is chosen by the same seeded `sampleBySeed()` the
+rotation already uses (keyed `seed + ':prescan'`), so the backlog of suspects gets worked through over
+successive days instead of re-rendering the same few. A prescan-enabled run also emits one **aggregate**
+`static-prescan:<signal>` finding per signal with ≥1 suspect (≤10 example slugs, a systemic defect must not
+emit one finding per page) — `runAudit()`'s result gains a `prescan: {scanned, suspectCount, bySignal,
+promoted}` field. Kill switch: `AUDIT_STATIC_PRESCAN=0` / `opts.prescan === false`; already off whenever
+`AUDIT_STATIC_PAGES` pins exact pages (that override stays verbatim, unchanged from 154).
+**General lesson: for any large generated surface, prescan the cheap way (fs+regex, no render) BEFORE
+spending the expensive render budget, and aim the render at what the prescan flagged as suspicious** — the
+uniform-sample-and-hope pattern this replaces is the default failure mode for auditing anything at scale.
+
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
-pre-traffic. Seeded from every mechanically-detectable bug caught this session.
+pre-traffic. Seeded from every mechanically-detectable bug caught this session. Item 157's prescan
+promotion traces to 154's own honest follow-up note (`specs/154-notes.md:235-248`).
