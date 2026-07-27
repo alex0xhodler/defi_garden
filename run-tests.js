@@ -25,6 +25,12 @@
  *   node run-tests.js [--lane=plain|browser|all] [--timeout=<seconds>]
  *                      [--jobs=<n>] [--only=file1.js,file2.js] [--list]
  *                      [--json=<path>]
+ *
+ *   --timeout default is LANE-AWARE, not a single constant: the plain lane
+ *   defaults to 120s, the browser lane to 600s (real-Chromium files like
+ *   test_search.js legitimately need ~550s standalone — see
+ *   product-loop-kit/specs/163-notes.md's "Post-verification change" section).
+ *   An explicit --timeout=<seconds> overrides BOTH lanes, exactly as before.
  */
 
 'use strict';
@@ -40,6 +46,12 @@ const NODE_MODULES_PATH = path.join(ROOT, 'node_modules');
 const SERIAL_SCRIPT_NAME = 'test:serial';
 
 const NO_DEPS_MESSAGE = 'dependencies not installed — run `npm ci`';
+
+// Lane-aware default per-file timeouts (seconds). An explicit --timeout=<s>
+// on the command line overrides BOTH lanes; these are only the defaults when
+// no override is given — see resolveTimeout().
+const DEFAULT_TIMEOUT_PLAIN = 120;
+const DEFAULT_TIMEOUT_BROWSER = 600; // covers test_search.js's documented ~550s need, with headroom.
 
 // ---------------------------------------------------------------------------
 // 1. Single source of truth for the file list: parse test:serial's `&&` chain.
@@ -152,7 +164,7 @@ function classifyLane(fileName, cache) {
 // ---------------------------------------------------------------------------
 
 function parseArgs(argv) {
-  const args = { lane: 'all', timeout: 120, jobs: null, list: false, json: null, only: null };
+  const args = { lane: 'all', timeout: null, jobs: null, list: false, json: null, only: null };
   for (const raw of argv) {
     if (raw === '--list') { args.list = true; continue; }
     const m = raw.match(/^--([^=]+)=(.*)$/);
@@ -188,6 +200,18 @@ function defaultJobsFor(lane, jobsOverride) {
   if (lane === 'browser') return 1; // forced — fixed-port real-Chromium files must serialize.
   const cpuBased = Math.max(1, Math.min(4, os.cpus().length - 1));
   return jobsOverride != null ? jobsOverride : cpuBased;
+}
+
+/**
+ * Resolves the effective per-file timeout (seconds) for a lane. An explicit
+ * --timeout=<seconds> (timeoutOverride, non-null) wins for either lane,
+ * unchanged from before this default became lane-aware. With no override,
+ * the browser lane defaults to DEFAULT_TIMEOUT_BROWSER (600s) and every
+ * other lane defaults to DEFAULT_TIMEOUT_PLAIN (120s).
+ */
+function resolveTimeout(lane, timeoutOverride) {
+  if (timeoutOverride != null) return timeoutOverride;
+  return lane === 'browser' ? DEFAULT_TIMEOUT_BROWSER : DEFAULT_TIMEOUT_PLAIN;
 }
 
 // ---------------------------------------------------------------------------
@@ -306,7 +330,10 @@ async function main() {
   const plainJobs = defaultJobsFor('plain', args.jobs);
   const browserJobs = defaultJobsFor('browser', args.jobs); // always 1, forced.
 
-  console.log(`run-tests.js: ${selected.length} file(s) selected (lane=${args.lane}, plain=${plainEntries.length}, browser=${browserEntries.length}, timeout=${args.timeout}s, plain-jobs=${plainJobs}, browser-jobs=${browserJobs})\n`);
+  const plainTimeout = resolveTimeout('plain', args.timeout);
+  const browserTimeout = resolveTimeout('browser', args.timeout);
+
+  console.log(`run-tests.js: ${selected.length} file(s) selected (lane=${args.lane}, plain=${plainEntries.length}, browser=${browserEntries.length}, timeout=plain:${plainTimeout}s/browser:${browserTimeout}s, plain-jobs=${plainJobs}, browser-jobs=${browserJobs})\n`);
 
   const resultsByFile = new Map();
 
@@ -317,8 +344,8 @@ async function main() {
   }
 
   await Promise.all([
-    runQueue(plainEntries, plainJobs, args.timeout, onResult),
-    runQueue(browserEntries, browserJobs, args.timeout, onResult),
+    runQueue(plainEntries, plainJobs, plainTimeout, onResult),
+    runQueue(browserEntries, browserJobs, browserTimeout, onResult),
   ]);
 
   // Print results in the ORIGINAL file-list order, regardless of completion order.
@@ -351,7 +378,11 @@ async function main() {
     const jsonPath = path.resolve(ROOT, args.json);
     const payload = {
       lane: args.lane,
-      timeoutSec: args.timeout,
+      // Lane-aware: a single flat number would silently misreport whichever
+      // lane didn't use it. timeoutOverrideSec is the raw --timeout flag (or
+      // null if not given); timeoutSec is what each lane actually ran with.
+      timeoutOverrideSec: args.timeout,
+      timeoutSec: { plain: plainTimeout, browser: browserTimeout },
       plainJobs,
       browserJobs,
       summary: { pass, fail, timeout, total: orderedResults.length },
@@ -386,6 +417,9 @@ module.exports = {
   resolveLocalRequire,
   parseArgs,
   defaultJobsFor,
+  resolveTimeout,
+  DEFAULT_TIMEOUT_PLAIN,
+  DEFAULT_TIMEOUT_BROWSER,
   NO_DEPS_MESSAGE,
   ROOT,
   NODE_MODULES_PATH,

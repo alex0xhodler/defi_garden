@@ -293,3 +293,163 @@ touched. This notes file and the two new root files are the only additions.
    `test_search.js`.
 2. `--only=<name>` that matches zero files exits 0 rather than erroring — a typo could silently
    report a "passing" empty run.
+
+## Post-verification change: lane-aware default timeout
+
+**This landed AFTER the verifier's PASS on the original build above — it is a delta to that
+verified state and needs its own re-verification.** It does not touch A1-A10 as originally
+demonstrated; it only changes what `--timeout`'s *default* resolves to per lane.
+
+### Why
+
+The verifier flagged a real consequence of the single 120s default (`timeout: 120` at what was
+then `run-tests.js:155`, applied at what were then lines 320-321): *"the browser lane contains
+files that legitimately need far longer — `test_search.js` needs ~550s standalone (documented in
+`product-loop-kit/specs/158-notes.md`'s verifier addendum) and `test_smoke.js` exceeded 120s in the
+builder's run. So a default `npm test` would mark known-good files TIMEOUT and exit non-zero, which
+defeats the whole point of the item (making 'tests green' a checkable claim)."* This notes file's
+own A7 section (see above) independently recorded the same `test_smoke.js` observation
+(`TIMEOUT 120.03s test_smoke.js`) and the same candidate-ticket #1, and `158-notes.md`'s verifier
+addendum is the documented source for `test_search.js`'s `20/20 ... at 550s capped` result — so the
+flag matches evidence already in this repo, not just the verifier's say-so.
+
+### What changed
+
+All changes in `run-tests.js` (current line numbers after the edit) and `test_run_tests.js`:
+
+- `run-tests.js:33-37` — new header doc comment explaining the lane-aware default and pointing
+  here.
+- `run-tests.js:50-54` — two new constants: `DEFAULT_TIMEOUT_PLAIN = 120`,
+  `DEFAULT_TIMEOUT_BROWSER = 600` (600s covers `test_search.js`'s documented ~550s need with
+  headroom).
+- `run-tests.js:167` — `parseArgs`'s default `args.timeout` changed from `120` to `null`. An
+  explicit `--timeout=<seconds>` still sets `args.timeout` to that number exactly as before
+  (`run-tests.js:180-183`, unchanged validation logic); `null` now means "no override given."
+- `run-tests.js:205-215` — new `resolveTimeout(lane, timeoutOverride)`: returns the override if
+  non-null, else `DEFAULT_TIMEOUT_BROWSER` for the browser lane and `DEFAULT_TIMEOUT_PLAIN` for
+  every other lane.
+- `run-tests.js:333-336` — `main()` now computes `plainTimeout`/`browserTimeout` via
+  `resolveTimeout` and the startup summary line reports both
+  (`timeout=plain:${plainTimeout}s/browser:${browserTimeout}s`) instead of a single number.
+- `run-tests.js:346-349` — the two `runQueue(...)` call sites now pass `plainTimeout` /
+  `browserTimeout` respectively, instead of both passing the same `args.timeout`.
+- `run-tests.js:378-386` — the `--json` payload: replaced the single `timeoutSec: args.timeout`
+  field (which would have silently misreported whichever lane didn't use the flat default) with
+  `timeoutOverrideSec` (the raw `--timeout` flag, or `null`) and `timeoutSec: { plain, browser }`
+  (what each lane actually ran with).
+- `run-tests.js` exports — added `resolveTimeout`, `DEFAULT_TIMEOUT_PLAIN`,
+  `DEFAULT_TIMEOUT_BROWSER` for `test_run_tests.js` to exercise directly.
+- `test_run_tests.js` — two new assertions (see proof 6 below), appended after the existing A5
+  test, under a new "Post-verification change" section header. No existing assertion needed to
+  change: none of the original 14 encoded the old single-default value directly (they either pass
+  `--timeout=<n>` explicitly as a fixture arg, or don't touch timeout at all), so the lane-aware
+  default is purely additive to that file.
+
+### Proof 1 — `--list` still reports 95/34/61, unchanged
+
+```
+$ node run-tests.js --list | tail -2
+test_run_tests.js	plain
+
+TOTAL files=95 plain=34 browser=61 listed=95
+```
+
+### Proof 2 — `--lane=plain` still fully green, exit 0
+
+```
+$ node run-tests.js --lane=plain
+...
+RESULT PASS	test_run_tests.js	1516ms
+
+TOTAL pass=34 fail=0 timeout=0 total=34
+$ echo "exit=$?"
+exit=0
+```
+
+### Proof 3 — `--lane=all` startup line shows the lane-aware defaults (plain=120s, browser=600s)
+
+Run scoped to a single plain file via `--only` to avoid touching the 5-minute foreground timebox
+with the full 95-file/all-lanes chain (same reasoning as the original A8 evidence above); the
+startup line's timeout report does not depend on which files are selected, only on `args.lane`
+resolving each lane's default:
+
+```
+$ node run-tests.js --lane=all --only=test_planner.js
+run-tests.js: 1 file(s) selected (lane=all, plain=1, browser=0, timeout=plain:120s/browser:600s, plain-jobs=3, browser-jobs=1)
+
+PASS        0.12s  test_planner.js
+```
+
+### Proof 4 — `--timeout=<n>` still overrides both lanes
+
+```
+$ node run-tests.js --lane=all --timeout=5 --only=test_planner.js,test_smoke.js
+run-tests.js: 2 file(s) selected (lane=all, plain=1, browser=1, timeout=plain:5s/browser:5s, plain-jobs=3, browser-jobs=1)
+```
+
+Both lanes report `5s` — the override wins over both the 120s and 600s defaults, exactly as it did
+over the old single 120s default.
+
+### Proof 5 — `test_run_tests.js` still passes; no existing assertion needed to change
+
+```
+$ node test_run_tests.js
+...
+16 assertions passed
+$ echo "exit=$?"
+exit=0
+```
+
+14 original assertions + 2 new ones (proof 6) = 16, all green. No existing assertion was broken or
+edited by this change.
+
+### Proof 6 — new assertions added, proved non-vacuous
+
+Two new `test(...)` blocks appended to `test_run_tests.js` under "Post-verification change":
+one asserting `resolveTimeout('plain', null) === 120` and `resolveTimeout('browser', null) === 600`
+(plus a sanity check on the two exported constants), the other asserting `resolveTimeout(<lane>, 5)
+=== 5` for both lanes (the override case).
+
+Non-vacuousness, mutation-proved:
+
+```
+$ md5sum run-tests.js
+de1ebb92d78f023e58e556c31df4283d  run-tests.js
+```
+
+Broke the resolver (`run-tests.js`'s `resolveTimeout` body changed to always `return
+DEFAULT_TIMEOUT_PLAIN`, i.e. the browser branch deliberately removed):
+
+```
+$ node test_run_tests.js
+...
+120 !== 600
+
+  ✓ lane-aware timeout: an explicit --timeout override wins for both lanes
+
+15 assertions passed
+
+FAILED
+```
+
+The new default-resolution assertion went red exactly as expected (`120 !== 600`); the override
+assertion stayed green (it doesn't exercise the broken branch's default path). Restored and
+confirmed byte-identical:
+
+```
+$ cp /tmp/.../run-tests.js.orig run-tests.js
+$ md5sum run-tests.js
+de1ebb92d78f023e58e556c31df4283d  run-tests.js   <- matches pre-mutation hash
+$ node test_run_tests.js
+...
+16 assertions passed
+```
+
+### Re-verification needed
+
+This delta landed after the verifier's original PASS on the item-163 build. It does not touch any
+of A1-A10's originally-demonstrated behavior (all six proofs above reconfirm A1/A6/A8's exact
+numbers unchanged), does not add a dependency, does not touch a product file or trust-rail
+constant, and stays within the same three files (`run-tests.js`, `test_run_tests.js`, this notes
+file) — but per this repo's own standing rule, a post-PASS change needs its own verifier look
+before it inherits the original PASS.

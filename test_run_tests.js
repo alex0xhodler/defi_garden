@@ -248,6 +248,25 @@ test('A5: a file that outlives --timeout is recorded TIMEOUT, and the run contin
   });
 });
 
+// ---------------------------------------------------------------------------
+// Post-verification change — default per-file timeout is lane-aware, not a
+// single constant. See specs/163-notes.md's "Post-verification change: lane-
+// aware default timeout" section for why. Covers: no --timeout given resolves
+// to 120 (plain) / 600 (browser); an explicit --timeout overrides both lanes.
+// ---------------------------------------------------------------------------
+
+test('lane-aware timeout: with no --timeout, resolveTimeout defaults to 120s (plain) and 600s (browser)', () => {
+  assert.strictEqual(runTests.DEFAULT_TIMEOUT_PLAIN, 120, 'sanity: plain default constant is 120');
+  assert.strictEqual(runTests.DEFAULT_TIMEOUT_BROWSER, 600, 'sanity: browser default constant is 600');
+  assert.strictEqual(runTests.resolveTimeout('plain', null), 120, 'plain lane must default to 120s with no override');
+  assert.strictEqual(runTests.resolveTimeout('browser', null), 600, 'browser lane must default to 600s with no override');
+});
+
+test('lane-aware timeout: an explicit --timeout override wins for both lanes', () => {
+  assert.strictEqual(runTests.resolveTimeout('plain', 5), 5, 'an override must win over the plain default');
+  assert.strictEqual(runTests.resolveTimeout('browser', 5), 5, 'an override must win over the browser default too');
+});
+
 console.log(`\n${passed} assertions passed`);
 if (process.exitCode) {
   console.error('\nFAILED');
