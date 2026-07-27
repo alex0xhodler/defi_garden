@@ -183,7 +183,10 @@ test('the links sit outside #root/#planner-root, in real markup (not inside a <s
   assert.strictEqual(openScripts, closeScripts, 'footer markup appears inside an open <script> block');
 });
 test('the router (__APP_MODE) and canonical logic are untouched by this diff', () => {
-  assert.ok(homeHtml.includes("window.__APP_MODE = needsAnalytics ? 'analytics' : 'planner';"), 'router logic changed');
+  // 2026-07-15 landing pivot: the router grew a third mode ('landing') for
+  // bare / — pre-pivot it was a two-mode analytics/planner ternary. See
+  // home.html:82 and docs/garden-planner-v2-spec.md's IA-swap section.
+  assert.ok(homeHtml.includes("window.__APP_MODE = needsAnalytics ? 'analytics' : (needsPlanner ? 'planner' : 'landing');"), 'router logic changed');
   assert.ok(homeHtml.includes('window.__canonicalFor(window.location.search)'), 'canonical logic changed');
 });
 

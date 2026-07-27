@@ -46,7 +46,12 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
 
 - **A** → fix in product code, keep the test as-is; the test just proved its worth.
 - **B** → separate item, test-only diff, and record in the notes which shipped item made it stale so the
-  next reader doesn't "fix" the product backwards.
+  next reader doesn't "fix" the product backwards. **Repoint, and re-home the coverage the pivot
+  displaced** — a pivot moves a behavior to a different route, it rarely deletes it. Repointing the
+  assertion at the new surface alone silently *shrinks* the gate. Ask "which route inherited the old
+  behavior?" and add a case for it in the same diff: item 156 repointed bare `/` at the landing **and**
+  added `/plan.html` so the planner render path kept its three-viewport coverage. Prefer `data-testid`
+  hooks over class-shape selectors when you repoint, so the new assertion isn't the next stale one.
 - **C** → fixture-route, same-item is fine if it's the test you're already touching.
 - In all three: if the red sat in an `&&` chain, say in LOG.md how far the chain gets *after* your fix
   and which file is the next stopper — the next loop inherits the fact instead of rediscovering it.
@@ -55,12 +60,24 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
 
 - **"Pre-existing" is a provenance claim, not a triage verdict.** Eleven consecutive notes files said
   "pre-existing" about the same two assertions; none said "…and it is a real regression."
+- **A wrong classification outlives an unclassified red, because it stops the questions.** Item 142
+  recorded `test_smoke.js` as rule **C** — *"sandbox render-timeouts CONFIRMED pre-existing at HEAD"* —
+  and it read as settled for four more loops; it was rule **B** all along. A browser test that times out
+  looks like the sandbox no matter which rule it is, so never classify one from the exit code. **Read the
+  same run's log for two tells before saying "sandbox":** (1) the test's own network banner —
+  `test_smoke.js` prints `network: yields.llama.fi reachable — serving live snapshot captured via curl`
+  vs `BLOCKED — serving DefiLlama-shaped fixture`; (2) whether *sibling browser cases in the same run*
+  passed. In item 156's reproduction the banner said reachable and `/?token=USDC` rendered pool cards at
+  all three viewports while only the bare-`/` cases timed out — a blocked sandbox cannot fail one route
+  and pass another in the same browser. Environment reds are indiscriminate; stale-assertion reds are
+  surgical.
 - **A red gate you can't see past looks like a green suite.** `npm test` exiting 1 at file 6 of 90 reads
   the same as file 90 failing — always report the *position*.
-- **A test asserting the old IA will look like a product bug.** `test_smoke.js` asserts bare `/` renders
-  the planner; the search-first-landing pivot (LOG 2026-07-15, item #237/114) made that false on purpose,
-  and `test_landing.js` already asserts the correct current behavior. Check for a sibling test that
-  contradicts the failing one — that's the strongest stale-test tell.
+- **A test asserting the old IA will look like a product bug.** `test_smoke.js` *used to* assert that
+  bare `/` renders the planner; the search-first-landing pivot (LOG 2026-07-15, item #237/114) made that
+  false on purpose, and `test_landing.js` already asserted the correct current behavior — which is
+  exactly how item 156 classified it. Check for a sibling test that contradicts the failing one — that's
+  the strongest stale-test tell. (Fixed in 156; kept here as the worked example.)
 - **Don't fix the second red while fixing the first.** One item, one red class; record the rest.
 - **A source edit does NOT reach the rendered page.** `home.html` (lines ~330-357) loads
   `PoolDetail.compiled.min.js` + `app.compiled.min.js`, not the raw `text/babel` source (backlog
@@ -80,6 +97,14 @@ Distilled from item **147** (2026-07-26, LOG.md) — `test_minified_assets.js` r
 the first time here: rule **A** (`home.html`/`plan.html` had drifted back to raw `translations.js`/
 `planner.js` despite backlog 053 wiring them to the minified bundles) plus rule **B** for the next
 stopper (`test_smoke.js`'s bare-`/`-is-planner assertions, stale since the 2026-07-15 landing pivot).
+
+Item **156** (2026-07-27) closed the rule-**B** half this playbook had already named as the next stopper,
+and supplied the two additions above (mis-classification trap, repoint-and-re-home resolution). Chain
+arithmetic from step 2, worth keeping as the worked example: `test_smoke.js` is file **9 of 90** in
+`package.json`'s `&&` chain, so its red hid **81** test files from every plain `npm test` — the fix's
+score came from that number, not from the 20-line diff. Its own next stopper is file **10**,
+`test_landing.js` (red on `main` for an unrelated harness reason — the landing search itself was probed
+working), ticketed separately rather than absorbed.
 
 Rule **D**, the compiled-bundle trap and the unwired-gate trap added from item **155** (2026-07-26) —
 `test_audit_app.js`'s number-sanity positive control (the only automated proof that the 122
