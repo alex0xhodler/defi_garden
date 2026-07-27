@@ -17,6 +17,30 @@ const SITEMAP_PATH = process.env.SITEMAP_PATH || path.resolve('./sitemap.xml');
 const OUTPUT_DIR = process.env.LLMS_OUTPUT_DIR || path.dirname(SITEMAP_PATH);
 const DEFILLAMA_YIELDS_URL = process.env.DEFILLAMA_YIELDS_URL || 'https://yields.llama.fi/pools';
 
+// Trust-rail constants — read-only MIRRORS of the product's own rails, never a
+// second source of truth. `app.js:800` (`APY_SANITY_LIMIT = 1000`) and
+// `app.js:801` (`DEFAULT_MIN_TVL = 10000000`, i.e. $10M) are canonical; this
+// generator must not drift from what the analytics app itself enforces (spec
+// 159 — the AI-discovery surface was publishing anomalous APYs the product
+// would never show). Do not change these values here; changing the rails
+// themselves is a human-gated decision made in app.js.
+const APY_SANITY_LIMIT = 1000; // mirrors app.js:800
+const MIN_TVL_USD = 10000000; // mirrors app.js:801 (DEFAULT_MIN_TVL, $10M)
+
+/**
+ * Render a USD TVL floor as an abbreviated, en-US-formatted string (e.g.
+ * 10000000 -> "$10M"), for use in TL;DR copy that must derive from
+ * MIN_TVL_USD rather than hardcoding a second literal. Money formatting is
+ * pinned to en-US throughout this repo (never a bare `toLocaleString()`).
+ */
+function formatTvlFloor(usd) {
+  const n = Number(usd) || 0;
+  if (n >= 1e9) return `$${(n / 1e9).toLocaleString('en-US', { maximumFractionDigits: 1 })}B`;
+  if (n >= 1e6) return `$${(n / 1e6).toLocaleString('en-US', { maximumFractionDigits: 1 })}M`;
+  if (n >= 1e3) return `$${(n / 1e3).toLocaleString('en-US', { maximumFractionDigits: 1 })}K`;
+  return `$${n.toLocaleString('en-US')}`;
+}
+
 // Logging utilities with prefix
 function log(msg) { console.log(`🤖 [llms] ${msg}`); }
 function err(msg, e) { console.error(`❌ [llms][error] ${msg}${e ? `: ${e.message}` : ''}`); }
@@ -224,17 +248,20 @@ function parseFixtureArg(argv) {
  * Select high-yield opportunities from pool data
  */
 function pickHighYield(pools, options = {}) {
-  const { minTvlUsd = 10000, topN = 15 } = options;
-  
+  const { minTvlUsd = MIN_TVL_USD, topN = 15 } = options;
+
   if (!pools || pools.length === 0) {
     return { top: [], byChain: {} };
   }
 
-  // Filter pools with sufficient TVL and valid APY
+  // Filter pools with sufficient TVL and valid, sane APY. The APY ceiling
+  // mirrors app.js's APY_SANITY_LIMIT: anomalous pools (data errors, thin-pool
+  // farm-rate spikes) must never reach this AI-discovery surface, the same way
+  // they can never enter a planner projection (spec 159).
   const filtered = pools.filter(pool => {
     const tvl = Number(pool.tvlUsd) || 0;
     const apy = Number(pool.apy) || 0;
-    return tvl >= minTvlUsd && apy > 0 && isFinite(apy);
+    return tvl >= minTvlUsd && apy > 0 && isFinite(apy) && apy <= APY_SANITY_LIMIT;
   });
 
   // Sort by APY descending
@@ -453,7 +480,7 @@ function buildConcise(meta, categories, highYield, yieldAnalysis) {
   
   // Current top yields
   lines.push('## Current Top Yields');
-  lines.push('TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10k).');
+  lines.push(`TL;DR: Live highest APY opportunities (updated daily, TVL ≥ ${formatTvlFloor(MIN_TVL_USD)}).`);
   
   if (!highYield.top.length) {
     lines.push('- Live yield data temporarily unavailable from DefiLlama API');
@@ -692,5 +719,8 @@ module.exports = {
   writeIfContentChanged,
   loadFixturePools,
   parseFixtureArg,
-  LLMS_TS_PLACEHOLDER
+  LLMS_TS_PLACEHOLDER,
+  APY_SANITY_LIMIT,
+  MIN_TVL_USD,
+  formatTvlFloor
 };

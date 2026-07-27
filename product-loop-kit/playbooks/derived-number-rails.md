@@ -129,6 +129,16 @@ strengthening a rail is not on the NEVER list, but its blast radius is app-wide.
 - **Tightening a rail can empty a surface.** 159's own fix could silently reduce `llms.txt` to zero pool
   lines, which is a different failure wearing the same "no violations" badge. Always pair a
   rail-tightening acceptance criterion with a non-empty/floor assertion.
+- **When two rails fire together, the headline fixture proves neither** (added 2026-07-27 from 159's
+  build — the second flavour of vacuity, and the one Step 0b's mutation test exists to catch). The
+  natural fixture is the pool from the evidence: 159's was `zeebu/ZBU`, `353,114.2%` APY on `$576,877`
+  TVL. It is excluded by the **TVL floor alone** — so with `apy <= APY_SANITY_LIMIT` deleted outright,
+  that assertion stays **green**. A fixture that survives the mutation is testing the other rail.
+  Rule: when a fix applies N rails at once, every rail needs a fixture that **only that rail** can
+  reject — here, a second pool at 50,000% APY on $500M TVL. Confirm by deleting each rail
+  independently and checking a *different* assertion goes red each time. 159's mutation run:
+  strip the APY ceiling → exactly 2 of 14 red (huge-TVL anomaly + the `1000.01` boundary), while the
+  headline fixture stayed green. That green is the receipt.
 
 ## Provenance
 

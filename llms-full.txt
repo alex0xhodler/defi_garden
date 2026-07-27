@@ -1,8 +1,8 @@
 # Complete DeFi Yield Index: Best Token Yields Across All Blockchains | DeFi Garden
 
-- Last Updated: 2026-07-27T05:50:17.871Z
+- Last Updated: 2026-07-27T09:17:37.165Z
 - Canonical: https://www.defi.garden
-- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-07-27T05:48:58.891Z)
+- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-07-27T09:17:37.119Z)
 - Total URLs: 4911
 - Categories: homepage(1), tokens(343), chains(102), poolTypes(0), highValue(7)
 
@@ -4937,8 +4937,8 @@ TL;DR: Additional site functionality and tools.
 
 ## Market Analysis: Top Chains by TVL
 TL;DR: Comprehensive chain rankings by total value locked.
-- Ethereum: $86.90B TVL — https://www.defi.garden/?chain=Ethereum
-- Solana: $8.24B TVL — https://www.defi.garden/?chain=Solana
+- Ethereum: $87.60B TVL — https://www.defi.garden/?chain=Ethereum
+- Solana: $8.29B TVL — https://www.defi.garden/?chain=Solana
 - Base: $6.39B TVL — https://www.defi.garden/?chain=Base
 - BSC: $6.34B TVL — https://www.defi.garden/?chain=BSC
 - Tron: $3.52B TVL — https://www.defi.garden/?chain=Tron
@@ -4948,68 +4948,64 @@ TL;DR: Comprehensive chain rankings by total value locked.
 
 ## Market Analysis: Top Protocols
 TL;DR: Leading DeFi protocols by aggregate TVL across all pools.
-- lido: $18.22B TVL — https://www.defi.garden/?search=lido
-- aave-v3: $14.13B TVL — https://www.defi.garden/?search=aave-v3
-- morpho-blue: $11.19B TVL — https://www.defi.garden/?search=morpho-blue
-- sky-lending: $8.21B TVL — https://www.defi.garden/?search=sky-lending
-- binance-staked-eth: $7.25B TVL — https://www.defi.garden/?search=binance-staked-eth
-- sparklend: $4.34B TVL — https://www.defi.garden/?search=sparklend
-- ether.fi-stake: $3.81B TVL — https://www.defi.garden/?search=ether.fi-stake
+- lido: $18.38B TVL — https://www.defi.garden/?search=lido
+- aave-v3: $14.42B TVL — https://www.defi.garden/?search=aave-v3
+- morpho-blue: $11.21B TVL — https://www.defi.garden/?search=morpho-blue
+- sky-lending: $8.23B TVL — https://www.defi.garden/?search=sky-lending
+- binance-staked-eth: $7.29B TVL — https://www.defi.garden/?search=binance-staked-eth
+- sparklend: $4.41B TVL — https://www.defi.garden/?search=sparklend
+- ether.fi-stake: $3.84B TVL — https://www.defi.garden/?search=ether.fi-stake
 - maple: $3.68B TVL — https://www.defi.garden/?search=maple
 - blackrock-buidl: $3.44B TVL — https://www.defi.garden/?search=blackrock-buidl
 - justlend-v1: $3.37B TVL — https://www.defi.garden/?search=justlend-v1
 
 ## Market Analysis: Popular Token-Chain Combinations
 TL;DR: Most liquid token-chain pairs ranked by TVL.
-- STETH on Ethereum: $18.42B TVL — https://www.defi.garden/?token=STETH&chain=Ethereum
-- WBETH on Ethereum: $6.84B TVL — https://www.defi.garden/?token=WBETH&chain=Ethereum
-- WEETH on Ethereum: $6.38B TVL — https://www.defi.garden/?token=WEETH&chain=Ethereum
-- WSTETH on Ethereum: $5.97B TVL — https://www.defi.garden/?token=WSTETH&chain=Ethereum
-- USDC on Ethereum: $4.80B TVL — https://www.defi.garden/?token=USDC&chain=Ethereum
-- SUSDS on Ethereum: $4.80B TVL — https://www.defi.garden/?token=SUSDS&chain=Ethereum
-- WETH on Ethereum: $3.99B TVL — https://www.defi.garden/?token=WETH&chain=Ethereum
+- STETH on Ethereum: $18.59B TVL — https://www.defi.garden/?token=STETH&chain=Ethereum
+- WBETH on Ethereum: $6.88B TVL — https://www.defi.garden/?token=WBETH&chain=Ethereum
+- WEETH on Ethereum: $6.44B TVL — https://www.defi.garden/?token=WEETH&chain=Ethereum
+- WSTETH on Ethereum: $6.00B TVL — https://www.defi.garden/?token=WSTETH&chain=Ethereum
+- USDC on Ethereum: $4.99B TVL — https://www.defi.garden/?token=USDC&chain=Ethereum
+- SUSDS on Ethereum: $4.79B TVL — https://www.defi.garden/?token=SUSDS&chain=Ethereum
+- WETH on Ethereum: $4.02B TVL — https://www.defi.garden/?token=WETH&chain=Ethereum
 - WBTC on Ethereum: $3.88B TVL — https://www.defi.garden/?token=WBTC&chain=Ethereum
 - USYC on BSC: $2.91B TVL — https://www.defi.garden/?token=USYC&chain=BSC
-- RETH on Ethereum: $2.76B TVL — https://www.defi.garden/?token=RETH&chain=Ethereum
-- CBBTC on Base: $2.68B TVL — https://www.defi.garden/?token=CBBTC&chain=Base
-- USDT on Ethereum: $2.39B TVL — https://www.defi.garden/?token=USDT&chain=Ethereum
+- RETH on Ethereum: $2.78B TVL — https://www.defi.garden/?token=RETH&chain=Ethereum
+- CBBTC on Base: $2.67B TVL — https://www.defi.garden/?token=CBBTC&chain=Base
+- USDT on Ethereum: $2.50B TVL — https://www.defi.garden/?token=USDT&chain=Ethereum
 - CBBTC on Ethereum: $2.30B TVL — https://www.defi.garden/?token=CBBTC&chain=Ethereum
 - SUSDE on Ethereum: $2.15B TVL — https://www.defi.garden/?token=SUSDE&chain=Ethereum
-- USDS on Ethereum: $1.95B TVL — https://www.defi.garden/?token=USDS&chain=Ethereum
+- USDS on Ethereum: $1.96B TVL — https://www.defi.garden/?token=USDS&chain=Ethereum
 - KHYPE on Hyperliquid L1: $1.26B TVL — https://www.defi.garden/?token=KHYPE&chain=Hyperliquid%20L1
-- USDC on Solana: $1.22B TVL — https://www.defi.garden/?token=USDC&chain=Solana
+- USDC on Solana: $1.25B TVL — https://www.defi.garden/?token=USDC&chain=Solana
 - BUIDL on Ethereum: $1.16B TVL — https://www.defi.garden/?token=BUIDL&chain=Ethereum
 - USDY on Ethereum: $1.11B TVL — https://www.defi.garden/?token=USDY&chain=Ethereum
-- LBTC on Ethereum: $1.03B TVL — https://www.defi.garden/?token=LBTC&chain=Ethereum
+- ETH on Ethereum: $1.03B TVL — https://www.defi.garden/?token=ETH&chain=Ethereum
 
 ## Live High-Yield Opportunities (by Chain)
 TL;DR: Current top-performing pools with detailed metrics.
-### BSC
-- zeebu · ZBU — 353114.16% APY, $576,877 TVL — https://www.defi.garden
-
 ### Base
-- aerodrome-slipstream · USDC-VFY — 220925.64% APY, $29,382 TVL — https://www.defi.garden
-- aerodrome-v1 · WETH-TRAC — 95371.07% APY, $44,329 TVL — https://www.defi.garden
-- aerodrome-slipstream · CTR-USDC — 59291.85% APY, $452,035 TVL — https://www.defi.garden
-- uniswap-v4 · ETH-BOTCOIN — 44825.61% APY, $49,626 TVL — https://www.defi.garden
-- uniswap-v4 · WETH-JESSE — 44083.60% APY, $16,051 TVL — https://www.defi.garden
-- uniswap-v4 · OPENAI-USDC — 35019.08% APY, $12,901 TVL — https://www.defi.garden
-- aerodrome-slipstream · USDC-VELVET — 32750.73% APY, $3,156,833 TVL — https://www.defi.garden
-- aerodrome-v1 · WETH-W — 27488.57% APY, $40,510 TVL — https://www.defi.garden
-- uniswap-v4 · COSTANZA-WETH — 25411.71% APY, $47,039 TVL — https://www.defi.garden
-
-### Avalanche
-- blackhole-clmm · WAVAX-USDC — 144006.07% APY, $58,744 TVL — https://www.defi.garden
-- blackhole-clmm · WAVAX-USDC — 47889.16% APY, $14,664 TVL — https://www.defi.garden
-
-### Polygon
-- uniswap-v4 · WETH-AAVE — 35235.35% APY, $52,174 TVL — https://www.defi.garden
-
-### Aptos
-- hyperion · APT-ECHO — 23313.28% APY, $17,614 TVL — https://www.defi.garden
+- uniswap-v3 · WETH-USDC — 47.15% APY, $112,787,401 TVL — https://www.defi.garden
+- aerodrome-v1 · WETH-VVV — 26.36% APY, $10,512,529 TVL — https://www.defi.garden
+- uniswap-v3 · WETH-CBBTC — 25.98% APY, $11,353,947 TVL — https://www.defi.garden
+- aerodrome-v1 · USDC-AERO — 19.60% APY, $25,598,623 TVL — https://www.defi.garden
+- uniswap-v3 · WETH-USDC — 17.40% APY, $10,458,847 TVL — https://www.defi.garden
 
 ### Solana
-- raydium-amm · WSOL-DAVE — 23108.08% APY, $20,470 TVL — https://www.defi.garden
+- raydium-amm · BOME-WSOL — 34.74% APY, $10,074,174 TVL — https://www.defi.garden
+- orca-dex · SOL-USDC — 28.44% APY, $26,191,399 TVL — https://www.defi.garden
+- raydium-amm · WSOL-USDC — 18.05% APY, $10,096,940 TVL — https://www.defi.garden
+
+### Ethereum
+- saturn · SUSDAT — 27.72% APY, $77,818,719 TVL — https://www.defi.garden
+- uniswap-v4 · ETH-LINK — 21.88% APY, $23,501,241 TVL — https://www.defi.garden
+- uniswap-v3 · UNI-WETH — 21.12% APY, $15,756,790 TVL — https://www.defi.garden
+- uniswap-v3 · WETH-USDT — 19.55% APY, $87,332,380 TVL — https://www.defi.garden
+- uniswap-v3 · USDC-WETH — 18.34% APY, $98,166,884 TVL — https://www.defi.garden
+- curve-dex · CRVUSD-WETH — 18.00% APY, $29,960,782 TVL — https://www.defi.garden
+
+### Monad
+- accountable · USDC — 17.77% APY, $99,739,206 TVL — https://www.defi.garden
 
 ## Important Disclaimers
 - Yields are volatile and subject to rapid change
