@@ -89,6 +89,35 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
 - **A green test file that nothing runs is not a gate.** Check the failing/repaired file is actually
   in `package.json`'s `test` chain (`grep -c test_<name> package.json`) — 155's red control survived
   two loop runs because `test_audit_app.js` was never wired in.
+- **Rule-C tell: a Playwright wait that times out while the behaviour it waits for already happened.**
+  `page.waitForURL()`, `waitForNavigation()` and `goto()` all default to `waitUntil: 'load'`, and `load`
+  requires *every* subresource to settle. On any route that pulls proxy-blocked hosts the event never
+  fires, so the wait times out even though the navigation completed instantly. Diagnose in one probe
+  before touching the assertion: after the action, `page.waitForTimeout(...)` then print
+  `page.url()` + `await page.evaluate(() => document.readyState)` + the still-outstanding requests
+  (track `page.on('request'/'requestfinished'/'requestfailed')` into a Map). **`readyState === 'interactive'`
+  with a correct URL = rule C, the product is fine.** Item 158's probe: URL already
+  `/?token=USDC` with 9 pool cards rendered, `readyState` still `interactive` 12 s later, 10
+  `icons.llamao.fi` icons + `mp.defi.garden` + `api.fontshare.com` outstanding. Fix = abort the
+  decorative host (`route.abort()`, so the requests never delay `load` at all) **and** drop the wait to
+  `waitUntil: 'commit'`; never relax the assertion that follows it.
+- **A "fixture" the app never reads is not isolation — check the fixture is actually in force.**
+  Snapshot-first loading (item 059) means routing `yields.llama.fi/pools` alone does nothing: the app
+  serves `data/pools-snapshot.json` and your fixture is dead code, so the test silently asserts against
+  whatever the last CI bake committed. `test_landing.js` did this unnoticed for weeks — 2 fixture pools
+  declared, 148 snapshot pools actually rendered. Route `**/data/pools-snapshot*` with a deliberately
+  **stale** `generatedAt` (`2020-01-01`) so `tryLoadSnapshot()`'s age check (`app.js:1119`, 6 h) rejects
+  it and falls through to the routed live fetch. Verify by counting rendered `.pool-card`s against the
+  fixture length — if the count is a big round live-looking number, your fixture isn't in force.
+- **Chromium's "Failed to load resource" text never contains the URL.** An ignorable-error filter
+  matched only against `msg.text()` cannot classify a single network error. Always test
+  `msg.location().url` as well (`test_smoke.js:117-122`).
+- **Don't confuse "the chain was killed" with "the chain went red."** A `timeout N npm test` that
+  expires mid-file force-closes the browser, and every remaining assertion in that file reports
+  `Target page, context or browser has been closed`. That cascade looks like a catastrophic failure and
+  is pure artifact. Before ticketing it, re-run that one file standalone with a bigger budget: item
+  158's apparent `test_search.js` collapse (2/20, then 18/20) was `20/20 exit 0` given 550 s. Report the
+  timebox as the cause, and never report a killed chain as a red.
 
 ## Provenance
 
@@ -111,3 +140,10 @@ Rule **D**, the compiled-bundle trap and the unwired-gate trap added from item *
 absurd-number detector works on a real render) went red when item 144's `mean30dSane` rail stopped the
 injected value from rendering; two prior loops recorded it as "pre-existing, out of scope" without
 classifying it, and the file was not in `npm test`, so nothing surfaced it.
+
+Rule-**C** diagnosis technique, the dead-fixture trap, the URL-vs-text error-matching trap and the
+killed-chain-vs-red trap added from item **158** (2026-07-27) — `test_landing.js`, file **10 of 91**,
+inherited by name from 156's notes. Three separate harness defects in one file, none of them a product
+bug; the chain is now confirmed clear through position **12** (`test_search.js` 20/20 at a 550 s budget),
+with positions 13-91 still unobserved because the real-Chromium suite is slower than the 5-minute
+foreground timebox.
