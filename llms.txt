@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-07-28T09:18:50.292Z
+- Last Updated: 2026-07-28T09:54:14.784Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 4913
+- Total URLs: 4918
 
 ## Homepage
 TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.
@@ -18,7 +18,7 @@ TL;DR: Highest liquidity blockchain networks for DeFi yields.
 - Tron ($3.4B TVL) — https://www.defi.garden/?chain=Tron
 - Arbitrum ($2.4B TVL) — https://www.defi.garden/?chain=Arbitrum
 - Avalanche ($1.7B TVL) — https://www.defi.garden/?chain=Avalanche
-- Hyperliquid L1 ($1.6B TVL) — https://www.defi.garden/?chain=Hyperliquid%20L1
+- Hyperliquid L1 ($1.7B TVL) — https://www.defi.garden/?chain=Hyperliquid%20L1
 
 ## Popular Token Yields
 TL;DR: Most searched tokens for yield farming opportunities.
@@ -46,8 +46,8 @@ TL;DR: Most common "find X yield on Y chain" searches.
 TL;DR: Largest protocols by total value locked.
 - lido ($17.6B TVL) — https://www.defi.garden/?protocols=lido
 - aave-v3 ($14.0B TVL) — https://www.defi.garden/?protocols=aave-v3
-- morpho-blue ($11.1B TVL) — https://www.defi.garden/?protocols=morpho-blue
-- sky-lending ($8.1B TVL) — https://www.defi.garden/?protocols=sky-lending
+- morpho-blue ($11.2B TVL) — https://www.defi.garden/?protocols=morpho-blue
+- sky-lending ($8.0B TVL) — https://www.defi.garden/?protocols=sky-lending
 - binance-staked-eth ($7.0B TVL) — https://www.defi.garden/?protocols=binance-staked-eth
 - sparklend ($4.2B TVL) — https://www.defi.garden/?protocols=sparklend
 
@@ -64,14 +64,14 @@ TL;DR: Typical user queries and where to find them.
 
 ## Current Top Yields
 TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10M).
-- Base · uniswap-v3 · WETH-USDC — 86.2% APY, $111,005,227 TVL — https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007
-- Solana · orca-dex · SOL-USDC — 52.4% APY, $25,414,650 TVL — https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8
-- Ethereum · uniswap-v3 · WETH-USDT — 34.1% APY, $82,141,676 TVL — https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395
-- Arbitrum · uniswap-v3 · WETH-USDC — 30.4% APY, $35,609,683 TVL — https://www.defi.garden/?pool=a14bd201-764c-40a5-86b8-2928b2461232
-- Solana · raydium-amm · BOME-WSOL — 30.3% APY, $10,252,026 TVL — https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1
-- Base · uniswap-v3 · WETH-USDC — 29.7% APY, $10,195,697 TVL — https://www.defi.garden/?pool=8b3cadb9-b9f1-4539-998c-18c02e9e65a0
-- Ethereum · uniswap-v3 · USDC-WETH — 26.5% APY, $94,470,422 TVL — https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547
-- Ethereum · saturn · SUSDAT — 25.6% APY, $80,813,928 TVL — https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50
+- Base · uniswap-v3 · WETH-USDC — 85.6% APY, $111,070,165 TVL — https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007
+- Solana · orca-dex · SOL-USDC — 52.0% APY, $25,454,558 TVL — https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8
+- Ethereum · uniswap-v3 · WETH-USDT — 33.8% APY, $82,159,968 TVL — https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395
+- Solana · raydium-amm · BOME-WSOL — 30.7% APY, $10,230,550 TVL — https://www.defi.garden/?pool=efa5ce76-dc4f-4d06-a9d4-0e09c4dcd0a1
+- Base · uniswap-v3 · WETH-USDC — 30.3% APY, $10,170,977 TVL — https://www.defi.garden/?pool=8b3cadb9-b9f1-4539-998c-18c02e9e65a0
+- Arbitrum · uniswap-v3 · WETH-USDC — 30.0% APY, $35,632,579 TVL — https://www.defi.garden/?pool=a14bd201-764c-40a5-86b8-2928b2461232
+- Ethereum · concrete · SRROYUSDC — 26.9% APY, $12,984,462 TVL — https://www.defi.garden/?pool=7081d7c4-d0df-4c68-adce-2bb210cd25e8
+- Ethereum · uniswap-v3 · USDC-WETH — 25.9% APY, $94,499,056 TVL — https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547
 
 💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
 📊 For live rates and direct protocol access: https://www.defi.garden

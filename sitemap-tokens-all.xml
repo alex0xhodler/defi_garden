@@ -11,15 +11,6 @@
     <priority>0.91</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=ACRED</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ACRED" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ACRED&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ACRED" />
-    <lastmod>2026-07-27T19:08:09.313Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=APXUSD</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=APXUSD" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=APXUSD&amp;lang=ko" />
@@ -187,15 +178,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=EURS</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EURS" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EURS&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EURS" />
-    <lastmod>2026-07-28T05:14:36.121Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
@@ -915,9 +897,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WHYPE" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WHYPE&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WHYPE" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-07-28T09:54:14.308Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.92</priority>
+    <priority>0.93</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WSOL</loc>
@@ -978,8 +960,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XMR" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XMR&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XMR" />
-    <lastmod>2026-07-28T05:14:36.121Z</lastmod>
+    <lastmod>2026-07-28T09:54:14.308Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.91</priority>
+    <priority>0.92</priority>
   </url>
 </urlset>
