@@ -160,6 +160,29 @@ promoted}` field. Kill switch: `AUDIT_STATIC_PRESCAN=0` / `opts.prescan === fals
 spending the expensive render budget, and aim the render at what the prescan flagged as suspicious** — the
 uniform-sample-and-hope pattern this replaces is the default failure mode for auditing anything at scale.
 
+**The same blind spot exists on the APP surfaces, not just the generated ones (item 167, 2026-07-28).**
+154/157 fixed target-selection for the 2,176-page static set and stopped there — so for two more weeks the
+scanner rendered **five** pool-detail surfaces a day (`pool-detail`, `-360`, `-dark`, `-ko`, plus the
+dead-pool control) all pointing at **one hardcoded pool**, `PREFERRED_POOL_ID` = Lido stETH
+(`audit-app.js:88-91`, resolved at `:1065-1068`), out of **740** pools in `data/pools-snapshot.json`.
+That is 0.14% coverage of the north-star surface, on the single most blue-chip row in the dataset.
+The proof that it mattered: **every** pool-detail bug in this backlog's history was hand-found on a
+non-flagship pool — 122 (−900T stability score, balancer-v2), 144 and 145 (both pool
+`201e5f6e-cf75-4d0e-b07f-d58da3cee23a`), 165 (zeebu ZBU's $49-quintillion projection). Not one is Lido
+stETH, so the scanner could not have caught any of them — not because `number-sanity` (P0) is wrong, but
+because it was never aimed at a pool that could trip it. As of 2026-07-28 that snapshot still carried a
+live true positive the scanner had never rendered: `201e5f6e-…` with `apyMean30d` = 30,282.55%, 30× the
+rail. Fix = 157's prescan-then-promote pattern applied to the snapshot (`prescanPools()` +
+`buildPoolSurfaces()`, `AUDIT_POOL_*` switches, a `poolPrescan` block in the findings JSON).
+
+**Decision rule, and it generalises past this scanner:** for every surface an audit drives, ask *"what
+population is this one target drawn from, and what fraction of it can this selection ever reach?"* If the
+answer is "one hand-picked member of a set of N", the clean run is vacuous for the other N−1 — LEARNINGS
+2026-07-27 takeaway 2 ("a filter that returns zero is not evidence of health until you have proven it can
+return non-zero") applied to *targets* rather than to *predicates*. A hardcoded id chosen for being
+reliably good is the strongest possible guarantee the check never fires. Prescan the population cheaply
+(no render), promote the suspects, rotate the rest by seed.
+
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
 pre-traffic. Seeded from every mechanically-detectable bug caught this session. Item 157's prescan

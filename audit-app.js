@@ -57,6 +57,28 @@
      AUDIT_TEXT_SURFACES   — set to '0' to disable the llms.txt/llms-full.txt
                              text-surface pass (backlog 160); same effect as
                              opts.textSurfaces === false. Default ON.
+     AUDIT_POOL_IDS         — comma-separated pool ids (backlog 167); when set,
+                             REPLACES the pool-detail anchor selection + prescan
+                             + rotation. The first id becomes the anchor pool
+                             (the four unchanged pool-detail/-360/-dark/-ko
+                             surfaces point at it); any further ids render as
+                             extra `pool-detail:<id-prefix>` surfaces verbatim.
+                             Prescan is OFF in this mode — exact mirror of
+                             AUDIT_STATIC_PAGES's contract (spec 154).
+     AUDIT_POOL_PRESCAN     — set to '0' to disable pool-snapshot prescan +
+                             promotion entirely (falls back to pure seeded
+                             rotation; backlog 167). Same effect as
+                             opts.poolPrescan === false. Already off whenever
+                             AUDIT_POOL_IDS is set (used verbatim).
+     AUDIT_POOL_PRESCAN_MAX — cap on how many prescan-flagged suspect pools get
+                             promoted into `pool-detail:<id-prefix>` surfaces
+                             per run (default 2; backlog 167). Additive to the
+                             rotation budget below — see buildPoolSurfaces()'s
+                             header comment for why (differs from the static
+                             leg's shared-budget shape).
+     AUDIT_POOL_SAMPLE     — how many extra pool-detail:<id-prefix> surfaces to
+                             seed-rotate through beyond the anchor + promoted
+                             pools (default 2, capped at 6; backlog 167).
 
    backlog 149: playwright is resolved lazily (bare require -> npm global root ->
    hardcoded global fallback) instead of at module load, so `require('./audit-app.js')`
@@ -155,6 +177,26 @@ const PRESCAN_SIGNALS = {
   'absurd-magnitude': 'P0',
   'junk-slug': 'P1',
   'zero-yield-claim': 'P1'
+};
+
+// Pool-snapshot prescan (backlog 167). Budget knobs mirror the static leg's
+// naming (DEFAULT_*/MAX_* pairs), reusing the module's existing
+// APY_SANITY_LIMIT / ABSURD_MAGNITUDE constants verbatim — this section may
+// never redefine either (a rail mirror here is a trust-rail edit).
+const DEFAULT_POOL_PRESCAN_MAX = 2; // promotion cap
+const DEFAULT_POOL_SAMPLE = 2;      // rotation sample size
+const MAX_POOL_SAMPLE = 6;          // ceiling on AUDIT_POOL_SAMPLE
+const POOL_ID_PREFIX_LEN = 8;       // `pool-detail:<prefix>` surface naming
+
+// signal -> severity, single source of truth (same role as PRESCAN_SIGNALS /
+// TEXT_SURFACE_SIGNALS) for both prescanPools()'s suspect records and the
+// aggregate `pool-prescan:<signal>` findings.
+const POOL_PRESCAN_SIGNALS = {
+  'apy-rail-breach': 'P0',
+  'mean30d-rail-breach': 'P0',
+  'kpi-nonfinite': 'P0',
+  'absurd-magnitude': 'P0',
+  'missing-tvl': 'P1'
 };
 
 // Non-HTML text-surface prescan (backlog 160): llms.txt/llms-full.txt are
@@ -535,6 +577,252 @@ function buildStaticSurfaces(opts) {
     surfaces.push({ name: `static-page:${slugFromRel(rel)}`, url: '/' + rel, kind: 'static', width: 1280 });
   }
   return { surfaces, prescan, prescanFindings };
+}
+
+// ---------------------------------------------------------------------------
+// Pool-snapshot prescan + promotion (backlog 167). Mirrors prescanStaticPages
+// / buildStaticSurfaces's shape (154/157), aimed at the ~740-pool snapshot
+// instead of the SEO leaf-page set — closing the same class of blind spot
+// (five pool-detail renders a day, all the same hand-picked flagship pool,
+// `747c1d2a-…`/Lido stETH) that 154/157 already closed for static pages.
+// ---------------------------------------------------------------------------
+function isNonFiniteNumber(v) {
+  return typeof v === 'number' && !Number.isFinite(v);
+}
+
+// Pure, no I/O beyond the `pools` array already read by runAudit() from the
+// snapshot file. Never throws: a pool missing a field simply cannot trip a
+// predicate that reads that field (undefined fails every numeric check),
+// it is not an error. Returns `{ scanned, suspects, bySignal }` — `bySignal`
+// is computed here (unlike prescanStaticPages/prescanTextSurfaces, which
+// leave that to their caller) per spec 167 §1's own return shape; callers
+// that need an anchor-excluded bySignal (buildPoolSurfaces, below) recompute
+// their own from the filtered suspect list, exactly as buildStaticSurfaces
+// already does for the static leg.
+function prescanPools(pools, opts = {}) {
+  const list = Array.isArray(pools) ? pools : [];
+  const suspects = [];
+
+  for (const p of list) {
+    if (!p || typeof p !== 'object') continue;
+    const id = typeof p.pool === 'string' && p.pool ? p.pool : '(unknown-id)';
+    const label = `${id.slice(0, POOL_ID_PREFIX_LEN)} (${p.project || '?'}/${p.symbol || '?'})`;
+
+    // apy-rail-breach (P0) — mirrors the live rendered total-APY figure.
+    const totalApy = (p.apyBase || 0) + (p.apyReward || 0);
+    if (totalApy > APY_SANITY_LIMIT) {
+      suspects.push({ poolId: id, signal: 'apy-rail-breach', severity: POOL_PRESCAN_SIGNALS['apy-rail-breach'],
+        detail: `${label}: apyBase+apyReward = ${totalApy} exceeds the ${APY_SANITY_LIMIT}% rail` });
+    }
+
+    // mean30d-rail-breach (P0) — the live true positive this item exists for
+    // (201e5f6e-…, apyMean30d = 30282.5457).
+    if (typeof p.apyMean30d === 'number' && p.apyMean30d > APY_SANITY_LIMIT) {
+      suspects.push({ poolId: id, signal: 'mean30d-rail-breach', severity: POOL_PRESCAN_SIGNALS['mean30d-rail-breach'],
+        detail: `${label}: apyMean30d = ${p.apyMean30d} exceeds the ${APY_SANITY_LIMIT}% rail` });
+    }
+
+    // kpi-nonfinite (P0) — any numeric kpis.* value that is NaN/±Infinity.
+    // A valid JSON snapshot can never encode NaN/Infinity (JSON.parse would
+    // throw on the literal), so this only ever trips on in-memory fixtures —
+    // a deliberate robustness net, exercised by test_audit_pool_prescan.js.
+    if (p.kpis && typeof p.kpis === 'object') {
+      for (const key of Object.keys(p.kpis)) {
+        if (isNonFiniteNumber(p.kpis[key])) {
+          suspects.push({ poolId: id, signal: 'kpi-nonfinite', severity: POOL_PRESCAN_SIGNALS['kpi-nonfinite'],
+            detail: `${label}: kpis.${key} = ${p.kpis[key]}` });
+          break; // one suspect per pool per signal is enough
+        }
+      }
+    }
+
+    // absurd-magnitude (P0) — any numeric field (top-level or kpis.*) with
+    // |value| >= ABSURD_MAGNITUDE (the 122 bug class's own floor, reused
+    // verbatim). Quotes the single largest-magnitude offender.
+    let worstField = null, worstVal = -1, worstRaw = null;
+    const consider = (fieldLabel, v) => {
+      if (typeof v === 'number' && Number.isFinite(v) && Math.abs(v) >= ABSURD_MAGNITUDE && Math.abs(v) > worstVal) {
+        worstVal = Math.abs(v); worstField = fieldLabel; worstRaw = v;
+      }
+    };
+    consider('tvlUsd', p.tvlUsd);
+    consider('apyBase', p.apyBase);
+    consider('apyReward', p.apyReward);
+    consider('apyMean30d', p.apyMean30d);
+    if (p.kpis && typeof p.kpis === 'object') {
+      for (const key of Object.keys(p.kpis)) consider(`kpis.${key}`, p.kpis[key]);
+    }
+    if (worstField) {
+      suspects.push({ poolId: id, signal: 'absurd-magnitude', severity: POOL_PRESCAN_SIGNALS['absurd-magnitude'],
+        detail: `${label}: ${worstField} = ${worstRaw} (|value| >= ${ABSURD_MAGNITUDE.toExponential(0)})` });
+    }
+
+    // missing-tvl (P1).
+    if (!(typeof p.tvlUsd === 'number' && p.tvlUsd > 0)) {
+      suspects.push({ poolId: id, signal: 'missing-tvl', severity: POOL_PRESCAN_SIGNALS['missing-tvl'],
+        detail: `${label}: tvlUsd = ${JSON.stringify(p.tvlUsd)} (not > 0)` });
+    }
+  }
+
+  // P0-first, then poolId — same comparator shape as prescanStaticPages().
+  suspects.sort((a, b) => {
+    const rank = (sev) => (sev === 'P0' ? 0 : 1);
+    if (rank(a.severity) !== rank(b.severity)) return rank(a.severity) - rank(b.severity);
+    return a.poolId < b.poolId ? -1 : a.poolId > b.poolId ? 1 : 0;
+  });
+
+  const bySignal = {};
+  for (const sig of Object.keys(POOL_PRESCAN_SIGNALS)) bySignal[sig] = 0;
+  for (const s of suspects) bySignal[s.signal] = (bySignal[s.signal] || 0) + 1;
+
+  return { scanned: list.length, suspects, bySignal };
+}
+
+// No-suspects/disabled shape — same role as emptyPrescanResult()/
+// emptyTextSurfaceResult(): callers never need to null-check result.poolPrescan.
+function emptyPoolPrescanResult() {
+  return { scanned: 0, suspectCount: 0, bySignal: {}, promoted: [] };
+}
+
+function poolIdPrefix(id) {
+  const s = typeof id === 'string' ? id : String(id || '');
+  return s.slice(0, POOL_ID_PREFIX_LEN) || 'unknown';
+}
+
+// Builds the pool-detail promotion/rotation additions (spec 167 §2) and
+// resolves the anchor pool id (replaces the old PREFERRED_POOL_ID-only
+// block). Returns `{ anchorPoolId, extraSurfaces, poolPrescan,
+// poolPrescanFindings }`. The FOUR existing named surfaces
+// (pool-detail/-360/-dark/-ko) are NOT built here — they stay exactly where
+// they are in runAudit()'s surface list, unchanged, just pointing at
+// `anchorPoolId` instead of a hardcoded local — so no existing
+// surfacesCovered entry moves position or renames (167's own hard
+// constraint, mirrored from 162/164's precedent).
+//
+// Deliberate shape difference from buildStaticSurfaces(): the static leg
+// shares ONE budget between promotion and rotation (promoted pages replace
+// uniform picks) because static pages have no viewport-variant anchor to
+// protect. Pool-detail's anchor is already a fixed 4-surface block; spec 167
+// §2 describes promotion (`DEFAULT_POOL_PRESCAN_MAX`) and rotation
+// (`DEFAULT_POOL_SAMPLE`) as two independently-sized budgets, and the spec's
+// own "1 anchor + ≤2 promoted + ≤2 rotated = up to 7" measurement example
+// only reconciles arithmetically (4 anchor + 1 promoted + 2 rotated = 7,
+// matching this checkout's real 1-suspect snapshot) under an ADDITIVE
+// reading, not a shared-budget one — see 167-notes.md for the full
+// derivation. Growth is still small and bounded (A7): at the shipped
+// defaults, additive growth is `DEFAULT_POOL_PRESCAN_MAX +
+// DEFAULT_POOL_SAMPLE` = 4, comfortably under `MAX_POOL_SAMPLE` (6).
+function buildPoolSurfaces(opts = {}) {
+  const pools = Array.isArray(opts.pools) ? opts.pools : [];
+  const overrideRaw = opts.poolIds || process.env.AUDIT_POOL_IDS;
+
+  if (overrideRaw) {
+    // Explicit override (tests / positive control): used verbatim — exact
+    // mirror of spec 154's AUDIT_STATIC_PAGES contract. The first id becomes
+    // the anchor pool (the four unchanged named surfaces point at it, built
+    // by the caller); any further ids become extra `pool-detail:<prefix>`
+    // surfaces. Prescan is OFF in this mode (spec 167 §3).
+    const ids = overrideRaw.split(',').map((s) => s.trim()).filter(Boolean);
+    const anchorPoolId = ids[0] || null;
+    const extraSurfaces = ids.slice(1).map((id) => ({
+      name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280
+    }));
+    return { anchorPoolId, extraSurfaces, poolPrescan: emptyPoolPrescanResult(), poolPrescanFindings: [] };
+  }
+
+  // Anchor resolution — unchanged logic, unchanged fallback (spec 167 §2).
+  let anchorPoolId = PREFERRED_POOL_ID;
+  if (!pools.some((p) => p && p.pool === anchorPoolId)) {
+    anchorPoolId = pools.length ? pools[0].pool : null;
+    console.error(`[audit] preferred pool id absent from snapshot; using ${anchorPoolId}`);
+  }
+
+  const prescanEnabled = opts.poolPrescan === true ? true
+    : opts.poolPrescan === false ? false
+    : process.env.AUDIT_POOL_PRESCAN === '0' ? false
+    : true;
+  const prescanMax = Math.max(0, Number(opts.poolPrescanMax || process.env.AUDIT_POOL_PRESCAN_MAX || DEFAULT_POOL_PRESCAN_MAX));
+  const sampleSize = Math.min(MAX_POOL_SAMPLE,
+    Math.max(0, Number(opts.poolSample || process.env.AUDIT_POOL_SAMPLE || DEFAULT_POOL_SAMPLE)));
+  // Reuses the SAME seed the static leg uses (spec 167 §3: "reuse the
+  // existing seed"), namespaced so the two rotations never pick in lockstep.
+  const seed = opts.poolSeed || opts.staticSeed || process.env.AUDIT_STATIC_SEED || defaultStaticSeed();
+
+  let poolPrescan = emptyPoolPrescanResult();
+  const poolPrescanFindings = [];
+  let promotedIds = [];
+
+  if (prescanEnabled && prescanMax > 0 && pools.length) {
+    const scan = prescanPools(pools);
+    // Never promote the anchor pool — it is already covered by the
+    // unchanged four pool-detail* surfaces (mirrors static's anchorLeafRel
+    // exclusion).
+    const suspects = scan.suspects.filter((s) => s.poolId !== anchorPoolId);
+
+    const bySignal = {};
+    for (const sig of Object.keys(POOL_PRESCAN_SIGNALS)) bySignal[sig] = 0;
+    for (const s of suspects) bySignal[s.signal] = (bySignal[s.signal] || 0) + 1;
+
+    // One aggregate finding per signal with >=1 suspect (mirrors
+    // static-prescan:<signal> verbatim in shape and wording).
+    for (const sig of Object.keys(POOL_PRESCAN_SIGNALS)) {
+      const hits = suspects.filter((s) => s.signal === sig);
+      if (hits.length === 0) continue;
+      const examples = hits.slice(0, 10).map((s) => poolIdPrefix(s.poolId));
+      poolPrescanFindings.push(finding('pool-prescan', 'n/a', `pool-prescan:${sig}`, POOL_PRESCAN_SIGNALS[sig],
+        `${hits.length} of ${scan.scanned} snapshot pools match ${sig} — examples: ${examples.join(', ')}`));
+    }
+
+    // Dedupe to unique pool ids, preserving the P0-first/poolId-sorted order
+    // prescanPools() already returned (mirrors prescanStaticPages's
+    // suspectRels dedupe in buildStaticSurfaces).
+    const seenId = new Set();
+    const uniqueIds = [];
+    const severityById = {};
+    for (const s of suspects) {
+      if (!seenId.has(s.poolId)) { seenId.add(s.poolId); uniqueIds.push(s.poolId); severityById[s.poolId] = s.severity; }
+    }
+    const p0Ids = uniqueIds.filter((id) => severityById[id] === 'P0');
+    const p1Ids = uniqueIds.filter((id) => severityById[id] !== 'P0');
+
+    // "P0-first, tie broken by sampleBySeed" (spec 167 §2), taken literally:
+    // severity decides ordering deterministically; sampleBySeed only
+    // arbitrates WITHIN a severity group when that group alone exceeds the
+    // cap. (157 never needed this two-tier split — its two prescan signals
+    // in active use, junk-slug/zero-yield-claim, are both P1.)
+    if (p0Ids.length <= prescanMax) {
+      promotedIds = p0Ids.slice();
+      const remaining = prescanMax - promotedIds.length;
+      if (remaining > 0 && p1Ids.length) promotedIds = promotedIds.concat(sampleBySeed(p1Ids, remaining, `${seed}:poolprescan`));
+    } else {
+      promotedIds = sampleBySeed(p0Ids, prescanMax, `${seed}:poolprescan`);
+    }
+
+    // `promoted` holds FULL pool ids (spec 167 A1: "poolPrescan.promoted
+    // contains 201e5f6e-cf75-4d0e-b07f-d58da3cee23a" — the whole id, not the
+    // 8-char prefix used only for surface NAMING). The prescan aggregate
+    // finding's `examples` list above intentionally stays on the shorter
+    // prefix (readability, mirrors static-prescan's slug examples); this
+    // field is the machine-checkable one and must be exact.
+    poolPrescan = { scanned: scan.scanned, suspectCount: suspects.length, bySignal, promoted: promotedIds.slice() };
+  }
+
+  const extraSurfaces = promotedIds.map((id) => ({
+    name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280
+  }));
+
+  // ---- Seeded rotation — additive to promotion, see header note above -----
+  const promotedSet = new Set(promotedIds);
+  const rotationCandidates = pools
+    .filter((p) => p && p.pool !== anchorPoolId && !promotedSet.has(p.pool))
+    .map((p) => p.pool)
+    .sort();
+  const rotationPicks = sampleBySeed(rotationCandidates, sampleSize, `${seed}:pools`);
+  for (const id of rotationPicks) {
+    extraSurfaces.push({ name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280 });
+  }
+
+  return { anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings };
 }
 
 // ---------------------------------------------------------------------------
@@ -1061,12 +1349,16 @@ async function runAudit(opts = {}) {
   const pools = Array.isArray(snap.pools) ? snap.pools : [];
   if (pools.length === 0) throw new Error(`snapshot at ${snapshotPath} has no pools`);
 
-  // Verify the north-star pool id is present; else pick a real one.
-  let poolId = PREFERRED_POOL_ID;
-  if (!pools.some((p) => p && p.pool === poolId)) {
-    poolId = pools[0].pool;
-    console.error(`[audit] preferred pool id absent from snapshot; using ${poolId}`);
-  }
+  // backlog 167: anchor-pool resolution + prescan/rotation additions now live
+  // in buildPoolSurfaces() (mirrors buildStaticSurfaces() below). Anchor
+  // fallback logic is unchanged — `poolId` still resolves to PREFERRED_POOL_ID
+  // or pools[0], verbatim.
+  const poolResult = buildPoolSurfaces({
+    pools, poolIds: opts.poolIds, poolPrescan: opts.poolPrescan,
+    poolPrescanMax: opts.poolPrescanMax, poolSample: opts.poolSample,
+    poolSeed: opts.poolSeed, staticSeed: opts.staticSeed
+  });
+  const poolId = poolResult.anchorPoolId;
 
   // Fresh meta (trap #1): real meta shape, generatedAt = now.
   let metaObj = { schemaVersion: 1, count: pools.length, bytes: snapshotBody.length };
@@ -1108,6 +1400,13 @@ async function runAudit(opts = {}) {
     { name: 'plan-bloom-360', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10', kind: 'bloom', width: 360 },
     { name: 'plan-bloom-ko', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10&lang=ko', kind: 'bloom', width: 1280, ko: true }
   ];
+
+  // backlog 167 — promoted/rotated pool-detail surfaces, spliced in right
+  // after pool-detail-ko so no EXISTING surfacesCovered entry moves position
+  // (grid-loading/grid-360/landing/… all keep their exact relative order).
+  const poolKoIdx = surfaces.findIndex((s) => s.name === 'pool-detail-ko');
+  surfaces.splice(poolKoIdx + 1, 0, ...poolResult.extraSurfaces);
+
   const staticResult = buildStaticSurfaces(opts);
   surfaces = surfaces.concat(staticResult.surfaces);
 
@@ -1131,6 +1430,12 @@ async function runAudit(opts = {}) {
   // green.
   let prescanFindings = staticResult.prescanFindings;
   if (Array.isArray(opts.only)) prescanFindings = prescanFindings.filter((f) => opts.only.includes(f.surface));
+
+  // Aggregate pool-prescan findings (backlog 167) — same shape/rationale as
+  // the static-prescan allowlisting immediately above, matched against
+  // `f.surface` ('pool-prescan').
+  let poolPrescanFindings = poolResult.poolPrescanFindings;
+  if (Array.isArray(opts.only)) poolPrescanFindings = poolPrescanFindings.filter((f) => opts.only.includes(f.surface));
 
   // Text-surface pass (backlog 160), computed BEFORE the browser launches
   // (pure fs). Kill switch mirrors the static prescan's convention
@@ -1169,7 +1474,7 @@ async function runAudit(opts = {}) {
   const browser = await pw.chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   const baseUrl = `http://localhost:${port}`;
   const ctx = { snapshotBody, freshMeta, liveBody };
-  const findings = [...prescanFindings, ...textSurfaceFindings];
+  const findings = [...prescanFindings, ...poolPrescanFindings, ...textSurfaceFindings];
   const surfacesCovered = [];
   // Named only when the pass ran AND survived opts.only (spec 160: unlike
   // static-prescan, this DOES get its own surfacesCovered entry).
@@ -1192,6 +1497,7 @@ async function runAudit(opts = {}) {
     surfacesCovered,
     findings,
     prescan: staticResult.prescan,
+    poolPrescan: poolResult.poolPrescan,
     textSurfaces
   };
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
@@ -1205,7 +1511,10 @@ function blockingFindings(findings) {
   return (findings || []).filter((f) => f && (f.severity === 'P0' || f.severity === 'P1'));
 }
 
-module.exports = { runAudit, scanNumbers, resolvePlaywright, blockingFindings, prescanStaticPages, prescanTextSurfaces };
+module.exports = {
+  runAudit, scanNumbers, resolvePlaywright, blockingFindings,
+  prescanStaticPages, prescanTextSurfaces, prescanPools, buildPoolSurfaces
+};
 
 if (require.main === module) {
   const outPath = process.env.AUDIT_OUT || DEFAULT_OUT;
