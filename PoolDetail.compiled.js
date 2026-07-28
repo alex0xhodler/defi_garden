@@ -571,7 +571,13 @@ function PoolDetail({
       color: 'var(--color-text)',
       lineHeight: '1.4'
     }
-  }, t ? t('projectionBody', investmentAmount, PROJECTION_YEARS, projectionAmount) : `$${Number(investmentAmount || 0).toLocaleString('en-US')} in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`),
+  }, isAnomalous
+  // 165: an out-of-rail totalApy compounds into a fictional dollar figure
+  // (e.g. $49 quintillion) — never derive $ from it. Honest replacement
+  // line, no numbers to rail. Hero APY / Base+Reward cards keep rendering
+  // the raw rate elsewhere (demote + flag convention) — this gate is
+  // display-only, on this node.
+  ? t ? t('projectionBodyOutOfRange') : 'This rate is too far outside normal ranges to project a dollar amount from — the number would be fiction, not a forecast.' : t ? t('projectionBody', investmentAmount, PROJECTION_YEARS, projectionAmount) : `$${Number(investmentAmount || 0).toLocaleString('en-US')} in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`),
   // Yield-funded thesis line (129): the deposit stays the user's — you keep
   // your money AND it keeps working. Honest framing, no numbers to rail.
   React.createElement('div', {
@@ -626,7 +632,7 @@ function PoolDetail({
       fontWeight: 'var(--font-weight-bold)',
       color: 'var(--color-primary)'
     }
-  }, AnimatedNumber ? React.createElement(AnimatedNumber, {
+  }, isAnomalous ? '—' : AnimatedNumber ? React.createElement(AnimatedNumber, {
     value: investmentAmount * totalApy / 365 / 100,
     formatFn: v => _formatUsd(v),
     duration: 1000
@@ -659,7 +665,7 @@ function PoolDetail({
       fontWeight: 'var(--font-weight-bold)',
       color: 'var(--color-text)'
     }
-  }, AnimatedNumber ? React.createElement(AnimatedNumber, {
+  }, isAnomalous ? '—' : AnimatedNumber ? React.createElement(AnimatedNumber, {
     value: investmentAmount * totalApy / 12 / 100,
     formatFn: v => _formatUsd(v),
     duration: 1000
@@ -983,7 +989,7 @@ function PoolDetail({
       marginBottom: '8px',
       transition: 'transform 0.15s ease-out'
     }
-  }, activeCalculatorTab === '1day' ? _formatUsd(investmentAmount * totalApy / 365 / 100) : activeCalculatorTab === '7days' ? _formatUsd(investmentAmount * totalApy / 52 / 100) : _formatUsd(investmentAmount * totalApy / 12 / 100)), React.createElement('div', {
+  }, isAnomalous ? '—' : activeCalculatorTab === '1day' ? _formatUsd(investmentAmount * totalApy / 365 / 100) : activeCalculatorTab === '7days' ? _formatUsd(investmentAmount * totalApy / 52 / 100) : _formatUsd(investmentAmount * totalApy / 12 / 100)), React.createElement('div', {
     style: {
       fontSize: 'var(--font-size-sm)',
       color: 'var(--color-text-secondary)',

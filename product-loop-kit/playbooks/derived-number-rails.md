@@ -17,6 +17,7 @@ cannot see a poisoned INPUT.
 | 144 | `apyMean30d` | `36,452.4%` as a trusted "30d average" | gate was `typeof === 'number'`, no bound |
 | 145 | `apyMean` / `apyStdev` / `apySharpe` | an innocuous **`0.3`** | every guard was a MAGNITUDE guard on the OUTPUT |
 | 159 | `pool.apy` in `llms.txt` | `353,114.2% APY` on live prod | **the surface had no guard at all** — the rail was never wired into that generator |
+| 165 | `projectionAmount`, daily/monthly/calculator $ | `~$49,002,948,093,727,200,000 in 5y` | the rail existed and fired — on the **rate** and on ONE node (`showConcreteCta`); the other four nodes compounded the same rate unguarded |
 
 145 is the important one for *inputs*; **159 is the important one for *surfaces***. It is not a subtle
 numeric failure — `generate-llms.js` simply contains zero occurrences of `SANITY`, uses a `$10k` TVL floor
@@ -39,7 +40,9 @@ grep -Lc "APY_SANITY_LIMIT" generate-*.js     # generators with NO rail — the 
 ```
 
 Known emitters of rate values, and their rail status as of 2026-07-27:
-`app.js` ✅ · `planner.js` ✅ · `PoolDetail.js` ✅ (`mean30dSane`, all four consumers verified) ·
+`app.js` ✅ · `planner.js` ✅ · `PoolDetail.js` ✅ (`mean30dSane`, all four consumers verified; **derived $
+nodes railed 2026-07-28, item 165** — before that, ✅ meant "the rate is railed", which is not the same
+claim) ·
 `compute-kpis.js` ✅ (145) · `generate-token-pages.js` / `generate-chain-pages.js` ✅ (own floors) ·
 **`generate-llms.js` ❌ — item 159.**
 
@@ -69,6 +72,37 @@ Any fixture must match the shape of the source the code under test actually read
 
 Rule: run every rail check against a **known-bad value first**. If it does not fire, the check is broken,
 not the data.
+
+## Step 0c — separate the DATUM from the DERIVATION (added 2026-07-28, item 165)
+
+"The rail fires on this surface" is **two** claims, and the product answers them differently:
+
+- **The datum** (the pool's own reported rate) — house convention is **demote + flag, never hide**. The
+  ⚠, the forced High risk and the visible rate are the honest treatment. Leave it rendering.
+- **Anything DERIVED from the datum** (a compounded projection, a $/day figure, a calculator amount) —
+  there is no honest version. Compounding an out-of-rail rate does not produce an exciting number, it
+  produces a fictional one. **Suppress it, and say why in words.**
+
+So when you find a flagged-but-absurd surface, do not "fix the flag" — enumerate every node downstream of
+the rate and check each one separately:
+
+```
+grep -nE "totalApy|apyBase \|\| 0" PoolDetail.js | grep -vE "^\s*//"     # every consumer
+```
+
+165's exposure was four unguarded derived-$ nodes sitting next to ONE guarded one (`showConcreteCta`,
+item 025) — the principle had been written down in a code comment for weeks and applied to a single
+button. **A rail applied at one node is a rail you have not finished applying.**
+
+Two traps when you suppress:
+
+1. **Suppressing the datum can blind your own detector.** `test_audit_app.js` case 2 injects a 9e14
+   magnitude into `apyBase` and asserts `audit-app.js` catches it on a real render. Item 144 killed that
+   control by suppressing the card it rendered in; item 155 had to restore it. Before gating a render
+   node, `grep` the test suite for a control that depends on it rendering.
+2. **`?pool=` bypasses the snapshot.** `app.js:1141` always fetches live, so a $10M-railed snapshot proves
+   nothing about pool-detail. Measure exposure against `curl https://yields.llama.fi/pools`
+   (2026-07-28: 75 of 16,050 pools above the 1000% limit, 3 of them ≥$1M TVL).
 
 ## Steps
 
