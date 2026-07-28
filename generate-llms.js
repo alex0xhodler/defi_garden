@@ -41,6 +41,22 @@ function formatTvlFloor(usd) {
   return `$${n.toLocaleString('en-US')}`;
 }
 
+/**
+ * URL for a single pool row (spec 166). Deep-links to pool-detail —
+ * `/?pool=<id>` — when the pool carries a real `pool` id (the router's
+ * north-star surface per the 2026-07-23 standing decision); falls back to the
+ * existing `?token=<symbol>&chain=<chain>` grid-level link only when the id is
+ * absent. A `.url` field is never present on the DefiLlama payload — it
+ * doesn't exist, don't read it (spec 166 class 1: that fallback fired on
+ * 100% of rows, always).
+ */
+function poolUrl(pool, baseUrl) {
+  if (pool && typeof pool.pool === 'string' && pool.pool.length > 0) {
+    return `${baseUrl}/?pool=${encodeURIComponent(pool.pool)}`;
+  }
+  return `${baseUrl}/?token=${encodeURIComponent(pool && pool.symbol || '')}&chain=${encodeURIComponent(pool && pool.chain || '')}`;
+}
+
 // Logging utilities with prefix
 function log(msg) { console.log(`🤖 [llms] ${msg}`); }
 function err(msg, e) { console.error(`❌ [llms][error] ${msg}${e ? `: ${e.message}` : ''}`); }
@@ -459,7 +475,7 @@ function buildConcise(meta, categories, highYield, yieldAnalysis) {
   lines.push('## Major DeFi Protocols');
   lines.push('TL;DR: Largest protocols by total value locked.');
   yieldAnalysis.topProtocols.slice(0, 6).forEach(({ protocol, tvl }) => {
-    const protocolUrl = `${meta.baseUrl}/?search=${encodeURIComponent(protocol)}`;
+    const protocolUrl = `${meta.baseUrl}/?protocols=${encodeURIComponent(protocol)}`;
     const tvlFormatted = tvl > 1e9 ? `$${(tvl / 1e9).toFixed(1)}B` : `$${(tvl / 1e6).toFixed(0)}M`;
     lines.push(`- ${protocol} (${tvlFormatted} TVL) — ${protocolUrl}`);
   });
@@ -471,7 +487,7 @@ function buildConcise(meta, categories, highYield, yieldAnalysis) {
   lines.push(`- "Best USDC yields" → ${meta.baseUrl}/?token=USDC`);
   lines.push(`- "USDC yields on Base" → ${meta.baseUrl}/?token=USDC&chain=Base`);
   lines.push(`- "Ethereum lending" → ${meta.baseUrl}/?chain=Ethereum&poolTypes=Lending`);
-  lines.push(`- "Pendle opportunities" → ${meta.baseUrl}/?search=Pendle`);
+  lines.push(`- "Pendle opportunities" → ${meta.baseUrl}/?protocols=pendle`);
   lines.push(`- "High APY staking" → ${meta.baseUrl}/?poolTypes=Staking&minApy=10`);
   lines.push(`- "Safe lending USDT" → ${meta.baseUrl}/?token=USDT&poolTypes=Lending`);
   lines.push(`- "Arbitrum LP tokens" → ${meta.baseUrl}/?chain=Arbitrum&poolTypes=LP%2FDEX`);
@@ -489,8 +505,7 @@ function buildConcise(meta, categories, highYield, yieldAnalysis) {
       const apy = `${Number(pool.apy).toFixed(1)}%`;
       const tvl = `$${Math.round(Number(pool.tvlUsd) || 0).toLocaleString()}`;
       const name = [pool.chain, pool.project, pool.symbol].filter(Boolean).join(' · ');
-      const searchUrl = `${meta.baseUrl}/?token=${encodeURIComponent(pool.symbol || '')}&chain=${encodeURIComponent(pool.chain || '')}`;
-      lines.push(`- ${name} — ${apy} APY, ${tvl} TVL — ${searchUrl}`);
+      lines.push(`- ${name} — ${apy} APY, ${tvl} TVL — ${poolUrl(pool, meta.baseUrl)}`);
     });
   }
   lines.push('');
@@ -574,7 +589,7 @@ function buildFull(meta, categories, highYield, yieldAnalysis) {
     lines.push('## Market Analysis: Top Protocols');
     lines.push('TL;DR: Leading DeFi protocols by aggregate TVL across all pools.');
     yieldAnalysis.topProtocols.forEach(({ protocol, tvl }) => {
-      const protocolUrl = `${meta.baseUrl}/?search=${encodeURIComponent(protocol)}`;
+      const protocolUrl = `${meta.baseUrl}/?protocols=${encodeURIComponent(protocol)}`;
       const tvlFormatted = tvl > 1e9 ? `$${(tvl / 1e9).toFixed(2)}B` : `$${(tvl / 1e6).toFixed(0)}M`;
       lines.push(`- ${protocol}: ${tvlFormatted} TVL — ${protocolUrl}`);
     });
@@ -603,8 +618,7 @@ function buildFull(meta, categories, highYield, yieldAnalysis) {
         const apy = `${Number(pool.apy).toFixed(2)}%`;
         const tvl = `$${Math.round(Number(pool.tvlUsd) || 0).toLocaleString()}`;
         const details = [pool.project, pool.symbol].filter(Boolean).join(' · ');
-        const poolUrl = pool.url || meta.baseUrl;
-        lines.push(`- ${details} — ${apy} APY, ${tvl} TVL — ${poolUrl}`);
+        lines.push(`- ${details} — ${apy} APY, ${tvl} TVL — ${poolUrl(pool, meta.baseUrl)}`);
       });
       lines.push('');
     });
@@ -722,5 +736,6 @@ module.exports = {
   LLMS_TS_PLACEHOLDER,
   APY_SANITY_LIMIT,
   MIN_TVL_USD,
-  formatTvlFloor
+  formatTvlFloor,
+  poolUrl
 };
