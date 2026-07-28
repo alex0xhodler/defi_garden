@@ -205,7 +205,7 @@ const POOL_PRESCAN_SIGNALS = {
 // pure fs+regex shape as the static prescan, aimed at ~2 files not ~2,197.
 const TEXT_SURFACE_FILES = ['llms.txt', 'llms-full.txt'];
 // signal -> severity, single source of truth (same role as PRESCAN_SIGNALS).
-const TEXT_SURFACE_SIGNALS = { 'apy-rail-breach': 'P0', 'broken-number-literal': 'P0', 'tvl-floor-claim': 'P1', 'empty-surface': 'P1' };
+const TEXT_SURFACE_SIGNALS = { 'apy-rail-breach': 'P0', 'broken-number-literal': 'P0', 'tvl-floor-claim': 'P1', 'empty-surface': 'P1', 'link-target-integrity': 'P1' };
 
 // Every "<figure>% APY" (159's own detector); leading class excludes a
 // preceding digit/letter/'.' so this can't match mid-token.
@@ -225,12 +225,79 @@ function parseMoney(numStr, suffix) {
   return n * mult;
 }
 
+// link-target-integrity (backlog 169) — three independently-neuterable
+// sub-rules over defi.garden links only (non-defi.garden links — DefiLlama,
+// protocol sites — are out of scope: we do not own their shape). Pure text
+// extraction + comparison, never a fetch/resolve/render of any URL.
+// Captured group 1 is the path+query suffix after the origin, or undefined
+// for the bare origin (e.g. "https://www.defi.garden" with nothing after).
+const TEXT_DEFI_GARDEN_URL = /https:\/\/(?:www\.)?defi\.garden(\/[^\s)\]"'<>]*)?/g;
+
+// (a) unrouted query key — every query key on every defi.garden URL must be
+// in ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {'lang'}, PARSED OUT OF home.html
+// (the router's own arrays, home.html:77-78) at scan time — never a second
+// hardcoded copy of the param list (that IS the bug class 166 shipped: a
+// stale ?search= that had never been a router param). home.html is only
+// regex-read here, never executed.
+function extractQuotedArray(text, varName) {
+  const declMatch = text.match(new RegExp('var\\s+' + varName + '\\s*=\\s*\\[([^\\]]*)\\]'));
+  if (!declMatch) return null;
+  const items = [];
+  const strRe = /'([^']*)'|"([^"]*)"/g;
+  let m;
+  while ((m = strRe.exec(declMatch[1])) !== null) items.push(m[1] !== undefined ? m[1] : m[2]);
+  return items;
+}
+
+// Returns { allowed: Set|null, error: string|null }. The caller prints the
+// stderr note ONCE per scan (not once per file) and skips rule (a) entirely
+// on error — rules (b)/(c) and the four pre-existing signals must keep
+// working (the prescanTextSurfaces() never-throws contract).
+function loadRouterAllowedParams(homeHtmlPath) {
+  let text;
+  try { text = fs.readFileSync(homeHtmlPath, 'utf8'); }
+  catch (e) { return { allowed: null, error: `home.html unreadable at ${homeHtmlPath}: ${e.message}` }; }
+  const analyticsParams = extractQuotedArray(text, 'ANALYTICS_PARAMS');
+  const plannerParams = extractQuotedArray(text, 'PLANNER_PARAMS');
+  if (!analyticsParams || !plannerParams) {
+    return { allowed: null, error: `could not parse ANALYTICS_PARAMS/PLANNER_PARAMS out of ${homeHtmlPath}` };
+  }
+  // 'lang' is read by translations.js, not the router, so it never appears
+  // in either array — a real, live query key (spec 169 Territory note), so
+  // it is allowed explicitly rather than fudged in by loosening the parse.
+  return { allowed: new Set([...analyticsParams, ...plannerParams, 'lang']), error: null };
+}
+
+// Query keys on one URL match's captured suffix ('' / undefined for the
+// bare origin, which has none to check).
+function urlQueryKeys(urlSuffix) {
+  const qIdx = (urlSuffix || '').indexOf('?');
+  if (qIdx === -1) return [];
+  return urlSuffix.slice(qIdx + 1).split('&').filter(Boolean).map((pair) => pair.split('=')[0]);
+}
+
+// Bare origin = the captured suffix is empty/undefined or just '/' — no
+// path, no query. https://www.defi.garden and https://www.defi.garden/ both
+// count; anything with a path or a query does not.
+function isBareOriginSuffix(urlSuffix) {
+  return !urlSuffix || urlSuffix === '/';
+}
+
 // Never throws: an unreadable/missing file is skipped (stderr note) and
 // doesn't count toward `scanned` — exact parallel of prescanStaticPages().
 function prescanTextSurfaces(opts = {}) {
   const files = opts.files || TEXT_SURFACE_FILES;
   let scanned = 0;
   const suspects = [];
+
+  // Rule (a)'s allowlist is the SAME for every file in this scan — parsed
+  // once, not once per file, so a skip note prints exactly once (opts.homeHtml
+  // is the coupling-test override, same convention as opts.files).
+  const homeHtmlPath = opts.homeHtml || path.join(ROOT, 'home.html');
+  const routerParams = loadRouterAllowedParams(homeHtmlPath);
+  if (routerParams.error) {
+    console.error(`[audit] text prescan: link-target-integrity rule (a) skipped — ${routerParams.error}`);
+  }
 
   for (const file of files) {
     const abs = path.isAbsolute(file) ? file : path.join(ROOT, file);
@@ -304,6 +371,93 @@ function prescanTextSurfaces(opts = {}) {
     if (poolLineCount === 0) {
       suspects.push({ rel, signal: 'empty-surface', severity: TEXT_SURFACE_SIGNALS['empty-surface'],
         detail: 'file lists zero pools (no line contains both a % APY figure and a TVL figure)' });
+    }
+
+    // link-target-integrity (P1, backlog 169) — three sub-rules, each AT
+    // MOST ONE suspect per file (same "systemic breach = one suspect whose
+    // detail quotes examples" convention as apy-rail-breach above).
+    const poolLines = content.split('\n')
+      .filter((line) => TEXT_POOL_LINE_APY.test(line) && TEXT_POOL_LINE_TVL.test(line));
+
+    // (a) unrouted query key — scans the WHOLE file (a plain ?chain=/?token=
+    // link on a non-pool line counts too), not just pool-shaped lines.
+    // Skipped entirely (no throw) when home.html couldn't be read/parsed.
+    if (routerParams.allowed) {
+      const badKeys = new Set();
+      let badLinkCount = 0;
+      for (const m of content.matchAll(TEXT_DEFI_GARDEN_URL)) {
+        const bad = urlQueryKeys(m[1]).filter((k) => !routerParams.allowed.has(k));
+        if (bad.length) { badLinkCount++; bad.forEach((k) => badKeys.add(k)); }
+      }
+      if (badLinkCount > 0) {
+        const badPlural = badLinkCount !== 1;
+        const keyList = [...badKeys];
+        const shown = keyList.slice(0, 3).map((k) => `"${k}"`);
+        let detail = `${badLinkCount} defi.garden link${badPlural ? 's' : ''} carr${badPlural ? 'y' : 'ies'} a query key outside ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {lang} (parsed from home.html) — key(s): ${shown.join(', ')}`;
+        if (keyList.length > shown.length) detail += ` (+${keyList.length - shown.length} more)`;
+        suspects.push({ rel, signal: 'link-target-integrity', severity: TEXT_SURFACE_SIGNALS['link-target-integrity'], detail });
+      }
+    }
+
+    // (b) pool row -> bare origin — a row describing a specific pool whose
+    // ONLY defi.garden link is the bare homepage tells the reader nothing.
+    const bareOriginRows = poolLines.filter((line) => {
+      const hits = [...line.matchAll(TEXT_DEFI_GARDEN_URL)];
+      return hits.length > 0 && hits.every((h) => isBareOriginSuffix(h[1]));
+    });
+    if (bareOriginRows.length > 0) {
+      const rowPlural = bareOriginRows.length !== 1;
+      const examples = bareOriginRows.slice(0, 3).map((l) => `"${l.trim()}"`);
+      let detail = `${bareOriginRows.length} pool-shaped row${rowPlural ? 's' : ''} link${rowPlural ? '' : 's'} only to the bare defi.garden origin — e.g. ${examples.join(' | ')}`;
+      if (bareOriginRows.length > examples.length) detail += ` (+${bareOriginRows.length - examples.length} more)`;
+      suspects.push({ rel, signal: 'link-target-integrity', severity: TEXT_SURFACE_SIGNALS['link-target-integrity'], detail });
+    }
+
+    // (c) one URL, two different figure sets — group pool-shaped lines by
+    // their first defi.garden URL (verbatim), then compare the extracted
+    // "…% APY"/"$… TVL" LITERAL tuple, not the whole line (whole-line
+    // comparison makes every row trivially distinct and the rule vacuous).
+    // Verbatim-identical rows sharing a URL are not a defect (deduped below
+    // via the figureKey Map, so repeats collapse to one entry).
+    const byUrl = new Map();
+    for (const line of poolLines) {
+      const urlMatch = line.match(TEXT_DEFI_GARDEN_URL);
+      if (!urlMatch) continue;
+      const url = urlMatch[0];
+      const apyMatch = [...line.matchAll(TEXT_APY_FIGURE)][0];
+      const tvlMatch = [...line.matchAll(TEXT_TVL_FIGURE)][0];
+      if (!apyMatch || !tvlMatch) continue;
+      const figureKey = `${apyMatch[1]}|${tvlMatch[1]}${tvlMatch[2] || ''}`;
+      if (!byUrl.has(url)) byUrl.set(url, new Map());
+      const figures = byUrl.get(url);
+      if (!figures.has(figureKey)) figures.set(figureKey, line.trim());
+    }
+    // Collect EVERY conflicting URL group, not just the first (verifier
+    // gap, post-ship: `break`ing at the first group silently dropped any
+    // additional ones — no count, no "+N more", a real detection gap).
+    // Still exactly ONE suspect for the whole file (169's own one-suspect-
+    // per-file-per-sub-rule shape), but its `detail` now states the TRUE
+    // total conflicting-URL count, same voice as (a)/(b)'s leading number.
+    const conflicts = [];
+    for (const [url, figures] of byUrl) {
+      if (figures.size > 1) conflicts.push({ url, figures });
+    }
+    // Deterministic "worst" pick: most distinct figure sets; ties broken by
+    // FIRST-ENCOUNTERED order (strict `>`, never `>=`, so an earlier URL
+    // never loses a tie to a later one) — stable across runs on identical
+    // bytes, since `conflicts` itself is built in file-encounter order.
+    let worst = null;
+    for (const c of conflicts) {
+      if (!worst || c.figures.size > worst.figures.size) worst = c;
+    }
+    if (worst) {
+      const total = conflicts.length;
+      const totalPlural = total !== 1;
+      const examples = [...worst.figures.values()].slice(0, 3).map((l) => `"${l}"`);
+      let detail = `${total} defi.garden URL${totalPlural ? 's' : ''} ${totalPlural ? 'are' : 'is'} shared by pool-shaped lines stating DIFFERENT figures — worst: "${worst.url}" (${worst.figures.size} distinct figure sets) — e.g. ${examples.join(' | ')}`;
+      if (worst.figures.size > examples.length) detail += ` (+${worst.figures.size - examples.length} more figures on that URL)`;
+      if (total > 1) detail += ` (+${total - 1} more conflicting URL${total - 1 !== 1 ? 's' : ''})`;
+      suspects.push({ rel, signal: 'link-target-integrity', severity: TEXT_SURFACE_SIGNALS['link-target-integrity'], detail });
     }
   }
 
