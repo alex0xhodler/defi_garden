@@ -261,6 +261,20 @@ function parseFixtureArg(argv) {
 }
 
 /**
+ * The single trust-rail predicate for this generator (spec 168): a pool must
+ * clear the same TVL floor + APY sanity ceiling the product itself enforces
+ * (app.js:800/801) before it may reach ANY AI-discovery surface — the ranked
+ * "Current Top Yields" list (pickHighYield, spec 159) or a derived rate like
+ * `plannerRate()` (spec 168). One source of truth; do not re-inline this
+ * filter anywhere else in this file.
+ */
+function isRailPassing(pool, minTvlUsd = MIN_TVL_USD) {
+  const tvl = Number(pool.tvlUsd) || 0;
+  const apy = Number(pool.apy) || 0;
+  return tvl >= minTvlUsd && apy > 0 && isFinite(apy) && apy <= APY_SANITY_LIMIT;
+}
+
+/**
  * Select high-yield opportunities from pool data
  */
 function pickHighYield(pools, options = {}) {
@@ -274,11 +288,7 @@ function pickHighYield(pools, options = {}) {
   // mirrors app.js's APY_SANITY_LIMIT: anomalous pools (data errors, thin-pool
   // farm-rate spikes) must never reach this AI-discovery surface, the same way
   // they can never enter a planner projection (spec 159).
-  const filtered = pools.filter(pool => {
-    const tvl = Number(pool.tvlUsd) || 0;
-    const apy = Number(pool.apy) || 0;
-    return tvl >= minTvlUsd && apy > 0 && isFinite(apy) && apy <= APY_SANITY_LIMIT;
-  });
+  const filtered = pools.filter(pool => isRailPassing(pool, minTvlUsd));
 
   // Sort by APY descending
   filtered.sort((a, b) => Number(b.apy) - Number(a.apy));
@@ -295,6 +305,32 @@ function pickHighYield(pools, options = {}) {
 
   log(`Selected ${top.length} high-yield opportunities from ${filtered.length} eligible pools`);
   return { top, byChain };
+}
+
+/**
+ * Median APY across the FULL rail-passing pool set (spec 168) — deliberately
+ * NOT the top-15 slice `pickHighYield()` uses for its leaderboard. A median
+ * over the whole eligible set is the conservative, representative "what does
+ * the market actually pay" figure; a top-N slice is a leaderboard of winners
+ * and would overstate what a real plan earns. Reuses `isRailPassing()` — no
+ * second selection rule. Returns `{ medianApy, eligibleCount }`, or `null`
+ * when no pool clears the rails (the generator's own empty-input safety net,
+ * separate from the `pickHighYield()` empty branch).
+ */
+function plannerRate(pools, options = {}) {
+  const { minTvlUsd = MIN_TVL_USD } = options;
+  if (!pools || pools.length === 0) return null;
+
+  const eligible = pools.filter(pool => isRailPassing(pool, minTvlUsd));
+  if (eligible.length === 0) return null;
+
+  const apys = eligible.map(pool => Number(pool.apy)).sort((a, b) => a - b);
+  const mid = Math.floor(apys.length / 2);
+  const medianApy = apys.length % 2 === 0
+    ? (apys[mid - 1] + apys[mid]) / 2
+    : apys[mid];
+
+  return { medianApy, eligibleCount: eligible.length };
 }
 
 /**
@@ -419,28 +455,107 @@ function writeIfContentChanged(filePath, newContent, now) {
 }
 
 /**
+ * Shared "## Garden Planner" section emitter (spec 168), used by BOTH
+ * buildConcise() and buildFull() — never two divergent copies of this copy.
+ * `rate` is the output of `plannerRate()` (or `null`); `opts.full` toggles a
+ * couple of extra lines for the fuller llms-full.txt body.
+ *
+ * Honesty constraints enforced here (acceptance criteria, not style notes):
+ *   - every number rendered is `rate.medianApy` / `rate.eligibleCount`,
+ *     traceable to the rail-filtered live pool set — nothing else in this
+ *     function is a numeric literal beyond that;
+ *   - the TVL/APY rail figures quoted in prose come from `formatTvlFloor()`
+ *     and `APY_SANITY_LIMIT`, never re-typed as `$10M` / `1000`;
+ *   - NO forever-number dollar figure or multiplier is ever emitted — only
+ *     the formula in words. Publishing an optimistic capital figure off a
+ *     market-wide median is the trust risk this section exists to avoid;
+ *   - any subscription-card mention is early-access/waitlist framed — the
+ *     card does not exist yet;
+ *   - copy ban-list (CLAUDE.md): "save up", "afford", "budget" never appear;
+ *   - when `rate` is null, the section renders the same prose and URLs
+ *     WITHOUT the rate lines — never `undefined`/`NaN`/`$0`/an empty rate line.
+ */
+function buildPlannerSection(meta, rate, opts = {}) {
+  const lines = [];
+
+  lines.push('## Garden Planner');
+  lines.push(
+    'TL;DR: A goal-first savings planner for people who think in monthly deposits ' +
+    'and life goals, not APY or pools — lives at /plan.html, reached from the ' +
+    'search-first landing surface at the site root.'
+  );
+  lines.push(`- Entry point (bare path, always the planner): ${meta.baseUrl}/plan.html`);
+  lines.push(
+    `- Example filled plans, real presets carrying no invented numbers: ` +
+    `${meta.baseUrl}/?preset=tomoko and ${meta.baseUrl}/?preset=kevin`
+  );
+  lines.push('- GROWTH: long-horizon goals like retirement or a home — projects future value from steady monthly deposits.');
+  lines.push('- TARGET: a specific item to buy — projects time-to-item from monthly deposits and the live rate.');
+  lines.push('- SUBSCRIPTION: the "forever number" — the capital whose yield alone covers a recurring bill, indefinitely.');
+  lines.push(
+    '- Forever number formula: forever number = annual bill ÷ blended rate. ' +
+    'No projected dollar figure is published here — a plan\'s own inputs determine the real number.'
+  );
+  if (opts.full) {
+    lines.push(
+      '- An early-access waitlist exists for a card that would pay a subscription directly from a ' +
+      'position\'s yield; the card itself is not available yet.'
+    );
+  }
+
+  if (rate) {
+    const apyStr = rate.medianApy.toFixed(1);
+    lines.push(
+      `- Live blended rate: ${apyStr}% — median APY across the ${rate.eligibleCount} pools clearing our ` +
+      `published rails (TVL ≥ ${formatTvlFloor(MIN_TVL_USD)}, APY ≤ ${APY_SANITY_LIMIT}%) on the date above.`
+    );
+    lines.push(
+      '- A plan\'s own rate is computed over a different set: the planner picks a small, ' +
+      'temperament-filtered selection of pools (the default pace is stablecoin lending/staking only) ' +
+      'and blends those, so the rate a plan shows will differ from this market-wide median.'
+    );
+  }
+
+  return lines;
+}
+
+/**
  * Build concise llms.txt content with search-optimized sections
  */
-function buildConcise(meta, categories, highYield, yieldAnalysis) {
+function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult) {
   const lines = [];
-  
+
   // Header with single H1 (SEO optimized)
   lines.push('# Find the Best Yields for Your Tokens Across All Chains | DeFi Garden');
   lines.push('');
-  
+
   // Metadata
   lines.push(`- Last Updated: ${meta.updatedAt}`);
   lines.push(`- Canonical: ${meta.baseUrl}`);
   lines.push(`- Data Sources: sitemap.xml, DefiLlama API`);
   lines.push(`- Total URLs: ${meta.totalUrls}`);
   lines.push('');
-  
-  // Homepage section
+
+  // Homepage section — describes what the router (home.html) actually does
+  // (spec 168, corrected after operator review): bare `/` is a search-first
+  // landing that routes into both faces, it is NOT itself the planner.
+  // `/plan.html` (and planner params) reach the goal-first Garden Planner;
+  // parameterized `?token=`/`?chain=`/`?pool=` URLs reach the yield
+  // analytics app.
   lines.push('## Homepage');
-  lines.push('TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.');
+  lines.push(
+    `TL;DR: ${meta.baseUrl}/ is a search-first landing page that routes into both faces of the ` +
+    `product: /plan.html (and planner params) for the goal-first Garden Planner, and parameterized ` +
+    `URLs (?token=, ?chain=, ?pool=) for the yield analytics app.`
+  );
   categories.homepage.slice(0, 3).forEach(url => lines.push(`- ${url}`));
   lines.push('');
-  
+
+  // Garden Planner section (spec 168) — see buildPlannerSection() for the
+  // shared copy and its honesty constraints.
+  lines.push(...buildPlannerSection(meta, plannerRateResult, { full: false }));
+  lines.push('');
+
   // Top chains by TVL (most searched)
   lines.push('## Top Chains by TVL');
   lines.push('TL;DR: Highest liquidity blockchain networks for DeFi yields.');
@@ -492,6 +607,8 @@ function buildConcise(meta, categories, highYield, yieldAnalysis) {
   lines.push(`- "Safe lending USDT" → ${meta.baseUrl}/?token=USDT&poolTypes=Lending`);
   lines.push(`- "Arbitrum LP tokens" → ${meta.baseUrl}/?chain=Arbitrum&poolTypes=LP%2FDEX`);
   lines.push(`- "High TVL pools" → ${meta.baseUrl}/?minTvl=10000000`);
+  lines.push(`- "How do I make yield pay a monthly subscription" → ${meta.baseUrl}/plan.html`);
+  lines.push(`- "Save toward retirement with crypto yield" → ${meta.baseUrl}/plan.html`);
   lines.push('');
   
   // Current top yields
@@ -520,13 +637,13 @@ function buildConcise(meta, categories, highYield, yieldAnalysis) {
 /**
  * Build comprehensive llms-full.txt content
  */
-function buildFull(meta, categories, highYield, yieldAnalysis) {
+function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult) {
   const lines = [];
-  
+
   // Header with single H1 (SEO optimized for comprehensive index)
   lines.push('# Complete DeFi Yield Index: Best Token Yields Across All Blockchains | DeFi Garden');
   lines.push('');
-  
+
   // Extended metadata
   lines.push(`- Last Updated: ${meta.updatedAt}`);
   lines.push(`- Canonical: ${meta.baseUrl}`);
@@ -534,15 +651,24 @@ function buildFull(meta, categories, highYield, yieldAnalysis) {
   lines.push(`- Total URLs: ${meta.totalUrls}`);
   lines.push(`- Categories: homepage(${categories.homepage.length}), tokens(${categories.tokens.length}), chains(${categories.chains.length}), poolTypes(${categories.poolTypes.length}), highValue(${categories.highValue.length})`);
   lines.push('');
-  
+
   // Complete sections with all URLs
-  
-  // Homepage
+
+  // Homepage — describes what the router actually does (spec 168, corrected
+  // after operator review), same wording as buildConcise() for consistency.
   lines.push('## Homepage');
-  lines.push('TL;DR: Main application entry points and dashboards.');
+  lines.push(
+    `TL;DR: ${meta.baseUrl}/ is a search-first landing page that routes into both faces of the ` +
+    `product: /plan.html (and planner params) for the goal-first Garden Planner, and parameterized ` +
+    `URLs (?token=, ?chain=, ?pool=) for the yield analytics app.`
+  );
   categories.homepage.forEach(url => lines.push(`- ${url}`));
   lines.push('');
-  
+
+  // Garden Planner section (spec 168) — shared emitter, fuller body (opts.full).
+  lines.push(...buildPlannerSection(meta, plannerRateResult, { full: true }));
+  lines.push('');
+
   // All token pages
   lines.push('## Token Pages');
   lines.push('TL;DR: Individual token yield analysis and opportunities.');
@@ -670,7 +796,11 @@ async function main() {
     }
     const highYield = pickHighYield(yields);
     const yieldAnalysis = analyzeYieldData(yields);
-    
+    // spec 168: the planner section's live rate, derived from the SAME
+    // rail-passing pool set as the rest of this file (isRailPassing()) — a
+    // median over the full eligible set, not the top-15 leaderboard slice.
+    const plannerRateResult = plannerRate(yields);
+
     // Build metadata
     const meta = {
       baseUrl,
@@ -678,10 +808,10 @@ async function main() {
       totalUrls: urls.length,
       defiLlamaFetchedAt: sourceTs
     };
-    
+
     // Generate content
-    const conciseContent = buildConcise(meta, categories, highYield, yieldAnalysis);
-    const fullContent = buildFull(meta, categories, highYield, yieldAnalysis);
+    const conciseContent = buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult);
+    const fullContent = buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult);
     
     // Ensure output directory exists
     if (!fs.existsSync(OUTPUT_DIR)) {
@@ -725,7 +855,10 @@ module.exports = {
   parseSitemap,
   categorizeUrls,
   fetchYieldsSafe,
+  isRailPassing,
   pickHighYield,
+  plannerRate,
+  buildPlannerSection,
   analyzeYieldData,
   buildConcise,
   buildFull,
