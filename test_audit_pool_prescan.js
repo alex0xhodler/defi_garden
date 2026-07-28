@@ -1,0 +1,207 @@
+/* Acceptance tests for the pool-snapshot prescan + promotion mechanism
+   (backlog 167). `prescanPools()` (audit-app.js) is a pure fs-free scan over
+   an in-memory `pools` array (already parsed by runAudit() from the
+   snapshot); `buildPoolSurfaces()` promotes up to `poolPrescanMax` of its
+   suspects into `pool-detail:<id-prefix>` surfaces, additive to a seeded
+   `poolSample` rotation, both excluding the fixed 4-surface anchor
+   (pool-detail/-360/-dark/-ko, unchanged — see test_audit_app.js).
+
+   This file covers spec 167's acceptance criteria A3/A5/A6 on FIXTURES (its
+   own scope, per the build instructions — A1/A2/A4/A7/A8/A9 are evidenced
+   directly against the real snapshot/full suite and recorded in
+   product-loop-kit/specs/167-notes.md, not duplicated here).
+
+   Fixtures are plain JS objects, not files on disk — prescanPools()/
+   buildPoolSurfaces() take an already-parsed `pools` array, exactly the
+   shape runAudit() hands them after JSON.parse(fs.readFileSync(snapshot)).
+   A3's runAudit()-level case additionally writes a temp snapshot FILE so the
+   full `runAudit({ only: ['pool-prescan'] })` path (fast — matches no real
+   surface name, so nothing renders) is exercised too, not just the pure
+   function.
+
+   Run: node test_audit_pool_prescan.js */
+
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
+const { runAudit, prescanPools, buildPoolSurfaces } = require('./audit-app.js');
+
+const ROOT = __dirname;
+
+let passed = 0, failed = 0;
+async function test(name, fn) {
+  try { await fn(); passed++; console.log('  ✓ ' + name); }
+  catch (err) { failed++; console.error('  ✗ ' + name + '\n    ' + err.message); process.exitCode = 1; }
+}
+function assert(cond, msg) { if (!cond) throw new Error(msg); }
+function tmpOut(tag) { return path.join(os.tmpdir(), `audit-findings-poolprescan-${tag}-${process.pid}.json`); }
+
+// ---------------------------------------------------------------------------
+// Fixture builder — plain pool objects in the exact shape
+// data/pools-snapshot.json's `pools[]` entries carry (verified against a real
+// entry, 2026-07-28: pool/chain/project/symbol/tvlUsd/apyBase/apyReward/
+// apyMean30d/kpis). `cleanPool(i)` never trips any POOL_PRESCAN_SIGNALS
+// predicate by construction — every field is inside the trust rail.
+// ---------------------------------------------------------------------------
+function cleanPool(i) {
+  // Id shape deliberately varies WITHIN the first 8 characters ('p0000007',
+  // not 'clean-pool-007') — audit-app.js's `pool-detail:<prefix>` naming
+  // truncates to POOL_ID_PREFIX_LEN(8), and real snapshot pool ids are UUIDs
+  // (effectively random in their first 8 hex chars, so a same-run collision
+  // is astronomically unlikely); a fixture using a shared long common prefix
+  // would make every promoted/rotated entry render the SAME surface name
+  // regardless of which distinct pool was actually picked — a fixture
+  // artifact, not something this test should be measuring.
+  return {
+    pool: `p${String(i).padStart(7, '0')}`,
+    chain: 'Ethereum', project: 'clean-project', symbol: 'CLEAN',
+    tvlUsd: 10_000_000 + i * 1000, apyBase: 3.5, apyReward: 1.2, apyMean30d: 4.1,
+    kpis: { historyPoints: 15, apyMomentum: 0.02, apyStdev: 0.1, apyMean: 4.0, apySharpe: 1.1, tvlTrend: 0.01 }
+  };
+}
+function railBreachPool(id) {
+  // apyBase+apyReward = 50,000% — well over the 1000% rail (apy-rail-breach).
+  return Object.assign(cleanPool(0), { pool: id, apyBase: 49000, apyReward: 1000, apyMean30d: 4.1 });
+}
+// The real PREFERRED_POOL_ID (audit-app.js — Lido stETH), not exported.
+// Every fixture below includes a clean pool AT this id so anchor resolution
+// succeeds normally instead of falling back to pools[0] — if a fixture's
+// suspect/rotation-candidate pool happened to sit at index 0, an absent
+// anchor would silently make THAT pool the anchor and exclude it from
+// promotion/rotation, which is a fixture bug, not a production one (mirrors
+// buildPoolSurfaces's real fallback, which only ever fires when the true
+// Lido id is genuinely missing from the live snapshot).
+const REAL_ANCHOR_ID = '747c1d2a-c668-4682-b9f9-296708a3dd90';
+function anchorPool() {
+  return Object.assign(cleanPool(999), { pool: REAL_ANCHOR_ID });
+}
+
+async function main() {
+  // ---- Criterion A3 (fixture, non-vacuity target) --------------------------
+  await test('A3a: prescanPools() on a fixture with exactly one apy-rail-breach pool returns exactly that suspect', () => {
+    const pools = [anchorPool(), railBreachPool('breach-pool-A'), cleanPool(1), cleanPool(2)];
+    const result = prescanPools(pools);
+    assert(result.scanned === 4, `expected scanned === 4, got ${result.scanned}`);
+    const hits = result.suspects.filter((s) => s.signal === 'apy-rail-breach');
+    assert(hits.length === 1, `expected exactly 1 apy-rail-breach suspect, got ${hits.length}: ${JSON.stringify(result.suspects)}`);
+    assert(hits[0].poolId === 'breach-pool-A', `expected the breach pool to be flagged, got poolId ${hits[0].poolId}`);
+    assert(hits[0].severity === 'P0', `apy-rail-breach must be P0, got ${hits[0].severity}`);
+    assert(result.bySignal['apy-rail-breach'] === 1, `bySignal.apy-rail-breach should be 1, got ${result.bySignal['apy-rail-breach']}`);
+    // Every OTHER signal must be zero on this fixture — a real non-vacuity
+    // proof needs a predicate that fires on exactly the one pool it should,
+    // not a permissive one that flags everything.
+    for (const sig of Object.keys(result.bySignal)) {
+      if (sig === 'apy-rail-breach') continue;
+      assert(result.bySignal[sig] === 0, `expected zero ${sig} suspects on this clean-otherwise fixture, got ${result.bySignal[sig]}`);
+    }
+  });
+
+  await test('A3b: runAudit({only:["pool-prescan"]}) against a fixture snapshot file emits the P0 pool-prescan:apy-rail-breach aggregate finding', async () => {
+    const pools = [anchorPool(), railBreachPool('breach-pool-B'), cleanPool(1), cleanPool(2), cleanPool(3)];
+    const snapPath = path.join(os.tmpdir(), `audit-fixture-snapshot-a3-${process.pid}.json`);
+    fs.writeFileSync(snapPath, JSON.stringify({ pools }));
+    const outPath = tmpOut('a3b');
+    try {
+      const result = await runAudit({ port: 8940, snapshotPath: snapPath, only: ['pool-prescan'], outPath });
+      assert(result.surfacesCovered.length === 0, `only:['pool-prescan'] matches no real surface name — expected zero rendered surfaces, got ${JSON.stringify(result.surfacesCovered)}`);
+      const hit = result.findings.find((f) => f.surface === 'pool-prescan' && f.check === 'pool-prescan:apy-rail-breach');
+      assert(hit, `expected a pool-prescan:apy-rail-breach finding; got: ${JSON.stringify(result.findings)}`);
+      assert(hit.severity === 'P0', `pool-prescan:apy-rail-breach must be P0, got ${hit.severity}`);
+      assert(hit.detail.includes('breach-p'), `finding detail should reference the breaching pool id's 8-char prefix "breach-p": ${hit.detail}`);
+      assert(result.poolPrescan.scanned === 5, `result.poolPrescan.scanned should be 5, got ${result.poolPrescan.scanned}`);
+      assert(result.poolPrescan.bySignal['apy-rail-breach'] === 1, `result.poolPrescan.bySignal['apy-rail-breach'] should be 1, got ${JSON.stringify(result.poolPrescan.bySignal)}`);
+    } finally {
+      try { fs.unlinkSync(snapPath); } catch (e) {}
+      try { fs.unlinkSync(outPath); } catch (e) {}
+    }
+  });
+
+  // ---- Criterion A5 (determinism, pure — no rendering needed) --------------
+  await test('A5: same seed -> identical extraSurfaces + poolPrescan.promoted across two calls', () => {
+    const pools = [anchorPool(), railBreachPool('breach-pool-C')].concat(Array.from({ length: 20 }, (_, i) => cleanPool(i)));
+    const r1 = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-seed-A' });
+    const r2 = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-seed-A' });
+    assert(JSON.stringify(r1.poolPrescan.promoted) === JSON.stringify(r2.poolPrescan.promoted),
+      `same seed must give identical promoted: ${JSON.stringify(r1.poolPrescan.promoted)} vs ${JSON.stringify(r2.poolPrescan.promoted)}`);
+    assert(JSON.stringify(r1.extraSurfaces) === JSON.stringify(r2.extraSurfaces),
+      `same seed must give identical extraSurfaces: ${JSON.stringify(r1.extraSurfaces)} vs ${JSON.stringify(r2.extraSurfaces)}`);
+  });
+
+  await test('A5: different seed, suspects <= cap -> promotion set unchanged (promotion is suspicion-driven, not seed-driven)', () => {
+    // Exactly 1 suspect (breach-pool-D), well under DEFAULT_POOL_PRESCAN_MAX
+    // (2) — promotion must be the SAME set regardless of seed.
+    const pools = [anchorPool(), railBreachPool('breach-pool-D')].concat(Array.from({ length: 20 }, (_, i) => cleanPool(i)));
+    const rA = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-seed-B1' });
+    const rB = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-seed-B2' });
+    assert(rA.poolPrescan.promoted.length === 1, `expected exactly 1 promoted suspect, got ${JSON.stringify(rA.poolPrescan.promoted)}`);
+    assert(JSON.stringify(rA.poolPrescan.promoted) === JSON.stringify(rB.poolPrescan.promoted),
+      `a different seed must still promote the same SET when suspects <= cap: ${JSON.stringify(rA.poolPrescan.promoted)} vs ${JSON.stringify(rB.poolPrescan.promoted)}`);
+    // A1 (spec 167): poolPrescan.promoted holds the FULL pool id, not the
+    // 8-char prefix `pool-detail:<…>` surface names truncate to — a real
+    // production check would do `promoted.includes(fullId)`, so the fixture
+    // assertion must use the same shape, not a prefix.
+    assert(rA.poolPrescan.promoted[0] === 'breach-pool-D', `poolPrescan.promoted must contain the FULL pool id ("breach-pool-D"), not a truncated prefix; got ${JSON.stringify(rA.poolPrescan.promoted)}`);
+  });
+
+  await test('A5: different seed -> ROTATION may differ (coverage actually accumulates, not just promotion)', () => {
+    // No suspects at all here (all-clean fixture) — every extraSurfaces entry
+    // is a rotation pick, so this isolates rotation's own seed-sensitivity.
+    const pools = [anchorPool()].concat(Array.from({ length: 30 }, (_, i) => cleanPool(i)));
+    const rA = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-rot-seed-1' });
+    const rB = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-rot-seed-2' });
+    assert(rA.poolPrescan.promoted.length === 0 && rB.poolPrescan.promoted.length === 0, 'fixture must be suspect-free for this case');
+    const namesA = rA.extraSurfaces.map((s) => s.name).sort();
+    const namesB = rB.extraSurfaces.map((s) => s.name).sort();
+    assert(JSON.stringify(namesA) !== JSON.stringify(namesB),
+      `expected rotation picks to differ across seeds on a 30-pool candidate pool; got identical sets both times: ${JSON.stringify(namesA)}`);
+  });
+
+  // ---- Criterion A6 (kill switches) -----------------------------------------
+  await test('A6: opts.poolPrescan === false -> no promotion, no pool-prescan findings, rotation still fills its own budget', () => {
+    const pools = [anchorPool(), railBreachPool('breach-pool-E')].concat(Array.from({ length: 20 }, (_, i) => cleanPool(i)));
+    const r = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-kill-seed', poolPrescan: false });
+    assert(r.poolPrescan.promoted.length === 0, `expected zero promoted with poolPrescan:false, got ${JSON.stringify(r.poolPrescan.promoted)}`);
+    assert(r.poolPrescanFindings.length === 0, `expected zero pool-prescan findings with poolPrescan:false, got ${JSON.stringify(r.poolPrescanFindings)}`);
+    assert(r.extraSurfaces.length === 2, `rotation (DEFAULT_POOL_SAMPLE=2) must still fill its own budget when only promotion is killed; got ${r.extraSurfaces.length}: ${JSON.stringify(r.extraSurfaces.map((s) => s.name))}`);
+    // The breach pool must not sneak in via rotation either (it IS a real
+    // suspect, prescan is just turned off — but sampleBySeed draws from ALL
+    // non-anchor pools when prescan is off, so absence isn't guaranteed by
+    // construction; assert the MECHANISM instead: zero pool-prescan:* findings).
+  });
+
+  await test('A6: AUDIT_POOL_PRESCAN=0 env var has the same effect as opts.poolPrescan:false', () => {
+    const pools = [anchorPool(), railBreachPool('breach-pool-F')].concat(Array.from({ length: 20 }, (_, i) => cleanPool(i)));
+    process.env.AUDIT_POOL_PRESCAN = '0';
+    try {
+      const r = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-envkill-seed' });
+      assert(r.poolPrescan.promoted.length === 0, `expected zero promoted with AUDIT_POOL_PRESCAN=0, got ${JSON.stringify(r.poolPrescan.promoted)}`);
+    } finally {
+      delete process.env.AUDIT_POOL_PRESCAN;
+    }
+  });
+
+  await test('A6: poolIds override -> exactly that pool as anchor, prescan off, no extraSurfaces from a single id', () => {
+    const pools = [anchorPool(), railBreachPool('breach-pool-G')].concat(Array.from({ length: 20 }, (_, i) => cleanPool(i)));
+    const r = buildPoolSurfaces({ pools, poolIds: 'clean-pool-005' });
+    assert(r.anchorPoolId === 'clean-pool-005', `expected anchorPoolId === 'clean-pool-005', got ${r.anchorPoolId}`);
+    assert(r.extraSurfaces.length === 0, `a single-id override should produce zero extraSurfaces (nothing beyond the anchor), got ${JSON.stringify(r.extraSurfaces)}`);
+    assert(r.poolPrescan.scanned === 0 && r.poolPrescan.promoted.length === 0, `override mode must run with prescan OFF, got ${JSON.stringify(r.poolPrescan)}`);
+    assert(r.poolPrescanFindings.length === 0, `override mode must emit zero pool-prescan findings, got ${JSON.stringify(r.poolPrescanFindings)}`);
+  });
+
+  await test('A6: poolIds override with multiple ids -> first is the anchor, the rest become pool-detail:<prefix> extraSurfaces verbatim', () => {
+    // Distinct 8-char prefixes on purpose ("poolid-a"/"poolid-b") so the
+    // assertion actually distinguishes the two entries.
+    const r = buildPoolSurfaces({ pools: [], poolIds: 'anchor-id-XYZ,poolid-alpha-111,poolid-beta-222' });
+    assert(r.anchorPoolId === 'anchor-id-XYZ', `expected anchor-id-XYZ as anchor, got ${r.anchorPoolId}`);
+    const names = r.extraSurfaces.map((s) => s.name);
+    assert(JSON.stringify(names) === JSON.stringify(['pool-detail:poolid-a', 'pool-detail:poolid-b']),
+      `expected the two extra ids as pool-detail:<8-char-prefix> surfaces in order given; got ${JSON.stringify(names)}`);
+    for (const s of r.extraSurfaces) assert(s.kind === 'pool' && s.width === 1280, `override extraSurfaces must use kind:'pool', width:1280 — got ${JSON.stringify(s)}`);
+  });
+
+  console.log(`\ntest_audit_pool_prescan.js: ${passed} passed, ${failed} failed`);
+  if (process.exitCode) process.exit(process.exitCode);
+}
+
+main().catch((e) => { console.error(e); process.exit(1); });
