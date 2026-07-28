@@ -266,11 +266,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/heco</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
@@ -282,6 +277,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/flow</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -306,11 +306,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/citrea</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/defichain</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
@@ -322,6 +317,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/hedera</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/citrea</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
