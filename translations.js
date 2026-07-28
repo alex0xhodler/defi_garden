@@ -119,6 +119,8 @@ const translations = {
     // Honest mini-projection (pool-detail)
     projectionHeading: "The Long Game",
     projectionBody: (principal, years, amount) => `$${Number(principal || 0).toLocaleString('en-US')} in this pool grows to ~$${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })} in ${years}y at current rates.`,
+    // 165: anomalous-rate replacement for projectionBody — no numbers to rail.
+    projectionBodyOutOfRange: "This rate is too far outside normal ranges to project a dollar amount from — the number would be fiction, not a forecast.",
     projectionKeepNote: "Your deposit stays yours — you keep your money, and it keeps working.",
     gardenThisPoolCtaConcrete: (amount, years) => `Garden this pool → ~$${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })} in ${years}y`,
     poolDegenHaircutNote: (headline) => `Projected at ⅓ haircut (${headline} headline) — farm rates decay. Active management required.`,
@@ -822,6 +824,7 @@ const translations = {
     // Honest mini-projection (pool-detail)
     projectionHeading: "장기적으로 보면",
     projectionBody: (principal, years, amount) => `이 풀에 $${Number(principal || 0).toLocaleString('en-US')}을 넣으면 ${years}년 후 현재 수익률 기준 약 $${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })}이 됩니다.`,
+    projectionBodyOutOfRange: "이 수익률은 정상 범위를 크게 벗어나 있어 금액을 예측해 보여드리지 않습니다 — 그런 숫자는 예측이 아니라 허구에 가깝기 때문입니다.",
     projectionKeepNote: "예치금은 그대로 내 것 — 돈은 지키면서 계속 일하게 하세요.",
     gardenThisPoolCtaConcrete: (amount, years) => `이 풀 가든하기 → ${years}년 후 약 $${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })}`,
     poolDegenHaircutNote: (headline) => `⅓ 할인 적용 (헤드라인 ${headline}) — 팜 수익률은 빠르게 감소. 적극적 관리 필요.`,
