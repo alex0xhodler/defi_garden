@@ -14,7 +14,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Yield-Farming.xml</loc>
-    <lastmod>2026-07-28T09:54:14.308Z</lastmod>
+    <lastmod>2026-07-28T12:45:17.543Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Abstract.xml</loc>
@@ -126,7 +126,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Ethereum.xml</loc>
-    <lastmod>2026-07-28T05:14:36.121Z</lastmod>
+    <lastmod>2026-07-28T12:45:17.543Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Etherlink.xml</loc>
@@ -234,7 +234,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Monad.xml</loc>
-    <lastmod>2026-07-25T18:54:32.928Z</lastmod>
+    <lastmod>2026-07-28T12:45:17.543Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Moonbeam.xml</loc>
@@ -330,7 +330,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Solana.xml</loc>
-    <lastmod>2026-07-28T09:54:14.308Z</lastmod>
+    <lastmod>2026-07-28T12:45:17.543Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Sonic.xml</loc>
@@ -351,6 +351,10 @@
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Stellar.xml</loc>
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-chain-Strato.xml</loc>
+    <lastmod>2026-07-28T12:45:17.543Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Sui.xml</loc>
@@ -426,7 +430,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-tokens-all.xml</loc>
-    <lastmod>2026-07-28T09:54:14.308Z</lastmod>
+    <lastmod>2026-07-28T12:45:17.543Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-token-pages.xml</loc>
