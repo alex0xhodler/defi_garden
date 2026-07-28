@@ -103,3 +103,85 @@ Not an experiment window; a product finding, recorded here because the *class* g
 1. **A rail is a property of a surface, not of a codebase.** `APY_SANITY_LIMIT` being defined in `app.js` and `planner.js` says nothing about `generate-*.js`. When a rail matters, enumerate every emitter of the railed value and check each one; "the rail exists" is not evidence any given surface applies it.
 2. **A filter that returns zero is not evidence of health until you have proven it can return non-zero.** Run every rail check against a known-bad value first. This tick's vacuous check would have reported "0 pools over the limit" forever.
 3. **Dual-source schema divergence is real here:** the live `/pools` payload carries `apy`; the committed snapshot does not. Code that reads `pool.apy` works on one source and silently yields `undefined` on the other. Any fixture must match the shape of the source the code under test actually reads.
+
+## 2026-07-28 · 082 · Planner `translations is not defined` hardening
+Hypothesis: a `safeTranslations()` guard + lazy per-call re-check in `makeT`/`rootT` stops the funnel-top
+`ReferenceError` recurring (first and only occurrence 2026-07-13, bare `/`, `planner.min.js` inside a
+`useMemo`). → Result: **MOVED, weak-n.** `error_occurred` is **absent from the result set** every day
+07-14 → 07-28 — 15 consecutive clean days (`query_id 064d8388`); last non-zero was 07-13, the event that
+motivated the item.
+Decision: kept, DONE. **The honest caveat matters more than the verdict:** the window carried ~82 sessions
+and exactly ONE `plan_created` (07-19), so the planner was barely exercised. "No recurrence observed" is
+what the data supports; "proven robust" is not.
+Takeaway, and it generalises to every guardrail item at this traffic level: **a zero on an
+absence-of-failure metric is only as strong as the number of chances the code had to fail.** Record the
+exercise count alongside the zero (sessions, and the specific event that proves the path ran) or the verdict
+reads far stronger than it is. This is the mirror image of the waitlist cohort's problem — there the
+instrument was unvisited, here the *failure path* was unvisited.
+
+## 2026-07-28 · 088.1 · Rate-track-record / steadiness note on pool detail
+Hypothesis: surfacing 087's `historyPoints` + `apyStdev` as a calm track-record note gives the cautious
+saver a reason to trust the pool and act on it. → Result: **INCONCLUSIVE at n≈0.** Over 30 days the surface
+took `pool_view` **6** (`card_click` 5, `url_direct` 1) and `pool_click` **1** (pre-123,
+`source=undefined`); north-star CTA clicks **0**, all-time (`be2a9cdb`).
+Decision: kept, 088.1 DONE (parent 088 stays open for further surfacings). The note renders correctly and
+degrades honestly across all three tiers (`test_kpi_track_record.js` 7/7 rendered).
+Takeaway: pool-detail is now the north-star surface and it received **six views in a month**. Every
+pool-detail persuasion item is in the same position the waitlist cohort was in — correct, unexercised, and
+unmeasurable. Per the 2026-07-27 process takeaway, this and future pool-detail items should be
+**traffic-gated (`pool_view{url_direct}` ≥ 30), not date-gated**; items 166/168 are the first two written
+that way.
+
+## 2026-07-28 · PRODUCT QUALITY · The numbers on a surface can be honest while its links lie
+Not an experiment window; a product finding. **Yesterday's P0 (159) is fixed and verified on live prod** —
+`llms.txt` now serves 0 APY figures above the 1000% rail (was 8, top 353,114.2%) and claims the true
+`TVL ≥ $10M` floor. Auditing the *same file* one layer down found a second, independent defect underneath
+it, live on prod, of a completely different class.
+
+**What was found (item 166).** 32 links across `llms.txt`/`llms-full.txt` do not go where they claim:
+15 pool rows resolve to the **bare homepage** (`generate-llms.js:606` is `pool.url || meta.baseUrl` and no
+DefiLlama payload has a `url` field — so the fallback fires on 100% of rows, always); 17 `?search=` links
+land on a query-less landing (`search` is in neither `ANALYTICS_PARAMS` nor `PLANNER_PARAMS`, and
+`landing.js` reads only `lang`) even though the routed `?protocols=` param already exists; and 8 top-yield
+rows are not pool-specific, which is why two distinct Base uniswap-v3 WETH-USDC pools (95.5%/$110.8M and
+31.7%/$10.2M) render as two rows on one URL. `grep -c "?pool=" llms*.txt` → **0, 0**: the surface has never
+linked to pool-detail, which the 2026-07-23 decision made the north-star surface.
+
+**And item 168:** `grep -icE "planner|savings|goal|subscription|forever number" llms.txt` → **0**. The file
+describes the product as a yield screener; the planner — the default face — is absent.
+
+**Takeaways.**
+1. **A rail is per-CLASS as well as per-surface.** The 07-27 lesson was "a rail is a property of a surface,
+   not of a codebase." Today's refinement: fixing a surface's *numbers* says nothing about its *links*, its
+   *positioning*, or any other claim it makes. When you find one defect class on a surface, audit the other
+   classes on that same surface before you leave it — the file is already open and the second bug is cheaper
+   to find now than ever again.
+2. **The checker's signal set is always drawn from the last bug (third instance: 148 → 159 → 166).** 160
+   shipped a text-surface prescan specced from 159, so its four signals are all number-or-emptiness checks;
+   it scored `suspectCount: 0` on the two files carrying 32 broken links. Ask, every time a check is added:
+   *what class of defect could sit on this surface and still pass?* → item 169. Note that item 167, shipped
+   the same day by a build run, is the same root cause one axis over — its blind spot was the *target*
+   population (one hardcoded pool of 740), this one's is the *claim* class. Same question, different noun.
+3. **A fallback that can never not fire is a bug, not a fallback.** `pool.url || meta.baseUrl` reads as
+   defensive code and is in fact an unconditional branch: the left side does not exist in any payload shape.
+   Grep-check for the field before trusting a `||` fallback — `grep -c '"url"' data/pools-snapshot.json`
+   would have answered it in one command. Sibling of `dual-source-logic-divergence.md`.
+4. **The most valuable place to look on a quiet tick is the surface you audited yesterday.** Three of the
+   last four P0/P1s (148, 159, 166) were found on generated surfaces, by hand, on days the scanner reported
+   nothing new — and 166 was found by re-opening the very file 159 had just fixed.
+
+## 2026-07-28 · LOOP PROCESS · A heartbeat can be lapped by a build run mid-tick
+Not an experiment. This tick opened on `fac2e30f2`, scored its findings, and wrote three specs numbered
+166/167/168. By commit time `origin/main` had moved one commit ahead: a build run had shipped **its own new
+item 167** (`audit-app.js` renders one hardcoded pool out of 740, PR #323), created from a finding it made
+itself — so the heartbeat's 167 and 168 collided with a live, merged id.
+Resolution: renumbered to 166 / 168 / 169 and re-applied every append on top of `origin/main` rather than
+committing the stale copies of `BACKLOG.md` / `LOG.md` / `playbooks/product-audit.md` (which would have
+silently reverted 167's rows).
+**Takeaway (binds every future tick that writes ids):** the highest id in the working copy is not the
+highest id in the repo. Before assigning ids, `git fetch origin main` and read ids from `origin/main`, not
+from the checkout — and before committing, `git checkout origin/main -- <the shared append-only files>` and
+re-apply, because `BACKLOG.md`, `LOG.md`, `LEARNINGS.md` and the playbooks are append-only files that two
+loops write. This is the 2026-07-26 "two build runs built 148" failure in a new costume: the shared
+bookkeeping files are the contended resource, and a heartbeat that never re-reads them will clobber whatever
+shipped while it was thinking.

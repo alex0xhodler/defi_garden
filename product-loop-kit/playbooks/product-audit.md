@@ -102,6 +102,32 @@ run; log which surfaces you covered.
    splitting a data field, check the *validity predicate*, not the output list — the junk set is
    data-dependent and churns daily (8 date fragments in today's snapshot; only 2 of them committed).
 
+10. **Link-target integrity: does that URL go where the line says it goes? (learned 2026-07-28, item 166 —
+   the class that hid *underneath* a fixed P0.)** Check 6 covers dead CTAs on **rendered** surfaces; this is
+   its counterpart for **generated text** surfaces (`llms.txt`, `llms-full.txt`, and any future machine-
+   readable artifact), where a link is a plain string nobody clicks in testing. Three sub-checks, each of
+   which caught a live prod defect on 2026-07-28:
+   - **(a) Is the query param actually routed?** Extract every `?<key>=` the surface emits and assert
+     membership in `ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {lang}`, read out of `home.html:77-78` — never a
+     hardcoded second copy of those lists. 17 links used `?search=`, which is in neither list, so the IA
+     router resolved `__APP_MODE = 'landing'` and `landing.js:52` (which reads only `lang`) dropped the
+     query: the reader asked for `lido` and got an empty search box. The correct param, `?protocols=`,
+     already existed.
+   - **(b) Does a row about a SPECIFIC thing link to the bare origin?** 15 pool rows rendered
+     `- uniswap-v3 · WETH-USDC — 95.55% APY, $110,825,218 TVL — https://www.defi.garden`. Root cause is the
+     trap below.
+   - **(c) Do two rows claiming DIFFERENT figures share one URL?** Two distinct Base uniswap-v3 WETH-USDC
+     pools (95.5%/$110.8M and 31.7%/$10.2M) pointed at the same `?token=&chain=` grid URL — reading as
+     contradictory claims about one page. A URL that cannot address the row's subject is the smell.
+   **Decision rule:** any row that names a specific pool/protocol must link to a URL that *addresses* it —
+   for pools that means `/?pool=<id>`, the north-star surface (2026-07-23), and `grep -c "?pool="` over the
+   generated surfaces is the one-command version of this whole check. It returned **0** on both files.
+   **The trap worth internalising: `pool.url || meta.baseUrl` is not a fallback, it is an unconditional
+   branch** — no DefiLlama payload has a `url` field, in either the snapshot or the live shape, so the right
+   side fired on 100% of rows for the life of the surface while reading as defensive code. Before trusting
+   any `||` fallback on payload data, prove the left side exists: `grep -c '"url"' data/pools-snapshot.json`.
+   Sibling of `dual-source-logic-divergence.md`.
+
 ## Severity → score (so audit findings compete with metric opportunities)
 - **P0** broken number / page error / astronomical value on a live surface (trust-breaker) → 9+.
 - **P1** dead-end for a valid query / loading flash / dead CTA → 7–8.
@@ -182,6 +208,24 @@ answer is "one hand-picked member of a set of N", the clean run is vacuous for t
 return non-zero") applied to *targets* rather than to *predicates*. A hardcoded id chosen for being
 reliably good is the strongest possible guarantee the check never fires. Prescan the population cheaply
 (no render), promote the suspects, rotate the rest by seed.
+
+**Text surfaces are covered for numbers, not for claims (item 160 shipped 2026-07-27; gap found
+2026-07-28).** `prescanTextSurfaces()` now reads `llms.txt`/`llms-full.txt` with four signals —
+`apy-rail-breach`, `broken-number-literal`, `tvl-floor-claim`, `empty-surface`. All four are
+number-or-emptiness checks, because 160 was specced from 159, which was a number bug. It returned
+`suspectCount: 0` on the same tick that hand-found **32 mis-targeted links on those exact two files**
+(check 10 above) and the total absence of the planner from the surface (item 168). → ticketed **169**
+(add `link-target-integrity`).
+**The generalisable rule, now on its third instance (148 → 159 → 166): a checker's signal set is always
+drawn from the last bug someone was bitten by, so the next bug is in whatever class no one has been bitten
+by yet.** Whenever you add a check, ask explicitly: *what could sit on this surface and still pass?* And
+treat "the scanner is clean" as scoped to the classes it implements — write it that way in the report. Note
+that item 167 above is the same rule applied to *targets* (one hardcoded pool out of 740) while this is the
+same rule applied to *claim classes*; the shared question is "what can this check never reach?"
+**Corollary for the heartbeat's surface rotation: the cheapest place to find the next defect is the surface
+you audited yesterday**, one class over. Three of the last four P0/P1s (148, 159, 166) were hand-found on
+generated surfaces on days the scanner reported nothing new, and 166 was found by re-opening the file 159
+had just fixed.
 
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
