@@ -160,6 +160,71 @@ function classifyLane(fileName, cache) {
 }
 
 // ---------------------------------------------------------------------------
+// 2b. Spec 170 — conflict-aware scheduling for the browser lane.
+//
+// Static port extraction: scan a file's OWN source (not transitive — a port
+// opened by a required helper is intentionally invisible here; see the
+// "exclusive" fallback below) for two literal forms actually used in this
+// repo: `const|let|var <IDENT containing PORT> = <digits>` declarations, and
+// `localhost:<digits>` / `127.0.0.1:<digits>` URL literals. Both forms are
+// scanned (a file could in principle have a stray literal without a PORT
+// const, or vice versa) and their results unioned into one Set<number>.
+// ---------------------------------------------------------------------------
+
+const PORT_DECL_RE = /\b(?:const|let|var)\s+(\w*PORT\w*)\s*=\s*(\d+)/g;
+const PORT_HOST_RE = /(?:localhost|127\.0\.0\.1):(\d+)/g;
+
+/** Returns the Set<number> of port literals statically found in fileName's own source. */
+function extractPorts(fileName) {
+  const absPath = path.join(ROOT, fileName);
+  let content;
+  try {
+    content = fs.readFileSync(absPath, 'utf8');
+  } catch (_) {
+    return new Set();
+  }
+  const ports = new Set();
+  let m;
+  PORT_DECL_RE.lastIndex = 0;
+  while ((m = PORT_DECL_RE.exec(content))) ports.add(Number(m[2]));
+  PORT_HOST_RE.lastIndex = 0;
+  while ((m = PORT_HOST_RE.exec(content))) ports.add(Number(m[1]));
+  return ports;
+}
+
+// Shared-resource key for the two files that write audit-findings.json
+// (test_audit_app.js, test_audit_runner.js — see audit-app.js's DEFAULT_OUT
+// and specs/169-notes.md's account of a run silently overwriting it). Any
+// file whose source mentions either literal gets this key, so a future third
+// file that starts touching the same output is automatically included
+// without a hardcoded file-name list.
+const AUDIT_FINDINGS_KEY = 'res:audit-findings';
+
+/**
+ * Builds the conflict-key Set for one browser-lane file: `port:<n>` for each
+ * extracted port, plus AUDIT_FINDINGS_KEY if the file's source mentions the
+ * shared audit-findings.json output. A file with an EMPTY port set (no port
+ * literal could be statically found — e.g. a helper opens the port) is
+ * conservative-by-construction: rather than a magic key that could collide,
+ * conflictKeysFor() flags it via the separate `exclusive` boolean below, and
+ * the scheduler treats that flag as "run alone", never comparing its (empty)
+ * key set against anyone else's.
+ */
+function conflictKeysFor(fileName) {
+  const ports = extractPorts(fileName);
+  const keys = new Set();
+  for (const p of ports) keys.add(`port:${p}`);
+  let content = '';
+  try {
+    content = fs.readFileSync(path.join(ROOT, fileName), 'utf8');
+  } catch (_) { /* no file, no extra keys */ }
+  if (content.includes('audit-findings.json') || content.includes('DEFAULT_OUT')) {
+    keys.add(AUDIT_FINDINGS_KEY);
+  }
+  return { keys, exclusive: ports.size === 0 };
+}
+
+// ---------------------------------------------------------------------------
 // CLI argument parsing.
 // ---------------------------------------------------------------------------
 
@@ -196,10 +261,21 @@ function parseArgs(argv) {
   return args;
 }
 
+/**
+ * Default worker count for a lane. An explicit --jobs override always wins,
+ * for either lane (spec 170 acceptance #1 — the browser lane used to ignore
+ * it silently; it no longer does). With no override: the plain lane keeps
+ * its original cores-minus-one heuristic (capped at 4); the browser lane
+ * defaults to max(1, min(3, cpus-1)) — deliberately capped at 3, not simply
+ * cores-1, because each worker drives a real Chromium instance and the
+ * conflict-aware scheduler (see conflictKeysFor()/runQueue() below) is what
+ * actually keeps concurrent files from colliding, not raw core count.
+ * `--jobs=1` still reproduces the pre-170 forced-serial behaviour exactly.
+ */
 function defaultJobsFor(lane, jobsOverride) {
-  if (lane === 'browser') return 1; // forced — fixed-port real-Chromium files must serialize.
-  const cpuBased = Math.max(1, Math.min(4, os.cpus().length - 1));
-  return jobsOverride != null ? jobsOverride : cpuBased;
+  if (jobsOverride != null) return jobsOverride;
+  if (lane === 'browser') return Math.max(1, Math.min(3, os.cpus().length - 1));
+  return Math.max(1, Math.min(4, os.cpus().length - 1));
 }
 
 /**
@@ -261,18 +337,115 @@ function runFile(fileName, timeoutSec) {
   });
 }
 
-async function runQueue(entries, jobs, timeoutSec, onResult) {
-  let idx = 0;
-  async function worker() {
-    while (idx < entries.length) {
-      const i = idx++;
-      const entry = entries[i];
-      const result = await runFile(entry.file, timeoutSec);
-      onResult(result);
-    }
-  }
+/**
+ * Runs `entries` (each `{ file, lane }`) with up to `jobs` concurrent
+ * workers, reporting each result via `onResult` as it completes.
+ *
+ * Two modes, selected by whether `opts.getConflict` is supplied:
+ *
+ *  - No `getConflict` (default — used by the plain lane, and any other
+ *    caller that doesn't opt in): the ORIGINAL shared-index worker pool,
+ *    byte-for-byte the pre-170 implementation. No conflict metadata in, no
+ *    scheduling change out — this is why the plain lane's behaviour is
+ *    untouched by spec 170.
+ *
+ *  - `opts.getConflict(entry)` supplied (the browser lane): a conflict-aware
+ *    greedy scheduler. Whenever a slot is free it scans not-yet-started
+ *    entries in ORIGINAL list order and starts the first one whose
+ *    conflict-key set (`{ keys: Set<string>, exclusive: boolean }`, see
+ *    conflictKeysFor()) is disjoint from every currently in-flight file's
+ *    key set. If none is eligible, it starts nothing and waits for an
+ *    in-flight file to finish rather than reordering around the conflict —
+ *    it does not skip a conflicting file to search further just to fill a
+ *    slot with a WORSE choice; it simply keeps scanning in order for the
+ *    next ELIGIBLE file, which may be later in the list. An exclusive entry
+ *    (sentinel `info.exclusive`, set when no port literal could be
+ *    statically extracted) may only start once nothing else is in flight,
+ *    and once it starts, nothing else may start until it finishes — a
+ *    dedicated `exclusiveActive` flag enforces this directly; it is not
+ *    modeled as a magic conflict key that could theoretically collide.
+ *
+ * `opts.runFile` overrides the function used to execute one file — the
+ * default is the real `runFile` (spawns a child process); tests inject a
+ * deterministic stub here to drive the scheduler without real processes.
+ */
+async function runQueue(entries, jobs, timeoutSec, onResult, opts) {
+  const options = opts || {};
+  const getConflict = options.getConflict || null;
+  const runOne = options.runFile || runFile;
   const workerCount = Math.max(1, Math.min(jobs, entries.length));
-  await Promise.all(Array.from({ length: workerCount }, worker));
+
+  if (!getConflict) {
+    let idx = 0;
+    async function worker() {
+      while (idx < entries.length) {
+        const i = idx++;
+        const entry = entries[i];
+        const result = await runOne(entry.file, timeoutSec);
+        onResult(result);
+      }
+    }
+    await Promise.all(Array.from({ length: workerCount }, worker));
+    return;
+  }
+
+  return new Promise(resolve => {
+    const total = entries.length;
+    if (total === 0) { resolve(); return; }
+
+    const items = entries.map(entry => ({ entry, info: getConflict(entry), started: false }));
+    const inFlightKeys = new Map(); // file -> Set<string>
+    let exclusiveActive = false;
+    let activeCount = 0;
+    let finishedCount = 0;
+
+    function keysConflict(keys) {
+      for (const inFlight of inFlightKeys.values()) {
+        for (const k of keys) {
+          if (inFlight.has(k)) return true;
+        }
+      }
+      return false;
+    }
+
+    function pump() {
+      if (finishedCount >= total) { resolve(); return; }
+      if (exclusiveActive) return; // draining — nothing else may start.
+
+      while (activeCount < workerCount) {
+        let chosen = null;
+        for (const item of items) {
+          if (item.started) continue;
+          if (item.info.exclusive) {
+            if (activeCount > 0) continue; // must drain first.
+          } else if (keysConflict(item.info.keys)) {
+            continue;
+          }
+          chosen = item;
+          break;
+        }
+        if (!chosen) break; // nothing eligible right now — wait for a slot.
+
+        chosen.started = true;
+        activeCount++;
+        if (chosen.info.exclusive) exclusiveActive = true;
+        inFlightKeys.set(chosen.entry.file, chosen.info.keys);
+
+        runOne(chosen.entry.file, timeoutSec).then(result => {
+          inFlightKeys.delete(chosen.entry.file);
+          if (chosen.info.exclusive) exclusiveActive = false;
+          activeCount--;
+          finishedCount++;
+          onResult(result);
+          pump();
+        });
+
+        if (chosen.info.exclusive) break; // it now occupies the only slot — stop filling.
+      }
+    }
+
+    pump();
+  });
 }
 
 function lastLines(text, n) {
@@ -328,7 +501,7 @@ async function main() {
   const browserEntries = selected.filter(e => e.lane === 'browser');
 
   const plainJobs = defaultJobsFor('plain', args.jobs);
-  const browserJobs = defaultJobsFor('browser', args.jobs); // always 1, forced.
+  const browserJobs = defaultJobsFor('browser', args.jobs); // spec 170: 1..3 by default, or the --jobs override.
 
   const plainTimeout = resolveTimeout('plain', args.timeout);
   const browserTimeout = resolveTimeout('browser', args.timeout);
@@ -343,9 +516,15 @@ async function main() {
     console.log(`${result.status.padEnd(7)} ${secs.padStart(8)}s  ${result.file}`);
   }
 
+  // Spec 170: only the browser lane passes conflict metadata into runQueue —
+  // the plain lane's call is untouched, so its scheduling is byte-identical
+  // to pre-170 run-tests.js.
+  const browserConflictInfo = new Map(browserEntries.map(e => [e.file, conflictKeysFor(e.file)]));
+  const getConflict = entry => browserConflictInfo.get(entry.file);
+
   await Promise.all([
     runQueue(plainEntries, plainJobs, plainTimeout, onResult),
-    runQueue(browserEntries, browserJobs, browserTimeout, onResult),
+    runQueue(browserEntries, browserJobs, browserTimeout, onResult, { getConflict }),
   ]);
 
   // Print results in the ORIGINAL file-list order, regardless of completion order.
@@ -418,6 +597,11 @@ module.exports = {
   parseArgs,
   defaultJobsFor,
   resolveTimeout,
+  extractPorts,
+  conflictKeysFor,
+  runQueue,
+  runFile,
+  AUDIT_FINDINGS_KEY,
   DEFAULT_TIMEOUT_PLAIN,
   DEFAULT_TIMEOUT_BROWSER,
   NO_DEPS_MESSAGE,
