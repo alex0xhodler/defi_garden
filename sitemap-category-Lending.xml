@@ -101,19 +101,19 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=BTCB&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTCB&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTCB&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTCB&amp;poolTypes=Lending" />
+    <loc>https://www.defi.garden/?token=USDE&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=USDE&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDE&amp;poolTypes=Lending" />
+    <loc>https://www.defi.garden/?token=BTCB&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTCB&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTCB&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTCB&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -128,15 +128,6 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=LBTC&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LBTC&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LBTC&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LBTC&amp;poolTypes=Lending" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending&amp;lang=ko" />
@@ -146,10 +137,10 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending" />
+    <loc>https://www.defi.garden/?token=LBTC&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LBTC&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LBTC&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LBTC&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -159,6 +150,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUPUSDC&amp;poolTypes=Lending" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDC&amp;poolTypes=Lending&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUPUSDC&amp;poolTypes=Lending" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -270,15 +270,6 @@
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=HYPERUSDCA&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HYPERUSDCA&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HYPERUSDCA&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HYPERUSDCA&amp;poolTypes=Lending" />
-    <lastmod>2026-07-27T16:12:15.316Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.77</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=REUSD&amp;poolTypes=Lending</loc>

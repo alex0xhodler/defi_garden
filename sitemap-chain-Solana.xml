@@ -60,9 +60,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSOL&amp;chain=Solana" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSOL&amp;chain=Solana&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSOL&amp;chain=Solana" />
-    <lastmod>2026-07-25T18:54:32.928Z</lastmod>
+    <lastmod>2026-07-28T05:14:36.121Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.84</priority>
+    <priority>0.83</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PRIME&amp;chain=Solana</loc>
@@ -101,13 +101,13 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=HSOL&amp;chain=Solana</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana" />
-    <lastmod>2026-07-27T16:12:15.316Z</lastmod>
+    <loc>https://www.defi.garden/?token=SYRUPUSDC&amp;chain=Solana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUPUSDC&amp;chain=Solana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDC&amp;chain=Solana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUPUSDC&amp;chain=Solana" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.79</priority>
+    <priority>0.86</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BSOL&amp;chain=Solana</loc>
@@ -119,13 +119,13 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SYRUPUSDC&amp;chain=Solana</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUPUSDC&amp;chain=Solana" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDC&amp;chain=Solana&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUPUSDC&amp;chain=Solana" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <loc>https://www.defi.garden/?token=HSOL&amp;chain=Solana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana" />
+    <lastmod>2026-07-27T16:12:15.316Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.86</priority>
+    <priority>0.79</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=LUNC&amp;chain=Solana</loc>
@@ -159,9 +159,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XMR&amp;chain=Solana" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XMR&amp;chain=Solana&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XMR&amp;chain=Solana" />
-    <lastmod>2026-07-27T21:56:20.156Z</lastmod>
+    <lastmod>2026-07-28T05:14:36.121Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.82</priority>
+    <priority>0.81</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USDG&amp;chain=Solana</loc>

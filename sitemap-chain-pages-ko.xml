@@ -101,12 +101,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/mantle</loc>
+    <loc>https://www.defi.garden/ko/chains/plume-mainnet</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/plume-mainnet</loc>
+    <loc>https://www.defi.garden/ko/chains/mantle</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -236,11 +236,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/celo</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/zigchain</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
@@ -252,6 +247,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/etherlink</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/celo</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -411,17 +411,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/waves</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/world-chain</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/igra</loc>
+    <loc>https://www.defi.garden/ko/chains/waves</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -437,6 +432,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/cronos-zkevm</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/igra</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>daily</changefreq>
   </url>
