@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-07-27T07:22:10.333Z",
+  "generatedAt": "2026-07-28T03:19:44.068Z",
   "status": "OK",
   "playwright": {
     "source": "local",
-    "version": "1.56.1"
+    "version": "1.61.1"
   },
   "surfacesCovered": [
+    "text-surfaces",
     "grid-token",
     "pool-detail",
     "grid-chain",
@@ -15,13 +16,22 @@
     "grid-360",
     "pool-detail-dark",
     "pool-detail-ko",
+    "landing",
+    "planner",
+    "planner-360",
+    "planner-ko",
+    "plan-bloom-growth",
+    "plan-bloom-target",
+    "plan-bloom-subscription",
+    "plan-bloom-360",
+    "plan-bloom-ko",
     "static-page",
     "static-page:tokens/01",
     "static-page:tokens/17dec2026",
     "static-page:tokens/20261231",
     "static-page:tokens/2027",
-    "static-page:tokens/ncloa",
-    "static-page:tokens/aiusd"
+    "static-page:tokens/stradausdc",
+    "static-page:tokens/eearn"
   ],
   "findings": [
     {
@@ -29,7 +39,7 @@
       "viewport": "n/a",
       "check": "static-prescan:junk-slug",
       "severity": "P1",
-      "detail": "7 of 2197 static SEO pages match junk-slug — examples: tokens/00, tokens/01, tokens/17dec2026, tokens/20261231, tokens/2027, tokens/67, tokens/8oct2026"
+      "detail": "7 of 2210 static SEO pages match junk-slug — examples: tokens/00, tokens/01, tokens/17dec2026, tokens/20261231, tokens/2027, tokens/67, tokens/8oct2026"
     },
     {
       "surface": "static-page:tokens/01",
@@ -61,7 +71,7 @@
     }
   ],
   "prescan": {
-    "scanned": 2197,
+    "scanned": 2210,
     "suspectCount": 7,
     "bySignal": {
       "broken-number-literal": 0,
@@ -75,5 +85,15 @@
       "tokens/20261231",
       "tokens/2027"
     ]
+  },
+  "textSurfaces": {
+    "scanned": 2,
+    "suspectCount": 0,
+    "bySignal": {
+      "apy-rail-breach": 0,
+      "broken-number-literal": 0,
+      "tvl-floor-claim": 0,
+      "empty-surface": 0
+    }
   }
 }

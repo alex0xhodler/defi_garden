@@ -73,6 +73,13 @@ function installFixtureRunner(dir) {
   fs.mkdirSync(path.join(dir, 'node_modules')); // preflight only checks existence.
 }
 
+// Same as installFixtureRunner, but deliberately WITHOUT node_modules — for
+// proving the --only validation guard fires before the node_modules
+// preflight would (spec 166, acceptance A6), not merely alongside it.
+function installFixtureRunnerNoDeps(dir) {
+  fs.copyFileSync(RUN_TESTS_PATH, path.join(dir, 'run-tests.js'));
+}
+
 function runCLI(dir, args) {
   return spawnSync(process.execPath, ['run-tests.js', ...args], { cwd: dir, encoding: 'utf8' });
 }
@@ -265,6 +272,181 @@ test('lane-aware timeout: with no --timeout, resolveTimeout defaults to 120s (pl
 test('lane-aware timeout: an explicit --timeout override wins for both lanes', () => {
   assert.strictEqual(runTests.resolveTimeout('plain', 5), 5, 'an override must win over the plain default');
   assert.strictEqual(runTests.resolveTimeout('browser', 5), 5, 'an override must win over the browser default too');
+});
+
+// ---------------------------------------------------------------------------
+// Spec 166 — `--only` validation and the zero-file-selected guard.
+// Covers acceptance criteria A1-A8. Everything here spawns run-tests.js
+// against the REAL repo (REPO_ROOT), not a fixture dir, since the point is
+// to validate against the actual test:serial chain and lane classification.
+//
+// Recursion note (important — read before touching any test in this
+// section): none of the tests below ever pass "test_run_tests.js" as a name
+// that could actually be SELECTED for a real run against the real repo.
+// run-tests.js re-selecting and re-running *this very file* as a child
+// process would recurse without a base case (this file would spawn another
+// copy of itself doing the same thing) — verified experimentally while
+// developing this fix: with the unknown-name guard deliberately disabled, an
+// early draft of the A2 test below (which used "test_run_tests.js" as its
+// valid entry) forked dozens of orphaned node processes before the outer
+// spawnSync timeout even fired, because a spawnSync timeout only kills its
+// *direct* child, not further descendants that child already spawned. A2
+// now uses test_protocol_parsing.js instead — a real, different, harmless
+// plain-lane file — so this whole section is recursion-safe regardless of
+// which (if either) of the two new guards is intact. The 30s spawnSync
+// timeout below is kept anyway as a defense-in-depth resource cap, not as
+// the primary safety mechanism.
+// ---------------------------------------------------------------------------
+
+function runRepoCLI(args) {
+  return spawnSync(process.execPath, [RUN_TESTS_PATH, ...args], { cwd: REPO_ROOT, encoding: 'utf8', timeout: 30000, killSignal: 'SIGKILL' });
+}
+
+// --- A7: unknownOnlyNames() unit correctness -------------------------------
+
+test('A7: unknownOnlyNames returns [] when only is null', () => {
+  assert.deepStrictEqual(runTests.unknownOnlyNames(null, ['a.js', 'b.js']), []);
+});
+
+test('A7: unknownOnlyNames returns [] when all names are known', () => {
+  assert.deepStrictEqual(runTests.unknownOnlyNames(['a.js', 'b.js'], ['a.js', 'b.js', 'c.js']), []);
+});
+
+test('A7: unknownOnlyNames returns exactly the unknown entries, in input order', () => {
+  assert.deepStrictEqual(
+    runTests.unknownOnlyNames(['a.js', 'x.js', 'b.js', 'y.js'], ['a.js', 'b.js', 'c.js', 'd.js']),
+    ['x.js', 'y.js']
+  );
+});
+
+test('A7: unknownOnlyNames collapses duplicate unknown entries', () => {
+  assert.deepStrictEqual(
+    runTests.unknownOnlyNames(['x.js', 'a.js', 'x.js'], ['a.js', 'b.js']),
+    ['x.js']
+  );
+});
+
+// --- A1: unknown single name → exit 2, nothing executes --------------------
+
+test('A1: an unknown single --only name exits 2, stderr names it via the unknown-name guard specifically, nothing runs', () => {
+  const res = runRepoCLI(['--only=test_does_not_exist.js']);
+  assert.strictEqual(res.status, 2, 'exit code must be 2');
+  // Deliberately specific (not just "mentions the filename anywhere"): the
+  // zero-selected guard's message ALSO happens to echo args.only, so a
+  // looser regex here would stay green even if the unknown-name guard
+  // (validation point 1) were removed and only the zero-selected guard
+  // (validation point 2) were left standing. Anchoring on this exact phrase
+  // is what makes the guard-1 non-vacuity check in specs/166-notes.md valid.
+  assert.match(res.stderr, /not found in the test:serial chain/, 'stderr must use the unknown-name guard\'s specific wording');
+  assert.match(res.stderr, /test_does_not_exist\.js/, 'stderr must name the unknown file');
+  assert.doesNotMatch(res.stdout, /RESULT /, 'no RESULT line — nothing must have executed');
+  assert.doesNotMatch(res.stdout, /TOTAL pass=/, 'no TOTAL pass= line — nothing must have executed');
+});
+
+// --- A2: partial typo → exit 2, only the unknown entry named, valid file skipped ---
+
+test('A2: a partial typo among --only names exits 2, names only the unknown entry, valid file does not run', () => {
+  // test_protocol_parsing.js, not test_run_tests.js — see the recursion note
+  // above. Semantically identical to the spec's own example
+  // (--only=test_run_tests.js,test_typo.js): one real valid file name plus
+  // one typo.
+  const res = runRepoCLI(['--only=test_protocol_parsing.js,test_typo.js']);
+  assert.strictEqual(res.status, 2, 'exit code must be 2');
+  assert.match(res.stderr, /test_typo\.js/, 'stderr must name the unknown entry');
+  assert.doesNotMatch(res.stderr, /test_protocol_parsing\.js/, 'stderr must not claim the valid file is unknown');
+  assert.doesNotMatch(res.stdout, /RESULT /, 'no RESULT line — the valid file must not have run either');
+});
+
+// --- A3: valid names, zero selected after lane filter → exit 2, distinct message ---
+
+test('A3: valid --only name filtered out entirely by --lane exits 2 with a message distinct from A1', () => {
+  // Resolve a real browser-lane file at runtime rather than hardcoding one —
+  // its NAME is fine to hardcode (test_smoke.js et al. are harmless
+  // literals), but picking it via classifyLane keeps this test honest about
+  // what "browser-lane" means without depending on which file happens to be
+  // first today. See header comment for why the package name itself must
+  // never appear here as a literal.
+  const allFiles = runTests.parseFileList(runTests.readSerialChain());
+  const cache = new Map();
+  const browserFile = allFiles.find(f => runTests.classifyLane(f, cache) === 'browser');
+  assert.ok(browserFile, 'sanity: the real repo must have at least one browser-lane file');
+
+  const unknownRes = runRepoCLI(['--only=test_does_not_exist.js']);
+  const res = runRepoCLI([`--lane=plain`, `--only=${browserFile}`]);
+
+  assert.strictEqual(res.status, 2, 'exit code must be 2');
+  assert.match(res.stderr, /0 file\(s\) selected/, 'stderr must say zero files were selected');
+  assert.notStrictEqual(res.stderr.trim(), unknownRes.stderr.trim(), 'the zero-selected message must be distinct from the unknown-name message');
+  assert.doesNotMatch(res.stdout, /RESULT /, 'no RESULT line — nothing must have executed');
+});
+
+// --- A4: a valid selection still runs and exits 0 (fast plain file) --------
+
+test('A4: a valid --only selection still runs exactly as before and exits 0', () => {
+  // test_protocol_parsing.js, not test_run_tests.js — deliberately, to avoid
+  // this suite spawning a run of itself. Verified plain-lane and fast
+  // (~0.06s) before use; see header note above.
+  assert.strictEqual(runTests.classifyLane('test_protocol_parsing.js', new Map()), 'plain', 'sanity: must be plain-lane');
+
+  const res = runRepoCLI(['--only=test_protocol_parsing.js']);
+  assert.strictEqual(res.status, 0, 'exit code must be 0 for a valid selection');
+  assert.match(res.stdout, /PASS\s+[\d.]+s\s+test_protocol_parsing\.js/, 'the file must be reported PASS');
+  assert.match(res.stdout, /TOTAL pass=1 fail=0 timeout=0 total=1/, 'summary must show exactly one passing file');
+});
+
+// --- A5: default path untouched ---------------------------------------------
+
+test('A5: parseArgs([]).only is null (default path untouched)', () => {
+  assert.strictEqual(runTests.parseArgs([]).only, null);
+});
+
+test('A5: --list exits 0 and its TOTAL files= count equals parseFileList(readSerialChain()).length', () => {
+  const expectedCount = runTests.parseFileList(runTests.readSerialChain()).length;
+  const res = runRepoCLI(['--list']);
+  assert.strictEqual(res.status, 0, '--list must exit 0');
+  const m = res.stdout.match(/TOTAL files=(\d+)/);
+  assert.ok(m, 'TOTAL files= line must be present');
+  assert.strictEqual(Number(m[1]), expectedCount, 'TOTAL files= must equal the independently-parsed chain length');
+});
+
+// --- A6: validation precedes the node_modules preflight ---------------------
+
+test('A6: --list --only=<unknown name> exits 2 with the unknown-name error, regardless of node_modules', () => {
+  const res = runRepoCLI(['--list', '--only=test_typo.js']);
+  assert.strictEqual(res.status, 2, 'exit code must be 2');
+  assert.match(res.stderr, /test_typo\.js/, 'stderr must name the unknown file');
+});
+
+test('A6: --list --only=<real file> exits 0 and lists exactly that file', () => {
+  const res = runRepoCLI(['--list', '--only=test_protocol_parsing.js']);
+  assert.strictEqual(res.status, 0, 'exit code must be 0');
+  const listedLines = res.stdout.split('\n').filter(l => l.includes('\t'));
+  assert.deepStrictEqual(listedLines.map(l => l.split('\t')[0]), ['test_protocol_parsing.js'], 'must list exactly the one requested file');
+  assert.match(res.stdout, /listed=1/, 'TOTAL line must report listed=1');
+});
+
+test('A6: an unknown --only name in RUN mode exits 2 with the unknown-name error even when node_modules is entirely absent — proves validation precedes the preflight, not just coincides with it', () => {
+  withTmpDir(dir => {
+    installFixtureRunnerNoDeps(dir); // no node_modules directory at all
+    fs.writeFileSync(path.join(dir, 'a_pass.js'), 'process.exit(0);\n');
+    fs.writeFileSync(path.join(dir, 'package.json'), JSON.stringify({
+      scripts: { 'test:serial': 'node a_pass.js' },
+    }));
+
+    const res = runCLI(dir, ['--only=typo.js']); // RUN mode, not --list
+
+    assert.strictEqual(res.status, 2, 'exit code must be 2');
+    assert.match(res.stderr, /not found in the test:serial chain/, 'must be the unknown-name guard, not the preflight');
+    assert.doesNotMatch(res.stderr, new RegExp(runTests.NO_DEPS_MESSAGE.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')), 'must NOT be the node_modules preflight message — that would mean the preflight ran first');
+  });
+});
+
+// --- A8: this file itself stays green and plain-lane -------------------------
+
+test('A8: run-tests.js --list reports test_run_tests.js as plain lane', () => {
+  const res = runRepoCLI(['--list']);
+  assert.strictEqual(res.status, 0);
+  assert.match(res.stdout, /^test_run_tests\.js\tplain$/m, 'this file must be classified plain, not browser');
 });
 
 console.log(`\n${passed} assertions passed`);

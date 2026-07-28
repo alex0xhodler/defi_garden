@@ -160,6 +160,29 @@ function classifyLane(fileName, cache) {
 }
 
 // ---------------------------------------------------------------------------
+// --only validation: catch a typo before anything runs (spec 166).
+// ---------------------------------------------------------------------------
+
+/**
+ * Returns the entries of `only` that are not present in `allFiles`, in input
+ * order, with duplicates collapsed. Pure — no I/O. `only` may be null/undefined
+ * (returns []).
+ */
+function unknownOnlyNames(only, allFiles) {
+  if (!only) return [];
+  const known = new Set(allFiles);
+  const seen = new Set();
+  const unknown = [];
+  for (const name of only) {
+    if (!known.has(name) && !seen.has(name)) {
+      seen.add(name);
+      unknown.push(name);
+    }
+  }
+  return unknown;
+}
+
+// ---------------------------------------------------------------------------
 // CLI argument parsing.
 // ---------------------------------------------------------------------------
 
@@ -296,6 +319,18 @@ async function main() {
   const chain = readSerialChain();
   const allFiles = parseFileList(chain);
 
+  // Validate --only against the resolved file list BEFORE --list and BEFORE
+  // the node_modules preflight — a typo is an operator error a fresh clone
+  // must still be told about, and --list is exactly where someone checks a
+  // name. See spec 166.
+  if (args.only) {
+    const unknown = unknownOnlyNames(args.only, allFiles);
+    if (unknown.length) {
+      console.error(`run-tests.js: --only names ${unknown.length} file(s) not found in the test:serial chain: ${unknown.join(', ')} — run with --list to see valid file names.`);
+      process.exit(2);
+    }
+  }
+
   const cache = new Map();
   const classified = allFiles.map(file => ({ file, lane: classifyLane(file, cache) }));
 
@@ -322,6 +357,14 @@ async function main() {
   if (args.only) {
     const wanted = new Set(args.only);
     selected = selected.filter(e => wanted.has(e.file));
+  }
+
+  // Zero files selected in RUN mode is never a pass — catches the
+  // legitimate-names-wrong-lane case (e.g. --lane=plain --only=<browser
+  // file>) that name validation alone cannot. See spec 166.
+  if (selected.length === 0) {
+    console.error(`run-tests.js: 0 file(s) selected (lane=${args.lane}${args.only ? `, only=${args.only.join(',')}` : ''}) — a zero-file run is not a pass.`);
+    process.exit(2);
   }
 
   const plainEntries = selected.filter(e => e.lane === 'plain');
@@ -412,6 +455,7 @@ module.exports = {
   parseFileList,
   readSerialChain,
   classifyLane,
+  unknownOnlyNames,
   mentionsPlaywrightTransitively,
   extractLocalRequires,
   resolveLocalRequire,
