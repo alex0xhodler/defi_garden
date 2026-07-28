@@ -42,9 +42,19 @@ const os = require('os');
 const { spawnSync } = require('child_process');
 
 let passed = 0;
+// test() is chained onto a running promise rather than called eagerly, so
+// that a test whose `fn` is async (spec 170's scheduler-interval tests await
+// runQueue) is properly awaited — in order, with its rejection caught the
+// same way a thrown sync error is — before the next test starts, and before
+// the final summary block at the bottom of this file runs. Plain sync `fn`s
+// (every pre-170 test in this file) behave identically to before: `await
+// fn()` on a non-promise return value settles on the same microtask turn.
+let testChain = Promise.resolve();
 function test(name, fn) {
-  try { fn(); passed++; console.log('  ✓ ' + name); }
-  catch (err) { console.error('  ✗ ' + name + '\n    ' + err.message); process.exitCode = 1; }
+  testChain = testChain.then(async () => {
+    try { await fn(); passed++; console.log('  ✓ ' + name); }
+    catch (err) { console.error('  ✗ ' + name + '\n    ' + err.message); process.exitCode = 1; }
+  });
 }
 
 const REPO_ROOT = __dirname;
@@ -267,8 +277,192 @@ test('lane-aware timeout: an explicit --timeout override wins for both lanes', (
   assert.strictEqual(runTests.resolveTimeout('browser', 5), 5, 'an override must win over the browser default too');
 });
 
-console.log(`\n${passed} assertions passed`);
-if (process.exitCode) {
-  console.error('\nFAILED');
-  process.exit(1);
+// ---------------------------------------------------------------------------
+// Spec 170 — conflict-aware browser-lane scheduling.
+// ---------------------------------------------------------------------------
+
+// --- Port extraction, over the REAL corpus on disk (not fixtures) ---------
+
+const GROUP_8796 = [
+  'test_kpi_momentum.js', 'test_kpi_sharpe_sort.js', 'test_mean30d_sanity.js',
+  'test_pool_logo.js', 'test_report_share.js', 'test_token_loading_state.js',
+  'test_waitlist_seo_entry.js',
+];
+const GROUP_8799 = [
+  'test_default_sort.js', 'test_growth_capital_projection.js', 'test_hero_copy.js',
+  'test_kpi_seo_enrichment.js', 'test_plan_clean_url.js',
+];
+
+test('spec 170 A2: the real 8796 group (7 files) all extract port 8796, from the files on disk', () => {
+  for (const f of GROUP_8796) {
+    const ports = runTests.extractPorts(f);
+    assert.ok(ports.has(8796), `${f} must extract port 8796, got [${[...ports]}]`);
+  }
+});
+
+test('spec 170 A2: the real 8799 group (5 files) all extract port 8799, from the files on disk', () => {
+  for (const f of GROUP_8799) {
+    const ports = runTests.extractPorts(f);
+    assert.ok(ports.has(8799), `${f} must extract port 8799, got [${[...ports]}]`);
+  }
+});
+
+test('spec 170 A2: conflictKeysFor gives the whole 8796 group an overlapping key set (port:8796), and it is disjoint from the 8799 group', () => {
+  const keys8796 = GROUP_8796.map(f => runTests.conflictKeysFor(f));
+  for (const info of keys8796) {
+    assert.strictEqual(info.exclusive, false, 'a file with a real port must not be exclusive');
+    assert.ok(info.keys.has('port:8796'), 'every 8796-group file must carry the port:8796 key');
+  }
+  const keys8799 = GROUP_8799.map(f => runTests.conflictKeysFor(f));
+  for (const info of keys8799) {
+    assert.ok(info.keys.has('port:8799'), 'every 8799-group file must carry the port:8799 key');
+    assert.ok(!info.keys.has('port:8796'), '8799-group files must not carry the 8796 key');
+  }
+});
+
+test('spec 170: the two audit-findings.json writers share the audit resource key', () => {
+  const app = runTests.conflictKeysFor('test_audit_app.js');
+  const runner = runTests.conflictKeysFor('test_audit_runner.js');
+  assert.ok(app.keys.has(runTests.AUDIT_FINDINGS_KEY), 'test_audit_app.js must carry the shared audit-findings key');
+  assert.ok(runner.keys.has(runTests.AUDIT_FINDINGS_KEY), 'test_audit_runner.js must carry the shared audit-findings key');
+  // Both files also have no statically-extractable port literal of their
+  // own (audit-app.js's AUDIT_PORT is opened by the required helper, not a
+  // literal in the test file itself) — so both are ALSO exclusive. Assert
+  // that honestly rather than assuming it.
+  assert.strictEqual(app.exclusive, true, 'test_audit_app.js has no port literal of its own — exclusive');
+  assert.strictEqual(runner.exclusive, true, 'test_audit_runner.js has no port literal of its own — exclusive');
+});
+
+test('spec 170: a file with no port literal at all is flagged exclusive with an empty port-derived key set', () => {
+  const info = runTests.conflictKeysFor('test_seo_surface_audit.js');
+  assert.strictEqual(info.exclusive, true);
+});
+
+// --- Deterministic scheduler-interval test ---------------------------------
+//
+// Drives runQueue's conflict-aware branch with a STUB runner (opts.runFile)
+// that never spawns a real process. Uses awaited timers (setTimeout) with a
+// fixed, generous delay so relative interval math (did A's [start,end]
+// overlap B's?) is robust to ordinary scheduler jitter without depending on
+// real Chromium/network timing anywhere.
+
+function makeStubRunner(delayMs) {
+  const intervals = []; // { file, start, end }
+  const runFileStub = (file) => {
+    const start = Date.now();
+    return new Promise(resolve => {
+      setTimeout(() => {
+        const end = Date.now();
+        intervals.push({ file, start, end });
+        resolve({ file, status: 'PASS', durationMs: end - start, exitCode: 0, output: '' });
+      }, delayMs);
+    });
+  };
+  return { runFileStub, intervals };
 }
+
+function overlaps(a, b) {
+  return a.start < b.end && b.start < a.end;
+}
+
+function conflictInfoMap(map) {
+  return entry => map.get(entry.file);
+}
+
+test('spec 170 A3/A4: scheduler interval test — zero overlap between conflicting files, exclusive overlaps nothing, a non-conflicting pair DOES overlap (non-vacuity)', async () => {
+  // Files: a1/a2 share port 8000 (conflict). b1 is a lone port 9000 (no
+  // conflict with anyone). c1 is exclusive (no port at all). All disjoint
+  // from a1/a2/b1 by key, but exclusive still must never overlap anything.
+  const info = new Map([
+    ['a1.js', { keys: new Set(['port:8000']), exclusive: false }],
+    ['a2.js', { keys: new Set(['port:8000']), exclusive: false }],
+    ['b1.js', { keys: new Set(['port:9000']), exclusive: false }],
+    ['c1.js', { keys: new Set(), exclusive: true }],
+  ]);
+  const entries = ['a1.js', 'a2.js', 'b1.js', 'c1.js'].map(file => ({ file, lane: 'browser' }));
+
+  const { runFileStub, intervals } = makeStubRunner(60);
+  const results = [];
+  await runTests.runQueue(entries, 3, 30, r => results.push(r), {
+    getConflict: conflictInfoMap(info),
+    runFile: runFileStub,
+  });
+
+  assert.strictEqual(results.length, 4, 'all 4 files must have run');
+  assert.ok(results.every(r => r.status === 'PASS'));
+
+  const byFile = Object.fromEntries(intervals.map(iv => [iv.file, iv]));
+
+  // (a) zero overlap between files with an overlapping key set (a1 vs a2).
+  assert.ok(!overlaps(byFile['a1.js'], byFile['a2.js']), 'a1.js and a2.js share port:8000 and must never overlap');
+
+  // (c) the exclusive file overlaps with nothing.
+  for (const other of ['a1.js', 'a2.js', 'b1.js']) {
+    assert.ok(!overlaps(byFile['c1.js'], byFile[other]), `exclusive c1.js must not overlap ${other}`);
+  }
+
+  // (b) non-vacuity guard: at least one non-conflicting pair (a1/b1 or
+  // a2/b1 — disjoint key sets, jobs=3) DOES overlap. A scheduler that
+  // silently serialised everything would fail this assertion.
+  const nonConflictingOverlap = overlaps(byFile['a1.js'], byFile['b1.js']) || overlaps(byFile['a2.js'], byFile['b1.js']);
+  assert.ok(nonConflictingOverlap, 'a non-conflicting pair must overlap when jobs > 1 — a fully-serial scheduler would fail this');
+});
+
+test('spec 170: --jobs=1 reproduces serial behaviour exactly — one file in flight at a time, original list order', async () => {
+  const info = new Map([
+    ['a1.js', { keys: new Set(['port:8000']), exclusive: false }],
+    ['b1.js', { keys: new Set(['port:9000']), exclusive: false }],
+    ['c1.js', { keys: new Set(), exclusive: true }],
+  ]);
+  const entries = ['a1.js', 'b1.js', 'c1.js'].map(file => ({ file, lane: 'browser' }));
+
+  const { runFileStub, intervals } = makeStubRunner(20);
+  const startOrder = [];
+  const origStub = runFileStub;
+  const trackedStub = (file, t) => { startOrder.push(file); return origStub(file, t); };
+
+  await runTests.runQueue(entries, 1, 30, () => {}, {
+    getConflict: conflictInfoMap(info),
+    runFile: trackedStub,
+  });
+
+  assert.deepStrictEqual(startOrder, ['a1.js', 'b1.js', 'c1.js'], '--jobs=1 must start files strictly in original list order');
+
+  const sorted = [...intervals].sort((x, y) => x.start - y.start);
+  for (let i = 1; i < sorted.length; i++) {
+    assert.ok(sorted[i].start >= sorted[i - 1].end, `${sorted[i].file} must not start before ${sorted[i - 1].file} finishes under --jobs=1`);
+  }
+});
+
+test('spec 170: the plain-lane call path (no getConflict) is untouched — behaves as a plain shared-index worker pool', async () => {
+  const entries = ['p1.js', 'p2.js', 'p3.js'].map(file => ({ file, lane: 'plain' }));
+  const { runFileStub } = makeStubRunner(5);
+  const results = [];
+  await runTests.runQueue(entries, 2, 30, r => results.push(r), { runFile: runFileStub });
+  assert.strictEqual(results.length, 3);
+  assert.ok(results.every(r => r.status === 'PASS'));
+});
+
+// --- defaultJobsFor('browser', …) ------------------------------------------
+
+test('spec 170 A1: defaultJobsFor("browser") is no longer forced to 1 — on a multi-core box it is > 1', () => {
+  const os = require('os');
+  const n = runTests.defaultJobsFor('browser');
+  if (os.cpus().length >= 2) {
+    assert.ok(n > 1, `expected > 1 on a ${os.cpus().length}-core box, got ${n}`);
+  }
+  assert.ok(n >= 1 && n <= 3, `browser default must be in [1,3], got ${n}`);
+});
+
+test('spec 170 A1: an explicit --jobs override wins over the browser default', () => {
+  assert.strictEqual(runTests.defaultJobsFor('browser', 1), 1, '--jobs=1 must be honoured, not silently forced');
+  assert.strictEqual(runTests.defaultJobsFor('browser', 7), 7, 'an explicit override wins even above the default cap of 3');
+});
+
+testChain.then(() => {
+  console.log(`\n${passed} assertions passed`);
+  if (process.exitCode) {
+    console.error('\nFAILED');
+    process.exit(1);
+  }
+});
