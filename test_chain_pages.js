@@ -123,7 +123,9 @@ test('each pool row links to its detail page (/?pool=<id>) and shows its token',
 test('pool row falls back to the chain app view when a pool has no id', () => {
   const noId = gen.renderChainPage({ chain: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7, tokens: ['Y'],
     pools: [{ symbol: 'Y', project: 'aave', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
-  assert.ok(noId.includes('href="https://www.defi.garden/?chain=X"'), 'missing fallback link');
+  // 173: the fallback link is the same appUrl the primary CTA uses, so it now
+  // carries the generator's own &minTvl= floor too.
+  assert.ok(noId.includes(`href="https://www.defi.garden/?chain=X&minTvl=${gen.MIN_POOL_TVL}"`), 'missing fallback link');
 });
 test('renders >=1 real pool row with en-US formatted numbers', () => {
   assert.ok(/<td class="num">\d/.test(html), 'no formatted numeric cell');
@@ -418,8 +420,11 @@ console.log('049 — cross-surface linking: category leg (folds in 043)');
 test('renderChainPage always renders a By category nav derived from on-page pools (no category hub page exists yet)', () => {
   const html = gen.renderChainPage(byChain['Big'], [], '2026-07-12');
   assert.ok(html.includes('aria-label="Pool categories"'), 'missing category nav');
-  assert.ok(html.includes('href="https://www.defi.garden/?chain=Big&poolTypes=Lending"'), 'missing Lending category link');
-  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&poolTypes=${encodeURIComponent('LP/DEX')}"`), 'missing LP/DEX category link');
+  // 173: categoryLinksFor builds off appUrl, which now carries the generator's
+  // own &minTvl= floor — so the category link inherits it too (single
+  // injection site, no re-typed literal).
+  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending"`), 'missing Lending category link');
+  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=${encodeURIComponent('LP/DEX')}"`), 'missing LP/DEX category link');
 });
 test('cross-links reuse the related nav styling via an added class token, without colliding with the exact class="related" tests', () => {
   const html = gen.renderChainPage(byChain['Big'], [], '2026-07-12', [{ symbol: 'AAA', slug: 'aaa' }]);

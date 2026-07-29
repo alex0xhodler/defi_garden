@@ -670,7 +670,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const enUrl = `${SITE_URL}/tokens/${rec.slug}`;
   const koUrl = `${SITE_URL}/ko/tokens/${rec.slug}`;
   const pageUrl = language === 'ko' ? koUrl : enUrl;
-  const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}`;
+  const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
   const genDate = generatedDate || todayGeneratedDate();
   const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
   const ogImageUrl = `${SITE_URL}/${ogImageRelPath}`;

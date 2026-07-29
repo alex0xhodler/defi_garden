@@ -16,12 +16,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bsc</loc>
+    <loc>https://www.defi.garden/ko/chains/base</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/base</loc>
+    <loc>https://www.defi.garden/ko/chains/bsc</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -36,12 +36,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/avalanche</loc>
+    <loc>https://www.defi.garden/ko/chains/hyperliquid-l1</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/hyperliquid-l1</loc>
+    <loc>https://www.defi.garden/ko/chains/avalanche</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -251,12 +251,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/celo</loc>
+    <loc>https://www.defi.garden/ko/chains/bifrost-network</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bifrost-network</loc>
+    <loc>https://www.defi.garden/ko/chains/celo</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -266,22 +266,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/heco</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/flow</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/multiversx</loc>
+    <loc>https://www.defi.garden/ko/chains/heco</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/venom</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/multiversx</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -386,12 +386,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/zksync-era</loc>
+    <loc>https://www.defi.garden/ko/chains/kusama</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/kusama</loc>
+    <loc>https://www.defi.garden/ko/chains/zksync-era</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -406,12 +406,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bifrost</loc>
+    <loc>https://www.defi.garden/ko/chains/opbnb</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/opbnb</loc>
+    <loc>https://www.defi.garden/ko/chains/bifrost</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
   </url>
