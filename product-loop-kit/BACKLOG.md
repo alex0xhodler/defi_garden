@@ -4,3 +4,4 @@
 
 | ID | Title | Score | Status | Risk | Spec | Attempts | Measure until |
 |----|-------|-------|--------|------|------|----------|---------------|
+PLACEHOLDER_ROWS
