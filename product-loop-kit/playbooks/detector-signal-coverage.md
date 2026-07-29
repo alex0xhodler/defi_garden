@@ -19,9 +19,61 @@ Three consecutive instances in this repo, same shape every time:
 | 159 → 160 | `llms.txt` | numbers + emptiness (`apy-rail-breach`, `broken-number-literal`, `tvl-floor-claim`, `empty-surface`) | 32 **mis-targeted links** (item 166) |
 | 166 → 167 | pool-detail | one hardcoded flagship pool (`PREFERRED_POOL_ID`) | every real bug was on a non-flagship pool (122/144/145/165) |
 | 169 → 172 | `tokens/*.html` + `chains/*.html` | slugs + numbers (`junk-slug`, `zero-yield-claim`, `broken-number-literal`, `absurd-magnitude`) | **~41,300 links never looked at**, incl. the 4,989 `?pool=` hops into the north-star surface — the same class 169 had just closed on the *text* surfaces two files away |
+| 172 → 175 | `tokens/*.html` + `chains/*.html` | `link-target-integrity` — *is the query key routed?* | **1,749 dead CTAs** (item 173). `?chain=Cardano` is perfectly routed; it just returns nothing. The signal shipped the same morning and scored **0** on the 2,200 pages carrying the bug |
 
 Each fix was specced from the previous bug, so each new checker inherited the previous bug's *shape*:
 number bug → number detectors; one-page audit → one-page audit. Item 169 is the text-surface twin of 167.
+Item 172 inherited 166's definition of "broken link" — an *unrouted param* — and so could not see a routed
+param that resolves to nothing.
+
+## A link check has three levels — name which one you are building
+
+This is the generalisation item 175 encodes, and the reason four consecutive link items each missed the next
+bug: each built level 1 again, in a new place.
+
+| level | question | catches | cost |
+|---|---|---|---|
+| 1 **routed** | is the query key one the app recognises? | a key that was never a param (`?search=`) | param-set membership; 172 built it |
+| 2 **resolvable** | does the *value* name a real entity — a project slug, a preset key? | a renamed/removed entity still linked | one set lookup per link |
+| 3 **non-empty** | does the target, **under its own default filters**, return what the linking page claims? | two internally-consistent surfaces with a broken contract between them | a filter simulation over the right population |
+
+**Level 3 is the only one that catches a mismatch between two surfaces that are each individually correct** —
+which is what 173 was: the page was right, the app was right, the contract between them was broken. If your
+new link signal is level 1 or 2, say so in the spec and price the level-3 gap; do not let "we added a link
+check" stand in for "links are checked".
+
+## The population rule (the trap that makes level 3 hard, and its exact resolution)
+
+Level 3 needs a pool population to simulate against, and picking the wrong one produces a detector that is
+confidently, massively wrong. Validating generated `?pool=` ids against `data/pools-snapshot.json` reported
+**4,233 of 4,989** links dead — all false (true figure against a live fetch: **15**), because the token pages
+draw from the ~16,000-pool feed at a $100K floor while the snapshot is the ≥$10M 746-pool set
+(`product-audit.md` class 10).
+
+The rule is not "be careful" — it is exact, and it turns on **completeness at a floor**:
+
+> `data/pools-snapshot.json` is not a *sample* of the feed. Its `minTvlUsd` field says it is **every** pool at
+> or above that floor. So:
+> - link's **effective floor ≥ `snapshot.minTvlUsd`** → the snapshot is a **complete** population at that
+>   floor → simulate against it, **zero** false-positive risk.
+> - link's **effective floor < `snapshot.minTvlUsd`** → the snapshot is **incomplete** → it must never be
+>   used. Find the population the link's generator actually drew from, or declare the link
+>   **indeterminate** — and *report the count you skipped*, so the gap is visible instead of silent.
+
+Where to find the sub-floor population offline: **the generated page itself lists it.** Both SEO generators
+render their pool set into one table (one `<tr>` per pool carrying a `tp-pool-link`/`cp-pool-link` anchor and
+a TVL money cell), so the page carries the $100K set the repo has no other copy of. Parse the **last**
+`<td class="num">` cell, not a fixed column index — the two generators order their columns differently.
+
+**Effective floor** always comes from the app's own resolution, not from the link's literal text:
+`app.js:927` — param present → `parseInt(value, 10)`; absent → `DEFAULT_MIN_TVL` (`app.js:801`). An explicit
+floor **below** the default is honoured, never clamped up; a simulation that always applies the default flags
+item 173's own fix as broken.
+
+Measured on real corpora before any code was written (the step 4 controls, done right): pre-173 bytes
+(`git worktree` at `cc243611b^`, 2,200 pages) → **1,879 pages / 4,024 dead links**; post-173 HEAD → **0**.
+That gap *is* the proof the signal is non-vacuous, and it took ~80 lines of throwaway `node` to get before
+committing to a design.
 
 ## Steps
 
@@ -95,5 +147,22 @@ number bug → number detectors; one-page audit → one-page audit. Item 169 is 
   `/tokens/…` → the query is inert). The port that copies the predicate instead of the *question* produces
   a detector that is simultaneously too tight and too loose. See `product-audit.md` check 10's HTML half.
 
+- **A new level WILL turn a stale "the real surface is clean" assertion red — that is the signal working, and
+  the fix is to narrow the assertion, never to relax it.** `test_audit_text_surfaces.js` asserted *zero*
+  `link-target-integrity` suspects on the committed `llms*.txt`; that assertion was true for level 1 and
+  became false the moment level 3 existed, because level 3 found **63 real dead links** there (62 in
+  `llms-full.txt`'s `## Chain Pages` section, 1 in `llms.txt`'s "High APY staking"). Correct handling, in
+  order: (1) narrow the old assertion to the sub-rules it was actually written for, (2) add a separately
+  named case pinning the new findings as a KNOWN defect that cites the backlog item you filed, (3) file the
+  item. What you must not do: widen the detector's tolerance, delete the case, or fix the emitter inside the
+  detector item — that last one is scope creep that also destroys the positive control.
+- **Expect the audit's exit code to flip, and check what that breaks *before* deciding it is a problem.**
+  Real new P1 findings mean `audit-app.js` starts exiting non-zero on a clean tree. Verify whether the merge
+  gate actually runs it (`package.json`'s `test` → `run-tests.js`: it runs the audit's *unit tests*, not the
+  audit) before treating red-audit-on-main as a blocker. A red audit whose findings are true is the product
+  working.
+
 **Provenance:** distilled from item 169 (`specs/169.md`, `169-notes.md`) — the `link-target-integrity` signal —
 generalising the pattern named in its backlog row and previously hit by items 148 → 159/160 → 166/167.
+Extended by item 175 (`specs/175.md` Territory notes T1–T8, `175-notes.md`): the three-level model, the
+population-completeness rule, and the stale-clean-assertion trap.

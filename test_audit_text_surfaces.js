@@ -294,11 +294,17 @@ function detailExampleCount(detail) {
   return rest.split(' | ').length;
 }
 
-test('link-target-integrity: positive control (committed pre-166 llms.txt excerpt) — rule (a) fires on the unrouted "search" key, rule (c) fires on the shared WETH-USDC/Base URL, rule (b) stays clean', () => {
+// Identifies a level-3 ("non-empty", backlog 175) suspect's detail among the
+// other three sub-rules' detail shapes — none of (a)/(b)/(c) ever say
+// "resolve" + "ZERO pools" together.
+const LEVEL3_DETAIL_RE = /resolve.*ZERO pools/;
+
+test('link-target-integrity: positive control (committed pre-166 llms.txt excerpt) — rule (a) fires on the unrouted "search" key, rule (c) fires on the shared WETH-USDC/Base URL, rule (b) stays clean (level 3 is asserted separately below — this excerpt carries the real, still-live "?poolTypes=Staking&minApy=10" dead grid link, backlog 180)', () => {
   const result = prescanTextSurfaces({ files: [PRE166_LLMS] });
-  const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
-  assertT(hits.length === 2, `expected exactly 2 link-target-integrity suspects (rules a+c; b is clean on llms.txt), got ${hits.length}: ${JSON.stringify(hits)}`);
-  for (const h of hits) assertT(h.severity === 'P1', `link-target-integrity must be P1, got ${h.severity}`);
+  const allHits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+  const hits = allHits.filter((h) => !LEVEL3_DETAIL_RE.test(h.detail));
+  assertT(hits.length === 2, `expected exactly 2 rule-(a)/(c) suspects (b is clean on llms.txt), got ${hits.length}: ${JSON.stringify(hits)}`);
+  for (const h of allHits) assertT(h.severity === 'P1', `link-target-integrity must be P1, got ${h.severity}`);
   const ruleA = hits.find((h) => /outside ANALYTICS_PARAMS/.test(h.detail));
   assertT(ruleA, `expected a rule-(a) suspect; got: ${JSON.stringify(hits)}`);
   assertT(/^7 /.test(ruleA.detail), `expected the real measured count (7 search= links), got: ${ruleA.detail}`);
@@ -309,6 +315,11 @@ test('link-target-integrity: positive control (committed pre-166 llms.txt excerp
   assertT(/^1 /.test(ruleC.detail), `expected exactly 1 conflicting URL in this file (the leading total, not the figure-set count), got: ${ruleC.detail}`);
   assertT(ruleC.detail.includes('(2 distinct figure sets)'), `expected the worst URL's own figure-set count (2) quoted, got: ${ruleC.detail}`);
   assertT(!hits.some((h) => /bare defi\.garden origin/.test(h.detail)), 'rule (b) must stay clean on llms.txt (its bare-origin links sit on non-pool-shaped lines)');
+  // The trimmed excerpt still carries the one real level-3 dead link (backlog
+  // 180, T4) — a genuine, known, filed defect this item makes VISIBLE, not
+  // this item's job to fix (spec 175 Non-goals).
+  const level3 = allHits.find((h) => LEVEL3_DETAIL_RE.test(h.detail));
+  assertT(level3 && /^1 /.test(level3.detail) && level3.detail.includes('poolTypes=Staking'), `expected the excerpt's one known level-3 dead link (?poolTypes=Staking&minApy=10, backlog 180); got: ${JSON.stringify(level3)}`);
 });
 
 test('link-target-integrity: positive control (committed pre-166 llms-full.txt excerpt) — all three sub-rules fire matching the measured ground truth (10/15/15), detail capped at <=3 examples', () => {
@@ -331,10 +342,32 @@ test('link-target-integrity: positive control (committed pre-166 llms-full.txt e
   assertT(!/more conflicting URL/.test(ruleC.detail), `only 1 conflicting URL exists here — no "more conflicting URLs" tail should appear: ${ruleC.detail}`);
 });
 
-test('link-target-integrity: TRUE NEGATIVE — the real committed llms.txt + llms-full.txt on this branch produce ZERO link-target-integrity suspects', () => {
+// ---------------------------------------------------------------------------
+// backlog 175 Territory note T4: level 3 legitimately invalidates the old
+// "zero suspects on the real committed surfaces" claim as a whole-signal
+// statement — it finds 63 REAL, previously-unfound dead links (1 in
+// llms.txt, 62 in llms-full.txt) that item 173 never touched (173 fixed the
+// HTML static surface's CTAs, not these text surfaces). Per T4 the ORIGINAL
+// assertion is narrowed to the sub-rules it was written for (levels 1/(b)/
+// (c) — never level 2, which is also still clean today) and a SEPARATE case
+// pins the level-3 findings as a KNOWN, FILED defect (backlog 180) — never
+// silenced, never "fixed" here (fixing generated link targets is out of
+// 175's scope by its own Non-goals; 175's job is only to make them visible).
+// ---------------------------------------------------------------------------
+test('link-target-integrity: TRUE NEGATIVE on levels 1/(b)/(c) + level 2 — the real committed llms.txt + llms-full.txt produce zero suspects for those sub-rules', () => {
   const result = prescanTextSurfaces();
-  const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
-  assertT(hits.length === 0, `expected zero link-target-integrity suspects on the real committed surfaces; got: ${JSON.stringify(hits)}`);
+  const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && !LEVEL3_DETAIL_RE.test(s.detail));
+  assertT(hits.length === 0, `expected zero suspects on levels 1/2/(b)/(c) on the real committed surfaces; got: ${JSON.stringify(hits)}`);
+});
+
+test('link-target-integrity LEVEL 3 (backlog 175, KNOWN FILED DEFECT — backlog 180, NOT this item\'s job to fix, spec 175 Non-goals): the real committed llms.txt + llms-full.txt DO carry dead grid links — llms.txt: 1 ("/?poolTypes=Staking&minApy=10"), llms-full.txt: 62 (all "## Chain Pages", e.g. "?chain=Cardano" at the $10M default floor) — pinned here, never silenced', () => {
+  const result = prescanTextSurfaces();
+  const level3 = result.suspects.filter((s) => s.signal === 'link-target-integrity' && LEVEL3_DETAIL_RE.test(s.detail));
+  assertT(level3.length === 2, `expected exactly 2 level-3 suspects (one per file); a different count means either backlog 180 landed (great — re-measure and update this pin, don't delete it) or the live pool population shifted. got: ${JSON.stringify(level3.map((s) => ({ rel: s.rel, detail: s.detail })))}`);
+  const llmsTxtHit = level3.find((s) => s.rel === 'llms.txt');
+  assertT(llmsTxtHit && /^1 /.test(llmsTxtHit.detail) && llmsTxtHit.detail.includes('poolTypes=Staking'), `expected llms.txt's known dead link (?poolTypes=Staking&minApy=10); got: ${llmsTxtHit && llmsTxtHit.detail}`);
+  const llmsFullHit = level3.find((s) => s.rel === 'llms-full.txt');
+  assertT(llmsFullHit && /^62 /.test(llmsFullHit.detail), `expected llms-full.txt's 62 known dead links; got: ${llmsFullHit && llmsFullHit.detail}`);
 });
 
 // Opportunistic full-file control: re-derives the FULL pre-166 bytes at test
@@ -360,10 +393,20 @@ function tryPre166FullFileControl() {
     return;
   }
 
+  // NOTE (backlog 175): these two "opportunistic" cases replay REAL historical
+  // bytes (git show at a FIXED sha) against the CURRENT committed snapshot —
+  // so level 3 legitimately fires too (the historical link set, evaluated
+  // against today's live pool population, is not the same fixed quantity the
+  // rule-(a)/(c) counts below are). Level 3 is filtered OUT here rather than
+  // exact-count-pinned (unlike the dedicated "KNOWN FILED DEFECT" case
+  // against TODAY's llms.txt/llms-full.txt above) because it depends on BOTH
+  // this fixed historical text AND the snapshot, which can drift over time —
+  // pinning an exact number here would be a flaky assertion tied to data this
+  // test was never designed to track.
   test(`opportunistic full-file control: the REAL git show ${PRE166_SHA}:llms.txt (full bytes) matches the measured ground truth (7 search=, 1 shared URL w/ 2 figure sets, clean under rule b)`, () => {
     const result = prescanTextSurfaces({ files: [llmsFull] });
-    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
-    assertT(hits.length === 2, `expected exactly 2 suspects (a+c), got ${hits.length}: ${JSON.stringify(hits)}`);
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && !LEVEL3_DETAIL_RE.test(s.detail));
+    assertT(hits.length === 2, `expected exactly 2 rule-(a)/(c) suspects, got ${hits.length}: ${JSON.stringify(hits)}`);
     assertT(hits.some((h) => /^7 /.test(h.detail) && h.detail.includes('"search"')), `expected a rule-(a) suspect quoting 7 and "search": ${JSON.stringify(hits)}`);
     assertT(hits.some((h) => /^1 /.test(h.detail) && h.detail.includes('(2 distinct figure sets)') && h.detail.includes('?token=WETH-USDC&chain=Base')), `expected a rule-(c) suspect: 1 conflicting URL total, worst = the WETH-USDC/Base URL with 2 figure sets: ${JSON.stringify(hits)}`);
   });
@@ -374,8 +417,8 @@ function tryPre166FullFileControl() {
   test(`opportunistic full-file control: the REAL git show ${PRE166_SHA}:llms-full.txt (full 209KB bytes) matches the measured ground truth (10 search=, 15 bare-origin rows, 15 figure sets sharing the bare origin)`, () => {
     try {
       const result = prescanTextSurfaces({ files: [llmsFullFullPath] });
-      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
-      assertT(hits.length === 3, `expected exactly 3 suspects (a+b+c), got ${hits.length}: ${JSON.stringify(hits)}`);
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && !LEVEL3_DETAIL_RE.test(s.detail));
+      assertT(hits.length === 3, `expected exactly 3 rule-(a)/(b)/(c) suspects, got ${hits.length}: ${JSON.stringify(hits)}`);
       assertT(hits.some((h) => /^10 /.test(h.detail) && h.detail.includes('"search"')), `expected a rule-(a) suspect quoting 10 and "search": ${JSON.stringify(hits)}`);
       assertT(hits.some((h) => /^15 /.test(h.detail) && /bare defi\.garden origin/.test(h.detail)), `expected a rule-(b) suspect quoting 15: ${JSON.stringify(hits)}`);
       assertT(hits.some((h) => /^1 /.test(h.detail) && h.detail.includes('(15 distinct figure sets)') && h.detail.includes('"https://www.defi.garden"')), `expected a rule-(c) suspect: 1 conflicting URL total, worst = the bare origin with 15 figure sets: ${JSON.stringify(hits)}`);
@@ -625,6 +668,206 @@ test('link-target-integrity: a file breaching all three sub-rules yields exactly
   const result = prescanTextSurfaces({ files: [PRE166_LLMS_FULL] });
   const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
   assertT(hits.length === 3, `expected exactly 3 (never 25 = 10+15+15), got ${hits.length}: ${JSON.stringify(hits)}`);
+});
+
+test('LEVEL 1 regression guard (backlog 175 must not alter 169\'s own behavior): an injected "?search=" link still flags via rule (a)', () => {
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/?search=lido\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file] });
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /outside ANALYTICS_PARAMS/.test(s.detail));
+    assertT(hits.length === 1, `expected rule (a) to still flag an unrouted "search" key; got: ${JSON.stringify(result.suspects)}`);
+  } finally { cleanupFixtures(); }
+});
+
+// ---------------------------------------------------------------------------
+// backlog 175 — link-target-integrity LEVELS 2 ("resolvable") and 3
+// ("non-empty"). Level 2 reuses real values from the committed snapshot/
+// planner.js ("aave-v3", "kevin") for its negative controls, same risk
+// profile the pre-166 fixtures above already accept for rules (a)/(b)/(c).
+// Level 3 uses a CUSTOM snapshot fixture (opts.snapshot) so the at/below-
+// floor arithmetic (Territory note T1) is exercised against a controlled
+// population instead of whatever the live snapshot happens to contain today.
+// ---------------------------------------------------------------------------
+function writeSnapshotFixture(minTvlUsd, pools) {
+  return writeFixture('snapshot.json', JSON.stringify({
+    schemaVersion: 1, generatedAt: new Date().toISOString(), source: 'test',
+    minTvlUsd, count: pools.length, pools
+  }));
+}
+
+test('LEVEL 2 protocols: an injected "?protocols=<not-a-real-project>" is a suspect', () => {
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/?protocols=not-a-real-project-xyz\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file] });
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /"protocols" value/.test(s.detail));
+    assertT(hits.length === 1, `expected exactly 1 level-2 protocols suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+    assertT(hits[0].detail.includes('"not-a-real-project-xyz"'), `expected the bad slug quoted; got: ${hits[0].detail}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('LEVEL 2 protocols: a real project slug (aave-v3, currently in the snapshot) is clean', () => {
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/?protocols=aave-v3\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file] });
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /"protocols" value/.test(s.detail));
+    assertT(hits.length === 0, `expected zero level-2 protocols suspects for a real slug; got: ${JSON.stringify(hits)}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('LEVEL 2 preset: an injected "?preset=<not-a-real-preset>" on a /plan.html link is a suspect', () => {
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/plan.html?preset=not-a-real-preset-xyz\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file] });
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /"preset" value/.test(s.detail));
+    assertT(hits.length === 1, `expected exactly 1 level-2 preset suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+    assertT(hits[0].detail.includes('"not-a-real-preset-xyz"'), `expected the bad preset value quoted; got: ${hits[0].detail}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('LEVEL 2 preset: a real PRESETS key (kevin, planner.js:1119) is clean', () => {
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/plan.html?preset=kevin\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file] });
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /"preset" value/.test(s.detail));
+    assertT(hits.length === 0, `expected zero level-2 preset suspects for a real PRESETS key; got: ${JSON.stringify(hits)}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('LEVEL 2/3 non-goal (the 4,233-false-positive class-10 trap): a "?pool=<id-not-in-the-snapshot>" link is NEVER flagged — pool liveness stays offline-unvalidated by design', () => {
+  const file = writeFixture('llms.txt', poolLine('12.3', '$50,000,000').replace('WETH-USDC&chain=Base', 'WETH-USDC&chain=Base&pool=definitely-not-a-real-pool-id-999') + '\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file] });
+    const badHits = result.suspects.filter((s) => s.signal === 'link-target-integrity' &&
+      (/"protocols" value/.test(s.detail) || /"preset" value/.test(s.detail) || /resolve.*ZERO pools/.test(s.detail)));
+    assertT(badHits.length === 0, `expected zero level-2/3 suspects for an unresolvable ?pool= id; got: ${JSON.stringify(badHits)}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('LEVEL 3 positive: a home-path grid link resolving to ZERO pools in a controlled snapshot is a suspect', () => {
+  const snapshotFile = writeSnapshotFixture(100000, [
+    { symbol: 'ABC', chain: 'Wonderland', project: 'test-proj', tvlUsd: 250000, apyBase: 5, apyReward: 0 }
+  ]);
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/?chain=NoSuchChain\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file], snapshot: snapshotFile });
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail));
+    assertT(hits.length === 1, `expected exactly 1 level-3 suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+    assertT(hits[0].detail.includes('?chain=NoSuchChain'), `expected the dead URL quoted; got: ${hits[0].detail}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('LEVEL 3 negative (spec 175 acceptance criterion 5): an explicit minTvl BELOW DEFAULT_MIN_TVL is honoured, not clamped up — a matching controlled-snapshot pool keeps the link clean', () => {
+  const snapshotFile = writeSnapshotFixture(100000, [
+    { symbol: 'ABC', chain: 'Wonderland', project: 'test-proj', tvlUsd: 250000, apyBase: 5, apyReward: 0 }
+  ]);
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/?chain=Wonderland&minTvl=200000\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file], snapshot: snapshotFile });
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail));
+    assertT(hits.length === 0, `expected zero level-3 suspects — a simulation that wrongly applies DEFAULT_MIN_TVL ($10M) instead of the explicit $200K floor would flag this (this is exactly 173's own fix); got: ${JSON.stringify(hits)}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('LEVEL 3 below-floor skip (T1): a grid link whose effective floor sits BELOW the snapshot\'s own floor is never touched (never flagged, never silently ignored either)', () => {
+  const snapshotFile = writeSnapshotFixture(10000000, [
+    { symbol: 'ABC', chain: 'Wonderland', project: 'test-proj', tvlUsd: 20000000, apyBase: 5, apyReward: 0 }
+  ]);
+  // minTvl=100000 sits below the snapshot's own $10M floor — the class-10
+  // trap this item exists to avoid — must never be evaluated against it.
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/?chain=SomeOtherChain&minTvl=100000\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file], snapshot: snapshotFile });
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail));
+    assertT(hits.length === 0, `a below-floor link must never be evaluated against the snapshot (and must not itself be flagged); got: ${JSON.stringify(hits)}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('LEVEL 3 below-floor skip is named in the detail (not silent) when a DIFFERENT link in the same file DOES flag', () => {
+  const snapshotFile = writeSnapshotFixture(10000000, [
+    { symbol: 'ABC', chain: 'Wonderland', project: 'test-proj', tvlUsd: 20000000, apyBase: 5, apyReward: 0 }
+  ]);
+  const file = writeFixture('llms.txt', [
+    '- https://www.defi.garden/?chain=NoSuchChain', // default floor = $10M >= snapshot floor -> evaluated, dead
+    '- https://www.defi.garden/?chain=SomeOtherChain&minTvl=100000', // below snapshot floor -> skipped
+    ''
+  ].join('\n'));
+  try {
+    const result = prescanTextSurfaces({ files: [file], snapshot: snapshotFile });
+    const hit = result.suspects.find((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail));
+    assertT(hit, `expected a level-3 suspect; got: ${JSON.stringify(result.suspects)}`);
+    assertT(/1 other grid link.*below the snapshot/.test(hit.detail), `expected the skipped-link count named in the detail (never silent); got: ${hit.detail}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('LEVEL 2 degrades safely: an UNREADABLE snapshot skips the "protocols" rule (stderr note, no throw); level 1 still works', () => {
+  const stderrLines = [];
+  const originalError = console.error;
+  console.error = (msg) => { stderrLines.push(String(msg)); };
+  const file = writeFixture('llms.txt', [
+    '- https://www.defi.garden/?protocols=not-a-real-project-xyz',
+    '- https://www.defi.garden/?zzzUnrouted=1',
+    ''
+  ].join('\n'));
+  try {
+    let result;
+    assert.doesNotThrow(() => {
+      result = prescanTextSurfaces({ files: [file], snapshot: path.join(ROOT, 'does-not-exist-175-snapshot.json') });
+    });
+    assertT(stderrLines.some((l) => /link-target-integrity level 2 \(protocols\) \+ level 3 \(non-empty\) skipped/.test(l)), `expected a stderr note naming level 2/3; got: ${JSON.stringify(stderrLines)}`);
+    assertT(!result.suspects.some((s) => s.signal === 'link-target-integrity' && /"protocols" value/.test(s.detail)), 'level-2 protocols must NOT fire when the snapshot is unreadable — a bad value must not be silently checked against an empty/default allowlist');
+    assertT(result.suspects.some((s) => s.signal === 'link-target-integrity' && /outside ANALYTICS_PARAMS/.test(s.detail)), 'level 1 rule (a) must still fire');
+  } finally {
+    console.error = originalError;
+    cleanupFixtures();
+  }
+});
+
+test('LEVEL 2 degrades safely: an UNPARSEABLE PRESETS block skips the "preset" rule (stderr note, no throw); the protocols rule still works', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'audit-text-surfaces-badplanner-'));
+  const plannerOriginal = fs.readFileSync(path.join(ROOT, 'planner.js'), 'utf8');
+  const strippedPlanner = plannerOriginal.replace(/var PRESETS = \{[\s\S]*?\};/, '/* PRESETS removed for backlog 175 degrade test */');
+  assertT(strippedPlanner !== plannerOriginal, 'fixture wiring check: the PRESETS block must actually have been stripped — planner.js:1119 moved out from under this test');
+  const badPlanner = path.join(dir, 'planner.js');
+  fs.writeFileSync(badPlanner, strippedPlanner);
+  const stderrLines = [];
+  const originalError = console.error;
+  console.error = (msg) => { stderrLines.push(String(msg)); };
+  const file = writeFixture('llms.txt', [
+    '- https://www.defi.garden/plan.html?preset=not-a-real-preset-xyz',
+    '- https://www.defi.garden/?protocols=not-a-real-project-xyz',
+    ''
+  ].join('\n'));
+  try {
+    let result;
+    assert.doesNotThrow(() => {
+      result = prescanTextSurfaces({ files: [file], plannerJs: badPlanner });
+    });
+    assertT(stderrLines.some((l) => /link-target-integrity level 2 \(preset\) skipped/.test(l)), `expected a stderr note naming level 2 preset; got: ${JSON.stringify(stderrLines)}`);
+    assertT(!result.suspects.some((s) => s.signal === 'link-target-integrity' && /"preset" value/.test(s.detail)), 'level-2 preset must NOT fire when PRESETS is unparseable');
+    assertT(result.suspects.some((s) => s.signal === 'link-target-integrity' && /"protocols" value/.test(s.detail)), 'level-2 protocols must still fire (independent failure paths)');
+  } finally {
+    console.error = originalError;
+    cleanupFixtures();
+    try { fs.rmSync(dir, { recursive: true, force: true }); } catch (e) {}
+  }
+});
+
+test('LEVEL 3 degrades safely: an UNREADABLE app.js skips level 3 (stderr note, no throw); level 1/2 still work', () => {
+  const stderrLines = [];
+  const originalError = console.error;
+  console.error = (msg) => { stderrLines.push(String(msg)); };
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/?chain=NoSuchChain\n');
+  try {
+    let result;
+    assert.doesNotThrow(() => {
+      result = prescanTextSurfaces({ files: [file], appJs: path.join(ROOT, 'does-not-exist-175-app.js') });
+    });
+    assertT(stderrLines.some((l) => /link-target-integrity level 3 \(non-empty\) skipped/.test(l)), `expected a stderr note naming level 3; got: ${JSON.stringify(stderrLines)}`);
+    assertT(!result.suspects.some((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail)), 'level 3 must NOT fire when app.js (DEFAULT_MIN_TVL) is unreadable');
+  } finally {
+    console.error = originalError;
+    cleanupFixtures();
+  }
 });
 
 // ---------------------------------------------------------------------------

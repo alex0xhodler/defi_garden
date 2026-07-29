@@ -376,34 +376,49 @@ async function main() {
       assert(hits[0].detail.startsWith('4 defi.garden links'), `expected the leading count to be the TRUE total (4 links), not the capped quote count; got: ${hits[0].detail}`);
     });
 
+    // Note (backlog 175): minimalPage()'s pool-row anchors below are bare
+    // <a class="tp-pool-link"> tags with no surrounding <tr><td class="num">
+    // table markup — a shape no real generated page ever has (029's
+    // templates always emit the full row). That means these fixtures ALSO
+    // legitimately trip level 3's anti-vacuity rail (T8: "pool-row anchors
+    // present, zero parseable TVL rows" — literally true of them), which is
+    // an orthogonal, correct, NEW finding, not a false positive. Rule (b)'s
+    // own assertions below filter to rule (b)'s OWN detail phrase to stay
+    // isolated on the sub-rule they were written for (same convention rule
+    // (c)'s negative controls already use, see /resolve/ below) — level 3's
+    // own behavior against these exact fixtures is pinned separately in the
+    // "level 3 anti-vacuity" cases further down.
+    const RULE_B_DETAIL_RE = /not target a "\?pool=<id>" URL/;
+
     await test('link-target-integrity rule (b) positive control: a pool-row anchor linking to the bare origin is a suspect, ALONE', () => {
       const f = writeLinkFixture('rule_b_bare.html', minimalPage('<a class="tp-pool-link" href="https://www.defi.garden/">bad</a>'));
       const result = prescanStaticPages({ pages: [f] });
-      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
-      assert(hits.length === 1, `expected exactly 1 link-target-integrity suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && RULE_B_DETAIL_RE.test(s.detail));
+      assert(hits.length === 1, `expected exactly 1 rule-(b) suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
       assert(/tp-pool-link\/cp-pool-link/.test(hits[0].detail), `expected rule (b)'s detail; got: ${hits[0].detail}`);
     });
 
     await test('link-target-integrity rule (b) positive control: a pool-row anchor linking to a "?token=" grid URL is a suspect', () => {
       const f = writeLinkFixture('rule_b_grid.html', minimalPage('<a class="cp-pool-link" href="https://www.defi.garden/?chain=Ethereum">bad</a>'));
       const result = prescanStaticPages({ pages: [f] });
-      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
-      assert(hits.length === 1, `expected exactly 1 suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && RULE_B_DETAIL_RE.test(s.detail));
+      assert(hits.length === 1, `expected exactly 1 rule-(b) suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
       assert(hits[0].detail.includes('?chain=Ethereum'), `expected the grid URL quoted; got: ${hits[0].detail}`);
     });
 
     await test('link-target-integrity rule (b) positive control: a pool-row anchor with a MISSING href is a suspect', () => {
       const f = writeLinkFixture('rule_b_missing.html', minimalPage('<a class="tp-pool-link">bad</a>'));
       const result = prescanStaticPages({ pages: [f] });
-      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
-      assert(hits.length === 1, `expected exactly 1 suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && RULE_B_DETAIL_RE.test(s.detail));
+      assert(hits.length === 1, `expected exactly 1 rule-(b) suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
       assert(hits[0].detail.includes('(missing href)'), `expected "(missing href)" named; got: ${hits[0].detail}`);
     });
 
-    await test('link-target-integrity rule (b) negative: a pool-row anchor correctly targeting "?pool=<id>" is clean', () => {
+    await test('link-target-integrity rule (b) negative: a pool-row anchor correctly targeting "?pool=<id>" is clean (of rule (b) itself)', () => {
       const f = writeLinkFixture('rule_b_ok.html', minimalPage('<a class="tp-pool-link" href="https://www.defi.garden/?pool=abc-123">ok</a>'));
       const result = prescanStaticPages({ pages: [f] });
-      assert(result.suspects.length === 0, `expected zero suspects; got: ${JSON.stringify(result.suspects)}`);
+      const ruleBHits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && RULE_B_DETAIL_RE.test(s.detail));
+      assert(ruleBHits.length === 0, `expected zero rule-(b) suspects; got: ${JSON.stringify(ruleBHits)}`);
     });
 
     await test('link-target-integrity rule (c) positive control: an internal link target with no file on disk is a suspect, ALONE', () => {
@@ -430,7 +445,7 @@ async function main() {
       assert(hits.length === 0, `expected zero rule-(c) suspects (chains/index.html exists); got: ${JSON.stringify(hits)}`);
     });
 
-    await test('link-target-integrity: a fixture tripping all three sub-rules yields exactly 3 suspects (one per sub-rule), never one per bad link', () => {
+    await test('link-target-integrity: a fixture tripping rules (a)/(b)/(c) yields exactly 3 suspects for those (one per sub-rule), never one per bad link — PLUS the level-3 anti-vacuity finding this exact anchor-without-a-table shape also legitimately trips (backlog 175)', () => {
       const body = [
         '<a href="https://www.defi.garden/?search=lido">a</a>',
         '<a class="tp-pool-link" href="https://www.defi.garden/">b</a>',
@@ -439,7 +454,9 @@ async function main() {
       const f = writeLinkFixture('all_three.html', minimalPage(body));
       const result = prescanStaticPages({ pages: [f] });
       const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
-      assert(hits.length === 3, `expected exactly 3 link-target-integrity suspects (one per sub-rule); got ${hits.length}: ${JSON.stringify(hits)}`);
+      const legacyHits = hits.filter((h) => !/unparseable/.test(h.detail));
+      assert(legacyHits.length === 3, `expected exactly 3 rule-(a)/(b)/(c) suspects (one per sub-rule); got ${legacyHits.length}: ${JSON.stringify(legacyHits)}`);
+      assert(hits.length === 4, `expected exactly 4 total (rules a/b/c + the level-3 anti-vacuity finding this bare-anchor-no-table fixture legitimately trips); got ${hits.length}: ${JSON.stringify(hits)}`);
       assert(hits.every((h) => h.severity === 'P1'), `link-target-integrity must be P1; got: ${JSON.stringify(hits.map((h) => h.severity))}`);
     });
 
@@ -549,6 +566,150 @@ async function main() {
       } finally {
         if (before === undefined) delete process.env.AUDIT_STATIC_PAGES; else process.env.AUDIT_STATIC_PAGES = before;
       }
+    });
+    // ---------------------------------------------------------------------------
+    // backlog 175 — link-target-integrity LEVELS 2 ("resolvable") and 3
+    // ("non-empty") on the HTML static surface. Same fixture conventions as
+    // above. Level 2 uses REAL values from the committed snapshot/planner.js
+    // ("aave-v3", "kevin") for its negative controls — those are structural
+    // facts (a real project/preset existing) unlikely to disappear, same risk
+    // profile the pre-166 fixtures above already accept for rules (a)/(b)/(c).
+    // ---------------------------------------------------------------------------
+    function poolTableHtml(rows) {
+      return '<table>' + rows.map((r, i) =>
+        `<tr><td><a class="tp-pool-link" href="https://www.defi.garden/?pool=level3-${i}">P${i}</a></td><td class="num">${r.apy}</td><td class="num">${r.tvl}</td></tr>`
+      ).join('') + '</table>';
+    }
+
+    await test('LEVEL 2 protocols: an injected "?protocols=<not-a-real-project>" on a home-path link is a suspect', () => {
+      const f = writeLinkFixture('level2_protocols_bad.html', minimalPage('<a href="https://www.defi.garden/?protocols=not-a-real-project-xyz">bad</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /"protocols" value/.test(s.detail));
+      assert(hits.length === 1, `expected exactly 1 level-2 protocols suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(hits[0].detail.includes('"not-a-real-project-xyz"'), `expected the bad slug quoted; got: ${hits[0].detail}`);
+    });
+
+    await test('LEVEL 2 protocols: a real project slug (aave-v3, currently in the snapshot) is clean', () => {
+      const f = writeLinkFixture('level2_protocols_ok.html', minimalPage('<a href="https://www.defi.garden/?protocols=aave-v3">ok</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /"protocols" value/.test(s.detail));
+      assert(hits.length === 0, `expected zero level-2 protocols suspects for a real slug; got: ${JSON.stringify(hits)}`);
+    });
+
+    await test('LEVEL 2 preset: an injected "?preset=<not-a-real-preset>" on a /plan.html link is a suspect', () => {
+      const f = writeLinkFixture('level2_preset_bad.html', minimalPage('<a href="/plan.html?preset=not-a-real-preset-xyz">bad</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /"preset" value/.test(s.detail));
+      assert(hits.length === 1, `expected exactly 1 level-2 preset suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(hits[0].detail.includes('"not-a-real-preset-xyz"'), `expected the bad preset value quoted; got: ${hits[0].detail}`);
+    });
+
+    await test('LEVEL 2 preset: a real PRESETS key (kevin, planner.js:1119) is clean', () => {
+      const f = writeLinkFixture('level2_preset_ok.html', minimalPage('<a href="/plan.html?preset=kevin">ok</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /"preset" value/.test(s.detail));
+      assert(hits.length === 0, `expected zero level-2 preset suspects for a real PRESETS key; got: ${JSON.stringify(hits)}`);
+    });
+
+    await test('LEVEL 2/3 non-goal (the 4,233-false-positive class-10 trap): a "?pool=<id-not-in-the-snapshot>" link is NEVER flagged — pool liveness stays offline-unvalidated by design', () => {
+      const f = writeLinkFixture('level_pool_liveness.html', minimalPage('<a class="tp-pool-link" href="https://www.defi.garden/?pool=definitely-not-a-real-pool-id-999">x</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const badPoolHits = result.suspects.filter((s) => s.signal === 'link-target-integrity' &&
+        (/"protocols" value/.test(s.detail) || /"preset" value/.test(s.detail) || /resolve.*ZERO pools/.test(s.detail)));
+      assert(badPoolHits.length === 0, `expected zero level-2/3 suspects for an unresolvable ?pool= id; got: ${JSON.stringify(badPoolHits)}`);
+    });
+
+    await test('LEVEL 3 static positive: a home-path grid link whose page rows are ALL below its effective (default $10M) floor is a suspect', () => {
+      const body = poolTableHtml([{ apy: '3.2%', tvl: '$500,000' }, { apy: '4.1%', tvl: '$800,000' }]) +
+        '\n<a href="https://www.defi.garden/?token=LEVEL3TEST">See all LEVEL3TEST yields</a>';
+      const f = writeLinkFixture('level3_static_dead.html', minimalPage(body));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail));
+      assert(hits.length === 1, `expected exactly 1 level-3 suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(hits[0].detail.includes('?token=LEVEL3TEST'), `expected the dead grid URL quoted; got: ${hits[0].detail}`);
+    });
+
+    await test('LEVEL 3 static negative: a home-path grid link whose page rows CLEAR its effective floor is clean', () => {
+      const body = poolTableHtml([{ apy: '3.2%', tvl: '$15,000,000' }]) +
+        '\n<a href="https://www.defi.garden/?token=LEVEL3TEST">See all LEVEL3TEST yields</a>';
+      const f = writeLinkFixture('level3_static_clean.html', minimalPage(body));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail));
+      assert(hits.length === 0, `expected zero level-3 suspects (a row clears the floor); got: ${JSON.stringify(hits)}`);
+    });
+
+    await test('LEVEL 3 static minTvl semantics (spec 175 acceptance criterion 5): an explicit "?minTvl=" BELOW DEFAULT_MIN_TVL is honoured, never clamped up to the $10M default', () => {
+      const body = poolTableHtml([{ apy: '3.2%', tvl: '$500,000' }]) +
+        '\n<a href="https://www.defi.garden/?token=LEVEL3TEST&minTvl=100000">See all LEVEL3TEST yields (>=$100K)</a>';
+      const f = writeLinkFixture('level3_static_mintvl.html', minimalPage(body));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail));
+      assert(hits.length === 0, `expected zero level-3 suspects — a simulation that wrongly applies the $10M default instead of the explicit $100K floor would flag this (this is exactly 173's own fix); got: ${JSON.stringify(hits)}`);
+    });
+
+    await test('LEVEL 3 anti-vacuity rail (T8): a page with a pool-row anchor but an UNPARSEABLE TVL cell emits the "population unparseable" suspect, never goes dark silently', () => {
+      const body = '<table><tr><td><a class="tp-pool-link" href="https://www.defi.garden/?pool=x">P</a></td><td class="num">3.2%</td><td class="num">N/A</td></tr></table>' +
+        '\n<a href="https://www.defi.garden/?token=LEVEL3TEST">See all</a>';
+      const f = writeLinkFixture('level3_static_vacuous.html', minimalPage(body));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /unparseable/.test(s.detail));
+      assert(hits.length === 1, `expected exactly 1 anti-vacuity suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(/1 pool-row anchor/.test(hits[0].detail), `expected the anchor count named; got: ${hits[0].detail}`);
+    });
+
+    await test('LEVEL 2 degrades safely: an UNREADABLE snapshot skips the "protocols" rule (stderr note, no throw); level 1 and other signals still work', () => {
+      const stderrLines = [];
+      const origErr = console.error;
+      console.error = (...a) => stderrLines.push(a.join(' '));
+      let result;
+      try {
+        const f = writeLinkFixture('degrade_snapshot.html', minimalPage([
+          '<a href="https://www.defi.garden/?protocols=not-a-real-project-xyz">a</a>', // level 2 protocols — must be SKIPPED
+          '<a href="https://www.defi.garden/?search=lido">b</a>' // level 1 rule (a) — must still fire
+        ].join('\n')));
+        result = prescanStaticPages({ pages: [f], snapshot: path.join(ROOT, 'does-not-exist-175-snapshot.json') });
+      } finally { console.error = origErr; }
+      assert(stderrLines.some((l) => /link-target-integrity level 2 \(protocols\) skipped/.test(l)), `expected a stderr note naming level 2 protocols; got: ${JSON.stringify(stderrLines)}`);
+      assert(!result.suspects.some((s) => s.signal === 'link-target-integrity' && /"protocols" value/.test(s.detail)), 'level-2 protocols must NOT fire when the snapshot is unreadable — a bad value must not be silently checked against an empty/default allowlist');
+      assert(result.suspects.some((s) => s.signal === 'link-target-integrity' && /outside the allowed set/.test(s.detail)), 'level 1 rule (a) must still fire');
+      assert(result.scanned === 1, `expected the page to still be scanned (no throw); got scanned=${result.scanned}`);
+    });
+
+    await test('LEVEL 2 degrades safely: an UNPARSEABLE PRESETS block skips the "preset" rule (stderr note, no throw); the protocols rule still works', () => {
+      const plannerOriginal = fs.readFileSync(path.join(ROOT, 'planner.js'), 'utf8');
+      const strippedPlanner = plannerOriginal.replace(/var PRESETS = \{[\s\S]*?\};/, '/* PRESETS removed for backlog 175 degrade test */');
+      assert(strippedPlanner !== plannerOriginal, 'fixture wiring check: the PRESETS block must actually have been stripped — planner.js:1119 moved out from under this test');
+      const badPlanner = writeLinkFixture('planner.js', strippedPlanner);
+      const stderrLines = [];
+      const origErr = console.error;
+      console.error = (...a) => stderrLines.push(a.join(' '));
+      let result;
+      try {
+        const f = writeLinkFixture('degrade_presets.html', minimalPage([
+          '<a href="/plan.html?preset=not-a-real-preset-xyz">a</a>', // level 2 preset — must be SKIPPED
+          '<a href="https://www.defi.garden/?protocols=not-a-real-project-xyz">b</a>' // level 2 protocols — must still fire
+        ].join('\n')));
+        result = prescanStaticPages({ pages: [f], plannerJs: badPlanner });
+      } finally { console.error = origErr; }
+      assert(stderrLines.some((l) => /link-target-integrity level 2 \(preset\) skipped/.test(l)), `expected a stderr note naming level 2 preset; got: ${JSON.stringify(stderrLines)}`);
+      assert(!result.suspects.some((s) => s.signal === 'link-target-integrity' && /"preset" value/.test(s.detail)), 'level-2 preset must NOT fire when PRESETS is unparseable');
+      assert(result.suspects.some((s) => s.signal === 'link-target-integrity' && /"protocols" value/.test(s.detail)), 'level-2 protocols must still fire (independent failure paths)');
+    });
+
+    await test('LEVEL 3 degrades safely: an UNREADABLE app.js skips level 3 (stderr note, no throw); level 1/2 still work', () => {
+      const stderrLines = [];
+      const origErr = console.error;
+      console.error = (...a) => stderrLines.push(a.join(' '));
+      let result;
+      try {
+        const body = poolTableHtml([{ apy: '3.2%', tvl: '$500,000' }]) +
+          '\n<a href="https://www.defi.garden/?token=LEVEL3TEST">See all</a>';
+        const f = writeLinkFixture('degrade_appjs.html', minimalPage(body));
+        result = prescanStaticPages({ pages: [f], appJs: path.join(ROOT, 'does-not-exist-175-app.js') });
+      } finally { console.error = origErr; }
+      assert(stderrLines.some((l) => /link-target-integrity level 3 \(non-empty\) skipped/.test(l)), `expected a stderr note naming level 3; got: ${JSON.stringify(stderrLines)}`);
+      assert(!result.suspects.some((s) => s.signal === 'link-target-integrity' && (/resolve.*ZERO pools/.test(s.detail) || /unparseable/.test(s.detail))), 'level 3 must NOT fire when app.js (DEFAULT_MIN_TVL) is unreadable');
+      assert(result.scanned === 1, `expected the page to still be scanned (no throw); got scanned=${result.scanned}`);
     });
   } finally {
     cleanupLinkFixtures();

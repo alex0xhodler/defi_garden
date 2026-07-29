@@ -300,6 +300,27 @@ function prescanTextSurfaces(opts = {}) {
     console.error(`[audit] text prescan: link-target-integrity rule (a) skipped — ${routerParams.error}`);
   }
 
+  // Levels 2/3 (backlog 175) setup — parsed/loaded ONCE per scan, same
+  // "one stderr note per scan, never per file" contract as routerParams
+  // above. opts.appJs/opts.snapshot/opts.plannerJs are the coupling-test
+  // overrides, same convention as opts.homeHtml.
+  const appJsPath = opts.appJs || path.join(ROOT, 'app.js');
+  const minTvlInfo = loadDefaultMinTvl(appJsPath);
+  if (minTvlInfo.error) {
+    console.error(`[audit] text prescan: link-target-integrity level 3 (non-empty) skipped — ${minTvlInfo.error}`);
+  }
+  const snapshotPath = opts.snapshot || path.join(ROOT, 'data/pools-snapshot.json');
+  const snapshotInfo = loadSnapshotPopulation(snapshotPath);
+  if (snapshotInfo.error) {
+    console.error(`[audit] text prescan: link-target-integrity level 2 (protocols) + level 3 (non-empty) skipped — ${snapshotInfo.error}`);
+  }
+  const projectSet = snapshotInfo.pools ? new Set(snapshotInfo.pools.map((p) => p.project)) : null;
+  const plannerJsPath = opts.plannerJs || path.join(ROOT, 'planner.js');
+  const presetKeysInfo = loadPlannerPresetKeys(plannerJsPath);
+  if (presetKeysInfo.error) {
+    console.error(`[audit] text prescan: link-target-integrity level 2 (preset) skipped — ${presetKeysInfo.error}`);
+  }
+
   for (const file of files) {
     const abs = path.isAbsolute(file) ? file : path.join(ROOT, file);
     const rel = path.isAbsolute(file) ? path.relative(ROOT, file) : file;
@@ -459,6 +480,84 @@ function prescanTextSurfaces(opts = {}) {
       if (worst.figures.size > examples.length) detail += ` (+${worst.figures.size - examples.length} more figures on that URL)`;
       if (total > 1) detail += ` (+${total - 1} more conflicting URL${total - 1 !== 1 ? 's' : ''})`;
       suspects.push({ rel, signal: 'link-target-integrity', severity: TEXT_SURFACE_SIGNALS['link-target-integrity'], detail });
+    }
+
+    // link-target-integrity LEVEL 2 ("resolvable", backlog 175 T5/T6): a
+    // `?protocols=<slug>` value must be a real snapshot project; a
+    // `?preset=<key>` value must be a real planner.js PRESETS key. `?pool=`
+    // liveness stays OUT of the offline prescan — validating it against this
+    // $10M snapshot is the exact 4,233-false-positive class-10 trap (spec
+    // 175 acceptance criterion 3; playbooks/product-audit.md class 10).
+    if (projectSet || presetKeysInfo.allowed) {
+      const badProtocolValues = new Set();
+      let badProtocolLinkCount = 0;
+      const badPresetValues = new Set();
+      let badPresetLinkCount = 0;
+      for (const m of content.matchAll(TEXT_DEFI_GARDEN_URL)) {
+        const suffix = m[1] || '';
+        const linkPathVal = ownedLinkPath(suffix);
+        const pairs = linkQueryPairs(suffix);
+        if (projectSet && (linkPathVal === '' || linkPathVal === '/') && pairs.has('protocols')) {
+          const bad = pairs.get('protocols').split(',').filter(Boolean).filter((slug) => !projectSet.has(slug));
+          if (bad.length) { badProtocolLinkCount++; bad.forEach((s) => badProtocolValues.add(s)); }
+        }
+        if (presetKeysInfo.allowed && linkPathVal === '/plan.html' && pairs.has('preset')) {
+          const val = pairs.get('preset');
+          if (val && !presetKeysInfo.allowed.has(val)) { badPresetLinkCount++; badPresetValues.add(val); }
+        }
+      }
+      if (badProtocolLinkCount > 0) {
+        const list = [...badProtocolValues];
+        const shown = list.slice(0, 3).map((s) => `"${s}"`);
+        const plural = badProtocolLinkCount !== 1;
+        let detail = `${badProtocolLinkCount} defi.garden link${plural ? 's' : ''} carr${plural ? 'y' : 'ies'} a "protocols" value not present among the snapshot's ${projectSet.size} known project slugs (data/pools-snapshot.json) — value(s): ${shown.join(', ')}`;
+        if (list.length > shown.length) detail += ` (+${list.length - shown.length} more)`;
+        suspects.push({ rel, signal: 'link-target-integrity', severity: TEXT_SURFACE_SIGNALS['link-target-integrity'], detail });
+      }
+      if (badPresetLinkCount > 0) {
+        const list = [...badPresetValues];
+        const shown = list.slice(0, 3).map((s) => `"${s}"`);
+        const plural = badPresetLinkCount !== 1;
+        let detail = `${badPresetLinkCount} defi.garden link${plural ? 's' : ''} carr${plural ? 'y' : 'ies'} a "preset" value not among planner.js's PRESETS keys (${[...presetKeysInfo.allowed].join(', ')}) — value(s): ${shown.join(', ')}`;
+        if (list.length > shown.length) detail += ` (+${list.length - shown.length} more)`;
+        suspects.push({ rel, signal: 'link-target-integrity', severity: TEXT_SURFACE_SIGNALS['link-target-integrity'], detail });
+      }
+    }
+
+    // link-target-integrity LEVEL 3 ("non-empty", backlog 175 T1/T4): a grid
+    // link whose effective floor (app.js:927 rule) sits AT/ABOVE the
+    // snapshot's own floor is simulated against the snapshot (T1: zero
+    // false-positive risk — the snapshot is a complete population there).
+    // BELOW the snapshot's floor, the snapshot is NEVER touched (that is the
+    // exact class-10 trap) — those links are simply left uncounted, with the
+    // skipped count named in the detail so the skip stays visible, not
+    // silent.
+    if (snapshotInfo.pools && minTvlInfo.value != null) {
+      const deadLinks = [];
+      const seenSuffix = new Set();
+      let belowFloorSkipped = 0;
+      for (const m of content.matchAll(TEXT_DEFI_GARDEN_URL)) {
+        const suffix = m[1] || '';
+        const linkPathVal = ownedLinkPath(suffix);
+        if (linkPathVal !== '' && linkPathVal !== '/') continue;
+        const pairs = linkQueryPairs(suffix);
+        if (pairs.has('pool')) continue;
+        if (!LEVEL3_GRID_PARAMS.some((k) => pairs.has(k))) continue;
+        if (seenSuffix.has(suffix)) continue;
+        seenSuffix.add(suffix);
+        const floor = effectiveMinTvl(pairs, minTvlInfo.value);
+        if (floor < snapshotInfo.minTvlUsd) { belowFloorSkipped++; continue; }
+        const { count } = countQualifyingPools(snapshotInfo.pools, pairs, floor, {});
+        if (count === 0) deadLinks.push({ url: m[0], floor });
+      }
+      if (deadLinks.length > 0) {
+        const plural = deadLinks.length !== 1;
+        const examples = deadLinks.slice(0, 3).map((d) => `"${d.url}" (floor $${d.floor.toLocaleString('en-US')})`);
+        let detail = `${deadLinks.length} defi.garden grid link${plural ? 's' : ''} resolve${plural ? '' : 's'} to ZERO pools in the $${snapshotInfo.minTvlUsd.toLocaleString('en-US')} snapshot at ${plural ? 'their' : 'its'} effective floor — e.g. ${examples.join(', ')}`;
+        if (deadLinks.length > examples.length) detail += ` (+${deadLinks.length - examples.length} more)`;
+        if (belowFloorSkipped > 0) detail += ` — ${belowFloorSkipped} other grid link${belowFloorSkipped !== 1 ? 's' : ''} below the snapshot's own floor skipped (indeterminate against this population, never evaluated)`;
+        suspects.push({ rel, signal: 'link-target-integrity', severity: TEXT_SURFACE_SIGNALS['link-target-integrity'], detail });
+      }
     }
   }
 
@@ -678,6 +777,218 @@ function ownedPathResolvesToFile(pagePath) {
 }
 
 // ---------------------------------------------------------------------------
+// link-target-integrity LEVELS 2/3 shared helpers (backlog 175, specs/175.md
+// Territory notes T1/T2/T5/T6) — ONE set, used by BOTH prescanTextSurfaces()
+// (169) and prescanStaticPages() (172). Rules (a)/(b)/(c) above only ever
+// checked whether a query param was ROUTED (level 1, 172's own job — 166 was
+// the bug there) or a pool-row anchor's target looked shaped right; nothing
+// checked whether a value actually RESOLVES to a real entity (level 2: a
+// snapshot project slug, a planner.js PRESETS key) or whether the target,
+// simulated under the app's own filter arithmetic, returns anything at all
+// (level 3) — the exact class item 173 shipped (1,749 dead CTAs level 1
+// scored 0 on; spec 175 Evidence).
+// ---------------------------------------------------------------------------
+
+// Reads DEFAULT_MIN_TVL straight out of app.js (app.js:801). Same `{value,
+// error}` shape as loadRouterAllowedParams()/loadPlannerAllowedParams() above
+// so every level-2/3 call site branches on `.error` the same way — never a
+// second hardcoded `10000000` anywhere in this file (166's own rule; spec
+// 175 acceptance criterion 5 has the verifier re-derive this with `grep`).
+function loadDefaultMinTvl(appJsPath) {
+  let text;
+  try { text = fs.readFileSync(appJsPath, 'utf8'); }
+  catch (e) { return { value: null, error: `app.js unreadable at ${appJsPath}: ${e.message}` }; }
+  const m = text.match(/const\s+DEFAULT_MIN_TVL\s*=\s*([0-9]+)\s*;/);
+  if (!m) return { value: null, error: `could not parse "const DEFAULT_MIN_TVL = <n>;" out of ${appJsPath}` };
+  return { value: parseInt(m[1], 10), error: null };
+}
+
+// Reads planner.js's `var PRESETS = { ... }` (planner.js:1119) top-level keys
+// ONLY — no export is added to planner.js (Territory note T5: audit-app.js
+// already regex-reads planner.js for exactly this reason, see
+// loadPlannerAllowedParams() above, backlog 172). Manual brace-counting (not
+// a `[\s\S]*?` regex) finds the block's real matching close brace regardless
+// of how deep the preset values nest — a non-greedy regex would silently
+// stop at the wrong `}` the day a preset value itself contains one.
+function loadPlannerPresetKeys(plannerJsPath) {
+  let text;
+  try { text = fs.readFileSync(plannerJsPath, 'utf8'); }
+  catch (e) { return { allowed: null, error: `planner.js unreadable at ${plannerJsPath}: ${e.message}` }; }
+  const declIdx = text.search(/var\s+PRESETS\s*=\s*\{/);
+  if (declIdx === -1) return { allowed: null, error: `could not find "var PRESETS = {" in ${plannerJsPath}` };
+  const openIdx = text.indexOf('{', declIdx);
+  let depth = 0, closeIdx = -1;
+  for (let i = openIdx; i < text.length; i++) {
+    if (text[i] === '{') depth++;
+    else if (text[i] === '}') { depth--; if (depth === 0) { closeIdx = i; break; } }
+  }
+  if (closeIdx === -1) return { allowed: null, error: `unterminated PRESETS block in ${plannerJsPath}` };
+  const body = text.slice(openIdx + 1, closeIdx);
+  const allowed = new Set();
+  // Only a key immediately followed by `{` (an object-valued preset entry)
+  // counts — inner scalar fields ('name', 'goal', 'monthly', ...) are never
+  // mistaken for a top-level PRESETS key because their values aren't `{`.
+  const keyRe = /(?:^|,)\s*([A-Za-z_$][A-Za-z0-9_$]*)\s*:\s*\{/g;
+  let m;
+  while ((m = keyRe.exec(body)) !== null) allowed.add(m[1]);
+  if (allowed.size === 0) return { allowed: null, error: `no top-level keys found in the PRESETS block of ${plannerJsPath}` };
+  return { allowed, error: null };
+}
+
+// Reads data/pools-snapshot.json's `pools` array + its own `minTvlUsd` floor.
+// Territory note T1: the snapshot is a COMPLETE population AT AND ABOVE its
+// own floor, by construction — that completeness, not a heuristic, is what
+// makes it safe to simulate against. Never call this to validate a link
+// whose effective floor sits BELOW `minTvlUsd` — that is the exact
+// 4,233-false-positive class-10 trap (playbooks/product-audit.md); enforcing
+// that boundary is each call site's job, not this loader's.
+function loadSnapshotPopulation(snapshotPath) {
+  let raw;
+  try { raw = fs.readFileSync(snapshotPath, 'utf8'); }
+  catch (e) { return { pools: null, minTvlUsd: null, error: `snapshot unreadable at ${snapshotPath}: ${e.message}` }; }
+  let json;
+  try { json = JSON.parse(raw); }
+  catch (e) { return { pools: null, minTvlUsd: null, error: `snapshot unparseable JSON at ${snapshotPath}: ${e.message}` }; }
+  if (!Array.isArray(json.pools) || typeof json.minTvlUsd !== 'number') {
+    return { pools: null, minTvlUsd: null, error: `snapshot at ${snapshotPath} is missing a "pools" array or a numeric "minTvlUsd"` };
+  }
+  return { pools: json.pools, minTvlUsd: json.minTvlUsd, error: null };
+}
+
+// First-occurrence key -> DECODED value off one link suffix's query string.
+// Reuses urlQueryKeys()'s own '?'-split convention but keeps values too
+// (urlQueryKeys() stays as-is — rule (a) never needed values, only keys). A
+// malformed %-escape keeps the '+'-replaced-but-undecoded raw value rather
+// than throwing (decodeURIComponent throws on a lone '%'); a malformed query
+// value is not this rule's concern.
+function linkQueryPairs(suffix) {
+  const out = new Map();
+  const qIdx = (suffix || '').indexOf('?');
+  if (qIdx === -1) return out;
+  for (const pair of suffix.slice(qIdx + 1).split('&').filter(Boolean)) {
+    const eq = pair.indexOf('=');
+    const key = eq === -1 ? pair : pair.slice(0, eq);
+    let value = eq === -1 ? '' : pair.slice(eq + 1).replace(/\+/g, ' ');
+    try { value = decodeURIComponent(value); } catch (e) { /* keep the raw, undecoded value */ }
+    if (!out.has(key)) out.set(key, value);
+  }
+  return out;
+}
+
+// Mirrors app.js:927 EXACTLY: an explicit `minTvl` — even one BELOW
+// DEFAULT_MIN_TVL — is honoured, never clamped up (that is 173's own fix;
+// spec 175 acceptance criterion 5 checks this exact case: `?minTvl=100000`
+// resolves to 100000, never to 10000000). Absent -> the default. A
+// present-but-unparseable (NaN) value also falls back to the default, so a
+// malformed `?minTvl=` never simulates a floor of NaN (every comparison
+// against NaN is false, which would silently read as "every link is dead").
+function effectiveMinTvl(queryMap, defaultMinTvl) {
+  if (!queryMap.has('minTvl')) return defaultMinTvl;
+  const parsed = parseInt(queryMap.get('minTvl'), 10);
+  return Number.isFinite(parsed) ? parsed : defaultMinTvl;
+}
+
+// Token <-> pool-symbol substring matcher — mirrors app.js:835's
+// symbolMatchesToken() exactly (same mirror test_seo_cta_targets.js already
+// keeps, per spec's own prior-art pointer, T6). Not imported: app.js is a
+// browser UMD script with no module.exports (the same reason app.js:809-822
+// re-states STABLE_SYMBOLS instead of importing it).
+function symbolMatchesTokenMirror(poolSymbol, token) {
+  if (!poolSymbol || !token) return false;
+  return String(poolSymbol).toUpperCase().includes(String(token).toUpperCase());
+}
+
+// Grid-filter query keys that make a home-path link a level-3 candidate
+// (spec 175 §C) — shared so "what counts as a grid link" can never drift
+// between the two prescan legs.
+const LEVEL3_GRID_PARAMS = ['token', 'chain', 'poolTypes', 'protocols', 'minTvl', 'minApy'];
+
+// The app's filter simulation (level 3, "non-empty") over a POOL-SHAPED
+// population with real symbol/chain/project/apy/tvl fields — used against
+// `data/pools-snapshot.json` (text-surface level 3; Territory T1: the
+// snapshot is complete at/above its own floor) and NOWHERE else. The
+// static-page leg's population is the page's OWN listed rows (Territory T2),
+// which carry only a parsed `tvlUsd` — no symbol/chain/project/apy fields to
+// filter on — so prescanStaticPages() deliberately does NOT call this helper
+// for its own level-3 check (see its own block below, which applies only the
+// TVL floor to parsePageOwnPools()'s rows; explained in specs/175-notes.md).
+// Mirrors app.js's filter arithmetic pool-for-pool:
+//   token     -> symbolMatchesTokenMirror(pool.symbol, token)    (app.js:835)
+//   chain     -> exact, case-sensitive pool.chain equality
+//   protocols -> comma-split membership against pool.project
+//   poolTypes -> comma-split membership against getPoolType(pool), lazy-
+//                required from generate-sitemap.js in a try/catch (T6): if
+//                unavailable the constraint is DROPPED and the drop is
+//                reported via the returned `poolTypesApplied` flag, never
+//                silently ignored (T8)
+//   tvl       -> (tvlUsd||0) >= minTvl && (tvlUsd||0) > 0
+//   minApy    -> (apyBase||0)+(apyReward||0) >= minApy (absent -> 0)
+function countQualifyingPools(pools, queryMap, minTvl, opts) {
+  opts = opts || {};
+  const token = queryMap.get('token') || '';
+  const chain = queryMap.get('chain') || '';
+  const protocolsRaw = queryMap.get('protocols');
+  const protocols = protocolsRaw ? protocolsRaw.split(',').filter(Boolean) : [];
+  const poolTypesRaw = queryMap.get('poolTypes');
+  const poolTypesWanted = poolTypesRaw ? poolTypesRaw.split(',').filter(Boolean) : [];
+  const minApyRaw = queryMap.get('minApy');
+  const minApy = minApyRaw ? (parseInt(minApyRaw, 10) || 0) : 0;
+
+  let getPoolType = null;
+  let poolTypesApplied = false;
+  if (poolTypesWanted.length) {
+    try {
+      getPoolType = require(path.join(ROOT, 'generate-sitemap.js')).getPoolType;
+      if (typeof getPoolType === 'function') poolTypesApplied = true;
+    } catch (e) { getPoolType = null; }
+  }
+
+  let count = 0;
+  for (const p of pools) {
+    if (token && !symbolMatchesTokenMirror(p.symbol, token)) continue;
+    if (chain && p.chain !== chain) continue;
+    if (protocols.length && !protocols.includes(p.project)) continue;
+    if (poolTypesWanted.length && poolTypesApplied && !poolTypesWanted.includes(getPoolType(p))) continue;
+    const tvl = p.tvlUsd || 0;
+    if (!(tvl >= minTvl) || !(tvl > 0)) continue;
+    const apy = (p.apyBase || 0) + (p.apyReward || 0);
+    if (!(apy >= minApy)) continue;
+    count++;
+  }
+  return { count, poolTypesApplied };
+}
+
+// Page's OWN listed pool rows (Territory note T2) — the population its own
+// generator (generate-token-pages.js / generate-chain-pages.js) actually drew
+// from, at whatever floor IT used, parsed straight off the rendered table
+// rather than re-fetched. NEVER touches data/pools-snapshot.json — that IS
+// the class-10 4,233-false-positive trap (playbooks/product-audit.md; T1).
+// Row shape (both generators, verified on chains/ethereum.html +
+// tokens/usdc.html): one <tr> per pool with exactly one tp-pool-link/
+// cp-pool-link anchor and two <td class="num"> cells; the LAST is the TVL
+// money figure. Column ORDER differs between the two generators (chain
+// pages: Token/Protocol/APY/TVL; token pages: Protocol/Chain/APY/TVL), so
+// this takes the LAST `num` cell rather than a fixed index.
+const HTML_ROW_RE = /<tr>([\s\S]*?)<\/tr>/g;
+const HTML_NUM_TD_RE = /<td class="num">([^<]*)<\/td>/g;
+const HTML_MONEY_RE = /\$\s?([\d,]+(?:\.\d+)?)\s?([KMBT])?/;
+function parsePageOwnPools(html) {
+  const rows = [];
+  for (const m of html.matchAll(HTML_ROW_RE)) {
+    const body = m[1];
+    if (!/class="(?:tp|cp)-pool-link"/.test(body)) continue;
+    const nums = [...body.matchAll(HTML_NUM_TD_RE)].map((x) => x[1]);
+    if (!nums.length) continue;
+    const moneyMatch = nums[nums.length - 1].match(HTML_MONEY_RE);
+    if (!moneyMatch) continue;
+    const tvlUsd = parseMoney(moneyMatch[1], moneyMatch[2]);
+    if (!Number.isFinite(tvlUsd)) continue;
+    rows.push({ tvlUsd });
+  }
+  return rows;
+}
+
+// ---------------------------------------------------------------------------
 // Static-surface prescan (backlog 157). Pure fs + regex over EVERY
 // tokens/*.html + chains/*.html leaf page — no Playwright, no network, no
 // writes — so the (small) rendered sample can be AIMED at suspicious pages
@@ -712,6 +1023,26 @@ function prescanStaticPages(opts = {}) {
   const plannerParams = loadPlannerAllowedParams(plannerJsPath);
   if (plannerParams.error) {
     console.error(`[audit] static prescan: link-target-integrity rule (a) [planner.js half] skipped — ${plannerParams.error}`);
+  }
+
+  // Levels 2/3 (backlog 175) setup — parsed/loaded ONCE per scan, same
+  // "one stderr note per scan" contract as rule (a) above. opts.appJs/
+  // opts.snapshot are the coupling-test overrides; opts.plannerJs is reused
+  // from rule (a) (same underlying file, same override knob).
+  const appJsPath = opts.appJs || path.join(ROOT, 'app.js');
+  const minTvlInfo = loadDefaultMinTvl(appJsPath);
+  if (minTvlInfo.error) {
+    console.error(`[audit] static prescan: link-target-integrity level 3 (non-empty) skipped — ${minTvlInfo.error}`);
+  }
+  const snapshotPath = opts.snapshot || path.join(ROOT, 'data/pools-snapshot.json');
+  const snapshotInfo = loadSnapshotPopulation(snapshotPath);
+  if (snapshotInfo.error) {
+    console.error(`[audit] static prescan: link-target-integrity level 2 (protocols) skipped — ${snapshotInfo.error}`);
+  }
+  const projectSet = snapshotInfo.pools ? new Set(snapshotInfo.pools.map((p) => p.project)) : null;
+  const presetKeysInfo = loadPlannerPresetKeys(plannerJsPath);
+  if (presetKeysInfo.error) {
+    console.error(`[audit] static prescan: link-target-integrity level 2 (preset) skipped — ${presetKeysInfo.error}`);
   }
 
   let scanned = 0;
@@ -807,12 +1138,16 @@ function prescanStaticPages(opts = {}) {
       }
     }
 
-    // (b) pool row -> non-addressing target.
+    // (b) pool row -> non-addressing target. Also tallies poolAnchorCount —
+    // the same pool-row-anchor scan level 3's anti-vacuity rail below needs,
+    // so it's counted here rather than re-scanning the page a second time.
+    let poolAnchorCount = 0;
     {
       const badTargets = [];
       for (const m of html.matchAll(HTML_ANCHOR_TAG_RE)) {
         const tag = m[0];
         if (!POOL_ROW_ANCHOR_CLASSES.some((c) => anchorHasClass(tag, c))) continue;
+        poolAnchorCount++;
         const hrefRaw = anchorAttr(tag, 'href');
         if (!hrefRaw) { badTargets.push('(missing href)'); continue; }
         const suffix = ownedHtmlLinkSuffix(hrefRaw);
@@ -825,6 +1160,96 @@ function prescanStaticPages(opts = {}) {
         let detail = `${badTargets.length} pool-row anchor${plural ? 's' : ''} (tp-pool-link/cp-pool-link) do${plural ? '' : 'es'} not target a "?pool=<id>" URL — e.g. ${examples.join(', ')}`;
         if (badTargets.length > examples.length) detail += ` (+${badTargets.length - examples.length} more)`;
         suspects.push({ rel, slug, signal: 'link-target-integrity', severity: PRESCAN_SIGNALS['link-target-integrity'], detail });
+      }
+    }
+
+    // link-target-integrity LEVEL 2 ("resolvable", backlog 175 T5/T6): a
+    // `?protocols=<slug>` value must be a real snapshot project; a
+    // `?preset=<key>` value must be a real planner.js PRESETS key. `?pool=`
+    // liveness stays OUT of the offline prescan (the class-10 trap; spec 175
+    // acceptance criterion 3) — rule (b) above already governs pool-row
+    // anchor shape, this never re-validates the id itself.
+    {
+      const badProtocolValues = new Set();
+      let badProtocolLinkCount = 0;
+      const badPresetValues = new Set();
+      let badPresetLinkCount = 0;
+      for (const m of html.matchAll(HTML_HREF_RE)) {
+        const suffix = ownedHtmlLinkSuffix(m[1]);
+        if (suffix === null) continue;
+        const linkPathVal = ownedLinkPath(suffix);
+        const pairs = linkQueryPairs(suffix);
+        if (projectSet && (linkPathVal === '' || linkPathVal === '/') && pairs.has('protocols')) {
+          const bad = pairs.get('protocols').split(',').filter(Boolean).filter((slug) => !projectSet.has(slug));
+          if (bad.length) { badProtocolLinkCount++; bad.forEach((s) => badProtocolValues.add(s)); }
+        }
+        if (presetKeysInfo.allowed && linkPathVal === '/plan.html' && pairs.has('preset')) {
+          const val = pairs.get('preset');
+          if (val && !presetKeysInfo.allowed.has(val)) { badPresetLinkCount++; badPresetValues.add(val); }
+        }
+      }
+      if (badProtocolLinkCount > 0) {
+        const list = [...badProtocolValues];
+        const shown = list.slice(0, 3).map((s) => `"${s}"`);
+        const plural = badProtocolLinkCount !== 1;
+        let detail = `${badProtocolLinkCount} defi.garden link${plural ? 's' : ''} carr${plural ? 'y' : 'ies'} a "protocols" value not present among the snapshot's ${projectSet.size} known project slugs (data/pools-snapshot.json) — value(s): ${shown.join(', ')}`;
+        if (list.length > shown.length) detail += ` (+${list.length - shown.length} more)`;
+        suspects.push({ rel, slug, signal: 'link-target-integrity', severity: PRESCAN_SIGNALS['link-target-integrity'], detail });
+      }
+      if (badPresetLinkCount > 0) {
+        const list = [...badPresetValues];
+        const shown = list.slice(0, 3).map((s) => `"${s}"`);
+        const plural = badPresetLinkCount !== 1;
+        let detail = `${badPresetLinkCount} defi.garden link${plural ? 's' : ''} carr${plural ? 'y' : 'ies'} a "preset" value not among planner.js's PRESETS keys (${[...presetKeysInfo.allowed].join(', ')}) — value(s): ${shown.join(', ')}`;
+        if (list.length > shown.length) detail += ` (+${list.length - shown.length} more)`;
+        suspects.push({ rel, slug, signal: 'link-target-integrity', severity: PRESCAN_SIGNALS['link-target-integrity'], detail });
+      }
+    }
+
+    // link-target-integrity LEVEL 3 ("non-empty", backlog 175 T2/T3/T8):
+    // population = the page's OWN listed rows (T2) — never
+    // data/pools-snapshot.json (the class-10 trap). poolTypes/protocols/
+    // token/chain/minApy are NOT simulated here (own-rows carry only a
+    // parsed tvlUsd — see parsePageOwnPools()'s own doc comment and
+    // specs/175-notes.md); only the TVL floor is checked.
+    if (minTvlInfo.value != null && poolAnchorCount > 0) {
+      const ownRows = parsePageOwnPools(html);
+      if (ownRows.length === 0) {
+        // T8 anti-vacuity rail: a page with pool-row anchors but zero
+        // parseable rows must say so loudly, never go dark silently.
+        suspects.push({ rel, slug, signal: 'link-target-integrity', severity: PRESCAN_SIGNALS['link-target-integrity'],
+          detail: `level-3 ("non-empty") population was unparseable: page has ${poolAnchorCount} pool-row anchor(s) (tp-pool-link/cp-pool-link) but zero rows yielded a parseable TVL figure from their last <td class="num"> cell` });
+      } else {
+        const deadLinks = [];
+        const seenSuffix = new Set();
+        for (const m of html.matchAll(HTML_HREF_RE)) {
+          const suffix = ownedHtmlLinkSuffix(m[1]);
+          if (suffix === null) continue;
+          const linkPathVal = ownedLinkPath(suffix);
+          if (linkPathVal !== '' && linkPathVal !== '/') continue;
+          const pairs = linkQueryPairs(suffix);
+          if (pairs.has('pool')) continue;
+          if (!LEVEL3_GRID_PARAMS.some((k) => pairs.has(k))) continue;
+          if (seenSuffix.has(suffix)) continue;
+          seenSuffix.add(suffix);
+          const floor = effectiveMinTvl(pairs, minTvlInfo.value);
+          // Display-rounding slack (T2): the rendered TVL figure is rounded
+          // to ~3 significant digits ("$2.55B"), so a row genuinely at/just
+          // under the floor can render slightly below it. A 0.5% DOWNWARD
+          // tolerance on the floor only ever makes this check MORE
+          // conservative (fewer flags) — it can never turn a truly-dead
+          // link clean.
+          const toleratedFloor = floor * 0.995;
+          const qualifying = ownRows.filter((r) => r.tvlUsd >= toleratedFloor && r.tvlUsd > 0).length;
+          if (qualifying === 0) deadLinks.push({ url: decodeHrefEntities(m[1]), floor });
+        }
+        if (deadLinks.length > 0) {
+          const plural = deadLinks.length !== 1;
+          const examples = deadLinks.slice(0, 3).map((d) => `"${d.url}" (floor $${d.floor.toLocaleString('en-US')})`);
+          let detail = `${deadLinks.length} grid link${plural ? 's' : ''} on this page resolve${plural ? '' : 's'} to ZERO pools among the page's own ${ownRows.length} listed row${ownRows.length !== 1 ? 's' : ''} at ${plural ? 'their' : 'its'} effective floor — e.g. ${examples.join(', ')}`;
+          if (deadLinks.length > examples.length) detail += ` (+${deadLinks.length - examples.length} more)`;
+          suspects.push({ rel, slug, signal: 'link-target-integrity', severity: PRESCAN_SIGNALS['link-target-integrity'], detail });
+        }
       }
     }
   }
