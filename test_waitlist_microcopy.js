@@ -1,14 +1,40 @@
 /* Playwright acceptance gate for spec 070 (surface the honest "card doesn't
    exist yet" micro-disclaimer at the LIVE waitlist CTA): drives the REAL
-   rendered plan.html bloom checkout panel and asserts the `ctaWaitlistMicro`
-   string renders under the primary CTA on BOTH archetype layouts, in EN and
-   KO, and that clicking the CTA still opens the waitlist modal.
+   rendered plan.html bloom checkout panel and asserts the micro-disclaimer
+   under the primary CTA is correct for BOTH archetype layouts, in EN and KO,
+   and that the honest "not live yet" disclosure a user gets before joining
+   the waitlist is still reachable and intact on both layouts too.
 
-   Rails under test (070):
-   - `.gp-checkout-panel .gp-cta-microcopy` is visible and its text equals the
-     EXACT en.planner.ctaWaitlistMicro string, on a subscription-archetype
-     bloom URL AND on a growth-archetype bloom URL.
-   - With &lang=ko the same node equals the EXACT ko.planner.ctaWaitlistMicro.
+   UPDATED for backlog 139 (BET A, human-approved 2026-07-23,
+   docs/strategy-2026-07-23-pretraffic-bets.md §3, planner.js:2954-2967): on
+   the growth/target archetypes the checkout panel's primary CTA is no longer
+   the card waitlist button — it's a real `<a href="/?pool=...">` link to the
+   plan's top curated pool ("Start growing on <project> →"), because the
+   card-waitlist framing doesn't fit a one-time purchase or a decades-out
+   goal. So `.gp-checkout-panel .gp-cta-microcopy` legitimately reads
+   `startGrowingCtaMicro` ("No wallet needed to explore") on growth blooms,
+   not `ctaWaitlistMicro` — the two growth-bloom cases below assert that.
+   Item 070's requirement (told the card doesn't exist BEFORE joining the
+   waitlist) still applies on the growth path, just via a different surface:
+   the secondary text link (`ctaWaitlistSecondary`,
+   `.gp-checkout-waitlist-secondary`, planner.js:3019-3024) that opens the
+   SAME waitlist modal, which on non-subscription archetypes renders
+   `waitlistBenefitsEarlyAccess` ("...Nothing's live yet...",
+   planner.js:2801-2804) instead of the subscription pitch copy. The new
+   "re-homed" cases below drive that link end-to-end so this coverage isn't
+   silently lost by the repoint (156/176 pattern — moved assertions must land
+   on the surface that actually owns the behaviour now).
+
+   Rails under test (070, updated by 139):
+   - subscription-archetype bloom: `.gp-checkout-panel .gp-cta-microcopy`
+     equals the EXACT en.planner.ctaWaitlistMicro string (EN + KO) — CTA is
+     still the waitlist button, unchanged.
+   - growth-archetype bloom: same node equals the EXACT
+     en.planner.startGrowingCtaMicro string (EN + KO) — CTA is the pool link.
+   - growth-archetype bloom: the secondary waitlist link is visible; clicking
+     it opens `.gp-waitlist-backdrop` and the modal body equals the EXACT
+     en.planner.waitlistBenefitsEarlyAccess string (EN + KO), which discloses
+     the card/tooling isn't live yet.
    - Clicking `.gp-checkout-cta` still opens `.gp-waitlist-backdrop` (no
      handler regression after the dead-ctaElement deletion).
    - Zero page errors (external-host fetch failures per CLAUDE.md exempt —
@@ -42,6 +68,14 @@ const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/p
 const { translations: tr } = require('./translations.js');
 const enMicro = tr.en.planner.ctaWaitlistMicro;
 const koMicro = tr.ko.planner.ctaWaitlistMicro;
+// growth/target archetype's checkout CTA is the pool link, not the waitlist
+// button (backlog 139) — its microcopy is a different key.
+const enGrowMicro = tr.en.planner.startGrowingCtaMicro;
+const koGrowMicro = tr.ko.planner.startGrowingCtaMicro;
+// re-homed 070 disclosure: the growth bloom's secondary waitlist link opens
+// a modal with this "not live yet" copy instead of the subscription pitch.
+const enGrowBenefits = tr.en.planner.waitlistBenefitsEarlyAccess;
+const koGrowBenefits = tr.ko.planner.waitlistBenefitsEarlyAccess;
 
 // Fixture pools: 3 stablecoin pools that clear the 'stable' curation rails (for
 // the subscription/claude URL) + 1 ondo RWA pool that clears the 'rwa' rails
@@ -110,9 +144,13 @@ async function main() {
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
     // Guard: canonical strings must be non-empty, else every assertion is vacuous.
-    await test('canonical ctaWaitlistMicro strings are present (source sanity)', async () => {
+    await test('canonical ctaWaitlistMicro/startGrowingCtaMicro/waitlistBenefitsEarlyAccess strings are present (source sanity)', async () => {
       if (!enMicro || !enMicro.length) throw new Error('en.planner.ctaWaitlistMicro missing');
       if (!koMicro || !koMicro.length) throw new Error('ko.planner.ctaWaitlistMicro missing');
+      if (!enGrowMicro || !enGrowMicro.length) throw new Error('en.planner.startGrowingCtaMicro missing');
+      if (!koGrowMicro || !koGrowMicro.length) throw new Error('ko.planner.startGrowingCtaMicro missing');
+      if (!enGrowBenefits || !enGrowBenefits.length) throw new Error('en.planner.waitlistBenefitsEarlyAccess missing');
+      if (!koGrowBenefits || !koGrowBenefits.length) throw new Error('ko.planner.waitlistBenefitsEarlyAccess missing');
     });
 
     // --- subscription-archetype bloom (goal=claude): EN micro-disclaimer ---
@@ -124,9 +162,14 @@ async function main() {
     });
 
     // --- growth-archetype bloom (goal=retirement): EN micro-disclaimer ---
-    await test('growth bloom (goal=retirement): .gp-checkout-panel .gp-cta-microcopy renders the EXACT EN string; no page errors', async () => {
+    // Backlog 139 (BET A): the primary CTA here is the top-pool link, not
+    // the waitlist button, so the microcopy is startGrowingCtaMicro, not
+    // ctaWaitlistMicro (see file header). The 070 "not live yet" disclosure
+    // for this layout is re-homed to the two "secondary waitlist link" cases
+    // below, not deleted.
+    await test('growth bloom (goal=retirement): .gp-checkout-panel .gp-cta-microcopy renders the EXACT startGrowingCtaMicro EN string; no page errors', async () => {
       const { context, page, pageErrors } = await loadBloom(browser, 'goal=retirement&pace=rwa&capital=1000&fm=capital&years=5');
-      await assertMicro(page, enMicro, 'growth EN');
+      await assertMicro(page, enGrowMicro, 'growth EN');
       if (pageErrors.length) throw new Error('page errors: ' + pageErrors.join(' | '));
       await context.close();
     });
@@ -139,9 +182,9 @@ async function main() {
     });
 
     // --- KO run: growth bloom with &lang=ko → exact KO string ---
-    await test('growth bloom &lang=ko: micro-disclaimer renders the EXACT KO string', async () => {
+    await test('growth bloom &lang=ko: micro-disclaimer renders the EXACT startGrowingCtaMicro KO string', async () => {
       const { context, page } = await loadBloom(browser, 'goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&lang=ko');
-      await assertMicro(page, koMicro, 'growth KO');
+      await assertMicro(page, koGrowMicro, 'growth KO');
       await context.close();
     });
 
@@ -151,6 +194,39 @@ async function main() {
       await page.click('.gp-checkout-cta');
       await page.waitForSelector('.gp-waitlist-backdrop', { timeout: 5000 });
       if (!(await page.locator('.gp-waitlist-backdrop').isVisible())) throw new Error('waitlist modal did not open on CTA click');
+      await context.close();
+    });
+
+    // --- Re-homed 070 coverage (item 139 displaced it off the primary CTA):
+    // growth bloom's secondary "Get early access" text link must be visible,
+    // and clicking it must open the SAME waitlist modal, which on this
+    // archetype discloses the card/tooling isn't live yet
+    // (waitlistBenefitsEarlyAccess). This is what tells the user "doesn't
+    // exist yet" BEFORE they join the waitlist on the growth path now. ---
+    await test('growth bloom: secondary waitlist link is visible, and clicking it opens the modal with the EXACT "not live yet" EN disclosure', async () => {
+      const { context, page } = await loadBloom(browser, 'goal=retirement&pace=rwa&capital=1000&fm=capital&years=5');
+      const link = page.locator('.gp-checkout-waitlist-secondary');
+      await link.waitFor({ state: 'visible', timeout: 8000 });
+      if (!(await link.isVisible())) throw new Error('secondary waitlist link not visible on growth bloom');
+      await link.click();
+      await page.waitForSelector('.gp-waitlist-backdrop', { timeout: 5000 });
+      const benefitsText = (await page.textContent('.gp-waitlist-benefits')).trim();
+      if (benefitsText !== enGrowBenefits) {
+        throw new Error('modal disclosure mismatch\n      expected: ' + enGrowBenefits + '\n      got:      ' + benefitsText);
+      }
+      await context.close();
+    });
+
+    await test('growth bloom &lang=ko: secondary waitlist link opens the modal with the EXACT "not live yet" KO disclosure', async () => {
+      const { context, page } = await loadBloom(browser, 'goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&lang=ko');
+      const link = page.locator('.gp-checkout-waitlist-secondary');
+      await link.waitFor({ state: 'visible', timeout: 8000 });
+      await link.click();
+      await page.waitForSelector('.gp-waitlist-backdrop', { timeout: 5000 });
+      const benefitsText = (await page.textContent('.gp-waitlist-benefits')).trim();
+      if (benefitsText !== koGrowBenefits) {
+        throw new Error('modal disclosure mismatch (KO)\n      expected: ' + koGrowBenefits + '\n      got:      ' + benefitsText);
+      }
       await context.close();
     });
   } finally {

@@ -8,6 +8,19 @@
    server, all non-local requests aborted except a mocked formspree endpoint
    so success/network-error/non-ok paths can be driven deterministically.
 
+   Spec 096's production-host gate (analytics.js:96, PRODUCTION_HOSTS at :14)
+   makes `Analytics.track()` return before ever calling `mixpanel.track()`
+   when `location.hostname` is localhost, which is where this file's server
+   runs — so without help `trackedEvents()`'s stub-queue read below is
+   structurally always empty, independent of whether the product fires the
+   events correctly. `neutralizeHostGate()` overrides
+   `Analytics.isProductionHost()` to `true` via `addInitScript` (same
+   poll-and-patch shape as test_analytics_host_gate_render.js:74-89, and
+   identical to test_waitlist_seo_entry.js's copy) so real track() calls
+   travel the normal path into the stub queue and `trackedEvents()` regains
+   its original end-to-end meaning. Each test case below opens its own
+   context, so the override is installed in every one of them.
+
    Run: node test_waitlist_funnel.js */
 const http = require('http');
 const fs = require('fs');
@@ -48,6 +61,19 @@ async function trackedEvents(page) {
   return page.evaluate(() => (window.mixpanel || []).filter(c => Array.isArray(c) && c[0] === 'track'));
 }
 
+// See file-header note: neutralizes spec 096's production-host gate so
+// Analytics.track() actually reaches mixpanel.track() (and this file's
+// stub-queue reads) even though these pages are served from localhost.
+async function neutralizeHostGate(target) {
+  await target.addInitScript(() => {
+    const install = () => {
+      if (typeof Analytics === 'undefined' || !Analytics.isProductionHost) { setTimeout(install, 0); return; }
+      Analytics.isProductionHost = () => true;
+    };
+    install();
+  });
+}
+
 async function main() {
   const server = await startServer();
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
@@ -57,6 +83,7 @@ async function main() {
       const context = await browser.newContext();
       await context.route(url => !url.href.startsWith(`http://localhost:${PORT}`) && !url.href.includes('formspree.io'), route => route.abort());
       await context.route('**formspree.io/**', route => route.fulfill({ status: 200, contentType: 'application/json', body: '{}' }));
+      await neutralizeHostGate(context);
       const page = await context.newPage();
       await page.goto(`http://localhost:${PORT}/plan.html?waitlist=1&src=seo_token`, { waitUntil: 'domcontentloaded', timeout: 15000 });
       await page.waitForSelector('.gp-waitlist-backdrop', { timeout: 5000 });
@@ -90,6 +117,7 @@ async function main() {
       const context = await browser.newContext();
       await context.route(url => !url.href.startsWith(`http://localhost:${PORT}`) && !url.href.includes('formspree.io'), route => route.abort());
       await context.route('**formspree.io/**', route => route.fulfill({ status: 500, contentType: 'application/json', body: '{}' }));
+      await neutralizeHostGate(context);
       const page = await context.newPage();
       await page.goto(`http://localhost:${PORT}/plan.html?waitlist=1&src=seo_token`, { waitUntil: 'domcontentloaded', timeout: 15000 });
       await page.waitForSelector('.gp-waitlist-backdrop', { timeout: 5000 });
@@ -110,6 +138,7 @@ async function main() {
       const context = await browser.newContext();
       await context.route(url => !url.href.startsWith(`http://localhost:${PORT}`) && !url.href.includes('formspree.io'), route => route.abort());
       await context.route('**formspree.io/**', route => route.abort('failed'));
+      await neutralizeHostGate(context);
       const page = await context.newPage();
       await page.goto(`http://localhost:${PORT}/plan.html?waitlist=1&src=seo_token`, { waitUntil: 'domcontentloaded', timeout: 15000 });
       await page.waitForSelector('.gp-waitlist-backdrop', { timeout: 5000 });

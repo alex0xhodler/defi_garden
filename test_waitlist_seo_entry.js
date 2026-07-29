@@ -19,6 +19,16 @@
    loads (see plan.html's inline snippet) — that queue is inspected directly
    below, so the assertion never depends on mp.defi.garden being reachable.
 
+   Spec 096's production-host gate (analytics.js:96, PRODUCTION_HOSTS at :14)
+   makes `Analytics.track()` return before ever calling `mixpanel.track()`
+   when `location.hostname` is localhost, which is where this file's server
+   runs — so without help the stub queue above is structurally always empty,
+   independent of whether the product is doing the right thing.
+   `neutralizeHostGate()` below overrides `Analytics.isProductionHost()` to
+   `true` via `addInitScript` (same poll-and-patch shape as
+   test_analytics_host_gate_render.js:74-89) so real track() calls travel
+   into the stub queue and the reads below regain their original meaning.
+
    Run: node test_waitlist_seo_entry.js */
 const http = require('http');
 const fs = require('fs');
@@ -38,6 +48,26 @@ let passed = 0;
 async function test(name, fn) {
   try { await fn(); passed++; console.log('  ✓ ' + name); }
   catch (err) { console.error('  ✗ ' + name + '\n    ' + err.message); process.exitCode = 1; }
+}
+
+// spec 096's production-host gate (analytics.js:96, PRODUCTION_HOSTS at :14)
+// makes Analytics.track() return before ever calling mixpanel.track() when
+// location.hostname is localhost — so window.mixpanel's stub queue is
+// structurally always empty on these test pages, no matter what the product
+// does. Neutralising Analytics.isProductionHost() restores exactly the
+// production condition (nothing else) and lets events travel the REAL path
+// into the stub queue, so every existing queue-read assertion below keeps its
+// original end-to-end meaning. Same poll-and-patch shape as
+// test_analytics_host_gate_render.js:74-89, which remains the negative
+// control proving the gate itself still suppresses when NOT overridden.
+async function neutralizeHostGate(target) {
+  await target.addInitScript(() => {
+    const install = () => {
+      if (typeof Analytics === 'undefined' || !Analytics.isProductionHost) { setTimeout(install, 0); return; }
+      Analytics.isProductionHost = () => true;
+    };
+    install();
+  });
 }
 
 function startServer() {
@@ -65,6 +95,8 @@ async function main() {
     // the background after the assertions below run — belt-and-suspenders
     // alongside domcontentloaded, not load-bearing for the test itself.
     await context.route(url => !url.href.startsWith(`http://localhost:${PORT}`), route => route.abort());
+    // Context-level: applies to every page created below (page/page2/page3/page4).
+    await neutralizeHostGate(context);
     const page = await context.newPage();
 
     await test('plan.html?waitlist=1&src=seo_token auto-opens the waitlist modal on load', async () => {
