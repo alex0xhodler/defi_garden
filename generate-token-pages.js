@@ -214,13 +214,25 @@ function rankTopTokens(pools, limit) {
     // SHOWN slice, not all pools: a pool at 0.003% renders "0.00%" (032), and a
     // yield-bearing pool ranked beyond POOLS_PER_PAGE isn't on the page at all
     // (033) — either way an all-"0.00%" table is thin/low-quality and dropped.
+    // This gate must stay evaluated on `shown` EXACTLY as-is (030/032/033) —
+    // it decides which tokens get a page at all, and moving it would change
+    // the generated page set. It is deliberately NOT the same slice used for
+    // display below (174).
     if (!shown.some(p => formatApy(poolTotalApy(p)) !== '0.00%')) return;
+    // 174: the DISPLAYED table excludes 0.00%-APY rows — a listed "yield" of
+    // zero isn't a yield opportunity. Filter zeros out of the FULL sorted
+    // pool list (not just `shown`) before taking the top POOLS_PER_PAGE, so a
+    // page that loses zero rows can backfill real yield rows from further
+    // down the TVL ranking instead of shrinking below POOLS_PER_PAGE.
+    const displayPools = rec.pools
+      .filter(p => formatApy(poolTotalApy(p)) !== '0.00%')
+      .slice(0, POOLS_PER_PAGE);
     records.push({
       symbol,
       slug: tokenSlug(symbol),
       totalTvl: rec.totalTvl,
       qualifyingCount: rec.qualifyingCount,
-      pools: shown
+      pools: displayPools
     });
   });
 
@@ -348,17 +360,24 @@ function ladderLabelText(labelKey, lang) {
   return v == null ? (translations.en.planner[labelKey] || labelKey) : v;
 }
 
-/** One honest headline: the token's blended (median) APY across `rec.pools`
- * — already gated by the SAME trust rails (min-TVL floor, anomaly exclusion)
- * every other number on this page passes through — paired with the capital
- * gp.foreverNumber says that rate needs to run the anchor subscription
- * forever. Returns null (no fabricated number, never a zero/NaN) when the
- * blended rate rounds to "0.00%": a token can clear the qualifying-pool gate
- * (>=1 non-zero pool exists) yet still have its MEDIAN land on a 0% pool,
- * same display-honesty gate as 032's "visibly non-zero" rule. */
+/** One honest headline: the token's blended (median) APY across the pools in
+ * `rec.pools` that BOTH pass the trust rail (isQualifyingPool — min-TVL floor,
+ * anomaly exclusion) AND are visibly non-zero (formatApy(poolTotalApy(p)) !==
+ * '0.00%') — paired with the capital gp.foreverNumber says that rate needs to
+ * run the anchor subscription forever. A forever number is a promise about
+ * capital; it may not rest on a pool the product will not display, or on a
+ * pool that merely dilutes the blend toward zero (spec 174 — the same class
+ * of defect as 032's "visibly non-zero" display-honesty rule, applied to the
+ * blend inputs, not just the final rounded rate). Returns null (no fabricated
+ * number, never a zero/NaN) when no such pool remains, OR when the resulting
+ * blended rate still rounds to "0.00%", OR when the forever amount is
+ * non-finite/<=0 — the existing null-guards, unchanged. */
 function yieldHeadlineFor(rec, lang) {
   const anchor = yieldHeadlineAnchor();
-  const blendedRate = gp.blendedApy(rec.pools);
+  const eligiblePools = (rec.pools || []).filter(p =>
+    isQualifyingPool(p) && formatApy(poolTotalApy(p)) !== '0.00%');
+  if (!eligiblePools.length) return null;
+  const blendedRate = gp.blendedApy(eligiblePools);
   const apyStr = formatApy(blendedRate);
   if (apyStr === '0.00%') return null;
   const foreverAmt = gp.foreverNumber(anchor.monthly, blendedRate);
@@ -492,7 +511,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens`, { page_ty
   <main class="hub-wrap">
     <h1>${escapeHtml(t('tcpTokenHubHeading'))}</h1>
     <p class="sub">${escapeHtml(t('tcpTokenHubSub', ranked.length))}</p>
-    <p class="intro">${escapeHtml(t('tcpTokenHubIntro'))}</p>
+    <p class="intro">${escapeHtml(t('tcpTokenHubIntro', formatUsd(MIN_POOL_TVL)))}</p>
     <a class="hub-cta" href="${SITE_URL}/">${escapeHtml(t('tcpHubBackCta'))}</a>
     <div class="hub-card">
       <h2>${escapeHtml(t('tcpTopTokensByTvlHeading'))}</h2>
@@ -506,7 +525,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens`, { page_ty
         ${azLinks}
       </div>
     </div>
-${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>
@@ -556,7 +575,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/az/${group.
         ${links}
       </div>
     </div>
-${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t)}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t)}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>
@@ -619,13 +638,16 @@ function buildAnswerAndFaq(label, rec, bestApy, topPool, lang) {
   const chain = topPool.chain || '—';
   const apyStr = formatApy(bestApy);
   const tvlStr = formatUsd(rec.totalTvl);
+  // 174: EVERY floor mention on the page derives from MIN_POOL_TVL — never a
+  // re-typed literal. One formatted value, reused by every t(...) call below.
+  const floorStr = formatUsd(MIN_POOL_TVL);
 
-  const answer = t('tcpAnswer', label, apyStr, project, chain, rec.qualifyingCount);
+  const answer = t('tcpAnswer', label, apyStr, project, chain, rec.qualifyingCount, floorStr);
 
   const faq = [
     { q: t('tcpFaqQ1', label), a: t('tcpFaqA1', apyStr, project, chain) },
-    { q: t('tcpFaqQ2', label), a: t('tcpFaqA2', rec.qualifyingCount, tvlStr) },
-    { q: t('tcpFaqQ3'), a: t('tcpFaqA3') }
+    { q: t('tcpFaqQ2', label), a: t('tcpFaqA2', rec.qualifyingCount, tvlStr, floorStr) },
+    { q: t('tcpFaqQ3'), a: t('tcpFaqA3', floorStr) }
   ];
 
   return { answer, faq };
@@ -687,13 +709,16 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const chainCount = new Set(rec.pools.map(p => p.chain)).size;
   const title = t('tcpTokenTitle', rec.symbol);
-  const description = t('tcpTokenDescription', rec.symbol, rec.qualifyingCount, formatApy(bestApy), chainCount);
+  // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
+  // re-typed literal. One formatted value, reused by every t(...) call below.
+  const floorStr = formatUsd(MIN_POOL_TVL);
+  const description = t('tcpTokenDescription', rec.symbol, rec.qualifyingCount, formatApy(bestApy), chainCount, floorStr);
 
   // Unique per-token intro from real data (023: content depth — this reads
   // token-specifically even with the symbol removed, so it's not thin).
   const top = rec.pools[0];
   const intro = t('tcpTokenIntro', sym, escapeHtml(top.project || '—'), escapeHtml(top.chain || '—'),
-    formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, chainCount, formatUsd(rec.totalTvl));
+    formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, chainCount, formatUsd(rec.totalTvl), floorStr);
 
   // BreadcrumbList (040): Home and the current page are real, linkable URLs.
   // "Tokens" has no `item` — there is no /tokens hub page in this repo (no
@@ -716,7 +741,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const itemListJsonLd = renderItemListJsonLd(rec.pools, appUrl, language);
   const datasetJsonLd = renderDatasetJsonLd(
     t('tcpDatasetTokenName', rec.symbol),
-    t('tcpDatasetTokenDescription', rec.symbol),
+    t('tcpDatasetTokenDescription', rec.symbol, floorStr),
     pageUrl,
     genDate
   );
@@ -840,7 +865,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}
 <body>
   <main class="tp-wrap">
     <h1>${escapeHtml(t('tcpTokenHeading', rec.symbol))}</h1>
-${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount))}</p>
+${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="intro">${intro}</p>
 ${yieldHeadlineBlock}    <a class="tp-cta" href="${appUrl}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
     <div class="tp-card">
@@ -855,7 +880,7 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
 ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>

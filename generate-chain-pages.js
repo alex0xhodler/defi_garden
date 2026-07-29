@@ -82,14 +82,26 @@ function rankTopChains(pools, limit) {
     // at least one VISIBLE non-zero yield. A chain whose top-8-by-TVL pools
     // are all "0.00%" (rounded or real) is thin/low-quality and dropped,
     // even if a real yield exists further down the ranking.
+    // This gate must stay evaluated on `shown` EXACTLY as-is (030/032/033) —
+    // it decides which chains get a page at all, and moving it would change
+    // the generated page set. It is deliberately NOT the same slice used for
+    // display below (174).
     if (!shown.some(p => formatApy(poolTotalApy(p)) !== '0.00%')) return;
+    // 174: the DISPLAYED table excludes 0.00%-APY rows — a listed "yield" of
+    // zero isn't a yield opportunity. Filter zeros out of the FULL sorted
+    // pool list (not just `shown`) before taking the top POOLS_PER_PAGE, so a
+    // page that loses zero rows can backfill real yield rows from further
+    // down the TVL ranking instead of shrinking below POOLS_PER_PAGE.
+    const displayPools = rec.pools
+      .filter(p => formatApy(poolTotalApy(p)) !== '0.00%')
+      .slice(0, POOLS_PER_PAGE);
     records.push({
       chain,
       slug: chainSlug(chain),
       totalTvl: rec.totalTvl,
       qualifyingCount: rec.qualifyingCount,
       tokens: Array.from(rec.tokens),
-      pools: shown
+      pools: displayPools
     });
   });
 
@@ -153,12 +165,15 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const tokenCount = rec.tokens.length;
   const title = t('tcpChainTitle', rec.chain);
-  const description = t('tcpChainDescription', rec.chain, rec.qualifyingCount, formatApy(bestApy), tokenCount);
+  // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
+  // re-typed literal. One formatted value, reused by every t(...) call below.
+  const floorStr = formatUsd(MIN_POOL_TVL);
+  const description = t('tcpChainDescription', rec.chain, rec.qualifyingCount, formatApy(bestApy), tokenCount, floorStr);
 
   // Unique per-chain intro from real data (023-style content depth).
   const top = rec.pools[0];
   const intro = t('tcpChainIntro', chainName, escapeHtml(top.project || '—'), escapeHtml(top.symbol || '—'),
-    formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, tokenCount, formatUsd(rec.totalTvl));
+    formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, tokenCount, formatUsd(rec.totalTvl), floorStr);
 
   // BreadcrumbList (040 pattern): Home and the current page are real,
   // linkable URLs. "Chains" has no `item` — there is no /chains hub page in
@@ -180,7 +195,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const itemListJsonLd = renderItemListJsonLd(rec.pools, appUrl, language);
   const datasetJsonLd = renderDatasetJsonLd(
     t('tcpDatasetChainName', rec.chain),
-    t('tcpDatasetChainDescription', rec.chain),
+    t('tcpDatasetChainDescription', rec.chain, floorStr),
     pageUrl,
     genDate
   );
@@ -307,7 +322,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}
 <body>
   <main class="cp-wrap">
     <h1>${escapeHtml(t('tcpChainHeading', rec.chain))}</h1>
-${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount))}</p>
+${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="intro">${intro}</p>
 ${yieldHeadlineBlock}    <a class="cp-cta" href="${appUrl}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
     <div class="cp-card">
@@ -322,7 +337,7 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
 ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>
@@ -369,7 +384,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains`, { page_ty
   <main class="hub-wrap">
     <h1>${escapeHtml(t('tcpChainHubHeading'))}</h1>
     <p class="sub">${escapeHtml(t('tcpChainHubSub', ranked.length))}</p>
-    <p class="intro">${escapeHtml(t('tcpChainHubIntro'))}</p>
+    <p class="intro">${escapeHtml(t('tcpChainHubIntro', formatUsd(MIN_POOL_TVL)))}</p>
     <a class="hub-cta" href="${SITE_URL}/">${escapeHtml(t('tcpHubBackCta'))}</a>
     <div class="hub-card">
       <h2>${escapeHtml(t('tcpAllChainsHeading'))}</h2>
@@ -377,7 +392,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains`, { page_ty
         ${links}
       </div>
     </div>
-${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
+${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
   </main>
 </body>
 </html>

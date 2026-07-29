@@ -785,6 +785,15 @@
     <priority>0.90</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=USDAT</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDAT" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDAT&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDAT" />
+    <lastmod>2026-07-29T15:47:44.354Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=USDC</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;lang=ko" />
@@ -951,9 +960,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSRUSD" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSRUSD&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSRUSD" />
-    <lastmod>2026-07-29T05:21:35.056Z</lastmod>
+    <lastmod>2026-07-29T15:47:44.354Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.88</priority>
+    <priority>0.87</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WSTETH</loc>
@@ -978,9 +987,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XBTC" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XBTC&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XBTC" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-07-29T15:47:44.354Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.86</priority>
+    <priority>0.87</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=XMR</loc>
