@@ -27,7 +27,7 @@ const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 // --- DefiLlama-shaped fixtures ------------------------------------------
-// All sized above DEFAULT_MIN_TVL ($10M) so trust-rail filtering never hides
+// All sized above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M) so trust-rail filtering never hides
 // them, and all with a total APY below the sanity limit (1000%) so anomaly
 // demotion never interferes with the apyMean30d gate under test.
 function makePool(overrides) {

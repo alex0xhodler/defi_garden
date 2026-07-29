@@ -40,9 +40,9 @@ const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/p
 
 // --- DefiLlama-shaped fixture pools --------------------------------------
 // Realistic project slugs / chain names / symbol conventions, sized well
-// above DEFAULT_MIN_TVL ($10M) so trust-rail filtering never hides them.
-// Includes below-floor and off-topic noise pools so a query only surfaces
-// pools it should.
+// above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M) so trust-rail
+// filtering never hides them. Includes an old-floor/new-floor boundary pool
+// and off-topic noise pools so a query only surfaces pools it should.
 function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
   const pool = { pool: id, project, symbol, chain, tvlUsd, apyBase: apyBase || 0, apyReward: 0 };
   if (poolMeta) pool.poolMeta = poolMeta;
@@ -70,7 +70,7 @@ const FIXTURE_POOLS = [
   makePool('sol-sol-marinade', 'marinade', 'SOL', 'Solana', 60_000_000, 6.8),
   makePool('eth-usdc-aerodrome', 'aerodrome-slipstream', 'ETH-USDC', 'Base', 50_000_000, 18.0),
   makePool('usdc-base-compound', 'compound-v3', 'USDC', 'Base', 28_000_000, 4.0),
-  makePool('usdc-eth-sushi-belowfloor', 'sushiswap', 'USDC', 'Ethereum', 500_000, 9.0), // below $10M floor
+  makePool('usdc-eth-sushi-belowfloor', 'sushiswap', 'USDC', 'Ethereum', 500_000, 9.0), // below the old $10M floor, above the new $100K one (spec 173) — none of the QUERIES below target it by chain/context, so this is harmless noise either way
   makePool('eth-polygon-lido', 'lido', 'ETH', 'Polygon', 40_000_000, 3.5) // off-topic noise
 ];
 

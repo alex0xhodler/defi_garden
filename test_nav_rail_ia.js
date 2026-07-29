@@ -36,7 +36,7 @@ function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
   if (poolMeta) pool.poolMeta = poolMeta;
   return pool;
 }
-// All TVL > $10M, non-zero apyBase, symbols carry a token segment (USDC).
+// All TVL well above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M), non-zero apyBase, symbols carry a token segment (USDC).
 // Two Base pools spanning RWA + Lending; one Ethereum pool so availableChains > 1.
 const FIXTURE_POOLS = [
   makePool('rwa-ondo-base', 'ondo-yield-assets', 'USDC-ONDO', 'Base', 120_000_000, 4.5),

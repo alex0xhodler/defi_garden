@@ -25,7 +25,7 @@ const MIME = {
 const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons\.llamao\.fi|api\.llama\.fi\/protocols|fontshare\.com/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
-// All TVL > $10M, non-zero apyBase, distinct pool id + symbol. These exercise
+// All TVL well above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M), non-zero apyBase, distinct pool id + symbol. These exercise
 // each branch of the shared classifier as seen on the pool-detail hero badge.
 const FIXTURE_POOLS = [
   { pool: 'p-susds', project: 'sky-lending', symbol: 'SUSDS', chain: 'Ethereum', tvlUsd: 200_000_000, apyBase: 3.6, apyReward: 0 },

@@ -29,7 +29,7 @@ const MIME = {
 const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons\.llamao\.fi|api\.llama\.fi\/protocols|fontshare\.com/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
-// DefiLlama-shaped fixture: sized above DEFAULT_MIN_TVL ($10M) so trust-rail
+// DefiLlama-shaped fixture: sized above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M) so trust-rail
 // filtering never hides them. Several yielding Base pools plus ONE high-TVL
 // 0%-yield collateral pool (CBBTC) whose TVL dwarfs every yielding pool — the
 // exact population the audit flags. `apyReward` defaults to 0 in makePool.

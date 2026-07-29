@@ -12,15 +12,24 @@
    generatedAt of NOW at test runtime (never a committed date). Scenarios that
    must fall back to live also assert the live endpoint was actually requested.
 
-   Scenarios (spec 059 E2):
-     (a) fresh snapshot + live ABORTED → ?token=USDC renders snapshot cards, no live call
-     (b) snapshot 404 + live fixture → cards render from live (missing → fallback)
-     (c) STALE snapshot (7h > 6h gate) + live fixture → cards render from live AND live was hit
-     (c2) WITHIN-GATE snapshot (3h < 6h gate, spec 140) + live ABORTED → snapshot cards, no live call
-     (d) equivalence: same pools as snapshot vs as live → identical rendered set
+   Scenarios (spec 059 E2; (a)/(c2)/(d) explicitly pin ?minTvl=10000000 as of
+   spec 173, 2026-07-29 — DEFAULT_MIN_TVL dropped to $100K that day, so the
+   bare-URL default they used to rely on for snapshot ELIGIBILITY is gone;
+   they now assert the same snapshot mechanics at the floor that's still
+   actually snapshot-eligible, SNAPSHOT_MIN_TVL = $10M):
+     (a) ?minTvl=10000000 + fresh snapshot + live ABORTED → renders snapshot cards, no live call
+     (b) ?minTvl=10000000 + snapshot 404 + live fixture → cards render from live (missing → fallback)
+     (c) ?minTvl=10000000 + STALE snapshot (7h > 6h gate) + live fixture → cards render from live AND live was hit
+     (c2) ?minTvl=10000000 + WITHIN-GATE snapshot (3h < 6h gate, spec 140) + live ABORTED → snapshot cards, no live call
+     (d) ?minTvl=10000000 equivalence: same pools as snapshot vs as live → identical rendered set
      (e) ?minTvl=10000 + fresh snapshot + live fixture → live used (rail-relax gate)
      (f) bare / planner renders with fresh snapshot + live ABORTED (both router paths)
      (g) ?pool=<id> + fresh snapshot + live fixture → live used (sacred deep link)
+     (h) spec 173 TRAP CHECK: bare (no ?minTvl=) + fresh snapshot + live fixture →
+         DEFAULT now loads LIVE (not the $10M-floored snapshot), and a pool between
+         $100K and $10M is visible in the grid
+     (i) spec 173 REGRESSION CONTROL: ?minTvl=10000000 serves the snapshot, then
+         relaxing the TVL chip below $10M fires the escape-hatch live refetch
 
    Run: node test_snapshot_first.js */
 const http = require('http');
@@ -58,6 +67,14 @@ const LIVE_POOLS = [
 const SHARED_POOLS = [
   projPool('shared-usdc-1', 'sharedproto', 'USDC', 'Ethereum', 50_000_000, 4.5),
   projPool('shared-usdc-2', 'sharedprotob', 'USDC', 'Polygon', 22_000_000, 3.7)
+];
+// Spec 173 (h): a live pool between the new $100K default and the snapshot's
+// own $10M physical floor. The snapshot (SNAPSHOT_POOLS, all >= $10M per its
+// own filter) can never legitimately contain this pool, so its appearance
+// proves the render came from live, not from the $10M-floored snapshot.
+const MIXED_LIVE_POOLS = [
+  projPool('live-usdc-1', 'liveproto', 'USDC', 'Base', 60_000_000, 4.0),
+  projPool('live-usdc-small', 'liveprotosmall100k', 'USDC', 'Polygon', 500_000, 6.0)
 ];
 
 function snapshotEnvelope(pools, generatedAt) {
@@ -142,12 +159,16 @@ async function main() {
   const server = await startServer();
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
-    // (a) fresh snapshot + live ABORTED → snapshot cards, no live call.
-    await test('(a) fresh snapshot + live aborted → ?token=USDC renders snapshot cards, no live call', async () => {
+    // (a) fresh snapshot + live ABORTED → snapshot cards, no live call. Pins
+    // ?minTvl=10000000 (spec 173): the bare-URL default is $100K now, which is
+    // below SNAPSHOT_MIN_TVL and would never reach the snapshot at all — this
+    // scenario tests the snapshot's OWN fetch mechanics, so it must supply an
+    // effective minTvl that's still actually snapshot-eligible.
+    await test('(a) ?minTvl=10000000 + fresh snapshot + live aborted → renders snapshot cards, no live call', async () => {
       const ts = freshTs();
       const r = await makeRouted(browser, { meta: { pools: SNAPSHOT_POOLS, ts }, snap: { pools: SNAPSHOT_POOLS, ts }, live: null });
       try {
-        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC&minTvl=10000000`, { waitUntil: 'load', timeout: 20000 });
         const ctx = await cardContexts(r.page);
         if (!everyIncludes(ctx, 'snapproto')) throw new Error('expected snapshot cards (snapproto), got: ' + JSON.stringify(ctx));
         if (anyIncludes(ctx, 'liveproto')) throw new Error('live pools must not appear when live is aborted');
@@ -155,23 +176,28 @@ async function main() {
       } finally { await r.context.close(); }
     });
 
-    // (b) snapshot 404 + live fixture → cards render from live.
-    await test('(b) snapshot 404 + live fixture → cards render from live (missing → fallback)', async () => {
+    // (b) snapshot 404 + live fixture → cards render from live. Pins
+    // ?minTvl=10000000 (spec 173) so this scenario still actually exercises the
+    // meta-404 fallback path rather than passing vacuously via the (now much
+    // lower) default already being snapshot-ineligible.
+    await test('(b) ?minTvl=10000000 + snapshot 404 + live fixture → cards render from live (missing → fallback)', async () => {
       const r = await makeRouted(browser, { meta: null, snap: null, live: { pools: LIVE_POOLS } });
       try {
-        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC&minTvl=10000000`, { waitUntil: 'load', timeout: 20000 });
         const ctx = await cardContexts(r.page);
         if (!everyIncludes(ctx, 'liveproto')) throw new Error('expected live cards (liveproto), got: ' + JSON.stringify(ctx));
         if (r.liveHits() < 1) throw new Error('expected the live endpoint to be hit on snapshot 404');
       } finally { await r.context.close(); }
     });
 
-    // (c) STALE snapshot + live fixture → live cards AND live was hit.
-    await test('(c) stale snapshot + live fixture → cards render from live AND live was requested', async () => {
+    // (c) STALE snapshot + live fixture → live cards AND live was hit. Pins
+    // ?minTvl=10000000 (spec 173) so this still tests the STALENESS gate
+    // specifically, not the (now separate) default-eligibility threshold.
+    await test('(c) ?minTvl=10000000 + stale snapshot + live fixture → cards render from live AND live was requested', async () => {
       const stale = staleTs();
       const r = await makeRouted(browser, { meta: { pools: SNAPSHOT_POOLS, ts: stale }, snap: { pools: SNAPSHOT_POOLS, ts: stale }, live: { pools: LIVE_POOLS } });
       try {
-        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC&minTvl=10000000`, { waitUntil: 'load', timeout: 20000 });
         const ctx = await cardContexts(r.page);
         if (!everyIncludes(ctx, 'liveproto')) throw new Error('stale snapshot must fall back to live, got: ' + JSON.stringify(ctx));
         if (r.liveHits() < 1) throw new Error('expected the live endpoint to be hit for a stale snapshot');
@@ -180,12 +206,13 @@ async function main() {
 
     // (c2) WITHIN-GATE snapshot (3h old, < 6h) + live aborted → snapshot served, no live call.
     //      This is the spec-140 acceptance: an age the OLD 15-min gate would have
-    //      rejected now stays on the fast path.
-    await test('(c2) within-gate snapshot (3h < 6h) + live aborted → snapshot cards, no live call', async () => {
+    //      rejected now stays on the fast path. Pins ?minTvl=10000000 (spec 173)
+    //      for the same reason as (a)/(b)/(c) above.
+    await test('(c2) ?minTvl=10000000 + within-gate snapshot (3h < 6h) + live aborted → snapshot cards, no live call', async () => {
       const ts = withinTs();
       const r = await makeRouted(browser, { meta: { pools: SNAPSHOT_POOLS, ts }, snap: { pools: SNAPSHOT_POOLS, ts }, live: null });
       try {
-        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC&minTvl=10000000`, { waitUntil: 'load', timeout: 20000 });
         const ctx = await cardContexts(r.page);
         if (!everyIncludes(ctx, 'snapproto')) throw new Error('expected snapshot cards (snapproto) for a 3h-old snapshot, got: ' + JSON.stringify(ctx));
         if (anyIncludes(ctx, 'liveproto')) throw new Error('live pools must not appear for a within-gate snapshot');
@@ -194,17 +221,19 @@ async function main() {
     });
 
     // (d) equivalence: same pools via snapshot vs via live → identical set.
-    await test('(d) equivalence: same pools as snapshot vs as live render the identical card set', async () => {
+    // Pins ?minTvl=10000000 (spec 173) on both branches so the snapshot branch
+    // is actually snapshot-eligible (the bare-URL default no longer is).
+    await test('(d) ?minTvl=10000000 equivalence: same pools as snapshot vs as live render the identical card set', async () => {
       const ts = freshTs();
       let viaSnapshot, viaLive;
       const r1 = await makeRouted(browser, { meta: { pools: SHARED_POOLS, ts }, snap: { pools: SHARED_POOLS, ts }, live: null });
       try {
-        await r1.page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+        await r1.page.goto(`http://localhost:${PORT}/home.html?token=USDC&minTvl=10000000`, { waitUntil: 'load', timeout: 20000 });
         viaSnapshot = (await cardContexts(r1.page)).slice().sort();
       } finally { await r1.context.close(); }
       const r2 = await makeRouted(browser, { meta: null, snap: null, live: { pools: SHARED_POOLS } });
       try {
-        await r2.page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+        await r2.page.goto(`http://localhost:${PORT}/home.html?token=USDC&minTvl=10000000`, { waitUntil: 'load', timeout: 20000 });
         viaLive = (await cardContexts(r2.page)).slice().sort();
       } finally { await r2.context.close(); }
       if (JSON.stringify(viaSnapshot) !== JSON.stringify(viaLive)) {
@@ -252,12 +281,79 @@ async function main() {
         if (r.liveHits() < 1) throw new Error('?pool= deep link must always fetch live');
       } finally { await r.context.close(); }
     });
+
+    // (h) SPEC 173 TRAP CHECK — the acceptance criterion this item exists to
+    // prove: at the new $100K default (no ?minTvl= at all), the app must NOT
+    // serve the $10M-floored static snapshot. If it wrongly did (the exact bug
+    // naively renaming DEFAULT_MIN_TVL would have caused), a pool between
+    // $100K and $10M could never appear, because the snapshot itself never
+    // contains one. live-usdc-small ($500K) is present ONLY in the live
+    // fixture, never in SNAPSHOT_POOLS (all >= $10M) — its presence in the
+    // rendered grid is the proof the render came from live.
+    await test('(h) spec 173 trap check: DEFAULT (no ?minTvl=) + fresh snapshot + live fixture → loads LIVE, and a $100K-$10M pool is visible', async () => {
+      const ts = freshTs();
+      const r = await makeRouted(browser, { meta: { pools: SNAPSHOT_POOLS, ts }, snap: { pools: SNAPSHOT_POOLS, ts }, live: { pools: MIXED_LIVE_POOLS } });
+      try {
+        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+        const ctx = await cardContexts(r.page);
+        if (!anyIncludes(ctx, 'liveprotosmall100k')) {
+          throw new Error('expected the $500K live-only pool (liveprotosmall100k) to be visible at the new $100K default, got: ' + JSON.stringify(ctx));
+        }
+        if (anyIncludes(ctx, 'snapproto')) {
+          throw new Error('the $10M-floored snapshot must not serve the default view any more, got: ' + JSON.stringify(ctx));
+        }
+        if (r.liveHits() < 1) throw new Error('expected the live endpoint to be hit at the new $100K default (snapshot-ineligible)');
+      } finally { await r.context.close(); }
+    });
+
+    // (i) SPEC 173 REGRESSION CONTROL — item 059's snapshot win must still be
+    // intact for a request whose effective minTvl is still >= $10M, AND the
+    // escape hatch (spec 059 B3) must still fire the instant that effective
+    // floor drops below $10M (e.g. the user picks a lower TVL chip).
+    await test('(i) spec 173 regression control: ?minTvl=10000000 serves the snapshot, then relaxing below $10M fires the escape-hatch live refetch', async () => {
+      const ts = freshTs();
+      const r = await makeRouted(browser, { meta: { pools: SNAPSHOT_POOLS, ts }, snap: { pools: SNAPSHOT_POOLS, ts }, live: { pools: MIXED_LIVE_POOLS } });
+      try {
+        await r.page.goto(`http://localhost:${PORT}/home.html?token=USDC&minTvl=10000000`, { waitUntil: 'load', timeout: 20000 });
+        const initialCtx = await cardContexts(r.page);
+        if (!everyIncludes(initialCtx, 'snapproto')) {
+          throw new Error('expected the snapshot to serve ?minTvl=10000000, got: ' + JSON.stringify(initialCtx));
+        }
+        if (r.liveHits() !== 0) throw new Error(`expected 0 live requests before relaxing the floor, got ${r.liveHits()}`);
+
+        // Relax the TVL floor via the real UI chip (not a URL edit) to $100K+,
+        // below SNAPSHOT_MIN_TVL — this must trigger the escape-hatch effect.
+        await r.page.click('#tvl-btn');
+        await r.page.waitForSelector('.global-filter-dropdown', { timeout: 5000 });
+        await r.page.evaluate(() => {
+          const chip = Array.from(document.querySelectorAll('.global-filter-dropdown .filter-chip'))
+            .find(c => c.textContent.trim() === '$100K+');
+          if (!chip) throw new Error('no $100K+ TVL chip found');
+          chip.click();
+        });
+
+        // Poll for the escape hatch's live refetch to land: liveproto-small100k
+        // only exists in the live fixture, so its arrival proves the refetch
+        // completed and replaced `pools` with the live payload.
+        const deadline = Date.now() + 8000;
+        let settledCtx = initialCtx;
+        while (Date.now() < deadline) {
+          settledCtx = await cardContexts(r.page);
+          if (anyIncludes(settledCtx, 'liveprotosmall100k')) break;
+          await r.page.waitForTimeout(150);
+        }
+        if (!anyIncludes(settledCtx, 'liveprotosmall100k')) {
+          throw new Error('escape hatch never surfaced the live $500K pool after relaxing below $10M, got: ' + JSON.stringify(settledCtx));
+        }
+        if (r.liveHits() < 1) throw new Error('expected the escape-hatch live refetch to hit the live endpoint after relaxing below $10M');
+      } finally { await r.context.close(); }
+    });
   } finally {
     await browser.close();
     server.close();
   }
-  console.log(`\n${passed}/8 snapshot-first scenarios passed`);
-  if (passed !== 8) process.exitCode = 1;
+  console.log(`\n${passed}/10 snapshot-first scenarios passed`);
+  if (passed !== 10) process.exitCode = 1;
 }
 
 main().catch((err) => {

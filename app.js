@@ -798,7 +798,34 @@ function AnimatedNumber({ value, formatFn = (v) => v, duration = 1200, delay = 0
 
 // APY sanity constants
 const APY_SANITY_LIMIT = 1000;
-const DEFAULT_MIN_TVL = 10000000; // $10M default floor
+// Analytics grid's default filter value (the user-adjustable TVL chip state
+// initializes here; chips at ~:3506 offer No Min/$10K+/$100K+/$1M+/$10M+ and
+// ?minTvl= overrides). Human-relaxed 2026-07-29 from $10M to $100K (spec 173,
+// leg A of that directive) — NOT the snapshot's physical floor; see
+// SNAPSHOT_MIN_TVL below for that.
+const DEFAULT_MIN_TVL = 100000; // $100K default floor
+// The static snapshot's OWN physical floor. Mirrors generate-pools-snapshot.js:52
+// ("$10M floor — applied upstream, never lowered") — this constant names an
+// already-true property of that file, it does not set a new rail. Used ONLY to
+// decide whether the snapshot may serve a request (the two guards below), never
+// as the analytics grid's user-facing default (that's DEFAULT_MIN_TVL). Spec 173
+// split these two jobs apart: before the split, lowering DEFAULT_MIN_TVL alone
+// would have made the app serve the $10M-floored snapshot while claiming a
+// $100K floor, AND disabled the escape-hatch refetch that exists to rescue
+// exactly that mismatch.
+const SNAPSHOT_MIN_TVL = 10000000;
+
+// Renders a TVL floor threshold as short user-facing copy ("$100K", "$10M") —
+// used ONLY to keep the empty-state / trust-floor strings (translations.js)
+// honest about whichever floor is actually active, so they never rot the next
+// time DEFAULT_MIN_TVL moves (spec 173). Money DISPLAY precision elsewhere
+// stays on formatUsd/formatNum/formatApy inside App(); this is copy-only.
+const formatMinTvlLabel = (value) => {
+  const n = Number(value) || 0;
+  if (n >= 1000000) return '$' + (n / 1000000).toLocaleString('en-US') + 'M';
+  if (n >= 1000) return '$' + (n / 1000).toLocaleString('en-US') + 'K';
+  return '$' + n.toLocaleString('en-US');
+};
 
 // A pool with (near-)zero total APY is a no-supply-yield / collateral asset —
 // it must never top the default browse (092). Below 0.01% reads as "0.00%"
@@ -1076,8 +1103,13 @@ function App() {
   // Background fetch pools data after UI loads.
   // Snapshot-first (spec 059): when this load can be served by the railed static
   // snapshot (no ?pool= deep link — those ALWAYS go live, spec 072 dead-pool
-  // empty state; and the initial minTvl is at/above the $10M floor the snapshot
-  // is filtered to), try the small snapshot behind a 15-min freshness gate.
+  // empty state; and the effective minTvl is at/above the snapshot's own $10M
+  // floor, SNAPSHOT_MIN_TVL), try the small snapshot behind a freshness gate.
+  // Spec 173 (2026-07-29): DEFAULT_MIN_TVL is now $100K, below SNAPSHOT_MIN_TVL,
+  // so the DEFAULT view is snapshot-INELIGIBLE and goes straight to live — the
+  // intended trade the human accepted when relaxing the default floor. A
+  // request whose effective minTvl is still >= $10M (e.g. ?minTvl=10000000)
+  // remains snapshot-eligible exactly as before.
   // ANY failure at ANY step falls straight through to today's exact live path —
   // the snapshot is a perf layer, never a source of truth the app can't route
   // around. Trust rails (APY_SANITY_LIMIT / DEFAULT_MIN_TVL / anomaly demotion)
@@ -1138,7 +1170,7 @@ function App() {
       try {
         setError('');
         const urlParams = getUrlParams();
-        const snapshotEligible = !urlParams.pool && urlParams.minTvl >= DEFAULT_MIN_TVL;
+        const snapshotEligible = !urlParams.pool && urlParams.minTvl >= SNAPSHOT_MIN_TVL;
         if (snapshotEligible && await tryLoadSnapshot(startTime)) {
           return;
         }
@@ -1164,7 +1196,7 @@ function App() {
   // replace `pools` so no filter state ever under-reports vs a live load. On
   // failure the snapshot pools (all >= $10M) stay — never worse than before.
   useEffect(() => {
-    if (poolsSourceRef.current !== 'snapshot' || minTvl >= DEFAULT_MIN_TVL) return;
+    if (poolsSourceRef.current !== 'snapshot' || minTvl >= SNAPSHOT_MIN_TVL) return;
     let alive = true;
     (async () => {
       try {
@@ -2360,8 +2392,9 @@ function App() {
   // Up to 5 live alternatives for the honest empty state: top-TVL pools on the
   // same chain first, else top-TVL stablecoin pools. Always drawn from `pools`
   // already in memory (no new network call) and always passing the same trust
-  // rails as the rest of the app — the $10M floor (DEFAULT_MIN_TVL, not the
-  // user's own possibly-relaxed minTvl) and the anomaly check above — so an
+  // rails as the rest of the app — the DEFAULT_MIN_TVL floor ($100K as of
+  // spec 173, not the user's own possibly-relaxed minTvl) and the anomaly
+  // check above — so an
   // anomalous or sub-floor pool can never appear as a "trustworthy" suggestion.
   const getEmptyStateAlternatives = (targetChain) => {
     const passesTrustRails = (pool) => pool.tvlUsd >= DEFAULT_MIN_TVL && !isAnomalousApy(pool);
@@ -3223,7 +3256,10 @@ function App() {
           ),
           React.createElement('div', { className: 'empty-submessage' },
             deadPoolResolved
-              ? t('poolNotFoundExplanation')
+              // Dead-pool alternatives are always filtered at DEFAULT_MIN_TVL
+              // (see getEmptyStateAlternatives), never the user's own
+              // possibly-relaxed minTvl — so the copy names that fixed floor.
+              ? t('poolNotFoundExplanation', formatMinTvlLabel(DEFAULT_MIN_TVL))
               : chainMode && selectedChain && !selectedToken
                 ? t('adjustFiltersChain')
                 : t('adjustFilters')
@@ -3231,16 +3267,22 @@ function App() {
           // Honest empty state (spec 012) — only once the pools fetch has
           // actually resolved (emptyStateResolved), never during the
           // pre-fetch flash, when claiming "no live pools" would be false.
+          // This explanation describes why filteredPools is empty, which is
+          // gated on the user's ACTIVE minTvl (the state variable, not the
+          // DEFAULT_MIN_TVL constant) — so the floor named here must be
+          // whichever value the user actually has selected (spec 173).
           !deadPoolResolved && emptyStateResolved && React.createElement('div', { className: 'empty-submessage' },
             chainMode && selectedChain && !selectedToken
-              ? t('emptyStateExplanationChain', selectedChain)
-              : t('emptyStateExplanation', selectedToken)
+              ? t('emptyStateExplanationChain', selectedChain, formatMinTvlLabel(minTvl))
+              : t('emptyStateExplanation', selectedToken, formatMinTvlLabel(minTvl))
           ),
           !deadPoolResolved && emptyStateResolved && emptyAlternatives.items.length > 0 && React.createElement('div', { className: 'empty-state-alternatives' },
             React.createElement('div', { className: 'empty-submessage' },
+              // Alternatives are always filtered at DEFAULT_MIN_TVL (fixed
+              // floor, not the user's minTvl) — see getEmptyStateAlternatives.
               emptyAlternatives.source === 'chain'
-                ? t('emptyStateAltHeadingChain', selectedChain)
-                : t('emptyStateAltHeadingStable')
+                ? t('emptyStateAltHeadingChain', selectedChain, formatMinTvlLabel(DEFAULT_MIN_TVL))
+                : t('emptyStateAltHeadingStable', formatMinTvlLabel(DEFAULT_MIN_TVL))
             ),
             React.createElement('div', { className: 'pools-grid' },
               emptyAlternatives.items.map((pool, index) =>
@@ -3251,7 +3293,7 @@ function App() {
           // Dead-pool alternatives (spec 072): top-TVL stablecoin pools via the same trust rails.
           deadPoolResolved && deadPoolAlternatives.items.length > 0 && React.createElement('div', { className: 'empty-state-alternatives' },
             React.createElement('div', { className: 'empty-submessage' },
-              t('emptyStateAltHeadingStable')
+              t('emptyStateAltHeadingStable', formatMinTvlLabel(DEFAULT_MIN_TVL))
             ),
             React.createElement('div', { className: 'pools-grid' },
               deadPoolAlternatives.items.map((pool, index) =>

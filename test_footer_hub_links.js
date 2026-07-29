@@ -41,7 +41,7 @@ const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons
 const POOLS_URL = 'https://yields.llama.fi/pools';
 
 // DefiLlama-shaped fixture so /?token=USDC renders .pool-card elements (and thus
-// the main-view .app-footer). Above the $10M TVL floor, non-zero apyBase.
+// the main-view .app-footer). Above the $100K TVL floor (spec 173, was $10M), non-zero apyBase.
 function makePool(id, project, symbol, chain, tvlUsd, apyBase) {
   return { pool: id, project, symbol, chain, tvlUsd, apyBase: apyBase || 0, apyReward: 0 };
 }

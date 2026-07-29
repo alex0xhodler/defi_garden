@@ -34,17 +34,20 @@ const KO_TITLE = tr.ko.poolNotFoundTitle;
 
 const DEAD_ID = 'definitely-not-a-real-pool-id';
 
-// Fixture pools: stablecoin pools well above the $10M floor (DEFAULT_MIN_TVL)
-// become the honest alternatives; one sub-floor stable pool must be excluded;
-// VALID_ID is a real live pool used to prove a valid ?pool= URL is never
-// noindexed and still renders pool detail.
+// Fixture pools: stablecoin pools well above the $100K floor (DEFAULT_MIN_TVL,
+// $100K as of spec 173, was $10M) become the honest alternatives; one
+// sub-floor stable pool must be excluded; VALID_ID is a real live pool used to
+// prove a valid ?pool= URL is never noindexed and still renders pool detail.
 const VALID_ID = 'usdc-eth-aave-valid';
 const FIXTURE_POOLS = { status: 'success', data: [
   { pool: VALID_ID,          symbol: 'USDC', project: 'aave-v3',     chain: 'Ethereum', apyBase: 5,  apyReward: 0, tvlUsd: 800000000 },
   { pool: 'usdt-eth-comp',   symbol: 'USDT', project: 'compound-v3', chain: 'Ethereum', apyBase: 6,  apyReward: 0, tvlUsd: 400000000 },
   { pool: 'dai-eth-morpho',  symbol: 'DAI',  project: 'morpho-blue', chain: 'Ethereum', apyBase: 7,  apyReward: 0, tvlUsd: 250000000 },
   { pool: 'usds-eth-spark',  symbol: 'USDS', project: 'spark',       chain: 'Ethereum', apyBase: 4,  apyReward: 0, tvlUsd: 120000000 },
-  { pool: 'usdc-eth-subfloor', symbol: 'USDC', project: 'sushiswap', chain: 'Ethereum', apyBase: 9, apyReward: 0, tvlUsd: 500000 } // below $10M -> excluded
+  // Spec 173: was 500_000, which cleared the $10M-era floor's "excluded" bar
+  // but no longer clears the new $100K floor — updated to a value genuinely
+  // BELOW $100K so this fixture still tests sub-floor exclusion at all.
+  { pool: 'usdc-eth-subfloor', symbol: 'USDC', project: 'sushiswap', chain: 'Ethereum', apyBase: 9, apyReward: 0, tvlUsd: 50000 } // below $100K -> excluded
 ] };
 const FIXTURE_RESPONSE = JSON.stringify(FIXTURE_POOLS);
 
@@ -131,8 +134,9 @@ async function main() {
       const altCards = await page.locator('.empty-state-alternatives .pool-card').count();
       if (altCards < 1) throw new Error(`expected >=1 alternative pool-card, got ${altCards}`);
 
-      // Every alternative must be a fixture pool above the $10M floor.
-      const aboveFloor = new Set(FIXTURE_POOLS.data.filter(p => p.tvlUsd >= 10_000_000).map(p => p.symbol));
+      // Every alternative must be a fixture pool above the $100K floor
+      // (DEFAULT_MIN_TVL, spec 173 — was $10M).
+      const aboveFloor = new Set(FIXTURE_POOLS.data.filter(p => p.tvlUsd >= 100_000).map(p => p.symbol));
       const altSymbols = await page.locator('.empty-state-alternatives .pool-symbol').allTextContents();
       for (const s of altSymbols) {
         const base = s.trim().split(/[-\s/]/)[0];

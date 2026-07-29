@@ -15,7 +15,7 @@
    FE's 15-min freshness gate falls back to the live fixture rather than the
    committed snapshot — mirrors test_default_sort.js / test_zero_yield_demote.js.
 
-   Fixture: all pools above DEFAULT_MIN_TVL ($10M), every symbol carries the
+   Fixture: all pools above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M), every symbol carries the
    "USDC" token segment (so /?token=USDC matches all) and every pool is on chain
    Base (so /?chain=Base matches all) — one fixture drives token + chain modes.
    Numeric-Sharpe order is MAXIMALLY different from TVL order so DOM order is

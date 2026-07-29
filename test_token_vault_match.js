@@ -34,8 +34,8 @@ function makePool(id, project, symbol, chain, tvlUsd, apyBase) {
 }
 // DefiLlama-shaped: Morpho Blue vaults carry vault-ticker symbols; the bare
 // "USDC" pools are the only ones the OLD exact-match kept. Plus noise:
-// wrong-chain USDC (Ethereum), a below-$10M-floor USDC pool, and a WETH pool
-// (over-match guard — a USDC search must NOT pull it in).
+// wrong-chain USDC (Ethereum), a below-$100K-floor USDC pool (spec 173, was
+// $10M), and a WETH pool (over-match guard — a USDC search must NOT pull it in).
 const FIXTURE_POOLS = [
   makePool('base-gtusdcp',   'morpho-blue',        'GTUSDCP',     'Base',     428_000_000, 4.33),
   makePool('base-steakusdc', 'morpho-blue',        'STEAKUSDC',   'Base',     370_000_000, 4.36),
@@ -44,7 +44,10 @@ const FIXTURE_POOLS = [
   makePool('base-usdc-aave', 'aave-v3',            'USDC',        'Base',      33_000_000, 3.02),
   makePool('base-weth-aave', 'aave-v3',            'WETH',        'Base',     100_000_000, 2.10), // must NOT match USDC
   makePool('eth-steakusdc',  'morpho-blue',        'STEAKUSDC',   'Ethereum', 230_000_000, 4.11), // wrong chain
-  makePool('base-usdc-tiny', 'some-proto',         'PUSDC',       'Base',       5_000_000, 3.89)   // below $10M floor
+  // Spec 173: was 5_000_000 (below the old $10M default), which no longer
+  // clears the new $100K default — changed to a value genuinely below $100K
+  // so this fixture still tests sub-floor exclusion at all.
+  makePool('base-usdc-tiny', 'some-proto',         'PUSDC',       'Base',          50_000, 3.89)   // below $100K floor
 ];
 const FIXTURE_RESPONSE = JSON.stringify({ status: 'success', data: FIXTURE_POOLS });
 
@@ -116,12 +119,13 @@ async function main() {
       }
     });
 
-    await test('chain + TVL rails still hold (wrong-chain + sub-$10M pools excluded)', async () => {
-      // 5 Base USDC-substring pools are >= $10M; the Ethereum STEAKUSDC and the
-      // $5M PUSDC must be absent. (PUSDC substring-matches USDC but is below floor.)
+    await test('chain + TVL rails still hold (wrong-chain + sub-$100K pools excluded)', async () => {
+      // 5 Base USDC-substring pools are >= $100K (DEFAULT_MIN_TVL, spec 173);
+      // the Ethereum STEAKUSDC and the $50K PUSDC must be absent. (PUSDC
+      // substring-matches USDC but is below floor.)
       const count = shared.symbols.length;
       if (count !== 5) throw new Error('expected exactly 5 cards (chain+floor rails), got ' + count + ': ' + JSON.stringify(shared.symbols));
-      if (shared.symbols.some((s) => s.includes('PUSDC'))) throw new Error('sub-$10M PUSDC pool leaked past the TVL floor');
+      if (shared.symbols.some((s) => s.includes('PUSDC'))) throw new Error('sub-$100K PUSDC pool leaked past the TVL floor');
     });
   } finally {
     await browser.close();

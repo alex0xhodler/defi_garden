@@ -35,7 +35,7 @@ const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/p
 
 // --- DefiLlama-shaped fixtures ------------------------------------------
 // LIVE /pools pools carry NO kpis (the real SEO live-landing shape). All sized
-// above DEFAULT_MIN_TVL ($10M) so trust-rail filtering never hides them, and
+// above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M) so trust-rail filtering never hides them, and
 // apyBase:6 / apyMean30d:6 so 071's volatility note never fires (it takes
 // precedence over the track-record note).
 function makePool(overrides) {

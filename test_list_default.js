@@ -28,8 +28,9 @@ const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 // DefiLlama-shaped fixture (mirrors test_search.js): sized above DEFAULT_MIN_TVL
-// ($10M) so trust-rail filtering never hides them. USDC + an Ethereum-chain
-// pool guarantee both the ?token= and ?chain= paths render cards.
+// ($100K as of spec 173, was $10M) so trust-rail filtering never hides them.
+// USDC + an Ethereum-chain pool guarantee both the ?token= and ?chain= paths
+// render cards.
 function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
   const pool = { pool: id, project, symbol, chain, tvlUsd, apyBase: apyBase || 0, apyReward: 0 };
   if (poolMeta) pool.poolMeta = poolMeta;

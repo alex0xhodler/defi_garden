@@ -26,7 +26,7 @@ const MIME = { '.html': 'text/html', '.js': 'application/javascript', '.css': 't
 const IGNORABLE = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|icons\.llamao\.fi|fontshare|yields\.llama\.fi|unpkg|pools-snapshot|Failed to load resource/i;
 
 // Fixture pools — none match INFINIFIUSDC, so a search for it resolves EMPTY
-// after load (the case the human hit). All ≥ $10M so the floor never hides them.
+// after load (the case the human hit). All well above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M) so the floor never hides them.
 const FIXTURE = JSON.stringify({ status: 'success', data: [
   { pool: 'usdc-base-aave', project: 'aave-v3', symbol: 'USDC', chain: 'Base', tvlUsd: 45_000_000, apyBase: 4.2, apyReward: 0 },
   { pool: 'eth-eth-aave', project: 'aave-v3', symbol: 'ETH', chain: 'Ethereum', tvlUsd: 200_000_000, apyBase: 2.9, apyReward: 0 }

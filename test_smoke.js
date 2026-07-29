@@ -49,7 +49,7 @@ const POOLS_URL = 'https://yields.llama.fi/pools';
 // --- DefiLlama-shaped fixture (fallback only) ----------------------------
 // Inline (spec 077 §3 builder's choice — test_search.js keeps its own fixture
 // too; requiring it is impossible here since it runs main() at require time).
-// USDC pools sized well above the $10M DEFAULT_MIN_TVL floor with non-zero
+// USDC pools sized well above the $100K DEFAULT_MIN_TVL floor (spec 173, was $10M) with non-zero
 // apyBase so /?token=USDC renders .pool-card elements and survives trust-rail
 // filtering; a couple of non-USDC pools add realistic noise.
 function makePool(id, project, symbol, chain, tvlUsd, apyBase) {

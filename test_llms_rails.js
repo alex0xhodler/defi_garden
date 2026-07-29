@@ -1,10 +1,19 @@
 /* Regression tests for spec 159 — generate-llms.js must apply the SAME trust
-   rails the product enforces (app.js:800 APY_SANITY_LIMIT = 1000, app.js:801
-   DEFAULT_MIN_TVL = 10000000) to the llms.txt / llms-full.txt AI-discovery
-   surface. Before this fix, `pickHighYield()` had no APY ceiling at all and a
-   $10k TVL floor (1000x looser than the product), so the surface published a
-   leaderboard of the dataset's most anomalous pools (up to 353,114% APY) —
-   pools the analytics app itself would never show.
+   rails the product enforces (app.js:800 APY_SANITY_LIMIT = 1000) to the
+   llms.txt / llms-full.txt AI-discovery surface. Before this fix,
+   `pickHighYield()` had no APY ceiling at all and a $10k TVL floor (1000x
+   looser than the product), so the surface published a leaderboard of the
+   dataset's most anomalous pools (up to 353,114% APY) — pools the analytics
+   app itself would never show.
+
+   TVL floor note (spec 173, 2026-07-29): generate-llms.js's own MIN_TVL_USD
+   used to numerically equal app.js's DEFAULT_MIN_TVL (both $10M) because they
+   were both "the trust floor", coincidentally the same figure. Spec 173
+   human-relaxed the analytics app's user-facing default to $100K but
+   deliberately left MIN_TVL_USD untouched (it governs the GENERATED llms.txt
+   surface, whose published "$10M" claim must stay true) — the two constants
+   are independent as of this item, not mirrors of each other, and MIN_TVL_USD
+   is asserted below purely as generate-llms.js's own value.
 
    Covers:
    (a) a fixture pool at 353114.2% APY / $576,877 TVL is excluded — on BOTH
@@ -50,7 +59,7 @@ console.log('llms.txt / llms-full.txt trust rails — 159');
 test('APY_SANITY_LIMIT mirrors app.js:800 (1000)', () => {
   assert.strictEqual(APY_SANITY_LIMIT, 1000);
 });
-test('MIN_TVL_USD mirrors app.js:801 DEFAULT_MIN_TVL ($10M)', () => {
+test('MIN_TVL_USD is generate-llms.js\'s own $10M floor (independent of app.js DEFAULT_MIN_TVL as of spec 173)', () => {
   assert.strictEqual(MIN_TVL_USD, 10000000);
 });
 

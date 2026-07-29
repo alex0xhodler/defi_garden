@@ -12,7 +12,8 @@
    FE's 15-min freshness gate falls back to the live fixture rather than the
    committed snapshot — mirrors test_zero_yield_demote.js / test_list_default.js.
 
-   Fixture: all pools above DEFAULT_MIN_TVL ($10M), all with non-zero apyBase (so
+   Fixture: all pools above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M), all
+   with non-zero apyBase (so
    092's no-supply-yield demote never interferes — this test is purely about
    TVL-vs-APY ordering of yielding pools). TVL-desc order and APY-desc order are
    MAXIMALLY different, so DOM order is unambiguous:

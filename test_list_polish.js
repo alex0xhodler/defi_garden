@@ -33,7 +33,7 @@ const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 // DefiLlama-shaped fixture (mirrors test_list_default.js): sized above
-// DEFAULT_MIN_TVL ($10M) so trust-rail filtering never hides them. Includes a
+// DEFAULT_MIN_TVL ($100K as of spec 173, was $10M) so trust-rail filtering never hides them. Includes a
 // 0-yield USDC pool so the ?token=USDC list renders a "No supply yield" row.
 function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
   const pool = { pool: id, project, symbol, chain, tvlUsd, apyBase: apyBase || 0, apyReward: 0 };

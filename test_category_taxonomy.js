@@ -97,7 +97,7 @@ function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
   if (poolMeta) pool.poolMeta = poolMeta;
   return pool;
 }
-// All TVL > $10M, non-zero apyBase, all on Base. `PT-USDE` is a pendle-protocol
+// All TVL well above DEFAULT_MIN_TVL ($100K as of spec 173, was $10M), non-zero apyBase, all on Base. `PT-USDE` is a pendle-protocol
 // pool whose symbol carries NO "PENDLE" token segment — it proves that typing
 // "pendle" filters by PROTOCOL, not by the PENDLE token (fix 098).
 const FIXTURE_POOLS = [

@@ -1,12 +1,18 @@
 /* Playwright acceptance gate (backlog item 135): the analytics app must NOT
-   pin the default floor `minTvl=10000000` into the URLs it generates.
+   pin the default floor `minTvl=<DEFAULT_MIN_TVL>` into the URLs it generates.
 
    Guarded regression: `updateUrl` (app.js) wrote `minTvl` whenever
-   `minTvl > 0`. DEFAULT_MIN_TVL = 10000000, and the read path already defaults
-   an ABSENT `minTvl` to that same $10M floor — so pinning the default into
-   every `?token=`/`?chain=` URL was pure noise leaking into indexed/shared
-   links. The fix omits `minTvl` when it equals DEFAULT_MIN_TVL; non-default
-   floors are still serialized, and the effective floor is unchanged.
+   `minTvl > 0`. The read path already defaults an ABSENT `minTvl` to
+   DEFAULT_MIN_TVL — so pinning the default into every `?token=`/`?chain=` URL
+   was pure noise leaking into indexed/shared links. The fix omits `minTvl`
+   when it equals DEFAULT_MIN_TVL; non-default floors are still serialized,
+   and the effective floor is unchanged.
+
+   DEFAULT_MIN_TVL = 100000 ($100K) as of spec 173 (2026-07-29, human-relaxed
+   from $10M) — this test encoded the old $10M default and is updated here to
+   assert against the new one; SNAPSHOT_MIN_TVL (the separate $10M physical
+   floor of data/pools-snapshot.json) is untouched by spec 173 and unrelated
+   to what this test checks (URL serialization of the user-facing default).
 
    Run: node test_minttvl_clean_url.js
 
@@ -33,7 +39,9 @@ const POOLS_URL = 'https://yields.llama.fi/pools';
 function makePool(id, project, symbol, chain, tvlUsd, apyBase) {
   return { pool: id, project, symbol, chain, tvlUsd, apyBase: apyBase || 0, apyReward: 0 };
 }
-// USDC pools all ABOVE the $10M default floor so they pass and render.
+// USDC pools all ABOVE the $100K default floor (and the $10M snapshot floor,
+// though this test never becomes snapshot-eligible — see the stale
+// generatedAt stub in newPage()) so they pass and render either way.
 const FIXTURE_POOLS = [
   makePool('usdc-base-aave', 'aave-v3', 'USDC', 'Base', 45_000_000, 4.2),
   makePool('usdc-eth-morpho', 'morpho-blue', 'USDC', 'Ethereum', 55_000_000, 5.9),
@@ -114,15 +122,15 @@ async function main() {
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
     // Test A (THE FIX): landing on /?token=USDC settles into a URL that does
-    // NOT pin the default minTvl=10000000, but keeps token=USDC.
-    await test('/?token=USDC does not pin minTvl=10000000 into the settled URL', async () => {
+    // NOT pin the default minTvl=100000, but keeps token=USDC.
+    await test('/?token=USDC does not pin minTvl=100000 into the settled URL', async () => {
       const { page, errors } = await newPage(browser);
       await page.goto('http://localhost:' + PORT + '/?token=USDC', { waitUntil: 'load', timeout: 15000 });
       await waitForPools(page);
       // Give the post-initial-load URL-write effect time to run, and assert the
       // default floor never appears at any point during the settle window.
-      const search = await pollSearch(page, (s) => /minTvl=10000000/.test(s), 3000);
-      if (/minTvl=10000000/.test(search)) throw new Error('URL still pins the default floor: ' + search);
+      const search = await pollSearch(page, (s) => /minTvl=100000\b/.test(s), 3000);
+      if (/minTvl=100000\b/.test(search)) throw new Error('URL still pins the default floor: ' + search);
       if (!/token=USDC/i.test(search)) throw new Error('URL lost token=USDC after settle: ' + search);
       if (errors.length) throw new Error('unexpected page errors: ' + errors.join(' | '));
       console.log('      (settled search=' + JSON.stringify(search) + ')');
@@ -130,8 +138,8 @@ async function main() {
     });
 
     // Test B (floor intact via read path): a bare /?token=USDC (no minTvl param)
-    // still renders the >$10M USDC pools — the $10M default floor still applies.
-    await test('bare /?token=USDC still renders pools >= $10M (default floor intact)', async () => {
+    // still renders the >$100K USDC pools — the $100K default floor still applies.
+    await test('bare /?token=USDC still renders pools >= $100K (default floor intact)', async () => {
       const { page, errors } = await newPage(browser);
       await page.goto('http://localhost:' + PORT + '/?token=USDC', { waitUntil: 'load', timeout: 15000 });
       await waitForPools(page);
@@ -142,7 +150,7 @@ async function main() {
       await page.close();
     });
 
-    // Test C (non-default still serialized): a non-$10M floor round-trips and is
+    // Test C (non-default still serialized): a non-$100K floor round-trips and is
     // re-written to the URL — proving only the default is omitted, not all minTvl.
     await test('/?token=USDC&minTvl=50000 keeps the non-default floor in the settled URL', async () => {
       const { page, errors } = await newPage(browser);
@@ -151,7 +159,7 @@ async function main() {
       // The non-default value must persist through settle (URL re-serialization).
       const search = await pollSearch(page, (s) => !/minTvl=50000/.test(s), 3000);
       if (!/minTvl=50000/.test(search)) throw new Error('non-default minTvl=50000 was dropped from the URL: ' + search);
-      if (/minTvl=10000000/.test(search)) throw new Error('URL unexpectedly pinned the default floor: ' + search);
+      if (/minTvl=100000\b/.test(search)) throw new Error('URL unexpectedly pinned the default floor: ' + search);
       if (errors.length) throw new Error('unexpected page errors: ' + errors.join(' | '));
       console.log('      (settled search=' + JSON.stringify(search) + ')');
       await page.close();
