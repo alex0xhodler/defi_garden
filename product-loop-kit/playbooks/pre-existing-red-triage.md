@@ -119,6 +119,51 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
   158's apparent `test_search.js` collapse (2/20, then 18/20) was `20/20 exit 0` given 550 s. Report the
   timebox as the cause, and never report a killed chain as a red.
 
+- **An empty analytics stub queue on `localhost` is not evidence of anything.** Spec 096's host gate
+  (`analytics.js:96`; `PRODUCTION_HOSTS` at `:14`) makes `Analytics.track()` return **before**
+  `mixpanel.track()` on any non-allowlisted host, so a test that observes analytics by reading
+  `window.mixpanel` is structurally guaranteed to read empty off-prod — whatever the product does.
+  Four files failed this way at once (item 176) and every failure message read like a missing event
+  (`pitch_variant … got undefined`, `no plan_created track call found`). One grep sizes the class:
+  `grep -ln "window.mixpanel" test_*.js`. **Two repairs exist and they are not equivalent** — prefer
+  the second:
+  - wrap `Analytics.track` with a spy and assert on the wrapper. Works, but silently *downgrades*
+    every assertion from "Mixpanel received it" to "the product called track()".
+  - override **only** the host check — `page.addInitScript(() => { … Analytics.isProductionHost =
+    () => true; })` before navigation (shape: `test_analytics_host_gate_render.js:74-89`). The event
+    then travels the real path into the same stub queue, so existing queue reads and assertions stay
+    byte-unchanged. This is the **rule-C remedy applied to a rule-B cause**: neutralise the
+    environment, never weaken the assertion.
+  Leave `test_analytics_host_gate_render.js` alone — it reads the queue *to assert it stays empty*,
+  and is the negative control for the very gate that rotted the others. Every page/context needs its
+  own override; a second `newPage()` silently re-arms the gate.
+- **A path in a URL is not proof the test reads that file.** `test_analytics_fires.js` navigates to
+  `/tokens/big` while `tokens/big.html` does not exist in the checkout — an irresistible story
+  (items 148/174 did churn the slug set) and completely wrong: `:35-38` synthesises the page in
+  memory from `test_fixtures/pools-sample.json` and `:44` serves it from the test's own handler.
+  Before blaming data churn for a `goto` timeout, check whether the test's own server intercepts the
+  path. The real cause was the blocked-subresource trap above — and fixing the invented cause would
+  have left the hang to return with the next external host.
+- **Repointing has a precondition: the target route must already own the behaviour.** 156's
+  repoint-and-re-home rule tempts you to move a displaced assertion onto the obvious sibling route,
+  but if that route never had the behaviour, the "re-homed" test is a **feature request wearing a
+  test's clothes**, and it holds the merge gate red over something nobody ever promised. Item 176
+  briefed a `/plan.html` hub-links case on the strength of the pattern alone; `grep -c seo-hub-links
+  plan.html` = **0** — that surface never existed there. Check the target renders the behaviour
+  *before* writing the case; if it doesn't, delete the case and file the gap as a backlog item.
+  Corollary that saved the same file: when the old element is superseded rather than removed, ask
+  which element inherited the job. On bare `/` the static `.seo-hub-links` block is occluded by the
+  landing's own `.app-footer` (`landing.js:356-367`), which carries the same `/tokens` + `/chains`
+  anchors — so the *user-facing* assertion repoints onto the app footer, while the crawler-surface
+  assertion (045) repoints onto **presence in the DOM**, not visibility. Two different truths, two
+  different assertions; collapsing them into one is how the case got stale in the first place.
+- **The in-flight check is ID-based, so a renumbering PR makes it lie.** `build.md` §1 says an
+  existing `claude/loop-<id>` branch or open PR means "skip this item". Item 176 had both — belonging
+  to an entirely different item that had renumbered *itself* to 176 after a heartbeat took its
+  original number on `main`. Confirm the claimant is the same *work*, not merely the same integer:
+  read the PR title/body before skipping. `main` owns numbering; an unmerged branch's self-assigned
+  id is a proposal, and it is the one that must move.
+
 ## Provenance
 
 Distilled from item **147** (2026-07-26, LOG.md) — `test_minified_assets.js` red on `main` since ~item
@@ -147,3 +192,17 @@ inherited by name from 156's notes. Three separate harness defects in one file, 
 bug; the chain is now confirmed clear through position **12** (`test_search.js` 20/20 at a 550 s budget),
 with positions 13-91 still unobserved because the real-Chromium suite is slower than the 5-minute
 foreground timebox.
+
+The host-gate trap, the served-fixture-path trap, the repoint-precondition rule and the ID-collision
+note added from item **176** (2026-07-29) — the first run to triage the browser lane as a *set* rather
+than one red at a time: **8 files red on `main`, 4 distinct causes, 0 product bugs**. The distribution
+is the lesson. Three of the four causes were a shipped, authorized product change that never updated
+its witnesses (096's host gate → 4 files; 139's archetype-aware checkout CTA → 1; the 07-15 landing
+pivot → 2, the same class 156 fixed in two *other* files), and the fourth was pure sandbox environment
+(blocked hosts hanging `waitUntil:'load'` → 1). Every one had been provable in minutes; none had been
+classified, and the lane had been reporting nothing useful since item 170 made it runnable the day
+before. **A shipped item that changes behaviour owes its witnesses an update in the same diff** — all
+three product-change causes here are the same omission, and the cost lands on whoever next reads the
+gate. The item's own two genuine findings (occluded static hub links in landing mode; `/plan.html`
+carrying no hub-link surface) were surfaced by a builder refusing to adjust a red expectation to match
+observed output — the discipline that keeps "make it green" from eating a real defect.

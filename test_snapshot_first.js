@@ -19,7 +19,8 @@
      (c2) WITHIN-GATE snapshot (3h < 6h gate, spec 140) + live ABORTED → snapshot cards, no live call
      (d) equivalence: same pools as snapshot vs as live → identical rendered set
      (e) ?minTvl=10000 + fresh snapshot + live fixture → live used (rail-relax gate)
-     (f) bare / planner renders with fresh snapshot + live ABORTED (both router paths)
+     (f) /plan.html planner renders with fresh snapshot + live ABORTED
+     (f2) bare / landing renders from fresh snapshot with live ABORTED, planner not mounted (both router paths)
      (g) ?pool=<id> + fresh snapshot + live fixture → live used (sacred deep link)
 
    Run: node test_snapshot_first.js */
@@ -225,18 +226,43 @@ async function main() {
       } finally { await r.context.close(); }
     });
 
-    // (f) bare / planner renders with fresh snapshot + live aborted.
-    await test('(f) bare / planner renders from fresh snapshot with live aborted (both router paths)', async () => {
+    // (f) /plan.html planner renders with fresh snapshot + live aborted.
+    // Repointed from bare `/` per the 2026-07-15 landing pivot (home.html:82):
+    // bare `/` now mounts the search-first landing into #landing-root, not the
+    // planner, so `.gp-tagline h1` (planner-only markup) can never appear there.
+    // The planner moved to the `/plan.html` route (`isPlannerPath`, home.html:80).
+    // See (f2) below for the re-homed bare-`/` coverage.
+    await test('(f) /plan.html planner renders from fresh snapshot with live aborted', async () => {
       const ts = freshTs();
       const r = await makeRouted(browser, { meta: { pools: SNAPSHOT_POOLS, ts }, snap: { pools: SNAPSHOT_POOLS, ts }, live: null });
       try {
-        await r.page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
+        await r.page.goto(`http://localhost:${PORT}/plan.html`, { waitUntil: 'load', timeout: 20000 });
         await r.page.waitForSelector('.gp-tagline h1', { timeout: 12000 });
         const h1 = (await r.page.locator('.gp-tagline h1').textContent()).trim();
         if (h1.length === 0) throw new Error('planner hero did not render');
         // Give the planner's idle-scheduled fetch time to run the snapshot path.
         await r.page.waitForTimeout(2500);
         if (r.liveHits() !== 0) throw new Error(`planner fell back to live unexpectedly (live hits ${r.liveHits()})`);
+      } finally { await r.context.close(); }
+    });
+
+    // (f2) re-homed coverage (156 pattern): bare / no longer mounts the planner
+    // (home.html:82's 3-way router — landing pivot, 2026-07-15). It mounts the
+    // search-first landing into #landing-root, which issues no pool-data fetch
+    // of its own (landing.js has no snapshot/live fetch path), so live must
+    // still read 0 hits. Also assert the planner did NOT mount, mirroring
+    // test_smoke.js:181-187.
+    await test('(f2) bare / landing renders from fresh snapshot with live aborted, planner not mounted (both router paths)', async () => {
+      const ts = freshTs();
+      const r = await makeRouted(browser, { meta: { pools: SNAPSHOT_POOLS, ts }, snap: { pools: SNAPSHOT_POOLS, ts }, live: null });
+      try {
+        await r.page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
+        await r.page.waitForSelector('[data-testid="landing-search"]', { timeout: 12000 });
+        const plannerMounted = await r.page.locator('#planner-root .gp-app').count();
+        if (plannerMounted !== 0) throw new Error('planner mounted on bare / (expected only the landing)');
+        // Give any idle-scheduled fetch time to run before asserting no live call.
+        await r.page.waitForTimeout(2500);
+        if (r.liveHits() !== 0) throw new Error(`landing made an unexpected live request (live hits ${r.liveHits()})`);
       } finally { await r.context.close(); }
     });
 
@@ -256,8 +282,8 @@ async function main() {
     await browser.close();
     server.close();
   }
-  console.log(`\n${passed}/8 snapshot-first scenarios passed`);
-  if (passed !== 8) process.exitCode = 1;
+  console.log(`\n${passed}/9 snapshot-first scenarios passed`);
+  if (passed !== 9) process.exitCode = 1;
 }
 
 main().catch((err) => {

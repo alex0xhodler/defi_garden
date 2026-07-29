@@ -76,17 +76,29 @@ async function main() {
         }
       });
 
+      // Blanket-abort every external host except localhost, reusing the more
+      // robust pattern test_snapshot_first.js:107-109 already has (rather than
+      // a per-host allowlist the next new external host would defeat). The
+      // page pulls https://api.fontshare.com/... (style.css's blocking
+      // @import) and https://mp.defi.garden/lib.min.js (the Mixpanel
+      // bootstrap generate-token-pages.js embeds in every generated page);
+      // neither fails fast in this sandbox (~13s ERR_CONNECTION_RESET each),
+      // which sequentially blew the old waitUntil:'load' budget. Registered
+      // FIRST so the specific analytics.js fulfill route below still wins —
+      // Playwright matches routes most-recently-registered-first, so the
+      // fulfill added after this abort takes precedence (proven by the
+      // page_view assertion below actually passing, since it depends on
+      // analytics.js having loaded).
+      await page.route(u => !u.href.startsWith(`http://localhost:${PORT}`), (route) => route.abort());
+
       // Every generated SEO page references analytics.js by absolute
       // production URL (renderAnalyticsBootstrap uses SITE_URL), so this
       // local server needs to intercept that one absolute request; other
-      // assets (/style.css) already resolve against localhost.
+      // assets (/style.css) already resolve against localhost. Registered
+      // after the blanket abort above so it wins for this one URL.
       await page.route('https://www.defi.garden/analytics.js', (route) => route.fulfill({
         status: 200, contentType: 'application/javascript', body: fs.readFileSync(path.join(ROOT, 'analytics.js'))
       }));
-
-      // Decorative pool-row icon host (spec 094) is proxy-blocked in-sandbox;
-      // abort so its requests never delay the page 'load' event.
-      await page.route('https://icons.llamao.fi/**', (route) => route.abort());
 
       // Spy on Analytics.track (one call above mixpanel.track itself, which
       // is unreachable in this sandbox — same established pattern as
