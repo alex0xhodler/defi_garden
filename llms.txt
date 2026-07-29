@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-07-29T09:28:52.657Z
+- Last Updated: 2026-07-29T10:55:28.220Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 4958
+- Total URLs: 4935
 
 ## Homepage
 TL;DR: https://www.defi.garden/ is a search-first landing page that routes into both faces of the product: /plan.html (and planner params) for the goal-first Garden Planner, and parameterized URLs (?token=, ?chain=, ?pool=) for the yield analytics app.
@@ -17,12 +17,12 @@ TL;DR: A goal-first savings planner for people who think in monthly deposits and
 - TARGET: a specific item to buy — projects time-to-item from monthly deposits and the live rate.
 - SUBSCRIPTION: the "forever number" — the capital whose yield alone covers a recurring bill, indefinitely.
 - Forever number formula: forever number = annual bill ÷ blended rate. No projected dollar figure is published here — a plan's own inputs determine the real number.
-- Live blended rate: 3.3% — median APY across the 559 pools clearing our published rails (TVL ≥ $10M, APY ≤ 1000%) on the date above.
+- Live blended rate: 3.3% — median APY across the 561 pools clearing our published rails (TVL ≥ $10M, APY ≤ 1000%) on the date above.
 - A plan's own rate is computed over a different set: the planner picks a small, temperament-filtered selection of pools (the default pace is stablecoin lending/staking only) and blends those, so the rate a plan shows will differ from this market-wide median.
 
 ## Top Chains by TVL
 TL;DR: Highest liquidity blockchain networks for DeFi yields.
-- Ethereum ($87.0B TVL) — https://www.defi.garden/?chain=Ethereum
+- Ethereum ($87.1B TVL) — https://www.defi.garden/?chain=Ethereum
 - Solana ($8.5B TVL) — https://www.defi.garden/?chain=Solana
 - Base ($6.4B TVL) — https://www.defi.garden/?chain=Base
 - BSC ($6.3B TVL) — https://www.defi.garden/?chain=BSC
@@ -44,19 +44,19 @@ TL;DR: Most searched tokens for yield farming opportunities.
 
 ## Popular Token-Chain Combinations
 TL;DR: Most common "find X yield on Y chain" searches.
-- STETH on Ethereum ($18.2B TVL) — https://www.defi.garden/?token=STETH&chain=Ethereum
+- STETH on Ethereum ($18.1B TVL) — https://www.defi.garden/?token=STETH&chain=Ethereum
 - WBETH on Ethereum ($6.7B TVL) — https://www.defi.garden/?token=WBETH&chain=Ethereum
 - WEETH on Ethereum ($6.3B TVL) — https://www.defi.garden/?token=WEETH&chain=Ethereum
-- WSTETH on Ethereum ($5.8B TVL) — https://www.defi.garden/?token=WSTETH&chain=Ethereum
+- WSTETH on Ethereum ($5.9B TVL) — https://www.defi.garden/?token=WSTETH&chain=Ethereum
 - USDC on Ethereum ($5.2B TVL) — https://www.defi.garden/?token=USDC&chain=Ethereum
 - SUSDS on Ethereum ($4.7B TVL) — https://www.defi.garden/?token=SUSDS&chain=Ethereum
-- WETH on Ethereum ($3.8B TVL) — https://www.defi.garden/?token=WETH&chain=Ethereum
 - WBTC on Ethereum ($3.8B TVL) — https://www.defi.garden/?token=WBTC&chain=Ethereum
+- WETH on Ethereum ($3.8B TVL) — https://www.defi.garden/?token=WETH&chain=Ethereum
 
 ## Major DeFi Protocols
 TL;DR: Largest protocols by total value locked.
-- lido ($18.0B TVL) — https://www.defi.garden/?protocols=lido
-- aave-v3 ($14.2B TVL) — https://www.defi.garden/?protocols=aave-v3
+- lido ($17.9B TVL) — https://www.defi.garden/?protocols=lido
+- aave-v3 ($14.3B TVL) — https://www.defi.garden/?protocols=aave-v3
 - morpho-blue ($11.3B TVL) — https://www.defi.garden/?protocols=morpho-blue
 - sky-lending ($8.1B TVL) — https://www.defi.garden/?protocols=sky-lending
 - binance-staked-eth ($7.1B TVL) — https://www.defi.garden/?protocols=binance-staked-eth
@@ -77,14 +77,14 @@ TL;DR: Typical user queries and where to find them.
 
 ## Current Top Yields
 TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10M).
-- Base · uniswap-v3 · WETH-USDC — 95.5% APY, $112,210,684 TVL — https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007
-- Solana · orca-dex · SOL-USDC — 43.4% APY, $25,842,387 TVL — https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8
-- Ethereum · uniswap-v3 · WETH-USDT — 42.4% APY, $85,030,298 TVL — https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395
-- Base · uniswap-v3 · WETH-CBBTC — 33.2% APY, $11,129,381 TVL — https://www.defi.garden/?pool=ae6e650d-2da1-43ee-b960-2adfdf4dc2b7
-- Arbitrum · uniswap-v3 · WETH-USDC — 29.4% APY, $36,111,949 TVL — https://www.defi.garden/?pool=a14bd201-764c-40a5-86b8-2928b2461232
-- Base · uniswap-v3 · WETH-USDC — 28.9% APY, $10,300,350 TVL — https://www.defi.garden/?pool=8b3cadb9-b9f1-4539-998c-18c02e9e65a0
-- Ethereum · fluid-dex · USDC-ETH — 28.1% APY, $10,579,764 TVL — https://www.defi.garden/?pool=da292ed1-aff5-44e0-8e23-333a1c61ee7f
-- Ethereum · uniswap-v3 · USDC-WETH — 27.3% APY, $100,295,863 TVL — https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547
+- Base · uniswap-v3 · WETH-USDC — 94.5% APY, $112,485,657 TVL — https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007
+- Solana · orca-dex · SOL-USDC — 43.8% APY, $25,893,168 TVL — https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8
+- Ethereum · uniswap-v3 · WETH-USDT — 41.8% APY, $85,180,782 TVL — https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395
+- Base · uniswap-v3 · WETH-CBBTC — 32.9% APY, $11,175,705 TVL — https://www.defi.garden/?pool=ae6e650d-2da1-43ee-b960-2adfdf4dc2b7
+- Arbitrum · uniswap-v3 · WETH-USDC — 29.5% APY, $36,190,177 TVL — https://www.defi.garden/?pool=a14bd201-764c-40a5-86b8-2928b2461232
+- Base · uniswap-v3 · WETH-USDC — 28.9% APY, $10,319,986 TVL — https://www.defi.garden/?pool=8b3cadb9-b9f1-4539-998c-18c02e9e65a0
+- Ethereum · fluid-dex · USDC-ETH — 28.2% APY, $10,595,364 TVL — https://www.defi.garden/?pool=da292ed1-aff5-44e0-8e23-333a1c61ee7f
+- Ethereum · uniswap-v3 · USDC-WETH — 27.6% APY, $100,495,072 TVL — https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547
 
 💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
 📊 For live rates and direct protocol access: https://www.defi.garden

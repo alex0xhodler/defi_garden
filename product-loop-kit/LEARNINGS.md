@@ -243,3 +243,31 @@ The three errors are localhost/preview traffic — our own dev sessions.
 A heartbeat that drops the prod filter reports a phantom error spike and breaks its own guardrail streak;
 one that never runs the unfiltered control cannot tell a real prod-zero from a filter typo that silently
 matches nothing. **Run both, record both, claim only the filtered one.** Now part of `product-audit.md`.
+
+## 2026-07-29 · LOOP PROCESS · A stale branch is not a diff, and its verifier verdict does not transfer
+Item 148 sat as PR #306 for 4 days awaiting one human answer. When the answer came ("merge"), the merge
+returned `405 Pull Request has merge conflicts` — and the conflict was the *lucky* outcome, because
+merging it would have silently reverted two items that shipped the same day:
+- **173** — `main`'s `generate-token-pages.js` now emits `?token=…&minTvl=${MIN_POOL_TVL}`. The 07-26
+  branch carries the pre-173 line. The merge would have re-broken 1,701 token-page CTAs hours after they
+  were fixed and verified live on prod.
+- **170** — the branch's `package.json` is the pre-lane flat test chain. The merge would have deleted the
+  `plain`/`browser` lane runner and ~14 tests (`test_seo_cta_targets.js`, every `test_audit_*.js`) from
+  the merge gate — including the test that guards 173.
+
+Both are files the 148 diff touches only *incidentally*: it needed `isValidToken` in one and a test
+registration in the other. A branch diff carries the WHOLE file, not the hunk you care about.
+
+**Takeaway (binds every future ship off a branch older than ~1 day):** a PR's diff is computed against its
+BASE, not against `main`. When the base has moved, "merge the PR" and "apply the change" are different
+operations, and the verifier PASS earned against the old base **does not transfer** — it verified a repo
+that no longer exists. Do not merge; **transplant**. Check out the current `main`, apply only the hunks the
+spec called for, re-prove non-vacuity on the new checkout, regenerate any derived surface from scratch, and
+re-verify. Then close the original PR as *superseded*, not merged.
+**Detection, cheap and mandatory before any stale-branch merge:**
+`git diff origin/main origin/<branch> -- <each hand-written file>` — every `-` line that is *newer* than
+the branch is something the merge would revert. Here that surfaced two in seconds.
+This is the third costume of one failure: 07-26 "two build runs built 148", 07-28 "a heartbeat can be
+lapped mid-tick", and now "a branch can be lapped between authoring and merge". The contended resource is
+always the same — `main` moves while work is in flight — and the fix is always the same: re-read `main`
+immediately before writing, and re-derive rather than replay.

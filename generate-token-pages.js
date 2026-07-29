@@ -69,6 +69,13 @@ const OG_FALLBACK_REL_PATH = 'og-image.png';
 
 // Token symbol validity — mirrors generate-sitemap.js isValidToken.
 const TOKEN_REGEX = /^[A-Z0-9][A-Z0-9.\-_]{1,14}$/i;
+// Rejection rules layered on top of TOKEN_REGEX (spec 148): TOKEN_REGEX alone
+// accepts pure-digit strings and Pendle-style expiry-date fragments (e.g. the
+// "22OCT2026" split out of "PT-SUSDE-22OCT2026" by tokenSymbols below) — both
+// are real regex matches but not real tokens. Mirrors generate-sitemap.js's
+// isValidToken exactly; the two must never drift.
+const PURE_NUMERIC_REGEX = /^[0-9]+$/;
+const DATE_FRAGMENT_REGEX = /^[0-9]{1,2}(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[0-9]{2,4}$/i;
 
 function poolTotalApy(pool) {
   return (pool.apyBase || 0) + (pool.apyReward || 0);
@@ -81,7 +88,10 @@ function isQualifyingPool(pool) {
 }
 function isValidToken(symbol) {
   if (!symbol) return false;
-  return TOKEN_REGEX.test(symbol);
+  if (!TOKEN_REGEX.test(symbol)) return false;
+  if (PURE_NUMERIC_REGEX.test(symbol)) return false; // e.g. "2027", "00", "67"
+  if (DATE_FRAGMENT_REGEX.test(symbol)) return false; // e.g. "22OCT2026", "16SEP26"
+  return true;
 }
 function tokenSymbols(pool) {
   return (pool.symbol ? String(pool.symbol).split(/[-_\/\s]/) : [])

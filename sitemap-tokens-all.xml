@@ -56,6 +56,15 @@
     <priority>0.90</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=BEAT</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BEAT" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BEAT&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BEAT" />
+    <lastmod>2026-07-29T10:51:16.155Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.89</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=BSOL</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BSOL" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BSOL&amp;lang=ko" />
