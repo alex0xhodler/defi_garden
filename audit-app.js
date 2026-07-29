@@ -1427,6 +1427,104 @@ function makeErrorSink(page) {
 }
 
 // ---------------------------------------------------------------------------
+// Rail-relative APY-percent check (backlog 173 — the 144 blind spot named in
+// playbooks/product-audit.md's Automatability section). scanNumbers() above
+// is magnitude-only (ABSURD_MAGNITUDE = 1e11) and therefore blind to an
+// out-of-rail PERCENT that never reaches that magnitude — the 144 bug itself
+// (apyMean30d = 36,452.38798%, only 3.6e4) sailed through it. This closes
+// that gap on the rendered leg. Reuses the SAME APY_SANITY_LIMIT import at
+// the top of this file (never a second copy — the constant block above says
+// so explicitly; a rail mirror inside the scanner is a trust-rail edit).
+//
+// Predicate ("is this a rate percentage?"), chosen deliberately — every
+// alternative considered and rejected is recorded in specs/173-notes.md:
+// INCLUDE any rendered "<number>%" text as a rate figure BY DEFAULT, unless
+// its nearest ancestor matches EXCLUDED below — an explicit, code-verified
+// (not guessed) list of the non-rate percent containers that exist in the
+// product today:
+//   .tvl-trend-note  — PoolDetail.js:1516, a deposit-base-change percent that
+//     legitimately exceeds 1000% (a 20x pool renders "1,900%") and is gated
+//     only on |tvlTrend|>=0.25 with NO upper bound (spec 173 criterion 4).
+//   .gp-item-fill    — planner.js:3124, the garden-growth progress fill (the
+//     "progress bars" Non-goal names explicitly). Always 0% today by
+//     construction (planner.js:1638 hardcodes `return 0`) so this exclusion
+//     is currently inert, but the class name signals intent unambiguously
+//     and costs nothing to exclude defensively.
+// An include-by-default design (vs. an allow-list of "this IS a rate
+// container" class names) is deliberate: playbooks/product-audit.md's
+// Automatability section documents the SAME pattern three times running
+// (148 -> 159 -> 166) — a checker's signal set is always drawn from the last
+// bug someone was bitten by. An allow-list checker can only ever see rate
+// sites someone remembered to register; an exclude-list catches a brand new
+// rate render site the day it ships, with zero scanner change required.
+//
+// DOM-scoped anomaly suppression (spec 173 Territory notes: "must be
+// per-.pool-card, not page-global"): a breaching figure is suppressed only
+// when the product's OWN anomaly marker (.apy-anomalous on the grid hero APY,
+// app.js:2744; .calc-warning on pool-detail's derived-figure notes,
+// PoolDetail.js:657/1117/PoolDetail.js:3348-equivalent) is present in its
+// scope — the nearest .pool-card ancestor when one exists (the grid renders
+// many cards at once; a flagged card must not mask an unflagged breach in a
+// different card), else the whole page (pool-detail has no .pool-card at
+// all — one subject per page, and its markers are siblings of the figures
+// they qualify, not ancestors of every percent on the page).
+// ---------------------------------------------------------------------------
+
+// Runs INSIDE the page (page.evaluate(collectApyPercentCandidates)) — must be
+// fully self-contained, no closures over Node-side variables. Collects EVERY
+// "<number>%" occurrence in rendered body text (script/style/noscript text
+// excluded, matching document.body.innerText's own exclusion that
+// scanNumbers() already relies on) with enough DOM context for the pure
+// filterApyRailBreaches() below to decide, in Node, whether it is a finding.
+// Deliberately does no thresholding/filtering itself — the actual rail
+// decision lives in exactly one pure, unit-testable place.
+function collectApyPercentCandidates() {
+  var EXCLUDED = '.tvl-trend-note, .gp-item-fill';
+  var ANOMALY = '.apy-anomalous, .calc-warning';
+  var PERCENT_RE = /(-?\d[\d,]*(?:\.\d+)?)\s*%/g;
+  var pageAnomalous = !!document.querySelector(ANOMALY);
+  var out = [];
+  var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+    acceptNode: function (n) {
+      var p = n.parentElement;
+      if (!p) return NodeFilter.FILTER_REJECT;
+      var tag = p.tagName;
+      if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'NOSCRIPT') return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  var node;
+  while ((node = walker.nextNode())) {
+    var text = node.nodeValue;
+    if (!text || text.indexOf('%') === -1) continue;
+    var el = node.parentElement;
+    if (!el) continue;
+    var excluded = !!(el.closest && el.closest(EXCLUDED));
+    var card = el.closest ? el.closest('.pool-card') : null;
+    var anomalous = card ? !!card.querySelector(ANOMALY) : pageAnomalous;
+    var m;
+    PERCENT_RE.lastIndex = 0;
+    while ((m = PERCENT_RE.exec(text)) !== null) {
+      var value = parseFloat(m[1].replace(/,/g, ''));
+      if (!isFinite(value)) continue;
+      out.push({ value: value, raw: m[0].trim(), excluded: excluded, anomalous: anomalous, scope: card ? 'card' : 'page' });
+    }
+  }
+  return out;
+}
+
+// Pure, exported, unit-testable without Playwright — same convention as
+// reconcilePrescanFindings, defined above. candidates: whatever shape
+// collectApyPercentCandidates() returns (or an equivalent plain-object array
+// in a unit test): [{value, raw, excluded, anomalous}]. limit:
+// APY_SANITY_LIMIT, passed explicitly rather than closed over so a unit test
+// can exercise the boundary without touching the trust-rail import.
+function filterApyRailBreaches(candidates, limit) {
+  return (candidates || []).filter((c) =>
+    c && typeof c.value === 'number' && Number.isFinite(c.value) && !c.excluded && !c.anomalous && c.value > limit);
+}
+
+// ---------------------------------------------------------------------------
 // Surface drivers — each returns findings[] for that surface.
 // ---------------------------------------------------------------------------
 function finding(surface, viewport, check, severity, detail) {
@@ -1438,6 +1536,16 @@ async function auditText(page, s, findings) {
   for (const detail of scanNumbers(text)) {
     findings.push(finding(s.name, s.vpLabel, 'number-sanity', 'P0', detail));
   }
+
+  // backlog 173 — rail-relative APY-percent check (the 144 blind spot).
+  const candidates = await page.evaluate(collectApyPercentCandidates);
+  const breaches = filterApyRailBreaches(candidates, APY_SANITY_LIMIT);
+  if (breaches.length) {
+    const examples = breaches.slice(0, 3).map((b) => `"${b.raw}"`).join(', ');
+    findings.push(finding(s.name, s.vpLabel, 'apy-rail-breach', 'P0',
+      `${breaches.length} rendered rate percent figure(s) exceed the ${APY_SANITY_LIMIT}% rail unflagged: ${examples}`));
+  }
+
   return text;
 }
 
@@ -2015,7 +2123,8 @@ function blockingFindings(findings) {
 module.exports = {
   runAudit, scanNumbers, resolvePlaywright, blockingFindings,
   prescanStaticPages, prescanTextSurfaces, prescanPools, buildPoolSurfaces,
-  buildStaticSurfaces, reconcilePrescanFindings
+  buildStaticSurfaces, reconcilePrescanFindings,
+  collectApyPercentCandidates, filterApyRailBreaches
 };
 
 if (require.main === module) {
