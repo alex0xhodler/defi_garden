@@ -37,3 +37,4 @@
 | 032 | Token-page yield gate: require VISIBLE non-zero APY (formatApy !== "0.00%"), not just >0 | 7.5 | SHIPPED (PR #125, merged 2026-07-11) — row was missing from BACKLOG, reconciled from git history + specs/032.md | HIGH | specs/032.md | 1 | — |
 | 033 | Token-page yield gate checks the DISPLAYED (top-N-by-TVL) pools, not all qualifying pools (truncation fix) | 7.5 | SHIPPED (PR #126, merged 2026-07-11) — row was missing from BACKLOG, reconciled from git history + specs/033.md | HIGH | specs/033.md | 1 | — |
 | 034 | Pool-detail projection/CTA reflect the calculator's investmentAmount (was hardcoded $200/mo, disconnected from the on-page calculator) | 7.5 | SHIPPED (PR #130, verifier PASS HIGH 4/4, merged 2026-07-11) — row was missing from BACKLOG (ID collision with a concurrent 034-038 draft, renamed to 039-043 per LOG.md 2026-07-11 entry), reconciled from git history + specs/034.md | HIGH | specs/034.md | 1 | — |
+[[[ROWS_35_TO_124_PLACEHOLDER]]]
