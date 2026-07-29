@@ -138,9 +138,24 @@ row is the strongest evidence.
 ## Automatability
 Checks 1–7 are mechanized: **`audit-app.js` shipped (item 142, 2026-07-25)** — a read-only Playwright
 scanner over the surface rotation emitting `signals/audit-findings.json` for the heartbeat to ticket.
-Known blind spot (144): its number-sanity check is magnitude-only (`ABSURD_MAGNITUDE = 1e11`), so
-out-of-rail **percentages** — the 144 class — pass clean. Candidate extension: a rail-relative percent
-check per the decision rule in class 1 above.
+
+~~Known blind spot (144): its number-sanity check is magnitude-only (`ABSURD_MAGNITUDE = 1e11`), so
+out-of-rail **percentages** — the 144 class — pass clean.~~ **CLOSED by item 173 (2026-07-29)** — the
+rendered leg now carries `apy-rail-breach` (P0) alongside `scanNumbers()`, implementing class 1's decision
+rule verbatim. Three things about it are worth reusing, not just knowing:
+- **The rule is structural, not numeric.** `.tvl-trend-note` (`PoolDetail.js:1516`) renders a deposit-base
+  *change* — a pool that grew 20× shows a legitimate `"1,900%"`, gated only on `|tvlTrend| >= 0.25` with no
+  upper bound. There is no threshold above which a TVL change becomes wrong, so "is this a **rate**?" has to
+  be answered by container, never by magnitude. A blanket "any % > 1000" check is wrong, not merely noisy.
+- **Exclude-list, not allow-list.** Every rendered percent counts as a rate figure unless its container is
+  in `.tvl-trend-note, .gp-item-fill`. An allow-list only ever sees rate sites someone remembered to
+  register — the 148 → 159 → 166 → 172 pattern applied to the checker itself. The accepted cost is that a
+  future non-rate percent false-positives, which is the loud direction to fail in.
+- **Suppression is DOM-scoped, not page-global.** Scope = nearest `.pool-card` when one exists (the grid
+  renders many; a flagged card must not mask an unflagged breach in another), else the page (pool-detail has
+  one subject and its `.calc-warning` markers are siblings of the figures, not ancestors).
+Anomaly markers, for any future check that needs them: `.apy-anomalous` (`app.js:2744`, grid hero) and
+`.calc-warning` (`PoolDetail.js:657`/`:1117`, pool-detail).
 
 **Generated-surface sampling (item 154, 2026-07-26).** The static-SEO leg used to be ONE hand-picked page
 (`/tokens/usdc.html` — the best page in the set) out of 2,079 token + 88 chain pages, which is why the
@@ -195,8 +210,7 @@ That is 0.14% coverage of the north-star surface, on the single most blue-chip r
 The proof that it mattered: **every** pool-detail bug in this backlog's history was hand-found on a
 non-flagship pool — 122 (−900T stability score, balancer-v2), 144 and 145 (both pool
 `201e5f6e-cf75-4d0e-b07f-d58da3cee23a`), 165 (zeebu ZBU's $49-quintillion projection). Not one is Lido
-stETH, so the scanner could not have caught any of them — not because `number-sanity` (P0) is wrong, but
-because it was never aimed at a pool that could trip it. As of 2026-07-28 that snapshot still carried a
+stETH, so the scanner could not have caught any of them. As of 2026-07-28 that snapshot still carried a
 live true positive the scanner had never rendered: `201e5f6e-…` with `apyMean30d` = 30,282.55%, 30× the
 rail. Fix = 157's prescan-then-promote pattern applied to the snapshot (`prescanPools()` +
 `buildPoolSurfaces()`, `AUDIT_POOL_*` switches, a `poolPrescan` block in the findings JSON).
@@ -229,9 +243,9 @@ had just fixed.
 
 **Check 10 has an HTML half, and it is 1,000× bigger than the text half (item 172, 2026-07-29).**
 169 gave `prescanTextSurfaces()` a `link-target-integrity` signal over **2** files. The generated **HTML**
-surface — 2,094 `tokens/*.html` + 89 `chains/*.html` — emits **~41,300** same-origin links, **4,989** of
-them `/?pool=<id>`, the exact hop an SEO lander must make to reach the north-star CTAs. `PRESCAN_SIGNALS`
-had no link signal at all. Three sub-rules port cleanly to HTML, and the porting is where the traps live:
+surface — 2,094 `tokens/*.html` + 89 `chains/*.html` — emits **~41,300** same-origin links, **4,989**
+of them `/?pool=<id>`, the exact hop an SEO lander must make to reach the north-star CTAs.
+`PRESCAN_SIGNALS` had no link signal at all. Three sub-rules port cleanly to HTML, and the porting is where the traps live:
 - **The allowed-param set depends on the link's PATH, not just the router.** `?key=` membership in
   `ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {lang}` is the right rule only for links to `/`, where the IA
   router arbitrates mode. A `/plan.html?…` link is the planner *by path*, so router membership says
@@ -255,60 +269,7 @@ had no link signal at all. Three sub-rules port cleanly to HTML, and the porting
   cross-links were minted when the neighbour still qualified. Measured 0 broken of ~41,300 today — which
   is exactly why it needs a positive control before anyone calls it green.
 
-11. **Cross-surface contract: does the target return what the linking page CLAIMS? (learned 2026-07-29,
-   item 173 — the class four rounds of link-checking could not see.)** Class 10 asks whether a link is
-   *shaped* right. This asks whether it *delivers*. It is the level nobody checks, and it is where the
-   biggest finding on this repo lived: **1,749 of 2,200 indexed SEO pages (79.5%) had a primary CTA that
-   landed on an empty grid** — `chains/cardano.html` naming "33 pools" above a "See live pools on Cardano →"
-   button that returned 0.
-   **A link check has three levels. Run all three; they fail differently:**
-   - **(1) Routed** — is the query key in `ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {lang}`? (class 10a; 166.)
-   - **(2) Resolvable** — does the value name a real entity (project slug, preset key)? Validate against
-     *the population the generator drew from*, never the nearest dataset — see class 10's 4,233-false-
-     positive trap for `?pool=` ids.
-   - **(3) Non-empty** — simulate the target's OWN default filters and assert the result is non-zero, and
-     where the page states a count, that it *matches*. For this repo: the substring symbol match
-     (`app.js:835`), exact chain match, and the `minTvl` rule at `app.js:927` (explicit param wins; absent
-     → `DEFAULT_MIN_TVL`). Cardano at the default → 0; with `&minTvl=100000` → 33, the page's exact claim.
-   **The root-cause smell, and the reason level 3 is structurally invisible to the other two: BOTH SURFACES
-   ARE INDIVIDUALLY CORRECT AND THE CONTRACT BETWEEN THEM IS BROKEN.** `generate-token-pages.js:60`
-   (`MIN_POOL_TVL = 100000`) is right about its own page; `app.js:801` (`DEFAULT_MIN_TVL = 10000000`) is
-   right about the app; the link between them is a lie. 100×. A checker that validates one surface against
-   itself can never see it — which is why 148 → 159 → 166 → 173 all slipped through, each one auditing one
-   side. **Decision rule: whenever two artifacts here are built from the same data by different code paths,
-   audit the CONTRACT — diff the filters/floors/predicates each path applies, and check every link that
-   crosses between them.** Sibling of `dual-source-logic-divergence.md`.
-   Cheapest first move, ~15 lines of node: for every generated page, extract the primary CTA, evaluate it
-   against a live feed, count the zeros. That is how 173 was found.
-
-12. **Trust-claim provenance: does the page describe the filter it actually applied? (learned 2026-07-29,
-   item 174 — 159's defect at 1,100× the page count.)** 159 caught `llms.txt` claiming `TVL ≥ $10k` while
-   the product filtered at $10M. **Nobody re-ran that check on the other 2,200 pages**, all of which said,
-   under the FAQ heading *"Are these rates safe?"*: *"Every rate shown passes DeFi Garden's trust filters —
-   a $100K minimum TVL."*
-   - **Grep every generated surface for every rail claim after fixing one of them.** A rail claim is any
-     rendered sentence naming a TVL floor, an APY limit, or "trust filter". Fixing the instance that bit you
-     and stopping is how a 2-file fix leaves 2,200 pages broken.
-   - **A claim scoped to the page ("pools on this page clear $100K") is honest; a claim scoped to the
-     product ("DeFi Garden's trust filters are $100K") is false** if the product's constant differs. Read
-     the sentence's subject, not just its number.
-   - **Follow the claim into every DERIVED number on the page.** 1,713 pages carried a forever-number
-     (*"park $3.4K and it could run a $20/mo Claude Pro subscription, forever"*) blended from pools below
-     the product's floor — the SUBSCRIPTION archetype's trust-critical output, computed off pools the
-     product refuses to display. Same page, same generator, worse consequence than the copy itself.
-   - **And check the table the claim sits above:** 916 rows across 462 pages listed a pool at `0.00%` APY
-     under a "DeFi Yields" heading (the 032/033 class).
-
-13. **Signal hygiene: run the prod filter AND the unfiltered control, claim only the filtered one
-   (learned 2026-07-29).** The same daily-trend query, unfiltered, showed `session_start` 40 and
-   **`error_occurred` 3** on 07-15; with `$current_url contains www.defi.garden` it showed 5 and **0**. The
-   difference is our own localhost/preview sessions. A tick that drops the filter reports a phantom error
-   spike and breaks its own guardrail streak; a tick that never runs the unfiltered control cannot
-   distinguish a true prod-zero from a filter typo silently matching nothing. Record both numbers in the
-   snapshot; make the guardrail claim from the filtered one only.
-
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
-pre-traffic. Classes 11-13 added 2026-07-29 from items 173/174 — the tick that found 1,749 dead CTAs
-by checking, for the first time, whether a link DELIVERS rather than whether it PARSES. Seeded from every mechanically-detectable bug caught this session. Item 157's prescan
+pre-traffic. Seeded from every mechanically-detectable bug caught this session. Item 157's prescan
 promotion traces to 154's own honest follow-up note (`specs/154-notes.md:235-248`).
