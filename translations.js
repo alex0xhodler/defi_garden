@@ -619,17 +619,22 @@ const translations = {
     // are NOT translated here (en-US formatted, identical en/ko — CLAUDE.md).
     tcpTokenTitle: (sym) => `${sym} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`,
     tcpChainTitle: (chain) => `${chain} DeFi Yields — Live Pools by TVL | DeFi Garden 🌱`,
-    tcpTokenDescription: (sym, count, apy, chainCount) =>
-      `${count} live ${sym} ${count === 1 ? 'pool' : 'pools'} above the $100K TVL floor, up to ${apy} APY, across ${chainCount} ${chainCount === 1 ? 'chain' : 'chains'}. Honest yields from DefiLlama data — no anomalous rates.`,
-    tcpChainDescription: (chain, count, apy, tokenCount) =>
-      `${count} live ${count === 1 ? 'pool' : 'pools'} on ${chain} above the $100K TVL floor, up to ${apy} APY, across ${tokenCount} ${tokenCount === 1 ? 'token' : 'tokens'}. Honest yields from DefiLlama data — no anomalous rates.`,
-    tcpTokenIntro: (sym, project, chain, apy, tvl, count, chainCount, totalTvl) =>
-      `${sym}'s largest live pool is ${project} on ${chain} at ${apy} (${tvl} TVL). ${count} ${sym} ${count === 1 ? 'pool' : 'pools'} across ${chainCount} ${chainCount === 1 ? 'chain' : 'chains'} clear DeFi Garden's $100K TVL floor, ${totalTvl} in total.`,
-    tcpChainIntro: (chain, project, symbol, apy, tvl, count, tokenCount, totalTvl) =>
-      `${chain}'s largest live pool is ${project} (${symbol}) at ${apy} (${tvl} TVL). ${count} ${count === 1 ? 'pool' : 'pools'} across ${tokenCount} ${tokenCount === 1 ? 'token' : 'tokens'} clear DeFi Garden's $100K TVL floor, ${totalTvl} in total.`,
+    // 174: floorStr is ALWAYS the caller's formatUsd(MIN_POOL_TVL) — never a
+    // re-typed literal, so a verifier changing MIN_POOL_TVL sees this copy
+    // move with it. "clears this page's floor" replaces "clears DeFi
+    // Garden's floor" — the floor is this page's listing bar, not a claim
+    // about the product's overall trust filters (spec 174).
+    tcpTokenDescription: (sym, count, apy, chainCount, floorStr) =>
+      `${count} live ${sym} ${count === 1 ? 'pool' : 'pools'} above the ${floorStr} TVL floor, up to ${apy} APY, across ${chainCount} ${chainCount === 1 ? 'chain' : 'chains'}. Honest yields from DefiLlama data — no anomalous rates.`,
+    tcpChainDescription: (chain, count, apy, tokenCount, floorStr) =>
+      `${count} live ${count === 1 ? 'pool' : 'pools'} on ${chain} above the ${floorStr} TVL floor, up to ${apy} APY, across ${tokenCount} ${tokenCount === 1 ? 'token' : 'tokens'}. Honest yields from DefiLlama data — no anomalous rates.`,
+    tcpTokenIntro: (sym, project, chain, apy, tvl, count, chainCount, totalTvl, floorStr) =>
+      `${sym}'s largest live pool is ${project} on ${chain} at ${apy} (${tvl} TVL). ${count} ${sym} ${count === 1 ? 'pool' : 'pools'} across ${chainCount} ${chainCount === 1 ? 'chain' : 'chains'} clear this page's ${floorStr} TVL floor, ${totalTvl} in total.`,
+    tcpChainIntro: (chain, project, symbol, apy, tvl, count, tokenCount, totalTvl, floorStr) =>
+      `${chain}'s largest live pool is ${project} (${symbol}) at ${apy} (${tvl} TVL). ${count} ${count === 1 ? 'pool' : 'pools'} across ${tokenCount} ${tokenCount === 1 ? 'token' : 'tokens'} clear this page's ${floorStr} TVL floor, ${totalTvl} in total.`,
     tcpTokenHeading: (sym) => `${sym} DeFi Yields`,
     tcpChainHeading: (chain) => `${chain} DeFi Yields`,
-    tcpSubLine: (count) => `${count} live ${count === 1 ? 'pool' : 'pools'} above the $100K TVL floor · ranked by TVL`,
+    tcpSubLine: (count, floorStr) => `${count} live ${count === 1 ? 'pool' : 'pools'} above the ${floorStr} TVL floor · ranked by TVL`,
     tcpTokenCta: (sym) => `See live ${sym} pools →`,
     tcpChainCta: (chain) => `See live pools on ${chain} →`,
     // Waitlist CTA (062) — flat top-level keys (like every other tcp* string)
@@ -657,28 +662,39 @@ const translations = {
     tcpColToken: "Token",
     tcpColApy: "APY",
     tcpColTvl: "TVL",
-    tcpTrustNote: "Yields are live from DefiLlama and pass DeFi Garden's trust filters (≥ $100K TVL, anomalous rates excluded). Not financial advice — education only.",
+    // 174: floorStr is ALWAYS the caller's formatUsd(MIN_POOL_TVL) — never a
+    // re-typed literal. This note states THIS PAGE's own listing bar, not a
+    // claim about "DeFi Garden's trust filters" as a whole (the app's real
+    // savings-plan floor is DEFAULT_MIN_TVL = $10M, see CLAUDE.md).
+    tcpTrustNote: (floorStr) => `Yields are live from DefiLlama. Pools on this page clear a ${floorStr} minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.`,
     tcpLastUpdated: (date) => `Last updated ${date}`,
     tcpFooterTagline: "plan your DeFi savings by goal.",
     tcpItemListName: (project, chain) => `${project} on ${chain}`,
     tcpDatasetTokenName: (sym) => `${sym} DeFi Yields Dataset`,
-    tcpDatasetTokenDescription: (sym) => `Live DefiLlama yield data for ${sym} pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.`,
+    tcpDatasetTokenDescription: (sym, floorStr) => `Live DefiLlama yield data for ${sym} pools on DeFi Garden, filtered by a ${floorStr} TVL floor and anomalous-APY exclusion.`,
     tcpDatasetChainName: (chain) => `${chain} DeFi Yields Dataset`,
-    tcpDatasetChainDescription: (chain) => `Live DefiLlama yield data for ${chain} pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.`,
+    tcpDatasetChainDescription: (chain, floorStr) => `Live DefiLlama yield data for ${chain} pools on DeFi Garden, filtered by a ${floorStr} TVL floor and anomalous-APY exclusion.`,
     tcpBreadcrumbHome: "Home",
     tcpBreadcrumbTokens: "Tokens",
     tcpBreadcrumbChains: "Chains",
     tcpChainsAriaLabel: "Chains",
     tcpPoolCategoriesAriaLabel: "Pool categories",
     tcpFaqHeading: "Frequently asked questions",
-    tcpAnswer: (label, apyStr, project, chain, count) =>
-      `The highest honest ${label} yield right now is ${apyStr} on ${project} (${chain}), among ${count} ${count === 1 ? 'pool' : 'pools'} above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.`,
+    tcpAnswer: (label, apyStr, project, chain, count, floorStr) =>
+      `The highest honest ${label} yield right now is ${apyStr} on ${project} (${chain}), among ${count} ${count === 1 ? 'pool' : 'pools'} above the ${floorStr} TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.`,
     tcpFaqQ1: (label) => `What's the highest ${label} yield today?`,
     tcpFaqA1: (apyStr, project, chain) => `${apyStr} APY on ${project} (${chain}), based on live DefiLlama data.`,
     tcpFaqQ2: (label) => `How many ${label} pools clear the TVL floor?`,
-    tcpFaqA2: (count, tvlStr) => `${count} live ${count === 1 ? 'pool' : 'pools'} clear DeFi Garden's $100K TVL floor, ${tvlStr} in total.`,
+    // 174: "this page's floor", not "DeFi Garden's floor" — see tcpTokenIntro's comment above.
+    tcpFaqA2: (count, tvlStr, floorStr) => `${count} live ${count === 1 ? 'pool' : 'pools'} clear this page's ${floorStr} TVL floor, ${tvlStr} in total.`,
     tcpFaqQ3: "Are these rates safe?",
-    tcpFaqA3: "Every rate shown passes DeFi Garden's trust filters — a $100K minimum TVL and exclusion of anomalous (>1000% APY) pools. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.",
+    // 174: this was "Every rate shown passes DeFi Garden's trust filters — a
+    // $100K minimum TVL...", stated as an answer to "Are these rates safe?".
+    // That attributed the PAGE's own $100K listing floor to the product's
+    // trust filters, when the app's real savings-plan floor is $10M
+    // (DEFAULT_MIN_TVL, app.js) — a 100x false safety claim (spec 174).
+    // floorStr is ALWAYS the caller's formatUsd(MIN_POOL_TVL), never re-typed.
+    tcpFaqA3: (floorStr) => `Pools listed on this page clear a ${floorStr} minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.`,
     tcpRelatedTokensHeading: "Related tokens",
     tcpRelatedChainsHeading: "Related chains",
     tcpAvailableOnHeading: "Available on",
@@ -688,7 +704,9 @@ const translations = {
     tcpTokenHubDescription: (count) => `${count} tokens with live, trust-filtered DeFi yield data — top pools by TVL, browsable by name. Honest yields from DefiLlama, no anomalous rates.`,
     tcpTokenHubHeading: "All Token Yield Pages",
     tcpTokenHubSub: (count) => `${count} tokens with live, trust-filtered yield data`,
-    tcpTokenHubIntro: "Every DeFi Garden token page in one place — live pools ranked by TVL, filtered through our $100K floor and anomaly rails. Start with the top tokens by TVL, or jump straight to a letter.",
+    // 174: "a ${floorStr} TVL floor", not "our $100K floor" — the floor is
+    // the listing bar every linked page applies, not a DeFi-Garden-wide claim.
+    tcpTokenHubIntro: (floorStr) => `Every DeFi Garden token page in one place — live pools ranked by TVL, filtered through a ${floorStr} TVL floor and anomaly rails. Start with the top tokens by TVL, or jump straight to a letter.`,
     tcpHubBackCta: "← Back to DeFi Garden",
     tcpTopTokensByTvlHeading: "Top tokens by TVL",
     tcpBrowseAZHeading: "Browse all tokens A–Z",
@@ -696,7 +714,7 @@ const translations = {
     tcpChainHubDescription: (count) => `${count} chains with live, trust-filtered DeFi yield data, ranked by TVL. Honest yields from DefiLlama, no anomalous rates.`,
     tcpChainHubHeading: "All Chain Yield Pages",
     tcpChainHubSub: (count) => `${count} chains with live, trust-filtered yield data`,
-    tcpChainHubIntro: "Every DeFi Garden chain page in one place — live pools ranked by TVL, filtered through our $100K floor and anomaly rails.",
+    tcpChainHubIntro: (floorStr) => `Every DeFi Garden chain page in one place — live pools ranked by TVL, filtered through a ${floorStr} TVL floor and anomaly rails.`,
     tcpAllChainsHeading: "All chains",
     tcpAzTitle: (letter) => `Tokens starting with ${letter} | DeFi Garden 🌱`,
     tcpAzDescription: (letter, count) => `${count} DeFi tokens starting with "${letter}" with live, trust-filtered yield data on DeFi Garden.`,
@@ -1305,17 +1323,20 @@ const translations = {
     // are NOT translated here (en-US formatted, identical en/ko — CLAUDE.md).
     tcpTokenTitle: (sym) => `${sym} 디파이 수익률 — TVL 기준 실시간 풀 | DeFi Garden 🌱`,
     tcpChainTitle: (chain) => `${chain} 디파이 수익률 — TVL 기준 실시간 풀 | DeFi Garden 🌱`,
-    tcpTokenDescription: (sym, count, apy, chainCount) =>
-      `$100K TVL 기준을 넘는 실시간 ${sym} 풀 ${count}개, 최고 APY ${apy}, ${chainCount}개 체인에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.`,
-    tcpChainDescription: (chain, count, apy, tokenCount) =>
-      `${chain}에서 $100K TVL 기준을 넘는 실시간 풀 ${count}개, 최고 APY ${apy}, ${tokenCount}개 토큰에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.`,
-    tcpTokenIntro: (sym, project, chain, apy, tvl, count, chainCount, totalTvl) =>
-      `${sym}의 가장 큰 실시간 풀은 ${chain}의 ${project}로, APY ${apy}(TVL ${tvl})예요. ${sym} 풀 ${count}개가 ${chainCount}개 체인에 걸쳐 DeFi Garden의 $100K TVL 기준을 통과했고, 합산 TVL은 ${totalTvl}이에요.`,
-    tcpChainIntro: (chain, project, symbol, apy, tvl, count, tokenCount, totalTvl) =>
-      `${chain}의 가장 큰 실시간 풀은 ${project}(${symbol})로, APY ${apy}(TVL ${tvl})예요. 풀 ${count}개가 ${tokenCount}개 토큰에 걸쳐 DeFi Garden의 $100K TVL 기준을 통과했고, 합산 TVL은 ${totalTvl}이에요.`,
+    // 174: floorStr은 항상 호출부의 formatUsd(MIN_POOL_TVL) 값이며, 절대 문자열로 다시 적지 않아요.
+    // "DeFi Garden의 기준" 대신 "이 페이지의 기준"으로 — 이 기준은 이 페이지의 게재
+    // 기준일 뿐, 제품 전체의 신뢰 기준에 대한 주장이 아니에요 (spec 174).
+    tcpTokenDescription: (sym, count, apy, chainCount, floorStr) =>
+      `${floorStr} TVL 기준을 넘는 실시간 ${sym} 풀 ${count}개, 최고 APY ${apy}, ${chainCount}개 체인에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.`,
+    tcpChainDescription: (chain, count, apy, tokenCount, floorStr) =>
+      `${chain}에서 ${floorStr} TVL 기준을 넘는 실시간 풀 ${count}개, 최고 APY ${apy}, ${tokenCount}개 토큰에서 확인할 수 있어요. DefiLlama 데이터 기반의 정직한 수익률 — 이상 수치는 제외했어요.`,
+    tcpTokenIntro: (sym, project, chain, apy, tvl, count, chainCount, totalTvl, floorStr) =>
+      `${sym}의 가장 큰 실시간 풀은 ${chain}의 ${project}로, APY ${apy}(TVL ${tvl})예요. ${sym} 풀 ${count}개가 ${chainCount}개 체인에 걸쳐 이 페이지의 ${floorStr} TVL 기준을 통과했고, 합산 TVL은 ${totalTvl}이에요.`,
+    tcpChainIntro: (chain, project, symbol, apy, tvl, count, tokenCount, totalTvl, floorStr) =>
+      `${chain}의 가장 큰 실시간 풀은 ${project}(${symbol})로, APY ${apy}(TVL ${tvl})예요. 풀 ${count}개가 ${tokenCount}개 토큰에 걸쳐 이 페이지의 ${floorStr} TVL 기준을 통과했고, 합산 TVL은 ${totalTvl}이에요.`,
     tcpTokenHeading: (sym) => `${sym} 디파이 수익률`,
     tcpChainHeading: (chain) => `${chain} 디파이 수익률`,
-    tcpSubLine: (count) => `$100K TVL 기준을 넘는 실시간 풀 ${count}개 · TVL 순 정렬`,
+    tcpSubLine: (count, floorStr) => `${floorStr} TVL 기준을 넘는 실시간 풀 ${count}개 · TVL 순 정렬`,
     tcpTokenCta: (sym) => `${sym} 실시간 풀 보기 →`,
     tcpChainCta: (chain) => `${chain}의 실시간 풀 보기 →`,
     tcpWaitlistPitchToken: (sym) => `내 ${sym} 수익으로 결제되는 카드예요 — ${sym} 원금은 그대로 남아있어요. 대기자 명단에 등록하고 준비되면 가장 먼저 알림을 받아보세요.`,
@@ -1339,28 +1360,31 @@ const translations = {
     tcpColToken: "토큰",
     tcpColApy: "APY",
     tcpColTvl: "TVL",
-    tcpTrustNote: "수익률은 DefiLlama의 실시간 데이터이며, DeFi Garden의 신뢰 기준(TVL $100K 이상, 이상 수치 제외)을 통과했어요. 투자 조언이 아닌 교육 목적의 정보예요.",
+    // 174: floorStr은 항상 호출부의 formatUsd(MIN_POOL_TVL) 값이며, 절대 문자열로 다시 적지 않아요.
+    tcpTrustNote: (floorStr) => `수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL ${floorStr} 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.`,
     tcpLastUpdated: (date) => `마지막 업데이트: ${date}`,
     tcpFooterTagline: "목표에 맞춰 디파이 저축을 계획해요.",
     tcpItemListName: (project, chain) => `${chain}의 ${project}`,
     tcpDatasetTokenName: (sym) => `${sym} 디파이 수익률 데이터셋`,
-    tcpDatasetTokenDescription: (sym) => `DeFi Garden에 있는 ${sym} 풀의 실시간 DefiLlama 수익률 데이터예요. $100K TVL 기준과 이상 APY 제외 필터를 통과했어요.`,
+    tcpDatasetTokenDescription: (sym, floorStr) => `DeFi Garden에 있는 ${sym} 풀의 실시간 DefiLlama 수익률 데이터예요. ${floorStr} TVL 기준과 이상 APY 제외 필터를 통과했어요.`,
     tcpDatasetChainName: (chain) => `${chain} 디파이 수익률 데이터셋`,
-    tcpDatasetChainDescription: (chain) => `DeFi Garden에 있는 ${chain} 풀의 실시간 DefiLlama 수익률 데이터예요. $100K TVL 기준과 이상 APY 제외 필터를 통과했어요.`,
+    tcpDatasetChainDescription: (chain, floorStr) => `DeFi Garden에 있는 ${chain} 풀의 실시간 DefiLlama 수익률 데이터예요. ${floorStr} TVL 기준과 이상 APY 제외 필터를 통과했어요.`,
     tcpBreadcrumbHome: "홈",
     tcpBreadcrumbTokens: "토큰",
     tcpBreadcrumbChains: "체인",
     tcpChainsAriaLabel: "체인",
     tcpPoolCategoriesAriaLabel: "풀 카테고리",
     tcpFaqHeading: "자주 묻는 질문",
-    tcpAnswer: (label, apyStr, project, chain, count) =>
-      `현재 ${label}의 가장 높은 정직한 수익률은 ${chain}의 ${project}에서 ${apyStr}이며, $100K TVL 기준을 넘는 ${count}개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.`,
+    tcpAnswer: (label, apyStr, project, chain, count, floorStr) =>
+      `현재 ${label}의 가장 높은 정직한 수익률은 ${chain}의 ${project}에서 ${apyStr}이며, ${floorStr} TVL 기준을 넘는 ${count}개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.`,
     tcpFaqQ1: (label) => `오늘 ${label}의 가장 높은 수익률은 얼마인가요?`,
     tcpFaqA1: (apyStr, project, chain) => `DefiLlama 실시간 데이터 기준, ${chain}의 ${project}에서 APY ${apyStr}예요.`,
     tcpFaqQ2: (label) => `${label} 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?`,
-    tcpFaqA2: (count, tvlStr) => `DeFi Garden의 $100K TVL 기준을 통과한 실시간 풀은 ${count}개이며, 합산 TVL은 ${tvlStr}예요.`,
+    // 174: "이 페이지의 기준" — "DeFi Garden의 기준"이 아니에요 (위 tcpTokenIntro 주석 참고).
+    tcpFaqA2: (count, tvlStr, floorStr) => `이 페이지의 ${floorStr} TVL 기준을 통과한 실시간 풀은 ${count}개이며, 합산 TVL은 ${tvlStr}예요.`,
     tcpFaqQ3: "이 수익률은 안전한가요?",
-    tcpFaqA3: "표시된 모든 수익률은 DeFi Garden의 신뢰 기준(최소 TVL $100K, 이상 수치(APY 1000% 초과) 풀 제외)을 통과했어요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.",
+    // 174: floorStr은 항상 호출부의 formatUsd(MIN_POOL_TVL) 값이며, 절대 문자열로 다시 적지 않아요.
+    tcpFaqA3: (floorStr) => `이 페이지에 표시된 풀은 최소 TVL ${floorStr} 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.`,
     tcpRelatedTokensHeading: "관련 토큰",
     tcpRelatedChainsHeading: "관련 체인",
     tcpAvailableOnHeading: "이용 가능한 체인",
@@ -1370,7 +1394,8 @@ const translations = {
     tcpTokenHubDescription: (count) => `실시간, 신뢰 기준을 통과한 디파이 수익률 데이터를 보유한 토큰 ${count}개 — TVL 기준 상위 풀을 이름별로 찾아보세요. DefiLlama 기반의 정직한 수익률, 이상 수치 없음.`,
     tcpTokenHubHeading: "전체 토큰 수익률 페이지",
     tcpTokenHubSub: (count) => `실시간, 신뢰 기준을 통과한 수익률 데이터를 보유한 토큰 ${count}개`,
-    tcpTokenHubIntro: "DeFi Garden의 모든 토큰 페이지를 한곳에 모았어요 — $100K 기준과 이상 수치 필터를 통과한 실시간 풀을 TVL 순으로 정렬했어요. TVL 상위 토큰부터 살펴보거나, 알파벳으로 바로 찾아보세요.",
+    // 174: "${floorStr} TVL 기준" — "$100K 기준"으로 다시 적지 않아요.
+    tcpTokenHubIntro: (floorStr) => `DeFi Garden의 모든 토큰 페이지를 한곳에 모았어요 — ${floorStr} TVL 기준과 이상 수치 필터를 통과한 실시간 풀을 TVL 순으로 정렬했어요. TVL 상위 토큰부터 살펴보거나, 알파벳으로 바로 찾아보세요.`,
     tcpHubBackCta: "← DeFi Garden으로 돌아가기",
     tcpTopTokensByTvlHeading: "TVL 상위 토큰",
     tcpBrowseAZHeading: "전체 토큰 A–Z 보기",
@@ -1378,7 +1403,7 @@ const translations = {
     tcpChainHubDescription: (count) => `실시간, 신뢰 기준을 통과한 디파이 수익률 데이터를 보유한 체인 ${count}개, TVL 순으로 정렬했어요. DefiLlama 기반의 정직한 수익률, 이상 수치 없음.`,
     tcpChainHubHeading: "전체 체인 수익률 페이지",
     tcpChainHubSub: (count) => `실시간, 신뢰 기준을 통과한 수익률 데이터를 보유한 체인 ${count}개`,
-    tcpChainHubIntro: "DeFi Garden의 모든 체인 페이지를 한곳에 모았어요 — $100K 기준과 이상 수치 필터를 통과한 실시간 풀을 TVL 순으로 정렬했어요.",
+    tcpChainHubIntro: (floorStr) => `DeFi Garden의 모든 체인 페이지를 한곳에 모았어요 — ${floorStr} TVL 기준과 이상 수치 필터를 통과한 실시간 풀을 TVL 순으로 정렬했어요.`,
     tcpAllChainsHeading: "전체 체인",
     tcpAzTitle: (letter) => `${letter}로 시작하는 토큰 | DeFi Garden 🌱`,
     tcpAzDescription: (letter, count) => `"${letter}"로 시작하는 디파이 토큰 ${count}개, 실시간 신뢰 기준을 통과한 수익률 데이터를 DeFi Garden에서 확인하세요.`,

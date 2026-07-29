@@ -8,8 +8,49 @@
 const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 const gen = require('./generate-token-pages.js');
 const chainGen = require('./generate-chain-pages.js'); // 049 — cross-surface linking
+
+// --- 174 scratch-run harness -------------------------------------------------
+// Spec 174's own acceptance test is "the verifier changes MIN_POOL_TVL in a
+// scratch run and observes the copy change with it." This reproduces exactly
+// that: write patched COPIES of the two generators (source text, with every
+// relative `require('./x.js')` rewritten to an absolute path so the copies
+// still resolve their sibling modules from a scratch temp dir) with
+// MIN_POOL_TVL literally edited to a different value, `require()` those
+// copies fresh (never the cached real modules), and render real pages from
+// them. If any template still carries a hardcoded floor literal instead of
+// interpolating the constant, the rendered page will show the OLD floor
+// string alongside/instead of the new one — this harness catches that.
+function rewriteRequiresToAbsolute(src, dir, overrides) {
+  return src.replace(/require\((['"])(\.\.?\/[^'"]+)\1\)/g, (m, q, relPath) => {
+    const abs = (overrides && overrides[relPath]) || path.join(dir, relPath);
+    return `require(${q}${abs.replace(/\\/g, '/')}${q})`;
+  });
+}
+function loadScratchGenerators(newFloor) {
+  const scratchDir = fs.mkdtempSync(path.join(os.tmpdir(), 'dg-174-scratch-'));
+  const tokenSrc = fs.readFileSync(path.join(__dirname, 'generate-token-pages.js'), 'utf8');
+  const patchedMarker = `const MIN_POOL_TVL = ${newFloor};`;
+  const patchedTokenSrc = rewriteRequiresToAbsolute(
+    tokenSrc.replace('const MIN_POOL_TVL = 100000;', patchedMarker), __dirname);
+  assert.ok(patchedTokenSrc.includes(patchedMarker), 'failed to patch MIN_POOL_TVL in the scratch token generator');
+  const tokenScratchPath = path.join(scratchDir, 'generate-token-pages.js');
+  fs.writeFileSync(tokenScratchPath, patchedTokenSrc);
+
+  const chainSrc = fs.readFileSync(path.join(__dirname, 'generate-chain-pages.js'), 'utf8');
+  const patchedChainSrc = rewriteRequiresToAbsolute(chainSrc, __dirname,
+    { './generate-token-pages.js': tokenScratchPath.replace(/\\/g, '/') });
+  const chainScratchPath = path.join(scratchDir, 'generate-chain-pages.js');
+  fs.writeFileSync(chainScratchPath, patchedChainSrc);
+
+  return { tokenGen: require(tokenScratchPath), chainGen: require(chainScratchPath), scratchDir };
+}
+function cleanupScratch(scratchDir) {
+  Object.keys(require.cache).forEach(k => { if (k.startsWith(scratchDir)) delete require.cache[k]; });
+  fs.rmSync(scratchDir, { recursive: true, force: true });
+}
 
 let passed = 0;
 function test(name, fn) {
@@ -551,13 +592,32 @@ test('every ranked token (all clear the 032 visible-nonzero table gate) gets a n
     assert.ok(gen.yieldHeadlineFor(r, 'en'), `${r.symbol} unexpectedly got no yield headline`);
   });
 });
-test('returns null (no fabricated number) when the blended MEDIAN rounds to 0.00%, even with a non-zero pool present', () => {
-  const medianZeroRec = { symbol: 'MEDZERO', pools: [
+test('174: returns null (no fabricated number) when every rail-passing pool is visibly zero', () => {
+  const allZeroRec = { symbol: 'ALLZERO174', pools: [
     { apyBase: 0, apyReward: 0, tvlUsd: 200000 },
-    { apyBase: 0, apyReward: 0, tvlUsd: 150000 },
-    { apyBase: 5, apyReward: 0, tvlUsd: 100000 }
+    { apyBase: 0, apyReward: 0, tvlUsd: 150000 }
   ] };
-  assert.strictEqual(gen.yieldHeadlineFor(medianZeroRec, 'en'), null);
+  assert.strictEqual(gen.yieldHeadlineFor(allZeroRec, 'en'), null);
+});
+test('174: a zero-APY pool mixed with real pools is excluded from the blend — exact expected value from a fixture', () => {
+  // Pre-174 behavior blended ALL 3 pools: median([0,4,6]) = 4.00% (a promise
+  // partly resting on a pool the product would never display). 174 requires
+  // the blend to use ONLY the visibly-non-zero, rail-passing pools:
+  // median([4,6]) = 5.00% — a different, exact number this test pins down.
+  const mixedRec = { symbol: 'MIXED174', pools: [
+    { apyBase: 0, apyReward: 0, tvlUsd: 200000 },
+    { apyBase: 4, apyReward: 0, tvlUsd: 150000 },
+    { apyBase: 6, apyReward: 0, tvlUsd: 100000 }
+  ] };
+  const h = gen.yieldHeadlineFor(mixedRec, 'en');
+  assert.ok(h, 'expected a non-null headline once the zero pool is excluded from the blend');
+  const nonZeroPools = [mixedRec.pools[1], mixedRec.pools[2]];
+  const expectedApyStr = gen.formatApy(gp.blendedApy(nonZeroPools));
+  assert.strictEqual(expectedApyStr, '5.00%', 'sanity: the fixture\'s own expected value');
+  assert.strictEqual(h.apyStr, expectedApyStr, 'blended APY must be computed WITHOUT the zero pool');
+  assert.notStrictEqual(h.apyStr, gen.formatApy(gp.blendedApy(mixedRec.pools)), 'must differ from the (wrong) all-pools blend');
+  const expectedForever = gen.formatUsd(gp.foreverNumber(gen.yieldHeadlineAnchor().monthly, gp.blendedApy(nonZeroPools)));
+  assert.strictEqual(h.foreverAmtStr, expectedForever, 'forever amount must be derived from the SAME zero-excluded blend');
 });
 test('renderYieldHeadlineHtml renders nothing for a null headline', () => {
   const t = require('./translations.js').createTranslationFunction('en');
@@ -597,6 +657,97 @@ test('yield headline uses the neuro token system only, no hardcoded hex colors',
   assert.ok(styleMatch, 'yield headline style rule missing from rendered page');
   assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleMatch[0]), 'hardcoded hex color in the yield headline style');
   assert.ok(styleMatch[0].includes('var(--neuro-shadow-raised)'), 'must reuse existing neuro shadow token');
+});
+
+console.log('174 — safety-floor honesty (FAQ) + no 0.00% rows + forever-number rail (committed regression)');
+test('174: FAQ "Are these rates safe?" answer cites the real MIN_POOL_TVL floor and never says "trust filters" (EN)', () => {
+  const faq = extractLdJsonBlocks(html, 'FAQPage')[0].mainEntity;
+  assert.strictEqual(faq[2].name, 'Are these rates safe?');
+  const safetyAnswer = faq[2].acceptedAnswer.text;
+  assert.ok(safetyAnswer.includes(gen.formatUsd(gen.MIN_POOL_TVL)),
+    'FAQ safety answer must cite the real MIN_POOL_TVL floor (' + gen.formatUsd(gen.MIN_POOL_TVL) + ')');
+  assert.ok(!/trust filters/i.test(safetyAnswer),
+    'FAQ safety answer must not attribute the page\'s floor to "DeFi Garden\'s trust filters" (100x false safety claim)');
+});
+test('174: FAQ safety answer changes when MIN_POOL_TVL changes (interpolated, never a re-typed literal)', () => {
+  const t = require('./translations.js').createTranslationFunction('en');
+  assert.ok(t('tcpFaqA3', '$1.00').includes('$1.00'), 'tcpFaqA3 must be a function of its floor argument');
+  assert.ok(t('tcpFaqA3', '$9.99M').includes('$9.99M'), 'tcpFaqA3 must reflect a different floor string, not a fixed literal');
+});
+test('174: FAQ safety answer cites the real USD floor and never says 신뢰 기준 (trust criteria) as the safety guarantee (KO)', () => {
+  const koHtml = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12', [], 'ko');
+  const koFaq = extractLdJsonBlocks(koHtml, 'FAQPage')[0].mainEntity;
+  const safetyAnswer = koFaq[2].acceptedAnswer.text;
+  assert.ok(safetyAnswer.includes(gen.formatUsd(gen.MIN_POOL_TVL)),
+    'KO FAQ safety answer must cite the real USD floor — never a converted/relabeled 원 figure');
+  assert.ok(!safetyAnswer.includes('신뢰 기준'),
+    'KO FAQ safety answer must not attribute the page\'s floor to DeFi Garden\'s "trust criteria" as a safety guarantee');
+});
+test('174: tcpTrustNote footer note is likewise interpolated from the floor, not "trust filters" (EN + KO)', () => {
+  const t = require('./translations.js').createTranslationFunction('en');
+  const tKo = require('./translations.js').createTranslationFunction('ko');
+  assert.ok(!/trust filters/i.test(t('tcpTrustNote', gen.formatUsd(gen.MIN_POOL_TVL))), 'EN trust note must not say "trust filters"');
+  assert.ok(!tKo('tcpTrustNote', gen.formatUsd(gen.MIN_POOL_TVL)).includes('신뢰 기준'), 'KO trust note must not say 신뢰 기준');
+  assert.ok(html.includes(gen.formatUsd(gen.MIN_POOL_TVL)) , 'rendered page must show the real floor somewhere via the trust note');
+});
+test('174: no rendered pool row across ANY ranked token shows 0.00% APY (display excludes zero-yield rows)', () => {
+  ranked.forEach(r => r.pools.forEach(p =>
+    assert.notStrictEqual(gen.formatApy(gen.poolTotalApy(p)), '0.00%', r.symbol + ' has a displayed 0.00% APY row')));
+});
+test('174: rankTopTokens excludes 0.00%-APY rows from the displayed table and backfills a real-yield pool ranked beyond POOLS_PER_PAGE', () => {
+  const backfillPools = [];
+  for (let i = 0; i < 7; i++) {
+    backfillPools.push({ symbol: 'BACKFILL174', project: 'zpool' + i, chain: 'Ethereum',
+      tvlUsd: (900 - i * 100) * 1e6, apyBase: 0, apyReward: 0, pool: 'bf174-z' + i });
+  }
+  // Rank #8 by TVL — inside the gate's `shown` slice, keeps the token qualifying.
+  backfillPools.push({ symbol: 'BACKFILL174', project: 'yieldpool8', chain: 'Ethereum',
+    tvlUsd: 200000000, apyBase: 5, apyReward: 0, pool: 'bf174-y8' });
+  // Rank #9 by TVL — beyond POOLS_PER_PAGE (8), the exact 033-style truncation case.
+  backfillPools.push({ symbol: 'BACKFILL174', project: 'yieldpool9', chain: 'Ethereum',
+    tvlUsd: 100000000, apyBase: 6, apyReward: 0, pool: 'bf174-y9' });
+  const rankedBackfill = gen.rankTopTokens(backfillPools);
+  const rec = rankedBackfill.find(r => r.symbol === 'BACKFILL174');
+  assert.ok(rec, 'BACKFILL174 should qualify (its top-8-by-TVL gate slice has >=1 non-zero pool)');
+  assert.strictEqual(rec.pools.length, 2, 'only the 2 real-yield pools should remain in the displayed table');
+  assert.ok(rec.pools.every(p => gen.formatApy(gen.poolTotalApy(p)) !== '0.00%'),
+    'no displayed BACKFILL174 pool row may show 0.00% APY');
+  assert.ok(rec.pools.some(p => p.pool === 'bf174-y9'),
+    'the rank-9 real-yield pool must backfill into the displayed table once zero rows are excluded');
+  const bfHtml = gen.renderTokenPage(rec, [], '2026-07-12');
+  assert.ok(!bfHtml.includes('0.00%'), 'rendered BACKFILL174 page must not show any 0.00% APY cell');
+});
+test('174: mutating MIN_POOL_TVL in a scratch run moves EVERY floor mention on token + chain + hub pages, with zero stale $100K literal', () => {
+  const { tokenGen, chainGen, scratchDir } = loadScratchGenerators(250000);
+  try {
+    const newFloorStr = tokenGen.formatUsd(250000);
+    assert.strictEqual(newFloorStr, '$250K', 'sanity: the mutated floor formats to $250K');
+
+    const scratchRanked = tokenGen.rankTopTokens(pools); // reuses this file's own token fixture
+    const big = scratchRanked.find(r => r.symbol === 'BIG');
+    assert.ok(big, 'BIG ($500M+$300M pools) must still qualify at the mutated $250K floor');
+    const tokenHtml = tokenGen.renderTokenPage(big, [], '2026-07-12');
+    assert.ok(tokenHtml.includes(newFloorStr), 'token page must show the MUTATED floor, not a fixed literal');
+    assert.ok(!tokenHtml.includes('$100K'), 'token page must not retain the stale $100K literal once the constant changes');
+
+    const azGroups = tokenGen.groupTokensAZ(scratchRanked);
+    const hubHtml = tokenGen.renderTokenHubPage(scratchRanked, azGroups);
+    assert.ok(hubHtml.includes(newFloorStr), 'token hub page must show the MUTATED floor');
+    assert.ok(!hubHtml.includes('$100K'), 'token hub page must not retain the stale $100K literal');
+
+    const scratchChainRanked = chainGen.rankTopChains(pools); // same fixture, chain-side ranking
+    assert.ok(scratchChainRanked.length > 0, 'expected at least one qualifying chain at the mutated floor');
+    const chainRec = scratchChainRanked[0];
+    const chainHtml = chainGen.renderChainPage(chainRec, [], '2026-07-12');
+    assert.ok(chainHtml.includes(newFloorStr), 'chain page must show the MUTATED floor');
+    assert.ok(!chainHtml.includes('$100K'), 'chain page must not retain the stale $100K literal');
+
+    const chainHubHtml = chainGen.renderChainHubPage(scratchChainRanked);
+    assert.ok(chainHubHtml.includes(newFloorStr), 'chain hub page must show the MUTATED floor');
+    assert.ok(!chainHubHtml.includes('$100K'), 'chain hub page must not retain the stale $100K literal');
+  } finally {
+    cleanupScratch(scratchDir);
+  }
 });
 
 console.log(`\n${passed} assertions passed`);
