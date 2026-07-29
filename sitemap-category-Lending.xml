@@ -65,19 +65,19 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=GTUSDCP&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GTUSDCP&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GTUSDCP&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GTUSDCP&amp;poolTypes=Lending" />
+    <loc>https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=Lending" />
+    <loc>https://www.defi.garden/?token=GTUSDCP&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GTUSDCP&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GTUSDCP&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GTUSDCP&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -119,19 +119,19 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WBNB&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBNB&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBNB&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBNB&amp;poolTypes=Lending" />
+    <loc>https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUPUSDT&amp;poolTypes=Lending" />
+    <loc>https://www.defi.garden/?token=WBNB&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBNB&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBNB&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBNB&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
@@ -218,15 +218,6 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=PYUSD&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PYUSD&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PYUSD&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PYUSD&amp;poolTypes=Lending" />
-    <lastmod>2026-07-28T09:54:14.308Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.84</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=STEAKUSDT&amp;poolTypes=Lending</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STEAKUSDT&amp;poolTypes=Lending" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STEAKUSDT&amp;poolTypes=Lending&amp;lang=ko" />
@@ -268,6 +259,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KHYPE&amp;poolTypes=Lending&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KHYPE&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending" />
+    <lastmod>2026-07-29T05:21:35.056Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
