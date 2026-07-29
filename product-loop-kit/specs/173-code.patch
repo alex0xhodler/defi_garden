@@ -196,8 +196,8 @@ index b71639b12..a9e253825 100644
 +rule verbatim. Three things about it are worth reusing, not just knowing:
 +- **The rule is structural, not numeric.** `.tvl-trend-note` (`PoolDetail.js:1516`) renders a deposit-base
 +  *change* — a pool that grew 20× shows a legitimate `"1,900%"`, gated only on `|tvlTrend| >= 0.25` with no
-+  upper bound. There is no threshold above which a TVL change becomes wrong, so "is this a **rate**?" has
-+  to be answered by container, never by magnitude. A blanket "any % > 1000" check is wrong, not merely noisy.
++  upper bound. There is no threshold above which a TVL change becomes wrong, so "is this a **rate**?" has to
++  be answered by container, never by magnitude. A blanket "any % > 1000" check is wrong, not merely noisy.
 +- **Exclude-list, not allow-list.** Every rendered percent counts as a rate figure unless its container is
 +  in `.tvl-trend-note, .gp-item-fill`. An allow-list only ever sees rate sites someone remembered to
 +  register — the 148 → 159 → 166 → 172 pattern applied to the checker itself. The accepted cost is that a
