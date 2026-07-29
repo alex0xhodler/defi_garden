@@ -122,7 +122,9 @@ test('each pool row links to its detail page (/?pool=<id>)', () => {
 test('pool row falls back to the token app view when a pool has no id', () => {
   const noId = gen.renderTokenPage({ symbol: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7,
     pools: [{ project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
-  assert.ok(noId.includes('href="https://www.defi.garden/?token=X"'), 'missing fallback link');
+  // 173: the fallback link is the same appUrl the primary CTA uses, so it now
+  // carries the generator's own &minTvl= floor too.
+  assert.ok(noId.includes(`href="https://www.defi.garden/?token=X&minTvl=${gen.MIN_POOL_TVL}"`), 'missing fallback link');
 });
 test('renders >=1 real pool row with en-US formatted numbers', () => {
   assert.ok(/<td class="num">\d/.test(html), 'no formatted numeric cell');
@@ -470,7 +472,10 @@ test('categoryLinksFor returns distinct categories with working ?token=&poolType
 test('renderTokenPage always renders a By category nav derived from on-page pools (no category hub page exists yet)', () => {
   const html = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12');
   assert.ok(html.includes('aria-label="Pool categories"'), 'missing category nav');
-  assert.ok(html.includes('href="https://www.defi.garden/?token=BIG&poolTypes=Lending"'), 'missing category link');
+  // 173: categoryLinksFor builds off appUrl, which now carries the generator's
+  // own &minTvl= floor — so the category link inherits it too (single
+  // injection site, no re-typed literal).
+  assert.ok(html.includes(`href="https://www.defi.garden/?token=BIG&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending"`), 'missing category link');
 });
 test('cross-links reuse the related nav styling via an added class token, without colliding with the exact class="related" tests', () => {
   const html = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12', [{ chain: 'Ethereum', slug: 'ethereum' }]);

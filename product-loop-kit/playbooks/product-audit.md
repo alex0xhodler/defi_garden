@@ -280,6 +280,35 @@ had no link signal at all. Three sub-rules port cleanly to HTML, and the porting
    crosses between them.** Sibling of `dual-source-logic-divergence.md`.
    Cheapest first move, ~15 lines of node: for every generated page, extract the primary CTA, evaluate it
    against a live feed, count the zeros. That is how 173 was found.
+   **FIXING one (added 2026-07-29 after 173 shipped — the diagnosis above is only half the playbook):**
+   - **Make the link carry the contract, don't move either floor.** The fix is to append the *linking
+     page's own* parameter (`&minTvl=${MIN_POOL_TVL}`) — read from the existing exported constant, never a
+     re-typed literal (the 159 rule). Changing `DEFAULT_MIN_TVL` instead would be a trust-rail edit and is
+     on the NEVER list. One injection site is usually enough: check whether the derived links
+     (`categoryLinksFor()`'s `&poolTypes=` variants, `poolHrefFor()`'s fallback) are built *from* the base
+     URL — if so they inherit it, and adding a second site creates a new drift surface.
+   - **TRAP — the fix may silently change the DATA PATH, not just the filter.** `app.js:1140`'s
+     `snapshotEligible` requires `minTvl >= DEFAULT_MIN_TVL`, so a link carrying a *lower* floor skips
+     `data/pools-snapshot.json` (which only holds ≥$10M pools) and forces `loadLive()`. Here that is
+     load-bearing — the snapshot *could never* have served the page's set — but it costs the instant first
+     paint. Always ask: after this change, which source does the landing read from? Answer it in the
+     rendered app, not from the URL string.
+   - **TRAP — a param in `canonical.js`'s `CANONICAL_PARAMS` mints a new canonical URL.** `minTvl` is on
+     that list, so every fixed link now points at a self-canonical variant that is *not* in the sitemap.
+     Not a de-indexing (no page removed, no `noindex`), but flag it — do not "fix" it by editing
+     `canonical.js`, which is sacred parameterized-URL behaviour.
+   - **TRAP — pre-existing tests hardcode the OLD href string.** `test_token_pages.js`/`test_chain_pages.js`
+     each asserted an exact CTA URL. Expect them to go red; update them to interpolate the constant rather
+     than typing the number a second time. Budget for this — it is not scope creep, it is the fix.
+   - **Prove it red on the PRE-change output.** Run the new checker against the committed pages *before*
+     regenerating and record the transcript; then regenerate and re-run. 173: 2,200/2,200 dead → 0/2,217.
+     Assert BOTH conditions (carries the floor AND returns ≥1) — the first alone would pass a link that is
+     correctly shaped and still empty, which is the whole bug class.
+   - **A regen diff always carries churn — separate it from your change before claiming anything.** 173's
+     regen dropped 24 token pages and added 41. Re-run the generator's own ranking function against the
+     live feed for every dropped slug to prove each genuinely fell below the floor; that is what
+     distinguishes ordinary daily churn from code-caused de-indexing (the NEVER-list bright line).
+     Full recipe: `seo-surface-regen-delta.md`.
 
 12. **Trust-claim provenance: does the page describe the filter it actually applied? (learned 2026-07-29,
    item 174 — 159's defect at 1,100× the page count.)** 159 caught `llms.txt` claiming `TVL ≥ $10k` while

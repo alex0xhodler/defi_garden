@@ -146,7 +146,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const enUrl = `${SITE_URL}/chains/${rec.slug}`;
   const koUrl = `${SITE_URL}/ko/chains/${rec.slug}`;
   const pageUrl = language === 'ko' ? koUrl : enUrl;
-  const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}`;
+  const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}&minTvl=${MIN_POOL_TVL}`;
   const genDate = generatedDate || todayGeneratedDate();
   const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
   const ogImageUrl = `${SITE_URL}/${ogImageRelPath}`;
