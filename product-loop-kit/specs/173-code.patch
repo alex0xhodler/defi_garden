@@ -1,0 +1,280 @@
+diff --git a/audit-app.js b/audit-app.js
+index b2e88b9e6..c3509b36c 100644
+--- a/audit-app.js
++++ b/audit-app.js
+@@ -1426,6 +1426,104 @@ function makeErrorSink(page) {
+   return errors;
+ }
+ 
++// ---------------------------------------------------------------------------
++// Rail-relative APY-percent check (backlog 173 — the 144 blind spot named in
++// playbooks/product-audit.md's Automatability section). scanNumbers() above
++// is magnitude-only (ABSURD_MAGNITUDE = 1e11) and therefore blind to an
++// out-of-rail PERCENT that never reaches that magnitude — the 144 bug itself
++// (apyMean30d = 36,452.38798%, only 3.6e4) sailed through it. This closes
++// that gap on the rendered leg. Reuses the SAME APY_SANITY_LIMIT import at
++// the top of this file (never a second copy — the constant block above says
++// so explicitly; a rail mirror inside the scanner is a trust-rail edit).
++//
++// Predicate ("is this a rate percentage?"), chosen deliberately — every
++// alternative considered and rejected is recorded in specs/173-notes.md:
++// INCLUDE any rendered "<number>%" text as a rate figure BY DEFAULT, unless
++// its nearest ancestor matches EXCLUDED below — an explicit, code-verified
++// (not guessed) list of the non-rate percent containers that exist in the
++// product today:
++//   .tvl-trend-note  — PoolDetail.js:1516, a deposit-base-change percent that
++//     legitimately exceeds 1000% (a 20x pool renders "1,900%") and is gated
++//     only on |tvlTrend|>=0.25 with NO upper bound (spec 173 criterion 4).
++//   .gp-item-fill    — planner.js:3124, the garden-growth progress fill (the
++//     "progress bars" Non-goal names explicitly). Always 0% today by
++//     construction (planner.js:1638 hardcodes `return 0`) so this exclusion
++//     is currently inert, but the class name signals intent unambiguously
++//     and costs nothing to exclude defensively.
++// An include-by-default design (vs. an allow-list of "this IS a rate
++// container" class names) is deliberate: playbooks/product-audit.md's
++// Automatability section documents the SAME pattern three times running
++// (148 -> 159 -> 166) — a checker's signal set is always drawn from the last
++// bug someone was bitten by. An allow-list checker can only ever see rate
++// sites someone remembered to register; an exclude-list catches a brand new
++// rate render site the day it ships, with zero scanner change required.
++//
++// DOM-scoped anomaly suppression (spec 173 Territory notes: "must be
++// per-.pool-card, not page-global"): a breaching figure is suppressed only
++// when the product's OWN anomaly marker (.apy-anomalous on the grid hero APY,
++// app.js:2744; .calc-warning on pool-detail's derived-figure notes,
++// PoolDetail.js:657/1117/PoolDetail.js:3348-equivalent) is present in its
++// scope — the nearest .pool-card ancestor when one exists (the grid renders
++// many cards at once; a flagged card must not mask an unflagged breach in a
++// different card), else the whole page (pool-detail has no .pool-card at
++// all — one subject per page, and its markers are siblings of the figures
++// they qualify, not ancestors of every percent on the page).
++// ---------------------------------------------------------------------------
++
++// Runs INSIDE the page (page.evaluate(collectApyPercentCandidates)) — must be
++// fully self-contained, no closures over Node-side variables. Collects EVERY
++// "<number>%" occurrence in rendered body text (script/style/noscript text
++// excluded, matching document.body.innerText's own exclusion that
++// scanNumbers() already relies on) with enough DOM context for the pure
++// filterApyRailBreaches() below to decide, in Node, whether it is a finding.
++// Deliberately does no thresholding/filtering itself — the actual rail
++// decision lives in exactly one pure, unit-testable place.
++function collectApyPercentCandidates() {
++  var EXCLUDED = '.tvl-trend-note, .gp-item-fill';
++  var ANOMALY = '.apy-anomalous, .calc-warning';
++  var PERCENT_RE = /(-?\d[\d,]*(?:\.\d+)?)\s*%/g;
++  var pageAnomalous = !!document.querySelector(ANOMALY);
++  var out = [];
++  var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
++    acceptNode: function (n) {
++      var p = n.parentElement;
++      if (!p) return NodeFilter.FILTER_REJECT;
++      var tag = p.tagName;
++      if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'NOSCRIPT') return NodeFilter.FILTER_REJECT;
++      return NodeFilter.FILTER_ACCEPT;
++    }
++  });
++  var node;
++  while ((node = walker.nextNode())) {
++    var text = node.nodeValue;
++    if (!text || text.indexOf('%') === -1) continue;
++    var el = node.parentElement;
++    if (!el) continue;
++    var excluded = !!(el.closest && el.closest(EXCLUDED));
++    var card = el.closest ? el.closest('.pool-card') : null;
++    var anomalous = card ? !!card.querySelector(ANOMALY) : pageAnomalous;
++    var m;
++    PERCENT_RE.lastIndex = 0;
++    while ((m = PERCENT_RE.exec(text)) !== null) {
++      var value = parseFloat(m[1].replace(/,/g, ''));
++      if (!isFinite(value)) continue;
++      out.push({ value: value, raw: m[0].trim(), excluded: excluded, anomalous: anomalous, scope: card ? 'card' : 'page' });
++    }
++  }
++  return out;
++}
++
++// Pure, exported, unit-testable without Playwright — same convention as
++// reconcilePrescanFindings, defined above. candidates: whatever shape
++// collectApyPercentCandidates() returns (or an equivalent plain-object array
++// in a unit test): [{value, raw, excluded, anomalous}]. limit:
++// APY_SANITY_LIMIT, passed explicitly rather than closed over so a unit test
++// can exercise the boundary without touching the trust-rail import.
++function filterApyRailBreaches(candidates, limit) {
++  return (candidates || []).filter((c) =>
++    c && typeof c.value === 'number' && Number.isFinite(c.value) && !c.excluded && !c.anomalous && c.value > limit);
++}
++
+ // ---------------------------------------------------------------------------
+ // Surface drivers — each returns findings[] for that surface.
+ // ---------------------------------------------------------------------------
+@@ -1438,6 +1536,16 @@ async function auditText(page, s, findings) {
+   for (const detail of scanNumbers(text)) {
+     findings.push(finding(s.name, s.vpLabel, 'number-sanity', 'P0', detail));
+   }
++
++  // backlog 173 — rail-relative APY-percent check (the 144 blind spot).
++  const candidates = await page.evaluate(collectApyPercentCandidates);
++  const breaches = filterApyRailBreaches(candidates, APY_SANITY_LIMIT);
++  if (breaches.length) {
++    const examples = breaches.slice(0, 3).map((b) => `"${b.raw}"`).join(', ');
++    findings.push(finding(s.name, s.vpLabel, 'apy-rail-breach', 'P0',
++      `${breaches.length} rendered rate percent figure(s) exceed the ${APY_SANITY_LIMIT}% rail unflagged: ${examples}`));
++  }
++
+   return text;
+ }
+ 
+@@ -2015,7 +2123,8 @@ function blockingFindings(findings) {
+ module.exports = {
+   runAudit, scanNumbers, resolvePlaywright, blockingFindings,
+   prescanStaticPages, prescanTextSurfaces, prescanPools, buildPoolSurfaces,
+-  buildStaticSurfaces, reconcilePrescanFindings
++  buildStaticSurfaces, reconcilePrescanFindings,
++  collectApyPercentCandidates, filterApyRailBreaches
+ };
+ 
+ if (require.main === module) {
+diff --git a/package.json b/package.json
+index 93e93b5f1..3d936da57 100644
+--- a/package.json
++++ b/package.json
+@@ -17,7 +17,7 @@
+     "test": "node run-tests.js",
+     "test:fast": "node run-tests.js --lane=plain",
+     "test:browser": "node run-tests.js --lane=browser",
+-    "test:serial": "node test_planner.js && node test_planner_sharpe_pick.js && node test_protocol_parsing.js && node test_qualifier_fix.js && node test_compiled_assets.js && node test_minified_assets.js && node test_min_asset_boot.js && node test_css_minified_render.js && node test_smoke.js && node test_landing.js && node test_canonical.js && node test_search.js && node test_token_loading_state.js && node test_token_chain_all.js && node test_snapshot_first.js && node test_pools_snapshot.js && node test_compute_kpis.js && node test_kpi_db_source.js && node test_poller.js && node test_history_backfill.js && node test_token_pages.js && node test_chain_pages.js && node test_sitemap_xml.js && node test_hub_pages.js && node test_indexnow.js && node test_stories.js && node test_analytics_fires.js && node test_analytics_host_gate.js && node test_analytics_host_gate_render.js && node test_analytics_acquisition.js && node test_northstar_cta_fires.js && node test_protocol_cta_fallback.js && node test_mobile_cta_clip.js && node test_repeat_cta.js && node test_projection_lead.js && node test_plan_checkout_cta.js && node test_i18n_pages.js && node test_ko_pool_money_honesty.js && node test_og_images.js && node test_og_outroot.js && node test_cache_headers.js && node test_spotlight.js && node test_spotlight_packs.js && node test_spotlight_url.js && node test_spotlight_attribution.js && node test_growth_capital_projection.js && node test_waitlist_seo_entry.js && node test_waitlist_funnel.js && node test_waitlist_pitch.js && node test_hero_copy.js && node test_waitlist_microcopy.js && node test_rate_volatility.js && node test_dead_pool.js && node test_sitemap_cleanup.js && node test_lastmod_honesty.js && node test_llms_freshness.js && node test_llms_rails.js && node test_llms_planner_section.js && node test_llms_link_integrity.js && node test_translations_fallback.js && node test_subscription_mix_seed.js && node test_share_mix_roundtrip.js && node test_hero_number_consistency.js && node test_footer_hub_links.js && node test_list_default.js && node test_kpi_track_record.js && node test_kpi_momentum.js && node test_kpi_seo_enrichment.js && node test_kpi_tvl_trend.js && node test_kpi_sharpe_annotation.js && node test_zero_yield_demote.js && node test_default_sort.js && node test_kpi_sharpe_sort.js && node test_category_taxonomy.js && node test_pool_logo.js && node test_parser_chain_token.js && node test_plan_confidence.js && node test_filter_dropdown_polish.js && node test_seo_shared_source.js && node test_tend_reminder.js && node test_landing_return.js && node test_report_share.js && node test_plan_clean_url.js && node test_minttvl_clean_url.js && node test_token_vault_match.js && node test_pool_type_badge.js && node test_garden_cta_arrival.js && node test_mean30d_sanity.js && node test_pool_detail_anomaly_projection.js && node test_kpi_rail_history.js && node test_waitlist_share_archetype.js && node test_audit_runner.js && node test_audit_app.js && node test_seo_surface_audit.js && node test_audit_prescan.js && node test_audit_pool_prescan.js && node test_audit_text_surfaces.js && node test_audit_planner_surface.js && node test_audit_planner_flow.js && node test_run_tests.js"
++    "test:serial": "node test_planner.js && node test_planner_sharpe_pick.js && node test_protocol_parsing.js && node test_qualifier_fix.js && node test_compiled_assets.js && node test_minified_assets.js && node test_min_asset_boot.js && node test_css_minified_render.js && node test_smoke.js && node test_landing.js && node test_canonical.js && node test_search.js && node test_token_loading_state.js && node test_token_chain_all.js && node test_snapshot_first.js && node test_pools_snapshot.js && node test_compute_kpis.js && node test_kpi_db_source.js && node test_poller.js && node test_history_backfill.js && node test_token_pages.js && node test_chain_pages.js && node test_sitemap_xml.js && node test_hub_pages.js && node test_indexnow.js && node test_stories.js && node test_analytics_fires.js && node test_analytics_host_gate.js && node test_analytics_host_gate_render.js && node test_analytics_acquisition.js && node test_northstar_cta_fires.js && node test_protocol_cta_fallback.js && node test_mobile_cta_clip.js && node test_repeat_cta.js && node test_projection_lead.js && node test_plan_checkout_cta.js && node test_i18n_pages.js && node test_ko_pool_money_honesty.js && node test_og_images.js && node test_og_outroot.js && node test_cache_headers.js && node test_spotlight.js && node test_spotlight_packs.js && node test_spotlight_url.js && node test_spotlight_attribution.js && node test_growth_capital_projection.js && node test_waitlist_seo_entry.js && node test_waitlist_funnel.js && node test_waitlist_pitch.js && node test_hero_copy.js && node test_waitlist_microcopy.js && node test_rate_volatility.js && node test_dead_pool.js && node test_sitemap_cleanup.js && node test_lastmod_honesty.js && node test_llms_freshness.js && node test_llms_rails.js && node test_llms_planner_section.js && node test_llms_link_integrity.js && node test_translations_fallback.js && node test_subscription_mix_seed.js && node test_share_mix_roundtrip.js && node test_hero_number_consistency.js && node test_footer_hub_links.js && node test_list_default.js && node test_kpi_track_record.js && node test_kpi_momentum.js && node test_kpi_seo_enrichment.js && node test_kpi_tvl_trend.js && node test_kpi_sharpe_annotation.js && node test_zero_yield_demote.js && node test_default_sort.js && node test_kpi_sharpe_sort.js && node test_category_taxonomy.js && node test_pool_logo.js && node test_parser_chain_token.js && node test_plan_confidence.js && node test_filter_dropdown_polish.js && node test_seo_shared_source.js && node test_tend_reminder.js && node test_landing_return.js && node test_report_share.js && node test_plan_clean_url.js && node test_minttvl_clean_url.js && node test_token_vault_match.js && node test_pool_type_badge.js && node test_garden_cta_arrival.js && node test_mean30d_sanity.js && node test_pool_detail_anomaly_projection.js && node test_kpi_rail_history.js && node test_waitlist_share_archetype.js && node test_audit_runner.js && node test_audit_app.js && node test_seo_surface_audit.js && node test_audit_prescan.js && node test_audit_pool_prescan.js && node test_audit_text_surfaces.js && node test_audit_planner_surface.js && node test_audit_planner_flow.js && node test_audit_apy_percent_sanity.js && node test_run_tests.js"
+   },
+   "keywords": [
+     "defi",
+diff --git a/product-loop-kit/playbooks/detector-signal-coverage.md b/product-loop-kit/playbooks/detector-signal-coverage.md
+index 37d82b561..153a54164 100644
+--- a/product-loop-kit/playbooks/detector-signal-coverage.md
++++ b/product-loop-kit/playbooks/detector-signal-coverage.md
+@@ -95,5 +95,26 @@ number bug → number detectors; one-page audit → one-page audit. Item 169 is
+   `/tokens/…` → the query is inert). The port that copies the predicate instead of the *question* produces
+   a detector that is simultaneously too tight and too loose. See `product-audit.md` check 10's HTML half.
+ 
++- **The gap is not always a missing surface — it can be a missing LEG of a surface you already cover.**
++  169 → 172 asked "which surface *family* has this signal?". Item 173 (2026-07-29) found the same signal
++  missing along a different axis entirely: `APY_SANITY_LIMIT` was enforced on `audit-app.js`'s two
++  **non-rendered** legs (`:323` text-surface prescan, `:1010`/`:1017` pool-snapshot prescan) and on
++  **neither** rendered one — the rendered leg had only a magnitude rule (`1e11`) tuned to the previous bug,
++  so a figure 36× the rail sailed through the last check standing between a bad number and a human's eyes.
++  **The probe is one line and worth running on every detector you own:** `grep -n <RAIL_CONSTANT> <detector>`
++  and ask whether every leg that *renders or reads* the guarded field appears in the output. A constant used
++  in some legs reads as "enforced" at a glance — that glance is the bug.
++- **Two checks over the same field are not redundant when they answer different questions.** Magnitude
++  ("is this number impossibly big?") and rail-relative ("is this number bigger than what the product itself
++  calls credible?") are independent; neither subsumes the other, and lowering the magnitude floor to cover
++  the rail case would false-positive on every legitimate large `$` figure. Add the second rule; do not retune
++  the first.
++- **A new signal that finds nothing must prove it CAN find something on the real thing.** 173's true negative
++  was proven with an injection that reaches the screen through a live render path
++  (`kpis.apyMomentum = 5000` → `PoolDetail.js`'s rate-momentum note, on a pool the product does not
++  anomaly-flag), not with a fixture. When you look for such an injection, look for the field the rails reach
++  only *transitively* — 173's positive control exists precisely because `apyMomentum` is bounded only by its
++  series endpoints, while every directly-railed field was unreachable.
++
+ **Provenance:** distilled from item 169 (`specs/169.md`, `169-notes.md`) — the `link-target-integrity` signal —
+ generalising the pattern named in its backlog row and previously hit by items 148 → 159/160 → 166/167.
+diff --git a/product-loop-kit/playbooks/product-audit.md b/product-loop-kit/playbooks/product-audit.md
+index b71639b12..a9e253825 100644
+--- a/product-loop-kit/playbooks/product-audit.md
++++ b/product-loop-kit/playbooks/product-audit.md
+@@ -138,9 +138,24 @@ row is the strongest evidence.
+ ## Automatability
+ Checks 1–7 are mechanized: **`audit-app.js` shipped (item 142, 2026-07-25)** — a read-only Playwright
+ scanner over the surface rotation emitting `signals/audit-findings.json` for the heartbeat to ticket.
+-Known blind spot (144): its number-sanity check is magnitude-only (`ABSURD_MAGNITUDE = 1e11`), so
+-out-of-rail **percentages** — the 144 class — pass clean. Candidate extension: a rail-relative percent
+-check per the decision rule in class 1 above.
++
++~~Known blind spot (144): its number-sanity check is magnitude-only (`ABSURD_MAGNITUDE = 1e11`), so
++out-of-rail **percentages** — the 144 class — pass clean.~~ **CLOSED by item 173 (2026-07-29)** — the
++rendered leg now carries `apy-rail-breach` (P0) alongside `scanNumbers()`, implementing class 1's decision
++rule verbatim. Three things about it are worth reusing, not just knowing:
++- **The rule is structural, not numeric.** `.tvl-trend-note` (`PoolDetail.js:1516`) renders a deposit-base
++  *change* — a pool that grew 20× shows a legitimate `"1,900%"`, gated only on `|tvlTrend| >= 0.25` with no
++  upper bound. There is no threshold above which a TVL change becomes wrong, so "is this a **rate**?" has
++  to be answered by container, never by magnitude. A blanket "any % > 1000" check is wrong, not merely noisy.
++- **Exclude-list, not allow-list.** Every rendered percent counts as a rate figure unless its container is
++  in `.tvl-trend-note, .gp-item-fill`. An allow-list only ever sees rate sites someone remembered to
++  register — the 148 → 159 → 166 → 172 pattern applied to the checker itself. The accepted cost is that a
++  future non-rate percent false-positives, which is the loud direction to fail in.
++- **Suppression is DOM-scoped, not page-global.** Scope = nearest `.pool-card` when one exists (the grid
++  renders many; a flagged card must not mask an unflagged breach in another), else the page (pool-detail has
++  one subject and its `.calc-warning` markers are siblings of the figures, not ancestors).
++Anomaly markers, for any future check that needs them: `.apy-anomalous` (`app.js:2744`, grid hero) and
++`.calc-warning` (`PoolDetail.js:657`/`:1117`, pool-detail).
+ 
+ **Generated-surface sampling (item 154, 2026-07-26).** The static-SEO leg used to be ONE hand-picked page
+ (`/tokens/usdc.html` — the best page in the set) out of 2,079 token + 88 chain pages, which is why the
+diff --git a/product-loop-kit/signals/audit-findings.json b/product-loop-kit/signals/audit-findings.json
+index 3a26068c8..340077a2e 100644
+--- a/product-loop-kit/signals/audit-findings.json
++++ b/product-loop-kit/signals/audit-findings.json
+@@ -1,5 +1,5 @@
+ {
+-  "generatedAt": "2026-07-29T04:38:58.407Z",
++  "generatedAt": "2026-07-29T07:15:47.797Z",
+   "status": "OK",
+   "playwright": {
+     "source": "local",
+@@ -17,8 +17,8 @@
+     "pool-detail-dark",
+     "pool-detail-ko",
+     "pool-detail:201e5f6e",
+-    "pool-detail:87c8ee0d",
+-    "pool-detail:0715f02b",
++    "pool-detail:f6568026",
++    "pool-detail:7b3e4cca",
+     "landing",
+     "planner",
+     "planner-360",
+@@ -33,8 +33,8 @@
+     "static-page:tokens/2027",
+     "static-page:tokens/67",
+     "static-page:tokens/8oct2026",
+-    "static-page:tokens/feusd",
+-    "static-page:tokens/synusdx"
++    "static-page:tokens/usyc",
++    "static-page:tokens/hgram"
+   ],
+   "findings": [
+     {
+@@ -42,14 +42,14 @@
+       "viewport": "n/a",
+       "check": "static-prescan:junk-slug",
+       "severity": "P1",
+-      "detail": "7 of 2181 static SEO pages match junk-slug — examples: tokens/00, tokens/01, tokens/17dec2026, tokens/20261231, tokens/2027, tokens/67, tokens/8oct2026"
++      "detail": "7 of 2200 static SEO pages match junk-slug — examples: tokens/00, tokens/01, tokens/17dec2026, tokens/20261231, tokens/2027, tokens/67, tokens/8oct2026"
+     },
+     {
+       "surface": "pool-prescan",
+       "viewport": "n/a",
+       "check": "pool-prescan:mean30d-rail-breach",
+       "severity": "P2",
+-      "detail": "1 of 745 snapshot pools match mean30d-rail-breach — examples: 201e5f6e — reconciled: all 1 promoted suspect(s) rendered with zero findings on pool-detail:201e5f6e; downgraded to non-blocking."
++      "detail": "1 of 746 snapshot pools match mean30d-rail-breach — examples: 201e5f6e — reconciled: all 1 promoted suspect(s) rendered with zero findings on pool-detail:201e5f6e; downgraded to non-blocking."
+     },
+     {
+       "surface": "static-page:tokens/20261231",
+@@ -81,7 +81,7 @@
+     }
+   ],
+   "prescan": {
+-    "scanned": 2181,
++    "scanned": 2200,
+     "suspectCount": 7,
+     "bySignal": {
+       "broken-number-literal": 0,
+@@ -98,7 +98,7 @@
+     ]
+   },
+   "poolPrescan": {
+-    "scanned": 745,
++    "scanned": 746,
+     "suspectCount": 1,
+     "bySignal": {
+       "apy-rail-breach": 0,
