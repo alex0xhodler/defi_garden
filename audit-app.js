@@ -176,7 +176,8 @@ const PRESCAN_SIGNALS = {
   'broken-number-literal': 'P0',
   'absurd-magnitude': 'P0',
   'junk-slug': 'P1',
-  'zero-yield-claim': 'P1'
+  'zero-yield-claim': 'P1',
+  'link-target-integrity': 'P1'
 };
 
 // Pool-snapshot prescan (backlog 167). Budget knobs mirror the static leg's
@@ -542,6 +543,141 @@ function extractPageText(html) {
 }
 
 // ---------------------------------------------------------------------------
+// link-target-integrity for the HTML static surface (backlog 172) — the same
+// three sub-rules 169 shipped for the text surfaces (llms.txt/llms-full.txt),
+// re-aimed at the raw HTML prescanStaticPages() already reads. extractPageText()
+// above strips ALL tags, so hrefs are gone by the time it returns — every
+// helper below runs on the untouched `html` string, never on `h1Text`/
+// `visibleText` (Territory note, spec 172). Reuses 169's
+// extractQuotedArray()/loadRouterAllowedParams()/urlQueryKeys()/
+// isBareOriginSuffix() verbatim (defined above, backlog 169) — no second copy
+// of the router param list anywhere below.
+// ---------------------------------------------------------------------------
+
+// Decodes the handful of named HTML entities that can appear inside an
+// href="..." attribute value. `&amp;` is the one this spec's own measurement
+// found live (generated hrefs literally contain "&amp;" between query
+// pairs, e.g. `/plan.html?waitlist=1&amp;src=seo_token`) — a scanner that
+// splits the raw, un-decoded attribute on `&` invents a phantom "amp;src"
+// key instead of the real "src" (spec 172 Change section, pinned by test).
+// The other entities cost nothing to also handle and guard the same class.
+function decodeHrefEntities(s) {
+  return String(s)
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+}
+
+// Every href="..." attribute value in the raw HTML — <a> AND <link> tags
+// both carry real owned targets in the generated pages (e.g. `<link
+// rel="stylesheet" href="/style.css">`), so this is not scoped to anchors.
+const HTML_HREF_RE = /href="([^"]*)"/g;
+
+// Absolute owned form: https://(www.)?defi.garden/... — same origin
+// TEXT_DEFI_GARDEN_URL (169) matches in prose, tuned for an href attribute
+// value instead (the attribute's closing quote is already the boundary, no
+// need to stop at whitespace/brackets).
+const HTML_OWNED_ABS_RE = /^https:\/\/(?:www\.)?defi\.garden(\/.*)?$/;
+
+// Returns the owned suffix (path+query+fragment, leading '/', '' for the
+// bare origin) for one decoded href, or null if the href is not one of the
+// two forms the generated HTML actually emits (spec 172 Change section):
+// absolute `https://(www.)?defi.garden/...` or root-relative `/...`.
+// Non-defi.garden links (DefiLlama, protocol sites), `data:` URIs, and
+// protocol-relative `//...` links are all out of scope — we do not own
+// their shape.
+function ownedHtmlLinkSuffix(hrefRaw) {
+  const href = decodeHrefEntities(hrefRaw || '');
+  const abs = href.match(HTML_OWNED_ABS_RE);
+  if (abs) return abs[1] || '';
+  if (href.startsWith('/') && !href.startsWith('//')) return href;
+  return null;
+}
+
+// Path only (query + fragment stripped) of an owned suffix — '' or '/' for
+// the home path, '/plan.html' for the planner, anything else is "some
+// other path" (fixed by path, its query keys are inert to rule (a)).
+function ownedLinkPath(suffix) {
+  const s = suffix || '';
+  const cut = s.search(/[?#]/);
+  return cut === -1 ? s : s.slice(0, cut);
+}
+
+// Planner's OWN allow-list, single-sourced from planner.js's urlParams.get()
+// call sites — spec 172's resolution of the one judgment call in this item:
+// the IA router does not arbitrate `/plan.html` (it is the planner by path
+// alone, unconditionally), so rule (a)'s planner half cannot reuse
+// loadRouterAllowedParams()/ANALYTICS_PARAMS/PLANNER_PARAMS at all. The only
+// live question for a `/plan.html` link is which keys the planner itself
+// reads, so that is scanned directly rather than allow-listed by hand.
+// Same `{ allowed, error }` shape as loadRouterAllowedParams() (169) so both
+// plug into the same call site below without a third shape to branch on.
+function loadPlannerAllowedParams(plannerJsPath) {
+  let text;
+  try { text = fs.readFileSync(plannerJsPath, 'utf8'); }
+  catch (e) { return { allowed: null, error: `planner.js unreadable at ${plannerJsPath}: ${e.message}` }; }
+  const allowed = new Set();
+  const re = /urlParams\.get\(\s*(['"])([^'"]+)\1\s*\)/g;
+  let m;
+  while ((m = re.exec(text)) !== null) allowed.add(m[2]);
+  if (allowed.size === 0) {
+    return { allowed: null, error: `no urlParams.get(...) call sites found in ${plannerJsPath}` };
+  }
+  return { allowed, error: null };
+}
+
+// Rule (b)'s valid pool-row target: an owned link whose path is the home
+// path ('' or '/') and whose query carries a non-empty `pool` key — the
+// north-star `/?pool=<id>` shape (spec 172 rule (b)). `<id>` must be
+// non-empty; it is never validated against any pool set (spec's own
+// non-goal — liveness needs a network fetch this prescan never makes).
+function isPoolAddressingSuffix(suffix) {
+  if (suffix === null || suffix === undefined) return false;
+  const p = ownedLinkPath(suffix);
+  if (p !== '' && p !== '/') return false;
+  const qIdx = suffix.indexOf('?');
+  if (qIdx === -1) return false;
+  const pairs = suffix.slice(qIdx + 1).split('&').filter(Boolean);
+  for (const pair of pairs) {
+    const eq = pair.indexOf('=');
+    const key = eq === -1 ? pair : pair.slice(0, eq);
+    const val = eq === -1 ? '' : pair.slice(eq + 1);
+    if (key === 'pool' && val.length > 0) return true;
+  }
+  return false;
+}
+
+// class="..." / href="..." out of one <a ...> opening tag, independent of
+// attribute order — the generated pages always emit class before href, but
+// this does not assume that: a template change reordering attributes must
+// not silently blind rule (b).
+function anchorAttr(tag, name) {
+  const m = tag.match(new RegExp(name + '="([^"]*)"', 'i'));
+  return m ? m[1] : null;
+}
+function anchorHasClass(tag, cls) {
+  const classAttr = anchorAttr(tag, 'class');
+  return !!classAttr && classAttr.split(/\s+/).includes(cls);
+}
+const HTML_ANCHOR_TAG_RE = /<a\b[^>]*>/gi;
+// Both classes item 029 shipped: `tp-pool-link` (token pages), `cp-pool-link`
+// (chain pages).
+const POOL_ROW_ANCHOR_CLASSES = ['tp-pool-link', 'cp-pool-link'];
+
+// Rule (c): every path (query + fragment stripped) an owned link references,
+// other than the home path and `/plan.html`, must resolve to a file on disk
+// in one of three forms, relative to ROOT (spec 172 rule (c)).
+function ownedPathResolvesToFile(pagePath) {
+  const rel = pagePath.replace(/^\/+/, '');
+  if (rel === '') return true; // caller never passes '' / '/' — see call site
+  return [rel, `${rel}.html`, `${rel}/index.html`]
+    .some((candidate) => fs.existsSync(path.join(ROOT, candidate)));
+}
+
+// ---------------------------------------------------------------------------
 // Static-surface prescan (backlog 157). Pure fs + regex over EVERY
 // tokens/*.html + chains/*.html leaf page — no Playwright, no network, no
 // writes — so the (small) rendered sample can be AIMED at suspicious pages
@@ -555,14 +691,38 @@ function extractPageText(html) {
 // and does not count toward `scanned`.
 // ---------------------------------------------------------------------------
 function prescanStaticPages(opts = {}) {
-  const rels = listLeafPages('tokens').concat(listLeafPages('chains'));
+  // opts.pages (test-support only, same convention as prescanTextSurfaces()'s
+  // opts.files — see 169) overrides the production page list; production
+  // behaviour (no opts.pages) is unchanged: listLeafPages('tokens') +
+  // listLeafPages('chains'), spec 172's "page list is unchanged" requirement.
+  const rawPages = opts.pages || listLeafPages('tokens').concat(listLeafPages('chains'));
+
+  // Rule (a)'s two allow-lists are the SAME for every page in this scan —
+  // parsed once, not once per file, so an unreadable/unparseable
+  // home.html/planner.js prints its stderr note exactly once (mirrors
+  // prescanTextSurfaces()'s own routerParams setup, backlog 169).
+  // opts.homeHtml/opts.plannerJs are the coupling-test override, same
+  // convention as opts.homeHtml on prescanTextSurfaces().
+  const homeHtmlPath = opts.homeHtml || path.join(ROOT, 'home.html');
+  const plannerJsPath = opts.plannerJs || path.join(ROOT, 'planner.js');
+  const routerParams = loadRouterAllowedParams(homeHtmlPath);
+  if (routerParams.error) {
+    console.error(`[audit] static prescan: link-target-integrity rule (a) [home.html half] skipped — ${routerParams.error}`);
+  }
+  const plannerParams = loadPlannerAllowedParams(plannerJsPath);
+  if (plannerParams.error) {
+    console.error(`[audit] static prescan: link-target-integrity rule (a) [planner.js half] skipped — ${plannerParams.error}`);
+  }
+
   let scanned = 0;
   const suspects = [];
 
-  for (const rel of rels) {
-    let h1Text, visibleText;
+  for (const p of rawPages) {
+    const abs = path.isAbsolute(p) ? p : path.join(ROOT, p);
+    const rel = path.isAbsolute(p) ? path.relative(ROOT, p) : p;
+    let h1Text, visibleText, html;
     try {
-      const html = fs.readFileSync(path.join(ROOT, rel), 'utf8');
+      html = fs.readFileSync(abs, 'utf8');
       ({ h1Text, visibleText } = extractPageText(html));
     } catch (e) {
       console.error(`[audit] prescan: skipping unreadable/unparseable ${rel}: ${e.message}`);
@@ -589,6 +749,83 @@ function prescanStaticPages(opts = {}) {
     if (magMatch) {
       suspects.push({ rel, slug, signal: 'absurd-magnitude', severity: PRESCAN_SIGNALS['absurd-magnitude'],
         detail: `visible text contains an absurd magnitude "${magMatch[0].trim()}"` });
+    }
+
+    // link-target-integrity (P1, backlog 172) — three independently
+    // neuterable sub-rules over the RAW `html` string (never `visibleText`:
+    // extractPageText() strips all tags, so hrefs are already gone from it).
+    // At most one suspect PER SUB-RULE per file (169's own convention for
+    // this exact signal): a systemic breach is one suspect whose `detail`
+    // quotes <=3 examples, never one finding per link/row.
+
+    // (a) unrouted query key + (c) internal target does not exist — one
+    // pass over every href="..." on the page, since both sub-rules key off
+    // the same owned-suffix/path split.
+    {
+      const badKeys = new Set();
+      const badExamples = [];
+      let badLinkCount = 0;
+      const brokenPaths = [];
+      const seenPath = new Set();
+      for (const m of html.matchAll(HTML_HREF_RE)) {
+        const suffix = ownedHtmlLinkSuffix(m[1]);
+        if (suffix === null) continue; // not an owned link — out of scope
+        const linkPath = ownedLinkPath(suffix);
+        if (linkPath === '' || linkPath === '/' || linkPath === '/plan.html') {
+          // rule (a): router-arbitrated home path, or planner-arbitrated
+          // /plan.html — any other path is inert to rule (a) (fixed by path).
+          const allowed = linkPath === '/plan.html' ? plannerParams.allowed : routerParams.allowed;
+          if (!allowed) continue; // that half unreadable/unparseable — noted once above, skip silently here
+          const bad = urlQueryKeys(suffix).filter((k) => !allowed.has(k));
+          if (bad.length) {
+            badLinkCount++;
+            bad.forEach((k) => badKeys.add(k));
+            if (badExamples.length < 3) badExamples.push(decodeHrefEntities(m[1]));
+          }
+        } else {
+          // rule (c): every OTHER path must resolve to a file on disk.
+          if (seenPath.has(linkPath)) continue;
+          seenPath.add(linkPath);
+          if (!ownedPathResolvesToFile(linkPath)) brokenPaths.push(linkPath);
+        }
+      }
+      if (badLinkCount > 0) {
+        const keyList = [...badKeys];
+        const shownKeys = keyList.slice(0, 3).map((k) => `"${k}"`);
+        const plural = badLinkCount !== 1;
+        let detail = `${badLinkCount} defi.garden link${plural ? 's' : ''} carr${plural ? 'y' : 'ies'} a query key outside the allowed set for its path (home path: ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {lang}, parsed from home.html; /plan.html: planner.js's own urlParams.get() keys) — key(s): ${shownKeys.join(', ')}`;
+        if (keyList.length > shownKeys.length) detail += ` (+${keyList.length - shownKeys.length} more keys)`;
+        if (badExamples.length) detail += ` — e.g. ${badExamples.map((h) => `"${h}"`).join(', ')}`;
+        suspects.push({ rel, slug, signal: 'link-target-integrity', severity: PRESCAN_SIGNALS['link-target-integrity'], detail });
+      }
+      if (brokenPaths.length > 0) {
+        const plural = brokenPaths.length !== 1;
+        const examples = brokenPaths.slice(0, 3).map((bp) => `"${bp}"`);
+        let detail = `${brokenPaths.length} internal link target${plural ? 's' : ''} on this page resolve${plural ? '' : 's'} to no file on disk (checked <path>, <path>.html, <path>/index.html under ROOT) — e.g. ${examples.join(', ')}`;
+        if (brokenPaths.length > examples.length) detail += ` (+${brokenPaths.length - examples.length} more)`;
+        suspects.push({ rel, slug, signal: 'link-target-integrity', severity: PRESCAN_SIGNALS['link-target-integrity'], detail });
+      }
+    }
+
+    // (b) pool row -> non-addressing target.
+    {
+      const badTargets = [];
+      for (const m of html.matchAll(HTML_ANCHOR_TAG_RE)) {
+        const tag = m[0];
+        if (!POOL_ROW_ANCHOR_CLASSES.some((c) => anchorHasClass(tag, c))) continue;
+        const hrefRaw = anchorAttr(tag, 'href');
+        if (!hrefRaw) { badTargets.push('(missing href)'); continue; }
+        const suffix = ownedHtmlLinkSuffix(hrefRaw);
+        if (suffix !== null && isPoolAddressingSuffix(suffix)) continue;
+        badTargets.push(decodeHrefEntities(hrefRaw) || '(empty href)');
+      }
+      if (badTargets.length > 0) {
+        const plural = badTargets.length !== 1;
+        const examples = badTargets.slice(0, 3).map((h) => `"${h}"`);
+        let detail = `${badTargets.length} pool-row anchor${plural ? 's' : ''} (tp-pool-link/cp-pool-link) do${plural ? '' : 'es'} not target a "?pool=<id>" URL — e.g. ${examples.join(', ')}`;
+        if (badTargets.length > examples.length) detail += ` (+${badTargets.length - examples.length} more)`;
+        suspects.push({ rel, slug, signal: 'link-target-integrity', severity: PRESCAN_SIGNALS['link-target-integrity'], detail });
+      }
     }
   }
 

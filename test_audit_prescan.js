@@ -34,7 +34,7 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { runAudit, prescanStaticPages, reconcilePrescanFindings } = require('./audit-app.js');
+const { runAudit, prescanStaticPages, buildStaticSurfaces, reconcilePrescanFindings } = require('./audit-app.js');
 
 const ROOT = __dirname;
 const MAX_STATIC_SAMPLE = 12; // mirrors audit-app.js's own ceiling (backlog 154)
@@ -46,6 +46,43 @@ async function test(name, fn) {
 }
 function assert(cond, msg) { if (!cond) throw new Error(msg); }
 function tmpOut(tag) { return path.join(os.tmpdir(), `audit-findings-prescan-${tag}-${process.pid}.json`); }
+
+// ---------------------------------------------------------------------------
+// Fixture helpers for backlog 172 (link-target-integrity on the HTML static
+// surface) — every fixture is written under os.tmpdir() and removed via
+// cleanupLinkFixtures() below, same convention as
+// test_audit_text_surfaces.js's writeFixture()/cleanupFixtures() (169).
+// ---------------------------------------------------------------------------
+let linkFixtureDirs = [];
+function writeLinkFixture(name, html) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'audit172-'));
+  linkFixtureDirs.push(dir);
+  const file = path.join(dir, name);
+  fs.writeFileSync(file, html);
+  return file;
+}
+function cleanupLinkFixtures() {
+  for (const d of linkFixtureDirs) { try { fs.rmSync(d, { recursive: true, force: true }); } catch (e) {} }
+  linkFixtureDirs = [];
+}
+// A minimal, deliberately boring leaf page: a real (non-junk) <h1>, a
+// plausible APY line inside the sanity rail, and nothing else — so a
+// fixture only ever trips the ONE link-target-integrity sub-rule its own
+// `bodyExtra` snippet adds, never a coincidental hit from one of the four
+// pre-existing signals (junk-slug/zero-yield-claim/broken-number-literal/
+// absurd-magnitude all require specific unrelated shapes this template
+// never produces).
+function minimalPage(bodyExtra) {
+  return `<!doctype html>
+<html lang="en">
+<head><title>Test USDC</title></head>
+<body>
+<h1>USDC Yields</h1>
+<p>Real content here, 5.2% APY, no junk.</p>
+${bodyExtra || ''}
+</body>
+</html>`;
+}
 
 // ---------------------------------------------------------------------------
 // Independent re-derivation of the junk-slug set straight from disk. This
@@ -275,6 +312,247 @@ async function main() {
     assert(src.slice(poolCallIdx, poolCallIdx + 400).includes("prefix: 'pool-prescan'"),
       'the pool-leg call site must pass prefix: \'pool-prescan\'');
   });
+
+  // ---------------------------------------------------------------------------
+  // backlog 172 — link-target-integrity on the HTML static surface. Same
+  // three sub-rules 169 shipped for llms.txt/llms-full.txt (prescanTextSurfaces()),
+  // re-aimed at prescanStaticPages()'s own raw HTML. All cases below are
+  // pure fs+regex (no runAudit(), no Playwright, no network) except where
+  // explicitly noted.
+  // ---------------------------------------------------------------------------
+  try {
+    await test('link-target-integrity: TRUE NEGATIVE — the real committed tokens/*.html + chains/*.html pages produce ZERO link-target-integrity suspects', () => {
+      const result = prescanStaticPages();
+      assert(result.scanned >= 2000, `expected scanned >= 2000, got ${result.scanned}`);
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 0, `expected zero link-target-integrity suspects on the real committed surface; got: ${JSON.stringify(hits)}`);
+    });
+
+    await test('link-target-integrity: a clean minimal fixture (no owned links beyond the boilerplate) produces zero suspects of ANY signal', () => {
+      const f = writeLinkFixture('clean.html', minimalPage(''));
+      const result = prescanStaticPages({ pages: [f] });
+      assert(result.scanned === 1, `expected scanned === 1, got ${result.scanned}`);
+      assert(result.suspects.length === 0, `expected zero suspects of any signal; got: ${JSON.stringify(result.suspects)}`);
+    });
+
+    await test('link-target-integrity rule (a) positive control: an unrouted query key on a home-path link is a suspect, ALONE (b/c stay clean)', () => {
+      const f = writeLinkFixture('rule_a.html', minimalPage('<a href="https://www.defi.garden/?search=lido">bad</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 1, `expected exactly 1 link-target-integrity suspect (rule a only); got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(/outside the allowed set/.test(hits[0].detail) && /"search"/.test(hits[0].detail),
+        `expected rule (a)'s detail to name the "search" key; got: ${hits[0].detail}`);
+      assert(hits[0].detail.includes('https://www.defi.garden/?search=lido'), `expected the offending URL quoted in detail; got: ${hits[0].detail}`);
+    });
+
+    await test('link-target-integrity rule (a) positive control: an unrouted query key on a /plan.html link is a suspect, ALONE', () => {
+      const f = writeLinkFixture('rule_a_plan.html', minimalPage('<a href="/plan.html?waitlist=1&amp;bogus=xyz">bad</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 1, `expected exactly 1 link-target-integrity suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(/"bogus"/.test(hits[0].detail), `expected the planner-unread key "bogus" to be named (not "waitlist", which planner.js DOES read); got: ${hits[0].detail}`);
+    });
+
+    await test('link-target-integrity rule (a): entity decoding — "&amp;" is decoded before parsing, never a phantom "amp;src" key', () => {
+      // Both waitlist and src ARE read by planner.js (item 062) — a scanner
+      // that splits the RAW attribute on "&" would see keys {waitlist,
+      // "amp;src"} and wrongly flag "amp;src" as unrouted. Decoded correctly,
+      // the keys are {waitlist, src}, both allowed, and this must be CLEAN.
+      const f = writeLinkFixture('entity.html', minimalPage('<a href="/plan.html?waitlist=1&amp;src=seo_token">ok</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 0, `expected zero suspects — "&amp;" must decode to "&" before key-splitting; got: ${JSON.stringify(hits)}`);
+    });
+
+    await test('link-target-integrity rule (a): more than 3 distinct unrouted keys caps the quoted list at 3 with a "(+N more keys)" note', () => {
+      const links = ['search', 'foo', 'bar', 'baz'].map((k) => `<a href="https://www.defi.garden/?${k}=1">x</a>`).join('\n');
+      const f = writeLinkFixture('cap.html', minimalPage(links));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /outside the allowed set/.test(s.detail));
+      assert(hits.length === 1, `expected exactly 1 rule-(a) suspect (one suspect per file per sub-rule); got ${hits.length}`);
+      const quoted = (hits[0].detail.match(/"[a-z]+"/g) || []).length;
+      assert(quoted === 3, `expected exactly 3 quoted keys, got ${quoted}: ${hits[0].detail}`);
+      assert(/\(\+1 more keys?\)/.test(hits[0].detail), `expected a "(+1 more keys)" tail; got: ${hits[0].detail}`);
+      assert(hits[0].detail.startsWith('4 defi.garden links'), `expected the leading count to be the TRUE total (4 links), not the capped quote count; got: ${hits[0].detail}`);
+    });
+
+    await test('link-target-integrity rule (b) positive control: a pool-row anchor linking to the bare origin is a suspect, ALONE', () => {
+      const f = writeLinkFixture('rule_b_bare.html', minimalPage('<a class="tp-pool-link" href="https://www.defi.garden/">bad</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 1, `expected exactly 1 link-target-integrity suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(/tp-pool-link\/cp-pool-link/.test(hits[0].detail), `expected rule (b)'s detail; got: ${hits[0].detail}`);
+    });
+
+    await test('link-target-integrity rule (b) positive control: a pool-row anchor linking to a "?token=" grid URL is a suspect', () => {
+      const f = writeLinkFixture('rule_b_grid.html', minimalPage('<a class="cp-pool-link" href="https://www.defi.garden/?chain=Ethereum">bad</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 1, `expected exactly 1 suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(hits[0].detail.includes('?chain=Ethereum'), `expected the grid URL quoted; got: ${hits[0].detail}`);
+    });
+
+    await test('link-target-integrity rule (b) positive control: a pool-row anchor with a MISSING href is a suspect', () => {
+      const f = writeLinkFixture('rule_b_missing.html', minimalPage('<a class="tp-pool-link">bad</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 1, `expected exactly 1 suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(hits[0].detail.includes('(missing href)'), `expected "(missing href)" named; got: ${hits[0].detail}`);
+    });
+
+    await test('link-target-integrity rule (b) negative: a pool-row anchor correctly targeting "?pool=<id>" is clean', () => {
+      const f = writeLinkFixture('rule_b_ok.html', minimalPage('<a class="tp-pool-link" href="https://www.defi.garden/?pool=abc-123">ok</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      assert(result.suspects.length === 0, `expected zero suspects; got: ${JSON.stringify(result.suspects)}`);
+    });
+
+    await test('link-target-integrity rule (c) positive control: an internal link target with no file on disk is a suspect, ALONE', () => {
+      const f = writeLinkFixture('rule_c.html', minimalPage('<a href="https://www.defi.garden/tokens/doesnotexist999">bad</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 1, `expected exactly 1 suspect; got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(hits[0].detail.includes('/tokens/doesnotexist999'), `expected the broken path quoted; got: ${hits[0].detail}`);
+      assert(!fs.existsSync(path.join(ROOT, 'tokens', 'doesnotexist999.html')), 'fixture wiring check: tokens/doesnotexist999.html must genuinely not exist');
+    });
+
+    await test('link-target-integrity rule (c) negative: an internal link target that DOES exist on disk ("/style.css") is not a suspect', () => {
+      assert(fs.existsSync(path.join(ROOT, 'style.css')), 'fixture wiring check: style.css must exist at ROOT for this to be a real negative control');
+      const f = writeLinkFixture('rule_c_ok.html', minimalPage('<a href="/style.css">ok</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      assert(result.suspects.length === 0, `expected zero suspects; got: ${JSON.stringify(result.suspects)}`);
+    });
+
+    await test('link-target-integrity rule (c) negative: an internal link target resolving via <path>/index.html ("/chains") is not a suspect', () => {
+      assert(fs.existsSync(path.join(ROOT, 'chains', 'index.html')), 'fixture wiring check: chains/index.html must exist at ROOT');
+      const f = writeLinkFixture('rule_c_index.html', minimalPage('<a href="https://www.defi.garden/chains">ok</a>'));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /resolve/.test(s.detail));
+      assert(hits.length === 0, `expected zero rule-(c) suspects (chains/index.html exists); got: ${JSON.stringify(hits)}`);
+    });
+
+    await test('link-target-integrity: a fixture tripping all three sub-rules yields exactly 3 suspects (one per sub-rule), never one per bad link', () => {
+      const body = [
+        '<a href="https://www.defi.garden/?search=lido">a</a>',
+        '<a class="tp-pool-link" href="https://www.defi.garden/">b</a>',
+        '<a href="https://www.defi.garden/tokens/doesnotexist999">c</a>'
+      ].join('\n');
+      const f = writeLinkFixture('all_three.html', minimalPage(body));
+      const result = prescanStaticPages({ pages: [f] });
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 3, `expected exactly 3 link-target-integrity suspects (one per sub-rule); got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(hits.every((h) => h.severity === 'P1'), `link-target-integrity must be P1; got: ${JSON.stringify(hits.map((h) => h.severity))}`);
+    });
+
+    await test('link-target-integrity rule (a) coupling proof (home.html): appending a param to a copied home.html flips a home-path URL using it from suspect to clean', () => {
+      const homeOriginal = fs.readFileSync(path.join(ROOT, 'home.html'), 'utf8');
+      const ORIGINAL_DECL = "var ANALYTICS_PARAMS = ['token', 'chain', 'pool', 'poolTypes', 'protocols', 'minTvl', 'minApy', 'app'];";
+      assert(homeOriginal.includes(ORIGINAL_DECL), 'fixture wiring check: home.html:77 must match the literal ANALYTICS_PARAMS declaration this test rewrites — home.html moved out from under this test');
+
+      const homeCopy = writeLinkFixture('home.html', homeOriginal);
+      const pageFile = writeLinkFixture('coupling_page.html', minimalPage('<a href="https://www.defi.garden/?zzzCustomParam=1">test</a>'));
+
+      const before = prescanStaticPages({ pages: [pageFile], homeHtml: homeCopy });
+      const beforeHit = before.suspects.find((s) => s.signal === 'link-target-integrity' && s.detail.includes('zzzCustomParam'));
+      assert(beforeHit, `expected zzzCustomParam to be flagged before it is added to ANALYTICS_PARAMS; got: ${JSON.stringify(before.suspects)}`);
+
+      const modified = homeOriginal.replace(ORIGINAL_DECL, ORIGINAL_DECL.replace("'app']", "'app', 'zzzCustomParam']"));
+      fs.writeFileSync(homeCopy, modified);
+      const after = prescanStaticPages({ pages: [pageFile], homeHtml: homeCopy });
+      const afterHit = after.suspects.find((s) => s.signal === 'link-target-integrity' && s.detail.includes('zzzCustomParam'));
+      assert(!afterHit, `expected zzzCustomParam to be CLEAN once added to ANALYTICS_PARAMS in the copied home.html; got: ${JSON.stringify(after.suspects)}`);
+    });
+
+    await test('link-target-integrity rule (a) coupling proof (planner.js): adding a urlParams.get() call site to a copied planner.js flips a /plan.html URL using that key from suspect to clean', () => {
+      const plannerOriginal = fs.readFileSync(path.join(ROOT, 'planner.js'), 'utf8');
+      const plannerCopy = writeLinkFixture('planner.js', plannerOriginal);
+      const pageFile = writeLinkFixture('coupling_planner_page.html', minimalPage('<a href="/plan.html?zzzPlannerParam=1">test</a>'));
+
+      const before = prescanStaticPages({ pages: [pageFile], plannerJs: plannerCopy });
+      const beforeHit = before.suspects.find((s) => s.signal === 'link-target-integrity' && s.detail.includes('zzzPlannerParam'));
+      assert(beforeHit, `expected zzzPlannerParam to be flagged before planner.js reads it; got: ${JSON.stringify(before.suspects)}`);
+
+      fs.writeFileSync(plannerCopy, plannerOriginal + "\nvar __test172 = urlParams.get('zzzPlannerParam');\n");
+      const after = prescanStaticPages({ pages: [pageFile], plannerJs: plannerCopy });
+      const afterHit = after.suspects.find((s) => s.signal === 'link-target-integrity' && s.detail.includes('zzzPlannerParam'));
+      assert(!afterHit, `expected zzzPlannerParam to be CLEAN once planner.js reads it via urlParams.get(); got: ${JSON.stringify(after.suspects)}`);
+    });
+
+    await test('link-target-integrity rule (a) degrades safely: an UNREADABLE home.html skips the home-path half (stderr note, no throw); rule (b)/(c) and the other three signals still work', () => {
+      const stderrLines = [];
+      const origErr = console.error;
+      console.error = (...a) => stderrLines.push(a.join(' '));
+      let result;
+      try {
+        const f = writeLinkFixture('degrade_home.html', minimalPage([
+          '<a href="https://www.defi.garden/?search=lido">a</a>', // rule (a), home half — must be SKIPPED, not a false negative report
+          '<a class="tp-pool-link" href="https://www.defi.garden/">b</a>', // rule (b) — must still fire
+          '<a href="https://www.defi.garden/tokens/doesnotexist999">c</a>' // rule (c) — must still fire
+        ].join('\n')));
+        result = prescanStaticPages({ pages: [f], homeHtml: path.join(ROOT, 'does-not-exist-172-home.html') });
+      } finally { console.error = origErr; }
+      assert(stderrLines.some((l) => /link-target-integrity rule \(a\) \[home\.html half\] skipped/.test(l)),
+        `expected a stderr note naming the home.html half; got: ${JSON.stringify(stderrLines)}`);
+      assert(!result.suspects.some((s) => s.signal === 'link-target-integrity' && /outside the allowed set/.test(s.detail)),
+        'rule (a) home-path half must NOT fire when home.html is unreadable — a bad key must not be silently checked against an empty/default allowlist');
+      assert(result.suspects.some((s) => s.signal === 'link-target-integrity' && /tp-pool-link/.test(s.detail)), 'rule (b) must still fire');
+      assert(result.suspects.some((s) => s.signal === 'link-target-integrity' && /resolve/.test(s.detail)), 'rule (c) must still fire');
+      assert(result.scanned === 1, `expected the page to still be scanned (no throw); got scanned=${result.scanned}`);
+    });
+
+    await test('link-target-integrity rule (a) degrades safely: an UNREADABLE planner.js skips the /plan.html half (stderr note, no throw); the home-path half still works', () => {
+      const stderrLines = [];
+      const origErr = console.error;
+      console.error = (...a) => stderrLines.push(a.join(' '));
+      let result;
+      try {
+        const f = writeLinkFixture('degrade_planner.html', minimalPage([
+          '<a href="/plan.html?bogus=1">a</a>', // planner half — must be SKIPPED
+          '<a href="https://www.defi.garden/?search=lido">b</a>' // home half — must still fire
+        ].join('\n')));
+        result = prescanStaticPages({ pages: [f], plannerJs: path.join(ROOT, 'does-not-exist-172-planner.js') });
+      } finally { console.error = origErr; }
+      assert(stderrLines.some((l) => /link-target-integrity rule \(a\) \[planner\.js half\] skipped/.test(l)),
+        `expected a stderr note naming the planner.js half; got: ${JSON.stringify(stderrLines)}`);
+      const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
+      assert(hits.length === 1, `expected exactly 1 suspect (home-path half only); got ${hits.length}: ${JSON.stringify(hits)}`);
+      assert(/"search"/.test(hits[0].detail) && !/bogus/.test(hits[0].detail),
+        `expected only the home-path "search" key flagged, never "bogus" (planner.js was unreadable); got: ${hits[0].detail}`);
+    });
+
+    await test('prescanStaticPages() degrades safely: an unreadable page in the list is skipped (stderr note, no throw) and does not block link-target-integrity on the other page', () => {
+      const stderrLines = [];
+      const origErr = console.error;
+      console.error = (...a) => stderrLines.push(a.join(' '));
+      let result;
+      try {
+        const validFile = writeLinkFixture('degrade_valid.html', minimalPage('<a class="cp-pool-link" href="https://www.defi.garden/">bad</a>'));
+        result = prescanStaticPages({ pages: [path.join(ROOT, 'tokens', 'does-not-exist-172.html'), validFile] });
+      } finally { console.error = origErr; }
+      assert(stderrLines.some((l) => /skipping unreadable\/unparseable/.test(l)), `expected an unreadable-page stderr note; got: ${JSON.stringify(stderrLines)}`);
+      assert(result.scanned === 1, `expected scanned === 1 (only the valid page counts); got ${result.scanned}`);
+      assert(result.suspects.some((s) => s.signal === 'link-target-integrity'), 'expected link-target-integrity to still fire on the valid page');
+    });
+
+    await test('AUDIT_STATIC_PAGES override disables prescan entirely (spec 157 B.2, unchanged) — prescan.scanned/bySignal/prescanFindings all empty', () => {
+      const before = process.env.AUDIT_STATIC_PAGES;
+      try {
+        const result = buildStaticSurfaces({ staticPages: 'tokens/usdc.html' });
+        assert(result.prescan.scanned === 0, `expected prescan.scanned === 0 with an override, got ${result.prescan.scanned}`);
+        assert(Object.keys(result.prescan.bySignal).length === 0, `expected prescan.bySignal === {}, got ${JSON.stringify(result.prescan.bySignal)}`);
+        assert(result.prescanFindings.length === 0, `expected zero prescan findings, got ${JSON.stringify(result.prescanFindings)}`);
+        assert(result.prescanSuspects.length === 0, `expected zero prescan suspects, got ${JSON.stringify(result.prescanSuspects)}`);
+        // Also exercise the env-var form (opts.staticPages is the same code
+        // path but proving the actual env var still works, not just opts).
+        process.env.AUDIT_STATIC_PAGES = 'tokens/usdc.html';
+        const resultEnv = buildStaticSurfaces({});
+        assert(resultEnv.prescan.scanned === 0, `env-var form: expected prescan.scanned === 0, got ${resultEnv.prescan.scanned}`);
+      } finally {
+        if (before === undefined) delete process.env.AUDIT_STATIC_PAGES; else process.env.AUDIT_STATIC_PAGES = before;
+      }
+    });
+  } finally {
+    cleanupLinkFixtures();
+  }
 
   console.log(`\ntest_audit_prescan.js: ${passed} passed, ${failed} failed`);
   if (process.exitCode) process.exit(process.exitCode);
