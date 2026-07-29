@@ -34,7 +34,7 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { runAudit, prescanStaticPages } = require('./audit-app.js');
+const { runAudit, prescanStaticPages, reconcilePrescanFindings } = require('./audit-app.js');
 
 const ROOT = __dirname;
 const MAX_STATIC_SAMPLE = 12; // mirrors audit-app.js's own ceiling (backlog 154)
@@ -224,6 +224,57 @@ async function main() {
   });
 
   for (const p of Object.values(outPaths)) { try { fs.unlinkSync(p); } catch (e) {} }
+
+  // ---------------------------------------------------------------------------
+  // spec 171 — A6: text-surface prescan is never downgraded, even when its
+  // signal name is IDENTICAL to a pool/static signal that IS downgradable
+  // ('apy-rail-breach' is a real key in both TEXT_SURFACE_SIGNALS and
+  // POOL_PRESCAN_SIGNALS, audit-app.js — not a hypothetical). The guarantee
+  // is architectural (runAudit() simply never calls reconcilePrescanFindings
+  // against textSurfaceFindings), not a rule inside the helper itself — so
+  // this is two tests, not one: a non-vacuity proof that the helper has no
+  // built-in text-surface immunity (A6a), and a source-level assertion that
+  // runAudit()'s only two call sites never hand it textSurfaceFindings (A6b).
+  // Without A6a, A6b alone would be unfalsifiable — a helper that could never
+  // downgrade ANYTHING would also pass A6b trivially.
+  // ---------------------------------------------------------------------------
+  await test('A6a (spec 171, non-vacuity): reconcilePrescanFindings has no built-in text-surface exemption — the identical "apy-rail-breach" signal, fully promoted + rendered clean, WOULD downgrade under prefix:"text-surfaces" if it were ever called that way', () => {
+    const f = { surface: 'text-surfaces', viewport: 'n/a', check: 'text-surfaces:apy-rail-breach', severity: 'P0',
+      detail: '1 of 2 text surfaces match apy-rail-breach — examples: llms.txt' };
+    const suspects = [{ rel: 'llms.txt', signal: 'apy-rail-breach' }];
+    reconcilePrescanFindings([f], {
+      prefix: 'text-surfaces',
+      suspects,
+      suspectKey: (s) => s.rel,
+      promotedKeys: new Set(['llms.txt']),
+      keyToSurface: (rel) => `static-page:${rel}`,
+      coveredSurfaces: new Set(['static-page:llms.txt']),
+      findingsBySurface: new Map()
+    });
+    assert(f.severity === 'P2',
+      `expected the helper itself to downgrade under these fully-clean conditions regardless of prefix; got ${f.severity}. ` +
+      'If this assertion fails because the helper now special-cases a prefix, A6b (below) needs re-reading, not deletion — the real ' +
+      'guarantee must stay "never called this way", not "called but ignored".');
+  });
+
+  await test('A6b (spec 171): runAudit() never passes textSurfaceFindings to reconcilePrescanFindings — only prescanFindings (prefix static-prescan) and poolPrescanFindings (prefix pool-prescan)', () => {
+    const src = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    const occurrences = (src.match(/reconcilePrescanFindings\(/g) || []).length;
+    assert(occurrences === 3,
+      `expected exactly 3 occurrences of "reconcilePrescanFindings(" (1 function definition + 2 runAudit() call sites) — ` +
+      `a new call site changes this count and needs its own A6-equivalent proof it never targets text-surfaces; got ${occurrences}`);
+    assert(!src.includes('reconcilePrescanFindings(textSurfaceFindings'),
+      'textSurfaceFindings must never be passed to reconcilePrescanFindings — text-surface prescan has no promotion mechanism (no `promoted` array) and must never be reconciled/downgraded');
+
+    const staticCallIdx = src.indexOf('reconcilePrescanFindings(prescanFindings, {');
+    const poolCallIdx = src.indexOf('reconcilePrescanFindings(poolPrescanFindings, {');
+    assert(staticCallIdx !== -1, 'expected a reconcilePrescanFindings(prescanFindings, {...}) call site (the static leg)');
+    assert(poolCallIdx !== -1, 'expected a reconcilePrescanFindings(poolPrescanFindings, {...}) call site (the pool leg)');
+    assert(src.slice(staticCallIdx, staticCallIdx + 400).includes("prefix: 'static-prescan'"),
+      'the static-leg call site must pass prefix: \'static-prescan\'');
+    assert(src.slice(poolCallIdx, poolCallIdx + 400).includes("prefix: 'pool-prescan'"),
+      'the pool-leg call site must pass prefix: \'pool-prescan\'');
+  });
 
   console.log(`\ntest_audit_prescan.js: ${passed} passed, ${failed} failed`);
   if (process.exitCode) process.exit(process.exitCode);

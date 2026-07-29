@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-28T07:09:16.763Z",
+  "generatedAt": "2026-07-29T00:57:27.540Z",
   "status": "OK",
   "playwright": {
     "source": "local",
-    "version": "1.56.1"
+    "version": "1.61.1"
   },
   "surfacesCovered": [
     "text-surfaces",
@@ -16,6 +16,9 @@
     "grid-360",
     "pool-detail-dark",
     "pool-detail-ko",
+    "pool-detail:201e5f6e",
+    "pool-detail:87c8ee0d",
+    "pool-detail:0715f02b",
     "landing",
     "planner",
     "planner-360",
@@ -26,12 +29,12 @@
     "plan-bloom-360",
     "plan-bloom-ko",
     "static-page",
-    "static-page:tokens/01",
-    "static-page:tokens/17dec2026",
     "static-page:tokens/20261231",
     "static-page:tokens/2027",
-    "static-page:tokens/supercbbtc",
-    "static-page:tokens/eulerrlusd"
+    "static-page:tokens/67",
+    "static-page:tokens/8oct2026",
+    "static-page:tokens/feusd",
+    "static-page:tokens/synusdx"
   ],
   "findings": [
     {
@@ -39,21 +42,14 @@
       "viewport": "n/a",
       "check": "static-prescan:junk-slug",
       "severity": "P1",
-      "detail": "7 of 2198 static SEO pages match junk-slug — examples: tokens/00, tokens/01, tokens/17dec2026, tokens/20261231, tokens/2027, tokens/67, tokens/8oct2026"
+      "detail": "7 of 2181 static SEO pages match junk-slug — examples: tokens/00, tokens/01, tokens/17dec2026, tokens/20261231, tokens/2027, tokens/67, tokens/8oct2026"
     },
     {
-      "surface": "static-page:tokens/01",
-      "viewport": "1280px",
-      "check": "junk-slug",
-      "severity": "P1",
-      "detail": "rendered <h1> is junk: \"01 DeFi Yields\""
-    },
-    {
-      "surface": "static-page:tokens/17dec2026",
-      "viewport": "1280px",
-      "check": "junk-slug",
-      "severity": "P1",
-      "detail": "rendered <h1> is junk: \"17DEC2026 DeFi Yields\""
+      "surface": "pool-prescan",
+      "viewport": "n/a",
+      "check": "pool-prescan:mean30d-rail-breach",
+      "severity": "P2",
+      "detail": "1 of 745 snapshot pools match mean30d-rail-breach — examples: 201e5f6e — reconciled: all 1 promoted suspect(s) rendered with zero findings on pool-detail:201e5f6e; downgraded to non-blocking."
     },
     {
       "surface": "static-page:tokens/20261231",
@@ -68,10 +64,24 @@
       "check": "junk-slug",
       "severity": "P1",
       "detail": "rendered <h1> is junk: \"2027 DeFi Yields\""
+    },
+    {
+      "surface": "static-page:tokens/67",
+      "viewport": "1280px",
+      "check": "junk-slug",
+      "severity": "P1",
+      "detail": "rendered <h1> is junk: \"67 DeFi Yields\""
+    },
+    {
+      "surface": "static-page:tokens/8oct2026",
+      "viewport": "1280px",
+      "check": "junk-slug",
+      "severity": "P1",
+      "detail": "rendered <h1> is junk: \"8OCT2026 DeFi Yields\""
     }
   ],
   "prescan": {
-    "scanned": 2198,
+    "scanned": 2181,
     "suspectCount": 7,
     "bySignal": {
       "broken-number-literal": 0,
@@ -80,10 +90,24 @@
       "zero-yield-claim": 0
     },
     "promoted": [
-      "tokens/01",
-      "tokens/17dec2026",
       "tokens/20261231",
-      "tokens/2027"
+      "tokens/2027",
+      "tokens/67",
+      "tokens/8oct2026"
+    ]
+  },
+  "poolPrescan": {
+    "scanned": 745,
+    "suspectCount": 1,
+    "bySignal": {
+      "apy-rail-breach": 0,
+      "mean30d-rail-breach": 1,
+      "kpi-nonfinite": 0,
+      "absurd-magnitude": 0,
+      "missing-tvl": 0
+    },
+    "promoted": [
+      "201e5f6e-cf75-4d0e-b07f-d58da3cee23a"
     ]
   },
   "textSurfaces": {
@@ -93,7 +117,8 @@
       "apy-rail-breach": 0,
       "broken-number-literal": 0,
       "tvl-floor-claim": 0,
-      "empty-surface": 0
+      "empty-surface": 0,
+      "link-target-integrity": 0
     }
   }
 }

@@ -614,7 +614,11 @@ function emptyPrescanResult() {
 // promotion). `opts.staticPages` / `opts.staticSample` / `opts.staticSeed` /
 // `opts.prescan` / `opts.prescanMax` mirror the env vars, opts wins — the
 // same override convention as every other knob in this file (port,
-// snapshotPath, outPath). Returns `{ surfaces, prescan, prescanFindings }`.
+// snapshotPath, outPath). Returns `{ surfaces, prescan, prescanFindings,
+// prescanSuspects }` — `prescanSuspects` (added backlog 171) is the same
+// anchor-excluded suspect list the aggregate `prescanFindings` above were
+// counted from, exposed so runAudit() can reconcile each aggregate finding
+// against what its own promoted suspects actually rendered.
 function buildStaticSurfaces(opts) {
   const overrideRaw = opts.staticPages || process.env.AUDIT_STATIC_PAGES;
   if (overrideRaw) {
@@ -631,7 +635,7 @@ function buildStaticSurfaces(opts) {
         return { name, url: normalized, kind: 'static', width: 1280 };
       })
       .filter((s) => fs.existsSync(path.join(ROOT, s.url)));
-    return { surfaces, prescan: emptyPrescanResult(), prescanFindings: [] };
+    return { surfaces, prescan: emptyPrescanResult(), prescanFindings: [], prescanSuspects: [] };
   }
 
   const surfaces = [];
@@ -669,6 +673,7 @@ function buildStaticSurfaces(opts) {
   let prescan = emptyPrescanResult();
   const prescanFindings = [];
   let promotedRels = [];
+  let prescanSuspects = []; // backlog 171 — see the return-shape comment above
 
   if (prescanEnabled && cap > 0) {
     const scan = prescanStaticPages();
@@ -676,6 +681,7 @@ function buildStaticSurfaces(opts) {
     // unchanged `static-page` surface, promoting it too would be a no-op
     // duplicate name collision.
     const suspects = scan.suspects.filter((s) => s.rel !== anchorLeafRel);
+    prescanSuspects = suspects;
 
     const bySignal = {};
     for (const sig of Object.keys(PRESCAN_SIGNALS)) bySignal[sig] = 0;
@@ -730,7 +736,7 @@ function buildStaticSurfaces(opts) {
   for (const rel of tokenPicks.concat(chainPicks)) {
     surfaces.push({ name: `static-page:${slugFromRel(rel)}`, url: '/' + rel, kind: 'static', width: 1280 });
   }
-  return { surfaces, prescan, prescanFindings };
+  return { surfaces, prescan, prescanFindings, prescanSuspects };
 }
 
 // ---------------------------------------------------------------------------
@@ -866,6 +872,12 @@ function poolIdPrefix(id) {
 // derivation. Growth is still small and bounded (A7): at the shipped
 // defaults, additive growth is `DEFAULT_POOL_PRESCAN_MAX +
 // DEFAULT_POOL_SAMPLE` = 4, comfortably under `MAX_POOL_SAMPLE` (6).
+// Returns `{ anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings,
+// poolPrescanSuspects }` — `poolPrescanSuspects` (added backlog 171) is the
+// same anchor-excluded suspect list the aggregate `poolPrescanFindings`
+// above were counted from, exposed so runAudit() can reconcile each
+// aggregate finding against what its own promoted suspects actually
+// rendered (mirrors buildStaticSurfaces()'s `prescanSuspects`).
 function buildPoolSurfaces(opts = {}) {
   const pools = Array.isArray(opts.pools) ? opts.pools : [];
   const overrideRaw = opts.poolIds || process.env.AUDIT_POOL_IDS;
@@ -881,7 +893,7 @@ function buildPoolSurfaces(opts = {}) {
     const extraSurfaces = ids.slice(1).map((id) => ({
       name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280
     }));
-    return { anchorPoolId, extraSurfaces, poolPrescan: emptyPoolPrescanResult(), poolPrescanFindings: [] };
+    return { anchorPoolId, extraSurfaces, poolPrescan: emptyPoolPrescanResult(), poolPrescanFindings: [], poolPrescanSuspects: [] };
   }
 
   // Anchor resolution — unchanged logic, unchanged fallback (spec 167 §2).
@@ -905,6 +917,7 @@ function buildPoolSurfaces(opts = {}) {
   let poolPrescan = emptyPoolPrescanResult();
   const poolPrescanFindings = [];
   let promotedIds = [];
+  let poolPrescanSuspects = []; // backlog 171 — see the return-shape comment above
 
   if (prescanEnabled && prescanMax > 0 && pools.length) {
     const scan = prescanPools(pools);
@@ -912,6 +925,7 @@ function buildPoolSurfaces(opts = {}) {
     // unchanged four pool-detail* surfaces (mirrors static's anchorLeafRel
     // exclusion).
     const suspects = scan.suspects.filter((s) => s.poolId !== anchorPoolId);
+    poolPrescanSuspects = suspects;
 
     const bySignal = {};
     for (const sig of Object.keys(POOL_PRESCAN_SIGNALS)) bySignal[sig] = 0;
@@ -976,7 +990,7 @@ function buildPoolSurfaces(opts = {}) {
     extraSurfaces.push({ name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280 });
   }
 
-  return { anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings };
+  return { anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings, poolPrescanSuspects };
 }
 
 // ---------------------------------------------------------------------------
@@ -1480,6 +1494,71 @@ async function checkResponsive(page, s, findings, ctaSelector) {
 }
 
 // ---------------------------------------------------------------------------
+// backlog 171 — prescan/rendered reconciliation. An aggregate
+// `<prefix>:<signal>` finding (built pre-render, before the browser ever
+// opens — see buildStaticSurfaces()/buildPoolSurfaces() above) is downgraded
+// to non-blocking P2 IFF every suspect carrying that signal was promoted to
+// a rendered surface AND every one of those promoted surfaces produced ZERO
+// rendered findings. Any suspect left unpromoted (promotion cap, promotion
+// disabled, or a promoted surface never actually rendered because opts.only
+// filtered it out of this run) leaves severity UNCHANGED — unverified is not
+// clean, the load-bearing rule (spec 171). Any promoted surface with >=1
+// rendered finding of its own also leaves severity unchanged.
+//
+// Mutates the finding objects in `aggregateFindings` in place — they are the
+// SAME references already living in the caller's combined `findings` array
+// (built via array spread, which copies the array but not the objects), so
+// callers never need to splice a reconciled result back in.
+//
+// Shared verbatim by the pool leg and the static leg (spec 171: "one shared
+// helper... they must not drift") via two small adapters rather than
+// assuming one suspect shape: `suspectKey(suspect)` extracts the
+// promotion-comparable key (a static-page slug / a full pool id — whichever
+// shape `promotedKeys` is a Set of), `keyToSurface(key)` maps that key to
+// the EXACT rendered surface name a promoted suspect would appear under
+// (`static-page:<slug>` / `pool-detail:<8-char-prefix>`). Because that
+// mapper only ever produces those two exact forms, the anchor pool's own
+// multi-viewport siblings (`pool-detail-360`/`-dark`/`-ko`) can never be
+// misattributed to a promoted suspect — they are a different surface name by
+// construction, not by a filter here.
+//
+// Text-surface prescan is never passed through here: `textSurfaces`'s result
+// carries no `promoted` array at all (no promotion mechanism to verify
+// against), so nothing there can ever be downgraded — enforced by omission
+// (runAudit() below never calls this against textSurfaceFindings), not by a
+// branch inside this function.
+// ---------------------------------------------------------------------------
+function reconcilePrescanFindings(aggregateFindings, opts) {
+  const { prefix, suspects, suspectKey, promotedKeys, keyToSurface, coveredSurfaces, findingsBySurface } = opts;
+  const marker = `${prefix}:`;
+  for (const f of aggregateFindings) {
+    if (!f || f.surface !== prefix || typeof f.check !== 'string' || !f.check.startsWith(marker)) continue;
+    const signal = f.check.slice(marker.length);
+    const signalSuspects = suspects.filter((s) => s.signal === signal);
+    if (signalSuspects.length === 0) continue; // defensive — a finding implies >=1 suspect
+
+    const allPromoted = signalSuspects.every((s) => promotedKeys.has(suspectKey(s)));
+    if (!allPromoted) continue; // at least one suspect never verified — severity unchanged
+
+    let allClean = true;
+    const clearedSurfaces = [];
+    for (const s of signalSuspects) {
+      const surfaceName = keyToSurface(suspectKey(s));
+      // Not covered in THIS run (e.g. opts.only scoped the render away from
+      // it) is treated the same as "not clean" — unverified, not downgraded.
+      const wasRendered = coveredSurfaces.has(surfaceName);
+      const findingCount = findingsBySurface.get(surfaceName) || 0;
+      if (!wasRendered || findingCount > 0) { allClean = false; break; }
+      clearedSurfaces.push(surfaceName);
+    }
+    if (!allClean) continue;
+
+    f.severity = 'P2';
+    f.detail += ` — reconciled: all ${signalSuspects.length} promoted suspect(s) rendered with zero findings on ${clearedSurfaces.join(', ')}; downgraded to non-blocking.`;
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Public entry point.
 // ---------------------------------------------------------------------------
 async function runAudit(opts = {}) {
@@ -1644,6 +1723,37 @@ async function runAudit(opts = {}) {
     server.close();
   }
 
+  // backlog 171 — reconcile each aggregate prescan finding against what its
+  // own promoted suspects actually rendered. Runs AFTER the opts.only
+  // allowlist filtering above (prescanFindings/poolPrescanFindings are
+  // already filtered by then) and AFTER the render loop (needs
+  // surfacesCovered + the real per-surface findings to check against).
+  // Text-surface findings are deliberately excluded — no promotion
+  // mechanism exists for them (spec 171), so they are never passed through.
+  const surfacesCoveredSet = new Set(surfacesCovered);
+  const findingsBySurface = new Map();
+  for (const f of findings) {
+    if (f && f.surface) findingsBySurface.set(f.surface, (findingsBySurface.get(f.surface) || 0) + 1);
+  }
+  reconcilePrescanFindings(prescanFindings, {
+    prefix: 'static-prescan',
+    suspects: staticResult.prescanSuspects,
+    suspectKey: (s) => slugFromRel(s.rel),
+    promotedKeys: new Set(staticResult.prescan.promoted), // already slugs (buildStaticSurfaces)
+    keyToSurface: (slug) => `static-page:${slug}`,
+    coveredSurfaces: surfacesCoveredSet,
+    findingsBySurface
+  });
+  reconcilePrescanFindings(poolPrescanFindings, {
+    prefix: 'pool-prescan',
+    suspects: poolResult.poolPrescanSuspects,
+    suspectKey: (s) => s.poolId,
+    promotedKeys: new Set(poolResult.poolPrescan.promoted), // already full pool ids (buildPoolSurfaces)
+    keyToSurface: (id) => `pool-detail:${poolIdPrefix(id)}`,
+    coveredSurfaces: surfacesCoveredSet,
+    findingsBySurface
+  });
+
   const result = {
     generatedAt: new Date().toISOString(),
     status: 'OK',
@@ -1667,7 +1777,8 @@ function blockingFindings(findings) {
 
 module.exports = {
   runAudit, scanNumbers, resolvePlaywright, blockingFindings,
-  prescanStaticPages, prescanTextSurfaces, prescanPools, buildPoolSurfaces
+  prescanStaticPages, prescanTextSurfaces, prescanPools, buildPoolSurfaces,
+  buildStaticSurfaces, reconcilePrescanFindings
 };
 
 if (require.main === module) {

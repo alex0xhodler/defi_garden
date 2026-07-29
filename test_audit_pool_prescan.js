@@ -24,7 +24,7 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { runAudit, prescanPools, buildPoolSurfaces } = require('./audit-app.js');
+const { runAudit, prescanPools, buildPoolSurfaces, reconcilePrescanFindings } = require('./audit-app.js');
 
 const ROOT = __dirname;
 
@@ -198,6 +198,105 @@ async function main() {
     assert(JSON.stringify(names) === JSON.stringify(['pool-detail:poolid-a', 'pool-detail:poolid-b']),
       `expected the two extra ids as pool-detail:<8-char-prefix> surfaces in order given; got ${JSON.stringify(names)}`);
     for (const s of r.extraSurfaces) assert(s.kind === 'pool' && s.width === 1280, `override extraSurfaces must use kind:'pool', width:1280 — got ${JSON.stringify(s)}`);
+  });
+
+  // ---------------------------------------------------------------------------
+  // spec 171 — prescan/rendered reconciliation. `reconcilePrescanFindings()`
+  // is a pure, exported helper (audit-app.js) — driven DIRECTLY here rather
+  // than through a real Chromium render, per the build brief ("Export the
+  // helper so tests can drive it directly"): these fixtures prove the exact
+  // branch logic that a single live run (specs/171.md A1/A2, verified against
+  // the real snapshot separately) cannot reach on demand. `poolId`/`rel` are
+  // the real shape prescanPools()/prescanStaticPages() suspects carry
+  // (`{poolId, signal}` for the pool leg); `agg()` below builds a
+  // `<prefix>:<signal>` aggregate finding in the exact shape
+  // buildPoolSurfaces()/buildStaticSurfaces() emit.
+  // ---------------------------------------------------------------------------
+  function agg(prefix, signal, severity, detail) {
+    return { surface: prefix, viewport: 'n/a', check: `${prefix}:${signal}`, severity, detail };
+  }
+  const poolSurfaceOf = (id) => `pool-detail:${id.slice(0, 8)}`;
+
+  await test('A3 (spec 171): every suspect for the signal promoted AND every promoted surface rendered zero findings -> aggregate downgraded to P2 with a reason naming the surface', () => {
+    const f = agg('pool-prescan', 'mean30d-rail-breach', 'P0', '1 of 40 snapshot pools match mean30d-rail-breach — examples: meanA001');
+    const suspects = [{ poolId: 'meanA001', signal: 'mean30d-rail-breach' }];
+    reconcilePrescanFindings([f], {
+      prefix: 'pool-prescan',
+      suspects,
+      suspectKey: (s) => s.poolId,
+      promotedKeys: new Set(['meanA001']),
+      keyToSurface: poolSurfaceOf,
+      coveredSurfaces: new Set([poolSurfaceOf('meanA001')]),
+      findingsBySurface: new Map() // no entries anywhere == zero rendered findings
+    });
+    assert(f.severity === 'P2', `expected downgrade to P2, got ${f.severity}`);
+    assert(f.detail.includes('reconciled'), `detail must gain an explicit reconciliation reason: ${f.detail}`);
+    assert(f.detail.includes(poolSurfaceOf('meanA001')), `detail must name the surface that cleared it: ${f.detail}`);
+  });
+
+  await test('A4 (spec 171, load-bearing): same as A3 but ONE suspect left unpromoted -> severity unchanged (unverified != clean)', () => {
+    const f = agg('pool-prescan', 'mean30d-rail-breach', 'P0', '2 of 40 snapshot pools match mean30d-rail-breach — examples: meanA001, meanB002');
+    const suspects = [{ poolId: 'meanA001', signal: 'mean30d-rail-breach' }, { poolId: 'meanB002', signal: 'mean30d-rail-breach' }];
+    reconcilePrescanFindings([f], {
+      prefix: 'pool-prescan',
+      suspects,
+      suspectKey: (s) => s.poolId,
+      // meanB002 never made it into promotedKeys (promotion cap / disabled / whatever reason).
+      promotedKeys: new Set(['meanA001']),
+      keyToSurface: poolSurfaceOf,
+      coveredSurfaces: new Set([poolSurfaceOf('meanA001'), poolSurfaceOf('meanB002')]),
+      findingsBySurface: new Map() // both surfaces would be "clean" IF checked — must not matter
+    });
+    assert(f.severity === 'P0', `expected severity UNCHANGED (P0) when one suspect was never promoted, got ${f.severity}`);
+    assert(!f.detail.includes('reconciled'), `detail must be untouched when not downgraded: ${f.detail}`);
+  });
+
+  await test('A4b (spec 171): a promoted suspect whose surface was never actually rendered in THIS run (opts.only scoped it away) counts as unverified, not clean', () => {
+    const f = agg('pool-prescan', 'mean30d-rail-breach', 'P0', '1 of 40 snapshot pools match mean30d-rail-breach — examples: meanA001');
+    const suspects = [{ poolId: 'meanA001', signal: 'mean30d-rail-breach' }];
+    reconcilePrescanFindings([f], {
+      prefix: 'pool-prescan',
+      suspects,
+      suspectKey: (s) => s.poolId,
+      promotedKeys: new Set(['meanA001']), // promoted by the builder...
+      keyToSurface: poolSurfaceOf,
+      coveredSurfaces: new Set(), // ...but this run's opts.only never rendered it
+      findingsBySurface: new Map()
+    });
+    assert(f.severity === 'P0', `a promoted-but-not-covered surface must not count as clean; expected P0, got ${f.severity}`);
+    assert(!f.detail.includes('reconciled'), `detail must be untouched when not downgraded: ${f.detail}`);
+  });
+
+  await test('A5 (spec 171): all suspects promoted but ONE promoted surface produced >=1 rendered finding -> severity unchanged', () => {
+    const f = agg('pool-prescan', 'mean30d-rail-breach', 'P0', '2 of 40 snapshot pools match mean30d-rail-breach — examples: meanA001, meanB002');
+    const suspects = [{ poolId: 'meanA001', signal: 'mean30d-rail-breach' }, { poolId: 'meanB002', signal: 'mean30d-rail-breach' }];
+    reconcilePrescanFindings([f], {
+      prefix: 'pool-prescan',
+      suspects,
+      suspectKey: (s) => s.poolId,
+      promotedKeys: new Set(['meanA001', 'meanB002']),
+      keyToSurface: poolSurfaceOf,
+      coveredSurfaces: new Set([poolSurfaceOf('meanA001'), poolSurfaceOf('meanB002')]),
+      // meanA001 clean, meanB002 rendered a real (unrelated) finding of its own.
+      findingsBySurface: new Map([[poolSurfaceOf('meanB002'), 1]])
+    });
+    assert(f.severity === 'P0', `expected severity UNCHANGED (P0) when a promoted surface has a rendered finding, got ${f.severity}`);
+    assert(!f.detail.includes('reconciled'), `detail must be untouched when not downgraded: ${f.detail}`);
+  });
+
+  await test('A7 (spec 171): prescan disabled -> zero aggregate findings exist to reconcile in the first place; reconciling the empty set is a true no-op', () => {
+    const pools = [anchorPool(), railBreachPool('meanZ099')].concat(Array.from({ length: 20 }, (_, i) => cleanPool(i)));
+    const r = buildPoolSurfaces({ pools, poolSeed: 'audit-171-a7-seed', poolPrescan: false });
+    assert(r.poolPrescan.promoted.length === 0, `expected zero promoted with poolPrescan:false, got ${JSON.stringify(r.poolPrescan.promoted)}`);
+    assert(r.poolPrescanFindings.length === 0, `expected zero pool-prescan findings with poolPrescan:false, got ${JSON.stringify(r.poolPrescanFindings)}`);
+    assert(r.poolPrescanSuspects.length === 0, `expected zero poolPrescanSuspects with poolPrescan:false (never scanned, not just never promoted), got ${JSON.stringify(r.poolPrescanSuspects)}`);
+    // Reconciling an empty aggregate-findings array must not throw and must
+    // leave it empty — nothing to downgrade because nothing was ever emitted.
+    reconcilePrescanFindings(r.poolPrescanFindings, {
+      prefix: 'pool-prescan', suspects: r.poolPrescanSuspects, suspectKey: (s) => s.poolId,
+      promotedKeys: new Set(), keyToSurface: poolSurfaceOf, coveredSurfaces: new Set(), findingsBySurface: new Map()
+    });
+    assert(r.poolPrescanFindings.length === 0, 'reconciliation must not have added or mutated anything on an empty findings array');
   });
 
   console.log(`\ntest_audit_pool_prescan.js: ${passed} passed, ${failed} failed`);

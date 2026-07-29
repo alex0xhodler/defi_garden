@@ -8,9 +8,14 @@ is structurally wrong). A "misleading green."
 (`signals/*.json`, a report file, a committed count) and can die before writing it. Same lie, delivered by
 silence instead of an echo.
 
+**Also when** (item 171, the *inverted* variant — a misleading RED): a detector reports a blocking
+failure that its own deeper verification already disproved, and will keep doing so on every future run.
+Same dishonesty, opposite sign — and more corrosive, because nobody audits an alarm for being too loud.
+
 **Answer in one line:** if a step can print success without its real work succeeding, the green is a lie —
 delete the dead work or fix the signal to reflect reality; never leave a reassuring line over a no-op. And
-if a run can END without writing its verdict, the *previous* verdict becomes the lie.
+if a run can END without writing its verdict, the *previous* verdict becomes the lie. And if a two-stage
+detector throws away what stage 2 concluded, stage 1's verdict is a lie too.
 
 ## Steps
 1. **Find the claim vs. the work.** Read the step's `run:` block. Separate the *echo* (what the log claims)
@@ -32,6 +37,17 @@ if a run can END without writing its verdict, the *previous* verdict becomes the
      Leave a short `# NOTE:` comment saying why it's gone.
    - Signal computes the wrong thing but the underlying work is real → **fix the signal** to reflect reality
      (correct the count/shape), preserve an HONEST zero (`set -eo pipefail`-safe), don't paper over it.
+5. **Misleading-RED variant (171): does a later stage already answer the earlier stage's question?**
+   Many detectors are two-stage — a cheap scan flags a *suspicion*, then an expensive check (a real
+   render, a real request) decides. Ask: **is the expensive stage's answer fed back into the cheap
+   stage's severity, or discarded?** In `audit-app.js` it was discarded — the aggregate
+   `<prefix>:<signal>` finding was emitted at `:690`/`:926`, before the browser opened, and never
+   revisited. Symptom to look for: a blocking finding whose own promoted surface appears in
+   `surfacesCovered` with **zero** findings against it.
+   **Decision rule:** downgrade to non-blocking ONLY when *every* suspect for that signal was actually
+   promoted, actually rendered in THIS run, and came back with zero findings. Any suspect unpromoted,
+   uncovered, or dirty → severity unchanged. **Unverified is not clean.** Never delete the finding —
+   downgrade it and append the reason naming the surfaces that cleared it, so the downgrade is auditable.
 
 ## Resolution
 - Removal/fix lands as a single workflow-file edit. Tier **HIGH** — any `.github/workflows/` edit is
@@ -54,6 +70,17 @@ if a run can END without writing its verdict, the *previous* verdict becomes the
   empty result arrays, the reason) **to the real path**, overwriting the stale verdict, then exiting
   non-zero — destroying the old result is the point, not a hazard. Give successes a matching positive field
   (`status: "OK"`) so the reader checks one field instead of inferring health from an empty findings array.
+- **A permanent red is a dead gate.** Before "fixing" a loud alarm, check whether it CAN ever go green.
+  171's P0 came from upstream DefiLlama data (`apyMean30d = 27421`) that regenerates daily and a product
+  gate (144's `mean30dSane`) that correctly suppresses it forever — so the alarm was structurally
+  unclearable. An unclearable alarm makes every genuinely-new finding arrive inside an already-non-zero
+  count. **But do not "fix" it by lowering severity globally**: separate the alarms that are red because
+  the *product* is broken (item 148's junk slugs — must stay red until a human decides) from those red
+  because the *detector* is wrong. Only the second kind gets downgraded.
+- **Don't let a sibling surface clear a suspect.** When mapping "suspect → the surface that verifies it",
+  match the EXACT rendered surface name. `pool-detail-360`/`-dark`/`-ko` belong to the anchor pool, not to
+  a promoted suspect; attributing them would be a false clear — the most dangerous bug this class can
+  produce, because it silences a real finding.
 - **Crash-before-write hides in the boring lines.** 149's was a module-level `require()` of a dependency
   that was declared *and* installed — just not where a fresh clone looks. Anything above the first write
   (imports, arg parsing, config reads) is in the danger zone; resolve it lazily or fail loudly.
@@ -61,4 +88,6 @@ if a run can END without writing its verdict, the *previous* verdict becomes the
 **Provenance:** item 141 (dead Google/Bing sitemap-ping step, specs/141.md); item 078 (dead
 `grep -c '<url>' sitemap.xml` health count in the daily commit message, first occurrence of this class);
 item 149 (`audit-app.js` crashing on `require('playwright')` in a fresh clone, writing no findings file so a
-crashed run read as "audit clean" — first *silent* occurrence, specs/149.md).
+crashed run read as "audit clean" — first *silent* occurrence, specs/149.md); item 171 (`audit-app.js`
+reporting a blocking P0 for `pool-prescan:mean30d-rail-breach` on a pool its own promoted render had just
+cleared — first *inverted* occurrence, a misleading RED rather than a misleading green, specs/171.md).
