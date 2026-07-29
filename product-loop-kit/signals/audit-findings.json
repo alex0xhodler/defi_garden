@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T00:57:27.540Z",
+  "generatedAt": "2026-07-29T04:38:58.407Z",
   "status": "OK",
   "playwright": {
     "source": "local",
@@ -87,7 +87,8 @@
       "broken-number-literal": 0,
       "absurd-magnitude": 0,
       "junk-slug": 7,
-      "zero-yield-claim": 0
+      "zero-yield-claim": 0,
+      "link-target-integrity": 0
     },
     "promoted": [
       "tokens/20261231",

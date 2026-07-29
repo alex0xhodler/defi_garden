@@ -227,6 +227,34 @@ you audited yesterday**, one class over. Three of the last four P0/P1s (148, 159
 generated surfaces on days the scanner reported nothing new, and 166 was found by re-opening the file 159
 had just fixed.
 
+**Check 10 has an HTML half, and it is 1,000× bigger than the text half (item 172, 2026-07-29).**
+169 gave `prescanTextSurfaces()` a `link-target-integrity` signal over **2** files. The generated **HTML**
+surface — 2,094 `tokens/*.html` + 89 `chains/*.html` — emits **~41,300** same-origin links, **4,989** of
+them `/?pool=<id>`, the exact hop an SEO lander must make to reach the north-star CTAs. `PRESCAN_SIGNALS`
+had no link signal at all. Three sub-rules port cleanly to HTML, and the porting is where the traps live:
+- **The allowed-param set depends on the link's PATH, not just the router.** `?key=` membership in
+  `ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {lang}` is the right rule only for links to `/`, where the IA
+  router arbitrates mode. A `/plan.html?…` link is the planner *by path*, so router membership says
+  nothing — the live surface emits `/plan.html?waitlist=1&src=seo_token` (item 062) and neither key is in
+  either router array. Single-source that half from `planner.js`'s own `urlParams.get('<key>')` call sites
+  rather than allow-listing the two keys, or the check rots the moment a third one appears. Links to a
+  fixed page (`/tokens/…`, `/chains/…`) have inert queries — skip them.
+- **Decode HTML entities before parsing a query string.** `href="/plan.html?waitlist=1&amp;src=x"` is
+  *correct* HTML. Splitting the raw attribute on `&` invents a phantom key `amp;src` — 2,183 fake findings
+  on this repo, measured. `&amp;` → `&` first, always.
+- **Do not validate `?pool=<id>` liveness against `data/pools-snapshot.json`.** The snapshot is the
+  ≥$10M-floored 745-pool set; token pages use a $100K floor over the full ~16,000-pool feed. Validating
+  one against the other reports **4,233 of 4,989** links dead — all false. Measured against a live
+  DefiLlama fetch the same day, the true number is **15** (0.3%, 14 pages), and it self-heals on the next
+  daily CI regen. Liveness is an *online* check; the offline prescan checks shape and on-disk existence
+  only. Generalised rule: **validate a generated link against the population its generator drew from, not
+  against whatever dataset is nearest to hand.**
+- The third sub-rule with no text-surface equivalent: **does the internal target exist on disk?**
+  (`/tokens/x` → `tokens/x.html` / `tokens/x/index.html`). Live risk class, because 030/032/033 drop a
+  page when its quality gate stops passing and 031 deletes stale pages, while 023's related-token
+  cross-links were minted when the neighbour still qualified. Measured 0 broken of ~41,300 today — which
+  is exactly why it needs a positive control before anyone calls it green.
+
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
 pre-traffic. Seeded from every mechanically-detectable bug caught this session. Item 157's prescan

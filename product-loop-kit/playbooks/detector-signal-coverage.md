@@ -18,6 +18,7 @@ Three consecutive instances in this repo, same shape every time:
 | 148 | `tokens/*.html` | one hand-picked page rendered | 7 junk slugs in the tail of 2,167 pages |
 | 159 → 160 | `llms.txt` | numbers + emptiness (`apy-rail-breach`, `broken-number-literal`, `tvl-floor-claim`, `empty-surface`) | 32 **mis-targeted links** (item 166) |
 | 166 → 167 | pool-detail | one hardcoded flagship pool (`PREFERRED_POOL_ID`) | every real bug was on a non-flagship pool (122/144/145/165) |
+| 169 → 172 | `tokens/*.html` + `chains/*.html` | slugs + numbers (`junk-slug`, `zero-yield-claim`, `broken-number-literal`, `absurd-magnitude`) | **~41,300 links never looked at**, incl. the 4,989 `?pool=` hops into the north-star surface — the same class 169 had just closed on the *text* surfaces two files away |
 
 Each fix was specced from the previous bug, so each new checker inherited the previous bug's *shape*:
 number bug → number detectors; one-page audit → one-page audit. Item 169 is the text-surface twin of 167.
@@ -82,6 +83,17 @@ number bug → number detectors; one-page audit → one-page audit. Item 169 is 
   `(+N more)` tail. A rule that stops scanning at its first hit reports "1 conflict" on a file with ten and
   looks identical to a healthy file that has one. Caught by the verifier in 169 with a two-group synthetic
   fixture — worth making that fixture the standard probe for any new aggregate signal.
+
+- **"One family per item" has a companion rule: WRITE DOWN the families you deferred, with their size.**
+  169 deferred HTML correctly and said so in one clause of its non-goals (`specs/169.md:41`). That clause
+  was the whole evidence base for 172 the next week — the deferral is only useful if the next reader can
+  find it and price it. State the deferred family AND a number (`prescanStaticPages` covers 2,183 files vs
+  `prescanTextSurfaces`'s 2), so the follow-on is rankable instead of rediscovered.
+- **When you port a signal to a new surface family, re-derive the rule from that surface's own semantics.**
+  A ported rule that reads identically is usually wrong: rule (a) on text surfaces is "is this key routed?",
+  which on HTML splits by link path (`/` → the router arbitrates; `/plan.html` → the path already decided;
+  `/tokens/…` → the query is inert). The port that copies the predicate instead of the *question* produces
+  a detector that is simultaneously too tight and too loose. See `product-audit.md` check 10's HTML half.
 
 **Provenance:** distilled from item 169 (`specs/169.md`, `169-notes.md`) — the `link-target-integrity` signal —
 generalising the pattern named in its backlog row and previously hit by items 148 → 159/160 → 166/167.
