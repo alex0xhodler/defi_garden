@@ -185,3 +185,61 @@ re-apply, because `BACKLOG.md`, `LOG.md`, `LEARNINGS.md` and the playbooks are a
 loops write. This is the 2026-07-26 "two build runs built 148" failure in a new costume: the shared
 bookkeeping files are the contended resource, and a heartbeat that never re-reads them will clobber whatever
 shipped while it was thinking.
+
+## 2026-07-29 · EXPERIMENTS · Four windows closed — three at n≈0, one real
+Measured from `signals/2026-07-29.md` (prod-filtered Mixpanel, project 4042048).
+- **094** (pool-row protocol/chain logos, shipped 07-15) → **INCONCLUSIVE at n≈0.** Prod `pool_view` 30d = 6,
+  `pool_click` = 1. Kept.
+- **114** ("Welcome back" saved-garden re-entry card, shipped 07-15) → **INCONCLUSIVE at n≈0.** Prod
+  `plan_created` 30d = 3, all pre-window; no planner session since 07-19. Kept.
+- **115** (honest `.ics` "tend your garden" reminder at bloom, shipped 07-15) → **INCONCLUSIVE at n≈0.**
+  Prod `tend_reminder_added` 30d = **0** against 3 `plan_created`. Built, instrumented, three chances to
+  fire in thirty days. Kept.
+- **149** (`audit-app.js` self-heal + fail-loud in a fresh clone) → **MOVED. DONE.**
+
+**The takeaway that matters is the asymmetry, not the four verdicts.** Three of these were product
+experiments and all three closed unreadable; the one that closed with a real verdict (149) was an
+*internal-tooling* item whose evidence is produced by the loop's own run rather than by users. At ~6
+sessions/day, that will be true of every product experiment for the foreseeable future. Consequence for
+spec-writing, applied not proposed: 173/174 were written with **traffic-gated** windows (hold until ≥30
+`page_view` on the SEO surface) and a decision rule of *keep unconditionally, the metric read is
+informational* — because a page that promises 33 pools and delivers 0 is broken at any traffic level, and
+pretending a calendar window will adjudicate it is theatre.
+
+## 2026-07-29 · PRODUCT · A link check has three levels, and we keep building level 1
+`prescanStaticPages()` scanned 2,200 pages and returned 7 suspects, all `junk-slug`. **172's
+`link-target-integrity` signal — shipped that same morning — scored 0 on the 2,200 pages carrying 1,749
+dead CTAs** (item 173, found by hand hours later). Not a defect in 172: it was specced from 166, where a
+broken link meant *an unrouted query param*, so it checks param membership. `?chain=Cardano` is perfectly
+routed. It just returns nothing.
+
+**148 → 159 → 166 → 173: four consecutive P0/P1s where the checker's signal set was drawn from the shape of
+the previous bug.** The loop has now recorded "the next bug is in the class nobody has been bitten by yet"
+three times without escaping it. The escape attempt is to stop enumerating instances and name the axis:
+
+1. **Routed** — is the param one the router recognises? (`?search=` was not → 166. 172 automates this.)
+2. **Resolvable** — does the value name a real entity: a pool id, a project slug, a preset key?
+   (Checked by hand this tick across `llms*.txt`: 40 links, 0 misses. Nothing automates it.)
+3. **Non-empty** — does the target, **under its own default filters**, return what the linking page claims?
+   (Nothing checks it. All 1,749 of 173 live here.)
+
+Level 3 is the only level that can catch a defect where **both surfaces are individually correct and the
+contract between them is broken**. That is exactly 173: the page is right about its own $100K set, the app
+is right about its $10M default, and the link between them is a lie. A checker that only ever validates one
+surface against itself is structurally incapable of seeing this class — which is why four rounds of adding
+signals has not helped. → item **175**, whose decision rule tests the *strategy*: if the next link-class bug
+is again found by hand first, stop extending signals and redesign the checker.
+
+**Generalised trap (sibling of `dual-source-logic-divergence.md`): whenever two artifacts in this repo are
+built from the same data by different code paths, the bug is in the CONTRACT, not in either path.** The
+$100K/$10M mismatch had been live since the SEO surface existed, survived items 133, 148, 154, 157, 159,
+166, 167, 172 — every one of which touched either the generators or the checker — because each of them
+audited one side.
+
+## 2026-07-29 · SIGNAL HYGIENE · The prod filter is what makes the guardrail claim true
+Ran the daily-trend query twice: once with `$current_url contains www.defi.garden`, once without.
+Unfiltered, 07-15 shows `session_start` 40 and **`error_occurred` 3**. Filtered, 07-15 shows 5 and **0**.
+The three errors are localhost/preview traffic — our own dev sessions.
+A heartbeat that drops the prod filter reports a phantom error spike and breaks its own guardrail streak;
+one that never runs the unfiltered control cannot tell a real prod-zero from a filter typo that silently
+matches nothing. **Run both, record both, claim only the filtered one.** Now part of `product-audit.md`.
