@@ -18,7 +18,7 @@ const os = require('os');
 const path = require('path');
 const {
   runAudit, classifyCtaKind, computeRotation, readBakedProtocolUrls,
-  readStaticProtocolUrls, projectHasUrl
+  readStaticProtocolUrls, projectHasUrl, ROTATION_SEEN_CAP
 } = require('./audit-app.js');
 
 const ROOT = __dirname;
@@ -246,6 +246,25 @@ async function main() {
       try { fs.unlinkSync(outPath1); } catch (e) {}
       try { fs.unlinkSync(outPath2); } catch (e) {}
     }
+  });
+
+  await test('invariant (operator review round 2): ROTATION_SEEN_CAP exceeds the REAL rotation-candidate population, or the wrap branch is dead code on real data', () => {
+    // Reads data/pools-snapshot.json directly (not a fixture) — this
+    // assertion's whole point is catching real-data scale, exactly the class
+    // of bug a 20-pool fixture cannot see (a cap of 500 passed every fixture
+    // test in this file while being silently unreachable against the real
+    // ~735-candidate population).
+    const snapPath = path.join(ROOT, 'data', 'pools-snapshot.json');
+    const snap = JSON.parse(fs.readFileSync(snapPath, 'utf8'));
+    assert(Array.isArray(snap.pools) && snap.pools.length > 0, `expected a non-empty real pools array at ${snapPath}`);
+    // Upper bound on the real rotation-candidate population: total pools
+    // minus nothing (candidates are strictly pools MINUS the anchor and any
+    // promoted ids, so the true candidate count is always <= this) — using
+    // the raw pool count keeps this assertion conservative and independent
+    // of buildPoolSurfaces()'s own promotion/anchor logic.
+    const realPoolCount = snap.pools.length;
+    assert(ROTATION_SEEN_CAP > realPoolCount,
+      `ROTATION_SEEN_CAP (${ROTATION_SEEN_CAP}) must exceed the real snapshot pool count (${realPoolCount}) or computeRotation()'s wrap branch can never fire on real data — raise the cap (or derive it from the snapshot size) before this ships`);
   });
 
   await test('runAudit(): rotation state is bounded — an oversized prior seen[] is trimmed, drop-oldest, to the cap', () => {

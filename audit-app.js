@@ -223,10 +223,21 @@ const FALLBACK_HINT_MARKERS = [
 // rotation state costs zero additional deploys (spec 183 T5 / the 087
 // churn-trap precedent) rather than a new commit cadence.
 const DEFAULT_ROTATION_STATE_PATH = path.join(ROOT, 'product-loop-kit', 'signals', 'audit-rotation.json');
-// Bounded, drop-oldest on overflow (spec 183 §1) — comfortably above the
-// rotation sample size so it takes many runs to fill, well under the 737-pool
-// snapshot so the file never grows unbounded.
-const ROTATION_SEEN_CAP = 500;
+// Bounded, drop-oldest on overflow (spec 183 §1). INVARIANT (operator
+// review, round 2): this MUST stay strictly greater than the real
+// rotation-candidate population (snapshot pool count minus the anchor and
+// any prescan-promoted ids — 737 pools on this checkout, so ~735 candidates)
+// or `unseen` can never reach zero, `computeRotation()`'s wrap branch (and
+// therefore `cycle` ever incrementing, and the "log the rotation position so
+// a reader can tell coverage from luck" signal) becomes permanently dead
+// code on real data — a cap of 500 against ~735 candidates was exactly this
+// bug. 2000 gives headroom for real snapshot growth while staying a bounded,
+// small file (~40 bytes/id ⇒ ~80KB at the cap) that costs nothing extra to
+// commit (the file already rewrites daily). test_audit_cta_provenance.js
+// asserts this invariant against the REAL data/pools-snapshot.json so a
+// future snapshot outgrowing the cap fails loudly instead of silently
+// killing the wrap branch again.
+const ROTATION_SEEN_CAP = 2000;
 
 // Non-HTML text-surface prescan (backlog 160): llms.txt/llms-full.txt are
 // generated/committed/served surfaces prescanStaticPages() never reads
@@ -2116,6 +2127,27 @@ async function main(browser, baseUrl, s, ctx) {
   // observed yet); setupRoutes()'s listeners below mutate this in place as
   // the page loads. Only the pool-detail driver reads it, but it costs
   // nothing to track on every surface.
+  //
+  // Why 'absent' at classification time is safe to trust as "never arrived"
+  // (operator review, round 2 — the environment branch's only legitimate
+  // entry): app.js fires the `/data/protocol-urls.json` fetch unconditionally
+  // at PoolDetail mount with NO delay (app.js ~1276, "must win the race
+  // against the multi-MB live /pools fetch"), and setupRoutes() registers NO
+  // `page.route` for that URL — it is never intercepted, so it always falls
+  // through to the audit's own local static server (startServer() above),
+  // which answers every request synchronously via fs.readFile. There is no
+  // real network hop, no real host that can silently swallow the request, so
+  // a real run always eventually produces a 'response' (ok or non-2xx) event
+  // for it. The one real risk is a MEASUREMENT race, not a network one:
+  // `waitForSelector('.pool-detail-view', ...)` can resolve on the page's
+  // very first paint, before the mount effect above has even called
+  // `fetch()` — reading `ctaProvenance` at that instant would see 'absent'
+  // even though the fetch is about to succeed, misreporting a timing
+  // artifact as "blocked". The classification site below closes exactly
+  // this gap with a short settle-wait (this file's own trap #2 pattern —
+  // poll before asserting) so 'absent' AT THE POINT OF CLASSIFICATION really
+  // does mean "never arrived within a generous window", matching what the
+  // environment branch's wording describes — not "we sampled too early".
   const ctaProvenance = { bakedProtocolUrls: 'absent', dynamicProtocols: 'absent' };
 
   try {
@@ -2365,6 +2397,20 @@ async function main(browser, baseUrl, s, ctx) {
     if (ctaShape !== 'protocol') {
       // Provenance is only computed when the CTA is NOT the real one — a
       // clean real-CTA render needs no explanation.
+
+      // backlog 183 — settle-wait closing the initial-paint race documented
+      // at ctaProvenance's declaration above: only pay this when the value
+      // is STILL 'absent' by the time we get here (rare — several CDP
+      // round-trips for auditText()/the primary-CTA checks/the shape read
+      // already elapsed first), and it resolves near-instantly in the
+      // common case since the fetch target is our own local server, not a
+      // real network hop. 2s is generous, not a real-world budget: it only
+      // ever gets spent on the rare pool that both races AND ends up
+      // degraded.
+      if (ctaProvenance && ctaProvenance.bakedProtocolUrls === 'absent') {
+        await pollFor(page, async () => ctaProvenance.bakedProtocolUrls !== 'absent', 2000);
+      }
+
       const poolIdMatch = s.url.match(/[?&]pool=([^&]+)/);
       const currentPoolId = poolIdMatch ? decodeURIComponent(poolIdMatch[1]) : null;
       const currentPool = currentPoolId && ctx.poolsById ? ctx.poolsById.get(currentPoolId) : null;
@@ -2772,7 +2818,11 @@ module.exports = {
   // classifier and the rotation picker directly as pure functions, exactly
   // how reconcilePrescanFindings() is already exported for 171's tests.
   classifyCtaKind, computeRotation, readBakedProtocolUrls, readStaticProtocolUrls,
-  projectHasUrl, readRotationState
+  projectHasUrl, readRotationState,
+  // backlog 183 — exported so test_audit_cta_provenance.js can assert the
+  // cap-must-exceed-real-population invariant directly against
+  // data/pools-snapshot.json (see ROTATION_SEEN_CAP's own comment).
+  ROTATION_SEEN_CAP
 };
 
 if (require.main === module) {
