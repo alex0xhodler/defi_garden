@@ -109,7 +109,13 @@ excerpt byte-untouched (`test_audit_text_surfaces.js:302`/`:325`). Never delete 
 - Item 175 (2026-07-29) — the level-3 signal that finds this class; `specs/175.md` T1/T2/T4/T6.
 - Item 180 (2026-07-30) — 63 dead llms links, the retarget/omit/ladder repair and the two rails;
   `specs/180.md`, `specs/180-notes.md` (deviation 1 = the dual-population finding in step 7).
-- Item 181 (open) — the drift-lifecycle question this playbook's step-8 gate is designed to answer for
-  generated links: repair at emit time, on every bake, not once at mint time.
+- Item 181 (2026-07-30) — ANSWERED the drift-lifecycle question this playbook's step-8 gate was designed
+  to raise, and the answer is that **emit-time repair cannot reach this class**: at bake time a page's CTA
+  is alive by construction (the page exists only because >=1 pool cleared the floor), so mint time and
+  emit time are the same instant and there is nothing to repair. The dead links appear *between* bakes,
+  from pools oscillating across a zero-margin threshold, and resolve at the next one. When a dead
+  generated link is real, this playbook applies; when its failing SET churns between runs on an unchanged
+  tree, it is drift — go to `pre-existing-red-triage.md` decision rule **E** instead of repairing
+  anything.
 - Sibling playbooks: `seo-surface-regen-delta.md` (step 9), `detector-signal-coverage.md` (how the signal that
   finds this class gets built), `stated-threshold-copy.md` (why a floor may not be re-typed).

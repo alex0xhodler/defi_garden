@@ -4,9 +4,10 @@
 or your notes are about to contain the phrase *"PRE-EXISTING, proven on a stashed baseline, not fixed
 (scope creep)"*. Also: when `npm test` stops early and the files after the stopper never run.
 
-**Answer in one line:** proving it's pre-existing is only HALF the job — a red on `main` is either a
-**real product regression the test correctly caught** (fix it, it is a product bug) or a **stale test
-encoding an IA/behavior the product deliberately moved away from** (retire/repoint the test), and
+**Answer in one line:** proving it's pre-existing is only HALF the job — a red on `main` is a **real
+product regression the test correctly caught** (fix it, it is a product bug), a **stale test encoding an
+IA/behavior the product deliberately moved away from** (retire/repoint the test), or a verdict that is
+**not a function of the repository at all** (rule E — split the gate, never delete the measurement), and
 leaving it unclassified silently blinds every `&&`-chained test after it for months.
 
 ## Steps
@@ -36,6 +37,18 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
      → **Repoint** the control at a still-ungated field, and **convert the old injection into a
      negative control** asserting zero findings — that turns the rail that broke your test into the
      thing the test now protects. Deleting the case throws away both.
+   - **Decision rule E — external-data drift** (item 181): the assertion is evaluated against a
+     **live third-party feed at read time** while the thing it judges is **committed bytes**, so the
+     verdict is not a function of the repository at all. Tell it apart from A/B in one probe, and do it
+     BEFORE reading any code: **re-run the same assertion twice, hours apart, on an unchanged tree, and
+     compare the failing SET, not the count.** Same count with different members = drift. Item 181's
+     four runs over 15h gave `{kvcm,ripe}` → `{ankravax,gitc,mchc,n3xt,wmetax,zeal,zro}` → 5 of those →
+     `{cate,cnx,gitc,hahype,mchc,n3xt,wmetax,zro}`, with two members coming back *alive* and no commit
+     in between. Second tell: the generator's own predicate, re-run on today's feed, **agrees** with the
+     gate — they are only read at different instants.
+     → The defect is the **gate's pass condition**, not the product and not a stale assertion. Split the
+     verdict into what the repo decides (fatal at any count) and what the feed decides (bounded budget,
+     always printed) — see Resolution E.
 4. **Check whether the red also hides a live product defect.** A freshness/wiring gate that is red is
    often a symptom, not the bug: `test_minified_assets.js` failing meant prod was actually *serving the
    raw bundles* (~159 KB extra on the north-star surface), not merely that a test was unhappy.
@@ -53,7 +66,25 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
   added `/plan.html` so the planner render path kept its three-viewport coverage. Prefer `data-testid`
   hooks over class-shape selectors when you repoint, so the new assertion isn't the next stale one.
 - **C** → fixture-route, same-item is fine if it's the test you're already touching.
-- In all three: if the red sat in an `&&` chain, say in LOG.md how far the chain gets *after* your fix
+- **E** → **do not delete the measurement and do not relax the number.** Re-express the one assertion as
+  three classes, each with the fatality its cause deserves (item 181, `test_seo_cta_targets.js`):
+  1. **contract** — everything decidable from the repo alone (malformed link, wrong/missing threshold
+     param, a link whose param doesn't belong to the page it sits on): **fatal at any count > 0**. Take
+     the opportunity to ADD the sub-checks the old single-class assertion never made; a split that
+     doesn't grow the repo-decidable set is a relaxation wearing a refactor's clothes.
+  2. **staleness** — the failure mode the drift explanation would otherwise excuse forever. Anchor it on
+     a freshness signal the artifact carries *itself* (these pages render `Last updated <date>`, the same
+     string as their `dateModified`), and fail when a dead artifact is older than one regen cadence plus
+     one missed run. Drift cannot produce this; a broken regen can only produce this. Unparseable
+     freshness on a dead artifact = fatal, never a pass.
+  3. **drift** — bounded, always printed with the per-item numbers that let a reader see oscillation vs
+     decay (best live value + signed distance from the threshold). The budget must be **derived from
+     measurement and stated with its derivation** (181: worst observed 0.37% → budget 1.0%, ~2.7×
+     headroom, while the regression class it must still catch was 79.5% — 80× the budget).
+  Ship pure `classify()`/`verdict()` functions plus **self-checks on synthetic fixtures that run before
+  any network call**, one per class, proving each can still go red without mutating a committed artifact.
+  That is the only thing standing between "made the gate honest" and "made the red go away."
+- In all of them: if the red sat in an `&&` chain, say in LOG.md how far the chain gets *after* your fix
   and which file is the next stopper — the next loop inherits the fact instead of rediscovering it.
 
 ## Traps
@@ -71,6 +102,9 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
   all three viewports while only the bare-`/` cases timed out — a blocked sandbox cannot fail one route
   and pass another in the same browser. Environment reds are indiscriminate; stale-assertion reds are
   surgical.
+- **Calling drift what is actually a regression, by looking at the count instead of the members.** Rule E
+  is the most abusable rule here: it is the one that ends in "and that is fine." Earn it with two runs
+  hours apart on an unchanged tree showing the failing SET churn — never with one run and an argument.
 - **A red gate you can't see past looks like a green suite.** `npm test` exiting 1 at file 6 of 90 reads
   the same as file 90 failing — always report the *position*.
 - **A test asserting the old IA will look like a product bug.** `test_smoke.js` *used to* assert that
@@ -206,3 +240,21 @@ three product-change causes here are the same omission, and the cost lands on wh
 gate. The item's own two genuine findings (occluded static hub links in landing mode; `/plan.html`
 carrying no hub-link surface) were surfaced by a builder refusing to adjust a red expectation to match
 observed output — the discipline that keeps "make it green" from eating a real defect.
+
+Decision rule **E** and its resolution added from item **181** (2026-07-30) — the class the previous four
+rules had no slot for, and which three consecutive runs (175, 177, 180) each hand-baselined as
+"pre-existing" without classifying. `test_seo_cta_targets.js` asserted *"zero generated pages whose CTA
+returns 0 pools"* against a **live** DefiLlama read, over **committed** static pages baked ~once a day
+(`sitemap-update.yml`, dispatched ~05:20 UTC, every run `success`). Both halves were correct and the gate
+was still unsatisfiable: `generate-token-pages.js:986-991` wipes and re-mints every bake, so nothing
+lingers, but the mint predicate is a hard `tvlUsd >= $100,000` with **zero margin**, and five of seven
+dead pages sat within **7%** of that line (two within 1%, two already back above it hours later). **The
+tell that generalises beyond this repo: compare failing sets across runs, not counts** — a stable count
+with churning membership is drift, and no amount of code reading will show it to you. The two obvious
+"fixes" were both rejected on documented grounds and are worth knowing before you re-derive them: mint
+hysteresis cannot remove the window (only its frequency), makes the generator stateful, and shrinks
+future SEO surface — the NEVER-list question item 148 sat blocked on for five runs; and baking more often
+buys ~4× at the cost of a Vercel deployment per bake, which the 2026-07-13 standing decision exists to
+prevent. Note what E does **not** license: the user-facing half (a reader clicking into an empty grid
+while the pool is under the floor) stayed filed as item 133 / PR #332 leg C. Reclassifying a red as drift
+excuses the *gate*, never the product.
