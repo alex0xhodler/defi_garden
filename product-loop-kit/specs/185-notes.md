@@ -60,26 +60,69 @@ this run.)
 
 test_seo_surface_audit.js: 8 passed, 0 failed
 ```
-Wall time (`time timeout 290 node test_seo_surface_audit.js`):
+Wall time, **final clean re-run** (`time timeout 290 node test_seo_surface_audit.js`,
+verified in isolation — see §1a below on why "final" matters here):
 ```
-real  1m55.312s
-user  0m18.190s
-sys   0m7.260s
+real  1m45.810s
+user  0m16.426s
+sys   0m6.602s
 ```
 Well inside the 5-minute foreground timebox (acceptance criterion 11).
 
-`test_audit_prescan.js` wall time (`time timeout 290 node test_audit_prescan.js`,
-re-run standalone for this figure):
+`test_audit_prescan.js` wall time, final clean re-run
+(`time timeout 290 node test_audit_prescan.js`):
 ```
-real  1m43.711s
-user  0m18.684s
-sys   0m4.510s
+real  1m44.139s
+user  0m18.556s
+sys   0m5.371s
 ```
 Well inside the 5-minute foreground timebox. (The bulk of this wall time is
 the pre-existing Chromium-driven criteria 3/4/6 probe-page renders, unchanged
 by this item; the new Leg A non-vacuity cases are pure fs/string-scan and add
 negligible time — confirmed by their sub-second pass times in the console
-output above.)
+output above.) Both figures were captured in dedicated, isolated `time`-prefixed
+runs with nothing else in flight (see §1a) and are the numbers to trust; two
+earlier same-day timings (1m55.312s / 1m43.711s / 1m51.567s across three prior
+attempts) are consistent with these within normal variance and are not
+separately listed.
+
+### 1a. A stray background process from a resumed session corrupted one
+intermediate re-run — caught, cleaned, and re-verified
+
+Partway through re-verification, a second re-run of both files (issued to
+double-check the numbers above) produced `test_audit_prescan.js: 42 passed, 1
+failed` and a hard crash (`Node.js v22.22.2`, uncaught exception) in
+`test_seo_surface_audit.js`, plus **two leftover untracked fixture
+directories** (`_audit_seo_fixture_185_7020/`, `_audit_seo_fixture_185_3573/`)
+and one leftover probe file (`tokens/_audit_probe_2538.html`) after the crash.
+
+Root cause, confirmed via `ps aux`: a **separate, already-running** `node
+test_seo_surface_audit.js` process (pid 3573, parent bash pid 2180, tagged
+`--session-mode resume-cached`) was alive in the container from a resumed
+session state, executing the *same* verification commands independently and
+writing its own log to this session's scratchpad. It was already holding the
+8901-8908 test ports when this build's own re-run tried to bind the same
+ports, producing an `EADDRINUSE`-class crash (an unhandled `'error'` event on
+`http.Server`, which throws and aborts the whole process before the test
+file's `finally` block can run — the same reason its fixture and probe files
+were left behind uncleaned).
+
+**This was not caused by anything in the Leg A/B/C changes themselves** — it
+is a test-port collision between two independently-running copies of the same
+unmodified test infrastructure (this exact race would happen to the
+*pre-change* files too, given two overlapping invocations). No product/test
+logic bug. Remediation: the stray processes were killed
+(`kill -9 2180 3571 3573`), the three leftover untracked
+paths were removed (`rm -rf`/`rm -f`), all 15 relevant ports were confirmed
+closed, and **both files were then re-run once more, in isolation, from a
+verified-clean process table** — the `43 passed, 0 failed` /
+`8 passed, 0 failed` / wall-time figures recorded throughout this document are
+from that final clean pair of runs, with `git status --porcelain` confirmed
+empty immediately afterward. Flagged here in full rather than silently
+re-running past it, since a mid-run crash and leftover untracked files are
+exactly the kind of thing this item's own acceptance criteria (5, "no
+untracked file...anywhere else outside the intended diff") are designed to
+catch.
 
 ## 2. Non-vacuity mutations run, and their results
 
