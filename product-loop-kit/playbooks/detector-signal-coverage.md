@@ -199,9 +199,54 @@ changed.
   product behaviour *and* means half the north star is absent on that page. Both are true; the detector's
   job is to say so, not to pick a side.
 
+## Level 2 needs a LIVE population — and shipping it green is the normal outcome (item 184)
+
+**When:** you are building level 2 (`resolvable`) for a value class whose entity set lives off-repo — pool
+ids, protocol slugs — rather than in a committed file.
+
+**Answer in one line:** resolve against the **live** feed, never the committed snapshot, and classify every
+miss with 181's contract/stale/drift split before deciding the gate's verdict; a level-2 gate that ships
+**green** is the expected result, not a wasted item.
+
+**Steps:**
+1. **Pick the population deliberately.** `data/pools-snapshot.json` is pre-filtered to the app's $10M floor —
+   validating ids against it is the class-10 trap (item 175 measured ~4,233 false positives). Level 2 for
+   pool ids means a live `https://yields.llama.fi/pools` fetch. Node-side network is open (2026-07-12
+   standing decision); browser-originated is not.
+2. **Never let a fetch failure pass the gate silently.** Three states, not two: `ran` · `unrun` (requested,
+   failed → blocking finding) · `not requested` (kill switch → silent). Collapsing `unrun` into
+   `not requested` turns a network blip into a green gate.
+3. **Split repo-decidable from live-decidable before you write a single threshold.** Anything invariant to
+   live data (malformed id shape; a link the page's own rows do not back) is `contract` — fatal at count 1,
+   because no data change can cause or cure it. Everything else goes through 181's stale/drift split.
+4. **Decision rule for a new fatal contract rule:** measure it over the whole estate first. If it holds at
+   **100% today**, ship it fatal (181's own branch condition). If it does not, it is a repair item, not a
+   gate rule.
+5. **Reuse the budget, never restate it.** One `DRIFT_BUDGET_FRACTION`, imported. If the denominator differs
+   from the original surface's (184 counts distinct link *ids*; 181 counts *pages*), say so at the call site
+   — an honest reuse, not a silent one.
+6. **Expect the measured numbers to have moved since the spec was written.** Re-measure, publish both, and
+   account for the delta. 184's spec found 4 dead links; the build found 1, and *not one of the same four* —
+   the daily bake had resolved them. Zero set overlap between two measurements on an unchanged tree is the
+   signature of drift, and it is evidence, not noise.
+
+**Traps:**
+- **Repairing instead of gating.** If the dead set is inside the drift budget, regenerating the surface to
+  make the gate green ships a repair and leaves the gate unbuilt — the opposite of the item. `git diff` over
+  the generated dirs must be **0 lines**.
+- **A green gate nobody has seen fail.** Prove non-vacuity three ways: synthetic cases per class, the real
+  corpus asserted green, and a **copy** of a real page broken in a scratch dir — then assert the original's
+  md5 is unchanged, so the proof can never have come from editing the estate.
+- **Registration is part of shipping.** `run-tests.js` parses the exact chain out of `package.json`'s
+  `test:serial`; it does **not** glob `test_*.js`. An unregistered test file is a gate that never runs.
+  Note also that `classifyLane()` is *transitive* — a Node-only test that requires `audit-app.js` lands in
+  the **browser** lane. State the lane; do not report plain-lane coverage you do not have.
+
 **Provenance:** distilled from item 169 (`specs/169.md`, `169-notes.md`) — the `link-target-integrity` signal —
 generalising the pattern named in its backlog row and previously hit by items 148 → 159/160 → 166/167.
 Extended by item 175 (`specs/175.md` Territory notes T1–T8, `175-notes.md`): the three-level model, the
 population-completeness rule, and the stale-clean-assertion trap. Extended by item 183 (`specs/183.md`
 Territory notes T1, `183-notes.md`): the repair-blinds-the-detector inverse case and the shape-first
-severity rule.
+severity rule. Extended by item 184 (`specs/184.md`, `184-notes.md`, `184-pr.md`): level 2 over the HTML
+estate — live-population selection, the three run-states, the 100%-today branch condition for a fatal
+contract rule, and the "ship it green, prove it can go red" standard.
