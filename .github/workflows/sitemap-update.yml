@@ -10,6 +10,7 @@ on:
     paths:
       - 'generate-sitemap.js'
       - 'generate-pools-snapshot.js'
+      - 'generate-protocol-urls.js'
       - 'compute-kpis.js'
       - 'generate-token-pages.js'
       - 'generate-chain-pages.js'
@@ -71,6 +72,12 @@ jobs:
         echo "📸 Generating static pools snapshot + per-chain/token slices..."
         node generate-pools-snapshot.js --seo-out "$RUNNER_TEMP/seo-pools.json"
         echo "✅ Pools snapshot generation completed"
+
+    - name: Generate protocol URLs (backlog 182 — CI-baked north-star CTA URL map)
+      run: |
+        echo "🔗 Generating baked protocol-URL map..."
+        node generate-protocol-urls.js
+        echo "✅ Protocol URL generation completed"
 
     - name: Compute KPIs + retain history (backlog 087 — data-layer leg 2 phase 0; 110 — read from D1 when provisioned)
       env:

@@ -120,6 +120,55 @@ function PoolDetail({
   var protocolUrl = getProtocolUrl(pool);
   var protocolUrlWithRef = getProtocolUrlWithRef(pool);
 
+  // spec 182 leg D — renders EITHER the existing protocol CTA (byte-identical
+  // behaviour/copy) when protocolUrlWithRef resolves, OR an honest DefiLlama
+  // fallback when every getProtocolUrl() tier returns null (sdai today, and
+  // any future true-null protocol). Reuse over duplication (2026-07-10
+  // directive): one helper used at both the hero and repeat-footer CTA
+  // sites, which differ only by `placement` ('hero' | 'repeat_footer') — that
+  // becomes both the ctaPlacement analytics prop and this function's arg.
+  // Returns an array of the two child elements (button + hint) so a call
+  // site can splice them in with `...renderProtocolCtaBlock('hero')`.
+  function renderProtocolCtaBlock(placement) {
+    if (protocolUrlWithRef) {
+      return [React.createElement('button', {
+        className: 'cta-button-protocol',
+        onClick: () => {
+          if (typeof Analytics !== 'undefined') {
+            Analytics.trackPoolClick(pool, 'protocol_link', {
+              ctaPlacement: placement
+            });
+          }
+          window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
+        }
+      }, t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`, ' ↗'), React.createElement('p', {
+        className: 'pool-action-hint pool-action-hint--muted'
+      }, t ? t('opensProtocol') : 'Opens protocol · Wallet required')];
+    }
+
+    // True-null case (spec 182 leg B): an honest labelled link to the pool's
+    // DefiLlama page instead of empty space. Must NOT impersonate the
+    // protocol CTA (different copy) and must NOT inflate the north star:
+    // fires 'defillama_fallback', never 'protocol_link' — reusing that value
+    // here would silently redefine the north-star metric. Reuses
+    // `.cta-button-protocol` / `.pool-action-hint--muted` verbatim — zero new
+    // CSS (Territory note T5 — both classes already exist for exactly this).
+    var defillamaUrl = 'https://defillama.com/yields/pool/' + encodeURIComponent(pool.pool);
+    return [React.createElement('button', {
+      className: 'cta-button-protocol',
+      onClick: () => {
+        if (typeof Analytics !== 'undefined') {
+          Analytics.trackPoolClick(pool, 'defillama_fallback', {
+            ctaPlacement: placement
+          });
+        }
+        window.open(defillamaUrl, '_blank', 'noopener,noreferrer');
+      }
+    }, t ? t('viewOnDefillama') : 'View this pool on DefiLlama', ' ↗'), React.createElement('p', {
+      className: 'pool-action-hint pool-action-hint--muted'
+    }, t ? t('opensDefillamaFallback') : 'No protocol link available · Opens DefiLlama, our data source')];
+  }
+
   // Determine pool type (must be defined before getRiskAssessment) — single
   // shared classifier (spec 130); same categories as the analytics grid.
   var poolType = getPoolTypeShared(pool);
@@ -526,20 +575,9 @@ function PoolDetail({
   }, showConcreteCta ? t ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS) : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y` : t ? t('gardenThisPoolCta') : 'Garden this pool →'), React.createElement('p', {
     className: 'pool-action-hint'
   }, t ? t('plannerCtaHint') : 'No wallet needed'),
-  // Secondary — protocol link (text only)
-  protocolUrlWithRef && React.createElement('button', {
-    className: 'cta-button-protocol',
-    onClick: () => {
-      if (typeof Analytics !== 'undefined') {
-        Analytics.trackPoolClick(pool, 'protocol_link', {
-          ctaPlacement: 'hero'
-        });
-      }
-      window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
-    }
-  }, t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`, ' ↗'), protocolUrlWithRef && React.createElement('p', {
-    className: 'pool-action-hint pool-action-hint--muted'
-  }, t ? t('opensProtocol') : 'Opens protocol · Wallet required')))),
+  // Secondary — protocol link, or an honest DefiLlama fallback when
+  // no protocol URL resolves at all (spec 182 leg B/D).
+  ...renderProtocolCtaBlock('hero')))),
   // Honest mini-projection — always visible, never collapsed. LEADS the page
   // body (129): the 5y compounded outcome is the yield-funded headline, shown
   // before the small-absolute-$ daily/monthly cards which read as underwhelming
@@ -1429,20 +1467,9 @@ function PoolDetail({
   }, showConcreteCta ? t ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS) : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y` : t ? t('gardenThisPoolCta') : 'Garden this pool →'), React.createElement('p', {
     className: 'pool-action-hint'
   }, t ? t('plannerCtaHint') : 'No wallet needed'),
-  // Secondary — protocol link (repeat)
-  protocolUrlWithRef && React.createElement('button', {
-    className: 'cta-button-protocol',
-    onClick: () => {
-      if (typeof Analytics !== 'undefined') {
-        Analytics.trackPoolClick(pool, 'protocol_link', {
-          ctaPlacement: 'repeat_footer'
-        });
-      }
-      window.open(protocolUrlWithRef, '_blank', 'noopener,noreferrer');
-    }
-  }, t ? t('startEarningOn', pool.project) : `Start Earning on ${pool.project}`, ' ↗'), protocolUrlWithRef && React.createElement('p', {
-    className: 'pool-action-hint pool-action-hint--muted'
-  }, t ? t('opensProtocol') : 'Opens protocol · Wallet required')));
+  // Secondary — protocol link, or an honest DefiLlama fallback when no
+  // protocol URL resolves at all (spec 182 leg B/D), repeated.
+  ...renderProtocolCtaBlock('repeat_footer')));
 }
 
 // Simple fade-in animation for calculator

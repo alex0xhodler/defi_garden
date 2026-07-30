@@ -870,11 +870,14 @@ function App() {
   var [selectedPool, setSelectedPool] = useState(null);
   var [investmentAmount, setInvestmentAmount] = useState(1000);
   var [dynamicProtocolUrls, setDynamicProtocolUrls] = useState({});
+  var [bakedProtocolUrls, setBakedProtocolUrls] = useState({}); // spec 182 — CI-baked data/protocol-urls.json tier (between dynamic and static PROTOCOL_URLS)
+  var [protocolUrlsSettled, setProtocolUrlsSettled] = useState(false); // spec 182 — true once the baked-artifact fetch has resolved (success OR failure/404)
   var [animationsTriggered, setAnimationsTriggered] = useState(false);
   var [chainMode, setChainMode] = useState(false); // Track if we're in chain-first mode
   var [currentView, setCurrentView] = useState('search'); // 'search' or 'pool-detail'
   var [detailPool, setDetailPool] = useState(null); // Pool being viewed in detail
   var [deadPoolParam, setDeadPoolParam] = useState(null); // ?pool=<id> present but not in live pools (spec 072)
+  var [pendingUrlDirectPool, setPendingUrlDirectPool] = useState(null); // spec 182 Territory T4 — pool parked here for the url_direct pool_view emit, deferred until protocolUrlsSettled
   var urlDirectPoolViewFiredRef = useRef(null); // pool id already tracked as a url_direct landing, prevents double-fire vs card click
   var pendingNlSearchTrackRef = useRef(null); // NL-Enter search awaiting a real results_count once filteredPools settles
   var poolsSourceRef = useRef(null); // where `pools` came from: 'snapshot' | 'live' (spec 059 — drives the escape-hatch refetch)
@@ -1183,11 +1186,19 @@ function App() {
           setDetailPool(foundPool);
           setCurrentView('pool-detail');
           document.title = `${foundPool.symbol} on ${foundPool.project} | DeFi Garden 🌱`;
+
+          // spec 182 Territory T4: the render above (setDetailPool/setCurrentView/
+          // document.title) stays immediate and unconditional — that's the SEO
+          // path's first paint and must never wait on anything. Only the
+          // analytics EMIT is deferred: park the pool and let the settle-gated
+          // effect below fire pool_view once protocolUrlsSettled is true.
+          // Sampling protocolCtaPresent here, before the baked artifact
+          // resolves, would manufacture the very degraded-path defect this
+          // property exists to measure. The once-per-pool guard is unchanged —
+          // it still prevents double-parking/double-firing for the same pool.
           if (urlDirectPoolViewFiredRef.current !== foundPool.pool) {
             urlDirectPoolViewFiredRef.current = foundPool.pool;
-            Analytics.trackPoolView(foundPool, {
-              source: 'url_direct'
-            });
+            setPendingUrlDirectPool(foundPool);
           }
         } else {
           // ?pool=<id> present but absent from live pools — record the miss so the
@@ -1197,6 +1208,22 @@ function App() {
       }
     }
   }, [pools, detailPool, currentView]);
+
+  // spec 182 Territory T4 — fires the url_direct pool_view EMIT once the
+  // baked-artifact fetch has settled (success or failure/404), so
+  // protocolCtaPresent reflects the CTA's real, settled render instead of a
+  // sample taken mid-race against '/data/protocol-urls.json'. The pool-detail
+  // render itself already happened synchronously above; this effect never
+  // touches it. Fires once per parked pool (dep array changes exactly once
+  // per url_direct landing thanks to the once-per-pool guard above), and
+  // again harmlessly for any later url_direct navigation within the session.
+  useEffect(() => {
+    if (!protocolUrlsSettled || !pendingUrlDirectPool) return;
+    Analytics.trackPoolView(pendingUrlDirectPool, {
+      source: 'url_direct',
+      protocolCtaPresent: !!getProtocolUrlWithRef(pendingUrlDirectPool)
+    });
+  }, [protocolUrlsSettled, pendingUrlDirectPool]);
 
   // spec 105: a direct ?pool=<id> SEO deep link always loads LIVE /pools (no
   // kpis — snapshotEligible is false when urlParams.pool is set), so the
@@ -1233,6 +1260,38 @@ function App() {
     };
   }, [detailPool, currentView]);
 
+  // spec 182 — CI-baked protocol-URL artifact (data/protocol-urls.json,
+  // generate-protocol-urls.js), fetched from OUR OWN origin at mount with NO
+  // setTimeout delay — this must win the race against the multi-MB live
+  // `/pools` fetch, unlike the api.llama.fi background fetch below which can
+  // afford to wait. Copies the pools-snapshot loader's defensive posture
+  // (tryLoadSnapshot above): never throws, silently no-ops on any failure,
+  // and guards against setState after unmount. protocolUrlsSettled is set in
+  // EVERY terminal path (success, non-ok response, malformed JSON, thrown
+  // error) via `finally`, so a missing artifact (404 on a bare dev server)
+  // can never wedge the url_direct pool_view emit gated on it above.
+  useEffect(() => {
+    var alive = true;
+    (async () => {
+      try {
+        var res = await fetch('/data/protocol-urls.json');
+        if (!res.ok) return; // Fail silently — dynamic/static tiers remain the fallback.
+        var json = await res.json();
+        if (!json || json.schemaVersion !== 1 || typeof json.urls !== 'object' || json.urls === null || Array.isArray(json.urls)) {
+          return;
+        }
+        if (alive) setBakedProtocolUrls(json.urls);
+      } catch (e) {
+        // Fail silently - dynamic/static PROTOCOL_URLS tiers remain the fallback.
+      } finally {
+        if (alive) setProtocolUrlsSettled(true);
+      }
+    })();
+    return () => {
+      alive = false;
+    };
+  }, []);
+
   // Background fetch protocols data after UI loads
   useEffect(() => {
     var fetchProtocolsInBackground = async () => {
@@ -1256,6 +1315,7 @@ function App() {
         protocols.forEach(protocol => {
           if (protocol.name && protocol.url) {
             // Map by name (for matching with pool.project)
+            // PROTOCOL_KEY_TRANSFORM (single source of truth — test_protocol_url_keys.js asserts app.js and generate-protocol-urls.js agree)
             var key = protocol.name.toLowerCase().replace(/\s+/g, '-');
             urlMapping[key] = protocol.url;
 
@@ -2395,8 +2455,12 @@ function App() {
     if (!pool.project) return null;
     var key = pool.project.toLowerCase().replace(/\s+/g, '-');
 
-    // Try dynamic protocol URLs first, then fallback to static
-    return dynamicProtocolUrls[key] || dynamicProtocolUrls[pool.project] || PROTOCOL_URLS[key] || null;
+    // Try dynamic protocol URLs first, then the CI-baked artifact (spec 182 —
+    // removes the runtime api.llama.fi dependency for the degraded path),
+    // then fallback to static. Additive depth only: the live dynamic fetch
+    // still wins first, so a protocol that changes URL between daily bakes
+    // is never stuck on a stale baked value.
+    return dynamicProtocolUrls[key] || dynamicProtocolUrls[pool.project] || bakedProtocolUrls[key] || bakedProtocolUrls[pool.project] || PROTOCOL_URLS[key] || null;
   };
 
   // Add referral parameter to protocol URL
@@ -2432,7 +2496,10 @@ function App() {
       position: position,
       search_query: selectedToken || selectedChain || 'browse',
       selected_chain: selectedChain,
-      selected_token: selectedToken
+      selected_token: selectedToken,
+      // spec 182 — no gate needed here (this fires from a real click, long
+      // after every tier including the baked artifact has had time to load).
+      protocolCtaPresent: !!getProtocolUrlWithRef(pool)
     });
 
     // Set the pool for detail view
