@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T07:07:15.722Z",
+  "generatedAt": "2026-07-30T08:22:27.279Z",
   "status": "OK",
   "playwright": {
     "source": "local",
@@ -17,8 +17,8 @@
     "pool-detail-dark",
     "pool-detail-ko",
     "pool-detail:201e5f6e",
-    "pool-detail:f6568026",
-    "pool-detail:7b3e4cca",
+    "pool-detail:ae6b7add",
+    "pool-detail:2d1aa052",
     "landing",
     "planner",
     "planner-360",
@@ -29,76 +29,43 @@
     "plan-bloom-360",
     "plan-bloom-ko",
     "static-page",
-    "static-page:tokens/20261231",
-    "static-page:tokens/2027",
-    "static-page:tokens/67",
-    "static-page:tokens/8oct2026",
-    "static-page:tokens/usyc",
-    "static-page:tokens/hgram"
+    "static-page:tokens/cred",
+    "static-page:tokens/kntq",
+    "static-page:tokens/sdyb",
+    "static-page:tokens/wmtusdc",
+    "static-page:chains/xrpl-evm",
+    "static-page:chains/kava"
   ],
   "findings": [
-    {
-      "surface": "static-prescan",
-      "viewport": "n/a",
-      "check": "static-prescan:junk-slug",
-      "severity": "P1",
-      "detail": "7 of 2200 static SEO pages match junk-slug — examples: tokens/00, tokens/01, tokens/17dec2026, tokens/20261231, tokens/2027, tokens/67, tokens/8oct2026"
-    },
     {
       "surface": "pool-prescan",
       "viewport": "n/a",
       "check": "pool-prescan:mean30d-rail-breach",
       "severity": "P2",
-      "detail": "1 of 746 snapshot pools match mean30d-rail-breach — examples: 201e5f6e — reconciled: all 1 promoted suspect(s) rendered with zero findings on pool-detail:201e5f6e; downgraded to non-blocking."
+      "detail": "1 of 741 snapshot pools match mean30d-rail-breach — examples: 201e5f6e — reconciled: all 1 promoted suspect(s) rendered with zero findings on pool-detail:201e5f6e; downgraded to non-blocking."
     },
     {
-      "surface": "static-page:tokens/20261231",
+      "surface": "pool-detail:ae6b7add",
       "viewport": "1280px",
-      "check": "junk-slug",
+      "check": "dead-cta",
       "severity": "P1",
-      "detail": "rendered <h1> is junk: \"20261231 DeFi Yields\""
-    },
-    {
-      "surface": "static-page:tokens/2027",
-      "viewport": "1280px",
-      "check": "junk-slug",
-      "severity": "P1",
-      "detail": "rendered <h1> is junk: \"2027 DeFi Yields\""
-    },
-    {
-      "surface": "static-page:tokens/67",
-      "viewport": "1280px",
-      "check": "junk-slug",
-      "severity": "P1",
-      "detail": "rendered <h1> is junk: \"67 DeFi Yields\""
-    },
-    {
-      "surface": "static-page:tokens/8oct2026",
-      "viewport": "1280px",
-      "check": "junk-slug",
-      "severity": "P1",
-      "detail": "rendered <h1> is junk: \"8OCT2026 DeFi Yields\""
+      "detail": "\"Start Earning\" (.cta-button-protocol) missing or not visible"
     }
   ],
   "prescan": {
-    "scanned": 2200,
-    "suspectCount": 7,
+    "scanned": 2179,
+    "suspectCount": 0,
     "bySignal": {
       "broken-number-literal": 0,
       "absurd-magnitude": 0,
-      "junk-slug": 7,
+      "junk-slug": 0,
       "zero-yield-claim": 0,
       "link-target-integrity": 0
     },
-    "promoted": [
-      "tokens/20261231",
-      "tokens/2027",
-      "tokens/67",
-      "tokens/8oct2026"
-    ]
+    "promoted": []
   },
   "poolPrescan": {
-    "scanned": 746,
+    "scanned": 741,
     "suspectCount": 1,
     "bySignal": {
       "apy-rail-breach": 0,

@@ -271,3 +271,64 @@ This is the third costume of one failure: 07-26 "two build runs built 148", 07-2
 lapped mid-tick", and now "a branch can be lapped between authoring and merge". The contended resource is
 always the same — `main` moves while work is in flight — and the fix is always the same: re-read `main`
 immediately before writing, and re-derive rather than replay.
+
+## 2026-07-30 · 116 · Re-share the garden from report mode — window closed
+
+**Result: INCONCLUSIVE at n≈0. Kept, not reverted.**
+
+Metric was the item's own new origination point, `share_link_created{method:'copy', surface:'report'}`.
+Prod 30d (query `2ef038a7`, `$current_url contains www.defi.garden`): `share_link_created` = **0** —
+absent from the result set entirely. Context from the same query: `plan_created` **3**,
+`share_link_opened` **1**, `plan_saved` **5**.
+
+The affordance is built, instrumented, and render-verified. It cannot fire without a returning visitor who
+has a saved plan reaching report mode, and 30 days produced **three plans in total**. This is an
+absence-of-traffic result, not an absence-of-effect result, and the distinction matters: reverting would
+delete working code on the strength of a sample that could never have shown anything.
+
+**Re-measure 14 days from the first 069 spotlight post.** That is now the gating event for 005, 007, 008
+and 116 alike — four share-loop items whose windows have all closed at n≈0 for the same reason.
+
+## 2026-07-30 · PRODUCT · A fix scoped to the instance that bit us leaves the class open
+
+Item 175 named a pattern in the loop's **detectors**: their signals are drawn from the last bug found, so
+the next bug lands in the class nobody has been bitten by yet (148 → 159 → 166 → 173, four in a row).
+
+This tick found the same pattern wearing a different costume — in a **repair**.
+
+Item 138 fixed a missing north-star CTA by adding **one** static `PROTOCOL_URLS` entry for `sky-lending`,
+and shipped a 2-fixture test guarding **that one protocol**. Correct, verified, and it closed nothing. The
+CTA's real dependency — a runtime fetch to a *second* third-party endpoint that the app documents as
+allowed to fail silently, backed by a 96-entry hand-maintained map — was left exactly as it was. Measured
+today: that map covers **70.9%** of pools; **216 pools / $8.9B TVL / 134 projects** lose half the north
+star whenever the fetch doesn't land, and the result is cached permanently so **the first visit decides**.
+
+**Takeaway, and it generalises past this bug:** when a fix is "add the missing entry", ask what the entry
+is an instance *of*, and whether the mechanism that produced the gap is still producing it. A hand-added
+row in a hand-maintained map is a repair with a built-in expiry date. The test to apply before calling such
+an item done: *if this exact defect appeared in a different member of the same population tomorrow, would
+anything catch it?* For 138 the answer was no, for fourteen months and 134 projects.
+
+**Corollary for the detector side:** item 183 exists because the audit's `dead-cta` finding could not say
+*why* the element was missing, and an unclassified P1 that recurs every run gets skimmed. Item 171 already
+solved this for the pool prescan. The reconciliation discipline is the thing to generalise, not the
+particular check it was first built for.
+
+## 2026-07-30 · PRODUCT AUDIT · A finding caused by the harness can still be the real finding
+
+`playbooks/product-audit.md` warns that fixtures fabricate findings, and the rule has killed false alarms
+before (three in one tick on 2026-07-25). Applied literally today it would have killed a real one.
+
+The audit reported `dead-cta` on a uniswap-v4 pool. The pool resolves fine against live
+`api.llama.fi/protocols` (verified in-session: 7,962 protocols, 5,181 url keys), so by the letter of the
+rule this was a sandbox artifact — the harness blocks that host — and dismissible.
+
+But **what the harness blocked is a thing that also fails in production**: ad-blockers, upstream outages,
+CSP, a slow first paint, a user who bounces before a 100ms-deferred background fetch resolves. The sandbox
+wasn't fabricating a condition; it was *sampling* one.
+
+**Takeaway:** "the fixture caused it" is the start of the analysis, not the end. The right next question is
+**what fraction of real users hit the same condition** — and if the honest answer is "nobody knows, and the
+code is written to fail silently when they do", the finding is real and the not-knowing is part of it.
+Dismissing it as environment would have hidden a 29.1% gap on the north-star surface. The playbook's
+fixture-trap section has been updated with this case.

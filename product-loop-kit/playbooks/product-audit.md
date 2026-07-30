@@ -35,6 +35,37 @@ run; log which surfaces you covered.
   with `NODE_PATH=/opt/node22/lib/node_modules` (playwright is installed globally) or `npm install` first.
   → ticketed **149** (make the script self-heal and fail loudly).
 
+**COUNTER-TRAP: a finding the harness caused can still be the real finding (learned 2026-07-30).**
+The traps above exist to stop you ticketing fiction. Applied literally they will also kill real findings —
+this one nearly killed a 29.1% gap on the north-star surface. **Blocked external hosts are not only
+fixture noise; they are a faithful sample of a condition that happens in production too** (ad-blockers,
+upstream outages, CSP, slow first paint, a user who bounces before a deferred background fetch resolves).
+
+Worked example: the audit reported `dead-cta` on `pool-detail:ae6b7add`. The pool's protocol resolved fine
+against live `api.llama.fi/protocols` (7,962 protocols, verified in-session), so "sandbox artifact,
+dismiss" was the by-the-letter call. But the CTA's URL came from a **runtime fetch to a second third-party
+host that `app.js:1285` documents as allowed to fail silently**, behind a 96-entry hand-maintained
+fallback. What the harness blocked, an ad-blocker also blocks — for **216 of 741 pools (29.1%)**. → item **182**.
+
+**The three questions, in order — do not stop at Q1:**
+1. *Did the harness cause this?* If no → real finding, ticket it.
+2. *Would this condition ever occur in production?* A blocked/failed third-party host, a slow response, an
+   aborted fetch: **almost always yes.** A malformed fixture payload you wrote yourself: no.
+3. *If yes — what fraction of real users hit it, and what do they see?* **Measure it against live data**
+   (fetch the real upstream in-session; the network is open to `curl`/`node` per NORTH_STAR 2026-07-12).
+   The answer is the finding, and it is usually much larger than the one surface the scanner flagged.
+
+If the honest answer to Q3 is *"nobody knows, and the code fails silently when it happens"* — that is a
+real defect and the not-knowing is part of it. Ticket it, and ticket the instrumentation with it.
+
+**Corollary — record provenance so the next tick does not re-derive it.** This classification cost a live
+API fetch and a read of three call sites. A finding that cannot say *why* the element was absent recurs
+every run, indistinguishable from a real one, and gets skimmed. Item **171** built exactly this
+reconciliation for the pool prescan (promoted suspect renders clean → auto-downgrade P1 → P2 with the
+reconciliation stated in the record); item **183** extends it to the rendered checks. **When you build a
+downgrade path, "undeterminable" must stay blocking** — otherwise the classifier is a relaxation wearing a
+refactor's clothes (`pre-existing-red-triage.md`, Resolution E).
+
 ## Surfaces to drive
 - `/` — planner hero (default funnel top)
 - `?token=<common>` (e.g. USDC) — grid renders pool cards
