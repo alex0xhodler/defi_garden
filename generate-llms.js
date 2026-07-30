@@ -10,12 +10,22 @@ const fs = require('fs');
 const https = require('https');
 const path = require('path');
 const { XMLParser } = require('fast-xml-parser');
+// REUSE (spec 180 R2, never a second slug implementation): the same
+// `tokenSlug` export `generate-chain-pages.js:41` imports as `chainSlug` for
+// its /chains/<slug> filenames — this generator retargets AT those exact
+// slugs, so it must compute them identically or a retarget could land on a
+// URL that was never actually generated.
+const { tokenSlug } = require('./generate-token-pages.js');
 
 // Configuration with environment variable overrides
 const SITE_URL = process.env.SITE_URL || 'https://www.defi.garden';
 const SITEMAP_PATH = process.env.SITEMAP_PATH || path.resolve('./sitemap.xml');
 const OUTPUT_DIR = process.env.LLMS_OUTPUT_DIR || path.dirname(SITEMAP_PATH);
 const DEFILLAMA_YIELDS_URL = process.env.DEFILLAMA_YIELDS_URL || 'https://yields.llama.fi/pools';
+// spec 180 R3 / Territory T2: the committed pools snapshot audit-app.js's own
+// text-surface level-3 re-check reads (apyBase+apyReward shape, no `apy`
+// field) — read-only here, this generator never writes it.
+const SNAPSHOT_PATH = process.env.LLMS_SNAPSHOT_PATH || path.resolve('./data/pools-snapshot.json');
 
 // Trust-rail constants — read-only MIRRORS of the product's own rails, never a
 // second source of truth. `app.js:800` (`APY_SANITY_LIMIT = 1000`) and
@@ -520,9 +530,18 @@ function buildPlannerSection(meta, rate, opts = {}) {
 }
 
 /**
- * Build concise llms.txt content with search-optimized sections
+ * Build concise llms.txt content with search-optimized sections.
+ *
+ * `opts.highApyStakingUrl` (spec 180 R3) overrides the "High APY staking"
+ * example's target: `undefined` (the default — every pre-180 call site,
+ * including every existing test, keeps working byte-identically) emits the
+ * original hardcoded `minApy=10` URL; a string swaps in a repaired URL
+ * (`repairMinApyLink()`'s chosen rung, or the same URL with `minApy` dropped
+ * entirely); `null` omits the line altogether (no rung resolved). This is
+ * the ONLY behavior difference opts may introduce — never a second copy of
+ * this function for the gated case.
  */
-function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult) {
+function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult, opts = {}) {
   const lines = [];
 
   // Header with single H1 (SEO optimized)
@@ -603,7 +622,13 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   lines.push(`- "USDC yields on Base" → ${meta.baseUrl}/?token=USDC&chain=Base`);
   lines.push(`- "Ethereum lending" → ${meta.baseUrl}/?chain=Ethereum&poolTypes=Lending`);
   lines.push(`- "Pendle opportunities" → ${meta.baseUrl}/?protocols=pendle`);
-  lines.push(`- "High APY staking" → ${meta.baseUrl}/?poolTypes=Staking&minApy=10`);
+  // spec 180 R3: this is the one line in the whole surface that carries
+  // `minApy` — see buildConcise()'s own opts doc comment above. Never emit a
+  // dead `minApy=10` link outright; the gate below decides the real value.
+  if (opts.highApyStakingUrl !== null) {
+    const highApyStakingUrl = opts.highApyStakingUrl || `${meta.baseUrl}/?poolTypes=Staking&minApy=10`;
+    lines.push(`- "High APY staking" → ${highApyStakingUrl}`);
+  }
   lines.push(`- "Safe lending USDT" → ${meta.baseUrl}/?token=USDT&poolTypes=Lending`);
   lines.push(`- "Arbitrum LP tokens" → ${meta.baseUrl}/?chain=Arbitrum&poolTypes=LP%2FDEX`);
   lines.push(`- "High TVL pools" → ${meta.baseUrl}/?minTvl=10000000`);
@@ -760,6 +785,371 @@ function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult
   return lines.join('\n');
 }
 
+// ===========================================================================
+// spec 180: the AI-discovery surface must not publish links to an empty grid.
+// One shared helper (R1), two rules that use it (R2 chain-section retarget,
+// R3 minApy repair ladder), and two anti-vacuity rails, applied at emit time
+// so the gate re-decides every link on every daily bake (drift-resistance —
+// see the spec's Hypothesis). Evidence: item 175's level-3 signal found 63
+// dead grid links (1 in llms.txt, 62 in llms-full.txt's `## Chain Pages`),
+// confined to those two classes — this section fixes exactly those two,
+// never a third invented one (spec's own Non-goals).
+// ===========================================================================
+
+// The query keys that make a home-path link a "grid link" this gate may
+// simulate at all (spec 180 R1, same set backlog 175's audit-side
+// LEVEL3_GRID_PARAMS uses, audit-app.js:904 — kept independent per-file, per
+// this item's "mirror, never import" instruction, but must stay in sync by
+// hand if that set ever changes).
+const GRID_LINK_PARAMS = ['token', 'chain', 'poolTypes', 'protocols', 'minTvl', 'minApy'];
+
+// R3's descending rung ladder (spec 180, exact values the spec names).
+const MIN_APY_RUNGS = [10, 5, 3, 1];
+
+// Above this fraction of "checked grid links" the gate would retarget-or-omit,
+// it refuses to trust its own simulation and emits everything unchanged
+// instead (spec 180 anti-vacuity rail 2; today's real measurement is 63/535
+// ≈ 11.8%, safely under this).
+const STRUCTURAL_TRIPWIRE_FRACTION = 0.4;
+
+/**
+ * R1 (spec 180, exported): mirrors the app grid's qualification for a
+ * defi.garden home-path link, reusing existing sources only — never a
+ * second copy of a rail or a classifier (174/175's rule).
+ *   - minTvl: explicit param wins; absent -> MIN_TVL_USD (no new floor
+ *     literal). Qualification is `(tvlUsd||0) >= floor && (tvlUsd||0) > 0`
+ *     (test_seo_cta_targets.js:117 is the reviewed reference, 175 T6).
+ *   - token -> case-insensitive substring on `symbol` (app.js:835).
+ *   - chain -> exact `chain` equality.
+ *   - protocols -> exact `project` equality.
+ *   - poolTypes -> comma-split membership against `getPoolType(pool)`,
+ *     lazily required from generate-sitemap.js in a try/catch (the one
+ *     classifier, 175 T6). If unavailable, the poolTypes constraint is
+ *     DROPPED (never silently — `poolTypesDropped` on the return value lets
+ *     every call site count and log the drop, T8).
+ *   - minApy -> `apyOf(pool) >= minApy`; `opts.apyOf` defaults to the live
+ *     DefiLlama `apy` field, overridable (R3 uses apyBase+apyReward against
+ *     the snapshot population, Territory T2 — the snapshot has no `apy`).
+ * Applies ONLY to links carrying >=1 of GRID_LINK_PARAMS. `?pool=<id>` is
+ * NEVER simulated (175's 4,233-false-positive trap) and path-only URLs are
+ * untouched — both return `null` (not "zero pools", genuinely "not this
+ * gate's concern") so callers never mistake "not a grid link" for "dead".
+ * `opts.getPoolType`, when explicitly passed (including `null`), overrides
+ * the lazy require — test-only escape hatch to exercise the drop path
+ * without needing generate-sitemap.js to actually be unavailable.
+ */
+function gridLinkPoolCount(url, pools, opts = {}) {
+  let parsed;
+  try { parsed = new URL(url); } catch (e) { return null; }
+  const sp = parsed.searchParams;
+  if (sp.has('pool')) return null; // 175's 4,233-false-positive trap — never simulated
+  if (!GRID_LINK_PARAMS.some((k) => sp.has(k))) return null; // not a grid link — untouched
+
+  const token = sp.get('token') || '';
+  const chain = sp.get('chain') || '';
+  const protocolsVal = sp.get('protocols') || '';
+  const poolTypesVal = sp.get('poolTypes') || '';
+  const minTvl = sp.has('minTvl') ? (parseInt(sp.get('minTvl'), 10) || 0) : MIN_TVL_USD;
+  const hasMinApy = sp.has('minApy');
+  const minApyRaw = hasMinApy ? parseFloat(sp.get('minApy')) : NaN;
+  const minApy = hasMinApy && isFinite(minApyRaw) ? minApyRaw : null;
+
+  const wantedPoolTypes = poolTypesVal ? poolTypesVal.split(',').filter(Boolean) : [];
+  const apyOf = typeof opts.apyOf === 'function' ? opts.apyOf : (p) => Number(p.apy) || 0;
+
+  let getPoolTypeFn = null;
+  let poolTypesDropped = false;
+  if (wantedPoolTypes.length) {
+    if (opts.getPoolType !== undefined) {
+      getPoolTypeFn = opts.getPoolType; // test escape hatch (incl. explicit null)
+    } else {
+      try { getPoolTypeFn = require('./generate-sitemap.js').getPoolType; }
+      catch (e) { getPoolTypeFn = null; }
+    }
+    if (typeof getPoolTypeFn !== 'function') { poolTypesDropped = true; getPoolTypeFn = null; }
+  }
+
+  let count = 0;
+  for (const p of (pools || [])) {
+    const tvl = Number(p.tvlUsd) || 0;
+    if (!(tvl >= minTvl && tvl > 0)) continue;
+    if (token && !String(p.symbol || '').toUpperCase().includes(token.toUpperCase())) continue;
+    if (chain && p.chain !== chain) continue;
+    if (protocolsVal && p.project !== protocolsVal) continue;
+    if (wantedPoolTypes.length && getPoolTypeFn && !wantedPoolTypes.includes(getPoolTypeFn(p))) continue;
+    if (minApy !== null && !(apyOf(p) >= minApy)) continue;
+    count++;
+  }
+  return { count, poolTypesDropped };
+}
+
+/**
+ * R2 (spec 180): retarget every dead `?chain=<C>` link in `chainUrls`
+ * (`## Chain Pages`'s population, `categories.chains`) at the real static
+ * `/chains/<slug>` page when the sitemap actually contains one (measured
+ * 48/14 split — Territory: the section is mis-targeted, the real pages
+ * already exist elsewhere in the file, dumped under `## Other Pages`).
+ * `slug` is `tokenSlug()` reused from generate-token-pages.js — never a
+ * second slug implementation (same import generate-chain-pages.js:41 uses).
+ * A live link (>=1 pool, or not simulatable) is returned byte-unchanged.
+ * A dead link with no static counterpart is omitted and counted, never
+ * silently dropped.
+ *
+ * Returns `{ lines, retargetedUrls, retargetedCount, omittedCount,
+ * omittedChains, poolTypesDroppedCount }` — `lines` is the full replacement
+ * for `categories.chains`, in original order; `retargetedUrls` is the Set of
+ * `/chains/<slug>` targets the caller must de-dupe out of `## Other Pages`
+ * so each retargeted URL appears exactly once in the file.
+ */
+function applyChainRetarget(chainUrls, pools, sitemapUrlSet, baseUrl) {
+  const lines = [];
+  const retargetedUrls = new Set();
+  const omittedChains = [];
+  let retargetedCount = 0;
+  let omittedCount = 0;
+  let poolTypesDroppedCount = 0;
+
+  for (const url of chainUrls) {
+    let chain = null;
+    try { chain = new URL(url).searchParams.get('chain'); } catch (e) { /* fall through, kept as-is below */ }
+
+    const result = gridLinkPoolCount(url, pools);
+    if (result && result.poolTypesDropped) poolTypesDroppedCount++;
+
+    if (!result || result.count > 0 || !chain) {
+      lines.push(url); // live, or not simulatable — byte-unchanged
+      continue;
+    }
+
+    const slug = tokenSlug(chain);
+    const target = `${baseUrl}/chains/${slug}`;
+    if (sitemapUrlSet.has(target)) {
+      lines.push(target);
+      retargetedUrls.add(target);
+      retargetedCount++;
+    } else {
+      omittedCount++;
+      omittedChains.push(chain); // omitted entirely — no honest destination exists
+    }
+  }
+
+  return { lines, retargetedUrls, retargetedCount, omittedCount, omittedChains, poolTypesDroppedCount };
+}
+
+// Read-only apy accessor for the snapshot population (Territory T2): the
+// committed data/pools-snapshot.json has NO `apy` field, only
+// `apyBase`/`apyReward` — the exact shape audit-app.js:925's own level-3
+// re-check reads. Mirrored here so R3's rung choice is validated the SAME
+// way the audit will re-validate it.
+function snapshotApyOf(pool) {
+  return (Number(pool && pool.apyBase) || 0) + (Number(pool && pool.apyReward) || 0);
+}
+
+// Clones `url` with its `minApy` param set to `value`, or removed entirely
+// when `value` is null/undefined.
+function withMinApy(url, value) {
+  const u = new URL(url);
+  if (value === null || value === undefined) u.searchParams.delete('minApy');
+  else u.searchParams.set('minApy', String(value));
+  return u.toString();
+}
+
+/**
+ * R3 (spec 180): a dead grid link carrying `minApy` retries the descending
+ * rungs MIN_APY_RUNGS, taking the highest that resolves >=1 pool — if none
+ * does, `minApy` is dropped entirely; if the link is STILL empty, it is
+ * omitted (never left dead). Territory T2: the rung must resolve under BOTH
+ * `pools` (the live/fixture population this generator built the rest of the
+ * file from) AND `snapshotPools` (data/pools-snapshot.json, apyBase+
+ * apyReward) — because audit-app.js's own level-3 re-check reads the
+ * COMMITTED snapshot, not live data, so a rung that only clears live would
+ * make the audit go red again the next time it runs. `snapshotPools` may be
+ * null (unavailable) — best-effort, never fatal; the caller logs the
+ * degraded mode.
+ *
+ * Returns `{ url, changed, rung, dropped, omitted, poolTypesDroppedCount }`:
+ * `changed` false means `url` already resolves under both populations as-is
+ * (no repair needed); `url` is null only when `omitted` is true.
+ */
+function repairMinApyLink(url, pools, snapshotPools, opts = {}) {
+  const rungs = opts.rungs || MIN_APY_RUNGS;
+  let poolTypesDroppedCount = 0;
+
+  function resolvesIn(candidate, popPools, apyOf) {
+    if (!popPools) return true; // population unavailable — never block the choice on it
+    const r = gridLinkPoolCount(candidate, popPools, { apyOf });
+    if (r && r.poolTypesDropped) poolTypesDroppedCount++;
+    return !!(r && r.count > 0);
+  }
+  function resolvesBoth(candidate) {
+    return resolvesIn(candidate, pools, undefined) && resolvesIn(candidate, snapshotPools, snapshotApyOf);
+  }
+
+  if (resolvesBoth(url)) {
+    return { url, changed: false, rung: null, dropped: false, omitted: false, poolTypesDroppedCount };
+  }
+
+  for (const rung of rungs) {
+    const candidate = withMinApy(url, rung);
+    if (candidate === url) continue; // same value as the (already-known-dead) original
+    if (resolvesBoth(candidate)) {
+      return { url: candidate, changed: true, rung, dropped: false, omitted: false, poolTypesDroppedCount };
+    }
+  }
+
+  const dropped = withMinApy(url, null);
+  if (resolvesBoth(dropped)) {
+    return { url: dropped, changed: true, rung: null, dropped: true, omitted: false, poolTypesDroppedCount };
+  }
+
+  return { url: null, changed: true, rung: null, dropped: true, omitted: true, poolTypesDroppedCount };
+}
+
+// Best-effort load of the committed pools snapshot for R3's dual-population
+// check (Territory T2). Never fatal: missing/malformed -> null, and R3 falls
+// back to validating against the live/fixture population alone (logged by
+// the caller, never silent).
+function loadSnapshotPoolsForR3(snapshotPath) {
+  let raw;
+  try { raw = fs.readFileSync(snapshotPath, 'utf8'); }
+  catch (e) { log(`data/pools-snapshot.json unreadable at ${snapshotPath} (${e.message}) — R3 minApy repair validated against the live/fixture population only`); return null; }
+  let json;
+  try { json = JSON.parse(raw); }
+  catch (e) { log(`data/pools-snapshot.json unparseable at ${snapshotPath} (${e.message}) — R3 minApy repair validated against the live/fixture population only`); return null; }
+  if (!Array.isArray(json.pools)) {
+    log(`data/pools-snapshot.json at ${snapshotPath} has no "pools" array — R3 minApy repair validated against the live/fixture population only`);
+    return null;
+  }
+  return json.pools;
+}
+
+// Extracts the set of DISTINCT grid links (R1's applicability rule) present
+// in already-built page text, for the structural tripwire's "checked" count
+// — the same shape of measurement the spec's own evidence table used (38 in
+// llms.txt, 497 in llms-full.txt). Scans raw text rather than `categories`
+// because the surface's grid links come from several independent sources
+// (sitemap-derived categories, live-data aggregates, hardcoded examples,
+// per-pool fallback links) and the tripwire must see all of them, not just
+// the two this item's rules act on.
+function scanGridLinks(content, baseUrl) {
+  const escaped = String(baseUrl).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(escaped + '(/\\?[^\\s]*)', 'g');
+  const found = new Set();
+  let m;
+  while ((m = re.exec(content))) {
+    const candidate = m[0];
+    let u;
+    try { u = new URL(candidate); } catch (e) { continue; }
+    if (u.searchParams.has('pool')) continue;
+    if (!GRID_LINK_PARAMS.some((k) => u.searchParams.has(k))) continue;
+    found.add(candidate);
+  }
+  return found;
+}
+
+/**
+ * Orchestrates R1/R2/R3 plus both anti-vacuity rails (spec 180) at emit
+ * time. Always builds the baseline (pre-180) `buildConcise`/`buildFull`
+ * output FIRST — unmodified categories, no opts — both because that IS the
+ * "byte-identical to pre-180 output" the rails must fall back to, and
+ * because the structural tripwire's "checked grid links" denominator is
+ * measured against it (the spec's own 63/535 evidence-table shape).
+ *
+ * Input: `{ pools, categories, meta, highYield, yieldAnalysis,
+ * plannerRateResult, sitemapUrlSet, baseUrl, snapshotPools }`.
+ * Returns `{ concise, full, applied, disabledReason, stats }`.
+ */
+function applyLinkIntegrityGate(input) {
+  const {
+    pools, categories, meta, highYield, yieldAnalysis, plannerRateResult,
+    sitemapUrlSet, baseUrl, snapshotPools,
+  } = input;
+
+  const baselineConcise = buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult);
+  const baselineFull = buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult);
+
+  const result = {
+    concise: baselineConcise,
+    full: baselineFull,
+    applied: false,
+    disabledReason: null,
+    stats: { checked: 0, affected: 0, fraction: 0, chainRetargeted: 0, chainOmitted: 0, chainOmittedNames: [], minApy: null, poolTypesDropped: 0 },
+  };
+
+  // Anti-vacuity rail 1 (spec 180): fetchYieldsSafe() fails SAFE to `[]` —
+  // without this, a DefiLlama timeout would publish a surface with EVERY
+  // grid link stripped (Territory T3, "the single highest-consequence detail
+  // in the item"). Gate fully disabled, links emitted unchanged.
+  if (!Array.isArray(pools) || pools.length === 0) {
+    result.disabledReason = 'empty-population';
+    err('[180] link-integrity gate DISABLED — empty pool population; every grid link would simulate to zero pools. Emitting pre-180 links unchanged.');
+    return result;
+  }
+
+  const chainResult = applyChainRetarget(categories.chains || [], pools, sitemapUrlSet || new Set(), baseUrl);
+  const originalHighApyStakingUrl = `${baseUrl}/?poolTypes=Staking&minApy=10`;
+  const minApyResult = repairMinApyLink(originalHighApyStakingUrl, pools, snapshotPools);
+
+  const checkedConcise = scanGridLinks(baselineConcise, baseUrl);
+  const checkedFull = scanGridLinks(baselineFull, baseUrl);
+  const checked = checkedConcise.size + checkedFull.size;
+  const affected = chainResult.retargetedCount + chainResult.omittedCount + (minApyResult.changed ? 1 : 0);
+  const fraction = checked > 0 ? affected / checked : 0;
+  const poolTypesDropped = chainResult.poolTypesDroppedCount + minApyResult.poolTypesDroppedCount;
+
+  result.stats = {
+    checked, affected, fraction,
+    chainRetargeted: chainResult.retargetedCount,
+    chainOmitted: chainResult.omittedCount,
+    chainOmittedNames: chainResult.omittedChains,
+    minApy: minApyResult,
+    poolTypesDropped,
+  };
+
+  // Anti-vacuity rail 2 (spec 180): a simulation bug must fail loudly, not
+  // quietly shrink the AI surface. Emits everything unchanged either way.
+  if (checked > 0 && fraction > STRUCTURAL_TRIPWIRE_FRACTION) {
+    result.disabledReason = 'structural-tripwire';
+    err(`[180] link-integrity gate DISABLED — would retarget-or-omit ${affected}/${checked} grid links (${(fraction * 100).toFixed(1)}%), over the ${(STRUCTURAL_TRIPWIRE_FRACTION * 100).toFixed(0)}% tripwire. This means the simulation is probably broken, not that the surface is really this dead. Emitting pre-180 links unchanged.`);
+    process.exitCode = 1;
+    return result;
+  }
+
+  const fixedCategories = {
+    ...categories,
+    chains: chainResult.lines,
+    other: (categories.other || []).filter((u) => !chainResult.retargetedUrls.has(u)),
+  };
+  const fixedFull = buildFull(meta, fixedCategories, highYield, yieldAnalysis, plannerRateResult);
+  const highApyStakingOverride = minApyResult.changed ? minApyResult.url : undefined; // undefined -> byte-identical default line
+  const fixedConcise = buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult, {
+    highApyStakingUrl: highApyStakingOverride,
+  });
+
+  result.concise = fixedConcise;
+  result.full = fixedFull;
+  result.applied = true;
+
+  log(`[180] R2 chain-section retarget: ${chainResult.retargetedCount} retargeted to /chains/<slug>, ${chainResult.omittedCount} omitted (no static page)` +
+    (chainResult.omittedChains.length ? ` — omitted: ${chainResult.omittedChains.join(', ')}` : ''));
+  log(`[180] R3 minApy repair ladder: ${describeMinApyResult(minApyResult)}`);
+  if (poolTypesDropped > 0) {
+    log(`[180] poolTypes classifier (generate-sitemap.js getPoolType) unavailable for ${poolTypesDropped} simulated check(s) — constraint dropped, never silently ignored`);
+  }
+  log(`[180] link-integrity gate: ${affected}/${checked} grid links affected (${(fraction * 100).toFixed(1)}%) — under the ${(STRUCTURAL_TRIPWIRE_FRACTION * 100).toFixed(0)}% tripwire`);
+
+  return result;
+}
+
+// Human-readable summary of repairMinApyLink()'s outcome, for the gate's own
+// log() line — never re-derives the decision, only narrates it.
+function describeMinApyResult(r) {
+  if (!r.changed) return '"High APY staking" already resolves at minApy=10 under both populations — no repair needed';
+  if (r.omitted) return '"High APY staking" resolved at NO rung (even with minApy dropped) — line omitted entirely';
+  if (r.dropped) return '"High APY staking" repaired by dropping minApy entirely (no rung resolved under both populations)';
+  return `"High APY staking" repaired: minApy=10 -> minApy=${r.rung} (highest rung resolving >=1 pool under both the live/fixture population and data/pools-snapshot.json)`;
+}
+
 /**
  * Main execution function
  */
@@ -773,7 +1163,10 @@ async function main() {
     const urls = await parseSitemap(SITEMAP_PATH);
     const baseUrl = inferBaseUrl(urls);
     const categories = categorizeUrls(urls, baseUrl);
-    
+    // spec 180 R2: the parsed URL set doubles as "does a static /chains/<slug>
+    // page actually exist" — reused, never re-fetched.
+    const sitemapUrlSet = new Set(urls);
+
     // Fetch yield data
     // 113: prefer the shared $1000-floored SEO transient (single CI /pools fetch,
     // written by generate-pools-snapshot.js), failing SAFE to a live fetch when
@@ -809,10 +1202,18 @@ async function main() {
       defiLlamaFetchedAt: sourceTs
     };
 
-    // Generate content
-    const conciseContent = buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult);
-    const fullContent = buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult);
-    
+    // Generate content — spec 180's link-integrity gate (R1/R2/R3 + both
+    // anti-vacuity rails) decides the REAL emitted content; it always
+    // computes the pre-180 baseline internally too, so a disabled/tripped
+    // gate falls back to byte-identical pre-180 output automatically.
+    const snapshotPools = loadSnapshotPoolsForR3(SNAPSHOT_PATH);
+    const gateResult = applyLinkIntegrityGate({
+      pools: yields, categories, meta, highYield, yieldAnalysis, plannerRateResult,
+      sitemapUrlSet, baseUrl, snapshotPools,
+    });
+    const conciseContent = gateResult.concise;
+    const fullContent = gateResult.full;
+
     // Ensure output directory exists
     if (!fs.existsSync(OUTPUT_DIR)) {
       fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -838,7 +1239,8 @@ async function main() {
     console.log(`- High-yield pools found: ${highYield.top.length}`);
     console.log(`- Files written to: ${OUTPUT_DIR}`);
     console.log(`- Data freshness: ${meta.updatedAt}`);
-    
+    console.log(`- Link-integrity gate (180): ${gateResult.applied ? 'applied' : `DISABLED (${gateResult.disabledReason})`} — ${gateResult.stats.affected}/${gateResult.stats.checked} grid links affected`);
+
   } catch (error) {
     err('Failed to generate LLM files', error);
     process.exitCode = 1;
@@ -870,5 +1272,18 @@ module.exports = {
   APY_SANITY_LIMIT,
   MIN_TVL_USD,
   formatTvlFloor,
-  poolUrl
+  poolUrl,
+  // spec 180: link-integrity gate (R1/R2/R3 + anti-vacuity rails).
+  gridLinkPoolCount,
+  applyChainRetarget,
+  repairMinApyLink,
+  withMinApy,
+  snapshotApyOf,
+  scanGridLinks,
+  loadSnapshotPoolsForR3,
+  applyLinkIntegrityGate,
+  GRID_LINK_PARAMS,
+  MIN_APY_RUNGS,
+  STRUCTURAL_TRIPWIRE_FRACTION,
+  SNAPSHOT_PATH
 };

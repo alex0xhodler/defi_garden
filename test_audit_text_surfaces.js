@@ -343,16 +343,15 @@ test('link-target-integrity: positive control (committed pre-166 llms-full.txt e
 });
 
 // ---------------------------------------------------------------------------
-// backlog 175 Territory note T4: level 3 legitimately invalidates the old
-// "zero suspects on the real committed surfaces" claim as a whole-signal
-// statement — it finds 63 REAL, previously-unfound dead links (1 in
-// llms.txt, 62 in llms-full.txt) that item 173 never touched (173 fixed the
-// HTML static surface's CTAs, not these text surfaces). Per T4 the ORIGINAL
-// assertion is narrowed to the sub-rules it was written for (levels 1/(b)/
-// (c) — never level 2, which is also still clean today) and a SEPARATE case
-// pins the level-3 findings as a KNOWN, FILED defect (backlog 180) — never
-// silenced, never "fixed" here (fixing generated link targets is out of
-// 175's scope by its own Non-goals; 175's job is only to make them visible).
+// backlog 175 Territory note T4 (superseded by backlog 180 — see below):
+// level 3 legitimately invalidated the old "zero suspects on the real
+// committed surfaces" claim as a whole-signal statement for a while — it
+// found 63 REAL, previously-unfound dead links (1 in llms.txt, 62 in
+// llms-full.txt) that item 173 never touched (173 fixed the HTML static
+// surface's CTAs, not these text surfaces). Per T4 the ORIGINAL assertion
+// was narrowed to the sub-rules it was written for (levels 1/(b)/(c) — never
+// level 2, which was also clean throughout) while a SEPARATE case pinned the
+// level-3 findings as a KNOWN, FILED defect (backlog 180).
 // ---------------------------------------------------------------------------
 test('link-target-integrity: TRUE NEGATIVE on levels 1/(b)/(c) + level 2 — the real committed llms.txt + llms-full.txt produce zero suspects for those sub-rules', () => {
   const result = prescanTextSurfaces();
@@ -360,14 +359,22 @@ test('link-target-integrity: TRUE NEGATIVE on levels 1/(b)/(c) + level 2 — the
   assertT(hits.length === 0, `expected zero suspects on levels 1/2/(b)/(c) on the real committed surfaces; got: ${JSON.stringify(hits)}`);
 });
 
-test('link-target-integrity LEVEL 3 (backlog 175, KNOWN FILED DEFECT — backlog 180, NOT this item\'s job to fix, spec 175 Non-goals): the real committed llms.txt + llms-full.txt DO carry dead grid links — llms.txt: 1 ("/?poolTypes=Staking&minApy=10"), llms-full.txt: 62 (all "## Chain Pages", e.g. "?chain=Cardano" at the $10M default floor) — pinned here, never silenced', () => {
+// backlog 180 landed: generate-llms.js's link-integrity gate (R1
+// gridLinkPoolCount + R2 chain-section retarget + R3 minApy repair ladder)
+// now re-decides every grid link at EVERY bake, so the 63 dead links this
+// pin used to track (1 llms.txt + 62 llms-full.txt) are gone from the real,
+// regenerated surface — re-measured here, per this test's own prior
+// instruction ("a different count means either backlog 180 landed — great,
+// re-measure and update this pin, don't delete it — or the live pool
+// population shifted"). Flipped to a TRUE NEGATIVE: level 3 must report ZERO
+// suspects on the real committed llms.txt/llms-full.txt. This is the pin
+// re-measured, not deleted — if a dead link ever reappears here, backlog
+// 180's drift-resistance claim (the gate re-decides every link every daily
+// bake) has failed and the item returns, per its own Measurement section.
+test('link-target-integrity LEVEL 3 (backlog 180, re-measured — was backlog 175\'s KNOWN FILED DEFECT of 1 + 62 dead links): the real committed llms.txt + llms-full.txt now carry ZERO dead grid links', () => {
   const result = prescanTextSurfaces();
   const level3 = result.suspects.filter((s) => s.signal === 'link-target-integrity' && LEVEL3_DETAIL_RE.test(s.detail));
-  assertT(level3.length === 2, `expected exactly 2 level-3 suspects (one per file); a different count means either backlog 180 landed (great — re-measure and update this pin, don't delete it) or the live pool population shifted. got: ${JSON.stringify(level3.map((s) => ({ rel: s.rel, detail: s.detail })))}`);
-  const llmsTxtHit = level3.find((s) => s.rel === 'llms.txt');
-  assertT(llmsTxtHit && /^1 /.test(llmsTxtHit.detail) && llmsTxtHit.detail.includes('poolTypes=Staking'), `expected llms.txt's known dead link (?poolTypes=Staking&minApy=10); got: ${llmsTxtHit && llmsTxtHit.detail}`);
-  const llmsFullHit = level3.find((s) => s.rel === 'llms-full.txt');
-  assertT(llmsFullHit && /^62 /.test(llmsFullHit.detail), `expected llms-full.txt's 62 known dead links; got: ${llmsFullHit && llmsFullHit.detail}`);
+  assertT(level3.length === 0, `expected zero level-3 suspects on the real committed surfaces (backlog 180 gates every grid link at generation time); got: ${JSON.stringify(level3.map((s) => ({ rel: s.rel, detail: s.detail })))}`);
 });
 
 // Opportunistic full-file control: re-derives the FULL pre-166 bytes at test
