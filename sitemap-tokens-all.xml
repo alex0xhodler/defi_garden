@@ -240,9 +240,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HSOL" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HSOL&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HSOL" />
-    <lastmod>2026-07-27T16:12:15.316Z</lastmod>
+    <lastmod>2026-07-30T16:15:57.322Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.89</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=JITOSOL</loc>
@@ -636,9 +636,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDAT" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDAT&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDAT" />
-    <lastmod>2026-07-30T04:58:15.135Z</lastmod>
+    <lastmod>2026-07-30T16:15:57.322Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.91</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SUSDE</loc>
@@ -717,9 +717,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USCC" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USCC&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USCC" />
-    <lastmod>2026-07-14T22:37:34.151Z</lastmod>
+    <lastmod>2026-07-30T16:15:57.322Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.89</priority>
+    <priority>0.88</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USD1</loc>
