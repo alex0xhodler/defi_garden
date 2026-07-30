@@ -200,6 +200,69 @@ const POOL_PRESCAN_SIGNALS = {
   'missing-tvl': 'P1'
 };
 
+// backlog 183 leg (a) — provenance/classification kind -> severity, same
+// role as POOL_PRESCAN_SIGNALS above. `environment` is the only downgrade;
+// `defect` and `undeterminable` both stay blocking (spec 183's non-vacuity
+// contract: the downgrade must never be the silent default). Only consulted
+// via ctaFindingSeverity() below for the `fallback` shape — see its comment
+// for why `missing` never reaches this table.
+const CTA_KIND_SEVERITY = { defect: 'P1', undeterminable: 'P1', environment: 'P2' };
+
+// backlog 183 (verifier round 3) — severity by SHAPE first, kind second.
+// 182's renderProtocolCtaBlock() (PoolDetail.js:161-207) ALWAYS returns one
+// of the two CTA buttons, whether or not any protocol-URL tier resolves for
+// the pool's project — so protocol-URL provenance has ZERO causal
+// relationship to why `.cta-button-protocol` would be genuinely
+// ABSENT/invisible (a render crash, a CSS bug, the block never invoked). A
+// `missing` shape can therefore never be legitimately explained — let alone
+// downgraded — by protocol-URL resolution: it stays P1, blocking, ALWAYS,
+// whatever classifyCtaKind() returns. Only `fallback` (the element IS
+// present/visible, just not the real CTA — exactly what provenance DOES
+// explain) is eligible for the `environment` downgrade. Pulled out as its
+// own pure/exported function (not left inline in the driver) so this
+// asymmetry is directly testable and neuterable, same as classifyCtaKind()
+// itself — the failure this guards against is identical in kind to the one
+// spec 183 was written to prevent: "A run in which every dead-cta is
+// auto-downgraded without evidence is the failure this item exists to
+// prevent."
+function ctaFindingSeverity(shape, kind) {
+  if (shape === 'missing') return 'P1';
+  return CTA_KIND_SEVERITY[kind];
+}
+
+// backlog 183 leg (a) — the real protocol CTA and 182's honest DefiLlama
+// fallback share the exact `.cta-button-protocol` class/DOM shape (only the
+// copy differs), so the shape discriminator reads the adjacent
+// `.pool-action-hint--muted` hint text and matches it against
+// translations.js's `opensDefillamaFallback` string in BOTH languages —
+// pool-detail-ko is an audited surface, so an EN-only marker would silently
+// go blind on it.
+const FALLBACK_HINT_MARKERS = [
+  'No protocol link available', // en — translations.js opensDefillamaFallback
+  '프로토콜 링크 없음'             // ko — translations.js opensDefillamaFallback
+];
+
+// backlog 183 leg (b) — co-located with audit-findings.json
+// (product-loop-kit/signals/), which the heartbeat already commits daily, so
+// rotation state costs zero additional deploys (spec 183 T5 / the 087
+// churn-trap precedent) rather than a new commit cadence.
+const DEFAULT_ROTATION_STATE_PATH = path.join(ROOT, 'product-loop-kit', 'signals', 'audit-rotation.json');
+// Bounded, drop-oldest on overflow (spec 183 §1). INVARIANT (operator
+// review, round 2): this MUST stay strictly greater than the real
+// rotation-candidate population (snapshot pool count minus the anchor and
+// any prescan-promoted ids — 737 pools on this checkout, so ~735 candidates)
+// or `unseen` can never reach zero, `computeRotation()`'s wrap branch (and
+// therefore `cycle` ever incrementing, and the "log the rotation position so
+// a reader can tell coverage from luck" signal) becomes permanently dead
+// code on real data — a cap of 500 against ~735 candidates was exactly this
+// bug. 2000 gives headroom for real snapshot growth while staying a bounded,
+// small file (~40 bytes/id ⇒ ~80KB at the cap) that costs nothing extra to
+// commit (the file already rewrites daily). test_audit_cta_provenance.js
+// asserts this invariant against the REAL data/pools-snapshot.json so a
+// future snapshot outgrowing the cap fails loudly instead of silently
+// killing the wrap branch again.
+const ROTATION_SEEN_CAP = 2000;
+
 // Non-HTML text-surface prescan (backlog 160): llms.txt/llms-full.txt are
 // generated/committed/served surfaces prescanStaticPages() never reads
 // (evidence: 159 published 353,114.2% APY live, caught only by hand). Same
@@ -1511,6 +1574,164 @@ function poolIdPrefix(id) {
   return s.slice(0, POOL_ID_PREFIX_LEN) || 'unknown';
 }
 
+// ---------------------------------------------------------------------------
+// backlog 183 leg (a) — disk-side protocol-URL provenance.
+//
+// getProtocolUrl() (app.js:2489, item 182) resolves in order: pool.url ->
+// dynamicProtocolUrls (api.llama.fi/protocols, blocked in this harness) ->
+// bakedProtocolUrls (our own committed data/protocol-urls.json, fetched from
+// OUR origin) -> the static PROTOCOL_URLS literal (app.js:7) -> null. The
+// baked artifact is generated from api.llama.fi ALONE (generate-protocol-
+// urls.js never reads PROTOCOL_URLS — spec 183 T3), so it is not a superset
+// of the static map: classification must consult BOTH disk-side tiers or it
+// will emit a false `defect` for any project covered only by the
+// hand-maintained static map. Both readers degrade to `null` on any failure
+// (missing file, malformed JSON, unparsable literal) — never throw — so a
+// broken artifact routes to `undeterminable`, not a false `defect`.
+// ---------------------------------------------------------------------------
+function readBakedProtocolUrls() {
+  try {
+    const raw = fs.readFileSync(path.join(ROOT, 'data', 'protocol-urls.json'), 'utf8');
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object' || !parsed.urls || typeof parsed.urls !== 'object') return null;
+    return { keys: new Set(Object.keys(parsed.urls)) };
+  } catch (e) {
+    return null;
+  }
+}
+
+// Extracts app.js's static `const PROTOCOL_URLS = { ... };` object literal
+// (~96 double-quoted string pairs, ending at the first `};` at column 0 —
+// spec 183 evidence) and evaluates JUST that substring — never the whole
+// file — so this reads app.js without ever executing product code. Degrades
+// to null on any failure (marker not found, unbalanced literal, eval
+// throws): read-only, must never throw out of this function.
+function readStaticProtocolUrls() {
+  try {
+    const src = fs.readFileSync(path.join(ROOT, 'app.js'), 'utf8');
+    const marker = 'const PROTOCOL_URLS = {';
+    const startIdx = src.indexOf(marker);
+    if (startIdx === -1) return null;
+    const openBraceIdx = startIdx + marker.length - 1; // index of the '{'
+    const closeIdx = src.indexOf('\n};', openBraceIdx); // the object's own close (flat literal, no nesting)
+    if (closeIdx === -1) return null;
+    const objLiteral = src.slice(openBraceIdx, closeIdx + 2); // '{ ... }' inclusive
+    const obj = new Function('return (' + objLiteral + ')')();
+    if (!obj || typeof obj !== 'object') return null;
+    return { keys: new Set(Object.keys(obj)) };
+  } catch (e) {
+    return null;
+  }
+}
+
+// Both disk-side lookups use the same two key shapes: the slugified form
+// getProtocolUrl() actually keys the baked artifact by, and the raw project
+// string (the static map's real-world keys, e.g. "lido").
+function projectHasUrl(tierKeys, project) {
+  if (!tierKeys || !project) return false;
+  const slug = String(project).toLowerCase().replace(/\s+/g, '-');
+  return tierKeys.has(slug) || tierKeys.has(project);
+}
+
+// backlog 183 leg (a) — the classification decision rule. Branch ORDER is
+// load-bearing: each of the four kinds is reachable through exactly one
+// explicit check, `environment` (the only downgrade) LAST among the
+// non-undeterminable branches so it can never be a silent fallthrough
+// default (spec 183's non-vacuity contract — a classifier that can only ever
+// emit `environment` has removed the gate, not fixed it).
+//   1. disk-side undeterminable (either reader above returned null) OR the
+//      run-side signal for the baked fetch is itself indeterminate
+//      ('unknown' — a defensive state, not the common "never requested"
+//      case, see bakedRunOutcome below) -> undeterminable, stays P1.
+//   2. no disk-side tier resolves a URL anywhere -> defect, P1 (the real
+//      `sdai` case, spec 183 T2).
+//   3. a disk-side tier DOES resolve, but THIS run's fetch to our own
+//      /data/protocol-urls.json failed, was blocked, or never arrived
+//      ('failed' | 'absent') -> environment, P2, non-blocking.
+//   4. URL on disk, this run's fetch confirmed ok, CTA still not the real
+//      one -> defect, P1 (a genuine bug, not an environment artifact).
+function classifyCtaKind(opts) {
+  const diskDeterminable = !!(opts && opts.diskDeterminable);
+  const diskTiers = (opts && opts.diskTiers) || [];
+  const bakedRunOutcome = (opts && opts.bakedRunOutcome) || 'unknown';
+  if (!diskDeterminable || bakedRunOutcome === 'unknown') return 'undeterminable';
+  if (diskTiers.length === 0) return 'defect';
+  if (bakedRunOutcome === 'failed' || bakedRunOutcome === 'absent') return 'environment';
+  return 'defect';
+}
+
+// backlog 183 leg (a) — the two request/response listeners this feeds are
+// registered by setupRoutes() BEFORE navigation (mirrors makeErrorSink); this
+// just classifies a response/failed-request URL into the two hosts
+// classification cares about. Returns null for anything else so callers can
+// ignore it with a single truthiness check.
+function classifyCtaProvenanceUrl(url) {
+  if (/\/data\/protocol-urls\.json(\?|$)/.test(url)) return 'bakedProtocolUrls';
+  if (/api\.llama\.fi\/protocols(\?|$)/.test(url)) return 'dynamicProtocols';
+  return null;
+}
+
+// ---------------------------------------------------------------------------
+// backlog 183 leg (b) — never-audited-first pool-detail rotation.
+//
+// Pure over `candidates` (already excludes the anchor + promoted-suspect ids
+// — same set buildPoolSurfaces() sampled from before) + `state.seen` (full
+// pool ids from the committed rotation file). No fs, no Date, no
+// Math.random — directly unit-testable, and it's how buildPoolSurfaces()
+// stays testable without ever touching the real state file (spec 183's
+// test-safety requirement).
+// ---------------------------------------------------------------------------
+function computeRotation(candidates, sampleSize, seed, state) {
+  const sortedCandidates = candidates.slice().sort();
+  const seenSet = new Set(state && Array.isArray(state.seen) ? state.seen : []);
+  const priorCycle = Number(state && state.cycle) || 0;
+  const unseen = sortedCandidates.filter((id) => !seenSet.has(id));
+
+  let wrapped = false;
+  let pickPool = unseen;
+  if (sortedCandidates.length > 0 && unseen.length === 0) {
+    // Every candidate has already been seen this cycle: wrap. This pick
+    // treats the whole candidate set as fresh; the state this run commits
+    // resets `seen` to just what got audited THIS run (buildPoolSurfaces
+    // below), so the next cycle's accumulation starts from scratch.
+    wrapped = true;
+    pickPool = sortedCandidates;
+  }
+
+  let picked = sampleBySeed(pickPool, Math.min(sampleSize, pickPool.length), seed);
+  if (!wrapped && picked.length < sampleSize) {
+    // Unseen ran out mid-pick (cycle nearly complete, but not every
+    // candidate is seen yet): fill the remainder from already-seen
+    // candidates, still deterministically, per spec 183 §2 ("fill from seen
+    // only when unseen is exhausted").
+    const pickedSet = new Set(picked);
+    const seenCandidates = sortedCandidates.filter((id) => seenSet.has(id) && !pickedSet.has(id));
+    const remaining = sampleSize - picked.length;
+    picked = picked.concat(sampleBySeed(seenCandidates, remaining, `${seed}:fill`));
+  }
+
+  return { picked, wrapped, cycle: wrapped ? priorCycle + 1 : priorCycle };
+}
+
+// Reads the committed rotation state (spec 183 §1 shape), defaulting to a
+// fresh cycle-0/empty-seen state on any read/parse failure (missing file on
+// a first run, corrupt file, wrong shape) — never throws, mirrors every
+// other prescan reader's degrade-to-empty convention.
+function readRotationState(statePath) {
+  try {
+    const raw = fs.readFileSync(statePath, 'utf8');
+    const parsed = JSON.parse(raw);
+    if (parsed && typeof parsed === 'object' && Array.isArray(parsed.seen)) {
+      return { schemaVersion: 1, cycle: Number(parsed.cycle) || 0, seen: parsed.seen.filter((x) => typeof x === 'string') };
+    }
+  } catch (e) { /* fall through to fresh state */ }
+  return { schemaVersion: 1, cycle: 0, seen: [] };
+}
+
+function emptyPoolRotationResult() {
+  return { cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false };
+}
+
 // Builds the pool-detail promotion/rotation additions (spec 167 §2) and
 // resolves the anchor pool id (replaces the old PREFERRED_POOL_ID-only
 // block). Returns `{ anchorPoolId, extraSurfaces, poolPrescan,
@@ -1555,7 +1776,12 @@ function buildPoolSurfaces(opts = {}) {
     const extraSurfaces = ids.slice(1).map((id) => ({
       name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280
     }));
-    return { anchorPoolId, extraSurfaces, poolPrescan: emptyPoolPrescanResult(), poolPrescanFindings: [], poolPrescanSuspects: [] };
+    // backlog 183 leg (b): override mode is used verbatim, exactly like
+    // prescan — no rotation state is read or written in this mode.
+    return {
+      anchorPoolId, extraSurfaces, poolPrescan: emptyPoolPrescanResult(), poolPrescanFindings: [], poolPrescanSuspects: [],
+      poolRotation: emptyPoolRotationResult(), rotationState: null, rotationStatePath: null
+    };
   }
 
   // Anchor resolution — unchanged logic, unchanged fallback (spec 167 §2).
@@ -1641,18 +1867,48 @@ function buildPoolSurfaces(opts = {}) {
     name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280
   }));
 
-  // ---- Seeded rotation — additive to promotion, see header note above -----
+  // ---- Never-audited-first rotation (backlog 183 leg b) — additive to
+  // promotion, see header note above. Replaces the old bare
+  // sampleBySeed(rotationCandidates, ...) call: same candidate set (anchor +
+  // promoted excluded, exactly as before — T4's "promotion path, the anchor
+  // block, and the existing surface names stay untouched"), but now prefers
+  // ids never seen in the committed state file, only falling back to
+  // already-seen ids once the unseen pool is exhausted.
   const promotedSet = new Set(promotedIds);
   const rotationCandidates = pools
     .filter((p) => p && p.pool !== anchorPoolId && !promotedSet.has(p.pool))
     .map((p) => p.pool)
     .sort();
-  const rotationPicks = sampleBySeed(rotationCandidates, sampleSize, `${seed}:pools`);
+
+  const rotationStatePath = opts.rotationStatePath || process.env.AUDIT_ROTATION_STATE || DEFAULT_ROTATION_STATE_PATH;
+  // opts.rotationState lets tests drive buildPoolSurfaces() as a pure
+  // function with no fs read at all; the CLI/real run falls back to reading
+  // the committed file.
+  const priorRotationState = opts.rotationState || readRotationState(rotationStatePath);
+  const rot = computeRotation(rotationCandidates, sampleSize, `${seed}:pools`, priorRotationState);
+  const rotationPicks = rot.picked;
   for (const id of rotationPicks) {
     extraSurfaces.push({ name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280 });
   }
 
-  return { anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings, poolPrescanSuspects };
+  // Every pool id that got a pool-detail surface THIS run — anchor,
+  // prescan-promoted, AND rotation-picked — is recorded into `seen` (spec
+  // 183 §2), regardless of which of the three reasons put it on the page.
+  const thisRunPoolIds = [anchorPoolId, ...promotedIds, ...rotationPicks].filter(Boolean);
+  const baseSeen = rot.wrapped ? [] : priorRotationState.seen.slice();
+  let newSeen = baseSeen.concat(thisRunPoolIds.filter((id) => !baseSeen.includes(id)));
+  if (newSeen.length > ROTATION_SEEN_CAP) newSeen = newSeen.slice(newSeen.length - ROTATION_SEEN_CAP); // drop-oldest
+  const rotationState = { schemaVersion: 1, cycle: rot.cycle, seen: newSeen };
+
+  const poolRotation = {
+    cycle: rot.cycle,
+    seenCount: newSeen.length,
+    candidateCount: rotationCandidates.length,
+    picked: rotationPicks.slice(),
+    wrapped: rot.wrapped
+  };
+
+  return { anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings, poolPrescanSuspects, poolRotation, rotationState, rotationStatePath };
 }
 
 // ---------------------------------------------------------------------------
@@ -1817,7 +2073,24 @@ async function waitForSelector(page, selector, timeoutMs) {
 // ---------------------------------------------------------------------------
 // Per-page route setup (mirrors the reference test).
 // ---------------------------------------------------------------------------
-async function setupRoutes(page, { snapshotBody, freshMeta, liveBody, forceLive, liveDelayMs }) {
+async function setupRoutes(page, { snapshotBody, freshMeta, liveBody, forceLive, liveDelayMs, ctaProvenance }) {
+  // backlog 183 leg (a) — run-side provenance for the pool-detail protocol
+  // CTA. Registered here, before any route/navigation, alongside the other
+  // page-wide listeners this function already owns (mirrors makeErrorSink's
+  // page.on('pageerror'/'console') placement) so neither request timing nor
+  // navigation order can race past it. `ctaProvenance` is a plain object the
+  // caller owns and mutates by reference — no return value needed.
+  if (ctaProvenance) {
+    page.on('response', (res) => {
+      const key = classifyCtaProvenanceUrl(res.url());
+      if (key) ctaProvenance[key] = res.ok() ? 'ok' : 'failed';
+    });
+    page.on('requestfailed', (req) => {
+      const key = classifyCtaProvenanceUrl(req.url());
+      if (key) ctaProvenance[key] = 'failed';
+    });
+  }
+
   for (const [url, lp] of Object.entries(UNPKG_VENDOR)) {
     await page.route(url, (r) => r.fulfill({ status: 200, contentType: 'application/javascript', body: fs.readFileSync(lp) }));
   }
@@ -1874,8 +2147,35 @@ async function main(browser, baseUrl, s, ctx) {
 
   if (s.dark) await page.addInitScript(() => { try { localStorage.setItem('theme', 'dark'); } catch (e) {} });
 
+  // backlog 183 leg (a) — starts 'absent' (no response/requestfailed event
+  // observed yet); setupRoutes()'s listeners below mutate this in place as
+  // the page loads. Only the pool-detail driver reads it, but it costs
+  // nothing to track on every surface.
+  //
+  // Why 'absent' at classification time is safe to trust as "never arrived"
+  // (operator review, round 2 — the environment branch's only legitimate
+  // entry): app.js fires the `/data/protocol-urls.json` fetch unconditionally
+  // at PoolDetail mount with NO delay (app.js ~1276, "must win the race
+  // against the multi-MB live /pools fetch"), and setupRoutes() registers NO
+  // `page.route` for that URL — it is never intercepted, so it always falls
+  // through to the audit's own local static server (startServer() above),
+  // which answers every request synchronously via fs.readFile. There is no
+  // real network hop, no real host that can silently swallow the request, so
+  // a real run always eventually produces a 'response' (ok or non-2xx) event
+  // for it. The one real risk is a MEASUREMENT race, not a network one:
+  // `waitForSelector('.pool-detail-view', ...)` can resolve on the page's
+  // very first paint, before the mount effect above has even called
+  // `fetch()` — reading `ctaProvenance` at that instant would see 'absent'
+  // even though the fetch is about to succeed, misreporting a timing
+  // artifact as "blocked". The classification site below closes exactly
+  // this gap with a short settle-wait (this file's own trap #2 pattern —
+  // poll before asserting) so 'absent' AT THE POINT OF CLASSIFICATION really
+  // does mean "never arrived within a generous window", matching what the
+  // environment branch's wording describes — not "we sampled too early".
+  const ctaProvenance = { bakedProtocolUrls: 'absent', dynamicProtocols: 'absent' };
+
   try {
-    await setupRoutes(page, { ...ctx, forceLive: s.forceLive, liveDelayMs: s.liveDelayMs });
+    await setupRoutes(page, { ...ctx, forceLive: s.forceLive, liveDelayMs: s.liveDelayMs, ctaProvenance });
     const url = baseUrl + s.url;
 
     if (s.kind === 'loading') {
@@ -2099,9 +2399,91 @@ async function main(browser, baseUrl, s, ctx) {
       const href = await primary.getAttribute('href');
       if (!href) findings.push(finding(s.name, s.vpLabel, 'dead-cta', 'P1', '.cta-button-primary has no href to resolve'));
     }
+    // backlog 183 leg (a) — item 182 made `.cta-button-protocol` ALWAYS
+    // render (the real "Start Earning" CTA when any tier resolves, else an
+    // honest DefiLlama fallback under the SAME class), which made the plain
+    // presence/visibility check above permanently blind in one direction
+    // (spec 183 T1): a pool with no protocol URL now renders the fallback
+    // and audits clean. Read the CTA's SHAPE, not just its presence.
     const protocol = page.locator('.cta-button-protocol').first();
-    if ((await protocol.count()) === 0 || !(await protocol.isVisible())) {
-      findings.push(finding(s.name, s.vpLabel, 'dead-cta', 'P1', '"Start Earning" (.cta-button-protocol) missing or not visible'));
+    const protocolExists = (await protocol.count()) > 0;
+    const protocolVisible = protocolExists && (await protocol.isVisible());
+    // backlog 183 (verifier round 3) — `ctaShape` is captured HERE, before
+    // the settle-wait a few lines below, and never re-read after it: a slow
+    // React re-render could in theory sample the page mid-transition and
+    // read `fallback` for a pool that goes on to render the real CTA a beat
+    // later. This is a deliberate, accepted asymmetry, not an oversight —
+    // the residual error only ever moves TOWARD reporting a finding that
+    // isn't real (a false positive a human can dismiss), never toward
+    // hiding a genuine one, so it does not get a behavior change here.
+    let ctaShape = 'missing';
+    if (protocolVisible) {
+      // The real CTA and the fallback share DOM shape; only the adjacent
+      // hint paragraph's copy differs (translations.js opensProtocol vs
+      // opensDefillamaFallback) — checked in BOTH languages since
+      // pool-detail-ko is an audited surface.
+      const hintText = (await page.locator('.pool-action-hint--muted').first().textContent().catch(() => '')) || '';
+      ctaShape = FALLBACK_HINT_MARKERS.some((marker) => hintText.includes(marker)) ? 'fallback' : 'protocol';
+    }
+
+    if (ctaShape !== 'protocol') {
+      // Provenance is only computed when the CTA is NOT the real one — a
+      // clean real-CTA render needs no explanation.
+
+      // backlog 183 — settle-wait closing the initial-paint race documented
+      // at ctaProvenance's declaration above: only pay this when the value
+      // is STILL 'absent' by the time we get here (rare — several CDP
+      // round-trips for auditText()/the primary-CTA checks/the shape read
+      // already elapsed first), and it resolves near-instantly in the
+      // common case since the fetch target is our own local server, not a
+      // real network hop. 2s is generous, not a real-world budget: it only
+      // ever gets spent on the rare pool that both races AND ends up
+      // degraded.
+      if (ctaProvenance && ctaProvenance.bakedProtocolUrls === 'absent') {
+        await pollFor(page, async () => ctaProvenance.bakedProtocolUrls !== 'absent', 2000);
+      }
+
+      const poolIdMatch = s.url.match(/[?&]pool=([^&]+)/);
+      const currentPoolId = poolIdMatch ? decodeURIComponent(poolIdMatch[1]) : null;
+      const currentPool = currentPoolId && ctx.poolsById ? ctx.poolsById.get(currentPoolId) : null;
+      const project = currentPool ? currentPool.project : null;
+
+      const baked = readBakedProtocolUrls();
+      const staticMap = readStaticProtocolUrls();
+      const diskDeterminable = !!(baked && staticMap);
+      const diskTiers = [];
+      if (diskDeterminable) {
+        if (projectHasUrl(baked.keys, project)) diskTiers.push('baked');
+        if (projectHasUrl(staticMap.keys, project)) diskTiers.push('static');
+      }
+      const bakedRunOutcome = ctaProvenance ? ctaProvenance.bakedProtocolUrls : 'unknown';
+      const kind = classifyCtaKind({ diskDeterminable, diskTiers, bakedRunOutcome });
+      // ctaFindingSeverity(), not a bare CTA_KIND_SEVERITY[kind] lookup —
+      // see its comment: a `missing` shape must stay P1 regardless of `kind`.
+      const severity = ctaFindingSeverity(ctaShape, kind);
+
+      let detail = `provenance: project="${project || 'unknown'}", disk tiers=[${diskTiers.join(', ') || 'none'}]` +
+        (diskDeterminable ? '' : ' (disk-side undeterminable — artifact/static-map unreadable)') +
+        `, this run's /data/protocol-urls.json fetch=${bakedRunOutcome}, kind=${kind}`;
+
+      if (ctaShape === 'missing') {
+        findings.push(finding(s.name, s.vpLabel, 'dead-cta', severity,
+          `"Start Earning"/DefiLlama-fallback (.cta-button-protocol) missing or not visible — ${detail}`));
+      } else {
+        // ctaShape === 'fallback': the element IS present/visible (182's
+        // honest DefiLlama fallback), but that means the real north-star CTA
+        // (protocol_link) did not fire for this pool — a separate check from
+        // `dead-cta` (which 182 made permanently blind to this, spec 183 T1),
+        // carrying the same provenance + kind.
+        if (kind === 'environment') {
+          // Mirrors reconcilePrescanFindings()'s reconciliation wording
+          // (audit-app.js ~2219: "— reconciled: ...; downgraded to
+          // non-blocking.") so both downgrade mechanisms read the same way.
+          detail += ` — reconciled: a disk-side tier resolves this project, but this run's fetch to /data/protocol-urls.json did not confirm it (${bakedRunOutcome}); downgraded to non-blocking.`;
+        }
+        findings.push(finding(s.name, s.vpLabel, 'degraded-cta', severity,
+          `DefiLlama fallback rendered instead of the protocol CTA (.cta-button-protocol) — ${detail}`));
+      }
     }
 
     // Check 5 — i18n.
@@ -2251,7 +2633,10 @@ async function runAudit(opts = {}) {
   const poolResult = buildPoolSurfaces({
     pools, poolIds: opts.poolIds, poolPrescan: opts.poolPrescan,
     poolPrescanMax: opts.poolPrescanMax, poolSample: opts.poolSample,
-    poolSeed: opts.poolSeed, staticSeed: opts.staticSeed
+    poolSeed: opts.poolSeed, staticSeed: opts.staticSeed,
+    // backlog 183 leg (b) — forwarded so a test can drive rotation against a
+    // temp path/in-memory state without ever touching the committed file.
+    rotationStatePath: opts.rotationStatePath, rotationState: opts.rotationState
   });
   const poolId = poolResult.anchorPoolId;
 
@@ -2368,7 +2753,11 @@ async function runAudit(opts = {}) {
   const server = await startServer(port);
   const browser = await pw.chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   const baseUrl = `http://localhost:${port}`;
-  const ctx = { snapshotBody, freshMeta, liveBody };
+  // backlog 183 leg (a) — id -> pool lookup so the pool-detail driver can
+  // read the rendered surface's `project` without any DOM guesswork (the
+  // fallback-shape CTA carries no project name in its own text).
+  const poolsById = new Map(pools.map((p) => [p.pool, p]));
+  const ctx = { snapshotBody, freshMeta, liveBody, poolsById };
   const findings = [...prescanFindings, ...poolPrescanFindings, ...textSurfaceFindings];
   const surfacesCovered = [];
   // Named only when the pass ran AND survived opts.only (spec 160: unlike
@@ -2416,6 +2805,23 @@ async function runAudit(opts = {}) {
     findingsBySurface
   });
 
+  // backlog 183 leg (b) — persist the rotation state ONLY when the caller
+  // opted in (opts.persistRotationState, set true by the CLI entry point
+  // ONLY — see require.main===module below). Every library call to
+  // runAudit() (every existing test_audit_*.js call site, plus any future
+  // one) leaves this false by default, so it can never write the committed
+  // file. Write only if the serialized bytes actually differ from what's on
+  // disk — two consecutive no-change runs produce zero diff.
+  if (opts.persistRotationState && poolResult.rotationState && poolResult.rotationStatePath) {
+    const serializedRotation = JSON.stringify(poolResult.rotationState, null, 2) + '\n';
+    let existingRotation = null;
+    try { existingRotation = fs.readFileSync(poolResult.rotationStatePath, 'utf8'); } catch (e) { /* first run */ }
+    if (existingRotation !== serializedRotation) {
+      fs.mkdirSync(path.dirname(poolResult.rotationStatePath), { recursive: true });
+      fs.writeFileSync(poolResult.rotationStatePath, serializedRotation);
+    }
+  }
+
   const result = {
     generatedAt: new Date().toISOString(),
     status: 'OK',
@@ -2424,6 +2830,7 @@ async function runAudit(opts = {}) {
     findings,
     prescan: staticResult.prescan,
     poolPrescan: poolResult.poolPrescan,
+    poolRotation: poolResult.poolRotation,
     textSurfaces
   };
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
@@ -2440,7 +2847,21 @@ function blockingFindings(findings) {
 module.exports = {
   runAudit, scanNumbers, resolvePlaywright, blockingFindings,
   prescanStaticPages, prescanTextSurfaces, prescanPools, buildPoolSurfaces,
-  buildStaticSurfaces, reconcilePrescanFindings
+  buildStaticSurfaces, reconcilePrescanFindings,
+  // backlog 183 — exported so test_audit_cta_provenance.js can drive the
+  // classifier and the rotation picker directly as pure functions, exactly
+  // how reconcilePrescanFindings() is already exported for 171's tests.
+  classifyCtaKind, computeRotation, readBakedProtocolUrls, readStaticProtocolUrls,
+  projectHasUrl, readRotationState,
+  // backlog 183 (verifier round 3) — exported so the shape-then-kind
+  // severity rule (missing always P1, fallback eligible for the
+  // environment downgrade) is directly testable, not just exercised inline
+  // in the page driver.
+  ctaFindingSeverity,
+  // backlog 183 — exported so test_audit_cta_provenance.js can assert the
+  // cap-must-exceed-real-population invariant directly against
+  // data/pools-snapshot.json (see ROTATION_SEEN_CAP's own comment).
+  ROTATION_SEEN_CAP
 };
 
 if (require.main === module) {
@@ -2458,7 +2879,11 @@ if (require.main === module) {
   // backlog 162 — CLI wiring for the existing opts.only / opts.staticOnly
   // knobs (already used by every test file via a direct runAudit() call, but
   // never exposed on the command line): `--only=a,b,c` and `--static-only`.
-  const cliOpts = {};
+  // backlog 183 leg (b): rotation-state persistence is opt-in and ONLY ever
+  // enabled here — the real CLI entry point — never by a library
+  // runAudit() call (test safety, see runAudit()'s own comment at the write
+  // site).
+  const cliOpts = { persistRotationState: true };
   for (const arg of process.argv.slice(2)) {
     if (arg === '--static-only') cliOpts.staticOnly = true;
     else if (arg.startsWith('--only=')) {
@@ -2472,6 +2897,11 @@ if (require.main === module) {
       console.log('\n[audit] surfaces covered: ' + result.surfacesCovered.join(', '));
       const blocking = blockingFindings(result.findings);
       console.log(`[audit] findings: ${result.findings.length} total, ${blocking.length} blocking (P0/P1)`);
+      // backlog 183 leg (b) — coverage from a reader's own eyes, not luck:
+      // cycle/seenCount/candidateCount let a reader tell real rotation
+      // progress from incidental selection without a code read.
+      const rot = result.poolRotation || {};
+      console.log(`[audit] pool rotation: cycle ${rot.cycle}, seen ${rot.seenCount}/${rot.candidateCount} candidates, picked [${(rot.picked || []).join(', ')}], wrapped=${!!rot.wrapped}`);
       process.exit(blocking.length > 0 ? 1 : 0);
     })
     .catch((err) => {

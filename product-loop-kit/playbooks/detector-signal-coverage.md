@@ -162,7 +162,46 @@ committing to a design.
   audit) before treating red-audit-on-main as a blocker. A red audit whose findings are true is the product
   working.
 
+## The inverse case: a REPAIR upstream can blind a detector without touching it (item 183)
+
+Everything above is about a detector too narrow from birth. There is a second way to go blind, and it
+looks like good news while it happens: **someone fixes the product defect by making the failure mode
+render something instead of nothing, reusing the same selector.** The detector's alarm goes quiet — which
+reads as "fixed" — and in the same edit the detector loses the ability to see the failure at all.
+
+Real instance: item 182 changed `PoolDetail.js`'s `renderProtocolCtaBlock()` so `.cta-button-protocol`
+**always** renders — the real "Start Earning" CTA when a URL tier resolves, an honest DefiLlama fallback
+when none does. `audit-app.js`'s check asked "is `.cta-button-protocol` present and visible?". After 182
+the answer is *always yes*. The daily P1 vanished (1 finding, 0 blocking) **and** a pool where the
+north-star `protocol_link` emitter does not exist now audits clean. Not one line of `audit-app.js`
+changed.
+
+**Steps — when a long-running finding goes quiet:**
+1. Find the commit that quieted it (`git log -S'<the selector or copy the check asserts>' -- <product file>`).
+   A detector that goes green with no detector change means the *product* changed.
+2. Read the repair. Ask the one question that matters: **does the failure mode now render something the
+   detector's predicate accepts?** Same class, same selector, same test id — all are the tell.
+3. Decision rule: if the failure now renders a *different shape under the same selector* → the detector
+   must assert the **shape**, not the presence. If the failure now renders *nothing different* → the
+   repair genuinely closed the class, and the detector is fine.
+4. Re-derive the check from what the surface is supposed to *prove* (here: "the north-star CTA exists"),
+   not from the DOM node it used to be absent from.
+
+**Traps:**
+- **A quiet gate is not evidence of a fixed product.** Prefer "why did this go quiet?" over "good, it's
+  green" — especially the run right after a related item merged.
+- **Don't let the newly-visible failure be auto-downgraded by the old finding's excuse.** When you add
+  provenance/classification to explain a finding, scope the downgrade to the shape it causally explains.
+  183 initially applied one kind→severity table to *both* shapes, which would have downgraded a genuinely
+  **absent** element using protocol-URL evidence that has no causal link to why it vanished. The verifier
+  caught it. Severity must be shape-first, kind-second.
+- **The honest fallback is still a defect on the metric surface.** 182's DefiLlama fallback is correct
+  product behaviour *and* means half the north star is absent on that page. Both are true; the detector's
+  job is to say so, not to pick a side.
+
 **Provenance:** distilled from item 169 (`specs/169.md`, `169-notes.md`) — the `link-target-integrity` signal —
 generalising the pattern named in its backlog row and previously hit by items 148 → 159/160 → 166/167.
 Extended by item 175 (`specs/175.md` Territory notes T1–T8, `175-notes.md`): the three-level model, the
-population-completeness rule, and the stale-clean-assertion trap.
+population-completeness rule, and the stale-clean-assertion trap. Extended by item 183 (`specs/183.md`
+Territory notes T1, `183-notes.md`): the repair-blinds-the-detector inverse case and the shape-first
+severity rule.
