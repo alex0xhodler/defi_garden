@@ -16,12 +16,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/base</loc>
+    <loc>https://www.defi.garden/ko/chains/bsc</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bsc</loc>
+    <loc>https://www.defi.garden/ko/chains/base</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -91,12 +91,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/cronos</loc>
+    <loc>https://www.defi.garden/ko/chains/sui</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/sui</loc>
+    <loc>https://www.defi.garden/ko/chains/cronos</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -136,12 +136,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/stable</loc>
+    <loc>https://www.defi.garden/ko/chains/berachain</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/berachain</loc>
+    <loc>https://www.defi.garden/ko/chains/stable</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>daily</changefreq>
   </url>
