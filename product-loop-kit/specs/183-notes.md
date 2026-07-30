@@ -75,6 +75,28 @@ so always produces a `response`/`requestfailed` event) but found a genuine **mea
 away: a 2s `pollFor` settle-wait runs before classification, and only when the value is still `'absent'`
 at that point.
 
+## Verifier round 3 — one real relaxation caught, and it was the item's own failure mode
+
+The verifier returned **FAIL** on the "the downgrade cannot be vacuous" criterion, and it was right.
+`severity = CTA_KIND_SEVERITY[kind]` was applied identically to both shapes. But 182's
+`renderProtocolCtaBlock()` always returns one of the two buttons, so a genuinely **missing**
+`.cta-button-protocol` can only mean a defect unrelated to protocol-URL resolution — a render crash, a
+CSS bug, the block never invoked. Protocol-URL provenance has **zero causal relationship** to why that
+element vanished, yet a missing CTA would have been downgraded to non-blocking P2 whenever a disk tier
+happened to resolve for that project and this run's own fetch read `failed`/`absent`. That is precisely
+the failure the spec names — *"A run in which every dead-cta is auto-downgraded without evidence is the
+failure this item exists to prevent"* — reintroduced by the item that was written to prevent it.
+
+Fixed by making severity **shape-first, kind-second**: a new pure, exported `ctaFindingSeverity(shape,
+kind)` returns P1 unconditionally for `missing`, and only `fallback` findings consult
+`CTA_KIND_SEVERITY`. Pulled out as its own function rather than left inline so the asymmetry is testable
+and neuterable — four new tests (20 total), including one that holds `kind` constant at `environment` and
+varies only the shape, so the two severities must differ. Bypassing the guard reddens exactly those
+tests; md5 identical after restore.
+
+Worth recording as a pattern: this item's own gate-relaxation risk materialised **inside the item**, and
+neither the builder's tests nor the operator's diff review caught it. The adversarial verifier did.
+
 ## Real-data demonstration — the `defect` branch, live
 
 ```

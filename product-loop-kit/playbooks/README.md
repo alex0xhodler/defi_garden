@@ -41,3 +41,4 @@ Provenance: <the LOG/spec entry this was distilled from>
 - `test-gate-observability.md` — before saying "tests green": count what ran, and tell environmental reds from real ones (item 163)
 - `mode-enumeration-staleness.md` — an element is dead/duplicated on ONE route because a mode-conditional rule enumerates only the modes that existed when it was written (item 179)
 - `third-party-render-dependency.md` — a user-facing element is conditionally rendered on data from a host we don't control, and the fetch is documented as allowed to fail (item 182)
+- `detector-signal-coverage.md` — a checker was green while a real bug shipped on a surface it covers; also the inverse, where a repair upstream blinds the detector without touching it (items 169/175/183)
