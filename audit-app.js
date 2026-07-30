@@ -203,8 +203,32 @@ const POOL_PRESCAN_SIGNALS = {
 // backlog 183 leg (a) — provenance/classification kind -> severity, same
 // role as POOL_PRESCAN_SIGNALS above. `environment` is the only downgrade;
 // `defect` and `undeterminable` both stay blocking (spec 183's non-vacuity
-// contract: the downgrade must never be the silent default).
+// contract: the downgrade must never be the silent default). Only consulted
+// via ctaFindingSeverity() below for the `fallback` shape — see its comment
+// for why `missing` never reaches this table.
 const CTA_KIND_SEVERITY = { defect: 'P1', undeterminable: 'P1', environment: 'P2' };
+
+// backlog 183 (verifier round 3) — severity by SHAPE first, kind second.
+// 182's renderProtocolCtaBlock() (PoolDetail.js:161-207) ALWAYS returns one
+// of the two CTA buttons, whether or not any protocol-URL tier resolves for
+// the pool's project — so protocol-URL provenance has ZERO causal
+// relationship to why `.cta-button-protocol` would be genuinely
+// ABSENT/invisible (a render crash, a CSS bug, the block never invoked). A
+// `missing` shape can therefore never be legitimately explained — let alone
+// downgraded — by protocol-URL resolution: it stays P1, blocking, ALWAYS,
+// whatever classifyCtaKind() returns. Only `fallback` (the element IS
+// present/visible, just not the real CTA — exactly what provenance DOES
+// explain) is eligible for the `environment` downgrade. Pulled out as its
+// own pure/exported function (not left inline in the driver) so this
+// asymmetry is directly testable and neuterable, same as classifyCtaKind()
+// itself — the failure this guards against is identical in kind to the one
+// spec 183 was written to prevent: "A run in which every dead-cta is
+// auto-downgraded without evidence is the failure this item exists to
+// prevent."
+function ctaFindingSeverity(shape, kind) {
+  if (shape === 'missing') return 'P1';
+  return CTA_KIND_SEVERITY[kind];
+}
 
 // backlog 183 leg (a) — the real protocol CTA and 182's honest DefiLlama
 // fallback share the exact `.cta-button-protocol` class/DOM shape (only the
@@ -2384,6 +2408,14 @@ async function main(browser, baseUrl, s, ctx) {
     const protocol = page.locator('.cta-button-protocol').first();
     const protocolExists = (await protocol.count()) > 0;
     const protocolVisible = protocolExists && (await protocol.isVisible());
+    // backlog 183 (verifier round 3) — `ctaShape` is captured HERE, before
+    // the settle-wait a few lines below, and never re-read after it: a slow
+    // React re-render could in theory sample the page mid-transition and
+    // read `fallback` for a pool that goes on to render the real CTA a beat
+    // later. This is a deliberate, accepted asymmetry, not an oversight —
+    // the residual error only ever moves TOWARD reporting a finding that
+    // isn't real (a false positive a human can dismiss), never toward
+    // hiding a genuine one, so it does not get a behavior change here.
     let ctaShape = 'missing';
     if (protocolVisible) {
       // The real CTA and the fallback share DOM shape; only the adjacent
@@ -2426,7 +2458,9 @@ async function main(browser, baseUrl, s, ctx) {
       }
       const bakedRunOutcome = ctaProvenance ? ctaProvenance.bakedProtocolUrls : 'unknown';
       const kind = classifyCtaKind({ diskDeterminable, diskTiers, bakedRunOutcome });
-      const severity = CTA_KIND_SEVERITY[kind];
+      // ctaFindingSeverity(), not a bare CTA_KIND_SEVERITY[kind] lookup —
+      // see its comment: a `missing` shape must stay P1 regardless of `kind`.
+      const severity = ctaFindingSeverity(ctaShape, kind);
 
       let detail = `provenance: project="${project || 'unknown'}", disk tiers=[${diskTiers.join(', ') || 'none'}]` +
         (diskDeterminable ? '' : ' (disk-side undeterminable — artifact/static-map unreadable)') +
@@ -2819,6 +2853,11 @@ module.exports = {
   // how reconcilePrescanFindings() is already exported for 171's tests.
   classifyCtaKind, computeRotation, readBakedProtocolUrls, readStaticProtocolUrls,
   projectHasUrl, readRotationState,
+  // backlog 183 (verifier round 3) — exported so the shape-then-kind
+  // severity rule (missing always P1, fallback eligible for the
+  // environment downgrade) is directly testable, not just exercised inline
+  // in the page driver.
+  ctaFindingSeverity,
   // backlog 183 — exported so test_audit_cta_provenance.js can assert the
   // cap-must-exceed-real-population invariant directly against
   // data/pools-snapshot.json (see ROTATION_SEEN_CAP's own comment).

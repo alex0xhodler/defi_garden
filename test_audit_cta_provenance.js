@@ -18,7 +18,7 @@ const os = require('os');
 const path = require('path');
 const {
   runAudit, classifyCtaKind, computeRotation, readBakedProtocolUrls,
-  readStaticProtocolUrls, projectHasUrl, ROTATION_SEEN_CAP
+  readStaticProtocolUrls, projectHasUrl, ROTATION_SEEN_CAP, ctaFindingSeverity
 } = require('./audit-app.js');
 
 const ROOT = __dirname;
@@ -102,6 +102,43 @@ async function main() {
       classifyCtaKind({ diskDeterminable: true, diskTiers: ['baked'], bakedRunOutcome: 'unknown' })
     ];
     assert(nonEnvCases.every((k) => k !== 'environment'), `expected zero 'environment' among non-environment fixtures, got: ${JSON.stringify(nonEnvCases)}`);
+  });
+
+  // ===========================================================================
+  // Leg (a) — ctaFindingSeverity(shape, kind): the round-3 verifier fix.
+  // 182 made renderProtocolCtaBlock() ALWAYS render one of the two buttons,
+  // so a `missing` shape can never be causally explained by protocol-URL
+  // provenance — it must stay P1 no matter what `kind` classifyCtaKind()
+  // produced. Only `fallback` (the element present, just not the real CTA)
+  // is eligible for the `environment` downgrade to P2.
+  // ===========================================================================
+
+  await test('severity: a `missing` shape stays P1 even when kind === "environment" (the exact bug the round-3 review caught)', () => {
+    const sev = ctaFindingSeverity('missing', 'environment');
+    assert(sev === 'P1', `expected P1 for a missing CTA regardless of kind, got ${sev} — protocol-URL provenance has no causal link to a genuinely absent element`);
+  });
+
+  await test('severity: a `missing` shape stays P1 for every kind (defect/undeterminable/environment) — not just the environment case', () => {
+    for (const kind of ['defect', 'undeterminable', 'environment']) {
+      const sev = ctaFindingSeverity('missing', kind);
+      assert(sev === 'P1', `expected P1 for missing+${kind}, got ${sev}`);
+    }
+  });
+
+  await test('severity: a `fallback` shape DOES follow kind — environment downgrades to P2, defect/undeterminable stay P1 (non-vacuity: both directions proven)', () => {
+    const env = ctaFindingSeverity('fallback', 'environment');
+    const defect = ctaFindingSeverity('fallback', 'defect');
+    const undeterminable = ctaFindingSeverity('fallback', 'undeterminable');
+    assert(env === 'P2', `expected P2 for fallback+environment, got ${env}`);
+    assert(defect === 'P1', `expected P1 for fallback+defect, got ${defect}`);
+    assert(undeterminable === 'P1', `expected P1 for fallback+undeterminable, got ${undeterminable}`);
+  });
+
+  await test('severity non-vacuity: same `kind` ("environment"), different `shape` -> different severity (proves shape, not just kind, drives the result)', () => {
+    const missing = ctaFindingSeverity('missing', 'environment');
+    const fallback = ctaFindingSeverity('fallback', 'environment');
+    assert(missing === 'P1' && fallback === 'P2' && missing !== fallback,
+      `expected shape to change the outcome for the SAME kind: missing=${missing}, fallback=${fallback}`);
   });
 
   // ===========================================================================
