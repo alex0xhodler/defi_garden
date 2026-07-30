@@ -99,6 +99,13 @@ const path = require('path');
 // the very generator this pass audits (spec 160: that would make the rail
 // check self-fulfilling if the generator's own copy were ever weakened).
 const { APY_SANITY_LIMIT } = require('./src/poller-core.js');
+// backlog 184 — level-2 `?pool=` deep-link liveness signal. 181's
+// DRIFT_BUDGET_FRACTION/STALE_AFTER_DAYS constants and its
+// parseLastUpdatedDate()/verdictFor()/loadPools() classifier are imported
+// verbatim from item 181's own file, never re-typed here (174's one-constant
+// rule — `grep -n "DRIFT_BUDGET" audit-app.js` must show only this require
+// and its uses, never a second numeric literal).
+const cta181 = require('./test_seo_cta_targets.js');
 
 const ROOT = __dirname;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
@@ -177,8 +184,27 @@ const PRESCAN_SIGNALS = {
   'absurd-magnitude': 'P0',
   'junk-slug': 'P1',
   'zero-yield-claim': 'P1',
-  'link-target-integrity': 'P1'
+  'link-target-integrity': 'P1',
+  // backlog 184 — level-2 ("resolvable") liveness of the estate's `?pool=`
+  // deep links, classified with 181's contract/stale/drift rules (see the
+  // sub-rule inside prescanStaticPages() below). P1 to match the other
+  // link-integrity signals it complements.
+  'pool-link-liveness': 'P1'
 };
+
+// backlog 184 — a `?pool=` value must look like a real DefiLlama pool id
+// (a UUID, case-insensitive) before it is even worth resolving against live
+// data; anything else is a generator bug (contract), never a live-data
+// question.
+const POOL_ID_UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+// backlog 184 — day-to-ms conversion for the sub-rule's own staleness math.
+// NOT a second copy of any threshold (STALE_AFTER_DAYS/DRIFT_BUDGET_FRACTION
+// both stay imported from cta181, never re-typed) — this is just a units
+// constant, same role prescanTextSurfaces()/classifyPage() play with their
+// own MS_PER_DAY in test_seo_cta_targets.js, restated here because that
+// file's MS_PER_DAY is not exported (only the four items 184 actually needs
+// are, per the spec's own export list).
+const MS_PER_DAY_184 = 24 * 60 * 60 * 1000;
 
 // Pool-snapshot prescan (backlog 167). Budget knobs mirror the static leg's
 // naming (DEFAULT_*/MAX_* pairs), reusing the module's existing
@@ -1052,6 +1078,31 @@ function parsePageOwnPools(html) {
 }
 
 // ---------------------------------------------------------------------------
+// backlog 184 — live pool-id set for the level-2 `?pool=` liveness sub-rule
+// below. Never throws: any failure (bad injected fixture, cta181.loadPools()
+// throwing on no fixture/cache/network) is caught and reported back as
+// `{ ids: null, error }` so the caller can decide how to degrade (never a
+// silent pass — see prescanStaticPages()'s own "unrun" semantics).
+// ---------------------------------------------------------------------------
+async function loadLivePoolIds(opts = {}) {
+  if (Array.isArray(opts.livePools)) {
+    // Test injection — bypasses cta181.loadPools() (and therefore its fixture/
+    // cache/network path) entirely, same convention as this file's other
+    // opts.* test-support knobs (opts.pages, opts.snapshot, ...).
+    return { ids: new Set(opts.livePools.map((p) => p.pool)), error: null, source: 'injected', count: opts.livePools.length };
+  }
+  try {
+    // cta181.loadPools() already handles POOLS_FIXTURE, a 6h temp cache, and
+    // a live fetch — and throws loudly rather than passing vacuously (its own
+    // header comment). Reused verbatim, never re-implemented (174's rule).
+    const pools = await cta181.loadPools();
+    return { ids: new Set(pools.map((p) => p.pool)), error: null, source: 'pools', count: pools.length };
+  } catch (e) {
+    return { ids: null, error: e.message, source: null, count: 0 };
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Static-surface prescan (backlog 157). Pure fs + regex over EVERY
 // tokens/*.html + chains/*.html leaf page — no Playwright, no network, no
 // writes — so the (small) rendered sample can be AIMED at suspicious pages
@@ -1107,6 +1158,34 @@ function prescanStaticPages(opts = {}) {
   if (presetKeysInfo.error) {
     console.error(`[audit] static prescan: link-target-integrity level 2 (preset) skipped — ${presetKeysInfo.error}`);
   }
+
+  // ---------------------------------------------------------------------------
+  // backlog 184 — level-2 ("resolvable") liveness of `?pool=` deep links.
+  // Independently neuterable block: `opts.livePoolIds` (Set|null|undefined)
+  // and `opts.livePoolsError` (string|null) are the ONLY two inputs.
+  //   - livePoolIds undefined AND no livePoolsError => NOT REQUESTED (off,
+  //     emits nothing — the pre-184 behaviour of this function, byte-for-byte,
+  //     when a caller never asks for this sub-rule).
+  //   - livePoolsError set => UNRUN (a fetch failure must not silently pass
+  //     the gate — buildStaticSurfaces() turns this into a P1 finding).
+  //   - livePoolIds is a real Set (and no error) => runs.
+  // This mirrors, at the sub-rule level, the same "off by default until an
+  // opts knob asks for it" shape rules (a)/(b)/levels 2/3 already use above.
+  // ---------------------------------------------------------------------------
+  const poolLinkRequested = (opts.livePoolIds instanceof Set) || !!opts.livePoolsError;
+  const poolLinkRan = poolLinkRequested && !opts.livePoolsError && (opts.livePoolIds instanceof Set);
+  const poolLinkReason = !poolLinkRequested ? 'not requested' : (opts.livePoolsError || null);
+  const livePoolIdsSet = poolLinkRan ? opts.livePoolIds : null;
+  // `today` is injectable (UTC ms, midnight) — never read from the real clock
+  // per-page; computed once, same convention as test_seo_cta_targets.js's own
+  // `today` (main()). Only ever consulted when poolLinkRan is true.
+  const poolLinkTodayMs = typeof opts.today === 'number' ? opts.today
+    : (() => { const n = new Date(); return Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate()); })();
+  const poolLinkScanIds = new Set(); // GLOBALLY distinct ?pool= ids seen this scan — the budget denominator (spec's own 4/3,677 framing)
+  const poolLinkIdClass = new Map(); // id -> worst class seen across pages (contract > stale > drift > ok)
+  const POOL_LINK_CLASS_RANK = { contract: 3, stale: 2, drift: 1, ok: 0 };
+  const poolLinkDeadPages = new Set(); // pages carrying >=1 dead (stale or drift) id
+  const poolLinkDriftCandidates = []; // { rel, slug, ids } — only emitted as suspects if scan-wide drift exceeds budget
 
   let scanned = 0;
   const suspects = [];
@@ -1315,6 +1394,164 @@ function prescanStaticPages(opts = {}) {
         }
       }
     }
+
+    // ---------------------------------------------------------------------
+    // backlog 184 — level-2 ("resolvable") `?pool=` deep-link liveness.
+    // Positioned AFTER the existing level-2/level-3 blocks above (spec's own
+    // ordering requirement); a wholly separate, independently neuterable
+    // sub-rule (see poolLinkRan's setup above the loop). No-op per page when
+    // poolLinkRan is false.
+    // ---------------------------------------------------------------------
+    if (poolLinkRan) {
+      // Distinct `?pool=` ids this page LINKS TO, from owned home-path hrefs
+      // (reuses HTML_HREF_RE / ownedHtmlLinkSuffix / ownedLinkPath /
+      // linkQueryPairs — the exact same helpers rule (a) and level 2/3 above
+      // already use, never a second parse of the query string shape).
+      const pageDeepLinkIds = new Set();
+      for (const m of html.matchAll(HTML_HREF_RE)) {
+        const suffix = ownedHtmlLinkSuffix(m[1]);
+        if (suffix === null) continue;
+        const linkPathVal = ownedLinkPath(suffix);
+        if (linkPathVal !== '' && linkPathVal !== '/') continue;
+        const pairs = linkQueryPairs(suffix);
+        if (!pairs.has('pool')) continue;
+        const id = pairs.get('pool');
+        if (id) pageDeepLinkIds.add(id);
+      }
+
+      if (pageDeepLinkIds.size > 0) {
+        // Ids the page's own pool-row anchors point at — for the contract
+        // sub-rule's "a link whose id the page's own body never backs" test.
+        // A second small pass over HTML_ANCHOR_TAG_RE (rule (b) above already
+        // makes one, but rule (b) checks TARGET SHAPE, not the id itself, and
+        // doesn't retain the ids it saw) — cleaner than threading an id set
+        // out of rule (b)'s loop, per this item's own spec.
+        const pageAnchorIds = new Set();
+        for (const m of html.matchAll(HTML_ANCHOR_TAG_RE)) {
+          const tag = m[0];
+          if (!POOL_ROW_ANCHOR_CLASSES.some((c) => anchorHasClass(tag, c))) continue;
+          const hrefRaw = anchorAttr(tag, 'href');
+          if (!hrefRaw) continue;
+          const aSuffix = ownedHtmlLinkSuffix(hrefRaw);
+          if (aSuffix === null) continue;
+          const aPath = ownedLinkPath(aSuffix);
+          if (aPath !== '' && aPath !== '/') continue;
+          const aPairs = linkQueryPairs(aSuffix);
+          if (aPairs.has('pool') && aPairs.get('pool')) pageAnchorIds.add(aPairs.get('pool'));
+        }
+
+        const pageContractIds = [];
+        const pageStaleIds = [];
+        const pageDriftIds = [];
+
+        for (const id of pageDeepLinkIds) {
+          poolLinkScanIds.add(id); // scan-level distinct-id denominator (spec's own 4/3,677 framing)
+
+          let cls;
+          if (!POOL_ID_UUID_RE.test(id) || !pageAnchorIds.has(id)) {
+            // contract: malformed uuid, OR an id the page's own body never
+            // backs — repo-decidable, invariant to live data (181's own
+            // definition, reused verbatim).
+            cls = 'contract';
+          } else if (livePoolIdsSet.has(id)) {
+            cls = 'ok';
+          } else {
+            // Dead (absent from live DefiLlama). Class depends only on THIS
+            // page's own visible freshness signal — cta181.parseLastUpdatedDate
+            // and cta181.STALE_AFTER_DAYS reused verbatim (never re-typed).
+            const dateInfo = cta181.parseLastUpdatedDate(html);
+            let stale;
+            if (!dateInfo) {
+              stale = true; // conservative default (181's own rule): can't prove freshness
+            } else {
+              const ageDays = Math.floor((poolLinkTodayMs - dateInfo.ms) / MS_PER_DAY_184);
+              stale = ageDays > cta181.STALE_AFTER_DAYS;
+            }
+            cls = stale ? 'stale' : 'drift';
+          }
+
+          if (cls === 'contract') pageContractIds.push(id);
+          else if (cls === 'stale') pageStaleIds.push(id);
+          else if (cls === 'drift') pageDriftIds.push(id);
+
+          // Worst-classification-wins at id level (contract > stale > drift >
+          // ok) — an id normally appears on one page only, but a fatal
+          // classification anywhere must never be masked by an 'ok' seen
+          // elsewhere.
+          const prevCls = poolLinkIdClass.get(id);
+          if (!prevCls || POOL_LINK_CLASS_RANK[cls] > POOL_LINK_CLASS_RANK[prevCls]) poolLinkIdClass.set(id, cls);
+        }
+
+        // At most ONE suspect per page per class (169/172's convention) —
+        // contract and stale are ALWAYS emitted (fatal at any count); drift
+        // is a CANDIDATE only, decided after the whole scan against the
+        // budget (see the post-loop block below).
+        if (pageContractIds.length > 0) {
+          const examples = pageContractIds.slice(0, 3).map((id) => `"${id}"`);
+          let detail = `${pageContractIds.length} "?pool=" deep link id(s) fail contract (malformed uuid, or not backed by this page's own tp-pool-link/cp-pool-link anchors) — e.g. ${examples.join(', ')}`;
+          if (pageContractIds.length > examples.length) detail += ` (+${pageContractIds.length - examples.length} more)`;
+          suspects.push({ rel, slug, signal: 'pool-link-liveness', severity: PRESCAN_SIGNALS['pool-link-liveness'], detail });
+        }
+        if (pageStaleIds.length > 0) {
+          poolLinkDeadPages.add(rel);
+          const examples = pageStaleIds.slice(0, 3).map((id) => `"${id}"`);
+          let detail = `${pageStaleIds.length} "?pool=" deep link id(s) are dead (absent from live DefiLlama) on a page whose own "Last updated" date is stale (> ${cta181.STALE_AFTER_DAYS} day(s) old, or unparseable) — e.g. ${examples.join(', ')}`;
+          if (pageStaleIds.length > examples.length) detail += ` (+${pageStaleIds.length - examples.length} more)`;
+          suspects.push({ rel, slug, signal: 'pool-link-liveness', severity: PRESCAN_SIGNALS['pool-link-liveness'], detail });
+        }
+        if (pageDriftIds.length > 0) {
+          poolLinkDeadPages.add(rel);
+          poolLinkDriftCandidates.push({ rel, slug, ids: pageDriftIds });
+        }
+      }
+    }
+  }
+
+  // backlog 184 — resolve the level-2 pool-link-liveness verdict over the
+  // WHOLE scan, reusing cta181.verdictFor() verbatim (never re-implementing
+  // the budget arithmetic, never a second DRIFT_BUDGET_FRACTION literal).
+  // `scannedWithCta` is 181's own parameter name (pages, on that surface) —
+  // here it is fed the GLOBALLY DISTINCT deep-link id count instead, per this
+  // spec's own "4/3,677" framing (the denominator this item measures against
+  // is ids, not pages) — an honest reuse, not a silent one.
+  let poolLinkLiveness;
+  if (!poolLinkRan) {
+    poolLinkLiveness = {
+      ran: false, reason: poolLinkReason,
+      checkedIds: 0, deadIds: 0, pagesAffected: 0,
+      contract: 0, stale: 0, drift: 0, allowance: 0, ok: true
+    };
+  } else {
+    let contractCount = 0, staleCount = 0, driftCount = 0;
+    for (const cls of poolLinkIdClass.values()) {
+      if (cls === 'contract') contractCount++;
+      else if (cls === 'stale') staleCount++;
+      else if (cls === 'drift') driftCount++;
+    }
+    const verdict = cta181.verdictFor({
+      contractCount, staleCount, driftCount,
+      scannedWithCta: poolLinkScanIds.size
+    });
+    // Drift suspects are emitted ONLY when the scan-wide drift count exceeds
+    // the budget (the exact comparison verdictFor() makes internally) — under
+    // budget, drift is reported in poolLinkLiveness only, never as a suspect
+    // (this is what keeps today's corpus green per the spec).
+    if (driftCount > verdict.allowance) {
+      for (const cand of poolLinkDriftCandidates) {
+        const examples = cand.ids.slice(0, 3).map((id) => `"${id}"`);
+        let detail = `${cand.ids.length} "?pool=" deep link id(s) are dead (absent from live DefiLlama) on a fresh page — drift, but scan-wide drift ${driftCount}/${poolLinkScanIds.size} exceeds the ${(cta181.DRIFT_BUDGET_FRACTION * 100).toFixed(1)}% budget — e.g. ${examples.join(', ')}`;
+        if (cand.ids.length > examples.length) detail += ` (+${cand.ids.length - examples.length} more)`;
+        suspects.push({ rel: cand.rel, slug: cand.slug, signal: 'pool-link-liveness', severity: PRESCAN_SIGNALS['pool-link-liveness'], detail });
+      }
+    }
+    poolLinkLiveness = {
+      ran: true, reason: null,
+      checkedIds: poolLinkScanIds.size,
+      deadIds: staleCount + driftCount,
+      pagesAffected: poolLinkDeadPages.size,
+      contract: contractCount, stale: staleCount, drift: driftCount,
+      allowance: verdict.allowance, ok: verdict.ok
+    };
   }
 
   // P0-first, then rel — deterministic, independent of fs.readdirSync order
@@ -1325,14 +1562,25 @@ function prescanStaticPages(opts = {}) {
     return a.rel < b.rel ? -1 : a.rel > b.rel ? 1 : 0;
   });
 
-  return { scanned, suspects };
+  // backlog 184 — extends the pre-existing { scanned, suspects } shape
+  // additively; every caller that destructures only { scanned, suspects }
+  // (every pre-184 call site) keeps working unchanged.
+  return { scanned, suspects, poolLinkLiveness };
 }
 
 // No-suspects/prescan-disabled shape — always the same shape whether prescan
 // ran and found nothing, or didn't run at all, so callers never need to
 // null-check `result.prescan`.
 function emptyPrescanResult() {
-  return { scanned: 0, suspectCount: 0, bySignal: {}, promoted: [] };
+  return {
+    scanned: 0, suspectCount: 0, bySignal: {}, promoted: [],
+    // backlog 184 — same "never null-check" contract as the fields above.
+    poolLinkLiveness: {
+      ran: false, reason: 'not requested',
+      checkedIds: 0, deadIds: 0, pagesAffected: 0,
+      contract: 0, stale: 0, drift: 0, allowance: 0, ok: true
+    }
+  };
 }
 
 // Builds the static-page surface list (spec 154 Design A + spec 157 prescan
@@ -1401,7 +1649,9 @@ function buildStaticSurfaces(opts) {
   let prescanSuspects = []; // backlog 171 — see the return-shape comment above
 
   if (prescanEnabled && cap > 0) {
-    const scan = prescanStaticPages();
+    // backlog 184 — thread the level-2 pool-link-liveness inputs straight
+    // through; every other production default here is untouched.
+    const scan = prescanStaticPages({ livePoolIds: opts.livePoolIds, livePoolsError: opts.livePoolsError });
     // Never promote the anchor's own leaf — it is already covered by the
     // unchanged `static-page` surface, promoting it too would be a no-op
     // duplicate name collision.
@@ -1434,7 +1684,19 @@ function buildStaticSurfaces(opts) {
     // seed-dependent order) — promotion is suspicion-driven, not seed-driven.
     promotedRels = sampleBySeed(suspectRels, cap, `${seed}:prescan`);
 
-    prescan = { scanned: scan.scanned, suspectCount: suspects.length, bySignal, promoted: promotedRels.map(slugFromRel) };
+    prescan = {
+      scanned: scan.scanned, suspectCount: suspects.length, bySignal, promoted: promotedRels.map(slugFromRel),
+      poolLinkLiveness: scan.poolLinkLiveness // backlog 184
+    };
+
+    // backlog 184 — a fetch failure must NOT silently pass the gate: when the
+    // sub-rule was requested (opts.livePoolsError set) but could not run,
+    // surface it as its own blocking finding, distinct from "not requested"
+    // (which is the normal off-by-default state and must stay silent).
+    if (scan.poolLinkLiveness.ran === false && scan.poolLinkLiveness.reason && scan.poolLinkLiveness.reason !== 'not requested') {
+      prescanFindings.push(finding('static-prescan', 'n/a', 'static-prescan:pool-link-liveness-unrun', 'P1',
+        `the ?pool= deep-link liveness check did not run: ${scan.poolLinkLiveness.reason}`));
+    }
   }
 
   for (const rel of promotedRels) {
@@ -2687,7 +2949,15 @@ async function runAudit(opts = {}) {
   const poolKoIdx = surfaces.findIndex((s) => s.name === 'pool-detail-ko');
   surfaces.splice(poolKoIdx + 1, 0, ...poolResult.extraSurfaces);
 
-  const staticResult = buildStaticSurfaces(opts);
+  // backlog 184 — resolve the live pool-id set once per run, with a kill
+  // switch (opts.poolLiveness === false / AUDIT_POOL_LIVENESS=0) that keeps
+  // the sub-rule "not requested" (never "unrun") when a caller deliberately
+  // wants it off — the same convention every other kill switch in this file
+  // uses. loadLivePoolIds() never throws, so this never aborts the run.
+  const liveness = (opts.poolLiveness === false || process.env.AUDIT_POOL_LIVENESS === '0')
+    ? { ids: undefined, error: null }
+    : await loadLivePoolIds(opts);
+  const staticResult = buildStaticSurfaces(Object.assign({}, opts, { livePoolIds: liveness.ids, livePoolsError: liveness.error }));
   surfaces = surfaces.concat(staticResult.surfaces);
 
   // Test-support only (not a spec-154 env override): restrict the run to just
@@ -2848,6 +3118,10 @@ module.exports = {
   runAudit, scanNumbers, resolvePlaywright, blockingFindings,
   prescanStaticPages, prescanTextSurfaces, prescanPools, buildPoolSurfaces,
   buildStaticSurfaces, reconcilePrescanFindings,
+  // backlog 184 — exported so test_audit_pool_link_liveness.js can drive the
+  // live-id resolution directly (with opts.livePools injection) without a
+  // full runAudit() invocation.
+  loadLivePoolIds,
   // backlog 183 — exported so test_audit_cta_provenance.js can drive the
   // classifier and the rotation picker directly as pure functions, exactly
   // how reconcilePrescanFindings() is already exported for 171's tests.

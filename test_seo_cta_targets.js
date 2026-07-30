@@ -557,7 +557,19 @@ async function main() {
     totalPages + ' scanned, ' + skippedNoCta + ' skipped)');
 }
 
-main().catch((e) => {
-  console.error('✗ ERROR: ' + e.message);
-  process.exitCode = 1;
-});
+// item 184: guarded so `require('./test_seo_cta_targets.js')` (audit-app.js's
+// level-2 ?pool= liveness signal, and its own test) can pull in this file's
+// constants/classifier without triggering a live scan as a side effect of
+// require(). `node test_seo_cta_targets.js` (require.main === module) is
+// completely unchanged — same self-checks, same scan, same exit codes.
+if (require.main === module) {
+  main().catch((e) => {
+    console.error('✗ ERROR: ' + e.message);
+    process.exitCode = 1;
+  });
+}
+
+// item 184: exported so audit-app.js's level-2 ?pool= liveness signal can
+// reuse 181's constant + classifier verbatim (174's one-constant rule) —
+// never re-typed. Nothing else in this file changes for item 184.
+module.exports = { DRIFT_BUDGET_FRACTION, STALE_AFTER_DAYS, parseLastUpdatedDate, verdictFor, loadPools };
