@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-07-30T04:58:15.601Z
+- Last Updated: 2026-07-30T08:23:43.765Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 4875
+- Total URLs: 4857
 
 ## Homepage
 TL;DR: https://www.defi.garden/ is a search-first landing page that routes into both faces of the product: /plan.html (and planner params) for the goal-first Garden Planner, and parameterized URLs (?token=, ?chain=, ?pool=) for the yield analytics app.
@@ -17,13 +17,13 @@ TL;DR: A goal-first savings planner for people who think in monthly deposits and
 - TARGET: a specific item to buy — projects time-to-item from monthly deposits and the live rate.
 - SUBSCRIPTION: the "forever number" — the capital whose yield alone covers a recurring bill, indefinitely.
 - Forever number formula: forever number = annual bill ÷ blended rate. No projected dollar figure is published here — a plan's own inputs determine the real number.
-- Live blended rate: 3.2% — median APY across the 552 pools clearing our published rails (TVL ≥ $10M, APY ≤ 1000%) on the date above.
+- Live blended rate: 3.2% — median APY across the 548 pools clearing our published rails (TVL ≥ $10M, APY ≤ 1000%) on the date above.
 - A plan's own rate is computed over a different set: the planner picks a small, temperament-filtered selection of pools (the default pace is stablecoin lending/staking only) and blends those, so the rate a plan shows will differ from this market-wide median.
 
 ## Top Chains by TVL
 TL;DR: Highest liquidity blockchain networks for DeFi yields.
-- Ethereum ($86.6B TVL) — https://www.defi.garden/?chain=Ethereum
-- Solana ($8.3B TVL) — https://www.defi.garden/?chain=Solana
+- Ethereum ($86.4B TVL) — https://www.defi.garden/?chain=Ethereum
+- Solana ($8.2B TVL) — https://www.defi.garden/?chain=Solana
 - Base ($6.4B TVL) — https://www.defi.garden/?chain=Base
 - BSC ($6.3B TVL) — https://www.defi.garden/?chain=BSC
 - Tron ($3.4B TVL) — https://www.defi.garden/?chain=Tron
@@ -44,22 +44,22 @@ TL;DR: Most searched tokens for yield farming opportunities.
 
 ## Popular Token-Chain Combinations
 TL;DR: Most common "find X yield on Y chain" searches.
-- STETH on Ethereum ($18.1B TVL) — https://www.defi.garden/?token=STETH&chain=Ethereum
-- WBETH on Ethereum ($6.7B TVL) — https://www.defi.garden/?token=WBETH&chain=Ethereum
-- WEETH on Ethereum ($6.3B TVL) — https://www.defi.garden/?token=WEETH&chain=Ethereum
+- STETH on Ethereum ($18.0B TVL) — https://www.defi.garden/?token=STETH&chain=Ethereum
+- WBETH on Ethereum ($6.6B TVL) — https://www.defi.garden/?token=WBETH&chain=Ethereum
+- WEETH on Ethereum ($6.2B TVL) — https://www.defi.garden/?token=WEETH&chain=Ethereum
 - WSTETH on Ethereum ($5.8B TVL) — https://www.defi.garden/?token=WSTETH&chain=Ethereum
-- USDC on Ethereum ($5.0B TVL) — https://www.defi.garden/?token=USDC&chain=Ethereum
-- SUSDS on Ethereum ($4.8B TVL) — https://www.defi.garden/?token=SUSDS&chain=Ethereum
+- USDC on Ethereum ($5.2B TVL) — https://www.defi.garden/?token=USDC&chain=Ethereum
+- SUSDS on Ethereum ($4.7B TVL) — https://www.defi.garden/?token=SUSDS&chain=Ethereum
 - WBTC on Ethereum ($3.8B TVL) — https://www.defi.garden/?token=WBTC&chain=Ethereum
 - WETH on Ethereum ($3.8B TVL) — https://www.defi.garden/?token=WETH&chain=Ethereum
 
 ## Major DeFi Protocols
 TL;DR: Largest protocols by total value locked.
-- lido ($17.9B TVL) — https://www.defi.garden/?protocols=lido
-- aave-v3 ($14.0B TVL) — https://www.defi.garden/?protocols=aave-v3
+- lido ($17.8B TVL) — https://www.defi.garden/?protocols=lido
+- aave-v3 ($14.2B TVL) — https://www.defi.garden/?protocols=aave-v3
 - morpho-blue ($11.3B TVL) — https://www.defi.garden/?protocols=morpho-blue
 - sky-lending ($8.1B TVL) — https://www.defi.garden/?protocols=sky-lending
-- binance-staked-eth ($7.1B TVL) — https://www.defi.garden/?protocols=binance-staked-eth
+- binance-staked-eth ($7.0B TVL) — https://www.defi.garden/?protocols=binance-staked-eth
 - sparklend ($4.2B TVL) — https://www.defi.garden/?protocols=sparklend
 
 ## Common Search Patterns
@@ -77,14 +77,14 @@ TL;DR: Typical user queries and where to find them.
 
 ## Current Top Yields
 TL;DR: Live highest APY opportunities (updated daily, TVL ≥ $10M).
-- Base · uniswap-v3 · WETH-USDC — 96.5% APY, $111,758,487 TVL — https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007
-- Solana · orca-dex · SOL-USDC — 56.0% APY, $26,002,335 TVL — https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8
-- Ethereum · uniswap-v3 · WETH-USDT — 38.2% APY, $84,390,958 TVL — https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395
-- Arbitrum · uniswap-v3 · WETH-USDC — 34.5% APY, $36,036,826 TVL — https://www.defi.garden/?pool=a14bd201-764c-40a5-86b8-2928b2461232
-- Base · uniswap-v3 · WETH-USDC — 32.7% APY, $10,267,105 TVL — https://www.defi.garden/?pool=8b3cadb9-b9f1-4539-998c-18c02e9e65a0
-- Ethereum · uniswap-v3 · USDC-WETH — 30.9% APY, $100,247,971 TVL — https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547
-- Base · uniswap-v3 · WETH-CBBTC — 28.5% APY, $11,096,481 TVL — https://www.defi.garden/?pool=ae6e650d-2da1-43ee-b960-2adfdf4dc2b7
-- Ethereum · saturn · SUSDAT — 27.2% APY, $78,652,869 TVL — https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50
+- Base · uniswap-v3 · WETH-USDC — 87.8% APY, $111,497,834 TVL — https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007
+- Solana · orca-dex · SOL-USDC — 54.2% APY, $25,962,263 TVL — https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8
+- Ethereum · uniswap-v3 · WETH-USDT — 34.4% APY, $84,130,822 TVL — https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395
+- Arbitrum · uniswap-v3 · WETH-USDC — 33.2% APY, $35,908,117 TVL — https://www.defi.garden/?pool=a14bd201-764c-40a5-86b8-2928b2461232
+- Base · uniswap-v3 · WETH-USDC — 31.2% APY, $10,228,056 TVL — https://www.defi.garden/?pool=8b3cadb9-b9f1-4539-998c-18c02e9e65a0
+- Ethereum · uniswap-v3 · USDC-WETH — 30.2% APY, $99,909,939 TVL — https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547
+- Ethereum · saturn · SUSDAT — 27.2% APY, $78,656,707 TVL — https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50
+- Base · uniswap-v3 · WETH-CBBTC — 26.2% APY, $11,056,984 TVL — https://www.defi.garden/?pool=ae6e650d-2da1-43ee-b960-2adfdf4dc2b7
 
 💡 Pro tip: Use natural language like "best ETH staking" or "USDC lending Base" to find opportunities.
 📊 For live rates and direct protocol access: https://www.defi.garden
