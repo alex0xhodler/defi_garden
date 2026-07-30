@@ -51,6 +51,16 @@ const {
   poolUrl,
   buildConcise,
   buildFull,
+  // spec 180: link-integrity gate (R1/R2/R3 + anti-vacuity rails)
+  gridLinkPoolCount,
+  applyChainRetarget,
+  repairMinApyLink,
+  applyLinkIntegrityGate,
+  snapshotApyOf,
+  pickHighYield,
+  analyzeYieldData,
+  plannerRate,
+  MIN_TVL_USD,
 } = require('./generate-llms.js');
 
 let passed = 0;
@@ -259,6 +269,332 @@ test('committed llms.txt: no two rows with different APY/TVL share the same URL 
 test('committed llms-full.txt: no two rows with different APY/TVL share the same URL (class-3 regression)', () => {
   const conflicts = findConflictingUrls(llmsFullContent);
   assert.deepStrictEqual(conflicts, [], `llms-full.txt has URL(s) shared by conflicting figures: ${JSON.stringify(conflicts)}`);
+});
+
+/* ===========================================================================
+   spec 180 — "the AI-discovery surface must not publish links to an empty
+   grid". R1 (gridLinkPoolCount), R2 (applyChainRetarget), R3
+   (repairMinApyLink), both anti-vacuity rails, plus a committed-artifact leg
+   asserting zero dead grid links in the real llms.txt/llms-full.txt.
+
+   Method trap (this file's own header note, repeated because it bites R1's
+   fixtures specifically): every fixture pool below carries a real `apy`
+   field and, where relevant, a `pool` id — the LIVE-payload shape
+   generate-llms.js actually reads. A snapshot-shaped fixture (apyBase/
+   apyReward, no `apy`) would make gridLinkPoolCount() silently read
+   `Number(undefined) || 0` = 0 for every pool and every assertion below
+   would pass VACUOUSLY regardless of which rule is under test.
+   =========================================================================== */
+console.log('\nspec 180 — link-integrity gate (R1/R2/R3 + anti-vacuity rails)');
+
+const BASE180 = 'https://www.defi.garden';
+
+// --- R1: gridLinkPoolCount() ------------------------------------------------
+test('R1 gridLinkPoolCount(): token match is case-insensitive substring on symbol', () => {
+  const pools = [{ symbol: 'USDC-AERO', chain: 'Base', project: 'aerodrome-v1', tvlUsd: 20000000, apy: 12 }];
+  const hit = gridLinkPoolCount(`${BASE180}/?token=usdc`, pools);
+  assert.strictEqual(hit.count, 1, 'lowercase "usdc" must substring-match "USDC-AERO"');
+  const miss = gridLinkPoolCount(`${BASE180}/?token=ZZZNOPE`, pools);
+  assert.strictEqual(miss.count, 0);
+});
+
+test('R1 gridLinkPoolCount(): chain match is exact', () => {
+  const pools = [{ symbol: 'USDC', chain: 'Base', project: 'x', tvlUsd: 20000000, apy: 5 }];
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base`, pools).count, 1);
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=BASE`, pools).count, 0, 'chain match must be case-exact, not case-insensitive');
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Ethereum`, pools).count, 0);
+});
+
+test('R1 gridLinkPoolCount(): protocols match is exact project equality', () => {
+  const pools = [{ symbol: 'USDC', chain: 'Ethereum', project: 'aave-v3', tvlUsd: 20000000, apy: 4 }];
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?protocols=aave-v3`, pools).count, 1);
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?protocols=aave`, pools).count, 0, 'must be exact, not substring');
+});
+
+test('R1 gridLinkPoolCount(): poolTypes uses getPoolType(), lazily required from generate-sitemap.js', () => {
+  const pools = [
+    { symbol: 'USDC', chain: 'Ethereum', project: 'aave-v3', tvlUsd: 20000000, apy: 4 },   // Lending
+    { symbol: 'ETH', chain: 'Ethereum', project: 'lido', tvlUsd: 30000000, apy: 3 },       // Staking
+  ];
+  const lending = gridLinkPoolCount(`${BASE180}/?poolTypes=Lending`, pools);
+  assert.strictEqual(lending.count, 1);
+  assert.strictEqual(lending.poolTypesDropped, false);
+  const staking = gridLinkPoolCount(`${BASE180}/?poolTypes=Staking`, pools);
+  assert.strictEqual(staking.count, 1);
+});
+
+test('R1 gridLinkPoolCount(): poolTypes classifier unavailable -> constraint DROPPED and counted, never silently ignored', () => {
+  const pools = [{ symbol: 'USDC', chain: 'Ethereum', project: 'aave-v3', tvlUsd: 20000000, apy: 4 }];
+  // opts.getPoolType explicitly null simulates the try/catch's "unavailable" branch.
+  const result = gridLinkPoolCount(`${BASE180}/?poolTypes=Lending`, pools, { getPoolType: null });
+  assert.strictEqual(result.poolTypesDropped, true, 'unavailable classifier must be reported, not swallowed');
+  assert.strictEqual(result.count, 1, 'with the constraint dropped, the pool still counts (TVL alone qualifies it)');
+});
+
+test('R1 gridLinkPoolCount(): minTvl explicit param wins over MIN_TVL_USD', () => {
+  const pools = [{ symbol: 'USDC', chain: 'Base', project: 'x', tvlUsd: 500000, apy: 4 }];
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base&minTvl=100000`, pools).count, 1, 'explicit floor below MIN_TVL_USD must be honored, never clamped up');
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base`, pools).count, 0, 'absent minTvl falls back to MIN_TVL_USD ($10M) — this pool is below it');
+});
+
+test('R1 gridLinkPoolCount(): qualification is (tvlUsd||0)>=floor && (tvlUsd||0)>0 — test_seo_cta_targets.js:117 reference', () => {
+  const atFloor = [{ symbol: 'USDC', chain: 'Base', project: 'x', tvlUsd: MIN_TVL_USD, apy: 1 }];
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base`, atFloor).count, 1, 'exactly at the floor must qualify');
+  const zeroTvl = [{ symbol: 'USDC', chain: 'Base', project: 'x', tvlUsd: 0, apy: 1 }];
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base&minTvl=0`, zeroTvl).count, 0, 'tvlUsd=0 must never qualify even at a $0 floor');
+});
+
+test('R1 gridLinkPoolCount(): minApy is apy >= minApy', () => {
+  const pools = [{ symbol: 'USDC', chain: 'Base', project: 'x', tvlUsd: 20000000, apy: 5 }];
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base&minApy=5`, pools).count, 1);
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base&minApy=5.01`, pools).count, 0);
+});
+
+test('R1 gridLinkPoolCount(): ?pool=<id> is NEVER simulated (175\'s 4,233-false-positive trap) — returns null', () => {
+  const pools = [{ symbol: 'USDC', chain: 'Base', project: 'x', tvlUsd: 1, apy: 1, pool: 'irrelevant' }];
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?pool=abc123&chain=Base`, pools), null, 'a link carrying ?pool= must never be simulated, even alongside other grid params');
+});
+
+test('R1 gridLinkPoolCount(): a link carrying none of GRID_LINK_PARAMS is untouched -> null', () => {
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?lang=ko`, []), null);
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/plan.html?preset=tomoko`, []), null);
+});
+
+test('R1 gridLinkPoolCount(): a path-only URL (no query at all) is untouched -> null', () => {
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/chains/cardano`, []), null);
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/`, []), null);
+});
+
+// --- R2: applyChainRetarget() -----------------------------------------------
+test('R2 applyChainRetarget(): a LIVE chain link is returned byte-unchanged', () => {
+  const pools = [{ symbol: 'USDC', chain: 'Ethereum', project: 'aave-v3', tvlUsd: 20000000, apy: 4 }];
+  const chainUrls = [`${BASE180}/?chain=Ethereum`];
+  const sitemapUrlSet = new Set([`${BASE180}/chains/ethereum`]);
+  const result = applyChainRetarget(chainUrls, pools, sitemapUrlSet, BASE180);
+  assert.deepStrictEqual(result.lines, chainUrls, 'a live chain link must not be touched');
+  assert.strictEqual(result.retargetedCount, 0);
+  assert.strictEqual(result.omittedCount, 0);
+});
+
+test('R2 applyChainRetarget(): a DEAD chain link with a static /chains/<slug> page is retargeted there', () => {
+  const pools = []; // nothing qualifies -> every chain link is dead
+  const chainUrls = [`${BASE180}/?chain=Cardano`];
+  const sitemapUrlSet = new Set([`${BASE180}/chains/cardano`]);
+  const result = applyChainRetarget(chainUrls, pools, sitemapUrlSet, BASE180);
+  assert.deepStrictEqual(result.lines, [`${BASE180}/chains/cardano`]);
+  assert.strictEqual(result.retargetedCount, 1);
+  assert.ok(result.retargetedUrls.has(`${BASE180}/chains/cardano`));
+  assert.strictEqual(result.omittedCount, 0);
+});
+
+test('R2 applyChainRetarget(): a DEAD chain link with NO static page is omitted and counted, never silently dropped', () => {
+  const pools = [];
+  const chainUrls = [`${BASE180}/?chain=Abstract`];
+  const sitemapUrlSet = new Set(); // no /chains/abstract page exists
+  const result = applyChainRetarget(chainUrls, pools, sitemapUrlSet, BASE180);
+  assert.deepStrictEqual(result.lines, [], 'no honest destination exists — the link must be omitted, not left dead');
+  assert.strictEqual(result.omittedCount, 1);
+  assert.deepStrictEqual(result.omittedChains, ['Abstract']);
+  assert.strictEqual(result.retargetedCount, 0);
+});
+
+test('R2 applyChainRetarget(): mixed batch reproduces the measured 48/14/40-shape split independently at fixture scale', () => {
+  const pools = [{ symbol: 'USDC', chain: 'LiveChain', project: 'x', tvlUsd: 20000000, apy: 4 }];
+  const chainUrls = [
+    `${BASE180}/?chain=LiveChain`,   // live -> unchanged
+    `${BASE180}/?chain=DeadWithPage`, // dead, has a static page -> retargeted
+    `${BASE180}/?chain=DeadNoPage`,   // dead, no static page -> omitted
+  ];
+  const sitemapUrlSet = new Set([`${BASE180}/chains/deadwithpage`]);
+  const result = applyChainRetarget(chainUrls, pools, sitemapUrlSet, BASE180);
+  assert.deepStrictEqual(result.lines, [`${BASE180}/?chain=LiveChain`, `${BASE180}/chains/deadwithpage`]);
+  assert.strictEqual(result.retargetedCount, 1);
+  assert.strictEqual(result.omittedCount, 1);
+  assert.deepStrictEqual(result.omittedChains, ['DeadNoPage']);
+});
+
+// --- R3: repairMinApyLink() -------------------------------------------------
+test('R3 repairMinApyLink(): a link that already resolves under both populations is left unchanged', () => {
+  const url = `${BASE180}/?poolTypes=Staking&minApy=10`;
+  const live = [{ symbol: 'X', chain: 'C', project: 'lido', tvlUsd: 20000000, apy: 12 }];
+  const snap = [{ symbol: 'X', chain: 'C', project: 'lido', tvlUsd: 20000000, apyBase: 8, apyReward: 4 }]; // 12 total
+  const result = repairMinApyLink(url, live, snap);
+  assert.strictEqual(result.changed, false);
+  assert.strictEqual(result.url, url);
+});
+
+test('R3 repairMinApyLink(): dead at the original rung -> repaired to the HIGHEST rung resolving >=1 pool under BOTH populations', () => {
+  const url = `${BASE180}/?poolTypes=Staking&minApy=10`;
+  // Highest total APY is 6 live / 6 snapshot -> minApy=10 is dead;
+  // minApy=5 is the highest of [10,5,3,1] that resolves under both (6>=5).
+  const live = [{ symbol: 'X', chain: 'C', project: 'lido', tvlUsd: 20000000, apy: 6 }];
+  const snap = [{ symbol: 'X', chain: 'C', project: 'lido', tvlUsd: 20000000, apyBase: 4, apyReward: 2 }]; // 6 total
+  const result = repairMinApyLink(url, live, snap);
+  assert.strictEqual(result.changed, true);
+  assert.strictEqual(result.rung, 5);
+  assert.strictEqual(result.url, `${BASE180}/?poolTypes=Staking&minApy=5`);
+  assert.strictEqual(result.dropped, false);
+  assert.strictEqual(result.omitted, false);
+});
+
+test('R3 repairMinApyLink() — Territory T2: a rung that resolves LIVE but NOT in the snapshot is rejected (this is why the check is dual-population)', () => {
+  const url = `${BASE180}/?poolTypes=Staking&minApy=10`;
+  // Reproduces the real 2026-07-30 case: minApy=10 clears live (apy field)
+  // but not the snapshot (apyBase+apyReward) — the repair must not stop at
+  // a rung the audit's own re-check (against the snapshot) would still fail.
+  const live = [{ symbol: 'X', chain: 'C', project: 'lido', tvlUsd: 20000000, apy: 10.2 }];
+  const snap = [{ symbol: 'X', chain: 'C', project: 'lido', tvlUsd: 20000000, apyBase: 6.0, apyReward: 0.15 }]; // 6.15 total — dead at rung 10, alive at rung 5
+  const result = repairMinApyLink(url, live, snap);
+  assert.strictEqual(result.changed, true, 'minApy=10 resolves live but must still be repaired because it fails the snapshot');
+  assert.strictEqual(result.rung, 5, 'must skip rung 10 (live-only pass, snapshot 6.15 < 10) and land on rung 5 (snapshot 6.15 >= 5, live 10.2 >= 5)');
+  assert.strictEqual(result.url, `${BASE180}/?poolTypes=Staking&minApy=5`);
+});
+
+test('R3 repairMinApyLink(): no rung resolves under both -> minApy dropped entirely', () => {
+  const url = `${BASE180}/?poolTypes=Staking&minApy=10`;
+  const live = [{ symbol: 'X', chain: 'C', project: 'lido', tvlUsd: 20000000, apy: 0.5 }];
+  const snap = [{ symbol: 'X', chain: 'C', project: 'lido', tvlUsd: 20000000, apyBase: 0.3, apyReward: 0.1 }]; // 0.4
+  const result = repairMinApyLink(url, live, snap);
+  assert.strictEqual(result.changed, true);
+  assert.strictEqual(result.dropped, true);
+  assert.strictEqual(result.omitted, false);
+  assert.strictEqual(result.rung, null);
+  assert.strictEqual(result.url, `${BASE180}/?poolTypes=Staking`, 'minApy param must be gone entirely, not set to 0');
+});
+
+test('R3 repairMinApyLink(): still empty even with minApy dropped -> omitted (url null)', () => {
+  const url = `${BASE180}/?poolTypes=Staking&minApy=10`;
+  const live = []; // no pools qualify at all, at any rung
+  const snap = [];
+  const result = repairMinApyLink(url, live, snap);
+  assert.strictEqual(result.changed, true);
+  assert.strictEqual(result.omitted, true);
+  assert.strictEqual(result.url, null, 'an omitted link must never leave a dangling non-null URL');
+});
+
+test('R3 repairMinApyLink(): snapshotPools unavailable (null) -> falls back to live-only validation, never throws', () => {
+  const url = `${BASE180}/?poolTypes=Staking&minApy=10`;
+  const live = [{ symbol: 'X', chain: 'C', project: 'lido', tvlUsd: 20000000, apy: 12 }];
+  const result = repairMinApyLink(url, live, null);
+  assert.strictEqual(result.changed, false, 'live-only: minApy=10 already resolves, no repair needed');
+});
+
+// --- Anti-vacuity rail 1: empty population -> gate fully disabled ----------
+test('applyLinkIntegrityGate(): empty pool population -> gate disabled, output byte-identical to the un-gated baseline', () => {
+  const categories = { homepage: [`${BASE180}/`], tokens: [], chains: [`${BASE180}/?chain=Cardano`], poolTypes: [], highValue: [], other: [`${BASE180}/chains/cardano`] };
+  const meta = { baseUrl: BASE180, updatedAt: '2026-07-30T00:00:00.000Z', totalUrls: 2, defiLlamaFetchedAt: null };
+  const baselineConcise = buildConcise(meta, categories, pickHighYield([]), analyzeYieldData([]), plannerRate([]));
+  const baselineFull = buildFull(meta, categories, pickHighYield([]), analyzeYieldData([]), plannerRate([]));
+  const gated = applyLinkIntegrityGate({
+    pools: [], categories, meta,
+    highYield: pickHighYield([]), yieldAnalysis: analyzeYieldData([]), plannerRateResult: plannerRate([]),
+    sitemapUrlSet: new Set([`${BASE180}/chains/cardano`]), baseUrl: BASE180, snapshotPools: null,
+  });
+  assert.strictEqual(gated.applied, false);
+  assert.strictEqual(gated.disabledReason, 'empty-population');
+  assert.strictEqual(gated.concise, baselineConcise, 'concise output must be byte-identical to pre-180 baseline');
+  assert.strictEqual(gated.full, baselineFull, 'full output must be byte-identical to pre-180 baseline');
+});
+
+// --- Anti-vacuity rail 2: >40% structural tripwire --------------------------
+test('applyLinkIntegrityGate(): would-affect >40% of checked grid links -> gate disabled, non-zero exitCode, output unchanged', () => {
+  const chainNames = ['Cardano', 'Celo', 'Abstract', 'Alephium', 'Boba', 'Carbon', 'Chia', 'Kasplex', 'Metis', 'Moonriver', 'Obyte', 'Rollux', 'Shape', 'Taiko', 'Telos', 'Unit0', 'Astar', 'Bifrost', 'Canto', 'Conflux'];
+  const categories = {
+    homepage: [`${BASE180}/`], tokens: [],
+    chains: chainNames.map((c) => `${BASE180}/?chain=${c}`),
+    poolTypes: [], highValue: [],
+    other: [`${BASE180}/chains/cardano`, `${BASE180}/chains/celo`],
+  };
+  const meta = { baseUrl: BASE180, updatedAt: '2026-07-30T00:00:00.000Z', totalUrls: chainNames.length, defiLlamaFetchedAt: null };
+  // Non-empty (rail 1 must NOT fire) but qualifies nothing at the $10M floor
+  // -> every chain link in this fixture is dead -> way over 40% affected.
+  const pools = [{ symbol: 'USDC', chain: 'SomeOtherChain', project: 'x', tvlUsd: 1, apy: 1 }];
+  const highYield = pickHighYield(pools), yieldAnalysis = analyzeYieldData(pools), plannerRateResult = plannerRate(pools);
+  const baselineConcise = buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateResult);
+  const baselineFull = buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult);
+
+  const savedExitCode = process.exitCode;
+  process.exitCode = undefined;
+  const gated = applyLinkIntegrityGate({
+    pools, categories, meta, highYield, yieldAnalysis, plannerRateResult,
+    sitemapUrlSet: new Set(categories.other), baseUrl: BASE180, snapshotPools: null,
+  });
+  const trippedExitCode = process.exitCode;
+  process.exitCode = savedExitCode; // never leak this test's exitCode into the suite's own
+
+  assert.strictEqual(gated.applied, false);
+  assert.strictEqual(gated.disabledReason, 'structural-tripwire');
+  assert.ok(gated.stats.fraction > 0.4, `expected the fixture to exceed the 40% tripwire, got ${gated.stats.fraction}`);
+  assert.strictEqual(trippedExitCode, 1, 'the tripwire must set a non-zero process.exitCode — a simulation bug must fail loudly');
+  assert.strictEqual(gated.concise, baselineConcise, 'tripped gate must still emit byte-identical baseline content');
+  assert.strictEqual(gated.full, baselineFull, 'tripped gate must still emit byte-identical baseline content');
+});
+
+test('applyLinkIntegrityGate(): under the 40% tripwire (today\'s real ~12%) -> gate applies, R2+R3 actually change output', () => {
+  const categories = {
+    homepage: [`${BASE180}/`], tokens: [],
+    chains: [`${BASE180}/?chain=LiveChain`, `${BASE180}/?chain=DeadChain`],
+    poolTypes: [], highValue: [],
+    other: [`${BASE180}/chains/deadchain`],
+  };
+  const meta = { baseUrl: BASE180, updatedAt: '2026-07-30T00:00:00.000Z', totalUrls: 2, defiLlamaFetchedAt: null };
+  const pools = [{ symbol: 'USDC', chain: 'LiveChain', project: 'x', tvlUsd: 20000000, apy: 4 }];
+  const highYield = pickHighYield(pools), yieldAnalysis = analyzeYieldData(pools), plannerRateResult = plannerRate(pools);
+  const gated = applyLinkIntegrityGate({
+    pools, categories, meta, highYield, yieldAnalysis, plannerRateResult,
+    sitemapUrlSet: new Set(categories.other), baseUrl: BASE180, snapshotPools: null,
+  });
+  assert.strictEqual(gated.applied, true);
+  assert.ok(gated.full.includes(`${BASE180}/?chain=LiveChain`), 'live chain link kept');
+  assert.ok(gated.full.includes(`${BASE180}/chains/deadchain`), 'dead chain retargeted to its static page');
+  assert.ok(!gated.full.includes(`${BASE180}/?chain=DeadChain`), 'the dead ?chain= link itself must be gone');
+});
+
+// --- Committed-artifact leg: zero dead grid links in the REAL, regenerated
+// llms.txt/llms-full.txt, checked against the committed data/pools-
+// snapshot.json (deterministic, no network — the same population
+// audit-app.js's own level-3 re-check reads, apyBase+apyReward). Mirrors
+// audit-app.js's own below-floor skip: a link whose effective floor sits
+// BELOW the snapshot's own $10M floor is indeterminate against this
+// population and is not counted either way (never the class-10
+// 4,233-false-positive trap). ---------------------------------------------
+const SNAPSHOT_FOR_TEST_PATH = path.join(__dirname, 'data', 'pools-snapshot.json');
+let snapshotForTest = null;
+try {
+  const raw = JSON.parse(fs.readFileSync(SNAPSHOT_FOR_TEST_PATH, 'utf8'));
+  if (Array.isArray(raw.pools) && typeof raw.minTvlUsd === 'number') snapshotForTest = raw;
+} catch (e) { /* handled below — the test fails loudly, never passes vacuously */ }
+
+function findDeadGridLinksAgainstSnapshot(content, snapshot) {
+  const re = /https:\/\/www\.defi\.garden(\/\?[^\s]*)?/g;
+  const dead = [];
+  const seen = new Set();
+  for (const m of content.matchAll(re)) {
+    const url = m[0];
+    if (seen.has(url)) continue;
+    seen.add(url);
+    let parsed;
+    try { parsed = new URL(url); } catch (e) { continue; }
+    const minTvlParam = parsed.searchParams.get('minTvl');
+    const effectiveFloor = minTvlParam !== null ? (parseInt(minTvlParam, 10) || 0) : MIN_TVL_USD;
+    if (effectiveFloor < snapshot.minTvlUsd) continue; // below the snapshot's own floor — indeterminate, never checked
+    const result = gridLinkPoolCount(url, snapshot.pools, { apyOf: snapshotApyOf });
+    if (result === null) continue; // not a grid link (?pool=, path-only, or no GRID_LINK_PARAMS)
+    if (result.count === 0) dead.push(url);
+  }
+  return dead;
+}
+
+test('committed llms.txt: zero dead grid links against data/pools-snapshot.json (spec 180)', () => {
+  assert.ok(snapshotForTest, 'data/pools-snapshot.json must load — refusing to pass vacuously without a real population');
+  const dead = findDeadGridLinksAgainstSnapshot(llmsContent, snapshotForTest);
+  assert.deepStrictEqual(dead, [], `expected 0 dead grid links in llms.txt, found: ${JSON.stringify(dead)}`);
+});
+
+test('committed llms-full.txt: zero dead grid links against data/pools-snapshot.json (spec 180) — was 62', () => {
+  assert.ok(snapshotForTest, 'data/pools-snapshot.json must load — refusing to pass vacuously without a real population');
+  const dead = findDeadGridLinksAgainstSnapshot(llmsFullContent, snapshotForTest);
+  assert.deepStrictEqual(dead, [], `expected 0 dead grid links in llms-full.txt, found: ${JSON.stringify(dead)}`);
 });
 
 console.log(`\n${passed} assertions passed`);
