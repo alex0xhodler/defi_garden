@@ -60,7 +60,12 @@ const translations = {
     calculateYield: "View & calculate →",
     startEarning: "Start Earning",
     startEarningOn: (protocol) => `Start Earning on ${protocol}`,
-    
+    // spec 182 leg B/D — honest DefiLlama fallback for the true-null CTA case
+    // (no protocol URL resolves in any tier). Must not impersonate the
+    // protocol CTA above: different copy, names DefiLlama as the destination.
+    viewOnDefillama: "View this pool on DefiLlama",
+    opensDefillamaFallback: "No protocol link available · Opens DefiLlama, our data source",
+
     // Pool details
     daily: "Daily",
     monthly: "Monthly",
@@ -783,7 +788,12 @@ const translations = {
     calculateYield: "보기 및 계산 →",
     startEarning: "수익 시작",
     startEarningOn: (protocol) => `${protocol}에서 수익 시작`,
-    
+    // spec 182 leg B/D — 프로토콜 링크가 아예 없을 때(모든 단계에서 URL을 찾지
+    // 못한 경우)의 정직한 DefiLlama 폴백. 위의 프로토콜 CTA를 흉내 내지 않도록
+    // 문구를 다르게 하고, 목적지가 DefiLlama임을 명확히 밝힙니다.
+    viewOnDefillama: "DefiLlama에서 이 풀 보기",
+    opensDefillamaFallback: "프로토콜 링크 없음 · 데이터 출처인 DefiLlama가 열립니다",
+
     // Pool details
     daily: "일일",
     monthly: "월간",

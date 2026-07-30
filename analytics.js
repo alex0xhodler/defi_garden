@@ -215,7 +215,16 @@ const Analytics = {
       source_position: context.position || -1,
       search_query: context.searchQuery || null,
       active_filters: this.serializeFilters(context.filters || {}),
-      time_to_view: context.searchStartTime ? Date.now() - context.searchStartTime : null
+      time_to_view: context.searchStartTime ? Date.now() - context.searchStartTime : null,
+      // spec 182 (Territory note T6): emits BOTH spellings of the same
+      // boolean — protocolCtaPresent is the spec-literal camelCase name,
+      // protocol_cta_present is the queryable house snake_case form. Same
+      // "keep both, don't rename and fragment history" precedent as backlog
+      // 123's ctaPlacement/click_type+source pairing. null (not false) when
+      // the caller never computed the property, so it's distinguishable from
+      // a real "no CTA" reading in Mixpanel.
+      protocolCtaPresent: context.protocolCtaPresent === undefined ? null : !!context.protocolCtaPresent,
+      protocol_cta_present: context.protocolCtaPresent === undefined ? null : !!context.protocolCtaPresent
     });
   },
 
