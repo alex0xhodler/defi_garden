@@ -1601,13 +1601,22 @@ function buildStaticSurfaces(opts) {
     // so surfacesCovered stays self-describing either way. Prescan is OFF in
     // this mode (spec 157 B.2) so existing override-based controls stay
     // exactly as predictable as before this item.
-    const surfaces = overrideRaw.split(',').map((s) => s.trim()).filter(Boolean)
+    const overrideEntries = overrideRaw.split(',').map((s) => s.trim()).filter(Boolean)
       .map((rel, i) => {
         const normalized = rel.startsWith('/') ? rel : '/' + rel;
         const name = i === 0 ? 'static-page' : `static-page:${slugFromRel(normalized)}`;
         return { name, url: normalized, kind: 'static', width: 1280 };
-      })
-      .filter((s) => fs.existsSync(path.join(ROOT, s.url)));
+      });
+    // backlog 185 leg C — a nonexistent override entry is still dropped
+    // silently (same behaviour as before this item: no throw, no finding, no
+    // exit-code path), but now names the dropped path on stderr so a
+    // typo'd/removed override page is observable instead of the run quietly
+    // proceeding as if zero pages were requested.
+    const surfaces = overrideEntries.filter((s) => {
+      const exists = fs.existsSync(path.join(ROOT, s.url));
+      if (!exists) console.error(`[audit] static-page override entry not found on disk, dropping: ${s.url}`);
+      return exists;
+    });
     return { surfaces, prescan: emptyPrescanResult(), prescanFindings: [], prescanSuspects: [] };
   }
 

@@ -49,6 +49,25 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
      → The defect is the **gate's pass condition**, not the product and not a stale assertion. Split the
      verdict into what the repo decides (fatal at any count) and what the feed decides (bounded budget,
      always printed) — see Resolution E.
+   - **Decision rule F — stale proxy metric** (item 185): the assertion does not measure the guarantee,
+     it measures a **text artifact that correlates with it** — an occurrence count, a line number, a
+     `grep -c`, a file-size number — and something unrelated moved the proxy. Tell it apart in one
+     command: **enumerate the individual matches the count is built from and ask which ones are the
+     thing.** `A6b` in `test_audit_prescan.js` asserted `reconcilePrescanFindings(` occurs exactly 3×
+     (1 definition + 2 call sites); `grep -n` showed **5** — and two of the five were *comment prose*
+     added by items 183 and 184. Nothing about the guarantee ("`textSurfaceFindings` is never
+     reconciled") had changed, and A6b's four other assertions all still passed. The tell is that the
+     failing assertion is the only *aggregate* one in a test whose specific assertions are green.
+     → **Rule F is the most dangerous red to ignore**, because it fails in the permissive direction:
+     once the threshold is stale, the *real* event it was written to catch (here, a genuine third call
+     site) produces a failure message indistinguishable from today's noise. See Resolution F.
+   - **Decision rule G — deleted-fixture control** (item 185): a positive control that injects nothing
+     and instead **points at a committed artifact that another item deliberately deleted**. Distinct
+     from D: nothing suppresses the value on the way to the screen — the input simply is not there any
+     more, and the deletion was correct. Two tells: the control names a *path*
+     (`staticPages: 'tokens/00.html'`) rather than a value, and the run returns an **empty** result
+     (`got: []`) instead of a wrong one. Confirm with `ls` and one `grep` of LOG.md for the item that
+     removed it (here: 148, "zero junk slugs remain"). → Resolution G.
 4. **Check whether the red also hides a live product defect.** A freshness/wiring gate that is red is
    often a symptom, not the bug: `test_minified_assets.js` failing meant prod was actually *serving the
    raw bundles* (~159 KB extra on the north-star surface), not merely that a test was unhappy.
@@ -84,6 +103,29 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
   Ship pure `classify()`/`verdict()` functions plus **self-checks on synthetic fixtures that run before
   any network call**, one per class, proving each can still go red without mutating a committed artifact.
   That is the only thing standing between "made the gate honest" and "made the red go away."
+- **F** → **do not bump the number.** Re-deriving the constant is the same bug one commit later, and the
+  next comment mentioning the symbol re-reds the gate. Move the measurement onto the thing itself:
+  normalise the source before counting (strip line comments, block comments and string literals, then
+  count real invocations), so prose about the symbol is structurally incapable of moving the number.
+  Then re-prove the assertion still bites — a normalisation that over-strips is a vacuous green, which
+  is strictly worse than the red you started with. **Both directions, in the test file, on a scratch
+  COPY** of the source with the original's md5 asserted unchanged: adding a genuine call site must trip
+  it; adding only a comment mentioning the symbol must not. If the proxy cannot be replaced by a direct
+  measurement, say so in the notes and keep the proxy *with its derivation written next to it*, so the
+  next reader can re-derive rather than guess.
+- **G** → **make the control provision its own fixture.** A control anchored to a committed artifact is
+  hostage to every future repair of that artifact; the fixture must be created at run time from a real
+  page, mutated in exactly the one dimension under test, and removed in a `finally`. Constraints that
+  are load-bearing, not stylistic: (1) put it where the harness can actually reach it — `audit-app.js`
+  resolves both selection (`path.join(ROOT, s.url)`) and serving (`startServer`, with a
+  `!filePath.startsWith(ROOT)` 403) against the repo root, so an `os.tmpdir()` fixture is unreachable
+  by construction; (2) put it at the **same directory depth** as the page it copies, or its relative
+  asset refs resolve somewhere else; (3) **never** inside a generated estate directory (`tokens/`,
+  `chains/`) — re-adding junk to the SEO surface is the defect another item just spent itself removing;
+  (4) assert the copied source's md5 is unchanged afterwards (184's method); (5) assert
+  `git status --porcelain` is clean of the fixture after the run. And add the assertion whose absence
+  made the rot silent: **assert the surface actually ran** (`surfacesCovered` contains it), not merely
+  that findings came back the way you expected.
 - In all of them: if the red sat in an `&&` chain, say in LOG.md how far the chain gets *after* your fix
   and which file is the next stopper — the next loop inherits the fact instead of rediscovering it.
 
@@ -191,6 +233,16 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
   anchors — so the *user-facing* assertion repoints onto the app footer, while the crawler-surface
   assertion (045) repoints onto **presence in the DOM**, not visibility. Two different truths, two
   different assertions; collapsing them into one is how the case got stale in the first place.
+- **An input the harness drops silently turns every control into a coin flip.** `buildStaticSurfaces()`
+  ends its explicit-override branch with `.filter((s) => fs.existsSync(path.join(ROOT, s.url)))` — an
+  override naming a file that no longer exists is discarded with **no note of any kind**, and the run
+  returns a well-formed result over zero surfaces. Item 185's criterion 2 surfaced as a FAIL only by
+  luck, because it happened to assert the *presence* of a finding; the identical rot in any control
+  written the other way round ("assert this page yields nothing") would have gone **green while testing
+  nothing**. Before trusting any test that names an input by path, check the harness's drop behaviour
+  for a missing input, and grep the file for sibling controls that assert absence — those are the ones
+  already lying. The repair is two-sided: make the drop audible in the harness (stderr note, no
+  behaviour change), and make the control assert its surface ran.
 - **The in-flight check is ID-based, so a renumbering PR makes it lie.** `build.md` §1 says an
   existing `claude/loop-<id>` branch or open PR means "skip this item". Item 176 had both — belonging
   to an entirely different item that had renumbered *itself* to 176 after a heartbeat took its

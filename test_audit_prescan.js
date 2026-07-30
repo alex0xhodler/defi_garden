@@ -34,6 +34,7 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
+const crypto = require('crypto');
 const { runAudit, prescanStaticPages, buildStaticSurfaces, reconcilePrescanFindings } = require('./audit-app.js');
 
 const ROOT = __dirname;
@@ -294,11 +295,65 @@ async function main() {
       'guarantee must stay "never called this way", not "called but ignored".');
   });
 
+  // ---------------------------------------------------------------------------
+  // backlog 185 Leg A — A6b must count REAL invocations of
+  // "reconcilePrescanFindings(", never raw-text mentions: items 183/184 both
+  // added PROSE that contains that literal substring inside a comment
+  // (audit-app.js:2741, :3127 — "Mirrors reconcilePrescanFindings()'s..." /
+  // "...reconcilePrescanFindings() is already exported...") without adding a
+  // real call site, which drifted a bare src.match() count from 3 to 5. This
+  // strips line comments, block comments and string/template literals BEFORE
+  // counting, so only real source structure remains. Hand-written as a small
+  // character scanner (not a single regex) specifically so a `//` or `/*`
+  // sequence living INSIDE a string literal is consumed as string content
+  // first and can never be mis-parsed as a comment start — see
+  // specs/185-notes.md for how this was checked against this exact file's
+  // regex literals (none contain an un-escaped "//"/"/*" outside a string).
+  // ---------------------------------------------------------------------------
+  function stripJsCommentsAndStrings(src) {
+    let out = '';
+    let i = 0;
+    const n = src.length;
+    while (i < n) {
+      const two = src.slice(i, i + 2);
+      if (two === '//') {
+        const nl = src.indexOf('\n', i);
+        i = nl === -1 ? n : nl;
+        continue;
+      }
+      if (two === '/*') {
+        const end = src.indexOf('*/', i + 2);
+        i = end === -1 ? n : end + 2;
+        continue;
+      }
+      const ch = src[i];
+      if (ch === '"' || ch === "'" || ch === '`') {
+        const quote = ch;
+        let j = i + 1;
+        while (j < n) {
+          if (src[j] === '\\') { j += 2; continue; }
+          if (src[j] === quote) { j++; break; }
+          j++;
+        }
+        i = j;
+        continue;
+      }
+      out += ch;
+      i++;
+    }
+    return out;
+  }
+  function countReconcileCallSites(src) {
+    return (stripJsCommentsAndStrings(src).match(/reconcilePrescanFindings\(/g) || []).length;
+  }
+
   await test('A6b (spec 171): runAudit() never passes textSurfaceFindings to reconcilePrescanFindings — only prescanFindings (prefix static-prescan) and poolPrescanFindings (prefix pool-prescan)', () => {
     const src = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
-    const occurrences = (src.match(/reconcilePrescanFindings\(/g) || []).length;
+    // backlog 185 leg A: count only REAL call sites (comments/strings
+    // stripped first) — see countReconcileCallSites() above.
+    const occurrences = countReconcileCallSites(src);
     assert(occurrences === 3,
-      `expected exactly 3 occurrences of "reconcilePrescanFindings(" (1 function definition + 2 runAudit() call sites) — ` +
+      `expected exactly 3 REAL invocations of "reconcilePrescanFindings(" (1 function definition + 2 runAudit() call sites), comments/strings excluded — ` +
       `a new call site changes this count and needs its own A6-equivalent proof it never targets text-surfaces; got ${occurrences}`);
     assert(!src.includes('reconcilePrescanFindings(textSurfaceFindings'),
       'textSurfaceFindings must never be passed to reconcilePrescanFindings — text-surface prescan has no promotion mechanism (no `promoted` array) and must never be reconciled/downgraded');
@@ -311,6 +366,49 @@ async function main() {
       'the static-leg call site must pass prefix: \'static-prescan\'');
     assert(src.slice(poolCallIdx, poolCallIdx + 400).includes("prefix: 'pool-prescan'"),
       'the pool-leg call site must pass prefix: \'pool-prescan\'');
+  });
+
+  await test('A6b non-vacuity (spec 185, direction a): a scratch COPY of audit-app.js gaining a GENUINE third call site trips the real-call-site count (3 -> 4)', () => {
+    const origSrc = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    const origMd5Before = crypto.createHash('md5').update(origSrc).digest('hex');
+    const baseline = countReconcileCallSites(origSrc);
+    assert(baseline === 3, `test assumption broken: expected the real baseline count to be 3 before mutation, got ${baseline}`);
+
+    const scratchFile = path.join(os.tmpdir(), `audit-app-185-a6b-scratch-a-${process.pid}.js`);
+    try {
+      const mutated = origSrc + "\nreconcilePrescanFindings(someOtherAggregateFindings, { prefix: 'other-prescan' });\n";
+      fs.writeFileSync(scratchFile, mutated);
+      const mutatedSrc = fs.readFileSync(scratchFile, 'utf8');
+      const mutatedCount = countReconcileCallSites(mutatedSrc);
+      assert(mutatedCount === 4, `expected a genuine third call site to move the count 3 -> 4 on the scratch copy; got ${mutatedCount}`);
+      assert(mutatedCount !== 3, "the mutated copy must trip A6b's ===3 assertion (non-vacuity direction a)");
+    } finally {
+      try { fs.unlinkSync(scratchFile); } catch (e) {}
+    }
+
+    const origAfter = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    assert(crypto.createHash('md5').update(origAfter).digest('hex') === origMd5Before,
+      'the real audit-app.js must be byte-identical after mutating only the scratch copy');
+  });
+
+  await test('A6b non-vacuity (spec 185, direction b): a scratch COPY gaining only a COMMENT mentioning reconcilePrescanFindings( does NOT trip the count (stays 3)', () => {
+    const origSrc = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    const origMd5Before = crypto.createHash('md5').update(origSrc).digest('hex');
+
+    const scratchFile = path.join(os.tmpdir(), `audit-app-185-a6b-scratch-b-${process.pid}.js`);
+    try {
+      const mutated = origSrc + "\n// another prose mention of reconcilePrescanFindings( added by the 185 non-vacuity test (direction b), not a call site\n";
+      fs.writeFileSync(scratchFile, mutated);
+      const mutatedSrc = fs.readFileSync(scratchFile, 'utf8');
+      const mutatedCount = countReconcileCallSites(mutatedSrc);
+      assert(mutatedCount === 3, `expected a comment-only mention to leave the real-call-site count unchanged at 3; got ${mutatedCount} (comment stripping regressed)`);
+    } finally {
+      try { fs.unlinkSync(scratchFile); } catch (e) {}
+    }
+
+    const origAfter = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    assert(crypto.createHash('md5').update(origAfter).digest('hex') === origMd5Before,
+      'the real audit-app.js must be byte-identical after mutating only the scratch copy');
   });
 
   // ---------------------------------------------------------------------------
