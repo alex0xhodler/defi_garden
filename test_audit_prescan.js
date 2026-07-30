@@ -310,7 +310,107 @@ async function main() {
   // specs/185-notes.md for how this was checked against this exact file's
   // regex literals (none contain an un-escaped "//"/"/*" outside a string).
   // ---------------------------------------------------------------------------
+  // ---------------------------------------------------------------------------
+  // backlog 186 — the comment/string scanner above had no regex-literal
+  // state, so it misread two LIVE shapes: (a) a regex character class
+  // containing a literal `/*`, e.g. `/[/*]/`, was read as a block-comment
+  // start with no closing `*/`, silently swallowing the rest of the file (any
+  // real call site added afterwards goes uncounted — A6b stays green on
+  // exactly the event it exists to catch); (b) a `"` inside a regex
+  // character class (LIVE at audit-app.js:324/771/811 before this fix) was
+  // read as a string opener, eating real code up to the next literal `"`
+  // (a `while` loop and several statements — see specs/186.md Evidence for
+  // the exact spans measured, and specs/186-notes.md for the before/after
+  // re-measurement). Leg A below teaches the scanner regex-literal state:
+  // whether a `/` opens a regex or is division/`/=` is decided by the
+  // previous significant emitted character — the standard heuristic every
+  // real JS tokenizer uses (`//`/`/*` themselves can never legally OPEN a
+  // regex — an empty regex body and a bare leading `*` quantifier are both
+  // invalid JS — so they always fall through to the ordinary comment
+  // branches unchanged, regardless of position). Leg B (further down, in the
+  // tail-survival tests) adds an invariant so any FUTURE whole-file swallow
+  // of this shape fails loudly instead of silently under-counting.
+  // ---------------------------------------------------------------------------
+  const REGEX_PREV_PUNCT = /[(,=:\[!&|?{};+\-*%~^<>]$/;
+  const REGEX_PREV_KEYWORDS = /(?:^|[^A-Za-z0-9_$])(return|typeof|case|in|of|new|delete|void|do|else|yield|await)$/;
+  function isRegexPosition(emittedSoFar) {
+    const trimmed = emittedSoFar.replace(/\s+$/, '');
+    if (trimmed.length === 0) return true; // nothing emitted yet
+    if (REGEX_PREV_PUNCT.test(trimmed)) return true;
+    if (REGEX_PREV_KEYWORDS.test(trimmed)) return true;
+    return false;
+  }
   function stripJsCommentsAndStrings(src) {
+    let out = '';
+    let i = 0;
+    const n = src.length;
+    while (i < n) {
+      const ch = src[i];
+      // Leg A: the regex-literal check runs BEFORE the `//`/`/*` comment
+      // branches below, so `/[/*]/` at a regex position is parsed as one
+      // regex literal, never mis-read as a comment start.
+      if (ch === '/' && src[i + 1] !== '/' && src[i + 1] !== '*' && isRegexPosition(out)) {
+        let j = i + 1;
+        let inClass = false;
+        while (j < n) {
+          const c = src[j];
+          if (c === '\\') { j += 2; continue; }
+          if (c === '\n') break; // unterminated regex literal — bail defensively, never run to EOF
+          if (c === '[') { inClass = true; j++; continue; }
+          if (c === ']') { inClass = false; j++; continue; }
+          if (c === '/' && !inClass) { j++; break; }
+          j++;
+        }
+        while (j < n && /[a-zA-Z]/.test(src[j])) j++; // trailing regex flags
+        i = j;
+        continue;
+      }
+      const two = src.slice(i, i + 2);
+      if (two === '//') {
+        const nl = src.indexOf('\n', i);
+        i = nl === -1 ? n : nl;
+        continue;
+      }
+      if (two === '/*') {
+        const end = src.indexOf('*/', i + 2);
+        i = end === -1 ? n : end + 2;
+        continue;
+      }
+      if (ch === '"' || ch === "'" || ch === '`') {
+        const quote = ch;
+        let j = i + 1;
+        while (j < n) {
+          if (src[j] === '\\') { j += 2; continue; }
+          if (src[j] === quote) { j++; break; }
+          j++;
+        }
+        i = j;
+        continue;
+      }
+      out += ch;
+      i++;
+    }
+    return out;
+  }
+  function countReconcileCallSites(src) {
+    return (stripJsCommentsAndStrings(src).match(/reconcilePrescanFindings\(/g) || []).length;
+  }
+
+  // ---------------------------------------------------------------------------
+  // backlog 186 criterion 3 — FROZEN REFERENCE IMPLEMENTATION, NOT LIVE CODE.
+  // This is 185's PRE-FIX scanner, copied verbatim (character for character)
+  // from `git show origin/main:test_audit_prescan.js` (the state of this repo
+  // immediately BEFORE backlog 186's fix, lines ~313-345). It has no
+  // regex-literal state at all — a `/` is only ever division/an ordinary
+  // character, `//`/`/*` are unconditionally comment starts, `"`/`'`/`` ` ``
+  // are unconditionally string openers — exactly the bug this item exists to
+  // fix. Its ONLY job below is to prove, on scratch mutations, that the OLD
+  // behavior really was silently wrong (specs/186.md criteria 3/4/8): the old
+  // code stays green (count stuck at 3, tail marker dropped) on a change it
+  // should have caught. Never used by A6b itself. Do not "improve" this
+  // function — changing it defeats the non-vacuity proof it exists for.
+  // ---------------------------------------------------------------------------
+  function legacyStrip(src) {
     let out = '';
     let i = 0;
     const n = src.length;
@@ -343,8 +443,45 @@ async function main() {
     }
     return out;
   }
-  function countReconcileCallSites(src) {
-    return (stripJsCommentsAndStrings(src).match(/reconcilePrescanFindings\(/g) || []).length;
+  function countReconcileCallSitesLegacy(src) {
+    return (legacyStrip(src).match(/reconcilePrescanFindings\(/g) || []).length;
+  }
+
+  // Leg B — the tail-survival marker is derived from audit-app.js's OWN final
+  // executable line at run time (never hardcoded blind), so the invariant
+  // cannot rot into a vacuous truth if that line is ever rewritten or moved
+  // (specs/186.md Change, Leg B).
+  function deriveTailMarker(src) {
+    const lines = src.split('\n');
+    for (let idx = lines.length - 1; idx >= 0; idx--) {
+      const trimmed = lines[idx].trim();
+      if (trimmed.startsWith('process.exit(')) return trimmed.replace(/;\s*$/, '');
+    }
+    return null;
+  }
+
+  // Shared mutation builder for the regex-literal non-vacuity tests below:
+  // inserts `regexSnippet` immediately before the tail-marker line (i.e.
+  // AFTER audit-app.js's 3 pre-existing real call sites, which all sit well
+  // before the marker) and appends a genuine new call site after the marker.
+  // This exact placement is load-bearing, not arbitrary: audit-app.js's LAST
+  // literal `*/` occurs well before the tail marker, with none after it —
+  // inserting the mutated regex anywhere after that point and before EOF is
+  // what makes the PRE-FIX scanner's fake block-comment/string search find no
+  // further closing token and run away to true EOF, reproducing the exact
+  // "swallows the rest of the file" symptom from specs/186.md's Evidence
+  // section, while leaving the 3 pre-existing call sites (all scanned before
+  // the injection point is reached) uncorrupted. Verified empirically against
+  // several placements before landing here — see specs/186-notes.md §6 for
+  // why an earlier-in-file placement does NOT defeat the pre-fix scanner (it
+  // recovers at a nearby unrelated `*/` and the old count stays 4, not 3,
+  // which would make criterion 3 unfalsifiable).
+  function buildTailMutation(origSrc, marker, regexSnippet, newCallSite) {
+    const markerIdx = origSrc.indexOf(marker);
+    assert(markerIdx !== -1, 'tail marker not found in audit-app.js — cannot build the 186 mutation fixture');
+    const before = origSrc.slice(0, markerIdx);
+    const from = origSrc.slice(markerIdx);
+    return before + regexSnippet + '\n' + from + '\n' + newCallSite + '\n';
   }
 
   await test('A6b (spec 171): runAudit() never passes textSurfaceFindings to reconcilePrescanFindings — only prescanFindings (prefix static-prescan) and poolPrescanFindings (prefix pool-prescan)', () => {
@@ -402,6 +539,127 @@ async function main() {
       const mutatedSrc = fs.readFileSync(scratchFile, 'utf8');
       const mutatedCount = countReconcileCallSites(mutatedSrc);
       assert(mutatedCount === 3, `expected a comment-only mention to leave the real-call-site count unchanged at 3; got ${mutatedCount} (comment stripping regressed)`);
+    } finally {
+      try { fs.unlinkSync(scratchFile); } catch (e) {}
+    }
+
+    const origAfter = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    assert(crypto.createHash('md5').update(origAfter).digest('hex') === origMd5Before,
+      'the real audit-app.js must be byte-identical after mutating only the scratch copy');
+  });
+
+  await test("A6b regex-literal non-vacuity (backlog 186, shape a): a scratch COPY carrying a regex character class containing a literal '/*' ( const RE_186 = /[/*]/; ) plus a genuine appended call site counts 4 under the FIXED scanner — and the frozen pre-fix legacyStrip stays silently green at 3, proving the regression this item exists to prevent", () => {
+    const origSrc = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    const origMd5Before = crypto.createHash('md5').update(origSrc).digest('hex');
+    const marker = deriveTailMarker(origSrc);
+    assert(marker, 'expected to derive a process.exit(...) tail marker from audit-app.js');
+
+    const scratchFile = path.join(os.tmpdir(), `audit-app-186-a6b-scratch-slashstar-${process.pid}.js`);
+    try {
+      const mutated = buildTailMutation(
+        origSrc, marker,
+        'const RE_186 = /[/*]/;',
+        "reconcilePrescanFindings(someOtherAggregateFindings186a, { prefix: 'other-186-prescan-a' });"
+      );
+      fs.writeFileSync(scratchFile, mutated);
+      const mutatedSrc = fs.readFileSync(scratchFile, 'utf8');
+
+      const fixedCount = countReconcileCallSites(mutatedSrc);
+      assert(fixedCount === 4, `expected the FIXED scanner to count 4 (3 real + 1 genuine new) on the /[/*]/  mutation; got ${fixedCount}`);
+
+      const legacyCount = countReconcileCallSitesLegacy(mutatedSrc);
+      assert(legacyCount === 3,
+        `expected the frozen pre-fix legacyStrip to stay silently green at 3 on this exact mutation (the regression this item exists to prevent) — got ${legacyCount}. ` +
+        'If this is no longer 3, the mutation fixture no longer reproduces the pre-186 bug and needs re-deriving, not deleting.');
+    } finally {
+      try { fs.unlinkSync(scratchFile); } catch (e) {}
+    }
+
+    const origAfter = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    assert(crypto.createHash('md5').update(origAfter).digest('hex') === origMd5Before,
+      'the real audit-app.js must be byte-identical after mutating only the scratch copy');
+  });
+
+  await test('A6b regex-literal non-vacuity (backlog 186, shape b — the LIVE audit-app.js:324/771/811 shape): a scratch COPY carrying a regex character class containing a `"` plus a genuine appended call site counts 4 under the FIXED scanner, and 3 under legacyStrip', () => {
+    const origSrc = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    const origMd5Before = crypto.createHash('md5').update(origSrc).digest('hex');
+    const marker = deriveTailMarker(origSrc);
+    assert(marker, 'expected to derive a process.exit(...) tail marker from audit-app.js');
+
+    const scratchFile = path.join(os.tmpdir(), `audit-app-186-a6b-scratch-quoteclass-${process.pid}.js`);
+    try {
+      const mutated = buildTailMutation(
+        origSrc, marker,
+        'const RE_186B = /[^\\s"]*/;', // same shape as the LIVE audit-app.js:324/771/811 regexes: a `"` inside a character class
+        "reconcilePrescanFindings(someOtherAggregateFindings186b, { prefix: 'other-186-prescan-b' });"
+      );
+      fs.writeFileSync(scratchFile, mutated);
+      const mutatedSrc = fs.readFileSync(scratchFile, 'utf8');
+
+      const fixedCount = countReconcileCallSites(mutatedSrc);
+      assert(fixedCount === 4, `expected the FIXED scanner to count 4 (3 real + 1 genuine new) on the quote-in-character-class mutation; got ${fixedCount}`);
+
+      const legacyCount = countReconcileCallSitesLegacy(mutatedSrc);
+      assert(legacyCount === 3,
+        `expected the frozen pre-fix legacyStrip to undercount at 3 on this exact mutation (the live audit-app.js:324/771/811 shape) — got ${legacyCount}.`);
+    } finally {
+      try { fs.unlinkSync(scratchFile); } catch (e) {}
+    }
+
+    const origAfter = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    assert(crypto.createHash('md5').update(origAfter).digest('hex') === origMd5Before,
+      'the real audit-app.js must be byte-identical after mutating only the scratch copy');
+  });
+
+  await test('backlog 186 criterion 5 — division is not mistaken for a regex: synthetic `a / b`, `a /= b`, `(x + y) / 2` leave a division on the near side untouched, and a real call site on the FAR side of a division stays counted', () => {
+    const stripped1 = stripJsCommentsAndStrings('const z = a / b;');
+    assert(stripped1.includes('a / b') || stripped1.includes('a/b') || /a\s*\/\s*b/.test(stripped1),
+      `expected the division in "a / b" to survive stripping untouched; got ${JSON.stringify(stripped1)}`);
+
+    const stripped2 = stripJsCommentsAndStrings('let a = 10;\na /= b;');
+    assert(/a\s*\/=\s*b/.test(stripped2), `expected the "/=" operator to survive stripping untouched; got ${JSON.stringify(stripped2)}`);
+
+    const stripped3 = stripJsCommentsAndStrings('const avg = (x + y) / 2;');
+    assert(/\(x \+ y\)\s*\/\s*2/.test(stripped3), `expected "(x + y) / 2" to survive stripping untouched (division after a closing paren); got ${JSON.stringify(stripped3)}`);
+
+    const divisionThenCall = 'const avg = (x + y) / 2;\nreconcilePrescanFindings(foo, { prefix: "far-side" });\n';
+    const count = countReconcileCallSites(divisionThenCall);
+    assert(count === 1, `expected the real call site on the far side of a division to still be counted; got ${count}`);
+  });
+
+  await test('backlog 186 Leg B — tail-survival invariant: the real audit-app.js\'s own final-line marker is present in the raw source AND survives the FIXED stripper', () => {
+    const origSrc = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    const marker = deriveTailMarker(origSrc);
+    assert(marker, 'expected to derive a process.exit(...) tail marker from audit-app.js\'s own final lines');
+    assert(origSrc.includes(marker), `expected the derived tail marker "${marker}" to actually be present in the raw source (invariant would be vacuous otherwise)`);
+    const stripped = stripJsCommentsAndStrings(origSrc);
+    assert(stripped.includes(marker), `expected the FIXED stripper's output to still contain the tail marker "${marker}" — a whole-file swallow would drop it`);
+  });
+
+  await test('backlog 186 Leg B non-vacuity: on the /[/*]/  -mutated scratch copy, the frozen pre-fix legacyStrip DROPS the tail marker; the FIXED stripper KEEPS it', () => {
+    const origSrc = fs.readFileSync(path.join(ROOT, 'audit-app.js'), 'utf8');
+    const origMd5Before = crypto.createHash('md5').update(origSrc).digest('hex');
+    const marker = deriveTailMarker(origSrc);
+    assert(marker, 'expected to derive a process.exit(...) tail marker from audit-app.js');
+    assert(origSrc.includes(marker), 'sanity check: the marker must be present in the unmutated source first');
+
+    const scratchFile = path.join(os.tmpdir(), `audit-app-186-legb-scratch-${process.pid}.js`);
+    try {
+      const mutated = buildTailMutation(
+        origSrc, marker,
+        'const RE_186 = /[/*]/;',
+        "reconcilePrescanFindings(someOtherAggregateFindings186c, { prefix: 'other-186-prescan-c' });"
+      );
+      fs.writeFileSync(scratchFile, mutated);
+      const mutatedSrc = fs.readFileSync(scratchFile, 'utf8');
+
+      const legacyOut = legacyStrip(mutatedSrc);
+      assert(!legacyOut.includes(marker),
+        `expected the frozen pre-fix legacyStrip to DROP the tail marker on this mutation (proving the tail-survival invariant is non-vacuous — this is the exact "swallows the rest of the file" symptom from specs/186.md); marker was still present, so this mutation no longer reproduces the pre-186 bug`);
+
+      const fixedOut = stripJsCommentsAndStrings(mutatedSrc);
+      assert(fixedOut.includes(marker),
+        `expected the FIXED stripper to KEEP the tail marker on this same mutation; it was dropped, meaning Leg A's regex-literal handling regressed`);
     } finally {
       try { fs.unlinkSync(scratchFile); } catch (e) {}
     }
