@@ -18,17 +18,34 @@
         same arrangement analytics mode already uses (app footer supplies the
         links; the static block is superseded, not deleted). Assert those
         links are visible and a real click navigates to /tokens.
-     b2. bare / (crawler surface) -> re-homed per item 176's coordinator
-        correction: the static .seo-hub-links markup (spec 045's crawler
-        de-orphan surface) must still be PRESENT in the DOM with both anchors
-        on the landing route, regardless of its visibility (which the app
-        footer deliberately supersedes there). /plan.html never carried this
-        markup (verified: `grep -c seo-hub-links plan.html` = 0, a separate
-        102-line static file) — no /plan.html case here, that was a
-        requirement invented in error, not a coverage gap.
+     b2. bare / (crawler surface) -> the static .seo-hub-links markup (spec
+        045's crawler de-orphan surface) must still be PRESENT in the DOM with
+        both anchors on the landing route, regardless of its visibility
+        (which the app footer deliberately supersedes there).
      c. ?lang=ko&token=USDC -> the rendered footer links show the KO strings.
      d. raw-HTML integrity -> home.html source still carries both static anchors
         (crawler de-orphan surface, 045 — fs-level assert).
+
+   Item 179 (landing-mode occlusion + /plan.html gap) adds:
+     A1. bare / -> exactly ONE visible /tokens + /chains pair (the landing
+        app-footer's), proving the 179 dedup rule actually hides the static
+        block's duplicate on the default route (b/b2 above already proved
+        presence-in-DOM and the app-footer pair individually; A1 proves there
+        is no longer a second VISIBLE pair, which is the defect 179 fixes).
+     A2. bare / -> the hide is render-blocking: WITHOUT applyPrintStylesheets
+        (i.e. before style.min.css's async swap lands), the inline critical
+        CSS in home.html's <head> already computes .seo-hub-links to
+        display:none for data-app-mode="landing" (mirrors case (e), which
+        proves the same for analytics).
+     A5. /plan.html -> the static footer (179 added it; previously ABSENT,
+        `grep -c seo-hub-links plan.html` was 0) renders visible + clickable:
+        plan.html sets no data-app-mode at all, so the 086/179 hide rule does
+        not match there, same as planner mode on /.
+     A6. /plan.html raw source -> both static anchors present (crawler
+        surface, fs-level, same shape as (d) for home.html).
+     A7. /plan.html?lang=ko -> the planner localizes the static footer anchors
+        from the EXISTING footerBrowseTokens/footerBrowseChains keys after
+        mount, while the raw file (A6) still ships EN for crawlers.
 
    Mirrors test_smoke.js: fixture-routed pools, CHROMIUM_EXECUTABLE fallback,
    IGNORABLE_ERROR_PATTERN for the known non-critical external fetches. */
@@ -141,6 +158,13 @@ async function main() {
     if (!/<a href="\/chains">/.test(html)) throw new Error('missing static <a href="/chains"> anchor');
   });
 
+  // (A6) raw-HTML integrity for /plan.html (179) — fs-level, no browser needed.
+  await test('plan.html raw source contains both static hub anchors (179 crawler surface)', async () => {
+    const html = fs.readFileSync(path.join(ROOT, 'plan.html'), 'utf8');
+    if (!/<a href="\/tokens">/.test(html)) throw new Error('missing static <a href="/tokens"> anchor in plan.html');
+    if (!/<a href="\/chains">/.test(html)) throw new Error('missing static <a href="/chains"> anchor in plan.html');
+  });
+
   const server = await startServer();
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
@@ -232,6 +256,45 @@ async function main() {
       await page.close();
     });
 
+    // (A1) bare / -> exactly ONE visible /tokens + /chains pair, the 179 fix's
+    // core assertion: before 179 the static block's duplicate was also
+    // visible here (occluded but still `display:flex`, so Playwright's
+    // `:visible` — which checks CSS visibility, not occlusion — counted it),
+    // giving 2 visible pairs. The dedup rule now makes only the landing
+    // app-footer's pair visible.
+    await test('bare / (landing): exactly one visible /tokens + /chains pair, inside the app-footer', async () => {
+      const { page, errors } = await newPage(browser);
+      await page.goto('http://localhost:' + PORT + '/', { waitUntil: 'load', timeout: 15000 });
+      await page.waitForSelector('[data-testid="landing-search"]', { timeout: 10000 });
+      await applyPrintStylesheets(page);
+
+      const visibleTokens = await page.locator('a[href="/tokens"]:visible').count();
+      const visibleChains = await page.locator('a[href="/chains"]:visible').count();
+      if (visibleTokens !== 1) throw new Error('expected exactly 1 visible /tokens link on bare /, found ' + visibleTokens);
+      if (visibleChains !== 1) throw new Error('expected exactly 1 visible /chains link on bare /, found ' + visibleChains);
+      const inAppFooter = await page.locator('.app-footer .app-footer-hub-links a[href="/tokens"]').isVisible();
+      if (!inAppFooter) throw new Error('the one visible /tokens link should be inside .app-footer-hub-links');
+      if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+      await page.close();
+    });
+
+    // (A2) bare / -> the hide is render-blocking (inline critical CSS), not
+    // dependent on style.min.css's async swap. Mirrors case (e)'s proof for
+    // analytics mode, extended to landing.
+    await test('bare / (landing): inline critical CSS hides static footer pre-swap', async () => {
+      const { page, errors } = await newPage(browser);
+      await page.goto('http://localhost:' + PORT + '/', { waitUntil: 'load', timeout: 15000 });
+      await page.waitForSelector('[data-testid="landing-search"]', { timeout: 10000 });
+      // Deliberately NO applyPrintStylesheets: prove the inline rule works
+      // before the media="print" swap fires (the FOUC / headless-audit state).
+      const appMode = await page.evaluate(() => document.documentElement.getAttribute('data-app-mode'));
+      if (appMode !== 'landing') throw new Error('expected data-app-mode="landing" on bare /, got ' + appMode);
+      const seoDisplay = await page.evaluate(() => getComputedStyle(document.querySelector('.seo-hub-links')).display);
+      if (seoDisplay !== 'none') throw new Error('.seo-hub-links must be display:none from inline critical CSS pre-swap on bare /, got ' + seoDisplay);
+      if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+      await page.close();
+    });
+
     // (c) KO strings on the rendered footer links.
     await test('?lang=ko&token=USDC: footer hub links render the KO strings', async () => {
       const { page, errors } = await newPage(browser);
@@ -267,6 +330,49 @@ async function main() {
       if (visibleChains !== 1) throw new Error('expected exactly 1 visible /chains link on pool-detail, found ' + visibleChains);
       const inFooter = await page.locator('.app-footer .app-footer-hub-links a[href="/tokens"]').isVisible();
       if (!inFooter) throw new Error('the one visible /tokens link should be inside .app-footer-hub-links');
+      if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+      await page.close();
+    });
+
+    // (A5) /plan.html -> the static footer 179 added renders visible +
+    // clickable (plan.html sets no data-app-mode at all, so the 086/179 hide
+    // rule never matches there — same as planner mode on /).
+    await test('/plan.html: static hub links visible + clickable (179)', async () => {
+      const { page, errors } = await newPage(browser);
+      await page.goto('http://localhost:' + PORT + '/plan.html', { waitUntil: 'load', timeout: 15000 });
+      await page.waitForSelector('.gp-question', { timeout: 15000 });
+      await applyPrintStylesheets(page);
+
+      const tokensLink = page.locator('.seo-hub-links a[href="/tokens"]');
+      const chainsLink = page.locator('.seo-hub-links a[href="/chains"]');
+      if (!await tokensLink.isVisible()) throw new Error('/plan.html: Browse tokens link not visible');
+      if (!await chainsLink.isVisible()) throw new Error('/plan.html: Browse chains link not visible');
+      if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+
+      // Real click proves non-occlusion (Playwright refuses to click a
+      // covered element); asserts navigation to /tokens.
+      await Promise.all([
+        page.waitForURL('**/tokens', { waitUntil: 'commit', timeout: 10000 }),
+        tokensLink.click()
+      ]);
+      if (!/\/tokens$/.test(new URL(page.url()).pathname)) throw new Error('/plan.html click did not navigate to /tokens, got ' + page.url());
+      await page.close();
+    });
+
+    // (A7) /plan.html?lang=ko -> the planner localizes the static footer
+    // anchors from the EXISTING footerBrowseTokens/footerBrowseChains keys
+    // after mount. Raw file (A6) still ships EN — this is a post-mount DOM
+    // assertion only.
+    await test('/plan.html?lang=ko: static hub links localized to KO after mount (179)', async () => {
+      const { page, errors } = await newPage(browser);
+      await page.goto('http://localhost:' + PORT + '/plan.html?lang=ko', { waitUntil: 'load', timeout: 15000 });
+      await page.waitForSelector('.gp-question', { timeout: 15000 });
+      const tokensLink = page.locator('.seo-hub-links a[href="/tokens"]');
+      const chainsLink = page.locator('.seo-hub-links a[href="/chains"]');
+      const tokensText = (await tokensLink.textContent()).trim();
+      const chainsText = (await chainsLink.textContent()).trim();
+      if (tokensText !== '토큰 둘러보기') throw new Error('/plan.html?lang=ko: KO Browse tokens mismatch, got "' + tokensText + '"');
+      if (chainsText !== '체인 둘러보기') throw new Error('/plan.html?lang=ko: KO Browse chains mismatch, got "' + chainsText + '"');
       if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
       await page.close();
     });

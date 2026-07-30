@@ -3906,6 +3906,30 @@
     var lang = langState[0];
     var t = useMemo(function () { return makeT(lang); }, [lang]);
 
+    // Localize the static crawler footer's anchors (045, 179 — plan.html and
+    // any other static load that carries .seo-hub-links; home.html's copy in
+    // analytics/landing mode is superseded/hidden by the 086/179 CSS rule, so
+    // re-running this there is harmless). The footer ships EN in raw HTML for
+    // crawlers; once the planner mounts, re-key it from the SAME EXISTING
+    // keys the landing/analytics footers already use — footerBrowseTokens /
+    // footerBrowseChains live under translations[lang].landing (NOT
+    // .planner, so makeT's t() can't reach them; read the dict directly,
+    // same fallback shape as makeT/rootT). Runs on every `lang` change, so
+    // both ?lang=ko and a future live language switch land. Guarded: a
+    // missing element, a missing translations global, or a missing key must
+    // never throw and break the render.
+    useEffect(function () {
+      try {
+        var tr = safeTranslations();
+        var landingDict = tr && ((tr[lang] && tr[lang].landing) || (tr.en && tr.en.landing));
+        if (!landingDict) return;
+        var tokensLink = document.querySelector('.seo-hub-links a[href="/tokens"]');
+        var chainsLink = document.querySelector('.seo-hub-links a[href="/chains"]');
+        if (tokensLink && landingDict.footerBrowseTokens) tokensLink.textContent = landingDict.footerBrowseTokens;
+        if (chainsLink && landingDict.footerBrowseChains) chainsLink.textContent = landingDict.footerBrowseChains;
+      } catch (eFooterI18n) {}
+    }, [lang]);
+
     var themeState = useState(function () {
       try {
         var s = localStorage.getItem('theme');

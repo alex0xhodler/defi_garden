@@ -2580,13 +2580,17 @@ body {
   box-shadow: var(--focus-ring);
 }
 
-/* Analytics mode duplicates these two links inside the visible (fixed)
-   .app-footer, so the static crawler footer — which the fixed footer would
-   otherwise occlude — is hidden there (086). Planner mode has no fixed
-   .app-footer, so the static links stay visible + clickable. Mode is set on
-   <html data-app-mode> by home.html's IA router before paint. */
+/* Analytics AND landing modes each duplicate these two links inside their own
+   visible (fixed) .app-footer (analytics: 086; landing: the 2026-07-15
+   landing pivot, landing.js:356-367), so the static crawler footer — which a
+   fixed footer would otherwise occlude — is hidden in both (179 extended the
+   086 rule to landing). Planner mode (?goal=... on /, and /plan.html, which
+   sets no data-app-mode at all — home.html's router never runs there) has no
+   fixed .app-footer, so the static links stay visible + clickable there.
+   Mode is set on <html data-app-mode> by home.html's IA router before paint. */
 /* NOTE (131): this rule is ALSO inlined as render-blocking critical CSS in home.html's <head> so it applies before the async style.min.css swap. Keep both selectors identical. */
-html[data-app-mode="analytics"] .seo-hub-links {
+html[data-app-mode="analytics"] .seo-hub-links,
+html[data-app-mode="landing"] .seo-hub-links {
   display: none;
 }
 
