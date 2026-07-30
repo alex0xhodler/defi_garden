@@ -96,6 +96,20 @@
 <body>
     <div id="planner-root"></div>
 
+    <!-- SEO surface hub links (045, 179) — server-rendered, present in the raw
+         HTML so crawlers reach /tokens and /chains without executing the app.
+         Static, outside #planner-root: the planner's React mount never
+         touches this element. This page sets no data-app-mode (home.html's
+         IA router never runs here), so the 086/179 hide rule does not match —
+         these links stay visible + clickable, same as planner mode on /.
+         Ships EN text for the raw/crawler surface; planner.js localizes the
+         text after mount for ?lang=ko (see Planner()'s footerBrowseTokens /
+         footerBrowseChains effect). -->
+    <footer class="seo-hub-links">
+      <a href="/tokens">Browse tokens</a>
+      <a href="/chains">Browse chains</a>
+    </footer>
+
     <!-- Minified in CI (backlog 053); edit planner.js, never planner.min.js. -->
     <script defer src="planner.min.js"></script>
 </body>

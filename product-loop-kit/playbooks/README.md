@@ -39,3 +39,4 @@ Provenance: <the LOG/spec entry this was distilled from>
 - `pre-existing-red-triage.md` — a test is red on `main` and isn't yours: product regression vs stale test vs sandbox (item 147)
 - `loop-container-contention.md` — a subagent reports files changing under it / a "second session" on the tree (item 162)
 - `test-gate-observability.md` — before saying "tests green": count what ran, and tell environmental reds from real ones (item 163)
+- `mode-enumeration-staleness.md` — an element is dead/duplicated on ONE route because a mode-conditional rule enumerates only the modes that existed when it was written (item 179)
