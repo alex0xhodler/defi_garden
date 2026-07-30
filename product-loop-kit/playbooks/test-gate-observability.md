@@ -68,6 +68,68 @@ Traps:
   - **A permanently-red gate is worse than an unobservable one** — it gets ignored. If a default
     invocation cannot plausibly exit 0, that is a defect in the gate, not a fact about the tests.
 
+## When the gate's own helper PARSES the thing it measures (items 185 → 186)
+
+**When:** a test asserts on something a hand-rolled helper *derived* from source — an occurrence count, a
+comment-stripped scan, a regex over code — rather than on behaviour. Also whenever a backlog row says a
+known limitation is **"dormant"**.
+
+**Answer in one line:** a hand-rolled tokenizer is a second implementation of the language, it is wrong
+in ways `grep` cannot find, and "dormant" is a claim about the code you thought to look for — instrument
+the helper and read what it *actually consumed* before you believe it.
+
+**Steps:**
+1. **Instrument the helper; never grep for the bad shape.** Item 186's row said the blind spot was
+   dormant because `grep` found no regex literal in `audit-app.js` containing `/` or `*`. True — and
+   irrelevant: re-running the helper with a recorder on every span it consumed surfaced a *different*
+   live shape (a `"` inside a regex character class, `audit-app.js:324/:771/:811`) eating 643/1,188/1,185
+   characters of real code that day. ~15 lines of throwaway `node`: same scanner, push `[kind, offset,
+   length]` for each consumed span, sort by length, print the top 8 with their source line. Anything in
+   that list that is not a comment or a string is a defect.
+2. **Decision rule — dormant vs live.** A consumed span containing real code (a statement, a loop, a
+   call) → **live**, and the item's fix shape must cover the shape actually misfiring, not the one that
+   was reported. Only comments/strings consumed → dormant; a guard test is then proportionate.
+3. **Pick the fix by what the measurement showed, not by what the row proposed.** 186's row offered a
+   cheap guard test for one shape; the measurement retired it, because the guard would have scored zero
+   on the shape that was live. Re-measuring the premise is part of building the item — a row's severity
+   claim ages the moment it is written.
+4. **Freeze the pre-fix implementation as a reference and assert it stays wrong.** Copy the old helper
+   verbatim into the test as `legacyStrip()`-style dead code, comment it as frozen, and assert it returns
+   the *wrong* answer on your mutation fixture. Without it, "the new tests pass" cannot distinguish "the
+   fix works" from "the fixture never exercised the bug".
+5. **Add one whole-artifact invariant, not just shape-specific cases.** Every runaway-tokenizer bug ends
+   the same way: consumption to EOF. Assert a marker from the artifact's own last line survives the
+   helper — derived at run time, and asserted present in the raw input first so it cannot rot into a
+   vacuous truth. One assertion, catches every future shape.
+6. **Test the OPPOSITE misfire too.** A stripper taught to see regexes can now mistake *division* for a
+   regex and under-count — worse than the bug you fixed, because under-counting is what silent-green is
+   made of. Synthetic cases for both directions, and bound the blast radius in the code (186 bails an
+   unterminated regex at the newline, so a misfire costs one line, never the file).
+
+**Traps:**
+- **The count not moving is the evidence, not a disappointment.** 186's assertion still reads
+  `occurrences === 3` on the real file. A counter fix that *changes* the asserted number is a relaxation
+  wearing a repair's clothes — check which one you shipped.
+- **Where you inject a mutation fixture decides whether it proves anything.** A runaway scan only reaches
+  EOF if no closing token follows it. 186's `/[/*]/` fixture injected near the top of `audit-app.js` gets
+  *recovered* by a later unrelated `*/`, so the pre-fix scanner returns the same answer as the fixed one
+  and the proof is vacuous. Find the artifact's last closing token (`*/` at offset 171,689 there) and
+  inject after it — then say so, because the placement bounds the severity claim you are entitled to make.
+- **A defeat test on the helper is worth more than another case on the artifact.** The strongest check in
+  186's verification was breaking `isRegexPosition()` on a scratch copy of the *test file* and confirming
+  exactly the three regex-dependent cases went red. Two of three defeats were caught only by the explicit
+  synthetic cases — the real-file count survived them, i.e. it passes partly by luck of the file's current
+  shape. Know which of your assertions is actually load-bearing.
+- **A tokenizer caveat compounds instead of closing.** 185 disclosed it in prose; its verifier turned the
+  prose into a PoC; 186 filed and fixed it and disclosed the next layer (post-increment-then-regex). That
+  is the ladder working — but only because each rung was *filed as a row*, not left in a notes file.
+
+Provenance: extended by item **186** (2026-07-30) — `specs/186.md`, `186-notes.md`, `186-pr.md` — from
+item **185**'s disclosed-limitation → verifier-PoC → filed-row → fixed chain.
+Related: `detector-signal-coverage.md` (a checker blind to the class it should catch — this is the same
+disease one level down, in the checker's own tooling), `pre-existing-red-triage.md` (rule F, a stale proxy
+metric).
+
 Provenance: item **163** (2026-07-27) — `specs/163.md`, `163-notes.md`, `163-pr.md`, and its LOG entry.
 Distilled from: the fresh-clone measurement (19 pass / 17 fail, all `MODULE_NOT_FOUND`, first casualty
 at position 5 of 94), `specs/158-notes.md`'s "never observed past position 12" and its 550s
