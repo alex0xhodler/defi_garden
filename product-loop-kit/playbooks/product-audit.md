@@ -105,6 +105,33 @@ refactor's clothes (`pre-existing-red-triage.md`, Resolution E).
    `원` (Won) with no conversion, which is a number-sanity bug wearing an i18n costume; compare the KO
    figure against the EN `$` figure for the same value and flag any unit swap without conversion. →
    caught **137** (`formatKoreanCurrency` stamping 원 onto USD across every pool-detail money string).
+
+   **AND the dictionary itself has THREE failure levels, not one (learned 2026-07-31, item 189).** Every
+   i18n check on this repo before 189 was specced from 137 — a *currency-unit* bug — so all of them
+   inherited its signal set and none looked at the dictionary at all. Run all three; they fail differently
+   and the cheap ones are pure `fs`+regex, no render:
+   - **(1) Key parity.** Flatten BOTH language trees and diff the key sets. **`translations.js` is NESTED —
+     `en`/`ko` each contain `landing` (41) and `planner` (319) sub-objects on top of 185 top-level keys,
+     543 flattened.** A flat `Object.keys(t.en)` reads 185 and will report ~192 phantom "missing" keys the
+     moment you check `t()` call sites in `planner.js`, because `planner.js`'s own `t()` (`planner.js:870`)
+     resolves *into* the `planner` sub-object. **Flatten before diffing, or the check invents its own
+     findings.** Measured 2026-07-31: 543/543, zero asymmetry — a true negative worth recording.
+   - **(2) Value honesty — is the translation translated?** A KO value byte-identical to its EN value AND
+     containing no Hangul (`/[가-힯ᄀ-ᇿ㄰-㆏]/`) is untranslated. Key parity is 100% blind to this: the key
+     exists, so every parity check passes while the string renders in English. → caught **189**
+     (`landing.footerPoweredBy`, `landing.footerMadeWith` on 2,201 KO landers).
+   - **(3) The allowlist is the design decision, and it is where this check will rot.** Of 10 no-Hangul KO
+     values, **8 are correct** — brand and product names (`Claude Pro`, `Apple TV+`, `ChatGPT Plus`,
+     `Uber One`, `Leviathan News`, `DefiLlama API`) and the acronym `LP/DEX` are identical in Korean by
+     nature. A predicate without an allowlist is 80% false-positive here and gets skimmed within a week.
+     Keep the allowlist as **data, keyed by exact key path**, each entry carrying a one-line reason, and
+     **report its size next to the suspect count** — otherwise a future reader cannot tell "clean" from
+     "allowlisted into silence." Adding an allowlist entry for a non-brand string is a gate relaxation
+     wearing a maintenance costume (`pre-existing-red-triage.md`, Resolution E).
+   **Scale rule:** a defect in the `landing` namespace multiplies by the generated estate, not by the number
+   of screens — `landing.js` backs 2,201 pages, so two strings is a 2,201-page defect. And `detectLanguage()`
+   (`landing.js:47-55`) auto-selects KO from `navigator.language`, so "nobody passes `?lang=ko`" is never a
+   reason to deprioritise a KO defect.
 6. **Dead CTAs / broken links.** Every primary CTA + link resolves (no dead clicks); the two north-star
    CTAs ("Garden this pool", "Start Earning") fire their events. → 029 (dead pool rows).
 7. **Responsive / dark.** No horizontal body scroll at 360px; dark mode renders; focus rings present. →
@@ -366,6 +393,17 @@ had no link signal at all. Three sub-rules port cleanly to HTML, and the porting
    spike and breaks its own guardrail streak; a tick that never runs the unfiltered control cannot
    distinguish a true prod-zero from a filter typo silently matching nothing. Record both numbers in the
    snapshot; make the guardrail claim from the filtered one only.
+
+   **Corollary — verifying a ship: count the ENTITY, never the matching LINE (learned 2026-07-31).**
+   Checking that item 188 removed 7 filter URLs, `curl … | grep -cE 'minTvl=|minApy='` on
+   `sitemap-main.xml` returned **20** — which reads as "the removal failed" and nearly became a phantom P1
+   regression ticket. It is 5 `<loc>` values plus their `hreflang` alternates, and **none** of them was one
+   of the 7 URLs 188 removed: 188 *converted* the class into gated `?chain=All…` rungs rather than deleting
+   it. Two rules fall out, and they generalise past sitemaps: **(a)** extract and count the actual entity
+   (`grep -oE '<loc>[^<]*</loc>'`, then `sort -u`) — a line count over a multi-reference XML/HTML document
+   is not an entity count; **(b) before filing a regression against a ship, read what that item actually
+   did.** A conversion looks exactly like a failed deletion from the outside, and the spec says which one
+   it was. Cheapest version: `git log --oneline -S '<the string>'` plus the item's own `specs/<id>-pr.md`.
 
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
