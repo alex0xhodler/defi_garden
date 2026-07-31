@@ -101,15 +101,6 @@
     <priority>0.78</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX" />
-    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=AUSD&amp;poolTypes=LP%2FDEX</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AUSD&amp;poolTypes=LP%2FDEX" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
@@ -137,13 +128,22 @@
     <priority>0.82</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
-    <lastmod>2026-07-31T10:09:53.259Z</lastmod>
+    <loc>https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.79</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FRXUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FRXUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FRXUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FRXUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PAXG&amp;poolTypes=LP%2FDEX</loc>
@@ -155,13 +155,13 @@
     <priority>0.77</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=FRXUSD&amp;poolTypes=LP%2FDEX</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FRXUSD&amp;poolTypes=LP%2FDEX" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FRXUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FRXUSD&amp;poolTypes=LP%2FDEX" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <loc>https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-07-31T10:09:53.259Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.82</priority>
+    <priority>0.79</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SYRUPUSDC&amp;poolTypes=LP%2FDEX</loc>
