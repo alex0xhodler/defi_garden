@@ -57,6 +57,11 @@
      AUDIT_TEXT_SURFACES   — set to '0' to disable the llms.txt/llms-full.txt
                              text-surface pass (backlog 160); same effect as
                              opts.textSurfaces === false. Default ON.
+     AUDIT_I18N             — set to '0' to disable the translations.js
+                             en/ko value-honesty + key-parity prescan (item
+                             190); same effect as opts.i18n === false.
+                             Default ON, off under opts.staticOnly (pure fs,
+                             same convention as AUDIT_TEXT_SURFACES).
      AUDIT_POOL_IDS         — comma-separated pool ids (backlog 167); when set,
                              REPLACES the pool-detail anchor selection + prescan
                              + rotation. The first id becomes the anchor pool
@@ -664,6 +669,153 @@ function prescanTextSurfaces(opts = {}) {
 // and found nothing, or didn't run at all (mirrors emptyPrescanResult()).
 function emptyTextSurfaceResult() {
   return { scanned: 0, suspectCount: 0, bySignal: {} };
+}
+
+// i18n value-honesty prescan (item 190): translations.js has no signal that
+// checks whether a KO value is actually Korean — evidence was 353,114.2%-APY-
+// class ("caught only by hand"), this time for copy: the KO bare-`/` landing
+// footer closed with an untranslated English sentence (two `landing.footer*`
+// values byte-identical to EN). Blast radius measured at build time: the
+// landing route only — `landing.js` is loaded by `home.html` alone, NOT by
+// the generated `tokens/*.html`/`chains/*.html` pages, correcting spec 190's
+// "2,201 landers" figure (see specs/190-notes.md). Pure fs+require
+// over translations.js, no render, no network — same "prescan the cheap way"
+// shape as the text-surface family above, aimed at ONE dictionary instead of
+// a handful of files.
+// signal -> severity, single source of truth (same role as TEXT_SURFACE_SIGNALS).
+const I18N_SIGNALS = { 'en-ko-parity': 'P1' };
+// Hangul syllables + Jamo + compatibility Jamo — matches spec 190's evidence
+// regex verbatim.
+const I18N_HANGUL = /[가-힣ᄀ-ᇿ㄰-㆏]/;
+
+// Brand/product names and acronyms that are LEGITIMATELY identical in KO —
+// data, not code, keyed by the EXACT flattened key path (never a prefix or
+// substring match; see prescanI18n()'s lookup below). Adding a real brand
+// string here is a one-line diff. Adding a NON-brand string here to silence a
+// real untranslated-copy finding is the documented failure mode this gate
+// exists to prevent (relaxing the gate instead of fixing the bug) and is a
+// REVERT-CANDIDATE signal per spec 190's decision rule — every entry needs a
+// one-line reason that actually holds up.
+const I18N_IDENTICAL_ALLOWLIST = {
+  navCatLpDex: 'acronym, same in KO',
+  navCatRwa: 'acronym, same in KO',
+  navFilterTvl: 'acronym, same in KO',
+  navFilterApy: 'acronym, same in KO',
+  tvl: 'acronym, same in KO',
+  'landing.footerDefillamaApi': 'brand name (DefiLlama API)',
+  'planner.goalClaude': 'brand name (Claude Pro)',
+  'planner.goalMax': 'brand name (Max)',
+  'planner.goalHulu': 'brand name (Hulu)',
+  'planner.goalAppleTV': 'brand name (Apple TV+)',
+  'planner.goalChatGPT': 'brand name (ChatGPT Plus)',
+  'planner.goalPeacock': 'brand name (Peacock)',
+  'planner.goalDoorDash': 'brand name (DoorDash)',
+  'planner.goalUberOne': 'brand name (Uber One)',
+  'planner.goalAudible': 'brand name (Audible)',
+  'planner.goalWalmart': 'brand name (Walmart+)',
+  'planner.poolApy': 'acronym, same in KO',
+  'planner.poolTvl': 'acronym, same in KO',
+  'planner.pressFeatureName': 'brand name (Leviathan News)',
+  'planner.ladderSpotify': 'brand name (Spotify)',
+  'planner.ladderNetflix': 'brand name (Netflix)',
+  'planner.ladderClaude': 'brand name (Claude Pro)',
+  tcpColApy: 'acronym, same in KO',
+  tcpColTvl: 'acronym, same in KO'
+};
+
+// Recursively flattens a translations namespace into { 'a.b.c': leafValue }.
+// Plain objects recurse; every other value type (string, function, array,
+// number) is a leaf — mirrors how translations.js itself is shaped (nested
+// namespaces are plain objects; everything else, including the handful of
+// function-valued interpolators like returnStatus, is a terminal value).
+function flattenI18nDict(obj, prefix, out) {
+  for (const k of Object.keys(obj)) {
+    const v = obj[k];
+    const keyPath = prefix ? `${prefix}.${k}` : k;
+    if (v && typeof v === 'object' && !Array.isArray(v)) {
+      flattenI18nDict(v, keyPath, out);
+    } else {
+      out[keyPath] = v;
+    }
+  }
+  return out;
+}
+
+// Never throws: an unloadable/malformed dictionary is skipped (one stderr
+// note) and returns the empty/unrun scan shape — exact parallel of
+// prescanTextSurfaces()'s unreadable-file handling. opts.dict is the
+// test-support injection hook, same convention as opts.pages/opts.files
+// elsewhere in this file.
+function prescanI18n(opts = {}) {
+  const allowlistSize = Object.keys(I18N_IDENTICAL_ALLOWLIST).length;
+  let dict = opts.dict;
+  if (dict === undefined) {
+    try {
+      dict = require('./translations.js').translations;
+    } catch (e) {
+      console.error(`[audit] i18n prescan: translations.js unreadable/unparseable — ${e.message}`);
+      return { scanned: 0, suspects: [], allowlistSize };
+    }
+  }
+  if (!dict || typeof dict !== 'object' || !dict.en || typeof dict.en !== 'object' || !dict.ko || typeof dict.ko !== 'object') {
+    console.error('[audit] i18n prescan: dictionary missing en/ko namespaces — skipped');
+    return { scanned: 0, suspects: [], allowlistSize };
+  }
+
+  let enFlat, koFlat;
+  try {
+    enFlat = flattenI18nDict(dict.en, '', {});
+    koFlat = flattenI18nDict(dict.ko, '', {});
+  } catch (e) {
+    console.error(`[audit] i18n prescan: dictionary could not be flattened — ${e.message}`);
+    return { scanned: 0, suspects: [], allowlistSize };
+  }
+
+  const enKeys = new Set(Object.keys(enFlat));
+  const koKeys = new Set(Object.keys(koFlat));
+  const suspects = [];
+
+  // Rule 1 — key parity, both directions.
+  for (const key of enKeys) {
+    if (!koKeys.has(key)) {
+      suspects.push({ key, signal: 'en-ko-parity', severity: I18N_SIGNALS['en-ko-parity'],
+        detail: 'key present in en, missing in ko' });
+    }
+  }
+  for (const key of koKeys) {
+    if (!enKeys.has(key)) {
+      suspects.push({ key, signal: 'en-ko-parity', severity: I18N_SIGNALS['en-ko-parity'],
+        detail: 'key present in ko, missing in en' });
+    }
+  }
+
+  // Rule 2 — value honesty: a KO leaf byte-identical to its EN counterpart,
+  // containing no Hangul, and NOT on the exact-key-path allowlist.
+  for (const key of enKeys) {
+    if (!koKeys.has(key)) continue; // already reported by rule 1
+    const enVal = enFlat[key];
+    const koVal = koFlat[key];
+    if (typeof enVal !== 'string' || typeof koVal !== 'string') continue; // function/array/number leaves: parity only
+    if (enVal !== koVal) continue;
+    if (I18N_HANGUL.test(koVal)) continue;
+    if (Object.prototype.hasOwnProperty.call(I18N_IDENTICAL_ALLOWLIST, key)) continue;
+    suspects.push({ key, signal: 'en-ko-parity', severity: I18N_SIGNALS['en-ko-parity'],
+      detail: `ko value is byte-identical to en and contains no Hangul: "${koVal}"` });
+  }
+
+  suspects.sort((a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0));
+
+  const scanned = new Set([...enKeys, ...koKeys]).size;
+  return { scanned, suspects, allowlistSize };
+}
+
+// No-suspects/disabled shape — always the same shape whether the pass ran
+// and found nothing, or didn't run at all (mirrors emptyTextSurfaceResult()).
+// allowlistSize is present even when the pass never ran, so a reader can
+// always tell "clean" from "allowlisted into silence" (spec 190 acceptance
+// criterion).
+function emptyI18nResult() {
+  return { scanned: 0, suspectCount: 0, bySignal: {}, allowlistSize: Object.keys(I18N_IDENTICAL_ALLOWLIST).length };
 }
 
 function defaultStaticSeed() {
@@ -3039,6 +3191,37 @@ async function runAudit(opts = {}) {
   const textSurfacesInOnly = !Array.isArray(opts.only) || opts.only.includes('text-surfaces');
   if (Array.isArray(opts.only)) textSurfaceFindings = textSurfaceFindings.filter((f) => opts.only.includes(f.surface));
 
+  // i18n prescan (item 190), computed BEFORE the browser launches (pure fs +
+  // require). Kill switch mirrors the text-surface pass's convention exactly
+  // (opts.i18n / AUDIT_I18N=0); default ON, off under opts.staticOnly.
+  const i18nEnabled = opts.i18n === true ? true
+    : opts.i18n === false ? false
+    : process.env.AUDIT_I18N === '0' ? false
+    : !opts.staticOnly;
+
+  let i18nResult = emptyI18nResult();
+  let i18nFindings = [];
+  if (i18nEnabled) {
+    const i18nScan = prescanI18n();
+    const bySignal = {};
+    for (const sig of Object.keys(I18N_SIGNALS)) bySignal[sig] = 0;
+    for (const s of i18nScan.suspects) bySignal[s.signal] = (bySignal[s.signal] || 0) + 1;
+    i18nResult = { scanned: i18nScan.scanned, suspectCount: i18nScan.suspects.length, bySignal, allowlistSize: i18nScan.allowlistSize };
+
+    // One aggregate finding per signal, max 10 example keys — same shape as
+    // text-surface:<signal>, never one finding per key.
+    for (const sig of Object.keys(I18N_SIGNALS)) {
+      const hits = i18nScan.suspects.filter((s) => s.signal === sig);
+      if (hits.length === 0) continue;
+      const examples = hits.slice(0, 10).map((s) => `${s.key}: ${s.detail}`);
+      i18nFindings.push(finding('i18n', 'n/a', `i18n:${sig}`, I18N_SIGNALS[sig],
+        `${hits.length} of ${i18nScan.scanned} translation keys match ${sig} (allowlist: ${i18nScan.allowlistSize} keys) — examples: ${examples.join(' | ')}`));
+    }
+  }
+  // Same `opts.only` allowlist as every other aggregate-finding family above.
+  const i18nInOnly = !Array.isArray(opts.only) || opts.only.includes('i18n');
+  if (Array.isArray(opts.only)) i18nFindings = i18nFindings.filter((f) => opts.only.includes(f.surface));
+
   const server = await startServer(port);
   const browser = await pw.chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   const baseUrl = `http://localhost:${port}`;
@@ -3047,11 +3230,14 @@ async function runAudit(opts = {}) {
   // fallback-shape CTA carries no project name in its own text).
   const poolsById = new Map(pools.map((p) => [p.pool, p]));
   const ctx = { snapshotBody, freshMeta, liveBody, poolsById };
-  const findings = [...prescanFindings, ...poolPrescanFindings, ...textSurfaceFindings];
+  const findings = [...prescanFindings, ...poolPrescanFindings, ...textSurfaceFindings, ...i18nFindings];
   const surfacesCovered = [];
   // Named only when the pass ran AND survived opts.only (spec 160: unlike
   // static-prescan, this DOES get its own surfacesCovered entry).
   if (textSurfacesEnabled && textSurfacesInOnly) surfacesCovered.push('text-surfaces');
+  // Same convention (item 190): the i18n prescan gets its own surfacesCovered
+  // entry when it ran AND survived opts.only.
+  if (i18nEnabled && i18nInOnly) surfacesCovered.push('i18n');
   try {
     for (const s of surfaces) {
       const f = await main(browser, baseUrl, s, ctx);
@@ -3120,7 +3306,8 @@ async function runAudit(opts = {}) {
     prescan: staticResult.prescan,
     poolPrescan: poolResult.poolPrescan,
     poolRotation: poolResult.poolRotation,
-    textSurfaces
+    textSurfaces,
+    i18n: i18nResult
   };
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(result, null, 2) + '\n');
@@ -3158,7 +3345,12 @@ module.exports = {
   // item 188 — exported so test_audit_text_surfaces.js can drive the
   // level-3 grid-link simulator directly (the chain='All' wildcard fix,
   // Leg C) without needing a full prescanTextSurfaces() fixture file.
-  countQualifyingPools
+  countQualifyingPools,
+  // item 190 — exported so test_audit_i18n_parity.js can drive the i18n
+  // prescan directly (with opts.dict injection) without a full runAudit()
+  // invocation; I18N_IDENTICAL_ALLOWLIST is exported so the exact-key-path
+  // (never prefix/substring) test can read the seeded allowlist directly.
+  prescanI18n, I18N_IDENTICAL_ALLOWLIST
 };
 
 if (require.main === module) {
