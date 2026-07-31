@@ -38,19 +38,19 @@
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=RETH&amp;chain=Ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RETH&amp;chain=Ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RETH&amp;chain=Ethereum&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RETH&amp;chain=Ethereum" />
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=Ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Ethereum&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Ethereum" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=USDC&amp;chain=Ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Ethereum&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Ethereum" />
+    <loc>https://www.defi.garden/?token=RETH&amp;chain=Ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RETH&amp;chain=Ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RETH&amp;chain=Ethereum&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RETH&amp;chain=Ethereum" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
@@ -204,9 +204,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KBTC&amp;chain=Ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KBTC&amp;chain=Ethereum&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KBTC&amp;chain=Ethereum" />
-    <lastmod>2026-07-31T03:48:56.397Z</lastmod>
+    <lastmod>2026-07-31T21:50:48.653Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.85</priority>
+    <priority>0.86</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=REUSD&amp;chain=Ethereum</loc>
@@ -245,15 +245,6 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=ETH&amp;chain=Ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Ethereum&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Ethereum" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=SGHO&amp;chain=Ethereum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SGHO&amp;chain=Ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SGHO&amp;chain=Ethereum&amp;lang=ko" />
@@ -261,6 +252,15 @@
     <lastmod>2026-07-24T18:36:27.839Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.83</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETH&amp;chain=Ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Ethereum&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Ethereum" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USD1&amp;chain=Ethereum</loc>
@@ -348,9 +348,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSUSD&amp;chain=Ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSUSD&amp;chain=Ethereum&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSUSD&amp;chain=Ethereum" />
-    <lastmod>2026-07-31T18:39:09.198Z</lastmod>
+    <lastmod>2026-07-31T21:50:48.653Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.81</priority>
+    <priority>0.82</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=LINK&amp;chain=Ethereum</loc>
@@ -542,15 +542,6 @@
     <priority>0.79</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=SIERRA&amp;chain=Ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SIERRA&amp;chain=Ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SIERRA&amp;chain=Ethereum&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SIERRA&amp;chain=Ethereum" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.77</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=PST&amp;chain=Ethereum</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PST&amp;chain=Ethereum" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PST&amp;chain=Ethereum&amp;lang=ko" />
@@ -558,6 +549,15 @@
     <lastmod>2026-07-21T05:20:31.213Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SIERRA&amp;chain=Ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SIERRA&amp;chain=Ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SIERRA&amp;chain=Ethereum&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SIERRA&amp;chain=Ethereum" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.77</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=APYUSD&amp;chain=Ethereum</loc>

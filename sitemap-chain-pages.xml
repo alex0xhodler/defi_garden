@@ -91,12 +91,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/sui</loc>
+    <loc>https://www.defi.garden/chains/cronos</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/cronos</loc>
+    <loc>https://www.defi.garden/chains/sui</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -106,12 +106,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/plume-mainnet</loc>
+    <loc>https://www.defi.garden/chains/op-mainnet</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/op-mainnet</loc>
+    <loc>https://www.defi.garden/chains/plume-mainnet</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -236,12 +236,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/venom</loc>
+    <loc>https://www.defi.garden/chains/icp</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/icp</loc>
+    <loc>https://www.defi.garden/chains/venom</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -251,22 +251,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/neutron</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/bifrost-network</loc>
+    <loc>https://www.defi.garden/chains/neutron</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/flow</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/bifrost-network</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -427,11 +427,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/cronos-zkevm</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/neo</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
