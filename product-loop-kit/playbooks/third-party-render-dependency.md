@@ -100,6 +100,49 @@ redefines itself upward while nothing improves.
   silent + lossy), but say so in the PR, and reach for `continue-on-error` before reverting the item if
   the daily job starts failing on it.
 
+## Variant: the dependency is not in render code at all — it is inside a CSS file (item 187)
+
+Everything above assumes the gate is a JS conditional you can grep. The worst instance found so far was
+not: `style.css:1` was `@import url(https://api.fontshare.com/…)`, and every page loads that sheet with
+the deferred-CSS pattern `<link rel="stylesheet" href="style.min.css" media="print"
+onload="this.media='all'">`. **A `<link>`'s `load` event does not fire until its `@import`ed
+sub-resources resolve.** So a blocked/slow font CDN meant `this.media='all'` never ran and all 545 rules
+— tokens, layout, neumorphic shadows, dark mode — stayed applied to **print media only**. The page
+rendered with raw UA defaults. No error, no console warning that looked like a defect, no missing
+element for a scanner to find: every element was present, just entirely unstyled.
+
+Why it survived every existing check: the estate had been trained to treat a failing fontshare request
+as expected sandbox noise (~20 `test_*.js` files list it in an `IGNORABLE` regex; `audit-app.js:115` has
+the same list). **The noise really was ignorable — the suppressed `load` event was not.** One test
+(`test_list_polish.js`) even *worked around* it, rewriting the link to `media="all"` and stubbing the
+font route, so it passed while the bug shipped.
+
+- **Tell:** a whole surface looks unstyled/half-styled under a blocked host, rather than one element
+  missing. Also: an element-level scanner reports **nothing**, because nothing is missing.
+- **Check, in one line:** `[...document.querySelectorAll('link[rel=stylesheet]')].map(l => l.href + '@'
+  + l.media)` — any sheet still on `print` after load never swapped. Confirm with
+  `getComputedStyle(document.documentElement).getPropertyValue('--color-background')` → empty means the
+  design system is not applied.
+- **Isolate the cause by controlled substitution, not by reading.** Put the two real CSS files in a
+  five-line HTML file with a minimal server, change exactly one thing (strip the `@import`), and watch
+  the swap start working. That takes minutes and converts "I think it's the `@import`" into proof. It is
+  also what tells you it is the *file* and not the *position* — swap the link order to check.
+- **Resolution D — delete the dependency if the thing it fetches is unused.** Check first: is the
+  imported font actually referenced? Here `--font-family-base` was `"FKGroteskNeue","Geist","Inter",…`,
+  the real font was self-hosted at `style.css:783`, and `grep -i satoshi *.css` matched only the
+  `@import` itself. **The request that could break every page fetched a typeface the product never
+  rendered.** When that is true the fix is a deletion with no happy-path visual change — regenerate the
+  minified artifact through the existing script, never by hand.
+- **If the resource IS used:** do not put it back as an `@import`. Move it to its own `<link>` in the
+  HTML head so it has its own failure domain, or self-host it like `FKGroteskNeue`. An `@import` at the
+  top of a stylesheet serializes a second cross-origin round-trip before *any* of that sheet applies,
+  even on the happy path.
+- **Trap — the source-level rail is narrower than the class.** A test asserting "no remote `@import` in
+  `style.css`" does not protect `planner-styles.css`, `pool-detail-styles.css`, or `landing-styles.css`.
+  Scoping regression protection to the one file that broke is the `detector-signal-coverage.md` thesis
+  again. If you ship the narrow version, say so out loud rather than letting the green tick imply the
+  class is covered.
+
 ## Provenance
 
 Distilled from **item 182** (2026-07-30, PR — "the Start Earning CTA must not depend on a
@@ -109,6 +152,9 @@ defect the loop located ON the north-star surface. One `dead-cta` P1 on one pool
 CI-baked `data/protocol-urls.json` tier taking degraded-path coverage 70.9% → 99.9%, plus an honest
 DefiLlama fallback (`source: 'defillama_fallback'`) for the one true-null project (`sdai`).
 Prior instance of the same class treated one-at-a-time: **item 138** (`sky-lending`).
+Extended by **item 187** (2026-07-31, PR — the CSS-`@import` variant above): the same class one layer
+down, where the third-party dependency sat inside a stylesheet and gated the *entire* design system
+rather than one element. Same counter-trap, same verdict, much larger blast radius.
 Cross-references: `detector-signal-coverage.md` (the repair-costume variant of its thesis),
 `product-audit.md` (COUNTER-TRAP — when a blocked host is a real signal),
 `dual-source-logic-divergence.md` (the related but distinct "two forked copies drift" class).
