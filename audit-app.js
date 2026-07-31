@@ -2627,7 +2627,21 @@ function scanNumbers(text) {
   // Absurd magnitude (trap-safe): a raw number (optionally $-prefixed) with no
   // K/M/B/T suffix whose |value| >= ABSURD_MAGNITUDE. Suffix-abbreviated figures
   // are skipped (legal house style).
-  const numRe = /(-?)\$?(\d[\d,]*(?:\.\d+)?)\s*([KMBTkmbt])?/g;
+  //
+  // backlog 193: same predicate as spec 157's ABSURD_MAGNITUDE_TEXT
+  // (`(^|[^A-Za-z0-9])`, above) — a digit run must not be preceded by a
+  // letter or digit, or it's a fragment of an alphanumeric token (e.g. the
+  // Solana base58 mint `So1111...112` rendered raw by PoolDetail.js, or an
+  // EVM address body), not a genuine magnitude. The FORM differs on purpose:
+  // this regex is driven in a `/g` exec() loop below that reads `n[1]`
+  // (sign), `n[2]` (digits), `n[3]` (suffix) by fixed index and reports
+  // `n[0].trim()` verbatim. A capturing prefix alternation like 157's would
+  // shift those indices, splice the boundary character into the reported
+  // string, and get consumed so the next exec() call could miss an adjacent
+  // match. A zero-width lookbehind enforces the identical boundary condition
+  // without capturing anything or advancing lastIndex — do not "unify" this
+  // back into 157's alternation form.
+  const numRe = /(?<![A-Za-z0-9])(-?)\$?(\d[\d,]*(?:\.\d+)?)\s*([KMBTkmbt])?/g;
   let n;
   while ((n = numRe.exec(text)) !== null) {
     if (n[3]) continue; // K/M/B/T abbreviated → legitimate
