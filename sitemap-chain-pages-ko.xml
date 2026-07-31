@@ -136,12 +136,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/stable</loc>
+    <loc>https://www.defi.garden/ko/chains/berachain</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/berachain</loc>
+    <loc>https://www.defi.garden/ko/chains/stable</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -266,12 +266,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/flow</loc>
+    <loc>https://www.defi.garden/ko/chains/venom</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/venom</loc>
+    <loc>https://www.defi.garden/ko/chains/flow</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -301,12 +301,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/unichain</loc>
+    <loc>https://www.defi.garden/ko/chains/hedera</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/hedera</loc>
+    <loc>https://www.defi.garden/ko/chains/unichain</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -381,12 +381,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/zksync-era</loc>
+    <loc>https://www.defi.garden/ko/chains/kusama</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/kusama</loc>
+    <loc>https://www.defi.garden/ko/chains/zksync-era</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -426,12 +426,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/conflux</loc>
+    <loc>https://www.defi.garden/ko/chains/cronos-zkevm</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/cronos-zkevm</loc>
+    <loc>https://www.defi.garden/ko/chains/conflux</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
