@@ -44,8 +44,10 @@ Provenance: <the LOG/spec entry this was distilled from>
 - `detector-signal-coverage.md` — a checker was green while a real bug shipped on a surface it covers; also the inverse, where a repair upstream blinds the detector without touching it (items 169/175/183)
 - `dead-generated-link-repair.md` — a link on a generated surface (`tokens/`, `chains/`, `llms*.txt`, `sitemap-*.xml`) is routed but resolves to nothing: under-floor vs retarget vs omit vs threshold-ladder (items 173/175/180/181); extended with the case a pool-counting simulator cannot see — a URL *shape* the app has no branch to render, plus the rule that every simulator must learn a param value's semantics before you start emitting it (item 188)
 
-<!-- Index gap, noted not fixed (item 188, 2026-07-31): 18 playbook files exist, 12 are listed here.
-     Unindexed: ci-signal-honesty, derived-number-rails, dual-source-logic-divergence,
-     seo-surface-regen-delta, stated-threshold-copy, plus this README itself. Out of scope for 188 —
-     a candidate ticket for the next heartbeat. -->
+- `dual-source-logic-divergence.md` — the same derived value is computed by two forked copies of one helper and they have drifted: grid vs pool-detail badge (item 130), and the build-script variant where a *generator* forks the product's classifier, poisoning both its own quality gate and every checker that requires it, with no rendered symptom anywhere (item 189)
+
+<!-- Index gap, noted not fixed (item 188, 2026-07-31; one line closed by item 189, 2026-07-31):
+     18 playbook files exist, 13 are listed here. Still unindexed: ci-signal-honesty,
+     derived-number-rails, seo-surface-regen-delta, stated-threshold-copy, plus this README itself.
+     Out of scope for 189 — a candidate ticket for the next heartbeat. -->
 

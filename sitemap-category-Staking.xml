@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.defi.garden/?token=WBETH&amp;poolTypes=Staking</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBETH&amp;poolTypes=Staking" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBETH&amp;poolTypes=Staking&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBETH&amp;poolTypes=Staking" />
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=WEETH&amp;poolTypes=Staking</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WEETH&amp;poolTypes=Staking" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WEETH&amp;poolTypes=Staking&amp;lang=ko" />

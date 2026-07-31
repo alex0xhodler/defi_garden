@@ -2,15 +2,23 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-LP-DEX.xml</loc>
-    <lastmod>2026-07-30T11:39:40.288Z</lastmod>
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Lending.xml</loc>
-    <lastmod>2026-07-30T04:58:15.135Z</lastmod>
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-category-RWA.xml</loc>
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Staking.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-category-Yield-Derivatives.xml</loc>
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Yield-Farming.xml</loc>
@@ -286,7 +294,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Plasma.xml</loc>
-    <lastmod>2026-07-27T19:08:09.313Z</lastmod>
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Plume-Mainnet.xml</loc>
@@ -330,7 +338,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Solana.xml</loc>
-    <lastmod>2026-07-31T03:48:56.397Z</lastmod>
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Sonic.xml</loc>
@@ -430,7 +438,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-tokens-all.xml</loc>
-    <lastmod>2026-07-31T03:48:56.397Z</lastmod>
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-token-pages.xml</loc>

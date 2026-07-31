@@ -9,6 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const vm = require('vm');
 
 // Base URL for the site - updated to DeFi Garden (ensuring trailing slash)
 const SITE_URL = (process.env.SITE_URL || 'https://www.defi.garden').replace(/\/$/, '') + '/';
@@ -236,23 +237,122 @@ function extractValidCombinations(pools) {
   };
 }
 
+// item 189 (specs/189.md): the classifier below USED TO BE a forked, 4-
+// category, 3-short-list copy of the product's real pool-type classifier —
+// it disagreed with app.js's getPoolTypeShared (PoolDetail.js, spec 130's
+// "SINGLE SOURCE OF TRUTH … do not fork a second copy of this classifier")
+// on 12.2% of the committed snapshot, over-assigning to "Yield Farming" and
+// emitting sitemap category URLs that rendered an EMPTY grid on the real
+// product. Fixed by extracting the real getPoolTypeShared straight out of
+// PoolDetail.js instead of maintaining a second copy.
+const POOL_TYPE_START_MARKER = 'const LENDING_PROTOCOLS';
+const POOL_TYPE_FN_MARKER = 'function getPoolTypeShared';
+const DEFAULT_POOL_DETAIL_PATH = path.join(__dirname, 'PoolDetail.js');
+
 /**
- * Determine pool type from pool data
+ * Extract & evaluate PoolDetail.js's getPoolTypeShared (spec 130's classifier
+ * region: `const LENDING_PROTOCOLS` through the close of `function
+ * getPoolTypeShared`) via a bare `vm` context — the same anchor-slice-
+ * evaluate pattern test_helpers_parser.js's extractParser uses for app.js's
+ * NL parser (item 084). That region references only String/Array builtins
+ * and the five list constants it declares itself — no DOM, no React
+ * (verified, spec 189) — so it evaluates cleanly outside the browser.
+ *
+ * Throws a single actionable Error naming PoolDetail.js and both anchors on
+ * ANY failure (missing file, moved/renamed anchor, unparseable slice, or a
+ * non-function result) — NEVER falls back to the old forked lists. A silent
+ * fallback is exactly how the fork this item fixes shipped and survived
+ * undetected (spec 189's root-cause finding); the loud failure mirrors this
+ * file's existing posture on a DefiLlama fetch error.
+ *
+ * Exported un-cached (no module-scope memo inside this function) so tests
+ * can exercise the failure path directly against a scratch file without
+ * disturbing the real cache below; getPoolType()'s module-scope extraction
+ * at require time is the one production caller.
+ */
+function extractGetPoolTypeShared(poolDetailPath = DEFAULT_POOL_DETAIL_PATH) {
+  let src;
+  try {
+    src = fs.readFileSync(poolDetailPath, 'utf8');
+  } catch (err) {
+    throw new Error(
+      `generate-sitemap.js: could not read ${poolDetailPath} to extract the shared pool-type ` +
+      `classifier "${POOL_TYPE_FN_MARKER}" (spec 130's single source of truth; spec 189's de-fork) ` +
+      `— ${err.message}`
+    );
+  }
+
+  const start = src.indexOf(POOL_TYPE_START_MARKER);
+  if (start < 0) {
+    throw new Error(
+      `generate-sitemap.js: could not locate "${POOL_TYPE_START_MARKER}" in ${poolDetailPath} — ` +
+      `the classifier region's start anchor (spec 189) was renamed or moved. Update ` +
+      `generate-sitemap.js's extractGetPoolTypeShared() to track PoolDetail.js.`
+    );
+  }
+
+  const fnStart = src.indexOf(POOL_TYPE_FN_MARKER, start);
+  if (fnStart < 0) {
+    throw new Error(
+      `generate-sitemap.js: found "${POOL_TYPE_START_MARKER}" but not "${POOL_TYPE_FN_MARKER}" ` +
+      `after it in ${poolDetailPath} — the classifier region's end anchor (spec 189) was renamed ` +
+      `or moved. Update generate-sitemap.js's extractGetPoolTypeShared() to track PoolDetail.js.`
+    );
+  }
+
+  // The function body is `function getPoolTypeShared(pool) { ... }` closed by
+  // a bare `}` at column 0 (every nested block inside it is indented) — the
+  // same closing-brace convention test_helpers_parser.js's extractParser
+  // relies on for app.js's parser.
+  const closeIdx = src.indexOf('\n}', fnStart);
+  if (closeIdx < 0) {
+    throw new Error(
+      `generate-sitemap.js: located "${POOL_TYPE_FN_MARKER}" in ${poolDetailPath} but not its ` +
+      `closing brace — the function shape changed unexpectedly. Update ` +
+      `generate-sitemap.js's extractGetPoolTypeShared() (spec 189).`
+    );
+  }
+  const sliced = src.slice(start, closeIdx + 2); // include the trailing "\n}"
+
+  const ctx = {};
+  vm.createContext(ctx);
+  let fn;
+  try {
+    fn = vm.runInContext(sliced + '\ngetPoolTypeShared;', ctx);
+  } catch (err) {
+    throw new Error(
+      `generate-sitemap.js: the slice of ${poolDetailPath} from "${POOL_TYPE_START_MARKER}" to the ` +
+      `end of "${POOL_TYPE_FN_MARKER}" did not evaluate cleanly (spec 189 extraction) — ${err.message}`
+    );
+  }
+  if (typeof fn !== 'function') {
+    throw new Error(
+      `generate-sitemap.js: extracted "${POOL_TYPE_FN_MARKER}" from ${poolDetailPath} is not a ` +
+      `function (got ${typeof fn}) — the slice from "${POOL_TYPE_START_MARKER}" to ` +
+      `"${POOL_TYPE_FN_MARKER}" is wrong. Update generate-sitemap.js's extractGetPoolTypeShared() (spec 189).`
+    );
+  }
+  return fn;
+}
+
+// item 189: extracted AT REQUIRE TIME (not lazily on first call) so a
+// broken/moved PoolDetail.js fails generate-sitemap.js's own require() loudly
+// — the same posture this file already has for a DefiLlama fetch error —
+// instead of three downstream consumers (generate-llms.js, audit-app.js,
+// generate-token-pages.js) each silently re-adopting a wrong classifier.
+// Cached here at module scope: every getPoolType(pool) call below reuses this
+// one extracted function; PoolDetail.js is read/evaluated exactly once.
+const _getPoolTypeShared = extractGetPoolTypeShared();
+
+/**
+ * Determine pool type from pool data — delegates to the product's single
+ * source of truth (spec 130's getPoolTypeShared in PoolDetail.js), extracted
+ * above. Name and signature kept identical to the pre-189 fork so
+ * generate-llms.js / audit-app.js / generate-token-pages.js need ZERO
+ * call-site changes (spec 189).
  */
 function getPoolType(pool) {
-  if (!pool.project) return 'Yield Farming';
-  
-  const projectName = pool.project.toLowerCase().replace(/\s+/g, '-');
-  
-  const lendingProjects = ['aave', 'compound', 'morpho', 'spark', 'radiant', 'euler', 'venus', 'strike'];
-  const stakingProjects = ['lido', 'rocket-pool', 'ether.fi', 'jito', 'marinade', 'stader', 'frax'];
-  const dexProjects = ['uniswap', 'curve', 'balancer', 'pancakeswap', 'sushiswap', 'aerodrome', 'velodrome'];
-  
-  if (lendingProjects.some(p => projectName.includes(p))) return 'Lending';
-  if (stakingProjects.some(p => projectName.includes(p))) return 'Staking';
-  if (dexProjects.some(p => projectName.includes(p))) return 'LP/DEX';
-  
-  return 'Yield Farming';
+  return _getPoolTypeShared(pool);
 }
 
 /**
@@ -540,12 +640,21 @@ async function generateSitemapSuite(poolsOverride) {
 
     // 3. Vertical: Category-Specific Sitemaps (Lending, Staking, etc.)
     console.log('📝 Building Vertical Category Sitemaps...');
-    const categories = ['Lending', 'Staking', 'LP/DEX', 'Yield Farming'];
+    // item 189 (specs/189.md, Leg B): the product's real classifier
+    // (getPoolTypeShared, above) has SIX categories — app.js:114-121's
+    // CATEGORY_TABS nav taxonomy — not the fork's four. Adding RWA and Yield
+    // Derivatives here means every category getPoolType() can now return
+    // earns a sitemap file; the 013 quality gate (>= SITEMAP_MIN_QUALIFYING_POOLS)
+    // still applies per-token-per-category unchanged, so a category only
+    // ships a file/URL once some token actually clears it.
+    const categories = ['Lending', 'Staking', 'LP/DEX', 'Yield Farming', 'RWA', 'Yield Derivatives'];
     const categoryUrlMap = {
       'Lending': 'Lending',
       'LP/DEX': 'LP%2FDEX',
-      'Staking': 'Staking', 
-      'Yield Farming': 'Yield%20Farming'
+      'Staking': 'Staking',
+      'Yield Farming': 'Yield%20Farming',
+      'RWA': 'RWA',
+      'Yield Derivatives': 'Yield%20Derivatives'
     };
 
     categories.forEach(cat => {
@@ -752,4 +861,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg, isValidToken, isQualifyingPool, poolTotalApy, countQualifyingChainAll, SITEMAP_MIN_TVL, SITEMAP_MIN_QUALIFYING_POOLS, APY_SANITY_LIMIT };
+module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, extractGetPoolTypeShared, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg, isValidToken, isQualifyingPool, poolTotalApy, countQualifyingChainAll, SITEMAP_MIN_TVL, SITEMAP_MIN_QUALIFYING_POOLS, APY_SANITY_LIMIT };
