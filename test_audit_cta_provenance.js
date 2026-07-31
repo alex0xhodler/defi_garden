@@ -18,7 +18,8 @@ const os = require('os');
 const path = require('path');
 const {
   runAudit, classifyCtaKind, computeRotation, readBakedProtocolUrls,
-  readStaticProtocolUrls, projectHasUrl, ROTATION_SEEN_CAP, ctaFindingSeverity
+  readStaticProtocolUrls, projectHasUrl, ROTATION_SEEN_CAP, ctaFindingSeverity,
+  buildPoolSurfaces, DEFAULT_POOL_SAMPLE, MAX_POOL_SAMPLE
 } = require('./audit-app.js');
 
 const ROOT = __dirname;
@@ -208,6 +209,159 @@ async function main() {
     const r1 = computeRotation(candidates, 3, 'audit-183-determinism-seed', state);
     const r2 = computeRotation(candidates, 3, 'audit-183-determinism-seed', state);
     assert(JSON.stringify(r1.picked) === JSON.stringify(r2.picked), 'expected identical picks for identical seed+state');
+  });
+
+  // ===========================================================================
+  // backlog 191 — raised DEFAULT_POOL_SAMPLE from 2 toward MAX_POOL_SAMPLE
+  // (6). computeRotation()/sampleBySeed() are NOT touched by 191 — these
+  // cases pin that the SELECTION contract survives the budget change: default
+  // applies, env override still works, the ceiling clamp still holds (both
+  // the opts and env paths), and the exact pick lists computeRotation()
+  // produced before this change are unchanged (golden fixture).
+  // ===========================================================================
+
+  function poolFixture(nonAnchorCount) {
+    return [anchorPool()].concat(Array.from({ length: nonAnchorCount }, (_, i) => cleanPool(i)));
+  }
+
+  await test('191 (a): buildPoolSurfaces() default applies — picked.length and poolRotation.sampleSize both equal DEFAULT_POOL_SAMPLE (interpolated, not literal 6)', () => {
+    const pools = poolFixture(20); // > DEFAULT_POOL_SAMPLE non-anchor candidates
+    const r = buildPoolSurfaces({
+      pools, poolSeed: 'audit-191-default-seed', poolPrescan: false,
+      rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
+    });
+    assert(r.poolRotation.picked.length === DEFAULT_POOL_SAMPLE,
+      `expected ${DEFAULT_POOL_SAMPLE} picks at the default sample size, got ${r.poolRotation.picked.length}: ${JSON.stringify(r.poolRotation.picked)}`);
+    assert(r.poolRotation.sampleSize === DEFAULT_POOL_SAMPLE,
+      `expected poolRotation.sampleSize === DEFAULT_POOL_SAMPLE (${DEFAULT_POOL_SAMPLE}), got ${r.poolRotation.sampleSize}`);
+  });
+
+  await test('191 (b): AUDIT_POOL_SAMPLE env var still overrides the default', () => {
+    const pools = poolFixture(20);
+    const priorEnv = process.env.AUDIT_POOL_SAMPLE;
+    process.env.AUDIT_POOL_SAMPLE = '3';
+    try {
+      const r = buildPoolSurfaces({
+        pools, poolSeed: 'audit-191-override-seed', poolPrescan: false,
+        rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
+      });
+      assert(r.poolRotation.picked.length === 3, `expected 3 picks under AUDIT_POOL_SAMPLE=3, got ${r.poolRotation.picked.length}: ${JSON.stringify(r.poolRotation.picked)}`);
+      assert(r.poolRotation.sampleSize === 3, `expected poolRotation.sampleSize === 3, got ${r.poolRotation.sampleSize}`);
+    } finally {
+      if (priorEnv === undefined) delete process.env.AUDIT_POOL_SAMPLE; else process.env.AUDIT_POOL_SAMPLE = priorEnv;
+    }
+  });
+
+  await test('191 (c): a poolSample value ABOVE the ceiling is clamped to MAX_POOL_SAMPLE, not accepted (opts path)', () => {
+    const pools = poolFixture(20);
+    const r = buildPoolSurfaces({
+      pools, poolSeed: 'audit-191-clamp-opts-seed', poolPrescan: false, poolSample: 99,
+      rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
+    });
+    assert(r.poolRotation.picked.length === MAX_POOL_SAMPLE,
+      `expected opts.poolSample:99 to clamp to MAX_POOL_SAMPLE (${MAX_POOL_SAMPLE}), got ${r.poolRotation.picked.length}: ${JSON.stringify(r.poolRotation.picked)}`);
+    assert(r.poolRotation.sampleSize === MAX_POOL_SAMPLE, `expected poolRotation.sampleSize === MAX_POOL_SAMPLE (${MAX_POOL_SAMPLE}), got ${r.poolRotation.sampleSize}`);
+  });
+
+  await test('191 (c): a poolSample value ABOVE the ceiling is clamped to MAX_POOL_SAMPLE, not accepted (env path)', () => {
+    const pools = poolFixture(20);
+    const priorEnv = process.env.AUDIT_POOL_SAMPLE;
+    process.env.AUDIT_POOL_SAMPLE = '99';
+    try {
+      const r = buildPoolSurfaces({
+        pools, poolSeed: 'audit-191-clamp-env-seed', poolPrescan: false,
+        rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
+      });
+      assert(r.poolRotation.picked.length === MAX_POOL_SAMPLE,
+        `expected AUDIT_POOL_SAMPLE=99 to clamp to MAX_POOL_SAMPLE (${MAX_POOL_SAMPLE}), got ${r.poolRotation.picked.length}: ${JSON.stringify(r.poolRotation.picked)}`);
+      assert(r.poolRotation.sampleSize === MAX_POOL_SAMPLE, `expected poolRotation.sampleSize === MAX_POOL_SAMPLE (${MAX_POOL_SAMPLE}), got ${r.poolRotation.sampleSize}`);
+    } finally {
+      if (priorEnv === undefined) delete process.env.AUDIT_POOL_SAMPLE; else process.env.AUDIT_POOL_SAMPLE = priorEnv;
+    }
+  });
+
+  await test('191 (d)(i): golden fixture — computeRotation(candidates, 2, seed, state) returns the EXACT pick list it returned before backlog 191 (computeRotation itself is untouched by this item; these values were captured by running the pre-change code path and hardcoded here as a regression pin)', () => {
+    const candidates = Array.from({ length: 10 }, (_, i) => `golden-${String(i).padStart(3, '0')}`);
+    const seed = 'audit-191-golden-seed:pools';
+    const state = { cycle: 0, seen: [] };
+    const r = computeRotation(candidates, 2, seed, state);
+    const expected = ['golden-007', 'golden-002']; // captured pre-191, computeRotation unmodified
+    assert(JSON.stringify(r.picked) === JSON.stringify(expected),
+      `expected the golden pre-191 pick list ${JSON.stringify(expected)}, got ${JSON.stringify(r.picked)} — computeRotation()/sampleBySeed() must be untouched by backlog 191`);
+    assert(r.wrapped === false && r.cycle === 0, `expected wrapped=false, cycle=0 on this fresh state, got ${JSON.stringify(r)}`);
+  });
+
+  await test('191 (d)(ii): determinism at DEFAULT_POOL_SAMPLE — two identical buildPoolSurfaces() calls give identical picks', () => {
+    const pools = poolFixture(20);
+    const mkCall = () => buildPoolSurfaces({
+      pools, poolSeed: 'audit-191-determinism-seed', poolPrescan: false,
+      rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
+    });
+    const r1 = mkCall();
+    const r2 = mkCall();
+    assert(JSON.stringify(r1.poolRotation.picked) === JSON.stringify(r2.poolRotation.picked),
+      `expected identical picks across two identical calls at DEFAULT_POOL_SAMPLE, got ${JSON.stringify(r1.poolRotation.picked)} vs ${JSON.stringify(r2.poolRotation.picked)}`);
+  });
+
+  await test('191 (d)(iii): honest caveat — sampleBySeed\'s stride depends on `count`, so ONLY the first pick is stable between N=2 and N=DEFAULT_POOL_SAMPLE (same seed, same candidates); the rest legitimately differ', () => {
+    const candidates = Array.from({ length: 10 }, (_, i) => `golden-${String(i).padStart(3, '0')}`);
+    const seed = 'audit-191-golden-seed:pools';
+    const state = { cycle: 0, seen: [] };
+    const picks2 = computeRotation(candidates, 2, seed, state).picked;
+    const picksDefault = computeRotation(candidates, DEFAULT_POOL_SAMPLE, seed, state).picked;
+    assert(picks2[0] === picksDefault[0],
+      `expected the FIRST pick to be stable across N=2 and N=${DEFAULT_POOL_SAMPLE} (same seed/candidates/start index), got ${picks2[0]} vs ${picksDefault[0]}`);
+    // Deliberately NOT asserting the rest of the lists match — sampleBySeed's
+    // stride is `floor(sortedList.length / n)`, which depends on `n`, so
+    // picks after the first are expected to diverge between sample sizes.
+    // This is documented as a known consequence of raising the default in
+    // specs/191-notes.md, not a bug.
+  });
+
+  await test('191 (e): rotation state round-trips and wraps correctly at the new sample size, over a small 8-candidate fixture (no waiting for real exhaustion)', () => {
+    const pools = poolFixture(8); // exactly matches DEFAULT_POOL_SAMPLE + 2, so a wrap is reachable in a few runs
+    const seed = 'audit-191-wrap-seed';
+    const opts = { pools, poolSeed: seed, poolPrescan: false };
+    const anchorId = anchorPool().pool;
+
+    // Run 1: fresh state, 8 unseen candidates -> full pick of DEFAULT_POOL_SAMPLE, no wrap.
+    let state = { schemaVersion: 1, cycle: 0, seen: [] };
+    const r1 = buildPoolSurfaces({ ...opts, rotationState: state });
+    assert(r1.poolRotation.wrapped === false, `expected no wrap on run 1, got ${JSON.stringify(r1.poolRotation)}`);
+    assert(r1.poolRotation.cycle === 0, `expected cycle 0 on run 1, got ${r1.poolRotation.cycle}`);
+    assert(r1.poolRotation.picked.length === DEFAULT_POOL_SAMPLE, `expected ${DEFAULT_POOL_SAMPLE} picks on run 1, got ${r1.poolRotation.picked.length}`);
+    assert(r1.rotationState.seen.includes(anchorId), 'expected the anchor id in seen after run 1');
+    for (const id of r1.poolRotation.picked) {
+      assert(r1.rotationState.seen.includes(id), `expected run 1's pick ${id} in the persisted seen[]`);
+    }
+
+    // Run 2..N: keep feeding the returned rotationState back in until every
+    // candidate has been seen and the next run wraps. Bounded loop guard
+    // (10 iterations) so a regression that never wraps fails loudly instead
+    // of hanging.
+    let prev = r1;
+    let wrappedRun = null;
+    for (let i = 0; i < 10 && !wrappedRun; i++) {
+      const next = buildPoolSurfaces({ ...opts, rotationState: prev.rotationState });
+      if (next.poolRotation.wrapped) { wrappedRun = next; break; }
+      // Not wrapped yet: cycle must stay unchanged and seen must only grow
+      // (round-trip contract).
+      assert(next.poolRotation.cycle === prev.poolRotation.cycle,
+        `expected cycle unchanged while not wrapped, got ${prev.poolRotation.cycle} -> ${next.poolRotation.cycle}`);
+      assert(next.rotationState.seen.length >= prev.rotationState.seen.length,
+        `expected seen[] to only grow (or stay same) run-over-run while not wrapped, got ${prev.rotationState.seen.length} -> ${next.rotationState.seen.length}`);
+      prev = next;
+    }
+    assert(wrappedRun, 'expected a wrap to occur within 10 rounds over an 8-candidate fixture at DEFAULT_POOL_SAMPLE — round-trip/accumulation is broken if it never wraps');
+    assert(wrappedRun.poolRotation.cycle === prev.poolRotation.cycle + 1,
+      `expected cycle to increment by exactly 1 on wrap, got ${prev.poolRotation.cycle} -> ${wrappedRun.poolRotation.cycle}`);
+    // On wrap, buildPoolSurfaces() resets seen to just THIS run's ids (anchor
+    // + this run's picks) — never the accumulated multi-run history.
+    const expectedSeenOnWrap = [anchorId, ...wrappedRun.poolRotation.picked].filter(Boolean);
+    const actualSeenSorted = wrappedRun.rotationState.seen.slice().sort();
+    const expectedSeenSorted = Array.from(new Set(expectedSeenOnWrap)).sort();
+    assert(JSON.stringify(actualSeenSorted) === JSON.stringify(expectedSeenSorted),
+      `expected seen to reset to just this wrap run's ids ${JSON.stringify(expectedSeenSorted)}, got ${JSON.stringify(actualSeenSorted)}`);
   });
 
   // ===========================================================================
