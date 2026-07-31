@@ -83,7 +83,14 @@
                              leg's shared-budget shape).
      AUDIT_POOL_SAMPLE     — how many extra pool-detail:<id-prefix> surfaces to
                              seed-rotate through beyond the anchor + promoted
-                             pools (default 2, capped at 6; backlog 167).
+                             pools (default 6, capped at 6 — backlog 167,
+                             raised from 2 by backlog 191 after measuring
+                             wall-clock; see DEFAULT_POOL_SAMPLE's own comment
+                             for the timings). The default now EQUALS the
+                             cap (MAX_POOL_SAMPLE), so this env var can only
+                             ever LOWER the sample size from here — raising it
+                             above 6 requires raising MAX_POOL_SAMPLE itself,
+                             which is out of scope for 191.
 
    backlog 149: playwright is resolved lazily (bare require -> npm global root ->
    hardcoded global fallback) instead of at module load, so `require('./audit-app.js')`
@@ -216,7 +223,20 @@ const MS_PER_DAY_184 = 24 * 60 * 60 * 1000;
 // APY_SANITY_LIMIT / ABSURD_MAGNITUDE constants verbatim — this section may
 // never redefine either (a rail mirror here is a trust-rail edit).
 const DEFAULT_POOL_PRESCAN_MAX = 2; // promotion cap
-const DEFAULT_POOL_SAMPLE = 2;      // rotation sample size
+// backlog 191 — raised 2 -> 6 (== MAX_POOL_SAMPLE) after measuring wall-clock,
+// not by picking the ceiling because it was there: a full `node audit-app.js`
+// run took 106s at the old default of 2, and 107s at 6 (both single
+// foreground runs, rotation state redirected to a scratch file) — comfortably
+// inside the 300s/5-minute foreground cap with ~65% headroom to spare, so 6
+// was chosen outright rather than a smaller intermediate value. This cuts the
+// pool-detail rotation's full-pass time from ~367 days to ~123 (739
+// candidates / 6, a 3x constant factor — see specs/191-notes.md, it does NOT
+// close the coverage gap). Because the default now EQUALS the ceiling, the
+// env override (`AUDIT_POOL_SAMPLE`) can only ever LOWER the sample size from
+// here; raising it further needs MAX_POOL_SAMPLE raised, which is
+// deliberately out of scope for 191 (see specs/191.md's "Explicitly OUT of
+// scope").
+const DEFAULT_POOL_SAMPLE = 6;      // rotation sample size
 const MAX_POOL_SAMPLE = 6;          // ceiling on AUDIT_POOL_SAMPLE
 const POOL_ID_PREFIX_LEN = 8;       // `pool-detail:<prefix>` surface naming
 
@@ -2162,7 +2182,11 @@ function readRotationState(statePath) {
 }
 
 function emptyPoolRotationResult() {
-  return { cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false };
+  // sampleSize: 0 here matches the "rotation disabled/unused" reading (no
+  // AUDIT_POOL_IDS-override run ever computes a rotation) — backlog 191, lets
+  // the CLI summary's throughput line print an explicit n/a instead of
+  // dividing by a hardcoded zero.
+  return { cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false, sampleSize: 0 };
 }
 
 // Builds the pool-detail promotion/rotation additions (spec 167 §2) and
@@ -2185,9 +2209,17 @@ function emptyPoolRotationResult() {
 // only reconciles arithmetically (4 anchor + 1 promoted + 2 rotated = 7,
 // matching this checkout's real 1-suspect snapshot) under an ADDITIVE
 // reading, not a shared-budget one — see 167-notes.md for the full
-// derivation. Growth is still small and bounded (A7): at the shipped
-// defaults, additive growth is `DEFAULT_POOL_PRESCAN_MAX +
-// DEFAULT_POOL_SAMPLE` = 4, comfortably under `MAX_POOL_SAMPLE` (6).
+// derivation. Growth is still small and bounded (A7): at 167's original
+// shipped defaults, additive growth was `DEFAULT_POOL_PRESCAN_MAX +
+// DEFAULT_POOL_SAMPLE` = 2 + 2 = 4, comfortably under `MAX_POOL_SAMPLE` (6).
+// backlog 191 raised DEFAULT_POOL_SAMPLE 2 -> 6 (== MAX_POOL_SAMPLE), so that
+// comparison no longer holds arithmetically: additive growth is now 2 + 6 = 8,
+// ABOVE MAX_POOL_SAMPLE. That is expected and fine — MAX_POOL_SAMPLE is a
+// ceiling on the rotation leg alone (`AUDIT_POOL_SAMPLE`'s clamp), never a
+// bound on the promotion+rotation sum; nothing here enforces sum <=
+// MAX_POOL_SAMPLE. "Small and bounded" (A7) still holds in absolute terms —
+// 8 extra surfaces per tick is still small — just no longer under the old
+// comparison point.
 // Returns `{ anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings,
 // poolPrescanSuspects }` — `poolPrescanSuspects` (added backlog 171) is the
 // same anchor-excluded suspect list the aggregate `poolPrescanFindings`
@@ -2338,7 +2370,12 @@ function buildPoolSurfaces(opts = {}) {
     seenCount: newSeen.length,
     candidateCount: rotationCandidates.length,
     picked: rotationPicks.slice(),
-    wrapped: rot.wrapped
+    wrapped: rot.wrapped,
+    // backlog 191 — the resolved (env-overridden, MAX_POOL_SAMPLE-clamped)
+    // rotation budget for THIS run, exposed so the CLI summary can derive a
+    // full-pass throughput figure at runtime instead of re-typing
+    // DEFAULT_POOL_SAMPLE as a literal (item-159 rule).
+    sampleSize
   };
 
   return { anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings, poolPrescanSuspects, poolRotation, rotationState, rotationStatePath };
@@ -3350,7 +3387,10 @@ module.exports = {
   // prescan directly (with opts.dict injection) without a full runAudit()
   // invocation; I18N_IDENTICAL_ALLOWLIST is exported so the exact-key-path
   // (never prefix/substring) test can read the seeded allowlist directly.
-  prescanI18n, I18N_IDENTICAL_ALLOWLIST
+  prescanI18n, I18N_IDENTICAL_ALLOWLIST,
+  // backlog 191 — exported so tests interpolate the real rotation-budget
+  // constants (default + ceiling) instead of re-typing them (item-159 rule).
+  DEFAULT_POOL_SAMPLE, MAX_POOL_SAMPLE
 };
 
 if (require.main === module) {
@@ -3391,6 +3431,20 @@ if (require.main === module) {
       // progress from incidental selection without a code read.
       const rot = result.poolRotation || {};
       console.log(`[audit] pool rotation: cycle ${rot.cycle}, seen ${rot.seenCount}/${rot.candidateCount} candidates, picked [${(rot.picked || []).join(', ')}], wrapped=${!!rot.wrapped}`);
+      // backlog 191 — throughput, derived entirely from THIS run's own
+      // poolRotation numbers (never a re-typed constant, per the item-159
+      // rule). Deliberately built from `candidateCount / sampleSize`, NEVER
+      // from `seenCount`: seenCount also counts the anchor pool and
+      // prescan-promoted ids, which are not members of rotationCandidates,
+      // so dividing by seenCount would understate the full-pass tick count
+      // (spec 191's "territory notes" trap). This line is rotation-only —
+      // it says nothing about the anchor/promotion legs' own coverage.
+      const sampleSize = rot.sampleSize || 0;
+      const candidateCount = rot.candidateCount || 0;
+      const throughput = (sampleSize > 0 && candidateCount > 0)
+        ? `${sampleSize} pool-details/tick over ${candidateCount} rotation candidates -> full pass ~${Math.ceil(candidateCount / sampleSize)} ticks (~days)`
+        : 'n/a (rotation disabled)';
+      console.log(`[audit] rotation throughput (rotation-only, excludes anchor + prescan-promoted ids): ${throughput}`);
       process.exit(blocking.length > 0 ? 1 : 0);
     })
     .catch((err) => {

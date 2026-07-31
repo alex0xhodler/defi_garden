@@ -24,7 +24,7 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { runAudit, prescanPools, buildPoolSurfaces, reconcilePrescanFindings } = require('./audit-app.js');
+const { runAudit, prescanPools, buildPoolSurfaces, reconcilePrescanFindings, DEFAULT_POOL_SAMPLE } = require('./audit-app.js');
 
 const ROOT = __dirname;
 
@@ -162,7 +162,7 @@ async function main() {
     const r = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-kill-seed', poolPrescan: false });
     assert(r.poolPrescan.promoted.length === 0, `expected zero promoted with poolPrescan:false, got ${JSON.stringify(r.poolPrescan.promoted)}`);
     assert(r.poolPrescanFindings.length === 0, `expected zero pool-prescan findings with poolPrescan:false, got ${JSON.stringify(r.poolPrescanFindings)}`);
-    assert(r.extraSurfaces.length === 2, `rotation (DEFAULT_POOL_SAMPLE=2) must still fill its own budget when only promotion is killed; got ${r.extraSurfaces.length}: ${JSON.stringify(r.extraSurfaces.map((s) => s.name))}`);
+    assert(r.extraSurfaces.length === DEFAULT_POOL_SAMPLE, `rotation (DEFAULT_POOL_SAMPLE=${DEFAULT_POOL_SAMPLE}) must still fill its own budget when only promotion is killed; got ${r.extraSurfaces.length}: ${JSON.stringify(r.extraSurfaces.map((s) => s.name))}`);
     // The breach pool must not sneak in via rotation either (it IS a real
     // suspect, prescan is just turned off — but sampleBySeed draws from ALL
     // non-anchor pools when prescan is off, so absence isn't guaranteed by
