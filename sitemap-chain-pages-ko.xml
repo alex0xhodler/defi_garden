@@ -196,12 +196,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/filecoin</loc>
+    <loc>https://www.defi.garden/ko/chains/tempo</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/tempo</loc>
+    <loc>https://www.defi.garden/ko/chains/filecoin</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -321,11 +321,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/hemi</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/strato</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
@@ -357,6 +352,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/fuel-ignition</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/hemi</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -416,12 +416,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/waves</loc>
+    <loc>https://www.defi.garden/ko/chains/world-chain</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/world-chain</loc>
+    <loc>https://www.defi.garden/ko/chains/waves</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
   </url>
