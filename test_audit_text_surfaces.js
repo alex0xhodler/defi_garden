@@ -22,7 +22,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { execSync } = require('child_process');
-const { prescanTextSurfaces, runAudit } = require('./audit-app.js');
+const { prescanTextSurfaces, runAudit, countQualifyingPools } = require('./audit-app.js');
 
 const ROOT = __dirname;
 
@@ -772,6 +772,47 @@ test('LEVEL 3 negative (spec 175 acceptance criterion 5): an explicit minTvl BEL
     const result = prescanTextSurfaces({ files: [file], snapshot: snapshotFile });
     const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail));
     assertT(hits.length === 0, `expected zero level-3 suspects — a simulation that wrongly applies DEFAULT_MIN_TVL ($10M) instead of the explicit $200K floor would flag this (this is exactly 173's own fix); got: ${JSON.stringify(hits)}`);
+  } finally { cleanupFixtures(); }
+});
+
+// --- item 188 Leg C: countQualifyingPools() must treat chain='All' as a
+// wildcard (mirrors app.js:1837/1843's `chainMatch = selectedChain === 'All'
+// || ...`) — no pool's `chain` field is ever literally 'All', so without
+// this fix every `?chain=All&...` grid link the new sitemap gate emits would
+// simulate to zero pools and raise a false link-target-integrity P1 here.
+test('countQualifyingPools(): "?chain=All&minApy=<x>" counts the SAME pools as the identical query with no chain param at all', () => {
+  const pools = [
+    { symbol: 'USDC', chain: 'Ethereum', project: 'aave-v3', tvlUsd: 20000000, apyBase: 6, apyReward: 0 },
+    { symbol: 'USDT', chain: 'Solana', project: 'kamino-lend', tvlUsd: 30000000, apyBase: 8, apyReward: 0 },
+    { symbol: 'DAI', chain: 'Base', project: 'compound-v3', tvlUsd: 5000000, apyBase: 20, apyReward: 0 }, // below the floor used
+  ];
+  const withAll = countQualifyingPools(pools, new Map([['chain', 'All'], ['minApy', '5']]), 10000000, {});
+  const withoutChain = countQualifyingPools(pools, new Map([['minApy', '5']]), 10000000, {});
+  assertT(withAll.count === withoutChain.count,
+    `expected "?chain=All" to count identically to no chain param at all; got ${withAll.count} vs ${withoutChain.count}`);
+  assertT(withAll.count === 2, `expected 2 qualifying pools (Ethereum + Solana, both >= $10M and >= 5% APY); got ${withAll.count}`);
+});
+
+test('countQualifyingPools(): "?chain=Ethereum" (a literal, non-\'All\' chain) still filters exactly — the wildcard fix must not become a general chain bypass', () => {
+  const pools = [
+    { symbol: 'USDC', chain: 'Ethereum', project: 'aave-v3', tvlUsd: 20000000, apyBase: 6, apyReward: 0 },
+    { symbol: 'USDT', chain: 'Solana', project: 'kamino-lend', tvlUsd: 30000000, apyBase: 8, apyReward: 0 },
+  ];
+  const ethereum = countQualifyingPools(pools, new Map([['chain', 'Ethereum']]), 10000000, {});
+  assertT(ethereum.count === 1, `expected exactly the 1 Ethereum pool, not the Solana one too; got ${ethereum.count}`);
+  const solana = countQualifyingPools(pools, new Map([['chain', 'Solana']]), 10000000, {});
+  assertT(solana.count === 1, `expected exactly the 1 Solana pool; got ${solana.count}`);
+});
+
+test('LEVEL 3 (item 188 Leg C, integration): a "?chain=All&minApy=..." grid link that genuinely resolves is NOT flagged dead', () => {
+  const snapshotFile = writeSnapshotFixture(10000000, [
+    { symbol: 'ABC', chain: 'Wonderland', project: 'test-proj', tvlUsd: 20000000, apyBase: 12, apyReward: 0 }
+  ]);
+  const file = writeFixture('llms.txt', '- https://www.defi.garden/?chain=All&minApy=10\n');
+  try {
+    const result = prescanTextSurfaces({ files: [file], snapshot: snapshotFile });
+    const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity' && /resolve.*ZERO pools/.test(s.detail));
+    assertT(hits.length === 0, `"?chain=All&minApy=10" must resolve against the Wonderland pool (12% >= 10%) via the wildcard, not be flagged dead; got: ${JSON.stringify(hits)}`);
   } finally { cleanupFixtures(); }
 });
 

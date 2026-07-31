@@ -155,6 +155,51 @@ test('buildFull(): protocol rows emit ?protocols=, never ?search=', () => {
   assert.ok(!out.includes('?search='), 'buildFull output must never contain ?search=');
 });
 
+// --- item 188 Leg B: buildFull()'s four filter-heading sections must not ship
+// a "## <heading>" + TL;DR promising content above zero links — the same
+// guard ## Other Pages already had (a heading claim over an empty section is
+// the false-claim class 174/159 fixed for a single line, applied to a whole
+// section). Required for Leg A's own correctness: once Leg A gates the
+// filter-URL list, categories.highValue can legitimately empty out.
+test('buildFull(): with ALL FOUR category arrays empty, none of Token/Chain/Pool Type/High-Value Filter headings ship at all', () => {
+  const out = buildFull(baseMeta, emptyCategories, pickHighYield([]), analyzeYieldData([]), plannerRate([]));
+  assert.ok(!out.includes('## Token Pages'), 'empty categories.tokens must not ship the heading');
+  assert.ok(!out.includes('## Chain Pages'), 'empty categories.chains must not ship the heading');
+  assert.ok(!out.includes('## Pool Type Pages'), 'empty categories.poolTypes must not ship the heading');
+  assert.ok(!out.includes('## High-Value Filter Pages'), 'empty categories.highValue must not ship the heading');
+});
+
+test('buildFull(): the guard is PER-SECTION, not all-or-nothing — a populated category still ships its heading+links while an empty sibling stays absent', () => {
+  const mixedCategories = {
+    homepage: [`${BASE}/`],
+    tokens: [`${BASE}/?token=USDC`], // populated
+    chains: [], // empty
+    poolTypes: [], // empty
+    highValue: [`${BASE}/?chain=All&minApy=5`], // populated (Leg A's own shape)
+    other: [],
+  };
+  const out = buildFull(baseMeta, mixedCategories, pickHighYield([]), analyzeYieldData([]), plannerRate([]));
+  assert.ok(out.includes('## Token Pages'), 'populated categories.tokens must still ship its heading');
+  assert.ok(out.includes(`${BASE}/?token=USDC`), 'populated categories.tokens must still ship its link');
+  assert.ok(out.includes('## High-Value Filter Pages'), 'populated categories.highValue must still ship its heading');
+  assert.ok(out.includes(`${BASE}/?chain=All&minApy=5`), 'populated categories.highValue must still ship its link');
+  assert.ok(!out.includes('## Chain Pages'), 'empty categories.chains must not ship its heading');
+  assert.ok(!out.includes('## Pool Type Pages'), 'empty categories.poolTypes must not ship its heading');
+});
+
+test('buildFull(): "## <heading>" is never immediately followed by a TL;DR line and then a blank line/another heading with no link in between (A5\'s literal assertion, over the FULL emptyCategories output)', () => {
+  const out = buildFull(baseMeta, emptyCategories, pickHighYield([]), analyzeYieldData([]), plannerRate([]));
+  const lines = out.split('\n');
+  for (let i = 0; i < lines.length; i++) {
+    if (!lines[i].startsWith('## ')) continue;
+    const tldrLine = lines[i + 1] || '';
+    if (!tldrLine.startsWith('TL;DR')) continue; // not every heading has a TL;DR line (e.g. by-chain ### subheadings)
+    const afterTldr = lines[i + 2] || '';
+    const isEmptySection = afterTldr === '' || afterTldr.startsWith('## ');
+    assert.ok(!isEmptySection, `heading "${lines[i]}" is followed by a TL;DR then an empty/next-heading line with no link — the exact defect A5 bans`);
+  }
+});
+
 // --- (3) Committed-artifact leg --------------------------------------------
 const LLMS_PATH = path.join(__dirname, 'llms.txt');
 const LLMS_FULL_PATH = path.join(__dirname, 'llms-full.txt');
@@ -348,6 +393,33 @@ test('R1 gridLinkPoolCount(): minApy is apy >= minApy', () => {
   const pools = [{ symbol: 'USDC', chain: 'Base', project: 'x', tvlUsd: 20000000, apy: 5 }];
   assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base&minApy=5`, pools).count, 1);
   assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base&minApy=5.01`, pools).count, 0);
+});
+
+// --- item 188 Leg C: 'All' is a wildcard chain (mirrors app.js:1837/1843's
+// `chainMatch = selectedChain === 'All' || ...`) — without this, every
+// `?chain=All&...` link the new sitemap gate emits (specs/188.md) would
+// simulate to zero pools here (no pool's `chain` field is ever 'All') and
+// applyChainRetarget()/the structural tripwire would treat a genuinely LIVE
+// link as dead. -------------------------------------------------------------
+test('R1 gridLinkPoolCount(): "?chain=All&minApy=<x>" counts the SAME pools as the identical query with no chain param at all', () => {
+  const pools = [
+    { symbol: 'USDC', chain: 'Ethereum', project: 'aave-v3', tvlUsd: 20000000, apy: 6 },
+    { symbol: 'USDT', chain: 'Solana', project: 'kamino-lend', tvlUsd: 30000000, apy: 8 },
+    { symbol: 'DAI', chain: 'Base', project: 'compound-v3', tvlUsd: 5000000, apy: 20 }, // below the $10M floor used
+  ];
+  const withAll = gridLinkPoolCount(`${BASE180}/?chain=All&minApy=5`, pools);
+  const withoutChain = gridLinkPoolCount(`${BASE180}/?minApy=5`, pools);
+  assert.strictEqual(withAll.count, withoutChain.count, 'chain=All must count identically to no chain param at all');
+  assert.strictEqual(withAll.count, 2, 'Ethereum + Solana both qualify (>= $10M, >= 5% APY); Base is below the TVL floor');
+});
+
+test('R1 gridLinkPoolCount(): "?chain=Ethereum" (a literal, non-\'All\' chain) still filters exactly — the wildcard must not become a general chain bypass', () => {
+  const pools = [
+    { symbol: 'USDC', chain: 'Ethereum', project: 'aave-v3', tvlUsd: 20000000, apy: 6 },
+    { symbol: 'USDT', chain: 'Solana', project: 'kamino-lend', tvlUsd: 30000000, apy: 8 },
+  ];
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Ethereum`, pools).count, 1, 'must count only the Ethereum pool');
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Solana`, pools).count, 1, 'must count only the Solana pool');
 });
 
 test('R1 gridLinkPoolCount(): ?pool=<id> is NEVER simulated (175\'s 4,233-false-positive trap) — returns null', () => {
@@ -595,6 +667,28 @@ test('committed llms-full.txt: zero dead grid links against data/pools-snapshot.
   assert.ok(snapshotForTest, 'data/pools-snapshot.json must load — refusing to pass vacuously without a real population');
   const dead = findDeadGridLinksAgainstSnapshot(llmsFullContent, snapshotForTest);
   assert.deepStrictEqual(dead, [], `expected 0 dead grid links in llms-full.txt, found: ${JSON.stringify(dead)}`);
+});
+
+// --- item 188 Leg B, committed-artifact leg: A5's literal assertion over the
+// REAL regenerated llms-full.txt — no "## <heading>" is immediately followed
+// by a TL;DR line and then a blank line / another heading (a heading+claim
+// over zero links). Specifically ## Pool Type Pages must be absent entirely
+// (no ?poolTypes= URL exists anywhere in the sitemap, before or after Leg A).
+test('committed llms-full.txt: "## Pool Type Pages" is absent entirely (no ?poolTypes= URL exists in the sitemap)', () => {
+  assert.ok(!llmsFullContent.includes('## Pool Type Pages'), 'expected the heading to be gone, guarded by Leg B\'s new categories.poolTypes.length > 0 check');
+});
+
+test('committed llms-full.txt: no "## <heading>" is followed by a TL;DR line and then an empty/next-heading line (A5\'s literal assertion, real file)', () => {
+  const lines = llmsFullContent.split('\n');
+  const violations = [];
+  for (let i = 0; i < lines.length; i++) {
+    if (!lines[i].startsWith('## ')) continue;
+    const tldrLine = lines[i + 1] || '';
+    if (!tldrLine.startsWith('TL;DR')) continue;
+    const afterTldr = lines[i + 2] || '';
+    if (afterTldr === '' || afterTldr.startsWith('## ')) violations.push(lines[i]);
+  }
+  assert.deepStrictEqual(violations, [], `expected zero heading+TL;DR-over-nothing sections, found: ${JSON.stringify(violations)}`);
 });
 
 console.log(`\n${passed} assertions passed`);

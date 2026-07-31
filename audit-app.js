@@ -1003,7 +1003,9 @@ const LEVEL3_GRID_PARAMS = ['token', 'chain', 'poolTypes', 'protocols', 'minTvl'
 // TVL floor to parsePageOwnPools()'s rows; explained in specs/175-notes.md).
 // Mirrors app.js's filter arithmetic pool-for-pool:
 //   token     -> symbolMatchesTokenMirror(pool.symbol, token)    (app.js:835)
-//   chain     -> exact, case-sensitive pool.chain equality
+//   chain     -> exact, case-sensitive pool.chain equality, EXCEPT the
+//                literal value 'All', a wildcard matching every pool (item
+//                188 Leg C, mirrors app.js:1837/1843)
 //   protocols -> comma-split membership against pool.project
 //   poolTypes -> comma-split membership against getPoolType(pool), lazy-
 //                required from generate-sitemap.js in a try/catch (T6): if
@@ -1035,7 +1037,15 @@ function countQualifyingPools(pools, queryMap, minTvl, opts) {
   let count = 0;
   for (const p of pools) {
     if (token && !symbolMatchesTokenMirror(p.symbol, token)) continue;
-    if (chain && p.chain !== chain) continue;
+    // item 188 Leg C: 'All' is a wildcard, not a literal chain name (mirrors
+    // app.js:1837/1843's `chainMatch = selectedChain === 'All' || ...`) — no
+    // pool's `chain` field is ever 'All', so without this every `?chain=All`
+    // grid link would simulate to zero pools and raise a false
+    // link-target-integrity P1. 'Popular' is the sibling wildcard (app.js
+    // :1838's 15-chain list) but is intentionally NOT handled here — no
+    // `?chain=Popular` link exists on any generated surface today (grep-
+    // confirmed empty); specs/188-notes.md records this as a known gap.
+    if (chain && chain !== 'All' && p.chain !== chain) continue;
     if (protocols.length && !protocols.includes(p.project)) continue;
     if (poolTypesWanted.length && poolTypesApplied && !poolTypesWanted.includes(getPoolType(p))) continue;
     const tvl = p.tvlUsd || 0;
@@ -3144,7 +3154,11 @@ module.exports = {
   // backlog 183 — exported so test_audit_cta_provenance.js can assert the
   // cap-must-exceed-real-population invariant directly against
   // data/pools-snapshot.json (see ROTATION_SEEN_CAP's own comment).
-  ROTATION_SEEN_CAP
+  ROTATION_SEEN_CAP,
+  // item 188 — exported so test_audit_text_surfaces.js can drive the
+  // level-3 grid-link simulator directly (the chain='All' wildcard fix,
+  // Leg C) without needing a full prescanTextSurfaces() fixture file.
+  countQualifyingPools
 };
 
 if (require.main === module) {

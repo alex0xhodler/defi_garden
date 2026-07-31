@@ -64,12 +64,42 @@ function cleanupStaleSitemaps(writtenFilenames, dir = process.cwd()) {
   return deleted;
 }
 
-function isAnomalousApy(pool) {
-  return ((pool.apyBase || 0) + (pool.apyReward || 0)) > APY_SANITY_LIMIT;
+// item 188: total APY a pool actually earns — apyBase + apyReward, matching
+// app.js:1869-1871/:1958-1960, NOT the raw `apy` field the live feed also
+// carries (those differ: measured apy>=5 counts 145 pools, the app shows
+// 137). Extracted so isAnomalousApy() and the new chain=All rung gate below
+// share one computation, never two copies.
+function poolTotalApy(pool) {
+  return (pool.apyBase || 0) + (pool.apyReward || 0);
 }
 
-function isQualifyingPool(pool) {
-  return (pool.tvlUsd || 0) >= SITEMAP_MIN_TVL && !isAnomalousApy(pool);
+function isAnomalousApy(pool) {
+  return poolTotalApy(pool) > APY_SANITY_LIMIT;
+}
+
+// item 188: minTvl is now a parameter (default unchanged: SITEMAP_MIN_TVL) so
+// the same qualifying-pool predicate serves both the existing token/chain/
+// category gates (all called with the implicit $10M default) and the new
+// chain=All rung gate below, which needs to evaluate at $1M/$10M/$100M
+// floors — never a second near-identical helper.
+function isQualifyingPool(pool, minTvl = SITEMAP_MIN_TVL) {
+  return (pool.tvlUsd || 0) >= minTvl && !isAnomalousApy(pool);
+}
+
+// item 188 (specs/188.md): counts pools qualifying for a `?chain=All&...`
+// sitemap rung under the app's own semantics — floor = explicit minTvl when
+// present else SITEMAP_MIN_TVL (mirrors app.js:927's "respect explicit
+// minTvl=0; fall back to DEFAULT_MIN_TVL only when the param is absent"),
+// minApy compared against apyBase+apyReward (not raw apy), plus the existing
+// anomaly rail via isQualifyingPool() — never a duplicated rail constant.
+function countQualifyingChainAll(pools, { minTvl = SITEMAP_MIN_TVL, minApy = 0 } = {}) {
+  let n = 0;
+  for (const p of pools) {
+    if (!isQualifyingPool(p, minTvl)) continue;
+    if (poolTotalApy(p) < minApy) continue;
+    n++;
+  }
+  return n;
 }
 
 /**
@@ -424,11 +454,50 @@ async function generateSitemapSuite(poolsOverride) {
       sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stories/${slug}.html`, LASTMOD_PLACEHOLDER, '0.7', 'monthly'));
     });
 
-    const tvlLevels = ['1000000', '10000000', '100000000'];
-    const apyLevels = ['5', '10', '20', '50'];
+    // item 188 (specs/188.md): the 7 hardcoded `?minTvl=`/`?minApy=` URLs
+    // below were homepage duplicates — a filter-only query never reaches a
+    // branch that populates filteredPools (app.js:2010-2013's token-first
+    // early return), so every one of them rendered the same empty search
+    // hero as `/`. Replaced with the app's own token-less chain-first browse
+    // mode (`?chain=All`, app.js:1837/1843's `chainMatch = selectedChain ===
+    // 'All' || ...`), which DOES render a real grid. Gated exactly like every
+    // other sitemap URL (item 013): a rung only earns a <loc> once
+    // >= SITEMAP_MIN_QUALIFYING_POOLS pools clear ITS OWN effective filter
+    // (countQualifyingChainAll() above) — never hardcoded, re-decided on
+    // every daily bake.
+    const tvlRungs = [1000000, 10000000, 100000000];
+    const apyRungs = [5, 10, 20, 50];
+    const droppedFilterRungs = [];
 
-    tvlLevels.forEach(tvl => sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}?minTvl=${tvl}`, LASTMOD_PLACEHOLDER, '0.5', 'daily')));
-    apyLevels.forEach(apy => sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}?minApy=${apy}`, LASTMOD_PLACEHOLDER, '0.5', 'daily')));
+    tvlRungs.forEach(tvl => {
+      const qualifying = countQualifyingChainAll(pools, { minTvl: tvl });
+      if (qualifying < SITEMAP_MIN_QUALIFYING_POOLS) {
+        droppedFilterRungs.push(`minTvl=${tvl} (${qualifying} qualifying)`);
+        return;
+      }
+      // The $10M rung normalises to `?chain=All`: app.js's own updateUrl()
+      // (app.js:948) omits a minTvl equal to DEFAULT_MIN_TVL, so the app
+      // itself would rewrite `?chain=All&minTvl=10000000` to `?chain=All` on
+      // load — emit the app's own normalised form directly so the submitted
+      // URL, the address bar and the canonical always agree.
+      const url = tvl === SITEMAP_MIN_TVL
+        ? `${SITE_URL}?chain=All`
+        : `${SITE_URL}?chain=All&minTvl=${tvl}`;
+      sitemaps['sitemap-main.xml'].push(generateUrlXml(url, LASTMOD_PLACEHOLDER, '0.5', 'daily'));
+    });
+
+    apyRungs.forEach(apy => {
+      const qualifying = countQualifyingChainAll(pools, { minApy: apy });
+      if (qualifying < SITEMAP_MIN_QUALIFYING_POOLS) {
+        droppedFilterRungs.push(`minApy=${apy} (${qualifying} qualifying)`);
+        return;
+      }
+      sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}?chain=All&minApy=${apy}`, LASTMOD_PLACEHOLDER, '0.5', 'daily'));
+    });
+
+    if (droppedFilterRungs.length > 0) {
+      console.log(`   ⏭️  sitemap-main.xml: dropped ${droppedFilterRungs.length} filter rung(s) below quality gate (< ${SITEMAP_MIN_QUALIFYING_POOLS} qualifying pools) — ${droppedFilterRungs.join(', ')}`);
+    }
 
     // 2. Vertical: Chain-Specific Sitemaps
     console.log('📝 Building Vertical Chain Sitemaps...');
@@ -683,4 +752,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg, isValidToken };
+module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg, isValidToken, isQualifyingPool, poolTotalApy, countQualifyingChainAll, SITEMAP_MIN_TVL, SITEMAP_MIN_QUALIFYING_POOLS, APY_SANITY_LIMIT };
