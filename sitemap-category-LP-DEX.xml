@@ -119,15 +119,6 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=LINK&amp;poolTypes=LP%2FDEX</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LINK&amp;poolTypes=LP%2FDEX" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LINK&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LINK&amp;poolTypes=LP%2FDEX" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.82</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=XMR&amp;poolTypes=LP%2FDEX</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XMR&amp;poolTypes=LP%2FDEX" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XMR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
@@ -137,13 +128,22 @@
     <priority>0.82</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=LINK&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LINK&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LINK&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LINK&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
-    <lastmod>2026-07-30T11:39:40.288Z</lastmod>
+    <lastmod>2026-07-31T10:09:53.259Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <priority>0.79</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=PAXG&amp;poolTypes=LP%2FDEX</loc>
