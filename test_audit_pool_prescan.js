@@ -146,19 +146,33 @@ async function main() {
   await test('A5: different seed -> ROTATION may differ (coverage actually accumulates, not just promotion)', () => {
     // No suspects at all here (all-clean fixture) — every extraSurfaces entry
     // is a rotation pick, so this isolates rotation's own seed-sensitivity.
-    const pools = [anchorPool()].concat(Array.from({ length: 30 }, (_, i) => cleanPool(i)));
+    // Candidate count MUST exceed DEFAULT_POOL_SAMPLE (interpolated, never a
+    // re-typed literal — item-159 rule) or computeRotation() picks EVERY
+    // candidate regardless of seed (Math.min(sampleSize, candidates.length)),
+    // which would pass this assertion for the wrong reason — backlog 192
+    // raised the default 6 -> 32, so the old fixed "30 pools" (comfortably
+    // above 191's default of 6) silently stopped proving anything here.
+    const nonAnchorCount = DEFAULT_POOL_SAMPLE + 20;
+    const pools = [anchorPool()].concat(Array.from({ length: nonAnchorCount }, (_, i) => cleanPool(i)));
     const rA = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-rot-seed-1' });
     const rB = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-rot-seed-2' });
     assert(rA.poolPrescan.promoted.length === 0 && rB.poolPrescan.promoted.length === 0, 'fixture must be suspect-free for this case');
     const namesA = rA.extraSurfaces.map((s) => s.name).sort();
     const namesB = rB.extraSurfaces.map((s) => s.name).sort();
     assert(JSON.stringify(namesA) !== JSON.stringify(namesB),
-      `expected rotation picks to differ across seeds on a 30-pool candidate pool; got identical sets both times: ${JSON.stringify(namesA)}`);
+      `expected rotation picks to differ across seeds on a ${nonAnchorCount}-pool candidate pool; got identical sets both times: ${JSON.stringify(namesA)}`);
   });
 
   // ---- Criterion A6 (kill switches) -----------------------------------------
   await test('A6: opts.poolPrescan === false -> no promotion, no pool-prescan findings, rotation still fills its own budget', () => {
-    const pools = [anchorPool(), railBreachPool('breach-pool-E')].concat(Array.from({ length: 20 }, (_, i) => cleanPool(i)));
+    // Fixture size interpolates DEFAULT_POOL_SAMPLE (never a re-typed
+    // literal, item-159 rule) plus margin — backlog 192 raised the default
+    // 6 -> 32, and a fixture sized "comfortably above 6" (191's own margin)
+    // silently under-tests this the moment the constant is raised again:
+    // computeRotation() caps `picked.length`/`extraSurfaces.length` at the
+    // candidate count when candidates < sampleSize, so a too-small fixture
+    // makes this assertion pass for the wrong reason.
+    const pools = [anchorPool(), railBreachPool('breach-pool-E')].concat(Array.from({ length: DEFAULT_POOL_SAMPLE + 10 }, (_, i) => cleanPool(i)));
     const r = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-kill-seed', poolPrescan: false });
     assert(r.poolPrescan.promoted.length === 0, `expected zero promoted with poolPrescan:false, got ${JSON.stringify(r.poolPrescan.promoted)}`);
     assert(r.poolPrescanFindings.length === 0, `expected zero pool-prescan findings with poolPrescan:false, got ${JSON.stringify(r.poolPrescanFindings)}`);
