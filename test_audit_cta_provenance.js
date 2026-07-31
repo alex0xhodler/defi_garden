@@ -19,7 +19,7 @@ const path = require('path');
 const {
   runAudit, classifyCtaKind, computeRotation, readBakedProtocolUrls,
   readStaticProtocolUrls, projectHasUrl, ROTATION_SEEN_CAP, ctaFindingSeverity,
-  buildPoolSurfaces, DEFAULT_POOL_SAMPLE, MAX_POOL_SAMPLE
+  buildPoolSurfaces, DEFAULT_POOL_SAMPLE, MAX_POOL_SAMPLE, blockingFindings
 } = require('./audit-app.js');
 
 const ROOT = __dirname;
@@ -213,11 +213,20 @@ async function main() {
 
   // ===========================================================================
   // backlog 191 — raised DEFAULT_POOL_SAMPLE from 2 toward MAX_POOL_SAMPLE
-  // (6). computeRotation()/sampleBySeed() are NOT touched by 191 — these
+  // (6); backlog 192 raised it again, 6 -> 32 (ceiling 6 -> 64).
+  // computeRotation()/sampleBySeed() are NOT touched by either item — these
   // cases pin that the SELECTION contract survives the budget change: default
   // applies, env override still works, the ceiling clamp still holds (both
   // the opts and env paths), and the exact pick lists computeRotation()
-  // produced before this change are unchanged (golden fixture).
+  // produced before 191 are unchanged (golden fixture). Fixture sizes below
+  // are interpolated off DEFAULT_POOL_SAMPLE/MAX_POOL_SAMPLE, never a
+  // re-typed literal (item-159 rule) — a fixture sized "comfortably above 6"
+  // (191's own margin) silently under-sizes the moment either constant is
+  // raised again, which is exactly the trap this file hit at 192 build time:
+  // poolFixture(20) is BELOW the new DEFAULT_POOL_SAMPLE (32), so
+  // computeRotation() correctly caps `picked.length` at the candidate count
+  // (20) instead of the intended sample size — a fixture bug, not a product
+  // one, but one that would have silently under-tested the clamp forever.
   // ===========================================================================
 
   function poolFixture(nonAnchorCount) {
@@ -225,7 +234,7 @@ async function main() {
   }
 
   await test('191 (a): buildPoolSurfaces() default applies — picked.length and poolRotation.sampleSize both equal DEFAULT_POOL_SAMPLE (interpolated, not literal 6)', () => {
-    const pools = poolFixture(20); // > DEFAULT_POOL_SAMPLE non-anchor candidates
+    const pools = poolFixture(DEFAULT_POOL_SAMPLE + 20); // > DEFAULT_POOL_SAMPLE non-anchor candidates
     const r = buildPoolSurfaces({
       pools, poolSeed: 'audit-191-default-seed', poolPrescan: false,
       rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
@@ -253,7 +262,7 @@ async function main() {
   });
 
   await test('191 (c): a poolSample value ABOVE the ceiling is clamped to MAX_POOL_SAMPLE, not accepted (opts path)', () => {
-    const pools = poolFixture(20);
+    const pools = poolFixture(MAX_POOL_SAMPLE + 20); // > MAX_POOL_SAMPLE, or the clamp is untestable (caps at candidate count instead)
     const r = buildPoolSurfaces({
       pools, poolSeed: 'audit-191-clamp-opts-seed', poolPrescan: false, poolSample: 99,
       rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
@@ -264,7 +273,7 @@ async function main() {
   });
 
   await test('191 (c): a poolSample value ABOVE the ceiling is clamped to MAX_POOL_SAMPLE, not accepted (env path)', () => {
-    const pools = poolFixture(20);
+    const pools = poolFixture(MAX_POOL_SAMPLE + 20); // > MAX_POOL_SAMPLE, same reasoning as the opts-path case above
     const priorEnv = process.env.AUDIT_POOL_SAMPLE;
     process.env.AUDIT_POOL_SAMPLE = '99';
     try {
@@ -292,7 +301,7 @@ async function main() {
   });
 
   await test('191 (d)(ii): determinism at DEFAULT_POOL_SAMPLE — two identical buildPoolSurfaces() calls give identical picks', () => {
-    const pools = poolFixture(20);
+    const pools = poolFixture(DEFAULT_POOL_SAMPLE + 20);
     const mkCall = () => buildPoolSurfaces({
       pools, poolSeed: 'audit-191-determinism-seed', poolPrescan: false,
       rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
@@ -318,8 +327,8 @@ async function main() {
     // specs/191-notes.md, not a bug.
   });
 
-  await test('191 (e): rotation state round-trips and wraps correctly at the new sample size, over a small 8-candidate fixture (no waiting for real exhaustion)', () => {
-    const pools = poolFixture(8); // exactly matches DEFAULT_POOL_SAMPLE + 2, so a wrap is reachable in a few runs
+  await test(`191/192 (e): rotation state round-trips and wraps correctly at the new sample size, over a small ${DEFAULT_POOL_SAMPLE + 2}-candidate fixture (no waiting for real exhaustion)`, () => {
+    const pools = poolFixture(DEFAULT_POOL_SAMPLE + 2); // exactly DEFAULT_POOL_SAMPLE + 2, so a wrap is reachable in a few runs
     const seed = 'audit-191-wrap-seed';
     const opts = { pools, poolSeed: seed, poolPrescan: false };
     const anchorId = anchorPool().pool;
@@ -352,7 +361,7 @@ async function main() {
         `expected seen[] to only grow (or stay same) run-over-run while not wrapped, got ${prev.rotationState.seen.length} -> ${next.rotationState.seen.length}`);
       prev = next;
     }
-    assert(wrappedRun, 'expected a wrap to occur within 10 rounds over an 8-candidate fixture at DEFAULT_POOL_SAMPLE — round-trip/accumulation is broken if it never wraps');
+    assert(wrappedRun, `expected a wrap to occur within 10 rounds over a ${DEFAULT_POOL_SAMPLE + 2}-candidate fixture at DEFAULT_POOL_SAMPLE — round-trip/accumulation is broken if it never wraps`);
     assert(wrappedRun.poolRotation.cycle === prev.poolRotation.cycle + 1,
       `expected cycle to increment by exactly 1 on wrap, got ${prev.poolRotation.cycle} -> ${wrappedRun.poolRotation.cycle}`);
     // On wrap, buildPoolSurfaces() resets seen to just THIS run's ids (anchor
@@ -436,6 +445,252 @@ async function main() {
       try { fs.unlinkSync(rotationPath); } catch (e) {}
       try { fs.unlinkSync(outPath1); } catch (e) {}
       try { fs.unlinkSync(outPath2); } catch (e) {}
+    }
+  });
+
+  // ===========================================================================
+  // backlog 192 — the AUDIT_TIME_BUDGET_MS wall-clock guard on the pool-detail
+  // ROTATION leg only, and the honesty requirement that follows from it: a
+  // skipped surface must never be credited as `seen`. All three tests below
+  // are REAL runAudit() renders (real Chromium), scoped via `only` to a small,
+  // pre-computed set of surface names so each stays fast — the pre-computation
+  // uses buildPoolSurfaces() as a pure function (no render) with the exact
+  // same pools/seed/sample/state runAudit() will independently recompute
+  // internally from the same fixture snapshot file, so the names line up by
+  // construction (same technique the 191 fixture tests above already use).
+  // ===========================================================================
+
+  await test('192 guard: an artificially tiny AUDIT_TIME_BUDGET_MS skips EVERY rotation-picked surface; the anchor and a non-rotation surface still render; truncation is reported honestly', async () => {
+    const poolSample = 3;
+    const pools = [anchorPool()].concat(Array.from({ length: 12 }, (_, i) => cleanPool(i)));
+    const seed = 'audit-192-guard-seed';
+    const freshState = { schemaVersion: 1, cycle: 0, seen: [] };
+
+    const pre = buildPoolSurfaces({ pools, poolSeed: seed, poolPrescan: false, poolSample, rotationState: freshState });
+    const pickNames = pre.extraSurfaces.map((s) => s.name);
+    assert(pickNames.length === poolSample, `fixture wiring check: expected ${poolSample} pre-computed rotation picks, got ${pickNames.length}: ${JSON.stringify(pickNames)}`);
+    assert(pre.extraSurfaces.every((s) => s.rotationPick === true), `fixture wiring check: expected every pre-computed extraSurfaces entry to carry rotationPick:true (no prescan promotion in this fixture), got ${JSON.stringify(pre.extraSurfaces)}`);
+
+    const snapPath = path.join(os.tmpdir(), `audit-fixture-snapshot-192-guard-${process.pid}.json`);
+    fs.writeFileSync(snapPath, JSON.stringify({ pools }));
+    const rotationPath = path.join(os.tmpdir(), `audit-rotation-192-guard-${process.pid}.json`);
+    try { fs.unlinkSync(rotationPath); } catch (e) {}
+    const outPath = tmpOut('guard-tiny');
+    try {
+      const result = await runAudit({
+        port: 8954, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        rotationStatePath: rotationPath, timeBudgetMs: 1,
+        only: ['pool-detail', 'landing', ...pickNames],
+        outPath
+      });
+      assert(result.surfacesCovered.includes('pool-detail'), `expected the anchor "pool-detail" (never skippable) to still render; got ${JSON.stringify(result.surfacesCovered)}`);
+      assert(result.surfacesCovered.includes('landing'), `expected the non-rotation "landing" surface to still render even after the guard tripped; got ${JSON.stringify(result.surfacesCovered)}`);
+      for (const name of pickNames) {
+        assert(!result.surfacesCovered.includes(name), `expected rotation-picked surface ${name} to be SKIPPED under a 1ms time budget; got ${JSON.stringify(result.surfacesCovered)}`);
+      }
+      assert(result.poolRotation.picked.length === poolSample, `expected poolRotation.picked (the build-time list) to stay ${poolSample} — the guard must not shrink the PICKED list, only what RENDERS; got ${result.poolRotation.picked.length}`);
+      assert(result.poolRotation.renderedCount === 0, `expected renderedCount === 0 (every rotation pick skipped), got ${result.poolRotation.renderedCount}`);
+      assert(result.poolRotation.truncated === true, `expected truncated === true, got ${result.poolRotation.truncated}`);
+      const blocking = blockingFindings(result.findings);
+      assert(blocking.length === 0, `expected zero blocking findings on this clean fixture (the CLI would exit 0), got ${JSON.stringify(blocking)}`);
+    } finally {
+      try { fs.unlinkSync(snapPath); } catch (e) {}
+      try { fs.unlinkSync(rotationPath); } catch (e) {}
+      try { fs.unlinkSync(outPath); } catch (e) {}
+    }
+  });
+
+  await test('192 guard: under the normal (default) time budget, nothing is skipped — rendered count equals picked count and truncated is false', async () => {
+    const poolSample = 3;
+    const pools = [anchorPool()].concat(Array.from({ length: 12 }, (_, i) => cleanPool(i)));
+    const seed = 'audit-192-inert-seed';
+    const freshState = { schemaVersion: 1, cycle: 0, seen: [] };
+
+    const pre = buildPoolSurfaces({ pools, poolSeed: seed, poolPrescan: false, poolSample, rotationState: freshState });
+    const pickNames = pre.extraSurfaces.map((s) => s.name);
+
+    const snapPath = path.join(os.tmpdir(), `audit-fixture-snapshot-192-inert-${process.pid}.json`);
+    fs.writeFileSync(snapPath, JSON.stringify({ pools }));
+    const rotationPath = path.join(os.tmpdir(), `audit-rotation-192-inert-${process.pid}.json`);
+    try { fs.unlinkSync(rotationPath); } catch (e) {}
+    const outPath = tmpOut('guard-inert');
+    try {
+      // timeBudgetMs deliberately OMITTED — exercises DEFAULT_TIME_BUDGET_MS,
+      // not an override, so this proves the DEFAULT is inert, not merely that
+      // a large override would be.
+      const result = await runAudit({
+        port: 8957, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        rotationStatePath: rotationPath,
+        only: ['pool-detail', ...pickNames],
+        outPath
+      });
+      for (const name of pickNames) {
+        assert(result.surfacesCovered.includes(name), `expected rotation-picked surface ${name} to render under the normal budget; got ${JSON.stringify(result.surfacesCovered)}`);
+      }
+      assert(result.poolRotation.renderedCount === result.poolRotation.picked.length,
+        `expected renderedCount === picked.length under the normal budget (the guard must be inert in the ordinary case), got renderedCount=${result.poolRotation.renderedCount} vs picked.length=${result.poolRotation.picked.length}`);
+      assert(result.poolRotation.truncated === false, `expected truncated === false under the normal budget, got ${result.poolRotation.truncated}`);
+    } finally {
+      try { fs.unlinkSync(snapPath); } catch (e) {}
+      try { fs.unlinkSync(rotationPath); } catch (e) {}
+      try { fs.unlinkSync(outPath); } catch (e) {}
+    }
+  });
+
+  await test('192 honesty (highest-risk criterion): persisted `seen` excludes ids the time-budget guard skipped on a truncated run, and those exact ids are re-picked next run', async () => {
+    const poolSample = 3;
+    const pools = [anchorPool()].concat(Array.from({ length: 12 }, (_, i) => cleanPool(i)));
+    const seed = 'audit-192-honesty-seed';
+    const anchorId = anchorPool().pool;
+
+    const snapPath = path.join(os.tmpdir(), `audit-fixture-snapshot-192-honesty-${process.pid}.json`);
+    fs.writeFileSync(snapPath, JSON.stringify({ pools }));
+    const rotationPath = path.join(os.tmpdir(), `audit-rotation-192-honesty-${process.pid}.json`);
+    try { fs.unlinkSync(rotationPath); } catch (e) {}
+    const outPath1 = tmpOut('honesty-1');
+    const outPath2 = tmpOut('honesty-2');
+
+    try {
+      // Pre-compute run 1's picks (pure, matches what runAudit() independently
+      // recomputes internally against the same fresh {cycle:0,seen:[]} state,
+      // since rotationPath does not exist yet) so `only` can scope run 1 to a
+      // small, fast, deterministic set.
+      const pre1 = buildPoolSurfaces({
+        pools, poolSeed: seed, poolPrescan: false, poolSample,
+        rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
+      });
+      const pickNames1 = pre1.extraSurfaces.map((s) => s.name);
+
+      // Run 1: tiny budget -> every rotation pick skipped, persisted.
+      const r1 = await runAudit({
+        port: 8958, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        rotationStatePath: rotationPath, persistRotationState: true, timeBudgetMs: 1,
+        only: ['pool-detail', ...pickNames1], outPath: outPath1
+      });
+      assert(r1.poolRotation.renderedCount === 0, `fixture wiring check: expected run 1 to render zero rotation picks, got ${r1.poolRotation.renderedCount}`);
+      assert(r1.poolRotation.truncated === true, 'fixture wiring check: expected run 1 to report truncated === true');
+      const run1PickedIds = r1.poolRotation.picked.slice();
+
+      const written1 = JSON.parse(fs.readFileSync(rotationPath, 'utf8'));
+      assert(written1.seen.includes(anchorId), `expected the anchor id in persisted seen after run 1, got ${JSON.stringify(written1.seen)}`);
+      for (const id of run1PickedIds) {
+        assert(!written1.seen.includes(id), `THE HONESTY REQUIREMENT: expected skipped rotation pick ${id} to be EXCLUDED from persisted seen after a truncated run, got ${JSON.stringify(written1.seen)}`);
+      }
+      assert(written1.seen.length === 1, `expected persisted seen to contain ONLY the anchor after run 1 (every rotation pick was skipped, nothing else rendered), got ${JSON.stringify(written1.seen)}`);
+
+      // Run 2: reads run 1's persisted (reconciled) state back in, with the
+      // normal (default) budget this time. Since none of run 1's picks made
+      // it into `seen`, they are still "unseen" — computeRotation() is a
+      // pure function of candidates/seed/state, so it MUST re-pick the exact
+      // same set (never by waiting for real exhaustion; this is the
+      // deterministic proof).
+      const r2 = await runAudit({
+        port: 8959, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        rotationStatePath: rotationPath, persistRotationState: true,
+        only: ['pool-detail', ...pickNames1], outPath: outPath2
+      });
+      assert(JSON.stringify(r2.poolRotation.picked.slice().sort()) === JSON.stringify(run1PickedIds.slice().sort()),
+        `expected run 2 to re-pick the EXACT ids run 1 failed to render (coverage must not be silently credited), got ${JSON.stringify(r2.poolRotation.picked)} vs run 1's ${JSON.stringify(run1PickedIds)}`);
+      assert(r2.poolRotation.renderedCount === poolSample, `expected run 2 (normal budget) to actually render all ${poolSample} re-picked ids, got ${r2.poolRotation.renderedCount}`);
+      assert(r2.poolRotation.truncated === false, `expected run 2 to report truncated === false, got ${r2.poolRotation.truncated}`);
+
+      const written2 = JSON.parse(fs.readFileSync(rotationPath, 'utf8'));
+      for (const id of run1PickedIds) {
+        assert(written2.seen.includes(id), `expected run 2 to have persisted ${id} into seen now that it actually rendered, got ${JSON.stringify(written2.seen)}`);
+      }
+    } finally {
+      try { fs.unlinkSync(snapPath); } catch (e) {}
+      try { fs.unlinkSync(rotationPath); } catch (e) {}
+      try { fs.unlinkSync(outPath1); } catch (e) {}
+      try { fs.unlinkSync(outPath2); } catch (e) {}
+    }
+  });
+
+  await test('192 honesty (baseSeen protection, verifier attack-192-2): a skipped rotation pick already covered by an EARLIER run keeps its prior coverage; a skipped never-before-seen pick from the same run does not gain any', async () => {
+    // Reproduces exactly the shape the verifier's finding named: a NON-EMPTY
+    // prior `seen` containing candidate ids (not just the anchor), a second
+    // run whose picks include an already-seen id via computeRotation()'s
+    // "fill from seen" branch (audit-app.js ~2228-2237, engaged once `unseen`
+    // runs out mid-pick), and a time-budget trip that lands that
+    // already-seen id among skippedRotationIds. The "192 honesty" test above
+    // only ever starts from a fresh {seen:[]} state, so it cannot tell
+    // audit-app.js:3449-3450's `baseSeenSet` filter apart from an
+    // unconditional strip — this test is the one that can.
+    const poolSample = 3;
+    const anchorId = anchorPool().pool;
+    // 5 non-anchor candidates. poolPrescan:false so all 5 are rotation
+    // candidates (no promotion carving any off) and every extraSurfaces
+    // entry is guaranteed rotationPick:true (same fixture-wiring guarantee
+    // the 192 guard tests above already rely on).
+    const candidatePools = Array.from({ length: 5 }, (_, i) => cleanPool(i));
+    const candidateIds = candidatePools.map((p) => p.pool).sort();
+    const pools = [anchorPool()].concat(candidatePools);
+    const seed = 'audit-192-baseseen-seed';
+
+    // Prior committed state: anchor + 4 of the 5 candidates already seen,
+    // leaving exactly ONE candidate unseen. With poolSample=3,
+    // computeRotation()'s `unseen` pool (length 1) runs out after a single
+    // pick, forcing the "fill from seen" branch to supply the other 2 picks
+    // deterministically from the 4 already-seen candidates — the exact
+    // mid-cycle/nearly-exhausted shape the finding requires, not the fresh
+    // {seen:[]} state the existing "192 honesty" test starts from.
+    const alreadySeenCandidates = candidateIds.slice(0, 4);
+    const priorSeen = [anchorId, ...alreadySeenCandidates];
+    const priorState = { schemaVersion: 1, cycle: 0, seen: priorSeen };
+
+    // Pure pre-computation (no render, no Chromium spend) proves the fixture
+    // actually engages the fill-from-seen branch before the real runAudit()
+    // call below spends any time on it — same technique the 192 guard/
+    // honesty tests above already use.
+    const pre = buildPoolSurfaces({ pools, poolSeed: seed, poolPrescan: false, poolSample, rotationState: priorState });
+    const pickedIds = pre.poolRotation.picked.slice();
+    assert(pickedIds.length === poolSample, `fixture wiring check: expected ${poolSample} picks, got ${JSON.stringify(pickedIds)}`);
+    assert(pre.extraSurfaces.every((s) => s.rotationPick === true), `fixture wiring check: expected every extraSurfaces entry to carry rotationPick:true, got ${JSON.stringify(pre.extraSurfaces)}`);
+    const alreadySeenPicks = pickedIds.filter((id) => priorSeen.includes(id));
+    const neverSeenPicks = pickedIds.filter((id) => !priorSeen.includes(id));
+    assert(alreadySeenPicks.length >= 1, `fixture wiring check: expected computeRotation()'s fill-from-seen branch to have picked at least one already-seen candidate (unseen must run out before ${poolSample} picks are made); got picks ${JSON.stringify(pickedIds)} against priorSeen ${JSON.stringify(priorSeen)} — widen alreadySeenCandidates if this stops engaging`);
+    assert(neverSeenPicks.length >= 1, `fixture wiring check: expected at least one never-before-seen candidate among the picks, got ${JSON.stringify(pickedIds)}`);
+    assert(JSON.stringify(pre.baseSeen.slice().sort()) === JSON.stringify(priorSeen.slice().sort()), `fixture wiring check: expected baseSeen (no wrap expected here) to equal the prior committed seen, got ${JSON.stringify(pre.baseSeen)} vs ${JSON.stringify(priorSeen)}`);
+    const pickNames = pre.extraSurfaces.map((s) => s.name);
+
+    const snapPath = path.join(os.tmpdir(), `audit-fixture-snapshot-192-baseseen-${process.pid}.json`);
+    fs.writeFileSync(snapPath, JSON.stringify({ pools }));
+    const rotationPath = path.join(os.tmpdir(), `audit-rotation-192-baseseen-${process.pid}.json`);
+    fs.writeFileSync(rotationPath, JSON.stringify(priorState));
+    const outPath = tmpOut('baseseen');
+    try {
+      // Tiny time budget: the guard trips before the FIRST rotation-picked
+      // surface renders (spec 192 part 2: "skip that surface and every
+      // rotation surface after it"), so all 3 of this run's picks — the
+      // already-seen fill-from-seen ids AND the never-before-seen id — land
+      // in skippedRotationIds together, mixed, exactly the shape
+      // audit-app.js:3449-3450's baseSeenSet filter exists to distinguish.
+      const result = await runAudit({
+        port: 8960, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        rotationStatePath: rotationPath, persistRotationState: true, timeBudgetMs: 1,
+        only: ['pool-detail', ...pickNames], outPath
+      });
+      assert(result.poolRotation.renderedCount === 0, `fixture wiring check: expected zero rotation renders under the 1ms budget, got ${result.poolRotation.renderedCount}`);
+      assert(result.poolRotation.truncated === true, 'fixture wiring check: expected truncated === true');
+      assert(JSON.stringify(result.poolRotation.picked.slice().sort()) === JSON.stringify(pickedIds.slice().sort()), `fixture wiring check: expected runAudit()'s internally-recomputed picks to match the pre-computed ones, got ${JSON.stringify(result.poolRotation.picked)} vs ${JSON.stringify(pickedIds)}`);
+
+      const written = JSON.parse(fs.readFileSync(rotationPath, 'utf8'));
+      for (const id of alreadySeenPicks) {
+        assert(written.seen.includes(id), `THE baseSeen PROTECTION (this is the line the verifier's finding attacks): expected already-seen pick ${id} — skipped THIS run, but legitimately covered by the EARLIER run that seeded priorState — to REMAIN in persisted seen; got ${JSON.stringify(written.seen)}`);
+      }
+      for (const id of neverSeenPicks) {
+        assert(!written.seen.includes(id), `expected never-before-seen pick ${id} — skipped this run and never rendered, ever — to be ABSENT from persisted seen (it must not gain coverage it never earned); got ${JSON.stringify(written.seen)}`);
+      }
+      // The rest of the prior coverage (candidates that were not even picked
+      // this run) and the anchor must also be undisturbed.
+      for (const id of alreadySeenCandidates) {
+        assert(written.seen.includes(id), `expected the full prior coverage set to survive untouched, missing ${id} from ${JSON.stringify(written.seen)}`);
+      }
+      assert(written.seen.includes(anchorId), `expected the anchor id to remain in persisted seen, got ${JSON.stringify(written.seen)}`);
+    } finally {
+      try { fs.unlinkSync(snapPath); } catch (e) {}
+      try { fs.unlinkSync(rotationPath); } catch (e) {}
+      try { fs.unlinkSync(outPath); } catch (e) {}
     }
   });
 

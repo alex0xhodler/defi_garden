@@ -83,14 +83,34 @@
                              leg's shared-budget shape).
      AUDIT_POOL_SAMPLE     — how many extra pool-detail:<id-prefix> surfaces to
                              seed-rotate through beyond the anchor + promoted
-                             pools (default 6, capped at 6 — backlog 167,
-                             raised from 2 by backlog 191 after measuring
-                             wall-clock; see DEFAULT_POOL_SAMPLE's own comment
-                             for the timings). The default now EQUALS the
-                             cap (MAX_POOL_SAMPLE), so this env var can only
-                             ever LOWER the sample size from here — raising it
-                             above 6 requires raising MAX_POOL_SAMPLE itself,
-                             which is out of scope for 191.
+                             pools (default 32, capped at 64 — backlog 167,
+                             raised 2->6 by backlog 191, then 6->32/ceiling
+                             6->64 by backlog 192 after measuring wall-clock;
+                             see DEFAULT_POOL_SAMPLE's own comment for the
+                             timings). Backlog 192 deliberately set the
+                             ceiling ABOVE the default this time (191's
+                             default==ceiling meant this env var could only
+                             ever LOWER the sample size) so it can now raise
+                             the sample size too, up to 64.
+     AUDIT_TIME_BUDGET_MS  — wall-clock budget (ms) for the pool-detail
+                             ROTATION leg only (backlog 192). Once elapsed run
+                             time exceeds this, every remaining
+                             rotation-picked pool-detail surface is SKIPPED —
+                             never the anchor, never a prescan-promoted
+                             surface, never any other named surface (see
+                             buildPoolSurfaces()'s `rotationPick` marker and
+                             runAudit()'s render loop). Default
+                             DEFAULT_TIME_BUDGET_MS, itself FOREGROUND_CAP_MS
+                             (the standing 300s/5-minute foreground timebox,
+                             2026-07-11) — see both constants' own comments.
+                             Skips are reported, never silent:
+                             poolRotation.renderedCount/`.truncated` in
+                             signals/audit-findings.json and the CLI console
+                             summary; the persisted `seen` in
+                             signals/audit-rotation.json excludes any id that
+                             did not actually render, so a skipped pool is
+                             re-picked next run (never falsely credited as
+                             covered).
 
    backlog 149: playwright is resolved lazily (bare require -> npm global root ->
    hardcoded global fallback) instead of at module load, so `require('./audit-app.js')`
@@ -218,6 +238,15 @@ const POOL_ID_UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-
 // are, per the spec's own export list).
 const MS_PER_DAY_184 = 24 * 60 * 60 * 1000;
 
+// backlog 192 — the standing 300s/5-minute foreground timebox (decision
+// 2026-07-11) as an actual constant, not just prose repeated across comments.
+// Item-159 rule: every derived foreground-budget number in this file reads
+// FROM this constant — there must never be a second 300000 (or "300s")
+// literal anywhere else driving behaviour (comments restating "300s" in
+// prose, as history, are fine; a second numeric literal used in a
+// computation is not).
+const FOREGROUND_CAP_MS = 300 * 1000;
+
 // Pool-snapshot prescan (backlog 167). Budget knobs mirror the static leg's
 // naming (DEFAULT_*/MAX_* pairs), reusing the module's existing
 // APY_SANITY_LIMIT / ABSURD_MAGNITUDE constants verbatim — this section may
@@ -233,11 +262,39 @@ const DEFAULT_POOL_PRESCAN_MAX = 2; // promotion cap
 // candidates / 6, a 3x constant factor — see specs/191-notes.md, it does NOT
 // close the coverage gap). Because the default now EQUALS the ceiling, the
 // env override (`AUDIT_POOL_SAMPLE`) can only ever LOWER the sample size from
-// here; raising it further needs MAX_POOL_SAMPLE raised, which is
-// deliberately out of scope for 191 (see specs/191.md's "Explicitly OUT of
-// scope").
-const DEFAULT_POOL_SAMPLE = 6;      // rotation sample size
-const MAX_POOL_SAMPLE = 6;          // ceiling on AUDIT_POOL_SAMPLE
+// here; raising it further needs MAX_POOL_SAMPLE raised — 191's OWN WORDS,
+// SUPERSEDED by backlog 192 immediately below (kept verbatim as the reasoning
+// trail, not deleted — 192's own instructions require this history to stay).
+//
+// backlog 192 — raised AGAIN: DEFAULT_POOL_SAMPLE 6 -> 32, MAX_POOL_SAMPLE
+// 6 -> 64 (this time deliberately set ABOVE the new default, so
+// AUDIT_POOL_SAMPLE can raise the sample size as well as lower it — 191 hit
+// the opposite trap, default==ceiling, and could only ever lower). Justified
+// by the operator's own three measured foreground timings on this checkout,
+// taken BEFORE writing specs/192.md, rotation state redirected to a scratch
+// file for each run:
+//   AUDIT_POOL_SAMPLE=6  -> 111s wall-clock, exit 0, 1 finding total,  0 blocking
+//   AUDIT_POOL_SAMPLE=16 -> 111s wall-clock, exit 0, 1 finding total,  0 blocking
+//   AUDIT_POOL_SAMPLE=32 -> 116s wall-clock, exit 1, 3 findings total, 2 blocking (1 P0 + 1 P1)
+// Marginal cost per rendered pool-detail: ~0.19s (+5s of wall-clock for 26
+// extra renders, 6 -> 32) — this CONFIRMS 191's own finding restated above,
+// it does not contradict it: the run stays dominated by fixed costs (live
+// third-party fetches, the 2,183-page static prescan), not by per-pool render
+// cost. 32 is chosen as the largest MEASURED value (116s = 39% of
+// FOREGROUND_CAP_MS), landing well inside this item's own <=180s (60% of the
+// cap) target — see specs/192-notes.md for the full derivation, including why
+// 32 is not "picked because it's round" (it's the largest value the operator
+// actually ran). MAX_POOL_SAMPLE=64 is bounded by the SAME measurement, not
+// by taste: extrapolating the ~0.19s/render marginal cost, 64 renders
+// ~= 122s, still under the 180s target. Because AUDIT_POOL_SAMPLE can now
+// raise the sample past what was measured here (up to 64), and because a slow
+// day can inflate the fixed-cost legs regardless of sample size, the ceiling
+// alone is no longer sufficient insurance against a run that does not finish
+// — AUDIT_TIME_BUDGET_MS (below, and in runAudit()'s render loop) is what
+// keeps ANY sample size, on ANY day, from costing a finished run; it protects
+// completion, this constant only sizes the ordinary case.
+const DEFAULT_POOL_SAMPLE = 32;     // rotation sample size
+const MAX_POOL_SAMPLE = 64;         // ceiling on AUDIT_POOL_SAMPLE
 const POOL_ID_PREFIX_LEN = 8;       // `pool-detail:<prefix>` surface naming
 
 // signal -> severity, single source of truth (same role as PRESCAN_SIGNALS /
@@ -313,6 +370,22 @@ const DEFAULT_ROTATION_STATE_PATH = path.join(ROOT, 'product-loop-kit', 'signals
 // future snapshot outgrowing the cap fails loudly instead of silently
 // killing the wrap branch again.
 const ROTATION_SEEN_CAP = 2000;
+
+// backlog 192 leg (b) — wall-clock guard default for the pool-detail
+// ROTATION leg (see buildPoolSurfaces()'s `rotationPick` marker and
+// runAudit()'s render loop). Derived from FOREGROUND_CAP_MS itself, never a
+// second literal (item-159 rule): the guard's whole job is "the raised
+// ceiling [MAX_POOL_SAMPLE] can never cost a finished run" against the SAME
+// 300s the standing decision already governs — not some independently-picked
+// fraction of it, which would just be a second unjustified number. The
+// PART-1 ceiling choice (32/64, measured at 116s / extrapolated ~122s) is
+// what keeps an ORDINARY run inside this item's own tighter <=180s target;
+// this guard is the safety net for an ABNORMAL day — a third-party latency
+// spike, or a future default/ceiling raise that outgrows the measurement
+// above — where "the per-pool render cost is not the bottleneck" (191, 192)
+// stops being true. AUDIT_TIME_BUDGET_MS overrides this (an artificially
+// tiny value is how the tests prove the guard actually fires).
+const DEFAULT_TIME_BUDGET_MS = FOREGROUND_CAP_MS;
 
 // Non-HTML text-surface prescan (backlog 160): llms.txt/llms-full.txt are
 // generated/committed/served surfaces prescanStaticPages() never reads
@@ -2185,8 +2258,10 @@ function emptyPoolRotationResult() {
   // sampleSize: 0 here matches the "rotation disabled/unused" reading (no
   // AUDIT_POOL_IDS-override run ever computes a rotation) — backlog 191, lets
   // the CLI summary's throughput line print an explicit n/a instead of
-  // dividing by a hardcoded zero.
-  return { cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false, sampleSize: 0 };
+  // dividing by a hardcoded zero. renderedCount/truncated (backlog 192) stay
+  // 0/false for the same reason — nothing was ever picked, so nothing could
+  // have been skipped either.
+  return { cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false, sampleSize: 0, renderedCount: 0, truncated: false, timeBudgetMs: 0 };
 }
 
 // Builds the pool-detail promotion/rotation additions (spec 167 §2) and
@@ -2213,19 +2288,29 @@ function emptyPoolRotationResult() {
 // shipped defaults, additive growth was `DEFAULT_POOL_PRESCAN_MAX +
 // DEFAULT_POOL_SAMPLE` = 2 + 2 = 4, comfortably under `MAX_POOL_SAMPLE` (6).
 // backlog 191 raised DEFAULT_POOL_SAMPLE 2 -> 6 (== MAX_POOL_SAMPLE), so that
-// comparison no longer holds arithmetically: additive growth is now 2 + 6 = 8,
-// ABOVE MAX_POOL_SAMPLE. That is expected and fine — MAX_POOL_SAMPLE is a
-// ceiling on the rotation leg alone (`AUDIT_POOL_SAMPLE`'s clamp), never a
-// bound on the promotion+rotation sum; nothing here enforces sum <=
-// MAX_POOL_SAMPLE. "Small and bounded" (A7) still holds in absolute terms —
-// 8 extra surfaces per tick is still small — just no longer under the old
-// comparison point.
+// comparison no longer held arithmetically: additive growth was 2 + 6 = 8,
+// ABOVE MAX_POOL_SAMPLE (6). That was expected and fine then, and the
+// underlying point still holds now — MAX_POOL_SAMPLE is a ceiling on the
+// rotation leg ALONE (`AUDIT_POOL_SAMPLE`'s clamp), never a bound on the
+// promotion+rotation sum; nothing here enforces sum <= MAX_POOL_SAMPLE, so
+// whether the sum happens to sit under or over the ceiling is incidental,
+// not a contract. backlog 192 raised DEFAULT_POOL_SAMPLE 6 -> 32 and
+// MAX_POOL_SAMPLE 6 -> 64: additive growth is now 2 + 32 = 34, which DOES
+// once again sit under the new MAX_POOL_SAMPLE (64) — a coincidence of this
+// item's specific numbers, not a rule to lean on; a future AUDIT_POOL_SAMPLE
+// override can still push the sum arbitrarily above MAX_POOL_SAMPLE exactly
+// as 191 already established. "Small and bounded" (A7) still holds in
+// absolute terms — 34 extra surfaces per tick is still small relative to the
+// ~735-pool candidate population.
 // Returns `{ anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings,
-// poolPrescanSuspects }` — `poolPrescanSuspects` (added backlog 171) is the
-// same anchor-excluded suspect list the aggregate `poolPrescanFindings`
-// above were counted from, exposed so runAudit() can reconcile each
-// aggregate finding against what its own promoted suspects actually
-// rendered (mirrors buildStaticSurfaces()'s `prescanSuspects`).
+// poolPrescanSuspects, poolRotation, rotationState, rotationStatePath,
+// baseSeen }` — `poolPrescanSuspects` (added backlog 171) is the same
+// anchor-excluded suspect list the aggregate `poolPrescanFindings` above
+// were counted from, exposed so runAudit() can reconcile each aggregate
+// finding against what its own promoted suspects actually rendered (mirrors
+// buildStaticSurfaces()'s `prescanSuspects`). `baseSeen` (added backlog 192)
+// is documented at its own definition below, next to where it's returned —
+// runAudit() needs it to honestly reconcile the wall-clock guard's skips.
 function buildPoolSurfaces(opts = {}) {
   const pools = Array.isArray(opts.pools) ? opts.pools : [];
   const overrideRaw = opts.poolIds || process.env.AUDIT_POOL_IDS;
@@ -2238,14 +2323,18 @@ function buildPoolSurfaces(opts = {}) {
     // surfaces. Prescan is OFF in this mode (spec 167 §3).
     const ids = overrideRaw.split(',').map((s) => s.trim()).filter(Boolean);
     const anchorPoolId = ids[0] || null;
+    // backlog 192: override-mode extraSurfaces carry `poolId` (shape parity
+    // with the prescan/rotation paths below) but deliberately NO
+    // `rotationPick` marker — this mode is used verbatim, exactly like
+    // prescan-promoted surfaces, so the wall-clock guard must never skip it.
     const extraSurfaces = ids.slice(1).map((id) => ({
-      name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280
+      name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280, poolId: id
     }));
     // backlog 183 leg (b): override mode is used verbatim, exactly like
     // prescan — no rotation state is read or written in this mode.
     return {
       anchorPoolId, extraSurfaces, poolPrescan: emptyPoolPrescanResult(), poolPrescanFindings: [], poolPrescanSuspects: [],
-      poolRotation: emptyPoolRotationResult(), rotationState: null, rotationStatePath: null
+      poolRotation: emptyPoolRotationResult(), rotationState: null, rotationStatePath: null, baseSeen: null
     };
   }
 
@@ -2328,8 +2417,13 @@ function buildPoolSurfaces(opts = {}) {
     poolPrescan = { scanned: scan.scanned, suspectCount: suspects.length, bySignal, promoted: promotedIds.slice() };
   }
 
+  // backlog 192: `poolId` (the full id, alongside the already-truncated
+  // `name`) so runAudit()'s render loop / reconciliation never has to
+  // re-derive it from the 8-char prefix (a real collision risk at MAX_POOL_
+  // SAMPLE=64 scale that `name` alone would create). Promoted surfaces carry
+  // NO `rotationPick` marker — they are never skippable (spec 192 part 2).
   const extraSurfaces = promotedIds.map((id) => ({
-    name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280
+    name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280, poolId: id
   }));
 
   // ---- Never-audited-first rotation (backlog 183 leg b) — additive to
@@ -2352,8 +2446,16 @@ function buildPoolSurfaces(opts = {}) {
   const priorRotationState = opts.rotationState || readRotationState(rotationStatePath);
   const rot = computeRotation(rotationCandidates, sampleSize, `${seed}:pools`, priorRotationState);
   const rotationPicks = rot.picked;
+  // backlog 192 — `rotationPick: true` is the explicit marker the Territory
+  // notes warned this item needs: rotation-picked and prescan-promoted
+  // surfaces are otherwise IDENTICAL in shape (both `pool-detail:<prefix>`,
+  // `kind: 'pool'`), and only rotation surfaces may ever be skipped by the
+  // AUDIT_TIME_BUDGET_MS guard in runAudit()'s render loop. Reusing the name
+  // prefix as a proxy would also catch promoted surfaces, which part 2
+  // forbids skipping — so this is a real field, set here at build time, not
+  // inferred later from naming.
   for (const id of rotationPicks) {
-    extraSurfaces.push({ name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280 });
+    extraSurfaces.push({ name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280, poolId: id, rotationPick: true });
   }
 
   // Every pool id that got a pool-detail surface THIS run — anchor,
@@ -2375,10 +2477,26 @@ function buildPoolSurfaces(opts = {}) {
     // rotation budget for THIS run, exposed so the CLI summary can derive a
     // full-pass throughput figure at runtime instead of re-typing
     // DEFAULT_POOL_SAMPLE as a literal (item-159 rule).
-    sampleSize
+    sampleSize,
+    // backlog 192 — OPTIMISTIC placeholders, set as if every pick would
+    // render (this function does no rendering, so it cannot know better).
+    // runAudit() overwrites both fields after the render loop with what
+    // ACTUALLY rendered — never trust these two fields straight off
+    // buildPoolSurfaces()'s own return; they exist here only so the shape is
+    // always complete (same convention as emptyPoolRotationResult()).
+    renderedCount: rotationPicks.length,
+    truncated: false
   };
 
-  return { anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings, poolPrescanSuspects, poolRotation, rotationState, rotationStatePath };
+  // backlog 192 — `baseSeen` (declared above, feeding `newSeen`) is also
+  // returned here: it's the exact seen[] this run's picks were ADDED ON TOP
+  // OF (empty on a wrap, otherwise the prior committed state, before any of
+  // THIS run's ids were folded in). runAudit()'s post-render reconciliation
+  // needs it to tell "an id already legitimately seen in an EARLIER run"
+  // (never strip it) apart from "an id THIS run would have newly added"
+  // (strip it if the guard skipped its render) — see the reconciliation
+  // comment in runAudit() for why that distinction is the whole point.
+  return { anchorPoolId, extraSurfaces, poolPrescan, poolPrescanFindings, poolPrescanSuspects, poolRotation, rotationState, rotationStatePath, baseSeen };
 }
 
 // ---------------------------------------------------------------------------
@@ -3077,6 +3195,15 @@ function reconcilePrescanFindings(aggregateFindings, opts) {
 // ---------------------------------------------------------------------------
 async function runAudit(opts = {}) {
   const outPath = opts.outPath || process.env.AUDIT_OUT || DEFAULT_OUT;
+  // backlog 192 — wall-clock guard for the pool-detail ROTATION leg (see the
+  // render loop below). `runStartTime` is captured as close to the top of
+  // this function as possible, BEFORE playwright resolution / the snapshot
+  // read / any prescan, so "elapsed run time" means the same thing this
+  // guard's own budget was measured against: the operator's `time node
+  // audit-app.js` wall-clock (specs/192.md/192-notes.md), not just the
+  // render loop's own duration.
+  const timeBudgetMs = Math.max(0, Number(opts.timeBudgetMs || process.env.AUDIT_TIME_BUDGET_MS || DEFAULT_TIME_BUDGET_MS));
+  const runStartTime = Date.now();
 
   // Resolve playwright BEFORE the snapshot read / server start, so a missing
   // engine fails fast and starts no server (backlog 149).
@@ -3275,8 +3402,27 @@ async function runAudit(opts = {}) {
   // Same convention (item 190): the i18n prescan gets its own surfacesCovered
   // entry when it ran AND survived opts.only.
   if (i18nEnabled && i18nInOnly) surfacesCovered.push('i18n');
+  // backlog 192 part 2 — wall-clock guard state. `rotationGuardTripped`
+  // latches true the first time elapsed run time exceeds `timeBudgetMs` at a
+  // rotation-picked surface, and STAYS true — "skip that surface and every
+  // rotation surface after it" (spec 192), not just the one that happened to
+  // be first over budget. Only surfaces carrying `s.rotationPick === true`
+  // (set exclusively in buildPoolSurfaces() for the seeded-rotation picks,
+  // never for the anchor, prescan-promoted, static/text/i18n, or any other
+  // named surface) are ever eligible to be skipped here.
+  let rotationGuardTripped = false;
+  const skippedRotationIds = [];
+  let renderedRotationCount = 0;
   try {
     for (const s of surfaces) {
+      if (s.rotationPick) {
+        if (!rotationGuardTripped && (Date.now() - runStartTime) > timeBudgetMs) rotationGuardTripped = true;
+        if (rotationGuardTripped) {
+          skippedRotationIds.push(s.poolId);
+          continue; // never rendered: no surfacesCovered entry, no findings, no exception to the honesty rule
+        }
+        renderedRotationCount++;
+      }
       const f = await main(browser, baseUrl, s, ctx);
       surfacesCovered.push(s.name);
       findings.push(...f);
@@ -3285,6 +3431,42 @@ async function runAudit(opts = {}) {
     await browser.close();
     server.close();
   }
+
+  // backlog 192 part 3 (THE HONESTY REQUIREMENT) — reconcile the OPTIMISTIC
+  // poolRotation/rotationState buildPoolSurfaces() computed (assuming every
+  // pick would render) against what the guard above actually skipped.
+  // `poolResult.baseSeen` is the exact seen[] this run's picks were added on
+  // top of (see its own comment in buildPoolSurfaces()): filtering
+  // `skippedRotationIds` through it distinguishes "an id already legitimately
+  // seen in an EARLIER run" (leave it in `seen` — it really was audited once,
+  // just not this run) from "an id THIS run would have newly added" (strip
+  // it — it was never actually rendered, ever, so crediting it as seen would
+  // silently inflate the coverage number this whole item exists to make
+  // honest, and the next run would never re-pick a pool that in truth has
+  // still never been audited). Runs even when nothing was skipped
+  // (newlySkipped.length === 0 short-circuits to a no-op).
+  if (poolResult.rotationState) {
+    const baseSeenSet = new Set(Array.isArray(poolResult.baseSeen) ? poolResult.baseSeen : []);
+    const newlySkipped = skippedRotationIds.filter((id) => id && !baseSeenSet.has(id));
+    if (newlySkipped.length) {
+      const skipSet = new Set(newlySkipped);
+      poolResult.rotationState = Object.assign({}, poolResult.rotationState, {
+        seen: poolResult.rotationState.seen.filter((id) => !skipSet.has(id))
+      });
+    }
+  }
+  // poolRotation.picked stays the full BUILD-TIME pick list (what the seed
+  // chose) — renderedCount/truncated are the new, separate, HONEST read of
+  // what this run actually did with that list (spec 192: "expose the
+  // rendered count + a truncation flag on poolRotation").
+  poolResult.poolRotation = Object.assign({}, poolResult.poolRotation, {
+    renderedCount: renderedRotationCount,
+    truncated: skippedRotationIds.length > 0,
+    // The resolved (env/opts-overridden) budget THIS run actually guarded
+    // against — carried into the artifact/console line so a reader never has
+    // to re-read code to know what "TRUNCATED" was measured against.
+    timeBudgetMs
+  });
 
   // backlog 171 — reconcile each aggregate prescan finding against what its
   // own promoted suspects actually rendered. Runs AFTER the opts.only
@@ -3390,7 +3572,11 @@ module.exports = {
   prescanI18n, I18N_IDENTICAL_ALLOWLIST,
   // backlog 191 — exported so tests interpolate the real rotation-budget
   // constants (default + ceiling) instead of re-typing them (item-159 rule).
-  DEFAULT_POOL_SAMPLE, MAX_POOL_SAMPLE
+  DEFAULT_POOL_SAMPLE, MAX_POOL_SAMPLE,
+  // backlog 192 — exported for the same reason: a test proving the
+  // wall-clock guard's DEFAULT is inert (or that a tiny override fires it)
+  // must read these, never re-type 300000/180000/etc.
+  FOREGROUND_CAP_MS, DEFAULT_TIME_BUDGET_MS
 };
 
 if (require.main === module) {
@@ -3430,7 +3616,12 @@ if (require.main === module) {
       // cycle/seenCount/candidateCount let a reader tell real rotation
       // progress from incidental selection without a code read.
       const rot = result.poolRotation || {};
-      console.log(`[audit] pool rotation: cycle ${rot.cycle}, seen ${rot.seenCount}/${rot.candidateCount} candidates, picked [${(rot.picked || []).join(', ')}], wrapped=${!!rot.wrapped}`);
+      const pickedCount = (rot.picked || []).length;
+      const renderedCount = rot.renderedCount || 0;
+      // backlog 192 — rendered/truncated stated plainly next to picked, so a
+      // truncated run cannot be misread as a clean one from this line alone.
+      const truncationNote = rot.truncated ? ` — TRUNCATED (time budget ${rot.timeBudgetMs}ms exceeded, ${pickedCount - renderedCount} rotation pick(s) skipped)` : '';
+      console.log(`[audit] pool rotation: cycle ${rot.cycle}, seen ${rot.seenCount}/${rot.candidateCount} candidates, picked [${(rot.picked || []).join(', ')}], rendered ${renderedCount}/${pickedCount}${truncationNote}, wrapped=${!!rot.wrapped}`);
       // backlog 191 — throughput, derived entirely from THIS run's own
       // poolRotation numbers (never a re-typed constant, per the item-159
       // rule). Deliberately built from `candidateCount / sampleSize`, NEVER
@@ -3439,12 +3630,17 @@ if (require.main === module) {
       // so dividing by seenCount would understate the full-pass tick count
       // (spec 191's "territory notes" trap). This line is rotation-only —
       // it says nothing about the anchor/promotion legs' own coverage.
-      const sampleSize = rot.sampleSize || 0;
+      // backlog 192 — the divisor is now `renderedCount`, NEVER `sampleSize`/
+      // `picked.length` (the "planned" count) and never a hardcoded literal:
+      // a truncated run must report the slower TRUE rate it actually
+      // achieved, not the optimistic rate it merely intended (spec 192
+      // acceptance criterion). On an untruncated run renderedCount ===
+      // sampleSize === picked.length, so the figure is unchanged from 191.
       const candidateCount = rot.candidateCount || 0;
-      const throughput = (sampleSize > 0 && candidateCount > 0)
-        ? `${sampleSize} pool-details/tick over ${candidateCount} rotation candidates -> full pass ~${Math.ceil(candidateCount / sampleSize)} ticks (~days)`
+      const throughput = (renderedCount > 0 && candidateCount > 0)
+        ? `${renderedCount} pool-details/tick over ${candidateCount} rotation candidates -> full pass ~${Math.ceil(candidateCount / renderedCount)} ticks (~days)`
         : 'n/a (rotation disabled)';
-      console.log(`[audit] rotation throughput (rotation-only, excludes anchor + prescan-promoted ids): ${throughput}`);
+      console.log(`[audit] rotation throughput (rotation-only, excludes anchor + prescan-promoted ids, uses RENDERED not picked count): ${throughput}`);
       process.exit(blocking.length > 0 ? 1 : 0);
     })
     .catch((err) => {
