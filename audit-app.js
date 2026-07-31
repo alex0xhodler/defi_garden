@@ -309,12 +309,14 @@ const POOL_PRESCAN_SIGNALS = {
 };
 
 // backlog 183 leg (a) — provenance/classification kind -> severity, same
-// role as POOL_PRESCAN_SIGNALS above. `environment` is the only downgrade;
-// `defect` and `undeterminable` both stay blocking (spec 183's non-vacuity
-// contract: the downgrade must never be the silent default). Only consulted
-// via ctaFindingSeverity() below for the `fallback` shape — see its comment
-// for why `missing` never reaches this table.
-const CTA_KIND_SEVERITY = { defect: 'P1', undeterminable: 'P1', environment: 'P2' };
+// role as POOL_PRESCAN_SIGNALS above. `environment` and `upstream-null`
+// (item 194) are the only downgrades; `defect` and `undeterminable` both stay
+// blocking (spec 183's non-vacuity contract: a downgrade must never be the
+// silent default — see classifyCtaKind()'s branch-order comment for how
+// `upstream-null` is kept off that fallthrough path too). Only consulted via
+// ctaFindingSeverity() below for the `fallback` shape — see its comment for
+// why `missing` never reaches this table.
+const CTA_KIND_SEVERITY = { defect: 'P1', undeterminable: 'P1', environment: 'P2', 'upstream-null': 'P2' };
 
 // backlog 183 (verifier round 3) — severity by SHAPE first, kind second.
 // 182's renderProtocolCtaBlock() (PoolDetail.js:161-207) ALWAYS returns one
@@ -2115,12 +2117,28 @@ function poolIdPrefix(id) {
 // (missing file, malformed JSON, unparsable literal) — never throw — so a
 // broken artifact routes to `undeterminable`, not a false `defect`.
 // ---------------------------------------------------------------------------
-function readBakedProtocolUrls() {
+// item 194 — additionally returns `unreachable: Set|null`: the generator's
+// (spec 194 §3(A)) sorted `unreachable` string array, as a Set, when the
+// artifact carries one; `null` when the field is absent or malformed (an OLD
+// artifact — pre-194, or a hand-broken one — must never be able to produce a
+// downgrade; classifyCtaKind()'s `upstreamUnreachable === true` strict check
+// is exactly what makes that safe on this end). `keys` shape is unchanged.
+// `overridePath` (test-only; mirrors the opts/env override convention every
+// other disk read in this file already uses, e.g. AUDIT_SNAPSHOT_PATH) lets
+// a test drive the pool CTA driver's rendered path against an artifact
+// lacking `unreachable` WITHOUT ever touching the committed
+// data/protocol-urls.json — the non-vacuity guard (criterion 8) needs a real
+// rendered run where the evidence is genuinely absent, not just a pure-fn
+// fixture. Defaults to the real committed path when omitted.
+function readBakedProtocolUrls(overridePath) {
   try {
-    const raw = fs.readFileSync(path.join(ROOT, 'data', 'protocol-urls.json'), 'utf8');
+    const raw = fs.readFileSync(overridePath || path.join(ROOT, 'data', 'protocol-urls.json'), 'utf8');
     const parsed = JSON.parse(raw);
     if (!parsed || typeof parsed !== 'object' || !parsed.urls || typeof parsed.urls !== 'object') return null;
-    return { keys: new Set(Object.keys(parsed.urls)) };
+    const unreachable = Array.isArray(parsed.unreachable) && parsed.unreachable.every((k) => typeof k === 'string')
+      ? new Set(parsed.unreachable)
+      : null;
+    return { keys: new Set(Object.keys(parsed.urls)), unreachable };
   } catch (e) {
     return null;
   }
@@ -2159,28 +2177,49 @@ function projectHasUrl(tierKeys, project) {
   return tierKeys.has(slug) || tierKeys.has(project);
 }
 
-// backlog 183 leg (a) — the classification decision rule. Branch ORDER is
-// load-bearing: each of the four kinds is reachable through exactly one
-// explicit check, `environment` (the only downgrade) LAST among the
-// non-undeterminable branches so it can never be a silent fallthrough
-// default (spec 183's non-vacuity contract — a classifier that can only ever
-// emit `environment` has removed the gate, not fixed it).
+// backlog 183 leg (a), item 194 — the classification decision rule. Branch
+// ORDER is load-bearing: each of the five kinds is reachable through exactly
+// one explicit check, and both downgrades (`environment`, and item 194's
+// `upstream-null`) sit BEFORE the final `defect` fallthrough but never AS the
+// fallthrough itself, so neither can become a silent default (spec 183's
+// non-vacuity contract — a classifier that can only ever emit a downgrade has
+// removed the gate, not fixed it).
 //   1. disk-side undeterminable (either reader above returned null) OR the
 //      run-side signal for the baked fetch is itself indeterminate
 //      ('unknown' — a defensive state, not the common "never requested"
 //      case, see bakedRunOutcome below) -> undeterminable, stays P1.
-//   2. no disk-side tier resolves a URL anywhere -> defect, P1 (the real
-//      `sdai` case, spec 183 T2).
-//   3. a disk-side tier DOES resolve, but THIS run's fetch to our own
+//   2. no disk-side tier resolves a URL anywhere, AND positive disk-side
+//      evidence says the upstream protocols feed itself publishes no URL for
+//      this project (`upstreamUnreachable === true`, strict — see below)
+//      -> upstream-null, P2, non-blocking (item 194: the real `sdai` case,
+//      spec 183 T2 — 182's honest DefiLlama fallback IS the intended render
+//      here, not a defect).
+//   3. no disk-side tier resolves a URL anywhere, and (2) did not apply ->
+//      defect, P1 (a genuine coverage gap — the project is either absent
+//      from the upstream feed entirely, or upstreamUnreachable is
+//      false/null/omitted).
+//   4. a disk-side tier DOES resolve, but THIS run's fetch to our own
 //      /data/protocol-urls.json failed, was blocked, or never arrived
 //      ('failed' | 'absent') -> environment, P2, non-blocking.
-//   4. URL on disk, this run's fetch confirmed ok, CTA still not the real
+//   5. URL on disk, this run's fetch confirmed ok, CTA still not the real
 //      one -> defect, P1 (a genuine bug, not an environment artifact).
+// `upstreamUnreachable` is tri-state (`true` / `false` / `null`≡unknown, and
+// treated identically to `null` when the argument is omitted entirely) —
+// strict `=== true` is load-bearing: an old/malformed artifact
+// (readBakedProtocolUrls() returning `unreachable: null`) or a project this
+// run's evidence simply doesn't cover must fall through to today's `defect`,
+// never silently upgrade to the downgrade. `upstream-null` precedes the
+// `environment` check deliberately (spec 194 §3(B)): when upstream has no URL
+// to serve at all, a failed baked fetch changes nothing about what the page
+// *should* render, so the by-design reading stays correct regardless of this
+// run's fetch outcome.
 function classifyCtaKind(opts) {
   const diskDeterminable = !!(opts && opts.diskDeterminable);
   const diskTiers = (opts && opts.diskTiers) || [];
   const bakedRunOutcome = (opts && opts.bakedRunOutcome) || 'unknown';
+  const upstreamUnreachable = opts && opts.upstreamUnreachable;
   if (!diskDeterminable || bakedRunOutcome === 'unknown') return 'undeterminable';
+  if (diskTiers.length === 0 && upstreamUnreachable === true) return 'upstream-null';
   if (diskTiers.length === 0) return 'defect';
   if (bakedRunOutcome === 'failed' || bakedRunOutcome === 'absent') return 'environment';
   return 'defect';
@@ -3050,7 +3089,7 @@ async function main(browser, baseUrl, s, ctx) {
       const currentPool = currentPoolId && ctx.poolsById ? ctx.poolsById.get(currentPoolId) : null;
       const project = currentPool ? currentPool.project : null;
 
-      const baked = readBakedProtocolUrls();
+      const baked = readBakedProtocolUrls(ctx.protocolUrlsPath);
       const staticMap = readStaticProtocolUrls();
       const diskDeterminable = !!(baked && staticMap);
       const diskTiers = [];
@@ -3059,7 +3098,15 @@ async function main(browser, baseUrl, s, ctx) {
         if (projectHasUrl(staticMap.keys, project)) diskTiers.push('static');
       }
       const bakedRunOutcome = ctaProvenance ? ctaProvenance.bakedProtocolUrls : 'unknown';
-      const kind = classifyCtaKind({ diskDeterminable, diskTiers, bakedRunOutcome });
+      // item 194 — positive disk-side evidence for the by-design-unreachable
+      // downgrade, resolved with the SAME two key shapes projectHasUrl() uses
+      // for the tiers above (slugified + raw project). Tri-state: `null` when
+      // `baked` itself is undeterminable OR the artifact carries no/malformed
+      // `unreachable` field (readBakedProtocolUrls() already encodes that —
+      // an old artifact can never produce a downgrade); a real boolean only
+      // when the artifact actually says so.
+      const upstreamUnreachable = (baked && baked.unreachable) ? projectHasUrl(baked.unreachable, project) : null;
+      const kind = classifyCtaKind({ diskDeterminable, diskTiers, bakedRunOutcome, upstreamUnreachable });
       // ctaFindingSeverity(), not a bare CTA_KIND_SEVERITY[kind] lookup —
       // see its comment: a `missing` shape must stay P1 regardless of `kind`.
       const severity = ctaFindingSeverity(ctaShape, kind);
@@ -3082,6 +3129,11 @@ async function main(browser, baseUrl, s, ctx) {
           // (audit-app.js ~2219: "— reconciled: ...; downgraded to
           // non-blocking.") so both downgrade mechanisms read the same way.
           detail += ` — reconciled: a disk-side tier resolves this project, but this run's fetch to /data/protocol-urls.json did not confirm it (${bakedRunOutcome}); downgraded to non-blocking.`;
+        } else if (kind === 'upstream-null') {
+          // item 194 — same reconciliation wording pattern as `environment`
+          // just above, so both downgrades read the same way (spec 194
+          // §3(B)).
+          detail += ` — by design: the upstream protocols feed publishes no site URL for this project (blank \`url\`), so 182's honest DefiLlama fallback IS the intended render; downgraded to non-blocking.`;
         }
         findings.push(finding(s.name, s.vpLabel, 'degraded-cta', severity,
           `DefiLlama fallback rendered instead of the protocol CTA (.cta-button-protocol) — ${detail}`));
@@ -3407,7 +3459,12 @@ async function runAudit(opts = {}) {
   // read the rendered surface's `project` without any DOM guesswork (the
   // fallback-shape CTA carries no project name in its own text).
   const poolsById = new Map(pools.map((p) => [p.pool, p]));
-  const ctx = { snapshotBody, freshMeta, liveBody, poolsById };
+  // item 194 (test-only) — see readBakedProtocolUrls()'s own comment for why
+  // this override exists; opts/env convention matches AUDIT_SNAPSHOT_PATH
+  // etc. `undefined` when unset, which readBakedProtocolUrls() treats
+  // identically to "no override" (falls back to the real committed path).
+  const protocolUrlsPath = opts.protocolUrlsPath || process.env.AUDIT_PROTOCOL_URLS_PATH || undefined;
+  const ctx = { snapshotBody, freshMeta, liveBody, poolsById, protocolUrlsPath };
   const findings = [...prescanFindings, ...poolPrescanFindings, ...textSurfaceFindings, ...i18nFindings];
   const surfacesCovered = [];
   // Named only when the pass ran AND survived opts.only (spec 160: unlike

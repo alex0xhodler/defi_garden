@@ -130,13 +130,41 @@ function restrictAndSort(mapping, population) {
   return out;
 }
 
+/** item 194 — the "unreachable by design" population: population keys whose
+ * upstream protocol entry EXISTS (matched by protocolUrlKey(protocol.name),
+ * or its protocol.slug alias) but was skipped by buildUrlMapping() above
+ * because isValidHttpsUrl() rejected the url (blank/http://). A key with NO
+ * upstream protocol entry at all must NOT appear — that's a genuine coverage
+ * gap, still correctly classified as `defect` downstream, not this new kind
+ * (spec 194 §3(A)). `fullMapping` is passed in so a key that has a valid url
+ * via a DIFFERENT protocol entry (e.g. reached only through its slug alias)
+ * is never marked unreachable — reachable-at-all always wins.
+ * Sorted, mirroring restrictAndSort()'s byte-stability discipline. */
+function buildUnreachable(protocols, population, fullMapping) {
+  const skipped = new Set();
+  (protocols || []).forEach((protocol) => {
+    if (!protocol || !protocol.name) return;
+    if (isValidHttpsUrl(protocol.url)) return;
+    const key = protocolUrlKey(protocol.name);
+    skipped.add(key);
+    if (protocol.slug && protocol.slug !== key) skipped.add(protocol.slug);
+  });
+  return Array.from(skipped)
+    .filter((k) => population.has(k) && !Object.prototype.hasOwnProperty.call(fullMapping, k))
+    .sort();
+}
+
 /** Pure core: raw protocols + raw pools + a generatedAt stamp -> the artifact
- * object { schemaVersion, generatedAt, urls }. No network/disk access. */
+ * object { schemaVersion, generatedAt, urls, unreachable }. No network/disk
+ * access. `unreachable` is purely additive (spec 194 TRAP) — SCHEMA_VERSION
+ * stays 1, every existing reader (app.js:1297, audit-app.js's
+ * readBakedProtocolUrls()) reads only `urls` and ignores it. */
 function buildArtifact(protocols, pools, generatedAt) {
   const fullMapping = buildUrlMapping(protocols);
   const population = buildPopulation(pools);
   const urls = restrictAndSort(fullMapping, population);
-  return { schemaVersion: SCHEMA_VERSION, generatedAt, urls };
+  const unreachable = buildUnreachable(protocols, population, fullMapping);
+  return { schemaVersion: SCHEMA_VERSION, generatedAt, urls, unreachable };
 }
 
 /** Coverage of the live pools feed by a given `urls` mapping — the same tier
@@ -221,6 +249,7 @@ async function main() {
   const generatedAt = new Date().toISOString();
   const artifact = buildArtifact(protocols, pools, generatedAt);
   const keyCount = Object.keys(artifact.urls).length;
+  const unreachableCount = artifact.unreachable.length; // item 194
   const { covered, total } = measureCoverage(artifact.urls, pools);
   const coveragePct = total ? ((covered / total) * 100).toFixed(1) : '0.0';
   const newContent = JSON.stringify(artifact);
@@ -228,20 +257,20 @@ async function main() {
 
   const existing = tryRead(outPath);
   if (existing != null && normalizeArtifactContent(existing) === normalizeArtifactContent(newContent)) {
-    console.log(`♻️  No data change — kept committed protocol-urls.json (${keyCount} keys). Nothing written.`);
+    console.log(`♻️  No data change — kept committed protocol-urls.json (${keyCount} keys, ${unreachableCount} unreachable). Nothing written.`);
     console.log(`📊 Coverage: ${keyCount} keys, ${bytes} bytes -> covers ${covered}/${total} live pools (${coveragePct}%)`);
     return;
   }
 
   fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(outPath, newContent);
-  console.log(`📦 Wrote protocol-urls.json: ${keyCount} keys, ${bytes} bytes`);
+  console.log(`📦 Wrote protocol-urls.json: ${keyCount} keys, ${unreachableCount} unreachable, ${bytes} bytes`);
   console.log(`📊 Coverage: ${keyCount} keys -> covers ${covered}/${total} live pools (${coveragePct}%)`);
 }
 
 module.exports = {
   protocolUrlKey, isValidHttpsUrl, buildUrlMapping, buildPopulation, restrictAndSort, buildArtifact,
-  measureCoverage, normalizeArtifactContent, resolveOutPath, parseArgs,
+  buildUnreachable, measureCoverage, normalizeArtifactContent, resolveOutPath, parseArgs,
   SCHEMA_VERSION, PROTOCOLS_API, POOLS_API
 };
 

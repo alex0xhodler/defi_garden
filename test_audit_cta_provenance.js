@@ -50,17 +50,56 @@ function cleanPool(i) {
 async function main() {
   // ===========================================================================
   // Leg (a) — classifyCtaKind() as a pure function over fixtures.
-  // Decision order (audit-app.js): undeterminable -> defect(no tier) ->
+  // Decision order (audit-app.js, item 194 revised): undeterminable ->
+  // upstream-null(no tier + upstreamUnreachable===true) -> defect(no tier) ->
   // environment(tier + fetch not-ok) -> defect(tier + fetch ok, still bad).
   // ===========================================================================
 
-  await test('classifier: no disk-side tier resolves -> defect, P1 (the sdai shape) — fetch outcome must not matter', () => {
+  // item 194 — this used to be named "the sdai shape" and asserted `defect`
+  // unconditionally for the no-tier case. That was the wrong assumption:
+  // sdai's real shape (no disk-side tier AND upstream positively confirms no
+  // URL exists) is `upstream-null`, not `defect` — see the dedicated 194
+  // tests below. This case remains `defect` because `upstreamUnreachable` is
+  // omitted entirely (tri-state defaults to not-true), which is a DIFFERENT,
+  // still-real shape: a genuine coverage gap (project absent from the
+  // upstream feed, or evidence just not supplied) — kept here unchanged so
+  // the pre-194 no-tier/no-evidence behavior stays pinned.
+  await test('classifier: no disk-side tier resolves, no upstream-unreachable evidence supplied -> defect, P1 — fetch outcome must not matter', () => {
     const a = classifyCtaKind({ diskDeterminable: true, diskTiers: [], bakedRunOutcome: 'ok' });
     const b = classifyCtaKind({ diskDeterminable: true, diskTiers: [], bakedRunOutcome: 'failed' });
     const c = classifyCtaKind({ diskDeterminable: true, diskTiers: [], bakedRunOutcome: 'absent' });
     assert(a === 'defect', `expected defect with fetch=ok and no tiers, got ${a}`);
     assert(b === 'defect', `expected defect with fetch=failed and no tiers (no-tier check must win over environment), got ${b}`);
     assert(c === 'defect', `expected defect with fetch=absent and no tiers, got ${c}`);
+  });
+
+  // ===========================================================================
+  // item 194 — the new `upstream-null` kind. Acceptance criteria 1/2/4.
+  // ===========================================================================
+
+  await test('194 criterion 1: no disk-side tier + upstreamUnreachable:true -> upstream-null, for every bakedRunOutcome (branch-order proof: upstream-null precedes the environment check)', () => {
+    const ok = classifyCtaKind({ diskDeterminable: true, diskTiers: [], bakedRunOutcome: 'ok', upstreamUnreachable: true });
+    const failed = classifyCtaKind({ diskDeterminable: true, diskTiers: [], bakedRunOutcome: 'failed', upstreamUnreachable: true });
+    const absent = classifyCtaKind({ diskDeterminable: true, diskTiers: [], bakedRunOutcome: 'absent', upstreamUnreachable: true });
+    assert(ok === 'upstream-null', `expected upstream-null for fetch=ok, got ${ok}`);
+    assert(failed === 'upstream-null', `expected upstream-null for fetch=failed (must win over environment), got ${failed}`);
+    assert(absent === 'upstream-null', `expected upstream-null for fetch=absent (must win over environment), got ${absent}`);
+  });
+
+  await test('194 criterion 2: the upstream-null downgrade is NOT the default — upstreamUnreachable:false, :null, and omitted entirely all still fall through to defect', () => {
+    const withFalse = classifyCtaKind({ diskDeterminable: true, diskTiers: [], bakedRunOutcome: 'ok', upstreamUnreachable: false });
+    const withNull = classifyCtaKind({ diskDeterminable: true, diskTiers: [], bakedRunOutcome: 'ok', upstreamUnreachable: null });
+    const omitted = classifyCtaKind({ diskDeterminable: true, diskTiers: [], bakedRunOutcome: 'ok' });
+    assert(withFalse === 'defect', `expected defect for upstreamUnreachable:false, got ${withFalse}`);
+    assert(withNull === 'defect', `expected defect for upstreamUnreachable:null, got ${withNull}`);
+    assert(omitted === 'defect', `expected defect when upstreamUnreachable is omitted entirely, got ${omitted}`);
+  });
+
+  await test('194 criterion 4: ctaFindingSeverity is P2 for fallback+upstream-null, but STILL P1 for missing+upstream-null (the 183 round-3 asymmetry survives the new kind)', () => {
+    const fallback = ctaFindingSeverity('fallback', 'upstream-null');
+    const missing = ctaFindingSeverity('missing', 'upstream-null');
+    assert(fallback === 'P2', `expected P2 for fallback+upstream-null, got ${fallback}`);
+    assert(missing === 'P1', `expected P1 for missing+upstream-null (protocol-URL provenance has no causal link to a genuinely absent element), got ${missing}`);
   });
 
   await test('classifier: tier exists on disk + this run\'s fetch failed -> environment, P2 (non-blocking, the reconciled case)', () => {
