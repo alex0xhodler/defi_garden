@@ -42,3 +42,10 @@ Provenance: <the LOG/spec entry this was distilled from>
 - `mode-enumeration-staleness.md` — an element is dead/duplicated on ONE route because a mode-conditional rule enumerates only the modes that existed when it was written (item 179)
 - `third-party-render-dependency.md` — a user-facing element is conditionally rendered on data from a host we don't control, and the fetch is documented as allowed to fail (item 182); extended with the CSS-`@import` variant, where the dependency is inside a stylesheet and a blocked font CDN suppresses the `<link>` load event that applies the whole design system (item 187)
 - `detector-signal-coverage.md` — a checker was green while a real bug shipped on a surface it covers; also the inverse, where a repair upstream blinds the detector without touching it (items 169/175/183)
+- `dead-generated-link-repair.md` — a link on a generated surface (`tokens/`, `chains/`, `llms*.txt`, `sitemap-*.xml`) is routed but resolves to nothing: under-floor vs retarget vs omit vs threshold-ladder (items 173/175/180/181); extended with the case a pool-counting simulator cannot see — a URL *shape* the app has no branch to render, plus the rule that every simulator must learn a param value's semantics before you start emitting it (item 188)
+
+<!-- Index gap, noted not fixed (item 188, 2026-07-31): 18 playbook files exist, 12 are listed here.
+     Unindexed: ci-signal-honesty, derived-number-rails, dual-source-logic-divergence,
+     seo-surface-regen-delta, stated-threshold-copy, plus this README itself. Out of scope for 188 —
+     a candidate ticket for the next heartbeat. -->
+

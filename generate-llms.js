@@ -694,30 +694,46 @@ function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult
   lines.push(...buildPlannerSection(meta, plannerRateResult, { full: true }));
   lines.push('');
 
-  // All token pages
-  lines.push('## Token Pages');
-  lines.push('TL;DR: Individual token yield analysis and opportunities.');
-  categories.tokens.forEach(url => lines.push(`- ${url}`));
-  lines.push('');
-  
+  // All token pages. item 188 Leg B: guarded the same way ## Other Pages
+  // already was — a heading + TL;DR promising content above zero links is
+  // the same false claim class as an empty-grid link (174/159's rule
+  // applied to a SECTION rather than a single line). Required for Leg A's
+  // own correctness: once Leg A gates the filter-URL list, categories.highValue
+  // can legitimately empty out (it does, today — every filter URL now
+  // carries `chain=All` and lands in categories.chains instead), and
+  // ## Pool Type Pages was ALREADY empty before this item (no `?poolTypes=`
+  // URL exists anywhere in the sitemap) — this guard fixes both.
+  if (categories.tokens.length > 0) {
+    lines.push('## Token Pages');
+    lines.push('TL;DR: Individual token yield analysis and opportunities.');
+    categories.tokens.forEach(url => lines.push(`- ${url}`));
+    lines.push('');
+  }
+
   // All chain pages
-  lines.push('## Chain Pages'); 
-  lines.push('TL;DR: Blockchain-specific yield markets and protocols.');
-  categories.chains.forEach(url => lines.push(`- ${url}`));
-  lines.push('');
-  
+  if (categories.chains.length > 0) {
+    lines.push('## Chain Pages');
+    lines.push('TL;DR: Blockchain-specific yield markets and protocols.');
+    categories.chains.forEach(url => lines.push(`- ${url}`));
+    lines.push('');
+  }
+
   // Pool type pages
-  lines.push('## Pool Type Pages');
-  lines.push('TL;DR: Strategy-based categorization (lending, staking, liquidity provision).');
-  categories.poolTypes.forEach(url => lines.push(`- ${url}`));
-  lines.push('');
-  
+  if (categories.poolTypes.length > 0) {
+    lines.push('## Pool Type Pages');
+    lines.push('TL;DR: Strategy-based categorization (lending, staking, liquidity provision).');
+    categories.poolTypes.forEach(url => lines.push(`- ${url}`));
+    lines.push('');
+  }
+
   // High-value filter pages
-  lines.push('## High-Value Filter Pages');
-  lines.push('TL;DR: Filtered views for minimum TVL and APY thresholds.');
-  categories.highValue.forEach(url => lines.push(`- ${url}`));
-  lines.push('');
-  
+  if (categories.highValue.length > 0) {
+    lines.push('## High-Value Filter Pages');
+    lines.push('TL;DR: Filtered views for minimum TVL and APY thresholds.');
+    categories.highValue.forEach(url => lines.push(`- ${url}`));
+    lines.push('');
+  }
+
   // Other pages
   if (categories.other.length > 0) {
     lines.push('## Other Pages');
@@ -820,7 +836,10 @@ const STRUCTURAL_TRIPWIRE_FRACTION = 0.4;
  *     literal). Qualification is `(tvlUsd||0) >= floor && (tvlUsd||0) > 0`
  *     (test_seo_cta_targets.js:117 is the reviewed reference, 175 T6).
  *   - token -> case-insensitive substring on `symbol` (app.js:835).
- *   - chain -> exact `chain` equality.
+ *   - chain -> exact `chain` equality, EXCEPT the literal value 'All', which
+ *     is a wildcard matching every pool (item 188 Leg C, mirrors app.js:1837/
+ *     1843's `chainMatch = selectedChain === 'All' || ...`) — no pool's
+ *     `chain` field is ever the string 'All'.
  *   - protocols -> exact `project` equality.
  *   - poolTypes -> comma-split membership against `getPoolType(pool)`,
  *     lazily required from generate-sitemap.js in a try/catch (the one
@@ -874,7 +893,17 @@ function gridLinkPoolCount(url, pools, opts = {}) {
     const tvl = Number(p.tvlUsd) || 0;
     if (!(tvl >= minTvl && tvl > 0)) continue;
     if (token && !String(p.symbol || '').toUpperCase().includes(token.toUpperCase())) continue;
-    if (chain && p.chain !== chain) continue;
+    // item 188 Leg C: 'All' is a wildcard, not a literal chain name — no pool
+    // has chain === 'All', so without this the app's own token-less browse
+    // mode (`?chain=All`, app.js:1837/1843's `chainMatch = selectedChain ===
+    // 'All' || ...`) would simulate to zero pools here and every such link
+    // would be mis-classified dead. 'Popular' (app.js:1838's 15-chain list)
+    // is the sibling wildcard but is NOT handled here — no `?chain=Popular`
+    // link exists on any generated surface today (grep-confirmed empty), so
+    // adding that list would be an untested, unused duplication; a future
+    // `?chain=Popular` link would still be mis-flagged dead until someone
+    // does the same fix (specs/188-notes.md records this as a known gap).
+    if (chain && chain !== 'All' && p.chain !== chain) continue;
     if (protocolsVal && p.project !== protocolsVal) continue;
     if (wantedPoolTypes.length && getPoolTypeFn && !wantedPoolTypes.includes(getPoolTypeFn(p))) continue;
     if (minApy !== null && !(apyOf(p) >= minApy)) continue;
