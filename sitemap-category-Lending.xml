@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending" />
+    <lastmod>2026-07-29T05:21:35.056Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=WSTETH&amp;poolTypes=Lending</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTETH&amp;poolTypes=Lending" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTETH&amp;poolTypes=Lending&amp;lang=ko" />
@@ -164,6 +173,15 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=STUSDS&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STUSDS&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STUSDS&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STUSDS&amp;poolTypes=Lending" />
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=Lending&amp;lang=ko" />
@@ -227,13 +245,22 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=SAVAX&amp;poolTypes=Lending</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAVAX&amp;poolTypes=Lending" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAVAX&amp;poolTypes=Lending&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAVAX&amp;poolTypes=Lending" />
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.84</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=USDT0&amp;poolTypes=Lending</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT0&amp;poolTypes=Lending" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT0&amp;poolTypes=Lending&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT0&amp;poolTypes=Lending" />
-    <lastmod>2026-07-27T19:08:09.313Z</lastmod>
+    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.84</priority>
+    <priority>0.83</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=KHYPE&amp;poolTypes=Lending</loc>
@@ -241,15 +268,6 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KHYPE&amp;poolTypes=Lending&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KHYPE&amp;poolTypes=Lending" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=Lending" />
-    <lastmod>2026-07-29T05:21:35.056Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
