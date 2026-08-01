@@ -258,6 +258,43 @@ surfaces and the two call sites had to ship together or the coverage would have 
 half-a-predicate failure mode as 198. Prove the new checks can go red by mutating them, per surface, before
 claiming the lens works.
 
+### The check exists, has a call site, and is still gated shut (added 2026-08-01, item 201)
+
+200's paired trap is "the driver has no check for the condition." 201 is the next costume down, and it
+survives 200's own remedy: the driver **does** have the check, the call site **is** there, and the check's
+body is fully generic — but the call site's own **trigger predicate excludes the value you are adding**.
+
+`checkResponsive` reads `s.width` for every comparison and every message, with no `360` literal in its body.
+All five of its call sites read `if (s.width <= 360)`. So a 768px surface would have rendered, reported
+clean, and been counted in `surfacesCovered` — with the width-specific check switched off. Green because
+nothing measured it: item 166's vacuous-green, arriving through the lens door.
+
+> **Before adding a lens value, grep the call sites of the condition's check for a predicate on that
+> condition, and evaluate the predicate at the new value.** `s.width <= 360` at width 768 is `false`. A
+> check whose body is width-generic tells you nothing about whether it will run.
+
+Two rules that fall out, both cheap:
+
+- **Ship the gate and the surfaces in one item.** Either alone is a no-op: widening the gate with no surface
+  between the old and new bound changes nothing, and the surface without the widened gate is decorative.
+  Say so in the spec so a reviewer can see the halves are load-bearing on each other.
+- **Prefer widening the existing predicate over adding an opt-in flag.** A `responsive: true` flag was
+  considered here and rejected: the gate is a predicate over the condition, the condition is the policy, and
+  a flag lets the next surface silently opt out of the check the lens exists to enable.
+
+**Non-vacuity for a lens is width-specific, not check-specific.** "The check has a red-proof" is not enough —
+198's precedent is that a predicate can pass its own test and still be off in production. Force the check to
+fire **on a surface at the new lens value** and confirm the emitted finding carries that value
+(`detail: ".landing-search-submit has zero-area box at 768px"`, `viewport: "768px"`). A red-proof at the old
+value proves only the old value.
+
+**Watch for a guardrail test that quotes the line you are changing.** A prior item's test may assert the call
+site as a **verbatim source literal** (`assertT(block.includes("if (s.width <= 360) await checkResponsive(…)"))`).
+Widening the gate makes that literal absent and the old test red — which is correct behaviour, not a
+conflict to route around. Move the literal with the line (one token), keep every other assertion in that file
+untouched, and **prove it is a co-move by removing the call site it guards and showing the assertion still
+goes red**. Without that proof, a literal update is indistinguishable from loosening a gate to fit a diff.
+
 ## Steps
 
 1. **List what the surface ASSERTS, not what it holds.** For each artifact, write one line per kind of claim
@@ -447,4 +484,4 @@ severity rule. Extended by item 184 (`specs/184.md`, `184-notes.md`, `184-pr.md`
 estate — live-population selection, the three run-states, the 100%-today branch condition for a fatal
 contract rule, and the "ship it green, prove it can go red" standard. Extended by item 197's build (`specs/197.md`, `197-notes.md`, `197-pr.md`): the three transplant traps —
 the classifier fallthrough, the sub-rule whose precondition fails (and stamping the omission into the output),
-and never funding a new population out of the incumbent's budget. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact. Extended by item 200 (`specs/200.md`, `200-notes.md`, `200-pr.md`): ask the lens question per surface KIND (one covered row makes the whole checker read as covered — `dark: true` existed on 2 of 4,257 lines, both pool-detail, while the entire landing→planner→bloom funnel had none), assert the matrix as a property rather than a name list, and the paired "a lens that cannot see" trap — a condition added to a driver that has no check for it is decorative coverage.
+and never funding a new population out of the incumbent's budget. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact. Extended by item 200 (`specs/200.md`, `200-notes.md`, `200-pr.md`): ask the lens question per surface KIND (one covered row makes the whole checker read as covered — `dark: true` existed on 2 of 4,257 lines, both pool-detail, while the entire landing→planner→bloom funnel had none), assert the matrix as a property rather than a name list, and the paired "a lens that cannot see" trap — a condition added to a driver that has no check for it is decorative coverage. Extended by item 201 (`specs/201.md`, `201-notes.md`, `201-pr.md`): the gated-shut variant — the check exists, has a call site and a generic body, but the call site's own trigger predicate excludes the lens value being added (`s.width <= 360` evaluated at 768); ship the gate and the surfaces as one item, widen the predicate rather than adding an opt-in flag, prove non-vacuity AT the new lens value, and treat a prior test's verbatim source literal as a co-move that must itself be red-proved.
