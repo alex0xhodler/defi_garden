@@ -307,31 +307,45 @@ own precedent of disclosing testing-harness slips rather than hiding them.)
 
 ## `git diff origin/main --stat`
 
+**Mid-build snapshot, superseded — kept for the record.** The block first
+written here read `4 files changed, 256 insertions(+), 3 deletions(-)`
+(`audit-app.js`, `package.json`, `BACKLOG.md`, `specs/200.md`). That was
+captured while `test_audit_funnel_lens.js` and this notes file were still
+untracked and before the operator added the remaining bookkeeping, so it
+under-reported the shipped diff. Flagged by the verifier as a stale snapshot
+rather than a concealment; re-captured below against the final commit so the
+notes and the commit agree.
+
+**Final, against the shipped commit:**
+
 ```
- audit-app.js                  |  33 ++++++-
- package.json                  |   2 +-
- product-loop-kit/BACKLOG.md   |   1 +
- product-loop-kit/specs/200.md | 223 ++++++++++++++++++++++++++++++++++++++++++
- 4 files changed, 256 insertions(+), 3 deletions(-)
+ audit-app.js                                       |  33 +-
+ package.json                                       |   2 +-
+ product-loop-kit/BACKLOG.md                        |   1 +
+ product-loop-kit/LOG.md                            |   2 +
+ .../playbooks/detector-signal-coverage.md          |  29 +-
+ product-loop-kit/specs/200-notes.md                | 382 +++++++++++++++++++++
+ product-loop-kit/specs/200-pr.md                   | 258 ++++++++++++++
+ product-loop-kit/specs/200.md                      | 223 ++++++++++++
+ test_audit_funnel_lens.js                          | 240 +++++++++++++
+ 9 files changed, 1166 insertions(+), 4 deletions(-)
 ```
-`product-loop-kit/BACKLOG.md`'s one-line addition (the item-200 row) and
-`product-loop-kit/specs/200.md` (the spec itself) were both already present
-in the working tree when this build session started — not authored here —
-and are exactly the "`product-loop-kit/` bookkeeping" criterion 6 names as
-allowed alongside `audit-app.js`/`package.json`/the new test file. This
-session's own working-tree changes were captured by an automatic local
-checkpoint commit (`4b0ef6f32`, "wip(200): ... local checkpoint, to be
-squashed") partway through — not a commit this build authored deliberately;
-per the operator's own git handling, left as-is. No `git push` was performed.
+
+Every path is one criterion 6 permits. The product legs are `audit-app.js`
+(33) and `package.json` (2, the `test:serial` string only — dependency blocks
+untouched); `test_audit_funnel_lens.js` is the new test; everything else is
+`product-loop-kit/` bookkeeping. `specs/200-pr.md`, the `LOG.md` entry, the
+`BACKLOG.md` status change and the `playbooks/detector-signal-coverage.md`
+compound-step edit were authored by the OPERATOR, not this build agent, and
+land in the same single commit per the 2026-07-13 docs-in-first-commit rule.
 
 ## `git status --porcelain`
 
-```
-?? test_audit_funnel_lens.js
-```
-Everything else (Leg A/B in `audit-app.js`, the `package.json` registration
-line, `product-loop-kit/specs/200-notes.md`) is captured in the tree as
-described above. `product-loop-kit/signals/` confirmed untouched throughout
+At build-agent handoff this read `?? test_audit_funnel_lens.js` (the new test
+file, then still untracked) — everything else was already captured in the
+tree. After the operator's single squashed commit it is **empty**.
+
+`product-loop-kit/signals/` confirmed untouched throughout
 (`git status --porcelain -- product-loop-kit/signals/` returns nothing) —
 every real `node audit-app.js` / `runAudit()` invocation in this session had
 `AUDIT_ROTATION_STATE`/`AUDIT_STATIC_ROTATION_STATE`/`AUDIT_OUT` redirected to
