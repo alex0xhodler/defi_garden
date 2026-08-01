@@ -91,12 +91,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/sui</loc>
+    <loc>https://www.defi.garden/chains/cronos</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/cronos</loc>
+    <loc>https://www.defi.garden/chains/sui</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -116,12 +116,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/linea</loc>
+    <loc>https://www.defi.garden/chains/bitcoin</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/bitcoin</loc>
+    <loc>https://www.defi.garden/chains/linea</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -261,12 +261,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/flow</loc>
+    <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/celo</loc>
+    <loc>https://www.defi.garden/chains/flow</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -331,12 +331,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/echelon-initia</loc>
+    <loc>https://www.defi.garden/chains/core</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/core</loc>
+    <loc>https://www.defi.garden/chains/echelon-initia</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -411,11 +411,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/igra</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/world-chain</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
@@ -432,6 +427,11 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/cronos-zkevm</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/igra</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
