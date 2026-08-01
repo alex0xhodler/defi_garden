@@ -348,9 +348,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSUSD" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSUSD&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSUSD" />
-    <lastmod>2026-08-01T15:58:35.696Z</lastmod>
+    <lastmod>2026-08-01T21:41:35.701Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.91</priority>
+    <priority>0.92</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=OETH</loc>
@@ -699,9 +699,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TETH" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TETH&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TETH" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-01T21:41:35.701Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.89</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=THBILL</loc>
