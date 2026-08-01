@@ -231,6 +231,33 @@ set and out of any skip-reconciliation array. Otherwise adding coverage silently
 number the throughput item was built to protect (192), and a skipped extra render can strip a member from
 `seen` that genuinely *was* audited.
 
+### Ask the lens question once per surface KIND, not once per checker (added 2026-08-01, item 200)
+
+199 asked "how many members are rendered under each condition?" and fixed the answer for **one** surface
+kind. The trap is that fixing it there makes the whole checker *read* as lens-covered. Item 200, one day
+later, on the same file: `grep -n "dark: true" audit-app.js` → **2 hits in 4,257 lines, both pool-detail**.
+The entire `landing → planner → bloom` path — every surface between a visitor arriving and `plan_created` —
+had **zero** dark renders, and the `landing` surface had exactly one audited entry in total (1280px/light/EN:
+no 360px, no dark, no KO). This is 197's tell in a different costume: *"the three `-ko` surfaces that do
+appear are app routes via `?lang=ko` — which is exactly why the gap read as covered for 13 items."*
+
+> **Build the matrix, don't spot-check it. Rows = every surface kind the checker drives; columns = every
+> rendering condition its checks are written for. Fill in the count per cell. Empty cells are the finding —
+> and one full row does not speak for the others.**
+
+**Assert the matrix as a property, not the names as a list.** 200's test asserts *"every funnel kind has ≥1
+dark surface, and the landing kind has a 360px, a dark AND a ko surface"* against the parsed surface array,
+rather than asserting five hardcoded names exist. A name list goes green forever the day it is written; a
+property re-fails the moment a future edit reopens the hole.
+
+**The paired trap: a lens that cannot see.** Adding a condition to a surface whose driver has no check for
+that condition buys nothing — it renders and asserts the same things it already did. Before adding a lens,
+read the driver for that kind and confirm the condition-specific checks exist there. 200's landing driver had
+neither `checkResponsive()` nor the Hangul check (both present in the planner and bloom drivers), so the
+surfaces and the two call sites had to ship together or the coverage would have been decorative — the same
+half-a-predicate failure mode as 198. Prove the new checks can go red by mutating them, per surface, before
+claiming the lens works.
+
 ## Steps
 
 1. **List what the surface ASSERTS, not what it holds.** For each artifact, write one line per kind of claim
@@ -420,4 +447,4 @@ severity rule. Extended by item 184 (`specs/184.md`, `184-notes.md`, `184-pr.md`
 estate — live-population selection, the three run-states, the 100%-today branch condition for a fatal
 contract rule, and the "ship it green, prove it can go red" standard. Extended by item 197's build (`specs/197.md`, `197-notes.md`, `197-pr.md`): the three transplant traps —
 the classifier fallthrough, the sub-rule whose precondition fails (and stamping the omission into the output),
-and never funding a new population out of the incumbent's budget. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact.
+and never funding a new population out of the incumbent's budget. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact. Extended by item 200 (`specs/200.md`, `200-notes.md`, `200-pr.md`): ask the lens question per surface KIND (one covered row makes the whole checker read as covered — `dark: true` existed on 2 of 4,257 lines, both pool-detail, while the entire landing→planner→bloom funnel had none), assert the matrix as a property rather than a name list, and the paired "a lens that cannot see" trap — a condition added to a driver that has no check for it is decorative coverage.
