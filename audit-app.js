@@ -3343,7 +3343,7 @@ async function main(browser, baseUrl, s, ctx) {
           'valid grid query rendered no .pool-card within 10s'));
       }
       await auditText(page, s, findings);
-      if (s.width <= 360) await checkResponsive(page, s, findings, '.pool-card');
+      if (s.width <= 768) await checkResponsive(page, s, findings, '.pool-card');
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
       return findings;
@@ -3374,8 +3374,9 @@ async function main(browser, baseUrl, s, ctx) {
         if (!hasHangul) findings.push(finding(s.name, s.vpLabel, 'i18n', 'P2', 'KO surface rendered no Hangul text'));
       }
 
-      // responsive — backlog 200, 360 surface only, against the primary control.
-      if (s.width <= 360) await checkResponsive(page, s, findings, '.landing-search-submit');
+      // responsive — backlog 200, widened to <= 768 by backlog 201, against
+      // the primary control.
+      if (s.width <= 768) await checkResponsive(page, s, findings, '.landing-search-submit');
 
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
@@ -3428,8 +3429,9 @@ async function main(browser, baseUrl, s, ctx) {
         if (!hasHangul) findings.push(finding(s.name, s.vpLabel, 'i18n', 'P2', 'KO surface rendered no Hangul text'));
       }
 
-      // responsive — 360 surface only, against the same first-screen chip.
-      if (s.width <= 360) await checkResponsive(page, s, findings, '.gp-chip');
+      // responsive — 360 + 768 surfaces (widened by backlog 201), against the
+      // same first-screen chip.
+      if (s.width <= 768) await checkResponsive(page, s, findings, '.gp-chip');
 
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
@@ -3473,8 +3475,9 @@ async function main(browser, baseUrl, s, ctx) {
         if (!hasHangul) findings.push(finding(s.name, s.vpLabel, 'i18n', 'P2', 'KO surface rendered no Hangul text'));
       }
 
-      // responsive — 360 surface only, against the same primary control.
-      if (s.width <= 360) await checkResponsive(page, s, findings, '.gp-checkout-cta');
+      // responsive — 360 + 768 surfaces (widened by backlog 201), against the
+      // same primary control.
+      if (s.width <= 768) await checkResponsive(page, s, findings, '.gp-checkout-cta');
 
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
@@ -3619,7 +3622,7 @@ async function main(browser, baseUrl, s, ctx) {
     }
 
     // Check 7 — responsive / dark clip.
-    if (s.width <= 360) await checkResponsive(page, s, findings, '.cta-button-primary');
+    if (s.width <= 768) await checkResponsive(page, s, findings, '.cta-button-primary');
 
     if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
     await page.close();
@@ -3632,7 +3635,7 @@ async function main(browser, baseUrl, s, ctx) {
 }
 
 async function checkResponsive(page, s, findings, ctaSelector) {
-  // No horizontal body scroll at 360px.
+  // No horizontal body scroll at the surface's own width.
   const scrollW = await page.evaluate(() => document.body.scrollWidth);
   if (scrollW > s.width) {
     findings.push(finding(s.name, s.vpLabel, 'responsive', 'P2', `horizontal body scroll: scrollWidth ${scrollW} > ${s.width}`));
@@ -3819,7 +3822,24 @@ async function runAudit(opts = {}) {
     { name: 'landing-dark', url: '/', kind: 'landing', width: 1280, dark: true },
     { name: 'landing-ko', url: '/?lang=ko', kind: 'landing', width: 1280, ko: true },
     { name: 'planner-dark', url: '/plan.html', kind: 'planner', width: 1280, dark: true },
-    { name: 'plan-bloom-dark', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10', kind: 'bloom', width: 1280, dark: true }
+    { name: 'plan-bloom-dark', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10', kind: 'bloom', width: 1280, dark: true },
+    // backlog 201 — the third design-bar width (CLAUDE.md: "flawless at
+    // 360/768/1280px"), never rendered before this item, on the north-star +
+    // funnel surfaces (pool-detail/grid/landing/planner/bloom). Appended
+    // after plan-bloom-dark so no existing surfacesCovered entry moves or
+    // renames. URLs reused byte-for-byte from their existing sibling
+    // surfaces (164's "reused, not retyped" precedent) — pool-detail-768
+    // from pool-detail, grid-768 from grid-token/grid-360, plan-bloom-768
+    // from plan-bloom-growth. No dark/ko flag — this item is the width lens
+    // only; vpLabel already renders as "768px" via the existing width
+    // expression, needing no change. Ships together with leg A's ungating of
+    // checkResponsive's five call sites from the old 360px-only gate to
+    // <= 768 — leg B alone would be vacuous (see specs/201.md evidence 2).
+    { name: 'pool-detail-768', url: poolUrl, kind: 'pool', width: 768 },
+    { name: 'grid-768', url: '/home.html?token=USDC', kind: 'grid', width: 768 },
+    { name: 'landing-768', url: '/', kind: 'landing', width: 768 },
+    { name: 'planner-768', url: '/plan.html', kind: 'planner', width: 768 },
+    { name: 'plan-bloom-768', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10', kind: 'bloom', width: 768 }
   ];
 
   // backlog 167 — promoted/rotated pool-detail surfaces, spliced in right

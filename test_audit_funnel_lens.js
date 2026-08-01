@@ -171,7 +171,7 @@ test("the landing driver (kind === 'landing') captures auditText's return value 
 
   assertT(landingBlock.includes('const text = await auditText(page, s, findings);'),
     `landing driver must capture auditText's return value (today's KO check needs it) — got block:\n${landingBlock}`);
-  assertT(landingBlock.includes("if (s.width <= 360) await checkResponsive(page, s, findings, '.landing-search-submit');"),
+  assertT(landingBlock.includes("if (s.width <= 768) await checkResponsive(page, s, findings, '.landing-search-submit');"),
     `landing driver missing the 360px responsive check against .landing-search-submit — got block:\n${landingBlock}`);
   assertT(landingBlock.includes('if (s.ko)') && landingBlock.includes('/[가-힣]/.test(text)') && landingBlock.includes("'i18n', 'P2', 'KO surface rendered no Hangul text'"),
     `landing driver missing the KO Hangul i18n check (same shape as the planner/bloom drivers) — got block:\n${landingBlock}`);
