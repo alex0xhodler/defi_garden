@@ -81,6 +81,53 @@ function getPoolTypeShared(pool) {
   return 'Yield Farming';
 }
 
+// Classify an underlying-token string for the "Underlying Assets" chip row
+// (item 195, root-caused by 193's scanner work — specs/193-notes.md residual
+// (b)). blockscan.com resolves EVM addresses only; pointing a Solana mint,
+// Tron address or any other non-EVM id at it is a link to a 404, which is
+// worse than rendering no link at all. This classifier is the single place
+// that decides chip-vs-plain-span AND which explorer (if any) a chip may
+// link to, so that guarantee only has to be reasoned about once. Rules are
+// evaluated in order; the first match wins. Pure — no DOM, no React.
+function classifyUnderlyingToken(token, chain) {
+  if (typeof token !== 'string') return { chip: false };
+  const trimmed = token.trim();
+
+  // 1. Chain-prefixed EVM, e.g. "ethereum:0xdac1...1ec7" (Base/Plasma pools).
+  const prefixedMatch = trimmed.match(/^[a-z0-9-]+:(0x[0-9a-fA-F]{40,})$/);
+  if (prefixedMatch) {
+    const address = prefixedMatch[1];
+    return { chip: true, address, href: `https://blockscan.com/address/${address}` };
+  }
+
+  // 2. Bare EVM address (existing behavior, unchanged).
+  if (trimmed.startsWith('0x') && trimmed.length >= 40) {
+    return { chip: true, address: trimmed, href: `https://blockscan.com/address/${trimmed}` };
+  }
+
+  // 3. Solana base58 mint.
+  if (chain === 'Solana' && /^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(trimmed)) {
+    return { chip: true, address: trimmed, href: `https://solscan.io/token/${trimmed}` };
+  }
+
+  // 4. Tron base58 token address ("T" + 33 chars).
+  if (chain === 'Tron' && /^T[1-9A-HJ-NP-Za-km-z]{33}$/.test(trimmed)) {
+    return { chip: true, address: trimmed, href: `https://tronscan.org/#/token20/${trimmed}` };
+  }
+
+  // 5. Generic opaque id (Stellar Soroban contract ids, Stacks principals,
+  // and any other chain we don't have an explorer map for yet). Long enough
+  // to be an address, not a human-readable slug — chip it for the truncation
+  // treatment, but never link it: we don't know where it resolves.
+  if (trimmed.length >= 32 && !/\s/.test(trimmed)) {
+    return { chip: true, address: trimmed, href: null };
+  }
+
+  // 6. Anything else (e.g. "coingecko:openeden-tbill") — a short readable
+  // slug, not an address. Left as plain, untouched, full text.
+  return { chip: false };
+}
+
 function PoolDetail({
   pool,
   onBack,
@@ -1609,39 +1656,64 @@ function PoolDetail({
             }
           },
             pool.underlyingTokens.map((token, idx) => {
-              const isAddress = typeof token === 'string' && token.startsWith('0x') && token.length >= 40;
+              const classified = classifyUnderlyingToken(token, pool.chain);
 
-              if (isAddress) {
-                // Derive display symbol from pool.symbol split on '-' or '/'
+              if (classified.chip) {
+                // Shared chip style (spec 195 §2) — identical box for both the
+                // linked <a> and unlinked <span> variants; only `color` and
+                // element type differ below. Zero new CSS, zero new tokens.
+                const chipStyle = {
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  padding: '6px 10px',
+                  background: 'var(--color-background)',
+                  borderRadius: 'var(--neuro-radius-sm)',
+                  fontSize: 'var(--font-size-xs)',
+                  fontWeight: 'var(--font-weight-medium)',
+                  boxShadow: 'var(--neuro-shadow-subtle)',
+                  fontFamily: 'monospace'
+                };
+                const address = classified.address;
+
+                // Derive display symbol from pool.symbol split on '-' or '/'.
+                // addressCount now counts every chip-classified token (not
+                // just EVM), so this stays a no-op for EVM-only pools (the
+                // count is identical to the old EVM-only filter there).
                 const symbolParts = pool.symbol ? pool.symbol.split(/[-\/]/).map(s => s.trim()) : [];
-                const addressCount = pool.underlyingTokens.filter(t => typeof t === 'string' && t.startsWith('0x') && t.length >= 40).length;
-                const displayLabel = (symbolParts.length === addressCount && symbolParts[idx])
-                  ? symbolParts[idx] + ' ↗'
-                  : `${token.slice(0, 6)}...${token.slice(-4)} ↗`;
+                const addressCount = pool.underlyingTokens.filter(t => classifyUnderlyingToken(t, pool.chain).chip).length;
+                const truncated = `${address.slice(0, 6)}...${address.slice(-4)}`;
+                const displayText = (symbolParts.length === addressCount && symbolParts[idx])
+                  ? symbolParts[idx]
+                  : truncated;
 
-                return React.createElement('a', {
+                if (classified.href) {
+                  return React.createElement('a', {
+                    key: idx,
+                    href: classified.href,
+                    target: '_blank',
+                    rel: 'noopener noreferrer',
+                    title: token,
+                    style: Object.assign({}, chipStyle, {
+                      color: 'var(--color-primary)',
+                      textDecoration: 'none',
+                      transition: 'all 0.2s ease'
+                    })
+                  }, displayText + ' ↗');
+                }
+
+                // Rule 5 (opaque non-EVM id, e.g. Stellar/Stacks): chip for
+                // the truncation treatment, but never a link — we don't know
+                // which explorer (if any) resolves it, and blockscan.com is
+                // EVM-only, so a guessed link is a guaranteed 404.
+                return React.createElement('span', {
                   key: idx,
-                  href: `https://blockscan.com/address/${token}`,
-                  target: '_blank',
-                  rel: 'noopener noreferrer',
                   title: token,
-                  style: {
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    padding: '6px 10px',
-                    background: 'var(--color-background)',
-                    color: 'var(--color-primary)',
-                    borderRadius: 'var(--neuro-radius-sm)',
-                    fontSize: 'var(--font-size-xs)',
-                    fontWeight: 'var(--font-weight-medium)',
-                    boxShadow: 'var(--neuro-shadow-subtle)',
-                    textDecoration: 'none',
-                    transition: 'all 0.2s ease',
-                    fontFamily: 'monospace'
-                  }
-                }, displayLabel);
+                  style: Object.assign({}, chipStyle, { color: 'var(--color-text)' })
+                }, displayText);
               }
 
+              // Rule 6: not address-shaped (e.g. "coingecko:openeden-tbill")
+              // — a short readable slug, not an address. Unchanged plain span.
               return React.createElement('span', {
                 key: idx,
                 style: {
