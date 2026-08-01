@@ -297,6 +297,28 @@ const DEFAULT_POOL_SAMPLE = 32;     // rotation sample size
 const MAX_POOL_SAMPLE = 64;         // ceiling on AUDIT_POOL_SAMPLE
 const POOL_ID_PREFIX_LEN = 8;       // `pool-detail:<prefix>` surface naming
 
+// backlog 199 — the lens dimension. 183/191/192/196 fixed WHICH pool-details
+// get audited and HOW MANY; the responsive (360px)/dark/KO checks still only
+// ever saw the single hardcoded PREFERRED_POOL_ID anchor, because the four
+// named anchor surfaces (pool-detail-360/-dark/-ko) are the only place those
+// three flags were ever set. This gives a bounded subset of the SAME
+// rotation picks (never promotedIds, never the anchor — both already
+// four/one-lens covered) one extra render each, one lens each, cycling.
+// Fixed order — LENSES[(i + tickOffset) % LENSES.length] both picks the lens
+// for position i AND makes "@360px"/"@dark"/"@ko" the exact surface-name
+// suffix (see the loop in buildPoolSurfaces() below).
+const LENSES = ['360px', 'dark', 'ko'];
+// 6 lens surfaces/tick, same convention as every other budget knob in this
+// file (DEFAULT_*/MAX_* pair, env override, opts override, clamped). Sized
+// against 192's own measurement (specs/192-notes.md: ~0.19s marginal per
+// rendered pool-detail, 116s/300s observed on this machine class): 6 x
+// ~0.19s =~ 1.2s marginal wall-clock on top of a 116s run — a small, bounded
+// slice of the ~184s of remaining headroom under FOREGROUND_CAP_MS, not a
+// second attempt at raising DEFAULT_POOL_SAMPLE (192 set that deliberately;
+// spec 199's own "out of scope").
+const DEFAULT_POOL_LENS_SAMPLE = 6;   // lens surfaces per tick
+const MAX_POOL_LENS_SAMPLE     = 24;  // ceiling on AUDIT_POOL_LENS_SAMPLE
+
 // signal -> severity, single source of truth (same role as PRESCAN_SIGNALS /
 // TEXT_SURFACE_SIGNALS) for both prescanPools()'s suspect records and the
 // aggregate `pool-prescan:<signal>` findings.
@@ -2443,7 +2465,10 @@ function emptyPoolRotationResult() {
   // dividing by a hardcoded zero. renderedCount/truncated (backlog 192) stay
   // 0/false for the same reason — nothing was ever picked, so nothing could
   // have been skipped either.
-  return { cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false, sampleSize: 0, renderedCount: 0, truncated: false, timeBudgetMs: 0 };
+  // backlog 199 — lensSampleSize/lensRendered/lensSkipped/lenses stay 0/{}
+  // for the same reason renderedCount/truncated do: no rotation ever ran, so
+  // no lens surface was ever built either.
+  return { cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false, sampleSize: 0, renderedCount: 0, truncated: false, timeBudgetMs: 0, lensSampleSize: 0, lensRendered: 0, lensSkipped: 0, lenses: {} };
 }
 
 // Builds the pool-detail promotion/rotation additions (spec 167 §2) and
@@ -2640,6 +2665,50 @@ function buildPoolSurfaces(opts = {}) {
     extraSurfaces.push({ name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280, poolId: id, rotationPick: true });
   }
 
+  // ---- Lens surfaces (backlog 199) — built ONLY from `rotationPicks` above
+  // (never `promotedIds`, never the anchor — spec 199 §1), for the FIRST
+  // `lensSampleSize` picks, one lens each. Deliberately a SEPARATE marker
+  // (`lensPick: true`, never `rotationPick`): a lens surface is a SECOND
+  // render of a pool `renderedRotationCount` already counted once, and
+  // carrying `rotationPick` here would double it, inflating the throughput
+  // line 192 exists to keep honest (spec 199 §4). Same falsy-zero-safe env
+  // pattern as every other sample-size knob in this file (`sampleSize`
+  // above): `opts.poolLensSample: 0` is JS-falsy and falls through to the
+  // default, but `AUDIT_POOL_LENS_SAMPLE=0` (a truthy string) makes it
+  // through `Number()` to a real zero, disabling the leg entirely.
+  const lensSampleRaw = Math.min(MAX_POOL_LENS_SAMPLE,
+    Math.max(0, Number(opts.poolLensSample || process.env.AUDIT_POOL_LENS_SAMPLE || DEFAULT_POOL_LENS_SAMPLE)));
+  // Never more lens surfaces than pools actually picked this tick (spec 199 §3).
+  const lensSampleSize = Math.min(lensSampleRaw, rotationPicks.length);
+  // Reuses the SAME seed the rotation above just used, namespaced (mirrors
+  // `${seed}:pools` / `${seed}:poolprescan` / `${seed}:fill`) so this hash
+  // never collides with theirs. Picks WHICH lens starts at position 0 —
+  // deterministic for a given seed (test_audit_app.js's determinism
+  // contract), but different across seeds (a different UTC day by default),
+  // so re-picked pools accumulate different lenses over cycles instead of
+  // always landing on the same one (spec 199 §2).
+  const tickOffset = hashSeed(`${seed}:poollens`) % LENSES.length;
+  const LENS_SHAPE = {
+    '360px': { width: 360 },
+    dark: { width: 1280, dark: true },
+    ko: { width: 1280, ko: true }
+  };
+  const lensAssignments = {}; // {poolIdPrefix: lens} — reported on poolRotation.lenses below
+  for (let i = 0; i < lensSampleSize; i++) {
+    const id = rotationPicks[i];
+    const lens = LENSES[(i + tickOffset) % LENSES.length];
+    const prefix = poolIdPrefix(id);
+    lensAssignments[prefix] = lens;
+    const baseUrl = `/home.html?pool=${encodeURIComponent(id)}`;
+    // The `@ko` variant appends `&lang=ko`, mirroring the anchor's own
+    // pool-detail-ko surface above (spec 199 §1).
+    extraSurfaces.push(Object.assign({
+      name: `pool-detail:${prefix}@${lens}`,
+      url: lens === 'ko' ? `${baseUrl}&lang=ko` : baseUrl,
+      kind: 'pool', poolId: id, lensPick: true
+    }, LENS_SHAPE[lens]));
+  }
+
   // Every pool id that got a pool-detail surface THIS run — anchor,
   // prescan-promoted, AND rotation-picked — is recorded into `seen` (spec
   // 183 §2), regardless of which of the three reasons put it on the page.
@@ -2667,7 +2736,17 @@ function buildPoolSurfaces(opts = {}) {
     // buildPoolSurfaces()'s own return; they exist here only so the shape is
     // always complete (same convention as emptyPoolRotationResult()).
     renderedCount: rotationPicks.length,
-    truncated: false
+    truncated: false,
+    // backlog 199 — additive fields only; every field above keeps its exact
+    // pre-197 meaning (spec 199 §5). Same OPTIMISTIC-placeholder convention
+    // as renderedCount/truncated just above: this function does no
+    // rendering, so `lensRendered` starts equal to `lensSampleSize` and
+    // `lensSkipped` starts at 0; runAudit() overwrites both after the render
+    // loop with what the wall-clock guard actually let through.
+    lensSampleSize,
+    lensRendered: lensSampleSize,
+    lensSkipped: 0,
+    lenses: lensAssignments
   };
 
   // backlog 192 — `baseSeen` (declared above, feeding `newSeen`) is also
@@ -3624,18 +3703,29 @@ async function runAudit(opts = {}) {
   // (set exclusively in buildPoolSurfaces() for the seeded-rotation picks,
   // never for the anchor, prescan-promoted, static/text/i18n, or any other
   // named surface) are ever eligible to be skipped here.
+  // backlog 199 — the guard's eligibility is extended to `s.lensPick` too
+  // (spec 199 §4: "a slow run sheds lens renders as well"), but lens skips
+  // are counted in a SEPARATE counter (`skippedLensCount`), never pushed into
+  // `skippedRotationIds` — that array feeds the `seen` reconciliation below,
+  // and a lens skip must never strip a pool from `seen`: the pool WAS
+  // rendered at 1280px (its own `rotationPick` surface, earlier in this same
+  // list), only its extra lens render was shed.
   let rotationGuardTripped = false;
   const skippedRotationIds = [];
   let renderedRotationCount = 0;
+  let renderedLensCount = 0;
+  let skippedLensCount = 0;
   try {
     for (const s of surfaces) {
-      if (s.rotationPick) {
+      if (s.rotationPick || s.lensPick) {
         if (!rotationGuardTripped && (Date.now() - runStartTime) > timeBudgetMs) rotationGuardTripped = true;
         if (rotationGuardTripped) {
-          skippedRotationIds.push(s.poolId);
+          if (s.rotationPick) skippedRotationIds.push(s.poolId);
+          else skippedLensCount++;
           continue; // never rendered: no surfacesCovered entry, no findings, no exception to the honesty rule
         }
-        renderedRotationCount++;
+        if (s.rotationPick) renderedRotationCount++;
+        else renderedLensCount++;
       }
       const f = await main(browser, baseUrl, s, ctx);
       surfacesCovered.push(s.name);
@@ -3679,7 +3769,13 @@ async function runAudit(opts = {}) {
     // The resolved (env/opts-overridden) budget THIS run actually guarded
     // against — carried into the artifact/console line so a reader never has
     // to re-read code to know what "TRUNCATED" was measured against.
-    timeBudgetMs
+    timeBudgetMs,
+    // backlog 199 — same honest-overwrite treatment as renderedCount/
+    // truncated just above, for the lens leg: `lensSampleSize`/`lenses` stay
+    // the build-time plan (what the seed chose), `lensRendered`/`lensSkipped`
+    // become the real read of what the guard actually let through.
+    lensRendered: renderedLensCount,
+    lensSkipped: skippedLensCount
   });
 
   // backlog 171 — reconcile each aggregate prescan finding against what its
@@ -3806,6 +3902,9 @@ module.exports = {
   // backlog 191 — exported so tests interpolate the real rotation-budget
   // constants (default + ceiling) instead of re-typing them (item-159 rule).
   DEFAULT_POOL_SAMPLE, MAX_POOL_SAMPLE,
+  // backlog 199 — same item-159 rule, for the lens leg's own budget knobs +
+  // fixed lens order.
+  LENSES, DEFAULT_POOL_LENS_SAMPLE, MAX_POOL_LENS_SAMPLE,
   // backlog 192 — exported for the same reason: a test proving the
   // wall-clock guard's DEFAULT is inert (or that a tiny override fires it)
   // must read these, never re-type 300000/180000/etc.
@@ -3880,6 +3979,24 @@ if (require.main === module) {
         ? `${renderedCount} pool-details/tick over ${candidateCount} rotation candidates -> full pass ~${Math.ceil(candidateCount / renderedCount)} ticks (~days)`
         : 'n/a (rotation disabled)';
       console.log(`[audit] rotation throughput (rotation-only, excludes anchor + prescan-promoted ids, uses RENDERED not picked count): ${throughput}`);
+      // backlog 199 — pool-lens summary line, same "reader's own eyes, not
+      // luck" convention as the two lines above. The by-lens counts come
+      // from `poolRotation.lenses` (the {poolIdPrefix: lens} map
+      // buildPoolSurfaces() emitted at build time — what was PLANNED);
+      // `lensRendered`/`lensSkipped` are the honestly-overwritten post-render
+      // read (what the wall-clock guard actually let through). Explicit
+      // "disabled" when the sample is 0 — never a silent absence (spec 199 §5).
+      const lenses = rot.lenses || {};
+      const lensSampleSize = rot.lensSampleSize || 0;
+      if (lensSampleSize > 0) {
+        const byLens = { '360px': 0, dark: 0, ko: 0 };
+        for (const lens of Object.values(lenses)) { if (byLens[lens] !== undefined) byLens[lens]++; }
+        const lensRendered = rot.lensRendered || 0;
+        const lensSkipped = rot.lensSkipped || 0;
+        console.log(`[audit] pool lenses: ${lensRendered} rendered (360px x${byLens['360px']}, dark x${byLens.dark}, ko x${byLens.ko}) over ${lensSampleSize} rotation picks, ${lensSkipped} skipped`);
+      } else {
+        console.log('[audit] pool lenses: disabled (AUDIT_POOL_LENS_SAMPLE=0 or no rotation picks)');
+      }
       // backlog 196 — one summary line mirroring "[audit] pool rotation:"
       // above, so a heartbeat reader can tell static-leg coverage progress
       // from luck without a code read, same as the pool leg already gives.

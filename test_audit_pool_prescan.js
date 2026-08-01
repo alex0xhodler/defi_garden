@@ -176,7 +176,13 @@ async function main() {
     const r = buildPoolSurfaces({ pools, poolSeed: 'audit-poolprescan-kill-seed', poolPrescan: false });
     assert(r.poolPrescan.promoted.length === 0, `expected zero promoted with poolPrescan:false, got ${JSON.stringify(r.poolPrescan.promoted)}`);
     assert(r.poolPrescanFindings.length === 0, `expected zero pool-prescan findings with poolPrescan:false, got ${JSON.stringify(r.poolPrescanFindings)}`);
-    assert(r.extraSurfaces.length === DEFAULT_POOL_SAMPLE, `rotation (DEFAULT_POOL_SAMPLE=${DEFAULT_POOL_SAMPLE}) must still fill its own budget when only promotion is killed; got ${r.extraSurfaces.length}: ${JSON.stringify(r.extraSurfaces.map((s) => s.name))}`);
+    // backlog 199: `extraSurfaces.length` alone stopped being a proxy for
+    // "rotation filled its own budget" the moment lens surfaces (marked
+    // `lensPick`, never `rotationPick`) started riding along in the same
+    // array — filter to `rotationPick` surfaces so this keeps measuring the
+    // guarantee it names, not an array length 199 legitimately grows.
+    const rotationOnlySurfaces = r.extraSurfaces.filter((s) => s.rotationPick);
+    assert(rotationOnlySurfaces.length === DEFAULT_POOL_SAMPLE, `rotation (DEFAULT_POOL_SAMPLE=${DEFAULT_POOL_SAMPLE}) must still fill its own budget when only promotion is killed; got ${rotationOnlySurfaces.length} rotationPick surfaces: ${JSON.stringify(rotationOnlySurfaces.map((s) => s.name))}`);
     // The breach pool must not sneak in via rotation either (it IS a real
     // suspect, prescan is just turned off — but sampleBySeed draws from ALL
     // non-anchor pools when prescan is off, so absence isn't guaranteed by
