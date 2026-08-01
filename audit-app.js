@@ -3359,13 +3359,23 @@ async function main(browser, baseUrl, s, ctx) {
         findings.push(finding(s.name, s.vpLabel, 'dead-end', 'P1',
           'landing did not render #landing-root content ([data-testid="landing-search"]) within 10s'));
       }
-      await auditText(page, s, findings);
+      const text = await auditText(page, s, findings);
 
       const searchCta = page.locator('.landing-search-submit').first();
       if ((await searchCta.count()) === 0 || !(await searchCta.isVisible())) {
         findings.push(finding(s.name, s.vpLabel, 'dead-cta', 'P1',
           'landing search submit (.landing-search-submit) missing or not visible'));
       }
+
+      // i18n — backlog 200, same "KO surface rendered no Hangul text" check
+      // the planner/bloom drivers already run, scoped to the -ko surface only.
+      if (s.ko) {
+        const hasHangul = /[가-힣]/.test(text);
+        if (!hasHangul) findings.push(finding(s.name, s.vpLabel, 'i18n', 'P2', 'KO surface rendered no Hangul text'));
+      }
+
+      // responsive — backlog 200, 360 surface only, against the primary control.
+      if (s.width <= 360) await checkResponsive(page, s, findings, '.landing-search-submit');
 
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
@@ -3790,7 +3800,26 @@ async function runAudit(opts = {}) {
     { name: 'plan-bloom-target', url: '/plan.html?goal=iphone&pace=stable&monthly=200', kind: 'bloom', width: 1280 },
     { name: 'plan-bloom-subscription', url: '/plan.html?goal=claude&pace=stable&monthly=50', kind: 'bloom', width: 1280 },
     { name: 'plan-bloom-360', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10', kind: 'bloom', width: 360 },
-    { name: 'plan-bloom-ko', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10&lang=ko', kind: 'bloom', width: 1280, ko: true }
+    { name: 'plan-bloom-ko', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10&lang=ko', kind: 'bloom', width: 1280, ko: true },
+    // backlog 200 — completes the lens matrix on the three funnel surfaces
+    // (landing/planner/bloom): dark mode had ZERO renders anywhere on
+    // landing/planner/bloom (only pool-detail-dark existed), and the landing
+    // page itself had never been rendered at 360px or in Korean at all.
+    // Appended after plan-bloom-ko so no existing surfacesCovered entry moves
+    // or renames. plan-bloom-dark reuses plan-bloom-growth's url byte-for-byte
+    // (164's own "reused, not retyped" precedent) — same archetype, new lens.
+    // Deliberately NO new budget knob: these are five FIXED surfaces, siblings
+    // of planner-360/plan-bloom-ko above, which have no knob either — knobs in
+    // this file (AUDIT_POOL_SAMPLE, AUDIT_STATIC_SAMPLE, AUDIT_POOL_LENS_SAMPLE)
+    // all govern SAMPLED populations where the count is a policy question; five
+    // fixed surfaces are not a population. opts.only/--only already gives a
+    // caller per-surface control, and the existing time-budget guard already
+    // sheds work on a slow run.
+    { name: 'landing-360', url: '/', kind: 'landing', width: 360 },
+    { name: 'landing-dark', url: '/', kind: 'landing', width: 1280, dark: true },
+    { name: 'landing-ko', url: '/?lang=ko', kind: 'landing', width: 1280, ko: true },
+    { name: 'planner-dark', url: '/plan.html', kind: 'planner', width: 1280, dark: true },
+    { name: 'plan-bloom-dark', url: '/plan.html?goal=retirement&pace=stable&monthly=500&years=10', kind: 'bloom', width: 1280, dark: true }
   ];
 
   // backlog 167 — promoted/rotated pool-detail surfaces, spliced in right
