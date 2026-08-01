@@ -75,6 +75,50 @@ Measured on real corpora before any code was written (the step 4 controls, done 
 That gap *is* the proof the signal is non-vacuous, and it took ~80 lines of throwaway `node` to get before
 committing to a design.
 
+## The second axis: coverage RATE, not signal set (added 2026-08-01, item 196)
+
+Everything above asks *which classes can this checker see*. There is an independent axis that produces the
+same "green checker, real bug" outcome: **what fraction of the population does the checker actually look at
+per tick, and does its selection remember what it already looked at?** A checker with a complete signal set
+and a 0.3%/tick memoryless sample finds defects by luck.
+
+Two questions, asked in this order, whenever a checker samples rather than sweeps:
+
+1. **Selection** — can this picker ever reach the whole population, or is it structurally pinned?
+   (`PREFERRED_POOL_ID` could reach exactly one pool; item 167 fixed that. A hand-picked anchor page could
+   reach one of 2,167; item 154 fixed that.)
+2. **Throughput** — given it *can* reach everything, how long is a full pass, and does the picker have
+   **memory**? A seeded pick with no persisted `seen` samples **with replacement across ticks**, so coverage
+   follows the coupon-collector curve, not a linear sweep. Item 191 asked this for pools; 196 for static
+   pages.
+
+**The transplant rule — this is the cheap, repeatable move.** When a mechanism gets built for one
+population, immediately list the *sibling* populations with the same shape and ask which of them never got
+it. The mechanism is already written, tested and exported; applying it elsewhere is a call, not a build.
+183 built persisted never-audited-first rotation for pool-detail. The static leg — older blind spot, 3×
+the population — kept sampling memorylessly for **13 more items**, and `specs/154-notes.md` had named the
+remedy as unbuilt the whole time.
+
+| item | population | selection fixed | throughput/memory fixed |
+|---|---|---|---|
+| 154 / 157 | 2,195 static SEO leaves | 154 (anchor → rotation), 157 (prescan promotion) | **196** |
+| 167 / 183 | ~737 snapshot pools | 167 (flagship → rotation), 183 (never-audited-first) | 191 → 192 (budget 2 → 32) |
+
+Measure it, do not estimate it: drive the real picker over N simulated ticks, threading its own state
+tick-to-tick, and count **distinct pages reached** and **re-renders**. Memoryless static sampling over
+180 days measured 276 of 360 chain renders (77%) spent re-reading an already-audited page.
+
+**Two traps specific to this axis:**
+
+- **A `seen` cap below the candidate population silently defeats the whole fix.** Drop-oldest eviction means
+  `unseen` never empties, the wrap branch becomes dead code, and evicted pages re-enter the pick pool — while
+  every run still looks normal. Reusing the pool leg's `ROTATION_SEEN_CAP = 2000` for a 2,109-page estate
+  would have done exactly this. Assert the cap against a **disk-read population count**, never a literal.
+- **Do not port the sibling's whole apparatus — port the part whose precondition holds.** 192's `baseSeen`
+  reconciliation exists only because pool renders can be *skipped* by a wall-clock guard; the static leg has
+  no such skip, so porting it would be cargo. Record the precondition in a comment so the omission is a
+  decision, not an oversight.
+
 ## Steps
 
 1. **List what the surface ASSERTS, not what it holds.** For each artifact, write one line per kind of claim

@@ -373,6 +373,24 @@ const DEFAULT_ROTATION_STATE_PATH = path.join(ROOT, 'product-loop-kit', 'signals
 // killing the wrap branch again.
 const ROTATION_SEEN_CAP = 2000;
 
+// backlog 196 — co-located with DEFAULT_ROTATION_STATE_PATH, same zero-extra-
+// deploy reasoning (spec 183 T5): the static leg's rotation state rides in
+// the same already-committed-daily signals/ directory.
+const DEFAULT_STATIC_ROTATION_STATE_PATH = path.join(ROOT, 'product-loop-kit', 'signals', 'audit-static-rotation.json');
+// backlog 196 — DELIBERATELY NOT reusing ROTATION_SEEN_CAP (2000). The static
+// leg's candidate population is the tokens/*.html leaf set — 2,109 pages on
+// this checkout (spec 196 evidence table), which is already LARGER than
+// 2000. A cap below the candidate population is exactly the trap
+// ROTATION_SEEN_CAP's own comment warns about: `unseen` could never reach
+// zero, computeRotation()'s wrap branch (and cycle ever incrementing) would
+// become permanently dead code, silently defeating this whole item before a
+// cycle ever completed. 6000 gives >=2x headroom over today's combined
+// ~2,197 tokens+chains leaves for estate growth, at the same negligible
+// per-id disk cost ROTATION_SEEN_CAP's own comment already measured.
+// test_audit_static_rotation.js asserts this invariant against the REAL
+// tokens/ + chains/ directories (fs.readdirSync), not a hardcoded literal.
+const STATIC_ROTATION_SEEN_CAP = 6000;
+
 // backlog 192 leg (b) — wall-clock guard default for the pool-detail
 // ROTATION leg (see buildPoolSurfaces()'s `rotationPick` marker and
 // runAudit()'s render loop). Derived from FOREGROUND_CAP_MS itself, never a
@@ -1841,14 +1859,20 @@ function emptyPrescanResult() {
 }
 
 // Builds the static-page surface list (spec 154 Design A + spec 157 prescan
-// promotion). `opts.staticPages` / `opts.staticSample` / `opts.staticSeed` /
-// `opts.prescan` / `opts.prescanMax` mirror the env vars, opts wins — the
-// same override convention as every other knob in this file (port,
-// snapshotPath, outPath). Returns `{ surfaces, prescan, prescanFindings,
-// prescanSuspects }` — `prescanSuspects` (added backlog 171) is the same
-// anchor-excluded suspect list the aggregate `prescanFindings` above were
-// counted from, exposed so runAudit() can reconcile each aggregate finding
-// against what its own promoted suspects actually rendered.
+// promotion + backlog 196 never-audited-first rotation). `opts.staticPages` /
+// `opts.staticSample` / `opts.staticSeed` / `opts.prescan` / `opts.prescanMax`
+// / `opts.staticRotationState` / `opts.staticRotationStatePath` mirror the
+// env vars, opts wins — the same override convention as every other knob in
+// this file (port, snapshotPath, outPath). Returns `{ surfaces, prescan,
+// prescanFindings, prescanSuspects, staticRotation, staticRotationState,
+// staticRotationStatePath }` — `prescanSuspects` (added backlog 171) is the
+// same anchor-excluded suspect list the aggregate `prescanFindings` above
+// were counted from, exposed so runAudit() can reconcile each aggregate
+// finding against what its own promoted suspects actually rendered.
+// `staticRotation`/`staticRotationState`/`staticRotationStatePath` (backlog
+// 196) mirror `poolRotation`/`rotationState`/`rotationStatePath` from
+// buildPoolSurfaces() below — extending this EXISTING return shape, never
+// reshaping it, since runAudit() and four tests destructure it.
 function buildStaticSurfaces(opts) {
   const overrideRaw = opts.staticPages || process.env.AUDIT_STATIC_PAGES;
   if (overrideRaw) {
@@ -1874,7 +1898,16 @@ function buildStaticSurfaces(opts) {
       if (!exists) console.error(`[audit] static-page override entry not found on disk, dropping: ${s.url}`);
       return exists;
     });
-    return { surfaces, prescan: emptyPrescanResult(), prescanFindings: [], prescanSuspects: [] };
+    // backlog 196 — override mode is used verbatim, exactly like the pool
+    // leg's AUDIT_POOL_IDS override: no rotation state is read or written in
+    // this mode. `staticRotation` still carries the same disabled/empty
+    // shape emptyPoolRotationResult() gives the pool leg, so a caller never
+    // has to null-check result.staticRotation.
+    return {
+      surfaces, prescan: emptyPrescanResult(), prescanFindings: [], prescanSuspects: [],
+      staticRotation: { tokens: emptyStaticRotationLegResult(), chains: emptyStaticRotationLegResult() },
+      staticRotationState: null, staticRotationStatePath: null
+    };
   }
 
   const surfaces = [];
@@ -1983,13 +2016,82 @@ function buildStaticSurfaces(opts) {
   const tokenLeaves = listLeafPages('tokens').filter((r) => r !== anchorLeafRel && !promotedSet.has(r));
   const chainLeaves = listLeafPages('chains').filter((r) => r !== anchorLeafRel && !promotedSet.has(r));
 
-  const tokenPicks = sampleBySeed(tokenLeaves, tokenCount, `${seed}:tokens`);
-  const chainPicks = sampleBySeed(chainLeaves, chainCount, `${seed}:chains`);
+  // ---- Never-audited-first rotation (backlog 196) --------------------------
+  // Reuses computeRotation() verbatim (backlog 183 leg (b)'s pool-detail
+  // machinery, unmodified) — called TWICE, once per leg, so the 2:1 token:
+  // chain budget split above stays two independently-sized picks (spec 196's
+  // rejected alternative: a single combined rotation starves chains ~96:4
+  // against 2,108 token candidates). Same seed namespacing convention as
+  // every other picker in this file (`${seed}:tokens` / `${seed}:chains` —
+  // already used above for the plain sampleBySeed calls this replaces), so
+  // this leg never picks in lockstep with the pool leg's `${seed}:pools`.
+  const staticRotationStatePath = opts.staticRotationStatePath || process.env.AUDIT_STATIC_ROTATION_STATE || DEFAULT_STATIC_ROTATION_STATE_PATH;
+  // opts.staticRotationState lets tests drive this as a pure function with no
+  // fs read at all — mirrors opts.rotationState for the pool leg exactly.
+  const priorStaticRotationState = opts.staticRotationState || readStaticRotationState(staticRotationStatePath);
+
+  const tokenRot = computeRotation(tokenLeaves, tokenCount, `${seed}:tokens`, priorStaticRotationState.tokens);
+  const chainRot = computeRotation(chainLeaves, chainCount, `${seed}:chains`, priorStaticRotationState.chains);
+  const tokenPicks = tokenRot.picked;
+  const chainPicks = chainRot.picked;
 
   for (const rel of tokenPicks.concat(chainPicks)) {
     surfaces.push({ name: `static-page:${slugFromRel(rel)}`, url: '/' + rel, kind: 'static', width: 1280 });
   }
-  return { surfaces, prescan, prescanFindings, prescanSuspects };
+
+  // Everything rendered THIS tick — the anchor leaf, every prescan-promoted
+  // leaf, and every rotation pick — is recorded into the appropriate leg's
+  // `seen` (spec 196 §4, mirrors buildPoolSurfaces()'s `thisRunPoolIds`
+  // rule): a page rendered for ANY reason has been audited, so it must not
+  // be re-picked by rotation until the cycle wraps. Anchor/promoted rels can
+  // land in either dir (prescanStaticPages() scans tokens/ and chains/
+  // together), so they're routed to their leg by path prefix; rotation picks
+  // are already leg-pure by construction.
+  const thisRunTokenRels = tokenPicks.slice();
+  const thisRunChainRels = chainPicks.slice();
+  const routeToLeg = (rel) => {
+    if (!rel) return;
+    if (rel.startsWith('chains/')) thisRunChainRels.push(rel);
+    else thisRunTokenRels.push(rel); // tokens/ (and the anchor's default 'tokens/usdc.html')
+  };
+  routeToLeg(anchorLeafRel);
+  for (const rel of promotedRels) routeToLeg(rel);
+
+  // backlog 196 — deliberately NOT porting 192's `baseSeen` reconciliation:
+  // that machinery exists only because the POOL leg's rotation picks can be
+  // SKIPPED under the AUDIT_TIME_BUDGET_MS wall-clock guard (an un-rendered
+  // pick must not be recorded as seen). The static leg has no such
+  // time-budget skip — `rotationPick`-gated skipping in runAudit()'s render
+  // loop applies to pool-detail surfaces only — so every pick computed here
+  // really does get rendered, and crediting it as seen at build time is
+  // already honest. If a time-budget guard is ever added to the static leg,
+  // this precondition stops holding and the reconciliation becomes required.
+  const tokenBaseSeen = tokenRot.wrapped ? [] : priorStaticRotationState.tokens.seen.slice();
+  let tokenNewSeen = tokenBaseSeen.concat(thisRunTokenRels.filter((r) => !tokenBaseSeen.includes(r)));
+  if (tokenNewSeen.length > STATIC_ROTATION_SEEN_CAP) tokenNewSeen = tokenNewSeen.slice(tokenNewSeen.length - STATIC_ROTATION_SEEN_CAP); // drop-oldest
+
+  const chainBaseSeen = chainRot.wrapped ? [] : priorStaticRotationState.chains.seen.slice();
+  let chainNewSeen = chainBaseSeen.concat(thisRunChainRels.filter((r) => !chainBaseSeen.includes(r)));
+  if (chainNewSeen.length > STATIC_ROTATION_SEEN_CAP) chainNewSeen = chainNewSeen.slice(chainNewSeen.length - STATIC_ROTATION_SEEN_CAP); // drop-oldest
+
+  const staticRotationState = {
+    schemaVersion: 1,
+    tokens: { cycle: tokenRot.cycle, seen: tokenNewSeen },
+    chains: { cycle: chainRot.cycle, seen: chainNewSeen }
+  };
+
+  const staticRotation = {
+    tokens: {
+      cycle: tokenRot.cycle, seenCount: tokenNewSeen.length, candidateCount: tokenLeaves.length,
+      picked: tokenPicks.slice(), wrapped: tokenRot.wrapped, sampleSize: tokenCount
+    },
+    chains: {
+      cycle: chainRot.cycle, seenCount: chainNewSeen.length, candidateCount: chainLeaves.length,
+      picked: chainPicks.slice(), wrapped: chainRot.wrapped, sampleSize: chainCount
+    }
+  };
+
+  return { surfaces, prescan, prescanFindings, prescanSuspects, staticRotation, staticRotationState, staticRotationStatePath };
 }
 
 // ---------------------------------------------------------------------------
@@ -2278,19 +2380,60 @@ function computeRotation(candidates, sampleSize, seed, state) {
   return { picked, wrapped, cycle: wrapped ? priorCycle + 1 : priorCycle };
 }
 
+// backlog 196 — the ONE place a raw `{cycle, seen}` rotation leg gets
+// validated/defaulted, shared by readRotationState() (pool leg, single leg
+// per file) and readStaticRotationState() (static leg, two legs — tokens/
+// chains — per file) below, so the two readers can never drift (spec 196 §3:
+// "factor, do not duplicate, the state normalization"). Degrades to a fresh
+// cycle-0/empty-seen leg on any malformed input (not an object, no `seen`
+// array, non-string entries) — never throws.
+function normalizeRotationLeg(leg) {
+  if (leg && typeof leg === 'object' && Array.isArray(leg.seen)) {
+    return { cycle: Number(leg.cycle) || 0, seen: leg.seen.filter((x) => typeof x === 'string') };
+  }
+  return { cycle: 0, seen: [] };
+}
+
 // Reads the committed rotation state (spec 183 §1 shape), defaulting to a
 // fresh cycle-0/empty-seen state on any read/parse failure (missing file on
 // a first run, corrupt file, wrong shape) — never throws, mirrors every
-// other prescan reader's degrade-to-empty convention.
+// other prescan reader's degrade-to-empty convention. External contract
+// (exported, used by tests) is unchanged by the backlog 196 refactor above —
+// same return shape, same degrade cases.
 function readRotationState(statePath) {
   try {
     const raw = fs.readFileSync(statePath, 'utf8');
     const parsed = JSON.parse(raw);
-    if (parsed && typeof parsed === 'object' && Array.isArray(parsed.seen)) {
-      return { schemaVersion: 1, cycle: Number(parsed.cycle) || 0, seen: parsed.seen.filter((x) => typeof x === 'string') };
-    }
+    const leg = normalizeRotationLeg(parsed);
+    return { schemaVersion: 1, cycle: leg.cycle, seen: leg.seen };
   } catch (e) { /* fall through to fresh state */ }
   return { schemaVersion: 1, cycle: 0, seen: [] };
+}
+
+// backlog 196 — static-leg counterpart, two independently-normalized legs
+// (`tokens`, `chains`) in one file, spec 196's documented shape:
+// `{ schemaVersion, tokens: {cycle, seen}, chains: {cycle, seen} }`. Degrades
+// EACH leg independently via normalizeRotationLeg() — a corrupt/missing
+// `chains` leg must not take down an otherwise-valid `tokens` leg, and vice
+// versa. Missing file, corrupt JSON, `{}`, `{tokens: 5}`, and
+// `{tokens: {seen: "nope"}}` all degrade to a fresh cycle-0/empty-seen state
+// for whichever leg(s) are malformed — never throws (spec 196 acceptance 8).
+function readStaticRotationState(statePath) {
+  try {
+    const raw = fs.readFileSync(statePath, 'utf8');
+    const parsed = JSON.parse(raw);
+    if (parsed && typeof parsed === 'object') {
+      return { schemaVersion: 1, tokens: normalizeRotationLeg(parsed.tokens), chains: normalizeRotationLeg(parsed.chains) };
+    }
+  } catch (e) { /* fall through to fresh state */ }
+  return { schemaVersion: 1, tokens: { cycle: 0, seen: [] }, chains: { cycle: 0, seen: [] } };
+}
+
+// Disabled/override-mode shape for ONE static-rotation leg — same role as
+// emptyPoolRotationResult() (backlog 191/192): lets callers destructure
+// `staticRotation.tokens`/`.chains` without ever null-checking.
+function emptyStaticRotationLegResult() {
+  return { cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false, sampleSize: 0 };
 }
 
 function emptyPoolRotationResult() {
@@ -3587,6 +3730,20 @@ async function runAudit(opts = {}) {
     }
   }
 
+  // backlog 196 — same gate, same write-only-if-changed rule, as the pool
+  // leg's persist block immediately above. `staticResult.staticRotationState`
+  // is `null` in override mode (AUDIT_STATIC_PAGES), so this is a no-op then,
+  // exactly like the pool leg's own override mode.
+  if (opts.persistRotationState && staticResult.staticRotationState && staticResult.staticRotationStatePath) {
+    const serializedStaticRotation = JSON.stringify(staticResult.staticRotationState, null, 2) + '\n';
+    let existingStaticRotation = null;
+    try { existingStaticRotation = fs.readFileSync(staticResult.staticRotationStatePath, 'utf8'); } catch (e) { /* first run */ }
+    if (existingStaticRotation !== serializedStaticRotation) {
+      fs.mkdirSync(path.dirname(staticResult.staticRotationStatePath), { recursive: true });
+      fs.writeFileSync(staticResult.staticRotationStatePath, serializedStaticRotation);
+    }
+  }
+
   const result = {
     generatedAt: new Date().toISOString(),
     status: 'OK',
@@ -3596,6 +3753,11 @@ async function runAudit(opts = {}) {
     prescan: staticResult.prescan,
     poolPrescan: poolResult.poolPrescan,
     poolRotation: poolResult.poolRotation,
+    // backlog 196 — reported next to poolRotation, same shape convention
+    // (each leg: {cycle, seenCount, candidateCount, picked, wrapped,
+    // sampleSize}), so the heartbeat can read static coverage position
+    // without re-deriving it.
+    staticRotation: staticResult.staticRotation,
     textSurfaces,
     i18n: i18nResult
   };
@@ -3647,7 +3809,13 @@ module.exports = {
   // backlog 192 — exported for the same reason: a test proving the
   // wall-clock guard's DEFAULT is inert (or that a tiny override fires it)
   // must read these, never re-type 300000/180000/etc.
-  FOREGROUND_CAP_MS, DEFAULT_TIME_BUDGET_MS
+  FOREGROUND_CAP_MS, DEFAULT_TIME_BUDGET_MS,
+  // backlog 196 — exported so test_audit_static_rotation.js can assert the
+  // cap-must-exceed-real-population invariant directly against the real
+  // tokens/ + chains/ leaf counts (mirrors ROTATION_SEEN_CAP's own export
+  // above), and drive the degrade-never-throws reader directly without a
+  // full buildStaticSurfaces()/runAudit() call.
+  STATIC_ROTATION_SEEN_CAP, readStaticRotationState
 };
 
 if (require.main === module) {
@@ -3712,6 +3880,13 @@ if (require.main === module) {
         ? `${renderedCount} pool-details/tick over ${candidateCount} rotation candidates -> full pass ~${Math.ceil(candidateCount / renderedCount)} ticks (~days)`
         : 'n/a (rotation disabled)';
       console.log(`[audit] rotation throughput (rotation-only, excludes anchor + prescan-promoted ids, uses RENDERED not picked count): ${throughput}`);
+      // backlog 196 — one summary line mirroring "[audit] pool rotation:"
+      // above, so a heartbeat reader can tell static-leg coverage progress
+      // from luck without a code read, same as the pool leg already gives.
+      const srot = result.staticRotation || {};
+      const st = srot.tokens || {};
+      const sc = srot.chains || {};
+      console.log(`[audit] static rotation: tokens cycle ${st.cycle}, seen ${st.seenCount}/${st.candidateCount} candidates, picked [${(st.picked || []).join(', ')}], wrapped=${!!st.wrapped} | chains cycle ${sc.cycle}, seen ${sc.seenCount}/${sc.candidateCount} candidates, picked [${(sc.picked || []).join(', ')}], wrapped=${!!sc.wrapped}`);
       process.exit(blocking.length > 0 ? 1 : 0);
     })
     .catch((err) => {
