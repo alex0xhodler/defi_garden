@@ -56,15 +56,6 @@
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=BEAT</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BEAT" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BEAT&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BEAT" />
-    <lastmod>2026-07-31T03:48:56.397Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.88</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=BSOL</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BSOL" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BSOL&amp;lang=ko" />
@@ -177,9 +168,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ECR" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ECR&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ECR" />
-    <lastmod>2026-08-01T08:31:40.452Z</lastmod>
+    <lastmod>2026-08-01T15:58:35.696Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.86</priority>
+    <priority>0.84</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=ETH</loc>
@@ -335,15 +326,6 @@
     <priority>0.92</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=LUNC</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LUNC" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LUNC&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LUNC" />
-    <lastmod>2026-07-31T06:38:35.747Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=MSETH</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSETH" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSETH&amp;lang=ko" />
@@ -366,9 +348,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSUSD" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSUSD&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSUSD" />
-    <lastmod>2026-07-31T21:50:48.653Z</lastmod>
+    <lastmod>2026-08-01T15:58:35.696Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.92</priority>
+    <priority>0.91</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=OETH</loc>
@@ -654,9 +636,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDAT" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDAT&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDAT" />
-    <lastmod>2026-07-30T16:15:57.322Z</lastmod>
+    <lastmod>2026-08-01T15:58:35.696Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.91</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SUSDE</loc>
@@ -708,9 +690,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TBTC" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TBTC&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TBTC" />
-    <lastmod>2026-08-01T08:31:40.452Z</lastmod>
+    <lastmod>2026-08-01T15:58:35.696Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.94</priority>
+    <priority>0.93</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TETH</loc>
@@ -825,9 +807,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT0" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT0&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT0" />
-    <lastmod>2026-08-01T08:31:40.452Z</lastmod>
+    <lastmod>2026-08-01T15:58:35.696Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.94</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=USDY</loc>

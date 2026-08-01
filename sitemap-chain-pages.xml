@@ -181,11 +181,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/bob</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/polkadot</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
@@ -231,12 +226,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/noble</loc>
+    <loc>https://www.defi.garden/chains/zigchain</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/zigchain</loc>
+    <loc>https://www.defi.garden/chains/noble</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -292,11 +287,6 @@
   </url>
   <url>
     <loc>https://www.defi.garden/chains/pharos</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/defichain</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
