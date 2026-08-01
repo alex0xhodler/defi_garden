@@ -44,8 +44,12 @@ const Analytics = {
     try {
       const params = new URLSearchParams(window.location.search || '');
       // Standard UTMs + the `ref` the spotlight links use (064) + common ad click ids
+      // + `src` (202) — the internal-link counterpart to `ref`: the tag the
+      // product's OWN acquisition links carry (seo_token/seo_chain on the static
+      // SEO estate, x_spotlight on spotlight packs, pool on the north-star CTA),
+      // as opposed to `ref`/click-ids which are third-party attribution.
       ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',
-        'ref', 'gclid', 'fbclid', 'twclid'].forEach((k) => {
+        'ref', 'gclid', 'fbclid', 'twclid', 'src'].forEach((k) => {
         const v = params.get(k);
         if (v) out[k] = String(v).substring(0, 200); // cap length (privacy/safety)
       });
