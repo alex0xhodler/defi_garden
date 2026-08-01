@@ -182,3 +182,22 @@ pages + the same again in KO), is HIGH-tier SEO surface, and deserves its own it
 own diff and its own generated-artifact review. Criterion 4 in spec 202 (the rendered
 `/?pool=<id>&src=seo_token` → `pool_view` proof) exists specifically so this leg 2 change,
 once filed, is a pure generator-templating change with the emitter already proven correct.
+
+## Correction, added by the operator before merge (verifier-caught)
+
+The "Deviations from the spec" section above says criterion 9's bookkeeping
+(`BACKLOG.md` row, `LOG.md` entry, `202-pr.md`) was intentionally skipped. That
+describes the **build agent's** scope, not the shipped artifact: the operator
+wrote all three and they are in the SAME commit as the code, per the 2026-07-13
+one-commit rule. Criterion 9 is met by the commit, and the verifier flagged the
+notes as describing a deviation that did not land — recorded here rather than
+edited away, because the original sentence was true of the agent's session.
+
+Also recorded here, not glossed: the verifier assigned **HIGH** independently,
+overruling the spec's LOW guess on size alone (279 changed lines counting tests
+vs the 150-line cap, item 198's counting precedent). The spec had pre-registered
+that exact possibility; the guess was wrong, the diff was not. Its own mutation —
+different in kind from the builder's — broke the absent-key guard so absence
+emitted the literal string `"undefined"`, and both no-`src` CONTROL assertions
+went red by name in the rendered file (plus the unit rig's absence assertion),
+with `analytics.js` restored to md5 `3966e6e5a9608c7079ca93958b564d6d`.
