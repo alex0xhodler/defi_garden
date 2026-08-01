@@ -75,6 +75,12 @@ refactor's clothes (`pre-existing-red-triage.md`, Resolution E).
 - `?pool=<dead id>` — 072 dead-pool empty state
 - `/tokens/<slug>`, `/chains/<slug>` — static SEO pages. Drive a **sample**, not just `usdc`/`ethereum`:
   the junk lives in the tail of the 2,079-page set, never in the flagship page (item 154)
+- `/ko/tokens/<slug>`, `/ko/chains/<slug>` — **the other half of the estate, and `audit-app.js` has never
+  touched it** (item 197, 2026-08-01). 2,186 KO leaf pages, byte-for-byte the same count as the EN estate,
+  2,215 `<loc>`s submitted to Google. `listLeafPages()` is only ever called with `'tokens'`/`'chains'`.
+  **Do not read the `-ko` entries in `surfacesCovered` as coverage** — `pool-detail-ko`/`planner-ko`/
+  `plan-bloom-ko` are app routes via `?lang=ko` and say nothing about the static KO pages. Grep the covered
+  set for the `/ko/` **path prefix**, never for the label. See `detector-signal-coverage.md`, third axis.
 
 ## Bug-class checklist (smell → check → the finding it came from)
 1. **Number sanity.** Scan rendered text for `NaN`/`Infinity`/`undefined`/`null`; absurd magnitude (a
@@ -120,6 +126,14 @@ refactor's clothes (`pre-existing-red-triage.md`, Resolution E).
      containing no Hangul (`/[가-힯ᄀ-ᇿ㄰-㆏]/`) is untranslated. Key parity is 100% blind to this: the key
      exists, so every parity check passes while the string renders in English. → caught **189**
      (`landing.footerPoweredBy`, `landing.footerMadeWith` on 2,201 KO landers).
+     **The `AND` is not decoration — the shipped gate dropped it and lost the class (2026-08-01, item 198).**
+     190's `prescanI18n` implements only `en === ko`. Probed against the real exported function: KO
+     `"Powered by "` (one trailing space) → **clean**; KO `"Powered by the DefiLlama feed"` → **clean**; and
+     EN `$100` / KO `$100` → **flagged**, a false positive that then needs an allowlist entry. The worst
+     consequence is structural: keyed on *sameness*, the gate **goes silent the moment EN is reworded without
+     KO** — exactly when the KO value has just become stale English. **The no-Hangul half is the half that
+     detects English-ness; `identical` only detects sameness.** Ship both conjuncts, with one test per
+     conjunct proving the other alone would have missed it.
    - **(3) The allowlist is the design decision, and it is where this check will rot.** Of 10 no-Hangul KO
      values, **8 are correct** — brand and product names (`Claude Pro`, `Apple TV+`, `ChatGPT Plus`,
      `Uber One`, `Leviathan News`, `DefiLlama API`) and the acronym `LP/DEX` are identical in Korean by

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "tokens": {
+    "cycle": 0,
+    "seen": [
+      "tokens/shit.html",
+      "tokens/wtao.html",
+      "tokens/cscbusdc.html",
+      "tokens/kysol.html",
+      "tokens/usdc.html"
+    ]
+  },
+  "chains": {
+    "cycle": 0,
+    "seen": [
+      "chains/solana.html",
+      "chains/ethereum.html"
+    ]
+  }
+}

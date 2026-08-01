@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-07-31T07:09:44.310Z",
+  "generatedAt": "2026-08-01T07:07:27.678Z",
   "status": "OK",
   "playwright": {
     "source": "local",
-    "version": "1.56.1"
+    "version": "1.61.1"
   },
   "surfacesCovered": [
     "text-surfaces",
+    "i18n",
     "grid-token",
     "pool-detail",
     "grid-chain",
@@ -17,8 +18,38 @@
     "pool-detail-dark",
     "pool-detail-ko",
     "pool-detail:201e5f6e",
-    "pool-detail:25171c4c",
-    "pool-detail:aa3b8470",
+    "pool-detail:ce14c4f9",
+    "pool-detail:d4b3c522",
+    "pool-detail:db678df9",
+    "pool-detail:e378a7c2",
+    "pool-detail:eaa7b496",
+    "pool-detail:f0131970",
+    "pool-detail:f8cd444e",
+    "pool-detail:01d96249",
+    "pool-detail:097b18e2",
+    "pool-detail:0f23649e",
+    "pool-detail:177d0a37",
+    "pool-detail:1ba55596",
+    "pool-detail:2393da89",
+    "pool-detail:2e53bb82",
+    "pool-detail:367f7910",
+    "pool-detail:3deaf6d7",
+    "pool-detail:458a64c5",
+    "pool-detail:4c45cc9e",
+    "pool-detail:545ef93e",
+    "pool-detail:58e1b97d",
+    "pool-detail:6655d315",
+    "pool-detail:723797ce",
+    "pool-detail:7b3e4cca",
+    "pool-detail:7fb382fb",
+    "pool-detail:86d5dc3c",
+    "pool-detail:8edfdf02",
+    "pool-detail:951e4e49",
+    "pool-detail:9f79f58d",
+    "pool-detail:a451a8da",
+    "pool-detail:ad047a62",
+    "pool-detail:b5d7a190",
+    "pool-detail:bd335b46",
     "landing",
     "planner",
     "planner-360",
@@ -29,12 +60,12 @@
     "plan-bloom-360",
     "plan-bloom-ko",
     "static-page",
-    "static-page:tokens/syusd",
-    "static-page:tokens/alusd",
-    "static-page:tokens/flay",
-    "static-page:tokens/nkp",
-    "static-page:chains/zksync-era",
-    "static-page:chains/manta"
+    "static-page:tokens/shit",
+    "static-page:tokens/wtao",
+    "static-page:tokens/cscbusdc",
+    "static-page:tokens/kysol",
+    "static-page:chains/solana",
+    "static-page:chains/ethereum"
   ],
   "findings": [
     {
@@ -42,11 +73,11 @@
       "viewport": "n/a",
       "check": "pool-prescan:mean30d-rail-breach",
       "severity": "P2",
-      "detail": "1 of 736 snapshot pools match mean30d-rail-breach — examples: 201e5f6e — reconciled: all 1 promoted suspect(s) rendered with zero findings on pool-detail:201e5f6e; downgraded to non-blocking."
+      "detail": "1 of 737 snapshot pools match mean30d-rail-breach — examples: 201e5f6e — reconciled: all 1 promoted suspect(s) rendered with zero findings on pool-detail:201e5f6e; downgraded to non-blocking."
     }
   ],
   "prescan": {
-    "scanned": 2199,
+    "scanned": 2186,
     "suspectCount": 0,
     "bySignal": {
       "broken-number-literal": 0,
@@ -60,18 +91,18 @@
     "poolLinkLiveness": {
       "ran": true,
       "reason": null,
-      "checkedIds": 3707,
-      "deadIds": 1,
-      "pagesAffected": 1,
+      "checkedIds": 3696,
+      "deadIds": 0,
+      "pagesAffected": 0,
       "contract": 0,
       "stale": 0,
-      "drift": 1,
-      "allowance": 37.07,
+      "drift": 0,
+      "allowance": 36.96,
       "ok": true
     }
   },
   "poolPrescan": {
-    "scanned": 736,
+    "scanned": 737,
     "suspectCount": 1,
     "bySignal": {
       "apy-rail-breach": 0,
@@ -86,13 +117,73 @@
   },
   "poolRotation": {
     "cycle": 0,
-    "seenCount": 16,
-    "candidateCount": 734,
+    "seenCount": 48,
+    "candidateCount": 735,
     "picked": [
-      "25171c4c-1877-449a-9f88-45a9f153ee31",
-      "aa3b8470-cd15-4e02-a83d-b83fae993855"
+      "ce14c4f9-26d5-441e-8ae5-a125cb72cd8f",
+      "d4b3c522-6127-4b89-bedf-83641cdcd2eb",
+      "db678df9-3281-4bc2-a8bb-01160ffd6d48",
+      "e378a7c2-6285-4993-9397-87ac9c8adc15",
+      "eaa7b496-512f-442f-be1f-9d8909442e53",
+      "f0131970-afac-4835-b22c-520f192e01d5",
+      "f8cd444e-d99f-4132-b234-fd3482bf8806",
+      "01d96249-c69b-46de-a749-479facf4b806",
+      "097b18e2-9232-4c44-bd2e-502de4ba889e",
+      "0f23649e-44fb-45be-b8b6-8ff28a0c0917",
+      "177d0a37-d0fb-4b18-b290-f46bbe8d307f",
+      "1ba55596-294c-4aa5-b1fa-615e8dd3ccdd",
+      "2393da89-4672-4812-b45a-7c8552603a20",
+      "2e53bb82-f13f-4157-a3bf-b1a91b94b6a4",
+      "367f7910-672b-43e1-804b-c68d58caa927",
+      "3deaf6d7-c7b8-4c2c-9cb1-512366ba666d",
+      "458a64c5-2f64-4ca6-8be7-41b8aef029eb",
+      "4c45cc9e-e1a4-43c9-8a3d-687d96abb07c",
+      "545ef93e-c015-5987-a007-c67295050efd",
+      "58e1b97d-4391-4444-9160-7eef2e159013",
+      "6655d315-dc10-582f-a3c8-0f4f3dad31c1",
+      "723797ce-f2ec-49a9-8463-7e57e02b6ea5",
+      "7b3e4cca-a90e-4a45-95ac-a6b637a850b2",
+      "7fb382fb-fdc0-438f-bb5e-fc21f0351a7d",
+      "86d5dc3c-682f-4227-b1c9-7e51c6e60cda",
+      "8edfdf02-cdbb-43f7-bca6-954e5fe56813",
+      "951e4e49-9760-49a3-aea9-bd832384219f",
+      "9f79f58d-6192-4ea1-944e-e1ae866fc2b2",
+      "a451a8da-e3c4-4049-9bab-ea90ab96234a",
+      "ad047a62-5c88-4b43-bf42-4e4d0858c53a",
+      "b5d7a190-38d2-4fdd-8c14-1fd00c11bce1",
+      "bd335b46-3daf-4507-adb2-6fd4337ea33b"
     ],
-    "wrapped": false
+    "wrapped": false,
+    "sampleSize": 32,
+    "renderedCount": 32,
+    "truncated": false,
+    "timeBudgetMs": 300000
+  },
+  "staticRotation": {
+    "tokens": {
+      "cycle": 0,
+      "seenCount": 5,
+      "candidateCount": 2098,
+      "picked": [
+        "tokens/shit.html",
+        "tokens/wtao.html",
+        "tokens/cscbusdc.html",
+        "tokens/kysol.html"
+      ],
+      "wrapped": false,
+      "sampleSize": 4
+    },
+    "chains": {
+      "cycle": 0,
+      "seenCount": 2,
+      "candidateCount": 87,
+      "picked": [
+        "chains/solana.html",
+        "chains/ethereum.html"
+      ],
+      "wrapped": false,
+      "sampleSize": 2
+    }
   },
   "textSurfaces": {
     "scanned": 2,
@@ -104,5 +195,13 @@
       "empty-surface": 0,
       "link-target-integrity": 0
     }
+  },
+  "i18n": {
+    "scanned": 543,
+    "suspectCount": 0,
+    "bySignal": {
+      "en-ko-parity": 0
+    },
+    "allowlistSize": 24
   }
 }

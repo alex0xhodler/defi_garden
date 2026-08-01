@@ -119,6 +119,56 @@ tick-to-tick, and count **distinct pages reached** and **re-renders**. Memoryles
   no such skip, so porting it would be cargo. Record the precondition in a comment so the omission is a
   decision, not an oversight.
 
+## The third axis: is the POPULATION complete? (added 2026-08-01, item 197)
+
+The two axes above both take the population as given. Axis 1 asks *which claim classes* the checker can see;
+axis 2 asks *what fraction of the population* it reaches per tick and whether the picker remembers. Neither
+one can see the failure where **a whole sub-population was never enumerated at all** — because every metric
+the checker reports is computed over the population it knows about, so a half-size population produces a
+**perfectly healthy-looking report**. `scanned: 2186, suspectCount: 0` is exactly what a complete clean scan
+looks like; it was also what a 50%-blind one looked like for 13 items.
+
+Real instance: `audit-app.js` built its static population from exactly two calls —
+`listLeafPages('tokens')` and `listLeafPages('chains')` — at both collection points (`:1398` prescan,
+`:2016-2017` rotation). The repo also ships **`ko/tokens/` + `ko/chains/` = 2,186 leaf pages**, byte-for-byte
+the same count as the EN estate, **2,215 `<loc>`s of it submitted to Google**. Not one signal, cheap or
+rendered, had ever touched them.
+
+**The three questions, in order:**
+
+1. **Enumerate the population from disk, not from the code.** `ls` the generated dirs, count the artifacts,
+   and compare that number to what the checker reports as `scanned`. If they differ, you have found this bug.
+   One command: `find <generated dirs> -name '*.html' | wc -l` vs the tick's `prescan.scanned`.
+2. **Ask what the checker's collection call CANNOT reach.** A hardcoded directory argument is the tell — the
+   same tell as a hardcoded id (167) or a hand-picked anchor page (154), one level up. `grep` the collection
+   function's call sites and read the *arguments*, not the function.
+3. **Check for a decoy that makes the gap read as covered.** This is what let it survive 13 items:
+   `surfacesCovered` contained `pool-detail-ko`, `planner-ko` and `plan-bloom-ko`, so "KO is audited" was
+   true — for three *app routes* reached via `?lang=ko`, which say nothing about 2,186 static KO pages.
+   **A sibling surface with the same adjective in its name is not coverage.** Grep the covered set for the
+   population's own **path prefix** (`/ko/`), never for a label.
+
+**Decision rule:** enumerate the population from disk, assert the checker's `scanned` count **against that
+disk-read count** rather than against a literal, and the class cannot recur — the assertion goes red the day
+someone adds a new family of generated pages. This is the same rule as 196's seen-cap invariant ("assert the
+cap against a disk-read population count, never a literal"), applied to the population instead of the cap.
+
+**And size it honestly before ticketing.** Run the existing predicates over the unscanned sub-population by
+hand first (`prescanStaticPages({pages: koLeaves})` → `0 suspects`). If it comes back clean, say so in the
+row: this is **coverage exposure, not a live bug**, and the value is the *render-only* classes reaching the
+sub-population for the first time plus every future signal covering the whole estate by construction. A
+coverage item oversold as a bug is how a backlog stops being rankable.
+
+The counterweight that keeps it worth doing: **item 190 was a KO-only defect on those exact pages**, found by
+a `translations.js` dictionary diff — a completely different checker. The estate scan could not have found it
+then, and could not have found it the next day either.
+
+| axis | question | items |
+|---|---|---|
+| 1 · signal set | which claim classes can this checker see? | 148 → 159/160 → 166/169 → 172 → 175 |
+| 2 · rate + memory | what fraction per tick, and does the picker remember? | 154/157 → 196 · 167/183 → 191/192 |
+| 3 · population | is the set it enumerates the whole set? | **197** |
+
 ## Steps
 
 1. **List what the surface ASSERTS, not what it holds.** For each artifact, write one line per kind of claim
@@ -162,6 +212,19 @@ tick-to-tick, and count **distinct pages reached** and **re-renders**. Memoryles
   2026-07-27.)
 - Specifying the new detector from the last bug's *shape* is the failure this playbook is about — resist
   "add another number check" when the last three misses were links, targets and coverage.
+- **Diff the shipped predicate against the rule you wrote down (added 2026-08-01, item 198).** The cheapest
+  possible miss is not a class nobody thought of — it is a **conjunct that was written down and then half
+  implemented**. `product-audit.md` 5(2) specified *"byte-identical to its EN value **AND** containing no
+  Hangul"*; item 190 shipped `en === ko` and stopped. Consequences of dropping the second conjunct, both
+  measured by probe: an untranslated string **one space** away from its EN twin passes clean, and — worse —
+  **the gate goes silent the day EN is reworded without KO**, i.e. exactly when the drift it exists to catch
+  appears. Keying on a property of the *pair* when the assertion is about a property of *one side* also
+  manufactures false positives (`$100` vs `$100`) that get papered over with allowlist entries, so the
+  allowlist grows for a reason unrelated to the bug class.
+  **Decision rule: when a playbook or spec states a predicate as a conjunction, the test suite must contain
+  one case per conjunct, each proving the OTHER conjunct alone would not have caught it.** Cheapest check on
+  an existing gate — 5 minutes, no fixtures: import the exported predicate and run a mutation table of
+  near-miss inputs through it. Every row that comes back "clean" and should not have is a finding.
 - Comparing whole lines/whole files instead of the extracted claim makes a rule trivially true and therefore
   vacuous (169 rule (c): compare the extracted `% APY` / `$ TVL` literals, not the line).
 - A historical fixture that is 200KB does not belong in the repo: commit **verbatim excerpted lines** with the
