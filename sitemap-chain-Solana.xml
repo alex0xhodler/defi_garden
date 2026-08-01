@@ -87,9 +87,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VSOL&amp;chain=Solana" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VSOL&amp;chain=Solana&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VSOL&amp;chain=Solana" />
-    <lastmod>2026-08-01T04:08:45.149Z</lastmod>
+    <lastmod>2026-08-01T08:31:40.452Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.81</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BSOL&amp;chain=Solana</loc>
@@ -186,8 +186,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ECR&amp;chain=Solana" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ECR&amp;chain=Solana&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ECR&amp;chain=Solana" />
-    <lastmod>2026-08-01T05:26:48.492Z</lastmod>
+    <lastmod>2026-08-01T08:31:40.452Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.75</priority>
+    <priority>0.76</priority>
   </url>
 </urlset>
