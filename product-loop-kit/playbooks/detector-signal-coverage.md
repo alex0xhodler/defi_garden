@@ -169,6 +169,35 @@ then, and could not have found it the next day either.
 | 2 · rate + memory | what fraction per tick, and does the picker remember? | 154/157 → 196 · 167/183 → 191/192 |
 | 3 · population | is the set it enumerates the whole set? | **197** |
 
+## The fourth axis: LENS, not rate or population (added 2026-08-01, item 199)
+
+The second axis asks *how much* of a population is looked at; the third asks whether the population is even
+enumerated. This one is independent of both: **under how many rendering conditions?** A population can be
+enumerated completely and swept at 100%/tick and still be size-1 here.
+
+Ask it as one question, whenever a surface has more than one rendering condition:
+
+> **Enumerate the conditions the checks are written for — viewport, colour scheme, language, degraded
+> network — and for each, count how many members of the population are ever rendered under it. Any count of
+> 1 is a hardcoded constant wearing a checkmark.**
+
+For pool-detail the answer was: 1280px/light/EN reached 32 pools/tick, while 360px, dark and KO each reached
+**exactly one hardcoded pool** — `PREFERRED_POOL_ID`, unchanged since item 167 — so the `responsive` and KO
+`i18n` checks had a sample size of one, forever, on the north-star surface. Nothing was disabled; the checks
+ran every tick. The number that mattered was simply never written down.
+
+**Cheapest correct fix (199's shape):** do not multiply the rotation. Add a *bounded* extra render of a
+subset of the picks it already made, one condition each, cycling the condition by a seed-derived offset so
+re-picked members accumulate different conditions over cycles. The lens machinery already exists per surface;
+only the surface entries were missing.
+
+**Trap unique to this axis — the second render must not be counted as a first one.** A per-tick throughput
+number ("N members/tick → full pass ~K ticks") counts *members*, not *renders*. Give the extra renders their
+own marker (`lensPick`, never `rotationPick`), their own counters, and keep them out of the persisted `seen`
+set and out of any skip-reconciliation array. Otherwise adding coverage silently inflates the very honesty
+number the throughput item was built to protect (192), and a skipped extra render can strip a member from
+`seen` that genuinely *was* audited.
+
 ## Steps
 
 1. **List what the surface ASSERTS, not what it holds.** For each artifact, write one line per kind of claim
@@ -356,4 +385,4 @@ population-completeness rule, and the stale-clean-assertion trap. Extended by it
 Territory notes T1, `183-notes.md`): the repair-blinds-the-detector inverse case and the shape-first
 severity rule. Extended by item 184 (`specs/184.md`, `184-notes.md`, `184-pr.md`): level 2 over the HTML
 estate — live-population selection, the three run-states, the 100%-today branch condition for a fatal
-contract rule, and the "ship it green, prove it can go red" standard.
+contract rule, and the "ship it green, prove it can go red" standard. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact.
