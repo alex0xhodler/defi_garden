@@ -38,7 +38,7 @@ const crypto = require('crypto');
 const { runAudit, prescanStaticPages, buildStaticSurfaces, reconcilePrescanFindings } = require('./audit-app.js');
 
 const ROOT = __dirname;
-const MAX_STATIC_SAMPLE = 12; // mirrors audit-app.js's own ceiling (backlog 154)
+const MAX_STATIC_SAMPLE = 24; // mirrors audit-app.js's own ceiling (backlog 154, raised 12->24 by backlog 197 to make room for the KO half without halving EN throughput)
 
 let passed = 0, failed = 0;
 async function test(name, fn) {
@@ -111,8 +111,16 @@ function h1LeadToken(rel) {
   return h1.split(/\s+/)[0] || '';
 }
 
+// backlog 197 — extended to the four-dir population prescanStaticPages()
+// itself now scans by default (tokens/chains + ko/tokens/ko/chains), so
+// criteria 1/5 keep proving the scan against ground truth for the WHOLE
+// default population, not just its EN half. Spec 197 evidence 5 measured
+// zero KO junk-slug suspects; if that ever stops being true, this function
+// (independent of audit-app.js's own implementation) will legitimately
+// start returning KO rels too, and criterion 1 below will correctly reflect it.
+const STATIC_LEAF_DIRS_197 = ['tokens', 'chains', 'ko/tokens', 'ko/chains'];
 function deriveJunkSlugRelsFromDisk() {
-  return listLeaf('tokens').concat(listLeaf('chains')).filter((rel) => {
+  return STATIC_LEAF_DIRS_197.reduce((acc, dir) => acc.concat(listLeaf(dir)), []).filter((rel) => {
     const lead = h1LeadToken(rel);
     return !!lead && (JUNK_NUMERIC.test(lead) || JUNK_DATE.test(lead));
   });
@@ -136,6 +144,72 @@ async function main() {
       const hit = result.suspects.find((s) => s.rel === rel);
       assert(!hit, `${rel} must never appear as a prescan suspect (a0t specifically guards the tightened absurd-magnitude regex); got: ${JSON.stringify(hit)}`);
     }
+  });
+
+  // ---------------------------------------------------------------------------
+  // backlog 197 — the KO half of the estate (`ko/tokens/` + `ko/chains/`,
+  // spec 197 evidence 2) enters the default population for the first time.
+  // Every count below is DERIVED FROM DISK the same way listLeafPages()
+  // itself derives it (isFile() && .endsWith('.html') && name !== 'index.html'),
+  // never a hardcoded literal — spec 197's own acceptance requirement, so
+  // this survives daily estate churn instead of lying tomorrow.
+  // ---------------------------------------------------------------------------
+  await test('spec 197 criterion: prescanStaticPages() with no opts.pages scans EN+KO combined — scanned equals the sum of all four dirs\' real leaf counts, and scannedByFamily matches each dir individually', () => {
+    const diskCounts = {
+      tokens: listLeaf('tokens').length,
+      chains: listLeaf('chains').length,
+      koTokens: listLeaf('ko/tokens').length,
+      koChains: listLeaf('ko/chains').length
+    };
+    const expectedTotal = diskCounts.tokens + diskCounts.chains + diskCounts.koTokens + diskCounts.koChains;
+    const result = prescanStaticPages();
+    assert(result.scanned === expectedTotal,
+      `expected result.scanned (${result.scanned}) to equal the disk-derived EN+KO total (${expectedTotal} = ${diskCounts.tokens} tokens + ${diskCounts.chains} chains + ${diskCounts.koTokens} ko/tokens + ${diskCounts.koChains} ko/chains)`);
+    assert(result.scannedByFamily, `expected result.scannedByFamily to be present; got ${JSON.stringify(result)}`);
+    assert(result.scannedByFamily.tokens === diskCounts.tokens, `scannedByFamily.tokens (${result.scannedByFamily.tokens}) should equal the disk count (${diskCounts.tokens})`);
+    assert(result.scannedByFamily.chains === diskCounts.chains, `scannedByFamily.chains (${result.scannedByFamily.chains}) should equal the disk count (${diskCounts.chains})`);
+    assert(result.scannedByFamily.koTokens === diskCounts.koTokens, `scannedByFamily.koTokens (${result.scannedByFamily.koTokens}) should equal the disk count (${diskCounts.koTokens})`);
+    assert(result.scannedByFamily.koChains === diskCounts.koChains, `scannedByFamily.koChains (${result.scannedByFamily.koChains}) should equal the disk count (${diskCounts.koChains})`);
+  });
+
+  await test('spec 197 true negative (evidence 5), EXECUTED: the unmodified committed ko/tokens/ + ko/chains/ estate scans clean — 0 suspects of any signal', () => {
+    const koPages = listLeaf('ko/tokens').concat(listLeaf('ko/chains'));
+    assert(koPages.length > 1000, `fixture wiring check: expected a large real ko/tokens+ko/chains population, got ${koPages.length}`);
+    const result = prescanStaticPages({ pages: koPages });
+    assert(result.scanned === koPages.length, `expected scanned === ${koPages.length}, got ${result.scanned}`);
+    assert(result.suspects.length === 0,
+      `expected ZERO suspects on the unmodified committed KO estate (matches spec 197 evidence 5); got ${result.suspects.length}: ${JSON.stringify(result.suspects.slice(0, 5))}. ` +
+      'If this is genuinely red, this is a REAL finding — per spec 197, do not relax the signal and do not fix the emitter here; report it back so it can be filed as a new backlog item.');
+  });
+
+  await test('spec 197 positive control, EXECUTED: a scratch COPY of a real KO page carrying a known junk-slug signal is detected by the KO leg, and the original committed page is byte-unchanged', () => {
+    // Mirrors the EN positive-control pattern used later in this file
+    // (criterion 3's probe: a real page copied, its <h1> lead token swapped
+    // for a date-shaped junk token) verbatim, aimed at ko/tokens/ instead —
+    // written under ko/tokens/ itself (not a random scratch dir) so
+    // listLeafPages('ko/tokens')'s own real directory-scan predicate is what
+    // gets exercised, same as the EN probe below exercises listLeafPages('tokens').
+    const sourceAbs = path.join(ROOT, 'ko', 'tokens', 'usdc.html');
+    const probeRel = `ko/tokens/_audit197_probe_${process.pid}.html`;
+    const probeAbs = path.join(ROOT, probeRel);
+    const probeSlug = probeRel.replace(/\.html$/, '');
+    const origMd5Before = crypto.createHash('md5').update(fs.readFileSync(sourceAbs)).digest('hex');
+    try {
+      const sourceHtml = fs.readFileSync(sourceAbs, 'utf8');
+      const probeHtml = sourceHtml.replace(/<h1[^>]*>[\s\S]*?<\/h1>/i, '<h1>9NOV2026 코 DeFi Yields</h1>');
+      assert(probeHtml !== sourceHtml, 'probe construction did not actually replace the <h1> — ko/tokens/usdc.html shape must have changed upstream');
+      fs.writeFileSync(probeAbs, probeHtml);
+
+      const result = prescanStaticPages(); // no opts.pages — exercises the REAL default population, including the new probe file on disk
+      const hit = result.suspects.find((s) => s.rel === probeRel && s.signal === 'junk-slug');
+      assert(hit, `expected the KO probe page "${probeRel}" to be detected as a junk-slug suspect by the default (unfiltered) scan; got suspects matching that rel: ${JSON.stringify(result.suspects.filter((s) => s.rel === probeRel))}`);
+      assert(result.scannedByFamily.koTokens >= 1, `expected scannedByFamily.koTokens to count the probe (and every other ko/tokens page); got ${JSON.stringify(result.scannedByFamily)}`);
+    } finally {
+      try { fs.unlinkSync(probeAbs); } catch (e) {}
+    }
+    const origMd5After = crypto.createHash('md5').update(fs.readFileSync(sourceAbs)).digest('hex');
+    assert(origMd5After === origMd5Before,
+      `expected the original committed ko/tokens/usdc.html to be byte-unchanged (md5 before=${origMd5Before}, after=${origMd5After}) — proof the detection above came from the scratch probe file, never from editing the real KO estate`);
   });
 
   // ---- Criteria 3/4/5/6/7 (REAL Chromium renders + result-shape checks) ----
@@ -255,10 +329,22 @@ async function main() {
       `suspects <= cap: a different seed must still promote the same SET (suspicion-driven, not seed-driven): ${JSON.stringify(setA)} vs ${JSON.stringify(setB)}`);
   });
 
-  await test('criterion 7: budget unchanged — default-config (prescanMax=4, sampleSize=6) static surfaces stay within anchor + sampleSize', async () => {
+  // backlog 197 — this criterion's own numbers moved WITH the item: the
+  // budget was deliberately raised (DEFAULT_STATIC_SAMPLE 6->12) so the new
+  // KO half gets an equal share without halving EN throughput (spec 197
+  // design decision 5 — EN still gets exactly 4 tokens + 2 chains, byte-
+  // identical to pre-197; KO gets the same 4+2 alongside it). "Budget
+  // unchanged" now means "anchor(1) + sampleSize(12) = 13", not the pre-197
+  // "anchor(1) + sampleSize(6) = 7" — the invariant this criterion actually
+  // protects (promoted pages replace uniform picks, never grow the total
+  // static-page render budget) is unchanged; only the total moved with the
+  // deliberate budget raise.
+  await test('criterion 7 (updated by spec 197): budget unchanged in SHAPE — default-config (prescanMax=4, sampleSize=12 post-197) static surfaces stay within anchor + sampleSize', async () => {
     assert(r7.surfacesCovered.includes('static-page'), `expected the anchor surface "static-page" in a default run; got ${JSON.stringify(r7.surfacesCovered)}`);
-    assert(r7.surfacesCovered.length <= 7,
-      `default static surface count ${r7.surfacesCovered.length} exceeds anchor(1) + sampleSize(6) = 7; got ${JSON.stringify(r7.surfacesCovered)}`);
+    assert(r7.surfacesCovered.length <= 13,
+      `default static surface count ${r7.surfacesCovered.length} exceeds anchor(1) + sampleSize(12) = 13 (post-197 default); got ${JSON.stringify(r7.surfacesCovered)}`);
+    const koSurfaces = r7.surfacesCovered.filter((s) => s.includes('ko/'));
+    assert(koSurfaces.length > 0, `expected at least one rendered "ko/" static surface in a default run (backlog 197's own point); got ${JSON.stringify(r7.surfacesCovered)}`);
   });
 
   for (const p of Object.values(outPaths)) { try { fs.unlinkSync(p); } catch (e) {} }
@@ -677,11 +763,11 @@ async function main() {
   // explicitly noted.
   // ---------------------------------------------------------------------------
   try {
-    await test('link-target-integrity: TRUE NEGATIVE — the real committed tokens/*.html + chains/*.html pages produce ZERO link-target-integrity suspects', () => {
+    await test('link-target-integrity: TRUE NEGATIVE — the real committed tokens/*.html + chains/*.html + ko/tokens/*.html + ko/chains/*.html pages (backlog 197: default population now covers all four) produce ZERO link-target-integrity suspects', () => {
       const result = prescanStaticPages();
-      assert(result.scanned >= 2000, `expected scanned >= 2000, got ${result.scanned}`);
+      assert(result.scanned >= 4000, `expected scanned >= 4000 (EN+KO combined, backlog 197), got ${result.scanned}`);
       const hits = result.suspects.filter((s) => s.signal === 'link-target-integrity');
-      assert(hits.length === 0, `expected zero link-target-integrity suspects on the real committed surface; got: ${JSON.stringify(hits)}`);
+      assert(hits.length === 0, `expected zero link-target-integrity suspects on the real committed surface (EN+KO); got: ${JSON.stringify(hits)}`);
     });
 
     await test('link-target-integrity: a clean minimal fixture (no owned links beyond the boilerplate) produces zero suspects of ANY signal', () => {

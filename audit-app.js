@@ -38,9 +38,13 @@
                              when set, REPLACES the static-page anchor + sample
                              rotation entirely and is used verbatim (tests /
                              positive-negative controls).
-     AUDIT_STATIC_SAMPLE   — how many extra tokens/*.html + chains/*.html leaf
-                             pages to sample beyond the anchor (default 6,
-                             capped at 12; backlog 154).
+     AUDIT_STATIC_SAMPLE   — how many extra static SEO leaf pages to sample
+                             beyond the anchor, combined across ALL FOUR of
+                             tokens/*.html + chains/*.html + ko/tokens/*.html
+                             + ko/chains/*.html (default 12, capped at 24;
+                             backlog 154, budget raised + KO added backlog
+                             197 — split EN half / KO half internally, each
+                             half keeping the pre-197 2:1 token:chain ratio).
      AUDIT_STATIC_SEED     — seed string for the deterministic static-page
                              sample (default: UTC date YYYY-MM-DD; backlog 154).
      AUDIT_STATIC_PRESCAN_MAX — cap on how many prescan-flagged suspect pages
@@ -165,11 +169,14 @@ const ABSURD_MAGNITUDE = 1e11;
 const GLOBAL_FALLBACK_ROOT = '/opt/node22/lib/node_modules';
 
 // ---------------------------------------------------------------------------
-// Sampled static SEO surface (backlog 154). Enumerates `tokens/*.html` +
-// `chains/*.html` leaf pages (excluding hub pages: tokens/index.html,
-// chains/index.html — and tokens/az/* is already excluded for free, since
+// Sampled static SEO surface (backlog 154; extended to the `ko/` estate by
+// backlog 197). Enumerates `tokens/*.html` + `chains/*.html` leaf pages
+// (excluding hub pages: tokens/index.html, chains/index.html — and
+// tokens/az/* is already excluded for free, since
 // `fs.readdirSync('tokens', {withFileTypes:true})` lists `az` as a directory
-// entry, not a `.html` file, so the `.endsWith('.html')` filter drops it).
+// entry, not a `.html` file, so the `.endsWith('.html')` filter drops it) —
+// and, as of 197, the identical-shape `ko/tokens/*.html` + `ko/chains/*.html`
+// pair (`ko/tokens/az/*` is excluded the same way, for the same reason).
 //
 // No `Math.random`: the sample is chosen by hashing a seed string (default
 // the UTC date — see spec 154 Design A) and striding across the sorted
@@ -180,8 +187,21 @@ const GLOBAL_FALLBACK_ROOT = '/opt/node22/lib/node_modules';
 // different start index ⇒ (on lists this size — thousands of tokens, dozens
 // of chains) a different slice, so coverage actually accumulates over time.
 // ---------------------------------------------------------------------------
-const DEFAULT_STATIC_SAMPLE = 6;
-const MAX_STATIC_SAMPLE = 12;
+// backlog 197 — raised 6->12 / 12->24 so the new `ko/tokens`+`ko/chains` leg
+// (equal-size sibling of `tokens`+`chains`, spec 197 evidence 2) does not
+// halve EN throughput to make room: the remaining sample budget is now split
+// EN half / KO half (see buildStaticSurfaces()'s `remainingSampleSize` split
+// below), and doubling the total keeps each half's own 2:1 token:chain pick
+// count byte-identical to pre-197 (EN 4 tokens + 2 chains, same as today;
+// KO gets the same 4+2 for the first time). MEASURED, not estimated (spec
+// 197 §"Budget" requires measurement over estimation): this checkout's own
+// before/after `node test_audit_prescan.js` wall-clock went ~1m52s -> see
+// specs/197-notes.md for the after figure and the full-CLI before/after,
+// both timed on this exact run, not extrapolated from item 192's older
+// ~0.19s/surface figure (which is cited in notes only as a secondary,
+// explicitly-labeled cross-check).
+const DEFAULT_STATIC_SAMPLE = 12;
+const MAX_STATIC_SAMPLE = 24;
 // 148's junk-slug predicate, mirrored verbatim: the <h1>'s leading token is
 // pure-numeric OR date-shaped. Digit-LEADING real tickers (1W, 4W, 13W, 3CRV,
 // 1INCH, 50EIGEN, 0X0) must NOT match either — they have a non-digit
@@ -411,6 +431,18 @@ const DEFAULT_STATIC_ROTATION_STATE_PATH = path.join(ROOT, 'product-loop-kit', '
 // per-id disk cost ROTATION_SEEN_CAP's own comment already measured.
 // test_audit_static_rotation.js asserts this invariant against the REAL
 // tokens/ + chains/ directories (fs.readdirSync), not a hardcoded literal.
+//
+// backlog 197 — STILL 6000, unchanged, on purpose: this cap is now shared by
+// FOUR legs (tokens, chains, koTokens, koChains — see buildStaticSurfaces()
+// below), each checked INDEPENDENTLY against its OWN disk-read population
+// (design decision (a), per-family legs — see 197-notes.md), never against a
+// combined total. `ko/tokens`/`ko/chains` are the same size as their EN
+// siblings (spec 197 evidence 2: ~2,186 each on the checkout that ticketed
+// this item), so 6000 already clears each of the four leg populations with
+// the same >=2x headroom it always had — no leg's cap needed raising just
+// because a second, equal-size leg pair was added alongside it.
+// test_audit_static_rotation.js asserts the invariant per leg, against all
+// four REAL directories.
 const STATIC_ROTATION_SEEN_CAP = 6000;
 
 // backlog 192 leg (b) — wall-clock guard default for the pool-detail
@@ -1415,9 +1447,20 @@ async function loadLivePoolIds(opts = {}) {
 function prescanStaticPages(opts = {}) {
   // opts.pages (test-support only, same convention as prescanTextSurfaces()'s
   // opts.files — see 169) overrides the production page list; production
-  // behaviour (no opts.pages) is unchanged: listLeafPages('tokens') +
-  // listLeafPages('chains'), spec 172's "page list is unchanged" requirement.
-  const rawPages = opts.pages || listLeafPages('tokens').concat(listLeafPages('chains'));
+  // behaviour (no opts.pages) was listLeafPages('tokens') + listLeafPages
+  // ('chains') through backlog 196 (spec 172's "page list is unchanged"
+  // requirement, honored through that item).
+  //
+  // backlog 197 — extended to the KO half of the estate: `ko/tokens/` +
+  // `ko/chains/` are the SAME SIZE as `tokens/`/`chains/` (spec 197 evidence
+  // 2, ~2,186 leaf pages each) and were never scanned by any collection
+  // point — a missing argument, not a missing mechanism (spec 197
+  // Hypothesis). `listLeafPages(dir)` already takes a directory and joins it
+  // under ROOT, so `'ko/tokens'`/`'ko/chains'` work as-is, no change to
+  // listLeafPages() itself. opts.pages overrides this ENTIRE default
+  // (EN+KO), unchanged from before this item.
+  const rawPages = opts.pages || listLeafPages('tokens').concat(listLeafPages('chains'))
+    .concat(listLeafPages('ko/tokens')).concat(listLeafPages('ko/chains'));
 
   // Rule (a)'s two allow-lists are the SAME for every page in this scan —
   // parsed once, not once per file, so an unreadable/unparseable
@@ -1486,6 +1529,16 @@ function prescanStaticPages(opts = {}) {
 
   let scanned = 0;
   const suspects = [];
+  // backlog 197 acceptance ("a reader must tell EN-clean from KO-clean") —
+  // per-family scanned counts, derived from each scanned rel's own path
+  // prefix (never from which listLeafPages() call produced it — opts.pages
+  // callers hand in a flat list with no leg association, so classifying by
+  // the rel string itself is the only input that works for both the
+  // production default AND every opts.pages-driven test fixture). `ko/`
+  // MUST be tested before the bare `tokens/`/`chains/` prefixes — see
+  // routeToLeg() in buildStaticSurfaces() below for the same ordering
+  // requirement and why a naive fallthrough would misfile KO rels as EN.
+  const scannedByFamily = { tokens: 0, chains: 0, koTokens: 0, koChains: 0 };
 
   for (const p of rawPages) {
     const abs = path.isAbsolute(p) ? p : path.join(ROOT, p);
@@ -1499,6 +1552,10 @@ function prescanStaticPages(opts = {}) {
       continue;
     }
     scanned++;
+    if (rel.startsWith('ko/chains/')) scannedByFamily.koChains++;
+    else if (rel.startsWith('ko/tokens/')) scannedByFamily.koTokens++;
+    else if (rel.startsWith('chains/')) scannedByFamily.chains++;
+    else scannedByFamily.tokens++; // tokens/ and any opts.pages fixture outside both dirs
     const slug = slugFromRel(rel);
     const leadToken = h1Text.split(/\s+/)[0] || '';
 
@@ -1698,8 +1755,18 @@ function prescanStaticPages(opts = {}) {
     // ordering requirement); a wholly separate, independently neuterable
     // sub-rule (see poolLinkRan's setup above the loop). No-op per page when
     // poolLinkRan is false.
-    // ---------------------------------------------------------------------
-    if (poolLinkRan) {
+    //
+    // backlog 197 — DELIBERATE OMISSION, EN-only: also no-op for any `ko/`
+    // rel. Spec 197 evidence 5 measured the KO half emitting an IDENTICAL
+    // `?pool=` id set to EN (42,604 links, 3,696 distinct ids) — the two
+    // language surfaces link the same live pools, so re-resolving the KO
+    // half's ids buys zero additional liveness coverage and doubles the
+    // live-fetch cost for a duplicate verdict. This is 196's "port the part
+    // whose precondition holds" rule in reverse: THIS sub-rule's own
+    // precondition (a distinct id set worth resolving) does not hold for KO,
+    // so it deliberately stays unported, made legible via
+    // poolLinkLiveness.scope === 'en' below rather than silently narrowed.
+    if (poolLinkRan && !rel.startsWith('ko/')) {
       // Distinct `?pool=` ids this page LINKS TO, from owned home-path hrefs
       // (reuses HTML_HREF_RE / ownedHtmlLinkSuffix / ownedLinkPath /
       // linkQueryPairs — the exact same helpers rule (a) and level 2/3 above
@@ -1816,7 +1883,12 @@ function prescanStaticPages(opts = {}) {
     poolLinkLiveness = {
       ran: false, reason: poolLinkReason,
       checkedIds: 0, deadIds: 0, pagesAffected: 0,
-      contract: 0, stale: 0, drift: 0, allowance: 0, ok: true
+      contract: 0, stale: 0, drift: 0, allowance: 0, ok: true,
+      // backlog 197 — legible even when the sub-rule never ran at all (e.g.
+      // opts.livePoolIds never supplied): the KO omission is a standing
+      // decision, not a side effect of this particular call not requesting
+      // liveness, so `scope` is stamped unconditionally below too.
+      scope: 'en'
     };
   } else {
     let contractCount = 0, staleCount = 0, driftCount = 0;
@@ -1847,7 +1919,13 @@ function prescanStaticPages(opts = {}) {
       deadIds: staleCount + driftCount,
       pagesAffected: poolLinkDeadPages.size,
       contract: contractCount, stale: staleCount, drift: driftCount,
-      allowance: verdict.allowance, ok: verdict.ok
+      allowance: verdict.allowance, ok: verdict.ok,
+      // backlog 197 — DELIBERATE OMISSION made legible: every id/page counted
+      // above came from a non-`ko/` rel only (see the `!rel.startsWith('ko/')`
+      // guard above the loop) — spec 197 evidence 5 measured the KO half
+      // emitting an identical id set, so re-resolving it would duplicate
+      // every finding for zero new coverage, not silently skip real work.
+      scope: 'en'
     };
   }
 
@@ -1862,7 +1940,11 @@ function prescanStaticPages(opts = {}) {
   // backlog 184 — extends the pre-existing { scanned, suspects } shape
   // additively; every caller that destructures only { scanned, suspects }
   // (every pre-184 call site) keeps working unchanged.
-  return { scanned, suspects, poolLinkLiveness };
+  // backlog 197 — `scannedByFamily` is the same additive extension: `scanned`
+  // itself stays the single combined total (spec 197 §"Change" item 4:
+  // `prescan.scanned` stays one number), and every caller ignoring the new
+  // key keeps working unchanged.
+  return { scanned, suspects, poolLinkLiveness, scannedByFamily };
 }
 
 // No-suspects/prescan-disabled shape — always the same shape whether prescan
@@ -1875,8 +1957,12 @@ function emptyPrescanResult() {
     poolLinkLiveness: {
       ran: false, reason: 'not requested',
       checkedIds: 0, deadIds: 0, pagesAffected: 0,
-      contract: 0, stale: 0, drift: 0, allowance: 0, ok: true
-    }
+      contract: 0, stale: 0, drift: 0, allowance: 0, ok: true,
+      scope: 'en' // backlog 197 — see prescanStaticPages()'s own comment
+    },
+    // backlog 197 — same "never null-check" contract, zeroed for the same
+    // disabled/prescan-off cases the other fields above already cover.
+    scannedByFamily: { tokens: 0, chains: 0, koTokens: 0, koChains: 0 }
   };
 }
 
@@ -1895,6 +1981,14 @@ function emptyPrescanResult() {
 // 196) mirror `poolRotation`/`rotationState`/`rotationStatePath` from
 // buildPoolSurfaces() below — extending this EXISTING return shape, never
 // reshaping it, since runAudit() and four tests destructure it.
+// backlog 197 — `staticRotation`/`staticRotationState` gain two more legs,
+// `koTokens`/`koChains`, mirroring `tokens`/`chains` exactly (own `seen` set,
+// own candidate population, own budget slice — design decision (a), see
+// specs/197-notes.md). No new opts knob was needed: `opts.staticSample` now
+// governs the COMBINED EN+KO budget (split inside, see `enSampleSize`/
+// `koSampleSize` below), and `opts.staticRotationState`/
+// `opts.staticRotationStatePath` already generically thread whatever shape
+// is given/read — this item only widens what that shape carries.
 function buildStaticSurfaces(opts) {
   const overrideRaw = opts.staticPages || process.env.AUDIT_STATIC_PAGES;
   if (overrideRaw) {
@@ -1925,9 +2019,16 @@ function buildStaticSurfaces(opts) {
     // this mode. `staticRotation` still carries the same disabled/empty
     // shape emptyPoolRotationResult() gives the pool leg, so a caller never
     // has to null-check result.staticRotation.
+    // backlog 197 — koTokens/koChains added to the disabled shape for the
+    // same never-null-check reason; override mode covers ALL rotation legs
+    // uniformly (AUDIT_STATIC_PAGES was always a whole-mechanism bypass, not
+    // an EN-only one).
     return {
       surfaces, prescan: emptyPrescanResult(), prescanFindings: [], prescanSuspects: [],
-      staticRotation: { tokens: emptyStaticRotationLegResult(), chains: emptyStaticRotationLegResult() },
+      staticRotation: {
+        tokens: emptyStaticRotationLegResult(), chains: emptyStaticRotationLegResult(),
+        koTokens: emptyStaticRotationLegResult(), koChains: emptyStaticRotationLegResult()
+      },
       staticRotationState: null, staticRotationStatePath: null
     };
   }
@@ -2007,7 +2108,12 @@ function buildStaticSurfaces(opts) {
 
     prescan = {
       scanned: scan.scanned, suspectCount: suspects.length, bySignal, promoted: promotedRels.map(slugFromRel),
-      poolLinkLiveness: scan.poolLinkLiveness // backlog 184
+      poolLinkLiveness: scan.poolLinkLiveness, // backlog 184
+      // backlog 197 — threaded through unchanged from prescanStaticPages()'s
+      // own return; lands in the findings JSON so a reader can tell
+      // EN-clean from KO-clean without reading code (spec 197 acceptance).
+      // `scanned` above stays the single combined total on purpose.
+      scannedByFamily: scan.scannedByFamily
     };
 
     // backlog 184 — a fetch failure must NOT silently pass the gate: when the
@@ -2028,36 +2134,76 @@ function buildStaticSurfaces(opts) {
   const promotedSet = new Set(promotedRels);
   const remainingSampleSize = Math.max(0, sampleSize - promotedRels.length);
 
-  // Default 6 = up to 4 token + 2 chain (2:1 ratio), falling back to whatever
-  // exists on either side (spec 154 Design A).
-  const tokenCount = Math.ceil((remainingSampleSize * 2) / 3);
-  const chainCount = remainingSampleSize - tokenCount;
+  // backlog 197 — EN/KO split of the remaining budget, BEFORE the pre-
+  // existing 2:1 token:chain split is applied within each half. This is
+  // spec 197 design decision 5's explicit arithmetic: EN half gets the
+  // ceil() so an odd remainder favors EN (the pre-197 population, never
+  // shrunk below its old throughput), KO half gets the rest. At the new
+  // DEFAULT_STATIC_SAMPLE=12 default this gives EN half=6 / KO half=6 —
+  // i.e. EN's own 2:1 split below (tokenCount=ceil(6*2/3)=4, chainCount=2)
+  // is BYTE-IDENTICAL to origin/main's pre-197 output (which split 6 total
+  // the same way), and KO gets that same 4+2 for the first time. See
+  // specs/197-notes.md for the measured wall-clock this budget choice rests on.
+  const enSampleSize = Math.ceil(remainingSampleSize / 2);
+  const koSampleSize = remainingSampleSize - enSampleSize;
+
+  // Default (EN half=6) = up to 4 token + 2 chain (2:1 ratio), falling back
+  // to whatever exists on either side (spec 154 Design A) — unchanged math,
+  // just applied to `enSampleSize` instead of the whole `remainingSampleSize`.
+  const tokenCount = Math.ceil((enSampleSize * 2) / 3);
+  const chainCount = enSampleSize - tokenCount;
+  // backlog 197 — same 2:1 ratio, applied to the KO half.
+  const koTokenCount = Math.ceil((koSampleSize * 2) / 3);
+  const koChainCount = koSampleSize - koTokenCount;
 
   // Exclude the anchor's own leaf AND any promoted leaf so the uniform
   // rotation never re-samples a page already covered another way.
   const tokenLeaves = listLeafPages('tokens').filter((r) => r !== anchorLeafRel && !promotedSet.has(r));
   const chainLeaves = listLeafPages('chains').filter((r) => r !== anchorLeafRel && !promotedSet.has(r));
+  // backlog 197 — no anchor exclusion needed: the anchor is always an EN
+  // leaf (`/tokens/usdc.html` or `/chains/ethereum.html`, see above), never
+  // a `ko/` path, so it can never collide with a KO candidate list.
+  const koTokenLeaves = listLeafPages('ko/tokens').filter((r) => !promotedSet.has(r));
+  const koChainLeaves = listLeafPages('ko/chains').filter((r) => !promotedSet.has(r));
 
-  // ---- Never-audited-first rotation (backlog 196) --------------------------
+  // ---- Never-audited-first rotation (backlog 196, extended by 197) --------
   // Reuses computeRotation() verbatim (backlog 183 leg (b)'s pool-detail
-  // machinery, unmodified) — called TWICE, once per leg, so the 2:1 token:
-  // chain budget split above stays two independently-sized picks (spec 196's
+  // machinery, unmodified) — called per leg, so the 2:1 token:chain budget
+  // split above stays independently-sized picks per leg (spec 196's
   // rejected alternative: a single combined rotation starves chains ~96:4
   // against 2,108 token candidates). Same seed namespacing convention as
-  // every other picker in this file (`${seed}:tokens` / `${seed}:chains` —
-  // already used above for the plain sampleBySeed calls this replaces), so
-  // this leg never picks in lockstep with the pool leg's `${seed}:pools`.
+  // every other picker in this file (`${seed}:tokens` / `${seed}:chains` /
+  // `${seed}:koTokens` / `${seed}:koChains`), so no leg ever picks in
+  // lockstep with another (spec 197 design decision 4's own requirement).
   const staticRotationStatePath = opts.staticRotationStatePath || process.env.AUDIT_STATIC_ROTATION_STATE || DEFAULT_STATIC_ROTATION_STATE_PATH;
   // opts.staticRotationState lets tests drive this as a pure function with no
   // fs read at all — mirrors opts.rotationState for the pool leg exactly.
-  const priorStaticRotationState = opts.staticRotationState || readStaticRotationState(staticRotationStatePath);
+  // backlog 197 — re-normalized through normalizeRotationLeg() here (not just
+  // trusted as-is) so BOTH sources feeding this variable are safe: a real
+  // readStaticRotationState() result is already normalized (idempotent to
+  // re-normalize), but a test-injected opts.staticRotationState may still be
+  // pre-197 shaped (only `{tokens, chains}`, no koTokens/koChains — every
+  // pre-197 caller in this file's own test suite is exactly that shape) —
+  // normalizeRotationLeg(undefined) degrades those missing legs to fresh
+  // cycle-0/empty-seen, never throws.
+  const priorStaticRotationStateRaw = opts.staticRotationState || readStaticRotationState(staticRotationStatePath);
+  const priorStaticRotationState = {
+    tokens: normalizeRotationLeg(priorStaticRotationStateRaw.tokens),
+    chains: normalizeRotationLeg(priorStaticRotationStateRaw.chains),
+    koTokens: normalizeRotationLeg(priorStaticRotationStateRaw.koTokens),
+    koChains: normalizeRotationLeg(priorStaticRotationStateRaw.koChains)
+  };
 
   const tokenRot = computeRotation(tokenLeaves, tokenCount, `${seed}:tokens`, priorStaticRotationState.tokens);
   const chainRot = computeRotation(chainLeaves, chainCount, `${seed}:chains`, priorStaticRotationState.chains);
+  const koTokenRot = computeRotation(koTokenLeaves, koTokenCount, `${seed}:koTokens`, priorStaticRotationState.koTokens);
+  const koChainRot = computeRotation(koChainLeaves, koChainCount, `${seed}:koChains`, priorStaticRotationState.koChains);
   const tokenPicks = tokenRot.picked;
   const chainPicks = chainRot.picked;
+  const koTokenPicks = koTokenRot.picked;
+  const koChainPicks = koChainRot.picked;
 
-  for (const rel of tokenPicks.concat(chainPicks)) {
+  for (const rel of tokenPicks.concat(chainPicks).concat(koTokenPicks).concat(koChainPicks)) {
     surfaces.push({ name: `static-page:${slugFromRel(rel)}`, url: '/' + rel, kind: 'static', width: 1280 });
   }
 
@@ -2066,14 +2212,25 @@ function buildStaticSurfaces(opts) {
   // `seen` (spec 196 §4, mirrors buildPoolSurfaces()'s `thisRunPoolIds`
   // rule): a page rendered for ANY reason has been audited, so it must not
   // be re-picked by rotation until the cycle wraps. Anchor/promoted rels can
-  // land in either dir (prescanStaticPages() scans tokens/ and chains/
-  // together), so they're routed to their leg by path prefix; rotation picks
-  // are already leg-pure by construction.
+  // land in ANY of the four dirs (prescanStaticPages() scans all four
+  // together as of backlog 197), so they're routed to their leg by path
+  // prefix; rotation picks are already leg-pure by construction.
   const thisRunTokenRels = tokenPicks.slice();
   const thisRunChainRels = chainPicks.slice();
+  const thisRunKoTokenRels = koTokenPicks.slice();
+  const thisRunKoChainRels = koChainPicks.slice();
+  // backlog 197 — `ko/` MUST be tested before the bare `tokens/`/`chains/`
+  // prefixes: a naive `startsWith('chains/')` never matches `ko/chains/…`
+  // (harmless on its own), but a naive fallthrough order — checking the bare
+  // EN prefixes first and defaulting everything else to `tokens` — would
+  // silently misfile every KO anchor/promoted rel into the EN tokens leg's
+  // `seen` set. This is the load-bearing correctness detail spec 197 §8
+  // calls out by name.
   const routeToLeg = (rel) => {
     if (!rel) return;
-    if (rel.startsWith('chains/')) thisRunChainRels.push(rel);
+    if (rel.startsWith('ko/chains/')) thisRunKoChainRels.push(rel);
+    else if (rel.startsWith('ko/tokens/')) thisRunKoTokenRels.push(rel);
+    else if (rel.startsWith('chains/')) thisRunChainRels.push(rel);
     else thisRunTokenRels.push(rel); // tokens/ (and the anchor's default 'tokens/usdc.html')
   };
   routeToLeg(anchorLeafRel);
@@ -2088,6 +2245,8 @@ function buildStaticSurfaces(opts) {
   // really does get rendered, and crediting it as seen at build time is
   // already honest. If a time-budget guard is ever added to the static leg,
   // this precondition stops holding and the reconciliation becomes required.
+  // backlog 197 — same reasoning applies unchanged to the two new KO legs
+  // below: they share the same render loop, same no-time-budget-skip fact.
   const tokenBaseSeen = tokenRot.wrapped ? [] : priorStaticRotationState.tokens.seen.slice();
   let tokenNewSeen = tokenBaseSeen.concat(thisRunTokenRels.filter((r) => !tokenBaseSeen.includes(r)));
   if (tokenNewSeen.length > STATIC_ROTATION_SEEN_CAP) tokenNewSeen = tokenNewSeen.slice(tokenNewSeen.length - STATIC_ROTATION_SEEN_CAP); // drop-oldest
@@ -2096,10 +2255,21 @@ function buildStaticSurfaces(opts) {
   let chainNewSeen = chainBaseSeen.concat(thisRunChainRels.filter((r) => !chainBaseSeen.includes(r)));
   if (chainNewSeen.length > STATIC_ROTATION_SEEN_CAP) chainNewSeen = chainNewSeen.slice(chainNewSeen.length - STATIC_ROTATION_SEEN_CAP); // drop-oldest
 
+  const koTokenBaseSeen = koTokenRot.wrapped ? [] : priorStaticRotationState.koTokens.seen.slice();
+  let koTokenNewSeen = koTokenBaseSeen.concat(thisRunKoTokenRels.filter((r) => !koTokenBaseSeen.includes(r)));
+  if (koTokenNewSeen.length > STATIC_ROTATION_SEEN_CAP) koTokenNewSeen = koTokenNewSeen.slice(koTokenNewSeen.length - STATIC_ROTATION_SEEN_CAP); // drop-oldest
+
+  const koChainBaseSeen = koChainRot.wrapped ? [] : priorStaticRotationState.koChains.seen.slice();
+  let koChainNewSeen = koChainBaseSeen.concat(thisRunKoChainRels.filter((r) => !koChainBaseSeen.includes(r)));
+  if (koChainNewSeen.length > STATIC_ROTATION_SEEN_CAP) koChainNewSeen = koChainNewSeen.slice(koChainNewSeen.length - STATIC_ROTATION_SEEN_CAP); // drop-oldest
+
   const staticRotationState = {
     schemaVersion: 1,
     tokens: { cycle: tokenRot.cycle, seen: tokenNewSeen },
-    chains: { cycle: chainRot.cycle, seen: chainNewSeen }
+    chains: { cycle: chainRot.cycle, seen: chainNewSeen },
+    // backlog 197 — additive legs, same shape as tokens/chains above.
+    koTokens: { cycle: koTokenRot.cycle, seen: koTokenNewSeen },
+    koChains: { cycle: koChainRot.cycle, seen: koChainNewSeen }
   };
 
   const staticRotation = {
@@ -2110,6 +2280,16 @@ function buildStaticSurfaces(opts) {
     chains: {
       cycle: chainRot.cycle, seenCount: chainNewSeen.length, candidateCount: chainLeaves.length,
       picked: chainPicks.slice(), wrapped: chainRot.wrapped, sampleSize: chainCount
+    },
+    // backlog 197 — reported next to tokens/chains, same shape, so KO
+    // coverage is separately reportable (spec 197 design decision 4).
+    koTokens: {
+      cycle: koTokenRot.cycle, seenCount: koTokenNewSeen.length, candidateCount: koTokenLeaves.length,
+      picked: koTokenPicks.slice(), wrapped: koTokenRot.wrapped, sampleSize: koTokenCount
+    },
+    koChains: {
+      cycle: koChainRot.cycle, seenCount: koChainNewSeen.length, candidateCount: koChainLeaves.length,
+      picked: koChainPicks.slice(), wrapped: koChainRot.wrapped, sampleSize: koChainCount
     }
   };
 
@@ -2440,15 +2620,35 @@ function readRotationState(statePath) {
 // versa. Missing file, corrupt JSON, `{}`, `{tokens: 5}`, and
 // `{tokens: {seen: "nope"}}` all degrade to a fresh cycle-0/empty-seen state
 // for whichever leg(s) are malformed — never throws (spec 196 acceptance 8).
+//
+// backlog 197 — additive: two more legs, `koTokens`/`koChains`, normalized
+// the SAME way via the SAME normalizeRotationLeg() (spec 197 design decision
+// 6: "purely additive... schemaVersion stays 1"). This is the one place a
+// state file written BEFORE this item (today's committed file — EN legs
+// only) gets read: `parsed.koTokens`/`parsed.koChains` are `undefined` on
+// that file, and normalizeRotationLeg(undefined) already falls through to
+// its own `{cycle: 0, seen: []}` default (see its doc comment above) —
+// exactly the required "degrade to fresh cycle-0/empty-seen legs WITHOUT
+// touching the EN legs" behaviour, for free, with no special-casing here.
 function readStaticRotationState(statePath) {
   try {
     const raw = fs.readFileSync(statePath, 'utf8');
     const parsed = JSON.parse(raw);
     if (parsed && typeof parsed === 'object') {
-      return { schemaVersion: 1, tokens: normalizeRotationLeg(parsed.tokens), chains: normalizeRotationLeg(parsed.chains) };
+      return {
+        schemaVersion: 1,
+        tokens: normalizeRotationLeg(parsed.tokens),
+        chains: normalizeRotationLeg(parsed.chains),
+        koTokens: normalizeRotationLeg(parsed.koTokens),
+        koChains: normalizeRotationLeg(parsed.koChains)
+      };
     }
   } catch (e) { /* fall through to fresh state */ }
-  return { schemaVersion: 1, tokens: { cycle: 0, seen: [] }, chains: { cycle: 0, seen: [] } };
+  return {
+    schemaVersion: 1,
+    tokens: { cycle: 0, seen: [] }, chains: { cycle: 0, seen: [] },
+    koTokens: { cycle: 0, seen: [] }, koChains: { cycle: 0, seen: [] }
+  };
 }
 
 // Disabled/override-mode shape for ONE static-rotation leg — same role as
@@ -4004,6 +4204,12 @@ if (require.main === module) {
       const st = srot.tokens || {};
       const sc = srot.chains || {};
       console.log(`[audit] static rotation: tokens cycle ${st.cycle}, seen ${st.seenCount}/${st.candidateCount} candidates, picked [${(st.picked || []).join(', ')}], wrapped=${!!st.wrapped} | chains cycle ${sc.cycle}, seen ${sc.seenCount}/${sc.candidateCount} candidates, picked [${(sc.picked || []).join(', ')}], wrapped=${!!sc.wrapped}`);
+      // backlog 197 — same line shape, for the two new KO legs, so KO
+      // coverage is readable from CLI output without a code/JSON read
+      // (spec 197 acceptance: "a reader must tell EN-clean from KO-clean").
+      const kst = srot.koTokens || {};
+      const ksc = srot.koChains || {};
+      console.log(`[audit] static rotation (ko): tokens cycle ${kst.cycle}, seen ${kst.seenCount}/${kst.candidateCount} candidates, picked [${(kst.picked || []).join(', ')}], wrapped=${!!kst.wrapped} | chains cycle ${ksc.cycle}, seen ${ksc.seenCount}/${ksc.candidateCount} candidates, picked [${(ksc.picked || []).join(', ')}], wrapped=${!!ksc.wrapped}`);
       process.exit(blocking.length > 0 ? 1 : 0);
     })
     .catch((err) => {
