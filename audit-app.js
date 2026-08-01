@@ -854,16 +854,31 @@ const I18N_SIGNALS = { 'en-ko-parity': 'P1' };
 // Hangul syllables + Jamo + compatibility Jamo — matches spec 190's evidence
 // regex verbatim.
 const I18N_HANGUL = /[가-힣ᄀ-ᇿ㄰-㆏]/;
+// Item 198: the predicate is keyed on the KO value alone (no-Hangul AND
+// has-Latin-prose), not on identity with EN — see the Rule 2 comment below
+// for why. Dropping the byte-identity gate means a KO value that is
+// legitimately non-linguistic ("$100", "2026", "—") would otherwise become a
+// suspect the instant it contains no Hangul, and would need an allowlist
+// entry it should never have needed (spec 198 acceptance criterion 4). This
+// conjunct exists solely to keep bare figures/punctuation out of the suspect
+// set without allowlisting them one by one. Accepted blind spot, stated
+// plainly: a KO value made purely of digits/punctuation that SHOULD have
+// been translated (there is no such string in this dictionary today, but
+// nothing prevents one existing) is not detectable by this rule — that is
+// fine, because such a value carries no English prose to be stale in the
+// first place.
+const I18N_LATIN_LETTER = /[A-Za-z]/;
 
-// Brand/product names and acronyms that are LEGITIMATELY identical in KO —
-// data, not code, keyed by the EXACT flattened key path (never a prefix or
-// substring match; see prescanI18n()'s lookup below). Adding a real brand
-// string here is a one-line diff. Adding a NON-brand string here to silence a
-// real untranslated-copy finding is the documented failure mode this gate
-// exists to prevent (relaxing the gate instead of fixing the bug) and is a
+// Brand/product names and acronyms that are LEGITIMATELY untranslated in
+// KO (no Hangul, but real Latin prose — not a bare figure) — data, not
+// code, keyed by the EXACT flattened key path (never a prefix or substring
+// match; see prescanI18n()'s lookup below). Adding a real brand string here
+// is a one-line diff. Adding a NON-brand string here to silence a real
+// untranslated-copy finding is the documented failure mode this gate exists
+// to prevent (relaxing the gate instead of fixing the bug) and is a
 // REVERT-CANDIDATE signal per spec 190's decision rule — every entry needs a
 // one-line reason that actually holds up.
-const I18N_IDENTICAL_ALLOWLIST = {
+const I18N_UNTRANSLATED_ALLOWLIST = {
   navCatLpDex: 'acronym, same in KO',
   navCatRwa: 'acronym, same in KO',
   navFilterTvl: 'acronym, same in KO',
@@ -914,7 +929,7 @@ function flattenI18nDict(obj, prefix, out) {
 // test-support injection hook, same convention as opts.pages/opts.files
 // elsewhere in this file.
 function prescanI18n(opts = {}) {
-  const allowlistSize = Object.keys(I18N_IDENTICAL_ALLOWLIST).length;
+  const allowlistSize = Object.keys(I18N_UNTRANSLATED_ALLOWLIST).length;
   let dict = opts.dict;
   if (dict === undefined) {
     try {
@@ -956,18 +971,30 @@ function prescanI18n(opts = {}) {
     }
   }
 
-  // Rule 2 — value honesty: a KO leaf byte-identical to its EN counterpart,
-  // containing no Hangul, and NOT on the exact-key-path allowlist.
+  // Rule 2 — value honesty: is the KO leaf actually Korean? Item 198: the
+  // predicate is a property of the KO value ALONE, not of the pair — a KO
+  // leaf is a suspect iff it contains no Hangul AND contains at least one
+  // Latin letter (i.e. there is translatable prose there at all, ruling out
+  // bare figures like "$100" without needing an allowlist entry for them)
+  // AND its exact key path is not on the allowlist. The old predicate also
+  // required byte-identity with EN, which is a property of the PAIR — and a
+  // property of the pair goes silent exactly when the pair drifts: reword
+  // the EN string without touching KO and the pair stops being identical,
+  // even though the KO value is now stale English. Keying on the KO value
+  // alone closes that hole. Byte-identity with EN is still real, useful
+  // information, so it stays in the detail string when it happens to hold —
+  // it is just no longer part of the gate.
   for (const key of enKeys) {
     if (!koKeys.has(key)) continue; // already reported by rule 1
     const enVal = enFlat[key];
     const koVal = koFlat[key];
     if (typeof enVal !== 'string' || typeof koVal !== 'string') continue; // function/array/number leaves: parity only
-    if (enVal !== koVal) continue;
     if (I18N_HANGUL.test(koVal)) continue;
-    if (Object.prototype.hasOwnProperty.call(I18N_IDENTICAL_ALLOWLIST, key)) continue;
+    if (!I18N_LATIN_LETTER.test(koVal)) continue;
+    if (Object.prototype.hasOwnProperty.call(I18N_UNTRANSLATED_ALLOWLIST, key)) continue;
+    const identical = enVal === koVal;
     suspects.push({ key, signal: 'en-ko-parity', severity: I18N_SIGNALS['en-ko-parity'],
-      detail: `ko value is byte-identical to en and contains no Hangul: "${koVal}"` });
+      detail: `ko value contains no Hangul${identical ? ' and is byte-identical to en' : ''}: "${koVal}"` });
   }
 
   suspects.sort((a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0));
@@ -982,7 +1009,7 @@ function prescanI18n(opts = {}) {
 // always tell "clean" from "allowlisted into silence" (spec 190 acceptance
 // criterion).
 function emptyI18nResult() {
-  return { scanned: 0, suspectCount: 0, bySignal: {}, allowlistSize: Object.keys(I18N_IDENTICAL_ALLOWLIST).length };
+  return { scanned: 0, suspectCount: 0, bySignal: {}, allowlistSize: Object.keys(I18N_UNTRANSLATED_ALLOWLIST).length };
 }
 
 function defaultStaticSeed() {
@@ -4096,9 +4123,11 @@ module.exports = {
   countQualifyingPools,
   // item 190 — exported so test_audit_i18n_parity.js can drive the i18n
   // prescan directly (with opts.dict injection) without a full runAudit()
-  // invocation; I18N_IDENTICAL_ALLOWLIST is exported so the exact-key-path
-  // (never prefix/substring) test can read the seeded allowlist directly.
-  prescanI18n, I18N_IDENTICAL_ALLOWLIST,
+  // invocation; I18N_UNTRANSLATED_ALLOWLIST (renamed by item 198 — the
+  // predicate no longer keys on sameness, so the name no longer should
+  // either) is exported so the exact-key-path (never prefix/substring) test
+  // can read the seeded allowlist directly.
+  prescanI18n, I18N_UNTRANSLATED_ALLOWLIST,
   // backlog 191 — exported so tests interpolate the real rotation-budget
   // constants (default + ceiling) instead of re-typing them (item-159 rule).
   DEFAULT_POOL_SAMPLE, MAX_POOL_SAMPLE,

@@ -122,18 +122,25 @@ refactor's clothes (`pre-existing-red-triage.md`, Resolution E).
      moment you check `t()` call sites in `planner.js`, because `planner.js`'s own `t()` (`planner.js:870`)
      resolves *into* the `planner` sub-object. **Flatten before diffing, or the check invents its own
      findings.** Measured 2026-07-31: 543/543, zero asymmetry — a true negative worth recording.
-   - **(2) Value honesty — is the translation translated?** A KO value byte-identical to its EN value AND
-     containing no Hangul (`/[가-힯ᄀ-ᇿ㄰-㆏]/`) is untranslated. Key parity is 100% blind to this: the key
-     exists, so every parity check passes while the string renders in English. → caught **189**
-     (`landing.footerPoweredBy`, `landing.footerMadeWith` on 2,201 KO landers).
-     **The `AND` is not decoration — the shipped gate dropped it and lost the class (2026-08-01, item 198).**
-     190's `prescanI18n` implements only `en === ko`. Probed against the real exported function: KO
-     `"Powered by "` (one trailing space) → **clean**; KO `"Powered by the DefiLlama feed"` → **clean**; and
-     EN `$100` / KO `$100` → **flagged**, a false positive that then needs an allowlist entry. The worst
-     consequence is structural: keyed on *sameness*, the gate **goes silent the moment EN is reworded without
-     KO** — exactly when the KO value has just become stale English. **The no-Hangul half is the half that
-     detects English-ness; `identical` only detects sameness.** Ship both conjuncts, with one test per
-     conjunct proving the other alone would have missed it.
+   - **(2) Value honesty — is the translation translated?** A KO value containing **no Hangul**
+     (`/[가-힣ᄀ-ᇿ㄰-㆏]/`) **and at least one Latin letter** (`/[A-Za-z]/`), whose key path is **not on the
+     allowlist**, is untranslated. Key parity is 100% blind to this: the key exists, so every parity check
+     passes while the string renders in English. → caught **189** (`landing.footerPoweredBy`,
+     `landing.footerMadeWith` on 2,201 KO landers).
+     **Byte-identity with EN is not part of the gate (item 198, 2026-08-01, correcting this playbook's own
+     original wording).** 190's first ship implemented `en === ko && no-Hangul` — keying the gate on
+     *sameness with EN*, a property of the PAIR. Probed against that shipped function: KO `"Powered by "`
+     (one trailing space) → **clean**; KO `"Powered by the DefiLlama feed"` → **clean**; both misses in the
+     exact scenario the gate exists for, because a property of the pair goes silent the moment the pair
+     drifts — reword EN without touching KO and the gate stops firing at precisely the moment KO has become
+     stale English. 198 dropped the identity gate and keyed the predicate on the KO value **alone**: a
+     stale-English KO value is flagged regardless of whether it still matches EN byte-for-byte. Byte-identity
+     is still **reported** in the finding's `detail` string when it happens to hold (real, useful
+     information) — it is simply not required to fire. The Latin-letter conjunct is what makes dropping the
+     identity gate safe: without it, a legitimately non-linguistic KO value (`"$100"`, `"2026"`, `"—"`) would
+     become a suspect the instant it contains no Hangul, and would need an allowlist entry it should never
+     have needed. Accepted blind spot: an untranslated KO value made purely of digits/punctuation is not
+     detectable by this rule — fine, because such a value carries no English prose to be stale.
    - **(3) The allowlist is the design decision, and it is where this check will rot.** Of 10 no-Hangul KO
      values, **8 are correct** — brand and product names (`Claude Pro`, `Apple TV+`, `ChatGPT Plus`,
      `Uber One`, `Leviathan News`, `DefiLlama API`) and the acronym `LP/DEX` are identical in Korean by
