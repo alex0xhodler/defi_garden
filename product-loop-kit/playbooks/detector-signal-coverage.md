@@ -169,6 +169,39 @@ then, and could not have found it the next day either.
 | 2 · rate + memory | what fraction per tick, and does the picker remember? | 154/157 → 196 · 167/183 → 191/192 |
 | 3 · population | is the set it enumerates the whole set? | **197** |
 
+### Building the axis-3 fix: three traps the transplant itself introduces (added 2026-08-01, item 197 build)
+
+Widening a population is a *call, not a build* — but the call has three sharp edges, and all three were live
+in 197. Check each one by name before claiming the transplant is mechanical.
+
+1. **The classifier's FALLTHROUGH, not its new branch.** Any per-item router (`routeToLeg()`, a
+   `scannedByFamily` counter, a lane picker) ends in a bare `else → <incumbent>`. Adding `ko/tokens/` to the
+   population without reordering the prefix tests is *silently* wrong in one direction only: `startsWith('chains/')`
+   never matches `ko/chains/…`, so the new rels sail past every explicit branch and land in the default leg.
+   The detector then records pages it never opened as *audited* and skips them. **Rule: test the more specific
+   prefix first, and read the `else` branch as if it were a `catch(){}`** — ask what wrong thing it now
+   swallows, not whether the new branch is right.
+2. **A sub-rule whose PRECONDITION fails must not be transplanted — and the omission must be in the output.**
+   Not every signal in a checker earns the wider population. 197's `?pool=` liveness sub-rule was left EN-only
+   because the KO half was *measured* to emit an identical id set (42,604 links / 3,696 ids): running it would
+   have doubled the resolution cost to reproduce every existing finding. The rule from 196 (*port the part
+   whose precondition holds*) needs this second half: **stamp the narrowing into the emitted result**
+   (`poolLinkLiveness.scope: 'en'`), because a scan that quietly checks less than its name implies is the
+   exact failure this whole playbook exists to prevent. A comment is not enough — the next reader reads JSON.
+3. **Never pay for the new population out of the incumbent's budget.** A fixed render budget split across a
+   doubled population halves the coverage you already had — a throughput regression that no test asserts
+   because no test pins the old number. **Rule: raise the budget, split it explicitly, and keep the incumbent's
+   pick count byte-identical** (197: default 6 → 12, `ceil()` deliberately favouring the EN half, EN staying at
+   4 tokens + 2 chains). Then *measure* the new wall-clock against the run's own cap and publish before/after —
+   and do not borrow a per-unit cost measured on a different surface class (192's 0.19s/surface is pool-detail;
+   static leaves cost ~10s each here). A budget justified by the wrong denominator is an estimate wearing a
+   measurement's clothes.
+
+**Also expect the spec's own population figures to be stale by the time you build** (the 184 drift lesson,
+recurring): 197's spec said 4,372, the checkout said 4,360, one day later. This is harmless *only* because
+the acceptance criterion forbade literals and required a disk-derived count. Write the assertion that way and
+estate churn is a non-event; write it with the spec's number and the gate breaks tomorrow for no reason.
+
 ## The fourth axis: LENS, not rate or population (added 2026-08-01, item 199)
 
 The second axis asks *how much* of a population is looked at; the third asks whether the population is even
@@ -385,4 +418,6 @@ population-completeness rule, and the stale-clean-assertion trap. Extended by it
 Territory notes T1, `183-notes.md`): the repair-blinds-the-detector inverse case and the shape-first
 severity rule. Extended by item 184 (`specs/184.md`, `184-notes.md`, `184-pr.md`): level 2 over the HTML
 estate — live-population selection, the three run-states, the 100%-today branch condition for a fatal
-contract rule, and the "ship it green, prove it can go red" standard. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact.
+contract rule, and the "ship it green, prove it can go red" standard. Extended by item 197's build (`specs/197.md`, `197-notes.md`, `197-pr.md`): the three transplant traps —
+the classifier fallthrough, the sub-rule whose precondition fails (and stamping the omission into the output),
+and never funding a new population out of the incumbent's budget. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact.
