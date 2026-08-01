@@ -256,12 +256,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/flow</loc>
+    <loc>https://www.defi.garden/ko/chains/neutron</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/neutron</loc>
+    <loc>https://www.defi.garden/ko/chains/flow</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
   </url>
