@@ -2,7 +2,7 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-LP-DEX.xml</loc>
-    <lastmod>2026-08-01T15:58:35.696Z</lastmod>
+    <lastmod>2026-07-31T10:09:53.259Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Lending.xml</loc>
@@ -90,10 +90,6 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Canto.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://www.defi.garden/sitemap-chain-Carbon.xml</loc>
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
   </sitemap>
   <sitemap>
@@ -438,7 +434,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-tokens-all.xml</loc>
-    <lastmod>2026-08-02T05:26:47.866Z</lastmod>
+    <lastmod>2026-08-02T10:29:46.420Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-token-pages.xml</loc>
