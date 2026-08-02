@@ -150,20 +150,50 @@ test('server-delivered meta description present', () => {
 test('links into the live app at ?chain=<Chain>', () => {
   assert.ok(html.includes('https://www.defi.garden/?chain=Big'), 'missing app deep link');
 });
-test('each pool row links to its detail page (/?pool=<id>) and shows its token', () => {
+test('each pool row links to its detail page (/?pool=<id>&src=seo_chain — 203) and shows its token', () => {
   const top = byChain['Big'].pools[0];
   assert.ok(top.pool, 'fixture pool missing an id');
-  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}"`),
-    'pool row not linked to its detail page');
+  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}&src=seo_chain"`),
+    'pool row not linked to its detail page with the seo_chain attribution tag');
   assert.ok(html.includes('class="cp-pool-link"'), 'missing pool link class');
   assert.ok(html.includes('<td>AAA</td>'), 'missing token column value');
 });
-test('pool row falls back to the chain app view when a pool has no id', () => {
+test('pool row falls back to the chain app view (tagged src=seo_chain — 203) when a pool has no id', () => {
   const noId = gen.renderChainPage({ chain: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7, tokens: ['Y'],
     pools: [{ symbol: 'Y', project: 'aave', chain: 'X', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
   // 173: the fallback link is the same appUrl the primary CTA uses, so it now
-  // carries the generator's own &minTvl= floor too.
-  assert.ok(noId.includes(`href="https://www.defi.garden/?chain=X&minTvl=${gen.MIN_POOL_TVL}"`), 'missing fallback link');
+  // carries the generator's own &minTvl= floor too. 203: the fallback branch
+  // is tagged exactly like the ?pool= branch — a row that falls back to the
+  // chain app view is the same attribution question, must not go untagged.
+  assert.ok(noId.includes(`href="https://www.defi.garden/?chain=X&minTvl=${gen.MIN_POOL_TVL}&src=seo_chain"`), 'missing tagged fallback link');
+});
+test('203 criterion 1: every cp-pool-link href carries src=seo_chain, and the count equals the visible row count', () => {
+  const anchors = html.match(/<a class="cp-pool-link" href="[^"]*"/g) || [];
+  assert.strictEqual(anchors.length, byChain['Big'].pools.length, 'cp-pool-link anchor count must equal the visible row count');
+  assert.ok(anchors.length > 0, 'fixture wiring check: expected >=1 cp-pool-link anchor');
+  anchors.forEach((a) => assert.ok(/[?&]src=seo_chain"$/.test(a), `every cp-pool-link href must carry src=seo_chain; got: ${a}`));
+});
+test('203 criterion 2: poolHrefFor(p, fallback) with NO third argument is byte-identical to the pre-203 function, both branches (shared with token pages, re-verified via the chain-page import)', () => {
+  const withId = { pool: 'abc-123' };
+  assert.strictEqual(tp.poolHrefFor(withId, 'https://www.defi.garden/?chain=X&minTvl=100000'),
+    'https://www.defi.garden/?pool=abc-123', 'pool-branch output must be byte-identical with no src arg');
+  const noId = {};
+  assert.strictEqual(tp.poolHrefFor(noId, 'https://www.defi.garden/?chain=X&minTvl=100000'),
+    'https://www.defi.garden/?chain=X&minTvl=100000', 'fallback-branch output must be byte-identical with no src arg');
+  [undefined, '', null, 0].forEach((falsySrc) => {
+    assert.strictEqual(tp.poolHrefFor(withId, 'https://www.defi.garden/?chain=X&minTvl=100000', falsySrc),
+      'https://www.defi.garden/?pool=abc-123', `falsy src (${JSON.stringify(falsySrc)}) must not tag the url`);
+  });
+});
+test('203 criterion 2: no ld+json block anywhere in generated output contains "src=" — JSON-LD stays clean', () => {
+  const ldJsonScripts = html.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g) || [];
+  assert.ok(ldJsonScripts.length > 0, 'fixture wiring check: expected >=1 ld+json block');
+  ldJsonScripts.forEach((block) => assert.ok(!/src=/.test(block), `ld+json block must never carry src=; got: ${block}`));
+});
+test('203 criterion 2: every ItemList url matches the clean pattern (no src, no other tracking param)', () => {
+  const items = extractLdJsonBlocks(html, 'ItemList')[0].itemListElement;
+  items.forEach((it) => assert.ok(/^https:\/\/www\.defi\.garden\/\?pool=[^&]+$/.test(it.url) || it.url === `https://www.defi.garden/?chain=${encodeURIComponent(byChain['Big'].chain)}`,
+    `ItemList url must be clean (no src); got: ${it.url}`));
 });
 test('renders >=1 real pool row with en-US formatted numbers', () => {
   assert.ok(/<td class="num">\d/.test(html), 'no formatted numeric cell');
@@ -245,8 +275,14 @@ test('exactly one valid ItemList block whose items EXACTLY match the visible tab
     const expectedUrl = p.pool
       ? `https://www.defi.garden/?pool=${encodeURIComponent(p.pool)}`
       : `https://www.defi.garden/?chain=${encodeURIComponent(big.chain)}`;
-    assert.strictEqual(items[i].url, expectedUrl, 'url must match the row\'s own link target');
-    assert.ok(html.includes(`href="${items[i].url}"`), 'ItemList url must actually appear as a rendered row link');
+    assert.strictEqual(items[i].url, expectedUrl, 'url must match the row\'s own link target (clean, no src)');
+    // 203 criterion 5 (replaces the old "href includes the clean url" check,
+    // strictly stronger): the ItemList url must be clean AND the rendered
+    // row href must be EXACTLY that clean url + the src attribution tag.
+    const sep = items[i].url.includes('?') ? '&' : '?';
+    const expectedRowHref = `${items[i].url}${sep}src=seo_chain`;
+    assert.ok(html.includes(`href="${expectedRowHref}"`),
+      `rendered row href must be exactly the clean ItemList url + src=seo_chain; expected href="${expectedRowHref}"`);
   });
 });
 test('exactly one valid Dataset block with required schema.org properties', () => {

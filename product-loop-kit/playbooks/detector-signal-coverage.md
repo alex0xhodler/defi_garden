@@ -475,6 +475,56 @@ miss with 181's contract/stale/drift split before deciding the gate's verdict; a
   Note also that `classifyLane()` is *transitive* — a Node-only test that requires `audit-app.js` lands in
   the **browser** lane. State the lane; do not report plain-lane coverage you do not have.
 
+## The fifth axis: does the allow-list model every CONSUMER? (added 2026-08-02, item 203)
+
+Axes 1-4 all ask about *reach* — which classes, what fraction, which population, under which rendering
+conditions. This one asks about a detector whose reach is perfect and whose **model of the world is wrong**.
+
+An allow-list detector ("every X must be one of the known-good X") is only as true as its enumeration of
+what produces X. `link-target-integrity` rule (a) asserts every query key on every owned link is a key this
+product routes on, and builds the allowed set by parsing `home.html`'s two router arrays plus a hardcoded
+`'lang'`. That is not a list of *legal keys*; it is a list of **keys the two routers read** — and it was
+written by someone looking at the routers. A third consumer (`analytics.js`'s `captureAcquisition()` list,
+which reads `utm_*`/`ref`/click-ids/`src` into every event) has always existed and the gate never knew.
+
+**The tell, and it is counter-intuitive:** the detector does not go quiet, it goes *loud on something
+correct*. Nothing looks broken until someone ships a legitimate value and the gate calls it a defect —
+here, tagging the estate's `?pool=` links would have fired a P1 on all 4,360 pages. So this axis is found
+by a **blocked correct change**, never by a clean tick. Axes 1-4 are found by asking what the detector
+misses; this one is found when the detector accuses you.
+
+### Steps
+
+1. **When a gate rejects a change you believe is correct, ask what the gate believes — before you edit it.**
+   The wrong question is "how do I get my value past this." The right one is "what proposition does this
+   allow-list encode, and is it true?" Read how the list is *built*, not what is in it.
+2. **Enumerate the real producers/consumers of the thing being validated.** Grep for every reader of the
+   value class (here: every place a query param is read — both routers, `analytics.js`, `translations.js`).
+   A source the list was never derived from is the finding.
+3. **Check whether the file already documents the gap.** Allow-lists accrete explicit exceptions, and each
+   one is a consumer someone hit before you and patched by hand. Item 203's fix was one line above the bug:
+   `'lang'` was already allowed explicitly *"because it is read by translations.js, not the router."* One
+   hand-patched exception = a missing axis; two = the enumeration is the bug, not the entries.
+4. **Derive the new source, never re-type it.** Parse the real list at scan time (item 166's bug class: a
+   second copy that drifts and silently allows keys nothing reads). Inherit the existing failure path's
+   shape so callers need no new branching, and **return null-and-skip, never a wildcard**, on parse failure.
+5. **Prove the widened gate still catches things — with a mutation on the NEW source.** This is the whole
+   safety argument and it is the one check the builder's own tests cannot make (a wildcard makes every
+   positive test pass *more* easily; green looks identical either way). Three probes, and the third is the
+   one that matters: an unknown key still fires; corrupting the new source degrades to a skipped rule;
+   and removing a **different** key from the new source makes real usage of *that* key flagged again.
+   Only the third distinguishes "derived per-key" from "any list at all ⇒ blanket pass."
+
+**Traps specific to this axis:**
+- **The shortcut that breaks routing.** The obvious fix is to add the key to the router's own array. Here
+  that would have made `src` an IA-router *trigger* (`needsAnalytics`/`needsPlanner`), sending bare
+  `/?src=x` to the wrong face of the product. Widening the *validator* and widening the *router* look
+  similar in a diff and are not remotely the same change.
+- **Widening to unblock yourself is indistinguishable from widening because it is true** — in the diff, in
+  the tests, and in the passing CI. Only the step-5 mutation tells them apart, so it is not optional.
+- **The diagnostic string outlives the model.** Rule (a)'s message still names only the two router arrays;
+  a message that lists the old sources teaches the next reader the old, false model.
+
 **Provenance:** distilled from item 169 (`specs/169.md`, `169-notes.md`) — the `link-target-integrity` signal —
 generalising the pattern named in its backlog row and previously hit by items 148 → 159/160 → 166/167.
 Extended by item 175 (`specs/175.md` Territory notes T1–T8, `175-notes.md`): the three-level model, the
@@ -484,4 +534,4 @@ severity rule. Extended by item 184 (`specs/184.md`, `184-notes.md`, `184-pr.md`
 estate — live-population selection, the three run-states, the 100%-today branch condition for a fatal
 contract rule, and the "ship it green, prove it can go red" standard. Extended by item 197's build (`specs/197.md`, `197-notes.md`, `197-pr.md`): the three transplant traps —
 the classifier fallthrough, the sub-rule whose precondition fails (and stamping the omission into the output),
-and never funding a new population out of the incumbent's budget. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact. Extended by item 200 (`specs/200.md`, `200-notes.md`, `200-pr.md`): ask the lens question per surface KIND (one covered row makes the whole checker read as covered — `dark: true` existed on 2 of 4,257 lines, both pool-detail, while the entire landing→planner→bloom funnel had none), assert the matrix as a property rather than a name list, and the paired "a lens that cannot see" trap — a condition added to a driver that has no check for it is decorative coverage. Extended by item 201 (`specs/201.md`, `201-notes.md`, `201-pr.md`): the gated-shut variant — the check exists, has a call site and a generic body, but the call site's own trigger predicate excludes the lens value being added (`s.width <= 360` evaluated at 768); ship the gate and the surfaces as one item, widen the predicate rather than adding an opt-in flag, prove non-vacuity AT the new lens value, and treat a prior test's verbatim source literal as a co-move that must itself be red-proved.
+and never funding a new population out of the incumbent's budget. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact. Extended by item 200 (`specs/200.md`, `200-notes.md`, `200-pr.md`): ask the lens question per surface KIND (one covered row makes the whole checker read as covered — `dark: true` existed on 2 of 4,257 lines, both pool-detail, while the entire landing→planner→bloom funnel had none), assert the matrix as a property rather than a name list, and the paired "a lens that cannot see" trap — a condition added to a driver that has no check for it is decorative coverage. Extended by item 201 (`specs/201.md`, `201-notes.md`, `201-pr.md`): the gated-shut variant — the check exists, has a call site and a generic body, but the call site's own trigger predicate excludes the lens value being added (`s.width <= 360` evaluated at 768); ship the gate and the surfaces as one item, widen the predicate rather than adding an opt-in flag, prove non-vacuity AT the new lens value, and treat a prior test's verbatim source literal as a co-move that must itself be red-proved. Extended by item 203 (`specs/203.md`, `203-notes.md`, `203-pr.md`): the CONSUMER-enumeration axis — an allow-list is only as true as its list of what produces the thing it validates, it is discovered by a *blocked correct change* rather than a missed defect, the file's own hand-patched exceptions (`'lang'`) are the signpost, and the widened set must be proved non-vacuous by mutating the NEW source on a key other than the one that motivated the item.

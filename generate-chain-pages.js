@@ -242,8 +242,10 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
     // urlParams.pool). Falls back to this chain's app view if no id. Shared
-    // with the ItemList JSON-LD above via poolHrefFor so they can't drift.
-    const poolHref = poolHrefFor(p, appUrl);
+    // with the ItemList JSON-LD above via poolHrefFor so they can't drift —
+    // the visible row is tagged 'seo_chain' (203); the JSON-LD call above is
+    // NOT, so it stays clean (spec 203 §6, deliberate deviation).
+    const poolHref = poolHrefFor(p, appUrl, 'seo_chain');
     return `        <tr>
           <td>${escapeHtml(p.symbol || '—')}</td>
           <td><a class="cp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')} &rarr;</a></td>
