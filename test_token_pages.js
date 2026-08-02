@@ -555,7 +555,9 @@ test('renderTokenPage always renders a By category nav derived from on-page pool
   // 173: categoryLinksFor builds off appUrl, which now carries the generator's
   // own &minTvl= floor — so the category link inherits it too (single
   // injection site, no re-typed literal).
-  assert.ok(html.includes(`href="https://www.defi.garden/?token=BIG&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending"`), 'missing category link');
+  // 204: the category link is a visible estate->app render site, so it now
+  // carries the estate's arrival tag (&src=seo_token) via withSrc.
+  assert.ok(html.includes(`href="https://www.defi.garden/?token=BIG&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending&src=seo_token"`), 'missing category link');
 });
 test('cross-links reuse the related nav styling via an added class token, without colliding with the exact class="related" tests', () => {
   const html = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12', [{ chain: 'Ethereum', slug: 'ethereum' }]);

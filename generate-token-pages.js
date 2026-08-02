@@ -582,6 +582,19 @@ ${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t)}   
 `;
 }
 
+/** Appends an internal-link attribution tag (spec 203/204) to `url`:
+ * `src=<encodeURIComponent(src)>`, joined with `&` if `url` already carries
+ * a query string, `?` otherwise. Falsy `src` (undefined/''/null/0) returns
+ * `url` byte-identically — untouched, no trailing separator. Extracted
+ * (spec 204) from poolHrefFor's pre-existing tail so the same tagging logic
+ * can be reused at every visible-render call site without duplicating the
+ * separator arithmetic. */
+function withSrc(url, src) {
+  if (!src) return url;
+  const sep = url.includes('?') ? '&' : '?';
+  return `${url}${sep}src=${encodeURIComponent(src)}`;
+}
+
 /** Resolves the same pool-detail (or fallback) URL a visible table row links
  * to (`p.pool ? /?pool=<id> : fallbackUrl`) — shared by row rendering AND
  * ItemList JSON-LD so the two can never drift (046: schema must match the
@@ -596,12 +609,10 @@ ${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t)}   
  * (it deliberately never passes a third argument, spec 203 §6). Present ->
  * appended to WHICHEVER branch was chosen (the `?pool=` link or
  * `fallbackUrl`), with the correct separator for whichever query the target
- * URL already carries (or none). */
+ * URL already carries (or none) — via withSrc (spec 204). */
 function poolHrefFor(p, fallbackUrl, src) {
   const url = p.pool ? `${SITE_URL}/?pool=${encodeURIComponent(p.pool)}` : fallbackUrl;
-  if (!src) return url;
-  const sep = url.includes('?') ? '&' : '?';
-  return `${url}${sep}src=${encodeURIComponent(src)}`;
+  return withSrc(url, src);
 }
 
 /** ItemList JSON-LD (046) for a ranked pool table: itemListElement mirrors
@@ -786,7 +797,11 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const chainNavItems = (chainLinks || []).map(c =>
     ({ label: c.chain, href: `${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${c.slug}` }));
   const chainLinksBlock = renderLinkNavHtml(chainNavItems, t('tcpChainsAriaLabel'), t('tcpAvailableOnHeading'), 'xlink-chains');
-  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: c.url }));
+  // 204: category nav links are a visible estate->app boundary, tagged the
+  // same as the main CTA below — categoryLinksFor itself stays untouched
+  // (shared, unaware of which generator called it); the tag is applied here,
+  // at the render site, over every item it returned (never skipped/duplicated).
+  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: withSrc(c.url, 'seo_token') }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
@@ -883,7 +898,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}
     <h1>${escapeHtml(t('tcpTokenHeading', rec.symbol))}</h1>
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="intro">${intro}</p>
-${yieldHeadlineBlock}    <a class="tp-cta" href="${appUrl}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
+${yieldHeadlineBlock}    <a class="tp-cta" href="${withSrc(appUrl, 'seo_token')}">${escapeHtml(t('tcpTokenCta', rec.symbol))}</a>
     <div class="tp-card">
     <div class="scroll">
     <table>
@@ -1086,7 +1101,7 @@ module.exports = {
   rankTopTokens, renderTokenPage, relatedFor, renderTokenSitemap, tokenSlug, isQualifyingPool, isAnomalousApy,
   isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap, tokenSymbols,
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
-  poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
+  poolHrefFor, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, loadFixturePools,
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,

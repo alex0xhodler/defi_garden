@@ -497,8 +497,10 @@ test('renderChainPage always renders a By category nav derived from on-page pool
   // 173: categoryLinksFor builds off appUrl, which now carries the generator's
   // own &minTvl= floor — so the category link inherits it too (single
   // injection site, no re-typed literal).
-  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending"`), 'missing Lending category link');
-  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=${encodeURIComponent('LP/DEX')}"`), 'missing LP/DEX category link');
+  // 204: the category link is a visible estate->app render site, so it now
+  // carries the estate's arrival tag (&src=seo_chain) via withSrc.
+  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending&src=seo_chain"`), 'missing Lending category link');
+  assert.ok(html.includes(`href="https://www.defi.garden/?chain=Big&minTvl=${gen.MIN_POOL_TVL}&poolTypes=${encodeURIComponent('LP/DEX')}&src=seo_chain"`), 'missing LP/DEX category link');
 });
 test('cross-links reuse the related nav styling via an added class token, without colliding with the exact class="related" tests', () => {
   const html = gen.renderChainPage(byChain['Big'], [], '2026-07-12', [{ symbol: 'AAA', slug: 'aaa' }]);
