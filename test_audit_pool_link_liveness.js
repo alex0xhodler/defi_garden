@@ -80,7 +80,7 @@ const UNPARSEABLE_LINE = '<p class="note">Last updated whenever</p>';
 // cells, only href="..." attributes and anchor class/href.
 function buildPage({ anchors = [], bareLinks = [], updatedLine = FRESH_LINE }) {
   const anchorHtml = anchors
-    .map((id) => `<a class="tp-pool-link" href="https://www.defi.garden/?pool=${id}">x &rarr;</a>`)
+    .map((id) => `<a class="tp-pool-link" href="https://www.defi.garden/?pool=${id}&src=seo_token">x &rarr;</a>`)
     .join('\n');
   const bareHtml = bareLinks
     .map((id) => `<a href="https://www.defi.garden/?pool=${id}">y &rarr;</a>`)
@@ -312,19 +312,24 @@ async function main() {
     });
 
     // ---- The stale branch, on a REAL page copied to scratch (181's method verbatim) ----
-    const ANCHOR_HREF_RE = /(class="tp-pool-link" href="https:\/\/www\.defi\.garden\/\?pool=)([0-9a-f-]+)(")/i;
+    // Group 3 is an arbitrary post-id query tail (e.g. "&src=seo_token", item
+    // 203) — tolerated AND preserved through the id swap below, so this stays
+    // a STALE failure (the id is still backed by its own tp-pool-link anchor,
+    // tail intact) and never degrades into a CONTRACT failure.
+    const ANCHOR_HREF_RE = /(class="tp-pool-link" href="https:\/\/www\.defi\.garden\/\?pool=)([0-9a-f-]+)([^"]*)(")/i;
     let backdatedFile;
     await test('REAL PAGE, backdated copy: swapping one live id for a syntactically-valid nonexistent uuid + backdating "Last updated" flips the gate RED with a stale suspect', () => {
       const sourceHtml = fs.readFileSync(usdcAbs, 'utf8');
       const m = sourceHtml.match(ANCHOR_HREF_RE);
       assert(m, 'fixture wiring check: tokens/usdc.html must contain at least one class="tp-pool-link" href="https://www.defi.garden/?pool=<id>" anchor — its shape moved out from under this test');
+      const originalTail = m[3];
       const fakeId = '00000000-0000-4000-8000-000000000000';
       assert(!liveIdsSet.has(fakeId), 'fixture wiring check: the synthetic dead id must genuinely not be live right now');
 
-      let modified = sourceHtml.replace(ANCHOR_HREF_RE, `$1${fakeId}$3`);
+      let modified = sourceHtml.replace(ANCHOR_HREF_RE, `$1${fakeId}$3$4`);
       assert(modified !== sourceHtml, 'fixture construction did not actually replace the anchor href');
-      assert(modified.includes(`class="tp-pool-link" href="https://www.defi.garden/?pool=${fakeId}"`),
-        'the swapped id must still be backed by its own tp-pool-link anchor (this must be a stale failure, never a contract failure)');
+      assert(modified.includes(`class="tp-pool-link" href="https://www.defi.garden/?pool=${fakeId}${originalTail}"`),
+        'the swapped id must still be backed by its own tp-pool-link anchor, its query tail intact (this must be a stale failure, never a contract failure)');
 
       // Backdate "Last updated" well past the budget, relative to the REAL
       // clock (this scan intentionally does NOT inject `today` — it must

@@ -114,7 +114,7 @@ test('the `bloom` kind branch exists and reuses existing detector vocabulary onl
   assertT(branch.includes("'.gp-checkout-cta'"), 'bloom branch does not check the .gp-checkout-cta primary control');
   assertT(branch.includes("'dead-cta'"), 'bloom branch missing dead-cta check');
   assertT(branch.includes('s.ko') && branch.includes("'i18n'"), 'bloom branch missing the -ko-scoped i18n check');
-  assertT(branch.includes('checkResponsive(page, s, findings') && branch.includes('s.width <= 360'), 'bloom branch missing the 360-scoped responsive check');
+  assertT(branch.includes('checkResponsive(page, s, findings') && branch.includes('s.width <= 768'), 'bloom branch missing the 360+768-scoped responsive check (widened by backlog 201)');
   assertT(branch.includes("'page-error'"), 'bloom branch missing page-error check');
   // No new detector name invented — every check string used must already
   // appear elsewhere in the file (i.e. pre-exist this branch's own additions

@@ -61,6 +61,22 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
      → **Rule F is the most dangerous red to ignore**, because it fails in the permissive direction:
      once the threshold is stale, the *real* event it was written to catch (here, a genuine third call
      site) produces a failure message indistinguishable from today's noise. See Resolution F.
+   - **Decision rule H — rule-B *widening* variant** (item 209): rule B's usual shape is a pivot (the
+     product moved *away* from the assertion). H is the shape where **the product got strictly BETTER and
+     the guard went red for it** — a later item *widened* a boundary the assertion pins as a literal.
+     Three tells, any one of which is enough to stop reading code and start reading LOG/spec history:
+     1. **The failing assertion is a *precondition*, not the guarantee** — its message says "fixture
+        wiring check", "expected N …", "must contain …". The test's actual subject-matter assertions are
+        all green. (Contrast rule F, where the stale aggregate sits among green *specific* assertions;
+        here the stale literal sits among green *behavioural* ones.)
+     2. **Observed is a SUPERSET of expected, not a contradiction of it** — `got 6` where 3 were
+        expected; a URL carrying an *extra* param; `s.width <= 768` where the test greps `<= 360`. A
+        regression shrinks or corrupts; a widening adds.
+     3. **The widening's own test is green and the product code names the item in a comment** — item
+        209's three causes each left one: `// responsive — 360 + 768 surfaces (widened by backlog 201)`,
+        `lensPick: true` + spec 199 §4, and 203's `&src=` rail with `test_seo_src_attribution.js` green.
+        `grep -rn "widened by backlog\|backlog [0-9]*" <the product file>` finds the owner in one command.
+     → Resolution H. **Never revert the widening**; never bump the literal and stop there.
    - **Decision rule G — deleted-fixture control** (item 185): a positive control that injects nothing
      and instead **points at a committed artifact that another item deliberately deleted**. Distinct
      from D: nothing suppresses the value on the way to the screen — the input simply is not there any
@@ -126,6 +142,29 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
   `git status --porcelain` is clean of the fixture after the run. And add the assertion whose absence
   made the rot silent: **assert the surface actually ran** (`surfacesCovered` contains it), not merely
   that findings came back the way you expected.
+- **H** → **re-point at the CLASS, never at the new literal.** Bumping `360` to `768` or `3` to `6` buys
+  you exactly one widening of runway and re-reds on the next one. Three moves, all in the same diff:
+  1. **Tolerate-and-preserve** rather than match-exactly, wherever the widening added *material* to a
+     shape you parse. 209's regex went `([0-9a-f-]+)(")` → `([0-9a-f-]+)([^"]*)(")` and threaded the
+     captured tail back through the mutation, so the id-swap it performs stays a **stale** failure and
+     can never silently become a **contract** failure — the distinction the test exists to draw.
+  2. **Partition, then classify the remainder.** When a widening adds a new *kind* into a collection the
+     test enumerates, do not filter the new kind away and move on — that is how the next kind gets in
+     unnoticed. Assert the count of the kind under test **and** that every remaining entry is a
+     *recognised* other kind (209: `rotationSurfaces.length === poolSample` **plus**
+     `nonRotationSurfaces.every(s => s.lensPick === true)`), so an unclassified third kind still fails.
+     **This added assertion is the item's real deliverable** — it converts a literal that drifts silently
+     into one that fails loudly the next time someone widens the collection.
+  3. **Re-derive every downstream use of the stale value in the same diff**, including the sites that are
+     still green. 209 found 4 uses of a `pickNames` list that had silently ballooned from 3 names to 6;
+     only 2 were failing, because the other 2 read counters that never consult the new kind. Leaving
+     those alone keeps a green test quietly building a wider surface set than it claims to.
+  Then prove non-vacuity **per repaired assertion**, by mutating the *input* on a scratch copy — a
+  missing call AND an unscoped call must both still fail (209 proof 3), a wrong count AND an
+  unclassified kind must both still fail (proof 2). One-directional proof is how a vacuous green ships.
+- **The prevention, worth one grep at the end of any widening item:** `grep -rn '<the old literal>' test_*.js`
+  before you ship the widening. All three of 209's reds would have cost their authors one line each, and
+  instead sat red across at least two later runs, degrading the only pre-ship gate the repo has.
 - In all of them: if the red sat in an `&&` chain, say in LOG.md how far the chain gets *after* your fix
   and which file is the next stopper — the next loop inherits the fact instead of rediscovering it.
 
@@ -292,6 +331,20 @@ three product-change causes here are the same omission, and the cost lands on wh
 gate. The item's own two genuine findings (occluded static hub links in landing mode; `/plan.html`
 carrying no hub-link surface) were surfaced by a builder refusing to adjust a red expectation to match
 observed output — the discipline that keeps "make it green" from eating a real defect.
+
+Decision rule **H** and its resolution added from item **209** (2026-08-02) — the run that finally took the
+**5 pre-existing reds the item-206 verifier had found on an unmodified `origin/main` worktree** and filed
+*"as-is for a future item to address."* Four of the five, in three files, were one class nothing here had a
+slot for: **three shipped widenings that never updated their witnesses** — 203's `&src=seo_token`
+attribution tail on estate pool anchors (regex matched 0 anchors), 199's `lensPick` surfaces landing in an
+`extraSurfaces` array two pre-199 assertions equated with "the rotation picks" (3 picks arrived as 6
+entries), and 201 widening the bloom responsive check from `s.width <= 360` to `<= 768` while the guard
+still grepped the retired literal. **Every one of the four failing assertions was a `fixture wiring check`
+— a precondition guarding a guard** — while the behavioural assertions around them stayed green, which is
+why two prior runs read the reds as background noise. The distribution is the lesson, and it inverts the
+one item 176 taught: 176's causes were behaviour *moving*, 209's were behaviour *improving*, and the guards
+failed identically. Fix was 42 insertions / 12 deletions across three test files, zero product files
+touched.
 
 Decision rule **E** and its resolution added from item **181** (2026-07-30) — the class the previous four
 rules had no slot for, and which three consecutive runs (175, 177, 180) each hand-baselined as
