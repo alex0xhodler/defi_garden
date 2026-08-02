@@ -597,3 +597,58 @@ purpose; inheriting one as a population silently inherits its filter.
 SEO-lander → pool-detail journey in the loop's history (`/tokens/jitosol` → `/?pool=fdcccd6a-…`, a
 $1,500,009 Kamino pool) out of the prod `page_view` URL breakdown and asking which of this repo's checks
 could have rendered that page. None could.
+
+### Resolution — what widening a population actually costs (206 shipped, 2026-08-02)
+
+The audit leg of the three above is fixed. The shape of the fix generalises; reuse it rather than
+re-deriving it.
+
+**The population expression, and why the intersection is not optional:**
+
+```
+candidates = artifact-nearest-to-hand  ∪  (arrival population  ∩  the set you can actually RENDER)
+```
+
+Here: `snapshot ids ∪ (estate ?pool= ids ∩ live pool ids)` — 736 → **3,985 union / 3,984 reachable**.
+The `∩ live` leg is a **safety rule, not an optimisation**: a member of the arrival population with no
+backing record has no fixture record, so its surface renders the honest empty state and the scanner
+raises a dead-end that does not exist in production. Intersecting makes that structurally impossible
+instead of merely unlikely, and it costs nothing when the arrival population is healthy (3,669 of 3,669
+resolved live). Every degrade path — fetch error, kill switch, prescan off, shape-valid-but-not-live —
+must contribute **zero** candidates and **say so** in the reported block plus stderr. A population that
+silently widens to members it cannot render is worse than the narrow one it replaced.
+
+**Two things that pass the headline criterion while breaking silently.** Both are worth checking by hand
+on any population widening, because a "candidateCount > N" acceptance test is green for both:
+
+1. **A seen-memory cap below the new population.** `ROTATION_SEEN_CAP` was 2,000 against 3,984
+   candidates. Drop-oldest memory that can never cover the population means `unseen` never reaches zero,
+   `computeRotation()`'s wrap branch becomes permanently dead code, and the cycle counter never advances
+   — the never-audited-first guarantee evaporates while every number in the report still looks right.
+   This is the identical trap `STATIC_ROTATION_SEEN_CAP`'s own comment documents from 196; the second
+   occurrence in two months. **Check the cap against the NEW population, every time.** Raised to 12,000.
+2. **Merging the new records into the existing fixture body.** One merged body is the smaller diff and
+   changes what pre-existing surfaces see — here `grid-loading`, the one `forceLive` surface, would have
+   started receiving thousands of pools it had never seen. Build a **second** body served only to
+   surfaces carrying the new marker; every pre-existing surface's fixture stays byte-identical.
+
+**Hoist the extractor, never copy it.** The `?pool=` extraction already existed inside 184's liveness
+block. Two copies of an extraction rule drift, and a drifted population is the exact failure this axis
+exists to fix — so it became one `extractDeepLinkPoolIds()` helper with two callers. Cost of running it
+unconditionally: 1,025 ms over 4,304 pages. Cheap; measure yours and write the number down.
+
+**What the widening actually bought, honestly stated:** on the first real run, **27 of 32** rotation
+picks were sub-rail — pools the old population could never have reached. Findings on them so far: zero,
+across the verifier's three real non-snapshot renders and the first full tick. That is a *proven
+non-vacuous* clean run (the positive control fires on demand), not the old vacuous one — which is a real
+result per LEARNINGS 2026-07-27 takeaway 2, and the reason the spec's decision rule accepts it.
+
+**The cost nobody budgets for: cycle time.** At the unchanged 32 picks/tick, a full cycle over 3,984
+candidates takes **~125 daily ticks (~4 months)**, against ~23 before. Widening a population without
+raising the per-tick budget converts a fast shallow sweep into a slow deep one. That is usually the right
+trade — arrival-reachable coverage beats re-auditing flagships — but state it in the spec rather than
+discovering it a quarter later, and do not "fix" it by quietly raising the sample budget: that trades
+against the wall-clock cap, which is a separate decision with its own guard (192).
+
+**Provenance:** item 206, shipped 2026-08-02, verifier PASS 9/9 tier HIGH. Items 207 (the kpi-backfill
+leg of the same three) and 208 (the structural history/kpi leg, deliberately measure-then-decide) remain.

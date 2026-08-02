@@ -430,7 +430,15 @@ async function main() {
     try {
       // persistRotationState deliberately OMITTED — this is the exact shape
       // every existing test_audit_*.js call site already uses.
-      await runAudit({ port: 8951, snapshotPath: snapPath, only: ['__no_such_surface__'], poolPrescan: false, poolSample: 1, rotationStatePath: rotationPath, outPath });
+      // backlog 206 — poolLiveness:false keeps this tiny synthetic fixture
+      // isolated from the real committed estate + a real live-pool fetch
+      // (buildPoolSurfaces()'s widened deep-linked leg, additive by
+      // default): without it, runAudit() would pull in thousands of REAL
+      // production pool ids as rotation candidates alongside this test's own
+      // 6-pool fixture, which is not what this test is about. Same
+      // isolation convention every other opts.* kill switch in this file
+      // already gets (poolPrescan:false, etc.).
+      await runAudit({ port: 8951, snapshotPath: snapPath, only: ['__no_such_surface__'], poolPrescan: false, poolSample: 1, poolLiveness: false, rotationStatePath: rotationPath, outPath });
       assert(!fs.existsSync(rotationPath), `expected NO rotation state file to be written by a library runAudit() call, but found one at ${rotationPath}`);
     } finally {
       try { fs.unlinkSync(snapPath); } catch (e) {}
@@ -459,8 +467,10 @@ async function main() {
     const priorEnv = process.env.AUDIT_POOL_SAMPLE;
     process.env.AUDIT_POOL_SAMPLE = '0';
     try {
+      // backlog 206 — poolLiveness:false, same isolation reasoning as the
+      // test immediately above (this file's first fixture-snapshot call).
       const r1 = await runAudit({
-        port: 8952, snapshotPath: snapPath, only: ['__no_such_surface__'], poolPrescan: false,
+        port: 8952, snapshotPath: snapPath, only: ['__no_such_surface__'], poolPrescan: false, poolLiveness: false,
         rotationStatePath: rotationPath, persistRotationState: true, outPath: outPath1
       });
       assert(fs.existsSync(rotationPath), 'expected the rotation state file to exist after a persisting run');
@@ -472,7 +482,7 @@ async function main() {
       assert(r1.poolRotation && typeof r1.poolRotation.cycle === 'number', `expected result.poolRotation to be exposed, got ${JSON.stringify(r1.poolRotation)}`);
 
       const r2 = await runAudit({
-        port: 8953, snapshotPath: snapPath, only: ['__no_such_surface__'], poolPrescan: false,
+        port: 8953, snapshotPath: snapPath, only: ['__no_such_surface__'], poolPrescan: false, poolLiveness: false,
         rotationStatePath: rotationPath, persistRotationState: true, outPath: outPath2
       });
       const raw2 = fs.readFileSync(rotationPath, 'utf8');
@@ -516,8 +526,15 @@ async function main() {
     try { fs.unlinkSync(rotationPath); } catch (e) {}
     const outPath = tmpOut('guard-tiny');
     try {
+      // backlog 206 — poolLiveness:false so runAudit()'s own internal
+      // buildPoolSurfaces() call recomputes rotation picks against this
+      // SAME 13-pool fixture the pre-computation above used (not a widened
+      // real-estate population) — otherwise the actual picks would be real
+      // production uuids that never match `pickNames` (computed from the
+      // fixture alone), and every assertion below would be checking against
+      // surfaces that were never actually candidates this run.
       const result = await runAudit({
-        port: 8954, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        port: 8954, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample, poolLiveness: false,
         rotationStatePath: rotationPath, timeBudgetMs: 1,
         only: ['pool-detail', 'landing', ...pickNames],
         outPath
@@ -557,8 +574,10 @@ async function main() {
       // timeBudgetMs deliberately OMITTED — exercises DEFAULT_TIME_BUDGET_MS,
       // not an override, so this proves the DEFAULT is inert, not merely that
       // a large override would be.
+      // backlog 206 — poolLiveness:false, same fixture-isolation reasoning
+      // as the guard test immediately above.
       const result = await runAudit({
-        port: 8957, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        port: 8957, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample, poolLiveness: false,
         rotationStatePath: rotationPath,
         only: ['pool-detail', ...pickNames],
         outPath
@@ -601,8 +620,13 @@ async function main() {
       const pickNames1 = pre1.extraSurfaces.map((s) => s.name);
 
       // Run 1: tiny budget -> every rotation pick skipped, persisted.
+      // backlog 206 — poolLiveness:false, same fixture-isolation reasoning
+      // as the 192 guard tests above (this test's `only` allowlist is keyed
+      // off `pickNames1`, computed from this SAME 13-pool fixture; without
+      // the kill switch, runAudit()'s internal recomputation would widen
+      // against the real estate and never match pickNames1 at all).
       const r1 = await runAudit({
-        port: 8958, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        port: 8958, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample, poolLiveness: false,
         rotationStatePath: rotationPath, persistRotationState: true, timeBudgetMs: 1,
         only: ['pool-detail', ...pickNames1], outPath: outPath1
       });
@@ -624,7 +648,7 @@ async function main() {
       // same set (never by waiting for real exhaustion; this is the
       // deterministic proof).
       const r2 = await runAudit({
-        port: 8959, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        port: 8959, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample, poolLiveness: false,
         rotationStatePath: rotationPath, persistRotationState: true,
         only: ['pool-detail', ...pickNames1], outPath: outPath2
       });
@@ -704,8 +728,10 @@ async function main() {
       // already-seen fill-from-seen ids AND the never-before-seen id — land
       // in skippedRotationIds together, mixed, exactly the shape
       // audit-app.js:3449-3450's baseSeenSet filter exists to distinguish.
+      // backlog 206 — poolLiveness:false, same fixture-isolation reasoning
+      // as every other fixture-snapshot runAudit() call above.
       const result = await runAudit({
-        port: 8960, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample,
+        port: 8960, snapshotPath: snapPath, poolSeed: seed, poolPrescan: false, poolSample, poolLiveness: false,
         rotationStatePath: rotationPath, persistRotationState: true, timeBudgetMs: 1,
         only: ['pool-detail', ...pickNames], outPath
       });
