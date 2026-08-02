@@ -30,7 +30,14 @@ Steps:
   4. **Check the gate still contains everything.** `node run-tests.js --list` must equal
      `package.json`'s `test:serial` chain — the runner parses that string rather than holding its own
      copy, precisely so a new test file cannot be added to one place and forgotten in the other.
-     If you add a test file, append it to `test:serial`; nothing else needs touching.
+     If you add a test file, append it to `test:serial`; nothing else needs touching. This step used to
+     be enforced by human memory alone, and memory lost: measured on `main` @ `a4dbd99cd` (item 205),
+     **7 of 127** `test_*.js` files on disk had accumulated over roughly six months with no wiring into
+     `test:serial` at all — not red, not skipped, just absent from every count. `test_test_registry.js`
+     now runs this exact check as part of `test:serial` itself (no orphans / no ghosts / no duplicates /
+     parse integrity, plus a self-defeat case proving it can go red — see specs/205.md, 205-notes.md).
+     Treat this step as a description of what that test enforces, not a substitute for it: a red from
+     `test_test_registry.js` means this step was violated again.
   5. **Before trusting any check that returned a clean result, prove it can return a dirty one.**
      Mutate the thing under test, watch the check go red, restore, `md5sum`-confirm byte-identical.
      A filter that has never been shown to fail is not evidence of health — see
@@ -138,3 +145,10 @@ class, one file earlier), and item **162**'s `EADDRINUSE` container-contention n
 Related: `pre-existing-red-triage.md` (is this red mine?), `ci-signal-honesty.md` (what CI green means),
 `loop-container-contention.md` (files moving under a subagent), `derived-number-rails.md` (prove a
 check can fail).
+
+Provenance: item **205** (2026-08-02) — `specs/205.md`, `205-notes.md`. Step 4's "if you add a test
+file, append it to `test:serial`" had been a human-memory rail with nothing enforcing it since item
+163 introduced it; 205 measured the accumulated damage (7 of 127 `test_*.js` files orphaned, ~6 months)
+and closed it with `test_test_registry.js`, wired into `test:serial` itself. Same disease as the 186
+provenance note above, one level up: there it was a hand-rolled scanner never shown to fail; here it was
+a step of prose never given a checker at all.

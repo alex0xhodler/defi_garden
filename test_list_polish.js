@@ -18,18 +18,19 @@
    Run: node test_list_polish.js */
 const http = require('http');
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
 const { chromium } = require('playwright');
 
 const PORT = 8795;
 const ROOT = __dirname;
-const SCRATCH = '/tmp/claude-0/-home-user-defi-garden/f3b411fb-6502-5242-98d4-1cc4500d77dc/scratchpad';
+const SCRATCH = os.tmpdir();
 const MIME = {
   '.html': 'text/html', '.js': 'application/javascript', '.css': 'text/css',
   '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2',
   '.png': 'image/png', '.txt': 'text/plain', '.xml': 'application/xml'
 };
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com/i;
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com|icons\.llamao\.fi/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 // DefiLlama-shaped fixture (mirrors test_list_default.js): sized above
