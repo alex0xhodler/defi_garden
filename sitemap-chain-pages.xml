@@ -196,12 +196,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/filecoin</loc>
+    <loc>https://www.defi.garden/chains/cardano</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/cardano</loc>
+    <loc>https://www.defi.garden/chains/filecoin</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -256,17 +256,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/celo</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/bifrost-network</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/flow</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
