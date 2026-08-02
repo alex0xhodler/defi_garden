@@ -516,9 +516,18 @@ async function main() {
     const freshState = { schemaVersion: 1, cycle: 0, seen: [] };
 
     const pre = buildPoolSurfaces({ pools, poolSeed: seed, poolPrescan: false, poolSample, rotationState: freshState });
-    const pickNames = pre.extraSurfaces.map((s) => s.name);
+    // backlog 199 — buildPoolSurfaces() now also appends lens surfaces
+    // (lensPick:true, deliberately never rotationPick:true) into the same
+    // extraSurfaces array. Partition instead of assuming extraSurfaces IS
+    // the rotation picks: assert the rotationPick COUNT, and that every
+    // remaining entry is a classified lens pick (a third, unclassified kind
+    // must still fail this check). `pickNames` stays ROTATION-only from here
+    // down, reproducing the pre-199 `only:`/surfacesCovered scope exactly.
+    const rotationSurfaces = pre.extraSurfaces.filter((s) => s.rotationPick === true);
+    const nonRotationSurfaces = pre.extraSurfaces.filter((s) => s.rotationPick !== true);
+    const pickNames = rotationSurfaces.map((s) => s.name);
     assert(pickNames.length === poolSample, `fixture wiring check: expected ${poolSample} pre-computed rotation picks, got ${pickNames.length}: ${JSON.stringify(pickNames)}`);
-    assert(pre.extraSurfaces.every((s) => s.rotationPick === true), `fixture wiring check: expected every pre-computed extraSurfaces entry to carry rotationPick:true (no prescan promotion in this fixture), got ${JSON.stringify(pre.extraSurfaces)}`);
+    assert(nonRotationSurfaces.every((s) => s.lensPick === true), `fixture wiring check: expected every non-rotationPick extraSurfaces entry to be a lensPick (no prescan promotion in this fixture, no third kind), got ${JSON.stringify(nonRotationSurfaces)}`);
 
     const snapPath = path.join(os.tmpdir(), `audit-fixture-snapshot-192-guard-${process.pid}.json`);
     fs.writeFileSync(snapPath, JSON.stringify({ pools }));
@@ -563,7 +572,12 @@ async function main() {
     const freshState = { schemaVersion: 1, cycle: 0, seen: [] };
 
     const pre = buildPoolSurfaces({ pools, poolSeed: seed, poolPrescan: false, poolSample, rotationState: freshState });
-    const pickNames = pre.extraSurfaces.map((s) => s.name);
+    // backlog 199 — same rotation-only re-derivation as the guard test above
+    // (see its comment): this test's own verdict doesn't turn on it (lens
+    // surfaces render fine under the normal budget too), but `pickNames`
+    // must stay the pre-199 rotation-only scope for `only:`/surfacesCovered
+    // to keep meaning what it always meant.
+    const pickNames = pre.extraSurfaces.filter((s) => s.rotationPick === true).map((s) => s.name);
 
     const snapPath = path.join(os.tmpdir(), `audit-fixture-snapshot-192-inert-${process.pid}.json`);
     fs.writeFileSync(snapPath, JSON.stringify({ pools }));
@@ -617,7 +631,9 @@ async function main() {
         pools, poolSeed: seed, poolPrescan: false, poolSample,
         rotationState: { schemaVersion: 1, cycle: 0, seen: [] }
       });
-      const pickNames1 = pre1.extraSurfaces.map((s) => s.name);
+      // backlog 199 — rotation-only re-derivation, same reasoning as the 192
+      // guard tests above.
+      const pickNames1 = pre1.extraSurfaces.filter((s) => s.rotationPick === true).map((s) => s.name);
 
       // Run 1: tiny budget -> every rotation pick skipped, persisted.
       // backlog 206 — poolLiveness:false, same fixture-isolation reasoning
@@ -708,13 +724,22 @@ async function main() {
     const pre = buildPoolSurfaces({ pools, poolSeed: seed, poolPrescan: false, poolSample, rotationState: priorState });
     const pickedIds = pre.poolRotation.picked.slice();
     assert(pickedIds.length === poolSample, `fixture wiring check: expected ${poolSample} picks, got ${JSON.stringify(pickedIds)}`);
-    assert(pre.extraSurfaces.every((s) => s.rotationPick === true), `fixture wiring check: expected every extraSurfaces entry to carry rotationPick:true, got ${JSON.stringify(pre.extraSurfaces)}`);
+    // backlog 199 — partition (see the 192-guard test's comment for the full
+    // rationale): assert the rotationPick COUNT matches poolSample, and that
+    // every remaining entry is a classified lens pick, instead of assuming
+    // extraSurfaces IS the rotation picks (a third, unclassified kind must
+    // still fail this check).
+    const rotationSurfaces = pre.extraSurfaces.filter((s) => s.rotationPick === true);
+    const nonRotationSurfaces = pre.extraSurfaces.filter((s) => s.rotationPick !== true);
+    assert(rotationSurfaces.length === poolSample, `fixture wiring check: expected ${poolSample} rotationPick extraSurfaces entries, got ${rotationSurfaces.length}: ${JSON.stringify(rotationSurfaces.map((s) => s.name))}`);
+    assert(nonRotationSurfaces.every((s) => s.lensPick === true), `fixture wiring check: expected every non-rotationPick extraSurfaces entry to be a lensPick, got ${JSON.stringify(nonRotationSurfaces)}`);
     const alreadySeenPicks = pickedIds.filter((id) => priorSeen.includes(id));
     const neverSeenPicks = pickedIds.filter((id) => !priorSeen.includes(id));
     assert(alreadySeenPicks.length >= 1, `fixture wiring check: expected computeRotation()'s fill-from-seen branch to have picked at least one already-seen candidate (unseen must run out before ${poolSample} picks are made); got picks ${JSON.stringify(pickedIds)} against priorSeen ${JSON.stringify(priorSeen)} — widen alreadySeenCandidates if this stops engaging`);
     assert(neverSeenPicks.length >= 1, `fixture wiring check: expected at least one never-before-seen candidate among the picks, got ${JSON.stringify(pickedIds)}`);
     assert(JSON.stringify(pre.baseSeen.slice().sort()) === JSON.stringify(priorSeen.slice().sort()), `fixture wiring check: expected baseSeen (no wrap expected here) to equal the prior committed seen, got ${JSON.stringify(pre.baseSeen)} vs ${JSON.stringify(priorSeen)}`);
-    const pickNames = pre.extraSurfaces.map((s) => s.name);
+    // backlog 199 — rotation-only re-derivation, same reasoning as above.
+    const pickNames = rotationSurfaces.map((s) => s.name);
 
     const snapPath = path.join(os.tmpdir(), `audit-fixture-snapshot-192-baseseen-${process.pid}.json`);
     fs.writeFileSync(snapPath, JSON.stringify({ pools }));
