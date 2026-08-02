@@ -48,6 +48,8 @@ Provenance: <the LOG/spec entry this was distilled from>
 - `ecosystem-shaped-predicate.md` — a render treats one chain family well and every other one badly because the predicate tests "is this an *Ethereum* thing?" while being named "is this a thing?"; split it into shape-vs-resolvability, derive the catch-all boundary from a measured population, and never guess an explorer (item 195, originated by 193)
 - `dual-source-logic-divergence.md` — the same derived value is computed by two forked copies of one helper and they have drifted: grid vs pool-detail badge (item 130), and the build-script variant where a *generator* forks the product's classifier, poisoning both its own quality gate and every checker that requires it, with no rendered symptom anywhere (item 189)
 
+- `compiled-artifact-mutation-proof.md` — you are proving a rendered test is non-vacuous (or judging such a proof) and the mutation appears to have no effect: `home.html` loads the COMPILED bundle, so every mutate/restore cycle needs `npm run compile && npm run minify` or the browser never sees the change — plus the transient-observation rules a single post-settle DOM sample cannot satisfy (item 207)
+
 <!-- Index gap, noted not fixed (item 188, 2026-07-31; one line closed by item 189, 2026-07-31):
      18 playbook files exist, 13 are listed here. Still unindexed: ci-signal-honesty,
      derived-number-rails, seo-surface-regen-delta, stated-threshold-copy, plus this README itself.

@@ -165,6 +165,9 @@ function PoolDetail({
   var [poolInfoExpanded, setPoolInfoExpanded] = useState(true);
   var [activeCalculatorTab, setActiveCalculatorTab] = useState('30days');
   var [isPulsing, setIsPulsing] = useState(false);
+  // Spec 207 settle gate: whether the async 105 kpi-snapshot backfill (app.js)
+  // has had time to land before we decide the pool truly has no rate history.
+  var [historyLookupSettled, setHistoryLookupSettled] = useState(false);
   useEffect(() => {
     if (investmentAmount > 0) {
       setIsPulsing(true);
@@ -172,6 +175,23 @@ function PoolDetail({
       return () => clearTimeout(timer);
     }
   }, [investmentAmount]);
+
+  // Spec 207 settle gate. app.js's 105 effect fetches /data/pools-snapshot.json
+  // and merges kpis onto the detail pool asynchronously for the ~11.4% of
+  // deep-linked pools present in that snapshot. Without this gate, the new
+  // "no rate history" note (below) would flash for those pools before 105's
+  // backfill lands and the real 088.1 track-record note replaces it — a
+  // visible regression on the exact path 207 requires stay behaviour-
+  // unchanged. So: reset on pool change, and only declare "settled" (safe to
+  // render the no-history note) 1s after a kpis-less pool mounts, giving 105
+  // a window to backfill first. Pools that already have kpis need no wait.
+  useEffect(() => {
+    setHistoryLookupSettled(false);
+    if (!(pool && pool.kpis)) {
+      var timer = setTimeout(() => setHistoryLookupSettled(true), 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [pool && pool.pool, pool && !!pool.kpis]);
   if (!pool) {
     return React.createElement('div', {
       className: 'pool-detail-empty'
@@ -1379,6 +1399,39 @@ function PoolDetail({
     }
     return t ? t('rateTrackRecordTracked', hp) : `We've been tracking this pool's rate for ${hp} days. Watching how a rate holds up over time is one honest way to judge it.`;
   }()),
+  // Rate-history-unavailable note (207) — full-width, calm. Fourth tier
+  // for the "no data at all" case that 088.1's block above never
+  // reaches: a pool with no kpis object at all (the ~88.6% of `?pool=`
+  // deep links absent from data/pools-snapshot.json — live SEO
+  // arrivals). Deliberately a DISTINCT class (.rate-history-unavailable-
+  // note, not .rate-track-record-note) rather than the spec's literal
+  // "reuse the class name" suggestion: test_kpi_track_record.js case D4
+  // asserts .rate-track-record-note is absent when pool.kpis is
+  // missing, and 207's acceptance criteria require that test stay
+  // unmodified-and-passing. The four sibling notes on this page
+  // (volatility/track-record/momentum/tvl-trend) already each have
+  // their own class hook with byte-identical inline styling and none
+  // appear in any .css file, so a distinct hook is the established
+  // pattern and adds no CSS. Style object copied verbatim from the
+  // rate-track-record note above. Yields entirely to the 071
+  // volatility note (same divergence boolean, negated) so it's mutually
+  // exclusive with every other tier, and is gated on
+  // historyLookupSettled so it never flashes ahead of app.js's 105
+  // kpi-snapshot backfill (see the effect above) for the pools that
+  // backfill successfully.
+  !(mean30dSane && (pool.apyBase || 0) + (pool.apyReward || 0) > 0 && pool.apyMean30d > 0 && Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) / Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) >= 1.5) && !(pool.kpis && typeof pool.kpis === 'object') && historyLookupSettled && React.createElement('div', {
+    className: 'rate-history-unavailable-note',
+    style: {
+      background: 'var(--color-background)',
+      borderRadius: 'var(--neuro-radius-sm)',
+      boxShadow: 'var(--neuro-shadow-subtle)',
+      color: 'var(--color-text-secondary)',
+      fontSize: 'var(--font-size-sm)',
+      lineHeight: '1.5',
+      padding: '12px 16px',
+      marginBottom: '20px'
+    }
+  }, t ? t('rateHistoryUnavailable') : "We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama."),
   // Rate-momentum honesty note (103) — full-width, calm. Reuses 071's
   // exact neuro styling. Surfaces 087's kpis.apyMomentum (last − first
   // total APY over the tracked window) as calm cautious-saver language:
