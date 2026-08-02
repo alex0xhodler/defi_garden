@@ -609,9 +609,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STUSDS" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STUSDS&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STUSDS" />
-    <lastmod>2026-07-19T05:21:33.930Z</lastmod>
+    <lastmod>2026-08-02T05:26:47.866Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.93</priority>
+    <priority>0.94</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SUSDAI</loc>
@@ -843,9 +843,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VSOL" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VSOL&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VSOL" />
-    <lastmod>2026-08-01T08:31:40.452Z</lastmod>
+    <lastmod>2026-08-02T05:26:47.866Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.91</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=WBETH</loc>
