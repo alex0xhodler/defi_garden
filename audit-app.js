@@ -511,11 +511,39 @@ function extractQuotedArray(text, varName) {
   return items;
 }
 
+// Sibling of extractQuotedArray() for analytics.js's captureAcquisition()
+// (spec 203) — that key list is an inline `[...].forEach((k) => { ... })`
+// literal, not a `var X = [...]` declaration, so it has no name to anchor a
+// declaration regex on. Anchored on the `.forEach(` that immediately follows
+// the array instead. Same "returns null on any failure to parse, never a
+// wildcard" contract as extractQuotedArray() — a caller that gets null must
+// skip rule (a) exactly like an unreadable file, never fall back to
+// "everything allowed".
+function extractForEachQuotedArray(text) {
+  const arrMatch = text.match(/\[([^\]]*)\]\s*\.forEach\(/);
+  if (!arrMatch) return null;
+  const items = [];
+  const strRe = /'([^']*)'|"([^"]*)"/g;
+  let m;
+  while ((m = strRe.exec(arrMatch[1])) !== null) items.push(m[1] !== undefined ? m[1] : m[2]);
+  return items.length ? items : null;
+}
+
 // Returns { allowed: Set|null, error: string|null }. The caller prints the
 // stderr note ONCE per scan (not once per file) and skips rule (a) entirely
 // on error — rules (b)/(c) and the four pre-existing signals must keep
 // working (the prescanTextSurfaces() never-throws contract).
-function loadRouterAllowedParams(homeHtmlPath) {
+//
+// Third source (spec 203): analytics.js's captureAcquisition() reads its own
+// list of attribution query keys (utm_*/ref/click-ids/src) into
+// `this.acquisition`, which rides every event — a real, live query key on
+// the home path exactly like 'lang' below, but for a THIRD consumer (the
+// analytics capture list, not either router) that rule (a) never knew about
+// before this item. Parsed, never hardcoded — a key removed from
+// analytics.js's own array must start failing rule (a) again, not stay
+// silently allowed by a stale second copy of the list (the bug class item
+// 166 shipped and spec 169 already re-flagged once for the router arrays).
+function loadRouterAllowedParams(homeHtmlPath, analyticsJsPath) {
   let text;
   try { text = fs.readFileSync(homeHtmlPath, 'utf8'); }
   catch (e) { return { allowed: null, error: `home.html unreadable at ${homeHtmlPath}: ${e.message}` }; }
@@ -524,10 +552,17 @@ function loadRouterAllowedParams(homeHtmlPath) {
   if (!analyticsParams || !plannerParams) {
     return { allowed: null, error: `could not parse ANALYTICS_PARAMS/PLANNER_PARAMS out of ${homeHtmlPath}` };
   }
+  let attributionText;
+  try { attributionText = fs.readFileSync(analyticsJsPath, 'utf8'); }
+  catch (e) { return { allowed: null, error: `analytics.js unreadable at ${analyticsJsPath}: ${e.message}` }; }
+  const attributionParams = extractForEachQuotedArray(attributionText);
+  if (!attributionParams) {
+    return { allowed: null, error: `could not parse captureAcquisition()'s key list out of ${analyticsJsPath}` };
+  }
   // 'lang' is read by translations.js, not the router, so it never appears
   // in either array — a real, live query key (spec 169 Territory note), so
   // it is allowed explicitly rather than fudged in by loosening the parse.
-  return { allowed: new Set([...analyticsParams, ...plannerParams, 'lang']), error: null };
+  return { allowed: new Set([...analyticsParams, ...plannerParams, ...attributionParams, 'lang']), error: null };
 }
 
 // Query keys on one URL match's captured suffix ('' / undefined for the
@@ -553,10 +588,12 @@ function prescanTextSurfaces(opts = {}) {
   const suspects = [];
 
   // Rule (a)'s allowlist is the SAME for every file in this scan — parsed
-  // once, not once per file, so a skip note prints exactly once (opts.homeHtml
-  // is the coupling-test override, same convention as opts.files).
+  // once, not once per file, so a skip note prints exactly once (opts.homeHtml/
+  // opts.analyticsJs are the coupling-test overrides, same convention as
+  // opts.files).
   const homeHtmlPath = opts.homeHtml || path.join(ROOT, 'home.html');
-  const routerParams = loadRouterAllowedParams(homeHtmlPath);
+  const analyticsJsPath = opts.analyticsJs || path.join(ROOT, 'analytics.js');
+  const routerParams = loadRouterAllowedParams(homeHtmlPath, analyticsJsPath);
   if (routerParams.error) {
     console.error(`[audit] text prescan: link-target-integrity rule (a) skipped — ${routerParams.error}`);
   }
@@ -1491,13 +1528,14 @@ function prescanStaticPages(opts = {}) {
 
   // Rule (a)'s two allow-lists are the SAME for every page in this scan —
   // parsed once, not once per file, so an unreadable/unparseable
-  // home.html/planner.js prints its stderr note exactly once (mirrors
-  // prescanTextSurfaces()'s own routerParams setup, backlog 169).
-  // opts.homeHtml/opts.plannerJs are the coupling-test override, same
-  // convention as opts.homeHtml on prescanTextSurfaces().
+  // home.html/planner.js/analytics.js prints its stderr note exactly once
+  // (mirrors prescanTextSurfaces()'s own routerParams setup, backlog 169).
+  // opts.homeHtml/opts.plannerJs/opts.analyticsJs are the coupling-test
+  // override, same convention as opts.homeHtml on prescanTextSurfaces().
   const homeHtmlPath = opts.homeHtml || path.join(ROOT, 'home.html');
   const plannerJsPath = opts.plannerJs || path.join(ROOT, 'planner.js');
-  const routerParams = loadRouterAllowedParams(homeHtmlPath);
+  const analyticsJsPath = opts.analyticsJs || path.join(ROOT, 'analytics.js');
+  const routerParams = loadRouterAllowedParams(homeHtmlPath, analyticsJsPath);
   if (routerParams.error) {
     console.error(`[audit] static prescan: link-target-integrity rule (a) [home.html half] skipped — ${routerParams.error}`);
   }

@@ -585,9 +585,23 @@ ${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_tokens_az', t)}   
 /** Resolves the same pool-detail (or fallback) URL a visible table row links
  * to (`p.pool ? /?pool=<id> : fallbackUrl`) — shared by row rendering AND
  * ItemList JSON-LD so the two can never drift (046: schema must match the
- * visible content byte-for-byte). */
-function poolHrefFor(p, fallbackUrl) {
-  return p.pool ? `${SITE_URL}/?pool=${encodeURIComponent(p.pool)}` : fallbackUrl;
+ * visible content byte-for-byte).
+ *
+ * `src` (spec 203, optional) tags the static SEO estate's own outbound links
+ * with an internal-link attribution value ('seo_token'/'seo_chain' — the
+ * taxonomy analytics.js:41-54 already names) so an arrival at pool-detail
+ * from this estate is distinguishable from a cold direct hit. Absent/falsy
+ * -> returns exactly what this function returned before this item, byte for
+ * byte — that is what keeps renderItemListJsonLd()'s ld+json `url` clean
+ * (it deliberately never passes a third argument, spec 203 §6). Present ->
+ * appended to WHICHEVER branch was chosen (the `?pool=` link or
+ * `fallbackUrl`), with the correct separator for whichever query the target
+ * URL already carries (or none). */
+function poolHrefFor(p, fallbackUrl, src) {
+  const url = p.pool ? `${SITE_URL}/?pool=${encodeURIComponent(p.pool)}` : fallbackUrl;
+  if (!src) return url;
+  const sep = url.includes('?') ? '&' : '?';
+  return `${url}${sep}src=${encodeURIComponent(src)}`;
 }
 
 /** ItemList JSON-LD (046) for a ranked pool table: itemListElement mirrors
@@ -785,8 +799,10 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
     // urlParams.pool). Falls back to the token app view if no id. Shared
-    // with the ItemList JSON-LD above via poolHrefFor so they can't drift.
-    const poolHref = poolHrefFor(p, appUrl);
+    // with the ItemList JSON-LD above via poolHrefFor so they can't drift —
+    // the visible row is tagged 'seo_token' (203); the JSON-LD call above is
+    // NOT, so it stays clean (spec 203 §6, deliberate deviation).
+    const poolHref = poolHrefFor(p, appUrl, 'seo_token');
     return `        <tr>
           <td><a class="tp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')} &rarr;</a></td>
           <td>${escapeHtml(p.chain || '—')}</td>
