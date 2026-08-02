@@ -50,6 +50,8 @@ Provenance: <the LOG/spec entry this was distilled from>
 
 - `compiled-artifact-mutation-proof.md` — you are proving a rendered test is non-vacuous (or judging such a proof) and the mutation appears to have no effect: `home.html` loads the COMPILED bundle, so every mutate/restore cycle needs `npm run compile && npm run minify` or the browser never sees the change — plus the transient-observation rules a single post-settle DOM sample cannot satisfy (item 207)
 
+- `cost-gate-measurement.md` — a *measure-then-decide* item hands you a threshold ("< 5 MB, < 250 KB gzipped") and you have to produce the number and apply the rule: size the cheapest **implementable** variant (union / additive sidecar), never the headline population; settle raw-vs-gzipped from the ticket's own wording; and before writing NO-GO, check whether a cheaper *shape* exists that the ticket never considered (item 208)
+
 <!-- Index gap, noted not fixed (item 188, 2026-07-31; one line closed by item 189, 2026-07-31):
      18 playbook files exist, 13 are listed here. Still unindexed: ci-signal-honesty,
      derived-number-rails, seo-surface-regen-delta, stated-threshold-copy, plus this README itself.
