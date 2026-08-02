@@ -22,6 +22,26 @@
    6. KO parity — the new line renders in Korean with no raw t('...') key
       leak, and the anomalous-pool $1B guard holds in KO too.
 
+   Post-210 verifier round — collapse-state trust-rail regression guard
+   (criteria 7-8, added here since this file already drives the anomalous
+   fixture and both the degen-haircut and anomaly warnings coincide on it —
+   see the ANOMALOUS fixture below, whose forced riskScore:100 makes it BOTH
+   anomalous AND degen-tier at once): 210 moved the degen-haircut warning,
+   the anomaly warning, and the single .calc-disclaimer to always-rendered
+   siblings of the collapsible calculator content, specifically so that
+   collapsing the "Calculate Your Earnings" block (a single click, a
+   reachable state — `calculatorExpanded` starts true but the header toggles
+   it) can never silently drop a trust-rail disclosure. Before that fix all
+   three lived INSIDE the `calculatorExpanded &&` guard, so collapsing wiped
+   them while the moved repeat CTA (a sibling, unaffected by the guard) kept
+   showing its concrete "~$X in 5y" projection with no disclaimer in sight.
+   7. EXPANDED (default): exactly one anomaly .calc-warning and exactly one
+      .calc-disclaimer render for the anomalous fixture.
+   8. COLLAPSED (click the calculator header first, verify the collapsible
+      content actually unmounted — not a vacuous check): the anomaly
+      warning, the degen-haircut warning, and the disclaimer ALL still
+      render, each exactly once.
+
    Fixture-routed exactly like test_mean30d_sanity.js / test_dead_pool.js:
    home.html loads React/ReactDOM/translations/PoolDetail/app entirely from
    LOCAL vendored files (home.html:173-174, :354-355) — the only external
@@ -66,7 +86,7 @@ const HEALTHY = {
 const FIXTURE_RESPONSE = JSON.stringify({ status: 'success', data: [ANOMALOUS, HEALTHY] });
 
 let passed = 0;
-const TOTAL = 9;
+const TOTAL = 11;
 async function test(name, fn) {
   try { await fn(); passed++; console.log('  ✓ ' + name); }
   catch (err) { console.error('  ✗ ' + name + '\n    ' + err.message); process.exitCode = 1; }
@@ -92,6 +112,35 @@ function dollarFigures(s) {
   return (s.match(/\$[\d,]+(?:\.\d+)?/g) || []).map((m) => Number(m.replace(/[$,]/g, '')));
 }
 
+// RE-POINTED for spec 210: the old standalone daily/monthly quick-metric
+// stat cards (.quick-metrics) that used to hold these two data points are
+// gone — 210 merged them into ONE toggleable calculator readout (the 1D/7D/
+// 30D tabs inside .calculator-compact). Click the named tab and read the
+// readout's current $ value.
+//
+// RE-POINTED AGAIN (post-210 verifier fix): the original walk-back-from-
+// .calc-disclaimer technique broke when the trust-rail fix moved the
+// disclaimer OUT of the readout box (it's now a sibling of the whole
+// calculatorExpanded && block, so it survives collapsing — see
+// PoolDetail.js). The readout box no longer has a disclaimer as a child at
+// all. Locate it structurally instead: it's the LAST child of
+// .calculator-content (after the investment-input-group, the projection
+// card, and the tab navigation), and its own children are
+// [label, value, "based on investment"] — the value is child[1].
+async function readCalcValueForTab(page, tabText) {
+  const tabBtn = page.locator('button', { hasText: new RegExp('^' + tabText + '$') });
+  if (await tabBtn.count()) {
+    await tabBtn.first().click();
+    await page.waitForTimeout(150);
+  }
+  return page.evaluate(() => {
+    const content = document.querySelector('.calculator-content');
+    const readout = content ? content.lastElementChild : null;
+    const calcValueDiv = readout ? readout.children[1] : null;
+    return calcValueDiv ? calcValueDiv.textContent.trim() : null;
+  });
+}
+
 // Land directly on ?pool=<id> (the SEO / share deep-link path, the same one
 // item 165's evidence used) and read the settled pool-detail DOM.
 async function renderPool(page, poolId, lang) {
@@ -101,39 +150,49 @@ async function renderPool(page, poolId, lang) {
     { waitUntil: 'load', timeout: 20000 }
   );
   await page.waitForSelector('.pool-detail-view', { timeout: 15000 });
-  await page.waitForSelector('.quick-metrics', { timeout: 15000 });
+  await page.waitForSelector('.pool-projection-card', { timeout: 15000 });
   await page.waitForSelector('.calc-disclaimer', { timeout: 15000 });
   // Metric cards use AnimatedNumber (1000ms/1500ms duration) when healthy —
   // let the animation settle so the final $ figure (not an in-flight one) is
   // read for the healthy-pool assertions.
   await page.waitForTimeout(1700);
 
-  return page.evaluate(() => {
+  // dailyValue reads the '1 Day' tab; monthlyValue reads '30 Days' (the
+  // default tab — clicking it back also restores the default state before
+  // the rest of the DOM is read below).
+  const dailyValue = await readCalcValueForTab(page, '1 Day');
+  const monthlyValue = await readCalcValueForTab(page, '30 Days');
+
+  const rest = await page.evaluate(() => {
     const projectionCard = document.querySelector('.pool-projection-card');
     const projectionBody = projectionCard ? projectionCard.children[1].textContent.trim() : null;
-    const quickMetricCards = Array.from(document.querySelectorAll('.quick-metrics > div'));
-    const dailyValue = quickMetricCards[0] ? quickMetricCards[0].children[1].textContent.trim() : null;
-    const monthlyValue = quickMetricCards[1] ? quickMetricCards[1].children[1].textContent.trim() : null;
-    const disclaimers = Array.from(document.querySelectorAll('.calc-disclaimer'));
-    const calcDisclaimer = disclaimers[1]; // [0] = projection card's, [1] = calculator's
-    const basedOnDiv = calcDisclaimer ? calcDisclaimer.previousElementSibling : null;
-    const calcValueDiv = basedOnDiv ? basedOnDiv.previousElementSibling : null;
+    // See readCalcValueForTab's comment above — the readout box (last child
+    // of .calculator-content) is now located structurally, not via the
+    // disclaimer (which moved out of it in the post-210 trust-rail fix).
+    const content = document.querySelector('.calculator-content');
+    const readout = content ? content.lastElementChild : null;
+    const calcValueDiv = readout ? readout.children[1] : null;
     const calcValue = calcValueDiv ? calcValueDiv.textContent.trim() : null;
-    const riskCard = document.querySelector('.risk-card');
     const heroApy = document.querySelector('.apy-value-hero');
+    // 210: the standalone .risk-card is gone — risk now renders as the LAST
+    // chip in the hero's .trust-indicators row (alongside Verified + TVL),
+    // with no dedicated className (210's hard constraint: zero new CSS
+    // classes, so the chip carries no test-only hook either).
+    const trustIndicators = document.querySelector('.trust-indicators');
+    const riskChip = trustIndicators ? trustIndicators.lastElementChild : null;
     const anomalyWarnings = Array.from(document.querySelectorAll('.calc-warning'))
       .map((n) => n.textContent.trim());
     return {
       bodyText: document.body.innerText,
       projectionBody,
-      dailyValue,
-      monthlyValue,
       calcValue,
-      riskCardText: riskCard ? riskCard.textContent : null,
+      riskChipText: riskChip ? riskChip.textContent.trim() : null,
       heroApyText: heroApy ? heroApy.textContent.trim() : null,
       anomalyWarnings
     };
   });
+
+  return Object.assign({ dailyValue, monthlyValue }, rest);
 }
 
 async function main() {
@@ -181,21 +240,34 @@ async function main() {
       if (/\$/.test(anomEn.projectionBody)) throw new Error('out-of-range projection line still contains a $ figure');
     });
 
-    await test('criterion 2b: daily + monthly quick-metric values render "—", not a $ figure', async () => {
-      if (anomEn.dailyValue !== '—') throw new Error(`expected daily value "—", got: "${anomEn.dailyValue}"`);
-      if (anomEn.monthlyValue !== '—') throw new Error(`expected monthly value "—", got: "${anomEn.monthlyValue}"`);
+    // RE-POINTED (210): the daily/monthly quick-metric stat cards this test
+    // used to read from .quick-metrics no longer exist as standalone
+    // elements — 210 merged them into the calculator's single toggleable
+    // readout. dailyValue/monthlyValue now come from clicking the '1 Day'/
+    // '30 Days' tabs (see readCalcValueForTab above) and reading that same
+    // readout; the assertion itself (both render the "—" placeholder for an
+    // anomalous pool, never a $ figure) is unchanged.
+    await test('criterion 2b: the calculator readout on both the 1D and 30D tabs renders "—", not a $ figure', async () => {
+      if (anomEn.dailyValue !== '—') throw new Error(`expected daily (1D tab) value "—", got: "${anomEn.dailyValue}"`);
+      if (anomEn.monthlyValue !== '—') throw new Error(`expected monthly (30D tab) value "—", got: "${anomEn.monthlyValue}"`);
     });
 
     await test('criterion 2c: yield-calculator amount renders "—", not a $ figure', async () => {
       if (anomEn.calcValue !== '—') throw new Error(`expected calculator value "—", got: "${anomEn.calcValue}"`);
     });
 
-    await test('criterion 3: ⚠ anomaly warning renders and Risk Assessment reads High', async () => {
+    // RE-POINTED (210): the standalone .risk-card ("Risk Assessment" card in
+    // the old .quick-metrics grid) is gone — risk now renders as the last
+    // chip in the hero's .trust-indicators row (see PoolDetail.js's A1
+    // change). riskCardText -> riskChipText; the substring assertion itself
+    // is unchanged (still just checks the rendered risk level text reads
+    // "High").
+    await test('criterion 3: ⚠ anomaly warning renders and the hero risk chip reads High', async () => {
       if (!anomEn.anomalyWarnings.some((w) => w === tr.en.calcAnomalyWarning)) {
         throw new Error(`expected an anomaly warning matching translations.en.calcAnomalyWarning, got: ${JSON.stringify(anomEn.anomalyWarnings)}`);
       }
-      if (!anomEn.riskCardText || !anomEn.riskCardText.includes(tr.en.highRisk)) {
-        throw new Error(`expected risk card to read "${tr.en.highRisk}", got: "${anomEn.riskCardText}"`);
+      if (!anomEn.riskChipText || !anomEn.riskChipText.includes(tr.en.highRisk)) {
+        throw new Error(`expected the hero risk chip to read "${tr.en.highRisk}", got: "${anomEn.riskChipText}"`);
       }
     });
 
@@ -203,6 +275,70 @@ async function main() {
       if (!anomEn.heroApyText || !anomEn.heroApyText.includes('345,079.06%')) {
         throw new Error(`expected hero APY to include "345,079.06%", got: "${anomEn.heroApyText}"`);
       }
+    });
+
+    // --- Criterion 7: EXPANDED — exact-once counts (post-210 verifier fix) --
+    await test('criterion 7: EXPANDED — exactly one anomaly .calc-warning and exactly one .calc-disclaimer render', async () => {
+      const anomalyCount = anomEn.anomalyWarnings.filter((w) => w === tr.en.calcAnomalyWarning).length;
+      if (anomalyCount !== 1) {
+        throw new Error(`expected exactly 1 anomaly .calc-warning, got ${anomalyCount}: ${JSON.stringify(anomEn.anomalyWarnings)}`);
+      }
+      const disclaimerCount = await page.locator('.calc-disclaimer').count();
+      if (disclaimerCount !== 1) {
+        throw new Error(`expected exactly 1 .calc-disclaimer, got ${disclaimerCount}`);
+      }
+    });
+
+    // --- Criterion 8: COLLAPSED — the trust-rail regression guard -----------
+    // Before the post-210 fix, the degen-haircut warning, the anomaly
+    // warning, and the .calc-disclaimer all lived INSIDE the
+    // calculatorExpanded && guard, so a single click collapsing "Calculate
+    // Your Earnings" silently dropped all three while the repeat CTA (a
+    // sibling, unaffected by the guard) kept showing its concrete
+    // "~$X in 5y" projection with no disclaimer anywhere on the page. This
+    // proves the fix: all three now survive collapsing. The ANOMALOUS
+    // fixture's forced riskScore:100 (see getRiskAssessment's anomalous-yield
+    // override) makes gardenPersona 'degen' too, so this single collapsed
+    // render exercises BOTH the degen-haircut warning and the anomaly
+    // warning at once.
+    await test('criterion 8: COLLAPSED — degen-haircut warning, anomaly warning, and disclaimer all still render, each exactly once', async () => {
+      await page.locator('.calculator-header').click();
+      // Prove the collapse actually happened — a check that never observes
+      // the collapsed state would pass whether or not the guard fix worked
+      // (compiled-artifact-mutation-proof.md's non-vacuity rule).
+      await page.waitForSelector('.calculator-content', { state: 'detached', timeout: 5000 });
+
+      const collapsed = await page.evaluate(() => ({
+        warnings: Array.from(document.querySelectorAll('.calc-warning')).map((n) => n.textContent.trim()),
+        disclaimerCount: document.querySelectorAll('.calc-disclaimer').length,
+        primaryCtaCount: document.querySelectorAll('.cta-button-primary').length
+      }));
+
+      const anomalyCount = collapsed.warnings.filter((w) => w === tr.en.calcAnomalyWarning).length;
+      if (anomalyCount !== 1) {
+        throw new Error(`collapsed: expected exactly 1 anomaly warning, got ${anomalyCount}: ${JSON.stringify(collapsed.warnings)}`);
+      }
+      // poolDegenHaircutNote is a template fn (headline interpolated); match
+      // on its fixed substring rather than reconstructing the exact string.
+      const degenCount = collapsed.warnings.filter((w) => /⅓ haircut/.test(w)).length;
+      if (degenCount !== 1) {
+        throw new Error(`collapsed: expected exactly 1 degen-haircut warning, got ${degenCount}: ${JSON.stringify(collapsed.warnings)}`);
+      }
+      if (collapsed.disclaimerCount !== 1) {
+        throw new Error(`collapsed: expected exactly 1 .calc-disclaimer, got ${collapsed.disclaimerCount}`);
+      }
+      // Sanity: the repeat CTA (with its still-concrete-when-non-anomalous
+      // label) is the exact reachable state the coordinator's report
+      // described — both primaries should still be present alongside the
+      // now-restored warnings/disclaimer.
+      if (collapsed.primaryCtaCount !== 2) {
+        throw new Error(`collapsed: expected 2 .cta-button-primary (hero + repeat) still present, got ${collapsed.primaryCtaCount}`);
+      }
+
+      // Restore expanded state so it doesn't leak into any later render on
+      // this same page/browser (none currently follow, but be defensive).
+      await page.locator('.calculator-header').click();
+      await page.waitForSelector('.calculator-content', { timeout: 5000 });
     });
 
     // --- Criterion 5: healthy pool unaffected ------------------------------

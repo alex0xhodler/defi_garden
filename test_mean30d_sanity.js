@@ -114,15 +114,19 @@ async function renderPool(page, poolId) {
       .find((el) => el.children.length === 0 && el.textContent.trim() === '30d Mean APY');
     const card = label ? label.parentElement : null;
     const note = document.querySelector('.rate-volatility-note');
-    const poolTypeLabel = Array.from(document.querySelectorAll('.pool-info-content div'))
-      .find((el) => el.children.length === 0 && el.textContent.trim() === 'Pool Type');
+    // 210 removed the "Pool Type" tile (it duplicated the hero) — the TVL
+    // tile 210 added in its place is the new always-present proxy for "the
+    // stat grid rendered at all" (unconditional, unlike 30d Mean/Exposure/IL
+    // Risk which are data-gated).
+    const tvlLabel = Array.from(document.querySelectorAll('.pool-info-content div'))
+      .find((el) => el.children.length === 0 && el.textContent.trim() === 'TVL');
     return {
       cardPresent: !!card,
       cardText: card ? card.textContent : null,
       notePresent: !!note,
       noteText: note ? note.textContent : null,
       ctaCount: document.querySelectorAll('.cta-button-primary').length,
-      statGridPresent: !!poolTypeLabel,
+      statGridPresent: !!tvlLabel,
       bodyText: document.body.innerText
     };
   });
@@ -191,12 +195,16 @@ async function main() {
       if (r.bodyText.includes('36452')) throw new Error('page text contains "36452"');
     });
 
-    // Criterion 2 — the 071 note cannot quote a hidden number; page still whole.
+    // Criterion 2 — the 071 note cannot quote a hidden number; page still
+    // whole. RE-POINTED for spec 210: statGridPresent used to check for the
+    // "Pool Type" tile, which 210 removed (duplicated the hero); it now
+    // checks for the TVL tile 210 added in its place — same role (an
+    // always-present tile proving the stat grid rendered at all), new tile.
     await test('absurd pool suppresses the 071 note but still renders CTAs and the stat grid', async () => {
       const r = await renderPool(page, ABSURD.pool);
       if (r.notePresent) throw new Error(`expected no .rate-volatility-note, got: ${r.noteText}`);
       if (r.ctaCount < 1) throw new Error('expected at least one .cta-button-primary to render');
-      if (!r.statGridPresent) throw new Error('expected the pool-info stat grid (Pool Type card) to render');
+      if (!r.statGridPresent) throw new Error('expected the pool-info stat grid (TVL tile, 210) to render');
       if (!r.bodyText.includes('0.24%')) throw new Error('expected the real current APY (0.24%) to still render');
     });
 

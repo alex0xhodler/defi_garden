@@ -648,7 +648,35 @@ function PoolDetail({
                 formatFn: (v) => formatCurrency(v) + ' TVL',
                 duration: 1200
               }) : formatCurrency(pool.tvlUsd) + ' TVL'
-            )
+            ),
+            // Risk level chip (210) — moved from the standalone risk-card into
+            // the trust-indicator row, alongside Verified + TVL. Same
+            // inline-style shape as the trust-badge/tvl-badge siblings above
+            // (copied verbatim), text colored by riskAssessment.color.
+            // className: 'trust-badge' is REUSE, not a new class — post-210
+            // verifier check confirmed pool-detail-styles.css:954-961's
+            // .trust-badge rule only sets `transition` + a `:hover`
+            // transform/shadow; it never touches `color`, so it cannot
+            // override this chip's inline riskAssessment.color. Reusing it
+            // (a) matches the "✓ Verified" sibling's subtle hover lift and
+            // (b) gives this chip a real CSS-class hook for tests/the audit
+            // scanner, which a fully classless div could not offer.
+            // riskAssessment.description stays reachable via the title
+            // attribute rather than being dropped.
+            React.createElement('div', {
+              className: 'trust-badge',
+              title: riskAssessment.description,
+              style: {
+                display: 'inline-flex',
+                alignItems: 'center',
+                padding: '4px 8px',
+                background: 'var(--color-background)',
+                borderRadius: 'var(--neuro-radius-md)',
+                fontSize: 'var(--font-size-xs)',
+                color: riskAssessment.color,
+                boxShadow: 'var(--neuro-shadow-pressed)'
+              }
+            }, `${t ? t('riskAssessment') : 'Risk Assessment'}: ${riskAssessment.level}`)
           )
         ),
 
@@ -677,11 +705,116 @@ function PoolDetail({
             )
           ),
 
+          // Rate-quality note tier (210 A3) — relocated verbatim (conditions,
+          // classes, inline styles, copy unchanged; only marginBottom tightened
+          // to 0 since .pool-action-card's flex column already applies a 10px
+          // gap between children) from Pool Information, directly under the
+          // APY it qualifies. Mutually-exclusive tier chain — exactly one of
+          // the three renders. LEFT IN Pool Information (unmoved):
+          // .rate-momentum-note (103) and .tvl-trend-note (104).
+
+          // Rate-volatility honesty note (071).
+          (mean30dSane &&
+            ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
+            pool.apyMean30d > 0 &&
+            (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
+              Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
+          React.createElement('div', {
+            className: 'rate-volatility-note',
+            style: {
+              background: 'var(--color-background)',
+              borderRadius: 'var(--neuro-radius-sm)',
+              boxShadow: 'var(--neuro-shadow-subtle)',
+              color: 'var(--color-text-secondary)',
+              fontSize: 'var(--font-size-sm)',
+              lineHeight: '1.5',
+              padding: '12px 16px',
+              marginBottom: '0'
+            }
+          },
+            t
+              ? t('rateVolatilityNote', _formatApy((pool.apyBase || 0) + (pool.apyReward || 0)), _formatApy(pool.apyMean30d))
+              : `This pool's rate moves a lot: ${_formatApy((pool.apyBase || 0) + (pool.apyReward || 0))} right now vs a ${_formatApy(pool.apyMean30d)} 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.`
+          ),
+
+          // Rate-track-record note (088.1).
+          (!(mean30dSane &&
+            ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
+            pool.apyMean30d > 0 &&
+            (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
+              Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
+            pool.kpis && typeof pool.kpis === 'object' && Number(pool.kpis.historyPoints) >= 1) &&
+          React.createElement('div', {
+            className: 'rate-track-record-note',
+            style: {
+              background: 'var(--color-background)',
+              borderRadius: 'var(--neuro-radius-sm)',
+              boxShadow: 'var(--neuro-shadow-subtle)',
+              color: 'var(--color-text-secondary)',
+              fontSize: 'var(--font-size-sm)',
+              lineHeight: '1.5',
+              padding: '12px 16px',
+              marginBottom: '0'
+            }
+          },
+            (function () {
+              var _cur = (pool.apyBase || 0) + (pool.apyReward || 0);
+              var _k = pool.kpis;
+              var hp = Number(_k.historyPoints);
+              var stdev = (typeof _k.apyStdev === 'number') ? _k.apyStdev : null;
+              if (hp < 7) {
+                return t
+                  ? t('rateTrackRecordNew')
+                  : "We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.";
+              }
+              if (stdev !== null && _cur > 0 && (stdev / _cur) <= 0.2) {
+                return t
+                  ? t('rateTrackRecordSteady', hp)
+                  : `Steady so far: across the ${hp} days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.`;
+              }
+              return t
+                ? t('rateTrackRecordTracked', hp)
+                : `We've been tracking this pool's rate for ${hp} days. Watching how a rate holds up over time is one honest way to judge it.`;
+            })()
+          ),
+
+          // Rate-history-unavailable note (207).
+          (!(mean30dSane &&
+            ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
+            pool.apyMean30d > 0 &&
+            (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
+              Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
+            !(pool.kpis && typeof pool.kpis === 'object') &&
+            historyLookupSettled) &&
+          React.createElement('div', {
+            className: 'rate-history-unavailable-note',
+            style: {
+              background: 'var(--color-background)',
+              borderRadius: 'var(--neuro-radius-sm)',
+              boxShadow: 'var(--neuro-shadow-subtle)',
+              color: 'var(--color-text-secondary)',
+              fontSize: 'var(--font-size-sm)',
+              lineHeight: '1.5',
+              padding: '12px 16px',
+              marginBottom: '0'
+            }
+          },
+            t
+              ? t('rateHistoryUnavailable')
+              : "We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama."
+          ),
+
           // Divider
           React.createElement('div', { className: 'pool-action-divider' }),
 
           // Primary CTA — garden this pool (deep-links into the planner
           // prefilled with a persona/goal/monthly matching this pool's risk tier)
+          // Hero primary CTA (210): label shortened to the plain generic
+          // string — the ~$X in 5y concrete projection now lives at the
+          // earnings-block repeat CTA where the user has parameterised the
+          // input. ctaVariant is hardcoded 'generic' to match (was
+          // showConcreteCta ? 'concrete' : 'generic', which no longer
+          // reflects what's on the button).
           React.createElement('a', {
             className: 'cta-button-primary',
             href: gardenThisPoolHref,
@@ -690,220 +823,33 @@ function PoolDetail({
                 Analytics.trackPoolClick(pool, 'garden_cta', {
                   investmentAmount: Math.round(investmentAmount),
                   projectionYears: PROJECTION_YEARS,
-                  ctaVariant: showConcreteCta ? 'concrete' : 'generic',
+                  ctaVariant: 'generic',
                   ctaPlacement: 'hero'
                 });
               }
             }
-          }, showConcreteCta
-            ? (t ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS)
-                 : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y`)
-            : (t ? t('gardenThisPoolCta') : 'Garden this pool →')),
+          }, t ? t('gardenThisPoolCta') : 'Garden this pool →'),
           React.createElement('p', { className: 'pool-action-hint' },
             t ? t('plannerCtaHint') : 'No wallet needed'
           ),
 
           // Secondary — protocol link, or an honest DefiLlama fallback when
-          // no protocol URL resolves at all (spec 182 leg B/D).
+          // no protocol URL resolves at all (spec 182 leg B/D). Reads as
+          // secondary today via .cta-button-protocol's existing muted
+          // surface/text-secondary treatment vs .cta-button-primary's solid
+          // fill (210 A5) — no style change needed here.
           ...renderProtocolCtaBlock('hero')
         )
       )
     ),
 
-    // Honest mini-projection — always visible, never collapsed. LEADS the page
-    // body (129): the 5y compounded outcome is the yield-funded headline, shown
-    // before the small-absolute-$ daily/monthly cards which read as underwhelming
-    // on low-APY pools ("$0.10/day"). Trust rails (anomaly/degen/disclaimer) move
-    // with this node unchanged.
-    React.createElement('div', {
-      className: 'metric-card-simple pool-projection-card animate-on-mount',
-      style: {
-        background: 'var(--color-background)',
-        borderRadius: 'var(--neuro-radius-lg)',
-        padding: '24px',
-        boxShadow: 'var(--neuro-shadow-raised)',
-        marginBottom: '32px',
-        textAlign: 'center'
-      }
-    },
-      React.createElement('div', {
-        style: {
-          fontSize: 'var(--font-size-sm)',
-          color: 'var(--color-text-secondary)',
-          marginBottom: '8px',
-          fontWeight: 'var(--font-weight-medium)',
-          textTransform: 'uppercase',
-          letterSpacing: '0.5px'
-        }
-      }, t ? t('projectionHeading') : 'The Long Game'),
-      React.createElement('div', {
-        style: {
-          fontSize: 'var(--font-size-lg)',
-          fontWeight: 'var(--font-weight-bold)',
-          color: 'var(--color-text)',
-          lineHeight: '1.4'
-        }
-      }, isAnomalous
-        // 165: an out-of-rail totalApy compounds into a fictional dollar figure
-        // (e.g. $49 quintillion) — never derive $ from it. Honest replacement
-        // line, no numbers to rail. Hero APY / Base+Reward cards keep rendering
-        // the raw rate elsewhere (demote + flag convention) — this gate is
-        // display-only, on this node.
-        ? (t ? t('projectionBodyOutOfRange') : 'This rate is too far outside normal ranges to project a dollar amount from — the number would be fiction, not a forecast.')
-        : (t ? t('projectionBody', investmentAmount, PROJECTION_YEARS, projectionAmount) :
-            `$${Number(investmentAmount || 0).toLocaleString('en-US')} in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`)),
-      // Yield-funded thesis line (129): the deposit stays the user's — you keep
-      // your money AND it keeps working. Honest framing, no numbers to rail.
-      React.createElement('div', {
-        style: {
-          fontSize: 'var(--font-size-sm)',
-          color: 'var(--color-text-secondary)',
-          marginTop: '8px',
-          lineHeight: '1.4'
-        }
-      }, t ? t('projectionKeepNote') : 'Your deposit stays yours — you keep your money, and it keeps working.'),
-      applyDegenHaircut && React.createElement('div', { className: 'calc-warning' },
-        t ? t('poolDegenHaircutNote', _formatApy(totalApy)) : `Projected at ⅓ haircut (${_formatApy(totalApy)} headline) — farm rates decay. Active management required.`
-      ),
-      isAnomalous && React.createElement('div', { className: 'calc-warning' },
-        t ? t('calcAnomalyWarning') : '⚠ This rate is anomalous and almost certainly unsustainable.'
-      ),
-      React.createElement('div', { className: 'calc-disclaimer' },
-        t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'
-      )
-    ),
-
-    // Quick Metrics - Force 3-column layout
-    React.createElement('div', {
-      className: 'quick-metrics animate-on-mount',
-      style: {
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr 1fr',
-        gap: '16px',
-        marginBottom: '40px'
-      }
-    },
-      React.createElement('div', {
-        className: 'metric-card-simple',
-        style: {
-          background: 'var(--color-background)',
-          borderRadius: 'var(--neuro-radius-lg)',
-          padding: '20px',
-          boxShadow: 'var(--neuro-shadow-subtle)',
-          textAlign: 'center',
-          transition: 'all 0.3s ease'
-        }
-      },
-        React.createElement('div', {
-          style: {
-            fontSize: 'var(--font-size-sm)',
-            color: 'var(--color-text-secondary)',
-            marginBottom: '8px',
-            fontWeight: 'var(--font-weight-medium)'
-          }
-        },
-          React.createElement('span', { style: { display: 'block' } }, t ? t('dailyEarnings', investmentAmount) : 'Daily earnings'),
-          React.createElement('span', { className: 'metric-sublabel' }, t ? t('dailyEarningsSubLabel', investmentAmount) : `on $${Number(investmentAmount || 0).toLocaleString('en-US')}`)
-        ),
-        React.createElement('div', {
-          style: {
-            fontSize: 'var(--font-size-xl)',
-            fontWeight: 'var(--font-weight-bold)',
-            color: 'var(--color-primary)'
-          }
-        }, isAnomalous ? '—' : (AnimatedNumber ? React.createElement(AnimatedNumber, {
-          value: investmentAmount * totalApy / 365 / 100,
-          formatFn: (v) => _formatUsd(v),
-          duration: 1000
-        }) : _formatUsd(investmentAmount * totalApy / 365 / 100)))
-      ),
-
-      React.createElement('div', {
-        className: 'metric-card-simple',
-        style: {
-          background: 'var(--color-background)',
-          borderRadius: 'var(--neuro-radius-lg)',
-          padding: '20px',
-          boxShadow: 'var(--neuro-shadow-subtle)',
-          textAlign: 'center',
-          transition: 'all 0.3s ease'
-        }
-      },
-        React.createElement('div', {
-          style: {
-            fontSize: 'var(--font-size-sm)',
-            color: 'var(--color-text-secondary)',
-            marginBottom: '8px',
-            fontWeight: 'var(--font-weight-medium)'
-          }
-        },
-          React.createElement('span', { style: { display: 'block' } }, t ? t('monthlyEarnings', investmentAmount) : 'Monthly earnings'),
-          React.createElement('span', { className: 'metric-sublabel' }, t ? t('monthlyEarningsSubLabel', investmentAmount) : `on $${Number(investmentAmount || 0).toLocaleString('en-US')}`)
-        ),
-        React.createElement('div', {
-          style: {
-            fontSize: 'var(--font-size-xl)',
-            fontWeight: 'var(--font-weight-bold)',
-            color: 'var(--color-text)'
-          }
-        }, isAnomalous ? '—' : (AnimatedNumber ? React.createElement(AnimatedNumber, {
-          value: investmentAmount * totalApy / 12 / 100,
-          formatFn: (v) => _formatUsd(v),
-          duration: 1000
-        }) : _formatUsd(investmentAmount * totalApy / 12 / 100)))
-      ),
-
-      React.createElement('div', {
-        className: 'metric-card-simple risk-card',
-        style: {
-          background: 'var(--color-background)',
-          borderRadius: 'var(--neuro-radius-lg)',
-          padding: '24px',
-          boxShadow: 'var(--neuro-shadow-raised)',
-          textAlign: 'center',
-          transition: 'all 0.3s ease',
-          border: `2px solid ${riskAssessment.color.replace('var(--color-', '').replace(')', '') === 'error' ? 'rgba(239, 68, 68, 0.2)' :
-            riskAssessment.color.replace('var(--color-', '').replace(')', '') === 'warning' ? 'rgba(245, 158, 11, 0.2)' :
-              'rgba(34, 197, 94, 0.2)'}`
-        }
-      },
-        React.createElement('div', {
-          style: {
-            fontSize: 'var(--font-size-sm)',
-            color: 'var(--color-text-secondary)',
-            marginBottom: '8px',
-            fontWeight: 'var(--font-weight-medium)',
-            textTransform: 'uppercase',
-            letterSpacing: '0.5px'
-          }
-        }, t ? t('riskAssessment') : 'Risk Assessment'),
-        React.createElement('div', {
-          style: {
-            fontSize: 'var(--font-size-xl)',
-            fontWeight: '900',
-            color: riskAssessment.color,
-            marginBottom: '6px'
-          }
-        }, riskAssessment.level),
-        React.createElement('div', {
-          style: {
-            fontSize: 'var(--font-size-xs)',
-            color: 'var(--color-text-secondary)',
-            lineHeight: '1.3',
-            marginBottom: '8px'
-          }
-        }, riskAssessment.description),
-        riskAssessment.factors.length > 0 && React.createElement('div', {
-          style: {
-            fontSize: 'var(--font-size-xs)',
-            color: 'var(--color-text-secondary)',
-            opacity: 0.8
-          }
-        }, `Key factors: ${riskAssessment.factors.slice(0, 2).join(', ')}`)
-      )
-    ),
-
-    // Collapsible Yield Calculator
+    // Collapsible Yield Calculator — now the single "your garden" earnings
+    // block (210 B). The standalone pool-projection-card ("THE LONG GAME")
+    // and the entire quick-metrics grid (daily card, monthly card, risk card)
+    // that used to render here as top-level sections are gone; their content
+    // (risk -> hero trust-indicators chip, projection copy -> inside this
+    // block below the input, daily/monthly -> the 1D/7D/30D toggle result)
+    // now lives input-first inside calculator-compact's expanded content.
     React.createElement('div', {
       className: `calculator-compact animate-on-mount ${calculatorExpanded ? 'expanded' : ''}`,
       style: {
@@ -1092,6 +1038,68 @@ function PoolDetail({
           )
         ),
 
+        // Long Game headline (210 B2b) — the former standalone
+        // pool-projection-card, relocated verbatim (copy/classes/conditions
+        // unchanged) INPUT-FIRST inside the earnings block: it recomputes
+        // live from investmentAmount above, so the user sets their number
+        // before reading this result. Its own .calc-disclaimer is dropped
+        // here — the block keeps exactly ONE disclaimer, near the calculator
+        // readout below (210 B2d).
+        React.createElement('div', {
+          className: 'metric-card-simple pool-projection-card',
+          style: {
+            background: 'var(--color-background)',
+            borderRadius: 'var(--neuro-radius-lg)',
+            padding: '24px',
+            boxShadow: 'var(--neuro-shadow-raised)',
+            marginBottom: '24px',
+            textAlign: 'center'
+          }
+        },
+          React.createElement('div', {
+            style: {
+              fontSize: 'var(--font-size-sm)',
+              color: 'var(--color-text-secondary)',
+              marginBottom: '8px',
+              fontWeight: 'var(--font-weight-medium)',
+              textTransform: 'uppercase',
+              letterSpacing: '0.5px'
+            }
+          }, t ? t('projectionHeading') : 'The Long Game'),
+          React.createElement('div', {
+            style: {
+              fontSize: 'var(--font-size-lg)',
+              fontWeight: 'var(--font-weight-bold)',
+              color: 'var(--color-text)',
+              lineHeight: '1.4'
+            }
+          }, isAnomalous
+            // 165: an out-of-rail totalApy compounds into a fictional dollar figure
+            // (e.g. $49 quintillion) — never derive $ from it. Honest replacement
+            // line, no numbers to rail. Hero APY keeps rendering the raw rate
+            // elsewhere (demote + flag convention) — this gate is display-only,
+            // on this node.
+            ? (t ? t('projectionBodyOutOfRange') : 'This rate is too far outside normal ranges to project a dollar amount from — the number would be fiction, not a forecast.')
+            : (t ? t('projectionBody', investmentAmount, PROJECTION_YEARS, projectionAmount) :
+                `$${Number(investmentAmount || 0).toLocaleString('en-US')} in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`)),
+          // Yield-funded thesis line (129): the deposit stays the user's — you keep
+          // your money AND it keeps working. Honest framing, no numbers to rail.
+          React.createElement('div', {
+            style: {
+              fontSize: 'var(--font-size-sm)',
+              color: 'var(--color-text-secondary)',
+              marginTop: '8px',
+              lineHeight: '1.4'
+            }
+          }, t ? t('projectionKeepNote') : 'Your deposit stays yours — you keep your money, and it keeps working.')
+          // The degen-haircut warning and the isAnomalous warning that used to
+          // render here moved OUT of this card (still verbatim class/copy) —
+          // see the trust-rail fix below the collapsible content. They must
+          // survive .calculatorExpanded being false, so they cannot live
+          // inside this node (which is itself inside the calculatorExpanded
+          // && guard).
+        ),
+
         // Tab Navigation for Time Periods
         React.createElement('div', {
           style: {
@@ -1220,15 +1228,89 @@ function PoolDetail({
               color: 'var(--color-text-secondary)',
               fontWeight: 'var(--font-weight-medium)'
             }
-          }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString('en-US')} investment`),
-          React.createElement('div', { className: 'calc-disclaimer' },
-            t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'
-          ),
-          totalApy > APY_SANITY_LIMIT_LOCAL && React.createElement('div', { className: 'calc-warning' },
-            t ? t('calcAnomalyWarning') : '⚠ This rate is anomalous and almost certainly unsustainable.'
-          )
+          }, t ? t('basedOnInvestment', investmentAmount) : `Based on $${investmentAmount.toLocaleString('en-US')} investment`)
+          // The ONE .calc-disclaimer for the whole earnings block moved OUT of
+          // this node — see the trust-rail fix below the collapsible content
+          // (it must survive calculatorExpanded===false). The isAnomalous
+          // .calc-warning that used to duplicate here (210 B2e) stays removed
+          // — the single anomaly warning below covers this block.
         ),
 
+      ),
+
+      // Trust-rail fix (post-210 verifier round): the degen-haircut warning,
+      // the anomalous-pool warning, and the single .calc-disclaimer MUST
+      // render regardless of whether the user has collapsed the calculator
+      // — collapsing must never silently drop a trust-rail disclosure or
+      // leave the moved repeat CTA's concrete "~$X in 5y" projection label
+      // undisclaimed. So these three are siblings of the calculatorExpanded
+      // && block above (not nested inside it), placed AFTER the collapsible
+      // content and BEFORE the repeat CTA. Same classes/copy as before
+      // (verbatim) — only their position in the tree moved from "inside the
+      // guard" to "always". In the default expanded state this renders in
+      // the exact same visual order as before (right after the toggle+
+      // readout, right before the repeat CTA).
+      applyDegenHaircut && React.createElement('div', { className: 'calc-warning' },
+        t ? t('poolDegenHaircutNote', _formatApy(totalApy)) : `Projected at ⅓ haircut (${_formatApy(totalApy)} headline) — farm rates decay. Active management required.`
+      ),
+      isAnomalous && React.createElement('div', { className: 'calc-warning' },
+        t ? t('calcAnomalyWarning') : '⚠ This rate is anomalous and almost certainly unsustainable.'
+      ),
+      React.createElement('div', { className: 'calc-disclaimer' },
+        t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'
+      ),
+
+      // Repeat CTA (210 B3) — moved from the page bottom (after Pool
+      // Information) to the end of the earnings block, the intent peak: the
+      // moment the user has parameterised the projection with their own
+      // amount. Sits OUTSIDE the calculatorExpanded && conditional above (a
+      // sibling, not nested inside it) so it still renders whether or not
+      // the user has collapsed the calculator. Reuses .pool-action-card
+      // markup verbatim; this KEEPS the concrete showConcreteCta projection
+      // label (by now the user has set their own input) — only ctaPlacement
+      // changes, from 'repeat_footer' to 'earnings_block', on both the
+      // garden CTA payload and the renderProtocolCtaBlock call, so hero-vs-
+      // earnings-block click share reads from the existing event with no new
+      // instrumentation.
+      React.createElement('div', {
+        className: 'pool-action-card',
+        style: { maxWidth: '420px', margin: '32px auto 0' }
+      },
+        React.createElement('p', {
+          style: {
+            fontSize: 'var(--font-size-base)',
+            fontWeight: 'var(--font-weight-semibold)',
+            color: 'var(--color-text)',
+            textAlign: 'center',
+            margin: 0
+          }
+        }, t ? t('repeatCtaHeading') : 'Ready to start this garden?'),
+
+        // Primary CTA — garden this pool (repeat)
+        React.createElement('a', {
+          className: 'cta-button-primary',
+          href: gardenThisPoolHref,
+          onClick: () => {
+            if (typeof Analytics !== 'undefined') {
+              Analytics.trackPoolClick(pool, 'garden_cta', {
+                investmentAmount: Math.round(investmentAmount),
+                projectionYears: PROJECTION_YEARS,
+                ctaVariant: showConcreteCta ? 'concrete' : 'generic',
+                ctaPlacement: 'earnings_block'
+              });
+            }
+          }
+        }, showConcreteCta
+          ? (t ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS)
+               : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y`)
+          : (t ? t('gardenThisPoolCta') : 'Garden this pool →')),
+        React.createElement('p', { className: 'pool-action-hint' },
+          t ? t('plannerCtaHint') : 'No wallet needed'
+        ),
+
+        // Secondary — protocol link, or an honest DefiLlama fallback when no
+        // protocol URL resolves at all (spec 182 leg B/D), repeated.
+        ...renderProtocolCtaBlock('earnings_block')
       )
     ),
 
@@ -1316,6 +1398,100 @@ function PoolDetail({
           animation: 'fadeIn 0.3s ease'
         }
       },
+        // Rate-momentum honesty note (103) — full-width, calm. Reuses 071's
+        // exact neuro styling. Surfaces 087's kpis.apyMomentum (last − first
+        // total APY over the tracked window) as calm cautious-saver language:
+        // rising AND falling rates said out loud (degen-honesty precedent).
+        // Yields entirely to the 071 volatility note (same divergence boolean)
+        // so the two are mutually exclusive, renders nothing when kpis/momentum
+        // are missing (live SEO deep-link landings), needs a ≥7-day window, and
+        // stays silent below a meaningful move (|momentum| < 0.5, 088.1 covers).
+        // Promoted (210 C3) above the tile grid — prose insight outranks
+        // reference data.
+        (!(mean30dSane &&
+          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
+          pool.apyMean30d > 0 &&
+          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
+            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
+          pool.kpis && typeof pool.kpis === 'object' &&
+          typeof pool.kpis.apyMomentum === 'number' &&
+          Number(pool.kpis.historyPoints) >= 7 &&
+          Math.abs(pool.kpis.apyMomentum) >= 0.5) &&
+        React.createElement('div', {
+          className: 'rate-momentum-note',
+          style: {
+            background: 'var(--color-background)',
+            borderRadius: 'var(--neuro-radius-sm)',
+            boxShadow: 'var(--neuro-shadow-subtle)',
+            color: 'var(--color-text-secondary)',
+            fontSize: 'var(--font-size-sm)',
+            lineHeight: '1.5',
+            padding: '12px 16px',
+            marginBottom: '20px'
+          }
+        },
+          (function () {
+            var mom = pool.kpis.apyMomentum;
+            var hp = Number(pool.kpis.historyPoints);
+            if (mom >= 0.5) {
+              return t
+                ? t('rateMomentumRising', _formatApy(Math.abs(mom)), hp)
+                : `This pool's rate has climbed about ${_formatApy(Math.abs(mom))} over the ${hp} days we've tracked it. Rates that rose can slip back just as easily — this page projects on today's rate, not the climb.`;
+            }
+            return t
+              ? t('rateMomentumFalling', _formatApy(Math.abs(mom)), hp)
+              : `This pool's rate has eased down about ${_formatApy(Math.abs(mom))} over the ${hp} days we've tracked it. Falling rates are normal once reward emissions taper — worth knowing before you plan a garden around today's number.`;
+          })()
+        ),
+
+        // TVL-trend honesty note (104) — full-width, calm. Reuses 071's exact
+        // neuro styling. Surfaces 087's kpis.tvlTrend (signed fraction of the
+        // deposit-base change over the tracked window) as calm cautious-saver
+        // language: a shrinking pool that still clears the $10M floor is the
+        // ICP-relevant risk; a growing pool is one honest sign, never a
+        // guarantee. Yields entirely to the 071 volatility note (same
+        // divergence boolean) so a volatile pool shows exactly one note,
+        // renders nothing when kpis/tvlTrend are missing (live SEO deep-link
+        // landings), needs a ≥7-point window, and stays silent below a
+        // meaningful move (|tvlTrend| < 0.25). Promoted (210 C3) above the
+        // tile grid — prose insight outranks reference data.
+        (!(mean30dSane &&
+          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
+          pool.apyMean30d > 0 &&
+          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
+            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
+          pool.kpis && typeof pool.kpis === 'object' &&
+          typeof pool.kpis.tvlTrend === 'number' &&
+          Number(pool.kpis.historyPoints) >= 7 &&
+          Math.abs(pool.kpis.tvlTrend) >= 0.25) &&
+        React.createElement('div', {
+          className: 'tvl-trend-note',
+          style: {
+            background: 'var(--color-background)',
+            borderRadius: 'var(--neuro-radius-sm)',
+            boxShadow: 'var(--neuro-shadow-subtle)',
+            color: 'var(--color-text-secondary)',
+            fontSize: 'var(--font-size-sm)',
+            lineHeight: '1.5',
+            padding: '12px 16px',
+            marginBottom: '20px'
+          }
+        },
+          (function () {
+            var tvl = pool.kpis.tvlTrend;
+            var hp = Number(pool.kpis.historyPoints);
+            var pctStr = _formatNum(Math.round(Math.abs(tvl) * 100)) + '%';
+            if (tvl <= -0.25) {
+              return t
+                ? t('tvlTrendShrinking', pctStr, hp)
+                : "This pool's deposits have shrunk about " + pctStr + " over the " + hp + " days we've tracked it. A pool can keep clearing our $10M size floor while quietly losing deposits — worth watching for a garden you plan to hold for years.";
+            }
+            return t
+              ? t('tvlTrendGrowing', pctStr, hp)
+              : "This pool's deposits have grown about " + pctStr + " over the " + hp + " days we've tracked it. More deposits isn't a guarantee, but a pool that's holding or gaining size is one honest sign of staying power.";
+          })()
+        ),
+
         // APY Breakdown Grid
         React.createElement('div', {
           style: {
@@ -1325,60 +1501,10 @@ function PoolDetail({
             marginBottom: '20px'
           }
         },
-          // APY Breakdown
-          (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
-            style: {
-              padding: '12px',
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-sm)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
-              textAlign: 'center'
-            }
-          },
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-xs)',
-                color: 'var(--color-text-secondary)',
-                marginBottom: '4px',
-                textTransform: 'uppercase'
-              }
-            }, 'Base APY'),
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-base)',
-                fontWeight: 'var(--font-weight-bold)',
-                color: 'var(--color-text)'
-              }
-            }, _formatApy(pool.apyBase))
-          ),
-
-          (pool.apyBase > 0 && pool.apyReward > 0) && React.createElement('div', {
-            style: {
-              padding: '12px',
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-sm)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
-              textAlign: 'center'
-            }
-          },
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-xs)',
-                color: 'var(--color-text-secondary)',
-                marginBottom: '4px',
-                textTransform: 'uppercase'
-              }
-            }, 'Reward APY'),
-            React.createElement('div', {
-              style: {
-                fontSize: 'var(--font-size-base)',
-                fontWeight: 'var(--font-weight-bold)',
-                color: 'var(--color-primary)'
-              }
-            }, _formatApy(pool.apyReward))
-          ),
-
-          // Pool Age (if available)
+          // TVL tile (210 C2) — replaces the removed Base APY/Reward APY/Pool
+          // Type tiles (all three duplicated the hero); same tile shape,
+          // existing t('tvl') key (EN/KO already present), and the same
+          // formatCurrency helper the hero's tvl-badge uses.
           React.createElement('div', {
             style: {
               padding: '12px',
@@ -1395,14 +1521,14 @@ function PoolDetail({
                 marginBottom: '4px',
                 textTransform: 'uppercase'
               }
-            }, t ? t('poolType') : 'Pool Type'),
+            }, t ? t('tvl') : 'TVL'),
             React.createElement('div', {
               style: {
                 fontSize: 'var(--font-size-sm)',
                 fontWeight: 'var(--font-weight-medium)',
                 color: 'var(--color-text)'
               }
-            }, poolType)
+            }, formatCurrency(pool.tvlUsd))
           ),
 
           // 30d Mean APY (if available) — substantiates whether today's rate is stable or a spike
@@ -1487,213 +1613,6 @@ function PoolDetail({
               }
             }, pool.ilRisk === 'yes' ? (t ? t('yes') : 'Yes') : (t ? t('no') : 'No'))
           )
-        ),
-
-        // Rate-volatility honesty note (071) — full-width, calm. Fires only when
-        // the current total APY and the 30-day mean both exist, are > 0, and
-        // diverge by >=1.5x (max/min). Conservative: never on missing/zero data.
-        (mean30dSane &&
-          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
-          pool.apyMean30d > 0 &&
-          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
-            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
-        React.createElement('div', {
-          className: 'rate-volatility-note',
-          style: {
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-sm)',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            color: 'var(--color-text-secondary)',
-            fontSize: 'var(--font-size-sm)',
-            lineHeight: '1.5',
-            padding: '12px 16px',
-            marginBottom: '20px'
-          }
-        },
-          t
-            ? t('rateVolatilityNote', _formatApy((pool.apyBase || 0) + (pool.apyReward || 0)), _formatApy(pool.apyMean30d))
-            : `This pool's rate moves a lot: ${_formatApy((pool.apyBase || 0) + (pool.apyReward || 0))} right now vs a ${_formatApy(pool.apyMean30d)} 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.`
-        ),
-
-        // Rate-track-record note (088.1) — full-width, calm. Reuses 071's exact
-        // neuro styling. Surfaces 087's kpis.historyPoints + kpis.apyStdev as
-        // calm cautious-saver language. Yields entirely to the 071 volatility
-        // note (same divergence boolean) so the two are mutually exclusive, and
-        // renders nothing when kpis are missing (live SEO deep-link landings).
-        (!(mean30dSane &&
-          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
-          pool.apyMean30d > 0 &&
-          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
-            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
-          pool.kpis && typeof pool.kpis === 'object' && Number(pool.kpis.historyPoints) >= 1) &&
-        React.createElement('div', {
-          className: 'rate-track-record-note',
-          style: {
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-sm)',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            color: 'var(--color-text-secondary)',
-            fontSize: 'var(--font-size-sm)',
-            lineHeight: '1.5',
-            padding: '12px 16px',
-            marginBottom: '20px'
-          }
-        },
-          (function () {
-            var _cur = (pool.apyBase || 0) + (pool.apyReward || 0);
-            var _k = pool.kpis;
-            var hp = Number(_k.historyPoints);
-            var stdev = (typeof _k.apyStdev === 'number') ? _k.apyStdev : null;
-            if (hp < 7) {
-              return t
-                ? t('rateTrackRecordNew')
-                : "We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.";
-            }
-            if (stdev !== null && _cur > 0 && (stdev / _cur) <= 0.2) {
-              return t
-                ? t('rateTrackRecordSteady', hp)
-                : `Steady so far: across the ${hp} days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.`;
-            }
-            return t
-              ? t('rateTrackRecordTracked', hp)
-              : `We've been tracking this pool's rate for ${hp} days. Watching how a rate holds up over time is one honest way to judge it.`;
-          })()
-        ),
-
-        // Rate-history-unavailable note (207) — full-width, calm. Fourth tier
-        // for the "no data at all" case that 088.1's block above never
-        // reaches: a pool with no kpis object at all (the ~88.6% of `?pool=`
-        // deep links absent from data/pools-snapshot.json — live SEO
-        // arrivals). Deliberately a DISTINCT class (.rate-history-unavailable-
-        // note, not .rate-track-record-note) rather than the spec's literal
-        // "reuse the class name" suggestion: test_kpi_track_record.js case D4
-        // asserts .rate-track-record-note is absent when pool.kpis is
-        // missing, and 207's acceptance criteria require that test stay
-        // unmodified-and-passing. The four sibling notes on this page
-        // (volatility/track-record/momentum/tvl-trend) already each have
-        // their own class hook with byte-identical inline styling and none
-        // appear in any .css file, so a distinct hook is the established
-        // pattern and adds no CSS. Style object copied verbatim from the
-        // rate-track-record note above. Yields entirely to the 071
-        // volatility note (same divergence boolean, negated) so it's mutually
-        // exclusive with every other tier, and is gated on
-        // historyLookupSettled so it never flashes ahead of app.js's 105
-        // kpi-snapshot backfill (see the effect above) for the pools that
-        // backfill successfully.
-        (!(mean30dSane &&
-          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
-          pool.apyMean30d > 0 &&
-          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
-            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
-          !(pool.kpis && typeof pool.kpis === 'object') &&
-          historyLookupSettled) &&
-        React.createElement('div', {
-          className: 'rate-history-unavailable-note',
-          style: {
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-sm)',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            color: 'var(--color-text-secondary)',
-            fontSize: 'var(--font-size-sm)',
-            lineHeight: '1.5',
-            padding: '12px 16px',
-            marginBottom: '20px'
-          }
-        },
-          t
-            ? t('rateHistoryUnavailable')
-            : "We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama."
-        ),
-
-        // Rate-momentum honesty note (103) — full-width, calm. Reuses 071's
-        // exact neuro styling. Surfaces 087's kpis.apyMomentum (last − first
-        // total APY over the tracked window) as calm cautious-saver language:
-        // rising AND falling rates said out loud (degen-honesty precedent).
-        // Yields entirely to the 071 volatility note (same divergence boolean)
-        // so the two are mutually exclusive, renders nothing when kpis/momentum
-        // are missing (live SEO deep-link landings), needs a ≥7-day window, and
-        // stays silent below a meaningful move (|momentum| < 0.5, 088.1 covers).
-        (!(mean30dSane &&
-          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
-          pool.apyMean30d > 0 &&
-          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
-            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
-          pool.kpis && typeof pool.kpis === 'object' &&
-          typeof pool.kpis.apyMomentum === 'number' &&
-          Number(pool.kpis.historyPoints) >= 7 &&
-          Math.abs(pool.kpis.apyMomentum) >= 0.5) &&
-        React.createElement('div', {
-          className: 'rate-momentum-note',
-          style: {
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-sm)',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            color: 'var(--color-text-secondary)',
-            fontSize: 'var(--font-size-sm)',
-            lineHeight: '1.5',
-            padding: '12px 16px',
-            marginBottom: '20px'
-          }
-        },
-          (function () {
-            var mom = pool.kpis.apyMomentum;
-            var hp = Number(pool.kpis.historyPoints);
-            if (mom >= 0.5) {
-              return t
-                ? t('rateMomentumRising', _formatApy(Math.abs(mom)), hp)
-                : `This pool's rate has climbed about ${_formatApy(Math.abs(mom))} over the ${hp} days we've tracked it. Rates that rose can slip back just as easily — this page projects on today's rate, not the climb.`;
-            }
-            return t
-              ? t('rateMomentumFalling', _formatApy(Math.abs(mom)), hp)
-              : `This pool's rate has eased down about ${_formatApy(Math.abs(mom))} over the ${hp} days we've tracked it. Falling rates are normal once reward emissions taper — worth knowing before you plan a garden around today's number.`;
-          })()
-        ),
-
-        // TVL-trend honesty note (104) — full-width, calm. Reuses 071's exact
-        // neuro styling. Surfaces 087's kpis.tvlTrend (signed fraction of the
-        // deposit-base change over the tracked window) as calm cautious-saver
-        // language: a shrinking pool that still clears the $10M floor is the
-        // ICP-relevant risk; a growing pool is one honest sign, never a
-        // guarantee. Yields entirely to the 071 volatility note (same
-        // divergence boolean) so a volatile pool shows exactly one note,
-        // renders nothing when kpis/tvlTrend are missing (live SEO deep-link
-        // landings), needs a ≥7-point window, and stays silent below a
-        // meaningful move (|tvlTrend| < 0.25).
-        (!(mean30dSane &&
-          ((pool.apyBase || 0) + (pool.apyReward || 0)) > 0 &&
-          pool.apyMean30d > 0 &&
-          (Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) /
-            Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d)) >= 1.5) &&
-          pool.kpis && typeof pool.kpis === 'object' &&
-          typeof pool.kpis.tvlTrend === 'number' &&
-          Number(pool.kpis.historyPoints) >= 7 &&
-          Math.abs(pool.kpis.tvlTrend) >= 0.25) &&
-        React.createElement('div', {
-          className: 'tvl-trend-note',
-          style: {
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-sm)',
-            boxShadow: 'var(--neuro-shadow-subtle)',
-            color: 'var(--color-text-secondary)',
-            fontSize: 'var(--font-size-sm)',
-            lineHeight: '1.5',
-            padding: '12px 16px',
-            marginBottom: '20px'
-          }
-        },
-          (function () {
-            var tvl = pool.kpis.tvlTrend;
-            var hp = Number(pool.kpis.historyPoints);
-            var pctStr = _formatNum(Math.round(Math.abs(tvl) * 100)) + '%';
-            if (tvl <= -0.25) {
-              return t
-                ? t('tvlTrendShrinking', pctStr, hp)
-                : "This pool's deposits have shrunk about " + pctStr + " over the " + hp + " days we've tracked it. A pool can keep clearing our $10M size floor while quietly losing deposits — worth watching for a garden you plan to hold for years.";
-            }
-            return t
-              ? t('tvlTrendGrowing', pctStr, hp)
-              : "This pool's deposits have grown about " + pctStr + " over the " + hp + " days we've tracked it. More deposits isn't a guarantee, but a pool that's holding or gaining size is one honest sign of staying power.";
-          })()
         ),
 
         // Tokens Section (if available)
@@ -1797,52 +1716,6 @@ function PoolDetail({
       )
     ),
 
-    // Repeat CTA block (125) — mirrors the hero action card's two north-star
-    // CTAs so a reader who has scrolled to the bottom (past Pool Information)
-    // can convert without scrolling back up. Reuses .pool-action-card + the
-    // hero button/hint classes verbatim (zero new CSS); only additive
-    // instrumentation via ctaPlacement:'repeat_footer'. Inherits showConcreteCta
-    // (!isAnomalous) so no anomalous projection ever leaks into this CTA.
-    React.createElement('div', {
-      className: 'pool-action-card',
-      style: { maxWidth: '420px', margin: '32px auto 0' }
-    },
-      React.createElement('p', {
-        style: {
-          fontSize: 'var(--font-size-base)',
-          fontWeight: 'var(--font-weight-semibold)',
-          color: 'var(--color-text)',
-          textAlign: 'center',
-          margin: 0
-        }
-      }, t ? t('repeatCtaHeading') : 'Ready to start this garden?'),
-
-      // Primary CTA — garden this pool (repeat)
-      React.createElement('a', {
-        className: 'cta-button-primary',
-        href: gardenThisPoolHref,
-        onClick: () => {
-          if (typeof Analytics !== 'undefined') {
-            Analytics.trackPoolClick(pool, 'garden_cta', {
-              investmentAmount: Math.round(investmentAmount),
-              projectionYears: PROJECTION_YEARS,
-              ctaVariant: showConcreteCta ? 'concrete' : 'generic',
-              ctaPlacement: 'repeat_footer'
-            });
-          }
-        }
-      }, showConcreteCta
-        ? (t ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS)
-             : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y`)
-        : (t ? t('gardenThisPoolCta') : 'Garden this pool →')),
-      React.createElement('p', { className: 'pool-action-hint' },
-        t ? t('plannerCtaHint') : 'No wallet needed'
-      ),
-
-      // Secondary — protocol link, or an honest DefiLlama fallback when no
-      // protocol URL resolves at all (spec 182 leg B/D), repeated.
-      ...renderProtocolCtaBlock('repeat_footer')
-    ),
   );
 }
 
