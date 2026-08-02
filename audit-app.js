@@ -401,19 +401,36 @@ const FALLBACK_HINT_MARKERS = [
 const DEFAULT_ROTATION_STATE_PATH = path.join(ROOT, 'product-loop-kit', 'signals', 'audit-rotation.json');
 // Bounded, drop-oldest on overflow (spec 183 §1). INVARIANT (operator
 // review, round 2): this MUST stay strictly greater than the real
-// rotation-candidate population (snapshot pool count minus the anchor and
-// any prescan-promoted ids — 737 pools on this checkout, so ~735 candidates)
-// or `unseen` can never reach zero, `computeRotation()`'s wrap branch (and
-// therefore `cycle` ever incrementing, and the "log the rotation position so
-// a reader can tell coverage from luck" signal) becomes permanently dead
-// code on real data — a cap of 500 against ~735 candidates was exactly this
-// bug. 2000 gives headroom for real snapshot growth while staying a bounded,
-// small file (~40 bytes/id ⇒ ~80KB at the cap) that costs nothing extra to
-// commit (the file already rewrites daily). test_audit_cta_provenance.js
-// asserts this invariant against the REAL data/pools-snapshot.json so a
-// future snapshot outgrowing the cap fails loudly instead of silently
-// killing the wrap branch again.
-const ROTATION_SEEN_CAP = 2000;
+// rotation-candidate population or `unseen` can never reach zero,
+// `computeRotation()`'s wrap branch (and therefore `cycle` ever
+// incrementing, and the "log the rotation position so a reader can tell
+// coverage from luck" signal) becomes permanently dead code on real data —
+// a cap of 500 against ~735 candidates was exactly this bug (the original
+// snapshot-only trap this constant's comment already warned about).
+//
+// backlog 206 — RAISED 2000 -> 12000, for exactly the same reason
+// STATIC_ROTATION_SEEN_CAP's own comment (below) documents for its leg: the
+// candidate population this constant now bounds is no longer just the
+// snapshot (736 pools on this checkout) — buildPoolSurfaces() widens it to
+// the UNION of the snapshot and the estate's own live, shape-valid `?pool=`
+// deep links (spec 206 evidence: 3,669 distinct deep-linked ids, only 420 of
+// which overlap the snapshot, so the union is ~3,985 on this checkout — see
+// specs/206-notes.md for the exact measured figure). 2000 sat BELOW that
+// union, which would have made the wrap branch permanently dead code again
+// the moment this item shipped — precisely the trap this comment already
+// warns about, on its fourth occurrence in this file (183 -> 196 -> 206).
+// 12000 gives >=2x headroom over today's real union population, matching
+// STATIC_ROTATION_SEEN_CAP's own >=2x-headroom convention, at the same
+// negligible per-id disk cost this comment already measured (~40 bytes/id
+// ⇒ ~480KB at the new cap — still a bounded, small file that costs nothing
+// extra to commit; the file already rewrites daily).
+// test_audit_pool_population.js (206) asserts this invariant against the
+// REAL union population (snapshot + estate deep links), read from disk at
+// test time, never a hardcoded literal — a failure there means: raise this
+// cap again. test_audit_cta_provenance.js's own pre-206 snapshot-population
+// assertion is left as-is (it still holds; snapshot alone is still well
+// under 12000).
+const ROTATION_SEEN_CAP = 12000;
 
 // backlog 196 — co-located with DEFAULT_ROTATION_STATE_PATH, same zero-extra-
 // deploy reasoning (spec 183 T5): the static leg's rotation state rides in
@@ -1347,6 +1364,39 @@ function linkQueryPairs(suffix) {
   return out;
 }
 
+// ---------------------------------------------------------------------------
+// backlog 206 — the ONE `?pool=` deep-link id extractor in this file. Used
+// to live inline inside prescanStaticPages()'s pool-link-liveness sub-rule
+// (backlog 184); item 206 needs the exact same ids for the pool-detail
+// rotation's candidate population (buildPoolSurfaces(), via
+// prescanStaticPages()'s new `deepLinkPoolIds` return field), so this is now
+// a named helper both call, rather than two independently-drifting regex
+// scans (verifier greps for exactly one `[?&]pool=`-style extraction).
+// Same owned-suffix/home-path/query-pair helpers rule (a) and level 2/3
+// above already use — reused, never re-parsed. Deliberately UNFILTERED by
+// pool-id shape (no POOL_ID_UUID_RE check here): prescanStaticPages()'s own
+// pool-link-liveness classification needs to SEE malformed ids too (that is
+// what makes them classify as 'contract' rather than silently vanishing) —
+// callers that want a shape-clean population (the new rotation leg) filter
+// on the way out, not in here. Returns a plain array; may contain
+// duplicates within one page (a caller that wants uniqueness Set-ifies it,
+// exactly like the pre-206 inline code did with `pageDeepLinkIds`).
+// ---------------------------------------------------------------------------
+function extractDeepLinkPoolIds(html) {
+  const ids = [];
+  for (const m of html.matchAll(HTML_HREF_RE)) {
+    const suffix = ownedHtmlLinkSuffix(m[1]);
+    if (suffix === null) continue;
+    const linkPathVal = ownedLinkPath(suffix);
+    if (linkPathVal !== '' && linkPathVal !== '/') continue;
+    const pairs = linkQueryPairs(suffix);
+    if (!pairs.has('pool')) continue;
+    const id = pairs.get('pool');
+    if (id) ids.push(id);
+  }
+  return ids;
+}
+
 // Mirrors app.js:927 EXACTLY: an explicit `minTvl` — even one BELOW
 // DEFAULT_MIN_TVL — is honoured, never clamped up (that is 173's own fix;
 // spec 175 acceptance criterion 5 checks this exact case: `?minTvl=100000`
@@ -1482,16 +1532,19 @@ async function loadLivePoolIds(opts = {}) {
     // Test injection — bypasses cta181.loadPools() (and therefore its fixture/
     // cache/network path) entirely, same convention as this file's other
     // opts.* test-support knobs (opts.pages, opts.snapshot, ...).
-    return { ids: new Set(opts.livePools.map((p) => p.pool)), error: null, source: 'injected', count: opts.livePools.length };
+    // backlog 206 — `pools` (the full LIVE-shape records, not just ids) is
+    // additive: runAudit() needs them to build the sub-rail fixture body
+    // (§7) and extend `ctx.poolsById`, without a second fetch/injection.
+    return { ids: new Set(opts.livePools.map((p) => p.pool)), pools: opts.livePools, error: null, source: 'injected', count: opts.livePools.length };
   }
   try {
     // cta181.loadPools() already handles POOLS_FIXTURE, a 6h temp cache, and
     // a live fetch — and throws loudly rather than passing vacuously (its own
     // header comment). Reused verbatim, never re-implemented (174's rule).
     const pools = await cta181.loadPools();
-    return { ids: new Set(pools.map((p) => p.pool)), error: null, source: 'pools', count: pools.length };
+    return { ids: new Set(pools.map((p) => p.pool)), pools, error: null, source: 'pools', count: pools.length };
   } catch (e) {
-    return { ids: null, error: e.message, source: null, count: 0 };
+    return { ids: null, pools: null, error: e.message, source: null, count: 0 };
   }
 }
 
@@ -1591,6 +1644,15 @@ function prescanStaticPages(opts = {}) {
   const POOL_LINK_CLASS_RANK = { contract: 3, stale: 2, drift: 1, ok: 0 };
   const poolLinkDeadPages = new Set(); // pages carrying >=1 dead (stale or drift) id
   const poolLinkDriftCandidates = []; // { rel, slug, ids } — only emitted as suspects if scan-wide drift exceeds budget
+  // backlog 206 — scan-wide, shape-filtered `?pool=` deep-link population
+  // (the pool-detail rotation's widened candidate leg). Accumulated for
+  // EVERY non-`ko/` page regardless of whether poolLinkRan (the liveness
+  // sub-rule needs opts.livePoolIds; this population does not — it only
+  // needs the estate's own href text, always readable). Filtered through
+  // POOL_ID_UUID_RE (184's own contract rule: a malformed value is a
+  // generator bug, never a rotation candidate) so junk never reaches
+  // buildPoolSurfaces().
+  const deepLinkIds = new Set();
 
   let scanned = 0;
   const suspects = [];
@@ -1831,24 +1893,23 @@ function prescanStaticPages(opts = {}) {
     // precondition (a distinct id set worth resolving) does not hold for KO,
     // so it deliberately stays unported, made legible via
     // poolLinkLiveness.scope === 'en' below rather than silently narrowed.
-    if (poolLinkRan && !rel.startsWith('ko/')) {
-      // Distinct `?pool=` ids this page LINKS TO, from owned home-path hrefs
-      // (reuses HTML_HREF_RE / ownedHtmlLinkSuffix / ownedLinkPath /
-      // linkQueryPairs — the exact same helpers rule (a) and level 2/3 above
-      // already use, never a second parse of the query string shape).
-      const pageDeepLinkIds = new Set();
-      for (const m of html.matchAll(HTML_HREF_RE)) {
-        const suffix = ownedHtmlLinkSuffix(m[1]);
-        if (suffix === null) continue;
-        const linkPathVal = ownedLinkPath(suffix);
-        if (linkPathVal !== '' && linkPathVal !== '/') continue;
-        const pairs = linkQueryPairs(suffix);
-        if (!pairs.has('pool')) continue;
-        const id = pairs.get('pool');
-        if (id) pageDeepLinkIds.add(id);
-      }
+    if (!rel.startsWith('ko/')) {
+      // backlog 206 — ONE extraction per page, feeding BOTH the scan-wide
+      // rotation population (deepLinkIds, shape-filtered, unconditional) and
+      // the pool-link-liveness sub-rule below (pageDeepLinkIds, unfiltered,
+      // gated on poolLinkRan) — exactly the pre-206 inline parse, just
+      // hoisted into extractDeepLinkPoolIds() (see its own comment) so there
+      // is exactly one `?pool=`-extraction implementation in this file.
+      const pageIds = extractDeepLinkPoolIds(html);
+      for (const id of pageIds) { if (POOL_ID_UUID_RE.test(id)) deepLinkIds.add(id); }
 
-      if (pageDeepLinkIds.size > 0) {
+      // Distinct `?pool=` ids this page LINKS TO, from owned home-path hrefs
+      // — unfiltered (byte-identical to the pre-206 inline `pageDeepLinkIds`
+      // build): the liveness classification below needs to SEE a malformed
+      // id too, to classify it 'contract' rather than silently dropping it.
+      const pageDeepLinkIds = poolLinkRan ? new Set(pageIds) : null;
+
+      if (poolLinkRan && pageDeepLinkIds.size > 0) {
         // Ids the page's own pool-row anchors point at — for the contract
         // sub-rule's "a link whose id the page's own body never backs" test.
         // A second small pass over HTML_ANCHOR_TAG_RE (rule (b) above already
@@ -2009,7 +2070,11 @@ function prescanStaticPages(opts = {}) {
   // itself stays the single combined total (spec 197 §"Change" item 4:
   // `prescan.scanned` stays one number), and every caller ignoring the new
   // key keeps working unchanged.
-  return { scanned, suspects, poolLinkLiveness, scannedByFamily };
+  // backlog 206 — `deepLinkPoolIds` (sorted, deduped, shape-filtered) is the
+  // same additive extension: the pool-detail rotation's widened candidate
+  // leg, sourced from the SAME estate scan this function already does for
+  // pool-link-liveness, never a second pass over the pages.
+  return { scanned, suspects, poolLinkLiveness, scannedByFamily, deepLinkPoolIds: [...deepLinkIds].sort() };
 }
 
 // No-suspects/prescan-disabled shape — always the same shape whether prescan
@@ -2027,7 +2092,11 @@ function emptyPrescanResult() {
     },
     // backlog 197 — same "never null-check" contract, zeroed for the same
     // disabled/prescan-off cases the other fields above already cover.
-    scannedByFamily: { tokens: 0, chains: 0, koTokens: 0, koChains: 0 }
+    scannedByFamily: { tokens: 0, chains: 0, koTokens: 0, koChains: 0 },
+    // backlog 206 — same "never null-check" contract: prescan disabled/
+    // unrun/override means the deep-linked rotation leg has nothing to draw
+    // from, made explicit as an empty array rather than an absent key.
+    deepLinkPoolIds: []
   };
 }
 
@@ -2178,7 +2247,11 @@ function buildStaticSurfaces(opts) {
       // own return; lands in the findings JSON so a reader can tell
       // EN-clean from KO-clean without reading code (spec 197 acceptance).
       // `scanned` above stays the single combined total on purpose.
-      scannedByFamily: scan.scannedByFamily
+      scannedByFamily: scan.scannedByFamily,
+      // backlog 206 — threaded through unchanged from prescanStaticPages()'s
+      // own return; runAudit() reads this to widen buildPoolSurfaces()'s
+      // rotation candidate population.
+      deepLinkPoolIds: scan.deepLinkPoolIds
     };
 
     // backlog 184 — a fetch failure must NOT silently pass the gate: when the
@@ -2733,7 +2806,14 @@ function emptyPoolRotationResult() {
   // backlog 199 — lensSampleSize/lensRendered/lensSkipped/lenses stay 0/{}
   // for the same reason renderedCount/truncated do: no rotation ever ran, so
   // no lens surface was ever built either.
-  return { cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false, sampleSize: 0, renderedCount: 0, truncated: false, timeBudgetMs: 0, lensSampleSize: 0, lensRendered: 0, lensSkipped: 0, lenses: {} };
+  // backlog 206 — snapshotIds/deepLinkIds/union/reachable/subRailPicked stay
+  // 0, deepLinkSource stays a plain "not requested" string, for the exact
+  // same "never null-check" reason: no rotation ran, so the population split
+  // was never computed either.
+  return {
+    cycle: 0, seenCount: 0, candidateCount: 0, picked: [], wrapped: false, sampleSize: 0, renderedCount: 0, truncated: false, timeBudgetMs: 0, lensSampleSize: 0, lensRendered: 0, lensSkipped: 0, lenses: {},
+    snapshotIds: 0, deepLinkIds: 0, union: 0, reachable: 0, subRailPicked: 0, deepLinkSource: 'not requested'
+  };
 }
 
 // Builds the pool-detail promotion/rotation additions (spec 167 §2) and
@@ -2898,18 +2978,65 @@ function buildPoolSurfaces(opts = {}) {
     name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280, poolId: id
   }));
 
+  // ---- backlog 206 — widen the candidate population: union of the snapshot
+  // ids and the estate's own `?pool=` deep links, intersected with the live
+  // feed. The intersection is a HARD requirement (spec §4), not an
+  // optimisation: a deep-linked id with no live record has no fixture to
+  // render from, and rendering it would fabricate a dead-end finding (the
+  // exact snapshot-shape trap playbooks/product-audit.md warns about). Any
+  // of three conditions degrades the deep-linked leg to ZERO candidates,
+  // never silently: opts.livePoolIds not a real Set (fetch error, or the
+  // opts.poolLiveness===false / AUDIT_POOL_LIVENESS=0 kill switch — runAudit()
+  // resolves both into "no Set" before calling here), opts.deepLinkPoolIds
+  // empty (static prescan disabled, or override mode, or genuinely zero
+  // links), or — the ordinary case — a deep-linked id simply not present in
+  // the live feed (dead/decayed pool). `pools` (the snapshot) is untouched;
+  // this only widens what the ROTATION leg (never promotion/anchor) draws
+  // from — same rotation, wider population (spec §4's own "not a parallel
+  // rotation" requirement).
+  const snapshotIdsArr = pools.filter((p) => p && p.pool).map((p) => p.pool);
+  const snapshotIdsSet = new Set(snapshotIdsArr);
+  const deepLinkPoolIdsIn = Array.isArray(opts.deepLinkPoolIds) ? opts.deepLinkPoolIds : [];
+  const liveIdsSet = (opts.livePoolIds instanceof Set) ? opts.livePoolIds : null;
+  let subRailLiveIds = []; // deep-linked ids confirmed live this tick (may overlap the snapshot)
+  let degraded = false;
+  let deepLinkSource;
+  if (!liveIdsSet) {
+    degraded = true;
+    deepLinkSource = opts.deepLinkDegradeReason || 'live pool ids unavailable (fetch error, or pool-liveness disabled) — deep-linked leg contributes 0 candidates, rotation is snapshot-only';
+    console.error(`[audit] pool-detail rotation: deep-linked leg degraded — ${deepLinkSource}`);
+  } else if (deepLinkPoolIdsIn.length === 0) {
+    degraded = true;
+    deepLinkSource = opts.deepLinkDegradeReason || 'no deep-linked pool ids supplied (static prescan disabled, override mode, or the estate scan found none) — deep-linked leg contributes 0 candidates, rotation is snapshot-only';
+    console.error(`[audit] pool-detail rotation: deep-linked leg degraded — ${deepLinkSource}`);
+  } else {
+    subRailLiveIds = deepLinkPoolIdsIn.filter((id) => liveIdsSet.has(id));
+  }
+  // Ids the deep-linked leg reaches that the snapshot itself does NOT carry
+  // — the actual "sub-rail" additions, used both to build the union and to
+  // mark sub-rail surfaces below (spec §7: "set only for ids absent from the
+  // snapshot").
+  const subRailOnlyIds = new Set(subRailLiveIds.filter((id) => !snapshotIdsSet.has(id)));
+  if (!degraded) {
+    // Non-degraded case: state BOTH the raw live-confirmed count and the
+    // net-new (post-snapshot-overlap) count `poolRotation.deepLinkIds`
+    // actually reports below, so a reader never has to reconcile the two by
+    // hand (spec 206 evidence: ~420 of the estate's deep links already
+    // overlap the snapshot on this checkout).
+    deepLinkSource = `${subRailLiveIds.length} of ${deepLinkPoolIdsIn.length} deep-linked ids confirmed live, ${subRailOnlyIds.size} net-new beyond the snapshot`;
+  }
+  const unionIds = snapshotIdsArr.concat([...subRailOnlyIds]).sort();
+
   // ---- Never-audited-first rotation (backlog 183 leg b) — additive to
   // promotion, see header note above. Replaces the old bare
-  // sampleBySeed(rotationCandidates, ...) call: same candidate set (anchor +
-  // promoted excluded, exactly as before — T4's "promotion path, the anchor
-  // block, and the existing surface names stay untouched"), but now prefers
-  // ids never seen in the committed state file, only falling back to
-  // already-seen ids once the unseen pool is exhausted.
+  // sampleBySeed(rotationCandidates, ...) call: same candidate set shape
+  // (anchor + promoted excluded, exactly as before — T4's "promotion path,
+  // the anchor block, and the existing surface names stay untouched"), now
+  // drawn from the WIDENED union (backlog 206) instead of the snapshot
+  // alone, but still preferring ids never seen in the committed state file,
+  // only falling back to already-seen ids once the unseen pool is exhausted.
   const promotedSet = new Set(promotedIds);
-  const rotationCandidates = pools
-    .filter((p) => p && p.pool !== anchorPoolId && !promotedSet.has(p.pool))
-    .map((p) => p.pool)
-    .sort();
+  const rotationCandidates = unionIds.filter((id) => id !== anchorPoolId && !promotedSet.has(id));
 
   const rotationStatePath = opts.rotationStatePath || process.env.AUDIT_ROTATION_STATE || DEFAULT_ROTATION_STATE_PATH;
   // opts.rotationState lets tests drive buildPoolSurfaces() as a pure
@@ -2927,7 +3054,13 @@ function buildPoolSurfaces(opts = {}) {
   // forbids skipping — so this is a real field, set here at build time, not
   // inferred later from naming.
   for (const id of rotationPicks) {
-    extraSurfaces.push({ name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280, poolId: id, rotationPick: true });
+    const surface = { name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280, poolId: id, rotationPick: true };
+    // backlog 206 §7 — mark a rotation pick that only the deep-linked leg
+    // reaches (absent from data/pools-snapshot.json); runAudit() reads this
+    // to route the surface to the LIVE-shape sub-rail fixture body instead
+    // of the snapshot-derived one.
+    if (subRailOnlyIds.has(id)) surface.subRail = true;
+    extraSurfaces.push(surface);
   }
 
   // ---- Lens surfaces (backlog 199) — built ONLY from `rotationPicks` above
@@ -2967,11 +3100,16 @@ function buildPoolSurfaces(opts = {}) {
     const baseUrl = `/home.html?pool=${encodeURIComponent(id)}`;
     // The `@ko` variant appends `&lang=ko`, mirroring the anchor's own
     // pool-detail-ko surface above (spec 199 §1).
-    extraSurfaces.push(Object.assign({
+    const lensSurface = Object.assign({
       name: `pool-detail:${prefix}@${lens}`,
       url: lens === 'ko' ? `${baseUrl}&lang=ko` : baseUrl,
       kind: 'pool', poolId: id, lensPick: true
-    }, LENS_SHAPE[lens]));
+    }, LENS_SHAPE[lens]);
+    // backlog 206 — a lens render of a sub-rail rotation pick is still a
+    // sub-rail render; carry the same marker so it gets the same LIVE-shape
+    // fixture body as its 1280px sibling above, not the snapshot-only one.
+    if (subRailOnlyIds.has(id)) lensSurface.subRail = true;
+    extraSurfaces.push(lensSurface);
   }
 
   // Every pool id that got a pool-detail surface THIS run — anchor,
@@ -3011,7 +3149,36 @@ function buildPoolSurfaces(opts = {}) {
     lensSampleSize,
     lensRendered: lensSampleSize,
     lensSkipped: 0,
-    lenses: lensAssignments
+    lenses: lensAssignments,
+    // backlog 206 — population-split reporting (spec §Change item 4), flat
+    // and additive alongside every field above (none of which changes
+    // meaning): snapshotIds is the snapshot's own population size;
+    // deepLinkIds is the NET-NEW contribution of the deep-linked leg — ids
+    // confirmed live this tick (post `∩ livePoolIds`) that are NOT already
+    // in the snapshot (i.e. `subRailOnlyIds`, the same set that marks a
+    // surface `subRail: true` below) — deliberately NOT the raw
+    // ∩-live count, which would double-count the ~420-pool overlap the
+    // snapshot and the estate already share (spec 206 evidence) and could
+    // read "deepLinkIds > 0" even when the leg added zero NEW candidates.
+    // This makes `union === snapshotIds + deepLinkIds` hold exactly (a
+    // clean internal-consistency invariant: union and snapshotIds are
+    // disjoint-safe by construction, subRailOnlyIds excludes any id already
+    // counted in snapshotIds) — 0 whenever the leg degraded OR every
+    // live-confirmed deep link happens to already be a snapshot pool, per
+    // deepLinkSource below. union is the widened candidate population
+    // BEFORE anchor/promoted exclusion; reachable is the SAME number
+    // candidateCount already reports (after exclusion) — both names kept
+    // because the spec names both and a future reader may grep for either.
+    // subRailPicked counts how many of THIS tick's rotation picks are
+    // sub-rail (absent from the snapshot); deepLinkSource explains the
+    // leg's status in prose, always populated (never silently absent), even
+    // in the normal/non-degraded case.
+    snapshotIds: snapshotIdsArr.length,
+    deepLinkIds: subRailOnlyIds.size,
+    union: unionIds.length,
+    reachable: rotationCandidates.length,
+    subRailPicked: rotationPicks.filter((id) => subRailOnlyIds.has(id)).length,
+    deepLinkSource
   };
 
   // backlog 192 — `baseSeen` (declared above, feeding `newSeen`) is also
@@ -3303,7 +3470,13 @@ async function main(browser, baseUrl, s, ctx) {
   const ctaProvenance = { bakedProtocolUrls: 'absent', dynamicProtocols: 'absent' };
 
   try {
-    await setupRoutes(page, { ...ctx, forceLive: s.forceLive, liveDelayMs: s.liveDelayMs, ctaProvenance });
+    // backlog 206 §7 — a sub-rail pool-detail surface (absent from
+    // data/pools-snapshot.json, reachable only via the widened deep-linked
+    // rotation leg) gets `ctx.subRailLiveBody` instead of `ctx.liveBody` on
+    // the `**/yields.llama.fi/pools` route below; every other surface's
+    // spread of `...ctx` already carries the byte-identical `liveBody` it
+    // always has — this override only ever fires for `s.subRail === true`.
+    await setupRoutes(page, { ...ctx, liveBody: s.subRail ? ctx.subRailLiveBody : ctx.liveBody, forceLive: s.forceLive, liveDelayMs: s.liveDelayMs, ctaProvenance });
     const url = baseUrl + s.url;
 
     if (s.kind === 'loading') {
@@ -3789,6 +3962,34 @@ async function runAudit(opts = {}) {
   const pools = Array.isArray(snap.pools) ? snap.pools : [];
   if (pools.length === 0) throw new Error(`snapshot at ${snapshotPath} has no pools`);
 
+  // backlog 184 — resolve the live pool-id set once per run, with a kill
+  // switch (opts.poolLiveness === false / AUDIT_POOL_LIVENESS=0) that keeps
+  // the sub-rule "not requested" (never "unrun") when a caller deliberately
+  // wants it off — the same convention every other kill switch in this file
+  // uses. loadLivePoolIds() never throws, so this never aborts the run.
+  // backlog 206 — MOVED ahead of buildPoolSurfaces() (was after it): the
+  // pool-detail rotation's widened population needs staticResult.prescan's
+  // deep-linked ids AND liveness's live-id Set, so both must exist before
+  // buildPoolSurfaces() runs. `surfaces = surfaces.concat(staticResult.surfaces)`
+  // itself stays at its ORIGINAL position below (spec's own "final surfaces
+  // array must end up in the exact same order as today" requirement) — only
+  // this computation moved, not that assembly step.
+  const poolLivenessKillSwitch = opts.poolLiveness === false || process.env.AUDIT_POOL_LIVENESS === '0';
+  const liveness = poolLivenessKillSwitch
+    ? { ids: undefined, pools: undefined, error: null, source: null, count: 0 }
+    : await loadLivePoolIds(opts);
+  const staticResult = buildStaticSurfaces(Object.assign({}, opts, { livePoolIds: liveness.ids, livePoolsError: liveness.error }));
+  // backlog 206 — a caller-legible reason for the deep-linked rotation leg
+  // degrading to zero, passed through to buildPoolSurfaces() so its own
+  // stderr note and `poolRotation.deepLinkSource` say the SAME thing a
+  // reader of this function's own liveness resolution would say. Left
+  // `undefined` in the ordinary (non-degraded, or "deep-linked ids empty for
+  // some other reason") case — buildPoolSurfaces() supplies its own default
+  // wording then.
+  const deepLinkDegradeReason = poolLivenessKillSwitch
+    ? 'pool liveness disabled (opts.poolLiveness===false / AUDIT_POOL_LIVENESS=0) — deep-linked leg contributes 0 candidates, rotation is snapshot-only'
+    : (liveness.error ? `live pool fetch failed: ${liveness.error} — deep-linked leg contributes 0 candidates, rotation is snapshot-only` : undefined);
+
   // backlog 167: anchor-pool resolution + prescan/rotation additions now live
   // in buildPoolSurfaces() (mirrors buildStaticSurfaces() below). Anchor
   // fallback logic is unchanged — `poolId` still resolves to PREFERRED_POOL_ID
@@ -3799,7 +4000,17 @@ async function runAudit(opts = {}) {
     poolSeed: opts.poolSeed, staticSeed: opts.staticSeed,
     // backlog 183 leg (b) — forwarded so a test can drive rotation against a
     // temp path/in-memory state without ever touching the committed file.
-    rotationStatePath: opts.rotationStatePath, rotationState: opts.rotationState
+    rotationStatePath: opts.rotationStatePath, rotationState: opts.rotationState,
+    // backlog 206 — widen the rotation candidate population (see
+    // buildPoolSurfaces()'s own header comment for the union/∩live rules).
+    // opts.deepLinkPoolIds is a direct test-injection override (same
+    // convention as opts.rotationState/opts.livePools elsewhere in this
+    // file) — a caller supplying it verbatim (e.g. a synthetic id the real
+    // static estate could never link to) wins over the real estate scan;
+    // the ordinary/production path (opts.deepLinkPoolIds unset) falls back
+    // to what the static prescan just found.
+    deepLinkPoolIds: Array.isArray(opts.deepLinkPoolIds) ? opts.deepLinkPoolIds : staticResult.prescan.deepLinkPoolIds,
+    livePoolIds: liveness.ids, deepLinkDegradeReason
   });
   const poolId = poolResult.anchorPoolId;
 
@@ -3886,15 +4097,12 @@ async function runAudit(opts = {}) {
   const poolKoIdx = surfaces.findIndex((s) => s.name === 'pool-detail-ko');
   surfaces.splice(poolKoIdx + 1, 0, ...poolResult.extraSurfaces);
 
-  // backlog 184 — resolve the live pool-id set once per run, with a kill
-  // switch (opts.poolLiveness === false / AUDIT_POOL_LIVENESS=0) that keeps
-  // the sub-rule "not requested" (never "unrun") when a caller deliberately
-  // wants it off — the same convention every other kill switch in this file
-  // uses. loadLivePoolIds() never throws, so this never aborts the run.
-  const liveness = (opts.poolLiveness === false || process.env.AUDIT_POOL_LIVENESS === '0')
-    ? { ids: undefined, error: null }
-    : await loadLivePoolIds(opts);
-  const staticResult = buildStaticSurfaces(Object.assign({}, opts, { livePoolIds: liveness.ids, livePoolsError: liveness.error }));
+  // backlog 206 — `liveness`/`staticResult` are now computed EARLIER (see the
+  // comment above buildPoolSurfaces()'s call site) so the pool-detail
+  // rotation can be widened by them; this assembly step itself is unmoved —
+  // `staticResult.surfaces` lands in the final `surfaces` array in the exact
+  // same position it always has (right after the pool-detail extras spliced
+  // in above), so no existing surfacesCovered entry moves.
   surfaces = surfaces.concat(staticResult.surfaces);
 
   // Test-support only (not a spec-154 env override): restrict the run to just
@@ -3995,12 +4203,47 @@ async function runAudit(opts = {}) {
   // read the rendered surface's `project` without any DOM guesswork (the
   // fallback-shape CTA carries no project name in its own text).
   const poolsById = new Map(pools.map((p) => [p.pool, p]));
+
+  // backlog 206 §7 — second LIVE-shape fixture body, ADDITIVE to `liveBody`
+  // above (left byte-untouched — every existing, non-sub-rail surface keeps
+  // getting exactly that body, unchanged). Sub-rail pool-detail surfaces
+  // (buildPoolSurfaces() marked them `subRail: true` — absent from
+  // data/pools-snapshot.json, only reachable via the widened deep-linked
+  // rotation leg) have no snapshot record to derive a live-shape pool from,
+  // so they render via the SAME live records `loadLivePoolIds()` already
+  // fetched once (never a second fetch) — already LIVE-shape, already
+  // carrying `apy` (spec's own instruction: never recompute it for them).
+  const subRailIds = new Set(poolResult.extraSurfaces.filter((s) => s && s.subRail).map((s) => s.poolId));
+  let subRailLiveBody = liveBody;
+  if (subRailIds.size > 0) {
+    const livePoolsById = liveness.pools ? new Map(liveness.pools.map((p) => [p.pool, p])) : null;
+    const extraLivePools = [];
+    for (const id of subRailIds) {
+      const rec = livePoolsById && livePoolsById.get(id);
+      if (rec) {
+        extraLivePools.push(rec);
+        // Extend poolsById too (spec's own instruction) so the pool-detail
+        // driver's ctx.poolsById.get(currentPoolId) (~line 3589's `project`
+        // read) resolves for a sub-rail pool instead of silently returning
+        // null.
+        if (!poolsById.has(id)) poolsById.set(id, rec);
+      } else {
+        // Should not happen — buildPoolSurfaces() only ever marks an id
+        // `subRail` after confirming it against the SAME live-id Set these
+        // records came from — but never fail silently if it ever does.
+        console.error(`[audit] sub-rail pool ${id} was picked but has no live record — its render will fall through to the empty state`);
+      }
+    }
+    const baseLiveData = pools.map((p) => Object.assign({}, p, { apy: (p.apyBase || 0) + (p.apyReward || 0) }));
+    subRailLiveBody = JSON.stringify({ status: 'success', data: baseLiveData.concat(extraLivePools) });
+  }
+
   // item 194 (test-only) — see readBakedProtocolUrls()'s own comment for why
   // this override exists; opts/env convention matches AUDIT_SNAPSHOT_PATH
   // etc. `undefined` when unset, which readBakedProtocolUrls() treats
   // identically to "no override" (falls back to the real committed path).
   const protocolUrlsPath = opts.protocolUrlsPath || process.env.AUDIT_PROTOCOL_URLS_PATH || undefined;
-  const ctx = { snapshotBody, freshMeta, liveBody, poolsById, protocolUrlsPath };
+  const ctx = { snapshotBody, freshMeta, liveBody, subRailLiveBody, poolsById, protocolUrlsPath };
   const findings = [...prescanFindings, ...poolPrescanFindings, ...textSurfaceFindings, ...i18nFindings];
   const surfacesCovered = [];
   // Named only when the pass ran AND survived opts.only (spec 160: unlike
@@ -4276,6 +4519,14 @@ if (require.main === module) {
       // truncated run cannot be misread as a clean one from this line alone.
       const truncationNote = rot.truncated ? ` — TRUNCATED (time budget ${rot.timeBudgetMs}ms exceeded, ${pickedCount - renderedCount} rotation pick(s) skipped)` : '';
       console.log(`[audit] pool rotation: cycle ${rot.cycle}, seen ${rot.seenCount}/${rot.candidateCount} candidates, picked [${(rot.picked || []).join(', ')}], rendered ${renderedCount}/${pickedCount}${truncationNote}, wrapped=${!!rot.wrapped}`);
+      // backlog 206 — the population split behind `candidateCount` above
+      // (which is now the WIDENED union, minus anchor/promoted — same
+      // "reader's own eyes, not luck" convention as every other summary line
+      // in this block): snapshot vs. deep-linked-and-live vs. union vs. how
+      // many of THIS tick's picks are sub-rail. Same log-grep prefix
+      // ("[audit] pool rotation:") kept, on a continuation line, so existing
+      // greps for it still match the line above unchanged.
+      console.log(`[audit] pool rotation (population): snapshot=${rot.snapshotIds || 0}, deep-linked-live=${rot.deepLinkIds || 0}, union=${rot.union || 0}, reachable=${rot.reachable || 0}, subRailPicked=${rot.subRailPicked || 0}/${pickedCount} — ${rot.deepLinkSource || 'n/a'}`);
       // backlog 191 — throughput, derived entirely from THIS run's own
       // poolRotation numbers (never a re-typed constant, per the item-159
       // rule). Deliberately built from `candidateCount / sampleSize`, NEVER
