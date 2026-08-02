@@ -231,9 +231,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VSOL&amp;poolTypes=Yield+Farming" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VSOL&amp;poolTypes=Yield+Farming&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VSOL&amp;poolTypes=Yield+Farming" />
-    <lastmod>2026-08-02T05:26:47.866Z</lastmod>
+    <lastmod>2026-08-02T13:12:24.611Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.81</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=THBILL&amp;poolTypes=Yield%20Farming</loc>
@@ -254,15 +254,6 @@
     <priority>0.82</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WSOL&amp;poolTypes=Yield%20Farming</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSOL&amp;poolTypes=Yield+Farming" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSOL&amp;poolTypes=Yield+Farming&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSOL&amp;poolTypes=Yield+Farming" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=THUSD&amp;poolTypes=Yield%20Farming</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=THUSD&amp;poolTypes=Yield+Farming" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=THUSD&amp;poolTypes=Yield+Farming&amp;lang=ko" />
@@ -281,6 +272,24 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=WSOL&amp;poolTypes=Yield%20Farming</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSOL&amp;poolTypes=Yield+Farming" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSOL&amp;poolTypes=Yield+Farming&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSOL&amp;poolTypes=Yield+Farming" />
+    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HSOL&amp;poolTypes=Yield%20Farming</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HSOL&amp;poolTypes=Yield+Farming" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HSOL&amp;poolTypes=Yield+Farming&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HSOL&amp;poolTypes=Yield+Farming" />
+    <lastmod>2026-07-31T01:19:36.727Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.79</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=JITOSOL&amp;poolTypes=Yield%20Farming</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=JITOSOL&amp;poolTypes=Yield+Farming" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=JITOSOL&amp;poolTypes=Yield+Farming&amp;lang=ko" />
@@ -297,15 +306,6 @@
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/?token=HSOL&amp;poolTypes=Yield%20Farming</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HSOL&amp;poolTypes=Yield+Farming" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HSOL&amp;poolTypes=Yield+Farming&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HSOL&amp;poolTypes=Yield+Farming" />
-    <lastmod>2026-07-31T01:19:36.727Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.79</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=ENZOBTC&amp;poolTypes=Yield%20Farming</loc>

@@ -306,12 +306,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/unichain</loc>
+    <loc>https://www.defi.garden/ko/chains/rootstock</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/rootstock</loc>
+    <loc>https://www.defi.garden/ko/chains/unichain</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
