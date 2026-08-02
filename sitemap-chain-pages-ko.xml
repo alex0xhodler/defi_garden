@@ -366,12 +366,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/kusama</loc>
+    <loc>https://www.defi.garden/ko/chains/scroll</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/scroll</loc>
+    <loc>https://www.defi.garden/ko/chains/kusama</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>daily</changefreq>
   </url>
