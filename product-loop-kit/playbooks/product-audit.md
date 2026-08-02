@@ -71,7 +71,13 @@ refactor's clothes (`pre-existing-red-triage.md`, Resolution E).
 - `?token=<common>` (e.g. USDC) — grid renders pool cards
 - `?token=<obscure/all-sub-$10M>` — the dead-end class (item 133)
 - `?chain=<X>`
-- `?pool=<live id>` — **pool detail = the current north-star surface** (audit this every tick)
+- `?pool=<live id>` — **pool detail = the current north-star surface** (audit this every tick).
+  **And it has TWO populations, not one (item 206, 2026-08-02).** The rotation draws from
+  `data/pools-snapshot.json` (736 pools, $10M-railed); the estate deep-links **3,669** ids, of which only
+  **420 (11.4%)** are in that snapshot. Median deep-linked TVL is **$515,134**. So a sub-rail `?pool=`
+  arrival — the majority case, and the only real arrival on record — takes the LIVE-fetch path
+  (`snapshotEligible = !urlParams.pool && …`, `app.js:1144`), carries **no `kpis`**, and renders a page the
+  scanner has never once driven. Drive sub-rail ids explicitly; do not let the snapshot define "a pool".
 - `?pool=<dead id>` — 072 dead-pool empty state
 - `/tokens/<slug>`, `/chains/<slug>` — static SEO pages. Drive a **sample**, not just `usdc`/`ethereum`:
   the junk lives in the tail of the 2,079-page set, never in the flagship page (item 154)

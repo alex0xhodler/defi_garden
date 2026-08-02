@@ -7,14 +7,36 @@
       "tokens/wtao.html",
       "tokens/cscbusdc.html",
       "tokens/kysol.html",
-      "tokens/usdc.html"
+      "tokens/usdc.html",
+      "tokens/hklu.html",
+      "tokens/qnt.html",
+      "tokens/uspc.html",
+      "tokens/block.html"
     ]
   },
   "chains": {
     "cycle": 0,
     "seen": [
       "chains/solana.html",
-      "chains/ethereum.html"
+      "chains/ethereum.html",
+      "chains/fuel-ignition.html",
+      "chains/starknet.html"
+    ]
+  },
+  "koTokens": {
+    "cycle": 0,
+    "seen": [
+      "ko/tokens/nos.html",
+      "ko/tokens/syrup.html",
+      "ko/tokens/altt.html",
+      "ko/tokens/flower.html"
+    ]
+  },
+  "koChains": {
+    "cycle": 0,
+    "seen": [
+      "ko/chains/xlayer.html",
+      "ko/chains/kava.html"
     ]
   }
 }

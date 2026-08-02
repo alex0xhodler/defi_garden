@@ -535,3 +535,65 @@ estate — live-population selection, the three run-states, the 100%-today branc
 contract rule, and the "ship it green, prove it can go red" standard. Extended by item 197's build (`specs/197.md`, `197-notes.md`, `197-pr.md`): the three transplant traps —
 the classifier fallthrough, the sub-rule whose precondition fails (and stamping the omission into the output),
 and never funding a new population out of the incumbent's budget. Extended by item 199 (`specs/199.md`, `199-notes.md`, `199-pr.md`): the LENS axis — rendering conditions whose population is one — and the second-render-must-not-count-as-a-first rule that keeps 192's throughput honesty intact. Extended by item 200 (`specs/200.md`, `200-notes.md`, `200-pr.md`): ask the lens question per surface KIND (one covered row makes the whole checker read as covered — `dark: true` existed on 2 of 4,257 lines, both pool-detail, while the entire landing→planner→bloom funnel had none), assert the matrix as a property rather than a name list, and the paired "a lens that cannot see" trap — a condition added to a driver that has no check for it is decorative coverage. Extended by item 201 (`specs/201.md`, `201-notes.md`, `201-pr.md`): the gated-shut variant — the check exists, has a call site and a generic body, but the call site's own trigger predicate excludes the lens value being added (`s.width <= 360` evaluated at 768); ship the gate and the surfaces as one item, widen the predicate rather than adding an opt-in flag, prove non-vacuity AT the new lens value, and treat a prior test's verbatim source literal as a co-move that must itself be red-proved. Extended by item 203 (`specs/203.md`, `203-notes.md`, `203-pr.md`): the CONSUMER-enumeration axis — an allow-list is only as true as its list of what produces the thing it validates, it is discovered by a *blocked correct change* rather than a missed defect, the file's own hand-patched exceptions (`'lang'`) are the signpost, and the widened set must be proved non-vacuous by mutating the NEW source on a key other than the one that motivated the item.
+
+---
+
+## FOURTH AXIS — is the population the ARRIVAL population, or just the artifact nearest to hand? (2026-08-02, items 206/207)
+
+Axis 1 asks whether the *signal set* is complete; axis 2 whether the *rate/memory* is; the third axis (197)
+whether the *page population* is. All three still assume you are auditing the right set of **things**. This
+axis asks where that set came from — and the answer is almost always "whichever committed artifact was
+easiest to `require()`".
+
+**The tell:** a checker, a fix, or a rotation resolves its population from a data file that exists for an
+unrelated reason. `data/pools-snapshot.json` exists because 059 needed a $10M-railed front-end payload.
+Three separate things then quietly adopted it as *the set of pools*:
+- `audit-app.js`'s pool-detail rotation (`:610`, `:1556`) → 734 candidates,
+- item 105's kpi backfill for SEO arrivals (`app.js:1253-1273`) → `snap.pools.find(…)`,
+- `compute-kpis.js`'s history series (header `:9-11`) → the slim per-date point.
+
+Measured against the population users actually arrive on — the **3,669 `?pool=` deep links the estate
+emits** — all three reach **420 (11.4%)** and miss **3,249 (88.6%)**.
+
+**Why it is invisible:** every one of those three is individually correct about its own artifact, and none
+of them is wrong in a way a test can catch. 105 even *documents* the limitation in its own comment
+("a pool absent from the snapshot leaves detailPool untouched and the notes hide as today") — it was
+written down and never **measured**, which is the whole failure. A documented limitation with no number
+next to it reads as an edge case; the number turned it into the majority case.
+
+**The question to ask, once per checker/fix/rotation:**
+> *What population does this draw from, what population do users actually arrive on, and what is the
+> intersection as a percentage?*
+
+Two lines of `node` answers it. Run it before believing any clean run, and **write the percentage into the
+report** — "clean" without a denominator is the claim this axis exists to break.
+
+**The generalised rule:** `product-audit.md` class 10 already says *"validate a generated link against the
+population its generator drew from, not against whatever dataset is nearest to hand"* — that was written
+about the 4,233-false-positive `?pool=` liveness trap. This is the **same rule one level up**: it applies
+not just to what you validate *against*, but to what you enumerate *over*. Data artifacts are built for a
+purpose; inheriting one as a population silently inherits its filter.
+
+**Traps specific to this axis:**
+- **The floors are usually not the bug.** Here the estate floors at $100K and the app at $10M, both by
+  deliberate human directive (2026-07-11). The instinct to "fix the mismatch" by moving a floor is a
+  trust-rail edit on the NEVER list. The bug is the audit inheriting a floor it was never meant to have —
+  fix the population, never the rail.
+- **A widened population that finds nothing proves nothing.** LEARNINGS 2026-07-27 takeaway 2 applied to
+  targets: ship the widening with a positive control (inject a malformed member of the NEW population,
+  watch the finding appear, remove it, watch it go) or the clean run is vacuous exactly where it was before.
+- **Widening the population usually changes the render/data PATH too.** Sub-rail pools have no snapshot
+  record, so they can only be driven through the live-fetch path — and `product-audit.md`'s fixture trap #1
+  says the wrong payload shape there renders 0 results and fabricates a wave of dead-end findings. Budget
+  for the fixture work; a flood of new "findings" after a population widening is a fixture bug until proven
+  otherwise.
+- **Falsify the loud hypothesis before ticketing it.** This tick chased two obvious-looking trust-claim
+  contradictions first ($10M trust strip vs $100K page copy; `tvlTrendShrinking`'s "keeps clearing our $10M
+  floor" on a $1.5M pool) and **both were false** — the landers do not load `landing.js`, and the prose sits
+  behind the same `pool.kpis` gate that a sub-rail pool never passes. Record falsifications in the snapshot;
+  they are the reason the *real* finding (a blank, not a lie) was correctly framed.
+
+**Provenance:** items 206/207/208, heartbeat 2026-08-02, found by following the first real
+SEO-lander → pool-detail journey in the loop's history (`/tokens/jitosol` → `/?pool=fdcccd6a-…`, a
+$1,500,009 Kamino pool) out of the prod `page_view` URL breakdown and asking which of this repo's checks
+could have rendered that page. None could.
