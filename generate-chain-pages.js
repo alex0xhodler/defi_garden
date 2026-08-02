@@ -39,7 +39,7 @@ const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
   renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug,
-  poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
+  poolHrefFor, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
@@ -233,7 +233,11 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
     ({ label: tk.symbol, href: `${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${tk.slug}` }));
   const topTokensHeading = t('tcpTopTokensOnHeading', rec.chain);
   const tokenLinksBlock = renderLinkNavHtml(tokenNavItems, topTokensHeading, topTokensHeading, 'xlink-tokens');
-  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: c.url }));
+  // 204: category nav links are a visible estate->app boundary, tagged the
+  // same as the main CTA below — categoryLinksFor itself stays untouched
+  // (shared, unaware of which generator called it); the tag is applied here,
+  // at the render site, over every item it returned (never skipped/duplicated).
+  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: withSrc(c.url, 'seo_chain') }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
@@ -326,7 +330,7 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}
     <h1>${escapeHtml(t('tcpChainHeading', rec.chain))}</h1>
 ${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
     <p class="intro">${intro}</p>
-${yieldHeadlineBlock}    <a class="cp-cta" href="${appUrl}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
+${yieldHeadlineBlock}    <a class="cp-cta" href="${withSrc(appUrl, 'seo_chain')}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
     <div class="cp-card">
     <div class="scroll">
     <table>
