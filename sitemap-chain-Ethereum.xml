@@ -110,19 +110,19 @@
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WETH&amp;chain=Ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Ethereum&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Ethereum" />
+    <loc>https://www.defi.garden/?token=USDS&amp;chain=Ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDS&amp;chain=Ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDS&amp;chain=Ethereum&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDS&amp;chain=Ethereum" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=USDS&amp;chain=Ethereum</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDS&amp;chain=Ethereum" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDS&amp;chain=Ethereum&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDS&amp;chain=Ethereum" />
+    <loc>https://www.defi.garden/?token=WETH&amp;chain=Ethereum</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Ethereum" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Ethereum&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Ethereum" />
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>

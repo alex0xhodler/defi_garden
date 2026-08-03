@@ -1,0 +1,38 @@
+# GNZ DeFi Yields
+
+The highest honest GNZ yield right now is 3.33% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [quickswap-dex →](https://www.defi.garden/?pool=bf6cb3b8-2ec5-4ee8-a360-8fd67122d246&src=seo_token) | Polygon | 3.33% | $212.7K |
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest GNZ yield today?
+
+3.33% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+
+### How many GNZ pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $212.7K in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+## Related tokens
+
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
+- [LINK](https://www.defi.garden/tokens/link)
+- [ACRED](https://www.defi.garden/tokens/acred)
+- [WPOL](https://www.defi.garden/tokens/wpol)
+- [WMATIC](https://www.defi.garden/tokens/wmatic)
+
+## Available on
+
+- [Polygon](https://www.defi.garden/chains/polygon)
+
+## Last updated August 3, 2026

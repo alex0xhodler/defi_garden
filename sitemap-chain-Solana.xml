@@ -92,13 +92,13 @@
     <priority>0.81</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WSOL&amp;chain=Solana</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSOL&amp;chain=Solana" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSOL&amp;chain=Solana&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSOL&amp;chain=Solana" />
-    <lastmod>2026-07-23T19:26:41.384Z</lastmod>
+    <loc>https://www.defi.garden/?token=HSOL&amp;chain=Solana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana" />
+    <lastmod>2026-07-31T01:19:36.727Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.85</priority>
+    <priority>0.79</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=BSOL&amp;chain=Solana</loc>
@@ -110,13 +110,13 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=HSOL&amp;chain=Solana</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HSOL&amp;chain=Solana" />
-    <lastmod>2026-07-31T01:19:36.727Z</lastmod>
+    <loc>https://www.defi.garden/?token=WSOL&amp;chain=Solana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSOL&amp;chain=Solana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSOL&amp;chain=Solana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSOL&amp;chain=Solana" />
+    <lastmod>2026-07-23T19:26:41.384Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.79</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SYRUPUSDC&amp;chain=Solana</loc>
