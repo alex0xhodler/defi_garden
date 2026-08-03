@@ -14,6 +14,7 @@ on:
       - 'compute-kpis.js'
       - 'generate-token-pages.js'
       - 'generate-chain-pages.js'
+      - 'generate-pool-pages.js'
       - 'compile-app.js'
       - 'minify-assets.js'
       - 'app.js'
@@ -100,6 +101,12 @@ jobs:
         node generate-chain-pages.js --out chains --sitemap sitemap-chain-pages.xml --fixture "$RUNNER_TEMP/seo-pools.json"
         echo "Pages: $(ls chains | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-chain-pages.xml)"
 
+    - name: Generate pool markdown twins (backlog 213 — agent-readable pool-detail surface)
+      run: |
+        echo "🌱 Generating static /pools/ markdown twins..."
+        node generate-pool-pages.js --out pools --fixture "$RUNNER_TEMP/seo-pools.json"
+        echo "Pages: $(ls pools | wc -l)"
+
     - name: Generate sitemap
       run: |
         echo "🚀 Generating fresh sitemap..."
@@ -153,7 +160,7 @@ jobs:
         git config --local user.email "alex@0xhodler.nl"
         git config --local user.name "alex0xhodler"
         
-        git add data sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains sitemap-token-pages-ko.xml sitemap-chain-pages-ko.xml ko robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js style.min.css planner-styles.min.css pool-detail-styles.min.css
+        git add data sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains pools sitemap-token-pages-ko.xml sitemap-chain-pages-ko.xml ko robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js style.min.css planner-styles.min.css pool-detail-styles.min.css
         git add -A -- 'sitemap*.xml'
         git commit -m "chore: update sitemap and LLM files with latest yields
         

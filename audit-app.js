@@ -4473,7 +4473,12 @@ module.exports = {
   // tokens/ + chains/ leaf counts (mirrors ROTATION_SEEN_CAP's own export
   // above), and drive the degrade-never-throws reader directly without a
   // full buildStaticSurfaces()/runAudit() call.
-  STATIC_ROTATION_SEEN_CAP, readStaticRotationState
+  STATIC_ROTATION_SEEN_CAP, readStaticRotationState,
+  // item 213 — exported so generate-pool-pages.js can reuse the exact same
+  // deep-link id extraction the pool-detail rotation leg already relies on
+  // (its second consumer, per the function's own header comment above),
+  // rather than writing a second `[?&]pool=`-style regex scan.
+  extractDeepLinkPoolIds
 };
 
 if (require.main === module) {
