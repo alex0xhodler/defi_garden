@@ -673,3 +673,48 @@ as covered ("the audit now scans the arrival population") for exactly the reason
 other — `poolPrescan.candidates` vs `poolRotation.union` came from the same run, same JSON, and disagreed
 5.4×. Any two legs of one checker reporting different population sizes for "the pools" is this bug, found
 with zero code.
+
+#### Resolution — what widening the second leg cost (215 shipped, 2026-08-03)
+
+**The widening itself was nearly free.** `poolPrescan.scanned` 734 → **3,958**, now equal to
+`poolRotation.union` by construction (the test asserts them against each other, never against a
+literal). Full-run wall-clock: **3m22.6s** union vs **3m23.4s** snapshot-only — the added leg is inside
+run-to-run noise, because the records were already fetched and the predicates are pure. When the data is
+already in memory, "widen the other leg" is close to a free coverage multiple; the reason it went
+unshipped for a day was that nobody enumerated the leg, not that it was expensive.
+
+**What it found on the first run:** `mean30d-rail-breach` suspects 1 → **15**, all 14 new ones verified
+real by id against the live feed (quickswap WMATIC-USDC at 21,383% `apyMean30d`, uniswap-v3
+USDT-ESPORTS at 1,336%, …) — every one a low-liquidity pair the $10M snapshot floor excludes, i.e.
+precisely the arrival population. `missing-tvl` was feared to explode on sub-rail records and stayed at
+**0**: sub-rail pools carry valid `tvlUsd`, just below the display floor. Fear was worth pre-registering;
+the measurement retired it in one run.
+
+**The generalizable trap, and it is NOT about populations:** a widened population can reach code that
+*marks* surfaces, not just code that counts them. Here, prescan **promotion** could suddenly promote a
+sub-rail id, and the promotion path had never needed the `subRail: true` marker because every promoted id
+had been a snapshot id by construction. Unmarked, `runAudit()` would have served that render the
+snapshot-shaped fixture, the page would have hit its empty state, and the scanner would have reported a
+**dead-end finding that does not exist in production** — a fabricated P1 on the north-star surface (171's
+lineage). **Rule: when widening a population, find every INVARIANT that held only because the population
+was narrow** ("every promoted id is in the snapshot"), not merely every leg that reads it. Grep for the
+markers/branches that were previously unreachable, and make one set feed all producers of a marker —
+here both producers now mark from the same `subRailOnlyIds`.
+
+**Prove the new leg with a control you have actually seen fail.** The positive control (inject a sub-rail
+record breaching the rail → assert suspect + promoted + `subRail: true`) was falsified on purpose during
+verification: deleting the marking line made the test fail, then it was restored. A control never
+observed failing is not evidence (LEARNINGS 2026-07-27).
+
+**Applicability, stated so the number is not over-read:** this closes *prescan* coverage only. Sub-rail
+pools get their numbers checked every tick; the render-only classes (`dead-cta`, i18n leaks, 360px
+clipping, console errors) still reach them only via the 32-picks/tick rotation (~124-tick full pass).
+Raising that budget trades against the wall-clock cap — a separate decision with its own guard (192).
+Say which half of "coverage" a coverage number refers to.
+
+**Provenance:** item 215, shipped 2026-08-03, verifier FAIL→PASS 7/7 tier HIGH. The FAIL was a
+documentation-honesty defect, not a code defect: the build session mis-attributed its own mutation of
+`signals/audit-static-rotation.json` to "pre-existing drift." Two process rules came out of it —
+redirect **both** `AUDIT_ROTATION_STATE` and `AUDIT_STATIC_ROTATION_STATE` before the **first** audit
+invocation (not after a baseline run), and never call a dirty file pre-existing without checking the
+pickup-time `git status`.
