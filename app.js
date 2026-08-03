@@ -1077,10 +1077,20 @@ function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, [currentView, detailPool]);
   // Background fetch pools data after UI loads.
-  // Snapshot-first (spec 059): when this load can be served by the railed static
-  // snapshot (no ?pool= deep link — those ALWAYS go live, spec 072 dead-pool
-  // empty state; and the initial minTvl is at/above the $10M floor the snapshot
-  // is filtered to), try the small snapshot behind a 15-min freshness gate.
+  // Snapshot-first (spec 059, extended by spec 214): when this load can be
+  // served by the railed static snapshot, try the small snapshot behind a
+  // freshness gate. Non-pool arrivals are eligible when the initial minTvl is
+  // at/above the $10M floor the snapshot is filtered to. `?pool=<id>` arrivals
+  // are ALSO eligible (spec 214): if the requested id resolves inside the
+  // snapshot payload — the same two-way match the pool-detail resolver below
+  // uses (either `pool.pool` or the legacy `project-symbol-chain` composite
+  // key) — the snapshot paints the pool detail first-load. An id that
+  // is ABSENT from the snapshot (or any other degrade below: meta 404, schema
+  // mismatch, stale per SNAPSHOT_MAX_AGE_MS, snapshot 404, empty/malformed
+  // pools) falls straight through to today's exact live path. That fallthrough
+  // is exactly what preserves the 072 dead-pool empty state — a dead id can
+  // never resolve from snapshot OR live, so it still lands on the honest
+  // empty state via loadLive, never a false snapshot render.
   // ANY failure at ANY step falls straight through to today's exact live path —
   // the snapshot is a perf layer, never a source of truth the app can't route
   // around. Trust rails (APY_SANITY_LIMIT / DEFAULT_MIN_TVL / anomaly demotion)
@@ -1110,9 +1120,10 @@ function App() {
       });
     };
 
-    // Returns true if the snapshot was fresh, valid and applied; false → caller
-    // must fall back to live. Never throws (any error resolves to false).
-    const tryLoadSnapshot = async (startTime) => {
+    // Returns true if the snapshot was fresh, valid, (for a pool arrival)
+    // contains the requested pool, and was applied; false → caller must fall
+    // back to live. Never throws (any error resolves to false).
+    const tryLoadSnapshot = async (startTime, requiredPoolId) => {
       try {
         const metaRes = await fetch('/data/pools-snapshot-meta.json');
         if (!metaRes.ok) return false;
@@ -1124,6 +1135,18 @@ function App() {
         if (!snapRes.ok) return false;
         const snap = await snapRes.json();
         if (!snap || snap.schemaVersion !== 1 || !Array.isArray(snap.pools) || snap.pools.length === 0) return false;
+        if (requiredPoolId) {
+          // Same two-way match as the pool-detail resolver (~app.js:1195-1196):
+          // accept either the raw `pool.pool` id or the legacy composite key.
+          // A miss here (spec 214) is NOT an error — it means the requested
+          // pool simply isn't in this snapshot, so fall through to live,
+          // which still resolves the pool or lands on the 072 dead-pool state.
+          const hasRequiredPool = snap.pools.some(pool =>
+            pool.pool === requiredPoolId ||
+            `${pool.project}-${pool.symbol}-${pool.chain}` === decodeURIComponent(requiredPoolId)
+          );
+          if (!hasRequiredPool) return false;
+        }
         poolsSourceRef.current = 'snapshot';
         setPools(snap.pools);
         Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
@@ -1141,8 +1164,11 @@ function App() {
       try {
         setError('');
         const urlParams = getUrlParams();
-        const snapshotEligible = !urlParams.pool && urlParams.minTvl >= DEFAULT_MIN_TVL;
-        if (snapshotEligible && await tryLoadSnapshot(startTime)) {
+        // spec 214: pool arrivals are always eligible to try the snapshot
+        // (tryLoadSnapshot itself declines when the requested id isn't in it);
+        // the minTvl floor conjunct still gates non-pool arrivals.
+        const snapshotEligible = urlParams.pool ? true : urlParams.minTvl >= DEFAULT_MIN_TVL;
+        if (snapshotEligible && await tryLoadSnapshot(startTime, urlParams.pool || null)) {
           return;
         }
         await loadLive(startTime);
