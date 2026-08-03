@@ -185,9 +185,31 @@ rules back into one on the theory that a catch-all "obviously" covers the root.
 
 Post-fix live results are appended below.
 
-### Post-fix live verification
+### Post-fix live verification — all criteria met on production
 
-<!-- Filled in after the follow-up PR's deploy. -->
+PR #374 merged 2026-08-03 07:27 UTC. Measured on production after the deploy promoted, with
+`Cache-Control: no-cache`:
+
+| criterion | result |
+|---|---|
+| `https://www.yield.garden/` → 301/308 to the origin | **308 → `https://www.defi.garden/`** ✅ |
+| path survives | `/tokens/usdc` → **308 → `https://www.defi.garden/tokens/usdc`** ✅ |
+| query survives, exactly | `/?pool=43641cf5-…&lang=ko` → **308 → `https://www.defi.garden/?pool=43641cf5-…&lang=ko`** ✅ |
+| apex lands on the origin in ≤2 hops | `https://yield.garden/` → **2 hops → `https://www.defi.garden/`, 200** ✅ |
+| `www.defi.garden` unaffected | `/` 200 · `/?token=USDC` 200 · `/tokens/usdc` 200 ✅ |
+
+Verifier residual 2 resolved by measurement rather than by argument: the emitted `Location` for the
+root **is** `https://www.defi.garden/` **with** the trailing slash, so acceptance criterion 1's
+literal string match holds as written — no RFC 3986 equivalence argument needed.
+
+Two runner-up residuals, both confirmed benign and left alone:
+- `/plan.html` on the alias costs 2 hops (Vercel's generated `cleanUrls` redirect to `/plan` orders
+  ahead of user redirects, then the host rule fires). Correct destination, within budget — the
+  verifier predicted this exact ordering effect.
+- `test_markdown_negotiation.js`'s pipeline simulator (`hasMatches`, `:62-76`) returns `false` for
+  any `type: "host"` predicate, so it models both host rules as inert. Correct for these two rules,
+  but it means the simulator cannot be trusted to model *any* future host routing. Guard 5 of
+  `test_yield_garden_redirect.js` covers the gap partially by forbidding a third host predicate.
 
 ## Follow-ups filed, deliberately unbuilt
 
