@@ -99,6 +99,18 @@ predicates are per-key), so an edge rule that must know "does this URL select sp
    drive the filesystem stage off the real repo tree (`fs.statSync`, honouring `cleanUrls`), and assert
    the negative directly: *no rewrite may target a path that a static file already answers.* Then curl
    production after merge anyway.
+
+   **6b. Do not plan on curling the PREVIEW deployment instead — it is SSO-gated.** The obvious way to
+   close step 6's gap *before* merging is to hit the Vercel preview URL the PR bot posts. It does not
+   work on this project: deployment protection answers every request with `HTTP 302 →
+   vercel.com/sso-api?url=…&nonce=…`, for every path and every `Accept` value, so you learn nothing
+   about your own rules. Measured on item 213's preview (`/?pool=<uuid>` with `Accept: text/markdown`,
+   with `Accept: text/html`, and `/?pool=notauuid` — all three 302'd to SSO). Two consequences worth
+   internalising: (a) **the merge itself is the first real test of any `vercel.json` change**, so the
+   local simulator has to be as honest as you can make it and the post-merge curl is mandatory, not
+   optional; (b) **a green Vercel check on the PR proves only that the config passed schema validation
+   and the build ran** — which is not nothing (it is exactly what caught 212's 16-entry cap) but it is
+   emphatically not proof that a routing rule fires. Do not report a green deploy as verified routing.
 7. **Escaped-path traps in edge config.** A path param is greedier than it looks: Vercel's bare `:slug`
    matches `[^/]+` **including dots**, so `/tokens/:slug` also matches `/tokens/usdc.md` and rewrites it
    to `…​.md.md`. Constrain to `:slug([^/.]+)` once you have confirmed no real slug contains a dot
@@ -130,3 +142,10 @@ forcing the positive-rule overflow pattern in step 5. Then the merged config tur
 production — Vercel resolves static files before rewrites, so the negotiation rules never fired on the
 2,166 pages they existed for, and the offline matcher had passed 63 assertions against a pipeline model
 with no filesystem stage. Only curling prod found it (step 6). `specs/212.md`, `specs/212-notes.md`.
+
+Step 6b was added by item 213 (2026-08-03), which extended 212's mechanism to `/?pool=<uuid>` and tried to
+apply 212's own hard-won "curl the real edge" lesson *before* merging, via the PR's preview URL — and found
+the preview SSO-gated on every path and every `Accept` (three probes, all `302 → vercel.com/sso-api`). So
+212's lesson stands but its pre-merge shortcut does not exist: the merge is the first real test. 213's own
+config change did clear the schema gate that killed 212's first deploy (green Vercel check), which is the
+one thing a preview build genuinely proves. `specs/213.md`, `specs/213-notes.md`.

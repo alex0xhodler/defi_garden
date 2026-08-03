@@ -93,6 +93,37 @@ function resolveDestination(rule, reqPath) {
   return dest;
 }
 
+// ---------------------------------------------------------------------------
+// Item 213 — a `has` predicate's VALUE can itself carry a named capture
+// group (Vercel's documented `(?<name>...)` syntax), referenced in
+// `destination` exactly like a `source` param would be. The new
+// `/?pool=<uuid>` redirect is the first rule in this file to need it (its
+// `source` is plain "/", with no params of its own — the capture lives
+// entirely inside the `pool` query predicate's value regex). This is
+// additive: a rule with no named-group `has` values (every pre-213 rule)
+// produces zero extra captures, so resolveDestination()'s existing
+// source-param substitution above is untouched for every other case.
+// ---------------------------------------------------------------------------
+function hasNamedCaptures(hasList, query, headers) {
+  const captures = {};
+  (hasList || []).forEach((h) => {
+    if (h.value == null) return;
+    const val = h.type === 'header' ? headers[h.key.toLowerCase()]
+      : h.type === 'query' ? (h.key in query ? String(query[h.key]) : undefined)
+      : undefined;
+    if (val == null) return;
+    const m = new RegExp(h.value).exec(val);
+    if (m && m.groups) Object.assign(captures, m.groups);
+  });
+  return captures;
+}
+function resolveDestinationWithCaptures(rule, reqPath, query, headers) {
+  let dest = resolveDestination(rule, reqPath);
+  const captures = hasNamedCaptures(rule.has, query, headers);
+  Object.keys(captures).forEach((name) => { dest = dest.split(':' + name).join(captures[name]); });
+  return dest;
+}
+
 /** First matching entry in `list` (a `rewrites` or `redirects` array),
  * first-match-wins in array order — exactly how Vercel evaluates each of
  * those tables independently. */
@@ -164,7 +195,7 @@ function resolveRequest(reqPath, query, headers) {
       stage: 'redirect',
       rule: redirect,
       status: redirect.permanent ? 308 : 307,
-      location: resolveDestination(redirect, reqPath),
+      location: resolveDestinationWithCaptures(redirect, reqPath, query, headers),
     };
   }
   const staticFile = resolveStaticFile(reqPath);
@@ -271,6 +302,109 @@ STATIC_ESTATE_CASES.forEach(([reqPath, expectedLocation, expectedStaticFile]) =>
     const r = resolveRequest(reqPath, {}, HTML_ACCEPT);
     assert.strictEqual(r.stage, 'static', `${reqPath} without markdown Accept must be served by the filesystem stage`);
     assert.strictEqual(r.file, expectedStaticFile);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Item 213 — the pool-detail markdown twin: `/?pool=<uuid>` + Accept:
+// text/markdown -> a NAMED-CAPTURE redirect to /pools/<uuid>.md. Unlike the
+// four static-estate cases above, this rule's `source` is plain "/" (no
+// params of its own) — the uuid comes from the `pool` query predicate's OWN
+// value regex, via a named capture group referenced in `destination`. See
+// hasNamedCaptures()/resolveDestinationWithCaptures() above.
+// ---------------------------------------------------------------------------
+console.log('path-aware negotiation — the pool-detail twin (item 213, named-capture redirect)');
+const REAL_POOL_ID = '747c1d2a-c668-4682-b9f9-296708a3dd90'; // real committed snapshot id (STETH/lido)
+
+test(`/?pool=${REAL_POOL_ID} + Accept:text/markdown -> 307 redirect to /pools/${REAL_POOL_ID}.md`, () => {
+  const r = resolveRequest('/', { pool: REAL_POOL_ID }, MARKDOWN_ACCEPT);
+  assert.strictEqual(r.stage, 'redirect', 'expected the pool redirect to fire via the REDIRECT stage');
+  assert.strictEqual(r.status, 307, 'must be a TEMPORARY (307) redirect, never permanent (308)');
+  const rule = r.rule;
+  assert.strictEqual(rule.permanent, false, 'the matched rule itself must declare permanent:false');
+  assert.strictEqual(r.location, `/pools/${REAL_POOL_ID}.md`);
+});
+test(`/?pool=${REAL_POOL_ID} + Accept:text/html -> unchanged HTML app, no redirect at all`, () => {
+  const r = resolveRequest('/', { pool: REAL_POOL_ID }, HTML_ACCEPT);
+  assert.notStrictEqual(r.stage, 'redirect', 'a normal HTML request for a valid pool id must not be redirected anywhere');
+  assert.strictEqual(r.stage, 'rewrite');
+  assert.strictEqual(r.destination, '/home', '/?pool=<uuid> with a normal Accept header renders the analytics app exactly like any other query-selecting param');
+});
+
+['notauuid', '../../etc/passwd'].forEach((badId) => {
+  test(`/?pool=${badId} + Accept:text/markdown -> NO markdown rule matches (not uuid-shaped) -> normal HTML app, never llms.txt`, () => {
+    const r = resolveRequest('/', { pool: badId }, MARKDOWN_ACCEPT);
+    assert.notStrictEqual(r.stage, 'redirect', `a non-uuid pool value ("${badId}") must not match the pool redirect's uuid-shaped predicate`);
+    assert.strictEqual(r.stage, 'rewrite', 'expected SOME rewrite to match (the plain "/" -> "/home" rule)');
+    assert.notStrictEqual(r.destination, '/llms.txt', `?pool=${badId} must not fall back to llms.txt`);
+    assert.strictEqual(r.destination, '/home', `?pool=${badId} + markdown Accept should land on the same /home rewrite as a normal browser request`);
+  });
+});
+
+test('/?pool=<valid-uuid> can never resolve to llms.txt under ANY Accept value', () => {
+  const withMarkdown = resolveRequest('/', { pool: REAL_POOL_ID }, MARKDOWN_ACCEPT);
+  const withHtml = resolveRequest('/', { pool: REAL_POOL_ID }, HTML_ACCEPT);
+  [withMarkdown, withHtml].forEach((r) => {
+    assert.notStrictEqual(r.location, '/llms.txt');
+    assert.notStrictEqual(r.destination, '/llms.txt');
+  });
+});
+
+test('sanity: the pool redirect rule\'s `has` predicate really is uuid-shaped (regex-level check, mirrors generate-pool-pages.js\'s own UUID_RE)', () => {
+  const rule = config.redirects.find((r) => r.source === '/' && typeof r.destination === 'string' &&
+    r.destination.includes(':poolId') && (r.has || []).some((h) => h.type === 'query' && h.key === 'pool'));
+  assert.ok(rule, 'expected a "/" redirect targeting :poolId, gated on a query "pool" predicate');
+  const poolHas = rule.has.find((h) => h.type === 'query' && h.key === 'pool');
+  const re = new RegExp(poolHas.value);
+  assert.ok(re.test(REAL_POOL_ID), 'the pool predicate must match a real uuid');
+  assert.ok(!re.test('notauuid'), 'the pool predicate must reject a non-uuid value');
+  assert.ok(!re.test('../../etc/passwd'), 'the pool predicate must reject a path-traversal-shaped value');
+});
+
+test('the pool redirect requires BOTH the markdown Accept header AND a uuid-shaped pool value (has-list is AND, not OR)', () => {
+  const rule = config.redirects.find((r) => r.source === '/' && typeof r.destination === 'string' && r.destination.includes(':poolId'));
+  assert.ok(rule, 'expected the pool redirect rule to exist');
+  assert.ok((rule.has || []).some((h) => h.type === 'header' && h.key === 'Accept' && /markdown/.test(h.value || '')),
+    'expected an Accept:markdown has-predicate');
+  assert.ok((rule.has || []).some((h) => h.type === 'query' && h.key === 'pool'),
+    'expected a query "pool" has-predicate');
+  assert.strictEqual((rule.has || []).length, 2, 'expected exactly the two AND-ed predicates, no more, no fewer');
+});
+
+console.log('item 213 regression — everything 212 already established behaves EXACTLY the same now that the pool redirect exists (assert, don\'t assume)');
+test('bare "/" + Accept:text/markdown is unaffected by the new pool redirect (still -> /llms.txt)', () => {
+  const r = resolveRequest('/', {}, MARKDOWN_ACCEPT);
+  assert.strictEqual(r.stage, 'rewrite');
+  assert.strictEqual(r.destination, '/llms.txt');
+});
+test('/?app=1 + Accept:text/markdown is unaffected (still -> /home, never llms.txt)', () => {
+  const r = resolveRequest('/', { app: '1' }, MARKDOWN_ACCEPT);
+  assert.strictEqual(r.stage, 'rewrite');
+  assert.strictEqual(r.destination, '/home');
+});
+test('/?token=USDC + Accept:text/markdown is unaffected (still -> /home)', () => {
+  const r = resolveRequest('/', { token: 'USDC' }, MARKDOWN_ACCEPT);
+  assert.strictEqual(r.stage, 'rewrite');
+  assert.strictEqual(r.destination, '/home');
+});
+test('/?chain=Ethereum + Accept:text/markdown is unaffected (still -> /home)', () => {
+  const r = resolveRequest('/', { chain: 'Ethereum' }, MARKDOWN_ACCEPT);
+  assert.strictEqual(r.stage, 'rewrite');
+  assert.strictEqual(r.destination, '/home');
+});
+[
+  ['/tokens/usdc', '/tokens/usdc.md', 'tokens/usdc.html'],
+  ['/chains/solana', '/chains/solana.md', 'chains/solana.html'],
+  ['/ko/tokens/usdc', '/ko/tokens/usdc.md', 'ko/tokens/usdc.html'],
+  ['/ko/chains/solana', '/ko/chains/solana.md', 'ko/chains/solana.html'],
+].forEach(([reqPath, expectedLocation, expectedStaticFile]) => {
+  test(`${reqPath} is unaffected by the new pool redirect (still redirects to ${expectedLocation} under markdown Accept, still static ${expectedStaticFile} otherwise)`, () => {
+    const withMd = resolveRequest(reqPath, {}, MARKDOWN_ACCEPT);
+    assert.strictEqual(withMd.stage, 'redirect');
+    assert.strictEqual(withMd.location, expectedLocation);
+    const withHtml = resolveRequest(reqPath, {}, HTML_ACCEPT);
+    assert.strictEqual(withHtml.stage, 'static');
+    assert.strictEqual(withHtml.file, expectedStaticFile);
   });
 });
 
