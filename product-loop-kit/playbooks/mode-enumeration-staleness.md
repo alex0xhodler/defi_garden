@@ -89,7 +89,17 @@ predicates are per-key), so an edge rule that must know "does this URL select sp
    mechanism; move the param with the smallest blast radius there, and say which one and why. Then widen
    the equality guard to `missing ∪ positive-rule keys` and add a test asserting no array in the file
    exceeds the cap.
-6. **Escaped-path traps in edge config.** A path param is greedier than it looks: Vercel's bare `:slug`
+6. **Acceptance for edge config is a LIVE REQUEST, not a local matcher.** A hand-written simulator of the
+   platform's routing will encode your mental model of the pipeline, and if that model is missing a stage
+   it returns right answers for wrong reasons — every assertion green on a mechanism that cannot fire.
+   Vercel's real order is **`redirects` → filesystem/static → `rewrites`**, so with `cleanUrls: true` a
+   `rewrite` NEVER fires for a path that resolves to a static file. Negotiation on an existing page must
+   therefore be a `redirect` (and `permanent: false`/307 when the rule is keyed on a request header — a
+   cached 308 would later be served to a client that asked for something else). If you must simulate,
+   drive the filesystem stage off the real repo tree (`fs.statSync`, honouring `cleanUrls`), and assert
+   the negative directly: *no rewrite may target a path that a static file already answers.* Then curl
+   production after merge anyway.
+7. **Escaped-path traps in edge config.** A path param is greedier than it looks: Vercel's bare `:slug`
    matches `[^/]+` **including dots**, so `/tokens/:slug` also matches `/tokens/usdc.md` and rewrites it
    to `…​.md.md`. Constrain to `:slug([^/.]+)` once you have confirmed no real slug contains a dot
    (`ls tokens/ | sed 's/\.html$//' | grep -c '\.'` → 0). Sibling paths that match the pattern but have no
@@ -116,4 +126,7 @@ by scanning for `.get('key')` calls, missed `app` (read via `.some(k => params.h
 `planner.js:3863` as `/?app=1`), and shipped a drift guard blind to that whole mechanism — verifier FAIL.
 Attempt 2 rebuilt the guard as exact set equality against the two array literals — and then the PR's first
 deploy was rejected outright by Vercel's 16-entry cap on `has`/`missing`, with every local gate green,
-forcing the positive-rule overflow pattern in step 5. `specs/212.md`, `specs/212-notes.md`.
+forcing the positive-rule overflow pattern in step 5. Then the merged config turned out to be DEAD in
+production — Vercel resolves static files before rewrites, so the negotiation rules never fired on the
+2,166 pages they existed for, and the offline matcher had passed 63 assertions against a pipeline model
+with no filesystem stage. Only curling prod found it (step 6). `specs/212.md`, `specs/212-notes.md`.

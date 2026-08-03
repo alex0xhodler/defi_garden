@@ -39,66 +39,6 @@
       "destination": "/llms.txt"
     },
     {
-      "source": "/tokens/index",
-      "destination": "/tokens/index.html"
-    },
-    {
-      "source": "/chains/index",
-      "destination": "/chains/index.html"
-    },
-    {
-      "source": "/ko/tokens/index",
-      "destination": "/ko/tokens/index.html"
-    },
-    {
-      "source": "/ko/chains/index",
-      "destination": "/ko/chains/index.html"
-    },
-    {
-      "source": "/tokens/:slug([^/.]+)",
-      "has": [
-        {
-          "type": "header",
-          "key": "Accept",
-          "value": "(.*)text/markdown(.*)"
-        }
-      ],
-      "destination": "/tokens/:slug.md"
-    },
-    {
-      "source": "/chains/:slug([^/.]+)",
-      "has": [
-        {
-          "type": "header",
-          "key": "Accept",
-          "value": "(.*)text/markdown(.*)"
-        }
-      ],
-      "destination": "/chains/:slug.md"
-    },
-    {
-      "source": "/ko/tokens/:slug([^/.]+)",
-      "has": [
-        {
-          "type": "header",
-          "key": "Accept",
-          "value": "(.*)text/markdown(.*)"
-        }
-      ],
-      "destination": "/ko/tokens/:slug.md"
-    },
-    {
-      "source": "/ko/chains/:slug([^/.]+)",
-      "has": [
-        {
-          "type": "header",
-          "key": "Accept",
-          "value": "(.*)text/markdown(.*)"
-        }
-      ],
-      "destination": "/ko/chains/:slug.md"
-    },
-    {
       "source": "/",
       "destination": "/home"
     },
@@ -125,6 +65,76 @@
     {
       "source": "/.well-known/openid-configuration",
       "destination": "/.well-known/openid-configuration.json"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/tokens/index",
+      "destination": "/tokens",
+      "permanent": true
+    },
+    {
+      "source": "/chains/index",
+      "destination": "/chains",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tokens/index",
+      "destination": "/ko/tokens",
+      "permanent": true
+    },
+    {
+      "source": "/ko/chains/index",
+      "destination": "/ko/chains",
+      "permanent": true
+    },
+    {
+      "source": "/tokens/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/tokens/:slug.md",
+      "permanent": false
+    },
+    {
+      "source": "/chains/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/chains/:slug.md",
+      "permanent": false
+    },
+    {
+      "source": "/ko/tokens/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/ko/tokens/:slug.md",
+      "permanent": false
+    },
+    {
+      "source": "/ko/chains/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/ko/chains/:slug.md",
+      "permanent": false
     }
   ],
   "headers": [
@@ -205,9 +215,7 @@
         }
       ],
       "headers": [
-        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
-        { "key": "Vary", "value": "Accept" },
-        { "key": "X-Robots-Tag", "value": "noindex" }
+        { "key": "Vary", "value": "Accept" }
       ]
     },
     {
@@ -220,9 +228,7 @@
         }
       ],
       "headers": [
-        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
-        { "key": "Vary", "value": "Accept" },
-        { "key": "X-Robots-Tag", "value": "noindex" }
+        { "key": "Vary", "value": "Accept" }
       ]
     },
     {
@@ -235,9 +241,7 @@
         }
       ],
       "headers": [
-        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
-        { "key": "Vary", "value": "Accept" },
-        { "key": "X-Robots-Tag", "value": "noindex" }
+        { "key": "Vary", "value": "Accept" }
       ]
     },
     {
@@ -250,9 +254,7 @@
         }
       ],
       "headers": [
-        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
-        { "key": "Vary", "value": "Accept" },
-        { "key": "X-Robots-Tag", "value": "noindex" }
+        { "key": "Vary", "value": "Accept" }
       ]
     },
     {
