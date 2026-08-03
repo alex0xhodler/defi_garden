@@ -4,9 +4,9 @@ The highest honest TORN yield right now is 25.64% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token) | Ethereum | 11.89% | $239.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token) | Ethereum | 11.86% | $240.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token) | Ethereum | 25.64% | $209.3K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 1.65% | $164.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 1.69% | $164.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TORN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $613.2K in total.
+3 live pools clear this page's $100K TVL floor, $614.2K in total.
 
 ### Are these rates safe?
 

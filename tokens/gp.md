@@ -1,10 +1,10 @@
 # GP DeFi Yields
 
-The highest honest GP yield right now is 0.97% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GP yield right now is 0.98% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=aa220686-ff62-4399-a009-2c2cef13e837&src=seo_token) | Solana | 0.97% | $280.7K |
+| [orca-dex →](https://www.defi.garden/?pool=aa220686-ff62-4399-a009-2c2cef13e837&src=seo_token) | Solana | 0.98% | $280.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GP yield today?
 
-0.97% APY on orca-dex (Solana), based on live DefiLlama data.
+0.98% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many GP pools clear the TVL floor?
 

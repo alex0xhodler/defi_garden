@@ -4,7 +4,7 @@ The highest honest PYTH yield right now is 29.57% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 29.57% | $297.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=1876e235-cc64-4ff1-9c14-9771ace8f110&src=seo_token) | Solana | 29.57% | $298.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PYTH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $297.7K in total.
+1 live pool clear this page's $100K TVL floor, $298.8K in total.
 
 ### Are these rates safe?
 

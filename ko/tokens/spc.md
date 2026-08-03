@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 95.84% | $191.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=952ac281-0d4c-5f79-94dd-8f8f148a8f86&src=seo_token) | Solana | 3.45% | $186.6K |
-| [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 61.93% | $139.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=952ac281-0d4c-5f79-94dd-8f8f148a8f86&src=seo_token) | Solana | 3.32% | $186.7K |
+| [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 61.98% | $139.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

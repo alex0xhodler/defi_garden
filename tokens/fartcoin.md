@@ -1,12 +1,12 @@
 # FARTCOIN DeFi Yields
 
-The highest honest FARTCOIN yield right now is 17.93% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FARTCOIN yield right now is 17.45% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4&src=seo_token) | Solana | 3.17% | $5.7M |
-| [orca-dex →](https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142&src=seo_token) | Solana | 17.93% | $828.5K |
-| [orca-dex →](https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02&src=seo_token) | Solana | 2.85% | $419.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4&src=seo_token) | Solana | 3.09% | $5.7M |
+| [orca-dex →](https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142&src=seo_token) | Solana | 17.45% | $829.8K |
+| [orca-dex →](https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02&src=seo_token) | Solana | 2.75% | $420.6K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454&src=seo_token) | Base | 4.57% | $154.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FARTCOIN yield today?
 
-17.93% APY on raydium-amm (Solana), based on live DefiLlama data.
+17.45% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FARTCOIN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $7.11M in total.
+4 live pools clear this page's $100K TVL floor, $7.1M in total.
 
 ### Are these rates safe?
 

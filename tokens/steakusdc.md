@@ -4,14 +4,14 @@ The highest honest STEAKUSDC yield right now is 4.63% on morpho-blue (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token) | Base | 4.32% | $580.01M |
-| [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token) | Base | 3.22% | $172.2M |
-| [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token) | Ethereum | 3.47% | $87.79M |
-| [morpho-blue →](https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token) | Ethereum | 3.28% | $76.81M |
-| [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token) | Base | 4.09% | $30.77M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token) | Base | 4.32% | $579.8M |
+| [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token) | Base | 3.22% | $172.19M |
+| [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token) | Ethereum | 3.47% | $87.8M |
+| [morpho-blue →](https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token) | Ethereum | 3.28% | $77.03M |
+| [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token) | Base | 4.09% | $30.76M |
 | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token) | Katana | 1.03% | $13.56M |
 | [morpho-blue →](https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token) | Ethereum | 4.63% | $13.17M |
-| [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token) | Katana | 0.42% | $998.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token) | Katana | 0.42% | $998.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STEAKUSDC pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $975.3M in total.
+8 live pools clear this page's $100K TVL floor, $975.32M in total.
 
 ### Are these rates safe?
 

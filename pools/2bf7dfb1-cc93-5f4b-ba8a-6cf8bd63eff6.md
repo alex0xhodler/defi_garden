@@ -1,6 +1,6 @@
 # FRXUSD-DUSD — stake-dao on Ethereum
 
-**Total APY:** 10.56% (0.01% Base · + 10.55% Rewards)
+**Total APY:** 10.60% (0.01% Base · + 10.59% Rewards)
 
 **TVL:** $306.2K
 
@@ -21,13 +21,13 @@ Moderate risk profile
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,652 in 5y at current rates.
+$1,000 in this pool grows to ~$1,655 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
-[Garden this pool → ~$1,652 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,655 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on stake-dao](https://stakedao.org/?ref=defi.garden)
 

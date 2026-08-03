@@ -4,8 +4,8 @@ The highest honest HAIR yield right now is 0.38% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=210791a3-32da-49d2-8987-eaad8ea715d7&src=seo_token) | Ethereum | 0.38% | $449.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7386d1cf-f7ef-43ee-8087-b1120dcb2da9&src=seo_token) | Base | 0.06% | $102.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=210791a3-32da-49d2-8987-eaad8ea715d7&src=seo_token) | Ethereum | 0.38% | $450.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7386d1cf-f7ef-43ee-8087-b1120dcb2da9&src=seo_token) | Base | 0.05% | $102.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HAIR pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $696.7K in total.
+3 live pools clear this page's $100K TVL floor, $697.9K in total.
 
 ### Are these rates safe?
 

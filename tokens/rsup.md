@@ -1,11 +1,11 @@
 # RSUP DeFi Yields
 
-The highest honest RSUP yield right now is 16.83% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RSUP yield right now is 17.05% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token) | Ethereum | 10.41% | $477.5K |
-| [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 16.83% | $399.7K |
+| [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token) | Ethereum | 10.62% | $476.8K |
+| [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 17.05% | $399.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RSUP yield today?
 
-16.83% APY on curve-dex (Ethereum), based on live DefiLlama data.
+17.05% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many RSUP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $877.3K in total.
+2 live pools clear this page's $100K TVL floor, $875.9K in total.
 
 ### Are these rates safe?
 

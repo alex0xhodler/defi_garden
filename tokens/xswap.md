@@ -4,7 +4,7 @@ The highest honest XSWAP yield right now is 0.38% on uniswap-v3 (Base), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token) | Base | 0.38% | $124.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token) | Base | 0.38% | $124.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XSWAP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $327.6K in total.
+2 live pools clear this page's $100K TVL floor, $327.7K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # BONGO DeFi Yields
 
-The highest honest BONGO yield right now is 4.72% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BONGO yield right now is 4.70% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=72151b32-52e4-4ef7-92ba-c182d57e9264&src=seo_token) | Solana | 4.72% | $114.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=72151b32-52e4-4ef7-92ba-c182d57e9264&src=seo_token) | Solana | 4.70% | $114.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BONGO yield today?
 
-4.72% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.70% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BONGO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.2K in total.
+1 live pool clear this page's $100K TVL floor, $114.3K in total.
 
 ### Are these rates safe?
 

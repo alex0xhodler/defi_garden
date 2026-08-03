@@ -1,12 +1,12 @@
 # BADGER DeFi Yields
 
-The highest honest BADGER yield right now is 0.73% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BADGER yield right now is 0.09% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.02% | $3.94M |
 | [sushiswap-v3 →](https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token) | Ethereum | 0.06% | $235.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token) | Ethereum | 0.73% | $199.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token) | Ethereum | 0.09% | $199.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BADGER yield today?
 
-0.73% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.09% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BADGER pools clear the TVL floor?
 

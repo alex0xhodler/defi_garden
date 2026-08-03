@@ -4,7 +4,7 @@ The highest honest CHEDDA yield right now is 0.01% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ec596c1f-9ef1-4fb1-a5aa-0664666a32eb&src=seo_token) | Ethereum | 0.01% | $153.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ec596c1f-9ef1-4fb1-a5aa-0664666a32eb&src=seo_token) | Ethereum | 0.01% | $153.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CHEDDA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $153.5K in total.
+1 live pool clear this page's $100K TVL floor, $153.7K in total.
 
 ### Are these rates safe?
 

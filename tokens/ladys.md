@@ -4,7 +4,7 @@ The highest honest LADYS yield right now is 0.94% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=79ae8295-372d-4d67-8fc4-03f54c2b49ea&src=seo_token) | Ethereum | 0.94% | $676K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=79ae8295-372d-4d67-8fc4-03f54c2b49ea&src=seo_token) | Ethereum | 0.94% | $677.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LADYS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $676K in total.
+1 live pool clear this page's $100K TVL floor, $677.2K in total.
 
 ### Are these rates safe?
 

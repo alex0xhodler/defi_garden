@@ -1,10 +1,10 @@
 # Igra DeFi Yields
 
-The highest honest Igra yield right now is 26.72% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Igra yield right now is 26.68% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| IGRA-WIKAS | [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_chain) | 26.72% | $139.5K |
+| IGRA-WIKAS | [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_chain) | 26.68% | $139.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Igra yield today?
 
-26.72% APY on zealousswap (Igra), based on live DefiLlama data.
+26.68% APY on zealousswap (Igra), based on live DefiLlama data.
 
 ### How many Igra pools clear the TVL floor?
 

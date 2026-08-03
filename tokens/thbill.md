@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many THBILL pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $161.29M in total.
+9 live pools clear this page's $100K TVL floor, $161.28M in total.
 
 ### Are these rates safe?
 

@@ -1,12 +1,12 @@
 # XSTRK 디파이 수익률
 
-현재 XSTRK의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 15.47%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XSTRK의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 15.51%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f&src=seo_token) | Starknet | 0.69% | $856.5K |
-| [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570&src=seo_token) | Starknet | 15.47% | $260K |
-| [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299&src=seo_token) | Starknet | 1.90% | $137.9K |
+| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f&src=seo_token) | Starknet | 0.67% | $859.4K |
+| [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570&src=seo_token) | Starknet | 15.51% | $260.6K |
+| [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299&src=seo_token) | Starknet | 1.90% | $138.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 XSTRK의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 15.47%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 15.51%예요.
 
 ### XSTRK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -26,12 +26,12 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 15.47%예요.
 
 ## 관련 토큰
 
+- [TBTC](https://www.defi.garden/ko/tokens/tbtc)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 - [CASH](https://www.defi.garden/ko/tokens/cash)
 - [STRKBTC](https://www.defi.garden/ko/tokens/strkbtc)
 - [STRK](https://www.defi.garden/ko/tokens/strk)
 - [XWBTC](https://www.defi.garden/ko/tokens/xwbtc)
-- [ZEC](https://www.defi.garden/ko/tokens/zec)
 
 ## 이용 가능한 체인
 

@@ -4,7 +4,7 @@ The highest honest YEE yield right now is 7.40% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=def6d61e-cc5e-4af1-9c54-eaefb3b2ef61&src=seo_token) | Ethereum | 7.40% | $355K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=def6d61e-cc5e-4af1-9c54-eaefb3b2ef61&src=seo_token) | Ethereum | 7.40% | $354.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YEE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $355K in total.
+1 live pool clear this page's $100K TVL floor, $354.2K in total.
 
 ### Are these rates safe?
 

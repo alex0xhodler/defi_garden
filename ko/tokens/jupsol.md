@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.78% | $378.64M |
+| [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.78% | $378.14M |
 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 2.41% | $158.8K |
 | [orca-dex →](https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17&src=seo_token) | Solana | 1.35% | $107.7K |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Solana의 jupiter-staked-sol에서 APY 5.7
 
 ### JUPSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $506.07M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $505.6M예요.
 
 ### 이 수익률은 안전한가요?
 

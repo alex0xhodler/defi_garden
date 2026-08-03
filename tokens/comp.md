@@ -6,7 +6,7 @@ The highest honest COMP yield right now is 12.62% on uniswap-v3 (Ethereum), amon
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token) | Ethereum | 0.04% | $1M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 12.62% | $234.7K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token) | Ethereum | 4.48% | $110.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token) | Ethereum | 4.48% | $110.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

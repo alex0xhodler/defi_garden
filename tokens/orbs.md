@@ -4,7 +4,7 @@ The highest honest ORBS yield right now is 4.65% on quickswap-dex (Polygon), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token) | Polygon | 1.45% | $298.9K |
+| [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token) | Polygon | 4.56% | $311.2K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token) | Ethereum | 4.65% | $223.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ORBS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $522.5K in total.
+2 live pools clear this page's $100K TVL floor, $534.9K in total.
 
 ### Are these rates safe?
 

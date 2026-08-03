@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.10% | $963.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.11% | $960.6K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d3501b4f-7224-4b7e-b446-c69e19afc65f&src=seo_token) | Ethereum | 0.52% | $197.5K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 20.97% | $173.8K |
 

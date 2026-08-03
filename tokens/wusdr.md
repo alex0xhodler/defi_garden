@@ -4,7 +4,7 @@ The highest honest WUSDR yield right now is 0.76% on aerodrome-v1 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=dc1549ef-221e-464b-b010-e71135f73f22&src=seo_token) | Base | 0.76% | $202K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=dc1549ef-221e-464b-b010-e71135f73f22&src=seo_token) | Base | 0.76% | $201.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WUSDR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $315.9K in total.
+2 live pools clear this page's $100K TVL floor, $315.7K in total.
 
 ### Are these rates safe?
 

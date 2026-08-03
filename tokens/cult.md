@@ -4,7 +4,7 @@ The highest honest CULT yield right now is 1.55% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=402fc2bb-bf5e-453e-aec0-1a4cef273c03&src=seo_token) | Ethereum | 1.55% | $3.25M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=402fc2bb-bf5e-453e-aec0-1a4cef273c03&src=seo_token) | Ethereum | 1.55% | $3.24M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=9ba1500a-7a0b-43d5-903f-e0bb90e96afb&src=seo_token) | Ethereum | 0.17% | $1.34M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CULT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.59M in total.
+2 live pools clear this page's $100K TVL floor, $4.58M in total.
 
 ### Are these rates safe?
 

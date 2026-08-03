@@ -4,7 +4,7 @@ The highest honest GNS yield right now is 1.62% on camelot-v3 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=f413a14f-e487-4325-8c88-3f3665e71606&src=seo_token) | Arbitrum | 1.62% | $222.2K |
+| [camelot-v3 →](https://www.defi.garden/?pool=f413a14f-e487-4325-8c88-3f3665e71606&src=seo_token) | Arbitrum | 1.62% | $222K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GNS pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.86M in total.
+4 live pools clear this page's $100K TVL floor, $2.85M in total.
 
 ### Are these rates safe?
 

@@ -1,6 +1,6 @@
 # MSETH-OETH — curve-dex on Ethereum
 
-**Total APY:** 5.82% (0.02% Base · + 5.80% Rewards)
+**Total APY:** 5.83% (0.02% Base · + 5.81% Rewards)
 
 **TVL:** $497.8K
 

@@ -4,7 +4,7 @@ The highest honest POWR yield right now is 0.20% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=92c55c31-9892-414b-81ce-fb11470763a4&src=seo_token) | Ethereum | 0.20% | $382K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=92c55c31-9892-414b-81ce-fb11470763a4&src=seo_token) | Ethereum | 0.20% | $383.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many POWR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $382K in total.
+1 live pool clear this page's $100K TVL floor, $383.6K in total.
 
 ### Are these rates safe?
 

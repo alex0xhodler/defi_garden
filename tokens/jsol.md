@@ -4,7 +4,7 @@ The highest honest JSOL yield right now is 5.31% on jpool (Solana), among 4 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.31% | $100.68M |
+| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.31% | $100.56M |
 | [project-0 →](https://www.defi.garden/?pool=348f14cd-25f3-436c-b2a5-2e2c15f8353b&src=seo_token) | Solana | 0.01% | $118.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JSOL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $107.59M in total.
+4 live pools clear this page's $100K TVL floor, $107.47M in total.
 
 ### Are these rates safe?
 

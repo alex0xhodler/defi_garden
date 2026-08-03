@@ -1,11 +1,11 @@
 # IQ DeFi Yields
 
-The highest honest IQ yield right now is 68.47% on frax (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IQ yield right now is 68.43% on frax (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 1.03% | $1.74M |
-| [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 68.47% | $451.7K |
+| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 1.02% | $1.74M |
+| [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 68.43% | $451.7K |
 | [frax →](https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token) | Ethereum | 0.02% | $122K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IQ yield today?
 
-68.47% APY on frax (Ethereum), based on live DefiLlama data.
+68.43% APY on frax (Ethereum), based on live DefiLlama data.
 
 ### How many IQ pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.55M in total.
+4 live pools clear this page's $100K TVL floor, $2.54M in total.
 
 ### Are these rates safe?
 

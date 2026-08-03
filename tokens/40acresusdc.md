@@ -4,8 +4,8 @@ The highest honest 40ACRESUSDC yield right now is 12.14% on pendle (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=330a6316-3d6b-40c4-8f60-a71f44779f76&src=seo_token) | Base | 12.14% | $117.7K |
 | [pendle →](https://www.defi.garden/?pool=36ea8479-86ad-43c3-ba96-1837e17cf396&src=seo_token) | Base | 11.17% | $117.7K |
+| [pendle →](https://www.defi.garden/?pool=330a6316-3d6b-40c4-8f60-a71f44779f76&src=seo_token) | Base | 12.14% | $117.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

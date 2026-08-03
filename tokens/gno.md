@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GNO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $7.46M in total.
+4 live pools clear this page's $100K TVL floor, $7.45M in total.
 
 ### Are these rates safe?
 

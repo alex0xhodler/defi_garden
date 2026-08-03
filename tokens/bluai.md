@@ -4,7 +4,7 @@ The highest honest BLUAI yield right now is 0.40% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token) | Solana | 0.40% | $167.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token) | Solana | 0.40% | $167.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BLUAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $167.2K in total.
+1 live pool clear this page's $100K TVL floor, $167.3K in total.
 
 ### Are these rates safe?
 

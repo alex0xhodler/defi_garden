@@ -5,7 +5,7 @@ The highest honest DJED yield right now is 12.79% on liqwid (Cardano), among 3 p
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_token) | Cardano | 12.79% | $1.05M |
-| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 10.20% | $200.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 10.16% | $201.5K |
 | [orca-dex →](https://www.defi.garden/?pool=27d3d493-ec30-5cd4-8b32-c3515482f62d&src=seo_token) | Solana | 0.10% | $176.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

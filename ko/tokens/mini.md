@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token) | Solana | 0.39% | $304.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token) | Solana | 0.40% | $304.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=7adc0198-48ae-4d63-8511-40c33ea167d1&src=seo_token) | Base | 0.59% | $122.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

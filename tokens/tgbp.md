@@ -1,14 +1,14 @@
 # TGBP DeFi Yields
 
-The highest honest TGBP yield right now is 21.98% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TGBP yield right now is 21.97% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.55% | $288.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.57% | $288.2K |
 | [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.01% | $240.5K |
 | [orca-dex →](https://www.defi.garden/?pool=98ad0183-91ad-4788-a32c-0d5d943a7727&src=seo_token) | Solana | 0.02% | $155.8K |
 | [curve-dex →](https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token) | Polygon | 1.35% | $111.3K |
-| [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 21.98% | $102.7K |
+| [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 21.97% | $102.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TGBP yield today?
 
-21.98% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+21.97% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TGBP pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $898.5K in total.
+5 live pools clear this page's $100K TVL floor, $898.6K in total.
 
 ### Are these rates safe?
 

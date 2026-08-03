@@ -6,7 +6,7 @@ The highest honest SDAI yield right now is 4.17% on sky-lending (Ethereum), amon
 |---|---|---|---|
 | [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $210.15M |
 | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.17% | $55.12M |
-| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 2.73% | $7.09M |
+| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 2.80% | $7.09M |
 | [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token) | Ethereum | 0.12% | $203.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

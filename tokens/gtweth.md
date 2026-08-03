@@ -1,11 +1,11 @@
 # GTWETH DeFi Yields
 
-The highest honest GTWETH yield right now is 2.57% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTWETH yield right now is 2.62% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=eaa7b496-512f-442f-be1f-9d8909442e53&src=seo_token) | Ethereum | 1.68% | $13.54M |
-| [morpho-blue →](https://www.defi.garden/?pool=23a8c413-1595-4380-9a0b-e8eb04907a90&src=seo_token) | Katana | 2.57% | $10.03M |
+| [morpho-blue →](https://www.defi.garden/?pool=eaa7b496-512f-442f-be1f-9d8909442e53&src=seo_token) | Ethereum | 1.70% | $13.56M |
+| [morpho-blue →](https://www.defi.garden/?pool=23a8c413-1595-4380-9a0b-e8eb04907a90&src=seo_token) | Katana | 2.62% | $10.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTWETH yield today?
 
-2.57% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.62% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $23.57M in total.
+2 live pools clear this page's $100K TVL floor, $23.58M in total.
 
 ### Are these rates safe?
 

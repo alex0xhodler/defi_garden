@@ -5,8 +5,8 @@ The highest honest SUSN yield right now is 9.23% on uniswap-v3 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=860a781d-9327-4428-9424-e54ca2f2e475&src=seo_token) | Ethereum | 0.22% | $1.69M |
-| [pendle →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token) | Ethereum | 8.28% | $1.33M |
 | [pendle →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token) | Ethereum | 9.23% | $1.33M |
+| [pendle →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token) | Ethereum | 8.28% | $1.33M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

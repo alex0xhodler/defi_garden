@@ -1,10 +1,10 @@
 # BENJI DeFi Yields
 
-The highest honest BENJI yield right now is 0.80% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BENJI yield right now is 0.91% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c231858c-4320-45e7-a6fc-0d0b635b61cb&src=seo_token) | Base | 0.80% | $301.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c231858c-4320-45e7-a6fc-0d0b635b61cb&src=seo_token) | Base | 0.91% | $301.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BENJI yield today?
 
-0.80% APY on uniswap-v2 (Base), based on live DefiLlama data.
+0.91% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many BENJI pools clear the TVL floor?
 

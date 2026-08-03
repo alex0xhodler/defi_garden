@@ -9,7 +9,7 @@ The highest honest SUSDAT yield right now is 25.30% on saturn (Ethereum), among 
 | [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 13.73% | $3.41M |
 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 11.35% | $3.35M |
 | [pendle →](https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token) | Ethereum | 2.99% | $3.35M |
-| [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 13.49% | $368.7K |
+| [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 12.32% | $368.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSDAT pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $112.34M in total.
+16 live pools clear this page's $100K TVL floor, $112.32M in total.
 
 ### Are these rates safe?
 
