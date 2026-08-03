@@ -1063,9 +1063,13 @@
 }
 
 /* Pool Detail View Override for App */
-.app.pool-detail-view {
-  padding: 0;
-}
+/* Backlog 217: this rule used to include `padding: 0`, which cancelled
+   `.app`'s own `padding-bottom: 80px` (style.css:852, "Space for footer") —
+   the clearance that keeps content out from under the OPAQUE, fixed
+   `.app-footer`. That left the last ~16-80px of pool-detail content
+   permanently occluded at max scroll on every viewport. `.app` has no other
+   padding declaration anywhere in the design system, so the fix is to stop
+   cancelling the shared clearance rather than restate a one-off value here. */
 
 .app.pool-detail-view .container {
   max-width: none;
