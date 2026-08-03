@@ -652,3 +652,24 @@ against the wall-clock cap, which is a separate decision with its own guard (192
 
 **Provenance:** item 206, shipped 2026-08-02, verifier PASS 9/9 tier HIGH. Items 207 (the kpi-backfill
 leg of the same three) and 208 (the structural history/kpi leg, deliberately measure-then-decide) remain.
+
+### Corollary, caught one day later (2026-08-03, item 215): widening a population must reach EVERY leg that reads it
+
+206 widened the ROTATION's population to the union — and the same file's PRESCAN kept reading the
+snapshot. First post-ship tick: `poolPrescan.candidates = 734` vs rotation `union = 3964`, while
+`loadLivePoolIds()` was already retaining the full live records the prescan would need (kept for the
+sub-rail fixture body — the data was in memory, the prescan just wasn't pointed at it). Net effect: the
+cheap rail-relative checks reach 18.5% of the candidates and the sub-rail 3,230 wait on a ~124-tick
+rendered pass for a predicate that needs no render at all.
+
+**The rule:** a "population" is read by more legs than the one you are widening — rotation, prescan,
+promotion, budget caps, seen-memory, reconciliation. Before shipping a widening, `grep` the file for
+every consumer of the OLD population expression and, for each, either widen it in the same item or write
+it down as deferred **with a number** (the "one family per item" companion rule, applied to legs). 206's
+spec deferred nothing — the prescan leg was simply never enumerated, so the gap shipped silently and read
+as covered ("the audit now scans the arrival population") for exactly the reason axis-3 decoys do.
+
+**The cheap tick-time check that caught it:** compare the run's own reported denominators against each
+other — `poolPrescan.candidates` vs `poolRotation.union` came from the same run, same JSON, and disagreed
+5.4×. Any two legs of one checker reporting different population sizes for "the pools" is this bug, found
+with zero code.

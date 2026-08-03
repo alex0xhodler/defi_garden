@@ -11,7 +11,11 @@
       "tokens/hklu.html",
       "tokens/qnt.html",
       "tokens/uspc.html",
-      "tokens/block.html"
+      "tokens/block.html",
+      "tokens/uns.html",
+      "tokens/axleuroc.html",
+      "tokens/gsol.html",
+      "tokens/pha.html"
     ]
   },
   "chains": {
@@ -20,7 +24,9 @@
       "chains/solana.html",
       "chains/ethereum.html",
       "chains/fuel-ignition.html",
-      "chains/starknet.html"
+      "chains/starknet.html",
+      "chains/neutron.html",
+      "chains/berachain.html"
     ]
   },
   "koTokens": {
@@ -29,14 +35,20 @@
       "ko/tokens/nos.html",
       "ko/tokens/syrup.html",
       "ko/tokens/altt.html",
-      "ko/tokens/flower.html"
+      "ko/tokens/flower.html",
+      "ko/tokens/reusde.html",
+      "ko/tokens/vno.html",
+      "ko/tokens/buck.html",
+      "ko/tokens/ifil.html"
     ]
   },
   "koChains": {
     "cycle": 0,
     "seen": [
       "ko/chains/xlayer.html",
-      "ko/chains/kava.html"
+      "ko/chains/kava.html",
+      "ko/chains/icp.html",
+      "ko/chains/tron.html"
     ]
   }
 }

@@ -72,6 +72,13 @@ refactor's clothes (`pre-existing-red-triage.md`, Resolution E).
 - `?token=<obscure/all-sub-$10M>` — the dead-end class (item 133)
 - `?chain=<X>`
 - `?pool=<live id>` — **pool detail = the current north-star surface** (audit this every tick).
+  **Arrival accounting (2026-08-03, item 214):** `pool_view` fires only AFTER pool data resolves, and a
+  `?pool=` arrival blocks on the live multi-MB fetch (`app.js:1144` excludes pool arrivals from the
+  snapshot path even when the pool is snapshot-present) — so an arrival that bounces during the fetch
+  logs a `page_view` and **no** `pool_view` (measured 07-29: `?pool=4438dabc…` page_view 1, pool_view 0).
+  When counting arrivals to this surface, read `page_view` with `pool=` in the URL; `pool_view` counts
+  *renders*, and the gap between the two is itself a signal (bounce-before-paint or non-JS/early-exit
+  crawler).
   **And it has TWO populations, not one (item 206, 2026-08-02).** The rotation draws from
   `data/pools-snapshot.json` (736 pools, $10M-railed); the estate deep-links **3,669** ids, of which only
   **420 (11.4%)** are in that snapshot. Median deep-linked TVL is **$515,134**. So a sub-rail `?pool=`
