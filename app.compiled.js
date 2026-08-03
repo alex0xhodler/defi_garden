@@ -804,6 +804,13 @@ function AnimatedNumber({
 var APY_SANITY_LIMIT = 1000;
 var DEFAULT_MIN_TVL = 10000000; // $10M default floor
 
+// Shape gate for a `?pool=` id before it is ever reflected into a fetch path
+// (spec 216) — the SAME shape check generate-pool-pages.js's UUID_RE uses to
+// decide which deep-linked ids are worth resolving a paint artifact for. A
+// hostile/legacy `?pool=` value that doesn't look like a real DefiLlama pool
+// id can never reach a `/pools/<id>.json` fetch.
+var POOL_ARTIFACT_UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
 // A pool with (near-)zero total APY is a no-supply-yield / collateral asset —
 // it must never top the default browse (092). Below 0.01% reads as "0.00%"
 // once formatApy rounds to 2 decimals — the exact population the UX audit flags.
@@ -1106,35 +1113,98 @@ function App() {
       });
     };
 
-    // Returns true if the snapshot was fresh, valid, (for a pool arrival)
-    // contains the requested pool, and was applied; false → caller must fall
-    // back to live. Never throws (any error resolves to false).
+    // Returns a discriminated result so the caller can tell "pool not in this
+    // snapshot" (spec 216: `{ applied: false, poolAbsent: true, snapshotPools }`)
+    // apart from every other decline — stale/404/malformed meta or snapshot,
+    // or a non-pool arrival that simply isn't snapshot-eligible — which all
+    // return `{ applied: false }` with no `poolAbsent`/`snapshotPools`, exactly
+    // preserving the pre-216 fall-straight-to-live behaviour for those cases.
+    // `{ applied: true }` means setPools() already ran and the caller must
+    // return immediately. Never throws (any error resolves to `{ applied: false }`).
     var tryLoadSnapshot = async (startTime, requiredPoolId) => {
       try {
         var metaRes = await fetch('/data/pools-snapshot-meta.json');
-        if (!metaRes.ok) return false;
+        if (!metaRes.ok) return {
+          applied: false
+        };
         var meta = await metaRes.json();
-        if (!meta || meta.schemaVersion !== 1) return false;
+        if (!meta || meta.schemaVersion !== 1) return {
+          applied: false
+        };
         var age = Date.now() - new Date(meta.generatedAt).getTime();
-        if (!(age >= 0) || age > SNAPSHOT_MAX_AGE_MS) return false; // stale/invalid date → live
+        if (!(age >= 0) || age > SNAPSHOT_MAX_AGE_MS) return {
+          applied: false
+        }; // stale/invalid date → live
         var snapRes = await fetch('/data/pools-snapshot.json');
-        if (!snapRes.ok) return false;
+        if (!snapRes.ok) return {
+          applied: false
+        };
         var snap = await snapRes.json();
-        if (!snap || snap.schemaVersion !== 1 || !Array.isArray(snap.pools) || snap.pools.length === 0) return false;
+        if (!snap || snap.schemaVersion !== 1 || !Array.isArray(snap.pools) || snap.pools.length === 0) return {
+          applied: false
+        };
         if (requiredPoolId) {
           // Same two-way match as the pool-detail resolver (~app.js:1195-1196):
           // accept either the raw `pool.pool` id or the legacy composite key.
           // A miss here (spec 214) is NOT an error — it means the requested
-          // pool simply isn't in this snapshot, so fall through to live,
-          // which still resolves the pool or lands on the 072 dead-pool state.
+          // pool simply isn't in this snapshot. The snapshot itself WAS fresh
+          // and valid, so spec 216's per-pool artifact path is eligible next —
+          // hand the caller the snapshot's own pools array to concat onto.
           var hasRequiredPool = snap.pools.some(pool => pool.pool === requiredPoolId || `${pool.project}-${pool.symbol}-${pool.chain}` === decodeURIComponent(requiredPoolId));
-          if (!hasRequiredPool) return false;
+          if (!hasRequiredPool) return {
+            applied: false,
+            poolAbsent: true,
+            snapshotPools: snap.pools
+          };
         }
         poolsSourceRef.current = 'snapshot';
         setPools(snap.pools);
         Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
           pools_count: snap.pools.length,
           source: 'snapshot'
+        });
+        return {
+          applied: true
+        };
+      } catch (e) {
+        return {
+          applied: false
+        };
+      }
+    };
+
+    // spec 216: when a fresh/valid snapshot declined ONLY because the
+    // requested pool isn't in it, fetch the per-pool paint artifact CI bakes
+    // at /pools/<id>.json (generate-pool-pages.js) instead of blocking first
+    // paint on the multi-MB live feed. Applies the SAME validations the
+    // snapshot gets (schemaVersion, an array matching its own claimed count,
+    // the same 6h generatedAt age gate) plus the same two-way id match, so the
+    // artifact can never claim a pool the pool-detail resolver would then fail
+    // to find. ANY failure — 404 (expected until the next CI bake),
+    // non-OK, malformed, wrong schema, stale generatedAt, id mismatch, throw —
+    // returns false and the caller falls through to loadLive(), i.e. today's
+    // exact path. Never throws.
+    var tryLoadPoolArtifact = async (startTime, requiredPoolId, snapshotPools) => {
+      try {
+        var artRes = await fetch(`/pools/${encodeURIComponent(requiredPoolId)}.json`);
+        if (!artRes.ok) return false;
+        var art = await artRes.json();
+        if (!art || art.schemaVersion !== 1 || !Array.isArray(art.pools) || art.pools.length !== art.count) return false;
+        if (art.pools.length !== 1) return false;
+        var age = Date.now() - new Date(art.generatedAt).getTime();
+        if (!(age >= 0) || age > SNAPSHOT_MAX_AGE_MS) return false;
+        var record = art.pools[0];
+        var matches = record && (record.pool === requiredPoolId || `${record.project}-${record.symbol}-${record.chain}` === decodeURIComponent(requiredPoolId));
+        if (!matches) return false;
+        // Trust rails run identically on whichever payload loads (byte-untouched
+        // by this item): the record reaching `pools` is one the live path
+        // already delivers today, and every render-time floor/anomaly check
+        // (app.js's tvlUsd >= minTvl gates) still filters it out of the grid.
+        poolsSourceRef.current = 'snapshot'; // keeps the 059-B3 escape hatch armed
+        setPools(snapshotPools.concat([record]));
+        Analytics.trackPerformance('data_load_time', Date.now() - startTime, {
+          pools_count: snapshotPools.length + 1,
+          source: 'pool-artifact'
         });
         return true;
       } catch (e) {
@@ -1150,8 +1220,18 @@ function App() {
         // (tryLoadSnapshot itself declines when the requested id isn't in it);
         // the minTvl floor conjunct still gates non-pool arrivals.
         var snapshotEligible = urlParams.pool ? true : urlParams.minTvl >= DEFAULT_MIN_TVL;
-        if (snapshotEligible && (await tryLoadSnapshot(startTime, urlParams.pool || null))) {
-          return;
+        if (snapshotEligible) {
+          var snapResult = await tryLoadSnapshot(startTime, urlParams.pool || null);
+          if (snapResult.applied) return;
+          // spec 216: the snapshot was fresh/valid but declined ONLY because
+          // this pool is absent from it — try the per-pool artifact before
+          // falling all the way to live. Shape-gated so a malformed/legacy
+          // `?pool=` value never reaches a fetch path.
+          if (urlParams.pool && snapResult.poolAbsent && POOL_ARTIFACT_UUID_RE.test(urlParams.pool)) {
+            if (await tryLoadPoolArtifact(startTime, urlParams.pool, snapResult.snapshotPools)) {
+              return;
+            }
+          }
         }
         await loadLive(startTime);
       } catch (err) {

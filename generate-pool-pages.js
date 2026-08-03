@@ -24,6 +24,16 @@
  * neither the pools snapshot nor the offline fixture) gets no twin at all —
  * an absent file is honest; a fabricated one is not.
  *
+ * ITEM 216: alongside every `<id>.md`, also writes an `<id>.json` sibling —
+ * a snapshot-shaped paint artifact (`{schemaVersion, generatedAt, source,
+ * minTvlUsd, count, pools}` around the SAME `projectPool()` projection the
+ * committed snapshot uses, imported from generate-pools-snapshot.js). This
+ * lets a `?pool=<id>` arrival whose id is absent from the railed $10M
+ * snapshot still paint instantly from `/pools/<id>.json` instead of blocking
+ * on the multi-MB live feed (app.js's fetchPoolsInBackground()). Not a page,
+ * not in the sitemap — a data artifact the app fetches, mirroring
+ * data/pools-snapshot.json's own shape one pool at a time.
+ *
  * Usage:
  *   node generate-pool-pages.js                       # snapshot + fixture, writes pools/
  *   node generate-pool-pages.js --fixture f.json       # offline fixture tier
@@ -43,6 +53,12 @@ const {
   poolTotalApy, isAnomalousApy, formatUsd, formatApy, mdEscape,
   loadFixturePools, APY_SANITY_LIMIT, todayGeneratedDate
 } = require('./generate-token-pages.js');
+// REUSE (spec 216's own directive — never re-type): the exact 13-field
+// projection and snapshot envelope shape, imported from the module that
+// already defines and exports them. The `.json` sibling this item adds is
+// therefore byte-shape-identical to one entry of data/pools-snapshot.json —
+// that's what makes it a drop-in for app.js's snapshot-shaped loader.
+const { projectPool, envelope } = require('./generate-pools-snapshot.js');
 // REUSE (spec 050): the same en/ko catalog + lookup helper every generator
 // uses. Twins are English-only (CLAUDE.md: EN+KO must change together, and
 // this item adds ZERO new keys — 'en' is the only variant needed).
@@ -425,6 +441,27 @@ function renderPoolPageMarkdown(pool, generatedDate, bakedUrls) {
   return lines.join('\n');
 }
 
+// --- JSON paint artifact (item 216) -----------------------------------------
+// The `seo-pools.json` transient's OWN floor (generate-pools-snapshot.js:306,
+// `>= $1,000 TVL`) — stated HONESTLY as this artifact's own `minTvlUsd`, never
+// the committed snapshot's $10M `DEFAULT_MIN_TVL`. A sub-rail pool artifact
+// claiming a $10M floor would be a false trust claim (item 216's own rule).
+const POOL_ARTIFACT_MIN_TVL = 1000;
+
+/** Build the `<id>.json` paint artifact for one pool: envelope() around the
+ * SAME projectPool() projection the committed snapshot uses, with `count`/
+ * `pools` narrowed to this one record and `minTvlUsd` restated honestly.
+ * `generatedAtIso` must be an ISO timestamp (app.js parses it with `new
+ * Date(...).getTime()` under the same SNAPSHOT_MAX_AGE_MS gate the snapshot
+ * uses) — never todayGeneratedDate()'s human-readable string, which is only
+ * for the Markdown twin's visible "Last updated" line. */
+function buildPoolArtifact(pool, generatedAtIso) {
+  const record = projectPool(pool);
+  const artifact = envelope([record], generatedAtIso);
+  artifact.minTvlUsd = POOL_ARTIFACT_MIN_TVL;
+  return artifact;
+}
+
 // --- IO layer ---------------------------------------------------------------
 
 // Snapshot record source (byte-identical to what the rendered page reads via
@@ -513,11 +550,17 @@ function main() {
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   // Clean stale twins first (mirror of generate-token-pages.js:1087-1093) so
   // an id no longer deep-linked, or no longer resolvable, doesn't linger.
+  // Extended (item 216) to sweep `.json` paint artifacts the SAME way, so a
+  // pool that leaves the deep-link set cannot leave one behind either.
   if (outDir !== process.cwd()) {
     fs.readdirSync(outDir).forEach(f => {
-      if (f.endsWith('.md')) fs.rmSync(path.join(outDir, f));
+      if (f.endsWith('.md') || f.endsWith('.json')) fs.rmSync(path.join(outDir, f));
     });
   }
+
+  // ONE ISO timestamp for every `.json` artifact this run writes — mirrors
+  // generate-pools-snapshot.js's single `generatedAt` per run (item 216).
+  const generatedAtIso = new Date().toISOString();
 
   let written = 0;
   let skipped = 0;
@@ -527,6 +570,8 @@ function main() {
     if (!pool) { skipped++; return; }
     const md = renderPoolPageMarkdown(pool, genDate, bakedUrls);
     fs.writeFileSync(path.join(outDir, `${id}.md`), md);
+    const artifact = buildPoolArtifact(pool, generatedAtIso);
+    fs.writeFileSync(path.join(outDir, `${id}.json`), JSON.stringify(artifact));
     written++;
     totalBytes += Buffer.byteLength(md, 'utf8');
   });
@@ -544,7 +589,8 @@ module.exports = {
   renderPoolPageMarkdown, getPoolTypeShared, mean30dSane, getRiskAssessment,
   projectionFor, rateNote, resolveProtocolUrl, withRefParam,
   loadBakedProtocolUrls, loadSnapshotPoolMap, loadFixturePoolMap,
-  collectDeepLinkedIds, parseArgs, UUID_RE, PROJECTION_YEARS, DEFAULT_INVESTMENT
+  collectDeepLinkedIds, parseArgs, UUID_RE, PROJECTION_YEARS, DEFAULT_INVESTMENT,
+  buildPoolArtifact, POOL_ARTIFACT_MIN_TVL
 };
 
 if (require.main === module) {
