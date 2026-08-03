@@ -168,6 +168,71 @@ curl -s  -H 'Accept: text/markdown' 'https://www.defi.garden/pools/<uuid>.md'   
 curl -sI -H 'Accept: text/markdown' 'https://www.defi.garden/?pool=notauuid'        # expect the HTML app, never llms.txt
 ```
 
+**The pre-merge shortcut was tried and does not exist.** The obvious way to close 212's "curl the real
+edge" gap *before* merging is the PR's Vercel preview URL. All three probes above were run against
+`defi-garden-git-claude-loop-213-…vercel.app` and every one returned `HTTP 302 →
+vercel.com/sso-api?url=…&nonce=…` — deployment protection answers every path and every `Accept`, so the
+preview teaches nothing about our own rules. **Not reported as a pass; it did not run.**
+
+What the green Vercel check on the PR *does* prove is narrow but real: the config passed Vercel's schema
+validation and the build succeeded. That is precisely the gate that rejected 212's first deploy over the
+16-entry `has`/`missing` cap, so it is worth having — but it is not evidence that a routing rule fires,
+and it is not reported as such. Written up as step **6b** in
+`playbooks/mode-enumeration-staleness.md`.
+
+## Verifier: PASS, tier HIGH (attempt 1), and what it proved rather than read
+
+9/11 criteria fully met, 2 partial — both the disclosed platform-forced deviations. Tier HIGH assigned
+independently; NEVER list re-derived by the verifier itself on all four counts.
+
+It did not take the rails on trust. **Eight separate rail removals in a scratch copy, every one turning
+`test_pool_twins.js` red**: the anomaly forced-High gate, the ⚠ line, the projection gate for anomalous
+pools, the degen ⅓ haircut (2 assertions), the haircut *disclosure*, tier-1's `rateVolatilityNote` (2
+assertions), `APY_SANITY_LIMIT` in `mean30dSane` (the 427-twin sweep), and the `showConcreteCta` gate.
+No test stayed green under any removal. It also proved the parity test is load-bearing by mutating the
+mirrored `getRiskAssessment` TVL band 10M → 100M and watching it go red with a real diagnostic
+("DOLA-SUSDE: risk-level parity failed — twin Medium vs rendered Low"). It re-derived the 79/348/0 tier
+counts from its own generator run, re-ran both lanes, and confirmed the stale-ref baseline correction.
+All 9 mutations restored byte-exact (sha256 verified).
+
+### Verifier advisories — two fixed here, the rest recorded
+
+**Fixed in this item** (both are mirror-vs-original divergences, which is the exact defect class this
+item exists to prevent, so neither was left as a follow-up):
+
+1. **Tier-2 gate was missing `historyPoints >= 1`.** `PoolDetail.js:746` requires it; the twin gated only
+   on the presence of a `kpis` object. For a record with kpis but `historyPoints < 1` the page renders
+   **no** rate note at all, while the twin rendered `rateTrackRecordNew`. Unreachable in today's snapshot
+   (min `historyPoints` = 2), reachable in principle.
+2. **`(pool.tvlUsd || 0) < 1000000` vs the page's `pool.tvlUsd < 1000000`.** A record with missing
+   `tvlUsd` scored "Low liquidity" (+40) in the twin and "High liquidity" (+0) on the page, because
+   `undefined < 1000000` is `false`. **This one is reachable in production** — it is impossible in the
+   snapshot but the CI `seo-pools.json` tier, which supplies ~3,207 of the ~3,634 twins, is raw
+   DefiLlama records with no such guarantee. That is why it was fixed rather than filed.
+
+   **This one took two passes, and the first pass is the instructive part.** The initial fix removed
+   `|| 0` from the `< 1000000` branch but left it on the `< 10000000` branch one line down — which does
+   not close the divergence, it *moves* it: with `tvlUsd` undefined the page falls all the way through
+   to "High liquidity" (+0) while the twin then landed on "Medium liquidity" (+20). Caught by reading
+   the diff against `PoolDetail.js:307-315` rather than trusting the "fixed" report. Both branches now
+   read `pool.tvlUsd` bare. Proven directly: rendering a record with `tvlUsd: undefined` yields
+   "High liquidity" and not "Medium liquidity". A follow-up audit of every other field read in
+   `getRiskAssessment`/`getPoolTypeShared` found no further defaulting divergences (`pool.project`'s
+   `(x || '')` vs the page's `x?.` differ in syntax only — reviewed and left alone, because mirroring
+   means matching behaviour, not tidying it).
+
+**Recorded, not fixed:**
+
+3. **The "found, not fixed" disclosure above was incomplete** (verifier's catch, and a fair one): the
+   degen-haircut and anomaly branches ALSO have zero live witnesses — 0 of 427 twins carry either, same
+   as tier 3. Both are fixture-tested and mutation-proven, and both get live witnesses once CI's
+   sub-$10M tier lands. Corrected here rather than left reading as fuller coverage than it is.
+4. `test_pool_twins.js`'s CTA check asserts `links.length >= 2` plus exactly one garden link, without
+   asserting the protocol/DefiLlama CTA by label. The verifier hand-checked that second link on a real
+   twin. Tightening it is a cheap future improvement.
+5. Byte measurements differ ~1.2% between runs (350,103 B / 820 B mean vs 354,320 B / 830 B mean) —
+   live snapshot data moves between runs. Conclusion (≈3 MB) unaffected.
+
 ## A process note worth keeping
 
 The test agent received a mid-task correction from the operator about the three-tier rate note and

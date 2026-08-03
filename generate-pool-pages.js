@@ -148,11 +148,15 @@ function getRiskAssessment(pool, poolType, t) {
 
   const totalApy = poolTotalApy(pool);
 
-  // mirror of PoolDetail.js:307-316 — TVL factor (40% weight).
-  if ((pool.tvlUsd || 0) < 1000000) {
+  // mirror of PoolDetail.js:307-316 — TVL factor (40% weight). No `|| 0`
+  // defaulting on EITHER branch: PoolDetail.js:308 and :311 both read
+  // pool.tvlUsd bare, so a missing/undefined tvlUsd must fall through all the
+  // way to the "High liquidity" else-branch here too, exactly as it does on
+  // the page (undefined < 1000000 is false, undefined < 10000000 is false).
+  if (pool.tvlUsd < 1000000) {
     riskScore += 40;
     factors.push('Low liquidity');
-  } else if ((pool.tvlUsd || 0) < 10000000) {
+  } else if (pool.tvlUsd < 10000000) {
     riskScore += 20;
     factors.push('Medium liquidity');
   } else {
@@ -273,7 +277,8 @@ function rateNote(pool, t) {
   ) {
     return t('rateVolatilityNote', formatApy(currentTotalApy), formatApy(pool.apyMean30d));
   }
-  if (pool.kpis && typeof pool.kpis === 'object') {
+  // mirror of PoolDetail.js:746 — tier 2's gate also requires historyPoints >= 1.
+  if (pool.kpis && typeof pool.kpis === 'object' && Number(pool.kpis.historyPoints) >= 1) {
     const hp = Number(pool.kpis.historyPoints);
     // mirror of PoolDetail.js:765-769
     if (hp < 7) return t('rateTrackRecordNew');
@@ -284,6 +289,11 @@ function rateNote(pool, t) {
     // mirror of PoolDetail.js:775-777
     return t('rateTrackRecordTracked', hp);
   }
+  // mirror of PoolDetail.js:787 — a kpis object IS present but historyPoints < 1
+  // fails tier 2's gate (just above) and also fails tier 3's `!(pool.kpis &&
+  // typeof pool.kpis === 'object')` condition, so the page renders no note at
+  // all here. Mirror that exactly — no note, not a friendlier fallback.
+  if (pool.kpis && typeof pool.kpis === 'object') return null;
   // mirror of PoolDetail.js:781-805 (item 207) — no kpis object at all.
   return t('rateHistoryUnavailable');
 }
@@ -379,9 +389,15 @@ function renderPoolPageMarkdown(pool, generatedDate, bakedUrls) {
     }
   }
 
-  // Rate note — mirror of PoolDetail.js:740-805.
-  lines.push(rateNote(pool, t));
-  lines.push('');
+  // Rate note — mirror of PoolDetail.js:740-805. May now be null (a kpis
+  // object with historyPoints < 1 renders no note on the page — see rateNote's
+  // PoolDetail.js:787 mirror above); only emit the line/blank pair when present,
+  // so a null note leaves no stray blank section behind.
+  const note = rateNote(pool, t);
+  if (note) {
+    lines.push(note);
+    lines.push('');
+  }
 
   // CTAs — mirror of PoolDetail.js:385/1290-1306 (garden) and PoolDetail.js's
   // renderProtocolCtaBlock (protocol / honest DefiLlama fallback).
