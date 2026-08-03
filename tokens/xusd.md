@@ -1,10 +1,10 @@
 # XUSD DeFi Yields
 
-The highest honest XUSD yield right now is 0.42% on sovryn-dex (Rootstock), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XUSD yield right now is 0.51% on sovryn-dex (Rootstock), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.42% | $958.3K |
+| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.51% | $959K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XUSD yield today?
 
-0.42% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
+0.51% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
 
 ### How many XUSD pools clear the TVL floor?
 

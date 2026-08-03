@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.28% | $169.47M |
-| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.04% | $24.78M |
+| [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.28% | $168.83M |
+| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.06% | $24.78M |
 | [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 10.82% | $8.06M |
 | [pendle →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 9.45% | $8.06M |
 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 3.40% | $7.63M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 re에서 APY 10.82%예요.
 
 ### REUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 24개이며, 합산 TVL은 $335.19M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 24개이며, 합산 TVL은 $333.89M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,12 +1,12 @@
 # YYB DeFi Yields
 
-The highest honest YYB yield right now is 36.53% on yearn-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YYB yield right now is 36.63% on yearn-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 26.68% | $216.8K |
-| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 18.98% | $179.9K |
-| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 36.53% | $114.3K |
+| [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 26.60% | $222.6K |
+| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 19.00% | $179.5K |
+| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 36.63% | $114.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YYB yield today?
 
-36.53% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+36.63% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YYB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $511.1K in total.
+3 live pools clear this page's $100K TVL floor, $516.3K in total.
 
 ### Are these rates safe?
 

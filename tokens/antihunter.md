@@ -1,10 +1,10 @@
 # ANTIHUNTER DeFi Yields
 
-The highest honest ANTIHUNTER yield right now is 10.19% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANTIHUNTER yield right now is 2.77% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=675c3956-3515-4e68-9cd6-13f4d0328008&src=seo_token) | Base | 10.19% | $258.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=675c3956-3515-4e68-9cd6-13f4d0328008&src=seo_token) | Base | 2.77% | $258.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANTIHUNTER yield today?
 
-10.19% APY on uniswap-v4 (Base), based on live DefiLlama data.
+2.77% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many ANTIHUNTER pools clear the TVL floor?
 

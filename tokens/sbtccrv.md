@@ -4,8 +4,8 @@ The highest honest SBTCCRV yield right now is 0.01% on convex-finance (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token) | Ethereum | 0.01% | $597.9K |
-| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.01% | $182.4K |
+| [convex-finance →](https://www.defi.garden/?pool=bc1194f7-6db9-4091-ae8e-2f1dca896a88&src=seo_token) | Ethereum | 0.01% | $597.7K |
+| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.01% | $182.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

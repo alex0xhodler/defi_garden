@@ -4,7 +4,7 @@ The highest honest SIUSD yield right now is 8.85% on infinifi (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 5.80% | $32.2M |
+| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 5.81% | $32.2M |
 | [pendle →](https://www.defi.garden/?pool=62e914e8-1027-47a5-b444-5d9e6a407d41&src=seo_token) | Ethereum | 8.85% | $577K |
 | [pendle →](https://www.defi.garden/?pool=d9180649-8c45-4911-ae2a-cf20dc30b0b2&src=seo_token) | Ethereum | 7.65% | $577K |
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SIUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $47.85M in total.
+5 live pools clear this page's $100K TVL floor, $47.86M in total.
 
 ### Are these rates safe?
 

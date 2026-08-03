@@ -4,11 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 4.86% | $66.76M |
-| [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $6.03M |
-| [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $3.78M |
-| [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 1.05% | $442.6K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.01% | $394K |
+| [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 4.86% | $66.92M |
+| [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $6.04M |
+| [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $3.79M |
+| [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 1.07% | $443.3K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.82% | $398K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,7 +20,7 @@ DefiLlama 실시간 데이터 기준, Solana의 blazestake에서 APY 4.86%예요
 
 ### BSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $98.94M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $99.14M예요.
 
 ### 이 수익률은 안전한가요?
 

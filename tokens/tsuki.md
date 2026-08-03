@@ -1,10 +1,10 @@
 # TSUKI DeFi Yields
 
-The highest honest TSUKI yield right now is 5.19% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSUKI yield right now is 5.08% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0bfc8e49-f6f8-4a4a-a1b5-792d73b45c25&src=seo_token) | Solana | 5.19% | $326K |
+| [raydium-amm →](https://www.defi.garden/?pool=0bfc8e49-f6f8-4a4a-a1b5-792d73b45c25&src=seo_token) | Solana | 5.08% | $329.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TSUKI yield today?
 
-5.19% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.08% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TSUKI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $326K in total.
+1 live pool clear this page's $100K TVL floor, $329.5K in total.
 
 ### Are these rates safe?
 

@@ -1,17 +1,17 @@
 # UETH DeFi Yields
 
-The highest honest UETH yield right now is 32.64% on project-x (Hyperliquid L1), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UETH yield right now is 36.11% on project-x (Hyperliquid L1), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 14.01% | $1.01M |
-| [hyperlend-pooled →](https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token) | Hyperliquid L1 | 4.51% | $853.6K |
-| [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 32.64% | $525.7K |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token) | Hyperliquid L1 | 1.14% | $520.5K |
-| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 3.80% | $382K |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=71b271fb-e462-40be-9fe7-e237e4308cf7&src=seo_token) | Hyperliquid L1 | 30.04% | $314K |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 24.69% | $311K |
-| [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.02% | $248.3K |
+| [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 16.71% | $1M |
+| [hyperlend-pooled →](https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token) | Hyperliquid L1 | 4.51% | $853.4K |
+| [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 36.11% | $523.4K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token) | Hyperliquid L1 | 1.40% | $517K |
+| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 3.73% | $389K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=71b271fb-e462-40be-9fe7-e237e4308cf7&src=seo_token) | Hyperliquid L1 | 29.91% | $313.9K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 23.42% | $311K |
+| [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.02% | $248.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UETH yield today?
 
-32.64% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+36.11% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many UETH pools clear the TVL floor?
 

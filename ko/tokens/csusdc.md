@@ -1,12 +1,12 @@
 # CSUSDC 디파이 수익률
 
-현재 CSUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.49%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CSUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 8.38%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 7.08% | $1.62M |
 | [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 3.46% | $1.29M |
-| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 7.49% | $391.4K |
+| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 8.38% | $391.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 CSUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.49%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 8.38%예요.
 
 ### CSUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

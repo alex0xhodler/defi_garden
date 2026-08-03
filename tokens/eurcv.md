@@ -1,11 +1,11 @@
 # EURCV DeFi Yields
 
-The highest honest EURCV yield right now is 1.17% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURCV yield right now is 1.05% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.31% | $5.78M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token) | Ethereum | 1.17% | $3.4M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.26% | $5.78M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token) | Ethereum | 1.05% | $3.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EURCV yield today?
 
-1.17% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.05% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EURCV pools clear the TVL floor?
 

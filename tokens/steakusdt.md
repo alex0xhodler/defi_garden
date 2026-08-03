@@ -4,8 +4,8 @@ The highest honest STEAKUSDT yield right now is 4.28% on morpho-blue (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token) | Ethereum | 4.28% | $87.93M |
-| [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token) | Ethereum | 3.17% | $72.14M |
+| [morpho-blue →](https://www.defi.garden/?pool=ded5a855-23c1-459d-8390-ba2707fac7c5&src=seo_token) | Ethereum | 4.28% | $87.84M |
+| [morpho-blue →](https://www.defi.garden/?pool=ef5d3acb-b974-4db1-8076-e8db9f142493&src=seo_token) | Ethereum | 3.17% | $72.15M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STEAKUSDT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $160.07M in total.
+2 live pools clear this page's $100K TVL floor, $159.99M in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # JUPUSD DeFi Yields
 
-The highest honest JUPUSD yield right now is 5.53% on jupiter-lend (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JUPUSD yield right now is 5.02% on jupiter-lend (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jupiter-lend →](https://www.defi.garden/?pool=0dbb5021-00c7-40e2-9e2b-a757f4305ebf&src=seo_token) | Solana | 5.53% | $68.23M |
-| [raydium-amm →](https://www.defi.garden/?pool=b486afff-6cb0-4932-aacb-4c32cf955512&src=seo_token) | Solana | 0.67% | $3.89M |
+| [jupiter-lend →](https://www.defi.garden/?pool=0dbb5021-00c7-40e2-9e2b-a757f4305ebf&src=seo_token) | Solana | 5.02% | $68.22M |
+| [raydium-amm →](https://www.defi.garden/?pool=b486afff-6cb0-4932-aacb-4c32cf955512&src=seo_token) | Solana | 0.55% | $3.89M |
 | [orca-dex →](https://www.defi.garden/?pool=3560380c-4758-48b5-8dd6-38d474018724&src=seo_token) | Solana | 0.17% | $3.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JUPUSD yield today?
 
-5.53% APY on jupiter-lend (Solana), based on live DefiLlama data.
+5.02% APY on jupiter-lend (Solana), based on live DefiLlama data.
 
 ### How many JUPUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $75.97M in total.
+3 live pools clear this page's $100K TVL floor, $75.96M in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # CSWAP DeFi Yields
 
-The highest honest CSWAP yield right now is 0.83% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSWAP yield right now is 1.97% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f38761d4-3bb9-4af0-ace6-160988c47b3e&src=seo_token) | Ethereum | 0.83% | $212K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f38761d4-3bb9-4af0-ace6-160988c47b3e&src=seo_token) | Ethereum | 1.97% | $212.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSWAP yield today?
 
-0.83% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.97% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many CSWAP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $212K in total.
+1 live pool clear this page's $100K TVL floor, $212.4K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # PEPU DeFi Yields
 
-The highest honest PEPU yield right now is 0.67% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPU yield right now is 0.49% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token) | Ethereum | 0.67% | $170K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token) | Ethereum | 0.49% | $170K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEPU yield today?
 
-0.67% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.49% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PEPU pools clear the TVL floor?
 

@@ -1,10 +1,10 @@
 # CBADA DeFi Yields
 
-The highest honest CBADA yield right now is 107.59% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBADA yield right now is 102.61% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token) | Base | 107.59% | $146.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token) | Base | 102.61% | $147.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CBADA yield today?
 
-107.59% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+102.61% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBADA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $7.57M in total.
+3 live pools clear this page's $100K TVL floor, $7.67M in total.
 
 ### Are these rates safe?
 

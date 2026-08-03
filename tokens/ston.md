@@ -1,12 +1,12 @@
 # STON DeFi Yields
 
-The highest honest STON yield right now is 14.18% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STON yield right now is 14.19% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 14.18% | $761.9K |
-| [ston.fi →](https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token) | TON | 1.53% | $200.5K |
-| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.20% | $112.5K |
+| [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 14.19% | $764.2K |
+| [ston.fi →](https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token) | TON | 1.63% | $201.6K |
+| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.20% | $113.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STON yield today?
 
-14.18% APY on ston.fi (TON), based on live DefiLlama data.
+14.19% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many STON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.07M in total.
+3 live pools clear this page's $100K TVL floor, $1.08M in total.
 
 ### Are these rates safe?
 

@@ -5,7 +5,7 @@ The highest honest YIELD yield right now is 6.42% on morpho-blue (Ethereum), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 6.42% | $5.46M |
-| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.59% | $1.59M |
+| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.59% | $1.6M |
 | [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 3.40% | $587.1K |
 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 4.32% | $206.1K |
 

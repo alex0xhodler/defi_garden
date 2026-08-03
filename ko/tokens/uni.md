@@ -1,17 +1,17 @@
 # UNI 디파이 수익률
 
-현재 UNI의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 33.04%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 UNI의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 32.77%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token) | Ethereum | 5.68% | $15.64M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=eec57259-b836-4431-83cc-1306bc897a71&src=seo_token) | Ethereum | 25.59% | $2.68M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token) | Ethereum | 9.61% | $2.6M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 5.12% | $2.45M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token) | Ethereum | 19.16% | $2.09M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 17.09% | $1.83M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token) | Ethereum | 5.57% | $15.67M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=eec57259-b836-4431-83cc-1306bc897a71&src=seo_token) | Ethereum | 25.30% | $2.69M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token) | Ethereum | 10.30% | $2.6M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 5.58% | $2.46M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token) | Ethereum | 18.78% | $2.09M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 17.21% | $1.83M |
 | [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $1.48M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 33.04% | $1.3M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 32.77% | $1.29M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 UNI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 33.04%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 32.77%예요.
 
 ### UNI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $48M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $47.96M예요.
 
 ### 이 수익률은 안전한가요?
 

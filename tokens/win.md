@@ -4,7 +4,7 @@ The highest honest WIN yield right now is 0.43% on justlend-v1 (Tron), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=0864f70d-085b-4a19-a2bc-fc107ab3750a&src=seo_token) | Tron | 0.43% | $840.3K |
+| [justlend-v1 →](https://www.defi.garden/?pool=0864f70d-085b-4a19-a2bc-fc107ab3750a&src=seo_token) | Tron | 0.43% | $822.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $840.3K in total.
+1 live pool clear this page's $100K TVL floor, $822.6K in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTC](https://www.defi.garden/tokens/btc)
 - [USDD](https://www.defi.garden/tokens/usdd)
+- [USD1](https://www.defi.garden/tokens/usd1)
 - [JST](https://www.defi.garden/tokens/jst)
-- [SUN](https://www.defi.garden/tokens/sun)
 
 ## Available on
 

@@ -91,12 +91,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/sui</loc>
+    <loc>https://www.defi.garden/chains/cronos</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/cronos</loc>
+    <loc>https://www.defi.garden/chains/sui</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -181,11 +181,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/bob</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/polkadot</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
@@ -251,17 +246,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/celo</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/neutron</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/venom</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -316,12 +311,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/core</loc>
+    <loc>https://www.defi.garden/chains/strato</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/strato</loc>
+    <loc>https://www.defi.garden/chains/core</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>

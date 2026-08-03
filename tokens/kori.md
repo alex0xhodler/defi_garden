@@ -1,10 +1,10 @@
 # KORI DeFi Yields
 
-The highest honest KORI yield right now is 4.33% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KORI yield right now is 3.61% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6920d26e-1f5e-44cd-a925-cd09c73e5bba&src=seo_token) | Solana | 4.33% | $253K |
+| [raydium-amm →](https://www.defi.garden/?pool=6920d26e-1f5e-44cd-a925-cd09c73e5bba&src=seo_token) | Solana | 3.61% | $252.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KORI yield today?
 
-4.33% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.61% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many KORI pools clear the TVL floor?
 

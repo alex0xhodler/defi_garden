@@ -4,8 +4,8 @@ The highest honest POPCAT yield right now is 5.20% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token) | Solana | 3.47% | $2.91M |
-| [raydium-amm →](https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token) | Solana | 5.20% | $578.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token) | Solana | 3.54% | $2.94M |
+| [raydium-amm →](https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token) | Solana | 5.20% | $580.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many POPCAT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.69M in total.
+3 live pools clear this page's $100K TVL floor, $3.71M in total.
 
 ### Are these rates safe?
 

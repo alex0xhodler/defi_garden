@@ -4,7 +4,7 @@ The highest honest XMN yield right now is 0.09% on bluefin-spot (Sui), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=557512fa-ef10-4eef-9fb9-2f122e22e241&src=seo_token) | Sui | 0.09% | $138.3K |
+| [bluefin-spot →](https://www.defi.garden/?pool=557512fa-ef10-4eef-9fb9-2f122e22e241&src=seo_token) | Sui | 0.09% | $139.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XMN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.3K in total.
+1 live pool clear this page's $100K TVL floor, $139.8K in total.
 
 ### Are these rates safe?
 

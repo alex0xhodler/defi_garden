@@ -4,9 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 5.80% | $2.33M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 5.80% | $2.34M |
+| [quickswap-dex →](https://www.defi.garden/?pool=63eb0ca9-4d62-46e1-8f8a-ae7368910698&src=seo_token) | Polygon | 0.05% | $648.4K |
 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 5.97% | $242.5K |
-| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 4.67% | $131.6K |
+| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 4.67% | $131.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +19,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 5.97%예요
 
 ### MAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $5.24M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $5.25M예요.
 
 ### 이 수익률은 안전한가요?
 

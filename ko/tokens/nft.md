@@ -28,8 +28,8 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 0.03%예요.
 - [TRX](https://www.defi.garden/ko/tokens/trx)
 - [BTC](https://www.defi.garden/ko/tokens/btc)
 - [USDD](https://www.defi.garden/ko/tokens/usdd)
+- [USD1](https://www.defi.garden/ko/tokens/usd1)
 - [JST](https://www.defi.garden/ko/tokens/jst)
-- [SUN](https://www.defi.garden/ko/tokens/sun)
 
 ## 이용 가능한 체인
 

@@ -4,8 +4,8 @@ The highest honest OVN yield right now is 3.66% on aerodrome-v1 (Base), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token) | Base | 1.39% | $276.9K |
-| [overnight-finance →](https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token) | Base | 3.66% | $232.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token) | Base | 1.40% | $276.8K |
+| [overnight-finance →](https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token) | Base | 3.66% | $232.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

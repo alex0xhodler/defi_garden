@@ -1,12 +1,12 @@
 # APXUSD DeFi Yields
 
-The highest honest APXUSD yield right now is 357.11% on apyx-protocol (Ethereum), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest APXUSD yield right now is 357.11% on apyx-protocol (Ethereum), among 31 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.99% | $164.52M |
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 10.79% | $18.72M |
-| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 19.31% | $7.66M |
+| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.99% | $164.53M |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 10.79% | $18.7M |
+| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 19.31% | $7.65M |
 | [pendle →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 9.35% | $1.62M |
 | [pendle →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 2.63% | $1.62M |
 | [pendle →](https://www.defi.garden/?pool=2d26d208-dffd-4c4d-ab66-3ff850f2a678&src=seo_token) | Ethereum | 8.50% | $1.1M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APXUSD pools clear the TVL floor?
 
-30 live pools clear this page's $100K TVL floor, $208.8M in total.
+31 live pools clear this page's $100K TVL floor, $209.42M in total.
 
 ### Are these rates safe?
 

@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 13.00% | $157.1K |
-| [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 2.79% | $156.4K |
+| [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 13.00% | $157.2K |
+| [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 1.78% | $157K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, TON의 storm-trade에서 APY 13.00%예요.
 
 ### NOT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $313.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $314.2K예요.
 
 ### 이 수익률은 안전한가요?
 

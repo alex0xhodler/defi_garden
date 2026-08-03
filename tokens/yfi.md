@@ -4,11 +4,11 @@ The highest honest YFI yield right now is 7.13% on aerodrome-v1 (Base), among 8 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 5.29% | $1.05M |
-| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 4.91% | $481.1K |
-| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 7.13% | $480.4K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 1.93% | $132.2K |
-| [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token) | Ethereum | 1.91% | $106.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 5.33% | $1.05M |
+| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 4.91% | $480.9K |
+| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 7.13% | $480.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 1.68% | $132.2K |
+| [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token) | Ethereum | 1.69% | $106.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YFI pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $3.18M in total.
+8 live pools clear this page's $100K TVL floor, $3.17M in total.
 
 ### Are these rates safe?
 

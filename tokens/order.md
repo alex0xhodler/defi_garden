@@ -4,7 +4,7 @@ The highest honest ORDER yield right now is 1.54% on pancakeswap-amm-v3 (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token) | Ethereum | 0.39% | $285.6K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token) | Ethereum | 0.28% | $283.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token) | Solana | 1.54% | $110.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ORDER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $396.4K in total.
+2 live pools clear this page's $100K TVL floor, $394.6K in total.
 
 ### Are these rates safe?
 

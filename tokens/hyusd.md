@@ -1,14 +1,14 @@
 # HYUSD DeFi Yields
 
-The highest honest HYUSD yield right now is 6.56% on kamino-liquidity (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYUSD yield right now is 6.52% on kamino-liquidity (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token) | Solana | 0.55% | $1.95M |
-| [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token) | Solana | 0.72% | $1.81M |
-| [loopscale →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token) | Solana | 6.56% | $382.3K |
-| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 4.17% | $158.8K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token) | Solana | 4.10% | $158.7K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token) | Solana | 0.57% | $1.95M |
+| [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token) | Solana | 0.73% | $1.81M |
+| [loopscale →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token) | Solana | 6.52% | $389.2K |
+| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 4.31% | $159K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token) | Solana | 4.27% | $158.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYUSD yield today?
 
-6.56% APY on kamino-liquidity (Solana), based on live DefiLlama data.
+6.52% APY on kamino-liquidity (Solana), based on live DefiLlama data.
 
 ### How many HYUSD pools clear the TVL floor?
 

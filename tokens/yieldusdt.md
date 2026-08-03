@@ -4,7 +4,7 @@ The highest honest YIELDUSDT yield right now is 7.95% on lagoon (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=5a50dd87-9597-4462-b286-be3e535959f5&src=seo_token) | Ethereum | 7.95% | $960.5K |
+| [lagoon →](https://www.defi.garden/?pool=5a50dd87-9597-4462-b286-be3e535959f5&src=seo_token) | Ethereum | 7.95% | $960.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YIELDUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $960.5K in total.
+1 live pool clear this page's $100K TVL floor, $960.7K in total.
 
 ### Are these rates safe?
 

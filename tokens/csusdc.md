@@ -1,12 +1,12 @@
 # CSUSDC DeFi Yields
 
-The highest honest CSUSDC yield right now is 7.49% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSUSDC yield right now is 8.38% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 7.08% | $1.62M |
 | [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 3.46% | $1.29M |
-| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 7.49% | $391.4K |
+| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 8.38% | $391.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSUSDC yield today?
 
-7.49% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+8.38% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many CSUSDC pools clear the TVL floor?
 

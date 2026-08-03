@@ -1,10 +1,10 @@
 # ALBRH DeFi Yields
 
-The highest honest ALBRH yield right now is 80.56% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALBRH yield right now is 76.57% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c9929b2a-4770-586c-8dca-9dd204685aa3&src=seo_token) | Base | 80.56% | $211.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c9929b2a-4770-586c-8dca-9dd204685aa3&src=seo_token) | Base | 76.57% | $211.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALBRH yield today?
 
-80.56% APY on uniswap-v2 (Base), based on live DefiLlama data.
+76.57% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many ALBRH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $211.2K in total.
+1 live pool clear this page's $100K TVL floor, $211.9K in total.
 
 ### Are these rates safe?
 

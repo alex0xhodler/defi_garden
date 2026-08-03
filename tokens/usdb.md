@@ -1,9 +1,10 @@
 # USDB DeFi Yields
 
-The highest honest USDB yield right now is 0.09% on bluefin-spot (Sui), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDB yield right now is 0.09% on cetus-clmm (Sui), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [cetus-clmm →](https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token) | Sui | 0.01% | $1.09M |
 | [bluefin-spot →](https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token) | Sui | 0.01% | $1.09M |
 | [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.09% | $850.6K |
 | [bluefin-spot →](https://www.defi.garden/?pool=10ff5726-66cc-48f7-a71b-01843c59d2a3&src=seo_token) | Sui | 0.01% | $710.6K |
@@ -14,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDB yield today?
 
-0.09% APY on bluefin-spot (Sui), based on live DefiLlama data.
+0.09% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many USDB pools clear the TVL floor?
 

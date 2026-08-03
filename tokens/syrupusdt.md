@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SYRUPUSDT pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $371.61M in total.
+4 live pools clear this page's $100K TVL floor, $371.69M in total.
 
 ### Are these rates safe?
 

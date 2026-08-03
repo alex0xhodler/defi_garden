@@ -4,7 +4,7 @@ The highest honest USPC yield right now is 5.36% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=a020d688-2591-4086-9827-09fbdc72094c&src=seo_token) | Ethereum | 3.54% | $319.2K |
+| [curve-dex →](https://www.defi.garden/?pool=a020d688-2591-4086-9827-09fbdc72094c&src=seo_token) | Ethereum | 3.54% | $319.1K |
 | [convex-finance →](https://www.defi.garden/?pool=ff64e4a9-161d-42b8-82a3-b9436c6ceeb1&src=seo_token) | Ethereum | 5.36% | $319.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USPC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $638.3K in total.
+2 live pools clear this page's $100K TVL floor, $638.2K in total.
 
 ### Are these rates safe?
 

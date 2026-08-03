@@ -4,7 +4,7 @@ The highest honest USCC yield right now is 3.13% on bitwise-uscc (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 3.13% | $28.11M |
+| [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 3.13% | $27.76M |
 | [bitwise-uscc →](https://www.defi.garden/?pool=04bf0e7d-904a-4d42-9a25-bb1b5634e863&src=seo_token) | Solana | 3.13% | $9.42M |
 | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_token) | Plume Mainnet | 3.13% | $694.4K |
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USCC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $55.12M in total.
+5 live pools clear this page's $100K TVL floor, $54.77M in total.
 
 ### Are these rates safe?
 

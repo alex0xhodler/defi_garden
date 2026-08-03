@@ -1,12 +1,12 @@
 # SUIUSDT DeFi Yields
 
-The highest honest SUIUSDT yield right now is 19.21% on navi-lending (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUIUSDT yield right now is 19.25% on navi-lending (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 6.65% | $422K |
-| [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 11.59% | $364K |
-| [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 19.21% | $114.3K |
+| [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 6.65% | $422.1K |
+| [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 10.83% | $355.9K |
+| [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 19.25% | $113.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUIUSDT yield today?
 
-19.21% APY on navi-lending (Sui), based on live DefiLlama data.
+19.25% APY on navi-lending (Sui), based on live DefiLlama data.
 
 ### How many SUIUSDT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $900.3K in total.
+3 live pools clear this page's $100K TVL floor, $891.8K in total.
 
 ### Are these rates safe?
 

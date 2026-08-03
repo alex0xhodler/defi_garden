@@ -1,17 +1,17 @@
 # EURC DeFi Yields
 
-The highest honest EURC yield right now is 122.73% on aave-v3 (Ethereum), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURC yield right now is 102.97% on aave-v3 (Ethereum), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.96% | $11.04M |
-| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 4.73% | $4.75M |
-| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.52% | $3.78M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 47.04% | $2.04M |
+| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 3.01% | $10.71M |
+| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 4.63% | $4.76M |
+| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.34% | $4.11M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 43.18% | $2.04M |
 | [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 3.13% | $1.41M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ae2073a3-2d17-4b0e-a35e-9a90a2569063&src=seo_token) | Ethereum | 17.38% | $1.01M |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 5.23% | $827.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 122.73% | $716.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ae2073a3-2d17-4b0e-a35e-9a90a2569063&src=seo_token) | Ethereum | 15.62% | $1M |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 5.24% | $824.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 102.97% | $745.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EURC yield today?
 
-122.73% APY on aave-v3 (Ethereum), based on live DefiLlama data.
+102.97% APY on aave-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EURC pools clear the TVL floor?
 

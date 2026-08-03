@@ -1,11 +1,11 @@
 # FIDD DeFi Yields
 
-The highest honest FIDD yield right now is 0.03% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FIDD yield right now is 0.08% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.02% | $3.57M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.03% | $2.24M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.04% | $3.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.08% | $2.24M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FIDD yield today?
 
-0.03% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.08% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FIDD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $10.31M in total.
+4 live pools clear this page's $100K TVL floor, $10.3M in total.
 
 ### Are these rates safe?
 

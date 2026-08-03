@@ -4,9 +4,10 @@ The highest honest MAI yield right now is 5.97% on aerodrome-v1 (Base), among 8 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 5.80% | $2.33M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 5.80% | $2.34M |
+| [quickswap-dex →](https://www.defi.garden/?pool=63eb0ca9-4d62-46e1-8f8a-ae7368910698&src=seo_token) | Polygon | 0.05% | $648.4K |
 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 5.97% | $242.5K |
-| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 4.67% | $131.6K |
+| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 4.67% | $131.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MAI pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $5.24M in total.
+8 live pools clear this page's $100K TVL floor, $5.25M in total.
 
 ### Are these rates safe?
 

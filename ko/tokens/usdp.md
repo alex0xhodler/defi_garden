@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 12.24% | $1.07M |
-| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.68% | $689.7K |
+| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.68% | $689.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

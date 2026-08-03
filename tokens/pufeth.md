@@ -4,10 +4,10 @@ The highest honest PUFETH yield right now is 8.37% on puffer-stake (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 1.91% | $46.51M |
+| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 1.91% | $46.45M |
 | [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 0.03% | $2.14M |
 | [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 1.98% | $1.25M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 3.98% | $563.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 3.98% | $565.2K |
 | [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 8.37% | $147.5K |
 | [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 8.03% | $147.5K |
 
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PUFETH pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $50.96M in total.
+7 live pools clear this page's $100K TVL floor, $50.91M in total.
 
 ### Are these rates safe?
 

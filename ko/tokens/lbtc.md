@@ -1,17 +1,17 @@
 # LBTC 디파이 수익률
 
-현재 LBTC의 가장 높은 정직한 수익률은 Ethereum의 lombard-lbtc에서 6.03%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LBTC의 가장 높은 정직한 수익률은 Ethereum의 lombard-lbtc에서 6.02%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.33% | $593.63M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2fa87ded-b27a-4348-b852-e64acd817b79&src=seo_token) | Ethereum | 2.87% | $5.89M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token) | Base | 1.32% | $3.44M |
+| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.33% | $593.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2fa87ded-b27a-4348-b852-e64acd817b79&src=seo_token) | Ethereum | 1.99% | $5.89M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token) | Base | 1.33% | $3.44M |
 | [moonwell-lending →](https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token) | Base | 0.17% | $3.28M |
 | [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token) | Sui | 1.36% | $2.72M |
-| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token) | Monad | 6.03% | $1.54M |
-| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a&src=seo_token) | Ethereum | 3.77% | $813.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 5.05% | $740.2K |
+| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token) | Monad | 6.02% | $1.54M |
+| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a&src=seo_token) | Ethereum | 2.82% | $813.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 4.70% | $740.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@
 
 ### 오늘 LBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 lombard-lbtc에서 APY 6.03%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 lombard-lbtc에서 APY 6.02%예요.
 
 ### LBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

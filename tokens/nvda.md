@@ -4,7 +4,7 @@ The highest honest NVDA yield right now is 48.66% on gmtrade (Solana), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token) | Solana | 48.66% | $605.3K |
+| [gmtrade →](https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token) | Solana | 48.66% | $580.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NVDA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $754.3K in total.
+2 live pools clear this page's $100K TVL floor, $729.9K in total.
 
 ### Are these rates safe?
 

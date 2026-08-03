@@ -1,11 +1,11 @@
 # SUSDU DeFi Yields
 
-The highest honest SUSDU yield right now is 9.97% on unitas-usdu (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDU yield right now is 9.99% on unitas-usdu (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 9.96% | $40.51M |
-| [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token) | Solana | 9.97% | $7.37M |
+| [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token) | Solana | 9.99% | $7.35M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSDU yield today?
 
-9.97% APY on unitas-usdu (BSC), based on live DefiLlama data.
+9.99% APY on unitas-usdu (BSC), based on live DefiLlama data.
 
 ### How many SUSDU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $47.88M in total.
+2 live pools clear this page's $100K TVL floor, $47.86M in total.
 
 ### Are these rates safe?
 

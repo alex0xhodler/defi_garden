@@ -1,17 +1,17 @@
 # ALETH 디파이 수익률
 
-현재 ALETH의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 6.36%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ALETH의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 6.37%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.35% | $5.24M |
 | [curve-dex →](https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token) | Ethereum | 1.27% | $3.04M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token) | OP Mainnet | 6.36% | $2.44M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token) | OP Mainnet | 6.37% | $2.44M |
 | [stake-dao →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token) | Ethereum | 1.66% | $2.06M |
-| [alchemix-v3 →](https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4&src=seo_token) | Ethereum | 4.75% | $1.97M |
-| [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.66% | $1.37M |
-| [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 6.06% | $1.06M |
-| [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token) | Ethereum | 2.48% | $957.7K |
+| [alchemix-v3 →](https://www.defi.garden/?pool=739a70c7-fb99-58e5-a066-02e2d892abe4&src=seo_token) | Ethereum | 5.52% | $1.97M |
+| [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.67% | $1.37M |
+| [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 6.05% | $1.06M |
+| [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token) | Ethereum | 2.48% | $957.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@
 
 ### 오늘 ALETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 6.36%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 6.37%예요.
 
 ### ALETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

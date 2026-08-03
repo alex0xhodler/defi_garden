@@ -1,17 +1,17 @@
 # LBTC DeFi Yields
 
-The highest honest LBTC yield right now is 6.03% on lombard-lbtc (Ethereum), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LBTC yield right now is 6.02% on lombard-lbtc (Ethereum), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.33% | $593.63M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2fa87ded-b27a-4348-b852-e64acd817b79&src=seo_token) | Ethereum | 2.87% | $5.89M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token) | Base | 1.32% | $3.44M |
+| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.33% | $593.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2fa87ded-b27a-4348-b852-e64acd817b79&src=seo_token) | Ethereum | 1.99% | $5.89M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token) | Base | 1.33% | $3.44M |
 | [moonwell-lending →](https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token) | Base | 0.17% | $3.28M |
 | [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token) | Sui | 1.36% | $2.72M |
-| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token) | Monad | 6.03% | $1.54M |
-| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a&src=seo_token) | Ethereum | 3.77% | $813.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 5.05% | $740.2K |
+| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token) | Monad | 6.02% | $1.54M |
+| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a&src=seo_token) | Ethereum | 2.82% | $813.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 4.70% | $740.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LBTC yield today?
 
-6.03% APY on lombard-lbtc (Ethereum), based on live DefiLlama data.
+6.02% APY on lombard-lbtc (Ethereum), based on live DefiLlama data.
 
 ### How many LBTC pools clear the TVL floor?
 

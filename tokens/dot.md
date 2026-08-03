@@ -1,10 +1,10 @@
 # DOT DeFi Yields
 
-The highest honest DOT yield right now is 70.07% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOT yield right now is 62.80% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4b7680b1-3bbc-42a3-88c8-b1cb5d66f6cb&src=seo_token) | Base | 70.07% | $303.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4b7680b1-3bbc-42a3-88c8-b1cb5d66f6cb&src=seo_token) | Base | 62.80% | $302.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOT yield today?
 
-70.07% APY on uniswap-v4 (Base), based on live DefiLlama data.
+62.80% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many DOT pools clear the TVL floor?
 

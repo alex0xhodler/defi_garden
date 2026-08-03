@@ -4,10 +4,10 @@ The highest honest VBUSDC yield right now is 15.70% on yearn-finance (Katana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 3.29% | $8.63M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.94% | $4.31M |
+| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 3.36% | $8.63M |
+| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.94% | $4.32M |
 | [yearn-finance →](https://www.defi.garden/?pool=ffeb6000-119e-4950-9875-fa90d0d8e373&src=seo_token) | Katana | 1.78% | $1.05M |
-| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 15.70% | $452.2K |
+| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 15.70% | $452.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.31% | $101.62M |
-| [project-0 →](https://www.defi.garden/?pool=348f14cd-25f3-436c-b2a5-2e2c15f8353b&src=seo_token) | Solana | 0.01% | $119.6K |
+| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.31% | $101.85M |
+| [project-0 →](https://www.defi.garden/?pool=348f14cd-25f3-436c-b2a5-2e2c15f8353b&src=seo_token) | Solana | 0.01% | $119.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Solana의 jpool에서 APY 5.31%예요.
 
 ### JSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $108.57M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $108.81M예요.
 
 ### 이 수익률은 안전한가요?
 

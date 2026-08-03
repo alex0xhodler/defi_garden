@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 3.13% | $28.11M |
+| [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 3.13% | $27.76M |
 | [bitwise-uscc →](https://www.defi.garden/?pool=04bf0e7d-904a-4d42-9a25-bb1b5634e863&src=seo_token) | Solana | 3.13% | $9.42M |
 | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_token) | Plume Mainnet | 3.13% | $694.4K |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 bitwise-uscc에서 APY 3.13%�
 
 ### USCC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $55.12M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $54.77M예요.
 
 ### 이 수익률은 안전한가요?
 

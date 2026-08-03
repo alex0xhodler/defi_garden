@@ -1,10 +1,10 @@
 # GBPM DeFi Yields
 
-The highest honest GBPM yield right now is 26.18% on mento-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GBPM yield right now is 26.20% on mento-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 26.18% | $583.8K |
+| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 26.20% | $324.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GBPM yield today?
 
-26.18% APY on mento-v3 (Monad), based on live DefiLlama data.
+26.20% APY on mento-v3 (Monad), based on live DefiLlama data.
 
 ### How many GBPM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $583.8K in total.
+1 live pool clear this page's $100K TVL floor, $324.6K in total.
 
 ### Are these rates safe?
 

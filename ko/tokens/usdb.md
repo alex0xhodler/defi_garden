@@ -1,9 +1,10 @@
 # USDB 디파이 수익률
 
-현재 USDB의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 0.09%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDB의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 0.09%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+| [cetus-clmm →](https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token) | Sui | 0.01% | $1.09M |
 | [bluefin-spot →](https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token) | Sui | 0.01% | $1.09M |
 | [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.09% | $850.6K |
 | [bluefin-spot →](https://www.defi.garden/?pool=10ff5726-66cc-48f7-a71b-01843c59d2a3&src=seo_token) | Sui | 0.01% | $710.6K |
@@ -14,7 +15,7 @@
 
 ### 오늘 USDB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 0.09%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.09%예요.
 
 ### USDB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -1,11 +1,11 @@
 # WBTC.E 디파이 수익률
 
-현재 WBTC.E의 가장 높은 정직한 수익률은 Avalanche의 benqi-lending에서 0.07%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WBTC.E의 가장 높은 정직한 수익률은 Avalanche의 benqi-lending에서 0.06%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token) | Avalanche | 0.01% | $1.38M |
-| [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token) | Avalanche | 0.07% | $228.7K |
+| [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token) | Avalanche | 0.06% | $229.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 WBTC.E의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 benqi-lending에서 APY 0.07%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 benqi-lending에서 APY 0.06%예요.
 
 ### WBTC.E 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

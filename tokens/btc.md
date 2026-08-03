@@ -5,13 +5,13 @@ The highest honest BTC yield right now is 174.04% on justlend-v1 (Tron), among 2
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token) | Tron | 0.02% | $414.85M |
-| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.15% | $151.23M |
-| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 4.03% | $52.2M |
-| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 2.33% | $18.81M |
+| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.15% | $151.16M |
+| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 4.01% | $52.2M |
+| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 2.33% | $18.85M |
 | [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 2.33% | $3.73M |
-| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 4.37% | $3.44M |
-| [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 174.04% | $1.89M |
-| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.20% | $1.45M |
+| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 3.96% | $3.44M |
+| [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 174.04% | $1.91M |
+| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.19% | $1.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BTC pools clear the TVL floor?
 
-20 live pools clear this page's $100K TVL floor, $664.05M in total.
+20 live pools clear this page's $100K TVL floor, $664.04M in total.
 
 ### Are these rates safe?
 

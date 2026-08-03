@@ -4,7 +4,7 @@ The highest honest Filecoin yield right now is 2.96% on glif (Filecoin), among 3
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| IFIL | [glif →](https://www.defi.garden/?pool=53048f5b-7b0a-4917-b283-c49bef77e580&src=seo_chain) | 2.96% | $21.59M |
+| IFIL | [glif →](https://www.defi.garden/?pool=53048f5b-7b0a-4917-b283-c49bef77e580&src=seo_chain) | 2.96% | $21.62M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Filecoin pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $22.18M in total.
+3 live pools clear this page's $100K TVL floor, $22.21M in total.
 
 ### Are these rates safe?
 

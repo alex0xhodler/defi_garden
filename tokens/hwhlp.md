@@ -4,7 +4,7 @@ The highest honest HWHLP yield right now is 0.77% on hyperwave (Hyperliquid L1),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperwave →](https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d&src=seo_token) | Hyperliquid L1 | 0.77% | $654K |
+| [hyperwave →](https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d&src=seo_token) | Hyperliquid L1 | 0.77% | $654.2K |
 | [hyperwave →](https://www.defi.garden/?pool=5de6008f-1be1-4ce6-b5f5-025bec262bc1&src=seo_token) | Ethereum | 0.77% | $126.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HWHLP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $780.6K in total.
+2 live pools clear this page's $100K TVL floor, $780.8K in total.
 
 ### Are these rates safe?
 

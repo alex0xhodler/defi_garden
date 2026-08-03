@@ -4,8 +4,8 @@ The highest honest REUSD yield right now is 10.82% on re (Ethereum), among 24 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.28% | $169.47M |
-| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.04% | $24.78M |
+| [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.28% | $168.83M |
+| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.06% | $24.78M |
 | [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 10.82% | $8.06M |
 | [pendle →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 9.45% | $8.06M |
 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 3.40% | $7.63M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many REUSD pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $335.19M in total.
+24 live pools clear this page's $100K TVL floor, $333.89M in total.
 
 ### Are these rates safe?
 
