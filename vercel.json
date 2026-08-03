@@ -69,6 +69,12 @@
   ],
   "redirects": [
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "^(www\\.)?yield\\.garden$" }],
+      "destination": "https://www.defi.garden/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "^(www\\.)?yield\\.garden$" }],
       "destination": "https://www.defi.garden/:path*",

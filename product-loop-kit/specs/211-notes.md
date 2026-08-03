@@ -124,9 +124,70 @@ JSON, semantically right and green on every local gate was still rejected by Ver
 deploy time (16-item cap on `has`/`missing`). Our `has` array has one item, but the general point
 stands — the deploy is the gate.
 
-## Post-merge live verification
+## Post-merge live verification — and the one thing production disproved
 
-<!-- Filled in by this run immediately after the merge deploy. -->
+PR #373 merged 2026-08-03 07:11 UTC (Vercel preview check green first, so the schema cap that bit
+item 212 was cleared before merging). Measured on production after the deploy promoted, with
+`Cache-Control: no-cache` and cache-busting queries:
+
+| request on the alias host | result |
+|---|---|
+| `/tokens/usdc` | **308** → `https://www.defi.garden/tokens/usdc` ✅ |
+| `/chains/solana` | **308** → `https://www.defi.garden/chains/solana` ✅ |
+| `/sitemap.xml` | **308** → `https://www.defi.garden/sitemap.xml` ✅ |
+| `/nonexistent-xyz-1029` | **308** → same path on the origin ✅ |
+| `/plan` | **308** → `https://www.defi.garden/plan` ✅ |
+| `/plan.html` | 308 → `https://www.yield.garden/plan` (Vercel's own `cleanUrls` rule orders ahead of user redirects), then 308 to the origin — 2 hops, correct destination |
+| **`/`** | **200 — NOT redirected** ❌ |
+| **`/?zzz=519`** (root + query, cache-busted) | **200 — NOT redirected** ❌ |
+
+**`/:path*` does not match the root path `/` on Vercel.** Every other path — including one that
+does not exist — redirects correctly, so this is a matcher gap, not a config or predicate error.
+
+Caching was ruled out before drawing that conclusion, which matters because the first read of this
+looked exactly like a stale edge cache: the alias root was returning `x-vercel-cache: HIT` with
+`age: 2878`. Two facts separate the two explanations — a cache-busted **root** request
+(`/?zzz=<random>`) still returned 200 while an equally uncached **sub-path**
+(`/nonexistent-xyz-<random>`) returned 308 on the same host in the same second. Same deployment,
+same predicate; only the path shape differs.
+
+**This is the item's own lesson landing on the item.** The notes above said the deploy is the only
+real gate, citing 212. It was: 22 offline assertions, 10 verifier-built mutants and an executed
+`path-to-regexp@6` walk over `/:path*` (which matched `/` correctly in isolation) all agreed the
+config was right, and production disagreed. `path-to-regexp` matching `/` is not evidence that
+Vercel's edge does — the only thing that settles it is a live request.
+
+### The fix (follow-up branch `claude/loop-211-root`, its own PR — #373 was already merged)
+
+A root-only rule inserted as the new `redirects[0]`, pushing the catch-all to `redirects[1]`:
+
+```json
+{
+  "source": "/",
+  "has": [{ "type": "host", "value": "^(www\\.)?yield\\.garden$" }],
+  "destination": "https://www.defi.garden/",
+  "permanent": true
+}
+```
+
+**Additive on purpose.** The tempting fix is to swap `/:path*` for the spec's original `/(.*)` +
+`$1`. Rejected: `/:path*` is *proven in production* for every non-root path, and replacing it would
+risk regressing working behaviour to fix a case a strictly-more-specific extra rule fixes with zero
+blast radius. First-match-wins makes the ordering safe, and the root rule carries no query of its
+own so `/?pool=<id>&lang=ko` gets its query forwarded.
+
+`test_yield_garden_redirect.js` was reworked for the two-entry shape (now 37 assertions): both
+entries carry the identical anchored predicate and `permanent: true`, the full executed host
+match/no-match table runs against BOTH, the blast-radius scan now permits exactly indices 0 and 1
+and nothing else, and a new self-defeat case deletes the root rule from an in-memory copy and proves
+guard 1 goes red. The file's header records the production table above, so nobody merges the two
+rules back into one on the theory that a catch-all "obviously" covers the root.
+
+Post-fix live results are appended below.
+
+### Post-fix live verification
+
+<!-- Filled in after the follow-up PR's deploy. -->
 
 ## Follow-ups filed, deliberately unbuilt
 
