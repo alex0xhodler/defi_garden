@@ -168,6 +168,27 @@ curl -s  -H 'Accept: text/markdown' 'https://www.defi.garden/pools/<uuid>.md'   
 curl -sI -H 'Accept: text/markdown' 'https://www.defi.garden/?pool=notauuid'        # expect the HTML app, never llms.txt
 ```
 
+## POST-MERGE: verified live in production ✅
+
+Run after the merge-triggered `sitemap-update.yml` (run `30785084687`) committed **3,646 twins** —
+against the predicted ~3,634, the difference being live data movement. All six probes against
+`https://www.defi.garden`:
+
+| probe | result |
+|---|---|
+| `/?pool=<uuid>` + `Accept: text/markdown` | **307** → `/pools/<uuid>.md?pool=<uuid>` ✅ |
+| following it — the twin itself | `content-type: text/markdown; charset=utf-8`, `x-robots-tag: noindex`, body = `# ANDY-WETH — uniswap-v2 on Ethereum`, `**Total APY:** 8.16%`, `**TVL:** $875.7K` ✅ |
+| `/?pool=notauuid` + markdown | `text/html`, body `<!DOCTYPE html>` — the HTML app, **not** `llms.txt` ✅ |
+| `/?pool=<uuid with no twin>` + markdown | **404** — exactly the documented deviation, behaving as documented ✅ |
+| 212 regression: `/tokens/usdc` + markdown | 307 → `/tokens/usdc.md` ✅ · bare `/` + markdown → `llms.txt` ✅ |
+| guardrail: `/?token=USDC` | 200 `text/html` — analytics app intact ✅ |
+
+**This is the gate 212 shipped without.** Its config passed 63 offline assertions and was dead in
+production; 213's is confirmed firing on the real edge, on the real twins, with the right content type
+and the right `noindex`. The "live-edge verification is NOT claimed" caveat below is now superseded for
+this item — it stood until this run, and is kept rather than deleted so the sequence of what was known
+when stays legible.
+
 **The pre-merge shortcut was tried and does not exist.** The obvious way to close 212's "curl the real
 edge" gap *before* merging is the PR's Vercel preview URL. All three probes above were run against
 `defi-garden-git-claude-loop-213-…vercel.app` and every one returned `HTTP 302 →
