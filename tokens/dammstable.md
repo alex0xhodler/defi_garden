@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
-- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 

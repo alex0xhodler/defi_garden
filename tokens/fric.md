@@ -1,10 +1,10 @@
 # FRIC DeFi Yields
 
-The highest honest FRIC yield right now is 1.27% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRIC yield right now is 1.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=603797bc-91d7-46b9-81d9-fca30928c800&src=seo_token) | Solana | 1.27% | $185.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=603797bc-91d7-46b9-81d9-fca30928c800&src=seo_token) | Solana | 1.10% | $188.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FRIC yield today?
 
-1.27% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FRIC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $185.6K in total.
+1 live pool clear this page's $100K TVL floor, $188.3K in total.
 
 ### Are these rates safe?
 

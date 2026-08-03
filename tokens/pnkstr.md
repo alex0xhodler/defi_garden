@@ -4,9 +4,9 @@ The highest honest PNKSTR yield right now is 12.56% on uniswap-v4 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 12.56% | $582.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 0.08% | $270.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.02% | $117K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 12.56% | $591.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 0.09% | $274.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.01% | $117.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PNKSTR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.1M in total.
+4 live pools clear this page's $100K TVL floor, $2.13M in total.
 
 ### Are these rates safe?
 

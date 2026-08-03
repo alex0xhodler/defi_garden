@@ -1,6 +1,6 @@
 # LUSD 디파이 수익률
 
-현재 LUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 7.05%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 7.21%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
@@ -8,7 +8,7 @@
 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.52% | $1.36M |
 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.13% | $786.1K |
 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.5K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788&src=seo_token) | OP Mainnet | 7.05% | $100.6K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788&src=seo_token) | OP Mainnet | 7.21% | $100.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@
 
 ### 오늘 LUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 7.05%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 7.21%예요.
 
 ### LUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=64bdbf93-387a-4215-b5ae-6fcc908d2e48&src=seo_token) | Solana | 24.17% | $297K |
+| [orca-dex →](https://www.defi.garden/?pool=64bdbf93-387a-4215-b5ae-6fcc908d2e48&src=seo_token) | Solana | 24.17% | $301.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 24.17%예요.
 
 ### ORE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $297K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $301.2K예요.
 
 ### 이 수익률은 안전한가요?
 

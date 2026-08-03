@@ -4,13 +4,13 @@ The highest honest OETH yield right now is 8.81% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 2.36% | $40.93M |
-| [curve-dex →](https://www.defi.garden/?pool=18cb2d80-422e-4d0d-a223-66a307f06d8d&src=seo_token) | Ethereum | 0.15% | $1.11M |
-| [convex-finance →](https://www.defi.garden/?pool=b3a55ca0-e3fa-4888-be44-9abf91a33dc9&src=seo_token) | Ethereum | 0.22% | $1.11M |
-| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249&src=seo_token) | Ethereum | 2.53% | $814K |
-| [curve-dex →](https://www.defi.garden/?pool=5a4c4cef-e95e-47c3-977a-e41d9fec6cdf&src=seo_token) | Ethereum | 5.86% | $494.8K |
-| [stake-dao →](https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token) | Ethereum | 8.81% | $455.3K |
-| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 2.38% | $128.7K |
+| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 2.38% | $41.24M |
+| [curve-dex →](https://www.defi.garden/?pool=18cb2d80-422e-4d0d-a223-66a307f06d8d&src=seo_token) | Ethereum | 0.15% | $1.12M |
+| [convex-finance →](https://www.defi.garden/?pool=b3a55ca0-e3fa-4888-be44-9abf91a33dc9&src=seo_token) | Ethereum | 0.23% | $1.12M |
+| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249&src=seo_token) | Ethereum | 2.56% | $816.1K |
+| [curve-dex →](https://www.defi.garden/?pool=5a4c4cef-e95e-47c3-977a-e41d9fec6cdf&src=seo_token) | Ethereum | 5.95% | $498.8K |
+| [stake-dao →](https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token) | Ethereum | 8.81% | $455.2K |
+| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 2.39% | $129.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OETH pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $130.51M in total.
+9 live pools clear this page's $100K TVL floor, $131.93M in total.
 
 ### Are these rates safe?
 

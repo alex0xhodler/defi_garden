@@ -4,7 +4,7 @@ The highest honest ORE yield right now is 24.17% on orca-dex (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=64bdbf93-387a-4215-b5ae-6fcc908d2e48&src=seo_token) | Solana | 24.17% | $297K |
+| [orca-dex →](https://www.defi.garden/?pool=64bdbf93-387a-4215-b5ae-6fcc908d2e48&src=seo_token) | Solana | 24.17% | $301.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $297K in total.
+1 live pool clear this page's $100K TVL floor, $301.2K in total.
 
 ### Are these rates safe?
 

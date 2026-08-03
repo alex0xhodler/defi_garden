@@ -1,12 +1,12 @@
 # OPAL DeFi Yields
 
-The highest honest OPAL yield right now is 7.23% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPAL yield right now is 7.16% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.06% | $2.16M |
-| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.23% | $369.1K |
-| [origami-finance →](https://www.defi.garden/?pool=c1f6013e-fcb3-4329-860e-2a8a2aabf75f&src=seo_token) | Ethereum | 5.40% | $119.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.06% | $2.18M |
+| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.16% | $369.1K |
+| [origami-finance →](https://www.defi.garden/?pool=c1f6013e-fcb3-4329-860e-2a8a2aabf75f&src=seo_token) | Ethereum | 6.21% | $131K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OPAL yield today?
 
-7.23% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+7.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OPAL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.64M in total.
+3 live pools clear this page's $100K TVL floor, $2.68M in total.
 
 ### Are these rates safe?
 

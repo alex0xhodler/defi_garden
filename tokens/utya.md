@@ -1,11 +1,11 @@
 # UTYA DeFi Yields
 
-The highest honest UTYA yield right now is 32.30% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UTYA yield right now is 38.35% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 32.30% | $1.04M |
-| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 11.13% | $687.2K |
+| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 38.35% | $1.06M |
+| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 15.18% | $693.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UTYA yield today?
 
-32.30% APY on ston.fi (TON), based on live DefiLlama data.
+38.35% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many UTYA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.73M in total.
+2 live pools clear this page's $100K TVL floor, $1.75M in total.
 
 ### Are these rates safe?
 

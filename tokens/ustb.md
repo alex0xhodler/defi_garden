@@ -1,12 +1,12 @@
 # USTB DeFi Yields
 
-The highest honest USTB yield right now is 3.36% on invesco-ustb (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USTB yield right now is 3.48% on invesco-ustb (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [invesco-ustb →](https://www.defi.garden/?pool=1910847a-f8b5-40ce-a1ab-1dafdded5fbb&src=seo_token) | Ethereum | 3.36% | $740.11M |
-| [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81&src=seo_token) | Plume Mainnet | 3.36% | $2.53M |
-| [invesco-ustb →](https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf&src=seo_token) | Solana | 3.36% | $2.35M |
+| [invesco-ustb →](https://www.defi.garden/?pool=1910847a-f8b5-40ce-a1ab-1dafdded5fbb&src=seo_token) | Ethereum | 3.48% | $756.17M |
+| [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81&src=seo_token) | Plume Mainnet | 3.48% | $2.53M |
+| [invesco-ustb →](https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf&src=seo_token) | Solana | 3.48% | $2.35M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USTB yield today?
 
-3.36% APY on invesco-ustb (Ethereum), based on live DefiLlama data.
+3.48% APY on invesco-ustb (Ethereum), based on live DefiLlama data.
 
 ### How many USTB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $816.95M in total.
+4 live pools clear this page's $100K TVL floor, $833.01M in total.
 
 ### Are these rates safe?
 

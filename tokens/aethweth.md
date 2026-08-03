@@ -1,10 +1,10 @@
 # AETHWETH DeFi Yields
 
-The highest honest AETHWETH yield right now is 0.89% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AETHWETH yield right now is 0.87% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0e09627b-1c4e-4f18-b12c-7579c47ac0ca&src=seo_token) | Ethereum | 0.89% | $107.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0e09627b-1c4e-4f18-b12c-7579c47ac0ca&src=seo_token) | Ethereum | 0.87% | $108.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AETHWETH yield today?
 
-0.89% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.87% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AETHWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.6K in total.
+1 live pool clear this page's $100K TVL floor, $108.9K in total.
 
 ### Are these rates safe?
 

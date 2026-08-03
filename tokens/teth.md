@@ -4,8 +4,8 @@ The highest honest TETH yield right now is 2.27% on treehouse-protocol (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.27% | $47.12M |
-| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $161.4K |
+| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.27% | $47.69M |
+| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $163.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TETH pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $88.54M in total.
+6 live pools clear this page's $100K TVL floor, $89.68M in total.
 
 ### Are these rates safe?
 

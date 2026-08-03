@@ -4,7 +4,7 @@ The highest honest HEGE yield right now is 0.35% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ffdcec91-60d1-4b53-9348-a593d6ed9725&src=seo_token) | Solana | 0.35% | $187.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=ffdcec91-60d1-4b53-9348-a593d6ed9725&src=seo_token) | Solana | 0.35% | $189.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HEGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $187.1K in total.
+1 live pool clear this page's $100K TVL floor, $189.6K in total.
 
 ### Are these rates safe?
 

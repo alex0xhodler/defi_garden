@@ -1,12 +1,12 @@
 # TRAC DeFi Yields
 
-The highest honest TRAC yield right now is 23.83% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRAC yield right now is 24.32% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 23.83% | $349.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token) | Ethereum | 16.35% | $223.8K |
-| [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 7.02% | $197K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 24.32% | $353.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token) | Ethereum | 16.67% | $226.7K |
+| [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 7.00% | $199.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TRAC yield today?
 
-23.83% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+24.32% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many TRAC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $770.1K in total.
+3 live pools clear this page's $100K TVL floor, $779.9K in total.
 
 ### Are these rates safe?
 

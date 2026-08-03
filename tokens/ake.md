@@ -6,8 +6,8 @@ The highest honest AKE yield right now is 0.32% on raydium-amm (Solana), among 5
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=91ea0ecb-63af-5cf2-a94e-58a56efe9701&src=seo_token) | Solana | 0.13% | $4.39M |
 | [raydium-amm →](https://www.defi.garden/?pool=58607329-e731-5084-8e19-d442647be134&src=seo_token) | Solana | 0.04% | $4.01M |
-| [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.17% | $3.84M |
-| [raydium-amm →](https://www.defi.garden/?pool=4f141be3-4027-5cc0-a209-001afaa01af0&src=seo_token) | Solana | 0.18% | $3.71M |
+| [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.19% | $3.84M |
+| [raydium-amm →](https://www.defi.garden/?pool=4f141be3-4027-5cc0-a209-001afaa01af0&src=seo_token) | Solana | 0.19% | $3.71M |
 | [raydium-amm →](https://www.defi.garden/?pool=d9cbf1ad-eba5-5651-8540-e3fe37ca676f&src=seo_token) | Solana | 0.32% | $2.49M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

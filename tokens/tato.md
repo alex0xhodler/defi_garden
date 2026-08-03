@@ -4,7 +4,7 @@ The highest honest TATO yield right now is 0.27% on turbos (Sui), among 2 pools 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.25% | $543K |
+| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.18% | $552.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=2bfc88be-6f91-49d6-8f75-9a2debcc16d3&src=seo_token) | Solana | 0.27% | $189.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TATO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $732.7K in total.
+2 live pools clear this page's $100K TVL floor, $742.4K in total.
 
 ### Are these rates safe?
 

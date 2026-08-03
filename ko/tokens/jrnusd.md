@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=947928b7-c446-49d7-a378-392df37660f7&src=seo_token) | Ethereum | 3.21% | $405.5K |
+| [strata-markets →](https://www.defi.garden/?pool=947928b7-c446-49d7-a378-392df37660f7&src=seo_token) | Ethereum | 3.21% | $403.8K |
 | [pendle →](https://www.defi.garden/?pool=35fb4bd5-292b-4f5e-a030-94906f1f83a0&src=seo_token) | Ethereum | 4.85% | $185.3K |
 | [pendle →](https://www.defi.garden/?pool=e1d604f7-2977-42c6-8dbb-3ce933e19af6&src=seo_token) | Ethereum | 6.84% | $185.3K |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 6.84%
 
 ### JRNUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $776.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $774.4K예요.
 
 ### 이 수익률은 안전한가요?
 

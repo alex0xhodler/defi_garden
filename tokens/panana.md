@@ -4,7 +4,7 @@ The highest honest PANANA yield right now is 0.01% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c0df01e0-83d2-4cb4-bbd7-54c1bb14ca5c&src=seo_token) | Base | 0.01% | $1.13M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c0df01e0-83d2-4cb4-bbd7-54c1bb14ca5c&src=seo_token) | Base | 0.01% | $1.15M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PANANA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.13M in total.
+1 live pool clear this page's $100K TVL floor, $1.15M in total.
 
 ### Are these rates safe?
 

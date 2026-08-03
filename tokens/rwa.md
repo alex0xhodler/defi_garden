@@ -5,7 +5,7 @@ The highest honest RWA yield right now is 203.90% on uniswap-v2 (Base), among 2 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=0f4810a4-479a-5fa9-b58b-6700762e27d2&src=seo_token) | Base | 203.90% | $219.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a&src=seo_token) | Solana | 15.14% | $132.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a&src=seo_token) | Solana | 13.78% | $134.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RWA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $352.5K in total.
+2 live pools clear this page's $100K TVL floor, $354.5K in total.
 
 ### Are these rates safe?
 

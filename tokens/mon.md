@@ -1,12 +1,12 @@
 # MON DeFi Yields
 
-The highest honest MON yield right now is 6.65% on uniswap-v4 (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MON yield right now is 6.58% on uniswap-v4 (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token) | Monad | 6.65% | $2.02M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token) | Monad | 3.76% | $1.43M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token) | Monad | 4.41% | $1.37M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token) | Monad | 6.58% | $2.05M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token) | Monad | 3.71% | $1.45M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token) | Monad | 4.34% | $1.39M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MON yield today?
 
-6.65% APY on uniswap-v4 (Monad), based on live DefiLlama data.
+6.58% APY on uniswap-v4 (Monad), based on live DefiLlama data.
 
 ### How many MON pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $6.14M in total.
+4 live pools clear this page's $100K TVL floor, $6.22M in total.
 
 ### Are these rates safe?
 

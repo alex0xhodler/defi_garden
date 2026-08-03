@@ -29,7 +29,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 morpho-blue에서 APY 4.18%예
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
-- [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
+- [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
 
 ## 이용 가능한 체인
 

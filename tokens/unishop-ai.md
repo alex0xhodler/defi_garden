@@ -5,7 +5,7 @@ The highest honest UNISHOP.AI yield right now is 0.22% on uniswap-v3 (Arbitrum),
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token) | Arbitrum | 0.22% | $635.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.03% | $389.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.03% | $395.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UNISHOP.AI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.02M in total.
+2 live pools clear this page's $100K TVL floor, $1.03M in total.
 
 ### Are these rates safe?
 
@@ -30,7 +30,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
-- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 

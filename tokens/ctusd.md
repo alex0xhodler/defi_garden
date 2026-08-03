@@ -1,10 +1,10 @@
 # CTUSD DeFi Yields
 
-The highest honest CTUSD yield right now is 1.45% on zentra-finance (Citrea), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CTUSD yield right now is 2.71% on zentra-finance (Citrea), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_token) | Citrea | 1.45% | $783.2K |
+| [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_token) | Citrea | 2.71% | $472.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CTUSD yield today?
 
-1.45% APY on zentra-finance (Citrea), based on live DefiLlama data.
+2.71% APY on zentra-finance (Citrea), based on live DefiLlama data.
 
 ### How many CTUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $783.2K in total.
+1 live pool clear this page's $100K TVL floor, $472.1K in total.
 
 ### Are these rates safe?
 

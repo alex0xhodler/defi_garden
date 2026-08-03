@@ -1,14 +1,14 @@
 # RAIL DeFi Yields
 
-The highest honest RAIL yield right now is 1.36% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAIL yield right now is 1.49% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f&src=seo_token) | Ethereum | 0.08% | $3.77M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435&src=seo_token) | Ethereum | 1.36% | $1.05M |
-| [sushiswap →](https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d&src=seo_token) | Ethereum | 0.53% | $712.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8ed16dfa-9214-487e-ab6a-d052f9765aac&src=seo_token) | Ethereum | 0.26% | $378.4K |
-| [sushiswap →](https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317&src=seo_token) | Ethereum | 0.83% | $154.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435&src=seo_token) | Ethereum | 1.49% | $1.06M |
+| [sushiswap →](https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d&src=seo_token) | Ethereum | 0.95% | $720.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8ed16dfa-9214-487e-ab6a-d052f9765aac&src=seo_token) | Ethereum | 0.19% | $381.2K |
+| [sushiswap →](https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317&src=seo_token) | Ethereum | 1.24% | $155.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RAIL yield today?
 
-1.36% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.49% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many RAIL pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $6.06M in total.
+5 live pools clear this page's $100K TVL floor, $6.09M in total.
 
 ### Are these rates safe?
 

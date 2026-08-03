@@ -1,17 +1,17 @@
 # LINK DeFi Yields
 
-The highest honest LINK yield right now is 5.25% on aave-v3 (Ethereum), among 43 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LINK yield right now is 5.61% on aave-v3 (Ethereum), among 43 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token) | Ethereum | 0.03% | $71.9M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c&src=seo_token) | Ethereum | 4.64% | $21.1M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9&src=seo_token) | Ethereum | 5.25% | $20.57M |
-| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.11% | $3.98M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93&src=seo_token) | Arbitrum | 1.12% | $2.7M |
-| [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e&src=seo_token) | Polygon | 0.03% | $1.36M |
-| [venus-core-pool →](https://www.defi.garden/?pool=6ef41a41-9394-4782-bf53-7648f50a4a93&src=seo_token) | BSC | 0.04% | $1.23M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=93ff3095-f5c7-4792-b615-28b5233ceb59&src=seo_token) | Ethereum | 0.49% | $995.7K |
+| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token) | Ethereum | 0.03% | $72.91M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c&src=seo_token) | Ethereum | 4.91% | $21.41M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9&src=seo_token) | Ethereum | 5.61% | $20.84M |
+| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.11% | $3.99M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93&src=seo_token) | Arbitrum | 1.08% | $2.73M |
+| [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e&src=seo_token) | Polygon | 0.03% | $1.38M |
+| [venus-core-pool →](https://www.defi.garden/?pool=6ef41a41-9394-4782-bf53-7648f50a4a93&src=seo_token) | BSC | 0.04% | $1.25M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=93ff3095-f5c7-4792-b615-28b5233ceb59&src=seo_token) | Ethereum | 0.54% | $1.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LINK yield today?
 
-5.25% APY on aave-v3 (Ethereum), based on live DefiLlama data.
+5.61% APY on aave-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LINK pools clear the TVL floor?
 
-43 live pools clear this page's $100K TVL floor, $151.86M in total.
+43 live pools clear this page's $100K TVL floor, $153.84M in total.
 
 ### Are these rates safe?
 

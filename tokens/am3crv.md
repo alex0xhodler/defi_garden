@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AM3CRV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.96M in total.
+2 live pools clear this page's $100K TVL floor, $1.97M in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [WPOL](https://www.defi.garden/tokens/wpol)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

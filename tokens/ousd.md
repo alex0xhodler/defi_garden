@@ -4,9 +4,9 @@ The highest honest OUSD yield right now is 5.46% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 3.77% | $1.06M |
-| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 4.59% | $175.6K |
-| [curve-dex →](https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token) | Ethereum | 3.72% | $111.2K |
+| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 3.83% | $1.06M |
+| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 4.64% | $175.6K |
+| [curve-dex →](https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token) | Ethereum | 3.78% | $111.2K |
 | [stake-dao →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 5.46% | $104.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

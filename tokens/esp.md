@@ -1,10 +1,10 @@
 # ESP DeFi Yields
 
-The highest honest ESP yield right now is 8.35% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ESP yield right now is 8.34% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token) | Arbitrum | 8.35% | $490K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token) | Arbitrum | 8.34% | $486.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ESP yield today?
 
-8.35% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+8.34% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many ESP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $490K in total.
+1 live pool clear this page's $100K TVL floor, $486.9K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
-- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 

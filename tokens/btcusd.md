@@ -4,7 +4,7 @@ The highest honest BTCUSD yield right now is 6.62% on bifi (Bifrost Network), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_token) | Bifrost Network | 6.62% | $275.5K |
+| [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_token) | Bifrost Network | 6.62% | $275.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BTCUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $275.5K in total.
+1 live pool clear this page's $100K TVL floor, $275.6K in total.
 
 ### Are these rates safe?
 

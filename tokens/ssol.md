@@ -4,7 +4,7 @@ The highest honest SSOL yield right now is 0.65% on kamino-liquidity (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.65% | $105.1K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.65% | $107.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $329.9K in total.
+2 live pools clear this page's $100K TVL floor, $331.8K in total.
 
 ### Are these rates safe?
 

@@ -1,12 +1,12 @@
 # KBTC DeFi Yields
 
-The highest honest KBTC yield right now is 8.37% on tydro (Ink), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KBTC yield right now is 12.39% on tydro (Ink), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_token) | Ink | 0.04% | $11.23M |
-| [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_token) | Ink | 8.37% | $1.4M |
-| [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token) | Ink | 3.80% | $276.2K |
+| [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_token) | Ink | 0.04% | $11.45M |
+| [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_token) | Ink | 12.39% | $1.38M |
+| [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token) | Ink | 6.89% | $235.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KBTC yield today?
 
-8.37% APY on tydro (Ink), based on live DefiLlama data.
+12.39% APY on tydro (Ink), based on live DefiLlama data.
 
 ### How many KBTC pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $348.79M in total.
+7 live pools clear this page's $100K TVL floor, $355.35M in total.
 
 ### Are these rates safe?
 

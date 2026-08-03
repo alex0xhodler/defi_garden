@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LIMUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $36.1M in total.
+5 live pools clear this page's $100K TVL floor, $36.09M in total.
 
 ### Are these rates safe?
 

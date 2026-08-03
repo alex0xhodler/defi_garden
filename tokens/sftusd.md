@@ -5,7 +5,7 @@ The highest honest SFTUSD yield right now is 10.43% on flying-tulip-ftusd (Ether
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 10.43% | $1.27M |
-| [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 5.70% | $281.6K |
+| [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 5.76% | $278.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

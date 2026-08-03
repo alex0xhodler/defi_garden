@@ -1,12 +1,12 @@
 # AAVEGHO 디파이 수익률
 
-현재 AAVEGHO의 가장 높은 정직한 수익률은 Base의 balancer-v3에서 6.70%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AAVEGHO의 가장 높은 정직한 수익률은 Base의 balancer-v3에서 6.78%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token) | Base | 3.26% | $369.1K |
-| [balancer-v3 →](https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token) | Arbitrum | 6.70% | $279.2K |
-| [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 2.16% | $117.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token) | Base | 3.26% | $369.2K |
+| [balancer-v3 →](https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token) | Arbitrum | 6.78% | $279.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 2.25% | $117.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +14,11 @@
 
 ### 오늘 AAVEGHO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 balancer-v3에서 APY 6.70%예요.
+DefiLlama 실시간 데이터 기준, Base의 balancer-v3에서 APY 6.78%예요.
 
 ### AAVEGHO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $765.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $766K예요.
 
 ### 이 수익률은 안전한가요?
 

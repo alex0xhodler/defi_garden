@@ -1,0 +1,38 @@
+# MEM DeFi Yields
+
+The highest honest MEM yield right now is 0.11% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.11% | $199.5K |
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest MEM yield today?
+
+0.11% APY on dedust (TON), based on live DefiLlama data.
+
+### How many MEM pools clear the TVL floor?
+
+2 live pools clear this page's $100K TVL floor, $406K in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+## Related tokens
+
+- [GRAM](https://www.defi.garden/tokens/gram)
+- [TSTON](https://www.defi.garden/tokens/tston)
+- [XAUT0](https://www.defi.garden/tokens/xaut0)
+- [HGRAM](https://www.defi.garden/tokens/hgram)
+- [UTYA](https://www.defi.garden/tokens/utya)
+- [STON](https://www.defi.garden/tokens/ston)
+
+## Available on
+
+- [TON](https://www.defi.garden/chains/ton)
+
+## Last updated August 3, 2026

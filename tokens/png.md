@@ -4,7 +4,7 @@ The highest honest PNG yield right now is 7.38% on pangolin-v2 (Avalanche), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pangolin-v2 →](https://www.defi.garden/?pool=566f2380-2a31-4a98-8700-d7bc6bd0c29c&src=seo_token) | Avalanche | 7.38% | $168K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=566f2380-2a31-4a98-8700-d7bc6bd0c29c&src=seo_token) | Avalanche | 7.38% | $169.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PNG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $168K in total.
+1 live pool clear this page's $100K TVL floor, $169.9K in total.
 
 ### Are these rates safe?
 

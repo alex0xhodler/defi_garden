@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 2.83% | $1.23M |
-| [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.32% | $465.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 2.83% | $1.25M |
+| [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.32% | $472.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 2.83%예요
 
 ### WELL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.69M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.73M예요.
 
 ### 이 수익률은 안전한가요?
 

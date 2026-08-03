@@ -1,13 +1,13 @@
 # DEEP DeFi Yields
 
-The highest honest DEEP yield right now is 118.36% on navi-lending (Sui), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEEP yield right now is 123.34% on navi-lending (Sui), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05&src=seo_token) | Sui | 16.81% | $2.31M |
-| [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864&src=seo_token) | Sui | 56.12% | $566.8K |
-| [bluefin-spot →](https://www.defi.garden/?pool=95584ba8-aa96-4dd8-becc-8df72a5a8ca1&src=seo_token) | Sui | 41.94% | $167.8K |
-| [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae&src=seo_token) | Sui | 118.36% | $119.3K |
+| [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05&src=seo_token) | Sui | 16.81% | $2.35M |
+| [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864&src=seo_token) | Sui | 52.90% | $617.2K |
+| [bluefin-spot →](https://www.defi.garden/?pool=95584ba8-aa96-4dd8-becc-8df72a5a8ca1&src=seo_token) | Sui | 43.61% | $171.2K |
+| [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae&src=seo_token) | Sui | 123.34% | $119.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEEP yield today?
 
-118.36% APY on navi-lending (Sui), based on live DefiLlama data.
+123.34% APY on navi-lending (Sui), based on live DefiLlama data.
 
 ### How many DEEP pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.3M in total.
+5 live pools clear this page's $100K TVL floor, $3.38M in total.
 
 ### Are these rates safe?
 

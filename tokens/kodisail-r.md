@@ -1,10 +1,10 @@
 # KODISAIL.R DeFi Yields
 
-The highest honest KODISAIL.R yield right now is 14.23% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODISAIL.R yield right now is 14.50% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=3b4012c9-b702-4ee9-8215-b60732fdf513&src=seo_token) | Berachain | 14.23% | $1.29M |
+| [berapaw →](https://www.defi.garden/?pool=3b4012c9-b702-4ee9-8215-b60732fdf513&src=seo_token) | Berachain | 14.50% | $1.29M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODISAIL.R yield today?
 
-14.23% APY on berapaw (Berachain), based on live DefiLlama data.
+14.50% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODISAIL.R pools clear the TVL floor?
 

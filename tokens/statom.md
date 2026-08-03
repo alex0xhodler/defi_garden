@@ -4,7 +4,7 @@ The highest honest STATOM yield right now is 0.02% on osmosis-dex (Osmosis), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=b14af2b9-ffad-452b-aa2a-fea7cf75df6b&src=seo_token) | Osmosis | 0.02% | $373.4K |
+| [osmosis-dex →](https://www.defi.garden/?pool=b14af2b9-ffad-452b-aa2a-fea7cf75df6b&src=seo_token) | Osmosis | 0.02% | $383.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STATOM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.04M in total.
+2 live pools clear this page's $100K TVL floor, $1.06M in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ATOM](https://www.defi.garden/tokens/atom)
 - [OSMO](https://www.defi.garden/tokens/osmo)
 - [AKT](https://www.defi.garden/tokens/akt)
-- [NYM](https://www.defi.garden/tokens/nym)
 - [ATONE](https://www.defi.garden/tokens/atone)
+- [NYM](https://www.defi.garden/tokens/nym)
 
 ## Available on
 

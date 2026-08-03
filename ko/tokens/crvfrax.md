@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=ccccc0f3-59ae-4078-8a76-ee0ed6d330ee&src=seo_token) | Ethereum | 9.44% | $809.4K |
+| [stake-dao →](https://www.defi.garden/?pool=ccccc0f3-59ae-4078-8a76-ee0ed6d330ee&src=seo_token) | Ethereum | 9.43% | $809.4K |
 | [yearn-finance →](https://www.defi.garden/?pool=f6cf60e1-8f33-4a09-9058-f8d1b686bef5&src=seo_token) | Ethereum | 0.10% | $139.8K |
 | [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 23.85% | $135.4K |
 
