@@ -366,6 +366,79 @@ test('every t(\'key\') the generator uses exists in BOTH translations.en and tra
   assert.deepStrictEqual(missingKo, [], `keys missing from translations.ko: ${missingKo.join(', ')}`);
 });
 
+// ===========================================================================
+// 7. Spec 216 — the `<id>.json` paint artifact sibling, proven against the
+//    SAME real generator run (the scratch `pools/` dir populated above), not
+//    a hand-written fixture. `projectPool` is required NORMALLY here (a
+//    literal relative-path string): generate-pools-snapshot.js has no
+//    transitive dependency on the browser-driving test framework or the
+//    audit helper module (unlike generate-pool-pages.js itself — see this
+//    file's header), so importing it directly does not move this file out of
+//    the plain lane.
+// ===========================================================================
+console.log('\ncriterion 7 — spec 216: <id>.json paint artifact sibling, reuse-by-import proven');
+
+const { projectPool: realProjectPool } = require('./generate-pools-snapshot.js');
+
+function readTwinJson(id) { return JSON.parse(fs.readFileSync(path.join(twinsDir, id + '.json'), 'utf8')); }
+const jsonIds = fs.readdirSync(twinsDir).filter(f => f.endsWith('.json')).map(f => f.replace(/\.json$/, ''));
+
+test('one .json sibling per .md twin, and vice versa — identical id sets', () => {
+  assert.deepStrictEqual([...jsonIds].sort(), [...twinIds].sort(), 'the .json and .md id sets must match exactly');
+});
+
+test(`every one of the ${twinIds.length} real .json twins parses, schemaVersion===1, count===1, pools.length===1, minTvlUsd===1000, and its record is deep-equal to projectPool() of the same input pool (proves the shared projection is REUSED, not re-implemented)`, () => {
+  const offenders = [];
+  twinIds.forEach(id => {
+    const sourcePool = snapshotById.get(id);
+    if (!sourcePool) { offenders.push(`${id}: no matching snapshot record to compare against`); return; }
+    let art;
+    try { art = readTwinJson(id); } catch (e) { offenders.push(`${id}: .json did not parse (${e.message})`); return; }
+    if (art.schemaVersion !== 1) offenders.push(`${id}: schemaVersion !== 1 (got ${art.schemaVersion})`);
+    if (art.count !== 1) offenders.push(`${id}: count !== 1 (got ${art.count})`);
+    if (!Array.isArray(art.pools) || art.pools.length !== 1) offenders.push(`${id}: pools.length !== 1`);
+    if (art.minTvlUsd !== 1000) offenders.push(`${id}: minTvlUsd !== 1000 (got ${art.minTvlUsd}) — must state the artifact's OWN $1,000 floor, never the snapshot's $10M`);
+    try {
+      assert.deepStrictEqual(art.pools[0], realProjectPool(sourcePool));
+    } catch (e) {
+      offenders.push(`${id}: record is not deep-equal to projectPool(sourcePool)`);
+    }
+  });
+  assert.deepStrictEqual(offenders, [], offenders.slice(0, 10).join('; ') + (offenders.length > 10 ? ` ... +${offenders.length - 10} more` : ''));
+});
+
+test('a .json artifact\'s generatedAt is a valid, recent ISO timestamp (never the human-readable Markdown date string)', () => {
+  const id = twinIds[0];
+  const art = readTwinJson(id);
+  const parsed = new Date(art.generatedAt).getTime();
+  assert.ok(Number.isFinite(parsed), `generatedAt "${art.generatedAt}" must parse as a valid date`);
+  const ageMs = Date.now() - parsed;
+  assert.ok(ageMs >= 0 && ageMs < 5 * 60 * 1000, `generatedAt must be a fresh timestamp from this very run, got age ${ageMs}ms`);
+});
+
+test('reuse proven by import, not by resemblance: generate-pool-pages.js obtains projectPool AND envelope via require(\'./generate-pools-snapshot.js\') — a copied body is a FAIL', () => {
+  const src = fs.readFileSync(GEN_POOL_PAGES_PATH, 'utf8');
+  assert.ok(
+    /require\(\s*['"]\.\/generate-pools-snapshot\.js['"]\s*\)/.test(src),
+    'expected a literal require(\'./generate-pools-snapshot.js\') in generate-pool-pages.js'
+  );
+  assert.ok(/\{\s*projectPool\s*,\s*envelope\s*\}/.test(src) || (src.includes('projectPool') && src.includes('envelope')),
+    'expected generate-pool-pages.js to destructure projectPool and envelope from the required module');
+});
+
+console.log('stale-cleanup — a junk .json left in the out dir is removed on the next real generator run');
+test('re-running the REAL generator removes an orphaned .json artifact, and real twins survive the re-run', () => {
+  const junkPath = path.join(twinsDir, 'zzzzzzzz-0000-0000-0000-000000000000.json');
+  fs.writeFileSync(junkPath, JSON.stringify({ schemaVersion: 1, generatedAt: '2020-01-01T00:00:00.000Z', source: 'stale', minTvlUsd: 1000, count: 1, pools: [{ pool: 'stale' }] }));
+  assert.ok(fs.existsSync(junkPath), 'sanity: junk .json was written');
+  execFileSync('node', [
+    GEN_POOL_PAGES_PATH, '--out', 'pools', '--snapshot', SNAPSHOT_ABS, '--pages', `${TOKENS_ABS},${CHAINS_ABS}`,
+  ], { cwd: scratch, stdio: 'pipe' });
+  assert.ok(!fs.existsSync(junkPath), 'stale .json must be removed by the next generator run');
+  assert.ok(fs.existsSync(path.join(twinsDir, twinIds[0] + '.json')), 'a real twin\'s .json must survive the re-run');
+  assert.ok(fs.existsSync(path.join(twinsDir, twinIds[0] + '.md')), 'a real twin\'s .md must survive the re-run');
+});
+
 } finally {
   fs.rmSync(scratch, { recursive: true, force: true });
 }
