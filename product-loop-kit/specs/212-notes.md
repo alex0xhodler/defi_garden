@@ -23,7 +23,8 @@ class of failure it was blind to. That overstatement is corrected in both files.
 
 **Fix (attempt 2):**
 - `{"type":"query","key":"app"}` added to the `missing` array on both the `/` markdown rewrite and its
-  matching header rule — 17 entries each.
+  matching header rule. (Round 4 below moved `app` out of those arrays and onto a positive rule — Vercel
+  caps `has`/`missing` at 16 — but the covered set is unchanged at 17 params.)
 - **The guard now derives from the router itself.** It parses `ANALYTICS_PARAMS` and `PLANNER_PARAMS` out
   of `home.html` and asserts **exact set equality**, both directions, against the `missing` list on both
   rules. Those two arrays *are* the definition of "this query string changes what `/` serves", so equality
@@ -38,7 +39,8 @@ class of failure it was blind to. That overstatement is corrected in both files.
 
 Operator re-derived the result independently of the test: the `missing` list on the rewrite, the `missing`
 list on the header rule, and the union of the two router arrays are all the same 17 keys
-(`app,capital,chain,dl,fm,fresh,goal,minApy,minTvl,monthly,pace,pool,poolTypes,preset,protocols,token,years`).
+(`app,capital,chain,dl,fm,fresh,goal,minApy,minTvl,monthly,pace,pool,poolTypes,preset,protocols,token,years`)
+— after round 4, 16 of them via `missing` and `app` via a positive rule, which the guard counts as covered.
 
 The verifier also disclosed that, while reproducing the fixture run, it overwrote four real sitemap files
 with fixture output and restored them via `git checkout origin/main -- <files>`. Operator re-checked
@@ -78,7 +80,7 @@ as `ANALYTICS_PARAMS`, so `/?goal=retirement&monthly=200` + `Accept: text/markdo
 them as out of scope and documented the finding; the operator reversed that call. Leg 3's wording is
 unconditional ("a path with no twin must serve the normal HTML response, NOT `llms.txt`"), and the fix was
 nine more entries in a list already being edited. Shipping leg 3 while knowingly leaving half of it broken
-would have made the item's headline claim untrue. `missing` ended at **17** entries: the spec's 7
+would have made the item's headline claim untrue. The covered set ended at **17** params: the spec's 7
 (`token`, `chain`, `pool`, `protocols`, `poolTypes`, `minTvl`, `minApy`) plus `goal`, `monthly`, `years`,
 `pace`, `preset`, `fresh`, `capital`, `fm`, `dl` — and `app`, which attempt 1 missed and the verifier
 caught (above). Worth recording that the same reasoning that added the nine planner params should have
@@ -96,6 +98,44 @@ instead of at the router's own arrays.
   their `.html` now sit **before** the `:slug` rules (first-match-wins short-circuits them). All four
   target files were confirmed to exist. `/tokens/az/<letter>` is three segments, never matched — asserted
   rather than given a rule.
+
+## Round 4 — the PR deploy failed on a Vercel schema cap (attempts still 2; this is a platform fix, not a verifier FAIL)
+
+The 17-entry `missing` arrays were **rejected by Vercel at deploy time**, verbatim:
+
+> The `vercel.json` schema validation failed with the following message: `headers[1].missing` should NOT
+> have more than 16 items
+
+A hard schema cap on `has`/`missing`, not a warning — the deployment errors out, so nothing ships. Worth
+recording plainly: **this was only discoverable by deploying.** Every local gate was green, `vercel.json`
+was valid JSON, and 71 offline assertions walked the rewrite table correctly. Config that is syntactically
+valid and semantically right can still be rejected by the platform's own schema, and the PR deploy is the
+only place that shows up.
+
+**Fix, chosen for blast radius rather than elegance:** keep 16 in `missing` and move exactly one param —
+`app` — onto a *positive* rule.
+- Rewrites: `{"source":"/","has":[{"type":"query","key":"app"}],"destination":"/home"}` placed **before**
+  the `llms.txt` rule. Rewrites are first-match-wins, so this leg is fully deterministic.
+- Headers: an override rule keyed on `Accept: text/markdown` AND `app` present, setting
+  `Content-Type: text/html; charset=utf-8`, placed **after** the markdown header rule.
+
+**The asymmetry is real and is left visible rather than smoothed over:** the rewrite leg relies only on
+documented first-match-wins; the header leg relies on later-overrides-earlier in Vercel's header merge.
+`app` is the param that was moved precisely because it has the smallest blast radius if that second
+assumption is wrong — the body is decided by the rewrite leg either way, so the worst case is one
+human-clicked URL (`/?app=1`, the planner's analytics header icon) returning a correct HTML body under a
+`text/markdown` label.
+
+**The invariant did not weaken.** The drift guard now compares the router union against
+`missing ∪ positive-rule keys`, still exact equality in both directions, for both the rewrite and the
+header table. A **new regression test** asserts every `has` and every `missing` array anywhere in
+`vercel.json` is ≤16 entries, quoting the Vercel error text so the next reader sees a platform limit rather
+than a style rule. The guard's positive-rule scan is generic, not `app`-keyed, so a second param needing
+the same treatment is recognised automatically.
+
+Operator re-derived independently of the tests: no over-cap array anywhere in the file; rewrite coverage =
+`missing` (16) ∪ positive (1) = exactly the 17-key router union; shadow rule at rewrite index 0, `llms.txt`
+rule at index 1.
 
 ## What was deliberately NOT done
 

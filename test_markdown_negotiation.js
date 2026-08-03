@@ -168,10 +168,34 @@ test('planner share URL (goal+monthly together) + Accept:text/markdown -> NOT /l
 test('the exact live-linked URL /?app=1 + Accept:text/markdown -> resolves to the HTML app, never /llms.txt', () => {
   // The real link planner.js:3863 renders ("📊 Analytics — search yields")
   // and PoolDetail.js:396 emits in breadcrumb JSON-LD — not a synthetic key.
+  // Round 4: "app" was moved OUT of the `missing` list (Vercel's schema caps
+  // `missing`/`has` at 16 entries — see the schema-cap section below) and
+  // into a dedicated shadow rewrite, `{"source":"/","has":[{"type":"query",
+  // "key":"app"}],"destination":"/home"}`, placed BEFORE the llms.txt rule —
+  // first-match-wins, so this is fully deterministic, no ordering assumption
+  // beyond the one Vercel already documents for rewrites.
   const rule = findRewrite('/', { app: '1' }, MARKDOWN_ACCEPT);
   assert.ok(rule, 'expected SOME rewrite to match /?app=1');
   assert.notStrictEqual(rule.destination, '/llms.txt', '/?app=1 must not fall back to the site index');
   assert.strictEqual(rule.destination, '/home', '/?app=1 + markdown Accept should resolve the same as a normal browser request (the analytics app)');
+});
+test('/?app=1 WITHOUT the markdown Accept header -> still /home, never /llms.txt (the shadow rule is unconditional on Accept)', () => {
+  const rule = findRewrite('/', { app: '1' }, HTML_ACCEPT);
+  assert.ok(rule, 'expected SOME rewrite to match /?app=1');
+  assert.strictEqual(rule.destination, '/home');
+});
+test('bare "/" + Accept:text/markdown (no query at all) still -> /llms.txt (no-regress: the app shadow rule must not shadow the true root)', () => {
+  const rule = findRewrite('/', {}, MARKDOWN_ACCEPT);
+  assert.ok(rule);
+  assert.strictEqual(rule.destination, '/llms.txt', 'the new /?app=1 shadow rewrite must not match a request with no "app" query param at all');
+});
+test('the /?app=1 shadow rewrite is ordered BEFORE the "/" -> "/llms.txt" rewrite (first-match-wins)', () => {
+  const shadowIdx = config.rewrites.findIndex(r => r.source === '/' && r.destination === '/home' &&
+    (r.has || []).some(h => h.type === 'query' && h.key === 'app'));
+  const llmsIdx = config.rewrites.findIndex(r => r.source === '/' && r.destination === '/llms.txt');
+  assert.ok(shadowIdx !== -1, 'expected the /?app=1 shadow rewrite to exist');
+  assert.ok(llmsIdx !== -1, 'expected the "/" -> "/llms.txt" rewrite to exist');
+  assert.ok(shadowIdx < llmsIdx, 'the /?app=1 shadow rewrite must come before the llms.txt rewrite');
 });
 
 console.log('path-aware negotiation — static estate twins');
@@ -294,6 +318,33 @@ test('/tokens/:slug, /chains/:slug, /ko/... carry an UNCONDITIONAL Vary:Accept e
     assert.strictEqual(h['Vary'], 'Accept', `${p} must always carry Vary: Accept so a shared cache can't serve markdown to a browser`);
   });
 });
+test('/?app=1 + Accept:text/markdown -> Content-Type is overridden back to text/html (the override rule, placed AFTER the markdown rule)', () => {
+  // Depends on Vercel's documented "every matching header rule applies, in
+  // order, later overrides earlier for the same key" behavior — the ONE
+  // assumption in this item that is not first-match-wins. Honestly flagged:
+  // worst case if this assumption is ever wrong is /?app=1 (a human-clicked
+  // header link, not an agent target) getting an HTML body mislabeled
+  // text/markdown — the BODY is still correct HTML either way, because the
+  // rewrite leg (asserted above) is what actually decides the body. Smallest
+  // possible blast radius, which is why "app" is the param moved this way.
+  const h = mergedHeaders('/', { app: '1' }, MARKDOWN_ACCEPT);
+  assert.strictEqual(h['Content-Type'], 'text/html; charset=utf-8', 'expected the override rule to win, restoring text/html for /?app=1');
+  assert.strictEqual(h['Vary'], 'Accept');
+});
+test('/?app=1 WITHOUT the markdown Accept header -> no markdown Content-Type leaks through at all', () => {
+  const h = mergedHeaders('/', { app: '1' }, HTML_ACCEPT);
+  assert.ok(!h['Content-Type'] || !/markdown/.test(h['Content-Type']), '/?app=1 with a normal Accept header must never carry a markdown Content-Type');
+});
+test('the app override header rule is ordered AFTER the "/" markdown header rule (later-overrides-earlier)', () => {
+  const markdownRuleIdx = config.headers.findIndex(r =>
+    r.source === '/' && r.has && (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value)));
+  const overrideRuleIdx = config.headers.findIndex(r =>
+    r.source === '/' && (r.has || []).some(h => h.type === 'query' && h.key === 'app') &&
+    (r.headers || []).some(h => h.key === 'Content-Type' && h.value === 'text/html; charset=utf-8'));
+  assert.ok(markdownRuleIdx !== -1, 'expected the "/" markdown header rule to exist');
+  assert.ok(overrideRuleIdx !== -1, 'expected the /?app=1 override header rule to exist');
+  assert.ok(overrideRuleIdx > markdownRuleIdx, 'the app override header rule must come AFTER the markdown header rule to win');
+});
 
 console.log('drift guard (PRIMARY) — the "/" missing-list must equal home.html\'s OWN router arrays, exactly');
 // Round-3 fix: a `.get('key')` source scan is structurally blind to
@@ -328,26 +379,57 @@ test('sanity: the router arrays parsed out of home.html look right (non-empty, c
     'sanity: the two router arrays are expected to be disjoint (no shared key)');
 });
 
-function assertMissingListEqualsRouterParams(rule, label) {
-  const missingKeys = new Set((rule.missing || []).map(m => m.key));
-  const notCovered = [...ROUTER_PARAMS].filter(k => !missingKeys.has(k));
-  const extra = [...missingKeys].filter(k => !ROUTER_PARAMS.has(k));
-  assert.deepStrictEqual(notCovered, [],
-    `${label}: router param(s) missing from the missing-list (would silently fall back to llms.txt): ${notCovered.join(', ')}`);
-  assert.deepStrictEqual(extra, [],
-    `${label}: missing-list has key(s) that are not real router params — drifted or typo'd: ${extra.join(', ')}`);
+// Round 4: Vercel's schema caps EVERY `has`/`missing` array at 16 entries
+// ("headers[1].missing should NOT have more than 16 items" — the PR #369
+// deploy failure). 17 router params can't fit a single negative `missing`
+// list, so "app" now travels as a POSITIVE rule instead (a shadow rewrite +
+// a header override, both on source "/"). The invariant is unchanged — the
+// covered-param set must still equal ANALYTICS_PARAMS ∪ PLANNER_PARAMS
+// exactly — but "covered" now means "in `missing` OR named by a positive
+// query-`has` rule on the SAME source that routes/overrides away from the
+// llms.txt destination/content-type", not "in `missing`" alone.
+function positiveRewriteAppKeys() {
+  const keys = new Set();
+  config.rewrites.forEach(r => {
+    if (r.source !== '/' || r.destination === '/llms.txt') return;
+    (r.has || []).forEach(h => { if (h.type === 'query') keys.add(h.key); });
+  });
+  return keys;
+}
+function positiveHeaderAppKeys() {
+  const keys = new Set();
+  config.headers.forEach(r => {
+    if (r.source !== '/') return;
+    const isTheMarkdownRule = (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value));
+    if (isTheMarkdownRule) return; // that's the rule being covered FOR, not a positive override of it
+    const hasMarkdownAcceptPredicate = (r.has || []).some(h => h.type === 'header' && h.key === 'Accept' && /markdown/.test(h.value || ''));
+    if (!hasMarkdownAcceptPredicate) return; // only rules that specifically react to markdown Accept count
+    (r.has || []).forEach(h => { if (h.type === 'query') keys.add(h.key); });
+  });
+  return keys;
 }
 
-test('the "/" -> "/llms.txt" REWRITE\'s missing-list EXACTLY equals ANALYTICS_PARAMS ∪ PLANNER_PARAMS', () => {
+function assertCoverageEqualsRouterParams(rule, positiveKeys, label) {
+  const missingKeys = new Set((rule.missing || []).map(m => m.key));
+  const coveredKeys = new Set([...missingKeys, ...positiveKeys]);
+  const notCovered = [...ROUTER_PARAMS].filter(k => !coveredKeys.has(k));
+  const extra = [...coveredKeys].filter(k => !ROUTER_PARAMS.has(k));
+  assert.deepStrictEqual(notCovered, [],
+    `${label}: router param(s) not covered by missing-list ∪ positive rules (would silently fall back to llms.txt / wrong Content-Type): ${notCovered.join(', ')}`);
+  assert.deepStrictEqual(extra, [],
+    `${label}: covered-set has key(s) that are not real router params — drifted or typo'd: ${extra.join(', ')}`);
+}
+
+test('the "/" -> "/llms.txt" REWRITE\'s missing-list ∪ positive shadow-rewrite keys EXACTLY equals ANALYTICS_PARAMS ∪ PLANNER_PARAMS', () => {
   const rootMarkdownRewrite = config.rewrites.find(r => r.source === '/' && r.destination === '/llms.txt');
   assert.ok(rootMarkdownRewrite, 'expected the "/" -> "/llms.txt" markdown rewrite to exist');
-  assertMissingListEqualsRouterParams(rootMarkdownRewrite, 'rewrite');
+  assertCoverageEqualsRouterParams(rootMarkdownRewrite, positiveRewriteAppKeys(), 'rewrite');
 });
-test('the "/" markdown HEADER rule\'s missing-list EXACTLY equals ANALYTICS_PARAMS ∪ PLANNER_PARAMS (must travel with the rewrite)', () => {
+test('the "/" markdown HEADER rule\'s missing-list ∪ positive override-rule keys EXACTLY equals ANALYTICS_PARAMS ∪ PLANNER_PARAMS (must travel with the rewrite)', () => {
   const rootMarkdownHeaderRule = config.headers.find(r =>
     r.source === '/' && r.has && (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value)));
   assert.ok(rootMarkdownHeaderRule, 'expected the "/" markdown header rule (Content-Type: text/markdown) to exist');
-  assertMissingListEqualsRouterParams(rootMarkdownHeaderRule, 'header rule');
+  assertCoverageEqualsRouterParams(rootMarkdownHeaderRule, positiveHeaderAppKeys(), 'header rule');
 });
 
 console.log('drift guard (secondary) — a .get(\'key\') source scan, for params read OUTSIDE the router array mechanism');
@@ -377,11 +459,11 @@ test('every .get(\'key\') param found in app.js/home.html/planner.js that IS a r
   assert.ok(derived.size > 0, 'sanity: expected at least one .get(\'...\') param to be found');
 
   const rootMarkdownRewrite = config.rewrites.find(r => r.source === '/' && r.destination === '/llms.txt');
-  const missingKeys = new Set((rootMarkdownRewrite.missing || []).map(m => m.key));
+  const coveredKeys = new Set([...(rootMarkdownRewrite.missing || []).map(m => m.key), ...positiveRewriteAppKeys()]);
 
-  const unexplained = [...derived].filter(key => ROUTER_PARAMS.has(key) && !missingKeys.has(key));
+  const unexplained = [...derived].filter(key => ROUTER_PARAMS.has(key) && !coveredKeys.has(key));
   assert.deepStrictEqual(unexplained, [],
-    `.get()-read param(s) that ARE router params but are NOT in the missing-list: ${unexplained.join(', ')}`);
+    `.get()-read param(s) that ARE router params but are NOT covered by missing-list ∪ positive rules: ${unexplained.join(', ')}`);
 });
 test('no OTHER array-driven .has()-style mode selection exists on "/" beyond ANALYTICS_PARAMS/PLANNER_PARAMS (explicit check, not implied)', () => {
   // home.html's router is a single self-contained IIFE (lines ~75-130) that
@@ -399,6 +481,39 @@ test('no OTHER array-driven .has()-style mode selection exists on "/" beyond ANA
   const hasCalls = [...homeHtmlSrc.matchAll(/(?:params|searchParams)\.has\(\s*(['"])([A-Za-z0-9_]+)\1\s*\)/g)].map(m => m[2]);
   assert.deepStrictEqual(hasCalls, [],
     `found a literal .has('key') call in home.html outside ANALYTICS_PARAMS/PLANNER_PARAMS: ${hasCalls.join(', ')}`);
+});
+
+console.log('vercel.json schema cap — `has`/`missing` arrays must never exceed 16 entries (platform limit, not a style choice)');
+// Verbatim Vercel deploy error that broke PR #369:
+//   "The `vercel.json` schema validation failed with the following message:
+//    `headers[1].missing` should NOT have more than 16 items"
+// This is a hard schema cap — the deploy errors out, nothing ships — not a
+// lint warning. Round 4 exists because this item's own `missing` list hit
+// 17 and broke it. Regression-guard it directly so it can't happen again.
+const SCHEMA_MAX_PREDICATE_ENTRIES = 16;
+test('every `has` array anywhere in vercel.json has <=16 entries', () => {
+  const offenders = [];
+  ['rewrites', 'headers'].forEach(section => {
+    (config[section] || []).forEach((rule, i) => {
+      if (rule.has && rule.has.length > SCHEMA_MAX_PREDICATE_ENTRIES) {
+        offenders.push(`${section}[${i}] (source="${rule.source}"): has has ${rule.has.length} entries`);
+      }
+    });
+  });
+  assert.deepStrictEqual(offenders, [],
+    `vercel.json schema cap violated (Vercel: "should NOT have more than 16 items"): ${offenders.join('; ')}`);
+});
+test('every `missing` array anywhere in vercel.json has <=16 entries', () => {
+  const offenders = [];
+  ['rewrites', 'headers'].forEach(section => {
+    (config[section] || []).forEach((rule, i) => {
+      if (rule.missing && rule.missing.length > SCHEMA_MAX_PREDICATE_ENTRIES) {
+        offenders.push(`${section}[${i}] (source="${rule.source}"): missing has ${rule.missing.length} entries`);
+      }
+    });
+  });
+  assert.deepStrictEqual(offenders, [],
+    `vercel.json schema cap violated (Vercel: "should NOT have more than 16 items"): ${offenders.join('; ')}`);
 });
 
 console.log('.md twins are never indexable — absent from every sitemap*.xml in the repo');

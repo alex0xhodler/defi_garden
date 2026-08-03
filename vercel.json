@@ -5,6 +5,13 @@
     {
       "source": "/",
       "has": [
+        { "type": "query", "key": "app" }
+      ],
+      "destination": "/home"
+    },
+    {
+      "source": "/",
+      "has": [
         {
           "type": "header",
           "key": "Accept",
@@ -19,7 +26,6 @@
         { "type": "query", "key": "poolTypes" },
         { "type": "query", "key": "minTvl" },
         { "type": "query", "key": "minApy" },
-        { "type": "query", "key": "app" },
         { "type": "query", "key": "goal" },
         { "type": "query", "key": "monthly" },
         { "type": "query", "key": "years" },
@@ -151,7 +157,6 @@
         { "type": "query", "key": "poolTypes" },
         { "type": "query", "key": "minTvl" },
         { "type": "query", "key": "minApy" },
-        { "type": "query", "key": "app" },
         { "type": "query", "key": "goal" },
         { "type": "query", "key": "monthly" },
         { "type": "query", "key": "years" },
@@ -166,6 +171,21 @@
         { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
         { "key": "Vary", "value": "Accept" },
         { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        },
+        { "type": "query", "key": "app" }
+      ],
+      "headers": [
+        { "key": "Content-Type", "value": "text/html; charset=utf-8" },
+        { "key": "Vary", "value": "Accept" }
       ]
     },
     {
