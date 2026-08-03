@@ -119,6 +119,15 @@ function escapeHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
+// --- Markdown twins (spec 212) ----------------------------------------------
+/** Minimal Markdown escaping for values interpolated into table cells/links —
+ * only pipe (breaks the table's own column separator) and square brackets
+ * (would prematurely close a `[text](url)` link) need escaping; everything
+ * else in a real project/chain/symbol name is safe as literal Markdown text. */
+function mdEscape(str) {
+  return String(str == null ? '' : str).replace(/\|/g, '\\|').replace(/\[/g, '\\[').replace(/\]/g, '\\]');
+}
+
 // URL/filesystem-safe slug for a token symbol.
 function tokenSlug(symbol) {
   return String(symbol).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -919,6 +928,66 @@ ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_U
 `;
 }
 
+/** Markdown twin of renderTokenPage (spec 212): the SAME facts the HTML page
+ * states, addressed at /tokens/<slug>.md (and its ko/ variant) for content
+ * negotiation (`Accept: text/markdown`) — generated in the SAME run as the
+ * HTML so the two can never drift. Built from the SAME gated `rec` + the
+ * SAME buildAnswerAndFaq()/poolHrefFor()/formatUsd()/formatApy() the HTML
+ * uses — never a re-derived number, never a re-worded answer/FAQ (the
+ * fact-parity rule this item exists to satisfy, structurally). Same params
+ * as renderTokenPage minus `ogImagePaths` — Markdown has no og:image use. */
+function renderTokenPageMarkdown(rec, related, generatedDate, chainLinks, lang) {
+  const language = (lang === 'ko') ? 'ko' : 'en';
+  const t = createTranslationFunction(language);
+  const genDate = generatedDate || todayGeneratedDate();
+  const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
+  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
+  const top = rec.pools[0];
+  // 174: the floor claim below derives from MIN_POOL_TVL, same as the HTML —
+  // never a re-typed literal.
+  const floorStr = formatUsd(MIN_POOL_TVL);
+
+  // Direct-answer + FAQ (047): the SAME function call renderTokenPage makes,
+  // with the SAME args — reused verbatim, never re-worded (212 fact parity).
+  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, top, language);
+
+  // Real Markdown table, labelled columns, same data/link convention the
+  // HTML's <tr> rows use (poolHrefFor + the 'seo_token' src attribution tag).
+  const rows = rec.pools.map(p => {
+    const poolHref = poolHrefFor(p, appUrl, 'seo_token');
+    return `| [${mdEscape(p.project || '—')} →](${poolHref}) | ${mdEscape(p.chain || '—')} | ${formatApy(poolTotalApy(p))} | ${formatUsd(p.tvlUsd)} |`;
+  }).join('\n');
+
+  const faqMd = (faq || []).map(item => `### ${item.q}\n\n${item.a}`).join('\n\n');
+
+  const relatedMd = (related && related.length)
+    ? `\n## ${t('tcpRelatedTokensHeading')}\n\n` + related.map(r =>
+        `- [${mdEscape(r.symbol)}](${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${r.slug})`).join('\n') + '\n'
+    : '';
+
+  const chainLinksMd = (chainLinks && chainLinks.length)
+    ? `\n## ${t('tcpAvailableOnHeading')}\n\n` + chainLinks.map(c =>
+        `- [${mdEscape(c.chain)}](${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${c.slug})`).join('\n') + '\n'
+    : '';
+
+  return `# ${t('tcpTokenHeading', rec.symbol)}
+
+${answer}
+
+| ${t('tcpColProtocol')} | ${t('tcpColChain')} | ${t('tcpColApy')} | ${t('tcpColTvl')} |
+|---|---|---|---|
+${rows}
+
+${t('tcpTrustNote', floorStr)}
+
+## ${t('tcpFaqHeading')}
+
+${faqMd}
+${relatedMd}${chainLinksMd}
+## ${t('tcpLastUpdated', genDate)}
+`;
+}
+
 /** Render a sitemap (urlset) of all generated /tokens/<slug> URLs (021),
  * plus any `extraLocs` (045: the /tokens hub + its A–Z sub-hub pages) so
  * they're discoverable through the same sitemap-index chain. */
@@ -1015,11 +1084,13 @@ async function main() {
 
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   // Clean stale pages first so tokens dropped by the gate (030) / renamed slugs
-  // don't linger from a previous run. Only *.html is removed (never other files,
-  // and never if --out points at cwd) — the CI commit then stages the deletions.
+  // don't linger from a previous run. *.html AND *.md are removed (212 — an
+  // orphaned Markdown twin of a page that no longer exists is the exact drift
+  // failure mode this item exists to prevent), never other files, and never
+  // if --out points at cwd — the CI commit then stages the deletions.
   if (outDir !== process.cwd()) {
     fs.readdirSync(outDir).forEach(f => {
-      if (f.endsWith('.html')) fs.rmSync(path.join(outDir, f));
+      if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(outDir, f));
     });
   }
   // One generation date for the whole run (048): every page's visible "Last
@@ -1039,6 +1110,9 @@ async function main() {
   ranked.forEach(rec => {
     const chainLinks = chainLinksFor(rec, generatedChainSlugs);
     fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks, 'en', ogImagePaths));
+    // 212: Markdown twin, written in the SAME loop from the SAME `rec`/`genDate`
+    // so the two can never drift out of the same generation run.
+    fs.writeFileSync(path.join(outDir, `${rec.slug}.md`), renderTokenPageMarkdown(rec, relatedFor(rec, ranked), genDate, chainLinks, 'en'));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
@@ -1048,7 +1122,10 @@ async function main() {
   fs.writeFileSync(path.join(outDir, 'index.html'), renderTokenHubPage(ranked, azGroups));
   const azDir = path.join(outDir, 'az');
   if (!fs.existsSync(azDir)) fs.mkdirSync(azDir, { recursive: true });
-  else fs.readdirSync(azDir).forEach(f => { if (f.endsWith('.html')) fs.rmSync(path.join(azDir, f)); });
+  // 212: predicate widened to .html-or-.md uniformly with the other cleanup
+  // sites, even though A-Z pages never get a Markdown twin (no .md is ever
+  // written here) — same safety, no behavior change.
+  else fs.readdirSync(azDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(azDir, f)); });
   azGroups.forEach(g => {
     fs.writeFileSync(path.join(azDir, `${g.slug}.html`), renderTokenAzPage(g));
   });
@@ -1064,16 +1141,17 @@ async function main() {
   const koOutDir = path.join(path.dirname(outDir), 'ko', path.basename(outDir));
   if (!fs.existsSync(koOutDir)) fs.mkdirSync(koOutDir, { recursive: true });
   if (koOutDir !== process.cwd()) {
-    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html')) fs.rmSync(path.join(koOutDir, f)); });
+    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(koOutDir, f)); });
   }
   ranked.forEach(rec => {
     const chainLinks = chainLinksFor(rec, generatedChainSlugs);
     fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderTokenPage(rec, relatedFor(rec, ranked), genDate, chainLinks, 'ko', ogImagePaths));
+    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.md`), renderTokenPageMarkdown(rec, relatedFor(rec, ranked), genDate, chainLinks, 'ko'));
   });
   fs.writeFileSync(path.join(koOutDir, 'index.html'), renderTokenHubPage(ranked, azGroups, 'ko'));
   const koAzDir = path.join(koOutDir, 'az');
   if (!fs.existsSync(koAzDir)) fs.mkdirSync(koAzDir, { recursive: true });
-  else fs.readdirSync(koAzDir).forEach(f => { if (f.endsWith('.html')) fs.rmSync(path.join(koAzDir, f)); });
+  else fs.readdirSync(koAzDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(koAzDir, f)); });
   azGroups.forEach(g => {
     fs.writeFileSync(path.join(koAzDir, `${g.slug}.html`), renderTokenAzPage(g, 'ko'));
   });
@@ -1098,7 +1176,7 @@ async function main() {
 // right back — if main() ran first, that circular require would observe
 // module.exports still at its default {}.
 module.exports = {
-  rankTopTokens, renderTokenPage, relatedFor, renderTokenSitemap, tokenSlug, isQualifyingPool, isAnomalousApy,
+  rankTopTokens, renderTokenPage, renderTokenPageMarkdown, mdEscape, relatedFor, renderTokenSitemap, tokenSlug, isQualifyingPool, isAnomalousApy,
   isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap, tokenSymbols,
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
   poolHrefFor, withSrc, renderItemListJsonLd, renderDatasetJsonLd,

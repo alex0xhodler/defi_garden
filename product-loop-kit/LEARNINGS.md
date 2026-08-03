@@ -332,3 +332,32 @@ wasn't fabricating a condition; it was *sampling* one.
 code is written to fail silently when they do", the finding is real and the not-knowing is part of it.
 Dismissing it as environment would have hidden a 29.1% gap on the north-star surface. The playbook's
 fixture-trap section has been updated with this case.
+
+
+## 2026-08-03 — item 212: a guard aimed at the wrong mechanism is worse than no guard
+
+**Capability bet, recorded as such.** 212's markdown twins have **no metric and never will under current
+instrumentation**: there is no server-log access in this stack, and no client-side event can fire for an
+agent that never runs JS. Agent reads of `/tokens/<slug>.md` are structurally unmeasurable. This is filed
+as a capability bet, not an experiment — **no traffic effect will be claimed for it in any window**, and
+any future claim needs edge/server request logging by `Accept` header first (a different item). Logging
+this here so a later reader does not mistake the absence of a result for a missing measurement.
+
+**The transferable lesson is about the guard, not the feature.** `vercel.json` cannot express "no query
+string at all", so the markdown rule had to re-enumerate the router's content-selecting params in a second
+file. Attempt 1 built that list by scanning the app for literal `.get('key')` calls, and shipped a
+drift-guard test built on the same scan. It passed. It was also blind to `app` — which `home.html:79` reads
+as `ANALYTICS_PARAMS.some(k => params.has(k))` — so `/?app=1`, the live target of the planner header's
+analytics icon, kept returning the homepage index to any agent that asked for markdown. The verifier caught
+it by not trusting the guard's framing.
+
+The failure was not an incomplete list. It was a guard **watching a mechanism that resembled the real one**,
+which is strictly worse than having no guard: it launders the gap as coverage, and the notes and PR
+explainer both went on to claim protection against exactly the class the guard could not see. Attempt 2
+rebuilt it as tested **set equality against the defining arrays themselves**, both directions.
+
+**Rule to carry forward:** when a list of names must exist in two places and only one is read at runtime,
+the other is a *mirror*. Mirrors get an equality test against the original in the same commit that creates
+them — and before writing that test, check which mechanism the original actually uses. If the original is
+not machine-readable, that is the finding: make it parseable rather than hand-maintaining the copy.
+`playbooks/mode-enumeration-staleness.md` carries the checklist.

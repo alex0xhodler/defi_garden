@@ -44,7 +44,7 @@ const {
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
-  yieldHeadlineFor, renderYieldHeadlineHtml
+  yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -405,6 +405,59 @@ ${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t)}  
 `;
 }
 
+/** Markdown twin of renderChainPage (spec 212) — same construction pattern
+ * as generate-token-pages.js's renderTokenPageMarkdown: built from the SAME
+ * gated `rec` + the SAME buildAnswerAndFaq()/poolHrefFor()/formatUsd()/
+ * formatApy() the HTML uses, so the twin can never drift by construction.
+ * Same params as renderChainPage minus `ogImagePaths`. */
+function renderChainPageMarkdown(rec, related, generatedDate, tokenLinks, lang) {
+  const language = (lang === 'ko') ? 'ko' : 'en';
+  const t = createTranslationFunction(language);
+  const genDate = generatedDate || todayGeneratedDate();
+  const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}&minTvl=${MIN_POOL_TVL}`;
+  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
+  const top = rec.pools[0];
+  // 174: the floor claim below derives from MIN_POOL_TVL, same as the HTML —
+  // never a re-typed literal.
+  const floorStr = formatUsd(MIN_POOL_TVL);
+
+  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, language);
+
+  const rows = rec.pools.map(p => {
+    const poolHref = poolHrefFor(p, appUrl, 'seo_chain');
+    return `| ${mdEscape(p.symbol || '—')} | [${mdEscape(p.project || '—')} →](${poolHref}) | ${formatApy(poolTotalApy(p))} | ${formatUsd(p.tvlUsd)} |`;
+  }).join('\n');
+
+  const faqMd = (faq || []).map(item => `### ${item.q}\n\n${item.a}`).join('\n\n');
+
+  const relatedMd = (related && related.length)
+    ? `\n## ${t('tcpRelatedChainsHeading')}\n\n` + related.map(r =>
+        `- [${mdEscape(r.chain)}](${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${r.slug})`).join('\n') + '\n'
+    : '';
+
+  const tokenLinksMd = (tokenLinks && tokenLinks.length)
+    ? `\n## ${t('tcpTopTokensOnHeading', rec.chain)}\n\n` + tokenLinks.map(tk =>
+        `- [${mdEscape(tk.symbol)}](${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${tk.slug})`).join('\n') + '\n'
+    : '';
+
+  return `# ${t('tcpChainHeading', rec.chain)}
+
+${answer}
+
+| ${t('tcpColToken')} | ${t('tcpColProtocol')} | ${t('tcpColApy')} | ${t('tcpColTvl')} |
+|---|---|---|---|
+${rows}
+
+${t('tcpTrustNote', floorStr)}
+
+## ${t('tcpFaqHeading')}
+
+${faqMd}
+${relatedMd}${tokenLinksMd}
+## ${t('tcpLastUpdated', genDate)}
+`;
+}
+
 /** Render a sitemap (urlset) of all generated /chains/<slug> URLs, plus any
  * `extraLocs` (045: the /chains hub page). */
 function renderChainSitemap(ranked, lastmod, extraLocs, lang) {
@@ -493,9 +546,11 @@ async function main() {
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   // Clean stale pages first so chains dropped by the gate / renamed slugs
   // don't linger from a previous run (mirrors 031's token-page cleanup).
+  // *.html AND *.md (212) — an orphaned Markdown twin of a page that no
+  // longer exists is the exact drift failure mode this item exists to prevent.
   if (outDir !== process.cwd()) {
     fs.readdirSync(outDir).forEach(f => {
-      if (f.endsWith('.html')) fs.rmSync(path.join(outDir, f));
+      if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(outDir, f));
     });
   }
   // One generation date for the whole run (048): every page's visible "Last
@@ -510,6 +565,9 @@ async function main() {
   ranked.forEach(rec => {
     const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
     fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'en', ogImagePaths));
+    // 212: Markdown twin, written in the SAME loop from the SAME `rec`/`genDate`
+    // so the two can never drift out of the same generation run.
+    fs.writeFileSync(path.join(outDir, `${rec.slug}.md`), renderChainPageMarkdown(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'en'));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
@@ -525,11 +583,12 @@ async function main() {
   const koOutDir = path.join(path.dirname(outDir), 'ko', path.basename(outDir));
   if (!fs.existsSync(koOutDir)) fs.mkdirSync(koOutDir, { recursive: true });
   if (koOutDir !== process.cwd()) {
-    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html')) fs.rmSync(path.join(koOutDir, f)); });
+    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(koOutDir, f)); });
   }
   ranked.forEach(rec => {
     const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
     fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'ko', ogImagePaths));
+    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.md`), renderChainPageMarkdown(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'ko'));
   });
   fs.writeFileSync(path.join(koOutDir, 'index.html'), renderChainHubPage(ranked, 'ko'));
   console.log(`🇰🇷 Wrote ${ranked.length} ko/chains pages + ko hub page`);
@@ -552,7 +611,7 @@ if (require.main === module) {
 }
 
 module.exports = {
-  rankTopChains, renderChainPage, relatedChainsFor, renderChainSitemap, renderChainHubPage, chainSlug,
+  rankTopChains, renderChainPage, renderChainPageMarkdown, relatedChainsFor, renderChainSitemap, renderChainHubPage, chainSlug,
   topTokensOnChain, loadFixturePools,
   POOLS_PER_PAGE, MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };

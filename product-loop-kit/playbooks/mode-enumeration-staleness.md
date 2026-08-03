@@ -54,6 +54,41 @@ don't invent a new mechanism.
 - Do not "fix" occlusion with padding so both copies are visible — two identical link pairs on one page is
   the duplication the rule exists to prevent.
 
+## Variant: the enumeration lives OUTSIDE the app (edge config, CI, a generator)
+
+Same failure, one layer down — and worth its own checklist because the app-side habits do not transfer.
+`vercel.json` cannot express "no query string at all" (`source` matches the path only; `has`/`missing`
+predicates are per-key), so an edge rule that must know "does this URL select specific content?" is
+*forced* to re-enumerate the router's params in a second file that the router never reads.
+
+1. **Find the definition and mirror it, don't re-derive it.** The router's own arrays are the definition
+   — `home.html:77-78`'s `ANALYTICS_PARAMS` / `PLANNER_PARAMS`. Anything you assemble by reading the app
+   "carefully" is a second, weaker definition that will disagree eventually.
+2. **Guard with SET EQUALITY against the definition, both directions.** Parse the array literals out of
+   the defining file in the test and assert the mirrored list equals their union exactly: no member
+   unlisted, no listed key that is not a member. A subset check passes forever while the mirror rots; an
+   equality check also catches typos and stale removals.
+3. **Check what mechanism the definition actually uses before writing the guard.** This is the trap that
+   burned 212: the first guard regex-scanned for literal `.get('key')` calls and was *structurally blind*
+   to `app`, which the router reads as `ANALYTICS_PARAMS.some(k => params.has(k))`. The guard looked
+   thorough, passed, and was watching a mechanism that resembled the real one. A guard aimed at the wrong
+   mechanism is worse than none — it launders the gap as coverage, and the notes then *claim* protection
+   against exactly the class it cannot see.
+4. **Then prove the mechanism list is closed.** Sweep the defining file for any *other* literal
+   `params.has('…')`/`searchParams.get('…')` outside the arrays. Zero hits = the arrays are provably the
+   whole set. Say the result explicitly in the notes; "no other mechanism" left implied is not a finding.
+5. **Escaped-path traps in edge config.** A path param is greedier than it looks: Vercel's bare `:slug`
+   matches `[^/]+` **including dots**, so `/tokens/:slug` also matches `/tokens/usdc.md` and rewrites it
+   to `…​.md.md`. Constrain to `:slug([^/.]+)` once you have confirmed no real slug contains a dot
+   (`ls tokens/ | sed 's/\.html$//' | grep -c '\.'` → 0). Sibling paths that match the pattern but have no
+   target (`/tokens/index`) need an explicit passthrough rule placed BEFORE it — rewrites are
+   first-match-wins.
+
+**Decision rule:** if a list of names exists in two files and only one of them is read at runtime, the
+other is a mirror; mirrors get an equality test against the original, in the same commit that creates
+them. If you cannot write that test because the original is not machine-readable, that is the finding —
+make the original parseable rather than hand-maintaining the copy.
+
 ## Provenance
 
 Item 179 (2026-07-30) — the static `.seo-hub-links` crawler footer was dead on bare `/` (measured: 2 visible
@@ -62,3 +97,10 @@ Item 179 (2026-07-30) — the static `.seo-hub-links` crawler footer was dead on
 surface at all. Verifier PASS 9/9, HIGH. `specs/179.md`, `specs/179-notes.md`, BACKLOG row 179 (filed by item
 176's browser-lane triage). Related: `dual-source-logic-divergence.md` covers two FORKED copies of the same
 logic drifting; this one covers ONE rule that never learned about a new mode.
+
+The "enumeration lives outside the app" variant: item 212 (2026-08-03) — `vercel.json`'s markdown-negotiation
+`missing` list had to mirror `home.html`'s `ANALYTICS_PARAMS`/`PLANNER_PARAMS`. Attempt 1 assembled the list
+by scanning for `.get('key')` calls, missed `app` (read via `.some(k => params.has(k))`, and linked live from
+`planner.js:3863` as `/?app=1`), and shipped a drift guard blind to that whole mechanism — verifier FAIL.
+Attempt 2 rebuilt the guard as exact set equality against the two array literals. `specs/212.md`,
+`specs/212-notes.md`.
