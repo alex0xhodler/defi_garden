@@ -1,17 +1,17 @@
 # TBTC 디파이 수익률
 
-현재 TBTC의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 5.18%이며, $100K TVL 기준을 넘는 50개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TBTC의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 5.19%이며, $100K TVL 기준을 넘는 50개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token) | Ethereum | 0.09% | $8.44M |
-| [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 0.48% | $7.24M |
-| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 2.83% | $3.93M |
-| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 3.69% | $3.78M |
-| [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.03% | $3.35M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 0.12% | $2.45M |
-| [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.18% | $1.8M |
+| [curve-dex →](https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token) | Ethereum | 0.10% | $8.35M |
+| [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 0.48% | $7.2M |
+| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 2.86% | $3.91M |
+| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 3.75% | $3.76M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 0.19% | $2.44M |
+| [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.19% | $1.85M |
 | [vesu →](https://www.defi.garden/?pool=2d94db74-d1f5-417c-a29a-432d76e0bdfc&src=seo_token) | Starknet | 2.00% | $1.09M |
+| [curve-dex →](https://www.defi.garden/?pool=9beef608-8e7b-455b-97a1-84247be6631d&src=seo_token) | Arbitrum | 0.31% | $1.09M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 TBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 5.18%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 5.19%예요.
 
 ### TBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 50개이며, 합산 TVL은 $223.32M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 50개이며, 합산 TVL은 $222.14M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -43,5 +43,6 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 5.18%예�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 - [Starknet](https://www.defi.garden/ko/chains/starknet)
+- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
 ## 마지막 업데이트: August 3, 2026

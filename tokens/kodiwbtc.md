@@ -1,13 +1,13 @@
 # KODIWBTC DeFi Yields
 
-The highest honest KODIWBTC yield right now is 30.97% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIWBTC yield right now is 31.14% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_token) | Berachain | 2.69% | $903.4K |
-| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 30.97% | $229.3K |
-| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 8.87% | $163.3K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 22.18% | $102.4K |
+| [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_token) | Berachain | 2.72% | $899.5K |
+| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 31.14% | $228.2K |
+| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 9.57% | $162.1K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 22.38% | $102.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIWBTC yield today?
 
-30.97% APY on berapaw (Berachain), based on live DefiLlama data.
+31.14% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIWBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.4M in total.
+4 live pools clear this page's $100K TVL floor, $1.39M in total.
 
 ### Are these rates safe?
 

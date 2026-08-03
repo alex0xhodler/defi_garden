@@ -1,11 +1,11 @@
 # KODIWETH DeFi Yields
 
-The highest honest KODIWETH yield right now is 31.90% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIWETH yield right now is 32.14% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 31.90% | $249K |
-| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 13.15% | $194.9K |
+| [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 32.14% | $247.4K |
+| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 13.25% | $194.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIWETH yield today?
 
-31.90% APY on berapaw (Berachain), based on live DefiLlama data.
+32.14% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $444K in total.
+2 live pools clear this page's $100K TVL floor, $441.6K in total.
 
 ### Are these rates safe?
 

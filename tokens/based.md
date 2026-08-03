@@ -1,10 +1,10 @@
 # BASED DeFi Yields
 
-The highest honest BASED yield right now is 87.95% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BASED yield right now is 118.44% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=754d6df8-e66b-412b-9de2-ecdcf3345f5e&src=seo_token) | BSC | 87.95% | $108.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=754d6df8-e66b-412b-9de2-ecdcf3345f5e&src=seo_token) | BSC | 118.44% | $106.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BASED yield today?
 
-87.95% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+118.44% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BASED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.2K in total.
+1 live pool clear this page's $100K TVL floor, $106.3K in total.
 
 ### Are these rates safe?
 

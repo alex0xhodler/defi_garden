@@ -1,11 +1,11 @@
 # STLINK DeFi Yields
 
-The highest honest STLINK yield right now is 4.61% on stake.link-liquid (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STLINK yield right now is 4.60% on stake.link-liquid (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.61% | $58.52M |
-| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.09% | $4.05M |
+| [stake.link-liquid →](https://www.defi.garden/?pool=4f5deb26-5f61-45a3-8f61-0edca3a86809&src=seo_token) | Ethereum | 4.60% | $58M |
+| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.11% | $3.98M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STLINK yield today?
 
-4.61% APY on stake.link-liquid (Ethereum), based on live DefiLlama data.
+4.60% APY on stake.link-liquid (Ethereum), based on live DefiLlama data.
 
 ### How many STLINK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $64.98M in total.
+4 live pools clear this page's $100K TVL floor, $64.36M in total.
 
 ### Are these rates safe?
 

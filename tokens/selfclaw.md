@@ -1,10 +1,10 @@
 # SELFCLAW DeFi Yields
 
-The highest honest SELFCLAW yield right now is 1.52% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SELFCLAW yield right now is 1.23% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d4a1ded7-63f7-49cd-beff-a06acf604404&src=seo_token) | Base | 1.52% | $102.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d4a1ded7-63f7-49cd-beff-a06acf604404&src=seo_token) | Base | 1.23% | $102.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SELFCLAW yield today?
 
-1.52% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.23% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SELFCLAW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.5K in total.
+1 live pool clear this page's $100K TVL floor, $102.1K in total.
 
 ### Are these rates safe?
 

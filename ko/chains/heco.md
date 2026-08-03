@@ -30,8 +30,8 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 1.49%예요.
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Solana](https://www.defi.garden/ko/chains/solana)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
+- [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)

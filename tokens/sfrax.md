@@ -4,7 +4,7 @@ The highest honest SFRAX yield right now is 1.25% on frax (Ethereum), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=55de30c3-bf9f-4d4e-9e0b-536a8ef5ab35&src=seo_token) | Ethereum | 1.25% | $65.14M |
+| [frax →](https://www.defi.garden/?pool=55de30c3-bf9f-4d4e-9e0b-536a8ef5ab35&src=seo_token) | Ethereum | 1.25% | $65.15M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

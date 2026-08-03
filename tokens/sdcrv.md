@@ -4,10 +4,10 @@ The highest honest SDCRV yield right now is 31.52% on stake-dao (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d&src=seo_token) | Ethereum | 14.31% | $23.88M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 15.29% | $927K |
-| [stake-dao →](https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82&src=seo_token) | Ethereum | 19.86% | $562.8K |
-| [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198&src=seo_token) | Ethereum | 31.52% | $210.1K |
+| [stake-dao →](https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d&src=seo_token) | Ethereum | 14.27% | $24.13M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 15.29% | $931K |
+| [stake-dao →](https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82&src=seo_token) | Ethereum | 19.84% | $565.4K |
+| [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198&src=seo_token) | Ethereum | 31.52% | $211K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SDCRV pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $25.58M in total.
+4 live pools clear this page's $100K TVL floor, $25.83M in total.
 
 ### Are these rates safe?
 

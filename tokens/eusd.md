@@ -1,17 +1,17 @@
 # EUSD DeFi Yields
 
-The highest honest EUSD yield right now is 35.59% on curve-dex (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUSD yield right now is 36.07% on curve-dex (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 3.42% | $2.18M |
-| [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token) | Ethereum | 3.46% | $1.87M |
-| [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 6.01% | $1.28M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3&src=seo_token) | Base | 4.45% | $499.8K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 6.38% | $417.4K |
-| [stake-dao →](https://www.defi.garden/?pool=6bfa3348-6cbc-43a7-8507-735d90a0b4db&src=seo_token) | Ethereum | 6.46% | $399.3K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 35.59% | $276K |
-| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.34% | $226.4K |
+| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 3.32% | $2.18M |
+| [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token) | Ethereum | 2.91% | $1.87M |
+| [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 5.49% | $1.28M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 6.36% | $417.4K |
+| [stake-dao →](https://www.defi.garden/?pool=6bfa3348-6cbc-43a7-8507-735d90a0b4db&src=seo_token) | Ethereum | 6.47% | $399.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3&src=seo_token) | Base | 8.33% | $369K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 36.07% | $273.7K |
+| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.23% | $226.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EUSD yield today?
 
-35.59% APY on curve-dex (Ethereum), based on live DefiLlama data.
+36.07% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many EUSD pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $34.62M in total.
+17 live pools clear this page's $100K TVL floor, $34.54M in total.
 
 ### Are these rates safe?
 

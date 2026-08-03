@@ -1,10 +1,10 @@
 # EUSDUSDC DeFi Yields
 
-The highest honest EUSDUSDC yield right now is 6.04% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUSDUSDC yield right now is 6.06% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=b636821a-7fbb-4f29-b896-098e80ad2299&src=seo_token) | Ethereum | 6.04% | $471K |
+| [yearn-finance →](https://www.defi.garden/?pool=b636821a-7fbb-4f29-b896-098e80ad2299&src=seo_token) | Ethereum | 6.06% | $471.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EUSDUSDC yield today?
 
-6.04% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+6.06% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many EUSDUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $471K in total.
+1 live pool clear this page's $100K TVL floor, $471.1K in total.
 
 ### Are these rates safe?
 

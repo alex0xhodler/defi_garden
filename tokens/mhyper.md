@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MHYPER pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.69M in total.
+4 live pools clear this page's $100K TVL floor, $3.61M in total.
 
 ### Are these rates safe?
 

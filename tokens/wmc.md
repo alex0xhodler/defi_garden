@@ -4,7 +4,7 @@ The highest honest WMC yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=86ea77a2-53eb-429e-8d2e-07ac4b683a7a&src=seo_token) | Ethereum | 0.01% | $103.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=86ea77a2-53eb-429e-8d2e-07ac4b683a7a&src=seo_token) | Ethereum | 0.01% | $102.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WMC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.7K in total.
+1 live pool clear this page's $100K TVL floor, $102.7K in total.
 
 ### Are these rates safe?
 

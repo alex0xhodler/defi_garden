@@ -1,17 +1,17 @@
 # GHO DeFi Yields
 
-The highest honest GHO yield right now is 6.54% on aave-v3 (Ethereum), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GHO yield right now is 6.61% on aave-v3 (Ethereum), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.45% | $27.7M |
-| [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 1.43% | $22.78M |
-| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.41% | $17.41M |
-| [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.54% | $8.8M |
-| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 6.22% | $6.14M |
+| [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.45% | $27.69M |
+| [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 1.43% | $22.8M |
+| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.41% | $17.42M |
+| [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.61% | $8.73M |
+| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 6.23% | $6.14M |
 | [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 6.23% | $3.78M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token) | Ethereum | 0.08% | $3.02M |
-| [fluid-lending →](https://www.defi.garden/?pool=19d0ddd5-083a-4839-a01a-5fdf066e94a3&src=seo_token) | Arbitrum | 5.90% | $2.65M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token) | Ethereum | 0.09% | $3.02M |
+| [fluid-lending →](https://www.defi.garden/?pool=19d0ddd5-083a-4839-a01a-5fdf066e94a3&src=seo_token) | Arbitrum | 5.90% | $2.64M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GHO yield today?
 
-6.54% APY on aave-v3 (Ethereum), based on live DefiLlama data.
+6.61% APY on aave-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many GHO pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $182.9M in total.
+33 live pools clear this page's $100K TVL floor, $182.74M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest MASK yield right now is 1.61% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=46e4934f-225f-40eb-8b5a-7f4cc156509d&src=seo_token) | Ethereum | 1.61% | $490.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=46e4934f-225f-40eb-8b5a-7f4cc156509d&src=seo_token) | Ethereum | 1.61% | $491.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MASK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $490.4K in total.
+1 live pool clear this page's $100K TVL floor, $491.8K in total.
 
 ### Are these rates safe?
 

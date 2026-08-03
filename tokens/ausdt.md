@@ -6,7 +6,7 @@ The highest honest AUSDT yield right now is 0.70% on hydration-dex (Polkadot), a
 |---|---|---|---|
 | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token) | Polkadot | 0.70% | $2.29M |
 | [hydration-dex →](https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token) | Polkadot | 0.39% | $1.04M |
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $309.8K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $309.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

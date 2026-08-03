@@ -181,6 +181,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/chains/bob</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/chains/polkadot</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
@@ -266,12 +271,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/flow</loc>
+    <loc>https://www.defi.garden/chains/heco</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/heco</loc>
+    <loc>https://www.defi.garden/chains/flow</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -301,12 +306,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/unichain</loc>
+    <loc>https://www.defi.garden/chains/rootstock</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/rootstock</loc>
+    <loc>https://www.defi.garden/chains/unichain</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -366,12 +371,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/scroll</loc>
+    <loc>https://www.defi.garden/chains/kusama</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/kusama</loc>
+    <loc>https://www.defi.garden/chains/scroll</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>

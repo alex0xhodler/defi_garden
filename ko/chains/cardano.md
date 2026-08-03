@@ -1,17 +1,17 @@
 # Cardano 디파이 수익률
 
-현재 Cardano의 가장 높은 정직한 수익률은 Cardano의 liqwid에서 89.93%이며, $100K TVL 기준을 넘는 34개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Cardano의 가장 높은 정직한 수익률은 Cardano의 liqwid에서 89.13%이며, $100K TVL 기준을 넘는 34개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| ADA | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_chain) | 2.15% | $6.85M |
-| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_chain) | 4.47% | $1.23M |
-| DJED | [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_chain) | 12.79% | $1.05M |
-| ADA-USDM | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_chain) | 40.74% | $853.7K |
-| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_chain) | 89.93% | $772.4K |
-| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_chain) | 45.00% | $677.5K |
-| ADA-USDA | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_chain) | 18.17% | $668.5K |
-| USDM | [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_chain) | 9.04% | $650.8K |
+| ADA | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_chain) | 2.15% | $6.91M |
+| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_chain) | 4.41% | $1.25M |
+| DJED | [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_chain) | 12.88% | $1.04M |
+| ADA-USDM | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_chain) | 40.22% | $868.1K |
+| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_chain) | 89.13% | $779.4K |
+| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_chain) | 44.02% | $690K |
+| ADA-USDA | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_chain) | 18.06% | $681.5K |
+| ADA-FLDT | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_chain) | 28.62% | $654.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Cardano의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cardano의 liqwid에서 APY 89.93%예요.
+DefiLlama 실시간 데이터 기준, Cardano의 liqwid에서 APY 89.13%예요.
 
 ### Cardano 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 34개이며, 합산 TVL은 $22.8M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 34개이며, 합산 TVL은 $23.1M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -41,11 +41,12 @@ DefiLlama 실시간 데이터 기준, Cardano의 liqwid에서 APY 89.93%예요.
 ## Cardano의 인기 토큰
 
 - [ADA](https://www.defi.garden/ko/tokens/ada)
-- [USDM](https://www.defi.garden/ko/tokens/usdm)
 - [MIN](https://www.defi.garden/ko/tokens/min)
 - [DJED](https://www.defi.garden/ko/tokens/djed)
+- [USDM](https://www.defi.garden/ko/tokens/usdm)
 - [NIGHT](https://www.defi.garden/ko/tokens/night)
 - [SNEK](https://www.defi.garden/ko/tokens/snek)
 - [USDA](https://www.defi.garden/ko/tokens/usda)
+- [FLDT](https://www.defi.garden/ko/tokens/fldt)
 
 ## 마지막 업데이트: August 3, 2026

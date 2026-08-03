@@ -1,12 +1,12 @@
 # MegaETH DeFi Yields
 
-The highest honest MegaETH yield right now is 3.20% on aave-v3 (MegaETH), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MegaETH yield right now is 3.49% on aave-v3 (MegaETH), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 3.20% | $743.2K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.61% | $183.5K |
-| USDE | [aave-v3 →](https://www.defi.garden/?pool=7b13e8df-9e04-4920-a711-6aeef16f9f7c&src=seo_chain) | 0.07% | $155.9K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 3.49% | $679K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.61% | $181K |
+| USDE | [aave-v3 →](https://www.defi.garden/?pool=7b13e8df-9e04-4920-a711-6aeef16f9f7c&src=seo_chain) | 0.07% | $154.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MegaETH yield today?
 
-3.20% APY on aave-v3 (MegaETH), based on live DefiLlama data.
+3.49% APY on aave-v3 (MegaETH), based on live DefiLlama data.
 
 ### How many MegaETH pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $28.5M in total.
+6 live pools clear this page's $100K TVL floor, $28.42M in total.
 
 ### Are these rates safe?
 

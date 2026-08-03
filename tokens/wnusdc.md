@@ -1,10 +1,10 @@
 # WNUSDC DeFi Yields
 
-The highest honest WNUSDC yield right now is 9.37% on balancer-v3 (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WNUSDC yield right now is 9.40% on balancer-v3 (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 9.37% | $7.95M |
+| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 9.40% | $7.95M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WNUSDC yield today?
 
-9.37% APY on balancer-v3 (Monad), based on live DefiLlama data.
+9.40% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many WNUSDC pools clear the TVL floor?
 

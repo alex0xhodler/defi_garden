@@ -4,9 +4,9 @@ The highest honest RSR yield right now is 22.44% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 3.42% | $2.18M |
-| [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 22.44% | $135.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 18.63% | $118.4K |
+| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 3.32% | $2.18M |
+| [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 22.44% | $134.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 8.80% | $117.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RSR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.59M in total.
+4 live pools clear this page's $100K TVL floor, $2.58M in total.
 
 ### Are these rates safe?
 

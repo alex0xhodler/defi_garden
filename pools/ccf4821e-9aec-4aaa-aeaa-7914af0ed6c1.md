@@ -1,12 +1,12 @@
 # USDC-MUSD — aerodrome-slipstream on Base
 
-**Total APY:** 4.63% (0.29% Base · + 4.35% Rewards)
+**Total APY:** 4.87% (0.54% Base · + 4.33% Rewards)
 
-**TVL:** $966.8K
+**TVL:** $964K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 10.67%
+**30d Mean APY:** 10.68%
 
 **Exposure:** multi
 
@@ -21,13 +21,13 @@ Moderate risk profile
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,254 in 5y at current rates.
+$1,000 in this pool grows to ~$1,269 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 4.63% right now vs a 10.67% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 4.87% right now vs a 10.68% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,254 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,269 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aerodrome-slipstream](https://aerodrome.finance/?ref=defi.garden)
 

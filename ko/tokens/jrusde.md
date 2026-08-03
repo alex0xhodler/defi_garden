@@ -1,10 +1,10 @@
 # JRUSDE 디파이 수익률
 
-현재 JRUSDE의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 10.08%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JRUSDE의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 10.10%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8&src=seo_token) | Ethereum | 10.08% | $6.62M |
+| [strata-markets →](https://www.defi.garden/?pool=8352355c-5ad7-45c5-aca2-628de224f8d8&src=seo_token) | Ethereum | 10.10% | $6.62M |
 | [pendle →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7&src=seo_token) | Ethereum | 8.06% | $572K |
 | [pendle →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2&src=seo_token) | Ethereum | 8.73% | $572K |
 
@@ -14,7 +14,7 @@
 
 ### 오늘 JRUSDE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 10.08%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 10.10%예요.
 
 ### JRUSDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

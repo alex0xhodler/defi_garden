@@ -1,12 +1,12 @@
 # OVER 디파이 수익률
 
-현재 OVER의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 10.23%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 OVER의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 10.21%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token) | Base | 10.23% | $337.8K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 2.28% | $262.3K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token) | OP Mainnet | 9.21% | $248.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token) | Base | 10.21% | $337.2K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 2.25% | $260.6K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token) | OP Mainnet | 9.05% | $248.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +14,11 @@
 
 ### 오늘 OVER의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 10.23%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 10.21%예요.
 
 ### OVER 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $995.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $992.7K예요.
 
 ### 이 수익률은 안전한가요?
 

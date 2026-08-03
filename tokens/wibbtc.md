@@ -1,11 +1,10 @@
 # WIBBTC DeFi Yields
 
-The highest honest WIBBTC yield right now is 0.03% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WIBBTC yield right now is 0.01% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.03% | $594K |
-| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.03% | $179.2K |
+| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.01% | $178.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WIBBTC yield today?
 
-0.03% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.01% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many WIBBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $773.2K in total.
+2 live pools clear this page's $100K TVL floor, $771.4K in total.
 
 ### Are these rates safe?
 

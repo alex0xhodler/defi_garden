@@ -1,10 +1,9 @@
 # GAMIWBTC DeFi Yields
 
-The highest honest GAMIWBTC yield right now is 1.76% on gami-labs (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GAMIWBTC yield right now is 1.62% on lagoon (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=d05da70a-36fb-4c87-a0ea-5d17c04022e2&src=seo_token) | Ethereum | 1.76% | $410.6K |
 | [lagoon →](https://www.defi.garden/?pool=92c9c403-0098-4810-8383-32d5c8297f42&src=seo_token) | Ethereum | 1.62% | $404.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GAMIWBTC yield today?
 
-1.76% APY on gami-labs (Ethereum), based on live DefiLlama data.
+1.62% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many GAMIWBTC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.27M in total.
+2 live pools clear this page's $100K TVL floor, $857.3K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest USN yield right now is 0.24% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=860a781d-9327-4428-9424-e54ca2f2e475&src=seo_token) | Ethereum | 0.22% | $1.69M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=860a781d-9327-4428-9424-e54ca2f2e475&src=seo_token) | Ethereum | 0.21% | $1.69M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=ff5f9bc2-741f-4e44-bd80-d81798ba22a3&src=seo_token) | Ethereum | 0.24% | $1.2M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.73M in total.
+4 live pools clear this page's $100K TVL floor, $3.74M in total.
 
 ### Are these rates safe?
 

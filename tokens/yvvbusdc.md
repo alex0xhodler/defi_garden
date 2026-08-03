@@ -1,11 +1,11 @@
 # YVVBUSDC DeFi Yields
 
-The highest honest YVVBUSDC yield right now is 6.05% on spectra-v2 (Katana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YVVBUSDC yield right now is 6.05% on spectra-v2 (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=9708b5ed-cb84-4d9c-970a-3619c321beb3&src=seo_token) | Katana | 1.19% | $390.2K |
 | [spectra-v2 →](https://www.defi.garden/?pool=f4256fda-7b45-42b2-8ae3-e10fe7f63c57&src=seo_token) | Katana | 6.05% | $390.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=9708b5ed-cb84-4d9c-970a-3619c321beb3&src=seo_token) | Katana | 1.19% | $390.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YVVBUSDC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.49M in total.
+3 live pools clear this page's $100K TVL floor, $2.34M in total.
 
 ### Are these rates safe?
 

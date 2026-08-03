@@ -1,12 +1,11 @@
 # Bifrost Network 디파이 수익률
 
-현재 Bifrost Network의 가장 높은 정직한 수익률은 Bifrost Network의 bifi에서 6.61%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Bifrost Network의 가장 높은 정직한 수익률은 Bifrost Network의 bifi에서 6.62%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| ETH | [bifi →](https://www.defi.garden/?pool=e5686448-3686-4da2-8863-5d3b2647b816&src=seo_chain) | 0.08% | $343.8K |
-| BTCUSD | [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_chain) | 6.61% | $277.6K |
-| USDC | [bifi →](https://www.defi.garden/?pool=de28f35f-2b98-4579-943f-40aa35d197e8&src=seo_chain) | 4.22% | $134.5K |
+| ETH | [bifi →](https://www.defi.garden/?pool=e5686448-3686-4da2-8863-5d3b2647b816&src=seo_chain) | 0.08% | $341.1K |
+| BTCUSD | [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_chain) | 6.62% | $275.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +13,11 @@
 
 ### 오늘 Bifrost Network의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Bifrost Network의 bifi에서 APY 6.61%예요.
+DefiLlama 실시간 데이터 기준, Bifrost Network의 bifi에서 APY 6.62%예요.
 
 ### Bifrost Network 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $6.9M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $6.76M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,6 +36,5 @@ DefiLlama 실시간 데이터 기준, Bifrost Network의 bifi에서 APY 6.61%예
 
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [BTCUSD](https://www.defi.garden/ko/tokens/btcusd)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 
 ## 마지막 업데이트: August 3, 2026

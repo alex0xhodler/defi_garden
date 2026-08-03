@@ -4,7 +4,7 @@ The highest honest CLONK yield right now is 0.61% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7df57204-cd06-433e-b892-bbf9a1df946e&src=seo_token) | Base | 0.61% | $117.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7df57204-cd06-433e-b892-bbf9a1df946e&src=seo_token) | Base | 0.61% | $117.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLONK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.6K in total.
+1 live pool clear this page's $100K TVL floor, $117.2K in total.
 
 ### Are these rates safe?
 

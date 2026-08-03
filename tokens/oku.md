@@ -1,10 +1,9 @@
 # OKU DeFi Yields
 
-The highest honest OKU yield right now is 11.54% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OKU yield right now is 11.54% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=dc12ca29-af90-5dca-ae69-eab4a6cff722&src=seo_token) | Solana | 0.08% | $220.2K |
 | [orca-dex →](https://www.defi.garden/?pool=7f7539d9-6c95-5c46-8d8c-68720886f96d&src=seo_token) | Solana | 11.54% | $171.3K |
 | [orca-dex →](https://www.defi.garden/?pool=21ded663-74bd-565d-8ecf-48d1f1f4e6d4&src=seo_token) | Solana | 0.12% | $159.3K |
 
@@ -18,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OKU pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $550.8K in total.
+2 live pools clear this page's $100K TVL floor, $330.6K in total.
 
 ### Are these rates safe?
 

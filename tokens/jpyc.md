@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JPYC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $399.3K in total.
+2 live pools clear this page's $100K TVL floor, $399.5K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
 - [WPOL](https://www.defi.garden/tokens/wpol)
-- [WMATIC](https://www.defi.garden/tokens/wmatic)
 
 ## Available on
 

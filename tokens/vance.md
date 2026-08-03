@@ -1,11 +1,11 @@
 # VANCE DeFi Yields
 
-The highest honest VANCE yield right now is 3.02% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VANCE yield right now is 3.90% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0a14f683-dd6b-402d-8a1a-4a8b3b3d2681&src=seo_token) | Ethereum | 3.02% | $136.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d012280f-1f2a-4db6-b2b4-9f2fb2fb62ba&src=seo_token) | Base | 0.37% | $107.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0a14f683-dd6b-402d-8a1a-4a8b3b3d2681&src=seo_token) | Ethereum | 3.90% | $137.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d012280f-1f2a-4db6-b2b4-9f2fb2fb62ba&src=seo_token) | Base | 0.37% | $107.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VANCE yield today?
 
-3.02% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.90% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many VANCE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $244.3K in total.
+2 live pools clear this page's $100K TVL floor, $245.2K in total.
 
 ### Are these rates safe?
 

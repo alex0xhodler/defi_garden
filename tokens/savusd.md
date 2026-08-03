@@ -1,14 +1,14 @@
 # SAVUSD DeFi Yields
 
-The highest honest SAVUSD yield right now is 24.20% on avant-avusd (Avalanche), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAVUSD yield right now is 9.44% on avant-avusd (Avalanche), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 9.28% | $104.09M |
-| [pendle →](https://www.defi.garden/?pool=187794d1-b1ed-4233-a797-a723856230f8&src=seo_token) | Ethereum | 9.39% | $767.6K |
 | [pendle →](https://www.defi.garden/?pool=e0eba109-179f-4633-b5a8-63442f5d41db&src=seo_token) | Ethereum | 9.44% | $767.6K |
+| [pendle →](https://www.defi.garden/?pool=187794d1-b1ed-4233-a797-a723856230f8&src=seo_token) | Ethereum | 9.39% | $767.6K |
 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $761.6K |
-| [yuzu-finance →](https://www.defi.garden/?pool=558f9845-5093-4310-8123-de9293e85e89&src=seo_token) | Move | 24.20% | $349.5K |
+| [yuzu-finance →](https://www.defi.garden/?pool=558f9845-5093-4310-8123-de9293e85e89&src=seo_token) | Move | 0.32% | $281.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAVUSD yield today?
 
-24.20% APY on avant-avusd (Avalanche), based on live DefiLlama data.
+9.44% APY on avant-avusd (Avalanche), based on live DefiLlama data.
 
 ### How many SAVUSD pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $146.8M in total.
+11 live pools clear this page's $100K TVL floor, $146.73M in total.
 
 ### Are these rates safe?
 

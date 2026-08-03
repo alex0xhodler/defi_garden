@@ -1,12 +1,12 @@
 # MSETH-OETH — curve-dex on Ethereum
 
-**Total APY:** 5.83% (0.02% Base · + 5.81% Rewards)
+**Total APY:** 5.86% (0.00% Base · + 5.86% Rewards)
 
-**TVL:** $497.8K
+**TVL:** $494.8K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 7.10%
+**30d Mean APY:** 7.09%
 
 **Exposure:** multi
 
@@ -21,13 +21,13 @@ Moderate risk profile
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,327 in 5y at current rates.
+$1,000 in this pool grows to ~$1,330 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
-[Garden this pool → ~$1,327 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,330 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 

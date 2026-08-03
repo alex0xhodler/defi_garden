@@ -1,10 +1,10 @@
 # AXLEUROC DeFi Yields
 
-The highest honest AXLEUROC yield right now is 5.01% on mento-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AXLEUROC yield right now is 5.02% on mento-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 5.01% | $130.4K |
+| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 5.02% | $130K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AXLEUROC yield today?
 
-5.01% APY on mento-v3 (Celo), based on live DefiLlama data.
+5.02% APY on mento-v3 (Celo), based on live DefiLlama data.
 
 ### How many AXLEUROC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.4K in total.
+1 live pool clear this page's $100K TVL floor, $130K in total.
 
 ### Are these rates safe?
 
@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [USDM](https://www.defi.garden/tokens/usdm)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CUSD](https://www.defi.garden/tokens/cusd)
-- [EURM](https://www.defi.garden/tokens/eurm)
 - [CELO](https://www.defi.garden/tokens/celo)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
-- [CEUR](https://www.defi.garden/tokens/ceur)
+- [EURM](https://www.defi.garden/tokens/eurm)
 
 ## Available on
 

@@ -4,14 +4,14 @@ The highest honest CBBTC yield right now is 15.55% on aave-v3 (Base), among 162 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $156.07M |
-| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 4.35% | $83.54M |
-| [kamino-lend →](https://www.defi.garden/?pool=ec8af777-6c9e-440a-9a3d-355f556baa04&src=seo_token) | Solana | 0.01% | $43.52M |
-| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 0.47% | $17.87M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 6.02% | $16M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token) | Ethereum | 0.04% | $14.44M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=69800b02-58a9-4838-b19d-d2719950e296&src=seo_token) | Ethereum | 4.69% | $11.12M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ae6e650d-2da1-43ee-b960-2adfdf4dc2b7&src=seo_token) | Base | 15.55% | $10.92M |
+| [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $154.86M |
+| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 4.88% | $83M |
+| [kamino-lend →](https://www.defi.garden/?pool=ec8af777-6c9e-440a-9a3d-355f556baa04&src=seo_token) | Solana | 0.01% | $43.47M |
+| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 0.47% | $17.81M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 4.15% | $17.65M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=69800b02-58a9-4838-b19d-d2719950e296&src=seo_token) | Ethereum | 5.54% | $11.01M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ae6e650d-2da1-43ee-b960-2adfdf4dc2b7&src=seo_token) | Base | 15.55% | $10.93M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.07% | $10.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

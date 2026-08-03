@@ -1,10 +1,10 @@
 # WOON DeFi Yields
 
-The highest honest WOON yield right now is 1.47% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOON yield right now is 1.64% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f3bf7918-3758-4d41-a691-a5d22deb35cc&src=seo_token) | Base | 1.47% | $211.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f3bf7918-3758-4d41-a691-a5d22deb35cc&src=seo_token) | Base | 1.64% | $210.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WOON yield today?
 
-1.47% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.64% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many WOON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $423K in total.
+3 live pools clear this page's $100K TVL floor, $421.4K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest NOPAL yield right now is 15.86% on nest-credit (Plume Mainnet
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 8.54% | $54.37M |
+| [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 8.54% | $55.4M |
 | [pendle →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 14.11% | $2.89M |
 | [pendle →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 15.86% | $2.89M |
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NOPAL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $60.15M in total.
+3 live pools clear this page's $100K TVL floor, $61.19M in total.
 
 ### Are these rates safe?
 

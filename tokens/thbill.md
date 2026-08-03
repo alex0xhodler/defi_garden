@@ -1,13 +1,14 @@
 # THBILL DeFi Yields
 
-The highest honest THBILL yield right now is 3.20% on theo-network-thbill (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THBILL yield right now is 3.55% on theo-network-thbill (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.20% | $86.43M |
-| [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.20% | $1.42M |
-| [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.20% | $1.07M |
-| [project-x →](https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token) | Hyperliquid L1 | 0.02% | $218.8K |
+| [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.55% | $86.45M |
+| [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.55% | $1.42M |
+| [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.55% | $1.07M |
+| [project-x →](https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token) | Hyperliquid L1 | 0.03% | $218.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.03% | $175.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THBILL yield today?
 
-3.20% APY on theo-network-thbill (Ethereum), based on live DefiLlama data.
+3.55% APY on theo-network-thbill (Ethereum), based on live DefiLlama data.
 
 ### How many THBILL pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $161.28M in total.
+9 live pools clear this page's $100K TVL floor, $161.24M in total.
 
 ### Are these rates safe?
 

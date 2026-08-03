@@ -5,11 +5,11 @@ The highest honest SUSDS yield right now is 5.24% on sky-lending (Ethereum), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.64B |
-| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.16M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.32% | $10.68M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.10% | $6.08M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 4.36% | $5.57M |
-| [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d&src=seo_token) | OP Mainnet | 3.52% | $5.1M |
+| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $362.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.68% | $10.63M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.11% | $6.08M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 4.39% | $5.58M |
+| [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d&src=seo_token) | OP Mainnet | 3.52% | $5.12M |
 | [pendle →](https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec&src=seo_token) | Ethereum | 4.96% | $4.58M |
 | [pendle →](https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa&src=seo_token) | Ethereum | 5.24% | $4.58M |
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSDS pools clear the TVL floor?
 
-29 live pools clear this page's $100K TVL floor, $5.15B in total.
+29 live pools clear this page's $100K TVL floor, $5.16B in total.
 
 ### Are these rates safe?
 

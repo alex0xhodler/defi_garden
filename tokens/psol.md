@@ -4,8 +4,8 @@ The highest honest PSOL yield right now is 6.22% on phantom-sol (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [phantom-sol →](https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token) | Solana | 6.22% | $119.66M |
-| [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.49% | $1.4M |
+| [phantom-sol →](https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token) | Solana | 6.22% | $118.98M |
+| [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.57% | $1.39M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $126.6M in total.
+3 live pools clear this page's $100K TVL floor, $125.88M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest JUNO yield right now is 35.27% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=82944144-af68-4ee9-b7e3-dab62215bb7c&src=seo_token) | Base | 35.27% | $291.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=82944144-af68-4ee9-b7e3-dab62215bb7c&src=seo_token) | Base | 35.27% | $288K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JUNO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $291.4K in total.
+1 live pool clear this page's $100K TVL floor, $288K in total.
 
 ### Are these rates safe?
 

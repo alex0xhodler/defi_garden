@@ -4,7 +4,7 @@ The highest honest INFINIFIUSDC yield right now is 5.08% on morpho-blue (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token) | Ethereum | 4.90% | $1.2M |
+| [morpho-blue →](https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token) | Ethereum | 4.86% | $1.2M |
 | [morpho-blue →](https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token) | Ethereum | 5.08% | $1.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

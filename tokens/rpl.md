@@ -1,12 +1,12 @@
 # RPL DeFi Yields
 
-The highest honest RPL yield right now is 22.96% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RPL yield right now is 27.22% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token) | Ethereum | 0.65% | $359.1K |
-| [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token) | Ethereum | 1.06% | $356K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token) | Ethereum | 22.96% | $173.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token) | Ethereum | 0.85% | $360K |
+| [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token) | Ethereum | 1.06% | $357.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token) | Ethereum | 27.22% | $172.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RPL yield today?
 
-22.96% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+27.22% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many RPL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $888.3K in total.
+3 live pools clear this page's $100K TVL floor, $889.2K in total.
 
 ### Are these rates safe?
 

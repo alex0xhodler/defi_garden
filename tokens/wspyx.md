@@ -1,10 +1,10 @@
 # WSPYX DeFi Yields
 
-The highest honest WSPYX yield right now is 0.16% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WSPYX yield right now is 0.21% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=247c4969-6eb4-4abd-b073-7c83d0920e82&src=seo_token) | Ethereum | 0.16% | $318.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=247c4969-6eb4-4abd-b073-7c83d0920e82&src=seo_token) | Ethereum | 0.21% | $318.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WSPYX yield today?
 
-0.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.21% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WSPYX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $990.8K in total.
+3 live pools clear this page's $100K TVL floor, $990.1K in total.
 
 ### Are these rates safe?
 

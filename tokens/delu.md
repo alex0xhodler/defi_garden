@@ -4,7 +4,7 @@ The highest honest DELU yield right now is 149.66% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b00618c4-940d-4044-8369-87e32192f4c4&src=seo_token) | Base | 149.66% | $102.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b00618c4-940d-4044-8369-87e32192f4c4&src=seo_token) | Base | 149.66% | $108K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DELU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.6K in total.
+1 live pool clear this page's $100K TVL floor, $108K in total.
 
 ### Are these rates safe?
 
