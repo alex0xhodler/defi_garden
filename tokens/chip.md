@@ -1,12 +1,12 @@
 # CHIP DeFi Yields
 
-The highest honest CHIP yield right now is 20.75% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHIP yield right now is 22.37% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.09% | $970.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.09% | $965.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d3501b4f-7224-4b7e-b446-c69e19afc65f&src=seo_token) | Ethereum | 0.52% | $197.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 20.75% | $177K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 22.37% | $173.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHIP yield today?
 
-20.75% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+22.37% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many CHIP pools clear the TVL floor?
 

@@ -4,7 +4,7 @@ The highest honest TREE yield right now is 0.11% on uniswap-v3 (Base), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8&src=seo_token) | Base | 0.11% | $434.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8&src=seo_token) | Base | 0.11% | $432.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TREE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.51M in total.
+2 live pools clear this page's $100K TVL floor, $1.5M in total.
 
 ### Are these rates safe?
 

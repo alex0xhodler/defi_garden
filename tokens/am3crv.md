@@ -1,10 +1,10 @@
 # AM3CRV DeFi Yields
 
-The highest honest AM3CRV yield right now is 0.02% on curve-dex (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AM3CRV yield right now is 0.01% on curve-dex (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.02% | $104.1K |
+| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.01% | $104.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AM3CRV yield today?
 
-0.02% APY on curve-dex (Polygon), based on live DefiLlama data.
+0.01% APY on curve-dex (Polygon), based on live DefiLlama data.
 
 ### How many AM3CRV pools clear the TVL floor?
 

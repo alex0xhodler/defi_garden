@@ -6,7 +6,7 @@ The highest honest EURS yield right now is 0.25% on curve-dex (Ethereum), among 
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=4dbfda50-4474-4ef1-9f59-b5cf5ad7413c&src=seo_token) | Ethereum | 0.09% | $4.4M |
 | [convex-finance →](https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token) | Ethereum | 0.25% | $4.38M |
-| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.01% | $222K |
+| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.01% | $221.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EURS pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $12.81M in total.
+7 live pools clear this page's $100K TVL floor, $12.8M in total.
 
 ### Are these rates safe?
 

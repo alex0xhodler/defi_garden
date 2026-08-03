@@ -1,0 +1,34 @@
+# ARCHGV1USDC — morpho-blue on Base
+
+**Total APY:** 4.09% (4.09% Base · + 0.00% Rewards)
+
+**TVL:** $1.25M
+
+**Pool Type:** Lending
+
+**30d Mean APY:** 4.18%
+
+**Exposure:** single
+
+**IL Risk:** No
+
+## Risk Assessment: Low
+
+Conservative DeFi strategy
+
+- Medium liquidity
+- Credit risk
+
+## The Long Game
+
+$1,000 in this pool grows to ~$1,222 in 5y at current rates.
+
+Your deposit stays yours — you keep your money, and it keeps working.
+
+We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
+
+[Garden this pool → ~$1,222 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+
+[Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
+
+Last updated August 3, 2026

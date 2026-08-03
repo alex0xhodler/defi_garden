@@ -1,10 +1,10 @@
 # UCN DeFi Yields
 
-The highest honest UCN yield right now is 0.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UCN yield right now is 0.33% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=49ebc5a6-94d6-4630-af51-7dac275ee584&src=seo_token) | Ethereum | 0.32% | $244.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=49ebc5a6-94d6-4630-af51-7dac275ee584&src=seo_token) | Ethereum | 0.33% | $241.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UCN yield today?
 
-0.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.33% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many UCN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $244.3K in total.
+1 live pool clear this page's $100K TVL floor, $241.7K in total.
 
 ### Are these rates safe?
 

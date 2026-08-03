@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 5.81% | $32.16M |
+| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 5.98% | $32.16M |
 | [pendle →](https://www.defi.garden/?pool=62e914e8-1027-47a5-b444-5d9e6a407d41&src=seo_token) | Ethereum | 8.85% | $577K |
 | [pendle →](https://www.defi.garden/?pool=d9180649-8c45-4911-ae2a-cf20dc30b0b2&src=seo_token) | Ethereum | 7.65% | $577K |
 

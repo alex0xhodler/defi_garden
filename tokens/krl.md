@@ -4,7 +4,7 @@ The highest honest KRL yield right now is 0.55% on uniswap-v3 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fc839036-4ef2-42c7-860c-7f6349b84293&src=seo_token) | Arbitrum | 0.55% | $100.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fc839036-4ef2-42c7-860c-7f6349b84293&src=seo_token) | Arbitrum | 0.55% | $100K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KRL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $201.7K in total.
+2 live pools clear this page's $100K TVL floor, $201.2K in total.
 
 ### Are these rates safe?
 

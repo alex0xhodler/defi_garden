@@ -1,6 +1,6 @@
 # FXSAVE DeFi Yields
 
-The highest honest FXSAVE yield right now is 12.48% on pendle (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXSAVE yield right now is 12.48% on pendle (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FXSAVE pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $62.87M in total.
+8 live pools clear this page's $100K TVL floor, $63.18M in total.
 
 ### Are these rates safe?
 

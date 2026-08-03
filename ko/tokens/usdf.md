@@ -1,12 +1,12 @@
 # USDF 디파이 수익률
 
-현재 USDF의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 6.33%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDF의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 6.28%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=be43dcf6-39dd-43b1-85e8-20844c1b0e58&src=seo_token) | Ethereum | 0.02% | $10.06M |
-| [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token) | Ethereum | 3.08% | $3.14M |
-| [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 6.33% | $1.53M |
+| [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token) | Ethereum | 3.05% | $3.14M |
+| [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 6.28% | $1.53M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 USDF의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 6.33%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 6.28%예요.
 
 ### USDF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

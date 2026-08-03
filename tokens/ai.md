@@ -4,7 +4,7 @@ The highest honest AI yield right now is 0.22% on uniswap-v3 (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1407743d-e645-4745-bd65-889bdf2a584a&src=seo_token) | Ethereum | 0.22% | $442.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1407743d-e645-4745-bd65-889bdf2a584a&src=seo_token) | Ethereum | 0.22% | $439.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $442.4K in total.
+1 live pool clear this page's $100K TVL floor, $439.6K in total.
 
 ### Are these rates safe?
 

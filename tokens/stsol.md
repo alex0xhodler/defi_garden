@@ -4,7 +4,7 @@ The highest honest STSOL yield right now is 1.32% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7a82f91e-2f28-4b3a-af08-4d553721dd51&src=seo_token) | Solana | 1.32% | $303.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=7a82f91e-2f28-4b3a-af08-4d553721dd51&src=seo_token) | Solana | 1.32% | $302.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $518.2K in total.
+2 live pools clear this page's $100K TVL floor, $517.1K in total.
 
 ### Are these rates safe?
 

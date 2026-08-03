@@ -4,7 +4,7 @@ The highest honest WCC yield right now is 2.80% on ea-finance (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ea-finance →](https://www.defi.garden/?pool=0f2ada2d-bf56-46cd-b79f-81c841fa2cc6&src=seo_token) | BSC | 2.80% | $286.2K |
+| [ea-finance →](https://www.defi.garden/?pool=0f2ada2d-bf56-46cd-b79f-81c841fa2cc6&src=seo_token) | BSC | 2.80% | $286K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $286.2K in total.
+1 live pool clear this page's $100K TVL floor, $286K in total.
 
 ### Are these rates safe?
 
@@ -25,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)

@@ -4,11 +4,11 @@ The highest honest CASH yield right now is 3.70% on orca-dex (Solana), among 5 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 1.04% | $7.14M |
-| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 3.70% | $6.12M |
+| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 1.09% | $7.14M |
+| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 3.70% | $6.15M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 3.01% | $507.1K |
 | [ekubo →](https://www.defi.garden/?pool=1c2b5682-ac68-489e-a1b2-f1f810360871&src=seo_token) | Starknet | 0.02% | $260.6K |
-| [ekubo →](https://www.defi.garden/?pool=18af0ee3-663d-4aaf-b82e-a0c7d19a04db&src=seo_token) | Starknet | 0.03% | $159.4K |
+| [ekubo →](https://www.defi.garden/?pool=18af0ee3-663d-4aaf-b82e-a0c7d19a04db&src=seo_token) | Starknet | 0.02% | $159.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CASH pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $14.18M in total.
+5 live pools clear this page's $100K TVL floor, $14.22M in total.
 
 ### Are these rates safe?
 

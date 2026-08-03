@@ -1,10 +1,10 @@
 # POLS DeFi Yields
 
-The highest honest POLS yield right now is 1.91% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POLS yield right now is 1.90% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2776796e-82f2-4694-a0d3-561490f68fac&src=seo_token) | Ethereum | 1.91% | $111.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2776796e-82f2-4694-a0d3-561490f68fac&src=seo_token) | Ethereum | 1.90% | $111.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POLS yield today?
 
-1.91% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.90% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many POLS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $341.4K in total.
+2 live pools clear this page's $100K TVL floor, $342.3K in total.
 
 ### Are these rates safe?
 

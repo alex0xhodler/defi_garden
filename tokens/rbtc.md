@@ -1,10 +1,10 @@
 # RBTC DeFi Yields
 
-The highest honest RBTC yield right now is 0.21% on sovryn-dex (Rootstock), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RBTC yield right now is 0.06% on sovryn-dex (Rootstock), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.21% | $954.3K |
+| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.01% | $954.3K |
 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.06% | $556.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RBTC yield today?
 
-0.21% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
+0.06% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
 
 ### How many RBTC pools clear the TVL floor?
 

@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHIBA2 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.79M in total.
+2 live pools clear this page's $100K TVL floor, $2.77M in total.
 
 ### Are these rates safe?
 

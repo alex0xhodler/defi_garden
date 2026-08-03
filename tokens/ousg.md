@@ -5,7 +5,7 @@ The highest honest OUSG yield right now is 3.31% on ondo-yield-assets (XRPL), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [ondo-yield-assets →](https://www.defi.garden/?pool=36e8a552-9e64-42da-b8f8-1a20866510d8&src=seo_token) | XRPL | 3.31% | $212.52M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token) | Ethereum | 3.31% | $165.84M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=7436db9b-2872-46c8-81a2-da6baff902b7&src=seo_token) | Ethereum | 3.31% | $165.89M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OUSG pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $417.39M in total.
+3 live pools clear this page's $100K TVL floor, $417.44M in total.
 
 ### Are these rates safe?
 

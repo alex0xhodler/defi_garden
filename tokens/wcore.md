@@ -1,10 +1,10 @@
 # WCORE DeFi Yields
 
-The highest honest WCORE yield right now is 0.76% on colend-protocol (CORE), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WCORE yield right now is 0.75% on colend-protocol (CORE), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.76% | $135.8K |
+| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.75% | $132.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WCORE yield today?
 
-0.76% APY on colend-protocol (CORE), based on live DefiLlama data.
+0.75% APY on colend-protocol (CORE), based on live DefiLlama data.
 
 ### How many WCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $135.8K in total.
+1 live pool clear this page's $100K TVL floor, $132.7K in total.
 
 ### Are these rates safe?
 

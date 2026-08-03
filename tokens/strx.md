@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STRX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $779.97M in total.
+2 live pools clear this page's $100K TVL floor, $779.98M in total.
 
 ### Are these rates safe?
 

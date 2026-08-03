@@ -4,7 +4,7 @@ The highest honest CTWBTC yield right now is 4.87% on concrete (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=41d4d267-8a93-4c7a-bdd8-8ad4f78d5bd2&src=seo_token) | Ethereum | 4.87% | $2.49M |
+| [concrete →](https://www.defi.garden/?pool=41d4d267-8a93-4c7a-bdd8-8ad4f78d5bd2&src=seo_token) | Ethereum | 4.87% | $2.48M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CTWBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $21.12M in total.
+2 live pools clear this page's $100K TVL floor, $21.03M in total.
 
 ### Are these rates safe?
 

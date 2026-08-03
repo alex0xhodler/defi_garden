@@ -1,10 +1,10 @@
 # SWARMS DeFi Yields
 
-The highest honest SWARMS yield right now is 7.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWARMS yield right now is 7.65% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=25cb3610-4aae-43dc-8773-fe13bdec9eb2&src=seo_token) | Solana | 7.38% | $1.16M |
+| [raydium-amm →](https://www.defi.garden/?pool=25cb3610-4aae-43dc-8773-fe13bdec9eb2&src=seo_token) | Solana | 7.65% | $1.16M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWARMS yield today?
 
-7.38% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.65% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SWARMS pools clear the TVL floor?
 

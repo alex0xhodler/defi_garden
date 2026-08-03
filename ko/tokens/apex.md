@@ -1,11 +1,11 @@
 # APEX 디파이 수익률
 
-현재 APEX의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 2.95%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 APEX의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 2.94%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token) | Ethereum | 0.71% | $942.3K |
-| [camelot-v3 →](https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token) | Arbitrum | 2.95% | $153.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token) | Ethereum | 0.68% | $943.2K |
+| [camelot-v3 →](https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token) | Arbitrum | 2.94% | $152.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 APEX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 2.95%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 2.94%예요.
 
 ### APEX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

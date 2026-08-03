@@ -1,13 +1,14 @@
 # ZORA 디파이 수익률
 
-현재 ZORA의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 33.51%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ZORA의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 51.31%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 7.70% | $530.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 6.30% | $172.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 7.52% | $148.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ba721671-cd58-47b8-8678-1c1275c3b1b6&src=seo_token) | Base | 33.51% | $143.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 7.40% | $530.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 0.17% | $164.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ba721671-cd58-47b8-8678-1c1275c3b1b6&src=seo_token) | Base | 33.79% | $150.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 7.68% | $140.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ee21c420-e7aa-442b-b020-aa0ad800c845&src=seo_token) | Base | 51.31% | $107K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,11 +16,11 @@
 
 ### 오늘 ZORA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 33.51%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 51.31%예요.
 
 ### ZORA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $994.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.09M예요.
 
 ### 이 수익률은 안전한가요?
 
