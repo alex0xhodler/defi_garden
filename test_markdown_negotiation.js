@@ -388,23 +388,44 @@ test('sanity: the router arrays parsed out of home.html look right (non-empty, c
 // exactly — but "covered" now means "in `missing` OR named by a positive
 // query-`has` rule on the SAME source that routes/overrides away from the
 // llms.txt destination/content-type", not "in `missing`" alone.
-function positiveRewriteAppKeys() {
+//
+// Round 5: membership alone is not enough — a positive rule only WORKS if
+// it's correctly ORDERED relative to the rule it's meant to pre-empt/override
+// (rewrites: first-match-wins, so a shadow rule must come BEFORE llms.txt;
+// headers: later-overrides-earlier, so an override must come AFTER the
+// markdown rule). A rule that's present but misordered is silently useless —
+// exactly the failure mode "app" almost shipped with in attempt 1 of round 4
+// — so these scans are now ORDERING-aware: a rule in the wrong position does
+// NOT count as coverage, full stop, regardless of whether it's "there".
+// Parameterized on `cfg` (not the closed-over `config`) so a test below can
+// feed it a mutated clone and prove the ordering check actually bites.
+function positiveRewriteKeys(cfg) {
+  const rewrites = cfg.rewrites;
+  const llmsIdx = rewrites.findIndex(r => r.source === '/' && r.destination === '/llms.txt');
   const keys = new Set();
-  config.rewrites.forEach(r => {
+  rewrites.forEach((r, i) => {
     if (r.source !== '/' || r.destination === '/llms.txt') return;
-    (r.has || []).forEach(h => { if (h.type === 'query') keys.add(h.key); });
+    const queryKeys = (r.has || []).filter(h => h.type === 'query').map(h => h.key);
+    if (!queryKeys.length) return;
+    if (llmsIdx === -1 || i >= llmsIdx) return; // misordered (or llms.txt rule missing) — does NOT count
+    queryKeys.forEach(k => keys.add(k));
   });
   return keys;
 }
-function positiveHeaderAppKeys() {
+function positiveHeaderKeys(cfg) {
+  const headers = cfg.headers;
+  const markdownIdx = headers.findIndex(r => r.source === '/' && (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value)));
   const keys = new Set();
-  config.headers.forEach(r => {
+  headers.forEach((r, i) => {
     if (r.source !== '/') return;
     const isTheMarkdownRule = (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value));
     if (isTheMarkdownRule) return; // that's the rule being covered FOR, not a positive override of it
     const hasMarkdownAcceptPredicate = (r.has || []).some(h => h.type === 'header' && h.key === 'Accept' && /markdown/.test(h.value || ''));
     if (!hasMarkdownAcceptPredicate) return; // only rules that specifically react to markdown Accept count
-    (r.has || []).forEach(h => { if (h.type === 'query') keys.add(h.key); });
+    const queryKeys = (r.has || []).filter(h => h.type === 'query').map(h => h.key);
+    if (!queryKeys.length) return;
+    if (markdownIdx === -1 || i <= markdownIdx) return; // misordered (or markdown rule missing) — does NOT count
+    queryKeys.forEach(k => keys.add(k));
   });
   return keys;
 }
@@ -415,21 +436,128 @@ function assertCoverageEqualsRouterParams(rule, positiveKeys, label) {
   const notCovered = [...ROUTER_PARAMS].filter(k => !coveredKeys.has(k));
   const extra = [...coveredKeys].filter(k => !ROUTER_PARAMS.has(k));
   assert.deepStrictEqual(notCovered, [],
-    `${label}: router param(s) not covered by missing-list ∪ positive rules (would silently fall back to llms.txt / wrong Content-Type): ${notCovered.join(', ')}`);
+    `${label}: router param(s) not covered by missing-list ∪ correctly-ordered positive rules (would silently fall back to llms.txt / wrong Content-Type — check for a MISORDERED positive rule, not just a missing one): ${notCovered.join(', ')}`);
   assert.deepStrictEqual(extra, [],
     `${label}: covered-set has key(s) that are not real router params — drifted or typo'd: ${extra.join(', ')}`);
 }
 
-test('the "/" -> "/llms.txt" REWRITE\'s missing-list ∪ positive shadow-rewrite keys EXACTLY equals ANALYTICS_PARAMS ∪ PLANNER_PARAMS', () => {
+/** Direct ordering assertions (round 5) — separate from the coverage-equality
+ * assertions above so a failure message says "misordered", not just
+ * "uncovered param": every positive-rule-SHAPED entry on source "/" (has a
+ * query-type `has` predicate) must sit on the correct side of the rule it's
+ * meant to pre-empt/override, by name, regardless of whether ANY key ends up
+ * uncovered overall. */
+function assertPositiveRewriteOrdering(cfg) {
+  const rewrites = cfg.rewrites;
+  const llmsIdx = rewrites.findIndex(r => r.source === '/' && r.destination === '/llms.txt');
+  assert.ok(llmsIdx !== -1, 'expected the "/" -> "/llms.txt" rewrite to exist');
+  rewrites.forEach((r, i) => {
+    if (r.source !== '/' || r.destination === '/llms.txt') return;
+    const queryKeys = (r.has || []).filter(h => h.type === 'query').map(h => h.key);
+    if (!queryKeys.length) return;
+    assert.ok(i < llmsIdx,
+      `positive rewrite for [${queryKeys.join(',')}] at rewrites[${i}] must be ordered BEFORE the "/" -> "/llms.txt" rewrite at rewrites[${llmsIdx}] (first-match-wins) — it is currently AFTER it and is therefore dead code`);
+  });
+}
+function assertPositiveHeaderOrdering(cfg) {
+  const headers = cfg.headers;
+  const markdownIdx = headers.findIndex(r => r.source === '/' && (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value)));
+  assert.ok(markdownIdx !== -1, 'expected the "/" markdown header rule to exist');
+  headers.forEach((r, i) => {
+    if (r.source !== '/') return;
+    const isTheMarkdownRule = (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value));
+    if (isTheMarkdownRule) return;
+    const hasMarkdownAcceptPredicate = (r.has || []).some(h => h.type === 'header' && h.key === 'Accept' && /markdown/.test(h.value || ''));
+    const queryKeys = (r.has || []).filter(h => h.type === 'query').map(h => h.key);
+    if (!hasMarkdownAcceptPredicate || !queryKeys.length) return;
+    assert.ok(i > markdownIdx,
+      `positive header override for [${queryKeys.join(',')}] at headers[${i}] must be ordered AFTER the "/" markdown header rule at headers[${markdownIdx}] (later-overrides-earlier) — it is currently BEFORE it and is therefore overridden BY the markdown rule instead of overriding it`);
+  });
+}
+
+test('the "/" -> "/llms.txt" REWRITE\'s missing-list ∪ correctly-ordered positive shadow-rewrite keys EXACTLY equals ANALYTICS_PARAMS ∪ PLANNER_PARAMS', () => {
   const rootMarkdownRewrite = config.rewrites.find(r => r.source === '/' && r.destination === '/llms.txt');
   assert.ok(rootMarkdownRewrite, 'expected the "/" -> "/llms.txt" markdown rewrite to exist');
-  assertCoverageEqualsRouterParams(rootMarkdownRewrite, positiveRewriteAppKeys(), 'rewrite');
+  assertCoverageEqualsRouterParams(rootMarkdownRewrite, positiveRewriteKeys(config), 'rewrite');
 });
-test('the "/" markdown HEADER rule\'s missing-list ∪ positive override-rule keys EXACTLY equals ANALYTICS_PARAMS ∪ PLANNER_PARAMS (must travel with the rewrite)', () => {
+test('the "/" markdown HEADER rule\'s missing-list ∪ correctly-ordered positive override-rule keys EXACTLY equals ANALYTICS_PARAMS ∪ PLANNER_PARAMS (must travel with the rewrite)', () => {
   const rootMarkdownHeaderRule = config.headers.find(r =>
     r.source === '/' && r.has && (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value)));
   assert.ok(rootMarkdownHeaderRule, 'expected the "/" markdown header rule (Content-Type: text/markdown) to exist');
-  assertCoverageEqualsRouterParams(rootMarkdownHeaderRule, positiveHeaderAppKeys(), 'header rule');
+  assertCoverageEqualsRouterParams(rootMarkdownHeaderRule, positiveHeaderKeys(config), 'header rule');
+});
+test('every positive-rule-shaped rewrite on source "/" is correctly ordered relative to the "/llms.txt" rewrite (direct ordering assertion)', () => {
+  assertPositiveRewriteOrdering(config);
+});
+test('every positive-rule-shaped header override on source "/" is correctly ordered relative to the markdown header rule (direct ordering assertion)', () => {
+  assertPositiveHeaderOrdering(config);
+});
+
+console.log('proof the ordering-aware guard actually bites (round 5 — a guard never shown to fail is not known to work)');
+test('moving the /?app=1 shadow rewrite to AFTER "/llms.txt" makes the ordering-aware scan stop counting "app" as covered', () => {
+  const mutated = JSON.parse(JSON.stringify(config));
+  const llmsIdxBefore = mutated.rewrites.findIndex(r => r.source === '/' && r.destination === '/llms.txt');
+  const shadowIdxBefore = mutated.rewrites.findIndex(r =>
+    r.source === '/' && r.destination === '/home' && (r.has || []).some(h => h.type === 'query' && h.key === 'app'));
+  assert.ok(shadowIdxBefore !== -1 && llmsIdxBefore !== -1 && shadowIdxBefore < llmsIdxBefore,
+    'sanity: the real vercel.json must start with the shadow rewrite correctly BEFORE llms.txt');
+  assert.ok(positiveRewriteKeys(mutated).has('app'), 'sanity: before mutation, "app" counts as covered');
+
+  const [shadowRule] = mutated.rewrites.splice(shadowIdxBefore, 1);
+  const llmsIdxAfterRemoval = mutated.rewrites.findIndex(r => r.source === '/' && r.destination === '/llms.txt');
+  mutated.rewrites.splice(llmsIdxAfterRemoval + 1, 0, shadowRule); // now strictly AFTER llms.txt
+
+  const keysAfterBreak = positiveRewriteKeys(mutated);
+  assert.ok(!keysAfterBreak.has('app'),
+    'GUARD BUG: moving the shadow rewrite after "/llms.txt" should stop "app" from counting as covered, but it still does');
+
+  // And the actual coverage-equality assertion, run against the mutated
+  // fixture, must now throw and name "app" — not silently pass.
+  const mutatedRootRewrite = mutated.rewrites.find(r => r.source === '/' && r.destination === '/llms.txt');
+  assert.throws(
+    () => assertCoverageEqualsRouterParams(mutatedRootRewrite, positiveRewriteKeys(mutated), 'rewrite (mutated fixture)'),
+    /app/,
+    'expected the coverage-equality assertion to throw, naming "app", once its shadow rewrite is misordered'
+  );
+  // ...and the direct ordering assertion must throw too, independently.
+  assert.throws(
+    () => assertPositiveRewriteOrdering(mutated),
+    /app/,
+    'expected the direct ordering assertion to throw, naming "app", once its shadow rewrite is misordered'
+  );
+});
+test('moving the /?app=1 header override to BEFORE the markdown header rule makes the ordering-aware scan stop counting "app" as covered', () => {
+  const mutated = JSON.parse(JSON.stringify(config));
+  const markdownIdxBefore = mutated.headers.findIndex(r =>
+    r.source === '/' && (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value)));
+  const overrideIdxBefore = mutated.headers.findIndex(r =>
+    r.source === '/' && (r.has || []).some(h => h.type === 'query' && h.key === 'app') &&
+    (r.headers || []).some(h => h.key === 'Content-Type' && h.value === 'text/html; charset=utf-8'));
+  assert.ok(markdownIdxBefore !== -1 && overrideIdxBefore !== -1 && overrideIdxBefore > markdownIdxBefore,
+    'sanity: the real vercel.json must start with the override rule correctly AFTER the markdown rule');
+  assert.ok(positiveHeaderKeys(mutated).has('app'), 'sanity: before mutation, "app" counts as covered');
+
+  const [overrideRule] = mutated.headers.splice(overrideIdxBefore, 1);
+  const markdownIdxAfterRemoval = mutated.headers.findIndex(r =>
+    r.source === '/' && (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value)));
+  mutated.headers.splice(markdownIdxAfterRemoval, 0, overrideRule); // now strictly BEFORE the markdown rule
+
+  const keysAfterBreak = positiveHeaderKeys(mutated);
+  assert.ok(!keysAfterBreak.has('app'),
+    'GUARD BUG: moving the header override before the markdown rule should stop "app" from counting as covered, but it still does');
+
+  const mutatedRootHeaderRule = mutated.headers.find(r =>
+    r.source === '/' && r.has && (r.headers || []).some(h => h.key === 'Content-Type' && /markdown/.test(h.value)));
+  assert.throws(
+    () => assertCoverageEqualsRouterParams(mutatedRootHeaderRule, positiveHeaderKeys(mutated), 'header rule (mutated fixture)'),
+    /app/,
+    'expected the coverage-equality assertion to throw, naming "app", once its header override is misordered'
+  );
+  assert.throws(
+    () => assertPositiveHeaderOrdering(mutated),
+    /app/,
+    'expected the direct ordering assertion to throw, naming "app", once its header override is misordered'
+  );
 });
 
 console.log('drift guard (secondary) — a .get(\'key\') source scan, for params read OUTSIDE the router array mechanism');
@@ -459,7 +587,7 @@ test('every .get(\'key\') param found in app.js/home.html/planner.js that IS a r
   assert.ok(derived.size > 0, 'sanity: expected at least one .get(\'...\') param to be found');
 
   const rootMarkdownRewrite = config.rewrites.find(r => r.source === '/' && r.destination === '/llms.txt');
-  const coveredKeys = new Set([...(rootMarkdownRewrite.missing || []).map(m => m.key), ...positiveRewriteAppKeys()]);
+  const coveredKeys = new Set([...(rootMarkdownRewrite.missing || []).map(m => m.key), ...positiveRewriteKeys(config)]);
 
   const unexplained = [...derived].filter(key => ROUTER_PARAMS.has(key) && !coveredKeys.has(key));
   assert.deepStrictEqual(unexplained, [],

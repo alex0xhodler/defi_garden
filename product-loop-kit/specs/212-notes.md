@@ -130,8 +130,13 @@ human-clicked URL (`/?app=1`, the planner's analytics header icon) returning a c
 `missing ∪ positive-rule keys`, still exact equality in both directions, for both the rewrite and the
 header table. A **new regression test** asserts every `has` and every `missing` array anywhere in
 `vercel.json` is ≤16 entries, quoting the Vercel error text so the next reader sees a platform limit rather
-than a style rule. The guard's positive-rule scan is generic, not `app`-keyed, so a second param needing
-the same treatment is recognised automatically.
+than a style rule. The guard's positive-rule scan is generic, not `app`-keyed, and — after the
+verifier flagged that the first version checked only set *membership* — it is **ordering-aware** too: a
+`/`-sourced shadow rewrite counts as coverage only if it precedes the `llms.txt` rule, a header override
+only if it follows the markdown rule. A rule in the wrong position drops out of the covered set and fails
+the equality assertion by name, which is the property that actually makes a positive rule work. A
+mutation test moves the shadow rule after `llms.txt` in an in-memory clone and asserts the derivation
+stops counting it — a guard that has never been shown to fail is not known to work.
 
 Operator re-derived independently of the tests: no over-cap array anywhere in the file; rewrite coverage =
 `missing` (16) ∪ positive (1) = exactly the 17-key router union; shadow rule at rewrite index 0, `llms.txt`
