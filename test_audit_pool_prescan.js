@@ -25,6 +25,11 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { runAudit, prescanPools, buildPoolSurfaces, reconcilePrescanFindings, DEFAULT_POOL_SAMPLE } = require('./audit-app.js');
+// backlog 215 — the same rail the prescan predicates check against
+// (audit-app.js requires it verbatim from here too), reused by value/import
+// rather than a re-typed literal, so the positive control below is provably
+// "> the real rail", not just "> some big number".
+const { APY_SANITY_LIMIT } = require('./src/poller-core.js');
 
 const ROOT = __dirname;
 
@@ -102,7 +107,16 @@ async function main() {
     fs.writeFileSync(snapPath, JSON.stringify({ pools }));
     const outPath = tmpOut('a3b');
     try {
-      const result = await runAudit({ port: 8940, snapshotPath: snapPath, only: ['pool-prescan'], outPath });
+      // backlog 215: `poolLiveness: false` deliberately degrades the
+      // deep-linked leg so this test stays scoped to exactly the 5-pool
+      // fixture snapshot it wrote above — without it, runAudit() would do a
+      // REAL live fetch + a real estate deep-link scan and widen the prescan
+      // to the union of those (thousands of pools), which is what
+      // test_audit_pool_prescan.js's own new "215 …" cases and
+      // test_audit_pool_population.js already cover on purpose; this test's
+      // job is only "does runAudit() wire poolPrescan through end to end",
+      // which needs a deterministic, tiny population to assert against.
+      const result = await runAudit({ port: 8940, snapshotPath: snapPath, only: ['pool-prescan'], outPath, poolLiveness: false });
       assert(result.surfacesCovered.length === 0, `only:['pool-prescan'] matches no real surface name — expected zero rendered surfaces, got ${JSON.stringify(result.surfacesCovered)}`);
       const hit = result.findings.find((f) => f.surface === 'pool-prescan' && f.check === 'pool-prescan:apy-rail-breach');
       assert(hit, `expected a pool-prescan:apy-rail-breach finding; got: ${JSON.stringify(result.findings)}`);
@@ -110,6 +124,8 @@ async function main() {
       assert(hit.detail.includes('breach-p'), `finding detail should reference the breaching pool id's 8-char prefix "breach-p": ${hit.detail}`);
       assert(result.poolPrescan.scanned === 5, `result.poolPrescan.scanned should be 5, got ${result.poolPrescan.scanned}`);
       assert(result.poolPrescan.bySignal['apy-rail-breach'] === 1, `result.poolPrescan.bySignal['apy-rail-breach'] should be 1, got ${JSON.stringify(result.poolPrescan.bySignal)}`);
+      assert(result.poolPrescan.scannedByLeg.snapshot === 5 && result.poolPrescan.scannedByLeg.deepLinkedLive === 0,
+        `expected scannedByLeg {snapshot:5, deepLinkedLive:0} with the deep-linked leg degraded; got ${JSON.stringify(result.poolPrescan.scannedByLeg)}`);
     } finally {
       try { fs.unlinkSync(snapPath); } catch (e) {}
       try { fs.unlinkSync(outPath); } catch (e) {}
@@ -317,6 +333,122 @@ async function main() {
       promotedKeys: new Set(), keyToSurface: poolSurfaceOf, coveredSurfaces: new Set(), findingsBySurface: new Map()
     });
     assert(r.poolPrescanFindings.length === 0, 'reconciliation must not have added or mutated anything on an empty findings array');
+  });
+
+  // ---------------------------------------------------------------------------
+  // backlog 215 — the prescan input widens from the snapshot alone to the
+  // union the pool-detail rotation already draws from (snapshot ∪ live
+  // records for deep-linked ids not in the snapshot). All fixtures below are
+  // pure buildPoolSurfaces() calls (no rendering) — the union/promotion/
+  // marking logic is fully exercised without Chromium.
+  // ---------------------------------------------------------------------------
+
+  // A live-shape record: NO `kpis` field (loadLivePoolIds()'s own note — live
+  // records never carry kpis), otherwise the same fields prescanPools() reads.
+  function liveSubRailPool(id, apyMean30d) {
+    return {
+      pool: id, chain: 'Ethereum', project: 'sub-rail-project', symbol: 'SUBRAIL',
+      tvlUsd: 12_000_000, apyBase: 2.0, apyReward: 0.5, apyMean30d
+    };
+  }
+  const SUB_RAIL_ID = 'subrail0-live-only-0000001'; // absent from every fixture `pools` array below
+
+  await test('215 positive control: a sub-rail-only live record with apyMean30d > APY_SANITY_LIMIT is scanned, flagged, PROMOTED, and its surface carries subRail:true', () => {
+    const pools = [anchorPool()].concat(Array.from({ length: 20 }, (_, i) => cleanPool(i)));
+    const snapshotIdsSet = new Set(pools.map((p) => p.pool));
+    assert(!snapshotIdsSet.has(SUB_RAIL_ID), 'sanity: SUB_RAIL_ID collided with a snapshot fixture id');
+
+    const r = buildPoolSurfaces({
+      pools, poolSeed: 'audit-215-positive-seed',
+      deepLinkPoolIds: [SUB_RAIL_ID],
+      livePoolIds: new Set([SUB_RAIL_ID]),
+      livePoolRecords: [liveSubRailPool(SUB_RAIL_ID, APY_SANITY_LIMIT + 5000)]
+    });
+
+    // Appears as a suspect.
+    const hit = r.poolPrescanSuspects.find((s) => s.poolId === SUB_RAIL_ID && s.signal === 'mean30d-rail-breach');
+    assert(hit, `expected a mean30d-rail-breach suspect for ${SUB_RAIL_ID}; got poolPrescanSuspects: ${JSON.stringify(r.poolPrescanSuspects)}`);
+    assert(hit.severity === 'P0', `mean30d-rail-breach must be P0, got ${hit.severity}`);
+
+    // Promoted into the render sample.
+    assert(r.poolPrescan.promoted.includes(SUB_RAIL_ID), `expected ${SUB_RAIL_ID} in poolPrescan.promoted; got ${JSON.stringify(r.poolPrescan.promoted)}`);
+
+    // Its surface carries subRail:true (the correctness trap this item exists to close).
+    const surface = r.extraSurfaces.find((s) => s.poolId === SUB_RAIL_ID);
+    assert(surface, `expected an extraSurfaces entry for ${SUB_RAIL_ID}; got ${JSON.stringify(r.extraSurfaces)}`);
+    assert(surface.subRail === true, `expected the promoted sub-rail surface to carry subRail:true; got ${JSON.stringify(surface)}`);
+
+    // Scanned the union, not the snapshot alone — cross-checked against the
+    // run's OWN reported figures (167/206/215's disk-derived-count rule),
+    // never a hardcoded literal.
+    assert(r.poolPrescan.scanned === pools.length + 1, `expected poolPrescan.scanned === snapshot(${pools.length}) + 1 sub-rail record, got ${r.poolPrescan.scanned}`);
+    assert(r.poolPrescan.scanned === r.poolRotation.union, `expected poolPrescan.scanned (${r.poolPrescan.scanned}) === poolRotation.union (${r.poolRotation.union}) — same population, one scan`);
+    assert(r.poolPrescan.scannedByLeg.snapshot === pools.length, `expected scannedByLeg.snapshot === ${pools.length}, got ${r.poolPrescan.scannedByLeg.snapshot}`);
+    assert(r.poolPrescan.scannedByLeg.deepLinkedLive === 1, `expected scannedByLeg.deepLinkedLive === 1, got ${r.poolPrescan.scannedByLeg.deepLinkedLive}`);
+  });
+
+  await test('215 positive control, removed: same sub-rail id with a SANE apyMean30d -> clean (not a suspect, not promoted, not marked subRail)', () => {
+    const pools = [anchorPool()].concat(Array.from({ length: 20 }, (_, i) => cleanPool(i)));
+    const r = buildPoolSurfaces({
+      pools, poolSeed: 'audit-215-negative-seed',
+      deepLinkPoolIds: [SUB_RAIL_ID],
+      livePoolIds: new Set([SUB_RAIL_ID]),
+      livePoolRecords: [liveSubRailPool(SUB_RAIL_ID, 4.2)]
+    });
+    assert(r.poolPrescanSuspects.every((s) => s.poolId !== SUB_RAIL_ID), `expected zero suspects for ${SUB_RAIL_ID} on a sane record; got ${JSON.stringify(r.poolPrescanSuspects.filter((s) => s.poolId === SUB_RAIL_ID))}`);
+    assert(!r.poolPrescan.promoted.includes(SUB_RAIL_ID), `expected ${SUB_RAIL_ID} NOT promoted on a sane record; got ${JSON.stringify(r.poolPrescan.promoted)}`);
+    assert(r.poolPrescan.bySignal['mean30d-rail-breach'] === 0, `expected zero mean30d-rail-breach hits, got ${r.poolPrescan.bySignal['mean30d-rail-breach']}`);
+    // Still scanned (the union widening itself is unconditional) — only the
+    // SUSPICION is gone, not the coverage.
+    assert(r.poolPrescan.scanned === pools.length + 1, `expected the sub-rail record to still be SCANNED (clean != unscanned); got scanned=${r.poolPrescan.scanned}`);
+  });
+
+  await test('215: kpi-nonfinite applicability is explicit — live sub-rail records (no kpis) are "not applicable", not "checked and clean"', () => {
+    const pools = [anchorPool()].concat(Array.from({ length: 5 }, (_, i) => cleanPool(i)));
+    const r = buildPoolSurfaces({
+      pools, poolSeed: 'audit-215-kpi-seed',
+      deepLinkPoolIds: [SUB_RAIL_ID],
+      livePoolIds: new Set([SUB_RAIL_ID]),
+      livePoolRecords: [liveSubRailPool(SUB_RAIL_ID, 4.2)] // sane, no kpis field
+    });
+    // Every snapshot pool (anchor + 5 clean) carries `kpis`; the sub-rail
+    // live record does not — kpiApplicable must count only the former.
+    assert(r.poolPrescan.kpiApplicable === pools.length, `expected kpiApplicable === ${pools.length} (snapshot records only, sub-rail live record excluded); got ${r.poolPrescan.kpiApplicable}`);
+    assert(r.poolPrescan.scanned === pools.length + 1, `expected scanned === ${pools.length + 1} (kpiApplicable must stay a STRICT subset of scanned); got ${r.poolPrescan.scanned}`);
+    assert(typeof r.poolPrescan.kpiApplicableNote === 'string' && r.poolPrescan.kpiApplicableNote.length > 0,
+      `expected a non-empty kpiApplicableNote explaining the applicability split; got ${JSON.stringify(r.poolPrescan.kpiApplicableNote)}`);
+    assert(/not applicable|no kpis|not checked-and-clean|skipped/i.test(r.poolPrescan.kpiApplicableNote),
+      `expected kpiApplicableNote to explicitly distinguish "not applicable" from "checked, clean"; got: ${r.poolPrescan.kpiApplicableNote}`);
+  });
+
+  await test('215: degraded-live tick (no deep-linked ids supplied) -> prescan falls back to snapshot-only AND reports the degrade reason', () => {
+    const pools = [anchorPool()].concat(Array.from({ length: 5 }, (_, i) => cleanPool(i)));
+    const r = buildPoolSurfaces({ pools, poolSeed: 'audit-215-degrade-seed' }); // no deepLinkPoolIds/livePoolIds supplied
+    assert(r.poolPrescan.scanned === pools.length, `expected a degraded tick to fall back to snapshot-only scanned (${pools.length}); got ${r.poolPrescan.scanned}`);
+    assert(r.poolPrescan.scannedByLeg.deepLinkedLive === 0, `expected scannedByLeg.deepLinkedLive === 0 on a degraded tick, got ${r.poolPrescan.scannedByLeg.deepLinkedLive}`);
+    assert(typeof r.poolPrescan.deepLinkSource === 'string' && r.poolPrescan.deepLinkSource.length > 0,
+      `expected a non-empty poolPrescan.deepLinkSource degrade-reason string; got ${JSON.stringify(r.poolPrescan.deepLinkSource)}`);
+    // Never silently narrower — the SAME reason poolRotation already reports (no second copy of the prose).
+    assert(r.poolPrescan.deepLinkSource === r.poolRotation.deepLinkSource,
+      `expected poolPrescan.deepLinkSource to be the SAME string as poolRotation.deepLinkSource (one degrade reason, not two); got poolPrescan="${r.poolPrescan.deepLinkSource}" vs poolRotation="${r.poolRotation.deepLinkSource}"`);
+  });
+
+  await test('215 (spec 171 applies identically to the new leg): a promoted SUB-RAIL suspect whose surface renders clean -> auto-downgrade; reconciliation keys off poolId/surface name, not snapshot membership', () => {
+    const poolSurfaceOf = (id) => `pool-detail:${id.slice(0, 8)}`;
+    const f = { surface: 'pool-prescan', viewport: 'n/a', check: 'pool-prescan:mean30d-rail-breach', severity: 'P0',
+      detail: `1 of 26 union pools (25 snapshot + 1 deep-linked-live) match mean30d-rail-breach — examples: ${SUB_RAIL_ID.slice(0, 8)}` };
+    const suspects = [{ poolId: SUB_RAIL_ID, signal: 'mean30d-rail-breach' }];
+    reconcilePrescanFindings([f], {
+      prefix: 'pool-prescan',
+      suspects,
+      suspectKey: (s) => s.poolId,
+      promotedKeys: new Set([SUB_RAIL_ID]),
+      keyToSurface: poolSurfaceOf,
+      coveredSurfaces: new Set([poolSurfaceOf(SUB_RAIL_ID)]),
+      findingsBySurface: new Map() // rendered zero findings
+    });
+    assert(f.severity === 'P2', `expected the sub-rail suspect to reconcile down to P2 exactly like a snapshot suspect would, got ${f.severity}`);
+    assert(f.detail.includes('reconciled'), `detail must gain the reconciliation reason: ${f.detail}`);
   });
 
   console.log(`\ntest_audit_pool_prescan.js: ${passed} passed, ${failed} failed`);

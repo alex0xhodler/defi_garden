@@ -2457,6 +2457,14 @@ function isNonFiniteNumber(v) {
 function prescanPools(pools, opts = {}) {
   const list = Array.isArray(pools) ? pools : [];
   const suspects = [];
+  // backlog 215 — kpi-nonfinite is only APPLICABLE to a record that carries a
+  // `kpis` object (snapshot records only; live-shape deep-linked records
+  // never have one — see loadLivePoolIds()'s own comment). Counted here,
+  // alongside the signal check itself, so the caller can state "clean" with
+  // its true denominator instead of implying every scanned record was
+  // checked (the 197 trap: a scan that quietly checks less than its name
+  // implies).
+  let kpiApplicable = 0;
 
   for (const p of list) {
     if (!p || typeof p !== 'object') continue;
@@ -2482,6 +2490,7 @@ function prescanPools(pools, opts = {}) {
     // throw on the literal), so this only ever trips on in-memory fixtures —
     // a deliberate robustness net, exercised by test_audit_pool_prescan.js.
     if (p.kpis && typeof p.kpis === 'object') {
+      kpiApplicable++;
       for (const key of Object.keys(p.kpis)) {
         if (isNonFiniteNumber(p.kpis[key])) {
           suspects.push({ poolId: id, signal: 'kpi-nonfinite', severity: POOL_PRESCAN_SIGNALS['kpi-nonfinite'],
@@ -2530,13 +2539,28 @@ function prescanPools(pools, opts = {}) {
   for (const sig of Object.keys(POOL_PRESCAN_SIGNALS)) bySignal[sig] = 0;
   for (const s of suspects) bySignal[s.signal] = (bySignal[s.signal] || 0) + 1;
 
-  return { scanned: list.length, suspects, bySignal };
+  return { scanned: list.length, suspects, bySignal, kpiApplicable };
 }
 
 // No-suspects/disabled shape — same role as emptyPrescanResult()/
 // emptyTextSurfaceResult(): callers never need to null-check result.poolPrescan.
 function emptyPoolPrescanResult() {
-  return { scanned: 0, suspectCount: 0, bySignal: {}, promoted: [] };
+  return {
+    scanned: 0, suspectCount: 0, bySignal: {}, promoted: [],
+    // backlog 215 — same "never null-check" contract as the fields above:
+    // always present, whether the prescan ran over a real union or didn't
+    // run at all. scannedByLeg keeps "clean" honest about which population
+    // (snapshot vs. deep-linked-live) contributed the scanned count;
+    // kpiApplicable/kpiApplicableNote keep kpi-nonfinite's "checked, clean"
+    // distinct from "not applicable, no kpis on this record" (the 197 trap);
+    // deepLinkSource carries the SAME degrade/status reason string
+    // poolRotation.deepLinkSource reports, reused verbatim, never a second
+    // copy of that prose.
+    scannedByLeg: { snapshot: 0, deepLinkedLive: 0 },
+    kpiApplicable: 0,
+    kpiApplicableNote: '',
+    deepLinkSource: null
+  };
 }
 
 function poolIdPrefix(id) {
@@ -2897,87 +2921,15 @@ function buildPoolSurfaces(opts = {}) {
     console.error(`[audit] preferred pool id absent from snapshot; using ${anchorPoolId}`);
   }
 
-  const prescanEnabled = opts.poolPrescan === true ? true
-    : opts.poolPrescan === false ? false
-    : process.env.AUDIT_POOL_PRESCAN === '0' ? false
-    : true;
-  const prescanMax = Math.max(0, Number(opts.poolPrescanMax || process.env.AUDIT_POOL_PRESCAN_MAX || DEFAULT_POOL_PRESCAN_MAX));
-  const sampleSize = Math.min(MAX_POOL_SAMPLE,
-    Math.max(0, Number(opts.poolSample || process.env.AUDIT_POOL_SAMPLE || DEFAULT_POOL_SAMPLE)));
-  // Reuses the SAME seed the static leg uses (spec 167 §3: "reuse the
-  // existing seed"), namespaced so the two rotations never pick in lockstep.
-  const seed = opts.poolSeed || opts.staticSeed || process.env.AUDIT_STATIC_SEED || defaultStaticSeed();
-
-  let poolPrescan = emptyPoolPrescanResult();
-  const poolPrescanFindings = [];
-  let promotedIds = [];
-  let poolPrescanSuspects = []; // backlog 171 — see the return-shape comment above
-
-  if (prescanEnabled && prescanMax > 0 && pools.length) {
-    const scan = prescanPools(pools);
-    // Never promote the anchor pool — it is already covered by the
-    // unchanged four pool-detail* surfaces (mirrors static's anchorLeafRel
-    // exclusion).
-    const suspects = scan.suspects.filter((s) => s.poolId !== anchorPoolId);
-    poolPrescanSuspects = suspects;
-
-    const bySignal = {};
-    for (const sig of Object.keys(POOL_PRESCAN_SIGNALS)) bySignal[sig] = 0;
-    for (const s of suspects) bySignal[s.signal] = (bySignal[s.signal] || 0) + 1;
-
-    // One aggregate finding per signal with >=1 suspect (mirrors
-    // static-prescan:<signal> verbatim in shape and wording).
-    for (const sig of Object.keys(POOL_PRESCAN_SIGNALS)) {
-      const hits = suspects.filter((s) => s.signal === sig);
-      if (hits.length === 0) continue;
-      const examples = hits.slice(0, 10).map((s) => poolIdPrefix(s.poolId));
-      poolPrescanFindings.push(finding('pool-prescan', 'n/a', `pool-prescan:${sig}`, POOL_PRESCAN_SIGNALS[sig],
-        `${hits.length} of ${scan.scanned} snapshot pools match ${sig} — examples: ${examples.join(', ')}`));
-    }
-
-    // Dedupe to unique pool ids, preserving the P0-first/poolId-sorted order
-    // prescanPools() already returned (mirrors prescanStaticPages's
-    // suspectRels dedupe in buildStaticSurfaces).
-    const seenId = new Set();
-    const uniqueIds = [];
-    const severityById = {};
-    for (const s of suspects) {
-      if (!seenId.has(s.poolId)) { seenId.add(s.poolId); uniqueIds.push(s.poolId); severityById[s.poolId] = s.severity; }
-    }
-    const p0Ids = uniqueIds.filter((id) => severityById[id] === 'P0');
-    const p1Ids = uniqueIds.filter((id) => severityById[id] !== 'P0');
-
-    // "P0-first, tie broken by sampleBySeed" (spec 167 §2), taken literally:
-    // severity decides ordering deterministically; sampleBySeed only
-    // arbitrates WITHIN a severity group when that group alone exceeds the
-    // cap. (157 never needed this two-tier split — its two prescan signals
-    // in active use, junk-slug/zero-yield-claim, are both P1.)
-    if (p0Ids.length <= prescanMax) {
-      promotedIds = p0Ids.slice();
-      const remaining = prescanMax - promotedIds.length;
-      if (remaining > 0 && p1Ids.length) promotedIds = promotedIds.concat(sampleBySeed(p1Ids, remaining, `${seed}:poolprescan`));
-    } else {
-      promotedIds = sampleBySeed(p0Ids, prescanMax, `${seed}:poolprescan`);
-    }
-
-    // `promoted` holds FULL pool ids (spec 167 A1: "poolPrescan.promoted
-    // contains 201e5f6e-cf75-4d0e-b07f-d58da3cee23a" — the whole id, not the
-    // 8-char prefix used only for surface NAMING). The prescan aggregate
-    // finding's `examples` list above intentionally stays on the shorter
-    // prefix (readability, mirrors static-prescan's slug examples); this
-    // field is the machine-checkable one and must be exact.
-    poolPrescan = { scanned: scan.scanned, suspectCount: suspects.length, bySignal, promoted: promotedIds.slice() };
-  }
-
-  // backlog 192: `poolId` (the full id, alongside the already-truncated
-  // `name`) so runAudit()'s render loop / reconciliation never has to
-  // re-derive it from the 8-char prefix (a real collision risk at MAX_POOL_
-  // SAMPLE=64 scale that `name` alone would create). Promoted surfaces carry
-  // NO `rotationPick` marker — they are never skippable (spec 192 part 2).
-  const extraSurfaces = promotedIds.map((id) => ({
-    name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280, poolId: id
-  }));
-
+  // ---- backlog 215 — this whole backlog-206 population block (union +
+  // degrade handling) is MOVED UP from its original position, which sat
+  // AFTER the prescan block below. Its logic, its console.error degrade
+  // notes, and its comments are byte-identical to their pre-215 form —
+  // hoisted, never rewritten (spec 215: "reuse it; never a second copy of
+  // the set expression") — because the prescan below now ALSO needs
+  // `subRailOnlyIds`/`unionIds` to widen its own candidate population, not
+  // just the rotation further down. Both consumers read the exact same
+  // `unionIds`/`subRailOnlyIds`/`deepLinkSource` computed once, here.
   // ---- backlog 206 — widen the candidate population: union of the snapshot
   // ids and the estate's own `?pool=` deep links, intersected with the live
   // feed. The intersection is a HARD requirement (spec §4), not an
@@ -3026,6 +2978,143 @@ function buildPoolSurfaces(opts = {}) {
     deepLinkSource = `${subRailLiveIds.length} of ${deepLinkPoolIdsIn.length} deep-linked ids confirmed live, ${subRailOnlyIds.size} net-new beyond the snapshot`;
   }
   const unionIds = snapshotIdsArr.concat([...subRailOnlyIds]).sort();
+
+  // ---- backlog 215 — full LIVE-shape records for the sub-rail-only ids
+  // (`subRailOnlyIds`, just computed above), so the prescan below can run
+  // its pure record predicates over them too, not just the snapshot.
+  // `opts.livePoolRecords` is the additive opt runAudit() forwards from
+  // `liveness.pools` (loadLivePoolIds()'s full records, already fetched —
+  // never a second fetch); same test-injection convention as
+  // opts.livePools/opts.rotationState elsewhere in this file. A missing
+  // record for a confirmed-live id (mismatched test injection, never
+  // production — subRailOnlyIds is already ∩ opts.livePoolIds by
+  // construction above) is simply skipped, never thrown: that one id is not
+  // added to the prescan input, exactly like any other "no data" case this
+  // file treats as unable-to-check rather than an error.
+  const livePoolRecordsIn = Array.isArray(opts.livePoolRecords) ? opts.livePoolRecords : [];
+  const subRailOnlyRecords = [];
+  if (subRailOnlyIds.size > 0 && livePoolRecordsIn.length) {
+    const livePoolRecordsById = new Map(livePoolRecordsIn.map((p) => [p.pool, p]));
+    for (const id of subRailOnlyIds) {
+      const rec = livePoolRecordsById.get(id);
+      if (rec) subRailOnlyRecords.push(rec);
+    }
+  }
+
+  const prescanEnabled = opts.poolPrescan === true ? true
+    : opts.poolPrescan === false ? false
+    : process.env.AUDIT_POOL_PRESCAN === '0' ? false
+    : true;
+  const prescanMax = Math.max(0, Number(opts.poolPrescanMax || process.env.AUDIT_POOL_PRESCAN_MAX || DEFAULT_POOL_PRESCAN_MAX));
+  const sampleSize = Math.min(MAX_POOL_SAMPLE,
+    Math.max(0, Number(opts.poolSample || process.env.AUDIT_POOL_SAMPLE || DEFAULT_POOL_SAMPLE)));
+  // Reuses the SAME seed the static leg uses (spec 167 §3: "reuse the
+  // existing seed"), namespaced so the two rotations never pick in lockstep.
+  const seed = opts.poolSeed || opts.staticSeed || process.env.AUDIT_STATIC_SEED || defaultStaticSeed();
+
+  let poolPrescan = emptyPoolPrescanResult();
+  const poolPrescanFindings = [];
+  let promotedIds = [];
+  let poolPrescanSuspects = []; // backlog 171 — see the return-shape comment above
+
+  // backlog 215 — prescan input is now the UNION (snapshot ∪ live records for
+  // sub-rail-only deep-linked ids), the same population the rotation below
+  // draws from, not the snapshot alone. `pools.length || subRailOnlyRecords.
+  // length` (rather than `pools.length` alone) so a caller that injects ONLY
+  // the deep-linked leg (pools:[] , a real record set) still gets scanned —
+  // matches the rotation's own no-snapshot-required stance below.
+  if (prescanEnabled && prescanMax > 0 && (pools.length || subRailOnlyRecords.length)) {
+    const prescanInput = pools.concat(subRailOnlyRecords);
+    const scan = prescanPools(prescanInput);
+    // Never promote the anchor pool — it is already covered by the
+    // unchanged four pool-detail* surfaces (mirrors static's anchorLeafRel
+    // exclusion).
+    const suspects = scan.suspects.filter((s) => s.poolId !== anchorPoolId);
+    poolPrescanSuspects = suspects;
+
+    const bySignal = {};
+    for (const sig of Object.keys(POOL_PRESCAN_SIGNALS)) bySignal[sig] = 0;
+    for (const s of suspects) bySignal[s.signal] = (bySignal[s.signal] || 0) + 1;
+
+    // One aggregate finding per signal with >=1 suspect (mirrors
+    // static-prescan:<signal> verbatim in shape and wording). backlog 215:
+    // wording updated from "snapshot pools" to "union pools" plus an
+    // explicit per-leg split — the old "N of M snapshot pools" phrasing
+    // became false the moment M stopped being the snapshot count alone.
+    for (const sig of Object.keys(POOL_PRESCAN_SIGNALS)) {
+      const hits = suspects.filter((s) => s.signal === sig);
+      if (hits.length === 0) continue;
+      const examples = hits.slice(0, 10).map((s) => poolIdPrefix(s.poolId));
+      poolPrescanFindings.push(finding('pool-prescan', 'n/a', `pool-prescan:${sig}`, POOL_PRESCAN_SIGNALS[sig],
+        `${hits.length} of ${scan.scanned} union pools (${pools.length} snapshot + ${subRailOnlyRecords.length} deep-linked-live) match ${sig} — examples: ${examples.join(', ')}`));
+    }
+
+    // Dedupe to unique pool ids, preserving the P0-first/poolId-sorted order
+    // prescanPools() already returned (mirrors prescanStaticPages's
+    // suspectRels dedupe in buildStaticSurfaces).
+    const seenId = new Set();
+    const uniqueIds = [];
+    const severityById = {};
+    for (const s of suspects) {
+      if (!seenId.has(s.poolId)) { seenId.add(s.poolId); uniqueIds.push(s.poolId); severityById[s.poolId] = s.severity; }
+    }
+    const p0Ids = uniqueIds.filter((id) => severityById[id] === 'P0');
+    const p1Ids = uniqueIds.filter((id) => severityById[id] !== 'P0');
+
+    // "P0-first, tie broken by sampleBySeed" (spec 167 §2), taken literally:
+    // severity decides ordering deterministically; sampleBySeed only
+    // arbitrates WITHIN a severity group when that group alone exceeds the
+    // cap. (157 never needed this two-tier split — its two prescan signals
+    // in active use, junk-slug/zero-yield-claim, are both P1.)
+    if (p0Ids.length <= prescanMax) {
+      promotedIds = p0Ids.slice();
+      const remaining = prescanMax - promotedIds.length;
+      if (remaining > 0 && p1Ids.length) promotedIds = promotedIds.concat(sampleBySeed(p1Ids, remaining, `${seed}:poolprescan`));
+    } else {
+      promotedIds = sampleBySeed(p0Ids, prescanMax, `${seed}:poolprescan`);
+    }
+
+    // `promoted` holds FULL pool ids (spec 167 A1: "poolPrescan.promoted
+    // contains 201e5f6e-cf75-4d0e-b07f-d58da3cee23a" — the whole id, not the
+    // 8-char prefix used only for surface NAMING). The prescan aggregate
+    // finding's `examples` list above intentionally stays on the shorter
+    // prefix (readability, mirrors static-prescan's slug examples); this
+    // field is the machine-checkable one and must be exact.
+    // backlog 215 — additive fields: scannedByLeg states the per-leg split
+    // honestly (spec §Change item 4); kpiApplicable/kpiApplicableNote make
+    // kpi-nonfinite's "not applicable" (live records carry no kpis) explicit
+    // rather than silently reading as "checked, clean" (the 197 trap);
+    // deepLinkSource reuses the EXACT reason string the population block
+    // above computed — the same "falls back to snapshot-only AND SAYS SO"
+    // degrade contract 206 already established, never a second copy of it.
+    poolPrescan = {
+      scanned: scan.scanned, suspectCount: suspects.length, bySignal, promoted: promotedIds.slice(),
+      scannedByLeg: { snapshot: pools.length, deepLinkedLive: subRailOnlyRecords.length },
+      kpiApplicable: scan.kpiApplicable,
+      kpiApplicableNote: `kpi-nonfinite applies only to records carrying a kpis object (${scan.kpiApplicable} of ${scan.scanned} scanned) — snapshot records only; live-only (deep-linked) records carry no kpis and are skipped for this signal, not checked-and-clean.`,
+      deepLinkSource
+    };
+  }
+
+  // backlog 192: `poolId` (the full id, alongside the already-truncated
+  // `name`) so runAudit()'s render loop / reconciliation never has to
+  // re-derive it from the 8-char prefix (a real collision risk at MAX_POOL_
+  // SAMPLE=64 scale that `name` alone would create). Promoted surfaces carry
+  // NO `rotationPick` marker — they are never skippable (spec 192 part 2).
+  // backlog 215 (THE CORRECTNESS TRAP) — a promoted id can now be a sub-rail
+  // id too (the widened prescan can promote an id absent from the snapshot),
+  // so mark it `subRail: true` here using the SAME `subRailOnlyIds` set the
+  // rotation path below marks its own picks with — one marker, two producers,
+  // never two different rules. Unmarked, runAudit() would route the render to
+  // the snapshot-derived `liveBody` fixture, which carries no record for a
+  // sub-rail id, and the render would fabricate a dead-end/empty-state
+  // finding instead of the real one (the exact snapshot-shape trap
+  // playbooks/product-audit.md warns about).
+  const extraSurfaces = promotedIds.map((id) => {
+    const surface = { name: `pool-detail:${poolIdPrefix(id)}`, url: `/home.html?pool=${encodeURIComponent(id)}`, kind: 'pool', width: 1280, poolId: id };
+    if (subRailOnlyIds.has(id)) surface.subRail = true;
+    return surface;
+  });
 
   // ---- Never-audited-first rotation (backlog 183 leg b) — additive to
   // promotion, see header note above. Replaces the old bare
@@ -4010,7 +4099,16 @@ async function runAudit(opts = {}) {
     // the ordinary/production path (opts.deepLinkPoolIds unset) falls back
     // to what the static prescan just found.
     deepLinkPoolIds: Array.isArray(opts.deepLinkPoolIds) ? opts.deepLinkPoolIds : staticResult.prescan.deepLinkPoolIds,
-    livePoolIds: liveness.ids, deepLinkDegradeReason
+    livePoolIds: liveness.ids, deepLinkDegradeReason,
+    // backlog 215 — additive: `liveness.pools` (loadLivePoolIds()'s FULL live
+    // records, already fetched/injected once — never a second fetch) so
+    // buildPoolSurfaces() can widen the PRESCAN input too, not just the
+    // rotation. Same test-injection convention as opts.livePools/
+    // opts.rotationState elsewhere in this file — a test that passes
+    // opts.livePoolRecords directly to buildPoolSurfaces() (bypassing
+    // runAudit() entirely) overrides this the same way opts.livePoolIds/
+    // opts.deepLinkPoolIds already do above.
+    livePoolRecords: liveness.pools
   });
   const poolId = poolResult.anchorPoolId;
 
