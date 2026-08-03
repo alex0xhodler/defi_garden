@@ -142,6 +142,52 @@ Operator re-derived independently of the tests: no over-cap array anywhere in th
 `missing` (16) ∪ positive (1) = exactly the 17-key router union; shadow rule at rewrite index 0, `llms.txt`
 rule at index 1.
 
+## Round 6 — the shipped negotiation was DEAD in production, and only a live request found it
+
+After merge, CI generated all 4,314 twins and I curled prod. Result:
+
+```
+/tokens/usdc.md                        200  text/markdown   2,696 B  "# USDC DeFi Yields"   twin fine
+/tokens/usdc   (Accept: text/markdown) 200  text/markdown  18,881 B  "<!DOCTYPE html>"      HTML!
+/tokens/zzzznotarealtoken (same header) 404                     79 B                        rewrite DID fire
+```
+
+**Vercel's pipeline is `redirects → filesystem/static → rewrites`.** With `cleanUrls: true`,
+`/tokens/usdc` resolves statically to `tokens/usdc.html` *before* rewrites are consulted, so the four
+markdown rewrites never fired for any page that has a twin — exactly the pages they exist for. The
+nonexistent-token probe is the proof: with no static file to match, the rewrite fires and 404s on the
+missing `.md`. Meanwhile the header rule still matched, so the estate was serving an **HTML body labelled
+`Content-Type: text/markdown`**, and — worse — carrying `X-Robots-Tag: noindex` on 2,166 indexable SEO
+pages whenever the request asked for markdown. Real crawlers send `Accept: */*`, not `text/markdown`, so
+no page was ever actually at risk of de-indexing; it was still a header that had no business being there.
+
+**How it got past every gate.** The offline matcher modelled rewrites as running against the raw path with
+no filesystem stage. It returned the right answers for the wrong reason, the verifier re-derived against
+the same wrong model and agreed, and 63 assertions all passed on a mechanism that could not fire. **The
+modelling gap was the bug as much as the config was** — and the item's own standing rule (2026-07-11: UX
+acceptance must measure rendered product behaviour, never fixtures alone) turns out to apply to edge
+config just as hard. For `vercel.json` the equivalent of "drive the real UI" is "curl the real edge."
+
+**Fix:** `redirects` run *before* the filesystem, so the four negotiation rules moved there —
+`permanent: false` (**307, never 308**: the response varies by request header, and a cached permanent
+redirect would later be served to a browser that asked for HTML). The four dead `index` passthrough
+rewrites became honest 308 canonicalisations (`/tokens/index` → `/tokens`), ordered ahead of the markdown
+redirects so a no-twin path never reaches them. The four negotiated header rules lost their
+`Content-Type: text/markdown` *and* their `X-Robots-Tag: noindex` — with a redirect, those headers sat on
+a real indexable page's response instead of on the twin, and the twin's own `noindex` still comes from the
+untouched `/(.*)\.md` rule. (The `X-Robots-Tag` removal was the build agent's own call, flagged rather
+than slipped in; it is right, and it was the riskier of the two leftovers.)
+
+**Accepted permanent trade-off, named rather than buried:** a negotiating agent now pays one extra round
+trip (307, then fetch the `.md`) instead of the inline 200 a working rewrite would have given. Vercel has
+no mechanism that both runs before the filesystem stage and serves a body inline, so this is inherent to
+the platform, not a shortcut.
+
+**The test now simulates the real pipeline** — redirects (first match) → filesystem resolution driven off
+the actual repo tree via `fs.statSync` honouring `cleanUrls` → rewrites (first match) — plus a regression
+assertion that no `rewrites` entry has a `.md` destination, so the exact shape of this defect cannot come
+back.
+
 ## What was deliberately NOT done
 
 - No `.md` in any sitemap, plus `X-Robots-Tag: noindex` on every markdown response — **both**, per the
