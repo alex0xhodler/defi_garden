@@ -1,17 +1,17 @@
 # XAUT DeFi Yields
 
-The highest honest XAUT yield right now is 5.14% on uniswap-v3 (Ethereum), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAUT yield right now is 5.19% on lista-lending (BSC), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 2.66% | $5.99M |
-| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 2.15% | $5.9M |
+| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 2.16% | $5.91M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 2.26% | $5.89M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62&src=seo_token) | Ethereum | 3.50% | $5.2M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 1.81% | $3.06M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 4.78% | $2.49M |
-| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 1.34% | $2.06M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3552bffb-c474-46bc-b405-6a137f0792e7&src=seo_token) | Ethereum | 2.72% | $1.74M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 5.14% | $818.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 1.16% | $3.06M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 4.73% | $2.49M |
+| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.83% | $2.06M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3552bffb-c474-46bc-b405-6a137f0792e7&src=seo_token) | Ethereum | 2.83% | $1.74M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 5.19% | $820K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAUT yield today?
 
-5.14% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.19% APY on lista-lending (BSC), based on live DefiLlama data.
 
 ### How many XAUT pools clear the TVL floor?
 
-30 live pools clear this page's $100K TVL floor, $133.9M in total.
+30 live pools clear this page's $100K TVL floor, $133.72M in total.
 
 ### Are these rates safe?
 
@@ -40,7 +40,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Available on
 
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Last updated August 3, 2026

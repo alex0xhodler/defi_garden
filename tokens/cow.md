@@ -1,12 +1,12 @@
 # COW DeFi Yields
 
-The highest honest COW yield right now is 5.83% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COW yield right now is 5.81% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token) | Ethereum | 1.73% | $318.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token) | Ethereum | 5.83% | $309.8K |
-| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 0.74% | $278.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token) | Ethereum | 1.71% | $319.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token) | Ethereum | 5.81% | $310.9K |
+| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 0.77% | $280K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COW yield today?
 
-5.83% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.81% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many COW pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $906.8K in total.
+3 live pools clear this page's $100K TVL floor, $910.2K in total.
 
 ### Are these rates safe?
 

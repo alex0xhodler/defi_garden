@@ -1,11 +1,11 @@
 # FLRETH DeFi Yields
 
-The highest honest FLRETH yield right now is 33.18% on kinetic (Flare), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLRETH yield right now is 30.83% on kinetic (Flare), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.03% | $1.69M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token) | Flare | 33.18% | $120.9K |
+| [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.03% | $1.7M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token) | Flare | 30.83% | $123K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLRETH yield today?
 
-33.18% APY on kinetic (Flare), based on live DefiLlama data.
+30.83% APY on kinetic (Flare), based on live DefiLlama data.
 
 ### How many FLRETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.81M in total.
+2 live pools clear this page's $100K TVL floor, $1.82M in total.
 
 ### Are these rates safe?
 

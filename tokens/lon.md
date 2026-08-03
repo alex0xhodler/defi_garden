@@ -1,11 +1,11 @@
 # LON DeFi Yields
 
-The highest honest LON yield right now is 1.03% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LON yield right now is 1.09% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.09% | $1.41M |
-| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 1.03% | $127.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.10% | $1.41M |
+| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 1.09% | $127.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LON yield today?
 
-1.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LON pools clear the TVL floor?
 

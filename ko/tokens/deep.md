@@ -1,13 +1,13 @@
 # DEEP 디파이 수익률
 
-현재 DEEP의 가장 높은 정직한 수익률은 Sui의 navi-lending에서 123.34%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DEEP의 가장 높은 정직한 수익률은 Sui의 navi-lending에서 126.78%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05&src=seo_token) | Sui | 16.81% | $2.35M |
-| [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864&src=seo_token) | Sui | 52.90% | $617.2K |
-| [bluefin-spot →](https://www.defi.garden/?pool=95584ba8-aa96-4dd8-becc-8df72a5a8ca1&src=seo_token) | Sui | 43.61% | $171.2K |
-| [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae&src=seo_token) | Sui | 123.34% | $119.7K |
+| [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05&src=seo_token) | Sui | 16.80% | $2.39M |
+| [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864&src=seo_token) | Sui | 65.31% | $575.8K |
+| [bluefin-spot →](https://www.defi.garden/?pool=95584ba8-aa96-4dd8-becc-8df72a5a8ca1&src=seo_token) | Sui | 45.22% | $175K |
+| [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae&src=seo_token) | Sui | 126.78% | $127.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,11 +15,11 @@
 
 ### 오늘 DEEP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 123.34%예요.
+DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 126.78%예요.
 
 ### DEEP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $3.38M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $3.4M예요.
 
 ### 이 수익률은 안전한가요?
 

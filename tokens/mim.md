@@ -1,11 +1,11 @@
 # MIM DeFi Yields
 
-The highest honest MIM yield right now is 26.80% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MIM yield right now is 26.97% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token) | Ethereum | 15.34% | $273.7K |
-| [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token) | Ethereum | 26.80% | $206.3K |
+| [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token) | Ethereum | 15.47% | $273.8K |
+| [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token) | Ethereum | 26.97% | $206.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MIM yield today?
 
-26.80% APY on curve-dex (Ethereum), based on live DefiLlama data.
+26.97% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many MIM pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.96M in total.
+4 live pools clear this page's $100K TVL floor, $1.98M in total.
 
 ### Are these rates safe?
 

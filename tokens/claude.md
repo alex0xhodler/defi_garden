@@ -1,10 +1,11 @@
 # CLAUDE DeFi Yields
 
-The highest honest CLAUDE yield right now is 644.37% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLAUDE yield right now is 644.37% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=d013b2eb-67db-5349-96bb-f44dddc85118&src=seo_token) | Base | 644.37% | $387.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=351443cb-e82e-578f-b87b-f23b479d0a73&src=seo_token) | Base | 0.15% | $301K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLAUDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $387.4K in total.
+2 live pools clear this page's $100K TVL floor, $688.4K in total.
 
 ### Are these rates safe?
 

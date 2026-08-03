@@ -4,7 +4,7 @@ The highest honest XWBTC yield right now is 3.11% on ekubo (Starknet), among 4 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 3.11% | $603.7K |
+| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 3.11% | $604K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

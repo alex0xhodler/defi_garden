@@ -1,10 +1,10 @@
 # NEMESIS DeFi Yields
 
-The highest honest NEMESIS yield right now is 12.64% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEMESIS yield right now is 7.30% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=fa985a29-682c-46f7-92c0-db411b4b8140&src=seo_token) | Base | 12.64% | $105.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fa985a29-682c-46f7-92c0-db411b4b8140&src=seo_token) | Base | 7.30% | $107.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEMESIS yield today?
 
-12.64% APY on uniswap-v4 (Base), based on live DefiLlama data.
+7.30% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many NEMESIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $105.4K in total.
+1 live pool clear this page's $100K TVL floor, $107.6K in total.
 
 ### Are these rates safe?
 

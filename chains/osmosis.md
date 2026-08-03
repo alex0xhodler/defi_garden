@@ -1,17 +1,17 @@
 # Osmosis DeFi Yields
 
-The highest honest Osmosis yield right now is 25.53% on ondo-yield-assets (Osmosis), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Osmosis yield right now is 16.04% on ondo-yield-assets (Osmosis), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_chain) | 3.55% | $6.66M |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_chain) | 3.19% | $583.7K |
-| ATOM-USDC | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_chain) | 0.13% | $388.3K |
-| BTC-USDC | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_chain) | 0.02% | $384.6K |
-| ATOM-STATOM | [osmosis-dex →](https://www.defi.garden/?pool=b14af2b9-ffad-452b-aa2a-fea7cf75df6b&src=seo_chain) | 0.02% | $383.1K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_chain) | 0.04% | $280K |
-| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e&src=seo_chain) | 0.03% | $279.8K |
-| ATOM-ATONE | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_chain) | 25.53% | $205.8K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_chain) | 3.27% | $598.1K |
+| ATOM-USDC | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_chain) | 0.13% | $395.2K |
+| ATOM-STATOM | [osmosis-dex →](https://www.defi.garden/?pool=b14af2b9-ffad-452b-aa2a-fea7cf75df6b&src=seo_chain) | 0.02% | $393.9K |
+| BTC-USDC | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_chain) | 0.02% | $384.4K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_chain) | 0.04% | $286.8K |
+| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e&src=seo_chain) | 0.03% | $282.6K |
+| ATOM-ATONE | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_chain) | 16.04% | $212.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Osmosis yield today?
 
-25.53% APY on ondo-yield-assets (Osmosis), based on live DefiLlama data.
+16.04% APY on ondo-yield-assets (Osmosis), based on live DefiLlama data.
 
 ### How many Osmosis pools clear the TVL floor?
 
-23 live pools clear this page's $100K TVL floor, $14.95M in total.
+23 live pools clear this page's $100K TVL floor, $15.05M in total.
 
 ### Are these rates safe?
 
@@ -44,8 +44,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ATOM](https://www.defi.garden/tokens/atom)
 - [OSMO](https://www.defi.garden/tokens/osmo)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [BTC](https://www.defi.garden/tokens/btc)
 - [STATOM](https://www.defi.garden/tokens/statom)
+- [BTC](https://www.defi.garden/tokens/btc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [ATONE](https://www.defi.garden/tokens/atone)
 

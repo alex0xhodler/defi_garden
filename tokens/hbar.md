@@ -1,13 +1,13 @@
 # HBAR DeFi Yields
 
-The highest honest HBAR yield right now is 13.38% on saucerswap-v1 (Hedera), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HBAR yield right now is 12.46% on saucerswap-v1 (Hedera), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 6.71% | $1.03M |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 6.37% | $495.7K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.33% | $261.2K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 13.38% | $130.5K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 6.62% | $1.05M |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 6.23% | $499.9K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.31% | $265.2K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 12.46% | $133.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HBAR yield today?
 
-13.38% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
+12.46% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
 
 ### How many HBAR pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.16M in total.
+5 live pools clear this page's $100K TVL floor, $2.19M in total.
 
 ### Are these rates safe?
 

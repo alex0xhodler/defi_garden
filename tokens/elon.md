@@ -4,9 +4,9 @@ The highest honest ELON yield right now is 0.48% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token) | Ethereum | 0.33% | $4.45M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token) | Ethereum | 0.26% | $4.44M |
 | [raydium-amm →](https://www.defi.garden/?pool=2a4d7643-079d-47d9-b9c3-70f13efb12aa&src=seo_token) | Solana | 0.48% | $118.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798&src=seo_token) | Ethereum | 0.09% | $101.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798&src=seo_token) | Ethereum | 0.12% | $101.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

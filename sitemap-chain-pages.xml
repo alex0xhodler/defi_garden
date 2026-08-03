@@ -126,12 +126,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/katana</loc>
+    <loc>https://www.defi.garden/chains/flare</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/flare</loc>
+    <loc>https://www.defi.garden/chains/katana</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -271,12 +271,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/heco</loc>
+    <loc>https://www.defi.garden/chains/flow</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/flow</loc>
+    <loc>https://www.defi.garden/chains/heco</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -306,22 +306,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/unichain</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/rootstock</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/strato</loc>
+    <loc>https://www.defi.garden/chains/unichain</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/core</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/strato</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -416,12 +416,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/cronos-zkevm</loc>
+    <loc>https://www.defi.garden/chains/conflux</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/conflux</loc>
+    <loc>https://www.defi.garden/chains/cronos-zkevm</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>

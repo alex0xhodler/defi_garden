@@ -1,17 +1,17 @@
 # Stellar 디파이 수익률
 
-현재 Stellar의 가장 높은 정직한 수익률은 Stellar의 ondo-yield-assets에서 7.02%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Stellar의 가장 높은 정직한 수익률은 Stellar의 ondo-yield-assets에서 7.03%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_chain) | 3.55% | $533.69M |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_chain) | 0.06% | $116.1M |
-| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_chain) | 7.00% | $20.12M |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf&src=seo_chain) | 7.02% | $12.8M |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_chain) | 0.06% | $115.66M |
+| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_chain) | 7.00% | $20.13M |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf&src=seo_chain) | 7.03% | $12.76M |
 | EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_chain) | 3.00% | $2.96M |
-| EURC | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_chain) | 5.24% | $828.3K |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_chain) | 0.49% | $661.2K |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=48c597dc-9367-4b4a-aa10-49b9755c4c2e&src=seo_chain) | 5.27% | $131.8K |
+| EURC | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_chain) | 5.23% | $827.9K |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_chain) | 0.49% | $658.7K |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=48c597dc-9367-4b4a-aa10-49b9755c4c2e&src=seo_chain) | 5.29% | $131.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Stellar의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Stellar의 ondo-yield-assets에서 APY 7.02%예요.
+DefiLlama 실시간 데이터 기준, Stellar의 ondo-yield-assets에서 APY 7.03%예요.
 
 ### Stellar 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $687.29M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $686.81M예요.
 
 ### 이 수익률은 안전한가요?
 

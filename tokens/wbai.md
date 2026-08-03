@@ -4,7 +4,7 @@ The highest honest WBAI yield right now is 0.01% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=de809a86-4223-41a0-ac45-13eac2acd738&src=seo_token) | Ethereum | 0.01% | $211.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=de809a86-4223-41a0-ac45-13eac2acd738&src=seo_token) | Ethereum | 0.01% | $211.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WBAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $211.5K in total.
+1 live pool clear this page's $100K TVL floor, $211.4K in total.
 
 ### Are these rates safe?
 

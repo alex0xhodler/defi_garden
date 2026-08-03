@@ -4,7 +4,7 @@ The highest honest BADGER yield right now is 0.09% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.09% | $3.93M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.09% | $4.02M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BADGER pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.37M in total.
+3 live pools clear this page's $100K TVL floor, $4.46M in total.
 
 ### Are these rates safe?
 

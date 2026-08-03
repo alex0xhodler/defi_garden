@@ -4,9 +4,9 @@ The highest honest WGMX yield right now is 78.56% on gmtrade (Solana), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token) | Solana | 71.05% | $289.5K |
-| [gmtrade →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token) | Solana | 78.56% | $217.6K |
-| [gmtrade →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token) | Solana | 77.80% | $116.7K |
+| [gmtrade →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token) | Solana | 71.05% | $291.5K |
+| [gmtrade →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token) | Solana | 78.56% | $218.9K |
+| [gmtrade →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token) | Solana | 77.80% | $117.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WGMX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $623.8K in total.
+3 live pools clear this page's $100K TVL floor, $627.9K in total.
 
 ### Are these rates safe?
 

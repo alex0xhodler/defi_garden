@@ -1,17 +1,17 @@
 # GRAM DeFi Yields
 
-The highest honest GRAM yield right now is 38.35% on ston.fi (TON), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GRAM yield right now is 33.17% on ston.fi (TON), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token) | TON | 5.89% | $5.93M |
-| [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token) | TON | 3.56% | $5.17M |
-| [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token) | TON | 6.11% | $1.59M |
+| [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token) | TON | 6.31% | $5.93M |
+| [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token) | TON | 3.64% | $5.17M |
+| [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token) | TON | 6.11% | $1.61M |
 | [affluent →](https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_token) | TON | 1.68% | $1.25M |
 | [evaa-protocol →](https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token) | TON | 4.33% | $1.2M |
-| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 38.35% | $1.06M |
-| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 13.20% | $780.7K |
-| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 15.18% | $693.6K |
+| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 33.17% | $1.05M |
+| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 13.20% | $787.5K |
+| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 14.96% | $692.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GRAM yield today?
 
-38.35% APY on ston.fi (TON), based on live DefiLlama data.
+33.17% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many GRAM pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $27.58M in total.
+33 live pools clear this page's $100K TVL floor, $27.62M in total.
 
 ### Are these rates safe?
 

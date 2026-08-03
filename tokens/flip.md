@@ -4,7 +4,7 @@ The highest honest FLIP yield right now is 11.88% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=511b83aa-3903-48be-8fb0-eb1b0ae43b2f&src=seo_token) | Ethereum | 11.88% | $222.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=511b83aa-3903-48be-8fb0-eb1b0ae43b2f&src=seo_token) | Ethereum | 11.88% | $222.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FLIP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $222.3K in total.
+1 live pool clear this page's $100K TVL floor, $222.4K in total.
 
 ### Are these rates safe?
 

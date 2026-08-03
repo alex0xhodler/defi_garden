@@ -1,14 +1,14 @@
 # UPEG DeFi Yields
 
-The highest honest UPEG yield right now is 347.60% on uniswap-v4 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UPEG yield right now is 368.04% on uniswap-v4 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 232.80% | $1.15M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 41.85% | $272.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=64d8ae8f-78d9-4d11-8863-464ddf04d920&src=seo_token) | Ethereum | 12.33% | $163.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a36157a3-e099-4905-8ef6-50be5f9d6a78&src=seo_token) | Ethereum | 5.40% | $126.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=46b99c5c-80bc-44cb-9971-0ef5999520df&src=seo_token) | Ethereum | 347.60% | $115K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 223.50% | $1.2M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 43.77% | $251.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=64d8ae8f-78d9-4d11-8863-464ddf04d920&src=seo_token) | Ethereum | 13.71% | $157.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a36157a3-e099-4905-8ef6-50be5f9d6a78&src=seo_token) | Ethereum | 6.21% | $121.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=46b99c5c-80bc-44cb-9971-0ef5999520df&src=seo_token) | Ethereum | 368.04% | $108.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UPEG yield today?
 
-347.60% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+368.04% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many UPEG pools clear the TVL floor?
 

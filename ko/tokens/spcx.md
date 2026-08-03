@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=48e0c6f7-bcab-4b68-ba6f-3fb55ce6da69&src=seo_token) | Solana | 9.01% | $510.2K |
-| [gmtrade →](https://www.defi.garden/?pool=b237d486-5778-4246-9eb0-afb8d68a6644&src=seo_token) | Solana | 59.94% | $104.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=48e0c6f7-bcab-4b68-ba6f-3fb55ce6da69&src=seo_token) | Solana | 11.23% | $504.8K |
+| [gmtrade →](https://www.defi.garden/?pool=b237d486-5778-4246-9eb0-afb8d68a6644&src=seo_token) | Solana | 59.94% | $105.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 59.94%예�
 
 ### SPCX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $614.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $610.2K예요.
 
 ### 이 수익률은 안전한가요?
 

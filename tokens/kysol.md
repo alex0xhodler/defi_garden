@@ -4,8 +4,8 @@ The highest honest KYSOL yield right now is 5.26% on kyros (Solana), among 3 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.26% | $7.43M |
-| [raydium-amm →](https://www.defi.garden/?pool=b820fb28-a93a-4d1e-81d0-da3453b98e54&src=seo_token) | Solana | 0.02% | $295.9K |
+| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.26% | $7.46M |
+| [raydium-amm →](https://www.defi.garden/?pool=b820fb28-a93a-4d1e-81d0-da3453b98e54&src=seo_token) | Solana | 0.02% | $296.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KYSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $8.03M in total.
+3 live pools clear this page's $100K TVL floor, $8.05M in total.
 
 ### Are these rates safe?
 

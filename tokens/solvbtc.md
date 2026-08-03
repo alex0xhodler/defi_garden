@@ -6,11 +6,11 @@ The highest honest SOLVBTC yield right now is 13.30% on ekubo (Starknet), among 
 |---|---|---|---|
 | [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 13.29% | $1.32M |
 | [vesu →](https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_token) | Starknet | 2.00% | $1.28M |
-| [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.86% | $287K |
-| [vesu →](https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token) | Starknet | 2.24% | $194.7K |
-| [joe-v2.2 →](https://www.defi.garden/?pool=711b801c-a11b-4653-9a7c-a3df23e8542f&src=seo_token) | Avalanche | 1.01% | $187.8K |
-| [endur →](https://www.defi.garden/?pool=3827d6b6-f6f1-4162-9df7-9024503e42ce&src=seo_token) | Starknet | 1.85% | $184.3K |
-| [ekubo →](https://www.defi.garden/?pool=9944a2b8-0771-4dfd-87db-f342b0fb8f87&src=seo_token) | Starknet | 13.30% | $104.6K |
+| [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.91% | $287.7K |
+| [vesu →](https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token) | Starknet | 2.24% | $194.5K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=711b801c-a11b-4653-9a7c-a3df23e8542f&src=seo_token) | Avalanche | 1.01% | $188.1K |
+| [endur →](https://www.defi.garden/?pool=3827d6b6-f6f1-4162-9df7-9024503e42ce&src=seo_token) | Starknet | 1.84% | $185.3K |
+| [ekubo →](https://www.defi.garden/?pool=9944a2b8-0771-4dfd-87db-f342b0fb8f87&src=seo_token) | Starknet | 13.30% | $104.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SOLVBTC pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $184.46M in total.
+14 live pools clear this page's $100K TVL floor, $184.94M in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # USDZ DeFi Yields
 
-The highest honest USDZ yield right now is 0.44% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDZ yield right now is 0.45% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=be8a4206-6543-4690-a5c2-b3e032245aa2&src=seo_token) | Base | 0.44% | $118.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=be8a4206-6543-4690-a5c2-b3e032245aa2&src=seo_token) | Base | 0.45% | $118K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDZ yield today?
 
-0.44% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+0.45% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many USDZ pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $461.9K in total.
+2 live pools clear this page's $100K TVL floor, $461.5K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # TOWNS DeFi Yields
 
-The highest honest TOWNS yield right now is 190.14% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TOWNS yield right now is 313.23% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f3ab8cab-927e-4aed-9cbf-00d95c5350d7&src=seo_token) | Base | 190.14% | $191.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f3ab8cab-927e-4aed-9cbf-00d95c5350d7&src=seo_token) | Base | 313.23% | $199.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TOWNS yield today?
 
-190.14% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+313.23% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TOWNS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $191.8K in total.
+1 live pool clear this page's $100K TVL floor, $199.6K in total.
 
 ### Are these rates safe?
 

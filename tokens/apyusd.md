@@ -4,12 +4,12 @@ The highest honest APYUSD yield right now is 16.80% on curve-dex (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 10.08% | $18.48M |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 10.79% | $18.72M |
 | [pendle →](https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token) | Ethereum | 16.06% | $8.22M |
 | [pendle →](https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token) | Ethereum | 16.80% | $8.22M |
 | [pendle →](https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token) | Ethereum | 15.53% | $4.87M |
 | [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 15.04% | $4.87M |
-| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.45% | $124.3K |
+| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.44% | $129.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APYUSD pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $87.39M in total.
+16 live pools clear this page's $100K TVL floor, $87.81M in total.
 
 ### Are these rates safe?
 

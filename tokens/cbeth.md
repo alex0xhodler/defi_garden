@@ -1,17 +1,17 @@
 # CBETH DeFi Yields
 
-The highest honest CBETH yield right now is 494.26% on coinbase-wrapped-staked-eth (Ethereum), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBETH yield right now is 208.82% on coinbase-wrapped-staked-eth (Ethereum), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.35% | $342.17M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 8.85% | $4.67M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 2.35% | $4.14M |
-| [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.18% | $1.66M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 2.42% | $1.28M |
-| [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.24% | $1.19M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 494.26% | $776.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 0.08% | $658.2K |
+| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.41% | $342.15M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 9.26% | $4.68M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 2.89% | $3.84M |
+| [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.18% | $1.67M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 2.75% | $1.28M |
+| [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.23% | $1.21M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 208.82% | $793.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 1.16% | $665.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CBETH yield today?
 
-494.26% APY on coinbase-wrapped-staked-eth (Ethereum), based on live DefiLlama data.
+208.82% APY on coinbase-wrapped-staked-eth (Ethereum), based on live DefiLlama data.
 
 ### How many CBETH pools clear the TVL floor?
 
-25 live pools clear this page's $100K TVL floor, $488.41M in total.
+25 live pools clear this page's $100K TVL floor, $489.27M in total.
 
 ### Are these rates safe?
 

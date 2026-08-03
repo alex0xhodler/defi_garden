@@ -1,10 +1,10 @@
 # TULIPAUSDC DeFi Yields
 
-The highest honest TULIPAUSDC yield right now is 12.06% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TULIPAUSDC yield right now is 10.76% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=c1cc3ce7-22ec-4ff3-825e-4f60c92bb662&src=seo_token) | Ethereum | 12.06% | $9.06M |
+| [lagoon →](https://www.defi.garden/?pool=c1cc3ce7-22ec-4ff3-825e-4f60c92bb662&src=seo_token) | Ethereum | 10.76% | $9.07M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TULIPAUSDC yield today?
 
-12.06% APY on lagoon (Ethereum), based on live DefiLlama data.
+10.76% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many TULIPAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.06M in total.
+1 live pool clear this page's $100K TVL floor, $9.07M in total.
 
 ### Are these rates safe?
 

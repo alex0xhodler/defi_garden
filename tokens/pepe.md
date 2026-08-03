@@ -1,14 +1,14 @@
 # PEPE DeFi Yields
 
-The highest honest PEPE yield right now is 4.97% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPE yield right now is 4.86% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 2.05% | $21.37M |
-| [raydium-amm →](https://www.defi.garden/?pool=75bf0314-4de8-50c3-b390-31d28279f1db&src=seo_token) | Solana | 0.26% | $2.78M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 0.33% | $1.62M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 3.19% | $194.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 4.97% | $185.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 1.71% | $21.4M |
+| [raydium-amm →](https://www.defi.garden/?pool=75bf0314-4de8-50c3-b390-31d28279f1db&src=seo_token) | Solana | 0.27% | $2.78M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 0.31% | $1.62M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 1.49% | $194.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 4.86% | $184.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 0.45% | $133K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEPE yield today?
 
-4.97% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.86% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PEPE pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $26.27M in total.
+6 live pools clear this page's $100K TVL floor, $26.31M in total.
 
 ### Are these rates safe?
 

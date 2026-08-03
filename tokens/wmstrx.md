@@ -1,10 +1,10 @@
 # WMSTRX DeFi Yields
 
-The highest honest WMSTRX yield right now is 0.84% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMSTRX yield right now is 1.11% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=754cdac3-7083-471f-a5be-14c0fd500d26&src=seo_token) | Ethereum | 0.84% | $232.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=754cdac3-7083-471f-a5be-14c0fd500d26&src=seo_token) | Ethereum | 1.11% | $232K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WMSTRX yield today?
 
-0.84% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.11% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WMSTRX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $232.2K in total.
+1 live pool clear this page's $100K TVL floor, $232K in total.
 
 ### Are these rates safe?
 

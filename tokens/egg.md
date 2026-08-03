@@ -1,10 +1,10 @@
 # EGG DeFi Yields
 
-The highest honest EGG yield right now is 0.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EGG yield right now is 0.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=cace8c6a-a172-4b59-b816-40c8ef81455f&src=seo_token) | Solana | 0.35% | $138.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=cace8c6a-a172-4b59-b816-40c8ef81455f&src=seo_token) | Solana | 0.97% | $136.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EGG yield today?
 
-0.35% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.97% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many EGG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.8K in total.
+1 live pool clear this page's $100K TVL floor, $136.3K in total.
 
 ### Are these rates safe?
 

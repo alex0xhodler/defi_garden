@@ -4,7 +4,8 @@ The highest honest SAN yield right now is 0.28% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token) | Ethereum | 0.28% | $482K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token) | Ethereum | 0.28% | $482.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6ae1ef21-207c-4956-ba8d-272ac82b033f&src=seo_token) | Ethereum | 0.10% | $176.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SAN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $655.8K in total.
+2 live pools clear this page's $100K TVL floor, $658.5K in total.
 
 ### Are these rates safe?
 

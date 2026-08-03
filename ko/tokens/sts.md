@@ -1,12 +1,12 @@
 # STS 디파이 수익률
 
-현재 STS의 가장 높은 정직한 수익률은 Sonic의 beets-dex에서 56.88%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STS의 가장 높은 정직한 수익률은 Sonic의 beets-dex에서 55.53%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 56.88% | $192.1K |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 7.44% | $182K |
-| [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token) | Sonic | 0.70% | $104.2K |
+| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 55.53% | $193.3K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 7.42% | $183K |
+| [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token) | Sonic | 0.70% | $104.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 STS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sonic의 beets-dex에서 APY 56.88%예요.
+DefiLlama 실시간 데이터 기준, Sonic의 beets-dex에서 APY 55.53%예요.
 
 ### STS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

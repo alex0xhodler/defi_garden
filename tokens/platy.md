@@ -4,7 +4,7 @@ The highest honest PLATY yield right now is 0.04% on vvs-standard (Cronos), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=6ff53074-13ae-509b-974a-938ada4f338e&src=seo_token) | Cronos | 0.04% | $216K |
+| [vvs-standard →](https://www.defi.garden/?pool=6ff53074-13ae-509b-974a-938ada4f338e&src=seo_token) | Cronos | 0.04% | $215.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PLATY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $216K in total.
+1 live pool clear this page's $100K TVL floor, $215.5K in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # FET DeFi Yields
 
-The highest honest FET yield right now is 5.24% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FET yield right now is 5.18% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 0.98% | $1.05M |
-| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 5.24% | $152.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 1.04% | $1.05M |
+| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 5.18% | $153.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FET yield today?
 
-5.24% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.18% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FET pools clear the TVL floor?
 

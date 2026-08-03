@@ -1,8 +1,8 @@
 # WBERA-HONEY — bex on Berachain
 
-**Total APY:** 2.16% (2.16% Base · + 0.00% Rewards)
+**Total APY:** 1.96% (1.96% Base · + 0.00% Rewards)
 
-**TVL:** $137.1K
+**TVL:** $136.3K
 
 **Pool Type:** Yield Farming
 
@@ -20,13 +20,13 @@ Moderate risk profile
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,113 in 5y at current rates.
+$1,000 in this pool grows to ~$1,102 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 2.16% right now vs a 3.31% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 1.96% right now vs a 3.31% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,113 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,102 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on bex](https://hub.berachain.com/swap/?ref=defi.garden)
 

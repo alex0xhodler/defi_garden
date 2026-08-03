@@ -1,17 +1,17 @@
 # CBETH 디파이 수익률
 
-현재 CBETH의 가장 높은 정직한 수익률은 Ethereum의 coinbase-wrapped-staked-eth에서 494.26%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CBETH의 가장 높은 정직한 수익률은 Ethereum의 coinbase-wrapped-staked-eth에서 208.82%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.35% | $342.17M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 8.85% | $4.67M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 2.35% | $4.14M |
-| [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.18% | $1.66M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 2.42% | $1.28M |
-| [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.24% | $1.19M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 494.26% | $776.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 0.08% | $658.2K |
+| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.41% | $342.15M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 9.26% | $4.68M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 2.89% | $3.84M |
+| [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.18% | $1.67M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 2.75% | $1.28M |
+| [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.23% | $1.21M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 208.82% | $793.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 1.16% | $665.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 CBETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 coinbase-wrapped-staked-eth에서 APY 494.26%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 coinbase-wrapped-staked-eth에서 APY 208.82%예요.
 
 ### CBETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $488.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $489.27M예요.
 
 ### 이 수익률은 안전한가요?
 

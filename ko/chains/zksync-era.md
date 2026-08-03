@@ -1,12 +1,12 @@
 # ZKsync Era 디파이 수익률
 
-현재 ZKsync Era의 가장 높은 정직한 수익률은 ZKsync Era의 zkswap-v2에서 1.44%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ZKsync Era의 가장 높은 정직한 수익률은 ZKsync Era의 zkswap-v2에서 1.39%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| LONG-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_chain) | 0.01% | $213K |
-| USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $112K |
-| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 1.44% | $107.5K |
+| LONG-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_chain) | 0.01% | $213.5K |
+| USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $111.9K |
+| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 1.39% | $107.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +14,11 @@
 
 ### 오늘 ZKsync Era의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 1.44%예요.
+DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 1.39%예요.
 
 ### ZKsync Era 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $432.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $432.9K예요.
 
 ### 이 수익률은 안전한가요?
 

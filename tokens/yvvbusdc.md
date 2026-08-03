@@ -4,8 +4,8 @@ The highest honest YVVBUSDC yield right now is 6.05% on spectra-v2 (Katana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=9708b5ed-cb84-4d9c-970a-3619c321beb3&src=seo_token) | Katana | 1.19% | $390.2K |
 | [spectra-v2 →](https://www.defi.garden/?pool=f4256fda-7b45-42b2-8ae3-e10fe7f63c57&src=seo_token) | Katana | 6.05% | $390.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=9708b5ed-cb84-4d9c-970a-3619c321beb3&src=seo_token) | Katana | 1.19% | $390.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

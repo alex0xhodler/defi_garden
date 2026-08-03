@@ -4,8 +4,8 @@ The highest honest DJED yield right now is 12.86% on liqwid (Cardano), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_token) | Cardano | 12.86% | $1.04M |
-| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 10.17% | $203.6K |
+| [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_token) | Cardano | 12.86% | $1.05M |
+| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 10.00% | $205.2K |
 | [orca-dex →](https://www.defi.garden/?pool=27d3d493-ec30-5cd4-8b32-c3515482f62d&src=seo_token) | Solana | 0.10% | $176.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DJED pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.42M in total.
+3 live pools clear this page's $100K TVL floor, $1.43M in total.
 
 ### Are these rates safe?
 

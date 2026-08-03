@@ -1,10 +1,9 @@
 # NUSD 디파이 수익률
 
-현재 NUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 6.09%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 6.09%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=4fbc98be-3a49-420e-86c0-bf783b6ddc4c&src=seo_token) | Ethereum | 0.01% | $3.54M |
 | [pendle →](https://www.defi.garden/?pool=062773f0-9874-4ba2-8ddc-9264e0ffebd7&src=seo_token) | Ethereum | 1.68% | $179.6K |
 | [pendle →](https://www.defi.garden/?pool=24f4863f-d6dc-421e-a22b-a3e8234b735e&src=seo_token) | Ethereum | 6.09% | $179.6K |
 
@@ -14,7 +13,7 @@
 
 ### 오늘 NUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 6.09%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 6.09%예요.
 
 ### NUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

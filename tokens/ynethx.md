@@ -4,10 +4,10 @@ The highest honest YNETHX yield right now is 11.55% on curve-dex (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 11.55% | $947K |
-| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 11.55% | $610.8K |
-| [stake-dao →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31&src=seo_token) | Ethereum | 4.73% | $196.3K |
-| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 4.73% | $141.6K |
+| [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 11.55% | $947.2K |
+| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 11.55% | $610.9K |
+| [stake-dao →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31&src=seo_token) | Ethereum | 4.73% | $198.9K |
+| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 4.73% | $143.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

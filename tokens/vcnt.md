@@ -5,8 +5,8 @@ The highest honest VCNT yield right now is 9.71% on uniswap-v3 (Base), among 3 p
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=d4a8a53d-43f6-4cb2-b2f2-58f1762e79c5&src=seo_token) | Base | 6.66% | $173.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be954f9b-34de-473f-a52a-5016ea4db85f&src=seo_token) | Polygon | 9.71% | $168.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token) | Arbitrum | 0.83% | $163.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be954f9b-34de-473f-a52a-5016ea4db85f&src=seo_token) | Polygon | 9.71% | $168.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token) | Arbitrum | 0.83% | $163.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VCNT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $506K in total.
+3 live pools clear this page's $100K TVL floor, $505.8K in total.
 
 ### Are these rates safe?
 

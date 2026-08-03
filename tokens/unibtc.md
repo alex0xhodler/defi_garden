@@ -4,8 +4,8 @@ The highest honest UNIBTC yield right now is 0.13% on berapaw (Berachain), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.13% | $17.13M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a855fac3-6d35-4bb9-9b0b-b73820025a7c&src=seo_token) | Ethereum | 0.01% | $2.84M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.13% | $17.12M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a855fac3-6d35-4bb9-9b0b-b73820025a7c&src=seo_token) | Ethereum | 0.01% | $2.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UNIBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $22.35M in total.
+4 live pools clear this page's $100K TVL floor, $22.36M in total.
 
 ### Are these rates safe?
 

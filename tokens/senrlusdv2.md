@@ -1,10 +1,10 @@
 # SENRLUSDV2 DeFi Yields
 
-The highest honest SENRLUSDV2 yield right now is 6.56% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENRLUSDV2 yield right now is 6.32% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2e53bb82-f13f-4157-a3bf-b1a91b94b6a4&src=seo_token) | Ethereum | 6.56% | $274.39M |
+| [morpho-blue →](https://www.defi.garden/?pool=2e53bb82-f13f-4157-a3bf-b1a91b94b6a4&src=seo_token) | Ethereum | 6.32% | $275.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENRLUSDV2 yield today?
 
-6.56% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.32% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SENRLUSDV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $274.39M in total.
+1 live pool clear this page's $100K TVL floor, $275.42M in total.
 
 ### Are these rates safe?
 

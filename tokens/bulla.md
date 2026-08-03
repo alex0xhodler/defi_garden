@@ -1,10 +1,10 @@
 # BULLA DeFi Yields
 
-The highest honest BULLA yield right now is 195.00% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BULLA yield right now is 192.07% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5282f8ed-8439-4eb8-b12e-72539730e9d7&src=seo_token) | BSC | 195.00% | $121.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5282f8ed-8439-4eb8-b12e-72539730e9d7&src=seo_token) | BSC | 192.07% | $121.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BULLA yield today?
 
-195.00% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+192.07% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BULLA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.4K in total.
+1 live pool clear this page's $100K TVL floor, $121.7K in total.
 
 ### Are these rates safe?
 

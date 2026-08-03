@@ -1,17 +1,17 @@
 # UBTC DeFi Yields
 
-The highest honest UBTC yield right now is 30.63% on hyperlend-pooled (Hyperliquid L1), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UBTC yield right now is 34.24% on hyperlend-pooled (Hyperliquid L1), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperlend-pooled →](https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token) | Hyperliquid L1 | 0.19% | $8.06M |
-| [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 12.56% | $4.73M |
-| [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 22.35% | $2.22M |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token) | Hyperliquid L1 | 20.10% | $1.68M |
-| [project-x →](https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token) | Hyperliquid L1 | 6.72% | $414.5K |
-| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 3.22% | $393.6K |
-| [project-x →](https://www.defi.garden/?pool=e6daa1c9-ec48-41e9-9196-1936e0e1ead7&src=seo_token) | Hyperliquid L1 | 30.63% | $319K |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 22.21% | $311.2K |
+| [hyperlend-pooled →](https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token) | Hyperliquid L1 | 0.19% | $8.08M |
+| [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 15.39% | $4.76M |
+| [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 22.70% | $2.23M |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token) | Hyperliquid L1 | 24.61% | $1.7M |
+| [project-x →](https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token) | Hyperliquid L1 | 9.81% | $408.6K |
+| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 3.80% | $382K |
+| [project-x →](https://www.defi.garden/?pool=e6daa1c9-ec48-41e9-9196-1936e0e1ead7&src=seo_token) | Hyperliquid L1 | 34.24% | $319.5K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 24.69% | $311K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UBTC yield today?
 
-30.63% APY on hyperlend-pooled (Hyperliquid L1), based on live DefiLlama data.
+34.24% APY on hyperlend-pooled (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many UBTC pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $36.9M in total.
+16 live pools clear this page's $100K TVL floor, $36.97M in total.
 
 ### Are these rates safe?
 

@@ -4,9 +4,9 @@ The highest honest SLISBNB yield right now is 1.44% on lista-liquid-staking (BSC
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.35% | $556.13M |
-| [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.44% | $1.49M |
+| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.35% | $558.4M |
 | [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.43% | $1.49M |
+| [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.44% | $1.49M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SLISBNB pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $768.19M in total.
+6 live pools clear this page's $100K TVL floor, $771.14M in total.
 
 ### Are these rates safe?
 

@@ -1,17 +1,17 @@
 # AERO DeFi Yields
 
-The highest honest AERO yield right now is 81.39% on aerodrome-v1 (Base), among 26 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AERO yield right now is 81.86% on aerodrome-v1 (Base), among 26 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token) | Base | 19.85% | $24.73M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token) | Base | 21.73% | $8.81M |
-| [moonwell-lending →](https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token) | Base | 1.34% | $6.04M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token) | Base | 59.67% | $3.72M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token) | Base | 3.98% | $2.86M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token) | Base | 56.35% | $2.63M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token) | Base | 16.95% | $2.33M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 81.39% | $1.85M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token) | Base | 19.94% | $24.85M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token) | Base | 21.84% | $8.85M |
+| [moonwell-lending →](https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token) | Base | 1.34% | $6.08M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token) | Base | 78.37% | $3.02M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token) | Base | 3.97% | $2.9M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token) | Base | 62.91% | $2.45M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token) | Base | 17.07% | $2.34M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 81.86% | $1.86M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AERO yield today?
 
-81.39% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+81.86% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many AERO pools clear the TVL floor?
 
-26 live pools clear this page's $100K TVL floor, $60.93M in total.
+26 live pools clear this page's $100K TVL floor, $60.72M in total.
 
 ### Are these rates safe?
 

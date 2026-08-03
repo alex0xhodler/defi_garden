@@ -1,11 +1,11 @@
 # XSAUCE DeFi Yields
 
-The highest honest XSAUCE yield right now is 1.33% on saucerswap-v1 (Hedera), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSAUCE yield right now is 1.31% on saucerswap-v1 (Hedera), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.33% | $261.2K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 1.10% | $117.6K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.31% | $265.2K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 1.08% | $119.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XSAUCE yield today?
 
-1.33% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
+1.31% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
 
 ### How many XSAUCE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $378.7K in total.
+2 live pools clear this page's $100K TVL floor, $384.5K in total.
 
 ### Are these rates safe?
 

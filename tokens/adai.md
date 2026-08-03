@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ADAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $461.5K in total.
+2 live pools clear this page's $100K TVL floor, $461.6K in total.
 
 ### Are these rates safe?
 

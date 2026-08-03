@@ -4,7 +4,7 @@ The highest honest BOB yield right now is 0.51% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token) | Ethereum | 0.51% | $329.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token) | Ethereum | 0.51% | $330.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BOB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $630.6K in total.
+3 live pools clear this page's $100K TVL floor, $631.2K in total.
 
 ### Are these rates safe?
 

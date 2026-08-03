@@ -1,14 +1,14 @@
 # YMVOG DeFi Yields
 
-The highest honest YMVOG yield right now is 6.57% on morpho-blue (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YMVOG yield right now is 6.74% on morpho-blue (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token) | Ethereum | 6.57% | $9.03M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.94% | $5.32M |
+| [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token) | Ethereum | 6.74% | $9.03M |
+| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.94% | $4.31M |
 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.43% | $2.22M |
 | [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token) | Base | 4.83% | $1.97M |
-| [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token) | Ethereum | 2.03% | $471.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token) | Ethereum | 2.16% | $471.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YMVOG yield today?
 
-6.57% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.74% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many YMVOG pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $19.02M in total.
+5 live pools clear this page's $100K TVL floor, $18.01M in total.
 
 ### Are these rates safe?
 
