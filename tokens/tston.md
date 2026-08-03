@@ -1,14 +1,14 @@
 # TSTON DeFi Yields
 
-The highest honest TSTON yield right now is 19.74% on tonco (TON), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSTON yield right now is 22.23% on tonco (TON), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tonco →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854&src=seo_token) | TON | 19.74% | $4.57M |
-| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 12.80% | $789.8K |
-| [ston.fi →](https://www.defi.garden/?pool=38a43214-1895-49b4-8c61-ddf9dabe8cf9&src=seo_token) | TON | 1.80% | $618K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.97% | $196.4K |
-| [ston.fi →](https://www.defi.garden/?pool=0427f819-6c83-41e1-b001-d9ae07b4ee2f&src=seo_token) | TON | 3.82% | $173.7K |
+| [tonco →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854&src=seo_token) | TON | 22.23% | $4.56M |
+| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 12.80% | $786.9K |
+| [ston.fi →](https://www.defi.garden/?pool=38a43214-1895-49b4-8c61-ddf9dabe8cf9&src=seo_token) | TON | 1.23% | $617.1K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.95% | $196.7K |
+| [ston.fi →](https://www.defi.garden/?pool=0427f819-6c83-41e1-b001-d9ae07b4ee2f&src=seo_token) | TON | 3.52% | $172.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TSTON yield today?
 
-19.74% APY on tonco (TON), based on live DefiLlama data.
+22.23% APY on tonco (TON), based on live DefiLlama data.
 
 ### How many TSTON pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $13.6M in total.
+6 live pools clear this page's $100K TVL floor, $13.55M in total.
 
 ### Are these rates safe?
 

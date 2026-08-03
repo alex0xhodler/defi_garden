@@ -1,17 +1,17 @@
 # XAUT0 DeFi Yields
 
-The highest honest XAUT0 yield right now is 31.10% on raydium-amm (Solana), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAUT0 yield right now is 32.91% on raydium-amm (Solana), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 1.54% | $394.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token) | Arbitrum | 0.23% | $269.4K |
-| [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 0.53% | $201.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5&src=seo_token) | Celo | 31.10% | $199K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.97% | $196.4K |
-| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 0.05% | $187.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 1.47% | $394.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token) | Arbitrum | 0.29% | $268.5K |
+| [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 0.53% | $201.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5&src=seo_token) | Celo | 32.91% | $198.4K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.95% | $196.7K |
+| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 1.61% | $186.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=e6d897d8-681f-4e6d-94aa-a1893d28339d&src=seo_token) | Solana | 0.16% | $129K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=945f556b-636e-56ba-abfb-e161e0fdce58&src=seo_token) | Monad | 2.25% | $125.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=945f556b-636e-56ba-abfb-e161e0fdce58&src=seo_token) | Monad | 2.26% | $125.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAUT0 yield today?
 
-31.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+32.91% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many XAUT0 pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $6.53M in total.
+13 live pools clear this page's $100K TVL floor, $6.51M in total.
 
 ### Are these rates safe?
 

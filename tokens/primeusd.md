@@ -4,7 +4,7 @@ The highest honest PRIMEUSD yield right now is 5.90% on vault-street-primeusd (E
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vault-street-primeusd →](https://www.defi.garden/?pool=0fcae026-0165-589b-855a-25ebc6b0f33d&src=seo_token) | Ethereum | 5.90% | $5.76M |
+| [vault-street-primeusd →](https://www.defi.garden/?pool=0fcae026-0165-589b-855a-25ebc6b0f33d&src=seo_token) | Ethereum | 5.90% | $5.77M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PRIMEUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.76M in total.
+1 live pool clear this page's $100K TVL floor, $5.77M in total.
 
 ### Are these rates safe?
 

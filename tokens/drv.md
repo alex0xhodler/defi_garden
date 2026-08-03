@@ -1,14 +1,14 @@
 # DRV DeFi Yields
 
-The highest honest DRV yield right now is 205.31% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DRV yield right now is 205.09% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 19.99% | $440.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 73.24% | $434.6K |
-| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 37.50% | $264.4K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 23.26% | $261.3K |
-| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 205.31% | $215.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 21.56% | $442.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 71.42% | $435.6K |
+| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 37.57% | $264.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 23.05% | $261.9K |
+| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 205.09% | $215.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DRV yield today?
 
-205.31% APY on uniswap-v4 (Base), based on live DefiLlama data.
+205.09% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many DRV pools clear the TVL floor?
 

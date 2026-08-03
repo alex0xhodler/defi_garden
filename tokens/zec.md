@@ -1,15 +1,15 @@
 # ZEC DeFi Yields
 
-The highest honest ZEC yield right now is 53.61% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEC yield right now is 52.15% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token) | Solana | 53.61% | $3.53M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token) | BSC | 33.58% | $547.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token) | BSC | 45.28% | $249.2K |
-| [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 22.31% | $155.2K |
-| [ekubo →](https://www.defi.garden/?pool=9c2667eb-5416-4cf4-b025-6bca6fecd365&src=seo_token) | Starknet | 22.64% | $123.3K |
-| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token) | Solana | 36.24% | $117.3K |
+| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token) | Solana | 52.15% | $3.54M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token) | BSC | 32.62% | $548.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token) | BSC | 43.88% | $249.2K |
+| [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 22.04% | $155.5K |
+| [ekubo →](https://www.defi.garden/?pool=9c2667eb-5416-4cf4-b025-6bca6fecd365&src=seo_token) | Starknet | 23.13% | $123.4K |
+| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token) | Solana | 34.80% | $117.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZEC yield today?
 
-53.61% APY on orca-dex (Solana), based on live DefiLlama data.
+52.15% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many ZEC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $4.72M in total.
+6 live pools clear this page's $100K TVL floor, $4.73M in total.
 
 ### Are these rates safe?
 

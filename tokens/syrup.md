@@ -1,11 +1,11 @@
 # SYRUP DeFi Yields
 
-The highest honest SYRUP yield right now is 9.13% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYRUP yield right now is 8.55% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token) | Ethereum | 6.94% | $1.84M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 9.13% | $646.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 8.55% | $644.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYRUP yield today?
 
-9.13% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+8.55% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SYRUP pools clear the TVL floor?
 

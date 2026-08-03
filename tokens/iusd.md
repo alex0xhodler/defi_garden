@@ -1,12 +1,12 @@
 # IUSD DeFi Yields
 
-The highest honest IUSD yield right now is 14.68% on echelon-market (Echelon Initia), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IUSD yield right now is 14.75% on echelon-market (Echelon Initia), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 1.96% | $1.18M |
-| [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 3.51% | $207.5K |
-| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.68% | $171.1K |
+| [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 3.51% | $207.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.75% | $169.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IUSD yield today?
 
-14.68% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
+14.75% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
 
 ### How many IUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.76M in total.
+4 live pools clear this page's $100K TVL floor, $4.74M in total.
 
 ### Are these rates safe?
 

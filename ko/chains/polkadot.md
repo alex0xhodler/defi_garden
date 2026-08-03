@@ -4,13 +4,13 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_chain) | 4.48% | $7.37M |
-| ADOT-VDOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_chain) | 0.58% | $3.53M |
+| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_chain) | 4.48% | $7.4M |
+| ADOT-VDOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_chain) | 0.58% | $3.54M |
 | AETH-WSTETH | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_chain) | 0.09% | $3.18M |
 | HOLLAR-AUSDT | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_chain) | 0.70% | $2.29M |
 | AUSDC-HOLLAR | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_chain) | 0.42% | $1.98M |
-| HOLLAR | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c&src=seo_chain) | 15.81% | $1.93M |
-| TBTC | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_chain) | 5.18% | $1.8M |
+| HOLLAR | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c&src=seo_chain) | 15.81% | $1.94M |
+| TBTC | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_chain) | 5.18% | $1.81M |
 | GETH | [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_chain) | 5.70% | $1.48M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Polkadot의 bifrost-liquid-staking에서 A
 
 ### Polkadot 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $32.58M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $32.65M예요.
 
 ### 이 수익률은 안전한가요?
 

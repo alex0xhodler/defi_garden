@@ -1,12 +1,12 @@
 # ASTEROID 디파이 수익률
 
-현재 ASTEROID의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 37.28%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ASTEROID의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 37.13%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 36.51% | $1.85M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 37.04% | $1.85M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 3.95% | $676.7K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 37.28% | $199.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 37.13% | $200.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 8.69% | $118.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token) | Ethereum | 29.85% | $103K |
 
@@ -16,7 +16,7 @@
 
 ### 오늘 ASTEROID의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 37.28%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 37.13%예요.
 
 ### ASTEROID 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

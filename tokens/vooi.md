@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [BILL](https://www.defi.garden/tokens/bill)
-- [ELSA](https://www.defi.garden/tokens/elsa)
+- [BSB](https://www.defi.garden/tokens/bsb)
 
 ## Available on
 

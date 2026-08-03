@@ -4,7 +4,7 @@ The highest honest CUSDC yield right now is 0.05% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $566.6K |
+| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $566.5K |
 | [convex-finance →](https://www.defi.garden/?pool=e78f64a8-295d-4441-82e4-d05ebd1a8b38&src=seo_token) | Ethereum | 0.05% | $180.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

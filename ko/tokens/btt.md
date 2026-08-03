@@ -5,6 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token) | Tron | 0.10% | $870.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.01% | $203.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 0.10%예요.
 
 ### BTT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.08M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.07M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -24,15 +25,16 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 0.10%예요.
 
 ## 관련 토큰
 
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
-- [TRX](https://www.defi.garden/ko/tokens/trx)
-- [BTC](https://www.defi.garden/ko/tokens/btc)
-- [USDD](https://www.defi.garden/ko/tokens/usdd)
-- [JST](https://www.defi.garden/ko/tokens/jst)
-- [SUN](https://www.defi.garden/ko/tokens/sun)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 
 - [Tron](https://www.defi.garden/ko/chains/tron)
+- [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
 ## 마지막 업데이트: August 3, 2026

@@ -7,7 +7,7 @@ The highest honest THBILL yield right now is 3.20% on theo-network-thbill (Ether
 | [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.20% | $86.43M |
 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.20% | $1.42M |
 | [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.20% | $1.07M |
-| [project-x →](https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token) | Hyperliquid L1 | 0.04% | $219K |
+| [project-x →](https://www.defi.garden/?pool=76d14d28-60f4-423a-b1ba-e716d9ee3773&src=seo_token) | Hyperliquid L1 | 0.02% | $218.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

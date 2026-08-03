@@ -1,10 +1,10 @@
 # JEUR DeFi Yields
 
-The highest honest JEUR yield right now is 6.68% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JEUR yield right now is 6.61% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 6.68% | $117.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 6.61% | $117.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JEUR yield today?
 
-6.68% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+6.61% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many JEUR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.1K in total.
+1 live pool clear this page's $100K TVL floor, $117.5K in total.
 
 ### Are these rates safe?
 

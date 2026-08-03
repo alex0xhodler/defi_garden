@@ -4,7 +4,7 @@ The highest honest RETAKE yield right now is 0.09% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0227ec55-ad24-4c11-aa77-883f2f312237&src=seo_token) | Base | 0.09% | $180.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0227ec55-ad24-4c11-aa77-883f2f312237&src=seo_token) | Base | 0.09% | $180K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RETAKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $180.9K in total.
+1 live pool clear this page's $100K TVL floor, $180K in total.
 
 ### Are these rates safe?
 

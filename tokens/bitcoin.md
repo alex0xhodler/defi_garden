@@ -4,8 +4,8 @@ The highest honest BITCOIN yield right now is 4.68% on uniswap-v3 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a&src=seo_token) | Ethereum | 4.68% | $665.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934&src=seo_token) | Ethereum | 0.04% | $110.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a&src=seo_token) | Ethereum | 4.68% | $662.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934&src=seo_token) | Ethereum | 0.04% | $110.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BITCOIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $776.5K in total.
+2 live pools clear this page's $100K TVL floor, $773.5K in total.
 
 ### Are these rates safe?
 

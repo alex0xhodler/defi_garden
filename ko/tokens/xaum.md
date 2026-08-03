@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774&src=seo_token) | Sui | 0.01% | $789K |
-| [bluefin-spot →](https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3&src=seo_token) | Sui | 18.55% | $228K |
+| [bluefin-spot →](https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3&src=seo_token) | Sui | 18.55% | $228.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token) | Solana | 0.20% | $100.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

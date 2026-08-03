@@ -4,7 +4,7 @@ The highest honest ENS yield right now is 0.30% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed&src=seo_token) | Ethereum | 0.30% | $494.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fa10346f-5056-49ad-afac-9400688e44ed&src=seo_token) | Ethereum | 0.30% | $494.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ENS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $694.8K in total.
+2 live pools clear this page's $100K TVL floor, $695.8K in total.
 
 ### Are these rates safe?
 

@@ -4,9 +4,9 @@ The highest honest USDAT yield right now is 14.16% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.14% | $9.66M |
-| [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 5.89% | $8.28M |
+| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.14% | $9.65M |
 | [pendle →](https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token) | Ethereum | 1.55% | $8.28M |
+| [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 5.89% | $8.28M |
 | [pendle →](https://www.defi.garden/?pool=0f93ea50-c40c-5b6a-93fd-41cc4b5cacbe&src=seo_token) | Monad | 6.29% | $2.08M |
 | [pendle →](https://www.defi.garden/?pool=026386ce-1a03-5b4f-9e79-a0f21750d0ba&src=seo_token) | Monad | 7.59% | $2.08M |
 | [pendle →](https://www.defi.garden/?pool=ab68cdc9-a839-45a3-8143-8a96c58649bd&src=seo_token) | BSC | 5.77% | $782.3K |

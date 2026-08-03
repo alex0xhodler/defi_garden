@@ -1,14 +1,14 @@
 # SPX DeFi Yields
 
-The highest honest SPX yield right now is 17.09% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPX yield right now is 17.59% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token) | Ethereum | 0.89% | $8.8M |
-| [raydium-amm →](https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token) | Solana | 5.47% | $1.57M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token) | Base | 11.09% | $515.5K |
-| [orca-dex →](https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token) | Solana | 17.09% | $321K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token) | Ethereum | 6.72% | $279.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token) | Ethereum | 0.87% | $8.82M |
+| [raydium-amm →](https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token) | Solana | 5.30% | $1.58M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token) | Base | 10.99% | $516.8K |
+| [orca-dex →](https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token) | Solana | 17.59% | $321K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token) | Ethereum | 6.55% | $280.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPX yield today?
 
-17.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+17.59% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SPX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $11.65M in total.
+6 live pools clear this page's $100K TVL floor, $11.68M in total.
 
 ### Are these rates safe?
 

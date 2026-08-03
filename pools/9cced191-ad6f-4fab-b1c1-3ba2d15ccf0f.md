@@ -2,7 +2,7 @@
 
 **Total APY:** 2.79% (2.79% Base · + 0.00% Rewards)
 
-**TVL:** $841.9K
+**TVL:** $841.8K
 
 **Pool Type:** LP/DEX
 

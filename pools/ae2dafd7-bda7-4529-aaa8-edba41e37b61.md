@@ -1,8 +1,8 @@
 # DOGE-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 2.44% (2.44% Base · + 0.00% Rewards)
+**Total APY:** 2.43% (2.43% Base · + 0.00% Rewards)
 
-**TVL:** $390.2K
+**TVL:** $390.7K
 
 **Pool Type:** LP/DEX
 

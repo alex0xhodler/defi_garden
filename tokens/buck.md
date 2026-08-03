@@ -1,13 +1,13 @@
 # BUCK DeFi Yields
 
-The highest honest BUCK yield right now is 8.43% on navi-lending (Sui), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUCK yield right now is 8.00% on navi-lending (Sui), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token) | Sui | 0.21% | $18.68M |
 | [cetus-clmm →](https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token) | Sui | 0.06% | $1.73M |
-| [cetus-clmm →](https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token) | Sui | 3.77% | $119.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token) | Solana | 8.43% | $111.9K |
+| [cetus-clmm →](https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token) | Sui | 3.72% | $119.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token) | Solana | 8.00% | $112K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BUCK yield today?
 
-8.43% APY on navi-lending (Sui), based on live DefiLlama data.
+8.00% APY on navi-lending (Sui), based on live DefiLlama data.
 
 ### How many BUCK pools clear the TVL floor?
 

@@ -1,10 +1,10 @@
 # SILOWS DeFi Yields
 
-The highest honest SILOWS yield right now is 10.18% on beets-dex-v3 (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SILOWS yield right now is 10.29% on beets-dex-v3 (Sonic), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 10.18% | $460.4K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 10.29% | $460.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SILOWS yield today?
 
-10.18% APY on beets-dex-v3 (Sonic), based on live DefiLlama data.
+10.29% APY on beets-dex-v3 (Sonic), based on live DefiLlama data.
 
 ### How many SILOWS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $460.4K in total.
+1 live pool clear this page's $100K TVL floor, $460.8K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [BPT](https://www.defi.garden/tokens/bpt)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [EVAUSDT](https://www.defi.garden/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
 - [STS](https://www.defi.garden/tokens/sts)
-- [WS](https://www.defi.garden/tokens/ws)
 
 ## Available on
 

@@ -5,7 +5,7 @@ The highest honest FXB yield right now is 6.72% on curve-dex (Fraxtal), among 5 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_token) | Fraxtal | 6.72% | $1.59M |
-| [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f&src=seo_token) | Ethereum | 2.79% | $841.9K |
+| [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f&src=seo_token) | Ethereum | 2.79% | $841.8K |
 | [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a&src=seo_token) | Ethereum | 2.79% | $803.7K |
 | [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205&src=seo_token) | Arbitrum | 2.73% | $191.4K |
 

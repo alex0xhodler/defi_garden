@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PYUSD pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $251.97M in total.
+24 live pools clear this page's $100K TVL floor, $252.02M in total.
 
 ### Are these rates safe?
 

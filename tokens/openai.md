@@ -1,6 +1,6 @@
 # OPENAI DeFi Yields
 
-The highest honest OPENAI yield right now is 160.45% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPENAI yield right now is 160.45% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OPENAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.66M in total.
+3 live pools clear this page's $100K TVL floor, $4.78M in total.
 
 ### Are these rates safe?
 

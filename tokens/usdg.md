@@ -4,14 +4,14 @@ The highest honest USDG yield right now is 5.01% on maple (Ethereum), among 36 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 5.01% | $235.89M |
+| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 5.01% | $236.5M |
 | [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.04% | $30.47M |
 | [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.09% | $27.01M |
 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.07% | $24.32M |
 | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_token) | Robinhood Chain | 3.50% | $24.18M |
-| [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 2.33% | $23.67M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b&src=seo_token) | Solana | 0.03% | $14.65M |
-| [aave-v3 →](https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token) | Ethereum | 3.67% | $8.05M |
+| [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 2.33% | $23.66M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b&src=seo_token) | Solana | 0.03% | $14.64M |
+| [aave-v3 →](https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token) | Ethereum | 4.68% | $7.55M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDG pools clear the TVL floor?
 
-36 live pools clear this page's $100K TVL floor, $436.54M in total.
+36 live pools clear this page's $100K TVL floor, $436.55M in total.
 
 ### Are these rates safe?
 

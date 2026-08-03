@@ -5,7 +5,7 @@ The highest honest INJ yield right now is 45.02% on uniswap-v4 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token) | Ethereum | 45.02% | $384.8K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token) | Ethereum | 7.22% | $263.5K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token) | Ethereum | 7.16% | $264.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token) | Ethereum | 23.51% | $108.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many INJ pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $756.5K in total.
+3 live pools clear this page's $100K TVL floor, $757.3K in total.
 
 ### Are these rates safe?
 

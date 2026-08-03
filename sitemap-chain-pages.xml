@@ -256,12 +256,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/bifrost-network</loc>
+    <loc>https://www.defi.garden/chains/celo</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/celo</loc>
+    <loc>https://www.defi.garden/chains/bifrost-network</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
   </url>

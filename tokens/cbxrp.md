@@ -1,13 +1,13 @@
 # CBXRP DeFi Yields
 
-The highest honest CBXRP yield right now is 23.01% on moonwell-lending (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBXRP yield right now is 25.50% on moonwell-lending (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.13% | $1.72M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 23.01% | $747.3K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 15.60% | $597.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 1.17% | $118.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 25.50% | $643.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 15.16% | $605.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 1.06% | $118.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CBXRP yield today?
 
-23.01% APY on moonwell-lending (Base), based on live DefiLlama data.
+25.50% APY on moonwell-lending (Base), based on live DefiLlama data.
 
 ### How many CBXRP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $91.82M in total.
+6 live pools clear this page's $100K TVL floor, $91.68M in total.
 
 ### Are these rates safe?
 

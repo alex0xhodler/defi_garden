@@ -1,11 +1,11 @@
 # SAND DeFi Yields
 
-The highest honest SAND yield right now is 53.04% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAND yield right now is 39.95% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 5.51% | $303.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=6a0fa42d-494e-44d2-adfb-39b3a8eacb5f&src=seo_token) | Base | 53.04% | $193.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 5.46% | $303.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=6a0fa42d-494e-44d2-adfb-39b3a8eacb5f&src=seo_token) | Base | 39.95% | $195K |
 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 3.84% | $158.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAND yield today?
 
-53.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+39.95% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SAND pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $655.6K in total.
+3 live pools clear this page's $100K TVL floor, $656.8K in total.
 
 ### Are these rates safe?
 

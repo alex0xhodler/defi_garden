@@ -4,9 +4,9 @@ The highest honest JUPSOL yield right now is 5.78% on jupiter-staked-sol (Solana
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.78% | $378.1M |
+| [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.78% | $378.64M |
 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 2.41% | $158.8K |
-| [orca-dex →](https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17&src=seo_token) | Solana | 1.36% | $107.6K |
+| [orca-dex →](https://www.defi.garden/?pool=5ff68f29-adcc-4551-8947-56ddda389f17&src=seo_token) | Solana | 1.35% | $107.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JUPSOL pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $505.72M in total.
+13 live pools clear this page's $100K TVL floor, $506.07M in total.
 
 ### Are these rates safe?
 

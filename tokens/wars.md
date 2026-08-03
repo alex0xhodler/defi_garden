@@ -4,7 +4,7 @@ The highest honest WARS yield right now is 0.02% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 0.02% | $241.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 0.02% | $243.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WARS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $241.8K in total.
+1 live pool clear this page's $100K TVL floor, $243.7K in total.
 
 ### Are these rates safe?
 

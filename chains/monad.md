@@ -6,10 +6,10 @@ The highest honest Monad yield right now is 17.89% on accountable (Monad), among
 |---|---|---|---|
 | AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain) | 6.83% | $109.91M |
 | USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1&src=seo_chain) | 17.89% | $100M |
-| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain) | 7.88% | $52.47M |
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 3.13% | $50.57M |
-| AUSD | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_chain) | 7.53% | $39.88M |
-| STEAKETH | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_chain) | 2.89% | $38.29M |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 3.12% | $50.67M |
+| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain) | 7.89% | $50.66M |
+| AUSD | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_chain) | 7.52% | $39.88M |
+| STEAKETH | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_chain) | 2.88% | $38.36M |
 | VUSD | [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_chain) | 0.76% | $36.13M |
 | AUSD | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_chain) | 8.25% | $30.03M |
 
@@ -42,8 +42,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [AUSD](https://www.defi.garden/tokens/ausd)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [HYPERUSDCA](https://www.defi.garden/tokens/hyperusdca)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [HYPERUSDCA](https://www.defi.garden/tokens/hyperusdca)
 - [STEAKETH](https://www.defi.garden/tokens/steaketh)
 - [VUSD](https://www.defi.garden/tokens/vusd)
 

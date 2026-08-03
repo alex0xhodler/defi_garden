@@ -1,13 +1,13 @@
 # CJPY DeFi Yields
 
-The highest honest CJPY yield right now is 9.95% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CJPY yield right now is 9.98% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25&src=seo_token) | Ethereum | 6.26% | $238.8K |
-| [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574&src=seo_token) | Ethereum | 7.14% | $235.2K |
+| [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25&src=seo_token) | Ethereum | 6.28% | $238.3K |
+| [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574&src=seo_token) | Ethereum | 7.17% | $234.8K |
 | [convex-finance →](https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00&src=seo_token) | Ethereum | 0.36% | $233.2K |
-| [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c&src=seo_token) | Ethereum | 9.95% | $204.9K |
+| [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c&src=seo_token) | Ethereum | 9.98% | $204.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CJPY yield today?
 
-9.95% APY on curve-dex (Ethereum), based on live DefiLlama data.
+9.98% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many CJPY pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $912.1K in total.
+4 live pools clear this page's $100K TVL floor, $911K in total.
 
 ### Are these rates safe?
 

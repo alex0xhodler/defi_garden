@@ -4,7 +4,7 @@ The highest honest ARGUE yield right now is 0.07% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=adbafab7-1e89-4df2-a865-0fed07ac0cf1&src=seo_token) | Base | 0.07% | $216.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=adbafab7-1e89-4df2-a865-0fed07ac0cf1&src=seo_token) | Base | 0.07% | $214.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ARGUE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $216.1K in total.
+1 live pool clear this page's $100K TVL floor, $214.8K in total.
 
 ### Are these rates safe?
 

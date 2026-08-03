@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token) | Ethereum | 45.02% | $384.8K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token) | Ethereum | 7.22% | $263.5K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token) | Ethereum | 7.16% | $264.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token) | Ethereum | 23.51% | $108.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 45.02%예
 
 ### INJ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $756.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $757.3K예요.
 
 ### 이 수익률은 안전한가요?
 

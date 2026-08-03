@@ -6,7 +6,7 @@ The highest honest RLB yield right now is 4.51% on uniswap-v3 (Ethereum), among 
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=5aa65d8c-d0d9-45a7-84e8-d4ed40416a10&src=seo_token) | Ethereum | 4.51% | $2.69M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=aa2e7ba7-b158-4f95-900c-3a60fce9b795&src=seo_token) | Ethereum | 1.37% | $2.13M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d757fc0c-e9d1-4f8c-af1a-d78e341f5f96&src=seo_token) | Ethereum | 1.97% | $504.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d757fc0c-e9d1-4f8c-af1a-d78e341f5f96&src=seo_token) | Ethereum | 1.97% | $504K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RLB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $5.33M in total.
+3 live pools clear this page's $100K TVL floor, $5.32M in total.
 
 ### Are these rates safe?
 

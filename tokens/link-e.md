@@ -1,11 +1,11 @@
 # LINK.E DeFi Yields
 
-The highest honest LINK.E yield right now is 10.70% on benqi-lending (Avalanche), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LINK.E yield right now is 8.07% on benqi-lending (Avalanche), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-lending →](https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token) | Avalanche | 0.02% | $583.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 10.70% | $147.1K |
+| [benqi-lending →](https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token) | Avalanche | 0.02% | $583.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 8.07% | $147K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LINK.E yield today?
 
-10.70% APY on benqi-lending (Avalanche), based on live DefiLlama data.
+8.07% APY on benqi-lending (Avalanche), based on live DefiLlama data.
 
 ### How many LINK.E pools clear the TVL floor?
 

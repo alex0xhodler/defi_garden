@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 2.44% | $2.61M |
+| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 2.45% | $2.62M |
 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.43% | $2.32M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

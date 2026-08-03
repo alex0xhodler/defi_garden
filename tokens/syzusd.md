@@ -1,6 +1,6 @@
 # SYZUSD DeFi Yields
 
-The highest honest SYZUSD yield right now is 15.29% on yuzu-money (Plasma), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYZUSD yield right now is 15.34% on yuzu-money (Plasma), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -10,7 +10,7 @@ The highest honest SYZUSD yield right now is 15.29% on yuzu-money (Plasma), amon
 | [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 8.16% | $1.29M |
 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.1M |
 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 8.60% | $391.4K |
-| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 15.29% | $132.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 15.34% | $132.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYZUSD yield today?
 
-15.29% APY on yuzu-money (Plasma), based on live DefiLlama data.
+15.34% APY on yuzu-money (Plasma), based on live DefiLlama data.
 
 ### How many SYZUSD pools clear the TVL floor?
 

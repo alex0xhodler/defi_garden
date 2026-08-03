@@ -4,7 +4,7 @@ The highest honest MOOBIFI yield right now is 1.40% on velodrome-v2 (OP Mainnet)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=0747421f-6dba-4042-952a-2d9d2e864917&src=seo_token) | OP Mainnet | 1.40% | $127.4K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=0747421f-6dba-4042-952a-2d9d2e864917&src=seo_token) | OP Mainnet | 1.40% | $127.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

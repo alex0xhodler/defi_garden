@@ -6,12 +6,12 @@ The highest honest HOLLAR yield right now is 15.81% on hydration-dex (Polkadot),
 |---|---|---|---|
 | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token) | Polkadot | 0.70% | $2.29M |
 | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.42% | $1.98M |
-| [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c&src=seo_token) | Polkadot | 15.81% | $1.93M |
-| [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a&src=seo_token) | Polkadot | 0.18% | $830K |
-| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94&src=seo_token) | Polkadot | 0.23% | $603.3K |
-| [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5&src=seo_token) | Polkadot | 0.24% | $603.2K |
-| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f&src=seo_token) | Polkadot | 0.03% | $307.6K |
-| [hydration-dex →](https://www.defi.garden/?pool=7d3151e2-9ee8-4b9e-bff0-e377a4153d82&src=seo_token) | Polkadot | 1.42% | $136.8K |
+| [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c&src=seo_token) | Polkadot | 15.81% | $1.94M |
+| [hydration-dex →](https://www.defi.garden/?pool=725ad84c-242e-4ddc-9bda-e2462466119a&src=seo_token) | Polkadot | 0.18% | $830.1K |
+| [hydration-dex →](https://www.defi.garden/?pool=9714729f-22d5-472e-b3fb-ed799a6bd4a5&src=seo_token) | Polkadot | 0.24% | $602.9K |
+| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94&src=seo_token) | Polkadot | 0.23% | $602.5K |
+| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f&src=seo_token) | Polkadot | 0.03% | $307.1K |
+| [hydration-dex →](https://www.defi.garden/?pool=7d3151e2-9ee8-4b9e-bff0-e377a4153d82&src=seo_token) | Polkadot | 1.42% | $136.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HOLLAR pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $8.9M in total.
+10 live pools clear this page's $100K TVL floor, $8.91M in total.
 
 ### Are these rates safe?
 

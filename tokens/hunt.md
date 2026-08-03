@@ -4,8 +4,8 @@ The highest honest HUNT yield right now is 1.33% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 1.33% | $943.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 1.13% | $427.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=48bf02ba-60e3-429f-af72-384a0f4f0a81&src=seo_token) | Ethereum | 1.33% | $939.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ad5a86b6-d309-4518-bd13-bd1b729c0a9f&src=seo_token) | Ethereum | 1.13% | $424.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HUNT pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.75M in total.
+5 live pools clear this page's $100K TVL floor, $1.74M in total.
 
 ### Are these rates safe?
 

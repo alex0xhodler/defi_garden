@@ -5,7 +5,7 @@ The highest honest IXS yield right now is 9.63% on uniswap-v4 (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851&src=seo_token) | Ethereum | 9.63% | $455.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e&src=seo_token) | Ethereum | 3.65% | $208.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e&src=seo_token) | Ethereum | 3.64% | $208.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IXS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $663.6K in total.
+2 live pools clear this page's $100K TVL floor, $663.9K in total.
 
 ### Are these rates safe?
 

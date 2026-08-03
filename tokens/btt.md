@@ -5,6 +5,7 @@ The highest honest BTT yield right now is 0.10% on justlend-v1 (Tron), among 2 p
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token) | Tron | 0.10% | $870.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.01% | $203.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BTT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.08M in total.
+2 live pools clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 
@@ -24,15 +25,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDT](https://www.defi.garden/tokens/usdt)
-- [TRX](https://www.defi.garden/tokens/trx)
-- [BTC](https://www.defi.garden/tokens/btc)
-- [USDD](https://www.defi.garden/tokens/usdd)
-- [JST](https://www.defi.garden/tokens/jst)
-- [SUN](https://www.defi.garden/tokens/sun)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 
 - [Tron](https://www.defi.garden/chains/tron)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Last updated August 3, 2026

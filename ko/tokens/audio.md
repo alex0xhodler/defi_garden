@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 1.02% | $466.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 0.79% | $194.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 1.02% | $467.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 0.76% | $194.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 1.02%예�
 
 ### AUDIO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $661.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $662.2K예요.
 
 ### 이 수익률은 안전한가요?
 

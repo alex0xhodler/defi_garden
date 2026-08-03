@@ -6,7 +6,7 @@ The highest honest SYBTC yield right now is 11.00% on uniswap-v4 (Ethereum), amo
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=23bff1c9-7402-4c1f-81e8-d46b09f8e001&src=seo_token) | Ethereum | 1.58% | $576.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a287546c-cb67-488a-b7c3-02be149a9883&src=seo_token) | Ethereum | 11.00% | $350.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 6.31% | $334K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 6.30% | $333.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -4,13 +4,13 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.17% | $112.68M |
-| [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.37% | $10M |
+| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.17% | $112.69M |
+| [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.37% | $10.01M |
 | [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 3.08% | $9.45M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 1.62% | $7.92M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 5.82% | $7.91M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 4.62% | $3.07M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=802d35a2-5bae-456f-a2a9-4e1b48e0dec5&src=seo_token) | Ethereum | 2.56% | $1.51M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 1.61% | $7.93M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 5.82% | $7.92M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 4.61% | $3.07M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=802d35a2-5bae-456f-a2a9-4e1b48e0dec5&src=seo_token) | Ethereum | 2.57% | $1.51M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=1193ef25-862b-43c1-a545-91bbb9678d30&src=seo_token) | Ethereum | 0.22% | $1.47M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 sparklend에서 APY 5.82%예�
 
 ### DAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 64개이며, 합산 TVL은 $350.84M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 64개이며, 합산 TVL은 $350.86M예요.
 
 ### 이 수익률은 안전한가요?
 

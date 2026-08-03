@@ -4,7 +4,7 @@ The highest honest WQQQX yield right now is 0.02% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=85731ac0-c354-4ddc-a796-9d3bafde7a1d&src=seo_token) | Ethereum | 0.02% | $320.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=85731ac0-c354-4ddc-a796-9d3bafde7a1d&src=seo_token) | Ethereum | 0.02% | $320.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

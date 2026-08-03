@@ -1,11 +1,11 @@
 # USPC DeFi Yields
 
-The highest honest USPC yield right now is 5.22% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USPC yield right now is 5.23% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=a020d688-2591-4086-9827-09fbdc72094c&src=seo_token) | Ethereum | 3.45% | $319.2K |
-| [convex-finance →](https://www.defi.garden/?pool=ff64e4a9-161d-42b8-82a3-b9436c6ceeb1&src=seo_token) | Ethereum | 5.22% | $319.1K |
+| [convex-finance →](https://www.defi.garden/?pool=ff64e4a9-161d-42b8-82a3-b9436c6ceeb1&src=seo_token) | Ethereum | 5.23% | $319.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USPC yield today?
 
-5.22% APY on curve-dex (Ethereum), based on live DefiLlama data.
+5.23% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many USPC pools clear the TVL floor?
 

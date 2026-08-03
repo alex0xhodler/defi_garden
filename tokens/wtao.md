@@ -1,12 +1,12 @@
 # WTAO DeFi Yields
 
-The highest honest WTAO yield right now is 19.57% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WTAO yield right now is 14.19% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token) | Ethereum | 14.18% | $2.04M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 19.57% | $912.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 9.70% | $289K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token) | Ethereum | 14.19% | $2.04M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 12.96% | $910.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 8.79% | $288.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token) | Ethereum | 1.08% | $226K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WTAO yield today?
 
-19.57% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+14.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WTAO pools clear the TVL floor?
 

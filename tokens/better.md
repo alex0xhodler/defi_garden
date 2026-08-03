@@ -1,10 +1,10 @@
 # BETTER DeFi Yields
 
-The highest honest BETTER yield right now is 6.92% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BETTER yield right now is 6.96% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bf329557-8b54-4b92-8d48-6f93bc99a3fb&src=seo_token) | Base | 6.92% | $132.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bf329557-8b54-4b92-8d48-6f93bc99a3fb&src=seo_token) | Base | 6.96% | $131.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BETTER yield today?
 
-6.92% APY on uniswap-v4 (Base), based on live DefiLlama data.
+6.96% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BETTER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.6K in total.
+1 live pool clear this page's $100K TVL floor, $131.9K in total.
 
 ### Are these rates safe?
 

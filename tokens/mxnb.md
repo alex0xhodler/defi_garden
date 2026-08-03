@@ -1,10 +1,10 @@
 # MXNB DeFi Yields
 
-The highest honest MXNB yield right now is 5.58% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MXNB yield right now is 5.56% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token) | Base | 5.58% | $183.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token) | Base | 5.56% | $183.6K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token) | Arbitrum | 0.20% | $164.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token) | Arbitrum | 0.14% | $148.4K |
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MXNB yield today?
 
-5.58% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+5.56% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MXNB pools clear the TVL floor?
 
