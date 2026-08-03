@@ -350,14 +350,23 @@ const Analytics = {
   // Performance Tracking
 
   trackPerformance(metric, value, context = {}) {
-    this.track('performance_metric', {
+    const payload = {
       metric_name: metric,
       metric_value: value,
       metric_category: this.categorizePerformanceMetric(metric),
       page_context: context.page || 'unknown',
       connection_type: navigator.connection ? navigator.connection.effectiveType : 'unknown',
       is_slow_device: this.isSlowDevice()
-    });
+    };
+    // Spec 214 AC7: forward the data-source distinction (snapshot vs live)
+    // additively. Explicit keys only (never a wholesale `...context` spread,
+    // which risks colliding with reserved/`$`-prefixed Mixpanel props) and
+    // only when present, so callers that never pass these (every non-
+    // data_load_time trackPerformance call site today) don't start emitting
+    // `source: undefined` / `pools_count: undefined`.
+    if (context.source !== undefined) payload.source = context.source;
+    if (context.pools_count !== undefined) payload.pools_count = context.pools_count;
+    this.track('performance_metric', payload);
   },
 
   // Error Tracking
