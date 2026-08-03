@@ -1076,6 +1076,51 @@
   padding: 0;
 }
 
+/* Backlog 218: the `garden_cta` anchor (pool-detail's hero action card) can
+   sit inside the band the OPAQUE, `position: fixed` `.app-footer`
+   (style.css:2513-2524) paints over — AT SCROLL POSITION 0, before the user
+   has touched anything, not just at max scroll. Measured on the suite's
+   STETH fixture pool at 360x780: CTA rect 703.3-750.3, footer rect 722-780 —
+   the footer physically overlaps the button and `elementFromPoint` at the
+   CTA's lower band returns the footer, so the click never reaches the
+   anchor. Item 217's fix (the block immediately above, which stopped
+   cancelling `.app`'s `padding-bottom: 80px`) only protects the END of the
+   document; it cannot help an element that isn't at the end. The overlap is
+   content-dependent (hero-card height varies by pool), so no clearance
+   value fixes the class — the fix has to remove the overlay on this view
+   instead.
+
+   This is NOT a revert of 217. 217 deleted a `padding: 0` canceller *while
+   the footer was still a fixed overlay*, restoring the clearance that keeps
+   the document's last pixels from under it. That mechanism is still correct
+   for a fixed footer — it's just not sufficient here, because the CTA is
+   mid-document, not at the end. Here the footer itself stops being an
+   overlay on this view: `position: static` puts it back in normal document
+   flow, so nothing on the page — CTA, prose, or the last pixel — can be
+   occluded or click-intercepted at ANY scroll position, on ANY viewport.
+   That makes 217's clearance vestigial ON THIS VIEW ONLY: with the footer
+   in flow, the 80px reserved for it renders as dead background space AFTER
+   an already in-flow footer, so it is cancelled back to 0 here. (`.app`'s
+   shared 80px rule and every other view that relies on it, e.g. the
+   fixed-footer analytics grid, are untouched — this selector only ever
+   matches `.app.pool-detail-view`.)
+
+   `margin-top: auto` is the flex sticky-footer idiom, not a new layout
+   mode: `.app.pool-detail-view` is already `display: flex; flex-direction:
+   column` via `.app:not(.has-results)` (style.css:857-862 — pool-detail
+   carries no `has-results` class), so pushing the now-in-flow footer to the
+   bottom of a short viewport (e.g. a shorter dead-pool render) just needs
+   `margin-top: auto` on that flex child; no flex/grid property is being
+   introduced that wasn't already active on this view. */
+.app.pool-detail-view .app-footer {
+  position: static;
+  margin-top: auto;
+}
+
+.app.pool-detail-view {
+  padding-bottom: 0;
+}
+
 /* Focus states for accessibility */
 .focusable-element:focus-visible {
   outline: 2px solid var(--color-primary);

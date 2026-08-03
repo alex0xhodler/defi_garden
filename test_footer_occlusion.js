@@ -46,12 +46,26 @@
    (5) the `garden_cta` anchor can be scrolled to a position clear of the
        footer at 360px (BACKLOG row 217's "worth checking, not yet proven" —
        this proves it; see 217-notes.md for the recorded finding);
-   (6) POSITIVE CONTROL: with the fix mutated away in-page (injected CSS
-       re-applying `padding-bottom: 0 !important` to `.app.pool-detail-view`,
-       in its own isolated page so it cannot contaminate the real
-       assertions), the same bottom-of-scroll measurement DOES report
-       occlusion — proving the check can fail, not just always pass
-       (playbooks/derived-number-rails.md Step 0b);
+   (6) POSITIVE CONTROL: with the fix mutated away in-page, in its own
+       isolated page so it cannot contaminate the real assertions, the same
+       bottom-of-scroll measurement DOES report occlusion — proving the check
+       can fail, not just always pass (playbooks/derived-number-rails.md Step
+       0b). UPDATED for item 218: this control originally re-applied
+       `padding-bottom: 0 !important` to `.app.pool-detail-view` alone, which
+       reproduced occlusion when `.app-footer` was still an opaque
+       `position: fixed` overlay (cancelling clearance exposes content to a
+       fixed overlay). Item 218 changed the mechanism on this view: the
+       footer now joins document flow (`position: static`), and 218's own
+       `.app.pool-detail-view { padding-bottom: 0 }` is a real, permanent part
+       of the fix (the 80px clearance is vestigial once nothing is fixed
+       above it). Re-applying JUST that same padding override therefore no
+       longer removes any actual protection — there is no fixed overlay left
+       for it to expose the page to — so the old control would pass while
+       measuring nothing (worse than a control that can't go red: it looks
+       like it's still testing something). The control now injects CSS that
+       reproduces the FULL pre-217/pre-218 state — footer restored to
+       `position: fixed` AND clearance re-cancelled — which is the only
+       combination that still reproduces this test's defect class;
    (7) implicitly covered by every assertion above: the page is navigated via
        `home.html?pool=...` in analytics mode, which injects the MINIFIED
        `pool-detail-styles.min.css` (home.html:167), not the raw sheet — a
@@ -327,8 +341,17 @@ async function main() {
       await controlPage.goto(poolUrl, { waitUntil: 'load', timeout: 20000 });
       await controlPage.waitForSelector('.pool-detail-view', { timeout: 15000 });
       await waitForCss(controlPage);
-      // Re-cancel the clearance the fix restored, exactly the pre-fix rule.
-      await controlPage.addStyleTag({ content: '.app.pool-detail-view{padding-bottom:0 !important}' });
+      // Re-cancel the clearance the fix restored, exactly the pre-fix rule —
+      // UPDATED for item 218: once 218 puts `.app-footer` back in document
+      // flow on this view (`position: static`), cancelling clearance alone
+      // (`padding-bottom: 0 !important`) can no longer produce occlusion —
+      // there is no fixed overlay left for the missing padding to expose the
+      // page to. That control would pass while measuring nothing (worse than
+      // a control that can't go red: it LOOKS like it's testing something).
+      // The control now reproduces the FULL pre-217/pre-218 state — the
+      // footer restored to a fixed overlay AND clearance cancelled — which is
+      // the only combination that still reproduces this test's defect class.
+      await controlPage.addStyleTag({ content: '.app.pool-detail-view .app-footer{position:fixed !important;bottom:0;left:0;right:0} .app.pool-detail-view{padding-bottom:0 !important}' });
       await controlPage.waitForTimeout(100);
 
       const { occluded, containerBottom, footerTop } = await measureOcclusion(controlPage);

@@ -48,10 +48,34 @@ and the giveaway is that the defect exists on exactly one route.
   is one source of truth and no drift. Regenerate the MIN sheet
   (`npm run minify`) — `home.html:167` injects `pool-detail-styles.min.css` in
   analytics mode, so a raw-only fix ships dead (item 136's trap).
-- **Mid-page element under the overlay (item 218):** clearance cannot help — the
-  element is not at the end of the document. This is a layout or
-  overlay-behaviour change (hero-card height budget, sticky-at-end footer on
-  short viewports, hide-on-scroll) and deserves its own spec and risk call.
+- **Mid-page element under the overlay (item 218, RESOLVED 2026-08-03):**
+  clearance cannot help — the element is not at the end of the document, and
+  where it lands in the viewport at rest depends on the height of the content
+  above it, which varies per record (the same CTA sat 28.3px under the footer
+  on one pool and fully buried on another). **That rules out every layout
+  tweak** — hero-card height budget, extra margin, a bigger clearance value.
+  What shipped instead — take the overlay out of the fixed layer *on that view
+  only*:
+  ```css
+  .app.pool-detail-view .app-footer { position: static; margin-top: auto; }
+  .app.pool-detail-view            { padding-bottom: 0; }
+  ```
+  `margin-top: auto` is the flex sticky-footer idiom and needs no new layout
+  mode if the view is already a flex column (`.app:not(.has-results)` in
+  `style.css` makes pool-detail one). `padding-bottom: 0` is NOT a revert of
+  the clearance fix above — once the footer is in flow it protects nothing and
+  would render 80px of dead background below a footer carrying a top
+  box-shadow. **Prove that difference rather than assert it:** keep the
+  clearance test's bottom-of-scroll cases byte-identical and still green.
+- **When a fix supersedes a mechanism, the old test's POSITIVE CONTROL rots
+  first.** 217's control cancelled clearance and asserted occlusion returned;
+  after 218 put the footer in flow, that same injection exposes the page to no
+  overlay — the control keeps passing while measuring nothing, which is worse
+  than a control that cannot go red, because it still looks like a check.
+  Rule: **a control must mutate away the protection the product uses TODAY.**
+  Rewrite it to reproduce the full pre-fix state (here: `position: fixed`
+  restored AND clearance cancelled) and leave every other assertion in that
+  file untouched, so the diff shows exactly one hunk to scrutinise.
 - **Fixed on one route only:** grep for the same pattern on every OTHER route
   before closing. Item 179 fixed this class on bare `/` and nobody ported it;
   217 then paid for it on pool-detail 20 days later.
@@ -88,4 +112,7 @@ attempt-1 FAIL which uncovered item **218** (the `garden_cta` north-star CTA
 fully behind the footer and click-intercepted at 360×780, pre-existing), and
 item **179** (the same class on bare `/`, fixed there and never ported). Process
 gap filed as **219**. Full write-up: `specs/217.md`, `specs/217-notes.md`,
-LOG.md 2026-08-03 build | 217.
+LOG.md 2026-08-03 build | 217. Updated 2026-08-03 when **218** shipped its own
+fix (footer in flow on pool-detail + the positive-control rot rule):
+`specs/218.md`, `specs/218-notes.md`, `specs/218-pr.md`,
+`test_cta_at_rest_occlusion.js`, LOG.md 2026-08-03 build | 218.
