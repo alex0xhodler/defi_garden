@@ -30,7 +30,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 1.00%예요.
 - [CUSD](https://www.defi.garden/ko/tokens/cusd)
 - [CELO](https://www.defi.garden/ko/tokens/celo)
 - [STCELO](https://www.defi.garden/ko/tokens/stcelo)
-- [CAUD](https://www.defi.garden/ko/tokens/caud)
+- [EURM](https://www.defi.garden/ko/tokens/eurm)
 
 ## 이용 가능한 체인
 

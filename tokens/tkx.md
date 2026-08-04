@@ -1,11 +1,11 @@
 # TKX DeFi Yields
 
-The highest honest TKX yield right now is 1.73% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TKX yield right now is 1.16% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=49cb977f-415e-4ee4-b930-8b58e8ea1716&src=seo_token) | Ethereum | 1.22% | $211.4K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=deb29a97-3fa2-460a-beb0-cdcb8b65d253&src=seo_token) | Ethereum | 1.73% | $143.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=49cb977f-415e-4ee4-b930-8b58e8ea1716&src=seo_token) | Ethereum | 1.16% | $211.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=deb29a97-3fa2-460a-beb0-cdcb8b65d253&src=seo_token) | Ethereum | 0.33% | $143K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TKX yield today?
 
-1.73% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TKX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $354.7K in total.
+2 live pools clear this page's $100K TVL floor, $354.1K in total.
 
 ### Are these rates safe?
 

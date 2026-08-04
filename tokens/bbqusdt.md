@@ -4,7 +4,7 @@ The highest honest BBQUSDT yield right now is 4.34% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c743eac6-1906-4d96-a7aa-667426ec3cc7&src=seo_token) | Ethereum | 4.29% | $23.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=c743eac6-1906-4d96-a7aa-667426ec3cc7&src=seo_token) | Ethereum | 4.04% | $23.28M |
 | [morpho-blue →](https://www.defi.garden/?pool=89222e6a-f39f-4500-aeea-f615d61b81f0&src=seo_token) | Ethereum | 4.34% | $2.31M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BBQUSDT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $25.6M in total.
+2 live pools clear this page's $100K TVL floor, $25.59M in total.
 
 ### Are these rates safe?
 

@@ -1,12 +1,12 @@
 # REI DeFi Yields
 
-The highest honest REI yield right now is 160.53% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REI yield right now is 124.95% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 1.76% | $1.94M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 1.81% | $342.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9e0209c8-d508-5249-bc99-f703997c5a10&src=seo_token) | Base | 160.53% | $147.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 1.12% | $1.94M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 1.90% | $341.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=9e0209c8-d508-5249-bc99-f703997c5a10&src=seo_token) | Base | 124.95% | $183.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REI yield today?
 
-160.53% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+124.95% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many REI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.43M in total.
+3 live pools clear this page's $100K TVL floor, $2.46M in total.
 
 ### Are these rates safe?
 

@@ -4,8 +4,8 @@ The highest honest FOOM yield right now is 0.04% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0d7a79a7-827f-49cd-adce-c834a5f5b5bf&src=seo_token) | Ethereum | 0.01% | $3.24M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bdd7c234-2578-5660-a682-c2e35c9d51c7&src=seo_token) | Base | 0.04% | $205K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0d7a79a7-827f-49cd-adce-c834a5f5b5bf&src=seo_token) | Ethereum | 0.02% | $3.23M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bdd7c234-2578-5660-a682-c2e35c9d51c7&src=seo_token) | Base | 0.04% | $202.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FOOM pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $4.02M in total.
+5 live pools clear this page's $100K TVL floor, $4.01M in total.
 
 ### Are these rates safe?
 

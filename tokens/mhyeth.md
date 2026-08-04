@@ -1,10 +1,10 @@
 # MHYETH DeFi Yields
 
-The highest honest MHYETH yield right now is 2.41% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MHYETH yield right now is 2.45% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=caadc34e-3216-4e4b-96d0-ebde9be9d12e&src=seo_token) | Ethereum | 2.41% | $2.75M |
+| [morpho-blue →](https://www.defi.garden/?pool=caadc34e-3216-4e4b-96d0-ebde9be9d12e&src=seo_token) | Ethereum | 2.45% | $2.74M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MHYETH yield today?
 
-2.41% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.45% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many MHYETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.75M in total.
+1 live pool clear this page's $100K TVL floor, $2.74M in total.
 
 ### Are these rates safe?
 

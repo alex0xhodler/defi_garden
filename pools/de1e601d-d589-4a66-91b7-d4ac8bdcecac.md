@@ -1,6 +1,6 @@
 # USDTB — fluid-lending on Ethereum
 
-**Total APY:** 5.81% (2.41% Base · + 3.40% Rewards)
+**Total APY:** 5.84% (2.44% Base · + 3.40% Rewards)
 
 **TVL:** $2.22M
 
@@ -20,13 +20,13 @@ Conservative DeFi strategy
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,326 in 5y at current rates.
+$1,000 in this pool grows to ~$1,328 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
-[Garden this pool → ~$1,326 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,328 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on fluid-lending](https://www.fluid.io/?ref=defi.garden)
 

@@ -1,10 +1,10 @@
 # EDGEUSDC DeFi Yields
 
-The highest honest EDGEUSDC yield right now is 8.25% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDGEUSDC yield right now is 8.49% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c29704a4-3537-459d-bc4d-1f8812f28bcd&src=seo_token) | Base | 8.25% | $778.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=c29704a4-3537-459d-bc4d-1f8812f28bcd&src=seo_token) | Base | 8.49% | $785.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EDGEUSDC yield today?
 
-8.25% APY on morpho-blue (Base), based on live DefiLlama data.
+8.49% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many EDGEUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $778.4K in total.
+1 live pool clear this page's $100K TVL floor, $785.5K in total.
 
 ### Are these rates safe?
 

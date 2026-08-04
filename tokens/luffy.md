@@ -4,7 +4,7 @@ The highest honest LUFFY yield right now is 0.06% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=926a4bba-9d1c-43b2-b27a-3c940f348a58&src=seo_token) | Ethereum | 0.06% | $389.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=926a4bba-9d1c-43b2-b27a-3c940f348a58&src=seo_token) | Ethereum | 0.06% | $388.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LUFFY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $389.2K in total.
+1 live pool clear this page's $100K TVL floor, $388.6K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest CRVUSDCWBTCWETH yield right now is 4.40% on yearn-finance (Et
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=70684610-4bf2-489c-8329-af063de529a6&src=seo_token) | Ethereum | 4.40% | $558.7K |
+| [yearn-finance →](https://www.defi.garden/?pool=70684610-4bf2-489c-8329-af063de529a6&src=seo_token) | Ethereum | 4.40% | $556.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRVUSDCWBTCWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $558.7K in total.
+1 live pool clear this page's $100K TVL floor, $556.4K in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # WBETH DeFi Yields
 
-The highest honest WBETH yield right now is 2.31% on binance-staked-eth (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBETH yield right now is 2.34% on binance-staked-eth (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [binance-staked-eth →](https://www.defi.garden/?pool=80b8bf92-b953-4c20-98ea-c9653ef2bb98&src=seo_token) | Ethereum | 2.31% | $6.53B |
-| [binance-staked-eth →](https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a&src=seo_token) | BSC | 2.31% | $392.13M |
+| [binance-staked-eth →](https://www.defi.garden/?pool=80b8bf92-b953-4c20-98ea-c9653ef2bb98&src=seo_token) | Ethereum | 2.34% | $6.5B |
+| [binance-staked-eth →](https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a&src=seo_token) | BSC | 2.34% | $390.69M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WBETH yield today?
 
-2.31% APY on binance-staked-eth (Ethereum), based on live DefiLlama data.
+2.34% APY on binance-staked-eth (Ethereum), based on live DefiLlama data.
 
 ### How many WBETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $6.94B in total.
+4 live pools clear this page's $100K TVL floor, $6.91B in total.
 
 ### Are these rates safe?
 

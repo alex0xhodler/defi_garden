@@ -1,11 +1,11 @@
 # ID 디파이 수익률
 
-현재 ID의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 11.53%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ID의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 10.41%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 2.12% | $545.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 11.53% | $119.3K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 0.54% | $545.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 10.41% | $118K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 ID의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 11.53%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 10.41%예요.
 
 ### ID 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $664.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $663.3K예요.
 
 ### 이 수익률은 안전한가요?
 

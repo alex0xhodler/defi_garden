@@ -181,6 +181,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/bob</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/polkadot</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
@@ -266,12 +271,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/flow</loc>
+    <loc>https://www.defi.garden/ko/chains/heco</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/heco</loc>
+    <loc>https://www.defi.garden/ko/chains/flow</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -291,12 +296,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/defichain</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/hedera</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/citrea</loc>
+    <loc>https://www.defi.garden/ko/chains/rootstock</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -306,7 +316,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/rootstock</loc>
+    <loc>https://www.defi.garden/ko/chains/citrea</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
   </url>

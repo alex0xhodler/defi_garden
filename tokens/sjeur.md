@@ -1,11 +1,11 @@
 # SJEUR DeFi Yields
 
-The highest honest SJEUR yield right now is 15.25% on spectra-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SJEUR yield right now is 15.22% on spectra-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token) | Base | 15.25% | $279.1K |
-| [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 9.13% | $279.1K |
+| [spectra-v2 →](https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token) | Base | 15.22% | $279.1K |
+| [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 9.10% | $279.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SJEUR yield today?
 
-15.25% APY on spectra-v2 (Base), based on live DefiLlama data.
+15.22% APY on spectra-v2 (Base), based on live DefiLlama data.
 
 ### How many SJEUR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $558.2K in total.
+2 live pools clear this page's $100K TVL floor, $558.3K in total.
 
 ### Are these rates safe?
 

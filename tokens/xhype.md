@@ -4,9 +4,9 @@ The highest honest XHYPE yield right now is 8.76% on liminal-basis (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liminal-basis →](https://www.defi.garden/?pool=86938e6e-35d9-4cbf-9682-be277f300ab5&src=seo_token) | Ethereum | 8.76% | $5.84M |
-| [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 8.76% | $5.84M |
-| [liminal-basis →](https://www.defi.garden/?pool=6b47d784-7591-4842-84a4-a7628b37c374&src=seo_token) | Arbitrum | 8.76% | $5.84M |
+| [liminal-basis →](https://www.defi.garden/?pool=86938e6e-35d9-4cbf-9682-be277f300ab5&src=seo_token) | Ethereum | 8.76% | $5.85M |
+| [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 8.76% | $5.85M |
+| [liminal-basis →](https://www.defi.garden/?pool=6b47d784-7591-4842-84a4-a7628b37c374&src=seo_token) | Arbitrum | 8.76% | $5.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

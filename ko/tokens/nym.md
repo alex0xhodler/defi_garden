@@ -27,9 +27,9 @@ DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 0.01%예�
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [ATOM](https://www.defi.garden/ko/tokens/atom)
 - [OSMO](https://www.defi.garden/ko/tokens/osmo)
-- [STATOM](https://www.defi.garden/ko/tokens/statom)
 - [AKT](https://www.defi.garden/ko/tokens/akt)
 - [ATONE](https://www.defi.garden/ko/tokens/atone)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 
 ## 이용 가능한 체인
 

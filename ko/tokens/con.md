@@ -24,8 +24,8 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 0.01%예요.
 
 ## 관련 토큰
 
-- [DOGE](https://www.defi.garden/ko/tokens/doge)
 - [MDX](https://www.defi.garden/ko/tokens/mdx)
+- [DOGE](https://www.defi.garden/ko/tokens/doge)
 - [WHT](https://www.defi.garden/ko/tokens/wht)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)

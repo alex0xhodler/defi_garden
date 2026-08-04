@@ -1,11 +1,11 @@
 # SNEK DeFi Yields
 
-The highest honest SNEK yield right now is 59.20% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNEK yield right now is 60.15% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 42.20% | $714.2K |
-| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 59.20% | $291.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 42.58% | $705.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 60.15% | $286.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNEK yield today?
 
-59.20% APY on minswap-dex (Cardano), based on live DefiLlama data.
+60.15% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many SNEK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.01M in total.
+2 live pools clear this page's $100K TVL floor, $991.9K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 10.63% | $56.81M |
+| [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 10.63% | $56.89M |
 | [pendle →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 14.11% | $2.89M |
 | [pendle →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 15.86% | $2.89M |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 15.
 
 ### NOPAL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $62.6M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $62.67M예요.
 
 ### 이 수익률은 안전한가요?
 

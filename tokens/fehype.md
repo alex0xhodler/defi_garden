@@ -1,10 +1,10 @@
 # FEHYPE DeFi Yields
 
-The highest honest FEHYPE yield right now is 0.80% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEHYPE yield right now is 0.81% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_token) | Hyperliquid L1 | 0.80% | $15.39M |
+| [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_token) | Hyperliquid L1 | 0.81% | $15.52M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEHYPE yield today?
 
-0.80% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+0.81% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many FEHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $15.39M in total.
+1 live pool clear this page's $100K TVL floor, $15.52M in total.
 
 ### Are these rates safe?
 

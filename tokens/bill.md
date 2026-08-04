@@ -1,10 +1,11 @@
 # BILL DeFi Yields
 
-The highest honest BILL yield right now is 7.04% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BILL yield right now is 6.15% on fluxion-network (Mantle), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 7.04% | $117.5K |
+| [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.04% | $591.1K |
+| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 6.15% | $117.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BILL yield today?
 
-7.04% APY on orca-dex (Solana), based on live DefiLlama data.
+6.15% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many BILL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $708K in total.
+2 live pools clear this page's $100K TVL floor, $709K in total.
 
 ### Are these rates safe?
 
@@ -27,12 +28,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
+- [Mantle](https://www.defi.garden/chains/mantle)
 - [Solana](https://www.defi.garden/chains/solana)
 
 ## Last updated August 4, 2026

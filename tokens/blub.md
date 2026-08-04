@@ -1,10 +1,10 @@
 # BLUB DeFi Yields
 
-The highest honest BLUB yield right now is 6.51% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLUB yield right now is 3.16% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=52128a2c-44d2-4616-8e36-f44539b80497&src=seo_token) | Sui | 6.51% | $219K |
+| [cetus-clmm →](https://www.defi.garden/?pool=52128a2c-44d2-4616-8e36-f44539b80497&src=seo_token) | Sui | 3.16% | $219K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLUB yield today?
 
-6.51% APY on cetus-clmm (Sui), based on live DefiLlama data.
+3.16% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many BLUB pools clear the TVL floor?
 

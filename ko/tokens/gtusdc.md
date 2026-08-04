@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a306885c-001e-4479-9ae8-459a56527bc1&src=seo_token) | Ethereum | 3.53% | $28.41M |
-| [morpho-blue →](https://www.defi.garden/?pool=70a7ce84-e3e1-4ef1-933e-7a699ee58b95&src=seo_token) | Katana | 1.57% | $1.05M |
+| [morpho-blue →](https://www.defi.garden/?pool=a306885c-001e-4479-9ae8-459a56527bc1&src=seo_token) | Ethereum | 3.53% | $28.4M |
+| [morpho-blue →](https://www.defi.garden/?pool=70a7ce84-e3e1-4ef1-933e-7a699ee58b95&src=seo_token) | Katana | 1.61% | $1.06M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

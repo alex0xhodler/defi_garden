@@ -4,7 +4,7 @@ The highest honest AVAIL yield right now is 194.67% on aerodrome-slipstream (Bas
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=24d7e2d2-ff1a-449a-a893-0378ad67dbe6&src=seo_token) | Base | 194.67% | $133K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=24d7e2d2-ff1a-449a-a893-0378ad67dbe6&src=seo_token) | Base | 194.67% | $132.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVAIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133K in total.
+1 live pool clear this page's $100K TVL floor, $132.1K in total.
 
 ### Are these rates safe?
 

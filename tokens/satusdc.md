@@ -1,11 +1,11 @@
 # SATUSDC DeFi Yields
 
-The highest honest SATUSDC yield right now is 7.61% on morpho-blue (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SATUSDC yield right now is 7.65% on morpho-blue (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 7.61% | $3.64M |
-| [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 6.17% | $1.13M |
+| [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 7.65% | $3.64M |
+| [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 6.17% | $1.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SATUSDC yield today?
 
-7.61% APY on morpho-blue (Monad), based on live DefiLlama data.
+7.65% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many SATUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.76M in total.
+2 live pools clear this page's $100K TVL floor, $4.87M in total.
 
 ### Are these rates safe?
 

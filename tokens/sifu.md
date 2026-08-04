@@ -1,11 +1,11 @@
 # SIFU DeFi Yields
 
-The highest honest SIFU yield right now is 11.10% on uwu-lend (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIFU yield right now is 11.13% on uwu-lend (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $360.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bbe6546-a912-402d-ab59-230ce98edc5c&src=seo_token) | Ethereum | 11.10% | $178.3K |
+| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $358.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bbe6546-a912-402d-ab59-230ce98edc5c&src=seo_token) | Ethereum | 11.13% | $177.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIFU yield today?
 
-11.10% APY on uwu-lend (Ethereum), based on live DefiLlama data.
+11.13% APY on uwu-lend (Ethereum), based on live DefiLlama data.
 
 ### How many SIFU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $538.9K in total.
+2 live pools clear this page's $100K TVL floor, $536.4K in total.
 
 ### Are these rates safe?
 

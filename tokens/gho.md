@@ -5,13 +5,13 @@ The highest honest GHO yield right now is 6.94% on aave-v3 (Ethereum), among 33 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.45% | $27.7M |
-| [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 1.43% | $22.8M |
-| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.37% | $17.43M |
+| [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 1.43% | $22.79M |
+| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.37% | $17.42M |
 | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.94% | $8.72M |
-| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 6.28% | $6.17M |
-| [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 6.23% | $3.77M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token) | Ethereum | 0.10% | $3.02M |
-| [fluid-lending →](https://www.defi.garden/?pool=19d0ddd5-083a-4839-a01a-5fdf066e94a3&src=seo_token) | Arbitrum | 5.91% | $2.65M |
+| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 6.23% | $6.17M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e3f5cd78-4af7-5a1c-abb4-be2a38dbca28&src=seo_token) | Monad | 0.21% | $3.99M |
+| [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 6.23% | $3.75M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e67460a7-f25d-4f9d-9e0c-79e1118f4587&src=seo_token) | Ethereum | 0.09% | $3.02M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GHO pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $183.34M in total.
+33 live pools clear this page's $100K TVL floor, $183.17M in total.
 
 ### Are these rates safe?
 
@@ -43,6 +43,5 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Plasma](https://www.defi.garden/chains/plasma)
 - [Monad](https://www.defi.garden/chains/monad)
-- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Last updated August 4, 2026

@@ -4,7 +4,7 @@ The highest honest CAI yield right now is 0.07% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=049555bc-c67d-4cd4-b5a0-3f522d447ddd&src=seo_token) | Ethereum | 0.07% | $228.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=049555bc-c67d-4cd4-b5a0-3f522d447ddd&src=seo_token) | Ethereum | 0.07% | $228.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.8K in total.
+1 live pool clear this page's $100K TVL floor, $228.6K in total.
 
 ### Are these rates safe?
 

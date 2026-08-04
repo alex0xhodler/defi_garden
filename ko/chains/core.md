@@ -5,8 +5,8 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | CORE | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_chain) | 13.72% | $1.86M |
-| USDT | [colend-protocol →](https://www.defi.garden/?pool=37360ac7-b50d-4f55-ba36-4d5312231d1a&src=seo_chain) | 0.27% | $145K |
-| WCORE | [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_chain) | 0.74% | $134.4K |
+| USDT | [colend-protocol →](https://www.defi.garden/?pool=37360ac7-b50d-4f55-ba36-4d5312231d1a&src=seo_chain) | 0.27% | $143.9K |
+| WCORE | [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_chain) | 0.74% | $134.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

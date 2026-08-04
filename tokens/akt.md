@@ -4,9 +4,9 @@ The highest honest AKT yield right now is 7.61% on osmosis-dex (Osmosis), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83&src=seo_token) | Osmosis | 0.06% | $181.7K |
-| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 7.61% | $162.6K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.31% | $114K |
+| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83&src=seo_token) | Osmosis | 0.06% | $178.9K |
+| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 7.61% | $160.3K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.40% | $113K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AKT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $458.3K in total.
+3 live pools clear this page's $100K TVL floor, $452.2K in total.
 
 ### Are these rates safe?
 
@@ -29,9 +29,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [ATOM](https://www.defi.garden/tokens/atom)
 - [OSMO](https://www.defi.garden/tokens/osmo)
-- [STATOM](https://www.defi.garden/tokens/statom)
 - [ATONE](https://www.defi.garden/tokens/atone)
 - [NYM](https://www.defi.garden/tokens/nym)
+- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 

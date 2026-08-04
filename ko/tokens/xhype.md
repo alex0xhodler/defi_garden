@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [liminal-basis →](https://www.defi.garden/?pool=86938e6e-35d9-4cbf-9682-be277f300ab5&src=seo_token) | Ethereum | 8.76% | $5.84M |
-| [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 8.76% | $5.84M |
-| [liminal-basis →](https://www.defi.garden/?pool=6b47d784-7591-4842-84a4-a7628b37c374&src=seo_token) | Arbitrum | 8.76% | $5.84M |
+| [liminal-basis →](https://www.defi.garden/?pool=86938e6e-35d9-4cbf-9682-be277f300ab5&src=seo_token) | Ethereum | 8.76% | $5.85M |
+| [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 8.76% | $5.85M |
+| [liminal-basis →](https://www.defi.garden/?pool=6b47d784-7591-4842-84a4-a7628b37c374&src=seo_token) | Arbitrum | 8.76% | $5.85M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

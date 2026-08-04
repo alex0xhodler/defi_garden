@@ -1,11 +1,11 @@
 # SPELL DeFi Yields
 
-The highest honest SPELL yield right now is 15.32% on sushiswap (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPELL yield right now is 15.39% on sushiswap (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 6.01% | $157.4K |
-| [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 15.32% | $125.1K |
+| [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 1.73% | $157.6K |
+| [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 15.39% | $125.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPELL yield today?
 
-15.32% APY on sushiswap (Ethereum), based on live DefiLlama data.
+15.39% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many SPELL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $282.5K in total.
+2 live pools clear this page's $100K TVL floor, $282.7K in total.
 
 ### Are these rates safe?
 

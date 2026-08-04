@@ -1,10 +1,10 @@
 # VOLT 디파이 수익률
 
-현재 VOLT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 0.25%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VOLT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 0.27%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=aec7794c-a8d6-4111-b5ff-3b4c90fc60b6&src=seo_token) | Ethereum | 0.25% | $782.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=aec7794c-a8d6-4111-b5ff-3b4c90fc60b6&src=seo_token) | Ethereum | 0.27% | $778.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,7 +12,7 @@
 
 ### 오늘 VOLT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.25%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.27%예요.
 
 ### VOLT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

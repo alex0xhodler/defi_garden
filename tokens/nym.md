@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [ATOM](https://www.defi.garden/tokens/atom)
 - [OSMO](https://www.defi.garden/tokens/osmo)
-- [STATOM](https://www.defi.garden/tokens/statom)
 - [AKT](https://www.defi.garden/tokens/akt)
 - [ATONE](https://www.defi.garden/tokens/atone)
+- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 

@@ -4,7 +4,7 @@ The highest honest METIS yield right now is 0.42% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7d288858-94b1-4217-ad09-5992bdea59ae&src=seo_token) | Ethereum | 0.42% | $493.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7d288858-94b1-4217-ad09-5992bdea59ae&src=seo_token) | Ethereum | 0.42% | $492.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many METIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $493.8K in total.
+1 live pool clear this page's $100K TVL floor, $492.4K in total.
 
 ### Are these rates safe?
 
