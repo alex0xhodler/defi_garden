@@ -116,9 +116,16 @@ count should not have grown from that request).
 ## 6. Daily read: "reads by UA-family by day"
 
 This is the exact query the heartbeat's §2 gains as its new "agent reads"
-read — kept byte-identical to `DAILY_READS_QUERY` in
-`edge/agent-log-core.js` (`test_agent_log.js` asserts the two never drift
-apart):
+read. It is stated TWICE below — once on its own, once inside the runnable
+`wrangler d1 execute` command — and BOTH copies are kept byte-identical to
+`DAILY_READS_QUERY` in `edge/agent-log-core.js`. `test_agent_log.js` scans
+this file for EVERY occurrence of the query and asserts each one
+individually against the constant (and that at least one exists), so no
+copy here — including the one you will actually copy and paste — can drift
+from the code unnoticed. An earlier version of that check tested only
+whether the query appeared *somewhere* in this file, which the illustrative
+copy alone satisfied while the runnable command silently drifted; see
+`product-loop-kit/specs/224-notes.md`, "Verifier round 1".
 
 ```sql
 SELECT

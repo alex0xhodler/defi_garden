@@ -92,3 +92,77 @@ been scope creep). Until 232 ships, `agent_reads` grows one row per agent-surfac
 The Worker has never executed on Cloudflare — no credentials in a loop session, by policy. Everything above
 is the real module under a faked `fetch`/`ctx`/`env.DB`, plus the real on-disk estate for classification.
 The first true end-to-end proof is the human's `edge/DEPLOY.md` §Verify step after deploying.
+
+## Verifier round 1 — FAIL, and what it found
+
+**The finding.** `test_agent_log.js`'s section E asserted DEPLOY.md↔code parity with a single
+`deployMd.includes(core.DAILY_READS_QUERY)`. `edge/DEPLOY.md` states the query TWICE: once as an
+illustrative fenced ` ```sql ` block (~line 124), and once inside the actual copy-pasteable
+`wrangler d1 execute --command "..."` a human will literally run against prod D1 (~line 136). The
+verifier mutated ONLY the runnable command's copy (`reads DESC` → `reads ASC`) and left the illustrative
+copy untouched. `.includes()` is satisfied by finding the exact string ANYWHERE in the file, so the
+untouched illustrative copy alone made the assertion pass — the test stayed GREEN at 761/761 while the
+copy a human would actually paste into a shell had silently drifted from the code. This is the repo's
+RAZOR §5 / item-212 pattern: a guard watching something that RESEMBLES the mechanism (the doc
+contains the string somewhere) rather than the mechanism itself (every stated copy of the runbook
+command matches the code), which launders the gap as coverage.
+
+**Which copy could actually drift undetected.** Specifically the runnable-command copy (~line 136) —
+the one a human executes against production D1 without necessarily reading `edge/agent-log-core.js`
+first, per this runbook's own stated design ("Nothing below requires reading `edge/agent-log.mjs` or
+`edge/agent-log-core.js`"). That is the worst copy to have silently drifted: a wrong `ORDER BY` on a
+prod query a human trusts unread.
+
+**The fix.** Replaced the single `.includes()` check with a scan of the FULL text of `edge/DEPLOY.md`
+for every occurrence of the query, found by a shape-based signature (everything in
+`core.DAILY_READS_QUERY` up to its `ORDER BY` clause, derived from the live constant rather than
+hardcoded as "there are two, at lines 124 and 136"), with the `ORDER BY ...;` tail left as a wildcard
+so the scan is not evaded by exactly the class of drift found here. Every occurrence found is asserted,
+individually, to be byte-identical to `core.DAILY_READS_QUERY`; the failure message names which
+occurrence (by index and line number) and prints both strings. A separate assertion requires at least
+one occurrence to exist, so a DEPLOY.md that dropped the query entirely fails loudly instead of
+vacuously passing an empty scan. No text normalization was needed — both real copies in DEPLOY.md are,
+as written, already byte-identical to `DAILY_READS_QUERY`.
+
+**Non-vacuity proof (all four cases run and confirmed):**
+- Mutated ONLY the illustrative ` ```sql ` copy (line 130, `reads DESC` → `reads ASC`) → RED, failure
+  named "occurrence #1 ... starting at line 124" and printed both strings. Restored; `md5sum` of
+  `edge/DEPLOY.md` identical before/after (`8389dcfc4c15da886626a32618a4d9e7`), `git diff --exit-code`
+  → 0; re-run → GREEN, 764/764.
+- Mutated ONLY the runnable `wrangler d1 execute --command "..."` copy (line 142, `reads DESC` →
+  `reads ASC`) — the exact copy that stayed green under the old assertion — → RED, failure named
+  "occurrence #2 ... starting at line 136". Restored byte-identically (same md5sum,
+  `git diff --exit-code` → 0); re-run → GREEN, 764/764.
+- Deleted both copies of the query text from `edge/DEPLOY.md` entirely → RED on the "at least once"
+  assertion ("found 0 — the runbook may have dropped it entirely"). Restored byte-identically (same
+  md5sum, `git diff --exit-code` → 0); re-run → GREEN, 764/764.
+- Mutated `DAILY_READS_QUERY` itself in `edge/agent-log-core.js` (`reads DESC` → `reads ASC`), DEPLOY.md
+  left untouched → RED (both DEPLOY.md copies now mismatch the changed code; failure named "occurrence
+  #1"), proving the guard also catches code drifting away from an unchanged doc, not only the reverse.
+  Restored byte-identically (`md5sum` of `edge/agent-log-core.js` identical before/after,
+  `abdd0707cffff41627489fd182b90def`; `git diff --exit-code` → 0); re-run → GREEN, 764/764.
+
+Assertion count for section E went from 2 to 5 (761 → 764 total), reflecting the new sanity check on
+the signature split, the "at least one occurrence" assertion, and one `eq()` per occurrence found
+(currently 2) instead of a single `.includes()`.
+
+**Prose corrected to match what the guard now actually proves** (no more "the two never drift apart" /
+"cannot drift from the code" — that phrasing described a guard stronger than the one that existed):
+`edge/agent-log-core.js`'s comment above `DAILY_READS_QUERY`, `edge/schema.sql`'s comment above the
+`agent_reads` index, `edge/DEPLOY.md`'s own §6 intro text, and `product-loop-kit/specs/224-pr.md`'s
+description of `test_agent_log.js`. Each now says: every occurrence of the query stated in
+`edge/DEPLOY.md` is individually asserted byte-identical to `DAILY_READS_QUERY`.
+
+### Operator's own re-verification of the round-1 fix (not taken on the fixer's word)
+Independently mutated ONLY the runnable `wrangler d1 execute --command "…"` copy in `edge/DEPLOY.md`
+(`ORDER BY day DESC` → `ORDER BY day ASC` on the LAST occurrence — the exact copy that stayed green
+before the fix): `node test_agent_log.js` went RED with the occurrence-naming failure message. Restored,
+`git diff --exit-code` clean, re-run → `764/764 assertions passed`. Full plain lane after the fix:
+`TOTAL pass=48 fail=0 timeout=0 total=48`.
+
+One operator slip worth recording, because it is a trap for the next run: the restore was done with
+`git checkout -- edge/DEPLOY.md`, which reverts to the COMMITTED file and therefore also discarded the
+fixer's uncommitted prose correction in that same file. Caught by re-reading the diff afterwards
+(`git diff --stat` showed `edge/DEPLOY.md` gone from the changed set) and re-applied by hand. When
+mutation-testing a file that also carries UNCOMMITTED work, restore from a saved copy of the working-tree
+version — never from the index.

@@ -252,13 +252,68 @@ eq(core.retentionCutoff(1_000_000, 1), 1_000_000 - 86400, '1-day cutoff');
 eq(core.retentionCutoff(1_000_000), 1_000_000 - core.RETENTION_DAYS * 86400, 'default cutoff uses RETENTION_DAYS');
 
 // ===========================================================================
-// E. DEPLOY.md mirrors DAILY_READS_QUERY verbatim.
+// E. DEPLOY.md mirrors DAILY_READS_QUERY verbatim — EVERY occurrence.
+//
+// Verifier round 1 (see product-loop-kit/specs/224-notes.md) found that
+// edge/DEPLOY.md states this query TWICE: once as an illustrative fenced
+// ```sql block, and once inside the copy-pasteable `wrangler d1 execute
+// --command "..."` a human will actually run against prod D1. The old
+// assertion here was `deployMd.includes(core.DAILY_READS_QUERY)`, which is
+// satisfied by the FIRST copy alone — the verifier mutated ONLY the
+// runnable command (`reads DESC` -> `reads ASC`) and this test stayed
+// green. A guard on "the doc contains it somewhere" is not the same
+// mechanism as "the doc never states a stale copy of it", and the gap was
+// in exactly the copy a human is most likely to paste unread into a shell.
+//
+// Fixed by finding EVERY occurrence and checking each one individually,
+// instead of asking whether the substring appears anywhere at all.
 // ===========================================================================
-console.log('\nE. DEPLOY.md <-> DAILY_READS_QUERY parity');
+console.log('\nE. DEPLOY.md <-> DAILY_READS_QUERY parity (every occurrence)');
 const deployMd = fs.readFileSync(path.join(EDGE_DIR, 'DEPLOY.md'), 'utf8');
 ok(core.DAILY_READS_QUERY.length > 20, 'sanity: DAILY_READS_QUERY is non-trivial');
-ok(deployMd.includes(core.DAILY_READS_QUERY),
-  'edge/DEPLOY.md must contain agent-log-core.js\'s DAILY_READS_QUERY constant VERBATIM (exact substring) — the doc must never drift from the code');
+
+function escapeRegExp(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+// Signature: everything in DAILY_READS_QUERY up to (but not including) the
+// ORDER BY clause — "SELECT ... FROM agent_reads ... GROUP BY day,
+// ua_family" — derived from the LIVE core.DAILY_READS_QUERY string, not
+// hardcoded, so if the query's shape ever changes in the code this
+// signature moves with it. The tail from ORDER BY to the next ';' is left
+// as a wildcard — that is precisely where the verifier's drift
+// ("reads DESC" -> "reads ASC") lives, so instead of a fixed literal that
+// the drift wouldn't touch, the wildcard captures whatever text is
+// actually there and byte-compares it below. The anchor ("SELECT" directly
+// followed by "date(ts, 'unixepoch')...") is specific enough that it does
+// NOT match the OTHER, legitimately different SELECT statements this same
+// runbook contains — e.g. the "SELECT name FROM sqlite_master ..."
+// table-existence check (step 1) or the "SELECT ts, path, ua_family,
+// path_class FROM agent_reads ORDER BY ts DESC LIMIT 5" verification query
+// (step 5), which mentions agent_reads too but is a different query and
+// must not be flagged as a drifted copy of this one.
+//
+// No whitespace/text normalization is applied on either side: both real
+// occurrences in edge/DEPLOY.md are, as written, already byte-identical to
+// DAILY_READS_QUERY, so none is needed — see the non-vacuity proof in
+// product-loop-kit/specs/224-notes.md for confirmation this isn't
+// accidentally vacuous.
+const querySignaturePrefix = core.DAILY_READS_QUERY.split('\nORDER BY')[0];
+ok(querySignaturePrefix.length > 20 && querySignaturePrefix !== core.DAILY_READS_QUERY,
+  'sanity: DAILY_READS_QUERY has an ORDER BY clause for the signature to split on');
+const queryOccurrenceRe = new RegExp(escapeRegExp(querySignaturePrefix) + '[\\s\\S]*?;', 'g');
+const queryOccurrences = [...deployMd.matchAll(queryOccurrenceRe)];
+
+ok(queryOccurrences.length >= 1,
+  'edge/DEPLOY.md must state the DAILY_READS_QUERY query at least once (found 0 — the runbook may have dropped it entirely)');
+
+queryOccurrences.forEach((m, i) => {
+  const lineNo = deployMd.slice(0, m.index).split('\n').length;
+  eq(m[0], core.DAILY_READS_QUERY,
+    `edge/DEPLOY.md occurrence #${i + 1} of the daily-reads query (starting at line ${lineNo}) is NOT byte-identical ` +
+    `to agent-log-core.js's DAILY_READS_QUERY.\n  --- edge/DEPLOY.md occurrence #${i + 1} (line ${lineNo}) ---\n${JSON.stringify(m[0])}\n` +
+    `  --- agent-log-core.js DAILY_READS_QUERY ---\n${JSON.stringify(core.DAILY_READS_QUERY)}`);
+});
+
+console.log(`  found ${queryOccurrences.length} occurrence(s) of the daily-reads query in edge/DEPLOY.md, all byte-identical to DAILY_READS_QUERY`);
 
 // ===========================================================================
 // F. The Worker itself — real dynamic import(), fake fetch/ctx/env.DB.
