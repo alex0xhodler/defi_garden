@@ -11,6 +11,25 @@ and the giveaway is that the defect exists on exactly one route.
 
 ## Steps
 
+0. **Ask the machine before you ask the CSS** (added 2026-08-04, item 219 leg
+   (a)). `audit-app.js` now carries an `occlusion` lens: on every audited
+   surface it measures at rest (`scrollY = 0`) and at bottom-of-scroll, at
+   360/768/1280 × **780px tall** (`OCCLUSION_HEIGHT`), and reports a victim
+   only when geometry AND `elementFromPoint` agree. So:
+   - `grep -n '"check": "occlusion"' product-loop-kit/signals/audit-findings.json`
+     → **P0** = an interactive element (a CTA) is buried or click-intercepted;
+     **P1** = prose is painted over; **P2** = advisory (bottom of scroll
+     unreachable / candidate scan truncated / the check threw — read these,
+     they mean the lens did NOT look, not that the surface is clean).
+   - The finding's detail already names the overlay, the victim, both rects,
+     the covered fraction and the hit-point that resolved to the overlay —
+     start at step 3 (who cancels the clearance) rather than re-deriving it.
+   - **Decision rule:** a human report with NO matching `occlusion` finding is
+     a lens gap, not a clean page — reproduce by hand at the reporter's real
+     viewport, then extend the lens (its two documented blind spots are
+     overlays covering ≥80% of the viewport, and content covered by a
+     *top*-anchored overlay at bottom-of-scroll, which is revealable by
+     scrolling up and deliberately not flagged).
 1. **Find the overlay and confirm it is opaque.** `grep -n "position: fixed" style.css`
    → `.app-footer` (`style.css:2513-2524`): `fixed; bottom: 0; z-index: 100;`
    with `background: var(--color-background)`. Opaque + fixed + high z-index =
@@ -98,11 +117,16 @@ and the giveaway is that the defect exists on exactly one route.
   paints over content scrolling past it, on every view. The defects are
   (a) content occluded at EVERY scroll position (no clearance) and (b) content
   occluded at REST that the user must discover by scrolling.
-- **The DOM-only blind spot.** `audit-app.js` renders real pages but every
-  check is a DOM read — `grep screenshot audit-app.js` = 0 hits — so it scored
-  "82 surfaces, 0 blocking" on the same page and the same day a human found
-  217 by eye. Geometry assertions only catch what someone already suspected;
-  see backlog 219.
+- **The DOM-only blind spot — HALF CLOSED, know which half.** `audit-app.js`
+  renders real pages but every check is a DOM read, so it scored "82 surfaces,
+  0 blocking" on the same page and the same day a human found 217 by eye.
+  Item **219 leg (a)** closed the *occlusion* half (step 0 above): burial and
+  click-interception are now machine-checked daily. Leg **(b)** — a screenshot
+  a model actually looks at — is **NOT built**, so the defect classes no
+  assertion can express (clipped pills, dead whitespace, misalignment; e.g. the
+  `Risk Assessment: Low` pill overflowing its hero column in the human's
+  2026-08-03 screenshot) are still invisible to the tick. Do not read a green
+  audit as "a human would like this page".
 
 ## Provenance
 
@@ -115,4 +139,8 @@ gap filed as **219**. Full write-up: `specs/217.md`, `specs/217-notes.md`,
 LOG.md 2026-08-03 build | 217. Updated 2026-08-03 when **218** shipped its own
 fix (footer in flow on pool-detail + the positive-control rot rule):
 `specs/218.md`, `specs/218-notes.md`, `specs/218-pr.md`,
-`test_cta_at_rest_occlusion.js`, LOG.md 2026-08-03 build | 218.
+`test_cta_at_rest_occlusion.js`, LOG.md 2026-08-03 build | 218. Updated
+2026-08-04 when **219 leg (a)** turned this playbook's manual method into a
+daily machine lens (step 0 + the amended DOM-blind-spot trap):
+`specs/219.md`, `specs/219-notes.md`, `specs/219-pr.md`,
+`test_audit_occlusion_lens.js`, LOG.md 2026-08-04 build | 219.

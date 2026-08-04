@@ -339,6 +339,21 @@ const LENSES = ['360px', 'dark', 'ko'];
 const DEFAULT_POOL_LENS_SAMPLE = 6;   // lens surfaces per tick
 const MAX_POOL_LENS_SAMPLE     = 24;  // ceiling on AUDIT_POOL_LENS_SAMPLE
 
+// backlog 219 — the occlusion lens's own constants. OCCLUSION_HEIGHT=780 is
+// not a round default: it is the EXACT height at which item 218's garden_cta
+// anchor was buried (721.6..780 footer band vs the always-900-tall pages
+// every other check renders at, where the same footer clears at 842..900 and
+// the defect is invisible). Occlusion is height-dependent by measured
+// evidence, so a lens that only ever looked at 900 would have 218 in its
+// blind spot by construction — see specs/219.md "Measurement geometry".
+// OCCLUSION_MIN_COVERAGE=0.25 and OCCLUSION_CANDIDATE_CAP=800 are spec 219's
+// own numbers (25% of a text-bearing victim's area, 800-element scan cap per
+// pass) — restated here, not re-derived, so a later edit cannot silently
+// drift them without also touching this comment.
+const OCCLUSION_HEIGHT = 780;
+const OCCLUSION_MIN_COVERAGE = 0.25;
+const OCCLUSION_CANDIDATE_CAP = 800;
+
 // signal -> severity, single source of truth (same role as PRESCAN_SIGNALS /
 // TEXT_SURFACE_SIGNALS) for both prescanPools()'s suspect records and the
 // aggregate `pool-prescan:<signal>` findings.
@@ -3619,6 +3634,7 @@ async function main(browser, baseUrl, s, ctx) {
         findings.push(finding(s.name, s.vpLabel, 'empty-table', 'P1', 'rendered page has zero .tp-pool-link/.cp-pool-link rows'));
       }
 
+      await checkOcclusion(page, s, findings);
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
       return findings;
@@ -3631,6 +3647,7 @@ async function main(browser, baseUrl, s, ctx) {
       if (!ok) findings.push(finding(s.name, s.vpLabel, 'dead-pool-empty-state', 'P1',
         'dead ?pool= id did not resolve to the honest empty state within 10s'));
       await auditText(page, s, findings);
+      await checkOcclusion(page, s, findings);
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
       return findings;
@@ -3644,6 +3661,7 @@ async function main(browser, baseUrl, s, ctx) {
       }
       await auditText(page, s, findings);
       if (s.width <= 768) await checkResponsive(page, s, findings, '.pool-card');
+      await checkOcclusion(page, s, findings);
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
       return findings;
@@ -3678,6 +3696,7 @@ async function main(browser, baseUrl, s, ctx) {
       // the primary control.
       if (s.width <= 768) await checkResponsive(page, s, findings, '.landing-search-submit');
 
+      await checkOcclusion(page, s, findings);
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
       return findings;
@@ -3733,6 +3752,7 @@ async function main(browser, baseUrl, s, ctx) {
       // same first-screen chip.
       if (s.width <= 768) await checkResponsive(page, s, findings, '.gp-chip');
 
+      await checkOcclusion(page, s, findings);
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
       return findings;
@@ -3779,6 +3799,7 @@ async function main(browser, baseUrl, s, ctx) {
       // same primary control.
       if (s.width <= 768) await checkResponsive(page, s, findings, '.gp-checkout-cta');
 
+      await checkOcclusion(page, s, findings);
       if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
       await page.close();
       return findings;
@@ -3924,6 +3945,9 @@ async function main(browser, baseUrl, s, ctx) {
     // Check 7 — responsive / dark clip.
     if (s.width <= 768) await checkResponsive(page, s, findings, '.cta-button-primary');
 
+    // backlog 219 — Check 8, occlusion.
+    await checkOcclusion(page, s, findings);
+
     if (errors.length) findings.push(finding(s.name, s.vpLabel, 'page-error', 'P0', errors.join(' | ')));
     await page.close();
     return findings;
@@ -3950,6 +3974,307 @@ async function checkResponsive(page, s, findings, ctaSelector) {
       findings.push(finding(s.name, s.vpLabel, 'responsive', 'P2',
         `${ctaSelector} box [${Math.round(box.x)}..${Math.round(box.x + box.width)}] exceeds ${s.width}px viewport`));
     }
+  }
+}
+
+function round1(x) { return Math.round(x * 10) / 10; }
+
+// backlog 219 — the whole per-pass occlusion measurement, run inside the
+// browser. Self-contained on purpose (Playwright serialises a function
+// reference passed to page.evaluate() via toString() and runs it in the page
+// realm — it cannot close over any Node-side variable, only the args object
+// below), so every helper it needs is declared inline.
+//
+// Returns { occlusions, truncated } where `occlusions` is every (victim,
+// overlay) pair that satisfies BOTH the geometry gate and the elementFromPoint
+// hit-test gate (spec 219 "The rule"), in document order; the caller
+// (checkOcclusion) groups by severity, picks the worst offender, and formats
+// findings — this function does no severity-shopping or finding formatting
+// of its own, only measurement.
+function occlusionPassEval(args) {
+  var minCoverage = args.minCoverage, candidateCap = args.candidateCap, bottomAnchor = args.bottomAnchor;
+  var INTERACTIVE_SEL = 'a[href], button, input, select, textarea, [role="button"]';
+
+  function round1(x) { return Math.round(x * 10) / 10; }
+
+  function isVisible(el) {
+    if (typeof el.checkVisibility === 'function') {
+      try { return el.checkVisibility({ visibilityProperty: true, opacityProperty: true }); } catch (e) { /* fall through */ }
+    }
+    var cs = getComputedStyle(el);
+    if (cs.display === 'none' || cs.visibility === 'hidden') return false;
+    if (parseFloat(cs.opacity) === 0) return false;
+    return true;
+  }
+
+  function rectOf(el) {
+    var r = el.getBoundingClientRect();
+    return { x: r.x, y: r.y, width: r.width, height: r.height, top: r.top, left: r.left, right: r.right, bottom: r.bottom };
+  }
+
+  function area(r) { return Math.max(0, r.width) * Math.max(0, r.height); }
+
+  function intersectArea(a, b) {
+    var x1 = Math.max(a.left, b.left), y1 = Math.max(a.top, b.top);
+    var x2 = Math.min(a.right, b.right), y2 = Math.min(a.bottom, b.bottom);
+    if (x2 <= x1 || y2 <= y1) return 0;
+    return (x2 - x1) * (y2 - y1);
+  }
+
+  function descOf(el) {
+    var tag = el.tagName.toLowerCase();
+    var cls = typeof el.className === 'string' ? el.className.trim() : '';
+    var out = '<' + tag + (cls ? ' class="' + cls + '"' : '');
+    if (tag === 'a') {
+      var href = el.getAttribute('href');
+      if (href) out += ' href="' + href + '"';
+    }
+    return out + '>';
+  }
+
+  function directTextSnippet(el) {
+    var txt = '';
+    for (var i = 0; i < el.childNodes.length; i++) {
+      var node = el.childNodes[i];
+      if (node.nodeType === 3) txt += node.textContent;
+    }
+    txt = txt.trim().replace(/\s+/g, ' ');
+    return txt.length > 80 ? txt.slice(0, 80) : txt;
+  }
+
+  function isPaintOpaque(el) {
+    var cs = getComputedStyle(el);
+    var alpha = 1;
+    var m = /rgba?\(([^)]+)\)/.exec(cs.backgroundColor || '');
+    if (m) {
+      var parts = m[1].split(',').map(function (p) { return parseFloat(p.trim()); });
+      if (parts.length === 4) alpha = parts[3];
+    }
+    var backdrop = cs.backdropFilter || cs.webkitBackdropFilter || 'none';
+    return alpha >= 0.5 || (backdrop && backdrop !== 'none');
+  }
+
+  var viewportW = window.innerWidth, viewportH = window.innerHeight;
+  var viewportArea = viewportW * viewportH;
+
+  // --- Overlays: every visible fixed/sticky element, excluding a
+  // >=80%-of-viewport modal/scrim (spec: "Deliberate blind spot") and, on the
+  // bottom-of-scroll pass only, excluding overlays not anchored to the
+  // viewport bottom (the two-position asymmetry — the load-bearing rule). ---
+  var all = document.querySelectorAll('*');
+  var overlays = [];
+  for (var i = 0; i < all.length; i++) {
+    var el = all[i];
+    var cs = getComputedStyle(el);
+    if (cs.position !== 'fixed' && cs.position !== 'sticky') continue;
+    if (!isVisible(el)) continue;
+    var rect = rectOf(el);
+    if (rect.width <= 0 || rect.height <= 0) continue;
+    if (area(rect) >= 0.8 * viewportArea) continue; // modal/scrim exclusion
+    if (bottomAnchor && rect.bottom < viewportH - 2) continue; // asymmetry gate
+    overlays.push({ el: el, rect: rect, opaque: isPaintOpaque(el) });
+  }
+  if (overlays.length === 0) return { occlusions: [], truncated: false };
+
+  // --- Victims: interactive or text-bearing elements, in document order,
+  // capped at candidateCap candidates considered (spec: "no silent caps"). ---
+  var occlusions = [];
+  var candidateCount = 0;
+  var truncated = false;
+  for (var j = 0; j < all.length; j++) {
+    if (candidateCount >= candidateCap) { truncated = true; break; }
+    var vel = all[j];
+    var vcs = getComputedStyle(vel);
+    if (vcs.position === 'fixed' || vcs.position === 'sticky') continue;
+
+    var insideOverlay = false;
+    for (var k = 0; k < overlays.length; k++) {
+      if (overlays[k].el !== vel && overlays[k].el.contains(vel)) { insideOverlay = true; break; }
+    }
+    if (insideOverlay) continue;
+
+    var isInteractive = vel.matches(INTERACTIVE_SEL);
+    var snippet = '';
+    var isTextBearing = false;
+    if (!isInteractive) {
+      snippet = directTextSnippet(vel);
+      isTextBearing = snippet.length >= 3;
+    }
+    if (!isInteractive && !isTextBearing) continue;
+    candidateCount++;
+
+    if (!isVisible(vel)) continue;
+    var vrect = rectOf(vel);
+    if (vrect.width <= 0 || vrect.height <= 0) continue;
+    if (vrect.right <= 0 || vrect.bottom <= 0 || vrect.left >= viewportW || vrect.top >= viewportH) continue; // not intersecting viewport
+
+    for (var oi = 0; oi < overlays.length; oi++) {
+      var ov = overlays[oi];
+      var inter = intersectArea(vrect, ov.rect);
+      if (inter <= 0) continue;
+      var vArea = area(vrect);
+      var coveredFraction = vArea > 0 ? inter / vArea : 0;
+
+      if (!isInteractive) {
+        if (coveredFraction < minCoverage) continue; // geometry gate, text-bearing only
+        if (!ov.opaque) continue; // opacity requirement, text-bearing only
+      }
+      // interactive: any intersection qualifies geometrically (spec: "a
+      // button whose lower half is buried is unpressable in practice").
+
+      var cx = vrect.left + vrect.width / 2, cy = vrect.top + vrect.height / 2;
+      var hitPoints = [{ name: 'centre', x: cx, y: cy }];
+      if (isInteractive) hitPoints.push({ name: 'lower-band(75%h)', x: cx, y: vrect.top + vrect.height * 0.75 });
+
+      var hitOverlay = false, hitPointName = null;
+      for (var hp = 0; hp < hitPoints.length; hp++) {
+        var pt = hitPoints[hp];
+        if (pt.x < 0 || pt.y < 0 || pt.x > viewportW || pt.y > viewportH) continue;
+        var hitEl = document.elementFromPoint(pt.x, pt.y);
+        if (hitEl && (hitEl === ov.el || ov.el.contains(hitEl))) {
+          hitOverlay = true;
+          hitPointName = pt.name;
+          break;
+        }
+      }
+      if (!hitOverlay) continue;
+
+      occlusions.push({
+        severity: isInteractive ? 'P0' : 'P1',
+        coveredFraction: coveredFraction,
+        victimDesc: descOf(vel),
+        victimText: isTextBearing ? snippet : '',
+        victimRect: { x: round1(vrect.x), y: round1(vrect.y), width: round1(vrect.width), height: round1(vrect.height) },
+        overlayDesc: descOf(ov.el),
+        overlayRect: { x: round1(ov.rect.x), y: round1(ov.rect.y), width: round1(ov.rect.width), height: round1(ov.rect.height) },
+        hitPoint: hitPointName
+      });
+      break; // one reported overlay per victim is enough to make the finding actionable
+    }
+  }
+
+  return { occlusions: occlusions, truncated: truncated };
+}
+
+function formatOcclusionRect(r) {
+  return '{x:' + r.x + ', y:' + r.y + ', w:' + r.width + ', h:' + r.height + '}';
+}
+
+// Groups one pass's raw occlusions by severity, picks the worst offender
+// (greatest covered fraction; Array#sort is stable so document-order ties
+// stay in document order), and pushes at most one finding per severity class
+// with a "+N more" suffix when several — spec 219 "Findings emitted".
+function pushOcclusionPassFindings(findings, s, passLabel, viewport, passResult) {
+  if (passResult.truncated) {
+    findings.push(finding(s.name, s.vpLabel, 'occlusion', 'P2',
+      `candidate scan truncated at ${OCCLUSION_CANDIDATE_CAP} elements on ${passLabel} pass (viewport ${viewport}) — some victims may be unexamined`));
+  }
+  for (const severity of ['P0', 'P1']) {
+    const group = passResult.occlusions
+      .filter((o) => o.severity === severity)
+      .sort((a, b) => b.coveredFraction - a.coveredFraction);
+    if (group.length === 0) continue;
+    const worst = group[0];
+    const kind = severity === 'P0' ? 'interactive' : 'text-bearing';
+    const textPart = worst.victimText ? ` "${worst.victimText}"` : '';
+    const morePart = group.length > 1 ? ` (+${group.length - 1} more occluded element(s) on this pass)` : '';
+    findings.push(finding(s.name, s.vpLabel, 'occlusion', severity,
+      `${passLabel}, viewport ${viewport}: ${kind} victim ${worst.victimDesc}${textPart} rect ${formatOcclusionRect(worst.victimRect)} occluded by overlay ${worst.overlayDesc} rect ${formatOcclusionRect(worst.overlayRect)} — ${round1(worst.coveredFraction * 100)}% covered, hit-test at "${worst.hitPoint}" resolved to the overlay${morePart}`));
+  }
+}
+
+// backlog 219 leg (a) — universal occlusion signal. Called once on the
+// success path of all seven non-`loading` kind branches, immediately before
+// that branch's trailing page-error push (spec 219 "Fix"). Never throws: a
+// defect in THIS check must never crash a surface driver (wrapped below), and
+// never fails silently (every skip/truncation/throw emits its own P2
+// advisory) — playbooks/fixed-overlay-occlusion.md's "a check that cannot go
+// red is not a check", generalised to a check that must never go silent.
+async function checkOcclusion(page, s, findings) {
+  try {
+    await page.setViewportSize({ width: s.width, height: OCCLUSION_HEIGHT });
+    const viewport = `${s.width}x${OCCLUSION_HEIGHT}`;
+    // Resizing triggers reflow and, on the React surfaces, a re-render —
+    // measuring inside that window risks both false findings (mid-reflow
+    // geometry) and missed ones (an overlay not yet painted at its final
+    // position), the exact "flood then get switched off" failure mode this
+    // lens must avoid. One short settle, paid once, before either pass.
+    await page.waitForTimeout(150);
+
+    // style.css:2845 sets `html { scroll-behavior: smooth }`, so a plain
+    // `window.scrollTo` ANIMATES on every real page — reading position right
+    // after issuing it can sample mid-animation, not arrival. Defeated ONCE,
+    // here, before either pass touches scroll position, as a measurement-only
+    // mutation (this function is called last in every surface driver, so it
+    // can never perturb any earlier check). Doing this only inside pass 2 (as
+    // the first cut of this fix did) left pass 1 exposed on any surface that
+    // is not already at scrollY=0 when checkOcclusion runs — the planner
+    // driver clicks a `.gp-chip` immediately before this call (audit-app.js
+    // ~3717) and that click can scroll the thread into view, which would
+    // silently degrade the at-rest leg — the leg that catches item 218 — to a
+    // P2 advisory instead of measuring it.
+    await page.evaluate(() => {
+      document.documentElement.style.scrollBehavior = 'auto';
+      document.body.style.scrollBehavior = 'auto';
+    });
+
+    // --- Pass 1: at rest. Assert scrollY === 0 before measuring — "computing
+    // a clear scroll target hides the at-rest bug" (218's own history). Poll
+    // briefly rather than reading scrollY once immediately after issuing the
+    // scroll: even with scroll-behavior defeated above, a single evaluate
+    // can still race a not-yet-applied scroll on a busy React surface. Only
+    // emit the P2 if the page is still not at the top after this budget. ---
+    await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
+    const reachedTop = await pollFor(page, async () => {
+      const y = await page.evaluate(() => window.scrollY);
+      return y === 0 ? true : null;
+    }, 1000);
+    if (!reachedTop) {
+      const scrollY = await page.evaluate(() => window.scrollY);
+      findings.push(finding(s.name, s.vpLabel, 'occlusion', 'P2',
+        `at-rest pass skipped: window.scrollY=${round1(scrollY)} after scrollTo({top:0}) at ${viewport}, expected 0 — never measuring a lie`));
+    } else {
+      const atRest = await page.evaluate(occlusionPassEval, { minCoverage: OCCLUSION_MIN_COVERAGE, candidateCap: OCCLUSION_CANDIDATE_CAP, bottomAnchor: false });
+      pushOcclusionPassFindings(findings, s, 'at-rest (scrollY=0)', viewport, atRest);
+    }
+
+    // --- Pass 2: bottom of scroll. Skipped when the document does not
+    // scroll (the at-rest pass already covers that page). Loop with a settle
+    // wait until arrival is confirmed; if never reached in 8 attempts, say so
+    // (numbers included) rather than pass vacuously. Smooth scrolling was
+    // already defeated above, once, ahead of pass 1. ---
+    const scrollInfo = await page.evaluate(() => ({ scrollHeight: document.documentElement.scrollHeight, innerHeight: window.innerHeight }));
+    if (scrollInfo.scrollHeight > scrollInfo.innerHeight) {
+      let reached = false;
+      let last = null;
+      let prevScrollHeight = scrollInfo.scrollHeight;
+      for (let attempt = 0; attempt < 8 && !reached; attempt++) {
+        await page.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'instant' }));
+        await page.waitForTimeout(150);
+        last = await page.evaluate(() => ({
+          scrollTop: document.documentElement.scrollTop || window.scrollY,
+          innerHeight: window.innerHeight,
+          scrollHeight: document.documentElement.scrollHeight
+        }));
+        // A scrollHeight that changed since the previous attempt means the
+        // document is still growing (e.g. live data still resolving) — that
+        // is "still settling", not arrival, even if this attempt's
+        // scrollTop already satisfies the arrival inequality against the
+        // OLD height.
+        const stillSettling = last.scrollHeight !== prevScrollHeight;
+        prevScrollHeight = last.scrollHeight;
+        reached = !stillSettling && (last.scrollTop + last.innerHeight >= last.scrollHeight - 2);
+      }
+      if (!reached) {
+        findings.push(finding(s.name, s.vpLabel, 'occlusion', 'P2',
+          `bottom-of-scroll unreachable after 8 attempts at ${viewport}: scrollTop=${round1(last.scrollTop)} innerHeight=${round1(last.innerHeight)} scrollHeight=${round1(last.scrollHeight)} (need scrollTop+innerHeight >= scrollHeight-2)`));
+      } else {
+        const bottom = await page.evaluate(occlusionPassEval, { minCoverage: OCCLUSION_MIN_COVERAGE, candidateCap: OCCLUSION_CANDIDATE_CAP, bottomAnchor: true });
+        pushOcclusionPassFindings(findings, s, 'bottom-of-scroll', viewport, bottom);
+      }
+    }
+  } catch (err) {
+    findings.push(finding(s.name, s.vpLabel, 'occlusion', 'P2', `check threw: ${err.message}`));
   }
 }
 
@@ -4527,6 +4852,12 @@ module.exports = {
   runAudit, scanNumbers, resolvePlaywright, blockingFindings,
   prescanStaticPages, prescanTextSurfaces, prescanPools, buildPoolSurfaces,
   buildStaticSurfaces, reconcilePrescanFindings,
+  // backlog 219 — exported so test_audit_occlusion_lens.js can drive the
+  // occlusion lens directly against a real page (with a hand-made surface
+  // object), the same precedent classifyCtaKind/ctaFindingSeverity already
+  // set; OCCLUSION_HEIGHT is exported too so the test interpolates it
+  // (item-159 rule) rather than re-typing 780.
+  checkOcclusion, OCCLUSION_HEIGHT,
   // backlog 184 — exported so test_audit_pool_link_liveness.js can drive the
   // live-id resolution directly (with opts.livePools injection) without a
   // full runAudit() invocation.
