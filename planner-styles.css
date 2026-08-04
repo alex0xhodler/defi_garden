@@ -1,6 +1,8 @@
-/* Garden Planner styles — calm, tactile neumorphism.
- * Reuses style.css tokens. No new accent colors, no glows, no bounce easings.
- * Planner-scoped curve colors derive from the existing --color-primary family. */
+/* Garden Planner styles — flat "Quiet" design system (spec 225).
+ * Reuses --ui-* tokens from style.css. Flat surfaces, hairline borders, one
+ * overlay shadow for floating layers only. No new accent colors, no glows,
+ * no bounce easings. Planner-scoped curve colors derive from the existing
+ * --color-primary family. */
 
 :root {
   --gp-curve-you: var(--color-primary);
@@ -23,6 +25,8 @@
   margin: 0 auto;
   padding: var(--space-16);
   gap: var(--space-16);
+  background: var(--ui-surface);
+  border-bottom: 1px solid var(--ui-border);
 }
 
 .gp-logo {
@@ -42,7 +46,7 @@
 }
 
 .gp-restart {
-  border: none;
+  border: 1px solid var(--ui-border);
   background: var(--color-surface);
   color: var(--color-text-secondary);
   font-family: var(--font-family-base);
@@ -50,12 +54,11 @@
   font-weight: var(--font-weight-medium);
   padding: var(--space-8) var(--space-16);
   border-radius: var(--radius-full);
-  box-shadow: var(--neuro-shadow-subtle);
   cursor: pointer;
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
+  transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
 }
-.gp-restart:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-1px); }
+.gp-restart:hover { border-color: var(--ui-border-strong); transform: translateY(-1px); }
 
 .gp-theme-toggle {
   display: flex;
@@ -63,16 +66,15 @@
   justify-content: center;
   width: 44px;
   height: 44px;
-  border: none;
+  border: 1px solid var(--ui-border);
   background: var(--color-background);
   border-radius: var(--radius-full);
-  box-shadow: var(--neuro-shadow-subtle);
   cursor: pointer;
   font-size: var(--font-size-lg);
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
+  transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
 }
-.gp-theme-toggle:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-1px); }
+.gp-theme-toggle:hover { border-color: var(--ui-border-strong); transform: translateY(-1px); }
 .gp-theme-icon { line-height: 1; }
 
 /* ---------- Main ---------- */
@@ -95,7 +97,7 @@
   padding: var(--space-14) var(--space-20);
   border-radius: var(--ui-radius-md);
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-flat);
+  border: 1px solid var(--ui-border);
 }
 .gp-arrival-text {
   flex: 1;
@@ -121,12 +123,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: var(--neuro-shadow-subtle);
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
+  border: 1px solid var(--ui-border);
+  transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
 }
-.gp-arrival-dismiss:hover { box-shadow: var(--neuro-shadow-flat); }
-.gp-arrival-dismiss:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.gp-arrival-dismiss:hover { border-color: var(--ui-border-strong); }
+.gp-arrival-dismiss:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 .gp-arrival-dismiss:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
 @media (max-width: 480px) {
   .gp-arrival-banner { flex-direction: column; align-items: flex-start; gap: var(--space-12); }
@@ -158,8 +160,8 @@
   gap: var(--space-8);
   padding: var(--space-16);
   border-radius: var(--ui-radius-lg);
-  box-shadow: var(--neuro-shadow-pressed);
-  background: var(--color-background);
+  border: 1px solid var(--ui-border);
+  background: var(--ui-surface-sunken);
 }
 .gp-thread-row {
   display: flex;

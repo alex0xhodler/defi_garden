@@ -37,7 +37,7 @@
 
 .pool-breadcrumb:hover {
   transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
 }
 
 /* Ensure back button is visible */
@@ -62,39 +62,38 @@
   margin-bottom: var(--space-24);
   padding: var(--space-12) var(--space-20);
   background: var(--color-background);
-  border: none;
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   color: var(--color-text);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-medium);
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .back-to-results-btn:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
   color: var(--color-primary);
 }
 
 /* Pool Info Section Enhancements */
 .pool-info-header:hover .pool-info-toggle {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
 /* Explorer link styling */
 .pool-info-content a[href*="blockscan.com"]:hover {
   transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   background: var(--color-primary);
   color: white;
 }
 
 .back-to-results-btn:active {
-  box-shadow: var(--neuro-shadow-pressed);
-  transform: translateY(0);
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
 }
 
 .back-arrow {
@@ -107,26 +106,26 @@
   align-items: center;
   gap: var(--space-8);
   padding: var(--space-12) var(--space-20);
-  border: none;
+  border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   cursor: pointer;
   transition: all 0.2s ease;
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .back-button:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
+  background: var(--ui-surface-muted);
   transform: translateY(-1px);
   color: var(--color-primary);
 }
 
 .back-button:active {
-  box-shadow: var(--neuro-shadow-pressed);
-  transform: translateY(0);
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
 }
 
 .breadcrumbs {
@@ -150,9 +149,9 @@
 /* Pool Detail Header */
 .pool-detail-header {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-32);
-  box-shadow: var(--neuro-shadow-raised);
   margin-bottom: var(--space-32);
 }
 
@@ -220,13 +219,13 @@
   font-size: var(--font-size-sm);
   padding: var(--space-4) var(--space-8);
   background: var(--color-background);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-subtle);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-pill);
   transition: all 0.2s ease;
 }
 
 .protocol-link:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
@@ -236,10 +235,10 @@
   background: var(--color-background);
   color: var(--color-primary);
   padding: var(--space-6) var(--space-12);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-pill);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -260,10 +259,10 @@
   font-size: var(--font-size-4xl);
   font-weight: var(--font-weight-black);
   color: var(--color-primary);
-  background: var(--color-background);
+  background: var(--ui-surface-sunken);
   padding: var(--space-16) var(--space-24);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-pressed);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   display: inline-block;
 }
 
@@ -277,21 +276,21 @@
 
 .metric-card {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-20);
-  box-shadow: var(--neuro-shadow-subtle);
   transition: all 0.3s ease;
   text-align: center;
 }
 
 .metric-card:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-2px);
 }
 
 .metric-card.highlight {
   background: linear-gradient(135deg, var(--color-background), var(--color-forest-light));
-  box-shadow: var(--neuro-shadow-raised);
+  border: 1px solid var(--ui-border);
 }
 
 .apy-value {
@@ -303,17 +302,16 @@
   margin-top: var(--space-8);
   padding: var(--space-4) var(--space-8);
   background: var(--color-background);
-  border: none;
-  border-radius: var(--neuro-radius-sm);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm);
   color: var(--color-primary);
   font-size: var(--font-size-xs);
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .apy-breakdown-toggle:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
 }
 
 .metric-label {
@@ -341,9 +339,9 @@
 .apy-breakdown-details {
   margin-top: var(--space-16);
   padding: var(--space-16);
-  background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
 }
 
 .breakdown-item {
@@ -371,9 +369,9 @@
 /* Yield Calculator Section */
 .yield-calculator-section {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-32);
-  box-shadow: var(--neuro-shadow-raised);
   margin-top: var(--space-32);
 }
 
@@ -386,10 +384,10 @@
 }
 
 .calculator-card {
-  background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-24);
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .investment-input-group {
@@ -414,20 +412,20 @@
 .amount-input {
   width: 200px;
   padding: var(--space-12) var(--space-16);
-  border: none;
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: var(--ui-radius-lg);
   background: var(--color-background);
   color: var(--color-text);
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-medium);
   text-align: center;
-  box-shadow: var(--neuro-shadow-pressed);
   outline: none;
   transition: all 0.2s ease;
 }
 
 .amount-input:focus {
-  box-shadow: var(--neuro-shadow-pressed), 0 0 0 3px rgba(59, 130, 246, 0.2);
+  border-color: var(--ui-accent);
+  box-shadow: var(--ui-focus-ring);
 }
 
 .quick-amounts {
@@ -439,26 +437,25 @@
 
 .quick-amount-btn {
   padding: var(--space-8) var(--space-16);
-  border: none;
+  border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text-secondary);
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-pill);
   cursor: pointer;
   transition: all 0.2s ease;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .quick-amount-btn:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
 .quick-amount-btn.active {
-  background: var(--color-primary);
-  color: white;
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-accent-soft);
+  border-color: var(--ui-accent-border);
+  color: var(--color-primary);
 }
 
 .input-label {
@@ -480,15 +477,15 @@
 
 .yield-result-card {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-16);
   text-align: center;
-  box-shadow: var(--neuro-shadow-subtle);
   transition: all 0.2s ease;
 }
 
 .yield-result-card:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
@@ -521,7 +518,7 @@
   font-style: italic;
   padding: var(--space-16);
   background: var(--color-surface);
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-sm);
   border-left: 3px solid var(--color-primary);
 }
 
@@ -538,15 +535,14 @@
   padding: var(--space-16) var(--space-32);
   background: var(--color-primary);
   color: white;
-  border: none;
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid transparent;
+  border-radius: var(--ui-radius-md);
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   letter-spacing: 0.025em;
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
   position: relative;
   overflow: hidden;
@@ -555,12 +551,12 @@
 .start-earning-btn::before { display: none; }
 
 .start-earning-btn:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  background: var(--color-primary-hover);
 }
 
 .start-earning-btn:active {
   transform: translateY(1px);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--color-primary-active);
 }
 
 .start-earning-btn.primary {
@@ -579,9 +575,9 @@
 /* Additional Information Section */
 .additional-info-section {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-32);
-  box-shadow: var(--neuro-shadow-raised);
   margin-top: var(--space-32);
 }
 
@@ -605,9 +601,9 @@
   flex-direction: column;
   gap: var(--space-8);
   padding: var(--space-16);
-  background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
 }
 
 .info-item.full-width {
@@ -640,10 +636,10 @@
   padding: var(--space-4) var(--space-8);
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: var(--neuro-radius-sm);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-pill);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .token-badge.reward {
@@ -656,7 +652,7 @@
 .risk-disclaimer {
   background: rgba(255, 193, 7, 0.1);
   border: 1px solid rgba(255, 193, 7, 0.3);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-20);
   margin-top: var(--space-32);
 }
@@ -683,7 +679,7 @@
   .pool-detail-container {
     padding: 20px 16px 16px 16px;
   }
-  
+
   .pool-detail-container .header {
     flex-direction: column;
     align-items: flex-start;
@@ -691,51 +687,51 @@
     padding-bottom: 24px;
     margin-bottom: 24px;
   }
-  
+
   .pool-breadcrumb {
     align-self: stretch;
     justify-content: center;
   }
-  
+
   .pool-hero-card {
     margin-bottom: 24px;
   }
-  
+
   .quick-metrics {
     margin-bottom: 24px;
   }
-  
+
   .pool-detail-header {
     padding: var(--space-20);
   }
-  
+
   .pool-metrics-row {
     grid-template-columns: 1fr;
   }
-  
+
   .yield-results-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .info-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .quick-amounts {
     flex-wrap: wrap;
   }
-  
+
   .amount-input {
     width: 150px;
   }
-  
+
   .yield-calculator-section,
   .additional-info-section {
     padding: var(--space-20);
   }
 }
 
-/* Enhanced Neumorphic Hero Section */
+/* Hero Section */
 .pool-hero-card {
   position: relative;
   transition: all 0.3s ease;
@@ -743,7 +739,7 @@
 
 .pool-hero-card:hover {
   transform: translateY(-2px);
-  box-shadow: var(--neuro-shadow-raised);
+  border-color: var(--ui-border-strong);
 }
 
 .pool-symbol-hero {
@@ -758,15 +754,15 @@
 }
 
 .apy-display-hero:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
 /* ---------- Unified action card (right column) ---------- */
 .pool-action-card {
   background: var(--color-surface);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-raised);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -824,8 +820,8 @@
 
 .pool-action-hint--muted { opacity: 0.65; }
 
-/* Enhanced CTA Button */
-/* Primary CTA — Plan my savings (our product) */
+/* CTA Buttons */
+/* Primary CTA — Garden this pool (our product) */
 .cta-button-primary {
   display: flex;
   align-items: center;
@@ -835,26 +831,24 @@
   width: 100%;
   background: var(--color-primary);
   color: white;
-  border: none;
-  border-radius: var(--neuro-radius-md);
+  border: 1px solid transparent;
+  border-radius: var(--ui-radius-md);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-semibold);
   letter-spacing: 0.01em;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
 }
 
 .cta-button-primary:hover {
-  box-shadow: var(--neuro-shadow-flat);
-  opacity: 0.92;
+  background: var(--color-primary-hover);
 }
 
 .cta-button-primary:active {
   transform: translateY(1px);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--color-primary-active);
 }
 
 /* Secondary CTA — external protocol link */
@@ -864,27 +858,28 @@
   justify-content: center;
   gap: 6px;
   padding: 11px 24px;
+  width: 100%;
   background: var(--color-surface);
   color: var(--color-text-secondary);
-  border: none;
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   letter-spacing: 0.01em;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
 }
 
 .cta-button-protocol:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  background: var(--ui-surface-muted);
+  border-color: var(--ui-border-strong);
   color: var(--color-text);
 }
 
 .cta-button-protocol:active {
   transform: translateY(1px);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface-muted);
 }
 
 /* Quick Metrics Cards */
@@ -895,7 +890,7 @@
 
 .metric-card-simple:hover {
   transform: translateY(-2px);
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
 }
 
 .risk-card {
@@ -909,7 +904,7 @@
   left: -1px;
   right: -1px;
   bottom: -1px;
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   background: linear-gradient(135deg, transparent 0%, rgba(59, 130, 246, 0.1) 100%);
   z-index: -1;
 }
@@ -924,7 +919,7 @@
 }
 
 .calculator-header:hover .calculator-toggle {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
@@ -934,12 +929,12 @@
 
 .quick-amount-btn:hover {
   transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
 }
 
 .quick-amount-btn:active {
-  transform: translateY(0);
-  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
 }
 
 /* Pool Essentials Section */
@@ -957,7 +952,7 @@
 
 .trust-badge:hover {
   transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
 }
 
 /* Mobile-First Responsive Design */
@@ -966,17 +961,17 @@
     flex-direction: column !important;
     gap: 20px !important;
   }
-  
+
   .apy-cta-section {
     align-items: stretch !important;
     text-align: center !important;
   }
-  
+
   .pool-symbol-hero {
     font-size: var(--font-size-3xl) !important;
     text-align: center;
   }
-  
+
   .apy-display-hero {
     min-width: auto !important;
     align-self: center;
@@ -992,15 +987,15 @@
     width: 100%;
     justify-content: center;
   }
-  
+
   .quick-metrics {
     grid-template-columns: 1fr !important;
   }
-  
+
   .calculator-compact {
     padding: 16px !important;
   }
-  
+
   .calculator-compact.expanded {
     padding: 20px !important;
   }
@@ -1041,7 +1036,7 @@
   .pool-essentials {
     box-shadow: 0 0 0 2px var(--color-text) !important;
   }
-  
+
   .cta-button-primary {
     box-shadow: 0 0 0 2px var(--color-primary) !important;
   }
@@ -1054,10 +1049,20 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-  
+
   .pool-hero-card:hover,
   .metric-card-simple:hover,
   .cta-button-primary:hover {
+    transform: none !important;
+  }
+
+  /* Press physics (design-system 225 §3): no transform under reduced
+     motion, only the background swap. */
+  .cta-button-primary:active,
+  .cta-button-protocol:active,
+  .back-button:active,
+  .back-to-results-btn:active,
+  .quick-amount-btn:active {
     transform: none !important;
   }
 }
@@ -1125,7 +1130,7 @@
 .focusable-element:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
-  box-shadow: var(--neuro-shadow-raised), 0 0 0 4px rgba(59, 130, 246, 0.2);
+  box-shadow: var(--ui-focus-ring);
 }
 
 .cta-button-primary:focus-visible {
