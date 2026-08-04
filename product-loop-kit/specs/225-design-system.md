@@ -7,8 +7,11 @@ google-mimic era, one system across every surface.**
 ## 1. Principles
 
 1. **Flat surfaces, hairline separation.** Depth comes from a 1px border and background-value steps —
-   never from a shadow. Exactly ONE shadow token exists, and it is only for things that float above the
-   page (dropdowns, popovers, sticky header when scrolled).
+   never from a shadow. Exactly ONE ELEVATION token exists (`--ui-shadow-overlay`), and it is only for
+   things that float above the page (dropdowns, popovers, sticky header when scrolled). Two shadow uses
+   are outside that rule by design: focus rings, and the literal inset fades marking horizontal
+   scrollability inside filter dropdowns. Known debt from this item: focus indication is still split
+   between `--ui-focus-ring` and a legacy `--focus-ring` on four call sites — new rules use the former.
 2. **One of each.** One header, one card, one control, one input, one chip. If a surface needs a variant,
    it is a modifier class on the same base, not a new component.
 3. **Calm, not decorative.** No gradients on page backgrounds, no dual-direction shadows, no glow, no

@@ -5507,6 +5507,36 @@ html {
   transition: transform 80ms ease, box-shadow 80ms ease !important;
 }
 
+/* Accessibility (item 225): the base press-physics rule above sinks every
+   one of these controls 1px on :active. Under reduced motion the press
+   must still be perceivable (background swap stays) but not animated/
+   moved, so the transform is neutralized here — same selector list as
+   the base rule, plus a few controls with their own local :active
+   transform (pool-card, reset-filters-btn, modal-close, detail-header-btn)
+   that aren't covered by the base rule's selector list. */
+@media (prefers-reduced-motion: reduce) {
+  .btn:active,
+  .calculate-yield-btn-new:active,
+  .start-earning-btn:active,
+  .search-button:active,
+  .app-search-button:active,
+  .app-control-btn:active,
+  .app-nav-tab:active,
+  .app-filter-btn:active,
+  .view-toggle-btn:active,
+  .theme-toggle:active,
+  .language-toggle:active,
+  .pagination-btn:active,
+  .filter-pill:active,
+  .filter-chip:active,
+  .pool-card:active,
+  .reset-filters-btn:active,
+  .modal-close:active,
+  .detail-header-btn:active {
+    transform: none !important;
+  }
+}
+
 /* 2. Smooth Hover Elevation */
 .pool-card:hover,
 .pool-row:hover,
