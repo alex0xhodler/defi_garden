@@ -1,11 +1,11 @@
 # PRISM DeFi Yields
 
-The highest honest PRISM yield right now is 369.51% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRISM yield right now is 324.90% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token) | Ethereum | 8.74% | $120.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token) | Ethereum | 369.51% | $102.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=333477a4-a7b9-492c-ad21-39cfb681e71f&src=seo_token) | Ethereum | 7.45% | $121.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1b30197e-02ea-5a1c-8488-78cc8181936c&src=seo_token) | Ethereum | 324.90% | $103.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRISM yield today?
 
-369.51% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+324.90% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PRISM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $222.9K in total.
+2 live pools clear this page's $100K TVL floor, $225.4K in total.
 
 ### Are these rates safe?
 

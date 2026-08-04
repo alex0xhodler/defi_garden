@@ -1,16 +1,16 @@
 # USDC.E DeFi Yields
 
-The highest honest USDC.E yield right now is 7.06% on sparkdex-v3.1 (Flare), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDC.E yield right now is 6.92% on sparkdex-v3.1 (Flare), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.09% | $6.39M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 7.06% | $1.64M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 5.40% | $958.7K |
-| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.13% | $646.6K |
-| [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 3.08% | $594.1K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.07% | $6.39M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 6.92% | $1.65M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 5.65% | $935K |
+| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.13% | $646.5K |
+| [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 3.08% | $594.5K |
 | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 2.02% | $537.9K |
-| [vvs-standard →](https://www.defi.garden/?pool=8ae38c00-2063-5109-bb43-cc7e615a7dce&src=seo_token) | Cronos | 0.02% | $501.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=8ae38c00-2063-5109-bb43-cc7e615a7dce&src=seo_token) | Cronos | 0.02% | $503.3K |
 | [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.88% | $473.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDC.E yield today?
 
-7.06% APY on sparkdex-v3.1 (Flare), based on live DefiLlama data.
+6.92% APY on sparkdex-v3.1 (Flare), based on live DefiLlama data.
 
 ### How many USDC.E pools clear the TVL floor?
 
-32 live pools clear this page's $100K TVL floor, $17.29M in total.
+32 live pools clear this page's $100K TVL floor, $17.31M in total.
 
 ### Are these rates safe?
 

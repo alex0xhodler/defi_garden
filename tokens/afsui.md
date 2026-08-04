@@ -4,7 +4,7 @@ The highest honest AFSUI yield right now is 0.13% on scallop-lend (Sui), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [scallop-lend →](https://www.defi.garden/?pool=3dae75a6-110c-4fb0-892d-1d861cb2649b&src=seo_token) | Sui | 0.13% | $112.5K |
+| [scallop-lend →](https://www.defi.garden/?pool=3dae75a6-110c-4fb0-892d-1d861cb2649b&src=seo_token) | Sui | 0.13% | $112.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AFSUI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.5K in total.
+1 live pool clear this page's $100K TVL floor, $112.8K in total.
 
 ### Are these rates safe?
 

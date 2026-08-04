@@ -1,11 +1,12 @@
 # SUSHI 디파이 수익률
 
-현재 SUSHI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 3.35%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSHI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 3.38%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token) | Ethereum | 2.79% | $740.2K |
-| [sushiswap →](https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token) | Ethereum | 3.35% | $191.1K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token) | Ethereum | 2.88% | $742.6K |
+| [sushiswap →](https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token) | Ethereum | 3.38% | $191.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token) | Ethereum | 2.63% | $100.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +14,11 @@
 
 ### 오늘 SUSHI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 3.35%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 3.38%예요.
 
 ### SUSHI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $931.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.03M예요.
 
 ### 이 수익률은 안전한가요?
 

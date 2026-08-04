@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token) | Arbitrum | 0.21% | $635.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.04% | $394.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.04% | $396.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

@@ -1,12 +1,12 @@
 # BALANCERRETH DeFi Yields
 
-The highest honest BALANCERRETH yield right now is 6.04% on balancer-v3 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BALANCERRETH yield right now is 5.81% on balancer-v3 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.42% | $270.1K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.04% | $261.9K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.73% | $243.7K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.40% | $272.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.81% | $263.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.71% | $245.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BALANCERRETH yield today?
 
-6.04% APY on balancer-v3 (OP Mainnet), based on live DefiLlama data.
+5.81% APY on balancer-v3 (OP Mainnet), based on live DefiLlama data.
 
 ### How many BALANCERRETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $775.6K in total.
+3 live pools clear this page's $100K TVL floor, $780.4K in total.
 
 ### Are these rates safe?
 

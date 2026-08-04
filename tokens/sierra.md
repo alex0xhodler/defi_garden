@@ -1,6 +1,6 @@
 # SIERRA DeFi Yields
 
-The highest honest SIERRA yield right now is 9.48% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIERRA yield right now is 9.48% on pendle (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SIERRA pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $47.86M in total.
+5 live pools clear this page's $100K TVL floor, $48.02M in total.
 
 ### Are these rates safe?
 

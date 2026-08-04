@@ -1,10 +1,10 @@
 # GOOGLX DeFi Yields
 
-The highest honest GOOGLX yield right now is 32.44% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOOGLX yield right now is 30.35% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f37649e7-52ac-46ae-bf1c-7ff1921c3cf7&src=seo_token) | Solana | 32.44% | $290.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=f37649e7-52ac-46ae-bf1c-7ff1921c3cf7&src=seo_token) | Solana | 30.35% | $289.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GOOGLX yield today?
 
-32.44% APY on raydium-amm (Solana), based on live DefiLlama data.
+30.35% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GOOGLX pools clear the TVL floor?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [STRX](https://www.defi.garden/tokens/strx)
 
 ## Available on
 

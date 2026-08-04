@@ -5,9 +5,9 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.67% | $8.35M |
-| USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 10.93% | $3.81M |
+| USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 10.94% | $3.81M |
 | ZIG | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_chain) | 0.08% | $1.34M |
-| USDC | [permapod →](https://www.defi.garden/?pool=e425717d-74c8-4ffa-859d-595e5e2bd1ec&src=seo_chain) | 58.89% | $157.3K |
+| USDC | [permapod →](https://www.defi.garden/?pool=e425717d-74c8-4ffa-859d-595e5e2bd1ec&src=seo_chain) | 58.89% | $157.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -32,7 +32,7 @@ DefiLlama 실시간 데이터 기준, ZIGChain의 valdora-finance에서 APY 58.8
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
+- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## ZIGChain의 인기 토큰
 

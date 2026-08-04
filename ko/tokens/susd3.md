@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.76% | $7.94M |
+| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.76% | $7.97M |
 | [pendle →](https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token) | Ethereum | 22.07% | $1M |
 | [pendle →](https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token) | Ethereum | 23.46% | $1M |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 3jane-lending에서 APY 23.46%
 
 ### SUSD3 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $9.95M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $9.98M예요.
 
 ### 이 수익률은 안전한가요?
 

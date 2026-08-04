@@ -25,11 +25,11 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 67.46%예요.
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
+- [STRX](https://www.defi.garden/ko/tokens/strx)
 
 ## 이용 가능한 체인
 

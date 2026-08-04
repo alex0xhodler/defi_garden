@@ -4,7 +4,7 @@ The highest honest VBUSDT yield right now is 4.56% on yearn-finance (Katana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 2.22% | $2.64M |
+| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 2.23% | $2.61M |
 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 4.56% | $2.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VBUSDT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.85M in total.
+2 live pools clear this page's $100K TVL floor, $4.82M in total.
 
 ### Are these rates safe?
 

@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 2.76% | $7.15M |
-| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 4.06% | $3.97M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 2.29% | $506.8K |
+| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 1.55% | $7.15M |
+| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 4.06% | $3.95M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 0.26% | $506.8K |
 | [ekubo →](https://www.defi.garden/?pool=1c2b5682-ac68-489e-a1b2-f1f810360871&src=seo_token) | Starknet | 0.05% | $261.1K |
 | [ekubo →](https://www.defi.garden/?pool=18af0ee3-663d-4aaf-b82e-a0c7d19a04db&src=seo_token) | Starknet | 0.04% | $159.4K |
 
@@ -20,7 +20,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 4.06%예요.
 
 ### CASH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $12.05M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $12.02M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -29,11 +29,11 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 4.06%예요.
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
+- [STRX](https://www.defi.garden/ko/tokens/strx)
 
 ## 이용 가능한 체인
 

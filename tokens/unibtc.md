@@ -1,10 +1,10 @@
 # UNIBTC DeFi Yields
 
-The highest honest UNIBTC yield right now is 0.26% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UNIBTC yield right now is 0.29% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.26% | $17.09M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.29% | $17.17M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UNIBTC yield today?
 
-0.26% APY on berapaw (Berachain), based on live DefiLlama data.
+0.29% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many UNIBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $22.3M in total.
+4 live pools clear this page's $100K TVL floor, $22.4M in total.
 
 ### Are these rates safe?
 

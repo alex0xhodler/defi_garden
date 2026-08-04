@@ -4,7 +4,7 @@ The highest honest APE yield right now is 7.92% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0e4a4a80-55e3-4d34-b545-642b9c495176&src=seo_token) | Ethereum | 7.92% | $283.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0e4a4a80-55e3-4d34-b545-642b9c495176&src=seo_token) | Ethereum | 7.92% | $285.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $283.5K in total.
+1 live pool clear this page's $100K TVL floor, $285.5K in total.
 
 ### Are these rates safe?
 

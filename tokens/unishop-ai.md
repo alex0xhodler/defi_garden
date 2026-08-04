@@ -5,7 +5,7 @@ The highest honest UNISHOP.AI yield right now is 0.21% on uniswap-v3 (Arbitrum),
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token) | Arbitrum | 0.21% | $635.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.04% | $394.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.04% | $396.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 4.00% | $469.64M |
-| [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.01% | $500.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=a94d0ddc-987e-40cc-b2a2-fcf6ac55c689&src=seo_token) | Solana | 0.16% | $350.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token) | Solana | 1.68% | $350K |
+| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 4.00% | $469.58M |
+| [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.05% | $500.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=a94d0ddc-987e-40cc-b2a2-fcf6ac55c689&src=seo_token) | Solana | 0.12% | $350.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token) | Solana | 1.54% | $350K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 4.00%예요.
 
 ### USDD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $471.03M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $470.97M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -28,11 +28,11 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 4.00%예요.
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [USTB](https://www.defi.garden/ko/tokens/ustb)
 
 ## 이용 가능한 체인
 

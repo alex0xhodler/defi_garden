@@ -4,7 +4,7 @@ The highest honest UZR yield right now is 1.89% on fira (Ethereum), among 1 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fira →](https://www.defi.garden/?pool=067c8d57-e9de-49e2-92a3-e3a4d8ab33de&src=seo_token) | Ethereum | 1.89% | $14.33M |
+| [fira →](https://www.defi.garden/?pool=067c8d57-e9de-49e2-92a3-e3a4d8ab33de&src=seo_token) | Ethereum | 1.89% | $14.34M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UZR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $14.33M in total.
+1 live pool clear this page's $100K TVL floor, $14.34M in total.
 
 ### Are these rates safe?
 

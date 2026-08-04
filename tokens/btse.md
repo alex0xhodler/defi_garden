@@ -4,7 +4,7 @@ The highest honest BTSE yield right now is 2.00% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=da5da76a-7ecf-466a-b6b2-6d23f753f713&src=seo_token) | Ethereum | 2.00% | $159.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=da5da76a-7ecf-466a-b6b2-6d23f753f713&src=seo_token) | Ethereum | 2.00% | $159.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BTSE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $159.4K in total.
+1 live pool clear this page's $100K TVL floor, $159.9K in total.
 
 ### Are these rates safe?
 

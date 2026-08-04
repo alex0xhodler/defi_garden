@@ -27,11 +27,11 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 6.66%예요.
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 

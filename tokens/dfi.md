@@ -1,10 +1,10 @@
 # DFI DeFi Yields
 
-The highest honest DFI yield right now is 0.27% on defichain-dex (Defichain), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DFI yield right now is 0.35% on defichain-dex (Defichain), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.27% | $821.4K |
+| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.35% | $823.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DFI yield today?
 
-0.27% APY on defichain-dex (Defichain), based on live DefiLlama data.
+0.35% APY on defichain-dex (Defichain), based on live DefiLlama data.
 
 ### How many DFI pools clear the TVL floor?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token) | Sui | 1.17% | $163.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token) | Sui | 1.20% | $163.7K |
 | [navi-lending →](https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token) | Sui | 1.48% | $147.2K |
 | [scallop-lend →](https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token) | Sui | 1.19% | $122.6K |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 1.48%예요.
 
 ### WUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $433K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $433.5K예요.
 
 ### 이 수익률은 안전한가요?
 

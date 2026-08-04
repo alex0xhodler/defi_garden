@@ -1,10 +1,10 @@
 # SQGROW DeFi Yields
 
-The highest honest SQGROW yield right now is 102.27% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SQGROW yield right now is 105.10% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4534e56b-e9fa-49e0-bcf5-f3f11954e59b&src=seo_token) | Ethereum | 102.27% | $160.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4534e56b-e9fa-49e0-bcf5-f3f11954e59b&src=seo_token) | Ethereum | 105.10% | $157.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SQGROW yield today?
 
-102.27% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+105.10% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SQGROW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.6K in total.
+1 live pool clear this page's $100K TVL floor, $157.3K in total.
 
 ### Are these rates safe?
 

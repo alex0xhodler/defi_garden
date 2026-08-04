@@ -1,10 +1,10 @@
 # PROJECT89 DeFi Yields
 
-The highest honest PROJECT89 yield right now is 5.54% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PROJECT89 yield right now is 4.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=49a7a1c5-1441-46ff-8593-e5e851dc0c7a&src=seo_token) | Solana | 5.54% | $151.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=49a7a1c5-1441-46ff-8593-e5e851dc0c7a&src=seo_token) | Solana | 4.44% | $152.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PROJECT89 yield today?
 
-5.54% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.44% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PROJECT89 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $151.2K in total.
+1 live pool clear this page's $100K TVL floor, $152.1K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [STRX](https://www.defi.garden/tokens/strx)
 
 ## Available on
 
