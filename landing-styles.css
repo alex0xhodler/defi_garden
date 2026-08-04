@@ -10,6 +10,50 @@
   color: var(--color-text);
 }
 
+/* Backlog 220: `landing.js:356` renders the shared `e('footer', { className:
+   'app-footer' }, ...)` inside `.landing-app`, so the landing route gets the
+   OPAQUE, `position: fixed; bottom: 0; z-index: 100` footer from
+   `style.css:2513-2524`. That footer's clearance (`.app { padding-bottom:
+   80px }`, style.css:849-853, "Space for footer") is class-scoped to `.app`
+   — `.landing-app` never carried it (`grep -n "\.landing-app" style.css`
+   returns zero matches before this rule), so this route never had ANY
+   protection from the footer, on any scroll position. This is item 179's
+   class, still live per 219's own BACKLOG row: fixed once on bare `/`
+   (179), never ported, then paid for again on pool-detail 20 days later
+   (217/218).
+
+   Measured this run at 768x780, unmodified: AT REST (`scrollY=0`) the
+   "Live DefiLlama data" trust-rail text sits at rect{x:449.7,y:760.5,
+   w:110.9,h:18} while the footer paints rect{x:0,y:722,w:768,h:58} — fully
+   covered, `elementFromPoint` at the text's lower band resolves to
+   `<footer class="app-footer">`. At TRUE bottom of scroll (scrollTop 100 +
+   innerHeight 780 = 880 = scrollHeight, confirmed reached) the hero-body
+   paragraph at rect{x:24,y:704,w:254.3,h:36} is half-covered by the same
+   footer rect and also hit-tests to it. Both match spec 220's quoted
+   findings and 219-notes.md §2(c) exactly.
+
+   Clearance alone cannot fix this: finding (1) is a MID-DOCUMENT overlap at
+   scroll 0, not an end-of-document one — a `padding-bottom` only lengthens
+   the document, it cannot move content already sitting inside the footer's
+   fixed band at rest. This is the exact argument `pool-detail-styles.css:
+   1080-1112` already records for item 218's `garden_cta` CTA, so this reuses
+   218's shipped, verifier-passed pattern rather than inventing a new one:
+   take the footer out of the fixed layer on this view. `.landing-app` is
+   ALREADY `display: flex; flex-direction: column; min-height: 100vh`
+   (immediately above), so `margin-top: auto` on the now-in-flow footer is
+   the same flex sticky-footer idiom 218 used — no new layout mode, no new
+   token, no new value, no new class. On a short viewport the footer still
+   sits at the bottom edge; on a page whose content exceeds the viewport it
+   sits after the content instead of over it, at every scroll position.
+
+   Scoped to `.landing-app .app-footer` only — `style.css`'s `.app-footer`
+   block and `.app`'s own `padding-bottom: 80px` are untouched, so the fixed
+   footer stays correct for the analytics grid and every other view. */
+.landing-app .app-footer {
+  position: static;
+  margin-top: auto;
+}
+
 .landing-backdrop {
   position: absolute;
   inset: 0;
