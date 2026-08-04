@@ -1267,15 +1267,27 @@ body {
   transform: translateY(-1px);
 }
 
+/* Filled-primary selected state (spec 111): a selected filter must be unmistakable,
+   not read as unselected. This is the ONE exception to the accent-soft chip default —
+   see style.css §"Chip / pill" and product-loop-kit/specs/225-design-system.md §3. */
 .app-filter-btn.has-selection {
-  background: var(--color-primary);
-  color: white;
-  background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
-  color: var(--ui-accent);
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
   box-shadow: none;
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
+}
+
+.app-filter-btn.has-selection:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.app-filter-btn.has-selection:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 .app-filter-btn.active:not(.has-selection) {
@@ -1480,28 +1492,31 @@ body {
   scroll-snap-type: x proximity;
 }
 
-/* Enhanced hover animations for scrollable pills */
+/* Selected pill/chip inside the filter dropdown reads as unmistakable filled-primary
+   (matches .app-filter-btn.has-selection) — spec 111: a selected filter must never
+   read as unselected. Every other chip family stays on the accent-soft treatment;
+   this is the one exception, scoped to .global-filter-dropdown. */
 .global-filter-dropdown .filter-pill.active,
 .global-filter-dropdown .filter-chip.active {
-  transform: translateY(-1px);
-  background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
-  color: var(--ui-accent);
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
+  font-weight: var(--font-weight-semibold);
+  transform: translateY(0);
   box-shadow: none;
 }
 
-/* Selected chip reads as unmistakable filled-primary (matches .app-filter-btn.has-selection).
-   Scoped to .filter-chip ONLY — the transform/box-shadow override lives here (not on the shared
-   rule above) so chain/protocol pills keep their existing brand/primary fill AND lift unchanged. */
-.global-filter-dropdown .filter-chip.active {
-  background: var(--color-primary);
-  color: white;
-  font-weight: var(--font-weight-semibold);
-  transform: translateY(0);
-  background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
-  color: var(--ui-accent);
-  box-shadow: none;
+.global-filter-dropdown .filter-pill.active:hover,
+.global-filter-dropdown .filter-chip.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.global-filter-dropdown .filter-pill.active:active,
+.global-filter-dropdown .filter-chip.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 /* Add subtle momentum scrolling feedback */
@@ -2491,13 +2506,24 @@ body {
   transform: translateY(0);
 }
 
+/* Filled-primary selected state (spec 111 exception — see the "Chip / pill" note
+   near .app-filter-btn.has-selection above). */
 .pagination-button.active {
-  background: var(--color-primary);
-  color: white;
-  background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
-  color: var(--ui-accent);
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
   box-shadow: none;
+}
+
+.pagination-button.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.pagination-button.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 .pagination-button:disabled {
@@ -5059,30 +5085,50 @@ html {
   box-shadow: var(--focus-ring);
 }
 
-/* General filter pill active state - raised when selected */
+/* Filled-primary selected state (spec 111 exception — filter-dropdown chip family). */
 .filter-pill.active {
-  background: var(--color-primary);
-  color: white;
-  background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
-  color: var(--ui-accent);
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
   box-shadow: none;
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
+}
+
+.filter-pill.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.filter-pill.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 .chain-pill {
   position: relative;
 }
 
-/* Chain pills use brand colors when active - raised when selected */
+/* Chain pills: same filled-primary exception as .filter-pill.active above. */
 .chain-pill.active {
-  background: var(--ui-accent-soft);
-  border: 1px solid var(--ui-accent-border);
-  color: var(--ui-accent);
+  background: var(--ui-accent);
+  border: 1px solid var(--ui-accent);
+  color: var(--ui-on-accent);
   box-shadow: none;
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
+}
+
+.chain-pill.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.chain-pill.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 /* Enhanced Pool Type Buttons Container */
@@ -5233,16 +5279,25 @@ html {
   transform: translateY(-1px);
 }
 
-/* Active filter chips - clearly pressed */
+/* Filled-primary selected state (spec 111 exception — filter-dropdown chip family). */
 .filter-chip.active {
-  background: var(--color-primary);
-  color: white;
-  background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
-  color: var(--ui-accent);
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
   box-shadow: none;
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
+}
+
+.filter-chip.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.filter-chip.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 /* Mobile responsive for horizontal scrolling filters */
@@ -5359,6 +5414,18 @@ html {
 
   .animate-on-mount {
     opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* Filled-primary selected-chip press (spec 111 exception, see the
+     "Chip / pill" rules above) skips the 1px sink under reduced motion. */
+  .app-filter-btn.has-selection:active,
+  .global-filter-dropdown .filter-pill.active:active,
+  .global-filter-dropdown .filter-chip.active:active,
+  .filter-pill.active:active,
+  .chain-pill.active:active,
+  .filter-chip.active:active,
+  .pagination-button.active:active {
     transform: none !important;
   }
 }

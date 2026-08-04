@@ -129,7 +129,12 @@ border-color: var(--ui-border-strong)`; active → `translateY(1px)`; selected/`
 
 **Chip / pill (presets, filters, tabs, quick-amounts)** — `border-radius: var(--ui-radius-pill);
 background: var(--ui-surface); border: 1px solid var(--ui-border); padding: 8px 14px;` selected uses the
-same accent-soft treatment as above. Never two chips with different shapes on one screen.
+same accent-soft treatment as above. Never two chips with different shapes on one screen. Exception:
+filter chips in the filter-dropdown family (`.global-filter-dropdown .filter-chip.active`/`.filter-pill.active`,
+`.filter-chip.active`, `.filter-pill.active`, `.chain-pill.active`, `.pagination-button.active`,
+`.app-filter-btn.has-selection`) use the PRIMARY FILL (`background: var(--ui-accent); color:
+var(--ui-on-accent)`) for their selected state instead, because spec 111 established that a selected
+filter must be unmistakable — inside the dropdown, accent-soft reads as unselected.
 
 **Input / search** — `background: var(--ui-surface); border: 1px solid var(--ui-border-strong);
 border-radius: var(--ui-radius-md);` focus → `border-color: var(--ui-accent)` + focus ring. The search
