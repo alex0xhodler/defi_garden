@@ -179,6 +179,35 @@ and the giveaway is that the defect exists on exactly one route.
   2026-08-03 screenshot) are still invisible to the tick. Do not read a green
   audit as "a human would like this page".
 
+- **Hiding an element can DELETE the clearance nobody knew it was providing.**
+  The most expensive trap on this list, and the one that turned item 222's
+  attempt 1 into a verifier FAIL. On the analytics grid, `.app.has-results`'s
+  mobile clearance was only `padding-top: var(--space-20)` (20px) against a
+  120-127px fixed header — arithmetic that should have buried the page's own
+  `.results-title`. It didn't, because two unrelated, *broken* in-flow buttons
+  (the standalone `.theme-toggle`/`.language-toggle`, themselves the defect
+  being fixed) sat above the content and contributed ~92px of margin. Hiding
+  them was correct AND it dropped `.container` from `y:112` to `y:20`, putting
+  the heading under the header at 360/480/640px. **Rule: before you
+  `display:none` anything that sits between a fixed overlay and the content,
+  measure the content's position before and after — on a real render, against a
+  true `git checkout <base> -- <sheet>` baseline, not against your memory of it.
+  If the declared clearance alone doesn't explain why the content is clear
+  today, something undeclared is holding it up and you are about to remove it.**
+  Corollary for reviewers: an item's own acceptance criteria will not catch
+  this — 222's attempt 1 passed 17/17 of its own rendered assertions while
+  introducing the regression. Ask separately what ELSE moved.
+- **A fixed overlay can occlude by CLIPPING, not just by covering.** The usual
+  signature is `elementFromPoint` returning the overlay. The other one is
+  `elementFromPoint` returning **`null`** while `documentElement.scrollWidth ===
+  innerWidth`: the victim's centre is outside the viewport and the row it lives
+  in cannot scroll, so it is unreachable rather than buried. Item 222's headline
+  P0 was this variant — a flex row (`.google-header-content`) with no `@media`
+  override and no `min-width: 0` on its `flex: 1` children, so it could not
+  shrink below its input's intrinsic width and pushed its own controls past the
+  edge at ≤640px. A lens that only looks for "hit resolves to the overlay"
+  scores this page clean. Check for `null` hits too.
+
 ## Provenance
 
 Distilled from item **217** (pool-detail's `padding: 0` cancelling the footer
@@ -200,4 +229,11 @@ surface — the landing route, whose root class never matched the shared
 clearance selector at all — adding the never-inherited root cause (step 3b),
 its resolution, and the reason the 179 port kept failing:
 `specs/220.md`, `specs/220-notes.md`, `specs/220-pr.md`,
-`test_landing_footer_occlusion.js`, LOG.md 2026-08-04 build | 220.
+`test_landing_footer_occlusion.js`, LOG.md 2026-08-04 build | 220. Updated
+2026-08-04 when **221** fixed the P0 that lens found on the analytics grid —
+four theme/language controls rendering and none pressable at 360/480px — adding
+the two traps above: the clipped-not-covered (`elementFromPoint → null`)
+variant, and the accidental-clearance trap its own attempt 1 fell into:
+`specs/222.md` (see its attempt-2 ADDENDUM), `specs/222-notes.md`,
+`specs/222-pr.md`, `test_mobile_controls_reachable.js`,
+LOG.md 2026-08-04 build | 222.

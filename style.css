@@ -1065,6 +1065,70 @@ body {
   box-shadow: var(--neuro-shadow-pressed);
 }
 
+/* Backlog 222: `.theme-toggle`/`.language-toggle` (style.css:3913/3993 below)
+   are FLOATING-PAIR rules — `position: fixed`, viewport-pinned `top`/`right`,
+   `z-index: 1000` — written for the standalone pair that render as direct
+   children of `.app` on the analytics HOMEPAGE (`.app:not(.has-results)`,
+   which has no header). `app.js:3057/3062` gives the header's own theme/
+   language buttons those SAME class names (`google-control-btn theme-toggle`
+   / `google-control-btn language-toggle`) so they'd inherit the design-
+   system look — but with no scoping, the floating rules ALSO yank the
+   header's in-flow buttons out of flow and pin them to the same fixed
+   coordinates as the standalone pair. Measured on `?token=USDC` at rest:
+   at 360/480px the header's own pair lands past the viewport edge
+   (`elementFromPoint` -> null, clipped not scrollable-to — see the header-
+   shrink fix below); at >=641px the two pairs coincide at the identical
+   rect, so the header's button paints under the standalone one and eats
+   its clicks.
+
+   Reset the header's own buttons back to normal flow. This selector's two
+   classes give it specificity (0,2,0), which beats every one-class
+   `.theme-toggle`/`.language-toggle` declaration below at (0,1,0) —
+   including inside their `@media` tiers, since a media query adds no
+   specificity of its own — so this wins regardless of source order.
+   Chosen over rescoping each floating rule with `:not(.google-control-btn)`
+   (the fix's spec-documented alternative): that would touch every one of
+   the ~6 `.theme-toggle`/`.language-toggle` declarations spread across 3
+   media-query tiers, where this is one block, next to the
+   `.google-control-btn` rules it protects. */
+.google-header-controls .theme-toggle,
+.google-header-controls .language-toggle {
+  position: static;
+  top: auto;
+  right: auto;
+  margin: 0;
+  z-index: auto;
+}
+
+/* Backlog 222, third strand: even with the header's own theme/language
+   buttons back in flow (the reset above), the header ROW itself had no
+   `@media` override anywhere (`grep -n "google-header-content" style.css`
+   was a single match before this rule) and its middle child
+   `.google-search-container` — and the `<input>` inside it — kept their
+   automatic min-content width (neither had `min-width: 0`), so the row
+   could not shrink below a bare input's intrinsic width. At <=640px that
+   pushed `.google-header-controls` off the right edge of a 360/480px
+   viewport (measured: rect `x:498.8`, `elementFromPoint` -> null;
+   `documentElement.scrollWidth` stayed 360, so this was not overflow the
+   user could scroll to reach — the controls were simply gone). `min-width:
+   0` is the standard flex-item fix (an unconstrained flex child defaults to
+   its content's min-content size, not 0); the tighter gap/padding give the
+   now-shrinkable row a little more room before it has to. */
+@media (max-width: 640px) {
+  .google-header-content {
+    gap: var(--space-8);
+    padding: var(--space-12);
+  }
+
+  .google-search-container {
+    min-width: 0;
+  }
+
+  .google-search-input {
+    min-width: 0;
+  }
+}
+
 /* Add padding to body when Google header is shown */
 .app.has-results {
   padding-top: 160px;
@@ -2628,8 +2692,35 @@ html[data-app-mode="landing"] .seo-hub-links {
 
 /* Responsive Design - Mobile Only (Desktop Unchanged) */
 @media (max-width: 768px) {
+  /* Backlog 222, attempt 2: this was `var(--space-20)` (20px) against a
+     120-127px `position: fixed` `.google-header-sticky`, which should have
+     buried `.results-title` ("Yields for USDC") -- it did NOT, only because
+     attempt 1's own two standalone `.theme-toggle`/`.language-toggle`
+     buttons (hidden by this same item, see the `.app.has-results >
+     .theme-toggle` rule below) happened to sit in-flow above the results
+     content and supply ~92px of ACCIDENTAL clearance via their own margins.
+     Deleting that accidental margin (by hiding the buttons) re-exposed the
+     20px gap and put `.results-title` under the header -- measured this
+     attempt, real render, `?token=USDC`: y:49.7 (EN)/49.7 (KO) at
+     360/480px, y:57.7 at 640px, all `elementFromPoint`-hit by
+     `.google-header-content`/`.google-nav-row`, i.e. actually covered, not
+     just close. `.google-header-sticky`'s own measured height across this
+     item's design bar (360/480/640/768, EN+KO): 120px (EN) / 123px (KO) at
+     <=640px, 124px (EN) / 127px (KO) at 700-768px -- max 127px.
+     `.results-title` renders ~29.7px below `.container`'s top regardless of
+     width/lang, so real (non-accidental) clearance needs
+     `padding-top > 127 + 29.7` with margin. 140px puts the title at
+     ~169.7px -- ~42px clear of the tallest header (127px, KO 768) -- and
+     also pushes `.results-header` (bottom of its own taller-when-wrapped
+     box) to a measured minimum ~29px clearance at the same width. This also
+     happens to clear a PRE-EXISTING 768px occlusion that predates 222
+     entirely (baseline `f66ea3fde5` was already occluded there) -- a side
+     effect of this one value, not a separate fix. Do not drop below 135px
+     (criterion 11's `test_mobile_controls_reachable.js`); do not raise past
+     ~160px without re-measuring (matches the >=769px tier's own
+     `padding-top: 160px`, style.css:1134, left untouched). */
   .app.has-results {
-    padding-top: var(--space-20);
+    padding-top: 140px;
   }
 
   .app:not(.has-results) .container {
@@ -3907,6 +3998,32 @@ html {
     text-transform: none;
     letter-spacing: normal;
   }
+}
+
+/* Backlog 222: the STANDALONE `.theme-toggle`/`.language-toggle` pair below
+   (`app.js:3143/3153`) render unconditionally as direct children of `.app`
+   — on the analytics homepage (`.app:not(.has-results)`) that's correct,
+   it's their only home there (no header renders on the homepage). On a
+   RESULTS page (`.app.has-results`, the `?token=`/`?chain=` surface every
+   SEO lander resolves to) the header above ALSO renders its own theme/
+   language buttons (`app.js:3057/3062`, fixed in place by the reset near
+   `.google-control-btn` above) — so this standalone pair becomes a live
+   SECOND copy: buried under the fixed `.google-header-sticky` at <=640px
+   (mobile's `.app:not(.has-results) .theme-toggle` fixed-position override,
+   style.css:4419 below, never matches on a results page by construction,
+   since `has-results` and `:not(.has-results)` are mutually exclusive) and
+   painted-over duplicate chrome at >=641px. Hide it, scoped to
+   `.has-results` only, so `.app:not(.has-results)` — the homepage, which
+   has no header to fall back on — is untouched (spec 222 criterion 8's
+   guard). The `>` child combinator matters: the header's buttons are
+   GRANDchildren of `.app` (via `.google-header-sticky` >
+   `.google-header-content` > `.google-header-controls`), so a descendant
+   selector here would also hide them; `>` restricts this to the two
+   direct-child standalone buttons only, never the header pair this fix
+   keeps working. */
+.app.has-results > .theme-toggle,
+.app.has-results > .language-toggle {
+  display: none;
 }
 
 /* Dark Mode Toggle Styles */
