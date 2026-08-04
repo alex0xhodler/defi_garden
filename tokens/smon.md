@@ -4,9 +4,9 @@ The highest honest SMON yield right now is 24.11% on kintsu (Monad), among 4 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.28% | $2.17M |
+| [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.30% | $2.15M |
 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 24.11% | $770.3K |
-| [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 1.39% | $623.2K |
+| [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 1.39% | $614.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SMON pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.77M in total.
+4 live pools clear this page's $100K TVL floor, $3.74M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest PIPEDOG yield right now is 609.25% on raydium-amm (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7cdeccc6-3734-51fc-b9e1-df0792f02572&src=seo_token) | Solana | 0.05% | $25.19M |
+| [raydium-amm →](https://www.defi.garden/?pool=7cdeccc6-3734-51fc-b9e1-df0792f02572&src=seo_token) | Solana | 0.04% | $25.19M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=c62be9da-7392-5caa-bdd3-6db99edce2f7&src=seo_token) | Base | 609.25% | $387.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

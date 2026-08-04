@@ -1,11 +1,10 @@
 # BOTTO 디파이 수익률
 
-현재 BOTTO의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 126.08%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BOTTO의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 124.49%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 126.08% | $164K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token) | Ethereum | 0.07% | $142.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 124.49% | $164K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +12,7 @@
 
 ### 오늘 BOTTO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 126.08%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 124.49%예요.
 
 ### BOTTO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -25,16 +24,15 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 126.08%예�
 
 ## 관련 토큰
 
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
-- [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
 ## 마지막 업데이트: August 4, 2026

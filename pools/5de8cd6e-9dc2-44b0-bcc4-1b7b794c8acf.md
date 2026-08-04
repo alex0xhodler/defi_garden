@@ -2,7 +2,7 @@
 
 **Total APY:** 2.53% (2.53% Base · + 0.00% Rewards)
 
-**TVL:** $190.2K
+**TVL:** $189.9K
 
 **Pool Type:** Lending
 
@@ -25,7 +25,7 @@ $1,000 in this pool grows to ~$1,133 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 2.53% right now vs a 1.69% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
 [Garden this pool → ~$1,133 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 

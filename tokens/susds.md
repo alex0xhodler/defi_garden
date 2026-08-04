@@ -1,14 +1,14 @@
 # SUSDS DeFi Yields
 
-The highest honest SUSDS yield right now is 5.24% on sky-lending (Ethereum), among 31 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDS yield right now is 5.24% on sky-lending (Ethereum), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.64B |
-| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.27M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.96% | $10.75M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.16% | $6.08M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 4.45% | $5.57M |
+| [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.75B |
+| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.65M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.74% | $10.68M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.14% | $6.08M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 4.42% | $5.57M |
 | [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d&src=seo_token) | OP Mainnet | 3.52% | $5.11M |
 | [pendle →](https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec&src=seo_token) | Ethereum | 4.96% | $4.58M |
 | [pendle →](https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa&src=seo_token) | Ethereum | 5.24% | $4.58M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSDS pools clear the TVL floor?
 
-31 live pools clear this page's $100K TVL floor, $5.16B in total.
+32 live pools clear this page's $100K TVL floor, $5.28B in total.
 
 ### Are these rates safe?
 

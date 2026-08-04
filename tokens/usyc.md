@@ -1,11 +1,11 @@
 # USYC DeFi Yields
 
-The highest honest USYC yield right now is 3.37% on circle-usyc (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USYC yield right now is 3.48% on circle-usyc (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [circle-usyc →](https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_token) | BSC | 3.37% | $2.92B |
-| [circle-usyc →](https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token) | Ethereum | 3.37% | $90.35M |
+| [circle-usyc →](https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_token) | BSC | 3.48% | $2.92B |
+| [circle-usyc →](https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token) | Ethereum | 3.48% | $88.66M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USYC yield today?
 
-3.37% APY on circle-usyc (BSC), based on live DefiLlama data.
+3.48% APY on circle-usyc (BSC), based on live DefiLlama data.
 
 ### How many USYC pools clear the TVL floor?
 

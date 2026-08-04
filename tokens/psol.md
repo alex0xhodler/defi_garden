@@ -1,11 +1,11 @@
 # PSOL DeFi Yields
 
-The highest honest PSOL yield right now is 6.22% on phantom-sol (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PSOL yield right now is 6.23% on phantom-sol (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [phantom-sol →](https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token) | Solana | 6.22% | $121.28M |
-| [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.03% | $1.42M |
+| [phantom-sol →](https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token) | Solana | 6.23% | $121.56M |
+| [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.06% | $1.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PSOL yield today?
 
-6.22% APY on phantom-sol (Solana), based on live DefiLlama data.
+6.23% APY on phantom-sol (Solana), based on live DefiLlama data.
 
 ### How many PSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $128.31M in total.
+3 live pools clear this page's $100K TVL floor, $128.61M in total.
 
 ### Are these rates safe?
 
@@ -26,11 +26,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [STRX](https://www.defi.garden/tokens/strx)
 
 ## Available on
 

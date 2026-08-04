@@ -5,7 +5,7 @@ The highest honest GMON yield right now is 24.11% on curve-dex (Monad), among 3 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 24.11% | $770.3K |
-| [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.28% | $219.1K |
+| [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.28% | $217.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GMON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.1M in total.
+3 live pools clear this page's $100K TVL floor, $2.09M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest NS yield right now is 0.18% on navi-lending (Sui), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=468407a0-6ac8-45a7-ae77-385c8e1b64bc&src=seo_token) | Sui | 0.18% | $152.8K |
+| [navi-lending →](https://www.defi.garden/?pool=468407a0-6ac8-45a7-ae77-385c8e1b64bc&src=seo_token) | Sui | 0.18% | $153.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.8K in total.
+1 live pool clear this page's $100K TVL floor, $153.3K in total.
 
 ### Are these rates safe?
 

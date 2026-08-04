@@ -4,10 +4,10 @@ The highest honest SUPERWETH yield right now is 5.52% on superform (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.44% | $2.53M |
+| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.41% | $2.52M |
 | [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 5.52% | $390.4K |
 | [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.49% | $390.4K |
-| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.63% | $274.8K |
+| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.60% | $274.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUPERWETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.58M in total.
+4 live pools clear this page's $100K TVL floor, $3.57M in total.
 
 ### Are these rates safe?
 

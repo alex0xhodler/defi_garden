@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token) | Tron | 1.42% | $1.07M |
-| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 1.25% | $350.3K |
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token) | Ethereum | 0.03% | $220.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 1.11% | $350.3K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token) | Ethereum | 0.02% | $220.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

@@ -1,12 +1,12 @@
 # MET DeFi Yields
 
-The highest honest MET yield right now is 40.28% on aerodrome-v1 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MET yield right now is 39.63% on aerodrome-v1 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token) | Base | 24.49% | $516K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6bfd0dbd-139a-4f5a-890a-0638a6a17df8&src=seo_token) | Ethereum | 0.33% | $336.7K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token) | Base | 40.28% | $196.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token) | Base | 24.13% | $517.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6bfd0dbd-139a-4f5a-890a-0638a6a17df8&src=seo_token) | Ethereum | 0.40% | $337.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token) | Base | 39.63% | $196.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MET yield today?
 
-40.28% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+39.63% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many MET pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.89M in total.
+5 live pools clear this page's $100K TVL floor, $1.9M in total.
 
 ### Are these rates safe?
 

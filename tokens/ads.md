@@ -1,13 +1,13 @@
 # ADS DeFi Yields
 
-The highest honest ADS yield right now is 7.14% on uniswap-v4 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ADS yield right now is 5.81% on uniswap-v4 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.09% | $707.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.09% | $703.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 7.14% | $315.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bdd7c234-2578-5660-a682-c2e35c9d51c7&src=seo_token) | Base | 0.04% | $203.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.09% | $714.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.09% | $712.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 5.81% | $317.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bdd7c234-2578-5660-a682-c2e35c9d51c7&src=seo_token) | Base | 0.02% | $206.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ADS yield today?
 
-7.14% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+5.81% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ADS pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $2.98M in total.
+6 live pools clear this page's $100K TVL floor, $3.02M in total.
 
 ### Are these rates safe?
 

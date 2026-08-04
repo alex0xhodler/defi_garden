@@ -5,8 +5,8 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | GTWETHC | [morpho-blue →](https://www.defi.garden/?pool=699b2867-ace7-41df-99fe-10806460d274&src=seo_chain) | 3.25% | $501.1K |
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=39b18684-cf0c-471b-a991-4a65d399367a&src=seo_chain) | 1.18% | $362.2K |
-| SUSDS | [sky-lending →](https://www.defi.garden/?pool=e92131f3-628f-5983-8a94-995ca58856e8&src=seo_chain) | 3.52% | $165K |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=39b18684-cf0c-471b-a991-4a65d399367a&src=seo_chain) | 1.18% | $362.7K |
+| SUSDS | [sky-lending →](https://www.defi.garden/?pool=e92131f3-628f-5983-8a94-995ca58856e8&src=seo_chain) | 3.52% | $165.1K |
 | GTUSDCC | [morpho-blue →](https://www.defi.garden/?pool=e9bfd1d5-658b-4732-9d5b-42afa4d7277a&src=seo_chain) | 2.33% | $108.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

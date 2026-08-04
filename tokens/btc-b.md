@@ -1,17 +1,17 @@
 # BTC.B DeFi Yields
 
-The highest honest BTC.B yield right now is 22.71% on aave-v3 (Avalanche), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTC.B yield right now is 20.50% on aave-v3 (Avalanche), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $78.74M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token) | Ethereum | 0.08% | $10.63M |
-| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.13% | $4.7M |
-| [curve-dex →](https://www.defi.garden/?pool=abb367ab-6773-498e-96ac-5e01a0f76194&src=seo_token) | Ethereum | 0.07% | $2.56M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 22.71% | $1.79M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 7.81% | $1.15M |
-| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 1.91% | $612.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 1.00% | $292.9K |
+| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $78.87M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token) | Ethereum | 0.05% | $10.66M |
+| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.11% | $4.85M |
+| [curve-dex →](https://www.defi.garden/?pool=abb367ab-6773-498e-96ac-5e01a0f76194&src=seo_token) | Ethereum | 0.07% | $2.58M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 20.50% | $1.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 6.32% | $1.15M |
+| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 1.97% | $575.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 0.70% | $293.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTC.B yield today?
 
-22.71% APY on aave-v3 (Avalanche), based on live DefiLlama data.
+20.50% APY on aave-v3 (Avalanche), based on live DefiLlama data.
 
 ### How many BTC.B pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $103.78M in total.
+19 live pools clear this page's $100K TVL floor, $104.1M in total.
 
 ### Are these rates safe?
 

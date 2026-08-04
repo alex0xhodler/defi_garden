@@ -33,9 +33,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=APYUSD" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=APYUSD&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=APYUSD" />
-    <lastmod>2026-08-04T09:48:06.078Z</lastmod>
+    <lastmod>2026-08-04T16:24:30.960Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.89</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AUSD</loc>
@@ -591,9 +591,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STUSDS" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STUSDS&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STUSDS" />
-    <lastmod>2026-08-04T13:05:24.404Z</lastmod>
+    <lastmod>2026-08-04T16:24:30.960Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.94</priority>
+    <priority>0.93</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=SUSDAI</loc>

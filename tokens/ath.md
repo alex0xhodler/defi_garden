@@ -5,7 +5,7 @@ The highest honest ATH yield right now is 502.91% on uniswap-v4 (Polygon), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 502.91% | $386.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 10.71% | $243.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 10.84% | $243.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ATH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $629.8K in total.
+2 live pools clear this page's $100K TVL floor, $630K in total.
 
 ### Are these rates safe?
 

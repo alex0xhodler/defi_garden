@@ -4,7 +4,7 @@ The highest honest OLAS yield right now is 0.20% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token) | Ethereum | 0.18% | $1.18M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token) | Ethereum | 0.19% | $1.18M |
 | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 0.20% | $280.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

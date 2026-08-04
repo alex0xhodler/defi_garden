@@ -4,8 +4,8 @@ The highest honest STHYPE yield right now is 2.51% on pendle (Hyperliquid L1), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=c15de172-944b-4303-971c-7a6e7564ad38&src=seo_token) | Hyperliquid L1 | 2.38% | $1.24M |
 | [pendle →](https://www.defi.garden/?pool=0e022695-0c2a-4682-b93a-fffd8723fe7f&src=seo_token) | Hyperliquid L1 | 2.51% | $1.24M |
+| [pendle →](https://www.defi.garden/?pool=c15de172-944b-4303-971c-7a6e7564ad38&src=seo_token) | Hyperliquid L1 | 2.38% | $1.24M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

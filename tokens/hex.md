@@ -1,12 +1,12 @@
 # HEX DeFi Yields
 
-The highest honest HEX yield right now is 33.40% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEX yield right now is 24.25% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 30.20% | $408.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 33.40% | $201.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 26.67% | $144.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 23.79% | $413.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 24.25% | $204.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 20.61% | $146.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEX yield today?
 
-33.40% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+24.25% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HEX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $755.1K in total.
+3 live pools clear this page's $100K TVL floor, $764.3K in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # KYSOL 디파이 수익률
 
-현재 KYSOL의 가장 높은 정직한 수익률은 Solana의 kyros에서 5.28%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KYSOL의 가장 높은 정직한 수익률은 Solana의 kyros에서 5.22%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.28% | $7.47M |
-| [raydium-amm →](https://www.defi.garden/?pool=b820fb28-a93a-4d1e-81d0-da3453b98e54&src=seo_token) | Solana | 0.02% | $296.3K |
+| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.22% | $7.65M |
+| [raydium-amm →](https://www.defi.garden/?pool=b820fb28-a93a-4d1e-81d0-da3453b98e54&src=seo_token) | Solana | 0.02% | $297.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 KYSOL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 kyros에서 APY 5.28%예요.
+DefiLlama 실시간 데이터 기준, Solana의 kyros에서 APY 5.22%예요.
 
 ### KYSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $8.07M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $8.25M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -26,11 +26,11 @@ DefiLlama 실시간 데이터 기준, Solana의 kyros에서 APY 5.28%예요.
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
-- [STRX](https://www.defi.garden/ko/tokens/strx)
 
 ## 이용 가능한 체인
 

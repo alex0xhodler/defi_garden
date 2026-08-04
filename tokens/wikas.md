@@ -1,10 +1,10 @@
 # WIKAS DeFi Yields
 
-The highest honest WIKAS yield right now is 29.47% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WIKAS yield right now is 28.65% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token) | Igra | 29.47% | $135.4K |
+| [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token) | Igra | 28.65% | $138.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WIKAS yield today?
 
-29.47% APY on zealousswap (Igra), based on live DefiLlama data.
+28.65% APY on zealousswap (Igra), based on live DefiLlama data.
 
 ### How many WIKAS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $135.4K in total.
+1 live pool clear this page's $100K TVL floor, $138.5K in total.
 
 ### Are these rates safe?
 

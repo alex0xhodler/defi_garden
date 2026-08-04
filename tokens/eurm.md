@@ -1,11 +1,12 @@
 # EURM DeFi Yields
 
-The highest honest EURM yield right now is 27.01% on mento-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURM yield right now is 26.66% on mento-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 27.01% | $584.6K |
-| [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token) | Celo | 2.38% | $117.1K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 26.66% | $586.8K |
+| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 1.69% | $130.3K |
+| [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token) | Celo | 2.40% | $117.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EURM yield today?
 
-27.01% APY on mento-v3 (Monad), based on live DefiLlama data.
+26.66% APY on mento-v3 (Monad), based on live DefiLlama data.
 
 ### How many EURM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $831.2K in total.
+3 live pools clear this page's $100K TVL floor, $834.7K in total.
 
 ### Are these rates safe?
 

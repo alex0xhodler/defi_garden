@@ -4,7 +4,7 @@ The highest honest REECOUSDC yield right now is 7.26% on morpho-blue (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=935fb02d-9645-4d46-85e0-5504bd01ef80&src=seo_token) | Ethereum | 7.26% | $7.12M |
+| [morpho-blue →](https://www.defi.garden/?pool=935fb02d-9645-4d46-85e0-5504bd01ef80&src=seo_token) | Ethereum | 7.26% | $7.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many REECOUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.12M in total.
+1 live pool clear this page's $100K TVL floor, $7.1M in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # RAIN DeFi Yields
 
-The highest honest RAIN yield right now is 13.15% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAIN yield right now is 12.12% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 2.07% | $2.37M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 13.15% | $488.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 3.11% | $2.36M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 12.12% | $485.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RAIN yield today?
 
-13.15% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+12.12% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RAIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.86M in total.
+2 live pools clear this page's $100K TVL floor, $2.84M in total.
 
 ### Are these rates safe?
 

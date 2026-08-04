@@ -4,7 +4,7 @@ The highest honest GAMILUSPC yield right now is 9.59% on gami-labs (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 7.35% | $508.9K |
+| [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 6.80% | $509K |
 | [lagoon →](https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token) | Ethereum | 9.59% | $508.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

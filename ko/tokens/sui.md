@@ -1,17 +1,17 @@
 # SUI 디파이 수익률
 
-현재 SUI의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 33.81%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUI의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 37.32%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2&src=seo_token) | Sui | 24.56% | $4.97M |
-| [ember-protocol →](https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e&src=seo_token) | Sui | 5.13% | $4.75M |
-| [navi-lending →](https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2&src=seo_token) | Sui | 1.94% | $4.49M |
-| [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.06% | $2.37M |
+| [cetus-clmm →](https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2&src=seo_token) | Sui | 26.28% | $4.54M |
+| [navi-lending →](https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2&src=seo_token) | Sui | 1.94% | $4.48M |
+| [ember-protocol →](https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e&src=seo_token) | Sui | 5.13% | $4.18M |
+| [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.06% | $2.36M |
 | [scallop-lend →](https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c&src=seo_token) | Sui | 1.62% | $2.21M |
-| [bluefin-spot →](https://www.defi.garden/?pool=8fe85437-7c62-4292-8f68-b87294d792ca&src=seo_token) | Sui | 33.15% | $2.21M |
-| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 9.19% | $1.23M |
-| [cetus-clmm →](https://www.defi.garden/?pool=7f0299d7-e03a-4914-933c-abc994c17086&src=seo_token) | Sui | 33.81% | $1.05M |
+| [bluefin-spot →](https://www.defi.garden/?pool=8fe85437-7c62-4292-8f68-b87294d792ca&src=seo_token) | Sui | 37.32% | $2.05M |
+| [cetus-clmm →](https://www.defi.garden/?pool=7f0299d7-e03a-4914-933c-abc994c17086&src=seo_token) | Sui | 33.33% | $1.05M |
+| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 9.97% | $931.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 SUI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 33.81%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 37.32%예요.
 
 ### SUI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $28.86M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $27.08M예요.
 
 ### 이 수익률은 안전한가요?
 

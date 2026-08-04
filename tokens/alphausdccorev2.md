@@ -4,7 +4,7 @@ The highest honest ALPHAUSDCCOREV2 yield right now is 7.35% on morpho-blue (Ethe
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=772efa7d-6b68-4a59-a2ca-5addafcae096&src=seo_token) | Ethereum | 7.35% | $2.6M |
+| [morpho-blue →](https://www.defi.garden/?pool=772efa7d-6b68-4a59-a2ca-5addafcae096&src=seo_token) | Ethereum | 7.35% | $2.59M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ALPHAUSDCCOREV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.6M in total.
+1 live pool clear this page's $100K TVL floor, $2.59M in total.
 
 ### Are these rates safe?
 

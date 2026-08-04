@@ -4,8 +4,8 @@ The highest honest SENA yield right now is 14.31% on pendle (Ethereum), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 5.75% | $2.73M |
 | [pendle →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.31% | $2.73M |
+| [pendle →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 5.75% | $2.73M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

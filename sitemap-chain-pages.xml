@@ -156,17 +156,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/ink</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/ton</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/mezo</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/ink</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
   </url>

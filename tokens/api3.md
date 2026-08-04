@@ -5,7 +5,7 @@ The highest honest API3 yield right now is 7.30% on morpho-blue (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 7.30% | $12.46M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 1.80% | $162K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 2.08% | $161.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

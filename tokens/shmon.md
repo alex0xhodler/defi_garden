@@ -4,8 +4,8 @@ The highest honest SHMON yield right now is 24.11% on shmonad (Monad), among 6 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 12.00% | $8.86M |
-| [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.36% | $1.18M |
+| [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 10.95% | $8.8M |
+| [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.35% | $1.18M |
 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 24.11% | $770.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHMON pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $11.67M in total.
+6 live pools clear this page's $100K TVL floor, $11.59M in total.
 
 ### Are these rates safe?
 

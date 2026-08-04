@@ -1,11 +1,11 @@
 # FALCONXUSDC DeFi Yields
 
-The highest honest FALCONXUSDC yield right now is 17.49% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FALCONXUSDC yield right now is 17.39% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token) | Ethereum | 7.89% | $2.63M |
-| [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 17.49% | $158.4K |
+| [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token) | Ethereum | 7.84% | $2.63M |
+| [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 17.39% | $158.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FALCONXUSDC yield today?
 
-17.49% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+17.39% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FALCONXUSDC pools clear the TVL floor?
 

@@ -1,17 +1,17 @@
 # SYRUPUSDC 디파이 수익률
 
-현재 SYRUPUSDC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 3.21%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SYRUPUSDC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 2.83%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 1.17% | $13.33M |
-| [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 3.21% | $10.03M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 1.08% | $10.03M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 1.02% | $13.33M |
+| [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 2.36% | $10.03M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 2.83% | $10.03M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=147986e2-21d1-522a-8635-d35ef7424f42&src=seo_token) | Monad | 0.02% | $5.38M |
-| [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.05% | $2.53M |
+| [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.38% | $2.53M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token) | Arbitrum | 0.04% | $988.1K |
 | [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 0.86% | $462.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token) | Base | 0.48% | $270.8K |
-| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 3.08% | $200.7K |
+| [fluid-dex →](https://www.defi.garden/?pool=445aec38-67cf-4aa8-af22-639875df0f78&src=seo_token) | Arbitrum | 0.08% | $276K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 SYRUPUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 3.21%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 2.83%예요.
 
 ### SYRUPUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $453.51M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $454.02M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -43,6 +43,6 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 3.21%예�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Monad](https://www.defi.garden/ko/chains/monad)
-- [Base](https://www.defi.garden/ko/chains/base)
+- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
 ## 마지막 업데이트: August 4, 2026

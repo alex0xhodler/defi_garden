@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=c7a1e6c3-e50e-41a7-8bbe-33c88d26b8d0&src=seo_chain) | 5.39% | $4.78M |
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f&src=seo_chain) | 4.37% | $1.22M |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=c7a1e6c3-e50e-41a7-8bbe-33c88d26b8d0&src=seo_chain) | 6.91% | $4.79M |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f&src=seo_chain) | 3.34% | $1.22M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=161f03a5-e1cc-4c43-8483-5842789441c8&src=seo_chain) | 8.74% | $1.12M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=6b5e7c07-976c-43b4-bba4-33dfb7864a4e&src=seo_chain) | 8.16% | $860.6K |
 | USDC | [gearbox →](https://www.defi.garden/?pool=ec15a095-9ee2-42b0-a50e-76aed2342ef4&src=seo_chain) | 1.42% | $434.8K |
@@ -20,7 +20,7 @@ DefiLlama 실시간 데이터 기준, Etherlink의 midas-rwa에서 APY 8.74%예�
 
 ### Etherlink 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $8.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $8.42M예요.
 
 ### 이 수익률은 안전한가요?
 

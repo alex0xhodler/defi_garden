@@ -5,8 +5,8 @@ The highest honest EIGEN yield right now is 1.97% on uniswap-v3 (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 1.97% | $1.12M |
-| [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.35% | $205.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 1.14% | $139.4K |
+| [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.39% | $206K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 1.07% | $139.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EIGEN pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $1.96M in total.
+7 live pools clear this page's $100K TVL floor, $1.97M in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # INTC DeFi Yields
 
-The highest honest INTC yield right now is 53.22% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INTC yield right now is 66.64% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0ed8ca08-4730-5066-b9c1-ce4b40f59d00&src=seo_token) | Solana | 53.22% | $194K |
+| [raydium-amm →](https://www.defi.garden/?pool=0ed8ca08-4730-5066-b9c1-ce4b40f59d00&src=seo_token) | Solana | 66.64% | $198.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INTC yield today?
 
-53.22% APY on raydium-amm (Solana), based on live DefiLlama data.
+66.64% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many INTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $194K in total.
+1 live pool clear this page's $100K TVL floor, $198.5K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [STRX](https://www.defi.garden/tokens/strx)
 
 ## Available on
 

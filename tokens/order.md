@@ -1,11 +1,11 @@
 # ORDER DeFi Yields
 
-The highest honest ORDER yield right now is 2.09% on pancakeswap-amm-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ORDER yield right now is 2.10% on pancakeswap-amm-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token) | Ethereum | 0.28% | $280.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token) | Solana | 2.09% | $109.6K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token) | Ethereum | 0.03% | $280.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token) | Solana | 2.10% | $109.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ORDER yield today?
 
-2.09% APY on pancakeswap-amm-v3 (Ethereum), based on live DefiLlama data.
+2.10% APY on pancakeswap-amm-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ORDER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $389.6K in total.
+2 live pools clear this page's $100K TVL floor, $389.9K in total.
 
 ### Are these rates safe?
 

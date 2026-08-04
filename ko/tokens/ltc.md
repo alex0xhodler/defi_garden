@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 0.05%예�
 
 ### LTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.51M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.52M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -27,10 +27,10 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 0.05%예�
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
-- [USDY](https://www.defi.garden/ko/tokens/usdy)
 
 ## 이용 가능한 체인
 

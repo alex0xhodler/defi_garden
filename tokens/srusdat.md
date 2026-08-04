@@ -4,7 +4,7 @@ The highest honest SRUSDAT yield right now is 8.99% on strata-markets (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 7.79% | $4.22M |
+| [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 8.11% | $4.22M |
 | [pendle →](https://www.defi.garden/?pool=96d93097-1e9e-4b78-ac1d-5924f04e1e56&src=seo_token) | Ethereum | 8.96% | $617.8K |
 | [pendle →](https://www.defi.garden/?pool=23debab1-4c7c-4498-8964-269bca4fdb3a&src=seo_token) | Ethereum | 8.99% | $617.8K |
 

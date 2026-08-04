@@ -4,7 +4,7 @@ The highest honest WINGS yield right now is 0.54% on orca-dex (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=5fc9731a-2b89-47ca-92f4-34f0a1fb0cb4&src=seo_token) | Solana | 0.54% | $338.8K |
+| [orca-dex →](https://www.defi.garden/?pool=5fc9731a-2b89-47ca-92f4-34f0a1fb0cb4&src=seo_token) | Solana | 0.54% | $337.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WINGS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $338.8K in total.
+1 live pool clear this page's $100K TVL floor, $337.6K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [STRX](https://www.defi.garden/tokens/strx)
 
 ## Available on
 

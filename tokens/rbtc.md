@@ -4,9 +4,9 @@ The highest honest RBTC yield right now is 2.07% on sovryn-dex (Rootstock), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.73% | $954.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 0.51% | $234.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 2.07% | $118.1K |
+| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.53% | $954.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 0.51% | $234.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 2.07% | $118.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -1,11 +1,11 @@
 # NAVX DeFi Yields
 
-The highest honest NAVX yield right now is 6.08% on navi-lending (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NAVX yield right now is 6.31% on navi-lending (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $2.04M |
-| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 6.08% | $149.6K |
+| [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $1.91M |
+| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 6.31% | $144.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NAVX yield today?
 
-6.08% APY on navi-lending (Sui), based on live DefiLlama data.
+6.31% APY on navi-lending (Sui), based on live DefiLlama data.
 
 ### How many NAVX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.19M in total.
+2 live pools clear this page's $100K TVL floor, $2.06M in total.
 
 ### Are these rates safe?
 
