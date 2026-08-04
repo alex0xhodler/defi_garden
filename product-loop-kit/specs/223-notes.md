@@ -268,3 +268,71 @@ All three ran well under the 5-minute timebox (`test_vercelignore.js` ~1s,
    confirmed by reading the file directly, not just trusting the spec's
    claim. Vercel therefore uploads the static tree as-is; `.vercelignore` is
    the only lever available, exactly as the spec assumed.
+
+## POST-DEPLOY CURL MATRIX (operator, 2026-08-04, after PR #387 merged as 682cf824ae)
+
+The spec's acceptance criteria 1-4 could not run before the merge (`.vercelignore`
+only takes effect once Vercel builds from a merged commit). They ran immediately
+after. The branch's Vercel PREVIEW deploy was attempted first as a pre-merge
+substitute and is **not usable**: it sits behind Vercel SSO deployment protection
+(`302 -> https://vercel.com/sso-api?...`), and getting past it would need
+credentials — NEVER-list territory, so it was not attempted.
+
+Deploy detection: `/CLAUDE.md` polled until it flipped 200 -> 404 (9th poll,
+~2 min after merge).
+
+### Leg A — runtime asset classes MUST still serve (the load-bearing half)
+
+39 paths curled. **Zero failures.** All 200 except three that return `308` and
+resolve to `200` on follow — `/plan.html`, `/home.html`, `/stories/kevin.html`
+— which is the pre-existing `"cleanUrls": true` redirect to the extensionless
+form, not an exclusion (both forms verified 200: `/plan`, `/home`,
+`/stories/kevin`).
+
+Verified 200: `/`, `/plan.html`, `/home.html`, `/app.js`, `/app.compiled.min.js`,
+`/PoolDetail.compiled.min.js`, `/planner.min.js`, `/translations.min.js`,
+`/analytics.js`, `/canonical.js`, `/brand-icons.js`, `/landing.js`,
+`/react.production.min.js`, `/style.min.css`, `/planner-styles.min.css`,
+`/pool-detail-styles.min.css`, `/landing-styles.css`,
+`/data/pools-snapshot.json`, `/data/pools-snapshot-meta.json`, `/tokens/usdc`,
+`/tokens/usdc.md`, `/chains/base`, `/chains/base.md`, `/ko/tokens/usdc`,
+`/stories/kevin.html`, `/sitemap.xml`, `/sitemap-token-pages.xml`, `/llms.txt`,
+`/llms-full.txt`, `/robots.txt`, `/og-image.png`, `/status`, `/openapi.json`,
+`/auth.md`, `/.well-known/agent-skills/index.json`,
+`/.well-known/agent-skills/agentic-readiness/SKILL.md`,
+`/fa81c8f43e7870a3b48e7481b2b7c8df.txt`, `/fonts/FKGroteskNeue.woff2`,
+`/tools/get_curated_pools.json`.
+
+Spec criterion 2 (item-212 markdown twins): `/tokens/usdc` with
+`Accept: text/markdown` -> 200, `content-type: text/markdown; charset=utf-8`.
+Pool twin sampled live from the snapshot:
+`/pools/747c1d2a-c668-4682-b9f9-296708a3dd90.md` -> 200.
+
+Spec criterion 3 (both router paths): bare `/` -> 200, `/?token=USDC` -> 200.
+Spec criterion 4: both `data/pools-snapshot*.json` -> 200 (listed above).
+
+### Leg B — excluded classes MUST be gone (non-vacuity against the pre-change 200 baseline above)
+
+33 paths curled, **32 x 404**, and the 33rd is a 404 behind a redirect:
+
+`test_min_asset_boot.js` (the one that minted the `lang=ko%60` fuzz URL),
+`test_planner.js`, `test_vercelignore.js`, `audit-app.js`, `run-tests.js`,
+`generate-sitemap.js`, `generate-stories.js`, `compile-app.js`,
+`minify-assets.js`, `validate-sitemaps.js`, `dev-server.js`, `compute-kpis.js`,
+`indexnow-ping.js`, `schema.sql`, `wrangler.toml`, `.mcp.json`,
+`settings.local.json`, `CLAUDE.md`, `SITEMAP.md`, `user_journey_diagrams.md`,
+`stakeholder_communication_plan.md`, `product-loop-kit/NORTH_STAR.md`,
+`product-loop-kit/BACKLOG.md`, `product-loop-kit/LOG.md`,
+`product-loop-kit/specs/223.md`, `.claude/agents/verifier.md`,
+`docs/feasibility-data-layer.md`, `docs/strategy-2026-07-23-pretraffic-bets.md`,
+`telegram-bot/dist/index.js`, `workers/mixpanel-proxy/worker.js`,
+`src/poller.js`, `test_fixtures/pools-sample.json` — all **404**.
+
+`og-image.source.html` -> `308` -> `/og-image.source` -> **404** (79 bytes, the
+404 body). Same `cleanUrls` mechanic as Leg A's three: the redirect is issued
+before the file lookup, so a `.html` path always 308s whether or not the file
+exists. The file itself is not served.
+
+Every one of these returned **200 before the change** (spec Evidence + the
+baseline table at the top of this file). Both legs pass. Criteria 1-4 are now
+MET, not deferred.
