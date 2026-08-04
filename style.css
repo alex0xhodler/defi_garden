@@ -2607,6 +2607,36 @@ body {
   background: rgba(59, 130, 246, 0.1);
 }
 
+/* Item 230 — the dead-`?pool=` empty state roots at `.app:not(.has-results)`
+   (app.js's root-class predicate never sets `.has-results` for it) yet still
+   renders a full `.results-section` with an alternatives grid (app.js's
+   results-render predicate, a separate check that disagrees with the root
+   class on exactly this state). `.app`'s own `padding-bottom: 80px` above
+   protects only the END of the document; this view's grid sits mid-document
+   at rest, so the fixed `.app-footer` block above paints straight over it —
+   measured 27.9-100% covered per element at 1280x780, `elementFromPoint`
+   resolving into the footer on the TVL row and (at narrower viewports) the
+   CTA itself. Same mechanism already shipped for `.app.pool-detail-view`
+   (`pool-detail-styles.css`) and `.landing-app` (`landing-styles.css`): pull
+   the footer out of the fixed layer so it sits in flow instead of floating
+   over content that isn't at the bottom of the page. Measured, not assumed,
+   against the sticky-footer idiom (`margin-top: auto`), which IS live here
+   since this state is already a flex column (`.app:not(.has-results)`
+   above): both clear all occlusion, but on the short-content case (empty
+   alternatives grid) `margin-top: auto` top-aligns the empty-state message
+   and moves it ~300px from where it renders today, against ~6px for
+   `position: static` alone — disqualified by item 230's pre-registered rule
+   (ship the smaller change to today's rendered geometry). `:has()` scopes
+   this to states that actually render a `.results-section`, so the plain
+   search-home state (no query yet) keeps its fixed footer and 80px
+   clearance untouched — confirmed from the render, not the selector.
+   `padding-bottom: 0` is not a revert of the shared clearance above: once
+   the footer is in flow it protects nothing, and without this line it would
+   leave 80px of dead background beneath a footer that carries a top
+   box-shadow. */
+.app:not(.has-results):has(.results-section) .app-footer { position: static; }
+.app:not(.has-results):has(.results-section) { padding-bottom: 0; }
+
 /* Hub nav inside the disclosure footer (086): /tokens + /chains, reusing the
    existing .app-footer a styling so no one-off visual language is introduced.
    The ' · ' separator text node inherits .app-footer p's secondary color. */
