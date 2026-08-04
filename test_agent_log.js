@@ -252,68 +252,185 @@ eq(core.retentionCutoff(1_000_000, 1), 1_000_000 - 86400, '1-day cutoff');
 eq(core.retentionCutoff(1_000_000), 1_000_000 - core.RETENTION_DAYS * 86400, 'default cutoff uses RETENTION_DAYS');
 
 // ===========================================================================
-// E. DEPLOY.md mirrors DAILY_READS_QUERY verbatim — EVERY occurrence.
+// E. DEPLOY.md mirrors DAILY_READS_QUERY verbatim — located STRUCTURALLY.
 //
 // Verifier round 1 (see product-loop-kit/specs/224-notes.md) found that
-// edge/DEPLOY.md states this query TWICE: once as an illustrative fenced
+// edge/DEPLOY.md stated this query TWICE — once as an illustrative fenced
 // ```sql block, and once inside the copy-pasteable `wrangler d1 execute
-// --command "..."` a human will actually run against prod D1. The old
-// assertion here was `deployMd.includes(core.DAILY_READS_QUERY)`, which is
-// satisfied by the FIRST copy alone — the verifier mutated ONLY the
-// runnable command (`reads DESC` -> `reads ASC`) and this test stayed
-// green. A guard on "the doc contains it somewhere" is not the same
-// mechanism as "the doc never states a stale copy of it", and the gap was
-// in exactly the copy a human is most likely to paste unread into a shell.
+// --command "..."` a human will actually run against prod D1 — and the old
+// assertion (`deployMd.includes(core.DAILY_READS_QUERY)`) was satisfied by
+// either copy alone, so the runnable one could drift undetected.
 //
-// Fixed by finding EVERY occurrence and checking each one individually,
-// instead of asking whether the substring appears anywhere at all.
+// The round-1 FIX still had a hole: it found "every occurrence" by matching
+// a SIGNATURE built from the query's OWN prefix text (everything up to
+// `ORDER BY`). That signature IS ~90% of the query — SELECT, the column
+// list, `FROM agent_reads`, `GROUP BY` — so drift landing inside the prefix
+// (rather than the `ORDER BY ...;` tail) made the occurrence simply STOP
+// MATCHING the scan. The count silently dropped, the surviving copy (if
+// any) still passed, and the test exited 0. Verifier round 2 demonstrated
+// this three ways (`FROM agent_reads` -> `FROM agent_read`, `SELECT` ->
+// `select`, `ua_family` -> `ua_famly`), all silently green. This is the
+// same class of bug as round 1: a mechanism where the comparison target's
+// OWN content decides whether it is even considered a candidate.
+//
+// The fix has two parts, matching edge/DEPLOY.md §6's move 1 (state the
+// query once, not twice) and move 2 (locate it structurally):
+//   1. edge/DEPLOY.md now states the query exactly ONCE, inside a region
+//      wrapped in `<!-- DAILY_READS_QUERY:begin -->` / `:end` HTML-comment
+//      markers.
+//   2. This section finds every marked region by the MARKERS ALONE — fixed
+//      strings, independent of whatever the query's own text has drifted
+//      to — so ANY corruption inside a region now fails byte-equality
+//      instead of vanishing from the scan. No content-based filter decides
+//      which regions count.
 // ===========================================================================
-console.log('\nE. DEPLOY.md <-> DAILY_READS_QUERY parity (every occurrence)');
+console.log('\nE. DEPLOY.md <-> DAILY_READS_QUERY parity (structural, marker-based)');
 const deployMd = fs.readFileSync(path.join(EDGE_DIR, 'DEPLOY.md'), 'utf8');
 ok(core.DAILY_READS_QUERY.length > 20, 'sanity: DAILY_READS_QUERY is non-trivial');
 
-function escapeRegExp(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+// The pinned expected number of marked copies in edge/DEPLOY.md. Not `>= 1`
+// — round 2's whole finding was that a `>= 1` (or "at least one exists")
+// check cannot see a count silently drop from 2 to 1. A documented exact
+// constant makes both a shortfall (a copy quietly deleted) and a surplus
+// (an extra copy carelessly added) into failures.
+const EXPECTED_DEPLOY_MD_QUERY_COPIES = 1;
 
-// Signature: everything in DAILY_READS_QUERY up to (but not including) the
-// ORDER BY clause — "SELECT ... FROM agent_reads ... GROUP BY day,
-// ua_family" — derived from the LIVE core.DAILY_READS_QUERY string, not
-// hardcoded, so if the query's shape ever changes in the code this
-// signature moves with it. The tail from ORDER BY to the next ';' is left
-// as a wildcard — that is precisely where the verifier's drift
-// ("reads DESC" -> "reads ASC") lives, so instead of a fixed literal that
-// the drift wouldn't touch, the wildcard captures whatever text is
-// actually there and byte-compares it below. The anchor ("SELECT" directly
-// followed by "date(ts, 'unixepoch')...") is specific enough that it does
-// NOT match the OTHER, legitimately different SELECT statements this same
-// runbook contains — e.g. the "SELECT name FROM sqlite_master ..."
-// table-existence check (step 1) or the "SELECT ts, path, ua_family,
-// path_class FROM agent_reads ORDER BY ts DESC LIMIT 5" verification query
-// (step 5), which mentions agent_reads too but is a different query and
-// must not be flagged as a drifted copy of this one.
-//
-// No whitespace/text normalization is applied on either side: both real
-// occurrences in edge/DEPLOY.md are, as written, already byte-identical to
-// DAILY_READS_QUERY, so none is needed — see the non-vacuity proof in
-// product-loop-kit/specs/224-notes.md for confirmation this isn't
-// accidentally vacuous.
-const querySignaturePrefix = core.DAILY_READS_QUERY.split('\nORDER BY')[0];
-ok(querySignaturePrefix.length > 20 && querySignaturePrefix !== core.DAILY_READS_QUERY,
-  'sanity: DAILY_READS_QUERY has an ORDER BY clause for the signature to split on');
-const queryOccurrenceRe = new RegExp(escapeRegExp(querySignaturePrefix) + '[\\s\\S]*?;', 'g');
-const queryOccurrences = [...deployMd.matchAll(queryOccurrenceRe)];
+const BEGIN_MARKER = '<!-- DAILY_READS_QUERY:begin -->';
+const END_MARKER = '<!-- DAILY_READS_QUERY:end -->';
 
-ok(queryOccurrences.length >= 1,
-  'edge/DEPLOY.md must state the DAILY_READS_QUERY query at least once (found 0 — the runbook may have dropped it entirely)');
+// Markers are recognized only when a line's content, trimmed, is EXACTLY
+// the marker — never a substring match against the whole file. This is
+// deliberate: the prose in edge/DEPLOY.md's §6 mentions the marker text
+// itself (inside backticks, as documentation of the convention), and a
+// substring scan over the raw file would miscount that prose mention as a
+// real marker. Requiring the marker to be a line's sole content is also
+// exactly the documented convention ("HTML comments on their own lines").
+function markerLineIndices(text, marker) {
+  const out = [];
+  let cursor = 0;
+  for (const line of text.split('\n')) {
+    if (line.trim() === marker) out.push(cursor + line.indexOf(marker));
+    cursor += line.length + 1; // +1 for the '\n' split() consumed
+  }
+  return out;
+}
 
-queryOccurrences.forEach((m, i) => {
-  const lineNo = deployMd.slice(0, m.index).split('\n').length;
-  eq(m[0], core.DAILY_READS_QUERY,
-    `edge/DEPLOY.md occurrence #${i + 1} of the daily-reads query (starting at line ${lineNo}) is NOT byte-identical ` +
-    `to agent-log-core.js's DAILY_READS_QUERY.\n  --- edge/DEPLOY.md occurrence #${i + 1} (line ${lineNo}) ---\n${JSON.stringify(m[0])}\n` +
+const beginIdxs = markerLineIndices(deployMd, BEGIN_MARKER);
+const endIdxs = markerLineIndices(deployMd, END_MARKER);
+
+// Marker well-formedness: equal begin/end counts, no nesting, each end
+// strictly after its matching begin. A malformed pair (e.g. a deleted
+// `:begin` with its `:end` left behind) must FAIL loudly here rather than
+// silently produce zero regions and let the count check below read as "the
+// runbook just doesn't have the query" instead of "the markup is broken".
+eq(beginIdxs.length, endIdxs.length,
+  `edge/DEPLOY.md has ${beginIdxs.length} "${BEGIN_MARKER}" marker(s) but ${endIdxs.length} "${END_MARKER}" marker(s) — ` +
+  `an unpaired/malformed marker must fail here, not silently yield zero regions.`);
+
+const markerTokens = [
+  ...beginIdxs.map((pos) => ({ pos, type: 'begin' })),
+  ...endIdxs.map((pos) => ({ pos, type: 'end' })),
+].sort((a, b) => a.pos - b.pos);
+
+const regions = []; // { beginStart, beginEnd, endStart, endEnd }
+let depth = 0;
+let openBegin = null;
+let malformed = false;
+for (const tok of markerTokens) {
+  if (tok.type === 'begin') {
+    if (depth !== 0) { malformed = true; break; } // nested begin before a prior end
+    depth = 1;
+    openBegin = tok.pos;
+  } else {
+    if (depth !== 1) { malformed = true; break; } // end with no open begin
+    depth = 0;
+    regions.push({
+      beginStart: openBegin,
+      beginEnd: openBegin + BEGIN_MARKER.length,
+      endStart: tok.pos,
+      endEnd: tok.pos + END_MARKER.length,
+    });
+    openBegin = null;
+  }
+}
+if (depth !== 0) malformed = true; // trailing unmatched begin
+ok(!malformed,
+  `edge/DEPLOY.md's DAILY_READS_QUERY markers are malformed or nested (begin positions: ${JSON.stringify(beginIdxs)}, ` +
+  `end positions: ${JSON.stringify(endIdxs)}) — begin/end must alternate cleanly with each end after its begin.`);
+
+eq(regions.length, EXPECTED_DEPLOY_MD_QUERY_COPIES,
+  `edge/DEPLOY.md must state the daily-reads query in exactly ${EXPECTED_DEPLOY_MD_QUERY_COPIES} marked DAILY_READS_QUERY region(s); ` +
+  `found ${regions.length} (${regions.length < EXPECTED_DEPLOY_MD_QUERY_COPIES ? 'shortfall' : 'surplus'} of ` +
+  `${Math.abs(regions.length - EXPECTED_DEPLOY_MD_QUERY_COPIES)}) — a copy was silently deleted or an extra one was added.`);
+
+// Runnable command's wrapper — the prefix/suffix a human's shell command is
+// actually built from. Asserted explicitly (not just stripped) so drift in
+// the WRAPPER itself (e.g. --remote -> --local) is also caught, not
+// silently discarded along with the fence markers.
+const WRAPPER_PREFIX = 'wrangler d1 execute defi-garden-history --remote --command "';
+
+regions.forEach((region, i) => {
+  const between = deployMd.slice(region.beginEnd, region.endStart);
+  const fenceMatch = between.match(/```\r?\n([\s\S]*?)\r?\n```/);
+  ok(fenceMatch,
+    `edge/DEPLOY.md region #${i + 1} (between the markers at offsets ${region.beginStart}-${region.endEnd}) does not contain a ` +
+    `single fenced code block as expected. Raw contents between markers: ${JSON.stringify(between)}`);
+  const fenced = fenceMatch[1];
+  ok(fenced.startsWith(WRAPPER_PREFIX),
+    `edge/DEPLOY.md region #${i + 1}'s fenced block must start with the documented wrapper prefix ${JSON.stringify(WRAPPER_PREFIX)}; ` +
+    `got: ${JSON.stringify(fenced.slice(0, WRAPPER_PREFIX.length + 30))}`);
+  ok(fenced.endsWith('"'),
+    `edge/DEPLOY.md region #${i + 1}'s fenced block must end with the closing double-quote of --command "..."; ` +
+    `got (last 10 chars): ${JSON.stringify(fenced.slice(-10))}`);
+  const queryPart = fenced.slice(WRAPPER_PREFIX.length, fenced.length - 1);
+  eq(queryPart, core.DAILY_READS_QUERY,
+    `edge/DEPLOY.md region #${i + 1}'s marked copy of the daily-reads query is NOT byte-identical to agent-log-core.js's DAILY_READS_QUERY.\n` +
+    `  --- edge/DEPLOY.md region #${i + 1} ---\n${JSON.stringify(queryPart)}\n` +
     `  --- agent-log-core.js DAILY_READS_QUERY ---\n${JSON.stringify(core.DAILY_READS_QUERY)}`);
 });
 
-console.log(`  found ${queryOccurrences.length} occurrence(s) of the daily-reads query in edge/DEPLOY.md, all byte-identical to DAILY_READS_QUERY`);
+// Anti-smuggling check: a future editor could add a SECOND, unmarked copy
+// of the query elsewhere in this file, which the marker-based scan above
+// would never see (it only looks inside marked regions). This predicate
+// flags any line OUTSIDE a marked region that matches /FROM\s+agent_reads/i
+// — chosen because it is the most content-specific fragment of this query
+// that a re-paste is unlikely to avoid — UNLESS that exact line is on the
+// allowlist below. edge/DEPLOY.md legitimately contains two OTHER,
+// genuinely different queries that also mention `agent_reads` in a FROM
+// clause (the §5 verification SELECT and the Territory-notes prune
+// DELETE); they are allowlisted by their exact, current line text, not by
+// a fuzzy pattern, so the allowlist itself must be updated (a visible diff)
+// if either line's text ever changes.
+//
+// What this DOES catch: a smuggled copy of THIS query dropped outside the
+// markers, written with a literal "FROM agent_reads" (any case/whitespace
+// around it). What this does NOT catch: a copy that avoids that literal
+// substring (e.g. `FROM  agent_reads` — no, that matches `\s+`; but e.g. a
+// copy built via string concatenation, a copy of a DIFFERENT-cased table
+// alias, or one added to a file other than edge/DEPLOY.md). The marked
+// region is the contract this test enforces; it is a documented convention
+// this test polices, not a proof no other copy of this text could ever
+// exist anywhere.
+const DEPLOY_MD_ALLOWED_AGENT_READS_LINES = [
+  '  --command "SELECT ts, path, ua_family, path_class FROM agent_reads ORDER BY ts DESC LIMIT 5;"', // §5 verify SELECT
+  '    --command "DELETE FROM agent_reads WHERE ts < strftime(\'%s\',\'now\') - 30*86400;"', // Territory-notes prune DELETE
+];
+
+const deployMdLines = deployMd.split('\n');
+let lineCursor = 0;
+deployMdLines.forEach((line, idx) => {
+  const lineStart = lineCursor;
+  const lineEnd = lineCursor + line.length;
+  lineCursor = lineEnd + 1; // account for the '\n' split() consumed
+  const insideMarkedRegion = regions.some((r) => lineStart >= r.beginStart && lineEnd <= r.endEnd);
+  if (insideMarkedRegion) return;
+  if (!/FROM\s+agent_reads/i.test(line)) return;
+  ok(DEPLOY_MD_ALLOWED_AGENT_READS_LINES.includes(line),
+    `edge/DEPLOY.md line ${idx + 1} contains "FROM agent_reads" OUTSIDE any marked DAILY_READS_QUERY region and is not on the ` +
+    `documented allowlist — this looks like a smuggled, unmarked second copy of the daily-reads query.\n  line: ${JSON.stringify(line)}`);
+});
+
+console.log(`  found ${regions.length} marked DAILY_READS_QUERY region(s) in edge/DEPLOY.md, all byte-identical to DAILY_READS_QUERY; no unmarked copies found`);
 
 // ===========================================================================
 // F. The Worker itself — real dynamic import(), fake fetch/ctx/env.DB.

@@ -116,29 +116,37 @@ count should not have grown from that request).
 ## 6. Daily read: "reads by UA-family by day"
 
 This is the exact query the heartbeat's §2 gains as its new "agent reads"
-read. It is stated TWICE below — once on its own, once inside the runnable
-`wrangler d1 execute` command — and BOTH copies are kept byte-identical to
-`DAILY_READS_QUERY` in `edge/agent-log-core.js`. `test_agent_log.js` scans
-this file for EVERY occurrence of the query and asserts each one
-individually against the constant (and that at least one exists), so no
-copy here — including the one you will actually copy and paste — can drift
-from the code unnoticed. An earlier version of that check tested only
-whether the query appeared *somewhere* in this file, which the illustrative
-copy alone satisfied while the runnable command silently drifted; see
-`product-loop-kit/specs/224-notes.md`, "Verifier round 1".
+read. It is stated ONCE below — inside the runnable `wrangler d1 execute`
+command, the copy you will actually copy and paste — wrapped in
+`<!-- DAILY_READS_QUERY:begin -->` / `:end` HTML-comment markers (invisible
+in rendered markdown and outside the fenced block, so the command itself is
+untouched by them). `test_agent_log.js` locates that region STRUCTURALLY,
+by the markers alone, never by matching the query's own text; asserts
+exactly one such region exists in this file; and byte-compares its content
+against `DAILY_READS_QUERY` in `edge/agent-log-core.js`. It also fails if
+any OTHER line in this file, outside a marked region, looks like a second,
+unmarked copy of this query (the two other `agent_reads` queries this
+runbook legitimately contains — §5's verification `SELECT` and the
+Territory-notes prune `DELETE` — are allowlisted by exact line text in the
+test, not exempted by a fuzzy pattern). What this does NOT catch: a future
+copy added outside the markers that also evades that allowlist check — the
+markers are the contract, a documented convention, not a proof that no other
+copy of this text could ever appear in this file.
 
-```sql
-SELECT
-  date(ts, 'unixepoch') AS day,
-  ua_family,
-  COUNT(*) AS reads
-FROM agent_reads
-GROUP BY day, ua_family
-ORDER BY day DESC, reads DESC;
-```
+Two earlier versions of this guard were weaker: the first tested only
+whether the query text appeared *somewhere* in this file, which an
+illustrative second copy satisfied while the runnable command silently
+drifted (Verifier round 1). The fix for that scanned for every occurrence
+using a signature built from the query's OWN prefix text — which meant a
+drift landing inside that prefix (the bulk of the query) made the occurrence
+stop matching the scan entirely, so it silently vanished from the count
+instead of failing (Verifier round 2). Locating the copy by a
+content-independent marker instead of by its own text closes that hole. See
+`product-loop-kit/specs/224-notes.md` for both rounds.
 
 Run it the same way item 110 reads `pool_history`:
 
+<!-- DAILY_READS_QUERY:begin -->
 ```
 wrangler d1 execute defi-garden-history --remote --command "SELECT
   date(ts, 'unixepoch') AS day,
@@ -148,6 +156,7 @@ FROM agent_reads
 GROUP BY day, ua_family
 ORDER BY day DESC, reads DESC;"
 ```
+<!-- DAILY_READS_QUERY:end -->
 
 ## Rollback
 

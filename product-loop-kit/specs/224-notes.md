@@ -166,3 +166,212 @@ fixer's uncommitted prose correction in that same file. Caught by re-reading the
 (`git diff --stat` showed `edge/DEPLOY.md` gone from the changed set) and re-applied by hand. When
 mutation-testing a file that also carries UNCOMMITTED work, restore from a saved copy of the working-tree
 version — never from the index.
+
+## Verifier round 2 — FAIL, and what it found
+
+**The finding.** Round 1's fix located every occurrence of the daily-reads query in `edge/DEPLOY.md`
+by a regex anchored on a SIGNATURE built from `DAILY_READS_QUERY`'s own text — everything up to (but
+not including) `ORDER BY` — with only the `ORDER BY ...;` tail left as a wildcard. That signature is
+~90% of the query: `SELECT`, the full column list, `FROM agent_reads`, `GROUP BY day, ua_family`. The
+verifier mutated the PREFIX instead of the tail and found the region simply stopped matching the scan:
+
+- `FROM agent_reads` → `FROM agent_read` in the illustrative fenced block
+- `SELECT` → `select` in the runnable command
+- `ua_family` → `ua_famly` (a realistic typo) in the runnable command
+
+In all three cases the occurrence count silently dropped from 2 to 1, the surviving copy (still
+correct) passed its own `eq()`, and `test_agent_log.js` exited 0 at 763/763 — CI green,
+`run-tests.js` only checking exit code. **Reproduced independently before writing any fix**: mutating
+only the illustrative block's `FROM agent_reads` → `FROM agent_read` dropped the reported occurrence
+count from 2 to 1 while the test still exited 0.
+
+**Why the round-1 fix was still a resemblance, not the mechanism.** Round 1 correctly diagnosed "a
+guard watching whether the doc contains the string somewhere" as too weak, and replaced it with "find
+every occurrence and check each individually" — genuine progress, since it did catch drift in the
+`ORDER BY` tail (the round-1 verifier's own case). But *which text counted as an occurrence* was still
+decided by matching against the query's own content. Region-finding and content-checking were the same
+regex. Any drift landing in the ~90% of the query used as the match anchor made the "occurrence" vanish
+from the scan rather than fail it — the comparison target's own content decided whether it was even a
+candidate for comparison. This is the same class of bug as round 1 (RAZOR §5 / item-212 pattern: a
+check that resembles verifying the mechanism without doing so) wearing a different disguise, and it is
+why "narrow the regex further" or "add more wildcards" was rejected as a fix — every additional
+anchored literal is one more thing whose own drift can make the region disappear.
+
+**The two-move fix.**
+1. **Reduce the drift surface.** `edge/DEPLOY.md` §6 previously stated the query TWICE: an illustrative
+   fenced `` ```sql `` block and the runnable `wrangler d1 execute --command "..."` block. The
+   illustrative copy was deleted outright — the runbook loses nothing, since the surrounding prose
+   already explains what the query answers, and one fewer stated copy is one less place for drift to
+   hide, not a workaround.
+2. **Locate the remaining copy structurally.** The runnable block is now wrapped in
+   `<!-- DAILY_READS_QUERY:begin -->` / `<!-- DAILY_READS_QUERY:end -->` HTML-comment markers, each
+   required to be the sole content of its own line, sitting outside the fenced block so the
+   copy-pasteable command is byte-for-byte untouched (verified by reading the block back after the
+   edit). `test_agent_log.js` section E now:
+   - finds marked regions by the markers ALONE (an exact-line match, immune to prose elsewhere in the
+     file that merely *mentions* the marker text in backticks);
+   - asserts begin/end marker counts are equal and non-nested, with each end strictly after its begin —
+     a malformed/unpaired marker fails explicitly instead of silently producing zero regions;
+   - asserts the region count equals a documented constant `EXPECTED_DEPLOY_MD_QUERY_COPIES = 1` (not
+     `>= 1` — that was precisely what let the round-2 finding hide: a `>=1` check cannot see a count
+     drop from 2 to 1), naming the shortfall/surplus on failure;
+   - extracts the fenced block from the (now sole) marked region, asserts it starts with the documented
+     wrapper prefix `wrangler d1 execute defi-garden-history --remote --command "` and ends with `"`
+     (so wrapper drift, e.g. `--remote` → `--local`, is caught explicitly rather than silently stripped
+     off before the comparison), and byte-compares the entire remainder against `core.DAILY_READS_QUERY`,
+     printing both strings on mismatch;
+   - runs an anti-smuggling check: any line OUTSIDE a marked region matching `/FROM\s+agent_reads/i`
+     fails unless its exact text is on a documented allowlist. `edge/DEPLOY.md` legitimately contains two
+     OTHER, different `agent_reads` queries — §5's verification `SELECT` and the Territory-notes prune
+     `DELETE` — allowlisted by their exact current line text (not a fuzzy pattern), so any future change
+     to either line is a visible diff to the allowlist too.
+
+Region-finding no longer depends on the query's own content in any way; every corruption inside the
+marked region now fails byte-equality instead of vanishing from consideration.
+
+**The residual gap, named plainly.** A future copy added OUTSIDE the marked region that also avoids the
+literal substring `/FROM\s+agent_reads/i` (case/whitespace-insensitive) is not caught by anything in
+this test. The marker convention plus the smuggling allowlist is a documented contract this test
+polices, not a proof that no other textual copy of this query could ever appear anywhere in
+`edge/DEPLOY.md`. This is stated explicitly in `edge/DEPLOY.md` §6, in `edge/agent-log-core.js`'s
+comment above `DAILY_READS_QUERY`, and in `test_agent_log.js` section E's own comments.
+
+**Prose corrected again** (the round-1 prose already overstated things by round-2's own standard —
+"no copy here ... can drift from the code unnoticed" was falsified by this very finding): `edge/DEPLOY.md`
+§6's intro, `edge/agent-log-core.js`'s comment above `DAILY_READS_QUERY`, `edge/schema.sql`'s comment
+above the `agent_reads` index, and `product-loop-kit/specs/224-pr.md`'s description of the test all now
+state exactly what is enforced — a single marked region, a pinned count, structural (marker-based)
+location, byte-identity including the wrapper, plus the named residual gap — instead of an absolute
+"cannot drift unnoticed" claim.
+
+### Non-vacuity (verbatim, all seven mutations, plus the full lane)
+
+Setup: `cp edge/DEPLOY.md /tmp/deploy.bak` and `cp edge/agent-log-core.js /tmp/agent-log-core.bak`
+taken AFTER this round's fix was applied (both files already carry this round's uncommitted prose/code
+changes, so they were restored from these saved copies, never from `git checkout --`, per the round-1
+operator's own documented trap above). `md5sum` before: `edge/DEPLOY.md` =
+`ed9e43946ebfa021ad798996aa1d446b`, `edge/agent-log-core.js` = `59410f66a621e223157267c323fd8d5d`.
+`git diff -- edge/DEPLOY.md` and `git diff -- edge/agent-log-core.js` were also snapshotted (each
+hashed to `003f5f2d4def274af98e68368b4b3ed5` and `77a24a93f3a2ba68961b9cf8c40c1f4a` respectively) so
+"restored" could be verified even though both files have legitimate uncommitted diffs vs. `HEAD` from
+this round's own fix (plain `git diff --exit-code` alone can't distinguish "back to baseline" from
+"still has our fix" on a file that already differs from `HEAD`; comparing the diff's own hash
+before/after each mutation closes that gap).
+
+**Reproduction, before any fix (see also the "reproduce it first" instruction above):**
+Mutating only the illustrative block's `FROM agent_reads` → `FROM agent_read` (pre-fix DEPLOY.md, two
+stated copies, round-1's occurrence-scan guard in place) dropped the reported occurrence count from 2
+to 1 and `node test_agent_log.js` still exited 0 — confirmed the bug is real before writing the fix.
+
+**1a. `FROM agent_reads` → `FROM agent_read`** (inside the marked block) → RED:
+```
+AssertionError [ERR_ASSERTION]: ... 'FROM agent_read\n' + 'GROUP BY day, ua_family\n' ...
+expected: 'SELECT\n' ... 'FROM agent_reads\n' 'GROUP BY day, ua_family\n' 'ORDER BY day DESC, reads DESC;'
+operator: 'strictEqual'
+```
+Restored: `md5sum edge/DEPLOY.md` → `ed9e43946ebfa021ad798996aa1d446b` (matches baseline);
+`git diff -- edge/DEPLOY.md | md5sum` → `003f5f2d4def274af98e68368b4b3ed5` (matches pre-mutation diff).
+
+**1b. `SELECT` → `select`** (in the runnable command's opening line) → RED, same byte-equality
+mismatch shape as 1a (`select\n...` vs. expected `SELECT\n...`). Restored: same md5sums as above
+(`ed9e43946ebfa021ad798996aa1d446b` / `003f5f2d4def274af98e68368b4b3ed5`).
+
+**1c. `ua_family` → `ua_famly`** (first occurrence inside the marked block) → RED, same
+byte-equality mismatch shape. Restored: same md5sums as above.
+
+**2. Tail mutation `reads DESC` → `reads ASC`** (the round-1 case, proving it still fails under the
+new mechanism) → RED:
+```
+actual:   '... ORDER BY day DESC, reads ASC;'
+expected: '... ORDER BY day DESC, reads DESC;'
+```
+Restored: same md5sums as above.
+
+**3. Wrapper drift `--remote` → `--local`** → RED, on the wrapper-prefix assertion specifically
+(not swallowed into the query-body comparison):
+```
+AssertionError [ERR_ASSERTION]: edge/DEPLOY.md region #1's fenced block must start with the documented
+wrapper prefix "wrangler d1 execute defi-garden-history --remote --command \""; got:
+"wrangler d1 execute defi-garden-history --local --command \"SELECT\n  date(ts, 'unixepoch') "
+```
+Restored: same md5sums as above.
+
+**4. Delete the `<!-- DAILY_READS_QUERY:begin -->` marker only (malformed pair)** → RED, on the
+marker well-formedness check, NOT a silent zero-regions pass:
+```
+AssertionError [ERR_ASSERTION]: edge/DEPLOY.md has 0 "<!-- DAILY_READS_QUERY:begin -->" marker(s) but
+1 "<!-- DAILY_READS_QUERY:end -->" marker(s) — an unpaired/malformed marker must fail here, not
+silently yield zero regions.
+```
+Restored: same md5sums as above.
+
+**5. Delete the whole marked region** → RED, on the pinned count:
+```
+AssertionError [ERR_ASSERTION]: edge/DEPLOY.md must state the daily-reads query in exactly 1 marked
+DAILY_READS_QUERY region(s); found 0 (shortfall of 1) — a copy was silently deleted or an extra one was
+added.
+```
+Restored: same md5sums as above.
+
+**6. Add a SECOND, unmarked copy elsewhere in `edge/DEPLOY.md`** (a new "Scratch appendix" section
+with a byte-identical, but unmarked, runnable block) → RED, on the anti-smuggling check:
+```
+AssertionError [ERR_ASSERTION]: edge/DEPLOY.md line 202 contains "FROM agent_reads" OUTSIDE any marked
+DAILY_READS_QUERY region and is not on the documented allowlist — this looks like a smuggled, unmarked
+second copy of the daily-reads query.
+```
+Restored: same md5sums as above.
+
+**7. Mutate `DAILY_READS_QUERY` in `edge/agent-log-core.js`** (`reads DESC` → `reads ASC`),
+`edge/DEPLOY.md` left untouched → RED (the doc's unchanged marked copy now mismatches the changed
+code):
+```
+expected: '... ORDER BY day DESC, reads ASC;'   // from the mutated core.js
+actual:   '... ORDER BY day DESC, reads DESC;'  // from the untouched DEPLOY.md region
+operator: 'strictEqual'
+```
+Restored: `md5sum edge/agent-log-core.js` → `59410f66a621e223157267c323fd8d5d` (matches baseline);
+`git diff -- edge/agent-log-core.js | md5sum` → `77a24a93f3a2ba68961b9cf8c40c1f4a` (matches
+pre-mutation diff).
+
+**Full-suite confirmation after all seven mutations were restored:**
+- `node test_agent_log.js` → `769/769 assertions passed` (section E now prints "found 1 marked
+  DAILY_READS_QUERY region(s) in edge/DEPLOY.md, all byte-identical to DAILY_READS_QUERY; no unmarked
+  copies found")
+- `node test_test_registry.js` → `5/5 assertions passed`
+- `node test_vercelignore.js` → `151 assertions passed`
+- `node run-tests.js --lane=plain --jobs=4` → `TOTAL pass=48 fail=0 timeout=0 total=48`
+- `git status --short` shows only the files this round intentionally changed (`edge/DEPLOY.md`,
+  `edge/agent-log-core.js`, `edge/schema.sql`, `test_agent_log.js`,
+  `product-loop-kit/specs/224-pr.md`, `product-loop-kit/specs/224-notes.md`); `git diff --stat`
+  confirms no residual mutation content in any of them.
+
+Assertion count for the file went from 764 to 769: the marker-based section E now runs marker-count
+parity, marker well-formedness, the pinned-count check, the sanity check, and per-region wrapper-prefix
++ wrapper-suffix + byte-identity checks (3 per region instead of 1), plus the anti-smuggling scan
+(one `ok()` per matching-but-unmarked line found, currently 0 in the clean file) — net +5 versus
+round 1's 764.
+
+### Operator's own re-verification of the round-2 fix
+Run independently of the fixer, each mutation applied to the working tree and restored from a saved copy
+(never `git checkout --`, which on round 1 destroyed an uncommitted edit — see the slip recorded above):
+
+- **Prefix drift INSIDE the marked region** (`ua_family,` → `ua_famly,` — the exact class that silently
+  passed in rounds 1 and 2): `node test_agent_log.js` exit **1**, failing on the property that matters —
+  `edge/DEPLOY.md region #1's marked copy of the daily-reads query is NOT byte-identical to
+  agent-log-core.js's DAILY_READS_QUERY`, with both strings printed.
+- **Whole marked region deleted**: exit **1** (pinned-count assertion).
+- **A second, UNMARKED copy of the query appended elsewhere in the file**: exit **1** —
+  `edge/DEPLOY.md line 200 contains "FROM agent_reads" OUTSIDE any marked DAILY_READS_QUERY region and is
+  not on the documented allowlist`.
+- Restored file md5 `ed9e43946ebfa021ad798996aa1d446b` after every mutation; `node test_agent_log.js` →
+  `769/769 assertions passed` each time.
+
+Two process notes worth carrying forward, both from mistakes made in this very re-verification:
+1. A first attempt at the prefix mutation edited the FIRST `ua_family,` in the file, which is in §5's
+   unrelated verify query — it went red, but on the anti-smuggling allowlist, not on byte-identity. A
+   mutation that goes red for the wrong reason is not evidence for the rule you meant to test; the
+   mutation was retargeted to sit strictly inside the marked region before the result was accepted.
+2. A first attempt at the smuggling mutation failed to apply at all (shell quoting mangled the heredoc),
+   and the test then passed — which would have read as "the guard doesn't catch smuggling" if the applied
+   diff hadn't been checked. **Always confirm the mutation actually landed before believing its verdict.**

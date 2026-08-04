@@ -26,9 +26,11 @@ CREATE TABLE IF NOT EXISTS agent_reads (
 
 -- Daily aggregation read pattern ("reads by UA-family by day", the
 -- heartbeat's §2 read) groups by day-bucketed ts and ua_family — see
--- DAILY_READS_QUERY in edge/agent-log-core.js. Every place edge/DEPLOY.md
--- states this query is kept byte-identical to it; test_agent_log.js scans
--- edge/DEPLOY.md for every occurrence and asserts each one individually.
+-- DAILY_READS_QUERY in edge/agent-log-core.js. edge/DEPLOY.md states this
+-- query exactly once, inside a `DAILY_READS_QUERY:begin`/`:end` marked
+-- region; test_agent_log.js locates that region structurally (by the
+-- markers, not the query text), pins the region count at 1, and
+-- byte-compares its content against the constant.
 CREATE INDEX IF NOT EXISTS idx_agent_reads_day_family ON agent_reads (ts, ua_family);
 -- Retention prune is a range delete on ts (mirrors pool_history's idx_ts;
 -- see RETENTION_DAYS/retentionCutoff() in agent-log-core.js). No scheduled

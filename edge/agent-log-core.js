@@ -208,11 +208,17 @@ function retentionCutoff(nowSeconds, days = RETENTION_DAYS) {
 
 // ---------------------------------------------------------------------------
 // 5. DAILY_READS_QUERY — the single source of truth for "reads by UA-family
-//    by day" (the heartbeat's §2 read, spec 224 acceptance criterion). This
-//    EXACT string must also appear, byte-identical, everywhere edge/DEPLOY.md
-//    states this query — test_agent_log.js scans the full text of
-//    edge/DEPLOY.md for every occurrence (by shape, not by line number) and
-//    asserts each one, individually, is byte-identical to this constant.
+//    by day" (the heartbeat's §2 read, spec 224 acceptance criterion).
+//    edge/DEPLOY.md states this query exactly ONCE, inside a single region
+//    marked with `<!-- DAILY_READS_QUERY:begin -->` / `:end` HTML comments.
+//    test_agent_log.js locates that region STRUCTURALLY — by the markers
+//    alone, never by matching this string's own text — asserts exactly one
+//    marked region exists, and byte-compares its content against this
+//    constant. It also fails if a second, unmarked copy of this query is
+//    smuggled in elsewhere in edge/DEPLOY.md. It does NOT prove no such copy
+//    could ever exist outside both the marker and the smuggling check — see
+//    edge/DEPLOY.md §6 and product-loop-kit/specs/224-notes.md ("Verifier
+//    round 2") for what is and isn't proven.
 // ---------------------------------------------------------------------------
 
 const DAILY_READS_QUERY = `SELECT
