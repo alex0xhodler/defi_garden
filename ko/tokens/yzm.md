@@ -24,15 +24,15 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 0.50%예요.
 
 ## 관련 토큰
 
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [AUSD](https://www.defi.garden/ko/tokens/ausd)
-- [BTC](https://www.defi.garden/ko/tokens/btc)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

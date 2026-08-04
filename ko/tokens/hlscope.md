@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 hamilton-lane-senior-credit-opp
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

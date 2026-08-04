@@ -5,7 +5,7 @@ The highest honest XMR yield right now is 0.14% on raydium-amm (Solana), among 7
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=6dcaa44a-25a5-5ef4-b9ad-c8bdc0206a12&src=seo_token) | Solana | 0.12% | $21.87M |
-| [raydium-amm →](https://www.defi.garden/?pool=541701d0-895e-57d5-8eec-d6b4352e15a3&src=seo_token) | Solana | 0.09% | $21.8M |
+| [raydium-amm →](https://www.defi.garden/?pool=541701d0-895e-57d5-8eec-d6b4352e15a3&src=seo_token) | Solana | 0.14% | $21.8M |
 | [raydium-amm →](https://www.defi.garden/?pool=3cd5f33f-9adb-5e1e-a0f7-c8b0be848c02&src=seo_token) | Solana | 0.14% | $21.66M |
 | [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.10% | $21.53M |
 | [raydium-amm →](https://www.defi.garden/?pool=8091a438-ca9d-5e41-83cc-eee25682c361&src=seo_token) | Solana | 0.05% | $21.19M |
@@ -41,4 +41,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

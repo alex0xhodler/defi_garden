@@ -1,10 +1,10 @@
 # UNIBTC DeFi Yields
 
-The highest honest UNIBTC yield right now is 0.14% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UNIBTC yield right now is 0.15% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.14% | $17.15M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.15% | $17.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UNIBTC yield today?
 
-0.14% APY on berapaw (Berachain), based on live DefiLlama data.
+0.15% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many UNIBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $22.38M in total.
+4 live pools clear this page's $100K TVL floor, $22.29M in total.
 
 ### Are these rates safe?
 
@@ -24,8 +24,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [HONEY](https://www.defi.garden/tokens/honey)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

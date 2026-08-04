@@ -1,11 +1,11 @@
 # AUGUSTUSDCV2 DeFi Yields
 
-The highest honest AUGUSTUSDCV2 yield right now is 6.74% on morpho-blue (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUGUSTUSDCV2 yield right now is 6.91% on morpho-blue (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 6.59% | $4.93M |
-| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 6.74% | $1.59M |
+| [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 6.15% | $4.93M |
+| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 6.91% | $1.59M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUGUSTUSDCV2 yield today?
 
-6.74% APY on morpho-blue (Monad), based on live DefiLlama data.
+6.91% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many AUGUSTUSDCV2 pools clear the TVL floor?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Monad](https://www.defi.garden/chains/monad)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

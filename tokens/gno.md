@@ -1,12 +1,12 @@
 # GNO DeFi Yields
 
-The highest honest GNO yield right now is 9.10% on aave-v3 (Gnosis), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GNO yield right now is 8.69% on aave-v3 (Gnosis), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token) | Gnosis | 0.11% | $6.42M |
-| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 0.77% | $279.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token) | Ethereum | 9.10% | $103.3K |
+| [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token) | Gnosis | 0.11% | $6.35M |
+| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 0.79% | $276.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token) | Ethereum | 8.69% | $102.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GNO yield today?
 
-9.10% APY on aave-v3 (Gnosis), based on live DefiLlama data.
+8.69% APY on aave-v3 (Gnosis), based on live DefiLlama data.
 
 ### How many GNO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $7.48M in total.
+4 live pools clear this page's $100K TVL floor, $7.4M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Gnosis](https://www.defi.garden/chains/gnosis)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

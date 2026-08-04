@@ -4,8 +4,8 @@ The highest honest MWCBBTC yield right now is 0.51% on morpho-blue (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.51% | $2.11M |
-| [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.26% | $391.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.51% | $2.1M |
+| [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.26% | $388.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MWCBBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.5M in total.
+2 live pools clear this page's $100K TVL floor, $2.48M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

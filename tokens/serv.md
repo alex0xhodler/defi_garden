@@ -1,11 +1,11 @@
 # SERV DeFi Yields
 
-The highest honest SERV yield right now is 166.90% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SERV yield right now is 174.45% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 28.78% | $1.3M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 166.90% | $795.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 24.89% | $1.28M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 174.45% | $775K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SERV yield today?
 
-166.90% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+174.45% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SERV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.1M in total.
+2 live pools clear this page's $100K TVL floor, $2.06M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

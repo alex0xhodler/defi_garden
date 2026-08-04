@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.07% | $3.71M |
+| [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.05% | $3.71M |
 | [euler-v2 →](https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token) | Ethereum | 1.15% | $3.66M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 0.57% | $3.56M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token) | Ethereum | 0.31% | $1.76M |
@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 1.15%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

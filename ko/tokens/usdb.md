@@ -7,7 +7,6 @@
 | [cetus-clmm →](https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token) | Sui | 0.01% | $1.09M |
 | [bluefin-spot →](https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token) | Sui | 0.01% | $1.09M |
 | [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.09% | $850.6K |
-| [bluefin-spot →](https://www.defi.garden/?pool=10ff5726-66cc-48f7-a71b-01843c59d2a3&src=seo_token) | Sui | 0.01% | $710.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -38,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.09%예요.
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

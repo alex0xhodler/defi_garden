@@ -4,12 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 3.93% | $1.56B |
-| [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 0.49% | $446.03M |
-| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 0.69% | $205.29M |
-| [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 3.78% | $56.74M |
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.74% | $39.75M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.66% | $32.12M |
+| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 3.94% | $1.56B |
+| [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 0.49% | $446.01M |
+| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 0.71% | $204.73M |
+| [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 3.78% | $56.72M |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.73% | $39.75M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.64% | $32.12M |
 | [pendle →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 4.03% | $13.85M |
 | [pendle →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 12.22% | $13.85M |
 
@@ -45,4 +45,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ethena-usde에서 APY 12.22%�
 - [Mantle](https://www.defi.garden/ko/chains/mantle)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

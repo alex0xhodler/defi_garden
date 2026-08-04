@@ -1,10 +1,10 @@
 # PRESTOUSDCP 디파이 수익률
 
-현재 PRESTOUSDCP의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 3.10%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PRESTOUSDCP의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 3.15%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=dbc0aad9-d4d5-53df-9428-5b9404cdb222&src=seo_token) | Ethereum | 3.10% | $300.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=dbc0aad9-d4d5-53df-9428-5b9404cdb222&src=seo_token) | Ethereum | 3.15% | $300.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,7 +12,7 @@
 
 ### 오늘 PRESTOUSDCP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.10%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.15%예요.
 
 ### PRESTOUSDCP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.10%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

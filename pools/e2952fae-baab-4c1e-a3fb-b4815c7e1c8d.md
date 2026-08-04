@@ -2,7 +2,7 @@
 
 **Total APY:** 6.37% (0.00% Base · + 6.37% Rewards)
 
-**TVL:** $2.44M
+**TVL:** $2.42M
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on velodrome-v2](https://velodrome.finance/?ref=defi.garden)
 
-Last updated August 3, 2026
+Last updated August 4, 2026

@@ -4,9 +4,9 @@ The highest honest SDUSD yield right now is 17.74% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token) | Ethereum | 15.62% | $692.8K |
+| [curve-dex →](https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token) | Ethereum | 15.84% | $692.9K |
 | [stake-dao →](https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token) | Ethereum | 17.74% | $640.1K |
-| [dtrinity-dusd →](https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token) | Ethereum | 2.82% | $461.3K |
+| [dtrinity-dusd →](https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token) | Ethereum | 2.75% | $461.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

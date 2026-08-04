@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [reserve-protocol →](https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token) | Base | 1.12% | $1.17M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 3.88% | $712.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 2.45% | $631.1K |
+| [reserve-protocol →](https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token) | Base | 0.96% | $1.16M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 3.88% | $705.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 2.50% | $680.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Base의 reserve-protocol에서 APY 3.88%�
 
 ### BSDETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $3.29M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $3.31M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Base의 reserve-protocol에서 APY 3.88%�
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

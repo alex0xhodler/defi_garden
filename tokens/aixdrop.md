@@ -1,10 +1,10 @@
 # AIXDROP DeFi Yields
 
-The highest honest AIXDROP yield right now is 1.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIXDROP yield right now is 1.59% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ca0151ad-7189-40de-be1b-c945b55efcdf&src=seo_token) | Solana | 1.23% | $232.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=ca0151ad-7189-40de-be1b-c945b55efcdf&src=seo_token) | Solana | 1.59% | $232.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIXDROP yield today?
 
-1.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.59% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AIXDROP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $232.6K in total.
+1 live pool clear this page's $100K TVL floor, $232.8K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

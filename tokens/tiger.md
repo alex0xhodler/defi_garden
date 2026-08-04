@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Kava](https://www.defi.garden/chains/kava)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

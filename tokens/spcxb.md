@@ -1,11 +1,11 @@
 # SPCXB DeFi Yields
 
-The highest honest SPCXB yield right now is 294.69% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCXB yield right now is 294.07% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token) | BSC | 294.69% | $383.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token) | BSC | 96.46% | $154.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c786e58b-dd65-5cb6-b93a-a34d64c9fe90&src=seo_token) | BSC | 294.07% | $377.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b5ca4c43-4da4-40e5-a6ad-a807ad135d66&src=seo_token) | BSC | 101.38% | $153.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPCXB yield today?
 
-294.69% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+294.07% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many SPCXB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $538.5K in total.
+2 live pools clear this page's $100K TVL floor, $531.1K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

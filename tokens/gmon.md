@@ -1,12 +1,12 @@
 # GMON DeFi Yields
 
-The highest honest GMON yield right now is 24.29% on magma-staking (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GMON yield right now is 24.30% on magma-staking (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 20.76% | $1.16M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 24.29% | $765.6K |
-| [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.27% | $233.7K |
+| [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 20.76% | $1.14M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 24.30% | $765.6K |
+| [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.28% | $224.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GMON yield today?
 
-24.29% APY on magma-staking (Monad), based on live DefiLlama data.
+24.30% APY on magma-staking (Monad), based on live DefiLlama data.
 
 ### How many GMON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.15M in total.
+3 live pools clear this page's $100K TVL floor, $2.13M in total.
 
 ### Are these rates safe?
 
@@ -26,15 +26,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
-- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

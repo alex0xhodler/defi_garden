@@ -1,10 +1,10 @@
 # RYZE DeFi Yields
 
-The highest honest RYZE yield right now is 0.14% on uniswap-v4 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RYZE yield right now is 0.13% on uniswap-v4 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=97090e08-3182-463b-9da4-b7d886f0d290&src=seo_token) | Arbitrum | 0.14% | $1.96M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=97090e08-3182-463b-9da4-b7d886f0d290&src=seo_token) | Arbitrum | 0.13% | $1.95M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RYZE yield today?
 
-0.14% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
+0.13% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
 
 ### How many RYZE pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

@@ -1,17 +1,17 @@
 # APXUSD 디파이 수익률
 
-현재 APXUSD의 가장 높은 정직한 수익률은 Ethereum의 apyx-protocol에서 357.11%이며, $100K TVL 기준을 넘는 31개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 APXUSD의 가장 높은 정직한 수익률은 Ethereum의 apyx-protocol에서 23.49%이며, $100K TVL 기준을 넘는 31개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.99% | $164.53M |
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 10.79% | $18.7M |
-| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 19.31% | $7.65M |
+| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.99% | $163.52M |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 10.77% | $18.57M |
+| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 23.49% | $7.6M |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=497ab748-5954-4cde-b7d0-346cb6391ee4&src=seo_token) | Ethereum | 0.01% | $2.7M |
 | [pendle →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 9.35% | $1.62M |
 | [pendle →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 2.63% | $1.62M |
 | [pendle →](https://www.defi.garden/?pool=2d26d208-dffd-4c4d-ab66-3ff850f2a678&src=seo_token) | Ethereum | 8.50% | $1.1M |
 | [pendle →](https://www.defi.garden/?pool=057a25c2-3b1e-49f8-9c5e-f8858726f221&src=seo_token) | Ethereum | 1.91% | $1.1M |
-| [curve-dex →](https://www.defi.garden/?pool=10df2513-7165-4130-b4a4-77ffe95fbe3f&src=seo_token) | Ethereum | 357.11% | $676.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 APXUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 apyx-protocol에서 APY 357.11%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 apyx-protocol에서 APY 23.49%예요.
 
 ### APXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 31개이며, 합산 TVL은 $209.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 31개이며, 합산 TVL은 $209.02M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,4 +42,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 apyx-protocol에서 APY 357.11
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

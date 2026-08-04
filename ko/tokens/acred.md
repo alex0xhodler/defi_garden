@@ -45,4 +45,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 apollo-diversified-credit-secu
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

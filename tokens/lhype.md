@@ -4,7 +4,7 @@ The highest honest LHYPE yield right now is 11.19% on looped-hype (Hyperliquid L
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token) | Hyperliquid L1 | 11.19% | $7.52M |
+| [looped-hype →](https://www.defi.garden/?pool=3bdaa03c-63e2-40be-afde-e1ae13c684e9&src=seo_token) | Hyperliquid L1 | 11.19% | $7.38M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.9M in total.
+2 live pools clear this page's $100K TVL floor, $7.76M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

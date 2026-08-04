@@ -1,10 +1,10 @@
 # SNT DeFi Yields
 
-The highest honest SNT yield right now is 9.27% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNT yield right now is 9.67% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4fa22b31-c3c9-453b-bdaf-9bea60985d01&src=seo_token) | Ethereum | 9.27% | $321.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4fa22b31-c3c9-453b-bdaf-9bea60985d01&src=seo_token) | Ethereum | 9.67% | $320.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNT yield today?
 
-9.27% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+9.67% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SNT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $321.6K in total.
+1 live pool clear this page's $100K TVL floor, $320.9K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

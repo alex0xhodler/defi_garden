@@ -911,15 +911,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WSTHYPE</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTHYPE" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTHYPE&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSTHYPE" />
-    <lastmod>2026-08-03T16:20:04.263Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=XAUT</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAUT" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAUT&amp;lang=ko" />

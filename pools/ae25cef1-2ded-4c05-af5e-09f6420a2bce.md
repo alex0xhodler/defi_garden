@@ -1,12 +1,12 @@
 # USD₮0 — tydro on Ink
 
-**Total APY:** 2.72% (2.72% Base · + 0.00% Rewards)
+**Total APY:** 2.71% (2.71% Base · + 0.00% Rewards)
 
-**TVL:** $3.76M
+**TVL:** $3.77M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 2.03%
+**30d Mean APY:** 2.04%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on tydro](https://tydro.com/?ref=defi.garden)
 
-Last updated August 3, 2026
+Last updated August 4, 2026

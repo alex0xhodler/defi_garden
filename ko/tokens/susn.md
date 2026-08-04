@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 9.23%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

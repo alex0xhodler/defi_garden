@@ -4,8 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.51% | $959K |
-| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.07% | $744.3K |
+| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.51% | $954.7K |
+| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.07% | $737.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 0.14% | $233.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.51%예
 
 ### RBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $3.38M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $3.35M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -25,15 +26,16 @@ DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.51%예
 
 ## 관련 토큰
 
-- [XUSD](https://www.defi.garden/ko/tokens/xusd)
-- [STETH](https://www.defi.garden/ko/tokens/steth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
+- [ETH](https://www.defi.garden/ko/tokens/eth)
+- [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
 
 ## 이용 가능한 체인
 
 - [Rootstock](https://www.defi.garden/ko/chains/rootstock)
+- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

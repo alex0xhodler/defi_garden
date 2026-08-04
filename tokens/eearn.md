@@ -7,7 +7,7 @@ The highest honest EEARN yield right now is 10.17% on pendle (Ethereum), among 4
 | [pendle →](https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token) | Ethereum | 10.04% | $1.05M |
 | [pendle →](https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token) | Ethereum | 10.17% | $1.05M |
 | [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 9.71% | $868K |
-| [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token) | Sui | 8.50% | $288.8K |
+| [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token) | Sui | 8.41% | $288.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

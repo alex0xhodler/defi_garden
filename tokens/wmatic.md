@@ -1,17 +1,17 @@
 # WMATIC DeFi Yields
 
-The highest honest WMATIC yield right now is 41.55% on uniswap-v3 (Polygon), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMATIC yield right now is 43.32% on uniswap-v3 (Polygon), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token) | Polygon | 34.65% | $1.08M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token) | Polygon | 0.06% | $659.6K |
-| [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token) | Polygon | 1.41% | $516.9K |
-| [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token) | Polygon | 2.59% | $378.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d&src=seo_token) | Polygon | 41.55% | $170.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token) | Polygon | 34.80% | $1.08M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token) | Polygon | 0.06% | $658K |
+| [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token) | Polygon | 1.35% | $516.4K |
+| [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token) | Polygon | 2.42% | $376.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d&src=seo_token) | Polygon | 43.32% | $170.8K |
 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 3.62% | $157.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token) | Polygon | 5.63% | $157.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token) | Polygon | 1.90% | $123.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token) | Polygon | 5.46% | $157.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token) | Polygon | 2.01% | $123.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WMATIC yield today?
 
-41.55% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+43.32% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many WMATIC pools clear the TVL floor?
 
@@ -42,4 +42,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

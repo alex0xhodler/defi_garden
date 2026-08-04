@@ -4,8 +4,7 @@ The highest honest SDPENDLE yield right now is 7.32% on stake-dao (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=362dff31-60e9-4393-b3f5-1ea4cd8caa06&src=seo_token) | Ethereum | 7.32% | $3.78M |
-| [curve-dex →](https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token) | Ethereum | 0.04% | $404.4K |
+| [stake-dao →](https://www.defi.garden/?pool=362dff31-60e9-4393-b3f5-1ea4cd8caa06&src=seo_token) | Ethereum | 7.32% | $3.72M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SDPENDLE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.18M in total.
+2 live pools clear this page's $100K TVL floor, $4.12M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

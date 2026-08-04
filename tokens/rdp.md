@@ -4,7 +4,7 @@ The highest honest RDP yield right now is 0.21% on camelot-v3 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=77e1b1fc-ee29-45ac-82f5-9d24da9b28e9&src=seo_token) | Arbitrum | 0.21% | $103.8K |
+| [camelot-v3 →](https://www.defi.garden/?pool=77e1b1fc-ee29-45ac-82f5-9d24da9b28e9&src=seo_token) | Arbitrum | 0.21% | $103.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RDP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.8K in total.
+1 live pool clear this page's $100K TVL floor, $103.2K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

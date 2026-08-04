@@ -1,10 +1,10 @@
 # HNT DeFi Yields
 
-The highest honest HNT yield right now is 3.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HNT yield right now is 4.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token) | Solana | 3.99% | $351.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token) | Solana | 4.35% | $347.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HNT yield today?
 
-3.99% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.35% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HNT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $351.9K in total.
+1 live pool clear this page's $100K TVL floor, $347.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

@@ -5,9 +5,9 @@ The highest honest PYUSD yield right now is 5.10% on sparklend (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token) | Ethereum | 0.77% | $78.03M |
-| [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token) | Ethereum | 4.58% | $44.55M |
-| [orca-dex →](https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9&src=seo_token) | Solana | 0.16% | $19.68M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6&src=seo_token) | Solana | 0.16% | $19.68M |
+| [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token) | Ethereum | 4.59% | $44.47M |
+| [orca-dex →](https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9&src=seo_token) | Solana | 0.17% | $19.69M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6&src=seo_token) | Solana | 0.13% | $19.69M |
 | [kamino-lend →](https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token) | Solana | 2.77% | $13.87M |
 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 1.69% | $9.65M |
 | [convex-finance →](https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token) | Ethereum | 0.03% | $8.38M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PYUSD pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $238.05M in total.
+24 live pools clear this page's $100K TVL floor, $238.69M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 lagoon에서 APY 19.03%예요.
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

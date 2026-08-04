@@ -1,11 +1,11 @@
 # YNG DeFi Yields
 
-The highest honest YNG yield right now is 0.99% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YNG yield right now is 0.92% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e&src=seo_token) | Ethereum | 0.24% | $1.8M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d&src=seo_token) | Ethereum | 0.99% | $445.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e&src=seo_token) | Ethereum | 0.22% | $1.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d&src=seo_token) | Ethereum | 0.92% | $443.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YNG yield today?
 
-0.99% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.92% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many YNG pools clear the TVL floor?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

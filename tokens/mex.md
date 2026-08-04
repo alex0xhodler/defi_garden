@@ -1,11 +1,11 @@
 # MEX DeFi Yields
 
-The highest honest MEX yield right now is 7.16% on uniswap-v4 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEX yield right now is 4.47% on uniswap-v4 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=fde52454-c82a-4404-8361-adb74b0276b5&src=seo_token) | Arbitrum | 7.16% | $278.9K |
-| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 4.47% | $110.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fde52454-c82a-4404-8361-adb74b0276b5&src=seo_token) | Arbitrum | 0.69% | $278.9K |
+| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 4.47% | $109.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEX yield today?
 
-7.16% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
+4.47% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
 
 ### How many MEX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $389K in total.
+2 live pools clear this page's $100K TVL floor, $388.2K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

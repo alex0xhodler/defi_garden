@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [GRAM](https://www.defi.garden/tokens/gram)
 - [TSTON](https://www.defi.garden/tokens/tston)
-- [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
+- [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [UTYA](https://www.defi.garden/tokens/utya)
 - [STON](https://www.defi.garden/tokens/ston)
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.06%예요.
 
 ### AUTO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $6.59M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $6.6M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.06%예요.
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

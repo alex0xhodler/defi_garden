@@ -1,12 +1,12 @@
 # GTUSDT DeFi Yields
 
-The highest honest GTUSDT yield right now is 4.90% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDT yield right now is 5.14% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 4.53% | $3.75M |
-| [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 4.32% | $373.1K |
-| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 4.90% | $217.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 4.45% | $3.76M |
+| [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 5.14% | $372.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 5.09% | $217.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDT yield today?
 
-4.90% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.14% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTUSDT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.34M in total.
+3 live pools clear this page's $100K TVL floor, $4.35M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

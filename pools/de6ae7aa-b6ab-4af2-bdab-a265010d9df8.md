@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.22% right now vs a 0.88% 30-day average. Reward 
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated August 3, 2026
+Last updated August 4, 2026

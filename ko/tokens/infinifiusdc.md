@@ -1,11 +1,11 @@
 # INFINIFIUSDC 디파이 수익률
 
-현재 INFINIFIUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 5.48%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 INFINIFIUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 5.82%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token) | Ethereum | 5.48% | $1.2M |
-| [morpho-blue →](https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token) | Ethereum | 5.08% | $1.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=72d3850b-ea48-4500-9cc2-a8b121e1c08c&src=seo_token) | Ethereum | 5.82% | $1.2M |
+| [morpho-blue →](https://www.defi.garden/?pool=bc59aa21-18b2-40a4-a15b-07fe84107d3c&src=seo_token) | Ethereum | 5.82% | $1.01M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 INFINIFIUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 5.48%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 5.82%예요.
 
 ### INFINIFIUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 5.48%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

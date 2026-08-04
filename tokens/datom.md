@@ -4,7 +4,7 @@ The highest honest DATOM yield right now is 0.04% on astroport (Neutron), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_token) | Neutron | 0.04% | $4.43M |
+| [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_token) | Neutron | 0.04% | $4.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DATOM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.43M in total.
+1 live pool clear this page's $100K TVL floor, $4.42M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Neutron](https://www.defi.garden/chains/neutron)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

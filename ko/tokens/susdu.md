@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, BSC의 unitas-usdu에서 APY 9.99%예요.
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

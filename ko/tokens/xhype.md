@@ -7,7 +7,6 @@
 | [liminal-basis →](https://www.defi.garden/?pool=86938e6e-35d9-4cbf-9682-be277f300ab5&src=seo_token) | Ethereum | 8.76% | $5.84M |
 | [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 8.76% | $5.84M |
 | [liminal-basis →](https://www.defi.garden/?pool=6b47d784-7591-4842-84a4-a7628b37c374&src=seo_token) | Arbitrum | 8.76% | $5.84M |
-| [project-x →](https://www.defi.garden/?pool=3c5ef067-08a3-474c-8728-567371ac2e07&src=seo_token) | Hyperliquid L1 | 0.01% | $144.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 liminal-basis에서 APY 8.76%�
 
 ### XHYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $17.67M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $17.68M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 liminal-basis에서 APY 8.76%�
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

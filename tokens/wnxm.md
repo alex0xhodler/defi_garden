@@ -4,8 +4,8 @@ The highest honest WNXM yield right now is 0.08% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 0.05% | $511.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.08% | $214.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 0.05% | $509.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.08% | $213.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WNXM pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.77M in total.
+4 live pools clear this page's $100K TVL floor, $1.79M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

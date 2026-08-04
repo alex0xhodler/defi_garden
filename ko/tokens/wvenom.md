@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Venom의 web3.world에서 APY 6.27%예요.
 
 - [Venom](https://www.defi.garden/ko/chains/venom)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

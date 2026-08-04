@@ -1,11 +1,11 @@
 # BET DeFi Yields
 
-The highest honest BET yield right now is 2.67% on uniswap-v3 (Polygon), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BET yield right now is 2.65% on uniswap-v3 (Polygon), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e80e8c9-e344-4a52-aea2-d2ae0c204ed3&src=seo_token) | Polygon | 0.01% | $19.69M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=0a99582c-ad74-4380-abec-007014a3d85f&src=seo_token) | Base | 2.67% | $221.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e80e8c9-e344-4a52-aea2-d2ae0c204ed3&src=seo_token) | Polygon | 0.01% | $19.59M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=0a99582c-ad74-4380-abec-007014a3d85f&src=seo_token) | Base | 2.65% | $220.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BET yield today?
 
-2.67% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+2.65% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many BET pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $20.43M in total.
+3 live pools clear this page's $100K TVL floor, $20.36M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

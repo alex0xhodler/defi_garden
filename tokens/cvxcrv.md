@@ -1,15 +1,15 @@
 # CVXCRV DeFi Yields
 
-The highest honest CVXCRV yield right now is 15.35% on convex-finance (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CVXCRV yield right now is 15.34% on convex-finance (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=ef32dd3b-a03b-4f79-9b65-8420d7e04ad0&src=seo_token) | Ethereum | 12.49% | $36.85M |
-| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 7.41% | $6.27M |
-| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 12.35% | $5.22M |
-| [stake-dao →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba&src=seo_token) | Ethereum | 15.35% | $952.4K |
-| [curve-dex →](https://www.defi.garden/?pool=d33bbfb6-811c-4e80-9928-b96ebd7e136c&src=seo_token) | Ethereum | 0.07% | $151.9K |
-| [convex-finance →](https://www.defi.garden/?pool=f1b831a9-7763-4bad-a64e-cafc86fdb7ec&src=seo_token) | Ethereum | 0.14% | $135.5K |
+| [convex-finance →](https://www.defi.garden/?pool=ef32dd3b-a03b-4f79-9b65-8420d7e04ad0&src=seo_token) | Ethereum | 12.39% | $36.85M |
+| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 7.29% | $6.27M |
+| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 12.20% | $5.22M |
+| [stake-dao →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba&src=seo_token) | Ethereum | 15.34% | $953.1K |
+| [curve-dex →](https://www.defi.garden/?pool=d33bbfb6-811c-4e80-9928-b96ebd7e136c&src=seo_token) | Ethereum | 0.02% | $151.9K |
+| [convex-finance →](https://www.defi.garden/?pool=f1b831a9-7763-4bad-a64e-cafc86fdb7ec&src=seo_token) | Ethereum | 0.09% | $135.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CVXCRV yield today?
 
-15.35% APY on convex-finance (Ethereum), based on live DefiLlama data.
+15.34% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CVXCRV pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $51.71M in total.
+9 live pools clear this page's $100K TVL floor, $51.72M in total.
 
 ### Are these rates safe?
 
@@ -40,4 +40,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

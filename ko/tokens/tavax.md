@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token) | Avalanche | 5.77% | $5.7M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 3.67% | $137.9K |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 3.64% | $137.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 treehouse-protocol에서 APY 
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

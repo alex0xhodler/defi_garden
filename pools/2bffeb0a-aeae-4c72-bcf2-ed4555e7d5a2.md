@@ -2,7 +2,7 @@
 
 **Total APY:** 6.76% (0.07% Base · + 6.69% Rewards)
 
-**TVL:** $776.9K
+**TVL:** $777K
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on stake-dao](https://stakedao.org/?ref=defi.garden)
 
-Last updated August 3, 2026
+Last updated August 4, 2026

@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, BSC의 wombat-exchange에서 APY 0.05%예�
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

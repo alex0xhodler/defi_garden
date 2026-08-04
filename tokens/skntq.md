@@ -1,10 +1,10 @@
 # SKNTQ DeFi Yields
 
-The highest honest SKNTQ yield right now is 14.60% on kinetiq-khype (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKNTQ yield right now is 10.95% on kinetiq-khype (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_token) | Hyperliquid L1 | 14.60% | $8.75M |
+| [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_token) | Hyperliquid L1 | 10.95% | $8.75M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKNTQ yield today?
 
-14.60% APY on kinetiq-khype (Hyperliquid L1), based on live DefiLlama data.
+10.95% APY on kinetiq-khype (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SKNTQ pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

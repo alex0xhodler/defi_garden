@@ -1,10 +1,10 @@
 # MOD DeFi Yields
 
-The highest honest MOD yield right now is 0.01% on thalaswap (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOD yield right now is 0.02% on thalaswap (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [thalaswap →](https://www.defi.garden/?pool=a3bc736c-fcfc-4460-bce9-183029abd59a&src=seo_token) | Aptos | 0.01% | $160K |
+| [thalaswap →](https://www.defi.garden/?pool=a3bc736c-fcfc-4460-bce9-183029abd59a&src=seo_token) | Aptos | 0.02% | $158.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOD yield today?
 
-0.01% APY on thalaswap (Aptos), based on live DefiLlama data.
+0.02% APY on thalaswap (Aptos), based on live DefiLlama data.
 
 ### How many MOD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160K in total.
+1 live pool clear this page's $100K TVL floor, $158.9K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

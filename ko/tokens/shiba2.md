@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 1.28%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

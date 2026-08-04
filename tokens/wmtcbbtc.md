@@ -4,7 +4,7 @@ The highest honest WMTCBBTC yield right now is 4.00% on wildcat-protocol (Ethere
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=096033a1-6925-4601-80d6-ad7a8661959e&src=seo_token) | Ethereum | 4.00% | $330.2K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=096033a1-6925-4601-80d6-ad7a8661959e&src=seo_token) | Ethereum | 4.00% | $327.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WMTCBBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $330.2K in total.
+1 live pool clear this page's $100K TVL floor, $327.9K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

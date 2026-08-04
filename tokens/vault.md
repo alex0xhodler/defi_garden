@@ -1,12 +1,12 @@
 # VAULT DeFi Yields
 
-The highest honest VAULT yield right now is 86.79% on 40-acres (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VAULT yield right now is 90.84% on 40-acres (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 12.59% | $7.27M |
-| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 15.50% | $868.7K |
-| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 86.79% | $507K |
+| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 15.50% | $868.8K |
+| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 90.84% | $507.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VAULT yield today?
 
-86.79% APY on 40-acres (Base), based on live DefiLlama data.
+90.84% APY on 40-acres (Base), based on live DefiLlama data.
 
 ### How many VAULT pools clear the TVL floor?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

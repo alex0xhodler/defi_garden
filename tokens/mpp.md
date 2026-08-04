@@ -4,7 +4,7 @@ The highest honest MPP yield right now is 0.87% on uniswap-v3 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b061e0f-f5b0-4656-b78e-87363611a70b&src=seo_token) | Base | 0.87% | $3.2M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b061e0f-f5b0-4656-b78e-87363611a70b&src=seo_token) | Base | 0.87% | $3.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MPP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.2M in total.
+1 live pool clear this page's $100K TVL floor, $3.22M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

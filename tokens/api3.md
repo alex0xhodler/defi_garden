@@ -1,11 +1,11 @@
 # API3 DeFi Yields
 
-The highest honest API3 yield right now is 7.21% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest API3 yield right now is 7.30% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 7.21% | $12.55M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 0.92% | $162.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 7.30% | $12.58M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 0.84% | $161.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest API3 yield today?
 
-7.21% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.30% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many API3 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $12.71M in total.
+2 live pools clear this page's $100K TVL floor, $12.74M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

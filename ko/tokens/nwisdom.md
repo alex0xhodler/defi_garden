@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 6.0
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

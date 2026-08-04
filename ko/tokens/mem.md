@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.11% | $200.4K |
+| [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.11% | $187.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.11%예요.
 
 ### MEM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $408.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $383.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.11%예요.
 
 - [GRAM](https://www.defi.garden/ko/tokens/gram)
 - [TSTON](https://www.defi.garden/ko/tokens/tston)
-- [XAUT0](https://www.defi.garden/ko/tokens/xaut0)
 - [HGRAM](https://www.defi.garden/ko/tokens/hgram)
+- [XAUT0](https://www.defi.garden/ko/tokens/xaut0)
 - [UTYA](https://www.defi.garden/ko/tokens/utya)
 - [STON](https://www.defi.garden/ko/tokens/ston)
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.11%예요.
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

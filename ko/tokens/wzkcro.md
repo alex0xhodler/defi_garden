@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Cronos zkEVM의 amply-finance에서 APY 0.
 
 - [Cronos zkEVM](https://www.defi.garden/ko/chains/cronos-zkevm)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

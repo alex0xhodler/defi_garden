@@ -4,8 +4,7 @@ The highest honest XETH yield right now is 0.43% on aave-v3 (Xlayer), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.43% | $9.44M |
-| [curve-dex →](https://www.defi.garden/?pool=c4adc23f-1e5b-4889-8488-57481d98bfb5&src=seo_token) | Arbitrum | 0.06% | $129K |
+| [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_token) | Xlayer | 0.43% | $9.34M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.57M in total.
+2 live pools clear this page's $100K TVL floor, $9.46M in total.
 
 ### Are these rates safe?
 
@@ -25,16 +24,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [STETH](https://www.defi.garden/tokens/steth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDS](https://www.defi.garden/tokens/usds)
-- [ETH](https://www.defi.garden/tokens/eth)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
 - [Xlayer](https://www.defi.garden/chains/xlayer)
-- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

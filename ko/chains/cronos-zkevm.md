@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Cronos zkEVM의 amply-finance에서 APY 0.
 
 - [WZKCRO](https://www.defi.garden/ko/tokens/wzkcro)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

@@ -4,9 +4,9 @@ The highest honest BSDETH yield right now is 3.88% on reserve-protocol (Base), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [reserve-protocol →](https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token) | Base | 1.12% | $1.17M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 3.88% | $712.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 2.45% | $631.1K |
+| [reserve-protocol →](https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token) | Base | 0.96% | $1.16M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 3.88% | $705.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 2.50% | $680.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BSDETH pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.29M in total.
+5 live pools clear this page's $100K TVL floor, $3.31M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token) | Gnosis | 0.27% | $526.8K |
+| [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token) | Gnosis | 0.27% | $522.9K |
 | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 0.20% | $280.1K |
-| [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token) | Gnosis | 1.90% | $277.3K |
+| [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token) | Gnosis | 1.90% | $277.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Gnosis의 curve-dex에서 APY 1.90%예요.
 
 - [Gnosis](https://www.defi.garden/ko/chains/gnosis)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

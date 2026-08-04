@@ -4,7 +4,7 @@ The highest honest PXETH yield right now is 3.65% on velodrome-v2 (OP Mainnet), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d&src=seo_token) | OP Mainnet | 3.65% | $132.4K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d&src=seo_token) | OP Mainnet | 3.65% | $131.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PXETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.4K in total.
+1 live pool clear this page's $100K TVL floor, $131.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

@@ -4,7 +4,7 @@ The highest honest ROLL yield right now is 0.09% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ebf1a73c-403e-4419-b860-8fb840a65710&src=seo_token) | Base | 0.09% | $1.7M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ebf1a73c-403e-4419-b860-8fb840a65710&src=seo_token) | Base | 0.09% | $1.71M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROLL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.7M in total.
+1 live pool clear this page's $100K TVL floor, $1.71M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

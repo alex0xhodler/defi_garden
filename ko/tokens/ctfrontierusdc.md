@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [concrete →](https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f&src=seo_token) | Ethereum | 8.52% | $1.18M |
-| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf&src=seo_token) | Ethereum | 11.61% | $457.1K |
+| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf&src=seo_token) | Ethereum | 11.61% | $457.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 concrete에서 APY 11.61%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

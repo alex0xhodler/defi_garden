@@ -41,4 +41,4 @@ DefiLlama 실시간 데이터 기준, BSC의 mdex에서 APY 1.49%예요.
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Heco](https://www.defi.garden/ko/chains/heco)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

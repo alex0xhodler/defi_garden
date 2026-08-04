@@ -4,8 +4,8 @@ The highest honest RSK yield right now is 2.33% on midas-rwa (RSK), among 2 pool
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [midas-rwa →](https://www.defi.garden/?pool=037e58ef-f36c-4a1a-9fe6-65c0fd0b863d&src=seo_chain) | 2.33% | $513.4K |
-| USDT0 | [symbiosis →](https://www.defi.garden/?pool=e026e305-cf00-4fe8-b5e1-22dcc11ab763&src=seo_chain) | 0.35% | $120.8K |
+| BTC | [midas-rwa →](https://www.defi.garden/?pool=037e58ef-f36c-4a1a-9fe6-65c0fd0b863d&src=seo_chain) | 2.33% | $510K |
+| USDT0 | [symbiosis →](https://www.defi.garden/?pool=e026e305-cf00-4fe8-b5e1-22dcc11ab763&src=seo_chain) | 0.35% | $119.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RSK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $634.2K in total.
+2 live pools clear this page's $100K TVL floor, $629.9K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BTC](https://www.defi.garden/tokens/btc)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

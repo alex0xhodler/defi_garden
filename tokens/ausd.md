@@ -1,17 +1,17 @@
 # AUSD DeFi Yields
 
-The highest honest AUSD yield right now is 8.25% on centrifuge-protocol (Ethereum), among 35 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUSD yield right now is 8.25% on centrifuge-protocol (Ethereum), among 36 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 4.56% | $372.76M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 4.56% | $372.77M |
 | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.84% | $109.93M |
 | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 7.62% | $39.89M |
 | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.25% | $30.03M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.17% | $29.08M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.16% | $29.08M |
 | [curve-dex →](https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token) | Ethereum | 0.11% | $25M |
 | [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $21.21M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.11% | $3.88M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.16% | $3.88M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AUSD pools clear the TVL floor?
 
-35 live pools clear this page's $100K TVL floor, $669.05M in total.
+36 live pools clear this page's $100K TVL floor, $669.45M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

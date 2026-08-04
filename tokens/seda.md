@@ -1,10 +1,10 @@
 # SEDA DeFi Yields
 
-The highest honest SEDA yield right now is 102.38% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SEDA yield right now is 105.24% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=6e914bf1-d395-4f95-a2f7-562a636a24b5&src=seo_token) | Base | 102.38% | $190.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=6e914bf1-d395-4f95-a2f7-562a636a24b5&src=seo_token) | Base | 105.24% | $188.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SEDA yield today?
 
-102.38% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+105.24% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many SEDA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.7K in total.
+1 live pool clear this page's $100K TVL floor, $188.5K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

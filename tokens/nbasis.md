@@ -1,10 +1,10 @@
 # NBASIS DeFi Yields
 
-The highest honest NBASIS yield right now is 3.17% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NBASIS yield right now is 6.13% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a&src=seo_token) | Plume Mainnet | 3.17% | $2.37M |
+| [nest-credit →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a&src=seo_token) | Plume Mainnet | 6.13% | $2.37M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NBASIS yield today?
 
-3.17% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+6.13% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NBASIS pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 3, 2026
+## Last updated August 4, 2026

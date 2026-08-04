@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, TON의 affluent에서 APY 4.26%예요.
 
 - [GRAM](https://www.defi.garden/ko/tokens/gram)
 - [TSTON](https://www.defi.garden/ko/tokens/tston)
-- [XAUT0](https://www.defi.garden/ko/tokens/xaut0)
 - [HGRAM](https://www.defi.garden/ko/tokens/hgram)
+- [XAUT0](https://www.defi.garden/ko/tokens/xaut0)
 - [UTYA](https://www.defi.garden/ko/tokens/utya)
 - [STON](https://www.defi.garden/ko/tokens/ston)
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, TON의 affluent에서 APY 4.26%예요.
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026

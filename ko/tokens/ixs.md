@@ -1,11 +1,11 @@
 # IXS 디파이 수익률
 
-현재 IXS의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 9.84%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 IXS의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 9.41%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851&src=seo_token) | Ethereum | 9.84% | $453.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e&src=seo_token) | Ethereum | 6.20% | $212.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c7bb64fd-ed91-4d17-a3c3-b42e015f6851&src=seo_token) | Ethereum | 9.41% | $450.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=523a693b-1fd7-42a4-8931-0eddbe3d8e7e&src=seo_token) | Ethereum | 7.01% | $211.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 IXS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 9.84%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 9.41%예요.
 
 ### IXS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $666.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $662.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 9.84%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 3, 2026
+## 마지막 업데이트: August 4, 2026
