@@ -1,6 +1,9 @@
 # BACKLOG — written by the heartbeat, culled by the human, consumed by build loops.
 # Statuses: READY → IN_PROGRESS → IN_REVIEW → SHIPPED (measuring) → DONE
 #           PARKED (3 strikes) · BLOCKED (question for the human) · CULLED (human said no)
+#           GATED(<measurable precondition>) (payoff needs an unmet gate, e.g. ≥30 real waitlist_opened;
+#           the heartbeat re-checks every gate each tick and promotes to READY when met — never pings the
+#           human; crawler-classified events never count toward a gate. Added 2026-08-04, loop v2 Q2a.)
 
 | ID | Title | Score | Status | Risk | Spec | Attempts | Measure until |
 |----|-------|-------|--------|------|------|----------|---------------|

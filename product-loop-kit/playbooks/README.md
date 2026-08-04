@@ -11,6 +11,14 @@ experiment result (that's `LEARNINGS.md`). A playbook answers *"when I see X aga
 classify / fix it?"* with the exact files, functions, and decision rules, so a future heartbeat or build
 tick can just follow it.
 
+## Playbooks are the loop's non-uniform prior (added 2026-08-04, `RAZOR.md`)
+These files encode the defect distribution this repo has actually measured — the fixed-overlay-occlusion
+class alone landed four times (179 → 217 → 218 → 220). **Follow them FIRST**: inside a class already
+documented here, exploiting the prior beats re-deriving it. **When you are inducing BEYOND them** — a new
+class, an unclassified signal, a check born from a fresh bug — apply `RAZOR.md`'s weakness rule and adopt the
+weakest predicate consistent with the evidence, not the shape of the instance in front of you. And when an
+update narrows a playbook to its latest instance, that is **rot** — re-widen it in the same edit.
+
 ## When to write or update one (the compound trigger)
 At the END of any non-trivial **investigation** — a bug root-caused, a signal classified, a
 "is-this-a-bug-or-expected" judgment, an audit of where something is emitted. NOT for routine feature

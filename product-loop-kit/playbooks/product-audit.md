@@ -314,6 +314,28 @@ by yet.** Whenever you add a check, ask explicitly: *what could sit on this surf
 treat "the scanner is clean" as scoped to the classes it implements — write it that way in the report. Note
 that item 167 above is the same rule applied to *targets* (one hardcoded pool out of 740) while this is the
 same rule applied to *claim classes*; the shared question is "what can this check never reach?"
+
+**v2 DETECTOR RULE (2026-08-04, `RAZOR.md`): every new check born from a bug ships as the WEAKEST predicate
+consistent with known-good and known-bad — and the motivating instance becomes the check's POSITIVE CONTROL,
+not its definition.** The chain above kept recurring (148 → 159 → 166 → 173, then 212, then 219) because each
+check was induced as the *most specific* hypothesis of the last instance, which is the smallest extension
+that fits the evidence and therefore the least likely to generalise. Two worked pairs, both measured here:
+- **122 → 144.** Strong: `ABSURD_MAGNITUDE = 1e11`, induced from 122's −900,719,925,474,097.9. It cannot see
+  `apyMean30d = 36452.38798` (3.6e4) — 36× `APY_SANITY_LIMIT`, rendered as a trusted "30d Mean APY" card.
+  Weak, and it strictly contains the strong form: **any rendered figure outside the bound the product itself
+  declares — rail-relative, per-field, at every render site of the field** (class 1 above).
+- **166 → 173.** Strong: "a link must parse / the key must be routed" — shipped as `link-target-integrity`
+  and scored **0** the same morning on the 2,200 pages carrying the bug, because `?chain=Cardano` is
+  perfectly routed and simply returns nothing. Weak: **a link must DELIVER what its page claims**, simulated
+  under the target's own default filters (class 11 above). That form found **1,749 dead CTAs**.
+**So the standing question upgrades.** Not *"what could sit on this surface and still pass?"* — that only
+enumerates more instances. Ask instead: ***"what is the WEAKEST predicate that still flags this instance, and
+what stops us checking THAT?"*** Then answer the second half honestly: cost, missing parseability, a missing
+population, a missing lens (`VOCABULARY.md`). If the weak predicate is unaffordable today, ship the narrow one
+and write down the class it leaves open **with a number** — never let the narrow predicate be described as if
+it were the general one.
+**Regime note:** this applies when you are inducing a NEW check. Inside a class already documented here,
+follow the playbook first — the playbooks are the loop's non-uniform prior (`RAZOR.md`, two-regime rule).
 **Corollary for the heartbeat's surface rotation: the cheapest place to find the next defect is the surface
 you audited yesterday**, one class over. Three of the last four P0/P1s (148, 159, 166) were hand-found on
 generated surfaces on days the scanner reported nothing new, and 166 was found by re-opening the file 159
