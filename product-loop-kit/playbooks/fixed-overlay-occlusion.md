@@ -31,9 +31,17 @@ and the giveaway is that the defect exists on exactly one route.
      *top*-anchored overlay at bottom-of-scroll, which is revealable by
      scrolling up and deliberately not flagged).
 1. **Find the overlay and confirm it is opaque.** `grep -n "position: fixed" style.css`
-   → `.app-footer` (`style.css:2513-2524`): `fixed; bottom: 0; z-index: 100;`
-   with `background: var(--color-background)`. Opaque + fixed + high z-index =
-   it can hide content AND intercept clicks.
+   → the **`.app-footer` block** (find it with `grep -n '^\.app-footer {' style.css`,
+   never by a remembered line number — see the trap below): `fixed; bottom: 0;
+   z-index: 100;` with `background: var(--color-background)`. Opaque + fixed +
+   high z-index = it can hide content AND intercept clicks.
+   **Citation rot, fixed 2026-08-04 (item 224).** This step used to read
+   `style.css:2513-2524`; the block had drifted to `:2577` and the playbook was
+   wrong by 64 lines with nobody noticing. Item 221 was PARKED for the same
+   failure in the opposite direction — its in-file comment cited positions
+   BELOW itself, so editing the comment invalidated its own citations, three
+   attempts running. **Rule: cite SELECTORS for anything inside a file that
+   this class's fixes routinely edit; keep line numbers only for other files.**
 2. **Find the shared clearance.** `grep -n "Space for footer" style.css` →
    `.app { padding-bottom: 80px }` (`style.css:849-853`). This is the ONLY
    padding `.app` carries anywhere in the design system — verify with
@@ -62,6 +70,27 @@ and the giveaway is that the defect exists on exactly one route.
    whose root is not `.app` has **zero** clearance, at every scroll position —
    the worst version of this defect, and the one with the quietest signature
    (nothing to grep, nothing that ever regressed; it was born broken).
+3c. **If the clearance IS inherited and IS correct, check that the view is in
+   the LAYOUT STATE its content implies** (added 2026-08-04, item 224). Steps 3
+   and 3b cover "clearance taken away" and "clearance never applied". There is
+   a fourth root cause: the clearance applies correctly and is simply the wrong
+   tool, because the root's **class predicate is narrower than the predicate
+   that renders the content**. `app.js:3001` sets `has-results` from
+   `(selectedToken || (chainMode && selectedChain))`; `app.js:3299` renders the
+   whole `.results-section` from the WIDER `(… || deadPoolResolved)`. Two
+   copies of one idea, disagreeing on one term — so the dead-`?pool=` view
+   renders results markup while rooting at `.app` *without* `.has-results`,
+   lands in the centred-homepage flex layout, and is missed by every fix that
+   keys on a results class.
+   **Decision rule:** whenever a root class and a render branch both encode
+   "are we showing X", diff the two predicates before reading any CSS. If they
+   disagree, the states in the gap are the defect surface — and prefer a
+   selector derived from the RENDER (`:has(.results-section)`) over a second
+   hand-maintained class, which is just a third copy of the same predicate
+   (item 212's mirror lesson).
+   **Cheap detector:** `grep -n "className: \`app " app.js` next to
+   `grep -n "results-section" app.js` and compare the two conditions by eye —
+   it is a 30-second check that would have caught this before any browser ran.
 4. **Measure BOTH scroll positions — this is the step that gets skipped.**
    - `scrollY = 0` (first paint, what the user sees before touching anything)
    - true bottom (`scrollTo(0, documentElement.scrollHeight)`, looped until
@@ -146,12 +175,58 @@ and the giveaway is that the defect exists on exactly one route.
   `landing.js:356` (rooted `div.landing-app`, `landing.js:244`). The two app.js
   roots DO match `.app`, so they carry the shared clearance; landing was the
   only never-inherited route, and 220 fixed it. Planner mode renders no fixed
-  `.app-footer` at all (`style.css`'s `seo-hub-links` comment). **So this class
-  is closed as of 2026-08-04** — re-run the three-site grep when a new route is
-  added, and treat any root that is not `.app` as broken until measured.
+  `.app-footer` at all (`style.css`'s `seo-hub-links` comment). ~~So this class
+  is closed as of 2026-08-04~~ — **RETRACTED THE SAME DAY, twice over: item 221
+  found the `.app.has-results` grid occluded (a `calculate-yield-btn-new` 98.8%
+  covered at 1280×780) and item 224 found the dead-`?pool=` state occluded at
+  every design width. The sweep was sound and its conclusion was still wrong,
+  because it asked the wrong question.** It enumerated RENDER SITES (3) and
+  checked each root against the clearance SELECTOR — and both `app.js` roots
+  passed, because they genuinely do match `.app` and genuinely do inherit the
+  80px. What it never asked is the question step 4 asks: **does that clearance
+  actually protect this view's content, at rest?** Clearance only ever protects
+  the END of the document, so "the root matches `.app`" is not a proof of
+  anything for mid-document content. **The population is not render sites, it is
+  render sites × `.app` STATES** — `.app.has-results`, `.app.pool-detail-view`,
+  `.app` bare with a `.results-section` (dead-pool), `.app` bare without one
+  (search-home) — and the state, not the site, is what decides the layout the
+  footer lands in. Enumerate states and MEASURE each; never close this class
+  from a selector match again.
+- **Clearance correct, layout state wrong (item 224, RESOLVED 2026-08-04):** the
+  view inherits the 80px properly and is still occluded mid-document, because
+  its root class predicate is narrower than its render predicate (step 3c). The
+  218 resolution applies again, but scoped by what the view RENDERS rather than
+  by a class somebody has to remember to set:
+  ```css
+  .app:not(.has-results):has(.results-section) .app-footer { position: static; }
+  .app:not(.has-results):has(.results-section) { padding-bottom: 0; }
+  ```
+  **Three things worth knowing before you copy it:** (a) `:has()` is the point —
+  it derives the guard from the render, so the next state that shows results
+  without setting `has-results` is covered with no code change; `style.css`
+  already shipped `:has()` elsewhere and `minify-assets.js` preserves it.
+  (b) `margin-top: auto` — mandatory in 218/220 — is **wrong here**, and this is
+  the first route where the sticky-footer idiom is live yet still loses: the
+  state is a `justify-content: center` flex column, so an auto top margin eats
+  all the free space and top-aligns the empty-state message by **300px** on a
+  short-content page, against **6px** for `position: static` alone. Measure both
+  on a short-content fixture (all alternatives below the TVL floor → empty grid)
+  before choosing; the long-content case cannot tell them apart, since free
+  space is zero there and the two variants render identically.
+  (c) In flow the footer becomes a **centred ~356px block, not a full-width
+  bar** — expected, not a regression: pool-detail has shipped exactly
+  `{x:462, w:356, h:69}` at 1280 since 218. Diff against that surface, not
+  against the fixed-bar look, or you will file your own fix as a bug.
 
 ## Traps
 
+- **`git checkout -- <file>` is the WRONG restore in a non-vacuity cycle** (item
+  224). Every fix in this class mutates the shipped `style.min.css` to prove the
+  new gate can go red — but at that moment the fix itself is still uncommitted,
+  so `git checkout` restores the PRE-FIX file and silently throws the fix away.
+  The subsequent "green" then measures a different tree than the one you are
+  shipping. Take a `cp` backup right after the pre-mutation `md5sum`, restore
+  from that, and `md5sum` both.
 - **"Scrolled to the bottom" usually hasn't.** `document.body.scrollHeight`
   ≠ `documentElement.scrollHeight`; content settles after mount. Loop the
   scroll, then assert arrival.
@@ -236,4 +311,17 @@ the two traps above: the clipped-not-covered (`elementFromPoint → null`)
 variant, and the accidental-clearance trap its own attempt 1 fell into:
 `specs/222.md` (see its attempt-2 ADDENDUM), `specs/222-notes.md`,
 `specs/222-pr.md`, `test_mobile_controls_reachable.js`,
-LOG.md 2026-08-04 build | 222.
+LOG.md 2026-08-04 build | 222. (That paragraph's item numbers are as filed —
+the control-pressability work shipped as **222**; **221** is the separate
+grid-footer item, PARKED at its attempt budget with PR #386 open.) Updated
+2026-08-04 by **224**, the sixth member and the one that retracted this
+playbook's own "class closed" claim: the dead-`?pool=` empty state inherits the
+clearance correctly and is occluded anyway, because the root's class predicate
+(`app.js:3001`) is narrower than its render predicate (`app.js:3299`). Added
+the layout-state root cause (step 3c), its `:has()`-scoped resolution, the
+`margin-top: auto` disqualification with numbers, the retraction of the
+render-site-enumeration sweep in favour of enumerating `.app` STATES, the
+`git checkout` non-vacuity trap, and the citation-rot rule (this playbook's own
+`.app-footer` line reference had been wrong by 64 lines; item 221 was parked
+over the same rot in `style.css`): `specs/224.md`, `specs/224-notes.md`,
+`specs/224-pr.md`, `test_dead_pool.js`, LOG.md 2026-08-04 build | 224.
