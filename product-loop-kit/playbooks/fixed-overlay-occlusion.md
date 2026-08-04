@@ -45,6 +45,23 @@ and the giveaway is that the defect exists on exactly one route.
    `.pool-detail-container` 16-20px) is smaller than the measured overlay
    height (58px ≤768px, 69px at 1280px), the bottom band of that view is
    permanently occluded.
+3b. **If NOBODY cancels it, do not conclude the view is safe — check that the
+   view MATCHES the clearance selector at all** (added 2026-08-04, item 220).
+   Step 3 assumes the clearance was inherited and then taken away. There is a
+   third root cause it cannot see: a route whose root element carries a
+   DIFFERENT class, so the shared rule never applied in the first place and
+   there is no canceller to grep for. `.app { padding-bottom: 80px }` is
+   class-scoped; the landing route roots at `<div class="landing-app">`
+   (`landing.js:244`) while rendering the very same `.app-footer`
+   (`landing.js:356`), and `grep -n "\.landing-app" style.css` returns
+   **zero matches** — no rule in the shared sheet targets it at all.
+   **Decision rule:** for each route, get the root element's real class list
+   from the RENDER (`document.querySelector('[data-mode]').className`, or read
+   the `e('div', { className: … })` at the route's mount), then confirm that
+   class actually matches the clearance selector. A route rendering `.app-footer`
+   whose root is not `.app` has **zero** clearance, at every scroll position —
+   the worst version of this defect, and the one with the quietest signature
+   (nothing to grep, nothing that ever regressed; it was born broken).
 4. **Measure BOTH scroll positions — this is the step that gets skipped.**
    - `scrollY = 0` (first paint, what the user sees before touching anything)
    - true bottom (`scrollTo(0, documentElement.scrollHeight)`, looped until
@@ -95,9 +112,43 @@ and the giveaway is that the defect exists on exactly one route.
   Rewrite it to reproduce the full pre-fix state (here: `position: fixed`
   restored AND clearance cancelled) and leave every other assertion in that
   file untouched, so the diff shows exactly one hunk to scrutinise.
+- **Never inherited the clearance (item 220, RESOLVED 2026-08-04):** the route's
+  root is a different class, so there is no canceller and no regression — the
+  view never had clearance. Both defect shapes are present at once: content
+  occluded at REST *and* at bottom-of-scroll. Because the at-rest half is
+  mid-document, the 218 resolution above is the one that applies — clearance
+  alone cannot fix it, so the overlay leaves the fixed layer on that view:
+  ```css
+  .landing-app .app-footer { position: static; margin-top: auto; }
+  ```
+  **Two things that differ from 218, both worth knowing before you copy it:**
+  (a) there is NO companion `padding-bottom: 0` here, and its absence is correct
+  rather than an omission — 218 needed one only to cancel the 80px item 217 had
+  just restored, whereas a never-inherited route has nothing to cancel. Say so
+  in the notes; a reviewer diffing against 218's shape will otherwise read it as
+  a missing line. (b) Check whether the route's sheet even HAS a `.min` twin
+  before reaching for `npm run minify`: `landing-styles.css` is absent from
+  `minify-assets.js`'s `CSS_FILES` and `home.html` injects the RAW sheet for
+  landing mode, so the 136/061 minify trap does not apply on this one route.
+  Verify per route; do not generalise either way.
 - **Fixed on one route only:** grep for the same pattern on every OTHER route
   before closing. Item 179 fixed this class on bare `/` and nobody ported it;
-  217 then paid for it on pool-detail 20 days later.
+  217 then paid for it on pool-detail 20 days later; 218 the day after that; and
+  **220 paid for it a third time on bare `/` itself** — the very route 179 filed.
+  The port was never done because step 3's "who cancels it" grep comes back
+  EMPTY on a never-inherited route (step 3b), so the route reads clean.
+  **The check that actually closes this class is step 3b run over every route
+  that renders `.app-footer`, not a grep for cancellers.**
+  **Swept 2026-08-04 (item 220), result recorded so nobody repeats it:**
+  `grep -n "app-footer" *.js *.html | grep className` gives exactly THREE render
+  sites — `app.js:2981` (rooted `div.app.pool-detail-view`, `app.js:2955`),
+  `app.js:3533` (rooted ``div.app ${…has-results}``, `app.js:3001`) and
+  `landing.js:356` (rooted `div.landing-app`, `landing.js:244`). The two app.js
+  roots DO match `.app`, so they carry the shared clearance; landing was the
+  only never-inherited route, and 220 fixed it. Planner mode renders no fixed
+  `.app-footer` at all (`style.css`'s `seo-hub-links` comment). **So this class
+  is closed as of 2026-08-04** — re-run the three-site grep when a new route is
+  added, and treat any root that is not `.app` as broken until measured.
 
 ## Traps
 
@@ -143,4 +194,10 @@ fix (footer in flow on pool-detail + the positive-control rot rule):
 2026-08-04 when **219 leg (a)** turned this playbook's manual method into a
 daily machine lens (step 0 + the amended DOM-blind-spot trap):
 `specs/219.md`, `specs/219-notes.md`, `specs/219-pr.md`,
-`test_audit_occlusion_lens.js`, LOG.md 2026-08-04 build | 219.
+`test_audit_occlusion_lens.js`, LOG.md 2026-08-04 build | 219. Updated
+2026-08-04 when **220** fixed the FIRST defect that lens found on a real
+surface — the landing route, whose root class never matched the shared
+clearance selector at all — adding the never-inherited root cause (step 3b),
+its resolution, and the reason the 179 port kept failing:
+`specs/220.md`, `specs/220-notes.md`, `specs/220-pr.md`,
+`test_landing_footer_occlusion.js`, LOG.md 2026-08-04 build | 220.
