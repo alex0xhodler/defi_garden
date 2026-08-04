@@ -460,9 +460,9 @@ function PoolDetail({
           gap: '10px',
           padding: '0 20px',
           height: '40px', // Match toggle height
-          background: 'var(--color-background)',
-          borderRadius: 'var(--neuro-radius-lg)',
-          boxShadow: 'var(--neuro-shadow-pressed)',
+          background: 'var(--ui-surface-muted)',
+          border: '1px solid var(--ui-border)',
+          borderRadius: 'var(--ui-radius-pill)',
           fontSize: 'var(--font-size-sm)',
           fontWeight: 'var(--font-weight-medium)',
           color: 'var(--color-text)'
@@ -518,10 +518,10 @@ function PoolDetail({
     React.createElement('div', {
       className: 'pool-hero-card animate-on-mount',
       style: {
-        background: 'var(--color-background)',
-        borderRadius: 'var(--neuro-radius-lg)',
+        background: 'var(--color-surface)',
+        border: '1px solid var(--ui-border)',
+        borderRadius: 'var(--ui-radius-lg)',
         padding: '32px',
-        boxShadow: 'var(--neuro-shadow-raised)',
         marginBottom: '24px',
         position: 'relative',
         overflow: 'hidden'
@@ -595,13 +595,13 @@ function PoolDetail({
             style: {
               display: 'inline-flex',
               alignItems: 'center',
-              background: 'var(--color-background)',
+              background: 'var(--ui-surface-muted)',
               color: 'var(--color-primary)',
               padding: '8px 16px',
-              borderRadius: 'var(--neuro-radius-lg)',
+              border: '1px solid var(--ui-border)',
+              borderRadius: 'var(--ui-radius-pill)',
               fontSize: 'var(--font-size-sm)',
               fontWeight: 'var(--font-weight-medium)',
-              boxShadow: 'var(--neuro-shadow-pressed)',
               textTransform: 'uppercase',
               letterSpacing: '0.5px'
             }
@@ -623,11 +623,11 @@ function PoolDetail({
                 alignItems: 'center',
                 gap: '4px',
                 padding: '4px 8px',
-                background: 'var(--color-background)',
-                borderRadius: 'var(--neuro-radius-md)',
+                background: 'var(--ui-surface-muted)',
+                border: '1px solid var(--ui-border)',
+                borderRadius: 'var(--ui-radius-pill)',
                 fontSize: 'var(--font-size-xs)',
-                color: 'var(--color-success)',
-                boxShadow: 'var(--neuro-shadow-pressed)'
+                color: 'var(--color-success)'
               }
             }, t ? t('verified') : '✓ Verified'),
             React.createElement('div', {
@@ -636,11 +636,11 @@ function PoolDetail({
                 display: 'inline-flex',
                 alignItems: 'center',
                 padding: '4px 8px',
-                background: 'var(--color-background)',
-                borderRadius: 'var(--neuro-radius-md)',
+                background: 'var(--ui-surface-muted)',
+                border: '1px solid var(--ui-border)',
+                borderRadius: 'var(--ui-radius-pill)',
                 fontSize: 'var(--font-size-xs)',
-                color: 'var(--color-text-secondary)',
-                boxShadow: 'var(--neuro-shadow-pressed)'
+                color: 'var(--color-text-secondary)'
               }
             },
               AnimatedNumber ? React.createElement(AnimatedNumber, {
@@ -670,11 +670,11 @@ function PoolDetail({
                 display: 'inline-flex',
                 alignItems: 'center',
                 padding: '4px 8px',
-                background: 'var(--color-background)',
-                borderRadius: 'var(--neuro-radius-md)',
+                background: 'var(--ui-surface-muted)',
+                border: '1px solid var(--ui-border)',
+                borderRadius: 'var(--ui-radius-pill)',
                 fontSize: 'var(--font-size-xs)',
-                color: riskAssessment.color,
-                boxShadow: 'var(--neuro-shadow-pressed)'
+                color: riskAssessment.color
               }
             }, `${t ? t('riskAssessment') : 'Risk Assessment'}: ${riskAssessment.level}`)
           )
@@ -722,9 +722,9 @@ function PoolDetail({
           React.createElement('div', {
             className: 'rate-volatility-note',
             style: {
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-sm)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
+              background: 'var(--ui-surface-muted)',
+              border: '1px solid var(--ui-border)',
+              borderRadius: 'var(--ui-radius-sm)',
               color: 'var(--color-text-secondary)',
               fontSize: 'var(--font-size-sm)',
               lineHeight: '1.5',
@@ -747,9 +747,9 @@ function PoolDetail({
           React.createElement('div', {
             className: 'rate-track-record-note',
             style: {
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-sm)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
+              background: 'var(--ui-surface-muted)',
+              border: '1px solid var(--ui-border)',
+              borderRadius: 'var(--ui-radius-sm)',
               color: 'var(--color-text-secondary)',
               fontSize: 'var(--font-size-sm)',
               lineHeight: '1.5',
@@ -789,9 +789,9 @@ function PoolDetail({
           React.createElement('div', {
             className: 'rate-history-unavailable-note',
             style: {
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-sm)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
+              background: 'var(--ui-surface-muted)',
+              border: '1px solid var(--ui-border)',
+              borderRadius: 'var(--ui-radius-sm)',
               color: 'var(--color-text-secondary)',
               fontSize: 'var(--font-size-sm)',
               lineHeight: '1.5',
@@ -853,10 +853,10 @@ function PoolDetail({
     React.createElement('div', {
       className: `calculator-compact animate-on-mount ${calculatorExpanded ? 'expanded' : ''}`,
       style: {
-        background: 'var(--color-background)',
-        borderRadius: 'var(--neuro-radius-lg)',
+        background: 'var(--color-surface)',
+        border: '1px solid var(--ui-border)',
+        borderRadius: 'var(--ui-radius-lg)',
         padding: calculatorExpanded ? '24px' : '20px',
-        boxShadow: calculatorExpanded ? 'var(--neuro-shadow-raised)' : 'var(--neuro-shadow-pressed)',
         marginBottom: '32px',
         transition: 'all 0.3s ease'
       }
@@ -903,8 +903,8 @@ function PoolDetail({
             width: '32px',
             height: '32px',
             borderRadius: '50%',
-            background: 'var(--color-background)',
-            boxShadow: 'var(--neuro-shadow-subtle)',
+            background: 'var(--color-surface)',
+            border: '1px solid var(--ui-border)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -967,14 +967,13 @@ function PoolDetail({
               style: {
                 width: '180px',
                 padding: '12px 16px',
-                border: 'none',
-                borderRadius: 'var(--neuro-radius-md)',
-                background: 'var(--color-background)',
+                border: '1px solid var(--ui-border-strong)',
+                borderRadius: 'var(--ui-radius-md)',
+                background: 'var(--color-surface)',
                 color: 'var(--color-text)',
                 fontSize: 'var(--font-size-lg)',
                 fontWeight: 'var(--font-weight-medium)',
                 textAlign: 'center',
-                boxShadow: 'var(--neuro-shadow-pressed)',
                 outline: 'none'
               }
             })
@@ -1006,25 +1005,24 @@ function PoolDetail({
                 },
                 onMouseEnter: (e) => {
                   if (investmentAmount !== amount) {
-                    e.target.style.boxShadow = 'var(--neuro-shadow-flat)';
+                    e.target.style.borderColor = 'var(--ui-border-strong)';
                     e.target.style.transform = 'translateY(-1px)';
                   }
                 },
                 onMouseLeave: (e) => {
                   if (investmentAmount !== amount) {
-                    e.target.style.boxShadow = 'var(--neuro-shadow-subtle)';
+                    e.target.style.borderColor = 'var(--ui-border)';
                     e.target.style.transform = 'translateY(0)';
                   }
                 },
                 style: {
                   padding: '8px 16px',
-                  border: 'none',
-                  borderRadius: 'var(--neuro-radius-md)',
-                  background: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-surface)',
-                  color: investmentAmount === amount ? 'white' : 'var(--color-text)',
+                  border: investmentAmount === amount ? '1px solid var(--ui-accent-border)' : '1px solid var(--ui-border)',
+                  borderRadius: 'var(--ui-radius-pill)',
+                  background: investmentAmount === amount ? 'var(--ui-accent-soft)' : 'var(--color-surface)',
+                  color: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-text)',
                   fontSize: 'var(--font-size-sm)',
                   fontWeight: investmentAmount === amount ? 'var(--font-weight-semibold)' : 'var(--font-weight-medium)',
-                  boxShadow: 'var(--neuro-shadow-subtle)',
                   transition: 'all 0.2s ease',
                   cursor: 'pointer',
                   whiteSpace: 'nowrap',
@@ -1048,10 +1046,10 @@ function PoolDetail({
         React.createElement('div', {
           className: 'metric-card-simple pool-projection-card',
           style: {
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-lg)',
+            background: 'var(--ui-surface-muted)',
+            border: '1px solid var(--ui-border)',
+            borderRadius: 'var(--ui-radius-lg)',
             padding: '24px',
-            boxShadow: 'var(--neuro-shadow-raised)',
             marginBottom: '24px',
             textAlign: 'center'
           }
@@ -1106,10 +1104,10 @@ function PoolDetail({
             display: 'flex',
             gap: '4px',
             marginBottom: '24px',
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-md)',
-            padding: '4px',
-            boxShadow: 'var(--neuro-shadow-pressed)'
+            background: 'var(--ui-surface-sunken)',
+            border: '1px solid var(--ui-border)',
+            borderRadius: 'var(--ui-radius-md)',
+            padding: '4px'
           }
         },
           ['1day', '7days', '30days'].map(tab => {
@@ -1124,26 +1122,23 @@ function PoolDetail({
               onClick: () => setActiveCalculatorTab(tab),
               onMouseEnter: (e) => {
                 if (activeCalculatorTab !== tab) {
-                  e.target.style.boxShadow = 'var(--neuro-shadow-flat)';
-                  e.target.style.transform = 'translateY(-1px)';
+                  e.target.style.borderColor = 'var(--ui-border-strong)';
                 }
               },
               onMouseLeave: (e) => {
                 if (activeCalculatorTab !== tab) {
-                  e.target.style.boxShadow = 'var(--neuro-shadow-raised)';
-                  e.target.style.transform = 'translateY(0)';
+                  e.target.style.borderColor = 'transparent';
                 }
               },
               style: {
                 flex: 1,
                 padding: '8px 12px',
-                border: 'none',
-                borderRadius: 'var(--neuro-radius-md)',
-                background: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-surface)',
-                color: activeCalculatorTab === tab ? 'white' : 'var(--color-text)',
+                border: activeCalculatorTab === tab ? '1px solid var(--ui-accent-border)' : '1px solid transparent',
+                borderRadius: 'var(--ui-radius-pill)',
+                background: activeCalculatorTab === tab ? 'var(--ui-accent-soft)' : 'transparent',
+                color: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-text)',
                 fontSize: 'var(--font-size-sm)',
                 fontWeight: activeCalculatorTab === tab ? 'var(--font-weight-semibold)' : 'var(--font-weight-medium)',
-                boxShadow: 'var(--neuro-shadow-subtle)',
                 transition: 'all 0.2s ease',
                 cursor: 'pointer',
                 whiteSpace: 'nowrap',
@@ -1159,11 +1154,11 @@ function PoolDetail({
         // Primary Yield Result (based on selected tab)
         React.createElement('div', {
           style: {
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-lg)',
+            background: 'var(--ui-surface-muted)',
+            border: '1px solid var(--ui-border)',
+            borderRadius: 'var(--ui-radius-lg)',
             padding: '24px',
             textAlign: 'center',
-            boxShadow: 'var(--neuro-shadow-raised)',
             marginBottom: '16px'
           }
         },
@@ -1318,10 +1313,10 @@ function PoolDetail({
     React.createElement('div', {
       className: `pool-info-section animate-on-mount ${poolInfoExpanded ? 'expanded' : ''}`,
       style: {
-        background: 'var(--color-background)',
-        borderRadius: 'var(--neuro-radius-lg)',
+        background: 'var(--color-surface)',
+        border: '1px solid var(--ui-border)',
+        borderRadius: 'var(--ui-radius-lg)',
         padding: poolInfoExpanded ? '24px' : '20px',
-        boxShadow: poolInfoExpanded ? 'var(--neuro-shadow-raised)' : 'var(--neuro-shadow-pressed)',
         marginBottom: '32px',
         transition: 'all 0.3s ease'
       }
@@ -1363,13 +1358,13 @@ function PoolDetail({
               alignItems: 'center',
               gap: '4px',
               padding: '4px 8px',
-              background: 'var(--color-background)',
+              background: 'var(--ui-surface-muted)',
               color: 'var(--color-primary)',
               textDecoration: 'none',
-              borderRadius: 'var(--neuro-radius-sm)',
+              border: '1px solid var(--ui-border)',
+              borderRadius: 'var(--ui-radius-pill)',
               fontSize: 'var(--font-size-xs)',
               fontWeight: 'var(--font-weight-medium)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
               transition: 'all 0.2s ease'
             }
           }, t ? t('protocol') : 'Protocol↗')
@@ -1380,8 +1375,8 @@ function PoolDetail({
             width: '28px',
             height: '28px',
             borderRadius: '50%',
-            background: 'var(--color-background)',
-            boxShadow: 'var(--neuro-shadow-subtle)',
+            background: 'var(--color-surface)',
+            border: '1px solid var(--ui-border)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -1420,9 +1415,9 @@ function PoolDetail({
         React.createElement('div', {
           className: 'rate-momentum-note',
           style: {
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-sm)',
-            boxShadow: 'var(--neuro-shadow-subtle)',
+            background: 'var(--ui-surface-muted)',
+            border: '1px solid var(--ui-border)',
+            borderRadius: 'var(--ui-radius-sm)',
             color: 'var(--color-text-secondary)',
             fontSize: 'var(--font-size-sm)',
             lineHeight: '1.5',
@@ -1467,9 +1462,9 @@ function PoolDetail({
         React.createElement('div', {
           className: 'tvl-trend-note',
           style: {
-            background: 'var(--color-background)',
-            borderRadius: 'var(--neuro-radius-sm)',
-            boxShadow: 'var(--neuro-shadow-subtle)',
+            background: 'var(--ui-surface-muted)',
+            border: '1px solid var(--ui-border)',
+            borderRadius: 'var(--ui-radius-sm)',
             color: 'var(--color-text-secondary)',
             fontSize: 'var(--font-size-sm)',
             lineHeight: '1.5',
@@ -1508,9 +1503,9 @@ function PoolDetail({
           React.createElement('div', {
             style: {
               padding: '12px',
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-sm)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
+              background: 'var(--ui-surface-muted)',
+              border: '1px solid var(--ui-border)',
+              borderRadius: 'var(--ui-radius-sm)',
               textAlign: 'center'
             }
           },
@@ -1535,9 +1530,9 @@ function PoolDetail({
           mean30dSane && React.createElement('div', {
             style: {
               padding: '12px',
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-sm)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
+              background: 'var(--ui-surface-muted)',
+              border: '1px solid var(--ui-border)',
+              borderRadius: 'var(--ui-radius-sm)',
               textAlign: 'center'
             }
           },
@@ -1562,9 +1557,9 @@ function PoolDetail({
           pool.exposure && React.createElement('div', {
             style: {
               padding: '12px',
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-sm)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
+              background: 'var(--ui-surface-muted)',
+              border: '1px solid var(--ui-border)',
+              borderRadius: 'var(--ui-radius-sm)',
               textAlign: 'center'
             }
           },
@@ -1590,9 +1585,9 @@ function PoolDetail({
           pool.ilRisk && React.createElement('div', {
             style: {
               padding: '12px',
-              background: 'var(--color-background)',
-              borderRadius: 'var(--neuro-radius-sm)',
-              boxShadow: 'var(--neuro-shadow-subtle)',
+              background: 'var(--ui-surface-muted)',
+              border: '1px solid var(--ui-border)',
+              borderRadius: 'var(--ui-radius-sm)',
               textAlign: 'center'
             }
           },
@@ -1650,11 +1645,11 @@ function PoolDetail({
                   display: 'inline-flex',
                   alignItems: 'center',
                   padding: '6px 10px',
-                  background: 'var(--color-background)',
-                  borderRadius: 'var(--neuro-radius-sm)',
+                  background: 'var(--ui-surface-muted)',
+                  border: '1px solid var(--ui-border)',
+                  borderRadius: 'var(--ui-radius-pill)',
                   fontSize: 'var(--font-size-xs)',
                   fontWeight: 'var(--font-weight-medium)',
-                  boxShadow: 'var(--neuro-shadow-subtle)',
                   fontFamily: 'monospace'
                 };
                 const address = classified.address;
@@ -1702,12 +1697,12 @@ function PoolDetail({
                 key: idx,
                 style: {
                   padding: '6px 10px',
-                  background: 'var(--color-background)',
+                  background: 'var(--ui-surface-muted)',
                   color: 'var(--color-text)',
-                  borderRadius: 'var(--neuro-radius-sm)',
+                  border: '1px solid var(--ui-border)',
+                  borderRadius: 'var(--ui-radius-pill)',
                   fontSize: 'var(--font-size-xs)',
-                  fontWeight: 'var(--font-weight-medium)',
-                  boxShadow: 'var(--neuro-shadow-subtle)'
+                  fontWeight: 'var(--font-weight-medium)'
                 }
               }, token);
             })
