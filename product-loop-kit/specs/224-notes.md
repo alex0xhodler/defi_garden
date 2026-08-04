@@ -375,3 +375,58 @@ Two process notes worth carrying forward, both from mistakes made in this very r
 2. A first attempt at the smuggling mutation failed to apply at all (shell quoting mangled the heredoc),
    and the test then passed — which would have read as "the guard doesn't catch smuggling" if the applied
    diff hadn't been checked. **Always confirm the mutation actually landed before believing its verdict.**
+
+## Verifier round 3 — FAIL, attempt budget exhausted, item PARKED
+
+**What round 3 found.** The marker mechanism itself held: the verifier ran six distinct extension probes
+against it (marker malformed, nested, reordered, duplicated, fence removed, trailing prose on the marker
+line) and every one failed loudly and correctly, and the three round-2 prefix drifts (`FROM agent_read`,
+`select`, `ua_famly`) now go RED on byte-identity inside the marked region. **Rounds 1 and 2 are genuinely
+closed** — that is the verifier's own wording.
+
+The remaining defect is in the SECONDARY anti-smuggling backstop, which is a per-line scan
+(`/FROM\s+agent_reads/i` over `deployMd.split('\n')`). A second, unmarked, genuinely drifted copy of the
+runnable command added elsewhere in `edge/DEPLOY.md` evades it whenever `FROM` and `agent_reads` do not
+land on the same physical line — demonstrated with an ordinary SQL reflow:
+
+```
+FROM
+agent_reads
+```
+
+→ `node test_agent_log.js` exit 0, `769/769`, console printing "no unmarked copies found", while a copy
+with a wrong `ORDER BY ... ASC` sat undetected in the file. The same copy written on one line IS caught.
+That is not an adversarial trick — it is how someone would reasonably reformat SQL.
+
+And the disclosure overstates it in two of the five places: `edge/DEPLOY.md` §6 ("fails if any OTHER line
+in this file, outside a marked region, looks like a second, unmarked copy of this query") and
+`specs/224-pr.md` ("flags any OTHER, unmarked line outside that region that looks like a smuggled second
+copy"). Both "what this does NOT catch" notes name only allowlist evasion and never mention that a line
+break defeats the check. `edge/agent-log-core.js` and `edge/schema.sql` are worded conservatively enough
+to be accurate.
+
+**The fix the verifier specified** (for whoever picks this up): strip the marked regions from the text,
+collapse ALL whitespace runs including newlines to single spaces in the remainder, then test
+`/FROM\s+agent_reads/i` against that normalized full text rather than per raw line — keeping the exact-line
+allowlist working against the same normalization. Then correct the two overstated sentences, and use the
+line-split smuggled copy as the non-vacuity proof alongside the existing ones.
+
+**Why this is PARKED and not fixed.** NORTH_STAR's budget is 3 build-loop attempts per item, then park with
+notes (`prompts/build.md` §4: "Parking is success — an honest dead-end recorded beats a fourth blind
+attempt"). This was attempt 3. The fix above is precise rather than blind, so parking here is a budget
+decision, not a technical dead-end — and that is exactly the call the budget exists to hand back to the
+human.
+
+**What the human is actually deciding.** The Worker — the thing item 224 exists to build — passed all six
+of the spec's acceptance criteria in all three rounds, independently re-derived each time: pass-through
+byte parity (extended to streaming bodies), D1-outage and thrown-classifier robustness, shape-based
+classification verified against brand-new directories/routes/UAs, real-estate population tests, and the
+runbook. Nothing the verifier found in any round touched it. All three FAILs were about a documentation
+mirror the loop invented under the razor rule — the spec asked only that the heartbeat read be
+"documented". So the choice is:
+- **Merge PR #392 as it stands** — ships the verified instrument; the residual is that a hypothetical
+  future unmarked copy of one SQL query in one runbook could drift undetected if reflowed across lines.
+- **Let the next run apply the named fix first** — cheap and specific, but the instrument stays unbuilt
+  until then, and leg (A) of the north star stays unreadable meanwhile.
+
+Either way the deploy is human-owned and unchanged: `edge/DEPLOY.md`.
