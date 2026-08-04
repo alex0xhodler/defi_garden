@@ -1,10 +1,10 @@
 # SUSDAT DeFi Yields
 
-The highest honest SUSDAT yield right now is 21.84% on saturn (Ethereum), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDAT yield right now is 22.01% on saturn (Ethereum), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 21.84% | $80.75M |
+| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 22.01% | $80.11M |
 | [pendle →](https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token) | BSC | 7.80% | $3.41M |
 | [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 13.73% | $3.41M |
 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 11.35% | $3.35M |
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSDAT yield today?
 
-21.84% APY on saturn (Ethereum), based on live DefiLlama data.
+22.01% APY on saturn (Ethereum), based on live DefiLlama data.
 
 ### How many SUSDAT pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $114.94M in total.
+15 live pools clear this page's $100K TVL floor, $114.43M in total.
 
 ### Are these rates safe?
 

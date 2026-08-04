@@ -1,11 +1,11 @@
 # HWHLP 디파이 수익률
 
-현재 HWHLP의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperwave에서 0.40%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HWHLP의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperwave에서 0.37%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hyperwave →](https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d&src=seo_token) | Hyperliquid L1 | 0.40% | $654.1K |
-| [hyperwave →](https://www.defi.garden/?pool=5de6008f-1be1-4ce6-b5f5-025bec262bc1&src=seo_token) | Ethereum | 0.40% | $126.7K |
+| [hyperwave →](https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d&src=seo_token) | Hyperliquid L1 | 0.37% | $654.1K |
+| [hyperwave →](https://www.defi.garden/?pool=5de6008f-1be1-4ce6-b5f5-025bec262bc1&src=seo_token) | Ethereum | 0.37% | $126.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 HWHLP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperwave에서 APY 0.40%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperwave에서 APY 0.37%예요.
 
 ### HWHLP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

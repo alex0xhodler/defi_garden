@@ -1,8 +1,8 @@
 # SFLR — sceptre-liquid on Flare
 
-**Total APY:** 8.23% (8.23% Base · + 0.00% Rewards)
+**Total APY:** 8.84% (8.84% Base · + 0.00% Rewards)
 
-**TVL:** $14.82M
+**TVL:** $14.85M
 
 **Pool Type:** Yield Farming
 
@@ -20,13 +20,13 @@ Conservative DeFi strategy
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,485 in 5y at current rates.
+$1,000 in this pool grows to ~$1,527 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 Steady so far: across the 22 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,485 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,527 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on sceptre-liquid](https://flare.sceptre.fi/?ref=defi.garden)
 

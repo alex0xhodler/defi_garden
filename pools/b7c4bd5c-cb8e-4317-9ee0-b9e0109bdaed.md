@@ -1,6 +1,6 @@
 # AIOZ-WETH — uniswap-v3 on Ethereum
 
-**Total APY:** 2.12% (2.12% Base · + 0.00% Rewards)
+**Total APY:** 2.13% (2.13% Base · + 0.00% Rewards)
 
 **TVL:** $1.04M
 

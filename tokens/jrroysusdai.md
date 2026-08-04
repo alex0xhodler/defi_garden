@@ -1,10 +1,10 @@
 # JRROYSUSDAI DeFi Yields
 
-The highest honest JRROYSUSDAI yield right now is 8.73% on royco-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRROYSUSDAI yield right now is 8.72% on royco-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=70192414-13bd-53c0-8fbe-81a716832a21&src=seo_token) | Arbitrum | 8.73% | $134.8K |
+| [royco-v2 →](https://www.defi.garden/?pool=70192414-13bd-53c0-8fbe-81a716832a21&src=seo_token) | Arbitrum | 8.72% | $134.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRROYSUSDAI yield today?
 
-8.73% APY on royco-v2 (Arbitrum), based on live DefiLlama data.
+8.72% APY on royco-v2 (Arbitrum), based on live DefiLlama data.
 
 ### How many JRROYSUSDAI pools clear the TVL floor?
 

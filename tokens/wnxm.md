@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WNXM pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.79M in total.
+4 live pools clear this page's $100K TVL floor, $1.8M in total.
 
 ### Are these rates safe?
 

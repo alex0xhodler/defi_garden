@@ -5,7 +5,7 @@ The highest honest CTFRONTIERUSDC yield right now is 11.61% on concrete (Ethereu
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [concrete →](https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f&src=seo_token) | Ethereum | 8.52% | $1.18M |
-| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf&src=seo_token) | Ethereum | 11.61% | $457.2K |
+| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf&src=seo_token) | Ethereum | 11.61% | $457.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

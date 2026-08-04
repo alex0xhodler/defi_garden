@@ -4,8 +4,8 @@ The highest honest CEUR yield right now is 1.00% on uniswap-v3 (Celo), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5244316f-be8f-4179-af73-f6248d74c2dd&src=seo_token) | Celo | 0.21% | $146.4K |
-| [moola-market →](https://www.defi.garden/?pool=d28c0d39-f65b-403a-9760-19ba8ac0ae2d&src=seo_token) | Celo | 1.00% | $111.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5244316f-be8f-4179-af73-f6248d74c2dd&src=seo_token) | Celo | 0.17% | $146.6K |
+| [moola-market →](https://www.defi.garden/?pool=d28c0d39-f65b-403a-9760-19ba8ac0ae2d&src=seo_token) | Celo | 1.00% | $112.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CEUR pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $457.5K in total.
+3 live pools clear this page's $100K TVL floor, $458.3K in total.
 
 ### Are these rates safe?
 
@@ -30,7 +30,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CUSD](https://www.defi.garden/tokens/cusd)
 - [CELO](https://www.defi.garden/tokens/celo)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
-- [EURM](https://www.defi.garden/tokens/eurm)
+- [CAUD](https://www.defi.garden/tokens/caud)
 
 ## Available on
 

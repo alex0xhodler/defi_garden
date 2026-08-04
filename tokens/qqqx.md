@@ -1,13 +1,13 @@
 # QQQX DeFi Yields
 
-The highest honest QQQX yield right now is 13.99% on kamino-lend (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QQQX yield right now is 13.82% on kamino-lend (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [kamino-lend →](https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token) | Solana | 0.04% | $3.77M |
-| [raydium-amm →](https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token) | Solana | 3.95% | $2.88M |
-| [raydium-amm →](https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token) | Solana | 13.99% | $140.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token) | Solana | 9.58% | $118K |
+| [raydium-amm →](https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token) | Solana | 4.27% | $2.89M |
+| [raydium-amm →](https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token) | Solana | 13.82% | $140.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token) | Solana | 9.61% | $118.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QQQX yield today?
 
-13.99% APY on kamino-lend (Solana), based on live DefiLlama data.
+13.82% APY on kamino-lend (Solana), based on live DefiLlama data.
 
 ### How many QQQX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $8.51M in total.
+6 live pools clear this page's $100K TVL floor, $8.53M in total.
 
 ### Are these rates safe?
 

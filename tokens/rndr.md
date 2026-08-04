@@ -1,12 +1,12 @@
 # RNDR DeFi Yields
 
-The highest honest RNDR yield right now is 22.86% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RNDR yield right now is 24.11% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token) | Ethereum | 7.85% | $291K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token) | Ethereum | 5.95% | $283.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token) | Ethereum | 22.86% | $191.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token) | Ethereum | 9.61% | $293.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token) | Ethereum | 6.23% | $285.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token) | Ethereum | 24.11% | $193.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RNDR yield today?
 
-22.86% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+24.11% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many RNDR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $893.7K in total.
+4 live pools clear this page's $100K TVL floor, $901.5K in total.
 
 ### Are these rates safe?
 

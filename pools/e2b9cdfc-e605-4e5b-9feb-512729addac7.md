@@ -1,8 +1,8 @@
 # MSETH — vesper on Base
 
-**Total APY:** 1.28% (1.28% Base · + 0.00% Rewards)
+**Total APY:** 1.29% (1.29% Base · + 0.00% Rewards)
 
-**TVL:** $6.1M
+**TVL:** $6.15M
 
 **Pool Type:** Yield Farming
 

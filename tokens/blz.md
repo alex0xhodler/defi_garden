@@ -1,11 +1,11 @@
 # BLZ DeFi Yields
 
-The highest honest BLZ yield right now is 7.16% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLZ yield right now is 5.81% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token) | Ethereum | 6.88% | $145.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token) | Ethereum | 7.16% | $125.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=922191eb-e304-4a4b-9299-1ea1715a356e&src=seo_token) | Ethereum | 5.67% | $145.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a2e97b89-8286-4784-bbcd-29f7cb08ed78&src=seo_token) | Ethereum | 5.81% | $126.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLZ yield today?
 
-7.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+5.81% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BLZ pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $270.7K in total.
+2 live pools clear this page's $100K TVL floor, $271.8K in total.
 
 ### Are these rates safe?
 

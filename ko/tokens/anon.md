@@ -1,12 +1,12 @@
 # ANON 디파이 수익률
 
-현재 ANON의 가장 높은 정직한 수익률은 TON의 dedust에서 19.64%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ANON의 가장 높은 정직한 수익률은 TON의 dedust에서 18.14%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.01% | $170K |
-| [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 19.64% | $133K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=1031a91a-7c71-445a-b6bf-7833e31cedcb&src=seo_token) | Base | 16.69% | $108.2K |
+| [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.01% | $172.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 18.14% | $134.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=1031a91a-7c71-445a-b6bf-7833e31cedcb&src=seo_token) | Base | 17.08% | $108.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +14,11 @@
 
 ### 오늘 ANON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 19.64%예요.
+DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 18.14%예요.
 
 ### ANON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $571.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $582K예요.
 
 ### 이 수익률은 안전한가요?
 

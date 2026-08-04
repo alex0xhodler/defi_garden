@@ -1,6 +1,6 @@
 # EARNAUSD — upshift on Monad
 
-**Total APY:** 5.73% (5.06% Base · + 0.67% Rewards)
+**Total APY:** 5.72% (5.06% Base · + 0.67% Rewards)
 
 **TVL:** $21.38M
 

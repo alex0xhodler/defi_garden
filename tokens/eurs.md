@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EURS pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $11.96M in total.
+5 live pools clear this page's $100K TVL floor, $11.97M in total.
 
 ### Are these rates safe?
 

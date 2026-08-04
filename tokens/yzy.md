@@ -1,11 +1,11 @@
 # YZY DeFi Yields
 
-The highest honest YZY yield right now is 9.18% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YZY yield right now is 8.98% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 9.18% | $602.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token) | Solana | 1.22% | $177.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 8.98% | $609.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token) | Solana | 1.51% | $177.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YZY yield today?
 
-9.18% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.98% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many YZY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $780.1K in total.
+2 live pools clear this page's $100K TVL floor, $787K in total.
 
 ### Are these rates safe?
 

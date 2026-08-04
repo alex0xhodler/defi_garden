@@ -1,12 +1,12 @@
 # USDCX 디파이 수익률
 
-현재 USDCX의 가장 높은 정직한 수익률은 Move의 yuzu-finance에서 97.47%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDCX의 가장 높은 정직한 수익률은 Move의 yuzu-finance에서 96.97%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 12.28% | $1.08M |
+| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 12.48% | $1.08M |
 | [yuzu-finance →](https://www.defi.garden/?pool=558f9845-5093-4310-8123-de9293e85e89&src=seo_token) | Move | 0.36% | $253.1K |
-| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 97.47% | $227.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 96.97% | $229.1K |
 | [liqwid →](https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token) | Cardano | 5.12% | $153.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -15,7 +15,7 @@
 
 ### 오늘 USDCX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Move의 yuzu-finance에서 APY 97.47%예요.
+DefiLlama 실시간 데이터 기준, Move의 yuzu-finance에서 APY 96.97%예요.
 
 ### USDCX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

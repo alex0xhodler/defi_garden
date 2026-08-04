@@ -1,10 +1,10 @@
 # World Chain DeFi Yields
 
-The highest honest World Chain yield right now is 20.82% on credit (World Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest World Chain yield right now is 20.81% on credit (World Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [credit →](https://www.defi.garden/?pool=4e7f136a-7d70-4004-a35b-2ab022fd674a&src=seo_chain) | 20.82% | $236.9K |
+| USDC | [credit →](https://www.defi.garden/?pool=4e7f136a-7d70-4004-a35b-2ab022fd674a&src=seo_chain) | 20.81% | $236.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest World Chain yield today?
 
-20.82% APY on credit (World Chain), based on live DefiLlama data.
+20.81% APY on credit (World Chain), based on live DefiLlama data.
 
 ### How many World Chain pools clear the TVL floor?
 

@@ -1,8 +1,8 @@
 # USDC — blend-pools-v2 on Stellar
 
-**Total APY:** 7.02% (7.02% Base · + 0.00% Rewards)
+**Total APY:** 7.01% (7.01% Base · + 0.00% Rewards)
 
-**TVL:** $12.8M
+**TVL:** $12.83M
 
 **Pool Type:** Yield Farming
 

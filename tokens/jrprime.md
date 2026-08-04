@@ -4,7 +4,7 @@ The highest honest JRPRIME yield right now is 6.83% on strata-markets (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=f88ff950-9096-46c0-bb9e-93f4d8266c41&src=seo_token) | Ethereum | 6.83% | $260.3K |
+| [strata-markets →](https://www.defi.garden/?pool=f88ff950-9096-46c0-bb9e-93f4d8266c41&src=seo_token) | Ethereum | 6.83% | $260.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JRPRIME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $260.3K in total.
+1 live pool clear this page's $100K TVL floor, $260.4K in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # GTUSDC 디파이 수익률
 
-현재 GTUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 3.51%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GTUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 3.52%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a306885c-001e-4479-9ae8-459a56527bc1&src=seo_token) | Ethereum | 3.51% | $28.41M |
-| [morpho-blue →](https://www.defi.garden/?pool=70a7ce84-e3e1-4ef1-933e-7a699ee58b95&src=seo_token) | Katana | 1.54% | $1.05M |
+| [morpho-blue →](https://www.defi.garden/?pool=a306885c-001e-4479-9ae8-459a56527bc1&src=seo_token) | Ethereum | 3.52% | $28.41M |
+| [morpho-blue →](https://www.defi.garden/?pool=70a7ce84-e3e1-4ef1-933e-7a699ee58b95&src=seo_token) | Katana | 1.56% | $1.05M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 GTUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.51%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.52%예요.
 
 ### GTUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

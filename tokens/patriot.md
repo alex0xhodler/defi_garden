@@ -4,7 +4,7 @@ The highest honest PATRIOT yield right now is 0.05% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=de1586c2-cc20-4192-82a9-3fd7879a80f3&src=seo_token) | Ethereum | 0.05% | $151.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=de1586c2-cc20-4192-82a9-3fd7879a80f3&src=seo_token) | Ethereum | 0.05% | $152.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PATRIOT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $151.5K in total.
+1 live pool clear this page's $100K TVL floor, $152.6K in total.
 
 ### Are these rates safe?
 

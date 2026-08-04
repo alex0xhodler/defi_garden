@@ -1,12 +1,12 @@
 # SLVON DeFi Yields
 
-The highest honest SLVON yield right now is 13.08% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SLVON yield right now is 15.20% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token) | Ethereum | 13.08% | $568.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token) | Ethereum | 2.11% | $116.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token) | Ethereum | 1.29% | $102K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token) | Ethereum | 15.20% | $572.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token) | Ethereum | 2.20% | $117.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dc289589-4bee-4f81-9e1f-f20acc5339be&src=seo_token) | Ethereum | 3.80% | $102.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SLVON yield today?
 
-13.08% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+15.20% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SLVON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $786.4K in total.
+3 live pools clear this page's $100K TVL floor, $792.8K in total.
 
 ### Are these rates safe?
 

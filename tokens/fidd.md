@@ -4,7 +4,7 @@ The highest honest FIDD yield right now is 0.11% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.06% | $3.56M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.06% | $3.57M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.11% | $2.24M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

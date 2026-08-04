@@ -1,14 +1,14 @@
 # SPYX DeFi Yields
 
-The highest honest SPYX yield right now is 21.11% on kamino-lend (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPYX yield right now is 21.79% on kamino-lend (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [kamino-lend →](https://www.defi.garden/?pool=a0f306a6-976a-4d29-852b-eaa09e84f8b4&src=seo_token) | Solana | 0.13% | $4.12M |
-| [raydium-amm →](https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token) | Solana | 21.11% | $2.07M |
-| [raydium-amm →](https://www.defi.garden/?pool=bdfbf09f-6f0e-4129-8099-138a78b2ce50&src=seo_token) | Solana | 1.91% | $666K |
-| [raydium-amm →](https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token) | Solana | 16.03% | $321.2K |
-| [orca-dex →](https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token) | Solana | 15.40% | $255.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token) | Solana | 21.79% | $2.07M |
+| [raydium-amm →](https://www.defi.garden/?pool=bdfbf09f-6f0e-4129-8099-138a78b2ce50&src=seo_token) | Solana | 1.85% | $666.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token) | Solana | 16.66% | $321.4K |
+| [orca-dex →](https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token) | Solana | 17.08% | $255.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPYX yield today?
 
-21.11% APY on kamino-lend (Solana), based on live DefiLlama data.
+21.79% APY on kamino-lend (Solana), based on live DefiLlama data.
 
 ### How many SPYX pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $13.7M in total.
+7 live pools clear this page's $100K TVL floor, $13.73M in total.
 
 ### Are these rates safe?
 

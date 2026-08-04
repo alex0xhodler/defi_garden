@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LCRO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.84M in total.
+2 live pools clear this page's $100K TVL floor, $2.85M in total.
 
 ### Are these rates safe?
 

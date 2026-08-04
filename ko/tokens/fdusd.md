@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [venus-core-pool →](https://www.defi.garden/?pool=6679b470-7a53-4b96-88c8-262ea927b4b5&src=seo_token) | BSC | 1.97% | $4.66M |
-| [aave-v3 →](https://www.defi.garden/?pool=4734c292-5e38-4962-b7a9-e1e265254c1b&src=seo_token) | BSC | 1.63% | $276.3K |
+| [aave-v3 →](https://www.defi.garden/?pool=4734c292-5e38-4962-b7a9-e1e265254c1b&src=seo_token) | BSC | 1.63% | $276.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

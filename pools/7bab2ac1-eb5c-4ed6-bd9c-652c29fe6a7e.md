@@ -1,8 +1,8 @@
 # WBERA-HONEY — bex on Berachain
 
-**Total APY:** 2.45% (2.45% Base · + 0.00% Rewards)
+**Total APY:** 2.46% (2.46% Base · + 0.00% Rewards)
 
-**TVL:** $136.6K
+**TVL:** $137.2K
 
 **Pool Type:** Yield Farming
 

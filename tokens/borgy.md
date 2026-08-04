@@ -1,10 +1,10 @@
 # BORGY DeFi Yields
 
-The highest honest BORGY yield right now is 4.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BORGY yield right now is 4.20% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0b08958d-d01e-4068-99cd-55858110afd2&src=seo_token) | Solana | 4.63% | $235.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=0b08958d-d01e-4068-99cd-55858110afd2&src=seo_token) | Solana | 4.20% | $237.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BORGY yield today?
 
-4.63% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.20% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BORGY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $235.4K in total.
+1 live pool clear this page's $100K TVL floor, $237.7K in total.
 
 ### Are these rates safe?
 

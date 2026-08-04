@@ -1,10 +1,10 @@
 # NVDAB DeFi Yields
 
-The highest honest NVDAB yield right now is 261.63% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAB yield right now is 254.74% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095&src=seo_token) | BSC | 261.63% | $658.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095&src=seo_token) | BSC | 254.74% | $663.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NVDAB yield today?
 
-261.63% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+254.74% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many NVDAB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $780.7K in total.
+2 live pools clear this page's $100K TVL floor, $785.5K in total.
 
 ### Are these rates safe?
 
