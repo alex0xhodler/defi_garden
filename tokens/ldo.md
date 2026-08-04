@@ -1,15 +1,15 @@
 # LDO DeFi Yields
 
-The highest honest LDO yield right now is 40.48% on uniswap-v3 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LDO yield right now is 40.99% on uniswap-v3 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token) | Ethereum | 40.48% | $497.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token) | Ethereum | 6.49% | $474.7K |
-| [curve-dex →](https://www.defi.garden/?pool=c44dce9d-8675-4f36-b95f-4d8d184daa54&src=seo_token) | Ethereum | 0.53% | $278.5K |
-| [convex-finance →](https://www.defi.garden/?pool=69361f05-1a95-4323-9b6f-44338ad22e98&src=seo_token) | Ethereum | 0.56% | $270.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token) | Ethereum | 40.99% | $496.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token) | Ethereum | 6.57% | $474.1K |
+| [curve-dex →](https://www.defi.garden/?pool=c44dce9d-8675-4f36-b95f-4d8d184daa54&src=seo_token) | Ethereum | 0.53% | $277.8K |
+| [convex-finance →](https://www.defi.garden/?pool=69361f05-1a95-4323-9b6f-44338ad22e98&src=seo_token) | Ethereum | 0.56% | $269.6K |
 | [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token) | Ethereum | 0.13% | $131.3K |
-| [hydration-dex →](https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1&src=seo_token) | Polkadot | 2.45% | $100.7K |
+| [hydration-dex →](https://www.defi.garden/?pool=84dd5393-185b-4d21-9685-ee8d66da69a1&src=seo_token) | Polkadot | 2.44% | $100.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LDO yield today?
 
-40.48% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+40.99% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LDO pools clear the TVL floor?
 

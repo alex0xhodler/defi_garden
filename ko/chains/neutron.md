@@ -6,9 +6,9 @@
 |---|---|---|---|
 | USDC-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.04% | $4.45M |
 | ATOM | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_chain) | 17.64% | $1.38M |
-| USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 4.81% | $722.4K |
-| USDC-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 0.77% | $202.4K |
-| WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.88% | $116.3K |
+| USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 4.81% | $722.5K |
+| USDC-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 0.79% | $202.8K |
+| WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.88% | $116.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

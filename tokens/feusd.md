@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FEUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $10.08M in total.
+5 live pools clear this page's $100K TVL floor, $10.07M in total.
 
 ### Are these rates safe?
 

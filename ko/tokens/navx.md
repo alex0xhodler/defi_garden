@@ -1,11 +1,11 @@
 # NAVX 디파이 수익률
 
-현재 NAVX의 가장 높은 정직한 수익률은 Sui의 navi-lending에서 7.43%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NAVX의 가장 높은 정직한 수익률은 Sui의 navi-lending에서 7.00%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $2.06M |
-| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 7.43% | $149.9K |
+| [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $2.05M |
+| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 7.00% | $149.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 NAVX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 7.43%예요.
+DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 7.00%예요.
 
 ### NAVX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.21M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.2M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,13 +1,13 @@
 # FARTCOIN DeFi Yields
 
-The highest honest FARTCOIN yield right now is 34.02% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FARTCOIN yield right now is 36.32% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4&src=seo_token) | Solana | 4.70% | $5.9M |
-| [orca-dex →](https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142&src=seo_token) | Solana | 34.02% | $854K |
-| [orca-dex →](https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02&src=seo_token) | Solana | 6.31% | $440.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454&src=seo_token) | Base | 2.96% | $156.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=c66d7944-6582-4638-881a-360e5918e4b4&src=seo_token) | Solana | 4.92% | $5.89M |
+| [orca-dex →](https://www.defi.garden/?pool=c77ca0bf-41cd-48d9-8b25-9804ee98b142&src=seo_token) | Solana | 36.32% | $852.4K |
+| [orca-dex →](https://www.defi.garden/?pool=5da12137-c29a-45bb-8893-f6c01400ae02&src=seo_token) | Solana | 7.26% | $439.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ec6bad9-3a52-4444-9053-21a8441ec454&src=seo_token) | Base | 2.96% | $156.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FARTCOIN yield today?
 
-34.02% APY on raydium-amm (Solana), based on live DefiLlama data.
+36.32% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FARTCOIN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $7.35M in total.
+4 live pools clear this page's $100K TVL floor, $7.33M in total.
 
 ### Are these rates safe?
 

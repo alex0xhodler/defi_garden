@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MHYPERBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $12.52M in total.
+4 live pools clear this page's $100K TVL floor, $12.51M in total.
 
 ### Are these rates safe?
 

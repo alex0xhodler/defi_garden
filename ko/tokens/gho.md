@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.45% | $27.7M |
 | [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 1.43% | $22.8M |
-| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.37% | $17.42M |
+| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.37% | $17.43M |
 | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.94% | $8.72M |
 | [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 6.28% | $6.17M |
 | [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 6.23% | $3.77M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 aave-v3에서 APY 6.94%예요.
 
 ### GHO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 33개이며, 합산 TVL은 $182.73M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 33개이며, 합산 TVL은 $183.34M예요.
 
 ### 이 수익률은 안전한가요?
 

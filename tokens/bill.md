@@ -1,10 +1,10 @@
 # BILL DeFi Yields
 
-The highest honest BILL yield right now is 7.26% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BILL yield right now is 7.04% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 7.26% | $117.9K |
+| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 7.04% | $117.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BILL yield today?
 
-7.26% APY on orca-dex (Solana), based on live DefiLlama data.
+7.04% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BILL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $708.4K in total.
+2 live pools clear this page's $100K TVL floor, $708K in total.
 
 ### Are these rates safe?
 

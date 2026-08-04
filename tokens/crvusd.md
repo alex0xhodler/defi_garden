@@ -5,10 +5,10 @@ The highest honest CRVUSD yield right now is 8.98% on curve-dex (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794&src=seo_token) | Ethereum | 3.06% | $47.49M |
-| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5&src=seo_token) | Ethereum | 8.19% | $28.74M |
-| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token) | Ethereum | 1.78% | $23.5M |
-| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 8.98% | $18M |
-| [curve-llamalend →](https://www.defi.garden/?pool=c38c4411-948a-4769-a93f-5860457a339c&src=seo_token) | Ethereum | 2.62% | $16.67M |
+| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5&src=seo_token) | Ethereum | 8.19% | $28.73M |
+| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token) | Ethereum | 1.86% | $23.12M |
+| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 8.98% | $18.01M |
+| [curve-llamalend →](https://www.defi.garden/?pool=c38c4411-948a-4769-a93f-5860457a339c&src=seo_token) | Ethereum | 2.53% | $16.84M |
 | [convex-finance →](https://www.defi.garden/?pool=027b72c2-bf96-451b-ac5f-afe6859b0828&src=seo_token) | Ethereum | 2.83% | $16.64M |
 | [resupply →](https://www.defi.garden/?pool=c4a3e969-02c4-479a-8837-ca498eea3583&src=seo_token) | Ethereum | 2.13% | $16.63M |
 | [curve-dex →](https://www.defi.garden/?pool=5faf730e-2c79-45a2-9459-fbcd185abf18&src=seo_token) | Ethereum | 3.01% | $15.73M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRVUSD pools clear the TVL floor?
 
-108 live pools clear this page's $100K TVL floor, $549.07M in total.
+108 live pools clear this page's $100K TVL floor, $549.1M in total.
 
 ### Are these rates safe?
 

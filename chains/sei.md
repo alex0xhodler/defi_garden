@@ -8,7 +8,7 @@ The highest honest Sei yield right now is 10.04% on ondo-yield-assets (Sei), amo
 | ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_chain) | 1.88% | $15.56M |
 | SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_chain) | 8.21% | $9.03M |
 | SPSEI | [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_chain) | 0.61% | $2.77M |
-| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_chain) | 1.33% | $714.6K |
+| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_chain) | 1.33% | $712.7K |
 | USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321&src=seo_chain) | 10.04% | $597.4K |
 | USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea&src=seo_chain) | 8.60% | $239.2K |
 
@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Sei pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $321.63M in total.
+10 live pools clear this page's $100K TVL floor, $321.5M in total.
 
 ### Are these rates safe?
 

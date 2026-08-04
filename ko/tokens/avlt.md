@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [project-x →](https://www.defi.garden/?pool=4cceee37-dd85-4f62-b5f8-fecf8f913705&src=seo_token) | Hyperliquid L1 | 65.85% | $146.5K |
-| [project-x →](https://www.defi.garden/?pool=7a2a6b6b-9115-4a6b-b9a1-c84e8a40a5ad&src=seo_token) | Hyperliquid L1 | 3.74% | $107.4K |
+| [project-x →](https://www.defi.garden/?pool=7a2a6b6b-9115-4a6b-b9a1-c84e8a40a5ad&src=seo_token) | Hyperliquid L1 | 18.60% | $105.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 65.8
 
 ### AVLT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $253.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $252.2K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,7 +4,7 @@ The highest honest SHX yield right now is 27.94% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 6.34% | $973.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 6.33% | $971.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 27.94% | $127.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.33M in total.
+4 live pools clear this page's $100K TVL floor, $3.32M in total.
 
 ### Are these rates safe?
 

@@ -5,7 +5,7 @@ The highest honest ECR yield right now is 0.61% on raydium-amm (Solana), among 2
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=6d1947e1-6594-5227-8070-0ee2d115bd2e&src=seo_token) | Solana | 0.14% | $11.44M |
-| [raydium-amm →](https://www.defi.garden/?pool=c0e0fbb1-802c-45a3-9b58-3a4f99703e1b&src=seo_token) | Solana | 0.61% | $1.51M |
+| [raydium-amm →](https://www.defi.garden/?pool=c0e0fbb1-802c-45a3-9b58-3a4f99703e1b&src=seo_token) | Solana | 0.61% | $1.54M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ECR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $12.95M in total.
+2 live pools clear this page's $100K TVL floor, $12.98M in total.
 
 ### Are these rates safe?
 

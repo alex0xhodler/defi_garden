@@ -4,7 +4,7 @@ The highest honest TBILL yield right now is 3.29% on openeden-tbill (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [openeden-tbill →](https://www.defi.garden/?pool=e140f3b2-0327-46ea-93f5-88b17b0a0a16&src=seo_token) | Ethereum | 3.29% | $23.94M |
+| [openeden-tbill →](https://www.defi.garden/?pool=e140f3b2-0327-46ea-93f5-88b17b0a0a16&src=seo_token) | Ethereum | 3.29% | $23.82M |
 | [openeden-tbill →](https://www.defi.garden/?pool=43491afc-b9a5-4f12-974a-1f9cdfb5d7d5&src=seo_token) | Solana | 3.29% | $265.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TBILL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $24.2M in total.
+2 live pools clear this page's $100K TVL floor, $24.08M in total.
 
 ### Are these rates safe?
 

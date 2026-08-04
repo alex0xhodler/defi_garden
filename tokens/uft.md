@@ -4,7 +4,7 @@ The highest honest UFT yield right now is 1.10% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d7e0715d-5513-4888-af38-ddce95d9d543&src=seo_token) | Ethereum | 1.10% | $108.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d7e0715d-5513-4888-af38-ddce95d9d543&src=seo_token) | Ethereum | 1.10% | $108.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UFT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.3K in total.
+1 live pool clear this page's $100K TVL floor, $108.1K in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # SATO DeFi Yields
 
-The highest honest SATO yield right now is 19.05% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SATO yield right now is 17.78% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 18.89% | $407.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 19.05% | $280.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 15.30% | $418K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 17.78% | $283.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SATO yield today?
 
-19.05% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+17.78% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SATO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $688.1K in total.
+2 live pools clear this page's $100K TVL floor, $701.2K in total.
 
 ### Are these rates safe?
 

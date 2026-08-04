@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.09% | $2.9M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token) | Solana | 2.72% | $2.03M |
-| [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 3.61% | $2.03M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token) | Solana | 2.68% | $2.03M |
+| [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 3.56% | $2.03M |
 | [liminal-basis →](https://www.defi.garden/?pool=20014711-5ee5-58ea-ade1-9d47310bc356&src=seo_token) | Hyperliquid L1 | 6.03% | $1.23M |
 | [liminal-basis →](https://www.defi.garden/?pool=0d7ef9f1-b695-5029-a03d-2d6563a4becb&src=seo_token) | Arbitrum | 6.03% | $1.23M |
 | [liminal-basis →](https://www.defi.garden/?pool=e7791a4c-145d-528f-85a8-68945d8b3478&src=seo_token) | Ethereum | 6.03% | $1.23M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 6.03%예요.
 
 ### XBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $44.63M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $44.61M예요.
 
 ### 이 수익률은 안전한가요?
 

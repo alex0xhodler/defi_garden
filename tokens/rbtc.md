@@ -6,7 +6,7 @@ The highest honest RBTC yield right now is 0.85% on sovryn-dex (Rootstock), amon
 |---|---|---|---|
 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.85% | $955.5K |
 | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.07% | $739.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 0.15% | $233.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 0.14% | $233.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

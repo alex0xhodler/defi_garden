@@ -8,7 +8,7 @@
 | ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_chain) | 1.88% | $15.56M |
 | SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_chain) | 8.21% | $9.03M |
 | SPSEI | [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_chain) | 0.61% | $2.77M |
-| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_chain) | 1.33% | $714.6K |
+| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_chain) | 1.33% | $712.7K |
 | USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321&src=seo_chain) | 10.04% | $597.4K |
 | USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea&src=seo_chain) | 8.60% | $239.2K |
 
@@ -22,7 +22,7 @@ DefiLlama 실시간 데이터 기준, Sei의 ondo-yield-assets에서 APY 10.04%�
 
 ### Sei 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $321.63M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $321.5M예요.
 
 ### 이 수익률은 안전한가요?
 

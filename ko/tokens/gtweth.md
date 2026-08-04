@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=eaa7b496-512f-442f-be1f-9d8909442e53&src=seo_token) | Ethereum | 2.48% | $13.65M |
-| [morpho-blue →](https://www.defi.garden/?pool=23a8c413-1595-4380-9a0b-e8eb04907a90&src=seo_token) | Katana | 3.06% | $8.6M |
+| [morpho-blue →](https://www.defi.garden/?pool=eaa7b496-512f-442f-be1f-9d8909442e53&src=seo_token) | Ethereum | 2.48% | $13.6M |
+| [morpho-blue →](https://www.defi.garden/?pool=23a8c413-1595-4380-9a0b-e8eb04907a90&src=seo_token) | Katana | 3.06% | $8.33M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.06%예
 
 ### GTWETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $22.25M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $21.93M예요.
 
 ### 이 수익률은 안전한가요?
 

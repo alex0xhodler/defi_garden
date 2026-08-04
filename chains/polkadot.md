@@ -1,17 +1,17 @@
 # Polkadot DeFi Yields
 
-The highest honest Polkadot yield right now is 15.24% on bifrost-liquid-staking (Polkadot), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Polkadot yield right now is 15.26% on bifrost-liquid-staking (Polkadot), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_chain) | 4.48% | $7.89M |
-| ADOT-VDOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_chain) | 0.59% | $3.8M |
+| VDOT | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_chain) | 4.48% | $7.85M |
+| ADOT-VDOT | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_chain) | 0.59% | $3.78M |
 | AETH-WSTETH | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_chain) | 0.10% | $3.19M |
 | HOLLAR-AUSDT | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_chain) | 0.81% | $2.29M |
-| HOLLAR | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c&src=seo_chain) | 15.24% | $2.13M |
+| HOLLAR | [hydration-dex →](https://www.defi.garden/?pool=e6ae5236-a78a-4ddb-b5f7-da2fea18f96c&src=seo_chain) | 15.26% | $2.13M |
 | AUSDC-HOLLAR | [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_chain) | 0.47% | $1.98M |
-| TBTC | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_chain) | 5.19% | $1.94M |
-| ADOT | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_chain) | 7.68% | $1.63M |
+| TBTC | [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_chain) | 5.19% | $1.93M |
+| ADOT | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_chain) | 7.68% | $1.62M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Polkadot yield today?
 
-15.24% APY on bifrost-liquid-staking (Polkadot), based on live DefiLlama data.
+15.26% APY on bifrost-liquid-staking (Polkadot), based on live DefiLlama data.
 
 ### How many Polkadot pools clear the TVL floor?
 
-30 live pools clear this page's $100K TVL floor, $34.15M in total.
+30 live pools clear this page's $100K TVL floor, $34.04M in total.
 
 ### Are these rates safe?
 

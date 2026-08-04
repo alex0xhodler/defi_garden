@@ -1,15 +1,14 @@
 # UPEG DeFi Yields
 
-The highest honest UPEG yield right now is 229.09% on uniswap-v4 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UPEG yield right now is 229.09% on uniswap-v4 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 229.09% | $1.2M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 26.13% | $278.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=64d8ae8f-78d9-4d11-8863-464ddf04d920&src=seo_token) | Ethereum | 15.77% | $165.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a36157a3-e099-4905-8ef6-50be5f9d6a78&src=seo_token) | Ethereum | 5.02% | $128.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=46b99c5c-80bc-44cb-9971-0ef5999520df&src=seo_token) | Ethereum | 210.18% | $116.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9c63f5e7-a232-49c2-a88f-515681cb2166&src=seo_token) | Ethereum | 9.95% | $100.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 26.82% | $271.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=64d8ae8f-78d9-4d11-8863-464ddf04d920&src=seo_token) | Ethereum | 15.97% | $163.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a36157a3-e099-4905-8ef6-50be5f9d6a78&src=seo_token) | Ethereum | 4.98% | $126.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=46b99c5c-80bc-44cb-9971-0ef5999520df&src=seo_token) | Ethereum | 220.46% | $114.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UPEG pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $2.12M in total.
+6 live pools clear this page's $100K TVL floor, $2M in total.
 
 ### Are these rates safe?
 

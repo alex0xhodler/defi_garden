@@ -1,10 +1,10 @@
 # SUT DeFi Yields
 
-The highest honest SUT yield right now is 29.46% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUT yield right now is 27.97% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9692e0b1-afc2-4e24-ac63-2bb2b1779c9f&src=seo_token) | Polygon | 29.46% | $116.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9692e0b1-afc2-4e24-ac63-2bb2b1779c9f&src=seo_token) | Polygon | 27.97% | $116K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUT yield today?
 
-29.46% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+27.97% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many SUT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.3K in total.
+1 live pool clear this page's $100K TVL floor, $116K in total.
 
 ### Are these rates safe?
 

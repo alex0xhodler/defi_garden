@@ -4,9 +4,9 @@ The highest honest STON yield right now is 15.23% on ston.fi (TON), among 3 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 15.23% | $761.9K |
-| [ston.fi →](https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token) | TON | 3.96% | $199.9K |
-| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.47% | $112.4K |
+| [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 15.23% | $761.3K |
+| [ston.fi →](https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token) | TON | 3.98% | $199.6K |
+| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.47% | $112.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

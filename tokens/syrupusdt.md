@@ -1,10 +1,10 @@
 # SYRUPUSDT DeFi Yields
 
-The highest honest SYRUPUSDT yield right now is 0.72% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYRUPUSDT yield right now is 0.95% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=db5fbc78-e618-4e05-8ab2-61b7c702051b&src=seo_token) | Ethereum | 0.72% | $5.08M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=db5fbc78-e618-4e05-8ab2-61b7c702051b&src=seo_token) | Ethereum | 0.95% | $5.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYRUPUSDT yield today?
 
-0.72% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.95% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SYRUPUSDT pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $372.42M in total.
+4 live pools clear this page's $100K TVL floor, $372.43M in total.
 
 ### Are these rates safe?
 

@@ -4,8 +4,8 @@ The highest honest Robinhood Chain yield right now is 7.32% on morpho-blue (Robi
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STEAKUSDG | [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_chain) | 7.32% | $265.79M |
-| USDE | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_chain) | 4.28% | $210.64M |
+| STEAKUSDG | [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_chain) | 7.32% | $265.65M |
+| USDE | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_chain) | 4.28% | $210.65M |
 | USDG | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_chain) | 3.50% | $14.54M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Robinhood Chain pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $571.99M in total.
+6 live pools clear this page's $100K TVL floor, $571.86M in total.
 
 ### Are these rates safe?
 

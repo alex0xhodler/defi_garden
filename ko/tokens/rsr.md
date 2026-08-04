@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 3.38% | $2.2M |
-| [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 22.44% | $136.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 9.46% | $119.4K |
+| [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 22.44% | $136K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 9.71% | $119.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

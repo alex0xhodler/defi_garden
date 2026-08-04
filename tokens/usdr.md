@@ -5,8 +5,8 @@ The highest honest USDR yield right now is 0.25% on uniswap-v4 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token) | Ethereum | 0.03% | $196.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token) | Ethereum | 0.25% | $195.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.11% | $195.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token) | Ethereum | 0.25% | $195.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.09% | $195.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

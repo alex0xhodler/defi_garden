@@ -4,7 +4,7 @@ The highest honest VSTR yield right now is 0.24% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b5284d13-348a-404e-a57a-701883bd2c0b&src=seo_token) | Ethereum | 0.24% | $912.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b5284d13-348a-404e-a57a-701883bd2c0b&src=seo_token) | Ethereum | 0.24% | $909.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VSTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $912.1K in total.
+1 live pool clear this page's $100K TVL floor, $909.9K in total.
 
 ### Are these rates safe?
 

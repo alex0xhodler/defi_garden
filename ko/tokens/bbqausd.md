@@ -1,13 +1,13 @@
 # BBQAUSD 디파이 수익률
 
-현재 BBQAUSD의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.99%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BBQAUSD의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.98%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 3.62% | $25.23M |
 | [morpho-blue →](https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token) | Ethereum | 3.66% | $1.01M |
-| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 5.91% | $363.2K |
-| [morpho-blue →](https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token) | Monad | 7.99% | $256.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 5.83% | $363.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token) | Monad | 7.98% | $256.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +15,7 @@
 
 ### 오늘 BBQAUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.99%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.98%예요.
 
 ### BBQAUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

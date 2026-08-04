@@ -4,7 +4,7 @@ The highest honest WTSLAX yield right now is 0.26% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b2dc3501-c0b2-4463-9d19-35dd1a8630b5&src=seo_token) | Ethereum | 0.26% | $244.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b2dc3501-c0b2-4463-9d19-35dd1a8630b5&src=seo_token) | Ethereum | 0.26% | $245.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WTSLAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $244.9K in total.
+1 live pool clear this page's $100K TVL floor, $245.1K in total.
 
 ### Are these rates safe?
 

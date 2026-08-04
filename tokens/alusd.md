@@ -1,17 +1,17 @@
 # ALUSD DeFi Yields
 
-The highest honest ALUSD yield right now is 10.20% on curve-dex (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALUSD yield right now is 10.13% on curve-dex (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69&src=seo_token) | Ethereum | 4.39% | $2.22M |
-| [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6&src=seo_token) | Ethereum | 6.89% | $1.89M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8&src=seo_token) | OP Mainnet | 10.20% | $1.59M |
-| [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d&src=seo_token) | Ethereum | 6.59% | $1.09M |
+| [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6&src=seo_token) | Ethereum | 6.88% | $1.89M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8&src=seo_token) | OP Mainnet | 10.13% | $1.59M |
+| [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d&src=seo_token) | Ethereum | 6.58% | $1.09M |
 | [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 2.74% | $897.6K |
 | [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1&src=seo_token) | Ethereum | 3.89% | $754.2K |
-| [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f&src=seo_token) | Arbitrum | 5.78% | $613.2K |
-| [stake-dao →](https://www.defi.garden/?pool=188aa963-c6c4-45ec-bc13-db067cf33249&src=seo_token) | Arbitrum | 5.70% | $609.8K |
+| [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f&src=seo_token) | Arbitrum | 5.76% | $613.2K |
+| [stake-dao →](https://www.defi.garden/?pool=188aa963-c6c4-45ec-bc13-db067cf33249&src=seo_token) | Arbitrum | 5.73% | $608.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALUSD yield today?
 
-10.20% APY on curve-dex (Ethereum), based on live DefiLlama data.
+10.13% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many ALUSD pools clear the TVL floor?
 

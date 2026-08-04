@@ -4,8 +4,8 @@ The highest honest FUL yield right now is 0.58% on vvs-standard (Cronos), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.30% | $416.8K |
-| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.58% | $104.2K |
+| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.29% | $417.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=876d4985-1421-415c-8711-d1225a5df1ed&src=seo_token) | Cronos | 0.58% | $104.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FUL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $521K in total.
+2 live pools clear this page's $100K TVL floor, $522.4K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest EEFI yield right now is 0.16% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=376cf231-1d3f-4a3b-a3d9-711bfec66301&src=seo_token) | Ethereum | 0.16% | $150.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=376cf231-1d3f-4a3b-a3d9-711bfec66301&src=seo_token) | Ethereum | 0.16% | $150.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EEFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $150.5K in total.
+1 live pool clear this page's $100K TVL floor, $150.2K in total.
 
 ### Are these rates safe?
 

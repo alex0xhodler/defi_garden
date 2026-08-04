@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BONKSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $19.19M in total.
+2 live pools clear this page's $100K TVL floor, $19.17M in total.
 
 ### Are these rates safe?
 

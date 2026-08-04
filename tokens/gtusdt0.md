@@ -4,7 +4,7 @@ The highest honest GTUSDT0 yield right now is 6.12% on morpho-blue (Hyperliquid 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a5a41daf-40da-435f-854c-4a9e9df99d32&src=seo_token) | Hyperliquid L1 | 6.12% | $496.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=a5a41daf-40da-435f-854c-4a9e9df99d32&src=seo_token) | Hyperliquid L1 | 6.12% | $496.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTUSDT0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $496.7K in total.
+1 live pool clear this page's $100K TVL floor, $496.6K in total.
 
 ### Are these rates safe?
 

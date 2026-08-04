@@ -1,11 +1,11 @@
 # CAW DeFi Yields
 
-The highest honest CAW yield right now is 1.41% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAW yield right now is 1.47% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d4148eeb-90ad-4317-9476-2c838101a254&src=seo_token) | Ethereum | 1.41% | $1.62M |
-| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 0.59% | $896.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d4148eeb-90ad-4317-9476-2c838101a254&src=seo_token) | Ethereum | 1.47% | $1.62M |
+| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 0.60% | $894.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CAW yield today?
 
-1.41% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.47% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many CAW pools clear the TVL floor?
 

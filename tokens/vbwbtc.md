@@ -5,7 +5,7 @@ The highest honest VBWBTC yield right now is 1.30% on yearn-finance (Katana), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 0.72% | $1.3M |
-| [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 1.30% | $954.4K |
+| [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 1.30% | $955.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
