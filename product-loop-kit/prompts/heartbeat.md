@@ -12,6 +12,8 @@ In `analytics` mode, from the configured analytics source:
 - Retention cohorts: most recent complete cohort vs baseline
 - Any shipped experiment from LEARNINGS.md still inside its measurement window: pull its metric now
 
+**Agent reads (north-star leg A, item 224 — read once the human has deployed the edge Worker).** The Cloudflare edge log is the ONLY instrument that can see a consumer that never runs JS (AI crawlers, agents, curl). Read it with the exact query exported as `DAILY_READS_QUERY` from `edge/agent-log-core.js` and reproduced verbatim in `edge/DEPLOY.md` ("reads by UA-family by day", table `agent_reads`, D1 `defi-garden-history`) — run per `edge/DEPLOY.md`'s "Reading the log" section. Record reads by UA-family and by `path_class` in the snapshot. **Until the human deploys, this reads as absence-of-instrument, NOT as zero agent traffic** — say which of the two you are reporting; `edge/DEPLOY.md` is the deploy gate, and the deploy is human-owned (credentials).
+
 If an error-log source is configured: check error counts on endpoints/pages that correspond to the worst funnel steps. A funnel drop with correlated errors is a BUG, not a growth opportunity — bugs outrank experiments at the same step.
 
 In `manual-goals` mode: there is no analytics signal. Read the human's goals from BACKLOG.md/NORTH_STAR.md, and treat "instrument the north-star funnel" as a standing top priority until analytics mode is possible — the system cannot converge without a wired-in signal.

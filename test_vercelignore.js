@@ -307,6 +307,7 @@ const MUST_EXCLUDE = [
   'telegram-bot/dist/index.js', 'telegram-bot/database.db',
   'workers/mixpanel-proxy/worker.js', 'workers/mixpanel-proxy/wrangler.toml',
   'src/poller.js', 'src/poller-core.js',
+  'edge/agent-log-core.js', 'edge/agent-log.mjs', 'edge/wrangler.toml',
   'test_fixtures/pools-sample.json', 'test-fixtures/pre166/llms-pre166.txt',
 ];
 

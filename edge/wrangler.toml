@@ -1,0 +1,50 @@
+# Cloudflare Worker: edge agent-read telemetry (backlog 224, spec 224).
+#
+# A SECOND, INDEPENDENT Worker from src/poller.js/../wrangler.toml — do not
+# merge this into the root wrangler.toml and do not deploy this file from
+# there. It sits in front of origin on route www.defi.garden/*, passes every
+# request through byte-for-byte unchanged, and write-behind-logs one row per
+# agent-surface request into the EXISTING item-108 D1 database
+# (defi-garden-history) in a NEW table, agent_reads (edge/schema.sql). Full
+# deploy/verify/rollback runbook: edge/DEPLOY.md.
+#
+# HUMAN provisioning (loops never handle credentials — same standing role as
+# the item-108 runbook in the root wrangler.toml):
+#   npm i -g wrangler && wrangler login                     # skip if already done for item 108
+#   wrangler d1 execute defi-garden-history --file=edge/schema.sql --remote
+#     # adds agent_reads to the SAME database item 108 already created.
+#     # Do NOT run `wrangler d1 create` again — this must be the existing DB.
+#   # `wrangler d1 list` prints the existing defi-garden-history database_id;
+#   # paste it below (it is the SAME id already used in the root wrangler.toml).
+#   wrangler deploy -c edge/wrangler.toml
+#   # Then flip the DNS record for www.defi.garden to Cloudflare-proxied
+#   # (orange cloud) in the dashboard — a Worker route only intercepts
+#   # traffic that is actually proxied through Cloudflare first.
+# See edge/DEPLOY.md for the full runbook, including how to verify the first
+# row lands and how to roll back instantly (grey-cloud the DNS record).
+
+name = "defi-garden-agent-log"
+
+# `main` is resolved by Wrangler relative to THIS FILE'S OWN DIRECTORY
+# (edge/), never the repo root and never the cwd `wrangler` happens to be
+# invoked from — this is documented Wrangler config-resolution behavior.
+# agent-log.mjs sits right next to this wrangler.toml, so the correct value
+# is the bare filename. Writing "edge/agent-log.mjs" here (matching the
+# repo-root-relative path used in prose elsewhere in this change) would be
+# WRONG — it would resolve to the nonexistent edge/edge/agent-log.mjs and
+# fail to deploy. Contrast with the root wrangler.toml, where main =
+# "src/poller.js" is correct BECAUSE that file lives at the repo root, so
+# "relative to its own directory" and "repo-root-relative" are the same path.
+# (Separately: this file is `.mjs`, not `.js` — see agent-log.mjs's own
+# header comment for why that extension was necessary.)
+main = "agent-log.mjs"
+compatibility_date = "2026-07-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "defi-garden-history"
+database_id = "REPLACE_WITH_EXISTING_defi-garden-history_ID"
+
+[[routes]]
+pattern = "www.defi.garden/*"
+zone_name = "defi.garden"
