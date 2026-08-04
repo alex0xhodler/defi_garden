@@ -929,7 +929,7 @@ body {
 }
 
 /* Google-style sticky header for results pages */
-.google-header-sticky {
+.app-header-sticky {
   position: fixed;
   top: 0;
   left: 0;
@@ -942,7 +942,7 @@ body {
 }
 
 /* Navigation row - part of the header */
-.google-nav-row {
+.app-nav-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -954,7 +954,7 @@ body {
   overflow: visible;
 }
 
-.google-header-content {
+.app-header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -964,7 +964,7 @@ body {
   gap: var(--space-24);
 }
 
-.google-logo {
+.app-logo {
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
   color: var(--color-primary);
@@ -974,17 +974,17 @@ body {
   transition: all var(--duration-normal) var(--ease-standard);
 }
 
-.google-logo:hover {
+.app-logo:hover {
   transform: translateY(-1px);
 }
 
-.google-search-container {
+.app-search-container {
   flex: 1;
   max-width: 500px;
   position: relative;
 }
 
-.google-search-bar {
+.app-search-bar {
   position: relative;
   display: flex;
   align-items: center;
@@ -995,12 +995,12 @@ body {
   transition: all 0.2s ease;
 }
 
-.google-search-bar:focus-within {
+.app-search-bar:focus-within {
   border-color: var(--ui-accent);
   box-shadow: var(--ui-focus-ring);
 }
 
-.google-search-input {
+.app-search-input {
   flex: 1;
   padding: var(--space-12) var(--space-20);
   background: transparent;
@@ -1012,16 +1012,16 @@ body {
   caret-color: var(--color-primary);
 }
 
-.google-search-input:placeholder-shown {
+.app-search-input:placeholder-shown {
   caret-color: transparent;
 }
 
-.google-search-input::placeholder {
+.app-search-input::placeholder {
   color: var(--color-text-secondary);
 }
 
 /* ✕ clear button inside google search bar */
-.google-search-clear {
+.app-search-clear {
   padding: var(--space-4) var(--space-8);
   background: transparent;
   border: none;
@@ -1033,11 +1033,11 @@ body {
   flex-shrink: 0;
 }
 
-.google-search-clear:hover {
+.app-search-clear:hover {
   color: var(--color-text);
 }
 
-.google-search-button {
+.app-search-button {
   padding: var(--space-10);
   margin-right: var(--space-8);
   background: var(--color-primary);
@@ -1054,23 +1054,23 @@ body {
   height: 36px;
 }
 
-.google-search-button:hover {
+.app-search-button:hover {
   background: var(--color-primary-hover);
 }
 
-.google-search-button:active {
+.app-search-button:active {
   box-shadow: none;
   background: var(--color-primary-active);
   transform: translateY(1px);
 }
 
-.google-header-controls {
+.app-header-controls {
   display: flex;
   align-items: center;
   gap: var(--space-8);
 }
 
-.google-control-btn {
+.app-control-btn {
   padding: var(--space-8) var(--space-12);
   background: var(--color-surface);
   border: none;
@@ -1088,12 +1088,12 @@ body {
   justify-content: center;
 }
 
-.google-control-btn:hover {
+.app-control-btn:hover {
   border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
-.google-control-btn:active {
+.app-control-btn:active {
   box-shadow: none;
   background: var(--ui-surface-muted);
   transform: translateY(1px);
@@ -1104,8 +1104,8 @@ body {
    `z-index: 1000` — written for the standalone pair that render as direct
    children of `.app` on the analytics HOMEPAGE (`.app:not(.has-results)`,
    which has no header). `app.js:3057/3062` gives the header's own theme/
-   language buttons those SAME class names (`google-control-btn theme-toggle`
-   / `google-control-btn language-toggle`) so they'd inherit the design-
+   language buttons those SAME class names (`app-control-btn theme-toggle`
+   / `app-control-btn language-toggle`) so they'd inherit the design-
    system look — but with no scoping, the floating rules ALSO yank the
    header's in-flow buttons out of flow and pin them to the same fixed
    coordinates as the standalone pair. Measured on `?token=USDC` at rest:
@@ -1120,13 +1120,13 @@ body {
    `.theme-toggle`/`.language-toggle` declaration below at (0,1,0) —
    including inside their `@media` tiers, since a media query adds no
    specificity of its own — so this wins regardless of source order.
-   Chosen over rescoping each floating rule with `:not(.google-control-btn)`
+   Chosen over rescoping each floating rule with `:not(.app-control-btn)`
    (the fix's spec-documented alternative): that would touch every one of
    the ~6 `.theme-toggle`/`.language-toggle` declarations spread across 3
    media-query tiers, where this is one block, next to the
-   `.google-control-btn` rules it protects. */
-.google-header-controls .theme-toggle,
-.google-header-controls .language-toggle {
+   `.app-control-btn` rules it protects. */
+.app-header-controls .theme-toggle,
+.app-header-controls .language-toggle {
   position: static;
   top: auto;
   right: auto;
@@ -1136,12 +1136,12 @@ body {
 
 /* Backlog 222, third strand: even with the header's own theme/language
    buttons back in flow (the reset above), the header ROW itself had no
-   `@media` override anywhere (`grep -n "google-header-content" style.css`
+   `@media` override anywhere (`grep -n "app-header-content" style.css`
    was a single match before this rule) and its middle child
-   `.google-search-container` — and the `<input>` inside it — kept their
+   `.app-search-container` — and the `<input>` inside it — kept their
    automatic min-content width (neither had `min-width: 0`), so the row
    could not shrink below a bare input's intrinsic width. At <=640px that
-   pushed `.google-header-controls` off the right edge of a 360/480px
+   pushed `.app-header-controls` off the right edge of a 360/480px
    viewport (measured: rect `x:498.8`, `elementFromPoint` -> null;
    `documentElement.scrollWidth` stayed 360, so this was not overflow the
    user could scroll to reach — the controls were simply gone). `min-width:
@@ -1149,16 +1149,16 @@ body {
    its content's min-content size, not 0); the tighter gap/padding give the
    now-shrinkable row a little more room before it has to. */
 @media (max-width: 640px) {
-  .google-header-content {
+  .app-header-content {
     gap: var(--space-8);
     padding: var(--space-12);
   }
 
-  .google-search-container {
+  .app-search-container {
     min-width: 0;
   }
 
-  .google-search-input {
+  .app-search-input {
     min-width: 0;
   }
 }
@@ -1170,7 +1170,7 @@ body {
 }
 
 
-.google-nav-tabs {
+.app-nav-tabs {
   display: flex;
   gap: var(--space-4);
   overflow-x: auto;
@@ -1181,26 +1181,26 @@ body {
   overflow-y: visible;
 }
 
-.google-nav-tabs::-webkit-scrollbar {
+.app-nav-tabs::-webkit-scrollbar {
   display: none;
 }
 
 /* Primary category rail + secondary filter cluster grouping (spec 093) */
-.google-nav-primary {
+.app-nav-primary {
   display: flex;
   align-items: center;
   gap: var(--space-4);
   flex-shrink: 0;
 }
 
-.google-nav-secondary {
+.app-nav-secondary {
   display: flex;
   align-items: center;
   gap: var(--space-8);
   flex-shrink: 0;
 }
 
-.google-nav-divider {
+.app-nav-divider {
   width: 1px;
   height: 20px;
   background: var(--color-border);
@@ -1209,12 +1209,12 @@ body {
   align-self: center;
 }
 
-.google-nav-tab svg,
-.google-filter-btn svg {
+.app-nav-tab svg,
+.app-filter-btn svg {
   flex-shrink: 0;
 }
 
-.google-nav-tab {
+.app-nav-tab {
   display: inline-flex;
   align-items: center;
   gap: var(--space-6);
@@ -1232,18 +1232,18 @@ body {
   border-radius: 0;
 }
 
-.google-nav-tab:hover:not(.active) {
+.app-nav-tab:hover:not(.active) {
   color: var(--color-text);
   border-bottom-color: var(--color-border);
 }
 
-.google-nav-tab.active {
+.app-nav-tab.active {
   color: var(--color-primary);
   border-bottom-color: var(--color-primary);
   font-weight: var(--font-weight-semibold);
 }
 
-.google-filter-btn {
+.app-filter-btn {
   display: inline-flex;
   align-items: center;
   gap: var(--space-6);
@@ -1262,12 +1262,12 @@ body {
   transition: all 0.2s ease;
 }
 
-.google-filter-btn:hover:not(.active):not(.has-selection) {
+.app-filter-btn:hover:not(.active):not(.has-selection) {
   border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
-.google-filter-btn.has-selection {
+.app-filter-btn.has-selection {
   background: var(--color-primary);
   color: white;
   background: var(--ui-accent-soft);
@@ -1278,7 +1278,7 @@ body {
   transform: translateY(0);
 }
 
-.google-filter-btn.active:not(.has-selection) {
+.app-filter-btn.active:not(.has-selection) {
   background: var(--ui-accent-soft);
   border-color: var(--ui-accent-border);
   color: var(--ui-accent);
@@ -1490,7 +1490,7 @@ body {
   box-shadow: none;
 }
 
-/* Selected chip reads as unmistakable filled-primary (matches .google-filter-btn.has-selection).
+/* Selected chip reads as unmistakable filled-primary (matches .app-filter-btn.has-selection).
    Scoped to .filter-chip ONLY — the transform/box-shadow override lives here (not on the shared
    rule above) so chain/protocol pills keep their existing brand/primary fill AND lift unchanged. */
 .global-filter-dropdown .filter-chip.active {
@@ -1600,78 +1600,17 @@ body {
     inset -15px 0 20px -15px rgba(0, 0, 0, 0.15);
 }
 
-.google-tools-section {
+.app-tools-section {
   display: flex;
   align-items: center;
   gap: var(--space-12);
   flex-shrink: 0;
 }
 
-.google-tools-dropdown {
-  display: flex;
-  align-items: center;
-  gap: var(--space-16);
-  flex-shrink: 0;
-}
-
-.google-tools-btn {
-  padding: var(--space-10) var(--space-16);
-  background: var(--color-surface);
-  border: none;
-  border-radius: var(--ui-radius-md);
-  color: var(--color-text);
-  cursor: pointer;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-  transition: all 0.2s ease;
-  display: flex;
-  align-items: center;
-  gap: var(--space-4);
-}
-
-.google-tools-btn:hover {
-  border-color: var(--ui-border-strong);
-  transform: translateY(-1px);
-}
-
-.google-tools-btn:active {
-  box-shadow: none;
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
-  transform: translateY(0);
-}
-
-.google-results-count {
+.app-results-count {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
   white-space: nowrap;
-}
-
-.google-tools-panel {
-  background: var(--color-background);
-  border-bottom: 1px solid var(--color-border);
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-  box-shadow: none;
-  max-height: 400px;
-  overflow-y: auto;
-  animation: slideDown var(--duration-normal) var(--ease-standard);
-}
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-8px);
-    max-height: 0;
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-    max-height: 400px;
-  }
 }
 
 .logo {
@@ -1868,44 +1807,34 @@ body {
   }
 
   /* Google navigation mobile styles */
-  .google-nav-content {
-    padding: var(--space-8) var(--space-12);
-    gap: var(--space-8);
-  }
-
-  .google-nav-tabs {
+  .app-nav-tabs {
     gap: var(--space-4);
   }
 
   /* Keep primary rail + divider + secondary cluster on one scrollable row (spec 093) */
-  .google-nav-primary,
-  .google-nav-secondary {
+  .app-nav-primary,
+  .app-nav-secondary {
     flex-shrink: 0;
     flex-wrap: nowrap;
   }
 
-  .google-nav-divider {
+  .app-nav-divider {
     flex-shrink: 0;
     margin: 0 var(--space-8);
   }
 
-  .google-nav-tab {
+  .app-nav-tab {
     padding: var(--space-8) var(--space-12);
     font-size: var(--font-size-xs);
   }
 
-  .google-nav-tab svg,
-  .google-filter-btn svg {
+  .app-nav-tab svg,
+  .app-filter-btn svg {
     width: 14px;
     height: 14px;
   }
 
-  .google-tools-btn {
-    padding: var(--space-8) var(--space-12);
-    font-size: var(--font-size-xs);
-  }
-
-  .google-results-count {
+  .app-results-count {
     display: none;
     /* Hide on mobile to save space */
   }
@@ -2350,7 +2279,6 @@ body {
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   box-shadow: none;
   border: 1px solid var(--ui-border);
-  border: 1px solid rgba(255, 255, 255, 0.05);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -2375,7 +2303,6 @@ body {
 .pool-card:hover {
   transform: translateY(-2px);
   border-color: var(--ui-border-strong);
-  border-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Reduced hover effect for desktop compact cards */
@@ -2825,7 +2752,7 @@ html[data-app-mode="landing"] .seo-hub-links {
 /* Responsive Design - Mobile Only (Desktop Unchanged) */
 @media (max-width: 768px) {
   /* Backlog 222, attempt 2: this was `var(--space-20)` (20px) against a
-     120-127px `position: fixed` `.google-header-sticky`, which should have
+     120-127px `position: fixed` `.app-header-sticky`, which should have
      buried `.results-title` ("Yields for USDC") -- it did NOT, only because
      attempt 1's own two standalone `.theme-toggle`/`.language-toggle`
      buttons (hidden by this same item, see the `.app.has-results >
@@ -2835,8 +2762,8 @@ html[data-app-mode="landing"] .seo-hub-links {
      20px gap and put `.results-title` under the header -- measured this
      attempt, real render, `?token=USDC`: y:49.7 (EN)/49.7 (KO) at
      360/480px, y:57.7 at 640px, all `elementFromPoint`-hit by
-     `.google-header-content`/`.google-nav-row`, i.e. actually covered, not
-     just close. `.google-header-sticky`'s own measured height across this
+     `.app-header-content`/`.app-nav-row`, i.e. actually covered, not
+     just close. `.app-header-sticky`'s own measured height across this
      item's design bar (360/480/640/768, EN+KO): 120px (EN) / 123px (KO) at
      <=640px, 124px (EN) / 127px (KO) at 700-768px -- max 127px.
      `.results-title` renders ~29.7px below `.container`'s top regardless of
@@ -4204,8 +4131,8 @@ html {
    RESULTS page (`.app.has-results`, the `?token=`/`?chain=` surface every
    SEO lander resolves to) the header above ALSO renders its own theme/
    language buttons (`app.js:3057/3062`, fixed in place by the reset near
-   `.google-control-btn` above) — so this standalone pair becomes a live
-   SECOND copy: buried under the fixed `.google-header-sticky` at <=640px
+   `.app-control-btn` above) — so this standalone pair becomes a live
+   SECOND copy: buried under the fixed `.app-header-sticky` at <=640px
    (mobile's `.app:not(.has-results) .theme-toggle` fixed-position override,
    style.css:4419 below, never matches on a results page by construction,
    since `has-results` and `:not(.has-results)` are mutually exclusive) and
@@ -4213,8 +4140,8 @@ html {
    `.has-results` only, so `.app:not(.has-results)` — the homepage, which
    has no header to fall back on — is untouched (spec 222 criterion 8's
    guard). The `>` child combinator matters: the header's buttons are
-   GRANDchildren of `.app` (via `.google-header-sticky` >
-   `.google-header-content` > `.google-header-controls`), so a descendant
+   GRANDchildren of `.app` (via `.app-header-sticky` >
+   `.app-header-content` > `.app-header-controls`), so a descendant
    selector here would also hide them; `>` restricts this to the two
    direct-child standalone buttons only, never the header pair this fix
    keeps working. */
@@ -4537,10 +4464,8 @@ html {
   font-weight: var(--font-weight-bold);
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  /* Extreme neumorphic button */
   box-shadow: none;
-  border: 1px solid var(--ui-border);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid transparent;
   position: relative;
   overflow: hidden;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -5498,10 +5423,10 @@ html {
 .calculate-yield-btn-new:active,
 .start-earning-btn:active,
 .search-button:active,
-.google-search-button:active,
-.google-control-btn:active,
-.google-nav-tab:active,
-.google-filter-btn:active,
+.app-search-button:active,
+.app-control-btn:active,
+.app-nav-tab:active,
+.app-filter-btn:active,
 .view-toggle-btn:active,
 .theme-toggle:active,
 .language-toggle:active,
@@ -5520,8 +5445,8 @@ html {
 .pool-row:hover,
 .calculate-yield-btn-new:hover,
 .search-button:hover:not(:disabled),
-.google-nav-tab:hover:not(.active),
-.google-filter-btn:hover:not(.active),
+.app-nav-tab:hover:not(.active),
+.app-filter-btn:hover:not(.active),
 .theme-toggle:hover {
   transform: translateY(-2px);
   transition: transform 200ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 200ms cubic-bezier(0.25, 1, 0.5, 1) !important;
@@ -5596,8 +5521,8 @@ body,
 }
 
 .pool-card,
-.google-search-container,
-.google-header-sticky,
+.app-search-container,
+.app-header-sticky,
 .filter-pills-container,
 .modal-content {
   transition: transform 200ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 200ms cubic-bezier(0.25, 1, 0.5, 1), background-color 300ms ease, color 300ms ease, border-color 300ms ease;

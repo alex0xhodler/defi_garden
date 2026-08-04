@@ -1448,7 +1448,7 @@ function App() {
     const handleClickOutside = (event) => {
       if (activeDropdown &&
           !event.target.closest('.global-filter-dropdown') &&
-          !event.target.closest('.google-filter-btn')) {
+          !event.target.closest('.app-filter-btn')) {
         setActiveDropdown(null);
       }
     };
@@ -3002,21 +3002,21 @@ function App() {
   },
     // Google-style sticky header - ONLY show when we have results
     (selectedToken || (chainMode && selectedChain)) && React.createElement('div', {
-      className: 'google-header-sticky'
+      className: 'app-header-sticky'
     },
-      React.createElement('div', { className: 'google-header-content' },
+      React.createElement('div', { className: 'app-header-content' },
         // Logo (compact, clickable)
         React.createElement('div', {
-          className: 'google-logo',
+          className: 'app-logo',
           onClick: resetApp
         }, '🌱 DeFi Garden'),
 
         // Persistent search bar
-        React.createElement('div', { className: 'google-search-container' },
-          React.createElement('div', { className: 'google-search-bar' },
+        React.createElement('div', { className: 'app-search-container' },
+          React.createElement('div', { className: 'app-search-bar' },
             React.createElement('input', {
               type: 'text',
-              className: 'google-search-input',
+              className: 'app-search-input',
               // Placeholder reflects token query only; chain state belongs to filter chips
               placeholder: selectedToken ? selectedToken : animatedPlaceholder,
               value: searchInput,
@@ -3027,7 +3027,7 @@ function App() {
             }),
             // ✕ clear button — only visible when search input is non-empty
             searchInput.length > 0 && React.createElement('button', {
-              className: 'google-search-clear',
+              className: 'app-search-clear',
               'aria-label': 'Clear search',
               onMouseDown: (e) => {
                 // Use mousedown to fire before blur
@@ -3036,12 +3036,12 @@ function App() {
                 setSelectedToken('');
                 setShowAutocomplete(false);
                 // Return focus to input
-                const input = e.currentTarget.parentElement.querySelector('.google-search-input');
+                const input = e.currentTarget.parentElement.querySelector('.app-search-input');
                 if (input) input.focus();
               }
             }, '✕'),
             React.createElement('button', {
-              className: 'google-search-button',
+              className: 'app-search-button',
               onClick: () => {
                 if (searchInput.length > 0 && autocompleteTokens.length > 0) {
                   handleTokenSelect(autocompleteTokens[0]);
@@ -3052,14 +3052,14 @@ function App() {
         ),
 
         // Controls (theme, language) 
-        React.createElement('div', { className: 'google-header-controls' },
+        React.createElement('div', { className: 'app-header-controls' },
           React.createElement('button', {
-            className: 'google-control-btn language-toggle',
+            className: 'app-control-btn language-toggle',
             onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
             'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
           }, language === 'en' ? 'KO' : 'EN'),
           React.createElement('button', {
-            className: 'google-control-btn theme-toggle',
+            className: 'app-control-btn theme-toggle',
             onClick: toggleTheme,
             'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
           }, isDarkMode ? '🌙' : '☀️')
@@ -3067,67 +3067,67 @@ function App() {
       ),
 
       // Google-style navigation tabs - part of the header
-      React.createElement('div', { className: 'google-nav-row' },
-        React.createElement('div', { className: 'google-nav-tabs' },
+      React.createElement('div', { className: 'app-nav-row' },
+        React.createElement('div', { className: 'app-nav-tabs' },
           // Primary rail: category tabs ("what am I browsing")
-          React.createElement('div', { className: 'google-nav-primary' },
+          React.createElement('div', { className: 'app-nav-primary' },
             ...CATEGORY_TABS.map(({ key, labelKey, icon }) =>
               React.createElement('button', {
                 key: labelKey,
-                className: `google-nav-tab ${(key ? (selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1) : !selectedPoolTypes.length) ? 'active' : ''}`,
+                className: `app-nav-tab ${(key ? (selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1) : !selectedPoolTypes.length) ? 'active' : ''}`,
                 onClick: () => setSelectedPoolTypes(key ? [key] : [])
               },
-                React.createElement('span', { className: 'google-nav-label' }, t(labelKey))
+                React.createElement('span', { className: 'app-nav-label' }, t(labelKey))
               )
             )
           ),
 
           // Primary/secondary boundary
-          React.createElement('span', { className: 'google-nav-divider', 'aria-hidden': 'true' }),
+          React.createElement('span', { className: 'app-nav-divider', 'aria-hidden': 'true' }),
 
           // Secondary cluster: filter buttons ("how is it narrowed")
-          React.createElement('div', { className: 'google-nav-secondary' },
+          React.createElement('div', { className: 'app-nav-secondary' },
             React.createElement('button', {
-              className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
+              className: `app-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
               onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),
               id: 'chains-btn'
             },
               navIcon('chains'),
-              React.createElement('span', { className: 'google-nav-label' }, selectedChain || t('navFilterChains'))
+              React.createElement('span', { className: 'app-nav-label' }, selectedChain || t('navFilterChains'))
             ),
 
             React.createElement('button', {
-              className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
+              className: `app-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
               onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
               id: 'tvl-btn'
             },
               navIcon('tvl'),
-              React.createElement('span', { className: 'google-nav-label' }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : t('navFilterTvl'))
+              React.createElement('span', { className: 'app-nav-label' }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : t('navFilterTvl'))
             ),
 
             React.createElement('button', {
-              className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
+              className: `app-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
               onClick: () => setActiveDropdown(activeDropdown === 'protocols' ? null : 'protocols'),
               id: 'protocols-btn'
             },
               navIcon('protocols'),
-              React.createElement('span', { className: 'google-nav-label' }, selectedProtocols.length > 0 ? `${selectedProtocols.length} Protocol${selectedProtocols.length > 1 ? 's' : ''}` : t('navFilterProtocols'))
+              React.createElement('span', { className: 'app-nav-label' }, selectedProtocols.length > 0 ? `${selectedProtocols.length} Protocol${selectedProtocols.length > 1 ? 's' : ''}` : t('navFilterProtocols'))
             ),
 
             React.createElement('button', {
-              className: `google-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
+              className: `app-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
               onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy'),
               id: 'apy-btn'
             },
               navIcon('apy'),
-              React.createElement('span', { className: 'google-nav-label' }, minApy > 0 ? `${minApy}%+` : t('navFilterApy'))
+              React.createElement('span', { className: 'app-nav-label' }, minApy > 0 ? `${minApy}%+` : t('navFilterApy'))
             )
           )
         ),
 
         // Results count only
-        React.createElement('div', { className: 'google-tools-section' },
-          React.createElement('span', { className: 'google-results-count' },
+        React.createElement('div', { className: 'app-tools-section' },
+          React.createElement('span', { className: 'app-results-count' },
             `${filteredPools.length.toLocaleString('en-US')} results`
           )
         )

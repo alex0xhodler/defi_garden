@@ -8,13 +8,13 @@
      (A) `.theme-toggle`/`.language-toggle` (style.css, the floating-pair
          rules written for the STANDALONE pair on the analytics homepage)
          carried no scoping, so they ALSO yanked the header's own
-         `.google-control-btn.theme-toggle`/`.google-control-btn.
+         `.app-control-btn.theme-toggle`/`.app-control-btn.
          language-toggle` (app.js:3057/3062) out of flow and pinned them to
          the same fixed coordinates as the standalone pair.
-     (B) `.google-header-content` had no `<=640px` override and its
-         `.google-search-container`/`.google-search-input` children had no
+     (B) `.app-header-content` had no `<=640px` override and its
+         `.app-search-container`/`.app-search-input` children had no
          `min-width: 0`, so the header row could not shrink below a bare
-         input's intrinsic width — pushing `.google-header-controls` off the
+         input's intrinsic width — pushing `.app-header-controls` off the
          360/480px viewport edge, clipped (not scrollable-to).
      (C) The standalone pair (app.js:3143/3153) render unconditionally as
          direct children of `.app`, so on a RESULTS page they are a live
@@ -22,7 +22,7 @@
          header at <=640px, painted duplicate chrome at >=641px.
 
    The fix (style.css, three changes, styling only):
-     1. `.google-header-controls .theme-toggle, .google-header-controls
+     1. `.app-header-controls .theme-toggle, .app-header-controls
         .language-toggle { position: static; top: auto; right: auto;
         margin: 0; z-index: auto; }` — stops the floating rules from
         matching the header's own buttons, at every viewport.
@@ -30,8 +30,8 @@
         .language-toggle { display: none; }` — hides the standalone
         duplicates on results pages only; the `.app:not(.has-results)`
         analytics homepage keeps its only pair (criterion 8's guard).
-     3. `min-width: 0` on `.google-search-container`/`.google-search-input`
-        plus a tighter `gap`/`padding` on `.google-header-content`, inside
+     3. `min-width: 0` on `.app-search-container`/`.app-search-input`
+        plus a tighter `gap`/`padding` on `.app-header-content`, inside
         the existing `@media (max-width: 640px)` tier, so the header row can
         shrink instead of pushing its controls off-screen.
 
@@ -85,7 +85,7 @@
        fixes: at 360/480/640/768 x 780, EN and KO, `?token=USDC` (plus
        `?chain=Ethereum` at 360px), at rest: `.results-title` and
        `.results-header` each (i) have a bounding rect that does NOT
-       intersect `.google-header-sticky`'s rect, and (ii) hit-test via
+       intersect `.app-header-sticky`'s rect, and (ii) hit-test via
        `elementFromPoint` at their centre to themselves or a descendant —
        never the header or a header child. Plus a RED PROOF, own isolated
        page: mutate `.app.has-results`'s `padding-top` back to the
@@ -269,14 +269,14 @@ async function assertControlsReachable(page, label) {
 }
 
 // --- Criterion 11 (attempt 2): .results-title/.results-header clear of ---
-// .google-header-sticky. Rect-intersection AND a hit test, same reasoning
+// .app-header-sticky. Rect-intersection AND a hit test, same reasoning
 // as measureControlsDiagnostic above -- two elements can have
 // non-overlapping bounding rects and still fail the hit test (e.g. a third
 // element painted on top), so both checks run independently and either one
 // failing is reported.
 async function measureClearanceDiagnostic(page, selector) {
   return page.evaluate((sel) => {
-    const header = document.querySelector('.google-header-sticky');
+    const header = document.querySelector('.app-header-sticky');
     const el = document.querySelector(sel);
     if (!el) return { missing: true };
     const hr = header ? header.getBoundingClientRect() : null;
@@ -301,7 +301,7 @@ function assertHeaderClear(diag, selector, label) {
   if (diag.missing) throw new Error(`${label}: ${selector} not found in DOM`);
   const problems = [];
   if (diag.intersects) {
-    problems.push(`${selector} rect ${JSON.stringify(diag.rect)} intersects .google-header-sticky rect ${JSON.stringify(diag.headerRect)}`);
+    problems.push(`${selector} rect ${JSON.stringify(diag.rect)} intersects .app-header-sticky rect ${JSON.stringify(diag.headerRect)}`);
   }
   if (!diag.hit.isSelf) {
     problems.push(`${selector} hit test at centre did not resolve to itself -- covering element: <${diag.hit.tag} class="${diag.hit.className}">, rect: ${JSON.stringify(diag.rect)}, header rect: ${JSON.stringify(diag.headerRect)}`);
@@ -347,7 +347,7 @@ async function main() {
       // Page is already on this width/URL from the test just above -- no
       // re-navigation needed.
       if (width !== 1280) {
-        await test(`(11) ${width}x780 ?token=USDC: .results-title and .results-header clear of .google-header-sticky`, async () => {
+        await test(`(11) ${width}x780 ?token=USDC: .results-title and .results-header clear of .app-header-sticky`, async () => {
           await assertResultsHeaderClear(page, `${width}x780 ?token=USDC`);
         });
       }
@@ -404,7 +404,7 @@ async function main() {
     // (11) KO parity across the full design bar (spec 222's addendum names
     // EN and KO explicitly, unlike criterion 5 above which is 360px-only).
     for (const width of [360, 480, 640, 768]) {
-      await test(`(11) ${width}x780 ?lang=ko ?token=USDC: .results-title and .results-header clear of .google-header-sticky`, async () => {
+      await test(`(11) ${width}x780 ?lang=ko ?token=USDC: .results-title and .results-header clear of .app-header-sticky`, async () => {
         await koPage.setViewportSize({ width, height: 780 });
         await koPage.goto(koTokenUrl, { waitUntil: 'load', timeout: 20000 });
         await koPage.waitForSelector('.pool-card', { timeout: 15000 });
@@ -446,7 +446,7 @@ async function main() {
     await test('no unexpected page/console errors (?chain= page)', async () => {
       if (chainErrors.length) throw new Error(chainErrors.join('\n    '));
     });
-    await test('(11) 360x780 ?chain=Ethereum: .results-title and .results-header clear of .google-header-sticky', async () => {
+    await test('(11) 360x780 ?chain=Ethereum: .results-title and .results-header clear of .app-header-sticky', async () => {
       await assertResultsHeaderClear(chainPage, '360x780 ?chain=Ethereum');
     });
     await chainPage.close();
@@ -493,18 +493,18 @@ async function main() {
       //   - re-widen the search container/input's minimum size so the
       //     header row can no longer shrink -- undoes fix (3).
       await redPage.addStyleTag({ content: `
-        .google-header-controls .theme-toggle {
+        .app-header-controls .theme-toggle {
           position: fixed !important; top: var(--space-20) !important;
           right: var(--space-20) !important; z-index: 1000 !important; margin: 0 !important;
         }
-        .google-header-controls .language-toggle {
+        .app-header-controls .language-toggle {
           position: fixed !important; top: var(--space-20) !important;
           right: calc(var(--space-20) + 200px) !important; z-index: 1000 !important; margin: 0 !important;
         }
         .app.has-results > .theme-toggle { display: flex !important; }
         .app.has-results > .language-toggle { display: flex !important; }
-        .google-search-container { min-width: 170px !important; }
-        .google-search-input { min-width: 170px !important; }
+        .app-search-container { min-width: 170px !important; }
+        .app-search-input { min-width: 170px !important; }
       `});
       await redPage.waitForTimeout(100);
 
@@ -546,8 +546,8 @@ async function main() {
       await assertControlsReachable(redPage2, '360x780 unreachable-red-proof PRE-mutation (must be green)');
 
       await redPage2.addStyleTag({ content: `
-        .google-search-container { min-width: 170px !important; }
-        .google-search-input { min-width: 170px !important; }
+        .app-search-container { min-width: 170px !important; }
+        .app-search-input { min-width: 170px !important; }
       `});
       await redPage2.waitForTimeout(100);
 
@@ -555,7 +555,7 @@ async function main() {
       if (scrollY !== 0) throw new Error(`red proof: window.scrollY=${scrollY}, expected 0`);
 
       const diag = await redPage2.evaluate(() => {
-        const el = document.querySelector('.google-header-controls .theme-toggle');
+        const el = document.querySelector('.app-header-controls .theme-toggle');
         if (!el) return { missing: true };
         const r = el.getBoundingClientRect();
         const cx = r.x + r.width / 2, cy = r.y + r.height / 2;
@@ -569,7 +569,7 @@ async function main() {
           innerWidth: window.innerWidth
         };
       });
-      if (diag.missing) throw new Error('red proof: .google-header-controls .theme-toggle not found in DOM');
+      if (diag.missing) throw new Error('red proof: .app-header-controls .theme-toggle not found in DOM');
       if (!diag.hitIsNull) {
         throw new Error(`positive control failed to reproduce the UNREACHABLE signature -- expected elementFromPoint at the header .theme-toggle's centre to resolve to null (off-screen clip), got <${diag.hitTag} class="${diag.hitClass}"> instead -- rect: ${JSON.stringify(diag.rect)}`);
       }
@@ -610,7 +610,7 @@ async function main() {
       if (!thrown) {
         throw new Error('positive control failed to reproduce the (A) regression -- criterion 11 stayed GREEN after padding-top was mutated back to 20px; a check that cannot fail is not evidence of health');
       }
-      if (!/google-header/i.test(thrown.message)) {
+      if (!/app-header/i.test(thrown.message)) {
         throw new Error(`red proof fired but did not name the header as the intersecting/covering element: ${thrown.message}`);
       }
       console.log(`    red proof fired as expected: ${thrown.message}`);
