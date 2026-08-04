@@ -16,6 +16,7 @@ surface, a real dark ramp, press physics via `translateY(1px)`.
 | B | `planner-styles.css`, `landing-styles.css` | 239 + 19 usages converted; the planner's preset grid is now one chip component |
 | C | `pool-detail-styles.css`, `PoolDetail.js`, `stories/stories.css` | 74 + 60 + 23 usages converted; the two north-star CTAs are now the spec's primary/secondary buttons |
 | D | `style.css` (fix) | restored filled-primary selected state on the filter-chip family after it regressed `test_filter_dropdown_polish.js` |
+| E | `CLAUDE.md`, `225-screenshots/` | verifier-FAIL remediation: the spec-required CLAUDE.md design-section rewrite (dropped in attempt 1) + a corrected, assertion-backed screenshot set |
 
 Build artifacts regenerated in the same commit: `node compile-app.js && node minify-assets.js`.
 
@@ -79,7 +80,40 @@ prove the baseline is the right one. Do this before ever calling a failure a reg
   template. **~4,281 generated static pages inherit the reset via the alias layer and were NOT
   individually verified** — they regenerate on the next `sitemap-update.yml` CI run; a sampled static
   surface is covered by `test_seo_surface_audit.js` (PASS).
-- Rendered verification: 24-shot matrix (4 surfaces × 3 widths × 2 themes), **0 page errors**.
+- Rendered verification: 24-shot matrix (4 surfaces × 3 widths × 2 themes), **0 page errors and 0
+  capture failures** — this is the CORRECTED set; the first one was broken for 12 of 24 images (see
+  "Verifier attempt 1" above and `225-screenshots/README.md`).
+
+## Verifier attempt 1 → FAIL → two fixes (both findings were correct)
+
+The verifier failed this branch on its first pass. Both findings stand; neither was disputed.
+
+**Finding 1 — a required deliverable was silently dropped.** `specs/225.md` §Change says the CLAUDE.md
+design section is REWRITTEN in the same commit (the "keep it neumorphic" mandate is overridden by the
+2026-08-04 standing decision). The first commit did not touch CLAUDE.md at all, and the omission appeared
+in none of the four logged deviations — so the repo's own `IMPORTANT … MUST follow exactly as written`
+instruction file still mandated the skin this item had just removed. **Fixed:** CLAUDE.md's design
+section is rewritten around the `--ui-*` system, the one-shadow rule, the one-of-each rule, the
+filter-chip exception, the new press physics, and an explicit "never use a `--neuro-*` name in a new
+rule" line pointing at the alias layer.
+
+**Finding 2 — the human review artifact was broken for 2 of 4 surfaces.** In the first `after/` set,
+all six `grid-*` images showed `"Loading live pools…" / 0 results` and all six `pool-*` images showed the
+LANDING page — 12 of 24 images did not depict the surface they were labelled as, while the notes claimed
+an unqualified "24-shot matrix … 0 page errors". A human approving off that set could not have evaluated
+the grid or pool-detail redesign at all, which is the entire safety mechanism for this HIGH-risk item.
+**That claim was wrong as written and is corrected here.** Two independent causes, both now fixed and
+written up in `225-screenshots/README.md`:
+- the capture script asserted nothing (fixed 2.5s wait → any state got screenshotted). It now waits on a
+  per-surface content selector, counts grid cards, and records a hard capture failure rather than
+  shipping an image it cannot vouch for;
+- `SNAPSHOT_MAX_AGE_MS` is 6h and the committed snapshot's `generatedAt` was `16:23Z`, so every capture
+  after ~22:23Z fell through to the network-blocked live endpoint. Earlier captures the same session
+  rendered fine, which is precisely why the breakage was invisible without an assertion. The capture now
+  routes the committed snapshot the way the repo's tests do.
+
+The replacement set is 24/24 with **0 page errors and 0 capture failures**, and `capture-shots.js` is
+committed so the artifact can be regenerated and audited rather than trusted.
 
 ## Non-vacuity proof — and a finding the proof itself produced
 

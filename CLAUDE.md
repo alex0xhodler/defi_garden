@@ -28,10 +28,15 @@ An inline IA router in `home.html` (`window.__APP_MODE`) decides which experienc
 - Data: `https://yields.llama.fi/pools` fetched client-side. Pool deep link: `/?pool=<pool.pool>`.
 - State conventions: theme = localStorage `theme` + `data-theme` attr; language = `?lang` + localStorage `defi-garden-lang`; saved plan = localStorage `garden-plan`.
 
-## Design system (post-2026 redesign — keep it this way)
+## Design system — "Quiet" (design reset 2026-08-04, item 225; SUPERSEDES the neumorphic mandate)
 
-- Neumorphic, calm, skeuomorphic. Tokens only: `--neuro-shadow-raised/-flat/-pressed/-subtle` (soft: 4px offsets, low-opacity), `--neuro-radius-sm/-md/-lg` (10/14/16px squircles), `--neuro-bg-gradient`. Light source top-left. Accent colors (#3B82F6 family) are fixed.
-- **Banned**: electric glow box-shadows, bounce easings, fake urgency, scale-pop hovers. Press physics: interactive controls sink 1px into `--neuro-shadow-pressed` on `:active` (global rule).
+The neumorphic skin and the legacy google-mimic analytics chrome are both GONE (human directive, strategy interview Q2b). Full spec: `product-loop-kit/specs/225-design-system.md` — read it before any UI change.
+
+- **Tokens only, `--ui-*`**: surfaces `--ui-bg/-surface/-surface-muted/-surface-sunken`; separation `--ui-border` (the 1px hairline default) / `--ui-border-strong`; text `--ui-text/-text-secondary/-text-muted`; accent `--ui-accent/-hover/-active/-soft/-border/--ui-on-accent` (the #3B82F6 family is still FIXED); radii `--ui-radius-sm/-md/-lg/-pill` (8/12/16/999px); `--ui-focus-ring`. Defined in `style.css` for light, `[data-theme="dark"]` and `@media (prefers-color-scheme: dark)`.
+- **Depth comes from a hairline border and a background step, never from a shadow.** Exactly ONE shadow token exists — `--ui-shadow-overlay` — and only for things that genuinely float (dropdowns, popovers, modals, a sticky header once scrolled).
+- **One of each**: one header, one card, one button (primary/secondary), one chip, one input, one nav-tab pattern, across landing / planner / analytics grid / pool-detail. A variant is a modifier on the same base, never a new component. Selected chips use accent-soft — EXCEPT the filter-dropdown family, which keeps a filled-primary selected state (spec 111: a selected filter must be unmistakable).
+- **Banned**: neumorphic dual-direction shadows, gradients on page backgrounds, electric glow, bounce easings, scale-pop hovers, fake urgency. Press physics: interactive controls `transform: translateY(1px)` + `--ui-surface-muted` on `:active` (no transform under reduced motion).
+- `--neuro-*` names still resolve as DEPRECATED aliases pointing at the flat values — they exist ONLY so the ~4,400 generated static pages that baked them into inline `<style>` blocks inherit the reset. **Never use a `--neuro-*` name in a new rule.**
 - `prefers-reduced-motion` respected for every animation. Must be flawless at 360/768/1280px and in dark mode.
 
 ## Hard rules
