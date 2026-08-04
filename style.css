@@ -462,21 +462,18 @@ pre code {
   background: var(--color-primary);
   color: var(--color-btn-primary-text);
   box-shadow: none;
-  border: 1px solid var(--ui-border);
+  border: 1px solid transparent;
   font-weight: 600;
   transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn--primary:hover {
   background: var(--color-primary-hover);
-  border-color: var(--ui-border-strong);
 }
 
 .btn--primary:active {
   background: var(--color-primary-active);
   box-shadow: none;
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
   transform: translateY(1px);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -991,12 +988,10 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  background: var(--color-surface);
-  border-radius: var(--ui-radius-lg);
   background: var(--ui-surface);
+  border-radius: var(--ui-radius-lg);
   border: 1px solid var(--ui-border-strong);
   box-shadow: none;
-  border: none;
   transition: all 0.2s ease;
 }
 
@@ -1046,7 +1041,7 @@ body {
   padding: var(--space-10);
   margin-right: var(--space-8);
   background: var(--color-primary);
-  border: none;
+  border: 1px solid transparent;
   border-radius: var(--radius-full);
   color: var(--color-btn-primary-text);
   cursor: pointer;
@@ -1054,7 +1049,6 @@ body {
   align-items: center;
   justify-content: center;
   box-shadow: none;
-  border: 1px solid var(--ui-border);
   transition: all var(--duration-normal) var(--ease-standard);
   min-width: 36px;
   height: 36px;
@@ -1062,12 +1056,11 @@ body {
 
 .google-search-button:hover {
   background: var(--color-primary-hover);
-  border-color: var(--ui-border-strong);
 }
 
 .google-search-button:active {
   box-shadow: none;
-  background: var(--ui-surface-muted);
+  background: var(--color-primary-active);
   transform: translateY(1px);
 }
 
@@ -1286,9 +1279,10 @@ body {
 }
 
 .google-filter-btn.active:not(.has-selection) {
-  background: var(--color-surface);
-  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.7);
-  transform: translateY(2px);
+  background: var(--ui-accent-soft);
+  border-color: var(--ui-accent-border);
+  color: var(--ui-accent);
+  box-shadow: none;
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1694,6 +1688,7 @@ body {
   padding: var(--space-12) var(--space-16);
   border-radius: var(--ui-radius-md);
   background: transparent;
+  border: 1px solid transparent;
   box-shadow: none;
   max-width: 300px;
   margin: 0 auto var(--space-12);
@@ -1991,13 +1986,10 @@ body {
 
 .autocomplete-item:hover,
 .autocomplete-item.highlighted {
-  background: var(--color-background);
   background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
+  border: 1px solid var(--ui-accent-border);
   color: var(--ui-accent);
   box-shadow: none;
-  color: var(--color-primary);
-  transform: scale(0.98);
 }
 
 /* Neumorphic Filters Section */
@@ -2157,10 +2149,8 @@ body {
 }
 
 .view-toggle-btn.active {
-  background: var(--color-background);
-  color: var(--color-primary);
   background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
+  border: 1px solid var(--ui-accent-border);
   color: var(--ui-accent);
   box-shadow: none;
 }
@@ -3618,7 +3608,6 @@ html {
 
 .calculate-yield-btn-new:hover {
   background: var(--color-surface);
-  border-color: var(--ui-border-strong);
   transform: none;
 }
 
@@ -4083,7 +4072,7 @@ html {
 
 .start-earning-btn {
   padding: var(--space-16) var(--space-32);
-  border: none;
+  border: 1px solid transparent;
   background: var(--color-primary);
   color: white;
   border-radius: var(--ui-radius-lg);
@@ -4092,7 +4081,6 @@ html {
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
   box-shadow: none;
-  border: 1px solid var(--ui-border);
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
@@ -4100,14 +4088,13 @@ html {
 }
 
 .start-earning-btn:hover {
-  border-color: var(--ui-border-strong);
+  background: var(--color-primary-hover);
 }
 
 .start-earning-btn:active {
   transform: translateY(1px);
   box-shadow: none;
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
+  background: var(--color-primary-active);
 }
 
 .start-earning-btn::before {
@@ -4251,7 +4238,6 @@ html {
   box-shadow: none;
   border: 1px solid var(--ui-border);
   transition: all var(--duration-normal) var(--ease-standard);
-  border: none;
   cursor: pointer;
 }
 
@@ -4339,7 +4325,6 @@ html {
   border-radius: var(--radius-full);
   box-shadow: none;
   border: 1px solid var(--ui-border);
-  border: none;
   cursor: pointer;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
@@ -5167,10 +5152,8 @@ html {
 
 /* Chain pills use brand colors when active - raised when selected */
 .chain-pill.active {
-  background: var(--chain-color, var(--color-primary));
-  color: white;
   background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
+  border: 1px solid var(--ui-accent-border);
   color: var(--ui-accent);
   box-shadow: none;
   font-weight: var(--font-weight-semibold);
@@ -5492,21 +5475,18 @@ html {
   background: var(--color-primary) !important;
   color: #FFFFFF !important;
   box-shadow: none;
-  border: 1px solid var(--ui-border);
+  border: 1px solid transparent;
   font-weight: 600;
   transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn--primary:hover:not(:disabled) {
   background: var(--color-primary-hover) !important;
-  border-color: var(--ui-border-strong);
 }
 
 .btn--primary:active:not(:disabled) {
   background: var(--color-primary-active) !important;
   box-shadow: none;
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
   transform: translateY(1px);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }

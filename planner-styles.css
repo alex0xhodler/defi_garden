@@ -113,7 +113,7 @@
 .gp-arrival-dismiss {
   width: 32px;
   height: 32px;
-  border: none;
+  border: 1px solid var(--ui-border);
   border-radius: var(--ui-radius-sm);
   background: var(--color-background);
   color: var(--color-text-secondary);
@@ -123,7 +123,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--ui-border);
   transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
 }
@@ -285,14 +284,13 @@
   flex-shrink: 0;
   width: 40px;
   height: 40px;
-  border: none;
+  border: 1px solid var(--ui-border);
   border-radius: var(--ui-radius-sm);
   background: var(--color-background);
   color: var(--color-primary);
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
   cursor: pointer;
-  border: 1px solid var(--ui-border);
   transition: border-color var(--duration-normal) var(--ease-standard);
 }
 .gp-text-send:hover { border-color: var(--ui-border-strong); }
@@ -2553,20 +2551,19 @@
 .gp-waitlist-submit {
   width: 100%;
   padding: var(--space-14) var(--space-28);
-  border: none;
+  border: 1px solid transparent;
   border-radius: var(--ui-radius-md);
-  background: var(--color-primary);
+  background: var(--ui-accent);
   color: #fff;
   font-family: var(--font-family-base);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-semibold);
   cursor: pointer;
-  box-shadow: var(--neuro-shadow-flat);
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
+  transition: background var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
 }
-.gp-waitlist-submit:hover:not(:disabled) { box-shadow: var(--neuro-shadow-raised); transform: translateY(-1px); }
-.gp-waitlist-submit:active:not(:disabled) { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.gp-waitlist-submit:hover:not(:disabled) { background: var(--ui-accent-hover); transform: translateY(-1px); }
+.gp-waitlist-submit:active:not(:disabled) { background: var(--ui-accent-active); transform: translateY(1px); }
 .gp-waitlist-submit:disabled { opacity: 0.6; cursor: progress; }
 .gp-waitlist-submit:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 
@@ -2592,7 +2589,7 @@
   padding: var(--space-16);
   border-radius: var(--ui-radius-md);
   background: var(--color-background);
-  box-shadow: var(--neuro-shadow-pressed);
+  border: 1px solid var(--ui-border);
 }
 .gp-waitlist-label {
   font-size: var(--font-size-xs);
@@ -2609,13 +2606,12 @@
 .gp-waitlist-handle-input {
   flex: 1;
   padding: var(--space-8) var(--space-12);
-  border: none;
+  border: 1px solid var(--ui-border-strong);
   border-radius: var(--ui-radius-sm);
   background: var(--color-surface);
   color: var(--color-text);
   font-family: var(--font-family-base);
   font-size: var(--font-size-base);
-  box-shadow: var(--neuro-shadow-subtle);
   box-sizing: border-box;
 }
 .gp-waitlist-handle-input:focus { outline: 2px solid var(--color-primary); outline-offset: 2px; }
@@ -2642,7 +2638,7 @@
 .gp-waitlist-copy-btn {
   flex-shrink: 0;
   padding: var(--space-6) var(--space-12);
-  border: none;
+  border: 1px solid var(--ui-border);
   border-radius: var(--ui-radius-sm);
   background: var(--color-background);
   color: var(--color-primary);
@@ -2650,12 +2646,11 @@
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
   cursor: pointer;
-  box-shadow: var(--neuro-shadow-flat);
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
+  transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
 }
-.gp-waitlist-copy-btn:hover { box-shadow: var(--neuro-shadow-raised); transform: translateY(-1px); }
-.gp-waitlist-copy-btn:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.gp-waitlist-copy-btn:hover { border-color: var(--ui-border-strong); transform: translateY(-1px); }
+.gp-waitlist-copy-btn:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 .gp-waitlist-copy-btn:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
 
 /* Share actions */
@@ -2668,7 +2663,7 @@
   flex: 1;
   min-width: 0;
   padding: var(--space-12) var(--space-16);
-  border: none;
+  border: 1px solid var(--ui-border);
   border-radius: var(--ui-radius-md);
   background: var(--color-background);
   color: var(--color-primary);
@@ -2676,13 +2671,12 @@
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-semibold);
   cursor: pointer;
-  box-shadow: var(--neuro-shadow-flat);
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
+  transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
   text-align: center;
 }
-.gp-waitlist-action-btn:hover { box-shadow: var(--neuro-shadow-raised); transform: translateY(-1px); }
-.gp-waitlist-action-btn:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.gp-waitlist-action-btn:hover { border-color: var(--ui-border-strong); transform: translateY(-1px); }
+.gp-waitlist-action-btn:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 .gp-waitlist-action-btn:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
 
 /* Mobile */
@@ -2710,17 +2704,18 @@
 
 /* ---------- Tweak 1 — Share on X primary button ---------- */
 .gp-waitlist-share-primary {
-  background: var(--color-primary);
+  background: var(--ui-accent);
+  border-color: transparent;
   color: #fff;
-  box-shadow: var(--neuro-shadow-flat);
 }
 .gp-waitlist-share-primary:hover {
-  box-shadow: var(--neuro-shadow-raised);
+  background: var(--ui-accent-hover);
+  border-color: transparent;
   transform: translateY(-1px);
   color: #fff;
 }
 .gp-waitlist-share-primary:active {
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-accent-active);
   transform: translateY(1px);
 }
 .gp-waitlist-share-primary:focus-visible {
@@ -2735,8 +2730,8 @@
   gap: var(--space-4, 4px);
   padding: var(--space-12) var(--space-14);
   border-radius: var(--ui-radius-sm);
-  background: var(--color-background);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
 }
 .gp-waitlist-position-number {
   font-size: var(--font-size-base);
@@ -2762,7 +2757,7 @@
   cursor: not-allowed;
 }
 .gp-waitlist-submit.is-disabled:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  background: var(--ui-accent);
   transform: none;
 }
 
@@ -2812,7 +2807,7 @@
   font-size: 0.85rem;
   padding: 10px 14px;
   border-radius: var(--ui-radius-sm);
-  box-shadow: var(--neuro-shadow-flat);
+  border: 1px solid var(--ui-border);
   margin: 0;
   line-height: 1.45;
   font-style: italic;
