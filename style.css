@@ -867,6 +867,117 @@ body {
   padding-top: var(--space-32);
 }
 
+/* Backlog 221: the analytics grid (`?token=`/`?chain=`) renders the shared
+   OPAQUE, `position: fixed; bottom: 0; z-index: 100` `.app-footer`
+   (style.css:2616-2627) inside `.app.has-results` (root at app.js:3000-3001,
+   footer render site app.js:3533) — the third and last `.app-footer` render
+   site (the playbook's three-site sweep, closed 2026-08-04 at item 220).
+   Unlike 217/220, this route DOES inherit `.app`'s own clearance
+   (`padding-bottom: 80px`, style.css:852, "Space for footer") — `.app.
+   has-results` is still `.app` — yet the overlap persists: measured at rest
+   (scrollY=0), grid-token 1280x780, `<button class="calculate-yield-btn-
+   new">` rect {x:978.1,y:710.6,w:202.2,h:29} vs footer rect {x:0,y:711,
+   w:1280,h:69} — 98.8% covered, `elementFromPoint` at centre resolves to
+   the footer, not the button (specs/221.md's Evidence; specs/221-notes.md
+   has the reproduction run). That is 218's exact lesson recurring on a
+   THIRD surface: the victim is MID-DOCUMENT at scroll 0 (a `.pool-card`
+   row, not the end of the document) and `padding-bottom` only lengthens the
+   document — it cannot move content that already sits inside the footer's
+   fixed band at first paint. No clearance VALUE fixes this (grid-chain
+   measured clean 1 run in 5 — how many cards fill the viewport before the
+   fold is content-dependent), so the fix reuses 218/220's shipped pattern:
+   take the footer out of the fixed layer on this view.
+
+   This is NOT a revert of the "Space for footer" `.app` rule — `.app`'s own
+   80px is untouched for every OTHER `.app` state; it is cancelled back to 0
+   ONLY on `.app.has-results` below, once the footer no longer needs it (the
+   same "vestigial once the footer is in flow" reasoning pool-detail-styles.
+   css:1080-1112 already records for 218).
+
+   THIS IS THE FALLBACK SHAPE (spec 221's "Option B"), chosen over the
+   preferred flex-column shape (218/220's exact `margin-top: auto` idiom)
+   because that idiom's precondition doesn't hold here and swapping it in
+   anyway is provably NOT free. 218/220 could reuse `margin-top: auto`
+   because their view was ALREADY a flex column (`.app:not(.has-results)`,
+   `.landing-app`); `.app.has-results` above is `display: block`, so
+   `margin-top: auto` on a `position: static` footer would be INERT under
+   block layout, and switching `.app.has-results` itself to `display: flex;
+   flex-direction: column` to make it load-bearing was measured, not
+   assumed, to move OTHER content: `.theme-toggle`/`.language-toggle` render
+   as direct, `position: static` children of `.app` ahead of `.container` on
+   this exact mobile/has-results combination (item 222's own quarantined
+   defect, app.js:3143-3160, style.css:4422's base mobile rule) — real
+   normal-flow siblings, not fixed decoration. Block layout lets their
+   margins collapse into `.container`'s leading edge; flex items never
+   collapse margins with anything (CSS Flexible Box spec). Measured on a
+   real render at 360x780 (24-pool fixture): `.container`'s rect moved from
+   {x:0,y:112} to {x:0,y:118} — a real +6px shift, not noise (two repeat
+   runs of each state were byte-identical, so it isn't render jitter) — when
+   `.app.has-results` was switched to flex. 768/1280 were unaffected (their
+   layouts don't hit that margin-collapse case), which is exactly the
+   "content-dependent, not always-on" signature this playbook already warns
+   about. Per spec 221's own instruction ("If ANY other element shifts, do
+   not force it — go to Option B"), that measurement is disqualifying, so
+   `display: block` stays and `margin-top: auto` is omitted entirely below
+   — an inert declaration is noise, not insurance, and describing it as
+   working when it can't fire would be the exact failure this comment
+   exists to avoid.
+
+   Consequence, measured rather than assumed: on the no-results grid state
+   (`?token=` for a token with zero matching live pools, app.js:3374-3376's
+   `empty-state`) the page is short enough, once the padding-bottom below is
+   zeroed, that the in-flow footer's TOP edge sits at ~748px (a 1-pool
+   fixture, 1280x780) — mostly on-screen already at rest, fully on-screen on
+   any viewport a little taller (most real desktop windows). Without
+   `margin-top: auto` the footer renders directly after the empty-state
+   card instead of pinned to the viewport's bottom edge — ordinary
+   end-of-document footer behaviour, the same thing every static page with
+   less content than the window does, and specifically NOT the occlusion
+   failure mode this item exists to close (nothing is painted over, nothing
+   is click-intercepted). specs/221-notes.md has the full measurement. */
+.app.has-results .app-footer {
+  position: static;
+}
+
+/* Backlog 221 continued: once the footer above is out of the fixed layer,
+   `.app`'s 80px `padding-bottom` protects nothing HERE — it would render as
+   dead background space below a footer that already carries its own top
+   box-shadow, the same "vestigial" argument pool-detail-styles.css:
+   1108-1112 records for 218. Zeroed with the longhand `padding-bottom`,
+   never the `padding` shorthand — not because of any cascade-ordering
+   effect (the `padding-top` overrides at style.css:1173/2735 win by source
+   order regardless of which property form zeroed this one; a shorthand
+   here would not un-set them). The real reason is narrower and boring:
+   `padding: 0` resets all four sides, so it would touch `padding-left`/
+   `padding-right` too — both `0` on this selector today (no rule sets
+   them), which makes the shorthand harmless right now and silently wrong
+   the moment a future rule adds horizontal padding to `.app.has-results`
+   that this declaration was never meant to touch. The longhand only
+   changes the one property this fix is actually about. Scoped to
+   `.app.has-results` only
+   — the fixed, opaque `.app-footer` block and `.app`'s own clearance stay
+   exactly as they are for every other `.app` state (pool-detail and landing
+   already have their own view-scoped fixes). `.app:not(.has-results)` DOES
+   also render this same footer (app.js:3533's `<footer class="app-footer">`
+   carries no `selectedToken &&`-style guard — it is an unconditional
+   sibling of the results content) and this rule deliberately does not
+   reach it — but that is a measured, not assumed, scope boundary: the
+   analytics search-home state (reachable at `/home.html?app=analytics`
+   with no `token`/`chain` selected, home.html:79-82's router) is the ONLY
+   state that renders `.app:not(.has-results)` with this footer, and it is
+   a short, centered flex column (style.css:857-862, `justify-content:
+   center`) whose content — logo, search input, the two search buttons —
+   never reaches the fixed footer's band. Measured on a real render at
+   360x780 and 1280x780 (both exactly fill the 780px viewport,
+   `scrollHeight === innerHeight`): zero content elements intersect the
+   footer's rect at either width. If a future change adds enough content to
+   that state to reach the footer's band, this scope boundary needs
+   revisiting — it is not proven safe for all possible content, only for
+   what renders there today. */
+.app.has-results {
+  padding-bottom: 0;
+}
+
 /* Container for homepage state */
 .app:not(.has-results) .container {
   max-width: 600px;

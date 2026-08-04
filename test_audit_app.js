@@ -66,9 +66,8 @@ async function main() {
   // pre-existing red this lens exposes"), same move already applied above to
   // real junk static pages tripping junk-slug: the CHECK is not softened,
   // the SCOPE is narrowed to the exact, named, dated surfaces it is proven
-  // on. Real, independently-verified, reproducible defects (second
-  // measurement outside checkOcclusion, resampled to rule out a timing
-  // race — specs/219-notes.md "(a)"/"(b)"/"(d)") on three surfaces today:
+  // on. ONE surface remains quarantined today (down from three — see
+  // "SHRUNK 2026-08-04" below):
   //   (a) `grid-360` P0 — a duplicate, non-fixed `.theme-toggle`
   //       (app.js:3139, distinct from the header's own
   //       `.google-control-btn.theme-toggle`, app.js:3062) renders in
@@ -77,33 +76,34 @@ async function main() {
   //       (grid pages) leaves the mobile `.app:not(.has-results)
   //       .theme-toggle { position: fixed }` override (style.css:4329)
   //       un-applied and the base mobile rule `.theme-toggle { position:
-  //       static }` (style.css:4319) takes over.
-  //   (b) `grid-360` P1 — a `.pool-symbol` row sits, AT FIRST PAINT, inside
-  //       the fixed `.app-footer`'s band (style.css:2513) purely because
-  //       enough cards fill a 360x780 viewport to reach it; `.app`'s only
-  //       clearance rule (`padding-bottom: 80px`, style.css:852) protects
-  //       the END of the document, not a mid-page row that happens to land
-  //       at rest — 218's exact lesson, recurring on a surface 217/218
-  //       never touched.
-  //   (d) `grid-token`/`grid-chain` P0+P1 at 1280px — the SAME class as
-  //       (a)/(b), one width wider: at 1280x780, one of nine per-card
-  //       `.calculate-yield-btn-new` buttons and one `.pool-symbol` row land
-  //       inside `.app-footer`'s 69px band at first paint. Surfaced only
-  //       after the round-3 fix added a settle wait after the occlusion
-  //       pass's viewport resize (audit-app.js's `checkOcclusion`,
-  //       "measuring inside that window risks... missed [findings]") — the
-  //       earlier, unsettled measurement was racing the post-resize reflow
-  //       and read stale (pre-resize) geometry where nothing overlapped;
-  //       independently re-measured outside checkOcclusion (own
-  //       `page.evaluate` + `elementFromPoint`) and confirmed a genuine,
-  //       reproducible hit, not a settle-timing artifact of the fix itself.
-  // Fixing any of these is a separate item (spec 219's own scope boundary:
-  // "This item ships the detector. Findings become tickets."). QUARANTINE NO
+  //       static }` (style.css:4319) takes over. Different root cause from
+  //       the footer-occlusion class (b)/(d) below closed — this is item
+  //       222's own ticket, not 221's.
+  // Fixing this is a separate item (spec 219's own scope boundary: "This
+  // item ships the detector. Findings become tickets."). QUARANTINE NO
   // LONGER NEEDED for a given surface — remove it from the set below (and
   // drop the whole quarantine once the set is empty) — once that surface
   // stops producing occlusion findings; the loud console line below names
   // exactly which quarantined surfaces are clean on a given run.
-  const QUARANTINED_OCCLUSION_SURFACES = new Set(['grid-360', 'grid-token', 'grid-chain']);
+  //
+  // SHRUNK 2026-08-04 (item 221): `grid-token`/`grid-chain` (their P0/P1 at
+  // 1280px, formerly listed here as "(d)") and `grid-360`'s own P1
+  // (formerly "(b)", a `.pool-symbol` row landing in the fixed footer's
+  // band at first paint — 218's exact lesson, recurring on a surface
+  // 217/218 never touched) are GONE: `.app.has-results .app-footer {
+  // position: static }` + `.app.has-results { padding-bottom: 0 }`
+  // (style.css, directly below `.app.has-results { display: block;
+  // padding-top: var(--space-32) }`) takes the shared, opaque, `position:
+  // fixed` `.app-footer` out of the fixed layer on every grid surface —
+  // the third and last `.app-footer` render site, closing the class the
+  // playbook has tracked since item 179. `grid-360`'s P0 `.theme-toggle`
+  // finding (a) is UNRELATED (a different overlay, `.google-header-sticky`,
+  // and a different mechanism, item 222) and stays quarantined alone;
+  // removing `grid-token`/`grid-chain` from the set was verified by a clean
+  // `QUARANTINE NO LONGER NEEDED for [grid-token, grid-chain]` console line
+  // on this exact test, run in isolation, before this edit landed — see
+  // specs/221-notes.md for the run transcript.
+  const QUARANTINED_OCCLUSION_SURFACES = new Set(['grid-360']);
   const outPaths = { case1: tmpOut('case1'), case2: tmpOut('case2'), case3: tmpOut('case3') };
 
   await test('clean run: covers pool-detail + dead-pool, ZERO P0/P1 (occlusion quarantined to named grid surfaces only, pool-detail* always clean), writes findings JSON', async () => {

@@ -31,7 +31,9 @@ and the giveaway is that the defect exists on exactly one route.
      *top*-anchored overlay at bottom-of-scroll, which is revealable by
      scrolling up and deliberately not flagged).
 1. **Find the overlay and confirm it is opaque.** `grep -n "position: fixed" style.css`
-   → `.app-footer` (`style.css:2513-2524`): `fixed; bottom: 0; z-index: 100;`
+   → `.app-footer` (`style.css:2616-2627`, was `:2513-2524` before item 221's
+   comment block shifted everything below `style.css:938` by +103): `fixed;
+   bottom: 0; z-index: 100;`
    with `background: var(--color-background)`. Opaque + fixed + high z-index =
    it can hide content AND intercept clicks.
 2. **Find the shared clearance.** `grep -n "Space for footer" style.css` →
@@ -131,6 +133,49 @@ and the giveaway is that the defect exists on exactly one route.
   `minify-assets.js`'s `CSS_FILES` and `home.html` injects the RAW sheet for
   landing mode, so the 136/061 minify trap does not apply on this one route.
   Verify per route; do not generalise either way.
+- **Inherited but insufficient (item 221, RESOLVED 2026-08-04):** the route
+  matches the clearance selector and carries the full 80px, and content is STILL
+  occluded at rest because the victim is mid-document (step 3c). Same resolution
+  as 218/220 — the footer leaves the fixed layer on that view — but **do not
+  copy their declarations verbatim**, because the idiom has a precondition:
+  ```css
+  .app.has-results .app-footer { position: static; }   /* no margin-top: auto */
+  .app.has-results            { padding-bottom: 0; }
+  ```
+  `margin-top: auto` is a FLEX sticky-footer idiom. 218/220 could use it because
+  their views were already flex columns (`.app:not(.has-results)`,
+  `.landing-app`); `.app.has-results` is `display: block` (`style.css:865`), so
+  the same line would be **inert** there — a declaration that reads as
+  protection and fires never. **Decision rule: before copying `margin-top: auto`,
+  confirm the view is a flex column; if it is not, either make it one and PROVE
+  the switch moves nothing else, or omit the line.** 221 measured the switch and
+  it was NOT free: flexing `.app.has-results` moved `.container` at 360×780 by
+  +6px, because `.theme-toggle`/`.language-toggle` are in-flow siblings there
+  (item 222's own defect) and flex items never margin-collapse. So it shipped
+  without the idiom, and the omission is documented rather than silent — the
+  short-content consequence (in-flow footer sits after content instead of pinned
+  to the viewport bottom) was measured on a 1-pool fixture and is ordinary
+  end-of-document behaviour, not the occlusion failure mode. The
+  `padding-bottom: 0` companion IS required here (unlike 220, like 218) because
+  this route really did inherit the 80px. Use the `padding-bottom` longhand
+  rather than the `padding` shorthand — not for any cascade reason, but because
+  the shorthand resets all four sides to change one, which is silently wrong the
+  moment the selector gains horizontal padding.
+  **Do NOT repeat the reason item 221 first gave for this** (it shipped the claim
+  and a verifier killed it, twice-propagated, on attempt 3): the shorthand does
+  *not* "wipe the `padding-top` overrides later in the cascade." Longhand and
+  shorthand are equivalent to the cascade — each longhand property is resolved by
+  source order among equal-specificity declarations, so a later `padding-top`
+  wins regardless of how an earlier rule set it. Verified in a real render.
+  **Meta-rule, the real lesson of 221's two documentation FAILs:** when the honest
+  reason for a choice is taste or defensive style, write *that*. An invented
+  mechanism reads more authoritative and is the only version a reviewer can
+  falsify — and one will.
+  **And renumber your own citations last.** A long explanatory comment shifts
+  every line below its insertion point (221's block moved five of its own
+  `style.css:NNNN` references by 103 lines); write the citations against the
+  file's POST-insertion state, and re-check them after any later edit to the
+  comment itself.
 - **Fixed on one route only:** grep for the same pattern on every OTHER route
   before closing. Item 179 fixed this class on bare `/` and nobody ported it;
   217 then paid for it on pool-detail 20 days later; 218 the day after that; and
@@ -146,9 +191,37 @@ and the giveaway is that the defect exists on exactly one route.
   `landing.js:356` (rooted `div.landing-app`, `landing.js:244`). The two app.js
   roots DO match `.app`, so they carry the shared clearance; landing was the
   only never-inherited route, and 220 fixed it. Planner mode renders no fixed
-  `.app-footer` at all (`style.css`'s `seo-hub-links` comment). **So this class
-  is closed as of 2026-08-04** — re-run the three-site grep when a new route is
-  added, and treat any root that is not `.app` as broken until measured.
+  `.app-footer` at all (`style.css`'s `seo-hub-links` comment). ~~So this class
+  is closed as of 2026-08-04~~ — **that conclusion was WRONG, and item 221 (the
+  same day) paid for it. See step 3c below: the sweep proved the two app.js
+  roots INHERIT the clearance and then read that as "therefore safe". Inheriting
+  it is not the same as being protected by it.** The sweep's grep is still the
+  right first move — re-run it when a new route is added — but its output only
+  tells you which root cause you are NOT looking at.
+
+3c. **A route that DOES inherit the clearance can still be defective — and this
+   is the variant the sweep above mis-read as clean** (added 2026-08-04, item
+   221, the FOURTH recurrence). Steps 3 and 3b between them cover "clearance was
+   cancelled" and "clearance never applied". Both are questions about whether
+   the 80px is *present*. Neither asks the question that actually matters:
+   **does the clearance protect the victim?** It only ever protects the END of
+   the document. Any element that sits inside the fixed band *at scroll 0* is
+   mid-document, and no `padding-bottom` value can move it — lengthening the
+   document does not move content that is already there. 218 recorded this wall
+   on pool-detail; 221 is the same wall on the analytics grid, where
+   `.app.has-results` matches `.app { padding-bottom: 80px }` perfectly and a
+   `.calculate-yield-btn-new` was still 98.8% covered and click-intercepted at
+   1280×780.
+   **Decision rule: never conclude "clearance present ⇒ route safe" from CSS
+   alone.** The only thing that settles it is step 4's at-rest measurement on a
+   real render. Treat the three root causes as a checklist you finish, not a
+   ladder you stop climbing: cancelled (3) → never-inherited (3b) → inherited
+   but insufficient (3c). The last one has no CSS tell at all — the sheet looks
+   correct — so it is invisible to every grep in this playbook and shows up
+   ONLY in step 0's lens or a hand measurement.
+   **Corollary for the sweep:** enumerate render sites to know where to MEASURE,
+   never to decide which sites need measuring. A "closed" verdict is only ever
+   as good as the last at-rest render you actually looked at.
 
 ## Traps
 
@@ -200,4 +273,11 @@ surface — the landing route, whose root class never matched the shared
 clearance selector at all — adding the never-inherited root cause (step 3b),
 its resolution, and the reason the 179 port kept failing:
 `specs/220.md`, `specs/220-notes.md`, `specs/220-pr.md`,
-`test_landing_footer_occlusion.js`, LOG.md 2026-08-04 build | 220.
+`test_landing_footer_occlusion.js`, LOG.md 2026-08-04 build | 220. Updated
+2026-08-04 when **221** fixed the analytics grid — the FOURTH recurrence, and
+the one that falsified this playbook's own "class closed" verdict written hours
+earlier: the grid root inherits the clearance correctly and was defective
+anyway. Added the inherited-but-insufficient root cause (step 3c), its
+resolution and the `margin-top: auto` precondition, and struck the sweep's
+false-clean conclusion: `specs/221.md`, `specs/221-notes.md`, `specs/221-pr.md`,
+`test_grid_footer_occlusion.js`, LOG.md 2026-08-04 build | 221.
