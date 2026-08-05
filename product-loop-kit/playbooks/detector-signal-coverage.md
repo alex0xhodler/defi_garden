@@ -9,6 +9,10 @@ file that a human then found a bug in by hand.
 bug's class — enumerate what the surface **asserts** (not what it contains), and the uncovered assertion
 classes are where the next bug already is.
 
+**Not this playbook if the checker CAN see the class and still missed it** — a detector that flags the same
+permanent defect on only some runs has a false-negative RATE problem, not a coverage problem. Go to
+`detector-detection-rate.md` (added by item 231, 2026-08-05).
+
 ## The pattern this exists to break
 
 Three consecutive instances in this repo, same shape every time:
