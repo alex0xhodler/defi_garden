@@ -4,7 +4,7 @@ The highest honest SGHO yield right now is 4.25% on aave-v3 (Ethereum), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.25% | $141.85M |
+| [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.25% | $141.8M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SGHO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $180.25M in total.
+2 live pools clear this page's $100K TVL floor, $180.17M in total.
 
 ### Are these rates safe?
 

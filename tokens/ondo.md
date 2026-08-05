@@ -1,12 +1,12 @@
 # ONDO DeFi Yields
 
-The highest honest ONDO yield right now is 28.86% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ONDO yield right now is 32.93% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 23.61% | $750.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token) | Ethereum | 28.86% | $250.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token) | Ethereum | 9.45% | $246.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 26.68% | $759.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token) | Ethereum | 32.93% | $251.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token) | Ethereum | 12.14% | $249K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ONDO yield today?
 
-28.86% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+32.93% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ONDO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.38M in total.
+4 live pools clear this page's $100K TVL floor, $1.4M in total.
 
 ### Are these rates safe?
 

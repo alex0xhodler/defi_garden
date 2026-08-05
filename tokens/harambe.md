@@ -1,10 +1,10 @@
 # HARAMBE DeFi Yields
 
-The highest honest HARAMBE yield right now is 1.13% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HARAMBE yield right now is 3.02% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token) | Solana | 1.13% | $160.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token) | Solana | 3.02% | $167.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=601b6bd7-331a-434d-9d26-b52c1bdf6f1e&src=seo_token) | Ethereum | 0.03% | $120.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HARAMBE yield today?
 
-1.13% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HARAMBE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $280.8K in total.
+2 live pools clear this page's $100K TVL floor, $288.1K in total.
 
 ### Are these rates safe?
 

@@ -4,11 +4,11 @@ The highest honest TRX yield right now is 11.53% on justlend-v1 (Tron), among 6 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_token) | Tron | 0.31% | $678.35M |
-| [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_token) | Tron | 11.53% | $86.92M |
-| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54&src=seo_token) | Solana | 1.38% | $12.2M |
+| [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_token) | Tron | 0.31% | $678.26M |
+| [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_token) | Tron | 11.53% | $87.1M |
+| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54&src=seo_token) | Solana | 1.22% | $12.2M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183&src=seo_token) | Ethereum | 0.34% | $741.4K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.60% | $528.2K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.52% | $528.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TRX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $779.38M in total.
+6 live pools clear this page's $100K TVL floor, $779.48M in total.
 
 ### Are these rates safe?
 

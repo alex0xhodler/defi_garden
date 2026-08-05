@@ -1,8 +1,8 @@
 # WSOL-CHATOSHI — raydium-amm on Solana
 
-**Total APY:** 16.23% (16.23% Base · + 0.00% Rewards)
+**Total APY:** 15.72% (15.72% Base · + 0.00% Rewards)
 
-**TVL:** $117.7K
+**TVL:** $117.8K
 
 **Pool Type:** LP/DEX
 
@@ -22,15 +22,15 @@ Advanced DeFi strategy
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,301 in 5y at current rates.
+$1,000 in this pool grows to ~$1,291 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (16.23% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (15.72% headline) — farm rates decay. Active management required.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
-[Garden this pool → ~$1,301 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,291 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 

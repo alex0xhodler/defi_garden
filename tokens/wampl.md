@@ -4,7 +4,7 @@ The highest honest WAMPL yield right now is 1.65% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2e5ddf22-61b7-4b07-aaab-70397f2bdbc3&src=seo_token) | Ethereum | 1.65% | $113.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2e5ddf22-61b7-4b07-aaab-70397f2bdbc3&src=seo_token) | Ethereum | 1.65% | $114K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WAMPL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.9K in total.
+1 live pool clear this page's $100K TVL floor, $114K in total.
 
 ### Are these rates safe?
 

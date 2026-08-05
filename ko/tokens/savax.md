@@ -1,11 +1,11 @@
 # SAVAX 디파이 수익률
 
-현재 SAVAX의 가장 높은 정직한 수익률은 Avalanche의 benqi-staked-avax에서 4.85%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SAVAX의 가장 높은 정직한 수익률은 Avalanche의 benqi-staked-avax에서 4.82%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9&src=seo_token) | Avalanche | 4.85% | $147.42M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 3.65% | $142.1K |
+| [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9&src=seo_token) | Avalanche | 4.82% | $149.17M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 3.68% | $142.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 SAVAX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 benqi-staked-avax에서 APY 4.85%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 benqi-staked-avax에서 APY 4.82%예요.
 
 ### SAVAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $268.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $271.44M예요.
 
 ### 이 수익률은 안전한가요?
 

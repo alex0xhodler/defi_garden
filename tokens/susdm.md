@@ -1,11 +1,11 @@
 # SUSDM DeFi Yields
 
-The highest honest SUSDM yield right now is 7.87% on monetrix (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDM yield right now is 6.46% on monetrix (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [monetrix →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 7.87% | $2.24M |
-| [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 0.39% | $129.9K |
+| [monetrix →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 6.46% | $2.24M |
+| [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 0.40% | $130.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSDM yield today?
 
-7.87% APY on monetrix (Hyperliquid L1), based on live DefiLlama data.
+6.46% APY on monetrix (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many SUSDM pools clear the TVL floor?
 

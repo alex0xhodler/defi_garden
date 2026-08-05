@@ -6,6 +6,7 @@ The highest honest SIERRA yield right now is 9.48% on pendle (Ethereum), among 5
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=c485f3ca-df33-5ffc-8312-7bdb629be533&src=seo_token) | Ethereum | 7.05% | $20.5M |
 | [pendle →](https://www.defi.garden/?pool=0d057d1c-bc1c-55b4-a07f-1786d5f837ab&src=seo_token) | Ethereum | 9.48% | $20.5M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.01% | $6.65M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

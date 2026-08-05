@@ -1,10 +1,10 @@
 # IMGN DeFi Yields
 
-The highest honest IMGN yield right now is 2.39% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IMGN yield right now is 2.42% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4f7d65a6-42f9-4084-a291-bcb6492d0044&src=seo_token) | Base | 2.39% | $159.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4f7d65a6-42f9-4084-a291-bcb6492d0044&src=seo_token) | Base | 2.42% | $158K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IMGN yield today?
 
-2.39% APY on uniswap-v3 (Base), based on live DefiLlama data.
+2.42% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many IMGN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $159.8K in total.
+1 live pool clear this page's $100K TVL floor, $158K in total.
 
 ### Are these rates safe?
 

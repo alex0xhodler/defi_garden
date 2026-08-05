@@ -4,7 +4,7 @@ The highest honest TAOBOT yield right now is 0.57% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c0251ac0-4675-401a-9017-e57843baac84&src=seo_token) | Ethereum | 0.57% | $246.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c0251ac0-4675-401a-9017-e57843baac84&src=seo_token) | Ethereum | 0.57% | $246.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TAOBOT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $246.9K in total.
+1 live pool clear this page's $100K TVL floor, $246.6K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest SUSDAT yield right now is 21.90% on saturn (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 21.90% | $79.95M |
+| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 21.90% | $79.96M |
 | [pendle →](https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token) | BSC | 7.80% | $3.41M |
 | [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 13.73% | $3.41M |
 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 11.35% | $3.35M |

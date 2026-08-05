@@ -1,11 +1,11 @@
 # JETTON 디파이 수익률
 
-현재 JETTON의 가장 높은 정직한 수익률은 TON의 ston.fi에서 71.77%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JETTON의 가장 높은 정직한 수익률은 TON의 ston.fi에서 71.76%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 31.46% | $151.1K |
-| [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 71.77% | $121.2K |
+| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 31.46% | $151K |
+| [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 71.76% | $121.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 JETTON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, TON의 ston.fi에서 APY 71.77%예요.
+DefiLlama 실시간 데이터 기준, TON의 ston.fi에서 APY 71.76%예요.
 
 ### JETTON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

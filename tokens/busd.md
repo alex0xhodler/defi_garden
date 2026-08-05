@@ -1,16 +1,16 @@
 # BUSD DeFi Yields
 
-The highest honest BUSD yield right now is 1.57% on wombat-exchange (BSC), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUSD yield right now is 1.51% on wombat-exchange (BSC), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token) | BSC | 1.57% | $1.14M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.60% | $528.2K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.13% | $309.6K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token) | BSC | 0.14% | $265.1K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token) | BSC | 1.51% | $1.15M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.52% | $528.3K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.15% | $309.5K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token) | BSC | 0.16% | $265.2K |
 | [mdex →](https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token) | BSC | 0.25% | $254.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token) | BSC | 0.85% | $156.2K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token) | BSC | 0.72% | $156.4K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BUSD yield today?
 
-1.57% APY on wombat-exchange (BSC), based on live DefiLlama data.
+1.51% APY on wombat-exchange (BSC), based on live DefiLlama data.
 
 ### How many BUSD pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $7.02M in total.
+11 live pools clear this page's $100K TVL floor, $7.03M in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 
 ## Available on
 

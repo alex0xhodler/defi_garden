@@ -4,8 +4,8 @@ The highest honest HYLOSOL yield right now is 6.19% on hylo-lsts (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 6.19% | $13.67M |
-| [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.01% | $488.7K |
+| [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 6.19% | $13.71M |
+| [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.01% | $490.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HYLOSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $14.16M in total.
+2 live pools clear this page's $100K TVL floor, $14.2M in total.
 
 ### Are these rates safe?
 

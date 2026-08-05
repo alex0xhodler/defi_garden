@@ -1,16 +1,16 @@
 # LCAP 디파이 수익률
 
-현재 LCAP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 38.21%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LCAP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 38.46%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token) | Base | 12.10% | $417.7K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 36.06% | $277K |
-| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 38.21% | $201.7K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 4.34% | $169.7K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 26.58% | $155.8K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token) | Base | 31.16% | $142.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 12.81% | $122K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token) | Base | 13.02% | $418.3K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 36.20% | $277K |
+| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 38.46% | $201.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 4.46% | $169.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 27.34% | $155.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token) | Base | 32.08% | $142.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 13.18% | $122.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@
 
 ### 오늘 LCAP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 38.21%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 38.46%예요.
 
 ### LCAP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

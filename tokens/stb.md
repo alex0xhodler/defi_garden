@@ -4,9 +4,9 @@ The highest honest STB yield right now is 0.12% on orca-dex (Solana), among 18 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c73fd005-c30b-41c9-a1c3-36f11d2281ee&src=seo_token) | Solana | 0.01% | $531.7K |
+| [orca-dex →](https://www.defi.garden/?pool=c73fd005-c30b-41c9-a1c3-36f11d2281ee&src=seo_token) | Solana | 0.01% | $530.8K |
 | [orca-dex →](https://www.defi.garden/?pool=998a9655-39ba-4a6f-9cb9-1075c37f12a8&src=seo_token) | Solana | 0.12% | $351.7K |
-| [orca-dex →](https://www.defi.garden/?pool=385d52fb-5b53-406a-b3b9-e11b81b0aa71&src=seo_token) | Solana | 0.01% | $348.8K |
+| [orca-dex →](https://www.defi.garden/?pool=385d52fb-5b53-406a-b3b9-e11b81b0aa71&src=seo_token) | Solana | 0.01% | $348.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STB pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $6.98M in total.
+18 live pools clear this page's $100K TVL floor, $6.97M in total.
 
 ### Are these rates safe?
 

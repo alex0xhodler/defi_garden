@@ -1,11 +1,11 @@
 # CDCBTC DeFi Yields
 
-The highest honest CDCBTC yield right now is 0.33% on tectonic (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CDCBTC yield right now is 0.25% on tectonic (Cronos), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [tectonic →](https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token) | Cronos | 0.01% | $2.14M |
-| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.33% | $270.7K |
+| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.25% | $269.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CDCBTC yield today?
 
-0.33% APY on tectonic (Cronos), based on live DefiLlama data.
+0.25% APY on tectonic (Cronos), based on live DefiLlama data.
 
 ### How many CDCBTC pools clear the TVL floor?
 
@@ -30,7 +30,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [PAXG](https://www.defi.garden/tokens/paxg)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [XRP](https://www.defi.garden/tokens/xrp)
 
 ## Available on
 

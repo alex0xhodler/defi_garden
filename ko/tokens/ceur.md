@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5244316f-be8f-4179-af73-f6248d74c2dd&src=seo_token) | Celo | 0.01% | $146.3K |
-| [moola-market →](https://www.defi.garden/?pool=d28c0d39-f65b-403a-9760-19ba8ac0ae2d&src=seo_token) | Celo | 1.00% | $111.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5244316f-be8f-4179-af73-f6248d74c2dd&src=seo_token) | Celo | 0.01% | $146.4K |
+| [moola-market →](https://www.defi.garden/?pool=d28c0d39-f65b-403a-9760-19ba8ac0ae2d&src=seo_token) | Celo | 1.00% | $111.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

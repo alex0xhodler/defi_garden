@@ -1,12 +1,12 @@
 # SPC DeFi Yields
 
-The highest honest SPC yield right now is 104.78% on sushiswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPC yield right now is 105.21% on sushiswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 77.59% | $228.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=952ac281-0d4c-5f79-94dd-8f8f148a8f86&src=seo_token) | Solana | 2.11% | $185.3K |
-| [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 104.78% | $100.2K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 77.46% | $228.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=952ac281-0d4c-5f79-94dd-8f8f148a8f86&src=seo_token) | Solana | 2.03% | $184.6K |
+| [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 105.21% | $100.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPC yield today?
 
-104.78% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
+105.21% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SPC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $514.2K in total.
+3 live pools clear this page's $100K TVL floor, $513.6K in total.
 
 ### Are these rates safe?
 

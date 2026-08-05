@@ -1,10 +1,10 @@
 # ZIK DeFi Yields
 
-The highest honest ZIK yield right now is 0.02% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZIK yield right now is 0.03% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token) | Ethereum | 0.02% | $1.16M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8876fd04-3433-4f2b-b9d1-dd73d23f191f&src=seo_token) | Ethereum | 0.03% | $1.16M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token) | Ethereum | 0.01% | $155.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZIK yield today?
 
-0.02% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.03% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ZIK pools clear the TVL floor?
 

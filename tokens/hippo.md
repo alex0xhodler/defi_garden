@@ -4,7 +4,7 @@ The highest honest HIPPO yield right now is 1.79% on cetus-clmm (Sui), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=69c7107f-4db7-4800-b61e-5de3d3ce82df&src=seo_token) | Sui | 1.79% | $195.1K |
+| [cetus-clmm →](https://www.defi.garden/?pool=69c7107f-4db7-4800-b61e-5de3d3ce82df&src=seo_token) | Sui | 1.79% | $196.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HIPPO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $195.1K in total.
+1 live pool clear this page's $100K TVL floor, $196.2K in total.
 
 ### Are these rates safe?
 

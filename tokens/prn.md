@@ -1,10 +1,10 @@
 # PRN DeFi Yields
 
-The highest honest PRN yield right now is 8.54% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRN yield right now is 9.04% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1933424f-8d4f-56ff-adf0-4101ca911154&src=seo_token) | Ethereum | 8.54% | $276.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1933424f-8d4f-56ff-adf0-4101ca911154&src=seo_token) | Ethereum | 9.04% | $273K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRN yield today?
 
-8.54% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+9.04% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PRN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $276.3K in total.
+1 live pool clear this page's $100K TVL floor, $273K in total.
 
 ### Are these rates safe?
 

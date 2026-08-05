@@ -4,8 +4,8 @@ The highest honest OSETH yield right now is 6.04% on stakewise-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stakewise-v2 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8&src=seo_token) | Ethereum | 2.21% | $265.42M |
-| [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.25% | $10.37M |
+| [stakewise-v2 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8&src=seo_token) | Ethereum | 2.21% | $265.55M |
+| [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.24% | $10.37M |
 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.04% | $1.58M |
 | [balancer-v3 →](https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5&src=seo_token) | Ethereum | 1.82% | $1.33M |
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OSETH pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $512.45M in total.
+6 live pools clear this page's $100K TVL floor, $513.08M in total.
 
 ### Are these rates safe?
 

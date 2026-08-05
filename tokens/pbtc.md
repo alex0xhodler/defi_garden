@@ -1,11 +1,11 @@
 # PBTC DeFi Yields
 
-The highest honest PBTC yield right now is 12.16% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PBTC yield right now is 11.42% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1a81b580-d291-4a70-96c9-24ccd2d9a708&src=seo_token) | Solana | 12.16% | $196.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=fb8cefa0-1f3b-4d64-8f46-103889c30f69&src=seo_token) | Ethereum | 0.10% | $136.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=1a81b580-d291-4a70-96c9-24ccd2d9a708&src=seo_token) | Solana | 11.42% | $200.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fb8cefa0-1f3b-4d64-8f46-103889c30f69&src=seo_token) | Ethereum | 0.03% | $136.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PBTC yield today?
 
-12.16% APY on raydium-amm (Solana), based on live DefiLlama data.
+11.42% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $333.3K in total.
+2 live pools clear this page's $100K TVL floor, $336.8K in total.
 
 ### Are these rates safe?
 

@@ -1,12 +1,12 @@
 # RNT DeFi Yields
 
-The highest honest RNT yield right now is 18.59% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RNT yield right now is 18.56% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 2.12% | $366.8K |
-| [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 7.71% | $229.2K |
-| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 18.59% | $119.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 1.88% | $367.1K |
+| [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 7.71% | $229.6K |
+| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 18.56% | $119.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RNT yield today?
 
-18.59% APY on raydium-amm (Solana), based on live DefiLlama data.
+18.56% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RNT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $715.2K in total.
+3 live pools clear this page's $100K TVL floor, $716.3K in total.
 
 ### Are these rates safe?
 

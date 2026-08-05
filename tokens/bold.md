@@ -1,16 +1,16 @@
 # BOLD DeFi Yields
 
-The highest honest BOLD yield right now is 10.68% on curve-dex (Ethereum), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOLD yield right now is 10.75% on curve-dex (Ethereum), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f&src=seo_token) | Ethereum | 0.54% | $7.63M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90&src=seo_token) | Ethereum | 0.21% | $3.51M |
-| [convex-finance →](https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6&src=seo_token) | Ethereum | 0.97% | $1.87M |
+| [curve-dex →](https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f&src=seo_token) | Ethereum | 0.56% | $7.55M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90&src=seo_token) | Ethereum | 0.20% | $3.51M |
+| [convex-finance →](https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6&src=seo_token) | Ethereum | 0.98% | $1.87M |
 | [stake-dao →](https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe&src=seo_token) | Ethereum | 6.10% | $576.4K |
-| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 9.34% | $232.4K |
-| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 10.68% | $178.3K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788&src=seo_token) | OP Mainnet | 7.43% | $100.6K |
+| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 9.38% | $232.4K |
+| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 10.75% | $178.3K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=6615e218-58c4-4acf-80a3-42d4ef522788&src=seo_token) | OP Mainnet | 7.53% | $100.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,11 +18,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOLD yield today?
 
-10.68% APY on curve-dex (Ethereum), based on live DefiLlama data.
+10.75% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many BOLD pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $42.74M in total.
+16 live pools clear this page's $100K TVL floor, $42.66M in total.
 
 ### Are these rates safe?
 

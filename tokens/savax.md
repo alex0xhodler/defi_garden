@@ -1,11 +1,11 @@
 # SAVAX DeFi Yields
 
-The highest honest SAVAX yield right now is 4.85% on benqi-staked-avax (Avalanche), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAVAX yield right now is 4.82% on benqi-staked-avax (Avalanche), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9&src=seo_token) | Avalanche | 4.85% | $147.42M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 3.65% | $142.1K |
+| [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9&src=seo_token) | Avalanche | 4.82% | $149.17M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 3.68% | $142.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAVAX yield today?
 
-4.85% APY on benqi-staked-avax (Avalanche), based on live DefiLlama data.
+4.82% APY on benqi-staked-avax (Avalanche), based on live DefiLlama data.
 
 ### How many SAVAX pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $268.45M in total.
+7 live pools clear this page's $100K TVL floor, $271.44M in total.
 
 ### Are these rates safe?
 

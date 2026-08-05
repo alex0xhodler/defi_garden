@@ -25,11 +25,11 @@ DefiLlama 실시간 데이터 기준, Defichain의 defichain-dex에서 APY 0.39%
 ## 관련 토큰
 
 - [DUSD](https://www.defi.garden/ko/tokens/dusd)
+- [NVDA](https://www.defi.garden/ko/tokens/nvda)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 
 ## 이용 가능한 체인
 

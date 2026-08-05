@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.32% | $1.06M |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.32% | $1.05M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 4.32%예요
 
 ### KODIAVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.05M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -25,8 +25,8 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 4.32%예요
 ## 관련 토큰
 
 - [UNIBTC](https://www.defi.garden/ko/tokens/unibtc)
-- [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
+- [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/ko/tokens/ibera)
 - [HONEY](https://www.defi.garden/ko/tokens/honey)
 - [RE7HONEY](https://www.defi.garden/ko/tokens/re7honey)

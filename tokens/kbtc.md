@@ -1,13 +1,13 @@
 # KBTC DeFi Yields
 
-The highest honest KBTC yield right now is 6.73% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KBTC yield right now is 4.74% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.64% | $23M |
-| [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_token) | Ink | 0.04% | $11.51M |
-| [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_token) | Ink | 6.73% | $1.44M |
-| [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token) | Ink | 5.83% | $247.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.64% | $23.04M |
+| [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_token) | Ink | 0.04% | $11.53M |
+| [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_token) | Ink | 4.74% | $1.49M |
+| [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token) | Ink | 3.56% | $293.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KBTC yield today?
 
-6.73% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+4.74% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many KBTC pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $357.19M in total.
+7 live pools clear this page's $100K TVL floor, $357.88M in total.
 
 ### Are these rates safe?
 

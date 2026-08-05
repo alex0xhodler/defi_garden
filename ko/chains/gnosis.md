@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.20% | $54.52M |
+| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.20% | $54.63M |
 | GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_chain) | 0.11% | $6.4M |
-| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.49% | $5.58M |
+| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.48% | $5.59M |
 | ZCHF | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_chain) | 3.50% | $1.52M |
-| USDC.E | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_chain) | 3.01% | $647.8K |
-| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.15% | $536.8K |
-| EURE-X3CRV | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_chain) | 3.15% | $378.1K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.67% | $316.5K |
+| USDC.E | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_chain) | 3.00% | $653.4K |
+| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.14% | $540.2K |
+| EURE-X3CRV | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_chain) | 2.94% | $378K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.67% | $316.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Gnosis의 sdai에서 APY 4.20%예요.
 
 ### Gnosis 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $107.87M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $108.05M예요.
 
 ### 이 수익률은 안전한가요?
 

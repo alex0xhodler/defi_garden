@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stakewise-v2 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8&src=seo_token) | Ethereum | 2.21% | $265.42M |
-| [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.25% | $10.37M |
+| [stakewise-v2 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8&src=seo_token) | Ethereum | 2.21% | $265.55M |
+| [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.24% | $10.37M |
 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.04% | $1.58M |
 | [balancer-v3 →](https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5&src=seo_token) | Ethereum | 1.82% | $1.33M |
 
@@ -19,7 +19,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stakewise-v2에서 APY 6.04%�
 
 ### OSETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $512.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $513.08M예요.
 
 ### 이 수익률은 안전한가요?
 

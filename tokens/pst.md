@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PST pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $98.31M in total.
+9 live pools clear this page's $100K TVL floor, $98.32M in total.
 
 ### Are these rates safe?
 

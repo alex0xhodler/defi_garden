@@ -4,7 +4,7 @@ The highest honest BENJI yield right now is 0.45% on uniswap-v2 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c231858c-4320-45e7-a6fc-0d0b635b61cb&src=seo_token) | Base | 0.45% | $300.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c231858c-4320-45e7-a6fc-0d0b635b61cb&src=seo_token) | Base | 0.45% | $300.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BENJI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $300.2K in total.
+1 live pool clear this page's $100K TVL floor, $300.1K in total.
 
 ### Are these rates safe?
 

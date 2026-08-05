@@ -5,6 +5,7 @@ The highest honest Defichain yield right now is 0.39% on defichain-dex (Defichai
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 0.39% | $816.5K |
+| NVDA-DUSD | [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_chain) | 0.02% | $149.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -35,5 +36,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [DUSD](https://www.defi.garden/tokens/dusd)
 - [DFI](https://www.defi.garden/tokens/dfi)
+- [NVDA](https://www.defi.garden/tokens/nvda)
 
 ## Last updated August 5, 2026

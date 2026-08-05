@@ -33,8 +33,8 @@ DefiLlama 실시간 데이터 기준, BSC의 mdex에서 APY 1.49%예요.
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
-- [TRX](https://www.defi.garden/ko/tokens/trx)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
+- [TRX](https://www.defi.garden/ko/tokens/trx)
 
 ## 이용 가능한 체인
 

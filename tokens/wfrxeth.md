@@ -1,11 +1,11 @@
 # WFRXETH DeFi Yields
 
-The highest honest WFRXETH yield right now is 4.44% on frax (Fraxtal), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WFRXETH yield right now is 4.45% on frax (Fraxtal), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 1.05% | $2.58M |
-| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.44% | $287.3K |
+| [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 1.02% | $2.58M |
+| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.45% | $287.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WFRXETH yield today?
 
-4.44% APY on frax (Fraxtal), based on live DefiLlama data.
+4.45% APY on frax (Fraxtal), based on live DefiLlama data.
 
 ### How many WFRXETH pools clear the TVL floor?
 
@@ -26,11 +26,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [FRAX](https://www.defi.garden/tokens/frax)
-- [EZETH](https://www.defi.garden/tokens/ezeth)
 - [SFRXETH](https://www.defi.garden/tokens/sfrxeth)
 - [FRXETH](https://www.defi.garden/tokens/frxeth)
 - [FXB20291231](https://www.defi.garden/tokens/fxb20291231)
 - [FXB](https://www.defi.garden/tokens/fxb)
+- [IQ](https://www.defi.garden/tokens/iq)
 
 ## Available on
 

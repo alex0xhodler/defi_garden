@@ -1,10 +1,11 @@
 # AUTO DeFi Yields
 
-The highest honest AUTO yield right now is 0.08% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUTO yield right now is 0.08% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 0.08% | $105.8K |
+| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.01% | $3.39M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=34ee4a28-8353-468a-a8d5-0475c034eac7&src=seo_token) | Ethereum | 0.08% | $109.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUTO yield today?
 
-0.08% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.08% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many AUTO pools clear the TVL floor?
 
@@ -33,6 +34,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Available on
 
+- [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Last updated August 5, 2026

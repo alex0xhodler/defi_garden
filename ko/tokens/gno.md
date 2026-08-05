@@ -1,12 +1,12 @@
 # GNO 디파이 수익률
 
-현재 GNO의 가장 높은 정직한 수익률은 Gnosis의 aave-v3에서 0.88%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GNO의 가장 높은 정직한 수익률은 Gnosis의 aave-v3에서 3.73%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token) | Gnosis | 0.11% | $6.4M |
-| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 0.88% | $274.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token) | Ethereum | 0.45% | $102.7K |
+| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 0.86% | $275.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token) | Ethereum | 3.73% | $103K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 GNO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Gnosis의 aave-v3에서 APY 0.88%예요.
+DefiLlama 실시간 데이터 기준, Gnosis의 aave-v3에서 APY 3.73%예요.
 
 ### GNO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

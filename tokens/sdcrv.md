@@ -1,13 +1,13 @@
 # SDCRV DeFi Yields
 
-The highest honest SDCRV yield right now is 32.06% on stake-dao (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDCRV yield right now is 32.01% on stake-dao (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d&src=seo_token) | Ethereum | 13.73% | $24.33M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 14.95% | $948.9K |
-| [stake-dao →](https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82&src=seo_token) | Ethereum | 19.70% | $576.2K |
-| [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198&src=seo_token) | Ethereum | 32.06% | $215K |
+| [stake-dao →](https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d&src=seo_token) | Ethereum | 13.69% | $24.6M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 14.92% | $954.7K |
+| [stake-dao →](https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82&src=seo_token) | Ethereum | 19.67% | $579.8K |
+| [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198&src=seo_token) | Ethereum | 32.01% | $216.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDCRV yield today?
 
-32.06% APY on stake-dao (Ethereum), based on live DefiLlama data.
+32.01% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many SDCRV pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $26.07M in total.
+4 live pools clear this page's $100K TVL floor, $26.35M in total.
 
 ### Are these rates safe?
 

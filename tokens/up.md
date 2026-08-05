@@ -1,10 +1,10 @@
 # UP DeFi Yields
 
-The highest honest UP yield right now is 39.40% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UP yield right now is 127.35% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=822aaea5-6e40-476e-ade2-770927244795&src=seo_token) | Base | 39.40% | $700.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=822aaea5-6e40-476e-ade2-770927244795&src=seo_token) | Base | 127.35% | $678.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UP yield today?
 
-39.40% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+127.35% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many UP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $700.8K in total.
+1 live pool clear this page's $100K TVL floor, $678.1K in total.
 
 ### Are these rates safe?
 

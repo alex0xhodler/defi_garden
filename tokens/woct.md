@@ -4,7 +4,7 @@ The highest honest WOCT yield right now is 1.58% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d81e646f-c77f-4025-bf8b-0a8976ea5a71&src=seo_token) | Ethereum | 1.58% | $617.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d81e646f-c77f-4025-bf8b-0a8976ea5a71&src=seo_token) | Ethereum | 1.58% | $619.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WOCT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $617.2K in total.
+1 live pool clear this page's $100K TVL floor, $619.3K in total.
 
 ### Are these rates safe?
 

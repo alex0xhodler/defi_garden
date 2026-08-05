@@ -4,13 +4,13 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 4.67% | $372.4M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 4.67% | $372.41M |
 | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.83% | $109.92M |
-| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 7.60% | $40.13M |
+| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 7.63% | $40.13M |
 | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.25% | $30.03M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.43% | $29.08M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.31% | $29.08M |
 | [curve-dex →](https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token) | Ethereum | 0.01% | $25M |
-| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $21.54M |
+| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $22.59M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.17% | $3.88M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

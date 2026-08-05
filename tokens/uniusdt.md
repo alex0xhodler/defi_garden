@@ -4,7 +4,7 @@ The highest honest UNIUSDT yield right now is 3.20% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=15800e9b-9ab9-57c7-8957-deb1d823cfcc&src=seo_token) | Ethereum | 3.20% | $538.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=15800e9b-9ab9-57c7-8957-deb1d823cfcc&src=seo_token) | Ethereum | 3.20% | $566.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UNIUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $538.6K in total.
+1 live pool clear this page's $100K TVL floor, $566.2K in total.
 
 ### Are these rates safe?
 

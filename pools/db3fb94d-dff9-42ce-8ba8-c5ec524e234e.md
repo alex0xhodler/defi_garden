@@ -1,36 +1,33 @@
 # POPCAT-USDC — raydium-amm on Solana
 
-**Total APY:** 10.91% (10.91% Base · + 0.00% Rewards)
+**Total APY:** 9.73% (9.73% Base · + 0.00% Rewards)
 
-**TVL:** $578.9K
+**TVL:** $579.8K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 6.56%
+**30d Mean APY:** 6.57%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: High
+## Risk Assessment: Medium
 
-Advanced DeFi strategy
+Moderate risk profile
 
 - Low liquidity
-- Elevated yield
 - Impermanent loss risk
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,196 in 5y at current rates.
+$1,000 in this pool grows to ~$1,591 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (10.91% headline) — farm rates decay. Active management required.
+We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
-This pool's rate moves a lot: 10.91% right now vs a 6.56% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
-
-[Garden this pool → ~$1,196 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,591 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 

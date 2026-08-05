@@ -1,12 +1,12 @@
 # SDYB DeFi Yields
 
-The highest honest SDYB yield right now is 25.75% on stake-dao (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDYB yield right now is 25.85% on stake-dao (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8&src=seo_token) | Ethereum | 11.18% | $400K |
-| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 20.08% | $148.1K |
-| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 25.75% | $109.9K |
+| [stake-dao →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8&src=seo_token) | Ethereum | 11.01% | $406.5K |
+| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 19.57% | $153.3K |
+| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 25.85% | $110.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDYB yield today?
 
-25.75% APY on stake-dao (Ethereum), based on live DefiLlama data.
+25.85% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many SDYB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $658K in total.
+3 live pools clear this page's $100K TVL floor, $670.3K in total.
 
 ### Are these rates safe?
 

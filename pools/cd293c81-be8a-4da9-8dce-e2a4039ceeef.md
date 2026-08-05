@@ -2,11 +2,11 @@
 
 **Total APY:** 3.06% (3.06% Base · + 0.00% Rewards)
 
-**TVL:** $940.1K
+**TVL:** $944.5K
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 7.04%
+**30d Mean APY:** 7.05%
 
 **Exposure:** multi
 
@@ -25,7 +25,7 @@ $1,000 in this pool grows to ~$1,163 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 3.06% right now vs a 7.04% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 3.06% right now vs a 7.05% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,163 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 

@@ -1,12 +1,12 @@
 # COINX DeFi Yields
 
-The highest honest COINX yield right now is 86.81% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COINX yield right now is 83.22% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token) | Solana | 86.81% | $683.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token) | Solana | 75.77% | $203.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token) | Solana | 43.59% | $123K |
+| [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token) | Solana | 83.22% | $683.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token) | Solana | 69.11% | $203.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token) | Solana | 38.38% | $123.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COINX yield today?
 
-86.81% APY on raydium-amm (Solana), based on live DefiLlama data.
+83.22% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many COINX pools clear the TVL floor?
 

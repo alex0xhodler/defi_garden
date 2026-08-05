@@ -1,17 +1,17 @@
 # WBTC 디파이 수익률
 
-현재 WBTC의 가장 높은 정직한 수익률은 Ethereum의 aave-v3에서 7.11%이며, $100K TVL 기준을 넘는 302개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WBTC의 가장 높은 정직한 수익률은 Ethereum의 aave-v3에서 6.01%이며, $100K TVL 기준을 넘는 302개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token) | Ethereum | 0.01% | $2.07B |
-| [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token) | Arbitrum | 0.05% | $164.8M |
-| [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token) | Polygon | 0.02% | $52.51M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 4.01% | $42.46M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token) | Ethereum | 0.53% | $32.85M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token) | Arbitrum | 7.11% | $32.6M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bbecbf69-a4f7-43e3-8b72-de180d106e2c&src=seo_token) | Ethereum | 4.23% | $26.3M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2608e751-41d4-47db-9b9c-4bf3a757fc1b&src=seo_token) | Ethereum | 6.07% | $25.95M |
+| [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token) | Arbitrum | 0.05% | $165.27M |
+| [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token) | Polygon | 0.02% | $52.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 3.59% | $42.52M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token) | Ethereum | 0.48% | $32.88M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token) | Arbitrum | 6.01% | $32.66M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bbecbf69-a4f7-43e3-8b72-de180d106e2c&src=seo_token) | Ethereum | 3.59% | $26.34M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2608e751-41d4-47db-9b9c-4bf3a757fc1b&src=seo_token) | Ethereum | 4.91% | $25.97M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 WBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 aave-v3에서 APY 7.11%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 aave-v3에서 APY 6.01%예요.
 
 ### WBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 302개이며, 합산 TVL은 $4.28B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 302개이며, 합산 TVL은 $4.29B예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,12 +1,12 @@
 # CETUS 디파이 수익률
 
-현재 CETUS의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 9.47%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CETUS의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 8.18%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 9.47% | $1.21M |
-| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 1.33% | $434.9K |
-| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.53% | $129.7K |
+| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 8.18% | $1.22M |
+| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 1.28% | $435.8K |
+| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.53% | $129.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 CETUS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 9.47%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 8.18%예요.
 
 ### CETUS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

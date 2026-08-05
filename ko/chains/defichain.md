@@ -5,6 +5,7 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 0.39% | $816.5K |
+| NVDA-DUSD | [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_chain) | 0.02% | $149.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,5 +36,6 @@ DefiLlama 실시간 데이터 기준, Defichain의 defichain-dex에서 APY 0.39%
 
 - [DUSD](https://www.defi.garden/ko/tokens/dusd)
 - [DFI](https://www.defi.garden/ko/tokens/dfi)
+- [NVDA](https://www.defi.garden/ko/tokens/nvda)
 
 ## 마지막 업데이트: August 5, 2026

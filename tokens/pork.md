@@ -1,11 +1,11 @@
 # PORK DeFi Yields
 
-The highest honest PORK yield right now is 9.07% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PORK yield right now is 7.81% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=75a896ab-e1ad-4bed-94d3-dcb5e8c5568c&src=seo_token) | Ethereum | 8.39% | $212.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1dc087f9-d367-4dae-a391-1e798891fdb1&src=seo_token) | Ethereum | 9.07% | $198.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75a896ab-e1ad-4bed-94d3-dcb5e8c5568c&src=seo_token) | Ethereum | 6.02% | $213.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1dc087f9-d367-4dae-a391-1e798891fdb1&src=seo_token) | Ethereum | 7.81% | $199.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PORK yield today?
 
-9.07% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+7.81% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PORK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $411.6K in total.
+2 live pools clear this page's $100K TVL floor, $412.4K in total.
 
 ### Are these rates safe?
 

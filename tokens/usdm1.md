@@ -4,7 +4,7 @@ The highest honest USDM1 yield right now is 0.96% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=19ca6e96-8145-4f41-a684-8e06e0808522&src=seo_token) | Ethereum | 0.96% | $191K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=19ca6e96-8145-4f41-a684-8e06e0808522&src=seo_token) | Ethereum | 0.96% | $190.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDM1 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $329.7K in total.
+2 live pools clear this page's $100K TVL floor, $328.3K in total.
 
 ### Are these rates safe?
 
