@@ -203,20 +203,40 @@ lens to newly catch on this particular run of the real rotation. (The rotation i
 and `staticRotation.*.picked` arrays are recorded byte-identically between BEFORE/AFTER, confirming
 the same 32+4+2+4+2 surfaces were compared, not two different samples.)
 
-## Gap discovered (honest, not fixed here — out of this item's scope)
+## Gap discovered — and CORRECTED by the verifier (the notes had it wrong)
 
 One of the 8 findings present in BOTH runs: `planner-768`, check `responsive`, P2 —
 `".gp-chip matched zero elements at 768px — ancestor-clip check has nothing to measure"`. This is
-change item 4's own zero-match advisory firing for real, on a real surface, in this run of the
-default rotation — not a fixture. Because this branch is unconditional (Deviation 2 above), it
-fired identically whether `responsiveQuiescence` was ON or OFF. This is a genuine "the CTA
-selector this check has always assumed exists doesn't match anything on `planner-768` right now"
-signal that was previously silent (pre-233, the branch simply skipped with no finding at all) —
-worth a human/product look (is `.gp-chip` conditionally absent at 768px, or a stale selector?), but
-fixing product behaviour is explicitly out of this item's scope ("No product file may change" —
-and even if it were in scope, `planner.js`/`planner-styles.css` are product files this loop-tooling
-item must not touch). Recorded here so it isn't lost, not filed as a new backlog row (that's the
-operator's call).
+change item 4's own zero-match advisory firing for real, on a real surface, in the default
+rotation — not a fixture. Because the branch is unconditional (Deviation 2 above), it fired
+identically with `responsiveQuiescence` ON and OFF.
+
+**The build's first write-up of this was wrong and is struck here rather than quietly edited.** It
+framed the cause as an open product question — *"is `.gp-chip` conditionally absent at 768px, or a
+stale selector?"* — and left it at that. It is **neither**. The verifier read the adjacent code and
+named the mechanism, which was fully discoverable without running anything:
+
+- `audit-app.js:~3778` — the planner driver's backlog-164 interactive check **clicks the first
+  `.gp-chip`** and waits for the flow to advance past the goal step. It is gated on
+  `s.width > 360 && !s.ko`.
+- `audit-app.js:~3804` — `checkResponsive(page, s, findings, '.gp-chip')`, gated on `s.width <= 768`.
+- `planner-768` is the **only** surface where both gates fire: `planner` (1280) skips
+  `checkResponsive`, `planner-360` skips the click, `planner-ko` skips both. Verified directly with
+  Playwright: `.gp-chip` count is **24** before the click, **0** after.
+
+So the harness's own prior click, inside the same driver, destroys the very selector it later
+measures. This is **deterministic test-harness self-interference**, not a product signal and not an
+ambiguity — and it means `checkResponsive`'s ancestor-clip leg has been measuring **nothing** on
+`planner-768` since item 201 widened the check to 768px. The P2 will now fire on **every future
+tick, forever**. (Note also that 164's own comment claims the click is "scoped to the 1280/EN
+surface only" — that stopped being true when 201 added the 768 surfaces, and nobody noticed,
+because the check it broke was silent by construction.)
+
+Not fixed here: reordering a surface driver is a behaviour change to the scanner beyond this item's
+"smallest change" scope. **Filed as backlog 234** with both acceptable outcomes named (reorder so
+`checkResponsive` runs before the state-advancing click, or accept it as permanent expected noise
+and say so where the finding is emitted). What this item ships is the advisory that made a
+years-silent hole visible at all — which is the point of change item 4.
 
 ## Existing tests — all green
 
