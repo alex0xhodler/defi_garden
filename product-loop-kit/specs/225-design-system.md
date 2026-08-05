@@ -206,3 +206,68 @@ so the rename introduces no collision with `.app` / `.app-footer`.
 
 Human directive 2026-08-04 (strategy interview Q2b, recorded in `NORTH_STAR.md` Standing decisions);
 spec `specs/225.md`; the two-era evidence in `specs/225.md` §Evidence.
+
+---
+
+## 7. ADDENDUM (round 2, human review 2026-08-05) — the components must be ONE component
+
+Human verdict on round 1: *"you just did strip the neuromorphism but kept the soup of shapes, corners,
+buttons, all different in different screens rather than a consistent and repetitive usage of the same
+design pattern, eg landing page vs search results or pool details."*
+
+Correct, and measured (rendered, 1280px, light):
+
+| role | distinct radii | distinct heights |
+|---|---|---|
+| primary button | 2 (`12px`, `9999px`) | 4 (30, 36, 44, 49) |
+| secondary button | 3 (`8px`, `12px`, `9999px`) | 6 (32, 33, 38, 40, 44, 48) |
+| chip / pill | 3 (`9999px`, `999px`, `12px`) | 3 (32, 34, 44) |
+| text input | 2 (`12px`, `16px`) | 4 (43, 44, 50, 72) |
+| header | 1 | 3 (77, 82, 127) |
+
+**Root cause, for the record:** round 1 was built by three agents split BY FILE. Each flattened its own
+surface faithfully and none of them owned the cross-surface contract, so every surface kept its own
+component vocabulary. Flattening is not unification. **Any future pass on this system is ONE owner
+across ALL files, never a per-file split.**
+
+### 7.1 The geometry table (authoritative — every surface uses these, no exceptions without an entry here)
+
+New tokens, defined beside the others in `style.css`:
+
+```css
+  --ui-control-h-sm:  32px;
+  --ui-control-h:     40px;   /* the default for every control */
+  --ui-control-h-lg:  48px;   /* hero CTAs only */
+  --ui-header-h:      56px;   /* per header ROW; <768px: 52px */
+```
+
+| component | radius | height | font | padding (x) |
+|---|---|---|---|---|
+| button, primary | `--ui-radius-md` | `--ui-control-h` (hero: `-lg`) | 14px / 600 | 16px (hero 24px) |
+| button, secondary | `--ui-radius-md` | `--ui-control-h` | 14px / 600 | 16px |
+| button, icon-only | `--ui-radius-pill` | `--ui-control-h` (square) | — | — |
+| chip / pill | `--ui-radius-pill` | `--ui-control-h-sm` (with icon: `--ui-control-h`) | 14px / 500 | 14px |
+| text input | `--ui-radius-md` | `--ui-control-h-lg` (hero: 56px) | 14px / 400 | 16px |
+| card / panel | `--ui-radius-lg` | content | 14px / 400 | 20px (hero 24px) |
+| header row | 0 | `--ui-header-h` | — | 16–24px gutter |
+
+**Exactly two shapes exist**: `--ui-radius-md` for anything with a text label, `--ui-radius-pill` for
+icon-only buttons and chips. `999px` is not a radius — use `--ui-radius-pill`.
+
+### 7.2 Mechanism (this is the part round 1 got wrong)
+
+The shared component rules live in **one block at the END of `style.css`**, written as selector GROUPS
+that name every surface's equivalent class. The per-surface stylesheets must then have their competing
+`border-radius` / `height` / `padding` / `font-size` declarations for those selectors REMOVED — they load
+after `style.css`, so leaving them in means the shared layer silently loses the cascade. A surface may
+still own its colour and layout; it may not own the geometry of a shared component.
+
+Also delete on sight: the legacy warm-brown border `rgba(94, 82, 64, 0.2)` (landing example chip, grid
+header) — it is not in the palette.
+
+### 7.3 Acceptance (objective, re-run the same instrument)
+
+`scratchpad/divergence.js` measures every role across landing / planner / grid / pool-detail in a real
+browser. The pass condition: **1 distinct radius per role** (2 only where the table above says so), and
+heights drawn ONLY from `{32, 40, 48, 56}` plus documented hero variants. The measurement that produced
+the table above is the positive control — it must move.

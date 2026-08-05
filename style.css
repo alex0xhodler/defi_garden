@@ -826,6 +826,10 @@ select.form-control {
   --ui-radius-md:        12px;
   --ui-radius-lg:        16px;
   --ui-radius-pill:      999px;
+  --ui-control-h-sm:     32px;   /* chips without an icon */
+  --ui-control-h:        40px;   /* the default for every control */
+  --ui-control-h-lg:     48px;   /* hero CTAs / hero inputs only */
+  --ui-header-h:         56px;   /* per header ROW; <768px uses the override below */
 
   /* DEPRECATED — 225: kept only so generated static pages (tokens/, chains/) inherit the flat system; never use in new rules. */
   --neuro-bg:            var(--ui-bg);
@@ -860,6 +864,13 @@ select.form-control {
   --color-primary: var(--ui-accent);
   --color-primary-hover: var(--ui-accent-hover);
   --color-primary-active: var(--ui-accent-active);
+}
+
+/* Quiet design system — 225 §7.1: header row shrinks under 768px */
+@media (max-width: 767px) {
+  :root {
+    --ui-header-h: 52px;
+  }
 }
 
 * {
