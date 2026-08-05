@@ -1,10 +1,11 @@
 # MARSCOIN DeFi Yields
 
-The highest honest MARSCOIN yield right now is 0.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MARSCOIN yield right now is 0.02% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=79e3a42d-adfe-5f1e-8ca1-7b3d446bcb09&src=seo_token) | Solana | 0.02% | $30.94M |
+| [raydium-amm →](https://www.defi.garden/?pool=5fc831f1-b421-5e93-87a5-6c03774c8f1e&src=seo_token) | Solana | 0.01% | $27.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MARSCOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $30.94M in total.
+2 live pools clear this page's $100K TVL floor, $58.02M in total.
 
 ### Are these rates safe?
 

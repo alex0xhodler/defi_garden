@@ -1,12 +1,12 @@
 # WSOL-AVA — raydium-amm on Solana
 
-**Total APY:** 18.50% (18.50% Base · + 0.00% Rewards)
+**Total APY:** 18.33% (18.33% Base · + 0.00% Rewards)
 
 **TVL:** $1.02M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 37.81%
+**30d Mean APY:** 37.84%
 
 **Exposure:** multi
 
@@ -22,13 +22,13 @@ Moderate risk profile
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$2,337 in 5y at current rates.
+$1,000 in this pool grows to ~$2,320 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 18.50% right now vs a 37.81% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 18.33% right now vs a 37.84% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$2,337 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,320 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 

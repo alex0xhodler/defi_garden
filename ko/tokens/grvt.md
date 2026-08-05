@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=b116b0ab-10a1-5377-926d-55689198dc5b&src=seo_token) | Base | 203.25% | $209.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b81403b0-6bcb-542d-bff7-5207508601df&src=seo_token) | BSC | 127.82% | $143.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b81403b0-6bcb-542d-bff7-5207508601df&src=seo_token) | BSC | 117.66% | $143.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

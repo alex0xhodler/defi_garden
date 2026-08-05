@@ -1,11 +1,11 @@
 # NEAR DeFi Yields
 
-The highest honest NEAR yield right now is 3.77% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEAR yield right now is 4.09% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token) | Solana | 2.12% | $344.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token) | Ethereum | 3.77% | $333.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=ff85a528-d8f4-4955-b678-8a870579932d&src=seo_token) | Solana | 2.41% | $341.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=39ef0cc9-67ff-4a00-b4ab-633225030e24&src=seo_token) | Ethereum | 4.09% | $331K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEAR yield today?
 
-3.77% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.09% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NEAR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $677.7K in total.
+2 live pools clear this page's $100K TVL floor, $672.5K in total.
 
 ### Are these rates safe?
 

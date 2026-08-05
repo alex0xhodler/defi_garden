@@ -4,7 +4,7 @@ The highest honest 8LNDS yield right now is 2.23% on uniswap-v2 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=37a96f7e-aa4a-45db-a57f-cca6531c59a0&src=seo_token) | Base | 2.23% | $846.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=37a96f7e-aa4a-45db-a57f-cca6531c59a0&src=seo_token) | Base | 2.23% | $846.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 8LNDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $846.6K in total.
+1 live pool clear this page's $100K TVL floor, $846.2K in total.
 
 ### Are these rates safe?
 

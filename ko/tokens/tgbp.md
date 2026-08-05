@@ -1,13 +1,13 @@
 # TGBP 디파이 수익률
 
-현재 TGBP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 23.51%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TGBP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 23.64%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.03% | $288.1K |
-| [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.36% | $240.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.02% | $288.2K |
+| [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.24% | $240.6K |
 | [curve-dex →](https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token) | Polygon | 1.35% | $111.2K |
-| [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 23.51% | $102.4K |
+| [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 23.64% | $102.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +15,7 @@
 
 ### 오늘 TGBP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 23.51%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 23.64%예요.
 
 ### TGBP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

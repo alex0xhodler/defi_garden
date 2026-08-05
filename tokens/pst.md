@@ -4,8 +4,8 @@ The highest honest PST yield right now is 0.23% on orca-dex (Solana), among 9 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.02% | $3.47M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token) | Solana | 0.23% | $1.66M |
+| [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.03% | $3.48M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token) | Solana | 0.23% | $1.68M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

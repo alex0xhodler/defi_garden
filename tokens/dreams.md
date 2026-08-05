@@ -1,10 +1,10 @@
 # DREAMS DeFi Yields
 
-The highest honest DREAMS yield right now is 2.79% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DREAMS yield right now is 2.64% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6cd9f06a-5abc-482d-9116-26f381fd8917&src=seo_token) | Solana | 2.79% | $247K |
+| [raydium-amm →](https://www.defi.garden/?pool=6cd9f06a-5abc-482d-9116-26f381fd8917&src=seo_token) | Solana | 2.64% | $246.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DREAMS yield today?
 
-2.79% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.64% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DREAMS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $247K in total.
+1 live pool clear this page's $100K TVL floor, $246.3K in total.
 
 ### Are these rates safe?
 

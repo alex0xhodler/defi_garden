@@ -1,10 +1,10 @@
 # GMEE DeFi Yields
 
-The highest honest GMEE yield right now is 0.85% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GMEE yield right now is 0.97% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=117db328-23f1-432b-8a2a-0e6526c29e6f&src=seo_token) | Ethereum | 0.85% | $133.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=117db328-23f1-432b-8a2a-0e6526c29e6f&src=seo_token) | Ethereum | 0.97% | $133.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GMEE yield today?
 
-0.85% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.97% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GMEE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.5K in total.
+1 live pool clear this page's $100K TVL floor, $133.4K in total.
 
 ### Are these rates safe?
 

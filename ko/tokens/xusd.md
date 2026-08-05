@@ -1,11 +1,10 @@
 # XUSD 디파이 수익률
 
-현재 XUSD의 가장 높은 정직한 수익률은 Rootstock의 sovryn-dex에서 0.95%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XUSD의 가장 높은 정직한 수익률은 Rootstock의 sovryn-dex에서 0.29%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.61% | $958.1K |
-| [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.95% | $117.8K |
+| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.29% | $958.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +12,7 @@
 
 ### 오늘 XUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.95%예요.
+DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.29%예요.
 
 ### XUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -25,16 +24,15 @@ DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.95%예
 
 ## 관련 토큰
 
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
-- [ETH](https://www.defi.garden/ko/tokens/eth)
-- [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
+- [RBTC](https://www.defi.garden/ko/tokens/rbtc)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 
 ## 이용 가능한 체인
 
 - [Rootstock](https://www.defi.garden/ko/chains/rootstock)
-- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
 ## 마지막 업데이트: August 5, 2026

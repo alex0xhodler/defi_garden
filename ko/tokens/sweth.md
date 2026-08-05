@@ -1,11 +1,11 @@
 # SWETH 디파이 수익률
 
-현재 SWETH의 가장 높은 정직한 수익률은 Ethereum의 swell-liquid-staking에서 2.93%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SWETH의 가장 높은 정직한 수익률은 Ethereum의 swell-liquid-staking에서 2.63%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.63% | $28.17M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 2.93% | $149K |
+| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.63% | $28.11M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 1.40% | $148.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 SWETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 swell-liquid-staking에서 APY 2.93%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 swell-liquid-staking에서 APY 2.63%예요.
 
 ### SWETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $28.32M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $28.26M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,10 +1,10 @@
 # ACX DeFi Yields
 
-The highest honest ACX yield right now is 79.72% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ACX yield right now is 68.98% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1ddbf80b-bc6a-4a63-b420-89eb6b4b25e6&src=seo_token) | Ethereum | 79.72% | $587.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1ddbf80b-bc6a-4a63-b420-89eb6b4b25e6&src=seo_token) | Ethereum | 68.98% | $583.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ACX yield today?
 
-79.72% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+68.98% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ACX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.49M in total.
+2 live pools clear this page's $100K TVL floor, $1.48M in total.
 
 ### Are these rates safe?
 

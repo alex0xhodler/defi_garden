@@ -1,10 +1,10 @@
 # ALTT DeFi Yields
 
-The highest honest ALTT yield right now is 0.18% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALTT yield right now is 0.15% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f77919c0-3d8b-4d25-ae00-5d4f9aceb53f&src=seo_token) | Base | 0.18% | $130K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f77919c0-3d8b-4d25-ae00-5d4f9aceb53f&src=seo_token) | Base | 0.15% | $130K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALTT yield today?
 
-0.18% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.15% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ALTT pools clear the TVL floor?
 

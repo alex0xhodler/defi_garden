@@ -1,12 +1,11 @@
 # AKE DeFi Yields
 
-The highest honest AKE yield right now is 0.32% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AKE yield right now is 0.16% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.17% | $3.84M |
-| [raydium-amm →](https://www.defi.garden/?pool=4f141be3-4027-5cc0-a209-001afaa01af0&src=seo_token) | Solana | 0.17% | $3.71M |
-| [raydium-amm →](https://www.defi.garden/?pool=d9cbf1ad-eba5-5651-8540-e3fe37ca676f&src=seo_token) | Solana | 0.32% | $2.49M |
+| [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.15% | $3.84M |
+| [raydium-amm →](https://www.defi.garden/?pool=4f141be3-4027-5cc0-a209-001afaa01af0&src=seo_token) | Solana | 0.16% | $3.71M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AKE yield today?
 
-0.32% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.16% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AKE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $10.04M in total.
+2 live pools clear this page's $100K TVL floor, $7.55M in total.
 
 ### Are these rates safe?
 

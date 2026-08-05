@@ -5,7 +5,7 @@ The highest honest CUSDO yield right now is 4.26% on openeden-usdo (Solana), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [openeden-usdo →](https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token) | Solana | 3.08% | $859.8K |
-| [curve-dex →](https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token) | Ethereum | 4.26% | $159.8K |
+| [curve-dex →](https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token) | Ethereum | 4.26% | $160K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

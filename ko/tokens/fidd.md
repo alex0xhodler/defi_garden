@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.06% | $3.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.06% | $3.56M |
 | [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.01% | $2.75M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.10% | $2.24M |
 | [curve-dex →](https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token) | Ethereum | 0.01% | $1.75M |
@@ -19,7 +19,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.10%예�
 
 ### FIDD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.31M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.3M예요.
 
 ### 이 수익률은 안전한가요?
 

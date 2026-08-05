@@ -1,11 +1,11 @@
 # NOS DeFi Yields
 
-The highest honest NOS yield right now is 37.39% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOS yield right now is 34.13% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token) | Solana | 34.43% | $444.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 37.39% | $147.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token) | Solana | 31.00% | $444.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 34.13% | $147.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NOS yield today?
 
-37.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+34.13% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NOS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $592.2K in total.
+2 live pools clear this page's $100K TVL floor, $592.4K in total.
 
 ### Are these rates safe?
 

@@ -5,6 +5,7 @@ The highest honest Move yield right now is 12.60% on yuzu-finance (Move), among 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USDCX-USDT.E | [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_chain) | 12.60% | $1.06M |
+| USDCX-SAVUSD | [yuzu-finance →](https://www.defi.garden/?pool=558f9845-5093-4310-8123-de9293e85e89&src=seo_chain) | 0.50% | $253.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -35,5 +36,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDCX](https://www.defi.garden/tokens/usdcx)
 - [USDT.E](https://www.defi.garden/tokens/usdt-e)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Last updated August 5, 2026

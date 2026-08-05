@@ -1,11 +1,11 @@
 # FAI DeFi Yields
 
-The highest honest FAI yield right now is 44.13% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FAI yield right now is 41.31% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3&src=seo_token) | Base | 13.61% | $2.22M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73&src=seo_token) | Base | 44.13% | $237.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8133b48a-be1b-4448-9cf7-b740e9946da3&src=seo_token) | Base | 13.54% | $2.21M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3ae837aa-eec6-4b68-821f-11b74edf9f73&src=seo_token) | Base | 41.31% | $237.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FAI yield today?
 
-44.13% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+41.31% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many FAI pools clear the TVL floor?
 

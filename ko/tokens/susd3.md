@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.82% | $7.98M |
+| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.82% | $7.97M |
 | [pendle →](https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token) | Ethereum | 22.07% | $1M |
 | [pendle →](https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token) | Ethereum | 23.46% | $1M |
 

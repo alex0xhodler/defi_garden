@@ -1,6 +1,6 @@
 # Kava DeFi Yields
 
-The highest honest Kava yield right now is 6.18% on scrub-invest (Kava), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Kava yield right now is 6.18% on scrub-invest (Kava), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Kava pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $17.21M in total.
+8 live pools clear this page's $100K TVL floor, $18.04M in total.
 
 ### Are these rates safe?
 

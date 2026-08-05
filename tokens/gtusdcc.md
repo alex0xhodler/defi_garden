@@ -1,12 +1,12 @@
 # GTUSDCC DeFi Yields
 
-The highest honest GTUSDCC yield right now is 8.20% on morpho-blue (Hyperliquid L1), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDCC yield right now is 8.06% on morpho-blue (Hyperliquid L1), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=fa3d7f72-7a2e-4275-863a-228cb247a096&src=seo_token) | Hyperliquid L1 | 7.77% | $3.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=fa3d7f72-7a2e-4275-863a-228cb247a096&src=seo_token) | Hyperliquid L1 | 7.79% | $3.29M |
 | [morpho-blue →](https://www.defi.garden/?pool=65653183-7d69-408f-a76c-9dd2914f306f&src=seo_token) | Base | 3.88% | $1.89M |
-| [morpho-blue →](https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token) | Arbitrum | 8.20% | $909.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token) | Arbitrum | 8.06% | $909.2K |
 | [morpho-blue →](https://www.defi.garden/?pool=f0e34228-dbb2-571d-bb69-a8cfee835cbc&src=seo_token) | Hyperliquid L1 | 7.94% | $363.6K |
 | [morpho-blue →](https://www.defi.garden/?pool=e9bfd1d5-658b-4732-9d5b-42afa4d7277a&src=seo_token) | Unichain | 2.33% | $108.6K |
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDCC yield today?
 
-8.20% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+8.06% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many GTUSDCC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $6.55M in total.
+5 live pools clear this page's $100K TVL floor, $6.56M in total.
 
 ### Are these rates safe?
 

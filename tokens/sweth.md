@@ -1,11 +1,11 @@
 # SWETH DeFi Yields
 
-The highest honest SWETH yield right now is 2.93% on swell-liquid-staking (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWETH yield right now is 2.63% on swell-liquid-staking (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.63% | $28.17M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 2.93% | $149K |
+| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.63% | $28.11M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 1.40% | $148.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWETH yield today?
 
-2.93% APY on swell-liquid-staking (Ethereum), based on live DefiLlama data.
+2.63% APY on swell-liquid-staking (Ethereum), based on live DefiLlama data.
 
 ### How many SWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $28.32M in total.
+2 live pools clear this page's $100K TVL floor, $28.26M in total.
 
 ### Are these rates safe?
 

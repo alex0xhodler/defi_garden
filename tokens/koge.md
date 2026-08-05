@@ -4,7 +4,7 @@ The highest honest KOGE yield right now is 0.02% on uniswap-v3 (BSC), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=8b1a3963-bc8d-4bce-89cb-9c4cd50095b9&src=seo_token) | BSC | 0.02% | $1.05M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8b1a3963-bc8d-4bce-89cb-9c4cd50095b9&src=seo_token) | BSC | 0.02% | $1.06M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.05M in total.
+1 live pool clear this page's $100K TVL floor, $1.06M in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
+- [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 
 ## Available on
 

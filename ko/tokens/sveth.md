@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 2.43% | $120K |
-| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.69% | $107.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 2.43% | $119.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.65% | $107.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 2.43%예
 
 ### SVETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $227.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $227.5K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,9 +1,10 @@
 # XMR DeFi Yields
 
-The highest honest XMR yield right now is 0.14% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XMR yield right now is 0.14% on raydium-amm (Solana), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=1fd548b1-c3f8-5794-adb2-04764d66e43b&src=seo_token) | Solana | 0.01% | $42.83M |
 | [raydium-amm →](https://www.defi.garden/?pool=6dcaa44a-25a5-5ef4-b9ad-c8bdc0206a12&src=seo_token) | Solana | 0.12% | $21.87M |
 | [raydium-amm →](https://www.defi.garden/?pool=7c5b28ca-057f-5b12-bf1b-d53696cf9377&src=seo_token) | Solana | 0.01% | $21.85M |
 | [raydium-amm →](https://www.defi.garden/?pool=541701d0-895e-57d5-8eec-d6b4352e15a3&src=seo_token) | Solana | 0.12% | $21.8M |
@@ -22,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XMR pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $150.37M in total.
+8 live pools clear this page's $100K TVL floor, $193.2M in total.
 
 ### Are these rates safe?
 

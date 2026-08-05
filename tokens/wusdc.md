@@ -4,7 +4,7 @@ The highest honest WUSDC yield right now is 1.48% on cetus-clmm (Sui), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token) | Sui | 1.26% | $163.5K |
+| [cetus-clmm →](https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token) | Sui | 1.35% | $162.9K |
 | [navi-lending →](https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token) | Sui | 1.48% | $147.2K |
 | [scallop-lend →](https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token) | Sui | 1.19% | $122.6K |
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WUSDC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $433.3K in total.
+3 live pools clear this page's $100K TVL floor, $432.7K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # GOOGLX DeFi Yields
 
-The highest honest GOOGLX yield right now is 29.10% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOOGLX yield right now is 26.63% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f37649e7-52ac-46ae-bf1c-7ff1921c3cf7&src=seo_token) | Solana | 29.10% | $284.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=f37649e7-52ac-46ae-bf1c-7ff1921c3cf7&src=seo_token) | Solana | 26.63% | $284.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GOOGLX yield today?
 
-29.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+26.63% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GOOGLX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.18M in total.
+2 live pools clear this page's $100K TVL floor, $3.17M in total.
 
 ### Are these rates safe?
 

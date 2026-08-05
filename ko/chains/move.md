@@ -5,6 +5,7 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USDCX-USDT.E | [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_chain) | 12.60% | $1.06M |
+| USDCX-SAVUSD | [yuzu-finance →](https://www.defi.garden/?pool=558f9845-5093-4310-8123-de9293e85e89&src=seo_chain) | 0.50% | $253.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,5 +36,6 @@ DefiLlama 실시간 데이터 기준, Move의 yuzu-finance에서 APY 12.60%예�
 
 - [USDCX](https://www.defi.garden/ko/tokens/usdcx)
 - [USDT.E](https://www.defi.garden/ko/tokens/usdt-e)
+- [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
 
 ## 마지막 업데이트: August 5, 2026

@@ -1,12 +1,12 @@
 # VCNT 디파이 수익률
 
-현재 VCNT의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 11.45%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VCNT의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 13.41%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d4a8a53d-43f6-4cb2-b2f2-58f1762e79c5&src=seo_token) | Base | 11.45% | $173.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be954f9b-34de-473f-a52a-5016ea4db85f&src=seo_token) | Polygon | 8.07% | $168.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token) | Arbitrum | 0.75% | $164.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d4a8a53d-43f6-4cb2-b2f2-58f1762e79c5&src=seo_token) | Base | 9.57% | $173.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be954f9b-34de-473f-a52a-5016ea4db85f&src=seo_token) | Polygon | 13.41% | $168.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token) | Arbitrum | 0.61% | $164.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 VCNT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 11.45%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 13.41%예요.
 
 ### VCNT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
