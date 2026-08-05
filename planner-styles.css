@@ -16,6 +16,7 @@
 }
 
 /* ---------- Header ---------- */
+/* height/padding/border-radius owned by the shared header-row rule, style.css end */
 .gp-header {
   display: flex;
   align-items: center;
@@ -23,7 +24,6 @@
   max-width: 760px;
   width: 100%;
   margin: 0 auto;
-  padding: var(--space-16);
   gap: var(--space-16);
   background: var(--ui-surface);
   border-bottom: 1px solid var(--ui-border);
@@ -45,30 +45,22 @@
   gap: var(--space-12);
 }
 
+/* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
 .gp-restart {
   border: 1px solid var(--ui-border);
   background: var(--color-surface);
   color: var(--color-text-secondary);
   font-family: var(--font-family-base);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  padding: var(--space-8) var(--space-16);
-  border-radius: var(--radius-full);
   cursor: pointer;
   transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
 }
 .gp-restart:hover { border-color: var(--ui-border-strong); transform: translateY(-1px); }
 
+/* width/height/border-radius owned by the shared icon-only-button rule, style.css end */
 .gp-theme-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
   border: 1px solid var(--ui-border);
   background: var(--color-background);
-  border-radius: var(--radius-full);
   cursor: pointer;
   font-size: var(--font-size-lg);
   transition: border-color var(--duration-normal) var(--ease-standard),
@@ -153,12 +145,11 @@
 /* ---------- Conversation ---------- */
 .gp-convo { display: flex; flex-direction: column; gap: var(--space-16); }
 
+/* padding/border-radius owned by the shared card rule, style.css end */
 .gp-thread {
   display: flex;
   flex-direction: column;
   gap: var(--space-8);
-  padding: var(--space-16);
-  border-radius: var(--ui-radius-lg);
   border: 1px solid var(--ui-border);
   background: var(--ui-surface-sunken);
 }
@@ -172,12 +163,11 @@
 .gp-thread-a { color: var(--color-text); font-weight: var(--font-weight-medium); }
 
 /* ---------- Bubble ---------- */
+/* padding/border-radius owned by the shared card rule, style.css end */
 .gp-bubble {
   display: flex;
   gap: var(--space-12);
   align-items: flex-start;
-  padding: var(--space-20);
-  border-radius: var(--ui-radius-lg);
   background: var(--color-surface);
   border: 1px solid var(--ui-border);
 }
@@ -218,17 +208,14 @@
 .gp-chips-wrap { flex-wrap: wrap; }
 
 .gp-chip {
+  /* height/padding/border-radius/font owned by the shared chip rule (icon variant), style.css end */
   display: inline-flex;
   align-items: center;
   gap: var(--space-8);
-  padding: var(--space-12) var(--space-16);
   border: 1px solid var(--ui-border);
   background: var(--ui-surface);
   color: var(--color-text);
   font-family: var(--font-family-base);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-medium);
-  border-radius: var(--ui-radius-pill);
   cursor: pointer;
   transition: border-color var(--duration-normal) var(--ease-standard),
     background var(--duration-normal) var(--ease-standard),
@@ -254,13 +241,12 @@
 }
 
 /* ---------- Free-text inputs ---------- */
+/* height/padding/border-radius owned by the shared text-input rule, style.css end */
 .gp-freetext {
   display: flex;
   align-items: center;
   gap: var(--space-8);
   margin-top: var(--space-16);
-  padding: var(--space-4) var(--space-4) var(--space-4) var(--space-16);
-  border-radius: var(--ui-radius-md);
   background: var(--color-surface);
   border: 1px solid var(--ui-border-strong);
 }
@@ -280,12 +266,10 @@
   caret-color: var(--color-primary);
 }
 .gp-text-input::placeholder { color: var(--color-text-secondary); }
+/* width/height/border-radius owned by the shared icon-only-button rule, style.css end */
 .gp-text-send {
   flex-shrink: 0;
-  width: 40px;
-  height: 40px;
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-sm);
   background: var(--color-background);
   color: var(--color-primary);
   font-size: var(--font-size-xl);
@@ -1022,12 +1006,11 @@
   line-height: var(--line-height-normal);
 }
 .gp-ask-hint { margin-top: var(--space-8); font-size: var(--font-size-sm); color: var(--color-primary); font-weight: var(--font-weight-semibold); }
+/* height/padding/border-radius owned by the shared text-input rule, style.css end */
 .gp-ask-form {
   display: flex;
   align-items: center;
   gap: var(--space-8);
-  padding: var(--space-4) var(--space-4) var(--space-4) var(--space-16);
-  border-radius: var(--ui-radius-md);
   background: var(--color-surface);
   border: 1px solid var(--ui-border-strong);
 }
@@ -1045,11 +1028,10 @@
   caret-color: var(--color-primary);
 }
 .gp-ask-input::placeholder { color: var(--color-text-secondary); }
+/* width/height/border-radius owned by the shared icon-only-button rule, style.css end */
 .gp-ask-send {
   flex-shrink: 0;
-  width: 40px; height: 40px;
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-sm);
   background: var(--color-background);
   color: var(--color-primary);
   font-size: var(--font-size-xl);
@@ -1236,15 +1218,12 @@
 
 .gp-report-actions { display: flex; gap: var(--space-12); justify-content: center; flex-wrap: wrap; }
 
+/* height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
 .gp-cta {
   border: 1px solid transparent;
-  padding: var(--space-12) var(--space-24);
-  border-radius: var(--ui-radius-md);
   background: var(--ui-accent);
   color: #fff;
   font-family: var(--font-family-base);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-semibold);
   cursor: pointer;
   transition: background var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
@@ -1357,15 +1336,13 @@
   flex-wrap: wrap;
   margin-top: var(--space-16);
 }
+/* height/padding/border-radius/font owned by the shared chip rule (icon variant), style.css end —
+   the pill-short/pill-sub children below set their own font-size. */
 .gp-persona-pill {
   border: 1px solid var(--ui-border);
-  padding: var(--space-8) var(--space-14);
-  border-radius: var(--ui-radius-pill);
   background: var(--ui-surface);
   color: var(--color-text-secondary);
   font-family: var(--font-family-base);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   cursor: pointer;
   transition: border-color var(--duration-normal) var(--ease-standard),
     color var(--duration-normal) var(--ease-standard);
@@ -1410,15 +1387,12 @@
   border: 1px solid var(--ui-border);
   text-align: center;
 }
+/* height/padding/border-radius/font owned by the shared hero-primary-button rule, style.css end */
 .gp-primary-cta {
   display: inline-block;
-  padding: var(--space-14) var(--space-28);
-  border-radius: var(--ui-radius-md);
   background: var(--ui-accent);
   color: #fff;
   font-family: var(--font-family-base);
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-semibold);
   text-decoration: none;
   border: 1px solid transparent;
   transition: background var(--duration-normal) var(--ease-standard),
@@ -1470,15 +1444,12 @@
   gap: var(--space-8);
   margin-bottom: var(--space-12);
 }
+/* height/padding/border-radius/font owned by the shared chip rule, style.css end */
 .gp-ask-chip {
   border: 1px solid var(--ui-border);
-  padding: var(--space-6) var(--space-12);
-  border-radius: var(--ui-radius-pill);
   background: var(--ui-surface);
   color: var(--color-text-secondary);
   font-family: var(--font-family-base);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   cursor: pointer;
   transition: border-color var(--duration-normal) var(--ease-standard),
     color var(--duration-normal) var(--ease-standard);
@@ -1497,13 +1468,8 @@
 }
 
 /* ---------- Analytics icon in header ---------- */
+/* width/height/border-radius owned by the shared icon-only-button rule, style.css end */
 .gp-analytics-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius-full);
   background: var(--color-background);
   border: 1px solid var(--ui-border);
   font-size: var(--font-size-xl);
@@ -1515,15 +1481,12 @@
 .gp-analytics-btn:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 
 /* ---------- My Garden header button ---------- */
+/* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
 .gp-my-garden-btn {
   border: 1px solid var(--ui-border);
   background: var(--color-surface);
   color: var(--color-primary);
   font-family: var(--font-family-base);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
-  padding: var(--space-8) var(--space-16);
-  border-radius: var(--radius-full);
   cursor: pointer;
   transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
@@ -1548,13 +1511,14 @@
 }
 
 @media (max-width: 400px) {
-  .gp-bubble { padding: var(--space-16); }
+  /* .gp-bubble padding and .gp-primary-cta height/padding/font are owned by
+     the shared card / hero-primary-button rules (style.css end); no
+     responsive geometry variant. */
   .gp-tagline h1 { font-size: var(--font-size-2xl); }
   .gp-headline-figure { font-size: 26px; }
   .gp-bloom-foot { flex-direction: column; align-items: stretch; }
   .gp-share-btn { width: 100%; }
   .gp-plan-strip { font-size: var(--font-size-xs); }
-  .gp-primary-cta { font-size: var(--font-size-base); padding: var(--space-12) var(--space-20); }
 }
 
 /* ---------- Chip hints (A2) ---------- */
@@ -2054,9 +2018,8 @@
 .gp-ladder-row-active .gp-ladder-label { color: var(--color-primary); }
 
 /* ---------- YOUR PLAN card (subscription bloom) ---------- */
+/* padding/border-radius owned by the shared card rule, style.css end */
 .gp-plan-card {
-  padding: var(--space-16);
-  border-radius: var(--ui-radius-lg);
   background: var(--color-surface);
   border: 1px solid var(--ui-border);
   display: flex;
@@ -2159,15 +2122,12 @@
   outline-offset: 2px;
 }
 
+/* height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
 .gp-plan-capital-ok {
-  padding: var(--space-4) var(--space-10);
   border: 1px solid transparent;
-  border-radius: var(--ui-radius-sm);
   background: var(--ui-accent);
   color: #fff;
   font-family: var(--font-family-base);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
   cursor: pointer;
   transition: background var(--duration-normal) var(--ease-standard);
 }
@@ -2452,14 +2412,13 @@
   to   { opacity: 1; }
 }
 
+/* padding/border-radius owned by the shared hero-card rule, style.css end */
 .gp-waitlist-card {
   position: relative;
   width: 100%;
   max-width: 480px;
   max-height: 90dvh;
   overflow-y: auto;
-  padding: var(--space-28) var(--space-24);
-  border-radius: var(--ui-radius-lg);
   background: var(--color-surface);
   border: 1px solid var(--ui-border);
   box-shadow: var(--ui-shadow-overlay);
@@ -2548,16 +2507,13 @@
   margin: 0;
 }
 
+/* height/padding/border-radius/font owned by the shared hero-primary-button rule, style.css end */
 .gp-waitlist-submit {
   width: 100%;
-  padding: var(--space-14) var(--space-28);
   border: 1px solid transparent;
-  border-radius: var(--ui-radius-md);
   background: var(--ui-accent);
   color: #fff;
   font-family: var(--font-family-base);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-semibold);
   cursor: pointer;
   transition: background var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);

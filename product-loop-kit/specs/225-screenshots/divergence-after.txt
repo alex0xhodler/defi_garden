@@ -1,0 +1,50 @@
+
+=== PRIMARY BUTTON ===
+  landing  .landing-garden-link       radius=12px       h=40   border=1px rgba(0, 0, 0, 0)  bg=rgb(59, 130, 246)  font=14px/600  pad=0px/16px
+  grid     .app-search-button         radius=12px       h=40   border=1px rgba(0, 0, 0, 0)  bg=rgb(59, 130, 246)  font=14px/600  pad=0px/16px
+  grid     .calculate-yield-btn-new   radius=12px       h=40   border=0px rgb(59, 130, 246)  bg=rgba(0, 0, 0, 0)  font=14px/600  pad=0px/16px
+  pool     .cta-button-primary        radius=12px       h=40   border=1px rgba(0, 0, 0, 0)  bg=rgb(59, 130, 246)  font=14px/600  pad=0px/16px
+  --> DISTINCT RADII: 1 (12px)
+  --> DISTINCT HEIGHTS: 1 (40)
+
+=== SECONDARY BUTTON ===
+  landing  .landing-icon-button       radius=999px      h=40   border=1px rgb(228, 231, 238)  bg=rgb(247, 248, 250)  font=11px/600  pad=0px/0px
+  planner  .gp-analytics-btn          radius=999px      h=40   border=1px rgb(228, 231, 238)  bg=rgb(247, 248, 250)  font=18px/400  pad=0px/0px
+  grid     .app-control-btn           radius=999px      h=40   border=1px rgb(228, 231, 238)  bg=rgb(247, 248, 250)  font=12px/600  pad=0px/0px
+  grid     .view-toggle-btn           radius=999px      h=40   border=0px rgb(90, 100, 120)  bg=rgba(0, 0, 0, 0)  font=13.3333px/400  pad=0px/0px
+  grid     .theme-toggle              radius=999px      h=40   border=1px rgb(228, 231, 238)  bg=rgb(247, 248, 250)  font=13.3333px/400  pad=0px/0px
+  pool     .cta-button-protocol       radius=12px       h=40   border=1px rgb(228, 231, 238)  bg=rgb(255, 255, 255)  font=14px/600  pad=0px/16px
+  pool     .detail-header-btn         radius=999px      h=40   border=1px rgb(228, 231, 238)  bg=rgb(255, 255, 255)  font=16px/400  pad=0px/0px
+  --> DISTINCT RADII: 2 (999px | 12px)
+  --> DISTINCT HEIGHTS: 1 (40)
+
+=== CHIP / PILL ===
+  landing  .landing-example-chip      radius=999px      h=32   border=1px rgb(228, 231, 238)  bg=rgb(247, 248, 250)  font=14px/500  pad=0px/14px
+  planner  .gp-chip                   radius=999px      h=40   border=1px rgb(228, 231, 238)  bg=rgb(255, 255, 255)  font=14px/500  pad=0px/14px
+  grid     .app-filter-btn            radius=999px      h=40   border=1px rgb(228, 231, 238)  bg=rgb(255, 255, 255)  font=14px/500  pad=0px/14px
+  --> DISTINCT RADII: 1 (999px)
+  --> DISTINCT HEIGHTS: 2 (32 | 40)
+
+=== CARD / PANEL ===
+  landing  .landing-garden-card       radius=16px       h=448  border=1px rgb(228, 231, 238)  bg=rgb(255, 255, 255)  font=14px/400  pad=24px/24px
+  grid     .pool-card                 radius=16px       h=122  border=1px rgb(228, 231, 238)  bg=rgb(247, 248, 250)  font=14px/400  pad=20px/20px
+  grid     .results-header            radius=16px       h=92   border=1px rgb(228, 231, 238)  bg=rgb(247, 248, 250)  font=14px/400  pad=20px/20px
+  pool     .pool-hero-card            radius=16px       h=378  border=1px rgb(228, 231, 238)  bg=rgb(255, 255, 255)  font=14px/400  pad=24px/24px
+  pool     .pool-info-section         radius=16px       h=212  border=0px rgb(16, 21, 31)  bg=rgba(0, 0, 0, 0)  font=14px/400  pad=20px/20px
+  --> DISTINCT RADII: 1 (16px)
+  --> DISTINCT HEIGHTS: 5 (448 | 122 | 92 | 378 | 212)
+
+=== TEXT INPUT ===
+  landing  .landing-search-shell      radius=12px       h=56   border=1px rgb(203, 210, 223)  bg=rgb(255, 255, 255)  font=14px/400  pad=0px/16px
+  planner  .gp-freetext               radius=12px       h=48   border=1px rgb(203, 210, 223)  bg=rgb(255, 255, 255)  font=14px/400  pad=0px/16px
+  grid     .app-search-bar            radius=12px       h=48   border=1px rgb(203, 210, 223)  bg=rgb(255, 255, 255)  font=14px/400  pad=0px/16px
+  pool     .amount-input              radius=12px       h=48   border=1px rgb(203, 210, 223)  bg=rgb(255, 255, 255)  font=16px/500  pad=12px/16px
+  --> DISTINCT RADII: 1 (12px)
+  --> DISTINCT HEIGHTS: 2 (56 | 48)
+
+=== HEADER ===
+  landing  .landing-header            radius=0px        h=56   border=0px 0px 1px rgb(16, 21, 31) rgb(16, 21, 31) rgb(228, 231, 238)  bg=rgb(255, 255, 255)  font=14px/400  pad=0px/20px
+  planner  .gp-header                 radius=0px        h=56   border=0px 0px 1px rgb(16, 21, 31) rgb(16, 21, 31) rgb(228, 231, 238)  bg=rgb(255, 255, 255)  font=14px/400  pad=0px/20px
+  grid     .app-header-sticky         radius=0px        h=113  border=0px 0px 1px rgb(16, 21, 31) rgb(16, 21, 31) rgb(228, 231, 238)  bg=rgb(255, 255, 255)  font=14px/400  pad=0px/0px
+  --> DISTINCT RADII: 1 (0px)
+  --> DISTINCT HEIGHTS: 2 (56 | 113)

@@ -947,7 +947,7 @@ body {
   right: 0;
   z-index: 100;
   background: var(--color-surface);
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--ui-border);
   box-shadow: none;
   overflow: visible;
 }
@@ -1242,18 +1242,13 @@ body {
 }
 
 .app-filter-btn {
-  display: inline-flex;
-  align-items: center;
+  /* height/padding/border-radius/font owned by the shared chip rule (icon variant), style.css end */
   gap: var(--space-6);
   flex-shrink: 0;
-  padding: var(--space-8) var(--space-16);
   background: var(--color-surface);
   border: none;
-  border-radius: var(--ui-radius-md);
   color: var(--color-text);
   cursor: pointer;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   white-space: nowrap;
   box-shadow: none;
   border: 1px solid var(--ui-border);
@@ -2037,6 +2032,7 @@ body {
   margin-bottom: var(--space-32);
 }
 
+/* padding/border-radius owned by the shared card rule, style.css end */
 .results-header {
   display: flex;
   justify-content: space-between;
@@ -2044,9 +2040,7 @@ body {
   flex-wrap: wrap;
   gap: var(--space-16);
   margin-bottom: var(--space-24);
-  padding: var(--space-16) var(--space-20);
   background: var(--color-background);
-  border-radius: var(--ui-radius-lg);
   box-shadow: none;
   border: 1px solid var(--ui-border);
 }
@@ -2076,13 +2070,13 @@ body {
 }
 
 .view-toggle-btn {
+  /* height/width/padding/border-radius owned by the shared icon-only-button
+     rule (grid/list) or the shared secondary-button rule (.sort-toggle-btn
+     text variant) — both at style.css end. */
   background: transparent;
   border: none;
-  padding: 6px 12px;
-  border-radius: var(--ui-radius-sm);
   cursor: pointer;
   color: var(--color-text-secondary);
-  font-size: 16px;
   transition: all 0.2s ease;
 }
 
@@ -2119,9 +2113,7 @@ body {
 }
 
 .sort-toggle-btn {
-  font-size: 12px;
-  font-weight: var(--font-weight-bold);
-  padding: 6px 16px;
+  /* height/padding/font-size owned by the shared secondary-button rule, style.css end */
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -2136,11 +2128,13 @@ body {
 }
 
 .pools-list .pool-card {
+  /* border-radius stays the shared card value (--ui-radius-lg); padding
+     uses the shared card's 20px too — no list-view-specific geometry. */
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--space-24);
-  padding: var(--space-16) var(--space-24);
+  padding: 20px;
   min-height: 84px;
   border-radius: var(--ui-radius-lg);
   flex-direction: row;
@@ -2285,10 +2279,9 @@ body {
   }
 }
 
+/* padding/border-radius owned by the shared card rule, style.css end */
 .pool-card {
   background: var(--color-background);
-  border-radius: var(--ui-radius-lg);
-  padding: var(--space-24);
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   box-shadow: none;
   border: 1px solid var(--ui-border);
@@ -2302,8 +2295,6 @@ body {
 /* Compact desktop cards */
 @media (min-width: 1024px) {
   .pool-card {
-    padding: var(--space-16);
-    border-radius: var(--ui-radius-lg);
     min-height: 200px;
     max-height: 280px;
   }
@@ -2478,16 +2469,13 @@ body {
   margin-top: var(--space-32);
 }
 
+/* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
 .pagination-button {
-  padding: var(--space-12) var(--space-20);
   border: none;
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: var(--ui-radius-md);
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   box-shadow: none;
   border: 1px solid var(--ui-border);
 }
@@ -2736,21 +2724,19 @@ html[data-app-mode="landing"] .seo-hub-links {
   display: none;
 }
 
-/* Reset Filters Button - neumorphic recovery action (empty state) */
+/* Reset Filters Button - recovery action (empty state).
+   height/padding/border-radius/font owned by the shared secondary-button
+   rule, style.css end. */
 .reset-filters-btn {
   margin-top: var(--space-20);
   display: inline-flex;
   align-items: center;
   gap: var(--space-8);
-  padding: var(--space-16) var(--space-24);
   border: none;
   background: var(--color-surface);
   color: var(--color-text);
-  border-radius: var(--ui-radius-md);
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   box-shadow: none;
   border: 1px solid var(--ui-border);
   min-width: auto;
@@ -2892,11 +2878,9 @@ html[data-app-mode="landing"] .seo-hub-links {
     gap: var(--space-12);
   }
 
+  /* .pool-card padding/border-radius owned by the shared card rule (style.css end) */
   .pool-card {
-    padding: var(--space-20);
     min-height: auto;
-
-    border-radius: var(--ui-radius-lg);
   }
 
   .pool-card.clickable {
@@ -2921,7 +2905,6 @@ html[data-app-mode="landing"] .seo-hub-links {
     flex-direction: column;
     align-items: flex-start;
     gap: var(--space-12);
-    padding: var(--space-16);
   }
 
   .results-title {
@@ -2935,11 +2918,7 @@ html[data-app-mode="landing"] .seo-hub-links {
     justify-content: center;
   }
 
-  .pagination-button {
-    min-height: 44px;
-    /* Minimum touch target */
-    padding: var(--space-12) var(--space-16);
-  }
+  /* .pagination-button size owned by the shared secondary-button rule (style.css end) */
 
   /* Mobile Footer */
   .app-footer {
@@ -2953,11 +2932,9 @@ html[data-app-mode="landing"] .seo-hub-links {
 
 /* Small Mobile Devices - Additional Optimizations */
 @media (max-width: 480px) {
+  /* .pool-card padding/border-radius owned by the shared card rule (style.css end) */
   .pool-card {
-    padding: var(--space-16);
     margin-bottom: var(--space-16);
-
-    border-radius: var(--ui-radius-lg);
   }
 
   .search-container {
@@ -3535,15 +3512,12 @@ html {
 
 
 
-/* Ghost affordance CTA for card "View & calculate" */
+/* Ghost affordance CTA for card "View & calculate" —
+   height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
 .calculate-yield-btn-new {
   background: transparent;
   box-shadow: none;
   color: var(--color-primary);
-  font-weight: 600;
-  font-size: var(--font-size-sm);
-  padding: var(--space-8) var(--space-16);
-  border-radius: var(--ui-radius-md);
   border: none;
   cursor: pointer;
   width: 100%;
@@ -4140,9 +4114,7 @@ html {
   }
 
   .calculate-yield-btn-new {
-    padding: var(--space-8) var(--space-16);
-    font-size: var(--font-size-sm);
-    font-weight: 600;
+    /* height/padding/font owned by the shared primary-button rule (style.css end) */
     text-transform: none;
     letter-spacing: normal;
   }
@@ -5034,26 +5006,18 @@ html {
   scroll-snap-align: start;
 }
 
-/* Filter Pills - Clean Neumorphic Style */
+/* Filter Pills - height/padding/border-radius/font owned by the shared chip rule, style.css end */
 .filter-pill {
   flex-shrink: 0;
-  padding: var(--space-8) var(--space-16);
   border: none;
-  border-radius: var(--ui-radius-md);
   background: var(--color-surface);
   color: var(--color-text);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   box-shadow: none;
   border: 1px solid var(--ui-border);
   transition: all 0.2s ease;
   cursor: pointer;
   white-space: nowrap;
   position: relative;
-  min-height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Hover state - Subtle lift */
@@ -5137,26 +5101,19 @@ html {
   scroll-snap-align: start;
 }
 
+/* height/padding/border-radius/font owned by the shared chip rule, style.css end */
 .filter-button {
   flex-shrink: 0;
-  padding: var(--space-8) var(--space-16);
   border: none;
-  border-radius: var(--ui-radius-md);
   background: var(--color-surface);
   color: var(--color-text);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   box-shadow: none;
   border: 1px solid var(--ui-border);
   transition: all 0.2s ease;
   cursor: pointer;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: var(--space-8);
   white-space: nowrap;
-  min-height: 36px;
 }
 
 /* Inactive filter buttons hover */
@@ -5237,23 +5194,17 @@ html {
   display: none;
 }
 
+/* height/padding/border-radius/font owned by the shared chip rule, style.css end */
 .filter-chip {
   flex-shrink: 0;
-  padding: var(--space-8) var(--space-16);
   border: none;
-  border-radius: var(--ui-radius-md);
   background: var(--color-surface);
   color: var(--color-text);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   box-shadow: none;
   border: 1px solid var(--ui-border);
   transition: all 0.2s ease;
   cursor: pointer;
   white-space: nowrap;
-  min-height: 36px;
-  display: flex;
-  align-items: center;
 }
 
 /* Inactive filter chips hover */
@@ -5309,19 +5260,8 @@ html {
     padding: var(--space-4) 0;
   }
 
-  .filter-pill,
-  .filter-button {
-    padding: var(--space-4) var(--space-10);
-    min-height: 36px;
-    /* Touch target size */
-    font-size: 11px;
-  }
-
-  .filter-chip {
-    padding: var(--space-3) var(--space-8);
-    min-height: 32px;
-    font-size: 10px;
-  }
+  /* .filter-pill/.filter-button/.filter-chip size owned by the shared chip
+     rule (style.css end); no responsive shape variant. */
 
   .filter-pills-container {
     gap: var(--space-8);
@@ -5336,27 +5276,6 @@ html {
   .filter-chips-container {
     gap: var(--space-12);
     padding: var(--space-8) var(--space-12);
-  }
-
-  .filter-chip {
-    padding: var(--space-12) var(--space-16);
-    font-size: var(--font-size-sm);
-    min-height: 44px;
-    border-radius: var(--ui-radius-md);
-  }
-
-  .filter-pill {
-    padding: var(--space-10) var(--space-16);
-    font-size: var(--font-size-sm);
-    min-height: 44px;
-    border-radius: var(--ui-radius-md);
-  }
-
-  .filter-button {
-    padding: var(--space-10) var(--space-16);
-    font-size: var(--font-size-sm);
-    min-height: 44px;
-    border-radius: var(--ui-radius-md);
   }
 
   .value-filters-row {
@@ -5811,6 +5730,7 @@ body,
 .back-to-results-btn,
 .back-button,
 .gp-restart,
+.gp-my-garden-btn,
 .view-toggle-btn.sort-toggle-btn {
   display: inline-flex;
   align-items: center;
