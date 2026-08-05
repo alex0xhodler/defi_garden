@@ -2925,11 +2925,11 @@ function App() {
     // Footer
     React.createElement('footer', {
       className: 'app-footer'
-    }, React.createElement('p', null, 'Powered by ', React.createElement('a', {
+    }, React.createElement('p', null, t('poweredBy'), ' ', React.createElement('a', {
       href: 'https://api-docs.defillama.com/',
       target: '_blank',
       rel: 'noopener noreferrer'
-    }, 'Defillama API'), '. Made with AI & Degen Love.'), React.createElement('p', {
+    }, t('defillamaApi')), '. ', t('footerSignOff')), React.createElement('p', {
       className: 'app-footer-hub-links'
     }, React.createElement('a', {
       href: '/tokens'
@@ -3422,11 +3422,11 @@ function App() {
   // Footer
   React.createElement('footer', {
     className: 'app-footer'
-  }, React.createElement('p', null, 'Powered by ', React.createElement('a', {
+  }, React.createElement('p', null, t('poweredBy'), ' ', React.createElement('a', {
     href: 'https://api-docs.defillama.com/',
     target: '_blank',
     rel: 'noopener noreferrer'
-  }, 'Defillama API'), '. Made with AI & Degen Love.'), React.createElement('p', {
+  }, t('defillamaApi')), '. ', t('footerSignOff')), React.createElement('p', {
     className: 'app-footer-hub-links'
   }, React.createElement('a', {
     href: '/tokens'
