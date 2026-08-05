@@ -16,11 +16,23 @@ const { XMLParser } = require('fast-xml-parser');
 // slugs, so it must compute them identically or a retarget could land on a
 // URL that was never actually generated.
 const { tokenSlug } = require('./generate-token-pages.js');
+// item 226 fix (post-verifier): sitemap.xml is now HEAD-only for the static
+// /tokens|/chains page families (Google head-curation) — collectEstateUrls()
+// is the SAME single source of truth indexnow-ping.js's own full-estate
+// submission uses for "what is the full served estate", reused here rather
+// than a second scanner (indexnow-ping.js requires no local modules itself,
+// so requiring it from here cannot create a load cycle).
+const { collectEstateUrls } = require('./indexnow-ping.js');
 
 // Configuration with environment variable overrides
 const SITE_URL = process.env.SITE_URL || 'https://www.defi.garden';
 const SITEMAP_PATH = process.env.SITEMAP_PATH || path.resolve('./sitemap.xml');
 const OUTPUT_DIR = process.env.LLMS_OUTPUT_DIR || path.dirname(SITEMAP_PATH);
+// item 226 fix: root directory the served estate (tokens/, ko/tokens/,
+// chains/, ko/chains/) lives under — same co-location convention as
+// sitemap.xml (repo root in production; overridable so tests can point both
+// at an isolated scratch dir independently of SITEMAP_PATH).
+const ESTATE_ROOT = process.env.LLMS_ESTATE_ROOT || path.dirname(SITEMAP_PATH);
 const DEFILLAMA_YIELDS_URL = process.env.DEFILLAMA_YIELDS_URL || 'https://yields.llama.fi/pools';
 // spec 180 R3 / Territory T2: the committed pools snapshot audit-app.js's own
 // text-surface level-3 re-check reads (apyBase+apyReward shape, no `apy`
@@ -124,6 +136,41 @@ async function parseSitemap(sitemapPath) {
   } catch (error) {
     throw new Error(`Failed to parse sitemap: ${error.message}`);
   }
+}
+
+// item 226 fix: path prefixes owned by the static page estate — the SAME
+// four directories collectEstateUrls() (indexnow-ping.js) scans, expressed as
+// URL path prefixes so a sitemap-derived URL can be recognized and excluded
+// (never double-sourced) regardless of which child sitemap it came from.
+const ESTATE_URL_PATH_PREFIXES = ['/tokens', '/chains', '/ko/tokens', '/ko/chains'];
+
+/**
+ * item 226 fix (post-verifier): builds the FULL URL population llms.txt/
+ * llms-full.txt describe — sitemap.xml alone is no longer that population
+ * (it's HEAD-only for the static page families since Google head-curation;
+ * Q3b's authorization is scoped to Google's sitemap view, agents keep
+ * everything). Two sources, merged and deduped:
+ *   - `sitemapUrls` filtered down to the small, stable set sitemap.xml
+ *     legitimately still owns and that item 226 never touched — home,
+ *     /plan.html, /stories/*, the item-188 `?chain=All...` browse rungs
+ *     (sitemap-main.xml, kept "exactly as-is" per specs/226.md). Anything
+ *     under /tokens or /chains (en or ko) is EXCLUDED here — that family is
+ *     now head-only in sitemap.xml and must never leak in as a shrunk
+ *     population.
+ *   - `collectEstateUrls(estateRoot)` — the FULL served /tokens|/chains page
+ *     estate, head + tail, from disk. The SAME single source of truth
+ *     indexnow-ping.js's own full-estate submission uses (mirror rule).
+ * Exported so tests can call it directly against a scratch estate.
+ */
+function buildFullUrlPopulation(sitemapUrls, estateRoot) {
+  const specialUrls = sitemapUrls.filter(u => {
+    let pathname;
+    try { pathname = new URL(u).pathname; }
+    catch (e) { return true; } // unparseable — keep as-is; categorizeUrls/downstream will skip it too
+    return !ESTATE_URL_PATH_PREFIXES.some(prefix => pathname === prefix || pathname.startsWith(prefix + '/'));
+  });
+  const estateUrls = collectEstateUrls(estateRoot);
+  return Array.from(new Set([...specialUrls, ...estateUrls])).sort();
 }
 
 /**
@@ -1188,12 +1235,18 @@ async function main() {
   try {
     log('Starting LLM files generation for DeFi Garden...');
     
-    // Parse sitemap
-    const urls = await parseSitemap(SITEMAP_PATH);
+    // Parse sitemap + the served estate (item 226 fix): sitemap.xml alone is
+    // HEAD-only for /tokens|/chains since Google head-curation — the full
+    // agent-facing population is sitemap-main.xml's stable set UNION the
+    // full estate on disk (collectEstateUrls, same source IndexNow uses).
+    // See buildFullUrlPopulation()'s doc comment for the full rationale.
+    const sitemapUrls = await parseSitemap(SITEMAP_PATH);
+    const urls = buildFullUrlPopulation(sitemapUrls, ESTATE_ROOT);
     const baseUrl = inferBaseUrl(urls);
     const categories = categorizeUrls(urls, baseUrl);
     // spec 180 R2: the parsed URL set doubles as "does a static /chains/<slug>
-    // page actually exist" — reused, never re-fetched.
+    // page actually exist" — reused, never re-fetched. Now the FULL estate
+    // (item 226 fix), not the head-only sitemap-derived set.
     const sitemapUrlSet = new Set(urls);
 
     // Fetch yield data

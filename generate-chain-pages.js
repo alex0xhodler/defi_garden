@@ -34,6 +34,10 @@ const { createTranslationFunction } = require('./translations.js');
 // Per-page OG images (051). Safe as a top-level require: this module only
 // requires generate-token-pages.js (not this one back), so no load cycle.
 const { generateOgImages } = require('./generate-og-images.js');
+// item 226: selectHeadChains is the single head-selection predicate (lives in
+// generate-sitemap.js beside the rails it reuses). No cycle: generate-sitemap.js
+// requires neither this file nor generate-token-pages.js back.
+const { selectHeadChains } = require('./generate-sitemap.js');
 
 const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
@@ -44,7 +48,7 @@ const {
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
-  yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape
+  yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -531,6 +535,9 @@ async function main() {
 
   const ranked = rankTopChains(pools, args.limit);
   console.log(`🏆 ${ranked.length} chains (>= ${MIN_QUALIFYING_POOLS} qualifying pool each)`);
+  // item 226: machine-checked soft-404 gate — throws loudly rather than ever
+  // writing/sitemapping an empty-table page.
+  assertNonEmptyPages(ranked, 'generate-chain-pages.js chains');
 
   // Per-page OG images (051): one per chain slug, shared across en/ko (the
   // card data doesn't vary by language).
@@ -595,14 +602,20 @@ async function main() {
 
   if (args.sitemap) {
     const lastmod = new Date().toISOString().slice(0, 10);
+    // item 226: pages are still written for EVERY ranked chain above (nothing
+    // deleted) — only the SITEMAP URL list is filtered to the demand-
+    // plausible head (generate-sitemap.js's selectHeadChains, the single
+    // source of truth for this gate). The hub URL stays in the sitemap in full.
+    const headChains = selectHeadChains(pools);
+    const headRanked = ranked.filter(rec => headChains.has(rec.chain));
     const hubUrls = [`${SITE_URL}/chains`];
-    fs.writeFileSync(path.resolve(args.sitemap), renderChainSitemap(ranked, lastmod, hubUrls));
-    console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length + hubUrls.length} URLs)`);
+    fs.writeFileSync(path.resolve(args.sitemap), renderChainSitemap(headRanked, lastmod, hubUrls));
+    console.log(`🗺️  Wrote ${args.sitemap} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${hubUrls.length} hub URL)`);
 
     const koSitemapPath = args.sitemap.replace(/\.xml$/, '-ko.xml');
     const koHubUrls = [`${SITE_URL}/ko/chains`];
-    fs.writeFileSync(path.resolve(koSitemapPath), renderChainSitemap(ranked, lastmod, koHubUrls, 'ko'));
-    console.log(`🗺️  Wrote ${koSitemapPath} (${ranked.length + koHubUrls.length} URLs)`);
+    fs.writeFileSync(path.resolve(koSitemapPath), renderChainSitemap(headRanked, lastmod, koHubUrls, 'ko'));
+    console.log(`🗺️  Wrote ${koSitemapPath} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${koHubUrls.length} hub URL)`);
   }
 }
 
