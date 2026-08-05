@@ -1,11 +1,10 @@
 # USN DeFi Yields
 
-The highest honest USN yield right now is 2.88% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USN yield right now is 0.01% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ff5f9bc2-741f-4e44-bd80-d81798ba22a3&src=seo_token) | Ethereum | 0.02% | $1.21M |
-| [ekubo →](https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token) | Starknet | 2.88% | $551.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ff5f9bc2-741f-4e44-bd80-d81798ba22a3&src=seo_token) | Ethereum | 0.01% | $1.2M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USN yield today?
 
-2.88% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many USN pools clear the TVL floor?
 
@@ -35,6 +34,5 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Starknet](https://www.defi.garden/chains/starknet)
 
 ## Last updated August 5, 2026

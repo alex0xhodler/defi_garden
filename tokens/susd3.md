@@ -1,12 +1,12 @@
 # SUSD3 DeFi Yields
 
-The highest honest SUSD3 yield right now is 23.46% on 3jane-lending (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSD3 yield right now is 23.51% on 3jane-lending (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.87% | $7.98M |
-| [pendle →](https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token) | Ethereum | 22.07% | $1M |
-| [pendle →](https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token) | Ethereum | 23.46% | $1M |
+| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.89% | $7.97M |
+| [pendle →](https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token) | Ethereum | 22.26% | $1.01M |
+| [pendle →](https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token) | Ethereum | 23.51% | $1.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSD3 yield today?
 
-23.46% APY on 3jane-lending (Ethereum), based on live DefiLlama data.
+23.51% APY on 3jane-lending (Ethereum), based on live DefiLlama data.
 
 ### How many SUSD3 pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $9.98M in total.
+3 live pools clear this page's $100K TVL floor, $9.99M in total.
 
 ### Are these rates safe?
 

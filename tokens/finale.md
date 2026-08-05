@@ -4,7 +4,7 @@ The highest honest FINALE yield right now is 0.03% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=01c0e998-100e-4e03-9cc7-7964a2ee403b&src=seo_token) | Ethereum | 0.03% | $130.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=01c0e998-100e-4e03-9cc7-7964a2ee403b&src=seo_token) | Ethereum | 0.03% | $132.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FINALE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.3K in total.
+1 live pool clear this page's $100K TVL floor, $132.3K in total.
 
 ### Are these rates safe?
 

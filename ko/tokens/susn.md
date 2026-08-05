@@ -1,12 +1,11 @@
 # SUSN 디파이 수익률
 
-현재 SUSN의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 9.23%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSN의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 8.81%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token) | Ethereum | 8.28% | $1.33M |
-| [pendle →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token) | Ethereum | 9.23% | $1.33M |
-| [ekubo →](https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token) | Starknet | 2.88% | $551.2K |
+| [pendle →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token) | Ethereum | 8.81% | $1.33M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +13,7 @@
 
 ### 오늘 SUSN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 9.23%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.81%예요.
 
 ### SUSN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -36,6 +35,5 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 9.23%예요.
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Starknet](https://www.defi.garden/ko/chains/starknet)
 
 ## 마지막 업데이트: August 5, 2026

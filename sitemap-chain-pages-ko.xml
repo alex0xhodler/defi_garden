@@ -76,12 +76,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/polygon</loc>
+    <loc>https://www.defi.garden/ko/chains/sui</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/sui</loc>
+    <loc>https://www.defi.garden/ko/chains/polygon</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -106,12 +106,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/flare</loc>
+    <loc>https://www.defi.garden/ko/chains/katana</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/katana</loc>
+    <loc>https://www.defi.garden/ko/chains/flare</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>daily</changefreq>
   </url>

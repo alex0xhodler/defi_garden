@@ -1,10 +1,10 @@
 # BURN DeFi Yields
 
-The highest honest BURN yield right now is 5.16% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BURN yield right now is 5.17% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f244f47c-c632-4ca6-ad91-17fe1935a7f5&src=seo_token) | Arbitrum | 5.16% | $190.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f244f47c-c632-4ca6-ad91-17fe1935a7f5&src=seo_token) | Arbitrum | 5.17% | $190.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BURN yield today?
 
-5.16% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+5.17% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many BURN pools clear the TVL floor?
 

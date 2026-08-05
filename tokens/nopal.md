@@ -1,12 +1,12 @@
 # NOPAL DeFi Yields
 
-The highest honest NOPAL yield right now is 15.86% on nest-credit (Plume Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOPAL yield right now is 14.95% on nest-credit (Plume Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 8.99% | $60.64M |
-| [pendle →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 15.86% | $2.89M |
-| [pendle →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 14.11% | $2.89M |
+| [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 10.60% | $60.77M |
+| [pendle →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 14.95% | $2.88M |
+| [pendle →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 14.26% | $2.88M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NOPAL yield today?
 
-15.86% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+14.95% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NOPAL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $66.42M in total.
+3 live pools clear this page's $100K TVL floor, $66.54M in total.
 
 ### Are these rates safe?
 

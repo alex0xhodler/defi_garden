@@ -1,12 +1,12 @@
 # AAVEGHO DeFi Yields
 
-The highest honest AAVEGHO yield right now is 3.41% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVEGHO yield right now is 3.30% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token) | Base | 3.30% | $369.2K |
-| [balancer-v3 →](https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token) | Arbitrum | 3.41% | $279.1K |
-| [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 2.49% | $106.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token) | Arbitrum | 2.89% | $279.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 2.25% | $106.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAVEGHO yield today?
 
-3.41% APY on balancer-v3 (Base), based on live DefiLlama data.
+3.30% APY on balancer-v3 (Base), based on live DefiLlama data.
 
 ### How many AAVEGHO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $754.4K in total.
+3 live pools clear this page's $100K TVL floor, $754.3K in total.
 
 ### Are these rates safe?
 

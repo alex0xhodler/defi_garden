@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [ACRED](https://www.defi.garden/tokens/acred)
 - [SYZUSD](https://www.defi.garden/tokens/syzusd)
 - [WSEI](https://www.defi.garden/tokens/wsei)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

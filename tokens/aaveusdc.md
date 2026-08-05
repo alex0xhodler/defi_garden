@@ -1,10 +1,10 @@
 # AAVEUSDC DeFi Yields
 
-The highest honest AAVEUSDC yield right now is 6.87% on balancer-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVEUSDC yield right now is 6.21% on balancer-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 6.87% | $378K |
+| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 6.21% | $379.4K |
 | [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token) | Base | 3.30% | $369.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAVEUSDC yield today?
 
-6.87% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
+6.21% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many AAVEUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $747.2K in total.
+2 live pools clear this page's $100K TVL floor, $748.7K in total.
 
 ### Are these rates safe?
 

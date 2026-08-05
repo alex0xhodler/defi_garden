@@ -1,11 +1,11 @@
 # EVA 디파이 수익률
 
-현재 EVA의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 2.64%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EVA의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 2.45%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token) | Arbitrum | 2.01% | $4.71M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 2.64% | $177.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token) | Arbitrum | 2.40% | $4.73M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 2.45% | $177.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 EVA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 2.64%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 2.45%예요.
 
 ### EVA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $6.28M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $6.3M예요.
 
 ### 이 수익률은 안전한가요?
 

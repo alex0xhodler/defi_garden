@@ -1,17 +1,17 @@
 # FRXUSD 디파이 수익률
 
-현재 FRXUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 21.65%이며, $100K TVL 기준을 넘는 88개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FRXUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 21.52%이며, $100K TVL 기준을 넘는 88개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 2.67% | $13.87M |
-| [aave-v4 →](https://www.defi.garden/?pool=44da6781-e5d3-4b77-8171-e55571a8cc22&src=seo_token) | Ethereum | 1.10% | $13.14M |
+| [aave-v4 →](https://www.defi.garden/?pool=44da6781-e5d3-4b77-8171-e55571a8cc22&src=seo_token) | Ethereum | 1.13% | $12.91M |
 | [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.04% | $11.84M |
 | [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.43% | $11.84M |
 | [convex-finance →](https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token) | Ethereum | 4.95% | $9.26M |
-| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 21.65% | $6.13M |
-| [fraxlend →](https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token) | Ethereum | 2.75% | $5.66M |
-| [stake-dao →](https://www.defi.garden/?pool=c78ba685-40ec-4ddb-859e-e57de41391ff&src=seo_token) | Ethereum | 4.92% | $4.21M |
+| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 21.52% | $6.15M |
+| [fraxlend →](https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token) | Ethereum | 2.75% | $5.67M |
+| [stake-dao →](https://www.defi.garden/?pool=c78ba685-40ec-4ddb-859e-e57de41391ff&src=seo_token) | Ethereum | 4.93% | $4.21M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 FRXUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 21.65%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 21.52%예요.
 
 ### FRXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 88개이며, 합산 TVL은 $144.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 88개이며, 합산 TVL은 $143.84M예요.
 
 ### 이 수익률은 안전한가요?
 

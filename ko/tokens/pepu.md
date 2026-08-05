@@ -1,11 +1,11 @@
 # PEPU 디파이 수익률
 
-현재 PEPU의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 1.41%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PEPU의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 1.38%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token) | Ethereum | 1.41% | $170.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f2149cfe-bffd-45c0-8ceb-b5ee490f16b7&src=seo_token) | Ethereum | 0.03% | $110.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token) | Ethereum | 1.38% | $172.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f2149cfe-bffd-45c0-8ceb-b5ee490f16b7&src=seo_token) | Ethereum | 0.03% | $112.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 PEPU의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.41%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.38%예요.
 
 ### PEPU 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $281.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $285.3K예요.
 
 ### 이 수익률은 안전한가요?
 

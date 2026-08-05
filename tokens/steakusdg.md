@@ -1,10 +1,10 @@
 # STEAKUSDG DeFi Yields
 
-The highest honest STEAKUSDG yield right now is 7.10% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STEAKUSDG yield right now is 7.03% on morpho-blue (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_token) | Robinhood Chain | 7.10% | $288.23M |
+| [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_token) | Robinhood Chain | 7.03% | $284.94M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STEAKUSDG yield today?
 
-7.10% APY on morpho-blue (Robinhood Chain), based on live DefiLlama data.
+7.03% APY on morpho-blue (Robinhood Chain), based on live DefiLlama data.
 
 ### How many STEAKUSDG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $288.23M in total.
+1 live pool clear this page's $100K TVL floor, $284.94M in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDG](https://www.defi.garden/tokens/usdg)
-- [NVDA](https://www.defi.garden/tokens/nvda)
 - [STONX](https://www.defi.garden/tokens/stonx)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

@@ -1,8 +1,8 @@
 # BERASTONE-WETH — uniswap-v3 on Ethereum
 
-**Total APY:** 0.11% (0.11% Base · + 0.00% Rewards)
+**Total APY:** 0.10% (0.10% Base · + 0.00% Rewards)
 
-**TVL:** $164.2K
+**TVL:** $167.1K
 
 **Pool Type:** LP/DEX
 

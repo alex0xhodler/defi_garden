@@ -1,8 +1,8 @@
 # OSETH-RETH — curve-dex on Ethereum
 
-**Total APY:** 2.17% (2.17% Base · + 0.00% Rewards)
+**Total APY:** 2.16% (2.16% Base · + 0.00% Rewards)
 
-**TVL:** $10.38M
+**TVL:** $10.39M
 
 **Pool Type:** LP/DEX
 

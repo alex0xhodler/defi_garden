@@ -1,11 +1,11 @@
 # Strato DeFi Yields
 
-The highest honest Strato yield right now is 8.35% on strato (Strato), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Strato yield right now is 6.40% on strato (Strato), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USDST | [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f&src=seo_chain) | 5.00% | $1.69M |
-| STRATO | [strato →](https://www.defi.garden/?pool=af58b38a-fa8b-529e-af1d-43e904e929e0&src=seo_chain) | 8.35% | $564.7K |
+| STRATO | [strato →](https://www.defi.garden/?pool=af58b38a-fa8b-529e-af1d-43e904e929e0&src=seo_chain) | 6.40% | $736.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Strato yield today?
 
-8.35% APY on strato (Strato), based on live DefiLlama data.
+6.40% APY on strato (Strato), based on live DefiLlama data.
 
 ### How many Strato pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.25M in total.
+2 live pools clear this page's $100K TVL floor, $2.42M in total.
 
 ### Are these rates safe?
 

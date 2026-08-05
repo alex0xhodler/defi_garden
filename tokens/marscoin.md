@@ -5,7 +5,7 @@ The highest honest MARSCOIN yield right now is 0.02% on raydium-amm (Solana), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=79e3a42d-adfe-5f1e-8ca1-7b3d446bcb09&src=seo_token) | Solana | 0.02% | $30.94M |
-| [raydium-amm →](https://www.defi.garden/?pool=5fc831f1-b421-5e93-87a5-6c03774c8f1e&src=seo_token) | Solana | 0.01% | $27.07M |
+| [raydium-amm →](https://www.defi.garden/?pool=5fc831f1-b421-5e93-87a5-6c03774c8f1e&src=seo_token) | Solana | 0.02% | $27.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -26,11 +26,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [STRX](https://www.defi.garden/tokens/strx)
 
 ## Available on
 
