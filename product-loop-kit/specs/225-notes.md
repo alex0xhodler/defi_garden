@@ -115,6 +115,43 @@ written up in `225-screenshots/README.md`:
 The replacement set is 24/24 with **0 page errors and 0 capture failures**, and `capture-shots.js` is
 committed so the artifact can be regenerated and audited rather than trusted.
 
+## Verifier attempt 2 → FAIL → a real accessibility fix (the doc was right, the CSS was wrong)
+
+Attempt 2 confirmed the screenshot set fully remediated (all 24 images independently inspected) but failed
+the branch again on TWO inaccuracies in the CLAUDE.md rewrite itself — the deliverable that had just fixed
+attempt 1's Finding 1. Both were true, and the second was not a doc problem at all:
+
+1. **"Exactly ONE shadow token exists"** was false as shipped. A legacy teal `--focus-ring` token
+   (`style.css:77`) is still live on `.btn`, `.seo-hub-links a`, `.reset-filters-btn`, `.filter-pill`
+   `:focus-visible` in parallel with the new `--ui-focus-ring`, and literal inset shadows drive the
+   scroll-edge fade inside the filter dropdowns. **Fixed by scoping the claim honestly** (one ELEVATION
+   token; focus rings and scroll-affordance fades are outside it) and by recording the split focus-token
+   families as named debt in both CLAUDE.md and the design spec. Not migrated in this item: focus is a
+   trust rail and a four-call-site token migration is its own change, not a doc fix.
+2. **"no transform under reduced motion" was a REAL ACCESSIBILITY DEFECT**, not an overstatement. The
+   only reduced-motion carve-out in `style.css` covered the selected-chip re-press; the base press rule
+   (`.app-nav-tab/.app-filter-btn/.view-toggle-btn/.theme-toggle/.language-toggle/.pagination-btn/`
+   `.filter-pill/.filter-chip:active`) had none, so the 1px sink still animated for reduced-motion users
+   on the shared header and the whole analytics grid. `pool-detail-styles.css` and `planner-styles.css`
+   already did this correctly — `style.css` was the gap. **Fixed in the CSS, not the doc**: a
+   `prefers-reduced-motion: reduce` block now neutralises the transform for the base rule's full selector
+   list PLUS four controls with their own local `:active` transform that the base list never covered
+   (`.pool-card`, `.reset-filters-btn`, `.modal-close`, `.detail-header-btn`). The press stays
+   perceivable — the background swap is untouched.
+
+Proven with both controls, in a real browser (`reducedMotion: 'reduce'` vs `'no-preference'` contexts,
+actual `mouse.down()` presses, committed-snapshot routing):
+- positive control (no preference): `.app-nav-tab`, `.theme-toggle`, `.language-toggle`,
+  `.app-control-btn`, `.filter-pill` → `matrix(1,0,0,1,0,1)`; `.reset-filters-btn` → `…,0.9248`;
+  `.detail-header-btn` → `…,0.9971`; `.modal-close` → `matrix(0.95,0,0,0.95,0,0)`;
+- reduced motion: every one of those → `none`.
+`test_minified_assets.js`, `test_filter_dropdown_polish.js`, `test_nav_rail_ia.js` all PASS afterwards.
+
+Cosmetic residue left alone deliberately: the base press rule carries the same `transform: translateY(1px)`
+twice (once `!important`, once not) from the leg-A pass. Identical values, so there is no cascade ambiguity
+— unlike the attempt-1 filter-chip case where a soft value silently overrode a filled one. Noted, not
+touched, because hand-editing shipped CSS to tidy a no-op is a worse trade than leaving it.
+
 ## Non-vacuity proof — and a finding the proof itself produced
 
 225 acceptance #5 asks for the occlusion + control-pressability gates proven red on a deliberately
