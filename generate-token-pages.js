@@ -29,7 +29,10 @@ const path = require('path');
 const https = require('https');
 // REUSE (standing decision 2026-07-10): the pool-type classifier already
 // computed for the category sitemaps (013) — never re-implement it here.
-const { getPoolType } = require('./generate-sitemap.js');
+// item 226: selectHeadTokens is the single head-selection predicate (lives in
+// generate-sitemap.js beside the rails it reuses — see that file's require-
+// cycle-hazard comment for why it isn't a separate head-selection.js module).
+const { getPoolType, selectHeadTokens } = require('./generate-sitemap.js');
 // REUSE (spec 050): the same en/ko catalog + lookup helper the app already
 // ships (translations.js is Node-requireable — module.exports at the bottom).
 // Static pages are copy-only translated: pool data/numbers are identical
@@ -247,6 +250,24 @@ function rankTopTokens(pools, limit) {
 
   records.sort((a, b) => b.totalTvl - a.totalTvl);
   return (cap && cap > 0) ? records.slice(0, cap) : records;
+}
+
+/**
+ * item 226: the soft-404 predicate, made machine-checked. Throws a single
+ * actionable Error naming every offending slug if any record's DISPLAYED pool
+ * list is empty. rankTopTokens/rankTopChains already only admit a record with
+ * >=1 railed pool AND a visible non-zero yield (030/032/033), so the expected
+ * count today is 0 — this asserts the invariant is now ENFORCED at
+ * generation, not that it removes any existing page (none are empty today).
+ */
+function assertNonEmptyPages(records, label) {
+  const empties = (records || []).filter(r => !r.pools || r.pools.length === 0).map(r => r.slug);
+  if (empties.length > 0) {
+    throw new Error(
+      `assertNonEmptyPages: ${label} has ${empties.length} record(s) with an empty pool list ` +
+      `(soft-404) — ${empties.join(', ')}`
+    );
+  }
 }
 
 /**
@@ -1065,6 +1086,9 @@ async function main() {
 
   const ranked = rankTopTokens(pools, args.limit);
   console.log(`🏆 Top ${ranked.length} tokens by TVL (>= ${MIN_QUALIFYING_POOLS} qualifying pools each)`);
+  // item 226: machine-checked soft-404 gate — throws loudly rather than ever
+  // writing/sitemapping an empty-table page.
+  assertNonEmptyPages(ranked, 'generate-token-pages.js tokens');
 
   // Per-page OG images (051): one per token slug, shared across en/ko (the
   // card data — symbol/best gated APY/pool count — doesn't vary by
@@ -1159,14 +1183,20 @@ async function main() {
 
   if (args.sitemap) {
     const lastmod = new Date().toISOString().slice(0, 10);
+    // item 226: pages are still written for EVERY ranked token above (nothing
+    // deleted) — only the SITEMAP URL list is filtered to the demand-
+    // plausible head (generate-sitemap.js's selectHeadTokens, the single
+    // source of truth for this gate). Hub + A–Z URLs stay in the sitemap in full.
+    const headTokens = selectHeadTokens(pools);
+    const headRanked = ranked.filter(rec => headTokens.has(rec.symbol.toUpperCase()));
     const hubUrls = [`${SITE_URL}/tokens`].concat(azGroups.map(g => `${SITE_URL}/tokens/az/${g.slug}`));
-    fs.writeFileSync(path.resolve(args.sitemap), renderTokenSitemap(ranked, lastmod, hubUrls));
-    console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length + hubUrls.length} URLs)`);
+    fs.writeFileSync(path.resolve(args.sitemap), renderTokenSitemap(headRanked, lastmod, hubUrls));
+    console.log(`🗺️  Wrote ${args.sitemap} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${hubUrls.length} hub/A–Z URLs)`);
 
     const koSitemapPath = args.sitemap.replace(/\.xml$/, '-ko.xml');
     const koHubUrls = [`${SITE_URL}/ko/tokens`].concat(azGroups.map(g => `${SITE_URL}/ko/tokens/az/${g.slug}`));
-    fs.writeFileSync(path.resolve(koSitemapPath), renderTokenSitemap(ranked, lastmod, koHubUrls, 'ko'));
-    console.log(`🗺️  Wrote ${koSitemapPath} (${ranked.length + koHubUrls.length} URLs)`);
+    fs.writeFileSync(path.resolve(koSitemapPath), renderTokenSitemap(headRanked, lastmod, koHubUrls, 'ko'));
+    console.log(`🗺️  Wrote ${koSitemapPath} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${koHubUrls.length} hub/A–Z URLs)`);
   }
 }
 
@@ -1177,6 +1207,7 @@ async function main() {
 // module.exports still at its default {}.
 module.exports = {
   rankTopTokens, renderTokenPage, renderTokenPageMarkdown, mdEscape, relatedFor, renderTokenSitemap, tokenSlug, isQualifyingPool, isAnomalousApy,
+  assertNonEmptyPages,
   isValidToken, poolTotalApy, formatUsd, formatApy, escapeHtml, renderAnalyticsBootstrap, tokenSymbols,
   groupTokensAZ, renderTokenHubPage, renderTokenAzPage, renderHubStyleBlock, HUB_TOP_N,
   poolHrefFor, withSrc, renderItemListJsonLd, renderDatasetJsonLd,

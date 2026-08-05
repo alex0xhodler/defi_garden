@@ -68,6 +68,47 @@ function collectUrls(sitemapPaths, maxUrls) {
   return urls.slice(0, cap);
 }
 
+// item 226 (Google head-curation): the served estate directories IndexNow's
+// DEFAULT submission is derived from. sitemap-token-pages.xml/-ko.xml and
+// sitemap-chain-pages.xml/-ko.xml now only carry the curated HEAD (see
+// generate-sitemap.js's selectHeadTokens/selectHeadChains) — deriving
+// IndexNow's list from them would silently shrink Bing/Yandex submission to
+// the head too, the opposite of the human's Q3b decision (Bing/Yandex keep
+// the FULL estate). Scanning the directories the generators actually write
+// to can never drift out of sync with what's really served.
+const ESTATE_DIRS = ['tokens', 'ko/tokens', 'tokens/az', 'ko/tokens/az', 'chains', 'ko/chains'];
+
+/**
+ * Scans the served estate on disk (ESTATE_DIRS, relative to `rootDir`) and
+ * maps every `*.html` file to its live URL: `index.html` -> the directory URL
+ * itself (no `/index.html` suffix — the hub page), everything else -> the URL
+ * with the `.html` suffix dropped (`/tokens/<slug>`, matching exactly how the
+ * sitemap generators already emit these URLs — see renderTokenSitemap /
+ * renderChainSitemap). A directory that doesn't exist is skipped, not an
+ * error (e.g. a scratch --out that only wrote `tokens/`, not `chains/`).
+ * Deduped, in scan order. Exported so it's testable without a real submission.
+ */
+function collectEstateUrls(rootDir) {
+  const seen = new Set();
+  const urls = [];
+  for (const rel of ESTATE_DIRS) {
+    const dir = path.join(rootDir, rel);
+    let entries;
+    try {
+      entries = fs.readdirSync(dir);
+    } catch (e) {
+      continue; // directory doesn't exist in this estate — nothing to submit from it
+    }
+    for (const f of entries.sort()) {
+      if (!f.endsWith('.html')) continue;
+      const urlPath = (f === 'index.html') ? `/${rel}` : `/${rel}/${f.slice(0, -'.html'.length)}`;
+      const url = `${SITE_URL}${urlPath}`;
+      if (!seen.has(url)) { seen.add(url); urls.push(url); }
+    }
+  }
+  return urls;
+}
+
 /** Build the exact JSON body IndexNow's API requires. Pure — no I/O. */
 function buildIndexNowPayload(urls, host, key, keyLocation) {
   return { host, key, keyLocation, urlList: urls };
@@ -92,12 +133,13 @@ function submitToIndexNow(payload) {
 }
 
 function parseArgs(argv) {
+  // item 226: no default sitemap list here anymore — main() decides between
+  // the estate-scan default and an explicit --sitemap override (see below).
   const args = { sitemaps: [], dryRun: false };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--sitemap') args.sitemaps.push(argv[++i]);
     else if (argv[i] === '--dry-run') args.dryRun = true;
   }
-  if (args.sitemaps.length === 0) args.sitemaps = ['sitemap-token-pages.xml'];
   return args;
 }
 
@@ -107,8 +149,19 @@ async function main() {
   const host = SITE_URL.replace(/^https?:\/\//, '');
   const keyLocation = `${SITE_URL}/${keyFileName}`;
 
-  const urls = collectUrls(args.sitemaps.map((p) => path.resolve(p)));
-  console.log(`🔑 key=${keyFileName} · 📄 ${urls.length} URL(s) from ${args.sitemaps.join(', ')}`);
+  // item 226: DEFAULT source is the served estate scanned from disk (the
+  // FULL estate, for Bing/Yandex) — never sitemap-token-pages.xml, which now
+  // only carries the curated head submitted to Google. --sitemap remains an
+  // explicit override for anyone who wants the old sitemap-derived list.
+  let urls, sourceLabel;
+  if (args.sitemaps.length > 0) {
+    urls = collectUrls(args.sitemaps.map((p) => path.resolve(p)));
+    sourceLabel = args.sitemaps.join(', ');
+  } else {
+    urls = collectEstateUrls(__dirname).slice(0, MAX_URLS_PER_SUBMISSION);
+    sourceLabel = `served estate (${ESTATE_DIRS.join(', ')})`;
+  }
+  console.log(`🔑 key=${keyFileName} · 📄 ${urls.length} URL(s) from ${sourceLabel}`);
 
   const payload = buildIndexNowPayload(urls, host, key, keyLocation);
 
@@ -129,5 +182,6 @@ if (require.main === module) {
 
 module.exports = {
   buildIndexNowPayload, collectUrls, extractLocs, submitToIndexNow, loadKey, findKeyFile,
+  collectEstateUrls, ESTATE_DIRS,
   SITE_URL, INDEXNOW_ENDPOINT, MAX_URLS_PER_SUBMISSION,
 };

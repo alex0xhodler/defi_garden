@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 1.96%예�
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

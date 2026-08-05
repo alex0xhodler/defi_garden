@@ -1,11 +1,11 @@
 # DEUS DeFi Yields
 
-The highest honest DEUS yield right now is 326.20% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEUS yield right now is 336.59% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 326.20% | $645.2K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 38.36% | $239.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 336.59% | $646.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 39.64% | $239.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEUS yield today?
 
-326.20% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+336.59% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many DEUS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $884.4K in total.
+2 live pools clear this page's $100K TVL floor, $885.6K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

@@ -2,7 +2,7 @@
 
 **Total APY:** 0.56% (0.56% Base · + 0.00% Rewards)
 
-**TVL:** $2.59M
+**TVL:** $2.56M
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on quickswap-dex](https://quickswap.exchange/?ref=defi.garden)
 
-Last updated August 4, 2026
+Last updated August 5, 2026

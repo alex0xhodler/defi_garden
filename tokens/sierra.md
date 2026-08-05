@@ -6,7 +6,8 @@ The highest honest SIERRA yield right now is 9.48% on pendle (Ethereum), among 5
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=c485f3ca-df33-5ffc-8312-7bdb629be533&src=seo_token) | Ethereum | 7.05% | $20.5M |
 | [pendle →](https://www.defi.garden/?pool=0d057d1c-bc1c-55b4-a07f-1786d5f837ab&src=seo_token) | Ethereum | 9.48% | $20.5M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.04% | $6.7M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.01% | $6.65M |
+| [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.05% | $161.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SIERRA pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $48.02M in total.
+5 live pools clear this page's $100K TVL floor, $47.97M in total.
 
 ### Are these rates safe?
 
@@ -36,5 +37,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

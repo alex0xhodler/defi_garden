@@ -1,13 +1,13 @@
 # XSGD DeFi Yields
 
-The highest honest XSGD yield right now is 69.94% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSGD yield right now is 58.29% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 69.94% | $444.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 24.67% | $191.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=551cee5b-1511-4802-a1b6-c03e4e16bcf9&src=seo_token) | Polygon | 12.33% | $174.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 6.41% | $168.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 58.29% | $445.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 24.87% | $191.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=551cee5b-1511-4802-a1b6-c03e4e16bcf9&src=seo_token) | Polygon | 10.95% | $172.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 11.11% | $168.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XSGD yield today?
 
-69.94% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+58.29% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many XSGD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $979K in total.
+4 live pools clear this page's $100K TVL floor, $978.3K in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

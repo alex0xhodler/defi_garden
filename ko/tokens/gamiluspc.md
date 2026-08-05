@@ -1,11 +1,11 @@
 # GAMILUSPC 디파이 수익률
 
-현재 GAMILUSPC의 가장 높은 정직한 수익률은 Ethereum의 gami-labs에서 9.59%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GAMILUSPC의 가장 높은 정직한 수익률은 Ethereum의 lagoon에서 10.34%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 6.80% | $509K |
-| [lagoon →](https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token) | Ethereum | 9.59% | $508.9K |
+| [lagoon →](https://www.defi.garden/?pool=074e6ecc-1e94-4a3e-b72f-9d14435578c3&src=seo_token) | Ethereum | 10.34% | $509.5K |
+| [gami-labs →](https://www.defi.garden/?pool=6a1e817e-de28-4a40-862b-5e29374b385b&src=seo_token) | Ethereum | 7.87% | $509.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 GAMILUSPC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 gami-labs에서 APY 9.59%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 10.34%예요.
 
 ### GAMILUSPC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 gami-labs에서 APY 9.59%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

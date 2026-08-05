@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 pendle에서 APY 3.38%�
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

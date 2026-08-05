@@ -1,11 +1,11 @@
 # GTUSDC DeFi Yields
 
-The highest honest GTUSDC yield right now is 3.53% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDC yield right now is 3.48% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a306885c-001e-4479-9ae8-459a56527bc1&src=seo_token) | Ethereum | 3.53% | $28.41M |
-| [morpho-blue →](https://www.defi.garden/?pool=70a7ce84-e3e1-4ef1-933e-7a699ee58b95&src=seo_token) | Katana | 1.67% | $1.05M |
+| [morpho-blue →](https://www.defi.garden/?pool=a306885c-001e-4479-9ae8-459a56527bc1&src=seo_token) | Ethereum | 3.48% | $28.51M |
+| [morpho-blue →](https://www.defi.garden/?pool=70a7ce84-e3e1-4ef1-933e-7a699ee58b95&src=seo_token) | Katana | 1.47% | $1.05M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDC yield today?
 
-3.53% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.48% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $29.46M in total.
+2 live pools clear this page's $100K TVL floor, $29.56M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

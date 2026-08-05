@@ -1,12 +1,12 @@
 # JUP-SOL — kamino-liquidity on Solana
 
-**Total APY:** 5.22% (5.22% Base · + 0.00% Rewards)
+**Total APY:** 11.65% (11.65% Base · + 0.00% Rewards)
 
-**TVL:** $677.4K
+**TVL:** $674.9K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 38.15%
+**30d Mean APY:** 36.88%
 
 **Exposure:** multi
 
@@ -17,17 +17,18 @@
 Moderate risk profile
 
 - Low liquidity
+- Elevated yield
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,289 in 5y at current rates.
+$1,000 in this pool grows to ~$1,735 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 5.22% right now vs a 38.15% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 11.65% right now vs a 36.88% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,289 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,735 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on kamino-liquidity](https://kamino.com/liquidity?ref=defi.garden)
 
-Last updated August 4, 2026
+Last updated August 5, 2026

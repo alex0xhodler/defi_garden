@@ -1,10 +1,10 @@
 # PLUME DeFi Yields
 
-The highest honest PLUME yield right now is 1.19% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PLUME yield right now is 6.83% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e456b975-718c-43b1-9e61-66e3b44b3375&src=seo_token) | Ethereum | 1.19% | $175.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e456b975-718c-43b1-9e61-66e3b44b3375&src=seo_token) | Ethereum | 6.83% | $178.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PLUME yield today?
 
-1.19% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+6.83% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PLUME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $175.9K in total.
+1 live pool clear this page's $100K TVL floor, $178.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

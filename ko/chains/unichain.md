@@ -5,7 +5,7 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | GTWETHC | [morpho-blue →](https://www.defi.garden/?pool=699b2867-ace7-41df-99fe-10806460d274&src=seo_chain) | 3.25% | $501.1K |
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=39b18684-cf0c-471b-a991-4a65d399367a&src=seo_chain) | 1.18% | $362.7K |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=39b18684-cf0c-471b-a991-4a65d399367a&src=seo_chain) | 1.18% | $364K |
 | SUSDS | [sky-lending →](https://www.defi.garden/?pool=e92131f3-628f-5983-8a94-995ca58856e8&src=seo_chain) | 3.52% | $165.1K |
 | GTUSDCC | [morpho-blue →](https://www.defi.garden/?pool=e9bfd1d5-658b-4732-9d5b-42afa4d7277a&src=seo_chain) | 2.33% | $108.6K |
 
@@ -41,4 +41,4 @@ DefiLlama 실시간 데이터 기준, Unichain의 morpho-blue에서 APY 3.52%예
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [GTUSDCC](https://www.defi.garden/ko/tokens/gtusdcc)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

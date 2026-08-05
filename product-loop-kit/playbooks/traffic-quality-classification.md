@@ -63,6 +63,16 @@ day `waitlist_opened` carried `src=seo_tokens_hub` ×5.
 - A garbage param can still be OURS: `/plan?lang=ko%60`'s backtick came from a template literal in a
   test file the prod domain serves (item 223) — run the class-9 provenance grep before writing
   "crawler-invented", and include SERVED NON-HTML files (raw JS) in "ours".
+- **A fixed mint keeps producing arrivals: classify them RESIDUAL REPLAY, not a regression (2026-08-05).**
+  The day after 223's `.vercelignore` shipped (all five previously-200 repo files curl-verified 404),
+  6 of 08-04's 8 prod sessions still landed on scrape-minted fuzz URLs — `` /?token=USDC` `` ×3 (template
+  literal + closing backtick, 10 repo JS files carry that literal) and `/?pool=` ×3 (the static prefix of
+  `` ?pool=${…} ``; grep over the whole generated estate emits it 0×). Crawlers replay URLs from their own
+  caches long after the source stops serving. Decision rule: if the minting file now 404s AND the estate
+  grep is 0, the arrival is a replay of an already-closed mint — expect decay, do not re-ticket, and file
+  the decay as the weakest-form prediction (outcome: the class reaches zero; witnesses: ANY event broken
+  down by `$current_url` matching the mint strings, filtered and control both). Re-open only if a NEW mint
+  string appears that the current tree can produce.
 
 **Provenance:** distilled from the 07-16→07-22 daily heartbeats + reports (07-20 "16-session bot-shaped day",
 07-22 "7 crawler sessions, undefined referrer, garbage params like token=20)"); item 096 (host gate), 120.

@@ -1,12 +1,13 @@
 # Xlayer 디파이 수익률
 
-현재 Xlayer의 가장 높은 정직한 수익률은 Xlayer의 aave-v3에서 1.36%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Xlayer의 가장 높은 정직한 수익률은 Xlayer의 aave-v3에서 1.32%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 0.22% | $44.8M |
-| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.39% | $10.17M |
-| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 1.36% | $336.4K |
+| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 0.23% | $44.25M |
+| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.37% | $10.51M |
+| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 1.32% | $347.5K |
+| XSOL | [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8&src=seo_chain) | 0.02% | $127.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +15,11 @@
 
 ### 오늘 Xlayer의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Xlayer의 aave-v3에서 APY 1.36%예요.
+DefiLlama 실시간 데이터 기준, Xlayer의 aave-v3에서 APY 1.32%예요.
 
 ### Xlayer 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $84.71M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $85.01M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,5 +38,6 @@ DefiLlama 실시간 데이터 기준, Xlayer의 aave-v3에서 APY 1.36%예요.
 
 - [XETH](https://www.defi.garden/ko/tokens/xeth)
 - [USDG](https://www.defi.garden/ko/tokens/usdg)
+- [XSOL](https://www.defi.garden/ko/tokens/xsol)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

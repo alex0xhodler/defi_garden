@@ -1,37 +1,34 @@
 # WETH-NST — uniswap-v3 on Arbitrum
 
-**Total APY:** 19.22% (19.22% Base · + 0.00% Rewards)
+**Total APY:** 5.59% (5.59% Base · + 0.00% Rewards)
 
-**TVL:** $140.9K
+**TVL:** $140.6K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 9.24%
+**30d Mean APY:** 9.41%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: High
+## Risk Assessment: Medium
 
-Advanced DeFi strategy
+Moderate risk profile
 
 - Low liquidity
-- Elevated yield
 - Impermanent loss risk
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,364 in 5y at current rates.
+$1,000 in this pool grows to ~$1,313 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (19.22% headline) — farm rates decay. Active management required.
+This pool's rate moves a lot: 5.59% right now vs a 9.41% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-This pool's rate moves a lot: 19.22% right now vs a 9.24% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
-
-[Garden this pool → ~$1,364 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,313 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 4, 2026
+Last updated August 5, 2026

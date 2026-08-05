@@ -2,11 +2,11 @@
 
 **Total APY:** 1.29% (0.03% Base · + 1.27% Rewards)
 
-**TVL:** $957.9K
+**TVL:** $958.1K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.70%
+**30d Mean APY:** 1.69%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on yearn-finance](https://yearn.fi/?ref=defi.garden)
 
-Last updated August 4, 2026
+Last updated August 5, 2026
