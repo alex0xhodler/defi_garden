@@ -354,6 +354,17 @@ const OCCLUSION_HEIGHT = 780;
 const OCCLUSION_MIN_COVERAGE = 0.25;
 const OCCLUSION_CANDIDATE_CAP = 800;
 
+// backlog 231 — waitForQuiescence()'s own knobs. OCCLUSION_QUIESCENCE_BUDGET_MS
+// is the bound on how long checkOcclusion will wait for the post-resize
+// re-mount's entry animations (style.css:4605 `.animate-on-mount`) to finish
+// before measuring anyway (spec 231 "must never hang, never go silent").
+// OCCLUSION_QUIESCENCE_SAMPLE_GAP_MS is the minimum gap between the two
+// geometry samples the stability leg compares (spec 231: "≥100 ms apart").
+// Exported below (item-159 rule) so tests interpolate these rather than
+// re-typing 3000/100.
+const OCCLUSION_QUIESCENCE_BUDGET_MS = 3000;
+const OCCLUSION_QUIESCENCE_SAMPLE_GAP_MS = 100;
+
 // signal -> severity, single source of truth (same role as PRESCAN_SIGNALS /
 // TEXT_SURFACE_SIGNALS) for both prescanPools()'s suspect records and the
 // aggregate `pool-prescan:<signal>` findings.
@@ -3543,6 +3554,11 @@ async function main(browser, baseUrl, s, ctx) {
   const errors = makeErrorSink(page);
   const findings = [];
   s.vpLabel = s.dark ? `${s.width}px/dark` : s.ko ? `${s.width}px/ko` : `${s.width}px`;
+  // backlog 231 — enrich the surface object with the run-level quiescence
+  // kill switch, same pattern as s.vpLabel just above: checkOcclusion(page,
+  // s, findings) reads s.occlusionQuiescence rather than taking a 4th
+  // parameter (its signature is pinned by test_audit_occlusion_lens.js).
+  s.occlusionQuiescence = ctx.occlusionQuiescence;
 
   if (s.dark) await page.addInitScript(() => { try { localStorage.setItem('theme', 'dark'); } catch (e) {} });
 
@@ -3588,6 +3604,12 @@ async function main(browser, baseUrl, s, ctx) {
       // "no results" empty state (its .empty-submessage) must NOT render before
       // data arrives; only the loading variant (bare .empty-message) may show.
       await page.goto(url, { waitUntil: 'commit', timeout: 20000 });
+      // backlog 231 — opts.injectStyle, test-injection only (never set by the
+      // CLI). Wrapped: a page that navigated away before the style tag lands
+      // must not throw and abort the surface driver.
+      if (ctx.injectStyle) {
+        try { await page.addStyleTag({ content: ctx.injectStyle }); } catch (e) { /* page may have navigated away */ }
+      }
       const flashed = await pollFor(page, async () => {
         const cards = await page.locator('.pool-card').count();
         if (cards > 0) return false; // data arrived — window over
@@ -3606,6 +3628,13 @@ async function main(browser, baseUrl, s, ctx) {
     // the load event fire (esp. the static SEO pages) — the pollers below wait
     // on the actual rendered selectors, which is the real readiness signal.
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+    // backlog 231 — opts.injectStyle, test-injection only (never set by the
+    // CLI), same convention as opts.rotationState/opts.livePools elsewhere in
+    // this file. Wrapped: a page that navigated away before the style tag
+    // lands must not throw and abort the surface driver.
+    if (ctx.injectStyle) {
+      try { await page.addStyleTag({ content: ctx.injectStyle }); } catch (e) { /* page may have navigated away */ }
+    }
 
     if (s.kind === 'static') {
       // Static SEO page: number sanity + page errors, plus the 154 checks —
@@ -4183,6 +4212,128 @@ function pushOcclusionPassFindings(findings, s, passLabel, viewport, passResult)
   }
 }
 
+// backlog 231 — the geometry+animation sample waitForQuiescence() compares.
+// Self-contained on purpose, same reason occlusionPassEval() is (Playwright
+// serialises this via toString() and runs it in the page realm — it cannot
+// close over any Node-side variable, only the args object below). Returns
+// {animCount, geometry}: `animCount` is the number of RUNNING CSS animations/
+// transitions, excluding any effect whose timing declares
+// `iterations === Infinity` (spec 231: "spinners/pulses never settle, and a
+// lens that waits for them would hang every surface") — guarded behind
+// `typeof document.getAnimations === 'function'` so an engine without the
+// API degrades to 0 (i.e. the geometry-stability leg alone decides) rather
+// than throwing. `geometry` is a byte-comparable string built from the
+// rounded rects of every visible fixed/sticky overlay plus every occlusion
+// CANDIDATE victim (same interactive-or-text-bearing gate occlusionPassEval
+// uses, minus the hit-test — a signature only needs to prove "nothing moved
+// or (dis)appeared", not re-run the full pass) — spec 231 "a geometry
+// signature (rounded rects of the fixed/sticky overlays + the candidate
+// victims)".
+function quiescenceSampleEval(args) {
+  var candidateCap = args.candidateCap;
+  var INTERACTIVE_SEL = 'a[href], button, input, select, textarea, [role="button"]';
+
+  function isVisible(el) {
+    if (typeof el.checkVisibility === 'function') {
+      try { return el.checkVisibility({ visibilityProperty: true, opacityProperty: true }); } catch (e) { /* fall through */ }
+    }
+    var cs = getComputedStyle(el);
+    if (cs.display === 'none' || cs.visibility === 'hidden') return false;
+    if (parseFloat(cs.opacity) === 0) return false;
+    return true;
+  }
+  function round1(x) { return Math.round(x * 10) / 10; }
+  function rectStr(r) { return round1(r.x) + ',' + round1(r.y) + ',' + round1(r.width) + ',' + round1(r.height); }
+
+  var viewportW = window.innerWidth, viewportH = window.innerHeight;
+  var viewportArea = viewportW * viewportH;
+  var parts = [];
+  var all = document.querySelectorAll('*');
+
+  // Overlays — same selection as occlusionPassEval's at-rest pass (no
+  // bottomAnchor gate here: the signature is used identically before EITHER
+  // pass, and an overlay that would be excluded from a bottom-of-scroll
+  // MEASUREMENT still matters for "has anything moved").
+  for (var i = 0; i < all.length; i++) {
+    var el = all[i];
+    var cs = getComputedStyle(el);
+    if (cs.position !== 'fixed' && cs.position !== 'sticky') continue;
+    if (!isVisible(el)) continue;
+    var rect = el.getBoundingClientRect();
+    if (rect.width <= 0 || rect.height <= 0) continue;
+    if (rect.width * rect.height >= 0.8 * viewportArea) continue; // modal/scrim exclusion
+    parts.push('O:' + rectStr(rect));
+  }
+
+  // Candidate victims — same interactive-or-text-bearing gate as
+  // occlusionPassEval, capped identically, no hit-testing (not needed for a
+  // stability signature).
+  var candidateCount = 0;
+  for (var j = 0; j < all.length; j++) {
+    if (candidateCount >= candidateCap) { parts.push('TRUNCATED'); break; }
+    var vel = all[j];
+    var vcs = getComputedStyle(vel);
+    if (vcs.position === 'fixed' || vcs.position === 'sticky') continue;
+    var isInteractive = vel.matches(INTERACTIVE_SEL);
+    var isTextBearing = false;
+    if (!isInteractive) {
+      var txt = '';
+      for (var k = 0; k < vel.childNodes.length; k++) {
+        var node = vel.childNodes[k];
+        if (node.nodeType === 3) txt += node.textContent;
+      }
+      isTextBearing = txt.trim().replace(/\s+/g, ' ').length >= 3;
+    }
+    if (!isInteractive && !isTextBearing) continue;
+    candidateCount++;
+    if (!isVisible(vel)) continue;
+    var vrect = vel.getBoundingClientRect();
+    if (vrect.width <= 0 || vrect.height <= 0) continue;
+    if (vrect.right <= 0 || vrect.bottom <= 0 || vrect.left >= viewportW || vrect.top >= viewportH) continue;
+    parts.push('V:' + rectStr(vrect));
+  }
+
+  var animCount = 0;
+  if (typeof document.getAnimations === 'function') {
+    var anims = document.getAnimations();
+    for (var a = 0; a < anims.length; a++) {
+      var anim = anims[a];
+      if (anim.playState !== 'running') continue;
+      var timing = (anim.effect && typeof anim.effect.getTiming === 'function') ? anim.effect.getTiming() : null;
+      if (timing && timing.iterations === Infinity) continue; // spinners/pulses — never settle, never counted
+      animCount++;
+    }
+  }
+
+  return { animCount: animCount, geometry: parts.join('|') };
+}
+
+// backlog 231 — replaces checkOcclusion's fixed 150ms post-resize settle
+// (evidence: the settle raced style.css:4605's `.animate-on-mount` entry
+// animation, restarted by page.setViewportSize()'s re-mount, so a page
+// permanently broken measured as clean 80-85% of the time). Polls (via the
+// house pollFor() helper — never a hand-rolled loop, spec 231) until BOTH (a)
+// no non-infinite CSS animation is running and (b) two geometry samples taken
+// >=OCCLUSION_QUIESCENCE_SAMPLE_GAP_MS apart are byte-identical. Bounded by
+// `budgetMs`: on timeout, returns `reached: false` with the last-known
+// animCount/geometryChanged so the caller can push a P2 advisory naming the
+// numbers and measure anyway — this function itself never decides to skip a
+// measurement, only reports readiness.
+async function waitForQuiescence(page, budgetMs) {
+  const effectiveBudget = typeof budgetMs === 'number' ? budgetMs : OCCLUSION_QUIESCENCE_BUDGET_MS;
+  let lastAnimCount = 0;
+  let lastGeometryChanged = true;
+  const reached = await pollFor(page, async () => {
+    const s1 = await page.evaluate(quiescenceSampleEval, { candidateCap: OCCLUSION_CANDIDATE_CAP });
+    await page.waitForTimeout(OCCLUSION_QUIESCENCE_SAMPLE_GAP_MS);
+    const s2 = await page.evaluate(quiescenceSampleEval, { candidateCap: OCCLUSION_CANDIDATE_CAP });
+    lastAnimCount = s2.animCount;
+    lastGeometryChanged = s1.geometry !== s2.geometry;
+    return s2.animCount === 0 && !lastGeometryChanged;
+  }, effectiveBudget);
+  return { reached: !!reached, animCount: lastAnimCount, geometryChanged: lastGeometryChanged };
+}
+
 // backlog 219 leg (a) — universal occlusion signal. Called once on the
 // success path of all seven non-`loading` kind branches, immediately before
 // that branch's trailing page-error push (spec 219 "Fix"). Never throws: a
@@ -4194,12 +4345,34 @@ async function checkOcclusion(page, s, findings) {
   try {
     await page.setViewportSize({ width: s.width, height: OCCLUSION_HEIGHT });
     const viewport = `${s.width}x${OCCLUSION_HEIGHT}`;
-    // Resizing triggers reflow and, on the React surfaces, a re-render —
-    // measuring inside that window risks both false findings (mid-reflow
-    // geometry) and missed ones (an overlay not yet painted at its final
-    // position), the exact "flood then get switched off" failure mode this
-    // lens must avoid. One short settle, paid once, before either pass.
-    await page.waitForTimeout(150);
+    // backlog 231 — kill switch, house convention: opts.occlusionQuiescence
+    // reaches here via ctx -> s (main() stamps s.occlusionQuiescence from
+    // ctx.occlusionQuiescence, the same "enrich the surface object" pattern
+    // s.vpLabel already uses — see main()'s own comment), and
+    // AUDIT_OCCLUSION_QUIESCENCE=0 is checked directly since this function,
+    // like every other kill switch in this file, honors both opts and env.
+    // Default ON; falls back to the exact pre-231 fixed 150ms settle when off.
+    const quiescenceEnabled = s.occlusionQuiescence !== false && process.env.AUDIT_OCCLUSION_QUIESCENCE !== '0';
+
+    // Resizing triggers reflow and, on the React surfaces, a re-render/
+    // RE-MOUNT — measuring inside that window risks both false findings
+    // (mid-reflow geometry) and missed ones. Backlog 231's diagnosis: the
+    // re-mount restarts style.css:4605's `.animate-on-mount` entry animation
+    // (opacity:0 -> 1, staggered delays), and occlusionPassEval's own
+    // isVisible() gate rejects a still-animating victim as invisible — so a
+    // fixed settle timed just wrong measures a permanently-broken page as
+    // clean. waitForQuiescence() replaces the settle with a wait derived from
+    // the actual mechanism (no running animation + stable geometry); when
+    // disabled it falls back to the historical flat wait, unchanged.
+    if (quiescenceEnabled) {
+      const q1 = await waitForQuiescence(page, OCCLUSION_QUIESCENCE_BUDGET_MS);
+      if (!q1.reached) {
+        findings.push(finding(s.name, s.vpLabel, 'occlusion', 'P2',
+          `quiescence not reached in ${OCCLUSION_QUIESCENCE_BUDGET_MS}ms at ${viewport}: ${q1.animCount} animation(s) still running, geometry ${q1.geometryChanged ? 'still changing' : 'stable'} (at-rest pass) — measuring anyway`));
+      }
+    } else {
+      await page.waitForTimeout(150);
+    }
 
     // style.css:2845 sets `html { scroll-behavior: smooth }`, so a plain
     // `window.scrollTo` ANIMATES on every real page — reading position right
@@ -4269,6 +4442,19 @@ async function checkOcclusion(page, s, findings) {
         findings.push(finding(s.name, s.vpLabel, 'occlusion', 'P2',
           `bottom-of-scroll unreachable after 8 attempts at ${viewport}: scrollTop=${round1(last.scrollTop)} innerHeight=${round1(last.innerHeight)} scrollHeight=${round1(last.scrollHeight)} (need scrollTop+innerHeight >= scrollHeight-2)`));
       } else {
+        // backlog 231 — quiescence wait #2, before the bottom pass's own
+        // measurement (spec 231: "scrolling can start new animations and
+        // reveal lazily-mounted content"). No fallback wait when disabled —
+        // pre-231 never settled here either, only the scroll-arrival loop's
+        // own settle above (unchanged, a different concern: scroll position,
+        // not animation/geometry stability).
+        if (quiescenceEnabled) {
+          const q2 = await waitForQuiescence(page, OCCLUSION_QUIESCENCE_BUDGET_MS);
+          if (!q2.reached) {
+            findings.push(finding(s.name, s.vpLabel, 'occlusion', 'P2',
+              `quiescence not reached in ${OCCLUSION_QUIESCENCE_BUDGET_MS}ms at ${viewport}: ${q2.animCount} animation(s) still running, geometry ${q2.geometryChanged ? 'still changing' : 'stable'} (bottom-of-scroll pass) — measuring anyway`));
+          }
+        }
         const bottom = await page.evaluate(occlusionPassEval, { minCoverage: OCCLUSION_MIN_COVERAGE, candidateCap: OCCLUSION_CANDIDATE_CAP, bottomAnchor: true });
         pushOcclusionPassFindings(findings, s, 'bottom-of-scroll', viewport, bottom);
       }
@@ -4666,7 +4852,17 @@ async function runAudit(opts = {}) {
   // etc. `undefined` when unset, which readBakedProtocolUrls() treats
   // identically to "no override" (falls back to the real committed path).
   const protocolUrlsPath = opts.protocolUrlsPath || process.env.AUDIT_PROTOCOL_URLS_PATH || undefined;
-  const ctx = { snapshotBody, freshMeta, liveBody, subRailLiveBody, poolsById, protocolUrlsPath };
+  // backlog 231 — same convention as protocolUrlsPath just above: resolved
+  // once here from opts/env, carried into main() via ctx, which stamps it
+  // onto each surface (s.occlusionQuiescence) for checkOcclusion to read —
+  // checkOcclusion's own signature stays (page, s, findings), pinned by
+  // test_audit_occlusion_lens.js. Default ON. The CLI never sets
+  // opts.occlusionQuiescence.
+  const occlusionQuiescenceEnabled = opts.occlusionQuiescence !== false && process.env.AUDIT_OCCLUSION_QUIESCENCE !== '0';
+  // backlog 231 — opts.injectStyle: a CSS string added via page.addStyleTag
+  // immediately after each surface's goto(), test-injection only, same
+  // convention as opts.rotationState/opts.livePools. Never set by the CLI.
+  const ctx = { snapshotBody, freshMeta, liveBody, subRailLiveBody, poolsById, protocolUrlsPath, occlusionQuiescence: occlusionQuiescenceEnabled, injectStyle: opts.injectStyle };
   const findings = [...prescanFindings, ...poolPrescanFindings, ...textSurfaceFindings, ...i18nFindings];
   const surfacesCovered = [];
   // Named only when the pass ran AND survived opts.only (spec 160: unlike
@@ -4858,6 +5054,10 @@ module.exports = {
   // set; OCCLUSION_HEIGHT is exported too so the test interpolates it
   // (item-159 rule) rather than re-typing 780.
   checkOcclusion, OCCLUSION_HEIGHT,
+  // backlog 231 — exported so test_audit_occlusion_lens_reliability.js can
+  // drive/assert the quiescence wait directly and interpolate its budget
+  // (item-159 rule) rather than re-typing 3000/100.
+  waitForQuiescence, OCCLUSION_QUIESCENCE_BUDGET_MS, OCCLUSION_QUIESCENCE_SAMPLE_GAP_MS,
   // backlog 184 — exported so test_audit_pool_link_liveness.js can drive the
   // live-id resolution directly (with opts.livePools injection) without a
   // full runAudit() invocation.
