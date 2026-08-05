@@ -3911,22 +3911,24 @@
     // analytics/landing mode is superseded/hidden by the 086/179 CSS rule, so
     // re-running this there is harmless). The footer ships EN in raw HTML for
     // crawlers; once the planner mounts, re-key it from the SAME EXISTING
-    // keys the landing/analytics footers already use — footerBrowseTokens /
-    // footerBrowseChains live under translations[lang].landing (NOT
-    // .planner, so makeT's t() can't reach them; read the dict directly,
-    // same fallback shape as makeT/rootT). Runs on every `lang` change, so
-    // both ?lang=ko and a future live language switch land. Guarded: a
-    // missing element, a missing translations global, or a missing key must
-    // never throw and break the render.
+    // keys the landing/analytics footers already use — browseTokens /
+    // browseChains live on the ROOT dictionary (240 deleted the
+    // translations[lang].landing.footerBrowseTokens/footerBrowseChains
+    // duplicates once landing.js/app.js were unified onto the root keys), NOT
+    // .planner, so makeT's t() can't reach them; read the dict directly, same
+    // fallback shape as makeT/rootT). Runs on every `lang` change, so both
+    // ?lang=ko and a future live language switch land. Guarded: a missing
+    // element, a missing translations global, or a missing key must never
+    // throw and break the render.
     useEffect(function () {
       try {
         var tr = safeTranslations();
-        var landingDict = tr && ((tr[lang] && tr[lang].landing) || (tr.en && tr.en.landing));
-        if (!landingDict) return;
+        var rootDict = tr && (tr[lang] || tr.en);
+        if (!rootDict) return;
         var tokensLink = document.querySelector('.seo-hub-links a[href="/tokens"]');
         var chainsLink = document.querySelector('.seo-hub-links a[href="/chains"]');
-        if (tokensLink && landingDict.footerBrowseTokens) tokensLink.textContent = landingDict.footerBrowseTokens;
-        if (chainsLink && landingDict.footerBrowseChains) chainsLink.textContent = landingDict.footerBrowseChains;
+        if (tokensLink && rootDict.browseTokens) tokensLink.textContent = rootDict.browseTokens;
+        if (chainsLink && rootDict.browseChains) chainsLink.textContent = rootDict.browseChains;
       } catch (eFooterI18n) {}
     }, [lang]);
 

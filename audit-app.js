@@ -964,7 +964,7 @@ const I18N_UNTRANSLATED_ALLOWLIST = {
   navFilterTvl: 'acronym, same in KO',
   navFilterApy: 'acronym, same in KO',
   tvl: 'acronym, same in KO',
-  'landing.footerDefillamaApi': 'brand name (DefiLlama API)',
+  defillamaApi: 'brand name (DefiLlama API)',
   'planner.goalClaude': 'brand name (Claude Pro)',
   'planner.goalMax': 'brand name (Max)',
   'planner.goalHulu': 'brand name (Hulu)',
