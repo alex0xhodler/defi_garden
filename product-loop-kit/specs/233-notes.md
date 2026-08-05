@@ -233,7 +233,7 @@ surface only" — that stopped being true when 201 added the 768 surfaces, and n
 because the check it broke was silent by construction.)
 
 Not fixed here: reordering a surface driver is a behaviour change to the scanner beyond this item's
-"smallest change" scope. **Filed as backlog 234** with both acceptable outcomes named (reorder so
+"smallest change" scope. **Filed as backlog 235** (renumbered from 234 at merge time — a concurrent heartbeat claimed 234 on `main` for agentic commerce while this built; `main`'s ids win, per the 230/231 precedent) with both acceptable outcomes named (reorder so
 `checkResponsive` runs before the state-advancing click, or accept it as permanent expected noise
 and say so where the finding is emitted). What this item ships is the advisory that made a
 years-silent hole visible at all — which is the point of change item 4.
