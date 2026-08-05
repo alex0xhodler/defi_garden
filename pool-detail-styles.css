@@ -160,12 +160,13 @@
   flex: 1;
 }
 
+/* 225 round 3b: mono skin dropped — body family, 700 (no monospace face
+   anywhere in the product; DESIGN.md typography). */
 .pool-symbol-large {
   font-size: var(--font-size-4xl);
-  font-weight: var(--font-weight-black);
+  font-weight: var(--font-weight-bold);
   color: var(--color-text);
   margin-bottom: var(--space-8);
-  font-family: monospace;
   line-height: 1.2;
 }
 
@@ -224,14 +225,17 @@
 }
 
 .pool-type-badge {
-  /* height/padding/border-radius/font owned by the shared chip rule, style.css end */
+  /* height/padding/border-radius/font owned by the shared chip rule, style.css end.
+     225 round 3b: sentence case + neutral text (metadata chips never spend
+     the accent at rest, never shout in caps — DESIGN.md sentence-case rule). */
   display: inline-flex;
   align-items: center;
   background: var(--color-background);
-  color: var(--color-primary);
+  color: var(--color-text-secondary);
   border: 1px solid var(--ui-border);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
 }
 
 .pool-detail-apy {

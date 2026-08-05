@@ -1939,12 +1939,14 @@ body {
   caret-color: transparent;
 }
 
+/* 225 round 3b: ONE focus signal — a contiguous 2px accent ring (1px border
+   + 1px shadow, no offset halo). The offset --ui-focus-ring token stacked on
+   the accent border read as a glowing double border on this permanently
+   autofocused hero input. Still >=2px of visible accent for keyboard users —
+   the focus-visibility rail is not weakened. */
 .search-input:focus {
   border-color: var(--ui-accent);
-  box-shadow: var(--ui-focus-ring);
-
-  border-color: var(--ui-accent);
-  box-shadow: var(--ui-focus-ring);
+  box-shadow: 0 0 0 1px var(--ui-accent);
 }
 
 .search-input::placeholder {
@@ -2360,6 +2362,30 @@ body {
   background: transparent;
 }
 
+/* 225 round 3b: the card (grid) view's action link gets the SAME quiet-link
+   treatment as the approved list view above — secondary at rest, accent only
+   on hover/focus — instead of an accent-colored pseudo-button on every card
+   (which spent the One Voice accent once per card). Kept as a separate
+   scoped rule (not merged with the list rule) so the two views' layout
+   overrides stay independently editable. */
+.pools-grid .pool-cta-section .calculate-yield-btn-new {
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  background: transparent;
+  white-space: nowrap;
+}
+
+.pools-grid .pool-cta-section .calculate-yield-btn-new:hover,
+.pools-grid .pool-cta-section .calculate-yield-btn-new:focus-visible {
+  color: var(--ui-accent);
+  background: transparent;
+}
+
 /* Two-line mobile row (<768px), ~72px, no per-row card. The whole row is
    already tappable via the existing row onClick, so the explicit action
    link is dropped here rather than squeezed into very little width. */
@@ -2475,9 +2501,9 @@ body {
   gap: var(--space-8);
 }
 
-.pools-grid .pool-symbol {
-  font-size: 20px;
-}
+/* 225 round 3b: no per-view type scale — the card view inherits the same
+   15px/600 .pool-symbol the approved list view uses, so toggling views no
+   longer switches design languages. */
 
 /* Grid (card) view TVL row — label/value side by side (the old bare
    .pool-tvl-section rule this replaces also carried this layout; list view
@@ -3256,13 +3282,14 @@ html {
     /* Force hardware acceleration */
   }
 
-  /* Handle virtual keyboard appearance */
+  /* Handle virtual keyboard appearance — focus treatment matches the base
+     single-ring rule (225 round 3b), not the offset halo token. */
   .search-input:focus {
     position: relative;
     z-index: 9999;
 
     border-color: var(--ui-accent);
-    box-shadow: var(--ui-focus-ring);
+    box-shadow: 0 0 0 1px var(--ui-accent);
   }
 
   /* Improve touch scrolling */
@@ -3307,8 +3334,11 @@ html {
   transform: translateY(-5vh);
 }
 
-/* Enhanced focus states for accessibility */
-.search-input:focus,
+/* Enhanced focus states for accessibility.
+   225 round 3b: .search-input:focus removed from this legacy list — the input
+   already carries the sanctioned Quiet focus treatment (accent border +
+   --ui-focus-ring); stacking this outline on top produced a triple-ring
+   "glowing shell" on the autofocused search state. */
 .filter-select:focus,
 .pagination-button:focus {
   outline: 2px solid var(--color-primary);
@@ -3542,8 +3572,11 @@ html {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-medium);
   color: var(--color-text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  /* 225 round 3b: badge-style transform/tracking dropped (sentence-case
+     rule) — the string itself is the acronym "TVL", so no visual change to
+     the acronym, but the rule can no longer shout at future label copy. */
+  text-transform: none;
+  letter-spacing: normal;
   opacity: 0.8;
 }
 
@@ -4035,9 +4068,9 @@ html {
      too; what remains is scoped to .pools-grid only — list view (default)
      owns its own <=767px layout above and must stay plain text at every
      width. */
-  .pools-grid .pool-apy-hero {
-    font-size: var(--font-size-xl);
-  }
+  /* 225 round 3b: the <=640px APY size bump is gone — .pool-apy-hero is a
+     constant 16px/600 tabular in BOTH views at every width, per the
+     round-3a "sizes constant across breakpoints" contract above. */
 
   .pools-grid .pool-tvl-section {
     padding: var(--space-8) 0;
@@ -4325,17 +4358,22 @@ html {
   justify-content: center;
 }
 
+/* 225 round 3b: both search-state buttons are Quiet secondary controls —
+   system height/radius (control-h / radius-md), neutral surface, 1px border,
+   sentence case. Hover is a border step only (no lift). */
 .search-button {
   display: flex;
   align-items: center;
   gap: var(--space-8);
-  padding: var(--space-16) var(--space-24);
+  height: var(--ui-control-h);
+  min-height: var(--ui-control-h);
+  padding: 0 var(--space-20);
   border: none;
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: var(--ui-radius-lg);
+  border-radius: var(--ui-radius-md);
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: border-color 0.2s ease, background 0.2s ease;
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-medium);
   box-shadow: none;
@@ -4347,7 +4385,6 @@ html {
 
 .search-button:hover:not(:disabled) {
   border-color: var(--ui-border-strong);
-  transform: translateY(-2px);
 }
 
 .search-button:active:not(:disabled) {
@@ -4371,36 +4408,21 @@ html {
   border: 1px solid var(--ui-border);
 }
 
+/* 225 round 3b: degen entry stays a first-class feature (its ⅓-haircut
+   honesty rail is untouched) but drops the gradient fill, uppercase badge
+   case, shimmer sweep, and lift hover — it is a Quiet secondary control like
+   its sibling, not the loudest element on a trust-first surface. */
 .search-button.feeling-degen {
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-active));
-  color: white;
-  font-weight: var(--font-weight-bold);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: normal;
+  text-transform: none;
   box-shadow: none;
-  border: 1px solid transparent;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.search-button.feeling-degen::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
-  transition: left 0.5s ease;
-}
-
-.search-button.feeling-degen:hover::before {
-  left: 100%;
+  border: 1px solid var(--ui-border);
 }
 
 .search-button.feeling-degen:hover {
-  transform: translateY(-2px);
   border-color: var(--ui-border-strong);
 }
 
@@ -4673,9 +4695,11 @@ html {
   box-shadow: none;
 }
 
+/* 225 round 3b: matches the base single-ring focus rule (this later
+   duplicate is what actually wins the cascade — keep the two in sync). */
 .search-input:focus {
   border-color: var(--ui-accent);
-  box-shadow: var(--ui-focus-ring);
+  box-shadow: 0 0 0 1px var(--ui-accent);
 }
 
 /* Filters section animations */
@@ -5371,11 +5395,12 @@ html {
   }
 }
 
-/* 2. Smooth Hover Elevation */
+/* 2. Smooth Hover Elevation
+   225 round 3b: .search-button and .calculate-yield-btn-new removed from
+   this lift list — Quiet hover on those controls is a border/color step
+   only (the lift fought the round-3a quiet-link treatment on every card). */
 .pool-card:hover,
 .pool-row:hover,
-.calculate-yield-btn-new:hover,
-.search-button:hover:not(:disabled),
 .app-nav-tab:hover:not(.active),
 .app-filter-btn:hover:not(.active),
 .theme-toggle:hover {

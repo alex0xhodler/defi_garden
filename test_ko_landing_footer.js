@@ -53,8 +53,12 @@ const POOLS_BODY = JSON.stringify({ status: 'success', data: FIXTURE_POOLS });
 // [footerPoweredBy] ' ' <a>footerDefillamaApi</a> [footerMadeWith] as
 // adjacent text/inline-anchor nodes inside one <p>. Asserted verbatim so a
 // future half-fix (e.g. translating only one half) fails loudly.
-const EXPECTED_KO_TEXT = '데이터 제공: DefiLlama API. AI와 디젠의 애정으로 만들었어요.';
-const EXPECTED_EN_TEXT = 'Powered by DefiLlama API. Made with AI & Degen Love.';
+// 240 (design 225 round 3b): footer sign-off changed to the ICP-consistent
+// trust line ("Education, not advice." / "투자 조언이 아닙니다.") — "Degen
+// Love" is retired from money surfaces. Attribution unchanged. These pins
+// updated to the new copy; reintroducing the old string fails this test.
+const EXPECTED_KO_TEXT = '데이터 제공: DefiLlama API. 투자 조언이 아닙니다.';
+const EXPECTED_EN_TEXT = 'Powered by DefiLlama API. Education, not advice.';
 
 let passed = 0;
 async function test(name, fn) {

@@ -2946,14 +2946,16 @@ function App() {
       language: language,
       changeLanguage: changeLanguage
     })),
-    // Footer
+    // Footer — 240: one voice with the landing (attribution stays; the
+    // old joke sign-off is retired from money surfaces), via t() so
+    // KO renders translated instead of hardcoded English.
     React.createElement('footer', {
       className: 'app-footer'
-    }, React.createElement('p', null, 'Powered by ', React.createElement('a', {
+    }, React.createElement('p', null, t('poweredBy'), ' ', React.createElement('a', {
       href: 'https://api-docs.defillama.com/',
       target: '_blank',
       rel: 'noopener noreferrer'
-    }, 'Defillama API'), '. Made with AI & Degen Love.'), React.createElement('p', {
+    }, 'DefiLlama API'), '. ', t('madeWith')), React.createElement('p', {
       className: 'app-footer-hub-links'
     }, React.createElement('a', {
       href: '/tokens'
@@ -3467,14 +3469,14 @@ function App() {
       }
     }, 'Start Earning →'));
   })())))),
-  // Footer
+  // Footer — 240: same one-voice contract as the search-state footer above.
   React.createElement('footer', {
     className: 'app-footer'
-  }, React.createElement('p', null, 'Powered by ', React.createElement('a', {
+  }, React.createElement('p', null, t('poweredBy'), ' ', React.createElement('a', {
     href: 'https://api-docs.defillama.com/',
     target: '_blank',
     rel: 'noopener noreferrer'
-  }, 'Defillama API'), '. Made with AI & Degen Love.'), React.createElement('p', {
+  }, 'DefiLlama API'), '. ', t('madeWith')), React.createElement('p', {
     className: 'app-footer-hub-links'
   }, React.createElement('a', {
     href: '/tokens'

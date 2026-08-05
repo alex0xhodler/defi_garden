@@ -4,8 +4,8 @@ const translations = {
     // Search
     searchPlaceholder: "Search for a token...",
     searchHint: "Try searching for 'ETH on Arbitrum' or 'USDC lending'",
-    tokenSearch: "Token Search",
-    feelingDegen: "I'm Feeling Degen",
+    tokenSearch: "Token search",
+    feelingDegen: "I'm feeling degen",
     
     // Filter labels
     chains: "Chains",
@@ -146,7 +146,9 @@ const translations = {
 
     // Footer
     poweredBy: "Powered by",
-    madeWith: "Made with AI & Degen Love.",
+    // 240: ICP-consistent sign-off from the landing's trust vocabulary —
+    // the old joke sign-off retired from money surfaces (DefiLlama attribution stays).
+    madeWith: "Education, not advice.",
     browseTokens: "Browse tokens",
     browseChains: "Browse chains",
 
@@ -199,7 +201,7 @@ const translations = {
       trustBody: "Clear entry points, honest numbers, and a next step that makes sense.",
       footerPoweredBy: "Powered by",
       footerDefillamaApi: "DefiLlama API",
-      footerMadeWith: ". Made with AI & Degen Love.",
+      footerMadeWith: ". Education, not advice.",
       footerBrowseTokens: "Browse tokens",
       footerBrowseChains: "Browse chains",
       searchFallback: "Search",
@@ -879,8 +881,11 @@ const translations = {
     calcAnomalyWarning: "⚠ 이 수익률은 비정상적이며 거의 지속 불가능합니다.",
 
     // Footer
-    poweredBy: "제공:",
-    madeWith: "AI와 디젠 사랑으로 제작.",
+    // 240: matches the landing footer's "데이터 제공:" so all three surfaces
+    // render one identical footer copy set.
+    poweredBy: "데이터 제공:",
+    // 240: "디젠 사랑" 문구 은퇴 — 랜딩의 신뢰 문구를 그대로 사용.
+    madeWith: "투자 조언이 아닙니다.",
     browseTokens: "토큰 둘러보기",
     browseChains: "체인 둘러보기",
 
@@ -933,7 +938,7 @@ const translations = {
       trustBody: "명확한 시작점, 정직한 숫자, 그리고 다음 행동을 안내합니다.",
       footerPoweredBy: "데이터 제공:",
       footerDefillamaApi: "DefiLlama API",
-      footerMadeWith: ". AI와 디젠의 애정으로 만들었어요.",
+      footerMadeWith: ". 투자 조언이 아닙니다.",
       footerBrowseTokens: "토큰 둘러보기",
       footerBrowseChains: "체인 둘러보기",
       searchFallback: "검색",

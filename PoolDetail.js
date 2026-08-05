@@ -555,12 +555,14 @@ function PoolDetail({
         React.createElement('div', { className: 'pool-info-section' },
           React.createElement('h1', {
             className: 'pool-symbol-hero',
+            // 225 round 3b: mono/900 terminal skin dropped — body family
+            // (inherited), 700. Numerals elsewhere get tabular-nums, never
+            // a monospace face (DESIGN.md, round3-brief item 238).
             style: {
               fontSize: 'var(--font-size-4xl)',
-              fontWeight: '900',
+              fontWeight: '700',
               color: 'var(--color-text)',
               marginBottom: '8px',
-              fontFamily: 'monospace',
               lineHeight: '1.1'
             }
           }, pool.symbol),
@@ -594,22 +596,29 @@ function PoolDetail({
             className: 'pool-type-badge-hero',
             // height/padding/border-radius/font owned by the shared chip rule (style.css end) —
             // this inline style keeps only colour + layout, never geometry (225 §7.2).
+            // 225 round 3b: sentence case (poolType values are already
+            // "Lending"/"Staking"/"LP/DEX"), neutral text — a metadata chip
+            // never spends the accent at rest (One Voice rule).
             style: {
               display: 'inline-flex',
               alignItems: 'center',
               background: 'var(--ui-surface-muted)',
-              color: 'var(--color-primary)',
+              color: 'var(--color-text-secondary)',
               border: '1px solid var(--ui-border)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.5px'
+              whiteSpace: 'nowrap'
             }
           }, poolType),
 
           // Trust indicators
           React.createElement('div', {
             className: 'trust-indicators',
+            // 225 round 3b: chips wrap as whole units (flexWrap on the row),
+            // never internally (whiteSpace nowrap per chip) — "✓ Verified"
+            // and "Risk Assessment: Low" were breaking across two lines
+            // inside their own pills at narrow widths.
             style: {
               display: 'flex',
+              flexWrap: 'wrap',
               gap: '8px',
               marginTop: '16px'
             }
@@ -625,6 +634,7 @@ function PoolDetail({
                 border: '1px solid var(--ui-border)',
                 borderRadius: 'var(--ui-radius-pill)',
                 fontSize: 'var(--font-size-xs)',
+                whiteSpace: 'nowrap',
                 color: 'var(--color-success)'
               }
             }, t ? t('verified') : '✓ Verified'),
@@ -638,6 +648,7 @@ function PoolDetail({
                 border: '1px solid var(--ui-border)',
                 borderRadius: 'var(--ui-radius-pill)',
                 fontSize: 'var(--font-size-xs)',
+                whiteSpace: 'nowrap',
                 color: 'var(--color-text-secondary)'
               }
             },
@@ -672,6 +683,7 @@ function PoolDetail({
                 border: '1px solid var(--ui-border)',
                 borderRadius: 'var(--ui-radius-pill)',
                 fontSize: 'var(--font-size-xs)',
+                whiteSpace: 'nowrap',
                 color: riskAssessment.color
               }
             }, `${t ? t('riskAssessment') : 'Risk Assessment'}: ${riskAssessment.level}`)
