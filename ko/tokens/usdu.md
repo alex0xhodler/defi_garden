@@ -1,11 +1,11 @@
 # USDU 디파이 수익률
 
-현재 USDU의 가장 높은 정직한 수익률은 Solana의 kamino-liquidity에서 0.04%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDU의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 0.04%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=6ded470a-8cfe-4d41-9c3c-df3262908cbc&src=seo_token) | Solana | 0.04% | $4.01M |
 | [orca-dex →](https://www.defi.garden/?pool=5fd4f164-50d7-4d9e-9cb8-6eb62ac9f44c&src=seo_token) | Solana | 0.01% | $4.01M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=6ded470a-8cfe-4d41-9c3c-df3262908cbc&src=seo_token) | Solana | 0.04% | $4.01M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 USDU의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 0.04%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.04%예요.
 
 ### USDU 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

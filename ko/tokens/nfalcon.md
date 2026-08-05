@@ -25,8 +25,8 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 7.1
 ## 관련 토큰
 
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
-- [USCC](https://www.defi.garden/ko/tokens/uscc)
 - [NOPAL](https://www.defi.garden/ko/tokens/nopal)
+- [USCC](https://www.defi.garden/ko/tokens/uscc)
 - [NCLOA](https://www.defi.garden/ko/tokens/ncloa)
 - [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
 - [NAXI](https://www.defi.garden/ko/tokens/naxi)

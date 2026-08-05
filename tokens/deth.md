@@ -4,7 +4,7 @@ The highest honest DETH yield right now is 3.37% on makina (Ethereum), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=3acfa7fe-2667-56ea-9427-cfb763f891f2&src=seo_token) | Ethereum | 3.37% | $5M |
+| [makina →](https://www.defi.garden/?pool=3acfa7fe-2667-56ea-9427-cfb763f891f2&src=seo_token) | Ethereum | 3.37% | $5.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5M in total.
+1 live pool clear this page's $100K TVL floor, $5.01M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| ETH | [bifi →](https://www.defi.garden/?pool=e5686448-3686-4da2-8863-5d3b2647b816&src=seo_chain) | 0.08% | $354.3K |
+| ETH | [bifi →](https://www.defi.garden/?pool=e5686448-3686-4da2-8863-5d3b2647b816&src=seo_chain) | 0.08% | $354.8K |
 | BTCUSD | [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_chain) | 6.57% | $291K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -27,8 +27,8 @@ DefiLlama 실시간 데이터 기준, Bifrost Network의 bifi에서 APY 6.57%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
-- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Base](https://www.defi.garden/ko/chains/base)
+- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 

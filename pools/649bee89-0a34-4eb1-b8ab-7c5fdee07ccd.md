@@ -1,8 +1,8 @@
 # ELSA-USDT0 — fluxion-network on Mantle
 
-**Total APY:** 4.00% (4.00% Base · + 0.00% Rewards)
+**Total APY:** 4.03% (4.03% Base · + 0.00% Rewards)
 
-**TVL:** $124.6K
+**TVL:** $124.5K
 
 **Pool Type:** Yield Farming
 
@@ -20,13 +20,13 @@ Moderate risk profile
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,217 in 5y at current rates.
+$1,000 in this pool grows to ~$1,219 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
-[Garden this pool → ~$1,217 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,219 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on fluxion-network](https://app.fluxion.network/?ref=defi.garden)
 

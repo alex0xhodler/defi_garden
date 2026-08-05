@@ -1,10 +1,10 @@
 # USDP 디파이 수익률
 
-현재 USDP의 가장 높은 정직한 수익률은 Hyperliquid L1의 balancer-v3에서 12.17%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDP의 가장 높은 정직한 수익률은 Hyperliquid L1의 balancer-v3에서 12.16%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 12.17% | $1.07M |
+| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 12.16% | $1.07M |
 | [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.69% | $685.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -13,7 +13,7 @@
 
 ### 오늘 USDP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 balancer-v3에서 APY 12.17%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 balancer-v3에서 APY 12.16%예요.
 
 ### USDP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

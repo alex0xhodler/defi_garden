@@ -1,10 +1,10 @@
 # USDN DeFi Yields
 
-The highest honest USDN yield right now is 11.69% on smardex-usdn (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDN yield right now is 11.68% on smardex-usdn (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [smardex-usdn →](https://www.defi.garden/?pool=f51bb9f9-0a01-4aa2-9c62-b9ef6b55d109&src=seo_token) | Ethereum | 11.69% | $625K |
+| [smardex-usdn →](https://www.defi.garden/?pool=f51bb9f9-0a01-4aa2-9c62-b9ef6b55d109&src=seo_token) | Ethereum | 11.68% | $625K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDN yield today?
 
-11.69% APY on smardex-usdn (Ethereum), based on live DefiLlama data.
+11.68% APY on smardex-usdn (Ethereum), based on live DefiLlama data.
 
 ### How many USDN pools clear the TVL floor?
 

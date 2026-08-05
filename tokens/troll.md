@@ -1,10 +1,10 @@
 # TROLL DeFi Yields
 
-The highest honest TROLL yield right now is 2.54% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TROLL yield right now is 2.45% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=12fc4a60-99d5-4d93-9521-912d0d312ae6&src=seo_token) | Ethereum | 2.54% | $461.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=12fc4a60-99d5-4d93-9521-912d0d312ae6&src=seo_token) | Ethereum | 2.45% | $465K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TROLL yield today?
 
-2.54% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.45% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TROLL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $461.2K in total.
+1 live pool clear this page's $100K TVL floor, $465K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest LST yield right now is 5.46% on marginfi-lst (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.46% | $7.45M |
+| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.46% | $7.44M |
 | [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.28M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.73M in total.
+2 live pools clear this page's $100K TVL floor, $9.72M in total.
 
 ### Are these rates safe?
 

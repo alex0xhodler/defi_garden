@@ -1,10 +1,10 @@
 # SOLX DeFi Yields
 
-The highest honest SOLX yield right now is 1.08% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOLX yield right now is 1.15% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f63d0304-2f09-4207-9901-385c950a0792&src=seo_token) | Ethereum | 1.08% | $295.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f63d0304-2f09-4207-9901-385c950a0792&src=seo_token) | Ethereum | 1.15% | $294.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOLX yield today?
 
-1.08% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.15% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SOLX pools clear the TVL floor?
 

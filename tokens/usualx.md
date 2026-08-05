@@ -1,11 +1,11 @@
 # USUALX DeFi Yields
 
-The highest honest USUALX yield right now is 46.67% on usual-usd0 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USUALX yield right now is 46.48% on usual-usd0 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727&src=seo_token) | Ethereum | 46.67% | $5.79M |
-| [usual-usd0 →](https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488&src=seo_token) | Ethereum | 13.00% | $1.33M |
+| [usual-usd0 →](https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727&src=seo_token) | Ethereum | 46.48% | $5.87M |
+| [usual-usd0 →](https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488&src=seo_token) | Ethereum | 12.99% | $1.35M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USUALX yield today?
 
-46.67% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
+46.48% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
 
 ### How many USUALX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.12M in total.
+2 live pools clear this page's $100K TVL floor, $7.22M in total.
 
 ### Are these rates safe?
 

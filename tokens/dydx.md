@@ -4,7 +4,7 @@ The highest honest DYDX yield right now is 1.00% on astroport (Neutron), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_token) | Neutron | 1.00% | $201.7K |
+| [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_token) | Neutron | 1.00% | $201.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DYDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $201.7K in total.
+1 live pool clear this page's $100K TVL floor, $201.8K in total.
 
 ### Are these rates safe?
 

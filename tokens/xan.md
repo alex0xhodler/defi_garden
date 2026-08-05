@@ -1,10 +1,10 @@
 # XAN DeFi Yields
 
-The highest honest XAN yield right now is 25.20% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAN yield right now is 25.40% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5633e4bd-df67-41b7-bc9f-b8f4e1d01056&src=seo_token) | Ethereum | 25.20% | $186.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5633e4bd-df67-41b7-bc9f-b8f4e1d01056&src=seo_token) | Ethereum | 25.40% | $186.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAN yield today?
 
-25.20% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+25.40% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many XAN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $577.5K in total.
+3 live pools clear this page's $100K TVL floor, $578.5K in total.
 
 ### Are these rates safe?
 

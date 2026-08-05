@@ -4,7 +4,7 @@ The highest honest CRYPTO yield right now is 0.22% on uniswap-v3 (Arbitrum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token) | Arbitrum | 0.22% | $238.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a0adee00-d1ff-42da-860d-5a0b4662a62d&src=seo_token) | Arbitrum | 0.22% | $240.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRYPTO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $238.8K in total.
+1 live pool clear this page's $100K TVL floor, $240.3K in total.
 
 ### Are these rates safe?
 

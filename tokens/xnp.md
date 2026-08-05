@@ -4,7 +4,7 @@ The highest honest XNP yield right now is 0.24% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b70a5607-bf15-42ec-bf0e-76919b55e832&src=seo_token) | Ethereum | 0.24% | $412.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b70a5607-bf15-42ec-bf0e-76919b55e832&src=seo_token) | Ethereum | 0.24% | $413K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XNP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $412.9K in total.
+1 live pool clear this page's $100K TVL floor, $413K in total.
 
 ### Are these rates safe?
 

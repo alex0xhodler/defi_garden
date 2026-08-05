@@ -1,10 +1,10 @@
 # CUSD DeFi Yields
 
-The highest honest CUSD yield right now is 0.33% on uniswap-v3 (Celo), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CUSD yield right now is 0.26% on uniswap-v3 (Celo), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a&src=seo_token) | Celo | 0.33% | $643K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a&src=seo_token) | Celo | 0.26% | $643.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CUSD yield today?
 
-0.33% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+0.26% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many CUSD pools clear the TVL floor?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CELO](https://www.defi.garden/tokens/celo)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
 - [CEUR](https://www.defi.garden/tokens/ceur)
-- [AXLEUROC](https://www.defi.garden/tokens/axleuroc)
+- [CAUD](https://www.defi.garden/tokens/caud)
 
 ## Available on
 

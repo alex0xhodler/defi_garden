@@ -1,10 +1,10 @@
 # FRXMSUSD DeFi Yields
 
-The highest honest FRXMSUSD yield right now is 64.34% on yearn-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRXMSUSD yield right now is 64.52% on yearn-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=170efe7a-a0c8-490b-8087-8ee189c129f3&src=seo_token) | Ethereum | 64.34% | $190K |
+| [yearn-finance →](https://www.defi.garden/?pool=170efe7a-a0c8-490b-8087-8ee189c129f3&src=seo_token) | Ethereum | 64.52% | $190K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FRXMSUSD yield today?
 
-64.34% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+64.52% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FRXMSUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $750.7K in total.
+2 live pools clear this page's $100K TVL floor, $749.2K in total.
 
 ### Are these rates safe?
 

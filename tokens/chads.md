@@ -4,7 +4,7 @@ The highest honest CHADS yield right now is 0.03% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=66f38e5a-8a0b-42eb-bd7f-fabd902c87a8&src=seo_token) | Ethereum | 0.03% | $794.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=66f38e5a-8a0b-42eb-bd7f-fabd902c87a8&src=seo_token) | Ethereum | 0.03% | $795.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CHADS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $794.6K in total.
+1 live pool clear this page's $100K TVL floor, $795.2K in total.
 
 ### Are these rates safe?
 

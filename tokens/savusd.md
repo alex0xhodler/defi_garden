@@ -4,11 +4,10 @@ The highest honest SAVUSD yield right now is 12.18% on avant-avusd (Avalanche), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 9.23% | $104.55M |
+| [avant-avusd →](https://www.defi.garden/?pool=c74227a1-e738-4021-bbe1-13363815aecb&src=seo_token) | Avalanche | 9.23% | $104.52M |
 | [pendle →](https://www.defi.garden/?pool=e0eba109-179f-4633-b5a8-63442f5d41db&src=seo_token) | Ethereum | 12.18% | $767.2K |
 | [pendle →](https://www.defi.garden/?pool=187794d1-b1ed-4233-a797-a723856230f8&src=seo_token) | Ethereum | 11.22% | $767.2K |
-| [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $761.5K |
-| [yuzu-finance →](https://www.defi.garden/?pool=558f9845-5093-4310-8123-de9293e85e89&src=seo_token) | Move | 0.50% | $253.1K |
+| [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $761.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SAVUSD pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $147.68M in total.
+11 live pools clear this page's $100K TVL floor, $147.34M in total.
 
 ### Are these rates safe?
 
@@ -40,6 +39,5 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
-- [Move](https://www.defi.garden/chains/move)
 
 ## Last updated August 5, 2026

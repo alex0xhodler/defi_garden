@@ -1,10 +1,10 @@
 # YZPP DeFi Yields
 
-The highest honest YZPP yield right now is 29.22% on yuzu-money (Plasma), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YZPP yield right now is 29.24% on yuzu-money (Plasma), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=eca0cde2-12f7-4716-a10b-ee57bde764e1&src=seo_token) | Plasma | 29.22% | $3.76M |
+| [yuzu-money →](https://www.defi.garden/?pool=eca0cde2-12f7-4716-a10b-ee57bde764e1&src=seo_token) | Plasma | 29.24% | $3.76M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YZPP yield today?
 
-29.22% APY on yuzu-money (Plasma), based on live DefiLlama data.
+29.24% APY on yuzu-money (Plasma), based on live DefiLlama data.
 
 ### How many YZPP pools clear the TVL floor?
 

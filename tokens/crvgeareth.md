@@ -4,7 +4,7 @@ The highest honest CRVGEARETH yield right now is 0.28% on yearn-finance (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=b2b55e4c-df04-4278-a272-cc69842f8c9c&src=seo_token) | Ethereum | 0.28% | $147K |
+| [yearn-finance →](https://www.defi.garden/?pool=b2b55e4c-df04-4278-a272-cc69842f8c9c&src=seo_token) | Ethereum | 0.28% | $149.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRVGEARETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147K in total.
+1 live pool clear this page's $100K TVL floor, $149.1K in total.
 
 ### Are these rates safe?
 

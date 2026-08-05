@@ -1,10 +1,10 @@
 # ZRX DeFi Yields
 
-The highest honest ZRX yield right now is 0.44% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZRX yield right now is 0.43% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2994a649-ba24-44e3-827b-37bd08e9696f&src=seo_token) | Ethereum | 0.44% | $189.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2994a649-ba24-44e3-827b-37bd08e9696f&src=seo_token) | Ethereum | 0.43% | $188.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZRX yield today?
 
-0.44% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.43% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ZRX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $390.8K in total.
+2 live pools clear this page's $100K TVL floor, $389.5K in total.
 
 ### Are these rates safe?
 

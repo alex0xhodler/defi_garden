@@ -4,7 +4,7 @@ The highest honest AETHUSDC yield right now is 0.02% on uniswap-v3 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd5a968d-536d-4a45-af23-bc0c8029a867&src=seo_token) | Ethereum | 0.02% | $170.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd5a968d-536d-4a45-af23-bc0c8029a867&src=seo_token) | Ethereum | 0.02% | $170.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AETHUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $170.5K in total.
+1 live pool clear this page's $100K TVL floor, $170.6K in total.
 
 ### Are these rates safe?
 

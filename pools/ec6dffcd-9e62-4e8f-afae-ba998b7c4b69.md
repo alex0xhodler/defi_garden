@@ -1,6 +1,6 @@
 # UNISHOP.AI-USDT — uniswap-v3 on Arbitrum
 
-**Total APY:** 0.27% (0.27% Base · + 0.00% Rewards)
+**Total APY:** 0.28% (0.28% Base · + 0.00% Rewards)
 
 **TVL:** $635.1K
 

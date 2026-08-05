@@ -1,10 +1,10 @@
 # LCAI DeFi Yields
 
-The highest honest LCAI yield right now is 2.21% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LCAI yield right now is 1.79% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=10b8f396-3ec6-47e1-9823-07c616e3bfd6&src=seo_token) | Ethereum | 2.21% | $774.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=10b8f396-3ec6-47e1-9823-07c616e3bfd6&src=seo_token) | Ethereum | 1.79% | $777.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LCAI yield today?
 
-2.21% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.79% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LCAI pools clear the TVL floor?
 
