@@ -1976,6 +1976,18 @@ function App() {
           const anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
           const anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
           if (anomA !== anomB) return anomA - anomB;
+          // 239: default-view-only demotion of no-supply-yield rows below
+          // yield-bearing rows under the Risk-Adjusted sort. Sits AFTER the
+          // anomaly partition above (anomalous pools must stay demoted last
+          // of all — the trust rail is not weakened) and BEFORE the Sharpe
+          // comparison, since with no apySharpe history every pool falls
+          // through to the TVL tie-break, letting huge-TVL 0%-yield
+          // collateral pools (e.g. WSTETH/CBBTC/WEETH) top the flagship
+          // list. Nothing is filtered — rows stay listed and labeled
+          // "No supply yield" as today, only reordered.
+          const noA = hasNoSupplyYield(a) ? 1 : 0;
+          const noB = hasNoSupplyYield(b) ? 1 : 0;
+          if (noA !== noB) return noA - noB;
           const shA = (a.kpis && typeof a.kpis.apySharpe === 'number') ? a.kpis.apySharpe : null;
           const shB = (b.kpis && typeof b.kpis.apySharpe === 'number') ? b.kpis.apySharpe : null;
           const nullA = shA === null ? 1 : 0;
