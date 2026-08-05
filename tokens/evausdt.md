@@ -5,11 +5,11 @@ The highest honest EVAUSDT yield right now is 13.03% on curve-dex (Ethereum), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 7.54% | $3.33M |
-| [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 9.78% | $3.2M |
+| [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 9.80% | $3.2M |
 | [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 10.12% | $1.39M |
 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 8.69% | $1.15M |
 | [curve-dex →](https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token) | Ethereum | 7.01% | $499.7K |
-| [stake-dao →](https://www.defi.garden/?pool=e4758bf0-9659-443a-a168-7f5abca5c751&src=seo_token) | Ethereum | 12.07% | $307.5K |
+| [stake-dao →](https://www.defi.garden/?pool=e4758bf0-9659-443a-a168-7f5abca5c751&src=seo_token) | Ethereum | 12.11% | $307.5K |
 | [convex-finance →](https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token) | Ethereum | 13.03% | $302K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

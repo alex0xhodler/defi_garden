@@ -146,9 +146,8 @@ const translations = {
 
     // Footer
     poweredBy: "Powered by",
-    // 240: ICP-consistent sign-off from the landing's trust vocabulary —
-    // the old joke sign-off retired from money surfaces (DefiLlama attribution stays).
-    madeWith: "Education, not advice.",
+    defillamaApi: "DefiLlama API",
+    footerSignOff: "Education, not advice.",
     browseTokens: "Browse tokens",
     browseChains: "Browse chains",
 
@@ -199,11 +198,6 @@ const translations = {
       trustEducation: "Education, not advice",
       trustHeading: "A calmer way to explore yield.",
       trustBody: "Clear entry points, honest numbers, and a next step that makes sense.",
-      footerPoweredBy: "Powered by",
-      footerDefillamaApi: "DefiLlama API",
-      footerMadeWith: ". Education, not advice.",
-      footerBrowseTokens: "Browse tokens",
-      footerBrowseChains: "Browse chains",
       searchFallback: "Search",
       returnCaption: "Welcome back",
       returnStatus: (date) => `Planted ${date}`,
@@ -881,11 +875,9 @@ const translations = {
     calcAnomalyWarning: "⚠ 이 수익률은 비정상적이며 거의 지속 불가능합니다.",
 
     // Footer
-    // 240: matches the landing footer's "데이터 제공:" so all three surfaces
-    // render one identical footer copy set.
     poweredBy: "데이터 제공:",
-    // 240: "디젠 사랑" 문구 은퇴 — 랜딩의 신뢰 문구를 그대로 사용.
-    madeWith: "투자 조언이 아닙니다.",
+    defillamaApi: "DefiLlama API",
+    footerSignOff: "투자 조언이 아닙니다.",
     browseTokens: "토큰 둘러보기",
     browseChains: "체인 둘러보기",
 
@@ -936,11 +928,6 @@ const translations = {
       trustEducation: "투자 조언이 아닙니다",
       trustHeading: "더 차분하게 수익률을 탐색하세요.",
       trustBody: "명확한 시작점, 정직한 숫자, 그리고 다음 행동을 안내합니다.",
-      footerPoweredBy: "데이터 제공:",
-      footerDefillamaApi: "DefiLlama API",
-      footerMadeWith: ". 투자 조언이 아닙니다.",
-      footerBrowseTokens: "토큰 둘러보기",
-      footerBrowseChains: "체인 둘러보기",
       searchFallback: "검색",
       returnCaption: "다시 오셨네요",
       returnStatus: (date) => `${date}에 심었어요`,

@@ -1,11 +1,11 @@
 # MHYPER DeFi Yields
 
-The highest honest MHYPER yield right now is 8.56% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MHYPER yield right now is 8.69% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token) | Ethereum | 8.56% | $1.34M |
-| [pendle →](https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token) | Ethereum | 8.27% | $1.34M |
+| [pendle →](https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token) | Ethereum | 8.69% | $1.35M |
+| [pendle →](https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token) | Ethereum | 8.28% | $1.35M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MHYPER yield today?
 
-8.56% APY on pendle (Ethereum), based on live DefiLlama data.
+8.69% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many MHYPER pools clear the TVL floor?
 

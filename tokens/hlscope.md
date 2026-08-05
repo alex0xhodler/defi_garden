@@ -4,7 +4,7 @@ The highest honest HLSCOPE yield right now is 7.23% on hamilton-lane-senior-cred
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_token) | Polygon | 7.23% | $4.09M |
+| [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_token) | Polygon | 7.23% | $4.1M |
 | [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=45911f55-b599-47b2-a5e6-8a2e7d42f75b&src=seo_token) | Ethereum | 7.23% | $202.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HLSCOPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.29M in total.
+2 live pools clear this page's $100K TVL floor, $4.3M in total.
 
 ### Are these rates safe?
 

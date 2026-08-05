@@ -4,7 +4,7 @@ The highest honest ATC yield right now is 0.01% on uniswap-v3 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.01% | $387.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.01% | $388.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ATC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $387.5K in total.
+1 live pool clear this page's $100K TVL floor, $388.6K in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 
 ## Available on
 

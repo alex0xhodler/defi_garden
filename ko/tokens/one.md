@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.81%예�
 
 ### ONE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $24.12M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $24.05M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -25,11 +25,11 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 2.81%예�
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
-- [STRX](https://www.defi.garden/ko/tokens/strx)
 
 ## 이용 가능한 체인
 

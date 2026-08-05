@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 19.69%예�
 
 ### JPYC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $410.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $410.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -28,8 +28,8 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 19.69%예�
 - [DAI](https://www.defi.garden/ko/tokens/dai)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [LINK](https://www.defi.garden/ko/tokens/link)
-- [ACRED](https://www.defi.garden/ko/tokens/acred)
 - [BET](https://www.defi.garden/ko/tokens/bet)
+- [WPOL](https://www.defi.garden/ko/tokens/wpol)
 
 ## 이용 가능한 체인
 

@@ -185,6 +185,11 @@
     var savedPlanState = useState(readSavedPlan);
     var savedPlan = savedPlanState[0];
     var plannerCopy = (translations[language] && translations[language].planner) || (translations.en && translations.en.planner) || {};
+    // Footer copy (240) lives on the ROOT dictionary, not the `landing`
+    // subtree — it is the single source shared with app.js's grid/pool-detail
+    // footers, so all three surfaces render byte-identical text. Same
+    // subtree-with-EN-fallback shape as plannerCopy above.
+    var rootCopy = translations[language] || translations.en || {};
     var goalLabelKey = savedPlan ? GOAL_LABEL_KEYS[savedPlan.goal] : null;
     var goalLabel = goalLabelKey ? plannerCopy[goalLabelKey] : null;
     var showReturnCard = !!goalLabel;
@@ -355,14 +360,15 @@
 
       e('footer', { className: 'app-footer' },
         e('p', null,
-          copy.footerPoweredBy, ' ',
-          e('a', { href: 'https://api-docs.defillama.com/', target: '_blank', rel: 'noopener noreferrer' }, copy.footerDefillamaApi),
-          copy.footerMadeWith
+          rootCopy.poweredBy, ' ',
+          e('a', { href: 'https://api-docs.defillama.com/', target: '_blank', rel: 'noopener noreferrer' }, rootCopy.defillamaApi),
+          '. ',
+          rootCopy.footerSignOff
         ),
         e('p', { className: 'app-footer-hub-links' },
-          e('a', { href: '/tokens' }, copy.footerBrowseTokens),
+          e('a', { href: '/tokens' }, rootCopy.browseTokens),
           ' · ',
-          e('a', { href: '/chains' }, copy.footerBrowseChains)
+          e('a', { href: '/chains' }, rootCopy.browseChains)
         )
       )
     );

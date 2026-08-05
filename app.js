@@ -3008,8 +3008,9 @@ function App() {
             href: 'https://api-docs.defillama.com/',
             target: '_blank',
             rel: 'noopener noreferrer'
-          }, 'DefiLlama API'),
-          '. ', t('madeWith')
+          }, t('defillamaApi')),
+          '. ',
+          t('footerSignOff')
         ),
         React.createElement('p', { className: 'app-footer-hub-links' },
           React.createElement('a', { href: '/tokens' }, t('browseTokens')),
@@ -3579,8 +3580,9 @@ function App() {
           href: 'https://api-docs.defillama.com/',
           target: '_blank',
           rel: 'noopener noreferrer'
-        }, 'DefiLlama API'),
-        '. ', t('madeWith')
+        }, t('defillamaApi')),
+        '. ',
+        t('footerSignOff')
       ),
       React.createElement('p', { className: 'app-footer-hub-links' },
         React.createElement('a', { href: '/tokens' }, t('browseTokens')),

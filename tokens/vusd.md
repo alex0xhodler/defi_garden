@@ -4,12 +4,12 @@ The highest honest VUSD yield right now is 31.22% on curvance (Monad), among 7 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.77% | $36.13M |
+| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.76% | $36.13M |
 | [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 11.02% | $315.3K |
-| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 25.15% | $226.6K |
+| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 25.19% | $226.6K |
 | [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 7.71% | $169.6K |
-| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 9.00% | $161.7K |
-| [curve-dex →](https://www.defi.garden/?pool=7683064c-bffb-4720-8ac2-571645a4c9d3&src=seo_token) | Ethereum | 31.22% | $100.5K |
+| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 9.03% | $161.8K |
+| [curve-dex →](https://www.defi.garden/?pool=7683064c-bffb-4720-8ac2-571645a4c9d3&src=seo_token) | Ethereum | 31.22% | $100.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VUSD pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $38.95M in total.
+7 live pools clear this page's $100K TVL floor, $38.94M in total.
 
 ### Are these rates safe?
 

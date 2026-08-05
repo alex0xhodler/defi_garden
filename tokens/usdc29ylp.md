@@ -1,10 +1,10 @@
 # USDC29YLP DeFi Yields
 
-The highest honest USDC29YLP yield right now is 0.05% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDC29YLP yield right now is 0.04% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=e0df5c1f-4eb4-497b-9ebf-100a561ff393&src=seo_token) | Ethereum | 0.05% | $120K |
+| [balancer-v3 →](https://www.defi.garden/?pool=e0df5c1f-4eb4-497b-9ebf-100a561ff393&src=seo_token) | Ethereum | 0.04% | $120K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDC29YLP yield today?
 
-0.05% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+0.04% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many USDC29YLP pools clear the TVL floor?
 

@@ -1,10 +1,10 @@
 # WCUP DeFi Yields
 
-The highest honest WCUP yield right now is 0.18% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WCUP yield right now is 0.17% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c98159e6-8e05-4261-91cd-dc1d9d0ec3c8&src=seo_token) | Ethereum | 0.18% | $130.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c98159e6-8e05-4261-91cd-dc1d9d0ec3c8&src=seo_token) | Ethereum | 0.17% | $133.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WCUP yield today?
 
-0.18% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.17% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many WCUP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.9K in total.
+1 live pool clear this page's $100K TVL floor, $133.7K in total.
 
 ### Are these rates safe?
 
