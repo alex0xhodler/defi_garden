@@ -2212,6 +2212,14 @@ function App() {
 
   // Update URL when filters change (but not during initial load, popstate events, or pool detail view)
   useEffect(() => {
+    // 225 round 3c P0 companion guard: on a `?chain=…&minTvl=…&pool=<id>`
+    // arrival this effect fires the moment isInitialLoad flips (~100ms) —
+    // BEFORE pools have resolved — and updateUrl rewrites the URL without
+    // the pool param, so the pool-detail resolver (which re-reads the URL
+    // once pools land) finds nothing and the deep-linked detail never
+    // opens. While an unconsumed ?pool= param is still in the URL, leave
+    // the URL alone; the resolver (or the 072 dead-pool state) owns it.
+    if (getUrlParams().pool && currentView !== 'pool-detail') return;
     if (!isInitialLoad && currentView !== 'pool-detail') {
       if (chainMode && selectedChain && !selectedToken) {
         // Chain-first mode URL updates

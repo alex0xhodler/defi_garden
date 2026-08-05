@@ -1398,8 +1398,11 @@
   transition: background var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
 }
-.gp-primary-cta:hover { background: var(--ui-accent-hover); transform: translateY(-1px); }
-.gp-primary-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+/* 225 round 3c P0 (same class as pool-detail CTA fix): the checkout CTA can
+   render as an <a>, and style.css's `a:hover` color outranks the base rule —
+   re-assert the label color on hover/active. */
+.gp-primary-cta:hover { background: var(--ui-accent-hover); color: #fff; transform: translateY(-1px); }
+.gp-primary-cta:active { background: var(--ui-accent-active); color: #fff; transform: translateY(1px); }
 .gp-cta-microcopy {
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);

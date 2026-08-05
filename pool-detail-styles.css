@@ -823,13 +823,22 @@
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+/* 225 round 3c P0: the global `a:hover { color: var(--color-primary-hover) }`
+   (style.css) outranks `.cta-button-primary`'s `color: white` — (0,1,1) vs
+   (0,1,0) — so the moment the pointer rests on this anchor (which happens
+   automatically on card-click arrivals: the pointer stays where the card
+   was, and the hero CTA renders under it) the label painted accent-blue on
+   the accent fill: an invisible label on a blue bar. Hover/active must
+   re-assert the label color explicitly. */
 .cta-button-primary:hover {
   background: var(--color-primary-hover);
+  color: white;
 }
 
 .cta-button-primary:active {
   transform: translateY(1px);
   background: var(--color-primary-active);
+  color: white;
 }
 
 /* Secondary CTA — external protocol link */
