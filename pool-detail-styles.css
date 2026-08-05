@@ -56,17 +56,14 @@
 
 /* Back Navigation */
 .back-to-results-btn {
+  /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
   display: flex;
   align-items: center;
   gap: var(--space-8);
   margin-bottom: var(--space-24);
-  padding: var(--space-12) var(--space-20);
   background: var(--color-background);
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
   color: var(--color-text);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-medium);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -102,18 +99,15 @@
 }
 
 .back-button {
+  /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
   display: flex;
   align-items: center;
   gap: var(--space-8);
-  padding: var(--space-12) var(--space-20);
   border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: var(--ui-radius-lg);
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-medium);
 }
 
 .back-button:hover {
@@ -230,15 +224,12 @@
 }
 
 .pool-type-badge {
+  /* height/padding/border-radius/font owned by the shared chip rule, style.css end */
   display: inline-flex;
   align-items: center;
   background: var(--color-background);
   color: var(--color-primary);
-  padding: var(--space-6) var(--space-12);
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-pill);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -384,10 +375,9 @@
 }
 
 .calculator-card {
+  /* border-radius/padding owned by the shared card rule, style.css end */
   background: var(--ui-surface-muted);
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  padding: var(--space-24);
 }
 
 .investment-input-group {
@@ -410,14 +400,11 @@
 }
 
 .amount-input {
+  /* height/padding/border-radius/font owned by the shared text-input rule, style.css end */
   width: 200px;
-  padding: var(--space-12) var(--space-16);
   border: 1px solid var(--ui-border-strong);
-  border-radius: var(--ui-radius-lg);
   background: var(--color-background);
   color: var(--color-text);
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-medium);
   text-align: center;
   outline: none;
   transition: all 0.2s ease;
@@ -436,15 +423,12 @@
 }
 
 .quick-amount-btn {
-  padding: var(--space-8) var(--space-16);
+  /* height/padding/border-radius/font owned by the shared chip rule, style.css end */
   border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text-secondary);
-  border-radius: var(--ui-radius-pill);
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
 }
 
 .quick-amount-btn:hover {
@@ -823,23 +807,16 @@
 /* CTA Buttons */
 /* Primary CTA — Garden this pool (our product) */
 .cta-button-primary {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
   gap: 8px;
-  padding: 13px 24px;
   width: 100%;
   background: var(--color-primary);
   color: white;
   border: 1px solid transparent;
-  border-radius: var(--ui-radius-md);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-semibold);
   letter-spacing: 0.01em;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  text-decoration: none;
 }
 
 .cta-button-primary:hover {
@@ -853,18 +830,12 @@
 
 /* Secondary CTA — external protocol link */
 .cta-button-protocol {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
   gap: 6px;
-  padding: 11px 24px;
   width: 100%;
   background: var(--color-surface);
   color: var(--color-text-secondary);
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-md);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   letter-spacing: 0.01em;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);

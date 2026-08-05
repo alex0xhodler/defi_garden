@@ -1049,20 +1049,15 @@ body {
 }
 
 .app-search-button {
-  padding: var(--space-10);
+  /* height/padding/border-radius owned by the shared primary-button rule, style.css end.
+     Not a floating circle (225 §3) — a normal primary button. */
   margin-right: var(--space-8);
   background: var(--color-primary);
   border: 1px solid transparent;
-  border-radius: var(--radius-full);
   color: var(--color-btn-primary-text);
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: none;
   transition: all var(--duration-normal) var(--ease-standard);
-  min-width: 36px;
-  height: 36px;
 }
 
 .app-search-button:hover {
@@ -1082,21 +1077,13 @@ body {
 }
 
 .app-control-btn {
-  padding: var(--space-8) var(--space-12);
+  /* width/height/padding/border-radius/font owned by the shared icon-only-button rule, style.css end */
   background: var(--color-surface);
-  border: none;
-  border-radius: var(--ui-radius-md);
   color: var(--color-text);
   cursor: pointer;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   box-shadow: none;
   border: 1px solid var(--ui-border);
   transition: all 0.2s ease;
-  min-width: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .app-control-btn:hover {
@@ -4189,16 +4176,13 @@ html {
 
 /* Dark Mode Toggle Styles */
 .theme-toggle {
+  /* width/height/padding/border-radius owned by the shared icon-only-button rule, style.css end */
   position: fixed;
   top: var(--space-20);
   right: var(--space-20);
   z-index: 1000;
-  display: flex;
-  align-items: center;
   gap: var(--space-8);
   background: var(--color-background);
-  border-radius: var(--radius-full);
-  padding: var(--space-8);
   box-shadow: none;
   border: 1px solid var(--ui-border);
   transition: all var(--duration-normal) var(--ease-standard);
@@ -4275,18 +4259,13 @@ html {
 
 /* Language Toggle Styles */
 .language-toggle {
+  /* width/height/border-radius owned by the shared icon-only-button rule, style.css end */
   position: fixed;
   top: var(--space-20);
   right: calc(var(--space-20) + 200px);
   /* Position next to theme toggle */
   z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
   background: var(--color-background);
-  border-radius: var(--radius-full);
   box-shadow: none;
   border: 1px solid var(--ui-border);
   cursor: pointer;
@@ -4319,13 +4298,12 @@ html {
   }
 }
 
-/* Mobile Responsive for Language Toggle */
+/* Mobile Responsive for Language Toggle — size owned by the shared
+   icon-only-button rule (style.css end); no responsive shape variant. */
 @media (max-width: 640px) {
   .language-toggle {
     position: static;
     margin: var(--space-16) var(--space-16) var(--space-8) 0;
-    width: 40px;
-    height: 40px;
   }
 
   /* Fix toggle position on mobile initial homepage state only */
@@ -4333,8 +4311,6 @@ html {
     position: fixed;
     top: var(--space-20);
     right: calc(var(--space-20) + 140px);
-    width: 40px;
-    height: 40px;
     margin: 0;
   }
 }
@@ -4343,8 +4319,6 @@ html {
 @media (max-width: 480px) {
   .language-toggle {
     margin: var(--space-12) var(--space-12) var(--space-6) 0;
-    width: 36px;
-    height: 36px;
     font-size: var(--font-size-xs);
   }
 
@@ -4353,8 +4327,6 @@ html {
     position: fixed;
     top: var(--space-16);
     right: calc(var(--space-16) + 120px);
-    width: 36px;
-    height: 36px;
     margin: 0;
   }
 }
@@ -5760,21 +5732,231 @@ body,
   background: none !important;
 }
 
-/* Detail header controls */
+/* Detail header controls — width/height/border-radius owned by the shared
+   icon-only-button rule below. */
 .detail-header-btn {
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-full);
-  border: none;
   background: var(--color-surface);
   box-shadow: none;
   border: 1px solid var(--ui-border);
   cursor: pointer;
   font-size: 16px;
-  display: flex;
+  transition: all var(--duration-normal) var(--ease-standard);
+}
+
+/* ════════════════════════════════════════════════════════════════════════
+   225 §7 ADDENDUM — the ONE shared component block.
+   One owner across every file (round-1 root cause: three agents split by
+   file, each flattened its own surface, none owned the cross-surface
+   contract). This block is the single source of geometry — radius, height,
+   padding, font-size, font-weight — for every role in the §7.1 table.
+   A surface's own stylesheet may still own colour, background, border
+   COLOUR, and layout (flex/grid/gap/margin/max-width); it may never again
+   declare border-radius / height / min-height / padding / font-size /
+   font-weight for the selectors listed here — those declarations have been
+   removed from planner-styles.css, pool-detail-styles.css,
+   landing-styles.css and from earlier rules in this file. This block must
+   stay LAST in style.css so it is never shadowed by an earlier same-
+   specificity rule within this file; the later-loaded surface stylesheets
+   are handled by deleting their competing declarations instead (deleting,
+   not !important, per §7.2).
+
+   Exactly two shapes exist in the product: --ui-radius-md (12px) for any
+   control with a text label, --ui-radius-pill (999px) for icon-only
+   buttons and every chip. Heights come only from the four control-height
+   tokens plus the documented hero variants (48/56). ════════════════════ */
+
+/* ---------- Button, primary (text label, filled accent) ----------
+   Default: --ui-control-h. Hero (prominent single CTA): --ui-control-h-lg. */
+.gp-cta,
+.cta-button-primary,
+.app-search-button,
+.calculate-yield-btn-new,
+.gp-plan-capital-ok,
+.landing-garden-link,
+.landing-search-submit,
+.start-earning-btn {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: all var(--duration-normal) var(--ease-standard);
+  height: var(--ui-control-h);
+  min-height: var(--ui-control-h);
+  padding: 0 16px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-bold); /* 600 */
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+/* Hero primary CTAs — the one prominent action on the surface. */
+.gp-primary-cta,
+.gp-waitlist-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--ui-control-h-lg);
+  min-height: var(--ui-control-h-lg);
+  padding: 0 24px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+/* ---------- Button, secondary — text-labelled (radius-md, control-h) ---------- */
+.cta-button-protocol,
+.reset-filters-btn,
+.pagination-button,
+.back-to-results-btn,
+.back-button,
+.gp-restart,
+.view-toggle-btn.sort-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--ui-control-h);
+  min-height: var(--ui-control-h);
+  padding: 0 16px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+/* ---------- Button, icon-only — SQUARE at control-h, always pill ---------- */
+.landing-icon-button,
+.landing-menu-button,
+.gp-analytics-btn,
+.gp-theme-toggle,
+.app-control-btn,
+.theme-toggle,
+.language-toggle,
+.detail-header-btn,
+.view-toggle-btn:not(.sort-toggle-btn),
+.gp-text-send,
+.gp-ask-send {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--ui-control-h);
+  height: var(--ui-control-h);
+  min-width: var(--ui-control-h);
+  min-height: var(--ui-control-h);
+  padding: 0;
+  border-radius: var(--ui-radius-pill);
+  box-sizing: border-box;
+}
+
+/* ---------- Chip / pill — always pill; control-h-sm, control-h with an icon ---------- */
+.landing-example-chip,
+.gp-ask-chip,
+.filter-pill,
+.filter-chip,
+.filter-button,
+.quick-amount-btn,
+.chain-pill,
+.pool-type-badge,
+.pool-type-badge-hero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--ui-control-h-sm);
+  min-height: var(--ui-control-h-sm);
+  padding: 0 14px;
+  border-radius: var(--ui-radius-pill);
+  font-size: 14px;
+  font-weight: var(--font-weight-medium); /* 500 */
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+/* Chip variants that always carry an icon/logo — control-h instead of -sm. */
+.app-filter-btn,
+.gp-chip,
+.gp-persona-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--ui-control-h);
+  padding: 0 14px;
+  border-radius: var(--ui-radius-pill);
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+/* ---------- Text input / search — radius-md; control-h-lg, hero 56px ---------- */
+.gp-freetext,
+.gp-ask-form,
+.app-search-bar,
+.amount-input {
+  height: var(--ui-control-h-lg);
+  min-height: var(--ui-control-h-lg);
+  padding: 0 16px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  box-sizing: border-box;
+}
+
+/* Hero input — the one prominent search field on the landing page. */
+.landing-search-shell {
+  height: 56px;
+  min-height: 56px;
+  padding: 0 16px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  box-sizing: border-box;
+}
+
+/* ---------- Card / panel — radius-lg; padding 20px, hero 24px ---------- */
+.pool-card,
+.results-header,
+.pool-info-section,
+.calculator-card,
+.gp-bubble,
+.gp-thread,
+.gp-plan-card {
+  border-radius: var(--ui-radius-lg);
+  padding: 20px;
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  box-sizing: border-box;
+}
+
+/* Hero cards — the one prominent panel on the surface. */
+.landing-garden-card,
+.pool-hero-card,
+.gp-waitlist-card {
+  border-radius: var(--ui-radius-lg);
+  padding: 24px;
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  box-sizing: border-box;
+}
+
+/* ---------- Header row — one flat row, --ui-header-h (52px <768px) ----------
+   The analytics grid stacks TWO rows (search row + nav-tabs row); each row
+   gets --ui-header-h so the total is ~112px — that is correct per §7,
+   not a bug to squeeze away. */
+.landing-header,
+.gp-header,
+.app-header-content,
+.app-nav-row {
+  height: var(--ui-header-h);
+  min-height: var(--ui-header-h);
+  max-height: var(--ui-header-h);
+  padding: 0 20px;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.app-header-sticky {
+  border-radius: 0;
 }
 
 .detail-header-btn:active {

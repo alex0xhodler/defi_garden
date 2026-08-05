@@ -517,11 +517,11 @@ function PoolDetail({
     // Hero Section - Simplified and Focused
     React.createElement('div', {
       className: 'pool-hero-card animate-on-mount',
+      // border-radius/padding owned by the shared hero-card rule (style.css end) —
+      // this inline style keeps only colour + layout, never geometry (225 §7.2).
       style: {
         background: 'var(--color-surface)',
         border: '1px solid var(--ui-border)',
-        borderRadius: 'var(--ui-radius-lg)',
-        padding: '32px',
         marginBottom: '24px',
         position: 'relative',
         overflow: 'hidden'
@@ -592,16 +592,14 @@ function PoolDetail({
 
           React.createElement('div', {
             className: 'pool-type-badge-hero',
+            // height/padding/border-radius/font owned by the shared chip rule (style.css end) —
+            // this inline style keeps only colour + layout, never geometry (225 §7.2).
             style: {
               display: 'inline-flex',
               alignItems: 'center',
               background: 'var(--ui-surface-muted)',
               color: 'var(--color-primary)',
-              padding: '8px 16px',
               border: '1px solid var(--ui-border)',
-              borderRadius: 'var(--ui-radius-pill)',
-              fontSize: 'var(--font-size-sm)',
-              fontWeight: 'var(--font-weight-medium)',
               textTransform: 'uppercase',
               letterSpacing: '0.5px'
             }
