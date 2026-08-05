@@ -701,6 +701,32 @@ const translations = {
     // (DEFAULT_MIN_TVL, app.js) — a 100x false safety claim (spec 174).
     // floorStr is ALWAYS the caller's formatUsd(MIN_POOL_TVL), never re-typed.
     tcpFaqA3: (floorStr) => `Pools listed on this page clear a ${floorStr} minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.`,
+    // "How this rate has behaved" depth section (item 232) — head-set pages
+    // only. Every count/rate string these wrap is computed by
+    // rateBehaviourFor() from the SAME railed rec.pools the table above
+    // already shows; never re-typed here.
+    tcpDepthHeading: "How this rate has behaved",
+    tcpDepthSpread: (symbol, poolCount, lowApyStr, highApyStr, chainCount) =>
+      `${symbol} shows up in ${poolCount} ${poolCount === 1 ? 'pool' : 'pools'} here, with rates from ${lowApyStr} to ${highApyStr} APY across ${chainCount} ${chainCount === 1 ? 'chain' : 'chains'} — the rate depends on which protocol and chain you pick, not just the token.`,
+    // Verb agreement keys on the NUMERATOR (meanCount/rewardCount/ilCount),
+    // never the denominator poolCount — "1 of 8 pools blends", not "blend"
+    // (coordinator review, defect 1). The noun ("pool"/"pools") still keys on
+    // poolCount, since poolCount IS what it counts. tcpDepthMixAllBase is
+    // unaffected: poolCount there is genuinely both the noun's and the verb's
+    // subject, so it correctly keys on poolCount alone — leave it.
+    tcpDepthMean: (meanCount, poolCount, medianMeanStr) =>
+      `${meanCount} of these ${poolCount} ${poolCount === 1 ? 'pool' : 'pools'} ${meanCount === 1 ? 'has' : 'have'} a trustworthy 30-day average on file, with a median of ${medianMeanStr} — a useful check against today's number for whether the rate is steady or just having a good day.`,
+    tcpDepthMixIncentives: (rewardCount, poolCount) =>
+      `${rewardCount} of ${poolCount} ${poolCount === 1 ? 'pool' : 'pools'} ${rewardCount === 1 ? 'blends' : 'blend'} in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.`,
+    tcpDepthMixAllBase: (poolCount) =>
+      `All ${poolCount} ${poolCount === 1 ? 'pool pays' : 'pools pay'} a plain base rate right now — no incentive or reward APY mixed in.`,
+    tcpDepthIlExposure: (ilCount, poolCount) =>
+      `${ilCount} of ${poolCount} ${poolCount === 1 ? 'pool' : 'pools'} ${ilCount === 1 ? 'carries' : 'carry'} impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.`,
+    tcpDepthColMix: "Yield mix",
+    tcpDepthMixBaseCell: "Base rate",
+    tcpDepthMixIncentiveCell: (shareStr) => `${shareStr} incentives`,
+    tcpDepthNote: (floorStr) =>
+      `The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a ${floorStr} minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.`,
     tcpRelatedTokensHeading: "Related tokens",
     tcpRelatedChainsHeading: "Related chains",
     tcpAvailableOnHeading: "Available on",
@@ -1397,6 +1423,30 @@ const translations = {
     tcpFaqQ3: "이 수익률은 안전한가요?",
     // 174: floorStr은 항상 호출부의 formatUsd(MIN_POOL_TVL) 값이며, 절대 문자열로 다시 적지 않아요.
     tcpFaqA3: (floorStr) => `이 페이지에 표시된 풀은 최소 TVL ${floorStr} 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.`,
+    // "이 수익률은 어떻게 움직였을까요" 심층 섹션 (item 232) — 헤드 페이지에만 표시돼요.
+    // 아래 문자열이 감싸는 수치는 전부 rateBehaviourFor()가 위 표와 같은,
+    // 안전 기준을 통과한 rec.pools에서 계산한 값이며 여기서 다시 타이핑하지 않아요.
+    tcpDepthHeading: "이 수익률은 어떻게 움직였을까요",
+    // defect 3 (coordinator review): no ambiguous slashed-particle pair
+    // (topic/object/subject marker written both ways, parenthesized) —
+    // "풀은" is a fixed noun+particle that never varies with the interpolated
+    // symbol's batchim, same structural fix tcpTokenIntro/tcpSubLine already
+    // use elsewhere in this catalog.
+    tcpDepthSpread: (symbol, poolCount, lowApyStr, highApyStr, chainCount) =>
+      `${symbol} 풀은 여기 ${poolCount}개가 있고, ${chainCount}개 체인에서 APY가 ${lowApyStr}부터 ${highApyStr}까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.`,
+    tcpDepthMean: (meanCount, poolCount, medianMeanStr) =>
+      `${poolCount}개 풀 중 ${meanCount}개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 ${medianMeanStr}예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.`,
+    tcpDepthMixIncentives: (rewardCount, poolCount) =>
+      `${poolCount}개 풀 중 ${rewardCount}개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.`,
+    tcpDepthMixAllBase: (poolCount) =>
+      `현재 ${poolCount}개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.`,
+    tcpDepthIlExposure: (ilCount, poolCount) =>
+      `${poolCount}개 풀 중 ${ilCount}개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.`,
+    tcpDepthColMix: "수익 구성",
+    tcpDepthMixBaseCell: "기본 금리",
+    tcpDepthMixIncentiveCell: (shareStr) => `인센티브 ${shareStr}`,
+    tcpDepthNote: (floorStr) =>
+      `30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL ${floorStr} 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.`,
     tcpRelatedTokensHeading: "관련 토큰",
     tcpRelatedChainsHeading: "관련 체인",
     tcpAvailableOnHeading: "이용 가능한 체인",
