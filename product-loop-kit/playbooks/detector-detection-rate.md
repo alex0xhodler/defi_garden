@@ -50,6 +50,23 @@ for "it can see this one — why didn't it?".
    Rule of thumb: on a surface with `.animate-on-mount`, genuine settle is
    `max(delay) + duration`, which on the dead-pool alternatives grid is ~1250 ms — **8× the 150 ms the
    lens was waiting**.
+4b. **Opacity is only ONE door. Check for ANCESTOR TRANSFORMS too** (item 233). A geometry read that is
+   *not* opacity-gated is not therefore animation-independent: `getBoundingClientRect()` — and so
+   Playwright's `boundingBox()` — reports the **transformed** rect, and `style.css`'s entry animations
+   include `fadeInScale` (`scale(0.95)→1`) and `slideInLeft` (`translateX(-20px)→0`) on *container*
+   elements. So for the whole entry window every box inside them is shrunk toward the viewport centre by
+   up to 5 %, then compared against a viewport width that did not shrink. 233 measured
+   `pool-detail-360`'s CTA at **w=205.2 vs 216 at rest** and a detection rate of **0/10** on a
+   permanently-broken page. Decision rule: **do not conclude "different failure mode" from "different
+   visibility semantics"** — enumerate what actually moves the number (opacity gate, ancestor transform,
+   not-yet-mounted, mid-reflow) and rule each out by measurement. 233's row had guessed the lens was
+   safe *because* `boundingBox()` is not opacity-gated; an item that stopped at that check would have
+   closed it as clean.
+
+4c. **Surfaces that show no distortion today are lucky, not safe.** 233 found 3 of 5 surfaces reading
+   stable geometry at t=0 — while still carrying 4–15 running animations. Scope the fix to the mechanism,
+   not to the surfaces that currently hurt, or one added `fadeInScale` silently re-opens it.
+
 5. **Replace the magic number with a predicate derived from the mechanism** (RAZOR side 2 — never watch a
    resemblance): poll until (a) `document.getAnimations()` has no `playState === 'running'` effect,
    **excluding `iterations === Infinity`** (spinners never settle; waiting on them hangs every surface),
@@ -97,8 +114,20 @@ LOG, not in the reader's inference.
    to start flagging. That is the fix working, not a regression — but say so in the ship note, or the next
    heartbeat will read the jump as a new outbreak.
 
+6. **The harness may be breaking its own measurement.** Before blaming the page or the timing, check
+   what the driver itself did to the page *between* the readiness wait and the read. Item 233's new
+   zero-match advisory fired on `planner-768`; the cause was not the product and not a stale selector —
+   `audit-app.js`'s planner driver **clicks a `.gp-chip`** (gated `s.width > 360`) and then measures
+   `.gp-chip` (gated `s.width <= 768`), and `planner-768` is the only surface where both gates fire.
+   Count 24 before the click, 0 after. It had been dead since item 201 widened the check, invisible
+   because the branch skipped silently. Decision rule: when a selector "matches nothing", **read the
+   whole driver top to bottom before forming a hypothesis about the page** — and when two gates on the
+   same surface list were written by different items, check whether any surface satisfies both.
+
 ## Provenance
 
+- Item **233** (2026-08-05) — the ancestor-transform door, the 0/10 pre-fix rate, trap 6 (harness
+  self-interference), and the reminder that a non-opacity-gated read is not an animation-independent one.
 - Item **231** (2026-08-05) — the mechanism, the fix, the rate harness, all numbers above.
 - Item **221** (2026-08-04) — first measurement of the 3/20 rate; its verifier falsified the builder's
   "resource contention" dismissal by running more trials.
