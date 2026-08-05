@@ -1696,18 +1696,18 @@ body {
   margin: 0 auto var(--space-12);
 }
 
+/* 225 round 3c: the wordmark is a mark, not a button — no pill hover, no
+   lift. Color shift only (it resets the app on click). */
 .logo:hover {
-  background: var(--color-background);
-  border-color: var(--ui-border-strong);
-  transform: translateY(-1px);
+  background: transparent;
+  border-color: transparent;
+  color: var(--color-primary-hover);
 }
 
 .logo:active {
-  background: var(--color-background);
+  background: transparent;
   box-shadow: none;
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
-  transform: translateY(0);
+  transform: none;
 }
 
 .logo::before {
@@ -1715,12 +1715,14 @@ body {
   font-size: var(--font-size-3xl);
 }
 
+/* 225 round 3c: brand + promise read as one unit — tight to the wordmark,
+   generous before the search control. Full-strength secondary (no faded
+   opacity on the one sentence that says what the product does). */
 .subtitle {
   font-size: var(--font-size-base);
   color: var(--color-text-secondary);
   font-weight: var(--font-weight-normal);
   margin-bottom: var(--space-32);
-  opacity: 0.8;
 }
 
 /* Google-style Search Section */
@@ -1909,6 +1911,13 @@ body {
   max-width: 580px;
 }
 
+/* 225 round 3c: the input + autocomplete share this anchor so suggestions
+   attach to the input mid-type instead of floating under the whole column. */
+.search-input-anchor {
+  position: relative;
+  width: 100%;
+}
+
 .search-input {
   width: 100%;
   padding: var(--space-16) var(--space-20);
@@ -1953,10 +1962,10 @@ body {
   color: var(--color-text-secondary);
 }
 
-/* Neumorphic Autocomplete Dropdown */
+/* Autocomplete Dropdown — anchored to .search-input-anchor (225 round 3c) */
 .autocomplete-dropdown {
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: 0;
   right: 0;
   background: var(--color-background);
@@ -2474,22 +2483,57 @@ body {
   grid-template-columns: 1fr;
 }
 
-/* Desktop: 3 cards per row (1024px and up) */
+/* Desktop: auto-fill compact cards (1024px and up) — 225 round 3c: track
+   count follows the container, so two results no longer strand a dead third
+   column. */
 @media (min-width: 1024px) {
   .pools-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-16);
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-12);
     max-width: 1200px;
     margin: 0 auto;
   }
 }
 
-/* Grid (card) view keeps a bordered/radius card look — round 3's "kill the
-   per-row card" instruction targets the default list/table view only. */
+/* Grid (card) view — 225 round 3c recomposition: a compact three-cell grid
+   on the list's type system. Header row (icon · symbol/context · APY/$-day)
+   spans; TVL and the action link share ONE closing line under a single
+   hairline. No stretched min-height, no floating rows, no dead middle. */
 .pools-grid .pool-card {
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  padding: 20px;
+  border-radius: var(--ui-radius-md);
+  padding: 16px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px 8px;
+  align-content: start;
+}
+
+.pools-grid .pool-header-new {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+.pools-grid .pool-tvl-section,
+.pools-grid .pool-cta-section {
+  border-top: 1px solid var(--ui-border);
+  padding-top: 12px;
+  margin: 0;
+  /* Both cells stretch to the same closing row so their border-tops meet as
+     ONE hairline across the card; contents center on that row. */
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.pools-grid .pool-cta-section {
+  justify-self: end;
+  justify-content: flex-end;
+}
+
+.pools-grid .pool-cta-section .calculate-yield-btn-new {
+  margin-top: 0;
+  width: auto;
 }
 
 /* Icon + name pairing, shared by both view modes. List view flattens this
@@ -2505,20 +2549,22 @@ body {
    15px/600 .pool-symbol the approved list view uses, so toggling views no
    longer switches design languages. */
 
-/* Grid (card) view TVL row — label/value side by side (the old bare
-   .pool-tvl-section rule this replaces also carried this layout; list view
-   gets its own via .pools-list .pool-tvl-section above). */
+/* Grid (card) view TVL cell — label + value inline on the closing line
+   (225 round 3c). */
 .pools-grid .pool-tvl-section {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: var(--space-12) 0;
+  align-items: baseline;
+  gap: var(--space-6);
 }
 
 /* 225 round 3 (a): border/radius/padding no longer come from the shared
    geometry block (removed there — see the note at style.css's end) — grid
    view restores a card look via .pools-grid .pool-card above; list view
-   (default) drops it entirely via .pools-list .pool-card above. */
+   (default) drops it entirely via .pools-list .pool-card above.
+   225 round 3c: the stretched min-height (240px, then 200–280px desktop)
+   and the flex column that pushed the action to the card floor are gone —
+   they were the card view's dead middle. Card height is now content-sized;
+   rows in one grid track equalize via the grid itself. */
 .pool-card {
   background: var(--color-background);
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2526,34 +2572,17 @@ body {
   border: 1px solid var(--ui-border);
   position: relative;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 240px;
-}
-
-/* Compact desktop cards */
-@media (min-width: 1024px) {
-  .pool-card {
-    min-height: 200px;
-    max-height: 280px;
-  }
 }
 
 .pool-card.clickable {
   cursor: pointer;
 }
 
+/* 225 round 3c: hover is a border + background step, matching the list
+   view's own hover voice — no lift. */
 .pool-card:hover {
-  transform: translateY(-2px);
   border-color: var(--ui-border-strong);
-}
-
-/* Reduced hover effect for desktop compact cards */
-@media (min-width: 1024px) {
-  .pool-card:hover {
-    transform: translateY(-2px);
-    border-color: var(--ui-border-strong);
-  }
+  background: var(--ui-surface-muted);
 }
 
 /* 225 round 3 (a): accent discipline — no hover glow/pill/scale on the APY
@@ -3183,13 +3212,8 @@ html[data-app-mode="landing"] .seo-hub-links {
 
 /* Small Mobile Devices - Additional Optimizations */
 @media (max-width: 480px) {
-  /* 225 round 3 (a): scoped to grid view — .pools-grid already spaces cards
-     via its own `gap`, so this was redundant there too, but unscoped it hit
-     list-view rows as well, adding an unwanted gap between rows and
-     breaking the flush-with-separator-only row design at this width. */
-  .pools-grid .pool-card {
-    margin-bottom: var(--space-16);
-  }
+  /* 225 round 3c: the extra <=480px margin-bottom on grid cards is gone —
+     .pools-grid's own gap is the one source of card spacing. */
 
   .search-container {
     max-width: 100%;
@@ -3367,15 +3391,8 @@ html {
     border: 2px solid var(--color-primary);
   }
 
-  /* 225 round 3 (a): this rule's `background: ... !important` used to paint
-     a card-like fill behind the TVL cell at >=1024px, regardless of source
-     order (an !important always wins) — directly contradicting "no pill
-     around plain data". Scoped to grid view, background dropped; list view
-     (default) never had this and stays fully plain. */
-  .pools-grid .pool-tvl-section {
-    padding: var(--space-6) var(--space-8);
-    margin-bottom: var(--space-8);
-  }
+  /* 225 round 3c: the <=480px TVL-cell padding override is gone — the
+     card's own grid + the shared closing-line rule owns that spacing now. */
 }
 
 /* Custom scrollbar for autocomplete */
@@ -4323,12 +4340,16 @@ html {
 }
 
 /* Search Buttons */
+/* 225 round 3c: the two modes sit tight under the search control (they
+   parameterize it); the planner cross-link below gets the generous gap —
+   two intervals, two meanings. */
 .search-buttons {
   display: flex;
-  gap: var(--space-16);
-  margin-top: var(--space-20);
-  padding: var(--space-16);
+  gap: var(--space-12);
+  margin-top: var(--space-16);
+  padding: 0;
   justify-content: center;
+  width: 100%;
 }
 
 /* 225 round 3b: both search-state buttons are Quiet secondary controls —
@@ -4415,14 +4436,15 @@ html {
   font-weight: var(--font-weight-semibold);
 }
 
-/* Garden Planner entry — warm goal-first invitation under the search buttons */
+/* Garden Planner entry — warm goal-first invitation, a clearly separate
+   region below the search set (225 round 3c: generous 32px interval). */
 .planner-entry {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: var(--space-8);
-  margin: var(--space-8) auto 0;
+  margin: var(--space-32) auto 0;
   padding: var(--space-16) var(--space-24);
   max-width: 460px;
   background: var(--color-background);
@@ -4433,13 +4455,13 @@ html {
   text-decoration: none;
   font-size: var(--font-size-base);
   line-height: var(--line-height-normal);
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
-    transform var(--duration-normal) var(--ease-standard);
+  transition: border-color var(--duration-normal) var(--ease-standard),
+    background var(--duration-normal) var(--ease-standard);
 }
 
 .planner-entry:hover {
   border-color: var(--ui-border-strong);
-  transform: translateY(-2px);
+  background: var(--ui-surface-muted);
 }
 
 .planner-entry:active {
@@ -4464,30 +4486,27 @@ html {
   white-space: nowrap;
 }
 
-/* Mobile responsive for search buttons */
+/* Mobile responsive for search buttons — 225 round 3c: the two modes stay
+   one row (they are peers), each taking half the width; rhythm intervals
+   keep their two meanings (tight to the search, generous to the planner). */
 @media (max-width: 768px) {
   .search-buttons {
-    flex-direction: column;
     gap: var(--space-12);
     margin-top: var(--space-16);
-    padding: var(--space-8);
+    padding: 0;
   }
 
   .planner-entry {
-    margin-top: var(--space-4);
+    margin-top: var(--space-24);
     padding: var(--space-12) var(--space-16);
     font-size: var(--font-size-sm);
   }
 
   .search-button {
-    min-width: auto;
-    width: 100%;
-    padding: var(--space-16) var(--space-20);
+    min-width: 0;
+    flex: 1;
+    padding: 0 var(--space-12);
     font-size: var(--font-size-sm);
-  }
-
-  .button-icon {
-    font-size: var(--font-size-base);
   }
 }
 

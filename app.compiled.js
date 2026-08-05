@@ -3131,6 +3131,12 @@ function App() {
     className: 'search-section animate-on-mount'
   }, React.createElement('div', {
     className: 'search-container'
+  },
+  // 225 round 3c: the input + its autocomplete share one positioning
+  // anchor, so mid-type suggestions attach to the input instead of
+  // floating below the mode buttons and planner link.
+  React.createElement('div', {
+    className: 'search-input-anchor'
   }, React.createElement('input', {
     type: 'text',
     className: 'search-input',
@@ -3152,7 +3158,7 @@ function App() {
       e.preventDefault(); // Prevent input blur
       handleTokenSelect(token);
     }
-  }, token))),
+  }, token)))),
   // Two-Button Interface - show when no token is selected and not in chain mode
   !selectedToken && !chainMode && React.createElement('div', {
     className: 'search-buttons'
@@ -3164,9 +3170,10 @@ function App() {
       }
     },
     disabled: searchInput.length === 0
-  }, React.createElement('span', {
-    className: 'button-icon'
-  }, '🔍'), React.createElement('span', {
+  },
+  // 225 round 3c: text-only — emoji standing in for an icon
+  // system is off the craft floor; the label carries the action.
+  React.createElement('span', {
     className: 'button-text'
   }, t('tokenSearch'))), React.createElement('button', {
     className: 'search-button feeling-degen',
@@ -3205,8 +3212,6 @@ function App() {
       }
     }
   }, React.createElement('span', {
-    className: 'button-icon'
-  }, '🚀'), React.createElement('span', {
     className: 'button-text'
   }, t('feelingDegen')))),
   // Garden Planner entry — goal-first invitation under the search buttons.
@@ -3226,10 +3231,13 @@ function App() {
             key: 'icon',
             className: 'planner-entry-icon',
             'aria-hidden': 'true'
-          }, '🌱'), React.createElement('span', {
+          }, '🌱'),
+          // 225 round 3c: the icon span above already carries the
+          // sprout — the doubled leading emoji in the text is gone.
+          React.createElement('span', {
             key: 'q',
             className: 'planner-entry-question'
-          }, '🌱 Your garden — ≈ ' + projFmt + ' by ' + year + ' →')];
+          }, 'Your garden — ≈ ' + projFmt + ' by ' + year + ' →')];
         }
       }
     } catch (e2) {}

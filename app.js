@@ -3211,30 +3211,35 @@ function App() {
       // Search Section - hide when in filtered state (both token and chain mode)
       !(selectedToken || (chainMode && selectedChain)) && React.createElement('div', { className: 'search-section animate-on-mount' },
         React.createElement('div', { className: 'search-container' },
-          React.createElement('input', {
-            type: 'text',
-            className: 'search-input',
-            placeholder: animatedPlaceholder,
-            value: searchInput,
-            onChange: handleSearchInputChange,
-            onKeyDown: handleKeyDown,
-            onFocus: handleInputFocus,
-            onBlur: handleInputBlur,
-            autoFocus: true
-          }),
+          // 225 round 3c: the input + its autocomplete share one positioning
+          // anchor, so mid-type suggestions attach to the input instead of
+          // floating below the mode buttons and planner link.
+          React.createElement('div', { className: 'search-input-anchor' },
+            React.createElement('input', {
+              type: 'text',
+              className: 'search-input',
+              placeholder: animatedPlaceholder,
+              value: searchInput,
+              onChange: handleSearchInputChange,
+              onKeyDown: handleKeyDown,
+              onFocus: handleInputFocus,
+              onBlur: handleInputBlur,
+              autoFocus: true
+            }),
 
-          // Autocomplete Dropdown
-          showAutocomplete && autocompleteTokens.length > 0 &&
-          React.createElement('div', { className: 'autocomplete-dropdown' },
-            autocompleteTokens.map((token, index) =>
-              React.createElement('div', {
-                key: token,
-                className: `autocomplete-item ${index === highlightedIndex ? 'highlighted' : ''}`,
-                onMouseDown: (e) => {
-                  e.preventDefault(); // Prevent input blur
-                  handleTokenSelect(token);
-                }
-              }, token)
+            // Autocomplete Dropdown
+            showAutocomplete && autocompleteTokens.length > 0 &&
+            React.createElement('div', { className: 'autocomplete-dropdown' },
+              autocompleteTokens.map((token, index) =>
+                React.createElement('div', {
+                  key: token,
+                  className: `autocomplete-item ${index === highlightedIndex ? 'highlighted' : ''}`,
+                  onMouseDown: (e) => {
+                    e.preventDefault(); // Prevent input blur
+                    handleTokenSelect(token);
+                  }
+                }, token)
+              )
             )
           ),
 
@@ -3249,7 +3254,8 @@ function App() {
               },
               disabled: searchInput.length === 0
             },
-              React.createElement('span', { className: 'button-icon' }, '🔍'),
+              // 225 round 3c: text-only — emoji standing in for an icon
+              // system is off the craft floor; the label carries the action.
               React.createElement('span', { className: 'button-text' }, t('tokenSearch'))
             ),
             React.createElement('button', {
@@ -3289,7 +3295,6 @@ function App() {
                 }
               }
             },
-              React.createElement('span', { className: 'button-icon' }, '🚀'),
               React.createElement('span', { className: 'button-text' }, t('feelingDegen'))
             )
           ),
@@ -3309,7 +3314,9 @@ function App() {
                   var projFmt = '$' + Math.round(p.projection).toLocaleString('en-US');
                   return [
                     React.createElement('span', { key: 'icon', className: 'planner-entry-icon', 'aria-hidden': 'true' }, '🌱'),
-                    React.createElement('span', { key: 'q', className: 'planner-entry-question' }, '🌱 Your garden — ≈ ' + projFmt + ' by ' + year + ' →')
+                    // 225 round 3c: the icon span above already carries the
+                    // sprout — the doubled leading emoji in the text is gone.
+                    React.createElement('span', { key: 'q', className: 'planner-entry-question' }, 'Your garden — ≈ ' + projFmt + ' by ' + year + ' →')
                   ];
                 }
               }
