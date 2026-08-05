@@ -4,8 +4,8 @@ The highest honest WOUSD yield right now is 6.61% on pendle (Ethereum), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883&src=seo_token) | Ethereum | 6.02% | $219.9K |
 | [pendle →](https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da&src=seo_token) | Ethereum | 6.61% | $219.9K |
+| [pendle →](https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883&src=seo_token) | Ethereum | 6.02% | $219.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

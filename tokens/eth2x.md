@@ -4,8 +4,8 @@ The highest honest ETH2X yield right now is 17.17% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token) | Ethereum | 0.01% | $246.9K |
-| [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $137.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token) | Ethereum | 0.01% | $247.2K |
+| [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $138.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ETH2X pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $384.8K in total.
+2 live pools clear this page's $100K TVL floor, $385.4K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

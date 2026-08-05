@@ -1,17 +1,17 @@
 # TBTC DeFi Yields
 
-The highest honest TBTC yield right now is 5.28% on curve-dex (Ethereum), among 51 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TBTC yield right now is 5.26% on curve-dex (Ethereum), among 50 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token) | Ethereum | 0.16% | $8.54M |
-| [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 0.70% | $7.27M |
-| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 3.13% | $3.94M |
-| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 3.99% | $3.8M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 1.39% | $2.5M |
-| [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.28% | $1.92M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=96421b44-5695-46ff-b88f-8ef71e8f0593&src=seo_token) | Ethereum | 0.29% | $1.44M |
+| [curve-dex →](https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token) | Ethereum | 0.13% | $8.55M |
+| [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 0.57% | $7.24M |
+| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 3.21% | $3.95M |
+| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 4.08% | $3.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 0.50% | $2.53M |
+| [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.26% | $1.97M |
 | [vesu →](https://www.defi.garden/?pool=2d94db74-d1f5-417c-a29a-432d76e0bdfc&src=seo_token) | Starknet | 2.00% | $1.12M |
+| [curve-dex →](https://www.defi.garden/?pool=9beef608-8e7b-455b-97a1-84247be6631d&src=seo_token) | Arbitrum | 0.16% | $1.11M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TBTC yield today?
 
-5.28% APY on curve-dex (Ethereum), based on live DefiLlama data.
+5.26% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many TBTC pools clear the TVL floor?
 
-51 live pools clear this page's $100K TVL floor, $227.56M in total.
+50 live pools clear this page's $100K TVL floor, $223.57M in total.
 
 ### Are these rates safe?
 
@@ -43,5 +43,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 - [Starknet](https://www.defi.garden/chains/starknet)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

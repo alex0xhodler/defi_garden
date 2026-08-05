@@ -1,12 +1,12 @@
 # GTUSDCF DeFi Yields
 
-The highest honest GTUSDCF yield right now is 5.34% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDCF yield right now is 5.75% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.03% | $25.73M |
-| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 5.34% | $2.72M |
-| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 5.24% | $194.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.75% | $25.78M |
+| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 5.26% | $2.83M |
+| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 5.09% | $196.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDCF yield today?
 
-5.34% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.75% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTUSDCF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $28.64M in total.
+3 live pools clear this page's $100K TVL floor, $28.81M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

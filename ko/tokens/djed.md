@@ -1,12 +1,11 @@
 # DJED 디파이 수익률
 
-현재 DJED의 가장 높은 정직한 수익률은 Cardano의 liqwid에서 12.92%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DJED의 가장 높은 정직한 수익률은 Cardano의 liqwid에서 12.92%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_token) | Cardano | 12.92% | $1.03M |
-| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 9.62% | $206.5K |
-| [orca-dex →](https://www.defi.garden/?pool=27d3d493-ec30-5cd4-8b32-c3515482f62d&src=seo_token) | Solana | 0.10% | $176.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 9.62% | $205.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Cardano의 liqwid에서 APY 12.92%예요.
 
 ### DJED 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.23M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -26,16 +25,15 @@ DefiLlama 실시간 데이터 기준, Cardano의 liqwid에서 APY 12.92%예요.
 
 ## 관련 토큰
 
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
-- [USTB](https://www.defi.garden/ko/tokens/ustb)
+- [USDM](https://www.defi.garden/ko/tokens/usdm)
+- [ADA](https://www.defi.garden/ko/tokens/ada)
+- [IUSD](https://www.defi.garden/ko/tokens/iusd)
+- [USDA](https://www.defi.garden/ko/tokens/usda)
+- [USDCX](https://www.defi.garden/ko/tokens/usdcx)
+- [NIGHT](https://www.defi.garden/ko/tokens/night)
 
 ## 이용 가능한 체인
 
 - [Cardano](https://www.defi.garden/ko/chains/cardano)
-- [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

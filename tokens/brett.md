@@ -1,12 +1,12 @@
 # BRETT DeFi Yields
 
-The highest honest BRETT yield right now is 49.71% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRETT yield right now is 48.18% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 6.58% | $904.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 49.71% | $629.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 1.13% | $127.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 2.81% | $913.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 48.18% | $641.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 0.92% | $127.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRETT yield today?
 
-49.71% APY on uniswap-v3 (Base), based on live DefiLlama data.
+48.18% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many BRETT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.66M in total.
+3 live pools clear this page's $100K TVL floor, $1.68M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

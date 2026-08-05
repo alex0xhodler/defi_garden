@@ -4,7 +4,7 @@ The highest honest SMT yield right now is 0.42% on uniswap-v3 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=69f5d437-0aa7-4651-b600-bf83b36002d4&src=seo_token) | BSC | 0.42% | $103.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=69f5d437-0aa7-4651-b600-bf83b36002d4&src=seo_token) | BSC | 0.42% | $105.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SMT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.6K in total.
+1 live pool clear this page's $100K TVL floor, $105.4K in total.
 
 ### Are these rates safe?
 
@@ -28,11 +28,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

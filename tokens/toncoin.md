@@ -1,11 +1,11 @@
 # TONCOIN DeFi Yields
 
-The highest honest TONCOIN yield right now is 17.44% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TONCOIN yield right now is 2.63% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token) | Ethereum | 10.17% | $725.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token) | Ethereum | 17.44% | $198.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token) | Ethereum | 2.63% | $726.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token) | Ethereum | 1.34% | $199.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TONCOIN yield today?
 
-17.44% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+2.63% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many TONCOIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $923.7K in total.
+2 live pools clear this page's $100K TVL floor, $925.2K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

@@ -1,10 +1,11 @@
 # BOTTO DeFi Yields
 
-The highest honest BOTTO yield right now is 124.49% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOTTO yield right now is 127.31% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 124.49% | $164K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 127.31% | $162.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token) | Ethereum | 0.04% | $140.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOTTO yield today?
 
-124.49% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+127.31% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many BOTTO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $794.4K in total.
+3 live pools clear this page's $100K TVL floor, $785.3K in total.
 
 ### Are these rates safe?
 
@@ -24,15 +25,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

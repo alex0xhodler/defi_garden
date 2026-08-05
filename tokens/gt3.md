@@ -4,7 +4,7 @@ The highest honest GT3 yield right now is 18.59% on gt3 (Polygon), among 1 pool 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 18.59% | $119.1K |
+| [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 18.59% | $119.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GT3 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.1K in total.
+1 live pool clear this page's $100K TVL floor, $119.5K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

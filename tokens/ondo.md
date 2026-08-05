@@ -1,12 +1,12 @@
 # ONDO DeFi Yields
 
-The highest honest ONDO yield right now is 29.03% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ONDO yield right now is 26.86% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 29.03% | $745K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token) | Ethereum | 19.46% | $248.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token) | Ethereum | 5.85% | $243.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 22.36% | $750.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token) | Ethereum | 26.86% | $250.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token) | Ethereum | 8.23% | $246.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ONDO yield today?
 
-29.03% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+26.86% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ONDO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.37M in total.
+4 live pools clear this page's $100K TVL floor, $1.38M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

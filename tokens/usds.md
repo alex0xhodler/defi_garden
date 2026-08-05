@@ -1,17 +1,17 @@
 # USDS DeFi Yields
 
-The highest honest USDS yield right now is 6.74% on centrifuge-protocol (Ethereum), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDS yield right now is 6.70% on centrifuge-protocol (Ethereum), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token) | Ethereum | 4.33% | $871.1M |
-| [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token) | Ethereum | 3.22% | $543.25M |
-| [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token) | Arbitrum | 3.52% | $361.65M |
-| [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token) | Ethereum | 2.04% | $273.29M |
-| [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token) | Ethereum | 6.74% | $185.65M |
-| [spark-savings →](https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd&src=seo_token) | Base | 3.52% | $11.98M |
-| [aave-v3 →](https://www.defi.garden/?pool=e65588a1-27ad-4e20-9232-68a6cfaccf63&src=seo_token) | Ethereum | 0.12% | $11.8M |
-| [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 5.06% | $5.95M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token) | Ethereum | 4.33% | $871.24M |
+| [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token) | Ethereum | 3.23% | $543.28M |
+| [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token) | Arbitrum | 3.52% | $361.45M |
+| [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token) | Ethereum | 2.04% | $273.13M |
+| [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token) | Ethereum | 6.70% | $187.82M |
+| [spark-savings →](https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd&src=seo_token) | Base | 3.52% | $11.97M |
+| [aave-v3 →](https://www.defi.garden/?pool=e65588a1-27ad-4e20-9232-68a6cfaccf63&src=seo_token) | Ethereum | 3.54% | $11.81M |
+| [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 5.03% | $5.95M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDS yield today?
 
-6.74% APY on centrifuge-protocol (Ethereum), based on live DefiLlama data.
+6.70% APY on centrifuge-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many USDS pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

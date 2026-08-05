@@ -1,12 +1,12 @@
 # REI DeFi Yields
 
-The highest honest REI yield right now is 108.01% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REI yield right now is 180.81% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 0.61% | $1.95M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 1.98% | $344.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=9e0209c8-d508-5249-bc99-f703997c5a10&src=seo_token) | Base | 108.01% | $185.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 2.81% | $1.92M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 47.24% | $345.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=9e0209c8-d508-5249-bc99-f703997c5a10&src=seo_token) | Base | 180.81% | $226.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REI yield today?
 
-108.01% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+180.81% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many REI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.48M in total.
+3 live pools clear this page's $100K TVL floor, $2.49M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

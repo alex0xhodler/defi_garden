@@ -1,11 +1,11 @@
 # MOEW DeFi Yields
 
-The highest honest MOEW yield right now is 1.53% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOEW yield right now is 3.93% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 1.53% | $356.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token) | Solana | 0.48% | $110.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 1.28% | $359.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token) | Solana | 3.93% | $107K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOEW yield today?
 
-1.53% APY on uniswap-v3 (Base), based on live DefiLlama data.
+3.93% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MOEW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $467K in total.
+2 live pools clear this page's $100K TVL floor, $466.2K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

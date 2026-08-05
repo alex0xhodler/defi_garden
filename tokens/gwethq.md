@@ -1,10 +1,10 @@
 # GWETHQ DeFi Yields
 
-The highest honest GWETHQ yield right now is 2.11% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GWETHQ yield right now is 1.80% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8ae91608-6de0-4445-a456-3db2c2ab18a5&src=seo_token) | Ethereum | 2.11% | $16.81M |
+| [morpho-blue →](https://www.defi.garden/?pool=8ae91608-6de0-4445-a456-3db2c2ab18a5&src=seo_token) | Ethereum | 1.80% | $16.78M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GWETHQ yield today?
 
-2.11% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+1.80% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GWETHQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $16.81M in total.
+1 live pool clear this page's $100K TVL floor, $16.78M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

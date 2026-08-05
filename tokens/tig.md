@@ -1,12 +1,12 @@
 # TIG DeFi Yields
 
-The highest honest TIG yield right now is 80.28% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TIG yield right now is 84.06% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 80.28% | $1.05M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token) | Base | 4.53% | $141K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 50.92% | $128.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 84.06% | $1.05M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token) | Base | 4.26% | $141.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 44.19% | $128.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TIG yield today?
 
-80.28% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+84.06% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TIG pools clear the TVL floor?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

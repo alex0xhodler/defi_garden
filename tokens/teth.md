@@ -4,8 +4,8 @@ The highest honest TETH yield right now is 2.55% on treehouse-protocol (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.55% | $47.79M |
-| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $163.2K |
+| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.55% | $47.8M |
+| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $164K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TETH pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $89.65M in total.
+6 live pools clear this page's $100K TVL floor, $89.88M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

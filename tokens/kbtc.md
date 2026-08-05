@@ -1,13 +1,13 @@
 # KBTC DeFi Yields
 
-The highest honest KBTC yield right now is 6.54% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KBTC yield right now is 22.17% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.03% | $22.92M |
-| [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_token) | Ink | 0.04% | $11.51M |
-| [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_token) | Ink | 6.54% | $1.44M |
-| [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token) | Ink | 4.85% | $261.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.64% | $22.96M |
+| [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_token) | Ink | 0.04% | $11.47M |
+| [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_token) | Ink | 22.17% | $1.35M |
+| [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token) | Ink | 4.19% | $275.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KBTC yield today?
 
-6.54% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+22.17% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many KBTC pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $357.31M in total.
+7 live pools clear this page's $100K TVL floor, $356.11M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Ink](https://www.defi.garden/chains/ink)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

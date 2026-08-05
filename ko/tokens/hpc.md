@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.03%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

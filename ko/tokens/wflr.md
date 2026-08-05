@@ -1,17 +1,17 @@
 # WFLR 디파이 수익률
 
-현재 WFLR의 가장 높은 정직한 수익률은 Flare의 sparkdex-v4에서 26.09%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WFLR의 가장 높은 정직한 수익률은 Flare의 sparkdex-v4에서 28.76%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 3.99% | $1.48M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 26.09% | $1.3M |
-| [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 5.46% | $1.12M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.31% | $958.6K |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 14.01% | $812.2K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 1.86% | $317.5K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.82% | $310.6K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 5.71% | $237.7K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.00% | $1.47M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 28.76% | $1.31M |
+| [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 5.47% | $1.12M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.31% | $955.7K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 13.84% | $807.2K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 1.76% | $318.5K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.81% | $310K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 6.93% | $237.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 WFLR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 26.09%예요.
+DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 28.76%예요.
 
 ### WFLR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $6.91M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $6.89M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,4 +42,4 @@ DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 26.09%예�
 
 - [Flare](https://www.defi.garden/ko/chains/flare)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

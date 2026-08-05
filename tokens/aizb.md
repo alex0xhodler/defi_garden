@@ -1,10 +1,10 @@
 # AIZB DeFi Yields
 
-The highest honest AIZB yield right now is 7.88% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIZB yield right now is 7.87% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=53080f56-176c-458a-b452-50d9bd6ddcc9&src=seo_token) | Polygon | 7.88% | $111.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=53080f56-176c-458a-b452-50d9bd6ddcc9&src=seo_token) | Polygon | 7.87% | $111.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIZB yield today?
 
-7.88% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+7.87% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many AIZB pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

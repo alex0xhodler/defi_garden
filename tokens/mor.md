@@ -1,10 +1,10 @@
 # MOR DeFi Yields
 
-The highest honest MOR yield right now is 1.19% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOR yield right now is 1.20% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=44f437aa-baa7-48a7-b403-10bc0ca24500&src=seo_token) | Arbitrum | 1.19% | $1.1M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=44f437aa-baa7-48a7-b403-10bc0ca24500&src=seo_token) | Arbitrum | 1.20% | $1.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOR yield today?
 
-1.19% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+1.20% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many MOR pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

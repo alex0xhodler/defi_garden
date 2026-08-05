@@ -1,10 +1,10 @@
 # Scroll DeFi Yields
 
-The highest honest Scroll yield right now is 2.46% on ether.fi-stake (Scroll), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Scroll yield right now is 2.39% on ether.fi-stake (Scroll), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=6cec9ad9-01c5-44dd-a081-1ab4e417590c&src=seo_chain) | 2.46% | $462.1K |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=6cec9ad9-01c5-44dd-a081-1ab4e417590c&src=seo_chain) | 2.39% | $462.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Scroll yield today?
 
-2.46% APY on ether.fi-stake (Scroll), based on live DefiLlama data.
+2.39% APY on ether.fi-stake (Scroll), based on live DefiLlama data.
 
 ### How many Scroll pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [WEETH](https://www.defi.garden/tokens/weeth)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

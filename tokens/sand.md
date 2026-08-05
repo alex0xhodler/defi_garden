@@ -1,11 +1,11 @@
 # SAND DeFi Yields
 
-The highest honest SAND yield right now is 36.75% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAND yield right now is 49.92% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 1.68% | $303.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=6a0fa42d-494e-44d2-adfb-39b3a8eacb5f&src=seo_token) | Base | 36.75% | $195.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 1.27% | $303K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=6a0fa42d-494e-44d2-adfb-39b3a8eacb5f&src=seo_token) | Base | 49.92% | $193.7K |
 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 3.62% | $157.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAND yield today?
 
-36.75% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+49.92% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SAND pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $656.7K in total.
+3 live pools clear this page's $100K TVL floor, $654.5K in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

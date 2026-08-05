@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 9.98% | $40.47M |
+| [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 9.96% | $40.47M |
 | [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token) | Solana | 9.99% | $7.35M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, BSC의 unitas-usdu에서 APY 9.99%예요.
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

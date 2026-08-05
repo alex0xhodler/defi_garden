@@ -1,13 +1,13 @@
 # HYPERUSDCA DeFi Yields
 
-The highest honest HYPERUSDCA yield right now is 9.56% on morpho-blue (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYPERUSDCA yield right now is 10.38% on morpho-blue (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 9.56% | $49.12M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.07% | $7.15M |
-| [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 8.20% | $2.2M |
-| [morpho-blue →](https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token) | Arbitrum | 3.32% | $473.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 10.38% | $49.27M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.62% | $7.17M |
+| [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 8.09% | $2.2M |
+| [morpho-blue →](https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token) | Arbitrum | 3.18% | $457.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYPERUSDCA yield today?
 
-9.56% APY on morpho-blue (Monad), based on live DefiLlama data.
+10.38% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many HYPERUSDCA pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $58.96M in total.
+4 live pools clear this page's $100K TVL floor, $59.11M in total.
 
 ### Are these rates safe?
 
@@ -40,4 +40,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.42% | $7.51M |
+| [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.22% | $7.51M |
 | [lagoon →](https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token) | Ethereum | 2.85% | $7.51M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 gami-labs에서 APY 2.85%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

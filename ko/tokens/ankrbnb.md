@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token) | BSC | 0.81% | $629.3K |
+| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token) | BSC | 0.81% | $632.7K |
 | [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.01% | $190.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, BSC의 ankr에서 APY 0.81%예요.
 
 ### ANKRBNB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $819.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $822.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -29,11 +29,11 @@ DefiLlama 실시간 데이터 기준, BSC의 ankr에서 APY 0.81%예요.
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
-- [TRX](https://www.defi.garden/ko/tokens/trx)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
+- [TRX](https://www.defi.garden/ko/tokens/trx)
 
 ## 이용 가능한 체인
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

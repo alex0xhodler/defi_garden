@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [DUSD](https://www.defi.garden/tokens/dusd)
 - [DFI](https://www.defi.garden/tokens/dfi)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

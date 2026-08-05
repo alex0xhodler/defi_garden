@@ -1,11 +1,11 @@
 # WOJAK DeFi Yields
 
-The highest honest WOJAK yield right now is 21.05% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOJAK yield right now is 20.66% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 21.05% | $845.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.03% | $618.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 20.66% | $848.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.20% | $613.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WOJAK yield today?
 
-21.05% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+20.66% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many WOJAK pools clear the TVL floor?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

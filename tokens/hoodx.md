@@ -1,10 +1,10 @@
 # HOODX DeFi Yields
 
-The highest honest HOODX yield right now is 89.06% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HOODX yield right now is 46.22% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c8a9a79e-6cc9-4360-b207-1a4ed437beac&src=seo_token) | Solana | 89.06% | $367.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=c8a9a79e-6cc9-4360-b207-1a4ed437beac&src=seo_token) | Solana | 46.22% | $368.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HOODX yield today?
 
-89.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+46.22% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HOODX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $730.7K in total.
+2 live pools clear this page's $100K TVL floor, $735.9K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

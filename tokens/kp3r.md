@@ -1,12 +1,12 @@
 # KP3R DeFi Yields
 
-The highest honest KP3R yield right now is 0.65% on curve-dex (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KP3R yield right now is 0.46% on curve-dex (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273&src=seo_token) | Ethereum | 0.05% | $162.6K |
 | [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5&src=seo_token) | Ethereum | 0.05% | $162.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f&src=seo_token) | Ethereum | 0.65% | $120.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f&src=seo_token) | Ethereum | 0.46% | $119.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KP3R yield today?
 
-0.65% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.46% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many KP3R pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $445.3K in total.
+3 live pools clear this page's $100K TVL floor, $444.7K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

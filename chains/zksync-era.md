@@ -1,11 +1,11 @@
 # ZKsync Era DeFi Yields
 
-The highest honest ZKsync Era yield right now is 0.70% on symbiosis (ZKsync Era), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZKsync Era yield right now is 0.15% on symbiosis (ZKsync Era), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $111.9K |
-| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 0.70% | $107.5K |
+| USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $112K |
+| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 0.15% | $107.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZKsync Era yield today?
 
-0.70% APY on symbiosis (ZKsync Era), based on live DefiLlama data.
+0.15% APY on symbiosis (ZKsync Era), based on live DefiLlama data.
 
 ### How many ZKsync Era pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $431.7K in total.
+3 live pools clear this page's $100K TVL floor, $438.2K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [WETH](https://www.defi.garden/tokens/weth)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

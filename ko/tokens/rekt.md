@@ -1,11 +1,11 @@
 # REKT 디파이 수익률
 
-현재 REKT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 6.16%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 REKT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 2.97%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token) | Ethereum | 2.16% | $1.01M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token) | Ethereum | 6.16% | $193.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token) | Ethereum | 1.76% | $1.01M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token) | Ethereum | 2.97% | $192.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 REKT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 6.16%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 2.97%예요.
 
 ### REKT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 6.16%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

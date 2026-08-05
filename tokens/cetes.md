@@ -5,6 +5,7 @@ The highest honest CETES yield right now is 6.66% on kuru-clob (Monad), among 3 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [kuru-clob →](https://www.defi.garden/?pool=143f0c93-342a-4949-8253-167e57328e38&src=seo_token) | Monad | 6.66% | $111.8K |
+| [orca-dex →](https://www.defi.garden/?pool=409e62e4-f329-406e-bbb8-c48d9745aa87&src=seo_token) | Solana | 0.01% | $106.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,15 +25,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SUSDE](https://www.defi.garden/tokens/susde)
-- [USDE](https://www.defi.garden/tokens/usde)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
-- [AUSD](https://www.defi.garden/tokens/ausd)
-- [BTC](https://www.defi.garden/tokens/btc)
+- [USDY](https://www.defi.garden/tokens/usdy)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
+- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

@@ -1,12 +1,12 @@
 # PEAS 디파이 수익률
 
-현재 PEAS의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 6.74%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PEAS의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 4.77%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 2.63% | $1.06M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=59a12e88-fc48-40ce-8e31-0d2e1bfeba8f&src=seo_token) | Ethereum | 6.74% | $159.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d2290557-51d0-4765-bbaa-a821316aef9b&src=seo_token) | Arbitrum | 0.12% | $127.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 1.93% | $1.05M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=59a12e88-fc48-40ce-8e31-0d2e1bfeba8f&src=seo_token) | Ethereum | 4.77% | $158.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d2290557-51d0-4765-bbaa-a821316aef9b&src=seo_token) | Arbitrum | 3.73% | $128.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 PEAS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 6.74%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 4.77%예요.
 
 ### PEAS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 6.74%예�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

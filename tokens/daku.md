@@ -1,10 +1,10 @@
 # DAKU DeFi Yields
 
-The highest honest DAKU yield right now is 2.82% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAKU yield right now is 1.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7eed560d-f568-495f-85b6-80e84a8c6386&src=seo_token) | Solana | 2.82% | $198.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=7eed560d-f568-495f-85b6-80e84a8c6386&src=seo_token) | Solana | 1.43% | $195.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAKU yield today?
 
-2.82% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.43% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DAKU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $198.4K in total.
+1 live pool clear this page's $100K TVL floor, $195.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

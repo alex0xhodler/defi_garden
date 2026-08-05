@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SRUSDAT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $5.45M in total.
+3 live pools clear this page's $100K TVL floor, $5.46M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

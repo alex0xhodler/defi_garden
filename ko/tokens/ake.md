@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.16% | $3.84M |
+| [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.17% | $3.84M |
 | [raydium-amm →](https://www.defi.garden/?pool=4f141be3-4027-5cc0-a209-001afaa01af0&src=seo_token) | Solana | 0.17% | $3.71M |
 | [raydium-amm →](https://www.defi.garden/?pool=d9cbf1ad-eba5-5651-8540-e3fe37ca676f&src=seo_token) | Solana | 0.32% | $2.49M |
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.32%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

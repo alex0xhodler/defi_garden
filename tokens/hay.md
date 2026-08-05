@@ -29,11 +29,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

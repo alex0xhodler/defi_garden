@@ -1,10 +1,10 @@
 # QQQB DeFi Yields
 
-The highest honest QQQB yield right now is 17.93% on native-credit-pool (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QQQB yield right now is 18.03% on native-credit-pool (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token) | BSC | 17.93% | $4.6M |
+| [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token) | BSC | 18.03% | $4.6M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QQQB yield today?
 
-17.93% APY on native-credit-pool (BSC), based on live DefiLlama data.
+18.03% APY on native-credit-pool (BSC), based on live DefiLlama data.
 
 ### How many QQQB pools clear the TVL floor?
 
@@ -28,11 +28,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [TRX](https://www.defi.garden/tokens/trx)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

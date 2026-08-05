@@ -1,11 +1,11 @@
 # NEST 디파이 수익률
 
-현재 NEST의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 58.98%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NEST의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 59.90%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 56.00% | $410.8K |
-| [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 58.98% | $174.9K |
+| [nest-cl →](https://www.defi.garden/?pool=9c1ab8ef-8b23-4ebd-8ece-cf31aa64351a&src=seo_token) | Hyperliquid L1 | 57.44% | $416.8K |
+| [nest-amm →](https://www.defi.garden/?pool=545d2a5d-dc22-4e6e-9d7c-78990906d5be&src=seo_token) | Hyperliquid L1 | 59.90% | $178.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 NEST의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 58.98%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 59.90%예요.
 
 ### NEST 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $585.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $595K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 58.98%
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

@@ -1,11 +1,11 @@
 # ETHFI DeFi Yields
 
-The highest honest ETHFI yield right now is 33.39% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETHFI yield right now is 48.46% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c&src=seo_token) | Ethereum | 33.39% | $664.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf&src=seo_token) | Base | 6.77% | $118.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4d355012-df82-4874-95fd-c8d48c7b864c&src=seo_token) | Ethereum | 48.46% | $663.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7d48d657-2a08-4b99-b97d-a72c01805fcf&src=seo_token) | Base | 16.06% | $110.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ETHFI yield today?
 
-33.39% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+48.46% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ETHFI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $895.3K in total.
+3 live pools clear this page's $100K TVL floor, $885.3K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

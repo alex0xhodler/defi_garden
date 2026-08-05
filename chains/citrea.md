@@ -1,11 +1,11 @@
 # Citrea DeFi Yields
 
-The highest honest Citrea yield right now is 4.36% on accountable (Citrea), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Citrea yield right now is 4.36% on accountable (Citrea), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WCBTC | [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_chain) | 2.98% | $2.59M |
-| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 4.36% | $163.1K |
+| WCBTC | [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_chain) | 3.03% | $2.59M |
+| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 4.36% | $162.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Citrea pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.75M in total.
+3 live pools clear this page's $100K TVL floor, $4.51M in total.
 
 ### Are these rates safe?
 
@@ -26,15 +26,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Starknet](https://www.defi.garden/chains/starknet)
 - [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Base](https://www.defi.garden/chains/base)
 - [Tron](https://www.defi.garden/chains/tron)
-- [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Top tokens on Citrea
 
 - [WCBTC](https://www.defi.garden/tokens/wcbtc)
 - [CTUSD](https://www.defi.garden/tokens/ctusd)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

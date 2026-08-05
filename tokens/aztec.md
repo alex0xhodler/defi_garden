@@ -1,10 +1,10 @@
 # AZTEC DeFi Yields
 
-The highest honest AZTEC yield right now is 0.14% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AZTEC yield right now is 0.11% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d8a6c89a-f323-4362-948d-2ceb42cfe7a6&src=seo_token) | Ethereum | 0.14% | $12.27M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d8a6c89a-f323-4362-948d-2ceb42cfe7a6&src=seo_token) | Ethereum | 0.11% | $12.27M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AZTEC yield today?
 
-0.14% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.11% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many AZTEC pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

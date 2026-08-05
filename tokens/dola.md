@@ -1,17 +1,17 @@
 # DOLA DeFi Yields
 
-The highest honest DOLA yield right now is 6.01% on curve-dex (Ethereum), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOLA yield right now is 6.04% on curve-dex (Ethereum), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.69% | $39.75M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.59% | $32.12M |
-| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 5.48% | $7.49M |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.72% | $39.75M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.63% | $32.12M |
+| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 5.51% | $7.49M |
 | [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.14% | $6.08M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 4.42% | $5.57M |
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 0.76% | $795.6K |
-| [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token) | Ethereum | 6.01% | $498.1K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.70% | $335K |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 4.44% | $5.57M |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 0.82% | $794.9K |
+| [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token) | Ethereum | 6.04% | $498.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.70% | $335.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOLA yield today?
 
-6.01% APY on curve-dex (Ethereum), based on live DefiLlama data.
+6.04% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many DOLA pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $138.89M in total.
+16 live pools clear this page's $100K TVL floor, $138.9M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

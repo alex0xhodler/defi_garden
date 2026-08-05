@@ -1,11 +1,11 @@
 # QNT DeFi Yields
 
-The highest honest QNT yield right now is 11.13% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QNT yield right now is 10.99% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c&src=seo_token) | Ethereum | 11.13% | $450.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76&src=seo_token) | Ethereum | 8.90% | $422K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c&src=seo_token) | Ethereum | 10.99% | $454.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76&src=seo_token) | Ethereum | 9.42% | $426.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QNT yield today?
 
-11.13% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+10.99% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many QNT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $872.1K in total.
+2 live pools clear this page's $100K TVL floor, $880.9K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

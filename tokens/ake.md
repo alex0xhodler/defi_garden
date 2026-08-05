@@ -4,7 +4,7 @@ The highest honest AKE yield right now is 0.32% on raydium-amm (Solana), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.16% | $3.84M |
+| [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.17% | $3.84M |
 | [raydium-amm →](https://www.defi.garden/?pool=4f141be3-4027-5cc0-a209-001afaa01af0&src=seo_token) | Solana | 0.17% | $3.71M |
 | [raydium-amm →](https://www.defi.garden/?pool=d9cbf1ad-eba5-5651-8540-e3fe37ca676f&src=seo_token) | Solana | 0.32% | $2.49M |
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

@@ -1,11 +1,11 @@
 # JETTON DeFi Yields
 
-The highest honest JETTON yield right now is 84.20% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JETTON yield right now is 71.88% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 43.04% | $150.2K |
-| [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 84.20% | $120.5K |
+| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 31.32% | $152K |
+| [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 71.88% | $121.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JETTON yield today?
 
-84.20% APY on ston.fi (TON), based on live DefiLlama data.
+71.88% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many JETTON pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $270.7K in total.
+2 live pools clear this page's $100K TVL floor, $273.4K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

@@ -1,13 +1,13 @@
 # BBQAUSD DeFi Yields
 
-The highest honest BBQAUSD yield right now is 8.00% on morpho-blue (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BBQAUSD yield right now is 7.76% on morpho-blue (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 3.62% | $25.23M |
-| [morpho-blue →](https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token) | Ethereum | 3.66% | $1.01M |
-| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.06% | $333.2K |
-| [morpho-blue →](https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token) | Monad | 8.00% | $216K |
+| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 3.30% | $25.24M |
+| [morpho-blue →](https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token) | Ethereum | 3.30% | $1.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.78% | $337.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token) | Monad | 7.76% | $216.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BBQAUSD yield today?
 
-8.00% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.76% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many BBQAUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $26.79M in total.
+4 live pools clear this page's $100K TVL floor, $26.8M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

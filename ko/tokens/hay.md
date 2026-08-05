@@ -29,11 +29,11 @@ DefiLlama 실시간 데이터 기준, BSC의 wombat-exchange에서 APY 0.05%예�
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
-- [TRX](https://www.defi.garden/ko/tokens/trx)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
+- [TRX](https://www.defi.garden/ko/tokens/trx)
 
 ## 이용 가능한 체인
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

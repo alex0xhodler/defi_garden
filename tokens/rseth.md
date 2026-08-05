@@ -4,8 +4,8 @@ The highest honest RSETH yield right now is 2.39% on kelp (Ethereum), among 4 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kelp →](https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token) | Ethereum | 2.39% | $878.76M |
-| [fluid-dex →](https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token) | Ethereum | 0.04% | $4.04M |
+| [kelp →](https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token) | Ethereum | 2.39% | $877.86M |
+| [fluid-dex →](https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token) | Ethereum | 0.03% | $4.04M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RSETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $888.41M in total.
+4 live pools clear this page's $100K TVL floor, $887.51M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

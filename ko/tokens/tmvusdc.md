@@ -6,8 +6,8 @@
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 6.35% | $1.49M |
 | [pendle →](https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token) | Ethereum | 7.87% | $1.49M |
-| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 4.47% | $489.4K |
-| [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.43% | $489.1K |
+| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 4.39% | $489.4K |
+| [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.35% | $489.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 7.87%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

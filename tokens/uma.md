@@ -1,10 +1,10 @@
 # UMA DeFi Yields
 
-The highest honest UMA yield right now is 7.65% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UMA yield right now is 0.54% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8802c435-4e44-4bef-827f-d3a9fd85b75b&src=seo_token) | Ethereum | 7.65% | $137.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8802c435-4e44-4bef-827f-d3a9fd85b75b&src=seo_token) | Ethereum | 0.54% | $137K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UMA yield today?
 
-7.65% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.54% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many UMA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.1K in total.
+1 live pool clear this page's $100K TVL floor, $137K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

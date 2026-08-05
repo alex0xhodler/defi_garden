@@ -1,11 +1,11 @@
 # WEGLD DeFi Yields
 
-The highest honest WEGLD yield right now is 6.26% on xexchange (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WEGLD yield right now is 6.24% on xexchange (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 6.26% | $846.3K |
-| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 3.82% | $174.6K |
+| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 6.24% | $849.3K |
+| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 3.85% | $175.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WEGLD yield today?
 
-6.26% APY on xexchange (MultiversX), based on live DefiLlama data.
+6.24% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many WEGLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.02M in total.
+2 live pools clear this page's $100K TVL floor, $1.03M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

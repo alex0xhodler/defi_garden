@@ -1,11 +1,11 @@
 # AXLUSDC 디파이 수익률
 
-현재 AXLUSDC의 가장 높은 정직한 수익률은 Base의 curve-dex에서 6.56%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AXLUSDC의 가장 높은 정직한 수익률은 Base의 curve-dex에서 6.65%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 6.56% | $155.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=50d13551-57cc-4029-817f-21a8d018e9e7&src=seo_token) | OP Mainnet | 0.20% | $117.2K |
+| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 6.65% | $155.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=50d13551-57cc-4029-817f-21a8d018e9e7&src=seo_token) | OP Mainnet | 0.21% | $117.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 AXLUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 curve-dex에서 APY 6.56%예요.
+DefiLlama 실시간 데이터 기준, Base의 curve-dex에서 APY 6.65%예요.
 
 ### AXLUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Base의 curve-dex에서 APY 6.56%예요.
 - [Base](https://www.defi.garden/ko/chains/base)
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

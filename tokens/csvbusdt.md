@@ -1,10 +1,10 @@
 # CSVBUSDT DeFi Yields
 
-The highest honest CSVBUSDT yield right now is 4.79% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSVBUSDT yield right now is 4.58% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=130d0e23-8a40-5108-b9b6-fc754456a786&src=seo_token) | Katana | 4.79% | $1.75M |
+| [morpho-blue →](https://www.defi.garden/?pool=130d0e23-8a40-5108-b9b6-fc754456a786&src=seo_token) | Katana | 4.58% | $1.75M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSVBUSDT yield today?
 
-4.79% APY on morpho-blue (Katana), based on live DefiLlama data.
+4.58% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many CSVBUSDT pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

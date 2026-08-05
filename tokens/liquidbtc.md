@@ -1,10 +1,10 @@
 # LIQUIDBTC DeFi Yields
 
-The highest honest LIQUIDBTC yield right now is 1.44% on ether.fi-liquid (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIQUIDBTC yield right now is 1.63% on ether.fi-liquid (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-liquid →](https://www.defi.garden/?pool=2f063aed-0a5a-4ba5-8b63-8404b2a99fca&src=seo_token) | Ethereum | 1.44% | $8.92M |
+| [ether.fi-liquid →](https://www.defi.garden/?pool=2f063aed-0a5a-4ba5-8b63-8404b2a99fca&src=seo_token) | Ethereum | 1.63% | $8.94M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIQUIDBTC yield today?
 
-1.44% APY on ether.fi-liquid (Ethereum), based on live DefiLlama data.
+1.63% APY on ether.fi-liquid (Ethereum), based on live DefiLlama data.
 
 ### How many LIQUIDBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.92M in total.
+1 live pool clear this page's $100K TVL floor, $8.94M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

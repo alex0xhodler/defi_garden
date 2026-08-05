@@ -1,10 +1,10 @@
 # NEXO 디파이 수익률
 
-현재 NEXO의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 21.54%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NEXO의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 6.08%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bd6a0930-845b-4d5c-becd-368e7ec66ec2&src=seo_token) | Ethereum | 21.54% | $1.16M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bd6a0930-845b-4d5c-becd-368e7ec66ec2&src=seo_token) | Ethereum | 6.08% | $1.16M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,7 +12,7 @@
 
 ### 오늘 NEXO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 21.54%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 6.08%예요.
 
 ### NEXO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 21.54%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

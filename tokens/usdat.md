@@ -4,7 +4,7 @@ The highest honest USDAT yield right now is 14.16% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 2.38% | $9.62M |
+| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 1.08% | $9.62M |
 | [pendle →](https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token) | Ethereum | 1.55% | $8.28M |
 | [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 5.89% | $8.28M |
 | [pendle →](https://www.defi.garden/?pool=0f93ea50-c40c-5b6a-93fd-41cc4b5cacbe&src=seo_token) | Monad | 6.29% | $2.08M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDAT pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $52.28M in total.
+13 live pools clear this page's $100K TVL floor, $52.5M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Monad](https://www.defi.garden/chains/monad)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

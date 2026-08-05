@@ -1,11 +1,11 @@
 # ADOT DeFi Yields
 
-The highest honest ADOT yield right now is 7.66% on hydration-dex (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ADOT yield right now is 7.79% on hydration-dex (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.58% | $3.75M |
-| [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 7.66% | $1.6M |
+| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.59% | $3.86M |
+| [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 7.79% | $1.66M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ADOT yield today?
 
-7.66% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+7.79% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many ADOT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.35M in total.
+2 live pools clear this page's $100K TVL floor, $5.53M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

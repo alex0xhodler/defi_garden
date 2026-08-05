@@ -1,10 +1,10 @@
 # USDA DeFi Yields
 
-The highest honest USDA yield right now is 17.73% on minswap-dex (Cardano), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDA yield right now is 17.53% on minswap-dex (Cardano), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.73% | $684.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.53% | $683.2K |
 | [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token) | Cardano | 16.33% | $224K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDA yield today?
 
-17.73% APY on minswap-dex (Cardano), based on live DefiLlama data.
+17.53% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many USDA pools clear the TVL floor?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

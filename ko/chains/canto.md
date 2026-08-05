@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Canto의 canto-lending에서 APY 13.61%예
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

@@ -4,14 +4,14 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13&src=seo_token) | Solana | 0.05% | $9.4M |
-| [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0&src=seo_token) | Solana | 2.27% | $7.19M |
-| [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token) | Solana | 0.08% | $4.68M |
-| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.04% | $4.53M |
-| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda&src=seo_token) | Solana | 0.05% | $2.99M |
-| [raydium-amm →](https://www.defi.garden/?pool=89101a75-3f6d-4093-bfdc-187a19cae15c&src=seo_token) | Solana | 0.14% | $1.03M |
+| [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13&src=seo_token) | Solana | 0.08% | $9.39M |
+| [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0&src=seo_token) | Solana | 2.29% | $7.11M |
+| [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token) | Solana | 0.10% | $4.68M |
+| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.09% | $4.54M |
+| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda&src=seo_token) | Solana | 0.03% | $2.99M |
+| [raydium-amm →](https://www.defi.garden/?pool=89101a75-3f6d-4093-bfdc-187a19cae15c&src=seo_token) | Solana | 0.11% | $1.03M |
 | [loopscale →](https://www.defi.garden/?pool=8847526a-17a9-46d9-b42d-04617ad31793&src=seo_token) | Solana | 2.07% | $1.02M |
-| [loopscale →](https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token) | Solana | 5.51% | $205K |
+| [loopscale →](https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token) | Solana | 5.51% | $204.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 5.51%예요.
 
 ### USX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $53.1M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $53.02M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,4 +42,4 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 5.51%예요.
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=0e022695-0c2a-4682-b93a-fffd8723fe7f&src=seo_token) | Hyperliquid L1 | 2.51% | $1.24M |
 | [pendle →](https://www.defi.garden/?pool=c15de172-944b-4303-971c-7a6e7564ad38&src=seo_token) | Hyperliquid L1 | 2.38% | $1.24M |
+| [pendle →](https://www.defi.garden/?pool=0e022695-0c2a-4682-b93a-fffd8723fe7f&src=seo_token) | Hyperliquid L1 | 2.51% | $1.24M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 pendle에서 APY 2.51%�
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Defichain의 defichain-dex에서 APY 0.66%
 
 - [Defichain](https://www.defi.garden/ko/chains/defichain)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

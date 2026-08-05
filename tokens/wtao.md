@@ -1,13 +1,13 @@
 # WTAO DeFi Yields
 
-The highest honest WTAO yield right now is 13.88% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WTAO yield right now is 88.55% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token) | Ethereum | 13.88% | $2.05M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 10.38% | $911.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 10.07% | $291.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token) | Ethereum | 0.85% | $225K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token) | Ethereum | 88.55% | $2.03M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 53.12% | $929.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 21.50% | $297K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token) | Ethereum | 3.87% | $229.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WTAO yield today?
 
-13.88% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+88.55% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WTAO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.48M in total.
+4 live pools clear this page's $100K TVL floor, $3.49M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

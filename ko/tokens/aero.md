@@ -1,17 +1,17 @@
 # AERO 디파이 수익률
 
-현재 AERO의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 81.85%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AERO의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 266.98%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token) | Base | 20.10% | $25.04M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token) | Base | 22.03% | $8.92M |
-| [moonwell-lending →](https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token) | Base | 1.41% | $6.11M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token) | Base | 46.53% | $4.11M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token) | Base | 68.49% | $3.03M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token) | Base | 3.96% | $2.95M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token) | Base | 16.99% | $2.37M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 81.85% | $1.89M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d32f9c01-47d1-4077-8c73-8b91b08d1e91&src=seo_token) | Base | 20.21% | $25.18M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=a8a60a49-4a0d-4ba4-93ec-2b3006a71b2d&src=seo_token) | Base | 22.16% | $8.98M |
+| [moonwell-lending →](https://www.defi.garden/?pool=52fdf254-e837-4f8f-955f-993c3fb31f91&src=seo_token) | Base | 1.26% | $6.31M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=31ed7657-e02c-427b-8e3e-c0bf24e6cb9b&src=seo_token) | Base | 46.49% | $4.18M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=590bc66e-6cbf-467c-baf8-93f98b2679e4&src=seo_token) | Base | 3.96% | $2.98M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=69c0fc74-dee5-4c60-9aed-a593661d54ea&src=seo_token) | Base | 17.10% | $2.38M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 82.26% | $1.9M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3aebe700-db0b-49e2-82f6-564acdfae434&src=seo_token) | Base | 266.98% | $1.19M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 AERO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 81.85%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 266.98%예요.
 
 ### AERO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $62.65M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $60.39M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,4 +42,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 81.85%예�
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

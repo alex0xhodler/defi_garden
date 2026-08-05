@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_token) | Kava | 6.18% | $7.37M |
-| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5&src=seo_token) | Cronos | 0.25% | $1.96M |
-| [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae&src=seo_token) | Solana | 0.61% | $363.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5&src=seo_token) | Cronos | 0.29% | $1.96M |
+| [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae&src=seo_token) | Solana | 0.55% | $362.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Kava의 scrub-invest에서 APY 6.18%예요
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 5, 2026

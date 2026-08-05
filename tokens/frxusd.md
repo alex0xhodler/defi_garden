@@ -1,17 +1,17 @@
 # FRXUSD DeFi Yields
 
-The highest honest FRXUSD yield right now is 18.15% on curve-dex (Ethereum), among 88 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRXUSD yield right now is 21.67% on curve-dex (Ethereum), among 88 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 2.62% | $13.87M |
+| [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 2.68% | $13.87M |
 | [aave-v4 →](https://www.defi.garden/?pool=44da6781-e5d3-4b77-8171-e55571a8cc22&src=seo_token) | Ethereum | 1.10% | $13.16M |
-| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.01% | $11.84M |
-| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.40% | $11.84M |
-| [convex-finance →](https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token) | Ethereum | 4.89% | $9.26M |
-| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 18.15% | $6.15M |
+| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.03% | $11.85M |
+| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.42% | $11.85M |
+| [convex-finance →](https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token) | Ethereum | 4.96% | $9.26M |
+| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 21.67% | $6.1M |
 | [fraxlend →](https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token) | Ethereum | 2.75% | $5.67M |
-| [stake-dao →](https://www.defi.garden/?pool=c78ba685-40ec-4ddb-859e-e57de41391ff&src=seo_token) | Ethereum | 4.96% | $4.21M |
+| [stake-dao →](https://www.defi.garden/?pool=c78ba685-40ec-4ddb-859e-e57de41391ff&src=seo_token) | Ethereum | 4.94% | $4.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FRXUSD yield today?
 
-18.15% APY on curve-dex (Ethereum), based on live DefiLlama data.
+21.67% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many FRXUSD pools clear the TVL floor?
 
-88 live pools clear this page's $100K TVL floor, $146.45M in total.
+88 live pools clear this page's $100K TVL floor, $143.68M in total.
 
 ### Are these rates safe?
 
@@ -42,4 +42,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026

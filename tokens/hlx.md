@@ -1,12 +1,12 @@
 # HLX DeFi Yields
 
-The highest honest HLX yield right now is 78.68% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HLX yield right now is 84.49% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 78.68% | $341.8K |
-| [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f&src=seo_token) | Ethereum | 1.02% | $245.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 3.95% | $193.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 84.49% | $340K |
+| [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f&src=seo_token) | Ethereum | 2.19% | $246K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 4.93% | $194.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HLX yield today?
 
-78.68% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+84.49% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many HLX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $886.5K in total.
+4 live pools clear this page's $100K TVL floor, $886.2K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 5, 2026
