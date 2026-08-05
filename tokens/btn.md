@@ -1,10 +1,10 @@
 # BTN DeFi Yields
 
-The highest honest BTN yield right now is 2.91% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTN yield right now is 4.32% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=29e5362c-53da-41c5-a33f-66c33fa4c2d1&src=seo_token) | Base | 2.91% | $150.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=29e5362c-53da-41c5-a33f-66c33fa4c2d1&src=seo_token) | Base | 4.32% | $150.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTN yield today?
 
-2.91% APY on uniswap-v3 (Base), based on live DefiLlama data.
+4.32% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many BTN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $150.7K in total.
+1 live pool clear this page's $100K TVL floor, $150.9K in total.
 
 ### Are these rates safe?
 

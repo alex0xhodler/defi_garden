@@ -1,10 +1,11 @@
 # ORDER DeFi Yields
 
-The highest honest ORDER yield right now is 2.25% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ORDER yield right now is 2.03% on pancakeswap-amm-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token) | Solana | 2.25% | $110.5K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token) | Ethereum | 0.09% | $283.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token) | Solana | 2.03% | $110.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ORDER yield today?
 
-2.25% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.03% APY on pancakeswap-amm-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ORDER pools clear the TVL floor?
 
@@ -24,15 +25,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
 ## Last updated August 5, 2026

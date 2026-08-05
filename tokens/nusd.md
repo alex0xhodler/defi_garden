@@ -4,7 +4,7 @@ The highest honest NUSD yield right now is 6.09% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=4fbc98be-3a49-420e-86c0-bf783b6ddc4c&src=seo_token) | Ethereum | 1.27% | $3.54M |
+| [curve-dex →](https://www.defi.garden/?pool=4fbc98be-3a49-420e-86c0-bf783b6ddc4c&src=seo_token) | Ethereum | 1.02% | $3.54M |
 | [pendle →](https://www.defi.garden/?pool=062773f0-9874-4ba2-8ddc-9264e0ffebd7&src=seo_token) | Ethereum | 1.68% | $179.6K |
 | [pendle →](https://www.defi.garden/?pool=24f4863f-d6dc-421e-a22b-a3e8234b735e&src=seo_token) | Ethereum | 6.09% | $179.6K |
 

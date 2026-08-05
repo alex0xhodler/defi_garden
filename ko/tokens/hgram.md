@@ -26,10 +26,10 @@ DefiLlama 실시간 데이터 기준, TON의 hipo에서 APY 16.61%예요.
 
 - [GRAM](https://www.defi.garden/ko/tokens/gram)
 - [TSTON](https://www.defi.garden/ko/tokens/tston)
+- [OPENAI](https://www.defi.garden/ko/tokens/openai)
 - [XAUT0](https://www.defi.garden/ko/tokens/xaut0)
 - [UTYA](https://www.defi.garden/ko/tokens/utya)
 - [STON](https://www.defi.garden/ko/tokens/ston)
-- [STORM](https://www.defi.garden/ko/tokens/storm)
 
 ## 이용 가능한 체인
 

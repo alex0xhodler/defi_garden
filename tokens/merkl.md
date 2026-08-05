@@ -1,10 +1,10 @@
 # MERKL DeFi Yields
 
-The highest honest MERKL yield right now is 7.26% on origami-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MERKL yield right now is 7.57% on origami-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.26% | $369K |
+| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.57% | $369.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MERKL yield today?
 
-7.26% APY on origami-finance (Ethereum), based on live DefiLlama data.
+7.57% APY on origami-finance (Ethereum), based on live DefiLlama data.
 
 ### How many MERKL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $369K in total.
+1 live pool clear this page's $100K TVL floor, $369.3K in total.
 
 ### Are these rates safe?
 

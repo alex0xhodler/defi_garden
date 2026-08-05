@@ -4,7 +4,7 @@ The highest honest DCAI yield right now is 3.41% on uniswap-v2 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=52313960-b547-49aa-97d5-9a3eeebe6d15&src=seo_token) | Base | 3.41% | $364.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=52313960-b547-49aa-97d5-9a3eeebe6d15&src=seo_token) | Base | 3.41% | $364.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DCAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $364.6K in total.
+1 live pool clear this page's $100K TVL floor, $364.9K in total.
 
 ### Are these rates safe?
 

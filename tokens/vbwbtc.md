@@ -1,11 +1,11 @@
 # VBWBTC DeFi Yields
 
-The highest honest VBWBTC yield right now is 1.31% on yearn-finance (Katana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBWBTC yield right now is 1.29% on yearn-finance (Katana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 0.72% | $1.31M |
-| [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 1.31% | $962.1K |
+| [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 0.71% | $1.31M |
+| [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 1.29% | $958.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VBWBTC yield today?
 
-1.31% APY on yearn-finance (Katana), based on live DefiLlama data.
+1.29% APY on yearn-finance (Katana), based on live DefiLlama data.
 
 ### How many VBWBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $25.13M in total.
+4 live pools clear this page's $100K TVL floor, $25.12M in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # ROBOTMONEY DeFi Yields
 
-The highest honest ROBOTMONEY yield right now is 8.24% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROBOTMONEY yield right now is 6.80% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0cf3c4fa-3e1c-4912-804b-e090f9549fcc&src=seo_token) | Base | 8.24% | $269.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0cf3c4fa-3e1c-4912-804b-e090f9549fcc&src=seo_token) | Base | 6.80% | $271.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROBOTMONEY yield today?
 
-8.24% APY on uniswap-v4 (Base), based on live DefiLlama data.
+6.80% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many ROBOTMONEY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $436.7K in total.
+2 live pools clear this page's $100K TVL floor, $440.3K in total.
 
 ### Are these rates safe?
 

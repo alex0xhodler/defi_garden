@@ -4,8 +4,8 @@ The highest honest ALD yield right now is 0.19% on curve-dex (Ethereum), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.18% | $447.6K |
-| [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.19% | $447.4K |
+| [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.18% | $448.6K |
+| [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.19% | $448.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ALD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $895K in total.
+2 live pools clear this page's $100K TVL floor, $897.1K in total.
 
 ### Are these rates safe?
 

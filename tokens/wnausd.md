@@ -1,11 +1,11 @@
 # WNAUSD DeFi Yields
 
-The highest honest WNAUSD yield right now is 15.32% on balancer-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WNAUSD yield right now is 15.31% on balancer-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 9.40% | $7.95M |
-| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 15.32% | $116.2K |
+| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 9.49% | $6.28M |
+| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 15.31% | $116.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WNAUSD yield today?
 
-15.32% APY on balancer-v3 (Monad), based on live DefiLlama data.
+15.31% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many WNAUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $10.62M in total.
+3 live pools clear this page's $100K TVL floor, $7.27M in total.
 
 ### Are these rates safe?
 

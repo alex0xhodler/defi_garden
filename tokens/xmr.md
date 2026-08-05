@@ -4,12 +4,12 @@ The highest honest XMR yield right now is 0.14% on raydium-amm (Solana), among 8
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1fd548b1-c3f8-5794-adb2-04764d66e43b&src=seo_token) | Solana | 0.01% | $42.83M |
+| [raydium-amm →](https://www.defi.garden/?pool=1fd548b1-c3f8-5794-adb2-04764d66e43b&src=seo_token) | Solana | 0.02% | $42.83M |
 | [raydium-amm →](https://www.defi.garden/?pool=6dcaa44a-25a5-5ef4-b9ad-c8bdc0206a12&src=seo_token) | Solana | 0.12% | $21.87M |
 | [raydium-amm →](https://www.defi.garden/?pool=7c5b28ca-057f-5b12-bf1b-d53696cf9377&src=seo_token) | Solana | 0.01% | $21.85M |
 | [raydium-amm →](https://www.defi.garden/?pool=541701d0-895e-57d5-8eec-d6b4352e15a3&src=seo_token) | Solana | 0.12% | $21.8M |
 | [raydium-amm →](https://www.defi.garden/?pool=3cd5f33f-9adb-5e1e-a0f7-c8b0be848c02&src=seo_token) | Solana | 0.14% | $21.66M |
-| [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.10% | $21.53M |
+| [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.02% | $21.53M |
 | [raydium-amm →](https://www.defi.garden/?pool=8091a438-ca9d-5e41-83cc-eee25682c361&src=seo_token) | Solana | 0.05% | $21.19M |
 | [raydium-amm →](https://www.defi.garden/?pool=4e58fe6c-f3f6-5730-821c-65ba5b3369de&src=seo_token) | Solana | 0.09% | $20.48M |
 
@@ -32,11 +32,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [STRX](https://www.defi.garden/tokens/strx)
 
 ## Available on
 

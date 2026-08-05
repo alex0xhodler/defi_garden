@@ -5,7 +5,7 @@ The highest honest CDCBTC yield right now is 0.25% on tectonic (Cronos), among 2
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [tectonic →](https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token) | Cronos | 0.01% | $2.14M |
-| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.25% | $269.9K |
+| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.25% | $269.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,10 +27,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
-- [PAXG](https://www.defi.garden/tokens/paxg)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [XRP](https://www.defi.garden/tokens/xrp)
+- [LION](https://www.defi.garden/tokens/lion)
 
 ## Available on
 

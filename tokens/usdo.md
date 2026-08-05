@@ -1,11 +1,11 @@
 # USDO DeFi Yields
 
-The highest honest USDO yield right now is 3.08% on openeden-usdo (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDO yield right now is 3.10% on openeden-usdo (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.08% | $25.94M |
-| [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.08% | $190K |
+| [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.10% | $25.94M |
+| [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $190K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDO yield today?
 
-3.08% APY on openeden-usdo (Ethereum), based on live DefiLlama data.
+3.10% APY on openeden-usdo (Ethereum), based on live DefiLlama data.
 
 ### How many USDO pools clear the TVL floor?
 

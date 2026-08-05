@@ -7,6 +7,7 @@
 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.20% | $958.1K |
 | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.06% | $742.9K |
 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.16% | $563.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 0.01% | $119K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -26,15 +27,16 @@ DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.20%예
 
 ## 관련 토큰
 
-- [BNB](https://www.defi.garden/ko/tokens/bnb)
-- [XUSD](https://www.defi.garden/ko/tokens/xusd)
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Rootstock](https://www.defi.garden/ko/chains/rootstock)
+- [Base](https://www.defi.garden/ko/chains/base)
 
 ## 마지막 업데이트: August 5, 2026

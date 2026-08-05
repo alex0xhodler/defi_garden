@@ -1,10 +1,10 @@
 # CLAWBANK DeFi Yields
 
-The highest honest CLAWBANK yield right now is 8.37% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLAWBANK yield right now is 6.09% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=485cbeb8-9b0e-4808-84fe-0fc74c276b3e&src=seo_token) | Base | 8.37% | $568.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=485cbeb8-9b0e-4808-84fe-0fc74c276b3e&src=seo_token) | Base | 6.09% | $568.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CLAWBANK yield today?
 
-8.37% APY on uniswap-v4 (Base), based on live DefiLlama data.
+6.09% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CLAWBANK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $568.8K in total.
+1 live pool clear this page's $100K TVL floor, $568.5K in total.
 
 ### Are these rates safe?
 

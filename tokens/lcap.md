@@ -1,16 +1,16 @@
 # LCAP DeFi Yields
 
-The highest honest LCAP yield right now is 38.46% on aerodrome-slipstream (Base), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LCAP yield right now is 38.01% on aerodrome-slipstream (Base), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token) | Base | 13.02% | $418.3K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 36.20% | $277K |
-| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 38.46% | $201.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token) | Base | 12.95% | $419.1K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 36.01% | $276.8K |
+| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 38.01% | $201.7K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 4.46% | $169.8K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 27.34% | $155.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token) | Base | 32.08% | $142.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 13.18% | $122.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 27.32% | $156K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token) | Base | 31.70% | $142.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 13.14% | $122.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LCAP yield today?
 
-38.46% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+38.01% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many LCAP pools clear the TVL floor?
 

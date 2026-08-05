@@ -1,12 +1,13 @@
 # Xlayer DeFi Yields
 
-The highest honest Xlayer yield right now is 1.32% on aave-v3 (Xlayer), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Xlayer yield right now is 1.32% on aave-v3 (Xlayer), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 0.23% | $44.31M |
-| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.38% | $10.29M |
-| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 1.32% | $346.5K |
+| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 0.23% | $44.25M |
+| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.37% | $10.51M |
+| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 1.32% | $347.5K |
+| XSOL | [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8&src=seo_chain) | 0.02% | $127.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Xlayer pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $84.37M in total.
+6 live pools clear this page's $100K TVL floor, $85.01M in total.
 
 ### Are these rates safe?
 
@@ -37,5 +38,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [XETH](https://www.defi.garden/tokens/xeth)
 - [USDG](https://www.defi.garden/tokens/usdg)
+- [XSOL](https://www.defi.garden/tokens/xsol)
 
 ## Last updated August 5, 2026

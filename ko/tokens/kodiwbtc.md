@@ -1,13 +1,13 @@
 # KODIWBTC 디파이 수익률
 
-현재 KODIWBTC의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 31.35%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KODIWBTC의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 31.29%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_token) | Berachain | 3.26% | $918.8K |
-| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 31.35% | $239.6K |
-| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 12.60% | $165.5K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 23.83% | $103.8K |
+| [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_token) | Berachain | 3.57% | $921.2K |
+| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 31.29% | $242.7K |
+| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 13.00% | $164.8K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 26.87% | $104K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +15,7 @@
 
 ### 오늘 KODIWBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 31.35%예요.
+DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 31.29%예요.
 
 ### KODIWBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

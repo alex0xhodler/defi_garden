@@ -4,7 +4,7 @@ The highest honest SMUSD yield right now is 3.12% on mezo-vaults (Mezo), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_token) | Mezo | 3.12% | $5.52M |
+| [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_token) | Mezo | 3.12% | $5.51M |
 | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_token) | Mezo | 0.71% | $2.09M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SMUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.61M in total.
+2 live pools clear this page's $100K TVL floor, $7.6M in total.
 
 ### Are these rates safe?
 

@@ -1,17 +1,17 @@
 # USDC.E 디파이 수익률
 
-현재 USDC.E의 가장 높은 정직한 수익률은 Flare의 sparkdex-v3.1에서 6.97%이며, $100K TVL 기준을 넘는 32개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDC.E의 가장 높은 정직한 수익률은 Flare의 sparkdex-v3.1에서 6.94%이며, $100K TVL 기준을 넘는 32개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.04% | $6.44M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 6.97% | $1.62M |
-| [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 3.00% | $653.4K |
-| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.13% | $641.2K |
-| [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 2.42% | $537.6K |
-| [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.87% | $474.7K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 3.45% | $418.6K |
-| [symbiosis →](https://www.defi.garden/?pool=1437c28a-0faa-40bb-a987-884134c45d2f&src=seo_token) | Polygon | 0.26% | $367.9K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 6.94% | $1.62M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 5.28% | $937.5K |
+| [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.99% | $661.4K |
+| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.12% | $641K |
+| [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 2.42% | $537.3K |
+| [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.87% | $474.6K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 3.32% | $419.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@
 
 ### 오늘 USDC.E의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v3.1에서 APY 6.97%예요.
+DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v3.1에서 APY 6.94%예요.
 
 ### USDC.E 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -41,10 +41,9 @@ DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v3.1에서 APY 6.97%예�
 ## 이용 가능한 체인
 
 - [Flare](https://www.defi.garden/ko/chains/flare)
-- [Gnosis](https://www.defi.garden/ko/chains/gnosis)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
+- [Gnosis](https://www.defi.garden/ko/chains/gnosis)
 - [Sonic](https://www.defi.garden/ko/chains/sonic)
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
-- [Polygon](https://www.defi.garden/ko/chains/polygon)
 
 ## 마지막 업데이트: August 5, 2026

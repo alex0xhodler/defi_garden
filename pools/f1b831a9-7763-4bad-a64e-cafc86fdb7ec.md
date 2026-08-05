@@ -1,8 +1,8 @@
 # CRV-CVXCRV — convex-finance on Ethereum
 
-**Total APY:** 0.31% (0.23% Base · + 0.08% Rewards)
+**Total APY:** 0.30% (0.23% Base · + 0.07% Rewards)
 
-**TVL:** $135.5K
+**TVL:** $139.2K
 
 **Pool Type:** Yield Farming
 

@@ -4,7 +4,7 @@ The highest honest USN yield right now is 2.88% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ff5f9bc2-741f-4e44-bd80-d81798ba22a3&src=seo_token) | Ethereum | 0.01% | $1.21M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ff5f9bc2-741f-4e44-bd80-d81798ba22a3&src=seo_token) | Ethereum | 0.02% | $1.21M |
 | [ekubo →](https://www.defi.garden/?pool=f4f5c7bc-9675-4a9a-9b5a-d33991e80f6d&src=seo_token) | Starknet | 2.88% | $551.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

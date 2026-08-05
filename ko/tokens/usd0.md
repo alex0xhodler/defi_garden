@@ -6,8 +6,8 @@
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.04% | $3.71M |
 | [euler-v2 →](https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token) | Ethereum | 1.15% | $3.66M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 0.47% | $3.56M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token) | Ethereum | 0.46% | $1.76M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 0.57% | $3.56M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token) | Ethereum | 0.45% | $1.76M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

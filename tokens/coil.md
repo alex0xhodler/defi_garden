@@ -1,10 +1,10 @@
 # COIL DeFi Yields
 
-The highest honest COIL yield right now is 0.05% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COIL yield right now is 0.04% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=73e3e64e-a8bf-4956-bd89-16d7e732152d&src=seo_token) | Ethereum | 0.05% | $212.8K |
+| [convex-finance →](https://www.defi.garden/?pool=73e3e64e-a8bf-4956-bd89-16d7e732152d&src=seo_token) | Ethereum | 0.04% | $212.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COIL yield today?
 
-0.05% APY on convex-finance (Ethereum), based on live DefiLlama data.
+0.04% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many COIL pools clear the TVL floor?
 

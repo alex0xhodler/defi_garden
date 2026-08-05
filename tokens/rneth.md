@@ -4,7 +4,7 @@ The highest honest RNETH yield right now is 2.42% on nodedao (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nodedao →](https://www.defi.garden/?pool=cb82fc8f-ea76-4823-b53b-98ee7486efce&src=seo_token) | Ethereum | 2.42% | $17.89M |
+| [nodedao →](https://www.defi.garden/?pool=cb82fc8f-ea76-4823-b53b-98ee7486efce&src=seo_token) | Ethereum | 2.42% | $17.88M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RNETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $17.89M in total.
+1 live pool clear this page's $100K TVL floor, $17.88M in total.
 
 ### Are these rates safe?
 

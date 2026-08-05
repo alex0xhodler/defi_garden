@@ -1,10 +1,10 @@
 # AVGOX DeFi Yields
 
-The highest honest AVGOX yield right now is 76.98% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVGOX yield right now is 50.25% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5877c8cd-f400-4dec-a998-2b54a6676c5c&src=seo_token) | Solana | 76.98% | $127.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=5877c8cd-f400-4dec-a998-2b54a6676c5c&src=seo_token) | Solana | 50.25% | $127.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AVGOX yield today?
 
-76.98% APY on raydium-amm (Solana), based on live DefiLlama data.
+50.25% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AVGOX pools clear the TVL floor?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [STRX](https://www.defi.garden/tokens/strx)
 
 ## Available on
 

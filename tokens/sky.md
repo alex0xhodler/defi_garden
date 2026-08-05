@@ -1,16 +1,16 @@
 # SKY DeFi Yields
 
-The highest honest SKY yield right now is 24.61% on sky-lending (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKY yield right now is 16.37% on sky-lending (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token) | Ethereum | 6.75% | $978.7M |
-| [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token) | Ethereum | 6.82% | $2.98M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token) | Ethereum | 6.37% | $2.32M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token) | Ethereum | 15.23% | $986.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 6.58% | $435.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 24.61% | $200.7K |
-| [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 1.15% | $118.4K |
+| [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token) | Ethereum | 6.75% | $976.02M |
+| [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token) | Ethereum | 6.82% | $2.97M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token) | Ethereum | 4.98% | $2.32M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token) | Ethereum | 11.95% | $985.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 4.81% | $435.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 16.37% | $200.6K |
+| [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 1.14% | $117.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,11 +18,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKY yield today?
 
-24.61% APY on sky-lending (Ethereum), based on live DefiLlama data.
+16.37% APY on sky-lending (Ethereum), based on live DefiLlama data.
 
 ### How many SKY pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $992.48M in total.
+10 live pools clear this page's $100K TVL floor, $989.78M in total.
 
 ### Are these rates safe?
 

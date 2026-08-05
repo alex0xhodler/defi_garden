@@ -4,7 +4,7 @@ The highest honest ROXUSDCY yield right now is 6.99% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=caa9ffc0-2983-4c18-9556-4e3ad4dfe6ac&src=seo_token) | Ethereum | 6.99% | $19.62M |
+| [morpho-blue →](https://www.defi.garden/?pool=caa9ffc0-2983-4c18-9556-4e3ad4dfe6ac&src=seo_token) | Ethereum | 6.99% | $19.66M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROXUSDCY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $19.62M in total.
+1 live pool clear this page's $100K TVL floor, $19.66M in total.
 
 ### Are these rates safe?
 

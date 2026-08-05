@@ -1,11 +1,12 @@
 # BOTTO DeFi Yields
 
-The highest honest BOTTO yield right now is 130.00% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOTTO yield right now is 129.07% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 130.00% | $162.4K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token) | Ethereum | 0.04% | $141.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cedb1cd2-ecd9-4b76-ae63-6d6f95a81578&src=seo_token) | Ethereum | 0.06% | $486.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 129.07% | $163.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token) | Ethereum | 0.11% | $142.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOTTO yield today?
 
-130.00% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+129.07% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BOTTO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $786.7K in total.
+3 live pools clear this page's $100K TVL floor, $791.8K in total.
 
 ### Are these rates safe?
 
@@ -34,7 +35,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Available on
 
-- [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Base](https://www.defi.garden/chains/base)
 
 ## Last updated August 5, 2026

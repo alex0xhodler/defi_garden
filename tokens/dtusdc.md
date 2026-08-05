@@ -1,10 +1,10 @@
 # DTUSDC DeFi Yields
 
-The highest honest DTUSDC yield right now is 4.82% on lagoon (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DTUSDC yield right now is 4.60% on lagoon (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=e4f8123d-1e03-408e-869a-76708a62bc89&src=seo_token) | Base | 4.82% | $634.1K |
+| [lagoon →](https://www.defi.garden/?pool=e4f8123d-1e03-408e-869a-76708a62bc89&src=seo_token) | Base | 4.60% | $642.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DTUSDC yield today?
 
-4.82% APY on lagoon (Base), based on live DefiLlama data.
+4.60% APY on lagoon (Base), based on live DefiLlama data.
 
 ### How many DTUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $634.1K in total.
+1 live pool clear this page's $100K TVL floor, $642.5K in total.
 
 ### Are these rates safe?
 

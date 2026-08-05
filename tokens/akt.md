@@ -1,12 +1,12 @@
 # AKT DeFi Yields
 
-The highest honest AKT yield right now is 7.65% on osmosis-dex (Osmosis), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AKT yield right now is 7.77% on osmosis-dex (Osmosis), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83&src=seo_token) | Osmosis | 0.06% | $179K |
-| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 7.65% | $159.9K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.47% | $113.2K |
+| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83&src=seo_token) | Osmosis | 0.07% | $177K |
+| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 7.77% | $157.7K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.50% | $112.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AKT yield today?
 
-7.65% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+7.77% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many AKT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $452.1K in total.
+3 live pools clear this page's $100K TVL floor, $447.2K in total.
 
 ### Are these rates safe?
 

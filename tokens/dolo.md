@@ -1,10 +1,10 @@
 # DOLO DeFi Yields
 
-The highest honest DOLO yield right now is 8.51% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOLO yield right now is 10.07% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e8820c1d-150d-4fb3-91d1-281683ca9915&src=seo_token) | Ethereum | 8.51% | $162K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e8820c1d-150d-4fb3-91d1-281683ca9915&src=seo_token) | Ethereum | 10.07% | $159.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOLO yield today?
 
-8.51% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+10.07% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many DOLO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.17M in total.
+3 live pools clear this page's $100K TVL floor, $1.15M in total.
 
 ### Are these rates safe?
 

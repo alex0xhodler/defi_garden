@@ -4,7 +4,7 @@ The highest honest EGLD yield right now is 1.05% on hatom-lending (MultiversX), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_token) | MultiversX | 1.05% | $287.5K |
+| [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_token) | MultiversX | 1.05% | $289.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EGLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $287.5K in total.
+1 live pool clear this page's $100K TVL floor, $289.3K in total.
 
 ### Are these rates safe?
 
