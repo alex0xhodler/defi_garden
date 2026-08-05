@@ -36,7 +36,12 @@ const translations = {
     showingResults: (count) => `${count} pool${count !== 1 ? 's' : ''} found`,
     chainYields: (chain) => `${chain} DeFi Yields`,
     tokenYields: (token, chain) => `Yields for ${token}${chain ? ` on ${chain}` : ''}`,
-    
+    sortByLabel: "Sort by:",
+    // 225 round 3 increment (a): results panel column labels + sort-control text
+    resultsColPool: "Pool",
+    resultsColApy: "APY",
+    resultsColTvl: "TVL",
+
     // Pool card labels
     totalApy: "Total APY",
     baseApy: "Base APY:",
@@ -111,7 +116,11 @@ const translations = {
     calcSubPrompt: "See your daily, weekly & monthly returns",
     basedOnInvestment: (amount) => `Based on $${Number(amount || 0).toLocaleString('en-US')} investment`,
     verified: "✓ Verified",
-    onProtocolChain: (protocol, chain, hasUrl) => `on ${protocol} • ${chain}${hasUrl ? ' ↗' : ''}`,
+    // 225 round 3 increment (a): plain secondary metadata line, sentence
+    // case, middle-dot separator — no "on " prefix, no bullet glyph, no
+    // link arrow (the row already navigates on click; the arrow implied an
+    // outbound link this text never was).
+    onProtocolChain: (protocol, chain) => `${protocol} · ${chain}`,
     poolProtocolLogoAlt: (project) => `${project} logo`,
     poolChainLogoAlt: (chain) => `${chain} logo`,
     tvl: "TVL",
@@ -765,7 +774,12 @@ const translations = {
     showingResults: (count) => `${count}개 풀 발견`,
     chainYields: (chain) => `${chain} DeFi 수익률`,
     tokenYields: (token, chain) => `${token} 수익률${chain ? ` (${chain})` : ''}`,
-    
+    sortByLabel: "정렬:",
+    // 225 round 3 increment (a): results panel column labels + sort-control text
+    resultsColPool: "풀",
+    resultsColApy: "APY",
+    resultsColTvl: "TVL",
+
     // Pool card labels
     totalApy: "총 APY",
     baseApy: "기본 APY:",
@@ -840,7 +854,8 @@ const translations = {
     calcSubPrompt: "일간·주간·월간 수익을 확인하세요",
     basedOnInvestment: (amount) => `$${Number(amount || 0).toLocaleString('en-US')} 투자 기준`,
     verified: "✓ 인증됨",
-    onProtocolChain: (protocol, chain, hasUrl) => `${protocol}에서 • ${chain}${hasUrl ? ' ↗' : ''}`,
+    // 225 round 3 increment (a): matches EN — plain metadata line, middle dot, no arrow.
+    onProtocolChain: (protocol, chain) => `${protocol} · ${chain}`,
     poolProtocolLogoAlt: (project) => `${project} 로고`,
     poolChainLogoAlt: (chain) => `${chain} 로고`,
     tvl: "TVL",

@@ -230,6 +230,7 @@
     --ui-surface-sunken:   #12151B;
     --ui-border:           #262C36;
     --ui-border-strong:    #39414F;
+    --ui-row-border:       #39414F; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
     --ui-text:             #E8ECF3;
     --ui-text-secondary:   #A2ABBB;
     --ui-text-muted:       #79839A;
@@ -822,6 +823,12 @@ select.form-control {
   --ui-danger:           #B91C1C;
   --ui-focus-ring:       0 0 0 2px var(--ui-bg), 0 0 0 4px var(--ui-accent);
   --ui-shadow-overlay:   0 8px 24px rgba(16, 21, 31, 0.10);
+  /* 225 round 3 increment (a): row-separator token for the results grid —
+     equals --ui-border in light, steps up to --ui-border-strong in dark (set
+     in both dark blocks below) so 1px row dividers stay visible on a
+     near-black background instead of the flat system's usual near-invisible
+     border. */
+  --ui-row-border:       var(--ui-border);
   --ui-radius-sm:        8px;
   --ui-radius-md:        12px;
   --ui-radius-lg:        16px;
@@ -1158,6 +1165,39 @@ body {
 
   .app-search-input {
     min-width: 0;
+  }
+}
+
+/* 225 round 3 increment (a) — the 360px header defect named in this round's
+   brief: at 360px `.app-search-container` shrinks to ~81px (measured), but
+   its own children (`.app-search-input` shrinks correctly to ~40px via the
+   `min-width: 0` above, but `.app-search-clear` is `flex-shrink: 0` and
+   `.app-search-button` has no shrink-below-content-size floor) together
+   need ~118px. `.app-search-bar` is `display: flex` with no width/overflow
+   constraint of its own, so those children don't clip to the container —
+   they spill past its right edge with `overflow: visible` (the default),
+   landing `.app-search-button`'s rect on top of `.language-toggle` next to
+   it. Two changes: `overflow: hidden` on the search bar is the safety net
+   (a real render can never again let this spill onto a sibling control,
+   regardless of content width); hiding the redundant 🔍 button at <=480px
+   is what actually frees enough width for the fix to matter in practice —
+   search still submits on Enter (handleKeyDown) or by picking a result from
+   the autocomplete dropdown, so no submission path is lost. */
+@media (max-width: 640px) {
+  .app-search-bar {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Compound selector, not bare .app-search-button: the shared "Button,
+     primary" geometry role at style.css's end also declares `display:
+     inline-flex` for this class and, by design, sits last in the file so it
+     wins any equal-specificity tie regardless of media-query conditions — a
+     bare `.app-search-button{display:none}` here would lose to it. This
+     selector's extra class wins on specificity instead. */
+  .app-header-content .app-search-button {
+    display: none;
   }
 }
 
@@ -2032,17 +2072,26 @@ body {
   margin-bottom: var(--space-32);
 }
 
-/* padding/border-radius owned by the shared card rule, style.css end */
+/* 225 round 3 increment (a): the ONE composed surface — header band, column
+   labels, and rows all live inside this single card. Nothing nested inside
+   it carries its own border/radius/shadow; only the panel does. */
+.results-panel {
+  background: var(--color-background);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .results-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: var(--space-16);
-  margin-bottom: var(--space-24);
-  background: var(--color-background);
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--ui-border);
 }
 
 .results-header-left {
@@ -2061,10 +2110,9 @@ body {
 
 .view-toggles {
   display: flex;
-  background: var(--color-surface);
+  background: var(--ui-surface-muted);
   border-radius: var(--ui-radius-md);
   padding: 4px;
-  background: var(--ui-surface-muted);
   border: 1px solid var(--ui-border);
   box-shadow: none;
 }
@@ -2081,14 +2129,28 @@ body {
 }
 
 .view-toggle-btn:hover {
-  color: var(--color-primary);
+  color: var(--color-text);
 }
 
+/* 225 round 3 (a): accent discipline — no blue fill on view/sort selection.
+   Selected state reads via a neutral background + border step only; blue is
+   reserved for the action link's hover/focus and already-selected filter
+   chips (per this surface's design brief). */
 .view-toggle-btn.active {
-  background: var(--ui-accent-soft);
-  border: 1px solid var(--ui-accent-border);
-  color: var(--ui-accent);
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  color: var(--color-text);
   box-shadow: none;
+}
+
+/* Shrink the grid/list icon buttons to the spec's 32px quiet buttons,
+   scoped to this panel so the shared 40px icon-button role used elsewhere
+   (.theme-toggle etc) is untouched. */
+.results-panel .view-toggle-btn:not(.sort-toggle-btn) {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
 }
 
 .sort-control {
@@ -2104,56 +2166,105 @@ body {
 }
 
 .sort-toggles {
-  background: var(--color-surface);
+  background: var(--ui-surface-muted);
   border-radius: var(--ui-radius-md);
   padding: 4px;
-  background: var(--ui-surface-muted);
   border: 1px solid var(--ui-border);
   box-shadow: none;
 }
 
+/* 225 round 3 (a): text segmented control — 13px/500, sentence case (no
+   uppercase, no letter-spacing hack, no mono font). */
 .sort-toggle-btn {
-  /* height/padding/font-size owned by the shared secondary-button rule, style.css end */
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  /* height/padding owned by the shared secondary-button rule, style.css end */
+  font-size: 13px;
+  font-weight: var(--font-weight-medium);
+  text-transform: none;
+  letter-spacing: normal;
 }
 
-/* List View Styles */
+/* Slim column-label row, aligned to the exact same grid the rows below use.
+   Hidden under 768px — the two-line mobile row layout doesn't need it. */
+.pool-columns {
+  display: grid;
+  grid-template-columns: 40px 1fr 110px 130px 120px;
+  column-gap: 12px;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--ui-row-border);
+}
+
+.pool-columns span {
+  font-size: 12px;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  text-transform: none;
+}
+
+.pool-columns .col-pool {
+  grid-column: 1 / span 2;
+  text-align: left;
+}
+
+.pool-columns .col-apy,
+.pool-columns .col-tvl {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .pool-columns {
+    display: none;
+  }
+}
+
+/* List View Styles — 225 round 3 (a): rows on ONE CSS grid, no per-row
+   card (no border/radius/shadow of their own); 1px separators between rows
+   only, no gaps. */
 .pools-list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-16);
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .pools-list .pool-card {
-  /* border-radius stays the shared card value (--ui-radius-lg); padding
-     uses the shared card's 20px too — no list-view-specific geometry. */
-  display: flex;
+  display: grid;
+  grid-template-columns: 40px 1fr 110px 130px 120px;
+  column-gap: 12px;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-24);
-  padding: 20px;
-  min-height: 84px;
-  border-radius: var(--ui-radius-lg);
-  flex-direction: row;
+  height: 64px;
+  min-height: 64px;
+  padding: 0 20px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--ui-row-border);
+  background: transparent;
 }
 
-.pools-list .pool-header-new {
+.pools-list .pool-card:last-child {
+  border-bottom: none;
+}
+
+.pools-list .pool-card:hover {
+  transform: none;
+  background: var(--ui-surface-muted);
+}
+
+.pools-list .pool-header-new,
+.pools-list .pool-name-group {
   display: contents;
 }
 
 .pools-list .pool-left-section {
-  flex: 2;
-  min-width: 250px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
+  gap: 2px;
 }
 
 .pools-list .pool-apy-section {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -2161,7 +2272,7 @@ body {
   text-align: right;
 }
 
-/* 095: calmer 0-yield hero (pairs with 092's honest .pool-apy-tag). The
+/* 095/225: calmer 0-yield hero (pairs with the honest .pool-apy-tag). The
    0.00% number stays in the DOM — only its visual loudness drops (trust
    rail intact: secondary color + opacity >= 0.7, legible in dark mode). */
 .pools-list .pool-apy-section:has(.pool-apy-tag) .pool-apy-hero {
@@ -2170,27 +2281,16 @@ body {
 }
 
 .pools-list .pool-tvl-section {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: center;
   text-align: right;
-  margin: 0;
-  padding: 0;
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
 }
 
-.pools-list .pool-tvl-section .tvl-label {
-  margin-bottom: var(--space-4);
-  font-size: 10px;
-  opacity: 0.7;
-}
-
-.pools-list .pool-tvl-section .tvl-value {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
+/* Redundant with the "TVL" column header — hide the inline per-row label. */
+.pools-list .tvl-label {
+  display: none;
 }
 
 .pools-list .pool-details-expanded {
@@ -2199,44 +2299,94 @@ body {
 }
 
 .pools-list .pool-cta-section {
-  flex: 1;
   display: flex;
+  align-items: center;
   justify-content: flex-end;
+  /* Overrides the legacy .pool-cta-section{margin-top:auto} (style.css, "Primary
+     CTA Section") — on a grid item that auto margin bottom-aligns instead of
+     centering, which is what actually caused the action link to render low in
+     the row (visually looking like a second line under TVL). */
   margin-top: 0;
 }
 
-@media (max-width: 1024px) {
+/* Quiet action link — 13px/500, secondary color; accent color ONLY on
+   hover/focus (this surface's one exception to no-blue, per the brief). */
+.pools-list .pool-cta-section .calculate-yield-btn-new {
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  background: transparent;
+  white-space: nowrap;
+}
+
+.pools-list .pool-cta-section .calculate-yield-btn-new:hover,
+.pools-list .pool-cta-section .calculate-yield-btn-new:focus-visible {
+  color: var(--ui-accent);
+  background: transparent;
+}
+
+/* Two-line mobile row (<768px), ~72px, no per-row card. The whole row is
+   already tappable via the existing row onClick, so the explicit action
+   link is dropped here rather than squeezed into very little width. */
+@media (max-width: 767px) {
   .pools-list .pool-card {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 40px 1fr auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "icon name apy"
+      "icon ctx  tvl";
+    column-gap: 10px;
+    row-gap: 4px;
+    height: auto;
+    min-height: 72px;
+    padding: 12px 16px;
+  }
+
+  .pools-list .pool-left-section {
+    display: contents;
+  }
+
+  .pools-list .pool-logo {
+    grid-area: icon;
+    align-self: center;
+  }
+
+  .pools-list .pool-symbol {
+    grid-area: name;
+    align-self: center;
+  }
+
+  .pools-list .pool-context-inline {
+    grid-area: ctx;
+    align-self: center;
+  }
+
+  .pools-list .pool-apy-section {
+    grid-area: apy;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+  }
+
+  .pools-list .pool-apy-preview,
+  .pools-list .pool-apy-tag {
+    display: none;
+  }
+
+  .pools-list .pool-tvl-section {
+    grid-area: tvl;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
   }
 
   .pools-list .pool-cta-section {
-    flex: 100%;
-    justify-content: center;
-    margin-top: var(--space-16);
-  }
-}
-
-@media (max-width: 768px) {
-  .pools-list .pool-card {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .pools-list .pool-header-new {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: var(--space-16);
-  }
-
-  .pools-list .pool-left-section,
-  .pools-list .pool-apy-section,
-  .pools-list .pool-tvl-section {
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    margin-bottom: var(--space-12);
+    display: none;
   }
 
   .results-controls {
@@ -2246,19 +2396,17 @@ body {
 }
 
 .results-title {
-  font-size: var(--font-size-2xl);
-  font-weight: var(--font-weight-semibold);
+  font-size: 16px;
+  font-weight: 600;
   color: var(--color-text);
 }
 
 .results-count {
-  font-size: var(--font-size-base);
+  font-size: 13px;
   color: var(--color-text-secondary);
-  background: var(--color-background);
-  padding: var(--space-6) var(--space-12);
-  border-radius: var(--ui-radius-md);
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
+  background: transparent;
+  padding: 0;
+  border: none;
   box-shadow: none;
 }
 
@@ -2279,7 +2427,41 @@ body {
   }
 }
 
-/* padding/border-radius owned by the shared card rule, style.css end */
+/* Grid (card) view keeps a bordered/radius card look — round 3's "kill the
+   per-row card" instruction targets the default list/table view only. */
+.pools-grid .pool-card {
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
+  padding: 20px;
+}
+
+/* Icon + name pairing, shared by both view modes. List view flattens this
+   via display:contents (see .pools-list .pool-name-group above); grid view
+   keeps it as a normal flex row (icon beside the symbol/context stack). */
+.pool-name-group {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-8);
+}
+
+.pools-grid .pool-symbol {
+  font-size: 20px;
+}
+
+/* Grid (card) view TVL row — label/value side by side (the old bare
+   .pool-tvl-section rule this replaces also carried this layout; list view
+   gets its own via .pools-list .pool-tvl-section above). */
+.pools-grid .pool-tvl-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--space-12) 0;
+}
+
+/* 225 round 3 (a): border/radius/padding no longer come from the shared
+   geometry block (removed there — see the note at style.css's end) — grid
+   view restores a card look via .pools-grid .pool-card above; list view
+   (default) drops it entirely via .pools-list .pool-card above. */
 .pool-card {
   background: var(--color-background);
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2317,28 +2499,20 @@ body {
   }
 }
 
+/* 225 round 3 (a): accent discipline — no hover glow/pill/scale on the APY
+   number, no blue-on-hover for the $/day preview or the symbol text. These
+   numbers stay plain at rest and on hover; only the action link and
+   already-selected filter chips get blue (per the design brief). */
 .pool-card:hover .pool-apy-hero {
-  box-shadow: none;
-  transform: scale(1.02);
-
-  box-shadow: none;
-  background: var(--ui-surface-muted);
-  border-radius: var(--ui-radius-lg);
-  padding: 8px 16px;
-
-  background: var(--color-surface) !important;
   box-shadow: none;
 }
 
 .pool-card:hover .pool-apy-preview {
   opacity: 1;
-  color: var(--color-primary);
-  transform: translateY(0);
 }
 
 .pool-card:hover .pool-symbol {
-  color: var(--color-primary);
-  transform: translateX(2px);
+  color: var(--color-text);
 }
 
 .pool-card:active {
@@ -2878,12 +3052,16 @@ html[data-app-mode="landing"] .seo-hub-links {
     gap: var(--space-12);
   }
 
-  /* .pool-card padding/border-radius owned by the shared card rule (style.css end) */
-  .pool-card {
+  /* .pool-card padding/border-radius owned by .pools-grid/.pools-list .pool-card above */
+  .pools-grid .pool-card {
     min-height: auto;
   }
 
-  .pool-card.clickable {
+  /* 225 round 3 (a): scoped to grid view — list view's own <=767px rule
+     already sets min-height: 72px (well above this 44px touch-target floor)
+     with higher specificity, so this used to be a no-op there anyway; the
+     unscoped form was one property drift away from silently shrinking it. */
+  .pools-grid .pool-card.clickable {
     min-height: 44px;
     /* Minimum touch target */
   }
@@ -2907,9 +3085,9 @@ html[data-app-mode="landing"] .seo-hub-links {
     gap: var(--space-12);
   }
 
-  .results-title {
-    font-size: var(--font-size-xl);
-  }
+  /* 225 round 3 (a): title stays 16px/600 at every width per spec — this
+     used to bump it to 18px on mobile, the one place the design bar
+     mandates a fixed size. */
 
   /* Mobile Pagination */
   .pagination {
@@ -2932,8 +3110,11 @@ html[data-app-mode="landing"] .seo-hub-links {
 
 /* Small Mobile Devices - Additional Optimizations */
 @media (max-width: 480px) {
-  /* .pool-card padding/border-radius owned by the shared card rule (style.css end) */
-  .pool-card {
+  /* 225 round 3 (a): scoped to grid view — .pools-grid already spaces cards
+     via its own `gap`, so this was redundant there too, but unscoped it hit
+     list-view rows as well, adding an unwanted gap between rows and
+     breaking the flush-with-separator-only row design at this width. */
+  .pools-grid .pool-card {
     margin-bottom: var(--space-16);
   }
 
@@ -3109,32 +3290,14 @@ html {
     border: 2px solid var(--color-primary);
   }
 
-  /* Enhanced TVL section for compact display */
-  .pool-tvl-section {
-    background: var(--color-background);
+  /* 225 round 3 (a): this rule's `background: ... !important` used to paint
+     a card-like fill behind the TVL cell at >=1024px, regardless of source
+     order (an !important always wins) — directly contradicting "no pill
+     around plain data". Scoped to grid view, background dropped; list view
+     (default) never had this and stays fully plain. */
+  .pools-grid .pool-tvl-section {
     padding: var(--space-6) var(--space-8);
-    border-radius: var(--ui-radius-sm);
-    box-shadow: none;
-    border: 1px solid var(--ui-border);
     margin-bottom: var(--space-8);
-    text-align: center;
-
-    background: var(--ui-surface-muted);
-    border: 1px solid var(--ui-border);
-    box-shadow: none;
-    background: var(--ui-surface-muted);
-    border-radius: var(--ui-radius-md);
-
-    background: var(--color-surface) !important;
-    border-radius: var(--ui-radius-md);
-    box-shadow: none;
-    border: 1px solid var(--ui-border);
-  }
-
-  .tvl-value {
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
-    color: var(--color-text);
   }
 }
 
@@ -3252,54 +3415,28 @@ html {
   display: block;
 }
 
+/* 225 round 3 (a): 15px/600, body family (mono skin removed everywhere in
+   this surface -- numerals get tabular-nums instead, not a monospace font). */
 .pool-symbol {
-  font-size: var(--font-size-2xl);
-  font-weight: var(--font-weight-black);
+  font-size: 15px;
+  font-weight: 600;
   color: var(--color-text);
-  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
-  margin-bottom: var(--space-2);
-  transition: all 0.2s ease;
+  letter-spacing: normal;
+  line-height: 1.2;
+  transition: color 0.2s ease;
 }
 
-/* Adjust symbol size for compact desktop cards */
-@media (min-width: 1024px) {
-  .pool-symbol {
-    font-size: var(--font-size-lg);
-  }
-}
-
+/* 225 round 3 (a): plain secondary metadata line -- sentence case, no pill,
+   no background, no leading bullet glyph, no uppercase, no blue. */
 .pool-context-inline {
-  font-size: 10px;
-  color: var(--color-primary);
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  display: inline-flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-4);
-  padding: 4px 12px;
-  background: var(--color-surface);
-  border-radius: var(--ui-radius-md);
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-  box-shadow: none;
-  opacity: 0.9;
-}
-
-/* Smaller context text for desktop compact cards */
-@media (min-width: 1024px) {
-  .pool-context-inline {
-    font-size: var(--font-size-xs);
-    line-height: 1.3;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
+  font-size: 13px;
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text-secondary);
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .pool-apy-section {
@@ -3317,37 +3454,8 @@ html {
   }
 }
 
-/* Enhanced APY hero styling with shimmer effect */
-.pool-apy-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg,
-      transparent 0%,
-      rgba(255, 255, 255, 0.1) 50%,
-      transparent 100%);
-  transition: left 0.6s ease;
-}
-
-.pool-card:hover .pool-apy-hero::before {
-  left: 100%;
-}
-
-/* Protocol chain badge styling */
-.pool-context-inline::before {
-  content: '';
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--color-secondary-blue);
-  margin-right: var(--space-2);
-}
-
-/* Enhanced trustworthiness indicators */
+/* Enhanced trustworthiness indicators -- dead weight kept inert (opacity: 0,
+   no attribute ever sets data-pool-type); left as-is, out of this round's scope. */
 .pool-left-section::after {
   content: attr(data-pool-type);
   position: absolute;
@@ -3368,55 +3476,6 @@ html {
   transition: all 0.3s ease;
 }
 
-
-
-/* Risk assessment visual indicators */
-
-
-
-
-
-
-/* TVL confidence indicators */
-
-
-
-
-
-
-/* Enhanced typography hierarchy for financial data */
-.pool-apy-hero {
-  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-  font-feature-settings: 'tnum' 1, 'kern' 1;
-  font-variant-numeric: tabular-nums;
-
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-  box-shadow: none;
-  background: var(--ui-surface-muted);
-  border-radius: var(--ui-radius-lg);
-  padding: 8px 16px;
-
-  background: var(--color-surface) !important;
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-}
-
-.tvl-value,
-.pool-apy-preview {
-  font-feature-settings: 'tnum' 1, 'kern' 1;
-  font-variant-numeric: tabular-nums;
-}
-
-/* Accessibility improvements */
-@media (prefers-reduced-motion: reduce) {
-
-  .pool-apy-hero::before,
-  .calculate-yield-btn-new::before {
-    display: none;
-  }
-}
-
 /* Focus states for accessibility */
 .pool-card:focus-within {
   outline: 2px solid var(--color-primary);
@@ -3428,25 +3487,10 @@ html {
   outline-offset: 2px;
 }
 
-/* Enhanced TVL section styling with horizontal layout */
-.pool-tvl-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--color-surface);
-  border: none;
-  padding: var(--space-8) var(--space-12);
-  margin: var(--space-12) 0;
-  transition: all 0.3s ease;
-  border-radius: var(--ui-radius-md);
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-}
-
-.pool-tvl-section:hover {
-  background: var(--color-surface);
-}
-
+/* 225 round 3 (a): TVL -- 14px, secondary-strong, tabular-nums. Consolidated
+   from what were three drifted duplicate .tvl-label/.tvl-value/
+   .pool-tvl-section definitions (later one always won the cascade; this is
+   the one design now, not three). */
 .tvl-label {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-medium);
@@ -3457,63 +3501,36 @@ html {
 }
 
 .tvl-value {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-black);
-  color: var(--color-text);
-  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
   font-variant-numeric: tabular-nums;
+  line-height: 1.2;
 }
 
-/* TVL tier-based border styling */
-
-
-
-
-
-
-/* Daily earnings preview enhancement */
+/* 225 round 3 (a): $/day preview -- 12px secondary text, tabular-nums, no
+   pill/border/blue. */
 .pool-apy-preview {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-bold);
+  font-size: 12px;
+  font-weight: var(--font-weight-normal);
   color: var(--color-text-secondary);
-  background: var(--color-surface);
-  border: 1px solid rgba(59, 130, 246, 0.1);
-  padding: var(--space-4) var(--space-8);
-  border-radius: var(--ui-radius-sm);
-  opacity: 0.9;
-  transition: all 0.3s ease;
-  margin-top: var(--space-2);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
 }
 
-.pool-card:hover .pool-apy-preview {
-  background: var(--color-surface);
-  opacity: 1;
-  color: var(--color-primary);
-}
-
-/* No-supply-yield honest tag (092) — calmer than the daily-earnings preview */
+/* No-supply-yield honest tag (092) -- 225 round 3 (a): plain 13px secondary
+   text, no pill. */
 .pool-apy-tag {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
+  font-size: 13px;
+  font-weight: var(--font-weight-normal);
   color: var(--color-text-secondary);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  padding: var(--space-4) var(--space-8);
-  border-radius: var(--ui-radius-sm);
-  opacity: 0.85;
-  margin-top: var(--space-2);
   white-space: nowrap;
 }
 
-/* Risk-based top border indicators */
-
-
-
-
-
-
-/* Ghost affordance CTA for card "View & calculate" —
-   height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
+/* Ghost affordance CTA for card "View & calculate" --
+   height/padding/border-radius/font owned by the shared primary-button rule, style.css end
+   (list view overrides this to a quiet 13px/500 link -- see .pools-list
+   .pool-cta-section .calculate-yield-btn-new above). */
 .calculate-yield-btn-new {
   background: transparent;
   box-shadow: none;
@@ -3540,75 +3557,16 @@ html {
   /* press-physics rule in the global block handles this */
 }
 
+/* 225 round 3 (a): APY -- 16px/600, body family, tabular-nums, plain text
+   (no pill/background/border/glow/shimmer). Consolidated from what were two
+   drifted duplicate .pool-apy-hero definitions plus a shimmer ::before and a
+   hover-triggered pill (both removed). */
 .pool-apy-hero {
-  font-size: 36px;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: var(--color-primary);
-  background: var(--ui-surface-muted);
-  padding: var(--space-16) var(--space-24);
-  border-radius: var(--ui-radius-lg);
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-  box-shadow: none;
-  transition: all 0.3s ease;
-  line-height: 0.9;
-  position: relative;
-  overflow: hidden;
-
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-  box-shadow: none;
-  background: var(--ui-surface-muted);
-  border-radius: var(--ui-radius-lg);
-  padding: 8px 16px;
-
-  background: var(--color-surface) !important;
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-}
-
-/* Smaller APY display for desktop compact cards */
-@media (min-width: 1024px) {
-  .pool-apy-hero {
-    font-size: var(--font-size-xl);
-    padding: var(--space-6) var(--space-12);
-    border-radius: var(--ui-radius-sm);
-
-    background: var(--ui-surface-muted);
-    border: 1px solid var(--ui-border);
-    box-shadow: none;
-    background: var(--ui-surface-muted);
-    border-radius: var(--ui-radius-lg);
-    padding: 8px 16px;
-
-    background: var(--color-surface) !important;
-    box-shadow: none;
-    border: 1px solid var(--ui-border);
-  }
-}
-
-.pool-apy-preview {
-  font-size: var(--font-size-sm);
-  color: var(--color-primary);
-  font-weight: var(--font-weight-bold);
-  opacity: 0.8;
-  transition: all 0.3s ease;
-  line-height: 1;
-  padding: var(--space-2) var(--space-8);
-  text-align: right;
-  background: rgba(59, 130, 246, 0.1);
-  border-radius: var(--ui-radius-sm);
-  border: 1px solid rgba(59, 130, 246, 0.2);
-  margin-right: var(--space-8);
-}
-
-/* Adjust preview text for desktop compact cards */
-@media (min-width: 1024px) {
-  .pool-apy-preview {
-    font-size: var(--font-size-xs);
-    padding-right: var(--space-12);
-  }
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Context Bar - Protocol + Chain */
@@ -3650,50 +3608,6 @@ html {
   opacity: 0.7;
   transition: all 0.2s ease;
   margin-left: var(--space-4);
-}
-
-/* TVL Section */
-.pool-tvl-section {
-  background: var(--color-background);
-  padding: var(--space-10) var(--space-12);
-  border-radius: var(--ui-radius-md);
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-  margin-bottom: var(--space-16);
-  transition: all 0.3s ease;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: none;
-
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-  box-shadow: none;
-  background: var(--ui-surface-muted);
-  border-radius: var(--ui-radius-md);
-
-  background: var(--color-surface) !important;
-  border-radius: var(--ui-radius-md);
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-}
-
-.tvl-label {
-  font-size: var(--font-size-xs);
-  color: var(--color-text-secondary);
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 0;
-}
-
-.tvl-value {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-black);
-  color: var(--color-text);
-  margin: 0;
-  line-height: 1;
-  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
 }
 
 /* Progressive Disclosure - APY Breakdown */
@@ -4064,53 +3978,23 @@ html {
     font-size: var(--font-size-sm);
   }
 
-  /* New Layout Mobile Styles */
-  .pool-symbol {
-    font-size: var(--font-size-lg);
-  }
-
-  .pool-context-inline {
-    font-size: var(--font-size-xs);
-  }
-
-  .pool-apy-hero {
+  /* New Layout Mobile Styles — 225 round 3 (a): this block used to
+     reintroduce the pill/border/background/box-shadow treatment on
+     .pool-apy-hero/.pool-tvl-section at <=640px, silently undoing the
+     plain-text redesign above (equal specificity, later in source order —
+     it always won at this width). Sizes for .pool-symbol/.pool-context-
+     inline/.pool-apy-preview/.tvl-value are now constant across breakpoints
+     by design (see the base rules above), so those overrides are dropped
+     too; what remains is scoped to .pools-grid only — list view (default)
+     owns its own <=767px layout above and must stay plain text at every
+     width. */
+  .pools-grid .pool-apy-hero {
     font-size: var(--font-size-xl);
-    padding: var(--space-6) var(--space-12);
-
-    background: var(--ui-surface-muted);
-    border: 1px solid var(--ui-border);
-    box-shadow: none;
-    background: var(--ui-surface-muted);
-    border-radius: var(--ui-radius-lg);
-    padding: 8px 16px;
-
-    background: var(--color-surface) !important;
-    box-shadow: none;
-    border: 1px solid var(--ui-border);
   }
 
-  .pool-apy-preview {
-    font-size: var(--font-size-xs);
-  }
-
-  .pool-tvl-section {
-    padding: var(--space-8);
+  .pools-grid .pool-tvl-section {
+    padding: var(--space-8) 0;
     margin-bottom: var(--space-16);
-
-    background: var(--ui-surface-muted);
-    border: 1px solid var(--ui-border);
-    box-shadow: none;
-    background: var(--ui-surface-muted);
-    border-radius: var(--ui-radius-md);
-
-    background: var(--color-surface) !important;
-    border-radius: var(--ui-radius-md);
-    box-shadow: none;
-    border: 1px solid var(--ui-border);
-  }
-
-  .tvl-value {
-    font-size: var(--font-size-base);
   }
 
   .calculate-yield-btn-new {
@@ -4337,6 +4221,7 @@ html {
   --ui-surface-sunken:   #12151B;
   --ui-border:           #262C36;
   --ui-border-strong:    #39414F;
+  --ui-row-border:       #39414F; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
   --ui-text:             #E8ECF3;
   --ui-text-secondary:   #A2ABBB;
   --ui-text-muted:       #79839A;
@@ -5833,9 +5718,14 @@ body,
   box-sizing: border-box;
 }
 
-/* ---------- Card / panel — radius-lg; padding 20px, hero 24px ---------- */
-.pool-card,
-.results-header,
+/* ---------- Card / panel — radius-lg; padding 20px, hero 24px ----------
+   225 round 3 increment (a): .pool-card/.results-header removed from this
+   group. Neither is used by any other surface (verified: zero matches in
+   pool-detail-styles.css/planner-styles.css/landing-styles.css), so this
+   group's cross-surface-consistency purpose doesn't apply to them — the grid
+   surface now owns their geometry directly (.results-panel is the single
+   16px-radius/1px-border card; .pool-card is a plain row in list view and
+   keeps a card look only in grid view). See the dedicated rules above. */
 .pool-info-section,
 .calculator-card,
 .gp-bubble,

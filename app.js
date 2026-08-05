@@ -2883,6 +2883,12 @@ function App() {
   const renderPoolCard = (pool, key, position, delayBase) => {
     const protocolUrl = getProtocolUrl(pool);
     const quickPreview = getQuickPreview(pool);
+    // 225 round 3 increment (a): icon lives in its own grid column, separate
+    // from the name column — .pool-name-group is the join point. In list
+    // (table) view it's `display:contents` so PoolLogo/.pool-left-section
+    // promote straight into .pool-card's 5-column grid; in grid (card) view
+    // it stays a normal flex row (icon beside the symbol/context stack),
+    // preserving that mode's card layout unchanged.
     return React.createElement('div', {
       key,
       className: `pool-card animate-on-mount clickable`,
@@ -2890,13 +2896,15 @@ function App() {
     },
       // Header: Symbol + Protocol info + APY
       React.createElement('div', { className: 'pool-header-new' },
-        React.createElement('div', { className: 'pool-left-section' },
+        React.createElement('div', { className: 'pool-name-group' },
           React.createElement(PoolLogo, { project: pool.project, chain: pool.chain }),
-          React.createElement('div', { className: 'pool-symbol' },
-            pool.symbol
-          ),
-          React.createElement('div', { className: 'pool-context-inline' },
-            t('onProtocolChain', pool.project, pool.chain, protocolUrl)
+          React.createElement('div', { className: 'pool-left-section' },
+            React.createElement('div', { className: 'pool-symbol' },
+              pool.symbol
+            ),
+            React.createElement('div', { className: 'pool-context-inline' },
+              t('onProtocolChain', pool.project, pool.chain, protocolUrl)
+            )
           )
         ),
         React.createElement('div', { className: 'pool-apy-section' },
@@ -2912,6 +2920,11 @@ function App() {
                   delay: 100 + delayBase
                 })
           ),
+          // Trust rail (CLAUDE.md, test_zero_yield_demote.js): the honest
+          // 0.00% number above is NEVER removed for a zero-yield pool — only
+          // calmed (see the :has(.pool-apy-tag) rule in style.css). The
+          // round-3 brief's "nothing else" is satisfied by dropping the
+          // redundant $/day preview, not the number itself.
           hasNoSupplyYield(pool)
             ? React.createElement('div', { className: 'pool-apy-tag' }, t('noSupplyYield'))
             : React.createElement('div', { className: 'pool-apy-preview' },
@@ -2936,7 +2949,7 @@ function App() {
         )
       ),
 
-      // Primary CTA - Calculate Yield (full width, quiet ghost)
+      // Quiet action link (row is already fully clickable via the onClick above)
       React.createElement('div', { className: 'pool-cta-section' },
         React.createElement('button', {
           className: 'calculate-yield-btn-new',
@@ -3298,53 +3311,69 @@ function App() {
       // Results Section - show for both token mode and chain mode
       (selectedToken || (chainMode && selectedChain) || deadPoolResolved) && React.createElement('div', { className: 'results-section animate-on-mount' },
         filteredPools.length > 0 && !deadPoolResolved ? [
-          React.createElement('div', { className: 'results-header', key: 'header' },
-            React.createElement('div', { className: 'results-header-left' },
-              React.createElement('h2', { className: 'results-title' },
-                chainMode && selectedChain && !selectedToken
-                  ? t('chainYields', selectedChain)
-                  : t('tokenYields', selectedToken, selectedChain)
+          // 225 round 3 increment (a): header band + column labels + rows are
+          // ONE composed surface — a single .results-panel card (16px radius,
+          // 1px border) — not three separate boxes. The header/columns/rows
+          // themselves carry no border/radius of their own; only the panel does.
+          React.createElement('div', { className: 'results-panel', key: 'panel' },
+            React.createElement('div', { className: 'results-header', key: 'header' },
+              React.createElement('div', { className: 'results-header-left' },
+                React.createElement('h2', { className: 'results-title' },
+                  chainMode && selectedChain && !selectedToken
+                    ? t('chainYields', selectedChain)
+                    : t('tokenYields', selectedToken, selectedChain)
+                ),
+                React.createElement('div', { className: 'results-count' },
+                  t('showingResults', filteredPools.length)
+                )
               ),
-              React.createElement('div', { className: 'results-count' },
-                t('showingResults', filteredPools.length)
-              )
-            ),
-            React.createElement('div', { className: 'results-controls' },
-              React.createElement('div', { className: 'view-toggles' },
-                React.createElement('button', {
-                  className: `view-toggle-btn ${viewMode === 'grid' ? 'active' : ''}`,
-                  onClick: () => setViewMode('grid'),
-                  title: 'Grid View'
-                }, '▦'),
-                React.createElement('button', {
-                  className: `view-toggle-btn ${viewMode === 'list' ? 'active' : ''}`,
-                  onClick: () => setViewMode('list'),
-                  title: 'List View'
-                }, '☰')
-              ),
-              React.createElement('div', { className: 'sort-control' },
-                React.createElement('span', { className: 'sort-label' }, 'Sort by:'),
-                React.createElement('div', { className: 'view-toggles sort-toggles' },
+              React.createElement('div', { className: 'results-controls' },
+                React.createElement('div', { className: 'view-toggles' },
                   React.createElement('button', {
-                    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
-                    onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
-                  }, 'APY'),
+                    className: `view-toggle-btn ${viewMode === 'grid' ? 'active' : ''}`,
+                    onClick: () => setViewMode('grid'),
+                    title: 'Grid View'
+                  }, '▦'),
                   React.createElement('button', {
-                    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
-                    onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
-                  }, 'TVL'),
-                  React.createElement('button', {
-                    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
-                    onClick: () => { setSortBy('sharpe'); setUserSortedApy(false); }
-                  }, t('sortByRiskAdjusted'))
+                    className: `view-toggle-btn ${viewMode === 'list' ? 'active' : ''}`,
+                    onClick: () => setViewMode('list'),
+                    title: 'List View'
+                  }, '☰')
+                ),
+                React.createElement('div', { className: 'sort-control' },
+                  React.createElement('span', { className: 'sort-label' }, t('sortByLabel')),
+                  React.createElement('div', { className: 'view-toggles sort-toggles' },
+                    React.createElement('button', {
+                      className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
+                      onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
+                    }, t('resultsColApy')),
+                    React.createElement('button', {
+                      className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
+                      onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
+                    }, t('resultsColTvl')),
+                    React.createElement('button', {
+                      className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
+                      onClick: () => { setSortBy('sharpe'); setUserSortedApy(false); }
+                    }, t('sortByRiskAdjusted'))
+                  )
                 )
               )
-            )
-          ),
+            ),
 
-          React.createElement('div', { className: viewMode === 'list' ? 'pools-list' : 'pools-grid', key: 'pools' },
-            paginatedPools.map((pool, index) =>
-              renderPoolCard(pool, `${pool.pool}-${index}`, (currentPage - 1) * itemsPerPage + index, index * 50)
+            // Slim column-label row — hidden below 768px (the two-line mobile
+            // row layout is self-explanatory without it). Aligned to the exact
+            // same 5-column grid the rows below use.
+            viewMode === 'list' && React.createElement('div', { className: 'pool-columns', key: 'columns' },
+              React.createElement('span', { className: 'col-pool' }, t('resultsColPool')),
+              React.createElement('span', { className: 'col-apy' }, t('resultsColApy')),
+              React.createElement('span', { className: 'col-tvl' }, t('resultsColTvl')),
+              React.createElement('span', { className: 'col-action', 'aria-hidden': 'true' })
+            ),
+
+            React.createElement('div', { className: viewMode === 'list' ? 'pools-list' : 'pools-grid', key: 'pools' },
+              paginatedPools.map((pool, index) =>
+                renderPoolCard(pool, `${pool.pool}-${index}`, (currentPage - 1) * itemsPerPage + index, index * 50)
+              )
             )
           ),
 
