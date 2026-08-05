@@ -152,6 +152,38 @@ twice (once `!important`, once not) from the leg-A pass. Identical values, so th
 — unlike the attempt-1 filter-chip case where a soft value silently overrode a filled one. Noted, not
 touched, because hand-editing shipped CSS to tidy a no-op is a worse trade than leaving it.
 
+## Verifier attempt 3 → FAIL on the same claim, one location further out
+
+Attempt 3 passed the reduced-motion fix (cascade proven in a real browser: `.theme-toggle` →
+`matrix(1,0,0,1,0,0.998)` at no-preference, `none` under reduce, background swap preserved in both) and
+the whole regression sweep. It failed the branch again on the SAME sentence — because the rescoped
+"exactly one elevation token" claim was still false: two live untokenized shadows existed outside both
+named exceptions — `planner-styles.css:388` `.gp-temp-logo` (rendered at `planner.js:4799`) and
+`PoolDetail.js:1191`, the earnings-calculator tooltip, *a floating element*, i.e. exactly the category
+the rule claims only `--ui-shadow-overlay` covers. Neither was introduced by this branch; both were
+missed because the previous pass rescoped the sentence from the two locations it already knew about
+instead of enumerating the population. **That is the razor's second side failing twice in one item: a
+claim narrower than the class it describes.**
+
+Fixed properly this time: the tooltip now uses `var(--ui-shadow-overlay)` (it genuinely floats), the
+planner logo chip became a flat hairline surface, and the claim is now backed by a FULL enumeration with
+the grep command written into `CLAUDE.md` beside it. Every surviving `box-shadow` is one of exactly
+four: `--ui-shadow-overlay`, a focus ring, the filter-dropdown scroll-edge inset fades,
+the `prefers-contrast: high` outlines — plus one dead exception, the legacy `.card` scaffold
+(`--shadow-sm`/`--shadow-md`; grep-confirmed nothing renders `className="card"`).
+`test_compiled_assets.js`, `test_minified_assets.js`, `test_css_minified_render.js` PASS after.
+
+**Attempt budget: EXHAUSTED (3 of 3).** This remediation was applied but has NOT been re-verified by the
+verifier — stating that plainly rather than implying a clean bill. The item ships as an OPEN PR behind
+its human pre-merge gate, so nothing merges on an unverified claim; the human's screenshot review is the
+gate that matters, and the two shadow edits are two lines they can read in the diff. If a fourth pass is
+wanted, the acceptance question is the enumeration above, not the sentence.
+
+The verifier also flagged, out of scope and pre-existing: `style.css:4766` `.logo:hover { transform:
+scale(1.02) }` is a live scale-pop hover with no `prefers-reduced-motion` guard — measured unchanged
+under a `reduce` context. It contradicts CLAUDE.md's own "banned: scale-pop hovers" line. Untouched by
+this item; worth its own ticket.
+
 ## Non-vacuity proof — and a finding the proof itself produced
 
 225 acceptance #5 asks for the occlusion + control-pressability gates proven red on a deliberately

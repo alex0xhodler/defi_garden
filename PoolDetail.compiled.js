@@ -1083,7 +1083,7 @@ function PoolDetail({
                 white-space: nowrap;
                 z-index: 1000;
                 margin-bottom: 5px;
-                box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+                box-shadow: var(--ui-shadow-overlay);
               `;
       tooltip.id = 'earnings-tooltip';
       e.target.appendChild(tooltip);

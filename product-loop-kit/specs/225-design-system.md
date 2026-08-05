@@ -8,10 +8,13 @@ google-mimic era, one system across every surface.**
 
 1. **Flat surfaces, hairline separation.** Depth comes from a 1px border and background-value steps —
    never from a shadow. Exactly ONE ELEVATION token exists (`--ui-shadow-overlay`), and it is only for
-   things that float above the page (dropdowns, popovers, sticky header when scrolled). Two shadow uses
-   are outside that rule by design: focus rings, and the literal inset fades marking horizontal
-   scrollability inside filter dropdowns. Known debt from this item: focus indication is still split
-   between `--ui-focus-ring` and a legacy `--focus-ring` on four call sites — new rules use the former.
+   things that float above the page (dropdowns, popovers, tooltips, sticky header when scrolled). Every
+   `box-shadow` in the repo is one of exactly four things (full enumeration run 2026-08-05, after the
+   verifier caught two stragglers): `--ui-shadow-overlay`; a focus ring; the inset fades marking
+   horizontal scrollability inside filter dropdowns; the `prefers-contrast: high` outlines in
+   `pool-detail-styles.css`. Plus one DEAD exception, the legacy `.card` scaffold's
+   `--shadow-sm`/`--shadow-md` (no component renders `className="card"`). Known debt: focus indication
+   is still split between `--ui-focus-ring` and a legacy `--focus-ring` on exactly four call sites.
 2. **One of each.** One header, one card, one control, one input, one chip. If a surface needs a variant,
    it is a modifier class on the same base, not a new component.
 3. **Calm, not decorative.** No gradients on page backgrounds, no dual-direction shadows, no glow, no
