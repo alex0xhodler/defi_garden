@@ -208,6 +208,30 @@ async function measureControlsDiagnostic(page, selector) {
     const visibleEls = els.filter((el, i) => details[i].visible);
     const target = visibleEls[0] || els[0];
     let hits = null;
+    // 225 round 3b: containment diagnostics. The clip class that survived
+    // this test (standalone theme-toggle's legacy 48px switch overflowing
+    // its 40px icon-only box, spilling past the viewport edge as a visible,
+    // unpressable sliver) is invisible to a centre/lower-band hit test —
+    // the button's own border box was fully on-canvas. Two extra reads:
+    //   (a) the border box itself must sit fully inside the viewport;
+    //   (b) the control's content must FIT its box (scrollWidth/Height vs
+    //       clientWidth/Height, +1px rounding tolerance) — overflowing
+    //       child content is what actually painted past the edge.
+    let containment = null;
+    if (target) {
+      const r0 = target.getBoundingClientRect();
+      containment = {
+        rect: { left: r0.left, right: r0.right, top: r0.top, bottom: r0.bottom },
+        viewport: { width: window.innerWidth, height: window.innerHeight },
+        boxInViewport: r0.left >= 0 && r0.top >= 0 && r0.right <= window.innerWidth,
+        scrollWidth: target.scrollWidth,
+        clientWidth: target.clientWidth,
+        scrollHeight: target.scrollHeight,
+        clientHeight: target.clientHeight,
+        contentFits: target.scrollWidth <= target.clientWidth + 1 &&
+                     target.scrollHeight <= target.clientHeight + 1
+      };
+    }
     if (target) {
       const r = target.getBoundingClientRect();
       const points = {
@@ -224,7 +248,7 @@ async function measureControlsDiagnostic(page, selector) {
         };
       }
     }
-    return { details, visibleCount: details.filter((d) => d.visible).length, hits };
+    return { details, visibleCount: details.filter((d) => d.visible).length, hits, containment };
   }, selector);
 }
 
@@ -238,6 +262,16 @@ function assertReachable(diag, selector, label) {
       if (!hit.isSelf) {
         problems.push(`hit test at "${name}" did not resolve to ${selector} itself -- covering element: <${hit.tag} class="${hit.className}">`);
       }
+    }
+  }
+  // 225 round 3b: containment criteria (see measureControlsDiagnostic) —
+  // guards the clip class the hit tests alone let through.
+  if (diag.containment) {
+    if (!diag.containment.boxInViewport) {
+      problems.push(`${selector} border box leaves the viewport -- rect ${JSON.stringify(diag.containment.rect)} vs viewport ${JSON.stringify(diag.containment.viewport)}`);
+    }
+    if (!diag.containment.contentFits) {
+      problems.push(`${selector} content overflows its own box (clipped/spilling child) -- scroll ${diag.containment.scrollWidth}x${diag.containment.scrollHeight} > client ${diag.containment.clientWidth}x${diag.containment.clientHeight}`);
     }
   }
   if (problems.length) throw new Error(`${label}: ${problems.join(' | ')}`);
@@ -467,6 +501,26 @@ async function main() {
       if (homeErrors.length) throw new Error(homeErrors.join('\n    '));
     });
     await homePage.close();
+
+    // --- (8b) 225 round 3b: the SAME surface at desktop width. The clip
+    // that motivated the containment criteria (theme toggle's legacy switch
+    // spilling past the right viewport edge) was visible at 1280 AND 360 on
+    // ?app=1, but this suite only drove ?app=1 at 360 and only hit-tested
+    // box centres — so it stayed green. Desktop coverage + the containment
+    // checks above close that gap. ---
+    const homeWidePage = await browser.newPage({ viewport: { width: 1280, height: 780 } });
+    const homeWideErrors = attachErrorCollector(homeWidePage);
+    await routeFixtures(homeWidePage);
+    await test('(8b) 1280px ?app=1 (analytics homepage): standalone controls fully on-canvas, content fits their boxes, self-hit-testing', async () => {
+      await homeWidePage.goto(homepageUrl, { waitUntil: 'load', timeout: 20000 });
+      await homeWidePage.waitForSelector('#root .search-input', { timeout: 15000 });
+      await waitForCss(homeWidePage);
+      await assertControlsReachable(homeWidePage, '1280x780 ?app=1 (homepage)');
+    });
+    await test('no unexpected page/console errors (homepage, 1280)', async () => {
+      if (homeWideErrors.length) throw new Error(homeWideErrors.join('\n    '));
+    });
+    await homeWidePage.close();
 
     // --- (9) RED PROOF, own isolated page, 768x780 -- the exact width
     // spec 222's evidence measured the header's and standalone's

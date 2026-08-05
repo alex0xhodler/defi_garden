@@ -3157,7 +3157,13 @@ function App() {
       )
     ),
 
-    // Theme Toggle (homepage/results)
+    // Theme Toggle (homepage/results) — 225 round 3b: the legacy 48px
+    // switch/handle pair is gone. The shared icon-only-button rule makes
+    // .theme-toggle a 40px pill; icon+gap+switch was ~76px of content
+    // overflowing that box, and at `position: fixed; right: 20px` the
+    // switch's handle spilled past the viewport edge as a clipped,
+    // unpressable sliver (the 136/221 clip class). The icon alone reflects
+    // state, matching the header's own icon-only toggle.
     React.createElement('button', {
       className: 'theme-toggle',
       'data-theme': isDarkMode ? 'dark' : 'light',
@@ -3166,9 +3172,6 @@ function App() {
     },
       React.createElement('div', { className: 'theme-toggle-icon' },
         isDarkMode ? '🌙' : '☀️'
-      ),
-      React.createElement('div', { className: 'theme-toggle-switch' },
-        React.createElement('div', { className: 'theme-toggle-handle' })
       )
     ),
 

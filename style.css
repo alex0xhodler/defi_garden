@@ -4157,49 +4157,20 @@ html {
   transition: transform var(--duration-normal) var(--ease-standard);
 }
 
-.theme-toggle-switch {
-  position: relative;
-  width: 48px;
-  height: 24px;
-  background: var(--color-surface);
-  border-radius: var(--radius-full);
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-  box-shadow: none;
-  transition: all var(--duration-normal) var(--ease-standard);
-}
-
-.theme-toggle-handle {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 20px;
-  height: 20px;
-  background: var(--color-background);
-  border-radius: 50%;
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-  transition: all var(--duration-normal) var(--ease-standard);
-}
-
-.theme-toggle[data-theme="dark"] .theme-toggle-handle {
-  left: 26px;
-  background: var(--color-primary);
-}
-
-.theme-toggle[data-theme="dark"] .theme-toggle-switch {
-  background: var(--color-secondary);
-}
-
-/* .theme-toggle-text removed — icon reflects current state, no text label needed */
+/* .theme-toggle-text removed — icon reflects current state, no text label needed.
+   225 round 3b: .theme-toggle-switch/.theme-toggle-handle rules removed too —
+   the standalone toggle no longer renders the 48px switch (it overflowed the
+   40px icon-only box and clipped off the viewport edge at right: 20px). */
 
 /* Language Toggle Styles */
 .language-toggle {
   /* width/height/border-radius owned by the shared icon-only-button rule, style.css end */
   position: fixed;
   top: var(--space-20);
-  right: calc(var(--space-20) + 200px);
-  /* Position next to theme toggle */
+  right: calc(var(--space-20) + var(--ui-control-h) + var(--space-8));
+  /* 225 round 3b: sits 8px left of the now-40px icon-only theme toggle
+     (the old +200px offset was sized for the removed icon+switch pill and
+     left a dead 200px gap) */
   z-index: 1000;
   background: var(--color-background);
   box-shadow: none;
@@ -4230,7 +4201,7 @@ html {
   .language-toggle {
     position: fixed;
     top: var(--space-20);
-    right: calc(var(--space-20) + 200px);
+    right: calc(var(--space-20) + var(--ui-control-h) + var(--space-8));
   }
 }
 
@@ -4246,7 +4217,8 @@ html {
   .app:not(.has-results) .language-toggle {
     position: fixed;
     top: var(--space-20);
-    right: calc(var(--space-20) + 140px);
+    /* 225 round 3b: same 8px-left-of-toggle offset as desktop */
+    right: calc(var(--space-20) + var(--ui-control-h) + var(--space-8));
     margin: 0;
   }
 }
@@ -4262,7 +4234,8 @@ html {
   .app:not(.has-results) .language-toggle {
     position: fixed;
     top: var(--space-16);
-    right: calc(var(--space-16) + 120px);
+    /* 225 round 3b: toggle sits at right: 16px at this width */
+    right: calc(var(--space-16) + var(--ui-control-h) + var(--space-8));
     margin: 0;
   }
 }
@@ -4544,20 +4517,7 @@ html {
     font-size: 14px;
   }
 
-  .theme-toggle-switch {
-    width: 40px;
-    height: 20px;
-  }
-
-  .theme-toggle-handle {
-    width: 16px;
-    height: 16px;
-  }
-
-  .theme-toggle[data-theme="dark"] .theme-toggle-handle {
-    left: 22px;
-  }
-
+  /* 225 round 3b: switch/handle responsive variants removed with the element */
 }
 
 /* Extra small screens - compact mobile toggle */
@@ -4584,22 +4544,7 @@ html {
     font-size: 12px;
   }
 
-  .theme-toggle-switch {
-    width: 36px;
-    height: 18px;
-  }
-
-  .theme-toggle-handle {
-    width: 14px;
-    height: 14px;
-    top: 2px;
-    left: 2px;
-  }
-
-  .theme-toggle[data-theme="dark"] .theme-toggle-handle {
-    left: 20px;
-  }
-
+  /* 225 round 3b: switch/handle responsive variants removed with the element */
 }
 
 
@@ -4857,10 +4802,6 @@ html {
 
 .theme-toggle:hover {
   transform: scale(1.05);
-}
-
-.theme-toggle-handle {
-  transition: transform 300ms var(--entry-easing);
 }
 
 /* Enhanced Horizontal Scrolling Filter Styles with Improved UX */
@@ -5264,7 +5205,6 @@ html {
   .logo,
   .search-input,
   .theme-toggle,
-  .theme-toggle-handle,
   .language-toggle {
     animation: none !important;
     transition: none !important;
