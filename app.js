@@ -2880,6 +2880,14 @@ function App() {
   // forwarded to handlePoolClick's existing `position = -1` "not part of a
   // paginated list" default; `delayBase` reproduces the original per-card
   // stagger (index * 50, then +100/+150/+200 per element below).
+  // 225 round 3a (operator follow-up): the APY column mixed precision
+  // ("4.95%", "4%", "3.5%") because the global `formatApy` drops trailing
+  // zeros (maximumFractionDigits only, no minimum) — correct for a headline
+  // number, wrong inside a tabular-nums column where digits must line up.
+  // Scoped to this grid render site only; `formatApy` itself (and every
+  // other surface that uses it) is untouched.
+  const formatApyGrid = (pct) => Number(pct || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
+
   const renderPoolCard = (pool, key, position, delayBase) => {
     const protocolUrl = getProtocolUrl(pool);
     const quickPreview = getQuickPreview(pool);
@@ -2913,10 +2921,10 @@ function App() {
             title: isAnomalousApy(pool) ? 'Anomalous rate — likely temporary, manipulated, or a data artifact' : undefined
           },
             isAnomalousApy(pool)
-              ? ('⚠ ' + formatApy((pool.apyBase || 0) + (pool.apyReward || 0)))
+              ? ('⚠ ' + formatApyGrid((pool.apyBase || 0) + (pool.apyReward || 0)))
               : React.createElement(AnimatedNumber, {
                   value: (pool.apyBase || 0) + (pool.apyReward || 0),
-                  formatFn: (v) => formatApy(v),
+                  formatFn: (v) => formatApyGrid(v),
                   delay: 100 + delayBase
                 })
           ),

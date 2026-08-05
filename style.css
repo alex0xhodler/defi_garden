@@ -2849,6 +2849,22 @@ body {
 .app:not(.has-results):has(.results-section) .app-footer { position: static; }
 .app:not(.has-results):has(.results-section) { padding-bottom: 0; }
 
+/* 225 round 3a (operator follow-up), item 221 class: the fixed .app-footer
+   overlapped the last partially-visible row of the results table at rest —
+   measured directly in grid-1280-{dark,light}.png (round 3a's own
+   screenshots), the footer painting over the clipped final "USDC" row
+   regardless of how many rows the table has. Same house pattern as the
+   `.app:not(.has-results)` rule immediately above (item 230) and the
+   already-shipped pool-detail/landing footers (items 218/220): pull the
+   footer out of the fixed layer for the NORMAL `?token=`/`?chain=` results
+   view too, so content is never occluded at any scroll position, not just
+   the dead-`?pool=` empty state item 230 covered. `.app.has-results` only
+   ever renders with a `.results-section` (same render predicate as the
+   root-class check in app.js), so `:has()` here is a belt-and-suspenders
+   match on the house selector shape, not a behavior change by itself. */
+.app.has-results:has(.results-section) .app-footer { position: static; }
+.app.has-results:has(.results-section) { padding-bottom: 0; }
+
 /* Hub nav inside the disclosure footer (086): /tokens + /chains, reusing the
    existing .app-footer a styling so no one-off visual language is introduced.
    The ' · ' separator text node inherits .app-footer p's secondary color. */
