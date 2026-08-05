@@ -407,83 +407,16 @@ function PoolDetail({
       __html: breadcrumbJsonLd
     }
   }),
-  // Clean Header: Logo | Breadcrumb | Toggle
+  // Header — 225 round 3c recomposition: ONE row at every viewport (logo
+  // left, controls right); the breadcrumb pill is retired (pills never wrap
+  // plain data — DESIGN.md). The back affordance becomes a quiet link on
+  // its own line below, so mobile no longer stacks three rows of chrome.
   React.createElement('div', {
-    className: 'header animate-on-mount',
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      padding: '28px 0 24px 0',
-      marginBottom: '24px'
-    }
-  },
-  // Left: DeFi Garden Logo
-  React.createElement('div', {
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      height: '40px' // Match toggle height
-    }
+    className: 'header pool-detail-topbar animate-on-mount'
   }, React.createElement('h1', {
-    className: 'logo',
-    style: {
-      fontSize: 'var(--font-size-lg)',
-      fontWeight: 'var(--font-weight-black)',
-      color: 'var(--color-text)',
-      margin: 0,
-      cursor: 'pointer',
-      transition: 'color 0.2s ease',
-      lineHeight: '1'
-    },
-    onClick: resetApp,
-    onMouseEnter: e => e.target.style.color = 'var(--color-primary)',
-    onMouseLeave: e => e.target.style.color = 'var(--color-text)'
-  }, 'DeFi Garden')),
-  // Center: Breadcrumb Navigation
-  React.createElement('div', {
-    className: 'pool-breadcrumb',
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      gap: '10px',
-      padding: '0 20px',
-      height: '40px',
-      // Match toggle height
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-pill)',
-      fontSize: 'var(--font-size-sm)',
-      fontWeight: 'var(--font-weight-medium)',
-      color: 'var(--color-text)'
-    }
-  }, React.createElement('span', {
-    style: {
-      color: 'var(--color-text-secondary)',
-      cursor: 'pointer',
-      transition: 'color 0.2s ease'
-    },
-    onClick: () => {
-      // Analytics tracking for back navigation from pool detail
-      if (typeof Analytics !== 'undefined') {
-        Analytics.trackNavigation('pool-detail', 'search', 'back_link');
-      }
-      onBack();
-    },
-    onMouseEnter: e => e.target.style.color = 'var(--color-primary)',
-    onMouseLeave: e => e.target.style.color = 'var(--color-text-secondary)'
-  }, 'Search Results'), React.createElement('span', {
-    style: {
-      color: 'var(--color-primary)'
-    }
-  }, '→'), React.createElement('span', {
-    style: {
-      color: 'var(--color-text)',
-      fontWeight: 'var(--font-weight-semibold)'
-    }
-  }, `${pool.symbol} Pool`)),
-  // Right: Header controls (language + theme)
-  React.createElement('div', {
+    className: 'logo pool-detail-logo',
+    onClick: resetApp
+  }, 'DeFi Garden'), React.createElement('div', {
     className: 'detail-header-controls'
   },
   // Language toggle
@@ -498,176 +431,79 @@ function PoolDetail({
     onClick: toggleTheme,
     'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
   }, isDarkMode ? '🌙' : '☀️'))),
-  // Hero Section - Simplified and Focused
+  // Quiet back link (same onBack + analytics the old breadcrumb span carried,
+  // now via the existing translated backToSearch key instead of hardcoded EN).
   React.createElement('div', {
-    className: 'pool-hero-card animate-on-mount',
-    // border-radius/padding owned by the shared hero-card rule (style.css end) —
-    // this inline style keeps only colour + layout, never geometry (225 §7.2).
-    style: {
-      background: 'var(--color-surface)',
-      border: '1px solid var(--ui-border)',
-      marginBottom: '24px',
-      position: 'relative',
-      overflow: 'hidden'
+    className: 'pool-breadcrumb animate-on-mount'
+  }, React.createElement('button', {
+    className: 'pool-breadcrumb-back',
+    onClick: () => {
+      // Analytics tracking for back navigation from pool detail
+      if (typeof Analytics !== 'undefined') {
+        Analytics.trackNavigation('pool-detail', 'search', 'back_link');
+      }
+      onBack();
     }
+  }, t ? t('backToSearch') : '← Back to Search')),
+  // Hero — 225 round 3c recomposition: ONE composed panel. Identity (left)
+  // and the headline metric with its honest qualifier (right) sit in one
+  // deliberate grid relationship; a single action band closes the panel.
+  // The old detached right-hand .pool-action-card, the decorative gradient
+  // overlay, and the gradient-text APY are gone (craft-floor bans).
+  React.createElement('div', {
+    className: 'pool-hero-card animate-on-mount'
+  }, React.createElement('div', {
+    className: 'pool-hero-content'
   },
-  // Subtle gradient overlay
+  // Identity column (was className 'pool-info-section' — renamed: that
+  // class belongs to the Pool Information panel below and the collision
+  // made both unstyleable independently).
   React.createElement('div', {
-    style: {
-      position: 'absolute',
-      top: 0,
-      right: 0,
-      width: '40%',
-      height: '100%',
-      background: 'linear-gradient(90deg, transparent 0%, rgba(59, 130, 246, 0.03) 100%)',
-      pointerEvents: 'none'
-    }
-  }),
-  // Main Hero Content
-  React.createElement('div', {
-    className: 'pool-hero-content',
-    style: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'flex-start',
-      position: 'relative',
-      zIndex: 1
-    }
-  },
-  // Left side - Pool info
-  React.createElement('div', {
-    className: 'pool-info-section'
+    className: 'pool-hero-identity'
   }, React.createElement('h1', {
-    className: 'pool-symbol-hero',
-    // 225 round 3b: mono/900 terminal skin dropped — body family
-    // (inherited), 700. Numerals elsewhere get tabular-nums, never
-    // a monospace face (DESIGN.md, round3-brief item 238).
-    style: {
-      fontSize: 'var(--font-size-4xl)',
-      fontWeight: '700',
-      color: 'var(--color-text)',
-      marginBottom: '8px',
-      lineHeight: '1.1'
-    }
-  }, pool.symbol), React.createElement('div', {
-    className: 'pool-meta-simplified',
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      gap: '12px',
-      marginBottom: '16px',
-      fontSize: 'var(--font-size-lg)',
-      color: 'var(--color-text-secondary)'
-    }
+    className: 'pool-symbol-hero'
+  }, pool.symbol),
+  // One quiet metadata line: protocol · chain. No accent at rest
+  // (One Voice rule), no wrap-prone dot spans.
+  React.createElement('div', {
+    className: 'pool-meta-simplified'
   }, React.createElement('span', {
-    className: 'protocol-name',
-    style: {
-      color: 'var(--color-text)',
-      fontWeight: 'var(--font-weight-semibold)'
-    }
+    className: 'protocol-name'
   }, pool.project), React.createElement('span', {
     className: 'separator'
-  }, '•'), React.createElement('span', {
-    className: 'chain-name',
-    style: {
-      color: 'var(--color-primary)'
-    }
-  }, pool.chain)), React.createElement('div', {
-    className: 'pool-type-badge-hero',
-    // height/padding/border-radius/font owned by the shared chip rule (style.css end) —
-    // this inline style keeps only colour + layout, never geometry (225 §7.2).
-    // 225 round 3b: sentence case (poolType values are already
-    // "Lending"/"Staking"/"LP/DEX"), neutral text — a metadata chip
-    // never spends the accent at rest (One Voice rule).
-    style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      background: 'var(--ui-surface-muted)',
-      color: 'var(--color-text-secondary)',
-      border: '1px solid var(--ui-border)',
-      whiteSpace: 'nowrap'
-    }
-  }, poolType),
-  // Trust indicators
+  }, ' · '), React.createElement('span', {
+    className: 'chain-name'
+  }, pool.chain)),
+  // Metadata chips: type + trust row as ONE group, one chip language.
   React.createElement('div', {
-    className: 'trust-indicators',
-    // 225 round 3b: chips wrap as whole units (flexWrap on the row),
-    // never internally (whiteSpace nowrap per chip) — "✓ Verified"
-    // and "Risk Assessment: Low" were breaking across two lines
-    // inside their own pills at narrow widths.
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      gap: '8px',
-      marginTop: '16px'
-    }
+    className: 'trust-indicators'
   }, React.createElement('div', {
-    className: 'trust-badge',
+    className: 'pool-type-badge-hero hero-chip'
+  }, poolType), React.createElement('div', {
+    className: 'trust-badge hero-chip',
     style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      gap: '4px',
-      padding: '4px 8px',
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-pill)',
-      fontSize: 'var(--font-size-xs)',
-      whiteSpace: 'nowrap',
       color: 'var(--color-success)'
     }
   }, t ? t('verified') : '✓ Verified'), React.createElement('div', {
-    className: 'tvl-badge',
-    style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      padding: '4px 8px',
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-pill)',
-      fontSize: 'var(--font-size-xs)',
-      whiteSpace: 'nowrap',
-      color: 'var(--color-text-secondary)'
-    }
+    className: 'tvl-badge hero-chip'
   }, AnimatedNumber ? React.createElement(AnimatedNumber, {
     value: pool.tvlUsd,
     formatFn: v => formatCurrency(v) + ' TVL',
     duration: 1200
   }) : formatCurrency(pool.tvlUsd) + ' TVL'),
-  // Risk level chip (210) — moved from the standalone risk-card into
-  // the trust-indicator row, alongside Verified + TVL. Same
-  // inline-style shape as the trust-badge/tvl-badge siblings above
-  // (copied verbatim), text colored by riskAssessment.color.
-  // className: 'trust-badge' is REUSE, not a new class — post-210
-  // verifier check confirmed pool-detail-styles.css:954-961's
-  // .trust-badge rule only sets `transition` + a `:hover`
-  // transform/shadow; it never touches `color`, so it cannot
-  // override this chip's inline riskAssessment.color. Reusing it
-  // (a) matches the "✓ Verified" sibling's subtle hover lift and
-  // (b) gives this chip a real CSS-class hook for tests/the audit
-  // scanner, which a fully classless div could not offer.
-  // riskAssessment.description stays reachable via the title
-  // attribute rather than being dropped.
+  // Risk chip — riskAssessment.description stays reachable via the
+  // title attribute; text colored by riskAssessment.color.
   React.createElement('div', {
-    className: 'trust-badge',
+    className: 'trust-badge hero-chip',
     title: riskAssessment.description,
     style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      padding: '4px 8px',
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-pill)',
-      fontSize: 'var(--font-size-xs)',
-      whiteSpace: 'nowrap',
       color: riskAssessment.color
     }
   }, `${t ? t('riskAssessment') : 'Risk Assessment'}: ${riskAssessment.level}`))),
-  // Right side — unified action card
+  // Headline metric — the number and its honest qualifier are one unit.
   React.createElement('div', {
-    className: 'pool-action-card'
-  },
-  // APY section
-  React.createElement('div', {
+    className: 'pool-hero-metric'
+  }, React.createElement('div', {
     className: 'pool-action-apy'
   }, React.createElement('div', {
     className: 'pool-action-apy-label'
@@ -682,41 +518,20 @@ function PoolDetail({
   }, React.createElement('span', null, t ? t('baseApyBreakdown', _formatApy(pool.apyBase).replace('%', '')) : `${_formatApy(pool.apyBase)} Base`), React.createElement('span', {
     className: 'pool-action-apy-sep'
   }, ' · '), React.createElement('span', null, t ? t('rewardApyBreakdown', _formatApy(pool.apyReward).replace('%', '')) : `+${_formatApy(pool.apyReward)} Rewards`))),
-  // Rate-quality note tier (210 A3) — relocated verbatim (conditions,
-  // classes, inline styles, copy unchanged; only marginBottom tightened
-  // to 0 since .pool-action-card's flex column already applies a 10px
-  // gap between children) from Pool Information, directly under the
-  // APY it qualifies. Mutually-exclusive tier chain — exactly one of
-  // the three renders. LEFT IN Pool Information (unmoved):
-  // .rate-momentum-note (103) and .tvl-trend-note (104).
+  // Rate-quality note tier (210 A3) — the number's honest qualifier,
+  // rendered as plain quiet text directly under the APY it qualifies
+  // (225 round 3c: the disconnected gray wells are gone; classes,
+  // conditions and copy unchanged). Mutually-exclusive tier chain —
+  // exactly one of the three renders. LEFT IN Pool Information
+  // (unmoved): .rate-momentum-note (103) and .tvl-trend-note (104).
 
   // Rate-volatility honesty note (071).
   mean30dSane && (pool.apyBase || 0) + (pool.apyReward || 0) > 0 && pool.apyMean30d > 0 && Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) / Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) >= 1.5 && React.createElement('div', {
-    className: 'rate-volatility-note',
-    style: {
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-sm)',
-      color: 'var(--color-text-secondary)',
-      fontSize: 'var(--font-size-sm)',
-      lineHeight: '1.5',
-      padding: '12px 16px',
-      marginBottom: '0'
-    }
+    className: 'rate-volatility-note pool-hero-qualifier'
   }, t ? t('rateVolatilityNote', _formatApy((pool.apyBase || 0) + (pool.apyReward || 0)), _formatApy(pool.apyMean30d)) : `This pool's rate moves a lot: ${_formatApy((pool.apyBase || 0) + (pool.apyReward || 0))} right now vs a ${_formatApy(pool.apyMean30d)} 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.`),
   // Rate-track-record note (088.1).
   !(mean30dSane && (pool.apyBase || 0) + (pool.apyReward || 0) > 0 && pool.apyMean30d > 0 && Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) / Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) >= 1.5) && pool.kpis && typeof pool.kpis === 'object' && Number(pool.kpis.historyPoints) >= 1 && React.createElement('div', {
-    className: 'rate-track-record-note',
-    style: {
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-sm)',
-      color: 'var(--color-text-secondary)',
-      fontSize: 'var(--font-size-sm)',
-      lineHeight: '1.5',
-      padding: '12px 16px',
-      marginBottom: '0'
-    }
+    className: 'rate-track-record-note pool-hero-qualifier'
   }, function () {
     var _cur = (pool.apyBase || 0) + (pool.apyReward || 0);
     var _k = pool.kpis;
@@ -732,30 +547,21 @@ function PoolDetail({
   }()),
   // Rate-history-unavailable note (207).
   !(mean30dSane && (pool.apyBase || 0) + (pool.apyReward || 0) > 0 && pool.apyMean30d > 0 && Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) / Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) >= 1.5) && !(pool.kpis && typeof pool.kpis === 'object') && historyLookupSettled && React.createElement('div', {
-    className: 'rate-history-unavailable-note',
-    style: {
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-sm)',
-      color: 'var(--color-text-secondary)',
-      fontSize: 'var(--font-size-sm)',
-      lineHeight: '1.5',
-      padding: '12px 16px',
-      marginBottom: '0'
-    }
-  }, t ? t('rateHistoryUnavailable') : "We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama."),
-  // Divider
+    className: 'rate-history-unavailable-note pool-hero-qualifier'
+  }, t ? t('rateHistoryUnavailable') : "We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama."))),
+  // Action band — closes the hero panel. ONE primary action; the protocol
+  // link reads as the clear secondary (quiet-link treatment via CSS,
+  // markup/events/payloads untouched).
   React.createElement('div', {
-    className: 'pool-action-divider'
-  }),
+    className: 'pool-hero-actions'
+  }, React.createElement('div', {
+    className: 'pool-hero-action-primary'
+  },
   // Primary CTA — garden this pool (deep-links into the planner
-  // prefilled with a persona/goal/monthly matching this pool's risk tier)
-  // Hero primary CTA (210): label shortened to the plain generic
-  // string — the ~$X in 5y concrete projection now lives at the
-  // earnings-block repeat CTA where the user has parameterised the
-  // input. ctaVariant is hardcoded 'generic' to match (was
-  // showConcreteCta ? 'concrete' : 'generic', which no longer
-  // reflects what's on the button).
+  // prefilled with a persona/goal/monthly matching this pool's risk
+  // tier). Hero label stays the plain generic string (210); the ~$X
+  // in 5y concrete projection lives at the earnings-block echo where
+  // the user has parameterised the input.
   React.createElement('a', {
     className: 'cta-button-primary',
     href: gardenThisPoolHref,
@@ -771,13 +577,12 @@ function PoolDetail({
     }
   }, t ? t('gardenThisPoolCta') : 'Garden this pool →'), React.createElement('p', {
     className: 'pool-action-hint'
-  }, t ? t('plannerCtaHint') : 'No wallet needed'),
+  }, t ? t('plannerCtaHint') : 'No wallet needed')),
   // Secondary — protocol link, or an honest DefiLlama fallback when
-  // no protocol URL resolves at all (spec 182 leg B/D). Reads as
-  // secondary today via .cta-button-protocol's existing muted
-  // surface/text-secondary treatment vs .cta-button-primary's solid
-  // fill (210 A5) — no style change needed here.
-  ...renderProtocolCtaBlock('hero')))),
+  // no protocol URL resolves at all (spec 182 leg B/D).
+  React.createElement('div', {
+    className: 'pool-hero-action-secondary'
+  }, ...renderProtocolCtaBlock('hero')))),
   // Collapsible Yield Calculator — now the single "your garden" earnings
   // block (210 B). The standalone pool-projection-card ("THE LONG GAME")
   // and the entire quick-metrics grid (daily card, monthly card, risk card)
@@ -786,15 +591,7 @@ function PoolDetail({
   // block below the input, daily/monthly -> the 1D/7D/30D toggle result)
   // now lives input-first inside calculator-compact's expanded content.
   React.createElement('div', {
-    className: `calculator-compact animate-on-mount ${calculatorExpanded ? 'expanded' : ''}`,
-    style: {
-      background: 'var(--color-surface)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-lg)',
-      padding: calculatorExpanded ? '24px' : '20px',
-      marginBottom: '32px',
-      transition: 'all 0.3s ease'
-    }
+    className: `calculator-compact animate-on-mount ${calculatorExpanded ? 'expanded' : ''}`
   },
   // Calculator Header
   React.createElement('div', {
@@ -807,36 +604,13 @@ function PoolDetail({
       cursor: 'pointer',
       marginBottom: calculatorExpanded ? '24px' : '0'
     }
-  }, React.createElement('div', {
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      gap: '12px'
-    }
   }, React.createElement('div', null, React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-lg)',
-      fontWeight: 'var(--font-weight-bold)',
-      color: 'var(--color-text)'
-    }
+    className: 'pool-section-title'
   }, t ? t('calculateYourEarnings') : 'Calculate Your Earnings'), React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-sm)',
-      color: 'var(--color-text-secondary)',
-      marginTop: '2px'
-    }
-  }, t ? t('calcSubPrompt') : 'See your daily, weekly & monthly returns'))), React.createElement('div', {
+    className: 'pool-section-sub'
+  }, t ? t('calcSubPrompt') : 'See your daily, weekly & monthly returns')), React.createElement('div', {
     className: 'calculator-toggle',
     style: {
-      width: '32px',
-      height: '32px',
-      borderRadius: '50%',
-      background: 'var(--color-surface)',
-      border: '1px solid var(--ui-border)',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      transition: 'transform 0.3s ease',
       transform: calculatorExpanded ? 'rotate(180deg)' : 'rotate(0deg)'
     }
   }, '▼')),
@@ -934,56 +708,40 @@ function PoolDetail({
         e.target.style.transform = 'translateY(0)';
       }
     },
+    // 225 round 3c: selected state is a NEUTRAL step (DESIGN.md
+    // chips — the accent belongs to the category row + primary
+    // CTA only, never a value picker).
     style: {
       padding: '8px 16px',
-      border: investmentAmount === amount ? '1px solid var(--ui-accent-border)' : '1px solid var(--ui-border)',
+      border: investmentAmount === amount ? '1px solid var(--ui-border-strong)' : '1px solid var(--ui-border)',
       borderRadius: 'var(--ui-radius-pill)',
-      background: investmentAmount === amount ? 'var(--ui-accent-soft)' : 'var(--color-surface)',
-      color: investmentAmount === amount ? 'var(--color-primary)' : 'var(--color-text)',
+      background: investmentAmount === amount ? 'var(--ui-surface-muted)' : 'var(--color-surface)',
+      color: 'var(--color-text)',
       fontSize: 'var(--font-size-sm)',
       fontWeight: investmentAmount === amount ? 'var(--font-weight-semibold)' : 'var(--font-weight-medium)',
       transition: 'all 0.2s ease',
       cursor: 'pointer',
       whiteSpace: 'nowrap',
-      minHeight: '36px',
+      minHeight: '32px',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center'
     }
   }, `$${amount >= 1000 ? `${amount / 1000}k` : amount}`)))),
   // Long Game headline (210 B2b) — the former standalone
-  // pool-projection-card, relocated verbatim (copy/classes/conditions
-  // unchanged) INPUT-FIRST inside the earnings block: it recomputes
-  // live from investmentAmount above, so the user sets their number
-  // before reading this result. Its own .calc-disclaimer is dropped
-  // here — the block keeps exactly ONE disclaimer, near the calculator
-  // readout below (210 B2d).
+  // pool-projection-card, INPUT-FIRST inside the earnings block: it
+  // recomputes live from investmentAmount above, so the user sets
+  // their number before reading this result. 225 round 3c: the gray
+  // box is gone — the projection reads as the section's own prose
+  // (classes/conditions/copy unchanged). Its own .calc-disclaimer is
+  // dropped here — the block keeps exactly ONE disclaimer, near the
+  // calculator readout below (210 B2d).
   React.createElement('div', {
-    className: 'metric-card-simple pool-projection-card',
-    style: {
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-lg)',
-      padding: '24px',
-      marginBottom: '24px',
-      textAlign: 'center'
-    }
+    className: 'metric-card-simple pool-projection-card'
   }, React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-sm)',
-      color: 'var(--color-text-secondary)',
-      marginBottom: '8px',
-      fontWeight: 'var(--font-weight-medium)',
-      textTransform: 'uppercase',
-      letterSpacing: '0.5px'
-    }
+    className: 'pool-projection-label'
   }, t ? t('projectionHeading') : 'The Long Game'), React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-lg)',
-      fontWeight: 'var(--font-weight-bold)',
-      color: 'var(--color-text)',
-      lineHeight: '1.4'
-    }
+    className: 'pool-projection-body'
   }, isAnomalous
   // 165: an out-of-rail totalApy compounds into a fictional dollar figure
   // (e.g. $49 quintillion) — never derive $ from it. Honest replacement
@@ -994,12 +752,7 @@ function PoolDetail({
   // Yield-funded thesis line (129): the deposit stays the user's — you keep
   // your money AND it keeps working. Honest framing, no numbers to rail.
   React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-sm)',
-      color: 'var(--color-text-secondary)',
-      marginTop: '8px',
-      lineHeight: '1.4'
-    }
+    className: 'pool-projection-note'
   }, t ? t('projectionKeepNote') : 'Your deposit stays yours — you keep your money, and it keeps working.')
   // The degen-haircut warning and the isAnomalous warning that used to
   // render here moved OUT of this card (still verbatim class/copy) —
@@ -1038,35 +791,34 @@ function PoolDetail({
           e.target.style.borderColor = 'transparent';
         }
       },
+      // 225 round 3c: segmented-control selected state is the neutral
+      // surface step (DESIGN.md) — the accent stays reserved for the
+      // one primary action on this page.
       style: {
         flex: 1,
         padding: '8px 12px',
-        border: activeCalculatorTab === tab ? '1px solid var(--ui-accent-border)' : '1px solid transparent',
+        border: activeCalculatorTab === tab ? '1px solid var(--ui-border-strong)' : '1px solid transparent',
         borderRadius: 'var(--ui-radius-pill)',
-        background: activeCalculatorTab === tab ? 'var(--ui-accent-soft)' : 'transparent',
-        color: activeCalculatorTab === tab ? 'var(--color-primary)' : 'var(--color-text)',
+        background: activeCalculatorTab === tab ? 'var(--color-surface)' : 'transparent',
+        color: 'var(--color-text)',
         fontSize: 'var(--font-size-sm)',
         fontWeight: activeCalculatorTab === tab ? 'var(--font-weight-semibold)' : 'var(--font-weight-medium)',
         transition: 'all 0.2s ease',
         cursor: 'pointer',
         whiteSpace: 'nowrap',
-        minHeight: '36px',
+        minHeight: '32px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center'
       }
     }, tabLabels[tab]);
   })),
-  // Primary Yield Result (based on selected tab)
+  // Primary Yield Result (based on selected tab) — 225 round 3c: a
+  // plain composed readout, not another gray well; the amount is the
+  // section's one strong number (text color, tabular — gradient text
+  // is banned).
   React.createElement('div', {
-    style: {
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-lg)',
-      padding: '24px',
-      textAlign: 'center',
-      marginBottom: '16px'
-    }
+    className: 'calc-readout'
   }, React.createElement('div', {
     style: {
       fontSize: 'var(--font-size-base)',
@@ -1103,18 +855,7 @@ function PoolDetail({
       if (tooltip) tooltip.remove();
     }
   }, activeCalculatorTab === '1day' ? t ? t('estimatedDailyEarnings') : 'Estimated Daily Earnings' : activeCalculatorTab === '7days' ? t ? t('estimatedEarnings') : 'Estimated Weekly Earnings' : t ? t('estimatedMonthlyEarnings') : 'Estimated Monthly Earnings'), React.createElement('div', {
-    className: isPulsing ? 'yield-pulse-active' : '',
-    style: {
-      fontSize: 'var(--font-size-3xl)',
-      fontWeight: '900',
-      background: 'linear-gradient(135deg, var(--color-primary) 0%, var(--color-forest) 100%)',
-      WebkitBackgroundClip: 'text',
-      WebkitTextFillColor: 'transparent',
-      backgroundClip: 'text',
-      lineHeight: '1.1',
-      marginBottom: '8px',
-      transition: 'transform 0.15s ease-out'
-    }
+    className: `calc-readout-amount${isPulsing ? ' yield-pulse-active' : ''}`
   }, isAnomalous ? '—' : activeCalculatorTab === '1day' ? _formatUsd(investmentAmount * totalApy / 365 / 100) : activeCalculatorTab === '7days' ? _formatUsd(investmentAmount * totalApy / 52 / 100) : _formatUsd(investmentAmount * totalApy / 12 / 100)), React.createElement('div', {
     style: {
       fontSize: 'var(--font-size-sm)',
@@ -1147,33 +888,20 @@ function PoolDetail({
   }, t ? t('calcAnomalyWarning') : '⚠ This rate is anomalous and almost certainly unsustainable.'), React.createElement('div', {
     className: 'calc-disclaimer'
   }, t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'),
-  // Repeat CTA (210 B3) — moved from the page bottom (after Pool
-  // Information) to the end of the earnings block, the intent peak: the
-  // moment the user has parameterised the projection with their own
-  // amount. Sits OUTSIDE the calculatorExpanded && conditional above (a
-  // sibling, not nested inside it) so it still renders whether or not
-  // the user has collapsed the calculator. Reuses .pool-action-card
-  // markup verbatim; this KEEPS the concrete showConcreteCta projection
-  // label (by now the user has set their own input) — only ctaPlacement
-  // changes, from 'repeat_footer' to 'earnings_block', on both the
-  // garden CTA payload and the renderProtocolCtaBlock call, so hero-vs-
-  // earnings-block click share reads from the existing event with no new
-  // instrumentation.
+  // Repeat CTA (210 B3), reduced to a slim contextual echo (225 round
+  // 3c, spec 237's intent — ONE primary composition per page; this line
+  // is the earnings block's own closing action, not a second hero). It
+  // keeps: the intent-peak position at the end of the earnings block
+  // (outside the calculatorExpanded && guard), the concrete
+  // showConcreteCta projection label, the .pool-action-card class
+  // (occlusion tests measure it), and both events' payloads verbatim
+  // (ctaPlacement: 'earnings_block'). It drops: the boxed card, the
+  // "Ready to start this garden?" heading and the duplicated hint stack.
   React.createElement('div', {
-    className: 'pool-action-card',
-    style: {
-      maxWidth: '420px',
-      margin: '32px auto 0'
-    }
-  }, React.createElement('p', {
-    style: {
-      fontSize: 'var(--font-size-base)',
-      fontWeight: 'var(--font-weight-semibold)',
-      color: 'var(--color-text)',
-      textAlign: 'center',
-      margin: 0
-    }
-  }, t ? t('repeatCtaHeading') : 'Ready to start this garden?'),
+    className: 'pool-action-card pool-cta-echo'
+  }, React.createElement('div', {
+    className: 'pool-hero-action-primary'
+  },
   // Primary CTA — garden this pool (repeat)
   React.createElement('a', {
     className: 'cta-button-primary',
@@ -1190,21 +918,16 @@ function PoolDetail({
     }
   }, showConcreteCta ? t ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS) : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y` : t ? t('gardenThisPoolCta') : 'Garden this pool →'), React.createElement('p', {
     className: 'pool-action-hint'
-  }, t ? t('plannerCtaHint') : 'No wallet needed'),
+  }, t ? t('plannerCtaHint') : 'No wallet needed')),
   // Secondary — protocol link, or an honest DefiLlama fallback when no
   // protocol URL resolves at all (spec 182 leg B/D), repeated.
-  ...renderProtocolCtaBlock('earnings_block'))),
-  // Collapsible Pool Information
   React.createElement('div', {
-    className: `pool-info-section animate-on-mount ${poolInfoExpanded ? 'expanded' : ''}`,
-    style: {
-      background: 'var(--color-surface)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-lg)',
-      padding: poolInfoExpanded ? '24px' : '20px',
-      marginBottom: '32px',
-      transition: 'all 0.3s ease'
-    }
+    className: 'pool-hero-action-secondary'
+  }, ...renderProtocolCtaBlock('earnings_block')))),
+  // Collapsible Pool Information — 225 round 3c: reference-weight ledger,
+  // not a grid of equal gray boxes.
+  React.createElement('div', {
+    className: `pool-info-section animate-on-mount ${poolInfoExpanded ? 'expanded' : ''}`
   },
   // Pool Info Header
   React.createElement('div', {
@@ -1215,52 +938,28 @@ function PoolDetail({
       justifyContent: 'space-between',
       alignItems: 'center',
       cursor: 'pointer',
-      marginBottom: poolInfoExpanded ? '20px' : '0'
+      marginBottom: poolInfoExpanded ? '16px' : '0'
     }
   }, React.createElement('div', {
     style: {
       display: 'flex',
-      alignItems: 'center',
+      alignItems: 'baseline',
       gap: '12px'
     }
   }, React.createElement('h3', {
+    className: 'pool-section-title',
     style: {
-      fontSize: 'var(--font-size-lg)',
-      fontWeight: 'var(--font-weight-bold)',
-      color: 'var(--color-text)',
       margin: 0
     }
   }, t ? t('poolInformation') : 'Pool Information'), protocolUrl && React.createElement('a', {
+    className: 'pool-info-protocol-link',
     href: protocolUrl,
     target: '_blank',
     rel: 'noopener noreferrer',
-    onClick: e => e.stopPropagation(),
-    style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      gap: '4px',
-      padding: '4px 8px',
-      background: 'var(--ui-surface-muted)',
-      color: 'var(--color-primary)',
-      textDecoration: 'none',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-pill)',
-      fontSize: 'var(--font-size-xs)',
-      fontWeight: 'var(--font-weight-medium)',
-      transition: 'all 0.2s ease'
-    }
+    onClick: e => e.stopPropagation()
   }, t ? t('protocol') : 'Protocol↗')), React.createElement('div', {
     className: 'pool-info-toggle',
     style: {
-      width: '28px',
-      height: '28px',
-      borderRadius: '50%',
-      background: 'var(--color-surface)',
-      border: '1px solid var(--ui-border)',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      transition: 'transform 0.3s ease',
       transform: poolInfoExpanded ? 'rotate(180deg)' : 'rotate(0deg)'
     }
   }, '▼')),
@@ -1282,17 +981,7 @@ function PoolDetail({
   // Promoted (210 C3) above the tile grid — prose insight outranks
   // reference data.
   !(mean30dSane && (pool.apyBase || 0) + (pool.apyReward || 0) > 0 && pool.apyMean30d > 0 && Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) / Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) >= 1.5) && pool.kpis && typeof pool.kpis === 'object' && typeof pool.kpis.apyMomentum === 'number' && Number(pool.kpis.historyPoints) >= 7 && Math.abs(pool.kpis.apyMomentum) >= 0.5 && React.createElement('div', {
-    className: 'rate-momentum-note',
-    style: {
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-sm)',
-      color: 'var(--color-text-secondary)',
-      fontSize: 'var(--font-size-sm)',
-      lineHeight: '1.5',
-      padding: '12px 16px',
-      marginBottom: '20px'
-    }
+    className: 'rate-momentum-note pool-info-note'
   }, function () {
     var mom = pool.kpis.apyMomentum;
     var hp = Number(pool.kpis.historyPoints);
@@ -1313,17 +1002,7 @@ function PoolDetail({
   // meaningful move (|tvlTrend| < 0.25). Promoted (210 C3) above the
   // tile grid — prose insight outranks reference data.
   !(mean30dSane && (pool.apyBase || 0) + (pool.apyReward || 0) > 0 && pool.apyMean30d > 0 && Math.max((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) / Math.min((pool.apyBase || 0) + (pool.apyReward || 0), pool.apyMean30d) >= 1.5) && pool.kpis && typeof pool.kpis === 'object' && typeof pool.kpis.tvlTrend === 'number' && Number(pool.kpis.historyPoints) >= 7 && Math.abs(pool.kpis.tvlTrend) >= 0.25 && React.createElement('div', {
-    className: 'tvl-trend-note',
-    style: {
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-sm)',
-      color: 'var(--color-text-secondary)',
-      fontSize: 'var(--font-size-sm)',
-      lineHeight: '1.5',
-      padding: '12px 16px',
-      marginBottom: '20px'
-    }
+    className: 'tvl-trend-note pool-info-note'
   }, function () {
     var tvl = pool.kpis.tvlTrend;
     var hp = Number(pool.kpis.historyPoints);
@@ -1333,110 +1012,50 @@ function PoolDetail({
     }
     return t ? t('tvlTrendGrowing', pctStr, hp) : "This pool's deposits have grown about " + pctStr + " over the " + hp + " days we've tracked it. More deposits isn't a guarantee, but a pool that's holding or gaining size is one honest sign of staying power.";
   }()),
-  // APY Breakdown Grid
+  // Fact ledger (225 round 3c) — label/value rows with shared 1px
+  // separators, the list view's own voice; replaces the grid of equal
+  // gray tiles (Borders-Earn-It rule). Same facts, same conditions,
+  // same t() keys and formatters as the tiles carried.
   React.createElement('div', {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-      gap: '12px',
-      marginBottom: '20px'
-    }
+    className: 'pool-facts'
   },
-  // TVL tile (210 C2) — replaces the removed Base APY/Reward APY/Pool
-  // Type tiles (all three duplicated the hero); same tile shape,
-  // existing t('tvl') key (EN/KO already present), and the same
-  // formatCurrency helper the hero's tvl-badge uses.
+  // TVL row (210 C2) — same t('tvl') key and formatCurrency helper
+  // the hero's tvl-badge uses.
   React.createElement('div', {
-    style: {
-      padding: '12px',
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-sm)',
-      textAlign: 'center'
-    }
-  }, React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-xs)',
-      color: 'var(--color-text-secondary)',
-      marginBottom: '4px',
-      textTransform: 'uppercase'
-    }
-  }, t ? t('tvl') : 'TVL'), React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-sm)',
-      fontWeight: 'var(--font-weight-medium)',
-      color: 'var(--color-text)'
-    }
+    className: 'pool-fact-row'
+  }, React.createElement('span', {
+    className: 'pool-fact-label'
+  }, t ? t('tvl') : 'TVL'), React.createElement('span', {
+    className: 'pool-fact-value'
   }, formatCurrency(pool.tvlUsd))),
   // 30d Mean APY (if available) — substantiates whether today's rate is stable or a spike
   mean30dSane && React.createElement('div', {
-    style: {
-      padding: '12px',
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-sm)',
-      textAlign: 'center'
-    }
-  }, React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-xs)',
-      color: 'var(--color-text-secondary)',
-      marginBottom: '4px',
-      textTransform: 'uppercase'
-    }
-  }, t ? t('apyMean30d') : '30d Mean APY'), React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-sm)',
-      fontWeight: 'var(--font-weight-medium)',
-      color: 'var(--color-text)'
-    }
+    className: 'pool-fact-row'
+  }, React.createElement('span', {
+    className: 'pool-fact-label'
+  }, t ? t('apyMean30d') : '30d Mean APY'), React.createElement('span', {
+    className: 'pool-fact-value'
   }, _formatApy(pool.apyMean30d))),
   // Exposure (if available)
   pool.exposure && React.createElement('div', {
+    className: 'pool-fact-row'
+  }, React.createElement('span', {
+    className: 'pool-fact-label'
+  }, t ? t('exposure') : 'Exposure'), React.createElement('span', {
+    className: 'pool-fact-value',
     style: {
-      padding: '12px',
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-sm)',
-      textAlign: 'center'
-    }
-  }, React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-xs)',
-      color: 'var(--color-text-secondary)',
-      marginBottom: '4px',
-      textTransform: 'uppercase'
-    }
-  }, t ? t('exposure') : 'Exposure'), React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-sm)',
-      fontWeight: 'var(--font-weight-medium)',
-      color: 'var(--color-text)',
       textTransform: 'capitalize'
     }
   }, pool.exposure)),
   // IL Risk (if available) — flagged in warning color when present, never hidden
   pool.ilRisk && React.createElement('div', {
+    className: 'pool-fact-row'
+  }, React.createElement('span', {
+    className: 'pool-fact-label'
+  }, t ? t('ilRisk') : 'IL Risk'), React.createElement('span', {
+    className: 'pool-fact-value',
     style: {
-      padding: '12px',
-      background: 'var(--ui-surface-muted)',
-      border: '1px solid var(--ui-border)',
-      borderRadius: 'var(--ui-radius-sm)',
-      textAlign: 'center'
-    }
-  }, React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-xs)',
-      color: 'var(--color-text-secondary)',
-      marginBottom: '4px',
-      textTransform: 'uppercase'
-    }
-  }, t ? t('ilRisk') : 'IL Risk'), React.createElement('div', {
-    style: {
-      fontSize: 'var(--font-size-sm)',
-      fontWeight: 'var(--font-weight-medium)',
-      color: pool.ilRisk === 'yes' ? 'var(--color-warning)' : 'var(--color-text)',
-      textTransform: 'capitalize'
+      color: pool.ilRisk === 'yes' ? 'var(--color-warning)' : undefined
     }
   }, pool.ilRisk === 'yes' ? t ? t('yes') : 'Yes' : t ? t('no') : 'No'))),
   // Tokens Section (if available)
@@ -1444,7 +1063,7 @@ function PoolDetail({
     style: {
       marginTop: '16px',
       paddingTop: '16px',
-      borderTop: '1px solid rgba(59, 130, 246, 0.1)'
+      borderTop: '1px solid var(--ui-border)'
     }
   }, React.createElement('div', {
     style: {

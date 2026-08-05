@@ -132,7 +132,7 @@ const translations = {
     no: "No",
 
     // Honest mini-projection (pool-detail)
-    projectionHeading: "The Long Game",
+    projectionHeading: "The long game",
     projectionBody: (principal, years, amount) => `$${Number(principal || 0).toLocaleString('en-US')} in this pool grows to ~$${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })} in ${years}y at current rates.`,
     // 165: anomalous-rate replacement for projectionBody — no numbers to rail.
     projectionBodyOutOfRange: "This rate is too far outside normal ranges to project a dollar amount from — the number would be fiction, not a forecast.",
