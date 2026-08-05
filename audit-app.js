@@ -4194,12 +4194,268 @@ async function checkOcclusion(page, s, findings) {
   try {
     await page.setViewportSize({ width: s.width, height: OCCLUSION_HEIGHT });
     const viewport = `${s.width}x${OCCLUSION_HEIGHT}`;
+
+    // backlog 231 — assert the resize actually landed before measuring
+    // anything against it. occlusionPassEval reads window.innerWidth/
+    // innerHeight directly and derives bottomAnchor from viewportH; every
+    // occlusion this lens exists to catch is height-dependent by
+    // construction (OCCLUSION_HEIGHT's own comment above), so a measurement
+    // taken before the renderer has applied the resize reads the OLD
+    // viewport and returns a structurally clean pass that is a false
+    // negative by construction. Bounded poll (house pattern, pollFor);
+    // never met -> push a P2 naming the measured values and skip both
+    // passes rather than measure a lie (spec 231 "Change" 1).
+    let lastViewportDims = null;
+    const viewportApplied = await pollFor(page, async () => {
+      const dims = await page.evaluate(() => ({ w: window.innerWidth, h: window.innerHeight }));
+      lastViewportDims = dims;
+      return (dims.w === s.width && dims.h === OCCLUSION_HEIGHT) ? dims : null;
+    }, 2000);
+    if (!viewportApplied) {
+      findings.push(finding(s.name, s.vpLabel, 'occlusion', 'P2',
+        `viewport assertion failed after setViewportSize({width:${s.width}, height:${OCCLUSION_HEIGHT}}): measured window.innerWidth=${lastViewportDims ? lastViewportDims.w : 'unknown'}, window.innerHeight=${lastViewportDims ? lastViewportDims.h : 'unknown'} after 2000ms — skipping both passes, never measuring at the wrong viewport`));
+      return;
+    }
+
     // Resizing triggers reflow and, on the React surfaces, a re-render —
     // measuring inside that window risks both false findings (mid-reflow
     // geometry) and missed ones (an overlay not yet painted at its final
     // position), the exact "flood then get switched off" failure mode this
-    // lens must avoid. One short settle, paid once, before either pass.
-    await page.waitForTimeout(150);
+    // lens must avoid. backlog 231 attempt 1 replaced the flat 150ms sleep
+    // with a two-consecutive-identical-SAMPLES convergence poll — the
+    // verifier measured that poll at 0/10 detection on a page that goes
+    // quiet for >100ms and then makes exactly ONE instantaneous late
+    // change: quiet ... change ... quiet again is precisely the shape two
+    // samples taken far enough apart will report as "converged", because a
+    // SAMPLING rule can only ever see the instants it happens to look at,
+    // never a change that lands between its exit and its measurement.
+    // Attempt 2 stopped sampling and OBSERVED instead (MutationObserver +
+    // ResizeObserver), but anchored its floor (MIN_PAGE_AGE_MS=500) to the
+    // PAGE's age since NAVIGATION — the verifier measured real dwell-start
+    // page ages spanning 196ms (landing) to ~13,000ms (static-page), so on
+    // the already-old branch the floor was inert and the mechanism
+    // degraded to QUIET_MS-only, measured at 8/20 on an aged page making
+    // one late change (specs/231-notes.md "Attempt 2" / "Attempt 3"). It
+    // also cost a real runAudit leg +23.4%, over the ceiling, because a
+    // 2000ms budget let AnimatedNumber's rAF churn re-arm the observer
+    // almost to the full 2s on every grid surface.
+    //
+    // Attempt 3 (this code) anchors EVERY timer to DWELL START instead —
+    // page age is not an input anywhere in this function. Install a
+    // MutationObserver (childList+subtree+attributes+characterData) and a
+    // ResizeObserver on document.documentElement and on every currently
+    // visible fixed/sticky element — the exact overlay set
+    // occlusionPassEval's own selector scans, i.e. the set the lens's
+    // verdict depends on — then watch until
+    // max(MIN_WATCH_MS, last observed change + QUIET_MS), capped at
+    // BUDGET_MS, all measured from the instant this dwell begins. Every
+    // observed change RE-ARMS the QUIET_MS term. MIN_WATCH_MS is a uniform
+    // floor: it does not care how old the page already is, so a single
+    // late change landing within MIN_WATCH_MS of dwell start is watched-for
+    // (and, once observed, re-arms QUIET_MS) on young and old pages alike —
+    // this is what fixes criterion 1d. On an already-quiet page with no
+    // further activity this exits at MIN_WATCH_MS; a change re-arms QUIET_MS
+    // from itself and exits at max(MIN_WATCH_MS, change-time + QUIET_MS),
+    // still capped at BUDGET_MS (spec 231 "Change" 2, re-measured in
+    // specs/231-notes.md "Attempt 3").
+    //
+    // Newly-appearing fixed/sticky elements deliberately do NOT get their
+    // own ResizeObserver registration up front: their insertion is itself
+    // a childList mutation the MutationObserver above already re-arms on,
+    // and the dwell cannot exit until QUIET_MS has elapsed since THAT
+    // re-arm — so a newly-inserted overlay has a full quiet window in
+    // which any resize of its own would itself be observed (by the
+    // documentElement ResizeObserver catching the resulting reflow, or by
+    // a subsequent attribute/style mutation). CONFIRMED RESIDUAL (spec 231
+    // criterion 1c, measured not assumed — specs/231-notes.md "Criterion
+    // 1c"): a pure CSS `transform` (not a border-box/content-box property
+    // like `height`/`width`) change fires NEITHER observer — ResizeObserver
+    // measures the layout box, which a `transform` never touches, by that
+    // API's own spec — so a page whose only signal is a `transform`-driven
+    // move, with no DOM mutation and no border-box resize anywhere, evades
+    // detection once its delay exceeds the horizon
+    // max(MIN_WATCH_MS, last observed change + QUIET_MS) (capped at
+    // BUDGET_MS) FROM DWELL START — since no change is ever observed for
+    // this shape, that horizon collapses to MIN_WATCH_MS itself (confirmed
+    // 0/5 beyond it; the SAME shape is fully caught, 20/20, within the
+    // [0,400]ms range this item's own criteria test, but only because
+    // MIN_WATCH_MS holds the dwell open that long unconditionally, not
+    // because either observer sees it).
+    //
+    // Budget exhausted while the page is still churning is NOT treated as
+    // failure to measure: push a P2 advisory naming the last observed
+    // change and measure anyway — an occlusion seen on a churning page is
+    // still positive evidence, its absence is not evidence of health (spec
+    // 231 "Change" 2, same deliberate asymmetry as the viewport-assertion
+    // skip above).
+    //
+    // Self-contained on purpose, same reason occlusionPassEval is
+    // (Playwright serialises a function reference passed to page.evaluate()
+    // via toString() and runs it in the page realm — it cannot close over
+    // any Node-side variable, only its own argument). Returns a Promise
+    // that resolves only once the dwell condition (quiet, or budget
+    // exhausted) is met, so page.evaluate() itself does the waiting inside
+    // the page — there is no Node-side poll loop that could miss an event
+    // landing between polls. Scoped locally since only this call uses it.
+    function occlusionQuietDwell(args) {
+      var QUIET_MS = args.quietMs, BUDGET_MS = args.budgetMs, MIN_WATCH_MS = args.minWatchMs;
+      return new Promise(function (resolve) {
+        function isVisible(el) {
+          if (typeof el.checkVisibility === 'function') {
+            try { return el.checkVisibility({ visibilityProperty: true, opacityProperty: true }); } catch (e) { /* fall through */ }
+          }
+          var cs = getComputedStyle(el);
+          if (cs.display === 'none' || cs.visibility === 'hidden') return false;
+          if (parseFloat(cs.opacity) === 0) return false;
+          return true;
+        }
+        function describeEl(el) {
+          if (!el || !el.tagName) return 'document';
+          var tag = el.tagName.toLowerCase();
+          var cls = typeof el.className === 'string' ? el.className.trim() : '';
+          return '<' + tag + (cls ? ' class="' + cls + '"' : '') + '>';
+        }
+
+        var start = Date.now();
+        var lastChangeAt = start;
+        var lastChangeDesc = 'none (page was already quiet)';
+        var timer = null;
+        var finished = false;
+        var mo = null;
+        var ros = [];
+
+        function cleanup() {
+          if (finished) return;
+          finished = true;
+          if (timer) clearTimeout(timer);
+          if (mo) mo.disconnect();
+          for (var i = 0; i < ros.length; i++) ros[i].disconnect();
+        }
+
+        function rearm(desc) {
+          if (finished) return;
+          lastChangeAt = Date.now();
+          lastChangeDesc = desc;
+          scheduleCheck();
+        }
+
+        // MIN_WATCH_MS: this dwell will not declare itself settled on the
+        // strength of QUIET_MS alone until it has ALSO WATCHED for at
+        // least this long — measured from the moment THIS DWELL STARTED,
+        // never from the page's navigation/age. No DOM/observer API can
+        // reveal a `setTimeout` that has not fired yet (JS's event loop
+        // makes a scheduled-but-not-yet-run callback fundamentally
+        // unobservable in advance), so QUIET_MS-since-last-mutation on its
+        // own cannot distinguish "genuinely nothing left to happen" from
+        // "quiet only because the one change hasn't fired yet" — measured
+        // directly: QUIET_MS alone caught 7/20 (35%) of the same seeded
+        // late-change fixture criterion 1b uses, no better than the 150ms
+        // flat sleep it replaces (specs/231-notes.md, "Attempt 2").
+        // Attempt 2 fixed that with a floor anchored to the PAGE's age
+        // since navigation (MIN_PAGE_AGE_MS) — cheap on already-old real
+        // pages, but INERT on them for exactly that reason: an old page
+        // that makes one late change gets no floor protection at all,
+        // measured at 8/20 (specs/231-notes.md "Attempt 3"). Anchoring the
+        // floor to DWELL START instead of page age fixes that (every dwell
+        // watches for at least MIN_WATCH_MS regardless of how old the page
+        // already is) at a real, measured, broader cost: EVERY
+        // checkOcclusion call now pays at least MIN_WATCH_MS, not only the
+        // young-page ones — bounded via a lower MIN_WATCH_MS (400 vs the
+        // old 500) and a lower BUDGET_MS (1500 vs the old 2000, which caps
+        // the AnimatedNumber-driven churn tail that broke the cost budget,
+        // while still giving `pool-detail`'s own single-instance
+        // AnimatedNumber churn — measured settling at ~750-1190ms — enough
+        // runway not to false-positive) to land inside the +20%
+        // real-runAudit-leg ceiling — see specs/231-notes.md "Attempt 3",
+        // "Cost".
+        function scheduleCheck() {
+          if (finished) return;
+          if (timer) clearTimeout(timer);
+          var now = Date.now();
+          var remainingBudget = BUDGET_MS - (now - start);
+          if (remainingBudget <= 0) {
+            var doneLastAt = lastChangeAt - start, doneDesc = lastChangeDesc;
+            cleanup();
+            resolve({ quiet: false, lastChangeAtMs: doneLastAt, lastChangeDesc: doneDesc, elapsedMs: now - start });
+            return;
+          }
+          var remainingQuiet = QUIET_MS - (now - lastChangeAt);
+          var remainingWatch = MIN_WATCH_MS - (now - start);
+          var waitMs = Math.max(0, Math.min(Math.max(remainingQuiet, remainingWatch), remainingBudget));
+          timer = setTimeout(function () {
+            var t = Date.now();
+            var sinceChange = t - lastChangeAt;
+            var watched = t - start;
+            if (sinceChange >= QUIET_MS && watched >= MIN_WATCH_MS) {
+              var doneLastAt2 = lastChangeAt - start, doneDesc2 = lastChangeDesc;
+              cleanup();
+              resolve({ quiet: true, lastChangeAtMs: doneLastAt2, lastChangeDesc: doneDesc2, elapsedMs: t - start });
+            } else {
+              scheduleCheck();
+            }
+          }, waitMs);
+        }
+
+        mo = new MutationObserver(function (records) {
+          var desc = 'mutation';
+          if (records && records.length) {
+            var r = records[0];
+            desc = 'mutation(type=' + r.type + ', target=' + describeEl(r.target) + ')';
+          }
+          rearm(desc);
+        });
+        mo.observe(document.documentElement, { childList: true, subtree: true, attributes: true, characterData: true });
+
+        function watchResize(el, label) {
+          var ro = new ResizeObserver(function () { rearm('resize(' + label + ')'); });
+          ro.observe(el);
+          ros.push(ro);
+        }
+        watchResize(document.documentElement, 'documentElement');
+        var all = document.querySelectorAll('*');
+        for (var i = 0; i < all.length; i++) {
+          var el = all[i];
+          var cs = getComputedStyle(el);
+          if (cs.position !== 'fixed' && cs.position !== 'sticky') continue;
+          if (!isVisible(el)) continue;
+          watchResize(el, describeEl(el));
+        }
+
+        scheduleCheck();
+      });
+    }
+    const QUIET_MS = 150;
+    // MIN_WATCH_MS: see occlusionQuietDwell's own comment above (spec 231
+    // "Change" 2 + specs/231-notes.md "Attempt 3") — a uniform floor on how
+    // long this dwell watches from its OWN start, chosen with margin over
+    // the [0,400]ms distribution criteria 1/1b/1d measure this lens
+    // against. Unlike attempt 2's MIN_PAGE_AGE_MS, this is paid on EVERY
+    // checkOcclusion call, old page or young — that is the point (fixes
+    // criterion 1d) and the reason BUDGET_MS below is lower than attempt
+    // 2's 2000ms: the two numbers are budget-coupled and were tuned
+    // together against the real runAudit-leg cost ceiling, not chosen
+    // independently (specs/231-notes.md "Attempt 3", "Cost").
+    const MIN_WATCH_MS = 400;
+    // BUDGET_MS: caps the churn tail. Lower than attempt 2's 2000ms because
+    // attempt 2's budget let AnimatedNumber's rAF re-renders (app.js:750,
+    // 3x per pool card, ~1.2s) re-arm the dwell almost to the full 2s on
+    // every grid surface, driving a real runAudit leg to +23.4% — over the
+    // ceiling. 900ms was tried first and measured to break a DIFFERENT
+    // real surface: `pool-detail` (a single-instance AnimatedNumber, no
+    // grid) has its own characterData churn that settles at ~750-1190ms in
+    // repeated measurement (15+ samples), so a 900ms cap cut it off
+    // mid-churn and pushed a spurious P2 onto test_audit_app.js's own
+    // pool-detail-must-be-occlusion-free regression rail (217/218's own
+    // rail, never eligible for quarantine) — measured, not theorised; see
+    // specs/231-notes.md "Attempt 3", "Cost" for the full BUDGET_MS
+    // candidate table. 1500ms gives that real settle time a ~300ms margin
+    // while remaining well under attempt 2's 2000ms.
+    const BUDGET_MS = 1500;
+    const dwell = await page.evaluate(occlusionQuietDwell, { quietMs: QUIET_MS, budgetMs: BUDGET_MS, minWatchMs: MIN_WATCH_MS });
+    if (!dwell.quiet) {
+      findings.push(finding(s.name, s.vpLabel, 'occlusion', 'P2',
+        `layout quiet-dwell (QUIET_MS=${QUIET_MS}) not reached after ${dwell.elapsedMs}ms budget at ${viewport}: last observed change was ${dwell.lastChangeDesc} at t=${dwell.lastChangeAtMs}ms — measuring anyway (a positive on a churning page is still evidence, its absence is not)`));
+    }
 
     // style.css:2845 sets `html { scroll-behavior: smooth }`, so a plain
     // `window.scrollTo` ANIMATES on every real page — reading position right
