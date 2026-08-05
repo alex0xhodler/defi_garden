@@ -83,7 +83,8 @@ touched; the fix is proof-only (a new fixture in the test file).
 - `package.json` — registered the new test in `test:serial`, immediately after
   `test_audit_occlusion_lens.js`.
 - Nothing in `home.html`/`style.css`/`app.js`/`PoolDetail.js`/any other product file touched.
-  `checkResponsive` (backlog 232) untouched, as scoped.
+  `checkResponsive` (backlog 233 — renumbered from 232 after a concurrent heartbeat claimed 232 on `main`)
+  untouched, as scoped.
 
 ## Deviations from the spec, and why
 
