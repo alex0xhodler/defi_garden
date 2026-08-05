@@ -1257,7 +1257,13 @@ body {
   align-items: center;
   gap: var(--space-6);
   flex-shrink: 0;
-  padding: var(--space-6) var(--space-12);
+  /* impeccable pass (225): was 6px/12px padding -> a 29px-tall control sitting
+     beside 40px-tall .app-filter-btn pills in the same row (measured). Same
+     control band, two different heights reads as uneven rather than as two
+     deliberately distinct components. 10px vertical padding brings this to
+     the row's shared 40px control height without changing the tab's flat
+     underline language. */
+  padding: var(--space-10) var(--space-12);
   background: transparent;
   border: none;
   border-bottom: 3px solid transparent;
@@ -1323,10 +1329,19 @@ body {
   transform: translateY(1px);
 }
 
+/* impeccable pass (225): this used to be a SECOND, softer blue treatment
+   (accent-soft fill + accent text) for "this dropdown is open" — sitting one
+   state away from .has-selection's solid blue fill for "this filter has a
+   value". Two blue intensities on the same component for two different
+   meanings is exactly the "blue at multiple intensities" pattern the human
+   flagged; a glance can't tell "open" from "engaged" by color alone. Blue
+   now means exactly one thing on this control (a value is set); "menu is
+   open" gets the same neutral border-strong step every other toggle in this
+   product already uses for a transient/open state (.view-toggle-btn.active). */
 .app-filter-btn.active:not(.has-selection) {
-  background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
-  color: var(--ui-accent);
+  background: var(--ui-surface);
+  border-color: var(--ui-border-strong);
+  color: var(--color-text);
   box-shadow: none;
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -2108,10 +2123,17 @@ body {
   flex-wrap: wrap;
 }
 
+/* impeccable pass (225): pill radius, not the 12px "labeled button" radius —
+   this is a "make a choice" control (grid/list toggle, sort), the same role
+   as the filter chips one row up on this screen. Rounded-rect here made
+   tabs / chips / sort-control read as three different shape languages for
+   one screen; two of the three ("chips" and "choice controls") now share
+   one pill vocabulary, leaving the flat underline tabs as the one
+   deliberately different (navigation, not selection) shape. */
 .view-toggles {
   display: flex;
   background: var(--ui-surface-muted);
-  border-radius: var(--ui-radius-md);
+  border-radius: var(--ui-radius-pill);
   padding: 4px;
   border: 1px solid var(--ui-border);
   box-shadow: none;
@@ -2167,7 +2189,7 @@ body {
 
 .sort-toggles {
   background: var(--ui-surface-muted);
-  border-radius: var(--ui-radius-md);
+  border-radius: var(--ui-radius-pill);
   padding: 4px;
   border: 1px solid var(--ui-border);
   box-shadow: none;
@@ -2181,6 +2203,15 @@ body {
   font-weight: var(--font-weight-medium);
   text-transform: none;
   letter-spacing: normal;
+}
+
+/* impeccable pass (225): pill radius on the inner buttons too, matching the
+   pill track above. Three classes deep so it beats the shared "Button,
+   secondary" role's 12px radius (style.css end) regardless of source order —
+   that role is correct for reset/pagination/back buttons, which stay 12px;
+   only this sort control moves to the pill "choice control" language. */
+.sort-control .sort-toggles .sort-toggle-btn {
+  border-radius: var(--ui-radius-pill);
 }
 
 /* Slim column-label row, aligned to the exact same grid the rows below use.
