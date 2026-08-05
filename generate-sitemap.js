@@ -103,6 +103,86 @@ function countQualifyingChainAll(pools, { minTvl = SITEMAP_MIN_TVL, minApy = 0 }
   return n;
 }
 
+// item 226 (specs/226.md, Google head-curation): this is the SAME
+// ≥2-railed-pools gate item 013 already applies to app-view (?token=/?chain=)
+// sitemap URLs — now applied to the static-page (/tokens/<slug>,
+// /chains/<slug>) sitemaps too, so no new quality idea is invented, one
+// number reused everywhere. Tied to SITEMAP_MIN_QUALIFYING_POOLS directly
+// (not a separately-typed "2") so the two gates can never drift apart.
+const HEAD_MIN_RAILED_POOLS = SITEMAP_MIN_QUALIFYING_POOLS;
+
+// Function declarations (not consts) so they're safely callable above their
+// source position via hoisting — isValidToken is defined further down this
+// file, beside extractValidCombinations, which these mirror.
+
+/**
+ * Map<UPPERCASE token symbol, count of RAILED pools> — pools passing
+ * isQualifyingPool (tvlUsd >= SITEMAP_MIN_TVL, not anomalous), split into
+ * token symbols exactly like generateSitemapSuite's own per-token qualifying
+ * loop. SINGLE SOURCE OF TRUTH (mirror rule): generateSitemapSuite calls this
+ * directly for its own qualifyingTokenPoolCount map instead of keeping a
+ * second inline copy of the same loop.
+ */
+function railedTokenPoolCounts(pools) {
+  const counts = new Map();
+  (pools || []).forEach(p => {
+    if (!isQualifyingPool(p)) return;
+    const symbols = p.symbol?.split(/[-_\/\s]/).map(s => s.trim().toUpperCase()) || [];
+    symbols.forEach(s => {
+      if (!isValidToken(s)) return;
+      counts.set(s, (counts.get(s) || 0) + 1);
+    });
+  });
+  return counts;
+}
+
+/** Map<chain, count of RAILED pools> — same rails as railedTokenPoolCounts,
+ * grouped by chain instead of by token symbol. */
+function railedChainPoolCounts(pools) {
+  const counts = new Map();
+  (pools || []).forEach(p => {
+    if (!isQualifyingPool(p)) return;
+    const chain = (p.chain || '').toString().trim();
+    if (!chain) return;
+    counts.set(chain, (counts.get(chain) || 0) + 1);
+  });
+  return counts;
+}
+
+function isHeadToken(symbol, counts) {
+  return (counts.get(String(symbol).toUpperCase()) || 0) >= HEAD_MIN_RAILED_POOLS;
+}
+function isHeadChain(chain, counts) {
+  return (counts.get(chain) || 0) >= HEAD_MIN_RAILED_POOLS;
+}
+
+/** Set<UPPERCASE symbol> of tokens clearing the head gate — the single
+ * predicate generate-token-pages.js filters its sitemap URL list through.
+ * The count>=HEAD_MIN_RAILED_POOLS comparison lives ONLY in isHeadToken()
+ * above (mirror rule) — this just iterates and delegates to it. */
+function selectHeadTokens(pools) {
+  const counts = railedTokenPoolCounts(pools);
+  const out = new Set();
+  counts.forEach((count, symbol) => { if (isHeadToken(symbol, counts)) out.add(symbol); });
+  return out;
+}
+/** Set<chain name> of chains clearing the head gate — the single predicate
+ * generate-chain-pages.js filters its sitemap URL list through. The
+ * count>=HEAD_MIN_RAILED_POOLS comparison lives ONLY in isHeadChain() above
+ * (mirror rule) — this just iterates and delegates to it. */
+function selectHeadChains(pools) {
+  const counts = railedChainPoolCounts(pools);
+  const out = new Set();
+  counts.forEach((count, chain) => { if (isHeadChain(chain, counts)) out.add(chain); });
+  return out;
+}
+
+// item 226 (human authorization 2026-08-04 Q3b): Google's sitemap view is a
+// curated head. The app-view families below stay LIVE, self-canonical and
+// linked from every static page's "view in app" CTA — they simply leave the
+// sitemaps. Flip to true to restore them (the spec's documented revert).
+const EMIT_APP_VIEW_SITEMAPS = false;
+
 /**
  * Fetch pool data from Defillama API
  */
@@ -520,7 +600,12 @@ async function generateSitemapSuite(poolsOverride) {
     // not anomalous) per token, per token+chain, and per token+category —
     // the exact filter a URL's default page would apply. A URL only earns a
     // sitemap entry once its combo clears SITEMAP_MIN_QUALIFYING_POOLS.
-    const qualifyingTokenPoolCount = new Map(); // token -> count
+    // item 226 (mirror rule): qualifyingTokenPoolCount used to be a second
+    // inline copy of this exact per-token loop — now it IS railedTokenPoolCounts,
+    // the same single source of truth generate-token-pages.js's selectHeadTokens
+    // reads. The per-chain/per-category maps below have no head-selection
+    // twin (those stay app-view-only), so they keep their own loop.
+    const qualifyingTokenPoolCount = railedTokenPoolCounts(pools); // token -> count
     const qualifyingTokenChainPoolCount = new Map(); // "token|chain" -> count
     const qualifyingTokenCategoryPoolCount = new Map(); // "token|category" -> count
 
@@ -530,7 +615,6 @@ async function generateSitemapSuite(poolsOverride) {
       const type = getPoolType(p);
       symbols.forEach(s => {
         if (!isValidToken(s)) return;
-        qualifyingTokenPoolCount.set(s, (qualifyingTokenPoolCount.get(s) || 0) + 1);
         const chainKey = `${s}|${p.chain}`;
         qualifyingTokenChainPoolCount.set(chainKey, (qualifyingTokenChainPoolCount.get(chainKey) || 0) + 1);
         const catKey = `${s}|${type}`;
@@ -698,6 +782,28 @@ async function generateSitemapSuite(poolsOverride) {
     });
     console.log(`   ⏭️  sitemap-tokens-all.xml: dropped ${tokensDropped} of ${tokens.length} thin token(s) below quality gate (< ${SITEMAP_MIN_QUALIFYING_POOLS} pools @ $${(SITEMAP_MIN_TVL / 1e6).toFixed(0)}M TVL)`);
 
+    // item 226 (human authorization 2026-08-04 Q3b): the three app-view
+    // families built above (per-chain, per-category, sitemap-tokens-all) are
+    // computed exactly as before — their own "N dropped" logs above stay
+    // honest — but never reach disk/the index when EMIT_APP_VIEW_SITEMAPS is
+    // off. cleanupStaleSitemaps() (080) then removes any previously-written
+    // copies on the next real run, since they're absent from writtenFilenames
+    // below — that is an ARTIFACT deletion, never a page deletion (the pages
+    // themselves stay live, self-canonical, linked from the app's own "view
+    // in app" CTA). Flip EMIT_APP_VIEW_SITEMAPS to restore.
+    if (!EMIT_APP_VIEW_SITEMAPS) {
+      const appViewSitemapNames = topChains
+        .map(chain => `sitemap-chain-${chain.replace(/[^a-z0-9]/gi, '-')}.xml`)
+        .concat(categories.map(cat => `sitemap-category-${cat.replace(/[^a-z0-9]/gi, '-')}.xml`))
+        .concat(['sitemap-tokens-all.xml']);
+      let suppressedUrlCount = 0;
+      appViewSitemapNames.forEach(name => {
+        suppressedUrlCount += (sitemaps[name] || []).length;
+        delete sitemaps[name];
+      });
+      console.log(`⏭️  app-view sitemap families suppressed (item 226 head curation) — ${suppressedUrlCount} URLs not submitted`);
+    }
+
     // Write all sitemaps. lastmod is preserved per-entry (081): an entry
     // byte-identical to its committed form keeps its committed timestamp; only
     // changed/new entries get `now`, so a no-data-change run is byte-identical
@@ -861,4 +967,8 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, extractGetPoolTypeShared, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg, isValidToken, isQualifyingPool, poolTotalApy, countQualifyingChainAll, SITEMAP_MIN_TVL, SITEMAP_MIN_QUALIFYING_POOLS, APY_SANITY_LIMIT };
+module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, extractGetPoolTypeShared, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg, isValidToken, isQualifyingPool, poolTotalApy, countQualifyingChainAll, SITEMAP_MIN_TVL, SITEMAP_MIN_QUALIFYING_POOLS, APY_SANITY_LIMIT,
+  // item 226: head-selection predicate (single source of truth) + the
+  // app-view-suppression flag, exported so generate-token-pages.js /
+  // generate-chain-pages.js / tests read the SAME predicate, never a copy.
+  HEAD_MIN_RAILED_POOLS, railedTokenPoolCounts, railedChainPoolCounts, isHeadToken, isHeadChain, selectHeadTokens, selectHeadChains, EMIT_APP_VIEW_SITEMAPS };

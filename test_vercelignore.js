@@ -220,9 +220,15 @@ const MUST_KEEP = [
   // SEO / agent-discovery surface.
   'robots.txt', 'llms.txt', 'llms-full.txt', 'openapi.json', 'status',
   'fa81c8f43e7870a3b48e7481b2b7c8df.txt',
-  'sitemap.xml', 'sitemap-main.xml', 'sitemap-chain-Ethereum.xml',
-  'sitemap-category-Lending.xml', 'sitemap-token-pages.xml',
-  'sitemap-chain-pages-ko.xml', 'sitemap-tokens-all.xml',
+  // item 226 (Google head-curation, 2026-08-05): EMIT_APP_VIEW_SITEMAPS now
+  // defaults to false, so generate-sitemap.js stops regenerating the
+  // app-view families (sitemap-chain-<Chain>.xml, sitemap-category-<Cat>.xml,
+  // sitemap-tokens-all.xml) — the next real CI regen deletes them via
+  // cleanupStaleSitemaps (080), and a MUST-KEEP entry naming a file that no
+  // longer exists would fail check (c)'s "every MUST-KEEP path is tracked"
+  // sanity gate. Replaced with head-family members that keep shipping.
+  'sitemap.xml', 'sitemap-main.xml', 'sitemap-token-pages.xml',
+  'sitemap-chain-pages.xml', 'sitemap-chain-pages-ko.xml', 'sitemap-token-pages-ko.xml',
   // Social / favicons.
   'og-image.png',
   // Agent-discovery skill doc — NOT excluded despite looking like an
@@ -412,7 +418,15 @@ test('(e) link-integrity fixture sanity: the scan set is non-empty and covers ev
   assert.ok(storyHtmlFiles.length >= 3, `expected >=3 stories/*.html files, got ${storyHtmlFiles.length}`);
   assert.ok(shippedAppJs.length >= 10, `expected >=10 shipped app JS files, got ${shippedAppJs.length}`);
   assert.ok(llmsFiles.length === 2, `expected llms.txt + llms-full.txt, got ${llmsFiles.length}`);
-  assert.ok(sitemapFiles.length >= 100, `expected >=100 sitemap*.xml files, got ${sitemapFiles.length}`);
+  // item 226 (Google head-curation, 2026-08-05): was ">=100" — the app-view
+  // families (sitemap-chain-<Chain>.xml, sitemap-category-<Cat>.xml,
+  // sitemap-tokens-all.xml — ~108 of the prior ~114 files) stop regenerating
+  // by default (EMIT_APP_VIEW_SITEMAPS=false) and are removed by
+  // cleanupStaleSitemaps (080) on the next real CI run, leaving only
+  // sitemap.xml + sitemap-main.xml + the 4 token/chain (en+ko) page sitemaps.
+  // Lowered so this check keeps passing through that transition instead of
+  // silently breaking the day CI regenerates for real.
+  assert.ok(sitemapFiles.length >= 5, `expected >=5 sitemap*.xml files, got ${sitemapFiles.length}`);
   assert.ok(wellKnownJsonFiles.length >= 5, `expected >=5 .well-known/**/*.json files, got ${wellKnownJsonFiles.length}`);
   assert.ok(openapiFiles.length === 1, 'expected openapi.json in the scan set');
   assert.ok(toolsJsonFiles.length >= 2, `expected >=2 tools/*.json files, got ${toolsJsonFiles.length}`);

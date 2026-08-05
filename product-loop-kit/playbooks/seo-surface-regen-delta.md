@@ -51,7 +51,17 @@ Traps:
   stash to the files under proof, or better, use a worktree (step 3).
 - Removing URLs from the sitemap hits NORTH_STAR's NEVER list ("deleting or de-indexing SEO surface")
   even when the URLs are junk. Build it, verify it, then leave the PR unmerged and BLOCKED — the human
-  owns that line.
+  owns that line. **Superseded for one class as of item 226 (2026-08-04 Q3b, `specs/226.md`):** the
+  human authorized shrinking **Google's whole sitemap view to a curated head** — NORTH_STAR's Q3b text
+  is the scope, and it is broader than the app-view families alone: *"all pages stay LIVE … but Google's
+  sitemap view shrinks to a curated head (~300-500 demand-plausible pages); **the thin tail leaves the
+  sitemaps**."* So BOTH the app-view (`?token=`/`?chain=`/`?poolTypes=`) families **and** the ~4,084
+  tail *static* `/tokens/<slug>` + `/chains/<slug>` entries — the larger share of 226's 4,522-URL drop —
+  are covered by one authorization; neither needs separate sign-off. What it authorizes is a
+  sitemap-*submission* change: pages stay live, self-canonical, hub-linked, in the `.md`/llms surface and
+  in IndexNow's full-estate submission. Every OTHER removal (deleting a live page, shrinking the AGENT
+  surface — 226's verifier caught exactly that in `generate-llms.js` — or de-listing any other class
+  without an equivalent human sign-off) still hits this trap unchanged.
 
 Provenance: item 148 (`specs/148.md`, `148-notes.md`, `148-pr.md`) — Pendle expiry-date fragments minting
 `/tokens/8oct2026`-class pages; 7 junk slugs dropped, 0 added, measured this way. Prior art: item 013

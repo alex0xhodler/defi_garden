@@ -25,9 +25,11 @@ function check(name, cond, detail) {
 }
 
 // A fixture that exercises the real risk surface:
-//  - USDC: 2 pools on Ethereum + 2 on Arbitrum → passes the ≥2-pool gate on
-//    both, so `?token=USDC&chain=Ethereum` combo URLs are actually emitted
-//    (this is what forces the `&`-escaping path to run in a written file).
+//  - USDC/STETH pools across chains, all well above the sitemap TVL floor —
+//    together with item 188's chain=All rungs (sitemap-main.xml, untouched
+//    by item 226) this is what forces the `&`-escaping path to run in a
+//    written file (item 226: the app-view `?token=X&chain=Y` combo family
+//    that used to be this test's escaping source no longer ships by default).
 //  - Edge-case symbols with & < > " ' — must be sanitized/escaped, never
 //    break the document.
 const FIXTURE = [
@@ -96,10 +98,15 @@ try {
 
   // 4. The escaping guard: at least one emitted <loc> is a multi-parameter URL,
   //    and every such `&` is escaped as `&amp;` (never a raw ampersand).
+  //    item 226: `?token=USDC&chain=Ethereum` no longer exists anywhere — the
+  //    app-view families that emitted token+chain combos are suppressed by
+  //    default (EMIT_APP_VIEW_SITEMAPS=false). sitemap-main.xml's sanctioned
+  //    `?chain=All&minTvl=...` rungs (item 188, untouched by 226) are now the
+  //    multi-parameter URL source this guard exercises instead.
   const allXml = files.map(f => fs.readFileSync(f, 'utf8'));
-  const combo = allXml.find(x => x.includes('token=USDC') && x.includes('chain=Ethereum'));
-  check('a multi-parameter token+chain <loc> was generated', !!combo,
-    'fixture should yield ?token=USDC&chain=Ethereum');
+  const combo = allXml.find(x => x.includes('chain=All') && x.includes('minTvl='));
+  check('a multi-parameter chain=All+minTvl <loc> was generated', !!combo,
+    'fixture should yield ?chain=All&minTvl=...');
   if (combo) {
     check('multi-parameter <loc> escapes & as &amp;', combo.includes('&amp;'));
     // A raw `&` NOT starting a valid entity (&amp; &lt; &gt; &quot; &apos; &#..)
