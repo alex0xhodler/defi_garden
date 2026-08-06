@@ -83,6 +83,61 @@ const DATE_FRAGMENT_REGEX = /^[0-9]{1,2}(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT
 function poolTotalApy(pool) {
   return (pool.apyBase || 0) + (pool.apyReward || 0);
 }
+
+// --- Representativeness gate (item 229, MOVED here in 242) ------------------
+// Originally lived in generate-spotlight.js (its only dependency is
+// poolTotalApy above, which already lives here). Moved so generate-token-
+// pages.js can gate its own headline pool without a require cycle:
+// generate-spotlight.js already requires this module (its :48), and it also
+// hard-requires @napi-rs/canvas (its :47), which is not installed in this
+// checkout — importing generate-spotlight.js from a generator would break the
+// SEO pipeline outright. generate-spotlight.js now imports these four names
+// from here and re-exports them under the same names, so every existing
+// importer/test keeps working byte-identically.
+//
+// "today's headline is within 50% of the pool's own recent mean" — a round
+// judgment (229 spec "Open questions" #1), not fitted to the motivating
+// instance (concrete · SRROYUSDC, 86.51% headline vs a 4.51% apyMean30d —
+// that pool is used ONLY as a positive control in the tests, never as this
+// constant's definition). REPRESENTATIVE_ABS_PP exists so a genuinely flat
+// near-zero pool (0.02% vs 0.00%) is never failed by a division-scale
+// artifact the way a pure relative tolerance would fail it.
+const REPRESENTATIVE_REL = 0.5;
+const REPRESENTATIVE_ABS_PP = 0.5;
+
+/** Shared deviation math for isRepresentativeRate AND its companion
+ * storySignals term (rateRepresentative, generate-spotlight.js) — one
+ * implementation, never two. Returns null when there is no apyMean30d to
+ * compare against (no evidence of representativeness is not evidence of
+ * representativeness — the pack is outward-facing and the human's name is on
+ * it), else a ratio normalized so that `ratio <= REPRESENTATIVE_REL` iff the
+ * pool passes the gate: the gate's own threshold is `max(REL*|mean|,
+ * ABS_PP)`, which factors as `REL * max(|mean|, ABS_PP/REL)` — dividing by
+ * that same max() term folds the gate's relative and absolute branches into
+ * one comparable number. */
+function representativenessRatio(pool) {
+  const mean = pool.apyMean30d;
+  if (mean == null || !isFinite(mean)) return null;
+  const apy = poolTotalApy(pool);
+  const normBase = Math.max(Math.abs(mean), REPRESENTATIVE_ABS_PP / REPRESENTATIVE_REL);
+  return Math.abs(apy - mean) / normBase;
+}
+
+/** isRepresentativeRate(pool) — a headline APY must be within
+ * REPRESENTATIVE_REL (50%) of the pool's own apyMean30d (or within
+ * REPRESENTATIVE_ABS_PP percentage points for near-zero-mean pools). A pool
+ * with no apyMean30d, or a non-finite one, is NEVER representative — 229
+ * spec: "no evidence of representativeness is not evidence of
+ * representativeness". Measured on live data (2026-08-06): excludes 36 of
+ * 405 rail-qualifying spotlight candidates (8.9%), including the spotlight
+ * ranker's former #1 pick (concrete · SRROYUSDC, 86.51% vs a 4.51% 30-day
+ * mean — a positive control for this gate in the tests, never its
+ * definition). */
+function isRepresentativeRate(pool) {
+  const ratio = representativenessRatio(pool);
+  return ratio != null && ratio <= REPRESENTATIVE_REL;
+}
+
 function isAnomalousApy(pool) {
   return poolTotalApy(pool) > APY_SANITY_LIMIT;
 }
@@ -677,6 +732,42 @@ function renderDatasetJsonLd(name, description, pageUrl, generatedDate) {
   }).replace(/</g, '\\u003c');
 }
 
+/** headlinePoolFor(pools) — item 242. The single pool whose rate AND
+ * project/chain become the page's headline claim (bestApy + the pool passed
+ * to buildAnswerAndFaq), so the two can never name different pools. Among
+ * `pools` (already the page's displayed/gated set — see rankTopTokens),
+ * returns the highest-poolTotalApy pool that ALSO passes isRepresentativeRate.
+ * Deterministic: ties broken by first occurrence in the given order.
+ *
+ * Fallback: if no pool in `pools` passes the gate, returns the highest-
+ * poolTotalApy pool anyway (today's unchecked behaviour, unaltered) — the
+ * smallest honest option, per the spec's "Open questions": the claim "the
+ * highest yield is X on P" stays true as written, and no page is left
+ * without a headline. Measured on live data (15,685 pools, 2026-08-06,
+ * rankTopTokens(pools, 0) → the real generated token-page population): 481
+ * of 2,097 pages (22.9%) hit this fallback because every displayed pool on
+ * the page fails the gate. That 481-page class is left open, ticketed as
+ * item 243 alongside the identical `Math.max` pattern on generate-chain-
+ * pages.js's chain estate.
+ *
+ * `pools` is always non-empty for real callers (rankTopTokens's
+ * MIN_QUALIFYING_POOLS gate guarantees >=1 displayed pool per record) — an
+ * empty array returns null rather than adding a defensive branch no caller
+ * exercises. */
+function headlinePoolFor(pools) {
+  if (!pools || pools.length === 0) return null;
+  let best = null;
+  let bestRepresentative = null;
+  pools.forEach(p => {
+    if (best == null || poolTotalApy(p) > poolTotalApy(best)) best = p;
+    if (isRepresentativeRate(p) &&
+        (bestRepresentative == null || poolTotalApy(p) > poolTotalApy(bestRepresentative))) {
+      bestRepresentative = p;
+    }
+  });
+  return bestRepresentative != null ? bestRepresentative : best;
+}
+
 /** Direct-answer + FAQ content (047, GEO/AEO). Built once from data the page
  * already computed (the SAME gated `rec.pools`/`rec.qualifyingCount`/
  * `rec.totalTvl` the visible table uses) so the head-query answer can never
@@ -761,7 +852,11 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const genDate = generatedDate || todayGeneratedDate();
   const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
   const ogImageUrl = `${SITE_URL}/${ogImageRelPath}`;
-  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
+  // 242: headlinePoolFor gates the headline claim through isRepresentativeRate
+  // so bestApy and the pool named beside it (buildAnswerAndFaq below) are
+  // always the SAME pool — never Math.max's unchecked most-extreme rate.
+  const headlinePool = headlinePoolFor(rec.pools);
+  const bestApy = poolTotalApy(headlinePool);
   const chainCount = new Set(rec.pools.map(p => p.chain)).size;
   const title = t('tcpTokenTitle', rec.symbol);
   // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
@@ -771,6 +866,9 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
 
   // Unique per-token intro from real data (023: content depth — this reads
   // token-specifically even with the symbol removed, so it's not thin).
+  // `top` (rec.pools[0], the TVL-largest pool) stays exactly as-is here — it
+  // correctly describes that pool with ITS OWN apy, unrelated to the
+  // headline claim below (242 spec §Change 3: "nothing else moves").
   const top = rec.pools[0];
   const intro = t('tcpTokenIntro', sym, escapeHtml(top.project || '—'), escapeHtml(top.chain || '—'),
     formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, chainCount, formatUsd(rec.totalTvl), floorStr);
@@ -804,7 +902,8 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
   // table/intro above already use — never touches raw pool data, so an
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
-  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, top, language);
+  // 242: attributed to headlinePool (NOT `top`) — the pool bestApy came from.
+  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
   const answerBlock = renderAnswerBlockHtml(answer, 'tp-answer');
   const faqBlock = renderFaqBlockHtml(faq, 'tp-faq', language);
   const faqJsonLd = renderFaqJsonLd(faq);
@@ -962,15 +1061,17 @@ function renderTokenPageMarkdown(rec, related, generatedDate, chainLinks, lang) 
   const t = createTranslationFunction(language);
   const genDate = generatedDate || todayGeneratedDate();
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
-  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
-  const top = rec.pools[0];
+  // 242: the SAME headlinePoolFor call renderTokenPage makes — bestApy and
+  // the attributed pool always come from the same pool, in both twins.
+  const headlinePool = headlinePoolFor(rec.pools);
+  const bestApy = poolTotalApy(headlinePool);
   // 174: the floor claim below derives from MIN_POOL_TVL, same as the HTML —
   // never a re-typed literal.
   const floorStr = formatUsd(MIN_POOL_TVL);
 
   // Direct-answer + FAQ (047): the SAME function call renderTokenPage makes,
   // with the SAME args — reused verbatim, never re-worded (212 fact parity).
-  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, top, language);
+  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
 
   // Real Markdown table, labelled columns, same data/link convention the
   // HTML's <tr> rows use (poolHrefFor + the 'seo_token' src attribution tag).
@@ -1217,7 +1318,11 @@ module.exports = {
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
   renderHreflangLinks, SUPPORTED_LANGS,
   yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
-  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH
+  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
+  // 242: moved from generate-spotlight.js (which now imports + re-exports
+  // these same four under the same names — see that file's require line).
+  REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate,
+  headlinePoolFor
 };
 
 if (require.main === module) {

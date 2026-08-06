@@ -791,4 +791,187 @@ test('174: mutating MIN_POOL_TVL in a scratch run moves EVERY floor mention on t
   }
 });
 
+console.log('242 — headline pool selection: the representativeness gate + attribution parity');
+// Fixture population (NOT hardcoded page instances — run through rankTopTokens
+// exactly like the population-invariant criterion requires):
+//   POPA — a higher-APY NON-representative pool sits beside two representative
+//          ones; the highest-APY REPRESENTATIVE pool must win (the class the
+//          BIG-fixture accident above never exercised, since BIG's TVL-
+//          largest pool also happens to be its highest-APY pool).
+//   POPB — every displayed pool fails the gate (the documented fallback);
+//          the highest-APY pool must still be the headline, attributed
+//          correctly to itself.
+//   POPC — a single pool with NO apyMean30d at all (the inert null branch —
+//          229's "no evidence of representativeness is not evidence of
+//          representativeness"); falls back to that lone pool.
+//   POPE — the spec's own worked instance (694.11% / apyMean30d 240.47%)
+//          beside a representative pool, used as an explicit positive
+//          control in addition to being part of the population sweep.
+function buildHeadlineFixturePools242() {
+  return [
+    { symbol: 'POPA', project: 'popa-proj1', chain: 'Ethereum', tvlUsd: 5000000, apyBase: 20, apyReward: 0, apyMean30d: 19, pool: 'popa-1' },
+    { symbol: 'POPA', project: 'popa-proj2', chain: 'Polygon', tvlUsd: 3000000, apyBase: 50, apyReward: 0, apyMean30d: 5, pool: 'popa-2' },
+    { symbol: 'POPA', project: 'popa-proj3', chain: 'Arbitrum', tvlUsd: 1000000, apyBase: 8, apyReward: 0, apyMean30d: 8.2, pool: 'popa-3' },
+    { symbol: 'POPB', project: 'popb-proj1', chain: 'Optimism', tvlUsd: 2000000, apyBase: 12, apyReward: 0, apyMean30d: 100, pool: 'popb-1' },
+    { symbol: 'POPB', project: 'popb-proj2', chain: 'Base', tvlUsd: 1500000, apyBase: 30, apyReward: 0, apyMean30d: 2, pool: 'popb-2' },
+    { symbol: 'POPC', project: 'popc-proj1', chain: 'Ethereum', tvlUsd: 500000, apyBase: 6, apyReward: 0, pool: 'popc-1' },
+    { symbol: 'POPE', project: 'popE-bad', chain: 'Ethereum', tvlUsd: 4000000, apyBase: 694.11, apyReward: 0, apyMean30d: 240.47, pool: 'pope-bad' },
+    { symbol: 'POPE', project: 'popE-good', chain: 'Polygon', tvlUsd: 3000000, apyBase: 20.08, apyReward: 0, apyMean30d: 20.5, pool: 'pope-good' }
+  ];
+}
+const fixturePools242 = buildHeadlineFixturePools242();
+const ranked242 = gen.rankTopTokens(fixturePools242, 0);
+const bySym242 = Object.fromEntries(ranked242.map(r => [r.symbol, r]));
+const decodeEntities = (s) => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+
+test('fixture sanity: all 4 tokens qualify for a page (POPA, POPB, POPC, POPE)', () => {
+  assert.deepStrictEqual(ranked242.map(r => r.symbol).sort(), ['POPA', 'POPB', 'POPC', 'POPE']);
+});
+
+test('population invariant: for EVERY rankTopTokens record, the rendered headline APY equals formatApy(poolTotalApy(headlinePoolFor(rec.pools))), and a representative pool is chosen whenever one exists (EN + KO)', () => {
+  ranked242.forEach(rec => {
+    const expectedPool = gen.headlinePoolFor(rec.pools);
+    assert.ok(expectedPool, `[${rec.symbol}] headlinePoolFor returned null for a non-empty pools array`);
+    const expectedApyStr = gen.formatApy(gen.poolTotalApy(expectedPool));
+    ['en', 'ko'].forEach(lang => {
+      const pageHtml = gen.renderTokenPage(rec, [], '2026-08-06', [], lang);
+      const answerText = decodeEntities(pageHtml.match(/class="tp-answer">([^<]*)</)[1]);
+      assert.ok(answerText.includes(expectedApyStr),
+        `[${rec.symbol}/${lang}] answer block missing expected headline APY ${expectedApyStr}: "${answerText}"`);
+      const faqA1 = decodeEntities(pageHtml.match(/<p class="tp-faq-a">([^<]*)<\/p>/)[1]);
+      assert.ok(faqA1.includes(expectedApyStr),
+        `[${rec.symbol}/${lang}] FAQ A1 missing expected headline APY ${expectedApyStr}: "${faqA1}"`);
+    });
+    // (b) representativeness invariant — a genuine invariant on headlinePoolFor's
+    // OWN output, independent of how the page renders it: this is what makes
+    // non-vacuity mutation (a) (headlinePoolFor -> plain Math.max) visible even
+    // though the assertions above reference headlinePoolFor directly.
+    const anyRepresentative = rec.pools.some(p => gen.isRepresentativeRate(p));
+    if (anyRepresentative) {
+      assert.ok(gen.isRepresentativeRate(expectedPool),
+        `[${rec.symbol}] a representative pool exists among rec.pools but the headline pool is NOT representative`);
+    }
+  });
+});
+
+test('attribution invariant: the project + chain rendered in the answer block AND FAQ A1 belong to the SAME pool the headline APY came from, for every record, EN + KO', () => {
+  ranked242.forEach(rec => {
+    const expectedPool = gen.headlinePoolFor(rec.pools);
+    ['en', 'ko'].forEach(lang => {
+      const pageHtml = gen.renderTokenPage(rec, [], '2026-08-06', [], lang);
+      const answerText = decodeEntities(pageHtml.match(/class="tp-answer">([^<]*)</)[1]);
+      const faqA1 = decodeEntities(pageHtml.match(/<p class="tp-faq-a">([^<]*)<\/p>/)[1]);
+      [['answer block', answerText], ['FAQ A1', faqA1]].forEach(([where, text]) => {
+        assert.ok(text.includes(expectedPool.project),
+          `[${rec.symbol}/${lang}] ${where} does not name the headline pool's project (${expectedPool.project}): "${text}"`);
+        assert.ok(text.includes(expectedPool.chain),
+          `[${rec.symbol}/${lang}] ${where} does not name the headline pool's chain (${expectedPool.chain}): "${text}"`);
+        // No OTHER pool's project should appear where the headline pool's
+        // project doesn't match it — guards against a same-numbered
+        // coincidence masking a wrong-pool attribution.
+        rec.pools.filter(p => p !== expectedPool && p.project !== expectedPool.project).forEach(other => {
+          assert.ok(!text.includes(other.project),
+            `[${rec.symbol}/${lang}] ${where} names a NON-headline pool's project (${other.project}) — wrong attribution: "${text}"`);
+        });
+      });
+    });
+  });
+});
+
+test('twin parity: renderTokenPageMarkdown carries the SAME headline APY + project/chain as renderTokenPage, for every record, EN + KO', () => {
+  ranked242.forEach(rec => {
+    const expectedPool = gen.headlinePoolFor(rec.pools);
+    const expectedApy = gen.poolTotalApy(expectedPool);
+    ['en', 'ko'].forEach(lang => {
+      // buildAnswerAndFaq is the SAME function both renderTokenPage and
+      // renderTokenPageMarkdown call — using it as the oracle for the exact
+      // expected text (not just substring probes) proves twin parity.
+      const { answer, faq } = gen.buildAnswerAndFaq(rec.symbol, rec, expectedApy, expectedPool, lang);
+      const md = gen.renderTokenPageMarkdown(rec, [], '2026-08-06', [], lang);
+      assert.ok(md.includes(answer),
+        `[${rec.symbol}/${lang}] markdown twin's answer text does not match the expected buildAnswerAndFaq() output`);
+      assert.ok(md.includes(faq[0].a),
+        `[${rec.symbol}/${lang}] markdown twin's FAQ A1 does not match the expected buildAnswerAndFaq() output`);
+    });
+  });
+});
+
+console.log('242 — positive controls (the spec\'s measured instances, used as controls only — never the definition)');
+test('positive control: a 694.11% pool (apyMean30d 240.47%) beside a representative 20.08% pool -> the unrepresentative pool is NOT the headline', () => {
+  const rec = bySym242['POPE'];
+  const bad = rec.pools.find(p => p.project === 'popE-bad');
+  const good = rec.pools.find(p => p.project === 'popE-good');
+  assert.ok(!gen.isRepresentativeRate(bad), 'sanity: the 694.11%/240.47%-mean pool must fail the gate');
+  assert.ok(gen.isRepresentativeRate(good), 'sanity: the 20.08%/20.5%-mean pool must pass the gate');
+  const headline = gen.headlinePoolFor(rec.pools);
+  assert.strictEqual(headline.project, 'popE-good', 'the unrepresentative 694.11% pool must not be the headline');
+  const html = gen.renderTokenPage(rec, [], '2026-08-06', [], 'en');
+  const answerText = decodeEntities(html.match(/class="tp-answer">([^<]*)</)[1]);
+  assert.ok(answerText.includes('694.11%') === false, 'rendered answer must not headline the 694.11% rate');
+  assert.ok(answerText.includes(gen.formatApy(20.08)), 'rendered answer must headline the representative 20.08% rate');
+  assert.ok(answerText.includes('popE-good') && !answerText.includes('popE-bad'), 'rendered answer must attribute to the representative pool, not the unrepresentative one');
+});
+test('positive control: a record where EVERY pool fails the gate -> the highest-APY pool IS the headline (documented fallback), attribution matches it', () => {
+  const rec = bySym242['POPB'];
+  assert.ok(rec.pools.every(p => !gen.isRepresentativeRate(p)), 'sanity: both POPB pools must fail the gate');
+  const headline = gen.headlinePoolFor(rec.pools);
+  assert.strictEqual(headline.project, 'popb-proj2', 'fallback must pick the highest-APY pool (30% > 12%)');
+  const html = gen.renderTokenPage(rec, [], '2026-08-06', [], 'en');
+  const answerText = decodeEntities(html.match(/class="tp-answer">([^<]*)</)[1]);
+  assert.ok(answerText.includes(gen.formatApy(30)), 'fallback headline must state the highest (unchecked) APY');
+  assert.ok(answerText.includes('popb-proj2') && !answerText.includes('popb-proj1'), 'fallback attribution must match the highest-APY pool, not the other one');
+});
+
+console.log('242 — unchanged-surface proof');
+test('the visible pool table order is UNCHANGED by headline selection: still rec.pools order (TVL-sorted), for every record', () => {
+  ranked242.forEach(rec => {
+    const html = gen.renderTokenPage(rec, [], '2026-08-06', [], 'en');
+    const tbody = html.match(/<tbody>([\s\S]*?)<\/tbody>/)[1];
+    const tableProjects = [...tbody.matchAll(/class="tp-pool-link" href="[^"]*">([^&]*) &rarr;/g)].map(m => m[1]);
+    assert.deepStrictEqual(tableProjects, rec.pools.map(p => p.project),
+      `[${rec.symbol}] visible table row order diverged from rec.pools order`);
+  });
+});
+test('rankTopTokens output (record set, per-record pools + order) is identical whether or not a headline is ever rendered — headlinePoolFor is read-only', () => {
+  const rankedAgain = gen.rankTopTokens(buildHeadlineFixturePools242(), 0);
+  assert.deepStrictEqual(rankedAgain, ranked242, 'rankTopTokens output must be unaffected by 242\'s headline-selection logic');
+});
+
+console.log('242 — mirror proof: generate-spotlight.js re-exports (never redefines) the representativeness gate');
+test('generate-spotlight.js\'s isRepresentativeRate/representativenessRatio/REPRESENTATIVE_REL/REPRESENTATIVE_ABS_PP are the SAME function/value objects as generate-token-pages.js\'s (or, if @napi-rs/canvas is unavailable, a source-level proof that spotlight imports and re-exports without redefining)', () => {
+  let spotlightGen = null;
+  let mode;
+  try {
+    spotlightGen = require('./generate-spotlight.js');
+    mode = 'live require (identity check)';
+  } catch (e) {
+    if (e.code !== 'MODULE_NOT_FOUND' || !/@napi-rs[\\/]canvas/.test(e.message)) throw e;
+    mode = 'source-level proof (@napi-rs/canvas not installed in this checkout)';
+  }
+  console.log(`    [mirror proof ran in: ${mode}]`);
+  if (spotlightGen) {
+    assert.strictEqual(spotlightGen.isRepresentativeRate, gen.isRepresentativeRate, 'isRepresentativeRate identity mismatch (spotlight -> token-pages)');
+    assert.strictEqual(gen.isRepresentativeRate, spotlightGen.isRepresentativeRate, 'isRepresentativeRate identity mismatch (token-pages -> spotlight)');
+    assert.strictEqual(spotlightGen.representativenessRatio, gen.representativenessRatio, 'representativenessRatio identity mismatch (spotlight -> token-pages)');
+    assert.strictEqual(gen.representativenessRatio, spotlightGen.representativenessRatio, 'representativenessRatio identity mismatch (token-pages -> spotlight)');
+    assert.strictEqual(spotlightGen.REPRESENTATIVE_REL, gen.REPRESENTATIVE_REL, 'REPRESENTATIVE_REL identity mismatch (spotlight -> token-pages)');
+    assert.strictEqual(gen.REPRESENTATIVE_REL, spotlightGen.REPRESENTATIVE_REL, 'REPRESENTATIVE_REL identity mismatch (token-pages -> spotlight)');
+    assert.strictEqual(spotlightGen.REPRESENTATIVE_ABS_PP, gen.REPRESENTATIVE_ABS_PP, 'REPRESENTATIVE_ABS_PP identity mismatch (spotlight -> token-pages)');
+    assert.strictEqual(gen.REPRESENTATIVE_ABS_PP, spotlightGen.REPRESENTATIVE_ABS_PP, 'REPRESENTATIVE_ABS_PP identity mismatch (token-pages -> spotlight)');
+  } else {
+    const src = fs.readFileSync(path.join(__dirname, 'generate-spotlight.js'), 'utf8');
+    assert.ok(/require\(\s*\{[\s\S]*?\}\s*=\s*require\(['"]\.\/generate-token-pages\.js['"]\)|=\s*require\(['"]\.\/generate-token-pages\.js['"]\)/.test(src) || /require\(['"]\.\/generate-token-pages\.js['"]\)/.test(src),
+      'generate-spotlight.js must import from generate-token-pages.js');
+    assert.ok(!/function\s+isRepresentativeRate\s*\(/.test(src), 'generate-spotlight.js must NOT redefine isRepresentativeRate');
+    assert.ok(!/function\s+representativenessRatio\s*\(/.test(src), 'generate-spotlight.js must NOT redefine representativenessRatio');
+    assert.ok(!/const\s+REPRESENTATIVE_REL\s*=/.test(src), 'generate-spotlight.js must NOT redefine REPRESENTATIVE_REL');
+    assert.ok(!/const\s+REPRESENTATIVE_ABS_PP\s*=/.test(src), 'generate-spotlight.js must NOT redefine REPRESENTATIVE_ABS_PP');
+    const exportsMatch = src.match(/module\.exports\s*=\s*\{[\s\S]*?\n\};/);
+    assert.ok(exportsMatch, 'generate-spotlight.js must have a module.exports block to inspect');
+    ['REPRESENTATIVE_REL', 'REPRESENTATIVE_ABS_PP', 'isRepresentativeRate', 'representativenessRatio'].forEach(name => {
+      assert.ok(exportsMatch[0].includes(name), `generate-spotlight.js's module.exports must still re-export ${name}`);
+    });
+  }
+});
+
 console.log(`\n${passed} assertions passed`);
