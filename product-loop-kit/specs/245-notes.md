@@ -25,16 +25,12 @@ called "human-gated" (#393, #332, #309, #316), none reliably contain a legend wo
 BLOCKED ("question for the human") is the closest legend concept but means something narrower — an
 unanswered question about *what to build*, not a built-and-verified change awaiting a *merge action*.
 
-Shipped fallback: a single, generic, non-enumerated signal — the literal word "human" appearing anywhere
-in the PR's title or body — rather than a hand-typed phrase list (which the spec explicitly warns against:
-"do not re-type a literal list of title prefixes"). This is a heuristic, not a guarantee, and it fails
-conservatively (toward more visibility, i.e. ORPHAN, not toward silently marking something terminal it
-isn't). **Class left open, with a number:** of the 4 real "human-gated" PRs in the spec's own evidence,
-this heuristic would need to be checked against each individually to know how many it actually catches;
-that recheck was not run against live PR bodies as part of this item (scope: Leg A/B as specified, not a
-live-GitHub validation pass) — a future item should either (a) run the heuristic against those 4 PRs and
-report the hit rate, or (b) give "awaiting human merge action" its own BACKLOG legend status so this
-becomes a structured lookup instead of a heuristic, closing the gap for good.
+**Class left open, with a number** (updated after Round 2 below — an earlier "scan for the word 'human'"
+fallback was tried, measured against live data, found actively unsafe, and removed): today, **0 of the 4**
+real "human-gated" PRs in the spec's own evidence (#393, #332, #309, #316) classify as `human-gated` —
+all fall through to `ORPHAN` instead, which is the safe direction (surfaced, not hidden) but not the
+precise one. A future item should give "awaiting human merge action" its own BACKLOG legend status so
+this becomes a structured lookup instead of an unreliable heuristic, closing the gap for good.
 
 ## Test file location
 
@@ -51,6 +47,51 @@ red (`1 !== 0`, expected). Restored the literal, reran: 21/21 green, `md5sum` by
 pre-mutation file (`c2175a5584de45fc887dec4f79a1d2d2` before and after). The in-file self-defeat tests
 (legend leak, Leg B collision red/green) additionally prove each sub-rule individually rather than
 trusting one green run.
+
+## Round 2 — verifier FAIL, two real bugs, one design reversal
+
+The verifier's first pass ran the shipped CLI against the REAL live 11 open PRs + real BACKLOG.md (not
+the fixture) and found two reproducible bugs the fixture-only testing had missed entirely:
+
+1. **Negation-blind whole-cell scan.** Row 239 (#399's own row) had been updated by a 2026-08-06
+   heartbeat to read *"...not PARKED, not BLOCKED, no owner..."* — a plain `\bPARKED\b` scan of the whole
+   Status cell matched that negated mention and classified the item's own positive control as `PARKED`,
+   i.e. **hid** the orphan. This is the unsafe direction; the file's own header comment claimed the
+   opposite.
+2. **Escaped-pipe column desync.** Row 166's Title cell contains `` `pool.url \|\| meta.baseUrl` `` (a
+   real inline-code span, pipes backslash-escaped per this file's own markdown-table convention). A naive
+   `line.split('|')` doesn't know about the escape, so every column after the Title desyncs — `cells[4]`
+   landed on a Title-cell fragment, not the real Status text — misclassifying #322 as ORPHAN.
+
+**Fix for (1):** rather than patch the negation check with a hand-typed negation-word list (a narrower,
+more fragile version of the same whole-text-scan mistake), the matching rule was rebuilt around
+`build.md` step 7's actual writing convention: **the status word LEADS the cell** ("item → SHIPPED (or
+IN_REVIEW / PARKED / BLOCKED)"). `leadingStatusWord()` now reads only the cell's first token. This is a
+structural rule, not a word-list, and it can't be fooled by a marker mentioned later in the prose.
+**Fix for (2):** `splitMarkdownRow()` treats a backslash-escaped `\|` as a literal pipe, not a delimiter.
+
+**Second-order consequence, found by re-running the real-data check after fixing (1):** the "scan PR
+title/body for the word 'human'" fallback (this file's original answer to the human-gated detection gap)
+turned out to be actively unsafe once negation was no longer masking it — measured against all 12 real PR
+bodies, "human" appears **8 of 12** times, including in **#399's own body** ("...in the human's screenshot,
+3 of 9 visible rows..."), which flipped the tool's own required positive control from ORPHAN to a false
+`human-gated`. Rather than narrow the word list (repeating the same mistake at smaller scale), the
+fallback was **removed entirely**. `human-gated` is now reachable only via a BACKLOG row leading with
+`CULLED` — honestly narrower, but it no longer contradicts its own motivating case. See the file's header
+comment ("KNOWN GAP" + "WHY ORPHAN COMES OUT LARGE") for the full, numbered account of what this leaves
+undetected and why the resulting broad ORPHAN bucket is the correct, safe direction rather than a defect.
+
+**Re-run against real live data after both fixes** (`node product-loop-kit/pr-orphan-detector.js
+--prs=<real 12 open PRs>`): `#399 → ORPHAN` (correct, the required positive control), `9 of 12` open PRs
+classify ORPHAN overall — verified individually, not waved away: several (`#396`, `#331`, `#322`) have
+BACKLOG rows that already progressed to SHIPPED via a *different* branch since their own PR opened (their
+titles say so directly — e.g. #396: "defers to claude/loop-231. Do not merge as-is"), so ORPHAN is the
+factually correct call, not a false positive; `#332`/`#316` had their ids renumbered out of BACKLOG
+entirely since their PRs opened; `#393` is a real, still-unresolved human-review-failed PR the tool now
+correctly surfaces (previously invisible). Spec 245's own Measurement section anticipated "0 false
+positives across the ten properly-terminal open PRs" based on evidence gathered earlier the same day;
+several intervening heartbeats have since progressed/renumbered enough of those ten that the baseline
+itself is stale — the detector's own output is the more current, and more useful, information.
 
 ## Scope discipline
 

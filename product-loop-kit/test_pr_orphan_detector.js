@@ -58,6 +58,8 @@ const FIXTURE_BACKLOG = `# BACKLOG — written by the heartbeat, culled by the h
 | 902 | fixture: blocked via legend row | 5.0 | BLOCKED (question for the human) | LOW | specs/902.md | 1 | — |
 | 903 | fixture: culled but PR left open (anomalous, still surfaced) | 5.0 | CULLED (human said no) | LOW | — | 0 | — |
 | 904 | fixture: the #399 shape — mid-pipeline, no terminal marker | 5.0 | IN_REVIEW — build finished, nothing has flagged it | LOW | specs/904.md | 1 | — |
+| 905 | fixture: the #399-live shape — status text NEGATES the legend words | 5.0 | IN_REVIEW — ORPHANED, needs a decision. Nothing flagged it: not PARKED, not BLOCKED, no owner. | LOW | specs/905.md | 1 | — |
+| 906 | **fixture: literal escaped pipe in an EARLIER cell** (\`pool.url \\|\\| meta.baseUrl\`, the row-166 shape) | 5.0 | PARKED (3 attempts, verifier FAIL) | LOW | — | 3 | — |
 `;
 
 // ---------------------------------------------------------------------------
@@ -140,13 +142,46 @@ test('classifyPR: open PR whose BACKLOG row is CULLED → "human-gated" (anomalo
   assert.strictEqual(r.class, 'human-gated');
 });
 
-test('classifyPR: open PR with no legend marker but "human" in the body → "human-gated" via the fallback heuristic', () => {
-  const r = classifyPR(pr({ number: 5, title: '904: fixture', body: 'NEEDS YOUR MERGE — this is a human decision.', head: { ref: 'claude/loop-904' } }), FIXTURE_BACKLOG);
-  assert.strictEqual(r.class, 'human-gated');
+// --- Regressions found by the verifier against the REAL live BACKLOG.md/PR
+// population (spec 245's own decision rule requires #399 to classify ORPHAN
+// on the actual ship tick, not just on a hand-crafted fixture). Two rounds:
+// round 1 found a whole-cell-scan negation bug AND an escaped-pipe column
+// bug; the fix for the first (matching only the Status cell's FIRST word)
+// also made a separate "scan PR title/body for the word 'human'" fallback
+// provably unsafe against live data (8 of 12 real open PRs — including
+// #399 itself — mention "human" incidentally), so that fallback was
+// removed entirely rather than patched. See this file's own header comment
+// and specs/245-notes.md "Round 2" for the full account. ---------------------
+
+test('REGRESSION (verifier finding 1): a BACKLOG row whose Status cell MENTIONS a legend word deep in its prose ("not PARKED, not BLOCKED") but does not LEAD with one must not classify as that word — the exact shape row 239 (#399\'s own row) carries live today', () => {
+  const r = classifyPR(pr({ number: 399, title: '905: fixture', body: 'complete, self-tested build, no verdict yet' }), FIXTURE_BACKLOG);
+  assert.strictEqual(r.class, 'ORPHAN', `a legend word buried mid-sentence must not match — only the cell's leading word counts — got ${r.class}`);
 });
 
-test('classifyPR: the #399 shape — open, loop-authored, BACKLOG row is IN_REVIEW only, no "human" text, no verdict → "ORPHAN"', () => {
-  const r = classifyPR(pr({ number: 399, title: '904: fixture', body: 'Complete, self-tested build. No verifier verdict yet.', head: { ref: 'claude/loop-904' } }), FIXTURE_BACKLOG);
+test('REGRESSION (verifier finding 1, non-vacuity): the SAME row, with its Status cell\'s LEADING word changed to PARKED, DOES classify PARKED — proves the leading-word rule reads a real leading marker, not just any word in the file', () => {
+  const positiveBacklog = FIXTURE_BACKLOG.replace(
+    '| 905 | fixture: the #399-live shape — status text NEGATES the legend words | 5.0 | IN_REVIEW —',
+    '| 905 | fixture: the #399-live shape — status text NEGATES the legend words | 5.0 | PARKED —'
+  );
+  const r = classifyPR(pr({ number: 399, title: '905: fixture' }), positiveBacklog);
+  assert.strictEqual(r.class, 'PARKED', `a genuine leading PARKED must still classify as PARKED; got ${r.class}`);
+});
+
+test('REGRESSION (verifier finding 2): a literal escaped pipe (\\|\\|) inside an EARLIER cell (Title) must not desync column parsing — the exact shape row 166/#322 carries live today', () => {
+  const byId = parseBacklogStatusById(FIXTURE_BACKLOG);
+  const status906 = byId.get('906');
+  assert.ok(status906 && status906.startsWith('PARKED'), `expected row 906's Status cell to read "PARKED (3 attempts...)" despite the escaped pipes in its Title cell; got ${JSON.stringify(status906)}`);
+  const r = classifyPR(pr({ number: 322, title: '906: fixture' }), FIXTURE_BACKLOG);
+  assert.strictEqual(r.class, 'PARKED', `escaped pipes in the Title cell must not misclassify this PARKED row as ORPHAN; got ${r.class}`);
+});
+
+test('REGRESSION (verifier finding 3, round 2): the "human" word fallback is GONE — a PR whose body mentions "human" only incidentally (the #399 shape, verified against its real live body text) does not classify as human-gated', () => {
+  const r = classifyPR(pr({ number: 399, title: '904: fixture', body: 'Fixed per the human\'s screenshot review; 3 of 9 visible rows were zero-yield.' }), FIXTURE_BACKLOG);
+  assert.strictEqual(r.class, 'ORPHAN', `an incidental "human" mention must not flip this to human-gated (the tool's own positive control regression) — got ${r.class}`);
+});
+
+test('classifyPR: the #399 shape — open, loop-authored, BACKLOG row is IN_REVIEW only, no verdict → "ORPHAN"', () => {
+  const r = classifyPR(pr({ number: 399, title: '904: fixture', body: 'Complete, self-tested build. No verifier verdict yet.' }), FIXTURE_BACKLOG);
   assert.strictEqual(r.class, 'ORPHAN');
 });
 
@@ -188,7 +223,7 @@ test('non-vacuity: an all-terminal PR set returns 0 orphans, AND the #399-shape 
   assert.strictEqual(withOrphan.orphans[0].pr.number, 399);
 });
 
-test('classifyPR: a PR whose id no longer resolves in BACKLOG.md (renumbered away) and has no "human" text → "ORPHAN", reason names the missing row', () => {
+test('classifyPR: a PR whose id no longer resolves in BACKLOG.md (renumbered away) → "ORPHAN", reason names the missing row', () => {
   const r = classifyPR(pr({ number: 309, title: '161: stale id, row long gone', head: { ref: 'claude/loop-161' } }), FIXTURE_BACKLOG);
   assert.strictEqual(r.class, 'ORPHAN');
   assert.ok(/no row for id 161/.test(r.reason), `reason should name the missing row; got: ${r.reason}`);
@@ -218,7 +253,7 @@ test('detectIdCollisions: main max id = N, an open PR branch’s diff adds a row
 test('detectIdCollisions: an open PR branch adding a genuinely NEW id (above main’s max) is NOT a collision', () => {
   const mainStatusById = parseBacklogStatusById(FIXTURE_BACKLOG);
   const collisions = detectIdCollisions(mainStatusById, [
-    { pr: { number: 400, title: '905: fixture' }, addedIds: [905] },
+    { pr: { number: 400, title: '907: fixture' }, addedIds: [907] },
   ]);
   assert.deepStrictEqual(collisions, []);
 });

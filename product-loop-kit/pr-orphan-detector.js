@@ -30,26 +30,66 @@
  * added to the legend without updating this map fails the test loudly
  * instead of being silently misclassified.
  *
+ * MATCHING RULE — the FIRST WORD of the Status cell, not "anywhere in the
+ * cell": build.md step 7 writes status as "item → SHIPPED (or IN_REVIEW /
+ * PARKED / BLOCKED)" — the marker leads the cell, prose follows. Verified
+ * against every real open PR's BACKLOG row during a live re-check (2026-08-06):
+ * row 239 (#399's own row) reads "IN_REVIEW — ORPHANED, needs a decision...
+ * not PARKED, not BLOCKED, no owner." A whole-cell scan for `\bPARKED\b`
+ * matches that negated mention and misclassifies the item's own positive
+ * control as PARKED — the UNSAFE direction (hides the orphan). Restricting
+ * the match to the cell's first word sidesteps negation entirely (the real
+ * marker is never buried mid-sentence in this repo's own writing
+ * convention) without needing a hand-typed negation-word list, which would
+ * just be a narrower, more fragile version of the same whole-text-scan
+ * mistake.
+ *
  * KNOWN GAP, stated with a number (RAZOR.md "class rule" — say so, don't
  * pretend the narrow fix is the general one): the legend has no marker word
  * for "the code is done and verified, but MERGING it needs a specific human
- * action" (a rail relaxation, a screenshot review, a NORTH_STAR edit) — the
- * 4 real PRs item 245's evidence called "human-gated" (#393, #332, #309,
- * #316) mostly don't use BACKLOG legend words in their own prose at all.
- * BLOCKED ("question for the human") is the closest legend concept but
- * means something narrower — an unanswered question about what to build,
- * not a built-and-verified change awaiting a merge action. Absent a
- * structured marker for that second thing, classifyPR() falls back to a
- * single, generic, non-enumerated signal (the literal word "human"
- * appearing in the PR's title or body) rather than a hand-typed phrase
- * list — which is itself the failure mode this item's spec explicitly
- * warns against ("do not re-type a literal list of title prefixes"). This
- * fallback is a heuristic, not a guarantee: a human-gated PR whose text
- * never spells out the word "human" will read as ORPHAN. That is the
- * conservative failure direction for a detection-only, triage tool (more
- * visibility, not less) but it is a real, named gap — remediation is a
- * ticket for a future item to give "awaiting human merge action" its own
- * legend status, not something this item silently claims to have solved.
+ * action" (a rail relaxation, a screenshot review, a NORTH_STAR edit). Of
+ * the 4 real PRs item 245's own evidence called "human-gated" (#393, #332,
+ * #309, #316), NONE currently classify as such under this version — a
+ * generic "scan for the word 'human'" fallback was tried and DISCARDED
+ * during build: measured against the live PR bodies (not guessed), the
+ * word "human" appears in 8 of 12 real open PRs, including — decisively —
+ * PR #399 itself ("...in the human's screenshot, 3 of 9 visible rows..."),
+ * which flipped the tool's own positive control from the required ORPHAN to
+ * a false human-gated. A heuristic that breaks its own motivating case is
+ * worse than no heuristic (RAZOR: a check aimed at a resemblance of the
+ * real signal is strictly worse than no check — it launders the gap as
+ * coverage). So today, `human-gated` is reachable ONLY via a BACKLOG row
+ * whose first word is CULLED (an already-anomalous shape — a PR left open
+ * after the human said no). The 4 real human-gated PRs fall through to
+ * ORPHAN instead — the safe-but-noisy direction (more visibility than
+ * strictly needed, never a hidden stuck PR). Closing this class for real
+ * needs either a new BACKLOG legend status for "awaiting human merge
+ * action" (structured, no heuristic needed) or a GitHub-native signal
+ * (e.g. a requested-reviewer / label) — both out of scope here; ticketed
+ * as follow-on work in specs/245-notes.md, not silently solved.
+ *
+ * WHY ORPHAN COMES OUT LARGE ON LIVE DATA, AND WHY THAT'S CORRECT: the
+ * legend's own order — "READY → IN_PROGRESS → IN_REVIEW → SHIPPED
+ * (measuring) → DONE" — makes IN_REVIEW a PIPELINE STAGE, not a terminal
+ * one; the only legend-sanctioned way out of it is SHIPPED/DONE. So ANY
+ * open PR whose BACKLOG row is still IN_REVIEW — whether nobody has looked
+ * yet, or (row 225/#393's real, live shape) the human explicitly rejected
+ * it and said "round 3 required, do NOT merge as-is" — has, by the
+ * legend's own construction, no recorded marker saying someone is on it.
+ * Run against the real, live 12-open-PR population on 2026-08-06, this
+ * version reports 9 ORPHAN, not the 1 (#399) spec 245's own evidence
+ * anticipated — verified deliberately, not suppressed to make a smaller
+ * number: several of those 9 (#396, #331, #322) have BACKLOG rows that
+ * already progressed to SHIPPED via a DIFFERENT branch since their PR
+ * opened (their own titles say so — e.g. #396: "defers to claude/loop-231.
+ * Do not merge as-is"), meaning the open PR is genuinely stale and safe to
+ * close; others (#332, #316) had their id renumbered out of BACKLOG
+ * entirely; #393 is a real, currently-unresolved human-review-failed PR.
+ * Every one of those is a legitimate thing for a human/heartbeat to see
+ * and triage — under-reporting them by inventing a narrower "human-gated"
+ * bucket this tool cannot reliably distinguish from plain-stuck would be
+ * the unsafe direction (RAZOR: surface the weak/broad signal honestly
+ * rather than a falsely-reassuring narrow one).
  * ---------------------------------------------------------------------
  */
 'use strict';
@@ -119,6 +159,35 @@ const MARKER_CLASS_MAP = {
 };
 
 /**
+ * Splits one markdown table row on `|`, treating a backslash-escaped `\|`
+ * as a literal pipe character rather than a column delimiter — the
+ * convention BACKLOG.md's own rows actually use for inline code containing
+ * `||` (verified live: row 166's Title cell contains `` `pool.url \|\| meta.baseUrl` ``;
+ * a naive `line.split('|')` desyncs every following column on that row,
+ * landing `cells[4]` on a Title-cell fragment instead of the real Status
+ * text — found by the verifier against the live file, not hypothetical).
+ */
+function splitMarkdownRow(line) {
+  const cells = [];
+  let current = '';
+  for (let i = 0; i < line.length; i++) {
+    if (line[i] === '\\' && line[i + 1] === '|') {
+      current += '|';
+      i++;
+      continue;
+    }
+    if (line[i] === '|') {
+      cells.push(current);
+      current = '';
+      continue;
+    }
+    current += line[i];
+  }
+  cells.push(current);
+  return cells;
+}
+
+/**
  * Parses every `| <id> | ... | <status> | ... |` BACKLOG.md table row into
  * a Map<string id, string status text>. Rows whose id cell isn't a bare
  * integer (composite/range ids, deleted rows) are skipped, not guessed at.
@@ -128,7 +197,7 @@ function parseBacklogStatusById(backlogMarkdown) {
   for (const line of backlogMarkdown.split('\n')) {
     const m = line.match(/^\|\s*(\d+)\s*\|/);
     if (!m) continue;
-    const cells = line.split('|');
+    const cells = splitMarkdownRow(line);
     if (cells.length < 5) continue;
     byId.set(m[1], cells[4].trim());
   }
@@ -153,18 +222,32 @@ function extractItemId(pr) {
   return null;
 }
 
-function findLegendMarkerInText(text, priorityOrder) {
-  const upper = text.toUpperCase();
-  for (const marker of priorityOrder) {
-    const cls = MARKER_CLASS_MAP[marker];
-    if (cls === null || cls === undefined) continue; // no PR-terminal meaning
-    const re = new RegExp(`\\b${marker}\\b`);
-    if (re.test(upper)) return { marker, cls };
-  }
-  return null;
+/**
+ * Returns the leading legend-shaped word of a BACKLOG Status cell (e.g.
+ * "PARKED" from "PARKED (3-attempt budget spent)..."), or null if the cell
+ * doesn't start with one. Strips leading markdown emphasis (`**`) first, in
+ * case a row ever bolds its own leading status word. Only the FIRST word is
+ * considered — see this file's header comment for why a whole-cell scan is
+ * unsafe (it matches negated/quoted/other-item mentions deep in the prose).
+ */
+function leadingStatusWord(statusText) {
+  const stripped = statusText.trim().replace(/^\*+/, '');
+  const m = stripped.match(/^([A-Z][A-Z_]*)\b/);
+  return m ? m[1] : null;
 }
 
-const HUMAN_WORD_RE = /\bhuman\b/i;
+/**
+ * Finds the legend marker that LEADS `statusText`, if it has a PR-terminal
+ * class in MARKER_CLASS_MAP. Returns null if the cell's leading word isn't
+ * a legend marker, or maps to null (no PR-terminal meaning).
+ */
+function findLegendMarkerInText(statusText) {
+  const word = leadingStatusWord(statusText);
+  if (!word || !Object.prototype.hasOwnProperty.call(MARKER_CLASS_MAP, word)) return null;
+  const cls = MARKER_CLASS_MAP[word];
+  if (cls === null || cls === undefined) return null;
+  return { marker: word, cls };
+}
 
 /**
  * Classifies one PR into {merged, PARKED, BLOCKED, human-gated, ORPHAN}.
@@ -182,36 +265,27 @@ function classifyPR(pr, backlogText) {
     return { class: 'closed', reason: 'PR is closed without merging — outside the open-PR orphan population.' };
   }
 
-  const legendMarkers = parseStatusLegend(backlogText);
   const statusById = parseBacklogStatusById(backlogText);
   const id = extractItemId(pr);
 
   if (id !== null && statusById.has(id)) {
     const statusText = statusById.get(id);
-    const found = findLegendMarkerInText(statusText, legendMarkers);
+    const found = findLegendMarkerInText(statusText);
     if (found) {
       return {
         class: found.cls,
-        reason: `BACKLOG.md row ${id} status carries the legend marker "${found.marker}": "${statusText.slice(0, 120)}"`,
+        reason: `BACKLOG.md row ${id} status leads with the legend marker "${found.marker}": "${statusText.slice(0, 120)}"`,
       };
     }
-  }
-
-  const haystack = `${pr.title || ''}\n${pr.body || ''}`;
-  if (HUMAN_WORD_RE.test(haystack)) {
-    return {
-      class: 'human-gated',
-      reason: 'no BACKLOG legend marker found, but the PR title/body references "human" — the legend has no structured marker for "verified, awaiting a human merge action" (see this file\'s header comment); flagged via the fallback heuristic, not the legend.',
-    };
   }
 
   return {
     class: 'ORPHAN',
     reason: id === null
-      ? 'no BACKLOG item id could be parsed from the title or branch, so no row to consult, and no "human" reference in title/body — no recorded terminal state found.'
+      ? 'no BACKLOG item id could be parsed from the title or branch — no row to consult, no recorded terminal state found.'
       : statusById.has(id)
-        ? `BACKLOG.md row ${id} carries no PARKED/BLOCKED/CULLED marker, and no "human" reference in title/body — no recorded terminal state found.`
-        : `BACKLOG.md has no row for id ${id} (renumbered or removed since this PR opened), and no "human" reference in title/body — no recorded terminal state found.`,
+        ? `BACKLOG.md row ${id}'s status does not lead with a PARKED/BLOCKED/CULLED marker — no recorded terminal state found (see this file's header comment for the known "human-gated" detection gap).`
+        : `BACKLOG.md has no row for id ${id} (renumbered or removed since this PR opened) — no recorded terminal state found.`,
   };
 }
 
