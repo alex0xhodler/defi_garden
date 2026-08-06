@@ -45,7 +45,16 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const { createCanvas } = require('@napi-rs/canvas');
-const { poolTotalApy, isAnomalousApy, formatUsd, formatApy, tokenSlug } = require('./generate-token-pages.js');
+const {
+  poolTotalApy, isAnomalousApy, formatUsd, formatApy, tokenSlug,
+  // 242: the representativeness gate MOVED into generate-token-pages.js (its
+  // only dependency, poolTotalApy, already lived there; this file requires
+  // that module already, so the reverse require would be a cycle, and this
+  // file's own @napi-rs/canvas require below is not installed in this
+  // checkout, so a generator can never import IT). Re-exported below under
+  // the same names — never redefined here, never a second implementation.
+  REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate
+} = require('./generate-token-pages.js');
 // REUSE (spec 066): the SAME forever-number math the token pages' yield
 // headline uses (gp.foreverNumber) — a spotlight pool has exactly one pool,
 // so "blended" degenerates to that pool's own APY, but the calc path is the
@@ -105,47 +114,13 @@ function isSmallEnoughProtocol(project, aggregates) {
 // above — nothing here relaxes isQualifyingPool/isSmallEnoughProtocol, both
 // still run first). Two refuse-never-demote gates, same SpotlightError
 // contract pickPool's existing rails already use. ---------------------------
-
-// "today's headline is within 50% of the pool's own recent mean" — a round
-// judgment (229 spec "Open questions" #1), not fitted to the motivating
-// instance (concrete · SRROYUSDC, 86.51% headline vs a 4.51% apyMean30d —
-// that pool is used ONLY as a positive control in the tests, never as this
-// constant's definition). REPRESENTATIVE_ABS_PP exists so a genuinely flat
-// near-zero pool (0.02% vs 0.00%) is never failed by a division-scale
-// artifact the way a pure relative tolerance would fail it.
-const REPRESENTATIVE_REL = 0.5;
-const REPRESENTATIVE_ABS_PP = 0.5;
-
-/** Shared deviation math for isRepresentativeRate AND its companion
- * storySignals term (rateRepresentative) — one implementation, never two.
- * Returns null when there is no apyMean30d to compare against (no evidence
- * of representativeness is not evidence of representativeness — the pack is
- * outward-facing and the human's name is on it), else a ratio normalized so
- * that `ratio <= REPRESENTATIVE_REL` iff the pool passes the gate: the
- * gate's own threshold is `max(REL*|mean|, ABS_PP)`, which factors as
- * `REL * max(|mean|, ABS_PP/REL)` — dividing by that same max() term folds
- * the gate's relative and absolute branches into one comparable number. */
-function representativenessRatio(pool) {
-  const mean = pool.apyMean30d;
-  if (mean == null || !isFinite(mean)) return null;
-  const apy = poolTotalApy(pool);
-  const normBase = Math.max(Math.abs(mean), REPRESENTATIVE_ABS_PP / REPRESENTATIVE_REL);
-  return Math.abs(apy - mean) / normBase;
-}
-
-/** isRepresentativeRate(pool) — the pack's headline APY must be within
- * REPRESENTATIVE_REL (50%) of the pool's own apyMean30d (or within
- * REPRESENTATIVE_ABS_PP percentage points for near-zero-mean pools). A pool
- * with no apyMean30d, or a non-finite one, is NEVER representative — 229
- * spec: "no evidence of representativeness is not evidence of
- * representativeness". Measured on live data (2026-08-06): excludes 36 of
- * 405 rail-qualifying candidates (8.9%), including the ranker's former #1
- * pick (concrete · SRROYUSDC, 86.51% vs a 4.51% 30-day mean — a positive
- * control for this gate in the tests, never its definition). */
-function isRepresentativeRate(pool) {
-  const ratio = representativenessRatio(pool);
-  return ratio != null && ratio <= REPRESENTATIVE_REL;
-}
+//
+// REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio and
+// isRepresentativeRate MOVED to generate-token-pages.js in item 242 (imported
+// above) so the token-page generator can gate its own headline pool without
+// a require cycle or a hard dependency on @napi-rs/canvas. Re-exported below
+// under the same names — every existing importer/test of THIS module keeps
+// working byte-identically. Never redefine them here.
 
 // The forever-number math cares only about the SIGN of the rate (see
 // planner.js's foreverNumber: `rate<=0 -> Infinity, else monthly*12/rate` —
@@ -910,7 +885,10 @@ module.exports = {
   DEFAULT_MIN_TVL, APY_SANITY_LIMIT, CURVE_PROJECT_KEY, SPOTLIGHT_SRC,
   isQualifyingPool, protocolTvlAggregates, isSmallEnoughProtocol,
   // 229: the two new gates + the story-worthiness score/hook machinery.
-  REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, isRepresentativeRate, isFundableForever,
+  // 242: representativenessRatio is now ALSO re-exported (it previously
+  // wasn't, even though isRepresentativeRate/the constants were) — the
+  // mirror-proof test requires all four names to be checkable for identity.
+  REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate, isFundableForever,
   buildStoryContext, storySignals, storyScore, hookAngle, buildHook,
   pickPool, rankCandidates, SpotlightError,
   SUBSCRIPTION_GOALS, DEFAULT_GOAL_ID, resolveGoal,
