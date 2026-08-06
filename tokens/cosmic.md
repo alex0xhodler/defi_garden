@@ -4,7 +4,7 @@ The highest honest COSMIC yield right now is 0.01% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5be7882b-5f90-4367-b1a1-c4ef5da75528&src=seo_token) | Base | 0.01% | $291K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5be7882b-5f90-4367-b1a1-c4ef5da75528&src=seo_token) | Base | 0.01% | $289.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many COSMIC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $291K in total.
+1 live pool clear this page's $100K TVL floor, $289.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

@@ -1,10 +1,10 @@
 # WBRL DeFi Yields
 
-The highest honest WBRL yield right now is 11.00% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBRL yield right now is 10.88% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=822f315a-f370-4797-8bbd-81f52aa95d3a&src=seo_token) | Ethereum | 11.00% | $285K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=822f315a-f370-4797-8bbd-81f52aa95d3a&src=seo_token) | Ethereum | 10.88% | $288.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WBRL yield today?
 
-11.00% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+10.88% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many WBRL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $285K in total.
+1 live pool clear this page's $100K TVL floor, $288.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

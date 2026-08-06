@@ -1,6 +1,6 @@
 # SRNUSD DeFi Yields
 
-The highest honest SRNUSD yield right now is 8.27% on strata-markets (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRNUSD yield right now is 8.27% on pendle (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRNUSD yield today?
 
-8.27% APY on strata-markets (Ethereum), based on live DefiLlama data.
+8.27% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SRNUSD pools clear the TVL floor?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

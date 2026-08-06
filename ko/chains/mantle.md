@@ -1,17 +1,17 @@
 # Mantle 디파이 수익률
 
-현재 Mantle의 가장 높은 정직한 수익률은 Mantle의 aave-v3에서 5.93%이며, $100K TVL 기준을 넘는 22개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Mantle의 가장 높은 정직한 수익률은 Mantle의 aave-v3에서 5.93%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SUSDE | [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_chain) | 3.78% | $56.76M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_chain) | 3.80% | $41.73M |
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_chain) | 3.55% | $28.79M |
+| SUSDE | [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_chain) | 3.78% | $56.75M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_chain) | 3.83% | $41.04M |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_chain) | 3.55% | $28.85M |
 | USDE | [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_chain) | 3.91% | $8.94M |
-| USDT0-BSB | [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29&src=seo_chain) | 5.42% | $605.4K |
-| BILL-USDT0 | [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_chain) | 0.50% | $592.9K |
-| GHO | [aave-v3 →](https://www.defi.garden/?pool=125974d5-ad17-4a3a-b967-ebbf721fca22&src=seo_chain) | 5.93% | $240.2K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=4a0e9f84-09a0-491a-aa5e-269813d31a59&src=seo_chain) | 4.05% | $239.4K |
+| BILL-USDT0 | [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_chain) | 0.04% | $594.7K |
+| GHO | [aave-v3 →](https://www.defi.garden/?pool=125974d5-ad17-4a3a-b967-ebbf721fca22&src=seo_chain) | 5.93% | $240.1K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=4a0e9f84-09a0-491a-aa5e-269813d31a59&src=seo_chain) | 4.40% | $218.5K |
+| ELSA-USDT0 | [fluxion-network →](https://www.defi.garden/?pool=649bee89-0a34-4eb1-b8ab-7c5fdee07ccd&src=seo_chain) | 0.99% | $124.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Mantle의 aave-v3에서 APY 5.93%예요.
 
 ### Mantle 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $192.83M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $192.24M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,9 +44,9 @@ DefiLlama 실시간 데이터 기준, Mantle의 aave-v3에서 APY 5.93%예요.
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [BSB](https://www.defi.garden/ko/tokens/bsb)
 - [BILL](https://www.defi.garden/ko/tokens/bill)
 - [GHO](https://www.defi.garden/ko/tokens/gho)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [ELSA](https://www.defi.garden/ko/tokens/elsa)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -4,7 +4,7 @@ The highest honest MOLLY yield right now is 0.07% on uniswap-v2 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=99606f8e-ffbc-4843-b403-67edd3b01c2f&src=seo_token) | Base | 0.07% | $163.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=99606f8e-ffbc-4843-b403-67edd3b01c2f&src=seo_token) | Base | 0.07% | $162.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOLLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.3K in total.
+1 live pool clear this page's $100K TVL floor, $162.8K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

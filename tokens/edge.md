@@ -1,11 +1,11 @@
 # EDGE DeFi Yields
 
-The highest honest EDGE yield right now is 74.78% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDGE yield right now is 7.56% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token) | Base | 74.78% | $429.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 0.03% | $177.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token) | Base | 7.56% | $427K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 0.03% | $176.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EDGE yield today?
 
-74.78% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+7.56% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many EDGE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $606.2K in total.
+2 live pools clear this page's $100K TVL floor, $603.1K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

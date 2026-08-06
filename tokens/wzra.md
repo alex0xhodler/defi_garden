@@ -1,10 +1,10 @@
 # WZRA DeFi Yields
 
-The highest honest WZRA yield right now is 0.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WZRA yield right now is 0.65% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eebe3ef9-0c66-406c-b5de-8bb6fc2d2af9&src=seo_token) | Solana | 0.69% | $139.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=eebe3ef9-0c66-406c-b5de-8bb6fc2d2af9&src=seo_token) | Solana | 0.65% | $139.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WZRA yield today?
 
-0.69% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.65% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WZRA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $139.5K in total.
+1 live pool clear this page's $100K TVL floor, $139.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

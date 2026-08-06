@@ -1,17 +1,17 @@
 # BTC DeFi Yields
 
-The highest honest BTC yield right now is 176.39% on justlend-v1 (Tron), among 20 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTC yield right now is 160.79% on gmtrade (Solana), among 20 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token) | Tron | 0.02% | $421.45M |
-| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.14% | $153.64M |
-| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 4.15% | $53.42M |
-| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 2.33% | $19.07M |
-| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 2.33% | $3.79M |
-| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 2.87% | $3.16M |
-| [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 176.39% | $1.86M |
-| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.17% | $1.75M |
+| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.14% | $152.72M |
+| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 0.11% | $53.15M |
+| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 2.33% | $18.96M |
+| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 2.33% | $3.77M |
+| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 3.34% | $3.15M |
+| [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 160.79% | $1.86M |
+| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.21% | $1.74M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTC yield today?
 
-176.39% APY on justlend-v1 (Tron), based on live DefiLlama data.
+160.79% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many BTC pools clear the TVL floor?
 
-20 live pools clear this page's $100K TVL floor, $674.92M in total.
+20 live pools clear this page's $100K TVL floor, $673.52M in total.
 
 ### Are these rates safe?
 
@@ -47,4 +47,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Monad](https://www.defi.garden/chains/monad)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

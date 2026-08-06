@@ -4,7 +4,7 @@ The highest honest BITMXNBP yield right now is 7.40% on morpho-blue (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075&src=seo_token) | Base | 7.40% | $228.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=0fce1c82-7429-451f-a41f-301fb9b28075&src=seo_token) | Base | 7.40% | $223.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BITMXNBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.1K in total.
+1 live pool clear this page's $100K TVL floor, $223.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

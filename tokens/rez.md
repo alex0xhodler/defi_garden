@@ -4,7 +4,7 @@ The highest honest REZ yield right now is 0.10% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f74431c5-7307-4a3b-9d17-3a30924a1b59&src=seo_token) | Ethereum | 0.10% | $155.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f74431c5-7307-4a3b-9d17-3a30924a1b59&src=seo_token) | Ethereum | 0.10% | $154.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many REZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $155.9K in total.
+1 live pool clear this page's $100K TVL floor, $154.5K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

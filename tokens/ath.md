@@ -1,11 +1,11 @@
 # ATH DeFi Yields
 
-The highest honest ATH yield right now is 422.81% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATH yield right now is 419.12% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 422.81% | $382.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 9.20% | $249.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 419.12% | $382.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 6.93% | $249.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATH yield today?
 
-422.81% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+419.12% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many ATH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $632.3K in total.
+2 live pools clear this page's $100K TVL floor, $631.7K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

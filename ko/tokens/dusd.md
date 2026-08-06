@@ -1,16 +1,16 @@
 # DUSD 디파이 수익률
 
-현재 DUSD의 가장 높은 정직한 수익률은 Ethereum의 makina에서 11.57%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DUSD의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 15.70%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 11.57% | $5.4M |
-| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 5.18% | $2.1M |
-| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 8.77% | $1.58M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 3.05% | $852.8K |
-| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 10.80% | $306.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.14% | $218.6K |
-| [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_token) | Defichain | 0.02% | $149.1K |
+| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 7.49% | $2.1M |
+| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 8.76% | $1.58M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.68% | $852.8K |
+| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.11% | $818.8K |
+| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 15.70% | $306.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.12% | $218.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@
 
 ### 오늘 DUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 makina에서 APY 11.57%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 15.70%예요.
 
 ### DUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -40,7 +40,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 makina에서 APY 11.57%예요.
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Solana](https://www.defi.garden/ko/chains/solana)
 - [Defichain](https://www.defi.garden/ko/chains/defichain)
+- [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

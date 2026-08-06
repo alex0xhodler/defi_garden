@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ef0054c3-af89-4aa9-84e9-bb288738d9aa&src=seo_token) | Monad | 2.11% | $7.5M |
+| [morpho-blue →](https://www.defi.garden/?pool=ef0054c3-af89-4aa9-84e9-bb288738d9aa&src=seo_token) | Monad | 2.11% | $7.47M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 2.11%예요
 
 ### HYPERCBBTCA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $7.5M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $7.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -24,15 +24,15 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 2.11%예요
 
 ## 관련 토큰
 
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [BTC](https://www.defi.garden/ko/tokens/btc)
-- [AUSD](https://www.defi.garden/ko/tokens/ausd)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

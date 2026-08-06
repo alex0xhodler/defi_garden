@@ -1,10 +1,10 @@
 # IBBTC DeFi Yields
 
-The highest honest IBBTC yield right now is 0.02% on sushiswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IBBTC yield right now is 0.01% on sushiswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=017c340c-3778-419d-be57-1a6032e05e9f&src=seo_token) | Ethereum | 0.02% | $170.1K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=017c340c-3778-419d-be57-1a6032e05e9f&src=seo_token) | Ethereum | 0.01% | $169.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IBBTC yield today?
 
-0.02% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
+0.01% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many IBBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $170.1K in total.
+1 live pool clear this page's $100K TVL floor, $169.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

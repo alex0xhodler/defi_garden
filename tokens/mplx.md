@@ -1,12 +1,12 @@
 # MPLX DeFi Yields
 
-The highest honest MPLX yield right now is 5.13% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MPLX yield right now is 3.91% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 5.13% | $1.47M |
-| [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 1.99% | $448.8K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 1.80% | $444.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 3.91% | $1.46M |
+| [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 1.50% | $447.4K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 0.97% | $443.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MPLX yield today?
 
-5.13% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.91% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MPLX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.81M in total.
+4 live pools clear this page's $100K TVL floor, $3.79M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

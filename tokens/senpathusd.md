@@ -4,7 +4,7 @@ The highest honest SENPATHUSD yield right now is 2.90% on morpho-blue (Tempo), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11&src=seo_token) | Tempo | 2.90% | $20.46M |
+| [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11&src=seo_token) | Tempo | 2.90% | $20.44M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SENPATHUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $20.46M in total.
+1 live pool clear this page's $100K TVL floor, $20.44M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Tempo](https://www.defi.garden/chains/tempo)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 bitwise-uscc에서 APY 2.79%�
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

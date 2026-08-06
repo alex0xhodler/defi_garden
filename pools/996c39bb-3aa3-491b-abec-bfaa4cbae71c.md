@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.10% right now vs a 0.06% 30-day average. Reward 
 
 [Start Earning on aerodrome-slipstream](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated August 5, 2026
+Last updated August 6, 2026

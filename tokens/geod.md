@@ -1,13 +1,13 @@
 # GEOD DeFi Yields
 
-The highest honest GEOD yield right now is 55.70% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GEOD yield right now is 20.78% on uniswap-v3 (Polygon), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token) | Solana | 55.70% | $256.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 46.14% | $232.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 20.29% | $230.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 12.03% | $125.5K |
+| [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token) | Solana | 47.96% | $254.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 40.95% | $228.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 20.78% | $227.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 11.05% | $123.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GEOD yield today?
 
-55.70% APY on orca-dex (Solana), based on live DefiLlama data.
+20.78% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many GEOD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $992K in total.
+5 live pools clear this page's $100K TVL floor, $979.3K in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

@@ -1,15 +1,15 @@
 # ACRED DeFi Yields
 
-The highest honest ACRED yield right now is 1.76% on apollo-diversified-credit-securitize-fund (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ACRED yield right now is 1.98% on apollo-diversified-credit-securitize-fund (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 1.76% | $38.17M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 1.76% | $24.87M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 1.76% | $15.57M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 1.76% | $11.05M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 1.76% | $6.38M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 1.76% | $904.3K |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 1.98% | $38.18M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 1.98% | $24.87M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 1.98% | $15.58M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 1.98% | $11.05M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 1.98% | $6.38M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 1.98% | $904.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ACRED yield today?
 
-1.76% APY on apollo-diversified-credit-securitize-fund (Ethereum), based on live DefiLlama data.
+1.98% APY on apollo-diversified-credit-securitize-fund (Ethereum), based on live DefiLlama data.
 
 ### How many ACRED pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $96.93M in total.
+6 live pools clear this page's $100K TVL floor, $96.95M in total.
 
 ### Are these rates safe?
 
@@ -45,4 +45,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

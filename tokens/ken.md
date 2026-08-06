@@ -4,7 +4,7 @@ The highest honest KEN yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=69a8e916-813e-4f6f-b7f7-4f61857f3a94&src=seo_token) | Ethereum | 0.01% | $215.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=69a8e916-813e-4f6f-b7f7-4f61857f3a94&src=seo_token) | Ethereum | 0.01% | $214.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $215.9K in total.
+1 live pool clear this page's $100K TVL floor, $214.8K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

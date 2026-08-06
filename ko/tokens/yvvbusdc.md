@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Katana의 spectra-v2에서 APY 6.05%예요
 
 ### YVVBUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2.34M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2.35M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -27,13 +27,13 @@ DefiLlama 실시간 데이터 기준, Katana의 spectra-v2에서 APY 6.05%예요
 
 - [STEAKUSDC](https://www.defi.garden/ko/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/ko/tokens/bbqusdc)
-- [GTUSDC](https://www.defi.garden/ko/tokens/gtusdc)
 - [VBWBTC](https://www.defi.garden/ko/tokens/vbwbtc)
 - [GTWETH](https://www.defi.garden/ko/tokens/gtweth)
 - [YMVOG](https://www.defi.garden/ko/tokens/ymvog)
+- [VBUSDC](https://www.defi.garden/ko/tokens/vbusdc)
 
 ## 이용 가능한 체인
 
 - [Katana](https://www.defi.garden/ko/chains/katana)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -1,15 +1,15 @@
 # AVUSD DeFi Yields
 
-The highest honest AVUSD yield right now is 10.62% on balancer-v3 (Monad), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVUSD yield right now is 15.69% on stake-dao (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 9.91% | $2.92M |
-| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 5.78% | $934.3K |
-| [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $761.4K |
-| [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 7.07% | $721.9K |
-| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 9.28% | $232.4K |
-| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 10.62% | $178.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 9.93% | $2.91M |
+| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 6.99% | $934.3K |
+| [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $761.5K |
+| [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 8.57% | $722K |
+| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 13.67% | $232.5K |
+| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 15.69% | $178.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AVUSD yield today?
 
-10.62% APY on balancer-v3 (Monad), based on live DefiLlama data.
+15.69% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many AVUSD pools clear the TVL floor?
 
@@ -41,4 +41,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Monad](https://www.defi.garden/chains/monad)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

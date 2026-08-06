@@ -1,12 +1,12 @@
 # FET DeFi Yields
 
-The highest honest FET yield right now is 22.56% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FET yield right now is 5.57% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 22.56% | $1.08M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token) | Ethereum | 17.73% | $278.1K |
-| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 5.59% | $146.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 27.96% | $1.04M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token) | Ethereum | 19.99% | $272.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 5.57% | $146.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FET yield today?
 
-22.56% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.57% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many FET pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.5M in total.
+3 live pools clear this page's $100K TVL floor, $1.46M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

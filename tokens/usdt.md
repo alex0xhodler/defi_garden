@@ -1,17 +1,17 @@
 # USDT DeFi Yields
 
-The highest honest USDT yield right now is 20.76% on maple (Ethereum), among 406 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDT yield right now is 21.84% on uniswap-v3 (Ethereum), among 407 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=8edfdf02-cdbb-43f7-bca6-954e5fe56813&src=seo_token) | Ethereum | 4.14% | $966.51M |
-| [aave-v3 →](https://www.defi.garden/?pool=f981a304-bb6c-45b8-b0c5-fd2f515ad23a&src=seo_token) | Ethereum | 2.69% | $518.61M |
-| [spark-savings →](https://www.defi.garden/?pool=a5d67f7e-5b51-4a9d-969d-caf051a7f5a4&src=seo_token) | Ethereum | 2.75% | $387.79M |
-| [fluid-lending →](https://www.defi.garden/?pool=4e8cc592-c8d5-4824-8155-128ba521e903&src=seo_token) | Ethereum | 4.51% | $133.2M |
-| [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_token) | Tron | 1.86% | $95.44M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 20.76% | $84.49M |
-| [venus-core-pool →](https://www.defi.garden/?pool=9f3a6015-5045-4471-ba65-ad3dc7c38269&src=seo_token) | BSC | 2.12% | $77.57M |
-| [aave-v3 →](https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777&src=seo_token) | Ethereum | 4.04% | $75.49M |
+| [maple →](https://www.defi.garden/?pool=8edfdf02-cdbb-43f7-bca6-954e5fe56813&src=seo_token) | Ethereum | 4.14% | $962.5M |
+| [aave-v3 →](https://www.defi.garden/?pool=f981a304-bb6c-45b8-b0c5-fd2f515ad23a&src=seo_token) | Ethereum | 2.69% | $515.86M |
+| [spark-savings →](https://www.defi.garden/?pool=a5d67f7e-5b51-4a9d-969d-caf051a7f5a4&src=seo_token) | Ethereum | 2.75% | $388.39M |
+| [fluid-lending →](https://www.defi.garden/?pool=4e8cc592-c8d5-4824-8155-128ba521e903&src=seo_token) | Ethereum | 4.41% | $133.47M |
+| [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_token) | Tron | 1.85% | $96.69M |
+| [venus-core-pool →](https://www.defi.garden/?pool=9f3a6015-5045-4471-ba65-ad3dc7c38269&src=seo_token) | BSC | 2.12% | $77.34M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 21.84% | $76.02M |
+| [aave-v3 →](https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777&src=seo_token) | Ethereum | 4.04% | $75.5M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDT yield today?
 
-20.76% APY on maple (Ethereum), based on live DefiLlama data.
+21.84% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many USDT pools clear the TVL floor?
 
-406 live pools clear this page's $100K TVL floor, $3.5B in total.
+407 live pools clear this page's $100K TVL floor, $3.53B in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Tron](https://www.defi.garden/chains/tron)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

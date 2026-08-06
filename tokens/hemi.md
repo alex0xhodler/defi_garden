@@ -1,12 +1,12 @@
 # HEMI DeFi Yields
 
-The highest honest HEMI yield right now is 5.46% on sushiswap-v3 (Hemi), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEMI yield right now is 6.44% on sushiswap-v3 (Hemi), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 2.72% | $268.6K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 5.46% | $145.9K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 0.12% | $114.7K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 3.48% | $269.4K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 6.44% | $146.4K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 0.17% | $115.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEMI yield today?
 
-5.46% APY on sushiswap-v3 (Hemi), based on live DefiLlama data.
+6.44% APY on sushiswap-v3 (Hemi), based on live DefiLlama data.
 
 ### How many HEMI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $529.2K in total.
+3 live pools clear this page's $100K TVL floor, $531.2K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Hemi](https://www.defi.garden/chains/hemi)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

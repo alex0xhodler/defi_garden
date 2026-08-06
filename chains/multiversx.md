@@ -1,17 +1,17 @@
 # MultiversX DeFi Yields
 
-The highest honest MultiversX yield right now is 4.20% on xexchange (MultiversX), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MultiversX yield right now is 4.18% on xexchange (MultiversX), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WEGLD-USDC | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_chain) | 3.98% | $853.9K |
-| WBTC | [hatom-lending →](https://www.defi.garden/?pool=a4aa0312-8a7a-47c3-9505-1b89bf7cab2a&src=seo_chain) | 0.27% | $660.8K |
-| USDC | [hatom-lending →](https://www.defi.garden/?pool=30f6670e-df51-4e78-a5fc-d197fde0a9aa&src=seo_chain) | 2.28% | $622K |
-| EGLD | [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_chain) | 1.05% | $292.4K |
-| WETH | [hatom-lending →](https://www.defi.garden/?pool=8c877233-8919-4146-90c9-0c39beb77f20&src=seo_chain) | 0.21% | $247.3K |
-| HTM-WEGLD | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_chain) | 4.20% | $178.2K |
-| USDT | [hatom-lending →](https://www.defi.garden/?pool=483bfa23-9706-4f9a-935b-dad09ad2db98&src=seo_chain) | 3.58% | $131.4K |
-| HTM | [hatom-lending →](https://www.defi.garden/?pool=b3793477-21c5-44a3-9b6b-9b99d4a16de7&src=seo_chain) | 0.01% | $112.7K |
+| WEGLD-USDC | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_chain) | 3.86% | $850.9K |
+| WBTC | [hatom-lending →](https://www.defi.garden/?pool=a4aa0312-8a7a-47c3-9505-1b89bf7cab2a&src=seo_chain) | 0.27% | $656.2K |
+| USDC | [hatom-lending →](https://www.defi.garden/?pool=30f6670e-df51-4e78-a5fc-d197fde0a9aa&src=seo_chain) | 2.28% | $622.1K |
+| EGLD | [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_chain) | 1.01% | $296K |
+| WETH | [hatom-lending →](https://www.defi.garden/?pool=8c877233-8919-4146-90c9-0c39beb77f20&src=seo_chain) | 0.21% | $244.6K |
+| HTM-WEGLD | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_chain) | 4.18% | $176.9K |
+| USDT | [hatom-lending →](https://www.defi.garden/?pool=483bfa23-9706-4f9a-935b-dad09ad2db98&src=seo_chain) | 3.58% | $131.3K |
+| HTM | [hatom-lending →](https://www.defi.garden/?pool=b3793477-21c5-44a3-9b6b-9b99d4a16de7&src=seo_chain) | 0.01% | $111.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MultiversX yield today?
 
-4.20% APY on xexchange (MultiversX), based on live DefiLlama data.
+4.18% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many MultiversX pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $6.15M in total.
+11 live pools clear this page's $100K TVL floor, $6.11M in total.
 
 ### Are these rates safe?
 
@@ -48,4 +48,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDT](https://www.defi.garden/tokens/usdt)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

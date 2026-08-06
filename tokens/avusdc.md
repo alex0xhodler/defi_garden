@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

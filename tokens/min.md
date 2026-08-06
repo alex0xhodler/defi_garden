@@ -5,7 +5,7 @@ The highest honest MIN yield right now is 4.35% on minswap-dex (Cardano), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 4.35% | $1.24M |
-| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.16% | $194.8K |
+| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.15% | $194.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

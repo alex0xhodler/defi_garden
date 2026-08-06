@@ -1,12 +1,12 @@
 # MAI 디파이 수익률
 
-현재 MAI의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 6.33%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MAI의 가장 높은 정직한 수익률은 Base의 extra-finance-leverage-farming에서 6.29%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 6.14% | $2.32M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 6.33% | $239.6K |
-| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 3.46% | $131.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 6.11% | $2.33M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 6.29% | $240.4K |
+| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 2.62% | $131.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 MAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 6.33%예요.
+DefiLlama 실시간 데이터 기준, Base의 extra-finance-leverage-farming에서 APY 6.29%예요.
 
 ### MAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 6.33%예요
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

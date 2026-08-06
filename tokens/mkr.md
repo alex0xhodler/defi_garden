@@ -1,13 +1,14 @@
 # MKR DeFi Yields
 
-The highest honest MKR yield right now is 17.93% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MKR yield right now is 3.15% on uniswap-v3 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd&src=seo_token) | Ethereum | 1.18% | $1.11M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e&src=seo_token) | Ethereum | 3.51% | $292K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 17.93% | $201.8K |
-| [balancer-v2 →](https://www.defi.garden/?pool=c0a29e27-6de6-4ba5-904a-e45f324906d8&src=seo_token) | Ethereum | 0.50% | $148.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd&src=seo_token) | Ethereum | 1.05% | $1.1M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3&src=seo_token) | Ethereum | 3.15% | $305.7K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e&src=seo_token) | Ethereum | 2.95% | $288.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 14.53% | $199.9K |
+| [balancer-v2 →](https://www.defi.garden/?pool=c0a29e27-6de6-4ba5-904a-e45f324906d8&src=seo_token) | Ethereum | 0.41% | $146.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MKR yield today?
 
-17.93% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.15% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many MKR pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $2.19M in total.
+6 live pools clear this page's $100K TVL floor, $2.17M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

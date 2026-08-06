@@ -1,10 +1,10 @@
 # STTD DeFi Yields
 
-The highest honest STTD yield right now is 5.40% on tizi (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STTD yield right now is 5.47% on tizi (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tizi →](https://www.defi.garden/?pool=04024d8f-2f09-4c89-aab6-d80e41fc726d&src=seo_token) | Base | 5.40% | $133.1K |
+| [tizi →](https://www.defi.garden/?pool=04024d8f-2f09-4c89-aab6-d80e41fc726d&src=seo_token) | Base | 5.47% | $133.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STTD yield today?
 
-5.40% APY on tizi (Base), based on live DefiLlama data.
+5.47% APY on tizi (Base), based on live DefiLlama data.
 
 ### How many STTD pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

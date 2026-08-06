@@ -1,17 +1,17 @@
 # FRXETH DeFi Yields
 
-The highest honest FRXETH yield right now is 7.37% on curve-dex (Ethereum), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRXETH yield right now is 3.12% on curve-dex (Fraxtal), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.71% | $13.4M |
-| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.05% | $13.4M |
-| [curve-dex →](https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token) | Ethereum | 0.77% | $7.73M |
-| [convex-finance →](https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token) | Ethereum | 0.94% | $5.82M |
-| [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.52% | $5.32M |
-| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.11% | $2.02M |
-| [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.62% | $1.39M |
-| [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token) | Ethereum | 7.37% | $1.36M |
+| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.65% | $13.35M |
+| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.12% | $13.35M |
+| [curve-dex →](https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token) | Ethereum | 0.72% | $7.7M |
+| [convex-finance →](https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token) | Ethereum | 1.08% | $5.8M |
+| [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.35% | $5.32M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token) | Ethereum | 1.29% | $2.44M |
+| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.12% | $2.01M |
+| [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.31% | $1.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FRXETH yield today?
 
-7.37% APY on curve-dex (Ethereum), based on live DefiLlama data.
+3.12% APY on curve-dex (Fraxtal), based on live DefiLlama data.
 
 ### How many FRXETH pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $58.02M in total.
+19 live pools clear this page's $100K TVL floor, $57.82M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Fraxtal](https://www.defi.garden/chains/fraxtal)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

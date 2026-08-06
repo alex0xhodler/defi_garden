@@ -1,12 +1,12 @@
 # MAI DeFi Yields
 
-The highest honest MAI yield right now is 6.33% on aerodrome-v1 (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAI yield right now is 6.29% on extra-finance-leverage-farming (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 6.14% | $2.32M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 6.33% | $239.6K |
-| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 3.46% | $131.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 6.11% | $2.33M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 6.29% | $240.4K |
+| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 2.62% | $131.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAI yield today?
 
-6.33% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+6.29% APY on extra-finance-leverage-farming (Base), based on live DefiLlama data.
 
 ### How many MAI pools clear the TVL floor?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

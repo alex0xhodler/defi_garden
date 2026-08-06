@@ -4,7 +4,7 @@ The highest honest CELO yield right now is 7.59% on uniswap-v3 (Celo), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 7.59% | $586.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 7.59% | $965.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CELO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $586.5K in total.
+1 live pool clear this page's $100K TVL floor, $965.6K in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CUSD](https://www.defi.garden/tokens/cusd)
-- [EURM](https://www.defi.garden/tokens/eurm)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
+- [EURM](https://www.defi.garden/tokens/eurm)
 - [CEUR](https://www.defi.garden/tokens/ceur)
 - [CAUD](https://www.defi.garden/tokens/caud)
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

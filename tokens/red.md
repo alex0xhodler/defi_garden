@@ -1,11 +1,11 @@
 # RED DeFi Yields
 
-The highest honest RED yield right now is 31.36% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RED yield right now is 6.18% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token) | Ethereum | 3.79% | $336K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token) | Base | 31.36% | $130.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token) | Ethereum | 6.18% | $333.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token) | Base | 1.76% | $126.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RED yield today?
 
-31.36% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+6.18% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many RED pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $466.4K in total.
+2 live pools clear this page's $100K TVL floor, $459.9K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

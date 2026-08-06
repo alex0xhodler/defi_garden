@@ -1,11 +1,11 @@
 # DEJAAA DeFi Yields
 
-The highest honest DEJAAA yield right now is 0.50% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEJAAA yield right now is 0.44% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=996c39bb-3aa3-491b-abec-bfaa4cbae71c&src=seo_token) | Base | 0.10% | $366K |
-| [raydium-amm →](https://www.defi.garden/?pool=1013bd79-ab43-46a4-a889-bc36200b284a&src=seo_token) | Solana | 0.50% | $116K |
+| [raydium-amm →](https://www.defi.garden/?pool=1013bd79-ab43-46a4-a889-bc36200b284a&src=seo_token) | Solana | 0.44% | $116K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEJAAA yield today?
 
-0.50% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+0.44% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DEJAAA pools clear the TVL floor?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

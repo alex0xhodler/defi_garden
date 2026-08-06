@@ -1,11 +1,11 @@
 # WARS DeFi Yields
 
-The highest honest WARS yield right now is 98.24% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WARS yield right now is 97.84% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 0.89% | $440.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 98.24% | $274.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 97.84% | $275.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WARS yield today?
 
-98.24% APY on uniswap-v4 (Base), based on live DefiLlama data.
+97.84% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many WARS pools clear the TVL floor?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

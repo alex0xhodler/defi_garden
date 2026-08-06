@@ -1,11 +1,11 @@
 # GETH DeFi Yields
 
-The highest honest GETH yield right now is 5.78% on geth (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GETH yield right now is 5.75% on hydration-dex (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token) | Ethereum | 2.23% | $14.69M |
-| [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_token) | Polkadot | 5.78% | $1.6M |
+| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token) | Ethereum | 2.23% | $14.54M |
+| [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_token) | Polkadot | 5.75% | $1.58M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GETH yield today?
 
-5.78% APY on geth (Ethereum), based on live DefiLlama data.
+5.75% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many GETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $16.28M in total.
+2 live pools clear this page's $100K TVL floor, $16.12M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

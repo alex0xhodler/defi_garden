@@ -1,17 +1,17 @@
 # FXRP DeFi Yields
 
-The highest honest FXRP yield right now is 19.40% on kinetic (Flare), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXRP yield right now is 21.69% on sparkdex-v4 (Flare), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_token) | Flare | 0.97% | $22.2M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 1.62% | $5.59M |
-| [gami-labs →](https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6&src=seo_token) | Flare | 2.37% | $4.05M |
-| [spectra-metavaults →](https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233&src=seo_token) | Flare | 2.37% | $4.05M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67&src=seo_token) | Ethereum | 5.35% | $2.99M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832&src=seo_token) | Flare | 19.40% | $1.98M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 14.97% | $810.1K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4&src=seo_token) | Flare | 2.97% | $528.6K |
+| [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_token) | Flare | 0.99% | $21.66M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 1.63% | $5.51M |
+| [spectra-metavaults →](https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233&src=seo_token) | Flare | 2.37% | $3.96M |
+| [gami-labs →](https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6&src=seo_token) | Flare | 2.37% | $3.96M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67&src=seo_token) | Ethereum | 7.12% | $2.98M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832&src=seo_token) | Flare | 21.69% | $1.96M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 14.64% | $799.5K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4&src=seo_token) | Flare | 4.32% | $522.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FXRP yield today?
 
-19.40% APY on kinetic (Flare), based on live DefiLlama data.
+21.69% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
 
 ### How many FXRP pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $49.91M in total.
+11 live pools clear this page's $100K TVL floor, $48.92M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Flare](https://www.defi.garden/chains/flare)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

@@ -1,10 +1,10 @@
 # USDCAD DeFi Yields
 
-The highest honest USDCAD yield right now is 45.52% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDCAD yield right now is 34.05% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=ab5cddbb-e1f9-42fb-909e-62fbbe7dcb7b&src=seo_token) | Solana | 45.52% | $2.78M |
+| [gmtrade →](https://www.defi.garden/?pool=ab5cddbb-e1f9-42fb-909e-62fbbe7dcb7b&src=seo_token) | Solana | 34.05% | $2.78M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDCAD yield today?
 
-45.52% APY on gmtrade (Solana), based on live DefiLlama data.
+34.05% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many USDCAD pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

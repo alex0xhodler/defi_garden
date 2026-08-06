@@ -1,11 +1,11 @@
 # SUPERUSDC DeFi Yields
 
-The highest honest SUPERUSDC yield right now is 11.12% on superform (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERUSDC yield right now is 11.12% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.03% | $7.6M |
-| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.53% | $872.3K |
+| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.00% | $7.6M |
+| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.48% | $871.4K |
 | [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 7.66% | $823.4K |
 | [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 11.12% | $823.4K |
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPERUSDC yield today?
 
-11.12% APY on superform (Ethereum), based on live DefiLlama data.
+11.12% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SUPERUSDC pools clear the TVL floor?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

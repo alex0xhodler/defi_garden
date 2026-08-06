@@ -1,11 +1,11 @@
 # SUPERUSDC 디파이 수익률
 
-현재 SUPERUSDC의 가장 높은 정직한 수익률은 Ethereum의 superform에서 11.12%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUPERUSDC의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 11.12%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.03% | $7.6M |
-| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.53% | $872.3K |
+| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.00% | $7.6M |
+| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.48% | $871.4K |
 | [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 7.66% | $823.4K |
 | [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 11.12% | $823.4K |
 
@@ -15,7 +15,7 @@
 
 ### 오늘 SUPERUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 superform에서 APY 11.12%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 11.12%예요.
 
 ### SUPERUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 superform에서 APY 11.12%예�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

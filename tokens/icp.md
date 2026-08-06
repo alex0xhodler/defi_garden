@@ -1,14 +1,14 @@
 # ICP DeFi Yields
 
-The highest honest ICP yield right now is 114.41% on icpswap (ICP), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ICP yield right now is 111.20% on aerodrome-slipstream (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 4.73% | $516.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token) | Ethereum | 1.73% | $432.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token) | Base | 114.41% | $397.4K |
-| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 1.27% | $330.7K |
-| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 10.97% | $126.3K |
+| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 4.05% | $514.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token) | Ethereum | 1.69% | $432.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token) | Base | 111.20% | $396.8K |
+| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 1.03% | $328.7K |
+| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 12.72% | $120.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ICP yield today?
 
-114.41% APY on icpswap (ICP), based on live DefiLlama data.
+111.20% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ICP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $3.36M in total.
+6 live pools clear this page's $100K TVL floor, $3.34M in total.
 
 ### Are these rates safe?
 
@@ -41,4 +41,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

@@ -1,11 +1,11 @@
 # WELL DeFi Yields
 
-The highest honest WELL yield right now is 2.99% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WELL yield right now is 0.32% on moonwell-lending (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 2.99% | $1.27M |
-| [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.31% | $493.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 10.63% | $1.26M |
+| [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.32% | $480.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WELL yield today?
 
-2.99% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+0.32% APY on moonwell-lending (Base), based on live DefiLlama data.
 
 ### How many WELL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.76M in total.
+2 live pools clear this page's $100K TVL floor, $1.74M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

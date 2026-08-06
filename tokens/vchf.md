@@ -1,12 +1,12 @@
 # VCHF DeFi Yields
 
-The highest honest VCHF yield right now is 3.85% on icpswap (ICP), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VCHF yield right now is 0.38% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 1.27% | $330.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token) | Solana | 0.37% | $309.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token) | Base | 3.85% | $186.4K |
+| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 1.03% | $328.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token) | Solana | 0.38% | $309.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token) | Base | 5.10% | $186.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VCHF yield today?
 
-3.85% APY on icpswap (ICP), based on live DefiLlama data.
+0.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many VCHF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $826.2K in total.
+3 live pools clear this page's $100K TVL floor, $823.9K in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

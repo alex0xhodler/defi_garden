@@ -1,11 +1,11 @@
 # CSPR DeFi Yields
 
-The highest honest CSPR yield right now is 0.15% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSPR yield right now is 0.20% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=5259c0d6-2d70-5114-9ef5-bcce89078c2c&src=seo_token) | Solana | 0.14% | $1.7M |
-| [raydium-amm →](https://www.defi.garden/?pool=34a76123-af18-50b6-9f1d-84bb72c8925f&src=seo_token) | Solana | 0.15% | $1.68M |
+| [raydium-amm →](https://www.defi.garden/?pool=34a76123-af18-50b6-9f1d-84bb72c8925f&src=seo_token) | Solana | 0.20% | $1.68M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSPR yield today?
 
-0.15% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.20% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CSPR pools clear the TVL floor?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

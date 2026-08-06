@@ -1,15 +1,15 @@
 # YB DeFi Yields
 
-The highest honest YB yield right now is 35.78% on curve-dex (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YB yield right now is 32.46% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token) | Ethereum | 14.12% | $936K |
-| [convex-finance →](https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token) | Ethereum | 23.05% | $363.5K |
-| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 16.31% | $209.8K |
-| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 17.53% | $149.9K |
-| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 35.78% | $128K |
-| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 25.39% | $111.7K |
+| [curve-dex →](https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token) | Ethereum | 15.78% | $936.6K |
+| [convex-finance →](https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token) | Ethereum | 22.53% | $363.7K |
+| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 16.44% | $208.4K |
+| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 9.45% | $149.9K |
+| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 32.46% | $127.2K |
+| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 14.03% | $111.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YB yield today?
 
-35.78% APY on curve-dex (Ethereum), based on live DefiLlama data.
+32.46% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YB pools clear the TVL floor?
 
@@ -40,4 +40,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

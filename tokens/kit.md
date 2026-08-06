@@ -1,10 +1,11 @@
 # KIT DeFi Yields
 
-The highest honest KIT yield right now is 0.03% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KIT yield right now is 0.12% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.03% | $392.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token) | Ethereum | 0.12% | $392.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.03% | $391K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KIT yield today?
 
-0.03% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+0.12% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many KIT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $783.2K in total.
+2 live pools clear this page's $100K TVL floor, $783.3K in total.
 
 ### Are these rates safe?
 
@@ -24,15 +25,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [DAI](https://www.defi.garden/tokens/dai)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
-- [LINK](https://www.defi.garden/tokens/link)
-- [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

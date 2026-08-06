@@ -4,7 +4,7 @@ The highest honest NVDAB yield right now is 102.54% on native-credit-pool (BSC),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74&src=seo_token) | BSC | 102.54% | $128.9K |
+| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74&src=seo_token) | BSC | 102.54% | $129.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NVDAB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $259.2K in total.
+2 live pools clear this page's $100K TVL floor, $259.7K in total.
 
 ### Are these rates safe?
 
@@ -25,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

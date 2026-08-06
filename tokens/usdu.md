@@ -1,6 +1,6 @@
 # USDU DeFi Yields
 
-The highest honest USDU yield right now is 0.04% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDU yield right now is 0.04% on kamino-liquidity (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDU yield today?
 
-0.04% APY on orca-dex (Solana), based on live DefiLlama data.
+0.04% APY on kamino-liquidity (Solana), based on live DefiLlama data.
 
 ### How many USDU pools clear the TVL floor?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

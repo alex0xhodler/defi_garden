@@ -6,7 +6,7 @@ The highest honest TMVUSDC yield right now is 7.87% on pendle (Ethereum), among 
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 6.44% | $1.49M |
 | [pendle →](https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token) | Ethereum | 7.87% | $1.49M |
-| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 4.38% | $489.4K |
+| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 4.40% | $489.4K |
 | [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.33% | $489.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

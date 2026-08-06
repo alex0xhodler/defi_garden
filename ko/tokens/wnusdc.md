@@ -24,15 +24,15 @@ DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 10.34%예�
 
 ## 관련 토큰
 
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [BTC](https://www.defi.garden/ko/tokens/btc)
-- [AUSD](https://www.defi.garden/ko/tokens/ausd)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

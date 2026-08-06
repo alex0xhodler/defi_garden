@@ -1,12 +1,12 @@
 # GROVE DeFi Yields
 
-The highest honest GROVE yield right now is 6.56% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GROVE yield right now is 6.23% on morpho-blue (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 3.30% | $25.23M |
-| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 3.50% | $1.01M |
-| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.56% | $337.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 3.52% | $25.22M |
+| [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 3.49% | $1.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.23% | $337.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GROVE yield today?
 
-6.56% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.23% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many GROVE pools clear the TVL floor?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

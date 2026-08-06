@@ -4,7 +4,7 @@ The highest honest MUBI yield right now is 0.32% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f7f41174-e5dc-4004-a30b-c5824ee13599&src=seo_token) | Ethereum | 0.32% | $373.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f7f41174-e5dc-4004-a30b-c5824ee13599&src=seo_token) | Ethereum | 0.32% | $370.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MUBI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $373.2K in total.
+1 live pool clear this page's $100K TVL floor, $370.9K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

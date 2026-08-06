@@ -2,7 +2,7 @@
 
 **Total APY:** 6.00% (6.00% Base · + 0.00% Rewards)
 
-**TVL:** $2.82M
+**TVL:** $2.83M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on nest-credit](https://nest.credit/?ref=defi.garden)
 
-Last updated August 5, 2026
+Last updated August 6, 2026

@@ -4,8 +4,8 @@ The highest honest RAIN yield right now is 12.08% on uniswap-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 2.25% | $2.19M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 12.08% | $493.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c32b871-97ec-4760-a6d2-0e04d2784643&src=seo_token) | Arbitrum | 2.12% | $2.19M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=67e1af02-d186-47bd-bd0f-584f1d115548&src=seo_token) | Arbitrum | 12.08% | $491.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

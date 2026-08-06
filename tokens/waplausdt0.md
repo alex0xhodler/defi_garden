@@ -1,10 +1,10 @@
 # WAPLAUSDT0 DeFi Yields
 
-The highest honest WAPLAUSDT0 yield right now is 1.99% on balancer-v3 (Plasma), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAPLAUSDT0 yield right now is 2.04% on balancer-v3 (Plasma), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 1.99% | $527.8K |
+| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 2.04% | $527.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAPLAUSDT0 yield today?
 
-1.99% APY on balancer-v3 (Plasma), based on live DefiLlama data.
+2.04% APY on balancer-v3 (Plasma), based on live DefiLlama data.
 
 ### How many WAPLAUSDT0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $527.8K in total.
+1 live pool clear this page's $100K TVL floor, $527.9K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Plasma](https://www.defi.garden/chains/plasma)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

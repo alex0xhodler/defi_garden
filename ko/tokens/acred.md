@@ -1,15 +1,15 @@
 # ACRED 디파이 수익률
 
-현재 ACRED의 가장 높은 정직한 수익률은 Ethereum의 apollo-diversified-credit-securitize-fund에서 1.76%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ACRED의 가장 높은 정직한 수익률은 Ethereum의 apollo-diversified-credit-securitize-fund에서 1.98%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 1.76% | $38.17M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 1.76% | $24.87M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 1.76% | $15.57M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 1.76% | $11.05M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 1.76% | $6.38M |
-| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 1.76% | $904.3K |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 1.98% | $38.18M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 1.98% | $24.87M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 1.98% | $15.58M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 1.98% | $11.05M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 1.98% | $6.38M |
+| [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 1.98% | $904.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,11 +17,11 @@
 
 ### 오늘 ACRED의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 apollo-diversified-credit-securitize-fund에서 APY 1.76%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 apollo-diversified-credit-securitize-fund에서 APY 1.98%예요.
 
 ### ACRED 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $96.93M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $96.95M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -45,4 +45,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 apollo-diversified-credit-secu
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

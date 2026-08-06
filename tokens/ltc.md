@@ -4,7 +4,7 @@ The highest honest LTC yield right now is 0.05% on venus-core-pool (BSC), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865&src=seo_token) | BSC | 0.05% | $1.95M |
+| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865&src=seo_token) | BSC | 0.05% | $1.94M |
 | [raydium-amm →](https://www.defi.garden/?pool=97ad0a47-8457-571a-8615-2a9e4917c8f5&src=seo_token) | Solana | 0.02% | $605K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.56M in total.
+2 live pools clear this page's $100K TVL floor, $2.54M in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 
 ## Available on
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Moonbeam](https://www.defi.garden/chains/moonbeam)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

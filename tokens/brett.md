@@ -1,12 +1,12 @@
 # BRETT DeFi Yields
 
-The highest honest BRETT yield right now is 67.31% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRETT yield right now is 1.11% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 2.00% | $925.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 67.31% | $635.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 1.46% | $128.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 1.55% | $911.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 214.38% | $610.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 1.11% | $128.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRETT yield today?
 
-67.31% APY on uniswap-v3 (Base), based on live DefiLlama data.
+1.11% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BRETT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.69M in total.
+3 live pools clear this page's $100K TVL floor, $1.65M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [STRK](https://www.defi.garden/tokens/strk)
 - [XWBTC](https://www.defi.garden/tokens/xwbtc)
 - [ZEC](https://www.defi.garden/tokens/zec)
-- [XSTRK](https://www.defi.garden/tokens/xstrk)
 
 ## Available on
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

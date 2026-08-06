@@ -1,13 +1,13 @@
 # OUSD DeFi Yields
 
-The highest honest OUSD yield right now is 5.61% on curve-dex (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OUSD yield right now is 5.84% on stake-dao (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 3.88% | $1.06M |
-| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 4.66% | $175.6K |
-| [curve-dex →](https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token) | Ethereum | 3.87% | $108.1K |
-| [stake-dao →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 5.61% | $104.9K |
+| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 3.93% | $1.06M |
+| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 4.83% | $175.6K |
+| [curve-dex →](https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token) | Ethereum | 3.86% | $108.3K |
+| [stake-dao →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 5.84% | $104.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OUSD yield today?
 
-5.61% APY on curve-dex (Ethereum), based on live DefiLlama data.
+5.84% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many OUSD pools clear the TVL floor?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

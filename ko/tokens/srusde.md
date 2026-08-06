@@ -1,10 +1,10 @@
 # SRUSDE 디파이 수익률
 
-현재 SRUSDE의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 3.97%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SRUSDE의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 3.97%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.06% | $59.07M |
+| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.06% | $59.06M |
 | [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 3.97% | $4.6M |
 | [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.65% | $4.6M |
 
@@ -14,11 +14,11 @@
 
 ### 오늘 SRUSDE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 3.97%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 3.97%예요.
 
 ### SRUSDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $117.94M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $117.93M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 3.97%
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

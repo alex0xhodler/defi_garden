@@ -4,7 +4,7 @@ The highest honest FLDT yield right now is 28.37% on minswap-dex (Cardano), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 28.37% | $655K |
+| [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 28.37% | $656.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FLDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $655K in total.
+1 live pool clear this page's $100K TVL floor, $656.3K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

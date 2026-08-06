@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 6.56% | $50.38M |
 | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 0.96% | $50.38M |
-| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 1.99% | $527.8K |
-| [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 1.00% | $112.2K |
+| [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 6.56% | $50.38M |
+| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 2.04% | $527.9K |
+| [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 0.82% | $112.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle에서 APY 6.56%예요.
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Plasma](https://www.defi.garden/ko/chains/plasma)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

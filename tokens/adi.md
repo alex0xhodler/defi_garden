@@ -1,11 +1,11 @@
 # ADI DeFi Yields
 
-The highest honest ADI yield right now is 3.36% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ADI yield right now is 3.35% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=81cf8afe-48ec-4120-82de-16315324da42&src=seo_token) | Ethereum | 3.36% | $2.78M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9b020193-6072-46d1-a429-41a4450ab275&src=seo_token) | Ethereum | 2.21% | $495.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=81cf8afe-48ec-4120-82de-16315324da42&src=seo_token) | Ethereum | 3.35% | $2.78M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9b020193-6072-46d1-a429-41a4450ab275&src=seo_token) | Ethereum | 2.07% | $494.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ADI yield today?
 
-3.36% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+3.35% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ADI pools clear the TVL floor?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

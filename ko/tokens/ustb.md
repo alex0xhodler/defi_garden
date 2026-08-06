@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 invesco-ustb에서 APY 3.83%�
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

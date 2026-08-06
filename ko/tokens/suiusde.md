@@ -1,10 +1,10 @@
 # SUIUSDE 디파이 수익률
 
-현재 SUIUSDE의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 1.29%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUIUSDE의 가장 높은 정직한 수익률은 Sui의 navi-lending에서 1.29%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token) | Sui | 0.25% | $502.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token) | Sui | 0.18% | $502.2K |
 | [bluefin-spot →](https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token) | Sui | 0.09% | $496.6K |
 | [navi-lending →](https://www.defi.garden/?pool=85c687c8-5ecd-494c-b3cc-d930612349b0&src=seo_token) | Sui | 1.29% | $327.2K |
 
@@ -14,7 +14,7 @@
 
 ### 오늘 SUIUSDE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 1.29%예요.
+DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 1.29%예요.
 
 ### SUIUSDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 1.29%예요.
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

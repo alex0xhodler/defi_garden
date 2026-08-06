@@ -1,13 +1,13 @@
 # HYPE 디파이 수익률
 
-현재 HYPE의 가장 높은 정직한 수익률은 Hyperliquid L1의 harmonix-finance에서 303.59%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HYPE의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 316.99%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 3.80% | $1.71M |
-| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 69.59% | $1.29M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 303.59% | $245.5K |
-| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 38.15% | $180.6K |
+| [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 3.80% | $1.66M |
+| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 67.00% | $1.27M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 316.99% | $243.9K |
+| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 38.57% | $178.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,11 +15,11 @@
 
 ### 오늘 HYPE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 harmonix-finance에서 APY 303.59%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 316.99%예요.
 
 ### HYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $20.81M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $20.73M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,4 +40,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 harmonix-finance에서 A
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

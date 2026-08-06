@@ -4,7 +4,7 @@ The highest honest AIDOGE yield right now is 0.02% on camelot-v2 (Arbitrum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=5e46e127-f39d-4ab1-b57b-f6de6c895772&src=seo_token) | Arbitrum | 0.02% | $408.2K |
+| [camelot-v2 →](https://www.defi.garden/?pool=5e46e127-f39d-4ab1-b57b-f6de6c895772&src=seo_token) | Arbitrum | 0.02% | $424.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AIDOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $408.2K in total.
+1 live pool clear this page's $100K TVL floor, $424.8K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

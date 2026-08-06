@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, BSC의 circle-usyc에서 APY 3.16%예요.
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

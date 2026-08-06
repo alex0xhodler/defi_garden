@@ -48,4 +48,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 blackrock-buidl에서 APY 3.59
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -1,17 +1,17 @@
 # FXUSD 디파이 수익률
 
-현재 FXUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 29.29%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FXUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 28.94%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token) | Ethereum | 0.56% | $5.83M |
-| [convex-finance →](https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token) | Ethereum | 0.57% | $5.65M |
-| [curve-dex →](https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token) | Ethereum | 29.29% | $610.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=bfcc6016-8fa5-48c0-b922-5be6c6ebd95b&src=seo_token) | Base | 0.91% | $535.7K |
-| [curve-dex →](https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token) | Ethereum | 0.10% | $522.7K |
-| [convex-finance →](https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token) | Ethereum | 0.11% | $522.6K |
-| [curve-dex →](https://www.defi.garden/?pool=4c68a55a-84e3-48a7-8e5b-2ca451d1835e&src=seo_token) | Ethereum | 3.52% | $436.9K |
-| [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 10.46% | $241.7K |
+| [convex-finance →](https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token) | Ethereum | 0.56% | $5.65M |
+| [curve-dex →](https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token) | Ethereum | 28.94% | $611.4K |
+| [curve-dex →](https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token) | Ethereum | 0.03% | $530K |
+| [convex-finance →](https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token) | Ethereum | 0.03% | $530K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bfcc6016-8fa5-48c0-b922-5be6c6ebd95b&src=seo_token) | Base | 0.88% | $511.6K |
+| [curve-dex →](https://www.defi.garden/?pool=4c68a55a-84e3-48a7-8e5b-2ca451d1835e&src=seo_token) | Ethereum | 3.53% | $441.9K |
+| [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 10.67% | $241.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@
 
 ### 오늘 FXUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 29.29%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 28.94%예요.
 
 ### FXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -43,4 +43,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 29.29%예�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

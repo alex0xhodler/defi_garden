@@ -1,10 +1,10 @@
 # JEUR 디파이 수익률
 
-현재 JEUR의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 7.21%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JEUR의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 7.20%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 7.21% | $117.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 7.20% | $117.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +12,11 @@
 
 ### 오늘 JEUR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 7.21%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 7.20%예요.
 
 ### JEUR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $117.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $117.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 7.21%예요
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

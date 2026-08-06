@@ -1,10 +1,11 @@
 # KIT 디파이 수익률
 
-현재 KIT의 가장 높은 정직한 수익률은 Polygon의 uniswap-v4에서 0.03%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KIT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 0.12%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.03% | $392.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token) | Ethereum | 0.12% | $392.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.03% | $391K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +13,11 @@
 
 ### 오늘 KIT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 0.03%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.12%예요.
 
 ### KIT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $783.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $783.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -24,15 +25,16 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 0.03%예�
 
 ## 관련 토큰
 
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [DAI](https://www.defi.garden/ko/tokens/dai)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
-- [LINK](https://www.defi.garden/ko/tokens/link)
-- [ACRED](https://www.defi.garden/ko/tokens/acred)
-- [BET](https://www.defi.garden/ko/tokens/bet)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 
+- [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

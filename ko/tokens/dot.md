@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 44.05%예요.
 
 ### DOT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.16M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.15M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 44.05%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -1,17 +1,17 @@
 # UNI DeFi Yields
 
-The highest honest UNI yield right now is 43.33% on uniswap-v3 (Ethereum), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UNI yield right now is 36.61% on uniswap-v4 (Ethereum), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token) | Ethereum | 8.34% | $16.24M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token) | Ethereum | 17.47% | $3.11M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=eec57259-b836-4431-83cc-1306bc897a71&src=seo_token) | Ethereum | 43.33% | $2.68M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 10.83% | $2.53M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token) | Ethereum | 34.43% | $2.21M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 25.24% | $1.82M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token) | Ethereum | 9.52% | $16.13M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token) | Ethereum | 18.40% | $3.09M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=eec57259-b836-4431-83cc-1306bc897a71&src=seo_token) | Ethereum | 49.13% | $2.67M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 12.08% | $2.53M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token) | Ethereum | 36.19% | $2.2M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 26.61% | $1.81M |
 | [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $1.54M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 30.91% | $1.34M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 36.61% | $1.33M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UNI yield today?
 
-43.33% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+36.61% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many UNI pools clear the TVL floor?
 
-30 live pools clear this page's $100K TVL floor, $50.05M in total.
+30 live pools clear this page's $100K TVL floor, $49.85M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026
