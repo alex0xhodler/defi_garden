@@ -424,26 +424,14 @@ function PoolDetail({
       type: 'application/ld+json',
       dangerouslySetInnerHTML: { __html: breadcrumbJsonLd }
     }),
-    // Header — app.js now renders the SAME full-width `.app-header-sticky`
-    // band used by the grid immediately above this component (logo +
-    // language/theme controls, search omitted). Do not reintroduce a
-    // pool-view-local header here — that is the per-surface variant this
-    // change retired.
-
-    // Quiet back link (same onBack + analytics the old breadcrumb span carried,
-    // now via the existing translated backToSearch key instead of hardcoded EN).
-    React.createElement('div', { className: 'pool-breadcrumb animate-on-mount' },
-      React.createElement('button', {
-        className: 'pool-breadcrumb-back',
-        onClick: () => {
-          // Analytics tracking for back navigation from pool detail
-          if (typeof Analytics !== 'undefined') {
-            Analytics.trackNavigation('pool-detail', 'search', 'back_link');
-          }
-          onBack();
-        }
-      }, t ? t('backToSearch') : '← Back to Search')
-    ),
+    // Header — app.js renders the SAME full-width `.app-header-sticky` band
+    // used by the grid immediately above this component (logo + controls +
+    // search bar, pre-filled with the current context — spec 247 search-as-
+    // navigation). Do not reintroduce a pool-view-local header or back link
+    // here: the query IS the navigation state now — submit a new one to
+    // search, clear it to return to these results — which retires the old
+    // "← Back to Search" breadcrumb link entirely (`onBack` is still wired
+    // for the defensive `!pool` empty state above, unreachable in normal use).
 
     // Hero — 225 round 3c recomposition: ONE composed panel. Identity (left)
     // and the headline metric with its honest qualifier (right) sit in one
