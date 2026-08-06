@@ -167,6 +167,20 @@
             if (mode === 'analytics') { addCSS('pool-detail-styles.min.css'); }
             else if (mode === 'planner') { addCSS('planner-styles.min.css'); }
             else { addCSS('landing-styles.css', true); }
+
+            // 247 world: pool-detail's certificate faces (self-hosted latin
+            // variable subsets — the 187 no-CDN rule). Preloaded ONLY on
+            // ?pool= arrivals so grid/planner/landing pay zero bytes; the
+            // @font-face rules live in pool-detail-styles.css and only
+            // match pool-detail-scoped selectors.
+            if (mode === 'analytics' && new URLSearchParams(window.location.search).has('pool')) {
+                ['./fonts/Besley-latin-var.woff2', './fonts/PublicSans-latin-var.woff2'].forEach(function(href) {
+                    var p = document.createElement('link');
+                    p.rel = 'preload'; p.href = href; p.as = 'font';
+                    p.type = 'font/woff2'; p.crossOrigin = 'anonymous';
+                    head.appendChild(p);
+                });
+            }
         })();
     </script>
 
@@ -318,6 +332,26 @@
     </script>
 </head>
 <body>
+    <!-- 247 world — direction contract (impeccable new-work §5)
+         THESIS: A pool page as a certificate of record — security-printing
+         grammar (guilloché lathework, engraved numerals, seal ink) makes the
+         trust rails visible material; refuses both the dark degen terminal
+         and the one-blue fintech minimalism the category defaults to.
+         OWN-WORLD: safety paper with a green cast, intaglio green as the
+         committed color, carmine serial ink for cautions only; Besley
+         (Clarendon) display + Public Sans text; hairline double rules,
+         code-drawn guilloché; depth by paper steps, never shadow.
+         STORY: a cautious saver lands from search, reads one honest rate
+         presented as a document worth keeping, understands its caveats,
+         and gardens the pool.
+         FIRST VIEWPORT: chrome band; centered certificate — symbol title,
+         protocol · chain line, the Total APY denomination over an
+         engine-turned rosette underprint, honest qualifier beneath,
+         endorsement row, one green primary action + quiet protocol link.
+         FORM: security-printing certificate — candidate 6 of 7 on the
+         ordered grounded list; seed key 1db19c97.
+         FINISH: unreviewed and undocumented is unfinished; this build ends
+         with the finish review, the verdict, and DESIGN.md -->
     <!-- Root mounts for both experiences; only one gets populated per load -->
     <div id="root"></div>
     <div id="planner-root"></div>

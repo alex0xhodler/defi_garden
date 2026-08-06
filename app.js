@@ -3030,7 +3030,12 @@ function App() {
   }
 
   return React.createElement('div', {
-    className: `app ${(selectedToken || (chainMode && selectedChain)) ? 'has-results' : ''}`
+    // 247 world: the dead-pool state (a ?pool= arrival whose id no longer
+    // resolves) is pool-detail's own state — it carries .dead-pool-view so
+    // pool-detail-styles.css can set the notice in the certificate world.
+    // deadPoolResolved is false on every grid/search render, so no other
+    // surface's markup or styling changes.
+    className: `app ${(selectedToken || (chainMode && selectedChain)) ? 'has-results' : ''}${deadPoolResolved ? ' dead-pool-view' : ''}`
   },
     // Google-style sticky header - ONLY show when we have results
     (selectedToken || (chainMode && selectedChain)) && React.createElement('div', {
