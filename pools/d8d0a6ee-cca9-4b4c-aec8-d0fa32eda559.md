@@ -2,7 +2,7 @@
 
 **Total APY:** 2.00% (0.00% Base · + 2.00% Rewards)
 
-**TVL:** $2.61M
+**TVL:** $2.6M
 
 **Pool Type:** Yield Farming
 
@@ -18,7 +18,7 @@ Conservative DeFi strategy
 
 - Medium liquidity
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$1,104 in 5y at current rates.
 

@@ -1,11 +1,11 @@
 # LSK DeFi Yields
 
-The highest honest LSK yield right now is 3.60% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LSK yield right now is 3.01% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 3.60% | $193.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 24.64% | $146.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 3.01% | $194.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 25.04% | $145.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LSK yield today?
 
-3.60% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+3.01% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many LSK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $339.7K in total.
+2 live pools clear this page's $100K TVL floor, $340.2K in total.
 
 ### Are these rates safe?
 

@@ -2,11 +2,11 @@
 
 **Total APY:** 1.22% (1.22% Base · + 0.00% Rewards)
 
-**TVL:** $655.4K
+**TVL:** $652.6K
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 6.09%
+**30d Mean APY:** 6.06%
 
 **Exposure:** single
 
@@ -19,15 +19,15 @@ Moderate risk profile
 - Low liquidity
 - Credit risk
 
-## The Long Game
+## The long game
 
-$1,000 in this pool grows to ~$1,062 in 5y at current rates.
+$1,000 in this pool grows to ~$1,063 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 1.22% right now vs a 6.09% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 1.22% right now vs a 6.06% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,062 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,063 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aave-v3](https://aave.com/?ref=defi.garden)
 

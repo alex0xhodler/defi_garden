@@ -1,6 +1,6 @@
 # LP DeFi Yields
 
-The highest honest LP yield right now is 0.18% on wombat-exchange (Arbitrum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LP yield right now is 0.19% on wombat-exchange (Arbitrum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -10,7 +10,7 @@ The highest honest LP yield right now is 0.18% on wombat-exchange (Arbitrum), am
 | [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.01% | $193.9K |
 | [wombat-exchange →](https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token) | BSC | 0.02% | $184K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
-| [wombat-exchange →](https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token) | Arbitrum | 0.18% | $103.2K |
+| [wombat-exchange →](https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token) | Arbitrum | 0.19% | $103.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LP yield today?
 
-0.18% APY on wombat-exchange (Arbitrum), based on live DefiLlama data.
+0.19% APY on wombat-exchange (Arbitrum), based on live DefiLlama data.
 
 ### How many LP pools clear the TVL floor?
 

@@ -2,11 +2,11 @@
 
 **Total APY:** 34.05% (34.05% Base · + 0.00% Rewards)
 
-**TVL:** $2.75M
+**TVL:** $2.76M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 36.37%
+**30d Mean APY:** 36.58%
 
 **Exposure:** multi
 
@@ -19,7 +19,7 @@ Moderate risk profile
 - Medium liquidity
 - High yield
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$4,329 in 5y at current rates.
 

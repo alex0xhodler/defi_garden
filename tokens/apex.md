@@ -1,11 +1,11 @@
 # APEX DeFi Yields
 
-The highest honest APEX yield right now is 4.36% on camelot-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest APEX yield right now is 3.61% on camelot-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token) | Ethereum | 1.30% | $939.5K |
-| [camelot-v3 →](https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token) | Arbitrum | 4.36% | $154.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token) | Ethereum | 1.12% | $948K |
+| [camelot-v3 →](https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token) | Arbitrum | 3.61% | $155.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest APEX yield today?
 
-4.36% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+3.61% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many APEX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.09M in total.
+2 live pools clear this page's $100K TVL floor, $1.1M in total.
 
 ### Are these rates safe?
 

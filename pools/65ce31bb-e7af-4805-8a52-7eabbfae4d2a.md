@@ -2,11 +2,11 @@
 
 **Total APY:** 10.16% (0.00% Base · + 10.16% Rewards)
 
-**TVL:** $342.7K
+**TVL:** $343.3K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 13.23%
+**30d Mean APY:** 13.12%
 
 **Exposure:** multi
 
@@ -20,7 +20,7 @@ Advanced DeFi strategy
 - Elevated yield
 - Impermanent loss risk
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$1,181 in 5y at current rates.
 

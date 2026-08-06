@@ -1,6 +1,6 @@
 # XST DeFi Yields
 
-The highest honest XST yield right now is 3.94% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XST yield right now is 3.94% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.7K in total.
+2 live pools clear this page's $100K TVL floor, $227.5K in total.
 
 ### Are these rates safe?
 

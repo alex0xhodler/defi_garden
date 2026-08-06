@@ -19,7 +19,7 @@ Moderate risk profile
 - Medium liquidity
 - Impermanent loss risk
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$1,025 in 5y at current rates.
 

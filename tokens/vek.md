@@ -1,10 +1,10 @@
 # VEK DeFi Yields
 
-The highest honest VEK yield right now is 7.97% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VEK yield right now is 8.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0b2ff375-7f14-5b2e-87e4-129558957140&src=seo_token) | Ethereum | 7.97% | $229.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0b2ff375-7f14-5b2e-87e4-129558957140&src=seo_token) | Ethereum | 8.02% | $229.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VEK yield today?
 
-7.97% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+8.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many VEK pools clear the TVL floor?
 

@@ -4,7 +4,7 @@ The highest honest IKA yield right now is 2.20% on navi-lending (Sui), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=e5244fed-5ffd-49bb-a14f-4009e25ccb2b&src=seo_token) | Sui | 2.20% | $136.5K |
+| [navi-lending →](https://www.defi.garden/?pool=e5244fed-5ffd-49bb-a14f-4009e25ccb2b&src=seo_token) | Sui | 2.20% | $135.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IKA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.5K in total.
+1 live pool clear this page's $100K TVL floor, $135.2K in total.
 
 ### Are these rates safe?
 

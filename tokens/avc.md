@@ -4,7 +4,7 @@ The highest honest AVC yield right now is 0.04% on uniswap-v4 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=beb44706-a4cd-466f-af2a-2ac9ab663058&src=seo_token) | Base | 0.04% | $163.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=beb44706-a4cd-466f-af2a-2ac9ab663058&src=seo_token) | Base | 0.04% | $162.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.4K in total.
+1 live pool clear this page's $100K TVL floor, $162.5K in total.
 
 ### Are these rates safe?
 

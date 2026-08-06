@@ -2,11 +2,11 @@
 
 **Total APY:** 1.00% (1.00% Base · + 0.00% Rewards)
 
-**TVL:** $117.1K
+**TVL:** $116.8K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 0.96%
+**30d Mean APY:** 0.97%
 
 **Exposure:** multi
 
@@ -19,7 +19,7 @@ Moderate risk profile
 - Low liquidity
 - Impermanent loss risk
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$1,051 in 5y at current rates.
 

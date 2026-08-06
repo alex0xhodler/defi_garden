@@ -132,6 +132,65 @@ async function pollEvents(page, predicate, timeoutMs) {
   return events;
 }
 
+// 225 round 3c: both CTAs must carry a HUMAN-VISIBLE label on every entry
+// path. Two assertions per CTA:
+//   (1) innerText non-empty — the event-fires-but-button-is-blank class must
+//       never pass silent again;
+//   (2) rendered text/background contrast >= 2.0 at rest AND under :hover —
+//       the actual P0 was `a:hover { color: var(--color-primary-hover) }`
+//       outranking `.cta-button-primary`'s white label, painting accent-blue
+//       text on the accent-blue fill (~1.4:1 — "an empty blue bar") the
+//       moment the pointer rested on it, which is the default state on a
+//       card-click arrival. innerText alone stays green through that, so the
+//       label gate must read computed colors. 2.0 is not a WCAG gate — it's
+//       a "label is not painted in its own background color" tripwire
+//       (white-on-accent sits ~3.7:1; the regression sat ~1.4:1).
+async function assertCtaLabelsVisible(page, label) {
+  const ctas = page.locator('.cta-button-primary, .cta-button-protocol');
+  const count = await ctas.count();
+  if (count === 0) throw new Error(`${label}: no CTA elements rendered`);
+  for (let i = 0; i < count; i++) {
+    const el = ctas.nth(i);
+    const cls = await el.getAttribute('class');
+    const text = (await el.innerText()).trim();
+    if (!text) throw new Error(`${label}: CTA "${cls}" rendered with EMPTY label`);
+    for (const state of ['rest', 'hover']) {
+      // Let the CTA's 0.3s color transition fully settle before sampling —
+      // without this, a freshly-hovered label reads mid-transition and the
+      // blue-on-blue end state slips through (it only reproduced when the
+      // pointer had already been resting on the CTA, e.g. card_click).
+      if (state === 'hover') { await el.hover(); await page.waitForTimeout(450); }
+      const ratio = await el.evaluate((node) => {
+        const parse = (c) => {
+          const m = c.match(/rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)/);
+          return m ? [Number(m[1]), Number(m[2]), Number(m[3])] : null;
+        };
+        const lum = ([r, g, b]) => {
+          const f = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
+          return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
+        };
+        const cs = getComputedStyle(node);
+        const fg = parse(cs.color);
+        // Walk up for the first non-transparent background behind the label.
+        let bgNode = node, bg = null;
+        while (bgNode && !bg) {
+          const c = parse(getComputedStyle(bgNode).backgroundColor);
+          const a = getComputedStyle(bgNode).backgroundColor.match(/rgba\([^,]+,[^,]+,[^,]+,\s*([\d.]+)\)/);
+          if (c && (!a || Number(a[1]) > 0)) bg = c;
+          bgNode = bgNode.parentElement;
+        }
+        if (!fg || !bg) return null;
+        const [l1, l2] = [lum(fg), lum(bg)].sort((x, y) => y - x);
+        return (l1 + 0.05) / (l2 + 0.05);
+      });
+      if (ratio === null) throw new Error(`${label}: CTA "${cls}" — could not resolve computed colors`);
+      if (ratio < 2.0) throw new Error(`${label}: CTA "${cls}" label is invisible at ${state} — text/background contrast ${ratio.toFixed(2)}:1 (< 2.0). This is the blue-on-blue "empty bar" class.`);
+    }
+  }
+  // Park the pointer off the CTAs so hover state never leaks into later tests.
+  await page.mouse.move(0, 0);
+}
+
 // Segmentation props required by the north-star query (product-loop-kit/
 // NORTH_STAR.md metric section, backlog 123c): pool id, project, chain,
 // apy, source — every one non-empty/defined.
@@ -199,6 +258,10 @@ async function main() {
       assertSegmentationProps(views[0].eventData, 'url_direct', 'url_direct pool_view');
     });
 
+    await test('url_direct: both CTAs render non-empty, visible labels (rest + hover) — 225 round 3c', async () => {
+      await assertCtaLabelsVisible(page, 'url_direct');
+    });
+
     await test('url_direct: "Garden this pool" CTA fires pool_click(source=garden_cta) with segmentation props', async () => {
       await resetEvents(page);
       await page.locator('.cta-button-primary').first().click();
@@ -241,6 +304,12 @@ async function main() {
       assertSegmentationProps(views[0].eventData, 'card_click', 'card_click pool_view');
     });
 
+    await test('card_click: both CTAs render non-empty, visible labels (rest + hover) — 225 round 3c', async () => {
+      // On this path the pointer arrives already resting where the card was —
+      // the exact state that produced the P0's invisible hover label.
+      await assertCtaLabelsVisible(page, 'card_click');
+    });
+
     await test('card_click: "Garden this pool" CTA fires pool_click(source=garden_cta) with segmentation props', async () => {
       await resetEvents(page);
       await page.locator('.cta-button-primary').first().click();
@@ -262,14 +331,42 @@ async function main() {
       if (page.url().includes('app.aave.com')) throw new Error('protocol_link click navigated the test page away — window.open was not intercepted');
     });
 
-    await test('no unexpected page/console errors across either path', async () => {
+    // --- Path 3 (225 round 3c): chain-mode + minTvl arrival —
+    // /?chain=Popular&minTvl=1000000&pool=<id>, the human-reported P0 URL
+    // shape. Two regressions lived here: (a) the filter-URL-sync effect
+    // rewrote the URL WITHOUT the pool param at ~100ms, so a live load
+    // slower than that never opened the detail at all (now guarded in
+    // app.js); (b) the hover-invisible primary label asserted above. ---
+    await test('chain+minTvl arrival: /?chain=Popular&minTvl=1000000&pool=<id> renders the detail and fires pool_view(source=url_direct)', async () => {
+      await page.goto(`http://localhost:${PORT}/home.html?chain=Popular&minTvl=1000000&pool=${encodeURIComponent(URL_DIRECT_POOL.pool)}`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.pool-detail-view', { timeout: 15000 });
+      const events = await pollEvents(page, (evs) => evs.some((e) => e.eventName === 'pool_view'), 5000);
+      const views = events.filter((e) => e.eventName === 'pool_view');
+      if (views.length !== 1) throw new Error(`expected exactly one pool_view on chain+minTvl arrival, got ${JSON.stringify(views)}`);
+      assertSegmentationProps(views[0].eventData, 'url_direct', 'chain+minTvl pool_view');
+    });
+
+    await test('chain+minTvl arrival: both CTAs render non-empty, visible labels (rest + hover) — 225 round 3c', async () => {
+      await assertCtaLabelsVisible(page, 'chain+minTvl');
+    });
+
+    await test('chain+minTvl arrival: "Garden this pool" CTA fires pool_click(source=garden_cta) with segmentation props', async () => {
+      await resetEvents(page);
+      await page.locator('.cta-button-primary').first().click();
+      const events = await pollEvents(page, (evs) => evs.some((e) => e.eventName === 'pool_click' && e.eventData.source === 'garden_cta'), 5000);
+      const clicks = events.filter((e) => e.eventName === 'pool_click' && e.eventData.source === 'garden_cta');
+      if (clicks.length !== 1) throw new Error(`expected exactly one pool_click(source=garden_cta), got ${JSON.stringify(clicks)}`);
+      assertSegmentationProps(clicks[0].eventData, 'garden_cta', 'chain+minTvl garden_cta pool_click');
+    });
+
+    await test('no unexpected page/console errors across any path', async () => {
       if (pageErrors.length) throw new Error(pageErrors.join('\n    '));
     });
   } finally {
     await browser.close();
     server.close();
   }
-  console.log(`test_northstar_cta_fires.js: ${passed}/7 tests passed`);
+  console.log(`test_northstar_cta_fires.js: ${passed}/12 tests passed`);
   if (process.exitCode) process.exit(process.exitCode);
 }
 

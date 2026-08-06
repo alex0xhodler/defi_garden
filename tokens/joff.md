@@ -4,7 +4,7 @@ The highest honest JOFF yield right now is 0.04% on hyperswap-v2 (Hyperliquid L1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=a755afb7-6299-46ea-9b9e-b25ee174a16a&src=seo_token) | Hyperliquid L1 | 0.04% | $231.7K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=a755afb7-6299-46ea-9b9e-b25ee174a16a&src=seo_token) | Hyperliquid L1 | 0.04% | $226.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JOFF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $231.7K in total.
+1 live pool clear this page's $100K TVL floor, $226.5K in total.
 
 ### Are these rates safe?
 

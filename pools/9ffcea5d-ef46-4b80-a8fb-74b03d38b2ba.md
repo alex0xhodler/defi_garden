@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 7.80%
+**30d Mean APY:** 7.77%
 
 **Exposure:** single
 
@@ -18,7 +18,7 @@ Conservative DeFi strategy
 
 - High liquidity
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$1,490 in 5y at current rates.
 

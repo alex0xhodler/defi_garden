@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=4fbc98be-3a49-420e-86c0-bf783b6ddc4c&src=seo_token) | Ethereum | 2.91% | $3.53M |
+| [curve-dex →](https://www.defi.garden/?pool=4fbc98be-3a49-420e-86c0-bf783b6ddc4c&src=seo_token) | Ethereum | 3.35% | $3.54M |
 | [pendle →](https://www.defi.garden/?pool=062773f0-9874-4ba2-8ddc-9264e0ffebd7&src=seo_token) | Ethereum | 1.70% | $180K |
 | [pendle →](https://www.defi.garden/?pool=24f4863f-d6dc-421e-a22b-a3e8234b735e&src=seo_token) | Ethereum | 6.21% | $180K |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 6.21%예요.
 
 ### NUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $3.89M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $3.9M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,11 +1,11 @@
 # SUPEROETHB DeFi Yields
 
-The highest honest SUPEROETHB yield right now is 0.09% on stake-dao (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPEROETHB yield right now is 4.34% on stake-dao (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.07% | $5.12M |
-| [stake-dao →](https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token) | Base | 0.09% | $3.43M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.78% | $3.95M |
+| [stake-dao →](https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token) | Base | 4.34% | $3.39M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPEROETHB yield today?
 
-0.09% APY on stake-dao (Base), based on live DefiLlama data.
+4.34% APY on stake-dao (Base), based on live DefiLlama data.
 
 ### How many SUPEROETHB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $38.16M in total.
+4 live pools clear this page's $100K TVL floor, $36.87M in total.
 
 ### Are these rates safe?
 

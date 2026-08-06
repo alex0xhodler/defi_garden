@@ -4,8 +4,8 @@ The highest honest APEUSD yield right now is 0.07% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.07% | $134.4K |
-| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.07% | $132.3K |
+| [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.07% | $134.5K |
+| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.07% | $132.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -4,7 +4,7 @@ The highest honest LCS yield right now is 0.05% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e2ac0-478c-4cce-be20-35a4354ebafe&src=seo_token) | Ethereum | 0.05% | $220.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e2ac0-478c-4cce-be20-35a4354ebafe&src=seo_token) | Ethereum | 0.05% | $219.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LCS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $220.2K in total.
+1 live pool clear this page's $100K TVL floor, $219.7K in total.
 
 ### Are these rates safe?
 

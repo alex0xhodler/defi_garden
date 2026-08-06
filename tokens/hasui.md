@@ -1,11 +1,11 @@
 # HASUI DeFi Yields
 
-The highest honest HASUI yield right now is 2.75% on current (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HASUI yield right now is 2.83% on current (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.15% | $14.92M |
-| [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.75% | $3.72M |
+| [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.15% | $14.66M |
+| [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.83% | $3.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HASUI yield today?
 
-2.75% APY on current (Sui), based on live DefiLlama data.
+2.83% APY on current (Sui), based on live DefiLlama data.
 
 ### How many HASUI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $20.98M in total.
+3 live pools clear this page's $100K TVL floor, $20.45M in total.
 
 ### Are these rates safe?
 

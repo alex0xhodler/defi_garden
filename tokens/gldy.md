@@ -4,7 +4,7 @@ The highest honest GLDY yield right now is 0.01% on orca-dex (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=07f3b7ca-d8d7-427c-826e-5eb490200c40&src=seo_token) | Solana | 0.01% | $735.8K |
+| [orca-dex →](https://www.defi.garden/?pool=07f3b7ca-d8d7-427c-826e-5eb490200c40&src=seo_token) | Solana | 0.01% | $735.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GLDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $735.8K in total.
+1 live pool clear this page's $100K TVL floor, $735.7K in total.
 
 ### Are these rates safe?
 

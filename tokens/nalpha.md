@@ -1,10 +1,10 @@
 # NALPHA DeFi Yields
 
-The highest honest NALPHA yield right now is 9.51% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NALPHA yield right now is 9.48% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_token) | Plume Mainnet | 9.51% | $13.65M |
+| [nest-credit →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_token) | Plume Mainnet | 9.48% | $13.65M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NALPHA yield today?
 
-9.51% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+9.48% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NALPHA pools clear the TVL floor?
 
