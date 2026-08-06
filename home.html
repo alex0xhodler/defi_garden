@@ -56,7 +56,12 @@
     <meta name="msapplication-TileColor" content="#2D5A3D">
 
     <!-- Performance: Preload critical resources -->
-    <link rel="preload" href="./fonts/FKGroteskNeue.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- 247 world: Public Sans (text) / Besley (display) — self-hosted latin
+         variable subsets, promoted from pool-detail to every surface (the
+         187 no-CDN rule). Preloaded unconditionally: --font-family-base and
+         --font-family-display in style.css point at them on every mode. -->
+    <link rel="preload" href="./fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preconnect" href="https://yields.llama.fi">
     <link rel="dns-prefetch" href="//yields.llama.fi">
 
@@ -167,20 +172,10 @@
             if (mode === 'analytics') { addCSS('pool-detail-styles.min.css'); }
             else if (mode === 'planner') { addCSS('planner-styles.min.css'); }
             else { addCSS('landing-styles.css', true); }
-
-            // 247 world: pool-detail's certificate faces (self-hosted latin
-            // variable subsets — the 187 no-CDN rule). Preloaded ONLY on
-            // ?pool= arrivals so grid/planner/landing pay zero bytes; the
-            // @font-face rules live in pool-detail-styles.css and only
-            // match pool-detail-scoped selectors.
-            if (mode === 'analytics' && new URLSearchParams(window.location.search).has('pool')) {
-                ['./fonts/Besley-latin-var.woff2', './fonts/PublicSans-latin-var.woff2'].forEach(function(href) {
-                    var p = document.createElement('link');
-                    p.rel = 'preload'; p.href = href; p.as = 'font';
-                    p.type = 'font/woff2'; p.crossOrigin = 'anonymous';
-                    head.appendChild(p);
-                });
-            }
+            // 247 world: Besley/Public Sans now load on every surface via the
+            // shared --font-family-base/-display tokens (style.css) — the
+            // static preload links in <head> above cover all modes, so no
+            // mode-conditional font preloading is needed here any more.
         })();
     </script>
 

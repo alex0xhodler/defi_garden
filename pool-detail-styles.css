@@ -91,8 +91,10 @@
   --ui-accent: var(--cert-green);
   --ui-focus-ring: var(--cert-focus-ring);
 
-  --cert-serif: 'Besley', 'Apple SD Gothic Neo', 'Malgun Gothic', Georgia, serif;
-  --cert-sans: 'Public Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* 247 world tokens promoted to the shared layer (style.css) — resolve
+     through it rather than forking a second copy of the same stacks. */
+  --cert-serif: var(--font-family-display);
+  --cert-sans: var(--font-family-base);
 }
 
 [data-theme="dark"] .pool-detail-view,

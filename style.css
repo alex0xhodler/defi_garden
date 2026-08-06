@@ -87,9 +87,14 @@
   --color-warning-rgb: 168, 75, 47;
   --color-info-rgb: 98, 108, 113;
 
-  /* Typography */
-  --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* Typography — 247 world: Public Sans (text) / Besley (display), rolled
+     out from pool-detail across every surface (self-hosted, @font-face
+     below; the 187 no-CDN rule). Korean falls through to the system sans
+     stack in both — neither latin variable subset covers CJK. */
+  --font-family-base: "Public Sans", "Apple SD Gothic Neo", "Malgun Gothic",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-display: "Besley", "Apple SD Gothic Neo", "Malgun Gothic",
+    Georgia, serif;
   --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo,
     Monaco, Consolas, monospace;
   --font-size-xs: 11px;
@@ -223,26 +228,29 @@
     --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
     --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 
-    /* Quiet design system — 225: dark ramp for OS-dark visitors without a data-theme attribute */
-    --ui-bg:               #0F1115;
-    --ui-surface:          #161A21;
-    --ui-surface-muted:    #1C212A;
-    --ui-surface-sunken:   #12151B;
-    --ui-border:           #262C36;
-    --ui-border-strong:    #39414F;
-    --ui-row-border:       #39414F; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
-    --ui-text:             #E8ECF3;
-    --ui-text-secondary:   #A2ABBB;
-    --ui-text-muted:       #79839A;
-    --ui-accent:           #4C8DF6;
-    --ui-accent-hover:     #6BA1F8;
-    --ui-accent-active:    #3B82F6;
-    --ui-accent-soft:      #17233A;
-    --ui-accent-border:    #2C4A7A;
-    --ui-on-accent:        #FFFFFF;
-    --ui-positive:         #4ADE80;
-    --ui-warning:          #FBBF24;
-    --ui-danger:           #F87171;
+    /* 247 world "The Certificate" — dark ramp (the plate) for OS-dark
+       visitors without a data-theme attribute; kept in sync with the
+       [data-theme="dark"] block below. */
+    --ui-bg:               #0F1613;
+    --ui-surface:          #16211A;
+    --ui-surface-muted:    #0A100C;
+    --ui-surface-sunken:   #0A100C;
+    --ui-border:           #26332B;
+    --ui-border-strong:    #415247;
+    --ui-row-border:       #415247; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
+    --ui-text:             #E6EDE4;
+    --ui-text-secondary:   #A9B7A9;
+    --ui-text-muted:       #83937F;
+    --ui-accent:           #7CC9A0;
+    --ui-accent-hover:     #93D6B2;
+    --ui-accent-active:    #66B78D;
+    --ui-accent-soft:      rgba(124, 201, 160, 0.2);
+    --ui-accent-border:    rgba(124, 201, 160, 0.30);
+    --ui-on-accent:        #0B1B13;
+    --ui-positive:         #7CC9A0;
+    --ui-warning:          #D9A05B;
+    --ui-danger:           #E58A80;
+    --ui-focus-ring:       0 0 0 3px rgba(124, 201, 160, 0.4);
     --ui-shadow-overlay:   0 10px 28px rgba(0, 0, 0, 0.45);
 
     /* RGB versions for dark mode */
@@ -796,32 +804,59 @@ select.form-control {
   font-family: 'FKGroteskNeue';
   src: url('./fonts/FKGroteskNeue.woff2') format('woff2');
   font-display: swap;
-  /* Improves loading performance */
+  /* Superseded by Public Sans (247 world) as --font-family-base's value —
+     declaration kept only because removing an unreferenced @font-face has
+     no payoff (no request fires unless something names the family) and
+     ~4,400 generated static pages may still reference it inline. */
+}
+
+/* 247 world: the two self-hosted latin variable subsets, promoted from
+   pool-detail across every surface. Same faces pool-detail-styles.css
+   declares — kept in sync there; do not fork a third copy. */
+@font-face {
+  font-family: 'Besley';
+  src: url('./fonts/Besley-latin-var.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url('./fonts/PublicSans-latin-var.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* END PERPLEXITY DESIGN SYSTEM */
 /* Quiet design system — 225 */
 :root {
-  /* ── Quiet design system — light (default) ───────────────────────────── */
-  --ui-bg:               #F7F8FA;
-  --ui-surface:          #FFFFFF;
-  --ui-surface-muted:    #F1F3F7;
-  --ui-surface-sunken:   #EDEFF4;
-  --ui-border:           #E4E7EE;
-  --ui-border-strong:    #CBD2DF;
-  --ui-text:             #10151F;
-  --ui-text-secondary:   #5A6478;
-  --ui-text-muted:       #8A93A6;
-  --ui-accent:           #3B82F6;
-  --ui-accent-hover:     #2563EB;
-  --ui-accent-active:    #1D4ED8;
-  --ui-accent-soft:      #EFF5FF;
-  --ui-accent-border:    #BFD8FE;
-  --ui-on-accent:        #FFFFFF;
-  --ui-positive:         #15803D;
-  --ui-warning:          #B45309;
-  --ui-danger:           #B91C1C;
-  --ui-focus-ring:       0 0 0 2px var(--ui-bg), 0 0 0 4px var(--ui-accent);
+  /* ── 247 world "The Certificate" — light (default) ────────────────────
+     Values promoted from pool-detail-styles.css's .pool-detail-view scope
+     (cert-paper/cert-ink/cert-green/cert-rule) into the shared layer so
+     every surface inherits by value, not by selector scope. */
+  --ui-bg:               #F5F7F0;
+  --ui-surface:          #FBFCF7;
+  --ui-surface-muted:    #EBEFE2;
+  --ui-surface-sunken:   #EBEFE2;
+  --ui-border:           #CBD5C3;
+  --ui-border-strong:    #9FAF98;
+  --ui-text:             #1B2B20;
+  --ui-text-secondary:   #48584A;
+  --ui-text-muted:       #67766A;
+  --ui-accent:           #1E5C3F;
+  --ui-accent-hover:     #174A32;
+  --ui-accent-active:    #113A27;
+  --ui-accent-soft:      rgba(30, 92, 63, 0.16);
+  --ui-accent-border:    rgba(30, 92, 63, 0.30);
+  --ui-on-accent:        #F5F9F3;
+  --ui-positive:         #1E5C3F;
+  --ui-warning:          #8A5A18;
+  --ui-danger:           #A3271E;
+  --ui-focus-ring:       0 0 0 3px rgba(30, 92, 63, 0.38);
   --ui-shadow-overlay:   0 8px 24px rgba(16, 21, 31, 0.10);
   /* 225 round 3 increment (a): row-separator token for the results grid —
      equals --ui-border in light, steps up to --ui-border-strong in dark (set
@@ -4284,26 +4319,28 @@ html {
   --color-bg-8: rgba(8, 145, 178, 0.15);
   /* Dark cyan */
 
-  /* Quiet design system — 225: dark ramp */
-  --ui-bg:               #0F1115;
-  --ui-surface:          #161A21;
-  --ui-surface-muted:    #1C212A;
-  --ui-surface-sunken:   #12151B;
-  --ui-border:           #262C36;
-  --ui-border-strong:    #39414F;
-  --ui-row-border:       #39414F; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
-  --ui-text:             #E8ECF3;
-  --ui-text-secondary:   #A2ABBB;
-  --ui-text-muted:       #79839A;
-  --ui-accent:           #4C8DF6;
-  --ui-accent-hover:     #6BA1F8;
-  --ui-accent-active:    #3B82F6;
-  --ui-accent-soft:      #17233A;
-  --ui-accent-border:    #2C4A7A;
-  --ui-on-accent:        #FFFFFF;
-  --ui-positive:         #4ADE80;
-  --ui-warning:          #FBBF24;
-  --ui-danger:           #F87171;
+  /* 247 world "The Certificate" — dark ramp (the plate); kept in sync with
+     the prefers-color-scheme block above. */
+  --ui-bg:               #0F1613;
+  --ui-surface:          #16211A;
+  --ui-surface-muted:    #0A100C;
+  --ui-surface-sunken:   #0A100C;
+  --ui-border:           #26332B;
+  --ui-border-strong:    #415247;
+  --ui-row-border:       #415247; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
+  --ui-text:             #E6EDE4;
+  --ui-text-secondary:   #A9B7A9;
+  --ui-text-muted:       #83937F;
+  --ui-accent:           #7CC9A0;
+  --ui-accent-hover:     #93D6B2;
+  --ui-accent-active:    #66B78D;
+  --ui-accent-soft:      rgba(124, 201, 160, 0.2);
+  --ui-accent-border:    rgba(124, 201, 160, 0.30);
+  --ui-on-accent:        #0B1B13;
+  --ui-positive:         #7CC9A0;
+  --ui-warning:          #D9A05B;
+  --ui-danger:           #E58A80;
+  --ui-focus-ring:       0 0 0 3px rgba(124, 201, 160, 0.4);
   --ui-shadow-overlay:   0 10px 28px rgba(0, 0, 0, 0.45);
 
   /* Semantic Color Tokens (Dark Mode) — 225: repointed at the flat token layer */
@@ -5282,7 +5319,7 @@ html {
 
 .btn--primary {
   background: var(--color-primary) !important;
-  color: #FFFFFF !important;
+  color: var(--ui-on-accent) !important;
   box-shadow: none;
   border: 1px solid transparent;
   font-weight: 600;
