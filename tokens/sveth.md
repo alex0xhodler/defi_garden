@@ -5,7 +5,7 @@ The highest honest SVETH yield right now is 2.24% on morpho-blue (Ethereum), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 2.24% | $121.7K |
-| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.45% | $109.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.44% | $109.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SVETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $231K in total.
+2 live pools clear this page's $100K TVL floor, $230.9K in total.
 
 ### Are these rates safe?
 

@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [onre →](https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token) | Solana | 11.61% | $248.44M |
-| [orca-dex →](https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token) | Solana | 0.63% | $5.85M |
-| [raydium-amm →](https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token) | Solana | 0.21% | $3.19M |
+| [orca-dex →](https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token) | Solana | 0.58% | $5.85M |
+| [raydium-amm →](https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token) | Solana | 0.20% | $3.19M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=233415e5-e0cf-49b8-8a70-975aaa8689a1&src=seo_token) | Solana | 6.34% | $2.04M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

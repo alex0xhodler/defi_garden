@@ -4,9 +4,9 @@ The highest honest WXDAI yield right now is 1.91% on aave-v3 (Gnosis), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token) | Gnosis | 0.13% | $528.8K |
+| [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_token) | Gnosis | 0.13% | $519.1K |
 | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 0.20% | $280.1K |
-| [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token) | Gnosis | 1.91% | $276.7K |
+| [aave-v3 →](https://www.defi.garden/?pool=21091399-1187-4242-8e03-9b06032f9a8f&src=seo_token) | Gnosis | 1.91% | $277.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WXDAI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.09M in total.
+3 live pools clear this page's $100K TVL floor, $1.08M in total.
 
 ### Are these rates safe?
 

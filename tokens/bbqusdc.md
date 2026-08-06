@@ -5,10 +5,10 @@ The highest honest BBQUSDC yield right now is 5.33% on morpho-blue (Ethereum), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token) | Ethereum | 5.33% | $45.3M |
-| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 5.24% | $26.62M |
-| [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token) | Ethereum | 4.52% | $15.84M |
+| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 5.24% | $26.55M |
+| [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token) | Ethereum | 4.50% | $15.84M |
 | [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token) | Arbitrum | 2.48% | $1.95M |
-| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 4.43% | $1.44M |
+| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 4.57% | $1.46M |
 | [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token) | Katana | 12.28% | $1.21M |
 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 3.49% | $1.01M |
 | [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token) | Monad | 4.20% | $203.1K |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BBQUSDC pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $93.57M in total.
+8 live pools clear this page's $100K TVL floor, $93.52M in total.
 
 ### Are these rates safe?
 

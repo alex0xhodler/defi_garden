@@ -5,7 +5,7 @@ The highest honest SHIT yield right now is 6.76% on uniswap-v4 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f&src=seo_token) | Ethereum | 6.76% | $274.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895&src=seo_token) | Solana | 1.49% | $242.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895&src=seo_token) | Solana | 1.50% | $243K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

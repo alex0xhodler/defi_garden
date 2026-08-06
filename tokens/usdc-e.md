@@ -1,6 +1,6 @@
 # USDC.E DeFi Yields
 
-The highest honest USDC.E yield right now is 49.74% on ekubo (Starknet), among 31 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDC.E yield right now is 49.97% on ekubo (Starknet), among 31 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -8,9 +8,9 @@ The highest honest USDC.E yield right now is 49.74% on ekubo (Starknet), among 3
 | [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 6.82% | $1.62M |
 | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.98% | $663.7K |
 | [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.13% | $636.9K |
-| [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.87% | $475.3K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 6.04% | $422K |
-| [ekubo →](https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token) | Starknet | 49.74% | $371.1K |
+| [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.87% | $475.9K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 5.92% | $421.6K |
+| [ekubo →](https://www.defi.garden/?pool=d7a6a86e-b246-4df4-99b2-8fc9a283faa2&src=seo_token) | Starknet | 49.97% | $370.8K |
 | [symbiosis →](https://www.defi.garden/?pool=1437c28a-0faa-40bb-a987-884134c45d2f&src=seo_token) | Polygon | 0.36% | $367.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDC.E yield today?
 
-49.74% APY on ekubo (Starknet), based on live DefiLlama data.
+49.97% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many USDC.E pools clear the TVL floor?
 
-31 live pools clear this page's $100K TVL floor, $16.82M in total.
+31 live pools clear this page's $100K TVL floor, $16.81M in total.
 
 ### Are these rates safe?
 

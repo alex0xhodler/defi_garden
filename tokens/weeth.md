@@ -4,14 +4,14 @@ The highest honest WEETH yield right now is 3.02% on stake-dao (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.46% | $3.62B |
-| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.46% | $143M |
-| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.46% | $34.79M |
-| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.17% | $13.24M |
-| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.28% | $9.73M |
-| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.63% | $8.09M |
-| [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.02% | $1.52M |
-| [fluid-dex →](https://www.defi.garden/?pool=21398257-946f-4510-a687-4def9a2a9587&src=seo_token) | Base | 0.02% | $1.35M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.40% | $3.6B |
+| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.40% | $142.25M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.40% | $34.61M |
+| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.17% | $13.23M |
+| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.28% | $9.71M |
+| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.63% | $8.08M |
+| [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.02% | $1.51M |
+| [fluid-dex →](https://www.defi.garden/?pool=21398257-946f-4510-a687-4def9a2a9587&src=seo_token) | Base | 0.01% | $1.35M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WEETH pools clear the TVL floor?
 
-69 live pools clear this page's $100K TVL floor, $6.7B in total.
+69 live pools clear this page's $100K TVL floor, $6.68B in total.
 
 ### Are these rates safe?
 

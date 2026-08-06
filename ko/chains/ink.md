@@ -4,13 +4,13 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_chain) | 0.04% | $11.57M |
+| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_chain) | 0.04% | $11.56M |
 | ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_chain) | 1.98% | $11.05M |
-| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 1.87% | $5.05M |
+| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 1.87% | $5.04M |
 | WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae&src=seo_chain) | 1.24% | $3.64M |
 | USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce&src=seo_chain) | 2.67% | $3.26M |
 | USDG | [tydro →](https://www.defi.garden/?pool=065ea91c-deff-4da0-a06f-64c642780936&src=seo_chain) | 1.94% | $1.11M |
-| GHO | [tydro →](https://www.defi.garden/?pool=2fb294c3-2599-4134-b852-5e45cf57a879&src=seo_chain) | 2.82% | $560.7K |
+| GHO | [tydro →](https://www.defi.garden/?pool=2fb294c3-2599-4134-b852-5e45cf57a879&src=seo_chain) | 2.82% | $560.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -22,7 +22,7 @@ DefiLlama 실시간 데이터 기준, Ink의 tydro에서 APY 2.82%예요.
 
 ### Ink 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $63.83M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $63.8M예요.
 
 ### 이 수익률은 안전한가요?
 

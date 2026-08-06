@@ -4,8 +4,8 @@ The highest honest RNT yield right now is 18.55% on gt3 (Polygon), among 3 pools
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 3.13% | $365K |
-| [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 7.59% | $233.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=c5ce4562-c372-4f6b-8037-e71b77d4395e&src=seo_token) | Solana | 3.34% | $361.9K |
+| [gt3 →](https://www.defi.garden/?pool=d927c8b7-cb27-4085-8279-7c2068df10ac&src=seo_token) | Polygon | 7.60% | $233.7K |
 | [gt3 →](https://www.defi.garden/?pool=4d4922a1-03e1-478a-b429-7831fedf0560&src=seo_token) | Polygon | 18.55% | $120.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RNT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $719K in total.
+3 live pools clear this page's $100K TVL floor, $715.8K in total.
 
 ### Are these rates safe?
 

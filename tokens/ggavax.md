@@ -4,7 +4,7 @@ The highest honest GGAVAX yield right now is 5.01% on hypha (Avalanche), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hypha →](https://www.defi.garden/?pool=3efc0d84-53c6-4c6a-b1c3-c140502c7f26&src=seo_token) | Avalanche | 5.01% | $4.59M |
+| [hypha →](https://www.defi.garden/?pool=3efc0d84-53c6-4c6a-b1c3-c140502c7f26&src=seo_token) | Avalanche | 5.01% | $4.6M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

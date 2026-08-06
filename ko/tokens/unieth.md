@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.41% | $19.57M |
 | [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.01% | $427.3K |
-| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.91% | $212.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.91% | $212.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

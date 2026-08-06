@@ -4,7 +4,7 @@ The highest honest GTUSDC yield right now is 3.47% on morpho-blue (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a306885c-001e-4479-9ae8-459a56527bc1&src=seo_token) | Ethereum | 3.47% | $28.49M |
+| [morpho-blue →](https://www.defi.garden/?pool=a306885c-001e-4479-9ae8-459a56527bc1&src=seo_token) | Ethereum | 3.47% | $28.5M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $28.49M in total.
+1 live pool clear this page's $100K TVL floor, $28.5M in total.
 
 ### Are these rates safe?
 

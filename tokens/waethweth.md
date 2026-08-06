@@ -4,7 +4,7 @@ The highest honest WAETHWETH yield right now is 5.46% on balancer-v3 (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 5.46% | $4.69M |
+| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 5.46% | $4.68M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

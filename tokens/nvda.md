@@ -4,7 +4,7 @@ The highest honest NVDA yield right now is 126.75% on ekubo (Robinhood Chain), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token) | Solana | 34.41% | $575.8K |
+| [gmtrade →](https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token) | Solana | 34.41% | $575.7K |
 | [ekubo →](https://www.defi.garden/?pool=4f4f8680-0740-55fc-b0b5-dd49f530f9f5&src=seo_token) | Robinhood Chain | 126.75% | $127K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NVDA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $851.9K in total.
+3 live pools clear this page's $100K TVL floor, $851.8K in total.
 
 ### Are these rates safe?
 

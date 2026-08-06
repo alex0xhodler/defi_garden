@@ -1,12 +1,12 @@
 # HLX 디파이 수익률
 
-현재 HLX의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 86.83%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HLX의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 81.63%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 86.83% | $334.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 81.63% | $334.9K |
 | [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f&src=seo_token) | Ethereum | 1.97% | $242K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 3.64% | $192.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 3.41% | $191.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 HLX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 86.83%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 81.63%예요.
 
 ### HLX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -4,11 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 1.91% | $21.32M |
-| [raydium-amm →](https://www.defi.garden/?pool=f533ee34-5354-5712-9a31-332d21888e52&src=seo_token) | Solana | 0.25% | $2.81M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 1.48% | $21.31M |
+| [raydium-amm →](https://www.defi.garden/?pool=f533ee34-5354-5712-9a31-332d21888e52&src=seo_token) | Solana | 0.24% | $2.81M |
 | [raydium-amm →](https://www.defi.garden/?pool=75bf0314-4de8-50c3-b390-31d28279f1db&src=seo_token) | Solana | 0.25% | $2.78M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 0.25% | $1.59M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 1.20% | $196.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 0.23% | $1.59M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 1.20% | $196.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 6.30% | $183.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 0.45% | $133K |
 
@@ -22,7 +22,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 6.30%예�
 
 ### PEPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $29.02M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $29M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -6,8 +6,8 @@ The highest honest VSN yield right now is 3.25% on uniswap-v4 (Ethereum), among 
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token) | Ethereum | 0.72% | $3.22M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token) | Ethereum | 3.25% | $1.42M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token) | Arbitrum | 1.66% | $644.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 0.29% | $425.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token) | Arbitrum | 1.65% | $644.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 0.29% | $425.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

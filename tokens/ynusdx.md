@@ -4,10 +4,10 @@ The highest honest YNUSDX yield right now is 11.09% on stake-dao (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 8.31% | $431.3K |
-| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.09% | $361.7K |
+| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 8.31% | $431.2K |
+| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.09% | $367.9K |
 | [curve-dex →](https://www.defi.garden/?pool=e7873962-d31f-422a-bab6-a1816667e797&src=seo_token) | Ethereum | 4.82% | $179.5K |
-| [stake-dao →](https://www.defi.garden/?pool=b3719a99-daa3-40ef-a021-c00776dad266&src=seo_token) | Ethereum | 8.49% | $178.4K |
+| [stake-dao →](https://www.defi.garden/?pool=b3719a99-daa3-40ef-a021-c00776dad266&src=seo_token) | Ethereum | 8.49% | $179.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YNUSDX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.54M in total.
+5 live pools clear this page's $100K TVL floor, $1.55M in total.
 
 ### Are these rates safe?
 

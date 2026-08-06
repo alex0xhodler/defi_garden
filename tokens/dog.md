@@ -4,7 +4,7 @@ The highest honest DOG yield right now is 0.16% on raydium-amm (Solana), among 5
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token) | Ethereum | 0.02% | $1.24M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token) | Ethereum | 0.01% | $1.24M |
 | [raydium-amm →](https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token) | Solana | 0.16% | $536.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DOG pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.27M in total.
+5 live pools clear this page's $100K TVL floor, $2.28M in total.
 
 ### Are these rates safe?
 

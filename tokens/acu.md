@@ -1,10 +1,10 @@
 # ACU DeFi Yields
 
-The highest honest ACU yield right now is 92.30% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ACU yield right now is 91.86% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=adcae740-c286-43a4-b71d-8c301a4ac526&src=seo_token) | Base | 92.30% | $182.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=adcae740-c286-43a4-b71d-8c301a4ac526&src=seo_token) | Base | 91.86% | $183.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ACU yield today?
 
-92.30% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+91.86% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ACU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.5K in total.
+1 live pool clear this page's $100K TVL floor, $183.4K in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # KDK 디파이 수익률
 
-현재 KDK의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 29.13%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KDK의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 29.06%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token) | Berachain | 29.13% | $231.3K |
-| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 11.72% | $164.2K |
+| [berapaw →](https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token) | Berachain | 29.06% | $231.2K |
+| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 11.66% | $164.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 KDK의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 29.13%예요.
+DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 29.06%예요.
 
 ### KDK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $395.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $395.4K예요.
 
 ### 이 수익률은 안전한가요?
 

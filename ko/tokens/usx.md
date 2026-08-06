@@ -7,11 +7,11 @@
 | [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13&src=seo_token) | Solana | 0.89% | $12.73M |
 | [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0&src=seo_token) | Solana | 2.17% | $7.73M |
 | [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token) | Solana | 0.35% | $4.68M |
-| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.30% | $4.54M |
+| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.29% | $4.54M |
 | [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda&src=seo_token) | Solana | 0.28% | $2.99M |
 | [loopscale →](https://www.defi.garden/?pool=8847526a-17a9-46d9-b42d-04617ad31793&src=seo_token) | Solana | 2.05% | $1.12M |
-| [raydium-amm →](https://www.defi.garden/?pool=89101a75-3f6d-4093-bfdc-187a19cae15c&src=seo_token) | Solana | 0.87% | $1.02M |
-| [loopscale →](https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token) | Solana | 5.48% | $215.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=89101a75-3f6d-4093-bfdc-187a19cae15c&src=seo_token) | Solana | 0.84% | $1.02M |
+| [loopscale →](https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token) | Solana | 5.48% | $215.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

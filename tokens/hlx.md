@@ -1,12 +1,12 @@
 # HLX DeFi Yields
 
-The highest honest HLX yield right now is 86.83% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HLX yield right now is 81.63% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 86.83% | $334.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 81.63% | $334.9K |
 | [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f&src=seo_token) | Ethereum | 1.97% | $242K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 3.64% | $192.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 3.41% | $191.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HLX yield today?
 
-86.83% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+81.63% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many HLX pools clear the TVL floor?
 

@@ -4,11 +4,11 @@ The highest honest WOLF yield right now is 0.48% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 7.08% | $577.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 6.93% | $576.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token) | Solana | 0.27% | $413.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token) | Solana | 0.48% | $187.8K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token) | Base | 10.42% | $164.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=c5fa4d15-6901-44ef-b524-1bf7f49d4113&src=seo_token) | Solana | 2.19% | $113.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=c5fa4d15-6901-44ef-b524-1bf7f49d4113&src=seo_token) | Solana | 2.09% | $113.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -1,14 +1,14 @@
 # WS 디파이 수익률
 
-현재 WS의 가장 높은 정직한 수익률은 Sonic의 shadow-exchange-clmm에서 93.54%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WS의 가장 높은 정직한 수익률은 Sonic의 shadow-exchange-clmm에서 77.19%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.07% | $853K |
-| [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.02% | $240.5K |
-| [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 93.54% | $193.3K |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 7.07% | $178.4K |
-| [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.40% | $167.4K |
+| [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.07% | $853.1K |
+| [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.02% | $240.6K |
+| [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 77.19% | $193.3K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 7.07% | $178.3K |
+| [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.40% | $167.5K |
 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.12% | $143.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -17,7 +17,7 @@
 
 ### 오늘 WS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sonic의 shadow-exchange-clmm에서 APY 93.54%예요.
+DefiLlama 실시간 데이터 기준, Sonic의 shadow-exchange-clmm에서 APY 77.19%예요.
 
 ### WS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

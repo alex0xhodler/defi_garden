@@ -4,9 +4,9 @@ The highest honest WOO yield right now is 3.75% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token) | Ethereum | 2.14% | $530.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c4fc6442-6018-4a62-b1be-44ccdfe381fd&src=seo_token) | Ethereum | 2.90% | $531K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=13efeee4-02ce-42aa-9883-23be783b90b5&src=seo_token) | Ethereum | 3.75% | $505.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e9493cad-d31b-4c1c-9a16-6ed0e726e644&src=seo_token) | Base | 81.88% | $236K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e9493cad-d31b-4c1c-9a16-6ed0e726e644&src=seo_token) | Base | 81.99% | $236.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

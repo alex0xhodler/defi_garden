@@ -1,16 +1,16 @@
 # SFRXUSD DeFi Yields
 
-The highest honest SFRXUSD yield right now is 7.42% on curve-dex (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFRXUSD yield right now is 7.41% on curve-dex (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [frax →](https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5&src=seo_token) | Ethereum | 4.10% | $33.26M |
 | [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 2.93% | $11.84M |
-| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.40% | $11.84M |
-| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 7.42% | $2.58M |
-| [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c&src=seo_token) | Ethereum | 5.14% | $1.95M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.68% | $852.8K |
-| [stake-dao →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a&src=seo_token) | Ethereum | 14.46% | $375.5K |
+| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.39% | $11.84M |
+| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 7.41% | $2.58M |
+| [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c&src=seo_token) | Ethereum | 5.13% | $1.95M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.67% | $852.7K |
+| [stake-dao →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a&src=seo_token) | Ethereum | 14.44% | $375.7K |
 | [curve-dex →](https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0&src=seo_token) | Ethereum | 2.11% | $217.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SFRXUSD yield today?
 
-7.42% APY on curve-dex (Ethereum), based on live DefiLlama data.
+7.41% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many SFRXUSD pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $67.71M in total.
+11 live pools clear this page's $100K TVL floor, $67.68M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.20% | $3.71M |
 | [euler-v2 →](https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token) | Ethereum | 1.15% | $3.66M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 3.96% | $3.56M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 3.66% | $3.56M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token) | Ethereum | 1.04% | $1.76M |
 | [curve-dex →](https://www.defi.garden/?pool=23a68630-c706-4ed3-bb31-92868a15050b&src=seo_token) | Ethereum | 0.07% | $615.6K |
 

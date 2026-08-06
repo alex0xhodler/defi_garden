@@ -5,8 +5,8 @@ The highest honest REUSDE yield right now is 70.57% on uniswap-v4 (Ethereum), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [re →](https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token) | Ethereum | 12.28% | $18.81M |
-| [pendle →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.28% | $4.58M |
 | [pendle →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token) | Ethereum | 17.79% | $4.58M |
+| [pendle →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.28% | $4.58M |
 | [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token) | Ethereum | 0.63% | $557.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4f14a69f-31a6-47ce-93db-0aed87f3249f&src=seo_token) | Ethereum | 70.57% | $231.8K |
 

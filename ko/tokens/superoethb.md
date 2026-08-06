@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 1.47% | $3.89M |
-| [stake-dao →](https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token) | Base | 0.09% | $3.46M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 1.47% | $3.88M |
+| [stake-dao →](https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token) | Base | 0.09% | $3.43M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 1.4
 
 ### SUPEROETHB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $36.75M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $36.71M예요.
 
 ### 이 수익률은 안전한가요?
 

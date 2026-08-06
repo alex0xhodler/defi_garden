@@ -1,10 +1,10 @@
 # ASCEND DeFi Yields
 
-The highest honest ASCEND yield right now is 46.75% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASCEND yield right now is 47.26% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=8530cb49-d146-4c95-8ab2-a41021b879c8&src=seo_token) | Cardano | 46.75% | $296.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=8530cb49-d146-4c95-8ab2-a41021b879c8&src=seo_token) | Cardano | 47.26% | $292.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ASCEND yield today?
 
-46.75% APY on minswap-dex (Cardano), based on live DefiLlama data.
+47.26% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many ASCEND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $296.3K in total.
+1 live pool clear this page's $100K TVL floor, $292.1K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest JONES yield right now is 0.05% on camelot-v2 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=077ad274-8cd5-498a-b458-9f727e3caec2&src=seo_token) | Arbitrum | 0.05% | $160.1K |
+| [camelot-v2 →](https://www.defi.garden/?pool=077ad274-8cd5-498a-b458-9f727e3caec2&src=seo_token) | Arbitrum | 0.05% | $159.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JONES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.1K in total.
+1 live pool clear this page's $100K TVL floor, $159.9K in total.
 
 ### Are these rates safe?
 

@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $1.89M |
-| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 3.23% | $142.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 3.25% | $141.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

@@ -4,8 +4,8 @@ The highest honest CAW yield right now is 1.31% on vvs-standard (Cronos), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d4148eeb-90ad-4317-9476-2c838101a254&src=seo_token) | Ethereum | 1.08% | $1.64M |
-| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 1.31% | $865.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d4148eeb-90ad-4317-9476-2c838101a254&src=seo_token) | Ethereum | 1.03% | $1.64M |
+| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 1.31% | $862K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CAW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.51M in total.
+2 live pools clear this page's $100K TVL floor, $2.5M in total.
 
 ### Are these rates safe?
 

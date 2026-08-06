@@ -10,8 +10,8 @@
 | [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 0.10% | $6.88M |
 | [pendle →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 9.91% | $2.1M |
 | [pendle →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 2.87% | $2.1M |
-| [pendle →](https://www.defi.garden/?pool=057a25c2-3b1e-49f8-9c5e-f8858726f221&src=seo_token) | Ethereum | 2.39% | $1.02M |
 | [pendle →](https://www.defi.garden/?pool=2d26d208-dffd-4c4d-ab66-3ff850f2a678&src=seo_token) | Ethereum | 9.16% | $1.02M |
+| [pendle →](https://www.defi.garden/?pool=057a25c2-3b1e-49f8-9c5e-f8858726f221&src=seo_token) | Ethereum | 2.39% | $1.02M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 apyx-protocol에서 APY 13.73%
 
 ### APXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 30개이며, 합산 TVL은 $224.03M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 30개이며, 합산 TVL은 $224.04M예요.
 
 ### 이 수익률은 안전한가요?
 

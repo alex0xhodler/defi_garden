@@ -4,8 +4,8 @@ The highest honest WFRAX yield right now is 0.02% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.16% | $1.92M |
-| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.02% | $118.9K |
+| [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.16% | $1.94M |
+| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.02% | $119K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WFRAX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.49M in total.
+4 live pools clear this page's $100K TVL floor, $2.52M in total.
 
 ### Are these rates safe?
 

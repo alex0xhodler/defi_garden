@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b&src=seo_token) | Base | 10.24% | $4.14M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b&src=seo_token) | Base | 10.24% | $4.13M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0&src=seo_token) | Base | 0.05% | $330.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4adfe221-5582-41a7-9fa2-0e2c64a054c6&src=seo_token) | Base | 0.19% | $234.5K |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 10.24%예�
 
 ### KTA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $4.7M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $4.69M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,9 +4,9 @@ The highest honest OPAL yield right now is 7.72% on origami-finance (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.11% | $2.22M |
-| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.72% | $368.8K |
-| [origami-finance →](https://www.defi.garden/?pool=c1f6013e-fcb3-4329-860e-2a8a2aabf75f&src=seo_token) | Ethereum | 6.19% | $137.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.11% | $2.21M |
+| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.72% | $368.6K |
+| [origami-finance →](https://www.defi.garden/?pool=c1f6013e-fcb3-4329-860e-2a8a2aabf75f&src=seo_token) | Ethereum | 6.19% | $138.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

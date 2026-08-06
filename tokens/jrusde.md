@@ -4,8 +4,8 @@ The highest honest JRUSDE yield right now is 8.91% on pendle (Ethereum), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2&src=seo_token) | Ethereum | 8.91% | $572.3K |
 | [pendle →](https://www.defi.garden/?pool=44d0a60d-99d5-41a0-87ad-da85ae8682f7&src=seo_token) | Ethereum | 8.06% | $572.3K |
+| [pendle →](https://www.defi.garden/?pool=12b61e91-463f-4c33-bd9c-d35fb2d216c2&src=seo_token) | Ethereum | 8.91% | $572.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

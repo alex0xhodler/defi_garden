@@ -1,8 +1,8 @@
 # CRVUSD-YB — curve-dex on Ethereum
 
-**Total APY:** 15.78% (1.02% Base · + 14.76% Rewards)
+**Total APY:** 15.76% (1.02% Base · + 14.74% Rewards)
 
-**TVL:** $936.6K
+**TVL:** $937.4K
 
 **Pool Type:** LP/DEX
 
@@ -26,7 +26,7 @@ $1,000 in this pool grows to ~$1,292 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (15.78% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (15.76% headline) — farm rates decay. Active management required.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 

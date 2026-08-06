@@ -4,7 +4,7 @@ The highest honest BEAM yield right now is 1.94% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=110e18b3-1c38-4248-9e92-837a726e498b&src=seo_token) | Ethereum | 1.13% | $2.56M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=110e18b3-1c38-4248-9e92-837a726e498b&src=seo_token) | Ethereum | 1.29% | $2.56M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e1a60ed9-7e6c-41cd-b8ac-0155227237f5&src=seo_token) | Ethereum | 1.94% | $436.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BEAM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.99M in total.
+2 live pools clear this page's $100K TVL floor, $3M in total.
 
 ### Are these rates safe?
 

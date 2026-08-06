@@ -10,8 +10,8 @@ The highest honest APXUSD yield right now is 13.73% on apyx-protocol (Ethereum),
 | [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 0.10% | $6.88M |
 | [pendle →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 9.91% | $2.1M |
 | [pendle →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 2.87% | $2.1M |
-| [pendle →](https://www.defi.garden/?pool=057a25c2-3b1e-49f8-9c5e-f8858726f221&src=seo_token) | Ethereum | 2.39% | $1.02M |
 | [pendle →](https://www.defi.garden/?pool=2d26d208-dffd-4c4d-ab66-3ff850f2a678&src=seo_token) | Ethereum | 9.16% | $1.02M |
+| [pendle →](https://www.defi.garden/?pool=057a25c2-3b1e-49f8-9c5e-f8858726f221&src=seo_token) | Ethereum | 2.39% | $1.02M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APXUSD pools clear the TVL floor?
 
-30 live pools clear this page's $100K TVL floor, $224.03M in total.
+30 live pools clear this page's $100K TVL floor, $224.04M in total.
 
 ### Are these rates safe?
 

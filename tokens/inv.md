@@ -4,8 +4,8 @@ The highest honest INV yield right now is 7.72% on curve-dex (Ethereum), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 5.09% | $781.6K |
-| [curve-dex →](https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token) | Ethereum | 7.72% | $407.2K |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 5.09% | $781K |
+| [curve-dex →](https://www.defi.garden/?pool=289fd501-498b-4c0b-97f3-807dfbd1d927&src=seo_token) | Ethereum | 7.72% | $407.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 6.19% | $13.62M |
-| [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.01% | $482.7K |
+| [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 6.19% | $13.63M |
+| [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.01% | $482.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

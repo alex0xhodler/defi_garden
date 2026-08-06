@@ -4,8 +4,8 @@ The highest honest SBTCCRV yield right now is 0.01% on curve-dex (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b&src=seo_token) | Ethereum | 0.01% | $966.2K |
-| [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.01% | $602.2K |
+| [curve-dex →](https://www.defi.garden/?pool=29d4eefc-ad49-4ce4-bad1-0e185a0ba31b&src=seo_token) | Ethereum | 0.01% | $966.3K |
+| [curve-dex →](https://www.defi.garden/?pool=22f945e0-ab42-4ea4-b5c2-feeb7cb8d507&src=seo_token) | Ethereum | 0.01% | $602.3K |
 | [curve-dex →](https://www.defi.garden/?pool=37f88d6e-6204-4397-bb1a-364317643133&src=seo_token) | Ethereum | 0.01% | $391.1K |
 | [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.01% | $181.6K |
 

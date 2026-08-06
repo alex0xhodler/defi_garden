@@ -1,17 +1,17 @@
 # CAKE DeFi Yields
 
-The highest honest CAKE yield right now is 11.31% on uniswap-v3 (BSC), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAKE yield right now is 11.12% on uniswap-v3 (BSC), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.01% | $18.24M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.05% | $7.39M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.35% | $3.56M |
-| [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $637.4K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 2.75% | $368.8K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.15% | $308.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token) | BSC | 11.31% | $160.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=636b6dab-68e3-4e4b-8e85-b4c225ae5f24&src=seo_token) | BSC | 5.78% | $123.6K |
+| [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.01% | $18.19M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.02% | $7.37M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.32% | $3.55M |
+| [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $635.7K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 2.71% | $368.1K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 0.99% | $307.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token) | BSC | 11.12% | $160.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=636b6dab-68e3-4e4b-8e85-b4c225ae5f24&src=seo_token) | BSC | 5.13% | $123.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CAKE yield today?
 
-11.31% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+11.12% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many CAKE pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $31.02M in total.
+10 live pools clear this page's $100K TVL floor, $30.94M in total.
 
 ### Are these rates safe?
 

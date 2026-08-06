@@ -4,7 +4,7 @@ The highest honest KTA yield right now is 10.24% on aerodrome-v1 (Base), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b&src=seo_token) | Base | 10.24% | $4.14M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b&src=seo_token) | Base | 10.24% | $4.13M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0&src=seo_token) | Base | 0.05% | $330.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4adfe221-5582-41a7-9fa2-0e2c64a054c6&src=seo_token) | Base | 0.19% | $234.5K |
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KTA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.7M in total.
+3 live pools clear this page's $100K TVL floor, $4.69M in total.
 
 ### Are these rates safe?
 

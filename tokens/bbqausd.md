@@ -6,7 +6,7 @@ The highest honest BBQAUSD yield right now is 7.39% on morpho-blue (Monad), amon
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 3.52% | $25.22M |
 | [morpho-blue →](https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token) | Ethereum | 3.52% | $1.02M |
-| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.23% | $337.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.21% | $337.1K |
 | [morpho-blue →](https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token) | Monad | 7.39% | $219.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

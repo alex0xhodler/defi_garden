@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 13.21%
+**30d Mean APY:** 13.19%
 
 **Exposure:** multi
 
@@ -20,13 +20,13 @@ Moderate risk profile
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,424 in 5y at current rates.
+$1,000 in this pool grows to ~$1,423 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 7.32% right now vs a 13.21% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 7.32% right now vs a 13.19% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,424 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,423 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on yearn-finance](https://yearn.fi/?ref=defi.garden)
 

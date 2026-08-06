@@ -19,7 +19,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 theo-network-thbill에서 APY 
 
 ### THBILL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $159.61M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $159.6M예요.
 
 ### 이 수익률은 안전한가요?
 

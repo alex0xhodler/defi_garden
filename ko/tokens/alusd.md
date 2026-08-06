@@ -5,12 +5,12 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69&src=seo_token) | Ethereum | 4.15% | $2.22M |
-| [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6&src=seo_token) | Ethereum | 6.70% | $1.89M |
+| [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6&src=seo_token) | Ethereum | 6.69% | $1.89M |
 | [velodrome-v2 →](https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8&src=seo_token) | OP Mainnet | 9.81% | $1.58M |
-| [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d&src=seo_token) | Ethereum | 6.97% | $1.09M |
+| [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d&src=seo_token) | Ethereum | 6.98% | $1.09M |
 | [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 2.48% | $897.4K |
-| [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1&src=seo_token) | Ethereum | 3.83% | $754.1K |
-| [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f&src=seo_token) | Arbitrum | 0.05% | $604.6K |
+| [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1&src=seo_token) | Ethereum | 3.83% | $754K |
+| [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f&src=seo_token) | Arbitrum | 0.05% | $603.7K |
 | [stake-dao →](https://www.defi.garden/?pool=188aa963-c6c4-45ec-bc13-db067cf33249&src=seo_token) | Arbitrum | 0.06% | $601.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

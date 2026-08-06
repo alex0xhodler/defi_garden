@@ -1,13 +1,13 @@
 # NVDAX DeFi Yields
 
-The highest honest NVDAX yield right now is 24.14% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAX yield right now is 23.98% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.02% | $3M |
-| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 24.14% | $2.45M |
-| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 36.24% | $149.5K |
-| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 11.95% | $134.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 23.98% | $2.45M |
+| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 35.26% | $149.3K |
+| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 13.36% | $134.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NVDAX yield today?
 
-24.14% APY on raydium-amm (Solana), based on live DefiLlama data.
+23.98% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NVDAX pools clear the TVL floor?
 

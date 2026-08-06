@@ -4,13 +4,13 @@ The highest honest Ink yield right now is 2.82% on tydro (Ink), among 18 pools a
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_chain) | 0.04% | $11.57M |
+| KBTC | [tydro →](https://www.defi.garden/?pool=1357e23b-83d2-4183-bda0-a36913510b98&src=seo_chain) | 0.04% | $11.56M |
 | ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_chain) | 1.98% | $11.05M |
-| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 1.87% | $5.05M |
+| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 1.87% | $5.04M |
 | WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae&src=seo_chain) | 1.24% | $3.64M |
 | USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce&src=seo_chain) | 2.67% | $3.26M |
 | USDG | [tydro →](https://www.defi.garden/?pool=065ea91c-deff-4da0-a06f-64c642780936&src=seo_chain) | 1.94% | $1.11M |
-| GHO | [tydro →](https://www.defi.garden/?pool=2fb294c3-2599-4134-b852-5e45cf57a879&src=seo_chain) | 2.82% | $560.7K |
+| GHO | [tydro →](https://www.defi.garden/?pool=2fb294c3-2599-4134-b852-5e45cf57a879&src=seo_chain) | 2.82% | $560.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Ink pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $63.83M in total.
+18 live pools clear this page's $100K TVL floor, $63.8M in total.
 
 ### Are these rates safe?
 

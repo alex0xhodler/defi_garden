@@ -1,0 +1,38 @@
+# YZCASH DeFi Yields
+
+The highest honest YZCASH yield right now is 5.96% on yuzu-money (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [yuzu-money →](https://www.defi.garden/?pool=12b8c52b-d73e-595d-8bbc-f610d0c54d71&src=seo_token) | Ethereum | 5.96% | $8.3M |
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest YZCASH yield today?
+
+5.96% APY on yuzu-money (Ethereum), based on live DefiLlama data.
+
+### How many YZCASH pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $8.3M in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+## Related tokens
+
+- [STETH](https://www.defi.garden/tokens/steth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
+
+## Available on
+
+- [Ethereum](https://www.defi.garden/chains/ethereum)
+
+## Last updated August 6, 2026

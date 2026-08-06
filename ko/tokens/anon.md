@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.09% | $174.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 2.95% | $134.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=1031a91a-7c71-445a-b6bf-7833e31cedcb&src=seo_token) | Base | 10.53% | $108.9K |
+| [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.09% | $174.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 2.81% | $133.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=1031a91a-7c71-445a-b6bf-7833e31cedcb&src=seo_token) | Base | 10.50% | $108.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.09%예요.
 
 ### ANON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $583.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $583.4K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -5,7 +5,7 @@ The highest honest NAVX yield right now is 0.01% on navi-lending (Sui), among 2 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $1.89M |
-| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 3.23% | $142.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 3.25% | $141.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

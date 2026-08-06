@@ -1,17 +1,17 @@
 # ETH DeFi Yields
 
-The highest honest ETH yield right now is 9.63% on gmx-v2-perps (Arbitrum), among 367 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETH yield right now is 9.63% on gmx-v2-perps (Arbitrum), among 366 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluid-lending →](https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869&src=seo_token) | Ethereum | 1.67% | $81.99M |
-| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token) | Ethereum | 1.25% | $77.66M |
-| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.71% | $66.74M |
-| [spark-savings →](https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea&src=seo_token) | Ethereum | 1.75% | $65.79M |
-| [fluid-lending →](https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df&src=seo_token) | Ethereum | 1.67% | $55.09M |
-| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token) | Ethereum | 1.25% | $41.74M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_token) | Arbitrum | 9.63% | $40.44M |
-| [compound-v3 →](https://www.defi.garden/?pool=85c57261-b75b-4447-a115-d79b1a7de8ed&src=seo_token) | Ethereum | 1.39% | $32.26M |
+| [fluid-lending →](https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869&src=seo_token) | Ethereum | 1.67% | $81.96M |
+| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token) | Ethereum | 1.25% | $77.44M |
+| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.71% | $66.69M |
+| [spark-savings →](https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea&src=seo_token) | Ethereum | 1.75% | $65.77M |
+| [fluid-lending →](https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df&src=seo_token) | Ethereum | 1.67% | $55.07M |
+| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token) | Ethereum | 1.25% | $41.62M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_token) | Arbitrum | 9.63% | $40.42M |
+| [compound-v3 →](https://www.defi.garden/?pool=85c57261-b75b-4447-a115-d79b1a7de8ed&src=seo_token) | Ethereum | 1.39% | $32.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ETH pools clear the TVL floor?
 
-367 live pools clear this page's $100K TVL floor, $2.17B in total.
+366 live pools clear this page's $100K TVL floor, $2.17B in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest FO yield right now is 4.45% on raydium-amm (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f682d6fa-ea07-4005-a033-52999a9da08b&src=seo_token) | Solana | 4.45% | $173.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=f682d6fa-ea07-4005-a033-52999a9da08b&src=seo_token) | Solana | 4.45% | $175.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $173.8K in total.
+1 live pool clear this page's $100K TVL floor, $175.1K in total.
 
 ### Are these rates safe?
 

@@ -4,9 +4,9 @@ The highest honest CETUS yield right now is 0.53% on navi-lending (Sui), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 5.12% | $1.19M |
-| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 0.94% | $434K |
-| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.53% | $129.4K |
+| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 6.49% | $1.19M |
+| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 1.01% | $433.5K |
+| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.53% | $128.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CETUS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.76M in total.
+3 live pools clear this page's $100K TVL floor, $1.75M in total.
 
 ### Are these rates safe?
 

@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.11% | $2.22M |
-| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.72% | $368.8K |
-| [origami-finance →](https://www.defi.garden/?pool=c1f6013e-fcb3-4329-860e-2a8a2aabf75f&src=seo_token) | Ethereum | 6.19% | $137.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.11% | $2.21M |
+| [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 7.72% | $368.6K |
+| [origami-finance →](https://www.defi.garden/?pool=c1f6013e-fcb3-4329-860e-2a8a2aabf75f&src=seo_token) | Ethereum | 6.19% | $138.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

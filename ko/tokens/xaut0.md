@@ -1,17 +1,17 @@
 # XAUT0 디파이 수익률
 
-현재 XAUT0의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 40.43%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XAUT0의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 41.04%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.15% | $443.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token) | Arbitrum | 4.26% | $280.6K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 3.02% | $224.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.23% | $441.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token) | Arbitrum | 4.32% | $279.7K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 3.01% | $224.2K |
 | [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 5.01% | $206.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5&src=seo_token) | Celo | 40.43% | $198.6K |
-| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 2.96% | $196.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 30.77% | $155.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=945f556b-636e-56ba-abfb-e161e0fdce58&src=seo_token) | Monad | 24.09% | $129.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5&src=seo_token) | Celo | 41.04% | $197.9K |
+| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 3.16% | $196.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 30.64% | $154.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=945f556b-636e-56ba-abfb-e161e0fdce58&src=seo_token) | Monad | 24.13% | $129.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 XAUT0의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 40.43%예요.
+DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 41.04%예요.
 
 ### XAUT0 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $6.88M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $6.72M예요.
 
 ### 이 수익률은 안전한가요?
 

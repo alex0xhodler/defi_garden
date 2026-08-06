@@ -4,7 +4,7 @@ The highest honest NEUY yield right now is 2.33% on uniswap-v3 (Polygon), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cbe8614c-8d13-4364-a0a2-97a4c0ff4ec9&src=seo_token) | Polygon | 2.33% | $137.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cbe8614c-8d13-4364-a0a2-97a4c0ff4ec9&src=seo_token) | Polygon | 2.33% | $137.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NEUY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.9K in total.
+1 live pool clear this page's $100K TVL floor, $137.8K in total.
 
 ### Are these rates safe?
 

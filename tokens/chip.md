@@ -4,9 +4,9 @@ The highest honest CHIP yield right now is 0.52% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.11% | $959.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.11% | $962.8K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d3501b4f-7224-4b7e-b446-c69e19afc65f&src=seo_token) | Ethereum | 0.52% | $197.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 41.19% | $164.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 15.84% | $174K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CHIP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.32M in total.
+3 live pools clear this page's $100K TVL floor, $1.33M in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # TUSD DeFi Yields
 
-The highest honest TUSD yield right now is 1.56% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TUSD yield right now is 1.53% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token) | Tron | 1.41% | $1.07M |
-| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 1.56% | $350.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 1.53% | $350.3K |
 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token) | Ethereum | 0.01% | $220.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TUSD yield today?
 
-1.56% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TUSD pools clear the TVL floor?
 

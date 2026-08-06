@@ -1,13 +1,13 @@
 # NVDAX 디파이 수익률
 
-현재 NVDAX의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 24.14%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NVDAX의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 23.98%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.02% | $3M |
-| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 24.14% | $2.45M |
-| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 36.24% | $149.5K |
-| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 11.95% | $134.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 23.98% | $2.45M |
+| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 35.26% | $149.3K |
+| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 13.36% | $134.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +15,7 @@
 
 ### 오늘 NVDAX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 24.14%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 23.98%예요.
 
 ### NVDAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

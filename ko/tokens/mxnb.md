@@ -1,10 +1,10 @@
 # MXNB 디파이 수익률
 
-현재 MXNB의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 6.96%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MXNB의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 6.95%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token) | Base | 6.96% | $215.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token) | Base | 6.95% | $215.3K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=f2308992-d35b-42a3-a846-594f709fff0d&src=seo_token) | Arbitrum | 0.27% | $164.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token) | Arbitrum | 0.71% | $153.3K |
 
@@ -14,7 +14,7 @@
 
 ### 오늘 MXNB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 6.96%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 6.95%예요.
 
 ### MXNB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

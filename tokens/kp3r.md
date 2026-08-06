@@ -5,7 +5,7 @@ The highest honest KP3R yield right now is 0.42% on uniswap-v3 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5&src=seo_token) | Ethereum | 0.04% | $164.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f&src=seo_token) | Ethereum | 0.42% | $121.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f&src=seo_token) | Ethereum | 0.42% | $121.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KP3R pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $451.2K in total.
+3 live pools clear this page's $100K TVL floor, $450.5K in total.
 
 ### Are these rates safe?
 

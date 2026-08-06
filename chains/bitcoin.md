@@ -4,7 +4,7 @@ The highest honest Bitcoin yield right now is 3.34% on b14g (Bitcoin), among 3 p
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_chain) | 0.14% | $152.72M |
+| BTC | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_chain) | 0.14% | $152.57M |
 | BTC | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_chain) | 3.34% | $3.15M |
 | BTC | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_chain) | 0.21% | $1.74M |
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Bitcoin pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $157.61M in total.
+3 live pools clear this page's $100K TVL floor, $157.45M in total.
 
 ### Are these rates safe?
 

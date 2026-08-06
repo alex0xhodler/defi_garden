@@ -1,10 +1,10 @@
 # ZENT DeFi Yields
 
-The highest honest ZENT yield right now is 20.04% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZENT yield right now is 24.38% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=487319d6-bbd2-47b2-bf92-79f1182727ec&src=seo_token) | Ethereum | 20.04% | $151.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=487319d6-bbd2-47b2-bf92-79f1182727ec&src=seo_token) | Ethereum | 24.38% | $151.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZENT yield today?
 
-20.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+24.38% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ZENT pools clear the TVL floor?
 

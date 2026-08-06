@@ -5,10 +5,10 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.77% | $36.13M |
-| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 32.73% | $315.3K |
-| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 52.56% | $226.6K |
+| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 32.72% | $315.3K |
+| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 52.48% | $226.6K |
 | [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 13.52% | $169.6K |
-| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 15.75% | $161.7K |
+| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 15.72% | $161.7K |
 | [curve-dex →](https://www.defi.garden/?pool=7683064c-bffb-4720-8ac2-571645a4c9d3&src=seo_token) | Ethereum | 16.56% | $100.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

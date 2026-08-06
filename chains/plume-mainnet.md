@@ -4,7 +4,7 @@ The highest honest Plume Mainnet yield right now is 11.49% on nest-credit (Plume
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| NOPAL | [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_chain) | 8.96% | $61.5M |
+| NOPAL | [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_chain) | 8.96% | $61.4M |
 | USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=1dee4660-d688-4800-8e0f-7af0d77bcde1&src=seo_chain) | 4.63% | $32.96M |
 | NFALCON | [nest-credit →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_chain) | 7.18% | $28.67M |
 | NCLOA | [nest-credit →](https://www.defi.garden/?pool=a960f0fd-0ed0-51dc-afcb-4196ae033c68&src=seo_chain) | 4.30% | $13.94M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Plume Mainnet pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $179.64M in total.
+14 live pools clear this page's $100K TVL floor, $179.53M in total.
 
 ### Are these rates safe?
 

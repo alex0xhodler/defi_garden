@@ -1,10 +1,10 @@
 # NATIX DeFi Yields
 
-The highest honest NATIX yield right now is 27.29% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NATIX yield right now is 27.21% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c3ab80c2-cf7f-4500-b880-2e39d8c66f8d&src=seo_token) | Solana | 27.29% | $131.2K |
+| [orca-dex →](https://www.defi.garden/?pool=c3ab80c2-cf7f-4500-b880-2e39d8c66f8d&src=seo_token) | Solana | 27.21% | $131.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NATIX yield today?
 
-27.29% APY on orca-dex (Solana), based on live DefiLlama data.
+27.21% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many NATIX pools clear the TVL floor?
 
