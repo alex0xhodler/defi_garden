@@ -1,10 +1,10 @@
 # ETF DeFi Yields
 
-The highest honest ETF yield right now is 5.33% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETF yield right now is 4.80% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=133dcfd6-9053-4ec7-b5cf-da1bef57e805&src=seo_token) | BSC | 5.33% | $2.7M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=133dcfd6-9053-4ec7-b5cf-da1bef57e805&src=seo_token) | BSC | 4.80% | $2.7M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ETF yield today?
 
-5.33% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+4.80% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many ETF pools clear the TVL floor?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 - [TRX](https://www.defi.garden/tokens/trx)
+- [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

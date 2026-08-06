@@ -28,11 +28,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [AUSD](https://www.defi.garden/tokens/ausd)
 - [BTC](https://www.defi.garden/tokens/btc)
+- [AUSD](https://www.defi.garden/tokens/ausd)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

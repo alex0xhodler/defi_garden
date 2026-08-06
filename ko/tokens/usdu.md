@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=6ded470a-8cfe-4d41-9c3c-df3262908cbc&src=seo_token) | Solana | 0.04% | $4.01M |
 | [orca-dex →](https://www.defi.garden/?pool=5fd4f164-50d7-4d9e-9cb8-6eb62ac9f44c&src=seo_token) | Solana | 0.01% | $4.01M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=6ded470a-8cfe-4d41-9c3c-df3262908cbc&src=seo_token) | Solana | 0.04% | $4.01M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 0.04%
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -1,11 +1,11 @@
 # SYN DeFi Yields
 
-The highest honest SYN yield right now is 121.97% on frax (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYN yield right now is 0.11% on frax (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.09% | $231.6K |
-| [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 121.97% | $122K |
+| [frax →](https://www.defi.garden/?pool=65e39419-7ee9-4661-87a1-95a71e8f8a91&src=seo_token) | Ethereum | 0.11% | $232K |
+| [sushiswap →](https://www.defi.garden/?pool=0be95680-6a08-4198-af58-4370384df7ed&src=seo_token) | Ethereum | 159.68% | $129.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYN yield today?
 
-121.97% APY on frax (Ethereum), based on live DefiLlama data.
+0.11% APY on frax (Ethereum), based on live DefiLlama data.
 
 ### How many SYN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $353.6K in total.
+2 live pools clear this page's $100K TVL floor, $361.1K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

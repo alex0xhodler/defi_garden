@@ -1,17 +1,17 @@
 # VVV 디파이 수익률
 
-현재 VVV의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 86.83%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VVV의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 89.81%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500&src=seo_token) | Base | 34.39% | $9.29M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 3.93% | $5.07M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 18.07% | $3.84M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618&src=seo_token) | Base | 39.66% | $2.51M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ebbea9be-5a51-4e12-a113-d8524b3fc2dd&src=seo_token) | Base | 1.55% | $2.12M |
-| [moonwell-lending →](https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token) | Base | 0.31% | $735.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token) | Base | 86.83% | $602.7K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token) | Base | 17.85% | $545.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500&src=seo_token) | Base | 29.42% | $9.39M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 3.88% | $5.15M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 15.23% | $3.9M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ebbea9be-5a51-4e12-a113-d8524b3fc2dd&src=seo_token) | Base | 1.74% | $2.15M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618&src=seo_token) | Base | 6.63% | $1.74M |
+| [moonwell-lending →](https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token) | Base | 0.30% | $750K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token) | Base | 89.81% | $610.6K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token) | Base | 15.24% | $550K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 VVV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 86.83%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 89.81%예요.
 
 ### VVV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $25.7M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $25.35M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,4 +42,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 86.83%예�
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

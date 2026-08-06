@@ -1,13 +1,13 @@
 # DIEM DeFi Yields
 
-The highest honest DIEM yield right now is 57.83% on aerodrome-v1 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DIEM yield right now is 49.01% on uniswap-v3 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 3.93% | $5.07M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 18.07% | $3.84M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 57.83% | $328K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 53.68% | $198.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 3.88% | $5.15M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 15.23% | $3.9M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 45.82% | $348.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 49.01% | $200.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DIEM yield today?
 
-57.83% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+49.01% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DIEM pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $10.02M in total.
+5 live pools clear this page's $100K TVL floor, $10.18M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

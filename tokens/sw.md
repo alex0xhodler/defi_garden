@@ -1,11 +1,11 @@
 # SW DeFi Yields
 
-The highest honest SW yield right now is 13.64% on spectra-v2 (Flare), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SW yield right now is 13.73% on spectra-v2 (Flare), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.64% | $722K |
-| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.41% | $722K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.73% | $717.4K |
+| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.41% | $717.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SW yield today?
 
-13.64% APY on spectra-v2 (Flare), based on live DefiLlama data.
+13.73% APY on spectra-v2 (Flare), based on live DefiLlama data.
 
 ### How many SW pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.56M in total.
+3 live pools clear this page's $100K TVL floor, $1.55M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

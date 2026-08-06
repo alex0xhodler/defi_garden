@@ -1,12 +1,12 @@
 # COINX DeFi Yields
 
-The highest honest COINX yield right now is 130.46% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COINX yield right now is 51.02% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token) | Solana | 130.46% | $671K |
-| [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token) | Solana | 118.91% | $202.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token) | Solana | 74.71% | $123.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token) | Solana | 131.02% | $670.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token) | Solana | 89.56% | $200.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token) | Solana | 51.02% | $122.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COINX yield today?
 
-130.46% APY on raydium-amm (Solana), based on live DefiLlama data.
+51.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many COINX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $996.7K in total.
+3 live pools clear this page's $100K TVL floor, $993.3K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

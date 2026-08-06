@@ -1,10 +1,10 @@
 # MCB DeFi Yields
 
-The highest honest MCB yield right now is 0.07% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MCB yield right now is 0.02% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e287090b-80e7-42d4-8b65-1e2701fa74a1&src=seo_token) | Arbitrum | 0.07% | $589.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e287090b-80e7-42d4-8b65-1e2701fa74a1&src=seo_token) | Arbitrum | 0.02% | $589.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MCB yield today?
 
-0.07% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.02% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many MCB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $768.4K in total.
+2 live pools clear this page's $100K TVL floor, $767.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

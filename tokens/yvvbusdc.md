@@ -27,13 +27,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
-- [GTUSDC](https://www.defi.garden/tokens/gtusdc)
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
 - [GTWETH](https://www.defi.garden/tokens/gtweth)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
+- [VBUSDC](https://www.defi.garden/tokens/vbusdc)
 
 ## Available on
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

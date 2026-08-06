@@ -1,17 +1,17 @@
 # USDM DeFi Yields
 
-The highest honest USDM yield right now is 38.21% on uniswap-v3 (Ethereum), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDM yield right now is 38.45% on minswap-dex (Cardano), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34&src=seo_token) | Ethereum | 0.91% | $20.15M |
-| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 38.21% | $867.7K |
-| [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 9.09% | $647.4K |
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 26.71% | $582.6K |
-| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 5.20% | $530.6K |
-| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 33.03% | $470.6K |
-| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 20.62% | $407.5K |
-| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 29.29% | $286.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34&src=seo_token) | Ethereum | 7.28% | $20.06M |
+| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 16.52% | $980K |
+| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 38.45% | $860.3K |
+| [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 9.10% | $647.5K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 26.71% | $583.8K |
+| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 5.20% | $524.2K |
+| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 21.09% | $431.8K |
+| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 28.86% | $296.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDM yield today?
 
-38.21% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+38.45% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many USDM pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $25.07M in total.
+14 live pools clear this page's $100K TVL floor, $25.51M in total.
 
 ### Are these rates safe?
 
@@ -41,8 +41,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Cardano](https://www.defi.garden/chains/cardano)
 - [Monad](https://www.defi.garden/chains/monad)
+- [Cardano](https://www.defi.garden/chains/cardano)
 - [MegaETH](https://www.defi.garden/chains/megaeth)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

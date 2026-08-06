@@ -1,11 +1,11 @@
 # SUSDM 디파이 수익률
 
-현재 SUSDM의 가장 높은 정직한 수익률은 Hyperliquid L1의 monetrix에서 6.46%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSDM의 가장 높은 정직한 수익률은 Hyperliquid L1의 monetrix에서 5.41%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [monetrix →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 6.46% | $2.22M |
-| [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 0.41% | $131.3K |
+| [monetrix →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 5.41% | $2.22M |
+| [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 0.74% | $131.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 SUSDM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 monetrix에서 APY 6.46%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 monetrix에서 APY 5.41%예요.
 
 ### SUSDM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 monetrix에서 APY 6.46%
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

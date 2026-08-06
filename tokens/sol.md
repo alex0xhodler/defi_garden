@@ -1,17 +1,17 @@
 # SOL DeFi Yields
 
-The highest honest SOL yield right now is 41.14% on orca-dex (Solana), among 80 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOL yield right now is 38.11% on orca-dex (Solana), among 80 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8&src=seo_token) | Solana | 41.14% | $26.1M |
-| [kamino-lend →](https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83&src=seo_token) | Solana | 4.56% | $19.56M |
-| [save →](https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369&src=seo_token) | Solana | 1.99% | $6.15M |
-| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.40% | $5.52M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.18% | $5.45M |
-| [orca-dex →](https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9&src=seo_token) | Solana | 18.56% | $4.52M |
-| [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 13.39% | $3.97M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5&src=seo_token) | Arbitrum | 5.25% | $3.53M |
+| [orca-dex →](https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8&src=seo_token) | Solana | 38.11% | $26.11M |
+| [kamino-lend →](https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83&src=seo_token) | Solana | 4.57% | $19.4M |
+| [save →](https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369&src=seo_token) | Solana | 1.98% | $6.13M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.37% | $5.43M |
+| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.50% | $5.35M |
+| [orca-dex →](https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9&src=seo_token) | Solana | 19.99% | $4.52M |
+| [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 12.78% | $3.96M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5&src=seo_token) | Arbitrum | 5.32% | $3.52M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOL yield today?
 
-41.14% APY on orca-dex (Solana), based on live DefiLlama data.
+38.11% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SOL pools clear the TVL floor?
 
-80 live pools clear this page's $100K TVL floor, $126.7M in total.
+80 live pools clear this page's $100K TVL floor, $126.05M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

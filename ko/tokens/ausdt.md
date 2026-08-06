@@ -1,12 +1,12 @@
 # AUSDT 디파이 수익률
 
-현재 AUSDT의 가장 높은 정직한 수익률은 Polkadot의 hydration-dex에서 0.86%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AUSDT의 가장 높은 정직한 수익률은 Polkadot의 hydration-dex에서 0.84%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token) | Polkadot | 0.86% | $2.26M |
+| [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token) | Polkadot | 0.84% | $2.25M |
 | [hydration-dex →](https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token) | Polkadot | 0.44% | $1.04M |
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $309.6K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $309.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 AUSDT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 0.86%예요.
+DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 0.84%예요.
 
 ### AUSDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 0.86%�
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

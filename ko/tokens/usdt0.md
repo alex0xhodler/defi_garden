@@ -1,17 +1,17 @@
 # USDT0 디파이 수익률
 
-현재 USDT0의 가장 높은 정직한 수익률은 Plasma의 aave-v3에서 13.52%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDT0의 가장 높은 정직한 수익률은 Monad의 curve-dex에서 13.70%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 3.30% | $77.06M |
-| [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.98% | $46.45M |
-| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 3.80% | $41.73M |
-| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.76% | $18.92M |
-| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 2.63% | $13.36M |
-| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 5.51% | $3.25M |
-| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 13.52% | $2.88M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=863490fc-3912-58cc-b93c-d53d1a19c876&src=seo_token) | Monad | 0.09% | $1.86M |
+| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 3.43% | $63.69M |
+| [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.99% | $46.24M |
+| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 3.83% | $41.04M |
+| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.76% | $22.11M |
+| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 2.63% | $13.39M |
+| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 5.36% | $3.4M |
+| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 13.70% | $2.88M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=863490fc-3912-58cc-b93c-d53d1a19c876&src=seo_token) | Monad | 0.03% | $1.86M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 USDT0의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plasma의 aave-v3에서 APY 13.52%예요.
+DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 13.70%예요.
 
 ### USDT0 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $215.54M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $204.83M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -45,4 +45,4 @@ DefiLlama 실시간 데이터 기준, Plasma의 aave-v3에서 APY 13.52%예요.
 - [Monad](https://www.defi.garden/ko/chains/monad)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

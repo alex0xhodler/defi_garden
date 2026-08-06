@@ -392,7 +392,10 @@ function renderPoolPageMarkdown(pool, generatedDate, bakedUrls) {
     showConcreteCta = true;
     lines.push(`## ${t('projectionHeading')}`);
     lines.push('');
-    lines.push(t('projectionBody', DEFAULT_INVESTMENT, PROJECTION_YEARS, proj.projectionAmount));
+    // 241: pre-rounded to a whole dollar before t() — see PoolDetail.js's
+    // matching t('projectionBody', ...) call for why (the accessor
+    // chokepoint's shared formatCount doesn't apply maximumFractionDigits:0).
+    lines.push(t('projectionBody', DEFAULT_INVESTMENT, PROJECTION_YEARS, Math.round(proj.projectionAmount)));
     lines.push('');
     lines.push(t('projectionKeepNote'));
     lines.push('');
@@ -419,7 +422,8 @@ function renderPoolPageMarkdown(pool, generatedDate, bakedUrls) {
   // renderProtocolCtaBlock (protocol / honest DefiLlama fallback).
   const gardenHref = `${SITE_URL}/plan.html?goal=retirement&pace=${gardenPersona}&capital=${DEFAULT_INVESTMENT}&fm=capital&years=${PROJECTION_YEARS}&src=pool`;
   const gardenLabel = showConcreteCta
-    ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS)
+    // 241: pre-rounded before t() — see the projectionBody call above.
+    ? t('gardenThisPoolCtaConcrete', Math.round(projectionAmount), PROJECTION_YEARS)
     : t('gardenThisPoolCta');
   lines.push(`[${mdEscape(gardenLabel)}](${gardenHref})`);
   lines.push('');

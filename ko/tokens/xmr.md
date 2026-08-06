@@ -1,6 +1,6 @@
 # XMR 디파이 수익률
 
-현재 XMR의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.14%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XMR의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 10.86%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
@@ -11,6 +11,7 @@
 | [raydium-amm →](https://www.defi.garden/?pool=3cd5f33f-9adb-5e1e-a0f7-c8b0be848c02&src=seo_token) | Solana | 0.14% | $21.66M |
 | [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.02% | $21.53M |
 | [raydium-amm →](https://www.defi.garden/?pool=8091a438-ca9d-5e41-83cc-eee25682c361&src=seo_token) | Solana | 0.05% | $21.19M |
+| [raydium-amm →](https://www.defi.garden/?pool=53cde4b6-4ced-56c7-8b88-0e68d9a6515b&src=seo_token) | Solana | 10.86% | $114K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,11 +19,11 @@
 
 ### 오늘 XMR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.14%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 10.86%예요.
 
 ### XMR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $172.73M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $172.84M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -41,4 +42,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.14%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -1,12 +1,12 @@
 # CHIP DeFi Yields
 
-The highest honest CHIP yield right now is 74.80% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHIP yield right now is 0.52% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.15% | $965.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.10% | $960.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d3501b4f-7224-4b7e-b446-c69e19afc65f&src=seo_token) | Ethereum | 0.52% | $197.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 74.80% | $166.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 17.33% | $180.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHIP yield today?
 
-74.80% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.52% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many CHIP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.33M in total.
+3 live pools clear this page's $100K TVL floor, $1.34M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

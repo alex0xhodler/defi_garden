@@ -1,10 +1,10 @@
 # SUSD3 디파이 수익률
 
-현재 SUSD3의 가장 높은 정직한 수익률은 Ethereum의 3jane-lending에서 23.51%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSD3의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 23.51%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.89% | $7.97M |
+| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.94% | $7.97M |
 | [pendle →](https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token) | Ethereum | 22.26% | $1.01M |
 | [pendle →](https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token) | Ethereum | 23.51% | $1.01M |
 
@@ -14,7 +14,7 @@
 
 ### 오늘 SUSD3의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 3jane-lending에서 APY 23.51%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 23.51%예요.
 
 ### SUSD3 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 3jane-lending에서 APY 23.51%
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

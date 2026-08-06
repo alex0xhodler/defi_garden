@@ -1,6 +1,6 @@
 # SUSDU DeFi Yields
 
-The highest honest SUSDU yield right now is 9.99% on unitas-usdu (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDU yield right now is 9.99% on unitas-usdu (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSDU yield today?
 
-9.99% APY on unitas-usdu (BSC), based on live DefiLlama data.
+9.99% APY on unitas-usdu (Solana), based on live DefiLlama data.
 
 ### How many SUSDU pools clear the TVL floor?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 
 ## Available on
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

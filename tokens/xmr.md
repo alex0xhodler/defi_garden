@@ -1,6 +1,6 @@
 # XMR DeFi Yields
 
-The highest honest XMR yield right now is 0.14% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XMR yield right now is 10.86% on raydium-amm (Solana), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -11,6 +11,7 @@ The highest honest XMR yield right now is 0.14% on raydium-amm (Solana), among 7
 | [raydium-amm →](https://www.defi.garden/?pool=3cd5f33f-9adb-5e1e-a0f7-c8b0be848c02&src=seo_token) | Solana | 0.14% | $21.66M |
 | [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.02% | $21.53M |
 | [raydium-amm →](https://www.defi.garden/?pool=8091a438-ca9d-5e41-83cc-eee25682c361&src=seo_token) | Solana | 0.05% | $21.19M |
+| [raydium-amm →](https://www.defi.garden/?pool=53cde4b6-4ced-56c7-8b88-0e68d9a6515b&src=seo_token) | Solana | 10.86% | $114K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XMR yield today?
 
-0.14% APY on raydium-amm (Solana), based on live DefiLlama data.
+10.86% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many XMR pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $172.73M in total.
+8 live pools clear this page's $100K TVL floor, $172.84M in total.
 
 ### Are these rates safe?
 
@@ -41,4 +42,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

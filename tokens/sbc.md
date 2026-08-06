@@ -1,10 +1,11 @@
 # SBC DeFi Yields
 
-The highest honest SBC yield right now is 0.48% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SBC yield right now is 0.01% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa&src=seo_token) | Base | 0.48% | $102K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa&src=seo_token) | Base | 0.05% | $102K |
+| [orca-dex →](https://www.defi.garden/?pool=c88d8d63-00a0-4fd2-a72d-29874a51b7e6&src=seo_token) | Solana | 0.01% | $100.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SBC yield today?
 
-0.48% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.01% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SBC pools clear the TVL floor?
 
@@ -28,11 +29,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
+- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

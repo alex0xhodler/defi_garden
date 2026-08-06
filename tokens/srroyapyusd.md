@@ -1,10 +1,10 @@
 # SRROYAPYUSD DeFi Yields
 
-The highest honest SRROYAPYUSD yield right now is 244.73% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYAPYUSD yield right now is 14.57% on pendle (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 244.73% | $2.74M |
+| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 237.89% | $2.74M |
 | [pendle →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5&src=seo_token) | Ethereum | 14.57% | $256.8K |
 | [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 63.59% | $256.8K |
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYAPYUSD yield today?
 
-244.73% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+14.57% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SRROYAPYUSD pools clear the TVL floor?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

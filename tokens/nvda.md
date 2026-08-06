@@ -1,11 +1,11 @@
 # NVDA DeFi Yields
 
-The highest honest NVDA yield right now is 42.67% on gmtrade (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDA yield right now is 126.42% on ekubo (Robinhood Chain), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token) | Solana | 42.67% | $603.1K |
-| [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_token) | Defichain | 0.02% | $149.1K |
+| [gmtrade →](https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token) | Solana | 34.41% | $575.7K |
+| [ekubo →](https://www.defi.garden/?pool=4f4f8680-0740-55fc-b0b5-dd49f530f9f5&src=seo_token) | Robinhood Chain | 126.42% | $127.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NVDA yield today?
 
-42.67% APY on gmtrade (Solana), based on live DefiLlama data.
+126.42% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
 
 ### How many NVDA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $752.1K in total.
+3 live pools clear this page's $100K TVL floor, $852.1K in total.
 
 ### Are these rates safe?
 
@@ -29,12 +29,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [USDE](https://www.defi.garden/tokens/usde)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
-- [Defichain](https://www.defi.garden/chains/defichain)
+- [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

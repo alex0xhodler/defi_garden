@@ -4,8 +4,8 @@ The highest honest USDA yield right now is 17.58% on minswap-dex (Cardano), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.58% | $680.4K |
-| [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token) | Cardano | 16.33% | $224.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.58% | $677.9K |
+| [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token) | Cardano | 16.11% | $228.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

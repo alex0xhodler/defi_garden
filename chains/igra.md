@@ -1,10 +1,10 @@
 # Igra DeFi Yields
 
-The highest honest Igra yield right now is 30.42% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Igra yield right now is 29.10% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| IGRA-WIKAS | [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_chain) | 30.42% | $132.9K |
+| IGRA-WIKAS | [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_chain) | 29.10% | $135.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Igra yield today?
 
-30.42% APY on zealousswap (Igra), based on live DefiLlama data.
+29.10% APY on zealousswap (Igra), based on live DefiLlama data.
 
 ### How many Igra pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.9K in total.
+1 live pool clear this page's $100K TVL floor, $135.2K in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [BSC](https://www.defi.garden/chains/bsc)
 - [Base](https://www.defi.garden/chains/base)
+- [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [IGRA](https://www.defi.garden/tokens/igra)
 - [WIKAS](https://www.defi.garden/tokens/wikas)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

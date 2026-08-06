@@ -1,11 +1,10 @@
 # MSTR DeFi Yields
 
-The highest honest MSTR yield right now is 45.42% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSTR yield right now is 33.88% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 45.42% | $289.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token) | Ethereum | 6.12% | $213.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 33.88% | $290.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSTR yield today?
 
-45.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+33.88% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MSTR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $816K in total.
+4 live pools clear this page's $100K TVL floor, $815.3K in total.
 
 ### Are these rates safe?
 
@@ -25,16 +24,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDY](https://www.defi.garden/tokens/usdy)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

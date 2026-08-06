@@ -346,7 +346,21 @@
          the initial render for `?pool=` deep links) — chained via onload
          since dynamically inserted scripts don't otherwise guarantee
          execution order. analytics.js itself is a static defer tag in
-         <head>, shared by both modes — see above. -->
+         <head>, shared by both modes — see above.
+
+         Boot-order barrier (item 244): this block is a plain parser-blocking
+         inline script, so it runs DURING HTML parsing — before any `defer`
+         tag in <head> (React, ReactDOM, translations.min.js, ...) has
+         executed. Both compiled bundles read those globals at the top level
+         (`var{...}=React,...` plus an immediate `ReactDOM.render(...)` call),
+         so appending them at parse time is a pure ordering race against
+         whichever `defer` script's download happens to finish last — no
+         guard, and it can lose. `DOMContentLoaded` is defined by the HTML
+         spec to fire only once every `defer` script in the document has
+         finished executing, in order — gating on it (rather than on parse
+         time) removes the race for every deferred global at once, not just
+         the ones named above; it needs no hand-maintained list of what the
+         bundles consume. -->
     <script>
         if (window.__APP_MODE === 'analytics') {
             (function() {
@@ -356,9 +370,12 @@
                     if (onload) s.onload = onload;
                     document.body.appendChild(s);
                 }
-                addScript('PoolDetail.compiled.min.js', function() {
-                    addScript('app.compiled.min.js');
-                });
+                function bootAnalyticsBundles() {
+                    addScript('PoolDetail.compiled.min.js', function() {
+                        addScript('app.compiled.min.js');
+                    });
+                }
+                document.addEventListener('DOMContentLoaded', bootAnalyticsBundles);
             })();
         }
     </script>

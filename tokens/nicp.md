@@ -4,7 +4,7 @@ The highest honest NICP yield right now is 8.06% on waterneuron (ICP), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_token) | ICP | 8.06% | $4.98M |
+| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_token) | ICP | 8.06% | $4.97M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NICP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.98M in total.
+1 live pool clear this page's $100K TVL floor, $4.97M in total.
 
 ### Are these rates safe?
 
@@ -28,11 +28,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [VCHF](https://www.defi.garden/tokens/vchf)
 - [CKUSDC](https://www.defi.garden/tokens/ckusdc)
 - [CKBTC](https://www.defi.garden/tokens/ckbtc)
-- [CKETH](https://www.defi.garden/tokens/cketh)
 - [GLDT](https://www.defi.garden/tokens/gldt)
+- [CKUSDT](https://www.defi.garden/tokens/ckusdt)
 
 ## Available on
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

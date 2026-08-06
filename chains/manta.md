@@ -4,7 +4,7 @@ The highest honest Manta yield right now is 14.70% on bifrost-liquid-staking (Ma
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VMANTA | [bifrost-liquid-staking →](https://www.defi.garden/?pool=738aef5d-f33a-4a31-a250-b307a76e7a5d&src=seo_chain) | 14.70% | $1.22M |
+| VMANTA | [bifrost-liquid-staking →](https://www.defi.garden/?pool=738aef5d-f33a-4a31-a250-b307a76e7a5d&src=seo_chain) | 14.70% | $1.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Manta pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.22M in total.
+1 live pool clear this page's $100K TVL floor, $1.26M in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [BSC](https://www.defi.garden/chains/bsc)
 - [Base](https://www.defi.garden/chains/base)
+- [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [VMANTA](https://www.defi.garden/tokens/vmanta)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

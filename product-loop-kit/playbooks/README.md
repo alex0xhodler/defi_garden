@@ -43,6 +43,8 @@ Provenance: <the LOG/spec entry this was distilled from>
 - `gsc-noindex-triage.md` — GSC "Excluded by noindex" intentional vs regression (item 118)
 - `analytics-regression-triage.md` — "a Mixpanel property looks wrong/undefined" bug vs expected (item 120)
 - `product-audit.md` — drive the real app + find bug classes without traffic (the pre-traffic heartbeat mandate)
+- `guard-exemption-rate.md` — a guard you are about to build wants an allowlist: measure the exemption rate against the population FIRST (item 241 — 293 of 306 would have been exempt)
+- `headline-figure-provenance.md` — a surface states a "best/highest" figure and names an entity beside it: the figure is selected by extremity and the name often comes from a DIFFERENT record (item 242 — 421 of 2,102 token pages named a protocol that does not pay the stated rate)
 - `archetype-coherence.md` — a planner surface shows copy/numbers built for a different goal archetype (item 146)
 - `pre-existing-red-triage.md` — a test is red on `main` and isn't yours: product regression vs stale test vs sandbox vs external drift vs stale proxy metric vs deleted-fixture control vs a *widening* the guard's literal never learned about (items 147, 181, 185, 209)
 - `loop-container-contention.md` — a subagent reports files changing under it / a "second session" on the tree (item 162)

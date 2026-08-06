@@ -1,16 +1,16 @@
 # ARB DeFi Yields
 
-The highest honest ARB yield right now is 19.50% on uniswap-v3 (Arbitrum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARB yield right now is 7.32% on uniswap-v3 (Arbitrum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token) | Arbitrum | 5.33% | $3.69M |
-| [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.07% | $2.02M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 19.50% | $1.35M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 8.97% | $529.7K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 5.71% | $516K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 2.01% | $205.5K |
-| [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.02% | $132.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b318f61c-b1b1-4bed-9fcd-421c50dcd1c3&src=seo_token) | Arbitrum | 4.01% | $3.65M |
+| [aave-v3 →](https://www.defi.garden/?pool=ea8d9aa8-46ae-4447-a192-74515706a575&src=seo_token) | Arbitrum | 0.08% | $1.98M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e9da80c-274d-4f55-8421-7439d4ef429d&src=seo_token) | Arbitrum | 14.56% | $1.33M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1be7c7a6-17c0-4411-9a32-5722f8100cf4&src=seo_token) | Arbitrum | 7.32% | $522.7K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=f3fa942f-1867-4028-95ff-4eb76816cd07&src=seo_token) | Arbitrum | 5.65% | $512.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b60d0bd-fb38-4871-b4e7-d3395cdb252d&src=seo_token) | Arbitrum | 1.88% | $203K |
+| [fluid-lending →](https://www.defi.garden/?pool=2b272fb2-8721-42ea-87cd-be74d256bcc5&src=seo_token) | Arbitrum | 1.02% | $130.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,11 +18,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARB yield today?
 
-19.50% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+7.32% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many ARB pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $21.94M in total.
+12 live pools clear this page's $100K TVL floor, $21.83M in total.
 
 ### Are these rates safe?
 
@@ -41,4 +41,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

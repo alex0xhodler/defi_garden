@@ -1,12 +1,12 @@
 # JTO DeFi Yields
 
-The highest honest JTO yield right now is 13.23% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JTO yield right now is 0.02% on project-0 (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 13.23% | $1.31M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 10.18% | $1.09M |
-| [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $991.4K |
+| [orca-dex →](https://www.defi.garden/?pool=cc5c8175-bdfa-442f-870b-6f2cdec94854&src=seo_token) | Solana | 9.81% | $1.29M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=059175e4-9cc8-4703-944f-b54ecaf02f00&src=seo_token) | Solana | 7.06% | $1.07M |
+| [project-0 →](https://www.defi.garden/?pool=168aeeff-71df-47ef-83b8-62701e813305&src=seo_token) | Solana | 0.02% | $966K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JTO yield today?
 
-13.23% APY on orca-dex (Solana), based on live DefiLlama data.
+0.02% APY on project-0 (Solana), based on live DefiLlama data.
 
 ### How many JTO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.73M in total.
+4 live pools clear this page's $100K TVL floor, $3.66M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

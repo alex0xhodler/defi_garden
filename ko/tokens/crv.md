@@ -1,17 +1,17 @@
 # CRV 디파이 수익률
 
-현재 CRV의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 14.98%이며, $100K TVL 기준을 넘는 28개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CRV의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 15.42%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 7.30% | $6.39M |
-| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 11.97% | $5.32M |
-| [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8&src=seo_token) | Ethereum | 4.42% | $2.15M |
-| [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595&src=seo_token) | Ethereum | 6.43% | $1.99M |
-| [aave-v3 →](https://www.defi.garden/?pool=9932d2d8-1e4e-4248-9307-4f99c7e466a8&src=seo_token) | Ethereum | 0.34% | $1.89M |
-| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.70% | $1.12M |
-| [stake-dao →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba&src=seo_token) | Ethereum | 14.98% | $971K |
-| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 14.97% | $945K |
+| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 7.47% | $6.4M |
+| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 12.03% | $5.32M |
+| [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8&src=seo_token) | Ethereum | 4.38% | $2.16M |
+| [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595&src=seo_token) | Ethereum | 6.44% | $2M |
+| [aave-v3 →](https://www.defi.garden/?pool=9932d2d8-1e4e-4248-9307-4f99c7e466a8&src=seo_token) | Ethereum | 0.34% | $1.91M |
+| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.67% | $1.13M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 14.42% | $989.8K |
+| [stake-dao →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba&src=seo_token) | Ethereum | 15.42% | $972K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 CRV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 14.98%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 15.42%예요.
 
 ### CRV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 28개이며, 합산 TVL은 $27.14M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $27.2M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,4 +42,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 14.98%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

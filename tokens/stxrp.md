@@ -1,13 +1,13 @@
 # STXRP DeFi Yields
 
-The highest honest STXRP yield right now is 3.19% on sparkdex-v4 (Flare), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STXRP yield right now is 3.87% on spectra-v2 (Flare), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 1.63% | $5.56M |
-| [spectra-v2 →](https://www.defi.garden/?pool=b9f857e7-c09a-4385-bab9-907f89c00dc1&src=seo_token) | Flare | 3.19% | $3.22M |
-| [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc&src=seo_token) | Flare | 2.32% | $2.56M |
-| [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41&src=seo_token) | Flare | 0.35% | $184.4K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 1.63% | $5.53M |
+| [spectra-v2 →](https://www.defi.garden/?pool=b9f857e7-c09a-4385-bab9-907f89c00dc1&src=seo_token) | Flare | 3.87% | $3.16M |
+| [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc&src=seo_token) | Flare | 2.79% | $1.99M |
+| [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41&src=seo_token) | Flare | 0.35% | $180.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STXRP yield today?
 
-3.19% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
+3.87% APY on spectra-v2 (Flare), based on live DefiLlama data.
 
 ### How many STXRP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $11.53M in total.
+4 live pools clear this page's $100K TVL floor, $10.86M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

@@ -2,12 +2,28 @@
 
 **When:** a detector you own reports a defect **sometimes** — the same surface, the same code, flipping
 between flagged and clean run to run. Also when you are about to write "0 blocking findings", "the audit
-is green", or "not reproducible" about a rendered/browser-driven check. The tell is a *permanent* defect
-(one you can reproduce by hand every single time) that the detector catches on a minority of runs.
+is green", or "not reproducible" about a rendered/browser-driven check.
 
-**Answer in one line:** the detector's **readiness predicate** is a magic number — it measures at a fixed
-timeout instead of waiting for the mechanism it needs to have finished — so its output is a coin-flip on
-the *tail of that mechanism*, and every "0 findings" tick is far weaker evidence than it reads.
+**Answer in one line:** an intermittent finding means **one of the two halves is timing-dependent — and
+you do not yet know which**. Either the detector races the page (false negatives; the historical case, and
+everything from step 1 down), or **the page itself races and the detector caught it honestly** (a real
+latent defect that a fast machine will never show you). Both are live in this repo's record; deciding
+which is the whole job, and neither reading is the default.
+
+**The two shapes, and the tell that separates them:**
+
+| | detector is the flaky half | **product is the flaky half** |
+|---|---|---|
+| defect under an independent probe | reproduces ~N/N | does **not** reproduce; the surface is healthy in isolation |
+| what varies | the detector's readiness/settle | the page's own load or execution order |
+| tell | permanent defect, minority detection | **an error signature with a causal chain that only one ordering can produce** |
+| precedent | 221 (3/20), 230, 231, 233 | **244** (2026-08-06) |
+
+The historical framing of this playbook assumed the first column — a *permanent* defect caught on a
+minority of runs. Item 244 is the second column and it inverts the diagnosis: 0 of 6 isolated repeats,
+1 of 1 under an 83-surface contended run, and the surface perfectly healthy every time it was measured
+alone. Under the old predicate that reads as "detector noise, dismiss"; it is in fact a live P0 race in
+`home.html`'s boot order. **Do not narrow this playbook back to the first column.**
 
 **This is a FALSE-NEGATIVE-RATE problem, not a coverage problem.** If the question is "which defect
 CLASSES can this checker see at all", you want `detector-signal-coverage.md` instead. This playbook is
@@ -22,10 +38,38 @@ for "it can see this one — why didn't it?".
    page is reliably defective**. Do not spend another minute on the page. Precedent: item 221 — lens
    3/20, probe ~14/14; item 230 — same defect 10/10 with its own instrument; item 231 — lens 2/10 with
    the fix mutated away, mechanism 6-occlusions-every-time once measured late enough.
-2. **Do NOT accept "resource contention" / "flaky sandbox" / "it's the CI box".** That was 221's
-   builder's dismissal and it was wrong; the verifier falsified it by simply running more trials. A
+1b. **If the probe does NOT reproduce, you are in column two — do not stop at "not reproducible".**
+   The isolated-run result has told you the surface is fine *when nothing else is competing for the
+   machine*. That is not the same as fine. Next move, before any other:
+   **read the captured error text as a causal chain and ask what single ordering produces exactly it.**
+   An intermittent finding usually arrives with a page error attached, and error text is evidence of a
+   mechanism in a way a flag count never is. In 244 the audit captured two errors together —
+   `React is not defined`, then `Cannot read properties of undefined (reading 'some')` inside
+   `getPoolTypeShared`. Reading the minified source showed both come from **one** comma-separated `var`
+   statement: the destructuring of `React` throws, so every later declarator in that statement (including
+   the array the function reads first) never assigns, while the hoisted `function` declaration stays
+   callable. Exactly one ordering produces that pair in that order — the dependency executing before the
+   global it needs. That settled it in minutes, with zero reproductions in hand.
+   Corollaries:
+   - **Two errors that arrive together are usually one event.** Do not triage them as separate findings;
+     try to derive the second from the first. If you can, you have the mechanism.
+   - **Hoisting asymmetries make partial-execution bugs look impossible.** A `function` declaration
+     survives a throw earlier in the file; `var`/`const` declarators in the same statement do not. A
+     stack frame inside a function whose module "failed to load" is not a contradiction — it is the tell.
+   - **Then confirm the ordering is unguaranteed in the source, not just plausible.** In 244:
+     `<script defer>` for the globals vs `document.body.appendChild(script)` for the consumer —
+     dynamically inserted scripts are async by default, so nothing sequenced them. A comment claiming an
+     ordering guarantee counts for nothing if it covers a *different* pair than the one that broke
+     (244's comment ordered the two compiled bundles against each other and said nothing about React).
+   - **Contention is the trigger, never the cause.** Once the mechanism is named, the fix targets the
+     missing barrier — not the load that exposed it, and not the detector.
+
+2. **Do NOT accept "resource contention" / "flaky sandbox" / "it's the CI box" as a VERDICT.** That was
+   221's builder's dismissal and it was wrong; the verifier falsified it by simply running more trials. A
    detector is allowed to be slow, never allowed to be silent. Treat an intermittency claim without a
-   measured mechanism as an open question, not an answer.
+   measured mechanism as an open question, not an answer — and note that step 1b closes the other exit
+   too: "it only happens under load" is a description of the trigger, so it is never a reason to close a
+   finding either. Both dismissals are the same error wearing different clothes.
 3. **Find WHERE in the pipeline the run dies — do not guess between rival hypotheses, instrument the
    stages.** Sample the detector's own evaluation at increasing delays past its existing settle and print
    the result at each mark. In item 231 this took one patch and three runs:
@@ -124,8 +168,19 @@ LOG, not in the reader's inference.
    whole driver top to bottom before forming a hypothesis about the page** — and when two gates on the
    same surface list were written by different items, check whether any surface satisfies both.
 
+7. **A render failure SUBTRACTS findings, and the subtraction reads as an improvement.** When a surface
+   fails to render at all, every other lens on it reports nothing — so the tick's totals go *down*. On
+   2026-08-06 the occlusion count fell 6 → 4 and the two that disappeared were `grid-token`'s, absent
+   only because the page never produced a pool card for the lens to test; isolated runs confirmed both
+   were still there. Decision rule: **before writing any count delta, check whether a surface dropped out
+   of the denominator.** A finding count is only comparable across ticks when the surface set that
+   produced it is the same set. This is the count-level twin of the population-scoped-denominator rule.
+
 ## Provenance
 
+- Item **244** (2026-08-06) — column two: the product as the flaky half; the error-signature-as-causal-
+  chain move (step 1b); the hoisting asymmetry; and trap 7, the render failure that quietly lowered the
+  occlusion count.
 - Item **233** (2026-08-05) — the ancestor-transform door, the 0/10 pre-fix rate, trap 6 (harness
   self-interference), and the reminder that a non-opacity-gated read is not an animation-independent one.
 - Item **231** (2026-08-05) — the mechanism, the fix, the rate harness, all numbers above.

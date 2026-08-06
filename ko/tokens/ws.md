@@ -1,15 +1,15 @@
 # WS 디파이 수익률
 
-현재 WS의 가장 높은 정직한 수익률은 Sonic의 aave-v3에서 68.46%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WS의 가장 높은 정직한 수익률은 Sonic의 shadow-exchange-clmm에서 83.16%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.07% | $847K |
-| [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.02% | $238.8K |
-| [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 68.46% | $195.5K |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 7.07% | $178.7K |
-| [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.34% | $168.4K |
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 4.18% | $146.5K |
+| [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.07% | $853.1K |
+| [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.02% | $240.6K |
+| [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 83.16% | $194K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 7.06% | $179K |
+| [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.40% | $167.5K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.11% | $143.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@
 
 ### 오늘 WS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sonic의 aave-v3에서 APY 68.46%예요.
+DefiLlama 실시간 데이터 기준, Sonic의 shadow-exchange-clmm에서 APY 83.16%예요.
 
 ### WS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -40,4 +40,4 @@ DefiLlama 실시간 데이터 기준, Sonic의 aave-v3에서 APY 68.46%예요.
 
 - [Sonic](https://www.defi.garden/ko/chains/sonic)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

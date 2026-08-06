@@ -1,10 +1,10 @@
 # ARC DeFi Yields
 
-The highest honest ARC yield right now is 16.68% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARC yield right now is 14.96% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token) | Solana | 16.68% | $3.26M |
+| [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token) | Solana | 14.96% | $3.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARC yield today?
 
-16.68% APY on raydium-amm (Solana), based on live DefiLlama data.
+14.96% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ARC pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

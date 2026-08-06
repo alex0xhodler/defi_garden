@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, Neo의 flamingo-finance에서 APY 5.49%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
-- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Base](https://www.defi.garden/ko/chains/base)
+- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Neo의 flamingo-finance에서 APY 5.49%예
 - [FLM](https://www.defi.garden/ko/tokens/flm)
 - [BNEO](https://www.defi.garden/ko/tokens/bneo)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -1,11 +1,11 @@
 # OSBGT DeFi Yields
 
-The highest honest OSBGT yield right now is 31.39% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OSBGT yield right now is 30.50% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 31.39% | $526K |
-| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 22.32% | $485.7K |
+| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 30.50% | $515.5K |
+| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 21.25% | $476K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OSBGT yield today?
 
-31.39% APY on berapaw (Berachain), based on live DefiLlama data.
+30.50% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many OSBGT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.01M in total.
+2 live pools clear this page's $100K TVL floor, $991.5K in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
-- [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [HONEY](https://www.defi.garden/tokens/honey)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

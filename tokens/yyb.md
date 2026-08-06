@@ -1,12 +1,12 @@
 # YYB DeFi Yields
 
-The highest honest YYB yield right now is 35.69% on yearn-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YYB yield right now is 32.68% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 25.37% | $230.6K |
-| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 19.74% | $210.6K |
-| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 35.69% | $128.5K |
+| [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 25.07% | $229.6K |
+| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 16.58% | $209.2K |
+| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 32.68% | $127.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YYB yield today?
 
-35.69% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+32.68% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YYB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $569.6K in total.
+3 live pools clear this page's $100K TVL floor, $566.5K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

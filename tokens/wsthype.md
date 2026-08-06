@@ -4,8 +4,8 @@ The highest honest WSTHYPE yield right now is 0.08% on hypurrfi-pooled (Hyperliq
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token) | Hyperliquid L1 | 0.08% | $1.06M |
-| [euler-v2 →](https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token) | Hyperliquid L1 | 0.02% | $386.3K |
+| [hypurrfi-pooled →](https://www.defi.garden/?pool=55cf1cbe-b007-4fa6-8837-a54d872bb1f4&src=seo_token) | Hyperliquid L1 | 0.08% | $1.04M |
+| [euler-v2 →](https://www.defi.garden/?pool=f30e2df1-097d-45d3-832c-e7dac5af5781&src=seo_token) | Hyperliquid L1 | 0.02% | $380.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WSTHYPE pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $115.43M in total.
+6 live pools clear this page's $100K TVL floor, $113.54M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

@@ -2,7 +2,7 @@
 
 **Total APY:** 2.80% (2.80% Base · + 0.00% Rewards)
 
-**TVL:** $841.8K
+**TVL:** $842.1K
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 
-Last updated August 5, 2026
+Last updated August 6, 2026

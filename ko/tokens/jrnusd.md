@@ -1,10 +1,10 @@
 # JRNUSD 디파이 수익률
 
-현재 JRNUSD의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 7.11%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JRNUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 7.11%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=947928b7-c446-49d7-a378-392df37660f7&src=seo_token) | Ethereum | 3.28% | $352.1K |
+| [strata-markets →](https://www.defi.garden/?pool=947928b7-c446-49d7-a378-392df37660f7&src=seo_token) | Ethereum | 2.53% | $351.4K |
 | [pendle →](https://www.defi.garden/?pool=35fb4bd5-292b-4f5e-a030-94906f1f83a0&src=seo_token) | Ethereum | 4.62% | $183.7K |
 | [pendle →](https://www.defi.garden/?pool=e1d604f7-2977-42c6-8dbb-3ce933e19af6&src=seo_token) | Ethereum | 7.11% | $183.7K |
 
@@ -14,11 +14,11 @@
 
 ### 오늘 JRNUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 7.11%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 7.11%예요.
 
 ### JRNUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $719.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $718.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 7.11%
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

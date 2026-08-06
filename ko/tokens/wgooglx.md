@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Mantle의 fluxion-network에서 APY 1.34%�
 
 - [Mantle](https://www.defi.garden/ko/chains/mantle)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -1,12 +1,12 @@
 # ZEN DeFi Yields
 
-The highest honest ZEN yield right now is 14.99% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEN yield right now is 25.08% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8&src=seo_token) | Base | 14.50% | $1.79M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2&src=seo_token) | Base | 13.32% | $1.1M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f8bc842a-cd86-4128-8fae-e316ec118def&src=seo_token) | Base | 14.99% | $165.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8&src=seo_token) | Base | 36.82% | $1.73M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2&src=seo_token) | Base | 25.08% | $1.07M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f8bc842a-cd86-4128-8fae-e316ec118def&src=seo_token) | Base | 77.49% | $165.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZEN yield today?
 
-14.99% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+25.08% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ZEN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.06M in total.
+3 live pools clear this page's $100K TVL floor, $2.97M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

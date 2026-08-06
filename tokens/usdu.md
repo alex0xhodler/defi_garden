@@ -4,8 +4,8 @@ The highest honest USDU yield right now is 0.04% on kamino-liquidity (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=6ded470a-8cfe-4d41-9c3c-df3262908cbc&src=seo_token) | Solana | 0.04% | $4.01M |
 | [orca-dex →](https://www.defi.garden/?pool=5fd4f164-50d7-4d9e-9cb8-6eb62ac9f44c&src=seo_token) | Solana | 0.01% | $4.01M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=6ded470a-8cfe-4d41-9c3c-df3262908cbc&src=seo_token) | Solana | 0.04% | $4.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

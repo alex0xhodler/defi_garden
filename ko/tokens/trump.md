@@ -1,13 +1,14 @@
 # TRUMP 디파이 수익률
 
-현재 TRUMP의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 8.25%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TRUMP의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 9.25%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token) | Solana | 1.76% | $795.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token) | Solana | 2.02% | $791.6K |
-| [orca-dex →](https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token) | Solana | 8.25% | $139.2K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token) | Solana | 7.49% | $138.7K |
+| [orca-dex →](https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token) | Solana | 1.97% | $792.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token) | Solana | 2.18% | $788K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=23e26be6-8223-47ff-b33d-2014ee8693e6&src=seo_token) | Ethereum | 0.14% | $511.5K |
+| [orca-dex →](https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token) | Solana | 9.25% | $138.1K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token) | Solana | 7.27% | $137.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +16,7 @@
 
 ### 오늘 TRUMP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 8.25%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 9.25%예요.
 
 ### TRUMP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -27,15 +28,16 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 8.25%예요.
 
 ## 관련 토큰
 
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
-- [USTB](https://www.defi.garden/ko/tokens/ustb)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
+- [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -48,7 +48,9 @@ const {
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
-  yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages
+  yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages,
+  // item 243: reuse 242's headline-selection gate — no local definition.
+  headlinePoolFor, isRepresentativeRate
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -166,7 +168,11 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const genDate = generatedDate || todayGeneratedDate();
   const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
   const ogImageUrl = `${SITE_URL}/${ogImageRelPath}`;
-  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
+  // item 243: the headline claim (rate + the pool named beside it) must come
+  // from ONE pool that passes isRepresentativeRate — same gate 242 shipped
+  // for token pages, reused here rather than re-implemented.
+  const headlinePool = headlinePoolFor(rec.pools);
+  const bestApy = poolTotalApy(headlinePool);
   const tokenCount = rec.tokens.length;
   const title = t('tcpChainTitle', rec.chain);
   // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
@@ -207,7 +213,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
   // table/intro above already use — never touches raw pool data, so an
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
-  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, language);
+  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, headlinePool, language);
   const answerBlock = renderAnswerBlockHtml(answer, 'cp-answer');
 
   // Honest per-chain yield headline (075): reuses generate-token-pages.js's
@@ -419,13 +425,15 @@ function renderChainPageMarkdown(rec, related, generatedDate, tokenLinks, lang) 
   const t = createTranslationFunction(language);
   const genDate = generatedDate || todayGeneratedDate();
   const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}&minTvl=${MIN_POOL_TVL}`;
-  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
-  const top = rec.pools[0];
+  // item 243: identical substitution to the HTML path above — the headline
+  // rate and the pool attributed beside it always come from the same pool.
+  const headlinePool = headlinePoolFor(rec.pools);
+  const bestApy = poolTotalApy(headlinePool);
   // 174: the floor claim below derives from MIN_POOL_TVL, same as the HTML —
   // never a re-typed literal.
   const floorStr = formatUsd(MIN_POOL_TVL);
 
-  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, language);
+  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, headlinePool, language);
 
   const rows = rec.pools.map(p => {
     const poolHref = poolHrefFor(p, appUrl, 'seo_chain');

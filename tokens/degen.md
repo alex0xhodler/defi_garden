@@ -1,11 +1,11 @@
 # DEGEN DeFi Yields
 
-The highest honest DEGEN yield right now is 37.44% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEGEN yield right now is 42.47% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 3.81% | $1.04M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 37.44% | $121.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 4.28% | $1.04M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 42.47% | $121.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEGEN yield today?
 
-37.44% APY on uniswap-v3 (Base), based on live DefiLlama data.
+42.47% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DEGEN pools clear the TVL floor?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

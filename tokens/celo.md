@@ -1,10 +1,10 @@
 # CELO DeFi Yields
 
-The highest honest CELO yield right now is 7.59% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CELO yield right now is 7.60% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 7.59% | $589.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 7.60% | $971.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CELO yield today?
 
-7.59% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+7.60% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many CELO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $589.5K in total.
+1 live pool clear this page's $100K TVL floor, $971.5K in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CUSD](https://www.defi.garden/tokens/cusd)
-- [EURM](https://www.defi.garden/tokens/eurm)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
+- [EURM](https://www.defi.garden/tokens/eurm)
 - [CEUR](https://www.defi.garden/tokens/ceur)
 - [AXLEUROC](https://www.defi.garden/tokens/axleuroc)
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

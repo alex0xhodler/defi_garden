@@ -1,10 +1,10 @@
 # STNK DeFi Yields
 
-The highest honest STNK yield right now is 8.96% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STNK yield right now is 11.61% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8213e8ac-65e1-4fdd-86e6-2e22461d4262&src=seo_token) | Solana | 8.96% | $252.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=8213e8ac-65e1-4fdd-86e6-2e22461d4262&src=seo_token) | Solana | 11.61% | $256.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STNK yield today?
 
-8.96% APY on raydium-amm (Solana), based on live DefiLlama data.
+11.61% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STNK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $252.6K in total.
+1 live pool clear this page's $100K TVL floor, $256.8K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 6, 2026

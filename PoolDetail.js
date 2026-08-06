@@ -817,7 +817,13 @@ function PoolDetail({
             // elsewhere (demote + flag convention) — this gate is display-only,
             // on this node.
             ? (t ? t('projectionBodyOutOfRange') : 'This rate is too far outside normal ranges to project a dollar amount from — the number would be fiction, not a forecast.')
-            : (t ? t('projectionBody', investmentAmount, PROJECTION_YEARS, projectionAmount) :
+            // 241: projectionAmount pre-rounded to a whole dollar before t() —
+            // the translations.js entry no longer applies its own
+            // maximumFractionDigits:0 (the accessor chokepoint pre-formats
+            // numeric args via the shared formatCount, which has no rounding
+            // option), so the caller must round first. Matches the
+            // Math.round() already used in the no-t fallback string below.
+            : (t ? t('projectionBody', investmentAmount, PROJECTION_YEARS, Math.round(projectionAmount)) :
                 `$${Number(investmentAmount || 0).toLocaleString('en-US')} in this pool grows to ~${_formatUsd(projectionAmount, 0)} in ${PROJECTION_YEARS}y at current rates.`)),
           // Yield-funded thesis line (129): the deposit stays the user's — you keep
           // your money AND it keeps working. Honest framing, no numbers to rail.
@@ -1001,8 +1007,9 @@ function PoolDetail({
                 });
               }
             }
-          }, showConcreteCta
-            ? (t ? t('gardenThisPoolCtaConcrete', projectionAmount, PROJECTION_YEARS)
+}, showConcreteCta
+            // 241: pre-rounded before t() — see projectionBody's call above for why.
+            ? (t ? t('gardenThisPoolCtaConcrete', Math.round(projectionAmount), PROJECTION_YEARS)
                  : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y`)
             : (t ? t('gardenThisPoolCta') : 'Garden this pool →')),
           React.createElement('p', { className: 'pool-action-hint' },

@@ -25,8 +25,8 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 6.0
 ## 관련 토큰
 
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
-- [USCC](https://www.defi.garden/ko/tokens/uscc)
 - [NOPAL](https://www.defi.garden/ko/tokens/nopal)
+- [USCC](https://www.defi.garden/ko/tokens/uscc)
 - [NFALCON](https://www.defi.garden/ko/tokens/nfalcon)
 - [NCLOA](https://www.defi.garden/ko/tokens/ncloa)
 - [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 6.0
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

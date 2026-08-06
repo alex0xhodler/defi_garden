@@ -1,6 +1,6 @@
 # USDC-MPST — orca-dex on Solana
 
-**Total APY:** 0.04% (0.04% Base · + 0.00% Rewards)
+**Total APY:** 0.03% (0.03% Base · + 0.00% Rewards)
 
 **TVL:** $127.5K
 
@@ -31,4 +31,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on orca-dex](https://www.orca.so/?ref=defi.garden)
 
-Last updated August 5, 2026
+Last updated August 6, 2026

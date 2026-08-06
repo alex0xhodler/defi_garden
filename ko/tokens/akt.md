@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83&src=seo_token) | Osmosis | 0.07% | $176.5K |
-| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 7.60% | $156.7K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.50% | $112.2K |
+| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83&src=seo_token) | Osmosis | 0.08% | $171.4K |
+| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 7.60% | $151.4K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.57% | $110.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 7.60%예�
 
 ### AKT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $445.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $433.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 7.60%예�
 
 - [Osmosis](https://www.defi.garden/ko/chains/osmosis)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

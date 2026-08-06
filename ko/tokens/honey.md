@@ -1,16 +1,16 @@
 # HONEY 디파이 수익률
 
-현재 HONEY의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 37.16%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HONEY의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 33.35%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.09% | $1.64M |
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.28% | $1.06M |
-| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.28% | $454.4K |
-| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.42% | $249.6K |
-| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 20.89% | $197.5K |
-| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 2.66% | $137.7K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 37.16% | $104.4K |
+| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.05% | $1.64M |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.24% | $1.05M |
+| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.25% | $454.2K |
+| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.35% | $248.5K |
+| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 19.82% | $197.2K |
+| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 2.17% | $137.1K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 34.40% | $107.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@
 
 ### 오늘 HONEY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 37.16%예요.
+DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 33.35%예요.
 
 ### HONEY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -31,8 +31,8 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 37.16%예�
 ## 관련 토큰
 
 - [UNIBTC](https://www.defi.garden/ko/tokens/unibtc)
-- [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
+- [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/ko/tokens/ibera)
 - [RE7HONEY](https://www.defi.garden/ko/tokens/re7honey)
 - [CSRHONEY](https://www.defi.garden/ko/tokens/csrhoney)
@@ -41,4 +41,4 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 37.16%예�
 
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, TAC의 midas-rwa에서 APY 8.74%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
-- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Base](https://www.defi.garden/ko/chains/base)
+- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, TAC의 midas-rwa에서 APY 8.74%예요.
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 6, 2026

@@ -866,9 +866,27 @@
     if (typeof window !== 'undefined' && window.translations) return window.translations;
     return null;
   }
+  // 241: mirrors translations.js's formatCount at the makeT() accessor
+  // chokepoint, so a numeric arg is en-US grouped before any dictionary
+  // entry sees it (same fix, same rationale as createTranslationFunction).
+  // Same graceful-degradation contract as safeTranslations() above (spec
+  // 082): translations.min.js — which defines the shared window.formatCount
+  // global — may not have loaded yet, so this must never throw on a missing
+  // global. Prefer the real shared global; only degrade to an inline
+  // identity-safe copy if it's absent.
+  function applyPinnedCounts(args) {
+    var fmt = (typeof window !== 'undefined' && typeof window.formatCount === 'function')
+      ? window.formatCount
+      : function (value) {
+          return (typeof value === 'number' && isFinite(value)) ? value.toLocaleString('en-US') : value;
+        };
+    var out = [];
+    for (var i = 0; i < args.length; i++) out.push(fmt(args[i]));
+    return out;
+  }
   function makeT(lang) {
     return function t(key) {
-      var args = Array.prototype.slice.call(arguments, 1);
+      var args = applyPinnedCounts(Array.prototype.slice.call(arguments, 1));
       // Re-check on every call so strings recover if translations loads late.
       var tr = safeTranslations();
       if (!tr) return key; // graceful degradation: key-echo (same as unknown key)
