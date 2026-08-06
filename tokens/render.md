@@ -1,12 +1,12 @@
 # RENDER DeFi Yields
 
-The highest honest RENDER yield right now is 12.32% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RENDER yield right now is 12.02% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 12.32% | $391K |
-| [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.04% | $277.6K |
-| [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 5.51% | $225.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 12.02% | $387.7K |
+| [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.04% | $275.7K |
+| [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 4.25% | $223.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RENDER yield today?
 
-12.32% APY on raydium-amm (Solana), based on live DefiLlama data.
+12.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RENDER pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $894.1K in total.
+3 live pools clear this page's $100K TVL floor, $886.8K in total.
 
 ### Are these rates safe?
 

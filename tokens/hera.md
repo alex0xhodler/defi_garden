@@ -1,10 +1,10 @@
 # HERA DeFi Yields
 
-The highest honest HERA yield right now is 0.05% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HERA yield right now is 1.58% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=75e2bc38-9a68-489d-a51a-d5602e68b818&src=seo_token) | Ethereum | 0.05% | $465.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=75e2bc38-9a68-489d-a51a-d5602e68b818&src=seo_token) | Ethereum | 1.58% | $461K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HERA yield today?
 
-0.05% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.58% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $465.1K in total.
+1 live pool clear this page's $100K TVL floor, $461K in total.
 
 ### Are these rates safe?
 

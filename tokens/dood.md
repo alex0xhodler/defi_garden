@@ -1,11 +1,11 @@
 # DOOD DeFi Yields
 
-The highest honest DOOD yield right now is 4.82% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOOD yield right now is 11.86% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token) | Solana | 2.56% | $429.3K |
-| [orca-dex →](https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token) | Solana | 4.82% | $124.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token) | Solana | 8.70% | $431.5K |
+| [orca-dex →](https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token) | Solana | 11.86% | $124.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOOD yield today?
 
-4.82% APY on orca-dex (Solana), based on live DefiLlama data.
+11.86% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many DOOD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $553.5K in total.
+2 live pools clear this page's $100K TVL floor, $556.2K in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # ANKRETH 디파이 수익률
 
-현재 ANKRETH의 가장 높은 정직한 수익률은 Ethereum의 ankr에서 2.71%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ANKRETH의 가장 높은 정직한 수익률은 Ethereum의 ankr에서 2.74%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.71% | $16.3M |
-| [curve-dex →](https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token) | Ethereum | 1.22% | $109.6K |
+| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.74% | $16.26M |
+| [curve-dex →](https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token) | Ethereum | 1.22% | $109.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 ANKRETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 ankr에서 APY 2.71%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 ankr에서 APY 2.74%예요.
 
 ### ANKRETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $16.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $16.37M예요.
 
 ### 이 수익률은 안전한가요?
 

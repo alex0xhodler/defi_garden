@@ -1,11 +1,11 @@
 # NOT DeFi Yields
 
-The highest honest NOT yield right now is 13.00% on storm-trade (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOT yield right now is 12.99% on storm-trade (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 13.00% | $157.7K |
-| [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 9.10% | $156.2K |
+| [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 12.99% | $157.1K |
+| [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 9.56% | $154.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NOT yield today?
 
-13.00% APY on storm-trade (TON), based on live DefiLlama data.
+12.99% APY on storm-trade (TON), based on live DefiLlama data.
 
 ### How many NOT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $313.9K in total.
+2 live pools clear this page's $100K TVL floor, $311.8K in total.
 
 ### Are these rates safe?
 

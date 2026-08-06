@@ -1,11 +1,11 @@
 # YNG 디파이 수익률
 
-현재 YNG의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 0.70%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YNG의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 0.71%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e&src=seo_token) | Ethereum | 0.17% | $1.82M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d&src=seo_token) | Ethereum | 0.70% | $453.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e&src=seo_token) | Ethereum | 0.17% | $1.81M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d&src=seo_token) | Ethereum | 0.71% | $452K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 YNG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.70%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.71%예요.
 
 ### YNG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

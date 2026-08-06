@@ -4,8 +4,8 @@ The highest honest SATUSDC yield right now is 5.53% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 5.34% | $3.29M |
-| [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 5.53% | $1.13M |
+| [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 5.33% | $3.23M |
+| [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 5.53% | $1.11M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SATUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.42M in total.
+2 live pools clear this page's $100K TVL floor, $4.34M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 237.89% | $2.74M |
+| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 278.28% | $2.75M |
 | [pendle →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5&src=seo_token) | Ethereum | 14.57% | $256.8K |
 | [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 63.59% | $256.8K |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 14.57%예요.
 
 ### SRROYAPYUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $3.25M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $3.27M예요.
 
 ### 이 수익률은 안전한가요?
 

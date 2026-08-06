@@ -1,16 +1,16 @@
 # WBNB DeFi Yields
 
-The highest honest WBNB yield right now is 22.72% on uniswap-v3 (BSC), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBNB yield right now is 21.12% on uniswap-v3 (BSC), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.19% | $238.55M |
-| [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.01% | $67.18M |
-| [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.14% | $52.43M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 15.35% | $7.42M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.04% | $7.41M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token) | BSC | 12.78% | $5.26M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token) | BSC | 22.72% | $4.12M |
+| [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.19% | $237.86M |
+| [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.01% | $66.89M |
+| [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.15% | $52.21M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 13.57% | $7.41M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.04% | $7.37M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token) | BSC | 12.84% | $5.19M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token) | BSC | 21.12% | $4.14M |
 | [kinza-finance →](https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token) | BSC | 0.19% | $1.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WBNB yield today?
 
-22.72% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+21.12% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many WBNB pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $392.73M in total.
+33 live pools clear this page's $100K TVL floor, $391.36M in total.
 
 ### Are these rates safe?
 

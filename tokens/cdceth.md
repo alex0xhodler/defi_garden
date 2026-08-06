@@ -4,10 +4,10 @@ The highest honest CDCETH yield right now is 1.45% on crypto.com-liquid-staking 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5&src=seo_token) | Cronos | 1.45% | $17.98M |
-| [vvs-standard →](https://www.defi.garden/?pool=ffcad946-616c-53c4-b3c6-6565d9a906ec&src=seo_token) | Cronos | 0.02% | $6.39M |
-| [tectonic →](https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4&src=seo_token) | Cronos | 0.03% | $777.2K |
-| [vvs-standard →](https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9&src=seo_token) | Cronos | 0.71% | $116.9K |
+| [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5&src=seo_token) | Cronos | 1.45% | $17.94M |
+| [vvs-standard →](https://www.defi.garden/?pool=ffcad946-616c-53c4-b3c6-6565d9a906ec&src=seo_token) | Cronos | 0.02% | $6.37M |
+| [tectonic →](https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4&src=seo_token) | Cronos | 0.03% | $777.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9&src=seo_token) | Cronos | 0.84% | $116.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CDCETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $25.26M in total.
+4 live pools clear this page's $100K TVL floor, $25.2M in total.
 
 ### Are these rates safe?
 

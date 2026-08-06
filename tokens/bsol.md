@@ -4,11 +4,11 @@ The highest honest BSOL yield right now is 5.20% on blazestake (Solana), among 8
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 5.20% | $67.22M |
-| [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $6.07M |
-| [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $3.81M |
-| [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 0.25% | $429.5K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.28% | $400.1K |
+| [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 5.20% | $66.57M |
+| [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $6.01M |
+| [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $3.77M |
+| [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 0.19% | $440.8K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.27% | $395.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BSOL pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $99.74M in total.
+8 live pools clear this page's $100K TVL floor, $98.92M in total.
 
 ### Are these rates safe?
 

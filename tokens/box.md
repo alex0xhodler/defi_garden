@@ -1,11 +1,11 @@
 # BOX DeFi Yields
 
-The highest honest BOX yield right now is 19.38% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOX yield right now is 17.39% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token) | BSC | 19.38% | $119.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token) | Ethereum | 1.54% | $101.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token) | BSC | 17.39% | $118.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token) | Ethereum | 1.55% | $101.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOX yield today?
 
-19.38% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+17.39% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BOX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $221.3K in total.
+2 live pools clear this page's $100K TVL floor, $219.8K in total.
 
 ### Are these rates safe?
 

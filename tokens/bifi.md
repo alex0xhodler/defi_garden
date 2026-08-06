@@ -1,10 +1,10 @@
 # BIFI DeFi Yields
 
-The highest honest BIFI yield right now is 3.55% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIFI yield right now is 0.92% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c1ffafe1-fbd3-4ec2-8055-51306afd0f0f&src=seo_token) | Ethereum | 3.55% | $265K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c1ffafe1-fbd3-4ec2-8055-51306afd0f0f&src=seo_token) | Ethereum | 0.92% | $264.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BIFI yield today?
 
-3.55% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.92% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BIFI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.65M in total.
+3 live pools clear this page's $100K TVL floor, $2.64M in total.
 
 ### Are these rates safe?
 

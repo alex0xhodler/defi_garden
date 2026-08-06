@@ -1,12 +1,12 @@
 # AKT 디파이 수익률
 
-현재 AKT의 가장 높은 정직한 수익률은 Osmosis의 osmosis-dex에서 7.60%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AKT의 가장 높은 정직한 수익률은 Osmosis의 osmosis-dex에서 7.23%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83&src=seo_token) | Osmosis | 0.08% | $171.4K |
-| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 7.60% | $151.4K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.57% | $110.4K |
+| [osmosis-dex →](https://www.defi.garden/?pool=59814a74-463d-4fb8-ba51-44443a7a7d83&src=seo_token) | Osmosis | 0.08% | $171.2K |
+| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 7.23% | $150.9K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2663b29c-a98c-44c8-b511-af4ffa59d639&src=seo_token) | Osmosis | 0.56% | $110.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +14,11 @@
 
 ### 오늘 AKT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 7.60%예요.
+DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 7.23%예요.
 
 ### AKT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $433.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $432.4K예요.
 
 ### 이 수익률은 안전한가요?
 

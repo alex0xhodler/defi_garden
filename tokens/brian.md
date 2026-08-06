@@ -1,11 +1,11 @@
 # BRIAN DeFi Yields
 
-The highest honest BRIAN yield right now is 43.51% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRIAN yield right now is 33.89% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token) | Base | 43.51% | $131.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token) | Base | 0.30% | $104.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8821a90f-b110-5691-86d6-c765206c1c63&src=seo_token) | Base | 33.89% | $130.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fa9795a9-8dd0-5316-9837-675ca8c3eabf&src=seo_token) | Base | 0.31% | $104.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRIAN yield today?
 
-43.51% APY on uniswap-v4 (Base), based on live DefiLlama data.
+33.89% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BRIAN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $236.6K in total.
+2 live pools clear this page's $100K TVL floor, $234.9K in total.
 
 ### Are these rates safe?
 

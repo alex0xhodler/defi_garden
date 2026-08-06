@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $487.1K
+**TVL:** $491.9K
 
 **Pool Type:** Lending
 
@@ -19,7 +19,7 @@ Moderate risk profile
 - Low liquidity
 - Credit risk
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$1,000 in 5y at current rates.
 

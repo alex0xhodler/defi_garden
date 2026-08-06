@@ -4,8 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token) | Base | 0.01% | $146.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $146K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token) | Base | 0.01% | $145.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $145.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token) | Arbitrum | 0.01% | $145.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.01%예요.
 
 ### NYA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $438.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $436.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -30,11 +31,12 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.01%예요.
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
-- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
+- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
 ## 마지막 업데이트: August 6, 2026

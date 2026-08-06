@@ -4,7 +4,7 @@ The highest honest XAU yield right now is 80.56% on gmtrade (Solana), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=3c93e06c-f309-47d4-b9bd-7212c5401c67&src=seo_token) | Solana | 80.56% | $2.44M |
+| [gmtrade →](https://www.defi.garden/?pool=3c93e06c-f309-47d4-b9bd-7212c5401c67&src=seo_token) | Solana | 80.56% | $2.46M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XAU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.44M in total.
+1 live pool clear this page's $100K TVL floor, $2.46M in total.
 
 ### Are these rates safe?
 
