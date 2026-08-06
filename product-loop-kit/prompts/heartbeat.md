@@ -26,6 +26,28 @@ Any falsifiable prediction filed in a snapshot is stated in its **WEAKEST form**
 ## 2b. Product audit — the pre-traffic primary job (when the funnel is unmeasurable)
 If traffic is below the minimum-sample threshold (no measurable funnel signal — the current reality), a metric-only tick has nothing to act on, and optimizing an unmeasurable funnel is premature (NORTH_STAR standing decision 2026-07-23). Do NOT no-op. Instead the tick's PRIMARY job is a **product audit**: follow `playbooks/product-audit.md` — drive the real rendered app across a rotating subset of surfaces (fixture-routed Playwright / the committed snapshot, since external HTTPS is sandbox-blocked) and find the bug classes that need NO traffic to find: broken/absurd numbers, dead-ends for valid queries, loading flashes, page/console errors, money/i18n format bugs, dead CTAs, responsive/dark breakage. These are exactly what the human keeps catching by hand (122/126/132/133…). Feed findings into §3/§4 as scored opportunities. The §2 metric read still runs — record the zero; a guardrail breach (e.g. an `error_occurred` spike) still outranks everything — it just no longer gates the tick to a no-op. When traffic becomes measurable, metric-triage resumes as primary and the audit drops to a rotating background check.
 
+## 2c. Orphan-PR check (item 245 — every tick, no traffic dependency)
+A loop-opened PR can finish work and then disappear from view: no verifier verdict, no PARKED/BLOCKED
+title, nothing scheduled to finish it (precedent: #399/item 239, found stuck ~15h with a complete,
+self-tested build and zero flags). Each tick:
+1. `list_pull_requests` (state=open) for every open PR.
+2. Read `product-loop-kit/BACKLOG.md`.
+3. Feed both into `product-loop-kit/pr-orphan-detector.js`'s `classifyAll(prs, backlogText)` (or its CLI,
+   `node product-loop-kit/pr-orphan-detector.js --prs=<path-to-json>`) — classifies every open PR into
+   `{merged, PARKED, BLOCKED, human-gated, ORPHAN}`. Read the module's header comment before touching it —
+   it documents a named, deliberate detection gap (no legend marker exists for "verified, awaiting a human
+   merge action"; the fallback heuristic can miss one that never says the word "human").
+4. Append the count + list to the signals snapshot (see §1's "Save the raw numbers snapshot" — add a line:
+   `Orphan PRs: <N> (#<num>, #<num>, ...)` or `Orphan PRs: 0`). A non-zero count is a report line in §4.
+5. Detection only — do not merge, re-verify, or renumber anything here (loop-container-contention.md's
+   "renumbering mid-run" trap). An ORPHAN's disposition (run the verifier, or close and re-file) is a
+   question for a build run or the human, surfaced in the report, never resolved inside the heartbeat.
+6. Leg B, only when this tick is about to allocate a new BACKLOG id (heartbeat or build): compute it via
+   `computeNextId(mainMaxId, openPrBranchIds)`, not `main`'s max alone — `openPrBranchIds` comes from
+   `git ls-remote 'refs/heads/claude/loop-*'` cross-referenced against each branch's added BACKLOG row ids.
+   If a collision is detected (`detectIdCollisions`), name both items in the report rather than silently
+   renumbering.
+
 ## 3. Produce opportunities (3–7, no more)
 Opportunities come from the metric signal (§2) OR the product audit (§2b) — whichever the tick has. Stay inside the weekly theme unless something is on fire (guardrail breached, or a P0 audit finding — a broken/absurd number or page error on a live surface outranks the theme). For each:
 - Evidence: the specific numbers verbatim (metric) OR the rendered repro — surface + what shows (audit)
