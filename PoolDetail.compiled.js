@@ -441,7 +441,11 @@ function PoolDetail({
   // The old detached right-hand .pool-action-card, the decorative gradient
   // overlay, and the gradient-text APY are gone (craft-floor bans).
   React.createElement('div', {
-    className: 'pool-hero-card animate-on-mount'
+    // 247 world: `is-anomalous` carries the trust rail into the engraving —
+    // the sheet's security work prints in caution ink when the rate is past
+    // the sanity limit. Purely presentational; the rail itself (the carmine
+    // rate, the warning slip, forced High risk) is unchanged.
+    className: `pool-hero-card animate-on-mount${isAnomalous ? ' is-anomalous' : ''}`
   }, React.createElement('div', {
     className: 'pool-hero-content'
   },
@@ -494,7 +498,7 @@ function PoolDetail({
   React.createElement('div', {
     className: 'pool-hero-metric'
   }, React.createElement('div', {
-    className: 'pool-action-apy'
+    className: `pool-action-apy${totalApy === 0 ? ' is-zero' : ''}`
   }, React.createElement('div', {
     className: 'pool-action-apy-label'
   }, t ? t('totalApy') : 'Total APY'), React.createElement('div', {
@@ -573,6 +577,20 @@ function PoolDetail({
   React.createElement('div', {
     className: 'pool-hero-action-secondary'
   }, ...renderProtocolCtaBlock('hero')))),
+  // Engraved rule between the document's clauses (247 world). Decorative
+  // only: aria-hidden, no text, and the ornament primitives are
+  // pointer-events: none, so this can never sit between a user and a
+  // control.
+  React.createElement('div', {
+    className: 'cert-divider',
+    'aria-hidden': 'true'
+  }, React.createElement('span', {
+    className: 'orn-band cert-divider-strand'
+  }), React.createElement('span', {
+    className: 'cert-divider-node'
+  }), React.createElement('span', {
+    className: 'orn-band cert-divider-strand'
+  })),
   // Collapsible Yield Calculator — now the single "your garden" earnings
   // block (210 B). The standalone pool-projection-card ("THE LONG GAME")
   // and the entire quick-metrics grid (daily card, monthly card, risk card)
@@ -711,7 +729,7 @@ function PoolDetail({
   // section's one strong number (text color, tabular — gradient text
   // is banned).
   React.createElement('div', {
-    className: 'calc-readout'
+    className: `calc-readout${totalApy === 0 ? ' is-zero' : ''}`
   }, React.createElement('div', {
     className: 'calc-readout-label',
     onMouseEnter: e => {
@@ -810,6 +828,20 @@ function PoolDetail({
   React.createElement('div', {
     className: 'pool-hero-action-secondary'
   }, ...renderProtocolCtaBlock('earnings_block')))),
+  // Engraved rule between the document's clauses (247 world). Decorative
+  // only: aria-hidden, no text, and the ornament primitives are
+  // pointer-events: none, so this can never sit between a user and a
+  // control.
+  React.createElement('div', {
+    className: 'cert-divider',
+    'aria-hidden': 'true'
+  }, React.createElement('span', {
+    className: 'orn-band cert-divider-strand'
+  }), React.createElement('span', {
+    className: 'cert-divider-node'
+  }), React.createElement('span', {
+    className: 'orn-band cert-divider-strand'
+  })),
   // Collapsible Pool Information — 225 round 3c: reference-weight ledger,
   // not a grid of equal gray boxes.
   React.createElement('div', {

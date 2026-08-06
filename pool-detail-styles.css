@@ -70,6 +70,12 @@
   /* lathework strength */
   --cert-lathe: rgba(30, 92, 63, 0.30);
   --cert-lathe-soft: rgba(30, 92, 63, 0.16);
+  /* page-scale engraving: the margin strands and the watermark rosette are
+     printed at a weight the eye reads as paper, never as content */
+  --cert-lathe-underprint: rgba(30, 92, 63, 0.10);
+  --cert-lathe-caution: rgba(163, 39, 30, 0.22);
+  --cert-lathe-margin: rgba(30, 92, 63, 0.13);
+  --cert-lathe-watermark: rgba(30, 92, 63, 0.05);
   /* focus — always visible, in the world's ink */
   --cert-focus-ring: 0 0 0 3px rgba(30, 92, 63, 0.38);
 
@@ -118,6 +124,10 @@
   --cert-amber: #D9A05B;
   --cert-lathe: rgba(124, 201, 160, 0.30);
   --cert-lathe-soft: rgba(124, 201, 160, 0.14);
+  --cert-lathe-underprint: rgba(124, 201, 160, 0.11);
+  --cert-lathe-caution: rgba(229, 138, 128, 0.22);
+  --cert-lathe-margin: rgba(124, 201, 160, 0.12);
+  --cert-lathe-watermark: rgba(124, 201, 160, 0.055);
   --cert-focus-ring: 0 0 0 3px rgba(124, 201, 160, 0.4);
 }
 
@@ -143,9 +153,260 @@
     --cert-amber: #D9A05B;
     --cert-lathe: rgba(124, 201, 160, 0.30);
     --cert-lathe-soft: rgba(124, 201, 160, 0.14);
+    --cert-lathe-underprint: rgba(124, 201, 160, 0.11);
+    --cert-lathe-caution: rgba(229, 138, 128, 0.22);
+    --cert-lathe-margin: rgba(124, 201, 160, 0.12);
+    --cert-lathe-watermark: rgba(124, 201, 160, 0.055);
     --cert-focus-ring: 0 0 0 3px rgba(124, 201, 160, 0.4);
   }
 }
+
+/* ═══ ORNAMENT SYSTEM — the engraving kit ═══════════════════════════════
+   Four reusable primitives, none of them pool-detail-specific. A surface
+   adopts one by adding the class and (optionally) setting two custom
+   properties:
+
+     .orn-band     guilloché lathework running along x  (repeats)
+     .orn-strand   the same lathework turned down a page margin (repeats y)
+     .orn-rosette  the engine-turned rosette — underprint or watermark
+     .orn-corners  four engraved corner lathes inset into a box's corners
+
+   Knobs: --orn-ink (any color), --orn-size (mask-size), --orn-inset
+   (corners only). Band/strand/rosette geometry lives in assets/*.svg —
+   ONE cached copy per shape serves every instance on the page, replacing
+   the ~18KB of duplicated data URI the two hero bands used to inline. The
+   corner lathe stays inline: four rotations of a ~300-byte path, cheaper
+   than four more requests and near-free after gzip.
+
+   Every primitive is inert — no text, so nothing for a screen reader to
+   read, and pointer-events: none, so no ornament can intercept a click.
+   Ink defaults to the world's soft lathe and is always a WASH: content
+   contrast is never a negotiation with the decoration. */
+.orn-band,
+.orn-strand,
+.orn-rosette,
+.orn-corners,
+.pool-hero-content::before,
+.pool-hero-content::after,
+.pool-action-apy::before,
+.pool-hero-card::after,
+.calculator-compact::after,
+.pool-info-section::after,
+.pool-hero-actions::after,
+.pool-cta-echo::after,
+.app.pool-detail-view .app-footer::before,
+.app.dead-pool-view .empty-state::before {
+  --orn-ink: var(--cert-lathe-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* — horizontal lathework band — */
+.orn-band,
+.pool-hero-content::before,
+.pool-hero-content::after,
+.pool-hero-actions::after,
+.pool-cta-echo::after,
+.app.pool-detail-view .app-footer::before,
+.app.dead-pool-view .empty-state::before {
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size, 50px 20px);
+  mask-size: var(--orn-size, 50px 20px);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+}
+
+/* — vertical lathework strand (page margins) — */
+.orn-strand {
+  -webkit-mask-image: url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: var(--orn-size, 20px 50px);
+  mask-size: var(--orn-size, 20px 50px);
+  -webkit-mask-repeat: repeat-y;
+  mask-repeat: repeat-y;
+}
+
+/* — engine-turned rosette — */
+.orn-rosette,
+.pool-action-apy::before {
+  content: '';
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 248px;
+  height: 248px;
+  transform: translate(-50%, -50%);
+  --orn-ink: var(--cert-lathe-underprint);
+}
+
+/* — four corner lathes: the frame's engraved quoins. One layer per corner,
+     each a pre-rotated copy so a mask layer never needs a transform (the
+     transform channel belongs to the ambient motion below). — */
+.orn-corners,
+.pool-hero-card::after,
+.calculator-compact::after,
+.pool-info-section::after {
+  content: '';
+  position: absolute;
+  inset: var(--orn-inset, 9px);
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(90 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(180 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(270 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(90 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(180 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(270 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E");
+  -webkit-mask-size: var(--orn-corner-size, 34px 34px);
+  mask-size: var(--orn-corner-size, 34px 34px);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: left top, right top, right bottom, left bottom;
+  mask-position: left top, right top, right bottom, left bottom;
+}
+
+/* ── The page as a sheet ────────────────────────────────────────────────
+   Two fixed engraving layers behind the document column: guilloché strands
+   ruled down both page margins, and one watermark rosette bleeding off the
+   right edge. Both sit at z-index -1 inside the view's own stacking
+   context, so they print above the paper and beneath every scrap of
+   content; both are pointer-transparent, so hit-testing never sees them.
+   They appear only once the viewport actually HAS margins to print in —
+   below 1080px the column owns the full width and the page stays clean. */
+.app.pool-detail-view,
+.app.dead-pool-view {
+  isolation: isolate;
+}
+
+.app.pool-detail-view::before,
+.app.dead-pool-view::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--cert-lathe-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+
+.app.pool-detail-view::after,
+.app.dead-pool-view::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--cert-lathe-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+
+@media (min-width: 1080px) {
+  .app.pool-detail-view::before,
+  .app.dead-pool-view::before,
+  .app.pool-detail-view::after,
+  .app.dead-pool-view::after {
+    opacity: 1;
+  }
+}
+
+/* ── Section divider — the engraved rule between the document's clauses ─ */
+.cert-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 540px;
+  margin: -8px auto 18px auto;
+}
+
+.cert-divider .cert-divider-strand {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 14px;
+  --orn-size: 35px 14px;
+}
+
+/* the lozenge that stops the rule — a plain rotated hairline square, no
+   glyph, no icon font */
+.cert-divider-node {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  border: 1px solid var(--cert-rule-strong);
+  background: var(--cert-paper);
+}
+
+/* ── Ambient motion — the ornament layer only ───────────────────────────
+   The page never moves. These four cycles run 88–124s on the decorative
+   layers alone, in transform and opacity exclusively, so the compositor
+   owns every frame and the main thread stays at zero while the page idles.
+   Peak travel is well under a pixel per second: the watermark's ±0.9° on a
+   270px radius is ~8.5px of arc across two full minutes. Nothing here is
+   in sync with anything else — the durations are deliberately coprime so
+   the layers never pulse together and betray themselves as an effect.
+   Every one of them is switched OFF, not shortened, under
+   prefers-reduced-motion (see the end of this file). */
+@keyframes ornDrift {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(0, -17px, 0); }
+}
+
+@keyframes ornTurn {
+  from { transform: rotate(-0.9deg); }
+  to   { transform: rotate(0.9deg); }
+}
+
+@keyframes ornTurnCentered {
+  from { transform: translate(-50%, -50%) rotate(-1.1deg); }
+  to   { transform: translate(-50%, -50%) rotate(1.1deg); }
+}
+
+@keyframes ornBreathe {
+  from { opacity: 0.62; }
+  to   { opacity: 1; }
+}
+
+@media (min-width: 1080px) {
+  .app.pool-detail-view::before,
+  .app.dead-pool-view::before {
+    animation: ornDrift 113s ease-in-out infinite alternate;
+  }
+
+  .app.pool-detail-view::after,
+  .app.dead-pool-view::after {
+    animation: ornTurn 124s ease-in-out infinite alternate,
+               ornBreathe 97s ease-in-out infinite alternate;
+  }
+}
+
+.pool-hero-content::before { animation: ornBreathe 88s ease-in-out infinite alternate; }
+.pool-hero-content::after  { animation: ornBreathe 101s ease-in-out infinite alternate; }
+.pool-action-apy::before   { animation: ornTurnCentered 109s ease-in-out infinite alternate; }
+.cert-divider .cert-divider-strand { animation: ornBreathe 94s ease-in-out infinite alternate; }
+.pool-hero-actions::after  { animation: ornBreathe 118s ease-in-out infinite alternate; }
+.pool-cta-echo::after      { animation: ornBreathe 106s ease-in-out infinite alternate; }
+.app.pool-detail-view .app-footer::before { animation: ornBreathe 91s ease-in-out infinite alternate; }
 
 /* ── Page ground ───────────────────────────────────────────────────────── */
 .app.pool-detail-view {
@@ -162,7 +423,7 @@
 
 .pool-detail-container {
   min-height: 100vh;
-  background: var(--cert-paper);
+  background: transparent;
   max-width: 880px;
   margin: 0 auto;
   padding: 28px 20px 40px 20px;
@@ -250,6 +511,37 @@
   padding: 0;
   margin-bottom: 28px;
   overflow: hidden;
+  isolation: isolate;
+}
+
+/* corner quoins — the frame's engraved corners, from the shared
+   .orn-corners primitive (inset to sit just inside the inner rule) */
+.pool-hero-card::after {
+  --orn-inset: 11px;
+  --orn-corner-size: 34px 34px;
+  --orn-ink: var(--cert-lathe);
+  z-index: 0;
+}
+
+/* an anomalous document prints its security work in caution ink — the same
+   rail the carmine rate and the warning slips enforce, carried into the
+   engraving so the whole sheet reads "handle with care", not "jackpot". */
+.pool-hero-card.is-anomalous::after,
+.pool-hero-card.is-anomalous .pool-action-apy::before {
+  --orn-ink: var(--cert-lathe-caution);
+}
+
+.pool-hero-card.is-anomalous {
+  border-color: var(--cert-red);
+}
+
+/* …and the rate itself. Intaglio green is this world's ink for money that
+   actually arrives; a rate past the sanity limit is a caution, so it prints
+   in the serial ink the warning slips use. Presentation only — the rail
+   (flag, demote, forced High risk, no projection) is untouched. */
+.pool-hero-card.is-anomalous .apy-value-hero,
+.pool-hero-card.is-anomalous .pool-action-apy-breakdown {
+  color: var(--cert-red);
 }
 
 /* inner double rule — the engraver's frame */
@@ -260,9 +552,11 @@
   border: 1px solid var(--cert-rule);
   border-radius: 1px;
   pointer-events: none;
+  z-index: 0;
 }
 
 .pool-hero-content {
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -272,23 +566,15 @@
   position: relative;
 }
 
-/* top lathework band — drawn by code, masked so both themes print it in
-   their own ink (the data URI below = generated interleaved sine strands) */
+/* top lathework band — geometry now comes from the shared .orn-band rule
+   (assets/guilloche-band.svg); only the strip's own box lives here */
 .pool-hero-content::before {
   content: '';
   order: -1;
   width: min(420px, 86%);
   height: 20px;
   margin-bottom: 22px;
-  background-color: var(--cert-lathe);
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 28' fill='none' stroke='%23000' stroke-width='0.7'%3E%3Cpath d='M0 14L4 15.9L8 17.7L12 19.3L16 20.7L20 21.8L24 22.6L28 23L32 23L36 22.6L40 21.8L44 20.7L48 19.3L52 17.7L56 15.9L60 14L64 12.1L68 10.3L72 8.7L76 7.3L80 6.2L84 5.4L88 5L92 5L96 5.4L100 6.2L104 7.3L108 8.7L112 10.3L116 12.1L120 14L124 15.9L128 17.7L132 19.3L136 20.7L140 21.8L144 22.6L148 23L152 23L156 22.6L160 21.8L164 20.7L168 19.3L172 17.7L176 15.9L180 14L184 12.1L188 10.3L192 8.7L196 7.3L200 6.2L204 5.4L208 5L212 5L216 5.4L220 6.2L224 7.3L228 8.7L232 10.3L236 12.1L240 14'/%3E%3Cpath d='M0 14L4 12.1L8 10.3L12 8.7L16 7.3L20 6.2L24 5.4L28 5L32 5L36 5.4L40 6.2L44 7.3L48 8.7L52 10.3L56 12.1L60 14L64 15.9L68 17.7L72 19.3L76 20.7L80 21.8L84 22.6L88 23L92 23L96 22.6L100 21.8L104 20.7L108 19.3L112 17.7L116 15.9L120 14L124 12.1L128 10.3L132 8.7L136 7.3L140 6.2L144 5.4L148 5L152 5L156 5.4L160 6.2L164 7.3L168 8.7L172 10.3L176 12.1L180 14L184 15.9L188 17.7L192 19.3L196 20.7L200 21.8L204 22.6L208 23L212 23L216 22.6L220 21.8L224 20.7L228 19.3L232 17.7L236 15.9L240 14'/%3E%3Cpath d='M0 19.5L4 19.2L8 18.4L12 17.2L16 15.7L20 14L24 12.3L28 10.8L32 9.6L36 8.8L40 8.5L44 8.8L48 9.6L52 10.8L56 12.3L60 14L64 15.7L68 17.2L72 18.4L76 19.2L80 19.5L84 19.2L88 18.4L92 17.2L96 15.7L100 14L104 12.3L108 10.8L112 9.6L116 8.8L120 8.5L124 8.8L128 9.6L132 10.8L136 12.3L140 14L144 15.7L148 17.2L152 18.4L156 19.2L160 19.5L164 19.2L168 18.4L172 17.2L176 15.7L180 14L184 12.3L188 10.8L192 9.6L196 8.8L200 8.5L204 8.8L208 9.6L212 10.8L216 12.3L220 14L224 15.7L228 17.2L232 18.4L236 19.2L240 19.5'/%3E%3Cpath d='M0 8.5L4 8.8L8 9.6L12 10.8L16 12.3L20 14L24 15.7L28 17.2L32 18.4L36 19.2L40 19.5L44 19.2L48 18.4L52 17.2L56 15.7L60 14L64 12.3L68 10.8L72 9.6L76 8.8L80 8.5L84 8.8L88 9.6L92 10.8L96 12.3L100 14L104 15.7L108 17.2L112 18.4L116 19.2L120 19.5L124 19.2L128 18.4L132 17.2L136 15.7L140 14L144 12.3L148 10.8L152 9.6L156 8.8L160 8.5L164 8.8L168 9.6L172 10.8L176 12.3L180 14L184 15.7L188 17.2L192 18.4L196 19.2L200 19.5L204 19.2L208 18.4L212 17.2L216 15.7L220 14L224 12.3L228 10.8L232 9.6L236 8.8L240 8.5'/%3E%3Cpath d='M0 14L4 15.1L8 16.3L12 17.4L16 18.5L20 19.5L24 20.5L28 21.4L32 22.2L36 22.9L40 23.5L44 24L48 24.5L52 24.8L56 24.9L60 25L64 24.9L68 24.8L72 24.5L76 24L80 23.5L84 22.9L88 22.2L92 21.4L96 20.5L100 19.5L104 18.5L108 17.4L112 16.3L116 15.1L120 14L124 12.9L128 11.7L132 10.6L136 9.5L140 8.5L144 7.5L148 6.6L152 5.8L156 5.1L160 4.5L164 4L168 3.5L172 3.2L176 3.1L180 3L184 3.1L188 3.2L192 3.5L196 4L200 4.5L204 5.1L208 5.8L212 6.6L216 7.5L220 8.5L224 9.5L228 10.6L232 11.7L236 12.9L240 14'/%3E%3Cpath d='M0 14L4 12.9L8 11.7L12 10.6L16 9.5L20 8.5L24 7.5L28 6.6L32 5.8L36 5.1L40 4.5L44 4L48 3.5L52 3.2L56 3.1L60 3L64 3.1L68 3.2L72 3.5L76 4L80 4.5L84 5.1L88 5.8L92 6.6L96 7.5L100 8.5L104 9.5L108 10.6L112 11.7L116 12.9L120 14L124 15.1L128 16.3L132 17.4L136 18.5L140 19.5L144 20.5L148 21.4L152 22.2L156 22.9L160 23.5L164 24L168 24.5L172 24.8L176 24.9L180 25L184 24.9L188 24.8L192 24.5L196 24L200 23.5L204 22.9L208 22.2L212 21.4L216 20.5L220 19.5L224 18.5L228 17.4L232 16.3L236 15.1L240 14'/%3E%3C/svg%3E");
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 28' fill='none' stroke='%23000' stroke-width='0.7'%3E%3Cpath d='M0 14L4 15.9L8 17.7L12 19.3L16 20.7L20 21.8L24 22.6L28 23L32 23L36 22.6L40 21.8L44 20.7L48 19.3L52 17.7L56 15.9L60 14L64 12.1L68 10.3L72 8.7L76 7.3L80 6.2L84 5.4L88 5L92 5L96 5.4L100 6.2L104 7.3L108 8.7L112 10.3L116 12.1L120 14L124 15.9L128 17.7L132 19.3L136 20.7L140 21.8L144 22.6L148 23L152 23L156 22.6L160 21.8L164 20.7L168 19.3L172 17.7L176 15.9L180 14L184 12.1L188 10.3L192 8.7L196 7.3L200 6.2L204 5.4L208 5L212 5L216 5.4L220 6.2L224 7.3L228 8.7L232 10.3L236 12.1L240 14'/%3E%3Cpath d='M0 14L4 12.1L8 10.3L12 8.7L16 7.3L20 6.2L24 5.4L28 5L32 5L36 5.4L40 6.2L44 7.3L48 8.7L52 10.3L56 12.1L60 14L64 15.9L68 17.7L72 19.3L76 20.7L80 21.8L84 22.6L88 23L92 23L96 22.6L100 21.8L104 20.7L108 19.3L112 17.7L116 15.9L120 14L124 12.1L128 10.3L132 8.7L136 7.3L140 6.2L144 5.4L148 5L152 5L156 5.4L160 6.2L164 7.3L168 8.7L172 10.3L176 12.1L180 14L184 15.9L188 17.7L192 19.3L196 20.7L200 21.8L204 22.6L208 23L212 23L216 22.6L220 21.8L224 20.7L228 19.3L232 17.7L236 15.9L240 14'/%3E%3Cpath d='M0 19.5L4 19.2L8 18.4L12 17.2L16 15.7L20 14L24 12.3L28 10.8L32 9.6L36 8.8L40 8.5L44 8.8L48 9.6L52 10.8L56 12.3L60 14L64 15.7L68 17.2L72 18.4L76 19.2L80 19.5L84 19.2L88 18.4L92 17.2L96 15.7L100 14L104 12.3L108 10.8L112 9.6L116 8.8L120 8.5L124 8.8L128 9.6L132 10.8L136 12.3L140 14L144 15.7L148 17.2L152 18.4L156 19.2L160 19.5L164 19.2L168 18.4L172 17.2L176 15.7L180 14L184 12.3L188 10.8L192 9.6L196 8.8L200 8.5L204 8.8L208 9.6L212 10.8L216 12.3L220 14L224 15.7L228 17.2L232 18.4L236 19.2L240 19.5'/%3E%3Cpath d='M0 8.5L4 8.8L8 9.6L12 10.8L16 12.3L20 14L24 15.7L28 17.2L32 18.4L36 19.2L40 19.5L44 19.2L48 18.4L52 17.2L56 15.7L60 14L64 12.3L68 10.8L72 9.6L76 8.8L80 8.5L84 8.8L88 9.6L92 10.8L96 12.3L100 14L104 15.7L108 17.2L112 18.4L116 19.2L120 19.5L124 19.2L128 18.4L132 17.2L136 15.7L140 14L144 12.3L148 10.8L152 9.6L156 8.8L160 8.5L164 8.8L168 9.6L172 10.8L176 12.3L180 14L184 15.7L188 17.2L192 18.4L196 19.2L200 19.5L204 19.2L208 18.4L212 17.2L216 15.7L220 14L224 12.3L228 10.8L232 9.6L236 8.8L240 8.5'/%3E%3Cpath d='M0 14L4 15.1L8 16.3L12 17.4L16 18.5L20 19.5L24 20.5L28 21.4L32 22.2L36 22.9L40 23.5L44 24L48 24.5L52 24.8L56 24.9L60 25L64 24.9L68 24.8L72 24.5L76 24L80 23.5L84 22.9L88 22.2L92 21.4L96 20.5L100 19.5L104 18.5L108 17.4L112 16.3L116 15.1L120 14L124 12.9L128 11.7L132 10.6L136 9.5L140 8.5L144 7.5L148 6.6L152 5.8L156 5.1L160 4.5L164 4L168 3.5L172 3.2L176 3.1L180 3L184 3.1L188 3.2L192 3.5L196 4L200 4.5L204 5.1L208 5.8L212 6.6L216 7.5L220 8.5L224 9.5L228 10.6L232 11.7L236 12.9L240 14'/%3E%3Cpath d='M0 14L4 12.9L8 11.7L12 10.6L16 9.5L20 8.5L24 7.5L28 6.6L32 5.8L36 5.1L40 4.5L44 4L48 3.5L52 3.2L56 3.1L60 3L64 3.1L68 3.2L72 3.5L76 4L80 4.5L84 5.1L88 5.8L92 6.6L96 7.5L100 8.5L104 9.5L108 10.6L112 11.7L116 12.9L120 14L124 15.1L128 16.3L132 17.4L136 18.5L140 19.5L144 20.5L148 21.4L152 22.2L156 22.9L160 23.5L164 24L168 24.5L172 24.8L176 24.9L180 25L184 24.9L188 24.8L192 24.5L196 24L200 23.5L204 22.9L208 22.2L212 21.4L216 20.5L220 19.5L224 18.5L228 17.4L232 16.3L236 15.1L240 14'/%3E%3C/svg%3E");
-  -webkit-mask-size: 210px 20px;
-  mask-size: 210px 20px;
-  -webkit-mask-repeat: repeat-x;
-  mask-repeat: repeat-x;
-  -webkit-mask-position: center;
-  mask-position: center;
+  --orn-ink: var(--cert-lathe);
 }
 
 /* bottom lathework band closes the document body */
@@ -298,15 +584,7 @@
   width: min(420px, 86%);
   height: 20px;
   margin-top: 26px;
-  background-color: var(--cert-lathe);
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 28' fill='none' stroke='%23000' stroke-width='0.7'%3E%3Cpath d='M0 14L4 15.9L8 17.7L12 19.3L16 20.7L20 21.8L24 22.6L28 23L32 23L36 22.6L40 21.8L44 20.7L48 19.3L52 17.7L56 15.9L60 14L64 12.1L68 10.3L72 8.7L76 7.3L80 6.2L84 5.4L88 5L92 5L96 5.4L100 6.2L104 7.3L108 8.7L112 10.3L116 12.1L120 14L124 15.9L128 17.7L132 19.3L136 20.7L140 21.8L144 22.6L148 23L152 23L156 22.6L160 21.8L164 20.7L168 19.3L172 17.7L176 15.9L180 14L184 12.1L188 10.3L192 8.7L196 7.3L200 6.2L204 5.4L208 5L212 5L216 5.4L220 6.2L224 7.3L228 8.7L232 10.3L236 12.1L240 14'/%3E%3Cpath d='M0 14L4 12.1L8 10.3L12 8.7L16 7.3L20 6.2L24 5.4L28 5L32 5L36 5.4L40 6.2L44 7.3L48 8.7L52 10.3L56 12.1L60 14L64 15.9L68 17.7L72 19.3L76 20.7L80 21.8L84 22.6L88 23L92 23L96 22.6L100 21.8L104 20.7L108 19.3L112 17.7L116 15.9L120 14L124 12.1L128 10.3L132 8.7L136 7.3L140 6.2L144 5.4L148 5L152 5L156 5.4L160 6.2L164 7.3L168 8.7L172 10.3L176 12.1L180 14L184 15.9L188 17.7L192 19.3L196 20.7L200 21.8L204 22.6L208 23L212 23L216 22.6L220 21.8L224 20.7L228 19.3L232 17.7L236 15.9L240 14'/%3E%3Cpath d='M0 19.5L4 19.2L8 18.4L12 17.2L16 15.7L20 14L24 12.3L28 10.8L32 9.6L36 8.8L40 8.5L44 8.8L48 9.6L52 10.8L56 12.3L60 14L64 15.7L68 17.2L72 18.4L76 19.2L80 19.5L84 19.2L88 18.4L92 17.2L96 15.7L100 14L104 12.3L108 10.8L112 9.6L116 8.8L120 8.5L124 8.8L128 9.6L132 10.8L136 12.3L140 14L144 15.7L148 17.2L152 18.4L156 19.2L160 19.5L164 19.2L168 18.4L172 17.2L176 15.7L180 14L184 12.3L188 10.8L192 9.6L196 8.8L200 8.5L204 8.8L208 9.6L212 10.8L216 12.3L220 14L224 15.7L228 17.2L232 18.4L236 19.2L240 19.5'/%3E%3Cpath d='M0 8.5L4 8.8L8 9.6L12 10.8L16 12.3L20 14L24 15.7L28 17.2L32 18.4L36 19.2L40 19.5L44 19.2L48 18.4L52 17.2L56 15.7L60 14L64 12.3L68 10.8L72 9.6L76 8.8L80 8.5L84 8.8L88 9.6L92 10.8L96 12.3L100 14L104 15.7L108 17.2L112 18.4L116 19.2L120 19.5L124 19.2L128 18.4L132 17.2L136 15.7L140 14L144 12.3L148 10.8L152 9.6L156 8.8L160 8.5L164 8.8L168 9.6L172 10.8L176 12.3L180 14L184 15.7L188 17.2L192 18.4L196 19.2L200 19.5L204 19.2L208 18.4L212 17.2L216 15.7L220 14L224 12.3L228 10.8L232 9.6L236 8.8L240 8.5'/%3E%3Cpath d='M0 14L4 15.1L8 16.3L12 17.4L16 18.5L20 19.5L24 20.5L28 21.4L32 22.2L36 22.9L40 23.5L44 24L48 24.5L52 24.8L56 24.9L60 25L64 24.9L68 24.8L72 24.5L76 24L80 23.5L84 22.9L88 22.2L92 21.4L96 20.5L100 19.5L104 18.5L108 17.4L112 16.3L116 15.1L120 14L124 12.9L128 11.7L132 10.6L136 9.5L140 8.5L144 7.5L148 6.6L152 5.8L156 5.1L160 4.5L164 4L168 3.5L172 3.2L176 3.1L180 3L184 3.1L188 3.2L192 3.5L196 4L200 4.5L204 5.1L208 5.8L212 6.6L216 7.5L220 8.5L224 9.5L228 10.6L232 11.7L236 12.9L240 14'/%3E%3Cpath d='M0 14L4 12.9L8 11.7L12 10.6L16 9.5L20 8.5L24 7.5L28 6.6L32 5.8L36 5.1L40 4.5L44 4L48 3.5L52 3.2L56 3.1L60 3L64 3.1L68 3.2L72 3.5L76 4L80 4.5L84 5.1L88 5.8L92 6.6L96 7.5L100 8.5L104 9.5L108 10.6L112 11.7L116 12.9L120 14L124 15.1L128 16.3L132 17.4L136 18.5L140 19.5L144 20.5L148 21.4L152 22.2L156 22.9L160 23.5L164 24L168 24.5L172 24.8L176 24.9L180 25L184 24.9L188 24.8L192 24.5L196 24L200 23.5L204 22.9L208 22.2L212 21.4L216 20.5L220 19.5L224 18.5L228 17.4L232 16.3L236 15.1L240 14'/%3E%3C/svg%3E");
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 28' fill='none' stroke='%23000' stroke-width='0.7'%3E%3Cpath d='M0 14L4 15.9L8 17.7L12 19.3L16 20.7L20 21.8L24 22.6L28 23L32 23L36 22.6L40 21.8L44 20.7L48 19.3L52 17.7L56 15.9L60 14L64 12.1L68 10.3L72 8.7L76 7.3L80 6.2L84 5.4L88 5L92 5L96 5.4L100 6.2L104 7.3L108 8.7L112 10.3L116 12.1L120 14L124 15.9L128 17.7L132 19.3L136 20.7L140 21.8L144 22.6L148 23L152 23L156 22.6L160 21.8L164 20.7L168 19.3L172 17.7L176 15.9L180 14L184 12.1L188 10.3L192 8.7L196 7.3L200 6.2L204 5.4L208 5L212 5L216 5.4L220 6.2L224 7.3L228 8.7L232 10.3L236 12.1L240 14'/%3E%3Cpath d='M0 14L4 12.1L8 10.3L12 8.7L16 7.3L20 6.2L24 5.4L28 5L32 5L36 5.4L40 6.2L44 7.3L48 8.7L52 10.3L56 12.1L60 14L64 15.9L68 17.7L72 19.3L76 20.7L80 21.8L84 22.6L88 23L92 23L96 22.6L100 21.8L104 20.7L108 19.3L112 17.7L116 15.9L120 14L124 12.1L128 10.3L132 8.7L136 7.3L140 6.2L144 5.4L148 5L152 5L156 5.4L160 6.2L164 7.3L168 8.7L172 10.3L176 12.1L180 14L184 15.9L188 17.7L192 19.3L196 20.7L200 21.8L204 22.6L208 23L212 23L216 22.6L220 21.8L224 20.7L228 19.3L232 17.7L236 15.9L240 14'/%3E%3Cpath d='M0 19.5L4 19.2L8 18.4L12 17.2L16 15.7L20 14L24 12.3L28 10.8L32 9.6L36 8.8L40 8.5L44 8.8L48 9.6L52 10.8L56 12.3L60 14L64 15.7L68 17.2L72 18.4L76 19.2L80 19.5L84 19.2L88 18.4L92 17.2L96 15.7L100 14L104 12.3L108 10.8L112 9.6L116 8.8L120 8.5L124 8.8L128 9.6L132 10.8L136 12.3L140 14L144 15.7L148 17.2L152 18.4L156 19.2L160 19.5L164 19.2L168 18.4L172 17.2L176 15.7L180 14L184 12.3L188 10.8L192 9.6L196 8.8L200 8.5L204 8.8L208 9.6L212 10.8L216 12.3L220 14L224 15.7L228 17.2L232 18.4L236 19.2L240 19.5'/%3E%3Cpath d='M0 8.5L4 8.8L8 9.6L12 10.8L16 12.3L20 14L24 15.7L28 17.2L32 18.4L36 19.2L40 19.5L44 19.2L48 18.4L52 17.2L56 15.7L60 14L64 12.3L68 10.8L72 9.6L76 8.8L80 8.5L84 8.8L88 9.6L92 10.8L96 12.3L100 14L104 15.7L108 17.2L112 18.4L116 19.2L120 19.5L124 19.2L128 18.4L132 17.2L136 15.7L140 14L144 12.3L148 10.8L152 9.6L156 8.8L160 8.5L164 8.8L168 9.6L172 10.8L176 12.3L180 14L184 15.7L188 17.2L192 18.4L196 19.2L200 19.5L204 19.2L208 18.4L212 17.2L216 15.7L220 14L224 12.3L228 10.8L232 9.6L236 8.8L240 8.5'/%3E%3Cpath d='M0 14L4 15.1L8 16.3L12 17.4L16 18.5L20 19.5L24 20.5L28 21.4L32 22.2L36 22.9L40 23.5L44 24L48 24.5L52 24.8L56 24.9L60 25L64 24.9L68 24.8L72 24.5L76 24L80 23.5L84 22.9L88 22.2L92 21.4L96 20.5L100 19.5L104 18.5L108 17.4L112 16.3L116 15.1L120 14L124 12.9L128 11.7L132 10.6L136 9.5L140 8.5L144 7.5L148 6.6L152 5.8L156 5.1L160 4.5L164 4L168 3.5L172 3.2L176 3.1L180 3L184 3.1L188 3.2L192 3.5L196 4L200 4.5L204 5.1L208 5.8L212 6.6L216 7.5L220 8.5L224 9.5L228 10.6L232 11.7L236 12.9L240 14'/%3E%3Cpath d='M0 14L4 12.9L8 11.7L12 10.6L16 9.5L20 8.5L24 7.5L28 6.6L32 5.8L36 5.1L40 4.5L44 4L48 3.5L52 3.2L56 3.1L60 3L64 3.1L68 3.2L72 3.5L76 4L80 4.5L84 5.1L88 5.8L92 6.6L96 7.5L100 8.5L104 9.5L108 10.6L112 11.7L116 12.9L120 14L124 15.1L128 16.3L132 17.4L136 18.5L140 19.5L144 20.5L148 21.4L152 22.2L156 22.9L160 23.5L164 24L168 24.5L172 24.8L176 24.9L180 25L184 24.9L188 24.8L192 24.5L196 24L200 23.5L204 22.9L208 22.2L212 21.4L216 20.5L220 19.5L224 18.5L228 17.4L232 16.3L236 15.1L240 14'/%3E%3C/svg%3E");
-  -webkit-mask-size: 210px 20px;
-  mask-size: 210px 20px;
-  -webkit-mask-repeat: repeat-x;
-  mask-repeat: repeat-x;
-  -webkit-mask-position: center;
-  mask-position: center;
+  --orn-ink: var(--cert-lathe);
 }
 
 /* identity and metric dissolve into the certificate's single column;
@@ -486,6 +764,7 @@
   border-top: 1px solid var(--cert-rule);
   background: var(--cert-green-wash);
   position: relative;
+  z-index: 1;
 }
 
 .pool-hero-action-primary,
@@ -585,7 +864,10 @@
   background: var(--cert-green-wash);
 }
 
-/* ═══ SUPPORTING PANELS — one document voice ════════════════════════════ */
+/* ═══ SUPPORTING PANELS — one document voice ════════════════════════════
+   The calculator and the register are sub-documents of the same sheet:
+   the hero's outer rule weight, the same corner quoins, and an engraved
+   double rule under each section head once it is opened. */
 .pool-section-title {
   font-family: var(--cert-serif);
   font-size: 19px;
@@ -603,11 +885,31 @@
 
 .calculator-compact,
 .pool-info-section {
+  position: relative;
+  isolation: isolate;
   background: var(--cert-vellum);
-  border: 1px solid var(--cert-rule);
+  border: 1px solid var(--cert-rule-strong);
   border-radius: 2px;
   padding: 22px 26px;
   margin-bottom: 24px;
+}
+
+/* corner quoins, one weight lighter than the certificate's — these are
+   clauses of the document, not the document */
+.calculator-compact::after,
+.pool-info-section::after {
+  --orn-inset: 8px;
+  --orn-corner-size: 28px 28px;
+  --orn-ink: var(--cert-lathe);
+  z-index: 0;
+}
+
+.calculator-header,
+.pool-info-header,
+.calculator-content,
+.pool-info-content {
+  position: relative;
+  z-index: 1;
 }
 
 .calculator-compact.expanded,
@@ -624,8 +926,24 @@
   gap: 16px;
 }
 
-.calculator-compact.expanded .calculator-header { margin-bottom: 20px; }
-.pool-info-section.expanded .pool-info-header { margin-bottom: 14px; }
+.calculator-compact.expanded .calculator-header,
+.pool-info-section.expanded .pool-info-header {
+  padding-bottom: 15px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid var(--cert-rule-strong);
+}
+
+/* the head rule's second hairline */
+.calculator-compact.expanded .calculator-header::after,
+.pool-info-section.expanded .pool-info-header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  border-bottom: 1px solid var(--cert-rule);
+  pointer-events: none;
+}
 
 .calculator-toggle,
 .pool-info-toggle {
@@ -762,8 +1080,9 @@
 /* ── The promise clause (projection) ───────────────────────────────────── */
 .pool-projection-card {
   text-align: center;
-  padding: 18px 0 22px 0;
+  padding: 20px 0 22px 0;
   margin-bottom: 22px;
+  border-top: 1px solid var(--cert-rule);
   border-bottom: 1px solid var(--cert-rule);
   background: none;
 }
@@ -832,11 +1151,51 @@
   color: var(--cert-green);
 }
 
-/* ── The coupon readout ────────────────────────────────────────────────── */
+/* ── The coupon readout ──────────────────────────────────────────────────
+   The second number of record on the sheet, so it gets the same engine-
+   turned underprint the hero denomination does — one size down. */
 .calc-readout {
+  position: relative;
   text-align: center;
-  padding: 2px 0 6px 0;
+  padding: 14px 0 12px 0;
   margin-bottom: 10px;
+}
+
+.calc-readout::before {
+  content: '';
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 216px;
+  height: 216px;
+  transform: translate(-50%, -50%);
+  --orn-ink: var(--cert-lathe-underprint);
+  pointer-events: none;
+  background-color: var(--orn-ink);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  animation: ornTurnCentered 121s ease-in-out infinite alternate;
+}
+
+.calc-readout > * {
+  position: relative;
+}
+
+/* a rate of zero is not an earning — it prints in ink, never in the
+   intaglio green this world reserves for money that actually arrives */
+.calc-readout.is-zero .calc-readout-amount,
+.pool-action-apy.is-zero .apy-value-hero {
+  color: var(--cert-ink-2);
+}
+
+.calc-readout.is-zero::before,
+.pool-action-apy.is-zero::before {
+  opacity: 0.4;
 }
 
 .calc-readout-label {
@@ -1035,7 +1394,7 @@ a.pool-token-chip:hover {
 
 /* ── Document foot ─────────────────────────────────────────────────────── */
 .app.pool-detail-view .app-footer {
-  position: static;
+  position: relative;
   margin-top: auto;
   background: transparent;
   border-top: 1px solid var(--cert-rule);
@@ -1043,8 +1402,21 @@ a.pool-token-chip:hover {
   font-family: var(--cert-sans);
   color: var(--cert-ink-3);
   text-align: center;
-  padding: 18px 20px 24px 20px;
+  padding: 40px 20px 26px 20px;
   font-size: 12px;
+}
+
+/* the closing lathework — the band that finishes a printed sheet */
+.app.pool-detail-view .app-footer::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--cert-lathe-soft);
 }
 
 .app.pool-detail-view .app-footer p {
@@ -1095,15 +1467,39 @@ a.pool-token-chip:hover {
 }
 
 .app.dead-pool-view .empty-state {
+  position: relative;
+  padding-top: 42px;
   font-family: var(--cert-sans);
   color: var(--cert-ink-2);
 }
 
+/* the same lathework that opens the certificate opens its cancellation
+   notice — the register keeps one voice for what it issues and what it
+   withdraws */
+.app.dead-pool-view .empty-state::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  margin-left: -125px;
+  width: 250px;
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--cert-lathe-soft);
+}
+
 .app.dead-pool-view .empty-state .empty-message {
   font-family: var(--cert-serif);
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
+  line-height: 1.25;
   color: var(--cert-ink);
+}
+
+.app.dead-pool-view .empty-state .empty-submessage {
+  font-family: var(--cert-sans);
+  color: var(--cert-ink-2);
+  line-height: 1.6;
 }
 
 /* ── Responsive: the document folds, never squeezes ────────────────────── */
@@ -1159,6 +1555,17 @@ a.pool-token-chip:hover {
     padding: 16px 18px 20px 18px;
   }
 
+  .calculator-compact::after,
+  .pool-info-section::after {
+    --orn-inset: 6px;
+    --orn-corner-size: 22px 22px;
+  }
+
+  .cert-divider {
+    max-width: 300px;
+    gap: 12px;
+  }
+
   .pool-detail-view .cta-button-protocol {
     width: 100%;
     justify-content: center;
@@ -1176,6 +1583,15 @@ a.pool-token-chip:hover {
   .pool-action-apy::before {
     width: 200px;
     height: 200px;
+  }
+
+  .calc-readout::before {
+    width: 168px;
+    height: 168px;
+  }
+
+  .pool-hero-card::after {
+    --orn-corner-size: 26px 26px;
   }
 
   .calc-tabs { max-width: 100%; }
@@ -1223,8 +1639,32 @@ a.pool-token-chip:hover {
   }
 }
 
-/* ── Reduced motion — the document is simply there ─────────────────────── */
+/* ── Reduced motion — the document is simply there ───────────────────────
+   The blanket rule below only reaches ELEMENTS (`*` never matches a
+   pseudo-element), and every ambient cycle in this world lives on a
+   pseudo-element. So the ornament layer gets its own switch, and it is a
+   real OFF — `animation: none`, not a 0.01ms cycle — because these are
+   infinite alternating loops: collapsing their duration would leave them
+   running, only faster. Nothing on this page moves under this query. */
 @media (prefers-reduced-motion: reduce) {
+  .app.pool-detail-view::before,
+  .app.pool-detail-view::after,
+  .app.dead-pool-view::before,
+  .app.dead-pool-view::after,
+  .pool-detail-container *::before,
+  .pool-detail-container *::after,
+  .app.pool-detail-view *::before,
+  .app.pool-detail-view *::after,
+  .app.dead-pool-view *::before,
+  .app.dead-pool-view *::after,
+  .orn-band,
+  .orn-strand,
+  .orn-rosette,
+  .orn-corners,
+  .cert-divider .cert-divider-strand {
+    animation: none !important;
+  }
+
   .pool-detail-container *,
   .app.pool-detail-view *,
   .app.dead-pool-view * {
