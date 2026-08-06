@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 239.00% | $2.74M |
-| [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 63.59% | $256.8K |
+| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 237.89% | $2.74M |
 | [pendle →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5&src=seo_token) | Ethereum | 14.57% | $256.8K |
+| [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 63.59% | $256.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

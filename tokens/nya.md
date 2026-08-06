@@ -4,8 +4,8 @@ The highest honest NYA yield right now is 0.01% on uniswap-v3 (Base), among 3 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token) | Base | 0.01% | $145.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $145.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token) | Base | 0.01% | $146.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $146K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NYA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $435.8K in total.
+3 live pools clear this page's $100K TVL floor, $438.4K in total.
 
 ### Are these rates safe?
 

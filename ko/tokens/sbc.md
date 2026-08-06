@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa&src=seo_token) | Base | 0.19% | $102K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa&src=seo_token) | Base | 0.05% | $102K |
 | [orca-dex →](https://www.defi.garden/?pool=c88d8d63-00a0-4fd2-a72d-29874a51b7e6&src=seo_token) | Solana | 0.01% | $100.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

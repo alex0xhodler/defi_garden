@@ -4,7 +4,7 @@ The highest honest Rootstock yield right now is 0.18% on sovryn-dex (Rootstock),
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 0.18% | $741.9K |
+| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 0.18% | $747.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Rootstock pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.02M in total.
+4 live pools clear this page's $100K TVL floor, $3.04M in total.
 
 ### Are these rates safe?
 

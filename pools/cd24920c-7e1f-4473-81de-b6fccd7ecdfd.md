@@ -1,8 +1,8 @@
 # CRVUSD-YB — curve-dex on Ethereum
 
-**Total APY:** 15.76% (1.02% Base · + 14.74% Rewards)
+**Total APY:** 15.38% (0.54% Base · + 14.84% Rewards)
 
-**TVL:** $937.4K
+**TVL:** $940.1K
 
 **Pool Type:** LP/DEX
 
@@ -22,15 +22,15 @@ Advanced DeFi strategy
 
 ## The Long Game
 
-$1,000 in this pool grows to ~$1,292 in 5y at current rates.
+$1,000 in this pool grows to ~$1,284 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (15.76% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (15.38% headline) — farm rates decay. Active management required.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
-[Garden this pool → ~$1,292 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,284 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 

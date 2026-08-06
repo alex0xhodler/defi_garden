@@ -1,10 +1,10 @@
 # BRZ DeFi Yields
 
-The highest honest BRZ yield right now is 25.29% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRZ yield right now is 25.30% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token) | Polygon | 25.29% | $377.3K |
+| [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token) | Polygon | 25.30% | $376.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRZ yield today?
 
-25.29% APY on curve-dex (Polygon), based on live DefiLlama data.
+25.30% APY on curve-dex (Polygon), based on live DefiLlama data.
 
 ### How many BRZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $377.3K in total.
+1 live pool clear this page's $100K TVL floor, $376.7K in total.
 
 ### Are these rates safe?
 

@@ -5,7 +5,8 @@ The highest honest YIELD yield right now is 6.64% on morpho-blue (Ethereum), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 6.64% | $8.07M |
-| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.77% | $1.59M |
+| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.77% | $1.6M |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 0.07% | $1.59M |
 | [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 2.58% | $587.1K |
 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 2.98% | $206.8K |
 
@@ -19,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YIELD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $12.03M in total.
+5 live pools clear this page's $100K TVL floor, $12.05M in total.
 
 ### Are these rates safe?
 

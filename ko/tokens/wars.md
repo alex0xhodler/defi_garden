@@ -4,6 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 0.07% | $1.59M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 0.89% | $440.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 97.84% | $275.5K |
 
@@ -17,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 97.84%예
 
 ### WARS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2.29M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $2.31M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 97.84%예
 
 ## 이용 가능한 체인
 
-- [Base](https://www.defi.garden/ko/chains/base)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Base](https://www.defi.garden/ko/chains/base)
 
 ## 마지막 업데이트: August 6, 2026

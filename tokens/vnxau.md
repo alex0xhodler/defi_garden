@@ -1,11 +1,11 @@
 # VNXAU DeFi Yields
 
-The highest honest VNXAU yield right now is 2.33% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VNXAU yield right now is 2.15% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token) | Solana | 2.33% | $209.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token) | Base | 14.39% | $101.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token) | Solana | 2.15% | $209.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token) | Base | 14.39% | $101.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VNXAU yield today?
 
-2.33% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.15% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many VNXAU pools clear the TVL floor?
 

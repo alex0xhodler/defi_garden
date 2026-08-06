@@ -1,16 +1,16 @@
 # DUSD DeFi Yields
 
-The highest honest DUSD yield right now is 15.67% on stake-dao (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUSD yield right now is 15.81% on stake-dao (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 11.57% | $5.4M |
-| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 7.49% | $2.1M |
-| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 8.75% | $1.58M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.67% | $852.7K |
+| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 7.58% | $2.1M |
+| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 8.85% | $1.58M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.73% | $852.6K |
 | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.11% | $818.8K |
-| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 15.67% | $306.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.12% | $218.6K |
+| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 15.81% | $306.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.18% | $218.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DUSD yield today?
 
-15.67% APY on stake-dao (Ethereum), based on live DefiLlama data.
+15.81% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many DUSD pools clear the TVL floor?
 

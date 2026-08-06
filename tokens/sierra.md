@@ -6,7 +6,7 @@ The highest honest SIERRA yield right now is 0.28% on uniswap-v4 (Ethereum), amo
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.28% | $6.65M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.02% | $316.8K |
-| [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.13% | $160.9K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.14% | $161K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

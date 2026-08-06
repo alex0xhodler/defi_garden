@@ -4,8 +4,8 @@ The highest honest JRROYAPYUSD yield right now is 19.15% on pendle (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $995.8K |
 | [pendle →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token) | Ethereum | 8.71% | $995.8K |
+| [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $995.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

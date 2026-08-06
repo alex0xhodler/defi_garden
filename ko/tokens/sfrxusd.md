@@ -1,17 +1,17 @@
 # SFRXUSD 디파이 수익률
 
-현재 SFRXUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 7.41%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SFRXUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 5.32%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [frax →](https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5&src=seo_token) | Ethereum | 4.10% | $33.26M |
-| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 2.93% | $11.84M |
-| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.39% | $11.84M |
-| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 7.41% | $2.58M |
-| [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c&src=seo_token) | Ethereum | 5.13% | $1.95M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.67% | $852.7K |
-| [stake-dao →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a&src=seo_token) | Ethereum | 14.44% | $375.7K |
-| [curve-dex →](https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0&src=seo_token) | Ethereum | 2.11% | $217.3K |
+| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 2.95% | $11.84M |
+| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.42% | $11.84M |
+| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 7.63% | $2.58M |
+| [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c&src=seo_token) | Ethereum | 5.32% | $1.95M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.73% | $852.6K |
+| [stake-dao →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a&src=seo_token) | Ethereum | 14.59% | $375.6K |
+| [curve-dex →](https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0&src=seo_token) | Ethereum | 2.11% | $217.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 SFRXUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 7.41%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 5.32%예요.
 
 ### SFRXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $67.68M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $67.64M예요.
 
 ### 이 수익률은 안전한가요?
 

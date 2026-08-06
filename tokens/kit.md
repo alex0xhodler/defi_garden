@@ -5,7 +5,7 @@ The highest honest KIT yield right now is 0.12% on uniswap-v4 (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=fa445f86-e81e-403f-91a1-7330f0b1a9b7&src=seo_token) | Ethereum | 0.12% | $392.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.03% | $391K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c8792653-c34f-4327-b708-24a32a1b4504&src=seo_token) | Polygon | 0.03% | $388.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KIT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $783.3K in total.
+2 live pools clear this page's $100K TVL floor, $780.7K in total.
 
 ### Are these rates safe?
 

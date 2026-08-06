@@ -4,7 +4,7 @@ The highest honest JRROYSYRUPUSDC yield right now is 4.77% on royco-v2 (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=bf772156-faad-5fb1-a6c7-f1d6a3d2ef76&src=seo_token) | Ethereum | 4.77% | $184.4K |
+| [royco-v2 →](https://www.defi.garden/?pool=bf772156-faad-5fb1-a6c7-f1d6a3d2ef76&src=seo_token) | Ethereum | 4.77% | $162.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JRROYSYRUPUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $184.4K in total.
+1 live pool clear this page's $100K TVL floor, $162.4K in total.
 
 ### Are these rates safe?
 

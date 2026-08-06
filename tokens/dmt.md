@@ -6,7 +6,7 @@ The highest honest DMT yield right now is 27.15% on uniswap-v4 (Ethereum), among
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 27.15% | $834.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token) | Ethereum | 21.88% | $246.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 10.13% | $231.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 10.06% | $232.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -4,7 +4,7 @@ The highest honest SFI yield right now is 1.51% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30&src=seo_token) | Ethereum | 1.51% | $113.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30&src=seo_token) | Ethereum | 1.51% | $114.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.9K in total.
+1 live pool clear this page's $100K TVL floor, $114.8K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # RIBBIT DeFi Yields
 
-The highest honest RIBBIT yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RIBBIT yield right now is 0.02% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=69259ee6-5553-41b3-8ddd-c1bca2e533ae&src=seo_token) | Ethereum | 0.01% | $111.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=69259ee6-5553-41b3-8ddd-c1bca2e533ae&src=seo_token) | Ethereum | 0.02% | $112.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RIBBIT yield today?
 
-0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.02% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many RIBBIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.3K in total.
+1 live pool clear this page's $100K TVL floor, $112.1K in total.
 
 ### Are these rates safe?
 

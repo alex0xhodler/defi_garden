@@ -4,14 +4,14 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.36% | $40.98M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.46% | $33.35M |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.41% | $40.98M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.54% | $33.34M |
 | [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 4.90% | $7.48M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.07% | $6.08M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 4.47% | $5.58M |
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 5.09% | $781K |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.14% | $6.08M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 4.55% | $5.58M |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 5.24% | $778.2K |
 | [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token) | Ethereum | 5.84% | $497.9K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.72% | $333.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.73% | $333.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 5.84%�
 
 ### DOLA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $141.34M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $141.33M예요.
 
 ### 이 수익률은 안전한가요?
 

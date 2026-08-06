@@ -1,13 +1,13 @@
 # JUP DeFi Yields
 
-The highest honest JUP yield right now is 13.53% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JUP yield right now is 14.06% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token) | Solana | 0.01% | $853.1K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 10.70% | $671.7K |
-| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 13.53% | $337.8K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 3.23% | $312.5K |
+| [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token) | Solana | 0.01% | $853.9K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 10.70% | $675.4K |
+| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 14.06% | $339.6K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 3.23% | $314.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JUP yield today?
 
-13.53% APY on orca-dex (Solana), based on live DefiLlama data.
+14.06% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many JUP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $4.12M in total.
+6 live pools clear this page's $100K TVL floor, $4.13M in total.
 
 ### Are these rates safe?
 

@@ -5,7 +5,7 @@ The highest honest LSK yield right now is 3.60% on uniswap-v4 (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 3.60% | $193.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 24.58% | $145.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 24.64% | $146.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LSK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $338.6K in total.
+2 live pools clear this page's $100K TVL floor, $339.7K in total.
 
 ### Are these rates safe?
 

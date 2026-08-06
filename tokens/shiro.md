@@ -4,7 +4,7 @@ The highest honest SHIRO yield right now is 0.57% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fc841609-e819-4def-b8fc-53c2a5bd750d&src=seo_token) | Ethereum | 0.57% | $133K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fc841609-e819-4def-b8fc-53c2a5bd750d&src=seo_token) | Ethereum | 0.57% | $134.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHIRO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133K in total.
+1 live pool clear this page's $100K TVL floor, $134.3K in total.
 
 ### Are these rates safe?
 

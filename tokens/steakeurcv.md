@@ -4,7 +4,7 @@ The highest honest STEAKEURCV yield right now is 3.50% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76&src=seo_token) | Ethereum | 3.50% | $123.59M |
+| [morpho-blue →](https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76&src=seo_token) | Ethereum | 3.50% | $123.72M |
 | [morpho-blue →](https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3&src=seo_token) | Ethereum | 1.58% | $1.92M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STEAKEURCV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $125.51M in total.
+2 live pools clear this page's $100K TVL floor, $125.63M in total.
 
 ### Are these rates safe?
 

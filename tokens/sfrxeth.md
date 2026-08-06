@@ -1,14 +1,14 @@
 # SFRXETH DeFi Yields
 
-The highest honest SFRXETH yield right now is 4.39% on stake-dao (Fraxtal), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFRXETH yield right now is 4.41% on stake-dao (Fraxtal), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.56% | $70.45M |
-| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.13% | $2.01M |
-| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.39% | $291.7K |
-| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.43% | $232.7K |
-| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.43% | $214.5K |
+| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.56% | $70.98M |
+| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.12% | $2.02M |
+| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.41% | $292.7K |
+| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.43% | $233K |
+| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.43% | $214.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SFRXETH yield today?
 
-4.39% APY on stake-dao (Fraxtal), based on live DefiLlama data.
+4.41% APY on stake-dao (Fraxtal), based on live DefiLlama data.
 
 ### How many SFRXETH pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $79.32M in total.
+9 live pools clear this page's $100K TVL floor, $79.87M in total.
 
 ### Are these rates safe?
 

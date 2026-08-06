@@ -4,12 +4,12 @@ The highest honest AVAX yield right now is 17.05% on gmx-v2-perps (Arbitrum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-v2-perps →](https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token) | Avalanche | 6.06% | $4.34M |
-| [benqi-lending →](https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token) | Avalanche | 0.95% | $3.9M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token) | Avalanche | 6.07% | $4.33M |
+| [benqi-lending →](https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token) | Avalanche | 0.94% | $3.85M |
 | [folks-finance-xchain →](https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token) | Avalanche | 0.37% | $951.4K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token) | Arbitrum | 17.05% | $222.8K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.63% | $220.5K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.63% | $220.5K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token) | Arbitrum | 17.05% | $222.4K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.63% | $220.2K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.63% | $220.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVAX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $9.85M in total.
+6 live pools clear this page's $100K TVL floor, $9.8M in total.
 
 ### Are these rates safe?
 

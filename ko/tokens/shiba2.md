@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 0.49% | $1.85M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 0.49% | $1.86M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token) | Ethereum | 0.94% | $966.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.94%예�
 
 ### SHIBA2 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.83M예요.
 
 ### 이 수익률은 안전한가요?
 

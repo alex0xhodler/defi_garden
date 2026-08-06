@@ -1,17 +1,17 @@
 # CRV DeFi Yields
 
-The highest honest CRV yield right now is 15.25% on stake-dao (Ethereum), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRV yield right now is 15.42% on stake-dao (Ethereum), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 7.48% | $6.39M |
-| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 11.99% | $5.32M |
-| [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8&src=seo_token) | Ethereum | 4.35% | $2.14M |
-| [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595&src=seo_token) | Ethereum | 6.40% | $1.99M |
-| [aave-v3 →](https://www.defi.garden/?pool=9932d2d8-1e4e-4248-9307-4f99c7e466a8&src=seo_token) | Ethereum | 0.34% | $1.88M |
-| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.53% | $1.13M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 14.28% | $981.4K |
-| [stake-dao →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba&src=seo_token) | Ethereum | 15.25% | $970.5K |
+| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 7.47% | $6.4M |
+| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 12.03% | $5.32M |
+| [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8&src=seo_token) | Ethereum | 4.38% | $2.16M |
+| [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595&src=seo_token) | Ethereum | 6.44% | $2M |
+| [aave-v3 →](https://www.defi.garden/?pool=9932d2d8-1e4e-4248-9307-4f99c7e466a8&src=seo_token) | Ethereum | 0.34% | $1.91M |
+| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.67% | $1.13M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 14.42% | $989.8K |
+| [stake-dao →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba&src=seo_token) | Ethereum | 15.42% | $972K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRV yield today?
 
-15.25% APY on stake-dao (Ethereum), based on live DefiLlama data.
+15.42% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many CRV pools clear the TVL floor?
 
-27 live pools clear this page's $100K TVL floor, $27.1M in total.
+27 live pools clear this page's $100K TVL floor, $27.2M in total.
 
 ### Are these rates safe?
 

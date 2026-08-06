@@ -4,7 +4,7 @@ The highest honest SLINK yield right now is 0.10% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=6721d20a-9ce5-4d14-bbb3-a603a7fc9b95&src=seo_token) | Ethereum | 0.10% | $228.5K |
+| [curve-dex →](https://www.defi.garden/?pool=6721d20a-9ce5-4d14-bbb3-a603a7fc9b95&src=seo_token) | Ethereum | 0.10% | $230.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SLINK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.5K in total.
+1 live pool clear this page's $100K TVL floor, $230.1K in total.
 
 ### Are these rates safe?
 

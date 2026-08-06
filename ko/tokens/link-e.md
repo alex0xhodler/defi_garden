@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [benqi-lending →](https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token) | Avalanche | 0.02% | $574.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 1.06% | $148.7K |
+| [benqi-lending →](https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token) | Avalanche | 0.02% | $579.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 1.05% | $149.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 benqi-lending에서 APY 0.02%
 
 ### LINK.E 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.51M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.53M예요.
 
 ### 이 수익률은 안전한가요?
 

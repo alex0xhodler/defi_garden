@@ -1,14 +1,14 @@
 # OP DeFi Yields
 
-The highest honest OP yield right now is 36.51% on uniswap-v3 (OP Mainnet), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OP yield right now is 35.81% on uniswap-v3 (OP Mainnet), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $315.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token) | OP Mainnet | 36.51% | $314.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token) | OP Mainnet | 34.78% | $263.7K |
-| [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 0.54% | $147.9K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 11.84% | $100.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token) | OP Mainnet | 35.81% | $318.3K |
+| [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $317.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token) | OP Mainnet | 35.41% | $265K |
+| [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 0.49% | $148.9K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 11.87% | $101.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OP yield today?
 
-36.51% APY on uniswap-v3 (OP Mainnet), based on live DefiLlama data.
+35.81% APY on uniswap-v3 (OP Mainnet), based on live DefiLlama data.
 
 ### How many OP pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.14M in total.
+6 live pools clear this page's $100K TVL floor, $1.4M in total.
 
 ### Are these rates safe?
 
@@ -31,9 +31,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
-- [BOLD](https://www.defi.garden/tokens/bold)
 - [ALETH](https://www.defi.garden/tokens/aleth)
 - [LUSD](https://www.defi.garden/tokens/lusd)
+- [ALUSD](https://www.defi.garden/tokens/alusd)
 
 ## Available on
 

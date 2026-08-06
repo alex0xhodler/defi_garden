@@ -1,10 +1,10 @@
 # THEMEMES DeFi Yields
 
-The highest honest THEMEMES yield right now is 0.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THEMEMES yield right now is 0.21% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a5bdd9d9-f7c2-5223-a934-65aa08289c68&src=seo_token) | Solana | 0.23% | $3.96M |
+| [raydium-amm →](https://www.defi.garden/?pool=a5bdd9d9-f7c2-5223-a934-65aa08289c68&src=seo_token) | Solana | 0.21% | $3.96M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THEMEMES yield today?
 
-0.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.21% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many THEMEMES pools clear the TVL floor?
 

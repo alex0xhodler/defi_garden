@@ -4,7 +4,7 @@ The highest honest SBC yield right now is 0.01% on orca-dex (Solana), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa&src=seo_token) | Base | 0.19% | $102K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=430619be-99ec-4b0f-b913-e7e0001343fa&src=seo_token) | Base | 0.05% | $102K |
 | [orca-dex →](https://www.defi.garden/?pool=c88d8d63-00a0-4fd2-a72d-29874a51b7e6&src=seo_token) | Solana | 0.01% | $100.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

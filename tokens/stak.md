@@ -1,10 +1,10 @@
 # STAK DeFi Yields
 
-The highest honest STAK yield right now is 12.20% on spectra-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STAK yield right now is 12.19% on spectra-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe&src=seo_token) | Ethereum | 12.20% | $187.5K |
+| [spectra-v2 →](https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe&src=seo_token) | Ethereum | 12.19% | $187.5K |
 | [spectra-v2 →](https://www.defi.garden/?pool=65b1e722-a49d-478e-9f16-e696a2355f25&src=seo_token) | Ethereum | 0.15% | $185.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STAK yield today?
 
-12.20% APY on spectra-v2 (Ethereum), based on live DefiLlama data.
+12.19% APY on spectra-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many STAK pools clear the TVL floor?
 

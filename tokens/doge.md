@@ -4,11 +4,10 @@ The highest honest DOGE yield right now is 79.51% on gmtrade (Solana), among 8 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 1.04% | $2.67M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 1.05% | $2.33M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 2.40% | $401.5K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 3.18% | $266.2K |
-| [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 79.51% | $157.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 0.72% | $2.67M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 0.66% | $2.34M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 3.15% | $267.3K |
+| [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 79.51% | $158K |
 | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token) | Heco | 0.07% | $143.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -21,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DOGE pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $11.58M in total.
+8 live pools clear this page's $100K TVL floor, $11.59M in total.
 
 ### Are these rates safe?
 

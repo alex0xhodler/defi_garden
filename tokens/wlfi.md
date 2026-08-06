@@ -5,8 +5,8 @@ The highest honest WLFI yield right now is 4.84% on uniswap-v4 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd&src=seo_token) | Ethereum | 4.84% | $3.92M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e&src=seo_token) | Ethereum | 0.79% | $1.17M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5503962d-c7b8-48e8-ab42-19ab1bea4190&src=seo_token) | Ethereum | 0.03% | $1.08M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e&src=seo_token) | Ethereum | 0.56% | $1.17M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5503962d-c7b8-48e8-ab42-19ab1bea4190&src=seo_token) | Ethereum | 0.02% | $1.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WLFI pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $275.91M in total.
+7 live pools clear this page's $100K TVL floor, $275.9M in total.
 
 ### Are these rates safe?
 

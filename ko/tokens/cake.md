@@ -1,17 +1,17 @@
 # CAKE 디파이 수익률
 
-현재 CAKE의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 11.12%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CAKE의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 10.94%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.01% | $18.19M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.02% | $7.37M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.32% | $3.55M |
-| [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $635.7K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 2.71% | $368.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 0.99% | $307.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token) | BSC | 11.12% | $160.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=636b6dab-68e3-4e4b-8e85-b4c225ae5f24&src=seo_token) | BSC | 5.13% | $123.5K |
+| [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.01% | $18.28M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.04% | $7.41M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.23% | $3.57M |
+| [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $638.8K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 2.76% | $369K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.02% | $309K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d4286a6-6536-4dca-8b45-d8226190d5a9&src=seo_token) | BSC | 10.94% | $160.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=636b6dab-68e3-4e4b-8e85-b4c225ae5f24&src=seo_token) | BSC | 5.16% | $123.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 CAKE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 11.12%예요.
+DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 10.94%예요.
 
 ### CAKE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $30.94M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $31.09M예요.
 
 ### 이 수익률은 안전한가요?
 

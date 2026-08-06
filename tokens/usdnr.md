@@ -4,7 +4,7 @@ The highest honest USDNR yield right now is 3.53% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=4c68a55a-84e3-48a7-8e5b-2ca451d1835e&src=seo_token) | Ethereum | 3.53% | $441.9K |
+| [curve-dex →](https://www.defi.garden/?pool=4c68a55a-84e3-48a7-8e5b-2ca451d1835e&src=seo_token) | Ethereum | 3.53% | $434.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDNR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $876.8K in total.
+2 live pools clear this page's $100K TVL floor, $862.8K in total.
 
 ### Are these rates safe?
 

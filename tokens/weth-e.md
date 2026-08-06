@@ -1,15 +1,16 @@
 # WETH.E DeFi Yields
 
-The highest honest WETH.E yield right now is 288.29% on blackhole-clmm (Avalanche), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WETH.E yield right now is 338.82% on blackhole-clmm (Avalanche), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.30% | $5.61M |
-| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 1.18% | $1.86M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 16.56% | $726.4K |
-| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 5.69% | $232.4K |
-| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 1.78% | $154.6K |
-| [blackhole-clmm →](https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token) | Avalanche | 288.29% | $130.4K |
+| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.30% | $5.65M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 15.09% | $4.19M |
+| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 1.22% | $1.81M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 17.24% | $730.2K |
+| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 5.69% | $234.1K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 1.95% | $155.3K |
+| [blackhole-clmm →](https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token) | Avalanche | 338.82% | $124.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WETH.E yield today?
 
-288.29% APY on blackhole-clmm (Avalanche), based on live DefiLlama data.
+338.82% APY on blackhole-clmm (Avalanche), based on live DefiLlama data.
 
 ### How many WETH.E pools clear the TVL floor?
 

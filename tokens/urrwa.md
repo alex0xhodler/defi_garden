@@ -1,10 +1,10 @@
 # URRWA DeFi Yields
 
-The highest honest URRWA yield right now is 4.02% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest URRWA yield right now is 4.03% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e45fd043-86ee-4620-8cd9-3c787c5728a7&src=seo_token) | Monad | 4.02% | $100.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=e45fd043-86ee-4620-8cd9-3c787c5728a7&src=seo_token) | Monad | 4.03% | $100.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest URRWA yield today?
 
-4.02% APY on morpho-blue (Monad), based on live DefiLlama data.
+4.03% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many URRWA pools clear the TVL floor?
 
@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
+- [AUSD](https://www.defi.garden/tokens/ausd)
 
 ## Available on
 

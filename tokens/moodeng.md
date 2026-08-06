@@ -1,11 +1,11 @@
 # MOODENG DeFi Yields
 
-The highest honest MOODENG yield right now is 8.38% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOODENG yield right now is 7.89% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 8.38% | $2.1M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 2.52% | $471.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 7.89% | $2.12M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 2.46% | $474.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOODENG yield today?
 
-8.38% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.89% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MOODENG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.57M in total.
+2 live pools clear this page's $100K TVL floor, $2.6M in total.
 
 ### Are these rates safe?
 

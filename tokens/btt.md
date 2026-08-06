@@ -5,7 +5,7 @@ The highest honest BTT yield right now is 0.14% on uniswap-v2 (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=1a009024-2ff0-4e82-8b14-e77685db7e0a&src=seo_token) | Tron | 0.10% | $872.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.14% | $205.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4778a47e-8f5b-497b-b9b6-8bfba1343183&src=seo_token) | Ethereum | 0.14% | $206K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

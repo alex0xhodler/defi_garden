@@ -4,7 +4,7 @@ The highest honest MOEW yield right now is 0.90% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 2.32% | $345.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 1.92% | $346.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token) | Solana | 0.90% | $107.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOEW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $452.9K in total.
+2 live pools clear this page's $100K TVL floor, $454K in total.
 
 ### Are these rates safe?
 

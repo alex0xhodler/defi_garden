@@ -4,7 +4,7 @@ The highest honest USDTB yield right now is 8.11% on euler-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.03% | $20.08M |
+| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.05% | $20.07M |
 | [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.53% | $6.51M |
 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.75% | $2.22M |
 | [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.27% | $1.66M |

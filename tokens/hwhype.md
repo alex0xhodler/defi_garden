@@ -4,7 +4,7 @@ The highest honest HWHYPE yield right now is 4.67% on hyperwave (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperwave →](https://www.defi.garden/?pool=88c6f0fd-5371-4b60-8032-ddf168b4bdd6&src=seo_token) | Hyperliquid L1 | 4.67% | $1.13M |
+| [hyperwave →](https://www.defi.garden/?pool=88c6f0fd-5371-4b60-8032-ddf168b4bdd6&src=seo_token) | Hyperliquid L1 | 4.67% | $1.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HWHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.13M in total.
+1 live pool clear this page's $100K TVL floor, $1.14M in total.
 
 ### Are these rates safe?
 

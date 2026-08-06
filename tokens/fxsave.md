@@ -6,8 +6,8 @@ The highest honest FXSAVE yield right now is 11.46% on pendle (Ethereum), among 
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 11.46% | $651.2K |
 | [pendle →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token) | Ethereum | 7.05% | $651.2K |
-| [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token) | Ethereum | 1.80% | $541.9K |
-| [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 1.80% | $541.8K |
+| [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token) | Ethereum | 1.82% | $541.9K |
+| [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 1.82% | $541.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

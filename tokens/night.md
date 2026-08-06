@@ -1,13 +1,13 @@
 # NIGHT DeFi Yields
 
-The highest honest NIGHT yield right now is 99.57% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NIGHT yield right now is 98.23% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 86.65% | $794.8K |
-| [liqwid →](https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token) | Cardano | 0.01% | $337.6K |
-| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 63.23% | $273.5K |
-| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 99.57% | $213.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 85.88% | $801.7K |
+| [liqwid →](https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token) | Cardano | 0.01% | $339.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 62.06% | $278.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 98.23% | $216K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NIGHT yield today?
 
-99.57% APY on minswap-dex (Cardano), based on live DefiLlama data.
+98.23% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many NIGHT pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.62M in total.
+4 live pools clear this page's $100K TVL floor, $1.64M in total.
 
 ### Are these rates safe?
 

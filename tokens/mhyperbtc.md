@@ -4,8 +4,8 @@ The highest honest MHYPERBTC yield right now is 2.77% on pendle (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.77% | $2.12M |
 | [pendle →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 2.58% | $2.12M |
+| [pendle →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.77% | $2.12M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MHYPERBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $12.69M in total.
+4 live pools clear this page's $100K TVL floor, $12.74M in total.
 
 ### Are these rates safe?
 

@@ -1,17 +1,17 @@
 # WEETH 디파이 수익률
 
-현재 WEETH의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 3.02%이며, $100K TVL 기준을 넘는 69개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WEETH의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 3.03%이며, $100K TVL 기준을 넘는 69개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.40% | $3.6B |
-| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.40% | $142.25M |
-| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.40% | $34.61M |
-| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.17% | $13.23M |
-| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.28% | $9.71M |
-| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.63% | $8.08M |
-| [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.02% | $1.51M |
-| [fluid-dex →](https://www.defi.garden/?pool=21398257-946f-4510-a687-4def9a2a9587&src=seo_token) | Base | 0.01% | $1.35M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.45% | $3.61B |
+| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.45% | $142.7M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.45% | $34.72M |
+| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.17% | $13.33M |
+| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.20% | $9.79M |
+| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.55% | $8.15M |
+| [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.03% | $1.52M |
+| [fluid-dex →](https://www.defi.garden/?pool=21398257-946f-4510-a687-4def9a2a9587&src=seo_token) | Base | 0.01% | $1.36M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 WEETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 3.02%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 3.03%예요.
 
 ### WEETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 69개이며, 합산 TVL은 $6.68B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 69개이며, 합산 TVL은 $6.71B예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 0.79% | $1.73M |
-| [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 74.86% | $450.4K |
+| [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 75.66% | $450.4K |
 | [frax →](https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token) | Ethereum | 0.01% | $121.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

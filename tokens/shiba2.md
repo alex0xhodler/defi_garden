@@ -4,7 +4,7 @@ The highest honest SHIBA2 yield right now is 0.94% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 0.49% | $1.85M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 0.49% | $1.86M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token) | Ethereum | 0.94% | $966.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHIBA2 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.82M in total.
+2 live pools clear this page's $100K TVL floor, $2.83M in total.
 
 ### Are these rates safe?
 

@@ -5,7 +5,7 @@ The highest honest IQ yield right now is 0.79% on frax (Ethereum), among 4 pools
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 0.79% | $1.73M |
-| [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 74.86% | $450.4K |
+| [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_token) | Fraxtal | 75.66% | $450.4K |
 | [frax →](https://www.defi.garden/?pool=0d2ff0ab-c0b1-41d4-9770-67330fcadf38&src=seo_token) | Ethereum | 0.01% | $121.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

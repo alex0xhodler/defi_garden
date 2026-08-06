@@ -4,7 +4,7 @@ The highest honest MFR yield right now is 0.11% on uniswap-v3 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=acee006e-2796-43fe-8fb6-0baa60ff82fc&src=seo_token) | Base | 0.11% | $173K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=acee006e-2796-43fe-8fb6-0baa60ff82fc&src=seo_token) | Base | 0.11% | $174.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MFR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $173K in total.
+1 live pool clear this page's $100K TVL floor, $174.3K in total.
 
 ### Are these rates safe?
 

@@ -1,15 +1,15 @@
 # PUMP DeFi Yields
 
-The highest honest PUMP yield right now is 295.33% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUMP yield right now is 277.58% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=85ca2b2c-c141-5a4d-989f-64a5439d0b1e&src=seo_token) | Solana | 0.33% | $2.05M |
-| [orca-dex →](https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token) | Solana | 100.41% | $948.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token) | Solana | 29.16% | $433.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token) | Solana | 295.33% | $417.2K |
-| [orca-dex →](https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token) | Solana | 135.53% | $404.3K |
-| [project-0 →](https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token) | Solana | 0.93% | $104K |
+| [raydium-amm →](https://www.defi.garden/?pool=85ca2b2c-c141-5a4d-989f-64a5439d0b1e&src=seo_token) | Solana | 0.30% | $2.05M |
+| [orca-dex →](https://www.defi.garden/?pool=c9e701f0-b82a-49d6-9da7-5955ef20157b&src=seo_token) | Solana | 95.97% | $963.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=d7e94a53-943b-43ff-a842-3b2448df20ec&src=seo_token) | Solana | 28.08% | $437.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=ed0422f3-c196-4c77-ae75-9d9b873b3574&src=seo_token) | Solana | 277.58% | $426.1K |
+| [orca-dex →](https://www.defi.garden/?pool=ab934c8c-713f-48af-9dde-83844a7fb31a&src=seo_token) | Solana | 122.19% | $420.4K |
+| [project-0 →](https://www.defi.garden/?pool=c8a4307c-f6de-49cd-a5c0-6d1581752fb7&src=seo_token) | Solana | 0.93% | $104.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PUMP yield today?
 
-295.33% APY on raydium-amm (Solana), based on live DefiLlama data.
+277.58% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PUMP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $4.36M in total.
+6 live pools clear this page's $100K TVL floor, $4.41M in total.
 
 ### Are these rates safe?
 

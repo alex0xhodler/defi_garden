@@ -1,11 +1,11 @@
 # CBLTC DeFi Yields
 
-The highest honest CBLTC yield right now is 32.61% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBLTC yield right now is 36.53% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 6.40% | $163.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 32.61% | $134.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 9.68% | $148.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 36.53% | $123.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CBLTC yield today?
 
-32.61% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+36.53% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBLTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.1M in total.
+4 live pools clear this page's $100K TVL floor, $2.08M in total.
 
 ### Are these rates safe?
 

@@ -5,9 +5,9 @@ The highest honest MUSD yield right now is 6.25% on aave-v3 (Monad), among 7 poo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token) | Monad | 6.25% | $2.63M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token) | Base | 4.78% | $938.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token) | Base | 5.14% | $938.7K |
 | [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token) | Ethereum | 1.40% | $392.5K |
-| [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 1.73% | $330.4K |
+| [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 1.74% | $330.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

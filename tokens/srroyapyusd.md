@@ -4,9 +4,9 @@ The highest honest SRROYAPYUSD yield right now is 14.57% on pendle (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 239.00% | $2.74M |
-| [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 63.59% | $256.8K |
+| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 237.89% | $2.74M |
 | [pendle →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5&src=seo_token) | Ethereum | 14.57% | $256.8K |
+| [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 63.59% | $256.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

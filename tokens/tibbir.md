@@ -1,11 +1,11 @@
 # TIBBIR DeFi Yields
 
-The highest honest TIBBIR yield right now is 15.16% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TIBBIR yield right now is 107.96% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token) | Base | 93.90% | $250.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 15.16% | $103.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token) | Base | 107.96% | $260.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 15.57% | $103.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TIBBIR yield today?
 
-15.16% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+107.96% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TIBBIR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $353.7K in total.
+2 live pools clear this page's $100K TVL floor, $364K in total.
 
 ### Are these rates safe?
 

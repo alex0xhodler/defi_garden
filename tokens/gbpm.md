@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
+- [AUSD](https://www.defi.garden/tokens/ausd)
 
 ## Available on
 

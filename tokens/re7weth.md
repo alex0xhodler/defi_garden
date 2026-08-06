@@ -4,7 +4,7 @@ The highest honest RE7WETH yield right now is 0.74% on morpho-blue (OP Mainnet),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=fb0a056b-1672-4ff6-b695-f1ba349aec3f&src=seo_token) | OP Mainnet | 0.74% | $118.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=fb0a056b-1672-4ff6-b695-f1ba349aec3f&src=seo_token) | OP Mainnet | 0.74% | $119.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RE7WETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.7K in total.
+1 live pool clear this page's $100K TVL floor, $119.4K in total.
 
 ### Are these rates safe?
 
@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
-- [BOLD](https://www.defi.garden/tokens/bold)
 - [ALETH](https://www.defi.garden/tokens/aleth)
 - [LUSD](https://www.defi.garden/tokens/lusd)
+- [ALUSD](https://www.defi.garden/tokens/alusd)
 
 ## Available on
 

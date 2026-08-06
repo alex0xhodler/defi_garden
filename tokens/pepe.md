@@ -4,13 +4,13 @@ The highest honest PEPE yield right now is 6.30% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 1.48% | $21.31M |
-| [raydium-amm →](https://www.defi.garden/?pool=f533ee34-5354-5712-9a31-332d21888e52&src=seo_token) | Solana | 0.24% | $2.81M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 1.93% | $21.42M |
+| [raydium-amm →](https://www.defi.garden/?pool=f533ee34-5354-5712-9a31-332d21888e52&src=seo_token) | Solana | 0.26% | $2.81M |
 | [raydium-amm →](https://www.defi.garden/?pool=75bf0314-4de8-50c3-b390-31d28279f1db&src=seo_token) | Solana | 0.25% | $2.78M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 0.23% | $1.59M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 1.20% | $196.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 0.25% | $1.59M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 1.20% | $200.1K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 6.30% | $183.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 0.45% | $133K |
+| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 0.87% | $136.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PEPE pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $29M in total.
+7 live pools clear this page's $100K TVL floor, $29.12M in total.
 
 ### Are these rates safe?
 

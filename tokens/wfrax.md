@@ -1,11 +1,12 @@
 # WFRAX DeFi Yields
 
-The highest honest WFRAX yield right now is 0.02% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WFRAX yield right now is 29.03% on curve-dex (Fraxtal), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.16% | $1.94M |
-| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.02% | $119K |
+| [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.15% | $1.95M |
+| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.04% | $122K |
+| [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token) | Fraxtal | 29.03% | $100.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WFRAX yield today?
 
-0.02% APY on curve-dex (Ethereum), based on live DefiLlama data.
+29.03% APY on curve-dex (Fraxtal), based on live DefiLlama data.
 
 ### How many WFRAX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.52M in total.
+5 live pools clear this page's $100K TVL floor, $2.63M in total.
 
 ### Are these rates safe?
 
@@ -35,5 +36,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Fraxtal](https://www.defi.garden/chains/fraxtal)
 
 ## Last updated August 6, 2026

@@ -4,9 +4,9 @@ The highest honest TRAC yield right now is 10.45% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 16.83% | $352.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 16.45% | $353.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=2fbe19fb-133c-4db2-bc61-264f988e5d27&src=seo_token) | Ethereum | 10.45% | $227.3K |
-| [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 6.57% | $202K |
+| [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 6.57% | $201K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TRAC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $782K in total.
+3 live pools clear this page's $100K TVL floor, $782.2K in total.
 
 ### Are these rates safe?
 

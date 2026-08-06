@@ -5,11 +5,11 @@ The highest honest USDE yield right now is 4.99% on aave-v3 (Monad), among 40 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.28% | $316.39M |
-| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.56% | $236.91M |
-| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 2.34% | $192.1M |
+| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.56% | $236.9M |
+| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 2.34% | $193.8M |
 | [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 2.30% | $106.1M |
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.43% | $34.02M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.20% | $33.91M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.46% | $34.02M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.25% | $33.91M |
 | [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token) | Mantle | 3.91% | $8.93M |
 | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 4.99% | $6.39M |
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDE pools clear the TVL floor?
 
-40 live pools clear this page's $100K TVL floor, $1.23B in total.
+40 live pools clear this page's $100K TVL floor, $1.24B in total.
 
 ### Are these rates safe?
 

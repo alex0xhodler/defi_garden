@@ -4,7 +4,7 @@ The highest honest ROXWETH yield right now is 1.78% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ba788135-cab2-4936-b1ae-ba65da91480e&src=seo_token) | Ethereum | 1.78% | $2.87M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba788135-cab2-4936-b1ae-ba65da91480e&src=seo_token) | Ethereum | 1.78% | $2.89M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROXWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.87M in total.
+1 live pool clear this page's $100K TVL floor, $2.89M in total.
 
 ### Are these rates safe?
 

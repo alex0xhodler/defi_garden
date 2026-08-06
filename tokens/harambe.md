@@ -4,7 +4,7 @@ The highest honest HARAMBE yield right now is 0.03% on uniswap-v3 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token) | Solana | 3.24% | $166.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token) | Solana | 3.15% | $167.4K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=601b6bd7-331a-434d-9d26-b52c1bdf6f1e&src=seo_token) | Ethereum | 0.03% | $120.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HARAMBE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $286.8K in total.
+2 live pools clear this page's $100K TVL floor, $287.8K in total.
 
 ### Are these rates safe?
 
