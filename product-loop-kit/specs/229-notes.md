@@ -492,3 +492,62 @@ non-vacuity proof and immediately reverted, confirmed byte-identical above).
   status --short` showing only `test_vercelignore.js` modified after it):
   `TOTAL pass=52 fail=0 timeout=0 total=52`, exit 0 — a genuine post-commit green,
   not the pre-commit false-positive this finding is about.
+
+### Correction #3 — the non-vacuity guard's own predicate was over-tight (`>= 3` → `> 0`)
+
+**Provenance, stated plainly.** The `>= 3` predicate in the guard above was written
+by me (the builder) to the operator's own explicit instruction at the time
+("at least 3 spotlight `pack.json` files are tracked (the cadence's 3-pack shape)");
+it did not originate from my independent judgment about what this file should
+assert. Verifier attempt 2 correctly flagged it, and the operator's follow-up
+instruction attributed the error to themselves rather than leaving it ambiguous —
+recorded here for the same reason: so a later reader can see exactly where the
+instance-specific constant (today's committed pack count, 3) entered a file whose
+only job is asserting `.vercelignore` correctness, and why it was removed.
+
+**The finding.** The guard's own comment named the failure mode it exists to catch:
+a derivation collapsing to **zero** ("if this ever drops to 0 the MUST_KEEP loop
+below tests nothing"). But the assertion it paired with that comment was `>= 3` —
+today's exact committed pack count, not the zero case the comment describes. The
+weakest predicate that separates the known-bad case (0 — nothing left for the
+MUST_KEEP loop to exercise) from the known-good case (any real derivation, i.e. >=1)
+is `> 0`. `>= 3` is a product/cadence invariant (spec 229 §5's "3 packs" — this
+build's one-time regen output) smuggled into a file whose stated job is
+`.vercelignore` correctness, not spotlight-cadence correctness; a perfectly benign
+future state (1 or 2 packs mid-regen, or a deliberate cadence change to e.g. 2
+packs/week) would fail this file for a reason that has nothing to do with what it
+exists to check. This is exactly the "weakest predicate that distinguishes
+known-bad from known-good" discipline the codebase's other non-vacuity guards
+already follow (e.g. `test_test_registry.js`'s self-defeat check removes exactly one
+known file, not an arbitrary number).
+
+**Fix.** `spotlightPackFiles.length >= 3` → `spotlightPackFiles.length > 0`; test name
+changed from "...(the cadence's own 3-pack shape)..." to "at least one spotlight
+pack.json is tracked..."; the guard's comment rewritten to state the `>0`/weakest-
+predicate rationale directly instead of citing the 3-pack cadence shape. The separate
+`spotlightPackFiles.length === spotlightCardFiles.length` lockstep assertion is
+UNCHANGED — the operator confirmed it is legitimately count-independent (it compares
+the two derivations to each other, never to a fixed number) and was not part of this
+finding. No separate ">=3 as a standing cadence invariant" assertion was added — the
+operator was explicit that if that invariant is ever wanted, it needs its own name
+and its own justification in its own future item, not folded into this
+`.vercelignore` gate under a different assertion's cover.
+
+**Non-vacuity re-proof for the weakened guard.** New baseline md5 (post-fix, before
+mutation): `a6e9c66b93ca2df3038cbe22e45a0579`. Mutated `spotlightPackFiles`'s regex
+to `^spotlights-NEVER-MATCH\/...` (matches nothing) — same mutation shape as before,
+re-run against the now-`>0` predicate:
+```
+✗ (c) non-vacuity: at least one spotlight pack.json is tracked — an empty derivation would silently under-test this section
+148 assertions passed (FAILURES above)
+FAILED
+```
+Confirms `> 0` still catches the zero case exactly as `>= 3` did — the predicate got
+weaker without the guard losing its actual power. Restore md5:
+`a6e9c66b93ca2df3038cbe22e45a0579` (byte-identical to the post-fix baseline). Green
+after restore: 152 assertions passed, exit 0.
+
+**Final verification after correction #3:**
+- `node test_vercelignore.js`: 152/152 assertions passed, exit 0
+- `timeout 300 node run-tests.js --lane=plain`: `TOTAL pass=52 fail=0 timeout=0
+  total=52`, exit 0

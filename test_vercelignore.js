@@ -224,13 +224,19 @@ const spotlightCardFiles = ALL_FILES.filter((f) => /^spotlights\/[^/]+\/card\.pn
 // deleted mid-regen, or the glob silently stopped matching) would make the
 // MUST_KEEP loop below iterate zero spotlight entries and PASS trivially —
 // exactly the vacuous-green failure mode LEARNINGS 2026-07-27 warns about
-// ("a filter returning zero is not evidence of health"). Assert the
-// cadence's own committed shape (3 packs, spec 229 §5) rather than just
-// ">0", and assert the two derivations stay in lockstep (every pack.json
-// has a sibling card.png) so a partial-write regen would be caught too.
-test('(c) non-vacuity: at least 3 spotlight pack.json files are tracked (the cadence\'s own 3-pack shape) — an empty derivation would silently under-test this section', () => {
-  assert.ok(spotlightPackFiles.length >= 3,
-    `expected >=3 tracked spotlights/*/pack.json files, got ${spotlightPackFiles.length} — if this ever drops to 0 the MUST_KEEP loop below tests nothing for the spotlights/ class and would still report green`);
+// ("a filter returning zero is not evidence of health"). The weakest
+// predicate that separates the known-bad case (0 — nothing left for the
+// MUST_KEEP loop to test) from the known-good case (>=1 — at least one real
+// KEPT assertion runs) is `> 0`, so that is what this asserts — a specific
+// pack COUNT (e.g. today's committed 3) is a product/cadence invariant, not
+// a `.vercelignore`-correctness one, and is out of scope for this file
+// (spec 229 §5's "3 packs" is this build's one-time regen output, never a
+// standing invariant this gate should enforce). Also assert the two
+// derivations stay in lockstep (every pack.json has a sibling card.png) so
+// a partial-write regen would be caught too.
+test('(c) non-vacuity: at least one spotlight pack.json is tracked — an empty derivation would silently under-test this section', () => {
+  assert.ok(spotlightPackFiles.length > 0,
+    `expected >0 tracked spotlights/*/pack.json files, got ${spotlightPackFiles.length} — if this ever drops to 0 the MUST_KEEP loop below tests nothing for the spotlights/ class and would still report green`);
   assert.strictEqual(spotlightPackFiles.length, spotlightCardFiles.length,
     `spotlight pack.json (${spotlightPackFiles.length}) and card.png (${spotlightCardFiles.length}) counts must match — every committed pack ships both`);
 });
