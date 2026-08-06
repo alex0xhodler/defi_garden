@@ -202,6 +202,45 @@ test('(b) enumeration sanity: at least 15,000 files tracked (refuses to run agai
    =========================================================================== */
 console.log('(c) MUST-KEEP allowlist');
 
+// spotlights/<slug>/{pack.json,card.png} — item 229: the pack slug churns
+// BY DESIGN ("3 packs/week refreshed with live numbers" — spec 229's own
+// acceptance shape). A hardcoded slug here would be exactly the defect this
+// file exists to catch, one refresh later: every weekly regen deletes the
+// old slug directories and commits new ones, so a literal
+// 'spotlights/<old-slug>/pack.json' entry goes stale on the very next
+// cadence and fails check (c)'s "every MUST_KEEP path is tracked" sanity
+// gate for a reason that has nothing to do with .vercelignore (build.md's
+// guard rule / RAZOR.md: derive from the machine-readable source instead of
+// hand-maintaining a mirror of it — this DOES have caught it once already,
+// see 229-notes.md's second post-review finding). Derived from ALL_FILES
+// (the real `git ls-files` enumeration, already computed above) so it is
+// always exactly whatever spotlight packs are actually tracked right now,
+// never a stale slug list. `spotlights/CADENCE.md` stays a literal entry —
+// it is a fixed path, not slug-dependent.
+const spotlightPackFiles = ALL_FILES.filter((f) => /^spotlights\/[^/]+\/pack\.json$/.test(f));
+const spotlightCardFiles = ALL_FILES.filter((f) => /^spotlights\/[^/]+\/card\.png$/.test(f));
+
+// Non-vacuity guard: a derivation that comes back empty (e.g. every pack
+// deleted mid-regen, or the glob silently stopped matching) would make the
+// MUST_KEEP loop below iterate zero spotlight entries and PASS trivially —
+// exactly the vacuous-green failure mode LEARNINGS 2026-07-27 warns about
+// ("a filter returning zero is not evidence of health"). The weakest
+// predicate that separates the known-bad case (0 — nothing left for the
+// MUST_KEEP loop to test) from the known-good case (>=1 — at least one real
+// KEPT assertion runs) is `> 0`, so that is what this asserts — a specific
+// pack COUNT (e.g. today's committed 3) is a product/cadence invariant, not
+// a `.vercelignore`-correctness one, and is out of scope for this file
+// (spec 229 §5's "3 packs" is this build's one-time regen output, never a
+// standing invariant this gate should enforce). Also assert the two
+// derivations stay in lockstep (every pack.json has a sibling card.png) so
+// a partial-write regen would be caught too.
+test('(c) non-vacuity: at least one spotlight pack.json is tracked — an empty derivation would silently under-test this section', () => {
+  assert.ok(spotlightPackFiles.length > 0,
+    `expected >0 tracked spotlights/*/pack.json files, got ${spotlightPackFiles.length} — if this ever drops to 0 the MUST_KEEP loop below tests nothing for the spotlights/ class and would still report green`);
+  assert.strictEqual(spotlightPackFiles.length, spotlightCardFiles.length,
+    `spotlight pack.json (${spotlightPackFiles.length}) and card.png (${spotlightCardFiles.length}) counts must match — every committed pack ships both`);
+});
+
 const MUST_KEEP = [
   // App shell / router.
   'home.html', 'plan.html',
@@ -245,9 +284,9 @@ const MUST_KEEP = [
   'tools/calculate_projection.json', 'tools/get_curated_pools.json', 'tools/test-agent-tools.js',
   // Persona landing pages.
   'stories/tomoko.html', 'stories/kevin.html', 'stories/lucia.html', 'stories/stories.css',
-  // spotlights (not named in the spec's exclude list; leave served).
-  'spotlights/CADENCE.md', 'spotlights/pareto-credit-usdc-ethereum/card.png',
-  'spotlights/pareto-credit-usdc-ethereum/pack.json',
+  // spotlights (not named in the spec's exclude list; leave served) — see
+  // the derivation + non-vacuity guard immediately above this array.
+  'spotlights/CADENCE.md', ...spotlightPackFiles, ...spotlightCardFiles,
   // og social-card images.
   'og/chains/algorand.png',
   // tokens/chains/ko — the .html AND item-212 .md twins, both must serve.
