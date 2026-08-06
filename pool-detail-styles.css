@@ -76,6 +76,14 @@
   --cert-lathe-caution: rgba(163, 39, 30, 0.22);
   --cert-lathe-margin: rgba(30, 92, 63, 0.13);
   --cert-lathe-watermark: rgba(30, 92, 63, 0.05);
+  /* OPAQUE tinted band — the counterfoil / endorsement ground. Opaque on
+     purpose: an rgba() wash reports its own unblended RGB to every contrast
+     reader (browser tooling and test_northstar_cta_fires.js alike), which is
+     how the secondary CTA's label measured 1.04:1 against ink it never
+     actually sat on. A printed tint has one real color; so does this. */
+  --cert-band: #E9EFE8;
+  --cert-band-deep: #DFE7DB;
+  --cert-slip: #FBFCF7;
   /* focus — always visible, in the world's ink */
   --cert-focus-ring: 0 0 0 3px rgba(30, 92, 63, 0.38);
 
@@ -128,6 +136,9 @@
   --cert-lathe-caution: rgba(229, 138, 128, 0.22);
   --cert-lathe-margin: rgba(124, 201, 160, 0.12);
   --cert-lathe-watermark: rgba(124, 201, 160, 0.055);
+  --cert-band: #203227;
+  --cert-band-deep: #27392D;
+  --cert-slip: #2B4034;
   --cert-focus-ring: 0 0 0 3px rgba(124, 201, 160, 0.4);
 }
 
@@ -157,6 +168,9 @@
     --cert-lathe-caution: rgba(229, 138, 128, 0.22);
     --cert-lathe-margin: rgba(124, 201, 160, 0.12);
     --cert-lathe-watermark: rgba(124, 201, 160, 0.055);
+    --cert-band: #203227;
+    --cert-band-deep: #27392D;
+    --cert-slip: #2B4034;
     --cert-focus-ring: 0 0 0 3px rgba(124, 201, 160, 0.4);
   }
 }
@@ -754,17 +768,53 @@
   color: var(--cert-ink-2);
 }
 
-/* ── Action band ───────────────────────────────────────────────────────── */
-.pool-hero-actions {
+/* ── The counterfoil — the part of the document you act on ──────────────
+   Not a tray with two buttons parked in it: a detachable stub, separated
+   from the certificate above by a printed tear rule (two hairlines 4px
+   apart), opened by its own lathework strip, and carrying one instrument
+   at full plate weight with its countersignature beneath. The ground is an
+   OPAQUE tint — see --cert-band. */
+.pool-hero-actions,
+.pool-cta-echo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 14px;
-  padding: 22px 32px 26px 32px;
-  border-top: 1px solid var(--cert-rule);
-  background: var(--cert-green-wash);
+  gap: 0;
   position: relative;
   z-index: 1;
+  background: var(--cert-band);
+  border-top: 1px solid var(--cert-rule-strong);
+  text-align: center;
+}
+
+.pool-hero-actions {
+  padding: 44px 32px 28px 32px;
+}
+
+/* the tear rule's second hairline */
+.pool-hero-actions::before,
+.pool-cta-echo::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid var(--cert-rule);
+  pointer-events: none;
+}
+
+/* the lathework strip that opens the stub */
+.pool-hero-actions::after,
+.pool-cta-echo::after {
+  content: '';
+  position: absolute;
+  top: 17px;
+  left: 50%;
+  margin-left: -130px;
+  width: 260px;
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--cert-lathe);
 }
 
 .pool-hero-action-primary,
@@ -772,8 +822,40 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   min-width: 0;
+  position: relative;
+}
+
+/* the countersignature sits below a dotted rule stopped by a lozenge —
+   the same node the section dividers use, so the page has ONE separator */
+.pool-hero-action-secondary {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 22px;
+}
+
+.pool-hero-action-secondary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(280px, 78%);
+  border-top: 1px dotted var(--cert-rule-strong);
+}
+
+.pool-hero-action-secondary::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  margin-left: -4px;
+  transform: rotate(45deg);
+  border: 1px solid var(--cert-rule-strong);
+  background: var(--cert-band);
 }
 
 .pool-action-hint {
@@ -793,23 +875,36 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  position: relative;
   width: auto;
-  height: 48px;
-  min-height: 48px;
-  padding: 0 30px;
+  height: 54px;
+  min-height: 54px;
+  padding: 0 40px;
   background: var(--cert-green);
   color: var(--cert-on-green);
-  border: 1px solid transparent;
-  border-radius: 4px;
+  border: 1px solid var(--cert-green-active);
+  border-radius: 3px;
   font-family: var(--cert-sans);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.015em;
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
   transition: background 0.2s ease;
   box-sizing: border-box;
+}
+
+/* plate mark — the keyline an intaglio press leaves inside an inked field.
+   A hairline drawn in the ink's own light, not a shadow. */
+.pool-detail-view .cta-button-primary::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--cert-on-green);
+  border-radius: 1px;
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 .pool-detail-view .cta-button-primary:hover {
@@ -835,15 +930,15 @@
   justify-content: center;
   gap: 6px;
   width: auto;
-  height: 38px;
-  min-height: 38px;
-  padding: 0 16px;
-  background: transparent;
-  color: var(--cert-ink-2);
+  height: 42px;
+  min-height: 42px;
+  padding: 0 20px;
+  background: var(--cert-slip);
+  color: var(--cert-ink);
   border: 1px solid var(--cert-rule-strong);
-  border-radius: 4px;
+  border-radius: 3px;
   font-family: var(--cert-sans);
-  font-size: 13px;
+  font-size: 13.5px;
   font-weight: 600;
   letter-spacing: 0.01em;
   line-height: 1;
@@ -856,12 +951,12 @@
 .pool-detail-view .cta-button-protocol:hover {
   color: var(--cert-green);
   border-color: var(--cert-green);
-  background: transparent;
+  background: var(--cert-slip);
 }
 
 .pool-detail-view .cta-button-protocol:active {
   transform: translateY(1px);
-  background: var(--cert-green-wash);
+  background: var(--cert-band-deep);
 }
 
 /* ═══ SUPPORTING PANELS — one document voice ════════════════════════════
@@ -1072,7 +1167,7 @@
 }
 
 .pool-detail-view .quick-amount-btn.active {
-  background: var(--cert-green-wash);
+  background: var(--cert-band);
   border-color: var(--cert-green);
   color: var(--cert-green);
 }
@@ -1147,7 +1242,7 @@
 .calc-tab:hover { color: var(--cert-ink); }
 
 .calc-tab.active {
-  background: var(--cert-green-wash);
+  background: var(--cert-band);
   color: var(--cert-green);
 }
 
@@ -1262,22 +1357,21 @@
   max-width: 62ch;
 }
 
-/* ── Echo band — the coupon sheet's own closing action ─────────────────── */
+/* ── Echo band — the coupon sheet's own counterfoil. Same construction as
+   the hero's (shared rule above): tear rule, lathework strip, plate-weight
+   instrument, countersignature. It bleeds to the panel edge so the stub
+   reads as part of the sheet, not a card inside a card. */
 .pool-cta-echo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  margin: 22px -30px -28px -30px;
-  padding: 20px 30px 24px 30px;
-  border-top: 1px solid var(--cert-rule);
-  background: var(--cert-green-wash);
+  margin: 24px -30px -28px -30px;
+  padding: 44px 30px 26px 30px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
 }
 
-/* collapsed calculator: the echo band still closes the panel cleanly */
+/* collapsed calculator: the stub still closes the panel cleanly */
 .calculator-compact:not(.expanded) .pool-cta-echo {
-  margin: 18px -26px -22px -26px;
-  padding: 18px 26px 22px 26px;
+  margin: 20px -26px -22px -26px;
+  padding: 42px 26px 22px 26px;
 }
 
 /* ═══ THE REGISTER (Pool Information) ═══════════════════════════════════ */
@@ -1388,7 +1482,7 @@ a.pool-token-chip {
 a.pool-token-chip:hover {
   border-color: var(--cert-green);
   color: var(--cert-green);
-  background: var(--cert-green-wash);
+  background: var(--cert-band);
   transform: none;
 }
 
@@ -1522,7 +1616,13 @@ a.pool-token-chip:hover {
   }
 
   .pool-hero-actions {
-    padding: 18px 20px 22px 20px;
+    padding: 40px 20px 24px 20px;
+  }
+
+  .pool-hero-actions::after,
+  .pool-cta-echo::after {
+    width: 176px;
+    margin-left: -88px;
   }
 
   .pool-detail-view .cta-button-primary {
@@ -1546,13 +1646,13 @@ a.pool-token-chip:hover {
   }
 
   .pool-cta-echo {
-    margin: 20px -20px -24px -20px;
-    padding: 18px 20px 22px 20px;
+    margin: 22px -20px -24px -20px;
+    padding: 40px 20px 22px 20px;
   }
 
   .calculator-compact:not(.expanded) .pool-cta-echo {
-    margin: 16px -18px -18px -18px;
-    padding: 16px 18px 20px 18px;
+    margin: 18px -18px -18px -18px;
+    padding: 38px 18px 20px 18px;
   }
 
   .calculator-compact::after,
