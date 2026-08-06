@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-05T18:50:00Z",
+  "title": "Design System: DeFi Garden — Quiet",
+  "extensions": {
+    "colorMeta": {
+      "accent": { "role": "primary", "displayName": "Quiet Blue", "canonical": "#3B82F6", "tonalRamp": ["#0B1E3D", "#122E56", "#1D4ED8", "#2563EB", "#3B82F6", "#6BA1F8", "#93C0FA", "#D6E7FE"] },
+      "bg": { "role": "neutral", "displayName": "Paper", "canonical": "#F7F8FA", "tonalRamp": ["#0F1115", "#161A21", "#1C212A", "#5A6478", "#8A93A6", "#CBD2DF", "#E4E7EE", "#F7F8FA"] },
+      "surface": { "role": "neutral", "displayName": "Surface", "canonical": "#FFFFFF" },
+      "text": { "role": "neutral", "displayName": "Ink", "canonical": "#10151F" },
+      "text-secondary": { "role": "neutral", "displayName": "Slate", "canonical": "#5A6478" },
+      "warning": { "role": "accent", "displayName": "Amber Flag", "canonical": "#B45309" },
+      "danger": { "role": "accent", "displayName": "Alert Red", "canonical": "#B91C1C" }
+    },
+    "typographyMeta": {
+      "title": { "displayName": "Title", "purpose": "Section/panel headings, e.g. 'Yields for USDC'. One fixed size at every viewport." },
+      "metric": { "displayName": "Metric", "purpose": "The one headline number per row/card (APY) — tabular-nums, plain text, never boxed." },
+      "label": { "displayName": "Label", "purpose": "Column headers, metadata lines, sort control — sentence case, never uppercase." }
+    },
+    "shadows": [
+      { "name": "overlay", "value": "0 8px 24px rgba(16, 21, 31, 0.10)", "purpose": "True floating overlays only (dropdowns, modals) — never at-rest cards or buttons." }
+    ],
+    "motion": [
+      { "name": "press", "value": "transform 80ms ease, box-shadow 80ms ease", "purpose": "1px press-down on :active. No scale transforms anywhere (banned scale-pop)." },
+      { "name": "state-step", "value": "all 0.2s ease", "purpose": "Background/border-color transitions on hover/focus." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "360px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one accent-filled action per view.",
+      "html": "<button class=\"ds-btn-primary\">Garden this pool →</button>",
+      "css": ".ds-btn-primary { background: var(--ui-accent, #3B82F6); color: #fff; height: 40px; padding: 0 16px; border: none; border-radius: 12px; font-family: FKGroteskNeue, Geist, Inter, sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: background 0.2s ease; } .ds-btn-primary:hover { background: #2563EB; } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 2px #F7F8FA, 0 0 0 4px #3B82F6; } .ds-btn-primary:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Quiet Action Link",
+      "kind": "custom",
+      "refersTo": "quiet-link",
+      "description": "A row's secondary action — plain text at rest, accent only on hover/focus. Used for the grid's 'View & calculate' link.",
+      "html": "<a href=\"#\" class=\"ds-quiet-link\">View &amp; calculate →</a>",
+      "css": ".ds-quiet-link { color: #5A6478; font-family: FKGroteskNeue, Geist, Inter, sans-serif; font-size: 13px; font-weight: 500; text-decoration: none; white-space: nowrap; } .ds-quiet-link:hover, .ds-quiet-link:focus-visible { color: #3B82F6; }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "Theme/language/view toggles — 40px pill in the app header, 32px inside the results panel.",
+      "html": "<button class=\"ds-btn-icon\" aria-label=\"Toggle\">☀️</button>",
+      "css": ".ds-btn-icon { width: 40px; height: 40px; border-radius: 999px; background: #FFFFFF; border: 1px solid #E4E7EE; color: #10151F; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; transition: border-color 0.2s ease; } .ds-btn-icon:hover { border-color: #CBD2DF; } .ds-btn-icon:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Sort-by control and grid/list view toggle — a muted track with a neutral (not accent) selected step.",
+      "html": "<div class=\"ds-segmented\"><button class=\"ds-seg-btn is-active\">TVL</button><button class=\"ds-seg-btn\">APY</button></div>",
+      "css": ".ds-segmented { display: inline-flex; background: #F1F3F7; border: 1px solid #E4E7EE; border-radius: 12px; padding: 4px; gap: 2px; } .ds-seg-btn { border: none; background: transparent; padding: 0 12px; height: 32px; border-radius: 8px; font-family: FKGroteskNeue, Geist, Inter, sans-serif; font-size: 13px; font-weight: 500; color: #5A6478; cursor: pointer; } .ds-seg-btn.is-active { background: #FFFFFF; border: 1px solid #CBD2DF; color: #10151F; }"
+    },
+    {
+      "name": "Composed Panel",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "The one bordered surface wrapping a header band + column labels + rows (results panel).",
+      "html": "<div class=\"ds-panel\"><div class=\"ds-panel-header\">Yields for USDC</div><div class=\"ds-panel-row\">STEAKUSDC</div></div>",
+      "css": ".ds-panel { background: #FFFFFF; border: 1px solid #E4E7EE; border-radius: 16px; overflow: hidden; } .ds-panel-header { padding: 16px 20px; border-bottom: 1px solid #E4E7EE; font-size: 16px; font-weight: 600; color: #10151F; } .ds-panel-row { height: 64px; padding: 0 20px; display: flex; align-items: center; border-bottom: 1px solid #E4E7EE; font-size: 15px; font-weight: 600; color: #10151F; } .ds-panel-row:last-child { border-bottom: none; }"
+    },
+    {
+      "name": "Table Row",
+      "kind": "custom",
+      "refersTo": "table-row",
+      "description": "One pool per row: icon, name+metadata, APY, TVL, quiet action — the grid surface's signature component.",
+      "html": "<div class=\"ds-row\"><div class=\"ds-row-icon\"></div><div class=\"ds-row-name\"><span class=\"ds-row-symbol\">USDC</span><span class=\"ds-row-meta\">morpho-blue · Base</span></div><div class=\"ds-row-apy\">4.95%</div><div class=\"ds-row-tvl\">$2.6B</div><a class=\"ds-row-action\" href=\"#\">View &amp; calculate →</a></div>",
+      "css": ".ds-row { display: grid; grid-template-columns: 40px 1fr 110px 130px 120px; column-gap: 12px; align-items: center; height: 64px; padding: 0 20px; border-bottom: 1px solid #E4E7EE; font-family: FKGroteskNeue, Geist, Inter, sans-serif; } .ds-row-icon { width: 24px; height: 24px; border-radius: 8px; background: #F1F3F7; } .ds-row-name { display: flex; flex-direction: column; gap: 2px; min-width: 0; } .ds-row-symbol { font-size: 15px; font-weight: 600; color: #10151F; } .ds-row-meta { font-size: 13px; color: #5A6478; } .ds-row-apy { font-size: 16px; font-weight: 600; color: #10151F; font-variant-numeric: tabular-nums; text-align: right; } .ds-row-tvl { font-size: 14px; font-weight: 600; color: #5A6478; font-variant-numeric: tabular-nums; text-align: right; } .ds-row-action { font-size: 13px; font-weight: 500; color: #5A6478; text-decoration: none; text-align: right; } .ds-row-action:hover { color: #3B82F6; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Ledger",
+    "overview": "DeFi Garden's analytics surface reads like a well-kept ledger, not a trading terminal: calm neutral grays carry almost everything, one blue is spent on exactly one decision per screen, and every number lines up in its column because the eye's job is to compare, not to decode. The system is flat and table-first. Containers exist only where grouping content earns a border; everything else is plain text on the page background.",
+    "keyCharacteristics": [
+      "One accent (#3B82F6 family) used on <=10% of any screen: one primary action, already-selected filter state.",
+      "Numerals are tabular in the body font family — no monospace skin anywhere in the product.",
+      "Three text colors only: primary, secondary, and disabled/muted.",
+      "Flat by default: no shadows at rest; the only elevation signal is a 1px border, and only on containers that group unrelated content."
+    ],
+    "rules": [
+      { "name": "The One Voice Rule", "body": "If more than one element on a screen is blue at rest (not hover, not selected-state), the accent has been spent twice and one of them is wrong.", "section": "colors" },
+      { "name": "The No-Fourth-Tier Rule", "body": "Every piece of text on an analytics screen is one of exactly three colors: primary, secondary, or muted.", "section": "colors" },
+      { "name": "The Borders-Earn-It Rule", "body": "A 1px border exists only where two visually distinct regions need a boundary a gap alone can't supply. It never exists as decoration around a single number, label, or icon.", "section": "colors" },
+      { "name": "The Tabular Rule", "body": "Any numeral in a column with others of the same kind gets tabular-nums AND matching decimal precision.", "section": "typography" },
+      { "name": "The Sentence-Case Rule", "body": "No label, button, or column header is uppercase or letter-spaced as a badge.", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "Surfaces are flat at rest. Only true overlays may add elevation; hover/press states get a background-color or 1px-transform change, never a new shadow.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do give numerals in the same column identical decimal precision AND tabular-nums.",
+      "Do use exactly one accent-colored element at rest per view, plus already-selected chip/tab state.",
+      "Do keep every row/line inside a composed panel border-only.",
+      "Do reuse one of the four control-height tokens and one of the two control-radius tokens for any new interactive element."
+    ],
+    "donts": [
+      "Don't add a box-shadow glow to any control at rest or on hover.",
+      "Don't use scale() transforms on hover/press.",
+      "Don't render a label, chip, or header in uppercase with letter-spacing to fake a badge look.",
+      "Don't introduce a second pill/chip visual language for the same role."
+    ]
+  }
+}

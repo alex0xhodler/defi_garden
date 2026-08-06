@@ -280,7 +280,15 @@ async function main() {
     // overlay AND the view's clearance stays cancelled (padding-bottom: 0,
     // 218's own permanent change on this view) — the same injection
     // test_cta_at_rest_occlusion.js's own positive control uses.
-    await redPage.addStyleTag({ content: '.app.pool-detail-view .app-footer{position:fixed !important;bottom:0;left:0;right:0} .app.pool-detail-view{padding-bottom:0 !important}' });
+    // 225 round 3c: the recomposed hero raised the at-rest CTA above the old
+    // bottom band (y≈493 at 360x780 vs footer 721), so the 59px bottom-
+    // pinned footer stopped reaching the anchor and the P0 degraded to a P1
+    // on a subtitle. The injection stays BOTTOM-ANCHORED (the lens's
+    // two-position asymmetry gates at-rest findings on bottom-anchored
+    // overlays) but grows tall enough to cover the CTA's at-rest region —
+    // same intent (the lens MUST report the garden_cta anchor as occluded),
+    // stronger fault.
+    await redPage.addStyleTag({ content: '.app.pool-detail-view .app-footer{position:fixed !important;bottom:0;left:0;right:0;height:340px !important} .app.pool-detail-view{padding-bottom:0 !important}' });
     await redPage.waitForTimeout(100);
 
     let redFindings = [];

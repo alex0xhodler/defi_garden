@@ -1448,7 +1448,7 @@ function App() {
     const handleClickOutside = (event) => {
       if (activeDropdown &&
           !event.target.closest('.global-filter-dropdown') &&
-          !event.target.closest('.google-filter-btn')) {
+          !event.target.closest('.app-filter-btn')) {
         setActiveDropdown(null);
       }
     };
@@ -2212,6 +2212,14 @@ function App() {
 
   // Update URL when filters change (but not during initial load, popstate events, or pool detail view)
   useEffect(() => {
+    // 225 round 3c P0 companion guard: on a `?chain=…&minTvl=…&pool=<id>`
+    // arrival this effect fires the moment isInitialLoad flips (~100ms) —
+    // BEFORE pools have resolved — and updateUrl rewrites the URL without
+    // the pool param, so the pool-detail resolver (which re-reads the URL
+    // once pools land) finds nothing and the deep-linked detail never
+    // opens. While an unconsumed ?pool= param is still in the URL, leave
+    // the URL alone; the resolver (or the 072 dead-pool state) owns it.
+    if (getUrlParams().pool && currentView !== 'pool-detail') return;
     if (!isInitialLoad && currentView !== 'pool-detail') {
       if (chainMode && selectedChain && !selectedToken) {
         // Chain-first mode URL updates
@@ -2880,9 +2888,23 @@ function App() {
   // forwarded to handlePoolClick's existing `position = -1` "not part of a
   // paginated list" default; `delayBase` reproduces the original per-card
   // stagger (index * 50, then +100/+150/+200 per element below).
+  // 225 round 3a (operator follow-up): the APY column mixed precision
+  // ("4.95%", "4%", "3.5%") because the global `formatApy` drops trailing
+  // zeros (maximumFractionDigits only, no minimum) — correct for a headline
+  // number, wrong inside a tabular-nums column where digits must line up.
+  // Scoped to this grid render site only; `formatApy` itself (and every
+  // other surface that uses it) is untouched.
+  const formatApyGrid = (pct) => Number(pct || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
+
   const renderPoolCard = (pool, key, position, delayBase) => {
     const protocolUrl = getProtocolUrl(pool);
     const quickPreview = getQuickPreview(pool);
+    // 225 round 3 increment (a): icon lives in its own grid column, separate
+    // from the name column — .pool-name-group is the join point. In list
+    // (table) view it's `display:contents` so PoolLogo/.pool-left-section
+    // promote straight into .pool-card's 5-column grid; in grid (card) view
+    // it stays a normal flex row (icon beside the symbol/context stack),
+    // preserving that mode's card layout unchanged.
     return React.createElement('div', {
       key,
       className: `pool-card animate-on-mount clickable`,
@@ -2890,13 +2912,15 @@ function App() {
     },
       // Header: Symbol + Protocol info + APY
       React.createElement('div', { className: 'pool-header-new' },
-        React.createElement('div', { className: 'pool-left-section' },
+        React.createElement('div', { className: 'pool-name-group' },
           React.createElement(PoolLogo, { project: pool.project, chain: pool.chain }),
-          React.createElement('div', { className: 'pool-symbol' },
-            pool.symbol
-          ),
-          React.createElement('div', { className: 'pool-context-inline' },
-            t('onProtocolChain', pool.project, pool.chain, protocolUrl)
+          React.createElement('div', { className: 'pool-left-section' },
+            React.createElement('div', { className: 'pool-symbol' },
+              pool.symbol
+            ),
+            React.createElement('div', { className: 'pool-context-inline' },
+              t('onProtocolChain', pool.project, pool.chain, protocolUrl)
+            )
           )
         ),
         React.createElement('div', { className: 'pool-apy-section' },
@@ -2905,13 +2929,18 @@ function App() {
             title: isAnomalousApy(pool) ? 'Anomalous rate — likely temporary, manipulated, or a data artifact' : undefined
           },
             isAnomalousApy(pool)
-              ? ('⚠ ' + formatApy((pool.apyBase || 0) + (pool.apyReward || 0)))
+              ? ('⚠ ' + formatApyGrid((pool.apyBase || 0) + (pool.apyReward || 0)))
               : React.createElement(AnimatedNumber, {
                   value: (pool.apyBase || 0) + (pool.apyReward || 0),
-                  formatFn: (v) => formatApy(v),
+                  formatFn: (v) => formatApyGrid(v),
                   delay: 100 + delayBase
                 })
           ),
+          // Trust rail (CLAUDE.md, test_zero_yield_demote.js): the honest
+          // 0.00% number above is NEVER removed for a zero-yield pool — only
+          // calmed (see the :has(.pool-apy-tag) rule in style.css). The
+          // round-3 brief's "nothing else" is satisfied by dropping the
+          // redundant $/day preview, not the number itself.
           hasNoSupplyYield(pool)
             ? React.createElement('div', { className: 'pool-apy-tag' }, t('noSupplyYield'))
             : React.createElement('div', { className: 'pool-apy-preview' },
@@ -2936,7 +2965,7 @@ function App() {
         )
       ),
 
-      // Primary CTA - Calculate Yield (full width, quiet ghost)
+      // Quiet action link (row is already fully clickable via the onClick above)
       React.createElement('div', { className: 'pool-cta-section' },
         React.createElement('button', {
           className: 'calculate-yield-btn-new',
@@ -2977,7 +3006,9 @@ function App() {
         })
       ),
 
-      // Footer
+      // Footer — 240: one voice with the landing (attribution stays; the
+      // old joke sign-off is retired from money surfaces), via t() so
+      // KO renders translated instead of hardcoded English.
       React.createElement('footer', { className: 'app-footer' },
         React.createElement('p', null,
           t('poweredBy'), ' ',
@@ -3003,21 +3034,21 @@ function App() {
   },
     // Google-style sticky header - ONLY show when we have results
     (selectedToken || (chainMode && selectedChain)) && React.createElement('div', {
-      className: 'google-header-sticky'
+      className: 'app-header-sticky'
     },
-      React.createElement('div', { className: 'google-header-content' },
+      React.createElement('div', { className: 'app-header-content' },
         // Logo (compact, clickable)
         React.createElement('div', {
-          className: 'google-logo',
+          className: 'app-logo',
           onClick: resetApp
         }, '🌱 DeFi Garden'),
 
         // Persistent search bar
-        React.createElement('div', { className: 'google-search-container' },
-          React.createElement('div', { className: 'google-search-bar' },
+        React.createElement('div', { className: 'app-search-container' },
+          React.createElement('div', { className: 'app-search-bar' },
             React.createElement('input', {
               type: 'text',
-              className: 'google-search-input',
+              className: 'app-search-input',
               // Placeholder reflects token query only; chain state belongs to filter chips
               placeholder: selectedToken ? selectedToken : animatedPlaceholder,
               value: searchInput,
@@ -3028,7 +3059,7 @@ function App() {
             }),
             // ✕ clear button — only visible when search input is non-empty
             searchInput.length > 0 && React.createElement('button', {
-              className: 'google-search-clear',
+              className: 'app-search-clear',
               'aria-label': 'Clear search',
               onMouseDown: (e) => {
                 // Use mousedown to fire before blur
@@ -3037,12 +3068,12 @@ function App() {
                 setSelectedToken('');
                 setShowAutocomplete(false);
                 // Return focus to input
-                const input = e.currentTarget.parentElement.querySelector('.google-search-input');
+                const input = e.currentTarget.parentElement.querySelector('.app-search-input');
                 if (input) input.focus();
               }
             }, '✕'),
             React.createElement('button', {
-              className: 'google-search-button',
+              className: 'app-search-button',
               onClick: () => {
                 if (searchInput.length > 0 && autocompleteTokens.length > 0) {
                   handleTokenSelect(autocompleteTokens[0]);
@@ -3053,14 +3084,14 @@ function App() {
         ),
 
         // Controls (theme, language) 
-        React.createElement('div', { className: 'google-header-controls' },
+        React.createElement('div', { className: 'app-header-controls' },
           React.createElement('button', {
-            className: 'google-control-btn language-toggle',
+            className: 'app-control-btn language-toggle',
             onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
             'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
           }, language === 'en' ? 'KO' : 'EN'),
           React.createElement('button', {
-            className: 'google-control-btn theme-toggle',
+            className: 'app-control-btn theme-toggle',
             onClick: toggleTheme,
             'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
           }, isDarkMode ? '🌙' : '☀️')
@@ -3068,74 +3099,80 @@ function App() {
       ),
 
       // Google-style navigation tabs - part of the header
-      React.createElement('div', { className: 'google-nav-row' },
-        React.createElement('div', { className: 'google-nav-tabs' },
+      React.createElement('div', { className: 'app-nav-row' },
+        React.createElement('div', { className: 'app-nav-tabs' },
           // Primary rail: category tabs ("what am I browsing")
-          React.createElement('div', { className: 'google-nav-primary' },
+          React.createElement('div', { className: 'app-nav-primary' },
             ...CATEGORY_TABS.map(({ key, labelKey, icon }) =>
               React.createElement('button', {
                 key: labelKey,
-                className: `google-nav-tab ${(key ? (selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1) : !selectedPoolTypes.length) ? 'active' : ''}`,
+                className: `app-nav-tab ${(key ? (selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1) : !selectedPoolTypes.length) ? 'active' : ''}`,
                 onClick: () => setSelectedPoolTypes(key ? [key] : [])
               },
-                React.createElement('span', { className: 'google-nav-label' }, t(labelKey))
+                React.createElement('span', { className: 'app-nav-label' }, t(labelKey))
               )
             )
           ),
 
           // Primary/secondary boundary
-          React.createElement('span', { className: 'google-nav-divider', 'aria-hidden': 'true' }),
+          React.createElement('span', { className: 'app-nav-divider', 'aria-hidden': 'true' }),
 
           // Secondary cluster: filter buttons ("how is it narrowed")
-          React.createElement('div', { className: 'google-nav-secondary' },
+          React.createElement('div', { className: 'app-nav-secondary' },
             React.createElement('button', {
-              className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
+              className: `app-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
               onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),
               id: 'chains-btn'
             },
               navIcon('chains'),
-              React.createElement('span', { className: 'google-nav-label' }, selectedChain || t('navFilterChains'))
+              React.createElement('span', { className: 'app-nav-label' }, selectedChain || t('navFilterChains'))
             ),
 
             React.createElement('button', {
-              className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
+              className: `app-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
               onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
               id: 'tvl-btn'
             },
               navIcon('tvl'),
-              React.createElement('span', { className: 'google-nav-label' }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : t('navFilterTvl'))
+              React.createElement('span', { className: 'app-nav-label' }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : t('navFilterTvl'))
             ),
 
             React.createElement('button', {
-              className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
+              className: `app-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
               onClick: () => setActiveDropdown(activeDropdown === 'protocols' ? null : 'protocols'),
               id: 'protocols-btn'
             },
               navIcon('protocols'),
-              React.createElement('span', { className: 'google-nav-label' }, selectedProtocols.length > 0 ? `${selectedProtocols.length} Protocol${selectedProtocols.length > 1 ? 's' : ''}` : t('navFilterProtocols'))
+              React.createElement('span', { className: 'app-nav-label' }, selectedProtocols.length > 0 ? `${selectedProtocols.length} Protocol${selectedProtocols.length > 1 ? 's' : ''}` : t('navFilterProtocols'))
             ),
 
             React.createElement('button', {
-              className: `google-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
+              className: `app-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
               onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy'),
               id: 'apy-btn'
             },
               navIcon('apy'),
-              React.createElement('span', { className: 'google-nav-label' }, minApy > 0 ? `${minApy}%+` : t('navFilterApy'))
+              React.createElement('span', { className: 'app-nav-label' }, minApy > 0 ? `${minApy}%+` : t('navFilterApy'))
             )
           )
         ),
 
         // Results count only
-        React.createElement('div', { className: 'google-tools-section' },
-          React.createElement('span', { className: 'google-results-count' },
+        React.createElement('div', { className: 'app-tools-section' },
+          React.createElement('span', { className: 'app-results-count' },
             `${filteredPools.length.toLocaleString('en-US')} results`
           )
         )
       )
     ),
 
-    // Theme Toggle (homepage/results)
+    // Theme Toggle (homepage/results) — 225 round 3b: the legacy 48px
+    // switch/handle pair is gone. The shared icon-only-button rule makes
+    // .theme-toggle a 40px pill; icon+gap+switch was ~76px of content
+    // overflowing that box, and at `position: fixed; right: 20px` the
+    // switch's handle spilled past the viewport edge as a clipped,
+    // unpressable sliver (the 136/221 clip class). The icon alone reflects
+    // state, matching the header's own icon-only toggle.
     React.createElement('button', {
       className: 'theme-toggle',
       'data-theme': isDarkMode ? 'dark' : 'light',
@@ -3144,9 +3181,6 @@ function App() {
     },
       React.createElement('div', { className: 'theme-toggle-icon' },
         isDarkMode ? '🌙' : '☀️'
-      ),
-      React.createElement('div', { className: 'theme-toggle-switch' },
-        React.createElement('div', { className: 'theme-toggle-handle' })
       )
     ),
 
@@ -3177,30 +3211,35 @@ function App() {
       // Search Section - hide when in filtered state (both token and chain mode)
       !(selectedToken || (chainMode && selectedChain)) && React.createElement('div', { className: 'search-section animate-on-mount' },
         React.createElement('div', { className: 'search-container' },
-          React.createElement('input', {
-            type: 'text',
-            className: 'search-input',
-            placeholder: animatedPlaceholder,
-            value: searchInput,
-            onChange: handleSearchInputChange,
-            onKeyDown: handleKeyDown,
-            onFocus: handleInputFocus,
-            onBlur: handleInputBlur,
-            autoFocus: true
-          }),
+          // 225 round 3c: the input + its autocomplete share one positioning
+          // anchor, so mid-type suggestions attach to the input instead of
+          // floating below the mode buttons and planner link.
+          React.createElement('div', { className: 'search-input-anchor' },
+            React.createElement('input', {
+              type: 'text',
+              className: 'search-input',
+              placeholder: animatedPlaceholder,
+              value: searchInput,
+              onChange: handleSearchInputChange,
+              onKeyDown: handleKeyDown,
+              onFocus: handleInputFocus,
+              onBlur: handleInputBlur,
+              autoFocus: true
+            }),
 
-          // Autocomplete Dropdown
-          showAutocomplete && autocompleteTokens.length > 0 &&
-          React.createElement('div', { className: 'autocomplete-dropdown' },
-            autocompleteTokens.map((token, index) =>
-              React.createElement('div', {
-                key: token,
-                className: `autocomplete-item ${index === highlightedIndex ? 'highlighted' : ''}`,
-                onMouseDown: (e) => {
-                  e.preventDefault(); // Prevent input blur
-                  handleTokenSelect(token);
-                }
-              }, token)
+            // Autocomplete Dropdown
+            showAutocomplete && autocompleteTokens.length > 0 &&
+            React.createElement('div', { className: 'autocomplete-dropdown' },
+              autocompleteTokens.map((token, index) =>
+                React.createElement('div', {
+                  key: token,
+                  className: `autocomplete-item ${index === highlightedIndex ? 'highlighted' : ''}`,
+                  onMouseDown: (e) => {
+                    e.preventDefault(); // Prevent input blur
+                    handleTokenSelect(token);
+                  }
+                }, token)
+              )
             )
           ),
 
@@ -3215,7 +3254,8 @@ function App() {
               },
               disabled: searchInput.length === 0
             },
-              React.createElement('span', { className: 'button-icon' }, '🔍'),
+              // 225 round 3c: text-only — emoji standing in for an icon
+              // system is off the craft floor; the label carries the action.
               React.createElement('span', { className: 'button-text' }, t('tokenSearch'))
             ),
             React.createElement('button', {
@@ -3255,7 +3295,6 @@ function App() {
                 }
               }
             },
-              React.createElement('span', { className: 'button-icon' }, '🚀'),
               React.createElement('span', { className: 'button-text' }, t('feelingDegen'))
             )
           ),
@@ -3275,7 +3314,9 @@ function App() {
                   var projFmt = '$' + Math.round(p.projection).toLocaleString('en-US');
                   return [
                     React.createElement('span', { key: 'icon', className: 'planner-entry-icon', 'aria-hidden': 'true' }, '🌱'),
-                    React.createElement('span', { key: 'q', className: 'planner-entry-question' }, '🌱 Your garden — ≈ ' + projFmt + ' by ' + year + ' →')
+                    // 225 round 3c: the icon span above already carries the
+                    // sprout — the doubled leading emoji in the text is gone.
+                    React.createElement('span', { key: 'q', className: 'planner-entry-question' }, 'Your garden — ≈ ' + projFmt + ' by ' + year + ' →')
                   ];
                 }
               }
@@ -3299,53 +3340,69 @@ function App() {
       // Results Section - show for both token mode and chain mode
       (selectedToken || (chainMode && selectedChain) || deadPoolResolved) && React.createElement('div', { className: 'results-section animate-on-mount' },
         filteredPools.length > 0 && !deadPoolResolved ? [
-          React.createElement('div', { className: 'results-header', key: 'header' },
-            React.createElement('div', { className: 'results-header-left' },
-              React.createElement('h2', { className: 'results-title' },
-                chainMode && selectedChain && !selectedToken
-                  ? t('chainYields', selectedChain)
-                  : t('tokenYields', selectedToken, selectedChain)
+          // 225 round 3 increment (a): header band + column labels + rows are
+          // ONE composed surface — a single .results-panel card (16px radius,
+          // 1px border) — not three separate boxes. The header/columns/rows
+          // themselves carry no border/radius of their own; only the panel does.
+          React.createElement('div', { className: 'results-panel', key: 'panel' },
+            React.createElement('div', { className: 'results-header', key: 'header' },
+              React.createElement('div', { className: 'results-header-left' },
+                React.createElement('h2', { className: 'results-title' },
+                  chainMode && selectedChain && !selectedToken
+                    ? t('chainYields', selectedChain)
+                    : t('tokenYields', selectedToken, selectedChain)
+                ),
+                React.createElement('div', { className: 'results-count' },
+                  t('showingResults', filteredPools.length)
+                )
               ),
-              React.createElement('div', { className: 'results-count' },
-                t('showingResults', filteredPools.length)
-              )
-            ),
-            React.createElement('div', { className: 'results-controls' },
-              React.createElement('div', { className: 'view-toggles' },
-                React.createElement('button', {
-                  className: `view-toggle-btn ${viewMode === 'grid' ? 'active' : ''}`,
-                  onClick: () => setViewMode('grid'),
-                  title: 'Grid View'
-                }, '▦'),
-                React.createElement('button', {
-                  className: `view-toggle-btn ${viewMode === 'list' ? 'active' : ''}`,
-                  onClick: () => setViewMode('list'),
-                  title: 'List View'
-                }, '☰')
-              ),
-              React.createElement('div', { className: 'sort-control' },
-                React.createElement('span', { className: 'sort-label' }, 'Sort by:'),
-                React.createElement('div', { className: 'view-toggles sort-toggles' },
+              React.createElement('div', { className: 'results-controls' },
+                React.createElement('div', { className: 'view-toggles' },
                   React.createElement('button', {
-                    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
-                    onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
-                  }, 'APY'),
+                    className: `view-toggle-btn ${viewMode === 'grid' ? 'active' : ''}`,
+                    onClick: () => setViewMode('grid'),
+                    title: 'Grid View'
+                  }, '▦'),
                   React.createElement('button', {
-                    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
-                    onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
-                  }, 'TVL'),
-                  React.createElement('button', {
-                    className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
-                    onClick: () => { setSortBy('sharpe'); setUserSortedApy(false); }
-                  }, t('sortByRiskAdjusted'))
+                    className: `view-toggle-btn ${viewMode === 'list' ? 'active' : ''}`,
+                    onClick: () => setViewMode('list'),
+                    title: 'List View'
+                  }, '☰')
+                ),
+                React.createElement('div', { className: 'sort-control' },
+                  React.createElement('span', { className: 'sort-label' }, t('sortByLabel')),
+                  React.createElement('div', { className: 'view-toggles sort-toggles' },
+                    React.createElement('button', {
+                      className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
+                      onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
+                    }, t('resultsColApy')),
+                    React.createElement('button', {
+                      className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
+                      onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
+                    }, t('resultsColTvl')),
+                    React.createElement('button', {
+                      className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
+                      onClick: () => { setSortBy('sharpe'); setUserSortedApy(false); }
+                    }, t('sortByRiskAdjusted'))
+                  )
                 )
               )
-            )
-          ),
+            ),
 
-          React.createElement('div', { className: viewMode === 'list' ? 'pools-list' : 'pools-grid', key: 'pools' },
-            paginatedPools.map((pool, index) =>
-              renderPoolCard(pool, `${pool.pool}-${index}`, (currentPage - 1) * itemsPerPage + index, index * 50)
+            // Slim column-label row — hidden below 768px (the two-line mobile
+            // row layout is self-explanatory without it). Aligned to the exact
+            // same 5-column grid the rows below use.
+            viewMode === 'list' && React.createElement('div', { className: 'pool-columns', key: 'columns' },
+              React.createElement('span', { className: 'col-pool' }, t('resultsColPool')),
+              React.createElement('span', { className: 'col-apy' }, t('resultsColApy')),
+              React.createElement('span', { className: 'col-tvl' }, t('resultsColTvl')),
+              React.createElement('span', { className: 'col-action', 'aria-hidden': 'true' })
+            ),
+
+            React.createElement('div', { className: viewMode === 'list' ? 'pools-list' : 'pools-grid', key: 'pools' },
+              paginatedPools.map((pool, index) =>
+                renderPoolCard(pool, `${pool.pool}-${index}`, (currentPage - 1) * itemsPerPage + index, index * 50)
+              )
             )
           ),
 
@@ -3530,7 +3587,7 @@ function App() {
         )
       )
     ),
-    // Footer
+    // Footer — 240: same one-voice contract as the search-state footer above.
     React.createElement('footer', { className: 'app-footer' },
       React.createElement('p', null,
         t('poweredBy'), ' ',

@@ -7,37 +7,50 @@
   padding: 40px 20px 20px 20px;
 }
 
-/* Header styling for pool detail */
-.pool-detail-container .header {
-  padding: 0 0 32px 0;
-  margin-bottom: 32px;
+/* ═══ 225 round 3c — recomposed page chrome ═══
+   One header row at every viewport (logo left, controls right); the back
+   affordance is a quiet link on its own line. No pills around plain data. */
+.pool-detail-container .header.pool-detail-topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+  padding: 0 0 16px 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--ui-border);
 }
 
-.pool-detail-container .logo {
-  font-size: var(--font-size-2xl);
-  font-weight: var(--font-weight-black);
+.pool-detail-container .logo.pool-detail-logo {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
   color: var(--color-text);
   margin: 0;
+  line-height: 1;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: color 0.2s ease;
 }
 
-.pool-detail-container .logo:hover {
+.pool-detail-container .logo.pool-detail-logo:hover {
   color: var(--color-primary);
-  transform: translateY(-1px);
 }
 
 .pool-breadcrumb {
-  transition: all 0.2s ease;
+  margin-bottom: 16px;
 }
 
-.pool-breadcrumb:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-flat);
+.pool-breadcrumb-back {
+  background: none;
+  border: none;
+  padding: 8px 0;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.pool-breadcrumb-back:hover,
+.pool-breadcrumb-back:focus-visible {
+  color: var(--color-primary);
 }
 
 /* Ensure back button is visible */
@@ -56,45 +69,41 @@
 
 /* Back Navigation */
 .back-to-results-btn {
+  /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
   display: flex;
   align-items: center;
   gap: var(--space-8);
   margin-bottom: var(--space-24);
-  padding: var(--space-12) var(--space-20);
   background: var(--color-background);
-  border: none;
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
   color: var(--color-text);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-medium);
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .back-to-results-btn:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
   color: var(--color-primary);
 }
 
 /* Pool Info Section Enhancements */
 .pool-info-header:hover .pool-info-toggle {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
 /* Explorer link styling */
 .pool-info-content a[href*="blockscan.com"]:hover {
   transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   background: var(--color-primary);
   color: white;
 }
 
 .back-to-results-btn:active {
-  box-shadow: var(--neuro-shadow-pressed);
-  transform: translateY(0);
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
 }
 
 .back-arrow {
@@ -103,30 +112,27 @@
 }
 
 .back-button {
+  /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
   display: flex;
   align-items: center;
   gap: var(--space-8);
-  padding: var(--space-12) var(--space-20);
-  border: none;
+  border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: var(--neuro-radius-lg);
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .back-button:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
+  background: var(--ui-surface-muted);
   transform: translateY(-1px);
   color: var(--color-primary);
 }
 
 .back-button:active {
-  box-shadow: var(--neuro-shadow-pressed);
-  transform: translateY(0);
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
 }
 
 .breadcrumbs {
@@ -150,9 +156,9 @@
 /* Pool Detail Header */
 .pool-detail-header {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-32);
-  box-shadow: var(--neuro-shadow-raised);
   margin-bottom: var(--space-32);
 }
 
@@ -167,12 +173,13 @@
   flex: 1;
 }
 
+/* 225 round 3b: mono skin dropped — body family, 700 (no monospace face
+   anywhere in the product; DESIGN.md typography). */
 .pool-symbol-large {
   font-size: var(--font-size-4xl);
-  font-weight: var(--font-weight-black);
+  font-weight: var(--font-weight-bold);
   color: var(--color-text);
   margin-bottom: var(--space-8);
-  font-family: monospace;
   line-height: 1.2;
 }
 
@@ -220,28 +227,28 @@
   font-size: var(--font-size-sm);
   padding: var(--space-4) var(--space-8);
   background: var(--color-background);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-subtle);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-pill);
   transition: all 0.2s ease;
 }
 
 .protocol-link:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
 .pool-type-badge {
+  /* height/padding/border-radius/font owned by the shared chip rule, style.css end.
+     225 round 3b: sentence case + neutral text (metadata chips never spend
+     the accent at rest, never shout in caps — DESIGN.md sentence-case rule). */
   display: inline-flex;
   align-items: center;
   background: var(--color-background);
-  color: var(--color-primary);
-  padding: var(--space-6) var(--space-12);
-  border-radius: var(--neuro-radius-lg);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  color: var(--color-text-secondary);
+  border: 1px solid var(--ui-border);
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
 }
 
 .pool-detail-apy {
@@ -260,10 +267,10 @@
   font-size: var(--font-size-4xl);
   font-weight: var(--font-weight-black);
   color: var(--color-primary);
-  background: var(--color-background);
+  background: var(--ui-surface-sunken);
   padding: var(--space-16) var(--space-24);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-pressed);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   display: inline-block;
 }
 
@@ -277,21 +284,21 @@
 
 .metric-card {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-20);
-  box-shadow: var(--neuro-shadow-subtle);
   transition: all 0.3s ease;
   text-align: center;
 }
 
 .metric-card:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-2px);
 }
 
 .metric-card.highlight {
   background: linear-gradient(135deg, var(--color-background), var(--color-forest-light));
-  box-shadow: var(--neuro-shadow-raised);
+  border: 1px solid var(--ui-border);
 }
 
 .apy-value {
@@ -303,17 +310,16 @@
   margin-top: var(--space-8);
   padding: var(--space-4) var(--space-8);
   background: var(--color-background);
-  border: none;
-  border-radius: var(--neuro-radius-sm);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm);
   color: var(--color-primary);
   font-size: var(--font-size-xs);
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .apy-breakdown-toggle:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
 }
 
 .metric-label {
@@ -341,9 +347,9 @@
 .apy-breakdown-details {
   margin-top: var(--space-16);
   padding: var(--space-16);
-  background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
 }
 
 .breakdown-item {
@@ -371,9 +377,9 @@
 /* Yield Calculator Section */
 .yield-calculator-section {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-32);
-  box-shadow: var(--neuro-shadow-raised);
   margin-top: var(--space-32);
 }
 
@@ -386,10 +392,9 @@
 }
 
 .calculator-card {
-  background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  padding: var(--space-24);
-  box-shadow: var(--neuro-shadow-subtle);
+  /* border-radius/padding owned by the shared card rule, style.css end */
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
 }
 
 .investment-input-group {
@@ -412,22 +417,19 @@
 }
 
 .amount-input {
+  /* height/padding/border-radius/font owned by the shared text-input rule, style.css end */
   width: 200px;
-  padding: var(--space-12) var(--space-16);
-  border: none;
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border-strong);
   background: var(--color-background);
   color: var(--color-text);
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-medium);
   text-align: center;
-  box-shadow: var(--neuro-shadow-pressed);
   outline: none;
   transition: all 0.2s ease;
 }
 
 .amount-input:focus {
-  box-shadow: var(--neuro-shadow-pressed), 0 0 0 3px rgba(59, 130, 246, 0.2);
+  border-color: var(--ui-accent);
+  box-shadow: var(--ui-focus-ring);
 }
 
 .quick-amounts {
@@ -438,27 +440,23 @@
 }
 
 .quick-amount-btn {
-  padding: var(--space-8) var(--space-16);
-  border: none;
+  /* height/padding/border-radius/font owned by the shared chip rule, style.css end */
+  border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text-secondary);
-  border-radius: var(--neuro-radius-sm);
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .quick-amount-btn:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
 .quick-amount-btn.active {
-  background: var(--color-primary);
-  color: white;
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-accent-soft);
+  border-color: var(--ui-accent-border);
+  color: var(--color-primary);
 }
 
 .input-label {
@@ -480,15 +478,15 @@
 
 .yield-result-card {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-16);
   text-align: center;
-  box-shadow: var(--neuro-shadow-subtle);
   transition: all 0.2s ease;
 }
 
 .yield-result-card:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
@@ -521,7 +519,7 @@
   font-style: italic;
   padding: var(--space-16);
   background: var(--color-surface);
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-sm);
   border-left: 3px solid var(--color-primary);
 }
 
@@ -538,15 +536,14 @@
   padding: var(--space-16) var(--space-32);
   background: var(--color-primary);
   color: white;
-  border: none;
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid transparent;
+  border-radius: var(--ui-radius-md);
   font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
   letter-spacing: 0.025em;
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
   position: relative;
   overflow: hidden;
@@ -555,12 +552,12 @@
 .start-earning-btn::before { display: none; }
 
 .start-earning-btn:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  background: var(--color-primary-hover);
 }
 
 .start-earning-btn:active {
   transform: translateY(1px);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--color-primary-active);
 }
 
 .start-earning-btn.primary {
@@ -579,9 +576,9 @@
 /* Additional Information Section */
 .additional-info-section {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-32);
-  box-shadow: var(--neuro-shadow-raised);
   margin-top: var(--space-32);
 }
 
@@ -605,9 +602,9 @@
   flex-direction: column;
   gap: var(--space-8);
   padding: var(--space-16);
-  background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
 }
 
 .info-item.full-width {
@@ -640,10 +637,10 @@
   padding: var(--space-4) var(--space-8);
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: var(--neuro-radius-sm);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-pill);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
 }
 
 .token-badge.reward {
@@ -656,7 +653,7 @@
 .risk-disclaimer {
   background: rgba(255, 193, 7, 0.1);
   border: 1px solid rgba(255, 193, 7, 0.3);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-20);
   margin-top: var(--space-32);
 }
@@ -683,135 +680,205 @@
   .pool-detail-container {
     padding: 20px 16px 16px 16px;
   }
-  
-  .pool-detail-container .header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-16);
-    padding-bottom: 24px;
-    margin-bottom: 24px;
-  }
-  
-  .pool-breadcrumb {
-    align-self: stretch;
-    justify-content: center;
-  }
-  
+
+  /* 225 round 3c: the header keeps its single row at every viewport — the
+     old stacked-column mobile header (logo / breadcrumb pill / controls,
+     three rows of chrome) is retired. */
+
   .pool-hero-card {
     margin-bottom: 24px;
   }
-  
+
   .quick-metrics {
     margin-bottom: 24px;
   }
-  
+
   .pool-detail-header {
     padding: var(--space-20);
   }
-  
+
   .pool-metrics-row {
     grid-template-columns: 1fr;
   }
-  
+
   .yield-results-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .info-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .quick-amounts {
     flex-wrap: wrap;
   }
-  
+
   .amount-input {
     width: 150px;
   }
-  
+
   .yield-calculator-section,
   .additional-info-section {
     padding: var(--space-20);
   }
 }
 
-/* Enhanced Neumorphic Hero Section */
+/* ═══ 225 round 3c — recomposed hero: one panel, one relationship ═══
+   Identity (left) faces the headline metric + its honest qualifier (right);
+   one action band closes the panel. Flat at rest — no hover lift, no
+   gradient overlay, no gradient text (craft-floor bans). */
 .pool-hero-card {
-  position: relative;
-  transition: all 0.3s ease;
+  background: var(--color-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
+  /* padding lives on .pool-hero-content / .pool-hero-actions — override the
+     shared hero-card 24px (style.css) so the action band can run full-bleed
+     to the panel edge. */
+  padding: 0;
+  margin-bottom: 24px;
+  overflow: hidden;
 }
 
-.pool-hero-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--neuro-shadow-raised);
+.pool-hero-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+  gap: 32px;
+  padding: 32px;
+}
+
+.pool-hero-identity {
+  min-width: 0;
 }
 
 .pool-symbol-hero {
-  background: linear-gradient(135deg, var(--color-text) 0%, var(--color-primary) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  line-height: 1.1;
+  margin: 0 0 8px 0;
+  overflow-wrap: anywhere;
 }
 
-.apy-display-hero {
-  transition: all 0.3s ease;
+.pool-meta-simplified {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  margin-bottom: 20px;
+  overflow-wrap: anywhere;
 }
 
-.apy-display-hero:hover {
-  box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(-1px);
+.pool-meta-simplified .protocol-name {
+  color: var(--color-text);
+  font-weight: var(--font-weight-semibold);
 }
 
-/* ---------- Unified action card (right column) ---------- */
-.pool-action-card {
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-raised);
-  padding: 20px;
+.pool-meta-simplified .chain-name {
+  color: var(--color-text-secondary);
+}
+
+/* One chip language for the hero's metadata row (type + trust + TVL + risk). */
+.trust-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hero-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-pill);
+  font-size: var(--font-size-xs);
+  white-space: nowrap;
+  color: var(--color-text-secondary);
+}
+
+/* The headline metric and its honest qualifier are ONE unit. */
+.pool-hero-metric {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  min-width: 260px;
+  gap: 12px;
+  min-width: 0;
 }
 
 .pool-action-apy {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 4px;
 }
 
 .pool-action-apy-label {
-  font-size: 11px;
-  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
   color: var(--color-text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
 }
 
 .pool-action-apy .apy-value-hero {
-  font-size: var(--font-size-3xl);
-  font-weight: 900;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-forest) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  line-height: 1.1;
+  font-size: 40px;
+  font-weight: var(--font-weight-bold);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+  line-height: 1.05;
 }
 
 .pool-action-apy-breakdown {
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
+  font-variant-numeric: tabular-nums;
   line-height: 1.4;
 }
 
 .pool-action-apy-sep { opacity: 0.4; }
 
-.pool-action-divider {
-  height: 1px;
-  background: var(--color-border);
-  margin: 4px 0;
-  opacity: 0.6;
+/* The rate-quality sentence — plain quiet text under the number it
+   qualifies, never a detached gray well. */
+.pool-hero-qualifier {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.55;
+  max-width: 44ch;
+}
+
+/* Action band — closes the hero panel. One primary; protocol is the clear
+   secondary. */
+.pool-hero-actions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 20px 32px;
+  border-top: 1px solid var(--ui-border);
+}
+
+.pool-hero-action-primary,
+.pool-hero-action-secondary {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.pool-hero-actions .cta-button-primary,
+.pool-cta-echo .cta-button-primary {
+  width: auto;
+  padding: 0 24px;
+  height: var(--ui-control-h-lg);
+  min-height: var(--ui-control-h-lg);
+}
+
+.pool-hero-actions .cta-button-protocol,
+.pool-cta-echo .cta-button-protocol {
+  width: auto;
+  padding: 0 20px;
+}
+
+.pool-hero-actions .pool-action-hint,
+.pool-cta-echo .pool-action-hint {
+  text-align: left;
 }
 
 .pool-action-hint {
@@ -824,108 +891,244 @@
 
 .pool-action-hint--muted { opacity: 0.65; }
 
-/* Enhanced CTA Button */
-/* Primary CTA — Plan my savings (our product) */
+/* CTA Buttons */
+/* Primary CTA — Garden this pool (our product) */
 .cta-button-primary {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
   gap: 8px;
-  padding: 13px 24px;
   width: 100%;
   background: var(--color-primary);
   color: white;
-  border: none;
-  border-radius: var(--neuro-radius-md);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-semibold);
+  border: 1px solid transparent;
   letter-spacing: 0.01em;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: var(--neuro-shadow-raised);
-  text-decoration: none;
 }
 
+/* 225 round 3c P0: the global `a:hover { color: var(--color-primary-hover) }`
+   (style.css) outranks `.cta-button-primary`'s `color: white` — (0,1,1) vs
+   (0,1,0) — so the moment the pointer rests on this anchor (which happens
+   automatically on card-click arrivals: the pointer stays where the card
+   was, and the hero CTA renders under it) the label painted accent-blue on
+   the accent fill: an invisible label on a blue bar. Hover/active must
+   re-assert the label color explicitly. */
 .cta-button-primary:hover {
-  box-shadow: var(--neuro-shadow-flat);
-  opacity: 0.92;
+  background: var(--color-primary-hover);
+  color: white;
 }
 
 .cta-button-primary:active {
   transform: translateY(1px);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--color-primary-active);
+  color: white;
 }
 
 /* Secondary CTA — external protocol link */
 .cta-button-protocol {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
   gap: 6px;
-  padding: 11px 24px;
+  width: 100%;
   background: var(--color-surface);
   color: var(--color-text-secondary);
-  border: none;
-  border-radius: var(--neuro-radius-lg);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
+  border: 1px solid var(--ui-border);
   letter-spacing: 0.01em;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
 }
 
 .cta-button-protocol:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  background: var(--ui-surface-muted);
+  border-color: var(--ui-border-strong);
   color: var(--color-text);
 }
 
 .cta-button-protocol:active {
   transform: translateY(1px);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface-muted);
 }
 
-/* Quick Metrics Cards */
-.metric-card-simple {
-  cursor: default;
-  transition: all 0.3s ease;
+/* ═══ 225 round 3c — supporting sections: one panel voice ═══ */
+
+/* Shared section header type — supporting sections use the title scale, not
+   competing hero scales. */
+.pool-section-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  line-height: 1.3;
 }
 
-.metric-card-simple:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--neuro-shadow-flat);
+.pool-section-sub {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-top: 2px;
 }
 
-.risk-card {
-  position: relative;
-}
-
-.risk-card::after {
-  content: '';
-  position: absolute;
-  top: -1px;
-  left: -1px;
-  right: -1px;
-  bottom: -1px;
-  border-radius: var(--neuro-radius-lg);
-  background: linear-gradient(135deg, transparent 0%, rgba(59, 130, 246, 0.1) 100%);
-  z-index: -1;
-}
-
-/* Calculator Enhancements */
+/* Calculator panel (supporting weight). Flat; no lift on expand. */
 .calculator-compact {
-  transition: all 0.3s ease;
+  background: var(--color-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
+  padding: 20px;
+  margin-bottom: 24px;
+  transition: padding 0.3s ease;
 }
 
 .calculator-compact.expanded {
-  transform: translateY(-2px);
+  padding: 24px;
 }
 
-.calculator-header:hover .calculator-toggle {
-  box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(-1px);
+.calculator-toggle,
+.pool-info-toggle {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--ui-radius-pill);
+  background: var(--color-surface);
+  border: 1px solid var(--ui-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: var(--color-text-secondary);
+  transition: transform 0.3s ease, border-color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.calculator-header:hover .calculator-toggle,
+.pool-info-header:hover .pool-info-toggle {
+  border-color: var(--ui-border-strong);
+}
+
+/* Projection — the section's own prose moment, no gray box. */
+.pool-projection-card {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--ui-border);
+}
+
+.pool-projection-label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  margin-bottom: 8px;
+}
+
+.pool-projection-body {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  line-height: 1.45;
+  max-width: 52ch;
+  margin: 0 auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.pool-projection-note {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+/* Calculator readout — a composed line, not another well. The amount is the
+   section's one strong number: text color, tabular (no gradient text). */
+.calc-readout {
+  text-align: center;
+  padding: 4px 0 8px 0;
+  margin-bottom: 12px;
+}
+
+.calc-readout-amount {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+  line-height: 1.1;
+  margin-bottom: 8px;
+  transition: transform 0.15s ease-out;
+}
+
+/* Slim contextual echo (spec 237) — a closing line for the earnings block,
+   not a second hero card. */
+.pool-cta-echo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--ui-border);
+}
+
+/* Pool Information — fact ledger rows (the list view's own voice). */
+.pool-facts {
+  margin-bottom: 4px;
+}
+
+.pool-fact-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--ui-border);
+}
+
+.pool-fact-row:last-child {
+  border-bottom: none;
+}
+
+.pool-fact-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.pool-fact-value {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text);
+  text-align: right;
+}
+
+/* Quiet honesty notes inside Pool Information (classes/copy unchanged). */
+.pool-info-note {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.55;
+  margin-bottom: 16px;
+  max-width: 72ch;
+}
+
+.pool-info-protocol-link {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.pool-info-protocol-link:hover,
+.pool-info-protocol-link:focus-visible {
+  color: var(--color-primary);
+}
+
+/* Pool Information panel geometry (was inline). */
+.pool-info-section {
+  background: var(--color-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
+  padding: 20px;
+  margin-bottom: 24px;
+  transition: padding 0.3s ease;
+}
+
+.pool-info-section.expanded {
+  padding: 24px;
 }
 
 .quick-amount-btn {
@@ -933,76 +1136,80 @@
 }
 
 .quick-amount-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
 }
 
 .quick-amount-btn:active {
-  transform: translateY(0);
-  box-shadow: var(--neuro-shadow-pressed);
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
 }
 
-/* Pool Essentials Section */
-.pool-essentials h3 {
-  background: linear-gradient(135deg, var(--color-text) 0%, var(--color-primary) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* Trust Indicators */
-.trust-badge {
-  transition: all 0.2s ease;
-}
-
-.trust-badge:hover {
-  transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-flat);
-}
-
-/* Mobile-First Responsive Design */
+/* Mobile-First Responsive Design — 225 round 3c: reflow, not shrink-in-place.
+   The hero stacks identity above metric; the action band stacks full-width. */
 @media (max-width: 768px) {
   .pool-hero-content {
-    flex-direction: column !important;
-    gap: 20px !important;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 20px;
   }
-  
-  .apy-cta-section {
-    align-items: stretch !important;
-    text-align: center !important;
-  }
-  
+
   .pool-symbol-hero {
-    font-size: var(--font-size-3xl) !important;
-    text-align: center;
-  }
-  
-  .apy-display-hero {
-    min-width: auto !important;
-    align-self: center;
+    font-size: var(--font-size-3xl);
   }
 
-  .pool-action-card {
-    min-width: auto !important;
+  .pool-meta-simplified {
+    font-size: var(--font-size-base);
+    margin-bottom: 16px;
+  }
+
+  .pool-action-apy .apy-value-hero {
+    font-size: var(--font-size-4xl);
+  }
+
+  .pool-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px 20px 20px 20px;
+    gap: 16px;
+  }
+
+  .pool-hero-action-primary,
+  .pool-hero-action-secondary {
     width: 100%;
-    box-sizing: border-box;
   }
 
-  .cta-button-primary {
+  .pool-hero-actions .cta-button-primary,
+  .pool-hero-actions .cta-button-protocol,
+  .pool-cta-echo .cta-button-primary,
+  .pool-cta-echo .cta-button-protocol {
     width: 100%;
     justify-content: center;
   }
-  
-  .quick-metrics {
-    grid-template-columns: 1fr !important;
+
+  .pool-hero-actions .pool-action-hint,
+  .pool-cta-echo .pool-action-hint {
+    text-align: center;
   }
-  
+
+  .pool-cta-echo {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   .calculator-compact {
-    padding: 16px !important;
+    padding: 16px;
   }
-  
+
   .calculator-compact.expanded {
-    padding: 20px !important;
+    padding: 20px;
+  }
+
+  .pool-info-section {
+    padding: 16px;
+  }
+
+  .pool-info-section.expanded {
+    padding: 20px;
   }
 }
 
@@ -1041,7 +1248,7 @@
   .pool-essentials {
     box-shadow: 0 0 0 2px var(--color-text) !important;
   }
-  
+
   .cta-button-primary {
     box-shadow: 0 0 0 2px var(--color-primary) !important;
   }
@@ -1054,10 +1261,20 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-  
+
   .pool-hero-card:hover,
   .metric-card-simple:hover,
   .cta-button-primary:hover {
+    transform: none !important;
+  }
+
+  /* Press physics (design-system 225 §3): no transform under reduced
+     motion, only the background swap. */
+  .cta-button-primary:active,
+  .cta-button-protocol:active,
+  .back-button:active,
+  .back-to-results-btn:active,
+  .quick-amount-btn:active {
     transform: none !important;
   }
 }
@@ -1125,7 +1342,7 @@
 .focusable-element:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
-  box-shadow: var(--neuro-shadow-raised), 0 0 0 4px rgba(59, 130, 246, 0.2);
+  box-shadow: var(--ui-focus-ring);
 }
 
 .cta-button-primary:focus-visible {

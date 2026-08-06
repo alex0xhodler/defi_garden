@@ -1,5 +1,5 @@
-/* Search-first landing — the same calm, tactile system as the app with a
-   more spacious hero and restrained motion. */
+/* Search-first landing — the same flat "Quiet" design system (spec 225) as
+   the rest of the app, with a more spacious hero and restrained motion. */
 
 .landing-app {
   position: relative;
@@ -92,7 +92,6 @@
   height: 9px;
   border-radius: 50%;
   background: var(--color-primary);
-  box-shadow: var(--neuro-shadow-subtle);
   opacity: .55;
 }
 
@@ -107,13 +106,15 @@
 }
 
 .landing-header {
+  /* height/padding/border-radius owned by the shared header-row rule, style.css end */
   width: min(1200px, calc(100% - 48px));
-  min-height: 82px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 28px;
+  background: var(--ui-surface);
+  border-bottom: 1px solid var(--ui-border);
 }
 
 .landing-brand {
@@ -138,7 +139,7 @@
   color: var(--color-primary);
   background: var(--color-background);
   border-radius: 12px;
-  box-shadow: var(--neuro-shadow-subtle);
+  border: 1px solid var(--ui-border);
 }
 
 .landing-brand-mark { width: 38px; height: 38px; }
@@ -170,17 +171,10 @@
 
 .landing-icon-button,
 .landing-menu-button {
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border: 0;
-  border-radius: var(--radius-full);
+  /* width/height/padding/border-radius owned by the shared icon-only-button rule, style.css end */
+  border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text-secondary);
-  box-shadow: var(--neuro-shadow-subtle);
   cursor: pointer;
   font-family: var(--font-family-base);
   font-size: var(--font-size-xs);
@@ -194,9 +188,9 @@
 .landing-theme-button { font-size: 18px; font-weight: var(--font-weight-normal); line-height: 1; }
 
 .landing-icon-button:hover,
-.landing-menu-button:hover { color: var(--color-primary); box-shadow: var(--neuro-shadow-flat); transform: translateY(-1px); }
+.landing-menu-button:hover { color: var(--color-primary); border-color: var(--ui-border-strong); transform: translateY(-1px); }
 .landing-icon-button:active,
-.landing-menu-button:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.landing-menu-button:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 
 .landing-menu-button { display: none; font-size: 20px; }
 
@@ -223,9 +217,9 @@
   gap: 16px;
   opacity: 1;
   pointer-events: auto;
-  border-radius: var(--neuro-radius-md);
+  border-radius: var(--ui-radius-md);
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-flat);
+  border: 1px solid var(--ui-border);
 }
 
 .landing-main { flex: 1; }
@@ -266,20 +260,19 @@
 .landing-search-form { max-width: 680px; margin-top: 34px; }
 
 .landing-search-shell {
-  min-height: 72px;
+  /* height/padding/border-radius owned by the shared hero-input rule, style.css end */
   display: flex;
   align-items: center;
   gap: 13px;
-  padding: 9px 10px 9px 22px;
-  border-radius: var(--neuro-radius-lg);
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-pressed), var(--neuro-shadow-subtle);
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
+  border: 1px solid var(--ui-border-strong);
+  transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-fast) var(--ease-standard);
 }
 
 .landing-search-shell:focus-within {
-  box-shadow: var(--neuro-shadow-pressed), 0 0 0 2px var(--color-focus-ring);
+  border-color: var(--ui-accent);
+  box-shadow: var(--ui-focus-ring);
 }
 
 .landing-icon { width: 23px; height: 23px; flex: 0 0 auto; color: var(--color-primary); }
@@ -303,21 +296,13 @@
 
 .landing-search-submit,
 .landing-garden-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  /* height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
   gap: 7px;
-  min-height: 50px;
-  padding: 0 19px;
-  border: 0;
-  border-radius: 12px;
+  border: 1px solid transparent;
   background: var(--color-primary);
   color: var(--color-btn-primary-text);
-  box-shadow: var(--neuro-shadow-flat);
   cursor: pointer;
   font-family: var(--font-family-base);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-semibold);
   white-space: nowrap;
   transition: background var(--duration-fast) var(--ease-standard),
     box-shadow var(--duration-fast) var(--ease-standard),
@@ -325,9 +310,9 @@
 }
 
 .landing-search-submit:hover,
-.landing-garden-link:hover { background: var(--color-primary-hover); color: var(--color-btn-primary-text); box-shadow: var(--neuro-shadow-raised); transform: translateY(-1px); }
+.landing-garden-link:hover { background: var(--color-primary-hover); color: var(--color-btn-primary-text); transform: translateY(-1px); }
 .landing-search-submit:active,
-.landing-garden-link:active { background: var(--color-primary-active); box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.landing-garden-link:active { background: var(--color-primary-active); transform: translateY(1px); }
 
 .landing-arrow-icon { width: 19px; height: 19px; }
 
@@ -350,32 +335,29 @@
 }
 
 .landing-example-chip {
-  min-height: 32px;
-  padding: 0 12px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-full);
+  /* height/padding/border-radius/font-size owned by the shared chip rule, style.css end */
+  border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text-secondary);
   cursor: pointer;
   font-family: var(--font-family-base);
-  font-size: var(--font-size-sm);
   transition: color var(--duration-fast) var(--ease-standard),
     border-color var(--duration-fast) var(--ease-standard),
     box-shadow var(--duration-fast) var(--ease-standard),
     transform var(--duration-fast) var(--ease-standard);
 }
 
-.landing-example-chip:hover { border-color: var(--color-primary); color: var(--color-primary); box-shadow: var(--neuro-shadow-subtle); transform: translateY(-1px); }
-.landing-example-chip:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.landing-example-chip:hover { border-color: var(--color-primary); color: var(--color-primary); transform: translateY(-1px); }
+.landing-example-chip:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 
 .landing-garden-card {
+  /* padding/border-radius owned by the shared hero-card rule, style.css end */
   position: relative;
   min-height: 448px;
-  padding: 25px 25px 0;
+  padding-bottom: 0;
   overflow: hidden;
-  border-radius: var(--neuro-radius-lg);
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-raised);
+  border: 1px solid var(--ui-border);
 }
 
 .landing-card-topline {
@@ -415,12 +397,10 @@
 }
 
 .landing-garden-link {
+  /* height/padding/font-size owned by the shared primary-button rule, style.css end */
   position: relative;
   z-index: 2;
-  min-height: 44px;
   margin-top: 22px;
-  padding: 0 16px;
-  font-size: var(--font-size-sm);
 }
 
 .landing-plant-svg {
@@ -485,7 +465,7 @@
   padding: 0 14px;
   border-radius: var(--radius-full);
   background: var(--color-background);
-  box-shadow: var(--neuro-shadow-subtle);
+  border: 1px solid var(--ui-border);
   color: var(--color-text-secondary);
   font-size: var(--font-size-sm);
   white-space: nowrap;
@@ -575,7 +555,6 @@
   .landing-footer,
   .landing-mobile-nav { width: min(100% - 32px, 600px); }
 
-  .landing-header { min-height: 70px; }
   .landing-nav { display: none; }
   .landing-menu-button { display: inline-flex; }
   .landing-hero {
@@ -604,15 +583,14 @@
   .landing-brand-mark { width: 34px; height: 34px; }
   .landing-brand-mark .landing-leaf-mark { width: 21px; height: 21px; }
   .landing-header-actions { gap: 6px; }
-  .landing-icon-button,
-  .landing-menu-button { width: 36px; height: 36px; }
+  /* icon-button/search-shell/search-submit size is owned by the shared
+     component rules (style.css end) — no responsive shape variant */
   .landing-hero { padding-top: 46px; }
   .landing-title { font-size: 46px; }
-  .landing-search-shell { min-height: 64px; padding-left: 17px; gap: 9px; }
-  .landing-search-submit { width: 46px; min-height: 46px; padding: 0; }
+  .landing-search-shell { gap: 9px; }
   .landing-search-submit-label { display: none; }
   .landing-search-input { font-size: 15px; }
-  .landing-garden-card { min-height: 370px; padding: 21px 20px 0; }
+  .landing-garden-card { min-height: 370px; padding-bottom: 0; }
   .landing-garden-card h2 { margin-top: 22px; font-size: 31px; }
   .landing-plant-svg { right: -28px; bottom: -18px; width: 315px; }
   .landing-trust-item { width: 100%; }

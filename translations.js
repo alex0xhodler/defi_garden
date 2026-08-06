@@ -4,8 +4,8 @@ const translations = {
     // Search
     searchPlaceholder: "Search for a token...",
     searchHint: "Try searching for 'ETH on Arbitrum' or 'USDC lending'",
-    tokenSearch: "Token Search",
-    feelingDegen: "I'm Feeling Degen",
+    tokenSearch: "Token search",
+    feelingDegen: "I'm feeling degen",
     
     // Filter labels
     chains: "Chains",
@@ -39,7 +39,12 @@ const translations = {
     showingResults: (count) => `${count} pool${String(count) !== '1' ? 's' : ''} found`,
     chainYields: (chain) => `${chain} DeFi Yields`,
     tokenYields: (token, chain) => `Yields for ${token}${chain ? ` on ${chain}` : ''}`,
-    
+    sortByLabel: "Sort by:",
+    // 225 round 3 increment (a): results panel column labels + sort-control text
+    resultsColPool: "Pool",
+    resultsColApy: "APY",
+    resultsColTvl: "TVL",
+
     // Pool card labels
     totalApy: "Total APY",
     baseApy: "Base APY:",
@@ -124,7 +129,11 @@ const translations = {
     // not re-parsed via Number().
     basedOnInvestment: (amount) => `Based on $${formatCount(amount) || 0} investment`,
     verified: "✓ Verified",
-    onProtocolChain: (protocol, chain, hasUrl) => `on ${protocol} • ${chain}${hasUrl ? ' ↗' : ''}`,
+    // 225 round 3 increment (a): plain secondary metadata line, sentence
+    // case, middle-dot separator — no "on " prefix, no bullet glyph, no
+    // link arrow (the row already navigates on click; the arrow implied an
+    // outbound link this text never was).
+    onProtocolChain: (protocol, chain) => `${protocol} · ${chain}`,
     poolProtocolLogoAlt: (project) => `${project} logo`,
     poolChainLogoAlt: (chain) => `${chain} logo`,
     tvl: "TVL",
@@ -136,7 +145,7 @@ const translations = {
     no: "No",
 
     // Honest mini-projection (pool-detail)
-    projectionHeading: "The Long Game",
+projectionHeading: "The long game",
     // 241: see dailyEarningsSubLabel's comment above — formatCount() reused,
     // not re-parsed via Number(). `amount` (the compounded projection figure)
     // must arrive already rounded to a whole dollar from the caller — see
@@ -789,7 +798,12 @@ const translations = {
     showingResults: (count) => `${count}개 풀 발견`,
     chainYields: (chain) => `${chain} DeFi 수익률`,
     tokenYields: (token, chain) => `${token} 수익률${chain ? ` (${chain})` : ''}`,
-    
+    sortByLabel: "정렬:",
+    // 225 round 3 increment (a): results panel column labels + sort-control text
+    resultsColPool: "풀",
+    resultsColApy: "APY",
+    resultsColTvl: "TVL",
+
     // Pool card labels
     totalApy: "총 APY",
     baseApy: "기본 APY:",
@@ -866,7 +880,8 @@ const translations = {
     // 241: see EN basedOnInvestment's comment above.
     basedOnInvestment: (amount) => `$${formatCount(amount) || 0} 투자 기준`,
     verified: "✓ 인증됨",
-    onProtocolChain: (protocol, chain, hasUrl) => `${protocol}에서 • ${chain}${hasUrl ? ' ↗' : ''}`,
+    // 225 round 3 increment (a): matches EN — plain metadata line, middle dot, no arrow.
+    onProtocolChain: (protocol, chain) => `${protocol} · ${chain}`,
     poolProtocolLogoAlt: (project) => `${project} 로고`,
     poolChainLogoAlt: (chain) => `${chain} 로고`,
     tvl: "TVL",
