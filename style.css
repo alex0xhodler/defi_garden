@@ -1118,26 +1118,15 @@ body {
   gap: var(--space-8);
 }
 
-.app-control-btn {
-  /* width/height/padding/border-radius/font owned by the shared icon-only-button rule, style.css end */
-  background: var(--color-surface);
-  color: var(--color-text);
-  cursor: pointer;
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-  transition: all 0.2s ease;
-}
-
-.app-control-btn:hover {
-  border-color: var(--ui-border-strong);
-  transform: translateY(-1px);
-}
-
-.app-control-btn:active {
-  box-shadow: none;
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
-}
+/* `.app-control-btn` is a geometry-only marker now (shared icon-only-button
+   rule, style.css end) — it used to also carry its own background/border/
+   hover/active block here, but every element wearing it also wears
+   `.theme-toggle` or `.language-toggle`, whose own rules below (later in
+   this file, same specificity) already decided every one of those
+   properties. Two color definitions for the same two controls was the
+   per-surface-variant duplication this pass killed: one shared rule set —
+   `.theme-toggle` / `.language-toggle` below — now owns color/border/hover/
+   active for both header and standalone instances alike. */
 
 /* Backlog 222: `.theme-toggle`/`.language-toggle` (style.css:3913/3993 below)
    are FLOATING-PAIR rules — `position: fixed`, viewport-pinned `top`/`right`,
@@ -4856,10 +4845,6 @@ html {
   transition: all 300ms var(--entry-easing);
 }
 
-.theme-toggle:hover {
-  transform: scale(1.05);
-}
-
 /* Enhanced Horizontal Scrolling Filter Styles with Improved UX */
 .filters-container {
   display: flex;
@@ -5366,8 +5351,8 @@ html {
    must still be perceivable (background swap stays) but not animated/
    moved, so the transform is neutralized here — same selector list as
    the base rule, plus a few controls with their own local :active
-   transform (pool-card, reset-filters-btn, modal-close, detail-header-btn)
-   that aren't covered by the base rule's selector list. */
+   transform (pool-card, reset-filters-btn, modal-close) that aren't
+   covered by the base rule's selector list. */
 @media (prefers-reduced-motion: reduce) {
   .btn:active,
   .calculate-yield-btn-new:active,
@@ -5385,8 +5370,7 @@ html {
   .filter-chip:active,
   .pool-card:active,
   .reset-filters-btn:active,
-  .modal-close:active,
-  .detail-header-btn:active {
+  .modal-close:active {
     transform: none !important;
   }
 }
@@ -5604,17 +5588,6 @@ body,
   background: none !important;
 }
 
-/* Detail header controls — width/height/border-radius owned by the shared
-   icon-only-button rule below. */
-.detail-header-btn {
-  background: var(--color-surface);
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-  cursor: pointer;
-  font-size: 16px;
-  transition: all var(--duration-normal) var(--ease-standard);
-}
-
 /* ════════════════════════════════════════════════════════════════════════
    225 §7 ADDENDUM — the ONE shared component block.
    One owner across every file (round-1 root cause: three agents split by
@@ -5706,7 +5679,6 @@ body,
 .app-control-btn,
 .theme-toggle,
 .language-toggle,
-.detail-header-btn,
 .view-toggle-btn:not(.sort-toggle-btn),
 .gp-text-send,
 .gp-ask-send {
@@ -5835,17 +5807,4 @@ body,
 
 .app-header-sticky {
   border-radius: 0;
-}
-
-.detail-header-btn:active {
-  box-shadow: none;
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
-  transform: translateY(1px);
-}
-
-.detail-header-controls {
-  display: flex;
-  gap: var(--space-8);
-  align-items: center;
 }

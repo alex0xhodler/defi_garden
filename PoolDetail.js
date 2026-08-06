@@ -153,7 +153,6 @@ function renderChevronIcon() {
 function PoolDetail({
   pool,
   onBack,
-  resetApp,
   calculateYields,
   futureValue,
   formatCurrency,
@@ -163,12 +162,8 @@ function PoolDetail({
   formatApy,
   getProtocolUrl,
   getProtocolUrlWithRef,
-  isDarkMode,
   t,
-  AnimatedNumber,
-  toggleTheme,
-  language,
-  changeLanguage
+  AnimatedNumber
 }) {
   // Fallback formatters when not passed (e.g. SSR/tests)
   const _formatUsd = formatUsd || ((n, f) => '$' + Number(n || 0).toLocaleString('en-US', { maximumFractionDigits: f || 2 }));
@@ -429,32 +424,11 @@ function PoolDetail({
       type: 'application/ld+json',
       dangerouslySetInnerHTML: { __html: breadcrumbJsonLd }
     }),
-    // Header — 225 round 3c recomposition: ONE row at every viewport (logo
-    // left, controls right); the breadcrumb pill is retired (pills never wrap
-    // plain data — DESIGN.md). The back affordance becomes a quiet link on
-    // its own line below, so mobile no longer stacks three rows of chrome.
-    React.createElement('div', {
-      className: 'header pool-detail-topbar animate-on-mount'
-    },
-      React.createElement('h1', {
-        className: 'logo pool-detail-logo',
-        onClick: resetApp
-      }, 'DeFi Garden'),
-      React.createElement('div', { className: 'detail-header-controls' },
-        // Language toggle
-        (changeLanguage && language) && React.createElement('button', {
-          className: 'detail-header-btn',
-          onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
-          'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
-        }, language === 'en' ? 'KO' : 'EN'),
-        // Theme toggle
-        toggleTheme && React.createElement('button', {
-          className: 'detail-header-btn',
-          onClick: toggleTheme,
-          'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-        }, isDarkMode ? '🌙' : '☀️')
-      )
-    ),
+    // Header — app.js now renders the SAME full-width `.app-header-sticky`
+    // band used by the grid immediately above this component (logo +
+    // language/theme controls, search omitted). Do not reintroduce a
+    // pool-view-local header here — that is the per-surface variant this
+    // change retired.
 
     // Quiet back link (same onBack + analytics the old breadcrumb span carried,
     // now via the existing translated backToSearch key instead of hardcoded EN).

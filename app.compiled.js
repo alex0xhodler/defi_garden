@@ -2928,61 +2928,15 @@ function App() {
 
   // Add debug logging for pool detail view state
 
-  // Render Pool Detail View if active
-  if (currentView === 'pool-detail' && detailPool) {
-    return React.createElement('div', {
-      className: 'app pool-detail-view'
-    }, React.createElement('div', {
-      className: 'container'
-    }, React.createElement(PoolDetail, {
-      pool: detailPool,
-      onBack: handleBackFromDetail,
-      resetApp: resetApp,
-      calculateYields: calculateYields,
-      futureValue: futureValue,
-      formatCurrency: formatCurrency,
-      formatAPY: formatAPY,
-      formatUsd: formatUsd,
-      formatNum: formatNum,
-      formatApy: formatApy,
-      getProtocolUrl: getProtocolUrl,
-      getProtocolUrlWithRef: getProtocolUrlWithRef,
-      isDarkMode: isDarkMode,
-      t: t,
-      AnimatedNumber: AnimatedNumber,
-      toggleTheme: toggleTheme,
-      language: language,
-      changeLanguage: changeLanguage
-    })),
-    // Footer — 240: one voice with the landing (attribution stays; the
-    // old joke sign-off is retired from money surfaces), via t() so
-    // KO renders translated instead of hardcoded English.
-    React.createElement('footer', {
-      className: 'app-footer'
-    }, React.createElement('p', null, t('poweredBy'), ' ', React.createElement('a', {
-      href: 'https://api-docs.defillama.com/',
-      target: '_blank',
-      rel: 'noopener noreferrer'
-    }, t('defillamaApi')), '. ', t('footerSignOff')), React.createElement('p', {
-      className: 'app-footer-hub-links'
-    }, React.createElement('a', {
-      href: '/tokens'
-    }, t('browseTokens')), ' · ', React.createElement('a', {
-      href: '/chains'
-    }, t('browseChains')))));
-  }
-  return React.createElement('div', {
-    // 247 world: the dead-pool state (a ?pool= arrival whose id no longer
-    // resolves) is pool-detail's own state — it carries .dead-pool-view so
-    // pool-detail-styles.css can set the notice in the certificate world.
-    // deadPoolResolved is false on every grid/search render, so no other
-    // surface's markup or styling changes.
-    className: `app ${selectedToken || chainMode && selectedChain ? 'has-results' : ''}${deadPoolResolved ? ' dead-pool-view' : ''}`
-  },
-  // Google-style sticky header - ONLY show when we have results
-  (selectedToken || chainMode && selectedChain) && React.createElement('div', {
-    className: 'app-header-sticky'
-  }, React.createElement('div', {
+  // Shared header row — the SAME band (classes/geometry) on the grid and the
+  // pool view, so `.app-header-sticky` never has a second implementation to
+  // drift out of sync. `includeSearch` is the only variation: the pool view
+  // has no wiring from search state back into `currentView`, so a search
+  // submitted there would update filters/URL but never flip the view back
+  // to the grid (silent no-op, not a real feature) — omitted rather than
+  // half-wired. Logo stays left, controls stay right either way via the
+  // row's own space-between.
+  var renderHeaderRow = includeSearch => React.createElement('div', {
     className: 'app-header-content'
   },
   // Logo (compact, clickable)
@@ -2990,8 +2944,8 @@ function App() {
     className: 'app-logo',
     onClick: resetApp
   }, '🌱 DeFi Garden'),
-  // Persistent search bar
-  React.createElement('div', {
+  // Persistent search bar (grid only — see comment above)
+  includeSearch && React.createElement('div', {
     className: 'app-search-container'
   }, React.createElement('div', {
     className: 'app-search-bar'
@@ -3028,7 +2982,7 @@ function App() {
       }
     }
   }, '🔍'))),
-  // Controls (theme, language) 
+  // Controls (theme, language)
   React.createElement('div', {
     className: 'app-header-controls'
   }, React.createElement('button', {
@@ -3039,7 +2993,64 @@ function App() {
     className: 'app-control-btn theme-toggle',
     onClick: toggleTheme,
     'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-  }, isDarkMode ? '🌙' : '☀️'))),
+  }, isDarkMode ? '🌙' : '☀️')));
+
+  // Render Pool Detail View if active
+  if (currentView === 'pool-detail' && detailPool) {
+    return React.createElement('div', {
+      className: 'app pool-detail-view'
+    },
+    // Same full-width header band as the grid (247 world follow-up) —
+    // search omitted (see renderHeaderRow comment), logo + controls kept
+    // in identical left/right slots.
+    React.createElement('div', {
+      className: 'app-header-sticky'
+    }, renderHeaderRow(false)), React.createElement('div', {
+      className: 'container'
+    }, React.createElement(PoolDetail, {
+      pool: detailPool,
+      onBack: handleBackFromDetail,
+      calculateYields: calculateYields,
+      futureValue: futureValue,
+      formatCurrency: formatCurrency,
+      formatAPY: formatAPY,
+      formatUsd: formatUsd,
+      formatNum: formatNum,
+      formatApy: formatApy,
+      getProtocolUrl: getProtocolUrl,
+      getProtocolUrlWithRef: getProtocolUrlWithRef,
+      t: t,
+      AnimatedNumber: AnimatedNumber
+    })),
+    // Footer — 240: one voice with the landing (attribution stays; the
+    // old joke sign-off is retired from money surfaces), via t() so
+    // KO renders translated instead of hardcoded English.
+    React.createElement('footer', {
+      className: 'app-footer'
+    }, React.createElement('p', null, t('poweredBy'), ' ', React.createElement('a', {
+      href: 'https://api-docs.defillama.com/',
+      target: '_blank',
+      rel: 'noopener noreferrer'
+    }, t('defillamaApi')), '. ', t('footerSignOff')), React.createElement('p', {
+      className: 'app-footer-hub-links'
+    }, React.createElement('a', {
+      href: '/tokens'
+    }, t('browseTokens')), ' · ', React.createElement('a', {
+      href: '/chains'
+    }, t('browseChains')))));
+  }
+  return React.createElement('div', {
+    // 247 world: the dead-pool state (a ?pool= arrival whose id no longer
+    // resolves) is pool-detail's own state — it carries .dead-pool-view so
+    // pool-detail-styles.css can set the notice in the certificate world.
+    // deadPoolResolved is false on every grid/search render, so no other
+    // surface's markup or styling changes.
+    className: `app ${selectedToken || chainMode && selectedChain ? 'has-results' : ''}${deadPoolResolved ? ' dead-pool-view' : ''}`
+  },
+  // Google-style sticky header - ONLY show when we have results
+  (selectedToken || chainMode && selectedChain) && React.createElement('div', {
+    className: 'app-header-sticky'
+  }, renderHeaderRow(true),
   // Google-style navigation tabs - part of the header
   React.createElement('div', {
     className: 'app-nav-row'

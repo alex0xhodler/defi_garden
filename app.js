@@ -2979,15 +2979,93 @@ function App() {
 
   // Add debug logging for pool detail view state
 
+  // Shared header row — the SAME band (classes/geometry) on the grid and the
+  // pool view, so `.app-header-sticky` never has a second implementation to
+  // drift out of sync. `includeSearch` is the only variation: the pool view
+  // has no wiring from search state back into `currentView`, so a search
+  // submitted there would update filters/URL but never flip the view back
+  // to the grid (silent no-op, not a real feature) — omitted rather than
+  // half-wired. Logo stays left, controls stay right either way via the
+  // row's own space-between.
+  const renderHeaderRow = (includeSearch) => (
+    React.createElement('div', { className: 'app-header-content' },
+      // Logo (compact, clickable)
+      React.createElement('div', {
+        className: 'app-logo',
+        onClick: resetApp
+      }, '🌱 DeFi Garden'),
+
+      // Persistent search bar (grid only — see comment above)
+      includeSearch && React.createElement('div', { className: 'app-search-container' },
+        React.createElement('div', { className: 'app-search-bar' },
+          React.createElement('input', {
+            type: 'text',
+            className: 'app-search-input',
+            // Placeholder reflects token query only; chain state belongs to filter chips
+            placeholder: selectedToken ? selectedToken : animatedPlaceholder,
+            value: searchInput,
+            onChange: handleSearchInputChange,
+            onKeyDown: handleKeyDown,
+            onFocus: handleInputFocus,
+            onBlur: handleInputBlur
+          }),
+          // ✕ clear button — only visible when search input is non-empty
+          searchInput.length > 0 && React.createElement('button', {
+            className: 'app-search-clear',
+            'aria-label': 'Clear search',
+            onMouseDown: (e) => {
+              // Use mousedown to fire before blur
+              e.preventDefault();
+              setSearchInput('');
+              setSelectedToken('');
+              setShowAutocomplete(false);
+              // Return focus to input
+              const input = e.currentTarget.parentElement.querySelector('.app-search-input');
+              if (input) input.focus();
+            }
+          }, '✕'),
+          React.createElement('button', {
+            className: 'app-search-button',
+            onClick: () => {
+              if (searchInput.length > 0 && autocompleteTokens.length > 0) {
+                handleTokenSelect(autocompleteTokens[0]);
+              }
+            }
+          }, '🔍')
+        )
+      ),
+
+      // Controls (theme, language)
+      React.createElement('div', { className: 'app-header-controls' },
+        React.createElement('button', {
+          className: 'app-control-btn language-toggle',
+          onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
+          'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
+        }, language === 'en' ? 'KO' : 'EN'),
+        React.createElement('button', {
+          className: 'app-control-btn theme-toggle',
+          onClick: toggleTheme,
+          'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
+        }, isDarkMode ? '🌙' : '☀️')
+      )
+    )
+  );
+
   // Render Pool Detail View if active
   if (currentView === 'pool-detail' && detailPool) {
     return React.createElement('div', { className: 'app pool-detail-view' },
+
+      // Same full-width header band as the grid (247 world follow-up) —
+      // search omitted (see renderHeaderRow comment), logo + controls kept
+      // in identical left/right slots.
+      React.createElement('div', { className: 'app-header-sticky' },
+        renderHeaderRow(false)
+      ),
 
       React.createElement('div', { className: 'container' },
         React.createElement(PoolDetail, {
           pool: detailPool,
           onBack: handleBackFromDetail,
-          resetApp: resetApp,
           calculateYields: calculateYields,
           futureValue: futureValue,
           formatCurrency: formatCurrency,
@@ -2997,12 +3075,8 @@ function App() {
           formatApy: formatApy,
           getProtocolUrl: getProtocolUrl,
           getProtocolUrlWithRef: getProtocolUrlWithRef,
-          isDarkMode: isDarkMode,
           t: t,
-          AnimatedNumber: AnimatedNumber,
-          toggleTheme: toggleTheme,
-          language: language,
-          changeLanguage: changeLanguage
+          AnimatedNumber: AnimatedNumber
         })
       ),
 
@@ -3041,67 +3115,7 @@ function App() {
     (selectedToken || (chainMode && selectedChain)) && React.createElement('div', {
       className: 'app-header-sticky'
     },
-      React.createElement('div', { className: 'app-header-content' },
-        // Logo (compact, clickable)
-        React.createElement('div', {
-          className: 'app-logo',
-          onClick: resetApp
-        }, '🌱 DeFi Garden'),
-
-        // Persistent search bar
-        React.createElement('div', { className: 'app-search-container' },
-          React.createElement('div', { className: 'app-search-bar' },
-            React.createElement('input', {
-              type: 'text',
-              className: 'app-search-input',
-              // Placeholder reflects token query only; chain state belongs to filter chips
-              placeholder: selectedToken ? selectedToken : animatedPlaceholder,
-              value: searchInput,
-              onChange: handleSearchInputChange,
-              onKeyDown: handleKeyDown,
-              onFocus: handleInputFocus,
-              onBlur: handleInputBlur
-            }),
-            // ✕ clear button — only visible when search input is non-empty
-            searchInput.length > 0 && React.createElement('button', {
-              className: 'app-search-clear',
-              'aria-label': 'Clear search',
-              onMouseDown: (e) => {
-                // Use mousedown to fire before blur
-                e.preventDefault();
-                setSearchInput('');
-                setSelectedToken('');
-                setShowAutocomplete(false);
-                // Return focus to input
-                const input = e.currentTarget.parentElement.querySelector('.app-search-input');
-                if (input) input.focus();
-              }
-            }, '✕'),
-            React.createElement('button', {
-              className: 'app-search-button',
-              onClick: () => {
-                if (searchInput.length > 0 && autocompleteTokens.length > 0) {
-                  handleTokenSelect(autocompleteTokens[0]);
-                }
-              }
-            }, '🔍')
-          )
-        ),
-
-        // Controls (theme, language) 
-        React.createElement('div', { className: 'app-header-controls' },
-          React.createElement('button', {
-            className: 'app-control-btn language-toggle',
-            onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
-            'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
-          }, language === 'en' ? 'KO' : 'EN'),
-          React.createElement('button', {
-            className: 'app-control-btn theme-toggle',
-            onClick: toggleTheme,
-            'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-          }, isDarkMode ? '🌙' : '☀️')
-        )
-      ),
+      renderHeaderRow(true),
 
       // Google-style navigation tabs - part of the header
       React.createElement('div', { className: 'app-nav-row' },

@@ -152,6 +152,12 @@
   background: var(--cert-paper);
   font-family: var(--cert-sans);
   color: var(--cert-ink);
+  /* 247 world follow-up: the chrome band above is now the SAME
+     `.app-header-sticky` the grid uses (position: fixed, style.css) instead
+     of a pool-view-local in-flow header, so the document needs its own
+     clearance to keep from starting underneath it. One row only (no
+     nav-tabs row here) — var(--ui-header-h) + its 1px border-bottom. */
+  padding-top: calc(var(--ui-header-h) + 1px);
 }
 
 .pool-detail-container {
@@ -172,71 +178,6 @@
 .pool-detail-view input:focus-visible {
   outline: 2px solid var(--cert-green);
   outline-offset: 2px;
-}
-
-/* ── Chrome band ───────────────────────────────────────────────────────── */
-.pool-detail-container .header.pool-detail-topbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 0 14px 0;
-  margin-bottom: 6px;
-  border-bottom: 1px solid var(--cert-rule);
-  position: relative;
-}
-
-/* the double rule under the chrome — a document's head rule */
-.pool-detail-container .header.pool-detail-topbar::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -4px;
-  border-bottom: 1px solid var(--cert-rule);
-}
-
-.pool-detail-container .logo.pool-detail-logo {
-  font-family: var(--cert-serif);
-  font-size: 21px;
-  font-weight: 600;
-  letter-spacing: 0.005em;
-  color: var(--cert-ink);
-  margin: 0;
-  line-height: 1;
-  cursor: pointer;
-  transition: color 0.2s ease;
-}
-
-.pool-detail-container .logo.pool-detail-logo:hover {
-  color: var(--cert-green);
-}
-
-.pool-detail-view .detail-header-controls {
-  display: flex;
-  gap: 8px;
-}
-
-.pool-detail-view .detail-header-btn {
-  background: var(--cert-vellum);
-  border: 1px solid var(--cert-rule);
-  border-radius: 4px;
-  color: var(--cert-ink-2);
-  box-shadow: none;
-  cursor: pointer;
-  font-size: 14px;
-  font-family: var(--cert-sans);
-  font-weight: 600;
-  transition: border-color 0.2s ease, background 0.2s ease;
-}
-
-.pool-detail-view .detail-header-btn:hover {
-  border-color: var(--cert-rule-strong);
-  background: var(--cert-paper-deep);
-}
-
-.pool-detail-view .detail-header-btn:active {
-  transform: translateY(1px);
-  background: var(--cert-paper-deep);
 }
 
 /* ── Return line ───────────────────────────────────────────────────────── */
@@ -1295,8 +1236,7 @@ a.pool-token-chip:hover {
   .pool-detail-view .cta-button-primary:active,
   .pool-detail-view .cta-button-protocol:active,
   .back-button:active,
-  .pool-detail-view .quick-amount-btn:active,
-  .pool-detail-view .detail-header-btn:active {
+  .pool-detail-view .quick-amount-btn:active {
     transform: none !important;
   }
 }
