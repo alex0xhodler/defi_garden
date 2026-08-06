@@ -93,6 +93,25 @@ positives across the ten properly-terminal open PRs" based on evidence gathered 
 several intervening heartbeats have since progressed/renumbered enough of those ten that the baseline
 itself is stale — the detector's own output is the more current, and more useful, information.
 
+## Round 2 verifier PASS — one residual gap logged, not blocking
+
+Verifier round 2 PASSed (6/6 criteria, HIGH tier confirmed) after independently re-running the extension
+attack against an even-more-current live pull (11 open PRs + `origin/main`'s BACKLOG.md, further drifted
+than this build's own last check — `#399 → ORPHAN` still held). It logged one non-blocking residual gap,
+recorded here per RAZOR's "say so, with a number" rule rather than left implicit:
+
+`splitMarkdownRow()`'s escape-awareness only covers backslash-escaped `\|`. Two live rows don't fit that
+shape: row 236 (a duplicated-ID typo, `| 236 | 236 | ...`) and row 237 (a genuinely **unescaped** stray
+`|` inside prose: `"...page still shows two primary pairs. |calculator)."`) — both desync
+`parseBacklogStatusById`'s column read for those two rows specifically. **Degrades safely**: an unparsed
+Status cell yields `leadingStatusWord() → null`, which falls through to `ORPHAN` (the surfacing direction,
+never a false PARKED/BLOCKED/merged), and neither row currently backs any of the live open PRs, so it has
+no effect on today's classification. Left open rather than fixed in this item (out of the two bug classes
+round 1 actually found) — a follow-on item should either tighten BACKLOG.md's own row-authoring convention
+(escape ALL literal pipes, fix the row-236 duplicate id) or make `splitMarkdownRow` robust to a bare `|`
+inside prose (harder — genuinely ambiguous with a real column boundary without a full markdown-table
+parser).
+
 ## Scope discipline
 
 No product code touched. `home.html`, `app.js`, `planner.js`, trust rails, generated SEO surface,
