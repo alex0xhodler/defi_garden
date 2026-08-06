@@ -10,6 +10,76 @@
   color: var(--color-text);
 }
 
+/* ── The landing page as the same sheet (247 world, item 247 follow-up) ──
+   Same certificate ornament system pool-detail/the grid already carry —
+   see style.css's "ORNAMENT SYSTEM" banner for the shared primitives,
+   keyframes and tokens (--ui-accent-margin/-watermark/-soft/-border) this
+   reuses. Page-margin strands + a watermark rosette bleeding off the right
+   edge, gated to the same ≥1080px width and ambient drift. `position:
+   absolute` (not `fixed`, unlike pool-detail/the grid) because `.landing-
+   app` already establishes its own positioning + clipping context
+   (`position: relative; overflow: hidden` above) for the existing
+   `.landing-backdrop` orbit decoration — reusing that same context keeps
+   the strands/watermark scrolling WITH the page instead of fighting
+   `.landing-app`'s own overflow:hidden over a `position:fixed` layer's
+   containing-block rules. z-index -1 paints them below `.landing-header`/
+   `.landing-main`/`.landing-footer` (explicitly z-index:1 below) without
+   needing a second `isolation: isolate` — `.landing-app`'s own `position:
+   relative` is already the nearest positioned ancestor for both. */
+.landing-app::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+
+.landing-app::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+
+@media (min-width: 1080px) {
+  .landing-app::before,
+  .landing-app::after {
+    opacity: 1;
+  }
+
+  .landing-app::before {
+    animation: ornDrift 117s ease-in-out infinite alternate;
+  }
+
+  .landing-app::after {
+    animation: ornTurn 123s ease-in-out infinite alternate,
+               ornBreathe 96s ease-in-out infinite alternate;
+  }
+}
+
 /* Backlog 220: `landing.js:356` renders the shared `e('footer', { className:
    'app-footer' }, ...)` inside `.landing-app`, so the landing route gets the
    OPAQUE, `position: fixed; bottom: 0; z-index: 100` footer from
@@ -353,11 +423,25 @@
 .landing-garden-card {
   /* padding/border-radius owned by the shared hero-card rule, style.css end */
   position: relative;
+  isolation: isolate;
   min-height: 448px;
   padding-bottom: 0;
   overflow: hidden;
   background: var(--color-surface);
   border: 1px solid var(--ui-border);
+}
+
+/* Engraved corner quoins — geometry from the shared .orn-corners rule
+   (style.css's ORNAMENT SYSTEM already lists `.landing-garden-card::after`
+   alongside it), same watermark-weight ink and no ambient cycle as the
+   grid's `.results-panel::after` and pool-detail's own `.pool-hero-card::
+   after`. Sits behind the card's own h2/p/link/illustration (all in
+   normal flow, painted after this negative-z-index layer) so the "Have a
+   goal in mind?" copy is never crossed by it. */
+.landing-garden-card::after {
+  --orn-inset: 10px;
+  --orn-ink: var(--ui-accent-border);
+  z-index: -1;
 }
 
 .landing-card-topline {
@@ -426,6 +510,8 @@
 .landing-plant-ground { stroke: var(--color-border); stroke-width: 2; stroke-linecap: round; }
 
 .landing-trust-section {
+  position: relative;
+  isolation: isolate;
   width: min(1200px, calc(100% - 48px));
   margin: 0 auto;
   padding: 24px 0 40px;
@@ -434,6 +520,56 @@
   align-items: center;
   gap: 42px;
   border-top: 1px solid var(--color-border);
+}
+
+/* Divider band riding the section's own border-top — the hero/trust seam
+   — plus a closing band at the section's bottom inner edge, above the
+   footer (`.landing-app .app-footer` is `position: static` above, so —
+   same reasoning as the grid's `.results-section::after` in style.css —
+   this anchors to the last content section instead of the footer box
+   itself). Watermark weight, breathing like pool-detail's bookend bands;
+   z-index -1 behind this section's own copy/rail (`isolation: isolate`
+   above keeps it from slipping behind `.landing-trust-section`'s
+   siblings' backgrounds, same fix `.landing-garden-card`/`.results-panel`
+   needed). */
+.landing-trust-section::before,
+.landing-trust-section::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(320px, 60%);
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--ui-accent-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  z-index: -1;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size);
+  mask-size: var(--orn-size);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.landing-trust-section::before {
+  top: -1px;
+  animation: ornBreathe 104s ease-in-out infinite alternate;
+}
+
+.landing-trust-section::after {
+  bottom: -18px;
+  animation: ornBreathe 111s ease-in-out infinite alternate;
+}
+
+@media (max-width: 767px) {
+  .landing-trust-section::before,
+  .landing-trust-section::after {
+    display: none;
+  }
 }
 
 .landing-trust-copy h2 {
@@ -608,4 +744,25 @@
   }
 
   .landing-reveal { opacity: 1; transform: none; }
+
+  /* Item 247 follow-up: the blanket rule above only compresses DURATION
+     (`animation-duration: .01ms` + `iteration-count: 1`) — measured, this
+     leaves `getComputedStyle().animationName` still reporting the real
+     keyframe name (e.g. "ornBreathe"), just playing once, near-instantly.
+     That is a materially weaker guarantee than pool-detail/the grid's own
+     switch (style.css), which sets a real `animation: none` — same
+     mechanism required here for the same reason (an infinite alternating
+     loop that only had its duration shortened is still, technically,
+     running). Covers both `.landing-app::before/::after` (pseudo-elements
+     of `.landing-app` itself — NOT reached by the blanket rule above,
+     which only matches descendant `*::before/::after`) and the
+     `.landing-trust-section` divider/closing bands (which ARE reached by
+     the blanket rule, but only for duration — this still needs to name
+     them to get `animation-name: none`). */
+  .landing-app::before,
+  .landing-app::after,
+  .landing-trust-section::before,
+  .landing-trust-section::after {
+    animation: none !important;
+  }
 }

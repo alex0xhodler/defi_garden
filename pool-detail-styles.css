@@ -176,30 +176,19 @@
 }
 
 /* ═══ ORNAMENT SYSTEM — the engraving kit ═══════════════════════════════
-   Four reusable primitives, none of them pool-detail-specific. A surface
-   adopts one by adding the class and (optionally) setting two custom
-   properties:
-
-     .orn-band     guilloché lathework running along x  (repeats)
-     .orn-strand   the same lathework turned down a page margin (repeats y)
-     .orn-rosette  the engine-turned rosette — underprint or watermark
-     .orn-corners  four engraved corner lathes inset into a box's corners
-
-   Knobs: --orn-ink (any color), --orn-size (mask-size), --orn-inset
-   (corners only). Band/strand/rosette geometry lives in assets/*.svg —
-   ONE cached copy per shape serves every instance on the page, replacing
-   the ~18KB of duplicated data URI the two hero bands used to inline. The
-   corner lathe stays inline: four rotations of a ~300-byte path, cheaper
-   than four more requests and near-free after gzip.
-
-   Every primitive is inert — no text, so nothing for a screen reader to
-   read, and pointer-events: none, so no ornament can intercept a click.
-   Ink defaults to the world's soft lathe and is always a WASH: content
-   contrast is never a negotiation with the decoration. */
-.orn-band,
-.orn-strand,
-.orn-rosette,
-.orn-corners,
+   HOISTED to style.css (247 world follow-up, item 247): the four reusable
+   primitives (.orn-band/.orn-strand/.orn-rosette/.orn-corners), the
+   ambient-motion keyframes (ornDrift/ornTurn/ornTurnCentered/ornBreathe),
+   and the bare-class reduced-motion off-switch now live there as the ONE
+   shared copy — the grid (style.css results-panel/app.has-results rules)
+   and the landing route (landing-styles.css) both consume them too. This
+   file keeps only what was always pool-detail-specific: the consumer
+   selectors below (.pool-hero-content::before, .pool-action-apy::before,
+   .pool-hero-card::after, …) that set their OWN --orn-ink and geometry on
+   top of the shared primitive, unchanged in text or specificity — pool-
+   detail's render is byte-identical to before the hoist. See style.css's
+   own "ORNAMENT SYSTEM" banner for the moved block and the knobs
+   (--orn-ink / --orn-size / --orn-inset) it exposes. */
 .pool-hero-content::before,
 .pool-hero-content::after,
 .pool-action-apy::before,
@@ -217,8 +206,10 @@
   mask-position: center;
 }
 
-/* — horizontal lathework band — */
-.orn-band,
+/* — horizontal lathework band — geometry from the shared .orn-band rule
+     (style.css); these three pseudo-elements just join its selector's
+     declarations (verbatim, hoisted-from copy) so each gets the band mask
+     applied to its own box. — */
 .pool-hero-content::before,
 .pool-hero-content::after,
 .pool-hero-actions::after,
@@ -233,18 +224,8 @@
   mask-repeat: repeat-x;
 }
 
-/* — vertical lathework strand (page margins) — */
-.orn-strand {
-  -webkit-mask-image: url('./assets/guilloche-strand.svg');
-  mask-image: url('./assets/guilloche-strand.svg');
-  -webkit-mask-size: var(--orn-size, 20px 50px);
-  mask-size: var(--orn-size, 20px 50px);
-  -webkit-mask-repeat: repeat-y;
-  mask-repeat: repeat-y;
-}
-
-/* — engine-turned rosette — */
-.orn-rosette,
+/* — engine-turned rosette — geometry from the shared .orn-rosette rule
+     (style.css); the denomination's underprint sets its own ink. — */
 .pool-action-apy::before {
   content: '';
   position: absolute;
@@ -257,8 +238,8 @@
 
 /* — four corner lathes: the frame's engraved quoins. One layer per corner,
      each a pre-rotated copy so a mask layer never needs a transform (the
-     transform channel belongs to the ambient motion below). — */
-.orn-corners,
+     transform channel belongs to the ambient motion below). Geometry from
+     the shared .orn-corners rule (style.css). — */
 .pool-hero-card::after,
 .calculator-compact::after,
 .pool-info-section::after {
@@ -372,35 +353,21 @@
 }
 
 /* ── Ambient motion — the ornament layer only ───────────────────────────
-   The page never moves. These four cycles run 88–124s on the decorative
-   layers alone, in transform and opacity exclusively, so the compositor
-   owns every frame and the main thread stays at zero while the page idles.
-   Peak travel is well under a pixel per second: the watermark's ±0.9° on a
-   270px radius is ~8.5px of arc across two full minutes. Nothing here is
-   in sync with anything else — the durations are deliberately coprime so
-   the layers never pulse together and betray themselves as an effect.
-   Every one of them is switched OFF, not shortened, under
-   prefers-reduced-motion (see the end of this file). */
-@keyframes ornDrift {
-  from { transform: translate3d(0, 0, 0); }
-  to   { transform: translate3d(0, -17px, 0); }
-}
-
-@keyframes ornTurn {
-  from { transform: rotate(-0.9deg); }
-  to   { transform: rotate(0.9deg); }
-}
-
-@keyframes ornTurnCentered {
-  from { transform: translate(-50%, -50%) rotate(-1.1deg); }
-  to   { transform: translate(-50%, -50%) rotate(1.1deg); }
-}
-
-@keyframes ornBreathe {
-  from { opacity: 0.62; }
-  to   { opacity: 1; }
-}
-
+   The four @keyframes (ornDrift/ornTurn/ornTurnCentered/ornBreathe) moved
+   to style.css with the rest of the hoisted primitive (item 247 follow-
+   up) — a @keyframes name is a global, file-independent identifier, so
+   every `animation:` reference below still resolves exactly as before as
+   long as style.css loads first (it does — see home.html's mode-
+   conditional CSS script, which always appends this file's <link> after
+   the always-on style.min.css one). These four cycles run 88–124s on the
+   decorative layers alone, in transform and opacity exclusively, so the
+   compositor owns every frame and the main thread stays at zero while the
+   page idles. Peak travel is well under a pixel per second: the
+   watermark's ±0.9° on a 270px radius is ~8.5px of arc across two full
+   minutes. Nothing here is in sync with anything else — the durations are
+   deliberately coprime so the layers never pulse together and betray
+   themselves as an effect. Every one of them is switched OFF, not
+   shortened, under prefers-reduced-motion (see the end of this file). */
 @media (min-width: 1080px) {
   .app.pool-detail-view::before,
   .app.dead-pool-view::before {
@@ -1745,7 +1712,13 @@ a.pool-token-chip:hover {
    pseudo-element. So the ornament layer gets its own switch, and it is a
    real OFF — `animation: none`, not a 0.01ms cycle — because these are
    infinite alternating loops: collapsing their duration would leave them
-   running, only faster. Nothing on this page moves under this query. */
+   running, only faster. Nothing on this page moves under this query.
+   The bare `.orn-band`/`.orn-strand`/`.orn-rosette`/`.orn-corners` off-
+   switch moved to style.css with the rest of the hoisted primitive (item
+   247 follow-up) — harmless here either way since every pool-detail USE
+   of them is already caught below, either as a pseudo-element (the
+   `*::before`/`*::after` wildcards) or, for the one literal-element case
+   (`.cert-divider-strand`), by its own explicit entry two lines down. */
 @media (prefers-reduced-motion: reduce) {
   .app.pool-detail-view::before,
   .app.pool-detail-view::after,
@@ -1757,10 +1730,6 @@ a.pool-token-chip:hover {
   .app.pool-detail-view *::after,
   .app.dead-pool-view *::before,
   .app.dead-pool-view *::after,
-  .orn-band,
-  .orn-strand,
-  .orn-rosette,
-  .orn-corners,
   .cert-divider .cert-divider-strand {
     animation: none !important;
   }
