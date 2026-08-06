@@ -375,3 +375,120 @@ pack directories remain under `spotlights/`.
   packs themselves didn't need to change, only the cadence doc)
 - `timeout 300 node run-tests.js --lane=plain`: `TOTAL pass=52 fail=0 timeout=0
   total=52`, exit 0
+
+## Post-review finding #2 — `test_vercelignore.js`'s hardcoded MUST_KEEP slug (found by the verifier, post-commit)
+
+**The regression.** After the commit (`894d48b829`), the verifier ran
+`node test_vercelignore.js` and got a real FAIL: 144 assertions passed + 3 failures.
+`MUST_KEEP` (a hardcoded allowlist asserting specific paths are served, not stopped,
+by `.vercelignore`) named `spotlights/pareto-credit-usdc-ethereum/{card.png,pack.json}`
+— one of the 3 stale pack directories this item's own regen step deleted. Check (c)'s
+own fixture-sanity assertion ("every MUST_KEEP path is a real tracked file") caught
+it, correctly, once the deletion was actually committed.
+
+**Why pre-commit green was misleading — a git-tracking-state dependency neither of
+us caught during the build.** Before the commit, `git ls-files` (which
+`test_vercelignore.js`'s `ALL_FILES` is built from) still listed the OLD
+`pareto-credit-usdc-ethereum` files as tracked, because their deletion via `rm -rf`
+was only a working-tree change — `git add`/commit had not happened yet — while the 3
+NEW pack directories were untracked (also not yet `git add`ed) and so invisible to
+`git ls-files` either way. The hardcoded MUST_KEEP entries matched reality by
+accident: the old files were still "tracked" in git's eyes even though they no
+longer existed as content, and the new files weren't expected to appear yet. Every
+`node test_vercelignore.js` run during the build session was against this same
+stale-but-passing tracking state. Committing (which stages both the deletions and
+the additions atomically) is what flipped `git ls-files` to reality and turned the
+mismatch visible. **The lesson recorded here plainly: a test result that depends on
+git's index/tracking state, run before the commit that changes that state, is not
+evidence about the post-commit world — "pre-commit green" was not evidence.**
+
+**Why derive instead of re-hardcoding the 3 new slugs.** Swapping in the 3 new slugs
+would reproduce the identical defect on the very next weekly regen — this item's own
+stated purpose is "3 packs/week refreshed with live numbers" (spec 229 evidence
+section), meaning the committed slug set is *designed* to churn on a schedule
+shorter than most other MUST_KEEP entries' lifetimes. A hardcoded slug list
+guarantees `test_vercelignore.js` breaks on cadence, for a reason that has nothing to
+do with `.vercelignore` correctness — exactly the class build.md's guard rule and
+RAZOR.md name: derive from the machine-readable source (the real tracked-file list
+this test already computes as `ALL_FILES`) rather than hand-maintaining a mirror of
+it.
+
+**Fix (`test_vercelignore.js`, immediately before the `MUST_KEEP` array):**
+`spotlightPackFiles`/`spotlightCardFiles` are now derived at test time as
+`ALL_FILES.filter((f) => /^spotlights\/[^/]+\/pack\.json$/.test(f))` (and the
+`card.png` sibling pattern), spread into `MUST_KEEP` alongside the one remaining
+literal entry, `spotlights/CADENCE.md` (a fixed path, not slug-dependent, so it
+stays hardcoded correctly). This feeds the exact same downstream machinery the
+hardcoded entries did — the `for (const f of MUST_KEEP) test(...)` loop and check
+(c)'s fixture-sanity assertion are untouched; only the SOURCE of the two spotlight
+paths changed, from a literal string to a filter over the real tracked-file list.
+
+**Non-vacuity guard (required by the coordinator, and correctly so).** A derivation
+that silently returns `[]` (e.g. a typo'd regex, or every pack deleted mid-regen)
+would make the `MUST_KEEP` spread contribute zero spotlight entries and the KEPT
+loop would just iterate fewer tests — still green, testing nothing for that class.
+Added:
+```js
+test('(c) non-vacuity: at least 3 spotlight pack.json files are tracked (the cadence\'s own 3-pack shape) — an empty derivation would silently under-test this section', () => {
+  assert.ok(spotlightPackFiles.length >= 3, ...);
+  assert.strictEqual(spotlightPackFiles.length, spotlightCardFiles.length, ...);
+});
+```
+asserting the cadence's own committed shape (>=3, per spec 229 §5) rather than just
+`>0`, plus a lockstep check between the two derivations (every `pack.json` must have
+a sibling `card.png`).
+
+**Non-vacuity proof, two parts as requested.**
+
+*Part 1 — the new guard itself is not vacuous.* Mutated `spotlightPackFiles`'s regex
+to `^spotlights-NEVER-MATCH\/...` (a pattern guaranteed to match nothing):
+- Baseline md5 (`test_vercelignore.js`, pre-mutation): `a7ce9ca53d76b76e221a0c38e63254af`
+- RED: `✗ (c) non-vacuity: at least 3 spotlight pack.json files are tracked ...` —
+  `148 assertions passed (FAILURES above)` / `FAILED`. Confirmed the mechanism the
+  guard exists to catch, directly: with the mutation still in place, the individual
+  `(c) KEPT: spotlights/*/pack.json` tests (3 of them) simply DISAPPEARED from the
+  MUST_KEEP loop rather than failing — only `card.png` KEPT tests and
+  `spotlights/CADENCE.md` still ran. Without the non-vacuity guard, this state would
+  have reported "all green" while silently testing three fewer things.
+- Restore md5: `a7ce9ca53d76b76e221a0c38e63254af` (byte-identical to baseline).
+  Green after restore: 152 assertions passed, exit 0.
+
+*Part 2 — the derivation still feeds the real KEPT/EXCLUDED path, not a weaker one*
+(the coordinator's separate ask: prove a derived spotlight file that WERE excluded
+would still be caught by check (c), the same way the hardcoded entries would have
+been). Temporarily appended `/spotlights/` to the REAL `.vercelignore` on disk
+(baseline md5 `8d49a86afae41243ffd5d3b5e831001a`):
+```
+✗ (c) KEPT: spotlights/CADENCE.md
+✗ (c) KEPT: spotlights/gaib-said-ethereum/pack.json
+✗ (c) KEPT: spotlights/gami-labs-earnusdc-stellar/pack.json
+✗ (c) KEPT: spotlights/liminal-basis-limusd-ethereum/pack.json
+✗ (c) KEPT: spotlights/gaib-said-ethereum/card.png
+✗ (c) KEPT: spotlights/gami-labs-earnusdc-stellar/card.png
+✗ (c) KEPT: spotlights/liminal-basis-limusd-ethereum/card.png
+145 assertions passed (FAILURES above)
+FAILED
+```
+All 6 derived entries plus the 1 literal entry went red — proving the derived paths
+are asserted through the identical `KEPT_SET.has(f)` check the hardcoded strings
+used, not a parallel/weaker path. Reverted via `git checkout -- .vercelignore`;
+restore md5 `8d49a86afae41243ffd5d3b5e831001a` (byte-identical to baseline). Green
+after restore: 152 assertions passed, exit 0.
+
+**Scope widening — recorded honestly, not glossed over.** `test_vercelignore.js` is
+now part of this item's diff. It was NOT in the original spec-229 surgical-diff
+scope (`generate-spotlight.js` + its 2 test files + `spotlights/*`), and I am not
+pretending otherwise: it needed touching because it independently asserts a fact
+about files this item's regen step changes (which spotlight pack directories are
+git-tracked), and that assertion broke as a direct, mechanical consequence of this
+item's own regeneration step, not because of any bug in `test_vercelignore.js`
+itself pre-229. `.vercelignore` itself was never touched (only borrowed for a
+non-vacuity proof and immediately reverted, confirmed byte-identical above).
+
+**Final verification after this fix:**
+- `node test_vercelignore.js`: 152/152 assertions passed, exit 0
+- `timeout 300 node run-tests.js --lane=plain`, run against the actual COMMITTED
+  git tracking state (working tree clean at `894d48b829` before this fix, `git
+  status --short` showing only `test_vercelignore.js` modified after it):
+  `TOTAL pass=52 fail=0 timeout=0 total=52`, exit 0 — a genuine post-commit green,
+  not the pre-commit false-positive this finding is about.
