@@ -4,13 +4,25 @@
   background: var(--color-background);
   /* 236 phase 1: same sizing formula as `.landing-header`/`.app-header-
      content` — `width: min(...)` not `max-width` + auto margin — so this
-     view's 20px side padding lands at the identical inset from the
-     viewport edge as the other two bands' own 20px padding (was a
-     hardcoded 1200px `max-width`; mirrors PoolDetail.js's inline style,
-     which wins on specificity — kept in sync for anyone reading just the
-     stylesheet). `.app.pool-detail-view .container` (below) already zeroes
-     the outer `.container` wrapper's own max-width/padding on this route,
-     so this is the only horizontal constraint in play. */
+     BOX (the whole view) lands at the identical width/inset as the other
+     two bands' boxes (was a hardcoded 1200px `max-width`; mirrors
+     PoolDetail.js's inline style, which wins on specificity — kept in sync
+     for anyone reading just the stylesheet). `.app.pool-detail-view
+     .container` (below) already zeroes the outer `.container` wrapper's
+     own max-width/padding on this route, so this is the only horizontal
+     constraint on this box.
+     236 phase 1 fix round 3 (verifier findings 1a/1b): the 40px-top/20px-L/R
+     padding below is for the page BODY content (hero card, metrics, etc. —
+     they do want that gutter inside this already-inset box). It is NOT
+     meant to apply to the topbar: landing/grid's bands get their own inset
+     entirely from this same width formula (plus sitting flush at y:0) with
+     NO enclosing padding, so stacking this padding under the topbar as well
+     was double-applying the inset (topbar ended up 40px narrower and 20px
+     more inset per side than landing/grid, and 40px down from the top —
+     confirmed by render: {top:40,left:44,width:272} at 360px vs. the target
+     {top:0,left:24,width:312}). The topbar rule below now cancels this
+     padding for itself with a matching negative margin instead of
+     inheriting it. */
   width: min(var(--content-max-width), calc(100% - 48px));
   margin: 0 auto;
   padding: 40px 20px 20px 20px;
@@ -21,20 +33,44 @@
    affordance is a quiet link on its own line. No pills around plain data.
    236 phase 1: height comes from the same --ui-header-h every other header
    band uses (was intrinsic to content + a 16px bottom pad, close to but not
-   exactly the shared height). No side padding here — .pool-detail-container
-   above already supplies a 20px horizontal inset via its own padding, which
-   is how the OTHER bands get theirs too (their padding lives on the header
-   row itself since their wrapper has none); adding it again here would
-   double the inset and misalign the wordmark against landing/grid. */
+   exactly the shared height).
+   236 phase 1 fix round 3 (verifier finding 1a — the double-inset bug):
+   `margin: -40px -20px 8px` cancels `.pool-detail-container`'s own 40px-top/
+   20px-L/R padding (comment above) for exactly this row, expanding the
+   topbar back out to `.pool-detail-container`'s own border-box — which,
+   thanks to that box's `width: min(...)` formula, already equals
+   landing/grid's target width/inset exactly. This works at every viewport
+   and at the content-max-width cap alike, since it's a straight
+   cancellation of known, fixed padding values rather than a second copy of
+   the width formula (a second copy would compute its `calc(100% - 48px)`
+   relative to the ALREADY-narrowed padded content box, under-sizing the
+   topbar again). The top term matters too, not just left/right: with only
+   the L/R terms cancelled, the topbar still inherited the container's 40px
+   padding-top and rendered at top:40 instead of landing/grid's top:0 (this
+   was masked pre-fix by the unrelated -5px vertical bleed-through, finding
+   1b below, which happened to shift the whole block up by ~45px and land
+   net top at -5 instead of the true +40 — fixing 1b alone would have
+   EXPOSED this as a new-looking +40px regression, so both terms are fixed
+   together here). No padding of its own on this row — the negative margin
+   supplies the same inset landing/grid's bands get from their own width
+   formula with no enclosing padding. */
 .pool-detail-container .header.pool-detail-topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* style.css's generic `.header { width: 100% }` also matches this element
+     (className is `header pool-detail-topbar`) and, left uncontested, pins
+     the box to 100% of `.pool-detail-container`'s content width — an
+     explicit value, not `auto`, so it silently defeats the negative-margin
+     expansion below (margins only widen an `auto`-width box; a fixed 100%
+     just gets shifted by them, not resized). `width: auto` here reclaims
+     that property so the margin trick actually runs. */
+  width: auto;
   height: var(--ui-header-h);
   min-height: var(--ui-header-h);
   max-height: var(--ui-header-h);
   padding: 0;
-  margin-bottom: 8px;
+  margin: -40px -20px 8px;
   /* 236 phase 1 verifier (non-blocking item): grid's .app-header-sticky
      paints `--color-surface` and landing's .landing-header paints
      `--ui-surface` (the same token — --color-surface aliases --ui-surface,
@@ -1313,11 +1349,38 @@
    `.app-footer`. That left the last ~16-80px of pool-detail content
    permanently occluded at max scroll on every viewport. `.app` has no other
    padding declaration anywhere in the design system, so the fix is to stop
-   cancelling the shared clearance rather than restate a one-off value here. */
+   cancelling the shared clearance rather than restate a one-off value here.
 
+   236 phase 1 fix round 3 (verifier finding 1b — the -5px vertical bleed):
+   `.pool-detail-view`'s root carries no `.has-results` class (it's neither
+   the grid nor the no-results search state), so style.css's
+   `.app:not(.has-results) .container` rule (the NO-RESULTS/search state's
+   own centering, style.css:945) matches this `.container` too — `display:
+   flex; flex-direction: column; justify-content: center; align-items:
+   center` — and so does the adjacent Google-homepage-style
+   `.app:not(.has-results) .container { transform: translateY(-5vh) }`
+   (style.css:3389). Combined with `.pool-detail-container`'s own
+   `min-height: 100vh` (a box taller than the flex space it's being
+   vertically centered within), this dragged the whole pool-detail block
+   ~45px above the viewport top, landing the topbar 5px above y=0 at every
+   width tested (confirmed by render, not just source reading). `display:
+   block` below turns this `.container` back into a plain block box, so
+   `justify-content`/`align-items` become inert (they only apply to flex/
+   grid containers) without touching `.app.pool-detail-view`'s OWN
+   `display: flex; flex-direction: column` (still needed — backlog 218's
+   sticky-footer `margin-top: auto` on `.app-footer` relies on it) or this
+   `.container`'s `flex: 1; min-height: 0` sizing as a flex ITEM of that
+   column (still needed for the same reason) — only redeclared here.
+   `transform: none` cancels the -5vh shift, which was never meant to apply
+   to this route (it's the search state's own Google-style nudge). Scoped
+   locally here rather than editing style.css's shared selectors so the
+   no-results/search state's own centering (a separately-fixed, previously
+   verified finding) is untouched. */
 .app.pool-detail-view .container {
   max-width: none;
   padding: 0;
+  display: block;
+  transform: none;
 }
 
 /* Backlog 218: the `garden_cta` anchor (pool-detail's hero action card) can
