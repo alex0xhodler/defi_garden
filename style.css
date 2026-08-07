@@ -6338,3 +6338,77 @@ body,
 .app-header-sticky {
   border-radius: 0;
 }
+/* ═══ 247 WORLD — CERTIFICATE BUTTON SKIN, APP-WIDE ══════════════════════
+   The pool-detail counterfoil buttons are the product's button voice; this
+   block re-skins every primary/secondary ACTION button to it (colors, 3px
+   certificate radius, the intaglio plate-mark keyline, darkening hover,
+   1px press). Sizes/paddings stay each button's own — the skin changes
+   look, not layout. Round icon CONTROLS (theme/lang toggles, gp-analytics)
+   and nav pills are deliberately excluded. Placed at end of file so it
+   outranks the earlier per-surface definitions at equal specificity. */
+.btn--primary,
+.landing-garden-link,
+.landing-search-submit,
+.app-search-button,
+.gp-primary-cta {
+  position: relative;
+  background: var(--ui-accent);
+  color: var(--ui-on-accent);
+  border: 1px solid var(--ui-accent-active);
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  transition: background 0.2s ease;
+}
+.btn--primary::after,
+.landing-garden-link::after,
+.landing-search-submit::after,
+.app-search-button::after,
+.gp-primary-cta::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--ui-on-accent);
+  border-radius: 1px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.btn--primary:hover:not(:disabled),
+.landing-garden-link:hover,
+.landing-search-submit:hover,
+.app-search-button:hover,
+.gp-primary-cta:hover {
+  background: var(--ui-accent-hover);
+  color: var(--ui-on-accent);
+  transform: none;
+}
+.btn--primary:active:not(:disabled),
+.landing-garden-link:active,
+.landing-search-submit:active,
+.app-search-button:active,
+.gp-primary-cta:active {
+  background: var(--ui-accent-active);
+  color: var(--ui-on-accent);
+  transform: translateY(1px);
+}
+.btn--secondary {
+  background: var(--ui-surface);
+  color: var(--ui-text);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: 3px;
+  font-weight: 600;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.btn--secondary:hover {
+  color: var(--ui-accent);
+  border-color: var(--ui-accent);
+  background: var(--ui-surface);
+}
+.btn--secondary:active {
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn--primary:active, .landing-garden-link:active, .landing-search-submit:active,
+  .app-search-button:active, .gp-primary-cta:active, .btn--secondary:active { transform: none; }
+}
