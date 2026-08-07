@@ -2,21 +2,41 @@
 .pool-detail-container {
   min-height: 100vh;
   background: var(--color-background);
-  max-width: 1200px;
+  /* 236 phase 1: same sizing formula as `.landing-header`/`.app-header-
+     content` — `width: min(...)` not `max-width` + auto margin — so this
+     view's 20px side padding lands at the identical inset from the
+     viewport edge as the other two bands' own 20px padding (was a
+     hardcoded 1200px `max-width`; mirrors PoolDetail.js's inline style,
+     which wins on specificity — kept in sync for anyone reading just the
+     stylesheet). `.app.pool-detail-view .container` (below) already zeroes
+     the outer `.container` wrapper's own max-width/padding on this route,
+     so this is the only horizontal constraint in play. */
+  width: min(var(--content-max-width), calc(100% - 48px));
   margin: 0 auto;
   padding: 40px 20px 20px 20px;
 }
 
 /* ═══ 225 round 3c — recomposed page chrome ═══
    One header row at every viewport (logo left, controls right); the back
-   affordance is a quiet link on its own line. No pills around plain data. */
+   affordance is a quiet link on its own line. No pills around plain data.
+   236 phase 1: height comes from the same --ui-header-h every other header
+   band uses (was intrinsic to content + a 16px bottom pad, close to but not
+   exactly the shared height). No side padding here — .pool-detail-container
+   above already supplies a 20px horizontal inset via its own padding, which
+   is how the OTHER bands get theirs too (their padding lives on the header
+   row itself since their wrapper has none); adding it again here would
+   double the inset and misalign the wordmark against landing/grid. */
 .pool-detail-container .header.pool-detail-topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 0 16px 0;
+  height: var(--ui-header-h);
+  min-height: var(--ui-header-h);
+  max-height: var(--ui-header-h);
+  padding: 0;
   margin-bottom: 8px;
   border-bottom: 1px solid var(--ui-border);
+  box-sizing: border-box;
 }
 
 .pool-detail-container .logo.pool-detail-logo {

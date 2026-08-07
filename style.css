@@ -159,6 +159,12 @@
   --container-md: 768px;
   --container-lg: 1024px;
   --container-xl: 1280px;
+
+  /* Spec 236 phase 1: the ONE max-width every header band (landing/grid/
+     pool-detail) resolves to, so their content columns line up instead of
+     each hardcoding its own ~1200px. Reuses --container-xl's existing
+     value rather than inventing a new number. */
+  --content-max-width: var(--container-xl);
 }
 
 /* Dark mode colors */
@@ -908,6 +914,19 @@ body {
   align-items: center;
 }
 
+/* Spec 236 phase 1: `.app-header-sticky` now renders unconditionally
+   (app.js), including on the no-results homepage state. That state's
+   `align-items: center` above would otherwise shrink-and-center the band
+   to its content width like every other flex child; `align-self: stretch`
+   keeps it full-bleed. `position: static` (instead of the `fixed` every
+   OTHER state uses) keeps it a normal flex child here, so the surrounding
+   `justify-content: center` naturally leaves room for it above the
+   centered search content — no extra top-padding math needed. */
+.app:not(.has-results) .app-header-sticky {
+  position: static;
+  align-self: stretch;
+}
+
 /* Results state - top aligned like Google results */
 .app.has-results {
   display: block;
@@ -959,12 +978,15 @@ body {
   overflow: visible;
 }
 
-/* Navigation row - part of the header */
+/* Navigation row - part of the header. 236 phase 1: `width: min(...)` (not
+   `max-width` + auto margin) — the same sizing formula as `.landing-header`
+   (landing-styles.css) — so the row's horizontal inset from the viewport
+   edge matches the landing/pool-detail bands exactly, not just its cap. */
 .app-nav-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  width: min(var(--content-max-width), calc(100% - 48px));
   margin: 0 auto;
   padding: var(--space-8) var(--space-16) var(--space-12);
   gap: var(--space-16);
@@ -976,7 +998,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  width: min(var(--content-max-width), calc(100% - 48px));
   margin: 0 auto;
   padding: var(--space-12) var(--space-16);
   gap: var(--space-24);

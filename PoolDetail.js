@@ -407,7 +407,10 @@ function PoolDetail({
       position: 'relative',
       minHeight: '100vh',
       padding: '40px 20px 20px 20px',
-      maxWidth: '1200px',
+      // 236 phase 1: same `width: min(...)` sizing formula as
+      // .landing-header/.app-header-content (was a hardcoded 1200px
+      // maxWidth) — matches pool-detail-styles.css's own copy of this rule.
+      width: 'min(var(--content-max-width), calc(100% - 48px))',
       margin: '0 auto'
     }
   },

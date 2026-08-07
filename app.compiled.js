@@ -2974,8 +2974,15 @@ function App() {
   return React.createElement('div', {
     className: `app ${selectedToken || chainMode && selectedChain ? 'has-results' : ''}`
   },
-  // Google-style sticky header - ONLY show when we have results
-  (selectedToken || chainMode && selectedChain) && React.createElement('div', {
+  // Spec 236 phase 1: ONE header band on every state — always render the
+  // band (wordmark + controls, identical geometry to landing/pool-detail);
+  // only the persistent search bar and nav-tabs row below it are
+  // results-only. Previously this whole element was gated on
+  // `selectedToken || (chainMode && selectedChain)`, which left the
+  // no-results ("search") state with no band at all (floating standalone
+  // toggle buttons + a centered logo instead — see the removed block
+  // below the .app-nav-row close for what that used to look like).
+  React.createElement('div', {
     className: 'app-header-sticky'
   }, React.createElement('div', {
     className: 'app-header-content'
@@ -2985,8 +2992,9 @@ function App() {
     className: 'app-logo',
     onClick: resetApp
   }, '🌱 DeFi Garden'),
-  // Persistent search bar
-  React.createElement('div', {
+  // Persistent search bar — results state only; the no-results state
+  // has its own larger search-section below instead.
+  (selectedToken || chainMode && selectedChain) && React.createElement('div', {
     className: 'app-search-container'
   }, React.createElement('div', {
     className: 'app-search-bar'
@@ -3023,7 +3031,7 @@ function App() {
       }
     }
   }, '🔍'))),
-  // Controls (theme, language) 
+  // Controls (theme, language)
   React.createElement('div', {
     className: 'app-header-controls'
   }, React.createElement('button', {
@@ -3035,8 +3043,8 @@ function App() {
     onClick: toggleTheme,
     'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
   }, isDarkMode ? '🌙' : '☀️'))),
-  // Google-style navigation tabs - part of the header
-  React.createElement('div', {
+  // Google-style navigation tabs - part of the header, results-only
+  (selectedToken || chainMode && selectedChain) && React.createElement('div', {
     className: 'app-nav-row'
   }, React.createElement('div', {
     className: 'app-nav-tabs'
@@ -3094,36 +3102,21 @@ function App() {
   }, React.createElement('span', {
     className: 'app-results-count'
   }, `${filteredPools.length.toLocaleString('en-US')} results`)))),
-  // Theme Toggle (homepage/results) — 225 round 3b: the legacy 48px
-  // switch/handle pair is gone. The shared icon-only-button rule makes
-  // .theme-toggle a 40px pill; icon+gap+switch was ~76px of content
-  // overflowing that box, and at `position: fixed; right: 20px` the
-  // switch's handle spilled past the viewport edge as a clipped,
-  // unpressable sliver (the 136/221 clip class). The icon alone reflects
-  // state, matching the header's own icon-only toggle.
-  React.createElement('button', {
-    className: 'theme-toggle',
-    'data-theme': isDarkMode ? 'dark' : 'light',
-    onClick: toggleTheme,
-    'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-  }, React.createElement('div', {
-    className: 'theme-toggle-icon'
-  }, isDarkMode ? '🌙' : '☀️')),
-  // Language Toggle
-  React.createElement('button', {
-    className: 'language-toggle',
-    onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
-    'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
-  }, language === 'en' ? 'KO' : 'EN'), React.createElement('div', {
+  // Spec 236 phase 1: the standalone floating theme/language toggle pair
+  // that used to render here (unanchored `position: fixed` buttons,
+  // outside any container) is gone — the header band above now renders
+  // unconditionally and carries the only theme/language controls on this
+  // view, in both the results and no-results states.
+
+  React.createElement('div', {
     className: 'container'
   },
-  // Header - only show when no results
+  // Header - only show when no results. 236 phase 1: the giant
+  // centered wordmark is dropped here (the band above already carries
+  // the compact wordmark) — this keeps only the descriptive subtitle.
   !(selectedToken || chainMode && selectedChain) && React.createElement('div', {
     className: `header animate-on-mount`
-  }, React.createElement('h1', {
-    className: 'logo',
-    onClick: resetApp
-  }, 'DeFi Garden'), React.createElement('p', {
+  }, React.createElement('p', {
     className: 'subtitle'
   }, 'Find the best yields for your tokens across all chains')),
   // Search Section - hide when in filtered state (both token and chain mode)
