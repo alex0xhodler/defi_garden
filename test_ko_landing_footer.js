@@ -4,6 +4,14 @@
    AI & Degen Love." that translations.js shipped untranslated (spec 190's
    two real defects, ko.landing.footerPoweredBy / ko.landing.footerMadeWith).
 
+   Item 240 update: the footer copy source moved off the `landing` subtree
+   onto the root translation dictionary (poweredBy/defillamaApi/
+   footerSignOff/browseTokens/browseChains) and the off-ICP "Made with AI &
+   Degen Love." sign-off was retired to "Education, not advice." / "투자
+   조언이 아닙니다." — same shared source app.js's two footers now render
+   too (see test_footer_contract.js for the cross-surface invariant). The
+   rig, port, and fixture routing below are unchanged.
+
    Per standing decision 2026-07-11, a unit-fixture-only check is a FAIL for
    this class of bug — this drives the REAL rendered app.js/landing.js on a
    fixture-routed static server, mirroring test_footer_hub_links.js's rig
@@ -49,12 +57,12 @@ const FIXTURE_POOLS = [
 ];
 const POOLS_BODY = JSON.stringify({ status: 'success', data: FIXTURE_POOLS });
 
-// Expected composed KO sentence — landing.js:356-361 renders
-// [footerPoweredBy] ' ' <a>footerDefillamaApi</a> [footerMadeWith] as
-// adjacent text/inline-anchor nodes inside one <p>. Asserted verbatim so a
-// future half-fix (e.g. translating only one half) fails loudly.
-const EXPECTED_KO_TEXT = '데이터 제공: DefiLlama API. AI와 디젠의 애정으로 만들었어요.';
-const EXPECTED_EN_TEXT = 'Powered by DefiLlama API. Made with AI & Degen Love.';
+// Expected composed KO sentence — landing.js:356-366 renders
+// [poweredBy] ' ' <a>defillamaApi</a> '. ' [footerSignOff] as adjacent
+// text/inline-anchor nodes inside one <p>. Asserted verbatim so a future
+// half-fix (e.g. translating only one half) fails loudly.
+const EXPECTED_KO_TEXT = '데이터 제공: DefiLlama API. 투자 조언이 아닙니다.';
+const EXPECTED_EN_TEXT = 'Powered by DefiLlama API. Education, not advice.';
 
 let passed = 0;
 async function test(name, fn) {
@@ -143,6 +151,7 @@ async function main() {
 
       if (split.fullText.includes('Powered by')) throw new Error('paragraph text must NOT contain "Powered by"; got: ' + split.fullText);
       if (split.fullText.includes('Made with AI & Degen Love.')) throw new Error('paragraph text must NOT contain "Made with AI & Degen Love."; got: ' + split.fullText);
+      if (/디젠/.test(split.fullText)) throw new Error('paragraph text must NOT contain "디젠" (retired off-ICP sign-off); got: ' + split.fullText);
 
       if (split.fullText !== EXPECTED_KO_TEXT) throw new Error('expected the exact composed KO sentence "' + EXPECTED_KO_TEXT + '"; got: "' + split.fullText + '"');
 

@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76&src=seo_token) | Ethereum | 3.50% | $125.57M |
-| [morpho-blue →](https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3&src=seo_token) | Ethereum | 1.57% | $1.92M |
+| [morpho-blue →](https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76&src=seo_token) | Ethereum | 3.50% | $124.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3&src=seo_token) | Ethereum | 0.91% | $1.92M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.50%예
 
 ### STEAKEURCV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $127.48M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $126.88M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 3.50%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 7, 2026

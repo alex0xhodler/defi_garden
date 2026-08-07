@@ -4,7 +4,7 @@ The highest honest GTUETH yield right now is 0.04% on morpho-blue (Hyperliquid L
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d057b285-cef6-4515-b3eb-57b12c8dec02&src=seo_token) | Hyperliquid L1 | 0.04% | $149.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=d057b285-cef6-4515-b3eb-57b12c8dec02&src=seo_token) | Hyperliquid L1 | 0.04% | $152.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTUETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $149.3K in total.
+1 live pool clear this page's $100K TVL floor, $152.5K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

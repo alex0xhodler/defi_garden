@@ -1,15 +1,15 @@
 # BNB 디파이 수익률
 
-현재 BNB의 가장 높은 정직한 수익률은 BSC의 lista-lending에서 96.42%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BNB의 가장 높은 정직한 수익률은 Solana의 gmtrade에서 114.40%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.10% | $292.31M |
-| [raydium-amm →](https://www.defi.garden/?pool=f15c7999-1309-512e-b18f-7d8a363721ec&src=seo_token) | Solana | 0.10% | $6.87M |
-| [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.16% | $563.3K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.43% | $273.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 11.18% | $207.4K |
-| [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 96.42% | $104.5K |
+| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.10% | $288.51M |
+| [raydium-amm →](https://www.defi.garden/?pool=f15c7999-1309-512e-b18f-7d8a363721ec&src=seo_token) | Solana | 0.17% | $6.87M |
+| [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.19% | $565.9K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.31% | $272.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 20.10% | $209K |
+| [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 114.40% | $104.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,11 +17,11 @@
 
 ### 오늘 BNB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 lista-lending에서 APY 96.42%예요.
+DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 114.40%예요.
 
 ### BNB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $300.32M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $296.53M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, BSC의 lista-lending에서 APY 96.42%예�
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 7, 2026

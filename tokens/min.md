@@ -1,11 +1,11 @@
 # MIN DeFi Yields
 
-The highest honest MIN yield right now is 4.39% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MIN yield right now is 4.18% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 4.39% | $1.26M |
-| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.15% | $197.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 4.18% | $1.31M |
+| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.13% | $204.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MIN yield today?
 
-4.39% APY on minswap-dex (Cardano), based on live DefiLlama data.
+4.18% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many MIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.46M in total.
+2 live pools clear this page's $100K TVL floor, $1.51M in total.
 
 ### Are these rates safe?
 
@@ -29,11 +29,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ADA](https://www.defi.garden/tokens/ada)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
-- [USDCX](https://www.defi.garden/tokens/usdcx)
 - [NIGHT](https://www.defi.garden/tokens/night)
+- [USDCX](https://www.defi.garden/tokens/usdcx)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

@@ -17,27 +17,29 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/style.css">
     <style>
       .hub-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .hub-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
-      .hub-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
-      .hub-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
-      .hub-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 18px; margin: 20px 0; }
-      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
-      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
-      .hub-links a:hover { box-shadow: var(--neuro-shadow-flat); }
-      .hub-links a:active { box-shadow: var(--neuro-shadow-pressed); }
-      .hub-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
-      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
-      .hub-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-      .hub-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
-      .hub-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-      .hub-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
-      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } }
-      .hub-waitlist { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 20px 22px; margin: 24px 0; }
-      .hub-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--color-text); }
-      .hub-waitlist p { color: var(--color-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
+      .hub-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .hub-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .hub-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .hub-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 20px 0; }
+      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-pill); }
+      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .hub-cta:hover { background: var(--ui-accent-hover); }
+      .hub-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .hub-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .hub-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } .hub-links a:active, .hub-cta:active { transform: none; } }
+      .hub-waitlist { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 20px 22px; margin: 24px 0; }
+      .hub-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--ui-text); }
+      .hub-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
       .hub-waitlist .hub-cta { margin: 4px 0 10px; }
       .hub-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
     </style>
@@ -71,7 +73,6 @@
         <a href="https://www.defi.garden/ko/tokens/tbill">TBILL</a>
         <a href="https://www.defi.garden/ko/tokens/tbl">TBL</a>
         <a href="https://www.defi.garden/ko/tokens/tbtc">TBTC</a>
-        <a href="https://www.defi.garden/ko/tokens/teb">TEB</a>
         <a href="https://www.defi.garden/ko/tokens/tel">TEL</a>
         <a href="https://www.defi.garden/ko/tokens/tensor">TENSOR</a>
         <a href="https://www.defi.garden/ko/tokens/terminus">TERMINUS</a>
@@ -81,23 +82,25 @@
         <a href="https://www.defi.garden/ko/tokens/tgbp">TGBP</a>
         <a href="https://www.defi.garden/ko/tokens/tgc">TGC</a>
         <a href="https://www.defi.garden/ko/tokens/tgld">TGLD</a>
+        <a href="https://www.defi.garden/ko/tokens/thapt">THAPT</a>
         <a href="https://www.defi.garden/ko/tokens/that">THAT</a>
         <a href="https://www.defi.garden/ko/tokens/thbill">THBILL</a>
         <a href="https://www.defi.garden/ko/tokens/thememes">THEMEMES</a>
-        <a href="https://www.defi.garden/ko/tokens/themibtc">THEMIBTC</a>
         <a href="https://www.defi.garden/ko/tokens/theros">THEROS</a>
         <a href="https://www.defi.garden/ko/tokens/thq">THQ</a>
         <a href="https://www.defi.garden/ko/tokens/thype">THYPE</a>
         <a href="https://www.defi.garden/ko/tokens/tibbir">TIBBIR</a>
+        <a href="https://www.defi.garden/ko/tokens/ticker">TICKER</a>
         <a href="https://www.defi.garden/ko/tokens/tig">TIG</a>
         <a href="https://www.defi.garden/ko/tokens/tiger">TIGER</a>
+        <a href="https://www.defi.garden/ko/tokens/tinytank">TINYTANK</a>
         <a href="https://www.defi.garden/ko/tokens/titanx">TITANX</a>
         <a href="https://www.defi.garden/ko/tokens/titcoin">TITCOIN</a>
+        <a href="https://www.defi.garden/ko/tokens/titn">TITN</a>
         <a href="https://www.defi.garden/ko/tokens/tkx">TKX</a>
         <a href="https://www.defi.garden/ko/tokens/tlos">TLOS</a>
         <a href="https://www.defi.garden/ko/tokens/tmvusdc">TMVUSDC</a>
         <a href="https://www.defi.garden/ko/tokens/toby">TOBY</a>
-        <a href="https://www.defi.garden/ko/tokens/toke">TOKE</a>
         <a href="https://www.defi.garden/ko/tokens/token">TOKEN</a>
         <a href="https://www.defi.garden/ko/tokens/toncoin">TONCOIN</a>
         <a href="https://www.defi.garden/ko/tokens/tonic">TONIC</a>
@@ -110,9 +113,6 @@
         <a href="https://www.defi.garden/ko/tokens/trac">TRAC</a>
         <a href="https://www.defi.garden/ko/tokens/tree">TREE</a>
         <a href="https://www.defi.garden/ko/tokens/tremp">TREMP</a>
-        <a href="https://www.defi.garden/ko/tokens/trevee">TREVEE</a>
-        <a href="https://www.defi.garden/ko/tokens/trg">TRG</a>
-        <a href="https://www.defi.garden/ko/tokens/tria">TRIA</a>
         <a href="https://www.defi.garden/ko/tokens/troll">TROLL</a>
         <a href="https://www.defi.garden/ko/tokens/truapt">TRUAPT</a>
         <a href="https://www.defi.garden/ko/tokens/true">TRUE</a>
@@ -123,19 +123,21 @@
         <a href="https://www.defi.garden/ko/tokens/trusd">TRUSD</a>
         <a href="https://www.defi.garden/ko/tokens/trust">TRUST</a>
         <a href="https://www.defi.garden/ko/tokens/truth">TRUTH</a>
-        <a href="https://www.defi.garden/ko/tokens/trwa">TRWA</a>
         <a href="https://www.defi.garden/ko/tokens/trx">TRX</a>
         <a href="https://www.defi.garden/ko/tokens/tsat">TSAT</a>
         <a href="https://www.defi.garden/ko/tokens/tsg">TSG</a>
         <a href="https://www.defi.garden/ko/tokens/tsla">TSLA</a>
         <a href="https://www.defi.garden/ko/tokens/tslax">TSLAX</a>
         <a href="https://www.defi.garden/ko/tokens/tston">TSTON</a>
+        <a href="https://www.defi.garden/ko/tokens/tsuka">TSUKA</a>
         <a href="https://www.defi.garden/ko/tokens/tsuki">TSUKI</a>
         <a href="https://www.defi.garden/ko/tokens/tsusde">TSUSDE</a>
+        <a href="https://www.defi.garden/ko/tokens/ttwo">TTWO</a>
         <a href="https://www.defi.garden/ko/tokens/tulipausdc">TULIPAUSDC</a>
         <a href="https://www.defi.garden/ko/tokens/turtle">TURTLE</a>
         <a href="https://www.defi.garden/ko/tokens/turtlepst">TURTLEPST</a>
         <a href="https://www.defi.garden/ko/tokens/tusd">TUSD</a>
+        <a href="https://www.defi.garden/ko/tokens/tut">TUT</a>
         <a href="https://www.defi.garden/ko/tokens/twt">TWT</a>
         <a href="https://www.defi.garden/ko/tokens/tybg">TYBG</a>
       </div>

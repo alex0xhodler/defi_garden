@@ -1,17 +1,17 @@
 # BTC.B DeFi Yields
 
-The highest honest BTC.B yield right now is 18.85% on aave-v3 (Avalanche), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTC.B yield right now is 36.90% on pharaoh-v3 (Avalanche), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $79.36M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token) | Ethereum | 0.07% | $10.73M |
-| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.08% | $5.06M |
-| [curve-dex →](https://www.defi.garden/?pool=abb367ab-6773-498e-96ac-5e01a0f76194&src=seo_token) | Ethereum | 0.03% | $2.59M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 18.85% | $1.79M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 5.72% | $1.17M |
-| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 4.77% | $608.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 0.88% | $294.1K |
+| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $78.69M |
+| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.20% | $4.32M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 36.90% | $1.81M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 4.94% | $1.18M |
+| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 2.59% | $580.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 1.21% | $295.2K |
+| [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.20% | $293.3K |
+| [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token) | Avalanche | 3.52% | $233K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTC.B yield today?
 
-18.85% APY on aave-v3 (Avalanche), based on live DefiLlama data.
+36.90% APY on pharaoh-v3 (Avalanche), based on live DefiLlama data.
 
 ### How many BTC.B pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $105.3M in total.
+19 live pools clear this page's $100K TVL floor, $106.39M in total.
 
 ### Are these rates safe?
 
@@ -31,16 +31,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [SAVAX](https://www.defi.garden/tokens/savax)
+- [VBILL](https://www.defi.garden/tokens/vbill)
+- [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

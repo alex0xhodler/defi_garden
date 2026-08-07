@@ -4,7 +4,7 @@ The highest honest PRIZE yield right now is 0.03% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8526d872-2e67-4f2b-bbfd-2b47263d30cf&src=seo_token) | Solana | 0.03% | $852.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=8526d872-2e67-4f2b-bbfd-2b47263d30cf&src=seo_token) | Solana | 0.03% | $849.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PRIZE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $852.7K in total.
+1 live pool clear this page's $100K TVL floor, $849.2K in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [STRX](https://www.defi.garden/tokens/strx)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

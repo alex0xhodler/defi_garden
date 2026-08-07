@@ -1,11 +1,11 @@
 # MAPOLLO DeFi Yields
 
-The highest honest MAPOLLO yield right now is 9.17% on pendle (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAPOLLO yield right now is 8.66% on pendle (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token) | Ethereum | 9.17% | $2.91M |
-| [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 7.65% | $2.91M |
+| [pendle →](https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token) | Ethereum | 8.66% | $2.91M |
+| [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 7.85% | $2.91M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAPOLLO yield today?
 
-9.17% APY on pendle (Ethereum), based on live DefiLlama data.
+8.66% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many MAPOLLO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $6.12M in total.
+3 live pools clear this page's $100K TVL floor, $6.16M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

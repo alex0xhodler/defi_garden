@@ -152,3 +152,58 @@ file, append it to `test:serial`" had been a human-memory rail with nothing enfo
 and closed it with `test_test_registry.js`, wired into `test:serial` itself. Same disease as the 186
 provenance note above, one level up: there it was a hand-rolled scanner never shown to fail; here it was
 a step of prose never given a checker at all.
+
+## When the assertion reads git TRACKING state, not the working tree (item 229)
+
+**When:** your item adds or deletes **committed generated output** — `spotlights/`, `stories/`,
+`sitemap-*.xml`, `og/`, `tokens/`, `data/pools/` — and you are about to write "tests green" from a run
+you did **before** committing. Also whenever a test's fixture names a generated path *by literal name*.
+
+**Answer in one line:** a test that reads `git ls-files` is asking about the INDEX, not your working
+tree, so a pre-commit run measures a state that will not exist after you commit — and it fails green,
+which is the direction nobody checks.
+
+**The mechanism, exactly (229):** `test_vercelignore.js` check (c) asserts every `MUST_KEEP` path is a
+git-**tracked** file. The item regenerated `spotlights/`, deleting three pack directories and adding
+three new ones. At the moment the suite ran: the deleted files were still tracked (their removal was
+only *staged*), and the new files were not tracked yet (untracked). So `git ls-files` still returned the
+OLD paths, the stale literal fixture entries resolved, and the full lane reported **52/52 fail=0** —
+twice, on two independent runs. Committing flipped the index and the same suite went **51/52**. The
+verifier caught it post-commit; two operator runs had already called it green.
+
+**Steps:**
+1. **Ask whether any test in the lane reads git.** `grep -rln "ls-files\|git ls-tree\|--cached" test_*.js`
+   — in this repo that is `test_vercelignore.js` (and anything that enumerates "tracked" files). If your
+   diff adds/deletes committed files and that grep is non-empty, a pre-commit green is **not evidence**.
+2. **Re-run the lane AFTER committing, before pushing.** This is the only run that measures the state a
+   reviewer, CI, or the deploy will see. Cheap, and it is the whole fix.
+3. **Decision rule — literal path vs derived.** If the now-red fixture names a generated path by literal
+   slug/filename, do **not** swap in the new name. Ask: *does this path churn by design?* Generated
+   output whose names come from live data (pack slugs, token slugs, dated files) churns on every regen,
+   so a literal entry is a mirror that goes stale on the very next cadence — derive it from the same
+   enumeration the test already computes (`ALL_FILES`), per build.md's guard rule. A literal is only
+   correct for genuinely fixed paths (`spotlights/CADENCE.md`, `home.html`).
+4. **A derived fixture needs a non-vacuity guard, and the guard needs the WEAKEST predicate.** An empty
+   derivation makes the loop iterate zero entries and pass trivially. Guard it — but guard the failure
+   mode you named. 229 first shipped `length >= 3` ("the cadence's 3-pack shape"); that is today's
+   count dressed as an invariant, and a benign 1- or 2-pack future fails it for a reason unrelated to
+   the thing the file tests. The known-bad case is 0, so the predicate is `length > 0`. If you also want
+   a standing count invariant, it is a **separately named, separately justified** assertion — never
+   folded into the non-vacuity guard's rationale.
+
+**Resolution:** derive the fixture, guard it at `> 0`, re-run post-commit, and record in the notes that
+the pre-commit green was not evidence — future runs need to see the trap, not just the fix.
+
+**Traps:**
+- **"I ran it twice and it was green" is not independence** when both runs share the same uncommitted
+  index state. Two green runs before a commit are one observation, not two.
+- **Staged deletion is invisible to `git status --short` readers who only look for `??`.** The old paths
+  show as ` D`/`D `, and `git ls-files` still lists them until the commit lands.
+- **This generalises past `.vercelignore`.** Any assertion over "what ships" — vercelignore, sitemap
+  membership, llms-estate enumeration, IndexNow lists — is a claim about committed bytes. Measure it
+  against committed bytes.
+
+**Provenance:** item 229 (spotlight targeting leg), verifier attempt-1 FAIL and attempt-2 FAIL; both
+findings and both md5-verified fixes in `specs/229-notes.md` (post-review findings #2 and #3) and
+`specs/229.md` §6. Companion: `playbooks/seo-surface-regen-delta.md` for measuring a regen's delta
+itself; `playbooks/pre-existing-red-triage.md` once the red is real.

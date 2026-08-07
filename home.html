@@ -56,7 +56,12 @@
     <meta name="msapplication-TileColor" content="#2D5A3D">
 
     <!-- Performance: Preload critical resources -->
-    <link rel="preload" href="./fonts/FKGroteskNeue.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- 247 world: Public Sans (text) / Besley (display) — self-hosted latin
+         variable subsets, promoted from pool-detail to every surface (the
+         187 no-CDN rule). Preloaded unconditionally: --font-family-base and
+         --font-family-display in style.css point at them on every mode. -->
+    <link rel="preload" href="./fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preconnect" href="https://yields.llama.fi">
     <link rel="dns-prefetch" href="//yields.llama.fi">
 
@@ -130,9 +135,11 @@
         })();
     </script>
 
-    <!-- Shared CSS (always loaded) — minified in CI, backlog 053; edit style.css, never style.min.css -->
-    <link rel="stylesheet" href="style.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="style.min.css"></noscript>
+    <!-- Shared CSS (always loaded) — minified in CI, backlog 053; edit
+         style.css, never style.min.css. Render-BLOCKING since the 247 world:
+         the media="print" swap let every mode's first paint go out unstyled
+         for a beat (worst on the planner's goal picker). -->
+    <link rel="stylesheet" href="style.min.css">
 
     <!-- Critical dedup (131, mirrors the style.css rule 086/179 added at .seo-hub-links):
          the static .seo-hub-links crawler footer is duplicated inside the React
@@ -164,9 +171,15 @@
                 else { l.media = 'print'; l.onload = function() { this.media = 'all'; }; }
                 head.appendChild(l);
             }
-            if (mode === 'analytics') { addCSS('pool-detail-styles.min.css'); }
-            else if (mode === 'planner') { addCSS('planner-styles.min.css'); }
+            // All three mode sheets load BLOCKING (247 world): the async
+            // print-swap path painted each surface unstyled for a beat.
+            if (mode === 'analytics') { addCSS('pool-detail-styles.min.css', true); }
+            else if (mode === 'planner') { addCSS('planner-styles.min.css', true); }
             else { addCSS('landing-styles.css', true); }
+            // 247 world: Besley/Public Sans now load on every surface via the
+            // shared --font-family-base/-display tokens (style.css) — the
+            // static preload links in <head> above cover all modes, so no
+            // mode-conditional font preloading is needed here any more.
         })();
     </script>
 
@@ -318,6 +331,26 @@
     </script>
 </head>
 <body>
+    <!-- 247 world — direction contract (impeccable new-work §5)
+         THESIS: A pool page as a certificate of record — security-printing
+         grammar (guilloché lathework, engraved numerals, seal ink) makes the
+         trust rails visible material; refuses both the dark degen terminal
+         and the one-blue fintech minimalism the category defaults to.
+         OWN-WORLD: safety paper with a green cast, intaglio green as the
+         committed color, carmine serial ink for cautions only; Besley
+         (Clarendon) display + Public Sans text; hairline double rules,
+         code-drawn guilloché; depth by paper steps, never shadow.
+         STORY: a cautious saver lands from search, reads one honest rate
+         presented as a document worth keeping, understands its caveats,
+         and gardens the pool.
+         FIRST VIEWPORT: chrome band; centered certificate — symbol title,
+         protocol · chain line, the Total APY denomination over an
+         engine-turned rosette underprint, honest qualifier beneath,
+         endorsement row, one green primary action + quiet protocol link.
+         FORM: security-printing certificate — candidate 6 of 7 on the
+         ordered grounded list; seed key 1db19c97.
+         FINISH: unreviewed and undocumented is unfinished; this build ends
+         with the finish review, the verdict, and DESIGN.md -->
     <!-- Root mounts for both experiences; only one gets populated per load -->
     <div id="root"></div>
     <div id="planner-root"></div>
@@ -346,7 +379,21 @@
          the initial render for `?pool=` deep links) — chained via onload
          since dynamically inserted scripts don't otherwise guarantee
          execution order. analytics.js itself is a static defer tag in
-         <head>, shared by both modes — see above. -->
+         <head>, shared by both modes — see above.
+
+         Boot-order barrier (item 244): this block is a plain parser-blocking
+         inline script, so it runs DURING HTML parsing — before any `defer`
+         tag in <head> (React, ReactDOM, translations.min.js, ...) has
+         executed. Both compiled bundles read those globals at the top level
+         (`var{...}=React,...` plus an immediate `ReactDOM.render(...)` call),
+         so appending them at parse time is a pure ordering race against
+         whichever `defer` script's download happens to finish last — no
+         guard, and it can lose. `DOMContentLoaded` is defined by the HTML
+         spec to fire only once every `defer` script in the document has
+         finished executing, in order — gating on it (rather than on parse
+         time) removes the race for every deferred global at once, not just
+         the ones named above; it needs no hand-maintained list of what the
+         bundles consume. -->
     <script>
         if (window.__APP_MODE === 'analytics') {
             (function() {
@@ -356,9 +403,12 @@
                     if (onload) s.onload = onload;
                     document.body.appendChild(s);
                 }
-                addScript('PoolDetail.compiled.min.js', function() {
-                    addScript('app.compiled.min.js');
-                });
+                function bootAnalyticsBundles() {
+                    addScript('PoolDetail.compiled.min.js', function() {
+                        addScript('app.compiled.min.js');
+                    });
+                }
+                document.addEventListener('DOMContentLoaded', bootAnalyticsBundles);
             })();
         }
     </script>

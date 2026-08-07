@@ -4,7 +4,7 @@ The highest honest BONKSOL yield right now is 5.47% on bonk-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bonk-staked-sol →](https://www.defi.garden/?pool=1d683a73-47a8-4c20-bafa-692b5ec043b5&src=seo_token) | Solana | 5.47% | $10.28M |
+| [bonk-staked-sol →](https://www.defi.garden/?pool=1d683a73-47a8-4c20-bafa-692b5ec043b5&src=seo_token) | Solana | 5.47% | $10.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BONKSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $19.26M in total.
+2 live pools clear this page's $100K TVL floor, $19.18M in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [STRX](https://www.defi.garden/tokens/strx)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

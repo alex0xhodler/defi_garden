@@ -1,12 +1,12 @@
 # SRUSDE DeFi Yields
 
-The highest honest SRUSDE yield right now is 4.03% on strata-markets (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRUSDE yield right now is 3.97% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.20% | $59.07M |
-| [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 4.03% | $4.67M |
-| [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.95% | $4.67M |
+| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.11% | $59.07M |
+| [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 3.97% | $4.6M |
+| [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.65% | $4.6M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRUSDE yield today?
 
-4.03% APY on strata-markets (Ethereum), based on live DefiLlama data.
+3.97% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SRUSDE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $118.09M in total.
+4 live pools clear this page's $100K TVL floor, $117.96M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

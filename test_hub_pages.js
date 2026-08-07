@@ -55,10 +55,14 @@ test('every ranked token is reachable within <=1 hop from the hub (direct link o
     if (!top.has(r.slug)) assert.ok(azLinkedFromHub, r.symbol + ' not in top-N and not linked via its A–Z page');
   });
 });
-test('reuses the app design system (style.css + neuro/color tokens, no hardcoded hex)', () => {
+test('reuses the app design system (style.css + --ui-* tokens, no hardcoded hex)', () => {
   assert.ok(tokenHubHtml.includes('<link rel="stylesheet" href="/style.css">'), 'must link the app style.css');
   const styleBlock = tokenHubHtml.match(/<style>[\s\S]*?<\/style>/)[0];
-  assert.ok(styleBlock.includes('var(--neuro-shadow-raised)') && styleBlock.includes('var(--color-surface)'), 'must use neuro/color tokens');
+  // 247 world: the scoped block consumes --ui-* tokens directly (style.css's
+  // current design-system layer) rather than the deprecated --neuro-*/
+  // --color-* alias names — those still resolve (old cached pages), but new
+  // generator output points at the source tokens.
+  assert.ok(styleBlock.includes('var(--ui-accent)') && styleBlock.includes('var(--ui-surface)'), 'must use --ui-* tokens');
   assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'no hardcoded hex colors in the scoped style block');
 });
 test('links back to the homepage', () => {

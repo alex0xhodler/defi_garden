@@ -1,17 +1,17 @@
 # UETH 디파이 수익률
 
-현재 UETH의 가장 높은 정직한 수익률은 Hyperliquid L1의 project-x에서 37.87%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 UETH의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 33.84%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 13.72% | $1.02M |
-| [hyperlend-pooled →](https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token) | Hyperliquid L1 | 2.55% | $877.8K |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token) | Hyperliquid L1 | 1.25% | $532K |
-| [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 36.03% | $507.3K |
-| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.59% | $399.9K |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=71b271fb-e462-40be-9fe7-e237e4308cf7&src=seo_token) | Hyperliquid L1 | 37.87% | $320.9K |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 17.94% | $313K |
-| [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.02% | $249K |
+| [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 23.26% | $952.8K |
+| [hyperlend-pooled →](https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token) | Hyperliquid L1 | 2.47% | $950.5K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token) | Hyperliquid L1 | 1.64% | $526K |
+| [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 33.84% | $456.5K |
+| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 2.63% | $404.3K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=71b271fb-e462-40be-9fe7-e237e4308cf7&src=seo_token) | Hyperliquid L1 | 25.49% | $325.3K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 18.19% | $317.2K |
+| [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.02% | $253.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 UETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 37.87%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 33.84%예요.
 
 ### UETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $4.61M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $4.58M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,4 +42,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 37.8
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 7, 2026

@@ -1,11 +1,11 @@
 # YUSD 디파이 수익률
 
-현재 YUSD의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 0.16%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YUSD의 가장 높은 정직한 수익률은 Avalanche의 curve-dex에서 0.16%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=986a0498-9cd7-4d82-ae06-d3f66f3f0fd7&src=seo_token) | Ethereum | 0.06% | $832.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.08% | $588.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=986a0498-9cd7-4d82-ae06-d3f66f3f0fd7&src=seo_token) | Ethereum | 0.08% | $832.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.11% | $589K |
 | [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -14,7 +14,7 @@
 
 ### 오늘 YUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.16%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 curve-dex에서 APY 0.16%예요.
 
 ### YUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.16%예�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 7, 2026

@@ -1,11 +1,11 @@
 # SUSDD DeFi Yields
 
-The highest honest SUSDD yield right now is 7.54% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDD yield right now is 7.67% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 7.54% | $5.1M |
-| [pendle →](https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token) | Ethereum | 6.45% | $5.1M |
+| [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 7.67% | $5.1M |
+| [pendle →](https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token) | Ethereum | 6.62% | $5.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSDD yield today?
 
-7.54% APY on pendle (Ethereum), based on live DefiLlama data.
+7.67% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SUSDD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $29.24M in total.
+4 live pools clear this page's $100K TVL floor, $30.17M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

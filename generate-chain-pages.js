@@ -42,13 +42,15 @@ const { selectHeadChains } = require('./generate-sitemap.js');
 const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
-  renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug,
+  renderAnalyticsBootstrap, renderHubStyleBlock, renderFontPreloadLinks, tokenSlug: chainSlug,
   poolHrefFor, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
-  yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages
+  yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages,
+  // item 243: reuse 242's headline-selection gate — no local definition.
+  headlinePoolFor, isRepresentativeRate
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -166,7 +168,11 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const genDate = generatedDate || todayGeneratedDate();
   const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
   const ogImageUrl = `${SITE_URL}/${ogImageRelPath}`;
-  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
+  // item 243: the headline claim (rate + the pool named beside it) must come
+  // from ONE pool that passes isRepresentativeRate — same gate 242 shipped
+  // for token pages, reused here rather than re-implemented.
+  const headlinePool = headlinePoolFor(rec.pools);
+  const bestApy = poolTotalApy(headlinePool);
   const tokenCount = rec.tokens.length;
   const title = t('tcpChainTitle', rec.chain);
   // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
@@ -207,7 +213,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
   // table/intro above already use — never touches raw pool data, so an
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
-  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, language);
+  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, headlinePool, language);
   const answerBlock = renderAnswerBlockHtml(answer, 'cp-answer');
 
   // Honest per-chain yield headline (075): reuses generate-token-pages.js's
@@ -285,47 +291,49 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta name="twitter:image" content="${ogImageUrl}">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <!-- Reuse the app's design system: style.css defines the neumorphic tokens
-         (--color-*, --neuro-*) + the brand gradient body. The scoped block below
-         styles this page with those tokens only — no hardcoded colors/gradients. -->
-    <link rel="stylesheet" href="/style.css">
+    <!-- Reuse the app's design system (247 world): style.css defines the
+         --ui-* certificate-green tokens (the --color-*/--neuro-* names below
+         are its deprecated aliases, still resolving) + Besley/Public Sans,
+         preloaded above. The scoped block below styles this page with those
+         tokens only — no hardcoded colors/gradients/fonts. -->
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
     <style>
       .cp-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .cp-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
-      .cp-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
-      .cp-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
-      .cp-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 8px 18px; margin: 20px 0; }
+      .cp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .cp-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .cp-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .cp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 8px 18px; margin: 20px 0; }
       .cp-card table { width: 100%; border-collapse: collapse; }
-      .cp-card th, .cp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
-      .cp-card th { color: var(--color-text-secondary); font-weight: 600; }
-      .cp-card td.num, .cp-card th.num { text-align: right; }
+      .cp-card th, .cp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
+      .cp-card th { color: var(--ui-text-secondary); font-weight: 600; }
+      .cp-card td.num, .cp-card th.num { text-align: right; font-variant-numeric: tabular-nums; }
       .cp-card tr:last-child td { border-bottom: none; }
       .cp-card tbody tr { transition: background .15s ease; }
-      .cp-card tbody tr:hover { background: var(--color-background); }
-      .cp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .cp-card tbody tr:hover { background: var(--ui-surface-muted); }
+      .cp-pool-link { color: var(--ui-accent); text-decoration: none; font-weight: 500; }
       .cp-pool-link:hover { text-decoration: underline; }
-      .cp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      .cp-pool-link:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
       @media (prefers-reduced-motion: reduce) { .cp-card tbody tr { transition: none; } }
-      .cp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
-      .cp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-      .cp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
-      .cp-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+      .cp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .cp-cta:hover { background: var(--ui-accent-hover); }
+      .cp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .cp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .related { margin: 30px 0 8px; }
-      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
-      .related-links a:hover { box-shadow: var(--neuro-shadow-flat); }
-      .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
-      .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-      .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
-      .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
-      .cp-yield-headline { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); padding: 14px 18px; margin: 4px 0 18px; color: var(--color-text); font-weight: 600; line-height: 1.5; }
+      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .related-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .related-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .related-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .cp-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--ui-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-yield-headline { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 4px 0 18px; color: var(--ui-text); font-weight: 600; line-height: 1.5; }
       .cp-faq { margin: 30px 0 8px; }
-      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
-      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
-      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .cp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
-      @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
+      @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
 ${renderWaitlistCtaStyle('cp')}    </style>
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}`, { page_type: 'chain_landing', chain: rec.chain, pool_count: rec.qualifyingCount, lang: language })}
 </head>
@@ -387,7 +395,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains`, { page_type: 'chain_hub', chain_count: ranked.length, lang: language })}
 </head>
 <body>
@@ -419,13 +427,15 @@ function renderChainPageMarkdown(rec, related, generatedDate, tokenLinks, lang) 
   const t = createTranslationFunction(language);
   const genDate = generatedDate || todayGeneratedDate();
   const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}&minTvl=${MIN_POOL_TVL}`;
-  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
-  const top = rec.pools[0];
+  // item 243: identical substitution to the HTML path above — the headline
+  // rate and the pool attributed beside it always come from the same pool.
+  const headlinePool = headlinePoolFor(rec.pools);
+  const bestApy = poolTotalApy(headlinePool);
   // 174: the floor claim below derives from MIN_POOL_TVL, same as the HTML —
   // never a re-typed literal.
   const floorStr = formatUsd(MIN_POOL_TVL);
 
-  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, language);
+  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, headlinePool, language);
 
   const rows = rec.pools.map(p => {
     const poolHref = poolHrefFor(p, appUrl, 'seo_chain');

@@ -1,10 +1,10 @@
 # 9SETH DeFi Yields
 
-The highest honest 9SETH yield right now is 0.93% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 9SETH yield right now is 4.04% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=a5642791-1d8f-4b00-8609-55b710a45dd3&src=seo_token) | Ethereum | 0.93% | $3.74M |
+| [lagoon →](https://www.defi.garden/?pool=a5642791-1d8f-4b00-8609-55b710a45dd3&src=seo_token) | Ethereum | 4.04% | $3.79M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 9SETH yield today?
 
-0.93% APY on lagoon (Ethereum), based on live DefiLlama data.
+4.04% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many 9SETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.74M in total.
+1 live pool clear this page's $100K TVL floor, $3.79M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

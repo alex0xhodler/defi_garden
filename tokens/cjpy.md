@@ -1,13 +1,13 @@
 # CJPY DeFi Yields
 
-The highest honest CJPY yield right now is 10.50% on curve-dex (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CJPY yield right now is 10.58% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25&src=seo_token) | Ethereum | 6.16% | $239.4K |
-| [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574&src=seo_token) | Ethereum | 6.92% | $236.7K |
-| [convex-finance →](https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00&src=seo_token) | Ethereum | 10.50% | $234.3K |
-| [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c&src=seo_token) | Ethereum | 9.92% | $205.4K |
+| [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25&src=seo_token) | Ethereum | 6.57% | $242.7K |
+| [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574&src=seo_token) | Ethereum | 7.31% | $242.3K |
+| [convex-finance →](https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00&src=seo_token) | Ethereum | 10.58% | $239.8K |
+| [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c&src=seo_token) | Ethereum | 10.15% | $208.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CJPY yield today?
 
-10.50% APY on curve-dex (Ethereum), based on live DefiLlama data.
+10.58% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CJPY pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.05M in total.
+5 live pools clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

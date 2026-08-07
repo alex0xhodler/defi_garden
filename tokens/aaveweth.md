@@ -1,12 +1,12 @@
 # AAVEWETH DeFi Yields
 
-The highest honest AAVEWETH yield right now is 6.30% on balancer-v3 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVEWETH yield right now is 7.62% on balancer-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.55% | $273.2K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.76% | $265K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 6.30% | $246.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.40% | $277.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.72% | $270.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 7.62% | $251.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAVEWETH yield today?
 
-6.30% APY on balancer-v3 (OP Mainnet), based on live DefiLlama data.
+7.62% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many AAVEWETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $784.6K in total.
+3 live pools clear this page's $100K TVL floor, $798.2K in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

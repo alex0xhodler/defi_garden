@@ -1,10 +1,10 @@
 # RE7HONEY DeFi Yields
 
-The highest honest RE7HONEY yield right now is 9.23% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RE7HONEY yield right now is 8.71% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_token) | Berachain | 9.23% | $4.12M |
+| [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_token) | Berachain | 8.71% | $4.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RE7HONEY yield today?
 
-9.23% APY on berapaw (Berachain), based on live DefiLlama data.
+8.71% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many RE7HONEY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.12M in total.
+1 live pool clear this page's $100K TVL floor, $4.14M in total.
 
 ### Are these rates safe?
 
@@ -25,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [HONEY](https://www.defi.garden/tokens/honey)
 - [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

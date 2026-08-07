@@ -324,7 +324,13 @@ async function main() {
       await controlPage.goto(poolUrl, { waitUntil: 'load', timeout: 20000 });
       await controlPage.waitForSelector('.pool-detail-view', { timeout: 15000 });
       await waitForCss(controlPage);
-      await controlPage.addStyleTag({ content: '.app.pool-detail-view .app-footer{position:fixed !important;bottom:0;left:0;right:0}' });
+      // 225 round 3c: the recomposed hero raised the at-rest CTA well above
+      // the old bottom band (y≈493 at 360x780 vs the footer's 721), so a
+      // bottom-pinned footer no longer reaches it and the control stopped
+      // reproducing. The mutation now pins the footer over the CTA's own
+      // at-rest region — same intent (prove the occlusion check CAN fail),
+      // stronger fault injection.
+      await controlPage.addStyleTag({ content: '.app.pool-detail-view .app-footer{position:fixed !important;top:0;bottom:0;left:0;right:0;height:auto !important}' });
       await controlPage.waitForTimeout(100);
 
       const scrollY = await controlPage.evaluate(() => window.scrollY);

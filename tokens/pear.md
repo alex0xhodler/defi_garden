@@ -1,11 +1,11 @@
 # PEAR DeFi Yields
 
-The highest honest PEAR yield right now is 0.74% on camelot-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEAR yield right now is 1.93% on camelot-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token) | Arbitrum | 0.56% | $753.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token) | Arbitrum | 0.74% | $169.8K |
+| [camelot-v3 →](https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token) | Arbitrum | 1.93% | $708.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token) | Arbitrum | 1.38% | $161.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEAR yield today?
 
-0.74% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+1.93% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many PEAR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $923.7K in total.
+2 live pools clear this page's $100K TVL floor, $869.5K in total.
 
 ### Are these rates safe?
 
@@ -27,13 +27,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

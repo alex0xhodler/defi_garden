@@ -1,10 +1,10 @@
 # CETES DeFi Yields
 
-The highest honest CETES yield right now is 6.66% on kuru-clob (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CETES yield right now is 2.50% on kuru-clob (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kuru-clob →](https://www.defi.garden/?pool=143f0c93-342a-4949-8253-167e57328e38&src=seo_token) | Monad | 6.66% | $111.8K |
+| [kuru-clob →](https://www.defi.garden/?pool=143f0c93-342a-4949-8253-167e57328e38&src=seo_token) | Monad | 2.50% | $111.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CETES yield today?
 
-6.66% APY on kuru-clob (Monad), based on live DefiLlama data.
+2.50% APY on kuru-clob (Monad), based on live DefiLlama data.
 
 ### How many CETES pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $364.7K in total.
+3 live pools clear this page's $100K TVL floor, $366.3K in total.
 
 ### Are these rates safe?
 
@@ -28,11 +28,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [BTC](https://www.defi.garden/tokens/btc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
+- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

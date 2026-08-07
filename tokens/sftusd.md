@@ -1,11 +1,11 @@
 # SFTUSD DeFi Yields
 
-The highest honest SFTUSD yield right now is 9.83% on flying-tulip-ftusd (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFTUSD yield right now is 9.34% on flying-tulip-ftusd (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 9.83% | $1.31M |
-| [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 6.60% | $261.5K |
+| [flying-tulip-ftusd →](https://www.defi.garden/?pool=2b01f4a8-bd84-457f-ace5-02ca502c141d&src=seo_token) | Ethereum | 9.34% | $1.42M |
+| [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_token) | Sonic | 7.31% | $261.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SFTUSD yield today?
 
-9.83% APY on flying-tulip-ftusd (Ethereum), based on live DefiLlama data.
+9.34% APY on flying-tulip-ftusd (Ethereum), based on live DefiLlama data.
 
 ### How many SFTUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.57M in total.
+2 live pools clear this page's $100K TVL floor, $1.69M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Sonic](https://www.defi.garden/chains/sonic)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

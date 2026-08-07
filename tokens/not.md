@@ -4,8 +4,8 @@ The highest honest NOT yield right now is 12.99% on storm-trade (TON), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 12.99% | $154.8K |
-| [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 8.13% | $154.3K |
+| [storm-trade →](https://www.defi.garden/?pool=8e9e9b9b-9e8e-42d1-b9e7-84e3fca76acd&src=seo_token) | TON | 12.99% | $155.8K |
+| [ston.fi →](https://www.defi.garden/?pool=363c0833-aff8-4af1-8829-8abf7e94650b&src=seo_token) | TON | 3.73% | $152.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NOT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $309K in total.
+2 live pools clear this page's $100K TVL floor, $308.3K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

@@ -25,14 +25,14 @@ DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 3.83%�
 ## 관련 토큰
 
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [DAI](https://www.defi.garden/ko/tokens/dai)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [LINK](https://www.defi.garden/ko/tokens/link)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
-- [BET](https://www.defi.garden/ko/tokens/bet)
 
 ## 이용 가능한 체인
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 7, 2026

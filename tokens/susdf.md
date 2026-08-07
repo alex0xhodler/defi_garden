@@ -1,11 +1,11 @@
 # SUSDF DeFi Yields
 
-The highest honest SUSDF yield right now is 5.44% on falcon-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDF yield right now is 5.44% on pendle (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 3.82% | $67.66M |
-| [pendle →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c&src=seo_token) | Ethereum | 4.67% | $248.3K |
+| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 3.91% | $67.67M |
+| [pendle →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c&src=seo_token) | Ethereum | 4.16% | $248.3K |
 | [pendle →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e&src=seo_token) | Ethereum | 5.44% | $248.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSDF yield today?
 
-5.44% APY on falcon-finance (Ethereum), based on live DefiLlama data.
+5.44% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SUSDF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $68.15M in total.
+3 live pools clear this page's $100K TVL floor, $68.16M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

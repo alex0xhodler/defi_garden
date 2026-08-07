@@ -1,10 +1,11 @@
 # BAT DeFi Yields
 
-The highest honest BAT yield right now is 0.26% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BAT yield right now is 0.11% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token) | Ethereum | 0.26% | $137.7K |
+| [bancor-v3 →](https://www.defi.garden/?pool=66cfdeb2-0450-4c1d-bf71-ff6588c5a5bb&src=seo_token) | Ethereum | 0.04% | $219K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token) | Ethereum | 0.11% | $138.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BAT yield today?
 
-0.26% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.11% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BAT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.54M in total.
+3 live pools clear this page's $100K TVL floor, $2.56M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

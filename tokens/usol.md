@@ -1,13 +1,13 @@
 # USOL DeFi Yields
 
-The highest honest USOL yield right now is 37.56% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USOL yield right now is 27.83% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token) | Base | 37.56% | $772K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token) | Base | 6.55% | $347K |
-| [project-x →](https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token) | Hyperliquid L1 | 17.79% | $250.8K |
-| [hyperlend-pooled →](https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token) | Hyperliquid L1 | 8.73% | $206.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=a09feb82-76db-4291-aea9-dc6e88343e09&src=seo_token) | Base | 27.83% | $760.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a29cd7cc-3475-4110-bc74-85226d53614a&src=seo_token) | Base | 4.30% | $347K |
+| [project-x →](https://www.defi.garden/?pool=29901316-fe9a-408c-a3ab-e114a6b07039&src=seo_token) | Hyperliquid L1 | 28.32% | $244K |
+| [hyperlend-pooled →](https://www.defi.garden/?pool=b51ca643-0c11-479e-b2b0-43b905463868&src=seo_token) | Hyperliquid L1 | 8.78% | $206.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USOL yield today?
 
-37.56% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+27.83% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many USOL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.58M in total.
+4 live pools clear this page's $100K TVL floor, $1.56M in total.
 
 ### Are these rates safe?
 
@@ -32,11 +32,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [KHYPE](https://www.defi.garden/tokens/khype)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

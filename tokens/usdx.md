@@ -25,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
-- [SFLR](https://www.defi.garden/tokens/sflr)
 - [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
+- [SFLR](https://www.defi.garden/tokens/sflr)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [STXRP](https://www.defi.garden/tokens/stxrp)
 - [WFLR](https://www.defi.garden/tokens/wflr)
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

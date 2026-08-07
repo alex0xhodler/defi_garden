@@ -1,5 +1,5 @@
-/* Search-first landing — the same calm, tactile system as the app with a
-   more spacious hero and restrained motion. */
+/* Search-first landing — the same flat "Quiet" design system (spec 225) as
+   the rest of the app, with a more spacious hero and restrained motion. */
 
 .landing-app {
   position: relative;
@@ -8,6 +8,76 @@
   flex-direction: column;
   overflow: hidden;
   color: var(--color-text);
+}
+
+/* ── The landing page as the same sheet (247 world, item 247 follow-up) ──
+   Same certificate ornament system pool-detail/the grid already carry —
+   see style.css's "ORNAMENT SYSTEM" banner for the shared primitives,
+   keyframes and tokens (--ui-accent-margin/-watermark/-soft/-border) this
+   reuses. Page-margin strands + a watermark rosette bleeding off the right
+   edge, gated to the same ≥1080px width and ambient drift. `position:
+   absolute` (not `fixed`, unlike pool-detail/the grid) because `.landing-
+   app` already establishes its own positioning + clipping context
+   (`position: relative; overflow: hidden` above) for the existing
+   `.landing-backdrop` orbit decoration — reusing that same context keeps
+   the strands/watermark scrolling WITH the page instead of fighting
+   `.landing-app`'s own overflow:hidden over a `position:fixed` layer's
+   containing-block rules. z-index -1 paints them below `.landing-header`/
+   `.landing-main`/`.landing-footer` (explicitly z-index:1 below) without
+   needing a second `isolation: isolate` — `.landing-app`'s own `position:
+   relative` is already the nearest positioned ancestor for both. */
+.landing-app::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+
+.landing-app::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+
+@media (min-width: 1080px) {
+  .landing-app::before,
+  .landing-app::after {
+    opacity: 1;
+  }
+
+  .landing-app::before {
+    animation: ornDrift 117s ease-in-out infinite alternate;
+  }
+
+  .landing-app::after {
+    animation: ornTurn 123s ease-in-out infinite alternate,
+               ornBreathe 96s ease-in-out infinite alternate;
+  }
 }
 
 /* Backlog 220: `landing.js:356` renders the shared `e('footer', { className:
@@ -64,9 +134,10 @@
 
 .landing-backdrop-orbit {
   position: absolute;
-  border: 1px solid rgba(59, 130, 246, .13);
+  border: 1px solid var(--ui-accent-border);
   border-radius: 50%;
   transform: rotate(-18deg);
+  opacity: .45;
 }
 
 .landing-backdrop-orbit-one {
@@ -82,7 +153,7 @@
   height: 260px;
   top: 140px;
   right: -105px;
-  border-color: rgba(59, 130, 246, .08);
+  border-color: var(--ui-accent-margin);
   animation: landing-drift-two 22s ease-in-out infinite;
 }
 
@@ -92,7 +163,6 @@
   height: 9px;
   border-radius: 50%;
   background: var(--color-primary);
-  box-shadow: var(--neuro-shadow-subtle);
   opacity: .55;
 }
 
@@ -107,13 +177,32 @@
 }
 
 .landing-header {
+  /* height/padding/border-radius owned by the shared header-row rule, style.css end */
   width: min(1200px, calc(100% - 48px));
-  min-height: 82px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 28px;
+}
+
+/* Full-bleed band: the header row above stays inset to the shared content
+   width, but its background/border-bottom need to span the whole viewport
+   like the grid/pool `.app-header-sticky` band (style.css) does — this
+   pseudo carries that, positioned off the header's own `position: relative`
+   (above) so it never disturbs the row's own centered flex layout. */
+.landing-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: var(--ui-surface);
+  border-bottom: 1px solid var(--ui-border);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .landing-brand {
@@ -138,7 +227,7 @@
   color: var(--color-primary);
   background: var(--color-background);
   border-radius: 12px;
-  box-shadow: var(--neuro-shadow-subtle);
+  border: 1px solid var(--ui-border);
 }
 
 .landing-brand-mark { width: 38px; height: 38px; }
@@ -170,17 +259,10 @@
 
 .landing-icon-button,
 .landing-menu-button {
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border: 0;
-  border-radius: var(--radius-full);
+  /* width/height/padding/border-radius owned by the shared icon-only-button rule, style.css end */
+  border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text-secondary);
-  box-shadow: var(--neuro-shadow-subtle);
   cursor: pointer;
   font-family: var(--font-family-base);
   font-size: var(--font-size-xs);
@@ -194,9 +276,9 @@
 .landing-theme-button { font-size: 18px; font-weight: var(--font-weight-normal); line-height: 1; }
 
 .landing-icon-button:hover,
-.landing-menu-button:hover { color: var(--color-primary); box-shadow: var(--neuro-shadow-flat); transform: translateY(-1px); }
+.landing-menu-button:hover { color: var(--color-primary); border-color: var(--ui-border-strong); }
 .landing-icon-button:active,
-.landing-menu-button:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.landing-menu-button:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 
 .landing-menu-button { display: none; font-size: 20px; }
 
@@ -223,18 +305,21 @@
   gap: 16px;
   opacity: 1;
   pointer-events: auto;
-  border-radius: var(--neuro-radius-md);
+  border-radius: var(--ui-radius-md);
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-flat);
+  border: 1px solid var(--ui-border);
 }
 
-.landing-main { flex: 1; }
+/* The hero absorbs the viewport's spare height (flex: 1 + centered grid)
+   so tall screens split the slack above and below the composition instead
+   of pooling it in one dead band before the trust seam. */
+.landing-main { flex: 1; display: flex; flex-direction: column; }
 
 .landing-hero {
   width: min(1200px, calc(100% - 48px));
-  min-height: 642px;
+  flex: 1;
   margin: 0 auto;
-  padding: 78px 0 88px;
+  padding: 64px 0 72px;
   display: grid;
   grid-template-columns: minmax(0, 1.06fr) minmax(320px, .74fr);
   align-items: center;
@@ -243,14 +328,18 @@
 
 .landing-hero-copy { min-width: 0; }
 
+/* 247 world: the landing speaks in the same certificate voice as pool
+   detail — Besley at 600 with near-neutral tracking (the serif carries its
+   own density; the old -.065em sans tracking mangles it). */
 .landing-title {
   max-width: 690px;
   margin: 0;
   color: var(--color-text);
-  font-size: clamp(48px, 6vw, 76px);
-  font-weight: var(--font-weight-bold);
-  line-height: .98;
-  letter-spacing: -.065em;
+  font-family: var(--font-family-display);
+  font-size: clamp(44px, 5.4vw, 68px);
+  font-weight: 600;
+  line-height: 1.06;
+  letter-spacing: -.015em;
 }
 
 .landing-title-accent { color: var(--color-primary); }
@@ -266,20 +355,19 @@
 .landing-search-form { max-width: 680px; margin-top: 34px; }
 
 .landing-search-shell {
-  min-height: 72px;
+  /* height/padding/border-radius owned by the shared hero-input rule, style.css end */
   display: flex;
   align-items: center;
   gap: 13px;
-  padding: 9px 10px 9px 22px;
-  border-radius: var(--neuro-radius-lg);
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-pressed), var(--neuro-shadow-subtle);
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
+  border: 1px solid var(--ui-border-strong);
+  transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-fast) var(--ease-standard);
 }
 
 .landing-search-shell:focus-within {
-  box-shadow: var(--neuro-shadow-pressed), 0 0 0 2px var(--color-focus-ring);
+  border-color: var(--ui-accent);
+  box-shadow: var(--ui-focus-ring);
 }
 
 .landing-icon { width: 23px; height: 23px; flex: 0 0 auto; color: var(--color-primary); }
@@ -303,21 +391,13 @@
 
 .landing-search-submit,
 .landing-garden-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  /* height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
   gap: 7px;
-  min-height: 50px;
-  padding: 0 19px;
-  border: 0;
-  border-radius: 12px;
+  border: 1px solid transparent;
   background: var(--color-primary);
   color: var(--color-btn-primary-text);
-  box-shadow: var(--neuro-shadow-flat);
   cursor: pointer;
   font-family: var(--font-family-base);
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-semibold);
   white-space: nowrap;
   transition: background var(--duration-fast) var(--ease-standard),
     box-shadow var(--duration-fast) var(--ease-standard),
@@ -325,9 +405,9 @@
 }
 
 .landing-search-submit:hover,
-.landing-garden-link:hover { background: var(--color-primary-hover); color: var(--color-btn-primary-text); box-shadow: var(--neuro-shadow-raised); transform: translateY(-1px); }
+.landing-garden-link:hover { background: var(--color-primary-hover); color: var(--color-btn-primary-text); }
 .landing-search-submit:active,
-.landing-garden-link:active { background: var(--color-primary-active); box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.landing-garden-link:active { background: var(--color-primary-active); transform: translateY(1px); }
 
 .landing-arrow-icon { width: 19px; height: 19px; }
 
@@ -339,43 +419,57 @@
   margin-top: 17px;
 }
 
+/* Plate-label voice — same recipe as pool-detail's .pool-action-apy-label
+   (serif 11px/600, .22em tracked caps). */
 .landing-examples-label {
   width: 100%;
   margin-bottom: 1px;
   color: var(--color-text-secondary);
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-semibold);
-  letter-spacing: .06em;
+  font-family: var(--font-family-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .22em;
   text-transform: uppercase;
 }
 
 .landing-example-chip {
-  min-height: 32px;
-  padding: 0 12px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-full);
+  /* height/padding/border-radius/font-size owned by the shared chip rule, style.css end */
+  border: 1px solid var(--ui-border);
   background: var(--color-background);
   color: var(--color-text-secondary);
   cursor: pointer;
   font-family: var(--font-family-base);
-  font-size: var(--font-size-sm);
   transition: color var(--duration-fast) var(--ease-standard),
     border-color var(--duration-fast) var(--ease-standard),
     box-shadow var(--duration-fast) var(--ease-standard),
     transform var(--duration-fast) var(--ease-standard);
 }
 
-.landing-example-chip:hover { border-color: var(--color-primary); color: var(--color-primary); box-shadow: var(--neuro-shadow-subtle); transform: translateY(-1px); }
-.landing-example-chip:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+.landing-example-chip:hover { border-color: var(--color-primary); color: var(--color-primary); }
+.landing-example-chip:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 
 .landing-garden-card {
+  /* padding/border-radius owned by the shared hero-card rule, style.css end */
   position: relative;
+  isolation: isolate;
   min-height: 448px;
-  padding: 25px 25px 0;
+  padding-bottom: 0;
   overflow: hidden;
-  border-radius: var(--neuro-radius-lg);
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-raised);
+  border: 1px solid var(--ui-border);
+}
+
+/* Engraved corner quoins — geometry from the shared .orn-corners rule
+   (style.css's ORNAMENT SYSTEM already lists `.landing-garden-card::after`
+   alongside it), same watermark-weight ink and no ambient cycle as the
+   grid's `.results-panel::after` and pool-detail's own `.pool-hero-card::
+   after`. Sits behind the card's own h2/p/link/illustration (all in
+   normal flow, painted after this negative-z-index layer) so the "Have a
+   goal in mind?" copy is never crossed by it. */
+.landing-garden-card::after {
+  --orn-inset: 10px;
+  --orn-ink: var(--ui-accent-border);
+  z-index: -1;
 }
 
 .landing-card-topline {
@@ -390,18 +484,22 @@
 
 .landing-card-caption {
   color: var(--color-text-secondary);
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-semibold);
-  letter-spacing: .04em;
+  font-family: var(--font-family-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
   text-align: right;
 }
 
 .landing-garden-card h2 {
   max-width: 270px;
   margin: 25px 0 10px;
-  font-size: clamp(28px, 3vw, 38px);
-  line-height: 1.04;
-  letter-spacing: -.05em;
+  font-family: var(--font-family-display);
+  font-size: clamp(26px, 2.7vw, 34px);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -.01em;
 }
 
 .landing-garden-card p {
@@ -415,12 +513,10 @@
 }
 
 .landing-garden-link {
+  /* height/padding/font-size owned by the shared primary-button rule, style.css end */
   position: relative;
   z-index: 2;
-  min-height: 44px;
   margin-top: 22px;
-  padding: 0 16px;
-  font-size: var(--font-size-sm);
 }
 
 .landing-plant-svg {
@@ -436,16 +532,22 @@
   animation: landing-plant-breathe 7s ease-in-out infinite;
 }
 
-.landing-plant-halo { fill: var(--color-bg-1); }
-.landing-plant-stem { stroke: currentColor; stroke-width: 5; stroke-linecap: round; }
-.landing-plant-leaf { fill: var(--color-primary); opacity: .92; }
-.landing-plant-leaf-right { fill: var(--color-secondary-blue); }
-.landing-plant-leaf-small { opacity: .72; }
-.landing-plant-pot { fill: var(--color-secondary); stroke: var(--color-border); stroke-width: 2; }
-.landing-plant-pot-rim { stroke: var(--color-primary); stroke-width: 5; stroke-linecap: round; opacity: .75; }
-.landing-plant-ground { stroke: var(--color-border); stroke-width: 2; stroke-linecap: round; }
+/* Engraved botanical plate, not clip-art: the halo is an accent-inked disc
+   ringed like the guilloché rosettes, the leaves are stroked line-art with
+   a soft accent wash, and every legacy blue token (--color-bg-1's navy
+   disc, --color-secondary-blue's leaf) is gone from the world. */
+.landing-plant-halo { fill: var(--ui-accent-watermark); stroke: var(--ui-accent-border); stroke-width: 1; stroke-dasharray: 1 4; stroke-linecap: round; }
+.landing-plant-stem { stroke: currentColor; stroke-width: 3.5; stroke-linecap: round; }
+.landing-plant-leaf { fill: var(--ui-accent-soft); stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; opacity: 1; }
+.landing-plant-leaf-small { fill: var(--ui-accent-margin); }
+.landing-plant-vein { stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; fill: none; opacity: .55; }
+.landing-plant-pot { fill: var(--ui-surface); stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; }
+.landing-plant-pot-rim { stroke: currentColor; stroke-width: 3; stroke-linecap: round; opacity: .8; }
+.landing-plant-ground { stroke: var(--ui-border-strong); stroke-width: 1.5; stroke-linecap: round; }
 
 .landing-trust-section {
+  position: relative;
+  isolation: isolate;
   width: min(1200px, calc(100% - 48px));
   margin: 0 auto;
   padding: 24px 0 40px;
@@ -456,10 +558,62 @@
   border-top: 1px solid var(--color-border);
 }
 
+/* Divider band riding the section's own border-top — the hero/trust seam
+   — plus a closing band at the section's bottom inner edge, above the
+   footer (`.landing-app .app-footer` is `position: static` above, so —
+   same reasoning as the grid's `.results-section::after` in style.css —
+   this anchors to the last content section instead of the footer box
+   itself). Watermark weight, breathing like pool-detail's bookend bands;
+   z-index -1 behind this section's own copy/rail (`isolation: isolate`
+   above keeps it from slipping behind `.landing-trust-section`'s
+   siblings' backgrounds, same fix `.landing-garden-card`/`.results-panel`
+   needed). */
+.landing-trust-section::before,
+.landing-trust-section::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(320px, 60%);
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--ui-accent-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  z-index: -1;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size);
+  mask-size: var(--orn-size);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.landing-trust-section::before {
+  top: -1px;
+  animation: ornBreathe 104s ease-in-out infinite alternate;
+}
+
+.landing-trust-section::after {
+  bottom: -18px;
+  animation: ornBreathe 111s ease-in-out infinite alternate;
+}
+
+@media (max-width: 767px) {
+  .landing-trust-section::before,
+  .landing-trust-section::after {
+    display: none;
+  }
+}
+
 .landing-trust-copy h2 {
   margin: 0;
-  font-size: clamp(20px, 2.3vw, 28px);
-  letter-spacing: -.04em;
+  font-family: var(--font-family-display);
+  font-size: clamp(20px, 2.2vw, 26px);
+  font-weight: 600;
+  letter-spacing: -.005em;
 }
 
 .landing-trust-copy p {
@@ -483,9 +637,9 @@
   align-items: center;
   gap: 9px;
   padding: 0 14px;
-  border-radius: var(--radius-full);
+  border-radius: 3px;
   background: var(--color-background);
-  box-shadow: var(--neuro-shadow-subtle);
+  border: 1px solid var(--ui-border);
   color: var(--color-text-secondary);
   font-size: var(--font-size-sm);
   white-space: nowrap;
@@ -575,7 +729,6 @@
   .landing-footer,
   .landing-mobile-nav { width: min(100% - 32px, 600px); }
 
-  .landing-header { min-height: 70px; }
   .landing-nav { display: none; }
   .landing-menu-button { display: inline-flex; }
   .landing-hero {
@@ -585,7 +738,7 @@
     gap: 42px;
   }
 
-  .landing-title { max-width: 540px; font-size: clamp(46px, 13vw, 62px); }
+  .landing-title { max-width: 540px; font-size: clamp(38px, 11vw, 58px); }
   .landing-hero-body { margin-top: 22px; font-size: 17px; }
   .landing-search-form { margin-top: 28px; }
   .landing-garden-card { min-height: 400px; }
@@ -604,15 +757,14 @@
   .landing-brand-mark { width: 34px; height: 34px; }
   .landing-brand-mark .landing-leaf-mark { width: 21px; height: 21px; }
   .landing-header-actions { gap: 6px; }
-  .landing-icon-button,
-  .landing-menu-button { width: 36px; height: 36px; }
+  /* icon-button/search-shell/search-submit size is owned by the shared
+     component rules (style.css end) — no responsive shape variant */
   .landing-hero { padding-top: 46px; }
-  .landing-title { font-size: 46px; }
-  .landing-search-shell { min-height: 64px; padding-left: 17px; gap: 9px; }
-  .landing-search-submit { width: 46px; min-height: 46px; padding: 0; }
+  .landing-title { font-size: 38px; }
+  .landing-search-shell { gap: 9px; }
   .landing-search-submit-label { display: none; }
   .landing-search-input { font-size: 15px; }
-  .landing-garden-card { min-height: 370px; padding: 21px 20px 0; }
+  .landing-garden-card { min-height: 370px; padding-bottom: 0; }
   .landing-garden-card h2 { margin-top: 22px; font-size: 31px; }
   .landing-plant-svg { right: -28px; bottom: -18px; width: 315px; }
   .landing-trust-item { width: 100%; }
@@ -630,4 +782,25 @@
   }
 
   .landing-reveal { opacity: 1; transform: none; }
+
+  /* Item 247 follow-up: the blanket rule above only compresses DURATION
+     (`animation-duration: .01ms` + `iteration-count: 1`) — measured, this
+     leaves `getComputedStyle().animationName` still reporting the real
+     keyframe name (e.g. "ornBreathe"), just playing once, near-instantly.
+     That is a materially weaker guarantee than pool-detail/the grid's own
+     switch (style.css), which sets a real `animation: none` — same
+     mechanism required here for the same reason (an infinite alternating
+     loop that only had its duration shortened is still, technically,
+     running). Covers both `.landing-app::before/::after` (pseudo-elements
+     of `.landing-app` itself — NOT reached by the blanket rule above,
+     which only matches descendant `*::before/::after`) and the
+     `.landing-trust-section` divider/closing bands (which ARE reached by
+     the blanket rule, but only for duration — this still needs to name
+     them to get `animation-name: none`). */
+  .landing-app::before,
+  .landing-app::after,
+  .landing-trust-section::before,
+  .landing-trust-section::after {
+    animation: none !important;
+  }
 }

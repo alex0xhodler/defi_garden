@@ -1,10 +1,10 @@
 # MOONUSDC DeFi Yields
 
-The highest honest MOONUSDC yield right now is 9.00% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOONUSDC yield right now is 5.60% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=5a0f23f0-480b-43d4-9f6f-46aaacb80025&src=seo_token) | Ethereum | 9.00% | $899.5K |
+| [lagoon →](https://www.defi.garden/?pool=5a0f23f0-480b-43d4-9f6f-46aaacb80025&src=seo_token) | Ethereum | 5.60% | $900.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOONUSDC yield today?
 
-9.00% APY on lagoon (Ethereum), based on live DefiLlama data.
+5.60% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many MOONUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $899.5K in total.
+1 live pool clear this page's $100K TVL floor, $900.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

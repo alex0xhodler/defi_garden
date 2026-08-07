@@ -83,6 +83,61 @@ const DATE_FRAGMENT_REGEX = /^[0-9]{1,2}(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT
 function poolTotalApy(pool) {
   return (pool.apyBase || 0) + (pool.apyReward || 0);
 }
+
+// --- Representativeness gate (item 229, MOVED here in 242) ------------------
+// Originally lived in generate-spotlight.js (its only dependency is
+// poolTotalApy above, which already lives here). Moved so generate-token-
+// pages.js can gate its own headline pool without a require cycle:
+// generate-spotlight.js already requires this module (its :48), and it also
+// hard-requires @napi-rs/canvas (its :47), which is not installed in this
+// checkout — importing generate-spotlight.js from a generator would break the
+// SEO pipeline outright. generate-spotlight.js now imports these four names
+// from here and re-exports them under the same names, so every existing
+// importer/test keeps working byte-identically.
+//
+// "today's headline is within 50% of the pool's own recent mean" — a round
+// judgment (229 spec "Open questions" #1), not fitted to the motivating
+// instance (concrete · SRROYUSDC, 86.51% headline vs a 4.51% apyMean30d —
+// that pool is used ONLY as a positive control in the tests, never as this
+// constant's definition). REPRESENTATIVE_ABS_PP exists so a genuinely flat
+// near-zero pool (0.02% vs 0.00%) is never failed by a division-scale
+// artifact the way a pure relative tolerance would fail it.
+const REPRESENTATIVE_REL = 0.5;
+const REPRESENTATIVE_ABS_PP = 0.5;
+
+/** Shared deviation math for isRepresentativeRate AND its companion
+ * storySignals term (rateRepresentative, generate-spotlight.js) — one
+ * implementation, never two. Returns null when there is no apyMean30d to
+ * compare against (no evidence of representativeness is not evidence of
+ * representativeness — the pack is outward-facing and the human's name is on
+ * it), else a ratio normalized so that `ratio <= REPRESENTATIVE_REL` iff the
+ * pool passes the gate: the gate's own threshold is `max(REL*|mean|,
+ * ABS_PP)`, which factors as `REL * max(|mean|, ABS_PP/REL)` — dividing by
+ * that same max() term folds the gate's relative and absolute branches into
+ * one comparable number. */
+function representativenessRatio(pool) {
+  const mean = pool.apyMean30d;
+  if (mean == null || !isFinite(mean)) return null;
+  const apy = poolTotalApy(pool);
+  const normBase = Math.max(Math.abs(mean), REPRESENTATIVE_ABS_PP / REPRESENTATIVE_REL);
+  return Math.abs(apy - mean) / normBase;
+}
+
+/** isRepresentativeRate(pool) — a headline APY must be within
+ * REPRESENTATIVE_REL (50%) of the pool's own apyMean30d (or within
+ * REPRESENTATIVE_ABS_PP percentage points for near-zero-mean pools). A pool
+ * with no apyMean30d, or a non-finite one, is NEVER representative — 229
+ * spec: "no evidence of representativeness is not evidence of
+ * representativeness". Measured on live data (2026-08-06): excludes 36 of
+ * 405 rail-qualifying spotlight candidates (8.9%), including the spotlight
+ * ranker's former #1 pick (concrete · SRROYUSDC, 86.51% vs a 4.51% 30-day
+ * mean — a positive control for this gate in the tests, never its
+ * definition). */
+function isRepresentativeRate(pool) {
+  const ratio = representativenessRatio(pool);
+  return ratio != null && ratio <= REPRESENTATIVE_REL;
+}
+
 function isAnomalousApy(pool) {
   return poolTotalApy(pool) > APY_SANITY_LIMIT;
 }
@@ -162,6 +217,23 @@ function renderHreflangLinks(enUrl, koUrl) {
   return `    <link rel="alternate" hreflang="en" href="${enUrl}">
     <link rel="alternate" hreflang="ko" href="${koUrl}">
     <link rel="alternate" hreflang="x-default" href="${enUrl}">\n`;
+}
+
+/** Font preload hints (247 world): Public Sans (text) / Besley (display),
+ * self-hosted, same two files home.html/plan.html already preload
+ * unconditionally (--font-family-base/-display in style.css point at them on
+ * every mode) — promoted here so the SEO estate stops paying a render-
+ * blocking @font-face lookup inside the already-linked /style.css before the
+ * browser discovers these. Root-absolute paths (`/fonts/...`), NOT the
+ * `./fonts/...` home.html/plan.html use — those two live at document root,
+ * but this same function serves pages at every depth this estate has
+ * (`/tokens/<slug>`, `/ko/tokens/<slug>`, `/tokens/az/<letter>`, ...) and a
+ * relative href resolves against the PAGE's own URL, not style.css's —
+ * root-absolute is the one form that is correct at every depth without a
+ * depth parameter. */
+function renderFontPreloadLinks() {
+  return `    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>\n`;
 }
 
 // --- Analytics bootstrap (039) -----------------------------------------------
@@ -437,9 +509,9 @@ function renderYieldHeadlineHtml(headline, subject, t, cssClass, msgKey) {
  * existing <style> — reuses the same neumorphic tokens as `.${cssPrefix}-card`
  * (no new colors/gradients, per the 2026-07-10 "reuse before inventing" rule). */
 function renderWaitlistCtaStyle(cssPrefix) {
-  return `      .${cssPrefix}-waitlist { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 20px 22px; margin: 24px 0; }
-      .${cssPrefix}-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--color-text); }
-      .${cssPrefix}-waitlist p { color: var(--color-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
+  return `      .${cssPrefix}-waitlist { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 20px 22px; margin: 24px 0; }
+      .${cssPrefix}-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--ui-text); }
+      .${cssPrefix}-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
       .${cssPrefix}-waitlist .${cssPrefix}-cta { margin: 4px 0 10px; }
       .${cssPrefix}-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
 `;
@@ -481,21 +553,21 @@ function renderHubStyleBlock() {
   return `
     <style>
       .hub-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .hub-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
-      .hub-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
-      .hub-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
-      .hub-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 18px; margin: 20px 0; }
-      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
-      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
-      .hub-links a:hover { box-shadow: var(--neuro-shadow-flat); }
-      .hub-links a:active { box-shadow: var(--neuro-shadow-pressed); }
-      .hub-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
-      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
-      .hub-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-      .hub-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
-      .hub-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-      .hub-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
-      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } }
+      .hub-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .hub-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .hub-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .hub-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 20px 0; }
+      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-pill); }
+      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .hub-cta:hover { background: var(--ui-accent-hover); }
+      .hub-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .hub-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .hub-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } .hub-links a:active, .hub-cta:active { transform: none; } }
 ${renderWaitlistCtaStyle('hub')}    </style>`;
 }
 
@@ -534,7 +606,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens`, { page_type: 'token_hub', token_count: ranked.length, lang: language })}
 </head>
 <body>
@@ -592,7 +664,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/az/${group.slug}`, { page_type: 'token_az', letter: group.key, token_count: group.records.length, lang: language })}
 </head>
 <body>
@@ -675,6 +747,42 @@ function renderDatasetJsonLd(name, description, pageUrl, generatedDate) {
     publisher: { '@type': 'Organization', name: 'DeFi Garden', url: SITE_URL },
     dateModified: generatedDate
   }).replace(/</g, '\\u003c');
+}
+
+/** headlinePoolFor(pools) — item 242. The single pool whose rate AND
+ * project/chain become the page's headline claim (bestApy + the pool passed
+ * to buildAnswerAndFaq), so the two can never name different pools. Among
+ * `pools` (already the page's displayed/gated set — see rankTopTokens),
+ * returns the highest-poolTotalApy pool that ALSO passes isRepresentativeRate.
+ * Deterministic: ties broken by first occurrence in the given order.
+ *
+ * Fallback: if no pool in `pools` passes the gate, returns the highest-
+ * poolTotalApy pool anyway (today's unchecked behaviour, unaltered) — the
+ * smallest honest option, per the spec's "Open questions": the claim "the
+ * highest yield is X on P" stays true as written, and no page is left
+ * without a headline. Measured on live data (15,685 pools, 2026-08-06,
+ * rankTopTokens(pools, 0) → the real generated token-page population): 481
+ * of 2,097 pages (22.9%) hit this fallback because every displayed pool on
+ * the page fails the gate. That 481-page class is left open, ticketed as
+ * item 243 alongside the identical `Math.max` pattern on generate-chain-
+ * pages.js's chain estate.
+ *
+ * `pools` is always non-empty for real callers (rankTopTokens's
+ * MIN_QUALIFYING_POOLS gate guarantees >=1 displayed pool per record) — an
+ * empty array returns null rather than adding a defensive branch no caller
+ * exercises. */
+function headlinePoolFor(pools) {
+  if (!pools || pools.length === 0) return null;
+  let best = null;
+  let bestRepresentative = null;
+  pools.forEach(p => {
+    if (best == null || poolTotalApy(p) > poolTotalApy(best)) best = p;
+    if (isRepresentativeRate(p) &&
+        (bestRepresentative == null || poolTotalApy(p) > poolTotalApy(bestRepresentative))) {
+      bestRepresentative = p;
+    }
+  });
+  return bestRepresentative != null ? bestRepresentative : best;
 }
 
 /** Direct-answer + FAQ content (047, GEO/AEO). Built once from data the page
@@ -761,7 +869,11 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   const genDate = generatedDate || todayGeneratedDate();
   const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
   const ogImageUrl = `${SITE_URL}/${ogImageRelPath}`;
-  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
+  // 242: headlinePoolFor gates the headline claim through isRepresentativeRate
+  // so bestApy and the pool named beside it (buildAnswerAndFaq below) are
+  // always the SAME pool — never Math.max's unchecked most-extreme rate.
+  const headlinePool = headlinePoolFor(rec.pools);
+  const bestApy = poolTotalApy(headlinePool);
   const chainCount = new Set(rec.pools.map(p => p.chain)).size;
   const title = t('tcpTokenTitle', rec.symbol);
   // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
@@ -771,6 +883,9 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
 
   // Unique per-token intro from real data (023: content depth — this reads
   // token-specifically even with the symbol removed, so it's not thin).
+  // `top` (rec.pools[0], the TVL-largest pool) stays exactly as-is here — it
+  // correctly describes that pool with ITS OWN apy, unrelated to the
+  // headline claim below (242 spec §Change 3: "nothing else moves").
   const top = rec.pools[0];
   const intro = t('tcpTokenIntro', sym, escapeHtml(top.project || '—'), escapeHtml(top.chain || '—'),
     formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, chainCount, formatUsd(rec.totalTvl), floorStr);
@@ -804,7 +919,8 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
   // table/intro above already use — never touches raw pool data, so an
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
-  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, top, language);
+  // 242: attributed to headlinePool (NOT `top`) — the pool bestApy came from.
+  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
   const answerBlock = renderAnswerBlockHtml(answer, 'tp-answer');
   const faqBlock = renderFaqBlockHtml(faq, 'tp-faq', language);
   const faqJsonLd = renderFaqJsonLd(faq);
@@ -879,47 +995,49 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta name="twitter:image" content="${ogImageUrl}">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <!-- Reuse the app's design system: style.css defines the neumorphic tokens
-         (--color-*, --neuro-*) + the brand gradient body. The scoped block below
-         styles this page with those tokens only — no hardcoded colors/gradients. -->
-    <link rel="stylesheet" href="/style.css">
+    <!-- Reuse the app's design system (247 world): style.css defines the
+         --ui-* certificate-green tokens (the --color-*/--neuro-* names below
+         are its deprecated aliases, still resolving) + Besley/Public Sans,
+         preloaded above. The scoped block below styles this page with those
+         tokens only — no hardcoded colors/gradients/fonts. -->
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
     <style>
       .tp-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .tp-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
-      .tp-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
-      .tp-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
-      .tp-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 8px 18px; margin: 20px 0; }
+      .tp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .tp-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .tp-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .tp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 8px 18px; margin: 20px 0; }
       .tp-card table { width: 100%; border-collapse: collapse; }
-      .tp-card th, .tp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
-      .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
-      .tp-card td.num, .tp-card th.num { text-align: right; }
+      .tp-card th, .tp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
+      .tp-card th { color: var(--ui-text-secondary); font-weight: 600; }
+      .tp-card td.num, .tp-card th.num { text-align: right; font-variant-numeric: tabular-nums; }
       .tp-card tr:last-child td { border-bottom: none; }
       .tp-card tbody tr { transition: background .15s ease; }
-      .tp-card tbody tr:hover { background: var(--color-background); }
-      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-card tbody tr:hover { background: var(--ui-surface-muted); }
+      .tp-pool-link { color: var(--ui-accent); text-decoration: none; font-weight: 500; }
       .tp-pool-link:hover { text-decoration: underline; }
-      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
       @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
-      .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
-      .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-      .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
-      .tp-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+      .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .tp-cta:hover { background: var(--ui-accent-hover); }
+      .tp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .tp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .related { margin: 30px 0 8px; }
-      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
-      .related-links a:hover { box-shadow: var(--neuro-shadow-flat); }
-      .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
-      .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-      .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
-      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
-      .tp-yield-headline { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); padding: 14px 18px; margin: 4px 0 18px; color: var(--color-text); font-weight: 600; line-height: 1.5; }
+      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .related-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .related-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .related-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .tp-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--ui-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-yield-headline { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 4px 0 18px; color: var(--ui-text); font-weight: 600; line-height: 1.5; }
       .tp-faq { margin: 30px 0 8px; }
-      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
-      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
-      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
-      @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
+      @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
 ${renderWaitlistCtaStyle('tp')}    </style>
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}`, { page_type: 'token_landing', token: rec.symbol, pool_count: rec.qualifyingCount, lang: language })}
 </head>
@@ -962,15 +1080,17 @@ function renderTokenPageMarkdown(rec, related, generatedDate, chainLinks, lang) 
   const t = createTranslationFunction(language);
   const genDate = generatedDate || todayGeneratedDate();
   const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
-  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
-  const top = rec.pools[0];
+  // 242: the SAME headlinePoolFor call renderTokenPage makes — bestApy and
+  // the attributed pool always come from the same pool, in both twins.
+  const headlinePool = headlinePoolFor(rec.pools);
+  const bestApy = poolTotalApy(headlinePool);
   // 174: the floor claim below derives from MIN_POOL_TVL, same as the HTML —
   // never a re-typed literal.
   const floorStr = formatUsd(MIN_POOL_TVL);
 
   // Direct-answer + FAQ (047): the SAME function call renderTokenPage makes,
   // with the SAME args — reused verbatim, never re-worded (212 fact parity).
-  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, top, language);
+  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
 
   // Real Markdown table, labelled columns, same data/link convention the
   // HTML's <tr> rows use (poolHrefFor + the 'seo_token' src attribution tag).
@@ -1215,9 +1335,13 @@ module.exports = {
   todayGeneratedDate, renderLastUpdatedHtml, loadFixturePools,
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
-  renderHreflangLinks, SUPPORTED_LANGS,
+  renderHreflangLinks, renderFontPreloadLinks, SUPPORTED_LANGS,
   yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
-  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH
+  MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
+  // 242: moved from generate-spotlight.js (which now imports + re-exports
+  // these same four under the same names — see that file's require line).
+  REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate,
+  headlinePoolFor
 };
 
 if (require.main === module) {

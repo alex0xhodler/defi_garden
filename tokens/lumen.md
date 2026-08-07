@@ -1,10 +1,10 @@
 # LUMEN DeFi Yields
 
-The highest honest LUMEN yield right now is 0.02% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LUMEN yield right now is 0.96% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=24288c25-12cd-4860-a83f-af3480a8eff7&src=seo_token) | Base | 0.02% | $297.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=24288c25-12cd-4860-a83f-af3480a8eff7&src=seo_token) | Base | 0.96% | $301.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LUMEN yield today?
 
-0.02% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.96% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many LUMEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $297.4K in total.
+1 live pool clear this page's $100K TVL floor, $301.2K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

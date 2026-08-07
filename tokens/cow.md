@@ -1,12 +1,12 @@
 # COW DeFi Yields
 
-The highest honest COW yield right now is 12.52% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COW yield right now is 7.38% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token) | Ethereum | 5.44% | $314.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token) | Ethereum | 12.52% | $302.4K |
-| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 0.76% | $274.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af&src=seo_token) | Ethereum | 7.38% | $313.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d8cf538a-cf9e-4675-a365-5506ed4711e8&src=seo_token) | Ethereum | 16.00% | $297.9K |
+| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 5.25% | $274K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COW yield today?
 
-12.52% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+7.38% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many COW pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $891.5K in total.
+3 live pools clear this page's $100K TVL floor, $885.1K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

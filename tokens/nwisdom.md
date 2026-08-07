@@ -4,7 +4,7 @@ The highest honest NWISDOM yield right now is 6.00% on nest-credit (Plume Mainne
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=8479e5cf-e8b8-4e50-b1ef-cc9d2c1abd4e&src=seo_token) | Plume Mainnet | 6.00% | $2.82M |
+| [nest-credit →](https://www.defi.garden/?pool=8479e5cf-e8b8-4e50-b1ef-cc9d2c1abd4e&src=seo_token) | Plume Mainnet | 6.00% | $2.84M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NWISDOM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.82M in total.
+1 live pool clear this page's $100K TVL floor, $2.84M in total.
 
 ### Are these rates safe?
 
@@ -25,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [USCC](https://www.defi.garden/tokens/uscc)
 - [NOPAL](https://www.defi.garden/tokens/nopal)
+- [USCC](https://www.defi.garden/tokens/uscc)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NCLOA](https://www.defi.garden/tokens/ncloa)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

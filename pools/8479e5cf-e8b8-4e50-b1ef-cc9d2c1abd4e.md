@@ -2,7 +2,7 @@
 
 **Total APY:** 6.00% (6.00% Base · + 0.00% Rewards)
 
-**TVL:** $2.82M
+**TVL:** $2.84M
 
 **Pool Type:** Yield Farming
 
@@ -18,7 +18,7 @@ Conservative DeFi strategy
 
 - Medium liquidity
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$1,338 in 5y at current rates.
 
@@ -30,4 +30,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on nest-credit](https://nest.credit/?ref=defi.garden)
 
-Last updated August 5, 2026
+Last updated August 7, 2026

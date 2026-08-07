@@ -1,13 +1,12 @@
 # WTAO 디파이 수익률
 
-현재 WTAO의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 101.31%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WTAO의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 9.22%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e9440a04-578f-43b8-8c53-c44c1187183d&src=seo_token) | Ethereum | 101.31% | $2.04M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 62.78% | $913K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 31.14% | $298K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token) | Ethereum | 8.93% | $230K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b2bbfa72-7557-48c6-aecd-3a9fb34b7c0a&src=seo_token) | Ethereum | 8.37% | $940.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e58126b8-6e4b-406b-bcbb-53a5ea5284bf&src=seo_token) | Ethereum | 9.22% | $292K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a4b243a7-7331-47b2-97a1-4101eb0b6643&src=seo_token) | Ethereum | 0.57% | $229.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +14,7 @@
 
 ### 오늘 WTAO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 101.31%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 9.22%예요.
 
 ### WTAO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 101.31%�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 7, 2026

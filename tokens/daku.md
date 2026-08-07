@@ -1,10 +1,10 @@
 # DAKU DeFi Yields
 
-The highest honest DAKU yield right now is 0.86% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAKU yield right now is 1.65% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7eed560d-f568-495f-85b6-80e84a8c6386&src=seo_token) | Solana | 0.86% | $195.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=7eed560d-f568-495f-85b6-80e84a8c6386&src=seo_token) | Solana | 1.65% | $194.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAKU yield today?
 
-0.86% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.65% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DAKU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $195.1K in total.
+1 live pool clear this page's $100K TVL floor, $194.4K in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [STRX](https://www.defi.garden/tokens/strx)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

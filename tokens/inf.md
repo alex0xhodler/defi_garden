@@ -1,10 +1,10 @@
 # INF DeFi Yields
 
-The highest honest INF yield right now is 5.71% on sanctum-infinity (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INF yield right now is 5.73% on sanctum-infinity (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.71% | $150.68M |
+| [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.73% | $150.16M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INF yield today?
 
-5.71% APY on sanctum-infinity (Solana), based on live DefiLlama data.
+5.73% APY on sanctum-infinity (Solana), based on live DefiLlama data.
 
 ### How many INF pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $162.01M in total.
+7 live pools clear this page's $100K TVL floor, $161.29M in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [STRX](https://www.defi.garden/tokens/strx)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

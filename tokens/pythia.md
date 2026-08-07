@@ -1,10 +1,10 @@
 # PYTHIA DeFi Yields
 
-The highest honest PYTHIA yield right now is 2.54% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PYTHIA yield right now is 1.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=de8f3155-c7e9-4d5f-8497-dc83f4e683be&src=seo_token) | Solana | 2.54% | $667K |
+| [raydium-amm →](https://www.defi.garden/?pool=de8f3155-c7e9-4d5f-8497-dc83f4e683be&src=seo_token) | Solana | 1.53% | $640.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PYTHIA yield today?
 
-2.54% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PYTHIA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $667K in total.
+1 live pool clear this page's $100K TVL floor, $640.9K in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [STRX](https://www.defi.garden/tokens/strx)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

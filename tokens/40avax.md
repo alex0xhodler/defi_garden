@@ -1,10 +1,10 @@
 # 40AVAX DeFi Yields
 
-The highest honest 40AVAX yield right now is 13.73% on 40-acres (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 40AVAX yield right now is 14.28% on 40-acres (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 13.73% | $507.3K |
+| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 14.28% | $502.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 40AVAX yield today?
 
-13.73% APY on 40-acres (Avalanche), based on live DefiLlama data.
+14.28% APY on 40-acres (Avalanche), based on live DefiLlama data.
 
 ### How many 40AVAX pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

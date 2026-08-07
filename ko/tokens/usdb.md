@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.09%예요.
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 7, 2026

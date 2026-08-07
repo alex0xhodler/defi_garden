@@ -1,12 +1,12 @@
 # IREET DeFi Yields
 
-The highest honest IREET yield right now is 32.76% on curve-dex (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IREET yield right now is 35.22% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token) | Ethereum | 18.19% | $1.88M |
-| [convex-finance →](https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token) | Ethereum | 31.80% | $1.25M |
-| [stake-dao →](https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token) | Ethereum | 32.76% | $773.2K |
+| [curve-dex →](https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token) | Ethereum | 21.42% | $1.98M |
+| [convex-finance →](https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token) | Ethereum | 35.22% | $1.17M |
+| [stake-dao →](https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token) | Ethereum | 33.73% | $820.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IREET yield today?
 
-32.76% APY on curve-dex (Ethereum), based on live DefiLlama data.
+35.22% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many IREET pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.91M in total.
+3 live pools clear this page's $100K TVL floor, $3.97M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026

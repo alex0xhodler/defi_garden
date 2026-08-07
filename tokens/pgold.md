@@ -4,7 +4,7 @@ The highest honest PGOLD yield right now is 0.01% on uniswap-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b4be06c4-0c13-407d-aa67-7b552860af28&src=seo_token) | Arbitrum | 0.01% | $333.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b4be06c4-0c13-407d-aa67-7b552860af28&src=seo_token) | Arbitrum | 0.01% | $346.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PGOLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $333.6K in total.
+1 live pool clear this page's $100K TVL floor, $346.5K in total.
 
 ### Are these rates safe?
 
@@ -26,13 +26,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 5, 2026
+## Last updated August 7, 2026
