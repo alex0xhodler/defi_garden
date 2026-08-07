@@ -1,3 +1,8 @@
+/* Mobile Safari text inflation off — real-device text inflation blew up the
+   header wordmark/search until controls collided and broke fixed-line-height
+   buttons; emulators never showed it. (fix-nav-flicker branch) */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
 :root {
   /* Primitive Color Tokens */
   --color-white: rgba(255, 255, 255, 1);

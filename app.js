@@ -3495,7 +3495,11 @@ function App() {
 
             React.createElement('div', { className: viewMode === 'list' ? 'pools-list' : 'pools-grid', key: 'pools' },
               paginatedPools.map((pool, index) =>
-                renderPoolCard(pool, `${pool.pool}-${index}`, (currentPage - 1) * itemsPerPage + index, index * 50)
+                // Key is the pool id ALONE — including the index remounted nearly
+                // every row when the live fetch replaced the snapshot (order
+                // shifts), refetching every protocol icon: the visible flicker
+                // right after results appear. Stable id = in-place update.
+                renderPoolCard(pool, pool.pool, (currentPage - 1) * itemsPerPage + index, index * 50)
               )
             )
           ),
