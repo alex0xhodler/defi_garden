@@ -1,12 +1,12 @@
 # TONIC DeFi Yields
 
-The highest honest TONIC yield right now is 44.13% on vvs-standard (Cronos), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TONIC yield right now is 1.18% on vvs-standard (Cronos), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 44.13% | $193.9K |
-| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 1.61% | $183K |
-| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 2.67% | $179.8K |
+| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 12.44% | $190.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.54% | $174.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 1.18% | $171.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TONIC yield today?
 
-44.13% APY on vvs-standard (Cronos), based on live DefiLlama data.
+1.18% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many TONIC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $556.7K in total.
+3 live pools clear this page's $100K TVL floor, $536.9K in total.
 
 ### Are these rates safe?
 
@@ -30,11 +30,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [XRP](https://www.defi.garden/tokens/xrp)
+- [LION](https://www.defi.garden/tokens/lion)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

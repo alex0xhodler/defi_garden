@@ -1,12 +1,12 @@
 # GEMSTON DeFi Yields
 
-The highest honest GEMSTON yield right now is 3.83% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GEMSTON yield right now is 1.30% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef&src=seo_token) | TON | 2.36% | $209.6K |
-| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.47% | $111.4K |
-| [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c&src=seo_token) | TON | 3.83% | $108.5K |
+| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef&src=seo_token) | TON | 1.20% | $210.5K |
+| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.33% | $109.1K |
+| [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c&src=seo_token) | TON | 1.30% | $107.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GEMSTON yield today?
 
-3.83% APY on ston.fi (TON), based on live DefiLlama data.
+1.30% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many GEMSTON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $429.5K in total.
+3 live pools clear this page's $100K TVL floor, $427K in total.
 
 ### Are these rates safe?
 
@@ -29,12 +29,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [GRAM](https://www.defi.garden/tokens/gram)
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
+- [OPENAI](https://www.defi.garden/tokens/openai)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [UTYA](https://www.defi.garden/tokens/utya)
-- [STON](https://www.defi.garden/tokens/ston)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

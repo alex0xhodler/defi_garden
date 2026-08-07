@@ -4,7 +4,7 @@ The highest honest WYLDS yield right now is 3.30% on hastra (Solana), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.30% | $4.66M |
+| [hastra →](https://www.defi.garden/?pool=2218b935-52b4-496b-9fb2-a59116503cf1&src=seo_token) | Solana | 3.30% | $5.12M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WYLDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.66M in total.
+1 live pool clear this page's $100K TVL floor, $5.12M in total.
 
 ### Are these rates safe?
 
@@ -28,11 +28,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

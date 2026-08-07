@@ -1,10 +1,10 @@
 # STRONGSOL DeFi Yields
 
-The highest honest STRONGSOL yield right now is 5.34% on stronghold-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STRONGSOL yield right now is 5.33% on stronghold-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stronghold-staked-sol →](https://www.defi.garden/?pool=2df41814-3481-4e53-a91f-4a621e750f91&src=seo_token) | Solana | 5.34% | $3.14M |
+| [stronghold-staked-sol →](https://www.defi.garden/?pool=2df41814-3481-4e53-a91f-4a621e750f91&src=seo_token) | Solana | 5.33% | $3.12M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STRONGSOL yield today?
 
-5.34% APY on stronghold-staked-sol (Solana), based on live DefiLlama data.
+5.33% APY on stronghold-staked-sol (Solana), based on live DefiLlama data.
 
 ### How many STRONGSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.05M in total.
+2 live pools clear this page's $100K TVL floor, $6.02M in total.
 
 ### Are these rates safe?
 
@@ -28,11 +28,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

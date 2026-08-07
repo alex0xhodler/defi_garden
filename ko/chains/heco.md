@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 1.49%예요.
 - [DOGE](https://www.defi.garden/ko/tokens/doge)
 - [CON](https://www.defi.garden/ko/tokens/con)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 7, 2026

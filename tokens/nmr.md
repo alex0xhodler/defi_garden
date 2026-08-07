@@ -1,10 +1,10 @@
 # NMR DeFi Yields
 
-The highest honest NMR yield right now is 6.90% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NMR yield right now is 2.10% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=778575e6-2083-498f-9052-83d80742801d&src=seo_token) | Ethereum | 6.90% | $127K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=778575e6-2083-498f-9052-83d80742801d&src=seo_token) | Ethereum | 2.10% | $127.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NMR yield today?
 
-6.90% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+2.10% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many NMR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127K in total.
+1 live pool clear this page's $100K TVL floor, $127.3K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

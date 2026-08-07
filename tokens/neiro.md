@@ -1,13 +1,12 @@
 # NEIRO DeFi Yields
 
-The highest honest NEIRO yield right now is 2.79% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEIRO yield right now is 3.48% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 2.79% | $2.54M |
-| [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 2.14% | $201.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 3.48% | $2.56M |
+| [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 0.65% | $200.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=607f17f6-b231-425c-8f54-565291ffb1d3&src=seo_token) | Solana | 0.40% | $131.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 0.01% | $114.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEIRO yield today?
 
-2.79% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.48% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NEIRO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.99M in total.
+4 live pools clear this page's $100K TVL floor, $3.01M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

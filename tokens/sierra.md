@@ -1,12 +1,12 @@
 # SIERRA DeFi Yields
 
-The highest honest SIERRA yield right now is 9.48% on pendle (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIERRA yield right now is 0.58% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=c485f3ca-df33-5ffc-8312-7bdb629be533&src=seo_token) | Ethereum | 7.05% | $20.5M |
-| [pendle →](https://www.defi.garden/?pool=0d057d1c-bc1c-55b4-a07f-1786d5f837ab&src=seo_token) | Ethereum | 9.48% | $20.5M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.04% | $6.7M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.58% | $6.75M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.34% | $207.5K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.07% | $159.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIERRA yield today?
 
-9.48% APY on pendle (Ethereum), based on live DefiLlama data.
+0.58% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SIERRA pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $48.02M in total.
+4 live pools clear this page's $100K TVL floor, $7.27M in total.
 
 ### Are these rates safe?
 
@@ -36,5 +36,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

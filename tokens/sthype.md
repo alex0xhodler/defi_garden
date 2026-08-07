@@ -1,11 +1,11 @@
 # STHYPE DeFi Yields
 
-The highest honest STHYPE yield right now is 2.51% on pendle (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STHYPE yield right now is 2.42% on pendle (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=0e022695-0c2a-4682-b93a-fffd8723fe7f&src=seo_token) | Hyperliquid L1 | 2.51% | $1.24M |
-| [pendle →](https://www.defi.garden/?pool=c15de172-944b-4303-971c-7a6e7564ad38&src=seo_token) | Hyperliquid L1 | 2.38% | $1.24M |
+| [pendle →](https://www.defi.garden/?pool=0e022695-0c2a-4682-b93a-fffd8723fe7f&src=seo_token) | Hyperliquid L1 | 2.35% | $1.35M |
+| [pendle →](https://www.defi.garden/?pool=c15de172-944b-4303-971c-7a6e7564ad38&src=seo_token) | Hyperliquid L1 | 2.42% | $1.35M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STHYPE yield today?
 
-2.51% APY on pendle (Hyperliquid L1), based on live DefiLlama data.
+2.42% APY on pendle (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many STHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.48M in total.
+2 live pools clear this page's $100K TVL floor, $2.69M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

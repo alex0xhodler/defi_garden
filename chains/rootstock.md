@@ -1,10 +1,11 @@
 # Rootstock DeFi Yields
 
-The highest honest Rootstock yield right now is 0.53% on sovryn-dex (Rootstock), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Rootstock yield right now is 0.52% on sovryn-dex (Rootstock), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XUSD-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_chain) | 0.53% | $954.6K |
+| XUSD-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_chain) | 0.52% | $963K |
+| BNB-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_chain) | 0.19% | $565.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Rootstock yield today?
 
-0.53% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
+0.52% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
 
 ### How many Rootstock pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3M in total.
+4 live pools clear this page's $100K TVL floor, $3.05M in total.
 
 ### Are these rates safe?
 
@@ -26,14 +27,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [BSC](https://www.defi.garden/chains/bsc)
 - [Base](https://www.defi.garden/chains/base)
+- [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Top tokens on Rootstock
 
-- [XUSD](https://www.defi.garden/tokens/xusd)
 - [RBTC](https://www.defi.garden/tokens/rbtc)
+- [XUSD](https://www.defi.garden/tokens/xusd)
+- [BNB](https://www.defi.garden/tokens/bnb)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

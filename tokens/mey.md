@@ -1,10 +1,10 @@
 # MEY DeFi Yields
 
-The highest honest MEY yield right now is 83.38% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEY yield right now is 125.15% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7c8d13e6-e5d7-43d8-8fef-72c2b9185963&src=seo_token) | Base | 83.38% | $106K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7c8d13e6-e5d7-43d8-8fef-72c2b9185963&src=seo_token) | Base | 125.15% | $101.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEY yield today?
 
-83.38% APY on uniswap-v3 (Base), based on live DefiLlama data.
+125.15% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MEY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106K in total.
+1 live pool clear this page's $100K TVL floor, $101.5K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

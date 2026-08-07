@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_token) | ICP | 8.05% | $4.95M |
-| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 0.37% | $111.4K |
+| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 0.29% | $101.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -29,11 +29,11 @@ DefiLlama 실시간 데이터 기준, ICP의 waterneuron에서 APY 8.05%예요.
 - [VCHF](https://www.defi.garden/ko/tokens/vchf)
 - [CKUSDC](https://www.defi.garden/ko/tokens/ckusdc)
 - [CKBTC](https://www.defi.garden/ko/tokens/ckbtc)
-- [CKETH](https://www.defi.garden/ko/tokens/cketh)
 - [GLDT](https://www.defi.garden/ko/tokens/gldt)
+- [CKUSDT](https://www.defi.garden/ko/tokens/ckusdt)
 
 ## 이용 가능한 체인
 
 - [ICP](https://www.defi.garden/ko/chains/icp)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 7, 2026

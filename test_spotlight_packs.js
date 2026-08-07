@@ -162,6 +162,26 @@ if (!packDirs.length) {
       const dims = pngDims(cardBuf);
       assert.strictEqual(dims.width, 1200, 'card.png width must be 1200');
       assert.strictEqual(dims.height, 630, 'card.png height must be 630');
+
+      // 229 — every regenerated committed pack must clear the two new gates
+      // on its OWN recorded numbers, carry a well-formed hook, and expose
+      // the additive story fields. isRepresentativeRate expects a raw
+      // pool-shaped object (apyBase/apyReward, not the pack's own already-
+      // summed `apy`) — reconstruct the minimal shape it reads rather than
+      // passing the pack object directly.
+      const poolShaped = { apyBase: pack.apy, apyReward: 0, apyMean30d: pack.apyMean30d };
+      assert.ok(gen.isRepresentativeRate(poolShaped), `committed pack "${slug}" fails isRepresentativeRate on its own recorded apy/apyMean30d`);
+      assert.ok(['smallProtocol', 'unusualRate', 'freshness'].includes(pack.hookAngle), `committed pack "${slug}" has an invalid hookAngle "${pack.hookAngle}"`);
+      assert.ok(typeof pack.hook === 'string' && pack.hook.length > 0, `committed pack "${slug}" is missing a non-empty hook`);
+      assert.ok(!pack.hook.includes('\n'), `committed pack "${slug}" hook is not a single line`);
+      assert.ok(!/\b(save up|afford|budget)\b/i.test(pack.hook), `committed pack "${slug}" hook used a ban-list word`);
+      if (pack.foreverAmtStr) {
+        assert.ok(pack.hook.includes(pack.foreverAmtStr), `committed pack "${slug}" hook forever figure must equal foreverAmtStr`);
+        assert.ok(pack.hook.includes(`forever at ${pack.effectiveApyStr}`), `committed pack "${slug}" hook forever rate must equal effectiveApyStr`);
+      }
+      assert.strictEqual(pack.canvaFields.hook, pack.hook, `committed pack "${slug}" canvaFields.hook must match pack.hook`);
+      const recomputedScore = (pack.storySignals.smallProtocol + pack.storySignals.unusualRate + pack.storySignals.freshness + pack.storySignals.rateRepresentative) / 4;
+      assert.ok(Math.abs(pack.storyScore - recomputedScore) < 1e-9, `committed pack "${slug}" storyScore does not equal the mean of its own storySignals`);
     });
   });
 

@@ -202,6 +202,45 @@ test('(b) enumeration sanity: at least 15,000 files tracked (refuses to run agai
    =========================================================================== */
 console.log('(c) MUST-KEEP allowlist');
 
+// spotlights/<slug>/{pack.json,card.png} — item 229: the pack slug churns
+// BY DESIGN ("3 packs/week refreshed with live numbers" — spec 229's own
+// acceptance shape). A hardcoded slug here would be exactly the defect this
+// file exists to catch, one refresh later: every weekly regen deletes the
+// old slug directories and commits new ones, so a literal
+// 'spotlights/<old-slug>/pack.json' entry goes stale on the very next
+// cadence and fails check (c)'s "every MUST_KEEP path is tracked" sanity
+// gate for a reason that has nothing to do with .vercelignore (build.md's
+// guard rule / RAZOR.md: derive from the machine-readable source instead of
+// hand-maintaining a mirror of it — this DOES have caught it once already,
+// see 229-notes.md's second post-review finding). Derived from ALL_FILES
+// (the real `git ls-files` enumeration, already computed above) so it is
+// always exactly whatever spotlight packs are actually tracked right now,
+// never a stale slug list. `spotlights/CADENCE.md` stays a literal entry —
+// it is a fixed path, not slug-dependent.
+const spotlightPackFiles = ALL_FILES.filter((f) => /^spotlights\/[^/]+\/pack\.json$/.test(f));
+const spotlightCardFiles = ALL_FILES.filter((f) => /^spotlights\/[^/]+\/card\.png$/.test(f));
+
+// Non-vacuity guard: a derivation that comes back empty (e.g. every pack
+// deleted mid-regen, or the glob silently stopped matching) would make the
+// MUST_KEEP loop below iterate zero spotlight entries and PASS trivially —
+// exactly the vacuous-green failure mode LEARNINGS 2026-07-27 warns about
+// ("a filter returning zero is not evidence of health"). The weakest
+// predicate that separates the known-bad case (0 — nothing left for the
+// MUST_KEEP loop to test) from the known-good case (>=1 — at least one real
+// KEPT assertion runs) is `> 0`, so that is what this asserts — a specific
+// pack COUNT (e.g. today's committed 3) is a product/cadence invariant, not
+// a `.vercelignore`-correctness one, and is out of scope for this file
+// (spec 229 §5's "3 packs" is this build's one-time regen output, never a
+// standing invariant this gate should enforce). Also assert the two
+// derivations stay in lockstep (every pack.json has a sibling card.png) so
+// a partial-write regen would be caught too.
+test('(c) non-vacuity: at least one spotlight pack.json is tracked — an empty derivation would silently under-test this section', () => {
+  assert.ok(spotlightPackFiles.length > 0,
+    `expected >0 tracked spotlights/*/pack.json files, got ${spotlightPackFiles.length} — if this ever drops to 0 the MUST_KEEP loop below tests nothing for the spotlights/ class and would still report green`);
+  assert.strictEqual(spotlightPackFiles.length, spotlightCardFiles.length,
+    `spotlight pack.json (${spotlightPackFiles.length}) and card.png (${spotlightCardFiles.length}) counts must match — every committed pack ships both`);
+});
+
 const MUST_KEEP = [
   // App shell / router.
   'home.html', 'plan.html',
@@ -220,9 +259,15 @@ const MUST_KEEP = [
   // SEO / agent-discovery surface.
   'robots.txt', 'llms.txt', 'llms-full.txt', 'openapi.json', 'status',
   'fa81c8f43e7870a3b48e7481b2b7c8df.txt',
-  'sitemap.xml', 'sitemap-main.xml', 'sitemap-chain-Ethereum.xml',
-  'sitemap-category-Lending.xml', 'sitemap-token-pages.xml',
-  'sitemap-chain-pages-ko.xml', 'sitemap-tokens-all.xml',
+  // item 226 (Google head-curation, 2026-08-05): EMIT_APP_VIEW_SITEMAPS now
+  // defaults to false, so generate-sitemap.js stops regenerating the
+  // app-view families (sitemap-chain-<Chain>.xml, sitemap-category-<Cat>.xml,
+  // sitemap-tokens-all.xml) — the next real CI regen deletes them via
+  // cleanupStaleSitemaps (080), and a MUST-KEEP entry naming a file that no
+  // longer exists would fail check (c)'s "every MUST-KEEP path is tracked"
+  // sanity gate. Replaced with head-family members that keep shipping.
+  'sitemap.xml', 'sitemap-main.xml', 'sitemap-token-pages.xml',
+  'sitemap-chain-pages.xml', 'sitemap-chain-pages-ko.xml', 'sitemap-token-pages-ko.xml',
   // Social / favicons.
   'og-image.png',
   // Agent-discovery skill doc — NOT excluded despite looking like an
@@ -239,9 +284,9 @@ const MUST_KEEP = [
   'tools/calculate_projection.json', 'tools/get_curated_pools.json', 'tools/test-agent-tools.js',
   // Persona landing pages.
   'stories/tomoko.html', 'stories/kevin.html', 'stories/lucia.html', 'stories/stories.css',
-  // spotlights (not named in the spec's exclude list; leave served).
-  'spotlights/CADENCE.md', 'spotlights/pareto-credit-usdc-ethereum/card.png',
-  'spotlights/pareto-credit-usdc-ethereum/pack.json',
+  // spotlights (not named in the spec's exclude list; leave served) — see
+  // the derivation + non-vacuity guard immediately above this array.
+  'spotlights/CADENCE.md', ...spotlightPackFiles, ...spotlightCardFiles,
   // og social-card images.
   'og/chains/algorand.png',
   // tokens/chains/ko — the .html AND item-212 .md twins, both must serve.
@@ -413,7 +458,15 @@ test('(e) link-integrity fixture sanity: the scan set is non-empty and covers ev
   assert.ok(storyHtmlFiles.length >= 3, `expected >=3 stories/*.html files, got ${storyHtmlFiles.length}`);
   assert.ok(shippedAppJs.length >= 10, `expected >=10 shipped app JS files, got ${shippedAppJs.length}`);
   assert.ok(llmsFiles.length === 2, `expected llms.txt + llms-full.txt, got ${llmsFiles.length}`);
-  assert.ok(sitemapFiles.length >= 100, `expected >=100 sitemap*.xml files, got ${sitemapFiles.length}`);
+  // item 226 (Google head-curation, 2026-08-05): was ">=100" — the app-view
+  // families (sitemap-chain-<Chain>.xml, sitemap-category-<Cat>.xml,
+  // sitemap-tokens-all.xml — ~108 of the prior ~114 files) stop regenerating
+  // by default (EMIT_APP_VIEW_SITEMAPS=false) and are removed by
+  // cleanupStaleSitemaps (080) on the next real CI run, leaving only
+  // sitemap.xml + sitemap-main.xml + the 4 token/chain (en+ko) page sitemaps.
+  // Lowered so this check keeps passing through that transition instead of
+  // silently breaking the day CI regenerates for real.
+  assert.ok(sitemapFiles.length >= 5, `expected >=5 sitemap*.xml files, got ${sitemapFiles.length}`);
   assert.ok(wellKnownJsonFiles.length >= 5, `expected >=5 .well-known/**/*.json files, got ${wellKnownJsonFiles.length}`);
   assert.ok(openapiFiles.length === 1, 'expected openapi.json in the scan set');
   assert.ok(toolsJsonFiles.length >= 2, `expected >=2 tools/*.json files, got ${toolsJsonFiles.length}`);

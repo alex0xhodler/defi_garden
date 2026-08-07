@@ -1,11 +1,11 @@
 # POD DeFi Yields
 
-The highest honest POD yield right now is 163.24% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POD yield right now is 277.41% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 12.60% | $4.55M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 163.24% | $301.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 26.70% | $4.6M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 277.41% | $250.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POD yield today?
 
-163.24% APY on uniswap-v4 (Base), based on live DefiLlama data.
+277.41% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many POD pools clear the TVL floor?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

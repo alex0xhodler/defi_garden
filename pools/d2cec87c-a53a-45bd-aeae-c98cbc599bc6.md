@@ -1,12 +1,12 @@
 # FXSAVE-SCRVUSD — curve-dex on Ethereum
 
-**Total APY:** 1.87% (1.87% Base · + 0.00% Rewards)
+**Total APY:** 2.58% (2.58% Base · + 0.00% Rewards)
 
-**TVL:** $541.7K
+**TVL:** $427.4K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.10%
+**30d Mean APY:** 2.90%
 
 **Exposure:** multi
 
@@ -19,16 +19,16 @@ Moderate risk profile
 - Low liquidity
 - Impermanent loss risk
 
-## The Long Game
+## The long game
 
-$1,000 in this pool grows to ~$1,097 in 5y at current rates.
+$1,000 in this pool grows to ~$1,136 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 1.87% right now vs a 3.10% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
-[Garden this pool → ~$1,097 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,136 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 
-Last updated August 4, 2026
+Last updated August 7, 2026

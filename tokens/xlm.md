@@ -1,12 +1,12 @@
 # XLM DeFi Yields
 
-The highest honest XLM yield right now is 1.43% on blend-pools-v2 (Stellar), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XLM yield right now is 0.50% on blend-pools-v2 (Stellar), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $114.35M |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.50% | $651.2K |
-| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 1.43% | $108.9K |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $109.02M |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.50% | $619.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 0.60% | $104.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XLM yield today?
 
-1.43% APY on blend-pools-v2 (Stellar), based on live DefiLlama data.
+0.50% APY on blend-pools-v2 (Stellar), based on live DefiLlama data.
 
 ### How many XLM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $115.11M in total.
+3 live pools clear this page's $100K TVL floor, $109.74M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Stellar](https://www.defi.garden/chains/stellar)
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

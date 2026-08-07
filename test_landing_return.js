@@ -115,7 +115,9 @@ async function main() {
     {
       const cardText = await page.locator('[data-testid="landing-return-card"]').innerText();
       assert.ok(cardText.includes('Spotify'), 'return card should show the goal label');
-      assert.ok(cardText.includes('Welcome back'), 'return card should show the welcome caption');
+      // Case-insensitive: the caption renders in the certificate plate-label
+      // voice (CSS text-transform: uppercase), which innerText reflects.
+      assert.ok(/welcome back/i.test(cardText), 'return card should show the welcome caption');
       assert.strictEqual(await page.locator('[data-testid="landing-return-cta"]').getAttribute('href'), 'plan.html');
       assert.strictEqual(await page.locator('.landing-garden-card h2:has-text("Have a goal in mind?")').count(), 0, 'generic prompt must yield to the return card');
     }

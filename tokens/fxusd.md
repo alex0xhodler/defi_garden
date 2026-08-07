@@ -1,17 +1,17 @@
 # FXUSD DeFi Yields
 
-The highest honest FXUSD yield right now is 29.01% on curve-dex (Ethereum), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXUSD yield right now is 1.04% on aerodrome-slipstream (Base), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token) | Ethereum | 0.44% | $5.73M |
-| [convex-finance →](https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token) | Ethereum | 0.44% | $5.63M |
-| [curve-dex →](https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token) | Ethereum | 29.01% | $610K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=bfcc6016-8fa5-48c0-b922-5be6c6ebd95b&src=seo_token) | Base | 0.89% | $552.1K |
-| [curve-dex →](https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token) | Ethereum | 0.15% | $523.1K |
-| [convex-finance →](https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token) | Ethereum | 0.15% | $523.1K |
-| [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 10.70% | $241.7K |
-| [curve-dex →](https://www.defi.garden/?pool=10cac21d-065d-48c3-8f15-26bc2c130061&src=seo_token) | Ethereum | 0.13% | $205.9K |
+| [curve-dex →](https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token) | Ethereum | 1.64% | $6.27M |
+| [convex-finance →](https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token) | Ethereum | 1.64% | $5.94M |
+| [curve-dex →](https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token) | Ethereum | 0.71% | $612.5K |
+| [curve-dex →](https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token) | Ethereum | 0.83% | $510.1K |
+| [convex-finance →](https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token) | Ethereum | 0.83% | $510.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bfcc6016-8fa5-48c0-b922-5be6c6ebd95b&src=seo_token) | Base | 1.04% | $509.9K |
+| [curve-dex →](https://www.defi.garden/?pool=4c68a55a-84e3-48a7-8e5b-2ca451d1835e&src=seo_token) | Ethereum | 3.46% | $444.1K |
+| [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 0.99% | $212K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FXUSD yield today?
 
-29.01% APY on curve-dex (Ethereum), based on live DefiLlama data.
+1.04% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many FXUSD pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $17.38M in total.
+12 live pools clear this page's $100K TVL floor, $17.73M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

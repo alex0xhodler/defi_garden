@@ -1,11 +1,11 @@
 # Tempo DeFi Yields
 
-The highest honest Tempo yield right now is 3.46% on morpho-blue (Tempo), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Tempo yield right now is 3.45% on morpho-blue (Tempo), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11&src=seo_chain) | 2.96% | $20.25M |
-| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_chain) | 3.46% | $297.9K |
+| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11&src=seo_chain) | 2.85% | $20.77M |
+| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_chain) | 3.45% | $298.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Tempo yield today?
 
-3.46% APY on morpho-blue (Tempo), based on live DefiLlama data.
+3.45% APY on morpho-blue (Tempo), based on live DefiLlama data.
 
 ### How many Tempo pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $25.91M in total.
+3 live pools clear this page's $100K TVL floor, $27.74M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SENPATHUSD](https://www.defi.garden/tokens/senpathusd)
 - [GTPATHUSDP](https://www.defi.garden/tokens/gtpathusdp)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

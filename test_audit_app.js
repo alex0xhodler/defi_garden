@@ -71,9 +71,9 @@ async function main() {
   // race — specs/219-notes.md "(a)"/"(b)"/"(d)") on three surfaces today:
   //   (a) `grid-360` P0 — a duplicate, non-fixed `.theme-toggle`
   //       (app.js:3139, distinct from the header's own
-  //       `.google-control-btn.theme-toggle`, app.js:3062) renders in
+  //       `.app-control-btn.theme-toggle`, app.js:3062) renders in
   //       normal document flow directly under the fixed
-  //       `.google-header-sticky` (style.css:903) once `.app.has-results`
+  //       `.app-header-sticky` (style.css:903) once `.app.has-results`
   //       (grid pages) leaves the mobile `.app:not(.has-results)
   //       .theme-toggle { position: fixed }` override (style.css:4329)
   //       un-applied and the base mobile rule `.theme-toggle { position:

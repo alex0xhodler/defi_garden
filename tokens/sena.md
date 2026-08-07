@@ -1,11 +1,12 @@
 # SENA DeFi Yields
 
-The highest honest SENA yield right now is 14.31% on pendle (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENA yield right now is 14.60% on pendle (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.31% | $2.73M |
-| [pendle →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 5.75% | $2.73M |
+| [pendle →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.60% | $2.84M |
+| [pendle →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 6.18% | $2.84M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.07% | $1.91M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENA yield today?
 
-14.31% APY on pendle (Ethereum), based on live DefiLlama data.
+14.60% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SENA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $7.33M in total.
+3 live pools clear this page's $100K TVL floor, $7.6M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

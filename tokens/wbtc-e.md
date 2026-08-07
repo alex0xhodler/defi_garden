@@ -1,11 +1,11 @@
 # WBTC.E DeFi Yields
 
-The highest honest WBTC.E yield right now is 0.12% on benqi-lending (Avalanche), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBTC.E yield right now is 0.01% on benqi-lending (Avalanche), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token) | Avalanche | 0.01% | $1.39M |
-| [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token) | Avalanche | 0.12% | $229K |
+| [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token) | Avalanche | 0.01% | $1.4M |
+| [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token) | Avalanche | 3.52% | $233K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WBTC.E yield today?
 
-0.12% APY on benqi-lending (Avalanche), based on live DefiLlama data.
+0.01% APY on benqi-lending (Avalanche), based on live DefiLlama data.
 
 ### How many WBTC.E pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.76M in total.
+3 live pools clear this page's $100K TVL floor, $1.78M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

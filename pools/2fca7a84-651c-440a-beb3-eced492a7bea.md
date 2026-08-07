@@ -1,8 +1,8 @@
 # VVS-WCRO — vvs-standard on Cronos
 
-**Total APY:** 0.05% (0.05% Base · + 0.00% Rewards)
+**Total APY:** 0.13% (0.13% Base · + 0.00% Rewards)
 
-**TVL:** $29.25M
+**TVL:** $27.67M
 
 **Pool Type:** Yield Farming
 
@@ -18,16 +18,16 @@ Conservative DeFi strategy
 
 - High liquidity
 
-## The Long Game
+## The long game
 
-$1,000 in this pool grows to ~$1,002 in 5y at current rates.
+$1,000 in this pool grows to ~$1,007 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.05% right now vs a 0.03% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.13% right now vs a 0.03% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,002 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,007 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on vvs-standard](https://vvs.finance/?ref=defi.garden)
 
-Last updated August 4, 2026
+Last updated August 7, 2026

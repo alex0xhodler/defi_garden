@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.38% | $17.17M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.38% | $17.25M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -24,8 +24,8 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 0.38%예요
 
 ## 관련 토큰
 
-- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [IBERA](https://www.defi.garden/ko/tokens/ibera)
 - [HONEY](https://www.defi.garden/ko/tokens/honey)
 - [RE7HONEY](https://www.defi.garden/ko/tokens/re7honey)
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 0.38%예요
 
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 7, 2026

@@ -4,8 +4,8 @@ The highest honest ZBTC yield right now is 1.06% on loopscale (Solana), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.06% | $302.7K |
-| [orca-dex →](https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token) | Solana | 0.33% | $136.4K |
+| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.06% | $302.9K |
+| [orca-dex →](https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token) | Solana | 0.42% | $135.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $670.8K in total.
+4 live pools clear this page's $100K TVL floor, $670.1K in total.
 
 ### Are these rates safe?
 
@@ -29,11 +29,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

@@ -1,11 +1,11 @@
 # MARSCOIN DeFi Yields
 
-The highest honest MARSCOIN yield right now is 452.15% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MARSCOIN yield right now is 0.02% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=79e3a42d-adfe-5f1e-8ca1-7b3d446bcb09&src=seo_token) | Solana | 0.02% | $30.94M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9bfee195-b9a4-5dc7-b442-ea3c46124fb4&src=seo_token) | BSC | 452.15% | $104.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=5fc831f1-b421-5e93-87a5-6c03774c8f1e&src=seo_token) | Solana | 0.02% | $27.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MARSCOIN yield today?
 
-452.15% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MARSCOIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $31.05M in total.
+3 live pools clear this page's $100K TVL floor, $117.97M in total.
 
 ### Are these rates safe?
 
@@ -26,15 +26,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT](https://www.defi.garden/tokens/usdt)
-- [USYC](https://www.defi.garden/tokens/usyc)
+- [USDY](https://www.defi.garden/tokens/usdy)
+- [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
-- [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

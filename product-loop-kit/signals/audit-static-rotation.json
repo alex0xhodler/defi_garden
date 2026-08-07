@@ -19,7 +19,19 @@
       "tokens/brz.html",
       "tokens/hyusd.html",
       "tokens/react.html",
-      "tokens/vdr.html"
+      "tokens/vdr.html",
+      "tokens/tsuka.html",
+      "tokens/aura.html",
+      "tokens/gno.html",
+      "tokens/palm.html",
+      "tokens/slnusdt.html",
+      "tokens/xbtc.html",
+      "tokens/cusdo.html",
+      "tokens/liquidusd.html",
+      "tokens/maka.html",
+      "tokens/srmhyper.html",
+      "tokens/yog.html",
+      "tokens/doge.html"
     ]
   },
   "chains": {
@@ -32,7 +44,13 @@
       "chains/neutron.html",
       "chains/berachain.html",
       "chains/stacks.html",
-      "chains/flow.html"
+      "chains/flow.html",
+      "chains/heco.html",
+      "chains/tac.html",
+      "chains/venom.html",
+      "chains/icp.html",
+      "chains/monad.html",
+      "chains/astar.html"
     ]
   },
   "koTokens": {
@@ -49,7 +67,19 @@
       "ko/tokens/jrusde.html",
       "ko/tokens/sani.html",
       "ko/tokens/wfai.html",
-      "ko/tokens/chillguy.html"
+      "ko/tokens/chillguy.html",
+      "ko/tokens/yieldusdt.html",
+      "ko/tokens/dola.html",
+      "ko/tokens/maticx.html",
+      "ko/tokens/speth.html",
+      "ko/tokens/ususds.html",
+      "ko/tokens/black.html",
+      "ko/tokens/hgeth.html",
+      "ko/tokens/qqqb.html",
+      "ko/tokens/wbnb.html",
+      "ko/tokens/car.html",
+      "ko/tokens/inv.html",
+      "ko/tokens/rsup.html"
     ]
   },
   "koChains": {
@@ -60,7 +90,13 @@
       "ko/chains/icp.html",
       "ko/chains/tron.html",
       "ko/chains/bifrost-network.html",
-      "ko/chains/neutron.html"
+      "ko/chains/neutron.html",
+      "ko/chains/megaeth.html",
+      "ko/chains/algorand.html",
+      "ko/chains/cronos-zkevm.html",
+      "ko/chains/robinhood-chain.html",
+      "ko/chains/canto.html",
+      "ko/chains/osmosis.html"
     ]
   }
 }

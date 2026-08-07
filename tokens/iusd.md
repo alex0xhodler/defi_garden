@@ -1,12 +1,12 @@
 # IUSD DeFi Yields
 
-The highest honest IUSD yield right now is 14.12% on echelon-market (Echelon Initia), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IUSD yield right now is 14.51% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 2.91% | $936.3K |
-| [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 3.51% | $208.5K |
-| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.12% | $170.3K |
+| [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 2.73% | $978.4K |
+| [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 3.52% | $208.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.51% | $174.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IUSD yield today?
 
-14.12% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
+14.51% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many IUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.62M in total.
+4 live pools clear this page's $100K TVL floor, $4.89M in total.
 
 ### Are these rates safe?
 
@@ -29,13 +29,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
 - [USDA](https://www.defi.garden/tokens/usda)
-- [USDCX](https://www.defi.garden/tokens/usdcx)
 - [NIGHT](https://www.defi.garden/tokens/night)
-- [FET](https://www.defi.garden/tokens/fet)
+- [USDCX](https://www.defi.garden/tokens/usdcx)
+- [MIN](https://www.defi.garden/tokens/min)
 
 ## Available on
 
 - [Echelon Initia](https://www.defi.garden/chains/echelon-initia)
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

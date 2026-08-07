@@ -1,10 +1,10 @@
 # USUSDS DeFi Yields
 
-The highest honest USUSDS yield right now is 2.26% on usual-usd0 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USUSDS yield right now is 2.60% on usual-usd0 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=c90a82e7-0988-4bee-8d31-1b5fea9b99d9&src=seo_token) | Ethereum | 2.26% | $229.7K |
+| [usual-usd0 →](https://www.defi.garden/?pool=c90a82e7-0988-4bee-8d31-1b5fea9b99d9&src=seo_token) | Ethereum | 2.60% | $208.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USUSDS yield today?
 
-2.26% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
+2.60% APY on usual-usd0 (Ethereum), based on live DefiLlama data.
 
 ### How many USUSDS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $229.7K in total.
+1 live pool clear this page's $100K TVL floor, $208.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

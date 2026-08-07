@@ -1,15 +1,15 @@
 # GTUSDCP DeFi Yields
 
-The highest honest GTUSDCP yield right now is 5.07% on morpho-blue (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDCP yield right now is 5.07% on morpho-blue (OP Mainnet), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469&src=seo_token) | Base | 4.32% | $426.87M |
-| [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97&src=seo_token) | Base | 4.31% | $89.36M |
-| [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c&src=seo_token) | Ethereum | 3.51% | $79.05M |
+| [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469&src=seo_token) | Base | 5.04% | $428.25M |
+| [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97&src=seo_token) | Base | 4.93% | $92.94M |
+| [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c&src=seo_token) | Ethereum | 3.40% | $77.8M |
 | [morpho-blue →](https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc&src=seo_token) | OP Mainnet | 5.07% | $1.05M |
-| [morpho-blue →](https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25&src=seo_token) | Arbitrum | 3.20% | $660.2K |
-| [morpho-blue →](https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170&src=seo_token) | Arbitrum | 3.42% | $327.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25&src=seo_token) | Arbitrum | 2.62% | $510.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170&src=seo_token) | Arbitrum | 2.60% | $314.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDCP yield today?
 
-5.07% APY on morpho-blue (Base), based on live DefiLlama data.
+5.07% APY on morpho-blue (OP Mainnet), based on live DefiLlama data.
 
 ### How many GTUSDCP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $597.32M in total.
+6 live pools clear this page's $100K TVL floor, $600.87M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

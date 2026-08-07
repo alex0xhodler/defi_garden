@@ -4,7 +4,8 @@ The highest honest WQQQX yield right now is 0.14% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=85731ac0-c354-4ddc-a796-9d3bafde7a1d&src=seo_token) | Ethereum | 0.14% | $326.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=85731ac0-c354-4ddc-a796-9d3bafde7a1d&src=seo_token) | Ethereum | 0.14% | $327.2K |
+| [fluxion-network →](https://www.defi.garden/?pool=2364dd66-69d3-44ef-9e85-4d5217a57b57&src=seo_token) | Mantle | 1.19% | $110.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WQQQX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $434.1K in total.
+2 live pools clear this page's $100K TVL floor, $437.2K in total.
 
 ### Are these rates safe?
 
@@ -34,5 +35,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

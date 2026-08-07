@@ -4,6 +4,7 @@ The highest honest OPENAI yield right now is 2.77% on uniswap-v4 (Base), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [tonco →](https://www.defi.garden/?pool=9eb91d9d-867b-5ffe-a02f-fced15a65796&src=seo_token) | TON | 1.18% | $6.85M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=2ea20ccd-61d5-5848-ae93-8219c769b2a8&src=seo_token) | Base | 2.77% | $222K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -16,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OPENAI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.68M in total.
+3 live pools clear this page's $100K TVL floor, $7.19M in total.
 
 ### Are these rates safe?
 
@@ -33,6 +34,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Available on
 
+- [TON](https://www.defi.garden/chains/ton)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

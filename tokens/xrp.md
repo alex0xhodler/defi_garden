@@ -1,16 +1,16 @@
 # XRP DeFi Yields
 
-The highest honest XRP yield right now is 78.10% on venus-core-pool (BSC), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XRP yield right now is 77.48% on gmtrade (Solana), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token) | BSC | 0.54% | $4.81M |
-| [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token) | XRPL EVM | 2.21% | $716.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token) | BSC | 7.58% | $461.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token) | BSC | 1.04% | $310.9K |
-| [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token) | Cronos | 1.06% | $279.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token) | BSC | 8.11% | $144.3K |
-| [gmtrade →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token) | Solana | 78.10% | $118.2K |
+| [venus-core-pool →](https://www.defi.garden/?pool=0204c8ff-0805-4515-a27e-742d23a15719&src=seo_token) | BSC | 0.53% | $4.62M |
+| [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_token) | XRPL EVM | 2.21% | $671.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e8d19139-6a5c-4e51-b3f5-a4230b65a871&src=seo_token) | BSC | 11.48% | $451.1K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=c279bec9-4f14-4d9d-8543-50aa2758c9b3&src=seo_token) | BSC | 2.40% | $294.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=980baf38-bcaa-43b6-89a6-279ed6740add&src=seo_token) | Cronos | 5.64% | $265.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=96da613c-8ae3-49b3-98a7-613e924fcd56&src=seo_token) | BSC | 15.30% | $130.3K |
+| [gmtrade →](https://www.defi.garden/?pool=7a0f46c7-e8ad-47bf-b5d0-80fb9ed249f1&src=seo_token) | Solana | 77.48% | $119.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,11 +18,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XRP yield today?
 
-78.10% APY on venus-core-pool (BSC), based on live DefiLlama data.
+77.48% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many XRP pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $10.16M in total.
+12 live pools clear this page's $100K TVL floor, $9.93M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Cronos](https://www.defi.garden/chains/cronos)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

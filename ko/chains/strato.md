@@ -1,11 +1,11 @@
 # Strato 디파이 수익률
 
-현재 Strato의 가장 높은 정직한 수익률은 Strato의 strato에서 8.35%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Strato의 가장 높은 정직한 수익률은 Strato의 strato에서 6.40%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDST | [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f&src=seo_chain) | 5.00% | $1.69M |
-| STRATO | [strato →](https://www.defi.garden/?pool=af58b38a-fa8b-529e-af1d-43e904e929e0&src=seo_chain) | 8.35% | $564.6K |
+| USDST | [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f&src=seo_chain) | 5.00% | $1.68M |
+| STRATO | [strato →](https://www.defi.garden/?pool=af58b38a-fa8b-529e-af1d-43e904e929e0&src=seo_chain) | 6.40% | $736.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 Strato의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 8.35%예요.
+DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 6.40%예요.
 
 ### Strato 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.25M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.41M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -27,8 +27,8 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 8.35%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
-- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Base](https://www.defi.garden/ko/chains/base)
+- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 8.35%예요.
 - [USDST](https://www.defi.garden/ko/tokens/usdst)
 - [STRATO](https://www.defi.garden/ko/tokens/strato)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 7, 2026

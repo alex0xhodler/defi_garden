@@ -1,13 +1,13 @@
 # LIUSD DeFi Yields
 
-The highest honest LIUSD yield right now is 7.64% on infinifi (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIUSD yield right now is 8.48% on infinifi (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token) | Ethereum | 7.09% | $5.66M |
-| [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 6.28% | $2.69M |
-| [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 7.64% | $1.26M |
-| [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token) | Ethereum | 5.21% | $980K |
+| [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token) | Ethereum | 7.88% | $5.66M |
+| [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 6.97% | $2.69M |
+| [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.48% | $1.26M |
+| [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token) | Ethereum | 5.78% | $968.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIUSD yield today?
 
-7.64% APY on infinifi (Ethereum), based on live DefiLlama data.
+8.48% APY on infinifi (Ethereum), based on live DefiLlama data.
 
 ### How many LIUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $10.59M in total.
+4 live pools clear this page's $100K TVL floor, $10.58M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

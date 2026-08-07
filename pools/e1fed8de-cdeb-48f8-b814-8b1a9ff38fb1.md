@@ -2,7 +2,7 @@
 
 **Total APY:** 3.80% (3.80% Base · + 0.00% Rewards)
 
-**TVL:** $1.75M
+**TVL:** $1.61M
 
 **Pool Type:** Yield Farming
 
@@ -18,7 +18,7 @@ Conservative DeFi strategy
 
 - Medium liquidity
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$1,205 in 5y at current rates.
 
@@ -30,4 +30,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on harmonix-finance](https://app.harmonix.fi/?ref=defi.garden)
 
-Last updated August 4, 2026
+Last updated August 7, 2026

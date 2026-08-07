@@ -1,12 +1,12 @@
 # WSOL-JELLYJELLY — raydium-amm on Solana
 
-**Total APY:** 2.75% (2.75% Base · + 0.00% Rewards)
+**Total APY:** 2.57% (2.57% Base · + 0.00% Rewards)
 
-**TVL:** $4.18M
+**TVL:** $4.2M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 6.61%
+**30d Mean APY:** 6.24%
 
 **Exposure:** multi
 
@@ -19,16 +19,16 @@ Moderate risk profile
 - Medium liquidity
 - Impermanent loss risk
 
-## The Long Game
+## The long game
 
-$1,000 in this pool grows to ~$1,145 in 5y at current rates.
+$1,000 in this pool grows to ~$1,135 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 2.75% right now vs a 6.61% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 2.57% right now vs a 6.24% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,145 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,135 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated August 4, 2026
+Last updated August 7, 2026

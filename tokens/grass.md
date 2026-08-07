@@ -1,11 +1,11 @@
 # GRASS DeFi Yields
 
-The highest honest GRASS yield right now is 1.25% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GRASS yield right now is 0.01% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token) | Solana | 1.25% | $232.3K |
-| [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.01% | $137.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token) | Solana | 3.16% | $234.6K |
+| [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.01% | $139.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GRASS yield today?
 
-1.25% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.01% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many GRASS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $490.9K in total.
+3 live pools clear this page's $100K TVL floor, $495.9K in total.
 
 ### Are these rates safe?
 
@@ -29,11 +29,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

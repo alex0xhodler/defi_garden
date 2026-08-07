@@ -1,11 +1,11 @@
 # VBUSDT 디파이 수익률
 
-현재 VBUSDT의 가장 높은 정직한 수익률은 Katana의 yearn-finance에서 4.56%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VBUSDT의 가장 높은 정직한 수익률은 Katana의 yearn-finance에서 2.57%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 2.23% | $2.61M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 4.56% | $2.21M |
+| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 2.57% | $2.06M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 2.92% | $1.74M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 VBUSDT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Katana의 yearn-finance에서 APY 4.56%예요.
+DefiLlama 실시간 데이터 기준, Katana의 yearn-finance에서 APY 2.57%예요.
 
 ### VBUSDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $4.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $3.8M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -27,13 +27,13 @@ DefiLlama 실시간 데이터 기준, Katana의 yearn-finance에서 APY 4.56%예
 
 - [STEAKUSDC](https://www.defi.garden/ko/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/ko/tokens/bbqusdc)
-- [GTUSDC](https://www.defi.garden/ko/tokens/gtusdc)
 - [VBWBTC](https://www.defi.garden/ko/tokens/vbwbtc)
-- [GTWETH](https://www.defi.garden/ko/tokens/gtweth)
 - [YMVOG](https://www.defi.garden/ko/tokens/ymvog)
+- [GTWETH](https://www.defi.garden/ko/tokens/gtweth)
+- [VBUSDC](https://www.defi.garden/ko/tokens/vbusdc)
 
 ## 이용 가능한 체인
 
 - [Katana](https://www.defi.garden/ko/chains/katana)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 7, 2026

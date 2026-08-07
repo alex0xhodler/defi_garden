@@ -1,13 +1,12 @@
 # MAI 디파이 수익률
 
-현재 MAI의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 6.05%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MAI의 가장 높은 정직한 수익률은 Base의 extra-finance-leverage-farming에서 6.66%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 5.88% | $2.33M |
-| [quickswap-dex →](https://www.defi.garden/?pool=63eb0ca9-4d62-46e1-8f8a-ae7368910698&src=seo_token) | Polygon | 0.03% | $648.3K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 6.05% | $241.9K |
-| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 4.94% | $131.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 6.45% | $2.33M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 6.66% | $240.5K |
+| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 2.58% | $131.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +14,7 @@
 
 ### 오늘 MAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 6.05%예요.
+DefiLlama 실시간 데이터 기준, Base의 extra-finance-leverage-farming에서 APY 6.66%예요.
 
 ### MAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -32,11 +31,11 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 6.05%예요
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
+- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 7, 2026

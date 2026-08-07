@@ -1289,6 +1289,10 @@ function App() {
           setDetailPool(foundPool);
           setCurrentView('pool-detail');
           document.title = `${foundPool.symbol} on ${foundPool.project} | DeFi Garden 🌱`;
+          // 247 world: search-as-navigation — pre-fill the header search bar
+          // with the ?token= that led here, or the pool's own symbol for a
+          // bare `?pool=` deep link with no prior grid state.
+          setSearchInput(selectedToken || foundPool.symbol || '');
 
           // spec 182 Territory T4: the render above (setDetailPool/setCurrentView/
           // document.title) stays immediate and unconditional — that's the SEO
@@ -1446,7 +1450,7 @@ function App() {
   // Close dropdown when clicking outside
   useEffect(() => {
     var handleClickOutside = event => {
-      if (activeDropdown && !event.target.closest('.global-filter-dropdown') && !event.target.closest('.google-filter-btn')) {
+      if (activeDropdown && !event.target.closest('.global-filter-dropdown') && !event.target.closest('.app-filter-btn')) {
         setActiveDropdown(null);
       }
     };
@@ -1954,6 +1958,18 @@ function App() {
           var anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
           var anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
           if (anomA !== anomB) return anomA - anomB;
+          // 239: default-view-only demotion of no-supply-yield rows below
+          // yield-bearing rows under the Risk-Adjusted sort. Sits AFTER the
+          // anomaly partition above (anomalous pools must stay demoted last
+          // of all — the trust rail is not weakened) and BEFORE the Sharpe
+          // comparison, since with no apySharpe history every pool falls
+          // through to the TVL tie-break, letting huge-TVL 0%-yield
+          // collateral pools (e.g. WSTETH/CBBTC/WEETH) top the flagship
+          // list. Nothing is filtered — rows stay listed and labeled
+          // "No supply yield" as today, only reordered.
+          var noA = hasNoSupplyYield(a) ? 1 : 0;
+          var noB = hasNoSupplyYield(b) ? 1 : 0;
+          if (noA !== noB) return noA - noB;
           var shA = a.kpis && typeof a.kpis.apySharpe === 'number' ? a.kpis.apySharpe : null;
           var shB = b.kpis && typeof b.kpis.apySharpe === 'number' ? b.kpis.apySharpe : null;
           var nullA = shA === null ? 1 : 0;
@@ -1964,9 +1980,9 @@ function App() {
         }
         if (sortBy === 'tvl') {
           // Yielding pools before no-supply-yield pools, then TVL desc (092)
-          var noA = hasNoSupplyYield(a) ? 1 : 0;
-          var noB = hasNoSupplyYield(b) ? 1 : 0;
-          if (noA !== noB) return noA - noB;
+          var _noA = hasNoSupplyYield(a) ? 1 : 0;
+          var _noB = hasNoSupplyYield(b) ? 1 : 0;
+          if (_noA !== _noB) return _noA - _noB;
           return b.tvlUsd - a.tvlUsd;
         } else {
           var _apyA = (a.apyBase || 0) + (a.apyReward || 0);
@@ -2175,6 +2191,14 @@ function App() {
 
   // Update URL when filters change (but not during initial load, popstate events, or pool detail view)
   useEffect(() => {
+    // 225 round 3c P0 companion guard: on a `?chain=…&minTvl=…&pool=<id>`
+    // arrival this effect fires the moment isInitialLoad flips (~100ms) —
+    // BEFORE pools have resolved — and updateUrl rewrites the URL without
+    // the pool param, so the pool-detail resolver (which re-reads the URL
+    // once pools land) finds nothing and the deep-linked detail never
+    // opens. While an unconsumed ?pool= param is still in the URL, leave
+    // the URL alone; the resolver (or the 072 dead-pool state) owns it.
+    if (getUrlParams().pool && currentView !== 'pool-detail') return;
     if (!isInitialLoad && currentView !== 'pool-detail') {
       if (chainMode && selectedChain && !selectedToken) {
         // Chain-first mode URL updates
@@ -2227,6 +2251,10 @@ function App() {
 
   // Handle token selection
   var handleTokenSelect = token => {
+    // 247 world: search-as-navigation — a token submitted from pool view
+    // (autocomplete pick or the search button) leaves pool view first; the
+    // rest of this handler then runs exactly as it does from the grid.
+    exitPoolViewForNewSearch();
     setChainMode(false); // Switch to token-first mode
 
     // Simple search tracking - capture the full search input at search completion
@@ -2318,6 +2346,10 @@ function App() {
         // Otherwise, attempt to parse natural language
         var query = searchInput.trim();
         if (query) {
+          // 247 world: search-as-navigation — a new query typed from pool
+          // view leaves pool view first; the NL parse below then runs
+          // exactly as it does from the grid.
+          exitPoolViewForNewSearch();
           var {
             token,
             chain,
@@ -2380,6 +2412,11 @@ function App() {
 
           // Update URL immediately after parsing and setting state
           // The useEffect that listens to state changes will then push the URL
+        } else if (currentView === 'pool-detail') {
+          // 247 world: submitting an empty query from pool view is a clear —
+          // return to the results view for the pre-filled context (spec 247
+          // search-as-nav; replaces the retired "← Back to Search" link).
+          handleSearchClearFromPoolView();
         }
       }
     } else if (showAutocomplete && autocompleteTokens.length > 0) {
@@ -2608,6 +2645,10 @@ function App() {
     // Set the pool for detail view
     setDetailPool(pool);
     setCurrentView('pool-detail');
+    // 247 world: search-as-navigation — pre-fill the header search bar with
+    // the active token query, or the pool's own symbol when browsing got
+    // here without one (chain-only browse, protocol/pool-type filter).
+    setSearchInput(selectedToken || pool.symbol || '');
     // Scroll to top when navigating to pool details
     window.scrollTo(0, 0);
 
@@ -2655,6 +2696,45 @@ function App() {
     }, 0);
   };
 
+  // 247 world: search-as-navigation — the pool-view header search bar (see
+  // renderHeaderRow) reuses the grid's normal submit handlers, adding only
+  // this "leave pool view" step: drop the `pool` URL param (so the URL-sync
+  // effect's `?pool=` guard doesn't hold back the new query's own updateUrl)
+  // and reset detail state. No-op outside pool view.
+  var exitPoolViewForNewSearch = () => {
+    if (currentView !== 'pool-detail') return;
+    var params = new URLSearchParams(window.location.search);
+    params.delete('pool');
+    var newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
+    window.history.pushState({}, '', newUrl);
+    setCurrentView('search');
+    setDetailPool(null);
+  };
+
+  // Clearing the search (× button or an empty Enter submit) from pool view
+  // is navigation, not a wipe: it returns to the results view for whatever
+  // context the search bar was pre-filled with — the `?token=` that led
+  // here, or the pool's own symbol when there was no prior grid state (a
+  // bare `?pool=` deep link, or a chain-only browse click-through). Same
+  // destination the retired "← Back to Search" link used to reach.
+  var handleSearchClearFromPoolView = () => {
+    var context = selectedToken || detailPool && detailPool.symbol || '';
+    Analytics.trackNavigation('pool-detail', 'search', 'search_clear');
+    var params = new URLSearchParams(window.location.search);
+    params.delete('pool');
+    var newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
+    window.history.pushState({}, '', newUrl);
+    setCurrentView('search');
+    setDetailPool(null);
+    setSearchInput(context);
+    if (context && context !== selectedToken) {
+      setChainMode(false);
+      setSelectedToken(context);
+    }
+    setShowAutocomplete(false);
+    setHighlightedIndex(-1);
+  };
+
   // Handle yield calculator - navigate to pool details page
   var handleCalculateYield = (pool, e) => {
     e.preventDefault();
@@ -2666,6 +2746,8 @@ function App() {
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
     setCurrentView('pool-detail');
+    // 247 world: search-as-navigation prefill (see handlePoolClick).
+    setSearchInput(selectedToken || pool.symbol || '');
     // Scroll to top when navigating to pool details
     window.scrollTo(0, 0);
   };
@@ -2833,9 +2915,25 @@ function App() {
   // forwarded to handlePoolClick's existing `position = -1` "not part of a
   // paginated list" default; `delayBase` reproduces the original per-card
   // stagger (index * 50, then +100/+150/+200 per element below).
+  // 225 round 3a (operator follow-up): the APY column mixed precision
+  // ("4.95%", "4%", "3.5%") because the global `formatApy` drops trailing
+  // zeros (maximumFractionDigits only, no minimum) — correct for a headline
+  // number, wrong inside a tabular-nums column where digits must line up.
+  // Scoped to this grid render site only; `formatApy` itself (and every
+  // other surface that uses it) is untouched.
+  var formatApyGrid = pct => Number(pct || 0).toLocaleString('en-US', {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2
+  }) + '%';
   var renderPoolCard = (pool, key, position, delayBase) => {
     var protocolUrl = getProtocolUrl(pool);
     var quickPreview = getQuickPreview(pool);
+    // 225 round 3 increment (a): icon lives in its own grid column, separate
+    // from the name column — .pool-name-group is the join point. In list
+    // (table) view it's `display:contents` so PoolLogo/.pool-left-section
+    // promote straight into .pool-card's 5-column grid; in grid (card) view
+    // it stays a normal flex row (icon beside the symbol/context stack),
+    // preserving that mode's card layout unchanged.
     return React.createElement('div', {
       key,
       className: `pool-card animate-on-mount clickable`,
@@ -2845,24 +2943,32 @@ function App() {
     React.createElement('div', {
       className: 'pool-header-new'
     }, React.createElement('div', {
-      className: 'pool-left-section'
+      className: 'pool-name-group'
     }, React.createElement(PoolLogo, {
       project: pool.project,
       chain: pool.chain
     }), React.createElement('div', {
+      className: 'pool-left-section'
+    }, React.createElement('div', {
       className: 'pool-symbol'
     }, pool.symbol), React.createElement('div', {
       className: 'pool-context-inline'
-    }, t('onProtocolChain', pool.project, pool.chain, protocolUrl))), React.createElement('div', {
+    }, t('onProtocolChain', pool.project, pool.chain, protocolUrl)))), React.createElement('div', {
       className: 'pool-apy-section'
     }, React.createElement('div', {
       className: isAnomalousApy(pool) ? 'pool-apy-hero apy-anomalous' : 'pool-apy-hero',
       title: isAnomalousApy(pool) ? 'Anomalous rate — likely temporary, manipulated, or a data artifact' : undefined
-    }, isAnomalousApy(pool) ? '⚠ ' + formatApy((pool.apyBase || 0) + (pool.apyReward || 0)) : React.createElement(AnimatedNumber, {
+    }, isAnomalousApy(pool) ? '⚠ ' + formatApyGrid((pool.apyBase || 0) + (pool.apyReward || 0)) : React.createElement(AnimatedNumber, {
       value: (pool.apyBase || 0) + (pool.apyReward || 0),
-      formatFn: v => formatApy(v),
+      formatFn: v => formatApyGrid(v),
       delay: 100 + delayBase
-    })), hasNoSupplyYield(pool) ? React.createElement('div', {
+    })),
+    // Trust rail (CLAUDE.md, test_zero_yield_demote.js): the honest
+    // 0.00% number above is NEVER removed for a zero-yield pool — only
+    // calmed (see the :has(.pool-apy-tag) rule in style.css). The
+    // round-3 brief's "nothing else" is satisfied by dropping the
+    // redundant $/day preview, not the number itself.
+    hasNoSupplyYield(pool) ? React.createElement('div', {
       className: 'pool-apy-tag'
     }, t('noSupplyYield')) : React.createElement('div', {
       className: 'pool-apy-preview'
@@ -2883,7 +2989,7 @@ function App() {
       formatFn: v => formatCurrency(v),
       delay: 200 + delayBase
     }))),
-    // Primary CTA - Calculate Yield (full width, quiet ghost)
+    // Quiet action link (row is already fully clickable via the onClick above)
     React.createElement('div', {
       className: 'pool-cta-section'
     }, React.createElement('button', {
@@ -2896,16 +3002,118 @@ function App() {
 
   // Add debug logging for pool detail view state
 
+  // Shared header row — the SAME band (classes/geometry) on the grid and the
+  // pool view, so `.app-header-sticky` never has a second implementation to
+  // drift out of sync. `includeSearch` used to be the only variation (the
+  // pool view had no wiring from search back into `currentView`); spec 247
+  // wires it up instead — the query IS the navigation state, so the pool
+  // view now renders the identical bar, pre-filled with its context. Logo
+  // stays left, controls stay right either way via the row's own
+  // space-between.
+  var renderHeaderRow = includeSearch => React.createElement('div', {
+    className: 'app-header-content'
+  },
+  // Logo (compact, clickable) — landing's identity tile: leaf mark in a
+  // rounded-square + wordmark (same SVG as landing.js's LeafMark).
+  React.createElement('div', {
+    className: 'app-logo',
+    onClick: resetApp
+  }, React.createElement('span', {
+    className: 'app-brand-mark',
+    'aria-hidden': 'true'
+  }, React.createElement('svg', {
+    className: 'app-leaf-mark',
+    viewBox: '0 0 32 32',
+    width: 22,
+    height: 22,
+    preserveAspectRatio: 'xMidYMid meet',
+    fill: 'none',
+    'aria-hidden': 'true'
+  }, React.createElement('path', {
+    d: 'M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z',
+    fill: 'currentColor'
+  }), React.createElement('path', {
+    d: 'M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4',
+    stroke: 'currentColor',
+    strokeWidth: '1.6',
+    strokeLinecap: 'round'
+  }))), 'DeFi Garden'),
+  // Persistent search bar (grid + pool view, both via includeSearch=true)
+  includeSearch && React.createElement('div', {
+    className: 'app-search-container'
+  }, React.createElement('div', {
+    className: 'app-search-bar'
+  }, React.createElement('input', {
+    type: 'text',
+    className: 'app-search-input',
+    // Placeholder reflects token query only; chain state belongs to filter chips
+    placeholder: selectedToken ? selectedToken : animatedPlaceholder,
+    value: searchInput,
+    onChange: handleSearchInputChange,
+    onKeyDown: handleKeyDown,
+    onFocus: handleInputFocus,
+    onBlur: handleInputBlur
+  }),
+  // ✕ clear button — only visible when search input is non-empty.
+  // From pool view (247 world) this is navigation, not a wipe: it
+  // returns to the results view for the pre-filled context instead
+  // of the grid's full clear-to-homepage.
+  searchInput.length > 0 && React.createElement('button', {
+    className: 'app-search-clear',
+    'aria-label': 'Clear search',
+    onMouseDown: e => {
+      // Use mousedown to fire before blur
+      e.preventDefault();
+      if (currentView === 'pool-detail') {
+        handleSearchClearFromPoolView();
+      } else {
+        setSearchInput('');
+        setSelectedToken('');
+        setShowAutocomplete(false);
+      }
+      // Return focus to input
+      var input = e.currentTarget.parentElement.querySelector('.app-search-input');
+      if (input) input.focus();
+    }
+  }, '✕'), React.createElement('button', {
+    className: 'app-search-button',
+    onClick: () => {
+      if (searchInput.length > 0 && autocompleteTokens.length > 0) {
+        handleTokenSelect(autocompleteTokens[0]);
+      }
+    }
+  }, '🔍'))),
+  // Controls (theme, language)
+  React.createElement('div', {
+    className: 'app-header-controls'
+  }, React.createElement('button', {
+    className: 'app-control-btn language-toggle',
+    onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
+    'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
+  }, language === 'en' ? 'KO' : 'EN'), React.createElement('button', {
+    className: 'app-control-btn theme-toggle',
+    onClick: toggleTheme,
+    'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
+  }, isDarkMode ? '☼' : '☾')));
+
   // Render Pool Detail View if active
   if (currentView === 'pool-detail' && detailPool) {
     return React.createElement('div', {
       className: 'app pool-detail-view'
-    }, React.createElement('div', {
+    },
+    // Same full-width header band as the grid, now WITH the search bar
+    // (spec 247 search-as-navigation) — pre-filled via the setSearchInput
+    // calls at each pool-detail entry point (handlePoolClick,
+    // handleCalculateYield, the url_direct resolver above). Submitting a
+    // new query or clearing this field is the only way out of pool view;
+    // see exitPoolViewForNewSearch / handleSearchClearFromPoolView.
+    React.createElement('div', {
+      className: 'app-header-sticky'
+    }, renderHeaderRow(true)), React.createElement('div', {
       className: 'container'
     }, React.createElement(PoolDetail, {
       pool: detailPool,
       onBack: handleBackFromDetail,
-      resetApp: resetApp,
       calculateYields: calculateYields,
       futureValue: futureValue,
       formatCurrency: formatCurrency,
@@ -2915,21 +3123,19 @@ function App() {
       formatApy: formatApy,
       getProtocolUrl: getProtocolUrl,
       getProtocolUrlWithRef: getProtocolUrlWithRef,
-      isDarkMode: isDarkMode,
       t: t,
-      AnimatedNumber: AnimatedNumber,
-      toggleTheme: toggleTheme,
-      language: language,
-      changeLanguage: changeLanguage
+      AnimatedNumber: AnimatedNumber
     })),
-    // Footer
+    // Footer — 240: one voice with the landing (attribution stays; the
+    // old joke sign-off is retired from money surfaces), via t() so
+    // KO renders translated instead of hardcoded English.
     React.createElement('footer', {
       className: 'app-footer'
-    }, React.createElement('p', null, 'Powered by ', React.createElement('a', {
+    }, React.createElement('p', null, t('poweredBy'), ' ', React.createElement('a', {
       href: 'https://api-docs.defillama.com/',
       target: '_blank',
       rel: 'noopener noreferrer'
-    }, 'Defillama API'), '. Made with AI & Degen Love.'), React.createElement('p', {
+    }, t('defillamaApi')), '. ', t('footerSignOff')), React.createElement('p', {
       className: 'app-footer-hub-links'
     }, React.createElement('a', {
       href: '/tokens'
@@ -2938,129 +3144,83 @@ function App() {
     }, t('browseChains')))));
   }
   return React.createElement('div', {
-    className: `app ${selectedToken || chainMode && selectedChain ? 'has-results' : ''}`
+    // 247 world: the dead-pool state (a ?pool= arrival whose id no longer
+    // resolves) is pool-detail's own state — it carries .dead-pool-view so
+    // pool-detail-styles.css can set the notice in the certificate world.
+    // deadPoolResolved is false on every grid/search render, so no other
+    // surface's markup or styling changes.
+    className: `app ${selectedToken || chainMode && selectedChain ? 'has-results' : ''}${deadPoolResolved ? ' dead-pool-view' : ''}`
   },
   // Google-style sticky header - ONLY show when we have results
   (selectedToken || chainMode && selectedChain) && React.createElement('div', {
-    className: 'google-header-sticky'
-  }, React.createElement('div', {
-    className: 'google-header-content'
-  },
-  // Logo (compact, clickable)
-  React.createElement('div', {
-    className: 'google-logo',
-    onClick: resetApp
-  }, '🌱 DeFi Garden'),
-  // Persistent search bar
-  React.createElement('div', {
-    className: 'google-search-container'
-  }, React.createElement('div', {
-    className: 'google-search-bar'
-  }, React.createElement('input', {
-    type: 'text',
-    className: 'google-search-input',
-    // Placeholder reflects token query only; chain state belongs to filter chips
-    placeholder: selectedToken ? selectedToken : animatedPlaceholder,
-    value: searchInput,
-    onChange: handleSearchInputChange,
-    onKeyDown: handleKeyDown,
-    onFocus: handleInputFocus,
-    onBlur: handleInputBlur
-  }),
-  // ✕ clear button — only visible when search input is non-empty
-  searchInput.length > 0 && React.createElement('button', {
-    className: 'google-search-clear',
-    'aria-label': 'Clear search',
-    onMouseDown: e => {
-      // Use mousedown to fire before blur
-      e.preventDefault();
-      setSearchInput('');
-      setSelectedToken('');
-      setShowAutocomplete(false);
-      // Return focus to input
-      var input = e.currentTarget.parentElement.querySelector('.google-search-input');
-      if (input) input.focus();
-    }
-  }, '✕'), React.createElement('button', {
-    className: 'google-search-button',
-    onClick: () => {
-      if (searchInput.length > 0 && autocompleteTokens.length > 0) {
-        handleTokenSelect(autocompleteTokens[0]);
-      }
-    }
-  }, '🔍'))),
-  // Controls (theme, language) 
-  React.createElement('div', {
-    className: 'google-header-controls'
-  }, React.createElement('button', {
-    className: 'google-control-btn language-toggle',
-    onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
-    'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
-  }, language === 'en' ? 'KO' : 'EN'), React.createElement('button', {
-    className: 'google-control-btn theme-toggle',
-    onClick: toggleTheme,
-    'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-  }, isDarkMode ? '🌙' : '☀️'))),
+    className: 'app-header-sticky'
+  }, renderHeaderRow(true),
   // Google-style navigation tabs - part of the header
   React.createElement('div', {
-    className: 'google-nav-row'
+    className: 'app-nav-row'
   }, React.createElement('div', {
-    className: 'google-nav-tabs'
+    className: 'app-nav-tabs'
   },
   // Primary rail: category tabs ("what am I browsing")
   React.createElement('div', {
-    className: 'google-nav-primary'
+    className: 'app-nav-primary'
   }, ...CATEGORY_TABS.map(({
     key,
     labelKey,
     icon
   }) => React.createElement('button', {
     key: labelKey,
-    className: `google-nav-tab ${(key ? selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1 : !selectedPoolTypes.length) ? 'active' : ''}`,
+    className: `app-nav-tab ${(key ? selectedPoolTypes.includes(key) && selectedPoolTypes.length === 1 : !selectedPoolTypes.length) ? 'active' : ''}`,
     onClick: () => setSelectedPoolTypes(key ? [key] : [])
   }, React.createElement('span', {
-    className: 'google-nav-label'
+    className: 'app-nav-label'
   }, t(labelKey))))),
   // Primary/secondary boundary
   React.createElement('span', {
-    className: 'google-nav-divider',
+    className: 'app-nav-divider',
     'aria-hidden': 'true'
   }),
   // Secondary cluster: filter buttons ("how is it narrowed")
   React.createElement('div', {
-    className: 'google-nav-secondary'
+    className: 'app-nav-secondary'
   }, React.createElement('button', {
-    className: `google-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
+    className: `app-filter-btn ${selectedChain ? 'has-selection' : ''} ${activeDropdown === 'chains' ? 'active' : ''}`,
     onClick: () => setActiveDropdown(activeDropdown === 'chains' ? null : 'chains'),
     id: 'chains-btn'
   }, navIcon('chains'), React.createElement('span', {
-    className: 'google-nav-label'
+    className: 'app-nav-label'
   }, selectedChain || t('navFilterChains'))), React.createElement('button', {
-    className: `google-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
+    className: `app-filter-btn ${minTvl > 0 ? 'has-selection' : ''} ${activeDropdown === 'tvl' ? 'active' : ''}`,
     onClick: () => setActiveDropdown(activeDropdown === 'tvl' ? null : 'tvl'),
     id: 'tvl-btn'
   }, navIcon('tvl'), React.createElement('span', {
-    className: 'google-nav-label'
+    className: 'app-nav-label'
   }, minTvl > 0 ? `$${minTvl >= 1000000 ? (minTvl / 1000000).toLocaleString('en-US') + 'M+' : (minTvl / 1000).toLocaleString('en-US') + 'K+'}` : t('navFilterTvl'))), React.createElement('button', {
-    className: `google-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
+    className: `app-filter-btn ${selectedProtocols.length > 0 ? 'has-selection' : ''} ${activeDropdown === 'protocols' ? 'active' : ''}`,
     onClick: () => setActiveDropdown(activeDropdown === 'protocols' ? null : 'protocols'),
     id: 'protocols-btn'
   }, navIcon('protocols'), React.createElement('span', {
-    className: 'google-nav-label'
+    className: 'app-nav-label'
   }, selectedProtocols.length > 0 ? `${selectedProtocols.length} Protocol${selectedProtocols.length > 1 ? 's' : ''}` : t('navFilterProtocols'))), React.createElement('button', {
-    className: `google-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
+    className: `app-filter-btn ${minApy > 0 ? 'has-selection' : ''} ${activeDropdown === 'apy' ? 'active' : ''}`,
     onClick: () => setActiveDropdown(activeDropdown === 'apy' ? null : 'apy'),
     id: 'apy-btn'
   }, navIcon('apy'), React.createElement('span', {
-    className: 'google-nav-label'
+    className: 'app-nav-label'
   }, minApy > 0 ? `${minApy}%+` : t('navFilterApy'))))),
   // Results count only
   React.createElement('div', {
-    className: 'google-tools-section'
+    className: 'app-tools-section'
   }, React.createElement('span', {
-    className: 'google-results-count'
+    className: 'app-results-count'
   }, `${filteredPools.length.toLocaleString('en-US')} results`)))),
-  // Theme Toggle (homepage/results)
+  // Theme Toggle (homepage/results) — 225 round 3b: the legacy 48px
+  // switch/handle pair is gone. The shared icon-only-button rule makes
+  // .theme-toggle a 40px pill; icon+gap+switch was ~76px of content
+  // overflowing that box, and at `position: fixed; right: 20px` the
+  // switch's handle spilled past the viewport edge as a clipped,
+  // unpressable sliver (the 136/221 clip class). The icon alone reflects
+  // state, matching the header's own icon-only toggle.
   React.createElement('button', {
     className: 'theme-toggle',
     'data-theme': isDarkMode ? 'dark' : 'light',
@@ -3068,11 +3228,7 @@ function App() {
     'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
   }, React.createElement('div', {
     className: 'theme-toggle-icon'
-  }, isDarkMode ? '🌙' : '☀️'), React.createElement('div', {
-    className: 'theme-toggle-switch'
-  }, React.createElement('div', {
-    className: 'theme-toggle-handle'
-  }))),
+  }, isDarkMode ? '☼' : '☾')),
   // Language Toggle
   React.createElement('button', {
     className: 'language-toggle',
@@ -3095,6 +3251,12 @@ function App() {
     className: 'search-section animate-on-mount'
   }, React.createElement('div', {
     className: 'search-container'
+  },
+  // 225 round 3c: the input + its autocomplete share one positioning
+  // anchor, so mid-type suggestions attach to the input instead of
+  // floating below the mode buttons and planner link.
+  React.createElement('div', {
+    className: 'search-input-anchor'
   }, React.createElement('input', {
     type: 'text',
     className: 'search-input',
@@ -3116,7 +3278,7 @@ function App() {
       e.preventDefault(); // Prevent input blur
       handleTokenSelect(token);
     }
-  }, token))),
+  }, token)))),
   // Two-Button Interface - show when no token is selected and not in chain mode
   !selectedToken && !chainMode && React.createElement('div', {
     className: 'search-buttons'
@@ -3128,9 +3290,10 @@ function App() {
       }
     },
     disabled: searchInput.length === 0
-  }, React.createElement('span', {
-    className: 'button-icon'
-  }, '🔍'), React.createElement('span', {
+  },
+  // 225 round 3c: text-only — emoji standing in for an icon
+  // system is off the craft floor; the label carries the action.
+  React.createElement('span', {
     className: 'button-text'
   }, t('tokenSearch'))), React.createElement('button', {
     className: 'search-button feeling-degen',
@@ -3169,8 +3332,6 @@ function App() {
       }
     }
   }, React.createElement('span', {
-    className: 'button-icon'
-  }, '🚀'), React.createElement('span', {
     className: 'button-text'
   }, t('feelingDegen')))),
   // Garden Planner entry — goal-first invitation under the search buttons.
@@ -3190,10 +3351,13 @@ function App() {
             key: 'icon',
             className: 'planner-entry-icon',
             'aria-hidden': 'true'
-          }, '🌱'), React.createElement('span', {
+          }, '🌱'),
+          // 225 round 3c: the icon span above already carries the
+          // sprout — the doubled leading emoji in the text is gone.
+          React.createElement('span', {
             key: 'q',
             className: 'planner-entry-question'
-          }, '🌱 Your garden — ≈ ' + projFmt + ' by ' + year + ' →')];
+          }, 'Your garden — ≈ ' + projFmt + ' by ' + year + ' →')];
         }
       }
     } catch (e2) {}
@@ -3218,7 +3382,15 @@ function App() {
   // Results Section - show for both token mode and chain mode
   (selectedToken || chainMode && selectedChain || deadPoolResolved) && React.createElement('div', {
     className: 'results-section animate-on-mount'
-  }, filteredPools.length > 0 && !deadPoolResolved ? [React.createElement('div', {
+  }, filteredPools.length > 0 && !deadPoolResolved ? [
+  // 225 round 3 increment (a): header band + column labels + rows are
+  // ONE composed surface — a single .results-panel card (16px radius,
+  // 1px border) — not three separate boxes. The header/columns/rows
+  // themselves carry no border/radius of their own; only the panel does.
+  React.createElement('div', {
+    className: 'results-panel',
+    key: 'panel'
+  }, React.createElement('div', {
     className: 'results-header',
     key: 'header'
   }, React.createElement('div', {
@@ -3243,7 +3415,7 @@ function App() {
     className: 'sort-control'
   }, React.createElement('span', {
     className: 'sort-label'
-  }, 'Sort by:'), React.createElement('div', {
+  }, t('sortByLabel')), React.createElement('div', {
     className: 'view-toggles sort-toggles'
   }, React.createElement('button', {
     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
@@ -3251,22 +3423,43 @@ function App() {
       setSortBy('apy');
       setUserSortedApy(true);
     }
-  }, 'APY'), React.createElement('button', {
+  }, t('resultsColApy')), React.createElement('button', {
     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
     onClick: () => {
       setSortBy('tvl');
       setUserSortedApy(false);
     }
-  }, 'TVL'), React.createElement('button', {
+  }, t('resultsColTvl')), React.createElement('button', {
     className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
     onClick: () => {
       setSortBy('sharpe');
       setUserSortedApy(false);
     }
-  }, t('sortByRiskAdjusted')))))), React.createElement('div', {
+  }, t('sortByRiskAdjusted')))))),
+  // Slim column-label row — hidden below 768px (the two-line mobile
+  // row layout is self-explanatory without it). Aligned to the exact
+  // same 5-column grid the rows below use.
+  viewMode === 'list' && React.createElement('div', {
+    className: 'pool-columns',
+    key: 'columns'
+  }, React.createElement('span', {
+    className: 'col-pool'
+  }, t('resultsColPool')), React.createElement('span', {
+    className: 'col-apy'
+  }, t('resultsColApy')), React.createElement('span', {
+    className: 'col-tvl'
+  }, t('resultsColTvl')), React.createElement('span', {
+    className: 'col-action',
+    'aria-hidden': 'true'
+  })), React.createElement('div', {
     className: viewMode === 'list' ? 'pools-list' : 'pools-grid',
     key: 'pools'
-  }, paginatedPools.map((pool, index) => renderPoolCard(pool, `${pool.pool}-${index}`, (currentPage - 1) * itemsPerPage + index, index * 50))),
+  }, paginatedPools.map((pool, index) =>
+  // Key is the pool id ALONE — including the index remounted nearly
+  // every row when the live fetch replaced the snapshot (order
+  // shifts), refetching every protocol icon: the visible flicker
+  // right after results appear. Stable id = in-place update.
+  renderPoolCard(pool, pool.pool, (currentPage - 1) * itemsPerPage + index, index * 50)))),
   // Pagination
   totalPages > 1 && React.createElement('div', {
     className: 'pagination animate-on-mount',
@@ -3419,14 +3612,14 @@ function App() {
       }
     }, 'Start Earning →'));
   })())))),
-  // Footer
+  // Footer — 240: same one-voice contract as the search-state footer above.
   React.createElement('footer', {
     className: 'app-footer'
-  }, React.createElement('p', null, 'Powered by ', React.createElement('a', {
+  }, React.createElement('p', null, t('poweredBy'), ' ', React.createElement('a', {
     href: 'https://api-docs.defillama.com/',
     target: '_blank',
     rel: 'noopener noreferrer'
-  }, 'Defillama API'), '. Made with AI & Degen Love.'), React.createElement('p', {
+  }, t('defillamaApi')), '. ', t('footerSignOff')), React.createElement('p', {
     className: 'app-footer-hub-links'
   }, React.createElement('a', {
     href: '/tokens'

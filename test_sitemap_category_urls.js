@@ -22,6 +22,16 @@
    (server, fixture routing, IGNORABLE_ERROR_PATTERN, CHROMIUM_EXECUTABLE).
    A3-A5 are pure-Node gates.
 
+   UPDATED for item 226 (specs/226.md, 2026-08-05): generate-sitemap.js's
+   EMIT_APP_VIEW_SITEMAPS now defaults to false — sitemap-category-*.xml no
+   longer ships by default (Google head-curation). A1/A2/A5 still need to
+   validate the underlying category-URL correctness logic the flag gates
+   (this file's whole reason for existing), so they now run against a SCRATCH
+   MUTANT of generate-sitemap.js with the flag forced back on
+   (withAppViewEnabledSitemapModule(), below) instead of the plain import —
+   never against stale committed files at repo root, which item 226 stops
+   regenerating there by default.
+
    A1: with a fixture population containing an RWA pool (ondo), a Yield-
        Derivatives pool (pendle), a staking pool (binance-staked-eth / WBETH)
        and a lending pool, `?token=<T>&poolTypes=Yield%20Farming` for a token
@@ -211,11 +221,16 @@ function fetchLivePools() {
   });
 }
 
-function readCategoryLocs() {
-  const files = fs.readdirSync(ROOT).filter(f => /^sitemap-category-.*\.xml$/.test(f));
+// item 226 (Google head-curation): reads from a supplied DIRECTORY, never
+// ROOT — generate-sitemap.js no longer regenerates sitemap-category-*.xml at
+// repo root by default (EMIT_APP_VIEW_SITEMAPS=false), so a committed copy
+// there would go stale. Callers pass a scratch dir this test just regenerated
+// into (see withAppViewEnabledSitemapModule() below).
+function readCategoryLocsFrom(dir) {
+  const files = fs.readdirSync(dir).filter(f => /^sitemap-category-.*\.xml$/.test(f));
   const locs = [];
   for (const file of files) {
-    const xml = fs.readFileSync(path.join(ROOT, file), 'utf8');
+    const xml = fs.readFileSync(path.join(dir, file), 'utf8');
     const matches = [...xml.matchAll(/<loc>([^<]*)<\/loc>/g)];
     for (const m of matches) locs.push({ file, loc: m[1].replace(/&amp;/g, '&') });
   }
@@ -244,7 +259,26 @@ function countMatchingPools(pools, token, poolType) {
 async function runA5() {
   console.log('\nA5 — regenerated sitemap-category-*.xml never emits a dead/thin URL (Node-only, live pool data)');
 
-  const { files, locs } = readCategoryLocs();
+  let livePools;
+  try {
+    livePools = await fetchLivePools();
+  } catch (err) {
+    check('fetched live pool data to simulate the regenerated URLs against', false, err.message);
+    console.log('  (skipping the rest of A5\'s count simulation — no live data to simulate against)');
+    return;
+  }
+  check('live pool fetch returned a non-empty array (precheck)', Array.isArray(livePools) && livePools.length > 0,
+    `got: ${Array.isArray(livePools) ? livePools.length + ' pools' : typeof livePools}`);
+
+  // item 226: regenerate into a scratch dir via the app-view-enabled mutant
+  // (see header) instead of reading committed sitemap-category-*.xml files
+  // from repo root — those no longer regenerate there by default.
+  const { files, locs } = await withTmpDir(async (dir) => {
+    await withAppViewEnabledSitemapModule(async (mutantGs) => {
+      await generateQuietly(livePools, mutantGs.generateSitemapSuite);
+    });
+    return readCategoryLocsFrom(dir);
+  });
   check('at least one sitemap-category-*.xml file exists on disk (regeneration ran)', files.length > 0,
     `files: ${JSON.stringify(files)}`);
   check('at least one <loc> exists across all category files (precheck against a vacuous pass)', locs.length > 0,
@@ -271,16 +305,11 @@ async function runA5() {
   check('at least one poolTypes=Yield Derivatives URL is emitted',
     locs.some(({ loc }) => new URL(loc).searchParams.get('poolTypes') === 'Yield Derivatives'));
 
-  let pools;
-  try {
-    pools = await fetchLivePools();
-  } catch (err) {
-    check('fetched live pool data to simulate the regenerated URLs against', false, err.message);
-    console.log('  (skipping the rest of A5\'s count simulation — no live data to simulate against)');
-    return;
-  }
-  check('live pool fetch returned a non-empty array', Array.isArray(pools) && pools.length > 0,
-    `got: ${Array.isArray(pools) ? pools.length + ' pools' : typeof pools}`);
+  // item 226: reuse the SAME livePools fetch this function already made
+  // above (the regenerated URLs must be simulated against the exact
+  // population that produced them — a second, later fetch could observe
+  // different live data and false-flag a URL that was correct when emitted).
+  const pools = livePools;
 
   const zeroPool = [];
   const onePool = [];
@@ -343,21 +372,54 @@ async function withTmpDir(fn) {
   }
 }
 
-async function generateQuietly(pools) {
+// `suiteFn` (item 226) lets a caller substitute a different generateSitemapSuite
+// — e.g. an app-view-enabled scratch mutant's — without duplicating the
+// console-suppression wrapper. Defaults to the real, imported one.
+async function generateQuietly(pools, suiteFn) {
+  const fn = suiteFn || generateSitemapSuite;
   const realLog = console.log;
   console.log = () => {};
   try {
-    await generateSitemapSuite(pools);
+    await fn(pools);
   } finally {
     console.log = realLog;
   }
 }
 
+// item 226 (Google head-curation): EMIT_APP_VIEW_SITEMAPS now defaults to
+// false, so the category-sitemap family this whole file exists to validate
+// no longer ships by default. This forces it on via a SCRATCH MUTANT copy of
+// generate-sitemap.js — written to REPO ROOT (never touching the real file)
+// so its PoolDetail.js relative require still resolves, deleted immediately
+// after use — so this test keeps exercising the REAL underlying category-URL
+// correctness logic the flag gates (the spec's own documented revert path),
+// rather than a stale snapshot of committed sitemap-category-*.xml files.
+async function withAppViewEnabledSitemapModule(fn) {
+  const realPath = path.join(ROOT, 'generate-sitemap.js');
+  const realSrc = fs.readFileSync(realPath, 'utf8');
+  const mutatedSrc = realSrc.replace(
+    'const EMIT_APP_VIEW_SITEMAPS = false;',
+    'const EMIT_APP_VIEW_SITEMAPS = true;'
+  );
+  if (mutatedSrc === realSrc) throw new Error('withAppViewEnabledSitemapModule: EMIT_APP_VIEW_SITEMAPS anchor not found in generate-sitemap.js');
+  const mutantPath = path.join(ROOT, `generate-sitemap.226-catmutant-${process.pid}-${Date.now()}.js`);
+  fs.writeFileSync(mutantPath, mutatedSrc);
+  try {
+    delete require.cache[mutantPath];
+    return await fn(require(mutantPath));
+  } finally {
+    delete require.cache[mutantPath];
+    fs.rmSync(mutantPath, { force: true });
+  }
+}
+
 // Derive the REAL emitted category-URL list by running the actual generator
-// against FIXTURE_POOLS in a scratch cwd.
+// (app-view-enabled mutant, item 226) against FIXTURE_POOLS in a scratch cwd.
 async function realEmittedCategoryUrls() {
   return withTmpDir(async (dir) => {
-    await generateQuietly(FIXTURE_POOLS);
+    await withAppViewEnabledSitemapModule(async (mutantGs) => {
+      await generateQuietly(FIXTURE_POOLS, mutantGs.generateSitemapSuite);
+    });
     const files = fs.readdirSync(dir).filter(f => /^sitemap-category-.*\.xml$/.test(f));
     const locs = [];
     for (const file of files) {

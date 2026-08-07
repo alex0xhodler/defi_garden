@@ -1,10 +1,10 @@
 # PRIMEUSD DeFi Yields
 
-The highest honest PRIMEUSD yield right now is 6.31% on vault-street-primeusd (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRIMEUSD yield right now is 6.87% on vault-street-primeusd (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vault-street-primeusd →](https://www.defi.garden/?pool=0fcae026-0165-589b-855a-25ebc6b0f33d&src=seo_token) | Ethereum | 6.31% | $5.77M |
+| [vault-street-primeusd →](https://www.defi.garden/?pool=0fcae026-0165-589b-855a-25ebc6b0f33d&src=seo_token) | Ethereum | 6.87% | $5.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRIMEUSD yield today?
 
-6.31% APY on vault-street-primeusd (Ethereum), based on live DefiLlama data.
+6.87% APY on vault-street-primeusd (Ethereum), based on live DefiLlama data.
 
 ### How many PRIMEUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.77M in total.
+1 live pool clear this page's $100K TVL floor, $5.85M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

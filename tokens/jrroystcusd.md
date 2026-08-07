@@ -1,10 +1,10 @@
 # JRROYSTCUSD DeFi Yields
 
-The highest honest JRROYSTCUSD yield right now is 15.02% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRROYSTCUSD yield right now is 5.58% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=03e83337-703c-5fdd-bf10-ca6cd8e05f7f&src=seo_token) | Ethereum | 15.02% | $127.7K |
+| [royco-v2 →](https://www.defi.garden/?pool=03e83337-703c-5fdd-bf10-ca6cd8e05f7f&src=seo_token) | Ethereum | 5.58% | $114.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRROYSTCUSD yield today?
 
-15.02% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+5.58% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JRROYSTCUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.7K in total.
+1 live pool clear this page's $100K TVL floor, $114.7K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

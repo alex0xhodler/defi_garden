@@ -1,11 +1,11 @@
 # HYPERUSDTC 디파이 수익률
 
-현재 HYPERUSDTC의 가장 높은 정직한 수익률은 Stable의 morpho-blue에서 3.00%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HYPERUSDTC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 2.41%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=cc22fb55-9b8f-4d47-afe3-88cbd21c38f2&src=seo_token) | Stable | 0.09% | $186.1K |
-| [morpho-blue →](https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token) | Ethereum | 3.00% | $112.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=cc22fb55-9b8f-4d47-afe3-88cbd21c38f2&src=seo_token) | Stable | 0.25% | $186.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token) | Ethereum | 2.41% | $112.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 HYPERUSDTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Stable의 morpho-blue에서 APY 3.00%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 2.41%예요.
 
 ### HYPERUSDTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $298.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $298.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Stable의 morpho-blue에서 APY 3.00%예�
 - [Stable](https://www.defi.garden/ko/chains/stable)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 7, 2026

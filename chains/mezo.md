@@ -1,13 +1,14 @@
 # Mezo DeFi Yields
 
-The highest honest Mezo yield right now is 27.42% on mezo-earn (Mezo), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Mezo yield right now is 27.39% on mezo-earn (Mezo), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 4.24% | $52.34M |
-| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_chain) | 3.11% | $5.51M |
-| MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 27.42% | $2.96M |
-| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_chain) | 0.72% | $2.09M |
+| BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 4.09% | $53.51M |
+| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_chain) | 2.64% | $5.5M |
+| MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 27.39% | $2.88M |
+| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_chain) | 0.26% | $2.09M |
+| BTC | [boar-finance →](https://www.defi.garden/?pool=8f836e02-e284-5e9d-af8c-e0919d8c975f&src=seo_chain) | 13.63% | $162.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Mezo yield today?
 
-27.42% APY on mezo-earn (Mezo), based on live DefiLlama data.
+27.39% APY on mezo-earn (Mezo), based on live DefiLlama data.
 
 ### How many Mezo pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $62.91M in total.
+5 live pools clear this page's $100K TVL floor, $64.13M in total.
 
 ### Are these rates safe?
 
@@ -40,4 +41,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SMUSD](https://www.defi.garden/tokens/smusd)
 - [MEZO](https://www.defi.garden/tokens/mezo)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

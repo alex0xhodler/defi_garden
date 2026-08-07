@@ -4,7 +4,7 @@ The highest honest WAPLAUSDT0 yield right now is 2.47% on balancer-v3 (Plasma), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 2.47% | $527.8K |
+| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 2.47% | $527.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WAPLAUSDT0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $527.8K in total.
+1 live pool clear this page's $100K TVL floor, $527.4K in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [GHO](https://www.defi.garden/tokens/gho)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [USDAI](https://www.defi.garden/tokens/usdai)
 - [SYZUSD](https://www.defi.garden/tokens/syzusd)
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Plasma](https://www.defi.garden/chains/plasma)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

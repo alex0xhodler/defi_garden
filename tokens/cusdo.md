@@ -1,11 +1,11 @@
 # CUSDO DeFi Yields
 
-The highest honest CUSDO yield right now is 3.84% on openeden-usdo (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CUSDO yield right now is 3.10% on openeden-usdo (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [openeden-usdo →](https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token) | Solana | 3.08% | $859.8K |
-| [curve-dex →](https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token) | Ethereum | 3.84% | $159.5K |
+| [openeden-usdo →](https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token) | Solana | 3.10% | $748.2K |
+| [curve-dex →](https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token) | Ethereum | 2.74% | $160.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CUSDO yield today?
 
-3.84% APY on openeden-usdo (Solana), based on live DefiLlama data.
+3.10% APY on openeden-usdo (Solana), based on live DefiLlama data.
 
 ### How many CUSDO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.02M in total.
+2 live pools clear this page's $100K TVL floor, $908.3K in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

@@ -1,13 +1,14 @@
 # ADS 디파이 수익률
 
-현재 ADS의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 5.81%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ADS의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 1.38%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.09% | $714.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.09% | $712.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 5.81% | $317.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bdd7c234-2578-5660-a682-c2e35c9d51c7&src=seo_token) | Base | 0.02% | $206.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.12% | $839K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.17% | $725.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.08% | $720.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 2.84% | $322.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 1.38% | $234.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,11 +16,11 @@
 
 ### 오늘 ADS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 5.81%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 1.38%예요.
 
 ### ADS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $3.02M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $3.05M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,4 +40,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 5.81%예�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 4, 2026
+## 마지막 업데이트: August 7, 2026

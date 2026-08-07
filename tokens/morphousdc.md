@@ -1,10 +1,10 @@
 # MORPHOUSDC DeFi Yields
 
-The highest honest MORPHOUSDC yield right now is 4.82% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MORPHOUSDC yield right now is 5.80% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=89981eec-b7a8-43d5-af89-381dd4ed7d49&src=seo_token) | Ethereum | 4.82% | $112.2K |
+| [lagoon →](https://www.defi.garden/?pool=89981eec-b7a8-43d5-af89-381dd4ed7d49&src=seo_token) | Ethereum | 5.80% | $112.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MORPHOUSDC yield today?
 
-4.82% APY on lagoon (Ethereum), based on live DefiLlama data.
+5.80% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many MORPHOUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.2K in total.
+1 live pool clear this page's $100K TVL floor, $112.3K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026

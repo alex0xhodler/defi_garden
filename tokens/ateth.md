@@ -1,10 +1,10 @@
 # ATETH DeFi Yields
 
-The highest honest ATETH yield right now is 2.27% on latch (Gravity), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATETH yield right now is 2.33% on latch (Gravity), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_token) | Gravity | 2.27% | $181.7K |
+| [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_token) | Gravity | 2.33% | $185.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATETH yield today?
 
-2.27% APY on latch (Gravity), based on live DefiLlama data.
+2.33% APY on latch (Gravity), based on live DefiLlama data.
 
 ### How many ATETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181.7K in total.
+1 live pool clear this page's $100K TVL floor, $185.7K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Gravity](https://www.defi.garden/chains/gravity)
 
-## Last updated August 4, 2026
+## Last updated August 7, 2026
