@@ -1357,6 +1357,69 @@ select.form-control {
   }
 }
 
+/* ── The generated SEO estate as a certificate leaf ──────────────────────
+   /tokens/<slug>, /chains/<slug>, their ko/ twins, and the /tokens + /chains
+   hub/A–Z pages (generate-token-pages.js / generate-chain-pages.js) all link
+   this file rather than baking their own copy of it, so this costs nothing
+   extra per page — same margin-strand + closing-band primitives as the grid
+   above, deliberately the SMALLEST subset: no rosette, no corners, and
+   (unlike the app) NO ambient motion at all — this is the crawl surface,
+   where page-weight and LCP are the whole point, not a place to spend an
+   animation budget. `.tp-wrap` (token), `.cp-wrap` (chain), `.hub-wrap`
+   (hub + A–Z, one class per renderHubStyleBlock) are the three wrapper
+   classes every one of these ~4,400 pages already emits. */
+.tp-wrap,
+.cp-wrap,
+.hub-wrap {
+  position: relative;
+  isolation: isolate;
+}
+
+@media (min-width: 1080px) {
+  .tp-wrap::before,
+  .cp-wrap::before,
+  .hub-wrap::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: var(--ui-accent-margin);
+    -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+    mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+    -webkit-mask-size: 20px 50px, 20px 50px;
+    mask-size: 20px 50px, 20px 50px;
+    -webkit-mask-repeat: repeat-y, repeat-y;
+    mask-repeat: repeat-y, repeat-y;
+    -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+    mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  }
+}
+
+/* One closing band, in-flow at the bottom of the wrap (after the page's
+   final note/footer line) — no absolute positioning, so it never needs
+   tuning against a page's own variable content length. Static, no
+   `ornBreathe` cycle (the app's version breathes; this one does not). */
+.tp-wrap::after,
+.cp-wrap::after,
+.hub-wrap::after {
+  content: '';
+  display: block;
+  width: min(320px, 60%);
+  height: 14px;
+  margin: 28px auto 0 auto;
+  background-color: var(--ui-accent-soft);
+  pointer-events: none;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: 35px 14px;
+  mask-size: 35px 14px;
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
 * {
   box-sizing: border-box;
 }

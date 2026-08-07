@@ -219,6 +219,23 @@ function renderHreflangLinks(enUrl, koUrl) {
     <link rel="alternate" hreflang="x-default" href="${enUrl}">\n`;
 }
 
+/** Font preload hints (247 world): Public Sans (text) / Besley (display),
+ * self-hosted, same two files home.html/plan.html already preload
+ * unconditionally (--font-family-base/-display in style.css point at them on
+ * every mode) — promoted here so the SEO estate stops paying a render-
+ * blocking @font-face lookup inside the already-linked /style.css before the
+ * browser discovers these. Root-absolute paths (`/fonts/...`), NOT the
+ * `./fonts/...` home.html/plan.html use — those two live at document root,
+ * but this same function serves pages at every depth this estate has
+ * (`/tokens/<slug>`, `/ko/tokens/<slug>`, `/tokens/az/<letter>`, ...) and a
+ * relative href resolves against the PAGE's own URL, not style.css's —
+ * root-absolute is the one form that is correct at every depth without a
+ * depth parameter. */
+function renderFontPreloadLinks() {
+  return `    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>\n`;
+}
+
 // --- Analytics bootstrap (039) -----------------------------------------------
 // Zero of these generated pages loaded analytics.js before this — an
 // untracked, unmeasurable chunk of the SEO investment (specs/039.md). This is
@@ -492,9 +509,9 @@ function renderYieldHeadlineHtml(headline, subject, t, cssClass, msgKey) {
  * existing <style> — reuses the same neumorphic tokens as `.${cssPrefix}-card`
  * (no new colors/gradients, per the 2026-07-10 "reuse before inventing" rule). */
 function renderWaitlistCtaStyle(cssPrefix) {
-  return `      .${cssPrefix}-waitlist { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 20px 22px; margin: 24px 0; }
-      .${cssPrefix}-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--color-text); }
-      .${cssPrefix}-waitlist p { color: var(--color-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
+  return `      .${cssPrefix}-waitlist { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 20px 22px; margin: 24px 0; }
+      .${cssPrefix}-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--ui-text); }
+      .${cssPrefix}-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
       .${cssPrefix}-waitlist .${cssPrefix}-cta { margin: 4px 0 10px; }
       .${cssPrefix}-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
 `;
@@ -536,21 +553,21 @@ function renderHubStyleBlock() {
   return `
     <style>
       .hub-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .hub-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
-      .hub-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
-      .hub-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
-      .hub-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 18px; margin: 20px 0; }
-      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
-      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
-      .hub-links a:hover { box-shadow: var(--neuro-shadow-flat); }
-      .hub-links a:active { box-shadow: var(--neuro-shadow-pressed); }
-      .hub-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
-      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
-      .hub-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-      .hub-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
-      .hub-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-      .hub-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
-      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } }
+      .hub-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .hub-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .hub-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .hub-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 20px 0; }
+      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-pill); }
+      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .hub-cta:hover { background: var(--ui-accent-hover); }
+      .hub-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .hub-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .hub-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } .hub-links a:active, .hub-cta:active { transform: none; } }
 ${renderWaitlistCtaStyle('hub')}    </style>`;
 }
 
@@ -589,7 +606,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens`, { page_type: 'token_hub', token_count: ranked.length, lang: language })}
 </head>
 <body>
@@ -647,7 +664,7 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/az/${group.slug}`, { page_type: 'token_az', letter: group.key, token_count: group.records.length, lang: language })}
 </head>
 <body>
@@ -978,47 +995,49 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta name="twitter:image" content="${ogImageUrl}">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <!-- Reuse the app's design system: style.css defines the neumorphic tokens
-         (--color-*, --neuro-*) + the brand gradient body. The scoped block below
-         styles this page with those tokens only — no hardcoded colors/gradients. -->
-    <link rel="stylesheet" href="/style.css">
+    <!-- Reuse the app's design system (247 world): style.css defines the
+         --ui-* certificate-green tokens (the --color-*/--neuro-* names below
+         are its deprecated aliases, still resolving) + Besley/Public Sans,
+         preloaded above. The scoped block below styles this page with those
+         tokens only — no hardcoded colors/gradients/fonts. -->
+${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
     <style>
       .tp-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .tp-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
-      .tp-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
-      .tp-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
-      .tp-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 8px 18px; margin: 20px 0; }
+      .tp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .tp-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .tp-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .tp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 8px 18px; margin: 20px 0; }
       .tp-card table { width: 100%; border-collapse: collapse; }
-      .tp-card th, .tp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
-      .tp-card th { color: var(--color-text-secondary); font-weight: 600; }
-      .tp-card td.num, .tp-card th.num { text-align: right; }
+      .tp-card th, .tp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
+      .tp-card th { color: var(--ui-text-secondary); font-weight: 600; }
+      .tp-card td.num, .tp-card th.num { text-align: right; font-variant-numeric: tabular-nums; }
       .tp-card tr:last-child td { border-bottom: none; }
       .tp-card tbody tr { transition: background .15s ease; }
-      .tp-card tbody tr:hover { background: var(--color-background); }
-      .tp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .tp-card tbody tr:hover { background: var(--ui-surface-muted); }
+      .tp-pool-link { color: var(--ui-accent); text-decoration: none; font-weight: 500; }
       .tp-pool-link:hover { text-decoration: underline; }
-      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      .tp-pool-link:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
       @media (prefers-reduced-motion: reduce) { .tp-card tbody tr { transition: none; } }
-      .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
-      .tp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-      .tp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
-      .tp-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+      .tp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .tp-cta:hover { background: var(--ui-accent-hover); }
+      .tp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .tp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .related { margin: 30px 0 8px; }
-      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
-      .related-links a:hover { box-shadow: var(--neuro-shadow-flat); }
-      .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
-      .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-      .tp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
-      .tp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
-      .tp-yield-headline { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); padding: 14px 18px; margin: 4px 0 18px; color: var(--color-text); font-weight: 600; line-height: 1.5; }
+      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .related-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .related-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .related-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .tp-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      .tp-answer { color: var(--ui-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .tp-yield-headline { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 4px 0 18px; color: var(--ui-text); font-weight: 600; line-height: 1.5; }
       .tp-faq { margin: 30px 0 8px; }
-      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .tp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
-      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
-      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
+      .tp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
+      .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
+      .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
-      @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } }
+      @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
 ${renderWaitlistCtaStyle('tp')}    </style>
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/tokens/${rec.slug}`, { page_type: 'token_landing', token: rec.symbol, pool_count: rec.qualifyingCount, lang: language })}
 </head>
@@ -1316,7 +1335,7 @@ module.exports = {
   todayGeneratedDate, renderLastUpdatedHtml, loadFixturePools,
   chainLinksFor, categoryLinksFor, renderLinkNavHtml,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
-  renderHreflangLinks, SUPPORTED_LANGS,
+  renderHreflangLinks, renderFontPreloadLinks, SUPPORTED_LANGS,
   yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
   // 242: moved from generate-spotlight.js (which now imports + re-exports

@@ -205,9 +205,13 @@ test('renders >=1 real pool row with en-US formatted numbers', () => {
 test('indexable (robots index,follow)', () => {
   assert.ok(html.includes('content="index,follow"'), 'should be indexable');
 });
-test('reuses the app design system (links style.css) and uses neuro tokens, no hardcoded hex', () => {
+test('reuses the app design system (links style.css) and uses --ui-* tokens, no hardcoded hex', () => {
   assert.ok(html.includes('<link rel="stylesheet" href="/style.css">'), 'must link the app style.css');
-  assert.ok(html.includes('var(--neuro-shadow-raised)') && html.includes('var(--color-surface)'), 'must use neuro/color tokens');
+  // 247 world: the scoped block consumes --ui-* tokens directly (style.css's
+  // current design-system layer) rather than the deprecated --neuro-*/
+  // --color-* alias names — those still resolve (old cached pages), but new
+  // generator output points at the source tokens.
+  assert.ok(html.includes('var(--ui-accent)') && html.includes('var(--ui-surface)'), 'must use --ui-* tokens');
   const styleBlock = html.match(/<style>[\s\S]*?<\/style>/)[0];
   assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'no hardcoded hex colors in the scoped style block');
 });
@@ -584,11 +588,11 @@ test('pitch line is token-specific (dataset content, not a fixed template)', () 
   const midHtml2 = gen.renderTokenPage(bySym['MID']);
   assert.ok(midHtml2.includes('A card that spends your MID yield'), 'missing MID-specific pitch');
 });
-test('waitlist block uses the neuro token system only, no hardcoded hex colors, reuses .tp-cta', () => {
+test('waitlist block uses the --ui-* token system only, no hardcoded hex colors, reuses .tp-cta', () => {
   const styleBlock = gen.renderWaitlistCtaStyle('tp');
   assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'hardcoded hex color in the waitlist CTA style block');
-  assert.ok(styleBlock.includes('var(--neuro-shadow-raised)') && styleBlock.includes('.tp-cta'),
-    'must reuse existing neuro tokens/button style');
+  assert.ok(styleBlock.includes('var(--ui-border)') && styleBlock.includes('.tp-cta'),
+    'must reuse existing --ui-* tokens/button style');
   assert.ok(html.includes(styleBlock), 'waitlist style block missing from the rendered page <style>');
   assert.ok(html.match(/<a class="tp-cta" href="\/plan\.html\?waitlist=1/), 'CTA link must reuse the existing .tp-cta button style');
 });
@@ -693,11 +697,11 @@ test('every generated token page (en + ko) carries the yield headline with natur
     assert.ok(koHtml.includes('Claude Pro') && koHtml.includes('구독료'), `KO page yield headline not translated for ${rec.symbol}`);
   });
 });
-test('yield headline uses the neuro token system only, no hardcoded hex colors', () => {
+test('yield headline uses the --ui-* token system only, no hardcoded hex colors', () => {
   const styleMatch = html.match(/\.tp-yield-headline \{[^}]*\}/);
   assert.ok(styleMatch, 'yield headline style rule missing from rendered page');
   assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleMatch[0]), 'hardcoded hex color in the yield headline style');
-  assert.ok(styleMatch[0].includes('var(--neuro-shadow-raised)'), 'must reuse existing neuro shadow token');
+  assert.ok(styleMatch[0].includes('var(--ui-border)'), 'must reuse existing --ui-* border token');
 });
 
 console.log('174 — safety-floor honesty (FAQ) + no 0.00% rows + forever-number rail (committed regression)');
